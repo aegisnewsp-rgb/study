@@ -16,7 +16,7 @@ echo "[1/4] Stopping existing container..."
 docker compose down 2>/dev/null || true
 
 echo "[2/4] Building Docker image..."
-docker build -t studyroadmap:latest .
+docker build --build-arg BUILD_DATE=$(date +%s) -t studyroadmap:latest .
 
 echo "[3/4] Starting container with Traefik..."
 docker compose up -d --force-recreate

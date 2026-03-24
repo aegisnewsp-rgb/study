@@ -1,16 +1,23 @@
 ---
 import '../styles/global.css';
 
+interface FAQItem {
+  question: string;
+  answer: string;
+}
+
 interface Props {
   title?: string;
   description?: string;
   image?: string;
+  faqs?: FAQItem[];
 }
 
 const {
   title = 'StudyRoadmap™ — AI Study Plans for 20+ Exams',
   description = 'Instant personalized study roadmaps for NEET, JEE, UPSC, MDCAT, JAMB and 20+ competitive exams. Free, no signup required.',
   image = '/og-image.svg',
+  faqs = [],
 } = Astro.props;
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
@@ -44,6 +51,22 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- FAQPage Structured Data -->
+    {faqs.length > 0 && (
+      <script type="application/ld+json" set:html={JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": faqs.map(f => ({
+          "@type": "Question",
+          "name": f.question,
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": f.answer,
+          },
+        })),
+      })} />
+    )}
 
     <!-- Dark mode: prevent FOUC -->
     <script is:inline>

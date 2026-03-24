@@ -40,9 +40,32 @@ const FEATURES = [
 ];
 
 const SUBJECT_COLORS = ['#60a5fa','#34d399','#fb923c','#a78bfa','#f472b6','#14b8a6','#fbbf24','#f87171'];
+
+const FAQS = [
+  {
+    question: 'Is StudyRoadmap really free to use?',
+    answer: 'Yes, 100% free. No signup, no fees, no premium tier. Generate as many roadmaps as you want, whenever you want.',
+  },
+  {
+    question: 'Do I need to create an account to generate a roadmap?',
+    answer: 'No account required. Select your exam, pick a duration, and get your personalised study plan instantly.',
+  },
+  {
+    question: 'How does StudyRoadmap generate my study plan?',
+    answer: 'We analyse the official syllabus weightings for each exam topic. Our algorithm selects and sequences the highest-impact topics based on your available time, so you always study what matters most first.',
+  },
+  {
+    question: 'Which exams are supported?',
+    answer: 'StudyRoadmap covers 20+ exams across India (NEET, JEE, UPSC, CUET, SSC CGL, CAT, CLAT, NDA, UGC NET), Pakistan (MDCAT, ECAT, NAT-I, LAT, HAT-UG), and Nigeria (JAMB, WAEC, NECO, NABTEB, NCEE).',
+  },
+  {
+    question: 'How long does it take to generate a roadmap?',
+    answer: 'Your personalised roadmap is generated instantly - in under a second. No waiting, no processing time.',
+  },
+];
 ---
 
-<Layout title="StudyRoadmap™ — Free AI Study Plans for 20+ Exams" description="Instant personalised study roadmaps for NEET, JEE, UPSC, MDCAT, JAMB and 20+ competitive exams. Free, no signup, instant results.">
+<Layout title="StudyRoadmap - Free AI Study Plans for 20+ Exams" description="Instant personalised study roadmaps for NEET, JEE, UPSC, MDCAT, JAMB and 20+ competitive exams. Free, no signup, instant results." faqs={FAQS}>
   <Navbar />
 
   <main class="flex-1">

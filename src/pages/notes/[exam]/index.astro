@@ -32,9 +32,21 @@ for (const note of examNotes) {
 const title = `${examName} Study Notes — All Subjects | StudyRoadmap™`;
 const description = `Free ${examName} study notes for all subjects. ${examNotes.length} topics — Physics, Chemistry, Biology, and more. No signup required.`;
 const canonicalUrl = `https://studyroadmap.in/notes/${exam}`;
+const siteUrl = 'https://studyroadmap.in';
+
+const breadcrumbJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: siteUrl },
+    { '@type': 'ListItem', position: 2, name: 'Roadmap', item: `${siteUrl}/roadmap` },
+    { '@type': 'ListItem', position: 3, name: `${examName} Notes`, item: canonicalUrl },
+  ],
+};
 ---
 
 <Layout title={title} description={description} canonical={canonicalUrl}>
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
   <Navbar />
   <main class="flex-1">
     <section class="bg-surface-50 dark:bg-surface-950 border-b border-surface-200 dark:border-surface-800">

@@ -372,3 +372,9 @@ Footer timestamp signals content freshness to students and Google. Educational c
 **Navbar:** Added "Notes" nav link
 **Build:** 1375 pages, PASSED
 **Result:** PASSED — deployed live
+
+## Cycle 17 — 2026-03-24T22:02 UTC
+**Change:** BreadcrumbList JSON-LD on all notes pages (4 levels: /notes/, /notes/{exam}/, /notes/{exam}/{subject}/, /notes/{exam}/{subject}/{topic}/)
+**SEO:** Breadcrumbs appear in Google search results as clickable path; supports Google AI Overviews
+**Build:** 1375 pages, PASSED
+**Result:** PASSED — deployed live

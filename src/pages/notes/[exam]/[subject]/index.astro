@@ -29,9 +29,21 @@ const title = `${subjectName} Study Notes — ${examName} | StudyRoadmap™`;
 const description = `Free ${subjectName} study notes for ${examName}. ${subjectNotes.length} topics covered — concept explanations, formulas, problem-solving steps, and diagrams.`;
 const canonicalUrl = `https://studyroadmap.in/notes/${exam}/${subject}`;
 const siteUrl = 'https://studyroadmap.in';
+
+const breadcrumbJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: siteUrl },
+    { '@type': 'ListItem', position: 2, name: 'Roadmap', item: `${siteUrl}/roadmap` },
+    { '@type': 'ListItem', position: 3, name: examName, item: `${siteUrl}/roadmap?exam=${exam}` },
+    { '@type': 'ListItem', position: 4, name: subjectName, item: canonicalUrl },
+  ],
+};
 ---
 
 <Layout title={title} description={description} canonical={canonicalUrl}>
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
   <Navbar />
   <main class="flex-1">
     <!-- Header -->

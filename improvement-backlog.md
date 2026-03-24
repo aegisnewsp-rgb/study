@@ -44,3 +44,8 @@ Next 5 highest-value candidate changes (unordered priority):
 3. Breadcrumb structured data — add BreadcrumbList JSON-LD to all notes pages
 4. OG images for notes pages — each topic page should have its own OG image (currently uses homepage og-image.jpg)
 5. Related exam links in sidebar — link to other countries' equivalent exams (e.g. JEE links to MDCAT)
+
+---
+*[DONE - Cycle 17]* ~~BreadcrumbList JSON-LD~~ — added to all 4 notes page levels
+*[NEW]* OG images for notes pages — each topic page should have its own OG image (currently uses homepage og-image.jpg)
+*[NEW]* Related exam cross-links — link to equivalent exams in other countries (e.g. NEET → MDCAT, JEE → ECAT, JAMB → WAEC)

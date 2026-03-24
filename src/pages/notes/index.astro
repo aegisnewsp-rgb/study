@@ -40,13 +40,24 @@ const totalNotes = allNotes.length;
 const title = `Free Study Notes — All Exams | StudyRoadmap™`;
 const description = `Browse ${totalNotes} free study notes across NEET, JEE, UPSC, MDCAT, JAMB, WAEC and more. No signup, no account — just open and study.`;
 const canonicalUrl = 'https://studyroadmap.in/notes';
+const siteUrl = 'https://studyroadmap.in';
 
 const countryFlags: Record<string, string> = { india: '🇮🇳', pakistan: '🇵🇰', nigeria: '🇳🇬' };
 const countryNames: Record<string, string> = { india: 'India', pakistan: 'Pakistan', nigeria: 'Nigeria' };
 const countries = ['india', 'pakistan', 'nigeria'] as const;
+
+const breadcrumbJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: siteUrl },
+    { '@type': 'ListItem', position: 2, name: 'Study Notes', item: canonicalUrl },
+  ],
+};
 ---
 
 <Layout title={title} description={description} canonical={canonicalUrl}>
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
   <Navbar />
   <main class="flex-1">
     <section class="bg-surface-50 dark:bg-surface-950 border-b border-surface-200 dark:border-surface-800">

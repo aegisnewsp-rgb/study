@@ -197,3 +197,25 @@ Google's quality evaluators flag pages lacking real contact information — a kn
 
 **Result:** PASSED — both pages now have real contact information
 
+
+## Cycle 08 | 2026-03-24T16:04 UTC
+
+**Change:** Add country quick-links bar to homepage exam grid + anchor IDs on exams page country sections
+
+**Category:** internal-linking
+
+**Why it matters:**
+Internal links distribute page authority across the site. The homepage exam grid previously linked directly to individual roadmap pages but had no intermediate navigation to /exams by country. Adding country quick-links (India 11 exams, Pakistan 5 exams, Nigeria 5 exams) with anchor IDs on the exams page creates a clear site architecture: homepage → /exams#country → /roadmap?exam=examId. This helps Google crawl and index all 21 exam pages more deeply.
+
+**Files edited:**
+- `src/pages/index.astro` — country quick-links bar added above exam grid header: India/Pakistan/Nigeria/View All buttons linking to /exams#country anchors
+- `src/pages/exams.astro` — added `id={code}` to each country wrapper div so anchor links work
+
+**Tests run:**
+- `npm run build` → PASSES, 6 pages
+- Live test: homepage → "View All 21 Exams" ✅, India ✅, Pakistan ✅, exam counts ✅
+- Live test: /exams/ → id="india" ✅, id="pakistan" ✅, id="nigeria" ✅
+- news.json: 10 items ✅
+
+**Result:** PASSED — country linking live, anchors functional
+

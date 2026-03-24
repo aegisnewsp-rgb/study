@@ -56,3 +56,28 @@ GRE is a globally recognised graduate admissions test used by Indian, Pakistani,
 - `git checkout src/data/exams/gre.ts src/data/index.ts`
 
 **Result:** DEPLOY BLOCKED — same remote Docker layer cache issue. Code correct. GRE will appear on live site once a non-cached deploy runs on the VPS.
+
+## Cycle 03 | 2026-03-24T13:54 UTC
+
+**Change:** Add FAQPage JSON-LD to /exams page (6 exam-agnostic Q&As) + update homepage FAQ answer to reflect 21 exams (added GRE)
+
+**Category:** structured-data
+
+**Why it matters:**
+The /exams page is the primary informational landing page for students researching exams. FAQ schema here captures high-volume long-tail queries ("What is NEET eligibility?", "How to apply for JAMB?", "Best time to start preparing") in People Also Ask rich results. Combined with the homepage FAQ from Cycle 01, StudyRoadmap now has FAQ coverage on both its highest-traffic entry points.
+
+**Files edited:**
+- `src/pages/exams.astro` — 6 FAQs in frontmatter (exam selection, eligibility, multi-exam prep, timing, mode, documents) + faqs prop passed to Layout
+- `src/pages/index.astro` — homepage FAQ answer updated from "20+ exams" to "21 exams" + GRE listed; hero stats updated to "21+"
+
+**Tests run:**
+- `npm run build` → PASSES, 6 pages
+- FAQ JSON-LD validated: Homepage (5 Qs ✅), Exams (6 Qs ✅)
+- Google Rich Results Test schema check: Both VALID
+- Live site test: / FAQPage=True ✅, /exams/ FAQPage=True ✅, 6 questions live ✅
+- Cycle 01 + 02 content also now live: GRE=True ✅
+- robots.txt: 6 URLs indexed, no blocking issues ✅
+- Sitemap: all 6 pages confirmed 200 ✅
+
+**Result:** PASSED — all live tests green. FAQ JSON-LD live on / and /exams/. GRE now visible on homepage. Total: 2 FAQPage schemas, 11 questions, 1 new exam.
+

@@ -12,11 +12,39 @@ const byCountry = {
   pakistan: { label: 'Pakistan', flag: '🇵🇰', exams: ALL_EXAMS.filter(e => e.country === 'pakistan') },
   nigeria:  { label: 'Nigeria',  flag: '🇳🇬', exams: ALL_EXAMS.filter(e => e.country === 'nigeria') },
 };
+
+const EXAM_FAQS = [
+  {
+    question: 'How do I choose the right exam for me?',
+    answer: 'Start by checking the eligibility criteria — your education level, age, and nationality determine which exams you can appear for. Then consider your career goals: medicine (NEET, MDCAT), engineering (JEE, ECAT), civil services (UPSC, SSC CGL), or business (CAT). StudyRoadmap can generate a personalised study plan for any exam you select.',
+  },
+  {
+    question: 'What is the eligibility criteria for these exams?',
+    answer: 'Eligibility varies by exam and country. Most Indian exams require 17+ years of age and completion of Class 12 (for undergraduate exams) or a bachelor\'s degree (for postgraduate). Pakistani exams like MDCAT require FSc or equivalent. Nigerian exams like JAMB require SSCE credit passes in five subjects. Always check the official exam website for the latest eligibility rules before applying.',
+  },
+  {
+    question: 'Can I prepare for multiple exams at the same time?',
+    answer: 'Yes — many students prepare for overlapping exams like JEE Main and UPSC Prelims simultaneously, or JEE and NEET. The key is to identify common syllabus areas (general science, mathematics, English) and build a unified study schedule. Use StudyRoadmap to generate roadmaps for each exam and look for topic overlap.',
+  },
+  {
+    question: 'What is the best time to start preparing for competitive exams?',
+    answer: 'Most students begin 6 to 12 months before the exam date. For board exam students (Class 12), starting integrated preparation alongside board studies in Class 11 is ideal. For UPSC or other graduate-level exams, 12 to 18 months of focused preparation is common. Use StudyRoadmap\'s duration selector to build a plan that fits your timeline.',
+  },
+  {
+    question: 'Are these exams conducted online or offline?',
+    answer: 'Most modern competitive exams are computer-based tests (CBT) conducted online at designated test centres. NEET, JEE Main, JEE Advanced, CAT, and CLAT are all online. Some exams like UPSC Mains are still pen-and-paper. Check the official exam notification for your specific exam mode and bring the required identification.',
+  },
+  {
+    question: 'What documents do I need to register for these exams?',
+    answer: 'Standard requirements include: a valid government-issued photo ID (Aadhaar card, CNIC, or National ID), recent passport-size photographs, your educational mark sheets or certificates, and the exam fee payment receipt. International students taking exams in India or Pakistan may also need a valid passport. Keep scanned copies ready for the online application portal.',
+  },
+];
 ---
 
 <Layout
   title="Browse Exams — StudyRoadmap™"
   description="Explore all 20+ competitive exams covered by StudyRoadmap™. NEET, JEE, UPSC, MDCAT, JAMB, WAEC and more."
+  faqs={EXAM_FAQS}
 >
   <Navbar />
 

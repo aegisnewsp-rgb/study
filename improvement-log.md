@@ -108,3 +108,30 @@ Organization schema tells Google StudyRoadmap is a credible brand entity with a 
 
 **Result:** PASSED — Organization schema live on all pages. FAQ schemas on homepage + exams still intact.
 
+
+## Cycle 05 | 2026-03-24T15:11 UTC
+
+**Change:** News ticker system — exam/education news on homepage, 10-item rolling window, updated every 30 min via cron
+
+**Category:** content-depth
+
+**Why it matters:**
+Static sites lose freshness signals to Google. A live news ticker sourced from real RSS feeds shows the site is actively maintained, keeps students coming back, and surfaces exam announcements (registration dates, result updates, schedule changes) directly on the homepage — high value for student audience. Client-side fetch means no rebuild needed for news updates.
+
+**Files changed:**
+- `scripts/fetch_news.py` — new: 9 Google News RSS feeds (India/Pakistan/Nigeria), word-boundary keyword tagging, off-topic filter (football/fifa/cricket etc.), 10-item rolling window, no-change exit if no new items
+- `src/data/news.ts` — new: NewsItem type, getCountryFlag, formatNewsDate
+- `src/pages/index.astro` — news ticker section between stats bar and How It Works; client-side JS fetches /news.json at runtime
+- `docker-compose.yml` — volume mount: ./news.json → /usr/share/nginx/html/news.json:ro (nginx serves live file without rebuild)
+- `public/news.json` — initial seed data (NEET/JAMB/MDCAT); overwritten on each cron run
+- `src/styles/global.css` — .scrollbar-hide CSS class
+
+**Tests run:**
+- fetch_news.py dry run → 817 items fetched, 10 saved, quality check: all Nigeria/WAEC exam news ✅
+- `npm run build` → PASSES, 6 pages
+- Live: /news.json → 200, 10 items ✅
+- Live: / → news-ticker section + Org schema + FAQPage ✅
+- News quality: all 10 items exam-relevant, properly tagged with exam keywords ✅
+
+**Result:** PASSED — news ticker live, updates every 30 min from cron, volume-mounted news.json served directly by nginx
+

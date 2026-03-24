@@ -14,9 +14,9 @@ Next 5 highest-value candidate changes (unordered priority):
 **Rationale:** Currently the homepage exam grid links to /roadmap but there's no explicit "Browse by country" section linking to /exams. Adding a small visual section (3 country cards with flag + exam count) with links to /exams would improve internal linking equity and help distribute page authority. Low effort, moderate SEO value.
 
 ## 4. Add FAQPage JSON-LD to /roadmap page
-**Rationale:** The /roadmap page is the core functional page. Adding FAQ schema here (e.g. "How do I read this roadmap?", "What if I miss a day?", "Can I reset my roadmap?") would capture tool-specific queries in People Also Ask. Moderate effort — requires passing FAQ data to the roadmap page Layout. Complements Cycles 01, 03.
+**Rationale:** The /roadmap page is the core functional page. Adding FAQ schema here (e.g. "How do I read this roadmap?", "What if I miss a day?", "Can I reset my roadmap?") would capture tool-specific queries in People Also Ask. Moderate effort — requires passing FAQ data to the roadmap page Layout. Complements homepage and exams FAQ schemas.
 
 ## 5. Add WebSite schema with SearchAction to Layout.astro
-**Rationale:** WebSite schema with sitelinks:searchBox enables Sitelinks search box in Google results — a premium SERP feature that improves CTR and brand presence. High visibility impact, low effort, works sitewide. Pairs well with Organization schema (Cycle 04). Moderate effort.
+**Rationale:** WebSite schema with sitelinks:searchBox enables Sitelinks search box in Google results — a premium SERP feature that improves CTR and brand presence. High visibility impact, low effort, works sitewide. Pairs well with Organization schema.
 
 ---

@@ -1,0 +1,104 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '@layouts/Layout.astro';
+import Navbar from '@components/Navbar.astro';
+import Footer from '@components/Footer.astro';
+
+const allNotes = await getCollection('notes');
+
+// Group by exam
+const byExam: Record<string, typeof allNotes> = {};
+for (const note of allNotes) {
+  const exam = note.id.split('/')[0];
+  if (!byExam[exam]) byExam[exam] = [];
+  byExam[exam].push(note);
+}
+
+type ExamMeta = {
+  exam: string;
+  examName: string;
+  flag: string;
+  country: string;
+  totalTopics: number;
+  subjects: number;
+};
+
+const examMeta: ExamMeta[] = Object.entries(byExam).map(([examId, notes]) => {
+  const first = notes[0];
+  return {
+    exam: examId,
+    examName: first.data.examName,
+    flag: { india: '🇮🇳', pakistan: '🇵🇰', nigeria: '🇳🇬' }[first.data.country] ?? '🌍',
+    country: first.data.country,
+    totalTopics: notes.length,
+    subjects: new Set(notes.map(n => n.data.subject)).size,
+  };
+});
+examMeta.sort((a, b) => a.examName.localeCompare(b.examName));
+
+const totalNotes = allNotes.length;
+const title = `Free Study Notes — All Exams | StudyRoadmap™`;
+const description = `Browse ${totalNotes} free study notes across NEET, JEE, UPSC, MDCAT, JAMB, WAEC and more. No signup, no account — just open and study.`;
+const canonicalUrl = 'https://studyroadmap.in/notes';
+
+const countryFlags: Record<string, string> = { india: '🇮🇳', pakistan: '🇵🇰', nigeria: '🇳🇬' };
+const countryNames: Record<string, string> = { india: 'India', pakistan: 'Pakistan', nigeria: 'Nigeria' };
+const countries = ['india', 'pakistan', 'nigeria'] as const;
+---
+
+<Layout title={title} description={description} canonical={canonicalUrl}>
+  <Navbar />
+  <main class="flex-1">
+    <section class="bg-surface-50 dark:bg-surface-950 border-b border-surface-200 dark:border-surface-800">
+      <div class="container-page py-12 text-center">
+        <h1 class="heading-1 text-surface-900 dark:text-surface-50 mb-3">Free Study Notes</h1>
+        <p class="text-lg text-surface-600 dark:text-surface-400 max-w-xl mx-auto mb-4">
+          {totalNotes} notes across {examMeta.length} exams. No signup, no account — open any note and start studying.
+        </p>
+        <a href="/roadmap" class="btn-primary inline-flex items-center gap-2">
+          Generate My Roadmap →
+        </a>
+      </div>
+    </section>
+
+    <section class="container-page py-12">
+      <div class="space-y-10">
+        {countries.map(country => {
+          const countryExams = examMeta.filter(e => e.country === country);
+          if (!countryExams.length) return null;
+          return (
+            <div>
+              <h2 class="heading-2 text-surface-800 dark:text-surface-100 mb-5 flex items-center gap-3">
+                <span class="text-2xl">{countryFlags[country]}</span>
+                {countryNames[country]}
+                <span class="text-sm font-normal text-surface-400">{countryExams.length} exams</span>
+              </h2>
+              <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                {countryExams.map(exam => (
+                  <a
+                    href={`/notes/${exam.exam}`}
+                    class="group block bg-surface-50 dark:bg-surface-900 border border-surface-200 dark:border-surface-700 rounded-xl p-5 hover:border-brand-300 dark:hover:border-brand-700 hover:shadow-md transition-all"
+                  >
+                    <div class="flex items-center justify-between mb-2">
+                      <h3 class="font-semibold text-surface-900 dark:text-surface-100 group-hover:text-brand-600 dark:group-hover:text-brand-400">
+                        {exam.examName}
+                      </h3>
+                      <span class="text-xl">{exam.flag}</span>
+                    </div>
+                    <p class="text-sm text-surface-500">
+                      {exam.totalTopics} notes &middot; {exam.subjects} subjects
+                    </p>
+                    <p class="text-xs text-brand-600 dark:text-brand-400 mt-2 group-hover:underline">
+                      Browse notes →
+                    </p>
+                  </a>
+                ))}
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    </section>
+  </main>
+  <Footer />
+</Layout>

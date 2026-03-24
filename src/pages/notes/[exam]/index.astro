@@ -1,0 +1,96 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '@layouts/Layout.astro';
+import Navbar from '@components/Navbar.astro';
+import Footer from '@components/Footer.astro';
+
+export async function getStaticPaths() {
+  const allNotes = await getCollection('notes');
+  const exams = [...new Set(allNotes.map(n => n.id.split('/')[0]))];
+  return exams.map(exam => ({
+    params: { exam },
+    props: { exam },
+  }));
+}
+
+const { exam } = Astro.props;
+const allNotes = await getCollection('notes');
+const examNotes = allNotes.filter(n => n.id.startsWith(exam + '/'));
+
+const firstNote = examNotes[0];
+const examName = firstNote?.data.examName || exam;
+const flag = { india: '🇮🇳', pakistan: '🇵🇰', nigeria: '🇳🇬' }[firstNote?.data.country] || '🌍';
+
+// Group by subject
+const bySubject: Record<string, typeof examNotes> = {}; // eslint-disable-line @typescript-eslint/no-explicit-any
+for (const note of examNotes) {
+  const subject = note.data.subject;
+  if (!bySubject[subject]) bySubject[subject] = [];
+  bySubject[subject].push(note);
+}
+
+const title = `${examName} Study Notes — All Subjects | StudyRoadmap™`;
+const description = `Free ${examName} study notes for all subjects. ${examNotes.length} topics — Physics, Chemistry, Biology, and more. No signup required.`;
+const canonicalUrl = `https://studyroadmap.in/notes/${exam}`;
+---
+
+<Layout title={title} description={description} canonical={canonicalUrl}>
+  <Navbar />
+  <main class="flex-1">
+    <section class="bg-surface-50 dark:bg-surface-950 border-b border-surface-200 dark:border-surface-800">
+      <div class="container-page py-10">
+        <nav class="flex items-center gap-2 text-sm text-surface-500 mb-4" aria-label="Breadcrumb">
+          <a href="/" class="hover:text-brand-600">Home</a>
+          <span>›</span>
+          <a href="/roadmap" class="hover:text-brand-600">Roadmap</a>
+          <span>›</span>
+          <span class="text-surface-900 dark:text-surface-100">{flag} {examName} Notes</span>
+        </nav>
+        <h1 class="heading-1 text-surface-900 dark:text-surface-50 mb-2">{examName} Study Notes</h1>
+        <p class="text-surface-600 dark:text-surface-400 mb-5">
+          {examNotes.length} topics across {Object.keys(bySubject).length} subjects — completely free.
+        </p>
+        <a href={`/roadmap?exam=${exam}`} class="btn-primary inline-flex items-center gap-2">
+          → Generate {examName} Roadmap
+        </a>
+      </div>
+    </section>
+
+    <section class="container-page py-12 space-y-10">
+      {Object.entries(bySubject).map(([subject, notes]) => (
+        <div>
+          <div class="flex items-center justify-between mb-4">
+            <h2 class="heading-3 text-surface-800 dark:text-surface-100">
+              {notes[0].data.subjectName}
+            </h2>
+            <a href={`/notes/${exam}/${subject}`} class="text-sm text-brand-600 dark:text-brand-400 hover:underline">
+              View all {notes.length} →
+            </a>
+          </div>
+          <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
+            {notes.sort((a,b) => a.data.topic.localeCompare(b.data.topic)).slice(0, 6).map(note => (
+              <a
+                href={`/notes/${note.slug}`}
+                class="group block bg-surface-50 dark:bg-surface-900 border border-surface-200 dark:border-surface-700 rounded-lg p-4 hover:border-brand-300 dark:hover:border-brand-700 transition-all"
+              >
+                <div class="flex items-center justify-between mb-1">
+                  <span class="text-xs font-mono text-surface-400">{note.data.topic}</span>
+                  <span class="text-xs text-brand-600 dark:text-brand-400">{note.data.weight}%</span>
+                </div>
+                <p class="text-sm font-medium text-surface-800 dark:text-surface-200 group-hover:text-brand-600 dark:group-hover:text-brand-400">
+                  {note.data.topicName}
+                </p>
+              </a>
+            ))}
+          </div>
+          {notes.length > 6 && (
+            <a href={`/notes/${exam}/${subject}`} class="text-sm text-brand-600 dark:text-brand-400 hover:underline mt-2 inline-block">
+              + {notes.length - 6} more {notes[0].data.subjectName} topics →
+            </a>
+          )}
+        </div>
+      ))}
+    </section>
+  </main>
+  <Footer />
+</Layout>

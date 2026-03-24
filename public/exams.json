@@ -1,0 +1,674 @@
+{
+  "exams": [
+    {
+      "examId": "nabteb",
+      "examName": "NABTEB",
+      "country": "nigeria",
+      "subjects": [
+        {
+          "id": "english",
+          "name": "English Language",
+          "color": "#2563eb",
+          "topicCount": 15
+        },
+        {
+          "id": "mathematics",
+          "name": "Mathematics",
+          "color": "#059669",
+          "topicCount": 15
+        },
+        {
+          "id": "physics",
+          "name": "Physics",
+          "color": "#d97706",
+          "topicCount": 14
+        },
+        {
+          "id": "chemistry",
+          "name": "Chemistry",
+          "color": "#7c3aed",
+          "topicCount": 15
+        },
+        {
+          "id": "biology",
+          "name": "Biology",
+          "color": "#dc2626",
+          "topicCount": 15
+        }
+      ],
+      "topicCount": 74
+    },
+    {
+      "examId": "ncee",
+      "examName": "NCEE (National Common Entrance Examination)",
+      "country": "nigeria",
+      "subjects": [
+        {
+          "id": "mathematics",
+          "name": "Mathematics",
+          "color": "#2563eb",
+          "topicCount": 12
+        },
+        {
+          "id": "english",
+          "name": "English",
+          "color": "#059669",
+          "topicCount": 12
+        },
+        {
+          "id": "quant-reasoning",
+          "name": "Quantitative Reasoning",
+          "color": "#d97706",
+          "topicCount": 12
+        },
+        {
+          "id": "verbal-reasoning",
+          "name": "Verbal Reasoning",
+          "color": "#7c3aed",
+          "topicCount": 12
+        },
+        {
+          "id": "civic",
+          "name": "Civic Education",
+          "color": "#dc2626",
+          "topicCount": 12
+        },
+        {
+          "id": "natural-science",
+          "name": "Natural Science",
+          "color": "#0891b2",
+          "topicCount": 12
+        }
+      ],
+      "topicCount": 72
+    },
+    {
+      "examId": "waec",
+      "examName": "WAEC WASSCE",
+      "country": "nigeria",
+      "subjects": [
+        {
+          "id": "english",
+          "name": "English Language",
+          "color": "#2563eb",
+          "topicCount": 18
+        },
+        {
+          "id": "mathematics",
+          "name": "Mathematics",
+          "color": "#059669",
+          "topicCount": 18
+        },
+        {
+          "id": "physics",
+          "name": "Physics",
+          "color": "#d97706",
+          "topicCount": 16
+        },
+        {
+          "id": "chemistry",
+          "name": "Chemistry",
+          "color": "#7c3aed",
+          "topicCount": 18
+        },
+        {
+          "id": "biology",
+          "name": "Biology",
+          "color": "#dc2626",
+          "topicCount": 18
+        }
+      ],
+      "topicCount": 88
+    },
+    {
+      "examId": "neco",
+      "examName": "NECO SSCE",
+      "country": "nigeria",
+      "subjects": [
+        {
+          "id": "english",
+          "name": "English Language",
+          "color": "#2563eb",
+          "topicCount": 18
+        },
+        {
+          "id": "mathematics",
+          "name": "Mathematics",
+          "color": "#059669",
+          "topicCount": 18
+        },
+        {
+          "id": "physics",
+          "name": "Physics",
+          "color": "#d97706",
+          "topicCount": 15
+        },
+        {
+          "id": "chemistry",
+          "name": "Chemistry",
+          "color": "#7c3aed",
+          "topicCount": 16
+        },
+        {
+          "id": "biology",
+          "name": "Biology",
+          "color": "#dc2626",
+          "topicCount": 18
+        }
+      ],
+      "topicCount": 85
+    },
+    {
+      "examId": "jamb",
+      "examName": "JAMB UTME",
+      "country": "nigeria",
+      "subjects": [
+        {
+          "id": "english",
+          "name": "English Language",
+          "color": "#2563eb",
+          "topicCount": 15
+        },
+        {
+          "id": "physics",
+          "name": "Physics",
+          "color": "#059669",
+          "topicCount": 19
+        },
+        {
+          "id": "chemistry",
+          "name": "Chemistry",
+          "color": "#d97706",
+          "topicCount": 20
+        },
+        {
+          "id": "mathematics",
+          "name": "Mathematics",
+          "color": "#7c3aed",
+          "topicCount": 20
+        }
+      ],
+      "topicCount": 74
+    },
+    {
+      "examId": "ssc-cgl",
+      "examName": "SSC CGL",
+      "country": "india",
+      "subjects": [
+        {
+          "id": "reasoning",
+          "name": "Reasoning",
+          "color": "#3b82f6",
+          "topicCount": 16
+        },
+        {
+          "id": "quant",
+          "name": "Quantitative Aptitude",
+          "color": "#f59e0b",
+          "topicCount": 15
+        },
+        {
+          "id": "english",
+          "name": "English",
+          "color": "#8b5cf6",
+          "topicCount": 11
+        },
+        {
+          "id": "awareness",
+          "name": "General Awareness",
+          "color": "#10b981",
+          "topicCount": 8
+        }
+      ],
+      "topicCount": 50
+    },
+    {
+      "examId": "jeemain",
+      "examName": "JEE Main",
+      "country": "india",
+      "subjects": [
+        {
+          "id": "physics",
+          "name": "Physics",
+          "color": "#3b82f6",
+          "topicCount": 28
+        },
+        {
+          "id": "chemistry",
+          "name": "Chemistry",
+          "color": "#10b981",
+          "topicCount": 28
+        },
+        {
+          "id": "mathematics",
+          "name": "Mathematics",
+          "color": "#f59e0b",
+          "topicCount": 25
+        }
+      ],
+      "topicCount": 81
+    },
+    {
+      "examId": "nda",
+      "examName": "NDA",
+      "country": "india",
+      "subjects": [
+        {
+          "id": "mathematics",
+          "name": "Mathematics",
+          "color": "#3b82f6",
+          "topicCount": 13
+        },
+        {
+          "id": "gat",
+          "name": "GAT",
+          "color": "#10b981",
+          "topicCount": 10
+        }
+      ],
+      "topicCount": 23
+    },
+    {
+      "examId": "cuet",
+      "examName": "CUET UG",
+      "country": "india",
+      "subjects": [
+        {
+          "id": "physics",
+          "name": "Physics",
+          "color": "#3b82f6",
+          "topicCount": 28
+        },
+        {
+          "id": "chemistry",
+          "name": "Chemistry",
+          "color": "#10b981",
+          "topicCount": 27
+        },
+        {
+          "id": "mathematics",
+          "name": "Mathematics",
+          "color": "#f59e0b",
+          "topicCount": 25
+        },
+        {
+          "id": "english",
+          "name": "English",
+          "color": "#8b5cf6",
+          "topicCount": 15
+        },
+        {
+          "id": "general-test",
+          "name": "General Test",
+          "color": "#ef4444",
+          "topicCount": 15
+        }
+      ],
+      "topicCount": 110
+    },
+    {
+      "examId": "upsc",
+      "examName": "UPSC Civil Services",
+      "country": "india",
+      "subjects": [
+        {
+          "id": "gs1",
+          "name": "GS1 (History/Geography/Polity)",
+          "color": "#3b82f6",
+          "topicCount": 10
+        },
+        {
+          "id": "gs2",
+          "name": "GS2 (Governance/IR)",
+          "color": "#10b981",
+          "topicCount": 4
+        },
+        {
+          "id": "essay",
+          "name": "Essay Writing",
+          "color": "#8b5cf6",
+          "topicCount": 1
+        },
+        {
+          "id": "optional",
+          "name": "Optional Subject",
+          "color": "#f59e0b",
+          "topicCount": 1
+        }
+      ],
+      "topicCount": 16
+    },
+    {
+      "examId": "clat",
+      "examName": "CLAT",
+      "country": "india",
+      "subjects": [
+        {
+          "id": "english",
+          "name": "English",
+          "color": "#3b82f6",
+          "topicCount": 6
+        },
+        {
+          "id": "current-affairs",
+          "name": "Current Affairs",
+          "color": "#10b981",
+          "topicCount": 4
+        },
+        {
+          "id": "legal-reasoning",
+          "name": "Legal Reasoning",
+          "color": "#8b5cf6",
+          "topicCount": 4
+        },
+        {
+          "id": "logical-reasoning",
+          "name": "Logical Reasoning",
+          "color": "#f59e0b",
+          "topicCount": 5
+        },
+        {
+          "id": "quantitative-techniques",
+          "name": "Quantitative Techniques",
+          "color": "#ef4444",
+          "topicCount": 4
+        }
+      ],
+      "topicCount": 23
+    },
+    {
+      "examId": "ugc-net",
+      "examName": "UGC NET",
+      "country": "india",
+      "subjects": [
+        {
+          "id": "paper1",
+          "name": "Paper 1 (General)",
+          "color": "#3b82f6",
+          "topicCount": 9
+        },
+        {
+          "id": "subject",
+          "name": "Subject (UGC NET)",
+          "color": "#10b981",
+          "topicCount": 5
+        }
+      ],
+      "topicCount": 14
+    },
+    {
+      "examId": "cat",
+      "examName": "CAT",
+      "country": "india",
+      "subjects": [
+        {
+          "id": "varc",
+          "name": "VARC",
+          "color": "#3b82f6",
+          "topicCount": 8
+        },
+        {
+          "id": "dilr",
+          "name": "DILR",
+          "color": "#10b981",
+          "topicCount": 9
+        },
+        {
+          "id": "qa",
+          "name": "QA",
+          "color": "#f59e0b",
+          "topicCount": 14
+        }
+      ],
+      "topicCount": 31
+    },
+    {
+      "examId": "jeeadvanced",
+      "examName": "JEE Advanced",
+      "country": "india",
+      "subjects": [
+        {
+          "id": "physics",
+          "name": "Physics",
+          "color": "#3b82f6",
+          "topicCount": 28
+        },
+        {
+          "id": "chemistry",
+          "name": "Chemistry",
+          "color": "#10b981",
+          "topicCount": 29
+        },
+        {
+          "id": "mathematics",
+          "name": "Mathematics",
+          "color": "#f59e0b",
+          "topicCount": 28
+        }
+      ],
+      "topicCount": 85
+    },
+    {
+      "examId": "neet",
+      "examName": "NEET UG",
+      "country": "india",
+      "subjects": [
+        {
+          "id": "physics",
+          "name": "Physics",
+          "color": "#3b82f6",
+          "topicCount": 29
+        },
+        {
+          "id": "physical-chemistry",
+          "name": "Physical Chemistry",
+          "color": "#10b981",
+          "topicCount": 13
+        },
+        {
+          "id": "organic-chemistry",
+          "name": "Organic Chemistry",
+          "color": "#059669",
+          "topicCount": 10
+        },
+        {
+          "id": "inorganic-chemistry",
+          "name": "Inorganic Chemistry",
+          "color": "#14b8a6",
+          "topicCount": 7
+        },
+        {
+          "id": "botany",
+          "name": "Botany",
+          "color": "#8b5cf6",
+          "topicCount": 23
+        },
+        {
+          "id": "zoology",
+          "name": "Zoology",
+          "color": "#ef4444",
+          "topicCount": 15
+        }
+      ],
+      "topicCount": 97
+    },
+    {
+      "examId": "hat-ug",
+      "examName": "HAT-UG (HEC Aptitude Test - Undergraduate)",
+      "country": "pakistan",
+      "subjects": [
+        {
+          "id": "english",
+          "name": "English",
+          "color": "#2563eb",
+          "topicCount": 15
+        },
+        {
+          "id": "analytical-reasoning",
+          "name": "Analytical Reasoning",
+          "color": "#059669",
+          "topicCount": 15
+        },
+        {
+          "id": "quantitative-reasoning",
+          "name": "Quantitative Reasoning",
+          "color": "#d97706",
+          "topicCount": 15
+        },
+        {
+          "id": "subject-knowledge",
+          "name": "Subject Knowledge",
+          "color": "#7c3aed",
+          "topicCount": 15
+        }
+      ],
+      "topicCount": 60
+    },
+    {
+      "examId": "lat",
+      "examName": "LAT (Law Admission Test)",
+      "country": "pakistan",
+      "subjects": [
+        {
+          "id": "english",
+          "name": "English",
+          "color": "#2563eb",
+          "topicCount": 12
+        },
+        {
+          "id": "analytical-reasoning",
+          "name": "Analytical Reasoning",
+          "color": "#059669",
+          "topicCount": 12
+        },
+        {
+          "id": "legal-reasoning",
+          "name": "Legal Reasoning",
+          "color": "#d97706",
+          "topicCount": 12
+        },
+        {
+          "id": "gk",
+          "name": "General Knowledge",
+          "color": "#7c3aed",
+          "topicCount": 12
+        },
+        {
+          "id": "current-affairs",
+          "name": "Current Affairs",
+          "color": "#dc2626",
+          "topicCount": 12
+        }
+      ],
+      "topicCount": 60
+    },
+    {
+      "examId": "ecat",
+      "examName": "ECAT (Engineering College Admission Test)",
+      "country": "pakistan",
+      "subjects": [
+        {
+          "id": "physics",
+          "name": "Physics",
+          "color": "#2563eb",
+          "topicCount": 19
+        },
+        {
+          "id": "chemistry",
+          "name": "Chemistry",
+          "color": "#059669",
+          "topicCount": 18
+        },
+        {
+          "id": "mathematics",
+          "name": "Mathematics",
+          "color": "#d97706",
+          "topicCount": 20
+        },
+        {
+          "id": "english",
+          "name": "English",
+          "color": "#0891b2",
+          "topicCount": 10
+        }
+      ],
+      "topicCount": 67
+    },
+    {
+      "examId": "mdcat",
+      "examName": "MDCAT",
+      "country": "pakistan",
+      "subjects": [
+        {
+          "id": "physics",
+          "name": "Physics",
+          "color": "#2563eb",
+          "topicCount": 20
+        },
+        {
+          "id": "chemistry",
+          "name": "Chemistry",
+          "color": "#059669",
+          "topicCount": 20
+        },
+        {
+          "id": "botany",
+          "name": "Botany",
+          "color": "#7c3aed",
+          "topicCount": 18
+        },
+        {
+          "id": "zoology",
+          "name": "Zoology",
+          "color": "#dc2626",
+          "topicCount": 18
+        },
+        {
+          "id": "english",
+          "name": "English",
+          "color": "#0891b2",
+          "topicCount": 12
+        },
+        {
+          "id": "logical-reasoning",
+          "name": "Logical Reasoning",
+          "color": "#4f46e5",
+          "topicCount": 10
+        }
+      ],
+      "topicCount": 98
+    },
+    {
+      "examId": "nat-i",
+      "examName": "NAT-I (NTS)",
+      "country": "pakistan",
+      "subjects": [
+        {
+          "id": "verbal-reasoning",
+          "name": "Verbal Reasoning",
+          "color": "#2563eb",
+          "topicCount": 15
+        },
+        {
+          "id": "analytical-reasoning",
+          "name": "Analytical Reasoning",
+          "color": "#059669",
+          "topicCount": 15
+        },
+        {
+          "id": "quantitative-reasoning",
+          "name": "Quantitative Reasoning",
+          "color": "#d97706",
+          "topicCount": 15
+        },
+        {
+          "id": "subject-knowledge",
+          "name": "Subject Knowledge",
+          "color": "#7c3aed",
+          "topicCount": 10
+        }
+      ],
+      "topicCount": 55
+    }
+  ]
+}

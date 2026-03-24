@@ -89,7 +89,13 @@ const EXAM_FAQS = [
 
                 {exam.examPattern && (
                   <p class="text-xs text-surface-400 line-clamp-1">
-                    {cleanText(exam.examPattern)}
+                    📋 {cleanText(exam.examPattern)}
+                  </p>
+                )}
+
+                {exam.eligibility && (
+                  <p class="text-xs text-emerald-600 dark:text-emerald-400 font-medium line-clamp-1">
+                    ✓ {cleanText(exam.eligibility).substring(0, 55)}{cleanText(exam.eligibility).length > 55 ? '…' : ''}
                   </p>
                 )}
 

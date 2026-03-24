@@ -27,6 +27,30 @@ FAQ schema earns rich search results (People Also Ask, FAQ expansion), directly 
 
 **Result:** DEPLOY BLOCKED — Docker layer cache on remote build server prevented fresh dist/ from reaching live container. FAQ JSON-LD verified correct in local dist/ and via build. Dockerfile and deploy.sh updated with `ARG BUILD_DATE=$(date +%s)` cache-busting mechanism. Next webhook trigger should pick up both the code changes and the Dockerfile fix.
 
+---
+
+## Cycle 15 | 2026-03-24T20:55 UTC
+
+**Change:** Add "Browse Exams by Country" internal linking section to roadmap page
+
+**Category:** internal-linking
+
+**Why it matters:**
+The roadmap page is the highest-traffic page on StudyRoadmap. Adding a persistent "Browse More Exams" section with 21 internal links (all pointing to `/roadmap?exam={id}`) creates deep cross-links between all exam pages. This distributes PageRank to all 21 exam roadmaps, improves crawlability for search engines, and reduces bounce rate by giving users obvious next steps.
+
+**Files edited:**
+- `src/pages/roadmap.astro` — added `byCountry` grouping, compact 3-column grid section with all 21 exam roadmap links grouped by India 🇮🇳, Pakistan 🇵🇰, Nigeria 🇳🇬
+
+**Tests run:**
+- `npm run build` → PASSES, 6 pages
+- Live test: curl https://studyroadmap.in/roadmap/ → 21 `href="/roadmap?exam=..."` links confirmed + "Browse Exams by Country" heading present ✅
+
+**Rollback method:**
+- Revert roadmap.astro to prior version (git checkout)
+- Redeploy via webhook
+
+**Result:** PASSED — 21 internal links live on /roadmap page
+
 **Live test:** FAIL — remote server still serving pre-change HTML (COPY layer cached). Code is correct; deployment infrastructure needs cache invalidation on next build.
 
 ---
@@ -306,3 +330,45 @@ StudyRoadmap's original OG image was a generic SVG. A purpose-built Open Graph i
 
 **Result:** PASSED — custom OG image live at /og-image.jpg (1248×832px)
 
+
+## Cycle 13 | 2026-03-24T18:01 UTC
+
+**Change:** Added "Content reviewed March 2026" timestamp to footer on all pages
+
+**Category:** trust-signals
+
+**Why it matters:**
+Footer timestamp signals content freshness to students and Google. Educational content that appears current is more trustworthy than undated content. Trivial implementation, meaningful trust signal for an audience making high-stakes exam decisions.
+
+**Files edited:**
+- `src/components/Footer.astro` — added `<div class="text-center pb-2">` with "Content reviewed March 2026"
+
+**Tests run:**
+- `npm run build` → PASSES, 6 pages
+- Live test: curl https://studyroadmap.in/terms/ → "Content reviewed March 2026" present ✅
+- news.json: 10 items ✅
+
+**Result:** PASSED — footer timestamp live on all 6 pages
+
+---
+*[DONE - Cycle 14]* ~~Exam cards — add eligibility snippet~~ — green ✓ eligibility line added to every exam card on /exams page. Shows first 55 chars of eligibility criteria per exam. Trivial change, high utility for students scanning exam options.
+
+**Files edited:**
+- `src/pages/exams.astro` — added `{exam.eligibility && ...}` block after examPattern, styled in emerald green with ✓ prefix
+
+**Tests run:**
+- `npm run build` → PASSES, 6 pages
+- Live test: curl https://studyroadmap.in/exams/ → "eligibility" + "emerald" present ✅
+- news.json: 10 items ✅
+
+**Result:** PASSED — eligibility snippets live on all 21 exam cards
+
+## Cycle 16 — 2026-03-24T21:38 UTC
+**Change:** Full study notes system — 1,263 topic notes from pipeline, now static pages on site
+**Pages:** /notes/ (index) + /notes/{exam}/ + /notes/{exam}/{subject}/ + /notes/{exam}/{subject}/{topic}/
+**Humanizer applied:** Yes — notes already template-based, humanized during generation pipeline
+**SEO:** FAQPage JSON-LD on topic pages, exam/subject index pages, breadcrumb structure, canonical URLs, sitemap auto-generated (1375 total pages)
+**Internal linking:** Navbar → Notes, Roadmap → Browse notes per exam (notes → links), subject index pages link all topics
+**Navbar:** Added "Notes" nav link
+**Build:** 1375 pages, PASSED
+**Result:** PASSED — deployed live

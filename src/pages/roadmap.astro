@@ -1,0 +1,33 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.astro';
+import Footer from '../components/Footer.astro';
+import RoadmapApp from '../components/RoadmapApp';
+import { ALL_EXAMS } from '../data/exams';
+---
+
+<Layout
+  title="Generate Your Study Roadmap — StudyRoadmap™"
+  description="Choose your exam and timeline — get an instant personalised study plan. Free, no signup, for NEET, JEE, UPSC, MDCAT, JAMB and more."
+>
+  <Navbar />
+
+  <main class="flex-1">
+    <!-- Page header -->
+    <section class="bg-surface-50 dark:bg-surface-950 border-b border-surface-200 dark:border-surface-800">
+      <div class="container-page py-14 sm:py-20 text-center">
+        <h1 class="heading-1 text-surface-900 dark:text-surface-50 mb-3">
+          Study Roadmap Generator
+        </h1>
+        <p class="text-base sm:text-lg text-surface-600 dark:text-surface-400 max-w-xl mx-auto">
+          Choose your exam and timeline — get an instant personalised study plan.
+        </p>
+      </div>
+    </section>
+
+    <!-- React island: all interactivity lives here -->
+    <RoadmapApp exams={ALL_EXAMS} client:load />
+  </main>
+
+  <Footer />
+</Layout>

@@ -1,0 +1,70 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout
+  title="About StudyRoadmap™ — Free AI Study Plans"
+  description="Learn about StudyRoadmap™ — a free planning tool for students across India, Pakistan, and Nigeria preparing for competitive exams."
+>
+  <Navbar />
+
+  <main class="flex-1">
+    <section class="bg-surface-50 dark:bg-surface-950 border-b border-surface-200 dark:border-surface-800">
+      <div class="container-page py-14 sm:py-20 text-center">
+        <h1 class="heading-1 text-surface-900 dark:text-surface-50 mb-3">About StudyRoadmap™</h1>
+        <p class="text-base sm:text-lg text-surface-600 dark:text-surface-400 max-w-xl mx-auto">
+          Built for students, by students who understand the struggle of exam prep.
+        </p>
+      </div>
+    </section>
+
+    <section class="container-page py-14 max-w-3xl mx-auto space-y-12">
+      <div class="card p-6 sm:p-8">
+        <h2 class="heading-2 text-surface-900 dark:text-white mb-4">What is StudyRoadmap™?</h2>
+        <div class="space-y-4 text-surface-600 dark:text-surface-400 leading-relaxed">
+          <p>
+            StudyRoadmap™ is a <strong class="text-surface-900 dark:text-surface-100">free, instant study planning tool</strong> that generates personalised roadmaps for students preparing for competitive exams across India, Pakistan, and Nigeria.
+          </p>
+          <p>
+            Whether you're preparing for <strong class="text-surface-900 dark:text-surface-100">NEET, JEE, UPSC, MDCAT, JAMB, WAEC</strong> or any of the 20+ exams we support — just select your exam, choose your timeline, and get a structured study plan in seconds. No signup, no fees.
+          </p>
+        </div>
+      </div>
+
+      <div class="card p-6 sm:p-8">
+        <h2 class="heading-2 text-surface-900 dark:text-white mb-4">How It Works</h2>
+        <div class="space-y-4 text-surface-600 dark:text-surface-400 leading-relaxed">
+          <p>
+            We analyse the official syllabus and weightings for each exam topic. Based on your available preparation time, our algorithm selects and sequences the most impactful topics — so you always know exactly what to study next.
+          </p>
+          <p>
+            The roadmap is broken down by <strong class="text-surface-900 dark:text-surface-100">subject</strong> and <strong class="text-surface-900 dark:text-surface-100">topic priority</strong>, with high-weight topics surfaced first. You can switch durations instantly to see how your plan adapts.
+          </p>
+        </div>
+      </div>
+
+      <div class="card p-6 sm:p-8">
+        <h2 class="heading-2 text-surface-900 dark:text-white mb-4">Our Mission</h2>
+        <div class="space-y-4 text-surface-600 dark:text-surface-400 leading-relaxed">
+          <p>
+            Every student deserves access to quality study planning — regardless of whether they can afford expensive coaching. StudyRoadmap™ levels the playing field by giving every student a structured, data-driven study plan <strong class="text-surface-900 dark:text-surface-100">completely free</strong>.
+          </p>
+          <p>
+            We're starting with South Asia and Africa, where competitive exam pressure is highest and access to structured planning tools is often limited to those who can pay for coaching.
+          </p>
+        </div>
+      </div>
+
+      <div class="card p-6 sm:p-8">
+        <h2 class="heading-2 text-surface-900 dark:text-white mb-4">Important Disclaimer</h2>
+        <div class="p-4 bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-800 rounded-xl text-sm text-amber-800 dark:text-amber-200 leading-relaxed">
+          StudyRoadmap™ is a <strong>planning aid only</strong>. The roadmaps are generated based on publicly available syllabus information and are not affiliated with any exam board or conducting body. Always verify information with official sources before making decisions about your exam preparation.
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</Layout>

@@ -1,0 +1,45 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.astro';
+import Footer from '../components/Footer.astro';
+---
+<Layout title="Terms of Service — StudyRoadmap™" description="StudyRoadmap™ terms of service. Free planning tool, not affiliated with any exam board.">
+  <Navbar />
+  <main class="flex-1">
+    <section class="bg-surface-50 dark:bg-surface-950 border-b border-surface-200 dark:border-surface-800">
+      <div class="container-page py-14 text-center">
+        <h1 class="heading-1 text-surface-900 dark:text-surface-50">Terms of Service</h1>
+      </div>
+    </section>
+    <section class="container-page py-14 max-w-3xl mx-auto">
+      <div class="card p-6 sm:p-8 space-y-6 text-sm text-surface-600 dark:text-surface-400 leading-relaxed">
+        <p><strong class="text-surface-900 dark:text-surface-100">Effective date:</strong> {new Date().toLocaleDateString('en-IN', { year: 'numeric', month: 'long', day: 'numeric' })}</p>
+        <div>
+          <h2 class="text-base font-semibold text-surface-900 dark:text-surface-100 mb-2">Use of Service</h2>
+          <p>StudyRoadmap™ is provided free of charge for educational planning purposes. You may use it to generate study roadmaps for any legitimate exam preparation purpose. You agree not to misuse the service or attempt to disrupt its operation.</p>
+        </div>
+        <div>
+          <h2 class="text-base font-semibold text-surface-900 dark:text-surface-100 mb-2">No Affiliation</h2>
+          <p>StudyRoadmap™ is <strong class="text-surface-900 dark:text-surface-100">not affiliated with, endorsed by, or connected to</strong> any exam board, government body, or educational institution whose exams are covered on this site. All exam names and trademarks belong to their respective owners.</p>
+        </div>
+        <div>
+          <h2 class="text-base font-semibold text-surface-900 dark:text-surface-100 mb-2">Accuracy Disclaimer</h2>
+          <p>Roadmaps are generated algorithmically based on publicly available syllabus data. While we strive for accuracy, we cannot guarantee that every topic listing is complete or up-to-date. <strong class="text-surface-900 dark:text-surface-100">Always verify with official exam sources</strong> before making preparation decisions.</p>
+        </div>
+        <div>
+          <h2 class="text-base font-semibold text-surface-900 dark:text-surface-100 mb-2">Intellectual Property</h2>
+          <p>The StudyRoadmap™ name, logo, and original content on this site are our property. You may not copy, reproduce, or republish our branding without permission. Exam syllabus data belongs to the respective exam boards.</p>
+        </div>
+        <div>
+          <h2 class="text-base font-semibold text-surface-900 dark:text-surface-100 mb-2">Limitation of Liability</h2>
+          <p>StudyRoadmap™ is provided "as is." We are not liable for any outcomes resulting from your use of this planning tool. Success in exams depends on many factors beyond the scope of any single planning tool.</p>
+        </div>
+        <div>
+          <h2 class="text-base font-semibold text-surface-900 dark:text-surface-100 mb-2">Changes</h2>
+          <p>We may modify or discontinue any part of this service at any time without notice. Changes to these terms will be posted on this page.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <Footer />
+</Layout>

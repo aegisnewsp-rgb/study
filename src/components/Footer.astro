@@ -1,0 +1,72 @@
+---
+const links = {
+  Product: [
+    { href: '/roadmap', label: 'Generate Roadmap' },
+    { href: '/exams', label: 'Browse Exams' },
+    { href: '/about', label: 'About Us' },
+  ],
+  Exams: [
+    { href: '/roadmap?exam=neet', label: 'NEET' },
+    { href: '/roadmap?exam=jeemain', label: 'JEE Main' },
+    { href: '/roadmap?exam=upsc', label: 'UPSC' },
+    { href: '/roadmap?exam=mdcat', label: 'MDCAT' },
+    { href: '/roadmap?exam=jamb', label: 'JAMB' },
+  ],
+  Legal: [
+    { href: '/privacy', label: 'Privacy Policy' },
+    { href: '/terms', label: 'Terms of Service' },
+  ],
+};
+---
+
+<footer class="mt-auto border-t border-surface-200 dark:border-surface-800 bg-surface-50 dark:bg-surface-950">
+  <div class="container-page py-12">
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-10">
+      <!-- Brand -->
+      <div class="lg:col-span-1">
+        <a href="/" class="flex items-center gap-2 mb-3">
+          <div class="w-8 h-8 rounded-lg bg-brand-600 flex items-center justify-center text-white font-bold text-sm">
+            SR
+          </div>
+          <span class="font-bold text-surface-900 dark:text-white">StudyRoadmap™</span>
+        </a>
+        <p class="text-sm text-surface-500 dark:text-surface-400 leading-relaxed">
+          Free AI-powered study plans for students across India, Pakistan, and Nigeria.
+        </p>
+        <p class="text-xs text-surface-400 dark:text-surface-500 mt-2">
+          StudySmart. StudyFree.
+        </p>
+      </div>
+
+      <!-- Link groups -->
+      {Object.entries(links).map(([group, items]) => (
+        <div>
+          <h4 class="text-xs font-bold uppercase tracking-widest text-surface-500 dark:text-surface-400 mb-3">
+            {group}
+          </h4>
+          <ul class="space-y-2">
+            {items.map(item => (
+              <li>
+                <a
+                  href={item.href}
+                  class="text-sm text-surface-600 dark:text-surface-400 hover:text-brand-600 dark:hover:text-brand-400 transition-colors"
+                >
+                  {item.label}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))}
+    </div>
+
+    <div class="pt-8 border-t border-surface-200 dark:border-surface-800 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <p class="text-xs text-surface-400 dark:text-surface-500">
+        &copy; {new Date().getFullYear()} StudyRoadmap™. Made for students worldwide.
+      </p>
+      <p class="text-xs text-surface-400 dark:text-surface-500">
+        Not affiliated with any exam board. Plan smart, succeed big.
+      </p>
+    </div>
+  </div>
+</footer>

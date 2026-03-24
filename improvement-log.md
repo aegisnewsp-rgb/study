@@ -219,3 +219,23 @@ Internal links distribute page authority across the site. The homepage exam grid
 
 **Result:** PASSED — country linking live, anchors functional
 
+
+## Cycle 09 | 2026-03-24T16:31 UTC
+
+**Change:** Add FAQPage JSON-LD to /roadmap page (6 tool-specific Q&As)
+
+**Category:** structured-data
+
+**Why it matters:**
+The /roadmap page is the highest-intent page on the site — every visitor arrives here to generate a study plan. FAQ schema here captures queries like "how do I read my roadmap?", "what if I miss a day?", "is my data saved?" — questions users have the moment they see their roadmap. Combined with the homepage and exams FAQ schemas, StudyRoadmap now has FAQ coverage across all three most important pages.
+
+**Files edited:**
+- `src/pages/roadmap.astro` — ROADMAP_FAQS array (6 Q&As: read roadmap, miss a day, reset, how generated, change after, data privacy) + passed to Layout as `faqs` prop
+
+**Tests run:**
+- `npm run build` → PASSES, 6 pages
+- Local: /roadmap/ → FAQPage (6 questions) ✅ + Organization ✅
+- Live test: /roadmap/ → FAQPage ✅
+
+**Result:** PASSED — FAQ JSON-LD live on /roadmap with 6 tool-specific questions
+

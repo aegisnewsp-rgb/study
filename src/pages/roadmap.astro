@@ -4,11 +4,40 @@ import Navbar from '../components/Navbar.astro';
 import Footer from '../components/Footer.astro';
 import RoadmapApp from '../components/RoadmapApp';
 import { ALL_EXAMS } from '../data/exams';
+
+const ROADMAP_FAQS = [
+  {
+    question: 'How do I read my study roadmap?',
+    answer: 'Your roadmap is organised by subject and day. Each day shows the topics to study, in the order that maximises your score potential. Start from Day 1 and work through sequentially — topics marked higher-weight are the ones most likely to appear on exam day.',
+  },
+  {
+    question: 'What if I miss a day or fall behind?',
+    answer: 'Simply pick up from where you stopped. The roadmap is a guide, not a strict schedule. If you miss several days, focus on the highest-weight remaining topics first — our algorithm always prioritises the most exam-relevant content.',
+  },
+  {
+    question: 'Can I reset or regenerate my roadmap?',
+    answer: 'Yes — just reload the page and select your exam and duration again. Your previous roadmap will be replaced. There is no account needed and no limit on how many roadmaps you generate.',
+  },
+  {
+    question: 'How is the daily study plan generated?',
+    answer: 'We analyse the official syllabus weightings for each topic of your chosen exam. The algorithm selects and sequences the highest-impact topics based on your available time, so you always study what matters most first.',
+  },
+  {
+    question: 'Can I change my roadmap after generating it?',
+    answer: 'You can generate a new roadmap at any time by selecting a different exam or duration. Each generation is independent — there is no save feature because no account is required.',
+  },
+  {
+    question: 'Is my roadmap data saved anywhere?',
+    answer: 'No. Everything happens in your browser. Your exam choices and roadmap are stored only in your browser local storage and are never transmitted to any server.',
+  },
+];
+
 ---
 
 <Layout
   title="Generate Your Study Roadmap — StudyRoadmap™"
   description="Choose your exam and timeline — get an instant personalised study plan. Free, no signup, for NEET, JEE, UPSC, MDCAT, JAMB and more."
+  faqs={ROADMAP_FAQS}
 >
   <Navbar />
 

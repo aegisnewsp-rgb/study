@@ -5,7 +5,7 @@ services:
     restart: unless-stopped
     labels:
       - traefik.enable=true
-      - traefik.http.routers.studyroadmap.rule=Host(`studyroadmap.in`) || Host(`www.studyroadmap.in`)
+      - "traefik.http.routers.studyroadmap.rule=Host(`studyroadmap.in`) || Host(`www.studyroadmap.in`)"
       - traefik.http.routers.studyroadmap.entrypoints=websecure
       - traefik.http.routers.studyroadmap.tls.certresolver=letsencrypt
       - traefik.http.services.studyroadmap.loadbalancer.server.port=80

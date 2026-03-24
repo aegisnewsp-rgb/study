@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="100%" style="stop-color:#1e3a8a"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="50%" y1="0%" x2="50%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Glow -->
+  <ellipse cx="600" cy="200" rx="500" ry="250" fill="url(#glow)"/>
+
+  <!-- Grid pattern -->
+  <g stroke="#3b82f6" stroke-width="0.5" opacity="0.15">
+    <line x1="0" y1="100" x2="1200" y2="100"/>
+    <line x1="0" y1="200" x2="1200" y2="200"/>
+    <line x1="0" y1="300" x2="1200" y2="300"/>
+    <line x1="0" y1="400" x2="1200" y2="400"/>
+    <line x1="0" y1="500" x2="1200" y2="500"/>
+    <line x1="200" y1="0" x2="200" y2="630"/>
+    <line x1="400" y1="0" x2="400" y2="630"/>
+    <line x1="600" y1="0" x2="600" y2="630"/>
+    <line x1="800" y1="0" x2="800" y2="630"/>
+    <line x1="1000" y1="0" x2="1000" y2="630"/>
+  </g>
+
+  <!-- Logo badge -->
+  <rect x="80" y="80" width="70" height="70" rx="16" fill="#2563eb"/>
+  <text x="115" y="125" text-anchor="middle" fill="white" font-family="system-ui, sans-serif" font-weight="800" font-size="28">SR</text>
+
+  <!-- Title -->
+  <text x="170" y="125" font-family="system-ui, sans-serif" font-weight="800" font-size="42" fill="white">StudyRoadmap</text>
+  <text x="170" y="155" font-family="system-ui, sans-serif" font-weight="400" font-size="20" fill="#60a5fa">Free · Instant · No Signup</text>
+
+  <!-- Main heading -->
+  <text x="600" y="320" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="900" font-size="72" fill="white" letter-spacing="-2">
+    Your AI Study
+  </text>
+  <text x="600" y="410" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="900" font-size="72" fill="#60a5fa" letter-spacing="-2">
+    Roadmap
+  </text>
+
+  <!-- Sub text -->
+  <text x="600" y="490" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="400" font-size="26" fill="#94a3b8">
+    For NEET · JEE · UPSC · MDCAT · JAMB · WAEC · 20+ Exams
+  </text>
+
+  <!-- CTA box -->
+  <rect x="420" y="520" width="360" height="60" rx="30" fill="#2563eb"/>
+  <text x="600" y="559" text-anchor="middle" font-family="system-ui, sans-serif" font-weight="700" font-size="22" fill="white">
+    studyroadmap.in →
+  </text>
+</svg>

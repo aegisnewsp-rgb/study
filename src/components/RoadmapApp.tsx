@@ -1,5 +1,5 @@
 'use client';
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import type { ExamTemplate, DailyTopicItem, RoadmapTemplate } from '../data/exams';
 
 interface Props {
@@ -196,6 +196,15 @@ export default function RoadmapApp({ exams }: Props) {
   const [selectedExam, setSelectedExam] = useState<string>('');
   const [selectedDuration, setSelectedDuration] = useState<string>('');
   const [openSubjects, setOpenSubjects] = useState<Set<string>>(new Set());
+
+  // Pre-populate from URL params (e.g. /roadmap?exam=neet&duration=3mo)
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const examParam = params.get('exam');
+    const durationParam = params.get('duration');
+    if (examParam) setSelectedExam(examParam);
+    if (durationParam) setSelectedDuration(durationParam);
+  }, []);
 
   const roadmap = useMemo<RoadmapTemplate | null>(() => {
     if (!selectedExam || !selectedDuration) return null;

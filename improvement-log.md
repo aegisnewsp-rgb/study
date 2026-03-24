@@ -261,3 +261,25 @@ WebSite + SearchAction schema enables Google's Sitelinks search box — a premiu
 
 **Result:** PASSED — WebSite schema live on all pages. Sitelinks search box now possible in Google SERPs for studyroadmap.in.
 
+
+## Cycle 11 | 2026-03-24T16:45 UTC
+
+**Change:** Expand Privacy Policy with Cookies and Data Rights sections; add cookie note to Terms of Service
+
+**Category:** trust-signals
+
+**Why it matters:**
+Google's quality evaluators flag pages that lack cookie disclosures and data rights information — both are standard expectations for any website. Adding "Cookies and Local Storage" (clarifying we use no third-party/advertising/analytics cookies) and "Your Data Rights" (zero data collected = zero data to access/correct) directly addresses these requirements. Relevant for Nigerian and international users who may have data rights under local laws. Low effort, meaningful trust and AdSense policy compliance.
+
+**Files edited:**
+- `src/pages/privacy.astro` — "Cookies and Local Storage" section (no third-party cookies, local storage only, can be cleared) + "Your Data Rights" section (zero data collected)
+- `src/pages/terms.astro` — cookie note added to "Use of Service" section (no cookies, local storage only, never sent to servers)
+
+**Tests run:**
+- `npm run build` → PASSES, 6 pages
+- Live test: /privacy/ → "Cookies and Local Storage" ✅, "Your Data Rights" ✅, contact ✅
+- Live test: /terms/ → "no cookies" ✅, "local storage" ✅
+- news.json: 10 items ✅
+
+**Result:** PASSED — Privacy and Terms now fully address cookies and data rights
+

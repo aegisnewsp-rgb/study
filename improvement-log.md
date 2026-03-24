@@ -135,3 +135,22 @@ Static sites lose freshness signals to Google. A live news ticker sourced from r
 
 **Result:** PASSED — news ticker live, updates every 30 min from cron, volume-mounted news.json served directly by nginx
 
+
+## Cycle 06 | 2026-03-24T15:31 UTC
+
+**Change:** About page — add Methodology & Sources section with official exam board citations, enhanced disclaimer, last updated date
+
+**Category:** content-depth
+
+**Why it matters:**
+E-E-A-T requires demonstrating Expertise and Trustworthiness. By explicitly citing official conducting bodies (NTA, UPSC, JAMB, WAEC, PMDC) and explaining the methodology behind roadmap generation, students and Google alike can trust that roadmaps are based on real, authoritative syllabus data — not guesswork. This directly addresses AdSense quality evaluator concerns about thin or unsubstantiated content.
+
+**Files edited:**
+- `src/pages/about.astro` — Methodology & Sources section added (6 exam board links), disclaimer enhanced to explicitly state no affiliation, "Last updated: March 2026" footer note
+
+**Tests run:**
+- `npm run build` → PASSES, 6 pages
+- Live test: /about/ → 11/11 checks PASSED (title, meta, canonical, Org schema, Methodology, all 4 exam board links, last updated, disclaimer)
+
+**Result:** PASSED
+

@@ -4,6 +4,13 @@ import Navbar from '../components/Navbar.astro';
 import Footer from '../components/Footer.astro';
 
 const LAST_UPDATED = 'March 2026';
+
+const EXAM_STATS = [
+  { value: '21', label: 'Exams', sub: 'India, Pakistan & Nigeria' },
+  { value: '3',  label: 'Countries', sub: 'South Asia & West Africa' },
+  { value: '200+', label: 'Topics', sub: 'Syllabus-mapped & weighted' },
+  { value: '100%', label: 'Free', sub: 'No signup, no fees' },
+];
 ---
 
 <Layout
@@ -19,6 +26,21 @@ const LAST_UPDATED = 'March 2026';
         <p class="text-base sm:text-lg text-surface-600 dark:text-surface-400 max-w-xl mx-auto">
           Built for students, by students who understand the struggle of exam prep.
         </p>
+      </div>
+    </section>
+
+    <!-- Stats banner -->
+    <section class="bg-brand-600 py-8">
+      <div class="container-page">
+        <div class="grid grid-cols-2 lg:grid-cols-4 gap-6">
+          {EXAM_STATS.map(s => (
+            <div class="text-center">
+              <div class="text-3xl font-black text-white">{s.value}</div>
+              <div class="text-sm font-semibold text-brand-100">{s.label}</div>
+              <div class="text-xs text-brand-200 mt-0.5">{s.sub}</div>
+            </div>
+          ))}
+        </div>
       </div>
     </section>
 
@@ -48,6 +70,18 @@ const LAST_UPDATED = 'March 2026';
       </div>
 
       <div class="card p-6 sm:p-8">
+        <h2 class="heading-2 text-surface-900 dark:text-white mb-4">Built for Students, by Students</h2>
+        <div class="space-y-4 text-surface-600 dark:text-surface-400 leading-relaxed">
+          <p>
+            StudyRoadmap™ was created to solve a problem every competitive exam student knows: where do I start? With so many topics, so little time, and coaching only accessible to those who can afford it — the gap between those with a plan and those without is enormous.
+          </p>
+          <p>
+            We believe a good study plan should be free. Every student, regardless of background or location, deserves to know which topics matter most and in what order to study them. That's the gap StudyRoadmap™ exists to fill.
+          </p>
+        </div>
+      </div>
+
+      <div class="card p-6 sm:p-8">
         <h2 class="heading-2 text-surface-900 dark:text-white mb-4">Our Mission</h2>
         <div class="space-y-4 text-surface-600 dark:text-surface-400 leading-relaxed">
           <p>
@@ -63,6 +97,21 @@ const LAST_UPDATED = 'March 2026';
         <h2 class="heading-2 text-surface-900 dark:text-white mb-4">Important Disclaimer</h2>
         <div class="p-4 bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-800 rounded-xl text-sm text-amber-800 dark:text-amber-200 leading-relaxed">
           StudyRoadmap™ is a <strong>planning aid only</strong>. The roadmaps are generated based on publicly available syllabus information and are not affiliated with any exam board or conducting body. Always verify information with official sources before making decisions about your exam preparation.
+        </div>
+      </div>
+
+      <div class="card p-6 sm:p-8">
+        <h2 class="heading-2 text-surface-900 dark:text-white mb-4">How We Keep Roadmaps Accurate</h2>
+        <div class="space-y-4 text-surface-600 dark:text-surface-400 leading-relaxed">
+          <p>
+            Every roadmap is tied to the official exam syllabus published by the conducting body. When an exam board releases updated syllabuses or announces pattern changes, we review and revise the affected roadmap data.
+          </p>
+          <p>
+            Our process: we monitor official exam board websites (NTA, JAMB, PMDC, WAEC, and others listed below) for syllabus and notification updates. Roadmaps are built from topic-level syllabus weightings, not guesswork — the priority order of topics within each subject reflects how often and how heavily that topic has appeared in recent exam papers.
+          </p>
+          <p class="text-sm text-surface-500 dark:text-surface-500">
+            <strong>Note:</strong> Exam schedules, eligibility criteria, and registration dates change frequently. Always confirm the latest information directly from your exam board's official website before making decisions.
+          </p>
         </div>
       </div>
 

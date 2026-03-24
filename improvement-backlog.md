@@ -11,12 +11,12 @@ Next 5 highest-value candidate changes (unordered priority):
 **Rationale:** Currently the homepage exam grid links to /roadmap but there's no explicit "Browse by country" section linking to /exams. Adding a small visual section (3 country cards with flag + exam count) with links to /exams would improve internal linking equity and help distribute page authority. Low effort, moderate SEO value.
 
 ## 3. Add FAQPage JSON-LD to /roadmap page
-**Rationale:** The /roadmap page is the core functional page. Adding FAQ schema here (e.g. "How do I read this roadmap?", "What if I miss a day?", "Can I reset my roadmap?") would capture tool-specific queries in People Also Ask. Moderate effort — requires passing FAQ data to the roadmap page Layout. Complements homepage and exams FAQ schemas.
+**Rationale:** The /roadmap page is the core functional page. Adding FAQ schema here (e.g. "How do I read this roadmap?", "What if I miss a day?", "Can I reset my roadmap?") would capture tool-specific queries in People Also Ask. Moderate effort — requires passing FAQ data to the roadmap page Layout. Complements homepage and exams FAQ schemas from earlier cycles.
 
 ## 4. Add WebSite schema with SearchAction to Layout.astro
-**Rationale:** WebSite schema with sitelinks:searchBox enables Sitelinks search box in Google results — a premium SERP feature that improves CTR and brand presence. High visibility impact, low effort, works sitewide. Pairs well with Organization schema (Cycle 04).
+**Rationale:** WebSite schema with sitelinks:searchBox enables Sitelinks search box in Google results — a premium SERP feature that improves CTR and brand presence. High visibility impact, low effort, works sitewide. Pairs well with Organization schema from Cycle 04.
 
-## 5. Add exam-specific intro paragraphs to each country's /exams listing
-**Rationale:** The /exams page currently jumps straight into exam cards. Adding a 2-3 sentence intro per country (e.g. "India has the world's largest competitive exam ecosystem — from medical entrances to civil services") sets context for students and Google, reducing thin-content concerns for a page with many repeated card elements.
+## 5. Privacy/Terms page — add meaningful content beyond placeholder text
+**Rationale:** Both pages currently have minimal content. Expanding with real data retention explanations, cookie usage, and actual GDPR/privacy rights information would strengthen trust for international users (especially relevant with Nigerian and Pakistani visitors). Moderate effort.
 
 ---

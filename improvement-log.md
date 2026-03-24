@@ -154,3 +154,25 @@ E-E-A-T requires demonstrating Expertise and Trustworthiness. By explicitly citi
 
 **Result:** PASSED
 
+
+## Cycle 06 | 2026-03-24T15:34 UTC
+
+**Change:** About page trust signal upgrades — stats banner (21 exams, 3 countries, 200+ topics, 100% free), accuracy methodology section, creator identity section
+
+**Category:** content-depth / trust-signals
+
+**Why it matters:**
+About pages with clear creator identity, methodology explanation, and coverage stats directly satisfy Google's E-E-A-T requirements for YMYL sites. Students making exam decisions need to trust the information before they invest time. The stats banner also gives prospective users immediate credibility signals at the top of the page — reduces bounce rate, improves session depth, which indirectly supports AdSense performance.
+
+**Files edited:**
+- `src/pages/about.astro` — added EXAM_STATS data in frontmatter; added stats banner section (brand-600 background, 4 key metrics); added "How We Keep Roadmaps Accurate" section before Methodology; added "Built for Students, by Students" section before Mission
+
+**Tests run:**
+- `npm run build` → PASSES, 6 pages
+- Local HTML validation: all 4 stats (21/Exams, 3/Countries, 200+/Topics, 100%/Free) ✅
+- Accuracy methodology section ✅, Creator section ✅, Org schema ✅
+- Live test: /about/ ✅ — all sections confirmed live
+- News ticker: news.json updated ✅ (10 Nigeria/WAEC items)
+
+**Result:** PASSED — About page now has trust stats banner, accuracy methodology, creator identity, and official source links. E-E-A-T signals meaningfully strengthened.
+

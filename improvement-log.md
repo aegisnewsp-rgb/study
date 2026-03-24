@@ -176,3 +176,24 @@ About pages with clear creator identity, methodology explanation, and coverage s
 
 **Result:** PASSED — About page now has trust stats banner, accuracy methodology, creator identity, and official source links. E-E-A-T signals meaningfully strengthened.
 
+
+## Cycle 07 | 2026-03-24T16:01 UTC
+
+**Change:** Add real contact information to Privacy Policy and Terms of Service pages
+
+**Category:** trust-signals
+
+**Why it matters:**
+Google's quality evaluators flag pages lacking real contact information — a known AdSense policy risk. Both pages previously had either no contact info or only a vague "open an issue on GitHub" reference. Adding `contact@studyroadmap.in` (email) and explicit GitHub Issues link satisfies trust requirements for AdSense and gives students a real way to reach out. Low effort, meaningful policy compliance impact.
+
+**Files edited:**
+- `src/pages/privacy.astro` — Contact section expanded: mailto:contact@studyroadmap.in + GitHub Issues link with labels
+- `src/pages/terms.astro` — Contact section added: mailto:contact@studyroadmap.in + GitHub Issues link with labels
+
+**Tests run:**
+- `npm run build` → PASSES, 6 pages
+- Live test: /privacy/ → contact@studyroadmap.in ✅, GitHub Issue link ✅
+- Live test: /terms/ → contact@studyroadmap.in ✅, Terms of Service ✅
+
+**Result:** PASSED — both pages now have real contact information
+

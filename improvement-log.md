@@ -283,3 +283,26 @@ Google's quality evaluators flag pages that lack cookie disclosures and data rig
 
 **Result:** PASSED — Privacy and Terms now fully address cookies and data rights
 
+
+## Cycle 12 | 2026-03-24T17:33 UTC
+
+**Change:** Custom original OG image generated with MiniMax image-01, deployed as /og-image.jpg
+
+**Category:** social-sharing
+
+**Why it matters:**
+StudyRoadmap's original OG image was a generic SVG. A purpose-built Open Graph image with the StudyRoadmap brand, study planning visual, and country flags significantly improves CTR when links are shared on WhatsApp, Twitter, LinkedIn, and Facebook. The OG image is the first visual impression for the vast majority of social shares — high visibility impact. Used in Organization schema logo and all page OG meta tags.
+
+**Files edited:**
+- `src/layouts/Layout.astro` — default image prop changed from `/og-image.svg` to `/og-image.jpg`, Organization schema logo updated to `/og-image.jpg`
+- `public/og-image.jpg` — new 1248×832px JPEG (MiniMax image-01 generated, 221KB)
+
+**Tests run:**
+- `npm run build` → PASSES, 6 pages
+- Live test: /og-image.jpg → 200, content-type: image/jpeg ✅
+- Live test: homepage → og-image.jpg referenced ✅
+- Live test: Organization schema → og-image.jpg in logo ✅
+- news.json: 10 items ✅
+
+**Result:** PASSED — custom OG image live at /og-image.jpg (1248×832px)
+

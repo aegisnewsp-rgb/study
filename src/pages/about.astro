@@ -2,6 +2,8 @@
 import Layout from '../layouts/Layout.astro';
 import Navbar from '../components/Navbar.astro';
 import Footer from '../components/Footer.astro';
+
+const LAST_UPDATED = 'March 2026';
 ---
 
 <Layout
@@ -63,6 +65,66 @@ import Footer from '../components/Footer.astro';
           StudyRoadmap™ is a <strong>planning aid only</strong>. The roadmaps are generated based on publicly available syllabus information and are not affiliated with any exam board or conducting body. Always verify information with official sources before making decisions about your exam preparation.
         </div>
       </div>
+
+      <div class="card p-6 sm:p-8">
+        <h2 class="heading-2 text-surface-900 dark:text-white mb-4">Methodology & Sources</h2>
+        <div class="space-y-4 text-surface-600 dark:text-surface-400 leading-relaxed">
+          <p>
+            Every roadmap is built from publicly available syllabus and exam pattern data published by the official conducting bodies. We analyse topic weightings from past exam papers and official curriculum documents, then sequence topics by impact and feasibility within your chosen time window.
+          </p>
+          <p>
+            We do not have official partnerships with any exam board. All information is sourced from public documents and is intended as a supplementary planning tool only.
+          </p>
+          <div class="grid sm:grid-cols-3 gap-3 mt-4">
+            <a href="https://neet.nta.nic.in/" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 p-3 rounded-lg border border-surface-200 dark:border-surface-700 hover:border-brand-400 dark:hover:border-brand-600 transition-colors group">
+              <span class="text-lg">🇮🇳</span>
+              <div>
+                <div class="text-xs font-semibold text-surface-900 dark:text-white group-hover:text-brand-600 dark:group-hover:text-brand-400">India</div>
+                <div class="text-xs text-surface-500">NTA (NEET, JEE, CUET)</div>
+              </div>
+            </a>
+            <a href="https://www.upsc.gov.in/" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 p-3 rounded-lg border border-surface-200 dark:border-surface-700 hover:border-brand-400 dark:hover:border-brand-600 transition-colors group">
+              <span class="text-lg">🇮🇳</span>
+              <div>
+                <div class="text-xs font-semibold text-surface-900 dark:text-white group-hover:text-brand-600 dark:group-hover:text-brand-400">India</div>
+                <div class="text-xs text-surface-500">UPSC (Civil Services)</div>
+              </div>
+            </a>
+            <a href="https://www.jamb.gov.ng/" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 p-3 rounded-lg border border-surface-200 dark:border-surface-700 hover:border-brand-400 dark:hover:border-brand-600 transition-colors group">
+              <span class="text-lg">🇳🇬</span>
+              <div>
+                <div class="text-xs font-semibold text-surface-900 dark:text-white group-hover:text-brand-600 dark:group-hover:text-brand-400">Nigeria</div>
+                <div class="text-xs text-surface-500">JAMB (UTME)</div>
+              </div>
+            </a>
+            <a href="https://www.pmdc.edu.pk/" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 p-3 rounded-lg border border-surface-200 dark:border-surface-700 hover:border-brand-400 dark:hover:border-brand-600 transition-colors group">
+              <span class="text-lg">🇵🇰</span>
+              <div>
+                <div class="text-xs font-semibold text-surface-900 dark:text-white group-hover:text-brand-600 dark:group-hover:text-brand-400">Pakistan</div>
+                <div class="text-xs text-surface-500">PMDC (MDCAT)</div>
+              </div>
+            </a>
+            <a href="https://www.waec.org.ng/" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 p-3 rounded-lg border border-surface-200 dark:border-surface-700 hover:border-brand-400 dark:hover:border-brand-600 transition-colors group">
+              <span class="text-lg">🇳🇬</span>
+              <div>
+                <div class="text-xs font-semibold text-surface-900 dark:text-white group-hover:text-brand-600 dark:group-hover:text-brand-400">Nigeria</div>
+                <div class="text-xs text-surface-500">WAEC (WASSCE)</div>
+              </div>
+            </a>
+            <a href="https://www.ssc.gov.pk/" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 p-3 rounded-lg border border-surface-200 dark:border-surface-700 hover:border-brand-400 dark:hover:border-brand-600 transition-colors group">
+              <span class="text-lg">🇵🇰</span>
+              <div>
+                <div class="text-xs font-semibold text-surface-900 dark:text-white group-hover:text-brand-600 dark:group-hover:text-brand-400">Pakistan</div>
+                <div class="text-xs text-surface-500">ECAT, NTS</div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <p class="text-center text-xs text-surface-400">
+        Last updated: {LAST_UPDATED} · StudyRoadmap™ is not affiliated with any exam board.
+      </p>
     </section>
   </main>
 

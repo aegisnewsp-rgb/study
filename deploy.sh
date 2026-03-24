@@ -16,10 +16,12 @@ echo "[1/4] Stopping existing container..."
 docker compose down 2>/dev/null || true
 
 echo "[2/4] Building Docker image..."
-docker build --build-arg BUILD_DATE=$(date +%s) -t studyroadmap:latest .
+# --no-cache: one-time reset only — removes all cached layers
+# After first run, remove --no-cache; BUILD_DATE arg keeps cache invalidated going forward
+docker compose build --build-arg BUILD_DATE=$(date +%s) --no-cache
 
 echo "[3/4] Starting container with Traefik..."
-docker compose up -d --force-recreate
+docker compose up -d --force-recreate --remove-orphans
 
 echo "[4/4] Verifying..."
 sleep 3

@@ -127,6 +127,18 @@ const FAQS = [
       </div>
     </section>
 
+    <!-- NEWS TICKER (client-side, updates every 30 min via cron) -->
+    <section id="news-ticker" class="bg-surface-900 border-b border-surface-800 py-3 hidden">
+      <div class="container-page">
+        <div class="flex items-center gap-3 overflow-x-auto scrollbar-hide">
+          <span class="shrink-0 text-xs font-bold uppercase tracking-wider text-brand-400">
+            📰 Latest
+          </span>
+          <div id="news-items" class="flex items-center gap-4 overflow-x-auto"></div>
+        </div>
+      </div>
+    </section>
+
     <!-- HOW IT WORKS -->
     <section class="bg-surface-50 dark:bg-surface-900 py-16 sm:py-24">
       <div class="container-page">
@@ -291,4 +303,46 @@ const FAQS = [
 
   // Init first tab as active
   tabs[0]?.click();
+
+  // ── News Ticker (client-side) ──────────────────────────────────
+  const COUNTRY_FLAGS: Record<string, string> = {
+    india: '🇮🇳',
+    pakistan: '🇵🇰',
+    nigeria: '🇳🇬',
+  };
+  function flag(c: string | null) { return c ? (COUNTRY_FLAGS[c] ?? '🌐') : '🌐'; }
+  function formatAge(iso: string): string {
+    try {
+      const d = new Date(iso);
+      const diffH = (Date.now() - d.getTime()) / 3_600_000;
+      if (diffH < 1) return 'Just now';
+      if (diffH < 24) return `${Math.floor(diffH)}h ago`;
+      const diffD = diffH / 24;
+      if (diffD < 7) return `${Math.floor(diffD)}d ago`;
+      return d.toLocaleDateString('en-IN', { day: 'numeric', month: 'short' });
+    } catch { return ''; }
+  }
+  function renderNews(items: any[]) {
+    const container = document.getElementById('news-items');
+    const section = document.getElementById('news-ticker');
+    if (!container || !section || !items?.length) return;
+    items.slice(0, 10).forEach(item => {
+      const a = document.createElement('a');
+      a.href = item.url;
+      a.target = '_blank';
+      a.rel = 'noopener noreferrer';
+      a.className = 'shrink-0 flex items-center gap-2 text-sm text-surface-300 hover:text-white transition-colors whitespace-nowrap group';
+      a.innerHTML = `
+        ${item.country ? `<span class="text-base">${flag(item.country)}</span>` : ''}
+        <span class="max-w-xs truncate">${item.title}</span>
+        <span class="text-xs text-surface-500 shrink-0 group-hover:text-surface-400 transition-colors">${formatAge(item.published)}</span>
+      `;
+      container.appendChild(a);
+    });
+    section.classList.remove('hidden');
+  }
+  fetch('/news.json')
+    .then(r => r.ok ? r.json() : null)
+    .then(data => { if (data?.length) renderNews(data); })
+    .catch(() => { /* news unavailable — section stays hidden */ });
 </script>

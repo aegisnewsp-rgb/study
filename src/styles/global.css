@@ -122,3 +122,12 @@ a:hover { opacity: 0.85; }
   background: var(--color-surface-600);
   border-radius: 9999px;
 }
+
+/* ─── News ticker scrollbar hide ───────────────────────────────── */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}

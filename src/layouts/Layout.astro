@@ -69,6 +69,22 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
       ]
     })} />
 
+    <!-- WebSite Schema with SearchAction — enables Google Sitelinks search box -->
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "StudyRoadmap",
+      "url": "https://studyroadmap.in",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://studyroadmap.in/roadmap?exam={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    })} />
+
     <!-- FAQPage Structured Data -->
     {faqs.length > 0 && (
       <script type="application/ld+json" set:html={JSON.stringify({

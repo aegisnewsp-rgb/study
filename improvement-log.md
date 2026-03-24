@@ -239,3 +239,25 @@ The /roadmap page is the highest-intent page on the site — every visitor arriv
 
 **Result:** PASSED — FAQ JSON-LD live on /roadmap with 6 tool-specific questions
 
+
+## Cycle 10 | 2026-03-24T16:34 UTC
+
+**Change:** Add WebSite JSON-LD schema with SearchAction to Layout.astro
+
+**Category:** structured-data
+
+**Why it matters:**
+WebSite + SearchAction schema enables Google's Sitelinks search box — a premium SERP feature that shows a search bar directly under the main search result for brand queries ("studyroadmap"). This improves CTR, brand authority, and user experience. Combined with Organization schema (Cycle 04), this dual-schema approach is the documented standard for brand-rich results. The target points to /roadmap?exam={term} for direct exam search.
+
+**Files edited:**
+- `src/layouts/Layout.astro` — WebSite JSON-LD added below Organization schema block
+  - name: StudyRoadmap, url: https://studyroadmap.in
+  - potentialAction: SearchAction targeting /roadmap?exam={search_term_string}
+
+**Tests run:**
+- `npm run build` → PASSES, 6 pages
+- Local validation: WebSite + Organization + FAQPage all present ✅
+- Live test: / ✅ WebSite SearchAction live ✅, Organization ✅, FAQPage (5 Qs) ✅
+
+**Result:** PASSED — WebSite schema live on all pages. Sitelinks search box now possible in Google SERPs for studyroadmap.in.
+

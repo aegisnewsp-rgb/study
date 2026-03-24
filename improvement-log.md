@@ -81,3 +81,30 @@ The /exams page is the primary informational landing page for students researchi
 
 **Result:** PASSED — all live tests green. FAQ JSON-LD live on / and /exams/. GRE now visible on homepage. Total: 2 FAQPage schemas, 11 questions, 1 new exam.
 
+
+## Cycle 04 | 2026-03-24T14:03 UTC
+
+**Change:** Add Organization JSON-LD schema to Layout.astro — appears on all pages
+
+**Category:** structured-data
+
+**Why it matters:**
+Organization schema tells Google StudyRoadmap is a credible brand entity with a clear identity, mission, and social presence. This directly strengthens E-E-A-T signals (Trustworthiness + Authoritativeness), which matters for both organic ranking and AdSense policy compliance. The GitHub sameAs link further validates authenticity.
+
+**Files edited:**
+- `src/layouts/Layout.astro` — Organization JSON-LD added as `<script type="application/ld+json">` in head, above FAQPage block
+  - @type: Organization, @id: https://studyroadmap.in/#organization
+  - name: StudyRoadmap, url: https://studyroadmap.in
+  - description: "Free AI-powered study roadmap generator for 21 competitive exams..."
+  - logo: /og-image.svg
+  - sameAs: GitHub profile
+
+**Tests run:**
+- `npm run build` → PASSES, 6 pages
+- Local validation: Homepage ✅ Organization+FAQPage, Exams ✅ Organization+FAQPage (6 Qs), About ✅ Organization
+- Schema structure validated — all required fields present
+- Live test: / ✅ Organization live, ✅ FAQPage live (5 Qs)
+- Live test: /exams/ ✅ Organization live, ✅ FAQPage live (6 Qs)
+
+**Result:** PASSED — Organization schema live on all pages. FAQ schemas on homepage + exams still intact.
+

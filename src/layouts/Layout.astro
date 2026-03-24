@@ -52,6 +52,23 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
+    <!-- Organization Structured Data -->
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": "https://studyroadmap.in/#organization",
+      "name": "StudyRoadmap",
+      "url": "https://studyroadmap.in",
+      "description": "Free AI-powered study roadmap generator for 21 competitive exams across India, Pakistan, and Nigeria. No signup required.",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://studyroadmap.in/og-image.svg"
+      },
+      "sameAs": [
+        "https://github.com/studyroadmap"
+      ]
+    })} />
+
     <!-- FAQPage Structured Data -->
     {faqs.length > 0 && (
       <script type="application/ld+json" set:html={JSON.stringify({

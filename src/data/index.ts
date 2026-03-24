@@ -22,6 +22,7 @@ export { default as CAT } from './india/cat';
 export { default as CLAT } from './india/clat';
 export { default as NDA } from './india/nda';
 export { default as UGCNET } from './india/ugc-net';
+export { default as GRE } from './india/gre';
 
 // ─── Exam list ───────────────────────────────────────────────
 import MDCAT from './pakistan/mdcat';
@@ -44,9 +45,10 @@ import CAT from './india/cat';
 import CLAT from './india/clat';
 import NDA from './india/nda';
 import UGCNET from './india/ugc-net';
+import GRE from './india/gre';
 
 export const ALL_EXAMS = [
-  NEET, JEEMain, JEEAdvanced, CUET, UPSC, SSCCGL, CAT, CLAT, NDA, UGCNET,
+  NEET, JEEMain, JEEAdvanced, CUET, UPSC, SSCCGL, CAT, CLAT, NDA, UGCNET, GRE,
   MDCAT, ECAT, NAT1, LAT, HATUG,
   JAMB, WAEC, NECO, NABTEB, NCEE,
 ].filter(Boolean);

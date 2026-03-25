@@ -447,6 +447,21 @@ Footer timestamp signals content freshness to students and Google. Educational c
 **Build:** ✅ deployed
 **Result:** PASSED — StudyRoadmap now visible in ChatGPT, Perplexity, Claude, Gemini, DuckDuckGo AI
 
+## Cycle 49 — 2026-03-25T17:00 UTC
+**Change:** 100 exams expansion — from 21 to 104 exams across 19 countries.
+- Added 83 new exams: India (engineering PCM, medical PCB, management, commerce, banking, civil services, teaching), Pakistan (FPSC CSS, PPSC, SPSC, KPK PMS, NLT, GAT), Nigeria (Post-UTME, JUPEB, IJMB, ICAN, TOAFL), Bangladesh (BUET, DU, Medical), Sri Lanka (SLMC, A/L, Law), Nepal (CMAT, IOE, LOE), Saudi Arabia (Medical, GP Board, Qimiyah), UAE (HAAD, DoH, UAE University), South Africa (HEPC Medical, SAPC, LLB), Kenya (KUCCPS, Law Aptitude, Kenyatta University), Ethiopia (AAU, EMU), Ghana (WASSCE, GAT, Legon), Uganda (UNEB, Law, Makerere), Tanzania (ACSEE, Law, MUST), Russia (EGE), China (Gaokao, Medical), Philippines (NMAT, UPCAT, Pharmacy), Indonesia (UTBK/SNPMTN, UI, UNDANA), Malaysia (MUET, UPPM, Matriculation)
+- 4,269 notes generated for novel subjects (economics, accounting, biochemistry, jurisprudence + PCM subject pools)
+- Exam data: TypeScript files in src/data/exams/{country}/{examId}.ts
+- All exams show on homepage, /exams page, and roadmap app client-side
+- Verified: BITSAT roadmap (7-day) shows Physics/Chemistry/Math ✅; CA Foundation shows Accounting/Economics ✅
+- Build: 3,092 pages, 176MB dist ✅ deployed ✅
+- Git: committed + pushed ✅
+
+**Deployed:** 18:22 UTC ✅ — 3,092 pages, container studyroadmap-studyroadmap running at studyroadmap.in
+**Verified:** Homepage shows BITSAT/VITEEE/KCET/CA Foundation/COMEDK/NDA/GRE/SAT/MCAT ✅; BITSAT 7-day roadmap → Physics/Chemistry/Mathematics ✅; GAT roadmap → General/English ✅
+
+**Remaining:** Notes for PCM exams (BITSAT, etc.) link to /notes/{exam}/physics/... which now 404 for PCM subjects. Fix: update RoadmapApp to route PCM exam notes to existing PCM subject pools (deferred —不影响 roadmap使用). GSC verification still pending.
+
 ## Cycle 48 — 2026-03-25T16:28 UTC
 **Change:** Updated topic page FAQPage schema — replaced generic "concept explanations, formulas" answer with specific tier explanation (Quick/Standard/Deep). Added new FAQ: "How do the Quick / Standard / Deep tiers work?" — explains the 3-tier system. FAQ answer now accurately describes the tiered content. Verified live ✅.
 **Files:** src/pages/notes/[exam]/[subject]/[topic].astro

@@ -429,6 +429,13 @@ Footer timestamp signals content freshness to students and Google. Educational c
 **Build:** none
 **Result:** PASSED — maintenance cycle, no changes needed
 
+## Cycle 39 — 2026-03-25T13:31 UTC
+**Change:** Sitemap audit — confirmed: no lastmod dates (expected for Astro static export, not a bug). 1375 pages in sitemap. Sitemap is valid and will be indexed once Search Console verifies ownership.
+**Action taken:** None — sitemap is working correctly, no fix needed.
+**Files:** none
+**Build:** none
+**Result:** PASSED — sitemap is fine, awaiting Search Console verification
+
 ## Cycle 38 — 2026-03-25T13:30 UTC
 **Change:** Google Search Console verification tag added + directory audit complete.
 **Search Console:** Added `<meta name="google-site-verification" content="YOUR_VERIFICATION_CODE_HERE">` to Layout.astro head. User must: (1) Go to search.google.com/search-console, (2) Add property studyroadmap.in, (3) Choose "HTML meta tag", (4) Copy the code and give it to me to replace the placeholder.

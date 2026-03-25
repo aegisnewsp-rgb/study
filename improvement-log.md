@@ -423,6 +423,12 @@ Footer timestamp signals content freshness to students and Google. Educational c
 **Build:** none (no code change — news refresh only)
 **Result:** PASSED
 
+## Cycle 35 — 2026-03-25T12:38 UTC
+**Change:** Fix GitHub issue links in Privacy/Terms — repo is private (404), changed to org URL (github.com/aegisnewsp-rgb → 200 OK)
+**Files:** src/pages/privacy.astro, src/pages/terms.astro
+**Build:** 1375 pages ✅
+**Result:** PASSED
+
 ## Cycle 34 — 2026-03-25T12:27 UTC
 **Change:** E-E-A-T fix — Organization schema `sameAs` GitHub URL corrected from `studyroadmap` (404) to `aegisnewsp-rgb` (200). Also fixed broken GitHub issues links in privacy/terms pages.
 **Files:** src/layouts/Layout.astro, src/pages/privacy.astro, src/pages/terms.astro

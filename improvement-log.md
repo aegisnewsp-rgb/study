@@ -410,3 +410,10 @@ Footer timestamp signals content freshness to students and Google. Educational c
 **Files:** public/og-notes/, src/pages/notes/[exam]/index.astro, src/pages/notes/[exam]/[subject]/index.astro, src/pages/notes/index.astro
 **SEO:** All 4 notes page levels now have unique OG images (notes index, exam index, subject index, topic)
 **Result:** PASSED — deployed live
+
+## Cycle 22 — 2026-03-25T04:00 UTC
+**Change:** Exam-specific FAQ content on /roadmap — 8 exams covered (NEET, JEE Main, JEE Advanced, UPSC, CAT, MDCAT, JAMB, CLAT), 3 Q&A pairs each
+**Files:** src/pages/roadmap.astro — added EXAM_FAQS map + visual FAQ section + dynamic JS injection + JSON-LD update
+**SEO:** Each exam page now has exam-specific FAQ schema (eligibility, pattern, attempt limits) for rich SERP entries on high-intent queries
+**Build:** 1375 pages, PASSED
+**Result:** PASSED — deployed live

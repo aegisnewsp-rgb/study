@@ -27,8 +27,8 @@ Next 5 highest-value candidate changes (unordered priority):
 
 **Remaining candidates (next 5):**
 1. Core Web Vitals audit — LCP, FCP, CLS (moderate effort)
-2. Exam individual page FAQ content (moderate effort)
-3. Exam pages — add exam-pattern/eligibility metadata to /exams listing (moderate effort)
+2. ~~Exam individual page FAQ content~~ — DONE Cycle 22
+3. ~~Exam pages — add exam-pattern/eligibility metadata to /exams listing~~ — DONE Cycle 14
 4. Internal linking — connect related exam pages, country sections, roadmap pages (moderate effort)
 5. Accessibility audit — tap targets, contrast, WCAG AA basics (moderate effort)
 
@@ -40,12 +40,14 @@ Next 5 highest-value candidate changes (unordered priority):
 ---
 *[NEW after Cycle 16]*
 1. Core Web Vitals — LCP/FCP/CLS audit (moderate effort) — Lighthouse CLI not installed; bundle analysis shows 182KB main JS
-2. Exam individual page FAQ content — each roadmap page has 6 FAQs but no exam-specific content yet
-3. Breadcrumb structured data — add BreadcrumbList JSON-LD to all notes pages
-4. OG images for notes pages — each topic page should have its own OG image (currently uses homepage og-image.jpg)
-5. Related exam links in sidebar — link to other countries' equivalent exams (e.g. JEE links to MDCAT)
+2. Exam individual page FAQ content — ~~each roadmap page has 6 FAQs but no exam-specific content yet~~ — IMPLEMENTED Cycle 22: 8 exams (NEET, JEEMain, JEEAdvanced, UPSC, CAT, MDCAT, JAMB, CLAT) × 3 exam-specific FAQs (eligibility, pattern, attempts/score), dynamic JS injection + FAQPage JSON-LD update
+3. ~~Breadcrumb structured data~~ — DONE Cycle 17
+4. ~~OG images for notes pages~~ — DONE Cycle 19 (1,263 images)
+5. ~~Related exam links in sidebar~~ — DONE Cycle 17
 
 ---
 *[DONE - Cycle 17]* ~~BreadcrumbList JSON-LD~~ — added to all 4 notes page levels
 *[DONE - Cycle 19]* ~~OG images for notes pages~~ — 1,263 branded OG images generated, verified live
-*[NEW]* Related exam cross-links — link to equivalent exams in other countries (e.g. NEET → MDCAT, JEE → ECAT, JAMB → WAEC)
+*[DONE]* ~~Related exam cross-links~~ — DONE Cycle 17 (notes pages)
+*[NEW]* Accessibility audit — tap targets, contrast, WCAG AA basics (moderate effort)
+*[NEW]* Internal linking — connect related exam pages, country sections, roadmap pages

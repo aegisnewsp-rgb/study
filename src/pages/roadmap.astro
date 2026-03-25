@@ -57,6 +57,50 @@ const ROADMAP_FAQS = [
   },
 ];
 
+// Exam-specific FAQs — injected into the page when a user selects an exam
+const EXAM_FAQS: Record<string, Array<{ question: string; answer: string }>> = {
+  'neet': [
+    { question: 'What is the eligibility criteria for NEET UG?', answer: 'Candidates must be at least 17 years old as of December 31 of the admission year. There is no upper age limit for NEET (as of the latest NMC rule). Academic requirement: 50% marks in Physics, Chemistry, and Biology (PCB) in the qualifying examination for the general category; 40% for reserved categories. Students appearing in Class 12 can also apply.' },
+    { question: 'What is the exam pattern for NEET?', answer: 'NEET consists of 200 multiple-choice questions (180 mandatory + 10 optional), to be answered within 3 hours and 20 minutes. The paper covers three subjects: Physics (50 questions), Chemistry (50 questions), and Biology (100 questions — 90 mandatory + 10 optional). Each correct answer earns 4 marks; 1 mark is deducted for each wrong answer.' },
+    { question: 'How many attempts are allowed for NEET?', answer: 'There is no limit on the number of attempts for NEET, provided the candidate meets the age and eligibility criteria. However, the upper age limit has been a subject of judicial review — check the latest NMC guidelines before applying.' },
+  ],
+  'jeemain': [
+    { question: 'What is the eligibility for JEE Main?', answer: 'Candidates must have passed Class 12 or be appearing in the current academic year. There is no minimum aggregate requirement for appearing in JEE Main, but for admission to NITs, IIITs, and CFTIs, candidates typically need 75% or above (or be in the top 20 percentile of their board). For SC/ST candidates, the requirement is 65%.' },
+    { question: 'What is the JEE Main exam pattern?', answer: 'JEE Main consists of 90 multiple-choice questions (30 per subject: Physics, Chemistry, Mathematics) with 25 questions each in Sections A (MCQs) and B (Numerical Value). Candidates attempt any 5 of the 10 questions in Section B. Each MCQ carries 4 marks; each numerical question carries 4 marks (no negative marking for numerical). Total time: 3 hours.' },
+    { question: 'How many attempts per year for JEE Main?', answer: 'JEE Main is conducted twice a year (January and April sessions). A candidate can appear for both sessions in the same year. There is no cap on the total number of attempts across years, but only the best of the two scores is considered for the merit list.' },
+  ],
+  'jeeadvanced': [
+    { question: 'Who is eligible to appear for JEE Advanced?', answer: 'Only the top 2,50,000 rankers in JEE Main (including all categories) are eligible to appear for JEE Advanced. Additionally, candidates must be among the top 20 percentile of their respective board examination. Age limit: candidates should have been born on or after October 1, 1998 (5-year relaxation for SC/ST/PwD candidates).' },
+    { question: 'What is the JEE Advanced exam pattern?', answer: 'JEE Advanced consists of multiple papers (Paper 1 and Paper 2, each of 3 hours). The question paper comprises three subjects: Physics, Chemistry, and Mathematics. Questions are a mix of MCQs, numerical answer type (NAT), and comprehension/match columns. The marking scheme varies each year and is detailed in the Information Brochure released annually.' },
+    { question: 'What is theSylabus overlap between JEE Main and JEE Advanced?', answer: 'The JEE Advanced syllabus is broadly similar to JEE Main but goes deeper and includes additional topics. Key additions in JEE Advanced include: General Organic Chemistry (detailed), Chemical Thermodynamics (extended), Electronic Devices (additional topics), and more complex problem-solving expectations across all three subjects.' },
+  ],
+  'upsc': [
+    { question: 'What is the eligibility for UPSC Civil Services Examination?', answer: 'Candidates must hold a degree (graduation in any discipline) from a recognised university. Age limit: 21 to 32 years as of August 1 of the exam year for the general category. Attempts allowed: 6 for general category; 9 for OBC; unlimited for SC/ST (until the age limit is reached. PwD candidates get additional attempts based on their category.' },
+    { question: 'What are the stages of the UPSC exam?', answer: 'The UPSC Civil Services Examination has three stages: (1) Preliminary Examination (Objective MCQs — General Studies Paper I and CSAT Paper II), (2) Mains Examination (Conventional/Descriptive — 9 papers including an Essay, four General Studies, two optional papers, and two language papers), and (3) Personality Test/Interview (275 marks). The final merit list is based on Mains + Interview.' },
+    { question: 'What is the exam pattern for UPSC Prelims?', answer: 'UPSC Prelims consists of two objective-type papers: General Studies Paper I (200 marks, 80 questions on history, geography, polity, economy, science, environment, and current affairs) and CSAT Paper II (200 marks, 80 questions on comprehension, logical reasoning, and analytical ability). CSAT is qualifying in nature (33% threshold). Both papers are of 2 hours each. Negative marking applies: 0.66 marks deducted for each wrong answer.' },
+  ],
+  'cat': [
+    { question: 'What is the eligibility to appear for CAT?', answer: 'Candidates must hold a Bachelor\'s degree with at least 50% marks (45% for SC/ST/PwD) from a recognised university. Final-year undergraduate students can also apply. There is no minimum work experience requirement. Candidates from any academic background — engineering, arts, commerce, science — are eligible.' },
+    { question: 'What is the CAT exam pattern?', answer: 'CAT is a computer-based test of 2 hours (120 minutes). The exam has three sections: VARC (24 questions), DILR (20 questions), and QA (22 questions). Each correct answer carries 3 marks; 1 mark is deducted for each wrong answer in the MCQ section. There is no negative marking for TITA (Type in the Answer) questions. The test is adaptive in some years.' },
+    { question: 'What is a good CAT score for IIM admission?', answer: 'A CAT score above 99 percentile (typically 97–99+ sectional percentiles) is considered competitive for top IIMs (IIM-A, B, C, L, K, S). The exact cutoff varies by IIM, category, and academic background. For newer IIMs and baby IIMs, the 90–95 percentile range is usually sufficient. Beyond the CAT score, WAT and PI rounds also carry significant weight in the final selection.' },
+  ],
+  'mdcat': [
+    { question: 'What is the eligibility for MDCAT?', answer: 'Candidates must have completed F.Sc. (Pre-Medical) or an equivalent qualification with a minimum of 65% marks aggregate. They must also appear in the MDCAT entrance test conducted by PMDC. For international seats, the requirements may differ — check with the respective university. The test is mandatory for admission to all medical colleges in Pakistan.' },
+    { question: 'What is the exam pattern for MDCAT?', answer: 'MDCAT is a multiple-choice question (MCQ) based test of 180 questions to be attempted in 3 hours and 30 minutes. The distribution is: Biology (60 MCQs), Chemistry (60 MCQs), Physics (30 MCQs), and English (30 MCQs, usually from University Admission Test pattern). The test is conducted annually, typically in August or September. Negative marking applies: 0.5 marks deducted per wrong answer.' },
+    { question: 'What is the passing score for MDCAT?', answer: 'The PMDC sets a minimum passing threshold each year. The passing marks are typically 65% overall. For government medical colleges, the merit is calculated based on MDCAT score (50%), F.Sc./HSSC marks (40%), and interview (10%) or as per the latest PMDC policy. Private medical colleges set their own merit thresholds.' },
+  ],
+  'jamb': [
+    { question: 'What is the eligibility for JAMB?', answer: 'Candidates must have a Senior Secondary School Certificate (SSCE) or its equivalent with at least five (5) credit passes, including English Language and Mathematics (for most courses). The UTME (Unified Tertiary Matriculation Examination) is open to students who have completed or are in their final year of secondary school education. There is no age limit.' },
+    { question: 'What is the JAMB UTME exam pattern?', answer: 'JAMB UTME consists of 180 multiple-choice questions to be answered in 2 hours. The four subjects are: Use of English (compulsory for all candidates), and three other subjects relevant to the candidate\'s chosen university course. Each subject has 60 questions. There is no negative marking. The exam is computer-based (CBT).' },
+    { question: 'What is the JAMB syllabus and how should I use it?', answer: 'The JAMB syllabus covers all subjects and specifies the topics and objectives for each. Candidates are advised to study the official JAMB syllabus (available on the JAMB website) and focus on the stated objectives under each topic. Past questions from previous years are also highly valuable for pattern recognition and time management practice.' },
+  ],
+  'clat': [
+    { question: 'What is the eligibility for CLAT?', answer: 'For the undergraduate CLAT programme, candidates must have completed their Higher Secondary School Certificate (12th grade) or equivalent examination with at least 45% marks (40% for SC/ST/PwD candidates). There is no upper age limit for appearing in CLAT. Candidates appearing in the 12th grade in the current academic year are also eligible to apply.' },
+    { question: 'What is the CLAT exam pattern?', answer: 'CLAT (Undergraduate) consists of 150 multiple-choice questions to be answered in 2 hours. The sections are: English Language, Current Affairs (including General Knowledge), Legal Reasoning, Logical Reasoning, and Quantitative Techniques (Mathematics). Each question carries 1 mark; 0.25 marks are deducted for each wrong answer.' },
+    { question: 'What is a good CLAT score for top law schools?', answer: 'A score above 100–110 out of 150 is typically competitive for the top 5 NLUs (National Law Universities). For NLU Delhi and the top-tier NLUs, a score of 120+ is considered strong. Since the exam is standardised, the percentile matters more than the raw score. Candidates aiming for NLU-A should target a rank within the top 500.' },
+  ],
+};
+
 // Group exams by country for the "Browse More" internal links section
 const byCountry = {
   india:    { label: 'India',    flag: '🇮🇳', exams: ALL_EXAMS.filter(e => e.country === 'india') },
@@ -88,6 +132,17 @@ const byCountry = {
 
     <!-- React island: all interactivity lives here -->
     <RoadmapApp exams={ALL_EXAMS} client:load />
+
+    <!-- Exam-specific FAQ section (populated by JS when exam is selected) -->
+    <section id="exam-faq-section" class="hidden border-t border-surface-200 dark:border-surface-800">
+      <div class="container-page py-12">
+        <h2 class="heading-2 text-surface-900 dark:text-surface-50 mb-2" id="exam-faq-heading">📋 Exam FAQs</h2>
+        <p class="text-sm text-surface-500 dark:text-surface-400 mb-8">
+          Common questions about this exam's eligibility, pattern, and preparation strategy.
+        </p>
+        <div id="exam-faq-list" class="space-y-4"></div>
+      </div>
+    </section>
 
     <!-- Study Notes section -->
     <section class="bg-surface-50 dark:bg-surface-950 border-t border-surface-200 dark:border-surface-800">
@@ -156,4 +211,115 @@ const byCountry = {
   </main>
 
   <Footer />
+
+  <!-- Dynamic exam-specific FAQ injection -->
+  <script is:inline define:vars={{ EXAM_FAQS }}>
+    (function () {
+      const examFaqSection = document.getElementById('exam-faq-section');
+      const examFaqList = document.getElementById('exam-faq-list');
+      const examFaqHeading = document.getElementById('exam-faq-heading');
+      let currentExam = null;
+
+      function getExamFromUrl() {
+        const params = new URLSearchParams(window.location.search);
+        return params.get('exam') || null;
+      }
+
+      function slugify(str) {
+        return str.toLowerCase().replace(/-/g, '');
+      }
+
+      function findExamKey(urlKey) {
+        if (!urlKey) return null;
+        const normalized = slugify(urlKey);
+        for (const key of Object.keys(EXAM_FAQS)) {
+          if (slugify(key) === normalized || key === urlKey) return key;
+        }
+        return null;
+      }
+
+      function renderFaqs(examKey) {
+        if (!examKey || !EXAM_FAQS[examKey]) {
+          examFaqSection.classList.add('hidden');
+          currentExam = null;
+          return;
+        }
+
+        const faqs = EXAM_FAQS[examKey];
+        const examName = examKey.toUpperCase();
+        examFaqHeading.textContent = '📋 ' + examName + ' FAQs';
+        examFaqList.innerHTML = '';
+
+        faqs.forEach(function (faq) {
+          var item = document.createElement('details');
+          item.className = 'group bg-surface-50 dark:bg-surface-900 border border-surface-200 dark:border-surface-700 rounded-lg overflow-hidden';
+
+          var summary = document.createElement('summary');
+          summary.className = 'flex items-center justify-between gap-4 px-5 py-4 cursor-pointer list-none font-medium text-surface-800 dark:text-surface-100 hover:bg-surface-100 dark:hover:bg-surface-800 transition-colors';
+          summary.innerHTML = '<span>' + faq.question + '</span><span class="text-surface-400 group-open:rotate-45 transition-transform">+</span>';
+
+          var answer = document.createElement('div');
+          answer.className = 'px-5 pb-4 text-sm text-surface-600 dark:text-surface-300 leading-relaxed border-t border-surface-100 dark:border-surface-800 pt-3';
+          answer.textContent = faq.answer;
+
+          item.appendChild(summary);
+          item.appendChild(answer);
+          examFaqList.appendChild(item);
+        });
+
+        examFaqSection.classList.remove('hidden');
+        currentExam = examKey;
+      }
+
+      function updateJsonLd(examKey) {
+        // Remove existing exam-specific FAQPage JSON-LD
+        var existing = document.getElementById('exam-specific-faq-jsonld');
+        if (existing) existing.remove();
+
+        if (!examKey || !EXAM_FAQS[examKey]) return;
+
+        var script = document.createElement('script');
+        script.id = 'exam-specific-faq-jsonld';
+        script.type = 'application/ld+json';
+        script.textContent = JSON.stringify({
+          '@context': 'https://schema.org',
+          '@type': 'FAQPage',
+          mainEntity: EXAM_FAQS[examKey].map(function (f) {
+            return {
+              '@type': 'Question',
+              name: f.question,
+              acceptedAnswer: { '@type': 'Answer', text: f.answer },
+            };
+          }),
+        });
+        document.head.appendChild(script);
+      }
+
+      function onExamChange() {
+        var examKey = findExamKey(getExamFromUrl());
+        if (examKey !== currentExam) {
+          renderFaqs(examKey);
+          updateJsonLd(examKey);
+        }
+      }
+
+      // Initial load
+      onExamChange();
+
+      // React router may update URL without page reload
+      var lastUrl = window.location.href;
+      var pollInterval = setInterval(function () {
+        if (window.location.href !== lastUrl) {
+          lastUrl = window.location.href;
+          onExamChange();
+        }
+      }, 500);
+
+      // Also handle browser back/forward
+      window.addEventListener('popstate', function () {
+        lastUrl = window.location.href;
+        onExamChange();
+      });
+    })();
+  </script>
 </Layout>

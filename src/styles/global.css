@@ -143,3 +143,14 @@ a:hover { opacity: 0.85; }
 :focus:not(:focus-visible) {
   outline: none;
 }
+
+/* ─── Mobile tap targets (WCAG 2.1 AA — 44×44px minimum) ─────── */
+a, button, input, select, label[for], [role="button"], [role="link"] {
+  min-height: 44px;
+  min-width: 44px;
+}
+
+/* Allow horizontal-only controls to be narrower */
+input[type="checkbox"], input[type="radio"] {
+  min-width: auto;
+}

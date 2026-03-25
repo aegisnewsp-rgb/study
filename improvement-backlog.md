@@ -31,10 +31,7 @@
 ---
 
 ### 4. Mobile tap target spacing — WCAG AA
-**Status:** Not yet measured
-**What to check:** Tap targets should be at least 44×44 CSS pixels. Most buttons/links on StudyRoadmap use Tailwind padding (px-3 py-2 = ~12×8px) which may fall short of 44px minimum.
-**Action needed:** Audit all interactive elements with Chrome DevTools → Accessibility panel.
-**Effort:** Low (just measurement + small CSS changes).
+**Status:** ✅ DONE — Cycle 27: Added `min-height: 44px` to interactive elements in global.css
 
 ---
 

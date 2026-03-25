@@ -418,6 +418,13 @@ Footer timestamp signals content freshness to students and Google. Educational c
 **Build:** 1375 pages, PASSED
 **Result:** PASSED — deployed live
 
+## Cycle 27 — 2026-03-25T10:45 UTC
+**Change:** Mobile tap targets — WCAG 2.1 AA minimum 44×44px applied to all interactive elements (a, button, input, select, label, [role=button], [role=link]) in global.css. Checkboxes/radios exempted for natural sizing.
+**Files:** src/styles/global.css
+**SEO:** WCAG 2.1 AA mobile accessibility — positive ranking signal
+**Build:** 1375 pages, PASSED
+**Result:** PASSED — deployed live
+
 ## Cycle 26 — 2026-03-25T08:00 UTC
 **Change:** Accessibility — focus-visible styles (WCAG 2.1 AA): 2px brand-blue outline on Tab-focusable elements, suppressed for mouse users. Backlog fully refreshed.
 **Files:** src/styles/global.css

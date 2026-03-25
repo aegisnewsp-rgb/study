@@ -404,3 +404,9 @@ Footer timestamp signals content freshness to students and Google. Educational c
 **Files:** src/layouts/Layout.astro, src/styles/global.css
 **SEO:** Performance improvement (TTFB confirmed 27ms, LCP optimization for font loading)
 **Result:** PASSED — deployed live
+
+## Cycle 21 — 2026-03-25T03:03 UTC
+**Change:** OG images for exam index pages and subject index pages — 105 additional branded images at /og-notes/exam-{exam}.jpg and /og-notes/subject-{exam}-{subject}.jpg
+**Files:** public/og-notes/, src/pages/notes/[exam]/index.astro, src/pages/notes/[exam]/[subject]/index.astro, src/pages/notes/index.astro
+**SEO:** All 4 notes page levels now have unique OG images (notes index, exam index, subject index, topic)
+**Result:** PASSED — deployed live

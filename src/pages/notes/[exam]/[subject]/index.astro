@@ -29,6 +29,7 @@ const title = `${subjectName} Study Notes — ${examName} | StudyRoadmap™`;
 const description = `Free ${subjectName} study notes for ${examName}. ${subjectNotes.length} topics covered — concept explanations, formulas, problem-solving steps, and diagrams.`;
 const canonicalUrl = `https://studyroadmap.in/notes/${exam}/${subject}`;
 const siteUrl = 'https://studyroadmap.in';
+const ogImage = `/og-notes/subject-${exam}-${subject}.jpg`;
 
 const breadcrumbJsonLd = {
   '@context': 'https://schema.org',
@@ -42,7 +43,7 @@ const breadcrumbJsonLd = {
 };
 ---
 
-<Layout title={title} description={description} canonical={canonicalUrl}>
+<Layout title={title} description={description} canonical={canonicalUrl} image={ogImage}>
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
   <Navbar />
   <main class="flex-1">

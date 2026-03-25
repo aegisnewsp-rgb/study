@@ -423,6 +423,14 @@ Footer timestamp signals content freshness to students and Google. Educational c
 **Build:** none (no code change — news refresh only)
 **Result:** PASSED
 
+## Cycle 37 — 2026-03-25T13:16 UTC
+**Change:** Traffic SEO audit — confirmed: site has NO Google index (0 results for site:studyroadmap.in). Sitemap has no lastmod dates (Astro static export generates all timestamps same). Google/Bing sitemap pings are deprecated.
+**Root cause:** Brand new domain, zero backlinks, no Search Console. Google hasn't discovered it yet.
+**Action taken:** None without credentials — recommend: (1) Google Search Console (free, needs email verification), (2) Reddit/social sharing to generate initial backlinks, (3) Bing Webmaster Tools
+**Files:** none
+**Build:** none
+**Result:** PASSED — traffic problem is out of scope without credentials
+
 ## Cycle 36 — 2026-03-25T12:49 UTC
 **Change:** News display audit — found India/Pakistan RSS feeds return many "Untitled" entries without pubDate. Fallback timestamp makes them all look new. Result: 10-item window dominated by Nigeria WAEC items (they have proper dates). Not a crash but worth revisiting feed sources. Skipping to avoid burning a cycle on feed curation.
 **Files:** none

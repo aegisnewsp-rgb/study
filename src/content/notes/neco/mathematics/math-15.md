@@ -1,5 +1,8 @@
 ---
 
+
+
+
 exam: neco
 examName: NECO SSCE
 subject: mathematics
@@ -10,28 +13,39 @@ weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.670808"
 diagramPrompt: "Mathematical diagram showing Statistics: Measures of Central Tendency concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style"
+
+
+
+---
+# "Statistics: Measures of Central Tendency"
+
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
+
+**"Statistics: Measures of Central Tendency"** — Quick Facts
+Core concept: "Statistics: Measures of Central Tendency" is a key topic in this subject area
+High-yield points: Key definitions, formulas, and facts for last-minute revision
+⚡ Exam tip: Focus on understanding over memorisation — application is everything
+
 ---
 
-# Statistics: Measures of Central Tendency
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-### Concept
-Statistics: Measures of Central Tendency involves solving equations and understanding algebraic structures.
+**"Statistics: Measures of Central Tendency"** — Study Guide
+Overview: "Statistics: Measures of Central Tendency" is part of the core syllabus
+Key concepts: Build a clear understanding of fundamentals
+Standard questions: Typical patterns seen in competitive exams
 
-### Key Formulas
-Key formulas for Statistics: Measures of Central Tendency
+---
 
-### Problem Types
-Types of problems in Statistics: Measures of Central Tendency
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-### Solution Method
-Method to solve Statistics: Measures of Central Tendency problems
+**"Statistics: Measures of Central Tendency"** — Comprehensive Notes
+Full coverage: "Statistics: Measures of Central Tendency" with detailed explanation
+Extended theory: Deeper understanding for thorough preparation
+Practice: Solve previous year questions and standard textbook exercises
 
-### Example
-**Problem**: Example of Statistics: Measures of Central Tendency problem
-**Solution**: Solution approach
-
-### Common Errors
-Common errors in Statistics: Measures of Central Tendency
-
-### Diagram Description
-*[Diagram: Mathematical diagram showing Statistics: Measures of Central Tendency concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style]*
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

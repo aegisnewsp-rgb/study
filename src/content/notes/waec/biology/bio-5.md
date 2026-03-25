@@ -1,4 +1,7 @@
 ---
+
+
+
 exam: waec
 examName: WAEC WASSCE
 subject: biology
@@ -9,21 +12,39 @@ weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.649941"
 diagramPrompt: Detailed biological diagram of Digestive System in Humans with labeled parts, accurate proportions, white background, color-coded tissues/organs, textbook quality
----
 
+
+
+---
 # Digestive System in Humans
 
-### Key Processes
-Key processes in Digestive System in Humans
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
 
-### Mechanism
-Mechanism of Digestive System in Humans
+**Digestive System in Humans** — Quick Facts
+Core concept: Digestive System in Humans is a key topic in this subject area
+High-yield points: Key definitions, formulas, and facts for last-minute revision
+⚡ Exam tip: Focus on understanding over memorisation — application is everything
 
-### Regulation
-How Digestive System in Humans is regulated
+---
 
-### Factors Affecting
-Factors affecting Digestive System in Humans
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-### Diagram Description
-*[Diagram: Detailed biological diagram of Digestive System in Humans with labeled parts, accurate proportions, white background, color-coded tissues/organs, textbook quality]*
+**Digestive System in Humans** — Study Guide
+Overview: Digestive System in Humans is part of the core syllabus
+Key concepts: Build a clear understanding of fundamentals
+Standard questions: Typical patterns seen in competitive exams
+
+---
+
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
+
+**Digestive System in Humans** — Comprehensive Notes
+Full coverage: Digestive System in Humans with detailed explanation
+Extended theory: Deeper understanding for thorough preparation
+Practice: Solve previous year questions and standard textbook exercises
+
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

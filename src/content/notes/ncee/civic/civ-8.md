@@ -1,5 +1,8 @@
 ---
 
+
+
+
 exam: ncee
 examName: NCEE (National Common Entrance Examination)
 subject: civic
@@ -10,20 +13,39 @@ weight: 3
 country: nigeria
 generated: "2026-03-24T08:32:07.602931"
 diagramPrompt: "Educational diagram illustrating Civic Virtues: Honesty, Discipline, Justice with clear labels, white background, exam-style illustration"
+
+
+
+---
+# "Civic Virtues: Honesty, Discipline, Justice"
+
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
+
+**"Civic Virtues: Honesty, Discipline, Justice"** — Quick Facts
+Core concept: "Civic Virtues: Honesty, Discipline, Justice" is a key topic in this subject area
+High-yield points: Key definitions, formulas, and facts for last-minute revision
+⚡ Exam tip: Focus on understanding over memorisation — application is everything
+
 ---
 
-# Civic Virtues: Honesty, Discipline, Justice
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-### Concept
-Civic Virtues: Honesty, Discipline, Justice is an important topic in Civic Education for NCEE (National Common Entrance Examination).
+**"Civic Virtues: Honesty, Discipline, Justice"** — Study Guide
+Overview: "Civic Virtues: Honesty, Discipline, Justice" is part of the core syllabus
+Key concepts: Build a clear understanding of fundamentals
+Standard questions: Typical patterns seen in competitive exams
 
-### Key Points
-- Point 1
-- Point 2
-- Point 3
+---
 
-### Summary
-This topic is a part of Civic Education and carries significant weight in ncee exams
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-### Diagram Description
-*[Diagram: Educational diagram illustrating Civic Virtues: Honesty, Discipline, Justice with clear labels, white background, exam-style illustration]*
+**"Civic Virtues: Honesty, Discipline, Justice"** — Comprehensive Notes
+Full coverage: "Civic Virtues: Honesty, Discipline, Justice" with detailed explanation
+Extended theory: Deeper understanding for thorough preparation
+Practice: Solve previous year questions and standard textbook exercises
+
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

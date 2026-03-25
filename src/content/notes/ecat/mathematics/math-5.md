@@ -1,5 +1,8 @@
 ---
 
+
+
+
 exam: ecat
 examName: ECAT (Engineering College Admission Test)
 subject: mathematics
@@ -10,24 +13,39 @@ weight: 4
 country: pakistan
 generated: "2026-03-24T08:32:08.066163"
 diagramPrompt: "Mathematical diagram showing Trigonometry: Solutions of Triangles concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style"
+
+
+
+---
+# "Trigonometry: Solutions of Triangles"
+
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
+
+**"Trigonometry: Solutions of Triangles"** — Quick Facts
+Core concept: "Trigonometry: Solutions of Triangles" is a key topic in this subject area
+High-yield points: Key definitions, formulas, and facts for last-minute revision
+⚡ Exam tip: Focus on understanding over memorisation — application is everything
+
 ---
 
-# Trigonometry: Solutions of Triangles
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-### Concept
-Trigonometry: Solutions of Triangles involves the properties and relationships of geometric figures.
+**"Trigonometry: Solutions of Triangles"** — Study Guide
+Overview: "Trigonometry: Solutions of Triangles" is part of the core syllabus
+Key concepts: Build a clear understanding of fundamentals
+Standard questions: Typical patterns seen in competitive exams
 
-### Key Theorems
-Theorems related to Trigonometry: Solutions of Triangles
+---
 
-### Formulas
-Key formulas for Trigonometry: Solutions of Triangles
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-### Construction
-How to construct diagrams for Trigonometry: Solutions of Triangles
+**"Trigonometry: Solutions of Triangles"** — Comprehensive Notes
+Full coverage: "Trigonometry: Solutions of Triangles" with detailed explanation
+Extended theory: Deeper understanding for thorough preparation
+Practice: Solve previous year questions and standard textbook exercises
 
-### Problem-Solving Tips
-Tips for solving Trigonometry: Solutions of Triangles problems
-
-### Diagram Description
-*[Diagram: Mathematical diagram showing Trigonometry: Solutions of Triangles concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style]*
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

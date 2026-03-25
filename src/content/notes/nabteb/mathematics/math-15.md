@@ -1,5 +1,8 @@
 ---
 
+
+
+
 exam: nabteb
 examName: NABTEB
 subject: mathematics
@@ -10,28 +13,39 @@ weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.554264"
 diagramPrompt: "Mathematical diagram showing Mensuration: Areas and Volumes concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style"
+
+
+
+---
+# "Mensuration: Areas and Volumes"
+
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
+
+**"Mensuration: Areas and Volumes"** — Quick Facts
+Core concept: "Mensuration: Areas and Volumes" is a key topic in this subject area
+High-yield points: Key definitions, formulas, and facts for last-minute revision
+⚡ Exam tip: Focus on understanding over memorisation — application is everything
+
 ---
 
-# Mensuration: Areas and Volumes
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-### Concept
-Mensuration: Areas and Volumes involves solving equations and understanding algebraic structures.
+**"Mensuration: Areas and Volumes"** — Study Guide
+Overview: "Mensuration: Areas and Volumes" is part of the core syllabus
+Key concepts: Build a clear understanding of fundamentals
+Standard questions: Typical patterns seen in competitive exams
 
-### Key Formulas
-Key formulas for Mensuration: Areas and Volumes
+---
 
-### Problem Types
-Types of problems in Mensuration: Areas and Volumes
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-### Solution Method
-Method to solve Mensuration: Areas and Volumes problems
+**"Mensuration: Areas and Volumes"** — Comprehensive Notes
+Full coverage: "Mensuration: Areas and Volumes" with detailed explanation
+Extended theory: Deeper understanding for thorough preparation
+Practice: Solve previous year questions and standard textbook exercises
 
-### Example
-**Problem**: Example of Mensuration: Areas and Volumes problem
-**Solution**: Solution approach
-
-### Common Errors
-Common errors in Mensuration: Areas and Volumes
-
-### Diagram Description
-*[Diagram: Mathematical diagram showing Mensuration: Areas and Volumes concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style]*
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

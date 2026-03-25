@@ -1,5 +1,8 @@
 ---
 
+
+
+
 exam: neco
 examName: NECO SSCE
 subject: biology
@@ -10,21 +13,39 @@ weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.696532"
 diagramPrompt: "Detailed biological diagram of Coordination: Nervous and Endocrine Systems with labeled parts, accurate proportions, white background, color-coded tissues/organs, textbook quality"
+
+
+
+---
+# "Coordination: Nervous and Endocrine Systems"
+
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
+
+**"Coordination: Nervous and Endocrine Systems"** — Quick Facts
+Core concept: "Coordination: Nervous and Endocrine Systems" is a key topic in this subject area
+High-yield points: Key definitions, formulas, and facts for last-minute revision
+⚡ Exam tip: Focus on understanding over memorisation — application is everything
+
 ---
 
-# Coordination: Nervous and Endocrine Systems
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-### Key Processes
-Key processes in Coordination: Nervous and Endocrine Systems
+**"Coordination: Nervous and Endocrine Systems"** — Study Guide
+Overview: "Coordination: Nervous and Endocrine Systems" is part of the core syllabus
+Key concepts: Build a clear understanding of fundamentals
+Standard questions: Typical patterns seen in competitive exams
 
-### Mechanism
-Mechanism of Coordination: Nervous and Endocrine Systems
+---
 
-### Regulation
-How Coordination: Nervous and Endocrine Systems is regulated
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-### Factors Affecting
-Factors affecting Coordination: Nervous and Endocrine Systems
+**"Coordination: Nervous and Endocrine Systems"** — Comprehensive Notes
+Full coverage: "Coordination: Nervous and Endocrine Systems" with detailed explanation
+Extended theory: Deeper understanding for thorough preparation
+Practice: Solve previous year questions and standard textbook exercises
 
-### Diagram Description
-*[Diagram: Detailed biological diagram of Coordination: Nervous and Endocrine Systems with labeled parts, accurate proportions, white background, color-coded tissues/organs, textbook quality]*
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

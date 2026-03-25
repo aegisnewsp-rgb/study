@@ -1,4 +1,7 @@
 ---
+
+
+
 exam: nda
 examName: NDA
 subject: mathematics
@@ -9,28 +12,39 @@ weight: 4
 country: india
 generated: "2026-03-24T08:32:07.808715"
 diagramPrompt: Mathematical diagram showing Vector Algebra concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style
----
 
+
+
+---
 # Vector Algebra
 
-### Concept
-Vector Algebra involves solving equations and understanding algebraic structures.
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
 
-### Key Formulas
-Key formulas for Vector Algebra
+**Vector Algebra** — Quick Facts
+Core concept: Vector Algebra is a key topic in this subject area
+High-yield points: Key definitions, formulas, and facts for last-minute revision
+⚡ Exam tip: Focus on understanding over memorisation — application is everything
 
-### Problem Types
-Types of problems in Vector Algebra
+---
 
-### Solution Method
-Method to solve Vector Algebra problems
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-### Example
-**Problem**: Example of Vector Algebra problem
-**Solution**: Solution approach
+**Vector Algebra** — Study Guide
+Overview: Vector Algebra is part of the core syllabus
+Key concepts: Build a clear understanding of fundamentals
+Standard questions: Typical patterns seen in competitive exams
 
-### Common Errors
-Common errors in Vector Algebra
+---
 
-### Diagram Description
-*[Diagram: Mathematical diagram showing Vector Algebra concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style]*
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
+
+**Vector Algebra** — Comprehensive Notes
+Full coverage: Vector Algebra with detailed explanation
+Extended theory: Deeper understanding for thorough preparation
+Practice: Solve previous year questions and standard textbook exercises
+
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

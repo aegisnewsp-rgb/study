@@ -1,5 +1,8 @@
 ---
 
+
+
+
 exam: ncee
 examName: NCEE (National Common Entrance Examination)
 subject: natural-science
@@ -10,20 +13,39 @@ weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.606501"
 diagramPrompt: "Educational diagram illustrating Matter: States and Properties with clear labels, white background, exam-style illustration"
+
+
+
+---
+# "Matter: States and Properties"
+
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
+
+**"Matter: States and Properties"** — Quick Facts
+Core concept: "Matter: States and Properties" is a key topic in this subject area
+High-yield points: Key definitions, formulas, and facts for last-minute revision
+⚡ Exam tip: Focus on understanding over memorisation — application is everything
+
 ---
 
-# Matter: States and Properties
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-### Concept
-Matter: States and Properties is an important topic in Natural Science for NCEE (National Common Entrance Examination).
+**"Matter: States and Properties"** — Study Guide
+Overview: "Matter: States and Properties" is part of the core syllabus
+Key concepts: Build a clear understanding of fundamentals
+Standard questions: Typical patterns seen in competitive exams
 
-### Key Points
-- Point 1
-- Point 2
-- Point 3
+---
 
-### Summary
-This topic is a part of Natural Science and carries significant weight in ncee exams
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-### Diagram Description
-*[Diagram: Educational diagram illustrating Matter: States and Properties with clear labels, white background, exam-style illustration]*
+**"Matter: States and Properties"** — Comprehensive Notes
+Full coverage: "Matter: States and Properties" with detailed explanation
+Extended theory: Deeper understanding for thorough preparation
+Practice: Solve previous year questions and standard textbook exercises
+
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

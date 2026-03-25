@@ -1,5 +1,8 @@
 ---
 
+
+
+
 exam: nabteb
 examName: NABTEB
 subject: mathematics
@@ -10,28 +13,39 @@ weight: 5
 country: nigeria
 generated: "2026-03-24T08:32:07.550993"
 diagramPrompt: "Mathematical diagram showing Trigonometry: Ratios and Graphs concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style"
+
+
+
+---
+# "Trigonometry: Ratios and Graphs"
+
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
+
+**"Trigonometry: Ratios and Graphs"** — Quick Facts
+Core concept: "Trigonometry: Ratios and Graphs" is a key topic in this subject area
+High-yield points: Key definitions, formulas, and facts for last-minute revision
+⚡ Exam tip: Focus on understanding over memorisation — application is everything
+
 ---
 
-# Trigonometry: Ratios and Graphs
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-### Concept
-Trigonometry: Ratios and Graphs involves solving equations and understanding algebraic structures.
+**"Trigonometry: Ratios and Graphs"** — Study Guide
+Overview: "Trigonometry: Ratios and Graphs" is part of the core syllabus
+Key concepts: Build a clear understanding of fundamentals
+Standard questions: Typical patterns seen in competitive exams
 
-### Key Formulas
-Key formulas for Trigonometry: Ratios and Graphs
+---
 
-### Problem Types
-Types of problems in Trigonometry: Ratios and Graphs
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-### Solution Method
-Method to solve Trigonometry: Ratios and Graphs problems
+**"Trigonometry: Ratios and Graphs"** — Comprehensive Notes
+Full coverage: "Trigonometry: Ratios and Graphs" with detailed explanation
+Extended theory: Deeper understanding for thorough preparation
+Practice: Solve previous year questions and standard textbook exercises
 
-### Example
-**Problem**: Example of Trigonometry: Ratios and Graphs problem
-**Solution**: Solution approach
-
-### Common Errors
-Common errors in Trigonometry: Ratios and Graphs
-
-### Diagram Description
-*[Diagram: Mathematical diagram showing Trigonometry: Ratios and Graphs concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style]*
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

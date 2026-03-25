@@ -1,5 +1,8 @@
 ---
 
+
+
+
 exam: nabteb
 examName: NABTEB
 subject: english
@@ -10,20 +13,39 @@ weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.541214"
 diagramPrompt: "Educational diagram illustrating Grammar: Tenses and Agreement with clear labels, white background, exam-style illustration"
+
+
+
+---
+# "Grammar: Tenses and Agreement"
+
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
+
+**"Grammar: Tenses and Agreement"** — Quick Facts
+Core concept: "Grammar: Tenses and Agreement" is a key topic in this subject area
+High-yield points: Key definitions, formulas, and facts for last-minute revision
+⚡ Exam tip: Focus on understanding over memorisation — application is everything
+
 ---
 
-# Grammar: Tenses and Agreement
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-### Concept
-Grammar: Tenses and Agreement is an important topic in English Language for NABTEB.
+**"Grammar: Tenses and Agreement"** — Study Guide
+Overview: "Grammar: Tenses and Agreement" is part of the core syllabus
+Key concepts: Build a clear understanding of fundamentals
+Standard questions: Typical patterns seen in competitive exams
 
-### Key Points
-- Point 1
-- Point 2
-- Point 3
+---
 
-### Summary
-This topic is a part of English Language and carries significant weight in nabteb exams
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-### Diagram Description
-*[Diagram: Educational diagram illustrating Grammar: Tenses and Agreement with clear labels, white background, exam-style illustration]*
+**"Grammar: Tenses and Agreement"** — Comprehensive Notes
+Full coverage: "Grammar: Tenses and Agreement" with detailed explanation
+Extended theory: Deeper understanding for thorough preparation
+Practice: Solve previous year questions and standard textbook exercises
+
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

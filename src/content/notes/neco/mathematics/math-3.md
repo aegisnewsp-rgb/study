@@ -1,4 +1,7 @@
 ---
+
+
+
 exam: neco
 examName: NECO SSCE
 subject: mathematics
@@ -9,28 +12,39 @@ weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.663833"
 diagramPrompt: Mathematical diagram showing Indices, Logarithms and Surds concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style
----
 
+
+
+---
 # Indices, Logarithms and Surds
 
-### Concept
-Indices, Logarithms and Surds involves solving equations and understanding algebraic structures.
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
 
-### Key Formulas
-Key formulas for Indices, Logarithms and Surds
+**Indices, Logarithms and Surds** — Quick Facts
+Core concept: Indices, Logarithms and Surds is a key topic in this subject area
+High-yield points: Key definitions, formulas, and facts for last-minute revision
+⚡ Exam tip: Focus on understanding over memorisation — application is everything
 
-### Problem Types
-Types of problems in Indices, Logarithms and Surds
+---
 
-### Solution Method
-Method to solve Indices, Logarithms and Surds problems
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-### Example
-**Problem**: Example of Indices, Logarithms and Surds problem
-**Solution**: Solution approach
+**Indices, Logarithms and Surds** — Study Guide
+Overview: Indices, Logarithms and Surds is part of the core syllabus
+Key concepts: Build a clear understanding of fundamentals
+Standard questions: Typical patterns seen in competitive exams
 
-### Common Errors
-Common errors in Indices, Logarithms and Surds
+---
 
-### Diagram Description
-*[Diagram: Mathematical diagram showing Indices, Logarithms and Surds concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style]*
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
+
+**Indices, Logarithms and Surds** — Comprehensive Notes
+Full coverage: Indices, Logarithms and Surds with detailed explanation
+Extended theory: Deeper understanding for thorough preparation
+Practice: Solve previous year questions and standard textbook exercises
+
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

@@ -1,4 +1,7 @@
 ---
+
+
+
 exam: ecat
 examName: ECAT (Engineering College Admission Test)
 subject: physics
@@ -9,29 +12,44 @@ weight: 4
 country: pakistan
 generated: "2026-03-24T08:32:08.043179"
 diagramPrompt: Clean educational diagram showing Oscillations and SHM with clear labels, white background, labeled arrows for forces/fields/vectors, color-coded components, exam-style illustration
----
 
+
+
+---
 # Oscillations and SHM
 
-### Concept
-Oscillations and SHM is a fundamental concept in physics that deals with the behavior of matter and energy in Oscillations and SHM. It forms the basis for understanding how physical behaves under different conditions.
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
 
-### Key Points
-- **Fundamental Principle**: The core principle behind Oscillations and SHM is governs all related phenomena
-- This principle explains why natural physical behavior occurs in nature
-- It's applied in everyday situations like sports, vehicles, and everyday machinery
+**Simple Harmonic Motion** — Key Facts
+SHM definition: acceleration a = -ω²x; restoring force proportional to displacement
+Equation: x = A cos(ωt + φ); v = -Aω sin(ωt + φ); a = -Aω² cos(ωt + φ)
+Time period: T = 2π√(m/k) for spring-mass; T = 2π√(L/g) for simple pendulum (small amplitude)
+Energy: PE = ½kx², KE = ½k(A² - x²); total E = ½kA² (constant)
+⚡ Exam tip: At extreme (x=±A): v=0, a=max; At centre (x=0): v=max, a=0
 
-### Formula
-```
-F = ma
-```
-Where: F=force, m=mass, a=acceleration
+---
 
-### Common Applications
-Engineering design, sports analysis, technology development
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-### Memory Trick
-Associate Oscillations and SHM with its practical applications
+**Simple Harmonic Motion** — NEET/JEE Study Guide
+Spring-mass: T = 2π√(m/k); series spring: 1/k_eq = Σ(1/k_i); parallel springs: k_eq = Σk_i
+Damped SHM: amplitude decreases as A = A₀e^(-bt/2m); logarithmic decrement δ = ln(A_i/A_f)
+Forced oscillations: resonance when driving frequency = natural frequency; amplitude peaks at ω_r = √(ω₀² - 2β²)
+Simple pendulum: T = 2π√(L/g); valid for small θ₀; length L measured to centre of bob
 
-### Diagram Description
-*[Diagram: Clean educational diagram showing Oscillations and SHM with clear labels, white background, labeled arrows for forces/fields/vectors, color-coded components, exam-style illustration]*
+---
+
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
+
+**Simple Harmonic Motion** — Comprehensive Notes
+Differential equation: d²x/dt² + (k/m)x = 0; solution x = A cos(ωt + φ)
+Quality factor Q = ω₀/(2β) for damped oscillator; Q = 2π × (energy stored)/(energy lost per period)
+ Lissajous figures: superposition of two perpendicular SHMs; closed curves when frequency ratio is rational
+Physical pendulum: T = 2π√(I/mgd) where d = distance from pivot to COM; used to find g experimentally
+Oscillations in LC circuit: q = Q₀ cos(ωt), I = -I₀ sin(ωt); ω = 1/√(LC); analogous to spring-mass
+
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

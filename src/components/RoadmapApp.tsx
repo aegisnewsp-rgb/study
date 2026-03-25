@@ -125,12 +125,22 @@ function SubjectAccordion({
                 <span className="text-xs text-surface-400">{topic.subject}</span>
               </div>
               <a
-                href={`/notes/${examId}/${subjectId}/${topic.id}`}
+                href={`/notes/${examId}/${subjectId}/${topic.id}?duration=${selectedDuration}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="shrink-0 text-brand-600 dark:text-brand-400 hover:text-brand-500 dark:hover:text-brand-300 transition-colors"
                 aria-label={`Open notes for ${topic.name} in new tab`}
                 title="Open notes"
+                onClick={() => {
+                  if (selectedDuration) {
+                    const tierMap: Record<string, string> = {
+                      '1h':'lite','2h':'lite','3h':'lite','5h':'lite','12h':'lite','1d':'lite',
+                      '2d':'standard','3d':'standard','5d':'standard','7d':'standard','10d':'standard','2w':'standard','1mo':'standard',
+                      '2mo':'extended','3mo':'extended','6mo':'extended','1yr':'extended','2yr':'extended',
+                    };
+                    try { localStorage.setItem('sr_tier', tierMap[selectedDuration] || 'standard'); } catch(e) {}
+                  }
+                }}
               >
                 <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />

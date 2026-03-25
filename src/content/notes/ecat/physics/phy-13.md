@@ -1,4 +1,7 @@
 ---
+
+
+
 exam: ecat
 examName: ECAT (Engineering College Admission Test)
 subject: physics
@@ -9,29 +12,44 @@ weight: 4
 country: pakistan
 generated: "2026-03-24T08:32:08.047992"
 diagramPrompt: Clean educational diagram showing Electromagnetic Induction (EMI) with clear labels, white background, labeled arrows for forces/fields/vectors, color-coded components, exam-style illustration
----
 
+
+
+---
 # Electromagnetic Induction (EMI)
 
-### Concept
-Electromagnetic Induction (EMI) is a fundamental concept in physics that deals with the behavior of matter and energy in Electromagnetic Induction (EMI). It forms the basis for understanding how physical behaves under different conditions.
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
 
-### Key Points
-- **Fundamental Principle**: The core principle behind Electromagnetic Induction (EMI) is governs all related phenomena
-- This principle explains why natural physical behavior occurs in nature
-- It's applied in everyday situations like sports, vehicles, and everyday machinery
+**EMI and AC** — Key Facts
+Faraday's Law: ε = -dΦ/dt; induced emf proportional to rate of change of magnetic flux
+Lenz's Law: direction of induced current opposes the change causing it (conservation of energy)
+Self-induction: ε = -L(dI/dt); L depends on coil geometry (solenoid: L = μ₀N²A/l)
+Transformer: V_s/V_p = N_s/N_p = I_p/I_s; step-up (N_s > N_p), step-down (N_s < N_p)
+⚡ Exam tip: Lenz's Law always confirms energy is conserved — induced current creates opposing B
 
-### Formula
-```
-F = ma
-```
-Where: F=force, m=mass, a=acceleration
+---
 
-### Common Applications
-Engineering design, sports analysis, technology development
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-### Memory Trick
-Associate Electromagnetic Induction (EMI) with its practical applications
+**EMI and AC** — NEET/JEE Study Guide
+Motional emf: ε = Bℓv (rod moving in uniform B perpendicular to v and ℓ); ε = Bℓv sinθ general
+AC generator: ε = ε₀ sin(ωt); ε₀ = NBAω sin(ωt) (peak value); ω = 2πf
+Inductive reactance: X_L = ωL = 2πfL; capacitive reactance: X_C = 1/(ωC) = 1/(2πfC)
+LC oscillation: natural frequency ω = 1/√(LC); analogy with spring-mass mechanical oscillator
 
-### Diagram Description
-*[Diagram: Clean educational diagram showing Electromagnetic Induction (EMI) with clear labels, white background, labeled arrows for forces/fields/vectors, color-coded components, exam-style illustration]*
+---
+
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
+
+**EMI and AC** — Comprehensive Notes
+Self-inductance of solenoid: L = μ₀N²A/l; energy stored in inductor: U = ½LI²
+Mutual induction: M = k√(L₁L₂); ε₂ = -M(dI₁/dt); transformer efficiency ≈ 100% with ideal conditions
+AC through R, L, C: impedance Z = √(R² + (X_L - X_C)²); tan φ = (X_L - X_C)/R
+Power in AC: P_avg = V_rms I_rms cosφ; cosφ = power factor; for pure resistance cosφ=1, for pure L or C cosφ=0
+Sharpness of resonance: Q = ω₀L/R = 1/(ω₀CR); high Q → narrow resonance peak
+
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

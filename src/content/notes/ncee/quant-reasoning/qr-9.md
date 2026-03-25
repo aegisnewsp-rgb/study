@@ -1,4 +1,7 @@
 ---
+
+
+
 exam: ncee
 examName: NCEE (National Common Entrance Examination)
 subject: quant-reasoning
@@ -9,20 +12,39 @@ weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.594013"
 diagramPrompt: Educational diagram illustrating Figure Series and Sequences with clear labels, white background, exam-style illustration
----
 
+
+
+---
 # Figure Series and Sequences
 
-### Concept
-Figure Series and Sequences is an important topic in Quantitative Reasoning for NCEE (National Common Entrance Examination).
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
 
-### Key Points
-- Point 1
-- Point 2
-- Point 3
+**Figure Series and Sequences** — Quick Facts
+Core concept: Figure Series and Sequences is a key topic in this subject area
+High-yield points: Key definitions, formulas, and facts for last-minute revision
+⚡ Exam tip: Focus on understanding over memorisation — application is everything
 
-### Summary
-This topic is a part of Quantitative Reasoning and carries significant weight in ncee exams
+---
 
-### Diagram Description
-*[Diagram: Educational diagram illustrating Figure Series and Sequences with clear labels, white background, exam-style illustration]*
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
+
+**Figure Series and Sequences** — Study Guide
+Overview: Figure Series and Sequences is part of the core syllabus
+Key concepts: Build a clear understanding of fundamentals
+Standard questions: Typical patterns seen in competitive exams
+
+---
+
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
+
+**Figure Series and Sequences** — Comprehensive Notes
+Full coverage: Figure Series and Sequences with detailed explanation
+Extended theory: Deeper understanding for thorough preparation
+Practice: Solve previous year questions and standard textbook exercises
+
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

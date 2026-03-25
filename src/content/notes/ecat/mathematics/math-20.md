@@ -1,4 +1,7 @@
 ---
+
+
+
 exam: ecat
 examName: ECAT (Engineering College Admission Test)
 subject: mathematics
@@ -9,28 +12,39 @@ weight: 2
 country: pakistan
 generated: "2026-03-24T08:32:08.074684"
 diagramPrompt: Mathematical diagram showing Mathematical Induction concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style
----
 
+
+
+---
 # Mathematical Induction
 
-### Concept
-Mathematical Induction involves solving equations and understanding algebraic structures.
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
 
-### Key Formulas
-Key formulas for Mathematical Induction
+**Mathematical Induction** — Quick Facts
+Core concept: Mathematical Induction is a key topic in this subject area
+High-yield points: Key definitions, formulas, and facts for last-minute revision
+⚡ Exam tip: Focus on understanding over memorisation — application is everything
 
-### Problem Types
-Types of problems in Mathematical Induction
+---
 
-### Solution Method
-Method to solve Mathematical Induction problems
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-### Example
-**Problem**: Example of Mathematical Induction problem
-**Solution**: Solution approach
+**Mathematical Induction** — Study Guide
+Overview: Mathematical Induction is part of the core syllabus
+Key concepts: Build a clear understanding of fundamentals
+Standard questions: Typical patterns seen in competitive exams
 
-### Common Errors
-Common errors in Mathematical Induction
+---
 
-### Diagram Description
-*[Diagram: Mathematical diagram showing Mathematical Induction concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style]*
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
+
+**Mathematical Induction** — Comprehensive Notes
+Full coverage: Mathematical Induction with detailed explanation
+Extended theory: Deeper understanding for thorough preparation
+Practice: Solve previous year questions and standard textbook exercises
+
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

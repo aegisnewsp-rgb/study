@@ -1,4 +1,7 @@
 ---
+
+
+
 exam: nda
 examName: NDA
 subject: mathematics
@@ -9,28 +12,39 @@ weight: 4
 country: india
 generated: "2026-03-24T08:32:07.806213"
 diagramPrompt: Mathematical diagram showing Determinants concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style
----
 
+
+
+---
 # Determinants
 
-### Concept
-Determinants involves solving equations and understanding algebraic structures.
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
 
-### Key Formulas
-Key formulas for Determinants
+**Determinants** — Quick Facts
+Core concept: Determinants is a key topic in this subject area
+High-yield points: Key definitions, formulas, and facts for last-minute revision
+⚡ Exam tip: Focus on understanding over memorisation — application is everything
 
-### Problem Types
-Types of problems in Determinants
+---
 
-### Solution Method
-Method to solve Determinants problems
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-### Example
-**Problem**: Example of Determinants problem
-**Solution**: Solution approach
+**Determinants** — Study Guide
+Overview: Determinants is part of the core syllabus
+Key concepts: Build a clear understanding of fundamentals
+Standard questions: Typical patterns seen in competitive exams
 
-### Common Errors
-Common errors in Determinants
+---
 
-### Diagram Description
-*[Diagram: Mathematical diagram showing Determinants concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style]*
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
+
+**Determinants** — Comprehensive Notes
+Full coverage: Determinants with detailed explanation
+Extended theory: Deeper understanding for thorough preparation
+Practice: Solve previous year questions and standard textbook exercises
+
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

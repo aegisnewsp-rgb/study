@@ -1,4 +1,7 @@
 ---
+
+
+
 exam: ecat
 examName: ECAT (Engineering College Admission Test)
 subject: mathematics
@@ -9,28 +12,39 @@ weight: 3
 country: pakistan
 generated: "2026-03-24T08:32:08.071264"
 diagramPrompt: Mathematical diagram showing Statistics and Data Analysis concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style
----
 
+
+
+---
 # Statistics and Data Analysis
 
-### Concept
-Statistics and Data Analysis involves solving equations and understanding algebraic structures.
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
 
-### Key Formulas
-Key formulas for Statistics and Data Analysis
+**Statistics and Data Analysis** — Quick Facts
+Core concept: Statistics and Data Analysis is a key topic in this subject area
+High-yield points: Key definitions, formulas, and facts for last-minute revision
+⚡ Exam tip: Focus on understanding over memorisation — application is everything
 
-### Problem Types
-Types of problems in Statistics and Data Analysis
+---
 
-### Solution Method
-Method to solve Statistics and Data Analysis problems
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-### Example
-**Problem**: Example of Statistics and Data Analysis problem
-**Solution**: Solution approach
+**Statistics and Data Analysis** — Study Guide
+Overview: Statistics and Data Analysis is part of the core syllabus
+Key concepts: Build a clear understanding of fundamentals
+Standard questions: Typical patterns seen in competitive exams
 
-### Common Errors
-Common errors in Statistics and Data Analysis
+---
 
-### Diagram Description
-*[Diagram: Mathematical diagram showing Statistics and Data Analysis concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style]*
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
+
+**Statistics and Data Analysis** — Comprehensive Notes
+Full coverage: Statistics and Data Analysis with detailed explanation
+Extended theory: Deeper understanding for thorough preparation
+Practice: Solve previous year questions and standard textbook exercises
+
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

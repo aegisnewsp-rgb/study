@@ -1,4 +1,7 @@
 ---
+
+
+
 exam: ncee
 examName: NCEE (National Common Entrance Examination)
 subject: verbal-reasoning
@@ -9,20 +12,39 @@ weight: 3
 country: nigeria
 generated: "2026-03-24T08:32:07.596308"
 diagramPrompt: Educational diagram illustrating Synonyms with clear labels, white background, exam-style illustration
----
 
+
+
+---
 # Synonyms
 
-### Concept
-Synonyms is an important topic in Verbal Reasoning for NCEE (National Common Entrance Examination).
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
 
-### Key Points
-- Point 1
-- Point 2
-- Point 3
+**Synonyms** — Quick Facts
+Core concept: Synonyms is a key topic in this subject area
+High-yield points: Key definitions, formulas, and facts for last-minute revision
+⚡ Exam tip: Focus on understanding over memorisation — application is everything
 
-### Summary
-This topic is a part of Verbal Reasoning and carries significant weight in ncee exams
+---
 
-### Diagram Description
-*[Diagram: Educational diagram illustrating Synonyms with clear labels, white background, exam-style illustration]*
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
+
+**Synonyms** — Study Guide
+Overview: Synonyms is part of the core syllabus
+Key concepts: Build a clear understanding of fundamentals
+Standard questions: Typical patterns seen in competitive exams
+
+---
+
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
+
+**Synonyms** — Comprehensive Notes
+Full coverage: Synonyms with detailed explanation
+Extended theory: Deeper understanding for thorough preparation
+Practice: Solve previous year questions and standard textbook exercises
+
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

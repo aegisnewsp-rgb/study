@@ -156,6 +156,19 @@ const breadcrumbJsonLd = {
       <div class="grid lg:grid-cols-3 gap-10">
         <!-- Main content -->
         <article class="lg:col-span-2">
+          <!-- Tier selector -->
+          <div class="not-prose mb-6 p-1 bg-surface-100 dark:bg-surface-800 rounded-xl inline-flex gap-0.5" id="tier-selector" role="group" aria-label="Study depth selector">
+            <button id="btn-lite" onclick="switchTier('lite')" class="tier-btn px-4 py-2 text-sm font-medium rounded-lg transition-all duration-200" data-tier="lite">
+              🟢 Quick (1h–1d)
+            </button>
+            <button id="btn-standard" onclick="switchTier('standard')" class="tier-btn px-4 py-2 text-sm font-medium rounded-lg transition-all duration-200" data-tier="standard">
+              🟡 Standard (2d–2mo)
+            </button>
+            <button id="btn-extended" onclick="switchTier('extended')" class="tier-btn px-4 py-2 text-sm font-medium rounded-lg transition-all duration-200" data-tier="extended">
+              🔴 Deep (3mo+)
+            </button>
+          </div>
+
           <div class="prose prose-surface dark:prose-invert max-w-none
               prose-headings:text-surface-900 dark:prose-headings:text-surface-50
               prose-p:text-surface-700 dark:prose-p:text-surface-300
@@ -165,9 +178,135 @@ const breadcrumbJsonLd = {
               prose-pre:bg-surface-100 dark:prose-pre:bg-surface-900
               prose-table:text-sm
               prose-th:bg-surface-100 dark:prose-th:bg-surface-800
-              prose-tr:border-surface-200 dark:prose-tr:border-surface-700">
+              prose-tr:border-surface-200 dark:prose-tr:border-surface-700"
+              id="note-content">
             <Content />
           </div>
+
+          <style>
+            .tier-btn {
+              color: var(--surface-500, #6b7280);
+              background: transparent;
+            }
+            .tier-btn.active {
+              background: var(--surface-50, #f9fafb);
+              color: var(--brand-700, #1d4ed8);
+              box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            }
+            html.dark .tier-btn.active {
+              background: var(--surface-900, #111827);
+              color: var(--brand-400, #60a5fa);
+              box-shadow: 0 1px 3px rgba(0,0,0,0.4);
+            }
+            .tier-section {
+              display: none;
+            }
+            .tier-section.active {
+              display: block;
+            }
+            .tier-divider {
+              display: none;
+            }
+          </style>
+
+          <script is:inline>
+            function switchTier(tier) {
+              // Update active button
+              document.querySelectorAll('.tier-btn').forEach(function(btn) {
+                btn.classList.remove('active');
+              });
+              var activeBtn = document.getElementById('btn-' + tier);
+              if (activeBtn) activeBtn.classList.add('active');
+
+              // Show/hide tier sections
+              var content = document.getElementById('note-content');
+              if (!content) return;
+              var headings = content.querySelectorAll('h3');
+              var currentTier = null;
+              var currentSection = null;
+              var sections = [];
+
+              // Build sections
+              for (var i = 0; i < headings.length; i++) {
+                var h = headings[i];
+                if (h.textContent.indexOf('🟢') !== -1) {
+                  if (currentSection) sections.push(currentSection);
+                  currentTier = 'lite';
+                  currentSection = { tier: 'lite', start: h, end: null, nodes: [] };
+                } else if (h.textContent.indexOf('🟡') !== -1) {
+                  if (currentSection) sections.push(currentSection);
+                  currentTier = 'standard';
+                  currentSection = { tier: 'standard', start: h, end: null, nodes: [] };
+                } else if (h.textContent.indexOf('🔴') !== -1) {
+                  if (currentSection) sections.push(currentSection);
+                  currentTier = 'extended';
+                  currentSection = { tier: 'extended', start: h, end: null, nodes: [] };
+                }
+                if (currentTier) {
+                  h.setAttribute('data-tier', currentTier);
+                  h.classList.add('tier-heading');
+                }
+              }
+              if (currentSection) sections.push(currentSection);
+
+              // Show selected, hide others
+              for (var s = 0; s < sections.length; s++) {
+                var sec = sections[s];
+                var el = sec.start;
+                var tierClass = sec.tier;
+                if (tierClass === tier) {
+                  // Show this section and all content until next tier heading
+                  el.style.display = '';
+                  var next = el.nextElementSibling;
+                  while (next && !(next.tagName === 'H3' && next.classList.contains('tier-heading'))) {
+                    next.style.display = '';
+                    next = next.nextElementSibling;
+                  }
+                } else {
+                  // Hide from this heading until next tier heading
+                  el.style.display = 'none';
+                  var next = el.nextElementSibling;
+                  while (next && !(next.tagName === 'H3' && next.classList.contains('tier-heading'))) {
+                    next.style.display = 'none';
+                    next = next.nextElementSibling;
+                  }
+                }
+              }
+
+              // Save preference
+              try { localStorage.setItem('sr_tier', tier); } catch(e) {}
+            }
+
+            // Auto-select based on stored preference or roadmap duration
+            function initTier() {
+              // First check localStorage for explicit choice
+              var stored;
+              try { stored = localStorage.getItem('sr_tier'); } catch(e) {}
+              var tier = stored || 'standard';
+
+              // If coming from roadmap with duration in URL param, upgrade tier
+              var urlParams = new URLSearchParams(window.location.search);
+              var dur = urlParams.get('duration') || '';
+              if (!stored) {
+                if (dur === '1h' || dur === '2h' || dur === '3h' || dur === '5h' || dur === '12h' || dur === '1d') {
+                  tier = 'lite';
+                } else if (dur === '2d' || dur === '3d' || dur === '5d' || dur === '7d' || dur === '10d' || dur === '2w' || dur === '1mo') {
+                  tier = 'standard';
+                } else {
+                  tier = 'extended';
+                }
+              }
+
+              switchTier(tier);
+            }
+
+            // Run after DOM is ready
+            if (document.readyState === 'loading') {
+              document.addEventListener('DOMContentLoaded', initTier);
+            } else {
+              initTier();
+            }
+          </script>
 
           <!-- Diagram prompt section -->
           {diagramPrompt && (

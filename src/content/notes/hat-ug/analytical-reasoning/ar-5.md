@@ -1,4 +1,7 @@
 ---
+
+
+
 exam: hat-ug
 examName: HAT-UG (HEC Aptitude Test - Undergraduate)
 subject: analytical-reasoning
@@ -9,20 +12,39 @@ weight: 3
 country: pakistan
 generated: "2026-03-24T08:32:08.000842"
 diagramPrompt: Educational diagram illustrating Classification and Odd One Out with clear labels, white background, exam-style illustration
----
 
+
+
+---
 # Classification and Odd One Out
 
-### Concept
-Classification and Odd One Out is an important topic in Analytical Reasoning for HAT-UG (HEC Aptitude Test - Undergraduate).
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
 
-### Key Points
-- Point 1
-- Point 2
-- Point 3
+**Classification and Odd One Out** — Quick Facts
+Core concept: Classification and Odd One Out is a key topic in this subject area
+High-yield points: Key definitions, formulas, and facts for last-minute revision
+⚡ Exam tip: Focus on understanding over memorisation — application is everything
 
-### Summary
-This topic is a part of Analytical Reasoning and carries significant weight in hat-ug exams
+---
 
-### Diagram Description
-*[Diagram: Educational diagram illustrating Classification and Odd One Out with clear labels, white background, exam-style illustration]*
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
+
+**Classification and Odd One Out** — Study Guide
+Overview: Classification and Odd One Out is part of the core syllabus
+Key concepts: Build a clear understanding of fundamentals
+Standard questions: Typical patterns seen in competitive exams
+
+---
+
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
+
+**Classification and Odd One Out** — Comprehensive Notes
+Full coverage: Classification and Odd One Out with detailed explanation
+Extended theory: Deeper understanding for thorough preparation
+Practice: Solve previous year questions and standard textbook exercises
+
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

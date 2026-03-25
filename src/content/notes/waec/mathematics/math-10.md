@@ -1,5 +1,8 @@
 ---
 
+
+
+
 exam: waec
 examName: WAEC WASSCE
 subject: mathematics
@@ -10,28 +13,39 @@ weight: 5
 country: nigeria
 generated: "2026-03-24T08:32:07.621837"
 diagramPrompt: "Mathematical diagram showing Trigonometry: Sine, Cosine and Tangent concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style"
+
+
+
+---
+# "Trigonometry: Sine, Cosine and Tangent"
+
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
+
+**"Trigonometry: Sine, Cosine and Tangent"** — Quick Facts
+Core concept: "Trigonometry: Sine, Cosine and Tangent" is a key topic in this subject area
+High-yield points: Key definitions, formulas, and facts for last-minute revision
+⚡ Exam tip: Focus on understanding over memorisation — application is everything
+
 ---
 
-# Trigonometry: Sine, Cosine and Tangent
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-### Concept
-Trigonometry: Sine, Cosine and Tangent involves solving equations and understanding algebraic structures.
+**"Trigonometry: Sine, Cosine and Tangent"** — Study Guide
+Overview: "Trigonometry: Sine, Cosine and Tangent" is part of the core syllabus
+Key concepts: Build a clear understanding of fundamentals
+Standard questions: Typical patterns seen in competitive exams
 
-### Key Formulas
-Key formulas for Trigonometry: Sine, Cosine and Tangent
+---
 
-### Problem Types
-Types of problems in Trigonometry: Sine, Cosine and Tangent
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-### Solution Method
-Method to solve Trigonometry: Sine, Cosine and Tangent problems
+**"Trigonometry: Sine, Cosine and Tangent"** — Comprehensive Notes
+Full coverage: "Trigonometry: Sine, Cosine and Tangent" with detailed explanation
+Extended theory: Deeper understanding for thorough preparation
+Practice: Solve previous year questions and standard textbook exercises
 
-### Example
-**Problem**: Example of Trigonometry: Sine, Cosine and Tangent problem
-**Solution**: Solution approach
-
-### Common Errors
-Common errors in Trigonometry: Sine, Cosine and Tangent
-
-### Diagram Description
-*[Diagram: Mathematical diagram showing Trigonometry: Sine, Cosine and Tangent concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style]*
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

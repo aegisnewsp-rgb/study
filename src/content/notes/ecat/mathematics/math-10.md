@@ -1,4 +1,7 @@
 ---
+
+
+
 exam: ecat
 examName: ECAT (Engineering College Admission Test)
 subject: mathematics
@@ -9,24 +12,39 @@ weight: 5
 country: pakistan
 generated: "2026-03-24T08:32:08.068914"
 diagramPrompt: Mathematical diagram showing Integration and Definite Integrals concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style
----
 
+
+
+---
 # Integration and Definite Integrals
 
-### Concept
-Integration and Definite Integrals deals with rates of change and accumulation.
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
 
-### Definition
-Definition of Integration and Definite Integrals
+**Integration and Definite Integrals** — Quick Facts
+Core concept: Integration and Definite Integrals is a key topic in this subject area
+High-yield points: Key definitions, formulas, and facts for last-minute revision
+⚡ Exam tip: Focus on understanding over memorisation — application is everything
 
-### Key Formulas
-Key formulas for Integration and Definite Integrals
+---
 
-### Applications
-Engineering, physics, economics, computer science
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-### Problem-Solving Strategy
-Strategy for Integration and Definite Integrals problems
+**Integration and Definite Integrals** — Study Guide
+Overview: Integration and Definite Integrals is part of the core syllabus
+Key concepts: Build a clear understanding of fundamentals
+Standard questions: Typical patterns seen in competitive exams
 
-### Diagram Description
-*[Diagram: Mathematical diagram showing Integration and Definite Integrals concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style]*
+---
+
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
+
+**Integration and Definite Integrals** — Comprehensive Notes
+Full coverage: Integration and Definite Integrals with detailed explanation
+Extended theory: Deeper understanding for thorough preparation
+Practice: Solve previous year questions and standard textbook exercises
+
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

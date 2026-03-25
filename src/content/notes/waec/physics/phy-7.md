@@ -1,4 +1,7 @@
 ---
+
+
+
 exam: waec
 examName: WAEC WASSCE
 subject: physics
@@ -9,29 +12,42 @@ weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.631432"
 diagramPrompt: Clean educational diagram showing Thermal Expansion and Gas Laws with clear labels, white background, labeled arrows for forces/fields/vectors, color-coded components, exam-style illustration
----
 
+
+
+---
 # Thermal Expansion and Gas Laws
 
-### Concept
-Thermal Expansion and Gas Laws is a fundamental concept in physics that deals with the behavior of matter and energy in Thermal Expansion and Gas Laws. It forms the basis for understanding how physical behaves under different conditions.
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
 
-### Key Points
-- **Fundamental Principle**: The core principle behind Thermal Expansion and Gas Laws is governs all related phenomena
-- This principle explains why natural physical behavior occurs in nature
-- It's applied in everyday situations like sports, vehicles, and everyday machinery
+**Thermal Expansion and Gas Laws** — Key Facts
+Definition: Thermal Expansion and Gas Laws is a fundamental concept in Physics
+Key formula/concept: Understand the core principle and its direct applications
+⚡ Exam tip: Questions from this topic appear regularly in NEET/JEE — focus on formulas and direct applications
 
-### Formula
-```
-F = ma
-```
-Where: F=force, m=mass, a=acceleration
+---
 
-### Common Applications
-Engineering design, sports analysis, technology development
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-### Memory Trick
-Associate Thermal Expansion and Gas Laws with its practical applications
+**Thermal Expansion and Gas Laws** — Physics Study Guide
+Concept overview: Thermal Expansion and Gas Laws is an important topic in the Physics syllabus
+Core principles: Build strong foundation of fundamentals before attempting problems
+Key points to understand: definitions, units, standard derivations, and typical numerical patterns
+Study approach: Theory first, then numerical problem-solving
 
-### Diagram Description
-*[Diagram: Clean educational diagram showing Thermal Expansion and Gas Laws with clear labels, white background, labeled arrows for forces/fields/vectors, color-coded components, exam-style illustration]*
+---
+
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
+
+**Thermal Expansion and Gas Laws** — Comprehensive Physics Notes
+Full explanation: Thermal Expansion and Gas Laws is a core Physics concept with wide applications
+Detailed theory: Derivation, physical significance, and limitations of the concept
+Problem-solving strategies: Classify problem types, standard approach for each type
+Additional resources: Refer to standard Physics textbooks for deeper understanding
+Previous year trends: Analyse NEET/JEE question patterns for this topic
+
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

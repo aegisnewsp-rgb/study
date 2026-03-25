@@ -1,5 +1,8 @@
 ---
 
+
+
+
 exam: ncee
 examName: NCEE (National Common Entrance Examination)
 subject: mathematics
@@ -10,28 +13,39 @@ weight: 5
 country: nigeria
 generated: "2026-03-24T08:32:07.579046"
 diagramPrompt: "Mathematical diagram showing Number Work: Whole Numbers, Fractions, Decimals concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style"
+
+
+
+---
+# "Number Work: Whole Numbers, Fractions, Decimals"
+
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
+
+**"Number Work: Whole Numbers, Fractions, Decimals"** — Quick Facts
+Core concept: "Number Work: Whole Numbers, Fractions, Decimals" is a key topic in this subject area
+High-yield points: Key definitions, formulas, and facts for last-minute revision
+⚡ Exam tip: Focus on understanding over memorisation — application is everything
+
 ---
 
-# Number Work: Whole Numbers, Fractions, Decimals
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-### Concept
-Number Work: Whole Numbers, Fractions, Decimals involves solving equations and understanding algebraic structures.
+**"Number Work: Whole Numbers, Fractions, Decimals"** — Study Guide
+Overview: "Number Work: Whole Numbers, Fractions, Decimals" is part of the core syllabus
+Key concepts: Build a clear understanding of fundamentals
+Standard questions: Typical patterns seen in competitive exams
 
-### Key Formulas
-Key formulas for Number Work: Whole Numbers, Fractions, Decimals
+---
 
-### Problem Types
-Types of problems in Number Work: Whole Numbers, Fractions, Decimals
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-### Solution Method
-Method to solve Number Work: Whole Numbers, Fractions, Decimals problems
+**"Number Work: Whole Numbers, Fractions, Decimals"** — Comprehensive Notes
+Full coverage: "Number Work: Whole Numbers, Fractions, Decimals" with detailed explanation
+Extended theory: Deeper understanding for thorough preparation
+Practice: Solve previous year questions and standard textbook exercises
 
-### Example
-**Problem**: Example of Number Work: Whole Numbers, Fractions, Decimals problem
-**Solution**: Solution approach
-
-### Common Errors
-Common errors in Number Work: Whole Numbers, Fractions, Decimals
-
-### Diagram Description
-*[Diagram: Mathematical diagram showing Number Work: Whole Numbers, Fractions, Decimals concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style]*
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

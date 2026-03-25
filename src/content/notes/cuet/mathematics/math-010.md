@@ -1,4 +1,7 @@
 ---
+
+
+
 exam: cuet
 examName: CUET UG
 subject: mathematics
@@ -9,24 +12,39 @@ weight: 4
 country: india
 generated: "2026-03-24T08:32:07.852291"
 diagramPrompt: Mathematical diagram showing Definite Integrals concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style
----
 
+
+
+---
 # Definite Integrals
 
-### Concept
-Definite Integrals deals with rates of change and accumulation.
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
 
-### Definition
-Definition of Definite Integrals
+**Definite Integrals** — Quick Facts
+Core concept: Definite Integrals is a key topic in this subject area
+High-yield points: Key definitions, formulas, and facts for last-minute revision
+⚡ Exam tip: Focus on understanding over memorisation — application is everything
 
-### Key Formulas
-Key formulas for Definite Integrals
+---
 
-### Applications
-Engineering, physics, economics, computer science
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-### Problem-Solving Strategy
-Strategy for Definite Integrals problems
+**Definite Integrals** — Study Guide
+Overview: Definite Integrals is part of the core syllabus
+Key concepts: Build a clear understanding of fundamentals
+Standard questions: Typical patterns seen in competitive exams
 
-### Diagram Description
-*[Diagram: Mathematical diagram showing Definite Integrals concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style]*
+---
+
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
+
+**Definite Integrals** — Comprehensive Notes
+Full coverage: Definite Integrals with detailed explanation
+Extended theory: Deeper understanding for thorough preparation
+Practice: Solve previous year questions and standard textbook exercises
+
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

@@ -1,4 +1,7 @@
 ---
+
+
+
 exam: ncee
 examName: NCEE (National Common Entrance Examination)
 subject: quant-reasoning
@@ -9,20 +12,39 @@ weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.593236"
 diagramPrompt: Educational diagram illustrating Coding and Decoding (Simple) with clear labels, white background, exam-style illustration
----
 
+
+
+---
 # Coding and Decoding (Simple)
 
-### Concept
-Coding and Decoding (Simple) is an important topic in Quantitative Reasoning for NCEE (National Common Entrance Examination).
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
 
-### Key Points
-- Point 1
-- Point 2
-- Point 3
+**Coding and Decoding (Simple)** — Quick Facts
+Core concept: Coding and Decoding (Simple) is a key topic in this subject area
+High-yield points: Key definitions, formulas, and facts for last-minute revision
+⚡ Exam tip: Focus on understanding over memorisation — application is everything
 
-### Summary
-This topic is a part of Quantitative Reasoning and carries significant weight in ncee exams
+---
 
-### Diagram Description
-*[Diagram: Educational diagram illustrating Coding and Decoding (Simple) with clear labels, white background, exam-style illustration]*
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
+
+**Coding and Decoding (Simple)** — Study Guide
+Overview: Coding and Decoding (Simple) is part of the core syllabus
+Key concepts: Build a clear understanding of fundamentals
+Standard questions: Typical patterns seen in competitive exams
+
+---
+
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
+
+**Coding and Decoding (Simple)** — Comprehensive Notes
+Full coverage: Coding and Decoding (Simple) with detailed explanation
+Extended theory: Deeper understanding for thorough preparation
+Practice: Solve previous year questions and standard textbook exercises
+
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

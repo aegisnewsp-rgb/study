@@ -1,4 +1,7 @@
 ---
+
+
+
 exam: ecat
 examName: ECAT (Engineering College Admission Test)
 subject: mathematics
@@ -9,24 +12,39 @@ weight: 4
 country: pakistan
 generated: "2026-03-24T08:32:08.067276"
 diagramPrompt: Mathematical diagram showing Circle, Parabola, Ellipse and Hyperbola concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style
----
 
+
+
+---
 # Circle, Parabola, Ellipse and Hyperbola
 
-### Concept
-Circle, Parabola, Ellipse and Hyperbola involves the properties and relationships of geometric figures.
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
 
-### Key Theorems
-Theorems related to Circle, Parabola, Ellipse and Hyperbola
+**Circle, Parabola, Ellipse and Hyperbola** — Quick Facts
+Core concept: Circle, Parabola, Ellipse and Hyperbola is a key topic in this subject area
+High-yield points: Key definitions, formulas, and facts for last-minute revision
+⚡ Exam tip: Focus on understanding over memorisation — application is everything
 
-### Formulas
-Key formulas for Circle, Parabola, Ellipse and Hyperbola
+---
 
-### Construction
-How to construct diagrams for Circle, Parabola, Ellipse and Hyperbola
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-### Problem-Solving Tips
-Tips for solving Circle, Parabola, Ellipse and Hyperbola problems
+**Circle, Parabola, Ellipse and Hyperbola** — Study Guide
+Overview: Circle, Parabola, Ellipse and Hyperbola is part of the core syllabus
+Key concepts: Build a clear understanding of fundamentals
+Standard questions: Typical patterns seen in competitive exams
 
-### Diagram Description
-*[Diagram: Mathematical diagram showing Circle, Parabola, Ellipse and Hyperbola concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style]*
+---
+
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
+
+**Circle, Parabola, Ellipse and Hyperbola** — Comprehensive Notes
+Full coverage: Circle, Parabola, Ellipse and Hyperbola with detailed explanation
+Extended theory: Deeper understanding for thorough preparation
+Practice: Solve previous year questions and standard textbook exercises
+
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

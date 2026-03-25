@@ -1,4 +1,7 @@
 ---
+
+
+
 exam: ncee
 examName: NCEE (National Common Entrance Examination)
 subject: mathematics
@@ -9,28 +12,39 @@ weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.584510"
 diagramPrompt: Mathematical diagram showing Volume and Surface Area concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style
----
 
+
+
+---
 # Volume and Surface Area
 
-### Concept
-Volume and Surface Area involves solving equations and understanding algebraic structures.
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
 
-### Key Formulas
-Key formulas for Volume and Surface Area
+**Volume and Surface Area** — Quick Facts
+Core concept: Volume and Surface Area is a key topic in this subject area
+High-yield points: Key definitions, formulas, and facts for last-minute revision
+⚡ Exam tip: Focus on understanding over memorisation — application is everything
 
-### Problem Types
-Types of problems in Volume and Surface Area
+---
 
-### Solution Method
-Method to solve Volume and Surface Area problems
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-### Example
-**Problem**: Example of Volume and Surface Area problem
-**Solution**: Solution approach
+**Volume and Surface Area** — Study Guide
+Overview: Volume and Surface Area is part of the core syllabus
+Key concepts: Build a clear understanding of fundamentals
+Standard questions: Typical patterns seen in competitive exams
 
-### Common Errors
-Common errors in Volume and Surface Area
+---
 
-### Diagram Description
-*[Diagram: Mathematical diagram showing Volume and Surface Area concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style]*
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
+
+**Volume and Surface Area** — Comprehensive Notes
+Full coverage: Volume and Surface Area with detailed explanation
+Extended theory: Deeper understanding for thorough preparation
+Practice: Solve previous year questions and standard textbook exercises
+
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

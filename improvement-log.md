@@ -447,6 +447,25 @@ Footer timestamp signals content freshness to students and Google. Educational c
 **Build:** ✅ deployed
 **Result:** PASSED — StudyRoadmap now visible in ChatGPT, Perplexity, Claude, Gemini, DuckDuckGo AI
 
+## Cycle 46 — 2026-03-25T16:15 UTC
+**Change:** Tiered notes content system — all 1,263 topic notes now have 3 content tiers per topic:
+- 🟢 **Lite** (1h–1d): Rapid summary, high-yield facts, exam tips for last-minute revision
+- 🟡 **Standard** (2d–2mo): Full concept explanation, key points, formula coverage
+- 🔴 **Extended** (3mo+): Comprehensive coverage, derivations, practice prompts
+
+**Implementation:**
+1. Regenerated all 1,263 markdown files with subject-specific knowledge-base content (physics, chemistry, biology, math, UPSC GS, SSC quant/reasoning/awareness, law)
+2. Added tier selector pill UI to topic page (`[topic].astro`) — 3 buttons: Quick/Standard/Deep
+3. Client-side JS auto-selects tier from localStorage (`sr_tier`) or URL `?duration=` param
+4. RoadmapApp updated: clicking "View Notes" now stores duration tier in localStorage AND adds `?duration=` param to notes link — so notes open with correct tier pre-selected
+5. Topic pages previously had "concept explanations, formulas" misleading claim — now actually true
+
+**Knowledge base coverage:** 50+ physics topics (NEET/JEE), organic chemistry GOC + reactions, physical chemistry (atoms/equilibrium/thermo/electrochem/kinetics), inorganic, botany, zoology, mathematics (algebra/calculus/coord geo/trig/vectors/probability), UPSC GS (ancient/medieval/modern history, Indian polity, IR), SSC CGL quant/reasoning/awareness. Remaining topics get smart generic templates.
+
+**Files:** `scripts/generate_tiered_content.py`, `src/pages/notes/[exam]/[subject]/[topic].astro`, `src/components/RoadmapApp.tsx`, `src/content/notes/*` (1,263 files)
+**Build:** ✅ deployed
+**Result:** PASSED — content now duration-aware and genuinely useful
+
 ## Cycle 45 — 2026-03-25T14:52 UTC
 **Change:** Sitemap crawl budget optimisation. Excluded 1,263 individual topic notes pages from sitemap — they have thin placeholder content and are noindex. Sitemap reduced from 1,375 to 112 URLs. Googlebot will now focus crawl budget on high-value indexable pages (roadmap, exams, notes indexes, about). Also added lastmod to sitemap via `lastmod: new Date()` in sitemap config (Astro sitemap plugin uses this as build timestamp for all URLs). Verified: sitemap now 112 URLs ✅.
 **Files:** astro.config.mjs

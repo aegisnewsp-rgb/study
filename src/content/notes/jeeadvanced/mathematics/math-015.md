@@ -1,4 +1,7 @@
 ---
+
+
+
 exam: jeeadvanced
 examName: JEE Advanced
 subject: mathematics
@@ -9,28 +12,39 @@ weight: 5
 country: india
 generated: "2026-03-24T08:32:07.940870"
 diagramPrompt: Mathematical diagram showing Permutations concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style
----
 
+
+
+---
 # Permutations
 
-### Concept
-Permutations involves solving equations and understanding algebraic structures.
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
 
-### Key Formulas
-Key formulas for Permutations
+**Permutations** — Quick Facts
+Core concept: Permutations is a key topic in this subject area
+High-yield points: Key definitions, formulas, and facts for last-minute revision
+⚡ Exam tip: Focus on understanding over memorisation — application is everything
 
-### Problem Types
-Types of problems in Permutations
+---
 
-### Solution Method
-Method to solve Permutations problems
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-### Example
-**Problem**: Example of Permutations problem
-**Solution**: Solution approach
+**Permutations** — Study Guide
+Overview: Permutations is part of the core syllabus
+Key concepts: Build a clear understanding of fundamentals
+Standard questions: Typical patterns seen in competitive exams
 
-### Common Errors
-Common errors in Permutations
+---
 
-### Diagram Description
-*[Diagram: Mathematical diagram showing Permutations concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style]*
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
+
+**Permutations** — Comprehensive Notes
+Full coverage: Permutations with detailed explanation
+Extended theory: Deeper understanding for thorough preparation
+Practice: Solve previous year questions and standard textbook exercises
+
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

@@ -1,4 +1,7 @@
 ---
+
+
+
 exam: waec
 examName: WAEC WASSCE
 subject: physics
@@ -9,36 +12,42 @@ weight: 3
 country: nigeria
 generated: "2026-03-24T08:32:07.627303"
 diagramPrompt: Clean educational diagram showing Measurements and Units with clear labels, white background, labeled arrows for forces/fields/vectors, color-coded components, exam-style illustration
----
 
+
+
+---
 # Measurements and Units
 
-### Concept
-Measurements and Units involves the relationship between force, mass, acceleration. The key equation that governs this relationship is central to solving problems in Physics.
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
 
-### Formula
-```
-F = ma
-```
+**Measurements and Units** — Key Facts
+Definition: Measurements and Units is a fundamental concept in Physics
+Key formula/concept: Understand the core principle and its direct applications
+⚡ Exam tip: Questions from this topic appear regularly in NEET/JEE — focus on formulas and direct applications
 
-### Variables Explained
-| Variable | Symbol | Unit |
-|---|---|---|
+---
 
-### Problem-Solving Steps
-1. Identify known and unknown quantities
-2. Select the appropriate formula
-3. Rearrange if needed
-4. Substitute values with units
-5. Solve and check dimensions
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-### Common Mistakes
-- Confusing concept A with concept B
-- Forgetting to convert units
-- Misapplying the formula to derivation problems
+**Measurements and Units** — Physics Study Guide
+Concept overview: Measurements and Units is an important topic in the Physics syllabus
+Core principles: Build strong foundation of fundamentals before attempting problems
+Key points to understand: definitions, units, standard derivations, and typical numerical patterns
+Study approach: Theory first, then numerical problem-solving
 
-### Practice Tip
-Practice 5 problems daily from this topic
+---
 
-### Diagram Description
-*[Diagram: Clean educational diagram showing Measurements and Units with clear labels, white background, labeled arrows for forces/fields/vectors, color-coded components, exam-style illustration]*
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
+
+**Measurements and Units** — Comprehensive Physics Notes
+Full explanation: Measurements and Units is a core Physics concept with wide applications
+Detailed theory: Derivation, physical significance, and limitations of the concept
+Problem-solving strategies: Classify problem types, standard approach for each type
+Additional resources: Refer to standard Physics textbooks for deeper understanding
+Previous year trends: Analyse NEET/JEE question patterns for this topic
+
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

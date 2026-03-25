@@ -1,4 +1,7 @@
 ---
+
+
+
 exam: nabteb
 examName: NABTEB
 subject: biology
@@ -9,21 +12,39 @@ weight: 5
 country: nigeria
 generated: "2026-03-24T08:32:07.576365"
 diagramPrompt: Detailed biological diagram of Genetics with labeled parts, accurate proportions, white background, color-coded tissues/organs, textbook quality
----
 
+
+
+---
 # Genetics
 
-### Key Principles
-Core principles of Genetics
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
 
-### Terminology
-Key terms in Genetics
+**Genetics** — Quick Facts
+Core concept: Genetics is a key topic in this subject area
+High-yield points: Key definitions, formulas, and facts for last-minute revision
+⚡ Exam tip: Focus on understanding over memorisation — application is everything
 
-### Problem-Solving
-How to approach Genetics problems
+---
 
-### Key Formula
-F = ma
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-### Diagram Description
-*[Diagram: Detailed biological diagram of Genetics with labeled parts, accurate proportions, white background, color-coded tissues/organs, textbook quality]*
+**Genetics** — Study Guide
+Overview: Genetics is part of the core syllabus
+Key concepts: Build a clear understanding of fundamentals
+Standard questions: Typical patterns seen in competitive exams
+
+---
+
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
+
+**Genetics** — Comprehensive Notes
+Full coverage: Genetics with detailed explanation
+Extended theory: Deeper understanding for thorough preparation
+Practice: Solve previous year questions and standard textbook exercises
+
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

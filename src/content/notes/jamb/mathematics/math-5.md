@@ -1,5 +1,8 @@
 ---
 
+
+
+
 exam: jamb
 examName: JAMB UTME
 subject: mathematics
@@ -10,28 +13,39 @@ weight: 5
 country: nigeria
 generated: "2026-03-24T08:32:07.733325"
 diagramPrompt: "Mathematical diagram showing Trigonometry: Ratios and Identities concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style"
+
+
+
+---
+# "Trigonometry: Ratios and Identities"
+
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
+
+**"Trigonometry: Ratios and Identities"** — Quick Facts
+Core concept: "Trigonometry: Ratios and Identities" is a key topic in this subject area
+High-yield points: Key definitions, formulas, and facts for last-minute revision
+⚡ Exam tip: Focus on understanding over memorisation — application is everything
+
 ---
 
-# Trigonometry: Ratios and Identities
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-### Concept
-Trigonometry: Ratios and Identities involves solving equations and understanding algebraic structures.
+**"Trigonometry: Ratios and Identities"** — Study Guide
+Overview: "Trigonometry: Ratios and Identities" is part of the core syllabus
+Key concepts: Build a clear understanding of fundamentals
+Standard questions: Typical patterns seen in competitive exams
 
-### Key Formulas
-Key formulas for Trigonometry: Ratios and Identities
+---
 
-### Problem Types
-Types of problems in Trigonometry: Ratios and Identities
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-### Solution Method
-Method to solve Trigonometry: Ratios and Identities problems
+**"Trigonometry: Ratios and Identities"** — Comprehensive Notes
+Full coverage: "Trigonometry: Ratios and Identities" with detailed explanation
+Extended theory: Deeper understanding for thorough preparation
+Practice: Solve previous year questions and standard textbook exercises
 
-### Example
-**Problem**: Example of Trigonometry: Ratios and Identities problem
-**Solution**: Solution approach
-
-### Common Errors
-Common errors in Trigonometry: Ratios and Identities
-
-### Diagram Description
-*[Diagram: Mathematical diagram showing Trigonometry: Ratios and Identities concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style]*
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

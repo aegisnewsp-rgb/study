@@ -1,5 +1,8 @@
 ---
 
+
+
+
 exam: nabteb
 examName: NABTEB
 subject: english
@@ -10,20 +13,39 @@ weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.545223"
 diagramPrompt: "Educational diagram illustrating Comprehension: Inference with clear labels, white background, exam-style illustration"
+
+
+
+---
+# "Comprehension: Inference"
+
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
+
+**"Comprehension: Inference"** — Quick Facts
+Core concept: "Comprehension: Inference" is a key topic in this subject area
+High-yield points: Key definitions, formulas, and facts for last-minute revision
+⚡ Exam tip: Focus on understanding over memorisation — application is everything
+
 ---
 
-# Comprehension: Inference
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-### Concept
-Comprehension: Inference is an important topic in English Language for NABTEB.
+**"Comprehension: Inference"** — Study Guide
+Overview: "Comprehension: Inference" is part of the core syllabus
+Key concepts: Build a clear understanding of fundamentals
+Standard questions: Typical patterns seen in competitive exams
 
-### Key Points
-- Point 1
-- Point 2
-- Point 3
+---
 
-### Summary
-This topic is a part of English Language and carries significant weight in nabteb exams
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-### Diagram Description
-*[Diagram: Educational diagram illustrating Comprehension: Inference with clear labels, white background, exam-style illustration]*
+**"Comprehension: Inference"** — Comprehensive Notes
+Full coverage: "Comprehension: Inference" with detailed explanation
+Extended theory: Deeper understanding for thorough preparation
+Practice: Solve previous year questions and standard textbook exercises
+
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

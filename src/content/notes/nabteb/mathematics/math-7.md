@@ -1,5 +1,8 @@
 ---
 
+
+
+
 exam: nabteb
 examName: NABTEB
 subject: mathematics
@@ -10,24 +13,39 @@ weight: 5
 country: nigeria
 generated: "2026-03-24T08:32:07.549827"
 diagramPrompt: "Mathematical diagram showing Geometry: Angles and Triangles concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style"
+
+
+
+---
+# "Geometry: Angles and Triangles"
+
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
+
+**"Geometry: Angles and Triangles"** — Quick Facts
+Core concept: "Geometry: Angles and Triangles" is a key topic in this subject area
+High-yield points: Key definitions, formulas, and facts for last-minute revision
+⚡ Exam tip: Focus on understanding over memorisation — application is everything
+
 ---
 
-# Geometry: Angles and Triangles
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-### Concept
-Geometry: Angles and Triangles involves the properties and relationships of geometric figures.
+**"Geometry: Angles and Triangles"** — Study Guide
+Overview: "Geometry: Angles and Triangles" is part of the core syllabus
+Key concepts: Build a clear understanding of fundamentals
+Standard questions: Typical patterns seen in competitive exams
 
-### Key Theorems
-Theorems related to Geometry: Angles and Triangles
+---
 
-### Formulas
-Key formulas for Geometry: Angles and Triangles
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-### Construction
-How to construct diagrams for Geometry: Angles and Triangles
+**"Geometry: Angles and Triangles"** — Comprehensive Notes
+Full coverage: "Geometry: Angles and Triangles" with detailed explanation
+Extended theory: Deeper understanding for thorough preparation
+Practice: Solve previous year questions and standard textbook exercises
 
-### Problem-Solving Tips
-Tips for solving Geometry: Angles and Triangles problems
-
-### Diagram Description
-*[Diagram: Mathematical diagram showing Geometry: Angles and Triangles concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style]*
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

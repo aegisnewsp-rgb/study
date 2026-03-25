@@ -1,5 +1,8 @@
 ---
 
+
+
+
 exam: jamb
 examName: JAMB UTME
 subject: english
@@ -10,20 +13,39 @@ weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.701885"
 diagramPrompt: "Educational diagram illustrating Grammar: Parts of Speech with clear labels, white background, exam-style illustration"
+
+
+
+---
+# "Grammar: Parts of Speech"
+
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
+
+**"Grammar: Parts of Speech"** — Quick Facts
+Core concept: "Grammar: Parts of Speech" is a key topic in this subject area
+High-yield points: Key definitions, formulas, and facts for last-minute revision
+⚡ Exam tip: Focus on understanding over memorisation — application is everything
+
 ---
 
-# Grammar: Parts of Speech
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-### Concept
-Grammar: Parts of Speech is an important topic in English Language for JAMB UTME.
+**"Grammar: Parts of Speech"** — Study Guide
+Overview: "Grammar: Parts of Speech" is part of the core syllabus
+Key concepts: Build a clear understanding of fundamentals
+Standard questions: Typical patterns seen in competitive exams
 
-### Key Points
-- Point 1
-- Point 2
-- Point 3
+---
 
-### Summary
-This topic is a part of English Language and carries significant weight in jamb exams
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-### Diagram Description
-*[Diagram: Educational diagram illustrating Grammar: Parts of Speech with clear labels, white background, exam-style illustration]*
+**"Grammar: Parts of Speech"** — Comprehensive Notes
+Full coverage: "Grammar: Parts of Speech" with detailed explanation
+Extended theory: Deeper understanding for thorough preparation
+Practice: Solve previous year questions and standard textbook exercises
+
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

@@ -1,5 +1,8 @@
 ---
 
+
+
+
 exam: waec
 examName: WAEC WASSCE
 subject: mathematics
@@ -10,24 +13,39 @@ weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.621166"
 diagramPrompt: "Mathematical diagram showing Circles: Angles and Chords concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style"
+
+
+
+---
+# "Circles: Angles and Chords"
+
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
+
+**"Circles: Angles and Chords"** — Quick Facts
+Core concept: "Circles: Angles and Chords" is a key topic in this subject area
+High-yield points: Key definitions, formulas, and facts for last-minute revision
+⚡ Exam tip: Focus on understanding over memorisation — application is everything
+
 ---
 
-# Circles: Angles and Chords
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-### Concept
-Circles: Angles and Chords involves the properties and relationships of geometric figures.
+**"Circles: Angles and Chords"** — Study Guide
+Overview: "Circles: Angles and Chords" is part of the core syllabus
+Key concepts: Build a clear understanding of fundamentals
+Standard questions: Typical patterns seen in competitive exams
 
-### Key Theorems
-Theorems related to Circles: Angles and Chords
+---
 
-### Formulas
-Key formulas for Circles: Angles and Chords
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-### Construction
-How to construct diagrams for Circles: Angles and Chords
+**"Circles: Angles and Chords"** — Comprehensive Notes
+Full coverage: "Circles: Angles and Chords" with detailed explanation
+Extended theory: Deeper understanding for thorough preparation
+Practice: Solve previous year questions and standard textbook exercises
 
-### Problem-Solving Tips
-Tips for solving Circles: Angles and Chords problems
-
-### Diagram Description
-*[Diagram: Mathematical diagram showing Circles: Angles and Chords concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style]*
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

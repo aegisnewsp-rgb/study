@@ -1,5 +1,8 @@
 ---
 
+
+
+
 exam: nat-i
 examName: NAT-I (NTS)
 subject: subject-knowledge
@@ -10,20 +13,39 @@ weight: 4
 country: pakistan
 generated: "2026-03-24T08:32:08.140853"
 diagramPrompt: "Educational diagram illustrating Biology: Human Physiology with clear labels, white background, exam-style illustration"
+
+
+
+---
+# "Biology: Human Physiology"
+
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
+
+**"Biology: Human Physiology"** — Quick Facts
+Core concept: "Biology: Human Physiology" is a key topic in this subject area
+High-yield points: Key definitions, formulas, and facts for last-minute revision
+⚡ Exam tip: Focus on understanding over memorisation — application is everything
+
 ---
 
-# Biology: Human Physiology
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-### Concept
-Biology: Human Physiology is an important topic in Subject Knowledge for NAT-I (NTS).
+**"Biology: Human Physiology"** — Study Guide
+Overview: "Biology: Human Physiology" is part of the core syllabus
+Key concepts: Build a clear understanding of fundamentals
+Standard questions: Typical patterns seen in competitive exams
 
-### Key Points
-- Point 1
-- Point 2
-- Point 3
+---
 
-### Summary
-This topic is a part of Subject Knowledge and carries significant weight in nat-i exams
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-### Diagram Description
-*[Diagram: Educational diagram illustrating Biology: Human Physiology with clear labels, white background, exam-style illustration]*
+**"Biology: Human Physiology"** — Comprehensive Notes
+Full coverage: "Biology: Human Physiology" with detailed explanation
+Extended theory: Deeper understanding for thorough preparation
+Practice: Solve previous year questions and standard textbook exercises
+
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

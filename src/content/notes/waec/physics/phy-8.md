@@ -1,5 +1,8 @@
 ---
 
+
+
+
 exam: waec
 examName: WAEC WASSCE
 subject: physics
@@ -10,36 +13,45 @@ weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.632258"
 diagramPrompt: "Clean educational diagram showing Waves: Properties and Equations with clear labels, white background, labeled arrows for forces/fields/vectors, color-coded components, exam-style illustration"
+
+
+
+---
+# "Waves: Properties and Equations"
+
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
+
+**Waves** — Key Facts
+Wave equation: v = fλ; v = √(T/μ) for string (T=tension, μ=linear density)
+Transverse: displacement perpendicular to propagation (string, light); Longitudinal: displacement parallel (sound, spring)
+Doppler Effect: f' = f × (v ± v₀)/(v ∓ v_s); source moving toward observer → higher pitch
+Stationary waves: nodes (zero amplitude) and antinodes (maximum amplitude); fixed end → node
+⚡ Exam tip: Doppler applies to ALL waves (sound, light, water); formula differs slightly for light
+
 ---
 
-# Waves: Properties and Equations
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-### Concept
-Waves: Properties and Equations involves the relationship between force, mass, acceleration. The key equation that governs this relationship is central to solving problems in Physics.
+**Waves** — NEET/JEE Study Guide
+Wave types: mechanical (require medium) vs electromagnetic (no medium; c=3×10⁸ m/s)
+Doppler: moving source: denominator; moving observer: numerator; both: combine effects
+Beats: f_beat = |f₁ - f₂|; heard when two close frequencies interfere; used in tuning
+Standing waves on string fixed at both ends: L = n(λ/2), f_n = n(v/2L); fundamental n=1
+Open pipe: L = n(λ/2); closed pipe: L = n(λ/4) for odd n only; overtones differ
 
-### Formula
-```
-F = ma
-```
+---
 
-### Variables Explained
-| Variable | Symbol | Unit |
-|---|---|---|
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-### Problem-Solving Steps
-1. Identify known and unknown quantities
-2. Select the appropriate formula
-3. Rearrange if needed
-4. Substitute values with units
-5. Solve and check dimensions
+**Waves** — Comprehensive Notes
+Wave intensity: I = P/A = (1/2)ρAvω²A² (for sound); I ∝ A² and I ∝ f²
+Energy in wave: KE and PE are in phase for transverse waves at the same point; energy flows with the wave
+Doppler for light: f' = f√((1+β)/(1-β)) for source approaching at speed v = βc
+Shock waves: when source speed > wave speed (sonic boom); Mach number M = v_sound/v_source
+Wave propagation in different media: v = √(B/ρ) for longitudinal sound in fluid; v = √(T/μ) for string
 
-### Common Mistakes
-- Confusing concept A with concept B
-- Forgetting to convert units
-- Misapplying the formula to derivation problems
-
-### Practice Tip
-Practice 5 problems daily from this topic
-
-### Diagram Description
-*[Diagram: Clean educational diagram showing Waves: Properties and Equations with clear labels, white background, labeled arrows for forces/fields/vectors, color-coded components, exam-style illustration]*
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

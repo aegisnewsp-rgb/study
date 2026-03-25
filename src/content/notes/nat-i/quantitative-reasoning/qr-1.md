@@ -1,4 +1,7 @@
 ---
+
+
+
 exam: nat-i
 examName: NAT-I (NTS)
 subject: quantitative-reasoning
@@ -9,20 +12,39 @@ weight: 4
 country: pakistan
 generated: "2026-03-24T08:32:08.133538"
 diagramPrompt: Educational diagram illustrating Number System and Properties with clear labels, white background, exam-style illustration
----
 
+
+
+---
 # Number System and Properties
 
-### Concept
-Number System and Properties is an important topic in Quantitative Reasoning for NAT-I (NTS).
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
 
-### Key Points
-- Point 1
-- Point 2
-- Point 3
+**Number System and Properties** — Quick Facts
+Core concept: Number System and Properties is a key topic in this subject area
+High-yield points: Key definitions, formulas, and facts for last-minute revision
+⚡ Exam tip: Focus on understanding over memorisation — application is everything
 
-### Summary
-This topic is a part of Quantitative Reasoning and carries significant weight in nat-i exams
+---
 
-### Diagram Description
-*[Diagram: Educational diagram illustrating Number System and Properties with clear labels, white background, exam-style illustration]*
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
+
+**Number System and Properties** — Study Guide
+Overview: Number System and Properties is part of the core syllabus
+Key concepts: Build a clear understanding of fundamentals
+Standard questions: Typical patterns seen in competitive exams
+
+---
+
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
+
+**Number System and Properties** — Comprehensive Notes
+Full coverage: Number System and Properties with detailed explanation
+Extended theory: Deeper understanding for thorough preparation
+Practice: Solve previous year questions and standard textbook exercises
+
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

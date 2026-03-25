@@ -423,6 +423,12 @@ Footer timestamp signals content freshness to students and Google. Educational c
 **Build:** none (no code change — news refresh only)
 **Result:** PASSED
 
+## Cycle 31 — 2026-03-25T11:38 UTC
+**Change:** SEO verification — canonical, title, OG tags all confirmed correct on /roadmap/, /exams/, and topic pages. 301 redirect on non-trailing-slash is normal Astro static export behavior.
+**Files:** none
+**Build:** none
+**Result:** PASSED
+
 ## Cycle 30 — 2026-03-25T11:27 UTC
 **Change:** Sitemap health check — 5 random topic pages spot-checked: all 200 OK. 1,375 URLs confirmed accessible.
 **Files:** none (verification only)

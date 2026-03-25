@@ -423,6 +423,13 @@ Footer timestamp signals content freshness to students and Google. Educational c
 **Build:** none (no code change — news refresh only)
 **Result:** PASSED
 
+## Cycle 34 — 2026-03-25T12:27 UTC
+**Change:** E-E-A-T fix — Organization schema `sameAs` GitHub URL corrected from `studyroadmap` (404) to `aegisnewsp-rgb` (200). Also fixed broken GitHub issues links in privacy/terms pages.
+**Files:** src/layouts/Layout.astro, src/pages/privacy.astro, src/pages/terms.astro
+**SEO:** E-E-A-T — valid GitHub org link in schema strengthens Google's understanding of brand identity
+**Build:** 1375 pages ✅
+**Result:** PASSED
+
 ## Cycle 33 — 2026-03-25T12:16 UTC
 **Change:** SEO wrap — backlog review: all substantive work complete. 3 items remaining (Lighthouse unavailable, AdSense code needed, Google-Extended decision pending).
 **Files:** none

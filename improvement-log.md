@@ -423,6 +423,12 @@ Footer timestamp signals content freshness to students and Google. Educational c
 **Build:** none (no code change — news refresh only)
 **Result:** PASSED
 
+## Cycle 30 — 2026-03-25T11:27 UTC
+**Change:** Sitemap health check — 5 random topic pages spot-checked: all 200 OK. 1,375 URLs confirmed accessible.
+**Files:** none (verification only)
+**Build:** none
+**Result:** PASSED
+
 ## Cycle 29 — 2026-03-25T11:16 UTC
 **Change:** robots.txt audit — confirmed all AI training crawlers blocked (GPTBot, ChatGPT-User, CCBot, OAI-SearchBot). Flagged for user decision: whether to allow Google-Extended for AI Overviews while blocking training.
 **Files:** public/robots.txt

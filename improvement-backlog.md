@@ -4,7 +4,7 @@
 
 ---
 
-### 1. Core Web Vitals — LCP, FCP, CLS audit
+### 1. Core Web Vitals — LCP, FCP, CLS audit (⚠️ Lighthouse CLI not installed)
 **Status:** Cannot fully measure without Lighthouse CLI
 **Manual spot-check results (Cycle 26):**
 - TTFB: 23ms ✅ (excellent)

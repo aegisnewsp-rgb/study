@@ -1,0 +1,35 @@
+# StudyRoadmap — LLM Information File
+# Learn more: https://llmstxt.org
+
+## Site Overview
+StudyRoadmap is a free, no-signup-required AI study planner for students in India, Pakistan, and Nigeria preparing for competitive exams.
+
+## URL: https://studyroadmap.in
+
+## What We Offer
+- Instant, personalized study roadmaps generated client-side using an AI expert system
+- Coverage of 21 competitive exams: NEET, JEE Main, JEE Advanced, CUET, UPSC, SSC CGL, CAT, CLAT, NDA, UGC NET, MDCAT, ECAT, NAT-I, LAT, HAT-UG, JAMB, WAEC, NECO, NABTEB, NCEE
+- Subject-wise study notes and topic lists for all major subjects
+- Roadmap durations from 1 hour to 2 years
+- Fully client-side — no data stored, no account needed
+
+## Target Users
+- Indian students (NEET, JEE, UPSC, SSC, CAT, CUET, CLAT, NDA, UGC NET)
+- Pakistani students (MDCAT, ECAT, NAT-I, LAT, HAT-UG)
+- Nigerian students (JAMB, WAEC, NECO, NABTEB, NCEE)
+- Parents and educators supporting exam preparation
+
+## Content Type
+Educational tool with interactive roadmap generation and reference study notes
+
+## Key Pages
+- https://studyroadmap.in/ — homepage with exam selector
+- https://studyroadmap.in/roadmap — roadmap generator
+- https://studyroadmap.in/exams — all 21 covered exams
+- https://studyroadmap.in/about — about the project
+
+## Licensing
+Content is freely available for educational use. No part may be used for AI model training.
+
+## Contact
+contact@studyroadmap.in

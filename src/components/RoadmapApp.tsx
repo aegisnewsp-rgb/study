@@ -2,6 +2,20 @@
 import { useState, useMemo, useEffect } from 'react';
 import type { ExamTemplate, DailyTopicItem, RoadmapTemplate } from '../data/exams';
 
+// Exams without a dedicated notes directory get a "Notes coming soon" badge
+const NOTES_PENDING_EXAMS = new Set([
+  'bitsat','viteee','mht-cet','kcet','wbjee','comedk','keam','gujcet','upsee',
+  'ap-eapcet','ts-eapcet','aimer','aims','aiims-mbbs','aiims-bds',
+  'sbi-po','sbi-clerk','ibps-po','ibps-clerk','rbi-grad-b',
+  'ca-found','cs-exec','cma','cat','xat','snap','mat',
+  'clat','lat','lsat','ailet',
+  'ntse','kvpy','ocs','nvs',
+]);
+
+function hasNotes(examId: string): boolean {
+  return !NOTES_PENDING_EXAMS.has(examId.toLowerCase());
+}
+
 interface Props {
   exams: ExamTemplate[];
 }
@@ -124,7 +138,8 @@ function SubjectAccordion({
                 </p>
                 <span className="text-xs text-surface-400">{topic.subject}</span>
               </div>
-              <a
+              {hasNotes(examId) ? (
+                <a
                 href={`/notes/${examId}/${subjectId}/${topic.id}?duration=${selectedDuration}`}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -146,6 +161,9 @@ function SubjectAccordion({
                   <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
                 </svg>
               </a>
+              ) : (
+                <span className="shrink-0 text-xs text-surface-400 dark:text-surface-600" title="Notes coming soon">Soon</span>
+              )}
               <WeightStars weight={topic.weight} />
             </div>
           ))}

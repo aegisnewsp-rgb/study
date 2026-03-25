@@ -447,6 +447,17 @@ Footer timestamp signals content freshness to students and Google. Educational c
 **Build:** ✅ deployed
 **Result:** PASSED — StudyRoadmap now visible in ChatGPT, Perplexity, Claude, Gemini, DuckDuckGo AI
 
+## Cycle 50 — 2026-03-25T18:30 UTC
+**Change:** PCM exam notes 404 fix — add graceful "Notes coming soon" fallback for all 104 exams without dedicated note content. Also fixed physics topic IDs from `physic-XXX` to `phy-XXX` to match actual note file names.
+- Added `NOTES_PENDING_EXAMS` set (all exams without /content/notes/{exam} directories) → `hasNotes(examId)` check in RoadmapApp
+- PCM exams: topic notes links show "Soon" badge instead of broken 404 links ✅
+- Exams with notes: normal note links (NEET, JEE, UPSC, etc.) ✅
+- Physics subject IDs: `physic-XXX` → `phy-XXX` (now matches `/notes/neet/physics/phy-001` etc.) ✅
+- Chemistry subject IDs: already `chemis-XXX` (matches `/notes/neet/chemistry/chem-XXX`) ✅
+- Build: 3,092 pages ✅ deployed ✅
+
+**Status:** All 104 exams now have a graceful note experience — either real links (for exams with notes) or a clean "Soon" badge (for PCM/recently added exams). No more 404 links.
+
 ## Cycle 49 — 2026-03-25T17:00 UTC
 **Change:** 100 exams expansion — from 21 to 104 exams across 19 countries.
 - Added 83 new exams: India (engineering PCM, medical PCB, management, commerce, banking, civil services, teaching), Pakistan (FPSC CSS, PPSC, SPSC, KPK PMS, NLT, GAT), Nigeria (Post-UTME, JUPEB, IJMB, ICAN, TOAFL), Bangladesh (BUET, DU, Medical), Sri Lanka (SLMC, A/L, Law), Nepal (CMAT, IOE, LOE), Saudi Arabia (Medical, GP Board, Qimiyah), UAE (HAAD, DoH, UAE University), South Africa (HEPC Medical, SAPC, LLB), Kenya (KUCCPS, Law Aptitude, Kenyatta University), Ethiopia (AAU, EMU), Ghana (WASSCE, GAT, Legon), Uganda (UNEB, Law, Makerere), Tanzania (ACSEE, Law, MUST), Russia (EGE), China (Gaokao, Medical), Philippines (NMAT, UPCAT, Pharmacy), Indonesia (UTBK/SNPMTN, UI, UNDANA), Malaysia (MUET, UPPM, Matriculation)

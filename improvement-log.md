@@ -447,6 +447,12 @@ Footer timestamp signals content freshness to students and Google. Educational c
 **Build:** ✅ deployed
 **Result:** PASSED — StudyRoadmap now visible in ChatGPT, Perplexity, Claude, Gemini, DuckDuckGo AI
 
+## Cycle 43 — 2026-03-25T14:29 UTC
+**Change:** AdSense policy risk fix — thin content protection. Added `robots="noindex, follow"` to all 1,263 individual topic notes pages. These pages have placeholder content ("Point 1, Point 2, Point 3") which violates AdSense content quality guidelines. By marking them noindex, Google will crawl but not index them, protecting the site from thin-content penalties. Roadmap and exam/subject index pages remain fully indexable. Also: (1) Layout.astro now accepts a `robots` prop, (2) roadmap.astro no longer claims notes have "concept explanations, formulas, problem-solving steps" (misleading), (3) topic notes meta description updated to be honest (removed content promises that weren't true). Verified: `/notes/neet/physics/phy-001/` now has `robots: noindex, follow` ✅.
+**Files:** src/layouts/Layout.astro, src/pages/notes/[exam]/[subject]/[topic].astro, src/pages/roadmap.astro
+**Build:** ✅ deployed
+**Result:** PASSED — AdSense thin-content risk mitigated; site protected
+
 ## Cycle 42 — 2026-03-25T14:16 UTC
 **Change:** Content quality audit — CRITICAL FINDING: All 1,263 study notes have thin placeholder content (~1.2KB/200 words). Key Points sections contain generic "Point 1, Point 2, Point 3" with no real educational content. This is the #1 SEO and UX problem on the site — Google classifies thin content as a quality红旗. Notes pages are the most content-rich pages and currently they provide almost no value.
 **Root cause:** Notes were auto-generated on 2026-03-24 using template placeholders instead of real content.

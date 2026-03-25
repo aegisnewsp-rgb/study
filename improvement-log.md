@@ -447,6 +447,12 @@ Footer timestamp signals content freshness to students and Google. Educational c
 **Build:** ✅ deployed
 **Result:** PASSED — StudyRoadmap now visible in ChatGPT, Perplexity, Claude, Gemini, DuckDuckGo AI
 
+## Cycle 44 — 2026-03-25T14:40 UTC
+**Change:** Added CollectionPage + ItemList structured data to notes index pages. Exam notes index pages (`/notes/{exam}/`) and subject notes index pages (`/notes/{exam}/{subject}/`) now include `"@type":"CollectionPage"` and an ItemList of all topics/subjects they contain. This tells Google these are curated, structured collections — not thin pages. Verified live: `/notes/neet/physics/` has CollectionPage + ItemList ✅, `/notes/neet/` has CollectionPage ✅.
+**Files:** src/pages/notes/[exam]/index.astro, src/pages/notes/[exam]/[subject]/index.astro
+**Build:** ✅ deployed
+**Result:** PASSED — richer schema on all notes index pages; better Google understanding of content structure
+
 ## Cycle 43 — 2026-03-25T14:29 UTC
 **Change:** AdSense policy risk fix — thin content protection. Added `robots="noindex, follow"` to all 1,263 individual topic notes pages. These pages have placeholder content ("Point 1, Point 2, Point 3") which violates AdSense content quality guidelines. By marking them noindex, Google will crawl but not index them, protecting the site from thin-content penalties. Roadmap and exam/subject index pages remain fully indexable. Also: (1) Layout.astro now accepts a `robots` prop, (2) roadmap.astro no longer claims notes have "concept explanations, formulas, problem-solving steps" (misleading), (3) topic notes meta description updated to be honest (removed content promises that weren't true). Verified: `/notes/neet/physics/phy-001/` now has `robots: noindex, follow` ✅.
 **Files:** src/layouts/Layout.astro, src/pages/notes/[exam]/[subject]/[topic].astro, src/pages/roadmap.astro

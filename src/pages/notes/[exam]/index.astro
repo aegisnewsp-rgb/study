@@ -61,10 +61,29 @@ const breadcrumbJsonLd = {
     { '@type': 'ListItem', position: 3, name: `${examName} Notes`, item: canonicalUrl },
   ],
 };
+
+const collectionPageJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: `${examName} Study Notes — All Subjects`,
+  description: description,
+  url: canonicalUrl,
+  mainEntity: {
+    '@type': 'ItemList',
+    itemListElement: Object.entries(bySubject).map(([subjectId, notes], i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      url: `${siteUrl}/notes/${exam}/${subjectId}`,
+      name: notes[0]?.data.subjectName || subjectId,
+      numberOfItems: notes.length,
+    })),
+  },
+};
 ---
 
 <Layout title={title} description={description} canonical={canonicalUrl} image={ogImage}>
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
+  <script type="application/ld+json" set:html={JSON.stringify(collectionPageJsonLd)} />
   <Navbar />
   <main id="main-content" class="flex-1">
     <section class="bg-surface-50 dark:bg-surface-950 border-b border-surface-200 dark:border-surface-800">

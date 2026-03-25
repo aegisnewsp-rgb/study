@@ -59,6 +59,7 @@ function SubjectAccordion({
   onToggle,
   color,
   index,
+  examId,
 }: {
   subjectName: string;
   subjectId: string;
@@ -67,6 +68,7 @@ function SubjectAccordion({
   onToggle: () => void;
   color: string;
   index: number;
+  examId: string;
 }) {
   const sorted = useMemo(() => [...topics].sort((a, b) => b.weight - a.weight), [topics]);
   const highPriority = sorted.filter(t => t.weight >= 7).length;
@@ -122,6 +124,18 @@ function SubjectAccordion({
                 </p>
                 <span className="text-xs text-surface-400">{topic.subject}</span>
               </div>
+              <a
+                href={`/notes/${examId}/${subjectId}/${topic.id}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="shrink-0 text-brand-600 dark:text-brand-400 hover:text-brand-500 dark:hover:text-brand-300 transition-colors"
+                aria-label={`Open notes for ${topic.name} in new tab`}
+                title="Open notes"
+              >
+                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
+                </svg>
+              </a>
               <WeightStars weight={topic.weight} />
             </div>
           ))}
@@ -404,6 +418,7 @@ export default function RoadmapApp({ exams }: Props) {
                   onToggle={() => toggleSubject(subj.id)}
                   color={subj.color}
                   index={idx}
+                  examId={selectedExam}
                 />
               );
             })}

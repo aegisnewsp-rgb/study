@@ -447,6 +447,12 @@ Footer timestamp signals content freshness to students and Google. Educational c
 **Build:** ✅ deployed
 **Result:** PASSED — StudyRoadmap now visible in ChatGPT, Perplexity, Claude, Gemini, DuckDuckGo AI
 
+## Cycle 41 — 2026-03-25T14:00 UTC
+**Change:** Added "Open notes" link to every topic card in the roadmap. Each topic in the SubjectAccordion now has a 📖 icon button that links to `/notes/{examId}/{subjectId}/{topicId}` in a new tab. Students can now jump directly from their roadmap topic to the full study notes without losing their place. Threaded `examId` prop through to `SubjectAccordion` component. Links verified: `/notes/neet/physics/phy-001` → 200 ✅
+**Files:** src/components/RoadmapApp.tsx
+**Build:** ✅ deployed
+**Result:** PASSED — students can now open notes in new tab from any roadmap topic
+
 ## Cycle 40 — 2026-03-25T13:50 UTC
 **Change:** Core Web Vitals full audit using Lighthouse CLI (installed this cycle). Unthrottled results from container network: TTFB=1ms ✅, CLS=0ms ✅, TBT=0ms ✅. LCP/FCP=4.3s ⚠️ — but this is a headless Docker artifact (server-response-time=1ms confirms server is fast). No render-blocking resources, only 6 network requests, 158KB total transfer. Real-world performance for users is good despite Lighthouse's synthetic LCP score. Site has no hero images, minimal JS, Google Fonts preconnected, no blocking scripts.
 **Note:** Accessibility=93, Best Practices=100, SEO=100 ✅

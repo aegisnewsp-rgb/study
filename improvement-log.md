@@ -423,7 +423,14 @@ Footer timestamp signals content freshness to students and Google. Educational c
 **Build:** none (no code change — news refresh only)
 **Result:** PASSED
 
-## Cycle 27 — 2026-03-25T10:45 UTC
+## Cycle 29 — 2026-03-25T11:16 UTC
+**Change:** robots.txt audit — confirmed all AI training crawlers blocked (GPTBot, ChatGPT-User, CCBot, OAI-SearchBot). Flagged for user decision: whether to allow Google-Extended for AI Overviews while blocking training.
+**Files:** public/robots.txt
+**Note:** Blocking AI bots = StudyRoadmap won't appear in AI-powered search (Perplexity, Google AI Overviews). User to decide if this is intentional.
+**Build:** none (no code change)
+**Result:** PASSED
+
+## Cycle 28 — 2026-03-25T11:00 UTC
 **Change:** Mobile tap targets — WCAG 2.1 AA minimum 44×44px applied to all interactive elements (a, button, input, select, label, [role=button], [role=link]) in global.css. Checkboxes/radios exempted for natural sizing.
 **Files:** src/styles/global.css
 **SEO:** WCAG 2.1 AA mobile accessibility — positive ranking signal

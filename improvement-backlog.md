@@ -36,10 +36,9 @@
 ---
 
 ### 5. `robots.txt` AI crawler blocks — review
-**Status:** Done and live — but worth reviewing whether blocking AI training crawlers (GPTBot, ChatGPT-User, CCBot, OAI-SearchBot) is intentional or if StudyRoadmap wants to opt into AI training / structured data sharing.
-**Current:** All AI training bots blocked.
-**Consider:** If StudyRoadmap wants traffic from AI-powered search (Perplexity, Google AI Overview), allowing at least `CCBot` or adding an OpenAI Data API opt-out may be beneficial.
-**Effort:** Trivial (one-line change in `public/robots.txt`).
+**Status:** ⚠️ Flagged Cycle 29 — all AI training bots blocked. User decision needed: block is intentional (no AI training) but may reduce AI-powered search discoverability. Consider adding Google-Extended to allow Google AI Overviews without training.
+**Current:** GPTBot, ChatGPT-User, CCBot, OAI-SearchBot all blocked.
+**Effort:** Trivial — one-line change to allow Google-Extended.
 
 ---
 

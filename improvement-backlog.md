@@ -29,7 +29,7 @@ Next 5 highest-value candidate changes (unordered priority):
 1. Core Web Vitals audit — LCP, FCP, CLS (moderate effort)
 2. ~~Exam individual page FAQ content~~ — DONE Cycle 22
 3. ~~Exam pages — add exam-pattern/eligibility metadata to /exams listing~~ — DONE Cycle 14
-4. Internal linking — connect related exam pages, country sections, roadmap pages (moderate effort)
+4. ~~Internal linking~~ — DONE Cycle 23
 5. Accessibility audit — tap targets, contrast, WCAG AA basics (moderate effort)
 
 ---
@@ -50,4 +50,4 @@ Next 5 highest-value candidate changes (unordered priority):
 *[DONE - Cycle 19]* ~~OG images for notes pages~~ — 1,263 branded OG images generated, verified live
 *[DONE]* ~~Related exam cross-links~~ — DONE Cycle 17 (notes pages)
 *[NEW]* Accessibility audit — tap targets, contrast, WCAG AA basics (moderate effort)
-*[NEW]* Internal linking — connect related exam pages, country sections, roadmap pages
+*[DONE]* ~~Internal linking~~ — DONE Cycle 23 (topic pages + subject index pages)

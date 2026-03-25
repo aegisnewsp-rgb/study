@@ -411,6 +411,13 @@ Footer timestamp signals content freshness to students and Google. Educational c
 **SEO:** All 4 notes page levels now have unique OG images (notes index, exam index, subject index, topic)
 **Result:** PASSED — deployed live
 
+## Cycle 23 — 2026-03-25T05:00 UTC
+**Change:** Internal linking — added equivalent exam cross-links to topic pages and "other subjects" + equivalent exam links to subject index pages
+**Files:** src/pages/notes/[exam]/[subject]/[topic].astro, src/pages/notes/[exam]/[subject]/index.astro
+**SEO:** Every topic page now links to equivalent exams in other countries (NEET→MDCAT→JAMB etc.). Every subject index page links to all other subjects in the same exam + equivalent exams in other countries.
+**Build:** 1375 pages, PASSED
+**Result:** PASSED — deployed live
+
 ## Cycle 22 — 2026-03-25T04:00 UTC
 **Change:** Exam-specific FAQ content on /roadmap — 8 exams covered (NEET, JEE Main, JEE Advanced, UPSC, CAT, MDCAT, JAMB, CLAT), 3 Q&A pairs each
 **Files:** src/pages/roadmap.astro — added EXAM_FAQS map + visual FAQ section + dynamic JS injection + JSON-LD update

@@ -47,5 +47,5 @@ Next 5 highest-value candidate changes (unordered priority):
 
 ---
 *[DONE - Cycle 17]* ~~BreadcrumbList JSON-LD~~ — added to all 4 notes page levels
-*[NEW]* OG images for notes pages — each topic page should have its own OG image (currently uses homepage og-image.jpg)
+*[DONE - Cycle 19]* ~~OG images for notes pages~~ — 1,263 branded OG images generated, verified live
 *[NEW]* Related exam cross-links — link to equivalent exams in other countries (e.g. NEET → MDCAT, JEE → ECAT, JAMB → WAEC)

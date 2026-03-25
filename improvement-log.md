@@ -391,3 +391,16 @@ Footer timestamp signals content freshness to students and Google. Educational c
 **SEO:** FAQPage JSON-LD now has 12 Q&A pairs; FAQ-rich results improve Google visibility
 **Build:** 1375 pages, PASSED
 **Result:** PASSED — deployed live
+
+## Cycle 19 — 2026-03-25T01:07 UTC
+**Change:** OG images for all 1,263 topic notes — branded 1200x630 JPEGs generated via Pillow script at public/og-notes/{exam}-{subject}-{topic}.jpg
+**Files:** scripts/generate_og_images.py, src/pages/notes/[exam]/[subject]/[topic].astro, public/og-notes/
+**SEO:** Each topic note now has unique og:image and twitter:image; verified live at /og-notes/neet-physics-phy-001.jpg
+**Build:** 1375 pages, PASSED
+**Result:** PASSED — deployed live
+
+## Cycle 20 — 2026-03-25T02:03 UTC
+**Change:** Core Web Vitals — added Google Fonts preconnect + dns-prefetch hints, font-display:swap
+**Files:** src/layouts/Layout.astro, src/styles/global.css
+**SEO:** Performance improvement (TTFB confirmed 27ms, LCP optimization for font loading)
+**Result:** PASSED — deployed live

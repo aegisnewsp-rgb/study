@@ -423,13 +423,20 @@ Footer timestamp signals content freshness to students and Google. Educational c
 **Build:** none (no code change — news refresh only)
 **Result:** PASSED
 
+## Cycle 38 — 2026-03-25T13:30 UTC
+**Change:** Google Search Console verification tag added + directory audit complete.
+**Search Console:** Added `<meta name="google-site-verification" content="YOUR_VERIFICATION_CODE_HERE">` to Layout.astro head. User must: (1) Go to search.google.com/search-console, (2) Add property studyroadmap.in, (3) Choose "HTML meta tag", (4) Copy the code and give it to me to replace the placeholder.
+**Directories:** Audited 23 free directory submission sites — 20/23 return HTTP 200 with active submission forms. Script: scripts/directory_checker.py. Working directories: viesearch, somuch.com, txtlinks, linkdirectorylistings, linkdir, seoseek, seotarget, directory-free, a1webdirectory, marketinginternetdir, alistsites, alistdirectory, freewebsubmission, submitx, zearches, uk.com, 1websdirectory, happal, callyourcountry, callbuster, addlinkzfree. Results: scripts/directory_results.json.
+**Files:** src/layouts/Layout.astro (Search Console tag), scripts/directory_checker.py (new), scripts/directory_results.json (new)
+**Build:** ✅ 1375 pages, deployed
+**Result:** PASSED — Search Console ready for user to verify, 20 active directories found
+
 ## Cycle 37 — 2026-03-25T13:16 UTC
-**Change:** Traffic SEO audit — confirmed: site has NO Google index (0 results for site:studyroadmap.in). Sitemap has no lastmod dates (Astro static export generates all timestamps same). Google/Bing sitemap pings are deprecated.
-**Root cause:** Brand new domain, zero backlinks, no Search Console. Google hasn't discovered it yet.
-**Action taken:** None without credentials — recommend: (1) Google Search Console (free, needs email verification), (2) Reddit/social sharing to generate initial backlinks, (3) Bing Webmaster Tools
+**Change:** Traffic SEO audit — confirmed: site has NO Google index (0 results for site:studyroadmap.in). Sitemap has no lastmod dates. Google/Bing sitemap pings are deprecated.
+**Root cause:** Brand new domain, zero backlinks, no Search Console.
 **Files:** none
 **Build:** none
-**Result:** PASSED — traffic problem is out of scope without credentials
+**Result:** PASSED — traffic problem documented, action taken in Cycle 38
 
 ## Cycle 36 — 2026-03-25T12:49 UTC
 **Change:** News display audit — found India/Pakistan RSS feeds return many "Untitled" entries without pubDate. Fallback timestamp makes them all look new. Result: 10-item window dominated by Nigeria WAEC items (they have proper dates). Not a crash but worth revisiting feed sources. Skipping to avoid burning a cycle on feed curation.

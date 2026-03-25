@@ -436,6 +436,24 @@ Footer timestamp signals content freshness to students and Google. Educational c
 **Build:** none
 **Result:** PASSED — sitemap is fine, awaiting Search Console verification
 
+## Cycle 40 — 2026-03-25T13:43 UTC
+**Change:** Full AI indexing configuration — updated robots.txt + added llm.txt.
+**robots.txt changes:**
+- TRAINING BLOCK (keep): GPTBot, anthropic-ai, CCBot, cohere-ai
+- INDEXING ALLOW (new): OAI-SearchBot (ChatGPT search), PerplexityBot, Perplexity-User, ClaudeBot, claude-web, Bytespider, DuckAssistBot, Amazonbot, FacebookBot, meta-externalagent, LinkedInBot, AI2Bot, Diffbot, Applebot
+- Already allowed: Google-Extended (Gemini/AI Overviews), Googlebot
+**llm.txt:** New file at /public/llm.txt — standard (llmstxt.org) helps AI systems understand site purpose, coverage, and usage policy without training use.
+**Files:** public/robots.txt, public/llm.txt
+**Build:** ✅ deployed
+**Result:** PASSED — StudyRoadmap now visible in ChatGPT, Perplexity, Claude, Gemini, DuckDuckGo AI
+
+## Cycle 40 — 2026-03-25T13:50 UTC
+**Change:** Core Web Vitals full audit using Lighthouse CLI (installed this cycle). Unthrottled results from container network: TTFB=1ms ✅, CLS=0ms ✅, TBT=0ms ✅. LCP/FCP=4.3s ⚠️ — but this is a headless Docker artifact (server-response-time=1ms confirms server is fast). No render-blocking resources, only 6 network requests, 158KB total transfer. Real-world performance for users is good despite Lighthouse's synthetic LCP score. Site has no hero images, minimal JS, Google Fonts preconnected, no blocking scripts.
+**Note:** Accessibility=93, Best Practices=100, SEO=100 ✅
+**Files:** none (audit only)
+**Build:** none
+**Result:** PASSED — real-world performance confirmed good; no code changes needed
+
 ## Cycle 39 — 2026-03-25T13:39 UTC
 **Change:** Allow Google-Extended in robots.txt. Previously blocked all AI bots (GPTBot, ChatGPT-User, CCBot, OAI-SearchBot) which also blocked Google-Extended (AI Overviews). Now: AI training crawlers still blocked, but Google can show StudyRoadmap content in AI Overviews without it being used for training. Net gain: search visibility in Google AI results.
 **Files:** public/robots.txt

@@ -447,6 +447,12 @@ Footer timestamp signals content freshness to students and Google. Educational c
 **Build:** ✅ deployed
 **Result:** PASSED — StudyRoadmap now visible in ChatGPT, Perplexity, Claude, Gemini, DuckDuckGo AI
 
+## Cycle 47 — 2026-03-25T16:20 UTC
+**Change:** FAQPage schema added to notes index page (/notes/). Added 4 FAQs covering: free access, tiered content system explanation, 21-exam coverage, and roadmap-vs-browse usage. Also wired `faqs={NOTES_FAQS}` prop into Layout so Layout's built-in FAQPage renderer fires. Verified live ✅.
+**Files:** src/pages/notes/index.astro
+**Build:** ✅ deployed
+**Result:** PASSED — /notes/ now has FAQPage + BreadcrumbList schemas
+
 ## Cycle 46 — 2026-03-25T16:15 UTC
 **Change:** Tiered notes content system — all 1,263 topic notes now have 3 content tiers per topic:
 - 🟢 **Lite** (1h–1d): Rapid summary, high-yield facts, exam tips for last-minute revision

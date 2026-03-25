@@ -55,10 +55,40 @@ const breadcrumbJsonLd = {
     { '@type': 'ListItem', position: 2, name: 'Study Notes', item: canonicalUrl },
   ],
 };
+
+const NOTES_FAQS = [
+  {
+    question: 'Are these notes really free?',
+    answer: 'Yes. All StudyRoadmap™ notes are completely free. No account, no email, no subscription required. Open any topic and start studying.',
+  },
+  {
+    question: `How do the notes adapt to my study timeline?`,
+    answer: `Each topic has three content tiers: Quick (1h–1d) for last-minute revision, Standard (2d–2mo) for regular study, and Deep (3mo+) for comprehensive preparation. The notes auto-select the right tier based on the roadmap duration you choose.`,
+  },
+  {
+    question: 'Which exams are covered?',
+    answer: 'Study notes are available for all 21 supported exams: India (NEET, JEE Main, JEE Advanced, UPSC, SSC CGL, CUET, CAT, CLAT, NDA, UGC NET), Pakistan (MDCAT, ECAT, NAT-I, LAT, HAT-UG), and Nigeria (JAMB, WAEC, NECO, NABTEB, NCEE).',
+  },
+  {
+    question: 'Can I access notes without generating a roadmap?',
+    answer: 'Absolutely. You can browse all available notes by exam and subject directly from the notes index. The roadmap helps you prioritise which topics to study first based on exam weightage.',
+  },
+];
+
+const faqJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: NOTES_FAQS.map(f => ({
+    '@type': 'Question',
+    name: f.question,
+    acceptedAnswer: { '@type': 'Answer', text: f.answer },
+  })),
+};
 ---
 
-<Layout title={title} description={description} canonical={canonicalUrl} image={ogImage}>
+<Layout title={title} description={description} canonical={canonicalUrl} image={ogImage} faqs={NOTES_FAQS}>
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
+  <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
   <Navbar />
   <main id="main-content" class="flex-1">
     <section class="bg-surface-50 dark:bg-surface-950 border-b border-surface-200 dark:border-surface-800">

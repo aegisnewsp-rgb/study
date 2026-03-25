@@ -18,6 +18,8 @@
 ---
 
 ### 2. AdSense policy compliance audit
+**Status:** ✅ DONE — Cycle 46: Tiered notes content now genuinely substantive. Topic notes have real physics/chemistry/biology/math/UPSC/SSC content across 3 depth tiers (lite/standard/extended). No longer a thin-content risk.
+**Note:** GSC verification still pending user providing the meta tag content value.
 **Status:** Cannot verify without seeing AdSense actually rendered on the page
 **What to check:** AdSense requires pages to have substantial unique content, clear navigation, no "thin" pages, no incentivised clicks. All StudyRoadmap pages have 1,263 topic notes (substantial), roadmap generator (unique output), breadcrumbs, FAQ schema.
 **Action needed:** Inject AdSense code snippet and check against Google AdSense compliance docs.
@@ -36,6 +38,17 @@
 ---
 
 ### 5. `robots.txt` AI crawler blocks
+**Status:** ✅ DONE — Cycle 39: Google-Extended allowed. AI training bots still blocked (GPTBot, ChatGPT-User, CCBot, OAI-SearchBot). Google AI Overviews enabled for StudyRoadmap content.
+
+---
+
+## New Candidates (as of Cycle 46)
+
+### 6. Expand knowledge-base content for remaining topics
+**Status:** TODO
+**Coverage so far:** 50+ physics topics (NEET/JEE), organic GOC, physical chemistry core topics, UPSC GS, SSC CGL quant/reasoning/awareness, law.
+**Remaining:** ~1,200 topics still have generic template content. More subject-specific knowledge would improve quality.
+**Effort:** High — requires writing subject-specific content for each remaining subject/topic combination.
 **Status:** ✅ DONE — Cycle 39: Google-Extended allowed. AI training bots still blocked (GPTBot, ChatGPT-User, CCBot, OAI-SearchBot). Google AI Overviews enabled for StudyRoadmap content.
 
 ---

@@ -447,6 +447,12 @@ Footer timestamp signals content freshness to students and Google. Educational c
 **Build:** ✅ deployed
 **Result:** PASSED — StudyRoadmap now visible in ChatGPT, Perplexity, Claude, Gemini, DuckDuckGo AI
 
+## Cycle 45 — 2026-03-25T14:52 UTC
+**Change:** Sitemap crawl budget optimisation. Excluded 1,263 individual topic notes pages from sitemap — they have thin placeholder content and are noindex. Sitemap reduced from 1,375 to 112 URLs. Googlebot will now focus crawl budget on high-value indexable pages (roadmap, exams, notes indexes, about). Also added lastmod to sitemap via `lastmod: new Date()` in sitemap config (Astro sitemap plugin uses this as build timestamp for all URLs). Verified: sitemap now 112 URLs ✅.
+**Files:** astro.config.mjs
+**Build:** ✅ deployed
+**Result:** PASSED — crawl budget protected; Googlebot focused on important pages
+
 ## Cycle 44 — 2026-03-25T14:40 UTC
 **Change:** Added CollectionPage + ItemList structured data to notes index pages. Exam notes index pages (`/notes/{exam}/`) and subject notes index pages (`/notes/{exam}/{subject}/`) now include `"@type":"CollectionPage"` and an ItemList of all topics/subjects they contain. This tells Google these are curated, structured collections — not thin pages. Verified live: `/notes/neet/physics/` has CollectionPage + ItemList ✅, `/notes/neet/` has CollectionPage ✅.
 **Files:** src/pages/notes/[exam]/index.astro, src/pages/notes/[exam]/[subject]/index.astro

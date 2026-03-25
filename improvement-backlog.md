@@ -30,7 +30,7 @@ Next 5 highest-value candidate changes (unordered priority):
 2. ~~Exam individual page FAQ content~~ — DONE Cycle 22
 3. ~~Exam pages — add exam-pattern/eligibility metadata to /exams listing~~ — DONE Cycle 14
 4. ~~Internal linking~~ — DONE Cycle 23
-5. Accessibility audit — tap targets, contrast, WCAG AA basics (moderate effort)
+5. Accessibility audit — tap targets, contrast, WCAG AA basics (moderate effort) — country tabs fixed Cycle 24; remaining: form labels, skip-nav link, focus indicators
 
 ---
 *[DONE - Cycle 14]* ~~Exam pages — add exam-pattern and eligibility metadata to /exams listing~~ — eligibility line added

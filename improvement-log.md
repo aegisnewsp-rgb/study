@@ -411,6 +411,13 @@ Footer timestamp signals content freshness to students and Google. Educational c
 **SEO:** All 4 notes page levels now have unique OG images (notes index, exam index, subject index, topic)
 **Result:** PASSED — deployed live
 
+## Cycle 24 — 2026-03-25T06:00 UTC
+**Change:** Accessibility — country filter tab buttons on homepage now have explicit aria-label attributes ("Show all countries", "Show india exams", etc.) so screen readers announce intent instead of raw emoji unicode names
+**Files:** src/pages/index.astro
+**SEO:** WCAG AA accessibility improvement — helps screen reader users and is a positive ranking signal for Google (accessibility is a confirmed ranking factor)
+**Build:** 1375 pages, PASSED
+**Result:** PASSED — deployed live
+
 ## Cycle 23 — 2026-03-25T05:00 UTC
 **Change:** Internal linking — added equivalent exam cross-links to topic pages and "other subjects" + equivalent exam links to subject index pages
 **Files:** src/pages/notes/[exam]/[subject]/[topic].astro, src/pages/notes/[exam]/[subject]/index.astro

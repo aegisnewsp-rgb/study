@@ -192,6 +192,7 @@ const FAQS = [
               <button
                 class="country-tab px-4 py-2 rounded-lg text-sm font-medium transition-all"
                 data-country={c}
+                aria-label={c === 'all' ? 'Show all countries' : `Show ${c} exams`}
               >
                 {c === 'all' ? '🌐 All' : c === 'india' ? '🇮🇳 India' : c === 'pakistan' ? '🇵🇰 Pakistan' : '🇳🇬 Nigeria'}
               </button>

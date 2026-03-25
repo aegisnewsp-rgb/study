@@ -1,10 +1,10 @@
 ---
 exam: rbi-grad-b
-examName: RBI Grade B
+examName: "RBI Grade B"
 subject: quant
-subjectName: None
+subjectName: "None"
 topic: econom-004
-topicName: Consumer Behaviour
+topicName: "Consumer Behaviour"
 weight: 3
 country: rbi
 generated: "2026-03-25T17:00:00"

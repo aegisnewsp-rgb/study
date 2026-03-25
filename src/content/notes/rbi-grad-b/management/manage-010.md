@@ -1,10 +1,10 @@
 ---
 exam: rbi-grad-b
-examName: RBI Grade B
+examName: "RBI Grade B"
 subject: quant
-subjectName: None
+subjectName: "None"
 topic: manage-010
-topicName: Topic 10
+topicName: "Topic 10"
 weight: 3
 country: rbi
 generated: "2026-03-25T17:00:00"

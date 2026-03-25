@@ -1,10 +1,10 @@
 ---
 exam: gate
-examName: GATE
+examName: "GATE"
 subject: quant
-subjectName: Subject Specific
+subjectName: "Subject Specific"
 topic: subjec-009
-topicName: Topic 9
+topicName: "Topic 9"
 weight: 3
 country: gate
 generated: "2026-03-25T17:00:00"

@@ -25,6 +25,7 @@ const { exam, examName, subject, subjectName, topic, topicName, weight, country,
 const title = `${topicName} — ${subjectName} | ${examName} Study Notes`;
 const description = `Free ${topicName} study notes for ${examName}. Covers concept, formulas, problem-solving steps, and a diagram. Part of the ${examName} study roadmap on StudyRoadmap™.`;
 const canonicalUrl = `https://studyroadmap.in/notes/${note.id}`;
+const ogImage = `/og-notes/${exam}-${subject}-${topic}.jpg`;
 const siteUrl = 'https://studyroadmap.in';
 
 // Related notes: same exam + subject, different topic
@@ -84,7 +85,7 @@ const breadcrumbJsonLd = {
 };
 ---
 
-<Layout title={title} description={description} canonical={canonicalUrl} faqs={faqs}>
+<Layout title={title} description={description} canonical={canonicalUrl} image={ogImage} faqs={faqs}>
   <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
   <script type="application/ld+json" set:html={JSON.stringify(orgJsonLd)} />

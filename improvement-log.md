@@ -378,3 +378,16 @@ Footer timestamp signals content freshness to students and Google. Educational c
 **SEO:** Breadcrumbs appear in Google search results as clickable path; supports Google AI Overviews
 **Build:** 1375 pages, PASSED
 **Result:** PASSED — deployed live
+
+## Cycle 17 — 2026-03-24T23:00 UTC
+**Change:** Related exam cross-links — NEET↔MDCAT↔JAMB, JEE↔ECAT, CAT↔JAMB, UPSC↔CSS, SSC CGL↔PTS, CLAT↔LAT, NDA equivalents
+**Files:** src/pages/notes/[exam]/index.astro
+**SEO:** internal links between equivalent exams across countries; helps Google understand exam equivalence
+**Result:** PASSED — deployed live
+
+## Cycle 18 — 2026-03-25T00:03 UTC
+**Change:** Expanded ROADMAP_FAQS from 6 to 12 — added 6 country/exam-specific FAQs covering Indian, Pakistani, and Nigerian exam preparation, plus mobile accessibility and content freshness
+**Files:** src/pages/roadmap.astro
+**SEO:** FAQPage JSON-LD now has 12 Q&A pairs; FAQ-rich results improve Google visibility
+**Build:** 1375 pages, PASSED
+**Result:** PASSED — deployed live

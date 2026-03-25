@@ -21,6 +21,23 @@ const firstNote = examNotes[0];
 const examName = firstNote?.data.examName || exam;
 const flag = { india: '🇮🇳', pakistan: '🇵🇰', nigeria: '🇳🇬' }[firstNote?.data.country] || '🌍';
 
+const EXAM_EQUIVALENTS: Record<string, Array<{id: string, name: string, flag: string}>> = {
+  'neet':       [{id:'mdcat', name:'MDCAT (Pakistan)', flag:'🇵🇰'}, {id:'jamb', name:'JAMB (Nigeria)', flag:'🇳🇬'}],
+  'mdcat':      [{id:'neet', name:'NEET UG (India)', flag:'🇮🇳'}, {id:'jamb', name:'JAMB (Nigeria)', flag:'🇳🇬'}],
+  'jamb':       [{id:'neet', name:'NEET UG (India)', flag:'🇮🇳'}, {id:'mdcat', name:'MDCAT (Pakistan)', flag:'🇵🇰'}],
+  'jee-main':   [{id:'jeadvance', name:'JEE Advanced (India)', flag:'🇮🇳'}, {id:'ecat', name:'ECAT (Pakistan)', flag:'🇵🇰'}],
+  'jeeadvanced':[{id:'jeemain', name:'JEE Main (India)', flag:'🇮🇳'}, {id:'ecat', name:'ECAT (Pakistan)', flag:'🇵🇰'}],
+  'ecat':       [{id:'jeemain', name:'JEE Main (India)', flag:'🇮🇳'}, {id:'jeeadvanced', name:'JEE Advanced (India)', flag:'🇮🇳'}],
+  'cat':        [{id:'jamb', name:'JAMB (Nigeria)', flag:'🇳🇬'}],
+  'clat':       [{id:'lat', name:'LAT (Pakistan)', flag:'🇵🇰'}],
+  'lat':        [{id:'clat', name:'CLAT (India)', flag:'🇮🇳'}],
+  'upsc':       [{id:'css', name:'CSS (Pakistan)', flag:'🇵🇰'}],
+  'ssc-cgl':    [{id:'pts', name:'PTS (Pakistan)', flag:'🇵🇰'}],
+  'nda':        [{id:'js1', name:'JS1 (Nigeria)', flag:'🇳🇬'}],
+};
+const relatedExams = EXAM_EQUIVALENTS[exam] || [];
+
+
 // Group by subject
 const bySubject: Record<string, typeof examNotes> = {}; // eslint-disable-line @typescript-eslint/no-explicit-any
 for (const note of examNotes) {
@@ -102,6 +119,23 @@ const breadcrumbJsonLd = {
           )}
         </div>
       ))}
+    {relatedExams.length > 0 && (
+      <section class="border-t border-surface-200 dark:border-surface-700 pt-10 mt-10">
+        <h2 class="heading-3 text-surface-800 dark:text-surface-100 mb-4">🌍 Related Exams in Other Countries</h2>
+        <p class="text-surface-600 dark:text-surface-400 text-sm mb-5">
+          Similar exams accepted for admissions in {examName}'s equivalent programs abroad.
+        </p>
+        <div class="flex flex-wrap gap-3">
+          {relatedExams.map(rel => (
+            <a href={`/notes/${rel.id}`} class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-surface-100 dark:bg-surface-800 border border-surface-200 dark:border-surface-700 hover:border-brand-300 dark:hover:border-brand-700 text-surface-700 dark:text-surface-300 text-sm transition-all">
+              <span>{rel.flag}</span>
+              <span>{rel.name}</span>
+              <span class="text-surface-400">→</span>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
     </section>
   </main>
   <Footer />

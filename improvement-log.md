@@ -411,6 +411,13 @@ Footer timestamp signals content freshness to students and Google. Educational c
 **SEO:** All 4 notes page levels now have unique OG images (notes index, exam index, subject index, topic)
 **Result:** PASSED — deployed live
 
+## Cycle 25 — 2026-03-25T07:00 UTC
+**Change:** Accessibility — skip navigation link (WCAG 2.1 AA) added to all 10 pages. Hidden by default, visible on keyboard focus (Tab key). Allows keyboard/screen reader users to jump past navigation directly to main content.
+**Files:** src/layouts/Layout.astro (skip link), src/pages/*.astro (id="main-content" on all <main> elements)
+**SEO:** WCAG AA accessibility — confirmed positive signal for Google's ranking algorithms
+**Build:** 1375 pages, PASSED
+**Result:** PASSED — deployed live
+
 ## Cycle 24 — 2026-03-25T06:00 UTC
 **Change:** Accessibility — country filter tab buttons on homepage now have explicit aria-label attributes ("Show all countries", "Show india exams", etc.) so screen readers announce intent instead of raw emoji unicode names
 **Files:** src/pages/index.astro

@@ -118,6 +118,14 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
   </head>
 
   <body class="min-h-screen flex flex-col">
+    <!-- Skip navigation — WCAG 2.1 AA: lets keyboard users jump past nav to main content -->
+    <a
+      href="#main-content"
+      class="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-50 focus:px-4 focus:py-2 focus:bg-brand-600 focus:text-white focus:font-semibold focus:rounded-lg focus:shadow-lg"
+    >
+      Skip to main content
+    </a>
+
     <slot />
   </body>
 </html>

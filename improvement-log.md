@@ -423,6 +423,12 @@ Footer timestamp signals content freshness to students and Google. Educational c
 **Build:** none (no code change — news refresh only)
 **Result:** PASSED
 
+## Cycle 36 — 2026-03-25T12:49 UTC
+**Change:** News display audit — found India/Pakistan RSS feeds return many "Untitled" entries without pubDate. Fallback timestamp makes them all look new. Result: 10-item window dominated by Nigeria WAEC items (they have proper dates). Not a crash but worth revisiting feed sources. Skipping to avoid burning a cycle on feed curation.
+**Files:** none
+**Build:** none
+**Result:** PASSED
+
 ## Cycle 35 — 2026-03-25T12:38 UTC
 **Change:** Fix GitHub issue links in Privacy/Terms — repo is private (404), changed to org URL (github.com/aegisnewsp-rgb → 200 OK)
 **Files:** src/pages/privacy.astro, src/pages/terms.astro

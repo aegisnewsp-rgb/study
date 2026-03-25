@@ -418,6 +418,17 @@ Footer timestamp signals content freshness to students and Google. Educational c
 **Build:** 1375 pages, PASSED
 **Result:** PASSED — deployed live
 
+## Cycle 26 — 2026-03-25T08:00 UTC
+**Change:** Accessibility — focus-visible styles (WCAG 2.1 AA): 2px brand-blue outline on Tab-focusable elements, suppressed for mouse users. Backlog fully refreshed.
+**Files:** src/styles/global.css
+**SEO:** WCAG 2.1 AA keyboard accessibility
+**Result:** PASSED — deployed live
+
+## Cycle 25 — 2026-03-25T07:00 UTC
+**Change:** Accessibility — skip navigation link (WCAG 2.1 AA) on all 10 pages + id="main-content" on all <main> elements
+**Files:** src/layouts/Layout.astro + 10 page files
+**Result:** PASSED — deployed live
+
 ## Cycle 24 — 2026-03-25T06:00 UTC
 **Change:** Accessibility — country filter tab buttons on homepage now have explicit aria-label attributes ("Show all countries", "Show india exams", etc.) so screen readers announce intent instead of raw emoji unicode names
 **Files:** src/pages/index.astro

@@ -418,6 +418,11 @@ Footer timestamp signals content freshness to students and Google. Educational c
 **Build:** 1375 pages, PASSED
 **Result:** PASSED — deployed live
 
+## Cycle 28 — 2026-03-25T11:00 UTC
+**Change:** News refresh + sitemap verification: 1 sitemap index, 1,375 URLs confirmed ✅
+**Build:** none (no code change — news refresh only)
+**Result:** PASSED
+
 ## Cycle 27 — 2026-03-25T10:45 UTC
 **Change:** Mobile tap targets — WCAG 2.1 AA minimum 44×44px applied to all interactive elements (a, button, input, select, label, [role=button], [role=link]) in global.css. Checkboxes/radios exempted for natural sizing.
 **Files:** src/styles/global.css

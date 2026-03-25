@@ -655,3 +655,8 @@ Footer timestamp signals content freshness to students and Google. Educational c
 **SEO:** Each exam page now has exam-specific FAQ schema (eligibility, pattern, attempt limits) for rich SERP entries on high-intent queries
 **Build:** 1375 pages, PASSED
 **Result:** PASSED — deployed live
+
+## Cycle 52 — 2026-03-25T21:18 UTC
+**Change:** Added GATE exam-specific FAQs to roadmap page — 4 FAQs covering exam pattern, General Aptitude section weightage (15 marks universal), GATE score calculation, and paper selection guide.
+**Files:** src/pages/roadmap.astro — added 'gate' FAQ array
+**Result:** PASSED — deployed live, verified GATE FAQs show when exam=gate selected

@@ -436,6 +436,12 @@ Footer timestamp signals content freshness to students and Google. Educational c
 **Build:** none
 **Result:** PASSED — sitemap is fine, awaiting Search Console verification
 
+## Cycle 39 — 2026-03-25T13:39 UTC
+**Change:** Allow Google-Extended in robots.txt. Previously blocked all AI bots (GPTBot, ChatGPT-User, CCBot, OAI-SearchBot) which also blocked Google-Extended (AI Overviews). Now: AI training crawlers still blocked, but Google can show StudyRoadmap content in AI Overviews without it being used for training. Net gain: search visibility in Google AI results.
+**Files:** public/robots.txt
+**Build:** ✅ deployed
+**Result:** PASSED
+
 ## Cycle 38 — 2026-03-25T13:30 UTC
 **Change:** Google Search Console verification tag added + directory audit complete.
 **Search Console:** Added `<meta name="google-site-verification" content="YOUR_VERIFICATION_CODE_HERE">` to Layout.astro head. User must: (1) Go to search.google.com/search-console, (2) Add property studyroadmap.in, (3) Choose "HTML meta tag", (4) Copy the code and give it to me to replace the placeholder.

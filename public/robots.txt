@@ -3,7 +3,7 @@ Allow: /
 
 Sitemap: https://studyroadmap.in/sitemap-index.xml
 
-# Block AI training crawlers
+# Block AI training crawlers (keep Google-Extended allowed for AI Overviews)
 User-agent: GPTBot
 Disallow: /
 User-agent: ChatGPT-User
@@ -12,3 +12,5 @@ User-agent: CCBot
 Disallow: /
 User-agent: OAI-SearchBot
 Disallow: /
+User-agent: Google-Extended
+Allow: /

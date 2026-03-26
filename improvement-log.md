@@ -660,3 +660,17 @@ Footer timestamp signals content freshness to students and Google. Educational c
 **Change:** Added GATE exam-specific FAQs to roadmap page — 4 FAQs covering exam pattern, General Aptitude section weightage (15 marks universal), GATE score calculation, and paper selection guide.
 **Files:** src/pages/roadmap.astro — added 'gate' FAQ array
 **Result:** PASSED — deployed live, verified GATE FAQs show when exam=gate selected
+
+---
+
+## Cycle 53 — 2026-03-26T04:08 UTC
+**Change:** PCM exam notes routing — 15 PCM engineering/medical exams (BITSAT, VITEEE, KCET, MHT-CET, WBJEE, COMEDK, KEAM, GUJCET, UPSEE, AP-EAPCET, TS-EAPCET, AIMER, AIMS, AIIMS-MBBS, AIIMS-BDS) now route to existing notes pools instead of showing "Soon" badge.
+
+- Physics topics → `neet/physics/` (29 topics covering all PCM physics)
+- Chemistry topics → `jeemain/chemistry/` (28 topics)
+- Mathematics topics → `jeeadvanced/mathematics/` (28 topics)
+- Biology topics → `neet/` (botany/zoology)
+
+**Files:** `src/components/RoadmapApp.tsx` — added `PCM_EXAM_SUBJECT_ROUTING` map + `getPcmNotesPool()` helper + updated SubjectAccordion notes link to route PCM topics to nearest existing pool
+**Build:** 3,191 pages ✅ deployed
+**Result:** PASSED — PCM routing map verified live in JS bundle (`bitsat`, `mht-cet`, routing to neet/jeeadvanced/jeemain confirmed in RoadmapApp bundle)

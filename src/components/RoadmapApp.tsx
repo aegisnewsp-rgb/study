@@ -16,6 +16,35 @@ function hasNotes(examId: string): boolean {
   return !NOTES_PENDING_EXAMS.has(examId.toLowerCase());
 }
 
+// PCM exam → existing notes pool routing
+// Maps PCM exam ID → subject ID → notes pool (exam ID) to use
+const PCM_EXAM_SUBJECT_ROUTING: Record<string, Record<string, string>> = {
+  bitsat:    { physics: 'neet', mathematics: 'jeeadvanced', chemistry: 'jeemain' },
+  viteee:    { physics: 'neet', mathematics: 'jeeadvanced', chemistry: 'jeemain' },
+  'mht-cet': { physics: 'neet', mathematics: 'jeeadvanced', chemistry: 'jeemain' },
+  kcet:      { physics: 'neet', mathematics: 'jeeadvanced', chemistry: 'jeemain', biology: 'neet' },
+  wbjee:     { physics: 'neet', mathematics: 'jeeadvanced', chemistry: 'jeemain', biology: 'neet' },
+  comedk:    { physics: 'neet', mathematics: 'jeeadvanced', chemistry: 'jeemain' },
+  keam:      { physics: 'neet', mathematics: 'jeeadvanced', chemistry: 'jeemain' },
+  gujcet:    { physics: 'neet', mathematics: 'jeeadvanced', chemistry: 'jeemain' },
+  upsee:     { physics: 'neet', mathematics: 'jeeadvanced', chemistry: 'jeemain' },
+  'ap-eapcet': { physics: 'neet', mathematics: 'jeeadvanced', chemistry: 'jeemain' },
+  'ts-eapcet': { physics: 'neet', mathematics: 'jeeadvanced', chemistry: 'jeemain' },
+  aimer:     { physics: 'neet', biology: 'neet', chemistry: 'jeemain' },
+  aims:      { physics: 'neet', biology: 'neet', chemistry: 'jeemain' },
+  'aiims-mbbs': { physics: 'neet', biology: 'neet', chemistry: 'jeemain' },
+  'aiims-bds':  { physics: 'neet', biology: 'neet', chemistry: 'jeemain' },
+};
+
+// Returns {notesExamId, notesSubjectId} for a PCM exam topic, or null if not routable
+function getPcmNotesPool(examId: string, subjectId: string): { exam: string; subject: string } | null {
+  const examRouting = PCM_EXAM_SUBJECT_ROUTING[examId.toLowerCase()];
+  if (!examRouting) return null;
+  const pool = examRouting[subjectId.toLowerCase()];
+  if (!pool) return null;
+  return { exam: pool, subject: subjectId };
+}
+
 interface Props {
   exams: ExamTemplate[];
 }
@@ -161,9 +190,35 @@ function SubjectAccordion({
                   <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
                 </svg>
               </a>
-              ) : (
-                <span className="shrink-0 text-xs text-surface-400 dark:text-surface-600" title="Notes coming soon">Soon</span>
-              )}
+              ) : (() => {
+                const pool = getPcmNotesPool(examId, subjectId);
+                return pool ? (
+                  <a
+                    href={`/notes/${pool.exam}/${pool.subject}/${topic.id}?duration=${selectedDuration}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="shrink-0 text-brand-600 dark:text-brand-400 hover:text-brand-500 dark:hover:text-brand-300 transition-colors"
+                    aria-label={`Open ${pool.exam} ${pool.subject} notes for ${topic.name} (routed from ${examId})`}
+                    title={`View ${pool.exam} ${pool.subject} notes`}
+                    onClick={() => {
+                      if (selectedDuration) {
+                        const tierMap: Record<string, string> = {
+                          '1h':'lite','2h':'lite','3h':'lite','5h':'lite','12h':'lite','1d':'lite',
+                          '2d':'standard','3d':'standard','5d':'standard','7d':'standard','10d':'standard','2w':'standard','1mo':'standard',
+                          '2mo':'extended','3mo':'extended','6mo':'extended','1yr':'extended','2yr':'extended',
+                        };
+                        try { localStorage.setItem('sr_tier', tierMap[selectedDuration] || 'standard'); } catch(e) {}
+                      }
+                    }}
+                  >
+                    <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
+                    </svg>
+                  </a>
+                ) : (
+                  <span className="shrink-0 text-xs text-surface-400 dark:text-surface-600" title="Notes coming soon">Soon</span>
+                );
+              })()}
               <WeightStars weight={topic.weight} />
             </div>
           ))}

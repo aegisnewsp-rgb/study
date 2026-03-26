@@ -663,6 +663,14 @@ Footer timestamp signals content freshness to students and Google. Educational c
 
 ---
 
+## Cycle 58 — 2026-03-26T05:18 UTC
+**Change:** Fixed stale "20+" in meta description (`index.astro` line 19) — `desc:` field now says "21+ competitive exams" instead of "20+". All "21+" references now consistent across: Layout title, homepage title, meta description, hero text, about page.
+**Files:** `src/pages/index.astro`
+**Live test:** `curl https://studyroadmap.in/` → "Select from 21+ competitive" and `content="...21+ competitive exams..."` ✅
+**Result:** PASSED
+
+---
+
 ## Cycle 56 — 2026-03-26T04:36 UTC
 **Change:** Expanded llm.txt — added `## Date: 2026-03-26` (required by llmstxt.org spec), added GRE exam to coverage list, expanded subject areas section, added licensing and GitHub contact. File now fully compliant with llmstxt.org standard.
 **Files:** `public/llm.txt`

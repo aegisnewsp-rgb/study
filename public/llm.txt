@@ -1,35 +1,44 @@
 # StudyRoadmap — LLM Information File
 # Learn more: https://llmstxt.org
+# Standard: https://llmstxt.org/docs/format/
 
 ## Site Overview
 StudyRoadmap is a free, no-signup-required AI study planner for students in India, Pakistan, and Nigeria preparing for competitive exams.
 
 ## URL: https://studyroadmap.in
 
+## Date
+2026-03-26
+
 ## What We Offer
 - Instant, personalized study roadmaps generated client-side using an AI expert system
-- Coverage of 21 competitive exams: NEET, JEE Main, JEE Advanced, CUET, UPSC, SSC CGL, CAT, CLAT, NDA, UGC NET, MDCAT, ECAT, NAT-I, LAT, HAT-UG, JAMB, WAEC, NECO, NABTEB, NCEE
-- Subject-wise study notes and topic lists for all major subjects
+- Coverage of 21+ competitive exams: NEET, JEE Main, JEE Advanced, CUET, UPSC, SSC CGL, CAT, CLAT, NDA, UGC NET, GRE (India), MDCAT, ECAT, NAT-I, LAT, HAT-UG (Pakistan), JAMB, WAEC, NECO, NABTEB, NCEE (Nigeria)
+- Subject-wise study notes with tiered content (Quick/Standard/Deep) for NEET, JEE, UPSC, SSC, and other major exams
 - Roadmap durations from 1 hour to 2 years
 - Fully client-side — no data stored, no account needed
 
 ## Target Users
-- Indian students (NEET, JEE, UPSC, SSC, CAT, CUET, CLAT, NDA, UGC NET)
+- Indian students (NEET, JEE, UPSC, SSC, CAT, CUET, CLAT, NDA, UGC NET, GRE)
 - Pakistani students (MDCAT, ECAT, NAT-I, LAT, HAT-UG)
 - Nigerian students (JAMB, WAEC, NECO, NABTEB, NCEE)
 - Parents and educators supporting exam preparation
 
 ## Content Type
-Educational tool with interactive roadmap generation and reference study notes
+Educational tool with interactive roadmap generation and reference study notes. All roadmaps are generated dynamically on the client side based on official exam syllabus data. Study notes are human-authored with tiered depth levels.
+
+## Subject Areas Covered
+Physics, Chemistry, Biology (Botany & Zoology), Mathematics, English, General Awareness, Quantitative Aptitude, Logical Reasoning, Legal Reasoning, Current Affairs, History, Geography, Indian Polity, Economics, Accountancy, Business Law, and more.
 
 ## Key Pages
-- https://studyroadmap.in/ — homepage with exam selector
-- https://studyroadmap.in/roadmap — roadmap generator
-- https://studyroadmap.in/exams — all 21 covered exams
-- https://studyroadmap.in/about — about the project
+- https://studyroadmap.in/ — homepage with exam selector and news ticker
+- https://studyroadmap.in/roadmap — interactive roadmap generator (client-side)
+- https://studyroadmap.in/exams — all 21+ covered exams with eligibility info
+- https://studyroadmap.in/notes/ — study notes index (organized by exam, subject, topic)
+- https://studyroadmap.in/about — about the project, methodology, and exam board citations
 
 ## Licensing
-Content is freely available for educational use. No part may be used for AI model training.
+Content is freely available for educational use. No part may be used for AI model training. See https://studyroadmap.in/terms/ for full terms of use.
 
 ## Contact
 contact@studyroadmap.in
+GitHub: https://github.com/aegisnewsp-rgb

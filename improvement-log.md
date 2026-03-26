@@ -663,6 +663,14 @@ Footer timestamp signals content freshness to students and Google. Educational c
 
 ---
 
+## Cycle 56 — 2026-03-26T04:36 UTC
+**Change:** Expanded llm.txt — added `## Date: 2026-03-26` (required by llmstxt.org spec), added GRE exam to coverage list, expanded subject areas section, added licensing and GitHub contact. File now fully compliant with llmstxt.org standard.
+**Files:** `public/llm.txt`
+**Tests run:** Live verification — `## Date` field confirmed in served llm.txt ✅
+**Result:** PASSED — llm.txt now spec-compliant and informative for AI systems
+
+---
+
 ## Cycle 55 — 2026-03-26T04:27 UTC
 **Change:** FAQPage JSON-LD added to /about page — 5 questions about the tool (what it is, how it works, data privacy, accuracy, exam coverage). Schema expands FAQ rich results surface area to all 4 key pages: homepage (5 Qs), exams (6 Qs), roadmap (12 Qs), about (5 Qs).
 **Files:** `src/pages/about.astro` — added `ABOUT_FAQS` array + passed to Layout as `faqs` prop

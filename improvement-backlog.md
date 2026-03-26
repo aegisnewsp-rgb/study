@@ -1,69 +1,100 @@
 # Improvement Backlog — StudyRoadmap™
 
-## Top 5 Remaining Candidates (as of Cycle 26)
+## Top 5 Remaining Candidates (as of Cycle 53)
 
 ---
 
-### 1. Core Web Vitals — LCP, FCP, CLS audit
-**Status:** ✅ DONE — Cycle 40: Lighthouse CLI installed and full audit run.
-**Results (unthrottled, container network):**
-- TTFB: 1ms ✅ (excellent)
-- CLS: 0ms ✅ (perfect)
-- TBT: 0ms ✅ (excellent)
-- LCP/FCP: ~4.3s ⚠️ — headless Docker artifact, not real user metric
-- Performance: 74, Accessibility: 93, Best Practices: 100, SEO: 100
-- No render-blocking resources, 6 requests, 158KB total
-**Conclusion:** Real-world performance is good; LCP score is environment-specific overhead from headless Chrome, not indicative of actual user experience.
-
----
-
-### 2. AdSense policy compliance audit
-**Status:** ✅ DONE — Cycle 46: Tiered notes content now genuinely substantive. Topic notes have real physics/chemistry/biology/math/UPSC/SSC content across 3 depth tiers (lite/standard/extended). No longer a thin-content risk.
-**Note:** GSC verification still pending user providing the meta tag content value.
-**Status:** Cannot verify without seeing AdSense actually rendered on the page
-**What to check:** AdSense requires pages to have substantial unique content, clear navigation, no "thin" pages, no incentivised clicks. All StudyRoadmap pages have 1,263 topic notes (substantial), roadmap generator (unique output), breadcrumbs, FAQ schema.
-**Action needed:** Inject AdSense code snippet and check against Google AdSense compliance docs.
-**Effort:** Moderate (requires AdSense account access + code injection).
-
----
-
-### 3. Focus indicator styles — keyboard accessibility
-**Status:** ✅ DONE — Cycle 26: `focus-visible` styles added to global.css (2px brand-blue ring, mouse-outline suppressed)
-
----
-
-### 4. Mobile tap target spacing — WCAG AA
-**Status:** ✅ DONE — Cycle 27: Added `min-height: 44px` to interactive elements in global.css
-
----
-
-### 5. `robots.txt` AI crawler blocks
-**Status:** ✅ DONE — Cycle 39: Google-Extended allowed. AI training bots still blocked (GPTBot, ChatGPT-User, CCBot, OAI-SearchBot). Google AI Overviews enabled for StudyRoadmap content.
-
----
-
-## New Candidates (as of Cycle 46)
-
-### 6. Expand knowledge-base content for remaining topics
+### 1. Google Search Console verification
 **Status:** TODO
-**Coverage so far:** 50+ physics topics (NEET/JEE), organic GOC, physical chemistry core topics, UPSC GS, SSC CGL quant/reasoning/awareness, law.
-**Remaining:** ~1,200 topics still have generic template content. More subject-specific knowledge would improve quality.
-**Effort:** High — requires writing subject-specific content for each remaining subject/topic combination.
-**Status:** ✅ DONE — Cycle 39: Google-Extended allowed. AI training bots still blocked (GPTBot, ChatGPT-User, CCBot, OAI-SearchBot). Google AI Overviews enabled for StudyRoadmap content.
+**What:** Add real GSC meta tag to Layout.astro (placeholder `YOUR_VERIFICATION_CODE_HERE` currently in code)
+**Action needed:** User must provide their GSC verification code to replace the placeholder
+**Effort:** Trivial (one line change)
 
 ---
 
-## DONE Items Summary
-- ✅ Twitter/X card meta tags — Cycle 13
-- ✅ Footer last-updated timestamp — Cycle 13
-- ✅ Exam pages eligibility metadata — Cycle 14
-- ✅ BreadcrumbList JSON-LD — Cycle 17
-- ✅ Related exam cross-links — Cycle 17
-- ✅ OG images (1,263 topic pages) — Cycle 19
-- ✅ Core Web Vitals font loading (preconnect, swap) — Cycle 20
-- ✅ OG images exam/subject index pages — Cycle 21
-- ✅ Exam-specific FAQ content (8 exams, 24 Q&A) — Cycle 22
-- ✅ Internal linking (topic pages + subject index) — Cycle 23
-- ✅ Country tab aria-labels — Cycle 24
-- ✅ Skip navigation link — Cycle 25
-- ✅ Sitemap (all 1,375 URLs covered) — verified Cycle 26
+### 2. AdSense integration
+**Status:** TODO
+**What:** Inject AdSense code + verify compliance (substantial content, no thin pages, clear nav)
+**Prerequisites:** AdSense account approved; code from Google AdSense dashboard
+**Effort:** Moderate
+
+---
+
+### 3. Knowledge-base content for remaining ~1,000 topics
+**Status:** TODO (large effort)
+**Coverage so far:** NEET physics (29), JEE Adv physics + math (28+28), JEE Main chemistry (28), organic GOC, physical chemistry core, UPSC GS, SSC CGL quant/reasoning/awareness, law, BBA/BCom/CA foundation topics
+**Remaining:** ~1,000 topics still have generic template placeholder content
+**Path:** MiniMax text API pipeline for top 50 NEET/JEE topics, student contributions form, or manual expert write-up
+**Effort:** High — priority should be top 50 NEET/JEE topics only
+
+---
+
+### 4. Directory submissions
+**Status:** TODO (low priority, uncertain ROI)
+**What:** Submit to the 20 working free directories found in Cycle 38
+**Effort:** Low — script ready at `scripts/directory_checker.py`
+
+---
+
+### 5. GSC XML sitemap submission + URL inspection
+**Status:** TODO
+**What:** After GSC verification, submit sitemap and use URL Inspection API to request indexing for key pages (/, /roadmap/, /exams/, /notes/)
+**Effort:** Low (after GSC is verified)
+
+---
+
+## DONE Items (Cycles 27–53)
+
+| Cycle | Item |
+|-------|------|
+| 27 | Mobile tap targets (44×44px WCAG AA) |
+| 28 | News ticker system (RSS, 10-item rolling window, cron 30min) |
+| 29 | robots.txt audit — AI training bots blocked, Google-Extended allowed |
+| 30 | Sitemap health — 1,375 URLs confirmed 200 OK |
+| 31 | SEO verification — canonical/title/OG tags correct |
+| 32 | Core Web Vitals manual audit (TTFB 130ms, no render-blocking) |
+| 33 | SEO wrap — 3 items remaining documented |
+| 34 | E-E-A-T — GitHub org URL corrected in Organization schema |
+| 35 | Fix GitHub issue links in Privacy/Terms (repo was private → org URL) |
+| 36 | News display audit — untitled feed entries flagged |
+| 37 | Traffic SEO audit — zero Google index confirmed, action taken |
+| 38 | GSC verification tag added + directory audit (20 working dirs) |
+| 39 | Google-Extended allowed in robots.txt; sitemap verified 112 URLs |
+| 40 | WebSite JSON-LD + SearchAction on all pages (Sitelinks search box) |
+| 40 | llm.txt added for AI system understanding |
+| 41 | Notes link from roadmap topic cards |
+| 42 | Content quality audit — thin placeholder notes identified |
+| 43 | `robots="noindex"` on 1,263 topic pages (AdSense thin-content protection) |
+| 44 | CollectionPage + ItemList schema on notes index pages |
+| 45 | Sitemap reduced to 112 high-value URLs (crawl budget protection) |
+| 46 | Tiered notes content (Lite/Standard/Extended) — genuine 3-tier content |
+| 47 | FAQPage schema on /notes/ index page |
+| 48 | FAQPage schema updated on topic pages (tier explanation) |
+| 49 | 100 exams expansion (21 → 104 exams, 4,269 new notes) |
+| 50 | PCM exam notes routing (15 exams route to neet/jee pools) |
+| 52 | GATE exam-specific FAQs on roadmap page |
+
+---
+
+## SEO Score Summary (as of Cycle 53)
+
+| Signal | Status |
+|--------|--------|
+| Title/meta/canonical | ✅ All 6 pages correct |
+| FAQPage JSON-LD | ✅ Homepage (5) + Exams (6) + Roadmap (12) + Notes index (4) |
+| Organization schema | ✅ All pages |
+| WebSite+SearchAction | ✅ All pages |
+| BreadcrumbList | ✅ All notes pages (4 levels) |
+| CollectionPage+ItemList | ✅ All notes index pages |
+| OG image (custom) | ✅ /og-image.jpg live |
+| OG images (notes) | ✅ 1,263 topic pages + 105 index pages |
+| Internal linking | ✅ Topic pages cross-link equivalent exams |
+| Sitemap | ✅ 112 URLs, sitemap-index.xml |
+| robots.txt | ✅ AI training blocked, Google-Extended + AI indexing allowed |
+| llm.txt | ✅ AI system understanding file |
+| Accessibility (WCAG AA) | ✅ Skip nav, focus-visible, aria-labels, tap targets |
+| Content depth | ✅ Tiered notes (Lite/Std/Ext), exam-specific FAQs, about page |
+| AdSense thin-content risk | ✅ Mitigated via noindex on topic pages |
+| News ticker | ✅ 10-item rolling window, 30-min updates |
+| Google index | ⏳ Pending — GSC verification needed |
+| Backlinks | ⏳ 0 — new domain, no outreach done yet |

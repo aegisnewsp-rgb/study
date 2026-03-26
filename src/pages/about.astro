@@ -11,11 +11,35 @@ const EXAM_STATS = [
   { value: '200+', label: 'Topics', sub: 'Syllabus-mapped & weighted' },
   { value: '100%', label: 'Free', sub: 'No signup, no fees' },
 ];
+
+const ABOUT_FAQS = [
+  {
+    question: 'What is StudyRoadmap?',
+    answer: 'StudyRoadmap is a free AI-powered study planning tool for students in India, Pakistan, and Nigeria. It generates instant, personalised study roadmaps for 21 competitive exams — including NEET, JEE, UPSC, MDCAT, JAMB, and WAEC. Simply select your exam, choose your available preparation time, and get a structured daily study plan based on official syllabus topic weightings.',
+  },
+  {
+    question: 'How does the roadmap algorithm work?',
+    answer: 'Every exam topic is assigned a weight based on its share of the total syllabus and its importance in previous exam papers. When you generate a roadmap, our algorithm selects the highest-weight topics that fit within your chosen time window, then sequences them for optimal learning progression — covering fundamentals before advanced topics, and interleaving related concepts where appropriate.',
+  },
+  {
+    question: 'Is my data saved when I use StudyRoadmap?',
+    answer: 'No. StudyRoadmap stores everything locally in your browser using localStorage. Your exam choices, roadmap data, and study preferences never leave your device and are never sent to any server. There is no account system, no database, and no tracking. Clearing your browser data removes all stored information.',
+  },
+  {
+    question: 'How accurate are the study roadmaps?',
+    answer: 'Roadmaps are generated from publicly available official syllabus data published by exam conducting bodies (NTA for NEET/JEE, UPSC for civil services, JAMB for Nigerian exams, etc.). Topic weights are derived from historical exam pattern analysis. While roadmaps are a valuable planning aid, always cross-check with the latest official syllabus and your institution or coaching provider.',
+  },
+  {
+    question: 'Which countries and exams does StudyRoadmap support?',
+    answer: 'StudyRoadmap covers India (NEET, JEE Main, JEE Advanced, CUET, UPSC, SSC CGL, CAT, CLAT, NDA, UGC NET, GRE), Pakistan (MDCAT, ECAT, NAT-I, LAT, HAT-UG), and Nigeria (JAMB, WAEC, NECO, NABTEB, NCEE) — 21 exams across 3 countries.',
+  },
+];
 ---
 
 <Layout
   title="About StudyRoadmap™ — Free AI Study Plans"
   description="Learn about StudyRoadmap™ — a free planning tool for students across India, Pakistan, and Nigeria preparing for competitive exams."
+  faqs={ABOUT_FAQS}
 >
   <Navbar />
 

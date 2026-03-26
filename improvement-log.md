@@ -663,6 +663,18 @@ Footer timestamp signals content freshness to students and Google. Educational c
 
 ---
 
+## Cycle 54 — 2026-03-26T04:18 UTC
+**Change:** Stale "20+" → "21+" copy fix across 4 locations (GRE added in Cycle 50 made it 21 exams):
+- `src/layouts/Layout.astro` — default page title
+- `src/pages/index.astro` — `<Layout>` title prop + meta description
+- `src/pages/index.astro` — hero subheading
+- `src/pages/about.astro` — about page body text
+
+**Also:** Refreshed improvement-backlog.md — all cycles 27–53 documented, top 5 remaining candidates identified.
+**Result:** Live test PASSED — `<title>` and `og:title` both now say "21+ Exams" ✅
+
+---
+
 ## Cycle 53 — 2026-03-26T04:08 UTC
 **Change:** PCM exam notes routing — 15 PCM engineering/medical exams (BITSAT, VITEEE, KCET, MHT-CET, WBJEE, COMEDK, KEAM, GUJCET, UPSEE, AP-EAPCET, TS-EAPCET, AIMER, AIMS, AIIMS-MBBS, AIIMS-BDS) now route to existing notes pools instead of showing "Soon" badge.
 

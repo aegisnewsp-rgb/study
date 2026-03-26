@@ -663,6 +663,15 @@ Footer timestamp signals content freshness to students and Google. Educational c
 
 ---
 
+## Cycle 55 — 2026-03-26T04:27 UTC
+**Change:** FAQPage JSON-LD added to /about page — 5 questions about the tool (what it is, how it works, data privacy, accuracy, exam coverage). Schema expands FAQ rich results surface area to all 4 key pages: homepage (5 Qs), exams (6 Qs), roadmap (12 Qs), about (5 Qs).
+**Files:** `src/pages/about.astro` — added `ABOUT_FAQS` array + passed to Layout as `faqs` prop
+**Tests run:** `npm run build` → PASSES, 3191 pages
+**Live test:** `curl https://studyroadmap.in/about/` → FAQPage JSON-LD with "What is StudyRoadmap?" ✅
+**Result:** PASSED — 28 total FAQ Q&As now live across 4 pages
+
+---
+
 ## Cycle 54 — 2026-03-26T04:18 UTC
 **Change:** Stale "20+" → "21+" copy fix across 4 locations (GRE added in Cycle 50 made it 21 exams):
 - `src/layouts/Layout.astro` — default page title

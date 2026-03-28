@@ -1,0 +1,201 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const ogTitle = 'Help Improve StudyRoadmap';
+const ogDescription = 'Report errors, suggest topics, or contribute to StudyRoadmap study notes.';
+---
+
+<Layout title={ogTitle} description={ogDescription}>
+  <main id="main-content" class="container-page py-16 max-w-2xl">
+    <div class="text-center mb-10">
+      <div class="inline-flex items-center justify-center w-14 h-14 rounded-full bg-brand-100 dark:bg-brand-900/30 mb-4">
+        <svg class="w-7 h-7 text-brand-600" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+          <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v3.75m9-.75a9 9 0 11-18 0 9 9 0 0118 0zm-9 3.75h.008v.008H12v-.008z" />
+        </svg>
+      </div>
+      <h1 class="text-3xl font-bold text-surface-900 dark:text-white mb-3">Help Improve StudyRoadmap</h1>
+      <p class="text-surface-600 dark:text-surface-400 leading-relaxed">
+        Found a mistake, missing topic, or have a suggestion? Students like you help make these notes better for everyone.
+      </p>
+    </div>
+
+    <!-- NOTE: Replace formId below with your Formspree form ID after registering at formspree.io -->
+    <!-- Or change to mailto:contact@studyroadmap.in if you prefer email-based feedback -->
+    <form
+      id="feedback-form"
+      action="https://formspree.io/f/REPLACE_WITH_FORMSPREE_ID"
+      method="POST"
+      class="space-y-5"
+    >
+      <input type="hidden" name="_subject" value="[StudyRoadmap Feedback]" />
+      <input type="hidden" name="_redirect" value="/feedback?sent=1" />
+
+      <!-- Page URL -->
+      <div>
+        <label for="page_url" class="block text-sm font-medium text-surface-700 dark:text-surface-300 mb-1.5">
+          Page URL <span class="text-surface-400 text-xs">(where you found the issue)</span>
+        </label>
+        <input
+          type="url"
+          id="page_url"
+          name="page_url"
+          placeholder="https://studyroadmap.in/roadmap/?exam=neet"
+          required
+          class="w-full rounded-lg border border-surface-300 dark:border-surface-700 bg-white dark:bg-surface-900 px-4 py-2.5 text-surface-900 dark:text-white placeholder-surface-400 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent transition-colors"
+        />
+      </div>
+
+      <!-- Feedback type -->
+      <div>
+        <label for="feedback_type" class="block text-sm font-medium text-surface-700 dark:text-surface-300 mb-1.5">
+          Type of feedback
+        </label>
+        <select
+          id="feedback_type"
+          name="feedback_type"
+          required
+          class="w-full rounded-lg border border-surface-300 dark:border-surface-700 bg-white dark:bg-surface-900 px-4 py-2.5 text-surface-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent transition-colors"
+        >
+          <option value="" disabled selected>Select a type...</option>
+          <option value="typo">Typo or grammatical error</option>
+          <option value="inaccuracy">Factual inaccuracy</option>
+          <option value="missing_topic">Missing topic or content</option>
+          <option value="outdated">Outdated information</option>
+          <option value="clarity">Unclear explanation</option>
+          <option value="suggestion">Content suggestion</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+
+      <!-- Exam/Subject (optional) -->
+      <div>
+        <label for="exam_subject" class="block text-sm font-medium text-surface-700 dark:text-surface-300 mb-1.5">
+          Exam & Subject <span class="text-surface-400 text-xs">(optional — e.g. NEET Physics, JAMB Biology)</span>
+        </label>
+        <input
+          type="text"
+          id="exam_subject"
+          name="exam_subject"
+          placeholder="NEET Physics — Laws of Motion"
+          class="w-full rounded-lg border border-surface-300 dark:border-surface-700 bg-white dark:bg-surface-900 px-4 py-2.5 text-surface-900 dark:text-white placeholder-surface-400 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent transition-colors"
+        />
+      </div>
+
+      <!-- Description -->
+      <div>
+        <label for="description" class="block text-sm font-medium text-surface-700 dark:text-surface-300 mb-1.5">
+          Describe the issue or your suggestion
+        </label>
+        <textarea
+          id="description"
+          name="description"
+          rows={5}
+          placeholder="Found an error in the Laws of Motion notes — the formula for impulse is incorrect. It should be J = F·Δt, not J = m·v..."
+          required
+          class="w-full rounded-lg border border-surface-300 dark:border-surface-700 bg-white dark:bg-surface-900 px-4 py-2.5 text-surface-900 dark:text-white placeholder-surface-400 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent transition-colors resize-none"
+        ></textarea>
+      </div>
+
+      <!-- Your email (optional) -->
+      <div>
+        <label for="email" class="block text-sm font-medium text-surface-700 dark:text-surface-300 mb-1.5">
+          Your email <span class="text-surface-400 text-xs">(optional — only if you want us to follow up)</span>
+        </label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="student@example.com"
+          class="w-full rounded-lg border border-surface-300 dark:border-surface-700 bg-white dark:bg-surface-900 px-4 py-2.5 text-surface-900 dark:text-white placeholder-surface-400 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent transition-colors"
+        />
+      </div>
+
+      <button
+        type="submit"
+        class="w-full sm:w-auto px-6 py-3 bg-brand-600 hover:bg-brand-700 text-white font-medium rounded-lg transition-colors focus:outline-none focus:ring-2 focus:ring-brand-500 focus:ring-offset-2 dark:focus:ring-offset-surface-950"
+      >
+        Submit Feedback
+      </button>
+
+      <p class="text-xs text-surface-400 dark:text-surface-500 leading-relaxed">
+        We read every submission and use student feedback to improve notes quality. Reports of factual errors are prioritised.
+      </p>
+    </form>
+
+    <!-- Success state -->
+    <div id="feedback-success" class="hidden text-center py-10">
+      <div class="inline-flex items-center justify-center w-14 h-14 rounded-full bg-green-100 dark:bg-green-900/30 mb-4">
+        <svg class="w-7 h-7 text-green-600" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+          <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+      </div>
+      <h2 class="text-2xl font-bold text-surface-900 dark:text-white mb-2">Thank you!</h2>
+      <p class="text-surface-600 dark:text-surface-400 mb-6">
+        Your feedback helps improve StudyRoadmap for thousands of students. We read every submission.
+      </p>
+      <a href="/" class="inline-flex items-center gap-2 text-brand-600 hover:text-brand-500 font-medium">
+        <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+          <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 15.75L3 12m0 0l3.75-3.75m-3.75 3.75h15.75" />
+        </svg>
+        Back to homepage
+      </a>
+    </div>
+
+    <!-- FAQ -->
+    <div class="mt-14 pt-8 border-t border-surface-200 dark:border-surface-800">
+      <h2 class="text-lg font-semibold text-surface-900 dark:text-white mb-4">Frequently Asked Questions</h2>
+      <div class="space-y-4">
+        <details class="group">
+          <summary class="flex items-center justify-between cursor-pointer text-surface-700 dark:text-surface-300 font-medium">
+            What happens after I submit feedback?
+            <svg class="w-4 h-4 text-surface-400 group-open:rotate-180 transition-transform" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+            </svg>
+          </summary>
+          <p class="mt-2 text-surface-600 dark:text-surface-400 text-sm leading-relaxed">
+            We review all submissions and prioritise factual errors and missing content. Corrections are typically applied within 1–2 weeks. If your suggestion is implemented, you contribute to helping thousands of future students.
+          </p>
+        </details>
+        <details class="group">
+          <summary class="flex items-center justify-between cursor-pointer text-surface-700 dark:text-surface-300 font-medium">
+            Can I submit notes I have from my coaching institute?
+            <svg class="w-4 h-4 text-surface-400 group-open:rotate-180 transition-transform" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+            </svg>
+          </summary>
+          <p class="mt-2 text-surface-600 dark:text-surface-400 text-sm leading-relaxed">
+            If you have detailed study notes for any topic that would help other students, share them! We can't accept copyrighted material from paid courses, but original notes from your own preparation are welcome. Include your name if you'd like to be credited.
+          </p>
+        </details>
+        <details class="group">
+          <summary class="flex items-center justify-between cursor-pointer text-surface-700 dark:text-surface-300 font-medium">
+            Why are some exam notes marked as "Coming soon"?
+            <svg class="w-4 h-4 text-surface-400 group-open:rotate-180 transition-transform" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+            </svg>
+          </summary>
+          <p class="mt-2 text-surface-600 dark:text-surface-400 text-sm leading-relaxed">
+            We are actively expanding coverage. PCM engineering exam topics (BITSAT, VITEEE, KCET, etc.) currently route to NEET/JEE study notes — these are the same physics, chemistry, and mathematics topics covered in those exams. Medical and UPSC exam notes have the deepest coverage.
+          </p>
+        </details>
+      </div>
+    </div>
+  </main>
+</Layout>
+
+<script>
+  // Handle URL param to show success state
+  if (typeof window !== 'undefined') {
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('sent') === '1') {
+      document.getElementById('feedback-form')?.classList.add('hidden');
+      document.getElementById('feedback-success')?.classList.remove('hidden');
+    }
+
+    // Pre-fill page URL if coming from a site page
+    const pageUrlInput = document.getElementById('page_url') as HTMLInputElement;
+    if (pageUrlInput && !pageUrlInput.value) {
+      pageUrlInput.value = document.referrer || '';
+    }
+  }
+</script>

@@ -43,6 +43,27 @@
 
 ---
 
+### 6. Formspree setup for feedback form
+**Status:** TODO (blocked on user action)
+**What:** Replace `REPLACE_WITH_FORMSPREE_ID` in `src/pages/feedback.astro` with actual Formspree form ID
+**Action needed:** User signs up at formspree.io (free tier), creates a form, pastes the form ID
+**Effort:** Trivial (one string change)
+
+---
+
+### 🚨 Deploy service unresponsive
+**Status:** BLOCKED — container/VPS issue
+**What:** Deploy webhook at `172.17.0.1:9000` hanging/timeouting. Site returning 404.
+**Action needed:** SSH to VPS, check `docker ps -a` for studyroadmap container, restart container if needed:
+  ```bash
+  ssh user@YOUR_VPS_IP
+  docker ps -a | grep studyroadmap
+  docker restart studyroadmap-studyroadmap
+  ```
+**After restart:** Re-run deploy webhook or trigger a new build.
+
+---
+
 ## DONE Items (Cycles 27–53)
 
 | Cycle | Item |

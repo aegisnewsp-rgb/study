@@ -6,11 +6,17 @@ interface FAQItem {
   answer: string;
 }
 
+interface HowToStep {
+  name: string;
+  text: string;
+}
+
 interface Props {
   title?: string;
   description?: string;
   image?: string;
   faqs?: FAQItem[];
+  howToSteps?: HowToStep[];
   robots?: string;
 }
 
@@ -19,6 +25,7 @@ const {
   description = 'Instant personalized study roadmaps for NEET, JEE, UPSC, MDCAT, JAMB and 20+ competitive exams. Free, no signup required.',
   image = '/og-image.jpg',
   faqs = [],
+  howToSteps = [],
   robots,
 } = Astro.props;
 
@@ -108,6 +115,22 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
             "@type": "Answer",
             "text": f.answer,
           },
+        })),
+      })} />
+    )}
+
+    <!-- HowTo Structured Data — step-by-step guide for using the roadmap tool -->
+    {howToSteps.length > 0 && (
+      <script type="application/ld+json" set:html={JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to generate your free study roadmap",
+        "description": "Follow these steps to get your instant personalised study plan for any competitive exam on StudyRoadmap",
+        "step": howToSteps.map((s, i) => ({
+          "@type": "HowToStep",
+          "position": i + 1,
+          "name": s.name,
+          "text": s.text,
         })),
       })} />
     )}

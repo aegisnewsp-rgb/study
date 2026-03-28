@@ -122,7 +122,7 @@ def call(prompt, max_tokens=1000):
             if sc == 0:
                 choices = d.get("choices", [])
                 if choices:
-                    return choices[0].get("messages", [{}])[0].get("content", "").strip()
+                    return choices[0].get("message", {}).get("content", "").strip()
             if sc in (1008, 2054, 2061):
                 print(f"[FATAL status={sc}]"); return "__FAIL__"
             print(f"  retry status={sc} attempt {attempt+1}")

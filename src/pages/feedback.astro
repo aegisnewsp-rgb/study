@@ -3,9 +3,24 @@ import Layout from '../layouts/Layout.astro';
 
 const ogTitle = 'Help Improve StudyRoadmap';
 const ogDescription = 'Report errors, suggest topics, or contribute to StudyRoadmap study notes.';
+
+const FEEDBACK_FAQS = [
+  {
+    question: 'What happens after I submit feedback?',
+    answer: 'We review all submissions and prioritise factual errors and missing content. Corrections are typically applied within 1–2 weeks. If your suggestion is implemented, you contribute to helping thousands of future students.',
+  },
+  {
+    question: "Can I submit notes I have from my coaching institute?",
+    answer: "If you have detailed study notes for any topic that would help other students, share them! We can't accept copyrighted material from paid courses, but original notes from your own preparation are welcome. Include your name if you'd like to be credited.",
+  },
+  {
+    question: "Why are some exam notes marked as 'Coming soon'?",
+    answer: 'We are actively expanding coverage. PCM engineering exam topics (BITSAT, VITEEE, KCET, etc.) currently route to NEET/JEE study notes — these are the same physics, chemistry, and mathematics topics covered in those exams. Medical and UPSC exam notes have the deepest coverage.',
+  },
+];
 ---
 
-<Layout title={ogTitle} description={ogDescription}>
+<Layout title={ogTitle} description={ogDescription} faqs={FEEDBACK_FAQS}>
   <main id="main-content" class="container-page py-16 max-w-2xl">
     <div class="text-center mb-10">
       <div class="inline-flex items-center justify-center w-14 h-14 rounded-full bg-brand-100 dark:bg-brand-900/30 mb-4">

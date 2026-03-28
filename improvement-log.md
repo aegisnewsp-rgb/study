@@ -656,6 +656,15 @@ Footer timestamp signals content freshness to students and Google. Educational c
 **Build:** 1375 pages, PASSED
 **Result:** PASSED — deployed live
 
+## Cycle 62 — 2026-03-28T18:04 UTC
+**Change:** FAQPage JSON-LD on /feedback page — 3 questions (what happens after feedback, coaching institute notes, "coming soon" exams)
+**Files:** `src/pages/feedback.astro` — `FEEDBACK_FAQS` array + `faqs={FEEDBACK_FAQS}` prop passed to Layout
+**SEO:** Feedback page now has FAQ rich results eligibility in Google SERPs. StudyRoadmap now has FAQPage on all 6 key pages: homepage (5 Qs), exams (6 Qs), roadmap (12 Qs), about (5 Qs), notes (4 Qs), feedback (3 Qs)
+**Tests run:** `npm run build` → 3,192 pages ✅ | Live: FAQPage (3 Qs) confirmed ✅
+**Result:** PASSED — FAQ schema across all key pages
+
+---
+
 ## Cycle 61 — 2026-03-28T17:27 UTC
 **Change:** Maintenance cycle — no code changes
 **Files:** none

@@ -656,6 +656,19 @@ Footer timestamp signals content freshness to students and Google. Educational c
 **Build:** 1375 pages, PASSED
 **Result:** PASSED — deployed live
 
+## Cycle 60 — 2026-03-28T17:20 UTC
+**Change:** HowTo JSON-LD schema on /roadmap page
+**Files:** `src/layouts/Layout.astro` (howToSteps prop), `src/pages/roadmap.astro` (HOW_TO_STEPS)
+**What:** Added 3-step HowTo schema describing how to use the roadmap tool:
+  1. Select your exam and available time
+  2. View your personalised roadmap
+  3. Track progress and open study notes
+**SEO:** HowTo rich results appear as step-by-step guides in Google SERPs — high visibility for the primary tool page. FAQPage (12 Qs) + HowTo both fire simultaneously on /roadmap/. Layout accepts optional howToSteps prop for future use.
+**Tests run:** `npm run build` → 3,192 pages ✅ | Live: /roadmap/ HowTo ✅ + FAQPage (12) ✅ + Organization ✅ + WebSite ✅
+**Result:** PASSED — deployed ✅
+
+---
+
 ## Cycle 59 — 2026-03-28T17:00 UTC
 **Change:** Student feedback page + PCM routing clarification
 **Files:** `src/pages/feedback.astro` (new), `src/components/Footer.astro` (updated)

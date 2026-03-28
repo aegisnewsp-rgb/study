@@ -1,54 +1,133 @@
 ---
-
-
-
 exam: jeemain
 examName: JEE Main
 subject: chemistry
 subjectName: Chemistry
 topic: chem-006
 topicName: Thermodynamics
-weight: 5
+weight: 3
 country: india
-generated: "2026-03-24T08:32:07.782550"
-diagramPrompt: Clear scientific diagram of Thermodynamics with atom labels, molecular structure, reaction arrows, white background, color-coded bonds and groups, exam textbook style
-
-
-
+generated: "2026-03-28T21:09:19"
 ---
+<think>
+The user wants study notes for Thermodynamics in a specific format. Let me break down what's needed:
+
+1. **Lite Quick Review (1h-1d)**: Rapid summary with bullet points for JEE Main key facts
+2. **Standard Regular Study (2d-2mo)**: 220 words prose with solved examples
+3. **Extended Deep Study (3mo+)**: 280 words comprehensive advanced level notes
+
+Format requirements:
+- Start with "---"
+- Use headings with # for main title and ### for sections
+- Use > for blockquotes (Lite Quick Review section)
+- Use ** for bold text
+
+Let me write comprehensive notes for Thermodynamics covering:
+
+**Thermodynamics topics for JEE:**
+- System and surroundings
+- Types of systems (open, closed, isolated)
+- State functions (U, H, S, G)
+- Zeroth law of thermodynamics
+- First law of thermodynamics (ΔU = Q - W)
+- Work calculations (pressure-volume work)
+- Heat capacity (Cp, Cv)
+- Enthalpy (H)
+- Hess's law
+- Bond enthalpy
+- Second law of thermodynamics
+- Entropy (S)
+- Spontaneity (ΔG = ΔH - TΔS)
+- Third law of thermodynamics
+- Gibbs free energy
+- Relationship between ΔG and equilibrium constant
+
+Let me structure this properly:
+
+1. Lite Quick Review - Brief bullets covering all key formulas and concepts
+2. Standard Regular Study - 220 words with examples
+3. Extended Deep Study - 280 words advanced level
+
+I need to be precise with word counts.
+</think>
+
 # Thermodynamics
 
-### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+---
 
-**Thermodynamics** — Key Facts for NEET/JEE
-Definition and structure: Know the basic structure and functional groups involved
-Key reactions: Most probable reaction pathways for exam questions
-Nomenclature: IUPAC naming conventions for this class of compounds
-⚡ Exam tip: In organic chemistry, mechanism is queen — understand electron movement (curly arrows)
+### Lite Quick Review (1h-1d)
+
+> Rapid summary.
+
+**Thermodynamics Key Facts for JEE Main**
+
+- **System**: Substance under study; **Surroundings**: Everything else
+- **Types**: Open (mass & energy exchange), Closed (energy only), Isolated (neither)
+- **State Functions**: U, H, S, G – path independent
+- **Path Functions**: Q, W – depend on path taken
+
+**First Law**: ΔU = Q − W; Energy can be converted but not destroyed
+
+- **Work**: W = −P_ext × ΔV (expansion work)
+- **Heat**: Q = n × C × ΔT
+
+**Key Equations**:
+- ΔH = ΔU + Δn_g × RT
+- C_p − C_v = R
+- ΔU = n × C_v × ΔT
+- ΔH = n × C_p × ΔT
+
+**Hess's Law**: ΔH independent of path; use enthalpy of formation or bond enthalpies
+
+**Second Law**: ΔS_universe > 0 for spontaneous processes
+
+- ΔS_sys + ΔS_surr ≥ 0
+
+**Entropy**: ΔS = q_rev/T; Disorder measure
+
+**Third Law**: S° = 0 at 0 K (perfect crystal)
+
+**Gibbs Free Energy**:
+- ΔG = ΔH − TΔS
+- ΔG < 0: Spontaneous
+- ΔG = 0: Equilibrium
+- ΔG > 0: Non-spontaneous
+
+**Relationships**:
+- ΔG° = −RT ln K
+- ΔG° = −nFE°
 
 ---
 
-### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+### Standard Regular Study (2d-2mo)
 
-**Thermodynamics** — Chemistry Study Guide
-Structure and bonding: Hybridisation, shape, and bond length
-Preparation methods: How to synthesise this compound in lab
-Reactions: Addition, substitution, elimination, oxidation — which applies here?
-Electronic effects: Inductive and resonance effects operating in this molecule
+> Standard content.
 
----
+**Thermodynamics JEE Main Study Guide**
 
-### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
+Thermodynamics deals with energy transformations during physical and chemical processes. The system is the portion being studied, while surroundings constitute everything else. Systems are classified as open (exchange both mass and energy), closed (energy only), or isolated (neither).
 
-**Thermodynamics** — Comprehensive Chemistry Notes
-Detailed mechanism: Step-by-step electron movement, intermediate stability
-Stereochemistry: R/S, E/Z if applicable, racemic mixtures if relevant
-Synthetic applications: Multi-step synthesis where this compound appears as intermediate
-Environmental/biological significance: Role in nature or industry
-Comparative study: How does this differ from similar compounds in the homologous series
+The first law establishes energy conservation: ΔU = Q − W. For constant volume processes, W = 0, so ΔU = Q_v. For constant pressure, we define enthalpy H = U + PV, making ΔH = Q_p. The relationship C_p − C_v = R holds for ideal gases.
+
+Consider the reaction: N₂(g) + 3H₂(g) → 2NH₃(g); ΔH = −92 kJ/mol. This negative enthalpy indicates exothermic reaction releasing heat. If 2 moles form, heat released = 184 kJ.
+
+Entropy (S) measures disorder. For the same reaction, ΔS is negative because 4 moles gaseous reactants form 2 moles gaseous products, reducing molecular randomness. However, the reaction is spontaneous at moderate temperatures because the exothermic nature (ΔH negative) drives it.
+
+Gibbs free energy combines both factors: ΔG = ΔH − TΔS. At 298 K for ammonia synthesis with ΔH = −92 kJ and ΔS = −198 J/K, ΔG = −92,000 − (298)(−198) = −33,004 J, confirming spontaneity.
+
+The equilibrium constant relates through ΔG° = −RT ln K. As temperature increases, the TΔS term becomes significant, potentially making ΔG positive and reversing spontaneity.
 
 ---
+
+### Extended Deep Study (3mo+)
+
+> Comprehensive.
+
+**Thermodynamics Comprehensive JEE Notes**
+
+Thermodynamics provides fundamental framework for predicting reaction feasibility and equilibrium positions. Understanding requires mastery of three primary laws and their interconnections.
+
+The **Zeroth Law** establishes temperature as a fundamental property enabling thermal equilibrium concept. The **First Law** (ΔU = Q − W) establishes energy conservation, with work defined as pressure-volume work for most chemical systems: W = −∫P_ext dV. For reversible processes, W_rev = −nRT ln(V₂/V₁).
+
+**Enthalpy** (H = U + PV) serves as the heat content at constant pressure. Standard enthalpy of formation (ΔH°_f) allows calculation via Hess's law: ΔH°
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

@@ -1,54 +1,89 @@
 ---
-
-
-
 exam: jeemain
 examName: JEE Main
 subject: chemistry
 subjectName: Chemistry
 topic: chem-011
 topicName: Surface Chemistry
-weight: 2
+weight: 3
 country: india
-generated: "2026-03-24T08:32:07.784783"
-diagramPrompt: Clear scientific diagram of Surface Chemistry with atom labels, molecular structure, reaction arrows, white background, color-coded bonds and groups, exam textbook style
-
-
-
+generated: "2026-03-28T21:09:48"
 ---
-# Surface Chemistry
+<think>
+The user wants a response in an exact format: start with "---" then "# Surface Chemistry" then "### Lite Quick Review (1h-1d)" and then "Rapid summary." Then bullet points for key facts. Then "### Standard Regular Study (2d-2mo)" then "Standard content." Then "**Surface Chemistry JEE Main Study Guide**" and then 220 words prose with solved examples. Then "### Extended Deep Study (3mo+)" then "**Surface Chemistry Comprehensive JEE Notes**" and then 280 words advanced level. Also need to include bullet points for key facts for JEE Main under quick review.
 
-### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+We need to ensure formatting is exactly as requested. Provide bullet points under key facts. Ensure we have the "---" before the heading and maybe after? They said EXACT format: "--- # Surface Chemistry ### Lite Quick Review (1h-1d) > Rapid summary. **Surface Chemistry Key Facts for JEE Main** bullet points --- ### Standard Regular Study (2d-2mo) > Standard content. **Surface Chemistry JEE Main Study Guide** 220 words prose with solved examples --- ### Extended Deep Study (3mo+) > Comprehensive. **Surface Chemistry Comprehensive JEE Notes** 280 words advanced level."
 
-**Surface Chemistry** — Key Facts for NEET/JEE
-Definition and structure: Know the basic structure and functional groups involved
-Key reactions: Most probable reaction pathways for exam questions
-Nomenclature: IUPAC naming conventions for this class of compounds
-⚡ Exam tip: In organic chemistry, mechanism is queen — understand electron movement (curly arrows)
+Thus the structure:
 
----
+- Start with "---"
+- Then "# Surface Chemistry"
+- Then "### Lite Quick Review (1h-1d)"
+- Then "> Rapid summary."
+- Then "**Surface Chemistry Key Facts for JEE Main**"
+- Then bullet points (maybe using "- ")
+- Then "---"
+- Then "### Standard Regular Study (2d-2mo)"
+- Then "> Standard content."
+- Then "**Surface Chemistry JEE Main Study Guide**"
+- Then 220-word prose with solved examples (should be about 220 words; need to count roughly). Might be a bit less or more; approximate. Ensure about 220 words.
 
-### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+- Then "---"
+- Then "### Extended Deep Study (3mo+)"
+- Then "> Comprehensive."
+- Then "**Surface Chemistry Comprehensive JEE Notes**"
+- Then 280-word advanced level text.
 
-**Surface Chemistry** — Chemistry Study Guide
-Structure and bonding: Hybridisation, shape, and bond length
-Preparation methods: How to synthesise this compound in lab
-Reactions: Addition, substitution, elimination, oxidation — which applies here?
-Electronic effects: Inductive and resonance effects operating in this molecule
+We must keep the exact headings and formatting. Probably also include "---" before each major section. They wrote "---" before each new major section, like after bullet points we have "---". The format says "---" before each major section. The first "---" is at start. Then after bullet points we have "---". Then after standard content we have "---". At the end maybe not needed but we can include. The user wants EXACT format: "--- # Surface Chemistry ### Lite Quick Review (1h-1d) > Rapid summary. **Surface Chemistry Key Facts for JEE Main** bullet points --- ### Standard Regular Study (2d-2mo) > Standard content. **Surface Chemistry JEE Main Study Guide** 220 words prose with solved examples --- ### Extended Deep Study (3mo+) > Comprehensive. **Surface Chemistry Comprehensive JEE Notes** 280 words advanced level."
 
----
+Thus we must follow that.
 
-### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
+We need to produce 220 words for the JEE Main Study Guide. And 280 words for comprehensive notes. Let's try to produce those lengths.
 
-**Surface Chemistry** — Comprehensive Chemistry Notes
-Detailed mechanism: Step-by-step electron movement, intermediate stability
-Stereochemistry: R/S, E/Z if applicable, racemic mixtures if relevant
-Synthetic applications: Multi-step synthesis where this compound appears as intermediate
-Environmental/biological significance: Role in nature or industry
-Comparative study: How does this differ from similar compounds in the homologous series
+We'll write bullet points under quick review: maybe 8-10 bullet points.
 
----
+We need to ensure that the prose count is approximate, but should be near 220 words.
+
+Let's produce quick review bullet points:
+
+- Adsorption vs absorption: difference.
+- Types of adsorption: physisorption and chemisorption.
+- Factors affecting adsorption: surface area, temperature, pressure, nature of adsorbent, activation of adsorbent.
+- Adsorption isotherms: Freundlich, Langmuir (assumptions, equations).
+- Catalysis: homogeneous vs heterogeneous; mechanisms, active sites.
+- Colloids: classification, preparation, properties (Tyndall, Brownian, electrophoresis).
+- Emulsions: types, stability, applications.
+- Surface tension: concept, capillary action, contact angle.
+- Applications: adsorption in gas masks, chromatography, catalysis in industry, colloidal drug delivery.
+- Key equations: Freundlich: x/m = k P^(1/n); Langmuir: θ = bP/(1 + bP); Kelvin equation for curvature effect.
+
+But need bullet points, not too many.
+
+Now standard regular study: produce ~220 words. Should contain solved examples, maybe one or two typical JEE problems and their solutions.
+
+E.g., "Problem: 1 g of charcoal adsorbs 100 mL of 0.5 M CH3COOH solution, ...", then solution.
+
+Need to incorporate concepts: adsorption isotherm, Langmuir, etc.
+
+The text must be coherent.
+
+Now extended deep study: 280 words advanced level. Should cover more advanced concepts: BET theory, heterogeneous catalysis, rate of adsorption, adsorption enthalpy, surface coverage, thermodynamics, role of surface tension in nucleation, Kelvin equation, DLVO theory, zeta potential, coagulation, etc.
+
+We need to keep to 280 words (approx). Let's craft about 280 words.
+
+Now need to ensure formatting: use "---" at appropriate places. Also ensure the headings like "### Lite Quick Review (1h-1d)" etc. And the content after each heading.
+
+Let's produce final answer.
+</think>
+
+---  
+# Surface Chemistry  
+
+### Lite Quick Review (1h‑1d)  
+> Rapid summary.  
+
+**Surface Chemistry Key Facts for JEE Main**  
+
+- **Adsorption vs. Absorption**: Adsorption is surface‑specific; absorption involves the bulk.  
+- **Physisorption** (weak van der Waals forces) and **Chemisorption** (chemical bond formation) differ in enthalpy (≈20–40 kJ mol⁻¹ vs. ≈80–400 kJ mol⁻¹
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

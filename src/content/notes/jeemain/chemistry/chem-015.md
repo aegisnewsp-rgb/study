@@ -1,7 +1,4 @@
 ---
-
-
-
 exam: jeemain
 examName: JEE Main
 subject: chemistry
@@ -10,45 +7,82 @@ topic: chem-015
 topicName: s-Block
 weight: 3
 country: india
-generated: "2026-03-24T08:32:07.786539"
-diagramPrompt: Clear scientific diagram of s-Block with atom labels, molecular structure, reaction arrows, white background, color-coded bonds and groups, exam textbook style
-
-
-
+generated: "2026-03-28T21:10:16"
 ---
-# s-Block
+<think>
+The user wants: "You are an expert JEE Main/Advanced Chemistry tutor. Write study notes for: **s-Block**. EXACT format: 
 
-### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+--- 
+# s-Block 
+### Lite Quick Review (1h-1d) 
+> Rapid summary. **s-Block Key Facts for JEE Main** bullet points 
 
-**s-Block** — Key Facts for NEET/JEE
-Definition and structure: Know the basic structure and functional groups involved
-Key reactions: Most probable reaction pathways for exam questions
-Nomenclature: IUPAC naming conventions for this class of compounds
-⚡ Exam tip: In organic chemistry, mechanism is queen — understand electron movement (curly arrows)
+--- 
+### Standard Regular Study (2d-2mo) 
+> Standard content. **s-Block JEE Main Study Guide** 220 words prose with solved examples 
 
----
+--- 
+### Extended Deep Study (3mo+) 
+> Comprehensive. **s-Block Comprehensive JEE Notes** 280 words advanced level."
 
-### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+So they want the output in a certain format: each section separated by triple dashes. The sections have headings and subheadings, bullet points for the quick review, and prose for other sections, with the required word counts (220 words prose, 280 words advanced). Must ensure exactly these counts: 220 words prose for standard regular study, and 280 words for extended deep study. Also bullet points for quick review: maybe they didn't specify number of bullet points, but include key facts. Should include solved examples in the 220-word prose. Should include advanced level notes in the 280-word part.
 
-**s-Block** — Chemistry Study Guide
-Structure and bonding: Hybridisation, shape, and bond length
-Preparation methods: How to synthesise this compound in lab
-Reactions: Addition, substitution, elimination, oxidation — which applies here?
-Electronic effects: Inductive and resonance effects operating in this molecule
+We need to generate notes for s-Block (alkali and alkaline earth metals). Should cover their properties, compounds, trends, reactions, extraction, uses, etc. Use JEE relevant details. Must be exactly as per format, with triple dashes separating sections.
 
----
+Check the format: "---" line before each major heading, then "# s-Block". Then "### Lite Quick Review (1h-1d)" then ">" rapid summary? Actually they wrote: "### Lite Quick Review (1h-1d) > Rapid summary. **s-Block Key Facts for JEE Main** bullet points". The format could be something like:
 
-### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
+--- 
+# s-Block 
+### Lite Quick Review (1h-1d) 
+> Rapid summary. **s-Block Key Facts for JEE Main** 
+- bullet point 1 
+- bullet point 2 ...
 
-**s-Block** — Comprehensive Chemistry Notes
-Detailed mechanism: Step-by-step electron movement, intermediate stability
-Stereochemistry: R/S, E/Z if applicable, racemic mixtures if relevant
-Synthetic applications: Multi-step synthesis where this compound appears as intermediate
-Environmental/biological significance: Role in nature or industry
-Comparative study: How does this differ from similar compounds in the homologous series
+--- 
+### Standard Regular Study (2d-2mo) 
+> Standard content. **s-Block JEE Main Study Guide** 220 words prose with solved examples 
 
----
+--- 
+### Extended Deep Study (3mo+) 
+> Comprehensive. **s-Block Comprehensive JEE Notes** 280 words advanced level.
+
+Thus we need to produce exactly that.
+
+We must be careful to include ">" for the rapid summary line? They wrote: "### Lite Quick Review (1h-1d) > Rapid summary." That is probably they want a blockquote line "Rapid summary." then bullet points. But could also be a line with ">" prefix. In typical markdown, a blockquote line is ">" at the start. So they might want:
+
+### Lite Quick Review (1h-1d) 
+> Rapid summary. **s-Block Key Facts for JEE Main** 
+- bullet
+
+But that seems odd. They wrote "### Lite Quick Review (1h-1d) > Rapid summary." Possibly they want a line that starts with ">" indicating it's a blockquote containing the rapid summary. Then bullet points.
+
+Thus we can produce:
+
+### Lite Quick Review (1h-1d) 
+> Rapid summary. **s-Block Key Facts for JEE Main** 
+- bullet...
+- bullet...
+
+Make sure bullet points include key facts like:
+
+- s-block consists of Group 1 (alkali metals) and Group 2 (alkaline earth metals).
+- Atomic radii increase down the group; ionization enthalpy decreases.
+- Alkali metals have one electron in s-subshell, +1 oxidation state; alkaline earth metals have two electrons, +2 oxidation state.
+- They are highly electropositive, good reducing agents.
+- Reactivity increases down the group.
+- Flame test colours: Li (crimson), Na (yellow), K (violet), Ca (orange-red), Sr (crimson), Ba (green).
+- Common compounds: NaCl, NaOH, Na2CO3, NaHCO3, KCl, CaCO3, Ca(OH)2, MgO.
+- Important reactions: reaction with water (alkali metals: vigorous, alkaline earth: less vigorous), reaction with oxygen (formation of oxides/peroxides/superoxides), reaction with acids.
+- Extraction: Na by Downs process (electrolysis of NaCl), Ca and Mg by electrolysis of their chlorides.
+- Uses: NaCl (table salt), NaOH (caustic soda), Na2CO3 (washing soda), KCl (fertilizer), CaCO3 (lime), Mg in alloys, etc.
+
+Also note trends: solubility of hydroxides and carbonates increases down the group; melting/boiling points decrease down the group; density increases down the group (except K < Na). Also mention hydration enthalpy.
+
+Now the Standard Regular Study section must be 220 words prose with solved examples. It should be a narrative of about 220 words, possibly broken into paragraphs. Must contain solved examples: e.g., "Calculate the pH of a 0.1 M solution of NaOH." Or "Determine the volume of H2 gas evolved when 2.3 g of Na reacts with water." Provide solution steps. That would be a solved example.
+
+Need to keep it around 220 words. Let's draft ~220 words:
+
+"**s-Block JEE Main Study Guide**  
+The s‑block elements, comprising Group 1 (alkali metals) and Group 2 (alkaline earth metals), possess a valence s‑electron configuration ns¹ and ns² respectively. Their atomic and ionic radii increase down a group, while ionization enthalpy, hydration enthalpy and electronegativity decrease. Because of their low ionization
+</think>
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

@@ -1,54 +1,134 @@
 ---
-
-
-
 exam: jeemain
 examName: JEE Main
 subject: chemistry
 subjectName: Chemistry
 topic: chem-010
 topicName: Kinetics
-weight: 4
+weight: 3
 country: india
-generated: "2026-03-24T08:32:07.784404"
-diagramPrompt: Clear scientific diagram of Kinetics with atom labels, molecular structure, reaction arrows, white background, color-coded bonds and groups, exam textbook style
-
-
-
+generated: "2026-03-28T21:10:24"
 ---
+<think>
+The user wants study notes for "Kinetics" in a specific format:
+
+- "--- # Kinetics
+  ### Lite Quick Review (1h-1d)
+  > Rapid summary.
+  **Kinetics Key Facts for JEE Main** bullet points
+
+- ### Standard Regular Study (2d-2mo)
+  > Standard content.
+  **Kinetics JEE Main Study Guide** 220 words prose with solved examples
+
+- ### Extended Deep Study (3mo+)
+  > Comprehensive.
+  **Kinetics Comprehensive JEE Notes** 280 words advanced level."
+
+Thus three sections, each preceded by "---". They want exactly that formatting: three sections separated by '---'.
+
+We need to produce:
+
+- "--- # Kinetics"
+- Then "### Lite Quick Review (1h-1d)"
+- Then " > Rapid summary." Possibly a heading or bullet: "**Kinetics Key Facts for JEE Main** bullet points"
+- Then bullet points for key facts.
+
+- Then "### Standard Regular Study (2d-2mo)"
+- Then " > Standard content."
+- Then "**Kinetics JEE Main Study Guide** 220 words prose with solved examples"
+
+We need to provide about 220 words (maybe a bit flexible). Provide solved examples? Maybe one solved example illustrating first-order kinetics, half-life, rate law, etc. Should be appropriate.
+
+- Then "### Extended Deep Study (3mo+)"
+- Then " > Comprehensive."
+- Then "**Kinetics Comprehensive JEE Notes** 280 words advanced level."
+
+Need about 280 words. Should include advanced topics: reaction mechanisms, steady-state approximation, collision theory, transition state theory, temperature dependence, Arrhenius equation, activated complex, elementary steps, rate-determining step, molecularity, kinetic vs thermodynamic control, enzyme kinetics (Michaelis-Menten), etc. Provide solved examples maybe more complex.
+
+We need to obey the exact format: three sections separated by "---". Each section must start with the "###" heading. The first section includes " > Rapid summary." Possibly it's a note to the user. But we need to include the bullet points after "**Kinetics Key Facts for JEE Main**".
+
+Let's craft content.
+
+First section:
+
+- Title: "Kinetics Key Facts for JEE Main"
+
+Bullet points for quick review:
+
+- Definitions: reaction rate, rate law, order, molecularity.
+- Rate laws for zero, first, second order; integrated forms.
+- Half-life expressions.
+- Temperature dependence: Arrhenius equation, activation energy.
+- Rate-determining step and reaction mechanism.
+- Collision theory basics: frequency factor, orientation factor.
+- Steady-state approximation.
+- Catalysis: homogeneous, heterogeneous.
+- Pseudo-first-order reactions.
+
+Add a few bullet points, maybe 10-12.
+
+Second section: "Kinetics JEE Main Study Guide". Provide ~220 words prose. Should include definitions, derive integrated rate laws, show example: decomposition of H2O2, first-order with k=0.05 min^-1. Calculate half-life. Show calculation. Provide steps.
+
+Third section: "Kinetics Comprehensive JEE Notes". Provide ~280 words advanced level. Include transition state theory, Eyring equation, derivation of rate constant, enzyme kinetics (Michaelis-Menten), steady-state approximation for complex reactions, temperature dependence details, effect of ionic strength (primary salt effect), reaction coordinate diagrams, effect of pressure, concept of activation volume. Also include concept of kinetic vs thermodynamic control. Provide a solved example: mechanism of ozone decomposition, use steady-state to derive rate law.
+
+Make sure it's advanced, about 280 words. Let's count approximate words. Write around 280.
+
+We must keep format exactly:
+
+--- # Kinetics
+### Lite Quick Review (1h-1d)
+> Rapid summary.
+**Kinetics Key Facts for JEE Main** bullet points
+
+Then bullet points.
+
+--- 
+### Standard Regular Study (2d-2mo)
+> Standard content.
+**Kinetics JEE Main Study Guide** 220 words prose with solved examples
+
+Then the prose.
+
+--- 
+### Extended Deep Study (3mo+)
+> Comprehensive.
+**Kinetics Comprehensive JEE Notes** 280 words advanced level.
+
+Then the notes.
+
+Make sure to include "---" before each section header. The user wants exactly that format: "--- # Kinetics ### Lite Quick Review (1h-1d) > Rapid summary. **Kinetics Key Facts for JEE Main** bullet points --- ### Standard Regular Study (2d-2mo) > Standard content. **Kinetics JEE Main Study Guide** 220 words prose with solved examples --- ### Extended Deep Study (3mo+) > Comprehensive. **Kinetics Comprehensive JEE Notes** 280 words advanced level."
+
+Thus they want:
+
+--- 
 # Kinetics
+### Lite Quick Review (1h-1d)
+> Rapid summary.
+**Kinetics Key Facts for JEE Main** bullet points
 
-### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
-
-**Kinetics** — Key Facts for NEET/JEE
-Definition and structure: Know the basic structure and functional groups involved
-Key reactions: Most probable reaction pathways for exam questions
-Nomenclature: IUPAC naming conventions for this class of compounds
-⚡ Exam tip: In organic chemistry, mechanism is queen — understand electron movement (curly arrows)
+... bullet points...
 
 ---
+### Standard Regular Study (2d-2mo)
+> Standard content.
+**Kinetics JEE Main Study Guide** 220 words prose with solved examples
 
-### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
-
-**Kinetics** — Chemistry Study Guide
-Structure and bonding: Hybridisation, shape, and bond length
-Preparation methods: How to synthesise this compound in lab
-Reactions: Addition, substitution, elimination, oxidation — which applies here?
-Electronic effects: Inductive and resonance effects operating in this molecule
+... prose...
 
 ---
+### Extended Deep Study (3mo+)
+> Comprehensive.
+**Kinetics Comprehensive JEE Notes** 280 words advanced level.
 
-### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
+... notes...
 
-**Kinetics** — Comprehensive Chemistry Notes
-Detailed mechanism: Step-by-step electron movement, intermediate stability
-Stereochemistry: R/S, E/Z if applicable, racemic mixtures if relevant
-Synthetic applications: Multi-step synthesis where this compound appears as intermediate
-Environmental/biological significance: Role in nature or industry
-Comparative study: How does this differ from similar compounds in the homologous series
+Check spacing: likely they want exactly that with each line break. We'll present as markdown. Should we include code block? Probably not. Just plain markdown.
 
----
+Make sure we include bullet points for the first section: "* Reaction rate definition, etc."
+
+Second section: 220 words. Let's aim for about 220 words exactly. We'll count approximate words.
+
+Write about 220 words: "In chemical kinetics we study the rates of chemical reactions and the factors that influence them. The rate of a reaction is defined as the change in concentration of a reactant or product per unit time. The rate
+</think>
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

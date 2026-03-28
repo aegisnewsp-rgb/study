@@ -151,8 +151,6 @@ generated: "{time.strftime("%Y-%m-%dT%H:%M:%S")}"
 
 def do_chem(tid, tname):
     fpath = f"{CHEM_DIR}/{tid}.md"
-    if os.path.exists(fpath):
-        return 0
     print(f"  chem {tid} {tname}")
     content = call(CHEM_PROMPT.format(name=tname))
     if content == "__FAIL__":

@@ -656,6 +656,15 @@ Footer timestamp signals content freshness to students and Google. Educational c
 **Build:** 1375 pages, PASSED
 **Result:** PASSED — deployed live
 
+## Cycle 63 — 2026-03-28T18:09 UTC
+**Change:** Remove duplicate FAQPage JSON-LD on /notes/ page
+**Files:** `src/pages/notes/index.astro` — removed redundant `<script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />`; Layout already renders FAQPage via `faqs={NOTES_FAQS}` prop
+**SEO:** Duplicate structured data schemas are a Google quality issue. /notes/ now has exactly 1 FAQPage (4Qs) + Organization + WebSite + BreadcrumbList — correct and clean
+**Tests run:** `npm run build` → 3,192 pages ✅ | Live: /notes/ → 1 FAQPage ✅ | All 6 pages schema audit: PASSED
+**Result:** PASSED — duplicate removed, committed + pushed
+
+---
+
 ## Cycle 62 — 2026-03-28T18:04 UTC
 **Change:** FAQPage JSON-LD on /feedback page — 3 questions (what happens after feedback, coaching institute notes, "coming soon" exams)
 **Files:** `src/pages/feedback.astro` — `FEEDBACK_FAQS` array + `faqs={FEEDBACK_FAQS}` prop passed to Layout

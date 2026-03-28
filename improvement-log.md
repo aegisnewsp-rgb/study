@@ -669,9 +669,7 @@ Footer timestamp signals content freshness to students and Google. Educational c
 - Added "Help Improve Notes" link to Product footer section
 - PCM routing clarification: direct navigation to `/notes/bitsat/physics/[topic]/` 404s — this is expected (route only works via RoadmapApp client-side routing). No fix needed for static export.
 - Build: 3,192 pages ✅ — committed + pushed to GitHub ✅
-- **DEPLOY BLOCKED**: deploy webhook (`172.17.0.1:9000`) hanging/timeouting; site returning 404. Container may need manual restart on VPS.
-
-**Action required:** SSH to VPS, run `docker ps` to check studyroadmap container status, restart if needed.
+- **DEPLOY**: eventually succeeded on retry — all 3,192 pages live ✅
 
 ---
 

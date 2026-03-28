@@ -43,7 +43,7 @@
 
 ---
 
-### 6. Formspree setup for feedback form
+### 6. ~~Deploy service unresponsive~~ — RESOLVED (deploy went through on retry)
 **Status:** TODO (blocked on user action)
 **What:** Replace `REPLACE_WITH_FORMSPREE_ID` in `src/pages/feedback.astro` with actual Formspree form ID
 **Action needed:** User signs up at formspree.io (free tier), creates a form, pastes the form ID
@@ -51,20 +51,9 @@
 
 ---
 
-### 🚨 Deploy service unresponsive
-**Status:** BLOCKED — container/VPS issue
-**What:** Deploy webhook at `172.17.0.1:9000` hanging/timeouting. Site returning 404.
-**Action needed:** SSH to VPS, check `docker ps -a` for studyroadmap container, restart container if needed:
-  ```bash
-  ssh user@YOUR_VPS_IP
-  docker ps -a | grep studyroadmap
-  docker restart studyroadmap-studyroadmap
-  ```
-**After restart:** Re-run deploy webhook or trigger a new build.
-
 ---
 
-## DONE Items (Cycles 27–53)
+## DONE Items (Cycles 27–59)
 
 | Cycle | Item |
 |-------|------|
@@ -94,6 +83,7 @@
 | 49 | 100 exams expansion (21 → 104 exams, 4,269 new notes) |
 | 50 | PCM exam notes routing (15 exams route to neet/jee pools) |
 | 52 | GATE exam-specific FAQs on roadmap page |
+| 59 | Student feedback page (/feedback) + footer "Help Improve Notes" link |
 
 ---
 

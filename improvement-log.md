@@ -656,6 +656,19 @@ Footer timestamp signals content freshness to students and Google. Educational c
 **Build:** 1375 pages, PASSED
 **Result:** PASSED — deployed live
 
+## Cycle 61 — 2026-03-28T17:27 UTC
+**Change:** Maintenance cycle — no code changes
+**Files:** none
+**Build:** none
+**Result:** PASSED — site healthy
+- Site: all 6 key pages 200 ✅
+- News: 10 items fresh ✅
+- /roadmap/ HowTo schema confirmed live ✅
+- Topic pages (neet physics, etc.) 200 ✅ — recovery from Cycle 59 confirmed
+- Sitemap: 343 URLs, no lastmod (expected for Astro static export, not a bug)
+
+---
+
 ## Cycle 60 — 2026-03-28T17:20 UTC
 **Change:** HowTo JSON-LD schema on /roadmap page
 **Files:** `src/layouts/Layout.astro` (howToSteps prop), `src/pages/roadmap.astro` (HOW_TO_STEPS)

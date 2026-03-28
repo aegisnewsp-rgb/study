@@ -656,6 +656,31 @@ Footer timestamp signals content freshness to students and Google. Educational c
 **Build:** 1375 pages, PASSED
 **Result:** PASSED — deployed live
 
+## Cycle 59 — 2026-03-28T17:00 UTC
+**Change:** Student feedback page + PCM routing clarification
+**Files:** `src/pages/feedback.astro` (new), `src/components/Footer.astro` (updated)
+**What changed:**
+- Created `/feedback` page with structured form (Formspree-ready — user must add form ID):
+  - Fields: page URL, feedback type (typo/inaccuracy/missing topic/outdated/clarity/suggestion/other), exam+subject, description, optional email
+  - Pre-fills page URL from HTTP referrer via client JS
+  - FAQ section explaining review process + "Coming soon" explanation for PCM routing
+  - Success state at `/feedback?sent=1`
+  - Note: `action="https://formspree.io/f/REPLACE_WITH_FORMSPREE_ID"` — user needs free Formspree account
+- Added "Help Improve Notes" link to Product footer section
+- PCM routing clarification: direct navigation to `/notes/bitsat/physics/[topic]/` 404s — this is expected (route only works via RoadmapApp client-side routing). No fix needed for static export.
+- Build: 3,192 pages ✅ — committed + pushed to GitHub ✅
+- **DEPLOY BLOCKED**: deploy webhook (`172.17.0.1:9000`) hanging/timeouting; site returning 404. Container may need manual restart on VPS.
+
+**Action required:** SSH to VPS, run `docker ps` to check studyroadmap container status, restart if needed.
+
+---
+
+## Cycle 58 | 2026-03-28T12:34 UTC
+**Change:** No technical changes — Cycle 57 verified live state.
+**Files:** none
+**Build:** none
+**Result:** PASSED — news refresh only
+
 ## Cycle 52 — 2026-03-25T21:18 UTC
 **Change:** Added GATE exam-specific FAQs to roadmap page — 4 FAQs covering exam pattern, General Aptitude section weightage (15 marks universal), GATE score calculation, and paper selection guide.
 **Files:** src/pages/roadmap.astro — added 'gate' FAQ array

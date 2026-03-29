@@ -45,15 +45,26 @@
 
 ---
 
-### 5. GSC XML sitemap submission + URL inspection
-**Status:** TODO
-**What:** After GSC verification, submit sitemap and use URL Inspection API to request indexing for key pages (/, /roadmap/, /exams/, /notes/)
+### 5. GSC sitemap submission + URL inspection
+**Status:** PARTIALLY DONE — sitemap now includes all 3200+ topic pages (commit dcd1737)
+**What:** After GSC verification, submit sitemap and use URL Inspection API to request indexing for key pages
+**Remaining:** GSC account needed to submit sitemap and request rapid indexing
 **Effort:** Low (after GSC is verified)
 
 ---
 
-### 6. ~~Deploy service unresponsive~~ — RESOLVED (deploy went through on retry)
-**Status:** TODO (blocked on user action)
+### 6. Deploy service crashes after each deploy
+**Status:** IN PROGRESS — RCA complete, awaiting user SSH fix
+**What:** systemd `Type=oneshot` causes the Node.js deploy backend to exit after each `POST /deploy` instead of staying alive as a long-running HTTP server
+**Fix (one SSH command):**
+```bash
+sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service
+sudo sed -i 's/Restart=no/Restart=always/' /etc/systemd/system/studyroadmap-deploy.service
+sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
+```
+**Root cause:** 5 Whys confirmed — backend process exits on script completion (Type=oneshot), Restart=no means it doesn't come back
+**Impact:** Every deploy works (65s build, Docker push) but backend dies within ~2s of script exit; CDN still serves stale content
+**Effort:** Trivial (3 commands) — user action required
 **What:** Replace `REPLACE_WITH_FORMSPREE_ID` in `src/pages/feedback.astro` with actual Formspree form ID
 **Action needed:** User signs up at formspree.io (free tier), creates a form, pastes the form ID
 **Effort:** Trivial (one string change)

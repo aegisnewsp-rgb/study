@@ -787,7 +787,14 @@ Footer timestamp signals content freshness to students and Google. Educational c
 
 ---
 
-## Cycle 66 — 2026-03-29T09:36 UTC
+## Cycle 67 — 2026-03-29T10:10 UTC
+**Change:** sitemap: include all topic pages (they now have real tiered content) — removed the filter that excluded 4-segment topic URLs
+**Files:** astro.config.mjs
+**Commit:** dcd1737
+**Note:** Deploy svc crashes after each deploy (systemd Type=oneshot issue). Fix pending user SSH: `Type=simple + Restart=always`.
+**Result:** PASSED — sitemap now includes all 3200+ topic pages
+
+---
 **Change:** Cycle skipped — deploy service unstable (crashes after each deploy). News refreshed. 4 commits queued on GitHub.
 **Cycle 65 (combined) — 2026-03-29T07:36 UTC**
 **Change:** Update improvement-backlog.md — reflect major content coverage added 2026-03-28/29 (JEE Main Physics 28, Chemistry 28, CUET Math 25, CUET English 15, UPSC GS1 10, UPSC GS2 4)

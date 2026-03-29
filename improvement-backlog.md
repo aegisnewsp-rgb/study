@@ -20,12 +20,21 @@
 
 ---
 
-### 3. Knowledge-base content for remaining ~1,000 topics
-**Status:** TODO (large effort)
-**Coverage so far:** NEET physics (29), JEE Adv physics + math (28+28), JEE Main chemistry (28), organic GOC, physical chemistry core, UPSC GS, SSC CGL quant/reasoning/awareness, law, BBA/BCom/CA foundation topics
-**Remaining:** ~1,000 topics still have generic template placeholder content
-**Path:** MiniMax text API pipeline for top 50 NEET/JEE topics, student contributions form, or manual expert write-up
-**Effort:** High — priority should be top 50 NEET/JEE topics only
+### 3. Knowledge-base content for remaining ~900 topics
+**Status:** IN PROGRESS — major coverage added 2026-03-28/29
+**Coverage so far (all exam-aligned, tiered Quick/Standard/Deep):**
+  - NEET Physics: 29 topics ✅
+  - JEE Main Physics: 28 topics ✅
+  - JEE Main Chemistry: 28 topics ✅
+  - JEE Advanced Physics: 28 topics ✅
+  - JEE Advanced Mathematics: 28 topics ✅
+  - CUET Mathematics: 25 topics ✅
+  - CUET English: 15 topics ✅
+  - UPSC GS1 (History, Geography, Environment, Polity): 10 topics ✅
+  - UPSC GS2 (Governance, IR, Social Justice): 4 topics ✅
+**Remaining:** PCM organic chemistry, PCM physical chemistry, JEE Main Mathematics (28), SSC CGL English, SSC CGL Reasoning, BBA/BCom/CA Foundation, ~60 niche international exams
+**Path:** MiniMax text API pipeline — next priority: JEE Main Mathematics + PCM organic chemistry
+**Effort:** High — targeting top 100 high-traffic topics next
 
 ---
 

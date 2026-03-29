@@ -67,12 +67,47 @@ RSS_FEEDS = [
         "source": "Google News / WAEC Nigeria",
         "country": "nigeria",
     },
-    # General education — dropped (too noisy). Country feeds are sufficient.
+    # Reddit communities — education and exam discussions
+    {
+        "url": "https://www.reddit.com/r/Indian_Academia/.rss",
+        "source": "Reddit / r/Indian_Academia",
+        "country": "all",
+    },
+    {
+        "url": "https://www.reddit.com/r/CBSE/.rss",
+        "source": "Reddit / r/CBSE",
+        "country": "all",
+    },
+    {
+        "url": "https://www.reddit.com/r/JEEprep/.rss",
+        "source": "Reddit / r/JEEprep",
+        "country": "all",
+    },
+    {
+        "url": "https://www.reddit.com/r/UPSC/.rss",
+        "source": "Reddit / r/UPSC",
+        "country": "all",
+    },
+    {
+        "url": "https://www.reddit.com/r/neet_exams/.rss",
+        "source": "Reddit / r/neet_exams",
+        "country": "all",
+    },
+    {
+        "url": "https://www.reddit.com/r/Pakistan/.rss",
+        "source": "Reddit / r/Pakistan",
+        "country": "all",
+    },
+    {
+        "url": "https://www.reddit.com/r/Nigeria/.rss",
+        "source": "Reddit / r/Nigeria",
+        "country": "all",
+    },
 ]
 
 # Keywords to help tag which exams an item is relevant to
 EXAM_TAGS = {
-    "india": ["neet", "jee", "upsc", "cuet", "ssc cgl", "cat", "clat", "nda", "ugc net", "gre"],
+    "india": ["neet", "jee", "upsc", "cuet", "ssc cgl", "cat", "clat", "nda", "ugc net", "gre", "cbse", "board exam", "class 12", "class 10", "jee main", "jee advanced", "upsc civil services", "medical entrance", "engineering entrance", "board result"],
     "pakistan": ["mdcat", "ecat", "nat", "lat", "hat"],
     "nigeria": ["jamb", "waec", "neco", "nabteb", "ncee"],
 }
@@ -143,6 +178,16 @@ def parse_rss_item(entry: dict) -> Optional[dict]:
         "tags": list(set(tagged_exams)) if tagged_exams else [],
     }
 
+
+# Atom date format with +00:00 timezone
+_REATOM_TZ = re.compile(r'([+-]\d{2}):(\d{2})$')
+
+def _normalize_atom_date(raw: str) -> str:
+    """Convert +HH:MM timezone to +HHMM for strptime."""
+    m = _REATOM_TZ.search(raw)
+    if m:
+        return raw[:m.start()] + m.group(1) + m.group(2)
+    return raw
 
 def parse_rss(content: str) -> list[dict]:
     """Parse RSS XML into list of item dicts."""

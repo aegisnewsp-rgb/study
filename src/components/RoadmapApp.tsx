@@ -8,7 +8,6 @@ const NOTES_PENDING_EXAMS = new Set([
   'ap-eapcet','ts-eapcet','aimer','aims','aiims-mbbs','aiims-bds',
   'sbi-po','sbi-clerk','ibps-po','ibps-clerk','rbi-grad-b',
   'ca-found','cs-exec','cma','cat','xat','snap','mat',
-  'clat','lat','lsat','ailet',
   'ntse','kvpy','ocs','nvs',
 ]);
 

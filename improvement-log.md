@@ -779,10 +779,11 @@ Footer timestamp signals content freshness to students and Google. Educational c
 **Build:** 3,191 pages ✅ deployed
 **Result:** PASSED — PCM routing map verified live in JS bundle (`bitsat`, `mht-cet`, routing to neet/jeeadvanced/jeemain confirmed in RoadmapApp bundle)
 
-## Cycle 65 — 2026-03-29T07:36 UTC
+## Cycle 66 — 2026-03-29T09:36 UTC
+**Change:** Cycle skipped — deploy service unstable (crashes after each deploy). News refreshed. 4 commits queued on GitHub.
+**Cycle 65 (combined) — 2026-03-29T07:36 UTC**
 **Change:** Update improvement-backlog.md — reflect major content coverage added 2026-03-28/29 (JEE Main Physics 28, Chemistry 28, CUET Math 25, CUET English 15, UPSC GS1 10, UPSC GS2 4)
 **Files:** improvement-backlog.md
-**Note:** Deploy svc still down (172.17.0.1:9000 unreachable since ~18:15 UTC 2026-03-28). Code committed to GitHub, will auto-deploy on svc recovery.
 **Result:** PASSED (maintenance cycle — content progress documented)
 
 ---

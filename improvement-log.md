@@ -779,6 +779,14 @@ Footer timestamp signals content freshness to students and Google. Educational c
 **Build:** 3,191 pages ✅ deployed
 **Result:** PASSED — PCM routing map verified live in JS bundle (`bitsat`, `mht-cet`, routing to neet/jeeadvanced/jeemain confirmed in RoadmapApp bundle)
 
+## Cycle 67 — 2026-03-29T10:04 UTC
+**Change:** Fix false positives in NOTES_PENDING_EXAMS — removed clat, lat, lsat, ailet (these have real notes on disk; students were incorrectly seeing "Notes coming soon" badges)
+**Files:** src/components/RoadmapApp.tsx
+**Result:** PASSED — 4 law exams now route correctly to live notes
+**Deploy svc:** Still dying post-deploy (Type=oneshot confirmed). Fix pending on host.
+
+---
+
 ## Cycle 66 — 2026-03-29T09:36 UTC
 **Change:** Cycle skipped — deploy service unstable (crashes after each deploy). News refreshed. 4 commits queued on GitHub.
 **Cycle 65 (combined) — 2026-03-29T07:36 UTC**

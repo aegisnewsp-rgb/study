@@ -106,7 +106,7 @@ const breadcrumbJsonLd = {
 };
 ---
 
-<Layout title={title} description={description} canonical={canonicalUrl} image={ogImage} faqs={faqs} robots="noindex, follow">
+<Layout title={title} description={description} canonical={canonicalUrl} image={ogImage} faqs={faqs}>
   <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
   <script type="application/ld+json" set:html={JSON.stringify(orgJsonLd)} />

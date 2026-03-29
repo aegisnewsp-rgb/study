@@ -7,6 +7,7 @@ Run via cron every 30 minutes.
 
 import json
 import os
+import re
 import sys
 import urllib.request
 import urllib.parse
@@ -149,15 +150,26 @@ def parse_rss_item(entry: dict) -> Optional[dict]:
     if any(bad in combined for bad in off_topic):
         return None
 
-    # Parse date
-    published = None
+    # Parse date: HTTP/GMT dates, ISO Atom dates, ISO basic dates
+    published = ""
     if raw_date:
-        for fmt in ["%a, %d %b %Y %H:%M:%S %z", "%Y-%m-%dT%H:%M:%SZ", "%Y-%m-%d %H:%M:%S"]:
-            try:
-                published = datetime.strptime(raw_date[:25].strip(), fmt).isoformat()
-                break
-            except (ValueError, IndexError):
-                pass
+        # Try HTTP/GMT date (e.g., "Fri, 27 Mar 2026 07:00:00 GMT")
+        if " GMT" in raw_date:
+            published = _parse_http_date(raw_date)
+        # Try ISO Atom / ISO with timezone (e.g., "2026-03-29T14:32:07+00:00" or "2026-03-29T14:32:07Z")
+        if not published:
+            normalized = _normalize_atom_date(raw_date)
+            for fmt in ["%Y-%m-%dT%H:%M:%SZ", "%Y-%m-%dT%H:%M:%S%z", "%Y-%m-%d %H:%M:%S"]:
+                for td in [normalized, normalized[:25], raw_date, raw_date[:25]]:
+                    try:
+                        published = datetime.strptime(td.strip(), fmt).isoformat()
+                        break
+                    except (ValueError, IndexError):
+                        pass
+                if published:
+                    break
+    if not published:
+        published = datetime.now(timezone.utc).isoformat()
 
     # Auto-tag by title/description using word-boundary matching
     import re
@@ -188,6 +200,20 @@ def _normalize_atom_date(raw: str) -> str:
     if m:
         return raw[:m.start()] + m.group(1) + m.group(2)
     return raw
+
+def _parse_http_date(raw_date: str) -> str:
+    """Parse HTTP date (RFC 2822) with GMT timezone, return ISO format."""
+    if not raw_date:
+        return ""
+    # Normalize: replace GMT with +0000 for %z compatibility
+    normalized = raw_date.replace(" GMT", " +0000")
+    for fmt in ["%a, %d %b %Y %H:%M:%S %z", "%Y-%m-%dT%H:%M:%SZ"]:
+        for td in [normalized, normalized[:25]]:
+            try:
+                return datetime.strptime(td.strip(), fmt).isoformat()
+            except (ValueError, IndexError):
+                pass
+    return ""
 
 def parse_rss(content: str) -> list[dict]:
     """Parse RSS XML into list of item dicts."""
@@ -270,10 +296,30 @@ def deduplicate_and_merge(existing: list[dict], new_items: list[dict]) -> list[d
     existing.sort(key=lambda x: x.get("published", ""), reverse=True)
 
     # Keep only top MAX_ITEMS
-    result = existing[:MAX_ITEMS]
+    # Country-diversified trim: max 4 items per country, then fill with newest
+    from collections import defaultdict
+    country_counts = defaultdict(int)
+    diversified = []
+    for item in existing:
+        c = item.get("country") or "?"
+        if country_counts[c] < 4:
+            diversified.append(item)
+            country_counts[c] += 1
+        if len(diversified) >= MAX_ITEMS:
+            break
+
+    # If less than MAX_ITEMS, fill with remaining items (any country)
+    if len(diversified) < MAX_ITEMS:
+        added_ids = {it["id"] for it in diversified}
+        for item in existing:
+            if item["id"] not in added_ids and len(diversified) < MAX_ITEMS:
+                diversified.append(item)
+
+    result = diversified[:MAX_ITEMS]
     removed = len(existing) - len(result)
     if removed > 0:
-        print(f"[deduplicate_and_merge] Trimmed {removed} older items (window={MAX_ITEMS})")
+        country_dist = dict(country_counts)
+        print(f"[deduplicate_and_merge] Trimmed {removed} older items — country dist: {country_dist}")
 
     return result
 

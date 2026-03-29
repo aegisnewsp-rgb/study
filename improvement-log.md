@@ -778,3 +778,12 @@ Footer timestamp signals content freshness to students and Google. Educational c
 **Files:** `src/components/RoadmapApp.tsx` — added `PCM_EXAM_SUBJECT_ROUTING` map + `getPcmNotesPool()` helper + updated SubjectAccordion notes link to route PCM topics to nearest existing pool
 **Build:** 3,191 pages ✅ deployed
 **Result:** PASSED — PCM routing map verified live in JS bundle (`bitsat`, `mht-cet`, routing to neet/jeeadvanced/jeemain confirmed in RoadmapApp bundle)
+
+## Cycle 64 — 2026-03-28T21:13 UTC
+**Change:** JEE Main Chemistry real notes — all 28 topics regenerated with JEE-specific exam content (Quick/Standard/Deep tiers, exam tips, solved examples)
+**Files:** src/content/notes/jeemain/chemistry/*.md (28 files)
+**Also:** JEE Main Physics 28 topics confirmed generated in Cycle 63 (real content from prior run)
+**Coverage:** JEE Main now has real, exam-aligned notes for Physics (28) + Chemistry (28)
+**Build:** 3,221 pages ✅ | Git: ab75044 ✅
+**Deploy:** blocked (deploy service at 172.17.0.1:9000 unreachable since ~18:15 UTC)
+

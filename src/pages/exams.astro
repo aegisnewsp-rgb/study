@@ -7,11 +7,36 @@ import { ALL_EXAMS, getCountryFlag } from '../data/exams';
 const SUBJECT_COLORS = ['#60a5fa','#34d399','#fb923c','#a78bfa','#f472b6','#14b8a6','#fbbf24','#f87171'];
 function cleanText(s = '') { return s.replace(/\\n/g, ' ').replace(/\\/g, '').replace(/"/g, ''); }
 
-const byCountry = {
-  india:    { label: 'India',    flag: '🇮🇳', exams: ALL_EXAMS.filter(e => e.country === 'india') },
-  pakistan: { label: 'Pakistan', flag: '🇵🇰', exams: ALL_EXAMS.filter(e => e.country === 'pakistan') },
-  nigeria:  { label: 'Nigeria',  flag: '🇳🇬', exams: ALL_EXAMS.filter(e => e.country === 'nigeria') },
+const COUNTRY_LABELS: Record<string, { label: string; flag: string }> = {
+  india:      { label: 'India',        flag: '🇮🇳' },
+  pakistan:   { label: 'Pakistan',     flag: '🇵🇰' },
+  nigeria:    { label: 'Nigeria',      flag: '🇳🇬' },
+  bangladesh: { label: 'Bangladesh',   flag: '🇧🇩' },
+  srilanka:   { label: 'Sri Lanka',    flag: '🇱🇰' },
+  nepal:      { label: 'Nepal',        flag: '🇳🇵' },
+  saudi:      { label: 'Saudi Arabia', flag: '🇸🇦' },
+  uae:        { label: 'UAE',          flag: '🇦🇪' },
+  southafrica:{ label: 'South Africa', flag: '🇿🇦' },
+  kenya:      { label: 'Kenya',       flag: '🇰🇪' },
+  ethiopia:   { label: 'Ethiopia',     flag: '🇪🇹' },
+  ghana:      { label: 'Ghana',       flag: '🇬🇭' },
+  uganda:     { label: 'Uganda',      flag: '🇺🇬' },
+  tanzania:   { label: 'Tanzania',    flag: '🇹🇿' },
+  russia:     { label: 'Russia',      flag: '🇷🇺' },
+  china:      { label: 'China',       flag: '🇨🇳' },
+  philippines:{ label: 'Philippines', flag: '🇵🇭' },
+  indonesia:  { label: 'Indonesia',   flag: '🇮🇩' },
+  malaysia:   { label: 'Malaysia',    flag: '🇲🇾' },
 };
+
+const byCountry = Object.fromEntries(
+  Object.entries(COUNTRY_LABELS)
+    .map(([code, { label, flag }]) => [
+      code,
+      { label, flag, exams: ALL_EXAMS.filter(e => e.country === code) },
+    ])
+    .filter(([, { exams }]) => exams.length > 0)
+);
 
 const EXAM_FAQS = [
   {
@@ -43,7 +68,7 @@ const EXAM_FAQS = [
 
 <Layout
   title="Browse Exams — StudyRoadmap™"
-  description="Explore all 20+ competitive exams covered by StudyRoadmap™. NEET, JEE, UPSC, MDCAT, JAMB, WAEC and more."
+  description={`Explore all ${ALL_EXAMS.length} competitive exams covered by StudyRoadmap™ — NEET, JEE, UPSC, MDCAT, JAMB, WAEC, Gaokao, and more across ${Object.keys(byCountry).length} countries.`}
   faqs={EXAM_FAQS}
 >
   <Navbar />
@@ -53,7 +78,7 @@ const EXAM_FAQS = [
       <div class="container-page py-14 sm:py-20 text-center">
         <h1 class="heading-1 text-surface-900 dark:text-surface-50 mb-3">Browse Exams</h1>
         <p class="text-base sm:text-lg text-surface-600 dark:text-surface-400 max-w-xl mx-auto">
-          {ALL_EXAMS.length} exams across India, Pakistan, and Nigeria. Select any exam to generate your personalised study roadmap.
+          {ALL_EXAMS.length} exams across {Object.keys(byCountry).length} countries. Select any exam to generate your personalised study roadmap — completely free.
         </p>
       </div>
     </section>

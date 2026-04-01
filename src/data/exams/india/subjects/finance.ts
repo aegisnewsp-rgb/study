@@ -1,15 +1,15 @@
 export const finance: Subject = {
-  id: 'finance', name: 'Finance', color: '#6b7280',
+  id: 'finance', name: 'Finance', color: '#059669',
   topics: [
-    { id: 'financ-001', name: 'Topic 1', weight: 3 as const },
-    { id: 'financ-002', name: 'Topic 2', weight: 3 as const },
-    { id: 'financ-003', name: 'Topic 3', weight: 3 as const },
-    { id: 'financ-004', name: 'Topic 4', weight: 3 as const },
-    { id: 'financ-005', name: 'Topic 5', weight: 3 as const },
-    { id: 'financ-006', name: 'Topic 6', weight: 3 as const },
-    { id: 'financ-007', name: 'Topic 7', weight: 3 as const },
-    { id: 'financ-008', name: 'Topic 8', weight: 3 as const },
-    { id: 'financ-009', name: 'Topic 9', weight: 3 as const },
-    { id: 'financ-010', name: 'Topic 10', weight: 3 as const }
+    { id: 'financ-001', name: 'Topic 1', weight: 3 as const, description: 'Financial System in India: Structure of the Indian financial system — RBI, commercial banks, co-operative banks, NBFCs, payment banks, small finance banks, and their regulatory framework — foundational knowledge for RBI Grade B Finance paper.' },
+    { id: 'financ-002', name: 'Topic 2', weight: 3 as const, description: 'Banking and Financial Institutions: Role of commercial banks, development finance institutions (SIDBI, NABARD), insurance sector (IRDAI), pension fund regulator (PFRDA), and market regulators (SEBI) — institutional landscape for RBI finance preparation.' },
+    { id: 'financ-003', name: 'Topic 3', weight: 3 as const, description: 'Money and Capital Markets: Money market instruments (T-bills, commercial papers, call money), capital market (equity, debentures, derivatives), stock exchanges (BSE, NSE), and market participants — key for understanding financial market operations.' },
+    { id: 'financ-004', name: 'Topic 4', weight: 3 as const, description: 'Financial Mathematics and Accounting: Time value of money, NPV, IRR, ratio analysis, balance sheet interpretation, and basic accounting concepts — quantitative finance for RBI officers.' },
+    { id: 'financ-005', name: 'Topic 5', weight: 3 as const, description: 'Inflation and Monetary Policy: Types of inflation, causes and effects, inflation targeting, monetary policy framework, RBI\'s inflation management tools, and impact on financial markets — RBI\'s core mandate area.' },
+    { id: 'financ-006', name: 'Topic 6', weight: 3 as const, description: 'Financial Inclusion and Digital Finance: Jan Dhan Yojana, UPI and digital payments, microfinance, priority sector lending, banking correspondent model, and financial literacy initiatives — RBI\'s financial inclusion goals.' },
+    { id: 'financ-007', name: 'Topic 7', weight: 3 as const, description: 'Risk Management in Banking: Credit risk, market risk, operational risk, Basel norms (Basel I, II, III), capital adequacy ratio, and NPA management — essential risk framework knowledge for RBI officers.' },
+    { id: 'financ-008', name: 'Topic 8', weight: 3 as const, description: 'Government Finance and Budget: Union budget components, fiscal deficit, revenue deficit, GST council, tax revenue, and implications of government borrowing for monetary policy — macro-finance intersection.' },
+    { id: 'financ-009', name: 'Topic 9', weight: 3 as const, description: 'International Finance: Forex reserves, exchange rate regime, FEMA regulations, ECB norms, BoP (Balance of Payments), SDR allocations, and India\'s international financial agreements — RBI\'s external sector management.' },
+    { id: 'financ-010', name: 'Topic 10', weight: 3 as const, description: 'Recent Financial Sector Developments: Fintech, cryptocurrency regulations, digital lending guidelines, stressed asset resolution, consolidation of banks, and latest RBI policy circulars — current developments crucial for the finance paper.' }
   ]
 };

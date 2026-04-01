@@ -1,15 +1,15 @@
 export const indian_polity: Subject = {
-  id: 'indian-polity', name: 'Indian-Polity', color: '#6b7280',
+  id: 'indian-polity', name: 'Indian Polity', color: '#6b7280',
   topics: [
-    { id: 'indian-001', name: 'Topic 1', weight: 3 as const },
-    { id: 'indian-002', name: 'Topic 2', weight: 3 as const },
-    { id: 'indian-003', name: 'Topic 3', weight: 3 as const },
-    { id: 'indian-004', name: 'Topic 4', weight: 3 as const },
-    { id: 'indian-005', name: 'Topic 5', weight: 3 as const },
-    { id: 'indian-006', name: 'Topic 6', weight: 3 as const },
-    { id: 'indian-007', name: 'Topic 7', weight: 3 as const },
-    { id: 'indian-008', name: 'Topic 8', weight: 3 as const },
-    { id: 'indian-009', name: 'Topic 9', weight: 3 as const },
-    { id: 'indian-010', name: 'Topic 10', weight: 3 as const }
+    { id: 'indian-001', name: 'Topic 1', weight: 3 as const, description: 'Indian Constitution: Making of the Constitution, Preamble, fundamental features, amendments, and basic structure doctrine — a high-weight, frequently asked section in RAS Prelims and Mains.' },
+    { id: 'indian-002', name: 'Topic 2', weight: 3 as const, description: 'Fundamental Rights and Duties: Articles 12-35 covering rights to equality, freedom, against exploitation, religious freedom, cultural and educational rights, and the right to constitutional remedies — often tested through case study questions.' },
+    { id: 'indian-003', name: 'Topic 3', weight: 3 as const, description: 'Directive Principles of State Policy: Articles 36-51, their classification, justiciability, conflict with fundamental rights, and significance in governance — a conceptual yet scoring area in Mains political science.' },
+    { id: 'indian-004', name: 'Topic 4', weight: 3 as const, description: 'Government Structure: President, Vice-President, Prime Minister, Council of Ministers, Cabinet, Governor, Chief Minister — powers, functions, and inter-institutional relationships tested across all stages.' },
+    { id: 'indian-005', name: 'Topic 5', weight: 3 as const, description: 'Parliament: Lok Sabha, Rajya Sabha, legislative process, committees, budget process, parliamentary privileges, and role in democracy — frequently asked in RAS Prelims and Mains descriptive answers.' },
+    { id: 'indian-006', name: 'Topic 6', weight: 3 as const, description: 'Judiciary: Supreme Court, High Courts, district courts, judicial review, writs, public interest litigation, appointment and independence of judges — a complex but high-weight section.' },
+    { id: 'indian-007', name: 'Topic 7', weight: 3 as const, description: 'Federalism: Centre-State relations, state lists, union lists, concurrent lists, GST council, disputes and coordination, 3rd schedule, 74th and 73rd Constitutional Amendment — a Rajasthan-centric angle exists in state-specific governance.' },
+    { id: 'indian-008', name: 'Topic 8', weight: 3 as const, description: 'Constitutional Bodies: Election Commission, UPSC, SPSC, Finance Commission, CAG, NCSC, NCST, NGT, and other constitutional bodies — their composition, powers, and functions are tested in detail.' },
+    { id: 'indian-009', name: 'Topic 9', weight: 3 as const, description: 'Local Self Government: 73rd and 74th Amendment, Panchayati Raj institutions, municipalities, state election commissions, and grassroots democracy in Rajasthan — important for understanding governance at the grassroots level.' },
+    { id: 'indian-010', name: 'Topic 10', weight: 3 as const, description: 'Political Science Concepts: Democracy, secularism, socialism, justice, freedom, sovereignty, citizenship, political parties, pressure groups, and contemporary political theory — conceptual foundation for polity section.' }
   ]
 };

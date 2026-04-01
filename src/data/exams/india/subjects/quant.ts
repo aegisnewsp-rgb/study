@@ -1,20 +1,20 @@
 export const quant: Subject = {
   id: 'quant', name: 'Quantitative Aptitude', color: '#6b7280',
   topics: [
-    { id: 'quant-001', name: 'Topic 1', weight: 3 as const },
-    { id: 'quant-002', name: 'Topic 2', weight: 3 as const },
-    { id: 'quant-003', name: 'Topic 3', weight: 3 as const },
-    { id: 'quant-004', name: 'Topic 4', weight: 3 as const },
-    { id: 'quant-005', name: 'Topic 5', weight: 3 as const },
-    { id: 'quant-006', name: 'Topic 6', weight: 3 as const },
-    { id: 'quant-007', name: 'Topic 7', weight: 3 as const },
-    { id: 'quant-008', name: 'Topic 8', weight: 3 as const },
-    { id: 'quant-009', name: 'Topic 9', weight: 3 as const },
-    { id: 'quant-010', name: 'Topic 10', weight: 3 as const },
-    { id: 'quant-011', name: 'Topic 11', weight: 3 as const },
-    { id: 'quant-012', name: 'Topic 12', weight: 3 as const },
-    { id: 'quant-013', name: 'Topic 13', weight: 3 as const },
-    { id: 'quant-014', name: 'Topic 14', weight: 3 as const },
-    { id: 'quant-015', name: 'Topic 15', weight: 3 as const }
+    { id: 'quant-001', name: 'Topic 1', weight: 3 as const, description: 'Number System: Types of numbers, divisibility rules, HCF-LCM, unit digit, remainder theorem, and cyclicity - foundational arithmetic with direct formula-based questions.' },
+    { id: 'quant-002', name: 'Topic 2', weight: 3 as const, description: 'Percentage and Ratio-Proportion: Percentage conversion, successive percentage changes, ratio applications, proportion, and mixture problems - a frequently used arithmetic concept across many quantitative topics.' },
+    { id: 'quant-003', name: 'Topic 3', weight: 3 as const, description: 'Profit, Loss, and Discount: Marked price, selling price, discount percentage, successive discounts, and partnership profit sharing - practical arithmetic widely tested in RBI Phase I.' },
+    { id: 'quant-004', name: 'Topic 4', weight: 3 as const, description: 'Simple and Compound Interest: SI formula variations, CI formula, different rates for different years, population growth problems, and the difference between SI and CI - a scoring calculator-intensive section.' },
+    { id: 'quant-005', name: 'Topic 5', weight: 3 as const, description: 'Time, Speed, and Distance: Average speed, relative speed, train problems, boat and stream, races, and circular tracks - frequently combined with time and work concepts.' },
+    { id: 'quant-006', name: 'Topic 6', weight: 3 as const, description: 'Time and Work: Work efficiency, Pipes and Cisterns, work and wages, alternate days problems, and work equivalence - a conceptual arithmetic topic with many formula variations.' },
+    { id: 'quant-007', name: 'Topic 7', weight: 3 as const, description: 'Data Interpretation: Tables, bar graphs, line charts, pie charts, caselets, and mixed DI with arithmetic concepts - the highest weight topic in RBI quant section requiring strong calculation speed.' },
+    { id: 'quant-008', name: 'Topic 8', weight: 3 as const, description: 'Quadratic Equations and Inequalities: Factorization method, Shri Dharacharya formula, nature of roots, and sign-based inequalities - algebra-based questions with quick solving potential.' },
+    { id: 'quant-009', name: 'Topic 9', weight: 3 as const, description: 'Simplification and Approximation: BODMAS rules, missing number problems, and approximate calculation techniques - provides high accuracy with speed when practiced daily.' },
+    { id: 'quant-010', name: 'Topic 10', weight: 3 as const, description: 'Probability and Permutation-Combination: Basic probability, independent and dependent events, permutation, combination, and arrangement problems - conceptual topics often combined with word problems.' },
+    { id: 'quant-011', name: 'Topic 11', weight: 3 as const, description: 'Mensuration: Area and perimeter of 2D shapes, surface area and volume of 3D shapes, and practical applications - geometric calculations requiring formula memorization.' },
+    { id: 'quant-012', name: 'Topic 12', weight: 3 as const, description: 'Series and Sequence: Arithmetic and geometric progressions, missing number series, wrong number series, and pattern identification - practice-intensive section with high accuracy potential.' },
+    { id: 'quant-013', name: 'Topic 13', weight: 3 as const, description: 'Average and Ages: Simple average, weighted average, age-related problems, and average speed problems - straightforward questions that are easy to score with clear concepts.' },
+    { id: 'quant-014', name: 'Topic 14', weight: 3 as const, description: 'Partnership and Alligation: Simple and compound partnership, alligation method for mixing, and profit-loss sharing ratios - practical application of ratio concepts.' },
+    { id: 'quant-015', name: 'Topic 15', weight: 3 as const, description: 'Data Sufficiency (Quant): Questions from various quant topics presented as DS - tests conceptual clarity and ability to determine if given statements provide enough information to answer.' }
   ]
 };

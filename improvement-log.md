@@ -1240,3 +1240,18 @@ Footer timestamp signals content freshness to students and Google. Educational c
 **Files:** src/pages/roadmap.astro (EXAM_FAQS map)
 **Build:** 3221 pages ✅ | Deploy ✅ | Sitemap ✅ | Live page ✅
 **Result:** PASSED
+
+## Cycle 95 | 2026-04-01T15:30 UTC | PASSED ✅
+
+### Homepage FAQPage E-E-A-T Expansion
+- Expanded from 12 → 15 questions on the homepage FAQPage schema
+- Added 3 new E-E-A-T questions:
+  1. "Who creates the study content and curriculum notes?" — signals expertise, references official exam boards
+  2. "How do you keep exam content accurate and up to date?" — signals review process, syllabus monitoring
+  3. "Can state board and CBSE students use the same roadmap?" — signals broad applicability, trust for diverse student base
+- Live verified: FAQPage now 15 questions ✅
+
+### Git Status
+- 4 unpushed commits (local only — GitHub push blocked from sandbox)
+- Latest commit: 468a348 "Expand homepage FAQPage: +3 E-E-A-T signal questions"
+

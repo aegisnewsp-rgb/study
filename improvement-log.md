@@ -1255,3 +1255,15 @@ Footer timestamp signals content freshness to students and Google. Educational c
 - 4 unpushed commits (local only — GitHub push blocked from sandbox)
 - Latest commit: 468a348 "Expand homepage FAQPage: +3 E-E-A-T signal questions"
 
+
+## Cycle 96 | 2026-04-01T16:00 UTC | PASSED ✅
+
+### Critical Bug Fix: Broken Topic Links
+- **Bug**: All topic listing pages (`/notes/[exam]/[subject]/`) were generating links with `href="/notes/undefined"` — ALL topic card links were broken
+- **Root cause**: Astro content collections v2+ use `note.id` for file paths, not `note.slug` (which was undefined)
+- **Files fixed**:
+  - `src/pages/notes/[exam]/[subject]/index.astro` — topic card links
+  - `src/pages/notes/[exam]/index.astro` — exam listing links
+- **Impact**: SEO — Google was following broken internal links; users couldn't navigate to topic pages from subject listings
+- **Live verified**: `/notes/neet/physics/` now correctly links to `/notes/neet/physics/phy-001` etc. ✅
+

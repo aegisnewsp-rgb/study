@@ -177,13 +177,6 @@ const faqJsonLd = {
   })),
 };
 
-const orgJsonLd = {
-  '@context': 'https://schema.org',
-  '@type': 'Organization',
-  name: 'StudyRoadmap',
-  url: siteUrl,
-  sameAs: [],
-};
 
 const breadcrumbJsonLd = {
   '@context': 'https://schema.org',
@@ -199,9 +192,7 @@ const breadcrumbJsonLd = {
 ---
 
 <Layout title={title} description={description} canonical={canonicalUrl} image={ogImage} faqs={faqs}>
-  <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
-  <script type="application/ld+json" set:html={JSON.stringify(orgJsonLd)} />
 
   <Navbar />
   <main id="main-content" class="flex-1">

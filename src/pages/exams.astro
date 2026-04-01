@@ -4,6 +4,17 @@ import Navbar from '../components/Navbar.astro';
 import Footer from '../components/Footer.astro';
 import { ALL_EXAMS, getCountryFlag } from '../data/exams';
 
+const SITE_URL = 'https://studyroadmap.in';
+
+const breadcrumbJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: SITE_URL },
+    { '@type': 'ListItem', position: 2, name: 'Exams', item: `${SITE_URL}/exams/` },
+  ],
+};
+
 const SUBJECT_COLORS = ['#60a5fa','#34d399','#fb923c','#a78bfa','#f472b6','#14b8a6','#fbbf24','#f87171'];
 function cleanText(s = '') { return s.replace(/\\n/g, ' ').replace(/\\/g, '').replace(/"/g, ''); }
 
@@ -71,6 +82,7 @@ const EXAM_FAQS = [
   description={`Explore all ${ALL_EXAMS.length} competitive exams covered by StudyRoadmap™ — NEET, JEE, UPSC, MDCAT, JAMB, WAEC, Gaokao, and more across ${Object.keys(byCountry).length} countries.`}
   faqs={EXAM_FAQS}
 >
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
   <Navbar />
 
   <main id="main-content" class="flex-1">

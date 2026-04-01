@@ -15,7 +15,7 @@ import time
 from datetime import datetime, timezone
 from typing import Optional
 
-NEWS_FILE = os.path.join(os.path.dirname(__file__), "..", "news.json")
+NEWS_FILE = os.path.join(os.path.dirname(__file__), "..", "public", "news.json")
 MAX_ITEMS = 10
 
 # Free RSS feeds — exam and education news

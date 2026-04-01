@@ -1,0 +1,94 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.astro';
+import Footer from '../components/Footer.astro';
+
+const structuredData = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Why does StudyRoadmap show a 404 page?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You landed on a page that doesn't exist. This can happen if you clicked a broken link, if a page was moved, or if you typed a wrong URL. Use the search box above or head back to the homepage to find what you need."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I find my roadmap again?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — bookmarks are the most reliable way to save your roadmap. Your roadmap is generated instantly, so you can return to StudyRoadmap anytime and recreate it for free in seconds."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is StudyRoadmap free to use?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. StudyRoadmap is completely free and requires no account creation. Select your exam, choose your timeline, and get an instant personalized study roadmap."
+      }
+    }
+  ]
+};
+---
+
+<Layout
+  title="404 — Page Not Found | StudyRoadmap"
+  description="The page you're looking for doesn't exist. Get a free instant study roadmap for NEET, JEE, UPSC, MDCAT, JAMB and 80+ exams."
+  noindex={true}
+>
+  <Navbar />
+
+  <main class="min-h-screen flex flex-col items-center justify-center px-4 py-20 text-center">
+    <!-- Decorative icon -->
+    <div class="text-7xl mb-6">🔍</div>
+
+    <!-- Heading -->
+    <h1 class="text-5xl font-bold mb-4 text-foreground">404</h1>
+    <h2 class="text-2xl font-semibold mb-6 text-foreground">Page Not Found</h2>
+
+    <!-- Description -->
+    <p class="text-mutedforeground max-w-md text-lg mb-8">
+      The page you're looking for has moved, been deleted, or never existed.
+      But your study plan is still waiting — let's get you back on track.
+    </p>
+
+    <!-- CTA buttons -->
+    <div class="flex flex-wrap gap-4 justify-center mb-12">
+      <a
+        href="/"
+        class="inline-flex items-center gap-2 px-6 py-3 bg-primary text-primary-foreground font-semibold rounded-xl hover:opacity-90 transition-opacity"
+      >
+        <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+        </svg>
+        Go to Homepage
+      </a>
+      <a
+        href="/roadmap"
+        class="inline-flex items-center gap-2 px-6 py-3 border border-border font-semibold rounded-xl hover:bg-accent transition-colors"
+      >
+        Create a Roadmap →
+      </a>
+    </div>
+
+    <!-- Popular exams quick links -->
+    <div class="text-sm text-mutedforeground">
+      <p class="mb-3 font-medium">Popular exams:</p>
+      <div class="flex flex-wrap gap-2 justify-center">
+        {['NEET', 'JEE Main', 'UPSC', 'CUET', 'CAT', 'NDA', 'MDCAT', 'JAMB'].map(exam => (
+          <a href={`/roadmap?exam=${exam.toLowerCase().replace(' ', '-')}`} class="px-3 py-1 bg-secondary rounded-lg hover:opacity-80 text-sm">
+            {exam}
+          </a>
+        ))}
+      </div>
+    </div>
+  </main>
+
+  <Footer />
+</Layout>
+
+<script type="application/ld+json" set:html={JSON.stringify(structuredData)} />

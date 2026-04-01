@@ -23,6 +23,7 @@ export { default as CAT } from './india/cat';
 export { default as CLAT } from './india/clat';
 export { default as NDA } from './india/nda';
 export { default as UGCNET } from './india/ugc-net';
+export { default as MANIPAL_MET } from './india/manipal-met';
 
 // ─── New 2026 exams ───────────────────────────────────────────────
 // Bangladesh
@@ -132,14 +133,13 @@ export { default as sppsc } from './pakistan/sppsc';
 // Philippines
 export { default as nmat } from './philippines/nmat';
 export { default as u_pcat } from './philippines/u-pcat';
-export { default as 帖ast } from './philippines/帖ast';
+export { default as pcat_ph } from './philippines/pcat';
 
 // Russia
 export { default as eed } from './russia/eed';
 
 // Saudi
 export { default as qimiyah } from './saudi/qimiyah';
-export { default as s_Thee } from './saudi/s Thee';
 export { default as sgpat } from './saudi/sgpat';
 
 // Southafrica
@@ -160,7 +160,7 @@ export { default as must_adm } from './tanzania/must-adm';
 // Uae
 export { default as doh } from './uae/doh';
 export { default as haad } from './uae/haad';
-export { default as uAeu_cat } from './uae/uAeu-cat';
+export { default as uAeu_cat } from './uae/uAeu_cat';
 
 // Uganda
 export { default as law_ent_uga } from './uganda/law-ent-uga';
@@ -188,6 +188,7 @@ import CAT from './india/cat';
 import CLAT from './india/clat';
 import NDA from './india/nda';
 import UGCNET from './india/ugc-net';
+import MANIPAL_MET from './india/manipal-met';
 
 import buet_adm from './bangladesh/buet-adm';
 import du_ad from './bangladesh/du-ad';
@@ -273,10 +274,9 @@ import ppsc from './pakistan/ppsc';
 import sppsc from './pakistan/sppsc';
 import nmat from './philippines/nmat';
 import u_pcat from './philippines/u-pcat';
-import 帖ast from './philippines/帖ast';
+import pcat_ph from './philippines/pcat';
 import eed from './russia/eed';
 import qimiyah from './saudi/qimiyah';
-import s_Thee from './saudi/s Thee';
 import sgpat from './saudi/sgpat';
 import hepc from './southafrica/hepc';
 import llb_ent from './southafrica/llb-ent';
@@ -289,7 +289,7 @@ import law_ent_tz from './tanzania/law-ent-tz';
 import must_adm from './tanzania/must-adm';
 import doh from './uae/doh';
 import haad from './uae/haad';
-import uAeu_cat from './uae/uAeu-cat';
+import uAeu_cat from './uae/uAeu_cat';
 import law_ent_uga from './uganda/law-ent-uga';
 import makerere_ent from './uganda/makerere-ent';
 import uneb from './uganda/uneb';
@@ -297,6 +297,7 @@ import uneb from './uganda/uneb';
 export const ALL_EXAMS = [
   NEET, JEEMain, JEEAdvanced, CUET, UPSC, SSCCGL, CAT, CLAT, NDA, UGCNET,
   MDCAT, ECAT, NAT1, LAT, HATUG,
+  MANIPAL_MET,
   JAMB, WAEC, NECO, NABTEB, NCEE,
   // Bangladesh
   buet_adm, du_ad, du_adm, kuet, medical_adm,
@@ -332,11 +333,11 @@ export const ALL_EXAMS = [
   accagl, ecat_eng, fpsc_cce, gat, kpkpse,
   mcat, nabe, nlt, ppsc, sppsc,
   // Philippines
-  nmat, u_pcat, 帖ast,
+  nmat, u_pcat, pcat_ph,
   // Russia
   eed,
   // Saudi
-  qimiyah, s_Thee, sgpat,
+  qimiyah, sgpat,
   // Southafrica
   hepc, llb_ent, sa_pharm,
   // Srilanka

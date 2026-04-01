@@ -1,15 +1,11 @@
-import type { ExamTemplate, Subject } from '../types';
+import type { ExamTemplate } from '../types';
 
-import { biology } from './subjects/biology';
-import { chemistry } from './subjects/chemistry';
 import { physics } from './subjects/physics';
+import { chemistry } from './subjects/chemistry';
+import { mathematics } from './subjects/mathematics';
+import { english } from './subjects/english';
 
-const subjects: Subject[] = [
-    biology,
-    chemistry,
-    physics,
-];
-
+const subjects = [physics, chemistry, mathematics, english];
 
 function makeRoadmap(subjects: Subject[], duration: string, totalDays: number, description: string): RoadmapTemplate {
   const dailyCapacity = Math.max(1, Math.floor(subjects.reduce((sum, s) => sum + s.topics.length, 0) / totalDays));
@@ -34,22 +30,22 @@ function makeRoadmap(subjects: Subject[], duration: string, totalDays: number, d
 }
 
 const exam: ExamTemplate = {
-  examId: 'qimiyah',
-  examName: 'Saudi Medical Exam',
-  country: 'saudi',
+  examId: 'manipal-met',
+  examName: 'Manipal MET',
+  country: 'india',
   subjects,
   durations: {
-  '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for Saudi Medical Exam — 1 Hour'),
-  '1d': makeRoadmap(subjects, '1d', 1, 'Study plan for Saudi Medical Exam — 1 Day'),
-  '3d': makeRoadmap(subjects, '3d', 3, 'Study plan for Saudi Medical Exam — 3 Days'),
-  '7d': makeRoadmap(subjects, '7d', 7, 'Study plan for Saudi Medical Exam — 1 Week'),
-  '1mo': makeRoadmap(subjects, '1mo', 30, 'Study plan for Saudi Medical Exam — 1 Month'),
-  '3mo': makeRoadmap(subjects, '3mo', 90, 'Study plan for Saudi Medical Exam — 3 Months'),
-  '6mo': makeRoadmap(subjects, '6mo', 180, 'Study plan for Saudi Medical Exam — 6 Months'),
+    '1h':  makeRoadmap(subjects, '1h',  1,   'Study plan for Manipal MET — 1 Hour'),
+    '1d':  makeRoadmap(subjects, '1d',  1,   'Study plan for Manipal MET — 1 Day'),
+    '3d':  makeRoadmap(subjects, '3d',  3,   'Study plan for Manipal MET — 3 Days'),
+    '7d':  makeRoadmap(subjects, '7d',  7,   'Study plan for Manipal MET — 1 Week'),
+    '1mo': makeRoadmap(subjects, '1mo', 30,  'Study plan for Manipal MET — 1 Month'),
+    '3mo': makeRoadmap(subjects, '3mo', 90,  'Study plan for Manipal MET — 3 Months'),
+    '6mo': makeRoadmap(subjects, '6mo', 180, 'Study plan for Manipal MET — 6 Months'),
   },
   rescueMode: {
     name: 'Rescue Mode',
-    description: 'Cramming plan for Saudi Medical Exam',
+    description: 'Cramming plan for Manipal MET',
     duration: '1d',
     focusAreas: subjects.slice(0, 3).map(s => ({
       subject: s.name,
@@ -57,8 +53,8 @@ const exam: ExamTemplate = {
     })),
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
-  lastUpdated: '2026-03-25',
-  officialSource: 'https://example.com',
+  lastUpdated: '2026-04-01',
+  officialSource: 'https://manipal.edu/mu-met',
 };
 
 export default exam;

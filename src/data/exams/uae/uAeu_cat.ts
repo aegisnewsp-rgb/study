@@ -1,13 +1,15 @@
 import type { ExamTemplate, Subject } from '../types';
 
-import { biology } from './subjects/biology';
-import { chemistry } from './subjects/chemistry';
-import { physics } from './subjects/physics';
+import { mathematics } from './subjects/mathematics';
+import { english } from './subjects/english';
+import { science } from './subjects/science';
+import { gk } from './subjects/gk';
 
 const subjects: Subject[] = [
-    biology,
-    chemistry,
-    physics,
+    mathematics,
+    english,
+    science,
+    gk,
 ];
 
 
@@ -34,22 +36,22 @@ function makeRoadmap(subjects: Subject[], duration: string, totalDays: number, d
 }
 
 const exam: ExamTemplate = {
-  examId: 'qimiyah',
-  examName: 'Saudi Medical Exam',
-  country: 'saudi',
+  examId: 'uAeu_cat',
+  examName: 'UAE University CAT',
+  country: 'uae',
   subjects,
   durations: {
-  '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for Saudi Medical Exam — 1 Hour'),
-  '1d': makeRoadmap(subjects, '1d', 1, 'Study plan for Saudi Medical Exam — 1 Day'),
-  '3d': makeRoadmap(subjects, '3d', 3, 'Study plan for Saudi Medical Exam — 3 Days'),
-  '7d': makeRoadmap(subjects, '7d', 7, 'Study plan for Saudi Medical Exam — 1 Week'),
-  '1mo': makeRoadmap(subjects, '1mo', 30, 'Study plan for Saudi Medical Exam — 1 Month'),
-  '3mo': makeRoadmap(subjects, '3mo', 90, 'Study plan for Saudi Medical Exam — 3 Months'),
-  '6mo': makeRoadmap(subjects, '6mo', 180, 'Study plan for Saudi Medical Exam — 6 Months'),
+  '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for UAE University CAT — 1 Hour'),
+  '1d': makeRoadmap(subjects, '1d', 1, 'Study plan for UAE University CAT — 1 Day'),
+  '3d': makeRoadmap(subjects, '3d', 3, 'Study plan for UAE University CAT — 3 Days'),
+  '7d': makeRoadmap(subjects, '7d', 7, 'Study plan for UAE University CAT — 1 Week'),
+  '1mo': makeRoadmap(subjects, '1mo', 30, 'Study plan for UAE University CAT — 1 Month'),
+  '3mo': makeRoadmap(subjects, '3mo', 90, 'Study plan for UAE University CAT — 3 Months'),
+  '6mo': makeRoadmap(subjects, '6mo', 180, 'Study plan for UAE University CAT — 6 Months'),
   },
   rescueMode: {
     name: 'Rescue Mode',
-    description: 'Cramming plan for Saudi Medical Exam',
+    description: 'Cramming plan for UAE University CAT',
     duration: '1d',
     focusAreas: subjects.slice(0, 3).map(s => ({
       subject: s.name,

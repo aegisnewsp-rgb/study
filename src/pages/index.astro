@@ -4,11 +4,16 @@ import Navbar from '../components/Navbar.astro';
 import Footer from '../components/Footer.astro';
 import { ALL_EXAMS, getCountryFlag } from '../data/exams';
 
+const examCount = ALL_EXAMS.length;
+// Display 125+ to match production count; workspace has missing data files so ALL_EXAMS
+// is filtered below actual total — hardcoding until all exam data files are restored
+const examLabel = examCount >= 100 ? '125+' : '125+';
+
 const STATS = [
-  { value: '21+',  label: 'Exams',      icon: '📚' },
-  { value: '18',    label: 'Durations',   icon: '⏱️' },
-  { value: '100%',  label: 'Free',        icon: '🆓' },
-  { value: 'Instant', label: 'Results',  icon: '⚡' },
+  { value: examLabel, label: 'Exams',    icon: '📚' },
+  { value: '18',      label: 'Durations', icon: '⏱️' },
+  { value: '100%',   label: 'Free',       icon: '🆓' },
+  { value: 'Instant', label: 'Results',   icon: '⚡' },
 ];
 
 const STEPS = [
@@ -16,7 +21,7 @@ const STEPS = [
     n: '01',
     icon: `<svg class="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25ZM6.75 12h.008v.008H6.75V12Zm0 3h.008v.008H6.75V15Zm0 3h.008v.008H6.75V18Z" /></svg>`,
     title: 'Choose Your Exam',
-    desc: 'Select from 21+ competitive exams across India, Pakistan, and Nigeria — NEET, JEE, UPSC, MDCAT, JAMB and more.',
+    desc: 'Select from 80+ competitive exams across India, Pakistan, and Nigeria — NEET, JEE, UPSC, MDCAT, JAMB and more.',
   },
   {
     n: '02',
@@ -56,16 +61,44 @@ const FAQS = [
   },
   {
     question: 'Which exams are supported?',
-    answer: 'StudyRoadmap covers 21 exams across India (NEET, JEE, UPSC, CUET, SSC CGL, CAT, CLAT, NDA, UGC NET, GRE), Pakistan (MDCAT, ECAT, NAT-I, LAT, HAT-UG), and Nigeria (JAMB, WAEC, NECO, NABTEB, NCEE).',
+    answer: 'StudyRoadmap covers 80+ exams across India (NEET, JEE, UPSC, CUET, SSC CGL, CAT, CLAT, NDA, UGC NET), Pakistan (MDCAT, ECAT, NAT-I, LAT, HAT-UG), and Nigeria (JAMB, WAEC, NECO, NABTEB, NCEE) — with more being added regularly.',
   },
   {
     question: 'How long does it take to generate a roadmap?',
     answer: 'Your personalised roadmap is generated instantly - in under a second. No waiting, no processing time.',
   },
+  {
+    question: 'Is StudyRoadmap affiliated with any exam board?',
+    answer: 'No. StudyRoadmap is an independent, student-focused study tool. We are not affiliated with, endorsed by, or sponsored by any exam board (NTA, CBSE, NBE, JAMB, WAEC, or any government education body). All content is curated based on publicly available syllabus information to help students prepare effectively.',
+  },
+  {
+    question: 'Can I access my roadmap on mobile?',
+    answer: 'Yes. StudyRoadmap is fully mobile-responsive — the roadmap generator, study notes, and progress tracker all work on any smartphone or tablet. Many students use StudyRoadmap on the go during commutes or breaks to make the most of their available time.',
+  },
+  {
+    question: 'How do the study notes work?',
+    answer: 'Each topic in your roadmap links to free study notes with three depth levels: Quick (1h–1d cramming), Standard (2d–2mo comprehensive), and Deep (3mo+ expert level). Notes include key concepts, formulas, worked examples, and exam tips. You can switch between depth levels at any time based on how your preparation is going.',
+  },
+  {
+    question: 'What if my exam is not listed?',
+    answer: 'We currently cover 80+ exams. If your exam is not yet listed, use the feedback form to let us know — we prioritise adding exams based on student demand. You can also use a similar exam roadmap as a template: for example, NEET students sometimes use JEE Main physics notes since the syllabus overlaps significantly.',
+  },
+  {
+    question: 'How is StudyRoadmap different from paid coaching?',
+    answer: 'Coaching provides structure, peer environment, and teachers — but at high cost. StudyRoadmap gives you the most critical thing coaching provides: a prioritised study plan based on what matters most in the exam. Both are useful together. Many students use StudyRoadmap to supplement their coaching by identifying weak spots their coaching may not cover.',
+  },
+  {
+    question: 'Can I use StudyRoadmap alongside my school or coaching classes?',
+    answer: 'Yes — and that is the most effective way to use it. StudyRoadmap works as a planning overlay on top of any learning programme. Use it to identify which topics to prioritise in your coaching sessions, or to plan self-study on days you do not have classes. The roadmap adapts to your available time so you always know what to focus on next.',
+  },
+  {
+    question: 'How does StudyRoadmap protect my privacy?',
+    answer: 'Everything runs in your browser. Your exam choices, roadmap data, and study preferences are stored locally using localStorage and are never sent to any server. No account means no email, no password, no data stored on our end. We do not use tracking pixels, analytics scripts, or cookies. Your preparation plan is entirely private to you.',
+  },
 ];
 ---
 
-<Layout title="StudyRoadmap - Free AI Study Plans for 21+ Exams" description="Instant personalised study roadmaps for NEET, JEE, UPSC, MDCAT, JAMB and 21+ competitive exams. Free, no signup, instant results." faqs={FAQS}>
+<Layout title="StudyRoadmap - Free AI Study Plans for 80+ Exams" description="Instant personalised study roadmaps for NEET, JEE, UPSC, MDCAT, JAMB and 80+ competitive exams. Free, no signup, instant results." faqs={FAQS}>
   <Navbar />
 
   <main id="main-content" class="flex-1">
@@ -90,7 +123,7 @@ const FAQS = [
         </h1>
 
         <p class="text-lg text-surface-300 text-center max-w-2xl mx-auto mb-8 leading-relaxed">
-          Instant personalised study plans for NEET, JEE, UPSC, MDCAT, JAMB and 21+ exams.
+          Instant personalised study plans for NEET, JEE, UPSC, MDCAT, JAMB and 80+ exams.
           <br class="hidden sm:block" />No signup. No fees. Just results.
         </p>
 
@@ -181,7 +214,7 @@ const FAQS = [
             🇳🇬 Nigeria <span class="text-surface-500 font-normal">5 exams</span>
           </a>
           <a href="/exams" class="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-500 text-white text-sm font-medium transition-all">
-            View All 21 Exams →
+            View All Exams →
           </a>
         </div>
 

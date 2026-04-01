@@ -8,19 +8,20 @@ StudyRoadmap is a free, no-signup-required AI study planner for students in Indi
 ## URL: https://studyroadmap.in
 
 ## Date
-2026-03-26
+2026-04-01
 
 ## What We Offer
 - Instant, personalized study roadmaps generated client-side using an AI expert system
-- Coverage of 21+ competitive exams: NEET, JEE Main, JEE Advanced, CUET, UPSC, SSC CGL, CAT, CLAT, NDA, UGC NET, GRE (India), MDCAT, ECAT, NAT-I, LAT, HAT-UG (Pakistan), JAMB, WAEC, NECO, NABTEB, NCEE (Nigeria)
+- Coverage of 80+ competitive exams across India, Pakistan, Nigeria, and globally — including NEET, JEE Main, JEE Advanced, CUET, UPSC, SSC CGL, CAT, CLAT, NDA, UGC NET (India), MDCAT, ECAT, NAT-I, LAT, HAT-UG (Pakistan), JAMB, WAEC, NECO, NABTEB, NCEE (Nigeria), and many more
 - Subject-wise study notes with tiered content (Quick/Standard/Deep) for NEET, JEE, UPSC, SSC, and other major exams
 - Roadmap durations from 1 hour to 2 years
 - Fully client-side — no data stored, no account needed
 
 ## Target Users
-- Indian students (NEET, JEE, UPSC, SSC, CAT, CUET, CLAT, NDA, UGC NET, GRE)
-- Pakistani students (MDCAT, ECAT, NAT-I, LAT, HAT-UG)
-- Nigerian students (JAMB, WAEC, NECO, NABTEB, NCEE)
+- Indian students (NEET, JEE, UPSC, SSC, CAT, CUET, CLAT, NDA, UGC NET, GRE, and 40+ more)
+- Pakistani students (MDCAT, ECAT, NAT-I, LAT, HAT-UG, and more)
+- Nigerian students (JAMB, WAEC, NECO, NABTEB, NCEE, and more)
+- Students from Bangladesh, Sri Lanka, Nepal, UAE, Saudi Arabia, South Africa, Kenya, and other countries
 - Parents and educators supporting exam preparation
 
 ## Content Type
@@ -32,7 +33,7 @@ Physics, Chemistry, Biology (Botany & Zoology), Mathematics, English, General Aw
 ## Key Pages
 - https://studyroadmap.in/ — homepage with exam selector and news ticker
 - https://studyroadmap.in/roadmap — interactive roadmap generator (client-side)
-- https://studyroadmap.in/exams — all 21+ covered exams with eligibility info
+- https://studyroadmap.in/exams — all 80+ covered exams with eligibility info
 - https://studyroadmap.in/notes/ — study notes index (organized by exam, subject, topic)
 - https://studyroadmap.in/about — about the project, methodology, and exam board citations
 

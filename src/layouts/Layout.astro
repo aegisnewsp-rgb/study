@@ -1,5 +1,7 @@
 ---
 import '../styles/global.css';
+import { ALL_EXAMS } from '../data/exams';
+const examCountLabel = `${ALL_EXAMS.length}+`;
 
 interface FAQItem {
   question: string;
@@ -11,6 +13,13 @@ interface HowToStep {
   text: string;
 }
 
+interface AuthorPerson {
+  name: string;
+  jobTitle: string;
+  affiliation?: string;
+  url?: string;
+}
+
 interface Props {
   title?: string;
   description?: string;
@@ -18,15 +27,17 @@ interface Props {
   faqs?: FAQItem[];
   howToSteps?: HowToStep[];
   robots?: string;
+  author?: AuthorPerson;
 }
 
 const {
-  title = 'StudyRoadmap™ — AI Study Plans for 21+ Exams',
-  description = 'Instant personalized study roadmaps for NEET, JEE, UPSC, MDCAT, JAMB and 20+ competitive exams. Free, no signup required.',
-  image = '/og-image.jpg',
+  title = 'StudyRoadmap™ — AI Study Plans for 80+ Exams',
+  description = 'Instant personalized study roadmaps for NEET, JEE, UPSC, MDCAT, JAMB and 80+ competitive exams. Free, no signup required.',
+  image = '/og-image.svg',
   faqs = [],
   howToSteps = [],
   robots,
+  author,
 } = Astro.props;
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
@@ -35,6 +46,14 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 <!doctype html>
 <html lang="en" class="scroll-smooth">
   <head>
+    <!-- Privacy-friendly analytics by Plausible -->
+    <script async src="http://187.127.134.151:55412/js/pa-3Wzng1fo7sbq7otODC79C.js"></script>
+    <script>
+      window.plausible = window.plausible || function() { (plausible.q = plausible.q || []).push(arguments); };
+      plausible.init = plausible.init || function() {};
+      plausible.init();
+    </script>
+
     <meta charset="UTF-8" />
     <!-- Performance: preconnect to Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -59,6 +78,8 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:image" content={new URL(image, Astro.site)} />
+    <meta name="theme-color" content="#1d4ed8" />
+    <meta name="msvalidate.01" content="BING_VERIFICATION_CODE" />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
@@ -66,6 +87,8 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
     <meta property="twitter:title" content={title} />
     <meta property="twitter:description" content={description} />
     <meta property="twitter:image" content={new URL(image, Astro.site)} />
+    <meta name="twitter:site" content="@studyroadmap_in" />
+    <meta name="twitter:creator" content="@studyroadmap_in" />
 
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -77,10 +100,10 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
       "@id": "https://studyroadmap.in/#organization",
       "name": "StudyRoadmap",
       "url": "https://studyroadmap.in",
-      "description": "Free AI-powered study roadmap generator for 21 competitive exams across India, Pakistan, and Nigeria. No signup required.",
+      "description": "Free AI-powered study roadmap generator for 80+ competitive exams across India, Pakistan, and Nigeria. No signup required.",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://studyroadmap.in/og-image.jpg"
+        "url": "https://studyroadmap.in/og-image.svg"
       },
       "sameAs": [
         "https://github.com/aegisnewsp-rgb"
@@ -116,6 +139,18 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
             "text": f.answer,
           },
         })),
+      })} />
+    )}
+
+    <!-- Person Schema — author / editor signal for E-E-E-A-T -->
+    {author && (
+      <script type="application/ld+json" set:html={JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": author.name,
+        "jobTitle": author.jobTitle,
+        "affiliation": author.affiliation ? { "@type": "Organization", "name": author.affiliation } : undefined,
+        "url": author.url,
       })} />
     )}
 

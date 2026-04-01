@@ -1,20 +1,15 @@
 export const subject_specific: Subject = {
-  id: 'subject-specific', name: 'Subject-Specific', color: '#6b7280',
+  id: 'subject-specific', name: 'Subject Specific', color: '#6b7280',
   topics: [
-    { id: 'subjec-001', name: 'Topic 1', weight: 3 as const },
-    { id: 'subjec-002', name: 'Topic 2', weight: 3 as const },
-    { id: 'subjec-003', name: 'Topic 3', weight: 3 as const },
-    { id: 'subjec-004', name: 'Topic 4', weight: 3 as const },
-    { id: 'subjec-005', name: 'Topic 5', weight: 3 as const },
-    { id: 'subjec-006', name: 'Topic 6', weight: 3 as const },
-    { id: 'subjec-007', name: 'Topic 7', weight: 3 as const },
-    { id: 'subjec-008', name: 'Topic 8', weight: 3 as const },
-    { id: 'subjec-009', name: 'Topic 9', weight: 3 as const },
-    { id: 'subjec-010', name: 'Topic 10', weight: 3 as const },
-    { id: 'subjec-011', name: 'Topic 11', weight: 3 as const },
-    { id: 'subjec-012', name: 'Topic 12', weight: 3 as const },
-    { id: 'subjec-013', name: 'Topic 13', weight: 3 as const },
-    { id: 'subjec-014', name: 'Topic 14', weight: 3 as const },
-    { id: 'subjec-015', name: 'Topic 15', weight: 3 as const }
+    { id: 'subjec-001', name: 'Business Accounting', weight: 3 as const, description: 'Accounting principles applied in business context, financial statement analysis, and management accounting basics.' },
+    { id: 'subjec-002', name: 'Business Economics', weight: 3 as const, description: 'Micro and macroeconomic concepts, supply-demand analysis, market structures, and economic policies.' },
+    { id: 'subjec-003', name: 'Business Management', weight: 3 as const, description: 'Principles of management, organizational behavior, leadership theories, and business administration.' },
+    { id: 'subjec-004', name: 'Marketing Fundamentals', weight: 3 as const, description: 'Marketing concepts, 4Ps of marketing, consumer behavior, and digital marketing basics.' },
+    { id: 'subjec-005', name: 'Human Resource Management', weight: 3 as const, description: 'HRM functions, recruitment, training, performance appraisal, and labor laws.' },
+    { id: 'subjec-006', name: 'Financial Management', weight: 3 as const, description: 'Capital budgeting, working capital management, financial ratio analysis, and investment decisions.' },
+    { id: 'subjec-007', name: 'Business Law', weight: 3 as const, description: 'Contract law, company law, sale of goods, partnership, and legal framework in Pakistan.' },
+    { id: 'subjec-008', name: 'Banking and Finance', weight: 3 as const, description: 'Banking operations, monetary policy, State Bank functions, and financial system in Pakistan.' },
+    { id: 'subjec-009', name: 'Statistics and Data Analysis', weight: 3 as const, description: 'Descriptive statistics, probability, hypothesis testing, and data interpretation.' },
+    { id: 'subjec-010', name: 'Information Technology', weight: 3 as const, description: 'Business IT applications, database management, e-commerce, and digital transformation.' }
   ]
 };

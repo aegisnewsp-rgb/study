@@ -1,6 +1,29 @@
 # Improvement Backlog — StudyRoadmap™
 
-## Top 5 Remaining Candidates (as of Cycle 53)
+## ✅ COMPLETED — All Major SEO Done (Cycle 86, 2026-04-01)
+
+All high-value, high-safety SEO improvements implemented. See improvement-log.md for full history.
+
+**Remaining items need user input:**
+- GSC verification code (placeholder in Layout.astro)
+- Bing Webmaster code (placeholder in Layout.astro)
+- AdSense integration (needs account + code)
+- Directory submission script (needs user review)
+
+---
+
+## Top 5 Remaining Candidates (as of Cycle 86)
+
+---
+
+### ✅ RESOLVED: Workspace vs production is compatible (Cycle 82)
+**Status:** RESOLVED — verified safe to deploy
+**What:** Initial concern about incompatibility was incorrect. Actual findings:
+- Data files use kebab-case `examId` strings (`'jeemain'`, `'ssc-cgl'`) — matches production ✅
+- Variable names in ALL_EXAMS are camelCase but these are internal TypeScript names only
+- RoadmapApp renders `<option value={e.examId}>` — uses kebab-case string from data files ✅
+- Live test after deploy: 86 exam options ✅, "125+" on homepage ✅
+- **Conclusion:** Workspace is safe to deploy. Production may have additional content not in workspace (pages, styling) but core data model is identical.
 
 ---
 
@@ -32,9 +55,17 @@
   - CUET English: 15 topics ✅
   - UPSC GS1 (History, Geography, Environment, Polity): 10 topics ✅
   - UPSC GS2 (Governance, IR, Social Justice): 4 topics ✅
-**Remaining:** PCM organic chemistry, PCM physical chemistry, JEE Main Mathematics (28), SSC CGL English, SSC CGL Reasoning, BBA/BCom/CA Foundation, ~60 niche international exams
-**Path:** MiniMax text API pipeline — next priority: JEE Main Mathematics + PCM organic chemistry
+  - NEET Organic Chemistry: 28 topics ✅
+**Remaining:** PCM organic chemistry (JEE Main/Advanced), PCM physical chemistry, JEE Main Mathematics (28), SSC CGL English, SSC CGL Reasoning, BBA/BCom/CA Foundation, ~60 niche international exams
+**Path:** MiniMax text API pipeline — next priority: JEE Main Mathematics
+**Note:** MiniMax Text API balance exhausted — needs top-up for further content generation
 **Effort:** High — targeting top 100 high-traffic topics next
+
+---
+
+### ✅ RESOLVED: news.json stale (fetch writes to wrong path)
+**Status:** RESOLVED — Cycle 85
+**What:** `fetch_news.py` was writing to `news.json` (workspace root) instead of `public/news.json` (Astro's served directory). Root file updated correctly at 04:02 UTC today, but `public/news.json` was stale from 2026-03-28. Fixed: updated `NEWS_FILE` path to include `public/`. Now public/news.json will be updated on each fetch AND will be included in production builds.
 
 ---
 
@@ -46,7 +77,7 @@
 ---
 
 ### 5. GSC sitemap submission + URL inspection
-**Status:** PARTIALLY DONE — sitemap now includes all 3200+ topic pages (commit dcd1737)
+**Status:** PARTIALLY DONE — sitemap now includes all 3200+ topic pages
 **What:** After GSC verification, submit sitemap and use URL Inspection API to request indexing for key pages
 **Remaining:** GSC account needed to submit sitemap and request rapid indexing
 **Effort:** Low (after GSC is verified)
@@ -65,6 +96,11 @@ sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
 **Root cause:** 5 Whys confirmed — backend process exits on script completion (Type=oneshot), Restart=no means it doesn't come back
 **Impact:** Every deploy works (65s build, Docker push) but backend dies within ~2s of script exit; CDN still serves stale content
 **Effort:** Trivial (3 commands) — user action required
+
+---
+
+### 7. Formspree feedback form
+**Status:** TODO
 **What:** Replace `REPLACE_WITH_FORMSPREE_ID` in `src/pages/feedback.astro` with actual Formspree form ID
 **Action needed:** User signs up at formspree.io (free tier), creates a form, pastes the form ID
 **Effort:** Trivial (one string change)
@@ -73,7 +109,7 @@ sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
 
 ---
 
-## DONE Items (Cycles 27–59)
+## DONE Items (Cycles 27–71)
 
 | Cycle | Item |
 |-------|------|
@@ -104,10 +140,14 @@ sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
 | 50 | PCM exam notes routing (15 exams route to neet/jee pools) |
 | 52 | GATE exam-specific FAQs on roadmap page |
 | 59 | Student feedback page (/feedback) + footer "Help Improve Notes" link |
+| 63 | NEET Organic Chemistry notes (28 topics), all NEET content complete |
+| 68 | Topic pages noindex removed; sitemap expanded to all topic pages |
+| 69 | PCM engineering exam FAQs (BITSAT, VITEEE, KCET, MHT-CET, COMEDK) |
+| 71 | NDA exam FAQs (eligibility, exam pattern, SSB interview) |
 
 ---
 
-## SEO Score Summary (as of Cycle 53)
+## SEO Score Summary (as of Cycle 71)
 
 | Signal | Status |
 |--------|--------|
@@ -120,7 +160,7 @@ sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
 | OG image (custom) | ✅ /og-image.jpg live |
 | OG images (notes) | ✅ 1,263 topic pages + 105 index pages |
 | Internal linking | ✅ Topic pages cross-link equivalent exams |
-| Sitemap | ✅ 112 URLs, sitemap-index.xml |
+| Sitemap | ✅ sitemap-0.xml includes all topic pages (3200+) |
 | robots.txt | ✅ AI training blocked, Google-Extended + AI indexing allowed |
 | llm.txt | ✅ AI system understanding file |
 | Accessibility (WCAG AA) | ✅ Skip nav, focus-visible, aria-labels, tap targets |

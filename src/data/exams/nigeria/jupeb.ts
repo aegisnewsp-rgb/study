@@ -31,8 +31,11 @@ function makeRoadmap(subjects: Subject[], duration: string, totalDays: number, d
 
 const exam: ExamTemplate = {
   examId: 'jupeb',
-  examName: 'JUPEB (Nigeria)',
+  examName: 'JUPEB (Joint Universities Preliminary Examinations Board)',
   country: 'nigeria',
+  description: 'The Joint Universities Preliminary Examinations Board (JUPEB) is a national direct entry programme accepted by all Nigerian universities. Candidates study 3-4 subjects for one academic year at accredited JUPEB centres and use the resulting certificate for 200-level (second year) admission. The programme serves as a bridge between SSCE/NECO and university education, compressing the A-Level equivalent curriculum into one year. JUPEB is managed by a consortium of Nigerian universities and the examinations are standardized across all accredited centres nationwide.',
+  examPattern: '3 subjects (depending on desired university course), each with 2-3 papers per subject plus a general paper. Each subject paper is 2-3 hours. The examination is held at the end of the one-year programme. Science combinations include PCM (Physics, Chemistry, Mathematics) or PCB (Physics, Chemistry, Biology); Arts combinations include Literature, Government, Economics; Commercial combinations include Accounting, Economics, Mathematics. Grades awarded are A-E with minimum E required for direct entry.',
+  eligibility: 'SSCE holder with minimum 5 credits including English and Mathematics (for most university requirements). The programme is open to all who meet the O-Level requirements regardless of age. Students who have completed their NCE, Diploma, or already have JAMB attempt may also enroll. The programme is typically one academic year (September to June). Candidates must register with an accredited JUPEB centre and sit the final examinations at designated centres.',
   subjects,
   durations: {
   '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for JUPEB (Nigeria) — 1 Hour'),
@@ -54,7 +57,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   lastUpdated: '2026-03-25',
-  officialSource: 'https://example.com',
+  officialSource: 'https://jupeb.edu.ng',
 };
 
 export default exam;

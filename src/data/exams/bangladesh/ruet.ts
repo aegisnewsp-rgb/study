@@ -35,8 +35,11 @@ function makeRoadmap(subjects: Subject[], duration: string, totalDays: number, d
 
 const exam: ExamTemplate = {
   examId: 'ruet',
-  examName: 'RUET',
+  examName: 'RUET Admission Test',
   country: 'bangladesh',
+  description: 'Rajshahi University of Engineering and Technology (RUET) admission test is the entrance examination for undergraduate engineering programmes at RUET, located in Rajshahi, Bangladesh. RUET is one of the premier public engineering universities in the country, offering degrees in Civil, Electrical, Mechanical, Computer Science, and Textile Engineering. The admission process is highly competitive, testing candidates from the science background in essential engineering prerequisites.',
+  examPattern: '100 MCQs: Mathematics(40 questions), Physics(30 questions), Chemistry(20 questions), and English/General Knowledge(10 questions). Total 100 marks with each MCQ carrying 1 mark. No negative marking for wrong answers. Exam is usually held in a single sitting of 1.5 to 2 hours at the Rajshahi university campus and regional centres.',
+  eligibility: 'HSC or equivalent with a minimum GPA of 4.0 in Physics, Chemistry, and Mathematics (combined). Science group students from HSC or equivalent are eligible. Diploma holders in engineering may apply for credit transfer in some programmes. Bangladeshi nationals only under the general quota. Foreign students may apply through designated quotas with proper equivalence certificates from the Bangladeshi education board.',
   subjects,
   durations: {
   '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for RUET — 1 Hour'),
@@ -58,7 +61,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   lastUpdated: '2026-03-25',
-  officialSource: 'https://example.com',
+  officialSource: 'https://ruet.ac.bd',
 };
 
 export default exam;

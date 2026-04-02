@@ -4,12 +4,14 @@ import { mathematics } from './subjects/mathematics';
 import { physics } from './subjects/physics';
 import { chemistry } from './subjects/chemistry';
 import { english } from './subjects/english';
+import { general_aptitude } from './subjects/general-aptitude';
 
 const subjects: Subject[] = [
     mathematics,
     physics,
     chemistry,
     english,
+    general_aptitude,
 ];
 
 
@@ -39,6 +41,9 @@ const exam: ExamTemplate = {
   examId: 'vitee',
   examName: 'VITEEE',
   country: 'india',
+  description: "VITEEE is the entrance exam for VIT University Vellore, Chennai, Amaravati, and Bhopal campuses. One of India's largest private university entrance exams with over 2 lakh candidates. Tests PCM and English in a computer-based format.",
+  examPattern: "125 MCQs: Physics(35), Chemistry(35), Mathematics/Biology(40), English(5), Aptitude(10), 2h 30min.",
+  eligibility: "Class 12 PCM/PCB with minimum 60% aggregate. NRI candidates eligible through separate channel.",
   subjects,
   durations: {
   '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for VITEEE — 1 Hour'),

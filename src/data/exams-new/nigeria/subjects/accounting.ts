@@ -1,20 +1,20 @@
 const accounting: Subject = {
   id: 'accounting', name: 'None', color: '#0891b2',
   topics: [
-    { id: 'accoun-001', name: 'Accounting Principles', weight: 3 as const }
-    { id: 'accoun-002', name: 'Journal Entries', weight: 3 as const }
-    { id: 'accoun-003', name: 'Ledger Posting', weight: 3 as const }
-    { id: 'accoun-004', name: 'Trial Balance', weight: 3 as const }
-    { id: 'accoun-005', name: 'Depreciation', weight: 3 as const }
-    { id: 'accoun-006', name: 'Final Accounts', weight: 3 as const }
-    { id: 'accoun-007', name: 'Company Accounts', weight: 3 as const }
-    { id: 'accoun-008', name: 'Issue of Shares', weight: 3 as const }
-    { id: 'accoun-009', name: 'Debentures', weight: 3 as const }
-    { id: 'accoun-010', name: 'Cost Accounting Basics', weight: 3 as const }
-    { id: 'accoun-011', name: 'Marginal Costing', weight: 3 as const }
-    { id: 'accoun-012', name: 'Standard Costing', weight: 3 as const }
-    { id: 'accoun-013', name: 'Budgetary Control', weight: 3 as const }
-    { id: 'accoun-014', name: 'Ratio Analysis', weight: 3 as const }
-    { id: 'accoun-015', name: 'Funds Flow Statement', weight: 3 as const }
+    { id: 'accoun-001', name: 'Accounting Principles', weight: 3 as const, description: 'Fundamental accounting concepts including going concern, consistency, matching concept, and generally accepted accounting principles (GAAP) in the Nigerian accounting framework.' },
+    { id: 'accoun-002', name: 'Journal Entries', weight: 3 as const, description: 'Recording financial transactions in the journal using proper debit and credit rules, including opening entries, adjusting entries, and rectification entries under Nigerian accounting standards.' },
+    { id: 'accoun-003', name: 'Ledger Posting', weight: 3 as const, description: 'Posting journal entries to ledger accounts, balancing accounts, and the trial balance preparation process essential for ICAN and Nigerian professional accounting examinations.' },
+    { id: 'accoun-004', name: 'Trial Balance', weight: 3 as const, description: 'Preparation and interpretation of trial balances, detection of errors, and understanding which errors the trial balance will or will not reveal in double-entry bookkeeping.' },
+    { id: 'accoun-005', name: 'Depreciation', weight: 3 as const, description: 'Straight-line, reducing balance, and sum-of-years-digits depreciation methods, accounting for asset disposal, and provision for depreciation under Nigerian companies and tax laws.' },
+    { id: 'accoun-006', name: 'Final Accounts', weight: 3 as const, description: 'Preparation of trading, profit and loss accounts, and balance sheets for sole proprietorships including adjustments for accruals, prepayments, bad debts, and provision for doubtful debts.' },
+    { id: 'accoun-007', name: 'Company Accounts', weight: 3 as const, description: 'Share capital, issue of shares at par, premium, and discount, redemption of shares, and preparation of financial statements for Nigerian limited liability companies under CAMA 2020.' },
+    { id: 'accoun-008', name: 'Issue of Shares', weight: 3 as const, description: 'Public subscription, underwriters, calls in arrears, forfeiture and reissue of shares, and accounting entries for various types of share issuance in the Nigerian capital market.' },
+    { id: 'accoun-009', name: 'Debentures', weight: 3 as const, description: 'Issue of debentures at par, premium, and discount, redemption methods, and accounting treatment for debenture interest and redemption reserves under Nigerian company law.' },
+    { id: 'accoun-010', name: 'Cost Accounting Basics', weight: 3 as const, description: 'Elementary cost classification, materials costing (FIFO, LIFO, weighted average), labour costing, and overhead allocation methods for manufacturing businesses in Nigeria.' },
+    { id: 'accoun-011', name: 'Marginal Costing', weight: 3 as const, description: 'Contribution margin analysis, break-even analysis, cost-volume-profit (CVP) decisions, and short-term decision-making using marginal costing techniques in Nigerian businesses.' },
+    { id: 'accoun-012', name: 'Standard Costing', weight: 3 as const, description: 'Setting standard costs, variance analysis for materials, labour, and overhead, interpretation of variances, and remedial action for adverse variances in Nigerian manufacturing firms.' },
+    { id: 'accoun-013', name: 'Budgetary Control', weight: 3 as const, description: 'Preparation of cash budgets, flexible budgets, and master budgets, budgetary control through comparison of actual and budgeted performance in Nigerian organizations.' },
+    { id: 'accoun-014', name: 'Ratio Analysis', weight: 3 as const, description: 'Liquidity, profitability, leverage, and efficiency ratios, interpretation of financial statements, and using ratios to assess company performance from a Nigerian perspective.' },
+    { id: 'accoun-015', name: 'Funds Flow Statement', weight: 3 as const, description: 'Analysis of changes in working capital, preparation of funds flow statements, and understanding sources and application of funds in Nigerian company financial reporting.' }
   ]
 };

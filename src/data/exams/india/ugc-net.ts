@@ -1,4 +1,4 @@
-export interface Topic { id: string; name: string; weight: 1|2|3|4|5; }
+export interface Topic { id: string; name: string; weight: 1|2|3|4|5; description?: string; }
 export interface Subject { id: string; name: string; topics: Topic[]; color: string; }
 export interface DailyTopicItem extends Topic { subject: string; }
 export interface RoadmapTemplate { duration: string; totalDays: number; dailyTopics: DailyTopicItem[]; description: string; }
@@ -22,26 +22,26 @@ function makeRoadmap(subjects: Subject[], durationKey: string, totalDays: number
 const paper1: Subject = {
   id: 'paper1', name: 'Paper 1 (General)', color: '#3b82f6',
   topics: [
-    { id: 'p1-001', name: 'Teaching Aptitude', weight: 5 },
-    { id: 'p1-002', name: 'Research Aptitude', weight: 5 },
-    { id: 'p1-003', name: 'Communication', weight: 4 },
-    { id: 'p1-004', name: 'Reasoning', weight: 4 },
-    { id: 'p1-005', name: 'Logical Reasoning', weight: 4 },
-    { id: 'p1-006', name: 'Data Interpretation', weight: 5 },
-    { id: 'p1-007', name: 'ICT', weight: 4 },
-    { id: 'p1-008', name: 'People Environment', weight: 3 },
-    { id: 'p1-009', name: 'Higher Education System', weight: 4 },
+    { id: 'p1-001', name: 'Teaching Aptitude', weight: 5, description: 'Teaching characteristics, methods, styles, evaluation techniques, and factors affecting teaching effectiveness.' },
+    { id: 'p1-002', name: 'Research Aptitude', weight: 5, description: 'Research methodology, types of research, research ethics, sampling techniques, and data collection methods.' },
+    { id: 'p1-003', name: 'Communication', weight: 4, description: 'Types of communication, barriers, effective communication strategies, and use of media in education.' },
+    { id: 'p1-004', name: 'Reasoning', weight: 4, description: 'Verbal and non-verbal reasoning including analogies, classification, series, and pattern recognition.' },
+    { id: 'p1-005', name: 'Logical Reasoning', weight: 4, description: 'Deductive and inductive reasoning, logic gates, Venn diagrams, and evaluating arguments and assumptions.' },
+    { id: 'p1-006', name: 'Data Interpretation', weight: 5, description: 'Reading tables, charts, graphs, and statistical data to draw meaningful conclusions and make projections.' },
+    { id: 'p1-007', name: 'ICT', weight: 4, description: 'Information and Communication Technology fundamentals, internet, e-learning, and digital tools for teaching.' },
+    { id: 'p1-008', name: 'People Environment', weight: 3, description: 'Interaction between people and environment, environmental issues, sustainable development, and biodiversity.' },
+    { id: 'p1-009', name: 'Higher Education System', weight: 4, description: 'Indian higher education structure, UGC, universities, colleges, autonomous institutions, and regulatory bodies.' },
   ]
 };
 
 const subject: Subject = {
   id: 'subject', name: 'Subject (UGC NET)', color: '#10b981',
   topics: [
-    { id: 'sub-001', name: 'Research Methodology', weight: 5 },
-    { id: 'sub-002', name: 'Subject-Specific Topics', weight: 5 },
-    { id: 'sub-003', name: 'Core Concepts', weight: 4 },
-    { id: 'sub-004', name: 'Contemporary Issues', weight: 4 },
-    { id: 'sub-005', name: 'Theories and Models', weight: 4 },
+    { id: 'sub-001', name: 'Research Methodology', weight: 5, description: 'Research design, hypothesis formulation, tools of data collection, statistical analysis, and report writing.' },
+    { id: 'sub-002', name: 'Subject-Specific Topics', weight: 5, description: 'In-depth subject knowledge specific to the candidate\'s post-graduation discipline as chosen during application.' },
+    { id: 'sub-003', name: 'Core Concepts', weight: 4, description: 'Fundamental theories, principles, and foundational concepts of the candidate\'s academic discipline.' },
+    { id: 'sub-004', name: 'Contemporary Issues', weight: 4, description: 'Latest developments, debates, and emerging trends in the candidate\'s academic subject area.' },
+    { id: 'sub-005', name: 'Theories and Models', weight: 4, description: 'Major theories, models, and frameworks in the discipline that explain phenomena and guide research.' },
   ]
 };
 
@@ -86,9 +86,9 @@ const exam: ExamTemplate = {
   examId: 'ugc-net',
   examName: 'UGC NET',
   country: 'india',
-  description: `UGC\ NET\ is\ India's\ exam\ for\ determining\ eligibility\ for\ Assistant\ Professor\ and\ Junior\ Research\ Fellowship\.\ Conducted\ by\ NTA\ twice\ yearly,\ testing\ subject\ knowledge\ and\ teaching/research\ aptitude\.`,
-  examPattern: `Paper\ 1:\ 50\ MCQs\ on\ Teaching\ Aptitude,\ Research\ Aptitude,\ Comprehension,\ Logical\ Reasoning,\ Data\ Interpretation\.\ Paper\ 2:\ 100\ subject\-specific\ MCQs\.\ 2\ sessions\ of\ 3\ hours\ each\.`,
-  eligibility: `Master's\ degree\ with\ 55%\ \(50%\ for\ SC/ST/OBC/PwD\)\.\ AIIMS,\ NIMHANS,\ and\ other\ autonomous\ institute\ NET\ also\ accepted\ for\ lectureship\.`,
+  description: "The National Eligibility Test (UGC NET), conducted by NTA, determines eligibility for Assistant Professor and Junior Research Fellowship (JRF) in Indian universities/colleges. One of the largest examinations in the world with over 10 lakh candidates per session. Tests teaching and research aptitude.",
+  examPattern: "Two papers (Paper I: 50 questions on teaching/research aptitude, Paper II: 100 questions in the subject), 300 marks total, 3 hours. No negative marking.",
+  eligibility: "Master's degree with 55% aggregate (50% for SC/ST/OBC). JRF has additional age limit of 30 years.",
   subjects,
   durations,
   rescueMode,

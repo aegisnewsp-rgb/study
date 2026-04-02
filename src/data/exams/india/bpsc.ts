@@ -39,6 +39,9 @@ const exam: ExamTemplate = {
   examId: 'bpsc',
   examName: 'BPSC',
   country: 'india',
+  description: `The Bihar Public Service Commission (BPSC) Combined Competition Examination is one of the most prestigious civil service examinations in Bihar, India. It recruits candidates for various Group A and Group B posts in the Bihar state government, including District Collector, Deputy Superintendent of Police, Revenue Officer, and other administrative positions. The examination is conducted in three stages: Preliminary Examination (Objective), Main Examination (Descriptive), and Interview. BPSC is considered a gateway for candidates aspiring to serve in the Bihar state civil services.`,
+  examPattern: `The BPSC Preliminary Examination consists of one General Studies paper with 100 multiple-choice questions carrying 200 marks, to be completed in 2 hours. The Main Examination has four compulsory papers: General Hindi (100 marks), General Studies Paper 1 (300 marks), General Studies Paper 2 (300 marks), and Optional Subject Paper (300 marks). Each Main paper is of 3 hours duration. The Interview/Personality Test carries 120 marks. The Preliminary serves as a screening test; only those who qualify are allowed to appear for the Main examination.`,
+  eligibility: `Candidates must be Indian citizens with a bachelor's degree in any discipline from a recognized university. The age limit is 21-37 years for general category candidates, with relaxations up to 42 years for SC/ST and 40 years for OBC candidates. Female candidates from general category get age relaxation up to 40 years. Candidates must be proficient in Hindi language and of good moral character. Those already employed in government service may also apply subject to certain conditions.`,
   subjects,
   durations: {
   '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for BPSC — 1 Hour'),

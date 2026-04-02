@@ -37,8 +37,11 @@ function makeRoadmap(subjects: Subject[], duration: string, totalDays: number, d
 
 const exam: ExamTemplate = {
   examId: 'kenyatta-ku',
-  examName: 'Kenyatta University (Kenya)',
+  examName: 'Kenyatta University Admission Test (Kenya)',
   country: 'kenya',
+  description: 'Kenyatta University (KU) is one of Kenya\'s largest public universities, located near Nairobi. The university conducts its own admission tests for various undergraduate programmes, especially those that are competitive such as Medicine, Law, Engineering, and Computer Science. KU admission test evaluates candidates on their subject-specific knowledge, general aptitude, and language proficiency. The test is administered on campus and is a key component of the selection process alongside KCSE performance for courses that receive more applicants than available slots.',
+  examPattern: 'Typically consists of 2-3 papers depending on the programme applied for: Subject-specific paper (relevant to the chosen course, e.g., Biology and Chemistry for Medicine, Mathematics and Physics for Engineering), English and General Aptitude test, and sometimes a programme-specific paper. Each paper is 1-2 hours. Questions are primarily multiple choice with some structured short-answer questions. For Education programmes, there may be an interview component.',
+  eligibility: 'KCSE holder with minimum C+ mean grade for most programmes. Specific programmes require minimum grades in relevant subjects — for example, Engineering requires C+ in Mathematics and Physics, Medicine requires A in Biology, A- in Chemistry, and A- in Physics/Mathematics. KU\'s own cut-off points vary by programme and change annually based on demand. Candidates must apply through KUCCPS first, and shortlisted candidates are invited for the university\'s own admission test.',
   subjects,
   durations: {
   '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for Kenyatta University (Kenya) — 1 Hour'),
@@ -60,7 +63,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   lastUpdated: '2026-03-25',
-  officialSource: 'https://example.com',
+  officialSource: 'https://ku.ac.ke',
 };
 
 export default exam;

@@ -35,8 +35,11 @@ function makeRoadmap(subjects: Subject[], duration: string, totalDays: number, d
 
 const exam: ExamTemplate = {
   examId: 'kuet',
-  examName: 'KUET',
+  examName: 'KUET Admission Test',
   country: 'bangladesh',
+  description: 'Khulna University of Engineering and Technology (KUET) admission test is a highly competitive exam for undergraduate engineering programmes in southern Bangladesh. KUET is one of the nine public engineering universities in Bangladesh and focuses on engineering, technology, and applied sciences. The admission test selects candidates for various undergraduate programmes including Computer Science, Electrical, Civil, Mechanical, and other engineering disciplines.',
+  examPattern: '100 MCQs: Mathematics(40 questions), Physics(30 questions), Chemistry(20 questions), plus 10 questions from English/General Knowledge combined. Each question carries 1 mark. There is no negative marking. The exam duration is typically 1.5 to 2 hours.',
+  eligibility: 'HSC or equivalent with minimum GPA requirements in Science group — minimum GPA 4.0 in Physics, Chemistry, and Mathematics combined. Bangladeshi nationals only. Students who have passed SSC and HSC in Science group from recognized boards are eligible. Diploma holders in engineering may also be eligible for some programmes under special quotas.',
   subjects,
   durations: {
   '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for KUET — 1 Hour'),
@@ -58,7 +61,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   lastUpdated: '2026-03-25',
-  officialSource: 'https://example.com',
+  officialSource: 'https://kuet.ac.bd',
 };
 
 export default exam;

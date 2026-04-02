@@ -39,6 +39,9 @@ const exam: ExamTemplate = {
   examId: 'u-pcat',
   examName: 'UPCAT (Philippines)',
   country: 'philippines',
+  description: 'University of the Philippines College Admission Test (UPCAT) is the entrance exam for the University of the Philippines system — the most prestigious university system in the Philippines. The UP system comprises 8 constituent universities across the country. UPCAT is a highly competitive exam that tests the knowledge and skills developed over four years of secondary education. Performance in UPCAT is the primary criterion for admission, alongside the applicant\'s high school grades.',
+  examPattern: 'Language and Reading Comprehension, Math, Science (Physics, Chemistry, Biology), and IQ-style questions. Written and MCQ format. The Language and Reading Comprehension section tests English vocabulary, grammar, and reading skills. Math covers algebra, geometry, trigonometry, and statistics. Science covers fundamental concepts in Physics, Chemistry, and Biology. The IQ-style questions assess abstract reasoning and pattern recognition. The exam is paper-based and typically runs from early morning to noon on scheduled dates.',
+  eligibility: 'Graduating high school student or high school graduate with above-average grades. Must meet UPCAT cut-off scores. For incoming freshmen, candidates must be in the top third of their graduating class with a general weighted average of at least 85%. The UPCAT cut-off score varies by campus and programme — competitive courses like Engineering, Biology, and Psychology require higher scores. For transfer applicants, additional requirements apply.',
   subjects,
   durations: {
   '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for UPCAT (Philippines) — 1 Hour'),
@@ -60,7 +63,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   lastUpdated: '2026-03-25',
-  officialSource: 'https://example.com',
+  officialSource: 'https://up.edu.ph',
 };
 
 export default exam;

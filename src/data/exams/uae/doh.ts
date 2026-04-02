@@ -37,6 +37,9 @@ const exam: ExamTemplate = {
   examId: 'doh',
   examName: 'DOH (UAE)',
   country: 'uae',
+  description: 'Dubai Health Authority (DOH) exam — a licensing examination for healthcare professionals seeking to practice in Dubai\'s health facilities. The DOH is the regulatory and licensing authority for all healthcare professionals and facilities operating in the Emirate of Dubai. The licensing exam is a requirement for all healthcare practitioners — doctors, nurses, dentists, pharmacists, and allied health professionals — before they can obtain a professional license to practice in Dubai.',
+  examPattern: 'Professional competency assessment through computer-based testing. Format varies by profession. For physicians, the exam covers medical knowledge relevant to their specialty, patient management, and professional ethics. For pharmacists, it covers Pharmacology, Pharmaceutics, Clinical Pharmacy, and Pharmaceutical Chemistry. For nurses, it covers nursing theory, clinical skills, and healthcare ethics. The exam is typically MCQ-based with questions drawn from a large pool, and each attempt presents a different set of questions.',
+  eligibility: 'Recognised primary medical qualification. Post-graduate experience may be required for specialists. All candidates must have completed their primary healthcare qualification from an accredited institution. Physicians must have completed internship and, for specialists, must have completed residency/fellowship training. Nurses must hold a nursing qualification (diploma or degree). English language proficiency (IELTS 6.0 or equivalent) is required for most professions. A valid employment offer from a Dubai health facility may also be required.',
   subjects,
   durations: {
   '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for DOH (UAE) — 1 Hour'),
@@ -58,7 +61,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   lastUpdated: '2026-03-25',
-  officialSource: 'https://example.com',
+  officialSource: 'https://www.doh.gov.ae',
 };
 
 export default exam;

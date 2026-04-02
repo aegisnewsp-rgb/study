@@ -1,4 +1,4 @@
-export interface Topic { id: string; name: string; weight: 1|2|3|4|5; }
+export interface Topic { id: string; name: string; weight: 1|2|3|4|5; description?: string; }
 export interface Subject { id: string; name: string; topics: Topic[]; color: string; }
 export interface DailyTopicItem extends Topic { subject: string; }
 export interface RoadmapTemplate { duration: string; totalDays: number; dailyTopics: DailyTopicItem[]; description: string; }
@@ -22,40 +22,40 @@ function makeRoadmap(subjects: Subject[], durationKey: string, totalDays: number
 const gs1: Subject = {
   id: 'gs1', name: 'GS1 (History/Geography/Polity)', color: '#3b82f6',
   topics: [
-    { id: 'gs1-001', name: 'World History', weight: 4 },
-    { id: 'gs1-002', name: 'Indian History', weight: 5 },
-    { id: 'gs1-003', name: 'Post-Independence', weight: 3 },
-    { id: 'gs1-004', name: 'Geography World', weight: 4 },
-    { id: 'gs1-005', name: 'Geography India', weight: 4 },
-    { id: 'gs1-006', name: 'Indian Polity', weight: 5 },
-    { id: 'gs1-007', name: 'Physical Geography', weight: 3 },
-    { id: 'gs1-008', name: 'Economy', weight: 4 },
-    { id: 'gs1-009', name: 'Environment', weight: 3 },
-    { id: 'gs1-010', name: 'Science Tech', weight: 3 },
+    { id: 'gs1-001', name: 'World History', weight: 4, description: 'Major historical events, revolutions, world wars, and colonial histories that shaped modern nations and global relations.' },
+    { id: 'gs1-002', name: 'Indian History', weight: 5, description: 'Ancient, medieval, and modern Indian history including the freedom struggle, cultural heritage, and significant movements.' },
+    { id: 'gs1-003', name: 'Post-Independence', weight: 3, description: 'India\'s political development, constitution-making, and major events from 1947 to the present.' },
+    { id: 'gs1-004', name: 'Geography World', weight: 4, description: 'World geography including continents, countries, physical features, climate patterns, and resource distribution.' },
+    { id: 'gs1-005', name: 'Geography India', weight: 4, description: 'India\'s physical geography, climate, rivers, mountains, and regional variations in environment and resources.' },
+    { id: 'gs1-006', name: 'Indian Polity', weight: 5, description: 'Indian Constitution, governance structure, parliamentary system, fundamental rights, and political institutions.' },
+    { id: 'gs1-007', name: 'Physical Geography', weight: 3, description: 'Earth\'s physical processes including plate tectonics, landforms, ocean currents, and atmospheric phenomena.' },
+    { id: 'gs1-008', name: 'Economy', weight: 4, description: 'Indian economic structure, planning, fiscal policy, banking, and major economic reforms and challenges.' },
+    { id: 'gs1-009', name: 'Environment', weight: 3, description: 'Ecology, biodiversity, environmental conservation, climate change, and sustainable development issues.' },
+    { id: 'gs1-010', name: 'Science Tech', weight: 3, description: 'Key scientific discoveries, modern technologies, space programme, and India\'s achievements in science.' },
   ]
 };
 
 const gs2: Subject = {
   id: 'gs2', name: 'GS2 (Governance/IR)', color: '#10b981',
   topics: [
-    { id: 'gs2-001', name: 'Governance', weight: 4 },
-    { id: 'gs2-002', name: 'International Relations', weight: 4 },
-    { id: 'gs2-003', name: 'Polity', weight: 4 },
-    { id: 'gs2-004', name: 'Social Justice', weight: 3 },
+    { id: 'gs2-001', name: 'Governance', weight: 4, description: 'Government policies, transparency, accountability, e-governance initiatives, and public service delivery mechanisms.' },
+    { id: 'gs2-002', name: 'International Relations', weight: 4, description: 'India\'s foreign policy, diplomatic relations, international agreements, and global geopolitics affecting India.' },
+    { id: 'gs2-003', name: 'Polity', weight: 4, description: 'Constitutional framework, governance structures, political institutions, and their functioning at central and state levels.' },
+    { id: 'gs2-004', name: 'Social Justice', weight: 3, description: 'Welfare schemes, affirmative action, rights of marginalised groups, and social inclusion policies.' },
   ]
 };
 
 const essay: Subject = {
   id: 'essay', name: 'Essay Writing', color: '#8b5cf6',
   topics: [
-    { id: 'ess-001', name: 'Essay Writing', weight: 5 },
+    { id: 'ess-001', name: 'Essay Writing', weight: 5, description: 'Structured essay writing on philosophical, social, economic, and political topics testing depth of knowledge and expression.' },
   ]
 };
 
 const optional: Subject = {
   id: 'optional', name: 'Optional Subject', color: '#f59e0b',
   topics: [
-    { id: 'opt-001', name: 'General Studies', weight: 5 },
+    { id: 'opt-001', name: 'General Studies', weight: 5, description: 'Elective subject chosen by candidate from a list of 26 optional subjects including literature, science, and social sciences.' },
   ]
 };
 
@@ -101,9 +101,9 @@ const exam: ExamTemplate = {
   examId: 'upsc',
   examName: 'UPSC Civil Services',
   country: 'india',
-  description: `UPSC\ Civil\ Services\ Examination\ is\ India's\ most\ prestigious\ exam,\ recruiting\ officers\ for\ IAS,\ IPS,\ IFS,\ and\ 20\+\ other\ services\.\ Three\-stage:\ Prelims,\ Mains,\ Interview\.`,
-  examPattern: `Prelims:\ 200\ MCQs\ \(GS\ I\ \+\ CSAT\)\.\ Mains:\ 9\ descriptive\ papers\ \(2\ qualifying:\ English\ \+\ any\ Indian\ language;\ 4\ GS\ papers\ \+\ 2\ optional\ papers\ \+\ Essay\)\.\ Interview:\ 275\ marks\.`,
-  eligibility: `Graduation\ in\ any\ discipline\ from\ a\ recognized\ university\.\ Age:\ 21\-32\ \(General\)\.\ 6\ attempts\ permitted\ for\ General\ category\.`,
+  description: "The Union Public Service Commission (UPSC) Civil Services Examination is India's most prestigious competitive exam for recruiting officers for the Indian Administrative Service (IAS), Indian Police Service (IPS), Indian Foreign Service (IFS), and other central services. Conducted in three stages: Preliminary (objective MCQs), Main (nine descriptive papers), and Interview. Over 10 lakh candidates appear annually for ~1,000 vacancies.",
+  examPattern: "Preliminary: 2 papers (GS I + CSAT), 200 marks each, 2 hours each. Main: 9 papers (Essay, GS I-IV, Optional I-II, Language), 250-300 marks each, 3 hours each. Interview: 275 marks.",
+  eligibility: "Indian citizen, age 21-32 (relaxation for OBC/SC/ST), minimum educational qualification: bachelor's degree in any discipline.",
   subjects,
   durations,
   rescueMode,

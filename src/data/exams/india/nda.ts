@@ -1,4 +1,4 @@
-export interface Topic { id: string; name: string; weight: 1|2|3|4|5; }
+export interface Topic { id: string; name: string; weight: 1|2|3|4|5; description?: string; }
 export interface Subject { id: string; name: string; topics: Topic[]; color: string; }
 export interface DailyTopicItem extends Topic { subject: string; }
 export interface RoadmapTemplate { duration: string; totalDays: number; dailyTopics: DailyTopicItem[]; description: string; }
@@ -22,35 +22,35 @@ function makeRoadmap(subjects: Subject[], durationKey: string, totalDays: number
 const mathematics: Subject = {
   id: 'mathematics', name: 'Mathematics', color: '#3b82f6',
   topics: [
-    { id: 'math-001', name: 'Algebra', weight: 5 },
-    { id: 'math-002', name: 'Matrices', weight: 4 },
-    { id: 'math-003', name: 'Determinants', weight: 4 },
-    { id: 'math-004', name: 'Trigonometry', weight: 5 },
-    { id: 'math-005', name: 'Analytical Geometry', weight: 5 },
-    { id: 'math-006', name: 'Differential Calculus', weight: 5 },
-    { id: 'math-007', name: 'Integral Calculus', weight: 5 },
-    { id: 'math-008', name: 'Vector Algebra', weight: 4 },
-    { id: 'math-009', name: 'Probability', weight: 4 },
-    { id: 'math-010', name: 'Statistics', weight: 3 },
-    { id: 'math-011', name: 'Logarithms', weight: 3 },
-    { id: 'math-012', name: 'Binary Number', weight: 2 },
-    { id: 'math-013', name: 'Boolean Algebra', weight: 2 },
+    { id: 'math-001', name: 'Algebra', weight: 5, description: 'Sets, relations, functions, quadratic equations, progressions, permutations, combinations, and binomial theorem.' },
+    { id: 'math-002', name: 'Matrices', weight: 4, description: 'Types of matrices, matrix operations, transpose, adjoint, and inverse of a matrix using elementary transformations.' },
+    { id: 'math-003', name: 'Determinants', weight: 4, description: 'Evaluation of determinants, properties of determinants, and application of Cramer\'s rule in solving linear equations.' },
+    { id: 'math-004', name: 'Trigonometry', weight: 5, description: 'Trigonometric ratios, identities, inverse trigonometry, heights and distances, and solution of triangles.' },
+    { id: 'math-005', name: 'Analytical Geometry', weight: 5, description: 'Straight lines, conic sections (parabola, ellipse, hyperbola), and their standard equations and properties.' },
+    { id: 'math-006', name: 'Differential Calculus', weight: 5, description: 'Limits, continuity, differentiation of standard functions, and applications including tangents and normals.' },
+    { id: 'math-007', name: 'Integral Calculus', weight: 5, description: 'Integration of standard functions, definite integrals, and applications to areas under curves.' },
+    { id: 'math-008', name: 'Vector Algebra', weight: 4, description: 'Vectors, scalar and vector products, direction cosines, and applications to 3D geometry problems.' },
+    { id: 'math-009', name: 'Probability', weight: 4, description: 'Classical and conditional probability, Bayes theorem, and problems on dice, cards, and coins.' },
+    { id: 'math-010', name: 'Statistics', weight: 3, description: 'Measures of central tendency, dispersion, and basic statistical data analysis for NDA Paper I.' },
+    { id: 'math-011', name: 'Logarithms', weight: 3, description: 'Logarithm properties, change of base, and solving equations involving logarithmic and exponential expressions.' },
+    { id: 'math-012', name: 'Binary Number', weight: 2, description: 'Conversion between decimal and binary number systems and basic binary arithmetic operations.' },
+    { id: 'math-013', name: 'Boolean Algebra', weight: 2, description: 'Boolean algebra basics, logic gates, and truth tables for digital electronics fundamentals.' },
   ]
 };
 
 const gat: Subject = {
   id: 'gat', name: 'GAT', color: '#10b981',
   topics: [
-    { id: 'gat-001', name: 'English Grammar', weight: 4 },
-    { id: 'gat-002', name: 'Vocabulary', weight: 4 },
-    { id: 'gat-003', name: 'Comprehension', weight: 5 },
-    { id: 'gat-004', name: 'General Science Physics', weight: 4 },
-    { id: 'gat-005', name: 'General Science Chemistry', weight: 4 },
-    { id: 'gat-006', name: 'General Science Biology', weight: 3 },
-    { id: 'gat-007', name: 'History', weight: 4 },
-    { id: 'gat-008', name: 'Geography', weight: 4 },
-    { id: 'gat-009', name: 'Current Affairs', weight: 5 },
-    { id: 'gat-010', name: 'Polity', weight: 4 },
+    { id: 'gat-001', name: 'English Grammar', weight: 4, description: 'Parts of speech, tenses, active-passive voice, direct-indirect speech, and error spotting in sentences.' },
+    { id: 'gat-002', name: 'Vocabulary', weight: 4, description: 'Synonyms, antonyms, idioms, and word usage in context for NDA GAT English section.' },
+    { id: 'gat-003', name: 'Comprehension', weight: 5, description: 'Reading unseen passages and answering factual, inferential, and vocabulary-based questions.' },
+    { id: 'gat-004', name: 'General Science Physics', weight: 4, description: 'Laws of motion, gravitation, optics, electricity, magnetism, and modern physics at Class 12 level.' },
+    { id: 'gat-005', name: 'General Science Chemistry', weight: 4, description: 'Atomic structure, periodic table, chemical bonding, acids-bases-salts, and environmental chemistry.' },
+    { id: 'gat-006', name: 'General Science Biology', weight: 3, description: 'Human biology, nutrition, diseases, genetics, and basics of plant and animal physiology.' },
+    { id: 'gat-007', name: 'History', weight: 4, description: 'Indian and world history including ancient civilisations, medieval period, world wars, and independence movements.' },
+    { id: 'gat-008', name: 'Geography', weight: 4, description: 'Indian and world geography, physical features, climate, agriculture, resources, and population distribution.' },
+    { id: 'gat-009', name: 'Current Affairs', weight: 5, description: 'Recent national and international events, defence-related news, awards, and government policies.' },
+    { id: 'gat-010', name: 'Polity', weight: 4, description: 'Indian Constitution, governance structure, Parliament, state legislature, and fundamental rights.' },
   ]
 };
 
@@ -95,9 +95,9 @@ const exam: ExamTemplate = {
   examId: 'nda',
   examName: 'NDA',
   country: 'india',
-  description: `NDA\ exam\ by\ UPSC\ selects\ candidates\ for\ the\ Indian\ Military\ Academy,\ Naval\ Academy,\ and\ Air\ Force\ Academy\.\ Selected\ candidates\ receive\ rigorous\ military\ training\ combined\ with\ graduation\.`,
-  examPattern: `Paper\ 1\ \(Mathematics\):\ 120\ MCQs,\ 150\ marks,\ 2\.5\ hours\.\ Paper\ 2\ \(GAT\):\ 150\ MCQs,\ 150\ marks,\ 2\.5\ hours\.\ SSB\ interview:\ 900\ marks\ after\ qualifying\ Written\ \+\ GAT\.`,
-  eligibility: `10\+2\ with\ Physics\ \&\ Mathematics\ for\ Army/Air\ Force\.\ 10\+2\ with\ PCM\ for\ Naval\ Academy\.\ Age:\ 16\.5\-19\.5\ years\.\ Only\ unmarried\ male\ and\ female\ candidates\.`,
+  description: "The National Defence Academy (NDA) exam, conducted by UPSC twice a year, is the gateway for admission to the Indian Army, Navy, and Air Force wings of NDA. Selected candidates undergo 3 years of training at NDA Pune followed by training at respective service academies. The exam tests mathematics and general ability, followed by SSB interview.",
+  examPattern: "Paper I Mathematics (300 marks, 2.5 hours), Paper II General Ability Test (600 marks, 2.5 hours). Total: 900 marks. SSB interview: 900 marks.",
+  eligibility: "Class 12 passed with Physics and Mathematics for Army/Navy/Air Force. Age 16.5-19.5 years. Only unmarried male and female candidates.",
   subjects,
   durations,
   rescueMode,

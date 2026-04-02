@@ -41,6 +41,9 @@ const exam: ExamTemplate = {
   examId: 'utbk',
   examName: 'UTBK/SNPMTN (Indonesia)',
   country: 'indonesia',
+  description: "UTBK (Ujian Tulis Berbasis Komputer) is Indonesia's national computer-based university entrance exam, required for admission to most public universities through the SNPMB system.",
+  examPattern: "TPA (verbal, numerical, figural reasoning) + TPS (Academic Potential Test) + subject-specific tests. 195 questions, 195 minutes.",
+  eligibility: "SMA/MA/SMK graduate or final year student. Valid UTBK score required for SNBP and SNBT selection.",
   subjects,
   durations: {
   '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for UTBK/SNPMTN (Indonesia) — 1 Hour'),

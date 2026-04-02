@@ -37,8 +37,11 @@ function makeRoadmap(subjects: Subject[], duration: string, totalDays: number, d
 
 const exam: ExamTemplate = {
   examId: 'ican',
-  examName: 'ICAN (Nigeria)',
+  examName: 'ICAN (Institute of Chartered Accountants of Nigeria)',
   country: 'nigeria',
+  description: 'The Institute of Chartered Accountants of Nigeria (ICAN) examinations test accounting, auditing, taxation, and business knowledge across multiple levels: Foundation, Intermediate, and Final. ICAN is the professional body for accountants in Nigeria and its qualification is recognized across the West African sub-region and internationally. The examinations are held twice yearly (June and December) and assess candidates on both theoretical knowledge and practical application of accounting principles in Nigerian business contexts.',
+  examPattern: 'Multiple papers per diet (June and December): Financial Accounting and Reporting, Auditing and Assurance, Taxation, Business Law, and Management Information Systems. Each paper is 3 hours duration. Foundation level has 4 papers, Intermediate has 5 papers, and Final has 6 papers. Examinations are paper-based with some multiple-choice and long-form questions requiring calculations and narrative answers.',
+  eligibility: 'For Foundation level: SSCE/NECO with credits in English and Mathematics plus 2 other subjects. For Intermediate level: Completion of Foundation or degree in relevant discipline. For Final level: Completion of Intermediate. HND/Bachelor\'s degree holders in accounting or related fields may gain exemptions from certain levels. Non-accounting degree holders must start from Foundation. Candidates must be registered with ICAN before appearing for examinations.',
   subjects,
   durations: {
   '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for ICAN (Nigeria) — 1 Hour'),
@@ -60,7 +63,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   lastUpdated: '2026-03-25',
-  officialSource: 'https://example.com',
+  officialSource: 'https://www.ican.org.ng',
 };
 
 export default exam;

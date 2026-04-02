@@ -39,6 +39,9 @@ const exam: ExamTemplate = {
   examId: 'sa-pharm',
   examName: 'SAPC (South Africa)',
   country: 'southafrica',
+  description: 'South African Pharmacy Council (SAPC) examination — the licensing examination for pharmacists trained outside South Africa who wish to register and practice as pharmacists in South Africa. The SAPC is the statutory body that regulates the pharmacy profession in South Africa. Foreign-qualified pharmacists must pass both the Pharmacy Technician Assessment (for technicians) or the Pharmacist\'s Examination (for pharmacists) to obtain registration with the SAPC.',
+  examPattern: 'The examination covers Pharmaceutical Chemistry, Pharmacology, Pharmaceutics, Clinical Pharmacy, and Pharmacy Practice/Law. Questions are presented as MCQs, short-answer questions, and case-based scenarios. There may also be a practical component assessing dispensing skills and pharmaceutical calculations. The examination is typically held over 2 days. For those seeking specialization, additional board examinations may be required.',
+  eligibility: 'A recognised pharmacy degree (B.Pharm or equivalent) from an accredited institution outside South Africa. Completed internship (or equivalent supervised practice). Candidates must have their foreign qualification assessed by the SAPC and found to be substantially equivalent to the South African qualification. A period of supervised practice in South Africa may be required before taking the exam. English language proficiency is required.',
   subjects,
   durations: {
   '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for SAPC (South Africa) — 1 Hour'),
@@ -60,7 +63,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   lastUpdated: '2026-03-25',
-  officialSource: 'https://example.com',
+  officialSource: 'https://www.sapc.za.org',
 };
 
 export default exam;

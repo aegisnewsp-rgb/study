@@ -37,6 +37,9 @@ const exam: ExamTemplate = {
   examId: 'llb-ent',
   examName: 'LLB Admission (South Africa)',
   country: 'southafrica',
+  description: 'LLB (Bachelor of Laws) entrance requirements for South African universities — varies by university. Some require separate entrance tests alongside NSC (National Senior Certificate) results. The LLB is a four-year professional degree that qualifies graduates to become advocates or attorneys in South Africa. Universities like the University of Cape Town (UCT), University of the Witwatersrand (Wits), Stellenbosch University, and the University of Pretoria (UP) have their own additional admission criteria.',
+  examPattern: 'Varies by university — typically subject performance in NSC plus any additional entrance tests. Some universities require the National Benchmark Tests (NBT) in Academic Literacy and Quantitative Literacy. Others conduct their own tests — for example, Wits requires the Wits Writing Test. The test typically covers academic literacy, writing skills, logical reasoning, and sometimes legal reasoning. Format varies from MCQ tests to essay writing. Duration is typically 2-4 hours.',
+  eligibility: 'NSC (National Senior Certificate) with minimum degree-level passes. Specific subject requirements for law. A minimum of 50% in four NSC subjects including Life Orientation is typically required. For law, English Home Language or First Additional Language at 50%+ is usually mandatory, along with a Humanities subject. Some universities require the NBT as an additional requirement. The LLB is competitive and most universities have a higher cut-off than the minimum.',
   subjects,
   durations: {
   '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for LLB Admission (South Africa) — 1 Hour'),
@@ -58,7 +61,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   lastUpdated: '2026-03-25',
-  officialSource: 'https://example.com',
+  officialSource: 'https://www.che.ac.za',
 };
 
 export default exam;

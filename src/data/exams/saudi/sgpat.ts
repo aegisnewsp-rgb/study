@@ -1,13 +1,11 @@
 import type { ExamTemplate, Subject } from '../types';
 
-import { medicine } from './subjects/medicine';
-import { surgery } from './subjects/surgery';
-import { family_medicine } from './subjects/family-medicine';
+import { arabic } from './subjects/arabic';
+import { mathematics } from './subjects/mathematics';
 
 const subjects: Subject[] = [
-    medicine,
-    surgery,
-    family_medicine,
+    arabic,
+    mathematics,
 ];
 
 
@@ -35,23 +33,26 @@ function makeRoadmap(subjects: Subject[], duration: string, totalDays: number, d
 
 const exam: ExamTemplate = {
   examId: 'sgpat',
-  examName: 'Saudi GP Board',
+  examName: 'Saudi General Aptitude Test (SGPAT)',
   country: 'saudi',
+  description: "Saudi General Aptitude Test (Qiyas/القدرات) — a standardised aptitude test measuring verbal and quantitative reasoning abilities, required for Saudi university admission.",
+  examPattern: "Verbal section (synonyms, analogies, sentence completion, reading comprehension) and Quantitative section (mathematics, problem solving). Each section 25 questions, approximately 2.5 hours total.",
+  eligibility: "Secondary school students and graduates. No minimum score requirement but used in combination with high school GPA.",
   subjects,
   durations: {
-  '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for Saudi GP Board — 1 Hour'),
-  '1d': makeRoadmap(subjects, '1d', 1, 'Study plan for Saudi GP Board — 1 Day'),
-  '3d': makeRoadmap(subjects, '3d', 3, 'Study plan for Saudi GP Board — 3 Days'),
-  '7d': makeRoadmap(subjects, '7d', 7, 'Study plan for Saudi GP Board — 1 Week'),
-  '1mo': makeRoadmap(subjects, '1mo', 30, 'Study plan for Saudi GP Board — 1 Month'),
-  '3mo': makeRoadmap(subjects, '3mo', 90, 'Study plan for Saudi GP Board — 3 Months'),
-  '6mo': makeRoadmap(subjects, '6mo', 180, 'Study plan for Saudi GP Board — 6 Months'),
+  '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for Saudi General Aptitude Test (SGPAT) — 1 Hour'),
+  '1d': makeRoadmap(subjects, '1d', 1, 'Study plan for Saudi General Aptitude Test (SGPAT) — 1 Day'),
+  '3d': makeRoadmap(subjects, '3d', 3, 'Study plan for Saudi General Aptitude Test (SGPAT) — 3 Days'),
+  '7d': makeRoadmap(subjects, '7d', 7, 'Study plan for Saudi General Aptitude Test (SGPAT) — 1 Week'),
+  '1mo': makeRoadmap(subjects, '1mo', 30, 'Study plan for Saudi General Aptitude Test (SGPAT) — 1 Month'),
+  '3mo': makeRoadmap(subjects, '3mo', 90, 'Study plan for Saudi General Aptitude Test (SGPAT) — 3 Months'),
+  '6mo': makeRoadmap(subjects, '6mo', 180, 'Study plan for Saudi General Aptitude Test (SGPAT) — 6 Months'),
   },
   rescueMode: {
     name: 'Rescue Mode',
-    description: 'Cramming plan for Saudi GP Board',
+    description: 'Cramming plan for Saudi General Aptitude Test (SGPAT)',
     duration: '1d',
-    focusAreas: subjects.slice(0, 3).map(s => ({
+    focusAreas: subjects.slice(0, 2).map(s => ({
       subject: s.name,
       topics: s.topics.slice(0, 5).map(t => t.name),
     })),

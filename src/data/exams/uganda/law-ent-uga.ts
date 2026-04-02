@@ -37,6 +37,9 @@ const exam: ExamTemplate = {
   examId: 'law-ent-uga',
   examName: 'Uganda Law Admission',
   country: 'uganda',
+  description: 'Uganda law school entrance examination — the admission test for the Law Development Centre (LDC) Diploma in Law programme, which is the mandatory professional qualification for lawyers in Uganda. The LDC programme is the gateway to the Uganda Bar. The entrance examination ensures that candidates possess the foundational skills required for legal education at the professional level.',
+  examPattern: 'Typically covers English Language (comprehension, grammar, essay writing), General Paper (current affairs, logical reasoning, critical analysis), and Legal Knowledge (basic principles of law, the 1995 Constitution of Uganda, structure of the Ugandan legal system). Questions are MCQs and short-answer. The exam is usually a half-day paper-based test conducted at the Law Development Centre in Kampala.',
+  eligibility: 'Minimum of an undergraduate degree (bachelor\'s) in any field from a recognised university for the postgraduate Diploma route, OR excellent UACE results for the graduate entry scheme. English proficiency is essential. Candidates must be of good character and not have any serious criminal record. Applications are submitted to the Law Development Centre during the annual admission window.',
   subjects,
   durations: {
   '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for Uganda Law Admission — 1 Hour'),
@@ -58,7 +61,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   lastUpdated: '2026-03-25',
-  officialSource: 'https://example.com',
+  officialSource: 'https://ldc.ac.ug',
 };
 
 export default exam;

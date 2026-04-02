@@ -37,6 +37,9 @@ const exam: ExamTemplate = {
   examId: 'uneb',
   examName: 'UNEB UACE (Uganda)',
   country: 'uganda',
+  description: 'Uganda National Examinations Board (UNEB) UACE (Uganda Advanced Certificate of Education) is the national A-Level equivalent exam for university entrance in Uganda. The UACE is taken after two years of advanced secondary education (S.5 and S.6) and is the primary criterion for admission to Ugandan universities. UNEB administers the exam annually, and results are used by the Uganda National Council for Higher Education (UNCHE) for university placement.',
+  examPattern: 'At least 3 principal passes in relevant subjects. Compulsory General Paper. Essay and MCQ formats. Students typically take 3-4 subjects in their chosen combination: Science (Physics, Chemistry, Biology, Mathematics), Arts (History, Geography, Economics, Divinity), or Commercial (Economics, Mathematics, Commerce, Accounting). The General Paper tests general knowledge, communication, and critical thinking. Each subject has three papers: Papers 1 and 2 (theory) and Paper 3 (practical or essay depending on subject).',
+  eligibility: 'UCE (Form IV) certificate with minimum passes. Subject combinations must meet university course requirements. Students must have completed S.6 (Senior 6) of secondary education. For university admission, a minimum of 2 principal passes at the same sitting is typically required, though competitive programmes like Medicine and Law require 3 principal passes with specific subject grades.',
   subjects,
   durations: {
   '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for UNEB UACE (Uganda) — 1 Hour'),
@@ -58,7 +61,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   lastUpdated: '2026-03-25',
-  officialSource: 'https://example.com',
+  officialSource: 'https://www.uneb.ac.ug',
 };
 
 export default exam;

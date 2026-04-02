@@ -35,21 +35,24 @@ function makeRoadmap(subjects: Subject[], duration: string, totalDays: number, d
 
 const exam: ExamTemplate = {
   examId: 'loe',
-  examName: 'LOE Nepal',
+  examName: 'LOE Nepal (Bachelor Entrance)',
   country: 'nepal',
+  description: "Nepal's Bachelor-level entrance examinations for various programmes at Tribhuvan University and other universities.",
+  examPattern: "Varies by faculty — typically 100 MCQs in relevant subjects, 2 hours. Tests subject knowledge at +2 level.",
+  eligibility: "+2 (Higher Secondary Education Board) completion or equivalent. Minimum percentage requirements vary by programme.",
   subjects,
   durations: {
-  '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for LOE Nepal — 1 Hour'),
-  '1d': makeRoadmap(subjects, '1d', 1, 'Study plan for LOE Nepal — 1 Day'),
-  '3d': makeRoadmap(subjects, '3d', 3, 'Study plan for LOE Nepal — 3 Days'),
-  '7d': makeRoadmap(subjects, '7d', 7, 'Study plan for LOE Nepal — 1 Week'),
-  '1mo': makeRoadmap(subjects, '1mo', 30, 'Study plan for LOE Nepal — 1 Month'),
-  '3mo': makeRoadmap(subjects, '3mo', 90, 'Study plan for LOE Nepal — 3 Months'),
-  '6mo': makeRoadmap(subjects, '6mo', 180, 'Study plan for LOE Nepal — 6 Months'),
+  '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for LOE Nepal (Bachelor Entrance) — 1 Hour'),
+  '1d': makeRoadmap(subjects, '1d', 1, 'Study plan for LOE Nepal (Bachelor Entrance) — 1 Day'),
+  '3d': makeRoadmap(subjects, '3d', 3, 'Study plan for LOE Nepal (Bachelor Entrance) — 3 Days'),
+  '7d': makeRoadmap(subjects, '7d', 7, 'Study plan for LOE Nepal (Bachelor Entrance) — 1 Week'),
+  '1mo': makeRoadmap(subjects, '1mo', 30, 'Study plan for LOE Nepal (Bachelor Entrance) — 1 Month'),
+  '3mo': makeRoadmap(subjects, '3mo', 90, 'Study plan for LOE Nepal (Bachelor Entrance) — 3 Months'),
+  '6mo': makeRoadmap(subjects, '6mo', 180, 'Study plan for LOE Nepal (Bachelor Entrance) — 6 Months'),
   },
   rescueMode: {
     name: 'Rescue Mode',
-    description: 'Cramming plan for LOE Nepal',
+    description: 'Cramming plan for LOE Nepal (Bachelor Entrance)',
     duration: '1d',
     focusAreas: subjects.slice(0, 3).map(s => ({
       subject: s.name,

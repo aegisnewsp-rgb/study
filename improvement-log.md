@@ -1301,3 +1301,107 @@ Footer timestamp signals content freshness to students and Google. Educational c
 - Multiple unpushed commits (local — GitHub push blocked from sandbox)
 - Latest commits cover: exam pages, prev/next nav, news section, ItemList
 
+
+---
+
+## Cycle 87 — 2026-04-02 04:05 UTC
+
+### News Fetch
+✅ `fetch_news.py` completed — 10 fresh items saved to `public/news.json`
+- India: 4 items, Pakistan: 4 items, Nigeria: 2 items
+- Deduplication from 813 new items → 10-item rolling window
+
+### VPS Status
+❌ **VPS unreachable** — http://172.17.0.1:9000/ and http://187.127.134.151:9000/ both timing out
+- Container may have stopped or VPS may be down
+- Deploy endpoint also unresponsive
+- **Action needed:** Check VPS status / restart container
+
+### Backlog Review
+Most high-value SEO items completed. Remaining items all need user input:
+1. GSC verification code (placeholder in Layout.astro)
+2. AdSense integration (needs approved account + code)
+3. Knowledge-base content (MiniMax text API exhausted — needs top-up)
+4. Directory submissions (script ready at `scripts/directory_checker.py`)
+
+**No actionable items available until VPS is back online or user provides GSC/AdSense details.**
+
+---
+
+## Cycle 88 — 2026-04-02 06:05 UTC
+
+### VPS Status
+❌ **Still unreachable** — 2+ hours since last confirmed down (04:05 UTC)
+- Deploy endpoint connects (TCP SYN received) but returns no data — container/nginx appears hung or in restart loop
+- No SSH access from sandbox to check container status
+- **Action needed:** Manual VPS intervention required
+
+### News Fetch
+⏭️ Skipped — no point updating news.json when live site can't be deployed to
+
+### Status
+🛑 Site DOWN — user notified. All remaining SEO backlog items blocked by VPS being offline.
+
+---
+
+## Cycle 89 — 2026-04-02 08:01 UTC
+
+### News Fetch
+✅ 10 items saved to public/news.json (India: 4, Pakistan: 4, Nigeria: 2)
+
+### VPS Status
+❌ **Still unreachable** — no change since 04:05 UTC
+
+---
+
+## Cycle 88 — 2026-04-02 09:00 UTC
+
+### News Fetch
+✅ `fetch_news.py` completed — 10 items saved to `public/news.json`
+- India: 4, Pakistan: 4, Nigeria: 2
+
+### VPS Status
+❌ **VPS still unreachable** — same issue as Cycle 87
+- Both http://172.17.0.1:9000/ and http://187.127.134.151:9000/ timing out
+- No change since last cycle
+
+---
+
+## Cycle 88 — 2026-04-02 11:04 UTC
+
+### News Fetch
+✅ `fetch_news.py` completed — 10 fresh items saved to `public/news.json`
+- India: 4, Pakistan: 4, Nigeria: 2
+
+### VPS Status
+❌ **VPS still unreachable** — http://187.127.134.151:9000/ has been down since at least Cycle 87 (04:05 UTC), now ~7 hours
+- Site and deploy endpoint both timing out
+- **Action needed:** Manual VPS/container restart required
+
+---
+
+## Cycle 88 — 2026-04-02 11:35 UTC
+
+### News Fetch
+✅ `fetch_news.py` completed — 10 items saved to `public/news.json`
+- India: 4, Pakistan: 4, Nigeria: 2
+
+### VPS Status
+❌ **VPS still unreachable** — deploy endpoint timing out (same as Cycle 87 at 04:05 UTC)
+- Site returning HTTP 000 (connection timeout) — container may be down again
+- VPS restart needed from provider console
+- Telegram alert sent to user at ~04:15 UTC (from previous cycle)
+
+---
+
+## Cycle 88 — 2026-04-02 12:03 UTC
+
+### News Fetch
+✅ `fetch_news.py` completed — 10 items saved to `public/news.json`
+- India: 4, Pakistan: 4, Nigeria: 2 (816 new items deduplicated)
+
+### VPS Status
+❌ **VPS still unreachable** — 187.127.134.151 and deploy endpoint both timing out
+- No change since Cycle 87 (first noticed ~04:05 UTC, now ~12:03 UTC = 8 hours down)
+- Likely needs manual VPS restart or container recreate
+- **Action needed from user:** Check VPS status / restart StudyRoadmap container

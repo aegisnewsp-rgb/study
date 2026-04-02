@@ -37,6 +37,9 @@ const exam: ExamTemplate = {
   examId: 'law-apt-kenya',
   examName: 'Kenya Law Aptitude',
   country: 'kenya',
+  description: 'The Kenya Law Aptitude Test (LAT) is an entrance examination for admission to law programmes at Kenyan universities, primarily the Kenya School of Law which trains advocates. The test assesses candidates on logical reasoning, legal awareness, English language proficiency, and general knowledge — skills essential for legal study. The LAT is typically administered annually and is a prerequisite for enrollment in the Certificate in Law programme offered by the Kenya School of Law in Nairobi.',
+  examPattern: 'Typically consists of two papers: Paper 1 covers English (comprehension, grammar, vocabulary) and General Knowledge (current affairs, history, politics), while Paper 2 covers Logical Reasoning (analytical thinking, argument analysis) and Legal Awareness (constitutional law basics, human rights, legal institutions in Kenya). Questions are MCQs and short-answer format. Total duration is approximately 2-3 hours.',
+  eligibility: 'KCSE holder with minimum C+ including C+ in English. Candidates must have completed a bachelor\'s degree (for the Diploma in Law route) or have A-Level qualifications. There is no age limit. Candidates with prior legal knowledge or those who have completed relevant certificate courses may have an added advantage. Applications are made through the Kenya School of Law admissions portal.',
   subjects,
   durations: {
   '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for Kenya Law Aptitude — 1 Hour'),
@@ -58,7 +61,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   lastUpdated: '2026-03-25',
-  officialSource: 'https://example.com',
+  officialSource: 'https://ksl.ac.ke',
 };
 
 export default exam;

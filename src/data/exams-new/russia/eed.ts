@@ -13,21 +13,21 @@ const subjects: Subject[] = [
 
 const exam: ExamTemplate = {
   examId: 'eed',
-  examName: 'EGE (Russia)',
+  examName: 'ЕГЭ (Russia)',
   country: 'russia',
   subjects,
   durations: {
-  '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for EGE (Russia) — 1 Hour'),
-  '1d': makeRoadmap(subjects, '1d', 1, 'Study plan for EGE (Russia) — 1 Day'),
-  '3d': makeRoadmap(subjects, '3d', 3, 'Study plan for EGE (Russia) — 3 Days'),
-  '7d': makeRoadmap(subjects, '7d', 7, 'Study plan for EGE (Russia) — 1 Week'),
-  '1mo': makeRoadmap(subjects, '1mo', 30, 'Study plan for EGE (Russia) — 1 Month'),
-  '3mo': makeRoadmap(subjects, '3mo', 90, 'Study plan for EGE (Russia) — 3 Months'),
-  '6mo': makeRoadmap(subjects, '6mo', 180, 'Study plan for EGE (Russia) — 6 Months'),
+  '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for ЕГЭ (Russia) — 1 Hour'),
+  '1d': makeRoadmap(subjects, '1d', 1, 'Study plan for ЕГЭ (Russia) — 1 Day'),
+  '3d': makeRoadmap(subjects, '3d', 3, 'Study plan for ЕГЭ (Russia) — 3 Days'),
+  '7d': makeRoadmap(subjects, '7d', 7, 'Study plan for ЕГЭ (Russia) — 1 Week'),
+  '1mo': makeRoadmap(subjects, '1mo', 30, 'Study plan for ЕГЭ (Russia) — 1 Month'),
+  '3mo': makeRoadmap(subjects, '3mo', 90, 'Study plan for ЕГЭ (Russia) — 3 Months'),
+  '6mo': makeRoadmap(subjects, '6mo', 180, 'Study plan for ЕГЭ (Russia) — 6 Months'),
   },
   rescueMode: {
     name: 'Rescue Mode',
-    description: 'Cramming plan for EGE (Russia)',
+    description: 'Cramming plan for ЕГЭ (Russia)',
     duration: '1d',
     focusAreas: subjects.slice(0, 3).map(s => ({
       subject: s.name,

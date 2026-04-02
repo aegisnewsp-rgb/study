@@ -39,6 +39,9 @@ const exam: ExamTemplate = {
   examId: 'cmat',
   examName: 'CMAT',
   country: 'india',
+  description: `The Common Management Admission Test (CMAT) is a national-level entrance examination conducted by the National Testing Agency (NTA) for admission to management programmes (MBA/PGDM) in AICTE-approved institutions across India. CMAT is one of the few exams that provides admission to a wide network of over 1,000 B-schools and is conducted in an online computer-based format. It evaluates candidates across four key areas: verbal ability, quantitative aptitude, logical reasoning, and general awareness, reflecting the skills required for modern business management education.`,
+  examPattern: `CMAT consists of 100 multiple-choice questions divided into four sections: Verbal Ability and Reading Comprehension (25 questions), Quantitative Techniques and Data Interpretation (25 questions), Logical Reasoning (25 questions), and General Awareness (25 questions). Each question carries 4 marks, with a total of 400 marks. The duration is 3 hours (180 minutes) with no sectional time limit. There is a negative marking of 1 mark for each wrong answer. The exam is conducted online (CBT) in a single shift.`,
+  eligibility: `Candidates holding a bachelor's degree in any discipline with a minimum of 50% aggregate marks (45% for SC/ST/PwD candidates) from a recognized university are eligible to appear for CMAT. Candidates in their final year of graduation may also apply provisionally. There is no age limit for CMAT. Foreign nationals holding valid GMAT scores may also be considered for admission to some institutions under their respective policies.`,
   subjects,
   durations: {
   '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for CMAT — 1 Hour'),

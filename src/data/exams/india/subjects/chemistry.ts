@@ -1,20 +1,20 @@
 export const chemistry: Subject = {
   id: 'chemistry', name: 'Chemistry', color: '#10b981',
   topics: [
-    { id: 'chemis-001', name: 'Topic 1', weight: 3 as const },
-    { id: 'chemis-002', name: 'Topic 2', weight: 3 as const },
-    { id: 'chemis-003', name: 'Topic 3', weight: 3 as const },
-    { id: 'chemis-004', name: 'Topic 4', weight: 3 as const },
-    { id: 'chemis-005', name: 'Topic 5', weight: 3 as const },
-    { id: 'chemis-006', name: 'Topic 6', weight: 3 as const },
-    { id: 'chemis-007', name: 'Topic 7', weight: 3 as const },
-    { id: 'chemis-008', name: 'Topic 8', weight: 3 as const },
-    { id: 'chemis-009', name: 'Topic 9', weight: 3 as const },
-    { id: 'chemis-010', name: 'Topic 10', weight: 3 as const },
-    { id: 'chemis-011', name: 'Topic 11', weight: 3 as const },
-    { id: 'chemis-012', name: 'Topic 12', weight: 3 as const },
-    { id: 'chemis-013', name: 'Topic 13', weight: 3 as const },
-    { id: 'chemis-014', name: 'Topic 14', weight: 3 as const },
-    { id: 'chemis-015', name: 'Topic 15', weight: 3 as const }
+    { id: 'chemis-001', name: 'Atomic Structure', weight: 3 as const, description: 'Dual nature of matter, de Broglie relation, Heisenberg uncertainty principle, quantum numbers, orbital shapes (s, p, d, f), Aufbau principle, Hund\'s rule, Pauli\'s exclusion principle, and electronic configurations.' },
+    { id: 'chemis-002', name: 'Chemical Bonding and Molecular Structure', weight: 3 as const, description: 'Ionic and covalent bonding, VSEPR theory, hybridization (sp, sp², sp³, sp³d, sp³d²), valence bond theory, MOT (bond order, HOMO-LUMO), dipole moment, and resonance structures.' },
+    { id: 'chemis-003', name: 'Classification of Elements and Periodicity', weight: 3 as const, description: 'Modern periodic table, periodic trends — atomic radius, ionization enthalpy, electron gain enthalpy, electronegativity, valence electrons, metallic/non-metallic character across periods and groups.' },
+    { id: 'chemis-004', name: 'States of Matter', weight: 3 as const, description: 'Gas laws (Boyle\'s, Charles\'s, Avogadro\'s), ideal gas equation, kinetic theory of gases, van der Waals equation, liquefaction of gases, critical temperature, and solid-state (lattice, crystal systems, Bragg\'s law).' },
+    { id: 'chemis-005', name: 'Thermodynamics', weight: 3 as const, description: 'System and surroundings, first law of thermodynamics (internal energy, work, heat), enthalpy, Hess\'s law, spontaneity, Gibbs free energy, second law of thermodynamics, and entropy change calculations.' },
+    { id: 'chemis-006', name: 'Chemical Equilibrium', weight: 3 as const, description: 'Reversible reactions, equilibrium constant (Kp, Kc), Le Chatelier\'s principle, factors affecting equilibrium, relationship between Kp and Kc, ionic equilibrium in solutions, pH, buffers, and solubility product.' },
+    { id: 'chemis-007', name: 'Chemical Kinetics', weight: 3 as const, description: 'Rate of reaction, rate law and order, molecularity, zero, first, and second-order reactions, Arrhenius equation, activation energy, catalyst role, and half-life calculations.' },
+    { id: 'chemis-008', name: 'Redox Reactions and Electrochemistry', weight: 3 as const, description: 'Oxidation-reduction concepts, balancing redox equations, electrochemical cells (galvanic, electrolytic), Nernst equation, standard electrode potentials, Faraday\'s laws of electrolysis, and corrosion prevention.' },
+    { id: 'chemis-009', name: 'Surface Chemistry', weight: 3 as const, description: 'Adsorption (physisorption vs chemisorption), catalysis (homogeneous and heterogeneous), colloids (types, preparation, properties), Brownian movement, Tyndall effect, coagulation, and emulsions.' },
+    { id: 'chemis-010', name: 's-Block and Hydrogen', weight: 3 as const, description: 'Alkali and alkaline earth metals — properties, compounds (oxides, hydroxides, carbonates, bicarbonates), diagonal relationship of Li and Mg, preparation and properties of hydrogen, isotopes, and hydrides.' },
+    { id: 'chemis-011', name: 'p-Block Elements', weight: 3 as const, description: 'Group 13 to 18 elements — general trends, allotropic forms of carbon, nitrogen chemistry (compounds, Haber process), oxygen and sulphur oxides, halogen properties, noble gas compounds, and interstitial compounds.' },
+    { id: 'chemis-012', name: 'd and f-Block Elements', weight: 3 as const, description: 'Transition metals — electronic configuration, oxidation states, magnetic properties, colour of complexes, coordination compounds (nomenclature, isomerism, VBT, CFT), lanthanides and actinides contraction.' },
+    { id: 'chemis-013', name: 'Organic Chemistry — Basic Principles', weight: 3 as const, description: 'IUPAC nomenclature, hybridization effect on properties, inductive and electromeric effects, resonance, hyperconjugation, bond fission, carbocations and carbanions, and reaction intermediates.' },
+    { id: 'chemis-014', name: 'Hydrocarbons and Haloalkanes', weight: 3 as const, description: 'Alkanes, alkenes, alkynes — preparation methods, chemical reactions, Markovnikov and anti-Markovnikov addition, ozonolysis,-free radical substitution, SN1, SN2, E1, E2 reactions, and optical isomerism basics.' },
+    { id: 'chemis-015', name: 'Alcohols, Phenols, Ethers, Carbonyls and Biomolecules', weight: 3 as const, description: 'Properties and reactions of alcohols and phenols, ether preparation, aldol condensation, Cannizzaro reaction, carboxylic acids (preparation, reactions), amine classification and basicity, and biomolecules (carbohydrates, amino acids, nucleic acids).' }
   ]
 };

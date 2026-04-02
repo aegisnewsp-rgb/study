@@ -1,13 +1,9 @@
 export const gk: Subject = {
-  id: 'gk', name: 'Gk', color: '#6b7280',
+  id: 'gk', name: 'General Knowledge', color: '#f59e0b',
   topics: [
-    { id: 'gk-001', name: 'Topic 1', weight: 3 as const },
-    { id: 'gk-002', name: 'Topic 2', weight: 3 as const },
-    { id: 'gk-003', name: 'Topic 3', weight: 3 as const },
-    { id: 'gk-004', name: 'Topic 4', weight: 3 as const },
-    { id: 'gk-005', name: 'Topic 5', weight: 3 as const },
-    { id: 'gk-006', name: 'Topic 6', weight: 3 as const },
-    { id: 'gk-007', name: 'Topic 7', weight: 3 as const },
-    { id: 'gk-008', name: 'Topic 8', weight: 3 as const }
+    { id: 'ind-gk-001', name: 'Indonesian Geography', weight: 3 as const, description: 'Physical and human geography of Indonesia — islands, provinces, climate, natural resources, and regional characteristics.' },
+    { id: 'ind-gk-002', name: 'Indonesian History and Culture', weight: 3 as const, description: 'Major historical events, cultural heritage, independence struggle, and notable figures in Indonesian history.' },
+    { id: 'ind-gk-003', name: 'Civics and Indonesian Constitution', weight: 3 as const, description: 'Pancasila, Indonesian constitution, government structure, citizenship, and civic responsibilities.' },
+    { id: 'ind-gk-004', name: 'Current Affairs', weight: 3 as const, description: 'Recent national and international events, government policies, and issues relevant to Indonesian society.' }
   ]
 };

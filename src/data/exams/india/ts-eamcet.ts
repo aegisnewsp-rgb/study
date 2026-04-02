@@ -37,6 +37,9 @@ const exam: ExamTemplate = {
   examId: 'ts-eamcet',
   examName: 'TS EAMCET',
   country: 'india',
+  description: "Telangana State EAMCET (TS EAMCET) is the state entrance exam for engineering, agriculture, and pharmacy programmes in Telangana. Conducted by JNTUH.",
+  examPattern: "160 MCQs: Physics(40), Chemistry(40), Mathematics(80), 3 hours. No negative marking.",
+  eligibility: "Class 12 with PCM/PCB with minimum 45% aggregate. Telangana domicile required.",
   subjects,
   durations: {
   '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for TS EAMCET — 1 Hour'),

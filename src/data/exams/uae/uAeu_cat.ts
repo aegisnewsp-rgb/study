@@ -39,6 +39,9 @@ const exam: ExamTemplate = {
   examId: 'uAeu_cat',
   examName: 'UAE University CAT',
   country: 'uae',
+  description: 'United Arab Emirates University (UAEU) College Admission Test — a standardised admissions test for undergraduate admission to UAEU\'s various colleges. UAEU is the UAE\'s flagship national university, located in Al Ain. The test is required for Emirati nationals and UAE residents seeking admission to undergraduate programmes, particularly in the Colleges of Business, Engineering, Health Sciences, and Humanities. UAE nationals are given priority in admission.',
+  examPattern: 'Tests English, Mathematics, and analytical skills. Computer-based adaptive format. The English section assesses reading comprehension, vocabulary, and writing skills. Mathematics covers algebra, geometry, statistics, and quantitative reasoning. The analytical skills section tests logical reasoning, pattern recognition, and problem-solving. Each section is timed separately. The test adapts to candidate performance — correct answers lead to harder questions, incorrect answers to easier ones.',
+  eligibility: 'High school completion (Tawjihi or equivalent) with minimum GPA requirements. UAE nationals given priority. For UAE nationals, the minimum GPA requirement is typically lower. Residents must have a high school diploma with good academic standing. Some programmes have additional subject requirements — for example, Engineering requires high school Mathematics. The test is conducted in Arabic and English depending on the programme.',
   subjects,
   durations: {
   '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for UAE University CAT — 1 Hour'),
@@ -60,7 +63,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   lastUpdated: '2026-03-25',
-  officialSource: 'https://example.com',
+  officialSource: 'https://www.uaeu.ac.ae',
 };
 
 export default exam;

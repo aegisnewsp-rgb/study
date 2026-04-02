@@ -37,6 +37,9 @@ const exam: ExamTemplate = {
   examId: 'comedk',
   examName: 'COMEDK',
   country: 'india',
+  description: "COMEDK UGET is the entrance exam for admission to private engineering colleges in Karnataka. Conducted annually, it is a merit-based exam testing Physics, Chemistry, and Mathematics.",
+  examPattern: "180 MCQs: Physics(60), Chemistry(60), Mathematics(60), 3 hours, 180 marks total. No negative marking.",
+  eligibility: "Class 12 PCM with minimum 45% aggregate. Indian citizen only.",
   subjects,
   durations: {
   '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for COMEDK — 1 Hour'),

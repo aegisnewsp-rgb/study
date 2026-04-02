@@ -35,6 +35,9 @@ const exam: ExamTemplate = {
   examId: 'putme',
   examName: 'Post-UTME (Nigeria)',
   country: 'nigeria',
+  description: 'Post-UTME is the screening examination conducted by individual Nigerian universities after the JAMB UTME. Each university designs its own Post-UTME test, which evaluates candidates on subject-specific knowledge relevant to their chosen course. The Post-UTME score, combined with the JAMB UTME score, determines a candidate\'s admission chances. As there are over 50 universities in Nigeria, each with unique Post-UTME formats, preparation must be tailored to the specific university. Competition is intense, particularly for popular courses like Medicine, Law, and Engineering.',
+  examPattern: 'Format varies by university — typically 40-100 MCQs in relevant subjects, 1-2 hours duration. Most universities test Use of English (compulsory) plus 2-3 subjects relevant to the candidate\'s chosen programme. Some universities like UNILAG use fully CBT format while others use paper-based tests. Lagos State universities use EKO-KSS, Ogun uses OGUN-SS, Oyo uses OYOSTATE-SS. Questions are drawn from the JAMB UTME syllabus and the university\'s subject requirements.',
+  eligibility: 'Must have sat JAMB UTME and scored the minimum cut-off mark set by the university and course of choice. Each university publishes its own cut-off marks annually based on JAMB\'s national guidelines. Candidates must also meet the university\'s O-Level subject requirements. The combination of JAMB score and Post-UTME score determines the admission ranking. Candidates can only sit Post-UTME at one university per admission year.',
   subjects,
   durations: {
   '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for Post-UTME (Nigeria) — 1 Hour'),
@@ -56,7 +59,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   lastUpdated: '2026-03-25',
-  officialSource: 'https://example.com',
+  officialSource: 'https://www.jamb.gov.ng',
 };
 
 export default exam;

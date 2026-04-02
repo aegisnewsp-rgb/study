@@ -1,10 +1,12 @@
 import type { ExamTemplate, Subject } from '../types';
 
+import { russian_language } from './subjects/russian-language';
 import { mathematics } from './subjects/mathematics';
 import { physics } from './subjects/physics';
 import { chemistry } from './subjects/chemistry';
 
 const subjects: Subject[] = [
+    russian_language,
     mathematics,
     physics,
     chemistry,
@@ -37,6 +39,9 @@ const exam: ExamTemplate = {
   examId: 'eed',
   examName: 'EGE (Russia)',
   country: 'russia',
+  description: "ЕГЭ (Yediniy Gosudarstvenniy Ekzamen, Unified State Exam) is Russia's national university entrance examination. One of the largest standardized tests in the world — required for admission to all Russian universities. Tests in Russian language, Mathematics, and elective subjects.",
+  examPattern: "2 mandatory exams: Russian Language (100 points), Mathematics (100 points base or 100 points profile). Plus 1-2 elective subjects: Physics, Chemistry, Biology, History, Social Science, Informatics, Foreign Language. Minimum 3 exams total. 3-5 hours per exam.",
+  eligibility: "Certificate of Secondary General Education (аттестат). Minimum score requirements vary by university and programme.",
   subjects,
   durations: {
   '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for EGE (Russia) — 1 Hour'),

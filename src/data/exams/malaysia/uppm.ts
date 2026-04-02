@@ -37,21 +37,24 @@ function makeRoadmap(subjects: Subject[], duration: string, totalDays: number, d
 
 const exam: ExamTemplate = {
   examId: 'uppm',
-  examName: 'UPPM Medicine (Malaysia)',
+  examName: 'UPPM/UNIMAP Admission (Malaysia)',
   country: 'malaysia',
+  description: "Universiti Malaysia Perlis (UNIMAP) admission test — entry requirements for engineering and technology programmes at this northern Malaysian university.",
+  examPattern: "Based on STPM, Matriculation, or direct assessment. University-specific test may be required.",
+  eligibility: "STPM/Matriculation with minimum CGPA requirements. Relevant subject prerequisites.",
   subjects,
   durations: {
-  '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for UPPM Medicine (Malaysia) — 1 Hour'),
-  '1d': makeRoadmap(subjects, '1d', 1, 'Study plan for UPPM Medicine (Malaysia) — 1 Day'),
-  '3d': makeRoadmap(subjects, '3d', 3, 'Study plan for UPPM Medicine (Malaysia) — 3 Days'),
-  '7d': makeRoadmap(subjects, '7d', 7, 'Study plan for UPPM Medicine (Malaysia) — 1 Week'),
-  '1mo': makeRoadmap(subjects, '1mo', 30, 'Study plan for UPPM Medicine (Malaysia) — 1 Month'),
-  '3mo': makeRoadmap(subjects, '3mo', 90, 'Study plan for UPPM Medicine (Malaysia) — 3 Months'),
-  '6mo': makeRoadmap(subjects, '6mo', 180, 'Study plan for UPPM Medicine (Malaysia) — 6 Months'),
+  '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for UPPM/UNIMAP Admission (Malaysia) — 1 Hour'),
+  '1d': makeRoadmap(subjects, '1d', 1, 'Study plan for UPPM/UNIMAP Admission (Malaysia) — 1 Day'),
+  '3d': makeRoadmap(subjects, '3d', 3, 'Study plan for UPPM/UNIMAP Admission (Malaysia) — 3 Days'),
+  '7d': makeRoadmap(subjects, '7d', 7, 'Study plan for UPPM/UNIMAP Admission (Malaysia) — 1 Week'),
+  '1mo': makeRoadmap(subjects, '1mo', 30, 'Study plan for UPPM/UNIMAP Admission (Malaysia) — 1 Month'),
+  '3mo': makeRoadmap(subjects, '3mo', 90, 'Study plan for UPPM/UNIMAP Admission (Malaysia) — 3 Months'),
+  '6mo': makeRoadmap(subjects, '6mo', 180, 'Study plan for UPPM/UNIMAP Admission (Malaysia) — 6 Months'),
   },
   rescueMode: {
     name: 'Rescue Mode',
-    description: 'Cramming plan for UPPM Medicine (Malaysia)',
+    description: 'Cramming plan for UPPM/UNIMAP Admission (Malaysia)',
     duration: '1d',
     focusAreas: subjects.slice(0, 3).map(s => ({
       subject: s.name,

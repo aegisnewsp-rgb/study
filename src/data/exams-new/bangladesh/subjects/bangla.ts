@@ -1,15 +1,19 @@
+import type { Subject } from '../types';
+
 const bangla: Subject = {
   id: 'bangla', name: 'Bangla', color: '#6b7280',
   topics: [
-    { id: 'bangla-001', name: 'Topic 1', weight: 3 as const }
-    { id: 'bangla-002', name: 'Topic 2', weight: 3 as const }
-    { id: 'bangla-003', name: 'Topic 3', weight: 3 as const }
-    { id: 'bangla-004', name: 'Topic 4', weight: 3 as const }
-    { id: 'bangla-005', name: 'Topic 5', weight: 3 as const }
-    { id: 'bangla-006', name: 'Topic 6', weight: 3 as const }
-    { id: 'bangla-007', name: 'Topic 7', weight: 3 as const }
-    { id: 'bangla-008', name: 'Topic 8', weight: 3 as const }
-    { id: 'bangla-009', name: 'Topic 9', weight: 3 as const }
-    { id: 'bangla-010', name: 'Topic 10', weight: 3 as const }
+    { id: 'bangla-001', name: 'বাংলা সাহিত্যের ইতিহাস', weight: 4 as const, description: 'চীনা, পাল, সেন, মুঘল, ব্রিটিশ ও স্বাধীনোত্তর বাংলা সাহিত্যের ধারা ও প্রধান লেখক — DU এবং অন্যান্য বিশ্ববিদ্যালয় ভর্তি পরীক্ষায় গুরুত্বপূর্ণ।' },
+    { id: 'bangla-002', name: 'ব্যাকরণ: ধ্বনিতত্ত্ব ও বর্ণমালা', weight: 3 as const, description: 'স্বরধ্বনি, ব্যঞ্জনধ্বনি, উচ্চারণ, বাংলা বর্ণমালার শ্রেণিবিভাগ — ভর্তি পরীক্ষায় ব্যাকরণিক জ্ঞান যাচাইয়ের জন্য অপরিহার্য।' },
+    { id: 'bangla-003', name: 'ব্যাকরণ: শব্দতত্ত্ব ও প্রকৃতি', weight: 4 as const, description: 'সংস্কৃত ও তৎ্সম শব্দ, তদ্ভব শব্দ, বিদেশি শব্দ, শব্দ প্রকৃতি-বিভক্তি — DU ও অন্যান্য বিশ্ববিদ্যালয় ভর্তি পরীক্ষায় বারবার আসে।' },
+    { id: 'bangla-004', name: 'ব্যাকরণ: বাক্য পরিবর্তন ও পদান্তর', weight: 4 as const, description: 'বাক্যের গঠন, পদ পরিবর্তন, সমাস, সন্ধি, লিঙ্গ-বচন — বাংলা ভর্তি পরীক্ষার একটি স্থায়ী অংশ।' },
+    { id: 'bangla-005', name: 'প্রবন্ধ রচনা', weight: 3 as const, description: 'প্রবন্ধ রচনার কৌশল, বিষয় নির্বাচন, ভূমিকা-উপসংহার, এবং যুক্তিপূর্ণ লেখার পদ্ধতি — DU এবং সরকারি বিশ্ববিদ্যালয় ভর্তি পরীক্ষায় গুরুত্বপূর্ণ।' },
+    { id: 'bangla-006', name: 'কাব্য সাহিত্য ও পংক্তি বিশ্লেষণ', weight: 4 as const, description: 'মধ্যযুগ ও আধুনিক কাব্যের বৈশিষ্ট্য, কবিতার পংক্তি বিশ্লেষণ, রসানুভূতি — বাংলা সাহিত্যের গুরুত্বপূর্ণ অংশ।' },
+    { id: 'bangla-007', name: 'গদ্য সাহিত্য ও প্রহসন', weight: 3 as const, description: 'প্রবন্ধ, ছোটগল্প, উপন্যাস, প্রহসনের বৈশিষ্ট্য ও বিশ্লেষণ — DU ভর্তি পরীক্ষায় গদ্য সাহিত্যের প্রশ্ন বারবার আসে।' },
+    { id: 'bangla-008', name: 'বাংলা ভাষার আঞ্চলিক বৈচিত্র্য', weight: 2 as const, description: 'চট্টগ্রাম, সিলেট, রাজশাহী, খুলনার ভাষার বৈশিষ্ট্য এবং বাংলা ভাষার জাতীয় চরিত্র — সাংস্কৃতিক জ্ঞানমূলক প্রশ্নে গুরুত্বপূর্ণ।' },
+    { id: 'bangla-009', name: 'বিখ্যাত লেখক ও তাদের রচনাবলি', weight: 3 as const, description: 'রবীন্দ্রনাথ, বঙ্কিমচন্দ্র, শরৎচন্দ্র, কাজী নজরুল, জীবনানন্দের রচনাবলি ও দর্শন — DU ভর্তি পরীক্ষায় প্রায় অবশ্যম্ভাবী।' },
+    { id: 'bangla-010', name: 'সাহিত্যিক রীতি ও প্রতীক', weight: 2 as const, description: 'ছন্দ, অলংকার, প্রতীক, রূপক, উপমা, ইঙ্গিত — কাব্য ও গদ্য বিশ্লেষণে ব্যবহৃত সাহিত্যিক কৌশল।' },
   ]
 };
+
+export { bangla };

@@ -33,23 +33,26 @@ function makeRoadmap(subjects: Subject[], duration: string, totalDays: number, d
 
 const exam: ExamTemplate = {
   examId: 'uii',
-  examName: 'UI Entrance (Indonesia)',
+  examName: 'UII Entrance (Indonesia)',
   country: 'indonesia',
+  description: "Universitas Islam Indonesia (UII) entrance examination — one of Indonesia's oldest private universities, known for Islamic studies, engineering, and business programmes.",
+  examPattern: "UTBK (Ujian Tulis Berbasis Komputer) — Computer-Based Written Test covering: TPA (Academic Potential Test: verbal, numerical, figural), Pengetahuan Kuantitatif (Quantitative Knowledge), Literasi Bahasa Indonesia, Literasi Bahasa Inggris.",
+  eligibility: "High school/SMA graduate (SMA or equivalent). Must have valid UTBK score from LTMPT.",
   subjects,
   durations: {
-  '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for UI Entrance (Indonesia) — 1 Hour'),
-  '1d': makeRoadmap(subjects, '1d', 1, 'Study plan for UI Entrance (Indonesia) — 1 Day'),
-  '3d': makeRoadmap(subjects, '3d', 3, 'Study plan for UI Entrance (Indonesia) — 3 Days'),
-  '7d': makeRoadmap(subjects, '7d', 7, 'Study plan for UI Entrance (Indonesia) — 1 Week'),
-  '1mo': makeRoadmap(subjects, '1mo', 30, 'Study plan for UI Entrance (Indonesia) — 1 Month'),
-  '3mo': makeRoadmap(subjects, '3mo', 90, 'Study plan for UI Entrance (Indonesia) — 3 Months'),
-  '6mo': makeRoadmap(subjects, '6mo', 180, 'Study plan for UI Entrance (Indonesia) — 6 Months'),
+  '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for UII Entrance (Indonesia) — 1 Hour'),
+  '1d': makeRoadmap(subjects, '1d', 1, 'Study plan for UII Entrance (Indonesia) — 1 Day'),
+  '3d': makeRoadmap(subjects, '3d', 3, 'Study plan for UII Entrance (Indonesia) — 3 Days'),
+  '7d': makeRoadmap(subjects, '7d', 7, 'Study plan for UII Entrance (Indonesia) — 1 Week'),
+  '1mo': makeRoadmap(subjects, '1mo', 30, 'Study plan for UII Entrance (Indonesia) — 1 Month'),
+  '3mo': makeRoadmap(subjects, '3mo', 90, 'Study plan for UII Entrance (Indonesia) — 3 Months'),
+  '6mo': makeRoadmap(subjects, '6mo', 180, 'Study plan for UII Entrance (Indonesia) — 6 Months'),
   },
   rescueMode: {
     name: 'Rescue Mode',
-    description: 'Cramming plan for UI Entrance (Indonesia)',
+    description: 'Cramming plan for UII Entrance (Indonesia)',
     duration: '1d',
-    focusAreas: subjects.slice(0, 3).map(s => ({
+    focusAreas: subjects.slice(0, 2).map(s => ({
       subject: s.name,
       topics: s.topics.slice(0, 5).map(t => t.name),
     })),

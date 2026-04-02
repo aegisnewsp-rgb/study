@@ -39,6 +39,9 @@ const exam: ExamTemplate = {
   examId: 'cs-exec',
   examName: 'CS Executive',
   country: 'india',
+  description: `The Company Secretary (CS) Executive Programme is the second stage of the Company Secretaryship qualification conducted by the Institute of Company Secretaries of India (ICSI). It is designed to train professionals in corporate law, company secretarial practices, corporate compliance, and governance. CS professionals play a vital role in ensuring regulatory compliance, corporate governance, and proper functioning of companies. The Executive programme builds on the Foundation level and prepares candidates for mid-level corporate secretarial roles.`,
+  examPattern: `The CS Executive examination consists of two modules with a total of eight papers. Module I covers Company Law, Cost and Management Accounting, Economic and Commercial Law, and Tax Laws and Practice. Module II covers Corporate and Management Accounting, Securities Laws and Capital Markets, and Economic, Industrial and Labour Laws. Each paper carries 100 marks and is of 3 hours duration. The exam is conducted in both online (computer-based) and offline (pen-and-paper) modes. Candidates must secure a minimum of 40% marks in each paper and 50% aggregate in each module to pass.`,
+  eligibility: `Candidates who have passed the CS Foundation examination are eligible to appear for the CS Executive programme. Graduates or postgraduates in any discipline (except Company Secretaryship) from a recognized university are eligible for direct entry to the Executive programme without appearing for the Foundation. Candidates who have passed the CA Foundation/CPT are also eligible for exemption from CS Foundation. There is no minimum percentage requirement for graduation for direct entry. Students in the final year of graduation may also register provisionally.`,
   subjects,
   durations: {
   '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for CS Executive — 1 Hour'),

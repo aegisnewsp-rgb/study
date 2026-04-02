@@ -37,6 +37,9 @@ const exam: ExamTemplate = {
   examId: 'law-ent-tz',
   examName: 'Tanzania Law School',
   country: 'tanzania',
+  description: 'The Tanzania Law School entrance examination is the mandatory entry test for admission to the postgraduate Diploma in Law programme offered by the Tanzania School of Law (the law faculty at the University of Dar es Salaam and other accredited institutions). The programme is a prerequisite for being called to the bar and practicing law in Tanzania. The exam ensures candidates have the foundational skills needed for legal education at the professional level.',
+  examPattern: 'Typically consists of multiple papers covering English (comprehension and legal writing), General Knowledge and Current Affairs (Tanzanian history, politics, constitution), Logical Reasoning (analytical reasoning, argument analysis), and an introduction to Legal Concepts (basic law principles, the Tanzanian legal system). The format includes MCQs and short-answer questions. Duration varies but is typically 2-3 hours per paper.',
+  eligibility: 'An undergraduate degree (minimum Lower Second Class) in any field from a recognised university. English proficiency is required. Candidates must be of good character and not have any criminal convictions. Applications are made directly to the Tanzania School of Law or through the respective university law faculty. Selection is competitive based on both the entrance exam and undergraduate performance.',
   subjects,
   durations: {
   '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for Tanzania Law School — 1 Hour'),
@@ -58,7 +61,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   lastUpdated: '2026-03-25',
-  officialSource: 'https://example.com',
+  officialSource: 'https://udsm.ac.tz',
 };
 
 export default exam;

@@ -39,6 +39,9 @@ const exam: ExamTemplate = {
   examId: 'undana',
   examName: 'UNDANA Admission (Indonesia)',
   country: 'indonesia',
+  description: "Universitas Nusa Cendana (Undana) admission test — public university in East Nusa Tenggara, Indonesia.",
+  examPattern: "University-specific entrance or UTBK-based admission. Tests academic potential and subject knowledge.",
+  eligibility: "SMA graduate or equivalent. For domestic students primarily.",
   subjects,
   durations: {
   '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for UNDANA Admission (Indonesia) — 1 Hour'),

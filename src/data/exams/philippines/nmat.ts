@@ -39,6 +39,9 @@ const exam: ExamTemplate = {
   examId: 'nmat',
   examName: 'NMAT (Philippines)',
   country: 'philippines',
+  description: 'National Medical Admission Test (NMAT) is the Philippines\' standardised entrance exam for medical schools — required for admission to all medical schools in the Philippines. The NMAT is a national standardised examination administered by the Center for Educational Measurement (CEM) on behalf of the Association of Philippine Medical Colleges (APMC). It is a rigorous aptitude test that measures the academic preparedness of candidates for medical school.',
+  examPattern: 'Part I: Verbal (analogies, reading comprehension), Inductive Reasoning, Quantitative (math fundamentals, problem solving), Perceptual Acuity. Part II: Physics, Chemistry, Biology, Social Sciences. Scored on percentile. Part I is designed to measure mental abilities and is taken first. Part II covers the four science subjects studied at the undergraduate level. Each subtest has 200-250 items. The exam is computer-based and can be taken at designated testing centers across the Philippines.',
+  eligibility: 'Bachelor\'s degree (any field) with minimum GPA requirement. NMAT score valid for 2 years. Most medical schools require a minimum NMAT percentile score of 40-50, though top schools like UP Manila, Ateneo, and De La Salle require 80-90+. Candidates must have completed all undergraduate prerequisite courses (Biology, Physics, General Chemistry, Organic Chemistry, Biochemistry). The NMAT can be taken while completing the bachelor\'s degree or after graduation.',
   subjects,
   durations: {
   '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for NMAT (Philippines) — 1 Hour'),
@@ -60,7 +63,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   lastUpdated: '2026-03-25',
-  officialSource: 'https://example.com',
+  officialSource: 'https://www.cem-inc.org',
 };
 
 export default exam;

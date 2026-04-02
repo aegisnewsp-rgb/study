@@ -31,8 +31,11 @@ function makeRoadmap(subjects: Subject[], duration: string, totalDays: number, d
 
 const exam: ExamTemplate = {
   examId: 'ijmb',
-  examName: 'IJMB (Nigeria)',
+  examName: 'IJMB (Interim Joint Matriculation Board)',
   country: 'nigeria',
+  description: 'The Interim Joint Matriculation Board (IJMB) is an alternative pathway to JAMB for admission into Nigerian universities. Managed and conducted by Ahmadu Bello University (ABU), Zaria, IJMB is a two-year programme that results in an IJMB certificate accepted by all Nigerian universities for direct entry into 200 level (second year). It serves as a bridge between the O-Level/SSCE and university education, allowing candidates to bypass the 100 level and enter directly into their chosen degree programmes based on their IJMB results.',
+  examPattern: '3-4 subjects depending on programme choice, each paper 3 hours duration. Conducted by Ahmadu Bello University. The programme involves continuous assessment during the two-year course and final examinations. Science candidates typically take Physics, Chemistry, and Biology/Mathematics; Arts candidates take relevant combinations based on their intended university course. Each subject is examined separately with rigorous testing of A-Level equivalent knowledge.',
+  eligibility: 'SSCE/NECO holder with minimum 5 credits including English and Mathematics (for most programmes). The programme is designed for candidates seeking direct entry into 200 level university programmes. O-Level results must be within 5 years of the IJMB examination. Students who have already attempted JAMB may also enroll in IJMB as an alternative pathway. Foreign nationals with equivalent qualifications may also apply.',
   subjects,
   durations: {
   '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for IJMB (Nigeria) — 1 Hour'),
@@ -54,7 +57,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   lastUpdated: '2026-03-25',
-  officialSource: 'https://example.com',
+  officialSource: 'https://abu.edu.ng/ijmb',
 };
 
 export default exam;

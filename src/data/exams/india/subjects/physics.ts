@@ -1,20 +1,20 @@
 export const physics: Subject = {
   id: 'physics', name: 'Physics', color: '#3b82f6',
   topics: [
-    { id: 'phy-001', name: 'Topic 1', weight: 3 as const },
-    { id: 'phy-002', name: 'Topic 2', weight: 3 as const },
-    { id: 'phy-003', name: 'Topic 3', weight: 3 as const },
-    { id: 'phy-004', name: 'Topic 4', weight: 3 as const },
-    { id: 'phy-005', name: 'Topic 5', weight: 3 as const },
-    { id: 'phy-006', name: 'Topic 6', weight: 3 as const },
-    { id: 'phy-007', name: 'Topic 7', weight: 3 as const },
-    { id: 'phy-008', name: 'Topic 8', weight: 3 as const },
-    { id: 'phy-009', name: 'Topic 9', weight: 3 as const },
-    { id: 'phy-010', name: 'Topic 10', weight: 3 as const },
-    { id: 'phy-011', name: 'Topic 11', weight: 3 as const },
-    { id: 'phy-012', name: 'Topic 12', weight: 3 as const },
-    { id: 'phy-013', name: 'Topic 13', weight: 3 as const },
-    { id: 'phy-014', name: 'Topic 14', weight: 3 as const },
-    { id: 'phy-015', name: 'Topic 15', weight: 3 as const }
+    { id: 'phy-001', name: 'Physics and Measurement', weight: 3 as const, description: 'Units and dimensions, SI base units, errors in measurement, significant figures, vernier calipers, screw gauge, and dimensional analysis — foundational concepts for all physics problem-solving.' },
+    { id: 'phy-002', name: 'Kinematics', weight: 3 as const, description: 'Motion in one and two dimensions — displacement, velocity, acceleration, equations of motion, projectile motion, relative velocity, and circular motion with numerical applications.' },
+    { id: 'phy-003', name: 'Laws of Motion', weight: 3 as const, description: "Newton's three laws, friction (static and kinetic), circular motion dynamics, tension, spring force, and momentum conservation — core mechanics for engineering entrance exams." },
+    { id: 'phy-004', name: 'Work, Energy and Power', weight: 3 as const, description: 'Work done by constant and variable forces, kinetic and potential energy, work-energy theorem, conservation of mechanical energy, power, and collisions (elastic and inelastic).' },
+    { id: 'phy-005', name: 'Rotational Motion', weight: 3 as const, description: 'Torque, moment of inertia, angular momentum, radius of gyration, theorems of moment of inertia, rotational kinematics, and conservation of angular momentum.' },
+    { id: 'phy-006', name: 'Gravitation', weight: 3 as const, description: "Newton's law of gravitation, acceleration due to gravity, variation of g with altitude and depth, Kepler's laws, orbital velocity, escape velocity, and gravitational potential energy." },
+    { id: 'phy-007', name: 'Properties of Bulk Matter', weight: 3 as const, description: 'Elasticity (stress-strain, Hooke\'s law, Young\'s modulus), fluid mechanics (Pascal\'s law, Bernoulli\'s principle, viscosity, surface tension, capillarity), and Archimedes\' principle.' },
+    { id: 'phy-008', name: 'Thermodynamics', weight: 3 as const, description: 'Heat, temperature, calorimetry, heat transfer (conduction, convection, radiation), first and second law of thermodynamics, specific heat capacity, and thermodynamic processes.' },
+    { id: 'phy-009', name: 'Kinetic Theory of Gases', weight: 3 as const, description: 'Ideal gas equation, kinetic theory assumptions, degrees of freedom, law of equipartition of energy, RMS speed, real gas deviations, and relation between molecular speed and temperature.' },
+    { id: 'phy-010', name: 'Oscillations and Waves', weight: 3 as const, description: 'Simple harmonic motion (SHM), damped and forced oscillations, resonance, wave properties, speed of sound, Doppler effect, standing waves, and superposition principle.' },
+    { id: 'phy-011', name: 'Electrostatics', weight: 3 as const, description: "Coulomb's law, electric field and potential, Gauss's law, capacitors (series/parallel combinations), dielectrics, energy stored in capacitors, and electric dipole behavior." },
+    { id: 'phy-012', name: 'Current Electricity', weight: 3 as const, description: 'Electric current, drift velocity, Ohm\'s law, resistance combinations, Kirchhoff\'s laws, wheatstone bridge, potentiometer, EMF and internal resistance, and heating effect of current.' },
+    { id: 'phy-013', name: 'Magnetic Effects', weight: 3 as const, description: 'Biot-Savart law, Ampere\'s law, magnetic field due to straight wire, circular coil and solenoid, force on moving charge in magnetic field, cyclotron, and force on current-carrying conductor.' },
+    { id: 'phy-014', name: 'Electromagnetic Induction and AC', weight: 3 as const, description: "Faraday's laws of EMI, Lenz's law, self and mutual inductance, AC generator, transformer, alternating current circuits (LCR), impedance, resonance, and power in AC circuits." },
+    { id: 'phy-015', name: 'Optics and Modern Physics', weight: 3 as const, description: 'Reflection and refraction (plane and spherical surfaces), lenses, mirrors, interference (Young\'s double slit), diffraction, polarization, photoelectric effect, Bohr\'s model, X-rays, and de Broglie wavelength.' }
   ]
 };

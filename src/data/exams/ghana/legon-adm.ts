@@ -35,6 +35,9 @@ const exam: ExamTemplate = {
   examId: 'legon-adm',
   examName: 'Legon Admissions (Ghana)',
   country: 'ghana',
+  description: 'University of Ghana (Legon) admission test — a supplementary entrance exam for students who did not meet direct admission requirements to UG. The University of Ghana is the oldest and most prestigious university in Ghana. Each year, the university receives far more qualified applicants than it can admit. The admission test provides a pathway for candidates who have strong WASSCE results but narrowly missed the direct admission cut-off for their preferred programme.',
+  examPattern: 'Tests relevant subjects based on programme choice. Typically written examinations. For Science applicants, tests Biology, Chemistry, and Physics. For Business applicants, tests Mathematics, Economics, and Accounting. For Arts applicants, tests English, History, and a chosen elective. For Law applicants, tests English, Literature, and Government or History. Each paper is typically 1-2 hours, consisting of MCQs and short-answer questions. The test is conducted on the Legon campus.',
+  eligibility: 'WASSCE with required grades. Legon admissions are competitive with cut-off points per programme. Candidates must have a minimum of 6 credits in WASSCE including English and Mathematics (for most programmes). The admission test is typically offered to candidates whose WASSCE grades meet the programme\'s minimum subject requirements but whose aggregate score is slightly below the cut-off for direct admission. Performance in the test determines whether they are offered a place.',
   subjects,
   durations: {
   '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for Legon Admissions (Ghana) — 1 Hour'),
@@ -56,7 +59,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   lastUpdated: '2026-03-25',
-  officialSource: 'https://example.com',
+  officialSource: 'https://ug.edu.gh',
 };
 
 export default exam;

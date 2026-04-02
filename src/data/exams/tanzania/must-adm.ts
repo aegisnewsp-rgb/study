@@ -37,6 +37,9 @@ const exam: ExamTemplate = {
   examId: 'must-adm',
   examName: 'MUST Admission (Tanzania)',
   country: 'tanzania',
+  description: 'Mzumbe University of Tanzania (MUST) admission test is the entrance examination for undergraduate programmes at Mzumbe University, one of Tanzania\'s leading public universities. Mzumbe University is particularly known for its programmes in law, public administration, business, and economics. The university conducts its own admission test for competitive programmes to supplement the TCU centralized admission system.',
+  examPattern: 'Varies by programme applied for — typically tests relevant subjects at CSEE or ACSEE level depending on the programme. For law and business programmes, tests English, Mathematics, and General Knowledge. For science programmes, tests Physics, Chemistry, and Mathematics. Questions are MCQ and short-answer. Each paper is approximately 2 hours. The test is paper-based and conducted on campus.',
+  eligibility: 'CSEE (Form IV) certificate with minimum passes for diploma programmes. ACSEE certificate with relevant subject passes for degree programmes. Each programme has specific subject requirements — Law typically requires a credit in English at CSEE; Business programmes require Mathematics. Candidates must apply through the TCU system and separately to Mzumbe University for programmes requiring the admission test.',
   subjects,
   durations: {
   '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for MUST Admission (Tanzania) — 1 Hour'),
@@ -58,7 +61,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   lastUpdated: '2026-03-25',
-  officialSource: 'https://example.com',
+  officialSource: 'https://must.ac.tz',
 };
 
 export default exam;

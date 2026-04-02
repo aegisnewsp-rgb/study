@@ -37,6 +37,9 @@ const exam: ExamTemplate = {
   examId: 'engineering-ent',
   examName: 'IOE Entrance (Nepal)',
   country: 'nepal',
+  description: "Engineering entrance examination for admission to Nepal's engineering colleges, particularly under Tribhuvan University Institute of Engineering.",
+  examPattern: "100 MCQs: Mathematics(40), Physics(30), Chemistry(20), English(10). 2 hours. Questions at +2 Science level.",
+  eligibility: "+2 Science with Physics, Chemistry, Mathematics. Minimum 45% in PCM.",
   subjects,
   durations: {
   '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for IOE Entrance (Nepal) — 1 Hour'),

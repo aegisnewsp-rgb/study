@@ -37,6 +37,9 @@ const exam: ExamTemplate = {
   examId: 'acsee',
   examName: 'ACSEE (Tanzania)',
   country: 'tanzania',
+  description: 'Tanzania Advanced Certificate of Secondary Education (ACSEE) is the national examination for post-secondary selection. Equivalent to A-Levels, it determines university admission in Tanzania. The ACSEE is administered by the National Examinations Council of Tanzania (NECTA) and is taken by students who have successfully completed their CSEE (Form IV). It is the key determinant for admission to Tanzania\'s public universities through the Tanzania Commission for Universities (TCU).',
+  examPattern: '6-7 papers including compulsory General Studies plus 3 elective subjects. Essay, short answer, and MCQ formats. General Studies is compulsory and covers civics, communication skills, and basic mathematics. Elective subjects are chosen based on the student\'s desired university programme — natural sciences (Physics, Chemistry, Biology, Mathematics), business (Economics, Commerce, Accounting), or humanities (History, Geography, Languages). Each paper is 3 hours.',
+  eligibility: 'CSEE (Form IV) certificate with minimum passes. Selection based on ACSEE results and subject clusters. Students must have passed at least 4 subjects at CSEE level. University admission is coordinated through TCU which sets minimum subject and grade requirements for each programme. Competitive programmes like Medicine, Engineering, and Law require specific subject combinations and high grades.',
   subjects,
   durations: {
   '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for ACSEE (Tanzania) — 1 Hour'),
@@ -58,7 +61,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   lastUpdated: '2026-03-25',
-  officialSource: 'https://example.com',
+  officialSource: 'https://www.necta.go.tz',
 };
 
 export default exam;

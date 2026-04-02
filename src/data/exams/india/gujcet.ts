@@ -37,6 +37,9 @@ const exam: ExamTemplate = {
   examId: 'gujcet',
   examName: 'GUJCET',
   country: 'india',
+  description: "Gujarat Common Entrance Test (GUJCET) is the state-level exam for admission to Gujarat's engineering and pharmacy colleges. Also used as a qualifying exam for BTech admissions.",
+  examPattern: "120 MCQs: Physics(40), Chemistry(40), Mathematics(40), 3 hours, 120 marks. No negative marking.",
+  eligibility: "Class 12 Gujarat Board or equivalent with PCM/PCB. Gujarat domicile preferred for government seats.",
   subjects,
   durations: {
   '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for GUJCET — 1 Hour'),

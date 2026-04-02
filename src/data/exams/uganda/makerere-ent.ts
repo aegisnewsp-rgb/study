@@ -37,6 +37,9 @@ const exam: ExamTemplate = {
   examId: 'makerere-ent',
   examName: 'Makerere University (Uganda)',
   country: 'uganda',
+  description: 'Makerere University direct admission test — an entrance examination for students who did not meet the direct entry requirements for Makerere University\'s various undergraduate programmes. Makerere University is Uganda\'s oldest and most prestigious university, and admission to many programmes is highly competitive. The supplementary admission test provides a second chance for qualified candidates who narrowly missed direct admission cut-offs.',
+  examPattern: 'Varies by programme — typically tests relevant subjects at UACE or equivalent level. For science-based programmes, tests Physics, Chemistry, Biology, and Mathematics. For business programmes, tests Economics, Mathematics, and Commerce. For law programmes, tests English, General Paper, and Legal Knowledge. Format includes MCQs and short-answer questions. The test is typically 2-3 hours per paper and is conducted on the Makerere University campus.',
+  eligibility: 'UACE or equivalent with required subject passes. Age limit may apply for some programmes. Candidates must have applied through the Uganda National Council for Higher Education (UNCHE) and been found eligible but not directly admitted. Those who score above the cut-off on the admission test may be offered a place in their chosen programme, subject to capacity.',
   subjects,
   durations: {
   '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for Makerere University (Uganda) — 1 Hour'),
@@ -58,7 +61,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   lastUpdated: '2026-03-25',
-  officialSource: 'https://example.com',
+  officialSource: 'https://mak.ac.ug',
 };
 
 export default exam;

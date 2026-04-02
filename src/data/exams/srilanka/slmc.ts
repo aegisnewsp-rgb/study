@@ -39,6 +39,9 @@ const exam: ExamTemplate = {
   examId: 'slmc',
   examName: 'SLMC Medical (Sri Lanka)',
   country: 'srilanka',
+  description: 'Sri Lanka Medical Council exam — required for foreign medical graduates seeking registration to practice medicine in Sri Lanka. The SLMC examination is mandated under the Medical Ordinance to ensure that doctors who obtained their primary medical qualification outside Sri Lanka meet the required standards of medical knowledge, clinical competence, and ethical practice before being granted a license to practice in the country.',
+  examPattern: 'Multiple choice and clinical examination components. Tests medical knowledge, clinical skills, and ethical practice. The exam has two parts: Part I is a computer-based MCQ test covering basic medical sciences (Anatomy, Physiology, Biochemistry, Pathology, Pharmacology, Microbiology) and clinical medicine. Part II is a practical/clinical examination assessing history taking, physical examination skills, clinical reasoning, and communication. Both parts must be passed to obtain registration.',
+  eligibility: 'Medical degree from a recognised foreign institution. Must have completed internship. Language proficiency test required (English or Sinhala/Tamil). Candidates must submit their medical degree certificate, internship completion certificate, and a letter of good standing from the medical council of the country where they obtained their degree. The exam is conducted in English.',
   subjects,
   durations: {
   '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for SLMC Medical (Sri Lanka) — 1 Hour'),
@@ -60,7 +63,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   lastUpdated: '2026-03-25',
-  officialSource: 'https://example.com',
+  officialSource: 'https://slmedcouncil.lk',
 };
 
 export default exam;

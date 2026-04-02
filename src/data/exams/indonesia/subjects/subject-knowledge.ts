@@ -1,20 +1,13 @@
 export const subject_knowledge: Subject = {
-  id: 'subject-knowledge', name: 'Subject-Knowledge', color: '#6b7280',
+  id: 'subject_knowledge', name: 'Subject Knowledge (Saintek/Soshum)', color: '#10b981',
   topics: [
-    { id: 'subjec-001', name: 'Topic 1', weight: 3 as const },
-    { id: 'subjec-002', name: 'Topic 2', weight: 3 as const },
-    { id: 'subjec-003', name: 'Topic 3', weight: 3 as const },
-    { id: 'subjec-004', name: 'Topic 4', weight: 3 as const },
-    { id: 'subjec-005', name: 'Topic 5', weight: 3 as const },
-    { id: 'subjec-006', name: 'Topic 6', weight: 3 as const },
-    { id: 'subjec-007', name: 'Topic 7', weight: 3 as const },
-    { id: 'subjec-008', name: 'Topic 8', weight: 3 as const },
-    { id: 'subjec-009', name: 'Topic 9', weight: 3 as const },
-    { id: 'subjec-010', name: 'Topic 10', weight: 3 as const },
-    { id: 'subjec-011', name: 'Topic 11', weight: 3 as const },
-    { id: 'subjec-012', name: 'Topic 12', weight: 3 as const },
-    { id: 'subjec-013', name: 'Topic 13', weight: 3 as const },
-    { id: 'subjec-014', name: 'Topic 14', weight: 3 as const },
-    { id: 'subjec-015', name: 'Topic 15', weight: 3 as const }
+    { id: 'utbk-sain-001', name: 'Mathematics (Saintek)', weight: 5 as const, description: 'Algebra, functions, trigonometry, calculus (differentiation and integration), geometry, probability, and statistics for Science/Technology track — highest-weight UTBK subject knowledge topic.' },
+    { id: 'utbk-sain-002', name: 'Physics (Saintek)', weight: 4 as const, description: 'Mechanics, waves and optics, thermodynamics, electricity and magnetism, and modern physics — tested in UTBK Saintek (Science and Technology) track.' },
+    { id: 'utbk-sain-003', name: 'Chemistry (Saintek)', weight: 4 as const, description: 'Atomic structure, chemical bonding, organic and inorganic chemistry, stoichiometry, and chemical thermodynamics — UTBK Saintek chemistry section.' },
+    { id: 'utbk-sain-004', name: 'Biology (Saintek)', weight: 4 as const, description: 'Cell biology, genetics, evolution, plant and animal physiology, ecology, and biotechnology — biology component of UTBK Saintek track.' },
+    { id: 'utbk-sosh-001', name: 'Economics (Soshum)', weight: 4 as const, description: 'Microeconomics, macroeconomics, supply and demand, market structures, national income, monetary and fiscal policy — Soshum (Social Sciences) track subject knowledge.' },
+    { id: 'utbk-sosh-002', name: 'Geography (Soshum)', weight: 3 as const, description: 'Physical geography, human geography, Indonesian and world geography, climate, natural resources, and environmental issues — Soshum track subject.' },
+    { id: 'utbk-sosh-003', name: 'History and Sociology (Soshum)', weight: 3 as const, description: 'Indonesian and world history, historical events and figures, sociological concepts, social structures, and cultural anthropology — Soshum social sciences.' },
+    { id: 'utbk-sosh-004', name: 'Indonesian Language and Literature', weight: 4 as const, description: 'Bahasa Indonesia grammar, vocabulary, text comprehension, literary analysis, and writing conventions — required for both Saintek and Soshum tracks.' }
   ]
 };

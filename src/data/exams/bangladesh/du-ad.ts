@@ -37,8 +37,11 @@ function makeRoadmap(subjects: Subject[], duration: string, totalDays: number, d
 
 const exam: ExamTemplate = {
   examId: 'du-ad',
-  examName: 'DU Admission (Bangladesh)',
+  examName: 'DU Unit D Admission (Arts & Institute)',
   country: 'bangladesh',
+  description: 'Dhaka University Unit D admission test is for candidates seeking entry into the Faculty of Arts, Faculty of Law, Faculty of Earth and Environmental Sciences, and various institutes including the Institute of Social Welfare and Research, and Institute of Health Economics. The test is conducted separately for different units (A, B, C, D, and E) with Unit D covering humanities, social sciences, law, and specialized institute programmes. This is the most popular unit with the largest number of applicants, testing candidates on Bangla, English, General Knowledge, and General Science at the HSC level.',
+  examPattern: 'MCQ-based written test: Bangla(30 marks), English(25 marks), General Knowledge(25 marks), and General Science(20 marks). Total 100 marks in 1 hour. Questions are objective type with multiple choice answers. Viva voce is conducted for shortlisted candidates applying to the Faculty of Law and some institute programmes.',
+  eligibility: 'HSC or equivalent from any stream (Science, Arts, or Commerce) with minimum GPA requirements as specified by Dhaka University. For general admission, minimum GPA of 3.5 in HSC or equivalent is typically required. For Law Faculty, there may be additional requirements including minimum marks in specific subjects. Candidates must be Bangladeshi nationals. Students appearing in their final HSC examination may apply provisionally.',
   subjects,
   durations: {
   '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for DU Admission (Bangladesh) — 1 Hour'),
@@ -60,7 +63,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   lastUpdated: '2026-03-25',
-  officialSource: 'https://example.com',
+  officialSource: 'https://du.ac.bd',
 };
 
 export default exam;

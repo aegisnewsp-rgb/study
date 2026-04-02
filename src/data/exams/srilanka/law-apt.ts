@@ -37,6 +37,9 @@ const exam: ExamTemplate = {
   examId: 'law-apt',
   examName: 'Sri Lanka Law Aptitude',
   country: 'srilanka',
+  description: 'Sri Lanka Law College admission test for the Certificate in Law programme — the first step toward becoming an attorney-at-law in Sri Lanka. The test is conducted by the Sri Lanka Law College under the supervision of the Supreme Court of Sri Lanka. It is the gateway examination for legal education in the country, testing the foundational skills needed for legal study at the degree and professional levels.',
+  examPattern: 'Tests English, General Knowledge, Logic and Reasoning, and Legal Awareness. Structured as MCQs and short answer questions. The English section covers reading comprehension, vocabulary, and grammar. General Knowledge includes Sri Lankan history, politics, and current affairs. Logical Reasoning tests analytical skills and argument structure. Legal Awareness covers basic legal concepts, the Sri Lankan Constitution, and the structure of the legal system.',
+  eligibility: 'GCE A-Level with minimum 3 passes in any stream. English proficiency required. Candidates must be Sri Lankan citizens or have permanent residency. There is no age limit. Applications are submitted directly to the Sri Lanka Law College during the annual admission period.',
   subjects,
   durations: {
   '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for Sri Lanka Law Aptitude — 1 Hour'),
@@ -58,7 +61,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   lastUpdated: '2026-03-25',
-  officialSource: 'https://example.com',
+  officialSource: 'https://www.lawcollege.lk',
 };
 
 export default exam;

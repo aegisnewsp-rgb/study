@@ -92,13 +92,13 @@ const organicChemistry: Subject = {
 const inorganicChemistry: Subject = {
   id: 'inorganic-chemistry', name: 'Inorganic Chemistry', color: '#14b8a6',
   topics: [
-    { id: 'ic-001', name: 'Periodic Table', weight: 4 },
-    { id: 'ic-002', name: 's-Block', weight: 3 },
-    { id: 'ic-003', name: 'p-Block', weight: 4 },
-    { id: 'ic-004', name: 'd-Block', weight: 4 },
-    { id: 'ic-005', name: 'f-Block', weight: 2 },
-    { id: 'ic-006', name: 'Metallurgy', weight: 3 },
-    { id: 'ic-007', name: 'Environmental Chemistry', weight: 3 },
+    { id: 'ic-001', name: 'Periodic Table', weight: 4, description: 'Modern periodic table, s/p/d/f block elements, trends in atomic radius, ionisation enthalpy, electron affinity, electronegativity, and diagonal relationships.' },
+    { id: 'ic-002', name: 's-Block', weight: 3, description: 'Alkali and alkaline earth metals — compounds, uses, biological importance, and diagonal relationship between Li and Mg.' },
+    { id: 'ic-003', name: 'p-Block', weight: 4, description: 'Group 13-18 elements — boron, carbon family, nitrogen, oxygen, halogens, noble gases — compounds, trends, and important reactions.' },
+    { id: 'ic-004', name: 'd-Block', weight: 4, description: 'Transition metals — electronic configuration, properties, oxidation states, variable valency, inner transition metals, and magnetic properties.' },
+    { id: 'ic-005', name: 'f-Block', weight: 2, description: 'Lanthanides and actinides — electronic configurations, oxidation states, lanthanide contraction, and actinide contraction effects.' },
+    { id: 'ic-006', name: 'Metallurgy', weight: 3, description: 'Occurrence of metals, concentration of ores, extraction of iron, copper, and aluminium, refining methods, and environmental effects.' },
+    { id: 'ic-007', name: 'Environmental Chemistry', weight: 3, description: 'Environmental pollution — air, water, and soil pollutants, greenhouse effect, ozone depletion, acid rain, and waste management.' },
   ]
 };
 
@@ -197,8 +197,8 @@ const exam: ExamTemplate = {
   examName: 'NEET UG',
   country: 'india',
   description: `NEET\ UG\ is\ India's\ single\-window\ entrance\ exam\ for\ admission\ to\ MBBS,\ BDS,\ AYUSH\ and\ other\ medical\ courses\ in\ government\ and\ private\ colleges\.\ Conducted\ by\ NTA,\ it\ tests\ Physics,\ Chemistry,\ and\ Biology\ from\ the\ NCERT\ syllabus\.`,
-  examPattern: `180\ multiple\-choice\ questions\ \(90\ Biology,\ 45\ Physics,\ 45\ Chemistry\)\ to\ be\ answered\ in\ 200\ minutes\.\ 4\ marks\ per\ correct\ answer,\ \-1\ for\ incorrect\.`,
-  eligibility: `Must\ be\ 17\+\ years\ old\.\ 10\+2\ with\ Physics,\ Chemistry,\ Biology/Biotechnology\ \(PCB\)\ with\ minimum\ 50%\ \(40%\ for\ reserved\ categories\)\.`,
+  examPattern: "200 MCQs — Physics(45), Chemistry(45), Biology(90), 3h 20min, 720 marks total. 4 marks per correct answer, 1 mark deducted for wrong answer.",
+  eligibility: "Class 12 PCB (Physics, Chemistry, Biology) with minimum 50% aggregate for general category (40% for SC/ST/OBC). Lower age limit 17 years as of December 31 of admission year.",
   subjects,
   durations,
   rescueMode,

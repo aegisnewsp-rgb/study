@@ -1,15 +1,15 @@
 export const biology: Subject = {
   id: 'biology', name: 'Biology', color: '#16a34a',
   topics: [
-    { id: 'biolog-001', name: 'Topic 1', weight: 3 as const },
-    { id: 'biolog-002', name: 'Topic 2', weight: 3 as const },
-    { id: 'biolog-003', name: 'Topic 3', weight: 3 as const },
-    { id: 'biolog-004', name: 'Topic 4', weight: 3 as const },
-    { id: 'biolog-005', name: 'Topic 5', weight: 3 as const },
-    { id: 'biolog-006', name: 'Topic 6', weight: 3 as const },
-    { id: 'biolog-007', name: 'Topic 7', weight: 3 as const },
-    { id: 'biolog-008', name: 'Topic 8', weight: 3 as const },
-    { id: 'biolog-009', name: 'Topic 9', weight: 3 as const },
-    { id: 'biolog-010', name: 'Topic 10', weight: 3 as const }
+    { id: 'biolog-001', name: 'Cell Biology and Cell Organelles', weight: 3 as const, description: 'Cell theory, prokaryotic vs eukaryotic cells, plant vs animal cells, structure and functions of organelles (nucleus, mitochondria, chloroplast, ER, Golgi), cell membrane (fluid mosaic model), and transport mechanisms.' },
+    { id: 'biolog-002', name: 'Genetics and Molecular Biology', weight: 3 as const, description: 'Mendel\'s laws, inheritance patterns (dominant, recessive, codominance, multiple alleles), DNA structure and replication, RNA transcription and translation, gene expression, genetic code, and human genetics (blood groups, colour blindness, pedigree analysis).' },
+    { id: 'biolog-003', name: 'Human Physiology', weight: 3 as const, description: 'Digestive system (enzymes, absorption, assimilation), respiratory system (gas exchange, hemoglobin), circulatory system (heart, blood groups, circulation), excretory system (nephron, urine formation), nervous system (reflex, synapse), and endocrine glands with hormones.' },
+    { id: 'biolog-004', name: 'Plant Kingdom', weight: 3 as const, description: 'Classification of plants (algae to angiosperms), plant morphology (root, stem, leaf), photosynthesis (light and dark reactions, C3 and C4 pathways), respiration (glycolysis, Krebs cycle), plant hormones, and transport in plants (xylem, phloem).' },
+    { id: 'biolog-005', name: 'Animal Kingdom', weight: 3 as const, description: 'Classification of animals (Porifera to Chordata), morphology and anatomy of earthworm, cockroach, frog, and rabbit, differences between phyla, and structural adaptations across animal groups.' },
+    { id: 'biolog-006', name: 'Reproduction', weight: 3 as const, description: 'Asexual reproduction (fission, budding, sporulation, vegetative propagation), sexual reproduction in plants (pollination, fertilization, seed formation), human reproductive system, menstrual cycle, and reproductive health.' },
+    { id: 'biolog-007', name: 'Evolution', weight: 3 as const, description: 'Darwin\'s theory of natural selection, evidence of evolution (fossil, comparative anatomy, embryology), Lamarckism vs Darwinism, speciation, human evolution, and Hardy-Weinberg principle.' },
+    { id: 'biolog-008', name: 'Ecology and Environment', weight: 3 as const, description: 'Ecosystem components (biotic and abiotic), food chains and webs, ecological pyramids, biogeochemical cycles (carbon, nitrogen), biodiversity, environmental issues (pollution, global warming, ozone depletion), and conservation.' },
+    { id: 'biolog-009', name: 'Biotechnology', weight: 3 as const, description: 'Recombinant DNA technology, gene cloning, PCR (polymerase chain reaction), gene therapy, GM organisms, fermentation technology, and applications of biotechnology in agriculture and medicine.' },
+    { id: 'biolog-010', name: 'Human Health and Disease', weight: 3 as const, description: 'Common human diseases (bacterial, viral, fungal, protozoan), immunity (innate and adaptive), vaccines, antibiotics, lifestyle diseases, and basic pathology concepts related to major organ systems.' }
   ]
 };

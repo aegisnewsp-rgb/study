@@ -37,6 +37,9 @@ const exam: ExamTemplate = {
   examId: 'emu-entrance',
   examName: 'EMU Entrance (Ethiopia)',
   country: 'ethiopia',
+  description: "Entry examination for Ethiopian universities under the EMU (Ethiopian Media University) or general Ethiopian university placement system.",
+  examPattern: "Standard Ethiopian university entrance format — aptitude test plus subject-specific paper.",
+  eligibility: "ESCCE certificate with required grades.",
   subjects,
   durations: {
   '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for EMU Entrance (Ethiopia) — 1 Hour'),

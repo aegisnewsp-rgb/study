@@ -1,17 +1,9 @@
 export const science: Subject = {
-  id: 'science', name: 'Science', color: '#6b7280',
+  id: 'science', name: 'Science (Saintek)', color: '#3b82f6',
   topics: [
-    { id: 'scienc-001', name: 'Topic 1', weight: 3 as const },
-    { id: 'scienc-002', name: 'Topic 2', weight: 3 as const },
-    { id: 'scienc-003', name: 'Topic 3', weight: 3 as const },
-    { id: 'scienc-004', name: 'Topic 4', weight: 3 as const },
-    { id: 'scienc-005', name: 'Topic 5', weight: 3 as const },
-    { id: 'scienc-006', name: 'Topic 6', weight: 3 as const },
-    { id: 'scienc-007', name: 'Topic 7', weight: 3 as const },
-    { id: 'scienc-008', name: 'Topic 8', weight: 3 as const },
-    { id: 'scienc-009', name: 'Topic 9', weight: 3 as const },
-    { id: 'scienc-010', name: 'Topic 10', weight: 3 as const },
-    { id: 'scienc-011', name: 'Topic 11', weight: 3 as const },
-    { id: 'scienc-012', name: 'Topic 12', weight: 3 as const }
+    { id: 'undana-sci-001', name: 'Physics Fundamentals', weight: 4 as const, description: 'Mechanics (kinematics, dynamics, work-energy), waves, heat, electricity, and magnetism — core physics topics for Indonesian university entrance science track.' },
+    { id: 'undana-sci-002', name: 'Chemistry Fundamentals', weight: 4 as const, description: 'Atomic structure, periodic table, chemical bonding, reactions, stoichiometry, and organic chemistry basics — essential chemistry topics for Indonesian university science programmes.' },
+    { id: 'undana-sci-003', name: 'Biology Fundamentals', weight: 4 as const, description: 'Cell biology, genetics, evolution, plant and animal systems, ecology, and biotechnology — biology topics for Indonesian university entrance exams.' },
+    { id: 'undana-sci-004', name: 'Mathematics Fundamentals', weight: 3 as const, description: 'Algebra, functions, trigonometry, statistics, and basic calculus concepts — mathematical foundations for Indonesian university science and engineering tracks.' }
   ]
 };

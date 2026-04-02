@@ -39,6 +39,9 @@ const exam: ExamTemplate = {
   examId: 'matrikulasi',
   examName: 'Matriculation (Malaysia)',
   country: 'malaysia',
+  description: "Malaysian Matriculation Programme (Matrikulasi) is a one-year pre-university programme at Malaysian public universities, particularly for students who did not achieve the required STPM grades.",
+  examPattern: "Module assessments throughout the year plus final exam. Subjects: Biology, Chemistry, Physics, Mathematics, Accounting, Economics, Business Management. No separate entrance exam — admission based on SPM results.",
+  eligibility: "SPM leaver with minimum required grades in relevant subjects. Malaysian citizens only.",
   subjects,
   durations: {
   '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for Matriculation (Malaysia) — 1 Hour'),

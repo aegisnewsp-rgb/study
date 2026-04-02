@@ -37,6 +37,9 @@ const exam: ExamTemplate = {
   examId: 'mht-cet',
   examName: 'MHT-CET',
   country: 'india',
+  description: "Maharashtra Common Entrance Test (MHT-CET) is the state exam for admission to BTech/BPharm courses in Maharashtra. Aligned with HSC Board syllabus — tests Physics, Chemistry, and Mathematics/Biology.",
+  examPattern: "200 MCQs: Physics(50), Chemistry(50), Mathematics(100), 3 hours total, 200 marks. No negative marking.",
+  eligibility: "Class 12 PCM/PCB with minimum 45% aggregate. Maharashtra domicile required for most government seats.",
   subjects,
   durations: {
   '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for MHT-CET — 1 Hour'),

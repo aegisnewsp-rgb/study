@@ -1,4 +1,4 @@
-export interface Topic { id: string; name: string; weight: 1|2|3|4|5; }
+export interface Topic { id: string; name: string; weight: 1|2|3|4|5; description?: string; }
 export interface Subject { id: string; name: string; topics: Topic[]; color: string; }
 export interface DailyTopicItem extends Topic { subject: string; }
 export interface RoadmapTemplate { duration: string; totalDays: number; dailyTopics: DailyTopicItem[]; description: string; }
@@ -22,53 +22,53 @@ function makeRoadmap(subjects: Subject[], durationKey: string, totalDays: number
 const english: Subject = {
   id: 'english', name: 'English', color: '#3b82f6',
   topics: [
-    { id: 'en-001', name: 'Vocabulary', weight: 4 },
-    { id: 'en-002', name: 'Grammar', weight: 4 },
-    { id: 'en-003', name: 'Comprehension', weight: 5 },
-    { id: 'en-004', name: 'Para Summary', weight: 4 },
-    { id: 'en-005', name: 'Antonyms', weight: 3 },
-    { id: 'en-006', name: 'Fill in Blanks', weight: 3 },
+    { id: 'en-001', name: 'Vocabulary', weight: 4, description: 'Word meaning, usage, synonyms, antonyms, and contextual vocabulary frequently appearing in law entrance passages.' },
+    { id: 'en-002', name: 'Grammar', weight: 4, description: 'English grammar rules including tenses, subject-verb agreement, modifiers, and error identification in sentences.' },
+    { id: 'en-003', name: 'Comprehension', weight: 5, description: 'Reading and interpreting unseen passages followed by factual, inferential, and vocabulary-based questions.' },
+    { id: 'en-004', name: 'Para Summary', weight: 4, description: 'Identifying the main idea of a passage and selecting the most accurate summary from given options.' },
+    { id: 'en-005', name: 'Antonyms', weight: 3, description: 'Words with opposite meanings tested in context within legal, social, and philosophical passages.' },
+    { id: 'en-006', name: 'Fill in Blanks', weight: 3, description: 'Completing sentences with contextually appropriate words testing vocabulary and grammatical coherence.' },
   ]
 };
 
 const currentAffairs: Subject = {
   id: 'current-affairs', name: 'Current Affairs', color: '#10b981',
   topics: [
-    { id: 'ca-001', name: 'National News', weight: 4 },
-    { id: 'ca-002', name: 'International News', weight: 4 },
-    { id: 'ca-003', name: 'Legal News', weight: 5 },
-    { id: 'ca-004', name: 'Static GK', weight: 4 },
+    { id: 'ca-001', name: 'National News', weight: 4, description: 'Current events in India covering government policies, appointments, important bills, and national awards.' },
+    { id: 'ca-002', name: 'International News', weight: 4, description: 'Important global events, international organisations, treaties, summits, and geopolitical developments.' },
+    { id: 'ca-003', name: 'Legal News', weight: 5, description: 'Recent Supreme Court and High Court judgments, new legislation, legal reforms, and significant court orders.' },
+    { id: 'ca-004', name: 'Static GK', weight: 4, description: 'Static general knowledge including history, geography, civics, and cultural awareness relevant to legal contexts.' },
   ]
 };
 
 const legalReasoning: Subject = {
   id: 'legal-reasoning', name: 'Legal Reasoning', color: '#8b5cf6',
   topics: [
-    { id: 'lr-001', name: 'Legal Maxims', weight: 4 },
-    { id: 'lr-002', name: 'Principles of Law', weight: 5 },
-    { id: 'lr-003', name: 'Case Situations', weight: 5 },
-    { id: 'lr-004', name: 'Indian Constitution Articles', weight: 4 },
+    { id: 'lr-001', name: 'Legal Maxims', weight: 4, description: 'Latin legal maxims and their meanings, frequently tested in CLAT legal reasoning section for application in case situations.' },
+    { id: 'lr-002', name: 'Principles of Law', weight: 5, description: 'Fundamental legal principles derived from Torts, Contracts, Criminal Law, and Constitutional Law for application to fact patterns.' },
+    { id: 'lr-003', name: 'Case Situations', weight: 5, description: 'Applying legal principles to fact-based scenarios to determine the correct legal outcome or liability.' },
+    { id: 'lr-004', name: 'Indian Constitution Articles', weight: 4, description: 'Key articles of the Indian Constitution relevant to fundamental rights, directive principles, and governance.' },
   ]
 };
 
 const logicalReasoning: Subject = {
   id: 'logical-reasoning', name: 'Logical Reasoning', color: '#f59e0b',
   topics: [
-    { id: 'lgr-001', name: 'Syllogisms', weight: 5 },
-    { id: 'lgr-002', name: 'Logical Sequences', weight: 4 },
-    { id: 'lgr-003', name: 'Analogies', weight: 3 },
-    { id: 'lgr-004', name: 'Blood Relations', weight: 4 },
-    { id: 'lgr-005', name: 'Direction Sense', weight: 3 },
+    { id: 'lgr-001', name: 'Syllogisms', weight: 5, description: 'Logical deduction using Venn diagrams and proposition-based reasoning to draw conclusions from given statements.' },
+    { id: 'lgr-002', name: 'Logical Sequences', weight: 4, description: 'Identifying patterns and sequences in number, letter, and figure series and predicting the next element.' },
+    { id: 'lgr-003', name: 'Analogies', weight: 3, description: 'Establishing relationships between pairs and applying the same relationship to identify the analogous pair.' },
+    { id: 'lgr-004', name: 'Blood Relations', weight: 4, description: 'Solving family tree problems using coded relationship terminology to determine degrees of kinship.' },
+    { id: 'lgr-005', name: 'Direction Sense', weight: 3, description: 'Problems involving cardinal directions, distance travelled, and turning angles from a starting reference point.' },
   ]
 };
 
 const quantitativeTechniques: Subject = {
   id: 'quantitative-techniques', name: 'Quantitative Techniques', color: '#ef4444',
   topics: [
-    { id: 'qt-001', name: 'Arithmetic', weight: 5 },
-    { id: 'qt-002', name: 'Algebra', weight: 4 },
-    { id: 'qt-003', name: 'Geometry', weight: 4 },
-    { id: 'qt-004', name: 'Data Interpretation', weight: 5 },
+    { id: 'qt-001', name: 'Arithmetic', weight: 5, description: 'Number system, percentage, ratio-proportion, average, time-work, time-distance, profit-loss, and SI-CI at Class 10 level.' },
+    { id: 'qt-002', name: 'Algebra', weight: 4, description: 'Linear and quadratic equations, identities, exponents, and basic algebraic expressions and inequalities.' },
+    { id: 'qt-003', name: 'Geometry', weight: 4, description: 'Properties of triangles, circles, quadrilaterals, area and perimeter of plane figures, and basic 3D geometry.' },
+    { id: 'qt-004', name: 'Data Interpretation', weight: 5, description: 'Reading and interpreting tables, bar graphs, pie charts, and line graphs to answer calculation-based questions.' },
   ]
 };
 
@@ -116,9 +116,9 @@ const exam: ExamTemplate = {
   examId: 'clat',
   examName: 'CLAT',
   country: 'india',
-  description: `CLAT\ is\ India's\ national\-level\ law\ entrance\ exam\ for\ admission\ to\ 22\ National\ Law\ Universities\.\ UG\-CLAT\ tests\ legal\ aptitude,\ logic,\ and\ general\ knowledge\ for\ 5\-year\ integrated\ BA\ LLB\ programs\.`,
-  examPattern: `120\ MCQs\ in\ 120\ minutes\.\ Sections:\ English\ Language,\ Current\ Affairs\ \(including\ GK\),\ Legal\ Reasoning,\ Logical\ Reasoning,\ Quantitative\ Techniques\.\ 1\ mark\ per\ correct,\ \-0\.25\ per\ wrong\.`,
-  eligibility: `10\+2\ or\ equivalent\ with\ minimum\ 45%\ \(40%\ for\ SC/ST\)\.\ Age:\ no\ upper\ limit\ for\ UG\ program\.\ Must\ be\ under\ 20\ for\ General,\ 22\ for\ SC/ST\ \(or\ as\ notified\)\.`,
+  description: "The Common Law Admission Test (CLAT) is the national-level entrance exam for admission to 22 National Law Universities (NLUs) offering 5-year integrated BA LLB and 1-year LLM programmes. It tests legal reasoning, logical ability, English comprehension, elementary mathematics, and general knowledge.",
+  examPattern: "150 MCQs, 2 hours, 150 marks — sections: English (30), GK (25), Legal Reasoning (50), Logical Reasoning (30), Math (15).",
+  eligibility: "Class 12 with minimum 45% aggregate (40% for SC/ST). For LLM: LLB degree with 50% aggregate.",
   subjects,
   durations,
   rescueMode,

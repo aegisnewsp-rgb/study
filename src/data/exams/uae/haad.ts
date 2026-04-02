@@ -39,6 +39,9 @@ const exam: ExamTemplate = {
   examId: 'haad',
   examName: 'HAAD (UAE)',
   country: 'uae',
+  description: 'Health Authority of Abu Dhabi (HAAD) examination for healthcare professionals — a licensing exam for physicians, nurses, and allied health professionals seeking to practice in Abu Dhabi. HAAD (now integrated under DOH — Department of Health Abu Dhabi) was the regulatory body for healthcare in the Emirate of Abu Dhabi. The exam ensures that all healthcare practitioners meet the required standards of competence and knowledge before being licensed to provide clinical care.',
+  examPattern: 'Computer-based exam with MCQs relevant to the professional\'s scope of practice. Number of questions varies by profession. For physicians, the exam covers Medical Knowledge (Anatomy, Physiology, Pathology, Pharmacology, Clinical Medicine), Patient Care, and Professionalism. For nurses, it covers Fundamentals of Nursing, Medical-Surgical Nursing, Community Health, and Ethics. For allied health professionals, the exam focuses on their specific discipline. Each question is multiple choice with a single best answer. The exam is taken at authorized testing centres.',
+  eligibility: 'Primary qualification in the relevant healthcare profession from an accredited institution. Professional experience requirements apply. Physicians must have completed medical school and internship. Specialists require postgraduate qualifications. Nurses need a nursing diploma or degree. Allied health professionals must hold relevant professional qualifications. All candidates must have a clean professional record and meet the English language proficiency requirement.',
   subjects,
   durations: {
   '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for HAAD (UAE) — 1 Hour'),
@@ -60,7 +63,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   lastUpdated: '2026-03-25',
-  officialSource: 'https://example.com',
+  officialSource: 'https://www.doh.gov.ae',
 };
 
 export default exam;

@@ -39,6 +39,9 @@ const exam: ExamTemplate = {
   examId: 'cma',
   examName: 'CMA Foundation',
   country: 'india',
+  description: `The CMA Foundation (Cost and Management Accounting) is the entry-level examination for the Institute of Cost Accountants of India (ICAI-CMA), formerly known as the Institute of Cost and Works Accountants of India (ICWAI). This three-level programme (Foundation, Intermediate, and Final) trains candidates in cost accounting, management accounting, financial management, and strategic decision-making. CMAs are in demand across industries for roles in cost management, budgeting, internal auditing, and financial advisory services.`,
+  examPattern: `The CMA Foundation examination consists of four papers, each of 100 marks, to be attempted in two sessions of 3 hours each. Session I has Paper 1: Fundamentals of Economics and Management (50 marks each) and Paper 2: Fundamentals of Accounting (100 marks). Session II has Paper 3: Fundamentals of Law and Ethics (100 marks) and Paper 4: Fundamentals of Business Mathematics and Statistics (100 marks). The exam is conducted in offline (pen-and-paper) mode. Candidates must secure a minimum of 40% marks in each paper and 50% aggregate across all papers to qualify.`,
+  eligibility: `Candidates who have passed the Senior Secondary Examination (10+2) or equivalent from a recognized board are eligible to register for the CMA Foundation course. There is no minimum percentage requirement at the 10+2 level for registration. Graduates or postgraduates in any discipline (except Cost and Management Accounting) from a recognized university are also eligible. Candidates who have passed the Foundation level of the Institute of Company Secretaries of India (ICSI) or the CA Foundation are eligible for direct entry to the CMA Intermediate.`,
   subjects,
   durations: {
   '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for CMA Foundation — 1 Hour'),

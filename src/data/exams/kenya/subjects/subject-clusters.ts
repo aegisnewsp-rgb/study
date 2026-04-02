@@ -1,20 +1,20 @@
 export const subject_clusters: Subject = {
-  id: 'subject-clusters', name: 'Subject-Clusters', color: '#6b7280',
+  id: 'subject-clusters', name: 'Subject Clusters', color: '#6b7280',
   topics: [
-    { id: 'subjec-001', name: 'Topic 1', weight: 3 as const },
-    { id: 'subjec-002', name: 'Topic 2', weight: 3 as const },
-    { id: 'subjec-003', name: 'Topic 3', weight: 3 as const },
-    { id: 'subjec-004', name: 'Topic 4', weight: 3 as const },
-    { id: 'subjec-005', name: 'Topic 5', weight: 3 as const },
-    { id: 'subjec-006', name: 'Topic 6', weight: 3 as const },
-    { id: 'subjec-007', name: 'Topic 7', weight: 3 as const },
-    { id: 'subjec-008', name: 'Topic 8', weight: 3 as const },
-    { id: 'subjec-009', name: 'Topic 9', weight: 3 as const },
-    { id: 'subjec-010', name: 'Topic 10', weight: 3 as const },
-    { id: 'subjec-011', name: 'Topic 11', weight: 3 as const },
-    { id: 'subjec-012', name: 'Topic 12', weight: 3 as const },
-    { id: 'subjec-013', name: 'Topic 13', weight: 3 as const },
-    { id: 'subjec-014', name: 'Topic 14', weight: 3 as const },
-    { id: 'subjec-015', name: 'Topic 15', weight: 3 as const }
+    { id: 'subjec-001', name: 'Science Cluster (Physics, Chemistry, Biology)', weight: 3, description: 'Cluster subjects for medicine, pharmacy, engineering, and biological sciences. KCSE grades in the four cluster subjects determine eligibility for science-based university programmes through KUCCPS.' },
+    { id: 'subjec-002', name: 'Physical Sciences Cluster (Mathematics, Physics, Chemistry)', weight: 3, description: 'Cluster for engineering, physical sciences, technology programmes. Strong mathematical ability combined with physics and chemistry mastery required for admission to technical programmes.' },
+    { id: 'subjec-003', name: 'Biological Sciences Cluster (Biology, Chemistry, Physics/Mathematics)', weight: 3, description: 'Required for medicine, dentistry, pharmacy, nursing, and agricultural sciences. Biology as the lead subject with chemistry supporting and either physics or mathematics.' },
+    { id: 'subjec-004', name: 'Business Cluster (Mathematics, Economics, Business Studies)', weight: 3, description: 'Cluster for commerce, business administration, economics, accounting, and management programmes. Mathematics and economics essential for finance and economics-based degrees.' },
+    { id: 'subjec-005', name: 'Humanities Cluster (History, Geography, CRE/IRE)', weight: 3, description: 'Cluster for arts, education, law, and social sciences. essay-based subjects requiring strong writing skills and knowledge of Kenyan and world history and geography.' },
+    { id: 'subjec-006', name: 'Arts and Design Cluster', weight: 3, description: 'For architecture, fine arts, design, and arts programmes. Combines creative subjects with technical drawing and art history for admission to creative degree programmes.' },
+    { id: 'subjec-007', name: 'Agriculture Cluster', weight: 3, description: 'For agricultural sciences, food science, environmental science programmes. Combines biology and chemistry with agriculture as the specialized cluster subject.' },
+    { id: 'subjec-008', name: 'Computer and IT Cluster', weight: 3, description: 'For computer science, information technology, and software engineering programmes. Mathematics mandatory with physics and either chemistry or a computing subject.' },
+    { id: 'subjec-009', name: 'Education Cluster', weight: 3, description: 'For teacher training programmes in various subject combinations. Minimum KCSE grade C+ required in the teaching subjects plus a second cluster subject.' },
+    { id: 'subjec-010', name: 'Law and Social Sciences Cluster', weight: 3, description: 'For law, political science, international relations, and sociology. English mandatory with history, geography, or a language, plus one other subject.' },
+    { id: 'subjec-011', name: 'Health Sciences Cluster', weight: 3, description: 'For nursing, public health, clinical medicine, and allied health programmes. Biology and chemistry mandatory with physics or mathematics for clinical health sciences.' },
+    { id: 'subjec-012', name: 'KUCCPS Cluster Points Calculation', weight: 3, description: 'How KUCCPS calculates cluster points from KCSE grades in the four cluster subjects, the 48-point system, weightings for different programmes, and strategies for improving cluster scores.' },
+    { id: 'subjec-013', name: 'Cluster Subject Selection Strategy', weight: 3, description: 'Choosing the right subject combinations based on career goals, balancing strengths with university requirements, and planning subject choices from Form One onward.' },
+    { id: 'subjec-014', name: 'Cut-Off Points by University', weight: 3, description: 'Previous years\' cut-off points for Kenyan universities including University of Nairobi, Kenyatta University, Egerton University, and Moi University across various programmes.' },
+    { id: 'subjec-015', name: 'Gap Analysis and Improvement Planning', weight: 3, description: 'Identifying weak cluster subjects, study strategies to improve grades, using past KCSE papers, and targeted revision for cluster subject improvement.' }
   ]
 };

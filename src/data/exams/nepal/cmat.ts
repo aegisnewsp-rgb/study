@@ -35,21 +35,24 @@ function makeRoadmap(subjects: Subject[], duration: string, totalDays: number, d
 
 const exam: ExamTemplate = {
   examId: 'cmat',
-  examName: 'CMAT Nepal',
+  examName: 'CMAT Nepal (MBA Entrance)',
   country: 'nepal',
+  description: "Common Management Admission Test (CMAT) Nepal — entrance exam for MBA and management programmes at various universities in Nepal.",
+  examPattern: "100 MCQs covering: Quantitative Techniques (25), Logical Reasoning (25), Language Comprehension (25), General Awareness (25). 2 hours.",
+  eligibility: "Bachelor's degree in any discipline from a recognised university. Minimum score requirements vary by institution.",
   subjects,
   durations: {
-  '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for CMAT Nepal — 1 Hour'),
-  '1d': makeRoadmap(subjects, '1d', 1, 'Study plan for CMAT Nepal — 1 Day'),
-  '3d': makeRoadmap(subjects, '3d', 3, 'Study plan for CMAT Nepal — 3 Days'),
-  '7d': makeRoadmap(subjects, '7d', 7, 'Study plan for CMAT Nepal — 1 Week'),
-  '1mo': makeRoadmap(subjects, '1mo', 30, 'Study plan for CMAT Nepal — 1 Month'),
-  '3mo': makeRoadmap(subjects, '3mo', 90, 'Study plan for CMAT Nepal — 3 Months'),
-  '6mo': makeRoadmap(subjects, '6mo', 180, 'Study plan for CMAT Nepal — 6 Months'),
+  '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for CMAT Nepal (MBA Entrance) — 1 Hour'),
+  '1d': makeRoadmap(subjects, '1d', 1, 'Study plan for CMAT Nepal (MBA Entrance) — 1 Day'),
+  '3d': makeRoadmap(subjects, '3d', 3, 'Study plan for CMAT Nepal (MBA Entrance) — 3 Days'),
+  '7d': makeRoadmap(subjects, '7d', 7, 'Study plan for CMAT Nepal (MBA Entrance) — 1 Week'),
+  '1mo': makeRoadmap(subjects, '1mo', 30, 'Study plan for CMAT Nepal (MBA Entrance) — 1 Month'),
+  '3mo': makeRoadmap(subjects, '3mo', 90, 'Study plan for CMAT Nepal (MBA Entrance) — 3 Months'),
+  '6mo': makeRoadmap(subjects, '6mo', 180, 'Study plan for CMAT Nepal (MBA Entrance) — 6 Months'),
   },
   rescueMode: {
     name: 'Rescue Mode',
-    description: 'Cramming plan for CMAT Nepal',
+    description: 'Cramming plan for CMAT Nepal (MBA Entrance)',
     duration: '1d',
     focusAreas: subjects.slice(0, 3).map(s => ({
       subject: s.name,

@@ -37,6 +37,9 @@ const exam: ExamTemplate = {
   examId: 'cucet-pg',
   examName: 'CUCET (PG)',
   country: 'india',
+  description: `The Central Universities Common Entrance Test for Postgraduate programmes (CUCET PG) is a national-level entrance examination conducted jointly by the member universities of the Central University system. It serves as a unified entrance test for admission to various postgraduate programmes (M.A., M.Sc., M.Com., LL.M., M.Tech., etc.) at 10 central universities across India. CUCET PG provides a single-window opportunity for candidates to apply to multiple universities and programmes simultaneously, saving time and effort while ensuring a standardized selection process.`,
+  examPattern: `CUCET PG consists of multiple-choice questions (MCQs) from the relevant subject/domain as well as a General Awareness section. The exam pattern varies by programme but typically includes 100 questions carrying 100 marks (1 mark per question) to be completed in 2 hours. The question paper is divided into domains: Domain Knowledge (based on the undergraduate subject), General Awareness, and Logical Reasoning/Analytical skills in some papers. The exam is conducted in an online (computer-based) mode at designated test centres. There is a negative marking of 0.25 marks for each wrong answer.`,
+  eligibility: `Candidates who have completed a bachelor's degree in the relevant discipline with a minimum of 50% aggregate marks (45% for SC/ST/PwD candidates) from a recognized university are eligible to appear for CUCET PG. The eligibility criteria vary slightly across participating universities. Some universities may require a specific subject combination at the undergraduate level. Candidates in their final year of graduation may also apply provisionally. For professional programmes like MBA, a valid CAT/XAT/CMAT score may also be considered.`,
   subjects,
   durations: {
   '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for CUCET (PG) — 1 Hour'),

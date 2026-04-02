@@ -37,6 +37,9 @@ const exam: ExamTemplate = {
   examId: 'aau',
   examName: 'AAU Admission (Ethiopia)',
   country: 'ethiopia',
+  description: "Addis Ababa University (AAU) entrance examination is Ethiopia's most competitive university admission test. AAU is Ethiopia's largest and oldest university, and entrance is based on Ethiopian University Entrance Examination (EUEE) results.",
+  examPattern: "Ethiopian University Entrance Examination (EUEE) — 2 papers: General Aptitude Test (GAT: verbal, quantitative, analytical reasoning) and Field of Study Test (FST: subject-specific knowledge in Science, Social Science, or Humanities).",
+  eligibility: "Ethiopian Secondary School Completion Examination (ESCCE) with minimum grade requirements. Minimum age 17.",
   subjects,
   durations: {
   '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for AAU Admission (Ethiopia) — 1 Hour'),

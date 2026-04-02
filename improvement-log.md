@@ -1267,3 +1267,37 @@ Footer timestamp signals content freshness to students and Google. Educational c
 - **Impact**: SEO — Google was following broken internal links; users couldn't navigate to topic pages from subject listings
 - **Live verified**: `/notes/neet/physics/` now correctly links to `/notes/neet/physics/phy-001` etc. ✅
 
+
+## Quiet Hours Session (2026-04-02 02:56-05:15 UTC)
+
+### Major Achievements
+
+**1. 123 Individual Exam Pages** — new `/exams/[exam]` route
+- 123 new SEO-optimised exam landing pages (NEET, JEE Main, UPSC, JAMB, etc.)
+- Each with: FAQPage (5 exam-specific Qs), HowTo (3-step prep), BreadcrumbList
+- Subject cards linking to study notes, exam details table, roadmap CTAs
+- Total sitemap now: 3,344 URLs (was 3,221)
+
+**2. Prev/Next Topic Navigation** — internal link equity
+- Added sequential navigation to all 3,000+ topic pages
+- Users can navigate through topics in subject order
+- Distributes link equity across topic pages
+
+**3. Homepage News Section** — fresh crawlable content
+- "Latest Exam Updates" section on homepage showing 6 items from news.json
+- Signals active content to Google (freshness signal)
+- Built at static generation time from news.json
+
+**4. ItemList Schema on Exams Page** — Google rich result
+- 124 exams listed with names, URLs, descriptions
+- "All Competitive Exams on StudyRoadmap" rich result ready
+
+**5. Duplicate Schema Fix** (earlier in session)
+- Removed duplicate FAQPage + Organization from 3,214 topic pages
+- Subject pages got proper FAQPage with 4 subject-specific questions
+- No more schema spam signals
+
+### Git Status
+- Multiple unpushed commits (local — GitHub push blocked from sandbox)
+- Latest commits cover: exam pages, prev/next nav, news section, ItemList
+

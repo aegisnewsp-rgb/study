@@ -125,6 +125,11 @@ const faqJsonLd = {
 const subjectList = exam.subjects || [];
 const totalTopics = subjectList.reduce((acc: number, s: any) => acc + (s.topics?.length || 0), 0);
 const durations = Object.keys(exam.durations || {}).slice(0, 6);
+
+// Find related exams (same country, different exam)
+const relatedExams = ALL_EXAMS
+  .filter(e => e && e.examId !== exam.examId && e.country === exam.country)
+  .slice(0, 4);
 ---
 
 <Layout title={title} description={description} canonical={canonicalUrl}>
@@ -283,6 +288,35 @@ const durations = Object.keys(exam.durations || {}).slice(0, 6);
         </div>
       </div>
     </section>
+
+    {/* Related Exams from the same country */}
+    {relatedExams.length > 0 && (
+      <section class="container-page py-10">
+        <h2 class="text-xl font-bold text-surface-900 dark:text-white mb-5">
+          More Exams in {flag} {countryName}
+        </h2>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          {relatedExams.map((rel) => (
+            <a
+              href={`${SITE_URL}/exams/${rel.examId}/`}
+              class="group bg-surface-50 dark:bg-surface-900 rounded-xl border border-surface-200 dark:border-surface-800 p-4 hover:border-brand-300 dark:hover:border-brand-700 hover:shadow-md transition-all"
+            >
+              <div class="flex items-center gap-2 mb-2">
+                <span class="text-lg">{getCountryFlag(rel.country) || '📚'}</span>
+                <h3 class="font-bold text-surface-800 dark:text-surface-100 text-sm group-hover:text-brand-600 dark:group-hover:text-brand-400 transition-colors">
+                  {(rel as any).examName || rel.examId}
+                </h3>
+              </div>
+              {rel.description ? (
+                <p class="text-xs text-surface-500 dark:text-surface-400 line-clamp-2">
+                  {rel.description.replace(/\\n/g, ' ').replace(/\\/g, '').slice(0, 100)}
+                </p>
+              ) : null}
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
 
     <!-- How It Works -->
     <section class="container-page py-12">

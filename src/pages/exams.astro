@@ -15,6 +15,21 @@ const breadcrumbJsonLd = {
   ],
 };
 
+const examItemList = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: 'All Competitive Exams on StudyRoadmap',
+  description: `Browse ${ALL_EXAMS.length} competitive exams from India, Pakistan, Nigeria, and ${30} other countries. Each exam page includes syllabus, exam pattern, eligibility criteria, and free AI study roadmap.`,
+  numberOfItems: ALL_EXAMS.length,
+  itemListElement: ALL_EXAMS.slice(0, 20).map((exam, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    name: exam.examName || exam.examId,
+    url: `${SITE_URL}/exams/${exam.examId}`,
+    description: exam.description ? cleanText(exam.description).slice(0, 160) : undefined,
+  })),
+};
+
 const SUBJECT_COLORS = ['#60a5fa','#34d399','#fb923c','#a78bfa','#f472b6','#14b8a6','#fbbf24','#f87171'];
 function cleanText(s = '') { return s.replace(/\\n/g, ' ').replace(/\\/g, '').replace(/"/g, ''); }
 
@@ -83,6 +98,7 @@ const EXAM_FAQS = [
   faqs={EXAM_FAQS}
 >
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
+  <script type="application/ld+json" set:html={JSON.stringify(examItemList)} />
   <Navbar />
 
   <main id="main-content" class="flex-1">

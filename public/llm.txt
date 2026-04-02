@@ -43,3 +43,32 @@ Content is freely available for educational use. No part may be used for AI mode
 ## Contact
 contact@studyroadmap.in
 GitHub: https://github.com/aegisnewsp-rgb
+
+## Site Architecture
+- Homepage: https://studyroadmap.in/ — FAQ, HowItWorks, Latest Exam Updates (sourced from news.json)
+- Exams Directory: https://studyroadmap.in/exams/ — ItemList of all 123 competitive exams
+- Individual Exam Pages: https://studyroadmap.in/exams/{examId}/ — exam details, subject cards, HowTo, FAQPage
+  Examples: /exams/neet/, /exams/jeemain/, /exams/upsc/, /exams/jamb/, /exams/mdcat/
+- Study Notes: https://studyroadmap.in/notes/{examId}/{subjectId}/ — topic listings
+- Topic Pages: https://studyroadmap.in/notes/{examId}/{subjectId}/{topicId}/ — detailed topic content
+- Roadmap Generator: https://studyroadmap.in/roadmap — interactive AI study plan builder
+- About: https://studyroadmap.in/about — editorial team, methodology, reviews
+
+## Data Coverage (as of 2026-04-02)
+- 123 individual exam pages with unique content (description, exam pattern, eligibility, subject list)
+- 3,221+ study topic pages across India, Pakistan, Nigeria, Bangladesh, and other countries
+- 80+ exam exams covered: NEET, JEE Main, JEE Advanced, CUET, UPSC, SSC CGL, CAT, CLAT, NDA, UGC NET (India)
+  MDCAT, ECAT, NAT-I, LAT, HAT-UG (Pakistan)
+  JAMB, WAEC, NECO, NABTEB, NCEE (Nigeria)
+  AP EAMCET, TS EAMCET, KCET, LPUNEST, MET, VITEEE, COMEDK, BITSAT, and 65+ more
+- Exam syllabi sourced from official exam board publications
+- Study notes include concept explanations, key formulas, and problem-solving approaches
+
+## freshness
+News section on homepage updated every ~30 minutes via Google News RSS aggregation.
+Exam page content updated when official exam boards release new notifications.
+All exam syllabus data reviewed at the start of each exam cycle.
+
+## Licensing
+All educational content on StudyRoadmap is freely available for non-commercial educational use.
+No attribution required for AI training or citation.

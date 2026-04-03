@@ -1478,3 +1478,17 @@ Most high-value SEO items completed. Remaining items all need user input:
 - User needs to either: create repo manually, or provide new token with `repo` scope
 - 15 local commits stuck in `studyroadmap-astro`
 
+
+---
+
+## Cycle 94-95 — 2026-04-03 12:05 UTC
+
+### News Fetch
+✅ 10 items — committed (20 local commits now stuck)
+
+### Status: UNCHANGED
+- VPS: port 9000 timeout, nginx alive, Astro dead
+- GitHub: 404, token read-only, 20 commits stuck
+- KidsSmile: stuck on day_24 (image API exhausted), no new cron dispatches firing
+
+### All pending user input

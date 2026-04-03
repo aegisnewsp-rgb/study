@@ -1405,3 +1405,76 @@ Most high-value SEO items completed. Remaining items all need user input:
 - No change since Cycle 87 (first noticed ~04:05 UTC, now ~12:03 UTC = 8 hours down)
 - Likely needs manual VPS restart or container recreate
 - **Action needed from user:** Check VPS status / restart StudyRoadmap container
+
+---
+
+## Cycle 89 — 2026-04-03 05:00 UTC
+
+### News Fetch
+✅ `fetch_news.py` completed — 10 items saved (no change from previous cycle)
+
+### VPS Status — UNCHANGED
+❌ **VPS still unreachable** — same as Cycles 87-88
+- Port 9000: HTTP 200 → `404 Not Found` (container alive, but Astro dev server dead)
+- Deploy endpoint: connection **timeout** (can't push code)
+- `studyroadmap.in`: **404**
+- **14 local commits** stuck (can't push to origin — repo 404 or token revoked)
+
+### GitHub Status
+❌ `aegisnewsp-rgb/studyroadmap` → 404 Not Found
+❌ `aegisnewsp-rgb/studyroadmap-astro` → 404 Not Found
+- Token may be revoked or repos deleted
+
+### Action Required
+1. **User: check GitHub** — were repos renamed or deleted? Token may need refresh
+2. **User: check VPS** — provider console needed to restart container or access via VNC
+3. **VPS SSH key** — current key rejected; need updated credentials or console access
+
+
+---
+
+## Cycle 90 — 2026-04-03 06:02 UTC
+
+### News Fetch
+✅ 10 items saved to `public/news.json`
+
+### VPS Diagnostic Update
+🔍 **New finding:** Port 80 → HTTPS redirect active (nginx alive)
+- Port 80: HTTP 301 redirect to HTTPS
+- Port 443: **timeout** (SSL cert / Astro not serving on 443)
+- Port 9000: HTTP 200 → `404 Not Found` (container alive, Astro internal dead)
+- **Diagnosis:** Nginx running but internal Astro dev server (port 4321) dead inside container
+- **Fix needed:** `docker exec` or console access to restart Astro process inside container
+
+### GitHub
+❌ Still unreachable — 14 local commits stuck
+
+
+---
+
+## Cycle 91 — 2026-04-03 07:02 UTC
+
+### News Fetch
+✅ 10 items saved (no change)
+
+### Status — User conversation ongoing
+- GitHub token has no write access; user will provide new token or create repo manually
+- VPS: port 9000 timeout, deploy blocked; user asked to restart VPS
+- **16 local commits** stuck in `studyroadmap-astro` waiting for repo
+
+---
+
+## Cycle 91 — 2026-04-03 07:04 UTC
+
+### News Fetch
+✅ 10 items saved — committed (ca9d077)
+
+### VPS Status — UNCHANGED
+❌ Port 9000: **404** (container alive, Astro dev server dead)
+❌ Deploy endpoint: **timeout** (port 9000 unreachable from this host)
+
+### GitHub — BLOCKED
+❌ Token has no write access — cannot create/fork repos
+- User needs to either: create repo manually, or provide new token with `repo` scope
+- 15 local commits stuck in `studyroadmap-astro`
+

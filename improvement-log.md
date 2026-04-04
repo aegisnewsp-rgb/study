@@ -1570,3 +1570,28 @@ Most high-value SEO items completed. Remaining items all need user input:
 **Tech debt:** 27 commits still pushed to `aegisnewsp-rgb/study` (studyroadmap-astro branch) — origin/studyroadmap-astro repo doesn't exist; pushed to existing repo instead
 
 **Next priority:** GSC verification (needs user), AdSense (needs user)
+
+## Cycle 106 | 2026-04-04T05:06 UTC | DEPLOY DOWN ⚠️
+
+**Status:**
+- Site: ✅ HTTP 200 (live at studyroadmap.in)
+- Deploy service: ⚠️ **DOWN** — port 9000 returning 404 (backend died again)
+- News: ✅ 10 items (India: 4, Pakistan: 4, Nigeria: 2)
+- Build: ✅ 3,346 pages in 58.90s
+- Commit pushed to GitHub ✅
+
+**Recurring issue — VPS backend keeps dying:**
+systemd service has `Type=oneshot` + `Restart=no` — process exits and doesn't restart
+**Fix requires SSH access** (blocked — user needs to provide credentials or fix remotely)
+
+## Cycle 107 | 2026-04-04T06:03 UTC | DEPLOY DOWN ⚠️ (ongoing)
+
+**Status:**
+- Site: ✅ HTTP 200 (live)
+- Deploy service: ⚠️ **DOWN** — port 9000 returning 404 (backend died again)
+- News: ✅ 10 items (India: 4, Pakistan: 3, Nigeria: 3)
+- GitHub: ✅ pushed
+
+**Deploy fix still pending user action:**
+Docker restart policy  needed — no SSH access available
+

@@ -248,3 +248,32 @@ sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deplo
 sudo sed -i 's/Restart=no/Restart=always/' /etc/systemd/system/studyroadmap-deploy.service
 sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
 ```
+
+## 2026-04-04T21:36 UTC — Cycle 108
+**Status:** 🟡 Minor fix implemented
+
+### Pages Checked
+- Homepage `/` — returns HTTP 200, all meta/OG tags intact ✅
+- Exam page `/exams/neet/` — FAQPage + HowTo + BreadcrumbList + CollectionPage schemas ✅
+- Notes page `/notes/neet/physics/` — FAQPage + CollectionPage + ItemList + BreadcrumbList ✅
+- Roadmap `/roadmap` — SPA shell, JSON-LD injected via JS (no static HTML schema) ⚠️
+
+### Issues Found
+1. **llm.txt had stale/outdated info**: Date was 2026-04-01, exam count was 80+ vs actual 124, page count was 3321 vs 3345+
+2. **llm.txt licensing section contradicted robots.txt**: said "No attribution required for AI training" but robots.txt blocks AI training bots (GPTBot, CCBot, etc.) — now fixed to accurately reflect "AI citations allowed, training blocked"
+3. **`/roadmap` has no static HTML JSON-LD**: The page is a client-side React SPA; HowTo and BreadcrumbList schemas are injected via JavaScript — Google may not see these in static crawl
+
+### Changes Made
+- Updated `public/llm.txt`: date → 2026-04-04, exam count → 124, page count → 3345+, licensing text aligned with robots.txt policy
+- Commits: 4eee405 + ee162ae
+
+### Backlog Observations
+- GSC verification: placeholder code (`YOUR_VERIFICATION_CODE_HERE`) — needs real code from user
+- Bing verification: placeholder code (`BING_VERIFICATION_CODE`) — needs real code  
+- AdSense: not set up
+- Formspree feedback form: `REPLACE_WITH_FORMSPREE_ID` placeholder — needs actual Formspree ID
+- Deploy service (port 9000): still dying (Type=oneshot needs systemd fix)
+- 27+ commits stuck locally, not pushed to GitHub
+
+### Next Highest-Priority Fix
+Fix the `/roadmap` JSON-LD issue — currently HowTo schema is only injected via client-side JS. Either add a static FAQPage schema in the Layout.astro for the base roadmap page (without query params), or investigate why the howToJsonLd script tag in roadmap.astro isn't appearing in deployed HTML.

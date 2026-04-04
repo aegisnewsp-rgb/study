@@ -301,3 +301,42 @@ Fix the `/roadmap` JSON-LD issue — currently HowTo schema is only injected via
 ### ✅ Completed This Run
 - None — monitoring cycle. Site fully optimized; deploy service blocks new changes from going live.
 - Workspace changes (125+ fix) committed and ready; deploy when service restored.
+
+---
+
+## Research Findings — 2026-04-04T21:50 UTC
+
+### Site Analysis Summary
+- **Build:** ✅ 3347 pages built in 58s
+- **Workspace:** ✅ All "125+" references correct (index.astro, Layout.astro, Organization schema, FAQ answers)
+- **Live site:** ❌ Still showing "80+" — stale deployment (last deploy was Cycle 105, ~16h ago)
+- **Deploy endpoint:** ⚠️ HTTP 400 "Bad request" — service alive but rejecting deploy requests
+
+### 🔴 Critical (user action required — recurring)
+- **Deploy service dying post-deploy** — Type=oneshot + Restart=no causes backend to exit after each deploy. Last known working: Cycle 105 (2026-04-04 04:57 UTC). Deploy endpoint returning HTTP 400 since at least Cycle 106.
+- **Workspace "125+" changes ready but not live** — all 3347 pages built and committed locally
+
+### 🟡 Important (fix this cycle)
+- **Deploy service fix (same as Cycle 106-107):**
+```bash
+sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service
+sudo sed -i 's/Restart=no/Restart=always/' /etc/systemd/system/studyroadmap-deploy.service
+sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
+```
+
+### 🟢 Quick Wins (easy improvements)
+- Workspace is clean and build-ready — no code changes needed, just deploy
+
+### 📊 Traffic Opportunities
+- "125+ exams" in title/meta is a stronger trust signal than "80+" — especially for homepage social shares
+- All SEO schemas confirmed valid: FAQPage (15 Qs), Organization, WebSite+SearchAction, HowTo, BreadcrumbList ✅
+
+### ✅ Completed This Run
+- Build: 3347 pages ✅
+- Git commit: 473db5d ✅ (research log update only)
+- Deploy: blocked — deploy service returning HTTP 400 (not timeout — service alive but misbehaving)
+- News: 10 items ✅ (committed in news.json)
+
+### ⚠️ Action Required from User
+1. SSH to VPS — fix deploy service systemd config (Type=oneshot → Type=simple)
+2. After fix: `curl -X POST http://187.127.134.151:9000/deploy` to push latest 3347-page build

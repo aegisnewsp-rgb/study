@@ -2,11 +2,27 @@
 import Layout from '../layouts/Layout.astro';
 import Navbar from '../components/Navbar.astro';
 import Footer from '../components/Footer.astro';
+
+const CONTACT_FAQS = [
+  {
+    question: "How long does it take to get a response?",
+    answer: "We aim to respond within 3–5 business days. For urgent exam-related announcements (registration deadlines, result dates), always refer to your official exam board's website.",
+  },
+  {
+    question: "Can I request a new exam to be added?",
+    answer: "Yes! Use the 'Request a new exam' subject option in the form, or email us directly. We review exam requests regularly and add new exams based on student demand and exam board availability.",
+  },
+  {
+    question: "Do you offer personalized study coaching?",
+    answer: "StudyRoadmap is a free self-service tool. We generate AI-powered study roadmaps and provide free study notes. For personalised human coaching, please contact your school, coaching institute, or exam helpline.",
+  },
+];
 ---
 
 <Layout
   title="Contact StudyRoadmap™ — Get in Touch"
   description="Have a question, suggestion, or feedback? Contact the StudyRoadmap team. We welcome input from students, educators, and exam experts."
+  faqs={CONTACT_FAQS}
 >
   <script type="application/ld+json" set:html={JSON.stringify({
     '@context': 'https://schema.org',

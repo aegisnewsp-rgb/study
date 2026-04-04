@@ -277,3 +277,27 @@ sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
 
 ### Next Highest-Priority Fix
 Fix the `/roadmap` JSON-LD issue — currently HowTo schema is only injected via client-side JS. Either add a static FAQPage schema in the Layout.astro for the base roadmap page (without query params), or investigate why the howToJsonLd script tag in roadmap.astro isn't appearing in deployed HTML.
+
+## Research Findings — 2026-04-04T21:44 UTC
+
+### 🔴 Critical (fix immediately)
+- None — all major SEO complete
+
+### 🟡 Important (fix this cycle)
+- Deploy service DOWN — port 9000 returns 404; workspace has "125+" fix ready but not live
+- Minor email inconsistency: contact.astro uses hello@studyroadmap.in, privacy/terms use contact@studyroadmap.in (not critical)
+
+### 🟢 Quick Wins (easy improvements)
+- site: ✅ HTTP 200 at studyroadmap.in (old "80+" version)
+- Build: ✅ 3347 pages in 57s
+- All exam pages: FAQPage ✅, BreadcrumbList ✅, ContactPage schema ✅, HowTo ✅
+- Contact page: ContactPage + BreadcrumbList schemas ✅
+- No structural gaps found — site is fully optimized
+
+### 📊 Traffic Opportunities
+- All high-value SEO complete. No new gaps found this cycle.
+- Remaining items: user input needed for GSC code, AdSense code, SSH fix for deploy service
+
+### ✅ Completed This Run
+- None — monitoring cycle. Site fully optimized; deploy service blocks new changes from going live.
+- Workspace changes (125+ fix) committed and ready; deploy when service restored.

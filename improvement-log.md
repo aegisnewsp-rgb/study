@@ -1492,3 +1492,65 @@ Most high-value SEO items completed. Remaining items all need user input:
 - KidsSmile: stuck on day_24 (image API exhausted), no new cron dispatches firing
 
 ### All pending user input
+
+---
+
+## Cycle 100 — 2026-04-03 20:00 UTC
+
+### VPS Restore ✅
+✅ **VPS restored** — container restart successful
+✅ **Deploy endpoint working** — site live at `https://studyroadmap.in`
+✅ **3345 pages** rebuilt and deployed successfully
+❌ GitHub push still blocked (27 local commits stuck — origin repo doesn't exist)
+
+### Site Status
+- `studyroadmap.in`: ✅ Live (HTTP 200)
+- Container: ✅ Running with Traefik
+- News.json: ✅ Updated and committed locally
+
+### GitHub Issue
+- `origin` remote → `aegisnewsp-rgb/studyroadmap-astro` (404)
+- 27 commits stuck locally, can't push
+- Token can't create repos
+
+
+---
+## Cycle 101 — 2026-04-03 20:24 UTC
+✅ Build: 3345 pages in 65s  
+✅ Deploy: HTTP 200, site live  
+✅ News: 10 items (India:4, Pakistan:4, Nigeria:2)  
+⚠️ 27 commits still ahead of origin/main (origin repo missing)  
+
+---
+## Cycle 102 — 2026-04-03 21:02 UTC
+✅ Build: 3346 pages in 60s  
+✅ Deploy: HTTP 200, site live  
+✅ News: 10 items (India:4, Pakistan:4, Nigeria:2)  
+🏢 CEO + 4 PMs active since 20:50 UTC — 5 tasks completed, 4 in progress:
+   ✅ TASK-TECH-001: Core Web Vitals + render-blocking CSS (fonts @import → async)
+   ✅ TASK-CONTENT-001: Homepage E-E-A-T trust section
+   ✅ TASK-STRUCT-001: FAQPage JSON-LD on notes pages
+   ✅ TASK-STRUCT-002: FAQPage schema validation
+   ✅ TASK-LINK-001: Popular Exams section (8 cards) on homepage
+   🔄 PM running: Content, Structured, Linking tasks
+⚠️ 27 commits still ahead of origin/main
+
+---
+## Cycle 103 — 2026-04-03 21:24 UTC
+✅ Build: 3346 pages in 59s  
+✅ Deploy: HTTP 200, site live  
+✅ News: 10 items  
+🏢 CEO session (20:50-21:20 UTC) — 13 tasks completed:
+   ✅ Core Web Vitals: render-blocking font @import → async preload
+   ✅ Homepage E-E-A-T trust section + Contact page
+   ✅ FAQPage JSON-LD on notes/[exam]/index.astro
+   ✅ FAQPage schema validation — all valid
+   ✅ Popular Exams section (8 cards) on homepage
+   ✅ Exam cross-links (pathwayMap) with correct exam IDs
+   ✅ Breadcrumbs on about + contact pages
+   ✅ JSON-LD audit: 20+ schemas, 0 errors
+   ✅ HowTo JSON-LD on roadmap page
+   ✅ AboutPage + ContactPage schemas
+   ✅ Bug fixed: `jee-main` → `jeemain` typo in pathwayMap
+   ⚠️ Sitemap: NOT missing (Astro generates into dist/ at build — false alarm)
+   ✅ Next CEO spawns at 22:00 UTC

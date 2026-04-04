@@ -130,6 +130,79 @@ const durations = Object.keys(exam.durations || {}).slice(0, 6);
 const relatedExams = ALL_EXAMS
   .filter(e => e && e.examId !== exam.examId && e.country === exam.country)
   .slice(0, 4);
+
+// Exam pathway mappings — cross-links between logically related exams
+const pathwayMap: Record<string, Array<{ examId: string; label: string; reason: string }>> = {
+  // India
+  'jeemain': [
+    { examId: 'jeeadvanced', label: 'JEE Advanced', reason: 'for top-tier engineering colleges' },
+    { examId: 'cuet', label: 'CUET', reason: 'shared physics & chemistry syllabus' },
+  ],
+  'jeeadvanced': [
+    { examId: 'jeemain', label: 'JEE Main', reason: 'to qualify and attempt JEE Advanced' },
+    { examId: 'bitsat', label: 'BITSAT', reason: 'alternate engineering entrance' },
+  ],
+  'neet': [
+    { examId: 'cuet', label: 'CUET', reason: 'overlapping biology & chemistry syllabus' },
+    { examId: 'aiims-mbbs', label: 'AIIMS MBBS', reason: 'top medical college admissions' },
+  ],
+  'cuet': [
+    { examId: 'neet', label: 'NEET', reason: 'shared biology & chemistry preparation' },
+    { examId: 'jeemain', label: 'JEE Main', reason: 'overlapping physics & chemistry' },
+  ],
+  'upsc': [
+    { examId: 'ssc-cgl', label: 'SSC CGL', reason: 'overlapping GK, polity & current affairs' },
+    { examId: 'up-psc', label: 'UPPSC', reason: 'state-level civil services exam' },
+  ],
+  'ssc-cgl': [
+    { examId: 'upsc', label: 'UPSC CSE', reason: 'overlapping GK and reasoning topics' },
+    { examId: 'bpsc', label: 'BPSC', reason: 'state civil services with shared syllabus' },
+  ],
+  'cat': [
+    { examId: 'xat', label: 'XAT', reason: 'alternative MBA entrance exam' },
+    { examId: 'snap', label: 'SNAP', reason: 'MBA aspirants often attempt multiple exams' },
+  ],
+  'gate': [
+    { examId: 'jeemain', label: 'JEE Main', reason: 'engineering fundamentals refresh' },
+    { examId: 'ugc-net', label: 'UGC NET', reason: 'career path in academia' },
+  ],
+  // Pakistan
+  'mdcat': [
+    { examId: 'ecat', label: 'ECAT', reason: 'engineering parallel exam path' },
+    { examId: 'nat-i', label: 'NAT-I', reason: 'overlapping aptitude topics' },
+  ],
+  'ecat': [
+    { examId: 'mdcat', label: 'MDCAT', reason: 'medical vs engineering — choose your path' },
+    { examId: 'mcat', label: 'MCAT', reason: 'alternate medical college test' },
+  ],
+  'nat-i': [
+    { examId: 'hat-ug', label: 'HAT-UG', reason: 'similar aptitude & verbal reasoning' },
+    { examId: 'mdcat', label: 'MDCAT', reason: 'broaden university options' },
+  ],
+  'hat-ug': [
+    { examId: 'nat-i', label: 'NAT-I', reason: 'equivalent aptitude test for admissions' },
+    { examId: 'ecat', label: 'ECAT', reason: 'add engineering to your options' },
+  ],
+  // Nigeria
+  'jamb': [
+    { examId: 'waec', label: 'WAEC', reason: 'WAEC syllabus underpins JAMB questions' },
+    { examId: 'neco', label: 'NECO', reason: 'alternative secondary school certification' },
+  ],
+  'waec': [
+    { examId: 'jamb', label: 'JAMB', reason: 'JAMB uses WAEC syllabus as foundation' },
+    { examId: 'neco', label: 'NECO', reason: 'dual certification strengthens university profile' },
+  ],
+  'neco': [
+    { examId: 'waec', label: 'WAEC', reason: 'same board, widely accepted alongside NECO' },
+    { examId: 'jamb', label: 'JAMB', reason: 'qualifying exam for Nigerian universities' },
+  ],
+};
+
+// Resolve pathway exams that actually exist in ALL_EXAMS
+const pathwayExamEntries = pathwayMap[exam.examId] || [];
+const pathwayExams = pathwayExamEntries
+  .filter(p => ALL_EXAMS.some(e => e && e.examId === p.examId))
+  .map(p => ({ ...p, exam: ALL_EXAMS.find(e => e && e.examId === p.examId) }));
 ---
 
 <Layout title={title} description={description} canonical={canonicalUrl}>
@@ -312,6 +385,42 @@ const relatedExams = ALL_EXAMS
                   {rel.description.replace(/\\n/g, ' ').replace(/\\/g, '').slice(0, 100)}
                 </p>
               ) : null}
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {/* Related Exams by Pathway — cross-links to logically related exams */}
+    {pathwayExams.length > 0 && (
+      <section class="container-page py-10 border-t border-surface-200 dark:border-surface-800">
+        <div class="flex items-center gap-3 mb-5">
+          <span class="text-xl">🔗</span>
+          <h2 class="text-xl font-bold text-surface-900 dark:text-white">
+            Related Exams by Pathway
+          </h2>
+        </div>
+        <p class="text-sm text-surface-500 dark:text-surface-400 mb-6">
+          Students preparing for {examName} often also consider these exams for syllabus overlap or the next step in their journey.
+        </p>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {pathwayExams.map((p) => (
+            <a
+              href={`${SITE_URL}/exams/${p.examId}/`}
+              class="group flex items-start gap-4 bg-surface-50 dark:bg-surface-900 rounded-xl border border-surface-200 dark:border-surface-800 p-5 hover:border-brand-300 dark:hover:border-brand-700 hover:shadow-md transition-all"
+            >
+              <div class="flex-1">
+                <div class="flex items-center gap-2 mb-1">
+                  <span class="text-lg">{getCountryFlag(p.exam!.country) || '📚'}</span>
+                  <h3 class="font-bold text-surface-800 dark:text-surface-100 text-sm group-hover:text-brand-600 dark:group-hover:text-brand-400 transition-colors">
+                    {p.exam!.examName || p.examId}
+                  </h3>
+                </div>
+                <p class="text-xs text-brand-600 dark:text-brand-400 font-medium">
+                  {p.reason}
+                </p>
+              </div>
+              <span class="text-surface-400 group-hover:text-brand-600 transition-colors mt-1">→</span>
             </a>
           ))}
         </div>

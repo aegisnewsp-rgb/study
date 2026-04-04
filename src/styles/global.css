@@ -1,8 +1,5 @@
 @import "tailwindcss";
 
-/* ─── Google Fonts ───────────────────────────────────────────── */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap&subset=latin&display=swap');
-
 /* ─── Custom Theme Tokens ─────────────────────────────────────── */
 @theme {
   --color-brand-50:  #eff6ff;

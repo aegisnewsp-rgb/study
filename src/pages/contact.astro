@@ -1,0 +1,149 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<Layout
+  title="Contact StudyRoadmap™ — Get in Touch"
+  description="Have a question, suggestion, or feedback? Contact the StudyRoadmap team. We welcome input from students, educators, and exam experts."
+>
+  <script type="application/ld+json" set:html={JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://studyroadmap.in/' },
+      { '@type': 'ListItem', position: 2, name: 'Contact', item: 'https://studyroadmap.in/contact' },
+    ],
+  })} />
+  <script type="application/ld+json" set:html={JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'ContactPage',
+    'name': 'Contact StudyRoadmap™',
+    'description': 'Get in touch with the StudyRoadmap team for exam questions, feedback, bug reports, or partnership inquiries.',
+    'url': 'https://studyroadmap.in/contact',
+    'contactPoint': [
+      {
+        '@type': 'ContactPoint',
+        'name': 'StudyRoadmap Support',
+        'email': 'hello@studyroadmap.in',
+        'description': 'General inquiries and feedback for StudyRoadmap™',
+        'availableLanguage': ['English', 'Hindi', 'Urdu'],
+        'areaServed': [
+          { '@type': 'Country', 'name': 'India' },
+          { '@type': 'Country', 'name': 'Pakistan' },
+          { '@type': 'Country', 'name': 'Nigeria' }
+        ],
+        'contactOption': 'Email',
+        'email': 'hello@studyroadmap.in'
+      }
+    ],
+    'mainEntity': {
+      '@type': 'Organization',
+      'name': 'StudyRoadmap™',
+      'url': 'https://studyroadmap.in'
+    }
+  })} />
+  <Navbar />
+
+  <main id="main-content" class="flex-1">
+    <section class="bg-surface-50 dark:bg-surface-900 py-16 sm:py-20">
+      <div class="container-page max-w-2xl">
+        <nav class="flex items-center gap-2 text-sm text-surface-500 dark:text-surface-400 mb-4" aria-label="Breadcrumb">
+          <a href="/" class="hover:text-brand-600 dark:hover:text-brand-400">Home</a>
+          <span>›</span>
+          <span class="text-surface-700 dark:text-surface-200">Contact</span>
+        </nav>
+        <p class="section-label mb-3">Get in Touch</p>
+        <h1 class="heading-1 text-surface-900 dark:text-white mb-4">Contact Us</h1>
+        <p class="text-surface-500 dark:text-surface-400 leading-relaxed mb-10">
+          Have a question about an exam, feedback on study notes, or a suggestion for a new feature? We'd love to hear from you. Fill in the form below and we'll get back to you as soon as possible.
+        </p>
+
+        <form
+          name="contact"
+          method="POST"
+          class="card p-6 flex flex-col gap-5"
+          data-netlify="true"
+          netlify-hint-bypass
+        >
+          <div class="grid sm:grid-cols-2 gap-4">
+            <div class="flex flex-col gap-1.5">
+              <label for="name" class="text-sm font-medium text-surface-700 dark:text-surface-300">Your Name</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                required
+                placeholder="Priya Sharma"
+                class="w-full px-3 py-2 rounded-lg border border-surface-300 dark:border-surface-700 bg-white dark:bg-surface-800 text-surface-900 dark:text-white text-sm placeholder-surface-400 focus:outline-none focus:ring-2 focus:ring-brand-500"
+              />
+            </div>
+            <div class="flex flex-col gap-1.5">
+              <label for="email" class="text-sm font-medium text-surface-700 dark:text-surface-300">Email Address</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                placeholder="priya@example.com"
+                class="w-full px-3 py-2 rounded-lg border border-surface-300 dark:border-surface-700 bg-white dark:bg-surface-800 text-surface-900 dark:text-white text-sm placeholder-surface-400 focus:outline-none focus:ring-2 focus:ring-brand-500"
+              />
+            </div>
+          </div>
+
+          <div class="flex flex-col gap-1.5">
+            <label for="subject" class="text-sm font-medium text-surface-700 dark:text-surface-300">Subject</label>
+            <select
+              id="subject"
+              name="subject"
+              required
+              class="w-full px-3 py-2 rounded-lg border border-surface-300 dark:border-surface-700 bg-white dark:bg-surface-800 text-surface-900 dark:text-white text-sm focus:outline-none focus:ring-2 focus:ring-brand-500"
+            >
+              <option value="" disabled selected>Select a topic</option>
+              <option value="exam-request">Request a new exam</option>
+              <option value="notes-feedback">Feedback on study notes</option>
+              <option value="bug-report">Bug or technical issue</option>
+              <option value="partnership">Partnership or institutional inquiry</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+
+          <div class="flex flex-col gap-1.5">
+            <label for="message" class="text-sm font-medium text-surface-700 dark:text-surface-300">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              required
+              rows="5"
+              placeholder="Tell us what's on your mind — a missing exam, a topic that needs better notes, or just a suggestion..."
+              class="w-full px-3 py-2 rounded-lg border border-surface-300 dark:border-surface-700 bg-white dark:bg-surface-800 text-surface-900 dark:text-white text-sm placeholder-surface-400 focus:outline-none focus:ring-2 focus:ring-brand-500 resize-none"
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn-primary w-full sm:w-auto justify-center">
+            Send Message
+            <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" />
+            </svg>
+          </button>
+
+          <p class="text-xs text-surface-400 dark:text-surface-500 leading-relaxed">
+            We read every message. Since we are a small team, please allow 3–5 business days for a response. For urgent exam-related announcements, always refer to your official exam board's website.
+          </p>
+        </form>
+
+        <div class="mt-10 p-5 bg-surface-100 dark:bg-surface-800 rounded-xl border border-surface-200 dark:border-surface-700">
+          <h2 class="font-semibold text-surface-900 dark:text-white text-sm mb-2">Other ways to reach us</h2>
+          <ul class="space-y-2 text-sm text-surface-500 dark:text-surface-400">
+            <li>✉️ <a href="mailto:hello@studyroadmap.in" class="text-brand-600 dark:text-brand-400 hover:underline">hello@studyroadmap.in</a> — general inquiries and feedback</li>
+            <li>🐛 <a href="/feedback" class="text-brand-600 dark:text-brand-400 hover:underline">Help Improve Notes</a> — directly suggest corrections or additions to study content</li>
+            <li>📢 <a href="/about" class="text-brand-600 dark:text-brand-400 hover:underline">About StudyRoadmap</a> — learn more about who we are and how we work</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</Layout>

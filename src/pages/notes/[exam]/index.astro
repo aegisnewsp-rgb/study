@@ -79,11 +79,59 @@ const collectionPageJsonLd = {
     })),
   },
 };
+
+const faqJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: `How do I use these ${examName} study notes effectively?`,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: `Start with the roadmap generator to get a personalised study plan, then use the notes to cover each topic systematically. Focus on high-weightage topics first, and use the Quick tier for rapid revision before exams.`,
+      },
+    },
+    {
+      '@type': 'Question',
+      name: `What's the difference between Quick, Standard, and Deep study notes?`,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: `Quick notes provide concise bullet-point summaries ideal for last-minute revision. Standard notes include key concepts, formulas, and examples for regular study. Deep notes offer comprehensive explanations with diagrams and practice questions for thorough understanding.`,
+      },
+    },
+    {
+      '@type': 'Question',
+      name: `Are these ${examName} notes aligned with the official syllabus?`,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: `Yes. All notes are organised by subject and topic to match the latest official ${examName} syllabus. Each topic also shows its weightage percentage to help you prioritise.`,
+      },
+    },
+    {
+      '@type': 'Question',
+      name: `Can I access ${examName} study notes on my phone?`,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: `Absolutely. All notes are fully responsive and work on any device — desktop, tablet, or mobile. No app download or signup is required; just open the page and start studying.`,
+      },
+    },
+    {
+      '@type': 'Question',
+      name: `Are these ${examName} notes really free?`,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: `Yes. Every note on StudyRoadmap is completely free to access — no paywall, no signup, no limits. We believe quality education resources should be available to everyone.`,
+      },
+    },
+  ],
+};
 ---
 
 <Layout title={title} description={description} canonical={canonicalUrl} image={ogImage}>
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
   <script type="application/ld+json" set:html={JSON.stringify(collectionPageJsonLd)} />
+  <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
   <Navbar />
   <main id="main-content" class="flex-1">
     <section class="bg-surface-50 dark:bg-surface-950 border-b border-surface-200 dark:border-surface-800">

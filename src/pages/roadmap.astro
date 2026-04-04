@@ -641,6 +641,45 @@ const breadcrumbJsonLd = {
   ],
 };
 
+const howToJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'HowTo',
+  name: 'How to Create a Free Study Roadmap',
+  description: 'Generate a personalised, prioritised study roadmap for any exam — free, instant, no signup required.',
+  step: [
+    {
+      '@type': 'HowToStep',
+      name: 'Step 1: Select your exam from the dropdown',
+      text: 'Open the roadmap page at studyroadmap.in/roadmap. Choose your competitive exam — NEET, JEE, UPSC, MDCAT, JAMB, WAEC, or 20+ others. The roadmap is tailored to your specific exam syllabus and pattern.',
+      url: 'https://studyroadmap.in/roadmap/',
+    },
+    {
+      '@type': 'HowToStep',
+      name: 'Step 2: Choose your available preparation time',
+      text: 'Enter how many hours per day you can study and your exam date or total number of days available. The algorithm uses this to calculate how many topics you can cover and in what order.',
+      url: 'https://studyroadmap.in/roadmap/',
+    },
+    {
+      '@type': 'HowToStep',
+      name: 'Step 3: View your AI-generated study roadmap',
+      text: 'Your personalised roadmap loads instantly, showing the highest-weight topics organised by subject and day. Topics are sequenced by exam relevance so you always study what matters most first.',
+      url: 'https://studyroadmap.in/roadmap/',
+    },
+    {
+      '@type': 'HowToStep',
+      name: 'Step 4: Study topics in priority order',
+      text: 'Follow the roadmap day by day. Each day shows the topics to study, with exam-weight guidance so you know which topics carry the most marks. Open the free study notes for any topic with one click.',
+      url: 'https://studyroadmap.in/notes/',
+    },
+    {
+      '@type': 'HowToStep',
+      name: 'Step 5: Mark topics complete as you progress',
+      text: 'Tick off topics as you complete them. The roadmap updates dynamically, helping you stay on track and adjust if you miss a day or skip ahead.',
+      url: 'https://studyroadmap.in/roadmap/',
+    },
+  ],
+};
+
 ---
 
 <Layout
@@ -650,6 +689,7 @@ const breadcrumbJsonLd = {
   howToSteps={HOW_TO_STEPS}
 >
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
+  <script type="application/ld+json" set:html={JSON.stringify(howToJsonLd)} />
   <Navbar />
 
   <main id="main-content" class="flex-1">

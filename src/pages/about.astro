@@ -58,11 +58,49 @@ const ABOUT_FAQS = [
       { '@type': 'ListItem', position: 2, name: 'About', item: 'https://studyroadmap.in/about' },
     ],
   })} />
+  <script type="application/ld+json" set:html={JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'AboutPage',
+    'name': 'About StudyRoadmap™',
+    'description': 'StudyRoadmap™ is a free AI-powered study planning tool for students in India, Pakistan, and Nigeria preparing for 80+ competitive exams including NEET, JEE, UPSC, MDCAT, JAMB, and WAEC.',
+    'url': 'https://studyroadmap.in/about',
+    'datePublished': '2026-03-01',
+    'about': {
+      '@type': 'WebSite',
+      'name': 'StudyRoadmap™',
+      'url': 'https://studyroadmap.in',
+      'description': 'Free AI-powered study planning tool for competitive exams across India, Pakistan, and Nigeria',
+      'applicationCategory': 'EducationApplication',
+      'operatingSystem': 'Web',
+      'offers': { '@type': 'Offer', 'price': '0', 'priceCurrency': 'USD' }
+    },
+    'mainEntity': {
+      '@type': 'Organization',
+      'name': 'StudyRoadmap™',
+      'url': 'https://studyroadmap.in',
+      'description': 'Free AI-powered study planning tool for competitive exam students across India, Pakistan, and Nigeria.',
+      'areaServed': [
+        { '@type': 'Country', 'name': 'India' },
+        { '@type': 'Country', 'name': 'Pakistan' },
+        { '@type': 'Country', 'name': 'Nigeria' }
+      ],
+      'sameAs': [
+        'https://twitter.com/studyroadmap',
+        'https://www.instagram.com/studyroadmap'
+      ]
+    }
+  })} />
   <Navbar />
 
   <main id="main-content" class="flex-1">
     <section class="bg-surface-50 dark:bg-surface-950 border-b border-surface-200 dark:border-surface-800">
-      <div class="container-page py-14 sm:py-20 text-center">
+      <div class="container-page py-14 sm:py-20">
+        <nav class="flex items-center gap-2 text-sm text-surface-500 dark:text-surface-400 mb-6" aria-label="Breadcrumb">
+          <a href="/" class="hover:text-brand-600 dark:hover:text-brand-400">Home</a>
+          <span>›</span>
+          <span class="text-surface-700 dark:text-surface-200">About Us</span>
+        </nav>
+        <div class="text-center">
         <h1 class="heading-1 text-surface-900 dark:text-surface-50 mb-3">About StudyRoadmap™</h1>
         <p class="text-base sm:text-lg text-surface-600 dark:text-surface-400 max-w-xl mx-auto">
           Built for students, by students who understand the struggle of exam prep.

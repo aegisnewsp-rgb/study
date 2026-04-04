@@ -1,5 +1,5 @@
 export const accounting: Subject = {
-  id: 'accounting', name: 'None', color: '#0891b2',
+  id: 'accounting', name: 'Accounting', color: '#0891b2',
   topics: [
     { id: 'accoun-001', name: 'Accounting Principles', weight: 3, description: 'Fundamental concepts and conventions governing the preparation of financial statements, including the going concern, matching, and consistency principles.' },
     { id: 'accoun-002', name: 'Journal Entries', weight: 3, description: 'Double-entry book-keeping system, recording transactions using debits and credits, and understanding the accounting equation Assets = Liabilities + Capital.' },

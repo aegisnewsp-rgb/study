@@ -1,5 +1,5 @@
 export const taxation: Subject = {
-  id: 'taxation', name: 'None', color: '#6b7280',
+  id: 'taxation', name: 'Taxation', color: '#6b7280',
   topics: [
     { id: 'taxati-001', name: 'Topic 1', weight: 3 as const },
     { id: 'taxati-002', name: 'Topic 2', weight: 3 as const },

@@ -1,5 +1,5 @@
 export const anatomy: Subject = {
-  id: 'anatomy', name: 'None', color: '#6b7280',
+  id: 'anatomy', name: 'Anatomy', color: '#6b7280',
   topics: [
     { id: 'anatom-001', name: 'Topic 1', weight: 3 as const },
     { id: 'anatom-002', name: 'Topic 2', weight: 3 as const },

@@ -1,5 +1,5 @@
 export const accounting: Subject = {
-  id: 'accounting', name: 'None', color: '#0891b2',
+  id: 'accounting', name: 'Accounting', color: '#0891b2',
   topics: [
     { id: 'accoun-001', name: 'Accounting Principles', weight: 3 as const },
     { id: 'accoun-002', name: 'Journal Entries', weight: 3 as const },

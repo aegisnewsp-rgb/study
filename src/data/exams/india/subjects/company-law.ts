@@ -1,5 +1,5 @@
 export const company_law: Subject = {
-  id: 'company-law', name: 'None', color: '#6b7280',
+  id: 'company-law', name: 'Company Law', color: '#6b7280',
   topics: [
     { id: 'compan-001', name: 'Topic 1', weight: 3 as const },
     { id: 'compan-002', name: 'Topic 2', weight: 3 as const },

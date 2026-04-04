@@ -34,7 +34,7 @@ function makeRoadmap(subjects: Subject[], duration: string, totalDays: number, d
 }
 
 const exam: ExamTemplate = {
-  examId: 'cmat',
+  examId: 'cmat-nepal',
   examName: 'CMAT Nepal (MBA Entrance)',
   country: 'nepal',
   description: "Common Management Admission Test (CMAT) Nepal — entrance exam for MBA and management programmes at various universities in Nepal.",

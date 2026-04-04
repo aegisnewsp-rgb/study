@@ -1,5 +1,5 @@
 export const microbiology: Subject = {
-  id: 'microbiology', name: 'None', color: '#6b7280',
+  id: 'microbiology', name: 'Microbiology', color: '#6b7280',
   topics: [
     { id: 'microb-001', name: 'Topic 1', weight: 3 as const },
     { id: 'microb-002', name: 'Topic 2', weight: 3 as const },

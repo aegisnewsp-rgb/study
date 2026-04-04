@@ -169,3 +169,13 @@ sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
 | News ticker | ✅ 10-item rolling window, 30-min updates |
 | Google index | ⏳ Pending — GSC verification needed |
 | Backlinks | ⏳ 0 — new domain, no outreach done yet |
+
+## HIGH-VALUE — hreflang + Twitter App (DONE in workspace, pending deploy)
+- hreflang geo-targeting: en-IN, en-PK, en-NG, x-default ✅ COMMITTED
+- Twitter app meta (Google Play + App Store IDs) ✅ COMMITTED
+- These need deploy to go live
+
+## STILL BLOCKING (needs user)
+- **GSC verification code** — `YOUR_VERIFICATION_CODE_HERE` in Layout.astro
+- **Bing verification code** — `BING_VERIFICATION_CODE` in Layout.astro
+- App Store / Google Play app IDs — placeholder values used

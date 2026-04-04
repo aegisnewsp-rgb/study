@@ -1,5 +1,5 @@
 export const biochemistry: Subject = {
-  id: 'biochemistry', name: 'None', color: '#7c3aed',
+  id: 'biochemistry', name: 'Biochemistry', color: '#7c3aed',
   topics: [
     { id: 'bioche-001', name: 'Biomolecules and Enzymes', weight: 3 as const },
     { id: 'bioche-002', name: 'Carbohydrate Metabolism', weight: 3 as const },

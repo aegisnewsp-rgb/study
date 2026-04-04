@@ -1,5 +1,5 @@
 export const economics: Subject = {
-  id: 'economics', name: 'None', color: '#059669',
+  id: 'economics', name: 'Economics', color: '#059669',
   topics: [
     { id: 'econom-001', name: 'Introduction to Economics', weight: 3, description: 'Definition, scope, and importance of economics as a social science; the central problems of what, how, and for whom to produce in any society.' },
     { id: 'econom-002', name: 'Demand and Supply', weight: 3, description: 'Law of demand and supply, market equilibrium, shifts in demand and supply curves, and the effects of price controls on market outcomes.' },

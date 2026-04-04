@@ -1,5 +1,5 @@
 export const economics: Subject = {
-  id: 'economics', name: 'None', color: '#059669',
+  id: 'economics', name: 'Economics', color: '#059669',
   topics: [
     { id: 'econom-001', name: 'Introduction to Economics', weight: 3 as const },
     { id: 'econom-002', name: 'Demand and Supply', weight: 3 as const },

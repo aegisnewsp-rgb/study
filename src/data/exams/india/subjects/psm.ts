@@ -1,5 +1,5 @@
 export const psm: Subject = {
-  id: 'psm', name: 'None', color: '#6b7280',
+  id: 'psm', name: 'Psm', color: '#6b7280',
   topics: [
     { id: 'psm-001', name: 'Topic 1', weight: 3 as const },
     { id: 'psm-002', name: 'Topic 2', weight: 3 as const },

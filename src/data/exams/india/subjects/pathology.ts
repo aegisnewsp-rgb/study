@@ -1,5 +1,5 @@
 export const pathology: Subject = {
-  id: 'pathology', name: 'None', color: '#6b7280',
+  id: 'pathology', name: 'Pathology', color: '#6b7280',
   topics: [
     { id: 'pathol-001', name: 'Topic 1', weight: 3 as const },
     { id: 'pathol-002', name: 'Topic 2', weight: 3 as const },

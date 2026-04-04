@@ -1,5 +1,5 @@
 export const islamic_studies: Subject = {
-  id: 'islamic-studies', name: 'None', color: '#6b7280',
+  id: 'islamic-studies', name: 'Islamic Studies', color: '#6b7280',
   topics: [
     { id: 'islami-001', name: 'Topic 1', weight: 3 as const },
     { id: 'islami-002', name: 'Topic 2', weight: 3 as const },

@@ -1,5 +1,5 @@
 export const business_law: Subject = {
-  id: 'business-law', name: 'None', color: '#6b7280',
+  id: 'business-law', name: 'Business Law', color: '#6b7280',
   topics: [
     { id: 'busine-001', name: 'Nigerian Legal System', weight: 3, description: 'Structure and hierarchy of Nigerian courts from magistrate to Supreme Court, sources of Nigerian law (common law, statute, customary law), and the doctrine of judicial precedent.' },
     { id: 'busine-002', name: 'Law of Contract', weight: 3, description: 'Essential elements of a valid contract (offer, acceptance, consideration, intention, capacity, legality), vitiating factors, and discharge of contracts.' },

@@ -85,3 +85,27 @@
 ### ✅ Completed This Run
 - None — site fully optimized, no actionable changes found this cycle
 - Deploy backend issue remains (needs SSH access to fix Docker restart policy)
+
+## Research Findings — 2026-04-04T21:13 UTC
+
+### 🔴 Critical (fix immediately)
+- None
+
+### 🟡 Important (fix this cycle)
+- None — all major SEO complete per backlog
+
+### 🟢 Quick Wins (easy improvements)
+- site: ✅ https://studyroadmap.in returns HTTP 200
+- /exams/: ✅ HTTP 200
+- /notes/neet/physics/: ✅ HTTP 200
+- Deploy service: ⚠️ DOWN — port 9000 returns 404 (backend dead, recurring issue since Cycle 106)
+- Git status: clean (41 commits ahead of aegis-news/main, no uncommitted changes)
+
+### 📊 Traffic Opportunities
+- All high-value SEO complete. Remaining backlog items need user input (GSC code, AdSense, SSH fix for deploy service).
+- No new actionable improvements found.
+
+### ✅ Completed This Run
+- Monitoring only — no changes to make. Deploy blocked by recurring backend service issue.
+- Next action: user SSH needed to fix `Type=oneshot` → `Type=simple` + `Restart=always` on studyroadmap-deploy.service
+

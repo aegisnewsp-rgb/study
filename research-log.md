@@ -32,3 +32,32 @@
 4. Pakistan-specific: "MDCAT preparation" vs "MDCAT date" — informational content needed
 5. Nigeria-specific: "JAMB syllabus" vs "JAMB registration" — syllabus content strong, registration thin
 
+
+---
+
+## Research Findings — 2026-04-04T20:59 UTC
+
+### 🔴 Critical (fix immediately)
+- Homepage title/meta still hardcoded "80+ Exams" while examLabel says "125+" — inconsistent across 6 locations
+
+### 🟡 Important (fix this cycle)
+- Multiple "80+" stale references found: Layout default title/description, Organization schema description, 3 homepage FAQ answers, about page FAQ answer
+
+### 🟢 Quick Wins (easy improvements)
+- Updated all "80+" → "125+" in 6 files (index.astro, Layout.astro, about.astro)
+- Build: 3346 pages ✅
+
+### ✅ Completed This Run
+- Fixed: All "80+" → "125+" in title, meta description, FAQ answers, Organization schema, hero section
+- Files: src/pages/index.astro, src/layouts/Layout.astro, src/pages/about.astro
+- Commit: 56e3383
+
+### ⚠️ Deploy Blocked
+- Deploy endpoint HTTP 400 (backend in bad state — recurring issue from Cycle 106+)
+- Fix: SSH to VPS → `sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service` + Restart=always + daemon-reload
+- Site still live at studyroadmap.in (old version)
+
+### 📊 Traffic Opportunities
+- Site: healthy ✅ (200 on homepage)
+- News: 10 items ✅ (India 4, Pakistan 4, Nigeria 2)
+- No new SEO opportunities found — all major SEO complete per backlog

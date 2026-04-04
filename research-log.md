@@ -717,3 +717,26 @@ sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
 - Commit only: research-log.md update
 - Build/deploy: not run (no code changes needed this cycle)
 
+
+## Research Findings — 2026-04-04T22:59 UTC
+
+### 🔴 Critical (fix immediately)
+- **Deploy sync gap**: workspace has "125+ Exams" title/meta (built 2026-04-04) but live site shows "80+ Exams" — deploy is not syncing. Both `http://172.17.0.1:9000/deploy` and `http://187.127.134.151:9000/deploy` return "Bad request". Backend in restart loop.
+
+### 🟡 Important (fix this cycle)
+- Deploy service consistently returning "Bad request" — workspace build (3347 pages) cannot reach production
+
+### 🟢 Quick Wins (easy improvements)
+- Site health: homepage ✅ (title/meta OK), NEET exam page ✅ (5 JSON-LD blocks), notes physics ✅
+- News: 10 fresh items ✅ (India:4, Pakistan:4, Nigeria:2)
+- Build: 3347 pages in 57s ✅
+- sitemap + robots.txt: HTTP 200 ✅
+
+### 📊 Traffic Opportunities
+- All SEO done. Deploy not syncing = workspace improvements (125+ title fix) not reaching live site. GSC/AdSense still need user codes.
+
+### ✅ Completed This Run
+- News refresh: 10 items ✅
+- Build: 3347 pages ✅
+- Commit: research-log.md update (05b8fdd)
+- Deploy: BLOCKED (Bad request from both IPs)

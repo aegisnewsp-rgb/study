@@ -1044,3 +1044,32 @@ This will pull latest from GitHub and rebuild, fixing the "80+" → "125+" live 
 - News refreshed: 10 items (India:4, Pakistan:4, Nigeria:2)
 - Site health: confirmed 200 ✅
 - No code changes — all major SEO complete; remaining items blocked on user input (GSC, AdSense, SSH deploy fix)
+
+## Research Findings — 2026-04-04T23:56 UTC
+
+### 🔴 Critical (fix immediately)
+- None found — site is healthy
+
+### 🟡 Important (fix this cycle)
+- Deploy service still dying: Type=oneshot + Restart=no (same issue since Cycle 106)
+  Fix needs SSH access to VPS:
+  ```bash
+  sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service
+  sudo sed -i 's/Restart=no/Restart=always/' /etc/systemd/system/studyroadmap-deploy.service
+  sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
+  ```
+
+### 🟢 Quick Wins (easy improvements)
+- `notes-new/` directory exists in src/pages but is NOT in the live sitemap — may be orphaned/un-deployed content. Not causing harm but worth auditing.
+
+### 📊 Traffic Opportunities
+- Sitemap verified healthy at studyroadmap.in/sitemap-0.xml — 3,300+ pages indexed
+- robots.txt correctly references sitemap at https://studyroadmap.in/sitemap-index.xml ✅
+- All major SEO complete; no new opportunities found this cycle
+
+### ✅ Completed This Run
+- Site health: studyroadmap.in → HTTP 200 ✅
+- Sitemap: valid XML at studyroadmap.in ✅
+- robots.txt: AI training block + sitemap reference ✅
+- News: 10 items (no build triggered — no code changes)
+- No code changes — all SEO complete; remaining items blocked on user input

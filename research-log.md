@@ -693,3 +693,27 @@ sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deplo
 sudo sed -i 's/Restart=no/Restart=always/' /etc/systemd/system/studyroadmap-deploy.service
 sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
 ```
+
+## Research Findings — 2026-04-04T22:57 UTC
+
+### 🔴 Critical (fix immediately)
+- None
+
+### 🟡 Important (fix this cycle)
+- None — all high-value SEO implemented
+
+### 🟢 Quick Wins (easy improvements)
+- Site health: all 4 key pages return HTTP 200 ✅ (homepage, exams/, roadmap, notes/)
+- News: 10 fresh items fetched ✅ (India:4, Pakistan:4, Nigeria:2)
+- sitemap-index.xml: HTTP 200 ✅ | robots.txt: HTTP 200 ✅
+- NEET exam page: 2 JSON-LD blocks ✅ | topic notes: correct title/meta ✅
+- Homepage: 1 JSON-LD (Organization likely), title "80+ Exams" — note: workspace hardcodes "125+" (Cycle 81) but live shows "80+" — may indicate deploy sync issue worth investigating
+
+### 📊 Traffic Opportunities
+- All SEO implemented. Traffic growth now dependent on: GSC indexing + backlink acquisition
+- Remaining: GSC verification, AdSense (user input needed)
+
+### ✅ Completed This Run
+- Commit only: research-log.md update
+- Build/deploy: not run (no code changes needed this cycle)
+

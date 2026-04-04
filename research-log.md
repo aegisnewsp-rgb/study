@@ -814,3 +814,44 @@ sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
 - Build: 3347 pages ✅
 - Commit: research-log.md update (05b8fdd)
 - Deploy: BLOCKED (Bad request from both IPs)
+
+---
+
+## Research Run 5 | 2026-04-04 23:21 UTC
+
+### Site Status
+- studyroadmap.in: ✅ HTTP 200 (live)
+- Deploy service 172.17.0.1:9000: ⚠️ Alive but returning 403 Forbidden on /deploy (auth required)
+- Deploy service 187.127.134.151:9000: ❌ Timeout/404
+- News: ✅ 10 items (fetched earlier)
+- GitHub push: ✅ Succeeded to `existing` remote (commit 283734d)
+
+### Issue Found: Deploy Auth 403
+- POST http://172.17.0.1:9000/deploy with any body returns 403 Forbidden
+- Tried: empty body (400), {} JSON (403), Bearer/Basic auth (403)
+- Deploy service IS running (responds to HTTP) but rejects all requests
+- Likely requires a specific secret/token set on VPS side
+- Cannot deploy without this credential
+
+### Deploy Blocker — User Action Needed
+The deploy backend at port 9000 requires authentication. To fix:
+1. SSH to VPS: `ssh root@187.127.134.151`
+2. Check deploy service config: `cat /etc/systemd/system/studyroadmap-deploy.service`
+3. Look for `DEPLOY_KEY=` or similar env var
+4. Share the key OR disable auth for internal network access
+
+Alternatively, run deploy.sh manually on VPS:
+```bash
+cd /srv/studyroadmap && git pull && docker compose build && docker compose up -d
+```
+
+### Assessment
+- All major SEO work complete ✅
+- Code changes pushed to GitHub ✅  
+- Deploy blocked by auth — user needs to provide credential or run deploy.sh manually
+- Site live and healthy — no immediate issues
+
+### ✅ Completed This Run
+- Committed research-log.md to GitHub (283734d)
+- Identified deploy auth blocker (403 on /deploy)
+- No code changes (all SEO done, deploy blocked)

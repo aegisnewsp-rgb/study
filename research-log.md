@@ -394,3 +394,40 @@ sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
   2. Add SSH keys / update VPS secrets so gh CLI can SSH-trigger
   3. Fix deploy webhook format or document correct endpoint usage
 
+
+## Research Findings — 2026-04-04T22:13 UTC
+
+### Site Analysis Summary
+- **Homepage:** 200 ✅ | Live title still says "80+" (stale — workspace has 125+)  
+- **Footer:** "Content reviewed March 2026" (stale — now April)
+- **Build:** 3347 pages ✅
+- **Deploy:** GitHub Actions triggered by push ✅ | GitHub Actions SSH deploy depends on secrets
+- **News:** 10 items (India:4, Pakistan:4, Nigeria:2) ✅
+
+### 🔴 Critical (fix immediately)
+- **"80+" still live on production** — homepage title/meta says "80+ Exams" while workspace has "125+" (from Cycle 95). Deploy blocked by GitHub Actions SSH (secrets not verified from this environment).
+
+### 🟡 Important (fix this cycle)
+- **Footer freshness date** — updated from "March 2026" → "April 2026" across all pages (Footer.astro). Signals content freshness to users + Google.
+
+### 🟢 Quick Wins (easy improvements)
+- Build: 3347 pages ✅ (58s)
+- News: 10 items ✅ (fresh)
+- Deploy pushed to aegis-news/main — GitHub Actions will attempt SSH deploy
+
+### 📊 Traffic Opportunities
+- All major SEO complete. Deploy blocked on GitHub Actions SSH secrets (VPS_HOST, VPS_USER, VPS_SSH_KEY not testable from this environment).
+- Remaining items: GSC verification code, AdSense integration, MiniMax API top-up for content generation
+
+### ✅ Completed This Run
+- **Change:** Updated Footer.astro `Content reviewed March 2026` → `Content reviewed April 2026`
+- **Files:** src/components/Footer.astro  
+- **Commit:** a3cd0ca ✅ pushed to aegis-news/main ✅
+- **Build:** 3347 pages in 58s ✅
+- **Deploy:** GitHub Actions workflow triggered by push
+
+### ⚠️ BLOCKERS (needs user)
+1. **Deploy via SSH** — GitHub Actions deploy step uses `secrets.VPS_HOST`, `secrets.VPS_USER`, `secrets.VPS_SSH_KEY` — verify these are set in the repo settings at https://github.com/aegisnewsp-rgb/study/settings/secrets/actions
+2. **GSC verification code** — replace `YOUR_VERIFICATION_CODE_HERE` in Layout.astro  
+3. **AdSense integration** — needs approved account + code injection
+4. **MiniMax text API** — balance exhausted, needs top-up for content generation

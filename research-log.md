@@ -585,3 +585,20 @@ sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
 - **VPS SSH access needed** to restart the backend service
 - **Deploy service needs fixing** before any new code can go live
 - GSC/Bing verification codes still need user input
+
+### 2026-04-04 22:40 UTC — Cycle 117
+**Status:** Site healthy | 1 fix applied
+
+**Health checks:**
+- Homepage (/): ✅ 200 OK, correct title + meta
+- Roadmap (/roadmap/): ✅ 200 OK
+- Notes (/notes/neet/physics/): ✅ 200 OK
+- Sitemap: ✅ Valid XML, ~3,300+ URLs
+- Robots.txt: ✅ All key pages allowed
+
+**Fix applied:** `src/layouts/Layout.astro` — Replaced broken Plausible analytics script pointing to unreachable internal IP `http://187.127.134.151:55412/` with correct `https://plausible.io/js/pa.js` using `data-domain="studyroadmap.in"`. Also removed obsolete manual `plausible.init()` polyfill. Commit `9224b9a`.
+
+**Pending (requires user input):**
+- GSC verification meta tag: `YOUR_VERIFICATION_CODE_HERE` placeholder in Layout.astro (line ~60)
+- Bing Webmaster verification: `BING_VERIFICATION_CODE` placeholder in Layout.astro (line ~61)
+- VPS SSH access needed to fix the deploy service (Type=oneshot + no Restart= always)

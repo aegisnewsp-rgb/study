@@ -154,3 +154,34 @@
 - News: 10 items refreshed (Nigeria: 4, India: 4, Pakistan: 2) — 21:19 UTC ✅
 - Deploy: working (live site confirmed)
 - No code changes — all SEO complete, remaining items blocked on user input (GSC, AdSense, deploy service fix)
+
+## Research Run 2 | 2026-04-04T21:21 UTC
+
+### Site Analysis Summary
+- **Homepage:** 200 ✅ | Title: "StudyRoadmap - Free AI Study Plans for 80+ Exams" ⚠️ (stale — should say 125+)
+- **/exams/:** 200 ✅ | Meta desc fresh ✅
+- **/notes/:** 200 ✅ | 3055 notes claimed in desc ✅
+- **/roadmap/:** 200 ✅
+- **News:** 10 items, updated 21:19 UTC ✅ (2 min old — fresh)
+- **Git:** 1 new commit (c1f6906), research-log + research-agent staged
+
+### 🔴 Critical
+- **"80+" still live on production** — homepage title/meta/FAQ answers still say "80+ Exams" despite Cycle 95 fix. Deploy service keeps dying post-deploy (Type=oneshot + Restart=no), meaning committed code never reaches live site. SSH fix still pending from user.
+
+### 🟡 Important
+- **GitHub push still blocked** — origin repo `aegisnewsp-rgb/studyroadmap-astro` 404; 28 commits ahead of origin/main
+- **GSC/Bing still placeholder** — no search performance data available
+
+### 🟢 Quick Wins
+- All major SEO complete. No quick wins remaining that don't need user input or working deploy.
+- fetch_news.py killed by SIGTERM (Google News feeds timeout) — news.json still fresh from 21:19
+
+### ✅ Completed This Run
+- News refresh: news.json 21:19 UTC ✅ (fetch killed by SIGTERM, but file was already fresh from prior run)
+- Git commit: c1f6906 "Growth cycle fix" (research-log.md updated)
+- Deploy service: still down (backend dying after each deploy)
+
+### ⚠️ Blocked Until User Fixes
+1. SSH into VPS: `sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service` + daemon-reload + restart
+2. GitHub: recreate `aegisnewsp-rgb/studyroadmap-astro` repo or provide new token with repo scope
+3. GSC verification code to replace `YOUR_VERIFICATION_CODE_HERE` in Layout.astro

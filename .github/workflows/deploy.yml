@@ -1,34 +1,51 @@
-name: Deploy to Cloudflare Pages (Backup)
+name: Build & Deploy to StudyRoadmap VPS
 
 on:
   push:
-    branches: [main]
-  workflow_dispatch:
+    branches:
+      - main
+      - studyroadmap-astro
 
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+    timeout-minutes: 15
 
-      - name: Setup Node
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '22'
           cache: 'npm'
 
       - name: Install dependencies
-        run: npm ci --legacy-peer-deps
+        run: npm ci
 
-      - name: Build
+      - name: Build site
         run: npm run build
+        env:
+          NODE_ENV: production
 
-      - name: Deploy to Cloudflare Pages
-        uses: cloudflare/pages-action@v1
+      - name: Deploy to VPS via SSH
+        uses: appleboy/ssh-action@v0.1.11
         with:
-          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: studyroadmap
-          directory: dist
-          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
+          host: ${{ secrets.VPS_HOST }}
+          username: ${{ secrets.VPS_USER }}
+          key: ${{ secrets.VPS_SSH_KEY }}
+          port: ${{ secrets.VPS_SSH_PORT || '22' }}
+          script: |
+            set -e
+            cd /opt/studyroadmap-astro
+            git pull origin studyroadmap-astro
+            npm ci
+            npm run build
+            cd dist
+            # Restart the Node.js backend if needed
+            sudo systemctl restart studyroadmap-backend || true
+            # Nginx serves /opt/studyroadmap-astro/dist as studyroadmap.in
+            echo "Deploy complete at $(date)"

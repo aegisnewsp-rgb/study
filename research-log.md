@@ -1,5 +1,41 @@
 # Research Log — StudyRoadmap Growth Research
 
+## Research Run 3 | 2026-04-04 23:08 UTC
+
+### Site Status
+- **All pages:** HTTP 200 ✅
+- Homepage title: "StudyRoadmap - Free AI Study Plans for 80+ Exams" ⚠️ (workspace has 125+)
+- Homepage meta desc: "80+ competitive exams" ⚠️ (workspace has 125+)
+- Organization schema description: "80+ competitive exams" ⚠️ (workspace has 125+)
+- News: Fresh (JEE Mains Session 2 starting April 5) ✅ 10 items
+- Sitemap: All topic pages present ✅
+- llm.txt: Served correctly ✅
+- OG/Twitter tags: Correct on all pages ✅
+- Topic page meta/FAQ/BreadcrumbList: All correct ✅
+- Deploy service port 9000: Returns 404 ⚠️ (Astro dead inside container — workspace can't deploy)
+
+### Issue Identified
+Workspace index.astro and Layout.astro have "125+" but live site shows "80+":
+- Homepage `<title>`: workspace="125+" | live="80+"
+- Meta description: workspace="125+" | live="80+"
+- Organization schema `description`: workspace="125+" | live="80+"
+- FAQ answer "Which exams are supported?": workspace="125+" | live="80+"
+
+Workspace is ~27+ commits ahead of production. Deploy blocked by:
+1. Deploy service Type=oneshot issue (systemd fix needed via SSH — user action required)
+2. GitHub push auth failing (27+ unpushed commits)
+
+### Action Taken
+None — deploy service is down, cannot push to GitHub. Issue is systemic, not code.
+
+### Blockers Requiring User Action
+1. SSH fix for systemd deploy service (Type=oneshot → Type=simple)
+2. GitHub push credentials (27+ commits stuck in workspace)
+3. GSC verification code (placeholder in Layout.astro)
+4. Formspree form ID (placeholder in feedback.astro)
+
+---
+
 ## Research Run 2 | 2026-04-04 22:48 UTC
 
 ### Site Status

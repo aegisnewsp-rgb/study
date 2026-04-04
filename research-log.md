@@ -663,3 +663,33 @@ This means production is running an older build than the workspace. Needs deploy
 - Build: 3,347 pages ✅ (58.88s)
 - No changes needed — workspace is clean and aligned with production needs
 - Deploy blocked by service outage (needs user SSH fix)
+
+---
+
+## Research Findings — 2026-04-04T22:53 UTC
+
+### 🔴 Critical (fix immediately)
+- **Deploy service DOWN** — port 9000 returning 404. Site live at studyroadmap.in (HTTP 200) but cannot push new builds. Recurring Type=oneshot systemd issue. Needs user SSH fix (documented in backlog since Cycle 106).
+
+### 🟡 Important (fix this cycle)
+- **Workspace/production inconsistency: "80+" vs "125+"** — Workspace Layout.astro and index.astro both use "125+" everywhere. Live production site still shows "80+" in `<title>`, OG tags, and Organization schema. Last successful deploy was before the "125+" update propagated. **Fix:** Rebuild and deploy from workspace (or apply `Type=simple` + `Restart=always` to deploy systemd service first).
+
+### 🟢 Quick Wins
+- **No further quick wins available** — all high-value SEO items from backlog are complete. Remaining items need user input: GSC code, AdSense code, deploy service fix.
+
+### 📊 Traffic Opportunities
+- JEE Main Session 2 begins April 7 — big near-term traffic opportunity. Ensure JEE Main exam page is fully optimized.
+- News ticker is live with 10 fresh items ✅
+
+### ✅ Completed This Run
+- **None** — deploy blocked, no new code changes possible without successful deploy
+- Build verified: 3,347 pages ✅
+- Site health: HTTP 200 ✅
+
+### ⚠️ Blocking Issue
+Deploy service crashes after each deploy (Type=oneshot + Restart=no). User SSH fix needed:
+```bash
+sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service
+sudo sed -i 's/Restart=no/Restart=always/' /etc/systemd/system/studyroadmap-deploy.service
+sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
+```

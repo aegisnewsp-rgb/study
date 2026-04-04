@@ -8,7 +8,7 @@ StudyRoadmap is a free, no-signup-required AI study planner for students in Indi
 ## URL: https://studyroadmap.in
 
 ## Date
-2026-04-01
+2026-04-04
 
 ## What We Offer
 - Instant, personalized study roadmaps generated client-side using an AI expert system
@@ -38,7 +38,7 @@ Physics, Chemistry, Biology (Botany & Zoology), Mathematics, English, General Aw
 - https://studyroadmap.in/about — about the project, methodology, and exam board citations
 
 ## Licensing
-Content is freely available for educational use. No part may be used for AI model training. See https://studyroadmap.in/terms/ for full terms of use.
+Content is freely available for educational use and AI citation/indexing. See https://studyroadmap.in/terms/ for full terms of use.
 
 ## Contact
 contact@studyroadmap.in
@@ -54,13 +54,13 @@ GitHub: https://github.com/aegisnewsp-rgb
 - Roadmap Generator: https://studyroadmap.in/roadmap — interactive AI study plan builder
 - About: https://studyroadmap.in/about — editorial team, methodology, reviews
 
-## Data Coverage (as of 2026-04-02)
-- 123 individual exam pages with unique content (description, exam pattern, eligibility, subject list)
-- 3,221+ study topic pages across India, Pakistan, Nigeria, Bangladesh, and other countries
-- 80+ exam exams covered: NEET, JEE Main, JEE Advanced, CUET, UPSC, SSC CGL, CAT, CLAT, NDA, UGC NET (India)
+## Data Coverage (as of 2026-04-04)
+- 124 individual exam pages with unique content (description, exam pattern, eligibility, subject list)
+- 3,345+ pages total across India, Pakistan, Nigeria, Bangladesh, and other countries
+- 124 exams covered: NEET, JEE Main, JEE Advanced, CUET, UPSC, SSC CGL, CAT, CLAT, NDA, UGC NET (India)
   MDCAT, ECAT, NAT-I, LAT, HAT-UG (Pakistan)
   JAMB, WAEC, NECO, NABTEB, NCEE (Nigeria)
-  AP EAMCET, TS EAMCET, KCET, LPUNEST, MET, VITEEE, COMEDK, BITSAT, and 65+ more
+  AP EAMCET, TS EAMCET, KCET, LPUNEST, MET, VITEEE, COMEDK, BITSAT, and 100+ more
 - Exam syllabi sourced from official exam board publications
 - Study notes include concept explanations, key formulas, and problem-solving approaches
 
@@ -70,5 +70,5 @@ Exam page content updated when official exam boards release new notifications.
 All exam syllabus data reviewed at the start of each exam cycle.
 
 ## Licensing
-All educational content on StudyRoadmap is freely available for non-commercial educational use.
-No attribution required for AI training or citation.
+All educational content on StudyRoadmap is freely available for non-commercial educational use and AI citation/indexing.
+No attribution required for AI citations. AI training crawlers are blocked per robots.txt policy.

@@ -1,5 +1,43 @@
 # Research Log — StudyRoadmap Growth Research
 
+## Research Run 4 | 2026-04-04 23:18 UTC
+
+### Site Status
+- Homepage: 200 ✅ (live, but serving old "80+" title — workspace has "125+")
+- Exams: 200 ✅
+- Notes: 200 ✅
+- Roadmap: 200 ✅
+- About/Contact: 200 ✅
+- News: 10 items ✅ (fresh, from earlier fetch)
+- llm.txt: https://studyroadmap.in/llm.txt ✅
+
+### Issue Found
+**llm.txt inconsistency: "80+" vs site "125+"**
+- llm.txt (AI crawler instructions) still said "80+" in 2 places while the site and built HTML now use "125+"
+- AI crawlers reading llm.txt would get inaccurate site coverage info
+- Fixed: Updated both llm.txt occurrences from "80+" → "125+"
+
+### Change Made
+- `public/llm.txt`: 2 instances of "80+" → "125+" (exam count accuracy)
+- Build: 3347 pages ✅
+- Commit: 64920a7 ✅
+- Deploy: ❌ FAILED — both deploy endpoints (172.17.0.1:9000, 187.127.134.151:9000) return HTTP 400 "Bad request"
+  - Backend service is partially alive (responds to HTTP) but cannot process deploys
+  - This is the recurring Type=oneshot crash issue — needs user SSH fix
+  - **Fix needed (user SSH):**
+    ```bash
+    sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service
+    sudo sed -i 's/Restart=no/Restart=always/' /etc/systemd/system/studyroadmap-deploy.service
+    sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
+    ```
+
+### Assessment
+- All major SEO work is complete (per backlog Cycle 86)
+- Deploy service is the main blocker — SSH access needed to fix systemd config
+- Once deployed: llm.txt will accurately say "125+" for AI crawler accuracy
+
+---
+
 ## Research Run 3 | 2026-04-04 23:08 UTC
 
 ### Site Status

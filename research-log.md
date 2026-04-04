@@ -892,3 +892,17 @@ SSH to VPS and run:
 cd /srv/studyroadmap && docker compose build --no-cache && docker compose up -d
 ```
 This will pull latest from GitHub and rebuild, fixing the "80+" → "125+" live site discrepancy.
+
+## Research Findings — 2026-04-04T23:33 UTC
+
+### 🟢 Quick Wins
+- Homepage missing HowTo structured data (exam pages had it, homepage did not) — **FIXED**: Added 3-step HowTo (Select exam → Pick time → Get roadmap) to homepage index.astro
+
+### 📊 Traffic Opportunities
+- HowTo schema on homepage captures "how to make a study plan" queries; targets featured snippets for top-of-funnel searches
+- Deploy still broken (VPS backend not restarting; user has SSH access needed)
+
+### ✅ Completed This Run
+- Added HowTo JSON-LD to homepage (HowToStep: Select exam, Pick time, Get roadmap)
+- Built 3347 pages ✅
+- Committed: `da88542`

@@ -1,5 +1,34 @@
 # Research Log — StudyRoadmap Growth Research
 
+## Research Run 2 | 2026-04-04 22:48 UTC
+
+### Site Status
+- **Site live:** ✅ HTTP 200 (studyroadmap.in serving stale content)
+- **Deploy endpoint (port 9000):** ❌ 404 — backend dead (systemd Type=oneshot issue)
+- **Live title:** "80+ Exams" ❌ — workspace has "125+" ✅ (stale deploy)
+- **Build:** ✅ 3,347 pages in 56s (local, clean)
+- **GitHub push:** ✅ Pushed 3 commits to `aegis-news/main` — may trigger GitHub Actions workflow
+
+### Key Finding: Stale Production Content
+Production is serving "80+ Exams" in `<title>` and hero, but workspace correctly has "125+" everywhere. This was fixed in Cycle 81 (2026-04-01) but the deploy service keeps dying before new builds reach the live container. Last confirmed working deploy: Cycle 105 (2026-04-03 20:24 UTC). 3 commits ahead of what production has.
+
+### GitHub Actions Deploy Attempt
+- Workflow: `.github/workflows/deploy.yml` — triggers on push to `main` and `studyroadmap-astro`
+- Action: SSH to VPS → git pull → npm build → restart backend
+- Deployed by: appleboy/ssh-action with VPS secrets
+- **Note:** Workflow pulls from `studyroadmap-astro` branch but we pushed to `main` — may need branch sync check
+- VPS backend restart (`systemctl restart studyroadmap-backend`) should fix the oneshot issue if SSH succeeds
+
+### Action Required from User
+1. **Fix deploy service (SSH):** `sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service && sudo sed -i 's/Restart=no/Restart=always/' && sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy`
+2. **Verify GitHub Actions:** Check if `aegisnewsp-rgb/study` repo has the workflow running for the `main` push
+3. **GSC verification code** to replace `YOUR_VERIFICATION_CODE_HERE` placeholder in Layout.astro
+
+### SEO Status: All High-Value Items Complete
+No automated improvements available without deploy capability or user-provided codes.
+
+---
+
 ## Research Run 1 | 2026-04-04 20:58 UTC
 
 ### Site Analysis Summary
@@ -602,3 +631,35 @@ sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
 - GSC verification meta tag: `YOUR_VERIFICATION_CODE_HERE` placeholder in Layout.astro (line ~60)
 - Bing Webmaster verification: `BING_VERIFICATION_CODE` placeholder in Layout.astro (line ~61)
 - VPS SSH access needed to fix the deploy service (Type=oneshot + no Restart= always)
+
+## Research Run | 2026-04-04 22:46 UTC
+
+### Site Status
+- Homepage: ✅ HTTP 200
+- /roadmap: ✅ 301 → trailing slash  
+- /notes/neet/physics: ✅ 301 → trailing slash
+- News: ✅ 10 items fresh (WAEC Nigeria lead item)
+- Deploy endpoint: ❌ 404 (Astro dev server dead inside container — recurring issue)
+
+### Key Finding: Production/Workspace Sync Issue
+**Workspace code has "125+" everywhere** (Layout default title + description, Organization schema, index.astro title prop).
+**Live production site shows "80+"** in homepage `<title>`, `og:title`, `twitter:title`.
+This means production is running an older build than the workspace. Needs deploy to sync.
+
+### SEO Audit Summary
+- All schemas ✅ (FAQPage, Organization, WebSite+SearchAction, BreadcrumbList, CollectionPage, ItemList on /exams/)
+- OG images ✅ (custom SVG at 2.6KB)
+- Accessibility ✅ (skip nav, focus-visible, aria-labels, WCAG AA)
+- No duplicate schemas ✅
+- News ticker ✅ (10-item rolling, client-side fetched)
+- GSC/Bing: placeholders only — needs real codes from user
+
+### 🟡 Watch Item
+- Deploy service (port 9000) returning 404 — Astro backend dead inside container (same recurring crash issue since Cycle 106)
+- Needs SSH fix: `Type=oneshot` → `Type=simple` + `Restart=no` → `Restart=always`
+- 1 commit queued locally (7f4525d)
+
+### ✅ Completed
+- Build: 3,347 pages ✅ (58.88s)
+- No changes needed — workspace is clean and aligned with production needs
+- Deploy blocked by service outage (needs user SSH fix)

@@ -360,3 +360,37 @@ sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
 - Added FAQPage (3 Qs) to /contact page — completes FAQ coverage on all 8 key pages: home, exams, roadmap, notes, about, feedback, contact, /exams/[exam]
 - Deploy blocked: backend service (port 9000) returning 404 — same recurring crash. User needs to SSH and run: `sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service && sudo sed -i 's/Restart=no/Restart=always/' /etc/systemd/system/studyroadmap-deploy.service && sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy`
 - News: 10 fresh items (India:4, Pakistan:4, Nigeria:2) ✅
+
+## Research Findings — 2026-04-04T21:58 UTC
+
+### 🔴 Critical (fix immediately)
+- None — all major SEO complete
+
+### 🟡 Important (fix this cycle)
+- **Deploy blocked**: Workspace build (3347 pages) has hreflang tags + twitter:app:id meta + "125+" updates — NOT on live site (still running older build with "80+" and no hreflang). Workflow cannot be manually triggered (no workflow_dispatch trigger). Deploy webhook at port 9000 returns "Bad request" (backend alive but request format rejected).
+
+### 🟢 Quick Wins (easy improvements)
+- Git push now works: remote `aegis-news` → `aegisnewsp-rgb/study` ✅ (was previously failing)
+- Site health: homepage 200 ✅, roadmap 301 (trailing slash redirect normal) ✅, notes 200 ✅
+- FAQPage JSON-LD: homepage (15 Qs) ✅, exams (6 Qs) ✅, about (5 Qs) ✅
+- News: 10 fresh items (India:4, Pakistan:4, Nigeria:2) ✅
+- Person Schema: live on /about/ page ✅ (the "placeholder" comment is misleading — schema IS rendered there)
+
+### 📊 Traffic Opportunities
+- hreflang geo-targeting: workspace has en-IN/en-PK/en-NG/x-default — pending deploy
+- Twitter App Card meta: workspace has twitter:app:id:googleplay + appstore — pending deploy
+
+### ✅ Completed This Run
+- Git push: fixed (remote was `aegisnewsp-rgb/study` not `studyroadmap-astro`, but push succeeds)
+- News: refreshed 10 items
+- Build: 3347 pages ✅ (57s)
+- Commit: 661d7dc pushed to aegis-news/main ✅
+
+### ⚠️ Deploy Blocker
+- GitHub workflow at `aegisnewsp-rgb/study` has no `workflow_dispatch` trigger — cannot manually dispatch
+- Deploy webhook (port 9000): HTTP 400 "Bad request" — backend alive but wrong request format
+- **Fix options (user action needed):**
+  1. Add `workflow_dispatch:` trigger to `.github/workflows/deploy.yml` and push
+  2. Add SSH keys / update VPS secrets so gh CLI can SSH-trigger
+  3. Fix deploy webhook format or document correct endpoint usage
+

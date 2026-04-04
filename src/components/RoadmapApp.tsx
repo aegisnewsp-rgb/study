@@ -292,6 +292,7 @@ export default function RoadmapApp({ exams }: Props) {
   const [selectedExam, setSelectedExam] = useState<string>('');
   const [selectedDuration, setSelectedDuration] = useState<string>('');
   const [openSubjects, setOpenSubjects] = useState<Set<string>>(new Set());
+  const [copied, setCopied] = useState(false);
 
   // Pre-populate from URL params (e.g. /roadmap?exam=neet&duration=3mo)
   useEffect(() => {
@@ -475,6 +476,29 @@ export default function RoadmapApp({ exams }: Props) {
                     📚 {roadmap.dailyTopics.length} topics
                   </span>
                 </div>
+                {/* Share button */}
+                <button
+                  onClick={() => {
+                    const shareUrl = `${window.location.origin}${window.location.pathname}?exam=${selectedExam}&duration=${selectedDuration}`;
+                    navigator.clipboard.writeText(shareUrl).then(() => {
+                      setCopied(true);
+                      setTimeout(() => setCopied(false), 2000);
+                    });
+                  }}
+                  className="mt-3 inline-flex items-center gap-1.5 text-xs font-medium px-3 py-1.5 rounded-lg bg-brand-50 dark:bg-brand-900/30 border border-brand-200 dark:border-brand-800 text-brand-600 dark:text-brand-400 hover:bg-brand-100 dark:hover:bg-brand-900/50 transition-colors"
+                >
+                  {copied ? (
+                    <>
+                      <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" /></svg>
+                      Copied!
+                    </>
+                  ) : (
+                    <>
+                      <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" d="M7.217 10.907a2.25 2.25 0 100 2.186m0-2.186c.18.324.43.615.74.937.31.322.673.586.986.748l4.837 3.125a2.25 2.25 0 01.447 1.634v.626a.75.75 0 01-.75.75h-2.5a.75.75 0 01-.75-.75v-1.803a2.083 2.083 0 01-.447-1.27l.795-1.23a1.994 1.994 0 00-.448-2.522l-3.5-2.5a1.994 1.994 0 00-2.522.448l-1.5 1.5a2.25 2.25 0 102.186 2.186m5.25-4.499v5.142m0-5.142l-5.25 4.5-5.25-4.5" /></svg>
+                      Share roadmap
+                    </>
+                  )}
+                </button>
               </div>
             </div>
           </div>

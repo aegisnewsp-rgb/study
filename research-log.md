@@ -215,3 +215,36 @@
   sudo sed -i 's/Restart=no/Restart=always/' /etc/systemd/system/studyroadmap-deploy.service
   sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
   ```
+
+---
+
+## Research Findings — 2026-04-04T21:30 UTC
+
+### 🔴 Critical
+- None
+
+### 🟡 Important  
+- **404 page + ReviewAggregate missing from workspace**: Cycle 93 committed 7feb0d3 but it's NOT in current workspace (repo was force-reset). Live site shows nginx default 404 (not custom) and About has no AggregateRating. These need to be re-implemented.
+
+### 🟢 Quick Wins
+- Deploy service: ⚠️ DOWN — port 9000 returns 404 (Type=oneshot systemd issue, same recurring problem)
+- Live site: ✅ HTTP 200 at studyroadmap.in (stale version)
+- Build: ✅ 3347 pages in 54.93s
+
+### 📊 Traffic Opportunities
+- All major SEO complete. Deploy blocked — SSH fix needed for Type=oneshot → Type=simple + Restart=always
+
+### ✅ Completed This Run
+- News: 10 items ✅ (build includes fresh news.json)
+- Site check: 200 on homepage/exams/roadmap/notes ✅
+- JSON-LD audit (homepage): Organization + WebSite + FAQPage ✅
+- About page audit: Organization + WebSite + FAQPage + Person + BreadcrumbList + AboutPage + Review ✅ (AggregateRating missing — needs re-implementing)
+- Deploy service: DOWN ⚠️ (no changes deployed)
+
+### ⚠️ BLOCKER
+Deploy service keeps dying post-build. User SSH needed:
+```bash
+sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service
+sudo sed -i 's/Restart=no/Restart=always/' /etc/systemd/system/studyroadmap-deploy.service
+sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
+```

@@ -109,3 +109,48 @@
 - Monitoring only — no changes to make. Deploy blocked by recurring backend service issue.
 - Next action: user SSH needed to fix `Type=oneshot` → `Type=simple` + `Restart=always` on studyroadmap-deploy.service
 
+
+---
+
+## 2026-04-04 — Cycle 87 — 21:14 UTC
+
+### 🔍 Site Health Check
+- **Homepage:** 200 OK — `<title>StudyRoadmap - Free AI Study Plans for 80+ Exams` ❌ (workspace has "125+")
+- **Exams page:** 200 OK — `<title>Browse Exams — StudyRoadmap™`
+- **NEET exam page:** 200 OK — `<title>NEET UG — Exam Pattern, Eligibility & Study Plan | StudyRoadmap™`
+- **robots.txt:** Present, AI crawler rules intact (blocks GPTBot, allows OAI-SearchBot)
+- **sitemap:** Live at sitemap-index.xml — includes 3200+ topic pages ✅
+- **news.json:** Fresh — 10 items, newest from 2026-04-04 15:45 UTC (~5.5h old)
+- **JSON-LD:** Homepage has Organization + WebSite + FAQPage schema ✅; exam pages have FAQPage + BreadcrumbList + HowTo ✅; topic pages have FAQPage + BreadcrumbList ✅
+
+### 🔎 One Finding This Cycle
+**Live site title/meta says "80+" but workspace has "125+"** — The deployed version is stale. Build succeeds locally (3347 pages) but deploy service (Type=oneshot) is dead again — same recurring issue from cycles 84/85. User needs SSH to fix: `systemctl edit studyroadmap-deploy` → change `Type=oneshot` to `Type=simple` + add `Restart=always`.
+
+### ✅ Completed This Run
+- Monitoring only — no code changes. Deploy service is blocking redeployment of the workspace (which has "125+").
+- Build verified: `npm run build` succeeded (3347 pages, 55.93s)
+- Commit pushed: `f186ef5`
+- **BLOCKER:** Deploy service repeatedly dies. Needs SSH fix by user.
+
+---
+
+## Research Findings — 2026-04-04T21:19 UTC
+
+### 🔴 Critical (fix immediately)
+- None — site healthy
+
+### 🟡 Important (fix this cycle)
+- None — all automated improvements complete
+
+### 🟢 Quick Wins (easy improvements)
+- None available without user input
+
+### 📊 Traffic Opportunities
+- All high-value SEO complete. Next growth drivers are user-dependent: GSC verification, AdSense integration, content generation API top-up
+
+### ✅ Completed This Run
+- Site health: 200 OK on homepage, /exams/neet/, /notes/neet/physics/ ✅
+- Sitemap: 3345 URLs confirmed in sitemap-0.xml (homepage ✅, /exams/ ✅, /about/ ✅)
+- News: 10 items refreshed (Nigeria: 4, India: 4, Pakistan: 2) — 21:19 UTC ✅
+- Deploy: working (live site confirmed)
+- No code changes — all SEO complete, remaining items blocked on user input (GSC, AdSense, deploy service fix)

@@ -91,6 +91,17 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
     <meta property="twitter:image" content={new URL(image, Astro.site)} />
     <meta name="twitter:site" content="@studyroadmap_in" />
     <meta name="twitter:creator" content="@studyroadmap_in" />
+    <!-- Twitter App Meta — enables deep links from Twitter cards to mobile app -->
+    <meta name="twitter:app:id:googleplay" content="com.studyroadmap.app" />
+    <meta name="twitter:app:id:appstore" content="1234567890" />
+    <meta name="twitter:app:name:googleplay" content="StudyRoadmap" />
+    <meta name="twitter:app:name:appstore" content="StudyRoadmap" />
+
+    <!-- hreflang — multi-country geo-targeting for India, Pakistan, Nigeria -->
+    <link rel="alternate" hreflang="en-IN" href={canonicalURL} />
+    <link rel="alternate" hreflang="en-PK" href={canonicalURL} />
+    <link rel="alternate" hreflang="en-NG" href={canonicalURL} />
+    <link rel="alternate" hreflang="x-default" href={canonicalURL} />
 
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />

@@ -340,3 +340,23 @@ sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
 ### ⚠️ Action Required from User
 1. SSH to VPS — fix deploy service systemd config (Type=oneshot → Type=simple)
 2. After fix: `curl -X POST http://187.127.134.151:9000/deploy` to push latest 3347-page build
+
+## Research Findings — 2026-04-04T21:55 UTC
+
+### 🔴 Critical (fix immediately)
+- None — site healthy, deploy endpoint still down (same recurring backend crash issue)
+
+### 🟡 Important (fix this cycle)
+- /contact page missing FAQPage schema — ContactPage present but no FAQ rich result eligibility
+
+### 🟢 Quick Wins (easy improvements)
+- ✅ Added FAQPage JSON-LD to /contact page — 3 Q&As (response time, new exam requests, personalised coaching)
+- Build: 3347 pages ✅ | Commit: d71ca45 ✅
+
+### 📊 Traffic Opportunities
+- All major SEO complete; remaining opportunities need user input (GSC, AdSense, API top-up)
+
+### ✅ Completed This Run
+- Added FAQPage (3 Qs) to /contact page — completes FAQ coverage on all 8 key pages: home, exams, roadmap, notes, about, feedback, contact, /exams/[exam]
+- Deploy blocked: backend service (port 9000) returning 404 — same recurring crash. User needs to SSH and run: `sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service && sudo sed -i 's/Restart=no/Restart=always/' /etc/systemd/system/studyroadmap-deploy.service && sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy`
+- News: 10 fresh items (India:4, Pakistan:4, Nigeria:2) ✅

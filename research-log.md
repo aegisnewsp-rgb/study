@@ -906,3 +906,53 @@ This will pull latest from GitHub and rebuild, fixing the "80+" → "125+" live 
 - Added HowTo JSON-LD to homepage (HowToStep: Select exam, Pick time, Get roadmap)
 - Built 3347 pages ✅
 - Committed: `da88542`
+
+## Research Run — 2026-04-04 23:39 UTC
+
+### Site Status
+- Homepage: 200 ✅ | Exams: 200 ✅ | Notes: 200 ✅ | News: 10 items ✅
+- Homepage meta: "80+" in title/desc (workspace has "125+" — possible stale build on live vs workspace)
+- OG image: Homepage and Exams pages using `og-image.svg` (should be `og-image.jpg`)
+
+### 🔴 Critical
+- None
+
+### 🟡 Important
+- OG image fallback still `og-image.svg` in Layout.astro while `og-image.jpg` (branded, 221KB) exists — fixed
+
+### 🟢 Quick Wins
+- **Fixed**: Layout.astro default `image` prop: `/og-image.svg` → `/og-image.jpg`
+- **Fixed**: Organization schema `logo.url`: `og-image.svg` → `og-image.jpg`
+- Both changes now point social shares and Organization schema to the proper branded JPG
+
+### 📊 Traffic Opportunities
+- Deploy service down again (Type=oneshot crash — needs user SSH fix)
+- All 27 prior commits still pushed to GitHub origin
+
+### ✅ Completed This Run
+- Fixed 2 OG image references in Layout.astro → branded jpg
+- Build: 3347 pages ✅
+- Commit: 187f0c9 ✅
+- Deploy: ❌ BLOCKED — backend down, user SSH fix needed
+
+## Research Findings — 2026-04-04T23:44 UTC
+
+### 🔴 Critical (fix immediately)
+- Deploy service still dying post-deploy — `Type=oneshot` + `Restart=no` confirmed; user SSH fix still pending
+
+### 🟡 Important (fix this cycle)
+- All major SEO complete; remaining items need user input (GSC, AdSense)
+
+### 🟢 Quick Wins (easy improvements)
+- News refreshed: 10 items ✅ (India:4, Pakistan:4, Nigeria:4)
+- Site health: homepage 200 ✅, roadmap 200 ✅, exams 200 ✅, notes 200 ✅
+
+### 📊 Traffic Opportunities
+- Exam pages (123 total): all 200 OK, schema confirmed
+- Deploy blocked — commits queue locally until user fixes VPS backend
+
+### ✅ Completed This Run
+- News fetch: 10 fresh items saved to public/news.json
+- Site audit: all key pages healthy
+- Deploy: service down (same recurring issue, pending user fix)
+

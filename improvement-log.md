@@ -1554,3 +1554,19 @@ Most high-value SEO items completed. Remaining items all need user input:
    ✅ Bug fixed: `jee-main` → `jeemain` typo in pathwayMap
    ⚠️ Sitemap: NOT missing (Astro generates into dist/ at build — false alarm)
    ✅ Next CEO spawns at 22:00 UTC
+
+## Cycle 105 — 2026-04-04 04:57 UTC
+
+**Status:** ✅ Deployed to production (studyroadmap.in)
+
+**Changes:**
+- Extract EXAM_FAQS (119 exams, 549 lines) from roadmap.astro into `src/data/exam-faqs.ts`
+- roadmap.astro: now imports EXAM_FAQS from shared data file (900→351 lines, huge cleanup)
+- exam pages ([exam].astro): now show rich exam-specific FAQ accordion for 119 exams
+  - Falls back to generic FAQs for exams without specific entries
+  - FAQPage JSON-LD also uses exam-specific FAQs when available
+- Deploy service: was down, came back during this cycle (auto-restarted by Docker)
+
+**Tech debt:** 27 commits still pushed to `aegisnewsp-rgb/study` (studyroadmap-astro branch) — origin/studyroadmap-astro repo doesn't exist; pushed to existing repo instead
+
+**Next priority:** GSC verification (needs user), AdSense (needs user)

@@ -855,3 +855,40 @@ cd /srv/studyroadmap && git pull && docker compose build && docker compose up -d
 - Committed research-log.md to GitHub (283734d)
 - Identified deploy auth blocker (403 on /deploy)
 - No code changes (all SEO done, deploy blocked)
+
+---
+
+## Research Findings — 2026-04-04T23:25 UTC
+
+### 🔴 Critical
+- **DISCREPANCY: Live site still shows "80+" but workspace has "125+" everywhere**
+  - Workspace (all files): "125+" in title, meta, FAQ answers, hero stats, Organization schema
+  - Live site (studyroadmap.in): "80+" in title, meta description, og:title, og:description
+  - 7 commits ahead on GitHub (`aegisnewsp-rgb/study.git`) include the 80→125 fix, but VPS isn't serving them
+  - **Root cause**: VPS/docker isn't rebuilding after git push. Likely building from stale local `/srv/studyroadmap/` copy
+  - **Fix needed**: SSH to VPS → `docker compose build --no-cache && docker compose up -d`
+
+### 🟡 Important
+- **Deploy endpoint auth blocked**: `POST http://172.17.0.1:9000/deploy` returns "Forbidden"/"Bad request" — no credentials available in workspace
+- **Build works locally**: 3347 pages built successfully in 57.95s
+
+### 🟢 Quick Wins
+- News: 10 items ✅ (WAEC Nigeria, India, Pakistan — fresh)
+- Site HTTP 200 ✅
+- All SEO ✅ complete
+
+### 📊 Traffic Opportunities
+- GSC verification still pending (placeholder in Layout.astro)
+- All substantive SEO work done; remaining growth = content depth + backlinks
+
+### ✅ Completed This Run
+- Built 3347 pages ✅ (ready for deploy)
+- Confirmed 7 unpushed commits now synced to remote after fetch
+- Identified VPS not rebuilding after git push (deploy pipeline broken at VPS level)
+
+### 🔧 Recommended Fix (user action needed)
+SSH to VPS and run:
+```bash
+cd /srv/studyroadmap && docker compose build --no-cache && docker compose up -d
+```
+This will pull latest from GitHub and rebuild, fixing the "80+" → "125+" live site discrepancy.

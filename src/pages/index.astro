@@ -131,9 +131,26 @@ const FAQS = [
     answer: 'Yes — with a small adjustment. The core subjects (Physics, Chemistry, Biology/Mathematics, English) are largely the same across boards. The main differences are in specific topics, depth of questions, and question weightage. Our roadmap algorithm uses exam-specific weightage rather than board-specific weightage, so CBSE, ICSE, and state board students all follow the same exam-focused priority order. Where board-specific content differs significantly, the roadmap notes indicate the relevant topics for your exam.',
   },
 ];
+const howToSteps = [
+  {
+    name: 'Select your exam',
+    text: 'Choose from 125+ competitive exams across India, Pakistan, Nigeria, and 19 other countries — NEET, JEE, UPSC, MDCAT, JAMB, and many more.',
+  },
+  {
+    name: 'Pick your available time',
+    text: 'Set how many hours per day and how many months you have until your exam. The algorithm adapts your study plan to your exact timeline.',
+  },
+  {
+    name: 'Get your personalised roadmap instantly',
+    text: 'Receive a prioritised study plan based on official exam syllabus weightings. High-frequency topics come first — so you always study what matters most.',
+  },
+];
+
+
 ---
 
-<Layout title="StudyRoadmap - Free AI Study Plans for 125+ Exams" description="Instant personalised study roadmaps for NEET, JEE, UPSC, MDCAT, JAMB and 125+ competitive exams. Free, no signup, instant results." faqs={FAQS}>
+
+<Layout title="StudyRoadmap - Free AI Study Plans for 125+ Exams" description="Instant personalised study roadmaps for NEET, JEE, UPSC, MDCAT, JAMB and 125+ competitive exams. Free, no signup, instant results." faqs={FAQS} howToSteps={howToSteps}>
   <Navbar />
 
   <main id="main-content" class="flex-1">

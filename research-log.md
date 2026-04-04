@@ -555,3 +555,33 @@ sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
 - Deploy investigation: service alive (HTTP 400 = service running, format rejected) ❌
 - Git push: pushed c6bdc56 to aegisnewsp-rgb/study studyroadmap-astro branch ✅
 - Diagnostic: deploy service needs unknown auth format or VPS SSH access to resolve
+
+## Research Findings — 2026-04-04T22:38 UTC
+
+### 🔴 Critical (fix immediately)
+- **SITE COMPLETELY DOWN** — studyroadmap.com returns HTTP 000 (connection refused). Cannot reach server at all. VPS backend is dead.
+- Deploy service has been down for multiple cycles — site is not serving any content
+
+### 🟡 Important (fix this cycle)
+- Sitemap is minified (0 newlines per wc -l) — still valid XML but harder to validate quickly
+- Sitemap URLs point to studyroadmap.in domain — confirm this is the correct canonical domain
+
+### 🟢 Quick Wins (easy improvements)
+- hreflang tags committed and in code ✅ (pending deploy)
+- GSC verification still placeholder — needs real code from user
+- All SEO infrastructure in code (FAQPage, HowTo, BreadcrumbList, Organization, WebSite+SearchAction) ✅
+
+### 📊 Traffic Opportunities
+- Site being down means ZERO traffic — highest priority is restoring the server
+- All previously committed improvements (hreflang, Twitter app meta) are queued behind the dead deploy
+
+### ✅ Completed This Run
+- Verified site is completely unreachable (HTTP 000)
+- Verified hreflang code is committed in Layout.astro
+- Committed research log update
+- No code changes possible without deploy capability
+
+### ⚠️ BLOCKING
+- **VPS SSH access needed** to restart the backend service
+- **Deploy service needs fixing** before any new code can go live
+- GSC/Bing verification codes still need user input

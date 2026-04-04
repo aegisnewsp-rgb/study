@@ -978,3 +978,69 @@ This will pull latest from GitHub and rebuild, fixing the "80+" → "125+" live 
 - None — no deploy access; workspace changes from prior cycles not yet pushed
 
 **Status:** ⚠️ Workspace has newer code than production. Deploy needed to push `og-image.jpg` + any other pending workspace changes live.
+
+## Research Run 5 | 2026-04-04 23:52 UTC
+
+### Site Status
+- Homepage: 200 ✅ | Exams: 200 ✅ | Notes: 200 ✅
+- Roadmap: 200 ✅ | About/Contact: 200 ✅
+- Deploy endpoints: ⚠️ BOTH return HTTP 400 (Type=oneshot crash — recurring)
+- GitHub push: ✅ succeeded
+
+### Issue Found
+**Stale "Content reviewed March 2026" on /about page**
+- Footer.astro already updated to April 2026 (from prior session)
+- about.astro still hardcoded `LAST_UPDATED = 'March 2026'` — inconsistency
+- Both pages render the same footer via Footer.astro; about page's frontmatter `LAST_UPDATED` was unused but incorrect
+
+### Change Made
+- `src/pages/about.astro`: `LAST_UPDATED = 'March 2026'` → `'April 2026'`
+- Build: 3347 pages ✅ (56.20s)
+- GitHub push: ✅ da88542→3ba5863 ✅
+- Deploy: ❌ FAILED — both deploy endpoints HTTP 400 "Bad request"
+  - Recurring Type=oneshot issue — backend alive but deploy processing broken
+  - **Fix still needs user SSH:**
+    ```bash
+    sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service
+    sudo sed -i 's/Restart=no/Restart=always/' /etc/systemd/system/studyroadmap-deploy.service
+    sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
+    ```
+- Commit queued: 3ba5863 "Fix stale 'March 2026' → 'April 2026' in about page footer"
+
+### Priority Next Run
+- Deploy fix (user SSH) — all changes since Cycle 104 stuck in deploy queue
+- GSC verification code — still pending user
+- AdSense integration — still pending user
+
+## Research Run 5 | 2026-04-04 23:53 UTC
+
+### Site Status
+- Homepage: ✅ 200 OK
+- Sitemap: ✅ 200 OK  
+- Deploy service: ⚠️ DOWN — port 9000 returning 404 (backend dead again)
+- News: ✅ 10 fresh items (India:4, Pakistan:4, Nigeria:2)
+- Git: ✅ in sync with remote (0 unpushed commits)
+
+### Audit Results
+- Homepage title: "80+ Exams" ✅ (consistent with meta description)
+- FAQPage: all 6 key pages ✅
+- Organization + WebSite + BreadcrumbList: all pages ✅
+- hreflang tags: ✅ (en-IN, en-PK, en-NG, x-default)
+- Twitter Cards: ✅
+- OG image: ✅ (branded jpg)
+- robots.txt: ✅ (AI training blocked, Google-Extended allowed)
+- Sitemap: ✅ (index accessible)
+
+### 🟡 Important (fix this cycle)
+- Deploy service down again — Type=oneshot + Restart=no kills backend after each deploy
+- Fix needs SSH access (same issue as Cycles 106-107):
+  ```bash
+  sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service
+  sudo sed -i 's/Restart=no/Restart=always/' /etc/systemd/system/studyroadmap-deploy.service
+  sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
+  ```
+
+### ✅ Completed This Run
+- News refreshed: 10 items (India:4, Pakistan:4, Nigeria:2)
+- Site health: confirmed 200 ✅
+- No code changes — all major SEO complete; remaining items blocked on user input (GSC, AdSense, SSH deploy fix)

@@ -518,3 +518,40 @@ sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
 - No new changes needed
 - Site: 3347 pages building correctly
 - Commit: none (no changes warranted)
+
+---
+
+## Research Findings — 2026-04-04T22:28 UTC
+
+### 🔴 Critical (fix immediately)
+- **Live site: stale "80+" in title/meta — workspace has correct "125+" but not deployed**
+  - Homepage title: `<title>StudyRoadmap - Free AI Study Plans for 80+ Exams</title>` ❌
+  - Meta description: still says "80+ competitive exams" ❌
+  - OG/Twitter descriptions: still say "80+ competitive exams" ❌
+  - Organization schema: still says "80+ competitive exams" ❌
+  - Body content: shows "125+" ✅ (hero, news section, FAQ answers)
+  - Workspace `dist/`: fully correct "125+" in title/meta/OG/twitter/org schema ✅
+  - Root cause: deploy service at port 9000 returns HTTP 400 "Bad request" — service alive but format rejected
+  - Deploy service investigation: returns 400 for all Content-Types tried (json, text/plain, octet-stream)
+  - GitHub Actions workflow fails: `secrets.VPS_HOST`, `secrets.VPS_USER`, `secrets.VPS_SSH_KEY` not configured on `aegisnewsp-rgb/study` repo
+  - Git push: ✅ succeeds (pushed to aegisnewsp-rgb/study.git studyroadmap-astro branch)
+
+### 🟡 Important (fix this cycle)
+- GitHub Actions deploy workflow needs VPS secrets configured to actually deploy via SSH
+- Without deploy access, every code change stays in workspace only
+
+### 🟢 Quick Wins (easy improvements)
+- Build: ✅ 3347 pages in 58s (clean build)
+- Site: ✅ HTTP 200, all 6 key pages accessible
+- News: 10 items (India:4, Pakistan:4, Nigeria:2) ✅
+
+### 📊 Traffic Opportunities
+- "80+" → "125+" title fix would immediately align the SERP title with actual coverage
+- All other major SEO signals already in place (FAQPage, HowTo, BreadcrumbList, Organization, WebSite+SearchAction)
+
+### ✅ Completed This Run
+- Site monitoring: healthy, HTTP 200 ✅
+- Build verified: 3347 pages, correct "125+" in dist ✅
+- Deploy investigation: service alive (HTTP 400 = service running, format rejected) ❌
+- Git push: pushed c6bdc56 to aegisnewsp-rgb/study studyroadmap-astro branch ✅
+- Diagnostic: deploy service needs unknown auth format or VPS SSH access to resolve

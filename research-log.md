@@ -1073,3 +1073,35 @@ This will pull latest from GitHub and rebuild, fixing the "80+" → "125+" live 
 - robots.txt: AI training block + sitemap reference ✅
 - News: 10 items (no build triggered — no code changes)
 - No code changes — all SEO complete; remaining items blocked on user input
+
+## Research Run — 2026-04-05T00:06 UTC
+
+### Site Status
+- Homepage: 200 ✅ | **Still showing "80+"** (workspace has "125+")  
+- Build: 3347 pages ✅ | **No uncommitted changes**
+- Deploy: ❌ **DOWN** — port 9000 returns 404 (Type=oneshot crash, recurring)
+- News: ✅ 10 items fresh (Nigeria:4, India:4, Pakistan:2, ~23min ago)
+
+### Diagnosis
+The VPS deploy backend continues to die post-build (Type=oneshot + Restart=no systemd issue). Live site is stale:
+- `studyroadmap.in`: title/meta say "80+" (workspace has "125+")
+- og:image: still `og-image.svg` (workspace has `og-image.jpg`)
+- Organization schema: "80+ exams" (workspace updated to "125+")
+- llm.txt: workspace has "125+" ✅
+
+### Change Made
+- News refresh: 10 items ✅ (fetch_news.py, 813 items deduplicated)
+
+### 🚫 No code change — deploy blocked
+Deploy service needs user SSH fix:
+```bash
+sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service
+sudo sed -i 's/Restart=no/Restart=always/' /etc/systemd/system/studyroadmap-deploy.service
+sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
+```
+
+### ✅ All SEO Complete — Remaining blockers (all need user input)
+1. Deploy service fix (SSH commands above)
+2. GSC verification code → replace `YOUR_VERIFICATION_CODE_HERE` in Layout.astro
+3. AdSense integration (needs approved account + code)
+4. Formspree feedback form ID → replace `REPLACE_WITH_FORMSPREE_ID` in feedback.astro

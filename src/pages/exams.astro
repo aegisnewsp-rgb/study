@@ -25,7 +25,7 @@ const examItemList = {
     '@type': 'ListItem',
     position: i + 1,
     name: exam.examName || exam.examId,
-    url: `${SITE_URL}/exams/${exam.examId}`,
+    url: `${SITE_URL}/exams/${exam.examId}/`,
     description: exam.description ? cleanText(exam.description).slice(0, 160) : undefined,
   })),
 };

@@ -2469,3 +2469,19 @@ sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
 2. **GitHub repo access** — `aegisnewsp-rgb/studyroadmap-astro` not accessible; 28+ commits stuck locally
 3. **GSC verification code** — placeholder in Layout.astro
 4. **Bing verification code** — placeholder in Layout.astro
+
+## 2026-04-05 04:06 UTC — Cycle 108
+
+**FINDING:** Critical sitemap bug — all 124 individual exam hub pages (`/exams/neet`, `/exams/jeemain`, etc.) were BUILT to `dist/exams/` but completely missing from `sitemap-0.xml`. `@astrojs/sitemap` integration failed to pick up the dynamic `/exams/[exam]` routes despite them using `getStaticPaths`.
+
+**IMPACT:** HIGH — These are high-value landing pages for SEO (exam-specific queries). Google had no way to discover them via sitemap. Would rely solely on internal linking.
+
+**FIX APPLIED:**
+1. Created `scripts/fix-sitemap.cjs` — reads `dist/exams/` directories, injects `<url>` entries for each exam page into `sitemap-0.xml`
+2. Added `"postbuild": "node scripts/fix-sitemap.cjs"` to `package.json` so it runs automatically after every build
+3. Verified: 124 exam pages now in sitemap
+
+**BUILD STATUS:** ✅ 3349 pages, postbuild runs automatically
+**SITE STATUS:** Build succeeds, deploy server needs manual sync
+**COMMIT:** 05f9abd
+

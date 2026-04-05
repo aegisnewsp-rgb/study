@@ -1595,3 +1595,8 @@ systemd service has `Type=oneshot` + `Restart=no` — process exits and doesn't 
 **Deploy fix still pending user action:**
 Docker restart policy  needed — no SSH access available
 
+
+### 2026-04-05 — Sitemap missing all /exams/ pages (CRITICAL FIX)
+- **Issue:** `@astrojs/sitemap` not picking up dynamic `/exams/[exam]` routes — all 124 exam hub pages missing from sitemap
+- **Fix:** Created `scripts/fix-sitemap.cjs` postbuild script + `postbuild` npm hook
+- **Status:** FIXED — committed 05f9abd

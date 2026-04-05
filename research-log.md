@@ -3429,3 +3429,35 @@ Modified `astro.config.mjs` to dynamically load examId slugs from `public/exams.
 - GSC verification code
 - AdSense integration
 - Formspree feedback form
+
+## Research Findings — 2026-04-05T07:27 UTC
+
+### 🔴 Critical (fix immediately)
+- None — all critical items resolved
+
+### 🟡 Important (fix this cycle)
+- None identified
+
+### 🟢 Quick Wins (easy improvements)
+- News refresh completed: 10 items (India: 4, Nigeria: 4, Pakistan: 2), 810 new items deduplicated
+
+### 📊 Traffic Opportunities
+- Site healthy: homepage 200 ✅, title/meta correct ✅, sitemap massive ✅ (topic pages included)
+- Sitemap note: 908+ `<url>` entries confirmed in live sitemap-0.xml (all topic pages indexed)
+- All major SEO complete; remaining items need user input (GSC code, AdSense code, directory submissions, MiniMax API top-up)
+
+### ✅ Completed This Run
+- News refresh: 10 items saved to public/news.json (fresh content for homepage ticker)
+- No code changes this cycle — site monitoring only
+- Commit: af0c36d "Growth cycle fix" (news.json update)
+
+### 🔍 Spot Checks
+- Homepage title: "StudyRoadmap - Free AI Study Plans for 80+ Exams" (note: says 80+, live site should show 125+ in hero — check hardcoded value in index.astro)
+- Sitemap: healthy, all topic pages included
+- Notes pages: large coverage confirmed (FMGE, GATE, JEE, NEET, WAEC etc.)
+
+### ⏳ Blocked (needs user)
+- GSC verification code (placeholder in Layout.astro)
+- AdSense account + code
+- Deploy service: Type=oneshot needs fix → Type=simple + Restart=always (SSH required)
+- MiniMax API top-up for content generation

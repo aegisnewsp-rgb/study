@@ -1,5 +1,34 @@
 # Research Log — StudyRoadmap Growth Research
 
+## Research Run 19 | 2026-04-05 10:16 UTC
+
+### Site Status
+- Homepage: **200 ✅** | /exams/: **200 ✅** | /roadmap/: **200 ✅**
+- Sitemap: exam pages confirmed included ✅ (neet, gre, uaeu-cat etc. all present)
+- Deploy endpoint (172.17.0.1:9000): **404** — deploy service still broken (Type=oneshot)
+- News: 10 items ✅ (India: 4, Nigeria: 4, Pakistan: 2)
+
+### Key Observation: Domain Migration Pending
+- Workspace commit 8905a4a: `studyroadmap.in` → `studyroadmap.com` in Layout.astro
+- studyroadmap.com: **not yet live** (connection refused)
+- Live site still at studyroadmap.in — sitemap serves .in URLs correctly
+- Deploy needed to push .com migration to production (blocked until deploy svc fixed)
+
+### Quick Audit (3 pages)
+- /roadmap/ → 301 → /roadmap/ (trailing slash, normal Astro behavior) ✅
+- /exams/neet → 301 → /exams/neet/ ✅  
+- /notes/: 200 ✅
+
+### ✅ Completed This Run
+- News refresh: 10 items (India: 4, Nigeria: 4, Pakistan: 2) ✅
+- Commit: 30bccd2
+
+### 🟡 Blocked
+- Deploy service (Type=oneshot) — user needs SSH fix (documented repeatedly in backlog)
+- Domain migration (.in → .com) — deploy needed to go live
+
+---
+
 ## Research Run 18 | 2026-04-05 09:48 UTC
 
 ### Site Status

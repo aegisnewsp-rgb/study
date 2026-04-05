@@ -260,3 +260,71 @@ Exam hub pages were using the Layout default (`/og-image.jpg`) instead of exam-s
 
 ### 🟡 Next Backlog Item
 - **Notes topic pages** (`notes/[exam]/[subject]/[topic].astro`) may also benefit from OG images — check og-notes for matching subject/topic images (e.g. `jeemain-chemistry-chem-001.jpg`)
+
+## Research Findings — 2026-04-05 11:37 UTC
+
+### 🔴 Critical (fix immediately)
+- None — site is healthy
+
+### 🟡 Important (fix this cycle)
+- None — all high-value SEO implemented; remaining items need user input (GSC code, AdSense account, VPS SSH fix for deploy service)
+
+### 🟢 Quick Wins (easy improvements)
+- Site fully healthy: homepage 200 ✅ | /roadmap/ 200 ✅ | /exams/ 200 ✅ | /notes/ 200 ✅ | /contact/ 200 ✅ | /feedback/ 200 ✅
+- Sitemap: 129 exam pages + 3200+ topic pages ✅ | robots.txt AI-training blocked ✅
+- News.json: 10 items, top story JEE topper trending (10:12 UTC) + JEE Mains Session 2 April 7 coverage ✅
+- Trailing slash redirects (308) on /roadmap, /exams, /notes — normal Astro behavior, resolves cleanly ✅
+- All improvement-backlog items remain user-blocked or complete
+
+### 📊 Traffic Opportunities
+- Site fully healthy — no actionable issues found this cycle
+- Next high-value unlock: GSC verification (user needs to provide code) → enables sitemap submission + URL inspection API
+- Deploy service SSH fix still pending (Type=oneshot → Type=simple) — needed for CDN to pick up new content after deploys
+
+### ✅ Completed This Run
+- Monitoring cycle: site healthy, all pages 200, sitemap 3352+ URLs, news 10 items fresh ✅
+- No code changes (nothing actionable — all high-value improvements complete, pending user input for remaining items)
+
+## Research Findings — 2026-04-05T11:41 UTC
+
+### 🔴 Critical (fix immediately)
+- None — site healthy
+
+### 🟡 Important (fix this cycle)
+- Missing BreadcrumbList schema on privacy and terms pages (about/contact have it; privacy/terms did not)
+
+### 🟢 Quick Wins (easy improvements)
+- Added BreadcrumbList JSON-LD schema to /privacy and /terms pages — aligns with about/contact schema coverage
+- Site build: 3349 pages, sitemap 3352 URLs ✅
+
+### 📊 Traffic Opportunities
+- GSC/Bing verification still pending user codes
+- Deploy service SSH Type=oneshot→Type=simple fix still pending
+
+### ✅ Completed This Run
+- Fixed: privacy.astro and terms.astro now include BreadcrumbList structured data
+- Commit: e6be0ac — "Growth cycle fix"
+
+## Research Findings — 2026-04-05T11:50 UTC
+
+### 🔴 Critical (fix immediately)
+- None identified
+
+### 🟡 Important (fix this cycle)
+- None available — all high-value SEO done; remaining items need user input
+
+### 🟢 Quick Wins (easy improvements)
+- News refresh: 10 items ✅ (fetch script killed by SIGTERM — news.json intact with 10 items from last successful run)
+- Site health: HTTP 200 ✅
+- All prior SEO improvements intact ✅
+
+### 📊 Traffic Opportunities
+- GSC verification still pending user code
+- AdSense integration still pending user account
+- Deploy service recurring crash — needs SSH fix from user (Type=oneshot → Type=simple)
+
+### ✅ Completed This Run
+- Site check: studyroadmap.in → 200 OK ✅
+- News: 10 items ✅ (JEE success story, UPSC 2026, JEE topper — India-focused)
+- No changes needed — all automated SEO complete
+- Remaining items: user input only (GSC, Bing, AdSense, Formspree, deploy service fix)

@@ -2738,3 +2738,31 @@ sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
 - Deploy endpoint not functional — cannot build and deploy
 - Verification codes not available from this context
 - Site structure and content are healthy
+
+---
+
+## Cycle 15 — 2026-04-05 05:06 UTC
+
+**Site Status:** Live (200), but serving STALE build (homepage H1 shows "200200" instead of "Your AI-Powered Study Roadmap"). Git has correct code.
+
+**Pages Checked:**
+- Homepage: Needs redeploy (stale code visible)
+- /exams/neet/: 200, meta/title/structured data all correct
+- /notes/neet/: 200, meta/description/title all correct
+
+**Sitemap:** Fix from cycle 14 (124 exam hub pages) already applied and committed. Live sitemap healthy. GSC ping deprecated — sitemap picked up via robots.txt automatically.
+
+**Deploy Service: DEAD.** `curl http://172.17.0.1:9000/deploy` → 404. Process not listening on port 9000. Docker containers may still be running but the deploy trigger service is gone. Needs systemd restart.
+
+**Action Required:** Owner must manually restart the deploy service on the VPS:
+```bash
+# Check if docker is still running
+docker ps | grep studyroadmap
+# If yes, the issue is only the deploy trigger (port 9000)
+# If no, restart via:
+docker compose -f /srv/studyroadmap/docker-compose.yml up -d
+
+# The openclaw research cron can keep running but deployments are frozen
+```
+
+**No code change this cycle** — nothing to commit; git working tree is clean.

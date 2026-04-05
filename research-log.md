@@ -3489,3 +3489,13 @@ Modified `astro.config.mjs` to dynamically load examId slugs from `public/exams.
 - AdSense account + code
 - Deploy service: Type=oneshot needs fix → Type=simple + Restart=always (SSH required)
 - MiniMax API top-up for content generation
+
+## 2026-04-05 07:33 UTC — Growth Cycle
+**Pages checked:** Homepage (index), exams/[exam].astro (dynamic hub), notes/[exam]/[subject]/[topic].astro
+**Status:** ✅ All core SEO elements confirmed present:
+- Homepage: title, meta description, OG tags, FAQ schema, WebSite+SearchAction schema
+- Exam hub pages: dynamic meta via getStaticPaths, FAQPage schema, full OG tags
+- Notes topic pages: per-note FAQ schema, dynamic title/description from frontmatter
+**Sitemap:** ✅ dist/sitemap-0.xml contains 3200+ notes URLs + 127 exam hub pages (confirmed: neet, jeemain, gre, ast, sathe, uaeu-cat all present). Script fix-sitemap.cjs confirmed working — reports "All 127 exam pages already in sitemap"
+**Deploy blocker:** studyroadmap-deploy.service uses Type=oneshot with remainAfterExit=true but systemd still considers it inactive after exec. Fix requires elevated: `openclaw agents run --host b6150371a820 --elevated` or manual `sudo systemctl restart studyroadmap-deploy`
+**No changes made:** Everything committed. Awaiting deploy service fix.

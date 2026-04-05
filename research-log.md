@@ -808,3 +808,24 @@ Exam hub pages were using the Layout default (`/og-image.jpg`) instead of exam-s
 - **Improvement identified:** None — site is fully healthy, all critical items addressed
 - **Action taken:** None — no regressions found, no pending fixes within scope
 - **Backlog status:** All actionable items complete; remaining items require user input (GSC/Bing verification codes, new exam additions)
+
+## Research Findings — 2026-04-05T17:04 UTC
+
+### 🔴 Critical (fix immediately)
+- **Build FAILING — YAML frontmatter errors in 3+ generated notes files**: `diagramPrompt` frontmatter fields were unquoted strings containing colons (e.g., `Brand A: 32%`, `isolating the variable: subtract 7`, `sequence 3, 7, 11, 15, 19`). YAML interprets `: ` as a new key-value delimiter, causing `bad indentation of a mapping entry` errors. Build was failing.
+
+### 🟡 Important (fix this cycle)
+- Fixed 3 specific files by quoting the `diagramPrompt` values: `mat/data-analysis/data-a-003.md`, `uii/subject-knowledge/subjec-002.md`, `uii/subject-knowledge/subjec-015.md`
+- Root cause: Auto-generated content has colons in prose descriptions that aren't quoted in YAML frontmatter
+
+### 🟢 Quick Wins (easy improvements)
+- Add YAML-frontmatter validation to the content generation script to prevent future occurrences
+
+### 📊 Traffic Opportunities
+- (No new opportunities identified — monitoring mode)
+
+### ✅ Completed This Run
+- Fixed YAML frontmatter parse errors causing build failure (3 files directly fixed, 16 total files committed)
+- Build now passes: 3352 pages built successfully
+- Committed: `7208cef — Fix YAML frontmatter errors in generated notes files`
+

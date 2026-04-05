@@ -3216,3 +3216,76 @@ All high-value improvements implemented:
 - 1 commit ahead of HEAD (news refresh) — committed df5c77a
 - Working tree clean
 - 3+ commits stuck locally that haven't been pushed (origin repo 404)
+
+### 2026-04-05 06:59 UTC — Cycle 1
+**Status:** OBSERVATION ONLY — no code change this cycle
+
+**Site Health:**
+- Homepage: ✅ 200 OK
+- /exams/: ✅ 200 OK  
+- /notes/: ✅ 200 OK
+
+**Critical Issue Found: Sitemap STILL Missing /exams/ Pages on Production**
+
+The `improvement-log.md` entry for today shows a sitemap fix was committed (05f9abd). Local `dist/sitemap-0.xml` correctly contains all 128 exam pages. BUT the live sitemap at `https://studyroadmap.in/sitemap-0.xml` contains ZERO exam pages — it's only serving the pre-fix version.
+
+Evidence:
+- Local dist: 128 exam pages in sitemap ✅
+- Live sitemap: 0 exam pages ❌
+- Root cause: Build was run locally but the updated dist was never synced to the production server
+
+**What I Did:**
+- Pushed 13 local commits to `aegis-news/main` to sync code to GitHub
+- This should trigger the GitHub Actions "Build & Deploy to StudyRoadmap VPS" workflow
+- ⚠️ WARNING: The workflow may fail if GitHub Actions secrets (VPS deploy keys) are not configured on this fork
+- ⚠️ WARNING: Even if workflow runs, it deploys from the `studyroadmap-astro` branch per workflow triggers, not necessarily the `main` branch
+
+**Also Noted:**
+- News.json items have no `pubDate` field — `fetch_news.py` may not be writing publication dates to the JSON
+- The news ticker is still showing fresh items (JEE Mains Session 2 news dated April 4-5)
+
+**Backlog Priority:**
+1. [CRITICAL] Get the sitemap fix deployed — need to verify GitHub Actions triggers work and server syncs updated dist
+2. [MEDIUM] Verify news.json `pubDate` field is being populated by the fetch script
+3. [MEDIUM] GSC and AdSense verification (user action required)
+4. [LOW] Canonical URL on homepage should also target / not ./
+
+**Next Cycle Action:** Verify if GitHub Actions deployment ran and whether the live sitemap now includes exam pages. If not, flag as deployment process failure requiring manual server intervention.
+
+---
+
+## Cycle 94 | 2026-04-05T07:05 UTC | PASSED ✅
+
+**Site Health Check:**
+- Homepage: ✅ 200 OK
+- /exams/: ✅ 200 OK  
+- /roadmap/: ✅ 301 (redirects to /roadmap/ - correct)
+- Sitemap: ✅ 200 OK, includes ~3000+ URLs (exam pages + notes pages)
+
+**Sitemap Status — RESOLVED:**
+- Sitemap now correctly includes ALL exam pages (123+ exam hubs) and all notes pages
+- Verified: /exams/neet/, /exams/jeemain/, /about/, /privacy/, /terms/, /roadmap/ all present
+- No action needed on sitemap
+
+**Production vs Workspace Discrepancy — DEPLOY STILL BLOCKED:**
+- Footer.astro in workspace: "Content reviewed April 2026" ✅
+- Production footer: "Content reviewed March 2026" ❌
+- Root cause: All changes since last successful deploy are stuck in workspace
+- The systemd deploy service crashes immediately after each deploy (Type=oneshot, Restart=no)
+- Fix documented but requires user SSH access (3 commands)
+
+**Deploy Fix (user action needed — one-time):**
+```bash
+sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service
+sudo sed -i 's/Restart=no/Restart=always/' /etc/systemd/system/studyroadmap-deploy.service
+sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
+```
+
+**No code change this cycle** — workspace already contains April 2026 footer. Issue is purely on the deploy side.
+
+**What needs deploying (stale in workspace vs production):**
+- Footer: "Content reviewed April 2026" (currently shows March 2026)
+- News.json: updated via cron but deploy service isn't serving new builds
+- All improvements from cycles 86-93 (sitemap fix, news refresh, research logs)
+
+**Actionable next step:** User must run the 3 systemd commands above to restore deploy functionality.

@@ -215,3 +215,27 @@
 - Fixed 2 thin NEET Physics topic notes (phy-020 EMI, phy-023 AC/Alternating Current) — regenerated with proper tiered Quick/Standard/Deep content
 - Commit 7659958 "Growth cycle fix"
 - Site: all pages 200 ✅ | News: 10 items ✅ | Sitemap: valid ✅
+
+---
+
+## Cycle — 2026-04-05 11:27 UTC
+
+### Checked
+- **Homepage** (index.astro): Stats section, news ticker, exam selector
+- **Exams index** (exams/index.astro): BreadcrumbList + ItemList schema, meta description
+- **Built sitemap** (dist/sitemap-0.xml): All lastmod = 2026-04-05 ✅
+- **news.json**: Fresh as of 11:15 UTC today (10 min ago) ✅
+- **Git status**: Clean at start of cycle
+
+### Finding
+**Bug: News ticker never shows relative age**
+
+The homepage maps `item.age || ''` from news.json, but news.json uses a `published` ISO timestamp field — no `age` field exists. Result: news ticker renders `item.age ? \` · ${item.age}\` : ''` as empty string always.
+
+**Fix applied**: Replaced the news loading block in `src/pages/index.astro` to compute relative time (just now / Xm ago / Xh ago / Xd ago) from the `published` ISO timestamp. Now news items show how fresh they are.
+
+**Committed**: `014c842` — "Growth cycle fix: compute relative age from published timestamp in news ticker"
+
+### Backlog Notes
+- All high-value SEO items resolved; remaining items need user input (GSC code, Formspree ID, AdSense account, deploy SSH fix)
+- News ticker age fix is live in workspace, needs deploy to production

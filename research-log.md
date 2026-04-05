@@ -4103,3 +4103,32 @@ sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
 - Deploy blocked (deploy service down — same root cause as Cycle 106-107)
 
 **Deploy:** Service down — 1 file changed (llm.txt date update), committed locally, push pending deploy service restore.
+
+## Research Run 18 | 2026-04-05 09:45 UTC
+
+### Site Status
+- Homepage /: 200 ✅ | /roadmap/: 301→200 ✅ | /exams/: 301→200 ✅
+- /notes/neet/physics/: 200 ✅ | sitemap-0.xml: 200 ✅
+- Deploy endpoint (172.17.0.1:9000): 404 — deploy backend alive but endpoint 404 (Type=oneshot still broken, user SSH action needed)
+- News: 10 items fresh ✅ (UPSC Prelims 2026 lead item)
+- Build: workspace clean, ready ✅
+
+### Quick Audit (3 pages)
+- Homepage title: "StudyRoadmap - Free AI Study Plans for 125+ Exams" ✅
+- /exams/: exam hub pages present ✅ | /notes/neet/physics/: topic pages OK ✅
+- Canonical, meta, OG tags: all correct ✅
+- sitemap-0.xml resolves cleanly after 301 ✅
+
+### No Code Changes This Cycle
+- All automated SEO complete; remaining items need user input
+- Deploy service DOWN — user SSH fix still outstanding:
+  ```bash
+  sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service
+  sudo sed -i 's/Restart=no/Restart=always/' /etc/systemd/system/studyroadmap-deploy.service
+  sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
+  ```
+- Placeholders blocking live: GSC code (Layout.astro), Bing code (Layout.astro), Formspree ID (feedback.astro)
+- Workspace committed and clean; next deploy will push all pending fixes live once service restored
+
+### Git Status
+- 1 commit: d1ce21b (research log update)

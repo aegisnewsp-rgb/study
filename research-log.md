@@ -393,3 +393,33 @@ Exam hub pages were using the Layout default (`/og-image.jpg`) instead of exam-s
 - Monitoring cycle: site healthy, news 10 items fresh, sitemap 3,352 URLs, exam/notes/homepage all SEO-valid
 - No code changes (nothing actionable this cycle — all high-value improvements complete, pending user input for remaining items)
 
+
+## Research Findings — 2026-04-05 12:12 UTC
+
+### 🔴 Critical (fix immediately)
+- **Sitemap 404 gaps**: The auto-generated sitemap (3,352+ URLs) included URLs for topic pages that don't exist as content files:
+  - `/notes/jamb/physics/phy-3/` → 404 (JAMB Physics missing phy-3.md)
+  - `/notes/neco/physics/phy-4/` → 404 (NECO Physics missing phy-4.md)
+  - `/notes/waec/physics/phy-4/` → 404 (WAEC Physics missing phy-4.md)
+  - Also: NECO phy-12, phy-14; WAEC phy-15 (sitemap lists but files absent — lower priority)
+  - These are real 404s that Google will crawl, hurting SEO and wasting crawl budget
+
+### 🟡 Important (fix this cycle)
+- Fixed above: created 3 missing physics topic files using syllabus knowledge base
+- Also noticed the git working tree had uncommitted content rewrite batches (batches 4 and 11) — these were committed together with the fix
+
+### 🟢 Quick Wins (easy improvements)
+- Site health: sitemap ✅ | All major pages 200 ✅ | Robots.txt properly configured ✅
+- News.json serving fresh content (JEE Mains 2026 Session 2) ✅
+- All remaining improvement-backlog items need user input (GSC code, AdSense, Formspree, SSH deploy)
+
+### 📊 Traffic Opportunities
+- SEO impact: Sitemap 404s fix will prevent crawl budget waste and improve index quality for JAMB/NECO/WAEC physics pages
+- Remaining: GSC verification, AdSense integration, feedback form (all need user credentials)
+- Content expansion: JAMB Physics now complete (20/20 topics), NECO Physics 15/18, WAEC Physics 15/18
+
+### ✅ Completed This Run
+- Created src/content/notes/jamb/physics/phy-3.md (Scalars and Vectors)
+- Created src/content/notes/neco/physics/phy-4.md (Scalars and Vectors)  
+- Created src/content/notes/waec/physics/phy-4.md (Scalars and Vectors)
+- Commit 9a07265 — "Fill sitemap 404 gaps: create missing physics topic files"

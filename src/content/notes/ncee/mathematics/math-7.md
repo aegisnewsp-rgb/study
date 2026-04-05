@@ -1,13 +1,10 @@
 ---
-
-
-
 exam: ncee
 examName: NCEE (National Common Entrance Examination)
 subject: mathematics
 subjectName: Mathematics
 topic: math-7
-topicName: Geometry: Angles, Lines and Triangles
+topicName: "Geometry: Angles, Lines and Triangles"
 weight: 5
 country: nigeria
 generated: "2026-03-24T08:32:07.582761"

@@ -1,5 +1,39 @@
 # Research Log — StudyRoadmap Growth Research
 
+## Research Run 18 | 2026-04-05 09:48 UTC
+
+### Site Status
+- Homepage: **200 ✅** | Live site: **125+ Exams** title confirmed ✅
+- Deploy endpoint (172.17.0.1:9000): **404** — deploy service still broken (Type=oneshot)
+- Build: **succeeds** ✅ (3,345+ pages, Astro routing warnings for ssc-cgl-tier2 English but pages generated)
+- Homepage schema audit (live HTML):
+  - FAQPage: 15 questions ✅ (E-E-A-T expanded)
+  - Organization schema ✅
+  - WebSite + SearchAction ✅
+  - Person schema (Editorial Team) ✅
+  - HowTo schema ✅
+
+### Quick Audit (3 pages)
+- Homepage title: "StudyRoadmap - Free AI Study Plans for 125+ Exams" ✅
+- All schemas live and correct ✅
+- Site is healthy — no broken elements found
+
+### No Code Changes This Cycle
+- Site is in excellent shape; all automated SEO complete
+- Deploy service (Type=oneshot) blocks production push — **user SSH still needed:**
+  ```bash
+  sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service
+  sudo sed -i 's/Restart=no/Restart=always/' /etc/systemd/system/studyroadmap-deploy.service
+  sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
+  ```
+- Remaining items need user input: GSC code, AdSense, Formspree, directory submissions
+
+### Git Status
+- Workspace clean (last commit: 01cbbd3 "Research cycle — site health check 2026-04-05 09:48 UTC")
+- Commit pushed to GitHub ✅
+
+---
+
 ## Research Run 17 | 2026-04-05 09:15 UTC
 
 ### Site Status

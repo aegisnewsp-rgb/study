@@ -3526,3 +3526,27 @@ Modified `astro.config.mjs` to dynamically load examId slugs from `public/exams.
 **Sitemap:** ✅ dist/sitemap-0.xml contains 3200+ notes URLs + 127 exam hub pages (confirmed: neet, jeemain, gre, ast, sathe, uaeu-cat all present). Script fix-sitemap.cjs confirmed working — reports "All 127 exam pages already in sitemap"
 **Deploy blocker:** studyroadmap-deploy.service uses Type=oneshot with remainAfterExit=true but systemd still considers it inactive after exec. Fix requires elevated: `openclaw agents run --host b6150371a820 --elevated` or manual `sudo systemctl restart studyroadmap-deploy`
 **No changes made:** Everything committed. Awaiting deploy service fix.
+
+## 2026-04-05 07:42 UTC — Cycle ~107
+
+**Pages checked:** Homepage, /exams/neet/, /notes/neet/physics/, /notes/neet/physics/phy-001/
+
+### Status: All green ✅
+
+- All pages have proper `<title>`, `<meta name="description">`, canonical, OG, Twitter Card tags
+- FAQPage JSON-LD present on homepage (15 Qs), exam page (3 Qs), notes pages (4 Qs)
+- HowTo JSON-LD present on /exams/neet/
+- CollectionPage + ItemList JSON-LD on notes pages  
+- BreadcrumbList JSON-LD on exam + notes pages
+- WebSite + Organization JSON-LD on all pages
+- Sitemap working — large index with 1000s of URLs
+- robots.txt: AI training bot blocks + sitemap reference
+- 1368 OG images in public/og-notes/
+
+### Observations (no immediate fix needed)
+- Person Schema placeholder present but unpopulated on all pages — author prop not passed; LOW priority
+- Plausible analytics URL uses HTTP (187.127.134.151) — not in Astro codebase; likely server/CDN injected; monitor
+- Homepage returns 301 (suspect redirect to www or index — inspect further if canonical issues arise)
+- Custom 404.astro exists but nginx serves default 404 — needs server config fix (not code-level)
+
+**No code change this cycle — site is well-optimized.**

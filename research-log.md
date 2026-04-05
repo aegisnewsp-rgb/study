@@ -4219,3 +4219,27 @@ sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
 - Sitemap: includes all exam hub pages (confirmed /exams/gre/, /exams/ast/, /exams/sathe/, /exams/uaeu-cat/) ✅
 - News fetch: timed out (SIGTERM) — news.json served from last successful run
 - Site healthy — no changes needed this cycle
+
+## Research Findings — 2026-04-05T10:03 UTC
+
+### 🔴 Critical (fix immediately)
+- **Domain migration incomplete in Layout.astro**: 4 locations still hardcode `studyroadmap.in` while site runs on `studyroadmap.com`:
+  1. Plausible analytics `data-domain` attribute
+  2. Organization schema `@id` and `url`
+  3. Organization schema logo `url`
+  4. WebSite + SearchAction schema `url` / `urlTemplate`
+- Impact: broken analytics tracking, incorrect structured data pointing to dead domain, confused search engines
+
+### 🟡 Important (fix this cycle)
+- ✅ Fixed all 4 domain mismatches in Layout.astro — committed as `8905a4a`
+- Recommend user deploy once backend restart issue is resolved
+
+### 🟢 Quick Wins
+- robots.txt sitemap already correct (`studyroadmap.com`) ✅
+
+### ✅ Completed This Run
+- Replaced 4× `studyroadmap.in` → `studyroadmap.com` in src/layouts/Layout.astro
+- Committed: `8905a4a`
+
+### 📊 Traffic Opportunities
+- Domain migration fix will restore accurate analytics via Plausible on correct domain

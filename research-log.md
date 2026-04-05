@@ -3118,3 +3118,30 @@ These came from old exam data files with corrupted `examId` values that weren't 
 - Working tree clean — all changes committed (9 commits ahead of origin/main)
 - Last commit: de823aa "Growth cycle 72 — maintenance pass, deploy service blocked"
 
+---
+
+## Research Run 15 | 2026-04-05 06:31 UTC
+
+### Site Status
+- Homepage: HTTP 200 ✅ (live)
+- Deploy service: **DOWN** — port 9000 connection refused (Type=oneshot crash, needs user SSH fix)
+- News: 10 items ✅ (updated 06:19 UTC)
+
+### Change This Cycle: Sitemap Script Cleanup
+- `scripts/fix-sitemap.cjs`: removed 300+ line hardcoded `customPages` array (legacy exam allowlist)
+- Replaced with clean dynamic scanning of exam definition files in `src/data/exams/*/*.ts`
+- Simplified deduplication logic — no longer needs `normalizedCustomPages` Set
+- Build verified: Added 4 exam pages (127 total exams known) ✅
+- Commit: e24b366 ✅
+
+### Remaining Blockers (all need user input)
+1. Deploy service crashes — `systemd Type=oneshot` issue (SSH fix documented in improvement-log)
+2. GSC verification code — placeholder in Layout.astro
+3. AdSense integration — needs approved account + code
+4. Formspree feedback form — `REPLACE_WITH_FORMSPREE_ID` in feedback.astro
+5. GitHub push blocked — origin repo returns 404 (token may be read-only)
+
+### Git Status
+- Working tree clean
+- Last commit: e24b366 "Sitemap fix: remove hardcoded exam allowlist, scan dynamically from source files"
+

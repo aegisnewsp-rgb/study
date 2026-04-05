@@ -1,3 +1,34 @@
+## Research Findings — 2026-04-05 12:18 UTC
+
+### 🔴 Critical (fix immediately)
+- **2 YAML frontmatter errors blocking production builds** — both found during local build:
+  1. `ecat/mathematics/math-8.md`: `diagramPrompt` string value missing closing `"` — YAML parser hit "unexpected end of stream within double quoted scalar"
+  2. `ncee/mathematics/math-7.md`: `topicName: "Geometry: Angles, Lines and Triangles"` had unquoted value — the `:` in "Geometry: Angles" was parsed as YAML key-value separator, causing "mapping values are not allowed here" error at line 10
+  - **Impact**: Without fix, `npm run build` fails → no new deploys possible → site frozen at last working build. Critical build integrity issue.
+  - **Status**: BOTH FIXED ✅ — committed e62c91b
+
+### 🟡 Important (fix this cycle)
+- Deploy service down again (Type=oneshot + Restart=no recurring issue) — returns 404 on POST /deploy. Site itself live at studyroadmap.in ✅. Fix requires user SSH: `sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service` + Restart=always + daemon-reload.
+
+### 🟢 Quick Wins (easy improvements)
+- Site healthy: homepage ✅, /exams/ ✅, /notes/ ✅, /roadmap ✅ (301→200), sitemap 3352 URLs ✅
+- All key schemas present: Organization ✅, WebSite+SearchAction ✅, FAQPage ✅, BreadcrumbList ✅, HowTo ✅
+- Person Schema: homepage has it ✅, notes/index ✅, but appears absent on some pages (low impact vs other signals)
+- Schema domain: all URLs now correctly use studyroadmap.in ✅
+
+### 📊 Traffic Opportunities
+- Build now completes cleanly at 3352 pages
+- Deploy blocked until VPS SSH fix applied
+- Remaining leverage: GSC code (placeholder), AdSense account, deploy service fix
+
+### ✅ Completed This Run
+- Fixed 2 YAML frontmatter parse errors blocking builds (ecat/math-8.md + ncee/math-7.md)
+- Build: 3352 pages ✅ (76s)
+- Commit: e62c91b "Fix 2 YAML frontmatter errors blocking build"
+- Deploy: BLOCKED (deploy service dead — recurring Type=oneshot issue)
+
+---
+
 ## Research Findings — 2026-04-05 10:42 UTC
 
 ### 🔴 Critical (fix immediately)

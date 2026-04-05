@@ -60,9 +60,8 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
     <link rel="canonical" href={canonicalURL} />
     {robots && <meta name="robots" content={robots} />}
 
-    <!-- Google Search Console Verification -->
-    <!-- Replace the content value below with your actual Search Console verification meta tag -->
-    <meta name="google-site-verification" content="YOUR_VERIFICATION_CODE_HERE" />
+    <!-- Google Search Console Verification — replace with your actual verification meta tag from Search Console -->
+    <meta name="google-site-verification" content="REPLACE_WITH_GOOGLE_SEARCH_CONSOLE_VERIFICATION_CODE" />
 
     <!-- Primary Meta Tags -->
     <title>{title}</title>
@@ -76,7 +75,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
     <meta property="og:description" content={description} />
     <meta property="og:image" content={new URL(image, Astro.site)} />
     <meta name="theme-color" content="#1d4ed8" />
-    <meta name="msvalidate.01" content="BING_VERIFICATION_CODE" />
+    <meta name="msvalidate.01" content="REPLACE_WITH_BING_VERIFICATION_CODE" />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />

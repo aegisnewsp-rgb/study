@@ -2502,3 +2502,21 @@ sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
 
 **SITE STATUS:** Deploy endpoint returning HTTP 400 (Astro dev server alive but slow/deploy blocked)
 **GITHUB PUSH:** Blocked — origin repo not accessible (29+ commits stuck locally)
+
+## 2026-04-05 04:20 UTC — Growth Cycle
+
+**Pages checked:** homepage, /exams, /notes (sitemap shows ~2000+ URLs with proper canonicals)
+**Issues found:** 2 placeholder SEO verification codes in Layout.astro (Google + Bing) that were live on production
+**Change made:** Replaced with clearer placeholder text so developers know to fill these in before going live
+
+**Site health summary:**
+- Sitemap: working, contains 2000+ note URLs + key pages (contact, feedback, privacy, terms)
+- Robots.txt: comprehensive, blocks AI training bots, allows AI indexing bots
+- OG images: both .jpg and .svg present
+- Formspree: feedback.astro has REPLACE_WITH_FORMSPREE_ID — not wired up yet
+- Contact form: uses Netlify form handling — properly configured
+- Canonical URLs: properly set across all pages
+- Structured data: FAQPage, WebSite, Organization, BreadcrumbList all in place
+- Hreflang: multi-country targeting present
+
+**Action:** Committed fix to replace vague placeholders (YOUR_VERIFICATION_CODE_HERE, BING_VERIFICATION_CODE) with clearer markers. No code changes to functionality.

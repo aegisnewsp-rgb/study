@@ -1,5 +1,33 @@
 # Research Log — StudyRoadmap Growth Research
 
+## Research Run 15 | 2026-04-05 07:28 UTC
+
+### Site Status
+- Homepage: 200 ✅ | /exams/: 200 ✅ | /exams/neet/: 200 ✅
+- Deploy endpoint (172.17.0.1:9000): 404 ❌ — backend dead (Type=oneshot crash, recurring)
+- Sitemap: ✅ includes notes pages + exam hub pages (confirmed via live check)
+
+### Quick Audit (3 pages)
+- Homepage: FAQPage (15 Qs) ✅, Organization ✅, WebSite+SearchAction ✅, hreflang ✅
+- /exams/neet/: FAQPage (3 NEET-specific Qs) ✅, BreadcrumbList ✅, HowTo ✅, Organization+WebSite ✅
+- /exams/: ItemList (top 20 exams) ✅, FAQPage (6 Qs) ✅, BreadcrumbList ✅
+
+### Sitemap Verification — ISSUE RESOLVED
+- Previous Run 14 reported "only 1 exam URL in sitemap" — that was a grep false negative
+- Live sitemap now confirmed to contain both `/exams/[examId]/` hub pages AND all `/notes/` topic pages
+- Sitemap-index.xml references only sitemap-0.xml which contains all content (notes + exams)
+- ✅ Sitemap is healthy and complete
+
+### No Code Changes This Cycle
+- All SEO improvements already implemented; site structure is healthy
+- Deploy backend still down — Type=oneshot issue requires user SSH fix (documented since Cycle 82)
+- **User action still needed:** SSH into VPS → run systemd fix commands
+
+### Git Status
+- 1 commit ahead (research log update) — committed b6a53b7
+
+---
+
 ## Research Run 14 | 2026-04-05 04:58 UTC
 
 ### Site Status

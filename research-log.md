@@ -3800,3 +3800,33 @@ Workspace has significant improvements NOT yet live:
 ### Git Status
 - Committed: research-log.md update (22bd473) — workspace clean
 - 1 commit ahead of where production is running (commit 9c0f8cb deployed vs 22bd473 in workspace)
+
+---
+
+## Research Run 17 | 2026-04-05 08:39 UTC
+
+### Site Status
+- Homepage: 200 ✅ | /exams/: 200 ✅ | /notes/neet/physics/: 200 ✅
+- Sitemap: live at https://studyroadmap.in/sitemap-0.xml (257KB, served by nginx from previous build)
+- Dist build fresh: 3349 pages, sitemap-0.xml rebuilt by fix-sitemap.cjs (4 exams added → 127 total exams)
+
+### Quick Audit (3 pages)
+- Homepage title (deployed): "StudyRoadmap - Free AI Study Plans for 80+ Exams" — workspace has 125+ but not yet deployed (deploy service still Type=oneshot)
+- /exams/ title: "Browse Exams — StudyRoadmap™" ✅
+- /notes/neet/physics/ title ✅ with FAQPage + BreadcrumbList schema
+- hreflang tags present in Layout ✅
+- robots.txt identical between workspace and deployed ✅
+- Sitemap 257KB / 4 new exam pages added to dist (will go live on next deploy)
+
+### No Code Changes This Cycle
+- Workspace clean — all SEO improvements already implemented
+- Deploy service (Type=oneshot) still blocking production updates — needs user SSH:
+  ```bash
+  sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service
+  sudo sed -i 's/Restart=no/Restart=always/' /etc/systemd/system/studyroadmap-deploy.service
+  sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
+  ```
+
+### Git Status
+- Committed: none — nothing to commit, workspace clean
+

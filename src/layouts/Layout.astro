@@ -87,9 +87,8 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
     <meta name="twitter:creator" content="@studyroadmap_in" />
     <!-- Twitter App Meta — enables deep links from Twitter cards to mobile app -->
     <meta name="twitter:app:id:googleplay" content="com.studyroadmap.app" />
-    <meta name="twitter:app:id:appstore" content="1234567890" />
     <meta name="twitter:app:name:googleplay" content="StudyRoadmap" />
-    <meta name="twitter:app:name:appstore" content="StudyRoadmap" />
+    <!-- App Store app not yet published — add twitter:app:id:appstore + twitter:app:name:appstore when iOS app launches -->
 
     <!-- hreflang — multi-country geo-targeting for India, Pakistan, Nigeria -->
     <link rel="alternate" hreflang="en-IN" href={canonicalURL} />

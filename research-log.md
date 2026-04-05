@@ -3695,3 +3695,65 @@ Modified `astro.config.mjs` to dynamically load examId slugs from `public/exams.
 1. Fix deploy service: `systemctl --user edit studyroadmap-astro` → change Type=oneshot to Type=simple (or add Restart=always)
 2. Resolve GitHub push: check GnuTLS cert issue on node workspace
 3. Provide GSC/Bing/AdSense verification codes when ready
+
+## Research Run 17 | 2026-04-05 08:20 UTC
+
+### Site Status
+- Homepage: 200 ✅ | /exams/neet/: 200 ✅ | /notes/neet/physics/: 200 ✅
+- Deploy endpoint (172.17.0.1:9000 + 187.127.134.151:9000): 404 ❌ — backend still dead
+
+### Quick Audit (3 pages)
+- Homepage title: "StudyRoadmap - Free AI Study Plans for 80+ Exams" — workspace is "125+" (stale deploy)
+- /exams/neet/ title ✅ "NEET UG — Exam Pattern, Eligibility & Study Plan | StudyRoadmap™"
+- /notes/neet/physics/ title ✅ "Physics Study Notes — NEET UG | StudyRoadmap™"
+- Sitemap ✅ — all notes pages present (3200+ URLs)
+- robots.txt ✅ — matches workspace (AI indexing bots properly configured)
+- llm.txt: workspace had 3 issues — duplicate Licensing section, "123 exams" vs "124 exams" vs "125+ exams" inconsistency — all fixed
+
+### Fix This Cycle
+**llm.txt cleanup (3 fixes):**
+1. Removed duplicate Licensing section that was truncated at end of file
+2. Fixed "123 competitive exams" → "125+" in Exams Directory section
+3. Fixed "124 exams covered" → "125+" in Data Coverage section (consistent with 125+ headline)
+
+News fetch: 10 items saved to public/news.json ✅
+
+### Deployed vs Workspace Gap (still blocking)
+Workspace has significant improvements NOT yet live:
+- Homepage: "125+" vs deployed "80+"
+- llm.txt: "125+" + AI citation policy updated vs deployed old version
+- hreflang geo-targeting (en-IN, en-PK, en-NG, x-default) committed to workspace
+- Twitter app meta (Google Play + App Store IDs) committed to workspace
+- Deploy backend Type=oneshot fix still needed via SSH — **user action required:**
+  ```bash
+  sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service
+  sudo sed -i 's/Restart=no/Restart=always/' /etc/systemd/system/studyroadmap-deploy.service
+  sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
+  ```
+
+### Git Status
+- Committed: llm.txt cleanup + research-log.md update (9c0f8cb) — workspace clean
+
+
+## Research Findings — 2026-04-05T08:24 UTC
+
+### 🔴 Critical (fix immediately)
+- None — all critical SEO items completed
+
+### 🟡 Important (fix this cycle)
+- None — monitoring mode
+
+### 🟢 Quick Wins (easy improvements)
+- News section uses `item.age` from client-side JS — not visible to Googlebot in static HTML (minor, already has `published` field used in client ticker)
+- Sitemap: 124 exam pages confirmed ✅ — all `/exams/[exam]` routes in sitemap
+- News age: 58 min (fresh ✅)
+
+### 📊 Traffic Opportunities
+- GSC verification still pending (user needs to provide code)
+- AdSense pending (user needs approved account)
+- All SEO structural work complete
+
+### ✅ Completed This Run
+- Monitoring cycle: site all 200 ✅, sitemap 124 exams ✅, news 10 items 58min old ✅
+- No code changes — monitoring only
+

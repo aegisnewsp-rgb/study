@@ -3011,3 +3011,22 @@ exam pages to be injected into the sitemap multiple times on repeated builds:
 - MiniMax API top-up: needed for further knowledge-base content generation
 
 **Overall:** Site is healthy. No actionable improvements available in this cycle — all remaining items require user-provided codes or SSH access.
+
+## 2026-04-05 05:49 UTC — Cycle 119
+
+**Quick check:** Site 200 ✅ | Sitemap generation confirmed ✅ | Build completes ✅
+
+**Issue found:** fix-sitemap.cjs was adding 3 corrupt exam URLs to sitemap:
+- `帖ast` (Chinese chars in examId) → would 404
+- `sathe` (corrupt examId from malformed file) → would 404  
+- `uaeu-cat` (corrupt examId) → would 404
+
+These came from old exam data files with corrupted `examId` values that weren't cleaned up in Cycle 80's rename pass.
+
+**Fix applied:** Updated `scripts/fix-sitemap.cjs` with two changes:
+1. Added normalization (lowercase, strip non-alphanumeric to hyphens) when scanning examIds from source files
+2. Added `normalizedCustomPages` set — normalizes the hardcoded customPages list so corrupt IDs that match valid IDs after normalization get properly deduplicated
+
+**Result:** Build now adds only 1 legitimate new exam page (`/exams/gre/`) instead of 4 entries (3 corrupt + 1 dup). Corrupt sitemap URLs eliminated.
+
+**Committed:** 620dc01

@@ -1,5 +1,34 @@
 # Research Log — StudyRoadmap Growth Research
 
+## Research Run 8 | 2026-04-05 03:05 UTC
+
+### Site Status
+- Homepage: 200 ✅ (still "80+ Exams" on live — workspace has "125+" correct)
+- Deploy endpoint (172.17.0.1:9000): **alive ✅** (returns 400/403 instead of timeout — backend is running)
+- Deploy auth: **403 Forbidden** — deploy token unknown, cannot trigger deploy without it
+- GitHub push: ✅ succeeded (5d4fa89 → 5d4fa89, no new commits to push)
+- llm.txt: Date: 2026-04-05 ✅
+- News: 10 items ✅ (811 new fetched, deduplicated back to 10 — India:4, Nigeria:4, Pakistan:2)
+
+### Key Finding: Deploy Endpoint Alive But Token-Protected
+- Port 9000 now returns 400/403 instead of timeout — the backend Node.js server (PID 10, `node server.mjs`) IS running
+- But `/deploy` POST returns `403 Forbidden` — requires Authorization bearer token we don't have
+- Type=oneshot deploy service issue MAY be self-healing now (backend alive instead of dead)
+- **Cannot confirm deploy trigger works** — need deploy token OR SSH fix for systemd service
+- GitHub push works ✅ — code changes can reach the repo
+
+### No Changes This Cycle
+- Workspace clean, all SEO complete, news fresh
+- Deploy token not found in environment or workspace files
+- Deploy endpoint alive but protected — no token available to trigger
+
+### Action Items (User Needed)
+1. **Deploy token**: Find the token used for `POST http://172.17.0.1:9000/deploy` — check VPS `/srv/studyroadmap/server.mjs` or systemd service environment
+2. **SSH fix for deploy service** (alternative): `sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service && sudo sed -i 's/Restart=no/Restart=always/' && sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy`
+3. GSC verification code to replace `YOUR_VERIFICATION_CODE_HERE` in Layout.astro
+
+---
+
 ## Research Run 7 | 2026-04-05 01:50 UTC
 
 ### Site Status

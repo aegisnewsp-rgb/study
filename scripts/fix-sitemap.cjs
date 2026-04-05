@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // Post-build script to add missing /exams/ pages to sitemap
-// Scans ALL exam definition files and adds every one to the sitemap — no allowlist needed
+// Also adds <lastmod> to all <url> entries that lack it
 const fs = require('fs');
 const path = require('path');
 
@@ -12,13 +12,11 @@ if (!fs.existsSync(sitemapPath)) {
   process.exit(0);
 }
 
-// Collect all exam IDs by scanning exam definition files
+// Collect all exam IDs from source files
 let examIds = [];
-
 function scanDir(dir) {
   if (!fs.existsSync(dir)) return;
-  const entries = fs.readdirSync(dir, { withFileTypes: true });
-  for (const entry of entries) {
+  for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
     const full = path.join(dir, entry.name);
     if (entry.isDirectory()) {
       scanDir(full);
@@ -32,77 +30,64 @@ function scanDir(dir) {
     }
   }
 }
-
 scanDir(examsBase);
 examIds = [...new Set(examIds)];
 
 if (examIds.length === 0) {
-  console.log('Could not extract exam IDs from source, skipping exam page addition to sitemap');
+  console.log('Could not extract exam IDs from source, skipping');
   process.exit(0);
 }
 
-let sitemap = fs.readFileSync(sitemapPath, 'utf8');
-
-// Check which exam URLs are already in the sitemap
-const alreadyInSitemap = new Set();
-const urlRegex = /<loc>([^<]+)<\/loc>/g;
-let match;
-while ((match = urlRegex.exec(sitemap)) !== null) {
-  alreadyInSitemap.add(match[1]);
-}
-
+const today = new Date().toISOString().split('T')[0];
 const BASE_URL = 'https://studyroadmap.in';
 
-// ── PART 1: Add lastmod to all sitemap entries that lack it ───────────────
-const today = new Date().toISOString().split('T')[0]; // e.g. "2026-04-05"
+// Read raw sitemap
+let sitemap = fs.readFileSync(sitemapPath, 'utf8');
 
-// Count before
-const locCountBefore = (sitemap.match(/<loc>/g) || []).length;
-const lastmodCountBefore = (sitemap.match(/<lastmod>/g) || []).length;
-
-// Strategy: add <lastmod> after each <loc> that doesn't already have one
-// Pattern: <loc>...</loc> optionally followed by other tags, then <url>
-let entriesAdded = 0;
-sitemap = sitemap.replace(/<loc>([^<]+)<\/loc>((?:(?!<\/url>).)*?)(<\/url>)/gs, (match, loc, middle, close) => {
-  if (middle.includes('<lastmod>')) {
-    return match; // already has lastmod
+// STEP 1: Remove any malformed exam entries that appear AFTER the closing </urlset>
+// (these were appended by older buggy versions of this script)
+const closingTag = '</urlset>';
+const lastClosingIndex = sitemap.lastIndexOf(closingTag);
+if (lastClosingIndex !== -1) {
+  const afterClosing = sitemap.slice(lastClosingIndex + closingTag.length);
+  if (afterClosing.trim().length > 0) {
+    // Truncate everything after the last </urlset> — that's the garbage
+    sitemap = sitemap.slice(0, lastClosingIndex + closingTag.length);
+    console.log('Removed malformed exam entries found after </urlset>');
   }
-  entriesAdded++;
-  return `<loc>${loc}</loc><lastmod>${today}</lastmod>${middle}${close}`;
+}
+
+// STEP 2: Add <lastmod> to all <url> entries that don't have one
+// Match complete <url>...</url> blocks
+sitemap = sitemap.replace(/<url>([\s\S]*?<\/url>)/g, (match, inner) => {
+  if (inner.includes('<lastmod>')) return match;
+  // Insert <lastmod> right after the first </loc>
+  return `<url>${inner.replace('</loc>', `</loc><lastmod>${today}</lastmod>`)}`;
 });
 
-const locCountAfter = (sitemap.match(/<loc>/g) || []).length;
-const lastmodCountAfter = (sitemap.match(/<lastmod>/g) || []).length;
-console.log(`lastmod: ${lastmodCountBefore} → ${lastmodCountAfter} entries (added ${entriesAdded})`);
+// STEP 3: Build set of exam URLs already in sitemap
+const existingUrls = new Set();
+const locMatches = sitemap.matchAll(/<loc>([^<]+)<\/loc>/g);
+for (const m of locMatches) {
+  existingUrls.add(m[1]);
+}
 
-// ── PART 2: Add every exam not already in sitemap ─────────────────────────
+// STEP 4: Append any missing exam pages (with lastmod) before </urlset>
+const lastIdx = sitemap.lastIndexOf(closingTag);
+if (lastIdx === -1) {
+  console.log('No closing </urlset> found');
+  process.exit(1);
+}
+
 const newExamUrls = examIds
-  .filter(examId => {
-    const url = `${BASE_URL}/exams/${examId}/`;
-    return !alreadyInSitemap.has(url);
-  })
-  .map(examId => `  <url><loc>${BASE_URL}/exams/${examId}/</loc></url>`);
+  .filter(id => !existingUrls.has(`${BASE_URL}/exams/${id}/`))
+  .map(id => `<url><loc>${BASE_URL}/exams/${id}/</loc><lastmod>${today}</lastmod></url>`);
 
 if (newExamUrls.length === 0) {
   console.log(`All ${examIds.length} exam pages already in sitemap`);
   process.exit(0);
 }
 
-// Replace ONLY the last occurrence of </urlset> with new entries + </urlset>
-const closingTag = '</urlset>';
-const lastIndex = sitemap.lastIndexOf(closingTag);
-
-if (lastIndex === -1) {
-  console.log('Could not find closing tag in sitemap');
-  process.exit(1);
-}
-
-const afterClosing = sitemap.slice(lastIndex + closingTag.length).trim();
-if (afterClosing.length > 0 && !afterClosing.startsWith('\n')) {
-  console.log('Sitemap appears malformed (content after closing tag), skipping auto-fix');
-  process.exit(1);
-}
-
-const newSitemap = sitemap.slice(0, lastIndex) + newExamUrls.join('\n') + '\n' + closingTag;
+const newSitemap = sitemap.slice(0, lastIdx) + newExamUrls.join('') + '\n' + closingTag;
 fs.writeFileSync(sitemapPath, newSitemap);
 console.log(`Added ${newExamUrls.length} exam pages to sitemap (${examIds.length} total exams known)`);

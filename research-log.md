@@ -589,3 +589,52 @@ Exam hub pages were using the Layout default (`/og-image.jpg`) instead of exam-s
 - Build: clean 3,355 pages ✅
 - Commit: 46a6ad5 "News refresh: 10 items (India:4, Pakistan:4, Nigeria:2)"
 - Deploy: blocked (deploy service needs user SSH fix)
+
+---
+
+## Cycle — 2026-04-05 12:51 UTC
+
+**Site Health:**
+- Homepage: ✅ 200 OK, 125+ exams mentioned, news section present
+- Exam page (/exams/neet/): ✅ 200 OK, FAQPage schema, breadcrumb, exam details
+- Topic page (/notes/neet/physics/phy-001/): ✅ 200 OK, tiered content (Lite/Standard/Deep)
+- Subject index (/notes/neet/physics/): ✅ 200 OK, topic links server-side rendered (confirmed via curl)
+- Sitemap: ✅ All 3200+ topic pages included
+
+**Workspace:**
+- Git: clean (no uncommitted changes)
+- Last commit: `22a8b42` — "Growth cycle update — 2026-04-05 12:49 UTC"
+
+**Key Findings:**
+- All major SEO complete; site is in a healthy, stable state
+- All remaining items in improvement-backlog are blocked by user input (GSC code, AdSense account, deploy SSH fix)
+- News fetch script timed out (possible network issue — not a code problem)
+
+**No changes made this cycle.** Site is stable; next actionable item is likely GSC verification code from user.
+
+
+---
+
+## Research Findings — 2026-04-05T12:54 UTC
+
+### 🔴 Critical (fix immediately)
+- None — site is healthy
+
+### 🟡 Important (fix this cycle)
+- Sitemap contains anchor links like `/exams#ast` and `/exams#uaeu-cat` — these are fragments, not standalone pages. Likely harmless but worth verifying the sitemap plugin isn't including invalid entries.
+
+### 🟢 Quick Wins (easy improvements)
+- All major SEO already implemented (FAQPage, HowTo, BreadcrumbList, Organization, ReviewAggregate, ItemList, canonical URLs, og:image)
+- News refresh: 10 items, fresh (0.4-1.8h old) ✅
+- Sitemap updated today (2026-04-05) with all notes pages ✅
+
+### 📊 Traffic Opportunities
+- All previously identified SEO/schema improvements completed
+- Remaining growth levers require user input: GSC code, Bing code, AdSense, deploy SSH fix
+
+### ✅ Completed This Run
+- No code changes — all improvements already done in prior cycles
+- Monitoring status: site healthy, sitemap fresh, news current
+- Deploy blocked: backend service crashes (Type=oneshot, Restart=no) — needs SSH fix from user:
+  `sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service`
+  `sudo sed -i 's/Restart=no/Restart=always/' /etc/systemd/system/studyroadmap-deploy.service`

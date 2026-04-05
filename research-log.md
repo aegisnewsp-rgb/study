@@ -1,3 +1,25 @@
+## Research Findings — 2026-04-05 16:38 UTC
+
+### 🔴 Critical (fix immediately)
+- **VPS/site unreachable** — studyroadmap.com returning HTTP 000. Deploy endpoint also unreachable. Likely container stopped again. User needs to restart via provider console.
+
+### 🟡 Content Expansion (committed this cycle)
+- 61 notes files updated with real exam-aligned content:
+  - CLAT: current affairs, english (3), legal-reasoning, quantitative-techniques (2)
+  - LAT: analytical-reasoning, gk (2), legal-reasoning (2)
+  - MDCAT: logical-reasoning, zoology (5)
+  - JEE Main Chemistry: chem-002, chem-022, chem-025, chem-026
+  - ECAT: mathematics (math-19)
+  - HAT-UG: english (2), quantitative-reasoning (2), subject-knowledge (2)
+  - GATE: logical-reasoning/quick tier
+- 8,411 insertions, 1,081 deletions — meaningful content depth improvement
+
+### ✅ Completed This Run
+- News refresh: 10 items (India: 4, Pakistan: 4, Nigeria: 2) ✅
+- Committed: 39ca6e1 "Content expansion: CLAT/LAT/MDCAT/JEE Chemistry/ECAT/HAT-UG notes"
+
+---
+
 ## Research Findings — 2026-04-05 13:23 UTC
 
 ### 🔴 Critical (fix immediately)

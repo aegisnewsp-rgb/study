@@ -22,20 +22,31 @@ diagramPrompt: Clean educational diagram showing Nuclear Physics and Radioactivi
 > Rapid summary for last-minute revision before your exam.
 
 **Nuclear Physics and Radioactivity** — Key Facts
-Definition: Nuclear Physics and Radioactivity is a fundamental concept in Physics
-Key formula/concept: Understand the core principle and its direct applications
-⚡ Exam tip: Questions from this topic appear regularly in NEET/JEE — focus on formulas and direct applications
+Radioactive decay law: $N = N_0 e^{-\lambda t}$; half-life $t_{1/2} = \frac{\ln 2}{\lambda} = \frac{0.693}{\lambda}$
+Activity: $A = \lambda N = A_0 e^{-\lambda t}$; unit: becquerel (Bq) = 1 decay/s
+Alpha decay: $_Z^AX \rightarrow _{Z-2}^{A-4}Y + _2^4\alpha$ (loss of 2 protons + 2 neutrons)
+Beta decay: $_Z^AX \rightarrow _{Z+1}^AY + _{-1}^0\beta$ (neutron → proton + electron + antineutrino)
+Gamma decay: $_Z^AX^* \rightarrow _Z^AX + \gamma$ (excited nucleus loses energy)
+⚡ Exam tip: In alpha decay, mass number decreases by 4; in beta decay, mass number unchanged
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Nuclear Physics and Radioactivity** — Physics Study Guide
-Concept overview: Nuclear Physics and Radioactivity is an important topic in the Physics syllabus
-Core principles: Build strong foundation of fundamentals before attempting problems
-Key points to understand: definitions, units, standard derivations, and typical numerical patterns
-Study approach: Theory first, then numerical problem-solving
+**Nuclear Physics and Radioactivity** — JAMB Physics Study Guide
+Nuclear notation: $_Z^AX$ where A = mass number (protons + neutrons), Z = atomic number (protons)
+Nuclear radius: $R = R_0 A^{1/3}$ where $R_0 = 1.2 \times 10^{-15}$ m
+Binding energy: $E = \Delta mc^2$ where $\Delta m = [Zm_p + Nm_n - M_{nucleus}]$
+Nuclear force: short-range (~10⁻¹⁵ m), charge-independent, strongest force in nature
+
+Carbon dating: $^{14}C$ half-life = 5730 years; $^{14}C \rightarrow ^{14}N + \beta^-$; ratio of $^{14}C$ to $^{12}C$ in atmosphere is constant; measuring remaining $^{14}C$ in organic material gives age.
+
+Nuclear fission: heavy nucleus splits into two medium nuclei + energy + neutrons; used in nuclear reactors; chain reaction requires critical mass.
+
+Nuclear fusion: two light nuclei combine; releases more energy per unit mass than fission; powers the Sun: $4p \rightarrow He + 2e^+ + 2\nu + 2\gamma + 26.7$ MeV.
+
+Common student mistakes: confusing activity with half-life (larger λ = shorter half-life = faster decay); forgetting that gamma decay doesn't change A or Z; confusing fission and fusion.
 
 ---
 
@@ -43,11 +54,41 @@ Study approach: Theory first, then numerical problem-solving
 > Comprehensive coverage for students on a longer study timeline.
 
 **Nuclear Physics and Radioactivity** — Comprehensive Physics Notes
-Full explanation: Nuclear Physics and Radioactivity is a core Physics concept with wide applications
-Detailed theory: Derivation, physical significance, and limitations of the concept
-Problem-solving strategies: Classify problem types, standard approach for each type
-Additional resources: Refer to standard Physics textbooks for deeper understanding
-Previous year trends: Analyse NEET/JEE question patterns for this topic
+
+**Radioactive decay — detailed treatment:**
+The decay constant $\lambda$ is the probability per unit time that a given nucleus will decay. It is independent of temperature, pressure, and chemical state.
+
+Activity units: 1 curie (Ci) = $3.7 \times 10^{10}$ Bq (original definition based on radium); 1 becquerel = 1 decay per second.
+
+**Decay chains:** Some radioactive nuclei don't decay directly to a stable nucleus. For example, $^{238}U \rightarrow ^{234}Th \rightarrow ^{234}Pa \rightarrow ^{234}U \rightarrow ... \rightarrow ^{206}Pb$.
+
+**Energy in nuclear reactions:**
+Mass defect: $\Delta m = Zm_p + (A-Z)m_n - M_{nucleus}$
+Binding energy per nucleon: peaks around iron-56 (~8.8 MeV/nucleon), explaining why fission of heavy nuclei and fusion of light nuclei both release energy.
+
+**Radioactive dating formulas:**
+For carbon dating: $t = \frac{1}{\lambda}\ln\left(\frac{R_0}{R}\right)$ where $R$ is the activity ratio of $^{14}C$ to $^{12}C$.
+
+For potassium-argon dating (used in geology): $^{40}K \rightarrow ^{40}Ar$ (half-life = 1.25 billion years).
+
+**Half-life calculations:**
+After $n$ half-lives: $N = N_0/2^n$; $A = A_0/2^n$.
+For sequential decay (parent → daughter → stable): apply separate decay laws for each species.
+
+**JAMB exam patterns:**
+- 2023 JAMB: If initial activity is 800 Bq and half-life is 4 hours, find activity after 16 hours
+- 2022 JAMB: Alpha particle scattering experiment was done by Rutherford; what did it establish?
+- 2021 JAMB: Calculate binding energy of helium-4 nucleus given masses
+- 2020 JAMB: Nuclear fusion produces more energy than chemical reactions because...
+
+**Key values to memorise:**
+| Particle | Mass (u) | Charge |
+|----------|----------|--------|
+| Proton | 1.00728 | +e |
+| Neutron | 1.00867 | 0 |
+| Electron | 0.00055 | -e |
+| Alpha | 4.00260 | +2e |
+| 1 u | 931.5 MeV/c² | - |
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

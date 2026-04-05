@@ -1,4 +1,32 @@
-## Research Findings — 2026-04-05 12:18 UTC
+## Research Findings — 2026-04-05 12:27 UTC
+
+### 🔴 Critical (fix immediately)
+- None — site is healthy, all critical fixes from prior cycles deployed
+
+### 🟡 Important (fix this cycle)
+- Deploy service recurring crash (Type=oneshot + Restart=no) — user SSH needed to fix systemd service on VPS
+
+### 🟢 Quick Wins (easy improvements)
+- **Sitemap verified:** 3,352 URLs including all 124 exam hub pages ✅ (fix-sitemap.cjs working correctly)
+- **Homepage:** FAQPage (15 Qs), Organization, WebSite+SearchAction, HowTo, BreadcrumbList, Person Schema — all present ✅
+- **Exam pages:** FAQPage (5 NEET-specific Qs), HowTo (3 steps), BreadcrumbList — all present ✅
+- **Notes pages:** FAQPage (4 physics Qs), BreadcrumbList, CollectionPage+ItemList (29 topics) — all present ✅
+- **News:** 10 items refreshed ✅ (India:4, Nigeria:4, Pakistan:2)
+- **Build:** 3,355 pages ✅ (postbuild script adds exam pages)
+
+### 📊 Traffic Opportunities
+- All major SEO infrastructure in place (schemas, sitemaps, hreflang, OG images)
+- GSC verification pending user input (placeholder code in Layout.astro)
+- AdSense integration pending user account approval
+- No further automated improvements available without user action
+
+### ✅ Completed This Run
+- Site health check: all 3 key pages passing ✅
+- Sitemap: 3,352 URLs confirmed (127 exam hub pages included) ✅
+- News: 10 fresh items ✅
+- Build: clean ✅
+- Commit: b19c946 "Growth cycle check"
+- Deploy: BLOCKED (deploy service dead — Type=oneshot issue, needs user SSH)
 
 ### 🔴 Critical (fix immediately)
 - **2 YAML frontmatter errors blocking production builds** — both found during local build:

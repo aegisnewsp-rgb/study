@@ -194,3 +194,24 @@
 - Updated `scripts/fix-sitemap.cjs` to inject `<lastmod>2026-04-05</lastmod>` after every `<loc>` tag without one
 - Tested on dist/sitemap-0.xml: 3,354 URLs all now have lastmod
 - Commit 1b6aa60 — "Add lastmod dates to all sitemap entries (SEO improvement)"
+
+## Research Findings — 2026-04-05 11:23 UTC
+
+### 🔴 Critical (fix immediately)
+- None
+
+### 🟡 Important (fix this cycle)
+- NEET Physics notes phy-020 and phy-023 had thin/malformed content (empty frontmatter, placeholder content) — fixed by regenerating with proper tiered content (EMI and AC topics)
+
+### 🟢 Quick Wins (easy improvements)
+- Site healthy: /contact/ → 200 ✅, sitemap → 200 ✅, news.json → 200 (10 items, ~2min old) ✅
+- Build healthy: 3,346 pages in ~60s ✅
+
+### 📊 Traffic Opportunities
+- Site fully healthy: sitemap 3,352+ URLs, all key pages 200, schemas valid
+- Remaining leverage: GSC verification (user needs code), AdSense integration (user needs account), deploy service SSH fix
+
+### ✅ Completed This Run
+- Fixed 2 thin NEET Physics topic notes (phy-020 EMI, phy-023 AC/Alternating Current) — regenerated with proper tiered Quick/Standard/Deep content
+- Commit 7659958 "Growth cycle fix"
+- Site: all pages 200 ✅ | News: 10 items ✅ | Sitemap: valid ✅

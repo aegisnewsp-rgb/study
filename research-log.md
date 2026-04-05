@@ -1,5 +1,59 @@
 # Research Log — StudyRoadmap Growth Research
 
+## Research Run 11 | 2026-04-05 03:50 UTC
+
+### Site Status
+- Homepage: 200 ✅ (live)
+- Deploy endpoint (172.17.0.1:9000): **404 ❌** — backend dead again (Type=oneshot crash, recurring issue)
+- News: ✅ 10 items (refreshed at 03:45 UTC)
+- GitHub push: ✅ (7 commits ahead of aegis-news/main)
+
+### Quick Audit (3 pages)
+- Homepage: FAQPage (15 Qs) ✅, Organization ✅, WebSite+SearchAction ✅
+- /roadmap: 301 → trailing-slash redirect ✅
+- /exams: 301 → trailing-slash redirect ✅
+- Notes topic (neet/physics/phy-001): 200 ✅
+
+### No Changes This Cycle
+- Deploy backend dead — cannot push code; same recurring Type=oneshot issue
+- All high-value SEO complete; no automated improvements available without deploy
+- User needs to SSH into VPS and run the 3 systemd commands from the backlog
+
+### Git Status
+- 7 commits ahead of aegis-news/main
+- Latest: 011ab0e "Research log cycle 9: deploy dead, no changes"
+
+---
+
+## Research Run 10 | 2026-04-05 03:49 UTC
+
+### Site Status
+- Homepage: 200 ✅ (live still "80+ Exams" — workspace "125+" correct but cannot deploy)
+- Deploy endpoint (172.17.0.1:9000): **404 ❌** — backend dead again (Type=oneshot crash)
+- News: ✅ 10 items refreshed (India:4, Nigeria:4, Pakistan:2, 812 new deduplicated)
+- GitHub push: ✅ (7 commits ahead of aegis-news/main)
+- llm.txt: Date: 2026-04-05 ✅
+- Workspace: clean ✅
+
+### Quick Audit (3 pages)
+- Homepage: FAQPage (15 Qs) ✅, Organization ✅, WebSite+SearchAction ✅, Title/meta desc ✅
+- /roadmap: 301 → trailing-slash redirect ✅ (expected)
+- /exams: 301 → trailing-slash redirect ✅ (expected)
+- Notes topic (neet/physics/phy-001): 200 ✅
+
+### No Changes This Cycle
+- All high-value SEO complete; deploy blocked; workspace clean
+- Live site title: "80+ Exams" (stale 2+ days) vs workspace "125+" — gap growing
+
+### Blockers (User Needed)
+1. **Deploy service fix (critical, recurring):** SSH to VPS then:
+   `sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service && sudo sed -i 's/Restart=no/Restart=always/' && sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy`
+2. **Deploy token** — endpoint alive (returns 400/403) but needs bearer auth
+3. **GSC verification code** — replace `YOUR_VERIFICATION_CODE_HERE` in Layout.astro
+4. **Formspree ID** — replace `REPLACE_WITH_FORMSPREE_ID` in feedback.astro
+
+---
+
 ## Research Run 9 | 2026-04-05 03:45 UTC
 
 ### Site Status

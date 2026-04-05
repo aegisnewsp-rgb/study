@@ -207,7 +207,7 @@ const pathwayExams = pathwayExamEntries
   .map(p => ({ ...p, exam: ALL_EXAMS.find(e => e && e.examId === p.examId) }));
 ---
 
-<Layout title={title} description={description} canonical={canonicalUrl}>
+<Layout title={title} description={description} canonical={canonicalUrl} image={`/og-notes/exam-${exam.examId}.jpg`}>
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
   <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
   <script type="application/ld+json" set:html={JSON.stringify(howToJsonLd)} />

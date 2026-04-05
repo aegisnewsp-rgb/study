@@ -1142,3 +1142,30 @@ sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deplo
 sudo sed -i 's/Restart=no/Restart=always/' /etc/systemd/system/studyroadmap-deploy.service
 sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
 ```
+
+---
+
+## Research Findings — 2026-04-05T00:11 UTC
+
+### 🔴 Critical (fix immediately)
+- **Deploy service DOWN** — ports 9000 return 404; workspace changes (including "125+" fix) cannot reach production
+
+### 🟡 Important (fix this cycle)
+- **Site running stale code** — live studyroadmap.in shows "80+" in 12+ places; workspace has correct "125+" but can't deploy
+- Deploy service fix requires SSH (per backlog): `Type=oneshot` → `Type=simple` + `Restart=always`
+
+### 🟢 Quick Wins (easy improvements)
+- Build: ✅ 3347 pages in 57s (workspace healthy)
+- News: need to check freshness
+- All SEO schemas verified on live site: FAQPage (homepage 15Qs ✅, NEET exam page ✅), HowTo ✅, BreadcrumbList ✅, Organization ✅, WebSite+SearchAction ✅
+
+### 📊 Traffic Opportunities
+- Deploy blocked — no new changes can reach live site
+- GSC verification still pending user code
+- AdSense integration still pending user account
+
+### ✅ Completed This Run
+- Site health check: 3 key pages (homepage, /exams/neet/, /notes/neet/physics/) all 200 ✅
+- Build verified: 3347 pages ✅
+- Deploy status: DOWN (user SSH fix needed)
+- Workspace: clean (no uncommitted changes)

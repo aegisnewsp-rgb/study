@@ -1318,3 +1318,30 @@ sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
 - llm.txt date: 2026-04-05 ✅
 - No deploy — nothing to commit (prior news fetch committed automatically)
 - Remaining blockers all need user SSH/action (deploy backend fix, GSC codes, Formspree, AdSense)
+
+## Research Run 6 | 2026-04-05 00:41 UTC
+
+### Site Status
+- Homepage: 200 ✅
+- /exams/neet/: 200 ✅ (title, meta desc, 2 JSON-LD scripts)
+- /notes/neet/: 200 ✅ (title, 2 JSON-LD scripts)
+- Sitemap: valid index + sitemap ✅
+- llm.txt: Date: 2026-04-05 ✅ (already current)
+- Footer: "Content reviewed April 2026" ✅ (already current)
+- News: 10 items ✅ (JEE Mains Session 2 top story — exam begins April 7)
+- Robots.txt: matches workspace ✅
+
+### News
+- 10 items saved to public/news.json ✅
+- India: 4 (JEE Mains Session 2, Jamia Millia UPSC coaching), Pakistan: 2, Nigeria: 4
+- Top story: "JEE Mains 2026 Session 2 from tomorrow" — very timely
+
+### Findings
+- No code changes needed this cycle — all high-value SEO complete
+- NEET exam page: full FAQPage + meta description confirmed ✅
+- NEET notes index: 2 JSON-LD scripts (likely BreadcrumbList + FAQPage) ✅
+- All structural/structured data/schema work done and verified
+- Remaining items all need user input: GSC code, AdSense code, deploy service fix (SSH), Formspree ID
+
+### No changes — monitoring cycle
+- Commit: none (news was already up-to-date; workspace clean)

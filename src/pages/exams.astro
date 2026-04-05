@@ -21,7 +21,7 @@ const examItemList = {
   name: 'All Competitive Exams on StudyRoadmap',
   description: `Browse ${ALL_EXAMS.length} competitive exams from India, Pakistan, Nigeria, and ${30} other countries. Each exam page includes syllabus, exam pattern, eligibility criteria, and free AI study roadmap.`,
   numberOfItems: ALL_EXAMS.length,
-  itemListElement: ALL_EXAMS.slice(0, 20).map((exam, i) => ({
+  itemListElement: ALL_EXAMS.map((exam, i) => ({
     '@type': 'ListItem',
     position: i + 1,
     name: exam.examName || exam.examId,

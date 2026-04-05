@@ -11,13 +11,31 @@ let latestNews: Array<{title: string; url: string; source: string; country: stri
 try {
   const newsPath = join(process.cwd(), 'public', 'news.json');
   const newsData = JSON.parse(readFileSync(newsPath, 'utf-8'));
-  latestNews = (newsData || []).slice(0, 6).map((item: any) => ({
-    title: item.title || '',
-    url: item.url || '#',
-    source: item.source || 'Exam News',
-    country: item.country || 'india',
-    age: item.age || '',
-  }));
+  latestNews = (newsData || []).slice(0, 6).map((item: any) => {
+    // Compute relative age from ISO published timestamp
+    let age = '';
+    if (item.published) {
+      const diff = Date.now() - new Date(item.published).getTime();
+      const mins = Math.floor(diff / 60000);
+      if (mins < 1) age = 'just now';
+      else if (mins < 60) age = `${mins}m ago`;
+      else {
+        const hrs = Math.floor(mins / 60);
+        if (hrs < 24) age = `${hrs}h ago`;
+        else {
+          const days = Math.floor(hrs / 24);
+          age = `${days}d ago`;
+        }
+      }
+    }
+    return {
+      title: item.title || '',
+      url: item.url || '#',
+      source: item.source || 'Exam News',
+      country: item.country || 'india',
+      age,
+    };
+  });
 } catch (e) {
   latestNews = [];
 }

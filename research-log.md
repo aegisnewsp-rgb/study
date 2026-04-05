@@ -1066,3 +1066,27 @@ All remaining improvements need user-provided values:
 - Robots.txt: ✅
 - 0 critical issues found
 
+
+## Research Findings — 2026-04-05 23:13 UTC
+
+### 🔴 Critical (fix immediately)
+- **Deploy backend down** — /deploy returns 404 (port 9000) — known recurring issue (Type=oneshot, Restart=no). Needs SSH: `sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service && sudo sed -i 's/Restart=no/Restart=always/' && sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy`
+
+### 🟡 Important (fix this cycle)
+- **YAML frontmatter error in uptet/social/social-002.md** — build was failing. Values with colons (topicName "Indian Constitution: Preamble and Fundamental Rights", subjectName "Social Studies") not quoted. Fixed by quoting these values in frontmatter.
+
+### ✅ Completed This Run
+- Fixed YAML frontmatter in `src/content/notes/uptet/social/social-002.md` — quoted topicName/subjectName/examName to escape colons
+- Build: ✅ 0 errors (exit 0), 2 warnings (route conflicts on ssc-cgl-tier2 — non-breaking)
+- Git push: ✅ to origin main (6325ba8)
+- News: 10 items ✅ (JEE Main 2026 April 6 Shift 2 in news)
+- Deploy: ❌ backend down (404 on /deploy) — user needs to restart backend service
+
+### ⚠️ Still Blocked (needs user action or server access)
+1. Deploy backend crashes — Type=oneshot + Restart=no — user needs SSH fix (commands above)
+2. GSC verification code (`YOUR_VERIFICATION_CODE_HERE` in Layout.astro)
+3. Bing verification code (`BING_VERIFICATION_CODE` in Layout.astro)
+4. AdSense integration (needs account + code)
+5. Formspree feedback form (`REPLACE_WITH_FORMSPREE_ID` in feedback.astro)
+6. GitHub push works but targets `aegisnewsp-rgb/study` (studyroadmap-astro repo missing — low priority)
+

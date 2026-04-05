@@ -1,5 +1,35 @@
 # Research Log — StudyRoadmap Growth Research
 
+## Research Run 13 | 2026-04-05 04:40 UTC
+
+### Site Status
+- Homepage: 200 ✅ | /exams/: 200 ✅ | /notes/neet/physics/: 200 ✅
+- Deploy endpoint (172.17.0.1:9000): 404 ❌ — backend dead (Type=oneshot crash, recurring)
+- News: not checked (cron refreshes separately)
+
+### Quick Audit (3 pages)
+- Homepage: FAQPage (15 Qs) ✅, Organization ✅, WebSite+SearchAction ✅, hreflang ✅
+- /exams/jeemain/: 200 ✅, BreadcrumbList ✅, HowTo schema ✅
+- Notes topic page: 200 ✅, canonical ✅, FAQPage ✅
+
+### Change Made: 404 Page Exam ID Bug Fix
+**File:** `src/pages/404.astro`
+**Bug:** The 404 page's "Popular exams" quick links used `.replace(' ', '-')` to generate exam IDs from display names — producing `jee-main` for "JEE Main". The correct examId in `ALL_EXAMS` is `jeemain` (no hyphen).
+**Impact:** Users clicking "JEE Main" from the 404 page landed on a broken URL (`/roadmap?exam=jee-main`) instead of the roadmap.
+**Fix:** Replaced string-template logic with explicit `{ label, id }` map — all 8 exam links now verified against actual examId values.
+**Build:** ✅ 3349 pages built, postbuild added 124 exam pages to sitemap ✅
+
+### Sitemap Status
+- `fix-sitemap.cjs` postbuild script confirmed working ✅ — adds 124 exam hub pages to sitemap
+- `dist/sitemap-0.xml` contains 125 `/exams/` URLs (124 exam pages + 1 exams index)
+- `/notes/` topic pages also included in sitemap ✅
+
+### No Other Changes This Cycle
+- Most high-value SEO complete; remaining items need user input (GSC code, deploy fix SSH)
+- **User action still needed:** SSH into VPS → run 3 systemd commands to fix deploy service
+
+---
+
 ## Research Run 12 | 2026-04-05 03:53 UTC
 
 ### Site Status

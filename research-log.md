@@ -173,3 +173,24 @@
 - Build: 3,349 pages ✅
 - GitHub push: ✅ (ff7f2ae..326b7cb)
 - Deploy: blocked (deploy endpoint 404 from outside; backend internal at 172.17.0.1:9000 returns Forbidden — needs correct payload)
+
+## Research Findings — 2026-04-05 11:18 UTC
+
+### 🔴 Critical (fix immediately)
+- None — site is healthy
+
+### 🟡 Important (fix this cycle)
+- **Sitemap missing `<lastmod>` tags** — all 3354 sitemap entries lacked lastmod dates, preventing crawlers from prioritizing recently updated content. Fixed this cycle.
+
+### 🟢 Quick Wins (easy improvements)
+- Site healthy: sitemap 3,354 URLs ✅ | All key pages 200 ✅ | News 10 items fresh ✅
+- Sitemap lastmod: added `<lastmod>2026-04-05</lastmod>` to all 3,354 sitemap entries via updated fix-sitemap.cjs post-build script
+
+### 📊 Traffic Opportunities
+- lastmod dates now enable Google to schedule recrawl based on content freshness signals
+- All high-value SEO improvements complete; remaining items need user input (GSC code, AdSense account, VPS SSH fix, Formspree ID)
+
+### ✅ Completed This Run
+- Updated `scripts/fix-sitemap.cjs` to inject `<lastmod>2026-04-05</lastmod>` after every `<loc>` tag without one
+- Tested on dist/sitemap-0.xml: 3,354 URLs all now have lastmod
+- Commit 1b6aa60 — "Add lastmod dates to all sitemap entries (SEO improvement)"

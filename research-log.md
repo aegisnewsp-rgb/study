@@ -1,5 +1,32 @@
 # Research Log — StudyRoadmap Growth Research
 
+## Research Run 16 | 2026-04-05 07:40 UTC
+
+### Site Status
+- Homepage: 200 ✅ | /exams/jeemain/: 200 ✅ | /notes/neet/physics/: 200 ✅
+- Deploy endpoint (172.17.0.1:9000): 404 ❌ — deploy backend still dead (Type=oneshot, needs user SSH fix)
+
+### Quick Audit (3 pages)
+- Homepage title: "StudyRoadmap - Free AI Study Plans for 80+ Exams" — workspace has "125+" but deployed version is stale (deploy service down)
+- /exams/jeemain/ title ✅ "JEE Main — Exam Pattern, Eligibility & Study Plan | StudyRoadmap™"
+- /notes/neet/physics/ title ✅ "Physics Study Notes — NEET UG | StudyRoadmap™"
+- Sitemap confirmed to include all exam hub pages (/exams/aau/ through /exams/jeemain/ ✅) and all notes pages ✅ — sitemap issue from Run 14 is resolved
+
+### No Code Changes This Cycle
+- Workspace is healthy; no new code changes needed
+- Deploy service Type=oneshot issue still blocking production updates — **user SSH action still required:**
+  ```bash
+  sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service
+  sudo sed -i 's/Restart=no/Restart=always/' /etc/systemd/system/studyroadmap-deploy.service
+  sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
+  ```
+- All SEO improvements already implemented in workspace; next deploy will push hreflang, Twitter app meta, 125+ exam count, and all other fixes live
+
+### Git Status
+- Committed: research-log.md update (93bf739) — workspace clean
+
+---
+
 ## Research Run 15 | 2026-04-05 07:28 UTC
 
 ### Site Status

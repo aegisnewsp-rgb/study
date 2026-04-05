@@ -995,3 +995,37 @@ All remaining improvements need user-provided values:
 
 ### 📊 Traffic Opportunities
 - All high-value SEO done. Growth now depends on: GSC submission + rapid indexing request, AdSense integration, backlink outreach, directory submissions.
+
+## Research Findings — 2026-04-05T22:05 UTC
+
+### 🔴 Critical (fix immediately)
+- None — site is healthy
+
+### 🟡 Important (fix this cycle)
+- None — all high-value SEO complete; remaining items need user input
+
+### 🟢 Quick Wins (easy improvements)
+- **News refresh:** 10 items (India: 4, Pakistan: 2, Nigeria: 4) ✅ — fresh today
+- **Build:** 3354 pages in 64s ✅ — clean
+- **Sitemap:** postbuild script correctly removed 4 broken exam entries (gre, ast, sathe, uaeu-cat) ✅ — 125 exam pages confirmed
+- **llm.txt:** date already 2026-04-05 ✅ (current)
+- **Footer:** "Content reviewed April 2026" (static, acceptable)
+- **robots.txt:** AI training blocked, citations allowed, sitemap referenced ✅
+
+### 📊 Traffic Opportunities
+- All SEO signals green: FAQPage, HowTo, BreadcrumbList, Organization, WebSite+SearchAction, Person, ItemList, hreflang ✅
+- 3,354 pages built and sitemap clean
+- Remaining leverage entirely blocked on user input: GSC verification code, AdSense account, Formspree ID, deploy service SSH fix
+
+### ✅ Completed This Run
+- News refresh: 10 items ✅
+- Build: 3354 pages ✅
+- Commit: 82d392a ✅
+- Deploy: endpoint may need user SSH fix (Type=oneshot recurring crash)
+
+### 🛑 Still Blocked (needs user action)
+1. GSC meta tag — `YOUR_VERIFICATION_CODE_HERE` in Layout.astro
+2. Bing meta tag — `BING_VERIFICATION_CODE` in Layout.astro
+3. AdSense integration — needs approved account + code
+4. Formspree ID — `REPLACE_WITH_FORMSPREE_ID` in feedback.astro
+5. Deploy service restart policy — SSH needed: `Type=oneshot` → `Type=simple` + `Restart=always`

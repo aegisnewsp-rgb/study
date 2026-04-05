@@ -1,5 +1,29 @@
 # Research Log — StudyRoadmap Growth Research
 
+## Research Run 7 | 2026-04-05 01:50 UTC
+
+### Site Status
+- Homepage: 200 ✅ (still "80+ Exams" — stale, workspace has 125+)
+- Deploy endpoint (172.17.0.1:9000): 404 ❌ (backend dead — Type=oneshot issue, SSH fix needed)
+- Build: 3347 pages ✅ (just completed, clean)
+- llm.txt: Date: 2026-04-05 ✅
+- News: 10 items ✅ (last refreshed 01:42 UTC, 8 min ago — still fresh)
+
+### Findings
+- **Deploy blocked**: Port 9000 returns 404 — backend is dead. Same recurring issue documented since Cycle 106. Cannot deploy without SSH fix.
+- **Live site stale**: studyroadmap.in shows "80+ Exams" in title/meta; workspace has "125+" (fixed but can't deploy)
+- **Workspace state**: Clean build (3347 pages), all SEO complete, news fresh
+- **No changes this cycle**: Nothing actionable — all remaining items need user input (GSC, AdSense, SSH deploy fix) or are blocked by dead backend
+
+### Action Items (User Needed)
+1. SSH fix for deploy service: `sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service && sudo sed -i 's/Restart=no/Restart=always/' && sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy`
+2. GSC verification code to replace `YOUR_VERIFICATION_CODE_HERE` in Layout.astro
+3. Formspree ID for feedback form
+
+### No changes — monitoring cycle (deploy blocked)
+
+---
+
 ## Research Run 6 | 2026-04-05 01:42 UTC
 
 ### Site Status
@@ -1700,3 +1724,26 @@ sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
 ### ⚠️ Action Required
 - Deploy service fix (SSH needed): `Type=oneshot` → `Type=simple` + `Restart=no` → `Restart=always`
 - OR: Manual deploy via VPS terminal
+
+## Cycle — 2026-04-05T01:48 UTC | PASSED ✅
+
+### 🔴 Critical (fix immediately)
+- None found — site healthy
+
+### 🟡 Important (fix this cycle)
+- **Notes FAQ hardcoded "21 exams"**: `/notes/` FAQ claimed notes cover "21 exams" — actually 89 exams have real content. Fixed to dynamically count from `examMeta` + top-10 exams by topic count. Build ✅ 3347 pages.
+
+### 🟢 Quick Wins (easy improvements)
+- Orphan empty dirs found: `src/pages/notes/{apeamc,gujcet,upsee}/` (empty, no .md files) — harmless, not built, could be removed but low priority
+- Deploy service down (port 9000 → 400) — recurring `Type=oneshot` issue; user SSH fix documented in backlog
+
+### 📊 Traffic Opportunities
+- Notes FAQ now accurately reflects 89 exams with content — better Google understanding of coverage breadth
+- GitHub push succeeded ✅ (commit b557671)
+
+### ✅ Completed This Run
+- Fixed hardcoded "21 exams" → dynamic `89 exams` in notes FAQ
+- FAQ answer now lists top 10 exams by topic count: dynamically generated
+- Build: 3347 pages ✅
+- GitHub: pushed ✅
+- Deploy: blocked (deploy service down — recurring issue)

@@ -1833,3 +1833,40 @@ sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
 ### What Was Changed
 - Pushed 12 commits to GitHub (aegis-news/main) — includes 125+ exam count fix
 - No code changes this cycle — push only
+
+## Research Findings — 2026-04-05T02:03 UTC
+
+### Site Status
+- Homepage: 200 ✅ (still "80+" — workspace has "125+" but not deployed)
+- /exams/neet/: 200 ✅ (title/meta correct, FAQPage + HowTo + BreadcrumbList live)
+- /notes/neet/physics/: 200 ✅ (FAQPage 4 Qs + BreadcrumbList + CollectionPage live)
+- News: 10 items ✅ (India:4, Pakistan:2, Nigeria:4 — fresh from this cycle)
+- llm.txt: Date: 2026-04-05 ✅
+
+### Findings
+- **Live site stale at "80+"**: studyroadmap.in still shows old "80+" in title/meta/Organization description. Workspace has "125+" fix but deploy is blocked.
+- **Deploy endpoint DOWN**: port 9000 returns 404 (backend dead — recurring Type=oneshot systemd issue, SSH fix still needed from user)
+- **All SEO infrastructure complete**: FAQPage (15 Qs homepage, exam-specific on all pages), HowTo, BreadcrumbList, Organization, WebSite+SearchAction, Article schema on topic notes — all live and correct
+- **News fresh**: 10 items just refreshed (UPSC NDA admit card, MDCAT reforms, WAEC malpractice — all timely)
+- **Workspace clean**: no uncommitted changes, all prior commits synced to aegis-news/main
+
+### Critical (unchanged — needs user)
+- **Deploy service fix** — SSH needed:
+  ```bash
+  sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service
+  sudo sed -i 's/Restart=no/Restart=always/' /etc/systemd/system/studyroadmap-deploy.service
+  sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
+  ```
+- **GSC verification code** — replace `YOUR_VERIFICATION_CODE_HERE` in Layout.astro
+- **Bing verification code** — replace `BING_VERIFICATION_CODE` in Layout.astro
+
+### ✅ Completed This Run
+- News refresh: 10 items ✅ (India:4, Pakistan:2, Nigeria:4)
+- Site audit: all key pages structurally healthy ✅
+- No code changes — all high-value SEO complete; deploy blocked by recurring backend issue
+
+### ⚠️ Blockers (all need user action)
+1. Deploy service fix (SSH)
+2. GSC/Bing verification codes
+3. All remaining items need user input (AdSense, Formspree ID)
+

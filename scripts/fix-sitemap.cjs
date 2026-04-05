@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 // Post-build script to add missing /exams/ pages to sitemap
-// Reads exam IDs from src/data/exams.ts (TypeScript source) to avoid needing dist/ structure
+// Reads exam IDs from actual exam definition files in src/data/exams/*/
 const fs = require('fs');
 const path = require('path');
 
-const examsDataPath = path.join(__dirname, '..', 'src', 'data', 'exams.ts');
+const examsBase = path.join(__dirname, '..', 'src', 'data', 'exams');
 const sitemapPath = path.join(__dirname, '..', 'dist', 'sitemap-0.xml');
 
 if (!fs.existsSync(sitemapPath)) {
@@ -12,28 +12,28 @@ if (!fs.existsSync(sitemapPath)) {
   process.exit(0);
 }
 
-// Try to read exam IDs from src/data/exams.ts
+// Collect all exam IDs by scanning exam definition files
 let examIds = [];
 
-if (fs.existsSync(examsDataPath)) {
-  const examsContent = fs.readFileSync(examsDataPath, 'utf8');
-  // Also check for ./exams or ./exams-new canonical data files
-  const examsIndexPath = path.join(__dirname, '..', 'src', 'data', 'exams', 'index.ts');
-  const examsNewIndexPath = path.join(__dirname, '..', 'src', 'data', 'exams-new', 'index.ts');
-
-  let allExamsContent = examsContent;
-
-  if (fs.existsSync(examsIndexPath)) {
-    allExamsContent += '\n' + fs.readFileSync(examsIndexPath, 'utf8');
+function scanDir(dir) {
+  if (!fs.existsSync(dir)) return;
+  const entries = fs.readdirSync(dir, { withFileTypes: true });
+  for (const entry of entries) {
+    const full = path.join(dir, entry.name);
+    if (entry.isDirectory()) {
+      // e.g. src/data/exams/india, src/data/exams/pakistan, etc.
+      scanDir(full);
+    } else if (entry.name.endsWith('.ts') && entry.name !== 'index.ts') {
+      // Individual exam file like neet.ts, gate.ts
+      const content = fs.readFileSync(full, 'utf8');
+      const match = content.match(/examId\s*:\s*['"]([^'"]+)['"]/);
+      if (match) examIds.push(match[1]);
+    }
   }
-  if (fs.existsSync(examsNewIndexPath)) {
-    allExamsContent += '\n' + fs.readFileSync(examsNewIndexPath, 'utf8');
-  }
-
-  // Extract examId values from exam objects: examId: "neet", examId: "gate", etc.
-  const examIdMatches = allExamsContent.matchAll(/examId\s*:\s*["']([^"']+)["']/g);
-  examIds = [...new Set([...examIdMatches].map(m => m[1]))];
 }
+
+scanDir(examsBase);
+examIds = [...new Set(examIds)];
 
 if (examIds.length === 0) {
   console.log('Could not extract exam IDs from source, skipping exam page addition to sitemap');
@@ -66,7 +66,7 @@ const newExamUrls = examIds
   .map(examId => `  <url><loc>${BASE_URL}/exams/${examId}/</loc></url>`);
 
 if (newExamUrls.length === 0) {
-  console.log('All exam pages already in sitemap or no exams found');
+  console.log(`All ${examIds.length} exam pages already in sitemap`);
   process.exit(0);
 }
 

@@ -2658,3 +2658,53 @@ sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
 3. AdSense account + code injection
 4. MiniMax API top-up for content generation
 5. Deploy service fix (Type=oneshot → Type=simple)
+
+## Research Findings — 2026-04-05T04:50 UTC
+
+### 🔴 Critical (fix immediately)
+- None
+
+### 🟡 Important (fix this cycle)
+- None — all major SEO complete
+
+### 🟢 Quick Wins (easy improvements)
+- None available without user input (GSC, AdSense, VPS SSH)
+
+### 📊 Traffic Opportunities
+- JEE Main Session 2 exam pages now in sitemap ✅
+- 124 exam hub pages indexed via sitemap fix
+
+### ✅ Completed This Run
+- Build: 3346 pages ✅ (postbuild sitemap fix applied)
+- News: 10 items ✅ (India:4, Pakistan:4, Nigeria:4)
+- Site: healthy ✅
+- Commit: 45ae07d
+
+---
+
+## 2026-04-05 04:55 UTC — Growth Research Cycle (Minute-Check)
+
+**Status:** Site healthy, deploy endpoint degraded (returns "Bad request"), 1 SEO gap confirmed
+
+### Site Health Check
+| Page | HTTP |
+|------|------|
+| Homepage | 200 |
+| /exams/neet/ | 200 |
+| /notes/neet/physics/phy-001/ | 200 |
+| sitemap-0.xml | 200 (ETag: static file, healthy) |
+
+**Sitemap confirmed complete:** Contains all key static pages (`/about/`, `/contact/`, `/feedback/`, `/exams/`, `/notes/`, `/roadmap/`, `/privacy/`, `/terms/`) + all 124 exam pages + all notes pages. No phantom entries.
+
+### Confirmed Issues
+
+1. **SEO: GSC/Bing verification placeholders still present** — `src/layouts/Layout.astro` has `REPLACE_WITH_GOOGLE_SEARCH_CONSOLE_VERIFICATION_CODE` and `REPLACE_WITH_BING_VERIFICATION_CODE`. Site not verifiable in Google Search Console or Bing Webmaster Tools without real codes. **Owner needs to provide actual verification codes.**
+
+2. **Deploy endpoint degraded** — `POST http://172.17.0.1:9000/deploy` returns "Bad request" instead of triggering a deploy. The backend on that port is alive but the deploy logic is failing. Needs manual investigation or restart of the deploy service.
+
+3. **Analytics: HTTP Plausible script** — All pages load `http://187.127.134.151:55412/js/pa-3Wzng1fo7sbq7otODC79C.js` over HTTP (mixed content). The IP address `187.127.134.151` is unusual for Plausible (normally uses a CDN hostname). Could be a self-hosted Plible instance or misconfiguration.
+
+### No Change Made
+- Deploy endpoint not functional — cannot build and deploy
+- Verification codes not available from this context
+- Site structure and content are healthy

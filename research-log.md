@@ -1,5 +1,29 @@
 # Research Log — StudyRoadmap Growth Research
 
+## Research Run 12 | 2026-04-05 03:53 UTC
+
+### Site Status
+- Homepage: 200 ✅ | /exams/: 200 ✅ | /notes/neet/physics/: 200 ✅
+- Deploy endpoint (172.17.0.1:9000): 404 ❌ — backend dead (Type=oneshot crash, recurring)
+- News: ✅ 10 items refreshed (India: 4, Pakistan: 4, Nigeria: 2, deduped from 810 older items)
+
+### Quick Audit (3 pages)
+- Homepage: FAQPage (15 Qs) ✅, Organization ✅, WebSite+SearchAction ✅
+- /exams/: 200 ✅ (trailing-slash redirect working)
+- Notes topic: 200 ✅
+
+### No Changes This Cycle
+- Deploy backend dead — same recurring Type=oneshot crash issue
+- Site is live (served via CDN/nginx) but code deployments blocked
+- All high-value SEO complete; no automated improvements available without deploy access
+- **User action still needed:** SSH into VPS → run 3 systemd commands to fix deploy service
+
+### Git Status
+- 1 commit ahead (news refresh) — committed c0bc894
+- All code changes from prior cycles still stuck locally
+
+---
+
 ## Research Run 11 | 2026-04-05 03:50 UTC
 
 ### Site Status

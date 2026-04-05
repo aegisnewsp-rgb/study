@@ -58,23 +58,6 @@ const ROADMAP_FAQS = [
   },
 ];
 
-// Exam-specific FAQs — injected into the page when a user selects an exam
-
-const HOW_TO_STEPS = [
-  {
-    name: "Select your exam and available time",
-    text: "Choose your competitive exam from the dropdown — NEET, JEE, UPSC, MDCAT, JAMB and 20+ more. Then select how many hours per day you can study and your exam date or total number of days available.",
-  },
-  {
-    name: "View your personalised roadmap",
-    text: "Your roadmap loads instantly, showing the highest-weight topics organised by subject and day. Topics are sequenced by exam relevance so you always study what matters most first.",
-  },
-  {
-    name: "Track progress and open study notes",
-    text: "Tick off topics as you complete them. Click any topic to open free study notes in a new tab. The roadmap adjusts dynamically if you mark topics done or skip days.",
-  },
-];
-
 // Group exams by country for the "Browse More" internal links section
 const byCountry = {
   india:    { label: 'India',    flag: '🇮🇳', exams: ALL_EXAMS.filter(e => e.country === 'india') },
@@ -137,7 +120,6 @@ const howToJsonLd = {
   title="Generate Your Study Roadmap — StudyRoadmap™"
   description="Choose your exam and timeline — get an instant personalised study plan. Free, no signup, for NEET, JEE, UPSC, MDCAT, JAMB and more."
   faqs={ROADMAP_FAQS}
-  howToSteps={HOW_TO_STEPS}
 >
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
   <script type="application/ld+json" set:html={JSON.stringify(howToJsonLd)} />

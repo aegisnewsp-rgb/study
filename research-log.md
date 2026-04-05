@@ -1029,3 +1029,40 @@ All remaining improvements need user-provided values:
 3. AdSense integration — needs approved account + code
 4. Formspree ID — `REPLACE_WITH_FORMSPREE_ID` in feedback.astro
 5. Deploy service restart policy — SSH needed: `Type=oneshot` → `Type=simple` + `Restart=always`
+
+## Research Findings — 2026-04-05T22:08 UTC
+
+### ✅ Checks Performed
+- Homepage (studyroadmap.in): Title, meta description, FAQPage, Organization, WebSite+SearchAction, BreadcrumbList, hreflang, Twitter cards — all ✅
+- Exam page (/exams/neet/): Title, meta, FAQPage, HowTo, BreadcrumbList, Person (author), Organization, hreflang — all ✅
+- Subject page (/notes/neet/physics/): Title, meta, FAQPage, Organization — ✅ (Person/HowTo comments present in HTML but no JSON-LD rendered — workspace has the fix, not yet deployed)
+- Topic page (/notes/neet/physics/phy-001/): Title, meta, FAQPage, Organization — ✅ (same Person/HowTo note as subject page)
+- Live sitemap (studyroadmap.in/sitemap-0.xml): Only 4 URLs — **STALE** (workspace NOT deployed)
+- Workspace sitemap (dist/sitemap-0.xml after build): Full with 3,354 pages including all notes URLs ✅
+
+### 🔍 Key Findings
+1. **Workspace build is healthy**: 3,354 pages built successfully in 65s, postbuild sitemap script ran correctly
+2. **Live site is stale**: Only 4 URLs in sitemap, meaning workspace hasn't been deployed since last build. All SEO schemas and meta tags look identical to workspace — the deployed version is simply outdated
+3. **Minor**: Person/HowTo schema on notes subject/topic pages — workspace has the fix (authorObj passed to Layout), live site may be missing it (deploy will fix)
+
+### 📌 This Cycle's Action
+- Ran full build (`npm run build`) — confirmed workspace is clean and complete
+- Git committed: `b3de3ed` — "Growth cycle verification — build confirmed healthy, sitemap all 3354 pages ready"
+- Deploy still blocked on: deploy service recurring crash (needs user SSH fix)
+
+### 🛑 Still Blocked (needs user action)
+1. GSC meta tag — `YOUR_VERIFICATION_CODE_HERE` in Layout.astro
+2. Bing meta tag — `BING_VERIFICATION_CODE` in Layout.astro
+3. AdSense integration — needs approved account + code
+4. Formspree ID — `REPLACE_WITH_FORMSPREE_ID` in feedback.astro
+5. Deploy service restart policy — SSH needed: `Type=oneshot` → `Type=simple` + `Restart=always`
+6. **Deploy the workspace** — 27+ commits ahead of production
+
+### 📊 Site Health Summary
+- All Major SEO: DONE ✅ (FAQPage, HowTo, BreadcrumbList, Organization, WebSite+SearchAction, Person, ItemList, hreflang on applicable pages)
+- Meta tags: ✅ on all checked pages
+- Sitemap: ✅ in workspace, STALE in production (3,354 pages vs 4)
+- 3,354 pages: built and ready
+- Robots.txt: ✅
+- 0 critical issues found
+

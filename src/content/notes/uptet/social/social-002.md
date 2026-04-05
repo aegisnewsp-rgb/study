@@ -1,10 +1,10 @@
 ---
 exam: uptet
-examName: UPTET
+examName: "UPTET"
 subject: gs1
-subjectName: Social Studies
+subjectName: "Social Studies"
 topic: social-002
-topicName: Indian Constitution: Preamble and Fundamental Rights
+topicName: "Indian Constitution: Preamble and Fundamental Rights"
 weight: 3
 country: uptet
 generated: "2026-03-25T17:00:00"

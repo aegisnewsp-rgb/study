@@ -26,7 +26,7 @@ if (insertBefore === -1) {
 
 const examUrls = examDirs
   .filter(examId => examId && examId.trim())
-  .map(examId => `  <url><loc>https://studyroadmap.com/exams/${examId.trim()}/</loc></url>`)
+  .map(examId => `  <url><loc>https://studyroadmap.in/exams/${examId.trim()}/</loc></url>`)
   .join('\n');
 
 const newSitemap = sitemap.slice(0, insertBefore) + '\n' + examUrls + '\n' + closingTag;

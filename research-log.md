@@ -2766,3 +2766,27 @@ docker compose -f /srv/studyroadmap/docker-compose.yml up -d
 ```
 
 **No code change this cycle** — nothing to commit; git working tree is clean.
+
+## 2026-04-05 05:11 UTC — Cycle
+
+**What I checked:**
+- Site unreachable via HTTP (deploy likely down) — checked via curl/ping
+- Reviewed improvement-log.md and improvement-backlog.md
+- Inspected `public/sitemap.xml` — had 0 URLs (broken)
+- Inspected `astro.config.mjs` — found root domain misconfiguration
+
+**Critical issue found:**
+`astro.config.mjs` had `site: 'https://studyroadmap.in'` but the actual live domain is `https://studyroadmap.com`. This means:
+- ALL sitemap URLs were pointing to wrong domain (`studyroadmap.in` instead of `studyroadmap.com`)
+- ALL canonical tags on every page were wrong
+- ALL og:url meta tags were wrong
+- The postbuild `fix-sitemap.cjs` was also hardcoded with `studyroadmap.in`
+
+**Fix applied:**
+1. Updated `astro.config.mjs`: replaced all 20 occurrences of `studyroadmap.in` → `studyroadmap.com` in both the `site` URL and all `customPages` entries
+2. Updated `scripts/fix-sitemap.cjs`: replaced hardcoded `studyroadmap.in` → `studyroadmap.com`
+3. Ran `npm run build` — 3349 pages built successfully, sitemap now has correct `studyroadmap.com` URLs with 124 exam pages added
+
+**Committed:** `52a60d9` — "Fix sitemap domain: studyroadmap.in → studyroadmap.com (critical SEO fix)"
+
+**Impact:** HIGH — every SEO signal (sitemap, canonical, og:url) was pointing to wrong domain. This directly impacts Google indexing and crawl budget.

@@ -37,7 +37,7 @@ Physics, Chemistry, Biology (Botany & Zoology), Mathematics, English, General Aw
 - https://studyroadmap.in/about — about the project, methodology, and exam board citations
 
 ## Licensing
-Content is freely available for educational use and AI citation/indexing. See https://studyroadmap.in/terms/ for full terms of use.
+All educational content on StudyRoadmap is freely available for non-commercial educational use and AI citation/indexing. No attribution required for AI citations. AI training crawlers are blocked per robots.txt policy. See https://studyroadmap.in/terms/ for full terms of use.
 
 ## Contact
 contact@studyroadmap.in
@@ -45,7 +45,7 @@ GitHub: https://github.com/aegisnewsp-rgb
 
 ## Site Architecture
 - Homepage: https://studyroadmap.in/ — FAQ, HowItWorks, Latest Exam Updates (sourced from news.json)
-- Exams Directory: https://studyroadmap.in/exams/ — ItemList of all 123 competitive exams
+- Exams Directory: https://studyroadmap.in/exams/ — ItemList of all 125+ competitive exams
 - Individual Exam Pages: https://studyroadmap.in/exams/{examId}/ — exam details, subject cards, HowTo, FAQPage
   Examples: /exams/neet/, /exams/jeemain/, /exams/upsc/, /exams/jamb/, /exams/mdcat/
 - Study Notes: https://studyroadmap.in/notes/{examId}/{subjectId}/ — topic listings
@@ -56,7 +56,7 @@ GitHub: https://github.com/aegisnewsp-rgb
 ## Data Coverage (as of 2026-04-05)
 - 124 individual exam pages with unique content (description, exam pattern, eligibility, subject list)
 - 3,345+ pages total across India, Pakistan, Nigeria, Bangladesh, and other countries
-- 124 exams covered: NEET, JEE Main, JEE Advanced, CUET, UPSC, SSC CGL, CAT, CLAT, NDA, UGC NET (India)
+- 125+ exams covered: NEET, JEE Main, JEE Advanced, CUET, UPSC, SSC CGL, CAT, CLAT, NDA, UGC NET (India)
   MDCAT, ECAT, NAT-I, LAT, HAT-UG (Pakistan)
   JAMB, WAEC, NECO, NABTEB, NCEE (Nigeria)
   AP EAMCET, TS EAMCET, KCET, LPUNEST, MET, VITEEE, COMEDK, BITSAT, and 100+ more
@@ -67,7 +67,3 @@ GitHub: https://github.com/aegisnewsp-rgb
 News section on homepage updated every ~30 minutes via Google News RSS aggregation.
 Exam page content updated when official exam boards release new notifications.
 All exam syllabus data reviewed at the start of each exam cycle.
-
-## Licensing
-All educational content on StudyRoadmap is freely available for non-commercial educational use and AI citation/indexing.
-No attribution required for AI citations. AI training crawlers are blocked per robots.txt policy.

@@ -15,237 +15,218 @@ generated: "2026-03-25T17:00:00"
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Mixed Data Sets & Data Integration** — Key Facts for MAT
-Core concept: Mixed data sets combine two or more data formats (table + pie chart, bar graph + caselet paragraph) in a single question set. Data integration asks you to combine, cross-reference, or reconcile information from multiple sources.
-High-yield point: The hardest part of mixed data sets isn't the math — it's correctly identifying which data from which source answers which question.
-⚡ Exam tip: Before calculating anything, identify the CROSSOVER points between the two data formats. What does source A give that source B doesn't? Where do they overlap?
+**Mixed data sets** combine two or more distinct data formats—a table alongside a pie chart, a bar graph paired with a caselet paragraph, or multiple tables—in a single question set. The challenge is not the arithmetic; it is correctly identifying which data from which source answers which question. MAT tests your ability to cross-reference these sources and integrate their information.
 
-**Quick Strategy:**
-1. Identify all data sources presented (usually 2–3 per set)
-2. Note what each source uniquely provides vs what overlaps
-3. Answer questions that use only one source first (simpler)
-4. For cross-source questions, build a bridge table connecting the shared variable
-5. Watch units — mixed sources often use different scales (lakhs vs millions, % vs absolute)
+**Key Insight:** Every mixed data set contains a "bridge variable"—a common element (product name, year, city, company) that connects two otherwise separate data sources. Finding this bridge is the critical first step before any cross-source calculation.
+
+**Essential Process:**
+
+1. Survey all data sources (usually 2–3) and note their format, units, and scope
+2. List variables in each source and identify the shared/bridge variable
+3. Answer single-source questions first (easier, faster marks)
+4. For cross-source questions, extract from each source sequentially, then combine
+5. Verify unit consistency before calculating—convert all monetary values to the same scale, all population figures to the same magnitude
+
+**⚡ Exam Tips for MAT:**
+The crossover point between sources is where the hardest—and highest-value—questions live. A table might show Company A's revenue as ₹120 lakh, while a pie chart shows A's market share as 15%. From both: total market size = ₹120 lakh / 0.15 = ₹800 lakh. This combined calculation is unique to the mixed format and appears in Q3 or Q4 of most sets. Target 6–8 minutes per mixed data set with 5 questions.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Mixed Data Sets & Data Integration** — MAT Study Guide
+**Why Mixed Data Sets Appear in MAT**
 
-**What Are Mixed Data Sets?**
-In a mixed data set, information is spread across multiple formats — a table AND a pie chart, a bar graph AND a caselet paragraph, or even three separate tables. To answer the questions, you must pull data from different sources and sometimes combine them into a single calculation. MAT uses this format to simulate real business intelligence work, where data rarely comes in one neat package.
+Management graduates work with data from multiple systems simultaneously—sales figures from a CRM, costs from an ERP, market research from external surveys. MAT replicates this reality by presenting data in split formats. The skill being tested is synthesis: can you take incomplete information from multiple sources and reach a coherent answer?
 
-**Why MAT Tests This Skill:**
-- Managers constantly work with data from multiple systems (sales from CRM, costs from ERP, surveys from feedback tools)
-- The ability to integrate disparate data is directly job-relevant
-- It tests higher-order thinking: synthesis, not just extraction
+**Common Format Combinations:**
 
-**Common Mixed Data Combinations in MAT:**
+| Source A | Source B | Integration Required |
+|----------|----------|---------------------|
+| Quantitative table | Pie chart (% shares) | Absolute values × percentages → total market size |
+| Bar graph (magnitudes) | Caselet paragraph | Visual reading + textual constraints/relationships |
+| Two or more tables | — | Join on common column (product, year, region) |
+| Table | Line graph (trend) | Snapshot value + trend direction → point-in-time analysis |
 
-| Source A | Source B | What It Tests |
-|---|---|---|
-| Table (quantitative) | Pie chart (% share) | Cross-verification, ratio calculations |
-| Bar graph (trends) | Caselet paragraph | Narrative + visual data reconciliation |
-| Two tables | — | Join on a common key (e.g., product name, year) |
-| Table | Line graph | Reading different visual formats together |
+**The Bridge Variable Concept**
 
-**The Integration Mindset:**
+When data appears in two separate formats, they connect through a shared variable. Identify this first:
 
-The single biggest mistake students make on mixed data sets is treating each source in isolation. Instead, think:
+- Table lists companies and revenues; pie chart shows those same companies' market shares. Bridge = company name.
+- Table A has product sales by region; Table B has product profit margins by region. Bridge = product name AND region.
+- Bar graph shows quarterly production; caselet mentions annual target. Bridge = time period (quarters relate to annual total).
 
-1. **What unique information does Source A give me?**
-2. **What unique information does Source B give me?**
-3. **What can I ONLY calculate by combining both?**
+Once the bridge is identified, cross-source calculations become straightforward: extract from Source A, extract from Source B, combine using the bridge.
 
-The answer to question 3 is where the highest-value, most-differentiated marks are.
+**Single-Source vs Cross-Source Questions**
 
-**Building a Bridge Variable:**
+In a typical 5-question mixed set:
 
-When two data sources seem unrelated, look for a bridge — a common variable that connects them.
+- **Q1:** Extract from one source only (e.g., "What was Company X's revenue?" from the table) — straightforward, do first
+- **Q2:** Extract or calculate from one source (e.g., "What was the percentage growth of Company Y?" from the bar graph) — still easy
+- **Q3:** Cross-source (e.g., "Using the table's revenue and the pie chart's market share, find the total market size") — moderate difficulty
+- **Q4:** Conditional cross-source (e.g., "If Company X's revenue grew by 12%, what would be its new market share?") — harder
+- **Q5:** "Which of the following is TRUE?" evaluating multiple statements across both sources — requires checking each option against data
 
-Example: Source A has product names and revenues. Source B has product names and market share percentages. The bridge is "product name." If Source B gives market share of each product in the overall market, and Source A gives one company's revenue, you can estimate total market size.
+**Unit Conversion: The Non-Negotiable Step**
 
-**Cross-Source Calculation Process:**
+Mixed data sets routinely use different units across sources. Before calculating anything:
 
-1. **Identify the target question** — What do I need to find?
-2. **Find the bridging variable** — What connects my two sources?
-3. **Extract from Source A** — Get the base number
-4. **Extract from Source B** — Get the multiplier or percentage
-5. **Calculate** — Combine carefully, watching units
+```
+Conversion Checklist:
+[ ] All monetary values in the same unit (₹ lakhs preferred)
+[ ] All quantities (orders, units, population) on the same scale
+[ ] All percentages from the same base (total market vs segment total)
+[ ] All time periods consistent (quarters vs annual vs monthly)
+```
 
-**Handling Conflicting Data:**
+Example: Table shows revenue in ₹ crores. Pie chart shows percentages of total market in ₹ lakhs. Convert pie chart figures to crores first (divide by 100) before using in combined calculations.
 
-Sometimes the two sources give slightly different numbers for what should be the same value. In MAT, this usually means:
-- One source is rounded, the other is exact
-- There's a definitional difference (revenue vs net revenue, for example)
-- The discrepancy is a deliberate trap
+**Handling Conflicting Data Between Sources**
 
-If asked "which source is more reliable," the answer is typically the more detailed/granular source (absolute numbers over percentages, primary data over derived data).
+If Source A says Company X's revenue is ₹50 lakh and Source B (applied to the same context) implies ₹52 lakh, this discrepancy typically means:
 
-**Unit Conversion — Non-Negotiable Skill:**
+- One source is rounded (₹50 lakh is likely ₹49–51 lakh rounded)
+- There's a definitional difference (revenue vs net revenue, total cost vs operating cost)
+- The question expects you to use the more granular/precise source
 
-Mixed data sets are notorious for unit mismatches:
+In MAT, when two sources conflict, the table (absolute figures) generally takes precedence over the chart (which may be approximate). For "approximately" questions, accept the smaller discrepancy.
 
-- ₹ in lakhs vs crores
-- Population in thousands vs millions
-- Percentages (share) vs absolute values (counts)
-- Tons vs kilograms
-- Years vs quarters vs months
+**Problem-Solving Sequence:**
 
-Create a conversion checklist before calculating:
-- [ ] All monetary values in same unit?
-- [ ] All population/production figures in same scale?
-- [ ] All percentages from same base?
+1. Read all questions briefly (30 seconds) — identify which sources each question needs
+2. For each question, trace the data path: Source A provides X, Source B provides Y, combine for answer
+3. For single-source questions, extract and calculate directly
+4. For cross-source questions, build a mini scratchpad:
+   - From Source A: Variable A = [value], Variable B = [value]
+   - From Source B: Variable C = [value] (% of something)
+   - Combined: Variable B's share of total = B / C × 100 = [answer]
+5. Check that units match before combining
+6. Verify by cross-checking against the third source if available
 
-**Question Prioritization Strategy:**
+**Common Mistakes on Mixed Data:**
 
-In a 4–6 question mixed data set:
-- Q1–Q2: Usually single-source extraction (easy, do first)
-- Q3–Q4: May require one calculation from one source (moderate)
-- Q5–Q6: Often cross-source integration or "which is true" statements (harder)
-
-Always do the easy ones first — confidence building and quick wins before spending time on complex integrations.
-
-**Common Pitfalls:**
-- Forgetting that percentages in a pie chart are of different totals depending on the chart's scope
-- Mixing up "share of total" (from pie chart) with "growth rate" (from bar graph)
-- Assuming correlated trends imply causation (a bar going up and a line going up doesn't mean they cause each other)
-- Answering based on Source A data when the question explicitly requires Source B data
+- Using a pie chart percentage as an absolute value (a 25% share is not 25 units—it is 0.25 × total)
+- Forgetting that pie chart percentages may sum to slightly over/under 100% due to rounding
+- Applying a bar graph trend (increasing) to a cross-section question about a specific year
+- Mixing up "share of total" (from pie chart) with "share of segment" (from another chart)
+- Answering Q4 using only Q3's logic without re-extracting from the primary source
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-**Mixed Data Sets & Data Integration** — Comprehensive MAT Notes
+**The Integration Framework: Three Phases**
 
-**Deep Dive: Multi-Source Data Reasoning**
+**Phase 1 — Reconnaissance (First 45 seconds):**
+List all data sources. For each, identify: primary subject (what entities), primary metric (revenue, orders, population), unit (₹ lakh, thousands, percentage), and scope (one year, multiple years, single category). Note the shared variables across sources. Glance at questions to understand what the final answers require.
 
-Mixed data sets are the most complex DI format in MAT because they demand not just calculation skill, but **data triage** — the ability to quickly determine which data is relevant, which is redundant, and which might be a distractor. This mirrors actual business analysis, where the hardest part is often knowing what NOT to use.
-
-**The Data Integration Framework:**
-
-When you encounter a mixed data set, follow this structured approach:
-
-**Phase 1: Reconnaissance (First 45 seconds)**
-- Count the data sources (tables, charts, paragraphs)
-- For each source, identify: What is this source primarily about? What unit is used?
-- List the variables in each source — find the shared variables (potential bridges)
-- Glance at the questions to understand what the final answers need
-
-**Phase 2: Source Mapping (Next 30 seconds)**
-Create a mental or scratch map:
+**Phase 2 — Source Mapping (Next 30 seconds):**
+Draw or mentally sketch the relationship:
 
 ```
-Source 1: [Variables] → Provides: [list]
-Source 2: [Variables] → Provides: [list]
-Overlap: [shared variable]
-Missing: [what's not provided]
+Table: [Company | Revenue (₹L) | Cost (₹L)]
+Pie Chart: [Company | Market Share (%)]
+                    ↓ bridge: Company
+         Revenue from table ÷ Share from chart = Total Market Size
 ```
 
-**Phase 3: Sequential Solving**
-- Answer single-source questions first
-- Build toward cross-source questions
-- When stuck, check if a bridge variable exists that you haven't fully extracted
+Identify what each source uniquely provides. Identify what can ONLY be calculated by combining both.
 
-**Handling Table + Pie Chart Combinations:**
+**Phase 3 — Sequential Solving:**
+Answer in order: single-source → single-source-with-calc → cross-source simple → cross-source complex → evaluative (which statement is true). This builds confidence and ensures you collect easy marks first.
 
-This is MAT's most common mixed format. Here's the typical scenario:
+**Table + Pie Chart: The Most Common MAT Combination**
 
-- A **table** gives absolute values (revenue in ₹ lakhs) for multiple companies/products
-- A **pie chart** gives percentage market share for the same companies/products
+This pairing tests whether you understand the relationship between absolute values and proportions.
 
-**What can you calculate from each?**
+Given: Table shows Company revenues. Pie chart shows market shares.
+
+*Calculations possible from each source alone:*
 
 From table alone:
-- Absolute revenue of each company
-- Revenue ratios between companies (A is 1.5× B)
-- Total market revenue (sum of all)
+- Total industry revenue = sum of all companies
+- Revenue ratio of any two companies
+- Any company's revenue as a percentage of the sum
 
 From pie chart alone:
-- Market share percentages
-- Relative proportions (A:B = 30:20 = 3:2)
+- Relative proportions between companies (if A = 25% and B = 15%, then A:B = 5:3)
+- Which company is largest/smallest by share
 
 From both combined:
-- If table gives A's revenue AND pie chart gives A's % share → Total market = A_revenue / A_%
-- If table gives total market AND pie chart gives A's % → A's revenue = total × A_%
+- Total market size = Any company's revenue ÷ Its share percentage (as decimal)
+- Any company's revenue from pie chart = Total market × share%
+- Verification: Does each company's revenue from table match total market × its share from chart? (Small discrepancies are rounding.)
 
-**The key insight:** If the table gives total revenue AND the pie chart gives market shares, the two should be consistent (each company's revenue from table should equal total × share from chart). If they don't perfectly match, the chart is likely approximate/rounded.
+**Table + Line Graph: Temporal and Snapshot Data**
 
-**Table + Line Graph Combinations:**
+Line graphs display continuous trends over time. Tables give snapshots or categorical breakdowns. When combined:
 
-Line graphs show trends over time. Tables give snapshots or totals. When combined:
-- The line graph answers "how did X change over time?"
-- The table answers "what was X at a specific point or in a specific category?"
-- Cross-source questions often ask: "Did X's trend (from graph) match Y's value (from table) at time Z?"
+- Line graph answers "How did metric X change from year Y to year Z?"
+- Table answers "What was metric X in category C at a specific point?"
+- Cross-source question: "At what point did Company A's trend (from graph) equal Company B's snapshot value (from table)?"
 
-**Bar Graph + Caselet Combinations:**
+**Bar Graph + Caselet: Visual Magnitudes and Textual Constraints**
 
-A bar graph gives visual comparison of magnitudes. A caselet paragraph provides context, constraints, and sometimes data that isn't in the graph. The integration challenge: The caselet may give you additional numeric relationships (A is 20% more than B, C and D together equal E) that you must use WITH the graph.
+The bar graph provides immediately comparable magnitudes—you can see which bar is longest without calculation. The caselet provides additional relationships not visible in the graph: ratios, percentage differences, conditional statements, and constraints between entities.
 
-**Multi-Table Integration:**
+Example: Bar graph shows four companies' revenues. Caselet states: "Company A's revenue was twice Company B's, and Companies C and D together earned as much as Company A." With these textual constraints and the bar graph magnitudes, you can often deduce actual values or verify consistency.
 
-When two or more tables are provided, the integration is purely relational — find the common column and join.
+**Multi-Table Integration: Relational Joins**
 
-Example:
-```
-Table 1: Product | Revenue | Cost
-Table 2: Product | Category | Market_Share
-```
+When two or more tables are presented without a chart:
 
-You can join on "Product" to get revenue by category, or calculate cost-to-revenue ratios per market share tier.
+- Identify the common column (product name, city, year, employee ID)
+- For each question, determine which columns from which tables are needed
+- Join logically: Table 1 (product, revenue) + Table 2 (product, category) → revenue by category
+- This tests relational reasoning rather than percentage calculation
 
-**Advanced Integration: Data Imputation**
+**Data Imputation: Filling Missing Values**
 
-Sometimes MAT asks you to fill in a missing value using logic from two sources. For instance:
-- Source A gives total revenue for FY2023
-- Source B gives revenue split by quarter for FY2023
-- One quarter value is missing → Calculate as Total minus (Q1 + Q2 + Q4)
+Mixed data sets sometimes leave a value implicit rather than explicit:
 
-This tests whether you understand that multiple incomplete data sources can combine to yield a complete picture.
+- Source A gives total annual revenue = ₹500 lakh
+- Source B gives quarterly breakdown for Q1, Q2, Q4
+- Q3 is missing → Q3 = Total − (Q1 + Q2 + Q4)
 
-**The "All of the Above" and "None of the Above" Trap:**
+This tests whether you understand that fragments from multiple sources can reconstruct a complete picture. When asked for a value that seems missing, always check if it can be derived through subtraction or rearrangement.
 
-MAT mixed data sets often include one question that asks "Which of the following is TRUE?" with 4–5 statement options. Each statement may draw from different parts of the data. The strategy:
-1. Evaluate each statement independently
-2. Use process of elimination — if A and B are both true, eliminate any option saying only one is true
-3. Watch for composite statements that are only true if ALL components are true
+**The "All of the Above" and "None of the Above" Strategy**
 
-**Consistency Checking:**
+In a "Which of the following is TRUE?" question with 4–5 statements (A, B, C, D, E):
 
-A powerful technique in mixed data sets: If you've calculated a value from one source, verify it against another source if possible. For example:
-- You calculated total market size from a pie chart (using a company's revenue from the table as anchor)
-- Check: Does this match the total implied by another company's revenue and its % share?
-- If yes, you're likely correct. If no, you may have a unit conversion error or misinterpreted a percentage base.
+1. Evaluate each statement independently against the data
+2. Do NOT assume statements are related—each stands or falls on its own
+3. For composite statements ("A and B together"), both components must be true for the composite to be true
+4. If A and B are both true, eliminate any option claiming only one is true
+5. Process of elimination is faster than evaluating every option fully
 
-**Time Management for Mixed Data Sets:**
+**Consistency Checking: Verify Your Cross-Source Answers**
 
-- Total budget: 6–8 minutes per set of 5 questions
-- Reconnaissance: 45 seconds (non-negotiable — skipping this costs more time later)
-- Single-source questions: 1 minute each
-- Cross-source questions: 1.5–2 minutes each
-- Buffer: Save 1 minute for review of flagged difficult questions
+If you calculate total market size from Company A's revenue and share, verify with Company B's revenue and share. If both give the same total (within rounding error), your calculation is likely correct. If they give different totals, you have a unit conversion error, a percentage base error, or misidentified the bridge variable.
 
-**Building Speed with Mixed Data:**
+**Time Management Table:**
 
-- Practice with real MAT past papers — mixed data sets vary widely in complexity
-- Train yourself to "read" charts and tables in <15 seconds (what's shown, what's the scale, what's the unit)
-- Use the "question-first" approach: always read questions before diving into data analysis
-- After each practice set, note: Where did I waste time? Was it data extraction or calculation?
+| Activity | Time | Notes |
+|----------|------|-------|
+| Reconnaissance | 45 seconds | Non-negotiable |
+| Questions per source | 15 seconds each | Total ~1 minute for 4 questions |
+| Single-source extraction | 30–45 seconds each | ~2 minutes for 3 questions |
+| Cross-source calculation | 60–90 seconds each | ~2 minutes for 2 questions |
+| Review/flagged questions | 60 seconds | Return to difficult ones |
+| **Total per set** | **6–8 minutes** | For 5 questions |
 
-**Why Integration Skills Matter for B-School:**
+**Why This Format Tests Real Management Skills**
 
-Post-MAT, in your MBA program and career, you'll work with data warehouses that pull from multiple systems simultaneously. The ability to understand how different data streams relate — and how to combine them meaningfully — is a core business analytics competency. MAT is testing a real skill with real applications.
+A marketing manager receives weekly sales data in a spreadsheet, monthly market share from an industry report, and quarterly consumer sentiment from a survey. Synthesising these three streams to decide where to allocate budget is exactly the skill MAT's mixed data sets simulate. The examination is not just testing calculation speed—it is identifying candidates who can reason across incomplete, multi-format data, which is the daily reality of data-driven management.
 
-**Summary: The Mixed Data Checklist**
+**Summary Checklist Before Each Question:**
 
-Before answering each question, ask:
-1. Which source(s) does this question draw from?
+1. Which source(s) does this question use?
 2. Is there a bridge variable connecting the sources I need?
-3. Are all units consistent across the sources I'm using?
-4. Can I verify my answer using a different source combination?
+3. Are all units consistent across sources?
+4. Can I verify this answer using a different source pairing?
 5. Is this question testing extraction, calculation, or integration?
 
 ---

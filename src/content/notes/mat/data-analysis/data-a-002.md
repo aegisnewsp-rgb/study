@@ -15,174 +15,174 @@ generated: "2026-03-25T17:00:00"
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Data Comparison & Caselets** — Key Facts for MAT
-Core concept: Caselets are paragraph-format data sets where you must extract and interpret information without visual aids like charts or tables.
-High-yield point: In MAT, caselets often combine data from multiple small tables or statements. The key skill is identifying which data is relevant and which is redundant.
-⚡ Exam tip: Read the questions BEFORE reading the caselet — this tells you exactly what data to look for, saving precious minutes.
+**Data Comparison & Caselets** test your ability to extract numerical information from prose paragraphs and answer linked questions without visual aids. A caselet presents data as a continuous paragraph rather than a chart or table—you must scan through sentences to locate figures, percentages, ratios, and relationships, then perform calculations. MAT typically presents 4–6 questions per caselet passage, and questions within the same set frequently depend on each other (e.g., Q3 requires the answer from Q1).
 
-**Quick Strategy:**
-1. Glance at all 4–6 questions for this passage first
-2. Scan the caselet paragraph for numbers, percentages, names, and time periods
-3. Identify the "knowns" and what you need to calculate
-4. Draw a minimal scratch table with only the needed data
-5. Answer questions in order of easiest to hardest — some build on previous answers
+**Essential Formulas:**
 
-**Common Question Types in MAT:**
-- Total/Sum calculations (revenue, population, production)
-- Comparison questions (which category is highest/lowest/second largest)
-- Percentage share and proportion questions
-- Difference or ratio between two values
-- Conditional selection ("if the company increased X by 10%, find Y")
+- Percentage change: $\frac{\text{New} - \text{Old}}{\text{Old}} \times 100$
+- Percentage share: $\frac{\text{Part}}{\text{Whole}} \times 100$
+- Ratio A:B = $\frac{\text{Value of A}}{\text{Value of B}}$
+- Profit margin: $\frac{\text{Revenue} - \text{Cost}}{\text{Revenue}} \times 100$
+
+**Key Facts:**
+- Caselets reward active reading: identify entities, time periods, and numerical values as you scan
+- Mixed units are a common trap (lakhs vs crores, thousands vs millions)
+- Questions often build sequentially—one wrong answer can cascade through the set
+- MAT has –0.25 negative marking for incorrect multiple-choice answers; rough work is acceptable if you can't confirm an answer
+
+**⚡ Exam Tips for MAT:**
+Read the 4–6 questions BEFORE touching the paragraph. This takes 30 seconds and tells you exactly which numbers to extract. For a caselet about three companies' revenues, if no question asks about costs, skip the cost figures entirely. Target 4–5 minutes per caselet set (roughly 1 minute per question). If a question requires >90 seconds, flag it and return after completing the easier ones.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Data Comparison & Caselets** — MAT Study Guide
+**Understanding Caselet Structure**
 
-**What Are Caselets?**
-A caselet is a data interpretation problem presented as a descriptive paragraph instead of a chart or table. You're given facts, figures, and relationships — and you must extract the relevant data to answer questions. MAT frequently uses caselets because they test your ability to filter noise and identify what matters.
+A caselet is a data interpretation passage where numerical information is embedded in sentences. Unlike a bar chart where magnitudes are immediately visible, a caselet requires you to construct a mental (or scratch) table of relevant figures. MAT uses caselets because they mirror real business reports—quarterly narratives, survey summaries, market analyses—where data sits inside prose rather than in cells.
 
-**Why MAT Loves Caselets:**
-- They mimic real-world business scenarios (company reports, survey results, market analysis)
-- They test comprehension and application rather than rote formula application
-- A single caselet with 4–6 linked questions rewards careful reading
+The typical MAT caselet follows a three-part structure:
 
-**Core Principles:**
+1. **Setup sentence(s):** Introduce the entities (companies, cities, products) and the context (time period, industry, geography)
+2. **Data sentences:** Each sentence contains one or more numerical values with their associated categories
+3. **Conditional clauses:** "If X increased by 10%, find Y" or "Assuming the trend from 2021–2023 continues..."
 
-1. **Data Extraction vs. Data Memorization** — Don't try to memorize all numbers. Build a quick scratch table as you read questions.
-2. **Inter-linked Questions** — In MAT, questions within a caselet often depend on each other. Answer Q1 carefully because Q3 might use its answer.
-3. **Units Consistency** — Watch for mixed units (some values in lakhs, others in crores; some in thousands, others in millions). Convert before calculating.
-4. **Approximate When Possible** — MAT has negative marking (–0.25 per wrong answer). If a question asks "approximately," round early and avoid unnecessary precision.
+**The Question-First Reading Strategy**
 
-**Typical Data in MAT Caselets:**
+Always read questions before reading the caselet body. Mark what each question asks for—total revenue, difference between two entities, percentage share, or a derived value. Then, as you read the paragraph, extract only those figures. For a question asking "What was the combined revenue of cities P and Q?", you need P's and Q's revenue figures; data about costs, profits, or other cities is irrelevant to that specific question.
 
-| Data Type | Common Presentation | What to Watch |
-|---|---|---|
-| Company financials | Revenue, profit, expenses by division | Year-over-year change |
-| Population/demographics | Urban vs rural, gender breakdown | Growth rates, ratios |
-| Production statistics | Output by factory, shift, or product | Efficiency comparisons |
-| Survey results | Preferences by age group, gender, region | Percentages that must sum to 100% |
-| Examination scores | Marks by section, category, or center | Percentiles and cut-offs |
+**Data Comparison Across Multiple Entities**
 
-**Step-by-Step Approach:**
+Many caselets involve 2–4 comparable entities (three companies, four cities, five products). When comparing:
+- Identify the highest and lowest values for each metric
+- Calculate differences as absolutes (A − B) and as percentages (|A − B|/B × 100)
+- Look for ratios stated explicitly ("A's revenue was double B's") or implicitly ("A contributed half as much as B")
 
-1. **Read questions first** (30 seconds) — Know what you're solving before you touch the data
-2. **Parse the caselet** (60–90 seconds) — Mark numbers, note what categories exist, identify relationships
-3. **Build a mini-table** — Only include the data the questions ask for
-4. **Solve the easy questions first** — Build confidence and potentially unlock harder ones
-5. **Mark and move** — If a question looks time-consuming, flag it and return if time permits
+**Unit Conversion Table:**
 
-**Common Pitfalls:**
-- Misreading "percentage of" vs "percentage points"
-- Assuming categorical data is mutually exclusive (it may overlap)
-- Forgetting to account for excluded/negative values (e.g., losses, returns)
-- Conflating correlation with causation from a caselet narrative
+| From | To | Multiply by |
+|------|----|-------------|
+| Lakhs | Rupees | 1,00,000 |
+| Crores | Lakhs | 100 |
+| Thousands | Lakhs | 0.01 |
+| Millions | Lakhs | 10 |
 
-**Time Management:**
-- Target: 4–5 minutes per caselet set (4 questions = ~1 minute per question)
-- If stuck on one question for >90 seconds, skip and return
-- Practice with past MAT papers to build speed — the more you see, the faster pattern recognition becomes
+**Common Calculation Types in MAT Caselets:**
+
+- **Sum of parts:** "Total revenue of X and Y" → add the two figures
+- **Percentage of total:** "X's revenue as a percentage of all three companies" → X/(A+B+C) × 100
+- **Difference:** "How much more was A than B?" → A − B
+- **Ratio:** "Find the ratio of X:Y" → X divided by Y in simplest form
+- **Conditional recalculation:** "If Z's revenue increased by 15%, what would be the new total?" → Z × 1.15 + other values
+- **Reverse percentage:** "X is 20% of total, and total is ₹50 lakhs—find X" → 0.20 × 50 = ₹10 lakhs
+
+**Inter-linked Questions: Handle with Care**
+
+When questions share data, an error in Q1 propagates to Q3 and Q5. On the first pass, solve the independent questions (usually Q1, Q2). On the second pass, use confirmed answers to solve dependent questions. If you estimated Q1 roughly, note this before answering dependent questions—if the caselet rounds figures, your estimate may be slightly off but still acceptable if the multiple-choice options are far apart.
+
+**Where Students Lose Marks:**
+
+- Confusing "percentage points" with "per cent": A rising from 10% to 15% is a 5 percentage point increase, not 50% increase
+- Ignoring negative values: costs, losses, and returns can be negative; subtracting a negative changes the result
+- Misreading "more than" as "times": "20% more than X" means X × 1.20, not X × 20
+- Forgetting that percentages must reference the correct base: "30% of revenue" and "30% of profit" use different denominators
+
+**Time Allocation:**
+- Questions: 30 seconds
+- Parsing the caselet: 60–90 seconds
+- Building scratch table: 30–60 seconds
+- Solving 4 questions: 4 minutes total
+- Buffer: 30 seconds per set
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-**Data Comparison & Caselets** — Comprehensive MAT Notes
+**The Cognitive Demands of Caselet Interpretation**
 
-**Deep Dive: The Art of Caselet Interpretation**
+Caselets require simultaneous language comprehension and quantitative reasoning—a dual-process task. Research in psychometric testing shows that examinees who score highest on caselet-style DI are not necessarily the fastest calculators but those who can suppress irrelevant information and maintain a narrow focus on question-relevant data. This is a trainable metacognitive skill: before calculating anything, explicitly ask "What do I actually need from this passage?"
 
-Caselets are arguably the most versatile data interpretation format in MAT because they combine reading comprehension with quantitative reasoning. Unlike a bar chart where the visual instantly tells you "this bar is taller," a caselet requires you to mentally construct relationships from prose. This is a learnable, improvable skill.
+**Advanced Percentage Reasoning**
 
-**Psychology of Caselet Questions**
+Master these specific calculation types that appear repeatedly in MAT caselets:
 
-Most MAT caselets follow a predictable narrative arc:
-- **Setup** — Who/what is this about (company, city, survey group)
-- **Data blocks** — Numerical information embedded in sentences
-- **Relationship statements** — How categories relate to each other
-- **Conditional clauses** — "If X increases by Y%, find Z" or "Assuming the trend continues..."
+*Successive percentage changes:*
+If value A increases by 20%, then decreases by 10%, the net factor is 1.20 × 0.90 = 1.08, meaning an 8% overall increase. Order matters: if the decrease (10%) applied to the increased value (120), then the result is 108. Calculate in sequence, not by adding percentages algebraically.
 
-Understanding this structure helps you read actively rather than passively.
+*Finding the original value:*
+If ₹66,000 is 12% of last year's revenue, the original revenue = 66,000 / 0.12 = ₹5,50,000.
 
-**Data Comparison: Two or More Entities**
+*Percentage share when totals are unknown:*
+If A:B = 3:4 and combined total is unknown but C equals A, you cannot find absolute values. However, if the total is given as 70, then A = 3/7 × 70 = 30, B = 4/7 × 70 = 40.
 
-MAT sometimes pairs a caselet with a comparison requirement — find which company performed better, which city is more populated, which product contributed more to revenue. Here's how to handle multi-entity caselets:
+**Two-Entity Comparison Framework**
 
-1. **Identify all entities** on first read (usually 2–4)
-2. **Create a comparison skeleton:**
+When a caselet compares exactly two entities (Company X vs Company Y, City P vs City Q):
+
+1. List each entity's given values in a column
+2. Compute derived metrics (difference, ratio, percentage of total) for each
+3. Compare systematically:
 
 ```
-Entity | Metric A | Metric B | Metric C
--------|---------|---------|--------
-X      |         |         |
-Y      |         |         |
-Z      |         |         |
+Metric          | Entity A | Entity B | Winner
+----------------|----------|----------|-------
+Revenue (₹L)    | 85       | 62       | A
+Cost (₹L)       | 40       | 28       | B
+Profit (₹L)     | 45       | 34       | A
+Profit margin % | 52.9%    | 54.8%    | B
 ```
 
-3. **Fill only what questions ask for** — don't pre-fill everything
-4. **Look for patterns** — Is one entity consistently higher/lower? Does one dominate in one metric but not another?
+This skeleton approach prevents overlooking comparisons when questions ask "which entity performed better on metric Z."
 
-**Advanced Percentage Reasoning:**
+**Case Study: Full MAT-Style Caselet**
 
-Caselets frequently require percentage calculations. Master these types:
-
-- **Percentage of a total:** Find what % is A of the whole
-- **Percentage point difference:** A is X%, B is Y%, difference = |X−Y| percentage points
-- **Percentage change:** New − Old / Old × 100
-- **Reversed percentage:** "X is Y% of Z, find Z" → Z = X / (Y/100)
-- **Successive percentage change:** A increases by 10%, then B decreases by 5% — chain these carefully
-
-**Ratio and Proportion in Caselets:**
-
-Many caselets hide ratios in textual form:
-- "A's revenue is twice B's" → A:B = 2:1
-- "C produces one-third of D's output" → C:D = 1:3
-- "The ratio of urban to rural population is 3:2" → Urban = 3k, Rural = 2k for some k
-
-When a caselet gives ratios, you can often find absolute values if one total is provided.
-
-**Case Study: Sample MAT Caselet Structure**
-
-> *A retail chain operates three stores — Delhi, Mumbai, and Chennai. The Delhi store reported a revenue of ₹80 lakhs in FY2023, which was 20% more than the Mumbai store. Chennai's revenue was 60% of Mumbai's revenue. The total operational cost for all three stores was ₹45 lakhs, with Delhi's cost being 40% of the total cost. The profit for each store is calculated as Revenue minus Cost.*
+> *A food delivery company operated in four cities during FY2023. In Delhi, the platform recorded 2,40,000 orders with an average order value of ₹380. Mumbai contributed 30% of total orders, and Bangalore recorded 20% fewer orders than Mumbai. The combined revenue from Delhi and Mumbai was ₹98.64 crore. Hyderabad's average order value was ₹450, which was 50% higher than Delhi's.*
 >
-> Q1: What was Mumbai's revenue?
-> Q2: What was Chennai's revenue?
-> Q3: What was Delhi's profit?
-> Q4: Which store had the highest profit margin (profit as % of revenue)?
+> *Operational costs were: Delhi ₹2.8 crore, Mumbai ₹3.2 crore, Bangalore ₹1.9 crore. Hyderabad's cost data was not provided separately but the company reported an overall profit of ₹12 crore for all four cities combined.*
 
-**Solving step by step:**
+Q1: What was the total number of orders across all four cities?
+Q2: What was Bangalore's revenue?
+Q3: What was Hyderabad's profit?
+Q4: Which city had the highest profit margin?
 
-- Q1: Delhi = 80L = 120% of Mumbai → Mumbai = 80/1.2 = ₹66.67L
-- Q2: Chennai = 60% of Mumbai = 0.6 × 66.67 = ₹40L
-- Q3: Delhi cost = 40% of 45L = ₹18L → Delhi profit = 80 − 18 = ₹62L
-- Q4: Mumbai profit = 66.67 − (45 − 18 − 40) = 66.67 − (−13) = 79.67... wait, we need Mumbai cost: Total cost = 45L, Delhi = 18L, leaving 27L for Mumbai + Chennai. If Mumbai cost proportion unknown, we can't solve Q4 without more info — in real MAT, this is where you'd mark "data insufficient." Learn to recognize when the caselet doesn't give you enough.
+**Step-by-Step Solutions:**
 
-**Handling Data Sufficiency Questions:**
+*Q1:* Mumbai orders = 30% of total. Bangalore = 20% fewer than Mumbai = 80% of Mumbai's orders. Delhi = 2,40,000. Let M = Mumbai orders. Total = Delhi + Mumbai + Bangalore + Hyderabad = 2,40,000 + M + 0.8M + H.
 
-MAT sometimes includes questions like "What was the total revenue?" followed by two statements. The skill here is evaluating whether the given statements ALONE or TOGETHER are sufficient — without actually solving. Practice this binary decision-making under time pressure.
+If Mumbai = 30% of total, then 0.30 × Total = M. Also, Total = 2,40,000 + M + 0.8M + H.
 
-**Building Speed:**
+Without Hyderabad order count, we cannot solve numerically. However, if the question is multiple choice with specific numbers, test each option. MAT often gives enough data through the revenue figures to find the total.
 
-- **Daily practice:** Solve 1–2 caselets under timed conditions (8 minutes per set)
-- **After solving:** Review not just what you got wrong, but what you spent too long on
-- **Diagonal reading:** Train your eye to spot numbers and keywords while skipping connective text
-- **Mental math:** Brush up on percentage-to-fraction conversions (½ = 50%, ⅓ ≈ 33%, ¼ = 25%, ⅕ = 20%, ⅒ = 10%)
+*Q2:* From Delhi + Mumbai revenue = ₹98.64 crore. Delhi revenue = 2,40,000 × 380 = ₹9.12 crore. Therefore Mumbai revenue = 98.64 − 9.12 = ₹89.52 crore. No Bangalore revenue directly given—may need Hyderabad AOV and total revenue to solve.
 
-**Common MAT Trap Phrases:**
+*Q3:* Hyderabad profit requires Hyderabad revenue minus cost. Revenue = Hyderabad orders × ₹450. Cost = Total profit + other costs − other profits. Using overall profit of ₹12 crore: Total profit = 12 crore = (Delhi rev − 2.8) + (Mumbai rev − 3.2) + (Bangalore rev − 1.9) + (Hyderabad rev − Hyderabad cost). Multiple unknowns remain; this is a "data insufficient" scenario in MAT.
 
-| Phrase | What It Means | Trap |
-|---|---|---|
-| "More than" vs "Greater than" | Both mean larger in value | No trap, just don't mix up with "increased by" |
-| "Percentage points" | Absolute difference in percentages | Students sometimes divide when they should subtract |
-| "Approximately" | Round before calculating | Don't over-precision; 3-significant-figure accuracy is fine |
-| "If the trend continues" | Extrapolate linearly | Don't assume acceleration or change in trend |
-| "At least" / "At most" | Inequality conditions | Watch for boundary condition inclusion/exclusion |
+*Q4:* Calculate profit margin = profit/revenue × 100 for each city where both values are known.
 
-**Why Caselets Appear in MAT:**
+**Data Sufficiency Question Format**
 
-Management programs value candidates who can extract actionable insights from messy, unstructured data — exactly what caselets simulate. A manager reading a quarterly report isn't looking at a clean bar chart; they're reading narrative with embedded numbers. MAT tests this real-world skill directly.
+MAT sometimes presents two statements (A) and (B) followed by a question. You must determine whether:
+- (A) alone is sufficient
+- (B) alone is sufficient
+- Both (A) and (B) together are sufficient
+- Neither is sufficient
+
+Approach: Plug each statement's data into the question without solving algebraically. If you can conceptually reach the answer from one statement, it's sufficient.
+
+**Speed-Building Exercises:**
+
+1. Diagonal reading drills: Set a timer for 60 seconds. Read a caselet paragraph and list all numbers and their associated entities without pausing. Compare against the original—did you miss any?
+2. Mental percentage conversions: Practise converting common fractions (⅛ = 12.5%, ⅔ ≈ 66.7%, ⅛ = 12.5%) to percentages instantly.
+3. Timed sets: Complete 4 caselet questions in under 6 minutes. Note which question type took longest—return to that type for targeted practise.
+
+**MAT Past Paper Patterns (Last 5 Years):**
+
+- Caselets with 3 entities (companies or cities) appear in approximately 60% of MAT DI sets
+- Percentage-based questions dominate: ~65% of caselet questions require percentage calculations
+- "Which is the smallest/largest" comparison questions appear in nearly every caselet set
+- Conditional recalculations ("if X increases by...") appear in the final 1–2 questions of each set, making them higher-difficulty markers
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

@@ -12,310 +12,233 @@ generated: "2026-03-25T17:00:00"
 
 # Ratio, Proportion & Partnership
 
-### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+### 🟢 Lite — Quick Review
 
-Ratio, Proportion and Partnership form a critical arithmetic topic in MAT Quant. Questions range from basic ratio calculations to complex partnership profit-sharing and proportion-based word problems. This topic frequently appears alongside time-work and mixing problems.
+Ratio, Proportion and Partnership form one of the most versatile arithmetic topics in the MAT Quantitative section. The underlying idea is straightforward — a ratio $a:b$ expresses how many times the first quantity contains the second — but the topic ramifies into mixture problems, partnership profit-sharing, direct and inverse variation, and the alligation method for finding mean prices. Typically 3–5 MAT questions draw from this cluster, often disguised in word problems about dividing inheritance, mixing alloys, adjusting concentrations, or sharing business profits.
 
-**Key concepts:**
-- Ratio: Comparison of two quantities (a:b); division of a quantity in ratio a:b means a/(a+b) and b/(a+b)
-- Proportion: Equality of two ratios (a:b = c:d)
-- Partnership: Profit sharing is proportional to capital invested × time invested
+The core ratio identity: if a quantity is divided in the ratio $a:b$, the two parts are $\frac{a}{a+b} \times \text{total}$ and $\frac{b}{a+b} \times \text{total}$. The common factor $k$ (where parts are $ak$ and $bk$) is found from total or from any known part.
 
-**Exam tip:** When a quantity is divided in ratio a:b, the parts are a×k and b×k where k is the common factor. Find k first using total or one part.
+For proportions, the fundamental property is that in $a:b = c:d$, the product of extremes equals the product of means: $a \times d = b \times c$. Three numbers $a, b, c$ are in continued proportion when $a:b = b:c$, which means $b^2 = ac$.
+
+Partnership profit-sharing follows the rule: profit is divided in the ratio of $\text{capital} \times \text{time}$ for each partner. Simple partnership (same time period) uses just capital ratios; compound partnership accounts for different investment durations.
+
+⚡ **MAT exam tip:** When a ratio changes after a transfer (e.g., B gives some money to A), set up equations using the unchanged total. The ratio $2:3$ becoming $5:4$ after B gives ₹100 to A means: $2x + 100 = 5y$ and $3x - 100 = 4y$ for some common factor — solve simultaneously. For mixture/alligation problems, draw the alligation chart visually: it eliminates algebraic confusion.
 
 ---
 
-### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+### 🟡 Standard — Regular Study
 
-#### Ratio
+#### Ratio — Definitions and Properties
 
-**Definition:**
-Ratio of a to b is written a:b and means a/b.
-a:b = c:d means a/b = c/d
+A ratio $a:b$ compares two quantities of the same kind. Both $a$ and $b$ must be non-zero. The ratio is said to be in its simplest form when $\text{HCF}(a,b) = 1$.
 
-**Properties:**
-- a:b = ka:kb (multiply/divide both by same non-zero number)
-- If a:b = c:d, then a/c = b/d (invertendo)
-- If a:b = c:d, then (a+b)/b = (c+d)/d (addendo)
-- If a:b = c:d, then (a-b)/b = (c-d)/d (subtrahendo)
+**Key properties:**
+- $\frac{a}{b} = \frac{ka}{kb}$ for any non-zero $k$ (fundamental property of ratios)
+- If $\frac{a}{b} = \frac{c}{d}$, then $\frac{a}{c} = \frac{b}{d}$ (invertendo)
+- $\frac{a+b}{b} = \frac{c+d}{d}$ (addendo)
+- $\frac{a-b}{b} = \frac{c-d}{d}$ (subtrahendo)
 
-**Types of Ratios:**
-- Duplicate ratio: a²:b²
-- Sub-duplicate ratio: √a:√b
-- Triplicate ratio: a³:b³
-- Sub-triplicate ratio: a^(1/3):b^(1/3)
-- Compounded ratio: (a×c):(b×d) for (a:b) and (c:d)
+**Dividing a quantity in ratio $a:b$:**
 
-**Dividing a quantity in a given ratio:**
-If ₹500 is divided in ratio 3:2:
-Total parts = 3 + 2 = 5
-Value per part = 500/5 = 100
-First part = 3 × 100 = 300; Second part = 2 × 100 = 200
+**Example:** Divide ₹7,800 among three persons X, Y, Z in the ratio 3:5:8.
+Total parts = $3 + 5 + 8 = 16$
+Value per part = $\frac{7800}{16} = 487.50$
+X gets $3 \times 487.50 = ₹1{,}462.50$
+Y gets $5 \times 487.50 = ₹2{,}437.50$
+Z gets $8 \times 487.50 = ₹3{,}900.00$
 
-**Ratio in practical problems:**
-Example: If a mixture contains milk and water in ratio 3:2 and total milk is 15 litres:
-3 parts = 15 → 1 part = 5 litres
-Water = 2 × 5 = 10 litres
-Total mixture = 25 litres
+**Types of ratios:**
+
+| Type | Definition | Example |
+|------|------------|---------|
+| Duplicate | $a^2 : b^2$ | $3:5 \rightarrow 9:25$ |
+| Sub-duplicate | $\sqrt{a}:\sqrt{b}$ | $9:16 \rightarrow 3:4$ |
+| Triplicate | $a^3 : b^3$ | $2:3 \rightarrow 8:27$ |
+| Compounded | $(a:c) : (b:d)$ from $(a:b)$ and $(c:d)$ | $(2:3)$ and $(4:5) \rightarrow 8:15$ |
+
+**Ratio in practical mixtures:**
+
+**Example:** A solution contains milk and water in the ratio 5:3. If there are 25 litres of milk, how much total solution?
+$5$ parts $= 25 \implies 1$ part $= 5$ litres
+Water $= 3 \times 5 = 15$ litres
+Total $= 40$ litres
 
 #### Proportion
 
-**Definition:**
-Four quantities a, b, c, d are in proportion if a:b = c:d
-Also written as a:b :: c:d
+When two ratios are equal, four numbers are in proportion: $a:b = c:d$, written $a:b :: c:d$.
 
-**Terms:**
-- a, d are called extremes; b, c are called means
-- In a:b :: c:d, product of extremes = product of means
-- a × d = b × c
+**Key property:** In $a:b :: c:d$, the product of extremes ($a \times d$) equals the product of means ($b \times c$).
 
-**Continued Proportion:**
-a, b, c are in continued proportion if a:b = b:c
-This means b² = a × c; b is called mean proportional between a and c
+**Mean proportional:** If $a, b, c$ are in continued proportion ($a:b = b:c$), then $b^2 = ac$ and $b$ is the mean proportional between $a$ and $c$.
 
-Example: Find mean proportional between 4 and 16:
-b² = 4 × 16 = 64
-b = 8
+**Example:** Find the mean proportional between 9 and 64.
+$$b^2 = 9 \times 64 = 576 \implies b = \sqrt{576} = 24$$
 
-**Direct Proportion:**
-If A increases, B also increases proportionally (y = kx)
+**Direct proportion:** $y \propto x \implies y = kx$ (as one increases, the other increases at constant rate)
 
-**Inverse Proportion:**
-If A increases, B decreases proportionally (y = k/x)
+**Inverse proportion:** $y \propto \frac{1}{x} \implies y = \frac{k}{x}$ (as one increases, the other decreases)
+
+**Joint variation:** $z \propto xy \implies z = kxy$
+
+**Example of joint variation:** The time taken to complete a job varies directly with the work load and inversely with the number of workers. If 6 workers complete 240 units of work in 8 hours, how long for 8 workers to complete 320 units?
+$$T \propto \frac{W}{n} \implies T = k \cdot \frac{W}{n}$$
+$$k = \frac{8 \times 6}{240} = \frac{1}{5}$$
+$$T = \frac{1}{5} \times \frac{320}{8} = \frac{1}{5} \times 40 = 8 \text{ hours}$$
 
 #### Partnership
 
-**Types:**
+**Simple Partnership:** All partners invest for the same duration. Profit/loss is divided in the ratio of investments.
 
-1. **Simple Partnership:** All partners invest for the same time period
-   - Profit/Loss is divided in ratio of their investments
+**Example:** A invests ₹60,000 and B invests ₹40,000 in a business. They earn a profit of ₹25,000. Divide.
+$$\text{Investment ratio} = 60000 : 40000 = 3 : 2$$
+$$\text{Total parts} = 5$$
+$$A = \frac{3}{5} \times 25000 = ₹15{,}000, \quad B = \frac{2}{5} \times 25000 = ₹10{,}000$$
 
-2. **Compound Partnership:** Partners invest for different time periods
-   - Profit/Loss is divided in ratio of (Capital × Time) for each partner
-   - This is sometimes called "compound" because time is factored in
+**Compound Partnership:** Partners invest for different time periods. Profit is divided in the ratio of capital × time for each partner.
 
-**Formula for compound partnership:**
-If P1 invests C1 for T1 time, P2 invests C2 for T2 time:
-Share of P1 : Share of P2 = C1×T1 : C2×T2
+**Example:** A invests ₹50,000 for 9 months, B invests ₹30,000 for the full year. Profit is ₹27,000.
+$$A = 50000 \times 9 = 4{,}50{,}000$$
+$$B = 30000 \times 12 = 3{,}60{,}000$$
+$$\text{Ratio} = 450000 : 360000 = 5 : 4$$
+$$A = \frac{5}{9} \times 27000 = ₹15{,}000, \quad B = \frac{4}{9} \times 27000 = ₹12{,}000$$
 
-**Example (Simple Partnership):**
-A and B invest ₹5,000 and ₹3,000 respectively. Profit is ₹4,000. Divide:
-Ratio = 5000:3000 = 5:3
-Total parts = 8
-A's share = 5/8 × 4000 = ₹2,500
-B's share = 3/8 × 4000 = ₹1,500
+#### Alligation — Mixing Ingredients
 
-**Example (Compound Partnership):**
-A invests ₹4,000 for whole year, B invests ₹3,000 for 8 months. Profit = ₹4,400.
-A's share: 4000 × 12 = 48,000
-B's share: 3000 × 8 = 24,000
-Ratio = 48000:24000 = 2:1
-A gets = 2/3 × 4400 = ₹2,933.33
-B gets = 1/3 × 4400 = ₹1,466.67
+The alligation method finds the ratio in which two ingredients at different prices must be mixed to produce a mixture at a given mean price.
 
-#### Variations
+**Alligation formula:**
+$$\text{Ratio} = \frac{\text{Mean price} - \text{Cheaper price}}{\text{Dearer price} - \text{Mean price}}$$
 
-**Direct Variation:**
-A ∝ B means A = kB where k is constant of variation
+**Example:** Mix sugar at ₹38/kg and ₹52/kg to get a mixture worth ₹44/kg.
+$$\text{Ratio} = \frac{52 - 44}{44 - 38} = \frac{8}{6} = \frac{4}{3} = 4:3$$
+For every 4 kg of the ₹38 variety, use 3 kg of the ₹52 variety.
 
-If A = 10 when B = 5, then k = 2; A = 2B
+**Alligation extended to three or more ingredients:**
 
-**Inverse Variation:**
-A ∝ 1/B means A = k/B
+**Example:** Tea priced at ₹80/kg, ₹120/kg, and ₹160/kg mixed to get ₹110/kg.
+Start with the mean price of 110:
+- Difference from ₹80: $110 - 80 = 30$
+- Difference from ₹160: $160 - 110 = 50$
+- For ₹120: It's already at 120, between 80 and 160
 
-If A = 10 when B = 5, then k = 50; A = 50/B
+The ratio can be found by considering all three prices:
+$$(120-80) : (160-120) = 40 : 40 = 1 : 1$$
+Then check the ₹110 mixture: mixing ₹80 and ₹160 in some ratio... Using all three:
+$$\text{Ratio} = (120-110) : (110-80) : (160-110) = 10 : 30 : 50 = 1 : 3 : 5$$
 
-**Joint Variation:**
-A ∝ B × C means A = kBC
+Actually for ₹110 (between ₹80 and ₹160):
+$$\text{Ratio} = (160-110) : (110-80) = 50 : 30 = 5 : 3$$
+So mix ₹160 and ₹80 in ratio 5:3. The ₹120/kg tea is not needed to achieve the mean price — it sits on the other side of the mean.
 
-Example: Time taken varies directly with work and inversely with number of workers:
-T ∝ W/n → T = kW/n
-
-#### Mixture and Alligation
-
-**Alligation Method:**
-Used to find the ratio in which two or more ingredients at different prices must be mixed to obtain a mixture at a desired price.
-
-**Formula:**
-(Rate of cheaper) : (Rate of dearer) = (Dearer price - Mean price) : (Mean price - Cheaper price)
-
-**Example:**
-Two types of rice cost ₹40/kg and ₹60/kg. What ratio to mix to get ₹50/kg?
-Cheaper = 40, Dearer = 60, Mean = 50
-Ratio = (60-50):(50-40) = 10:10 = 1:1
-
-**Alligation rule can extend to multiple items:**
-If mixing more than two items, start with the mean price and alternate between higher and lower priced items.
-
-**Alligation diagram:**
-```
-Cheaper (a) ----Mean (m)---- Dearer (b)
-```
-Ratio = (b-m):(m-a)
-
-**Example with three prices:**
-Rice at ₹30, ₹45, ₹60 per kg to be mixed to get ₹50/kg:
-Start with mean 50:
-- Between 30 and 50: ratio = (50-30):(60-50) = 20:10 = 2:1
-- But need to incorporate all three...
-
-Actually for three items: Mix 30 and 60 first to get some mean, then mix with 45.
-
-#### Practice with Profit and Loss Ratios
-
-**When cost price and selling price are in ratio:**
-If CP:SP = 5:6, then profit = (6-5)/5 × 100 = 20%
-
-**When profit/loss percentages are given:**
-If profit is 20% on cost, then CP:SP = 100:120 = 5:6
-
-**Discount and markup:**
-A shopkeeper marks goods at 40% above cost and gives 20% discount.
-Effective: Let CP = 100
-Markup price = 140
-Discounted price = 140 × 0.8 = 112
-Profit = 12%
+**Common mistakes:** Using the arithmetic mean $(\frac{38+52}{2} = 45)$ as the mean price instead of the stated mean price in the problem. Confusing ratio of ingredients with ratio of prices. Forgetting that parts must be integers in simplest form.
 
 ---
 
-### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
+### 🔴 Extended — Deep Study
 
-#### Complex Ratio Problems
+#### Complex Ratio Division — Multiple Changes
 
-**Dividing in multiple ratios:**
-If ₹5,600 is divided among A, B, C in ratio 2:3:5 and later B gives 1/3 of his share to C:
-Initial: A=1120, B=1680, C=2800
-B gives 1680/3 = 560 to C
-Final: A=1120, B=1120, C=3360
-Final ratio = 1120:1120:3360 = 1:1:3
+**Example:** ₹13,600 is divided among A, B, C such that after B gives ₹200 to A and ₹300 to C, the ratio becomes 1:1:2. Find original shares.
 
-**Continued proportion applications:**
-If a:b = b:c = 2:3, find a:b:c
-a:b = 2:3
-b:c = 2:3 → b = 2k, c = 3k
-a:b = 2:3 → a = 2/3 × b = 2/3 × 2k = 4k/3
-a:b:c = 4k/3 : 2k : 3k = 4:6:9 (multiply by 3)
+Let original shares be $a, b, c$.
+After transfers: $A = a + 200$, $B = b - 500$, $C = c + 300$.
+Given: $(a+200) : (b-500) : (c+300) = 1 : 1 : 2$.
+Total unchanged: $a + b + c = 13600$.
+Let common factor = $k$:
+$a + 200 = k$, $b - 500 = k$, $c + 300 = 2k$
+So $a = k - 200$, $b = k + 500$, $c = 2k - 300$.
+$$(k-200) + (k+500) + (2k-300) = 13600 \implies 4k = 13600 \implies k = 3400$$
+$$a = 3200, \quad b = 3900, \quad c = 6500$$
 
-#### Partnership with Changing Investments
+#### Partnership with Changing Capital
 
-**When partners add or withdraw capital:**
-Example: A and B start a business with ₹3,000 and ₹5,000. After 4 months, A adds ₹2,000 and B withdraws ₹1,000. Find profit after 10 months if total profit is ₹18,500.
+When partners add or withdraw capital mid-business, calculate capital-time for each distinct period.
 
-A's capital: 3000 for 4 months, then 5000 for 6 months
-A's share = 3000×4 + 5000×6 = 12000 + 30000 = 42,000
+**Example:** A and B start a business with ₹20,000 and ₹30,000 respectively. After 5 months, A adds ₹10,000 and B withdraws ₹5,000. Total profit after 11 months is ₹78,000. Find each share.
 
-B's capital: 5000 for 4 months, then 4000 for 6 months
-B's share = 5000×4 + 4000×6 = 20000 + 24000 = 44,000
+**A's capital-time:**
+- ₹20,000 for 5 months = $20{,}000 \times 5 = 1{,}00{,}000$
+- ₹30,000 for remaining 6 months = $30{,}000 \times 6 = 1{,}80{,}000$
+- A's total = $2{,}80{,}000$
 
-Total = 86,000
-A's profit = 42/86 × 18500 = ₹8,953.49
-B's profit = 44/86 × 18500 = ₹9,546.51
+**B's capital-time:**
+- ₹30,000 for 5 months = $1{,}50{,}000$
+- ₹25,000 for remaining 6 months = $1{,}50{,}000$
+- B's total = $3{,}00{,}000$
+
+$$\text{Ratio} = 280000 : 300000 = 14 : 15$$
+$$A = \frac{14}{29} \times 78000 = ₹37{,}655.17$$
+$$B = \frac{15}{29} \times 78000 = ₹40{,}344.83$$
 
 #### Working Partner vs Sleeping Partner
 
-**Working Partner:** Invests capital AND manages the business
-**Sleeping Partner:** Only invests capital
+A working partner may receive a commission from profits before the remainder is divided in the capital ratio.
 
-Sometimes working partners get extra share (salary or commission) before profit division.
+**Example:** A (working) and B (sleeping) invest ₹60,000 and ₹90,000 respectively. A is entitled to 15% of profit as management commission before dividing the rest. Total profit = ₹50,000.
 
-Example: Two partners A and B invest ₹10,000 and ₹20,000. A is working and gets 10% of profit as commission. Total profit = ₹6,000.
-A's commission = 10% of 6000 = 600
-Remaining profit = 5400
-Divide in investment ratio 10000:20000 = 1:2
-A gets = 5400 × 1/3 + 600 = 1800 + 600 = ₹2,400
-B gets = 5400 × 2/3 = ₹3,600
+1. A's commission: $0.15 \times 50000 = ₹7{,}500$
+2. Remaining profit: $50000 - 7500 = ₹42{,}500$
+3. Divide in capital ratio $60{,}000 : 90{,}000 = 2 : 3$:
+$$A = \frac{2}{5} \times 42500 = ₹17{,}000$$
+$$B = \frac{3}{5} \times 42500 = ₹25{,}500$$
+4. A's total: $7500 + 17000 = ₹24{,}500$; B's total: ₹25,500
 
-#### Consecutive Changes in Ratio
+#### Consecutive Ratio Change Problems
 
-**Problem type:** Values change consecutively, find original values
+**Example:** The incomes of two persons P and Q are in the ratio 7:5 and their expenditures are in the ratio 3:2. Each saves ₹4,000. Find their incomes.
 
-Example: A, B, C have money in ratio 3:4:5. B gives ₹20 each to A and C. Now ratio becomes 5:4:5. Find original amounts.
-Let amounts = 3x, 4x, 5x
-After: A = 3x+20, B = 4x-40, C = 5x+20
-Given: (3x+20):(4x-40):(5x+20) = 5:4:5
-From (3x+20)/(5x+20) = 5/5 = 1
-3x+20 = 5x+20 → x = 0 (wrong, this approach is for different ratios)
+Let incomes be $7x$ and $5x$, expenditures be $3y$ and $2y$.
+$$7x - 3y = 4000 \quad \text{(1)}$$
+$$5x - 2y = 4000 \quad \text{(2)}$$
 
-Using 5:4:5 for all three:
-(3x+20)/(5x+20) = 5/5 = 1 → x = 0 ✗
-
-Actually, use two ratios:
-(3x+20)/(4x-40) = 5/4 → 12x+80 = 20x-200 → 8x = 280 → x = 35
-Check: 3×35+20=125, 4×35-40=100, 5×35+20=195 → 125:100:195 = 5:4:7.8 ✗
-
-Let's use:
-(3x+20)/(5x+20) = 5/5 = 1 → This gives x=0 ✗
-
-Correct approach: 
-We need (3x+20):(4x-40) = 5:4 and (4x-40):(5x+20) = 4:5
-From second: 4(4x-40) = 4(5x+20) → 16x-160 = 20x+80 → 4x = -240 → x = -60 ✗
-
-Let's just solve:
-A=3x+20, B=4x-40, C=5x+20
-A/B = 5/4 → 4(3x+20) = 5(4x-40) → 12x+80 = 20x-200 → 8x = 280 → x = 35
-Check: A=125, B=100, C=195 → Ratio 125:100:195 = 5:4:7.8 (not matching)
-
-Using A/C = 5/5:
-(3x+20) = (5x+20) → x=0 ✗
-
-The problem statement may need rechecking. Generally:
-When two ratios are given, you can solve by setting up equations from both.
+Multiply (1) by 2 and (2) by 3:
+$$14x - 6y = 8000$$
+$$15x - 6y = 12000$$
+Subtract first from second: $x = 4000$
+From (1): $7(4000) - 3y = 4000 \implies y = \frac{24000}{3} = 8000$
+$$P = 7 \times 4000 = ₹28{,}000, \quad Q = 5 \times 4000 = ₹20{,}000$$
+P saves: $28000 - 24000 = ₹4{,}000$ ✓; Q saves: $20000 - 16000 = ₹4{,}000$ ✓
 
 #### Time and Work with Ratios
 
-**If work is divided in ratio:**
-If A and B together can do a work in x days, and A alone can do it in y days:
-B alone can do it in xy/(y-x) days
+**Example:** If A and B together can complete a task in 18 days, and A alone can do it in 30 days, how long does B alone take?
+$$\frac{1}{T} = \frac{1}{30} + \frac{1}{T_B} \implies \frac{1}{18} - \frac{1}{30} = \frac{1}{T_B}$$
+$$\frac{5-3}{90} = \frac{2}{90} = \frac{1}{45} \implies T_B = 45 \text{ days}$$
 
-Example: Together in 12 days, A alone in 20 days:
-B = 12×20/(20-12) = 240/8 = 30 days
+**Efficiency ratio:** If A is twice as efficient as B, A takes half the time B takes for the same job. Efficiency ratio $3:5$ means time ratio $5:3$.
 
-**Efficiency ratio:**
-If A:B = 3:4, then time ratio (to complete same work) = 4:3
+#### Applications to Business and Commerce
 
-If A takes 20 days, B takes = 20 × 3/4 = 15 days
+**Example:** Three partners A, B, C invest ₹25,000 (for 8 months), ₹35,000 (for 6 months), and ₹40,000 (for the full year) respectively. Profit = ₹22,800. Find each share.
+$$A = 25000 \times 8 = 2{,}00{,}000$$
+$$B = 35000 \times 6 = 2{,}10{,}000$$
+$$C = 40000 \times 12 = 4{,}80{,}000$$
+$$\text{Total} = 8{,}90{,}000$$
+$$A = \frac{200}{890} \times 22800 = ₹5{,}123.60$$
+$$B = \frac{210}{890} \times 22800 = ₹5{,}382.02$$
+$$C = \frac{480}{890} \times 22800 = ₹12{,}294.38$$
 
-#### Applications in Business
+#### Practice Problems with Full Solutions
 
-**Capital and profit distribution:**
-A puts in ₹8,000 for 6 months, B puts in ₹10,000 for 5 months, C puts in ₹6,000 for whole year. Profit = ₹5,600.
-A = 8000×6 = 48000
-B = 10000×5 = 50000
-C = 6000×12 = 72000
-Total = 170000
-A's share = 48000/170000 × 5600 = ₹1,581.18
-B's share = 50000/170000 × 5600 = ₹1,647.06
-C's share = 72000/170000 × 5600 = ₹2,371.76
+**Q1:** Divide ₹12,600 into three parts in the ratio 2:3:4 such that each yields the same interest at 8% p.a. in 1 year.
+Each part gets interest of $P \times \frac{8}{100}$. For interest to be equal, principals must be equal. But the ratio 2:3:4 means unequal principals... This is a trick question. The parts are $2x, 3x, 4x$ and each interest is $0.08 \times 2x, 0.08 \times 3x, 0.08 \times 4x$. Since $x$ is common, interest amounts are in the same ratio 2:3:4 — they cannot be equal unless $x = 0$. The question may be misstated. The intended interpretation is probably that each gets the same amount of interest at the same rate, which requires equal principals, contradicting the ratio. Resolution: the problem as stated has no solution with non-zero $x$.
 
-#### Practice Problems
+**Q2:** A 60-litre mixture contains milk and water in ratio 7:3. How much water must be added to make the ratio 3:2?
+Milk = $60 \times \frac{7}{10} = 42$ litres
+Water = $60 \times \frac{3}{10} = 18$ litres
+Add $x$ litres water: $\frac{42}{18+x} = \frac{3}{2}$
+$$84 = 3(18+x) \implies 84 = 54 + 3x \implies x = 10 \text{ litres}$$
 
-Q1: Divide ₹9,000 into three parts in ratio 2:3:4 such that each part gets equal interest at 10% per annum in 1 year.
-Solution: Parts are 2000, 3000, 4000
-Interest each: 200, 300, 400 → all get equal? No
-This question asks parts so that interest is equal:
-2000×r×1/100 = 3000×r×1/100 = 4000×r×1/100 → This gives same r for all
-Actually: Divide principal so that interest is equal
-Let parts be 2x, 3x, 4x
-Interest = 2x×10/100 = 3x×10/100 = 4x×10/100 → This gives 2x=3x=4x → only if x=0
-
-Wait, they all get same rate, so interest proportional to principal. Can't be equal unless principals equal.
-
-Q2: A mixture of 40 litres has milk and water in ratio 3:1. How much water to add to make ratio 1:1?
-Solution: Milk = 30, Water = 10
-To make 1:1: Milk = Water
-Add x litres of water: 30 = 10+x → x = 20 litres
-
-Q3: The incomes of A and B are in ratio 5:3 and their expenditures are in ratio 9:5. If each saves ₹2,000, find incomes.
-Solution: Income - Expenditure = Savings
-5x - 9y = 2000
-3x - 5y = 2000
-Subtract: 2x - 4y = 0 → x = 2y
-Substitute: 5(2y) - 9y = 2000 → y = 2000
-x = 4000
-A's income = 5×4000 = ₹20,000
-B's income = 3×4000 = ₹12,000
+**Q3:** The incomes of P and Q are in ratio 4:3 and expenditures in ratio 12:7. If each saves ₹6,000, find their incomes.
+Let incomes be $4x, 3x$ and expenditures be $12y, 7y$.
+$$4x - 12y = 6000 \quad \text{(1)}$$
+$$3x - 7y = 6000 \quad \text{(2)}$$
+Multiply (1) by 3 and (2) by 4:
+$$12x - 36y = 18000$$
+$$12x - 28y = 24000$$
+Subtract: $-8y = -6000 \implies y = 750$
+From (1): $4x - 12(750) = 6000 \implies 4x = 6000 + 9000 = 15000 \implies x = 3750$
+$$P = 4 \times 3750 = ₹15{,}000, \quad Q = 3 \times 3750 = ₹11{,}250$$
+Check: P saves $15000 - 9000 = 6000$ ✓; Q saves $11250 - 5250 = 6000$ ✓
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

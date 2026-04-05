@@ -143,3 +143,16 @@
 **Latest commit on prod:** `199842b Fix schema.org domain mismatch: all URLs now use studyroadmap.in`
 
 **Status:** Site healthy. No actionable code changes this cycle. All remaining items (GSC verification, AdSense, Formspree, deploy backend fix) require user input. Monitoring continues.
+
+## Research Findings — 2026-04-05T10:55 UTC
+
+### 🔴 Critical (fix immediately)
+- **Plausible analytics tracking wrong domain**: Plausible JS script tag had `data-domain="studyroadmap.com"` but site is `studyroadmap.in` — all analytics data being lost/not tracked
+
+### 🟡 Important (fix this cycle)
+- Fixed: Changed `data-domain="studyroadmap.com"` → `"studyroadmap.in"` in Layout.astro
+
+### ✅ Completed This Run
+- **Plausible domain fix**: Changed analytics domain from studyroadmap.com → studyroadmap.in
+- Build: 3349 pages ✅ | Commit: e4f6b5d ✅
+- Deploy: endpoint returning 404 (service down — recurring issue, user needs SSH fix)

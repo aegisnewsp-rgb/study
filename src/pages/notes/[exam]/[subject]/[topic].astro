@@ -27,6 +27,7 @@ const description = `${topicName} study notes for ${examName}. ${weight}% exam w
 const canonicalUrl = `https://studyroadmap.in/notes/${note.id}`;
 const ogImage = `/og-notes/${exam}-${subject}-${topic}.jpg`;
 const siteUrl = 'https://studyroadmap.in';
+const authorObj = { name: "StudyRoadmap Editorial Team", jobTitle: "Curriculum Editors", affiliation: "StudyRoadmap", url: "https://studyroadmap.in/about" };
 
 // Related notes: same exam + subject, different topic
 const allNotes = await getCollection('notes');
@@ -225,7 +226,7 @@ const articleJsonLd = {
 };
 ---
 
-<Layout title={title} description={description} canonical={canonicalUrl} image={ogImage} faqs={faqs}>
+<Layout title={title} description={description} canonical={canonicalUrl} image={ogImage} faqs={faqs} author={authorObj}>
   <script type="application/ld+json" set:html={JSON.stringify(articleJsonLd)} />
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
 

@@ -50,6 +50,7 @@ const title = `${examName} Study Notes — All Subjects | StudyRoadmap™`;
 const description = `Free ${examName} study notes for all subjects. ${examNotes.length} topics — Physics, Chemistry, Biology, and more. No signup required.`;
 const canonicalUrl = `https://studyroadmap.in/notes/${exam}`;
 const siteUrl = 'https://studyroadmap.in';
+const authorObj = { name: "StudyRoadmap Editorial Team", jobTitle: "Curriculum Editors", affiliation: "StudyRoadmap", url: "https://studyroadmap.in/about" };
 // Only 20 of 125+ exams have custom OG images — fall back to default for rest
 const EXAM_OG_IMAGES = ['cat','clat','cuet','ecat','hat-ug','jamb','jeeadvanced','jeemain','lat','mdcat','nabteb','nat-i','ncee','nda','neco','neet','ssc-cgl','ugc-net','upsc','waec'];
 const ogImage = EXAM_OG_IMAGES.includes(exam) ? `/og-notes/exam-${exam}.jpg` : '/og-image.jpg';
@@ -130,7 +131,7 @@ const faqJsonLd = {
 };
 ---
 
-<Layout title={title} description={description} canonical={canonicalUrl} image={ogImage}>
+<Layout title={title} description={description} canonical={canonicalUrl} image={ogImage} author={authorObj}>
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
   <script type="application/ld+json" set:html={JSON.stringify(collectionPageJsonLd)} />
   <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />

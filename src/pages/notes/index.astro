@@ -42,6 +42,7 @@ const description = `Browse ${totalNotes} free study notes across NEET, JEE, UPS
 const canonicalUrl = 'https://studyroadmap.in/notes';
 const ogImage = '/og-image.jpg';
 const siteUrl = 'https://studyroadmap.in';
+const authorObj = { name: "StudyRoadmap Editorial Team", jobTitle: "Curriculum Editors", affiliation: "StudyRoadmap", url: "https://studyroadmap.in/about" };
 
 const countryFlags: Record<string, string> = { india: '🇮🇳', pakistan: '🇵🇰', nigeria: '🇳🇬' };
 const countryNames: Record<string, string> = { india: 'India', pakistan: 'Pakistan', nigeria: 'Nigeria' };
@@ -95,7 +96,7 @@ const faqJsonLd = {
 };
 ---
 
-<Layout title={title} description={description} canonical={canonicalUrl} image={ogImage} faqs={NOTES_FAQS}>
+<Layout title={title} description={description} canonical={canonicalUrl} image={ogImage} faqs={NOTES_FAQS} author={authorObj}>
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
   <Navbar />
   <main id="main-content" class="flex-1">

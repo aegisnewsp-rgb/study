@@ -199,9 +199,34 @@ const breadcrumbJsonLd = {
     { '@type': 'ListItem', position: 5, name: topicName, item: canonicalUrl },
   ],
 };
+
+const articleJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: `${topicName} — ${subjectName} Study Notes`,
+  description: description,
+  author: { '@type': 'Organization', name: 'StudyRoadmap™', url: siteUrl },
+  publisher: {
+    '@type': 'Organization',
+    name: 'StudyRoadmap™',
+    url: siteUrl,
+    logo: { '@type': 'ImageObject', url: `${siteUrl}/favicon.svg` },
+  },
+  datePublished: note.data.generated || '2026-01-01',
+  dateModified: note.data.generated || '2026-01-01',
+  mainEntityOfPage: { '@type': 'WebPage', '@id': canonicalUrl },
+  about: {
+    '@type': 'Thing',
+    name: topicName,
+    description: `${weight}% exam weight for ${examName}`,
+  },
+  keywords: `${topicName}, ${subjectName}, ${examName} notes, study notes, exam preparation`,
+  url: canonicalUrl,
+};
 ---
 
 <Layout title={title} description={description} canonical={canonicalUrl} image={ogImage} faqs={faqs}>
+  <script type="application/ld+json" set:html={JSON.stringify(articleJsonLd)} />
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
 
   <Navbar />

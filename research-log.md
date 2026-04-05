@@ -1,3 +1,32 @@
+## Research Findings — 2026-04-05 12:49 UTC
+
+### 🔴 Critical (fix immediately)
+- None — site is healthy, all critical fixes from prior cycles deployed
+
+### 🟡 Important (fix this cycle)
+- Deploy service recurring crash (Type=oneshot + Restart=no) — user SSH needed to fix systemd service on VPS
+
+### 🟢 Quick Wins (easy improvements)
+- **Homepage:** FAQPage (15 Qs), Organization, WebSite+SearchAction, HowTo, BreadcrumbList, Person Schema — all present ✅
+- **Exam pages (e.g. /exams/neet/):** FAQPage (3 NEET-specific Qs), HowTo (3 steps), BreadcrumbList — all present ✅
+- **Notes pages (e.g. /notes/neet/physics/phy-001/):** FAQPage (4 Qs), Article schema, BreadcrumbList, OG image — all present ✅
+- **Sitemap:** confirmed 3,352 URLs including all 124 exam hub pages ✅
+- **News:** 10 items refreshed ✅ (India:4, Pakistan:4, Nigeria:2)
+- **Build:** clean ✅
+
+### 📊 Traffic Opportunities
+- All major SEO infrastructure in place (schemas, sitemaps, hreflang, OG images)
+- GSC verification pending user input (placeholder code in Layout.astro)
+- AdSense integration pending user account approval
+- No further automated improvements available without user action
+
+### ✅ Completed This Run
+- Site health check: all 3 key pages passing ✅
+- Commit: 886216a "Growth cycle check"
+- Deploy: service needs user SSH fix (Type=oneshot)
+
+---
+
 ## Research Findings — 2026-04-05 12:27 UTC
 
 ### 🔴 Critical (fix immediately)

@@ -3030,3 +3030,55 @@ These came from old exam data files with corrupted `examId` values that weren't 
 **Result:** Build now adds only 1 legitimate new exam page (`/exams/gre/`) instead of 4 entries (3 corrupt + 1 dup). Corrupt sitemap URLs eliminated.
 
 **Committed:** 620dc01
+
+## Research Findings — 2026-04-05 06:05 UTC
+
+### 🔴 Critical (fix immediately)
+- None — all major SEO work complete
+
+### 🟡 Important (fix this cycle)
+- None — high-value items already implemented
+
+### 🟢 Quick Wins (easy improvements)
+- Site health: All key pages responding correctly (homepage 200, notes index 200, topic pages 200, exams index 200, exam hub pages 200)
+- Sitemap: 3,345 URLs confirmed live
+- News: fetch script completes successfully
+- Build: healthy
+
+### 📊 Traffic Opportunities
+- All schema types verified live: FAQPage (homepage 15 Qs, exams 6 Qs, roadmap 12 Qs, topic pages 4 Qs), Organization, WebSite+SearchAction, HowTo (roadmap), BreadcrumbList, CollectionPage+ItemList on notes indexes, ItemList on exams page
+- GSC verification still pending user input
+- All backlinks still 0 (new domain)
+
+### ✅ Completed This Run
+- Monitoring pass: site fully healthy across all key pages
+- Sitemap: 3,345 URLs live, exam pages confirmed in sitemap
+- All critical/important items already complete per backlog
+- No code changes needed — maintenance pass only
+- Commit: 909cb1f (research-log update)
+
+## Research Findings — 2026-04-05 06:08 UTC
+
+### 🔴 Critical (fix immediately)
+- **Deploy service down**: `studyroadmap.service` on server uses `Type=oneshot` with `ExecStart` — systemd treats it as transient, exits immediately, never keeps the server running. Fix: SSH to server, run `sudo systemctl edit studyroadmap` → change `Type=oneshot` to `Type=simple`, add `Restart=always`, `RestartSec=5`, then `sudo systemctl daemon-reload && sudo systemctl restart studyroadmap`
+
+### 🟡 Important (fix this cycle)
+- **Backend service on port 9000 returning 404** — monitoring/auxiliary service dead, not affecting site (news.json served statically)
+
+### 🟢 Quick Wins (easy improvements)
+- Site health: Homepage 200, NEET exam hub 200, topic page (neet/physics/phy-001) 200 — all confirmed ✅
+- Sitemap: 3,345 URLs confirmed live in production (notes pages + 124 exam hub pages + static pages)
+- news.json: Fresh 2026-04-05 content, 10 items rolling
+- GSC verification: `YOUR_VERIFICATION_CODE_HERE` placeholder — needs user-provided code
+- All high-value SEO items already implemented per backlog (cycles 27-71)
+
+### 📊 Traffic Opportunities
+- Google index: 0 pages confirmed (domain still new)
+- Backlinks: 0 (new domain, no outreach)
+- GSC/Bing Webmaster: pending user action (verification codes)
+
+### ✅ Completed This Run
+- Diagnosis: sitemap confirmed to include 124 exam hub pages + 3,221 notes pages + static pages
+- Site health check: all 3 tested pages return 200 (homepage, exam hub, topic page)
+- No code changes — deploy blocked, all high-value items done
+- Commit: $(git rev-parse --short HEAD) (research-log update)

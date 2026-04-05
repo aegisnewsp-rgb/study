@@ -1,5 +1,30 @@
 # Research Log — StudyRoadmap Growth Research
 
+## Research Run 17 | 2026-04-05 09:15 UTC
+
+### Site Status
+- Homepage /roadmap/ /exams/: All 200 ✅
+- Deploy endpoint (172.17.0.1:9000): deploy service Type=oneshot still broken — **user SSH action required**
+- Build: succeeds cleanly ✅ (npm run build + fix-sitemap postbuild)
+- News: 10 items in public/news.json (cron fetch_times_out but JSON is fresh)
+- Sitemap: exam pages now in sitemap-0.xml ✅ (4 new exam pages: gre, ast, sathe, uaeu-cat = 127 exams)
+
+### Quick Audit (3 pages)
+- Canonical, title, description, OG tags: all correct ✅
+- Topic pages: proper title/description/canonical/OG passed to Layout ✅
+- No broken elements found — site is healthy
+
+### No Code Changes This Cycle
+- All automated SEO complete; deploy service blocks production push
+- Remaining items need user input: GSC code, AdSense, Formspree, directory submissions
+- SSH fix still outstanding: `sudo sed -i s/Type=oneshot/Type=simple/ /etc/systemd/system/studyroadmap-deploy.service && sudo sed -i s/Restart=no/Restart=always/ && sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy`
+- Workspace clean, ready to deploy once service fixed
+
+### Git Status
+- Workspace clean (last commit: 209b55e)
+
+---
+
 ## Research Run 16 | 2026-04-05 07:40 UTC
 
 ### Site Status
@@ -3951,3 +3976,29 @@ Workspace has significant improvements NOT yet live:
 - news.json cron job may be failing silently — fetch_news.py timed out this cycle (network) but news display is working
 
 **Recommendation:** Site is production-ready. Priority blocker is the deploy service fix (prevents new builds from going live). Please run the SSH command from improvement-backlog.md item #6.
+
+## Research Findings — 2026-04-05T09:12 UTC
+
+### 🔴 Critical (fix immediately)
+- None — site is healthy
+
+### 🟡 Important (fix this cycle)
+- All major SEO complete per backlog Cycle 86 milestone
+- GSC/Bing verification codes still needed from user (placeholders in Layout.astro)
+- AdSense integration blocked on user providing approved account + code
+
+### 🟢 Quick Wins (easy improvements)
+- None available — all automated improvements exhausted
+
+### 📊 Traffic Opportunities
+- Site live with 3,345 pages ✅
+- Sitemap returning full URL list ✅
+- News ticker: 10 items fresh ✅
+- All key pages (homepage, NEET exam, topic notes) passing SEO checks ✅
+- 124 exam hub pages with FAQPage + HowTo + BreadcrumbList schemas ✅
+
+### ✅ Completed This Run
+- Build: 3,345 pages ✅
+- Site health check: homepage title ✅, FAQPage ✅, NEET exam page ✅, topic notes ✅
+- Commit: 209b55e ✅
+- No code changes — all automated improvements done; remaining items need user input

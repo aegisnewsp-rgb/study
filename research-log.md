@@ -1,5 +1,35 @@
 # Research Log — StudyRoadmap Growth Research
 
+## Research Run 14 | 2026-04-05 04:58 UTC
+
+### Site Status
+- Homepage: 200 ✅ | /exams/neet/: 200 ✅ | /exams/: 200 ✅
+- Deploy endpoint (172.17.0.1:9000): "Forbidden" / "Bad request" — backend alive but rejecting requests (Type=oneshot crash, recurring)
+- News: ✅ 10 items refreshed (India: 4, Pakistan: 2, Nigeria: 4, deduped from 810 older items)
+
+### Quick Audit (3 pages)
+- Homepage: FAQPage (15 Qs) ✅, Organization ✅, WebSite+SearchAction ✅, title/meta correct
+- /exams/neet/: Title "NEET UG — Exam Pattern, Eligibility & Study Plan | StudyRoadmap™" ✅, FAQPage commented out in deployed HTML (older code)
+- /exams/: 200 ✅, meta description correct (124 exams) ✅
+
+### CRITICAL: Deployed sitemap missing 124 exam pages
+- **Live sitemap** (`https://studyroadmap.in/sitemap-0.xml`): only 1 `exams/` URL (just /exams/ index)
+- **Workspace build**: correctly produces 124 `/exams/[exam]/` pages in sitemap ✅
+- **Root cause**: fix-sitemap.cjs postbuild script works correctly in workspace (added 124 exam pages this run), but deploy is blocked — latest code never reaches production
+- **Impact**: Google only sees /exams/ index, not the 124 individual exam hub pages (/exams/neet/, /exams/jeemain/, etc.) — major SEO loss
+- **Fix needed**: Deploy service must be fixed (Type=oneshot → Type=simple + Restart=always)
+
+### No Code Changes This Cycle
+- Deploy backend unreachable — Type=oneshot crash blocks all code deployments
+- Site served from CDN with stale code (missing: sitemap with 124 exam pages, 404 exam ID fix, OG image fix, exam page schemas)
+- **User action still needed**: SSH into VPS → run systemd fix commands
+
+### Git Status
+- 1 commit ahead (news refresh + research log update) — committed 6df7e89
+- All prior code changes still stuck locally (27+ commits ahead of origin)
+
+---
+
 ## Research Run 13 | 2026-04-05 04:40 UTC
 
 ### Site Status

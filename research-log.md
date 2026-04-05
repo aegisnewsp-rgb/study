@@ -2037,3 +2037,70 @@ sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
 - Deploy endpoint returns 404 (backend down again, recurring issue from backlog)
 - GitHub push pending user verification of VPS nginx root path
 
+
+## Research Findings — 2026-04-05T02:53 UTC
+
+### 🔴 Critical (fix immediately)
+- None — site healthy, all key pages 200
+
+### 🟡 Important (fix this cycle)
+- None — all major SEO complete
+
+### 🟢 Quick Wins (easy improvements)
+- Site: HTTP 200 ✅ | Homepage: 200 ✅ | Exam page (NEET): 200 ✅ | Notes page: 200 ✅
+- News: ✅ 10 items refreshed (India: 4, Pakistan: 4, Nigeria: 2)
+- Schemas verified: FAQPage(15) + Organization + WebSite + SearchAction ✅ homepage
+- Exam page /exams/neet/: FAQPage + HowTo + BreadcrumbList ✅
+- OG image: still /og-image.svg on live site (workspace has /og-image.jpg — deployed version mismatch)
+- Deploy endpoint: 404 (backend down, recurring Type=oneshot issue — user SSH fix needed)
+
+### 📊 Traffic Opportunities
+- All high-value SEO improvements complete
+- GSC verification code still placeholder — user needs to provide
+- AdSense: pending user account
+- Next content priority: JEE Main Mathematics + remaining PCM topics (API exhausted)
+
+### ✅ Completed This Run
+- Monitoring only — news refreshed (10 items, 02:53 UTC)
+- Git: 1 commit appended (154cbe1)
+- Deploy trigger attempted but backend down (recurring issue)
+
+### ⚠️ Recurring Issue — Deploy Backend Crash
+- systemd service Type=oneshot + Restart=no → backend dies after each deploy
+- User SSH fix needed:
+  sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service
+  sudo sed -i 's/Restart=no/Restart=always/' /etc/systemd/system/studyroadmap-deploy.service
+  sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
+---
+## Research Findings — 2026-04-05T02:54 UTC
+
+### 🔴 Critical (fix immediately)
+- None — site healthy, all key pages 200
+
+### 🟡 Important (fix this cycle)
+- None — all major SEO complete
+
+### 🟢 Quick Wins (easy improvements)
+- Site: HTTP 200 ✅ | Homepage: 200 ✅ | Exam page (NEET): 200 ✅ | Notes/Physics: 200 ✅
+- News: ✅ (deferred to fetch — site healthy, skip redundant fetch)
+- Schemas fully verified across all page types: homepage (FAQPage+Org+WebSite), exam pages (HowTo+BreadcrumbList+FAQPage), subject index (CollectionPage+BreadcrumbList+FAQPage via Layout), topic pages (Article+WebPage+FAQPage+BreadcrumbList)
+- Deploy endpoint: 404 (backend down — Type=oneshot issue, needs user SSH fix)
+- Workspace: 154cbe1 (committed, deploy-blocked)
+
+### 📊 Traffic Opportunities
+- All high-value SEO complete — no pending on-page improvements
+- GSC/Bing/AdSense: pending user codes
+- Next content push: JEE Main Mathematics + PCM organic chemistry (API balance exhausted)
+- Exam equivalencies cross-links present on all topic pages ✅
+
+### ✅ Completed This Run
+- Monitoring only — site health confirmed (homepage + NEET exam + NEET/Physics notes all 200)
+- Schema audit: all page types have proper structured data ✅
+- Git: no change (nothing new to deploy — deploy blocked anyway)
+
+### ⚠️ Recurring Issue — Deploy Backend Crash
+- systemd service Type=oneshot + Restart=no → backend dies after each deploy
+- User SSH fix needed:
+  sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service
+  sudo sed -i 's/Restart=no/Restart=always/' /etc/systemd/system/studyroadmap-deploy.service
+  sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy

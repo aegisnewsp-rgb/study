@@ -1,5 +1,31 @@
 # Research Log — StudyRoadmap Growth Research
 
+## Research Run 9 | 2026-04-05 03:45 UTC
+
+### Site Status
+- Homepage: 200 ✅ (live still "80+ Exams" — workspace "125+" cannot deploy)
+- Deploy endpoint (172.17.0.1:9000): **404 ❌** (backend dead — Type=oneshot issue, SSH fix needed)
+- News: ✅ 10 items just refreshed (india:4, nigeria:4, pakistan:2)
+- llm.txt: Date: 2026-04-05 ✅
+- GitHub push: ✅ committed (93df00c)
+- Notes pages: title encoding correct (✅ `&amp;` is valid HTML entity for `&`)
+- /exams/ title: ✅ "Browse Exams — StudyRoadmap™"
+- NEET topic title: ✅ "Units & Measurement — Physics | NEET UG Study Notes"
+
+### No Changes This Cycle
+- Deploy backend dead again (Type=oneshot crash) — cannot deploy workspace changes
+- Live site shows "80+ Exams" (stale); workspace correctly has "125+" — gap growing
+- All high-value SEO complete; no automated quick wins remaining
+
+### Action Items (User Needed)
+1. **SSH fix for deploy service** (critical — recurring crash):
+   `sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service && sudo sed -i 's/Restart=no/Restart=always/' && sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy`
+2. **Deploy token**: `POST http://172.17.0.1:9000/deploy` returns 403 (needs bearer token)
+3. GSC verification code to replace `YOUR_VERIFICATION_CODE_HERE` in Layout.astro
+4. Formspree ID for feedback form
+
+---
+
 ## Research Run 8 | 2026-04-05 03:05 UTC
 
 ### Site Status

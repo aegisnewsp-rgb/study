@@ -1384,3 +1384,61 @@ sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
 
 ### ✅ Completed This Run
 - Fixed OG image fallback in `src/pages/notes/[exam]/index.astro` — 105 exam notes pages now show default OG image instead of broken 404 URLs
+
+---
+
+## Research Findings — 2026-04-05T00:52 UTC
+
+### 🔴 Critical (fix immediately)
+- None — site healthy, all 200s
+
+### 🟡 Important (fix this cycle)
+- Deploy backend down again (port 9000 → 404) — same recurring Type=oneshot issue from backlog. Needs SSH fix:
+  ```bash
+  sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service
+  sudo sed -i 's/Restart=no/Restart=always/' /etc/systemd/system/studyroadmap-deploy.service
+  sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
+  ```
+
+### 🟢 Quick Wins
+- Footer already says "Content reviewed April 2026" ✅
+- llm.txt already updated to 2026-04-05 ✅
+- All major SEO complete — no new opportunities without user input
+
+### 📊 Traffic Opportunities
+- All SEO backlog items need user action: GSC code, AdSense code, SSH deploy fix
+
+### ✅ Completed This Run
+- News refresh: 10 items (India:4 Pakistan:4 Nigeria:2) ✅ committed + pushed
+- Build: 3347 pages ✅
+- Deploy: ❌ blocked — deploy backend down (recurring issue)
+
+---
+
+## Research Run 6 | 2026-04-05 00:55 UTC
+
+### Site Status
+- Homepage: 200 ✅
+- /exams/: 200 ✅  
+- /notes/neet/physics/: 200 ✅
+- News: 10 items ✅ (India: 4, Pakistan: 4, Nigeria: 2 — refreshed 00:53 UTC)
+- llm.txt: Date: 2026-04-05 ✅
+- Footer: workspace says "April 2026" ✅ — but live site still shows "March 2026" (old build)
+
+### Findings
+- Deploy service DOWN again — port 9000 returns HTTP 404 "Not found"
+  - Container alive (nginx static files serving), but Astro dev server dead inside
+  - Site live at studyroadmap.in but on old build (footer still "March 2026")
+  - Recurring Type=oneshot crash — needs SSH fix from user:
+    ```bash
+    sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service
+    sudo sed -i 's/Restart=no/Restart=always/' /etc/systemd/system/studyroadmap-deploy.service
+    sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
+    ```
+- GitHub push: working ✅ (no unpushed commits)
+- All high-value SEO: complete ✅
+- Remaining user-gated items: GSC code, AdSense code, deploy fix (SSH), Formspree ID
+
+### No changes — deploy blocked
+- Workspace has correct "April 2026" footer + "125+" titles but can't reach production
+- Commit: news refresh only (55eb1c2 already current)

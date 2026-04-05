@@ -747,3 +747,42 @@ Exam hub pages were using the Layout default (`/og-image.jpg`) instead of exam-s
 - Workspace: clean, nothing to commit
 - **Conclusion:** All automated improvements exhausted. Remaining opportunities require user action: GSC verification code, AdSense account, directory submissions.
 
+
+## Research Findings — 2026-04-05T13:27 UTC
+
+### 🔴 Critical (fix immediately)
+- None — all major SEO already complete
+
+### 🟡 Important (fix this cycle)
+- **Person/E-E-A-T schema missing on 4 key pages**: roadmap, exams, contact, feedback pages did NOT pass `author` prop to Layout — homepage and about page already had it. This means these pages lack the "StudyRoadmap Editorial Team" Person schema that signals human authorship to Google. Critical for E-E-A-T and AI citation systems.
+
+### 🟢 Quick Wins (easy improvements)
+- Added `author={{ name: "StudyRoadmap Editorial Team", jobTitle: "Curriculum Editors", affiliation: "StudyRoadmap", url: "https://studyroadmap.in/about" }}` prop to:
+  - `/roadmap` page
+  - `/exams` page  
+  - `/contact` page
+  - `/feedback` page
+
+### 📊 Traffic Opportunities
+- All SEO infrastructure complete; growth now depends on content depth + backlinks + GSC verification
+
+### ✅ Completed This Run
+- **Change:** Add Person/E-E-A-T schema to roadmap, exams, contact, feedback pages (4 pages previously missing `author` prop to Layout)
+- **Files:** src/pages/roadmap.astro, src/pages/exams.astro, src/pages/contact.astro, src/pages/feedback.astro
+- **Build:** 3,346 pages ✅
+- **Commit:** 4ce95ac "Add Person/E-E-A-T schema to 4 key pages missing author prop"
+- **News:** 10 items (India:4, Nigeria:4, Pakistan:2)
+- **Site:** live at studyroadmap.in ✅
+
+---
+
+**Research Cycle — 2026-04-05 13:37 UTC**
+
+- **Checked:** Homepage (200 ✅), /notes/neet/physics/phy-001/ (200 ✅), /exams/neet/ (200 ✅)
+- **Sitemap:** All entries confirmed with `<lastmod>2026-04-05</lastmod>` — postbuild fix working ✅
+- **NEET exam page:** 5 JSON-LD scripts, FAQPage schema present ✅
+- **Homepage:** Complete meta tags, OG, Twitter cards, Organization/WebSite/FAQPage/HowTo/Person schemas ✅
+- **news.json:** 10 news items — fresh (JEE Mains Session 2 from April 6, UPSC coaching open) ✅
+- **Improvement identified:** None — site is fully healthy, all critical items addressed
+- **Action taken:** None — no regressions found, no pending fixes within scope
+- **Backlog status:** All actionable items complete; remaining items require user input (GSC/Bing verification codes, new exam additions)

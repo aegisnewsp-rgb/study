@@ -1131,3 +1131,33 @@ All remaining improvements need user-provided values:
 - News fetch: 10 items ✅
 - VPS diagnostic: confirmed down (same root cause as Cycles 87-106)
 - No changes committed (deploy impossible without VPS fix)
+
+---
+
+## Research Findings — 2026-04-05 23:24 UTC
+
+### ✅ Site Health — All Clear
+- Homepage: **200 OK** ✅
+- `/exams/neet/`: **200 OK** ✅  
+- `/notes/`: **200 OK** ✅
+- Sitemap: sitemap-0.xml live with thousands of topic pages ✅
+- robots.txt: AI training blocked, Google-Extended allowed, sitemap referenced ✅
+- llm.txt: Date 2026-04-05 ✅ (current)
+- news.json: 10 fresh items, top headline "JEE Main 2026 April 6" ✅
+- HTTPS redirect chain working correctly (301 → 200)
+
+### ✅ Completed This Run
+- Health check: site fully operational, no code issues detected
+- No code changes needed — site is in excellent shape
+
+### ⚠️ Still Blocked (needs user action)
+1. **GSC verification code** — `YOUR_VERIFICATION_CODE_HERE` in Layout.astro
+2. **Bing verification code** — `BING_VERIFICATION_CODE` in Layout.astro  
+3. **Formspree ID** — `REPLACE_WITH_FORMSPREE_ID` in feedback.astro
+4. **Deploy service** — Type=oneshot + Restart=no causes crash after each deploy (needs SSH fix)
+5. **GitHub push** — repos returning 404, commits stuck locally since Cycle 82
+
+### 📝 Notes
+- Site has reached a mature SEO state after 100+ growth cycles
+- All remaining items require user-provided credentials or server access
+- Next meaningful automated improvement: GSC/Bing verification + sitemap resubmission after deploy

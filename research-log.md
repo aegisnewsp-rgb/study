@@ -2184,3 +2184,58 @@ sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
 1. **Deploy service dying post-deploy** — `Type=oneshot` + `Restart=no` in systemd — user SSH fix needed
 2. **Production site still on old build** (125+ in workspace, 80+ live) — waiting on deploy
 3. **GitHub push blocked** — origin repo returns 404, commits stuck locally
+
+---
+
+## 📅 Cycle — 2026-04-05 03:25 UTC
+
+### 🔍 Site Audit Summary
+
+| Page | Status | Title | Meta Description | Canonical |
+|------|--------|-------|-----------------|-----------|
+| Homepage (/) | ✅ 200 | StudyRoadmap — Exam Study Notes & Roadmaps | ✅ Present | ✅ Present |
+| /exams/neet/ | ✅ 200 | — | ✅ Present | ✅ |
+| /notes/neet/physics/ | ✅ 200 | — | ✅ | ✅ |
+| /notes/neet/physics/phy-001/ | ✅ 200 | — | ✅ | ✅ |
+| /notes/apeamc/ | ❌ 404 | — | — | — |
+
+**Sitemap:** ✅ Single sitemap at `/sitemap-0.xml` (valid, has ~2700+ entries)
+
+### ⚠️ Issues Found
+
+1. **Missing content file — NECO Chemistry chem-7** (HIGH PRIORITY)
+   - `src/content/notes/neco/chemistry/chem-7.md` was completely missing
+   - Topic: "Chemical Equilibrium and Le Chatelier's Principle" (neco.ts data has it as topic chem-7)
+   - Affected sitemap URL: `/notes/neco/chemistry/chem-7/` — was NOT in sitemap
+   - Fix: ✅ Created `chem-7.md` with full 3-tier content (Lite/Standard/Extended)
+
+2. **Other missing content files** (from sitemap gap analysis):
+   - `neco/chemistry/chem-6.md` — also missing (neither in content dir nor sitemap)
+   - `waec/physics/phy-4.md` — missing (sitemap jumps phy-3 → phy-5)
+   - `waec/physics/phy-15.md` — missing (sitemap jumps phy-14 → phy-16)
+   - `neco/physics/phy-4.md` and `neco/physics/phy-12.md` — missing
+   - `nabteb/physics/phy-3.md` — missing
+   - `jamb/physics/phy-3.md` — missing (sitemap jumps phy-2 → phy-4)
+   - All confirmed by comparing sitemap URL list vs `ls src/content/notes/[exam]/[subject]/`
+
+3. **APEAMC pages return 404** (lower priority — not in sitemap)
+   - `/notes/apeamc/physics/` → 404
+   - `/exams/apeamc/` → 404
+   - No apeamc exam data exists; notes pages exist in source but aren't served
+   - Not in sitemap so not an indexing issue, but confusing for direct traffic
+
+### ✅ Fix Implemented
+
+**File created:** `src/content/notes/neco/chemistry/chem-7.md`
+- Frontmatter: exam=neco, topic=chem-7, topicName="Chemical Equilibrium and Le Chatelier's Principle"
+- Content: 3-tier structure (Lite/Standard/Extended) covering reversible reactions, Kc/Kp, Le Chatelier's principle, industrial applications (Haber, Contact processes)
+- Git commit: `07ac7ab`
+
+### 📋 Next Priority (from sitemap gap analysis)
+
+1. Create missing `chem-6.md` for NECO chemistry (Thermochemistry) — next logical file
+2. Create missing `waec/physics/phy-4.md` and `phy-15.md` — WAEC Physics
+3. Create missing `neco/physics/phy-4.md` and `phy-12.md` — NECO Physics
+4. Investigate and fix or remove `/notes/apeamc/` orphan pages (404)
+5. Check deploy status (production still on old build per previous cycles)
+

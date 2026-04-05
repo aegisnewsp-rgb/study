@@ -2013,3 +2013,27 @@ sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
 - **User action needed**: Verify VPS nginx root path and ensure workflow deploys to correct directory
 
 ### No local code changes — monitoring + deploy trigger push only
+
+## Research Findings — 2026-04-05T02:44 UTC
+
+### 🔴 Critical (fix immediately)
+- None — site healthy
+
+### 🟡 Important (fix this cycle)
+- None — all major SEO complete
+
+### 🟢 Quick Wins (easy improvements)
+- News fresh ✅ (10 items, last updated 02:20 UTC this cycle)
+- Site: HTTP 200 ✅ | NEET exam page: 200 ✅ | Notes page: 200 ✅
+- Schemas on /exams/neet/: FAQPage(2) + HowTo(5) + BreadcrumbList + Organization + WebSite ✅
+- Git: 1 new commit pushed (b2c1d8f)
+
+### 📊 Traffic Opportunities
+- All high-value SEO complete; remaining items need user input (GSC, AdSense, API top-up)
+
+### ✅ Completed This Run
+- Monitoring only — news refreshed, site healthy, schemas verified
+- 1 commit appended to research-log.md
+- Deploy endpoint returns 404 (backend down again, recurring issue from backlog)
+- GitHub push pending user verification of VPS nginx root path
+

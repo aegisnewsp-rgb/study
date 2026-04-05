@@ -338,3 +338,58 @@ Exam hub pages were using the Layout default (`/og-image.jpg`) instead of exam-s
 **Fix Applied:** Changed "NEET-level practice questions" → "exam-level practice questions" in the HowTo step text.  
 **Committed:** `1b83e42` — "Growth cycle fix: remove hardcoded NEET reference from generic exam HowTo schema"  
 **Note:** Also observed that the Footer's "Content reviewed April 2026" date is static text (not a major issue but worth noting for automation). No Person/author schema visible in HTML output (commented stubs present). Sitemap exists and appears healthy.
+
+---
+
+## Research Findings — 2026-04-05T11:56 UTC
+
+### 🔴 Critical (fix immediately)
+- None found
+
+### 🟡 Important (fix this cycle)
+- None — all major SEO work complete
+
+### 🟢 Quick Wins
+- Sitemap now includes all 124 exam pages (including /exams/ast/, /exams/uaeu-cat/) ✅ — confirmed in dist/
+- Footer "Content reviewed April 2026" ✅ (already current)
+- llm.txt date updated to 2026-04-05 ✅
+- News: 10 items fresh (India:4, Nigeria:4, Pakistan:2) ✅
+
+### 📊 Traffic Opportunities
+- All SEO signals green (FAQPage, BreadcrumbList, HowTo, Organization, WebSite+SearchAction, hreflang)
+- 3,346 pages built, sitemap healthy
+- Remaining growth blockers: GSC verification, AdSense integration (both need user input)
+
+### ✅ Completed This Run
+- News refresh: 10 items ✅ (810 new items deduplicated)
+- Site audit: sitemap confirmed including exam pages ✅
+- Git commit: 8cacf78 ✅ (20 files, sitemap + exam pages + news)
+- Site status: healthy ✅ | llm.txt: current ✅
+
+**⚠️ BLOCKED — needs user:**
+- GSC verification code (placeholder in Layout.astro)
+- AdSense integration (needs approved account + code)
+- Deploy service fix (systemd Type=oneshot → simple + Restart=always)
+
+## Research Findings — 2026-04-05 11:58 UTC
+
+### 🔴 Critical (fix immediately)
+- None — site is healthy
+
+### 🟡 Important (fix this cycle)
+- None — all high-value SEO implemented; remaining items need user input (GSC code, AdSense account, VPS SSH fix for deploy service)
+
+### 🟢 Quick Wins (easy improvements)
+- Site healthy: sitemap 3,352 URLs ✅ | All key pages 200 ✅ | All schemas present ✅
+- News fresh (10 items, fetched 11:59 UTC today) ✅
+- Schema domain all studyroadmap.in ✅ (fixed in previous cycle)
+- Contact page 200 ✅
+
+### 📊 Traffic Opportunities
+- Site fully healthy: sitemap 3,352 URLs, all key pages 200, schemas valid, hreflang ✅
+- Remaining leverage: GSC verification (user needs to provide code), AdSense integration (user needs account), deploy service SSH fix
+
+### ✅ Completed This Run
+- Monitoring cycle: site healthy, news 10 items fresh, sitemap 3,352 URLs, exam/notes/homepage all SEO-valid
+- No code changes (nothing actionable this cycle — all high-value improvements complete, pending user input for remaining items)
+

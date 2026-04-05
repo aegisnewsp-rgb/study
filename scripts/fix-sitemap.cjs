@@ -21,10 +21,8 @@ function scanDir(dir) {
   for (const entry of entries) {
     const full = path.join(dir, entry.name);
     if (entry.isDirectory()) {
-      // e.g. src/data/exams/india, src/data/exams/pakistan, etc.
       scanDir(full);
     } else if (entry.name.endsWith('.ts') && entry.name !== 'index.ts') {
-      // Individual exam file like neet.ts, gate.ts
       const content = fs.readFileSync(full, 'utf8');
       const match = content.match(/examId\s*:\s*['"]([^'"]+)['"]/);
       if (match) examIds.push(match[1]);
@@ -40,14 +38,7 @@ if (examIds.length === 0) {
   process.exit(0);
 }
 
-const sitemap = fs.readFileSync(sitemapPath, 'utf8');
-const closingTag = '</urlset>';
-const insertBefore = sitemap.indexOf(closingTag);
-
-if (insertBefore === -1) {
-  console.log('Could not find closing tag in sitemap');
-  process.exit(1);
-}
+let sitemap = fs.readFileSync(sitemapPath, 'utf8');
 
 // Check which exam URLs are already in the sitemap
 const alreadyInSitemap = new Set();
@@ -70,6 +61,25 @@ if (newExamUrls.length === 0) {
   process.exit(0);
 }
 
-const newSitemap = sitemap.slice(0, insertBefore) + '\n' + newExamUrls.join('\n') + '\n' + closingTag;
+// Replace ONLY the last occurrence of </urlset> with new entries + </urlset>
+// This avoids issues when the file has already been patched
+const closingTag = '</urlset>';
+const lastIndex = sitemap.lastIndexOf(closingTag);
+
+if (lastIndex === -1) {
+  console.log('Could not find closing tag in sitemap');
+  process.exit(1);
+}
+
+// Verify this looks like a valid sitemap end
+const afterClosing = sitemap.slice(lastIndex + closingTag.length).trim();
+if (afterClosing.length > 0 && !afterClosing.startsWith('\n')) {
+  console.log('Sitemap appears malformed (content after closing tag), skipping auto-fix');
+  console.log('Content after </urlset>:', afterClosing.slice(0, 200));
+  process.exit(1);
+}
+
+// Insert new URLs just before the closing tag (replacing it, then putting it back)
+const newSitemap = sitemap.slice(0, lastIndex) + newExamUrls.join('\n') + '\n' + closingTag;
 fs.writeFileSync(sitemapPath, newSitemap);
 console.log(`Added ${newExamUrls.length} exam pages to sitemap (${examIds.length} total exams known)`);

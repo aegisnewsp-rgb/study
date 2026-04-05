@@ -3665,3 +3665,33 @@ Modified `astro.config.mjs` to dynamically load examId slugs from `public/exams.
 ### ✅ No code change this cycle
 - Thin content issue cannot be diagnosed without a build
 - Site functioning enough that users get content via direct links
+
+---
+
+## Research Run 17 | 2026-04-05 08:12 UTC
+
+### Site Status
+- Homepage: 200 ✅ | /exams/jeemain/: 200 ✅ | /notes/neet/physics/: 200 ✅
+- Sitemap: 3345 URLs ✅ (exam hub pages confirmed present: /exams/aau, /exams/accagl, /exams/acsee, /exams/aiims-mbbs, etc.)
+- Robots.txt: ✅ AI training bots blocked, sitemap referenced
+- Deploy endpoint (172.17.0.1:9000): 404 ❌ — deploy backend still dead (Type=oneshot)
+
+### Quick Audit (3 pages)
+- Site confirmed live at studyroadmap.in — no immediate serving issues
+- Sitemap includes exam hub pages (was flagged as missing, appears fixed in deployed build)
+- Homepage title still shows "80+ Exams" (build from ~Apr 3 when deploy last succeeded)
+
+### Backlog Review
+- All Major SEO: DONE (per backlog)
+- GSC/Bing Webmaster: PENDING user codes
+- AdSense: PENDING user codes
+- GitHub push: BLOCKED (27 commits stuck, GnuTLS error)
+- Deploy service: RECURRING FAILURE — Type=oneshot dies after each deploy
+
+### One Change This Cycle
+- None — deploy service cannot serve new builds; GitHub push blocked; SEO backlog clear
+
+### Action Items for User
+1. Fix deploy service: `systemctl --user edit studyroadmap-astro` → change Type=oneshot to Type=simple (or add Restart=always)
+2. Resolve GitHub push: check GnuTLS cert issue on node workspace
+3. Provide GSC/Bing/AdSense verification codes when ready

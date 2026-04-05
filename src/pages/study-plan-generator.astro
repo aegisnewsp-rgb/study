@@ -1,0 +1,307 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.astro';
+import Footer from '../components/Footer.astro';
+import { ALL_EXAMS } from '../data/exams';
+
+const LAST_UPDATED = 'April 2026';
+const examCount = ALL_EXAMS.length;
+const examLabel = `${examCount}+`;
+
+const GENERATOR_FAQS = [
+  {
+    question: 'What is the free AI study plan generator?',
+    answer: 'StudyRoadmap\'s free AI study plan generator creates instant, personalised study roadmaps for any competitive exam. Simply select your exam, set how many hours per day and months until your exam, and the AI generates a complete daily study plan based on official exam syllabus weightings — completely free, no signup required.',
+  },
+  {
+    question: 'How does the AI study plan generator work?',
+    answer: 'The AI analyses official exam syllabi and past paper patterns to determine which topics carry the most weight. When you enter your available time, it selects and sequences the highest-impact topics that fit your schedule, so you always study what matters most first. Each day\'s plan is optimised for effective learning progression.',
+  },
+  {
+    question: 'Which exams does the free study plan generator support?',
+    answer: 'StudyRoadmap supports 125+ exams including NEET, JEE Main, JEE Advanced, UPSC, CUET, SSC CGL, CAT, CLAT, NDA, UGC NET (India); MDCAT, ECAT, NAT-I, LAT, HAT-UG (Pakistan); and JAMB, WAEC, NECO, NABTEB, NCEE (Nigeria). New exams are added regularly based on student demand.',
+  },
+  {
+    question: 'How long does the free study plan generator take?',
+    answer: 'Your personalised study plan is generated instantly — in under one second. There\'s no waiting, no processing delay, and no account creation required. The moment you submit your exam and time preferences, your complete roadmap appears on screen.',
+  },
+  {
+    question: 'Can I make a study plan for NEET in 30 days?',
+    answer: 'Yes. StudyRoadmap\'s AI study plan generator can create 30-day NEET roadmaps, 60-day plans, 90-day plans, and schedules for any time window from 1 hour to 2 years. The algorithm prioritises high-weight topics first, so even with limited time, you cover what matters most for the exam.',
+  },
+  {
+    question: 'Is the free AI study plan generator better than paid coaching?',
+    answer: 'StudyRoadmap doesn\'t replace teachers — it replaces the expensive study planning step that coaching often doesn\'t individualise. Many toppers use a combination: coaching for instruction and StudyRoadmap for prioritising what to study each day. It\'s completely free, works on any device, and updates instantly when exam patterns change.',
+  },
+  {
+    question: 'How many hours per day should I study for NEET?',
+    answer: 'Most successful NEET aspirants study 6–8 hours daily with focused breaks. However, the right amount depends on your current preparation level. StudyRoadmap generates a personalised plan based on your exact time available — whether you have 2 hours or 12 hours per day. Quality of study matters more than quantity.',
+  },
+  {
+    question: 'Can I access the free study plan generator on mobile?',
+    answer: 'Yes. StudyRoadmap is fully mobile-responsive. Generate your roadmap on any smartphone or tablet. Many students use StudyRoadmap during commutes or breaks to plan their evening study sessions. No app download required — it works directly in your browser.',
+  },
+  {
+    question: 'Is there a free study plan for JAMB in Nigeria?',
+    answer: 'Yes. StudyRoadmap generates free personalised study plans for JAMB (Joint Admissions and Matriculation Board) and all other Nigerian exams including WAEC, NECO, NABTEB, and NCEE. The roadmap uses official JAMB syllabus weightings to prioritise topics by exam relevance.',
+  },
+  {
+    question: 'Does the free AI study plan generator work for JEE Main?',
+    answer: 'Yes. StudyRoadmap creates JEE Main-specific roadmaps based on the NTA-defined syllabus and topic weightage from previous years\' papers. The AI also adapts for both JEE Main (more breadth) and JEE Advanced (more depth), generating different plans depending on which exam you\'re targeting.',
+  },
+];
+
+const FAQ_SCHEMA = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": GENERATOR_FAQS.map((faq, i) => ({
+    "@type": "Question",
+    "name": faq.question,
+    "acceptedAnswer": {
+      "@type": "Answer",
+      "text": faq.answer
+    }
+  }))
+};
+
+const HOWTO_SCHEMA = {
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": "How to use the free AI study plan generator",
+  "description": "Generate your free personalised study roadmap for any exam in under a minute",
+  "step": [
+    {
+      "@type": "HowToStep",
+      "position": 1,
+      "name": "Select your exam",
+      "text": "Choose from 125+ competitive exams — NEET, JEE, UPSC, MDCAT, JAMB, WAEC, and many more."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 2,
+      "name": "Set your available time",
+      "text": "Enter how many hours per day you can study and how many months or days until your exam."
+    },
+    {
+      "@type": "HowToStep",
+      "position": 3,
+      "name": "Get your AI-generated roadmap instantly",
+      "text": "Receive a complete daily study plan with high-priority topics first, sequenced for optimal learning."
+    }
+  ]
+};
+---
+
+<Layout
+  title="Free AI Study Plan Generator | Instant Personalised Exam Roadmaps"
+  description="Generate your free AI study plan in seconds. Personalised study roadmaps for NEET, JEE, UPSC, MDCAT, JAMB, WAEC and 125+ exams. No signup, no fees — instantly."
+  ogTitle="Free AI Study Plan Generator | StudyRoadmap"
+  ogDescription="Generate a free personalised AI study plan for any exam in under 60 seconds. NEET, JEE, UPSC, MDCAT, JAMB, WAEC and 125+ exams supported."
+  schema={[
+    FAQ_SCHEMA,
+    HOWTO_SCHEMA
+  ]}
+>
+  <Navbar />
+
+  <main class="min-h-screen bg-surface-50 dark:bg-surface-900">
+    <!-- Hero Section -->
+    <section class="relative bg-gradient-to-br from-brand-600 via-brand-700 to-brand-800 text-white py-20 px-4">
+      <div class="max-w-4xl mx-auto text-center">
+        <span class="inline-block px-4 py-1.5 bg-white/20 rounded-full text-sm font-medium mb-6">
+          100% Free · No Signup · Instant Results
+        </span>
+        <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
+          Free AI Study Plan Generator
+        </h1>
+        <p class="text-xl md:text-2xl text-brand-100 max-w-2xl mx-auto mb-4">
+          Create your personalised exam roadmap in under 60 seconds.
+        </p>
+        <p class="text-lg text-brand-200 max-w-xl mx-auto mb-10">
+          For NEET, JEE, UPSC, MDCAT, JAMB, WAEC and 125+ competitive exams.
+          No account. No fees. Just results.
+        </p>
+        <a
+          href="/roadmap"
+          class="inline-flex items-center gap-2 bg-white text-brand-700 font-bold text-lg px-8 py-4 rounded-xl hover:bg-brand-50 transition-all shadow-lg hover:shadow-xl hover:-translate-y-0.5"
+        >
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+          </svg>
+          Generate Your Free Study Plan
+        </a>
+        <p class="mt-4 text-sm text-brand-200">
+          Trusted by students across India, Pakistan & Nigeria
+        </p>
+      </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="py-16 px-4 bg-white dark:bg-surface-800">
+      <div class="max-w-5xl mx-auto">
+        <h2 class="text-3xl font-bold text-center mb-4 text-surface-900 dark:text-white">
+          How the Free AI Study Plan Generator Works
+        </h2>
+        <p class="text-center text-surface-600 dark:text-surface-400 mb-12 max-w-xl mx-auto">
+          Our AI analyses official exam syllabi and past paper patterns to build the most effective study sequence for your exact time available.
+        </p>
+
+        <div class="grid md:grid-cols-3 gap-8">
+          <div class="text-center p-6">
+            <div class="w-16 h-16 bg-brand-100 dark:bg-brand-900 rounded-2xl flex items-center justify-center mx-auto mb-4">
+              <span class="text-2xl font-bold text-brand-600 dark:text-brand-300">01</span>
+            </div>
+            <h3 class="text-xl font-bold mb-3 text-surface-900 dark:text-white">Choose Your Exam</h3>
+            <p class="text-surface-600 dark:text-surface-400">
+              Select from 125+ competitive exams across India, Pakistan, and Nigeria — from NEET to JAMB, MDCAT to UPSC.
+            </p>
+          </div>
+          <div class="text-center p-6">
+            <div class="w-16 h-16 bg-brand-100 dark:bg-brand-900 rounded-2xl flex items-center justify-center mx-auto mb-4">
+              <span class="text-2xl font-bold text-brand-600 dark:text-brand-300">02</span>
+            </div>
+            <h3 class="text-xl font-bold mb-3 text-surface-900 dark:text-white">Set Your Timeline</h3>
+            <p class="text-surface-600 dark:text-surface-400">
+              Tell us how many hours per day you can study and how long you have until your exam — from 1 day to 2 years.
+            </p>
+          </div>
+          <div class="text-center p-6">
+            <div class="w-16 h-16 bg-brand-100 dark:bg-brand-900 rounded-2xl flex items-center justify-center mx-auto mb-4">
+              <span class="text-2xl font-bold text-brand-600 dark:text-brand-300">03</span>
+            </div>
+            <h3 class="text-xl font-bold mb-3 text-surface-900 dark:text-white">Get Your Roadmap</h3>
+            <p class="text-surface-600 dark:text-surface-400">
+              Receive an AI-curated study plan with high-weight topics first, sequenced for optimal retention and exam performance.
+            </p>
+          </div>
+        </div>
+
+        <div class="text-center mt-12">
+          <a
+            href="/roadmap"
+            class="inline-flex items-center gap-2 bg-brand-600 text-white font-bold text-lg px-8 py-4 rounded-xl hover:bg-brand-700 transition-all shadow-lg"
+          >
+            Try It Free — Generate Your Plan
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Exams Covered -->
+    <section class="py-16 px-4 bg-surface-50 dark:bg-surface-900">
+      <div class="max-w-5xl mx-auto">
+        <h2 class="text-3xl font-bold text-center mb-4 text-surface-900 dark:text-white">
+          Exams Covered by the Free Study Plan Generator
+        </h2>
+        <p class="text-center text-surface-600 dark:text-surface-400 mb-12 max-w-xl mx-auto">
+          The AI study plan generator works for every competitive exam in our database — from India's NEET to Nigeria's JAMB.
+        </p>
+
+        <div class="grid md:grid-cols-3 gap-6">
+          <!-- India -->
+          <div class="bg-white dark:bg-surface-800 rounded-2xl p-6 shadow-sm border border-surface-200 dark:border-surface-700">
+            <h3 class="text-lg font-bold mb-4 text-surface-900 dark:text-white flex items-center gap-2">
+              🇮🇳 India
+            </h3>
+            <ul class="space-y-2 text-sm text-surface-600 dark:text-surface-400">
+              <li><a href="/exams/neet/" class="hover:text-brand-600 dark:hover:text-brand-400">NEET UG</a> — Medical entrance</li>
+              <li><a href="/exams/jee-main/" class="hover:text-brand-600 dark:hover:text-brand-400">JEE Main</a> — Engineering entrance</li>
+              <li><a href="/exams/jee-advanced/" class="hover:text-brand-600 dark:hover:text-brand-400">JEE Advanced</a> — IITs</li>
+              <li><a href="/exams/upsc/" class="hover:text-brand-600 dark:hover:text-brand-400">UPSC CSE</a> — Civil services</li>
+              <li><a href="/exams/cuet/" class="hover:text-brand-600 dark:hover:text-brand-400">CUET</a> — University entrance</li>
+              <li><a href="/exams/ssc-cgl/" class="hover:text-brand-600 dark:hover:text-brand-400">SSC CGL</a> — Govt jobs</li>
+              <li><a href="/exams/cat/" class="hover:text-brand-600 dark:hover:text-brand-400">CAT</a> — MBA entrance</li>
+              <li><a href="/exams/clat/" class="hover:text-brand-600 dark:hover:text-brand-400">CLAT</a> — Law entrance</li>
+              <li>+ 80 more Indian exams →</li>
+            </ul>
+          </div>
+
+          <!-- Pakistan -->
+          <div class="bg-white dark:bg-surface-800 rounded-2xl p-6 shadow-sm border border-surface-200 dark:border-surface-700">
+            <h3 class="text-lg font-bold mb-4 text-surface-900 dark:text-white flex items-center gap-2">
+              🇵🇰 Pakistan
+            </h3>
+            <ul class="space-y-2 text-sm text-surface-600 dark:text-surface-400">
+              <li><a href="/exams/mdcat/" class="hover:text-brand-600 dark:hover:text-brand-400">MDCAT</a> — Medical college test</li>
+              <li><a href="/exams/ecat/" class="hover:text-brand-600 dark:hover:text-brand-400">ECAT</a> — Engineering test</li>
+              <li><a href="/exams/nat-i/" class="hover:text-brand-600 dark:hover:text-brand-400">NAT-I</a> — NTS test</li>
+              <li><a href="/exams/lat/" class="hover:text-brand-600 dark:hover:text-brand-400">LAT</a> — Law admission test</li>
+              <li><a href="/exams/hat-ug/" class="hover:text-brand-600 dark:hover:text-brand-400">HAT-UG</a> — Humanities test</li>
+              <li>+ 20 more Pakistani exams →</li>
+            </ul>
+          </div>
+
+          <!-- Nigeria -->
+          <div class="bg-white dark:bg-surface-800 rounded-2xl p-6 shadow-sm border border-surface-200 dark:border-surface-700">
+            <h3 class="text-lg font-bold mb-4 text-surface-900 dark:text-white flex items-center gap-2">
+              🇳🇬 Nigeria
+            </h3>
+            <ul class="space-y-2 text-sm text-surface-600 dark:text-surface-400">
+              <li><a href="/exams/jamb/" class="hover:text-brand-600 dark:hover:text-brand-400">JAMB</a> — University entrance</li>
+              <li><a href="/exams/waec/" class="hover:text-brand-600 dark:hover:text-brand-400">WAEC</a> — Secondary school cert</li>
+              <li><a href="/exams/neco/" class="hover:text-brand-600 dark:hover:text-brand-400">NECO</a> — National exam</li>
+              <li><a href="/exams/nabteb/" class="hover:text-brand-600 dark:hover:text-brand-400">NABTEB</a> — Technical board</li>
+              <li><a href="/exams/ncee/" class="hover:text-brand-600 dark:hover:text-brand-400">NCEE</a> — Common entrance</li>
+              <li>+ 15 more Nigerian exams →</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="text-center mt-10">
+          <a
+            href="/exams/"
+            class="text-brand-600 dark:text-brand-400 font-medium hover:underline"
+          >
+            Browse all {examLabel} exams →
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-16 px-4 bg-white dark:bg-surface-800 border-t border-surface-200 dark:border-surface-700">
+      <div class="max-w-3xl mx-auto">
+        <h2 class="text-3xl font-bold text-center mb-4 text-surface-900 dark:text-white">
+          Frequently Asked Questions
+        </h2>
+        <p class="text-center text-surface-600 dark:text-surface-400 mb-12">
+          Common questions about the free AI study plan generator
+        </p>
+
+        <div class="space-y-4">
+          {GENERATOR_FAQS.map((faq) => (
+            <details class="group bg-surface-50 dark:bg-surface-900 rounded-xl border border-surface-200 dark:border-surface-700">
+              <summary class="flex items-center justify-between cursor-pointer p-5 font-medium text-surface-900 dark:text-white list-none">
+                <span>{faq.question}</span>
+                <svg class="w-5 h-5 text-surface-500 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                </svg>
+              </summary>
+              <div class="px-5 pb-5 text-surface-600 dark:text-surface-400 text-sm leading-relaxed">
+                {faq.answer}
+              </div>
+            </details>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="py-16 px-4 bg-gradient-to-r from-brand-600 to-brand-700 text-white text-center">
+      <div class="max-w-2xl mx-auto">
+        <h2 class="text-3xl font-bold mb-4">Ready to Generate Your Free Study Plan?</h2>
+        <p class="text-brand-100 mb-8 text-lg">
+          Get your personalised exam roadmap in under 60 seconds. No account, no fees — just results.
+        </p>
+        <a
+          href="/roadmap"
+          class="inline-flex items-center gap-2 bg-white text-brand-700 font-bold text-lg px-8 py-4 rounded-xl hover:bg-brand-50 transition-all shadow-lg"
+        >
+          Generate Free Study Plan Now →
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</Layout>

@@ -1642,3 +1642,38 @@ sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
 - All SEO infrastructure complete — this was the last notable gap (Article on topic notes)
 - Deploy blocker remains the ONLY item preventing 125+ content from going live
 - GSC/AdSense still pending user input
+
+## Research Run — 2026-04-05 01:37 UTC
+
+### Site Audit (3 pages checked)
+- Homepage (/): Title "80+ Exams" ❌ (workspace has "125+" — not yet deployed), meta desc "80+" ❌, FAQPage (15 Qs) ✅, Organization ✅, WebSite ✅, News section ✅
+- /exams/neet/: Title ✅, FAQPage ✅, HowTo ✅, BreadcrumbList ✅, Organization ✅
+- /notes/neet/physics/: Title ✅, FAQPage ✅, BreadcrumbList ✅, Organization ✅
+
+### Key Finding
+- **Workspace is ahead of production**: Workspace homepage already updated to "125+" (8 occurrences) but deployed site still shows "80+" in title/meta. Build succeeds (3347 pages) but deploy endpoint returns HTTP 400 — recurring deploy service issue.
+- Deploy endpoints: `http://172.17.0.1:9000/deploy` and `http://187.127.134.151:9000/deploy` both return "Bad request"
+
+### Exam Count Consistency
+- Live site: "StudyRoadmap - Free AI Study Plans for 80+ Exams" (old)
+- Workspace: "StudyRoadmap - Free AI Study Plans for 125+ Exams" ✅ (correct)
+- Discrepancy: Production 80+ vs Workspace 125+ — workspace changes not reaching live site
+
+### Deploy Status
+- Build: ✅ 3347 pages in 58s
+- Deploy: ❌ 400 Bad Request (deploy service unstable — recurring issue since Cycle 106)
+- Site live at studyroadmap.in but running older "80+" version
+
+### Git
+- Commit 5217460: research-log update (no code changes needed — workspace already correct)
+- 28+ commits ahead of origin/main (origin repo 404 — token/repo issue)
+
+### ✅ Completed This Run
+- Verified workspace vs production gap (workspace correct, deploy needed)
+- Built 3347 pages successfully
+- Deploy blocked by service (known recurring issue)
+- All SEO signals healthy on live site
+
+### ⚠️ Action Required
+- Deploy service fix (SSH needed): `Type=oneshot` → `Type=simple` + `Restart=no` → `Restart=always`
+- OR: Manual deploy via VPS terminal

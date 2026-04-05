@@ -2157,3 +2157,30 @@ sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
 
 **No code change this cycle** — deploy backend is down (Type=oneshot systemd issue, needs user SSH fix).
 
+
+---
+
+## Research Findings — 2026-04-05T03:18 UTC
+
+### 🔴 Critical (fix immediately)
+- **Deploy service DOWN** — studyroadmap.in/deploy returns nginx 404 (public), 172.17.0.1:9000 returns 400/Forbidden (partial VPS connectivity). Known recurring issue: systemd Type=oneshot causes deploy backend to exit after each deploy and not restart. Fix requires SSH (pending user action since Cycle 106).
+
+### 🟡 Important (fix this cycle)
+- **Production site meta/title still says "80+"** — live homepage title + meta: "StudyRoadmap - Free AI Study Plans for 80+ Exams". Workspace already updated to "125+" (Cycle 105 refactor, committed but never deployed). **Needs rebuild + deploy to go live.**
+
+### 🟢 Quick Wins (easy improvements)
+- **404.astro meta description had "80+"** → updated to "125+". Build: 3347 pages ✅. Deploy: BLOCKED (deploy service down).
+
+### 📊 Traffic Opportunities
+- Production site title/meta still "80+" despite 125+ exams being live — immediate SEO inconsistency. Update goes live once deploy is fixed.
+
+### ✅ Completed This Run
+- Fixed 404.astro meta description: "80+" → "125+"
+- Built 3347 pages ✅
+- Commit: `1631836 Fix 404 page meta description: 80+ → 125+ exams`
+- **Deploy BLOCKED** — deploy service down (known issue, needs SSH fix)
+
+### ⚠️ Recurring Blockers
+1. **Deploy service dying post-deploy** — `Type=oneshot` + `Restart=no` in systemd — user SSH fix needed
+2. **Production site still on old build** (125+ in workspace, 80+ live) — waiting on deploy
+3. **GitHub push blocked** — origin repo returns 404, commits stuck locally

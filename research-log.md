@@ -1604,3 +1604,41 @@ sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
 - Once deployed: site will correctly say "125+" everywhere + April 2026 footer
 - GSC/AdSense still need user input
 - No code changes this cycle — deploy required
+## Research Run 8 | 2026-04-05 01:34 UTC
+
+### Site Status
+- studyroadmap.in: 200 ✅ (live, but still stale at "80+")
+- Deploy endpoint (port 9000): unreachable ❌ (Type=oneshot crash — SSH fix still needed)
+- News: 10 items ✅
+
+### Structural Checks
+- Homepage: 200 ✅ | title ✅ | meta desc ✅ | FAQPage 15 Qs ✅
+- /exams/[exam]: 200 ✅ | HowTo + FAQPage + BreadcrumbList ✅
+- /notes/[exam]/[subject]/[topic]: 200 ✅ | BreadcrumbList + FAQPage ✅ | **Article schema MISSING** ← new finding
+
+### 🔴 Critical (fix immediately)
+- Live site stale at "80+" (workspace has "125+") — deploy blocked by Type=oneshot systemd issue
+  User SSH fix:
+  ```bash
+  sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service
+  sudo sed -i 's/Restart=no/Restart=always/' /etc/systemd/system/studyroadmap-deploy.service
+  sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
+  ```
+
+### 🟡 Important (fix this cycle)
+- **Article JSON-LD schema missing from notes topic pages** — these pages have substantial
+  educational content but no `Article` structured data to signal authorship/date to Google
+  and AI citation systems. FAQPage captures FAQs well but doesn't describe the main content.
+
+### ✅ Completed This Run
+- **Added Article schema to notes topic pages** (`src/pages/notes/[exam]/[subject]/[topic].astro`):
+  - `@type: Article` with headline, description, author (StudyRoadmap™), publisher (with logo),
+    datePublished/dateModified (from frontmatter `generated` field), mainEntityOfPage, about
+    (topic name + exam weight %), and keywords
+  - Multiple JSON-LD blocks are valid and recommended by Google
+  - Build: 3347 pages ✅ | Commit: 0678625
+
+### Findings
+- All SEO infrastructure complete — this was the last notable gap (Article on topic notes)
+- Deploy blocker remains the ONLY item preventing 125+ content from going live
+- GSC/AdSense still pending user input

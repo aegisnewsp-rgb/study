@@ -960,3 +960,38 @@ Exam hub pages were using the Layout default (`/og-image.jpg`) instead of exam-s
 **Action needed:** A developer needs to fix the encoding in gre.ts, create/rename the missing exam data files, and update ALL_EXAMS. These are small fixes but require testing.
 
 **Committed:** No changes (reverted).
+
+---
+
+## Research Findings — 2026-04-05 21:58 UTC
+
+### 🔴 Critical (fix immediately)
+- None — site is healthy
+
+### ✅ Verified Working
+- Homepage: HTTP 200 ✅ | FAQPage (15 Qs) ✅ | Organization ✅ | WebSite ✅ | HowTo ✅ | Person ✅ | hreflang ✅
+- `/exams/neet/`: HTTP 200 ✅ | exam-specific FAQPage ✅ | BreadcrumbList ✅
+- `/notes/neet/physics/`: HTTP 200 ✅ | subject FAQPage ✅ | OG image ✅ | BreadcrumbList ✅
+- Build: 3354 pages ✅ (postbuild sitemap fix removes 4 broken exam URLs)
+- Sitemap: 125 exam pages confirmed ✅
+- News: 10 items refreshed (India: 4, Pakistan: 2, Nigeria: 4) ✅
+- llm.txt: date 2026-04-05 ✅ (current)
+- robots.txt: AI training blocked ✅
+
+### 🟡 No Automated Changes Available
+All remaining improvements need user-provided values:
+1. GSC verification code → replace `REPLACE_WITH_GOOGLE_SEARCH_CONSOLE_VERIFICATION_CODE` in Layout.astro
+2. Bing verification code → replace `REPLACE_WITH_BING_VERIFICATION_CODE` in Layout.astro
+3. AdSense code → needs approved account + `<ins>` embed
+4. Twitter App Store ID → replace `1234567890` placeholder (real app ID needed)
+5. Formspree feedback form → replace `REPLACE_WITH_FORMSPREE_ID` in feedback.astro
+6. Deploy service fix → `Type=oneshot` → `Type=simple` + `Restart=always` (SSH required)
+
+### ✅ Completed This Run
+- News refresh: 10 items ✅ (22:00 UTC)
+- Build: 3354 pages ✅ (62s)
+- Deploy: blocked — backend service down (known issue, needs SSH fix from user)
+- Git: 6 commits ahead of origin/main (origin repo 404 — push blocked)
+
+### 📊 Traffic Opportunities
+- All high-value SEO done. Growth now depends on: GSC submission + rapid indexing request, AdSense integration, backlink outreach, directory submissions.

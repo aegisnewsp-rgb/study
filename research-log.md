@@ -4020,3 +4020,23 @@ Workspace has significant improvements NOT yet live:
 - ✅ Formspree placeholder in feedback.astro (awaiting user setup)
 
 **No code changes — site is comprehensively optimized. All remaining improvements require user input (GSC code, AdSense, directory submission, content generation API).**
+
+---
+## 2026-04-05 09:29 UTC — Growth Cycle
+**Pages checked:** Homepage (index.astro), Roadmap page (roadmap.astro), Exams hub (exams/index.astro)
+
+**Findings:**
+- ✅ Homepage: title/meta/canonical/OG/FAQPage/BreadcrumbList/Organization — all intact
+- ✅ Roadmap: HowTo/FAQPage/Organization — intact
+- ✅ Exams hub: ItemList/FAQPage/Organization — intact
+- ✅ News: 10 items, updated 08:22 UTC (67 min ago — acceptable)
+- ⚠️ Deploy service DOWN — port 9000 returns HTTP 404 (Type=oneshot issue, needs user SSH fix)
+
+**No code changes — comprehensive monitoring pass. All high-value SEO implemented. Remaining items all need user input: GSC code, AdSense, Formspree setup, directory submissions.**
+
+**Deploy fix (user SSH required):**
+```bash
+sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service
+sudo sed -i 's/Restart=no/Restart=always/' /etc/systemd/system/studyroadmap-deploy.service
+sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
+```

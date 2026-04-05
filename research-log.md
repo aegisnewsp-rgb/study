@@ -3082,3 +3082,39 @@ These came from old exam data files with corrupted `examId` values that weren't 
 - Site health check: all 3 tested pages return 200 (homepage, exam hub, topic page)
 - No code changes — deploy blocked, all high-value items done
 - Commit: $(git rev-parse --short HEAD) (research-log update)
+
+## Research Run — 2026-04-05 06:17 UTC
+
+### Site Status
+- Build: 3346 pages ✅
+- Sitemap: 126 exam pages confirmed in dist/sitemap-0.xml ✅
+- Deploy endpoint (172.17.0.1:9000): "Not found" — Type=oneshot crash still blocking deployments
+- News: 10 items fresh (India:4, Pakistan:4, Nigeria:2)
+
+### Quick Audit (3 pages)
+- Homepage: FAQPage (15 Qs) ✅, Organization ✅, WebSite+SearchAction ✅
+- /exams/neet/: 200 ✅, exam page working
+- /notes/neet/physics/: 200 ✅, topic page accessible
+
+### 🔴 Critical (unchanged — needs user action)
+- Deploy backend dying post-build: `Type=oneshot` + `Restart=no` in systemd service. Fix:
+  ```bash
+  sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service
+  sudo sed -i 's/Restart=no/Restart=always/' /etc/systemd/system/studyroadmap-deploy.service
+  sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
+  ```
+- All 126 exam pages in sitemap ✅ (fix-sitemap.cjs postbuild working) — but code not reaching production
+
+### 🟢 Quick Wins
+- Sitemap fix confirmed working: 126 /exams/ pages now in workspace dist/
+- All SEO schemas verified in prior cycles: FAQPage, BreadcrumbList, Organization, HowTo ✅
+
+### No Code Changes This Cycle
+- Deploy blocked — no new changes deployed to production
+- Site served from CDN with older cached code
+- Workspace build is current but stuck locally pending deploy fix
+
+### Git Status
+- Working tree clean — all changes committed (9 commits ahead of origin/main)
+- Last commit: de823aa "Growth cycle 72 — maintenance pass, deploy service blocked"
+

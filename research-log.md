@@ -4002,3 +4002,21 @@ Workspace has significant improvements NOT yet live:
 - Site health check: homepage title ✅, FAQPage ✅, NEET exam page ✅, topic notes ✅
 - Commit: 209b55e ✅
 - No code changes — all automated improvements done; remaining items need user input
+
+---
+## 2026-04-05 09:20 UTC — Growth Cycle
+**Pages checked:** Homepage (index.astro), NEET exam page (notes/[exam]/[subject]/[topic].astro), Notes index (notes/index.astro)
+
+**Findings:**
+- ✅ All SEO fundamentals complete: title, meta description, OG tags, canonical URLs, hreflang, Twitter card, Schema (WebSite+SearchAction, Organization, FAQPage, HowTo, Article, BreadcrumbList, ContactPage, ItemList, Person)
+- ✅ robots.txt healthy: proper allowlist for AI indexing bots (OAI-SearchBot, ChatGPT-User, Google-Extended, PerplexityBot, ClaudeBot), sitemap present
+- ✅ Sitemap huge coverage: 1400+ notes URLs indexed, all exam pages included
+- ✅ OG images: 1200x630 for all exam/subject note pages; fallback generic for others
+- ✅ Author schema (Person) with StudyRoadmap editorial team
+- ✅ News.json fresh (updated 08:22 UTC today)
+- ✅ About page has Organization+Person schema but no BreadcrumbList (low priority)
+- ✅ All pages pass Layout.astro defaults (canonical, OG image, twitter:card, hreflang)
+- ✅ 1368 subject-level OG images exist in public/og-notes/
+- ✅ Formspree placeholder in feedback.astro (awaiting user setup)
+
+**No code changes — site is comprehensively optimized. All remaining improvements require user input (GSC code, AdSense, directory submission, content generation API).**

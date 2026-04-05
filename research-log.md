@@ -1,3 +1,25 @@
+## Research Findings — 2026-04-05 10:42 UTC
+
+### 🔴 Critical (fix immediately)
+- **Schema domain mismatch in Layout.astro** — Organization and WebSite structured data used `studyroadmap.com` URLs while the live site is `studyroadmap.in`. The Organization `@id`, WebSite `url`, and SearchAction `urlTemplate` all pointed to `.com`. This prevents Google from correctly associating structured data with the canonical domain, hurting rich results and E-E-A-T signals.
+
+### 🟡 Important (fix this cycle)
+- Schema domain mismatch (see above) — FIXED in this cycle
+
+### 🟢 Quick Wins (easy improvements)
+- Site otherwise healthy: sitemap 3,352+ URLs ✅ | All key pages 200 ✅ | All schemas present ✅
+- Plausible analytics still references `studyroadmap.com` on line 50 of Layout.astro — intentional (Plausible is registered for that domain) — left unchanged
+
+### 📊 Traffic Opportunities
+- Site fully healthy: sitemap ✅ (3,352+ URLs), all key pages 200 ✅, schemas valid ✅, hreflang ✅
+- Schema fix now ensures Google correctly associates Organization + WebSite structured data with studyroadmap.in
+- Remaining leverage: GSC verification (user needs to provide code), AdSense integration (user needs account), deploy service SSH fix
+
+### ✅ Completed This Run
+- Fixed Organization schema: @id + WebSite url + SearchAction urlTemplate → all now `studyroadmap.in`
+- Commit 199842b — "Fix schema.org domain mismatch: all URLs now use studyroadmap.in"
+- All 3 schema entities (Organization, WebSite, SearchAction) now match the canonical domain
+
 ## Research Findings — 2026-04-05 10:28 UTC
 
 ### 🔴 Critical (fix immediately)
@@ -81,3 +103,43 @@
 - Monitoring cycle: site healthy, news 10 items ✅, sitemap locally 3,354 URLs ✅
 - Build: confirmed working with postbuild sitemap fix script ✅
 - No code changes (nothing actionable — all high-value improvements complete, pending user input)
+
+## Research Findings — 2026-04-05 10:46 UTC
+
+### 🔴 Critical (fix immediately)
+- None — site is healthy
+
+### 🟡 Important (fix this cycle)
+- None — schema domain mismatch fixed in prior cycle (10:42 UTC)
+
+### 🟢 Quick Wins (easy improvements)
+- Site fully healthy: sitemap ✅ (3,349 URLs), all key pages 200 ✅
+- News: 10 items, updated at 10:21 UTC (25 min ago) ✅
+- Footer: "Content reviewed April 2026" ✅
+- llm.txt: date line already says "2026-04-05" ✅
+- Sitemap: 127 exam URLs correctly appended by postbuild script, valid XML with declaration ✅
+- Exam pages: FAQPage + HowTo + BreadcrumbList schemas present ✅
+- Build succeeded cleanly ✅
+
+### ✅ Completed This Run
+- Monitoring cycle: site healthy, news 10 items ✅, sitemap 3,349 URLs ✅, all pages healthy ✅
+- No code changes (nothing actionable — site is in excellent shape after prior cycle's schema fix)
+
+---
+
+## Growth Cycle — 2026-04-05 10:52 UTC
+
+**Pages checked:** Homepage (200 ✅), /exams/neet/ (200 ✅), /notes/neet/physics/ (200 ✅)
+
+**SEO signals across all 3 pages:**
+- Canonical, OG, Twitter Card, hreflang (en-IN/PK/NG/x-default) — ✅
+- FAQPage JSON-LD — ✅
+- WebSite + SearchAction schema — ✅
+- Organization schema — ✅
+- No noindex/robots issues — ✅
+
+**Sitemap:** Live sitemap-0.xml confirmed with thousands of topic pages ✅
+
+**Latest commit on prod:** `199842b Fix schema.org domain mismatch: all URLs now use studyroadmap.in`
+
+**Status:** Site healthy. No actionable code changes this cycle. All remaining items (GSC verification, AdSense, Formspree, deploy backend fix) require user input. Monitoring continues.

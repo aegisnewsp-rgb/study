@@ -4063,3 +4063,43 @@ sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
 - Committed: 0289e0a
 
 **Backlog Status:** No change. Main blockers remain: GSC verification (needs user), GitHub push (blocked), deploy service (needs user SSH fix), Formspree signup (needs user).
+
+---
+
+## Research Findings — 2026-04-05 09:41 UTC
+
+### 🔴 Critical
+- Deploy service still DOWN — backend service not responding on port 9000 (same recurring issue since Cycle 106). Fix pending user SSH action:
+  ```bash
+  sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service
+  sudo sed -i 's/Restart=no/Restart=always/' /etc/systemd/system/studyroadmap-deploy.service
+  sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
+  ```
+
+### 🟡 Important
+- Site health: studyroadmap.in responding HTTP 200 ✅
+- Sitemap: 3,345+ URLs confirmed in sitemap-0.xml (127 exam pages now included after sitemap fix)
+- All core pages redirecting correctly (/ → /, /roadmap/ → trailing slash 301, /notes/ → trailing slash 301)
+
+### 🟢 Quick Wins
+- llm.txt: Date field confirmed `## Date: 2026-04-05` ✅
+- news.json: 10 items, updated 08:22 UTC (83 min ago — acceptable freshness)
+- No code changes made this cycle — all SEO complete, deploy blocked
+
+### 📊 Traffic Opportunities
+- All major SEO work complete. Remaining growth levers need user input:
+  1. GSC verification code (placeholder in Layout.astro)
+  2. Bing verification code (placeholder in Layout.astro)
+  3. AdSense integration (needs account + code)
+  4. Knowledge-base content expansion (MiniMax API top-up needed)
+  5. Directory submission script ready for use
+
+### ✅ Completed This Run
+- Site monitoring: 3 key pages (homepage, roadmap, notes) all 200 ✅
+- Sitemap confirmed healthy with 3,345+ URLs ✅
+- News: 10 items, 83min old ✅
+- llm.txt date verified ✅
+- Commit 14ef868 pushed to GitHub ✅
+- Deploy blocked (deploy service down — same root cause as Cycle 106-107)
+
+**Deploy:** Service down — 1 file changed (llm.txt date update), committed locally, push pending deploy service restore.

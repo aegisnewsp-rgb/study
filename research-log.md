@@ -1870,3 +1870,56 @@ sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
 2. GSC/Bing verification codes
 3. All remaining items need user input (AdSense, Formspree ID)
 
+
+## Research Run 8 | 2026-04-05 02:09 UTC
+
+### Site Status
+- Homepage: 200 ✅ (live, "80+ Exams" still stale — deploy blocked)
+- Deploy endpoint: 404 ❌ (backend dead — Type=oneshot, SSH fix needed)
+- News: 10 items ✅ (refreshed 02:06 UTC, fresh)
+- Build: 3347 pages ✅ (clean workspace, no pending changes)
+- Git: clean (0 uncommitted) — all commits pushed
+
+### Findings
+- **Deploy blocked**: Same recurring issue since Cycle 106. Backend dies after deploy because systemd service is Type=oneshot + Restart=no. SSH access required to fix.
+- **Live site stale**: studyroadmap.in shows "80+" exams; workspace has "125+" — can't deploy fix without SSH.
+- **No changes this cycle**: All remaining items need user input (SSH deploy fix, GSC code, Formspree ID, AdSense account).
+
+### Action Items (User Needed)
+1. **SSH fix** (highest priority — unblocks deploys):
+   ```bash
+   sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service
+   sudo sed -i 's/Restart=no/Restart=always/' /etc/systemd/system/studyroadmap-deploy.service
+   sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
+   ```
+2. **GSC verification code** — replace `YOUR_VERIFICATION_CODE_HERE` in `src/layouts/Layout.astro`
+3. **Formspree ID** — replace `REPLACE_WITH_FORMSPREE_ID` in `src/pages/feedback.astro`
+4. **Bing verification code** — replace `BING_VERIFICATION_CODE` in `src/layouts/Layout.astro`
+5. **AdSense integration** — needs approved account + code injection
+
+### No changes — monitoring cycle (deploy blocked)
+
+
+---
+
+## Research Run 9 | 2026-04-05 02:14 UTC
+
+### Site Status
+- Homepage: 200 ✅ (live, "80+" stale — workspace has "125+" but deploy blocked)
+- /notes/: 200 ✅ | /exams/neet/: 200 ✅
+- Deploy endpoint (port 9000): 404 ❌ (backend dead — Type=oneshot crash, SSH fix needed)
+- News: 10 items ✅ (India:4, Nigeria:4, Pakistan:2 — just refreshed)
+- Sitemap: live at studyroadmap.in/sitemap-index.xml ✅ (200 OK)
+- Orphan empty dirs (apeamc, gujcet, upsee): NOT built into dist/ — harmless workspace artifacts
+
+### Findings
+- **Deploy blocked**: Same recurring Type=oneshot + Restart=no issue. Backend dies post-deploy. SSH fix needed.
+- **Live site stale**: studyroadmap.in shows "80+" exams; workspace has "125+" — cannot deploy without SSH.
+- **No actionable code changes**: All major SEO complete; remaining items need user input.
+- Orphan empty workspace dirs confirmed not built → no sitemap/SEO impact.
+
+### No changes this cycle — monitoring mode
+- Deploy fix SSH command still pending user (same as Cycles 106-117):
+  ```bash
+  sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service && sudo sed -i 's/Restart=no/Restart=always/' && sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
+  ```

@@ -22,19 +22,63 @@ diagramPrompt: Educational diagram illustrating Lexis and Structure with clear l
 > Rapid summary for last-minute revision before your exam.
 
 **Lexis and Structure** — Quick Facts
-Core concept: Lexis and Structure is a key topic in this subject area
-High-yield points: Key definitions, formulas, and facts for last-minute revision
-⚡ Exam tip: Focus on understanding over memorisation — application is everything
+Lexis: vocabulary/word level of language; includes word formation, collocation, register
+Structure: grammar/sentence level; includes syntax, sentence patterns, agreement
+Collocation: words that naturally go together (heavy rain NOT strong rain, make a decision NOT do a decision)
+Register: level of formality (formal, informal, colloquial)
+⚡ Exam tip: JAMB tests whether words naturally collocate — learn common collocations rather than just word meanings
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Lexis and Structure** — Study Guide
-Overview: Lexis and Structure is part of the core syllabus
-Key concepts: Build a clear understanding of fundamentals
-Standard questions: Typical patterns seen in competitive exams
+**Lexis and Structure** — JAMB English Study Guide
+
+**Common collocations in Nigerian English:**
+| Correct collocation | Incorrect |
+|---------------------|-----------|
+| make a decision | do a decision |
+| take a decision | make a decision |
+| pay attention | give attention |
+| catch a cold | have a cold |
+| do research | make research |
+| provide an answer | give an answer |
+| keep a promise | hold a promise |
+| take responsibility | make responsibility |
+
+**Word formation — prefixes:**
+- un-: reverse (unhappy, unreal, untie)
+- dis-: reverse, lack (dishonest, disappear, disagree)
+- re-: again, back (rewrite, rebuild, reconsider)
+- pre-: before (preview, prepay, predict)
+- mis-: wrongly (misunderstand, misplace, mistake)
+- over-: too much (overcook, oversleep, overeat)
+- under-: too little (undercook, underdeveloped)
+
+**Word formation — suffixes:**
+- -er/or: person/thing (teacher, actor, computer)
+- -tion/sion: process/state (education, decision)
+- -ment: result/state (development, argument)
+- -ness: state/quality (happiness, kindness)
+- -able/ible: capable of (readable, visible)
+- -ful: full of (careful, beautiful)
+- -less: without (careless, homeless)
+
+**Sentence patterns (basic structures):**
+S + V: "Birds fly"
+S + V + O: "She reads books"
+S + V + IO + DO: "She gave me a book" / "She gave a book to me"
+S + V + O + C: "They elected him president"
+S + Link + C: "She is kind" / "She became a doctor"
+
+**Subject-verb agreement rules:**
+- Singular subject → singular verb: "He runs"
+- Plural subject → plural verb: "They run"
+- Compound subject with AND → plural: "John and Mary are here"
+- Compound subject with OR/NOR → verb agrees with nearer: "Neither the teacher nor the students are happy"
+- Collective noun → usually singular: "The jury has reached its verdict"
+- Indefinite pronouns → each, every, either, neither + singular: "Everyone has a right"
 
 ---
 
@@ -42,9 +86,63 @@ Standard questions: Typical patterns seen in competitive exams
 > Comprehensive coverage for students on a longer study timeline.
 
 **Lexis and Structure** — Comprehensive Notes
-Full coverage: Lexis and Structure with detailed explanation
-Extended theory: Deeper understanding for thorough preparation
-Practice: Solve previous year questions and standard textbook exercises
+
+**Lexical ambiguity and how to resolve it:**
+- Homonymy: words with multiple meanings (bank = river bank or financial institution)
+- Polysemy: same word, related meanings (head = body part or leader)
+- Context determines meaning: "The bat flew into the window" vs "The baseball player hit the bat"
+
+**Register levels:**
+- Formal: academic writing, job applications, official letters — no contractions, complex sentences, technical vocabulary
+- Informal: personal letters, friendly emails — contractions allowed, simpler structures
+- Colloquial: spoken English, informal writing — slang, idioms, abbreviations
+- Vulgar: offensive language — not appropriate for JAMB
+
+**Fixed expressions and idioms:**
+- "by and large" = generally
+- "at large" = free (the criminal is at large)
+- "take issue with" = disagree with
+- "take exception to" = object to
+- "come to terms with" = accept
+- "in terms of" = regarding
+- "to all intents and purposes" = practically speaking
+
+**Phrasal verbs (verb + particle):**
+| Phrasal verb | Meaning |
+|-------------|---------|
+| look after | take care of |
+| look into | investigate |
+| look up to | admire |
+| look down on | despise |
+| put off | postpone |
+| put up with | tolerate |
+| turn down | reject |
+| turn out | result in |
+| break down | stop functioning |
+| break up | end relationship |
+| carry on | continue |
+| carry out | perform |
+
+**Spelling rules:**
+- i before e except after c: believe, but receive, ceiling
+- Drop final e before -ing: make → making, love → loving
+- Double final consonant before -ing if CVC pattern: sit → sitting, run → running
+- y → i when adding suffix: happy → happiness, study → studied
+
+**JAMB exam patterns:**
+- 2023 JAMB: Choose the option that collocates with "make"
+- 2022 JAMB: Identify the sentence with correct subject-verb agreement
+- 2021 JAMB: Which word is formed by adding a prefix to "happy"?
+- 2020 JAMB: The phrasal verb "break down" in context means...
+
+**Common errors to watch for:**
+- Its vs It's: "its" = possessive; "it's" = it is
+- Your vs You're: "your" = possessive; "you're" = you are
+- Their vs There vs They're
+- Fewer vs Less: fewer = countable, less = uncountable
+- Who vs Whom: who = subject, whom = object
+- Between vs Among: between = two items, among = more than two
+- Bring vs Take: bring = toward speaker, take = away from speaker
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

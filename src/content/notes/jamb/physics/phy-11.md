@@ -82,11 +82,24 @@ $$\frac{1}{C_{eq}} = \frac{1}{C_1} + \frac{1}{C_2} + \frac{1}{C_3}$$
 For $n$ identical capacitors $C_0$ in series: $C_{eq} = C_0/n$
 For $n$ identical capacitors $C_0$ in parallel: $C_{eq} = nC_0$
 
-**Applications:**
-- Flash photography: capacitor charges slowly through high resistance, discharges quickly
-- Smooth DC power supplies: capacitors filter ripple in rectifier circuits
-- Timer circuits (with resistor)
-- Defibrillators: capacitors store energy and release it quickly
+**Applications of capacitors:**
+- Flash photography: capacitor charges slowly through high resistance, discharges quickly through flash tube
+- Smooth DC power supplies: capacitors filter ripple in rectifier circuits (typically 1000 μF to 4700 μF electrolytic)
+- Timer circuits: RC combinations provide time delays
+- Defibrillators: capacitors store energy (~360 J) and release it quickly to restart heart
+- Tuned radio circuits: LC circuits select specific frequencies
+- Power factor correction: large capacitors improve efficiency of AC power transmission
+
+**Capacitor dielectric types:**
+| Dielectric | εᵣ (approx) | Typical use |
+|------------|-------------|-------------|
+| Air | 1.0 | Variable capacitors in radios |
+| Paper | 2.5 | Old radio circuits |
+| Mica | 5-7 | High-frequency applications |
+| Ceramic | 10-100 | Small SMD components |
+| Glass | 5-10 | High-voltage applications |
+| Electrolytic | 10-100 | Power supply filtering |
+| Tantalum | 25-35 | Compact electronics |
 
 **JAMB exam patterns:**
 - 2022 JAMB: Two capacitors 4 μF and 6 μF connected in series across 100 V; find charge on each

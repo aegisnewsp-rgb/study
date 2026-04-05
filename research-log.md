@@ -829,3 +829,27 @@ Exam hub pages were using the Layout default (`/og-image.jpg`) instead of exam-s
 - Build now passes: 3352 pages built successfully
 - Committed: `7208cef — Fix YAML frontmatter errors in generated notes files`
 
+
+---
+
+## 2026-04-05 17:10 UTC
+
+### Status: MONITORING — No Changes Needed
+
+**Site Health:**
+- Homepage: HTTP 200 ✅ — "StudyRoadmap - Free AI Study Plans for 125+ Exams"
+- /exams/: HTTP 200 ✅ — "Browse Exams — StudyRoadmap™"
+- /notes/: HTTP 200 ✅ — "Free Study Notes — All Exams | StudyRoadmap™"
+- Sitemap: fully populated with exam notes pages ✅
+- News: 10 fresh items (JEE Mains Session 2 lead story) ✅
+
+**No changes made:** All high-value SEO complete. Site is healthy and functional.
+
+**Still pending user action:**
+1. GSC verification code (placeholder in Layout.astro)
+2. Bing verification code (placeholder in Layout.astro)
+3. Formspree feedback form ID (placeholder in feedback.astro)
+4. Deploy service systemd fix (Type=oneshot → Type=simple, Restart=no → Restart=always)
+
+**Commit:** d38a304 — clean git state, no uncommitted changes
+

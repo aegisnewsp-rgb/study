@@ -3398,3 +3398,34 @@ sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
 - Deploy: POST /deploy (pending service availability)
 - Site: studyroadmap.in ✅ HTTP 200
 - News: 10 items (India:4, Pakistan:4, Nigeria:2)
+
+## 2026-04-05 07:21 UTC — Cycle 2026-04-05
+
+**Site status:** Live at https://studyroadmap.in (200 on homepage, sitemap-0.xml serving notes pages)
+
+**Checked:**
+- Homepage: up
+- sitemap-0.xml: served by deployed site, contains only notes + static pages (/, /roadmap/, /terms/, /privacy/)
+- sitemap-0.xml count: only notes URLs, no exam pages at all
+- `public/exams.json`: 20 exams with examId slugs
+
+**Critical finding — sitemap missing exam pages:**
+The deployed sitemap has 0 exam URLs. The local `dist/` folder is stale (last build Mar 28), meaning the live sitemap is from an older build. Even the old sitemap was missing exam pages — the `customPages` array had a **hardcoded subset** with some invalid entries (gate/, ibps-po/, sbi-po/, fmge/ are NOT in exams.json).
+
+Actual exams in exams.json: cat, clat, cuet, ecat, hat-ug, jamb, jeeadvanced, jeemain, lat, mdcat, nabteb, nat-i, ncee, nda, neco, neet, ssc-cgl, ugc-net, upsc, waec.
+
+Missing from old customPages: cuet, ecat, hat-ug, lat, nabteb, nat-i, ncee, neco, ugc-net.
+
+**Fix applied:**
+Modified `astro.config.mjs` to dynamically load examId slugs from `public/exams.json` at build time and generate sitemap customPages programmatically instead of hardcoding.
+
+**Change:**
+- `astro.config.mjs`: Added fs read of public/exams.json, dynamically builds customPages for all exam slugs
+
+**Committed:** `71a4d2c` — "Growth cycle fix: dynamically include all exam pages in sitemap from exams.json"
+
+**Still blocked (needs deploy + SSH):**
+- Build/deploy (dist is stale, site serving from outdated build)
+- GSC verification code
+- AdSense integration
+- Formspree feedback form

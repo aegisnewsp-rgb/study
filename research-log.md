@@ -1232,3 +1232,37 @@ All remaining improvements need user-provided values:
 **Improvement identified this cycle:** None — site is technically healthy. All SEO backlog items need user input (GSC code, Formspree ID, deploy backend SSH fix, AdSense account).
 
 **No code changes committed this cycle.**
+
+## Cycle 93 — 2026-04-05 23:50 UTC
+
+**Pages checked:** Homepage ✅ | NEET exam page ✅ | NEET notes index ✅ | Topic page (phy-001) ✅
+
+**Status:** Site is healthy. All major SEO signals in place (canonical, OG, FAQPage, Organization, WebSite+SearchAction, BreadcrumbList, CollectionPage, hreflang).
+
+**ONE improvement made:**
+- **Removed placeholder Twitter App Store meta tag** (`twitter:app:id:appstore content="1234567890"`) from `src/layouts/Layout.astro`. A fake App Store ID on all pages is incorrect and could interfere with Twitter card rendering. Kept the Google Play app meta (`com.studyroadmap.app`) since that appears real. Added comment placeholder for when the iOS app launches.
+
+**Nothing changed:** Sitemap massive and healthy. No noindex issues. All exam pages have dedicated OG images. News ticker intact. All schemas correct.
+
+**Still blocked on:**
+- Deploy backend crash (systemd fix — user SSH needed)
+- GSC/Bing verification codes (user input needed)
+- AdSense integration (user account needed)
+- Formspree ID (user signup needed)
+
+## Cycle 94 — 2026-04-05 23:53 UTC
+
+**Pages checked:** Homepage ✅ | NEET exam page ✅ | NEET notes index ✅
+
+**Status:** Site healthy. All SEO signals intact (canonical, OG, FAQPage, Organization, WebSite+SearchAction, BreadcrumbList, CollectionPage, hreflang, sitemap with 3200+ URLs).
+
+**ONE observation:**
+- Production HTML still serves `twitter:app:id:appstore content="1234567890"` (fake placeholder) — workspace has this removed (Cycle 93 fix committed), but deploy backend crashes immediately post-deploy due to systemd `Type=oneshot` issue, blocking all new deployments. Workspace fix cannot reach production until SSH systemd fix is applied.
+
+**No code changes committed this cycle.** Nothing actionable — all remaining improvements (GSC code, Formspree ID, AdSense, deploy backend fix) require user input or working deploy.
+
+**Still blocked on:**
+- Deploy backend crash (systemd fix — user SSH needed)
+- GSC/Bing verification codes (user input needed)
+- Formspree ID (user signup needed)
+- AdSense integration (user account needed)

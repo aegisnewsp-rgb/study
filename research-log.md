@@ -3630,3 +3630,38 @@ Modified `astro.config.mjs` to dynamically load examId slugs from `public/exams.
 2. GSC verification code (placeholder in Layout.astro)
 3. Formspree feedback form ID
 4. AdSense integration
+
+## Research Findings — 2026-04-05T07:58 UTC
+
+### 🔴 Site Status
+- **Live on studyroadmap.in** — homepage, sitemap, exam pages all accessible ✅
+- **studyroadmap.com DOWN** — fetch fails (connection refused)
+- Sitemap: 3345 URLs confirmed in sitemap-0.xml ✅
+
+### 🔴 Deploy Blocker (still active)
+- Deploy service broken — backend dies after deploy script completes
+- User SSH commands required (documented in previous cycle)
+- Workspace 1+ build cycles ahead of production
+
+### 🟡 Issue Found: Thin Content on Notes Subject Index
+- `/notes/neet/physics/` renders ONLY the CTA banner — no topic grid
+- Same for other subject pages (e.g., `/notes/neet/botany/`)
+- Likely a content collection filtering issue during build, NOT a sitemap problem
+- Sitemap DOES include `/notes/neet/physics/` — pages exist in sitemap
+- **Needs a local build to diagnose** — cannot fix without `npm run build`
+
+### 🟢 What's Working
+- Canonical URLs: correct `.in` domain ✅
+- OG images: 1368 pre-generated images in `public/og-notes/` ✅
+- News.json: 10 fresh items ✅
+- All major SEO schemas present ✅
+
+### ⚠️ Still Blocking (user action needed)
+1. Deploy service restart via SSH
+2. GSC verification code (placeholder in Layout.astro)
+3. Formspree feedback form ID
+4. AdSense integration
+
+### ✅ No code change this cycle
+- Thin content issue cannot be diagnosed without a build
+- Site functioning enough that users get content via direct links

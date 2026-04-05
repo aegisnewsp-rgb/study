@@ -2133,3 +2133,27 @@ sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
   sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service
   sudo sed -i 's/Restart=no/Restart=always/' /etc/systemd/system/studyroadmap-deploy.service
   sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
+
+## 2026-04-05 — Cycle (early AM run)
+**Site status:** All 3 key pages return 200
+**Homepage:** ✅ Title correct, news ticker functional (news.json live with 10 items)
+**Exams NEET page:** ✅ FAQPage + HowTo JSON-LD present, BreadcrumbList, Organization
+**Notes NEET Physics:** ✅ FAQPage with 4 Q&As, proper title/structure
+**Sitemap:** ✅ Massive sitemap-0.xml confirmed with all notes + exams + static pages
+
+**No code changes this cycle** — site is healthy, no low-hanging fixes found.
+**Backlog note:** Remaining improvements need human input (content gaps, new exam coverage).
+
+## 2026-04-05 — Cycle 03:14 UTC (early AM)
+**Site status:** All 3 key pages return 200 ✅
+**Homepage:** ✅ Title/meta/OG correct, news ticker live (10 items)
+**Exams NEET:** ✅ Full SEO (FAQPage, HowTo, Organization, BreadcrumbList)
+**Notes NEET Physics:** ✅ FAQPage + CollectionPage + ItemList all present
+**Sitemap:** ✅ 3,346+ URLs including all topic pages + static pages
+**robots.txt:** ✅ AI training blocked, Google-Extended allowed, sitemap referenced
+
+**One finding this cycle:**
+- ⚠️ /contact/ FAQPage JSON-LD is MISSING from live HTML (3-item CONTACT_FAQS defined in code, passed to Layout, but FAQPage script not rendering). About page FAQPage works fine. Likely a stale build issue — the contact page was likely built before FAQ feature was added, and the deploy backend has been down since, preventing a rebuild. The contact page IS in the sitemap (confirmed) so it was included in a full rebuild at some point, but the current live version doesn't have FAQPage. Rebuild would fix this, but deploy backend is down.
+
+**No code change this cycle** — deploy backend is down (Type=oneshot systemd issue, needs user SSH fix).
+

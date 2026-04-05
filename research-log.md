@@ -1977,3 +1977,39 @@ sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
 - Site is in excellent shape — no broken links, all schemas valid, all pages responding correctly
 - Footer "Content reviewed March 2026" is stale but low-priority cosmetic E-E-A-T signal
 - All remaining backlog items need user input (GSC code, AdSense, deploy service SSH fix)
+
+## Research Run 8 | 2026-04-05 02:39 UTC
+
+### Site Status
+- Homepage: 200 ✅ (STALE — still "80+ Exams" in title/description)
+- Deploy endpoint (187.127.134.151:9000): REACHABLE ✅ (not timed out — returns "Forbidden" on /deploy, backend alive but auth-protected)
+- Build: 3347 pages ✅
+- News: 10 items ✅ (last fetched this cycle)
+- llm.txt: Date: 2026-04-05 ✅
+
+### Key Finding: Deploy Endpoint REACHABLE but Auth-Protected
+- 187.127.134.151:9000 IS accessible from sandbox (not timed out as previously reported)
+- `/deploy` POST returns "Forbidden" — deploy service is running but protected by auth
+- Root path returns "Not found" — normal for a specific-purpose HTTP server
+- GitHub Actions workflow is the primary deploy path (defined in .github/workflows/deploy.yml)
+- Workflow triggers on push to `main` or `studyroadmap-astro` branches
+
+### Action Taken: Double-Branch Push to Trigger GitHub Actions Deploy
+- Pushed latest commit to `existing/main` ✅
+- Pushed to `existing/studyroadmap-astro` ✅ (this is the branch the workflow pulls from VPS: `/opt/studyroadmap-astro`)
+- Workflow will: SSH to VPS → `cd /opt/studyroadmap-astro` → `git pull origin studyroadmap-astro` → `npm run build`
+- If workflow runs successfully: "125+" title will go live (workspace Layout.astro line 34: `'StudyRoadmap™ — AI Study Plans for 125+ Exams'`)
+- ⚠️ NOTE: VPS deploy path from workflow (`/opt/studyroadmap-astro`) may differ from production nginx root (`/srv/studyroadmap/dist/`) — deploy may need user verification
+
+### Live Site vs Workspace Discrepancy
+- **Title**: Live = "StudyRoadmap - Free AI Study Plans for 80+ Exams" | Workspace = "StudyRoadmap™ — AI Study Plans for 125+ Exams" ❌
+- **Description**: Live = "80+ competitive exams" | Workspace = "125+ competitive exams" ❌
+- All SEO items complete in workspace; live site has outdated copy
+
+### VPS Deploy Path Mismatch (⚠️ Concern)
+- GitHub Actions workflow deploys to `/opt/studyroadmap-astro` (from workflow YAML)
+- Original deploy.sh deploys to `/srv/studyroadmap/` (from deploy.sh comments)
+- If VPS nginx serves from `/srv/studyroadmap/dist/` but workflow updates `/opt/studyroadmap-astro/`, live site won't update
+- **User action needed**: Verify VPS nginx root path and ensure workflow deploys to correct directory
+
+### No local code changes — monitoring + deploy trigger push only

@@ -1345,3 +1345,24 @@ sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
 
 ### No changes — monitoring cycle
 - Commit: none (news was already up-to-date; workspace clean)
+
+## Research Findings — 2026-04-05T00:42 UTC
+
+### 🔴 Critical (fix immediately)
+- None found — site is healthy
+
+### 🟡 Important (fix this cycle)
+- ItemList schema on /exams/ page only included first 20 exams (`.slice(0, 20)`) instead of all 124 exams. This limits Google's understanding of full site coverage.
+
+### 🟢 Quick Wins (easy improvements)
+- Fixed ItemList truncation: now includes all ALL_EXAMS entries in JSON-LD schema ✅
+
+### 📊 Traffic Opportunities
+- Site healthy, all key schemas present (FAQPage, BreadcrumbList, CollectionPage, ItemList, WebSite, Organization)
+- News: 10 items, 1m old ✅
+
+### ✅ Completed This Run
+- **Change:** Fixed ItemList schema on `/exams/` page — was `.slice(0, 20)` limiting to only 20 exam entries; now uses all `ALL_EXAMS` entries (124 exams)
+- **Files:** src/pages/exams.astro
+- **Commit:** fcd2f85 "Growth cycle: ItemList schema now covers all exams (was truncated to 20)"
+- **Site:** HTTP 200 ✅ | News: 10 items fresh ✅ | All key pages: healthy ✅

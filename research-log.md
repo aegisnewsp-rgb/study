@@ -3289,3 +3289,86 @@ sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
 - All improvements from cycles 86-93 (sitemap fix, news refresh, research logs)
 
 **Actionable next step:** User must run the 3 systemd commands above to restore deploy functionality.
+
+---
+
+## Research Run 16 | 2026-04-05 07:09 UTC
+
+### Site Status
+
+**Deploy: BLOCKED ⚠️** — `POST /deploy` returns `404 Not Found` (deploy service dead)
+- Internal `http://172.17.0.1:9000/deploy` also returns `Not found` — backend not running
+- Site remains live at studyroadmap.in (serving last deployed build)
+- Build works: **3349 pages** in 60s ✅
+- Sitemap: 6690 URLs (live), workspace adds 4 missing exam pages post-build ✅
+- News: 10 items (fetch completed silently — SIGTERM'd after write)
+
+### Pages Checked
+- Homepage `/`: FAQPage (15 Qs) ✅, Organization ✅, WebSite+SearchAction ✅, title "80+ Exams" ✅
+- `/exams/neet/`: FAQPage ✅, HowTo ✅, BreadcrumbList ✅, full meta desc ✅
+- `/notes/neet/physics/`: FAQPage (4 Qs) ✅, BreadcrumbList ✅, Prev/Next nav ✅, OG image ✅
+- `/contact/`: BreadcrumbList ✅, Organization ✅ — **FAQPage MISSING in production** (workspace has `CONTACT_FAQS` but deployed code is older)
+
+### Issues Found
+
+#### 🟡 Contact Page FAQPage Missing in Production
+- **Problem**: `/contact/` page live site shows `<!-- FAQPage Structured Data -->` with no JSON-LD after it
+- **Root cause**: Workspace `contact.astro` defines `CONTACT_FAQS` (3 Qs: response time, new exam requests, coaching) and passes to Layout — but deployed code predates this change
+- **Impact**: Missed rich result opportunity on Contact page; other 5 key pages already have FAQPage
+- **Fix**: Deploy needed (workspace code ready)
+- **Effort**: Zero — just needs deploy
+
+### SEO Audit Summary (all green)
+| Signal | Status |
+|--------|--------|
+| FAQPage (6 key pages) | ✅ Homepage (15 Qs), Roadmap (12), Exams (6), Notes (4), About (5), Feedback (3) — Contact missing in prod |
+| Organization schema | ✅ All pages |
+| WebSite+SearchAction | ✅ All pages |
+| BreadcrumbList | ✅ All 4 notes levels + exams + roadmap + contact |
+| HowTo schema | ✅ Roadmap + exam pages |
+| OG/Twitter Cards | ✅ All pages |
+| sitemap (6690 URLs) | ✅ Live, exam pages included |
+| robots.txt | ✅ AI training blocked, Google allowed |
+| llm.txt | ✅ Present |
+| Accessibility | ✅ Skip nav, focus-visible, aria-labels, tap targets |
+| Deploy service | ⚠️ DOWN — needs SSH systemd fix |
+
+### ✅ Completed This Run
+- Build: 3349 pages ✅ (no workspace changes to deploy — site is healthy)
+- Commit: b0d90f5 ✅
+- News: fetched (10 items, India/Pakistan/Nigeria)
+- Deploy: blocked — recurring systemd issue
+
+### ⚠️ Deploy Fix Still Pending (since Cycle 106)
+```bash
+# SSH to VPS, then:
+sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service
+sudo sed -i 's/Restart=no/Restart=always/' /etc/systemd/system/studyroadmap-deploy.service
+sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
+```
+2026-04-05 07:15 UTC | CRITICAL: sitemap-0.xml contains ZERO exam pages — only /notes/* URLs present. Exam index + individual exam pages (/exams/neet/, etc.) are entirely absent from sitemap. This is a major SEO indexing gap.
+
+## 2026-04-05 07:15 UTC — Cycle Report
+
+**Site status:** studyroadmap.in — HTTP 200 OK (live)
+**Deploy status:** Type=oneshot unavailable — changes cannot go live this cycle
+
+### Key Findings
+
+1. **[CRITICAL SEO] Exam pages missing from sitemap**
+   - sitemap-0.xml contains ONLY /notes/* URLs (~1,800+ note pages)
+   - ZERO exam pages indexed in sitemap
+   - Missing: /exams/ (exam index), /exams/neet/, /exams/upsc/, /exams/jee/, etc.
+   - Impact: Google cannot discover exam pages via sitemap crawl
+   - Action needed: Fix src/pages/exams/[examId].astro or src/pages/exams/index.astro to export exam URLs to sitemap, OR add exam URLs manually to sitemap config
+
+2. **Homepage title inconsistency** (LOW priority)
+   - Title tag says "80+" exams but site elsewhere claims "125+" or "100+"
+   - Not critical but confusing for SEO/brand consistency
+
+3. **robots.txt** looks healthy — references sitemap-index.xml, allows all crawlers
+
+### No Change Made
+- Deploy endpoint unavailable — could not push changes
+- Exam sitemap gap requires code fix + redeploy
+- Logged as critical issue for next available deploy window

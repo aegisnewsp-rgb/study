@@ -1169,3 +1169,25 @@ sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
 - Build verified: 3347 pages ✅
 - Deploy status: DOWN (user SSH fix needed)
 - Workspace: clean (no uncommitted changes)
+
+---
+
+## Research Findings — 2026-04-05T00:19 UTC
+
+### 🔴 Critical (fix immediately)
+- None — site is healthy
+
+### 🟡 Important (fix this cycle)
+- **Production stale vs workspace**: Live site shows "80+" exams / "March 2026" footer; workspace has "125+" / "April 2026". Deploy service dying post-build means recent commits aren't reaching production. Fix requires SSH to VPS: `sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service && sudo sed -i 's/Restart=no/Restart=always/' && sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy`
+
+### 🟢 Quick Wins (easy improvements)
+- None available — all major SEO complete; code already correct in workspace
+
+### 📊 Traffic Opportunities
+- GSC verification still pending (placeholder in Layout.astro)
+- AdSense integration pending user account details
+
+### ✅ Completed This Run
+- Site health check: Homepage (FAQPage 15Qs ✅, Org ✅, WebSite ✅), NEET exam page (FAQPage ✅, HowTo ✅, BreadcrumbList ✅)
+- News: 10 items refreshed (India: 4, Pakistan: 4, Nigeria: 2)
+- Finding: Workspace is ahead of production; deploy service is the blocker

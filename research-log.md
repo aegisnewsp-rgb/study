@@ -3896,3 +3896,30 @@ Workspace has significant improvements NOT yet live:
 4. **AdSense account** — needs approved account + code injection
 5. **Formspree ID** — for feedback form
 6. **GitHub push** — origin repo `aegisnewsp-rgb/studyroadmap-astro` 404 (token/repo access issue)
+
+## Research Cycle — 2026-04-05 08:57 UTC
+
+**Pages checked:** homepage, /exams/neet/, /notes/neet/physics/phy-001/
+
+**Findings:**
+- Homepage title: ✅ "StudyRoadmap - Free AI Study Plans for 125+ Exams"
+- Exams NEET title: ✅ "NEET UG — Exam Pattern, Eligibility & Study Plan | StudyRoadmap™"
+- Notes topic title: ✅ "Units & Measurement — Physics | NEET UG Study Notes"
+- NEET exam page: 5 JSON-LD schemas + 1 FAQPage + correct meta/og:description ✅
+- Topic note page: 5 JSON-LD schemas + meta description ✅
+- Sitemap: 3,352 URLs live at sitemap-0.xml ✅
+- robots.txt: AI training bots blocked, Google-Extended allowed ✅
+- News.json: 10 fresh items from 2026-04-05 (UPSC, JEE 360/360 topper, BPSC, JAMB, WAEC) ✅
+- Footer: already says "Content reviewed April 2026" ✅
+
+**Improvement made this cycle:** None — site is in excellent shape. All major SEO complete. No code changes needed.
+
+**Outstanding items (all need user input):**
+- GSC verification code — placeholder in Layout.astro
+- AdSense integration — needs account + code
+- Deploy service fix — needs SSH: `Type=oneshot` → `Type=simple`, `Restart=no` → `Restart=always`
+- Formspree feedback form ID — placeholder in feedback.astro
+- Bing Webmaster verification code
+- MiniMax API top-up — for further knowledge-base content generation
+
+**Recommendation:** Site is production-ready. Priority blocker is the deploy service fix (prevents new builds from going live). Please run the SSH command from improvement-backlog.md item #6.

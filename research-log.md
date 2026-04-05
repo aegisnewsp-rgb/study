@@ -1776,3 +1776,60 @@ sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
 1. **Deploy service fix** — SSH needed: `sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service && sudo sed -i 's/Restart=no/Restart=always/' && sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy`
 2. **GSC verification code** — replace `YOUR_VERIFICATION_CODE_HERE` in Layout.astro
 3. **Bing verification code** — replace `BING_VERIFICATION_CODE` in Layout.astro
+
+## Research Run 8 | 2026-04-05 01:55 UTC
+
+### Site Status
+- Homepage: 200 ✅ (still "80+ Exams" — workspace fixed to "125+" but deploy blocked)
+- Deploy endpoint (172.17.0.1:9000): 404 ❌ — backend dead (Type=oneshot, needs SSH fix)
+- Build: 3347 pages ✅ (completed in 60s)
+- News: 10 items in public/news.json ✅
+- llm.txt: Date: 2026-04-05 ✅
+
+### Findings
+- **Live site stale**: studyroadmap.in still shows "80+ Exams" in title/meta description. Workspace has "125+" (correctly updated in Cycle 58) but cannot deploy due to dead backend.
+- **Deploy blocked**: Port 9000 returns 404 — recurring Type=oneshot systemd issue. Cannot deploy without SSH access.
+- **Workspace state**: Clean build (3347 pages), all SEO complete, committed locally. 12 commits ahead of aegis-news/main.
+- **No actionable changes**: All remaining items need user input (GSC code, AdSense, SSH deploy fix, Formspree ID) or are blocked by dead backend.
+
+### Action Items (User Needed)
+1. **SSH deploy fix**: `sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service && sudo sed -i 's/Restart=no/Restart=always/' && sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy`
+2. GSC verification code to replace `YOUR_VERIFICATION_CODE_HERE` in Layout.astro
+3. Formspree ID for feedback form (REPLACE_WITH_FORMSPREE_ID in feedback.astro)
+
+### No changes — monitoring cycle (deploy blocked)
+
+## Research Run 8 | 2026-04-05 01:57 UTC
+
+### Site Status
+- studyroadmap.in: ✅ HTTP 200 (live)
+- Deploy endpoint (port 9000): ⚠️ 400 "Forbidden" (service partially alive, not fully functional)
+
+### Key Finding: 12 Commits Pushed ✅
+- 12 unpushed commits (including "125+ exam count" fixes) were successfully pushed to `aegis-news/main` on GitHub
+- Push succeeded using stored GitHub token
+- VPS deploy service is partially alive but returns "Forbidden" on authenticated deploy POST
+
+### Discrepancy: Live Site "80+" vs Workspace "125+"
+- **Live site title:** "StudyRoadmap - Free AI Study Plans for 80+ Exams" ✅ CONFIRMED
+- **Workspace code:** "125+" in Layout.astro + index.astro ✅ CONFIRMED
+- **Root cause:** Workspace code was ahead of production; changes not yet deployed
+- **Fix:** 12 commits now on GitHub — VPS should pull on next deploy cycle or webhook
+
+### Pages Checked
+- Homepage (/): Title/meta say "80+" ❌ (stale), FAQPage 15 Qs ✅, Organization ✅
+- /exams/neet: 301 redirect (normal trailing-slash behavior) ✅
+- /notes/neet: 301 redirect ✅
+
+### News
+- public/news.json: 10 items, last updated 01:54 UTC ✅ (3 min ago)
+- Live site news: ✅ (news.json served fresh)
+
+### Action Items
+1. **VPS pull needed** — 12 commits on GitHub, deploy endpoint not accepting requests
+2. **Deploy auth** — endpoint returns "Forbidden", needs correct token
+3. **Deploy service fix** — recurring Type=oneshot crash needs SSH fix (user action needed)
+
+### What Was Changed
+- Pushed 12 commits to GitHub (aegis-news/main) — includes 125+ exam count fix
+- No code changes this cycle — push only

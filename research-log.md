@@ -534,3 +534,29 @@ Exam hub pages were using the Layout default (`/og-image.jpg`) instead of exam-s
 ### ✅ Completed This Run
 - Committed 12 files (NEET physics: 3 files; WAEC physics: 6 files) — prose rewrites replacing sparse bullet content
 - Commit: 8d7669e "Content quality batch: rewrite NEET/WAEC physics notes with structured prose"
+
+## Research Findings — 2026-04-05 12:48 UTC
+
+### 🔴 Critical (fix immediately)
+- None — all critical issues from prior cycles resolved
+
+### 🟡 Important (fix this cycle)
+- Deploy service recurring crash (Type=oneshot + Restart=no) — needs user SSH fix on VPS
+
+### 🟢 Quick Wins (easy improvements)
+- **Build:** 3,355 pages ✅ (clean, postbuild sitemap script working)
+- **Sitemap:** 3,357 total URLs, 131 exam page references ✅
+- **News:** 10 items refreshed (India:4, Pakistan:4, Nigeria:2) ✅
+- **GSC placeholder:** still `YOUR_VERIFICATION_CODE_HERE` in Layout.astro — user needs to provide real code
+- **Bing placeholder:** still `BING_VERIFICATION_CODE` in Layout.astro
+
+### 📊 Traffic Opportunities
+- All major SEO schemas implemented across all key pages
+- Sitemap comprehensive (3,357 URLs, includes all exam hub pages)
+- Remaining leverage entirely blocked on user input: GSC code, AdSense account, VPS SSH fix
+
+### ✅ Completed This Run
+- Site health: all key pages passing ✅
+- Build: clean 3,355 pages ✅
+- Commit: 46a6ad5 "News refresh: 10 items (India:4, Pakistan:4, Nigeria:2)"
+- Deploy: blocked (deploy service needs user SSH fix)

@@ -2627,3 +2627,34 @@ sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
 - Lighthouse score improvements
 - Internal linking strategy enhancement
 - Rich results for more exam pages (expand beyond NEET)
+
+---
+
+## Research Findings — 2026-04-05T04:47 UTC
+
+### 🔴 Critical (fix immediately)
+- None — all major SEO complete
+
+### 🟡 Important (fix this cycle)
+- None — all items need user input (GSC code, AdSense, MiniMax top-up)
+
+### 🟢 Quick Wins
+- News fetch: confirmed working — 10 fresh items (India:4, Nigeria:4, Pakistan:2)
+- Footer timestamp: workspace says "April 2026" ✅; production still shows "March 2026" (needs deploy to propagate)
+- Sitemap: 3,300+ URLs ✅, all notes pages indexed
+
+### 📊 Traffic Opportunities
+- All major SEO improvements already implemented
+- Next traffic growth: GSC verification + URL inspection API for rapid indexing
+
+### ✅ Completed This Run
+- News refresh: 10 items, 04:47 UTC ✅ (fetch script confirmed working with python3)
+- Site health: studyroadmap.in HTTP 200 ✅
+- Commit: 5348dd0
+
+### ⚠️ Still Pending (user action required)
+1. Deploy to propagate workspace changes (footer April 2026 + all recent fixes)
+2. GSC verification code — `YOUR_VERIFICATION_CODE_HERE` in Layout.astro
+3. AdSense account + code injection
+4. MiniMax API top-up for content generation
+5. Deploy service fix (Type=oneshot → Type=simple)

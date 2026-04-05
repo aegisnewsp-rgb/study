@@ -3757,3 +3757,46 @@ Workspace has significant improvements NOT yet live:
 - Monitoring cycle: site all 200 ✅, sitemap 124 exams ✅, news 10 items 58min old ✅
 - No code changes — monitoring only
 
+
+---
+
+## Research Run 17 | 2026-04-05 08:29 UTC
+
+### Site Status
+- Homepage: 200 ✅ | /exams/neet/: 200 ✅ | /notes/neet/physics/: 200 ✅ | /notes/neet/physics/phy-001/: 200 ✅
+- Deploy endpoint (172.17.0.1:9000): 404 ⚠️ — backend dead (Type=oneshot, needs user SSH fix)
+- Site live at studyroadmap.in ✅ (production serving from last successful deploy)
+
+### Quick Audit (3 pages)
+- Homepage: title "StudyRoadmap - Free AI Study Plans for 80+ Exams" (workspace has "125+" — stale production), FAQPage (15 Qs) ✅, Organization ✅, WebSite+SearchAction ✅, hreflang annotations ✅
+- /exams/neet/: title "NEET UG — Exam Pattern, Eligibility & Study Plan | StudyRoadmap™" ✅, FAQPage (3 NEET-specific Qs) ✅, HowTo ✅, BreadcrumbList ✅
+- /notes/neet/physics/: title "Physics Study Notes — NEET UG | StudyRoadmap™" ✅, FAQPage (4 Qs) ✅, BreadcrumbList ✅, CollectionPage+ItemList ✅
+
+### Deep Audit — Prev/Next Topic Navigation
+- Live topic pages (phy-001 through phy-029) show prev/next navigation via horizontal scrolling links (→ → → pattern in HTML)
+- Each topic page has links to next 5 topics (phy-002 through phy-006) as "next" shortcuts — NOT traditional prev/next at bottom
+- Last topic (phy-029) links back to first (phy-001) — full circular navigation across all 29 physics topics
+- Navigation implemented in Astro component via `sortedNotes` array and `prevTopic`/`nextTopic` variables
+
+### Sitemap Verified
+- sitemap-index.xml → sitemap-0.xml containing all exam hub pages + notes pages ✅
+- /exams/aau/ through /exams/aiims-mbbs/ confirmed in sitemap ✅
+- /notes/neet/physics/phy-001/ confirmed accessible (canonical + sitemap) ✅
+
+### News
+- public/news.json: 10 items ✅ (UPSC, NDA/CDS admit card, WAEC, MDCAT reform news)
+- Fetch script: times out on Google News feeds (SIGTERM) — news items still valid and diverse
+
+### No Code Changes This Cycle
+- All major SEO improvements already implemented in workspace
+- Deploy service Type=oneshot issue still blocking production updates — **user SSH action still required:**
+  ```bash
+  sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service
+  sudo sed -i 's/Restart=no/Restart=always/' /etc/systemd/system/studyroadmap-deploy.service
+  sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
+  ```
+- Workspace has significant un-deployed changes (125+ exam count, hreflang, twitter:app, etc.) — next deploy will push all fixes live
+
+### Git Status
+- Committed: research-log.md update (22bd473) — workspace clean
+- 1 commit ahead of where production is running (commit 9c0f8cb deployed vs 22bd473 in workspace)

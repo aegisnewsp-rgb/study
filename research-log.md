@@ -2485,3 +2485,20 @@ sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
 **SITE STATUS:** Build succeeds, deploy server needs manual sync
 **COMMIT:** 05f9abd
 
+
+## 2026-04-05 04:19 UTC — Cycle 109
+
+**FINDING:** ItemList schema on `/exams/` page had exam URLs without trailing slashes (`/exams/neet`) while the sitemap and canonical URLs consistently use trailing slashes (`/exams/neet/`). This inconsistency could cause Google to treat them as different URLs, diluting link equity.
+
+**FIX APPLIED:**
+- `src/pages/exams.astro` line 25: added trailing slash to ItemList `url` field
+- Before: `url: \`${SITE_URL}/exams/${exam.examId}\``
+- After: `url: \`${SITE_URL}/exams/${exam.examId}/\``
+
+**IMPACT:** SEO consistency — ItemList URLs now match sitemap URLs and canonical URLs (all with trailing slash). Google won't see duplicate/different URL variants.
+
+**BUILD:** ✅ 3349 pages in 58s, postbuild added 124 exam pages to sitemap
+**COMMIT:** ea9764f
+
+**SITE STATUS:** Deploy endpoint returning HTTP 400 (Astro dev server alive but slow/deploy blocked)
+**GITHUB PUSH:** Blocked — origin repo not accessible (29+ commits stuck locally)

@@ -1366,3 +1366,21 @@ sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
 - **Files:** src/pages/exams.astro
 - **Commit:** fcd2f85 "Growth cycle: ItemList schema now covers all exams (was truncated to 20)"
 - **Site:** HTTP 200 ✅ | News: 10 items fresh ✅ | All key pages: healthy ✅
+
+## Research Findings — 2026-04-05T00:44 UTC
+
+### 🔴 Critical (fix immediately)
+- None found — site is very well optimized; most remaining issues need user action
+
+### 🟡 Important (fix this cycle)
+- **105 exam notes pages had broken OG image URLs**: Exam notes pages for 105/125 exams referenced `/og-notes/exam-{exam}.jpg` but only 20 exams have these images. Social crawlers fetching these URLs would get 404s → no social card displayed. Fixed by adding a fallback to `/og-image.jpg` for exams without custom OG images.
+
+### 🟢 Quick Wins
+- None remaining — all high-value SEO items completed per backlog
+
+### 📊 Traffic Opportunities
+- GSC verification still pending (placeholder in Layout.astro) — blocks search performance monitoring
+- Deploy service crash issue (Type=oneshot) still unresolved — needs user SSH fix
+
+### ✅ Completed This Run
+- Fixed OG image fallback in `src/pages/notes/[exam]/index.astro` — 105 exam notes pages now show default OG image instead of broken 404 URLs

@@ -482,3 +482,34 @@ Exam hub pages were using the Layout default (`/og-image.jpg`) instead of exam-s
 - Created src/content/notes/neco/physics/phy-4.md (Scalars and Vectors)  
 - Created src/content/notes/waec/physics/phy-4.md (Scalars and Vectors)
 - Commit 9a07265 — "Fill sitemap 404 gaps: create missing physics topic files"
+
+## Research Findings — 2026-04-05 12:41 UTC
+
+### 🔴 Critical (fix immediately)
+- **news.json was corrupted** — fetch script killed mid-write, left truncated 1-item JSON (only 1 of 10 items). Fixed by re-running fetch_news.py successfully.
+
+### 🟡 Important (fix this cycle)
+- **Deploy service down** — Type=oneshot + Restart=no causes backend to die after each deploy. Site at studyroadmap.in itself is live ✅. Only deploy is blocked.
+- **Fix requires user SSH** (unblocked from sandbox):
+  ```bash
+  sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service
+  sudo sed -i 's/Restart=no/Restart=always/' /etc/systemd/system/studyroadmap-deploy.service
+  sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
+  ```
+
+### 🟢 Quick Wins (easy improvements)
+- Site: homepage ✅, /roadmap ✅ (301→200), sitemap 3,355 pages ✅, all schemas intact ✅
+- Build: 3,355 pages ✅ (postbuild sitemap script ran cleanly)
+- News: 10 items ✅ (India:3, Nigeria:4, Pakistan:3 — all fresh today)
+- **No automated improvements available** — all major SEO infrastructure complete
+
+### 📊 Traffic Opportunities
+- GSC verification still pending user code (placeholder in Layout.astro)
+- AdSense pending user account
+- 27+ commits stuck locally (origin repo issue, token can't create)
+
+### ✅ Completed This Run
+- Fixed news.json corruption (re-fetched 10 valid items)
+- Commit: a34cfe0 "Fix corrupted news.json"
+- Deploy: BLOCKED (backend Type=oneshot — user SSH needed)
+- GitHub push: BLOCKED (repo 404, token can't create repos)

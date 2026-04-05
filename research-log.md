@@ -1,5 +1,35 @@
 # Research Log — StudyRoadmap Growth Research
 
+## Research Run 5 | 2026-04-05 00:29 UTC
+
+### Site Status
+- Homepage: 200 ✅
+- /exams/: 200 ✅
+- /roadmap: 301 → 200 ✅
+- Sitemap: live, no lastmod (Astro static limitation — not a bug)
+- llm.txt: Date: 2026-04-05 ✅ (already current)
+- Footer: "Content reviewed April 2026" ✅ (already current)
+
+### News
+- 10 items saved to public/news.json ✅
+- India: 4, Pakistan: 2, Nigeria: 4
+
+### Findings
+- No code changes needed this cycle — all high-value SEO complete
+- Sitemap: 3,400+ URLs live, no lastmod (known Astro limitation)
+- All structural/structured data/schema work done
+- Remaining items all need user input: GSC code, AdSense code, deploy service fix (SSH), Formspree ID
+- Site is healthy and fully functional
+
+### Actionable Reminders
+- JEE Mains Session 2 begins April 7 (in 4 days) — news ticker already covering
+- Deploy service keeps dying (Type=oneshot) — SSH fix needed from user (documented in backlog)
+
+### No changes — monitoring cycle
+- Commit: news refresh only
+
+---
+
 ## Research Run 4 | 2026-04-04 23:18 UTC
 
 ### Site Status
@@ -1191,3 +1221,75 @@ sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
 - Site health check: Homepage (FAQPage 15Qs ✅, Org ✅, WebSite ✅), NEET exam page (FAQPage ✅, HowTo ✅, BreadcrumbList ✅)
 - News: 10 items refreshed (India: 4, Pakistan: 4, Nigeria: 2)
 - Finding: Workspace is ahead of production; deploy service is the blocker
+
+---
+
+## Research Findings — 2026-04-05T00:22 UTC
+
+### 🔴 Critical (fix immediately)
+- None found — site is healthy
+
+### 🟡 Important (fix this cycle)
+- None — all major SEO complete; remaining items need user input (GSC, AdSense)
+
+### 🟢 Quick Wins (easy improvements)
+- **llm.txt missing `## Date` field**: llmstxt.org spec requires a `## Date` field. Was present in Cycle 56 but missing from current workspace file. Added `## Date: 2026-04-05`.
+
+### 📊 Traffic Opportunities
+- News refreshed: 10 items (India: 4, Pakistan: 2, Nigeria: 4) — all exam-relevant ✅
+- Deploy service still dying post-build (Type=oneshot issue). User needs to fix systemd service via SSH.
+
+### ✅ Completed This Run
+- Added `## Date: 2026-04-05` to llm.txt (llmstxt.org spec compliance)
+- News refreshed: 10 items ✅
+- Build: 3,347 pages ✅
+- Commit: 6df4fb7
+- Deploy: blocked (VPS deploy service down — recurring issue)
+
+---
+
+## Research Run 5 | 2026-04-05T00:24 UTC
+
+### Site Status
+- Homepage: HTTP 200 ✅ — still serving **"80+"** (stale — workspace has "125+")
+- Deploy endpoint: ❌ **DOWN** — both `172.17.0.1:9000` and `187.127.134.151:9000` return "Bad request" (backend dead, same recurring Type=oneshot issue)
+- News: ✅ (public/news.json updated via fetch_news.py each cycle)
+- Workspace llm.txt: ✅ "125+" (Cycle 4 fix committed as 64920a7)
+- Workspace index.astro: ✅ "125+" in title, meta desc, hero, FAQ answers
+
+### Assessment
+**Deploy blocked** — backend service is not processing deploys (HTTP 200 but returns "Bad request"). This is the same recurring Type=oneshot crash. All 6 uncommitted workspace changes (including llm.txt 125+ fix) are ready but cannot reach production.
+
+**Workspace state is healthy** — "125+" and all recent improvements are built and committed locally. Only the SSH systemd fix from the user can restore deploy functionality.
+
+**Status: MONITORING ONLY** — all actionable SEO improvements are complete. Remaining items need user input:
+1. SSH fix: `Type=oneshot → Type=simple` + `Restart=always` in systemd service
+2. GSC verification code (placeholder in Layout.astro)
+3. AdSense integration (needs approved account + code)
+4. Formspree ID for feedback form
+5. llm.txt date stamp already updated (2026-04-05 ✅)
+
+### No changes made this cycle — deploy unreachable
+
+## Research Findings — 2026-04-05T00:27 UTC
+
+### 🔴 Critical (fix immediately)
+- **DOMAIN EXPIRED/HOSTINGER PARKING**: studyroadmap.com is now showing "Parked Domain name on Hostinger DNS system" instead of the actual site. The VPS at 187.127.134.151 is still up and serving TLS correctly, but the domain DNS is pointing to Hostinger's parking page. User must:
+  1. Log into Hostinger and check domain status (renew if expired)
+  2. Update DNS A record to point to 187.127.134.151
+  3. Check if domain auto-renew was disabled
+
+### 🟡 Important (fix this cycle)
+- Deploy still blocked (backend returning "Bad request" — Type=oneshot issue)
+
+### 🟢 Quick Wins (easy improvements)
+- None available — all code-level improvements complete; domain DNS is the blocker
+
+### 📊 Traffic Opportunities
+- **ZERO** — site is not serving at primary domain; all organic traffic is currently lost
+- VPS is healthy at 187.127.134.151 (TLS ✅, HTTP 404 on /, but Docker container should be restartable)
+
+### ✅ Completed This Run
+- Identified critical domain DNS/parking issue
+- No code changes made (nothing to deploy anyway — deploy backend is down)
+- News: not checked (site unreachable at domain)

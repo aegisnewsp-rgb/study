@@ -2960,3 +2960,54 @@ sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deplo
 sudo sed -i 's/Restart=no/Restart=always/' /etc/systemd/system/studyroadmap-deploy.service
 sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
 ```
+
+### Cycle 108 | 2026-04-05T05:41 UTC | FIX: sitemap double-injection bug
+
+**Finding:** The fix-sitemap postbuild script had a subtle bug that could cause
+exam pages to be injected into the sitemap multiple times on repeated builds:
+- Used `indexOf(closingTag)` which finds the FIRST occurrence of `</urlset>`
+- If the script ran twice, the second run would inject again (first `</urlset>` is still there)
+- Also confirmed by inspecting live dist/sitemap-0.xml which shows all exam pages
+  at the END of the file (after thousands of notes pages) — script is working but
+  the insert-point logic was fragile
+
+**Fix:** Updated scripts/fix-sitemap.cjs:
+- Changed to `lastIndexOf('</urlset>')` so injection always targets the actual EOF
+- Added validation: if there's unexpected content after `</urlset>`, abort (likely already doubled)
+- This ensures idempotent behavior — running the script multiple times is now safe
+
+**Status:** No change this cycle — site stable, all SEO in good shape
+- Site: ✅ HTTP 200 (live)
+- Sitemap fix: ✅ improved (committed)
+- Deploy service: ⚠️ still needs user SSH to fix Type=oneshot
+- GSC/Bing verification: placeholders still need real codes from user
+
+**Committed:** 2716c97 (fix-sitemap idempotency fix)
+
+---
+
+**Cycle 87 — 2026-04-05 05:47 UTC**
+
+**Site status:** ✅ Live at studyroadmap.in — all systems operational
+
+**Checks performed:**
+- Homepage: Title ✅, canonical ✅, FAQPage (14 Qs) ✅, OG/Twitter ✅, Organization schema ✅
+- /exams/neet/: Title ✅, FAQPage (3 Qs) ✅, HowTo schema ✅, BreadcrumbList ✅, canonical ✅
+- Sitemap: All exam pages confirmed present (`/exams/aau/` through `/exams/z` via sitemap-0.xml) ✅
+- News.json: 10 fresh items (last fetch: 2026-04-05 05:47 UTC) ✅
+- robots.txt: AI training blocked, Google-Extended allowed ✅
+
+**Improvement identified:** None — all high-value SEO items complete or user-blocked.
+
+**Action taken:**
+- Ran `scripts/fetch_news.py` — news.json refreshed to `public/news.json` ✅ (10 items, India×4, Nigeria×4, Pakistan×2)
+- No code changes committed this cycle
+
+**Blocked items (need user action):**
+- GSC verification: `YOUR_VERIFICATION_CODE_HERE` placeholder in Layout.astro
+- Bing verification: `BING_VERIFICATION_CODE` placeholder in Layout.astro
+- Deploy service fix: needs SSH — `sed -i 's/Type=oneshot/Type=simple/'` + `Restart=always`
+- Formspree ID: `REPLACE_WITH_FORMSPREE_ID` in feedback.astro
+- MiniMax API top-up: needed for further knowledge-base content generation
+
+**Overall:** Site is healthy. No actionable improvements available in this cycle — all remaining items require user-provided codes or SSH access.

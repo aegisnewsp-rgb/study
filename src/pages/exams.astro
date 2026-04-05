@@ -96,6 +96,12 @@ const EXAM_FAQS = [
   title="Browse Exams — StudyRoadmap™"
   description={`Explore all ${ALL_EXAMS.length} competitive exams covered by StudyRoadmap™ — NEET, JEE, UPSC, MDCAT, JAMB, WAEC, Gaokao, and more across ${Object.keys(byCountry).length} countries.`}
   faqs={EXAM_FAQS}
+  author={{
+    name: "StudyRoadmap Editorial Team",
+    jobTitle: "Curriculum Editors",
+    affiliation: "StudyRoadmap",
+    url: "https://studyroadmap.in/about",
+  }}
 >
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
   <script type="application/ld+json" set:html={JSON.stringify(examItemList)} />

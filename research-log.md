@@ -1,3 +1,29 @@
+## Research Findings — 2026-04-05 13:23 UTC
+
+### 🔴 Critical (fix immediately)
+- None — site is healthy. Sitemap fix committed today IS active on live site (129 exam URLs confirmed)
+
+### ✅ Verified Working
+- Homepage: HTTP 200, proper meta/OG tags
+- `/exams/neet/`: HTTP 200, title "NEET UG — Exam Pattern, Eligibility & Study Plan | StudyRoadmap™"
+- `/notes/neet/`: HTTP 200, title "NEET UG Study Notes — All Subjects | StudyRoadmap™"
+- Sitemap: HTTP 200, 129 unique `/exams/` URLs confirmed live
+- news.json: 10 fresh news items, last fetched ~12:37 UTC today
+- robots.txt: All AI training bots blocked, sitemap referenced
+
+### ⚠️ Still Blocked (needs user action or server access)
+1. `REPLACE_WITH_GOOGLE_SEARCH_CONSOLE_VERIFICATION_CODE` in Layout.astro — user needs to add their GSC meta tag
+2. `REPLACE_WITH_BING_VERIFICATION_CODE` in Layout.astro — user needs Bing Webmaster code
+3. Feedback form `REPLACE_WITH_FORMSPREE_ID` — needs Formspree account + ID
+4. Deploy backend TypeError (Superagic) — service crashes on startup, needs SSH: `cd /home/node && sudo systemctl restart studyroadmap-backend` (also needs Type=simple + Restart=always to prevent future crashes)
+
+### 📝 This Cycle Notes
+- Ran `node scripts/fix-sitemap.cjs` against workspace dist — confirmed "All 127 exam pages already in sitemap" (script works correctly)
+- Site is in excellent shape — no code changes needed this cycle
+- Next highest-impact fix after deploy is adding GSC/Bing verification codes
+
+---
+
 ## Research Findings — 2026-04-05 12:49 UTC
 
 ### 🔴 Critical (fix immediately)
@@ -697,3 +723,27 @@ Exam hub pages were using the Layout default (`/og-image.jpg`) instead of exam-s
 **News:** news.json last updated ~April 1 (4+ days stale). JEE Main Session 2 is April 7 — fresh news would be high-value. `python3 scripts/fetch_news.py` blocked by network access in this sandbox (times out). News refresh needs to run on the host with internet access.
 
 **No changes made** — site is healthy and fully optimized. All major SEO work complete across 93+ cycles.
+
+## Research Findings — 2026-04-05T13:20 UTC
+
+### 🔴 Critical (fix immediately)
+- None
+
+### 🟡 Important (fix this cycle)
+- None
+
+### 🟢 Quick Wins (easy improvements)
+- Site fully optimized — no quick wins remaining
+
+### 📊 Traffic Opportunities
+- All major SEO complete. GSC verification pending user code.
+
+### ✅ Completed This Run
+- Site health check: 3/3 pages healthy (homepage ✅, /exams/ ✅, /notes/neet/physics/ ✅)
+- All SEO signals present: FAQPage ✅, Organization ✅, WebSite+SearchAction ✅, BreadcrumbList ✅, hreflang ✅, OG tags ✅, Twitter cards ✅, Person schema ✅
+- llm.txt date: 2026-04-05 ✅ (current)
+- Footer: "Content reviewed April 2026" ✅ (current)
+- News: 10 items ✅ (UPSC, JEE, NEET news fresh)
+- Workspace: clean, nothing to commit
+- **Conclusion:** All automated improvements exhausted. Remaining opportunities require user action: GSC verification code, AdSense account, directory submissions.
+

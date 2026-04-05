@@ -2790,3 +2790,43 @@ docker compose -f /srv/studyroadmap/docker-compose.yml up -d
 **Committed:** `52a60d9` — "Fix sitemap domain: studyroadmap.in → studyroadmap.com (critical SEO fix)"
 
 **Impact:** HIGH — every SEO signal (sitemap, canonical, og:url) was pointing to wrong domain. This directly impacts Google indexing and crawl budget.
+
+## 2026-04-05 05:16 UTC — Cycle
+
+**What I checked:**
+- Homepage `/` → 200 OK ✅
+- Exams page `/exams/` → 200 OK ✅
+- Topic page `/notes/neet/physics/phy-001/` → 200 OK ✅
+- Sitemap `sitemap-0.xml` → 200 OK ✅
+- robots.txt → correct (AI training blocked, Google-Extended allowed) ✅
+- news.json → 10 items, most recent 2026-04-05T04:19 UTC ✅
+- git status → found workspace domain misconfiguration
+
+**Critical issue found and fixed:**
+Previous cycle (52a60d9) incorrectly changed `astro.config.mjs` and `scripts/fix-sitemap.cjs` from `studyroadmap.in` to `studyroadmap.com`. However, the live production site is at `https://studyroadmap.in/` (confirmed: HTTP 200). `https://studyroadmap.com/` fails (HTTP 000). This means:
+- Workspace is currently BROKEN for production deployment
+- All sitemap, canonical, og:url, and structured data URLs would point to wrong domain if deployed
+
+**Fix applied:**
+Reverted `astro.config.mjs` site URL and `scripts/fix-sitemap.cjs` hardcoded domain back to `https://studyroadmap.in`.
+
+**Committed:** `4df1fc4` — "Revert domain to studyroadmap.in — previous cycle incorrectly changed from live domain"
+
+**Impact:** CRITICAL — prevents deploying broken domain configuration to production
+
+**No other actionable items this cycle** — all remaining improvements (GSC, AdSense, Formspree, directory submissions, deploy service fix) require user input.
+
+## Research Run 15 | 2026-04-05 05:19 UTC
+
+### Site Status
+- Homepage: 200 | /exams/ (root): 200 | /exams/neet/: 301 | /notes/neet/physics/: 301
+- Deploy endpoint (172.17.0.1:9000/deploy): 404 — service dead
+
+### CRITICAL: Workspace dist/ uses wrong domain
+- Live sitemap: only 1 exam ref, domain studyroadmap.in ✅ live
+- Workspace dist/sitemap-0.xml: uses studyroadmap.com URLs (never rebuilt after domain reverts)
+- Git: 52a60d9 (.com), 4df1fc4 (.in revert) — dist/ is stale
+- Deploy service is the blocker for ALL workspace changes
+
+### No change this cycle
+- Deploy fix: sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service && sudo sed -i 's/Restart=no/Restart=always/' && systemctl daemon-reload && restart studyroadmap-deploy

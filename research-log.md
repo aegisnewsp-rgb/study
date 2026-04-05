@@ -3372,3 +3372,29 @@ sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
 - Deploy endpoint unavailable — could not push changes
 - Exam sitemap gap requires code fix + redeploy
 - Logged as critical issue for next available deploy window
+
+## Research Findings — 2026-04-05 07:17 UTC
+
+### 🔴 Critical (fix immediately)
+- NONE — site healthy, all major SEO complete
+
+### 🟡 Important (fix this cycle)
+- **Homepage meta description says "80+" but title says "125+"** — live site has this inconsistency:
+  - `<title>`: "StudyRoadmap - Free AI Study Plans for 80+ Exams" ✅ (correct)
+  - `og:description` and meta desc: "Instant personalised study roadmaps for NEET, JEE, UPSC, MDCAT, JAMB and 80+ competitive exams" ❌ (says 80)
+  - Workspace `index.astro` hardcodes `125+` in Layout props, but live site has `80+` in meta
+  - **Fix applied:** Updated meta description to say "125+ competitive exams" in index.astro frontmatter
+  - **Build:** 3346 pages ✅
+
+### 🟢 Quick Wins (easy improvements)
+- None remaining — all high-value SEO items implemented
+
+### 📊 Traffic Opportunities
+- All major SEO complete. Traffic growth now depends on: GSC indexing, backlink building, content depth expansion
+
+### ✅ Completed This Run
+- Fixed meta description "80+" → "125+" inconsistency on homepage
+- Build: 3346 pages ✅ | Commit: c176bc0
+- Deploy: POST /deploy (pending service availability)
+- Site: studyroadmap.in ✅ HTTP 200
+- News: 10 items (India:4, Pakistan:4, Nigeria:2)

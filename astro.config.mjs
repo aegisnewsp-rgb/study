@@ -3,6 +3,17 @@ import { defineConfig } from 'astro/config';
 import react from '@astrojs/react';
 import sitemap from '@astrojs/sitemap';
 import path from 'path';
+import { readFileSync } from 'fs';
+
+// Load all exam slugs from exams.json to include in sitemap
+const EXAMS_JSON_PATH = path.resolve('./public/exams.json');
+let examSlugs = [];
+try {
+  const data = JSON.parse(readFileSync(EXAMS_JSON_PATH, 'utf8'));
+  examSlugs = (data.exams || []).map(e => e.examId).filter(Boolean);
+} catch (e) {
+  console.warn('Could not load exams.json for sitemap:', e.message);
+}
 
 export default defineConfig({
   site: 'https://studyroadmap.in',
@@ -15,21 +26,7 @@ export default defineConfig({
         'https://studyroadmap.in/contact/',
         'https://studyroadmap.in/feedback/',
         'https://studyroadmap.in/exams/',
-        'https://studyroadmap.in/exams/neet/',
-        'https://studyroadmap.in/exams/jeemain/',
-        'https://studyroadmap.in/exams/jeeadvanced/',
-        'https://studyroadmap.in/exams/upsc/',
-        'https://studyroadmap.in/exams/ssc-cgl/',
-        'https://studyroadmap.in/exams/cat/',
-        'https://studyroadmap.in/exams/gate/',
-        'https://studyroadmap.in/exams/clat/',
-        'https://studyroadmap.in/exams/nda/',
-        'https://studyroadmap.in/exams/ibps-po/',
-        'https://studyroadmap.in/exams/sbi-po/',
-        'https://studyroadmap.in/exams/fmge/',
-        'https://studyroadmap.in/exams/mdcat/',
-        'https://studyroadmap.in/exams/jamb/',
-        'https://studyroadmap.in/exams/waec/',
+        ...examSlugs.map(slug => `https://studyroadmap.in/exams/${slug}/`),
       ],
     }),
   ],

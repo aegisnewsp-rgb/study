@@ -1571,3 +1571,36 @@ Site is in good shape. Deploy service needs manual restart to push committed hre
 - AdSense integration pending user account + code
 - Deploy service crashes after each deploy (systemd Type=oneshot + Restart=no — needs user SSH fix)
 - No code changes needed this cycle — monitoring mode
+
+## Research Run 7 | 2026-04-05 01:27 UTC
+
+### Site Status
+- studyroadmap.in: 200 ✅ (live)
+- Deploy endpoint (port 9000): 404 ❌ (backend dead — Type=oneshot crash)
+- News: 10 items ✅ (India:4, Pakistan:2, Nigeria:4)
+
+### CRITICAL: Live Site Stale at "80+" — Workspace Has "125+"
+**Issue:** Live site (studyroadmap.in) is still serving old "80+" content while workspace has "125+" everywhere:
+- `<title>`: "Free AI Study Plans for **80+** Exams" (workspace: 125+)
+- `<meta name="description">`: "...and **80+** competitive exams" (workspace: 125+)
+- Organization schema `description`: "80+ competitive exams" (workspace: 125+)
+- FAQPage answer: "covers **80+** exams" (workspace: 125+)
+- Footer: "Content reviewed **March** 2026" (workspace: April 2026)
+
+**Root cause:** Deploy service keeps dying (Type=oneshot + Restart=no on systemd service). Latest workspace changes haven't been deployed since before Cycle 107 (2026-04-04 06:03 UTC).
+
+**Impact:** Google/bing sees outdated content signals (wrong exam count), students see wrong meta descriptions in SERPs.
+
+**Fix:** User SSH fix needed (documented since Cycle 106):
+```bash
+sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service
+sudo sed -i 's/Restart=no/Restart=always/' /etc/systemd/system/studyroadmap-deploy.service
+sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
+```
+
+### Findings
+- All SEO infrastructure complete — no new structural/schema opportunities
+- Deploy blocker is the ONLY actionable issue preventing workspace changes from going live
+- Once deployed: site will correctly say "125+" everywhere + April 2026 footer
+- GSC/AdSense still need user input
+- No code changes this cycle — deploy required

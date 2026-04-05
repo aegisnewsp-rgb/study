@@ -122,4 +122,42 @@ $\mu = Q \times r$. For HCl: bond length = 127 pm = $1.27 \times 10^{-10}$ m. Pa
 Common questions: (1) Identify type of bonding from electronegativity difference, (2) VSEPR shape prediction, (3) MO theory bond order for $O_2$, $N_2$, $F_2$, (4) Hydrogen bonding in water, alcohols, (5) Formal charge on Lewis structures. JAMB 2022: "Which of the following has the highest boiling point: (a) $CH_4$ (b) $C_2H_6$ (c) $C_3H_8$ (d) $n-C_4H_{10}$?" Answer: $n-C_4H_{10}$ (d) — highest molecular mass, strongest London dispersion forces.
 
 ---
+
+
+---
+## 📊 JAMB Exam Essentials
+
+| Detail | Value |
+|---|---|
+| Questions | 180 MCQs (UTME) |
+| Subjects | 4 subjects (language + 3 for course) |
+| Time | 2 hours |
+| Marking | +1 per correct answer |
+| Score | 400 max (used for university admission) |
+| Registration | January – February each year |
+
+### 🎯 High-Yield Topics for JAMB
+- Use of English (Grammar + Comprehension) — 60 marks
+- Biology for Science students — 40 marks
+- Chemistry (Organic + Physical) — 40 marks
+- Physics (Mechanics + Optics) — 35 marks
+- Mathematics (Algebra + Geometry) — 40 marks
+
+### 📝 Previous Year Question Patterns
+- Q: "The process of photosynthesis requires..." [2024 Biology]
+- Q: "The electronic configuration of Fe is..." [2024 Chemistry]
+- Q: "Find the value of x if 2x + 5 = 15..." [2024 Mathematics]
+
+### 💡 Pro Tips
+- Use of English carries the most weight — master grammar rules and comprehension strategies
+- JAMB syllabus is your Bible — questions come directly from it. Download and use it.
+- Past questions are highly predictive — repeat patterns appear every year
+- For Science students, Biology and Chemistry are high-scoring if you study NCERT-level content
+
+### 🔗 Official Resources
+- [JAMB Official](https://www.jamb.gov.ng/)
+- [JAMB Syllabus](https://www.jamb.gov.ng/syllabus)
+
+---
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

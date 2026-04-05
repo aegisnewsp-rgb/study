@@ -77,4 +77,44 @@ Now count words. Let's count manually: Each word separated by spaces. We'll coun
 
 "A(1) solution(2) is(3) a(4) homogeneous(5) mixture(6) composed(7) of(8) two(9) or(10) more(11) substances.(12) The(13) component(14) present(15) in(16) the(17) largest(18) amount(19) is(20) the(21) solvent,(22) and(23) the(24) others(25) are(26) solutes.(27) Concentration(28) terms—molarity,(29) molality,(30) mole(31) fraction,(32) ppm—are(33) essential.(34) Raoult’s(35) law(36) states(37) that(38) the(39) vapour(40) pressure(41) of(42) a(43) solvent(44) above(45)
 </think>
+
+
+---
+## 📊 JEE Main Exam Essentials
+
+| Detail | Value |
+|---|---|
+| Questions | 90 (30 per subject) |
+| Sections | Physics, Chemistry, Mathematics |
+| Type | MCQ + Numerical Value (NAT) |
+| Time | 3 hours |
+| Marking | +4 correct, −1 wrong (MCQ); +4 correct, 0 wrong (NAT) |
+| Sessions | January + April per year; best score considered |
+| **Topic Weightage** | **~4%** (based on 2023–2025 paper analysis) |
+
+### 🎯 High-Yield Topics for JEE Main
+- Coordination Compounds — 8 marks
+- Organic Reactions & Mechanisms — 12 marks
+- Electrochemistry + Kinetics — 12 marks
+- Determinants & Matrices — 10 marks
+- Integration (Definite + Indefinite) — 15 marks
+- Electrodynamics (Capacitance + Current) — 12 marks
+
+### 📝 Previous Year Question Patterns
+- Q: "Find the area bounded by the curve y = ..." [2025 Math — 4 marks NAT]
+- Q: "The electrons in a multi-electron atom are removed..." [2025 Chemistry — 3 marks]
+- Q: "A particle of mass m is projected with velocity v at angle θ..." [2025 Physics — 4 marks]
+
+### 💡 Pro Tips
+- Mathematics is the highest-scoring subject for students who master it — target 100+ in Math
+- In Physics, Alternating Current and EM Waves are easiest to score — rarely out of syllabus
+- Organic Chemistry: questions on name reactions (Kolbe electrolysis, Hofmann, etc.) appear every year
+- Coordinate Geometry: 60% of JEE Main geometry questions come from Circle + Parabola + Ellipse
+
+### 🔗 Official Resources
+- [NTA JEE Main](https://jeemain.nta.nic.in/)
+- [JEE Main Syllabus](https://www.nta.ac.in/JEEMAIN)
+
+---
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

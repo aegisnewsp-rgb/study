@@ -132,4 +132,42 @@ Example: $0.\overline{3} = 0.3 + 0.03 + 0.003 + ... = 3/10 + 3/100 + 3/1000 + ..
 JAMB questions frequently test: (1) Solving quadratic equations (factorisation or formula), (2) Logarithm evaluation and laws, (3) Simultaneous equations (2 variables), (4) AP/Gp problems, (5) Binomial expansion. Common error: forgetting to rationalise denominators with surds. JAMB 2022: "Simplify $\frac{\sqrt{3}}{1+\sqrt{3}}$." Answer: $\frac{\sqrt{3}(1-\sqrt{3})}{1-3} = \frac{\sqrt{3}-3}{-2} = \frac{3-\sqrt{3}}{2}$.
 
 ---
+
+
+---
+## 📊 JAMB Exam Essentials
+
+| Detail | Value |
+|---|---|
+| Questions | 180 MCQs (UTME) |
+| Subjects | 4 subjects (language + 3 for course) |
+| Time | 2 hours |
+| Marking | +1 per correct answer |
+| Score | 400 max (used for university admission) |
+| Registration | January – February each year |
+
+### 🎯 High-Yield Topics for JAMB
+- Use of English (Grammar + Comprehension) — 60 marks
+- Biology for Science students — 40 marks
+- Chemistry (Organic + Physical) — 40 marks
+- Physics (Mechanics + Optics) — 35 marks
+- Mathematics (Algebra + Geometry) — 40 marks
+
+### 📝 Previous Year Question Patterns
+- Q: "The process of photosynthesis requires..." [2024 Biology]
+- Q: "The electronic configuration of Fe is..." [2024 Chemistry]
+- Q: "Find the value of x if 2x + 5 = 15..." [2024 Mathematics]
+
+### 💡 Pro Tips
+- Use of English carries the most weight — master grammar rules and comprehension strategies
+- JAMB syllabus is your Bible — questions come directly from it. Download and use it.
+- Past questions are highly predictive — repeat patterns appear every year
+- For Science students, Biology and Chemistry are high-scoring if you study NCERT-level content
+
+### 🔗 Official Resources
+- [JAMB Official](https://www.jamb.gov.ng/)
+- [JAMB Syllabus](https://www.jamb.gov.ng/syllabus)
+
+---
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

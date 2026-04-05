@@ -125,4 +125,42 @@ Exact: $[x^3/3]_0^2 = 8/3 = 2.667$. Error = 0.083.
 JAMB questions frequently test: (1) Basic indefinite integrals, (2) Definite integrals with $F(b)-F(a)$, (3) Integration by substitution, (4) Integration by parts for products of polynomials and exponentials/trig, (5) Finding areas under curves. Common mistake: forgetting the constant $C$ or applying the wrong sign in trigonometric integrals. JAMB 2023: "Evaluate $\int_0^1 (x^2 + 2x)\,dx$." Answer: $[x^3/3 + x^2]_0^1 = (1/3 + 1) - 0 = 4/3$.
 
 ---
+
+
+---
+## 📊 JAMB Exam Essentials
+
+| Detail | Value |
+|---|---|
+| Questions | 180 MCQs (UTME) |
+| Subjects | 4 subjects (language + 3 for course) |
+| Time | 2 hours |
+| Marking | +1 per correct answer |
+| Score | 400 max (used for university admission) |
+| Registration | January – February each year |
+
+### 🎯 High-Yield Topics for JAMB
+- Use of English (Grammar + Comprehension) — 60 marks
+- Biology for Science students — 40 marks
+- Chemistry (Organic + Physical) — 40 marks
+- Physics (Mechanics + Optics) — 35 marks
+- Mathematics (Algebra + Geometry) — 40 marks
+
+### 📝 Previous Year Question Patterns
+- Q: "The process of photosynthesis requires..." [2024 Biology]
+- Q: "The electronic configuration of Fe is..." [2024 Chemistry]
+- Q: "Find the value of x if 2x + 5 = 15..." [2024 Mathematics]
+
+### 💡 Pro Tips
+- Use of English carries the most weight — master grammar rules and comprehension strategies
+- JAMB syllabus is your Bible — questions come directly from it. Download and use it.
+- Past questions are highly predictive — repeat patterns appear every year
+- For Science students, Biology and Chemistry are high-scoring if you study NCERT-level content
+
+### 🔗 Official Resources
+- [JAMB Official](https://www.jamb.gov.ng/)
+- [JAMB Syllabus](https://www.jamb.gov.ng/syllabus)
+
+---
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

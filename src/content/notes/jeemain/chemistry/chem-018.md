@@ -77,4 +77,43 @@ Let's craft a 220-word prose: Should be concise but cover the topics.
 
 Paragraph: introduction to f-block, electronic configuration, lanthanide series, actinide series. Discuss common oxidation states (+3, +4, +5, +6). Lanthanide contraction explanation: decrease in ionic radii from La³⁺ to Lu³⁺ leads to similarity in chemical properties. Discuss separation methods: solvent extraction, ion exchange, based on small differences in basicity. Provide solved example: "Calculate magnetic moment of Gd³⁺ (4f⁷) using μ = √(n(n+2))". Show n = 7, μ = √(7*9) = √63 ≈ 7.94 BM. Also "Given Ce³⁺ (4f¹) and Yb³⁺ (4f¹³), which has larger ionic radius? Ce³⁺ because fewer f electrons shield less effective nuclear charge". Provide example of using lanthanide contraction to predict solubility: "Because radii decrease, hydroxides become less soluble
 </think>
+
+
+---
+## 📊 JEE Main Exam Essentials
+
+| Detail | Value |
+|---|---|
+| Questions | 90 (30 per subject) |
+| Sections | Physics, Chemistry, Mathematics |
+| Type | MCQ + Numerical Value (NAT) |
+| Time | 3 hours |
+| Marking | +4 correct, −1 wrong (MCQ); +4 correct, 0 wrong (NAT) |
+| Sessions | January + April per year; best score considered |
+
+### 🎯 High-Yield Topics for JEE Main
+- Coordination Compounds — 8 marks
+- Organic Reactions & Mechanisms — 12 marks
+- Electrochemistry + Kinetics — 12 marks
+- Determinants & Matrices — 10 marks
+- Integration (Definite + Indefinite) — 15 marks
+- Electrodynamics (Capacitance + Current) — 12 marks
+
+### 📝 Previous Year Question Patterns
+- Q: "Find the area bounded by the curve y = ..." [2025 Math — 4 marks NAT]
+- Q: "The electrons in a multi-electron atom are removed..." [2025 Chemistry — 3 marks]
+- Q: "A particle of mass m is projected with velocity v at angle θ..." [2025 Physics — 4 marks]
+
+### 💡 Pro Tips
+- Mathematics is the highest-scoring subject for students who master it — target 100+ in Math
+- In Physics, Alternating Current and EM Waves are easiest to score — rarely out of syllabus
+- Organic Chemistry: questions on name reactions (Kolbe electrolysis, Hofmann, etc.) appear every year
+- Coordinate Geometry: 60% of JEE Main geometry questions come from Circle + Parabola + Ellipse
+
+### 🔗 Official Resources
+- [NTA JEE Main](https://jeemain.nta.nic.in/)
+- [JEE Main Syllabus](https://www.nta.ac.in/JEEMAIN)
+
+---
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

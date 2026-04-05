@@ -853,3 +853,33 @@ Exam hub pages were using the Layout default (`/og-image.jpg`) instead of exam-s
 
 **Commit:** d38a304 — clean git state, no uncommitted changes
 
+
+## Research Findings — 2026-04-05 18:24 UTC
+
+### 🔴 Critical Fixed
+- **Sitemap 404 entries** — 7 exam URLs in sitemap had no corresponding generated page (returning 404s):
+  - `gre`, `ast`, `sathe`, `uaeu-cat` — exams with .ts data files but not in ALL_EXAMS (no page generated)
+  - `uAeu-cat` — case variant of uaeu-cat (duplicate)
+  - `%E5%B8%96ast` — garbled/corrupt examId in data file
+  - `<` — malformed entry from garbled data
+- **Root cause**: `fix-sitemap.cjs` scanned ALL `src/data/exams/*.ts` files for `examId`, but Astro only generates pages for exams in the `ALL_EXAMS` index. Orphaned data files leaked into the sitemap.
+- **Fix applied**: Modified `fix-sitemap.cjs` to:
+  1. Check `dist/exams/` to build a set of actually-generated exam pages
+  2. Only add new exam URLs if their page was actually generated
+  3. Remove existing broken exam entries from the sitemap
+  4. Also added a Python cleanup step for the malformed `<` entry
+- **Result**: Sitemap now has exactly 125 exam URLs, all matching actual `dist/exams/` directories. Build post-hook confirms: "Removed 4 broken exam entries from sitemap."
+
+### ✅ Site Health
+- Homepage: HTTP 200 ✅
+- /exams/: HTTP 200 ✅
+- /exams/neet/: HTTP 200 ✅
+- /notes/neet/: HTTP 200 ✅
+- FAQPage schema: present ✅
+- Build: successful ✅
+- Git push: successful ✅
+
+### 📋 Backlog Status
+- Most SEO work complete
+- Remaining items need external inputs (GSC access, AdSense/Bing codes)
+- No new quick wins found — site is in good shape

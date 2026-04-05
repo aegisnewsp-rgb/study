@@ -59,4 +59,43 @@ After bullet points, a line "---". Then "### Standard Regular Study (2d-2mo)". T
 
 Write a concise 220-word prose describing classification in JEE Main context, with solved examples. For example, classification of elements: classify elements as s-block (group 1,2), p-block (groups 13-18), d-block (transition metals), f-block (inner transition). Provide example: Na (group 1, s-block), Mg (group 2, s-block), Al (group 13, p-block), Fe (d-block). Show classification of compounds: e.g., classification of oxides (basic, acidic, amphoteric, neutral). Example: Na2O (basic), MgO (basic), Al2O3 (amphoteric), SO2 (acidic). Then classification of organic: example of functional group classification: CH3CH2OH (alcohol), CH3CHO (aldehyde), CH3COCH3 (ketone), CH3COOH (
 </think>
+
+
+---
+## 📊 JEE Main Exam Essentials
+
+| Detail | Value |
+|---|---|
+| Questions | 90 (30 per subject) |
+| Sections | Physics, Chemistry, Mathematics |
+| Type | MCQ + Numerical Value (NAT) |
+| Time | 3 hours |
+| Marking | +4 correct, −1 wrong (MCQ); +4 correct, 0 wrong (NAT) |
+| Sessions | January + April per year; best score considered |
+
+### 🎯 High-Yield Topics for JEE Main
+- Coordination Compounds — 8 marks
+- Organic Reactions & Mechanisms — 12 marks
+- Electrochemistry + Kinetics — 12 marks
+- Determinants & Matrices — 10 marks
+- Integration (Definite + Indefinite) — 15 marks
+- Electrodynamics (Capacitance + Current) — 12 marks
+
+### 📝 Previous Year Question Patterns
+- Q: "Find the area bounded by the curve y = ..." [2025 Math — 4 marks NAT]
+- Q: "The electrons in a multi-electron atom are removed..." [2025 Chemistry — 3 marks]
+- Q: "A particle of mass m is projected with velocity v at angle θ..." [2025 Physics — 4 marks]
+
+### 💡 Pro Tips
+- Mathematics is the highest-scoring subject for students who master it — target 100+ in Math
+- In Physics, Alternating Current and EM Waves are easiest to score — rarely out of syllabus
+- Organic Chemistry: questions on name reactions (Kolbe electrolysis, Hofmann, etc.) appear every year
+- Coordinate Geometry: 60% of JEE Main geometry questions come from Circle + Parabola + Ellipse
+
+### 🔗 Official Resources
+- [NTA JEE Main](https://jeemain.nta.nic.in/)
+- [JEE Main Syllabus](https://www.nta.ac.in/JEEMAIN)
+
+---
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

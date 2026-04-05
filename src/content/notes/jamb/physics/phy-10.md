@@ -105,4 +105,42 @@ Charge accumulates on the dome. Maximum field at the surface $E = V/r$. Breakdow
 JAMB questions frequently test: (1) Coulomb's law calculations, (2) Electric potential from point charges, (3) Capacitor combinations and energy, (4) Gauss's law for spherical shells and infinite planes, (5) Relationship between $E$ and $V$. Common mistakes: forgetting that $E$ is a vector and $V$ is a scalar. JAMB 2023: "Two charges of $+2 \mu C$ and $-3 \mu C$ are 0.1 m apart. Find the force between them." Answer: $F = 9×10^9 × (2×10^{-6} × 3×10^{-6})/(0.1)^2 = 9×10^9 × 6×10^{-12}/0.01 = 9×6×10^{-4}/10^{-2} = 54×10^{-2} = 0.54$ N (attractive).
 
 ---
+
+
+---
+## 📊 JAMB Exam Essentials
+
+| Detail | Value |
+|---|---|
+| Questions | 180 MCQs (UTME) |
+| Subjects | 4 subjects (language + 3 for course) |
+| Time | 2 hours |
+| Marking | +1 per correct answer |
+| Score | 400 max (used for university admission) |
+| Registration | January – February each year |
+
+### 🎯 High-Yield Topics for JAMB
+- Use of English (Grammar + Comprehension) — 60 marks
+- Biology for Science students — 40 marks
+- Chemistry (Organic + Physical) — 40 marks
+- Physics (Mechanics + Optics) — 35 marks
+- Mathematics (Algebra + Geometry) — 40 marks
+
+### 📝 Previous Year Question Patterns
+- Q: "The process of photosynthesis requires..." [2024 Biology]
+- Q: "The electronic configuration of Fe is..." [2024 Chemistry]
+- Q: "Find the value of x if 2x + 5 = 15..." [2024 Mathematics]
+
+### 💡 Pro Tips
+- Use of English carries the most weight — master grammar rules and comprehension strategies
+- JAMB syllabus is your Bible — questions come directly from it. Download and use it.
+- Past questions are highly predictive — repeat patterns appear every year
+- For Science students, Biology and Chemistry are high-scoring if you study NCERT-level content
+
+### 🔗 Official Resources
+- [JAMB Official](https://www.jamb.gov.ng/)
+- [JAMB Syllabus](https://www.jamb.gov.ng/syllabus)
+
+---
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

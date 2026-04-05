@@ -139,4 +139,42 @@ If two similar figures have corresponding lengths in ratio $k:1$, then:
 JAMB questions frequently test: (1) Pythagoras' theorem applications, (2) Angle properties of parallel lines, (3) Similar triangle ratio problems, (4) Circle geometry theorems (especially angle at circumference from diameter), (5) Sum of interior/exterior angles of polygons. Common error: confusing the condition for similarity vs congruence. Similar triangles have equal angles but may differ in size; congruent triangles are identical in every way. JAMB 2023: "The angles of a triangle are in the ratio 2:3:4. Find the largest angle." Answer: $4/(2+3+4) \times 180° = 4/9 \times 180° = 80°$.
 
 ---
+
+
+---
+## 📊 JAMB Exam Essentials
+
+| Detail | Value |
+|---|---|
+| Questions | 180 MCQs (UTME) |
+| Subjects | 4 subjects (language + 3 for course) |
+| Time | 2 hours |
+| Marking | +1 per correct answer |
+| Score | 400 max (used for university admission) |
+| Registration | January – February each year |
+
+### 🎯 High-Yield Topics for JAMB
+- Use of English (Grammar + Comprehension) — 60 marks
+- Biology for Science students — 40 marks
+- Chemistry (Organic + Physical) — 40 marks
+- Physics (Mechanics + Optics) — 35 marks
+- Mathematics (Algebra + Geometry) — 40 marks
+
+### 📝 Previous Year Question Patterns
+- Q: "The process of photosynthesis requires..." [2024 Biology]
+- Q: "The electronic configuration of Fe is..." [2024 Chemistry]
+- Q: "Find the value of x if 2x + 5 = 15..." [2024 Mathematics]
+
+### 💡 Pro Tips
+- Use of English carries the most weight — master grammar rules and comprehension strategies
+- JAMB syllabus is your Bible — questions come directly from it. Download and use it.
+- Past questions are highly predictive — repeat patterns appear every year
+- For Science students, Biology and Chemistry are high-scoring if you study NCERT-level content
+
+### 🔗 Official Resources
+- [JAMB Official](https://www.jamb.gov.ng/)
+- [JAMB Syllabus](https://www.jamb.gov.ng/syllabus)
+
+---
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

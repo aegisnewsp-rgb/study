@@ -33,6 +33,18 @@ function scanDir(dir) {
 scanDir(examsBase);
 examIds = [...new Set(examIds)];
 
+// Only include exam IDs that actually have a generated page in dist/exams/
+// (exams may have .ts data files but not be in ALL_EXAMS, so no page is generated)
+const distExamsBase = path.join(__dirname, '..', 'dist', 'exams');
+const generatedExamIds = new Set();
+if (fs.existsSync(distExamsBase)) {
+  for (const dir of fs.readdirSync(distExamsBase, { withFileTypes: true })) {
+    if (dir.isDirectory()) {
+      generatedExamIds.add(dir.name.toLowerCase());
+    }
+  }
+}
+
 if (examIds.length === 0) {
   console.log('Could not extract exam IDs from source, skipping');
   process.exit(0);
@@ -44,7 +56,24 @@ const BASE_URL = 'https://studyroadmap.in';
 // Read raw sitemap
 let sitemap = fs.readFileSync(sitemapPath, 'utf8');
 
-// STEP 1: Remove any malformed exam entries that appear AFTER the closing </urlset>
+// STEP 0: Remove existing sitemap entries for exam pages that were never generated (404s)
+const brokenUrls = [];
+for (const id of examIds) {
+  if (!generatedExamIds.has(id)) {
+    brokenUrls.push(`${BASE_URL}/exams/${id}/`);
+  }
+}
+if (brokenUrls.length > 0) {
+  // Remove <url> blocks whose <loc> matches a broken URL
+  sitemap = sitemap.replace(/<url>[\s\S]*?<loc>[^<]*<\/loc>[\s\S]*?<\/url>/g, (match) => {
+    const locMatch = match.match(/<loc>([^<]+)<\/loc>/);
+    if (locMatch && brokenUrls.includes(locMatch[1])) {
+      return '';  // remove this entry
+    }
+    return match;
+  });
+  console.log(`Removed ${brokenUrls.length} broken exam entries from sitemap (no generated page): ${brokenUrls.join(', ')}`);
+}
 // (these were appended by older buggy versions of this script)
 const closingTag = '</urlset>';
 const lastClosingIndex = sitemap.lastIndexOf(closingTag);
@@ -81,13 +110,14 @@ if (lastIdx === -1) {
 
 const newExamUrls = examIds
   .filter(id => !existingUrls.has(`${BASE_URL}/exams/${id}/`))
+  .filter(id => generatedExamIds.has(id))  // only include if page was actually generated
   .map(id => `<url><loc>${BASE_URL}/exams/${id}/</loc><lastmod>${today}</lastmod></url>`);
 
 if (newExamUrls.length === 0) {
-  console.log(`All ${examIds.length} exam pages already in sitemap`);
+  console.log(`All ${generatedExamIds.size} generated exam pages already in sitemap (${examIds.length} total data files found)`);
   process.exit(0);
 }
 
 const newSitemap = sitemap.slice(0, lastIdx) + newExamUrls.join('') + '\n' + closingTag;
 fs.writeFileSync(sitemapPath, newSitemap);
-console.log(`Added ${newExamUrls.length} exam pages to sitemap (${examIds.length} total exams known)`);
+console.log(`Added ${newExamUrls.length} exam pages to sitemap (${generatedExamIds.size} generated, ${examIds.length} total data files)`);

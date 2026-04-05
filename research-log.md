@@ -1550,3 +1550,24 @@ Site is in good shape. Deploy service needs manual restart to push committed hre
 - AdSense integration
 - Formspree feedback form ID
 
+
+## Research Run 6 | 2026-04-05 01:24 UTC
+
+### Site Status
+- Homepage: 200 ✅ | title ✅ | meta desc ✅ | FAQPage 15 Qs ✅
+- /exams/: 200 ✅ | title ✅ | meta desc ✅ | FAQPage 6 Qs ✅
+- /notes/neet/: 200 ✅ | title ✅ | meta desc ✅
+- /notes/neet/physics/: 200 ✅ | title ✅ | meta desc ✅ | FAQPage 4 Qs ✅
+- Static assets: og-image.svg ✅, favicon.svg ✅, robots.txt ✅
+
+### News
+- 10 items saved to public/news.json ✅
+- India: 4, Pakistan: 2, Nigeria: 4 (810 new items deduplicated)
+
+### Findings
+- All major SEO work complete — no structural/schema issues found
+- Site healthy and fully deployed (3,346 pages)
+- GSC verification still pending user input (placeholder in Layout.astro)
+- AdSense integration pending user account + code
+- Deploy service crashes after each deploy (systemd Type=oneshot + Restart=no — needs user SSH fix)
+- No code changes needed this cycle — monitoring mode

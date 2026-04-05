@@ -21,22 +21,40 @@ diagramPrompt: Clear scientific diagram of Alkyl Halides and Alcohols with atom 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Alkyl Halides and Alcohols** — Key Facts for NEET/JEE
-Definition and structure: Know the basic structure and functional groups involved
-Key reactions: Most probable reaction pathways for exam questions
-Nomenclature: IUPAC naming conventions for this class of compounds
-⚡ Exam tip: In organic chemistry, mechanism is queen — understand electron movement (curly arrows)
+**Alkyl Halides and Alcohols** — Key Facts
+Alkyl halides: R-X where X = F, Cl, Br, I (functional group: carbon-halogen bond)
+Classification: primary (1°) — X attached to C with 1 R group; secondary (2°) — 2 R groups; tertiary (3°) — 3 R groups
+Alcohols: R-OH; classification same as alkyl halides
+IUPAC: alkyl halides = haloalkane (e.g., 2-bromopropane = CH₃CHBrCH₃); alcohols = alkanol (e.g., ethanol = C₂H₅OH)
+⚡ Exam tip: SN2 rate order: methyl > 1° > 2° > 3° (steric hindrance); SN1 rate order: 3° > 2° > 1° > methyl
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Alkyl Halides and Alcohols** — Chemistry Study Guide
-Structure and bonding: Hybridisation, shape, and bond length
-Preparation methods: How to synthesise this compound in lab
-Reactions: Addition, substitution, elimination, oxidation — which applies here?
-Electronic effects: Inductive and resonance effects operating in this molecule
+**Alkyl Halides and Alcohols** — JAMB Chemistry Study Guide
+
+**Alkyl halide reactions:**
+- Nucleophilic substitution: $R-X + OH^- \rightarrow R-OH + X^-$ (hydrolysis)
+- Elimination (E2): with strong base, forms alkene; reactivity: 3° > 2° > 1°
+- Reaction with NaOH/aq KOH: gives alcohol; with alcoholic KOH: gives alkene (dehydrohalogenation)
+- Grignard formation: $R-X + Mg \xrightarrow{dry\ ether} R-Mg-X$ (organomagnesium compound)
+
+**Alcohol reactions:**
+- Combustion: $C_2H_5OH + 3O_2 \rightarrow 2CO_2 + 3H_2O$ (complete)
+- Dehydration: $conc\ H_2SO_4, 170°C \rightarrow alkene$; $conc\ H_2SO_4, 140°C \rightarrow ether$
+- Oxidation: $RCH_2OH \xrightarrow{[O]} RCHO \xrightarrow{[O]} RCOOH$ (primary); $R_2CHOH \xrightarrow{[O]} ketone$ (secondary); tertiary alcohol resists oxidation
+- Esterification: $RCOOH + R'OH \rightleftharpoons RCOOR' + H_2O$
+
+**Comparisons:**
+| Property | CH₃Cl | CH₃Br | CH₃I |
+|---------|-------|-------|-------|
+| Boiling point (°C) | -24 | 4 | 43 |
+| Reason | Smallest MP, weakest London | Larger, stronger LDF | Largest MP, strongest LDF |
+| Polarity (C-X) | Most polar | Less | Least |
+
+Common student mistakes: Confusing SN1 and SN2 mechanisms and their conditions; forgetting that tertiary alkyl halides undergo SN1 (carbocation intermediate) while primary undergoes SN2; not knowing why alcoholic KOH promotes elimination while aqueous KOH promotes substitution.
 
 ---
 
@@ -44,11 +62,41 @@ Electronic effects: Inductive and resonance effects operating in this molecule
 > Comprehensive coverage for students on a longer study timeline.
 
 **Alkyl Halides and Alcohols** — Comprehensive Chemistry Notes
-Detailed mechanism: Step-by-step electron movement, intermediate stability
-Stereochemistry: R/S, E/Z if applicable, racemic mixtures if relevant
-Synthetic applications: Multi-step synthesis where this compound appears as intermediate
-Environmental/biological significance: Role in nature or industry
-Comparative study: How does this differ from similar compounds in the homologous series
+
+**SN1 mechanism (unimolecular nucleophilic substitution):**
+Two-step process for tertiary alkyl halides:
+Step 1 (slow, rate-determining): $R_3C-X \rightarrow R_3C^+ + X^-$ (carbocation formation)
+Step 2 (fast): $R_3C^+ + OH^- \rightarrow R_3C-OH$
+Characteristics: rate depends only on alkyl halide (first order); intermediate is planar carbocation; racemisation occurs at stereocentre.
+
+**SN2 mechanism (bimolecular nucleophilic substitution):**
+One-step concerted process for methyl and primary alkyl halides:
+Backside attack of nucleophile; transition state has pentavalent carbon; Walden inversion occurs (stereochemistry inverts).
+Characteristics: rate depends on both alkyl halide and nucleophile (second order); no intermediate; stereochemistry inverts.
+
+**E1 mechanism (unimolecular elimination):**
+Similar to SN1 but base removes H⁺ from adjacent carbon; carbocation intermediate; common for tertiary alkyl halides with weak base/heating.
+
+**E2 mechanism (bimolecular elimination):**
+One-step concerted: base abstracts H⁺ while leaving group departs simultaneously; anti-periplanar geometry preferred; common for secondary/tertiary with strong base.
+
+**Oxidation of alcohols — detail:**
+Primary alcohol → aldehyde → carboxylic acid:
+$CH_3CH_2OH \xrightarrow{K_2Cr_2O_7/H_2SO_4} CH_3CHO \xrightarrow[K_2Cr_2O_7/H_2SO_4]{} CH_3COOH$
+Note: to stop at aldehyde, use PCC (pyridinium chlorochromate) or pyridine/CrO₃ instead of acidic dichromate.
+Secondary alcohol → ketone:
+$(CH_3)_2CHOH \xrightarrow{K_2Cr_2O_7/H_2SO_4} (CH_3)_2C=O$
+Tertiary alcohol → no reaction under mild oxidation (must break C-C bonds).
+
+**Polyhalogenated compounds:**
+Chloroform ($CHCl_3$): anaesthetic; decomposes in light to produce phosgene ($COCl_2$); stored in dark bottles with ethanol.
+Carbon tetrachloride ($CCl_4$): historically used as cleaning solvent; toxic to liver and kidneys; freons (CFCs) used as refrigerants (destroy ozone layer).
+
+**JAMB exam patterns:**
+- 2022 JAMB: 2-bromopropane reacts with alcoholic KOH; name the major product
+- 2021 JAMB: Which of CH₃OH, C₂H₅OH, and C₃H₇OH will oxidise to a carboxylic acid?
+- 2020 JAMB: Explain why tertiary butyl bromide undergoes hydrolysis mainly by SN1 mechanism
+- 2019 JAMB: Write equation for reaction between ethyl bromide and aqueous sodium hydroxide
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

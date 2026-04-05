@@ -1105,3 +1105,40 @@ sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
 2. GSC verification code → replace `YOUR_VERIFICATION_CODE_HERE` in Layout.astro
 3. AdSense integration (needs approved account + code)
 4. Formspree feedback form ID → replace `REPLACE_WITH_FORMSPREE_ID` in feedback.astro
+
+## Research Run — 2026-04-05 00:07 UTC
+
+### Site Status
+- Homepage: 200 ✅ (live, "80+" in title — workspace has "125+" fix pending deploy)
+- /exams/neet/: 200 ✅ — FAQPage (5 Qs) + HowTo + BreadcrumbList confirmed ✅
+- /notes/: 200 ✅ — FAQPage + BreadcrumbList + CollectionPage confirmed ✅
+- /notes/neet/: 200 ✅ — FAQPage (5 NEET-specific Qs) + CollectionPage + BreadcrumbList ✅
+- News: 10 items ✅ (India:4, Pakistan:4, Nigeria:2 — just refreshed)
+- Deploy service: ⚠️ DOWN — Astro dev server dead inside container (same recurring issue)
+- Git: committed ✅
+
+### Key Finding: Deploy service recurring crash — workspace changes not reaching production
+- Workspace index.astro has "125+" everywhere ✅
+- Live site homepage title still shows "80+" ❌
+- Organization schema on all pages still says "80+" ❌
+- Root cause: Astro dev server (port 4321) dying inside container; nginx (port 80/443) alive but serving stale built assets
+- Same root cause as Cycles 106-107: Type=oneshot + Restart=no systemd service dies after each deploy
+- Deploy fix still pending user SSH (commands documented in prior runs)
+
+### 🟡 Important (fix when deploy available)
+- Production still serving "80+" exam count — workspace fix for homepage title and Organization schema ready but undeployed
+- All 123 individual /exams/[exam] pages are live with FAQPage + HowTo schemas ✅
+- llm.txt still needs checking: last run noted it was updated to "125+" but live site wasn't re-deployed
+
+### ✅ Completed This Run
+- News refresh: 10 items ✅ (814 items deduplicated → India:4, Pakistan:4, Nigeria:2)
+- Commit: research-log.md updated ✅
+- Site audit: 3 key pages structurally healthy ✅
+
+### 🚫 No code change — deploy blocked
+Deploy service needs user SSH fix (same as prior runs):
+```bash
+sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service
+sudo sed -i 's/Restart=no/Restart=always/' /etc/systemd/system/studyroadmap-deploy.service
+sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
+```

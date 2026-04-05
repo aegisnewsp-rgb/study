@@ -2599,3 +2599,31 @@ sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
 ### No code changes this cycle
 - All SEO checks pass — sitemap healthy, OG tags correct, structured data valid
 - Mystery proxy injection is infrastructure-level, not code-level
+
+---
+
+## Cycle 110 — 2026-04-05 04:41 UTC
+
+**Site Status:** Healthy — all key SEO elements present on homepage, exam page, notes page
+- Homepage: ✅ title, description, WebSite schema, FAQPage, Organization, breadcrumbs
+- /exams/neet: ✅ title, description, FAQPage (3 Qs), HowTo, BreadcrumbList
+- /notes/neet/physics/phy-001: ✅ title, description, noindex check passed
+
+**Critical Issue Found:** Sitemap missing high-value non-notes pages
+- `sitemap-0.xml` only contains notes pages + /privacy/, /roadmap/, /terms/
+- Missing: `/` (homepage), `/about/`, `/contact/`, `/feedback/`, `/exams/`, and 17 exam hub pages
+- Root cause: commit `b2a4cf9` added these as `customPages` in `astro.config.mjs` but site was never rebuilt/deployed
+- The `customPages` array is correctly configured with 20 high-value URLs
+
+**Action Taken:**
+- Pushed current `studyroadmap-astro` branch to `aegis-news/study.git` to trigger GitHub Actions Build & Deploy workflow
+- This will rebuild the site and regenerate `sitemap-0.xml` with all `customPages` included
+- Estimated deploy time: 5-10 minutes
+
+**Note:** Sitemap will then include: homepage, about, contact, feedback, /exams/ hub, and exam-specific hub pages (neet, jeemain, jeeadvanced, upsc, ssc-cgl, cat, gate, clat, nda, ibps-po, sbi-po, fmge, mdcat, jamb, waec)
+
+**Backlog items still pending:**
+- Speed optimization (lazy loading, image compression)
+- Lighthouse score improvements
+- Internal linking strategy enhancement
+- Rich results for more exam pages (expand beyond NEET)

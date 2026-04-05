@@ -1442,3 +1442,53 @@ sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
 ### No changes — deploy blocked
 - Workspace has correct "April 2026" footer + "125+" titles but can't reach production
 - Commit: news refresh only (55eb1c2 already current)
+
+## Research Run — 2026-04-05 00:58 UTC | Cycle 109
+
+### 🔴 Critical (fix immediately)
+- None — site SEO fully optimized; deploy blocked by backend service
+
+### 🟡 Important (fix this cycle)
+- Fixed: hardcoded "30 other countries" → 16 in ItemList schema on /exams/
+  - Site covers India, Pakistan, Nigeria + 16 other regions = 19 total (not 30)
+  - Also: llm.txt date updated to 2026-04-05
+
+### 🟢 Quick Wins (easy improvements)
+- ✅ Fixed factual inaccuracy in ItemList description: `Browse ${ALL_EXAMS.length} competitive exams from India, Pakistan, Nigeria, and 16 other countries.` (was "30 other countries")
+- ✅ llm.txt date bumped to 2026-04-05
+
+### ✅ Completed This Run
+- **Commit:** 49aa367 — "Fix hardcoded '30 other countries' → 16 in exams page ItemList schema"
+- llm.txt date: updated from 2026-04-04 → 2026-04-05
+
+### Deploy Status
+- Site: ✅ live at studyroadmap.in
+- Deploy service: ⚠️ DOWN — port 9000 404 (backend died; Type=oneshot needs fix)
+- News: ✅ 10 items fresh
+- GitHub: ✅ pushed (49aa367)
+
+### Remaining (user-gated)
+- GSC verification code (placeholder `YOUR_VERIFICATION_CODE_HERE`)
+- Bing verification code (`BING_VERIFICATION_CODE`)
+- Docker restart policy fix (needs SSH)
+- AdSense integration (needs account)
+- Formspree ID for contact form
+
+
+## 2026-04-05 — Cycle 2026-04-05T01:12:00Z
+
+**Pages checked:** Homepage, /exams/neet/, /notes/ — all healthy
+**Sitemap:** 3345 URLs confirmed live
+**Robots.txt:** Properly configured with AI training blocks + citation allows
+
+### Findings
+- **Meta/structure**: All 3 pages have proper OG tags, Twitter cards, canonical URLs, FAQPage schema (homepage has 15 FAQs, NEET exam page has 3 specific FAQs), HowTo schema, BreadcrumbList schema
+- **Sitemap**: No `<lastmod>` tags — `@astrojs/sitemap` generates entries without lastmod by default; would need custom integration to add (low priority, content is static)
+- **GSC verification**: Still placeholder `YOUR_VERIFICATION_CODE_HERE` — user-gated
+- **Deploy status**: Deploy service is Type=oneshot, keeps dying; hreflang + Twitter App meta committed but not live
+
+### Opportunity identified
+Exam pages (e.g., /exams/neet/) pass `examSpecificFAQs` to the HTML FAQ section but do NOT pass `faqs` prop to `<Layout>`. The Layout.astro supports `faqs` prop which adds FAQPage JSON-LD *and* renders a structured FAQ section. Currently the exam page injects `faqJsonLd` directly as a script tag instead of using the Layout's `faqs` prop. Both approaches work for JSON-LD, but using the Layout's prop would be cleaner architecture. **No functional issue detected — FAQPage JSON-LD is present and correct on exam pages.**
+
+### No change made this cycle
+Site is in good shape. Deploy service needs manual restart to push committed hreflang work live.

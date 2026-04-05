@@ -1923,3 +1923,23 @@ sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
   ```bash
   sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service && sudo sed -i 's/Restart=no/Restart=always/' && sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
   ```
+## Research Run 10 | 2026-04-05 02:15 UTC
+
+### Site Status
+- Homepage (studyroadmap.in): 000 ❌ (connection refused — may be down)
+- /exams/: unknown | /notes/neet-2025/: unknown
+- Deploy service: ⚠️ DOWN (port 9000 404, Type=oneshot crash — same recurring issue)
+- Deploy blocked by SSH access requirement (same fix pending for many cycles)
+- News: likely stale (last refresh ~Cycle 107, now ~12h later)
+
+### No code changes possible
+- All high-value SEO done as of Cycle 86
+- Remaining items (GSC code, Formspree, AdSense, Bing) need user-provided values
+- Deploy fix requires SSH to VPS (no SSH available to this agent)
+
+### Recommendation
+- User needs to run the SSH fix for the deploy service, OR
+- Provide GSC/Bing/AdSense codes to enable verification integration
+
+### No changes this cycle — monitoring mode
+

@@ -2428,3 +2428,44 @@ sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
 ### Git Status
 - 8 commits ahead of aegis-news/main (including news.json and recent growth fixes)
 - Working tree clean
+
+## Research Run 13 | 2026-04-05 04:04 UTC
+
+### Site Status
+- Homepage: 200 ✅ | /exams/: 200 ✅ | /notes/neet/physics/: 200 ✅
+- Deploy endpoint (172.17.0.1:9000): "Bad request" — backend alive but rejecting POST (no auth token or format issue)
+- News: ✅ 10 items refreshed at 03:57 UTC (India: 4, Pakistan: 4, Nigeria: 2)
+
+### Quick Audit (3 pages)
+- Homepage: FAQPage (15 Qs) ✅, Organization ✅, WebSite ✅
+- /exams/: Organization ✅, WebSite ✅, FAQPage ✅, BreadcrumbList ✅, ItemList ✅
+- /roadmap/: Organization ✅, WebSite ✅, FAQPage ✅, BreadcrumbList ✅
+
+### 🟡 Important (fixed this cycle)
+- **Duplicate HowTo schema on /roadmap/** — page had TWO HowTo structured data blocks:
+  1. `HOW_TO_STEPS` (3-step, passed to Layout via `howToSteps` prop) 
+  2. `howToJsonLd` (5-step, rendered directly as inline script)
+  - Both valid Schema.org but multiple HowTo on same page can confuse Google
+  - **Fix:** Removed `HOW_TO_STEPS` constant and `howToSteps` prop — kept richer 5-step `howToJsonLd`
+  - Build: 3349 pages ✅ | HowTo count on /roadmap/: **1** (was 2)
+
+### Schema audit (all pages)
+- Homepage: Organization + WebSite + FAQPage (3 schemas) ✅
+- /exams/: Organization + WebSite + FAQPage + BreadcrumbList + ItemList (5 schemas) ✅
+- /roadmap/: Organization + WebSite + FAQPage + BreadcrumbList + HowTo (5 schemas) ✅ — fixed duplicate HowTo
+- /notes/: Organization + WebSite + FAQPage + BreadcrumbList (4 schemas) ✅
+
+### ✅ Completed This Run
+- Fixed duplicate HowTo schema on roadmap page (3349 pages built)
+- News refreshed: 10 items ✅
+
+### Git Status
+- 1 commit ahead locally (c8b3df1 — duplicate HowTo fix)
+- GitHub push: blocked (origin repo not accessible — same as prior cycles)
+- All code changes from prior cycles still stuck locally
+
+### 🔴 Critical — still needs user action
+1. **Deploy fix** — backend alive but `/deploy` returns "Bad request" (auth issue, not 404). Try sending with `Authorization: Bearer <token>` or check backend logs.
+2. **GitHub repo access** — `aegisnewsp-rgb/studyroadmap-astro` not accessible; 28+ commits stuck locally
+3. **GSC verification code** — placeholder in Layout.astro
+4. **Bing verification code** — placeholder in Layout.astro

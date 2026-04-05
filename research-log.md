@@ -513,3 +513,24 @@ Exam hub pages were using the Layout default (`/og-image.jpg`) instead of exam-s
 - Commit: a34cfe0 "Fix corrupted news.json"
 - Deploy: BLOCKED (backend Type=oneshot — user SSH needed)
 - GitHub push: BLOCKED (repo 404, token can't create repos)
+
+## Research Findings — 2026-04-05 12:42 UTC
+
+### 🔴 Critical (fix immediately)
+- None — site healthy, news fresh (10 items)
+
+### 🟡 Important (fix this cycle)
+- Deploy service still blocked (Type=oneshot — user SSH needed, unchanged)
+- GitHub push blocked (repo/token issue, unchanged)
+
+### 🟢 Quick Wins (easy improvements)
+- Committed 12 files of content quality rewrites (NEET/WAEC physics notes — prose improvement over bullet points)
+- Site: all key pages OK | News 10 items ✅ | Sitemap healthy ✅
+
+### 📊 Traffic Opportunities
+- All major SEO infrastructure complete (FAQPage, HowTo, BreadcrumbList, ItemList, OG images, sitemaps)
+- Pending user action: GSC verification, AdSense, Formspree ID, SSH deploy fix
+
+### ✅ Completed This Run
+- Committed 12 files (NEET physics: 3 files; WAEC physics: 6 files) — prose rewrites replacing sparse bullet content
+- Commit: 8d7669e "Content quality batch: rewrite NEET/WAEC physics notes with structured prose"

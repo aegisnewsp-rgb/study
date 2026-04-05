@@ -328,3 +328,13 @@ Exam hub pages were using the Layout default (`/og-image.jpg`) instead of exam-s
 - News: 10 items ✅ (JEE success story, UPSC 2026, JEE topper — India-focused)
 - No changes needed — all automated SEO complete
 - Remaining items: user input only (GSC, Bing, AdSense, Formspree, deploy service fix)
+
+---
+
+## 2026-04-05 11:52 UTC
+
+**Checked:** Homepage, /exams/neet/, /notes/neet/physics/  
+**Issue Found:** Hardcoded "NEET-level practice questions" in the generic `[exam].astro` HowTo JSON-LD schema (affects ALL exam pages, not just NEET). The site has 125+ exams but the template was advertising "NEET-level" questions to users browsing JEE, UPSC, IBPS, etc.  
+**Fix Applied:** Changed "NEET-level practice questions" → "exam-level practice questions" in the HowTo step text.  
+**Committed:** `1b83e42` — "Growth cycle fix: remove hardcoded NEET reference from generic exam HowTo schema"  
+**Note:** Also observed that the Footer's "Content reviewed April 2026" date is static text (not a major issue but worth noting for automation). No Person/author schema visible in HTML output (commented stubs present). Sitemap exists and appears healthy.

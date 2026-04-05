@@ -3592,3 +3592,41 @@ Modified `astro.config.mjs` to dynamically load examId slugs from `public/exams.
 - Deploy service: Type=oneshot broken — needs user SSH fix
 
 **No code change this cycle** — site unreachable, nothing to test/deploy.
+
+## Research Findings — 2026-04-05T07:54 UTC
+
+### 🔴 Critical (fix immediately)
+- **Deploy service DOWN** — `http://172.17.0.1:9000/` returns 404 (backend dead). Live site running old build.
+- **Workspace ahead of production** — build 3349 pages with improvements not yet deployed:
+  - Organization schema: "125+ exams" vs live "80+ exams" (better coverage signal)
+  - OG image: `og-image.jpg` in workspace vs live `og-image.svg`
+  - Plausible analytics: workspace uses `plausible.io` CDN vs live VPS IP script (security + performance)
+  - Twitter app meta: com.studyroadmap.app + 1234567890 in workspace (mobile deep linking)
+
+### 🟡 Important (fix this cycle)
+- **Deploy service fix still pending user SSH** — `Type=oneshot` + `Restart=no` causes backend death within seconds of deploy script completing. Last known fix command:
+  ```bash
+  sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service
+  sudo sed -i 's/Restart=no/Restart=always/' /etc/systemd/system/studyroadmap-deploy.service
+  sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
+  ```
+
+### 🟢 Quick Wins (easy improvements)
+- All major SEO complete — FAQPage, Organization, WebSite, BreadcrumbList, HowTo, CollectionPage, hreflang all confirmed present in workspace build ✅
+- Sitemap: 127 exam pages now included (via fix-sitemap.cjs postbuild script ✅)
+
+### 📊 Traffic Opportunities
+- Live site is 1-2 deploy cycles behind workspace — improvements not reaching users
+- Deploy service stability is the #1 blocker for growth
+
+### ✅ Completed This Run
+- Build: 3349 pages ✅
+- Commit: bcd29a4 ✅
+- Deploy: BLOCKED — service down ⚠️
+- News: fetched fresh 10 items ✅
+
+### ⚠️  Still Blocking (needs user)
+1. Deploy service restart (SSH commands above)
+2. GSC verification code (placeholder in Layout.astro)
+3. Formspree feedback form ID
+4. AdSense integration

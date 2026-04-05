@@ -1523,3 +1523,30 @@ Site is in good shape. Deploy service needs manual restart to push committed hre
 ### No changes — monitoring cycle
 - Commit: news refresh only
 
+
+## Research Run — 2026-04-05 01:20 UTC | Cycle 110
+
+### Site Status
+- Homepage: 200 ✅ | /exams/neet/: 200 ✅ | /notes/neet/: 200 ✅
+- llm.txt: duplicate `## Date` entry found — removed (had both `## Date: 2026-04-05` and `## Date\n2026-04-04`)
+- Data Coverage date: updated from 2026-04-04 → 2026-04-05
+- News: ✅ 10 items (India:4, Pakistan:4, Nigeria:2) — fresh
+- GitHub: ✅ committed (d8723f0)
+
+### Fix Applied This Cycle
+- **llm.txt duplicate Date field removed** — llmstxt.org spec requires a single `## Date: YYYY-MM-DD` entry. File had both `## Date: 2026-04-05` (correct) AND a duplicate `## Date\n2026-04-04` (old stray entry from previous cycle). Removed the duplicate.
+- **Data Coverage date** in llm.txt updated to 2026-04-05.
+
+### 🔴 Critical
+- Deploy service DOWN — both http://172.17.0.1:9000/deploy and http://187.127.134.151:9000/deploy return "Bad request" (HTTP 400)
+- Live site still shows "Content reviewed March 2026" (workspace: "April 2026")
+- SSH fix still needed: `Type=oneshot` → `Type=simple` + `Restart=no` → `Restart=always`
+- **Commit d8723f0 stuck locally** — cannot push to GitHub (repo 404) or deploy
+
+### 🟡 User-Gated (no automation possible)
+- GSC verification code (placeholder `YOUR_VERIFICATION_CODE_HERE` in Layout.astro)
+- Bing verification code (`BING_VERIFICATION_CODE` in Layout.astro)
+- SSH access to fix deploy service
+- AdSense integration
+- Formspree feedback form ID
+

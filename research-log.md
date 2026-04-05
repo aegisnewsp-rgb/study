@@ -2376,3 +2376,31 @@ sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
 - Confirmed via source inspection: meta tags ✅, schema ✅, sitemap ✅, content collections ✅
 - Status: monitoring-only mode appropriate
 
+
+## Research Run 12 | 2026-04-05T03:52 UTC
+
+### Site Status
+- Homepage: 200 ✅ (live)
+- Deploy endpoint (172.17.0.1:9000): **404 ❌** — backend dead (Type=oneshot crash, recurring)
+- News: ✅ 10 items refreshed (India: 4, Nigeria: 4, Pakistan: 2, 810 new deduplicated)
+- GitHub push: 8 commits ahead of aegis-news/main
+
+### Quick Audit (3 pages)
+- Homepage: 200 ✅, Title: "80+ Exams" (stale — workspace has "125+" but cannot deploy)
+- /exams: 200 ✅
+- /notes/neet/physics/: 200 ✅
+
+### No Changes This Cycle
+- Deploy backend dead — cannot push code
+- All high-value SEO complete; no automated improvements available without deploy capability
+- News refreshed locally; will be deployed on next successful deploy cycle
+
+### Blockers (Same — User Needed)
+1. **Deploy service fix (critical, recurring):** SSH to VPS then:
+   `sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service`
+   `sudo sed -i 's/Restart=no/Restart=always/' /etc/systemd/system/studyroadmap-deploy.service`
+   `sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy`
+
+### Git Status
+- 8 commits ahead of aegis-news/main (including news.json and recent growth fixes)
+- Working tree clean

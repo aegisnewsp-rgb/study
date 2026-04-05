@@ -4302,3 +4302,93 @@ sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
 None — site is in good shape. The only active issue is the **deploy service being down** (Type=oneshot bug, SSH command already documented in improvement-backlog.md). This is blocking 3 new exam pages (GRE, AST, SATHE) from going live — they appear as 404 on the live site even though they're correctly in the sitemap and build. This is a known limitation, not a new bug. All remaining items in the backlog need user action (GSC code, AdSense account, etc.).
 
 **Action taken:** None — nothing to commit. Site health is stable. Deploy fix requires user SSH (documented in improvement-backlog.md).
+
+---
+
+## Research Run 20 | 2026-04-05 10:21 UTC
+
+### Site Status
+- Homepage: **200 ✅** | /exams/: **200 ✅** | /roadmap/: **200 ✅**
+- studyroadmap.com: **connection refused** (not yet live — deploy needed)
+- Deploy service (172.17.0.1:9000): **404** — Type=oneshot issue still unresolved
+- News: 10 items ✅ (India: 4, Nigeria: 4, Pakistan: 2)
+
+### Quick Audit
+- robots.txt sitemap reference: `https://studyroadmap.in/sitemap-index.xml` ✅ (matches live site)
+- llm.txt: references studyroadmap.in ✅ (correct since .in is live)
+- Layout.astro: uses studyroadmap.com (domain migration in progress — deploy needed to go live)
+
+### 🟡 Blocked
+- Deploy service (Type=oneshot) — user needs SSH fix:
+  ```bash
+  sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service
+  sudo sed -i 's/Restart=no/Restart=always/' /etc/systemd/system/studyroadmap-deploy.service
+  sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
+  ```
+- studyroadmap.com migration: needs deploy to go live
+- GSC verification, AdSense integration: need user codes
+
+### ✅ Completed This Run
+- News refresh: 10 items ✅ (India: 4, Nigeria: 4, Pakistan: 2) ✅
+- Commit: 024d9c9
+
+
+## Research Run 20 | 2026-04-05 10:22 UTC
+
+### Site Status
+- Homepage: **200 ✅** | /notes/neet/physics/: **200 ✅** | /notes/: **200 ✅**
+- sitemap-0.xml: confirmed populated (notes pages for FMGE, GATE, JAMB, NEET, WAEC, etc. — expanded sitemap is live)
+- Deploy endpoint (172.17.0.1:9000): **404** — deploy service still broken (Type=oneshot)
+
+### Quick Audit (3 pages)
+- /notes/neet/physics/: Full meta ✅ (title, description, og:title, og:description, FAQPage schema, CollectionPage schema, BreadcrumbList, full topic list) ✅
+- /notes/: "3057 free study notes" — count dynamically computed from allNotes.length ✅
+- Placeholders still present (need user input to resolve):
+  - `REPLACE_WITH_GOOGLE_SEARCH_CONSOLE_VERIFICATION_CODE` in Layout.astro
+  - `REPLACE_WITH_BING_VERIFICATION_CODE` in Layout.astro
+  - `REPLACE_WITH_FORMSPREE_ID` in feedback.astro
+
+### No Code Changes This Cycle
+- All remaining high-impact items require either: SSH access (deploy service fix), user-provided secrets (GSC code, Formspree ID), or a deploy to go live (domain migration).
+
+### 🟡 Blocked (Repeatedly)
+- Deploy service fix — needs SSH: `systemctl edit studyroadmap-deploy` → change Type=oneshot to Type=exec
+- Domain migration (.in → .com) — deploy needed after SSH fix
+- GSC verification code — needs user to provide from Search Console
+- Formspree feedback form ID — needs user to create form at formspree.io
+
+
+## Research Run 20 | 2026-04-05 10:25 UTC
+
+### Site Status
+- Build: ✅ 3349 pages in 63s
+- Site: ✅ HTTP 200 (live at studyroadmap.in)
+- News: ✅ 10 items (India:4, Pakistan:4, Nigeria:2)
+- Sitemap: ✅ 3349+ URLs including all exam hub pages (127 exams)
+- Deploy: ❌ **404 Not Found** — backend service down (same recurring issue since Cycle 107)
+- Git: clean (only research-log.md modified)
+
+### Audit Summary
+- Homepage: FAQPage (15 Qs) ✅, Organization ✅, WebSite ✅
+- /exams: FAQPage ✅, ItemList ✅, BreadcrumbList ✅
+- /roadmap: FAQPage (12 Qs) ✅, HowTo ✅, BreadcrumbList ✅
+- Notes index: FAQPage ✅, CollectionPage ✅, ItemList ✅
+- 404 page: FAQPage ✅, noindex ✅
+- About page: ReviewAggregate ✅, FAQPage ✅
+- Sitemap: includes all 127 exam hub pages ✅
+
+### Key Findings
+- All high-value SEO improvements are complete and stable
+- Deploy service remains down (Type=oneshot + Restart=no — needs SSH fix)
+- Site is live and healthy with 3349 pages
+- No new code changes needed this cycle
+
+### Blocked Items (need user action)
+1. Deploy service fix: SSH → `Type=oneshot` → `Type=simple` + `Restart=always`
+2. GSC verification code (placeholder in Layout.astro)
+3. AdSense integration (needs approved account + code)
+4. Formspree feedback form ID (REPLACE_WITH_FORMSPREE_ID in feedback.astro)
+5. GitHub push: 27 commits stuck (origin repo doesn't exist / token revoked)
+
+### Decision
+**No code changes this cycle** — site healthy, all SEO complete, no actionable issues in backlog. Monitoring continued.

@@ -3830,3 +3830,69 @@ Workspace has significant improvements NOT yet live:
 ### Git Status
 - Committed: none — nothing to commit, workspace clean
 
+
+## Research Findings — 2026-04-05T08:50 UTC
+
+### 🔴 Critical (fix immediately)
+- None
+
+### 🟡 Important (fix this cycle)
+- None identified
+
+### 🟢 Quick Wins (easy improvements)
+- None available — all automated SEO improvements complete
+
+### 📊 Traffic Opportunities
+- All high-value SEO improvements already implemented
+- Remaining opportunities require user input (GSC code, AdSense code, Formspree ID, deploy service SSH fix)
+
+### ✅ Completed This Run
+- **Build:** 3346 pages ✅
+- **Site health:** All 3 checked pages fully optimized:
+  - Homepage: FAQPage (15 Qs), HowTo, Organization, WebSite+SearchAction, Person, hreflang ✅
+  - Exam page (/exams/neet/): FAQPage (3 NEET-specific), HowTo, BreadcrumbList, Organization, hreflang ✅
+  - Topic page (/notes/neet/physics/phy-001/): FAQPage (4 Qs), dynamic meta, unique OG image, no noindex ✅
+- **Placeholders remaining:** GSC code, Bing code, Formspree ID (all need user input)
+- **Deploy:** HTTP 200 ✅
+- **News:** 10 items ✅
+- **Git:** committed, 19 unpushed commits (origin repo issue)
+
+**Status:** PASSED ✅ — comprehensive monitoring, no changes needed. All high-value automated SEO is complete.
+
+## Research Findings — 2026-04-05T08:54 UTC
+
+### 🔴 Critical (fix immediately)
+- None
+
+### 🟡 Important (fix this cycle)
+- None identified — all automated SEO complete
+
+### 🟢 Quick Wins (easy improvements)
+- None available — all major SEO improvements already implemented
+
+### 📊 Deploy Status
+- **Site live:** HTTP 200 ✅ (studyroadmap.in serving from CDN)
+- **Deploy endpoint (172.17.0.1:9000):** HTTP 404 ❌ — backend dead (Type=oneshot), recurring issue, needs user SSH fix:
+  ```bash
+  sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service
+  sudo sed -i 's/Restart=no/Restart=always/' /etc/systemd/system/studyroadmap-deploy.service
+  sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
+  ```
+- **Workspace ahead of production:** ~19 unpushed commits (includes "125+" exam count, hreflang, Twitter app meta, exam page improvements)
+
+### 📰 News Status
+- `public/news.json` stale from 2026-04-04 (yesterday) — `fetch_news.py` keeps getting killed by SIGTERM (Google News 100-item feeds timing out). Not critical; news still loads from CDN.
+- News is exam-relevant (UPSC, JEE, BPSC, WAEC) ✅
+
+### ✅ Completed This Cycle
+- Quick audit: Homepage ✅ | /exams/jeemain/ ✅ | /notes/neet/physics/ ✅
+- llm.txt date: 2026-04-05 ✅ (already current)
+- All high-value SEO complete; site in maintenance mode pending user actions
+
+### 🚫 Blocked — Needs User
+1. **Deploy service fix** — SSH command above (enables new deploys)
+2. **GSC verification code** — replace placeholder in Layout.astro
+3. **Bing verification code** — replace placeholder in Layout.astro
+4. **AdSense account** — needs approved account + code injection
+5. **Formspree ID** — for feedback form
+6. **GitHub push** — origin repo `aegisnewsp-rgb/studyroadmap-astro` 404 (token/repo access issue)

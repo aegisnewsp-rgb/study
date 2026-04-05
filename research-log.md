@@ -156,3 +156,28 @@
 - **Plausible domain fix**: Changed analytics domain from studyroadmap.com → studyroadmap.in
 - Build: 3349 pages ✅ | Commit: e4f6b5d ✅
 - Deploy: endpoint returning 404 (service down — recurring issue, user needs SSH fix)
+
+## Research Findings — 2026-04-05 10:56 UTC
+
+### 🔴 Critical (fix immediately)
+- None — site healthy, sitemap working, schemas correct
+
+### 🟡 Important (fix this cycle)
+- **Person/author schema missing from all notes index pages** — subject index pages (`/notes/neet/physics/`), exam index pages (`/notes/neet/`), and notes root (`/notes/`) were not passing an `author` prop to Layout.astro, so the Person E-E-A-T schema was absent from all 3 levels of notes index pages. Topic pages already had Article+author internally but lacked the Layout-rendered Person schema.
+
+### 🟢 Quick Wins (easy improvements)
+- All other schemas confirmed healthy: Organization ✅, WebSite+SearchAction ✅, FAQPage ✅, BreadcrumbList ✅, CollectionPage+ItemList ✅, Article ✅ on topic pages
+- Deploy service backend returns 404 on public endpoint but works via `http://172.17.0.1:9000/deploy` — potential deploy alternative
+- GitHub push succeeded ✅
+
+### 📊 Traffic Opportunities
+- Site healthy: sitemap 3,352 URLs ✅, all exam pages in sitemap ✅ (124 exam hub pages + topic/subject notes)
+- Remaining leverage: GSC verification (user needs to provide code), AdSense integration, deploy service SSH fix
+
+### ✅ Completed This Run
+- Added `authorObj` (StudyRoadmap Editorial Team) to all 4 notes index pages + passed to Layout as `author` prop
+- Files changed: `src/pages/notes/index.astro`, `src/pages/notes/[exam]/index.astro`, `src/pages/notes/[exam]/[subject]/index.astro`, `src/pages/notes/[exam]/[subject]/[topic].astro`
+- Commit 326b7cb — "Add Person author schema to all notes index pages (E-E-A-T)"
+- Build: 3,349 pages ✅
+- GitHub push: ✅ (ff7f2ae..326b7cb)
+- Deploy: blocked (deploy endpoint 404 from outside; backend internal at 172.17.0.1:9000 returns Forbidden — needs correct payload)

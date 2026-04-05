@@ -53,7 +53,29 @@ while ((match = urlRegex.exec(sitemap)) !== null) {
 
 const BASE_URL = 'https://studyroadmap.in';
 
-// Add every exam not already in sitemap
+// ── PART 1: Add lastmod to all sitemap entries that lack it ───────────────
+const today = new Date().toISOString().split('T')[0]; // e.g. "2026-04-05"
+
+// Count before
+const locCountBefore = (sitemap.match(/<loc>/g) || []).length;
+const lastmodCountBefore = (sitemap.match(/<lastmod>/g) || []).length;
+
+// Strategy: add <lastmod> after each <loc> that doesn't already have one
+// Pattern: <loc>...</loc> optionally followed by other tags, then <url>
+let entriesAdded = 0;
+sitemap = sitemap.replace(/<loc>([^<]+)<\/loc>((?:(?!<\/url>).)*?)(<\/url>)/gs, (match, loc, middle, close) => {
+  if (middle.includes('<lastmod>')) {
+    return match; // already has lastmod
+  }
+  entriesAdded++;
+  return `<loc>${loc}</loc><lastmod>${today}</lastmod>${middle}${close}`;
+});
+
+const locCountAfter = (sitemap.match(/<loc>/g) || []).length;
+const lastmodCountAfter = (sitemap.match(/<lastmod>/g) || []).length;
+console.log(`lastmod: ${lastmodCountBefore} → ${lastmodCountAfter} entries (added ${entriesAdded})`);
+
+// ── PART 2: Add every exam not already in sitemap ─────────────────────────
 const newExamUrls = examIds
   .filter(examId => {
     const url = `${BASE_URL}/exams/${examId}/`;

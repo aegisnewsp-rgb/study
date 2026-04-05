@@ -2830,3 +2830,29 @@ Reverted `astro.config.mjs` site URL and `scripts/fix-sitemap.cjs` hardcoded dom
 
 ### No change this cycle
 - Deploy fix: sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service && sudo sed -i 's/Restart=no/Restart=always/' && systemctl daemon-reload && restart studyroadmap-deploy
+
+## 2026-04-05 05:22 UTC — Growth Cycle
+
+**Site:** https://studyroadmap.in
+**Status:** Live, site responding normally
+
+### Findings
+- **CRITICAL:** Sitemap (`sitemap-0.xml`) has ~125 URLs — all are notes pages. Zero `/exams/` pages indexed.
+- Exam pages ARE live (e.g., `/exams/neet/` returns 200 with correct title)
+- `fix-sitemap.cjs` postbuild script silently skips because `dist/exams/` directory check fails
+- `src/pages/exams/[exam].astro` uses `getStaticPaths()` from `ALL_EXAMS` — should generate pages at `dist/exams/{id}/index.html` but the script was checking for wrong path structure
+- Root cause: script checks `fs.existsSync('dist/exams')` but Astro builds pages to `dist/exams/{id}/index.html` and the dist directory structure might not match expectations
+
+### Fix Applied
+- Rewrote `scripts/fix-sitemap.cjs` to parse `src/data/exams.ts` directly for `examId` values instead of checking `dist/exams/` directory
+- Script now reads from TypeScript source, extracts all examId strings, and adds missing `/exams/{examId}/` URLs to sitemap
+- Commit: `3d3fd91`
+
+### Blocked / Needs Manual Action
+- VPS SSH access not available from this runner — need to manually run `deploy.sh` on VPS (187.127.134.151) to trigger rebuild with new postbuild script
+- GitHub repos returning 404 (accesories studyroadmap repo unavailable) — outreach/transfer needs owner action
+- GSC/Bing/Webmaster code additions need site owner verification
+
+### Backlog Notes
+- VPS deploy script verified at `/srv/studyroadmap/deploy.sh`
+- `npm run build` includes postbuild hook → will run new fix-sitemap.cjs on next build

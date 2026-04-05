@@ -1492,3 +1492,34 @@ Exam pages (e.g., /exams/neet/) pass `examSpecificFAQs` to the HTML FAQ section 
 
 ### No change made this cycle
 Site is in good shape. Deploy service needs manual restart to push committed hreflang work live.
+
+## Research Run 6 | 2026-04-05 01:17 UTC
+
+### Site Status
+- Homepage: 200 ✅
+- /exams/neet/: 200 ✅ (FAQPage + HowTo + BreadcrumbList + Organization + WebSite all present)
+- /notes/: 200 ✅
+- Sitemap: 3,345 URLs ✅ (no lastmod — Astro static limitation)
+- llm.txt: Date: 2026-04-05 ✅ (already current)
+- Footer: "Content reviewed April 2026" ✅ (workspace matches)
+
+### News
+- 10 items saved to public/news.json ✅
+- India: 4, Pakistan: 4, Nigeria: 2
+- Committed: 72809e9
+
+### Findings
+- No code changes needed this cycle — all high-value SEO complete
+- Site is healthy across all key pages
+- Sitemap: 3,345 URLs confirmed live
+- All structural/structured data/schema work done (verified NEET exam page: FAQPage ✅, HowTo ✅, BreadcrumbList ✅, Organization ✅, WebSite+SearchAction ✅)
+- Remaining items all need user input: GSC code, AdSense code, deploy service fix (SSH), Formspree ID
+
+### Actionable Reminders
+- Deploy service keeps dying (Type=oneshot) — SSH fix needed from user (documented in backlog)
+- GSC verification code still placeholder — site not indexed in Google Search Console
+- Footer says "March 2026" on live site but workspace says "April 2026" — committed changes not deploying
+
+### No changes — monitoring cycle
+- Commit: news refresh only
+

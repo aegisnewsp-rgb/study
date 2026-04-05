@@ -9,9 +9,6 @@ StudyRoadmap is a free, no-signup-required AI study planner for students in Indi
 
 ## URL: https://studyroadmap.in
 
-## Date
-2026-04-04
-
 ## What We Offer
 - Instant, personalized study roadmaps generated client-side using an AI expert system
 - Coverage of 125+ competitive exams across India, Pakistan, Nigeria, and globally — including NEET, JEE Main, JEE Advanced, CUET, UPSC, SSC CGL, CAT, CLAT, NDA, UGC NET (India), MDCAT, ECAT, NAT-I, LAT, HAT-UG (Pakistan), JAMB, WAEC, NECO, NABTEB, NCEE (Nigeria), and many more
@@ -56,7 +53,7 @@ GitHub: https://github.com/aegisnewsp-rgb
 - Roadmap Generator: https://studyroadmap.in/roadmap — interactive AI study plan builder
 - About: https://studyroadmap.in/about — editorial team, methodology, reviews
 
-## Data Coverage (as of 2026-04-04)
+## Data Coverage (as of 2026-04-05)
 - 124 individual exam pages with unique content (description, exam pattern, eligibility, subject list)
 - 3,345+ pages total across India, Pakistan, Nigeria, Bangladesh, and other countries
 - 124 exams covered: NEET, JEE Main, JEE Advanced, CUET, UPSC, SSC CGL, CAT, CLAT, NDA, UGC NET (India)

@@ -22,20 +22,33 @@ diagramPrompt: Clean educational diagram showing Capacitors and Capacitance with
 > Rapid summary for last-minute revision before your exam.
 
 **Capacitors and Capacitance** — Key Facts
-Definition: Capacitors and Capacitance is a fundamental concept in Physics
-Key formula/concept: Understand the core principle and its direct applications
-⚡ Exam tip: Questions from this topic appear regularly in NEET/JEE — focus on formulas and direct applications
+Capacitance: $C = \frac{Q}{V}$; unit: farad (F) = coulomb/volt
+Parallel plate capacitor: $C = \frac{\varepsilon_0 \varepsilon_r A}{d}$; $\varepsilon_r$ = relative permittivity
+Energy stored: $W = \frac{1}{2}CV^2 = \frac{Q^2}{2C} = \frac{1}{2}QV$
+Charge on plates: $Q = CV$
+⚡ Exam tip: Capacitors in series share charge; capacitors in parallel share voltage
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Capacitors and Capacitance** — Physics Study Guide
-Concept overview: Capacitors and Capacitance is an important topic in the Physics syllabus
-Core principles: Build strong foundation of fundamentals before attempting problems
-Key points to understand: definitions, units, standard derivations, and typical numerical patterns
-Study approach: Theory first, then numerical problem-solving
+**Capacitors and Capacitance** — JAMB Physics Study Guide
+Series combination:
+$$C_{eq} = \frac{C_1 C_2}{C_1 + C_2} \text{ (for two capacitors)}$$
+$$C_{eq} = \frac{1}{\frac{1}{C_1} + \frac{1}{C_2} + ...} \text{ (general)}$$
+Voltage division: $V_1 = \frac{Q}{C_1}$, $V_2 = \frac{Q}{C_2}$ (same Q)
+
+Parallel combination:
+$$C_{eq} = C_1 + C_2 + C_3 + ...$$
+Voltage is same across all: $V_1 = V_2 = V$
+
+Dielectrics: inserting dielectric increases capacitance by factor $\varepsilon_r$; for parallel plate $C = \frac{\varepsilon_0 \varepsilon_r A}{d}$
+Dielectric strength: maximum electric field before breakdown (typically 3-10 MV/m for air)
+
+Time constant in RC circuits: $\tau = RC$; capacitor charges to 63% of final voltage in one $\tau$, and discharges to 37% remaining.
+
+Common student mistakes: confusing series and parallel formulas (use the right one!); forgetting that adding dielectric increases capacitance; confusing capacitance with charge.
 
 ---
 
@@ -43,11 +56,43 @@ Study approach: Theory first, then numerical problem-solving
 > Comprehensive coverage for students on a longer study timeline.
 
 **Capacitors and Capacitance** — Comprehensive Physics Notes
-Full explanation: Capacitors and Capacitance is a core Physics concept with wide applications
-Detailed theory: Derivation, physical significance, and limitations of the concept
-Problem-solving strategies: Classify problem types, standard approach for each type
-Additional resources: Refer to standard Physics textbooks for deeper understanding
-Previous year trends: Analyse NEET/JEE question patterns for this topic
+
+**Derivation of parallel plate capacitance:**
+Consider two parallel plates each of area $A$, separated by distance $d$, with vacuum between them.
+
+Electric field between plates (infinite plate approximation): $E = \frac{\sigma}{\varepsilon_0} = \frac{Q}{A\varepsilon_0}$
+
+Potential difference: $V = Ed = \frac{Qd}{A\varepsilon_0}$
+
+Therefore: $C = \frac{Q}{V} = \frac{Q}{Qd/(A\varepsilon_0)} = \frac{\varepsilon_0 A}{d}$
+
+**Energy density:**
+Energy stored per unit volume in electric field:
+$$u = \frac{1}{2}\varepsilon_0 E^2 = \frac{1}{2}\varepsilon_0 \varepsilon_r E^2 \text{ (with dielectric)}$$
+
+**Charging and discharging of capacitor through resistor:**
+Charging: $q = Q_0(1 - e^{-t/RC})$; $V = V_0(1 - e^{-t/RC})$
+Discharging: $q = Q_0 e^{-t/RC}$; $V = V_0 e^{-t/RC}$
+
+Time constant $\tau = RC$: at $t = \tau$, capacitor reaches 63.2% of maximum charge (or discharges to 36.8%).
+
+**Capacitor combinations — detailed:**
+Three or more in series:
+$$\frac{1}{C_{eq}} = \frac{1}{C_1} + \frac{1}{C_2} + \frac{1}{C_3}$$
+For $n$ identical capacitors $C_0$ in series: $C_{eq} = C_0/n$
+For $n$ identical capacitors $C_0$ in parallel: $C_{eq} = nC_0$
+
+**Applications:**
+- Flash photography: capacitor charges slowly through high resistance, discharges quickly
+- Smooth DC power supplies: capacitors filter ripple in rectifier circuits
+- Timer circuits (with resistor)
+- Defibrillators: capacitors store energy and release it quickly
+
+**JAMB exam patterns:**
+- 2022 JAMB: Two capacitors 4 μF and 6 μF connected in series across 100 V; find charge on each
+- 2021 JAMB: Energy stored in a 10 μF capacitor at 200 V
+- 2020 JAMB: Effect of halving the plate separation on capacitance of parallel plate capacitor
+- 2019 JAMB: Time constant in RC circuit with R = 1 MΩ and C = 4 μF
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

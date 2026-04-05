@@ -22,20 +22,43 @@ diagramPrompt: Clean educational diagram showing Electromagnetic Induction with 
 > Rapid summary for last-minute revision before your exam.
 
 **Electromagnetic Induction** — Key Facts
-Definition: Electromagnetic Induction is a fundamental concept in Physics
-Key formula/concept: Understand the core principle and its direct applications
-⚡ Exam tip: Questions from this topic appear regularly in NEET/JEE — focus on formulas and direct applications
+Faraday's law: $\varepsilon = -\frac{d\Phi}{dt}$ (induced EMF = rate of change of magnetic flux)
+Magnetic flux: $\Phi = BA\cos\theta$ (Wb = T·m²)
+Lenz's law: induced current flows in direction opposing the change that caused it (conservation of energy)
+Motional EMF: $\varepsilon = BLv\sin\theta$ (conductor moving in magnetic field)
+⚡ Exam tip: If flux is increasing, induced magnetic field opposes it (points opposite); if decreasing, induced field supports it
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Electromagnetic Induction** — Physics Study Guide
-Concept overview: Electromagnetic Induction is an important topic in the Physics syllabus
-Core principles: Build strong foundation of fundamentals before attempting problems
-Key points to understand: definitions, units, standard derivations, and typical numerical patterns
-Study approach: Theory first, then numerical problem-solving
+**Electromagnetic Induction** — JAMB Physics Study Guide
+
+**Faraday's laws:**
+First law: EMF is induced when magnetic flux through a circuit changes
+Second law: Magnitude of induced EMF is proportional to rate of change of flux
+$$\varepsilon = N\left|\frac{d\Phi}{dt}\right|$$
+where N is number of turns in the coil.
+
+**Methods of inducing EMF:**
+1. Change magnetic field strength $B$
+2. Change area $A$ of the coil
+3. Change angle $\theta$ between $B$ and area normal
+4. Relative motion between coil and magnet
+
+**Self-induction:**
+When current in a coil changes, changing flux through the coil induces EMF in the coil itself.
+$$L = \frac{N\Phi}{I} \text{ (self-inductance, unit: henry, H)}$$
+EMF induced: $\varepsilon = -L\frac{dI}{dt}$
+Energy stored in inductor: $W = \frac{1}{2}LI^2$
+
+**Mutual induction:**
+When current in one coil changes, EMF is induced in a nearby coil.
+$$M = \frac{N_2\Phi_{12}}{I_1} = \frac{N_1\Phi_{21}}{I_2}$$
+$$\varepsilon_2 = -M\frac{dI_1}{dt}$$
+
+**Common student mistakes:** Forgetting the minus sign in Faraday's law (Lenz's law direction); confusing magnetic flux with magnetic field strength; using wrong units (flux in Wb, not T/m²).
 
 ---
 
@@ -43,11 +66,49 @@ Study approach: Theory first, then numerical problem-solving
 > Comprehensive coverage for students on a longer study timeline.
 
 **Electromagnetic Induction** — Comprehensive Physics Notes
-Full explanation: Electromagnetic Induction is a core Physics concept with wide applications
-Detailed theory: Derivation, physical significance, and limitations of the concept
-Problem-solving strategies: Classify problem types, standard approach for each type
-Additional resources: Refer to standard Physics textbooks for deeper understanding
-Previous year trends: Analyse NEET/JEE question patterns for this topic
+
+**Derivation of motional EMF:**
+Consider a rod of length $L$ moving with velocity $v$ perpendicular to a uniform magnetic field $B$.
+Free electrons experience magnetic force $F = Bev$ downwards.
+Electrons accumulate at bottom, leaving positive charge at top.
+This creates electric field $E$ until $eE = Bev$, so $E = Bv$.
+Potential difference between ends = $EL = BLv$.
+Since this is the EMF driving current: $\varepsilon = BLv$ (for $v \perp B$).
+
+General case: $\varepsilon = BLv\sin\theta$ where $\theta$ is angle between $v$ and $B$.
+
+**Derivation of Faraday's law from motional EMF:**
+For a coil rotating in magnetic field with angular velocity $\omega$:
+Flux through one turn: $\Phi = NBA\cos\omega t$ (if normal to plane is at angle $\omega t$ to $B$)
+$$\varepsilon = -\frac{d\Phi}{dt} = NBA\omega\sin\omega t = \varepsilon_0\sin\omega t$$
+This is the principle of the AC generator.
+
+**Induced electric fields:**
+Changing magnetic flux creates induced electric fields (even without conductors). This is the basis of transformers and inductors.
+
+**Eddy currents:**
+In solid conductors, changing magnetic flux induces circulating currents (eddy currents). These cause energy loss (heating) but can be minimised by laminating cores (thin insulated sheets).
+
+**Applications of electromagnetic induction:**
+- Electric generators: mechanical → electrical energy
+- Transformers: AC voltage stepping up/down
+- Induction motors: rotating magnetic field induces current in rotor
+- Metal detectors: induced eddy currents in metal objects
+- Electric brakes on trains: magnets induce currents in conducting disc
+
+**JAMB exam patterns:**
+- 2023 JAMB: A coil of 100 turns has flux changing from 0.02 Wb to 0.01 Wb in 0.1 s; find average EMF
+- 2022 JAMB: State Lenz's law and explain how it demonstrates conservation of energy
+- 2021 JAMB: Calculate induced EMF in a rod 0.5 m long moving at 4 m/s perpendicular to B = 0.2 T
+- 2020 JAMB: Self-inductance of a coil is 2 H; find EMF when current changes at 3 A/s
+
+**Important formulas:**
+| Situation | EMF formula |
+|-----------|-------------|
+| General Faraday | $\varepsilon = -N\frac{d\Phi}{dt}$ |
+| Motional EMF | $\varepsilon = BLv\sin\theta$ |
+| Rotating coil | $\varepsilon = NBA\omega\sin\omega t$ |
+| Inductor | $\varepsilon = -L\frac{dI}{dt}$ |
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

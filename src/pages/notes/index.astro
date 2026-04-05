@@ -56,6 +56,15 @@ const breadcrumbJsonLd = {
   ],
 };
 
+const examsWithNotes = examMeta.filter(e => e.totalTopics > 0);
+const examsWithNotesCount = examsWithNotes.length;
+// Top exams by topic count for the FAQ sample
+const topExams = [...examsWithNotes]
+  .sort((a, b) => b.totalTopics - a.totalTopics)
+  .slice(0, 10)
+  .map(e => e.examName)
+  .join(', ');
+
 const NOTES_FAQS = [
   {
     question: 'Are these notes really free?',
@@ -67,7 +76,7 @@ const NOTES_FAQS = [
   },
   {
     question: 'Which exams are covered?',
-    answer: 'Study notes are available for 21 exams including NEET, JEE Main, JEE Advanced, UPSC, MDCAT, JAMB, WAEC, CUET, SSC CGL, CAT, CLAT, NDA, and GATE. Roadmap generation covers 125+ exams across India, Pakistan, Nigeria, Bangladesh, Sri Lanka, Nepal, Saudi Arabia, UAE, South Africa, Kenya, Ethiopia, Ghana, Uganda, Tanzania, Russia, China, Philippines, Indonesia, and Malaysia.',
+    answer: `Study notes are available for ${examsWithNotesCount} exams including ${topExams}. Notes cover Physics, Chemistry, Biology, Mathematics, and subject-specific topics aligned to each exam's syllabus. Roadmap generation covers 125+ exams — check the exam pages for full coverage.`,
   },
   {
     question: 'Can I access notes without generating a roadmap?',

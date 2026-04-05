@@ -1,5 +1,28 @@
 # Research Log — StudyRoadmap Growth Research
 
+## Research Run 6 | 2026-04-05 01:42 UTC
+
+### Site Status
+- Homepage: 200 ✅ (live site still shows "80+ Exams" title — workspace already fixed to "125+" but deploy blocked)
+- /exams/neet: 301 → 200 ✅ (trailing slash redirect, normal)
+- Notes topic page: 200 ✅ (correct title)
+- llm.txt: Date: 2026-04-05 ✅
+- Footer: "Content reviewed April 2026" ✅
+
+### News
+- 10 items saved to public/news.json ✅ (India: 4, Nigeria: 4, Pakistan: 2)
+- Committed: bc44d9e
+
+### Findings
+- **Live site stale**: studyroadmap.in still shows "80+ Exams" in title/meta. Workspace has "125+" (fixed in Cycle 58). Deploy service keeps dying (port 9000 = 404).
+- **Root cause**: Type=oneshot + Restart=no in systemd service — every deploy kills the backend. User SSH fix needed.
+- **Workspace state**: clean, all SEO complete, 125+ title/meta correct in code
+- All remaining high-value items need user input: GSC code, AdSense code, deploy SSH fix, Formspree ID
+
+### No changes — monitoring cycle (deploy blocked)
+
+---
+
 ## Research Run 5 | 2026-04-05 00:29 UTC
 
 ### Site Status

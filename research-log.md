@@ -239,3 +239,24 @@ The homepage maps `item.age || ''` from news.json, but news.json uses a `publish
 ### Backlog Notes
 - All high-value SEO items resolved; remaining items need user input (GSC code, Formspree ID, AdSense account, deploy SSH fix)
 - News ticker age fix is live in workspace, needs deploy to production
+
+---
+
+## Cycle — 2026-04-05 11:28 UTC
+
+### Checked
+- **Homepage** (index.astro): Stats section (125+ exams, 18 durations, 100% free, Instant), hero section, HowTo schema, FAQ schema
+- **Exams hub** (exams/[exam].astro): Meta tags, BreadcrumbList, ItemList, FAQPage, HowTo schema, canonical URL
+- **Notes index** (notes/[exam]/index.astro): Meta, BreadcrumbList, ItemList, FAQPage, author object
+
+### Finding
+**SEO: Exam hub pages missing OG images — 109 of 128 exams have no og:image**
+
+Exam hub pages were using the Layout default (`/og-image.jpg`) instead of exam-specific OG images. The `/og-notes/` directory already has 19 exam-specific images (neet, jeemain, upsc, cat, etc.) but 109 exams lack them.
+
+**Fix applied**: Added `image={\`/og-notes/exam-${exam.examId}.jpg\`}` prop to the Layout component in `src/pages/exams/[exam].astro` line 210. Now all 128 exam hub pages will serve their exam-specific OG image where available, and the generic fallback elsewhere.
+
+**Committed**: `56d2fe2` — "Growth cycle fix: add exam-specific OG image to exam hub pages"
+
+### 🟡 Next Backlog Item
+- **Notes topic pages** (`notes/[exam]/[subject]/[topic].astro`) may also benefit from OG images — check og-notes for matching subject/topic images (e.g. `jeemain-chemistry-chem-001.jpg`)

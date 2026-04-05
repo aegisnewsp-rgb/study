@@ -2856,3 +2856,28 @@ Reverted `astro.config.mjs` site URL and `scripts/fix-sitemap.cjs` hardcoded dom
 ### Backlog Notes
 - VPS deploy script verified at `/srv/studyroadmap/deploy.sh`
 - `npm run build` includes postbuild hook → will run new fix-sitemap.cjs on next build
+
+---
+
+## Research Run 15 | 2026-04-05 05:34 UTC
+
+### Site Status
+- Homepage: 200 ✅ | /exams/neet/: 301 ✅ | /notes/neet/physics/: 301 ✅
+- Deploy service: DOWN — POST /deploy returns 400 Bad Request (recurring CrashLoopBackOff)
+
+### Issue Found & Fixed
+`scripts/fix-sitemap.cjs` could not extract exam IDs — was reading only re-export index files.
+**Root cause:** Exam IDs (`examId: 'neet'`) are in individual exam definition files like
+`src/data/exams/india/neet.ts`, not in the index re-export files.
+
+**Fix:** Rewrote script to recursively scan `src/data/exams/` subdirectories and extract
+`examId` from each `.ts` file using `/examId\s*:\s*['"]([^'"]+)['"]/` regex.
+
+### Result
+- Build: **3349 pages** | 4 new exam URLs added to sitemap (128 total exams known)
+- Deploy: **FAILED** — service still returning 400 (same recurring crash issue)
+- Commit: `abca337` — sitemap exam ID extraction fix
+
+### Backlog
+- **Deploy service recurring crash** — needs external intervention to restart
+- Exam pages correctly added to dist/sitemap-0.xml; will deploy when service recovers

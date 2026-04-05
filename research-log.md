@@ -4040,3 +4040,26 @@ sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deplo
 sudo sed -i 's/Restart=no/Restart=always/' /etc/systemd/system/studyroadmap-deploy.service
 sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
 ```
+
+## 2026-04-05 09:34 UTC — Growth Cycle
+
+**Site Status:** Live at studyroadmap.in (HTTP 200). Sitemap serving with 3200+ URLs.
+
+**Checks Performed:**
+- Homepage: ✅ 200 OK
+- Exam page (NEET): ✅ 200 OK, correct title
+- Notes index: ✅ 200 OK
+- Sitemap: ✅ Serving at /sitemap-0.xml with all notes pages
+- Orphaned notes dirs: Found 3 empty untracked directories (apeamc, gujcet, upsee)
+- public/exams.json: Stale — only 20 exams (should be 100+)
+
+**Issue Found:**
+1. **Orphaned empty notes directories** — `src/pages/notes/apeamc/`, `src/pages/notes/gujcet/`, `src/pages/notes/upsee/` contained only empty subdirectories. Not linked to any exam data. Removed.
+2. **Stale public/exams.json** — only 20 exams listed vs 128 actual exams in data files. Regenerated from src/data/exams/ TypeScript files.
+
+**Changes Made:**
+- Removed orphaned empty `apeamc`, `gujcet`, `upsee` directories from src/pages/notes/
+- Regenerated public/exams.json: 20 exams → 128 exams, 97 subjects, 1504 topics
+- Committed: 0289e0a
+
+**Backlog Status:** No change. Main blockers remain: GSC verification (needs user), GitHub push (blocked), deploy service (needs user SSH fix), Formspree signup (needs user).

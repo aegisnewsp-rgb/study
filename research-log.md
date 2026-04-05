@@ -60,3 +60,24 @@
 ### ✅ Completed This Run
 - Monitoring cycle: site healthy, news 10 items ✅, sitemap 3,352 URLs ✅, all pages healthy ✅
 - No code changes (nothing actionable — all high-value improvements complete, pending user input for remaining items)
+
+## Research Findings — 2026-04-05 10:39 UTC
+
+### 🔴 Critical (fix immediately)
+- None — site is healthy
+
+### 🟡 Important (fix this cycle)
+- None — all high-value SEO implemented; remaining items need user input (GSC code, AdSense account, VPS SSH fix)
+
+### 🟢 Quick Wins (easy improvements)
+- Sitemap locally correct (3,354 URLs, 131 exam pages) but live site may be serving stale sitemap from container (deploy service keeps dying post-build). Verified locally: sitemap fix postbuild script is working ✅
+
+### 📊 Traffic Opportunities
+- Site: HTTP 200 ✅ | Sitemap locally: 3,354 URLs (131 exam pages) ✅ | Notes: 1 ✅
+- Deploy service recurring crash (Type=oneshot) means live sitemap may lag — user SSH fix still pending
+- All high-value SEO: complete ✅ | Pending user: GSC code, AdSense, Formspree ID, SSH deploy fix
+
+### ✅ Completed This Run
+- Monitoring cycle: site healthy, news 10 items ✅, sitemap locally 3,354 URLs ✅
+- Build: confirmed working with postbuild sitemap fix script ✅
+- No code changes (nothing actionable — all high-value improvements complete, pending user input)

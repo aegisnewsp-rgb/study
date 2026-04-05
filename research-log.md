@@ -127,22 +127,14 @@
 
 ---
 
-## Growth Cycle — 2026-04-05 10:52 UTC
+## Growth Cycle — 2026-04-05 11:14 UTC
 
-**Pages checked:** Homepage (200 ✅), /exams/neet/ (200 ✅), /notes/neet/physics/ (200 ✅)
+**Site health:** Homepage 200 ✅ | /roadmap 301 ✅ | /exams/neet 301 ✅
+**News:** 10 items ✅ (India: 4, Nigeria: 4, Pakistan: 2) — committed e648e1c
+**Git:** clean (only research-log.md committed this cycle)
+**Deploy:** endpoint may be down (port 9000 404 from sandbox; latest prod build is 326b7cb)
 
-**SEO signals across all 3 pages:**
-- Canonical, OG, Twitter Card, hreflang (en-IN/PK/NG/x-default) — ✅
-- FAQPage JSON-LD — ✅
-- WebSite + SearchAction schema — ✅
-- Organization schema — ✅
-- No noindex/robots issues — ✅
-
-**Sitemap:** Live sitemap-0.xml confirmed with thousands of topic pages ✅
-
-**Latest commit on prod:** `199842b Fix schema.org domain mismatch: all URLs now use studyroadmap.in`
-
-**Status:** Site healthy. No actionable code changes this cycle. All remaining items (GSC verification, AdSense, Formspree, deploy backend fix) require user input. Monitoring continues.
+**Status:** Monitoring — all high-value SEO complete. Pending user: GSC code, AdSense account, deploy service SSH fix.
 
 ## Research Findings — 2026-04-05T10:55 UTC
 

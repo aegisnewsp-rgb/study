@@ -1747,3 +1747,32 @@ sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
 - Build: 3347 pages ✅
 - GitHub: pushed ✅
 - Deploy: blocked (deploy service down — recurring issue)
+
+---
+
+## Research Findings — 2026-04-05T01:53 UTC
+
+### 🔴 Critical (fix immediately)
+- None — site healthy
+
+### 🟡 Important (fix this cycle)
+- Deploy service still broken — POST /deploy returns 400 (empty) or 403 (JSON). Service partially alive but endpoint not accepting requests. No SSH access to fix systemd service.
+
+### 🟢 Quick Wins (easy improvements)
+- None available — all high-value SEO items complete
+- All remaining backlog items need user input (GSC code, AdSense, SSH for deploy service)
+
+### 📊 Traffic Opportunities
+- Site at "80+ Exams" — could update to "125+ Exams" in title/meta once deploy service is fixed
+- All structured data, schemas, internal linking complete
+
+### ✅ Completed This Run
+- News refresh: 10 items (India: 4, Nigeria: 4, Pakistan: 2) ✅
+- Site check: HTTP 200 ✅
+- Deploy endpoint: 400/403 — broken, no fix available
+- No code changes (no uncommitted changes in workspace)
+
+### ⚠️ Blockers (needs user)
+1. **Deploy service fix** — SSH needed: `sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service && sudo sed -i 's/Restart=no/Restart=always/' && sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy`
+2. **GSC verification code** — replace `YOUR_VERIFICATION_CODE_HERE` in Layout.astro
+3. **Bing verification code** — replace `BING_VERIFICATION_CODE` in Layout.astro

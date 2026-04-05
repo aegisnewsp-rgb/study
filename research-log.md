@@ -1293,3 +1293,28 @@ sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
 - Identified critical domain DNS/parking issue
 - No code changes made (nothing to deploy anyway — deploy backend is down)
 - News: not checked (site unreachable at domain)
+
+## Research Findings — 2026-04-05T00:36 UTC
+
+### 🔴 Critical (fix immediately)
+- None — site is healthy at studyroadmap.in
+
+### 🟡 Important (fix this cycle)
+- None — all code improvements complete; remaining items all need user action
+
+### 🟢 Quick Wins (easy improvements)
+- **News refreshed**: 10 fresh items saved to public/news.json (JEE Mains Session 2, WAEC, MDCAT, UPSC coaching)
+- llm.txt already dated 2026-04-05 ✅
+- All SEO signals intact across 3 checked pages (homepage, /exams/neet/, /notes/)
+
+### 📊 Traffic Opportunities
+- studyroadmap.in is live and healthy ✅
+- studyroadmap.com still parked on Hostinger DNS (user must renew/fix)
+- All 10 news items current — supports "recent content" E-E-A-T signal
+
+### ✅ Completed This Run
+- Homepage, NEET exam page, Notes index — all SEO/meta/structured data intact ✅
+- news.json refreshed: 10 items (India×4, Nigeria×4, Pakistan×2) ✅
+- llm.txt date: 2026-04-05 ✅
+- No deploy — nothing to commit (prior news fetch committed automatically)
+- Remaining blockers all need user SSH/action (deploy backend fix, GSC codes, Formspree, AdSense)

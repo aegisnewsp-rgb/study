@@ -3923,3 +3923,31 @@ Workspace has significant improvements NOT yet live:
 - MiniMax API top-up — for further knowledge-base content generation
 
 **Recommendation:** Site is production-ready. Priority blocker is the deploy service fix (prevents new builds from going live). Please run the SSH command from improvement-backlog.md item #6.
+
+---
+
+## Research Cycle — 2026-04-05 09:08 UTC
+
+**Pages checked:** homepage, /exams/neet/, sitemap-0.xml (production live)
+
+**Findings:**
+- Homepage: ✅ All SEO meta/OG tags correct
+- NEET exam page: ✅ Schema + meta/canonical correct
+- Production sitemap: Confirmed live at studyroadmap.in/sitemap-0.xml — 3,352+ URLs
+- news.json: 10 items from 2026-04-05 (UPSC, JEE, BPSC, JAMB, WAEC, NDA) — format is list (not object), display code compatible
+- All major SEO complete per backlog Cycle 86 summary
+- deploy service: still needs SSH fix (Type=oneshot → Type=simple, Restart=no → Restart=always)
+- news.json format: list-of-objects, correctly served as 200 OK from public/news.json
+
+**Improvement made this cycle:** None — site is in excellent shape. All major SEO complete. Monitoring active.
+
+**Outstanding items (all need user input):**
+- GSC verification code — placeholder in Layout.astro
+- AdSense integration — needs account + code
+- Deploy service fix — needs SSH: 3 commands from improvement-backlog.md item #6
+- Formspree feedback form ID — placeholder in feedback.astro
+- Bing Webmaster verification code
+- MiniMax API top-up — for further knowledge-base content generation
+- news.json cron job may be failing silently — fetch_news.py timed out this cycle (network) but news display is working
+
+**Recommendation:** Site is production-ready. Priority blocker is the deploy service fix (prevents new builds from going live). Please run the SSH command from improvement-backlog.md item #6.

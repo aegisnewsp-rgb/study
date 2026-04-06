@@ -1,7 +1,4 @@
 ---
-
-
-
 exam: jamb
 examName: JAMB UTME
 subject: english
@@ -12,77 +9,110 @@ weight: 3
 country: nigeria
 generated: "2026-03-24T08:32:07.702628"
 diagramPrompt: Educational diagram illustrating Active and Passive Voice with clear labels, white background, exam-style illustration
-
-
-
 ---
+
 # Active and Passive Voice
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Active and Passive Voice** — Quick Facts
-Core concept: Active and Passive Voice is a key topic in this subject area
-High-yield points: Key definitions, formulas, and facts for last-minute revision
-⚡ Exam tip: Focus on understanding over memorisation — application is everything
+**Active vs. Passive Voice** — Quick Facts
+- **Active voice:** The subject performs the action. "The dog bit the man."
+- **Passive voice:** The subject receives the action. "The man was bitten by the dog."
+- In passive, the object of the active verb becomes the subject
+
+**Passive Structure:** Subject + be verb (am/is/are/was/were/been/being) + past participle (+ by agent)
+
+**Tense-wise Conversion (Present/Past)**
+| Active | Passive |
+|---|---|
+| He writes a letter. | A letter is written (by him). |
+| He wrote a letter. | A letter was written (by him). |
+| He has written a letter. | A letter has been written (by him). |
+
+⚡ **Exam Tip:** JAMB frequently asks you to identify or transform sentences between active and passive. The key is getting the correct form of "be" + past participle. If you see "by + agent," the sentence is almost certainly passive.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Active and Passive Voice** — Study Guide
-Overview: Active and Passive Voice is part of the core syllabus
-Key concepts: Build a clear understanding of fundamentals
-Standard questions: Typical patterns seen in competitive exams
+**Full Tense Conversion Chart**
+
+| Tense | Active | Passive |
+|---|---|---|
+| Present Simple | He writes | is written |
+| Present Continuous | He is writing | is being written |
+| Present Perfect | He has written | has been written |
+| Past Simple | He wrote | was written |
+| Past Continuous | He was writing | was being written |
+| Past Perfect | He had written | had been written |
+| Future Simple | He will write | will be written |
+| Future Perfect | He will have written | will have been written |
+| Present Infinitive | to write | to be written |
+| Past Infinitive | to have written | to have been written |
+
+**When to Prefer Passive Voice**
+1. The agent (doer) is unknown: "My wallet was stolen."
+2. The agent is irrelevant: "Smoking is prohibited here."
+3. The recipient is more important: "The president was assassinated."
+4. To be diplomatic/formal: "It is believed that..." rather than "People believe..."
+5. To emphasise the action rather than the actor
+
+**Modal Verbs in Passive**
+Structure: Modal + be + past participle
+- can be done / could be done
+- may be done / might be done
+- must be done
+- should be done / ought to be done
+- will be done / would be done
+
+Examples:
+- The assignment must be submitted by Friday.
+- The results could be released next week.
+
+⚡ **JAMB Trap:** "The letter is writing by him" is wrong. In passive voice, you NEVER use "is writing" — you use "is written" (be + past participle). The verb after "be" is always the past participle, never the present participle.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-**Active and Passive Voice** — Comprehensive Notes
-Full coverage: Active and Passive Voice with detailed explanation
-Extended theory: Deeper understanding for thorough preparation
-Practice: Solve previous year questions and standard textbook exercises
+**Impersonal Passive (It + Passive)**
+Used in formal English to report thoughts and sayings:
+- It is said that... = People say...
+- It is believed that... = People believe...
+- It is known that... = Everyone knows...
+- It is reported that... = Someone reports...
+- It has been proved that... = Someone has proved...
 
----
+**Causative Have (Have/Get Something Done)**
+- Active causative: "She had the tailor make a dress." (she causes the tailor to act)
+- Passive causative: "She had a dress made (by the tailor)." (the dress is the object of the action)
 
+**Special Passive Constructions**
+1. **Object + to be + past participle:** This form is always passive.
+   - I consider him to be honest. (him = object; to be honest = passive)
+   - We believed her to have left. (perfect infinitive passive)
 
----
-## 📊 JAMB Exam Essentials
+2. **Some verbs that DON'T take passive:**
+   - Intransitive verbs: sleep, die, arrive, happen (no object to promote)
+   - "He died a hero." NOT "A hero was died by him."
 
-| Detail | Value |
+**JAMB Active/Passive MCQ Patterns**
+1. Identify the passive form: "The man ___ the thieves." → Options include: was seen, was seeing, has seen → Answer: was seen (by the thieves)
+2. Transform to passive: "Someone has stolen my bicycle." → "My bicycle ___."
+3. Spot the error: "The meal was ate by me." → Should be "The meal was eaten by me."
+4. Modal passive: "You should submit the form." → "The form should ___."
+5. Tense identification: "By the time we arrived, the guests had been served." → This is which tense? → Past Perfect Passive
+
+**Common JAMB Errors in Passive Voice**
+| Error | Correction |
 |---|---|
-| Questions | 180 MCQs (UTME) |
-| Subjects | 4 subjects (language + 3 for course) |
-| Time | 2 hours |
-| Marking | +1 per correct answer |
-| Score | 400 max (used for university admission) |
-| Registration | January – February each year |
+| The letter is writing by him | The letter is written by him |
+| The work was did yesterday | The work was done yesterday |
+| She has be chosen captain | She has been chosen captain |
+| He was bore by the lecture | He was bored by the lecture |
+| The cake was ate quickly | The cake was eaten quickly |
 
-### 🎯 High-Yield Topics for JAMB
-- Use of English (Grammar + Comprehension) — 60 marks
-- Biology for Science students — 40 marks
-- Chemistry (Organic + Physical) — 40 marks
-- Physics (Mechanics + Optics) — 35 marks
-- Mathematics (Algebra + Geometry) — 40 marks
-
-### 📝 Previous Year Question Patterns
-- Q: "The process of photosynthesis requires..." [2024 Biology]
-- Q: "The electronic configuration of Fe is..." [2024 Chemistry]
-- Q: "Find the value of x if 2x + 5 = 15..." [2024 Mathematics]
-
-### 💡 Pro Tips
-- Use of English carries the most weight — master grammar rules and comprehension strategies
-- JAMB syllabus is your Bible — questions come directly from it. Download and use it.
-- Past questions are highly predictive — repeat patterns appear every year
-- For Science students, Biology and Chemistry are high-scoring if you study NCERT-level content
-
-### 🔗 Official Resources
-- [JAMB Official](https://www.jamb.gov.ng/)
-- [JAMB Syllabus](https://www.jamb.gov.ng/syllabus)
-
----
-
-*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+⚡ **Previous Year JAMB Focus:** Active and passive voice questions appear in 3-5 MCQs per Use of English paper. The most common format is identifying the correct passive transformation of a given active sentence. Students are also tested on modal passive ("should be done," "must be submitted") and tense-based passive forms, especially the present perfect and past perfect passive.

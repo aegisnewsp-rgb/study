@@ -1,7 +1,4 @@
 ---
-
-
-
 exam: jamb
 examName: JAMB UTME
 subject: english
@@ -12,77 +9,100 @@ weight: 3
 country: nigeria
 generated: "2026-03-24T08:32:07.704402"
 diagramPrompt: Educational diagram illustrating Prepositions with clear labels, white background, exam-style illustration
-
-
-
 ---
+
 # Prepositions
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
 **Prepositions** — Quick Facts
-Core concept: Prepositions is a key topic in this subject area
-High-yield points: Key definitions, formulas, and facts for last-minute revision
-⚡ Exam tip: Focus on understanding over memorisation — application is everything
+A preposition is a word that shows the relationship between a noun/pronoun and another word in the sentence. Prepositions indicate time, place, direction, manner, cause, and possession.
+
+**Types of Prepositions**
+- **Time:** at, in, on, during, before, after, by, until
+- **Place/Position:** at, in, on, under, over, between, among, behind, in front of, beside
+- **Direction:** to, from, toward(s), into, out of, through
+- **Manner:** by, with, without, like
+- **Cause/Reason:** because of, due to, owing to, thanks to
+- **Possession:** of
+
+⚡ **Exam Tip:** The most tested JAMB pattern is choosing the correct preposition after specific verbs and adjectives. "Consist of," "capable of," and "interested in" are fixed — memorise them as collocations.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Prepositions** — Study Guide
-Overview: Prepositions is part of the core syllabus
-Key concepts: Build a clear understanding of fundamentals
-Standard questions: Typical patterns seen in competitive exams
+**Preposition of Time — At, In, On**
+| Preposition | Use | Example |
+|---|---|---|
+| **At** | Exact time points, festivals | at 9 o'clock, at Christmas, at noon |
+| **In** | Months, years, seasons, long periods | in March, in 2024, in the morning*, in winter |
+| **On** | Specific days, dates | on Monday, on 15th March, on Independence Day |
+
+*Note: "In the morning/afternoon/evening" but "At night"
+
+**Preposition of Place — At, In, On**
+- **At** = a specific point: at the door, at the bus stop, at the top of the page
+- **In** = an enclosed space: in the room, in Lagos, in the box
+- **On** = a surface: on the table, on the wall, on the ceiling
+
+**Key Collocations (Verb + Preposition)**
+- Arrive **at** (a place) / Arrive **in** (a country/city)
+- Knock **at** the door
+- Laugh **at** someone
+- Look **at** / Look **after** / Look **forward to**
+- Listen **to**
+- Depend **on**
+- Believe **in**
+- Consists **of**
+- Die **of** (disease) / Die **from** (injury)
+- Married **to** / Engaged **to**
+- Good **at** / Bad **at**
+- Proud **of** / Afraid **of**
+- Keen **on** / Similar **to** / Different **from**
+
+⚡ **JAMB Trap:** "Arrive in Nigeria" (country) but "arrive at the stadium" (specific place). Students lose marks here regularly.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-**Prepositions** — Comprehensive Notes
-Full coverage: Prepositions with detailed explanation
-Extended theory: Deeper understanding for thorough preparation
-Practice: Solve previous year questions and standard textbook exercises
+**Complex Prepositions (Two or Three Words)**
+- In front of, instead of, because of, due to, owing to, according to
+- With respect to, with regard to, in reference to, on behalf of
+- Prior to, subsequent to, adjacent to, relative to
 
----
+**Prepositional Verbs vs. Phrasal Verbs**
+Prepositional verbs always take a preposition before their object:
+- Look after the children (after = preposition)
+- Run into an old friend (into = preposition)
+- Come across a problem (across = preposition)
 
+Phrasal verbs have a particle (not a preposition) that changes meaning:
+- Look up (search for information)
+- Turn down (reject)
+- Break down (stop functioning)
 
----
-## 📊 JAMB Exam Essentials
+**"Due to" vs. "Owing to"**
+Both mean "because of," but traditionally "due to" follows a linking verb (be):
+- The cancellation was due to rain. ✓
+- Due to rain, the match was cancelled. ✗ (use "owing to" here)
 
-| Detail | Value |
-|---|---|
-| Questions | 180 MCQs (UTME) |
-| Subjects | 4 subjects (language + 3 for course) |
-| Time | 2 hours |
-| Marking | +1 per correct answer |
-| Score | 400 max (used for university admission) |
-| Registration | January – February each year |
+**Common JAMB Error Patterns**
+1. "I am interesting **in** studying" → "I am interested **in** studying"
+2. "He insisted **to** go" → "He insisted **on** going"
+3. "I will meet you **in** Monday" → "I will meet you **on** Monday"
+4. "She lives **at** Lagos" → "She lives **in** Lagos"
+5. "He succeeded **through** hard work" → ✓ (through is correct here — means "by means of")
 
-### 🎯 High-Yield Topics for JAMB
-- Use of English (Grammar + Comprehension) — 60 marks
-- Biology for Science students — 40 marks
-- Chemistry (Organic + Physical) — 40 marks
-- Physics (Mechanics + Optics) — 35 marks
-- Mathematics (Algebra + Geometry) — 40 marks
+**Standard JAMB-Style Questions on Prepositions**
+1. "The book is ___ the table." → on (surface)
+2. "She arrived ___ Lagos yesterday." → in (city/country)
+3. "The lecture begins ___ 9:00 a.m." → at (exact time)
+4. "He is good ___ Mathematics." → at
+5. "I depend ___ you for support." → on
 
-### 📝 Previous Year Question Patterns
-- Q: "The process of photosynthesis requires..." [2024 Biology]
-- Q: "The electronic configuration of Fe is..." [2024 Chemistry]
-- Q: "Find the value of x if 2x + 5 = 15..." [2024 Mathematics]
-
-### 💡 Pro Tips
-- Use of English carries the most weight — master grammar rules and comprehension strategies
-- JAMB syllabus is your Bible — questions come directly from it. Download and use it.
-- Past questions are highly predictive — repeat patterns appear every year
-- For Science students, Biology and Chemistry are high-scoring if you study NCERT-level content
-
-### 🔗 Official Resources
-- [JAMB Official](https://www.jamb.gov.ng/)
-- [JAMB Syllabus](https://www.jamb.gov.ng/syllabus)
-
----
-
-*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+⚡ **Previous Year JAMB Focus:** Preposition questions appear in both the Use of English (60 marks) and as supporting vocabulary in comprehension passages. The collocation patterns (verb + preposition, adjective + preposition) are the most frequently tested format. Past questions show 3-5 preposition MCQs per paper.

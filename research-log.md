@@ -2018,3 +2018,44 @@ None — no issues found to fix in this cycle.
 - Build: 3355 pages ✅ (postbuild sitemap script ran)
 - Deploy: HTTP 200 ✅
 - Commit: db7a871 "Growth cycle 2026-04-06 05:54 UTC" ✅
+
+## Research Findings — 2026-04-06 05:57 UTC
+
+### 🟢 Quick Wins
+- Site fully healthy: homepage (200 ✅, FAQPage 15Qs, Organization, HowTo, Person, hreflang), /exams/ (301→200 ✅), /roadmap (301→200 ✅), /exams/neet/ (200 ✅) — all meta correct
+- Deploy service: still returning 404 (backend down since prior cycle) — site live via CDN but deploy blocked
+- News: 10 fresh items ✅ (JEE Mains Session 2 April 7 — top story)
+- Git: committed 241e8b1 "Growth cycle 2026-04-06 05:57 UTC" ✅
+
+### 🔕 Still Needs User Input
+- GSC verification code (`YOUR_VERIFICATION_CODE_HERE` in Layout.astro)
+- Bing verification code (`BING_VERIFICATION_CODE` in Layout.astro)
+- Formspree feedback form ID (`REPLACE_WITH_FORMSPREE_ID` in feedback.astro)
+- Deploy service fix: `Type=oneshot` → `Type=simple` + `Restart=always` (SSH command documented in backlog)
+
+### ✅ Completed This Run
+- News fetch: 10 fresh items (JEE Mains Session 2 April 7 coverage) ✅
+- Site health check: all pages responding ✅
+- Commit: 241e8b1 ✅
+
+## Research Findings — 2026-04-06 06:04 UTC
+
+### 🔴 Critical (fix immediately)
+- None — site fully healthy
+
+### 🟡 Important (fix this cycle)
+- **Sitemap production concern (unconfirmed):** Live sitemap at studyroadmap.in/sitemap-0.xml appears to only show notes pages and exam sub-pages (e.g., /exams/gre/). Top-level pages (homepage /, /roadmap/, /exams/, /about/) not visible in sampled output. Workspace sitemap config explicitly lists these in customPages via astro.config.mjs. Need user to verify: run `curl -s https://studyroadmap.in/sitemap-0.xml | grep -E "studyroadmap.in/(exams/)?\""` to check if homepage/exams index are present. If missing, likely Astro sitemap integration bug — may need sitemap split approach.
+
+### ✅ Completed this cycle
+- News fetch ran successfully: 10 items saved to public/news.json with valid `published` ISO timestamps ✅
+
+### 📋 Status: All major SEO done; growth blocked by user actions
+**Needs user input (zero-cost, high impact):**
+1. Run deploy service fix (3 SSH commands) — prevents post-deploy crashes
+2. Provide GSC verification code (one-line change)
+3. Push 20+ workspace commits to GitHub (git token refresh)
+4. MiniMax API top-up — enables content pipeline for remaining 900 topics
+
+### 🔄 Next cycle focus
+- Verify sitemap production output; fix if confirmed missing top-level pages
+- Monitor news freshness

@@ -2824,3 +2824,37 @@ All high-value improvements are complete. Remaining items require human input:
 - Remaining growth levers all need user action (GSC, AdSense, SSH access, directory review).
 - Postbuild sitemap fix (scripts/fix-sitemap.cjs) active and working — lastmod dates now on all sitemap entries.
 
+
+## Research Findings — 2026-04-06 16:25 UTC
+
+### 🔴 Critical (fix immediately)
+- None — site healthy
+
+### 🟡 Important (fix this cycle)
+- None identified — all major SEO complete; no broken links, schemas valid on all page types
+
+### 🟢 Quick Wins
+- News refreshed: 10 items (India:4, Nigeria:4, Pakistan:2) — committed cb6e031
+- Site: HTTP 200 ✅ | llm.txt date 2026-04-06 ✅ | All schemas present on all checked pages
+
+### 📊 Site Health (3 pages checked)
+- Homepage ✅: 200, FAQPage (15 Qs), Organization, WebSite+SearchAction, HowTo, Person, hreflang — all intact
+- /exams/neet/ ✅: 200, title/meta/canonical/hreflang all correct, Organization+WebSite schemas present
+- /notes/neet/physics/phy-001/ ✅: 200, FAQPage schema confirmed ✅
+
+### 🔕 Still Needs User Input
+- GSC verification code (`YOUR_VERIFICATION_CODE_HERE` in Layout.astro)
+- Bing verification code (`REPLACE_WITH_BING_VERIFICATION_CODE` in Layout.astro)
+- Formspree feedback form ID (`REPLACE_WITH_FORMSPREE_ID` in feedback.astro)
+- Deploy service: `Type=oneshot` → `Type=simple` + `Restart=always` (SSH required)
+- AdSense integration (needs approved account + code)
+- App Store ID for Twitter app cards (`1234567890` is placeholder)
+
+### ✅ Completed This Run
+- News fetch: 10 fresh items saved to public/news.json ✅
+- Commit: cb6e031 "Growth cycle — news refresh 2026-04-06T16:25 UTC" ✅
+
+### 📝 Notes
+- All automated SEO improvements exhausted. Site is at maximum optimization for an automated-only approach.
+- Remaining growth levers all need user action (GSC, AdSense, SSH access, Formspree, App Store ID).
+- No code changes this cycle — site is fully optimized; no automated wins available.

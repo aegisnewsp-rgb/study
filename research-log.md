@@ -2169,3 +2169,46 @@ User must fix the deploy service via SSH. After that, this cycle's orphaned `nee
 - **Build:** 3355 pages ✅ (65s)
 - **Deploy:** Could not reach deploy endpoint from sandbox (port 9000 refused connection — deploy service may not be running)
 - **Commit:** `405e65a` — queued for push when repo accessible
+
+## Research Findings — 2026-04-06 06:23 UTC
+
+### 🔴 Critical (fix immediately)
+- 3 orphaned `/exams/` URLs in sitemap returning 404:
+  - `https://studyroadmap.in/exams/sathe/` — exam data file removed (renamed to qimiyah in Cycle 80)
+  - `https://studyroadmap.in/exams/uaeu-cat/` — exam data file removed (renamed to uAeu_cat in Cycle 95)
+  - `https://studyroadmap.in/exams/%E5%B8%96ast/` (URL-encoded `帖ast`) — non-ASCII filename removed (Cycle 80)
+  - Also caught by improved fix-sitemap.cjs: `https://studyroadmap.in/exams/uAeu-cat/`
+  - All 4 confirmed 404 via live curl checks
+  - Root cause: fix-sitemap.cjs only removed entries for exam IDs still in source data, not exams fully deleted
+
+### 🟡 Important (fix this cycle)
+- fix-sitemap.cjs updated to scan ALL sitemap exam entries against dist/exams/ and remove any not generated
+  - Added STEP 0b: extract all /exams/{id}/ URLs from sitemap, check if id is in generatedExamIds
+  - If not in generatedExamIds → remove from sitemap
+
+### 🟢 Quick Wins
+- News refreshed: 10 items (India:4, Nigeria:4, Pakistan:2) — JEE Main Session 2 (April 7) active ✅
+
+### 📊 Site Health
+- Homepage ✅ 200, FAQPage (15 Qs), Organization, HowTo, hreflang, OG/Twitter ✅
+- /exams/neet/ ✅ 200 with FAQPage, HowTo, BreadcrumbList
+- /notes/neet/physics/ ✅ 200 with CollectionPage, ItemList, FAQPage
+- Sitemap: 3 orphaned entries removed (uaeu-cat, uAeu-cat, %E5%B8%96ast), now only valid generated exam pages
+
+### 🔕 Still Needs User Input
+- GSC verification code (`YOUR_VERIFICATION_CODE_HERE` in Layout.astro)
+- Bing verification code (`REPLACE_WITH_BING_VERIFICATION_CODE` in Layout.astro)
+- Formspree feedback form ID (`REPLACE_WITH_FORMSPREE_ID` in feedback.astro)
+- Deploy service fix: `Type=oneshot` → `Type=simple` + `Restart=always` (SSH command documented in backlog)
+
+### ✅ Completed This Run
+- fix-sitemap.cjs: added STEP 0b to remove orphaned exam sitemap entries
+- 3 orphaned /exams/ URLs removed from dist/sitemap-0.xml (uaeu-cat, uAeu-cat, %E5%B8%96ast — all 404)
+- News refreshed: 10 items to public/news.json
+- Commit: 2c4eedf "Growth cycle fix: remove 3 orphaned /exams/ URLs from sitemap"
+
+### 📝 Notes
+- Orphaned sitemap entries waste crawl budget (Googlebot hits 404s) and dilute sitemap quality
+- The previous fix-sitemap.cjs logic only caught orphan exams if they were still in source data; completely removed exams slipped through
+- The new STEP 0b fix handles both cases: exams renamed within source AND exams deleted from source
+- No other structural/meta issues found on homepage, /exams/neet/, or /notes/neet/physics/

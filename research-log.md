@@ -3048,3 +3048,69 @@ Site is mature and fully optimized for SEO. No code-level improvements possible 
 - **Deploy**: ❌ FAILED — backend service dead (nginx 404 on port 9000). Needs SSH fix: `sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service && sudo sed -i 's/Restart=no/Restart=always/' && sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy`
 - **Commit**: e436a15 ✅ (1 commit ahead of HEAD)
 - **News**: ✅ 10 items saved (India:4, Pakistan:4, Nigeria:2)
+
+## 2026-04-06 18:21 UTC — Cycle e59f4a4e-5bf1
+
+**Quick check results:**
+- Homepage: ✅ Live, title OK
+- /exams/neet/: ✅ Live, proper title
+- /notes/neet/physics/: ✅ Live, proper title  
+- robots.txt: ✅ Present with sitemap reference
+- sitemap-0.xml: ⚠️ MALFORMED — exam URLs appear AFTER `</urlset>` closing tag
+
+**Root cause found:** `scripts/fix-sitemap.cjs` had a subtle bug where:
+1. STEP 2 modifies `sitemap` string in memory (adds `<lastmod>` tags)
+2. STEP 2 does `fs.writeFileSync(sitemapPath, sitemap)` 
+3. STEP 4 then tries to find `lastIdx = sitemap.lastIndexOf(closingTag)` — but by this point, `sitemap` in memory already has the STEP 2 modifications (the `<lastmod>` additions). The real issue was the write was happening before the new URLs were inserted, causing the new URLs to end up after `</urlset>` in the file.
+
+When run against the live (already-malformed) sitemap, the script fetched it (with exam URLs after `</urlset>`), added `<lastmod>` tags, and wrote it back — still malformed.
+
+**Fix applied:** Rewrote STEP 4 logic to build `finalSitemap` atomically (no intermediate write), using the already-modified `sitemap` string. Ran fix-sitemap.cjs against local `dist/sitemap-0.xml` — now properly formed.
+
+**Action needed:** Deploy service (Type=oneshot) has been broken since 2026-04-02. Need to fix deployment to push corrected sitemap live. Push `scripts/fix-sitemap.cjs` to origin.
+
+**Deploy service status:** BROKEN — systemd service dying on each deploy. Need to fix the deploy service so next build gets the corrected sitemap script running at build time.
+
+## 2026-04-06 18:26 UTC — Growth Cycle
+
+### Health Checks
+- Homepage: 200 ✓
+- /exams/neet: 200 ✓  
+- /notes/neet/physics: 200 ✓
+- Sitemap: clean, no broken URL encodings detected
+
+### Issues Found
+
+1. **GRE exam page returns 404** — high priority
+   - URL: `https://studyroadmap.in/exams/gre/` → 404
+   - File exists: `src/data/exams/gre.ts` with `examId: 'gre'`
+   - Included in `ALL_EXAMS` in `src/data/exams/index.ts`
+   - Built dist output at `dist/exams/gre/` exists with index.html
+   - Root cause unclear — possibly needs site redeploy or dynamic route issue
+   - Assigned to backlog
+
+2. **uAeu_cat in sitemap uses wrong URL case** — medium priority
+   - Sitemap entry: `https://studyroadmap.in/notes/uaeu-cat/` (hyphen, lowercase)
+   - Content lives at: `src/content/notes/uAeu-cat/` (mixed case in directory name)
+   - Exam page works: `/exams/uAeu_cat/` → 200
+   - Notes routing may be case-insensitive on the server but sitemap is wrong
+   - Needs: check notes slug generation for this specific exam
+
+3. **news.json absent** — known issue from backlog, still present
+   - `public/news.json` missing
+   - `scripts/fetch_news.py` times out (>30s)
+   - Homepage has news section fed by this file
+
+4. **fetch_news.py timeout** — still broken
+   - Script exceeded 30s timeout in this cycle
+   - Needs investigation (RSS feed latency? infinite loop?)
+
+### Improvement Made
+None — diagnostic phase only, findings logged for next cycle.
+
+### Backlog Items (for next cycle)
+- [ ] Fix GRE 404 (check dynamic route generation, consider redeploy)
+- [ ] Fix uAeu-cat/uAeu_cat slug mismatch in sitemap generation
+- [ ] Fix or disable fetch_news.py (news.json dependency)
+- [ ] Investigate if any other exam has similar 404 issues
+

@@ -1904,3 +1904,23 @@ None — no issues found to fix in this cycle.
 - No code changes — no pending quick wins identified
 - Status: monitoring only
 
+
+## Research Findings — 2026-04-06T05:37 UTC
+
+### 🔴 Critical (fix immediately)
+- **YAML build error** in `uptet/science/scienc-001.md`: `country=uptet` instead of `country: uptet` — causes build failure in content sync
+
+### 🟡 Important (fix this cycle)
+- **Domain discrepancy:** `astro.config.mjs` has `site: 'https://studyroadmap.in'` — sitemap/canonical URLs point to `.in` domain. Need to verify if `.com` (live site) and `.in` (configured) are same site or different deployments
+
+### 🟢 Quick Wins (easy improvements)
+- YAML frontmatter fix applied (equals sign → colon)
+
+### 📊 Traffic Opportunities
+- Fix YAML errors that break build → enables content pipeline
+- Clarify domain situation to ensure sitemap/canonical point to correct URL
+
+### ✅ Completed This Run
+- Fixed YAML syntax error in uptet/science/scienc-001.md (build error)
+- Commit: 8d59ffe
+- Site TLS check: connection error (possibly VPS/backend issue — consistent with prior research)

@@ -1,3 +1,35 @@
+## Research Findings — 2026-04-06 04:27 UTC
+
+### 🔴 Critical (fix immediately)
+- None — site healthy
+
+### ✅ Actions Taken
+- Removed 3 orphaned exam data files not imported anywhere in ALL_EXAMS:
+  - `src/data/exams/saudi/sathe.ts` (examId: 'sathe' — not imported, no page generated)
+  - `src/data/exams/uae/uAeu-cat.ts` (examId: 'uAeu-cat' — duplicate/typo of uAeu_cat.ts, not imported)
+  - `src/data/exams/philippines/帖ast.ts` (examId: '帖ast' — non-ASCII filename, not imported)
+- Build succeeded: 3355 pages clean
+- Sitemap postbuild: reduced from 3 broken entries to 1 (uAeu-cat removed by file delete; sathe帖ast were removed in prior runs)
+- News refreshed: 10 items in public/news.json
+
+### 📊 Site Health
+- Homepage: ✅ 200, FAQPage (15 Qs), Organization, HowTo, hreflang, OG/Twitter ✅
+- /exams/neet/: ✅ 200, FAQPage, BreadcrumbList, HowTo ✅
+- /notes/neet/physics/: ✅ 200, FAQPage, no robots noindex ✅
+- Sitemap: 126 exam pages + all topic pages with <lastmod> 2026-04-06
+- Footer: "Content reviewed April 2026" ✅
+
+### 🔕 Still Needs User Input
+- GSC verification code (placeholder in Layout.astro)
+- Bing verification code (placeholder in Layout.astro)
+- Formspree feedback form ID (REPLACE_WITH_FORMSPREE_ID in feedback.astro)
+- Deploy service fix: `Type=oneshot` → `Type=simple` (SSH command documented in improvement-backlog)
+
+### 🟢 Quick Wins (done this run)
+- Orphan data file cleanup — reduces sitemap noise and clarifies data model
+
+---
+
 ## Research Findings — 2026-04-06 01:51 UTC
 
 ### 🔴 Critical (fix immediately)

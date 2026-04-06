@@ -3114,3 +3114,37 @@ None — diagnostic phase only, findings logged for next cycle.
 - [ ] Fix or disable fetch_news.py (news.json dependency)
 - [ ] Investigate if any other exam has similar 404 issues
 
+
+## Research Findings — 2026-04-06T18:39 UTC
+
+### 🔴 Critical
+- Deploy service DOWN — POST /deploy returns 404 (same recurring Type=oneshot issue)
+
+### 🟡 Important
+- Live news.json STALE — served at studyroadmap.in/news.json shows April 1 dates (5 days old)
+- Workspace news.json FRESH — has April 6 items (UPSC DAF, CSAT, etc.) — needs deploy to go live
+- 10 fresh news items ready in workspace, but blocked by deploy outage
+
+### 🟢 Quick Wins
+- Site health: Homepage ✅ FAQPage(15) + Org + WebSite + HowTo + Person schema
+- /exams/neet/ ✅ BreadcrumbList + FAQPage + HowTo (3-step prep)
+- /notes/neet/physics/ ✅ FAQPage + BreadcrumbList + correct meta
+- All major SEO: complete ✅
+- Sitemap auto-fixed: removed 3 broken exam entries (uaeu-cat, uAeu-cat, Chinese-char) ✅
+
+### 📊 Traffic Opportunities
+- JEE Main Session 2 begins April 7 (tomorrow from now) — top current search story
+- News in workspace has UPSC content (DAF, CSAT syllabus) — fresh and relevant
+- Deploy needed to surface fresh news to Google crawlers
+
+### ✅ Completed This Run
+- fetch_news.py: refreshed 10 news items (UPSC DAF, CSAT 2026, Physics Wallah content)
+- Build: succeeded (3346 pages) — news embedded statically at build time
+- Deploy: BLOCKED (service down again — user needs to run SSH fix for Type=oneshot)
+- Workspace clean — no pending changes (news.json was already committed)
+
+### ⚠️ Recurring: Deploy Service
+systemd service crashes after each deploy. User SSH fix needed:
+sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service
+sudo sed -i 's/Restart=no/Restart=always/' /etc/systemd/system/studyroadmap-deploy.service
+sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy

@@ -41,16 +41,16 @@ const FEEDBACK_FAQS = [
       </p>
     </div>
 
-    <!-- NOTE: Replace formId below with your Formspree form ID after registering at formspree.io -->
-    <!-- Or change to mailto:contact@studyroadmap.in if you prefer email-based feedback -->
+    <!-- Formspree not configured — using mailto fallback until a form service ID is provided -->
     <form
       id="feedback-form"
-      action="https://formspree.io/f/REPLACE_WITH_FORMSPREE_ID"
+      action="mailto:contact@studyroadmap.in?subject=[StudyRoadmap Feedback]"
       method="POST"
+      enctype="text/plain"
       class="space-y-5"
     >
-      <input type="hidden" name="_subject" value="[StudyRoadmap Feedback]" />
-      <input type="hidden" name="_redirect" value="/feedback?sent=1" />
+      <!-- NOTE: To re-enable AJAX form submissions, replace the mailto action above with:
+           action="https://formspree.io/f/YOUR_FORMSPREE_ID" and add method="POST" -->
 
       <!-- Page URL -->
       <div>

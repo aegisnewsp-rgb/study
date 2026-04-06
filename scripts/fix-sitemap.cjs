@@ -56,11 +56,22 @@ const BASE_URL = 'https://studyroadmap.in';
 // Read raw sitemap
 let sitemap = fs.readFileSync(sitemapPath, 'utf8');
 
-// STEP 0: Remove existing sitemap entries for exam pages that were never generated (404s)
+// STEP 0a: Remove existing sitemap entries for exam pages that were never generated (404s)
 const brokenUrls = [];
 for (const id of examIds) {
   if (!generatedExamIds.has(id)) {
     brokenUrls.push(`${BASE_URL}/exams/${id}/`);
+  }
+}
+// STEP 0b: Also remove any /exams/{id}/ entries in the sitemap that no longer exist
+// as generated pages — covers cases where exam data files were deleted entirely
+const examUrlInSitemap = new Set();
+const sitemapLocMatches = sitemap.matchAll(/<loc>([^<]*\/exams\/([^<]+)\/)<\/loc>/g);
+for (const m of sitemapLocMatches) {
+  const url = m[1];
+  const id = m[2].toLowerCase();
+  if (!generatedExamIds.has(id)) {
+    brokenUrls.push(url);
   }
 }
 if (brokenUrls.length > 0) {

@@ -2146,3 +2146,26 @@ User must fix the deploy service via SSH. After that, this cycle's orphaned `nee
 - UPTET content improvement: 2 social studies notes expanded (+350 insertions) ✅
 - Git commit: 96a1d07 ✅
 
+
+## Research Findings — 2026-04-06 06:15 UTC
+
+### 🔴 Critical (fix immediately)
+- None — site healthy, all key pages returning 200
+
+### 🟡 Important (fix this cycle)
+- Exam hub pages (/exams/{exam}) missing Person Schema — homepage, roadmap, about, notes all have it but exam hub pages didn't
+
+### 🟢 Quick Wins (easy improvements)
+- Add `author` prop to Layout call in `src/pages/exams/[exam].astro` — adds Person Schema (E-E-A-T) to all 124 exam hub pages
+- News.json: 10 fresh items ✅ (CDS Admit Card 2026 latest from 04:41 UTC today)
+
+### 📊 Traffic Opportunities
+- All major SEO improvements already implemented
+- Person Schema on exam hub pages now strengthens E-E-A-T for individual exam queries in Google
+
+### ✅ Completed This Run
+- **Change:** Added Person Schema (`StudyRoadmap Editorial Team`, `Curriculum Editors`) to all 124 exam hub pages
+- **File:** `src/pages/exams/[exam].astro` — added `authorObj` in frontmatter + `author={authorObj}` to Layout
+- **Build:** 3355 pages ✅ (65s)
+- **Deploy:** Could not reach deploy endpoint from sandbox (port 9000 refused connection — deploy service may not be running)
+- **Commit:** `405e65a` — queued for push when repo accessible

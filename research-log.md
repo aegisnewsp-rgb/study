@@ -2424,3 +2424,24 @@ User must fix the deploy service via SSH. After that, this cycle's orphaned `nee
 ### No changes made this cycle
 No urgent issues found. All critical SEO elements are in place.
 
+
+---
+
+## Research Findings — 2026-04-06T08:22 UTC
+
+### 🔴 Critical (fix immediately)
+- None — site is healthy, all major SEO complete
+
+### 🟡 Important (fix this cycle)
+- `src/data/exams-new/` was a large dead-code directory (300 files, 8,505 deletions) — staging area from Cycle 49's 100-exams expansion, completely unreferenced in source. Removed entirely. No functional impact but eliminates future confusion and reduces repo size.
+
+### 🟢 Quick Wins (easy improvements)
+- Sitemap fix script still removing `uaeu-cat` URL for `uAeu_cat` page — bug in the script: it normalizes source examId `uAeu_cat` → `uaeu-cat` but dist directory is `uAeu_cat` (un-normalized). Script incorrectly flags valid page as broken. Low impact since the actual `uAeu_cat` page IS in the sitemap (added in STEP 4). Not critical but should be fixed.
+
+### 📊 Traffic Opportunities
+- JEE Main 2026 Session 2 begins **tomorrow (April 7)** — already in news ticker (10 items). No exam-date alert banner on homepage or JEE Main exam page. Time-sensitive opportunity: students searching for last-minute Session 2 prep. A prominent "Session 2 begins April 7" notice on the homepage or `/exams/jeemain/` page could capture high-intent traffic right now.
+- GSC, Bing, AdSense codes still pending from user — no changes possible without these
+
+### ✅ Completed This Run
+- Removed `src/data/exams-new/` (300 dead files from Cycle 49 staging area)
+- Build: 3346 pages ✅ | Commit: f847469 ✅ | Site live ✅ | News 10 items ✅

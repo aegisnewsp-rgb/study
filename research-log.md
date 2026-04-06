@@ -1,3 +1,31 @@
+## Research Findings — 2026-04-06 00:04 UTC
+
+### 🔴 Critical (fix immediately)
+- None — all major SEO complete
+
+### 🟡 Site Health
+- Homepage: ✅ 200, FAQPage (15 Qs), Organization, news section
+- /exams/neet/: ✅ 200, BreadcrumbList, FAQPage (3 NEET Qs), exam pattern, eligibility ✅
+- /notes/neet/physics/: ✅ 200, subject index page
+- Sitemap: ✅ includes exam pages (aau, accagl, acsee... confirmed in live sitemap-0.xml)
+- Footer: ✅ "Content reviewed April 2026" — already current
+- News: ✅ 10 items refreshed (India:4, Nigeria:4, Pakistan:2)
+
+### 🟢 Quick Wins
+- All major SEO done — remaining items need user input (GSC code, AdSense account, VPS SSH fix for deploy service)
+- Exam page "Updated" dates are data-driven — user should review `src/data/exams/` files for accuracy
+
+### 📊 Traffic Opportunities
+- All structured data in place (FAQPage, Organization, WebSite, HowTo, BreadcrumbList, CollectionPage)
+- Sitemap now includes all 124 exam pages ✅
+- Growth now depends on: GSC submission, backlink building, content expansion
+
+### ✅ Completed This Run
+- News refresh: 10 items (India:4, Nigeria:4, Pakistan:2)
+- Commit: b886ef0
+
+---
+
 ## Research Findings — 2026-04-05 16:38 UTC
 
 ### 🔴 Critical (fix immediately)

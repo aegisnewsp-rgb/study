@@ -1,3 +1,41 @@
+## Research Findings — 2026-04-06 08:09 UTC
+
+### 🔴 Critical (fix immediately)
+- None — site healthy
+
+### 🟡 Important (fix this cycle)
+- None identified — all major SEO complete
+
+### 🟢 Quick Wins
+- News refreshed: 10 items (India:4, Nigeria:4, Pakistan:2) — JEE Advanced foreign/OCI registration news prominent today
+- Build clean: 3355+ pages, sitemap postbuild added <lastmod> to all entries
+
+### 📊 Site Health
+- Homepage ✅: 200, all schemas present
+- /exams/neet/ ✅: 200 (trailing slash)
+- /notes/neet/physics/ ✅: 200 (trailing slash)
+- Sitemap: All URLs with <lastmod> 2026-04-06
+- Footer: "Content reviewed April 2026" ✅
+
+### 🔕 Still Needs User Input
+- GSC verification code (`YOUR_VERIFICATION_CODE_HERE` in Layout.astro)
+- Bing verification code (`REPLACE_WITH_BING_VERIFICATION_CODE` in Layout.astro)
+- Formspree feedback form ID (`REPLACE_WITH_FORMSPREE_ID` in feedback.astro)
+- Deploy service fix: `Type=oneshot` → `Type=simple` + `Restart=always` (SSH command documented in backlog)
+
+### ✅ Completed This Run
+- News fetch: 10 fresh items saved to public/news.json ✅
+- Build: clean, postbuild sitemap fix ran ✅
+- Commit: b174845 "Growth cycle — news refresh + sitemap lastmod 2026-04-06" ✅
+
+### 📝 Notes
+- All high-value SEO automated improvements exhausted. Site is comprehensively optimized.
+- Remaining growth levers are either user-actionable (GSC, AdSense, directory submissions) or content-related (top-up MiniMax quota for more topic notes).
+- JEE Advanced 2026 registration news (foreign/OCI candidates) is hot right now — good time to ensure those pages are indexed.
+- No structural or meta issues found on any of 3 checked pages.
+
+---
+
 ## Research Findings — 2026-04-06 04:27 UTC
 
 ### 🔴 Critical (fix immediately)

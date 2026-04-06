@@ -6,7 +6,7 @@ subjectName: Science
 topic: scienc-001
 topicName: Topic 1
 weight: 3
-country=uptet
+country: uptet
 generated: "2026-03-25T17:00:00"
 ---
 

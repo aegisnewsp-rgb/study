@@ -97,6 +97,7 @@ const CONTACT_FAQS = [
                 id="name"
                 name="name"
                 required
+                autocomplete="name"
                 placeholder="Priya Sharma"
                 class="w-full px-3 py-2 rounded-lg border border-surface-300 dark:border-surface-700 bg-white dark:bg-surface-800 text-surface-900 dark:text-white text-sm placeholder-surface-400 focus:outline-none focus:ring-2 focus:ring-brand-500"
               />
@@ -108,6 +109,7 @@ const CONTACT_FAQS = [
                 id="email"
                 name="email"
                 required
+                autocomplete="email"
                 placeholder="priya@example.com"
                 class="w-full px-3 py-2 rounded-lg border border-surface-300 dark:border-surface-700 bg-white dark:bg-surface-800 text-surface-900 dark:text-white text-sm placeholder-surface-400 focus:outline-none focus:ring-2 focus:ring-brand-500"
               />
@@ -138,6 +140,8 @@ const CONTACT_FAQS = [
               name="message"
               required
               rows="5"
+              maxlength="2000"
+              autocomplete="off"
               placeholder="Tell us what's on your mind — a missing exam, a topic that needs better notes, or just a suggestion..."
               class="w-full px-3 py-2 rounded-lg border border-surface-300 dark:border-surface-700 bg-white dark:bg-surface-800 text-surface-900 dark:text-white text-sm placeholder-surface-400 focus:outline-none focus:ring-2 focus:ring-brand-500 resize-none"
             ></textarea>

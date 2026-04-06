@@ -2390,3 +2390,37 @@ User must fix the deploy service via SSH. After that, this cycle's orphaned `nee
 1. **Deploy service crashes** — SSH command needed to fix systemd Type=oneshot → Type=simple + Restart=always
 2. **GSC verification** — placeholder in Layout.astro; user needs to provide real code
 3. **AdSense** — needs approved account + code injection
+
+## 2026-04-06 08:14 UTC
+
+### Site Health: studyroadmap.in ✅
+
+**Sitemap:** 3,354 URLs (well above 1,000 threshold). Live site: 3,352 — workspace has 2 more (fix-sitemap was run but not deployed). Lastmod dates already present on all entries.
+
+**robots.txt:** Excellent. Blocks training bots (GPTBot, CCBot, cohere-ai), allows indexing bots (ChatGPT-User, Google-Extended, PerplexityBot, ClaudeBot). Sitemap declared.
+
+**Homepage meta:** 
+- Title: StudyRoadmap - Free AI Study Plans for 125+ Exams ✅
+- Meta description present ✅
+- OG tags present (og:image: og-image.jpg, 1248x832, 222KB — may need compression) ✅
+- hreflang tags for en-IN, en-PK, en-NG ✅
+- Canonical: https://studyroadmap.in ✅
+- JSON-LD: Organization + WebSite + FAQPage + HowTo + Person schemas ✅
+
+**Notes page (neet/physics/phy-001):**
+- Title: Units & Measurement — Physics | NEET UG Study Notes ✅
+- Meta description ✅
+- Article schema + FAQPage schema + BreadcrumbList ✅
+- OG image: og-notes/neet-physics-phy-001.jpg ✅
+- Canonical ✅
+
+**Other observations:**
+- Google Search Console verification: REPLACE_WITH_GOOGLE_SEARCH_CONSOLE_VERIFICATION_CODE (placeholder — not filled in)
+- Bing Webmaster verification: REPLACE_WITH_BING_VERIFICATION_CODE (placeholder — not filled in)
+- LLM.txt file exists at https://studyroadmap.in/llm.txt ✅
+- Plausible analytics (privacy-friendly) ✅
+- /sitemap-index.xml returns 200 ✅
+
+### No changes made this cycle
+No urgent issues found. All critical SEO elements are in place.
+

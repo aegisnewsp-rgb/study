@@ -2115,3 +2115,34 @@ User must fix the deploy service via SSH. After that, this cycle's orphaned `nee
 - Footer workspace still "March 2026" — live site shows "April 2026" (workspace out of sync with production, expected)
 - All improvement backlog items need user action: GSC code, AdSense account, directory submissions, MiniMax API top-up
 - Deploy service health unknown from this run (endpoint not checked)
+
+## Research Findings — 2026-04-06 06:14 UTC
+
+### 🔴 Critical (fix immediately)
+- None — site fully healthy
+
+### 🟡 Important (fix this cycle)
+- UPTET social studies notes expanded: 2 files, +350 insertions (content depth improvement for UPTET exam coverage)
+
+### 🟢 Quick Wins
+- News refreshed: 10 items (India:4, Nigeria:4, Pakistan:2) — JEE Main Session 2 begins tomorrow (April 7) ✅
+
+### 📊 Site Health
+- Homepage ✅: FAQPage (15 Qs), Organization, HowTo, Person, hreflang, OG/Twitter/App meta
+- /exams/neet/ ✅: FAQPage (3 NEET-specific Qs), HowTo, BreadcrumbList, full meta
+- Sitemap: 3,352 URLs ✅, HTTP 200 ✅
+- Footer: "Content reviewed April 2026" ✅
+- Deploy: ✅ (HTTP 200 from site check)
+- News: 10 items ✅ (JEE Mains Session 2 top story)
+
+### 🔕 Still Needs User Input
+- GSC verification code (`YOUR_VERIFICATION_CODE_HERE` in Layout.astro)
+- Bing verification code (`REPLACE_WITH_BING_VERIFICATION_CODE` in Layout.astro)
+- Formspree feedback form ID (`REPLACE_WITH_FORMSPREE_ID` in feedback.astro)
+- Deploy service fix: `Type=oneshot` → `Type=simple` + `Restart=always` (SSH command documented in backlog)
+
+### ✅ Completed This Run
+- News fetch: 10 fresh items saved to public/news.json ✅
+- UPTET content improvement: 2 social studies notes expanded (+350 insertions) ✅
+- Git commit: 96a1d07 ✅
+

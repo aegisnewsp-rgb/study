@@ -46,6 +46,13 @@ const title = `${examName} — Exam Pattern, Eligibility & Study Plan | StudyRoa
 const description = `${fullDescription} Covers exam pattern, eligibility criteria, syllabus topics, and how to generate a free personalised study roadmap in minutes.`;
 const canonicalUrl = `${SITE_URL}/exams/${exam.examId}`;
 
+const authorObj = {
+  name: "StudyRoadmap Editorial Team",
+  jobTitle: "Curriculum Editors",
+  affiliation: "StudyRoadmap",
+  url: "https://studyroadmap.in/about",
+};
+
 // Schemas
 const breadcrumbJsonLd = {
   '@context': 'https://schema.org',
@@ -207,7 +214,7 @@ const pathwayExams = pathwayExamEntries
   .map(p => ({ ...p, exam: ALL_EXAMS.find(e => e && e.examId === p.examId) }));
 ---
 
-<Layout title={title} description={description} canonical={canonicalUrl} image={`/og-notes/exam-${exam.examId}.jpg`}>
+<Layout title={title} description={description} canonical={canonicalUrl} image={`/og-notes/exam-${exam.examId}.jpg`} author={authorObj}>
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
   <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
   <script type="application/ld+json" set:html={JSON.stringify(howToJsonLd)} />

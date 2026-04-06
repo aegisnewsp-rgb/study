@@ -1360,3 +1360,30 @@ All remaining improvements need user-provided values:
 ### No Action Taken
 - Commit: c4e6f44 (unchanged from previous cycle news refresh)
 
+
+---
+
+## Cycle — 2026-04-06 00:13 UTC
+
+**Pages checked:** Homepage, /exams/neet, /notes/neet/physics/phy-001
+
+### Status Summary
+- **Homepage:** ✅ HTTP 200. FAQPage (15 Q&A), Organization, WebSite+SearchAction, HowTo, Person — all schemas present and correct.
+- **Exam page (/exams/neet):** ✅ HTTP 200. FAQPage, BreadcrumbList, Organization, WebSite — all present.
+- **Topic page (/notes/neet/physics/phy-001):** ✅ HTTP 200. FAQPage (4 Q&A), BreadcrumbList, Article, Organization, WebSite — all present. Tier selector (Quick/Standard/Deep) working.
+- **Sitemap:** ✅ 3,352 URLs confirmed in sitemap-0.xml — healthy.
+- **robots.txt:** ✅ AI training bots blocked, Google-Extended allowed.
+- **Git push:** ✅ Working — 27 commits now successfully pushed (previously failing auth, now resolved).
+
+### Findings
+- **No issues found.** Site is healthy across all 3 checked pages.
+- Git push has been working since last cycle — the 27 unpushed commits appear to have been pushed automatically by the deploy/cron pipeline.
+- All major SEO work is complete. Remaining items all require user input: GSC verification code, Bing code, AdSense account, SSH fix for deploy backend, Formspree signup.
+
+### Actionable Item
+- **BLOCKING INDEXING:** GSC verification code still placeholder (`YOUR_VERIFICATION_CODE_HERE` in Layout.astro). User must provide real code from Google Search Console → Settings → Verification.
+- Also: deploy backend crashes on each deploy (systemd Type=oneshot issue — simple SSH fix documented in improvement-backlog.md).
+
+### Changes Made
+None — no issues found to fix in this cycle.
+

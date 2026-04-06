@@ -56,6 +56,21 @@ const BASE_URL = 'https://studyroadmap.in';
 // Read raw sitemap
 let sitemap = fs.readFileSync(sitemapPath, 'utf8');
 
+// STEP 0 (repair): Fix malformed sitemap structure (missing XML declaration / urlset open tag)
+// Many sitemap generators produce bare URL entries without the XML boilerplate.
+// If the file doesn't start with '<?xml', prepend the required header + opening tag.
+const xmlDecl = '<?xml version="1.0" encoding="UTF-8"?>';
+const urlsetOpen = '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">';
+if (!sitemap.trim().startsWith('<?xml')) {
+  // Find where the first <url> block starts to avoid duplicating content
+  const firstUrlMatch = sitemap.match(/<url[>\s]/);
+  const firstUrlIndex = firstUrlMatch ? sitemap.indexOf(firstUrlMatch[0]) : 0;
+  const leadingContent = sitemap.slice(0, firstUrlIndex);
+  const urlBlock = sitemap.slice(firstUrlIndex);
+  sitemap = xmlDecl + '\n' + urlsetOpen + '\n' + urlBlock;
+  console.log('Repaired missing XML declaration and <urlset> opening tag in sitemap');
+}
+
 // STEP 0a: Remove existing sitemap entries for exam pages that were never generated (404s)
 const brokenUrls = [];
 for (const id of examIds) {

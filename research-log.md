@@ -2698,3 +2698,38 @@ All high-value improvements are complete. Remaining items require human input:
 - Deploy: ❌ blocked — deploy service unhealthy (port 9000 "Bad request")
 - **Deploy fix still pending user SSH** (Type=oneshot + Restart=no issue from 2026-04-01)
 
+
+## Research Findings — 2026-04-06T12:56 UTC
+
+### 🔴 Critical (fix immediately)
+- None
+
+### 🟡 Important (fix this cycle)
+- None — all high-value SEO items complete
+
+### 🟢 Quick Wins (easy improvements)
+- Site fully optimized — no quick wins remaining from automated side
+- GSC verification code still placeholder — user needs to provide real code
+- AdSense integration still pending — user needs approved account
+
+### 📊 Traffic Opportunities
+- JEE Mains 2026 Session 2 begins TOMORROW (April 7) — biggest current exam news
+- News section on homepage already showing 6 exam news items (India/Pakistan/Nigeria)
+- Sitemap: 3,352 URLs confirmed ✅ (includes all 124 exam pages + topic pages)
+- All structured data schemas healthy across all key pages
+
+### ✅ Completed This Run
+- **Monitoring cycle** — all SEO complete, site healthy
+- Homepage: FAQPage (15 Qs) ✅ + Person schema ✅ + HowTo ✅ + Organization ✅ + WebSite ✅
+- /exams/neet/: FAQPage (3 Qs) ✅ + HowTo ✅ + BreadcrumbList ✅ + Organization ✅
+- /notes/: FAQPage (4 Qs) ✅ + BreadcrumbList ✅
+- Sitemap: 3,352 URLs ✅ — exam pages confirmed in sitemap
+- News: 10 items (India:4, Nigeria:3, Pakistan:3) — JEE Mains Session 2 tomorrow ✅
+- Commit: 9913041
+
+### ⚠️ User Action Required
+1. GSC verification code — replace `REPLACE_WITH_GOOGLE_SEARCH_CONSOLE_VERIFICATION_CODE` in Layout.astro
+2. AdSense integration — needs approved account + code injection
+3. Formspree ID for feedback form — replace `REPLACE_WITH_FORMSPREE_ID` in feedback.astro
+4. VPS deploy service fix — SSH needed to fix systemd Type=oneshot (script exits, backend dies)
+

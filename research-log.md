@@ -1,3 +1,24 @@
+## Research Findings — 2026-04-06 18:18 UTC
+
+### Site Health (3 pages checked — Cycle 88)
+- Homepage ✅: 200, FAQPage, Organization, WebSite+SearchAction, HowTo
+- /exams/neet/ ✅: 200, BreadcrumbList, FAQPage (x2), HowTo (x5)
+- /notes/neet/physics/phy-001/ ✅: 200, BreadcrumbList, FAQPage (x2)
+- Sitemap ✅: 129 exam URLs, 3200+ total URLs live at https://studyroadmap.in/sitemap-0.xml
+- Deploy endpoint: reachable (400 on /deploy — expected without auth payload)
+- Footer "Content reviewed April 2026" ✅ already correct
+
+### Findings
+- **Auto-fix in progress**: `scripts/fix-sitemap.cjs` auto-ran during build and removed 3 broken exam entries from sitemap:
+  - `exams/uaeu-cat/` (uppercase variant — no page exists)
+  - `exams/uAeu-cat/` (mixed case — no page exists)
+  - `exams/%E5%B8%96ast/` (URL-encoded Chinese chars — no page exists)
+  - These were wasting crawl budget. 126 exam pages now confirmed clean in sitemap.
+
+### No changes made
+- All high-value SEO work complete. Remaining items blocked on user input (GSC code, deploy SSH fix, AdSense account, Formspree ID).
+
+---
 ## Research Findings — 2026-04-06 16:55 UTC
 
 ### Site Health (3 pages checked — Cycle 87)
@@ -3006,3 +3027,24 @@ All high-value improvements are complete. Remaining items require human input:
 
 ### Finding This Cycle
 Site is mature and fully optimized for SEO. No code-level improvements possible in this cycle without human input on the pending items above. Footer "Content reviewed April 2026" is already current.
+
+## Research Findings — 2026-04-06T18:14 UTC
+
+### 🔴 Critical (fix immediately)
+- None found — site is healthy
+
+### 🟡 Important (fix this cycle)
+- **Deploy service down**: Port 9000 returns nginx 404 (backend dead). Type=oneshot systemd issue needs SSH fix from user. Code committed locally.
+
+### 🟢 Quick Wins (easy improvements)
+- **Email inconsistency**: contact.astro used `hello@studyroadmap.in`, privacy/terms used `contact@studyroadmap.in`. Standardized all pages to `contact@studyroadmap.in` — more professional, consistent brand inbox.
+
+### 📊 Traffic Opportunities
+- All major SEO complete. Remaining growth requires: (1) GSC verification + sitemap submission, (2) backlink outreach, (3) AdSense integration for revenue reinvestment.
+
+### ✅ Completed This Run
+- **Email standardization**: Changed `hello@` → `contact@` on contact page (3 locations) + updated feedback page comment. privacy.astro and terms.astro already correct.
+- **Build**: ✅ 3,352 URLs in sitemap (sitemap postbuild added lastmod, removed 3 broken exam entries)
+- **Deploy**: ❌ FAILED — backend service dead (nginx 404 on port 9000). Needs SSH fix: `sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service && sudo sed -i 's/Restart=no/Restart=always/' && sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy`
+- **Commit**: e436a15 ✅ (1 commit ahead of HEAD)
+- **News**: ✅ 10 items saved (India:4, Pakistan:4, Nigeria:2)

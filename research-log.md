@@ -1,3 +1,31 @@
+## Research Findings — 2026-04-06 01:27 UTC
+
+### 🔴 Critical (fix immediately)
+- None — site healthy
+
+### 🟡 Site Health
+- Homepage: ✅ 200, FAQPage (15 Qs), Organization, HowTo, hreflang, OG/Twitter ✅
+- /exams/: ✅ 301→/exams/ (trailing slash, expected)
+- /roadmap/: ✅ 301→/roadmap/ (trailing slash, expected)
+- /exams/neet/: ✅ 200, BreadcrumbList, FAQPage, exam pattern/eligibility ✅
+- News ticker: ✅ live (news.json served from public/)
+- Footer: ✅ "Content reviewed April 2026"
+- GSC/Bing placeholders still in Layout.astro — needs user input
+
+### 🟢 Quick Wins
+- All major SEO done — remaining items need user input (GSC code, AdSense account, VPS SSH fix for deploy service Type=oneshot bug)
+- Deploy service crashes after each deploy (Type=oneshot, Restart=no) — 3 SSH commands needed
+
+### 📊 Traffic Opportunities
+- All structured data in place (FAQPage, Organization, WebSite, HowTo, BreadcrumbList, CollectionPage)
+- Sitemap includes all 3200+ topic pages
+- Growth blocked on: GSC verification → sitemap submission → backlink building
+
+### ✅ Completed This Run
+- No code changes — site fully healthy, all improvements documented in backlog
+
+---
+
 ## Research Findings — 2026-04-06 00:04 UTC
 
 ### 🔴 Critical (fix immediately)

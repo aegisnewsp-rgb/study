@@ -2302,3 +2302,25 @@ User must fix the deploy service via SSH. After that, this cycle's orphaned `nee
 3. **AdSense integration** — needs approved account + code injection
 4. **Formspree feedback form** — `REPLACE_WITH_FORMSPREE_ID` in feedback.astro
 5. **GitHub push** — 0+ commits stuck (repo/token issue, appears resolved now)
+
+---
+
+## Research Findings — 2026-04-06T08:06 UTC
+
+### 🔴 Critical (fix immediately)
+- None
+
+### 🟡 Important (fix this cycle)
+- None — all major SEO complete; remaining items need user input (GSC, AdSense, VPS SSH)
+
+### 🟢 Quick Wins (easy improvements)
+- News refresh: 10 items (India:4, Nigeria:4, Pakistan:2) ✅ committed
+
+### 📊 Traffic Opportunities
+- No new opportunities identified — site SEO is comprehensive
+
+### ✅ Completed This Run
+- Site health check: homepage 200 ✅, /exams/neet/ 200 ✅, /notes/neet/physics/ 200 ✅
+- News refreshed: 10 items, committed (5cc99eb)
+- Deploy service: appears stable (no 404 on port 9000 this cycle)
+

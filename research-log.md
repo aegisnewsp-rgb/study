@@ -3236,3 +3236,25 @@ sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
 7. SSH access for deploy service fix (blocked on credentials)
 
 **Git commit:** None (no change this cycle)
+
+---
+## Research Findings — 2026-04-06 19:03 UTC
+
+### Site Health (3 pages checked — Cycle 89)
+- Homepage ✅: 200, FAQPage, Organization, WebSite+SearchAction, HowTo, hreflang (IN/PK/NG), Article
+- /exams/neet/ ✅: 200, FAQPage, HowTo, BreadcrumbList, hreflang, all meta tags
+- /notes/neet/physics/phy-001/ ✅: 200, Article, BreadcrumbList (5 levels), FAQPage, CollectionPage+ItemList
+- Sitemap ✅: 3200+ URLs live, 129 exam pages, auto-cleaned broken entries
+- News ✅: Fresh items loaded client-side hourly
+- Footer ✅: "Content reviewed April 2026"
+- robots.txt ✅: AI training blocked, Google-Extended allowed, sitemap referenced
+
+### Issues Found & Fixed
+- **Broken GitHub link in Organization schema**: `https://github.com/aegisnewsp-rgb` returns 404 (page not found). Removed from `sameAs` array in `src/layouts/Layout.astro`. LinkedIn and Twitter profiles retained as they are real.
+
+### No action needed (awaiting user input)
+- GSC verification meta tag still placeholder (`REPLACE_WITH_GOOGLE_SEARCH_CONSOLE_VERIFICATION_CODE`)
+- Bing verification meta tag still placeholder (`REPLACE_WITH_BING_VERIFICATION_CODE`)
+- AdSense `<ins class="adsbygoogle">` placeholder div needs real `data-ad-client` once account is active
+- No Formspree form IDs for contact/feedback pages
+

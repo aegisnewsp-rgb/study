@@ -2733,3 +2733,32 @@ All high-value improvements are complete. Remaining items require human input:
 3. Formspree ID for feedback form — replace `REPLACE_WITH_FORMSPREE_ID` in feedback.astro
 4. VPS deploy service fix — SSH needed to fix systemd Type=oneshot (script exits, backend dies)
 
+
+## Research Findings — 2026-04-06T13:04 UTC
+
+### 🔴 Critical (fix immediately)
+- None — site healthy
+
+### 🟡 Important (fix this cycle)
+- None identified — all major SEO complete; sitemap now includes all 3346 pages; exam pages fully populated
+
+### 🟢 Quick Wins
+- News refreshed: 10 items (India:4, Nigeria:3, Pakistan:3) — committed (7871fff)
+- Top stories: JEE Advanced 2026 registration open, MHT CET 2026 revised dates (April 11-20), NEET 2026 Chemistry chapter weightage
+
+### 📊 Site Health (3 pages checked)
+- Homepage ✅: 200, FAQPage (15 Qs), Organization, WebSite+SearchAction, HowTo, Person, hreflang
+- /exams/neet/ ✅: 200, BreadcrumbList, FAQPage (NEET-specific Qs), HowTo (3 steps), exam metadata
+- /notes/neet/physics/phy-001/ ✅: 301 → 200 (trailing slash redirect, expected Astro behavior)
+
+### 🔕 Still Needs User Input
+- GSC verification code (`YOUR_VERIFICATION_CODE_HERE` in Layout.astro)
+- Bing verification code (`REPLACE_WITH_BING_VERIFICATION_CODE` in Layout.astro)
+- Formspree feedback form ID (`REPLACE_WITH_FORMSPREE_ID` in feedback.astro)
+- Deploy service: `Type=oneshot` → `Type=simple` + `Restart=always` (SSH required)
+- AdSense integration (needs approved account + code)
+
+### ✅ Completed This Run
+- News fetch: 10 fresh items saved to public/news.json ✅ (JEE Advanced registration, MHT CET revised dates, NEET Chemistry strategy)
+- Commit: 7871fff "Growth cycle fix" ✅
+- Site health check: all 3 pages 200 ✅

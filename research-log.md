@@ -2858,3 +2858,29 @@ All high-value improvements are complete. Remaining items require human input:
 - All automated SEO improvements exhausted. Site is at maximum optimization for an automated-only approach.
 - Remaining growth levers all need user action (GSC, AdSense, SSH access, Formspree, App Store ID).
 - No code changes this cycle — site is fully optimized; no automated wins available.
+
+## Research Findings — 2026-04-06T16:26 UTC
+
+### 🔴 Critical (fix immediately)
+- None
+
+### 🟡 Important (fix this cycle)
+- og:image missing width/height meta tags — reduces social sharing quality on Facebook, LinkedIn, X
+
+### 🟢 Quick Wins (easy improvements)
+- ✅ FIXED: Added `og:image:width` (1248) and `og:image:height` (832) meta tags to Layout.astro
+- Note: og-image.jpg is 226KB — recommend compressing to <100KB for faster social loads (future cycle)
+
+### 📊 Traffic Opportunities
+- JEE Mains Session 2 began April 7 — ensure news section covers outcomes
+- All major SEO complete; remaining wins require user input (GSC, AdSense, Formspree, SSH)
+
+### ✅ Completed This Run
+- Added og:image dimensions to Layout.astro (2 lines)
+- Commit: 5c703f6
+
+### ⚠️ User Action Required
+1. GSC verification code — replace placeholder in Layout.astro
+2. AdSense integration — needs approved account + code injection
+3. Formspree ID for feedback form — replace placeholder in feedback.astro
+4. VPS deploy service fix — SSH needed to fix systemd Type=oneshot restart issue

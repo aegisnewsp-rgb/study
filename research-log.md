@@ -3468,3 +3468,15 @@ Site fully operational. No critical issues. Research cycle 89 complete.
 **Committed:** `2e36d95` — build verification snapshot
 
 **Next action:** User needs to fix deploy service OR provide GSC/Bing verification codes; consider outreach for backlinks
+
+## 2026-04-06 22:49 UTC — Cycle 89
+
+**Site health:** ✅ All key pages return HTTP 200 (homepage, roadmap, exams/neet, notes/neet/physics confirmed)
+**Schema:** ✅ Homepage has FAQPage JSON-LD, 5-question FAQ list rendered, hreflang tags present, Plausible analytics confirmed, Twitter card meta
+**Live sitemap:** ⚠️ `https://studyroadmap.in/sitemap-0.xml` is structurally malformed — missing `<?xml` declaration and `<urlset>` opening tag. Starts abruptly with bare `<url>` content and ends with duplicate `</urlset></urlset>`. Workspace dist/ is clean (3354 URLs, proper XML).
+
+**Improvement made:** Added STEP 0 structural repair to `scripts/fix-sitemap.cjs` — detects and prepends proper XML declaration + `<urlset>` opening tag if missing. This prevents future occurrences if the sitemap generation gets interrupted mid-write.
+
+**Outstanding blockers:** Deploy pipeline SSH key issue (needs user fix), GSC/Bing verification codes (needs user), AdSense (needs account + user).
+
+**Workspace status:** 5 commits ahead of origin/main. dist/sitemap-0.xml is clean and correct. Live site serves stale/malformed version from before last workspace fix.

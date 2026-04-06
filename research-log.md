@@ -3170,3 +3170,23 @@ sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
 ### ✅ Completed This Run
 - Fixed feedback form: Formspree placeholder → `mailto:contact@studyroadmap.in` (committed 64a6181, pushed)
 - Build+deploy blocked on recurring service crash (no SSH access)
+
+## Research Findings — 2026-04-06 18:47 UTC
+
+### Site Health (3 pages checked — Cycle 89)
+- Homepage ✅: 200, FAQPage (15 Qs), Organization, WebSite+SearchAction, HowTo
+- /exams/neet/ ✅: 200, BreadcrumbList, FAQPage, HowTo
+- /notes/neet/physics/phy-001/ ✅: 200, Article schema, BreadcrumbList, FAQPage
+- Sitemap ✅: 129 exam URLs + 3216 notes URLs = 3345 total ✅
+- News ✅: 10 items fresh (India:4, Nigeria:4, Pakistan:2), JEE Mains S2 April 7 upcoming
+
+### Findings
+- All high-value SEO work remains complete — site in excellent shape
+- JEE Mains Session 2 begins tomorrow (April 7) — news feeds reflect current exam coverage
+- No structural issues found on key pages
+
+### No code changes this cycle
+- All remaining items blocked on user input (GSC code, AdSense account, Formspree ID, deploy SSH fix)
+- News refresh committed ✅
+
+---

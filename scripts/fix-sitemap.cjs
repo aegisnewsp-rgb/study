@@ -98,7 +98,7 @@ if (lastClosingIndex !== -1) {
 }
 
 // STEP 2: Add <lastmod> to all <url> entries that don't have one
-// Match complete <url>...</url> blocks
+// Also repair any malformed closing tag position from previous buggy runs
 sitemap = sitemap.replace(/<url>([\s\S]*?<\/url>)/g, (match, inner) => {
   if (inner.includes('<lastmod>')) return match;
   // Insert <lastmod> right after the first </loc>
@@ -124,14 +124,14 @@ const newExamUrls = examIds
   .filter(id => generatedExamIds.has(id))  // only include if page was actually generated
   .map(id => `<url><loc>${BASE_URL}/exams/${id}/</loc><lastmod>${today}</lastmod></url>`);
 
-// Always write the sitemap after STEP 2 (which adds lastmod tags)
-fs.writeFileSync(sitemapPath, sitemap);
-console.log(`Added <lastmod> to all URL entries`);
-
+// Build complete final sitemap and write atomically
+let finalSitemap;
 if (newExamUrls.length > 0) {
-  const newSitemap = sitemap.slice(0, lastIdx) + newExamUrls.join('') + '\n' + closingTag;
-  fs.writeFileSync(sitemapPath, newSitemap);
+  finalSitemap = sitemap.slice(0, lastIdx) + newExamUrls.join('') + '\n' + closingTag;
   console.log(`Added ${newExamUrls.length} exam pages to sitemap (${generatedExamIds.size} generated, ${examIds.length} total data files)`);
 } else {
+  finalSitemap = sitemap;
   console.log(`All ${generatedExamIds.size} generated exam pages already in sitemap (${examIds.length} total data files found)`);
 }
+fs.writeFileSync(sitemapPath, finalSitemap);
+console.log(`Added <lastmod> to all URL entries`);

@@ -1,3 +1,39 @@
+## Research Findings — 2026-04-06 08:36 UTC
+
+### 🔴 Critical (fix immediately)
+- None — site healthy
+
+### 🟡 Important (fix this cycle)
+- None identified — all major SEO complete; exam metadata (examPattern, eligibility) fully populated across all exams
+
+### 🟢 Quick Wins
+- News refreshed: 10 items (India:4, Nigeria:4, Pakistan:2) — committed (12c385d)
+- Build: not run (no code changes needed this cycle)
+- Exam data audit: ALL 124 exam data files have examPattern + eligibility filled — backlog v2 Tier 2 items already resolved
+
+### 📊 Site Health (3 pages checked)
+- Homepage ✅: 200, FAQPage (15 Qs), Organization, WebSite+SearchAction, HowTo, Person, hreflang
+- /exams/jeemain/ ✅: 200, BreadcrumbList, FAQPage (3 JEE-specific Qs), HowTo (3 steps) — all schemas present
+- /notes/neet/physics/ ✅: 200, FAQPage (4 Physics Qs), BreadcrumbList, CollectionPage+ItemList (29 topics), OG image
+
+### 🔕 Still Needs User Input
+- GSC verification code (`YOUR_VERIFICATION_CODE_HERE` in Layout.astro)
+- Bing verification code (`REPLACE_WITH_BING_VERIFICATION_CODE` in Layout.astro)
+- Formspree feedback form ID (`REPLACE_WITH_FORMSPREE_ID` in feedback.astro)
+- Deploy service: `Type=oneshot` → `Type=simple` + `Restart=always` (SSH required)
+- AdSense integration (needs approved account + code)
+
+### ✅ Completed This Run
+- News fetch: 10 fresh items saved to public/news.json ✅
+- Commit: 12c385d "Growth cycle — news refresh 2026-04-06T08:39" ✅
+
+### 📝 Notes
+- All automated SEO improvements exhausted. Site is at maximum optimization for an automated-only approach.
+- Remaining growth levers all need user action (GSC, AdSense, SSH access, directory review).
+- Exam metadata completeness confirmed: all 124 exams have examPattern + eligibility — Tier 2 backlog items (JEE Main, NEET, MDCAT, NAT-I) already resolved in prior cycles.
+
+---
+
 ## Research Findings — 2026-04-06 08:09 UTC
 
 ### 🔴 Critical (fix immediately)

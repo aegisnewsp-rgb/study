@@ -3258,3 +3258,50 @@ sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
 - AdSense `<ins class="adsbygoogle">` placeholder div needs real `data-ad-client` once account is active
 - No Formspree form IDs for contact/feedback pages
 
+
+## Cycle | 2026-04-06T20:22 UTC
+
+**Status:** PASSED — monitoring only
+
+**Site checks:**
+- Homepage: ✅ 200 OK | FAQPage (15 Qs) + Org + WebSite + SearchAction ✅
+- /notes/neet/: ✅ 200 OK | CollectionPage + BreadcrumbList ✅
+- /roadmap/: ✅ 200 OK | FAQPage + HowTo + BreadcrumbList + Org ✅
+- /exams/neet/: ✅ 200 OK | FAQPage + HowTo + BreadcrumbList ✅
+- Topic page /notes/neet/physics/phy-001/: ✅ FAQPage (4 Qs) + full meta + hreflang ✅
+- Sitemap: ✅ Live and populated (verified 200 OK, many URLs indexed)
+- News: ✅ 10 fresh items (JEE Mains S2 April 7 top story — confirmed published dates valid ISO)
+
+**Deploy service:** ⚠️ STILL DOWN — both endpoints return 404 Not Found. Code changes cannot be pushed to live. User SSH command needed:
+```bash
+sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service
+sudo sed -i 's/Restart=no/Restart=always/' /etc/systemd/system/studyroadmap-deploy.service
+sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
+```
+
+**Change:** None — site healthy; all major SEO complete; deploy blocked awaiting user SSH fix
+
+**Files:** No changes this cycle — news.json unchanged from ba57cb4 (already fresh)
+
+**Status:** PASSED — monitoring only
+
+**Site checks:**
+- Homepage: ✅ 200 OK | FAQPage (15 Qs) + Org + WebSite + SearchAction ✅
+- /notes/neet/: ✅ 200 OK | CollectionPage + BreadcrumbList ✅
+- /roadmap/: ✅ 200 OK | FAQPage + HowTo + BreadcrumbList + Org ✅
+- /exams/neet/: ✅ 200 OK | FAQPage + HowTo + BreadcrumbList ✅
+- Sitemap: ✅ All notes/exam pages indexed
+
+**News:** ✅ 10 fresh items fetched (JEE Mains S2 tomorrow April 7 — top story) — committed to public/news.json
+
+**Deploy service:** ⚠️ DOWN — 172.17.0.1:9000 and 187.127.134.151:9000 both return HTTP 404. Site live (200 OK via CDN) but code changes can't be pushed. Needs user SSH fix:
+```bash
+sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service
+sudo sed -i 's/Restart=no/Restart=always/' /etc/systemd/system/studyroadmap-deploy.service
+sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
+```
+
+**Change:** None — all major SEO complete; deploy blocked; news.json refreshed and committed locally
+
+**Files:** public/news.json (updated), committed ba57cb4
+

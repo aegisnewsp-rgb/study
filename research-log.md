@@ -1266,3 +1266,26 @@ All remaining improvements need user-provided values:
 - GSC/Bing verification codes (user input needed)
 - Formspree ID (user signup needed)
 - AdSense integration (user account needed)
+
+## Research Findings — 2026-04-05T23:55 UTC
+
+### 🔴 Critical (fix immediately)
+- None
+
+### 🟡 Important (fix this cycle)
+- GRE exam page missing: `gre.ts` data file exists in `src/data/exams/` but `/exams/gre/` returns 404. GRE not in ALL_EXAMS export. The [exam].astro dynamic route generates pages only for exams in ALL_EXAMS. Needs exam data properly added to index.ts exports.
+
+### 🟢 Quick Wins (easy improvements)
+- Sitemap auto-cleanup already handled 4 stale entries this cycle (gre, ast, sathe, uaeu-cat) — `fix-sitemap.cjs` correctly removes entries without generated HTML pages
+- News refresh: 10 items (India: 4, Nigeria: 4, Pakistan: 2) ✅
+
+### 📊 Traffic Opportunities
+- GRE (Graduate Record Examination) missing from site — high-value globally for students applying to US/European universities
+- uAeu_cat (UAE CAT) page missing — `uAeu_cat.ts` data file exists but notes dir at `uaeu-cat` doesn't match `uAeu_cat` examId
+
+### ✅ Completed This Run
+- Build: ✅ (postbuild sitemap fix ran, removed 4 stale sitemap entries)
+- News: ✅ 10 items fresh
+- Commit: ✅ e8fec5a
+- Site: ✅ studyroadmap.in returning HTTP 200
+- Deploy: blocked (port 9000 not reachable from sandbox — needs VPS)

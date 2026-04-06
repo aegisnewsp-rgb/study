@@ -2324,3 +2324,31 @@ User must fix the deploy service via SSH. After that, this cycle's orphaned `nee
 - News refreshed: 10 items, committed (5cc99eb)
 - Deploy service: appears stable (no 404 on port 9000 this cycle)
 
+
+## Research Findings — 2026-04-06T08:07 UTC
+
+### 🔴 Critical (fix immediately)
+- None found
+
+### 🟡 Important (fix this cycle)
+- Deploy service DOWN again — port 9000 returns 404 (Type=oneshot issue). Site still live via CDN but deploys blocked until systemd fix applied.
+
+### 🟢 Quick Wins (easy improvements)
+- None available — all high-value SEO items completed in Cycles 01–107
+- Remaining items all need user input (GSC code, AdSense account, SSH access for deploy fix)
+
+### 📊 Traffic Opportunities
+- JEE Main Session 2 begins April 7 — high-traffic exam window (confirmed in news today)
+- GSC verification still pending user code — without it, no indexing data available
+- All SEO foundations complete: schema, sitemap, robots, accessibility, FAQ, breadcrumbs
+
+### ✅ Completed This Run
+- News: 10 items fetched (India: 4, Nigeria: 4, Pakistan: 2) — JEE Mains Session 2 prominent
+- Site health: studyroadmap.in ✅ 200, sitemap ✅ 3,000+ URLs, robots.txt ✅
+- Deploy service: ⚠️ DOWN (port 9000 = 404) — needs SSH fix (Type=oneshot → Type=simple)
+- Commit: e008d6c — news refresh
+
+### ⚠️ Recurring Blockers (need user action)
+1. **Deploy service crashes** — SSH command needed to fix systemd Type=oneshot → Type=simple + Restart=always
+2. **GSC verification** — placeholder in Layout.astro; user needs to provide real code
+3. **AdSense** — needs approved account + code injection

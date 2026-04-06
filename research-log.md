@@ -1846,3 +1846,29 @@ None — no issues found to fix in this cycle.
 - Bing verification code (placeholder in Layout.astro)
 - Formspree ID for feedback form (REPLACE_WITH_FORMSPREE_ID in feedback.astro)
 - Deploy service Type=oneshot fix (needs SSH access)
+
+## Research Findings — 2026-04-06T04:24 UTC
+
+### 🔴 Critical (fix immediately)
+- None — site healthy, all major SEO complete
+
+### 🟡 Important (fix this cycle)
+- Deploy service crash remains unfixed (user SSH needed: `Type=oneshot` → `Type=simple`)
+- GSC + Bing verification codes still pending user provision
+- AdSense integration pending user account approval
+
+### 🟢 Quick Wins (easy improvements)
+- Site fully optimized for its current state
+- Notes pages: 1,368 OG images present, all note pages have JSON-LD schemas (FAQPage, BreadcrumbList, HowTo on roadmap notes)
+- robots.txt: properly blocks AI training bots while allowing AI indexing/citation bots
+
+### 📊 Traffic Opportunities
+- All high-priority SEO improvements already implemented
+- Content generation pipeline on hold (MiniMax balance exhausted)
+- Next growth lever: GSC verification → sitemap submission → request rapid indexing for 3,200+ topic pages
+
+### ✅ Completed This Run
+- Site health check: ✅ (all pages properly structured)
+- No code changes — no pending quick wins identified
+- Status: monitoring only
+

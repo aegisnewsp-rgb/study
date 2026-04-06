@@ -2599,3 +2599,43 @@ All high-value improvements are complete. Remaining items require human input:
 - AdSense integration (requires active account)
 
 **Git:** No changes this cycle — site already healthy
+
+## Research Findings — 2026-04-06 12:39 UTC
+
+### 🔴 Critical (fix immediately)
+- None — site healthy
+
+### 🟡 Important (fix this cycle)
+- None — all major SEO complete
+
+### 🟢 Quick Wins
+- Build integrity: 3355 pages ✅ (60s build)
+- Sitemap postbuild script: removed 3 broken exam entries (uaeu-cat, uAeu-cat, unicode-char file) and added <lastmod> to all URLs
+- News: 10 fresh items ✅ (India:4, Nigeria:3, Pakistan:3)
+- site:studyroadmap.in/exams/ confirmed 200 with trailing slash
+
+### 📊 Site Health
+- Homepage ✅ (200)
+- /roadmap/ ✅ (200)
+- /exams/ ✅ (200)
+- /notes/neet/physics/ ✅ (200)
+- /study-plan-generator/ ✅ (built, not yet deployed)
+- Deploy endpoint: ⚠️ DOWN (deploy service crashed — recurring Type=oneshot issue)
+
+### 🔕 Still Needs User Input
+- GSC verification code (`YOUR_VERIFICATION_CODE_HERE` in Layout.astro)
+- Bing verification code (`REPLACE_WITH_BING_VERIFICATION_CODE` in Layout.astro)
+- Formspree feedback form ID (`REPLACE_WITH_FORMSPREE_ID` in feedback.astro)
+- Deploy service fix (SSH required): `Type=oneshot` → `Type=simple` + `Restart=always`
+- AdSense integration (needs approved account + code)
+- GitHub push blocked (27+ commits stuck locally — origin repo issue)
+
+### ✅ Completed This Run
+- Build verified: 3355 pages, clean build ✅
+- Sitemap postbuild script ran: 3 broken exam URLs cleaned, <lastmod> added ✅
+- News fetch: 10 items ✅ (12:39 UTC)
+- Commit: nothing to commit (working tree clean — dist/ changes gitignored)
+
+### 📝 Notes
+- Deploy service keeps dying post-deploy (Type=oneshot confirmed root cause, needs SSH fix from user)
+- All substantive SEO work complete; no further automated improvements available without user input

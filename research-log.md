@@ -3420,3 +3420,26 @@ Site fully operational. No critical issues. Research cycle 89 complete.
 - No code changes needed — build and sitemap all clean
 - Comitted as: 199e318 "Growth cycle fix"
 
+
+## Research Findings — 2026-04-06 21:06 UTC
+
+### Site Health (3 pages checked — Cycle 97)
+- Homepage ✅: 200, FAQPage (15 Qs), Organization, WebSite+SearchAction, HowTo, Person, hreflang, Article
+- /exams/neet/ ✅: 200, FAQPage (x2), HowTo (x5), BreadcrumbList, hreflang
+- /notes/neet/physics/phy-001/ ✅: description meta, title, canonical, hreflang all present
+
+### 🟡 Fix Applied This Cycle — Contact Form Accessibility
+- **Issue:** Name field missing `autocomplete="name"`, email field missing `autocomplete="email"`, textarea missing `maxlength` and `autocomplete="off"`
+- **Fix:** Added `autocomplete` attributes and `maxlength="2000"` to all three fields
+- **Impact:** Better browser autofill UX, prevents overly long submissions, follows HTML5 accessibility best practices
+- **Committed:** 93ac538 "Growth cycle fix"
+
+### 🟢 Quick Wins Remaining
+- All major SEO complete — sitemap 3346 pages ✅
+- Deploy service still needs SSH fix (blocked on user)
+- GSC verification still needed (blocked on user)
+
+### 📊 Status Summary
+- Site: ✅ 200 | News: ✅ | Build: ✅ 3346 pages
+- Commit local only (origin remote not configured in workspace)
+

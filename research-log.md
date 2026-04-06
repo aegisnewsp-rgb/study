@@ -1317,3 +1317,46 @@ All remaining improvements need user-provided values:
 - Commit: ✅ e8fec5a
 - Site: ✅ studyroadmap.in returning HTTP 200
 - Deploy: blocked (port 9000 not reachable from sandbox — needs VPS)
+
+## Research Findings — 2026-04-06T00:07 UTC
+
+### 🔴 Critical (fix immediately)
+- None — site healthy, all high-value SEO complete
+
+### 🟡 Important (fix this cycle)
+- None actionable without user input
+
+### 🟢 Quick Wins (easy improvements)
+- News refreshed ✅ (10 items: India 4, Pakistan 4, Nigeria 2)
+
+### 📊 Traffic Opportunities
+- All major SEO done. Remaining high-value items blocked on user input:
+  - GSC verification code (placeholder in Layout.astro)
+  - AdSense integration (needs account + code)
+  - Bing Webmaster code (placeholder in Layout.astro)
+  - Directory submissions (script ready)
+
+### ✅ Completed This Run
+- Site health check: / ✅ /exams/ ✅ /roadmap/ ✅ /notes/ ✅
+- Sitemap: 3000+ URLs, all accessible
+- News: 10 items refreshed (India 4, Pakistan 4, Nigeria 2)
+- Git commit: c4e6f44
+
+## Research Findings — 2026-04-06 00:08 UTC
+
+### Site Health
+- Homepage: ✅ 200, FAQPage (15 Qs), Organization, WebSite+SearchAction, HowTo, Person
+- /exams/neet/: ✅ 200 (via redirect), BreadcrumbList (3-level), FAQPage (3 Qs), HowTo, proper OG/meta
+- /notes/neet/physics/phy-001/: ✅ 200, BreadcrumbList (5-level), FAQPage (4 Qs), Article schema
+
+### Sitemap
+- Live sitemap confirmed large (thousands of notes pages + exam pages)
+- /exams/gre/ confirmed present in live sitemap ✅
+
+### Status
+- No changes needed — previous cycle (00:04 UTC) already completed news refresh
+- All high-value SEO done; remaining items blocked on user input (GSC code, AdSense account, VPS SSH fix)
+
+### No Action Taken
+- Commit: c4e6f44 (unchanged from previous cycle news refresh)
+

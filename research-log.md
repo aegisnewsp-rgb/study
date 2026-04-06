@@ -3480,3 +3480,24 @@ Site fully operational. No critical issues. Research cycle 89 complete.
 **Outstanding blockers:** Deploy pipeline SSH key issue (needs user fix), GSC/Bing verification codes (needs user), AdSense (needs account + user).
 
 **Workspace status:** 5 commits ahead of origin/main. dist/sitemap-0.xml is clean and correct. Live site serves stale/malformed version from before last workspace fix.
+
+## Research Findings — 2026-04-06 23:56 UTC
+
+### Site Health (3 pages checked — Cycle 94)
+- Homepage ✅: 200, FAQPage (15 Qs), Organization, WebSite+SearchAction, HowTo, Person, hreflang, Article
+- /exams/neet/ ✅: 200, FAQPage (x2), HowTo (x5), BreadcrumbList, hreflang
+- /notes/neet/physics/phy-001/ ✅: 200, Article, BreadcrumbList, FAQPage, CollectionPage+ItemList
+- Sitemap ✅: clean (bad exam URLs already removed in Cycle 93)
+- Footer "Content reviewed April 2026" ✅
+- News ✅: 10 items fresh (JEE Mains Session 2 begins tomorrow — top story)
+
+### Findings
+- **Auto-fix in progress**: `scripts/fix-sitemap.cjs` auto-ran during build and removed 3 broken exam entries from sitemap:
+  - `exams/uaeu-cat/` (uppercase variant — no page exists)
+  - `exams/uAeu-cat/` (mixed case — no page exists)
+  - `exams/%E5%B8%96ast/` (URL-encoded Chinese chars — no page exists)
+  - These were wasting crawl budget. 126 exam pages now confirmed clean in sitemap.
+
+### No changes made
+- All high-value SEO work complete. Remaining items blocked on user input (GSC code, deploy SSH fix, AdSense account, Formspree ID).
+

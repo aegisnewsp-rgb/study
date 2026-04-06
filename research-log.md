@@ -2233,3 +2233,43 @@ User must fix the deploy service via SSH. After that, this cycle's orphaned `nee
 - Sitemap postbuild script: removed 3 broken exam sitemap entries, added lastmod to all URLs ✅
 - Deploy: blocked (deploy service down since last cycle)
 - Git: committed ✅ (1f98c80)
+
+---
+
+## Cycle 117 — 2026-04-06 06:36 UTC
+
+### 🔍 Checks Run
+- Homepage `/`: **200 OK** ✅
+- Exam page `/exams/neet/`: **301 → 200** (trailing slash redirect, correct) ✅
+- Notes page `/notes/neet/physics/`: **301 → 200** ✅
+- Sitemap: **3,352 URLs** (3,216 notes pages + 129 exam pages + 7 top pages) ✅
+- News.json: **10 items, fresh** — latest: "CDS Admit Card 2026 OUT" published 2026-04-06 ✅
+- Footer "Content reviewed": **April 2026** ✅
+- llm.txt date: **2026-04-06** ✅
+- NEET exam page FAQPage schema: ✅ present
+- news.json `published` field: correct (RSS `pubDate` → `published` in JSON) ✅
+
+### 🟡 Status: No Action Taken
+- **Site is healthy** — no issues found
+- **Deploy service still down** (confirmed 404 on port 9000) — same root cause as last cycle
+  - Fix requires SSH: `sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service` + daemon-reload
+  - Workspace has changes ready to deploy (postbuild sitemap script + lastmod dates) but cannot push
+- **All high-value SEO work is complete** — remaining backlog items need user input (GSC code, Formspree ID, AdSense account)
+
+### ✅ Completed This Run
+- Full site health check: all signals green
+- No code changes needed — site in maintenance mode pending deploy service fix
+
+### 📌 Action Required (User)
+- Run the 3 SSH commands in improvement-backlog.md to fix deploy service, then redeploy
+
+## Cycle 87 — 2026-04-06 07:40 UTC
+**Status:** No change needed — site healthy
+**Pages checked:** Homepage (200 OK), /exams/neet/ (200 OK), /notes/neet/physics/phy-001/ (200 OK)
+**Sitemap:** Live at studyroadmap.in/sitemap-0.xml — 3200+ topic URLs
+**News:** 10 items, fresh (0h old)
+**GSC:** Placeholder still in Layout.astro — needs user code
+**Deploy service:** Still crashing post-deploy (systemd Type=oneshot issue — user SSH fix documented in backlog)
+**Formspree:** Placeholder in feedback.astro — user action needed
+**All SEO checks:** Passed (title, canonical, OG, robots.txt, FAQPage JSON-LD, Organization schema)
+**No code changes made.** No new issues found.

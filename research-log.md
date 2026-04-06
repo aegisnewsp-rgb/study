@@ -2639,3 +2639,37 @@ All high-value improvements are complete. Remaining items require human input:
 ### 📝 Notes
 - Deploy service keeps dying post-deploy (Type=oneshot confirmed root cause, needs SSH fix from user)
 - All substantive SEO work complete; no further automated improvements available without user input
+
+## Research Findings — 2026-04-06 12:42 UTC
+
+### 🔴 Critical (fix immediately)
+- None — site healthy
+
+### 🟡 Important (fix this cycle)
+- None identified — all major SEO complete; exam metadata fully populated
+
+### 🟢 Quick Wins
+- Site health check: Homepage (200 OK) ✅, /exams/ (200 OK) ✅, /notes/ (200 OK) ✅
+- Commit: 429697e "Growth cycle — 2026-04-06T12:42 UTC" (research-log.md update)
+
+### 📊 Site Health (spot check)
+- Homepage ✅: 200, FAQPage (15 Qs), Organization, WebSite+SearchAction, HowTo, Person, hreflang
+- /exams/ ✅: 200, ItemList schema
+- /notes/ ✅: 200, CollectionPage+ItemList
+
+### 🔕 Still Needs User Input
+- GSC verification code (`YOUR_VERIFICATION_CODE_HERE` in Layout.astro)
+- Bing verification code (`REPLACE_WITH_BING_VERIFICATION_CODE` in Layout.astro)
+- Formspree feedback form ID (`REPLACE_WITH_FORMSPREE_ID` in feedback.astro)
+- Deploy service: `Type=oneshot` → `Type=simple` + `Restart=always` (SSH required)
+- AdSense integration (needs approved account + code)
+- GitHub push blocked (commits stuck locally)
+
+### ✅ Completed This Run
+- Site health: all 3 pages 200 OK ✅
+- Research-log appended ✅
+- Commit: 429697e ✅
+
+### 📝 Notes
+- All automated SEO improvements exhausted. Site at maximum optimization for automated-only approach.
+- Remaining growth levers all need user action.

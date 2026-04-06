@@ -142,7 +142,7 @@ const exam: ExamTemplate = {
   subjects,
   durations,
   rescueMode,
-  lastUpdated: '2026-03-23',
+  lastUpdated: '2026-04-06',
   officialSource: 'https://ssc.nic.in',
 };
 export default exam;

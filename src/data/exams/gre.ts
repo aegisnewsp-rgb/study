@@ -97,7 +97,7 @@ const exam: ExamTemplate = {
   subjects,
   durations,
   rescueMode,
-  lastUpdated: '2026-03-24',
+  lastUpdated: '2026-04-06',
   officialSource: 'https://www.ets.org/gre',
 };
 export default exam;

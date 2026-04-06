@@ -2059,3 +2059,34 @@ None — no issues found to fix in this cycle.
 ### 🔄 Next cycle focus
 - Verify sitemap production output; fix if confirmed missing top-level pages
 - Monitor news freshness
+
+## Cycle 87 — 2026-04-06 06:07 UTC
+**Status:** NO CHANGE — blocked by non-functional deploy
+
+### Checks Performed
+- Homepage: 200 ✅
+- /exams/neet/: 200 ✅
+- /exams/jeemain/: 200 ✅
+- Sitemap: present at sitemap-index.xml, massive URL list confirmed ✅
+- News.json: refreshed successfully — 10 items, saved to public/news.json ✅
+- Deploy endpoint: 404 (backend dead — Type=oneshot systemd issue, known from backlog)
+
+### Finding: neet-strategy page orphaned in dist, not live
+- `src/pages/exams/neet-strategy.astro` exists in workspace
+- Built output exists at `dist/exams/neet-strategy/`
+- Live URL `https://studyroadmap.in/exams/neet-strategy/` returns 404
+- Not in sitemap (not a sitemap issue — the file was never successfully deployed)
+- Root cause: deploy backend is down, so workspace changes never reach production
+
+### Still Blocked (needs user action)
+1. **Deploy service fix** — SSH command documented in improvement-backlog (Item 6)
+   ```bash
+   sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service
+   sudo sed -i 's/Restart=no/Restart=always/' /etc/systemd/system/studyroadmap-deploy.service
+   sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
+   ```
+2. **GSC/Bing verification codes** — placeholders in Layout.astro
+3. **Formspree ID** — placeholder in feedback.astro
+
+### Next Actionable Step
+User must fix the deploy service via SSH. After that, this cycle's orphaned `neet-strategy` page will go live automatically.

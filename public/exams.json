@@ -359,32 +359,6 @@
       "topicCount": 0
     },
     {
-      "examId": "gre",
-      "examName": "GRE",
-      "country": "india",
-      "subjects": [
-        {
-          "id": "verbal",
-          "name": "Verbal Reasoning",
-          "color": "#8b5cf6",
-          "topicCount": 9
-        },
-        {
-          "id": "quant",
-          "name": "Quantitative Reasoning",
-          "color": "#10b981",
-          "topicCount": 11
-        },
-        {
-          "id": "awa",
-          "name": "Analytical Writing",
-          "color": "#f59e0b",
-          "topicCount": 5
-        }
-      ],
-      "topicCount": 25
-    },
-    {
       "examId": "gujcet",
       "examName": "GUJCET",
       "country": "india",
@@ -1166,13 +1140,6 @@
       "topicCount": 0
     },
     {
-      "examId": "sathe",
-      "examName": "Saudi Achievement Test (Saudi-The)",
-      "country": "saudi",
-      "subjects": [],
-      "topicCount": 0
-    },
-    {
       "examId": "sbi-clerk",
       "examName": "SBI Clerk",
       "country": "india",
@@ -1493,7 +1460,7 @@
       "topicCount": 0
     },
     {
-      "examId": "\u5e16ast",
+      "examId": "帖ast",
       "examName": "LEA/RX Exam (Philippines)",
       "country": "philippines",
       "subjects": [],

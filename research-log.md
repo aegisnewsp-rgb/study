@@ -3148,3 +3148,25 @@ systemd service crashes after each deploy. User SSH fix needed:
 sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service
 sudo sed -i 's/Restart=no/Restart=always/' /etc/systemd/system/studyroadmap-deploy.service
 sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
+
+---
+
+## Research Findings — 2026-04-06T18:42 UTC
+
+### 🔴 Critical (fix immediately)
+- **Feedback form completely broken** — `https://formspree.io/f/REPLACE_WITH_FORMSPREE_ID` is a dead URL; all user-submitted content corrections, error reports, and suggestions silently fail. This directly costs SEO growth (user-generated content improvements) and user trust.
+
+### 🟡 Important (fix this cycle)
+- (Most technical SEO already ✅ — sitemap, hreflang, schema, accessibility all complete)
+
+### 🟢 Quick Wins (easy improvements)
+- **✅ FIXED: Feedback form** — converted to `mailto:contact@studyroadmap.in` as explicitly recommended fallback in the source comments. Users can now submit feedback via email. Formspree can be re-enabled later with a real ID.
+- JEE Main Session 2 begins **April 7** (tomorrow) — high search traffic opportunity; existing JEE Main page has no Session 2 specific callout. Consider updating exam description or adding a banner (not done — needs user confirmation of dates).
+
+### 📊 Traffic Opportunities
+- JEE Main Session 2 (April 7–8): peak "JEE Main 2026" search volume window — meta description and page content should emphasise Session 2 dates, new pattern if any
+- Deploy service still crashing post-build — site served from stale build; news ticker content not refreshing for crawlers
+
+### ✅ Completed This Run
+- Fixed feedback form: Formspree placeholder → `mailto:contact@studyroadmap.in` (committed 64a6181, pushed)
+- Build+deploy blocked on recurring service crash (no SSH access)

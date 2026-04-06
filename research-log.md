@@ -1,7 +1,23 @@
-## Research Findings — 2026-04-06 01:39 UTC
+## Research Findings — 2026-04-06 01:51 UTC
 
 ### 🔴 Critical (fix immediately)
 - None — site fully healthy
+
+### ✅ Actions Taken
+- News data refreshed: 10 items saved to news.json (2026-04-06)
+- Build succeeded: 3354 pages, sitemap cleaned of 4 stale /exams/ entries (gre, ast, sathe, uaeu-cat)
+
+### 📊 Site Health Check
+- Homepage ✅ Person schema confirmed in built output
+- /exams/ ✅ Person schema confirmed in built output  
+- /notes/ ✅ Person schema confirmed in built output
+- All 3 key pages return 200, proper structured data present
+- Build output verified: Person schema renders correctly on all pages that pass `author` prop
+
+### 🔕 Still Needs User Input
+1. GSC verification meta tag = `REPLACE_WITH_GOOGLE_SEARCH_CONSOLE_VERIFICATION_CODE` in Layout.astro
+2. Bing Webmaster meta tag = `REPLACE_WITH_BING_VERIFICATION_CODE` in Layout.astro
+3. Formspree feedback form = `REPLACE_WITH_FORMSPREE_ID` in feedback.astro
 
 ### 🟡 Site Health
 - Build: ✅ 3222 pages, sitemap postbuild fixed (removed 4 broken entries: gre, ast, sathe, uaeu-cat — no generated pages)

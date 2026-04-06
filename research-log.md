@@ -2212,3 +2212,24 @@ User must fix the deploy service via SSH. After that, this cycle's orphaned `nee
 - The previous fix-sitemap.cjs logic only caught orphan exams if they were still in source data; completely removed exams slipped through
 - The new STEP 0b fix handles both cases: exams renamed within source AND exams deleted from source
 - No other structural/meta issues found on homepage, /exams/neet/, or /notes/neet/physics/
+
+## Research Findings — 2026-04-06T06:27 UTC
+
+### 🔴 Critical (fix immediately)
+- (none)
+
+### 🟡 Important (fix this cycle)
+- Sitemap postbuild: 3 broken exam entries fixed (uAeu-cat, uaeu-cat, pcat special char URLs removed from sitemap), lastmod added to all entries
+
+### 🟢 Quick Wins (easy improvements)
+- Build: 3,355 pages ✅ — up from 3,346
+- Deploy service: still DOWN (port 9000 returning 404). User SSH fix still pending: `Type=oneshot → Type=simple` + `Restart=always`
+
+### 📊 Traffic Opportunities
+- All major SEO complete; highest-value remaining: GSC verification + AdSense (both need user input)
+
+### ✅ Completed This Run
+- Build: 3,355 pages in 65s ✅
+- Sitemap postbuild script: removed 3 broken exam sitemap entries, added lastmod to all URLs ✅
+- Deploy: blocked (deploy service down since last cycle)
+- Git: committed ✅ (1f98c80)

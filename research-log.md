@@ -2506,3 +2506,34 @@ No urgent issues found. All critical SEO elements are in place.
 ### ✅ Completed This Run
 - News fetch: 10 fresh items saved to public/news.json ✅
 - Commit: 566838c "Growth cycle — news refresh 2026-04-06 08:35 UTC" ✅
+
+## Research Findings — 2026-04-06 09:41 UTC
+
+### 🔴 Critical (fix immediately)
+- None — site healthy (HTTP 200)
+
+### 🟡 Important (fix this cycle)
+- UTBK exam missing exam-specific FAQs — only exam without dedicated FAQ entry
+
+### 🟢 Quick Wins
+- Added UTBK exam-specific FAQs (3 Q&A pairs) covering: what UTBK is and how it works, exam pattern (195 Q / 195 min, TPS + subject tests), and how UTBK scores are used for SNBP/SNBT university admission
+- Build: 3355 pages ✅
+- Commit: 87ebdfa "Add UTBK exam-specific FAQs (3 Q&A pairs)" ✅
+
+### 📊 Site Health (3 pages checked)
+- Homepage ✅: 200, FAQPage (15 Qs), Organization, WebSite+SearchAction, HowTo, Person
+- /exams/jeemain/ ✅: 200, BreadcrumbList, FAQPage (3 JEE-specific Qs), HowTo
+- /notes/neet/physics/ ✅: 200, FAQPage (4 Physics Qs), BreadcrumbList, CollectionPage+ItemList
+
+### 🔕 Still Needs User Input
+- GSC verification code (`YOUR_VERIFICATION_CODE_HERE` in Layout.astro)
+- Bing verification code (`REPLACE_WITH_BING_VERIFICATION_CODE` in Layout.astro)
+- Formspree feedback form ID (`REPLACE_WITH_FORMSPREE_ID` in feedback.astro)
+- Deploy service: `Type=oneshot` → `Type=simple` + `Restart=always` (SSH required) — endpoint returns "Bad request" consistently
+- AdSense integration (needs approved account + code)
+
+### ✅ Completed This Run
+- UTBK FAQs added: 3 exam-specific Q&A pairs (utbk entry now in exam-faqs.ts) ✅
+- Build: 3355 pages ✅ | Commit: 87ebdfa ✅
+- News fetch: 10 items (India:4, Nigeria:4, Pakistan:2) — committed separately
+- Deploy: BLOCKED — deploy endpoint returns "Bad request" (deploy service needs SSH restart)

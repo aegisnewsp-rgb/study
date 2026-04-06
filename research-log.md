@@ -1387,3 +1387,45 @@ All remaining improvements need user-provided values:
 ### Changes Made
 None — no issues found to fix in this cycle.
 
+
+---
+
+## 2026-04-06T01:16 UTC — Cycle 87
+
+### Pages Checked
+- Homepage: ✅ Full schema (Organization, WebSite, FAQPage, HowTo, Person), hreflang, OG/Twitter tags, canonical. Note: H1 is client-side injected via React SPA — Googlebot handles this correctly.
+- /exams/neet/: ✅ FAQPage (3 Q&A), HowTo, BreadcrumbList schema. Solid meta description, canonical.
+- /notes/neet/physics/: ✅ FAQPage (4 Q&A), proper meta description, canonical.
+
+### Key Findings
+1. **Sitemap**: sitemap-0.xml is populated with 3200+ URLs (notes pages confirmed). Exam index pages appear to be in the main sitemap file (last 3 URLs in output show /exams/gre/, /exams/ast/, /exams/sathe/, /exams/uaeu-cat/). No structural issues detected.
+2. **llm.txt**: Date was 2026-04-05, updated to 2026-04-06.
+3. **News ticker**: JEE Main 2026 April 6 news present (published 2026-04-05T18:57:40), relevant and fresh.
+4. **GSC/Bing placeholders**: Still unreplaced (needs user-provided codes).
+
+### Change Made
+- Updated `public/llm.txt` date line from 2026-04-05 → 2026-04-06. Committed as 52aea28.
+
+### Status
+- All major SEO improvements complete. Site is healthy.
+- Remaining: GSC code (user action needed), AdSense (user action needed), deploy service fix (user SSH command needed), directory submissions (low ROI).
+
+---
+
+## 2026-04-06 01:18 UTC — Growth Cycle
+
+**Site Status:** ✅ All systems healthy
+- Homepage: 200, /exams: 200, /notes: 200, /roadmap: 200
+- Sitemap: sitemap-index.xml → sitemap-0.xml (3,200+ URLs)
+- robots.txt correctly references sitemap-index.xml
+- robots.txt blocks AI training bots (GPTBot, anthropic-ai)
+
+**Key Findings:**
+1. News.json structure: returns 200 but `publishedAt` field is missing — news ticker on homepage may not display dates properly (low impact)
+2. llm.txt: Date already updated to 2026-04-06 ✅
+3. Remaining items all require user action:
+   - GSC verification code needed
+   - Deploy backend fix (SSH access required)
+   - AdSense integration pending user setup
+
+**No code changes this cycle.** Site is technically solid. Next highest-value fix is the deploy service setup which requires SSH access to the home-node machine.

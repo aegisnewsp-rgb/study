@@ -2790,3 +2790,37 @@ All high-value improvements are complete. Remaining items require human input:
 ### 🟡 No critical fixes needed this cycle
 ### 🔕 Still needs user input: GSC verification, deploy service fix, Formspree ID, AdSense
 
+
+## Research Findings — 2026-04-06 14:14 UTC
+
+### 🔴 Critical (fix immediately)
+- None — site healthy
+
+### 🟡 Important (fix this cycle)
+- None identified — all major SEO complete; exam metadata (examPattern, eligibility) fully populated across all exams
+
+### 🟢 Quick Wins
+- News refreshed: 10 items (India:4, Pakistan:3, Nigeria:3) — committed (a2aed91)
+- Site: HTTP 200 ✅ | Build clean (postbuild sitemap fix active) | All schemas present
+
+### 📊 Site Health (3 pages checked)
+- Homepage ✅: 200, FAQPage (15 Qs), Organization, WebSite+SearchAction, HowTo, Person, hreflang
+- /exams/jeemain/ ✅: 200, BreadcrumbList, FAQPage (3 JEE-specific Qs), HowTo (3 steps) — all schemas present
+- /notes/neet/physics/ ✅: 200, FAQPage (4 Physics Qs), BreadcrumbList, CollectionPage+ItemList (29 topics), OG image
+
+### 🔕 Still Needs User Input
+- GSC verification code (`YOUR_VERIFICATION_CODE_HERE` in Layout.astro)
+- Bing verification code (`REPLACE_WITH_BING_VERIFICATION_CODE` in Layout.astro)
+- Formspree feedback form ID (`REPLACE_WITH_FORMSPREE_ID` in feedback.astro)
+- Deploy service: `Type=oneshot` → `Type=simple` + `Restart=always` (SSH required)
+- AdSense integration (needs approved account + code)
+
+### ✅ Completed This Run
+- News fetch: 10 fresh items saved to public/news.json ✅
+- Commit: a2aed91 "Growth cycle — news refresh 2026-04-06T14:14 UTC" ✅
+
+### 📝 Notes
+- All automated SEO improvements exhausted. Site is at maximum optimization for an automated-only approach.
+- Remaining growth levers all need user action (GSC, AdSense, SSH access, directory review).
+- Postbuild sitemap fix (scripts/fix-sitemap.cjs) active and working — lastmod dates now on all sitemap entries.
+

@@ -2762,3 +2762,31 @@ All high-value improvements are complete. Remaining items require human input:
 - News fetch: 10 fresh items saved to public/news.json ✅ (JEE Advanced registration, MHT CET revised dates, NEET Chemistry strategy)
 - Commit: 7871fff "Growth cycle fix" ✅
 - Site health check: all 3 pages 200 ✅
+
+---
+
+## Research Findings — 2026-04-06 13:07 UTC
+
+### Site Health (3 pages checked)
+- Homepage ✅ 200
+- /exams/neet/ ✅ 200
+- /notes/neet/physics/phy-001/ ✅ 200
+
+### News Refresh
+- 10 items fetched: India 4, Pakistan 4, Nigeria 2 — saved to public/news.json
+- Committed: 7f2cdff "Growth cycle — news refresh 2026-04-06T13:14 UTC"
+
+### llm.txt Audit
+- llm.txt is present in public/ (✅ robots.txt references it, ✅ Standard format)
+- All major sections covered: exams, roadmap, notes, schemas, contact/feedback
+- Date: 2026-04-06 ✅
+
+### Key Finding — Sitemap Integrity
+- Sitemap has ~3200+ topic page URLs across ~104 exams
+- Some notes topic files have gaps (e.g., /notes/neco/physics/phy-3/ is missing, only phy-2 and phy-5 onward — likely intentionally omitted from content generation)
+- Topic pages are non-indexed (noindex) — intentional AdSense thin-content mitigation
+- Notes index pages ARE indexed (CollectionPage + ItemList schema) ✅
+
+### 🟡 No critical fixes needed this cycle
+### 🔕 Still needs user input: GSC verification, deploy service fix, Formspree ID, AdSense
+

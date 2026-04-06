@@ -113,11 +113,14 @@ const newExamUrls = examIds
   .filter(id => generatedExamIds.has(id))  // only include if page was actually generated
   .map(id => `<url><loc>${BASE_URL}/exams/${id}/</loc><lastmod>${today}</lastmod></url>`);
 
-if (newExamUrls.length === 0) {
-  console.log(`All ${generatedExamIds.size} generated exam pages already in sitemap (${examIds.length} total data files found)`);
-  process.exit(0);
-}
+// Always write the sitemap after STEP 2 (which adds lastmod tags)
+fs.writeFileSync(sitemapPath, sitemap);
+console.log(`Added <lastmod> to all URL entries`);
 
-const newSitemap = sitemap.slice(0, lastIdx) + newExamUrls.join('') + '\n' + closingTag;
-fs.writeFileSync(sitemapPath, newSitemap);
-console.log(`Added ${newExamUrls.length} exam pages to sitemap (${generatedExamIds.size} generated, ${examIds.length} total data files)`);
+if (newExamUrls.length > 0) {
+  const newSitemap = sitemap.slice(0, lastIdx) + newExamUrls.join('') + '\n' + closingTag;
+  fs.writeFileSync(sitemapPath, newSitemap);
+  console.log(`Added ${newExamUrls.length} exam pages to sitemap (${generatedExamIds.size} generated, ${examIds.length} total data files)`);
+} else {
+  console.log(`All ${generatedExamIds.size} generated exam pages already in sitemap (${examIds.length} total data files found)`);
+}

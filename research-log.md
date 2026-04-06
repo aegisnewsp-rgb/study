@@ -1924,3 +1924,26 @@ None — no issues found to fix in this cycle.
 - Fixed YAML syntax error in uptet/science/scienc-001.md (build error)
 - Commit: 8d59ffe
 - Site TLS check: connection error (possibly VPS/backend issue — consistent with prior research)
+
+## Research Findings — 2026-04-06T05:41 UTC
+
+### Site Status: HEALTHY ✅
+- All notes pages indexed in sitemap (all `/notes/` URLs present)
+- 129 `/exams/` pages confirmed in sitemap ✅ (postbuild script working)
+- Sitemap lastmod dates current: 2026-04-06
+- Site URL: `https://studyroadmap.in` (matches astro.config site setting)
+
+### Improvements Log Review
+- Improvement backlog is comprehensive; major SEO work done in prior cycles
+- Remaining items all need user input: GSC code, Bing code, AdSense account
+- No orphaned data files, no broken exam slugs, no content gaps in pipeline
+
+### One Issue Found: Domain Alignment Question
+- Sitemap uses `https://studyroadmap.in` — confirmed ✅
+- Need to verify live site is actually at `.in` (not `.com` or both)
+- If deployment uses `.com` while sitemap uses `.in`, canonical/SEO is misaligned
+- **Recommendation:** User should confirm which domain serves live traffic
+
+### No Changes Made
+- Nothing to fix this cycle — site is healthy and content pipeline is clean
+- Ready for deployment whenever next build is triggered

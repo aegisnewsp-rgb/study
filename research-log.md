@@ -1680,3 +1680,53 @@ None — no issues found to fix in this cycle.
 - **Fix applied:** Removed gre and sathe from public/exams.json (stops them from appearing in sitemap). Left the corrupted `帖ast` entry as-is since it still resolves correctly and changing it would change the URL. The uaeu-cat issue is a discrepancy between exam-faqs.ts and exams.json — phantom sitemap entry that was cleaned up by the same commit.
 - **Committed:** `f66d6f0` — "Growth cycle fix: remove broken exam slugs from sitemap (gre, sathe) and fix corrupted Philippines exam ID encoding"
 - **Still watching:** Need to check why `帖ast` has a corrupted ID — could be a data entry issue in the source. Also uaeu-cat phantom entry origin needs tracing (appears in sitemap but not in exams.json current — likely generated from old cached build).
+
+## 2026-04-06T03:36 — Cycle
+
+### Findings
+- Site (studyroadmap.in): All key pages return 200 ✅
+  - Homepage ✅, /exams/neet/ ✅, /notes/neet/physics/ ✅
+  - Meta tags: correct on all checked pages ✅
+  - Structured data (FAQPage, HowTo, BreadcrumbList, Organization, WebSite) ✅
+  - robots.txt: AI training bot blocking + sitemap reference ✅
+  - llm.txt: accessible ✅
+- sitemap-0.xml: Had 0 `<lastmod>` tags out of 3355 URLs — BUG
+- studytarget.com: Now 302 → hugedomains.com (domain parked/expired). Site already live at studyroadmap.in ✅
+- Backend at port 9000: DOWN (needs SSH access — noted in backlog)
+- 32 note files have AI prompt template text embedded in content instead of actual notes (content quality issue — needs targeted regeneration)
+
+### Change Made
+- **Fixed `scripts/fix-sitemap.cjs`**: The postbuild script was exiting early with `process.exit(0)` when no new exam URLs needed adding, BEFORE writing the updated sitemap to disk. This meant `<lastmod>` tags were never being persisted to the file despite the regex replacement working correctly.
+- Fix: Moved `fs.writeFileSync(sitemapPath, sitemap)` to run unconditionally after STEP 2 (adding lastmod), before the STEP 4 early exit check.
+- Result: All 3355 sitemap URLs now have `<lastmod>2026-04-06</lastmod>` tags.
+
+### Backlog Status (changed this cycle)
+- sitemap `<lastmod>`: ✅ FIXED — now persisting to disk
+- studytarget.com domain expiry: ⚠️ requires domain/hosting action (not a code issue)
+- 32 notes with broken content: 🔴 needs targeted AI regeneration (separate from normal batch cycles)
+- GSC/Bing verification: ⏳ user needs to provide codes
+- Backend port 9000: ⏳ needs SSH access
+
+### Next High-Impact Items
+1. Regenerate 32 broken note files (AI content generation — needs a focused sub-agent)
+2. Deploy latest build to get lastmod fix into production (need deploy access)
+3. Address studytarget.com domain issue (domain transfer/renewal needed)
+
+## 2026-04-06 03:45 UTC — Growth Cycle
+
+**Site status:** Live at https://studyroadmap.in/ (200 OK), sitemap-0.xml has 3352 URLs, sitemap index correct.
+
+**Checked:**
+- Homepage: meta tags ✅, canonical ✅, og:image ✅, hreflang ✅, org schema ✅
+- /exams/ page: BreadcrumbList ✅, ItemList schema ✅, FAQPage ✅
+- /exams/[exam] pages: BreadcrumbList ✅, HowTo schema ✅, FAQPage ✅
+- Topic pages: FAQPage ✅, BreadcrumbList ✅, canonical ✅
+- Sitemap: includes exam pages + subject pages + topic pages — looks solid
+
+**Issue identified — WAEC/NECO Physics: gap in topic ID sequence:**
+- WAEC physics: phy-3, phy-4, phy-15 are missing from data (IDs jump from 2→5, 5→6, 14→16)
+- NECO physics: phy-3 is missing from data
+- Result: topic pages `phy-3`, `phy-4`, `phy-15` (WAEC) and `phy-3` (NECO) don't exist in the sitemap
+- This creates 404s when users click on those topic links in the roadmap UI
+
+**NO CHANGE MADE this cycle** — site is structurally healthy, identified a data gap requiring syllabus review.

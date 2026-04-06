@@ -1,3 +1,17 @@
+## Research Findings — 2026-04-06 20:53 UTC
+
+### Site Health (3 pages checked — Cycle 94)
+- Homepage ✅: 200, FAQPage (15 Qs), Organization, WebSite+SearchAction, HowTo, Person, hreflang, Article
+- /exams/neet/ ✅: 200, FAQPage (x2), HowTo (x5), BreadcrumbList, hreflang
+- /notes/neet/physics/phy-001/ ✅: 200, Article, BreadcrumbList, FAQPage, CollectionPage+ItemList
+- Sitemap ✅: clean (bad exam URLs already removed in Cycle 93)
+- Footer "Content reviewed April 2026" ✅
+- News ✅: 10 items
+
+### No changes needed
+- All high-value SEO complete. Remaining items blocked on user input (GSC, AdSense, deploy SSH fix, Formspree).
+
+---
 ## Research Findings — 2026-04-06 18:18 UTC
 
 ### Site Health (3 pages checked — Cycle 88)

@@ -2933,3 +2933,32 @@ All high-value improvements are complete. Remaining items require human input:
 ### 📝 Notes
 - News items: 1=UPSC DAF Full Form (Physics Wallah), 2=Why Choose PW UPSC PYPs, 3=UPSC CSAT Syllabus 2026, 4=JAMB Warns Exam Malpractice, 5=Bihar IRS/IAS story
 - Site health: all schemas correct across key pages; sitemap includes all 3345+ URLs
+
+## Research Findings — 2026-04-06T18:05 UTC
+
+### Site Health (3 pages checked)
+- Homepage ✅: 200, FAQPage (15 Qs), Organization, WebSite+SearchAction, HowTo (5 steps), Person schema, hreflang
+- /exams/ ✅: 200, FAQPage (6 Qs), Organization, WebSite, BreadcrumbList, hreflang, all meta tags
+- /notes/neet/physics/ ✅: 200, Article schema, BreadcrumbList (5 levels), FAQPage (4 Qs)
+- Sitemap ✅: 3,352 URLs (sitemap-0.xml), sitemap-index.xml referencing it
+- robots.txt ✅: AI training blocked, Google-Extended + AI indexing allowed
+- News ✅: 10 fresh items (India:4, Pakistan:2, Nigeria:4) — committed
+
+### 🟡 Notable This Cycle
+- **Deploy endpoint: "Forbidden"** — service is UP (HTTP response) but rejecting requests with 403 Forbidden. Different failure mode from Cycles 106-107 (timeouts). Likely auth/token issue. Site is live and healthy — no immediate action needed.
+- **/study-plan-generator/ returns 404** — source file exists in workspace but page not live. Not in sitemap. Needs deploy to resolve (blocked by deploy auth issue).
+
+### 🔕 Still Needs User Input
+- Deploy auth token — current token returning 403 Forbidden
+- GSC verification code (`YOUR_VERIFICATION_CODE_HERE` in Layout.astro)
+- Bing verification code (`REPLACE_WITH_BING_VERIFICATION_CODE`)
+- AdSense integration (needs approved account + code)
+- Formspree feedback form ID
+- App Store ID placeholder `1234567890` should be real StudyRoadmap app ID
+
+### ✅ Completed This Run
+- News fetch: 10 fresh items ✅ (India:4, Pakistan:2, Nigeria:4)
+- Sitemap fix script: removed 3 broken exam URLs (`uAeu-cat`, `uaeu-cat`, `帖ast`) ✅
+- Build: 3,346 pages ✅ (no new code changes)
+- No code changes needed — all SEO complete, deploy blocked by auth
+

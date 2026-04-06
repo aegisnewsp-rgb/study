@@ -3378,3 +3378,21 @@ All render fine (build succeeds), but the route `/notes/[exam]/[subject]/[topic]
 
 ### Status: All Green
 Site fully operational. No critical issues. Research cycle 89 complete.
+
+---
+
+## Research Findings — 2026-04-06 20:54 UTC
+
+### Site Health (3 pages checked — Cycle 95)
+- Homepage ✅: 200, FAQPage (x2), Organization (x3), WebSite (x2), HowTo (x5)
+- /exams/neet/ ✅: 200, FAQPage (x2), Organization (x2), WebSite (x2), HowTo (x5)
+- /notes/neet/physics/phy-001/ ✅: 200, FAQPage (x2), Organization (x4), WebSite (x2), HowTo (x1)
+- Sitemap ✅: clean
+- News ✅: 10 items refreshed (JEE Main Session 2, WAEC, AP EAPCET)
+
+### Findings
+- All major SEO complete — site healthy, all schemas present
+- All remaining items blocked on user input (GSC code, AdSense, deploy SSH fix, Formspree)
+- News refresh committed ✅
+
+### No actionable improvements available — all SEO done, user input items pending

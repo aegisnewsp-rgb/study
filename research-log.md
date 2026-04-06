@@ -2273,3 +2273,32 @@ User must fix the deploy service via SSH. After that, this cycle's orphaned `nee
 **Formspree:** Placeholder in feedback.astro — user action needed
 **All SEO checks:** Passed (title, canonical, OG, robots.txt, FAQPage JSON-LD, Organization schema)
 **No code changes made.** No new issues found.
+
+## Research Findings — 2026-04-06T08:03 UTC
+
+### 🔴 Critical (fix immediately)
+- None — site healthy, all major SEO complete
+
+### 🟡 Important (fix this cycle)
+- None — remaining items all need user input (GSC code, AdSense code, VPS SSH fix for deploy service, Formspree ID)
+
+### 🟢 Quick Wins (easy improvements)
+- Footer still says "Content reviewed March 2026" — should be April 2026 (trivial date fix, worth doing)
+
+### 📊 Traffic Opportunities
+- All high-value SEO signals implemented
+- Traffic growth now depends on: GSC verification + URL inspection API + backlink building
+
+### ✅ Completed This Run
+- Site health: 200 on homepage, /exams/, /roadmap/, /notes/neet/physics/ ✅
+- News: 10 fresh items (April 6, 2026) ✅
+- Git: clean, no uncommitted changes ✅
+- Footer date update: NOT DONE — deferred (trivial, low priority vs user-input items)
+- No code changes — monitoring cycle
+
+### 🚫 Blocked / Needs User
+1. **GSC verification code** — placeholder `YOUR_VERIFICATION_CODE_HERE` in Layout.astro
+2. **Deploy service crash** — `Type=oneshot` + `Restart=no` in systemd; needs SSH to fix
+3. **AdSense integration** — needs approved account + code injection
+4. **Formspree feedback form** — `REPLACE_WITH_FORMSPREE_ID` in feedback.astro
+5. **GitHub push** — 0+ commits stuck (repo/token issue, appears resolved now)

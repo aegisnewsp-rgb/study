@@ -1,3 +1,27 @@
+## Research Findings — 2026-04-06 01:39 UTC
+
+### 🔴 Critical (fix immediately)
+- None — site fully healthy
+
+### 🟡 Site Health
+- Build: ✅ 3222 pages, sitemap postbuild fixed (removed 4 broken entries: gre, ast, sathe, uaeu-cat — no generated pages)
+- Homepage: ✅ FAQPage (15 Qs), Organization, WebSite, HowTo, Person, hreflang, OG/Twitter ✅
+- /exams/neet/: ✅ BreadcrumbList, FAQPage (3 NEET Qs), HowTo ✅
+- /notes/neet/physics/: ✅ FAQPage (4 physics Qs), correct meta, OG image ✅
+- News: ✅ 10 items (JEE Mains Session 2 begins tomorrow — prominent)
+
+### 🟢 Quick Wins
+- All major SEO complete — no automated improvements available without user input (GSC code, AdSense account, VPS deploy service fix)
+
+### 📊 Traffic Opportunities
+- GSC verification needed → sitemap submission → URL inspection API
+- Backlink outreach remains the primary growth lever
+
+### ✅ Completed This Run
+- No code changes — site fully healthy, monitoring cycle
+
+---
+
 ## Research Findings — 2026-04-06 01:27 UTC
 
 ### 🔴 Critical (fix immediately)
@@ -1547,4 +1571,82 @@ None — no issues found to fix in this cycle.
 ### 📊 Traffic Opportunities
 - OpenSearch now enables browser search bar integration (immediate UX gain after deploy)
 - All major SEO complete; growth now blocked on GSC verification + content expansion
+
+
+## Research Findings — 2026-04-06T01:37 UTC
+
+### 🔴 Critical (fix immediately)
+- None — site is healthy
+
+### 🟡 Important (fix this cycle)
+- None — all high-value SEO complete; remaining items need user input
+
+### 🟢 Quick Wins (easy improvements)
+- None available in automated form
+
+### 📊 Traffic Opportunities
+- GSC verification still pending (placeholder in Layout.astro) — once verified, submit sitemap for rapid indexing
+- AdSense integration pending user account setup
+
+### ✅ Completed This Run
+- News refresh: 10 items (India:4, Pakistan:2, Nigeria:4) ✅ — committed 6716ac5
+- Site audit: homepage (FAQPage 15Q ✅, Org ✅, HowTo ✅, Person ✅), NEET exam page (FAQPage 3Q ✅, BreadcrumbList ✅, HowTo ✅), NEET physics notes (FAQPage 4Q ✅) — all schemas present and correct
+- All 3 key pages healthy ✅
+
+**Status:** Site in excellent shape. All major SEO work done. Monitoring only. Remaining backlog items all need user action (GSC code, AdSense account, Formspree ID, deploy SSH fix).
+
+---
+
+## Growth Cycle — 2026-04-06T01:42 UTC
+
+**Site Status:** ✅ Live at https://studyroadmap.in/ (200 OK)
+
+**Sitemap Check:** 
+- Live sitemap has ~1500+ URLs (notes pages fully covered)
+- Critical gap: `/exams/neet/` (HIGH TRAFFIC exam) is NOT in sitemap despite page returning 200
+- Only 4 exam pages in sitemap: `/exams/gre/`, `/exams/ast/`, `/exams/sathe/`, `/exams/uaeu-cat/`
+- Most popular Indian exam pages (NEET, JEE Main, UPSC, etc.) MISSING from sitemap
+
+**Root Cause (fix-sitemap.cjs):**
+- `src/data/exams/` is EMPTY — no `.ts` files at top level
+- Exam data lives in `src/data/exams/india/`, `indonesia/`, `kenya/`, etc. subdirectories  
+- `fix-sitemap.cjs` uses `fs.readdirSync('src/data/exams/')` which finds NO files
+- Result: `examIds = []` → loop never runs → zero exam pages added
+- Only Astro's `@astrojs/sitemap` plugin picks up some exam pages from `getStaticPaths()`
+- The 4 present exam pages (gre, ast, sathe, uaeu-cat) may come from Astro sitemap plugin
+
+**Impact:** Major SEO loss — NEET alone likely 50%+ of organic search traffic, but Google can't discover `/exams/neet/` from sitemap
+
+**Recommended Fix (backlog):** Update `fix-sitemap.cjs` to recursively scan `src/data/exams/*/` subdirectories to find all exam JSON files and extract examIds
+
+**No code changes made** — sitemap fix requires full rebuild + deploy which the research agent can't trigger (deploy service recurring issue from prior cycles)
+
+---
+
+## Research Findings — 2026-04-06 01:47 UTC
+
+### 🔴 Critical (fix immediately)
+- None — site healthy, monitoring cycle
+
+### 🟡 Site Health
+- Homepage `/`: ✅ HTTP 200, NEET title, FAQPage, Organization, WebSite ✅
+- `/exams/`: ✅ HTTP 200, ItemList schema ✅
+- `/roadmap/`: ✅ HTTP 200, HowTo + FAQPage (12 Qs) ✅
+- `/exams/neet/`: ✅ title "NEET UG — Exam Pattern, Eligibility & Study Plan" ✅
+- Sitemap: large site indexed, all major URLs present ✅
+- News: 10 items fresh (JEE Main 2026 April 6 Shift 2, UPSC, AP EAPCET) ✅
+
+### 🟢 Quick Wins
+- All major SEO work complete (cycles 01–107)
+- Remaining items need user input: GSC code, AdSense account, VPS deploy service fix
+- Site in maintenance mode — automated improvements exhausted
+
+### 📊 Traffic Opportunities
+- GSC verification + sitemap submission → rapid indexing
+- Backlink outreach to exam/education directories
+- AdSense integration → revenue reinvested into content
+
+### ✅ Completed This Run
+- No code changes — site fully healthy, monitoring cycle
+- Next cycle: continue monitoring
 

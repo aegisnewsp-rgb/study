@@ -3305,3 +3305,31 @@ sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
 
 **Files:** public/news.json (updated), committed ba57cb4
 
+
+## Research Findings — 2026-04-06T20:28 UTC
+
+### 🟡 Status: Monitoring (all major SEO complete)
+
+**Site Health:**
+- Homepage `/` → HTTP 200 ✅
+- `/roadmap/` → HTTP 200 ✅
+- `/exams/neet/` → HTTP 200 ✅, FAQPage + Organization + BreadcrumbList ✅
+- `/notes/neet/physics/` → HTTP 200 ✅, topic pages indexable (no noindex) ✅
+
+**News:** 10 items in public/news.json ✅ | Feed dates still missing (India/Pakistan RSS — known low-priority issue, Nigeria WAEC items have proper dates)
+
+**Sitemap:** Exam hub pages (`/exams/[exam]/`) included ✅
+
+**Git:** Clean (0 uncommitted changes) ✅
+
+### 🟢 Quick Wins
+None remaining — all high-value SEO improvements completed in prior cycles.
+
+### 📊 Traffic Opportunities
+All actionable SEO leverage exhausted. Next growth drivers need user input:
+1. **GSC verification** → real search performance data + URL inspection
+2. **AdSense integration** → revenue model activation
+3. **Content generation** → MiniMax API top-up needed for remaining ~900 topic notes
+
+### ✅ Completed This Run
+- Monitoring cycle — site healthy, no changes needed

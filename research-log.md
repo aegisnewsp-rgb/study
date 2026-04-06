@@ -1513,3 +1513,38 @@ None — no issues found to fix in this cycle.
 - Site health: all key pages 200 ✅
 - Commit: none (no code change)
 
+
+---
+
+## Research Findings — 2026-04-06 01:29 UTC
+
+### 🔴 Critical (fix immediately)
+- None
+
+### 🟡 Site Health
+- Homepage: ✅ 200, FAQPage (15 Qs), Organization, HowTo, hreflang, OG/Twitter ✅
+- /exams/neet/: ✅ 200, FAQPage (3 Qs), BreadcrumbList, HowTo, exam pattern/eligibility ✅
+- /notes/neet/physics/: ✅ 200 title correct
+- Sitemap: ✅ 3200+ topic pages + sitemap index
+- Deploy service: ⚠️ Type=oneshot bug still unfixed (user SSH action needed)
+- GSC/Bing verification: ⚠️ placeholders (user input needed)
+
+### 🟢 This Cycle's Change — OpenSearch Plugin
+**What:** Added OpenSearch autodiscovery XML at `/opensearch.xml` + `<link rel="search">` in Layout.astro `<head>`.
+
+**Why:** OpenSearch allows browsers (Chrome, Firefox, Edge, Safari) to detect StudyRoadmap as a search provider. Users can add "StudyRoadmap" directly from their browser's address bar/search bar, improving retention and repeat visits. This is a standard SEO/UX feature on established sites — quick win for discoverability.
+
+**Files changed:**
+- `public/opensearch.xml` — NEW ( autodiscovery XML )
+- `src/layouts/Layout.astro` — added `<link rel="search" type="application/opensearchdescription+xml">` in `<head>`
+- Committed: `acf5dfc`
+
+### 📊 Remaining Opportunities (no user action needed this cycle)
+- Deploy service fix (Type=oneshot bug) — user SSH commands documented in backlog
+- GSC verification code — placeholder in Layout.astro, user action needed
+- Content expansion for remaining ~900 topics (MiniMax balance exhausted)
+
+### 📊 Traffic Opportunities
+- OpenSearch now enables browser search bar integration (immediate UX gain after deploy)
+- All major SEO complete; growth now blocked on GSC verification + content expansion
+

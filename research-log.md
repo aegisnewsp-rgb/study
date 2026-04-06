@@ -1429,3 +1429,59 @@ None — no issues found to fix in this cycle.
    - AdSense integration pending user setup
 
 **No code changes this cycle.** Site is technically solid. Next highest-value fix is the deploy service setup which requires SSH access to the home-node machine.
+
+## 2026-04-06 01:20 UTC — Cycle 88
+
+### Pages Checked
+- Homepage: ✅ Full schema (Organization, WebSite, FAQPage 15Q, HowTo, Person), hreflang, OG/Twitter, canonical. H1 is client-side React-injected (expected — Googlebot handles correctly).
+- /exams/neet/: ✅ meta description, 1 FAQPage (3 NEET-specific Q&A), HowTo, BreadcrumbList
+- /notes/neet/physics/: ✅ meta description, FAQPage (1×4Q), canonical
+- Sitemap: ✅ sitemap-index → sitemap-0.xml (all exam + notes pages)
+- robots.txt: ✅ AI training blocked, citations allowed, sitemap referenced
+
+### Key Findings
+1. **News**: 10 fresh items (India: 4, Nigeria: 4, Pakistan: 2) — JEE Main April 6 Shift 2 question paper (Shiksha.com) is the top story
+2. **News ticker**: Uses `item.published` field correctly — no bug (previous cycle concern was a false positive)
+3. **llm.txt**: Date already 2026-04-06 ✅
+4. **All major SEO complete** — site technically solid
+
+### No Code Changes This Cycle
+- Site health: excellent
+- All high-value improvements from backlog completed in prior cycles
+- Remaining items: GSC/Bing codes (user action), AdSense (user action), deploy service fix (SSH required)
+
+### Status
+- All 6 key pages healthy ✅
+- Sitemap: 3,200+ URLs ✅
+- Deploy service: down (backend dying — user SSH fix still pending)
+- News: fresh ✅
+
+---
+
+## Research Findings — 2026-04-06 01:24 UTC
+
+### 🔴 Critical (fix immediately)
+- None — all major SEO complete
+
+### 🟡 Site Health
+- Homepage: ✅ 200, FAQPage (15 Qs), Organization, HowTo, news section
+- /exams/neet/: ✅ 200, FAQPage (3 NEET Qs), HowTo, BreadcrumbList, full exam details
+- /notes/neet/physics/: ✅ 200, FAQPage (4 Qs), CollectionPage+ItemList (29 topics), BreadcrumbList
+- Plausible analytics: ✅ confirmed live
+- hreflang: ✅ en-IN/en-PK/en-NG/x-default on all pages
+- GSC/Bing placeholders: ✅ still pending user codes
+
+### 🟢 Quick Wins
+- All major SEO done — remaining items need user input (GSC code, AdSense account, VPS SSH fix)
+- News: fetched (10 items, 0 new vs HEAD — deduplication all items identical)
+
+### 📊 Traffic Opportunities
+- 3,346 pages sitemap ✅
+- All structured data complete ✅
+- Growth blocked on: GSC verification + backlink outreach
+
+### ✅ Completed This Run
+- News refresh: 10 items (India:4, Nigeria:4, Pakistan:2) — identical to HEAD, no diff
+- Site health: all key pages 200 ✅
+- Commit: none (no code change)
+

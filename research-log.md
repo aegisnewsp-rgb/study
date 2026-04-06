@@ -3190,3 +3190,49 @@ sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
 - News refresh committed ✅
 
 ---
+
+---
+
+**2026-04-06 18:49 UTC** | Growth cycle run
+
+**Checked:** homepage, /roadmap, /notes/neet/physics
+**News status:** news.json is a raw array (each item has `.title .url .source .country .published`) — 354KB sitemap confirmed ✅
+**Code changes:**
+- Fixed news ticker visibility on homepage: removed `hidden` class from the `<section id="news-ticker">` so the news section is visible during SSG (crawlable by Google) instead of only populating client-side after page load
+
+**No changes:**
+- GSC + site verification blocked on user credentials
+- AdSense blocked on account access
+- Formspree contact form blocked on ID
+- Deploy SSH access blocked on credentials
+
+**Git commit:** `Growth cycle fix: show news ticker on homepage (SSG)`
+
+---
+
+## Cycle: 2026-04-06T18:57 UTC
+
+### Findings
+- **Site status:** Healthy. Homepage, notes page (NEET Physics), and sitemap all serving correctly (200 OK).
+- **Sitemap:** sitemap-0.xml contains all topic pages, exam pages, and static pages — appears comprehensive.
+- **llm.txt:** Updated 2026-04-05, current.
+- **Structured data:** Notes pages have FAQPage + BreadcrumbList schema. Homepage has FAQPage + HowTo + WebSite + Organization schema. All look correct.
+- **HTTPS redirect issue (NEW):** `/about` and `/exams` return 301 → `http://studyroadmap.in/about/` and `http://studyroadmap.in/exams/` (HTTP, not HTTPS). This causes a double-redirect chain (HTTPS → HTTP → HTTPS) which hurts SEO and performance. Likely a CDN/trailing-slash redirect rule at Cloudflare or hosting level using hardcoded `http://` instead of protocol-relative URL. **Not fixable from workspace code — requires hosting infrastructure fix.**
+- **Placeholder meta tags:** GSC (`REPLACE_WITH_GOOGLE_SEARCH_CONSOLE_VERIFICATION_CODE`) and Bing (`REPLACE_WITH_BING_VERIFICATION_CODE`) still in Layout.astro. User has not provided codes yet.
+- **Twitter App Store ID:** `<meta name="twitter:app:id:appstore" content="1234567890">` is a placeholder. Real App Store ID needed from user.
+- **vercel.json:** Clean — only has security headers, rewrite rules, and cache headers. No redirect issues there.
+- **news.json:** 2026-04-05, refreshed yesterday. News ticker on homepage confirmed working.
+
+### Action This Cycle
+**No code change.** The HTTPS redirect issue is infrastructure-level (CDN/hosting) and cannot be fixed from workspace code. All other high-value SEO items are already done per the backlog. Remaining blockers are user-provided credentials (GSC code, Bing code, App Store ID) or hosting access (SSH for deploy fix).
+
+### User-Action Items Remaining
+1. Provide Google Search Console verification meta tag value
+2. Provide Bing Webmaster Tools verification meta tag value
+3. Provide real iOS App Store ID (or remove the placeholder meta tag)
+4. Fix HTTPS redirect issue via Cloudflare/hosting panel
+5. Set up AdSense account (blocked on account access)
+6. Sign up for Formspree for contact form (blocked on Formspree ID)
+7. SSH access for deploy service fix (blocked on credentials)
+
+**Git commit:** None (no change this cycle)

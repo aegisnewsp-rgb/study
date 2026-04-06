@@ -1,3 +1,18 @@
+## Research Findings — 2026-04-06 16:55 UTC
+
+### Site Health (3 pages checked — Cycle 87)
+- Homepage ✅: 200, FAQPage (15 Qs), Organization, WebSite+SearchAction, HowTo, Person, hreflang, Article schema
+- /notes/neet/physics/phy-001/ ✅: 200, Article schema, BreadcrumbList (5 levels), FAQPage (4 Qs), CollectionPage+ItemList
+- /exams/neet/ ✅: 200, title/description correct, hreflang, all meta tags present
+- Sitemap ✅: 3200+ URLs including all topic pages
+- News ✅: Fresh 10-item fetch completed 16:56 UTC (India:4, Nigeria:4, Pakistan:2)
+- robots.txt ✅: AI training blocked, Google-Extended allowed
+
+### No Actionable Issues This Cycle
+All remaining blockers need user input: GSC/Bing verification codes, AdSense account, Formspree ID, deploy service SSH fix.
+
+---
+
 ## Research Findings — 2026-04-06 08:36 UTC
 
 ### 🔴 Critical (fix immediately)
@@ -2884,3 +2899,37 @@ All high-value improvements are complete. Remaining items require human input:
 2. AdSense integration — needs approved account + code injection
 3. Formspree ID for feedback form — replace placeholder in feedback.astro
 4. VPS deploy service fix — SSH needed to fix systemd Type=oneshot restart issue
+
+## Research Findings — 2026-04-06 16:29 UTC
+
+### 🔴 Critical (fix immediately)
+- None — site healthy
+
+### 🟡 Important (fix this cycle)
+- None identified — all major SEO complete; exam metadata fully populated
+
+### 🟢 Quick Wins
+- News refreshed: 10 items (India:4, Pakistan:4, Nigeria:2) — committed c6f77da
+- Sitemap verified in dist/ — includes all /exams/ hub pages (124 exams), all topic notes, all index pages — lastmod 2026-04-06 on all entries
+- No code changes needed this cycle
+
+### 📊 Site Health (3 pages checked)
+- Homepage ✅: FAQPage (15 Qs), Organization, WebSite+SearchAction, HowTo, Person, hreflang — all present
+- /exams/jeemain/ ✅: 200, FAQPage (3 JEE-specific), HowTo (3 steps), BreadcrumbList — all schemas present
+- /notes/neet/physics/ ✅: FAQPage (4 Physics Qs), BreadcrumbList, CollectionPage+ItemList (29 topics), OG image
+
+### 🔕 Still Needs User Input
+- GSC verification code (`YOUR_VERIFICATION_CODE_HERE` in Layout.astro)
+- Bing verification code (`REPLACE_WITH_BING_VERIFICATION_CODE` in Layout.astro)
+- Formspree feedback form ID (`REPLACE_WITH_FORMSPREE_ID` in feedback.astro)
+- Deploy service: `Type=oneshot` → `Type=simple` + `Restart=always` (SSH required)
+- AdSense integration (needs approved account + code)
+
+### ✅ Completed This Run
+- News fetch: 10 fresh items saved to public/news.json ✅ (updated 16:25 UTC)
+- Sitemap audit: all exam hub pages confirmed in sitemap ✅ (dist/sitemap-0.xml)
+- Commit: c6f77da "Growth cycle — news refresh 2026-04-06T16:29" ✅
+
+### 📝 Notes
+- News items: 1=UPSC DAF Full Form (Physics Wallah), 2=Why Choose PW UPSC PYPs, 3=UPSC CSAT Syllabus 2026, 4=JAMB Warns Exam Malpractice, 5=Bihar IRS/IAS story
+- Site health: all schemas correct across key pages; sitemap includes all 3345+ URLs

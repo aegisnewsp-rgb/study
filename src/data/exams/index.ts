@@ -217,6 +217,7 @@ import ctet from './india/ctet';
 import cucet_pg from './india/cucet-pg';
 import fmge from './india/fmge';
 import gate from './india/gate';
+import gre from './gre';
 import gujcet from './india/gujcet';
 import ibps_clerk from './india/ibps-clerk';
 import ibps_po from './india/ibps-po';
@@ -311,7 +312,7 @@ export const ALL_EXAMS = [
   // India
   aiims_mbbs, ailet, ap_eapcet, bitsat, bpsc,
   ca_found, cma, cmat, comedk, cs_exec,
-  ctet, cucet_pg, fmge, gate, gujcet,
+  ctet, cucet_pg, fmge, gate, gre, gujcet,
   ibps_clerk, ibps_po, ini_cet, jeeupsee, jipmer,
   kcet, keam, kpsc, lsat, mat,
   mht_cet, mht_cet_law, neet_pg, ras, rbi_grad_b,

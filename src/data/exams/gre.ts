@@ -93,7 +93,7 @@ const exam: ExamTemplate = {
   country: 'india',
   description: 'The Graduate Record Examination is a standardised test widely required for graduate and business school admissions in the US, Canada, Europe, and other countries. Accepted by thousands of universities worldwide.',
   examPattern: 'Two scored Verbal sections (27 questions each) and two scored Quant sections (27 questions each), plus one unmarked experimental section. Analytical Writing: 2 essays (Issue and Argument), 30 minutes each. Scores: Verbal and Quant on a 130-170 scale.',
-  eligibility: 'No official eligibility criteria. Most Indian and international students with a bachelor's degree take the GRE. Test is computer-delivered year-round at ETS-authorised test centres.',
+  eligibility: "No official eligibility criteria. Most Indian and international students with a bachelor's degree take the GRE. Test is computer-delivered year-round at ETS-authorised test centres.",
   subjects,
   durations,
   rescueMode,

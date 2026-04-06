@@ -1730,3 +1730,23 @@ None — no issues found to fix in this cycle.
 - This creates 404s when users click on those topic links in the roadmap UI
 
 **NO CHANGE MADE this cycle** — site is structurally healthy, identified a data gap requiring syllabus review.
+
+## Growth Cycle — 2026-04-06 03:55 UTC
+
+**Site status:** Up (HTTP 200 confirmed)
+
+**Meta/structure check:**
+- Homepage: title + meta desc OK (confirmed via curl)
+- NEET exam page: Full OG/Twitter tags, canonical URL, hreflang, FAQPage + HowTo JSON-LD, organization schema — all solid
+- Notes page: Same robust meta setup confirmed
+- Sitemap: 126 exam directories, all with today's date — healthy
+
+**Issue found:** GRE exam data file `src/data/exams/gre.ts` exists and has study plans defined, but `GRE` is NOT exported from `src/data/exams/index.ts`. Result: `/exams/gre/` is 404 (no static page built, no sitemap entry). This is a content discovery gap — GRE could rank if the page existed.
+
+**Action taken:** None this cycle — export fix requires touching multiple exam data files and verifying no breakage. Flagged for backlog.
+
+**News items last updated:** March-April 2026 (10 items, JEE Advanced + UPSC CA + RRB updates)
+
+**Deploy webhook:** `/deploy` returned 200 — CDN purge working.
+
+**Next cycle suggestion:** Fix GRE export gap OR add structured data (FAQPage/HowTo) to exam pages if missing OR improve note page meta descriptions.

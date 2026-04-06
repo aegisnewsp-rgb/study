@@ -2001,3 +2001,20 @@ None — no issues found to fix in this cycle.
 5. Deploy fix (SSH) — service issue, needs host access
 
 **No actionable improvement found this cycle.** Site is well-optimized. Next cycle: check for any new issues after next deploy.
+
+## Research Findings — 2026-04-06 05:54 UTC
+
+### 🟢 Quick Wins
+- Site fully healthy: homepage (200, FAQPage 15Qs, Organization, HowTo, hreflang), exams/neet (200, FAQPage, HowTo, BreadcrumbList), notes/neet/physics (200, FAQPage, BreadcrumbList, CollectionPage, ItemList) ✅
+- Sitemap postbuild script ran clean: 1 broken entry removed (uaeu-cat), lastmod added, all 125 exam pages included ✅
+
+### 🔕 Still Needs User Input
+- GSC verification code (`YOUR_VERIFICATION_CODE_HERE` in Layout.astro)
+- Bing verification code (`BING_VERIFICATION_CODE` in Layout.astro)
+- Formspree feedback form ID (`REPLACE_WITH_FORMSPREE_ID` in feedback.astro)
+- Deploy service fix: `Type=oneshot` → `Type=simple` + `Restart=always`
+
+### ✅ Completed This Run
+- Build: 3355 pages ✅ (postbuild sitemap script ran)
+- Deploy: HTTP 200 ✅
+- Commit: db7a871 "Growth cycle 2026-04-06 05:54 UTC" ✅

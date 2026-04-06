@@ -1,5 +1,28 @@
 [
   {
+    "id": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQnhLWnYzVjF0RTVDYlVOV3IyaFNZazZxUFNCQ0lxSjVweUFtVWpzeXMtVWtGRFFfQm55TmJ1NWZOZ1ptVlIzdmZ2dV8zNnNmdHlBcnVaX0o0XzU2RGpPaV9xWlFWdEpncExqQi1sMTNVbFB2Q0JiY1pZSXJ5UnFpRElxanZuTUxkdlU1ZXZaX1c1bW41c0JR?oc=5",
+    "title": "JEE Main 2026: 11.23 Lakh Students Appear in Session 2 Exam - KollegeApply",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQnhLWnYzVjF0RTVDYlVOV3IyaFNZazZxUFNCQ0lxSjVweUFtVWpzeXMtVWtGRFFfQm55TmJ1NWZOZ1ptVlIzdmZ2dV8zNnNmdHlBcnVaX0o0XzU2RGpPaV9xWlFWdEpncExqQi1sMTNVbFB2Q0JiY1pZSXJ5UnFpRElxanZuTUxkdlU1ZXZaX1c1bW41c0JR?oc=5",
+    "source": "KollegeApply",
+    "published": "2026-04-06T20:39:36+00:00",
+    "country": "india",
+    "tags": [
+      "jee",
+      "jee main"
+    ]
+  },
+  {
+    "id": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZ18xNTdiY0NaNXJWdGpfbURkZmkzRms3bmkwYU94Nnh2TmtCRWN6anROUVY1dy04QURHS291dzh1aGpydTJ0M2xVNm03V2pxVFlGTGgyTjJCOVVrVG1sTXE1OF81RjVaaXlKNWlmRi1FNkhLdzJKRzRCNGJ6NHpFdGFTeEpzZGRnVHg4SDFUcU0zd0hmdmptREdUMzYyZUk0ZENwSmJQOGlzZzJndEZWdGxLZHR4cW5kWXB3dWw4elRMQQ?oc=5",
+    "title": "Meet Lakhimpur Kheri’s Sachin Verma, Who Cracked UPSC CSE and UPPCS in the Same Year - Indian Masterminds",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZ18xNTdiY0NaNXJWdGpfbURkZmkzRms3bmkwYU94Nnh2TmtCRWN6anROUVY1dy04QURHS291dzh1aGpydTJ0M2xVNm03V2pxVFlGTGgyTjJCOVVrVG1sTXE1OF81RjVaaXlKNWlmRi1FNkhLdzJKRzRCNGJ6NHpFdGFTeEpzZGRnVHg4SDFUcU0zd0hmdmptREdUMzYyZUk0ZENwSmJQOGlzZzJndEZWdGxLZHR4cW5kWXB3dWw4elRMQQ?oc=5",
+    "source": "Indian Masterminds",
+    "published": "2026-04-06T17:26:46+00:00",
+    "country": "india",
+    "tags": [
+      "upsc"
+    ]
+  },
+  {
     "id": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBYYWVPYXN6em1ZRV9HczBNZUhhaHg3c3hyNHAtajlaLTR1QmdNbVJ5WENKMHp1ZmJaR1h2dk1rYnZmOEpvT2NRRWM5M1NyWGQ4WGN1a3NhWUthM0JoaGwtSGJwdVNnc2tv0gFoQVVfeXFMUFhhZU9hc3p6bVlFX0dzME1lSGFoeDdzeHI0cC1qOVotNHVCZ01tUnlYQ0owenVmYlpHWHZ2TWtidmY4Sm9PY1FFYzkzU3JYZDhYY3Vrc2FZS2EzQmhobC1IYnB1U2dza28?oc=5",
     "title": "SSC CGL Exam Pattern 2026 - Physics Wallah",
     "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBYYWVPYXN6em1ZRV9HczBNZUhhaHg3c3hyNHAtajlaLTR1QmdNbVJ5WENKMHp1ZmJaR1h2dk1rYnZmOEpvT2NRRWM5M1NyWGQ4WGN1a3NhWUthM0JoaGwtSGJwdVNnc2tv0gFoQVVfeXFMUFhhZU9hc3p6bVlFX0dzME1lSGFoeDdzeHI0cC1qOVotNHVCZ01tUnlYQ0owenVmYlpHWHZ2TWtidmY4Sm9PY1FFYzkzU3JYZDhYY3Vrc2FZS2EzQmhobC1IYnB1U2dza28?oc=5",
@@ -16,28 +39,6 @@
     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9HMXk0ZXRIQWRrSDVMQ0poM2xQdmRQdXNZWEJhQWk4eFJaWEJFd2hST2JvN0tWOGFyN0RNY05SM2lEM0RIMURza3p0c3hCX0JPTWVDYWMyUmlvVm9I0gFcQVVfeXFMT0cxeTRldEhBZGtINUxDSmgzbFB2ZFB1c1lYQmFBaTh4UlpYQkV3aFJPYm83S1Y4YXI3RE1jTlIzaUQzREgxRHNrenRzeEJfQk9NZUNhYzJSaW9Wb0g?oc=5",
     "source": "Physics Wallah",
     "published": "2026-04-06T15:28:33+00:00",
-    "country": "india",
-    "tags": [
-      "upsc"
-    ]
-  },
-  {
-    "id": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5fbTVTdExMOVZScXhVWGM0UHd3dmhXWVJtNU01anRTZlZJNmxxSV9BMzhsRHctZDVDTDVHVEw1MWZ1Ym5nWHhXdkowU3QxQkpuSU1RYzlCX3JjdHhtalVfd21XdEdCSlVhdEVhRnZIRjNpR0NQUEdv0gF3QVVfeXFMTl9tNVN0TEw5VlJxeFVYYzRQd3d2aFdZUm01TTVqdFNmVkk2bHFJX0EzOGxEdy1kNUNMNUdUTDUxZnVibmdYeFd2SjBTdDFCSm5JTVFjOUJfcmN0eG1qVV93bVd0R0JKVWF0RWFGdkhGM2lHQ1BQR28?oc=5",
-    "title": "Why Choose PW UPSC Previous Year Papers for Exam Preparation - Physics Wallah",
-    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5fbTVTdExMOVZScXhVWGM0UHd3dmhXWVJtNU01anRTZlZJNmxxSV9BMzhsRHctZDVDTDVHVEw1MWZ1Ym5nWHhXdkowU3QxQkpuSU1RYzlCX3JjdHhtalVfd21XdEdCSlVhdEVhRnZIRjNpR0NQUEdv0gF3QVVfeXFMTl9tNVN0TEw5VlJxeFVYYzRQd3d2aFdZUm01TTVqdFNmVkk2bHFJX0EzOGxEdy1kNUNMNUdUTDUxZnVibmdYeFd2SjBTdDFCSm5JTVFjOUJfcmN0eG1qVV93bVd0R0JKVWF0RWFGdkhGM2lHQ1BQR28?oc=5",
-    "source": "Physics Wallah",
-    "published": "2026-04-06T15:28:30+00:00",
-    "country": "india",
-    "tags": [
-      "upsc"
-    ]
-  },
-  {
-    "id": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5iM0tMNk9SQXc3RHBjZGozeTlSdWNSWERES3JaSzRxaUk2N01nN0lsMHZyeGhOd0R2bFVEWVhfWlE1eWhHa0tzMU5yX1dlaHl0QzM3WkQ3ZDRhT0NzZ2stZWNWTU5PdVNMdTJ2UG5ZMWhDZ2pwRnl6SmVB0gF6QVVfeXFMTmIzS0w2T1JBdzdEcGNkajN5OVJ1Y1JYRERLclpLNHFpSTY3TWc3SWwwdnJ4aE53RHZsVURZWF9aUTV5aEdrS3MxTnJfV2VoeXRDMzdaRDdkNGFPQ3Nnay1lY1ZNTk91U0x1MnZQblkxaENnanBGeXpKZUE?oc=5",
-    "title": "UPSC CSAT Syllabus 2026 Complete Guide - Physics Wallah",
-    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5iM0tMNk9SQXc3RHBjZGozeTlSdWNSWERES3JaSzRxaUk2N01nN0lsMHZyeGhOd0R2bFVEWVhfWlE1eWhHa0tzMU5yX1dlaHl0QzM3WkQ3ZDRhT0NzZ2stZWNWTU5PdVNMdTJ2UG5ZMWhDZ2pwRnl6SmVB0gF6QVVfeXFMTmIzS0w2T1JBdzdEcGNkajN5OVJ1Y1JYRERLclpLNHFpSTY3TWc3SWwwdnJ4aE53RHZsVURZWF9aUTV5aEdrS3MxTnJfV2VoeXRDMzdaRDdkNGFPQ3Nnay1lY1ZNTk91U0x1MnZQblkxaENnanBGeXpKZUE?oc=5",
-    "source": "Physics Wallah",
-    "published": "2026-04-06T15:28:28+00:00",
     "country": "india",
     "tags": [
       "upsc"

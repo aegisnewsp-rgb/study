@@ -1,6 +1,40 @@
 ## Research Findings — 2026-04-06 04:27 UTC
 
 ### 🔴 Critical (fix immediately)
+
+## Research Findings — 2026-04-06 05:46 UTC
+
+### 🔴 Critical (fix immediately)
+- None — site fully healthy
+
+### 🟡 Important (fix this cycle)
+- None identified — all major SEO complete
+
+### 🟢 Quick Wins
+- News refreshed: 10 items (India:4, Nigeria:4, Pakistan:2) — JEE Main Session 2 (April 7) coverage active ✅
+
+### 📊 Site Health
+- Homepage ✅: FAQPage (15 Qs), Organization, HowTo, Person, hreflang, OG/Twitter, sitemap-0.xml with lastmod
+- /exams/neet/ ✅: FAQPage (3 Qs), HowTo, BreadcrumbList, full meta — Person schema not rendered (no author prop passed — intentional)
+- /notes/neet/physics/ ✅: FAQPage (4 Qs), BreadcrumbList, CollectionPage, ItemList (29 topics), OG image, hreflang
+- Footer: "Content reviewed April 2026" ✅ (already updated from prior cycle)
+- Deploy: ✅ (HTTP 200)
+
+### 🔕 Still Needs User Input
+- GSC verification code (`YOUR_VERIFICATION_CODE_HERE` in Layout.astro)
+- Bing verification code (`REPLACE_WITH_BING_VERIFICATION_CODE` in Layout.astro)
+- Formspree feedback form ID (`REPLACE_WITH_FORMSPREE_ID` in feedback.astro)
+- Deploy service fix: `Type=oneshot` → `Type=simple` + `Restart=always` (SSH command documented in backlog)
+
+### ✅ Completed This Run
+- News fetch: 10 fresh items saved to public/news.json ✅
+- Commit: ec9d641 "Growth cycle — news refresh 2026-04-06" ✅
+
+### 📝 Notes
+- All high-value SEO automated improvements exhausted. Site is comprehensively optimized.
+- Remaining growth levers are either user-actionable (GSC, AdSense, directory submissions) or content-related (top-up MiniMax quota for more topic notes).
+- No structural or meta issues found on any of 3 checked pages.
+
 - None — site healthy
 
 ### ✅ Actions Taken
@@ -1947,3 +1981,23 @@ None — no issues found to fix in this cycle.
 ### No Changes Made
 - Nothing to fix this cycle — site is healthy and content pipeline is clean
 - Ready for deployment whenever next build is triggered
+
+## 2026-04-06 05:49 UTC — Cycle 2026-04-06-0549
+
+**Status:** No code change. Most actionable items require user input.
+
+**Checks performed:**
+- Sitemap (`dist/sitemap-0.xml`): 3200+ URLs, all dated 2026-04-06. Clean — no garbled URLs found.
+- `Layout.astro`: GSC verification code still `REPLACE_WITH_GOOGLE_SEARCH_CONSOLE_VERIFICATION_CODE`. Bing still `REPLACE_WITH_BING_VERIFICATION_CODE`. Both placeholders.
+- Notes pages: all have proper SEO tags, FAQ structured data, breadcrumbs.
+- Homepage, exams page, contact page: all have full meta/OG/Twitter tags.
+- Twitter handle `@studyroadmap_in` is the real account (not a placeholder).
+
+**Key remaining items (all need user/action blocked):**
+1. GSC verification code — needs human to add from GSC dashboard
+2. Bing verification code — needs human to add from Bing Webmaster
+3. AdSense integration — needs user account + ad code
+4. Formspree feedback form — needs user to create form
+5. Deploy fix (SSH) — service issue, needs host access
+
+**No actionable improvement found this cycle.** Site is well-optimized. Next cycle: check for any new issues after next deploy.

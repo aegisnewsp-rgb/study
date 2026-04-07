@@ -5034,3 +5034,25 @@ All major SEO improvements already implemented. No code changes needed this cycl
 1. **VPS restart** — container/backend is down
 2. **Deploy service fix** — `Type=oneshot` → `Type=simple` + `Restart=always` (SSH)
 3. **GitHub token** — origin repo 404, 7 commits ahead of origin/main
+
+## Research Findings — 2026-04-07T18:21 UTC
+
+### 🔴 Critical (fix immediately)
+- **fix-sitemap.cjs uses old domain studyroadmap.in** — script adds exam URLs with old domain, creating duplicate content in sitemap with wrong domain
+
+### 🟡 Important (fix this cycle)
+- Exam pages already migrated to .com (verified in dist/sitemap-0.xml)
+- Build completed successfully: 3355 pages built ✅
+
+### 🟢 Quick Wins (easy improvements)
+- Fix BASE_URL in fix-sitemap.cjs from studyroadmap.in → studyroadmap.com ✅
+
+### 📊 Traffic Opportunities
+- JEE Main Session 2 begins April 7 — biggest current India exam story
+- News feed: 10 items, all current ✅
+
+### ✅ Completed This Run
+- Fixed: `scripts/fix-sitemap.cjs` BASE_URL updated from studyroadmap.in to studyroadmap.com
+- Rebuilt: 3355 pages ✅
+- Committed: `ef9d843`
+- Site: All 14 .in-only exam pages replaced with .com URLs in sitemap

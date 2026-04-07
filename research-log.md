@@ -3598,3 +3598,25 @@ News ticker fresh ✅
 - All remaining items blocked on user input (GSC, AdSense, deploy SSH fix, Formspree, directory submissions)
 - No regressions found
 
+
+---
+
+## Research Findings — 2026-04-07T02:22 UTC
+
+### 🔴 Critical (fix immediately)
+- **Build broken**: 3 YAML frontmatter files in `cs-exec/company-law/` had unquoted `diagramPrompt` values containing colons (`management: Board`, `meetings: AGM`, `structure: Authorized`) that js-yaml misparsed as nested YAML mappings → "bad indentation of a mapping entry" build failure
+
+### ✅ Completed This Run
+- **Fixed 3 YAML parse errors** in cs-exec/company-law notes:
+  - `compan-002.md`: `diagramPrompt` value quoted
+  - `compan-003.md`: `diagramPrompt` value quoted  
+  - `compan-004.md`: `diagramPrompt` value quoted
+- Build: ✅ 3355 pages in 67.68s
+- Commit: ✅ `3cb9b91` — "Fix YAML parse errors in 3 cs-exec/company-law notes files"
+- GitHub push: ❌ blocked (origin repo 404)
+- Deploy: ❌ 403 Forbidden (backend auth required — cannot trigger)
+
+### 📊 Traffic Opportunities
+- All major SEO done — remaining items need user input (GSC code, AdSense, VPS SSH)
+- Build now healthy — ready for deploy once backend auth is resolved
+

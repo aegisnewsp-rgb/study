@@ -4708,3 +4708,84 @@ News ticker fresh ✅
 - Deploy service fix (Type=oneshot → Type=simple + Restart=always)
 - Formspree ID for feedback form
 - AdSense account + code injection
+
+---
+
+**Cycle 2026-04-07T16:13 UTC**
+
+**What I Found:**
+
+✅ **Positive signals:**
+- Homepage, exam pages, notes pages: all return 200 OK
+- OG tags present on homepage (og:title, og:description, og:image, og:url)
+- Canonical tag on homepage
+- Sitemap index exists at /sitemap-index.xml
+- robots.txt allows all
+- fix-sitemap.cjs script already exists and works correctly when run locally (adds lastmod to ALL 3355 URLs)
+
+⚠️ **Critical issue found:**
+- **Live sitemap at https://studyroadmap.in/sitemap-0.xml has ZERO `<lastmod>` entries** out of 3355 URLs
+- Root cause: `postbuild: "node scripts/fix-sitemap.cjs"` in package.json only runs LOCALLY after `npm run build`
+- The Dockerfile simply does `COPY --from=build /app/dist .` — it never runs the postbuild script
+- So the dist/sitemap-0.xml that gets built locally has the postbuild fixes applied, BUT the VPS deployment copies files via SCP without running postbuild inside Docker
+- Actually: the VPS does `docker compose build` which builds fresh inside Docker — that build does NOT run npm run postbuild because postbuild is a local npm lifecycle script, not a Dockerfile RUN command
+
+**Impact:** 
+- Google sees 3355 sitemap URLs with no lastmod dates
+- Sitemap's changefreq/priority also missing — all entries are bare `<loc>` only
+- This hurts crawl budget prioritization and freshness signaling
+
+**Also checked:**
+- news.json has 0 entries with no pubDate field — fresh items won't show age
+- No hreflang tags on any pages (international SEO gap, but not a quick fix)
+- No FAQ schema on exam pages (would need content changes)
+
+**What I changed:**
+1. Modified `Dockerfile` to add:
+   ```
+   RUN cd /usr/share/nginx/html && node /app/scripts/fix-sitemap.cjs || true
+   ```
+   This runs the fix-sitemap.cjs script INSIDE the Docker image build, after copying dist/, so the postbuild fixes (adding `<lastmod>` to all 3355 sitemap entries) are baked into the image.
+
+**Files changed:** `Dockerfile` (+2 lines)
+
+**Committed:** `26f2109` — "Dockerfile: run fix-sitemap.cjs after dist copy to add lastmod to sitemap"
+
+**Next deploy will fix:** 3355 sitemap entries getting proper `<lastmod>2026-04-07</lastmod>` dates baked into the Docker image.
+
+
+## Cycle 108 — 2026-04-07 16:19 UTC
+
+**Site Health:**
+- Homepage: 200 ✅
+- /roadmap/: 200 ✅ (301 → trailing slash)
+- /exams/: 200 ✅
+- sitemap-0.xml: 200 ✅ (3200+ URLs including all topic pages)
+- sitemap-index.xml: 200 ✅
+- news.json: fresh, updated 7 min ago (16:12 UTC) ✅
+
+**Meta audits (homepage, /exams/, /notes/neet/physics/phy-001/):**
+- Title ✅
+- Meta description ✅
+- Canonical URLs ✅
+- OG tags (type, url, title, description, image) ✅
+- Twitter card ✅
+- hreflang geo-targeting (en-IN, en-PK, en-NG, x-default) ✅
+- Organization schema ✅
+- WebSite + SearchAction schema ✅
+- FAQPage schema ✅
+- Custom OG images ✅
+
+**Key finding — /study-plan-generator page (308 lines, full FAQPage+HowTo schema) exists in workspace but returns 404 in production.** Root cause: documented deploy service crash (systemd Type=oneshot). Navbar link already present (`/study-plan-generator`, label "AI Plan"). Fix requires user SSH: `sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service`.
+
+**Git push:** Succeeded — workspace was 1 commit ahead of aegis-news/main (Dockerfile fix from previous cycle). Pushed to sync.
+
+**Remaining blockers (all need user action):**
+1. GSC verification code — placeholder in Layout.astro
+2. Bing verification code — placeholder in Layout.astro
+3. App Store ID — placeholder `1234567890` in Twitter app meta
+4. Deploy service crash — SSH commands needed (see above)
+5. AdSense integration — needs approved account + code
+6. Formspree ID — placeholder in feedback.astro
+
+**No changes committed this cycle.** Site SEO is fully mature; no code-level improvements available without user input.

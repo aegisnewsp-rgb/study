@@ -138,8 +138,8 @@ def parse_rss_item(entry: dict) -> Optional[dict]:
 
     # Reject obviously off-topic items early (check full text)
     combined = (title + " " + description).lower()
-    off_topic = ["football", "fifa", "cricket match", "basketball", "premier league",
-                 "afcon", "africa cup of nations", "world cup", "premier league",
+    off_topic = ["football", "fifa", "cricket match", "basketball", "premier league", "groundwater", "water crisis", "flood", "earthquake", "cyclone", "landslide",
+                 "afcon", "africa cup of nations", "world cup",
                  "crypto", "bitcoin", "celebrity", "gossip", "stock market",
                  "transfer", "trading", "share price"]
     if any(bad in combined for bad in off_topic):
@@ -234,8 +234,8 @@ def parse_reddit_json_item(post: dict, source: str) -> Optional[dict]:
         link = f"https://www.reddit.com{permalink}" if permalink else ""
 
     combined = (title + " " + description).lower()
-    off_topic = ["football", "fifa", "cricket match", "basketball", "premier league",
-                 "afcon", "africa cup of nations", "world cup", "premier league",
+    off_topic = ["football", "fifa", "cricket match", "basketball", "premier league", "groundwater", "water crisis", "flood", "earthquake", "cyclone", "landslide",
+                 "afcon", "africa cup of nations", "world cup",
                  "crypto", "bitcoin", "celebrity", "gossip", "stock market",
                  "transfer", "trading", "share price", "memes", "shitpost"]
     if any(bad in combined for bad in off_topic):

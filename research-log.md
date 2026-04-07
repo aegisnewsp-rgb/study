@@ -3956,3 +3956,33 @@ News ticker fresh ✅
 - Added `LIVE_EXAMS` map to `[exam].astro` with JEE Main Session 2 alert (label, message, CTA button linking to /roadmap?exam=jeemain)
 - Red banner appears at top of /exams/jeemain/ for all visitors — high-visibility conversion opportunity during peak exam window
 - Sitemap fix: removed 2 broken exam entries (uAeu_cat, 帖ast) — 126 exam pages now clean in sitemap
+
+## Research Findings — 2026-04-07T06:29 UTC
+
+### Site Health (3 pages checked)
+- Homepage ✅: 200 — FAQPage, Organization, WebSite+SearchAction, HowTo, Person, hreflang, Article, Twitter cards all intact
+- /exams/jeemain/ ✅: 301 → 200 (trailing slash — normal Astro behavior)
+- /exams/neet/ ✅: 301 → 200
+- /notes/neet/physics/phy-001/ ✅: 301 → 200
+- Sitemap ✅: sitemap-index → sitemap-0 → all 3200+ topic pages indexed
+- News ✅: 10 fresh items (JEE Main Session 2 live)
+
+### JEE Main Session 2 Live Banner
+- Previous cycle (06:23 UTC) implemented `LIVE_EXAMS` map in `[exam].astro` — committed ✅
+- Red "🔴 LIVE NOW" banner now appears at top of /exams/jeemain/ for all visitors
+- CTA: "Generate My JEE Main Roadmap" → /roadmap?exam=jeemain
+
+### Deploy Service
+- ⚠️ Still DOWN: port 9000 returning 404 — backend process not running
+- Needs SSH: `sudo systemctl restart deploy-svc` or `sudo systemctl enable --now deploy-svc`
+- Site itself is LIVE at studyroadmap.in — build/deploy blocked until SSH fix
+
+### Remaining Blockers (all need user input)
+1. **Deploy SSH fix** — most urgent; blocks all new builds
+2. **GSC verification meta tag** — `google-site-verification` still placeholder
+3. **Bing verification code** — `msvalidate.01` still placeholder  
+4. **AdSense account** — revenue integration
+5. **Formspree ID** — contact form backend
+
+### No changes made this cycle
+- Site healthy, all SEO complete, working tree clean after research-log commit

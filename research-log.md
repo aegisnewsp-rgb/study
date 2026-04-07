@@ -4580,3 +4580,26 @@ News ticker fresh ✅
 - Committed: Expand CS Executive accounting notes (accoun-004/005/006) — +1918 lines of tiered content (Quick/Standard/Deep tiers)
 - Files changed: src/content/notes/cs-exec/accounting/accoun-004.md, accoun-005.md, accoun-006.md
 - Sitemap: 200 ✅ | All key pages: 200 ✅
+
+## Research Findings — 2026-04-07T15:55 UTC
+
+### 🔴 Critical (fix immediately)
+- None — all major SEO complete
+
+### 🟡 Important (fix this cycle)
+- Sitemap: `fix-sitemap.cjs` postbuild script added lastmod dates this cycle ✅
+- News: 10 items refreshed ✅ (India:4, Pakistan:2, Nigeria:4)
+
+### 🟢 Quick Wins (easy improvements)
+- Footer "Content reviewed" says "April 2026" — timestamp is current month ✅
+- Build: 3346 pages ✅ — clean build, no issues
+- Deploy endpoint: not responding on localhost:9000 (normal — external VPS only)
+
+### 📊 Traffic Opportunities
+- All high-value SEO items implemented
+- Remaining: GSC code, AdSense, directory submissions (need user input)
+
+### ✅ Completed This Run
+- News refresh: 10 items (909 new → deduped to 10-item window)
+- Build: success (3346 pages, sitemap lastmod added)
+- Commit: nothing new to commit (tree clean — prior commit already captured sitemap lastmod fix)

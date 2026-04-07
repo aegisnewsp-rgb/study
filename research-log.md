@@ -5436,3 +5436,24 @@ All substantive SEO improvements already implemented across 100+ cycles. Remaini
 - Site health check: 3/3 pages 200 OK ✅
 - Breadcrumb bug identified (workspace fix ready, deploy blocked) ✅
 - 3355 pages built and committed ✅
+
+## Research Findings — 2026-04-07T20:46 UTC
+
+### 🔴 Critical (fix immediately)
+- None — site healthy
+
+### 🟡 Important (fix this cycle)
+- News off-topic leak: "India Facing Groundwater Crisis" (not exam-related) was in 10-item window — the environmental disaster matched broadly from an India news feed. Expanded off_topic filter in fetch_news.py to include: groundwater, water crisis, flood, earthquake, cyclone, landslide. Cleaned up duplicate entries in both off_topic lists (RSS + Reddit sections).
+
+### 🟢 Quick Wins (easy improvements)
+- Off-topic filter expansion (done this cycle)
+
+### 📊 Traffic Opportunities
+- All major SEO complete — no high-value automated opportunities remain
+- Remaining items all need user input: GSC code, AdSense account, VPS SSH fix, Formspree sign-up
+
+### ✅ Completed This Run
+- Expanded off_topic filter in fetch_news.py (both RSS and Reddit sections) — added groundwater, water crisis, flood, earthquake, cyclone, landslide
+- Cleaned duplicate off_topic entries created by previous sed attempt
+- Syntax verified: py_compile clean ✅
+- Committed: 7442153

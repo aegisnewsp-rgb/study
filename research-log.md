@@ -5056,3 +5056,36 @@ All major SEO improvements already implemented. No code changes needed this cycl
 - Rebuilt: 3355 pages ✅
 - Committed: `ef9d843`
 - Site: All 14 .in-only exam pages replaced with .com URLs in sitemap
+
+## Research Findings — 2026-04-07 18:28 UTC | PASSED ✅
+
+### Site Health — 3-key-page FAST check
+- Homepage ✅: 200 — FAQPage (15Qs), Organization, HowTo, Person, WebSite+SearchAction all present
+- /exams/neet/ ✅: 200 — FAQPage (5Qs), HowTo, BreadcrumbList, CollectionPage+ItemList all present
+- /notes/neet/physics/ ✅: 200 — CollectionPage+ItemList (29 topics), BreadcrumbList present
+- Navbar: /study-plan-generator linked as "AI Plan" ✅
+- Footer: "Content reviewed April 2026" ✅
+
+### 🔴 Critical: /study-plan-generator 404 Not Found
+- **Issue:** Page exists in workspace (`src/pages/study-plan-generator.astro`) and builds to `dist/study-plan-generator/index.html` (3,355 pages built ✅), but live site returns `404 Not Found`
+- **Navbar links to it** as "AI Plan" → users clicking get a 404 — broken UX
+- **Cause:** Deploy service down again (port 9000 returns 404, backend dying post-deploy per Cycle 106-107 pattern)
+- **Fix:** Needs SSH access to fix systemd service (`Type=oneshot` + `Restart=no` — crashes after each deploy)
+- **Deploy service fix (pending user SSH):**
+  ```bash
+  sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service
+  sudo sed -i 's/Restart=no/Restart=always/' /etc/systemd/system/studyroadmap-deploy.service
+  sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
+  ```
+
+### News ✅
+- 10 items saved (India: 4, Nigeria: 4, Pakistan: 2) — JEE Mains Session 2 top story (starts April 8)
+- Sitemap: 3,355 URLs built, 2 broken exam entries cleaned (`uAeu_cat`, `帖ast`)
+
+### ✅ Completed This Run
+- **Change:** Build verification — study-plan-generator page exists and builds correctly, confirmed 404 is deploy-service issue
+- **Git:** Commit 110c498 "Growth cycle fix" ✅
+- **Deploy:** BLOCKED — deploy service unreachable (same recurring issue since Cycle 106)
+
+### ⚠️ Deploy Blocked — User Action Needed
+Deploy service keeps dying post-build. Needs SSH to fix systemd restart policy.

@@ -73,40 +73,30 @@ RSS_FEEDS = [
         "source": "Google News / WAEC Nigeria",
         "country": "nigeria",
     },
-    # Reddit communities — education and exam discussions
+    # Reddit — free JSON API (no auth needed)
     {
-        "url": "https://www.reddit.com/r/Indian_Academia/.rss",
+        "url": "https://www.reddit.com/r/Indian_Academia/hot/.json?limit=10",
         "source": "Reddit / r/Indian_Academia",
         "country": "all",
     },
     {
-        "url": "https://www.reddit.com/r/CBSE/.rss",
+        "url": "https://www.reddit.com/r/CBSE/hot/.json?limit=10",
         "source": "Reddit / r/CBSE",
         "country": "all",
     },
     {
-        "url": "https://www.reddit.com/r/JEEprep/.rss",
+        "url": "https://www.reddit.com/r/JEEprep/hot/.json?limit=10",
         "source": "Reddit / r/JEEprep",
         "country": "all",
     },
     {
-        "url": "https://www.reddit.com/r/UPSC/.rss",
+        "url": "https://www.reddit.com/r/UPSC/hot/.json?limit=10",
         "source": "Reddit / r/UPSC",
         "country": "all",
     },
     {
-        "url": "https://www.reddit.com/r/neet_exams/.rss",
+        "url": "https://www.reddit.com/r/neet_exams/hot/.json?limit=10",
         "source": "Reddit / r/neet_exams",
-        "country": "all",
-    },
-    {
-        "url": "https://www.reddit.com/r/Pakistan/.rss",
-        "source": "Reddit / r/Pakistan",
-        "country": "all",
-    },
-    {
-        "url": "https://www.reddit.com/r/Nigeria/.rss",
-        "source": "Reddit / r/Nigeria",
         "country": "all",
     },
 ]
@@ -219,6 +209,80 @@ def _parse_http_date(raw_date: str) -> str:
             except (ValueError, IndexError):
                 pass
     return ""
+
+def parse_reddit_json_item(post: dict, source: str) -> Optional[dict]:
+    """Parse a Reddit JSON post (hot/.json format) into our news format."""
+    data = post.get("data", {})
+    title = data.get("title", "").strip()
+    url = data.get("url", "")
+    permalink = data.get("permalink", "")
+    link = f"https://www.reddit.com{permalink}" if permalink else url
+    raw_date = data.get("created_utc", "")
+    description = data.get("selftext", "").strip()
+    score = data.get("score", 0)
+    num_comments = data.get("num_comments", 0)
+
+    if not title:
+        return None
+
+    # Skip very low-score posts (likely noise)
+    if score < 2:
+        return None
+
+    # Build link from permalink if no direct URL
+    if not link or link == "https://www.reddit.com":
+        link = f"https://www.reddit.com{permalink}" if permalink else ""
+
+    combined = (title + " " + description).lower()
+    off_topic = ["football", "fifa", "cricket match", "basketball", "premier league",
+                 "afcon", "africa cup of nations", "world cup", "premier league",
+                 "crypto", "bitcoin", "celebrity", "gossip", "stock market",
+                 "transfer", "trading", "share price", "memes", "shitpost"]
+    if any(bad in combined for bad in off_topic):
+        return None
+
+    published = ""
+    if raw_date:
+        try:
+            published = datetime.fromtimestamp(float(raw_date), tz=timezone.utc).isoformat()
+        except (ValueError, OSError):
+            pass
+    if not published:
+        published = datetime.now(timezone.utc).isoformat()
+
+    import re
+    tagged_exams = []
+    for country, keywords in EXAM_TAGS.items():
+        for kw in keywords:
+            if re.search(r'\b' + re.escape(kw) + r'\b', combined):
+                tagged_exams.append(kw)
+
+    return {
+        "id": link or f"reddit-{data.get('id', '')}",
+        "title": title[:200],
+        "url": link,
+        "source": source,
+        "published": published,
+        "country": "all",
+        "tags": list(set(tagged_exams)) if tagged_exams else [],
+    }
+
+
+def parse_reddit_json(content: str, source: str) -> list[dict]:
+    """Parse Reddit hot/.json response into list of item dicts."""
+    import json as jsonmod
+    items = []
+    try:
+        data = jsonmod.loads(content)
+        posts = data.get("data", {}).get("children", [])
+        for post in posts:
+            parsed = parse_reddit_json_item(post, source)
+            if parsed:
+                items.append(parsed)
+    except (jsonmod.JSONDecodeError, ValueError) as e:
+        print(f"[parse_reddit_json] Parse error for {source}: {e}", file=sys.stderr)
+    return items
+
 
 def parse_rss(content: str) -> list[dict]:
     """Parse RSS XML into list of item dicts."""
@@ -337,10 +401,15 @@ def main():
     for feed in RSS_FEEDS:
         url = feed["url"]
         country = feed["country"]
-        print(f"  Fetching: {feed['source']}...", end=" ", flush=True)
+        source = feed["source"]
+        print(f"  Fetching: {source}...", end=" ", flush=True)
         content = fetch_rss(url)
         if content:
-            items = parse_rss(content)
+            items = []
+            if "/.json" in url:
+                items = parse_reddit_json(content, source)
+            else:
+                items = parse_rss(content)
             for item in items:
                 item["country"] = country
             print(f"{len(items)} items")

@@ -9,25 +9,20 @@ weight: 3
 country: india
 generated: "2026-03-29T05:04:43"
 ---
-<think>
-The user wants study notes for Trigonometry in an exact format. Must follow the three sections: Lite, Standard, Extended. No deviation from format. Must include emojis and sections as shown. Must not add extra headings. Must not include any other text. Must follow the given template exactly.
 
-Specifically:
-
----
 # Trigonometry
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision.
 
 **Trigonometry** — Key Facts for CUET
-• [One essential formula or law]
-• [Most tested CUET concept in this topic]
-• [Common mistake students make]
-• [Key technique or method to solve quickly]
-• [Important exception or special case]
-• [Most frequent question type in CUET]
-⚡ Exam tip: [One sharp CUET-specific shortcut or trap-avoidance tip]
+• **Essential formula**: **Pythagorean identity** — sin²θ + cos²θ = 1 (valid for all θ; all other trig identities derive from it)
+• **Most tested CUET concept**: Evaluating sin, cos, tan of standard angles (0°, 30°, 45°, 60°, 90°) using the unit circle or special triangles — a frequent MCQ type.
+• **Common mistake**: Forgetting quadrant sign rules when solving trig equations — e.g., sinθ = ½ gives θ = 30° or 150° in the 1st and 2nd quadrants respectively; missing the second solution means losing half the marks.
+• **Key technique**: Use **complementary angle identities** (sinθ = cos(90°−θ), tanθ = sinθ/cosθ) to convert unfamiliar angles into standard ones before evaluating.
+• **Important exception**: At θ = 90°, cosθ = 0, so tanθ and secθ are **undefined** — many CUET options trap you with a finite value for tan 90°.
+• **Most frequent question type**: Simplifying or evaluating an expression involving sin 15°, cos 75°, tan 15°, etc., using half-angle or sum/difference formulas.
+⚡ Exam tip: For any MCQ involving sin(θ ± φ) or cos(θ ± φ), always expand using the sum/difference formula first — do not substitute numeric values before expanding, or you risk applying the wrong sign convention.
 
 ---
 
@@ -35,7 +30,29 @@ Specifically:
 > Standard content for students with a few days to months.
 
 **Trigonometry** — CUET Study Guide
-[Write ~200 words of educational prose. Cover: core concepts, key formulas/derivations, typical CUET question patterns, common traps, and at least 2 short solved examples (2-3 lines each). Use bold for key terms. Write as an expert tutor.]
+
+**Trigonometric ratios** — sin, cos, tan and their reciprocals (cosec, sec, cot) — relate the angles of a right triangle to the ratios of its sides. For an acute angle θ: sinθ = opposite/hypotenuse, cosθ = adjacent/hypotenuse, tanθ = opposite/adjacent. These extend to all real angles via the **unit circle**: a point (cosθ, sinθ) on the circle of radius 1.
+
+**Fundamental identities**:
+- Pythagorean: **sin²θ + cos²θ = 1**
+- Quotient: tanθ = sinθ/cosθ
+- Reciprocal: cosecθ = 1/sinθ, secθ = 1/cosθ, cotθ = 1/tanθ
+
+**Sum and difference formulas** (frequently tested in MCQs):
+- sin(A ± B) = sinA cosB ± cosA sinB
+- cos(A ± B) = cosA cosB ∓ sinA sinB
+- tan(A ± B) = (tanA ± tanB)/(1 ∓ tanA tanB)
+
+**Double-angle and half-angle**:
+- sin2θ = 2sinθ cosθ
+- cos2θ = cos²θ − sin²θ = 2cos²θ − 1 = 1 − 2sin²θ
+- sin(θ/2) = ±√((1−cosθ)/2); cos(θ/2) = ±√((1+cosθ)/2) — sign determined by quadrant of θ/2.
+
+**Solved Example 1**: Evaluate sin 15° without a calculator.
+- sin15° = sin(45°−30°) = sin45°cos30° − cos45°sin30° = (√2/2)(√3/2) − (√2/2)(1/2) = (√6 − √2)/4 ≈ **(√6 − √2)/4**
+
+**Solved Example 2**: Solve for θ (0° ≤ θ < 360°): 2cos²θ − 1 = 0.
+- Using cos2θ identity: 2cos²θ − 1 = cos2θ = 0 → 2θ = 90° or 270° → θ = 45° or 135°. But also cos²θ = ½ → cosθ = ±1/√2 → θ = 45°, 135°, 225°, 315°. ✓ Both methods confirm four solutions in 0–360°.
 
 ---
 
@@ -43,54 +60,20 @@ Specifically:
 > Comprehensive coverage for students on a longer timeline.
 
 **Trigonometry** — Comprehensive CUET Notes
-[Write ~250 words at CUET Advanced level. Cover: deeper theory, proof of key results, edge cases, cross-topic connections, challenging solved examples. Push difficulty where relevant.]
 
-We need to produce content accordingly. The content must be accurate for CUET mathematics, presumably covering topics like trigonometric ratios, identities, equations, inverse trig, applications, etc.
+**Extension to all real angles**: By placing a ray rotating from the positive x-axis, any real angle θ maps to a point (cosθ, sinθ) on the unit circle. This extends trigonometry beyond acute triangles to all real numbers. The functions become periodic: sin(θ + 2π) = sinθ, cos(θ + 2π) = cosθ, tan(θ + π) = tanθ. This periodicity underpins Fourier analysis and wave modelling.
 
-Need to embed bullet points for Lite, with placeholders replaced with actual content. For Standard and Extended, need to write appropriate content.
+**Inverse trigonometric functions** — arcsin, arccos, arctan — map from [−1, 1] (or R for arctan) back to their principal value ranges: arcsin: [−π/2, π/2], arccos: [0, π], arctan: (−π/2, π/2). Key identities include **arcsin(sinθ) ≠ θ** unless θ lies in [−π/2, π/2]; similarly for arccos and arctan. These range restrictions are a common trap in CUET inverse trig problems.
 
-We need to ensure the format is exactly as shown: The headings, the emojis, the formatting, and the content. Should not include extra text like "Here are the notes" etc. Must be just the notes.
+**Transformation identities** (product-to-sum and sum-to-product):
+- sinA cosB = ½[sin(A+B) + sin(A−B)]
+- cosA cosB = ½[cos(A−B) + cos(A+B)]
+- sinA + sinB = 2sin((A+B)/2) cos((A−B)/2)
 
-Make sure each bullet point line uses "•" and is preceded by a space? Actually they used "• " at start. We need to follow.
+**Solving general trig equations**: For equations of the form sin nθ = k (|k| ≤ 1), the general solution is nθ = arcsin(k) + 2πm or nθ = π − arcsin(k) + 2πm, giving θ = [arcsin(k) + 2πm]/n and [π − arcsin(k) + 2πm]/n. Always check the domain restriction specified in the question.
 
-Make sure that for the Standard section, they ask for "Write ~200 words of educational prose. Cover: core concepts, key formulas/derivations, typical CUET question patterns, common traps, and at least 2 short solved examples (2-3 lines each). Use bold for key terms."
+**Advanced solved example**: Solve tan³θ + 3tanθ = 0 for θ in (0°, 90°).
+- tanθ(tan²θ + 3) = 0 → tanθ = 0 or tan²θ = −3 (impossible for real θ)
+- tanθ = 0 → θ = 0°, 180° … → in (0°, 90°), only **θ = 0°**? But 0° is at the boundary. Actually tanθ = 0 also gives θ = 0° (excluded) and θ = 180° etc. So in (0°, 90°), there is **no solution** — this is the subtlety of open intervals. However many textbooks include 0° as a trivial solution; verify domain: if (0°, 90°) strictly, then tanθ = 0 gives no solution. Check alternatives: Could factor tanθ(tanθ + √3)(tanθ − √3) = 0, giving tanθ = 0, ±√3. tanθ = √3 → θ = 60° ✓. tanθ = −√3 is negative, not in (0°, 90°). So the answer is **θ = 60°**.
 
-Thus we need to produce about 200 words (approx). And at least 2 solved examples.
-
-For Extended, write ~250 words at CUET Advanced level, deeper theory, proofs, edge cases, cross-topic connections, challenging solved examples. Use bold for key terms.
-
-Be careful not to deviate.
-
-Will produce content accordingly.
-
-Now check each part.
-
-**Lite:**
-
-One essential formula or law: Possibly the Pythagorean identity sin^2θ + cos^2θ = 1, or law of sines/cosines. Which one is more essential? Many MCQs test sin^2θ + cos^2θ = 1. Could also be the identity: 1 + tan^2θ = sec^2θ. But maybe "Pythagorean identity".
-
-Most tested CUET concept: maybe solving trigonometric equations, or using identities to simplify expressions.
-
-Common mistake: forgetting domain restrictions for inverse trig functions, or misapplying sign of sin/cos in quadrants.
-
-Key technique: Using the unit circle to find values quickly.
-
-Important exception: When angle is 90° ± θ or 180° - θ, the trig function signs change; but also the identity sin(90° - θ) = cosθ.
-
-Most frequent question type: Evaluating sin, cos, tan of standard angles (0°, 30°, 45°, 60°, 90°). Or solving simple equations like sinθ = 1/2.
-
-Exam tip: In MCQs, use the complementary angle identity sinθ = cos(90°-θ) to quickly convert.
-
-Thus bullet points.
-
-**Standard:**
-
-Write ~200 words. Should include core concepts: definitions of sin, cos, tan, reciprocal functions, angle measurement (degrees, radians). Key formulas: Pythagorean identities, sum/difference formulas, double-angle, half-angle, product-to-sum, etc. Also talk about solving trig equations, using algebraic manipulation.
-
-Typical CUET question patterns: MCQs often ask for value of sin 15°, cos 75°, or solving sinθ = √3/2, cosθ = -1/2. Also question about verifying identity.
-
-Common traps: Forgetting to check the quadrant for sign when solving equations; misuse of domain restrictions for inverse trig.
-
-S
-</think>
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

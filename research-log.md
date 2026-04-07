@@ -5358,3 +5358,47 @@ All substantive SEO improvements already implemented across 100+ cycles. Remaini
 3. Bing Webmaster verification code
 4. Formspree feedback form ID
 5. Deploy service fix (systemd Type=oneshot → simple + Restart=always)
+
+## Research Findings — 2026-04-07T20:26 UTC
+
+### 🔴 Critical (fix immediately)
+- None found this cycle
+
+### 🟡 Important (fix this cycle)
+- Breadcrumb trail on `/notes/{exam}` pages was broken: showed "Home > Roadmap > NEET Study Notes" — missing the Notes intermediary step. Fixed to "Home > Notes > NEET"
+
+### 🟢 Quick Wins (easy improvements)
+- Notes/[exam]/index.astro breadcrumb listed "Roadmap" instead of "Notes" as the category step
+- Build clean (3355 pages, sitemap fixed, lastmod added)
+
+### 📊 Traffic Opportunities
+- Notes pages well-structured with CollectionPage + ItemList schema
+- Exam pages have full FAQPage + HowTo + BreadcrumbList
+- Site has solid AI bot crawling policy in robots.txt
+
+### ✅ Completed This Run
+- Fixed breadcrumb trail on `src/pages/notes/[exam]/index.astro` — position 2 now correctly shows "Notes" instead of "Roadmap" in the breadcrumb navigation hierarchy
+- Committed: 1c66401
+
+## Research Findings — 2026-04-07T20:35 UTC
+
+### 🔴 Critical (fix immediately)
+- None found this cycle
+
+### 🟡 Important (fix this cycle)
+- **Breadcrumb bug on `/notes/{exam}/` pages — DEPLOY BLOCKED**: Live site still shows "Home > Roadmap > NEET UG Notes" but workspace fix is committed (commit `1c66401`). Deploy service is returning 404 — same recurring Type=oneshot crash issue. Fix requires user SSH: `sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service && sudo sed -i 's/Restart=no/Restart=always/' /etc/systemd/system/studyroadmap-deploy.service && sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy`
+
+### 🟢 Quick Wins (easy improvements)
+- All major SEO complete — site healthy
+- News: 10 items ✅ (India:4, Pakistan:1, Nigeria:3, All:2)
+- All 3 key pages returning 200 ✅ (homepage, /exams/, /roadmap/)
+
+### 📊 Traffic Opportunities
+- GSC verification still pending (placeholder code in Layout.astro) — once verified, can request rapid indexing
+- 124 exam pages live with FAQPage + HowTo + BreadcrumbList — high-value long-tail SERP coverage
+
+### ✅ Completed This Run
+- News refreshed ✅
+- Site health check: 3/3 pages 200 OK ✅
+- Breadcrumb bug identified (workspace fix ready, deploy blocked) ✅
+- 3355 pages built and committed ✅

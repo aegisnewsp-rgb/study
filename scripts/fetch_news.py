@@ -27,6 +27,11 @@ RSS_FEEDS = [
         "country": "india",
     },
     {
+        "url": "https://news.google.com/rss/search?q=JEE+Main+Session+2+2026&hl=en-IN&gl=IN&ceid=IN:en",
+        "source": "Google News / JEE Main Session 2 2026",
+        "country": "india",
+    },
+    {
         "url": "https://news.google.com/rss/search?q=JEE+exam+India&hl=en-IN&gl=IN&ceid=IN:en",
         "source": "Google News / JEE India",
         "country": "india",

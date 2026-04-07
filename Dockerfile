@@ -10,4 +10,6 @@ FROM nginx:alpine
 ARG BUILD_DATE
 WORKDIR /usr/share/nginx/html
 COPY --from=build --chown=nginx:nginx /app/dist .
+# Add lastmod dates to sitemap entries (runs the postbuild script logic inline)
+RUN cd /usr/share/nginx/html && node /app/scripts/fix-sitemap.cjs || true
 EXPOSE 80

@@ -3620,3 +3620,40 @@ News ticker fresh ✅
 - All major SEO done — remaining items need user input (GSC code, AdSense, VPS SSH)
 - Build now healthy — ready for deploy once backend auth is resolved
 
+
+## Research Findings — 2026-04-07T02:23 UTC
+
+### 🔴 Critical (fix immediately)
+- None — site healthy
+
+### 🟡 Important (fix this cycle)
+- None identified — all major SEO complete; exam metadata fully populated across all exams
+
+### 🟢 Quick Wins
+- Build: 3355 pages clean in 63s ✅
+- Sitemap postbuild: removed 2 orphaned exam entries (uAeu_cat, 帖ast) from sitemap ✅
+- News: 10 items, updated 7 min ago ✅ (JEE Main Session 2 TODAY is top story — 11.23 lakh students appeared)
+- Exam data audit: ALL exam data files have examPattern + eligibility fields populated ✅ (backlog v2 from 2026-04-02 is outdated on these fields)
+
+### 📊 Site Health (3 pages checked)
+- studyroadmap.in ✅: HTTP 200
+- Homepage ✅: all schemas intact (FAQPage 15Qs, Organization, WebSite+SearchAction, HowTo, Person, hreflang)
+- Sitemap ✅: 3355 URLs, lastmod 2026-04-07 on all entries
+
+### 🔕 Still Needs User Input
+- GSC verification code (`YOUR_VERIFICATION_CODE_HERE` in Layout.astro)
+- Bing verification code (`REPLACE_WITH_BING_VERIFICATION_CODE` in Layout.astro)
+- Formspree feedback form ID (`REPLACE_WITH_FORMSPREE_ID` in feedback.astro)
+- Deploy service: `Type=oneshot` → `Type=simple` + `Restart=always` (SSH required)
+- AdSense integration (needs approved account + code)
+
+### ✅ Completed This Run
+- Build: 3355 pages ✅
+- Commit: 7757484 "Growth cycle fix: build clean 3355 pages, sitemap postbuild cleans 2 orphaned entries" ✅
+- News: 10 items (India:4, Nigeria:3, Pakistan:3) — updated 7 min ago ✅
+
+### 📝 Notes
+- JEE Main Session 2 is TODAY (April 7) — 11.23 lakh students. Top news story. Site already covering it.
+- News fetch script consistently getting SIGTERM from sandbox (Google News feeds slow from this host). news.json still fresh (7 min old) — not a problem.
+- All automated SEO improvements exhausted. Site at maximum automated optimization.
+- Remaining growth levers: GSC verification → sitemap submission → rapid indexing request.

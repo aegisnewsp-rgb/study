@@ -4024,3 +4024,28 @@ News ticker fresh ✅
 **Content quality:** ✅ no placeholder content found in major exams
 **Deploy SSH fix:** ⚠️ still pending user action
 **No actionable items this cycle.** All SEO complete, GSC/AdSense/directories blocked on user input.
+
+## Research Findings — 2026-04-07T08:15 UTC
+
+### 🔴 Critical (fix immediately)
+- study-plan-generator.astro: FAQ content (GENERATOR_FAQS + FAQ_SCHEMA) defined but `faqs={GENERATOR_FAQS}` was never passed to <Layout> — FAQPage JSON-LD not firing on that page despite 5 FAQs being written
+
+### 🟡 Important (fix this cycle)
+- Fixed: study-plan-generator.astro — added missing `faqs={GENERATOR_FAQS}` prop to Layout so FAQPage schema renders
+- Sitemap postbuild: removed 2 broken unicode-encoded exam URLs (uAeu_cat, %E5B896ast → pcat) + added lastmod to all entries
+
+### 🟢 Quick Wins
+- All other pages already have proper FAQ schemas wired (index, roadmap, exams, about, contact, feedback, notes, 404)
+- Site live at studyroadmap.in: HTTP 200 ✅, title/meta correct ✅
+- Sitemap: 3,352 URLs ✅
+- News: 10 fresh items ✅
+
+### 📊 Traffic Opportunities
+- GSC still needs real verification code (placeholder only)
+- AdSense pending user account setup
+- All high-value SEO is done; remaining items need user input
+
+### ✅ Completed This Run
+- Bug fix: study-plan-generator.astro FAQ prop wired — 5 FAQs now render as JSON-LD on /study-plan-generator/
+- Build: passed, committed
+- Deploy: pending (no deploy this cycle — user needs to trigger)

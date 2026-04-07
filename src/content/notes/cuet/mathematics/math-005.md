@@ -9,37 +9,21 @@ weight: 3
 country: india
 generated: "2026-03-29T05:04:42"
 ---
-<think>
-We need to produce a response that exactly follows the given format.
+*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
 
-The user wants: "You are an expert CUET (Common University Entrance Test) Mathematics tutor. Write study notes for: **Parabola**."
-
-They specify the EXACT format — do not deviate.
-
-They give a template with three sections:
-
-- 🟢 Lite — Quick Review (1h–1d)
-- 🟡 Standard — Regular Study (2d–2mo)
-- 🔴 Extended — Deep Study (3mo+)
-
-Each with a subheading and content. The format includes "---" before and after? The template shows a markdown block with three headings and bullet points and content.
-
-Specifically:
-
----
 # Parabola
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision.
 
 **Parabola** — Key Facts for CUET
-• [One essential formula or law]
-• [Most tested CUET concept in this topic]
-• [Common mistake students make]
-• [Key technique or method to solve quickly]
-• [Important exception or special case]
-• [Most frequent question type in CUET]
-⚡ Exam tip: [One sharp CUET-specific shortcut or trap-avoidance tip]
+• Standard equation: y² = 4ax (opens right), x² = 4ay (opens upward)—vertex at origin, focus at (a, 0) or (0, a)
+• Latus rectum length = 4a—the chord through the focus perpendicular to the axis
+• Focus-directrix property: distance from any point P to focus = distance from P to directrix
+• Vertex is midway between focus and directrix
+• If the parabola is translated, vertex shifts to (h, k)—substitute (x-h) and (y-k) in standard form
+• Most tested: finding equation from focus and directrix, and finding focus/directrix from equation
+⚡ Exam tip: Use the definition PF = PD to derive equations quickly—never memorize all shifted forms
 
 ---
 
@@ -47,7 +31,14 @@ Specifically:
 > Standard content for students with a few days to months.
 
 **Parabola** — CUET Study Guide
-[Write ~200 words of educational prose. Cover: core concepts, key formulas/derivations, typical CUET question patterns, common traps, and at least 2 short solved examples (2-3 lines each). Use bold for key terms. Write as an expert tutor.]
+
+A parabola is the locus of points equidistant from a fixed point (focus) and a fixed line (directrix). The standard form with vertex at origin depends on the axis of symmetry: y² = 4ax opens rightward, x² = 4ay opens upward. The parameter "a" determines the distance from vertex to focus and from vertex to directrix—each equals |a|. The focus lies at (a, 0) or (0, a), and the directrix is the line x = -a or y = -a respectively. Eccentricity of a parabola is always 1, a defining property.
+
+The latus rectum is the chord passing through the focus perpendicular to the axis. Its length is 4a, and its endpoints can be found by substituting x = a in y² = 4ax (giving y = ±2a). When the vertex shifts to (h, k), replace x with (x-h) and y with (y-k) in the standard equation. Common CUET patterns include: given focus and directrix, find the equation; given equation, identify vertex, focus, axis, and latus rectum; find the equation of tangent in slope form and point form.
+
+Example 1: Find the equation of parabola with focus (4, 0) and directrix x = -4. Since focus is at (4, 0), a = 4, directrix x = -4. Using PF = PD: √[(x-4)² + y²] = |x + 4|. Squaring and simplifying gives (x-4)² + y² = (x+4)² → y² = 16x. Answer: y² = 16x.
+
+Example 2: Find focus, directrix, and latus rectum length of y² = 8x. Comparing with y² = 4ax, 4a = 8 → a = 2. Focus: (2, 0), Directrix: x = -2, Latus rectum: 4a = 8.
 
 ---
 
@@ -55,46 +46,9 @@ Specifically:
 > Comprehensive coverage for students on a longer timeline.
 
 **Parabola** — Comprehensive CUET Notes
-[Write ~250 words at CUET Advanced level. Cover: deeper theory, proof of key results, edge cases, cross-topic connections, challenging solved examples. Push difficulty where relevant.]
 
----
+Advanced study of parabolas requires understanding rotated and shifted forms, equation transformations, and tangents with proofs. For a parabola with vertex (h, k) and axis parallel to x-axis: (y-k)² = 4a(x-h). The focal parameter (distance from vertex to focus) is |a|. When the axis is parallel to y-axis: (x-h)² = 4a(y-k). The general second-degree equation of a parabola is Ax² + Bxy + Cy² + Dx + Ey + F = 0, where B² - 4AC = 0 identifies the parabola.
 
-The user wants the notes for parabola. So we must fill in each of the placeholders.
+Tangents are derived using the condition of tangency: for y² = 4ax, the equation of tangent at point (x₁, y₁) is yy₁ = 2a(x + x₁). In slope form, if slope = m, the tangent is y = mx + a/m (for m ≠ 0). The point of intersection of tangents at the ends of a focal chord lies on the directrix. A focal chord connects two points on the parabola whose distances to the focus sum in a special way.
 
-We must not deviate from format. So we need to produce a response that begins with:
-
----
-# Parabola
-
-### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision.
-
-**Parabola** — Key Facts for CUET
-• [One essential formula or law]
-...
-
-... and so on.
-
-The content must be relevant to parabola for CUET exam. Provide essential formula: standard equation (y^2 = 4ax), focus (a,0), directrix x = -a, vertex at origin, etc. Or also parametric form (at^2, 2at). Most tested concept: focus-directrix definition, locus, equation from focus and directrix. Common mistake: forgetting to shift vertex when equation is not centered at origin, misapplying axis orientation. Key technique: use of parameter t for parametric form, converting to Cartesian equation, using distance definition. Important exception: parabola in rotated axes (non-standard orientation) is not needed in CUET? Might be some concept: parabola with vertical axis vs horizontal axis. Most frequent question type: find equation given focus and directrix, find focus/directrix from equation, find vertex, axis, length of latus rectum. Exam tip: Use the distance property (PF = PD) to avoid sign errors.
-
-For Standard section: ~200 words of educational prose. Use bold for key terms. Include at least 2 solved examples, 2-3 lines each. Use typical patterns.
-
-For Extended: ~250 words, deeper theory, proof of key results, edge cases, cross-topic connections, challenging solved examples.
-
-We must be careful to not include any other text or deviation. Also ensure to include proper bullet points in the Lite section. Use proper punctuation.
-
-Let's start constructing the content.
-
-### Lite:
-
-**Parabola** — Key Facts for CUET
-
-• Essential formula: For a parabola with vertex at origin and axis along x-axis: y^2 = 4ax (horizontal) or x^2 = 4ay (vertical). Also parametric: (at^2, 2at) for y^2 = 4ax.
-
-• Most tested concept: The focus–directrix property PF = PD, often used to derive the equation and to locate focus/directrix given the vertex and a.
-
-• Common mistake: Neglecting the sign of 'a' when the parabola opens leftwards or downwards, leading to wrong equation.
-
-• Key technique: Use the definition PF = PD to quickly find the equation: set (x−h)^2 + (y−k)^2 = (|ax+by+c|/√(a^2+b^2))^2
-</think>
-*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+Cross-topic connections: Parabolas intersect with physics (projectile motion trajectories are parabolic), coordinate geometry (conic sections), and calculus (optimization problems). The reflective property of parabolas states that rays parallel to the axis reflect through the focus—this is used in telescope and headlight design. CUET Advanced may ask: prove that the product of slopes of perpendicular tangents to a parabola equals -1, or find the locus of intersection of tangents at points whose parametric parameters multiply to a constant. Practice deriving equations of normal chords and understanding the properties of director circles.

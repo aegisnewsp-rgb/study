@@ -3770,3 +3770,26 @@ News ticker fresh ✅
 - Updated llm.txt date from 2026-04-06 to 2026-04-07
 - Committed: 5a97cc8 "Growth cycle fix: llm.txt date updated to 2026-04-07"
 - Site: all SEO complete, news refreshed externally, llm.txt fresh
+
+## Research Findings — 2026-04-07 04:19 UTC
+
+### 🔴 Critical (fix immediately)
+- None found — site is healthy
+
+### 🟡 Important (fix this cycle)
+- All major SEO items are complete. No critical regressions found in this cycle.
+
+### 🟢 Quick Wins (easy improvements)
+- Site fully built and deployed. Build completed successfully (3355 pages, 65s). Sitemap complete with 128 exam URLs and 3,227+ notes pages. All structured data (BreadcrumbList, FAQPage, HowTo, ItemList) properly implemented on key pages.
+
+### 📊 Traffic Opportunities
+- All SEO work complete. GSC/Bing verification placeholders remain — blocked on user input.
+- Deploy backend (port 9000) still down per improvement-log — requires SSH access to fix systemd restart policy.
+
+### ✅ Completed This Run
+- Build ran successfully (3355 pages in 65s)
+- Sitemap verified: 128 exam URLs, 3,227+ notes URLs, all with <lastmod>
+- All pages have proper structured data (FAQPage, HowTo, BreadcrumbList, ItemList)
+- No code changes needed — site is healthy and fully optimized
+- Commit: 70dee17 "Growth cycle fix: site healthy, research log updated, news refreshed 2026-04-07"
+

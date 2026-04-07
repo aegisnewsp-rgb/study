@@ -5006,3 +5006,31 @@ All major SEO improvements already implemented. No code changes needed this cycl
 - **Fixed domain mismatch in robots.txt + llm.txt** — changed all 15 references from studyroadmap.in → studyroadmap.com
 - Build: 3355 pages ✅
 - Commit: 83f50bf ✅
+
+## Research Findings — 2026-04-07T18:17 UTC
+
+### 🔴 Critical
+- **VPS unreachable** — site down since prior cycle. Deploy endpoint timing out. No code deployment possible until VPS/container is restored. Manual intervention required.
+
+### 🟡 Important
+- All major SEO work is complete (all prior cycles confirmed). No pending automated improvements.
+- Remaining blockers all need user input: GSC code, AdSense code, VPS restart, GitHub token refresh
+
+### 🟢 Quick Wins
+- Build verified ✅ (3355 pages, 64s). No code issues.
+- News refresh: 10 items in public/news.json ✅
+
+### 📊 Traffic Opportunities
+- JEE Main Session 2 is happening TODAY (April 7) — huge traffic window. News ticker has this covered.
+- All 125 exam pages now in sitemap ✅
+- sitemap postbuild fix confirmed working (removes broken entries, adds lastmod)
+
+### ✅ Completed This Run
+- **No code change** — VPS is down, nothing can be deployed
+- Build confirmed working: 3355 pages
+- Committed current state as "Growth cycle fix: build 2026-04-07"
+
+### ⚠️ Action Items (user-needed)
+1. **VPS restart** — container/backend is down
+2. **Deploy service fix** — `Type=oneshot` → `Type=simple` + `Restart=always` (SSH)
+3. **GitHub token** — origin repo 404, 7 commits ahead of origin/main

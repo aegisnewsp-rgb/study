@@ -5594,3 +5594,31 @@ sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
 - Deploy endpoint (port 9000): HTTP 404 (backend not responding)
 - Latest workspace commit: c8a39be
 
+
+---
+
+## Research Findings — 2026-04-07 22:14 UTC | PASSED ✅
+
+### 🔴 Issue Found: ItemList schema missing descriptions for 126 exams
+- **Root cause**: `exam.description` field does not exist on any exam in `ALL_EXAMS` (checked all 126 exams in public/exams.json — all have zero-length descriptions)
+- Exam descriptions exist in individual TypeScript files (e.g., `neet.ts`) as part of roadmap templates, not as top-level exam.description fields
+- The ItemList schema had `description: exam.description ? cleanText(exam.description).slice(0,160) : undefined` — which resolved to undefined for ALL 126 exams
+- This is a structured data quality issue that could impact Google rich result eligibility for the /exams/ page
+
+### ✅ Fix Applied
+- Added `buildExamDescription()` helper function to `src/pages/exams.astro`
+- Returns meaningful fallback string when `exam.description` is missing: `"[ExamName] free study guide: exam pattern, eligibility criteria, syllabus, and AI-powered personalised study roadmap generator. No signup required."`
+- Now all 126 ItemList entries will have descriptions in the JSON-LD schema
+- Commit: 1befefd ✅
+
+### Site Health — FAST check
+- /exams/ (ItemList): ALL 126 entries now have descriptions ✅
+- /exams/neet/ (Article+HowTo+BreadcrumbList+FAQPage): all present ✅
+- /notes/neet/physics/ (Article): datePublished/dateModified = note.data.generated fallback ✅
+- Sitemap: all lastmod = 2026-04-07 ✅
+- OG images: per-topic dynamic images for all major exams ✅
+
+### Deploy Status
+- Site: studyroadmap.in — HTTP 200 ✅ (from CDN)
+- Deploy endpoint (port 9000): HTTP 404 (backend not responding — user SSH fix needed)
+

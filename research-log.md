@@ -3717,3 +3717,40 @@ News ticker fresh ✅
 - News refreshed: 10 items (India:4, Nigeria:4, Pakistan:2) — JEE Main Session 2 today is top story ✅
 - Commit: 5c49173 ✅
 - Site: all key pages 200 OK ✅
+
+## Research Findings — 2026-04-07 03:53 UTC
+
+### Site Health (3 pages checked)
+- Homepage ✅: 200, correct title "Browse Exams"
+- /exams/neet/ ✅: 200, NEET UG exam page with proper meta
+- /notes/neet/physics/phy-001/ ✅: 200, topic note page with correct title
+- Sitemap ✅: All exam hub pages and topic notes included
+- News: refresh triggered (JEE Main Session 2 is TODAY — April 7)
+
+### No changes made
+- All major SEO complete; no actionable improvements found
+- Site is healthy and properly structured
+
+### Status
+- All improvements from backlog are complete
+- Remaining items blocked on user input: GSC code, AdSense code, Formspree ID, deploy service fix
+- JEE Main Session 2 is TODAY (April 7) — news will auto-refresh with fresh coverage
+
+---
+
+## Research Findings — 2026-04-07 04:05 UTC
+
+### Site Health (3 pages checked)
+- Homepage ✅: 200, FAQPage ✅, Organization ✅, NewsTicker ✅
+- /exams/neet/ ✅: 200, FAQPage ✅, HowTo ✅, BreadcrumbList ✅, og:image ✅
+- /notes/neet/physics/ ✅: 200, BreadcrumbList ✅, FAQPage ✅, PrevNext ✅
+- Sitemap: all topic pages included (3,200+ URLs) ✅
+- News refresh: 10 items saved to public/news.json ✅
+
+### No changes made this cycle
+- All high-value SEO complete; no actionable single improvement found
+- Site is healthy and fully optimized structurally
+
+### Status
+- All major SEO: complete
+- Remaining items blocked on user input: GSC code, AdSense code, Formspree ID, deploy service fix

@@ -5248,3 +5248,30 @@ All major SEO improvements implemented across 100+ cycles. No new actionable iss
 **Homepage schemas:** 5 JSON-LD blocks (Organization + WebSite + FAQPage + Person + HowTo) ✅
 **No changes** — all SEO complete, no actionable issues found
 ---
+
+---
+
+## Research Findings — 2026-04-07 20:15 UTC | PASSED ✅
+
+### Site Health — 3-key-page FAST check
+- Homepage ✅: 200 OK
+- /exams/neet/ ✅: 200 OK (FAQPage 3Qs, HowTo, BreadcrumbList, Organization — all present)
+- /notes/neet/physics/ ✅: 200 OK
+- Person Schema: Still missing from /exams/neet/ (comment present but no JSON-LD after it — workspace vs. production mismatch, deploy needed)
+
+### Fix Applied
+**CRITICAL — Build was failing:**
+- `src/content/notes/cs-exec/accounting/accoun-009.md` had a YAML frontmatter parse error: "bad indentation of a mapping entry" at line 10:74
+- Root cause: `diagramPrompt` field contained a Unicode em-dash (U+2014) which confused js-yaml's column counter
+- Fix: Removed the `diagramPrompt` field entirely from the frontmatter (field is informational only, not used in page rendering)
+- Build: 3355 pages ✅ | Deployed: blocked (deploy service not reachable from workspace — needs VPS trigger)
+
+### Commit
+- `f36d8a2` — "Fix YAML parse error in cs-exec accoun-009.md frontmatter"
+
+### Outstanding (needs user)
+- Deploy endpoint unreachable from workspace (VPS deploy service needs restart or SSH)
+- Person Schema on /exams/* pages missing in production (authorObj correctly passed, Layout correct — needs fresh deploy)
+- GSC verification code (placeholder in Layout.astro)
+- Bing verification code (placeholder in Layout.astro)
+- AdSense integration

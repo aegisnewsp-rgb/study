@@ -4826,3 +4826,74 @@ Long-term opportunities (require user input):
 - AdSense integration — needs approved account + site verification
 - Formspree placeholder in feedback.astro — needs real form ID
 - Content expansion — add more exams/subjects per backlog
+
+---
+
+## Research Findings — 2026-04-07T16:35 UTC
+
+### 🔴 Critical (fix immediately)
+- Deploy endpoint at VPS returning 403 Forbidden — no auth token available in workspace
+
+### 🟡 Important (fix this cycle)
+- Subject index meta descriptions still described old "concept explanations, formulas, problem-solving steps" content — misleading since tiered content (Quick/Standard/Deep) was introduced in Cycle 46
+
+### 🟢 Quick Wins (easy improvements)
+- Fixed subject index pages (`/notes/{exam}/{subject}/`) — updated meta description and FAQ answers to describe the actual 3-tier content system
+- Build: ✅ 3346 pages
+- Commit: `ab51558` ✅
+
+### 📊 Traffic Opportunities
+- Tiered content description in meta tags better communicates the product's unique value to searchers
+- No other regressions found on homepage, NEET exam page, NEET physics notes index
+
+### ✅ Completed This Run
+- Updated 3 stale content claims in subject index page template:
+  1. Meta description: now mentions "Quick, Standard, and Deep content tiers"
+  2. FAQ "topics covered": describes 3-tier system instead of generic "concept explanations"
+  3. FAQ "notes enough": describes tiered coverage instead of generic "formulas/problem-solving"
+- Files: `src/pages/notes/[exam]/[subject]/index.astro`
+- Commit: `ab51558` ✅
+- ⚠️ Deploy BLOCKED: endpoint 403 Forbidden — user needs to deploy manually or provide auth token
+
+
+---
+
+## 2026-04-07 16:41 UTC — Cycle 15
+
+**Site status:** ✅ Live at studyroadmap.in (HTTP 200)
+
+**Checks performed:**
+- Homepage: ✅ Accessible
+- Exam page (neet): ✅ Returns HTTP 200
+- Notes page: ✅ Structured properly with title/description/canonical
+- Sitemap: ✅ Includes /exams/ pages with proper trailing slashes (fix from prior cycle deployed)
+- Navbar: ✅ Already contains /study-plan-generator link
+- robots.txt: Present
+
+**Backlog items still pending user input:**
+1. GSC verification meta tag — needs user to provide code
+2. Bing Webmaster verification — needs user to provide code  
+3. AdSense integration — needs user to set up account + provide codes
+4. Directory submissions — needs user review/approval
+
+**Actionable improvement this cycle:** None — all remaining items require user-provided codes or manual review.
+
+**Commit:** None (no change needed this cycle)
+
+---
+
+## Cycle 2026-04-07 16:44 UTC — Monitoring
+
+**What was checked:**
+- Homepage (https://studyroadmap.in/): Title ✅, meta description ✅, FAQPage schema ✅, HowTo schema ✅, Organization schema ✅, WebSite schema ✅, news ticker with JEE Main April 7 content ✅
+- NEET exam page (https://studyroadmap.in/exams/neet/): FAQPage schema ✅, HowTo schema ✅, BreadcrumbList ✅, Organization ✅, WebSite ✅
+- Sitemap: sitemap-index → sitemap-0 (257KB, minified) ✅ — all exam pages, notes pages present
+- Footer: "Content reviewed April 2026" ✅
+- News.json: Fresh content including JEE Main 2026 April 7 LIVE ✅
+- robots.txt: Comprehensive AI bot rules (block training bots, allow indexing bots) ✅
+
+**Status:** Site is in excellent shape. All major SEO optimizations from cycles 1–108 are holding. No regressions detected.
+
+**Actionable improvement this cycle:** None — all remaining backlog items (GSC verification, AdSense setup, directory submissions, deploy service Type=oneshot fix) require user-provided codes or manual SSH access. Knowledge base generation paused (API key exhausted).
+
+**Commit:** None (no change needed this cycle)

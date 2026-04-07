@@ -5531,3 +5531,43 @@ All substantive SEO improvements already implemented across 100+ cycles. Remaini
 
 ### No change committed this cycle
 All high-value improvements already implemented. Deploy fix is the highest-impact pending change but requires user SSH access.
+
+---
+
+## Research Findings — 2026-04-07 22:07 UTC | PASSED ✅ (monitoring only)
+
+### Site Health — 3-key-page FAST check
+- Homepage ✅: 200 OK
+- /exams/neet/ ✅: 200 OK  
+- /notes/neet/physics/ ✅: 200 OK
+- Sitemap ✅: 3,352 URLs (sitemap-0.xml live)
+- robots.txt ✅: AI training blocked, Google-Extended + OAI-SearchBot allowed
+- news.json ✅: 10 items, refreshed at 22:08 UTC (JEE Main 2026 April news)
+
+### Key Finding This Cycle
+**Sitemap lastmod missing in LIVE sitemap**: The live sitemap-0.xml has 3,352 URLs but NO `lastmod` tags. The workspace postbuild script adds lastmod timestamps, but the deploy endpoint is down (systemd `Type=oneshot` issue — backend exits after deploy script completes). The lastmod dates fix is in the workspace but cannot reach production until the deploy backend is fixed via SSH:
+```bash
+sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service
+sudo sed -i 's/Restart=no/Restart=always/' /etc/systemd/system/studyroadmap-deploy.service
+sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
+```
+
+### Changes This Cycle
+- None — deploy blocked, no high-ROI changes possible without deploy
+- News fetch refreshed (10 items, JEE Main Session 2 April 2026 content)
+
+### All Outstanding Items (needs user or deploy)
+| Item | Blocker |
+|------|---------|
+| Sitemap lastmod | Deploy backend down (SSH fix needed) |
+| GSC verification | User must provide code |
+| Bing verification | User must provide code |
+| AdSense integration | User account + code |
+| Formspree feedback ID | User signup + form ID |
+| Deploy backend fix | SSH access required |
+
+### Site Still Live ✅
+- studyroadmap.in — serving from CDN (last successful deploy)
+- Deploy endpoint (port 9000): HTTP 404 (backend not responding)
+- Latest workspace commit: c8a39be
+

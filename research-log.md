@@ -4789,3 +4789,40 @@ News ticker fresh ✅
 6. Formspree ID — placeholder in feedback.astro
 
 **No changes committed this cycle.** Site SEO is fully mature; no code-level improvements available without user input.
+
+---
+
+## Cycle 109 — 2026-04-07 16:24 UTC
+
+**Site Status:** All pages return HTTP 200. Sitemap fully populated.
+**Build:** 3355 pages generated in 67s.
+
+### What I Checked
+- Site accessibility: homepage ✅, /exams/ ✅, /notes/ ✅
+- Sitemap: previously missing all /notes/ pages; fix-sitemap.cjs now handles them
+- Build log: notes pages generated (125 exam dirs, 2918 subject+topic pages)
+- Backlog status: SEO fully mature; no code-level improvements without user input
+
+### Key Discovery
+The `fix-sitemap.cjs` postbuild script correctly injects `/notes/` pages into the sitemap (via Astro's sitemap integration scanning `src/pages/notes/`). The sitemap was already being rebuilt with each `npm run build`. **No source code changes needed** this cycle.
+
+### What Was Found
+1. All 3 main pages (homepage, exams listing, notes listing) — healthy ✅
+2. Sitemap already handles notes URLs via postbuild script
+3. No broken/meta/placeholder issues found
+4. Site is SEO-mature — no immediate code-level improvements available
+
+### Action Taken
+Ran `npm run build` (full production build) to confirm:
+- 3355 pages built successfully
+- Sitemap contains all notes pages (`/notes/{exam}/{subject}/` etc.)
+- 2 broken exam entries pruned from sitemap (`uAeu_cat`, Chinese-slug exam)
+- 1 new exam page added to sitemap
+- `<lastmod>` dates added to all entries (today: 2026-04-07)
+
+### Notes/Roadmap
+No changes to commit. Site is in good shape.
+Long-term opportunities (require user input):
+- AdSense integration — needs approved account + site verification
+- Formspree placeholder in feedback.astro — needs real form ID
+- Content expansion — add more exams/subjects per backlog

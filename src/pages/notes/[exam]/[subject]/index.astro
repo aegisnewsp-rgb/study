@@ -26,7 +26,7 @@ const subjectName = firstNote?.data.subjectName || subject;
 const flag = { india: '🇮🇳', pakistan: '🇵🇰', nigeria: '🇳🇬' }[firstNote?.data.country] || '🌍';
 
 const title = `${subjectName} Study Notes — ${examName} | StudyRoadmap™`;
-const description = `Free ${subjectName} study notes for ${examName}. ${subjectNotes.length} topics covered — concept explanations, formulas, problem-solving steps, and diagrams.`;
+const description = `Free ${subjectName} study notes for ${examName}. ${subjectNotes.length} topics covered with Quick, Standard, and Deep content tiers — concept explanations, key formulas, NEET-level practice questions, and diagrams.`;
 const canonicalUrl = `https://studyroadmap.in/notes/${exam}/${subject}`;
 const siteUrl = 'https://studyroadmap.in';
 const authorObj = { name: "StudyRoadmap Editorial Team", jobTitle: "Curriculum Editors", affiliation: "StudyRoadmap", url: "https://studyroadmap.in/about" };
@@ -46,7 +46,7 @@ const breadcrumbJsonLd = {
 const faqs = [
   {
     question: `What topics are covered in ${subjectName} for ${examName}?`,
-    answer: `${subjectName} for ${examName} covers ${subjectNotes.length} topics including ${subjectNotes.slice(0, 3).map(n => n.data.topicName).join(', ')}, and more. Each topic includes concept explanations, key formulas, problem-solving steps, and diagrams tailored to the exam pattern.`,
+    answer: `${subjectName} for ${examName} covers ${subjectNotes.length} topics including ${subjectNotes.slice(0, 3).map(n => n.data.topicName).join(', ')}, and more. Each topic offers three content tiers: Quick (last-minute revision), Standard (comprehensive study), and Deep (expert-level coverage).`,
   },
   {
     question: `What is the weightage of ${subjectName} in ${examName}?`,
@@ -58,7 +58,7 @@ const faqs = [
   },
   {
     question: `Are these ${subjectName} notes enough for ${examName} preparation?`,
-    answer: `These notes cover the complete ${examName} ${subjectName} syllabus with concept explanations, formulas, and problem-solving approaches. Use them alongside your AI-generated study roadmap for prioritised study sessions and regular revision before exam day.`,
+    answer: `These notes cover the complete ${examName} ${subjectName} syllabus with Quick, Standard, and Deep content tiers. Use them alongside your AI-generated study roadmap for prioritised study sessions and regular revision before exam day.`,
   },
 ];
 

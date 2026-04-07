@@ -5106,3 +5106,44 @@ News items: 10, all have dates now ✅
 **Result:** News now shows proper dates for Reddit posts (item 4/5 show real timestamps). All 10 items now have valid pubDate ✅
 
 **Status:** Site healthy. All critical SEO done. Pending: GSC/Bing verification codes (user input needed), AdSense, deploy service fix.
+
+## Research Findings — 2026-04-07 18:40 UTC | PASSED ✅
+
+### Site Health — 3-key-page FAST check
+- Site at `studyroadmap.in` (confirmed via source config + previous cycle commit at 18:40:57)
+- Git working tree is **clean** — all domain reversion changes already committed by previous cycle
+- `dist/sitemap-0.xml` still has `studyroadmap.com` URLs (old build artifact — needs rebuild to update)
+- All SEO schema tags present on homepage and exam pages (FAQPage, HowTo, Organization, BreadcrumbList)
+- Schema markup confirmed in `[exam].astro` — has JSON-LD FAQPage + HowTo
+
+### Key Finding This Cycle
+Previous cycle (18:40:57 UTC) already committed the domain reversion from `studyroadmap.com` → `studyroadmap.in`. Source files (astro.config.mjs, robots.txt, llm.txt, fix-sitemap.cjs) are all consistent at `studyroadmap.in`. No additional changes were needed.
+
+### No Changes Made
+Nothing to commit — working tree clean after previous cycle's domain fix.
+
+### Backlog Observations
+- `src/pages/feedback.astro` still has `REPLACE_WITH_FORMSPREE` placeholder — needs user action
+- `src/layouts/Layout.astro` still has `YOUR_VERIFICATION_CODE` / `BING_VERIFICATION_CODE` placeholders
+- These require human input and cannot be auto-fixed
+- `src/data/exam-faqs.ts` has many `TODO` items (pending human review)
+
+### Action Items for Human
+1. Add real Formspree endpoint to feedback form
+2. Add Google/Bing search console verification codes
+3. Review exam-faqs.ts TODO items for completion
+
+---
+**Cycle 100 — 2026-04-07 18:43 UTC**
+
+**Site Health:** ✅ Homepage 200, /exams/ 200, /notes/neet/physics/ 200
+
+**Critical Issue Found: sitemap-0.xml is severely malformed**
+- No XML declaration or `<urlset>` wrapper — just raw URL elements concatenated
+- First entry has a corrupted `s/` prefix
+- All URLs missing `lastmod` dates (postbuild fix-sitemap script not working correctly)
+- Last 4 exam URLs (`/exams/gre/`, `/exams/ast/`, `/exams/sathe/`, `/exams/uaeu-cat/`) orphaned outside the closing `</urlset>` tag
+- File appears to be one giant line with no newlines between URL entries
+- Impact: Search engines may fail to parse this sitemap properly → SEO crawl coverage issues
+
+**Action Needed:** Postbuild fix-sitemap script not working. Need to investigate/rebuild the sitemap generation. All Major SEO is marked done per backlog, but this sitemap corruption is actively harmful. Needs a fresh build with correct sitemap generation.

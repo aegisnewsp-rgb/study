@@ -3657,3 +3657,22 @@ News ticker fresh ✅
 - News fetch script consistently getting SIGTERM from sandbox (Google News feeds slow from this host). news.json still fresh (7 min old) — not a problem.
 - All automated SEO improvements exhausted. Site at maximum automated optimization.
 - Remaining growth levers: GSC verification → sitemap submission → rapid indexing request.
+
+## Research Findings — 2026-04-07T03:32 UTC
+
+### Site Health (3 pages checked — Cycle 95)
+- Homepage ✅: 200, FAQPage (15 Qs), Organization, WebSite+SearchAction, HowTo, Person, hreflang, Article, Twitter Cards
+- /exams/neet/ ✅: 200, FAQPage, HowTo, BreadcrumbList, hreflang, exam pattern + eligibility + 97 topics
+- /notes/neet/physics/ ✅: 200, Subject index with roadmap CTA
+- Sitemap ✅: 3355 URLs confirmed — postbuild auto-cleaned 2 stale entries (uAeu_cat, pcat)
+- News ✅: 10 items fresh (India:4, Pakistan:2, Nigeria:4) — JEE Main Session 2 breaking story (Apr 7)
+- All SEO complete. Remaining blocked on user input.
+
+### JEE Main Session 2 Alert ⚡
+- Today's big story: JEE Main 2026 Session 2 exam is happening April 7 (yesterday's breaking news: 11.23 lakh students appeared)
+- News ticker already surfaces this — no code change needed
+- Pakistan coverage light (2 items, 18h old) — Google News Pakistan RSS feeds sparse on weekends
+
+### No changes needed this cycle
+- All high-value SEO implemented. Build clean (3355 pages). Site healthy.
+- Remaining: GSC/Bing/AdSense codes from user, Formspree ID, deploy SSH fix

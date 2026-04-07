@@ -4558,3 +4558,25 @@ News ticker fresh ✅
 - Fixed TDZ bug in `src/pages/notes/[exam]/[subject]/index.astro` — committed as `812858d`
 - Clean build verified: 3355 pages, sitemap generated correctly
 - Deploy service still down (port 9000, VPS backend — no SSH access available)
+
+## Research Findings — 2026-04-07T15:51 UTC
+
+### 🔴 Critical (fix immediately)
+- None — all major SEO implemented
+
+### 🟡 Important (fix this cycle)
+- None — pending user input (GSC, AdSense, VPS SSH)
+
+### 🟢 Quick Wins (easy improvements)
+- News refreshed: 10 items ✅ (top item: "Scholarship for UPSC Aspirants 2026")
+- Site health: homepage 200 ✅, roadmap 200 ✅, exams 200 ✅, sitemap 200 ✅
+- Exam pages ([exam].astro): NEET page has live-exam banner for JEE Main Session 2 (April 7–9) ✅
+
+### 📊 Traffic Opportunities
+- All SEO complete; focus shifts to content depth and backlinks
+- CS Executive accounting notes being expanded (3 files, +1918 lines this cycle)
+
+### ✅ Completed This Run
+- Committed: Expand CS Executive accounting notes (accoun-004/005/006) — +1918 lines of tiered content (Quick/Standard/Deep tiers)
+- Files changed: src/content/notes/cs-exec/accounting/accoun-004.md, accoun-005.md, accoun-006.md
+- Sitemap: 200 ✅ | All key pages: 200 ✅

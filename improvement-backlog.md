@@ -27,6 +27,12 @@ All high-value, high-safety SEO improvements implemented. See improvement-log.md
 
 ---
 
+### 8. Navbar missing /study-plan-generator link
+**Status:** TODO
+**What:** The `/study-plan-generator/` page (308 lines, rich FAQPage+HowTo schema) exists in the workspace and builds successfully, but is not linked from Navbar or Footer — users can't discover it from main navigation. Add to `navLinks` in `src/components/Navbar.astro`.
+**Action needed:** One array entry addition
+**Effort:** Trivial
+
 ### 1. Google Search Console verification
 **Status:** TODO
 **What:** Add real GSC meta tag to Layout.astro (placeholder `YOUR_VERIFICATION_CODE_HERE` currently in code)

@@ -3501,3 +3501,31 @@ Site fully operational. No critical issues. Research cycle 89 complete.
 ### No changes made
 - All high-value SEO work complete. Remaining items blocked on user input (GSC code, deploy SSH fix, AdSense account, Formspree ID).
 
+
+## Research Findings — 2026-04-07 00:58 UTC
+
+### Site Health
+- Homepage (studytroadmap.com) ❌: HTTP 000 — connection refused/timeout
+- /exams/ ❌: HTTP 000
+- /roadmap/ ❌: HTTP 000
+- **VPS appears to be down again** — recurring deploy service crash (Type=oneshot + Restart=no)
+
+### Diagnosis
+Same recurring issue documented since Cycle 87:
+- systemd service exits after each deploy (Type=oneshot)
+- Restart=no means it doesn't come back
+- VPS needs manual restart or SSH fix
+
+### Fix needed (user SSH):
+```bash
+sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service
+sudo sed -i 's/Restart=no/Restart=always/' /etc/systemd/system/studyroadmap-deploy.service
+sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
+```
+
+### News
+- fetch_news.py timed out (Google News feeds slow/SIGTERM) — news.json not refreshed this cycle
+
+### No changes made
+- Site unreachable — nothing to build/deploy
+- All high-value SEO complete. Blocked on: VPS restore, deploy service fix (user SSH), GSC/Bing codes, AdSense account, Formspree ID

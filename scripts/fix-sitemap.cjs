@@ -40,7 +40,9 @@ const generatedExamIds = new Set();
 if (fs.existsSync(distExamsBase)) {
   for (const dir of fs.readdirSync(distExamsBase, { withFileTypes: true })) {
     if (dir.isDirectory()) {
-      generatedExamIds.add(dir.name.toLowerCase());
+      // Normalize to the same slug format as the examId slugification in STEP 4
+      const normalized = dir.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+      generatedExamIds.add(normalized);
     }
   }
 }

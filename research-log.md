@@ -4491,3 +4491,25 @@ News ticker fresh ✅
 - AdSense integration
 - Formspree feedback form ID
 - VPS deploy service fix (Type=oneshot → Type=simple)
+
+## Research Findings — 2026-04-07 14:10 UTC
+
+### Site Health (Cycle 100 — FAST check)
+- Homepage ✅: 200 — FAQPage, Organization, HowTo, Person schema
+- /exams/neet/ ✅: 200 — FAQPage, HowTo, BreadcrumbList, CollectionPage+ItemList
+- /notes/neet/physics/ ✅: 200 — CollectionPage+ItemList, BreadcrumbList
+- /notes/neet/physics/phy-001/ ✅: 200
+- Sitemap ✅ — 3352 URLs, comprehensive
+- robots.txt ✅ — sitemap + AI bot policies
+
+### 🟡 Important (fixed this cycle)
+- **Subject index pages missing FAQPage JSON-LD**: `/notes/{exam}/{subject}/` had `faqs={faqs}` passed to Layout (renders FAQPage in HTML head) but NO FAQPage JSON-LD structured data block. All other pages (homepage, exam hub, topic page) include both. This is an inconsistency — subject index pages show 1 FAQPage slot in Layout but no JSON-LD. **FIXED** by adding `faqJsonLd` block + `<script>` tag to subject index pages.
+
+### 📊 Competitor Observations
+- Subject index pages (e.g., `/notes/neet/physics/`) are high-intent landing pages — students browsing by subject. Adding FAQPage JSON-LD helps capture featured snippets for queries like "what topics in NEET Physics?" and "NEET Physics weightage".
+
+### ✅ Completed This Run
+- Added FAQPage JSON-LD to `src/pages/notes/[exam]/[subject]/index.astro`
+
+### Commit
+- `565f424` — Growth cycle fix: add FAQPage JSON-LD to subject index pages

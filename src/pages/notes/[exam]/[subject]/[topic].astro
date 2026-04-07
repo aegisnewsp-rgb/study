@@ -22,7 +22,10 @@ const { Content } = await render(note);
 // SEO
 const { exam, examName, subject, subjectName, topic, topicName, weight, country, diagramPrompt } = note.data;
 
-const title = `${topicName} — ${subjectName} | ${examName} Study Notes`;
+// Handle malformed subjectName (None / undefined) — derive from subject slug
+const subjectDisplay = (subjectName && subjectName !== 'None' && subjectName !== 'null') ? subjectName : (subject.charAt(0).toUpperCase() + subject.slice(1).replace(/-/g, ' '));
+
+const title = `${topicName} — ${subjectDisplay} | ${examName} Study Notes`;
 const description = `${topicName} study notes for ${examName}. ${weight}% exam weight. Part of the free ${examName} study roadmap on StudyRoadmap™.`;
 const canonicalUrl = `https://studyroadmap.in/notes/${note.id}`;
 const ogImage = `/og-notes/${exam}-${subject}-${topic}.jpg`;
@@ -162,7 +165,7 @@ const flag = countryFlags[country] || '🌍';
 const faqs = [
   {
     question: `What is ${topicName} in ${examName}?`,
-    answer: `${topicName} is a topic in the ${subjectName} syllabus of ${examName}. It carries a weight of ${weight}% in the exam. Our notes cover the key concepts, formulas, and problem-solving approaches you need to master this topic.`,
+    answer: `${topicName} is a topic in the ${subjectDisplay} syllabus of ${examName}. It carries a weight of ${weight}% in the exam. Our notes cover the key concepts, formulas, and problem-solving approaches you need to master this topic.`,
   },
   {
     question: `How do the Quick / Standard / Deep tiers work?`,
@@ -196,7 +199,7 @@ const breadcrumbJsonLd = {
     { '@type': 'ListItem', position: 1, name: 'Home', item: siteUrl },
     { '@type': 'ListItem', position: 2, name: 'Roadmap', item: `${siteUrl}/roadmap` },
     { '@type': 'ListItem', position: 3, name: `${examName}`, item: `${siteUrl}/roadmap?exam=${exam}` },
-    { '@type': 'ListItem', position: 4, name: subjectName, item: `${siteUrl}/notes/${exam}/${subject}` },
+    { '@type': 'ListItem', position: 4, name: subjectDisplay, item: `${siteUrl}/notes/${exam}/${subject}` },
     { '@type': 'ListItem', position: 5, name: topicName, item: canonicalUrl },
   ],
 };
@@ -204,7 +207,7 @@ const breadcrumbJsonLd = {
 const articleJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'Article',
-  headline: `${topicName} — ${subjectName} Study Notes`,
+  headline: `${topicName} — ${subjectDisplay} Study Notes`,
   description: description,
   author: { '@type': 'Organization', name: 'StudyRoadmap™', url: siteUrl },
   publisher: {
@@ -221,7 +224,7 @@ const articleJsonLd = {
     name: topicName,
     description: `${weight}% exam weight for ${examName}`,
   },
-  keywords: `${topicName}, ${subjectName}, ${examName} notes, study notes, exam preparation`,
+  keywords: `${topicName}, ${subjectDisplay}, ${examName} notes, study notes, exam preparation`,
   url: canonicalUrl,
 };
 ---
@@ -242,7 +245,7 @@ const articleJsonLd = {
           <span>›</span>
           <a href={`/roadmap?exam=${exam}`} class="hover:text-brand-600 dark:hover:text-brand-400">{flag} {examName}</a>
           <span>›</span>
-          <a href={`/notes/${exam}/${subject}`} class="hover:text-brand-600 dark:hover:text-brand-400">{subjectName}</a>
+          <a href={`/notes/${exam}/${subject}`} class="hover:text-brand-600 dark:hover:text-brand-400">{subjectDisplay}</a>
           <span>›</span>
           <span class="text-surface-900 dark:text-surface-100">{topicName}</span>
         </nav>
@@ -254,13 +257,13 @@ const articleJsonLd = {
       <div class="container-page py-10">
         <div class="flex items-center gap-2 mb-3">
           <span class="text-xs font-medium bg-brand-100 dark:bg-brand-900 text-brand-700 dark:text-brand-300 px-2.5 py-1 rounded-full">
-            {subjectName}
+            {subjectDisplay}
           </span>
           <span class="text-xs text-surface-400">{weight}% exam weight</span>
         </div>
         <h1 class="heading-1 text-surface-900 dark:text-surface-50 mb-4">{topicName}</h1>
         <p class="text-surface-600 dark:text-surface-400 max-w-2xl">
-          Part of the {examName} study roadmap. {subjectName} topic {topic} of {subjectName}.
+          Part of the {examName} study roadmap. {subjectDisplay} topic {topic} of {subjectDisplay}.
         </p>
         <!-- Generate roadmap CTA -->
         <div class="mt-6 flex gap-3 flex-wrap">
@@ -493,7 +496,7 @@ const articleJsonLd = {
               </div>
               <div class="flex justify-between">
                 <dt class="text-surface-500">Subject</dt>
-                <dd class="font-medium text-surface-900 dark:text-surface-100">{subjectName}</dd>
+                <dd class="font-medium text-surface-900 dark:text-surface-100">{subjectDisplay}</dd>
               </div>
               <div class="flex justify-between">
                 <dt class="text-surface-500">Topic ID</dt>
@@ -518,7 +521,7 @@ const articleJsonLd = {
           <!-- Related notes -->
           {sameExamSubject.length > 0 && (
             <div class="border border-surface-200 dark:border-surface-700 rounded-xl p-5">
-              <h3 class="text-sm font-semibold text-surface-700 dark:text-surface-300 mb-3">More {subjectName} Notes</h3>
+              <h3 class="text-sm font-semibold text-surface-700 dark:text-surface-300 mb-3">More {subjectDisplay} Notes</h3>
               <ul class="space-y-2">
                 {sameExamSubject.map(n => (
                   <li>
@@ -533,7 +536,7 @@ const articleJsonLd = {
                 ))}
               </ul>
               <a href={`/notes/${exam}/${subject}`} class="text-xs text-brand-600 dark:text-brand-400 hover:underline mt-3 block">
-                View all {subjectName} →
+                View all {subjectDisplay} →
               </a>
             </div>
           )}

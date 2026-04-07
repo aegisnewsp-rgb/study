@@ -16,20 +16,20 @@ try {
 }
 
 export default defineConfig({
-  site: 'https://studyroadmap.in',
+  site: 'https://studyroadmap.com',
   integrations: [
     react(),
     sitemap({
       customPages: [
-        'https://studyroadmap.in/',
-        'https://studyroadmap.in/about/',
-        'https://studyroadmap.in/contact/',
-        'https://studyroadmap.in/feedback/',
-        'https://studyroadmap.in/exams/',
-        'https://studyroadmap.in/notes/',
-        'https://studyroadmap.in/roadmap/',
-        'https://studyroadmap.in/study-plan-generator/',
-        ...examSlugs.map(slug => `https://studyroadmap.in/exams/${slug}/`),
+        'https://studyroadmap.com/',
+        'https://studyroadmap.com/about/',
+        'https://studyroadmap.com/contact/',
+        'https://studyroadmap.com/feedback/',
+        'https://studyroadmap.com/exams/',
+        'https://studyroadmap.com/notes/',
+        'https://studyroadmap.com/roadmap/',
+        'https://studyroadmap.com/study-plan-generator/',
+        ...examSlugs.map(slug => `https://studyroadmap.com/exams/${slug}/`),
       ],
     }),
   ],

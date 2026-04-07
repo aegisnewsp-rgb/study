@@ -1,3 +1,33 @@
+## Research Findings — 2026-04-07 20:48 UTC | PASSED ✅ (monitoring only)
+
+### Site Health — 3-key-page FAST check
+- Homepage ✅: 200 OK (FAQPage 15Qs, Person schema present)
+- /exams/neet/ ✅: 200 OK (FAQPage, HowTo, BreadcrumbList, Organization — all present)
+- /notes/neet/physics/ ✅: 200 OK
+- /notes/ ✅: 200 OK, title/meta/canonical/FAQPage/BreadcrumbList/Organization all present
+- /exams/ ✅: 200 OK, ItemList with 124 exams, BreadcrumbList, FAQPage (6 Qs) all present
+- Sitemap ✅: lastmod dates present on all entries (auto-added by postbuild hook)
+- news.json ✅: 10 items, refreshed at 20:44 UTC (JEE Mains Session 2 news)
+
+### Changes This Cycle
+- None — all major SEO complete; deploy service still down (port 9000 returns 404)
+- research-log.md updated only
+
+### Deploy Status
+- Deploy endpoint: HTTP 404 (backend not responding)
+- Site live: ✅ (studyroadmap.in — served by CDN from last successful deploy)
+- Latest commit: c8a39be (log update only)
+- Previous: 7442153 (off-topic filter expansion)
+
+### Outstanding (needs user)
+- GSC verification code (placeholder in Layout.astro)
+- Bing verification code (placeholder in Layout.astro)
+- AdSense integration
+- Formspree ID for feedback form
+- Deploy backend fix: `Type=oneshot` → `Type=simple` + `Restart=always` (systemd SSH fix)
+
+---
+
 ## Research Findings — 2026-04-07 20:38 UTC | PARTIAL — no code change
 
 ### Site Health — 3-key-page FAST check

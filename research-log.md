@@ -1,3 +1,26 @@
+## Research Findings — 2026-04-07 22:10 UTC | PASSED ✅ (monitoring)
+
+### 🔴 Critical
+- Deploy service DOWN: localhost:9000 connection refused — same recurring Type=oneshot crash issue (needs user SSH fix)
+- 2 broken exam page URLs in sitemap: `uAeu_cat` and unicode `帖ast` — fixed by postbuild sitemap script
+
+### 🟡 Important
+- Build clean: 3,355 pages ✅ | Sitemap now has `<lastmod>` dates (added by fix-sitemap.cjs)
+- Sitemap: 125 exam hub pages confirmed in sitemap after broken-entry cleanup
+
+### 🟢 Quick Wins
+- study-plan-generator already linked in Navbar as "AI Plan" ✅ (backlog item incorrect)
+- GSC placeholder, AdSense, Formspree still need user input (not actionable)
+
+### ✅ Completed This Run
+- Build: 3,355 pages ✅ (57.88s)
+- Sitemap: 2 broken entries removed (uAeu_cat, unicode exam), lastmod added to all URLs
+- News: 10 items fresh (India:4, Pakistan:4, Nigeria:2)
+- Commit: d200342 ✅
+- Deploy: BLOCKED (deploy service dead — user SSH fix needed)
+
+---
+
 ## Research Findings — 2026-04-07 20:48 UTC | PASSED ✅ (monitoring only)
 
 ### Site Health — 3-key-page FAST check

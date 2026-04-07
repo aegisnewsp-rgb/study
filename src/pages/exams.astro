@@ -15,6 +15,15 @@ const breadcrumbJsonLd = {
   ],
 };
 
+// Build a meaningful description for every exam (fallback when exam.description is missing)
+function buildExamDescription(exam: typeof ALL_EXAMS[0]): string {
+  if (exam.description) {
+    const cleaned = cleanText(exam.description).slice(0, 160);
+    if (cleaned.length > 10) return cleaned;
+  }
+  return `${exam.examName} free study guide: exam pattern, eligibility criteria, syllabus, and AI-powered personalised study roadmap generator. No signup required.`;
+}
+
 const examItemList = {
   '@context': 'https://schema.org',
   '@type': 'ItemList',
@@ -26,7 +35,7 @@ const examItemList = {
     position: i + 1,
     name: exam.examName || exam.examId,
     url: `${SITE_URL}/exams/${exam.examId}/`,
-    description: exam.description ? cleanText(exam.description).slice(0, 160) : undefined,
+    description: buildExamDescription(exam),
   })),
 };
 

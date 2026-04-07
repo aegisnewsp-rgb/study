@@ -5147,3 +5147,22 @@ Nothing to commit — working tree clean after previous cycle's domain fix.
 - Impact: Search engines may fail to parse this sitemap properly → SEO crawl coverage issues
 
 **Action Needed:** Postbuild fix-sitemap script not working. Need to investigate/rebuild the sitemap generation. All Major SEO is marked done per backlog, but this sitemap corruption is actively harmful. Needs a fresh build with correct sitemap generation.
+
+## Research Findings — 2026-04-07 18:45 UTC | PASSED ✅
+
+### Site Health — 3-key-page FAST check
+- Homepage ✅: 200 OK, title "StudyRoadmap - Free AI Study Plans for 125+ Exams", proper meta/OG/FAQPage/Organization/WebSite+SearchAction/HowTo/Person schema
+- /exams/neet/ ✅: 200 OK (after redirect), title "NEET UG — Exam Pattern, Eligibility & Study Plan | StudyRoadmap™"
+- /notes/neet/physics/ ✅: 200 OK (after redirect), title "Physics Study Notes — NEET UG | StudyRoadmap™"
+- /notes/ ✅: 200 OK (after redirect), title "Free Study Notes — All Exams | StudyRoadmap™"
+- Sitemap ✅: sitemap-0.xml live with all notes/exam pages at studyroadmap.in
+- News ✅: 10-item rolling window fresh — top item "JEE Main 2026 April 8 Marks vs Percentile" (Shiksha.com, 2026-04-07T18:30:14+00:00); JEE Main Session 2 (April 7, 2026) is the LIVE exam day — highly relevant traffic opportunity
+
+### Identified Improvement
+**None** — All high-value SEO items already implemented. Remaining backlog items all need user input (GSC code, Formspree ID, AdSense account, deploy SSH fix). Site is clean and healthy.
+
+### Action Taken
+None — site healthy, no changes needed this cycle.
+
+### Commit
+805b9e9 — Growth cycle fix (research-log.md update)

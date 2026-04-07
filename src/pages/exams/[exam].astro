@@ -18,6 +18,18 @@ const { exam } = Astro.props;
 const SITE_URL = 'https://studyroadmap.in';
 const flag = getCountryFlag(exam.country) || '🌍';
 
+// Live-exam banners — show a timely alert for exams happening right now
+const LIVE_EXAMS: Record<string, { label: string; message: string; cta: string; ctaUrl: string; }> = {
+  'jeemain': {
+    label: '🔴 LIVE NOW',
+    message: 'JEE Main 2026 Session 2 is happening April 7–9! Get your last-minute revision roadmap before the exam.',
+    cta: 'Generate My JEE Main Roadmap',
+    ctaUrl: '/roadmap?exam=jeemain',
+  },
+};
+
+const liveExam = LIVE_EXAMS[exam.examId];
+
 const countryLabels: Record<string, string> = {
   india: 'India', pakistan: 'Pakistan', nigeria: 'Nigeria',
   bangladesh: 'Bangladesh', srilanka: 'Sri Lanka', nepal: 'Nepal',
@@ -222,6 +234,19 @@ const pathwayExams = pathwayExamEntries
   <Navbar />
 
   <main id="main-content" class="flex-1">
+
+    {/* Live exam alert banner */}
+    {liveExam && (
+      <div class="bg-red-600 text-white">
+        <div class="container-page py-3 flex flex-col sm:flex-row items-start sm:items-center gap-2 sm:gap-4">
+          <span class="shrink-0 text-xs font-bold tracking-widest">{liveExam.label}</span>
+          <p class="text-sm flex-1">{liveExam.message}</p>
+          <a href={liveExam.ctaUrl} class="shrink-0 inline-flex items-center gap-1.5 bg-white text-red-600 font-bold text-sm px-4 py-1.5 rounded-lg hover:bg-red-50 transition-colors">
+            {liveExam.cta} →
+          </a>
+        </div>
+      </div>
+    )}
 
     <!-- Hero -->
     <section class="bg-gradient-to-br from-surface-50 to-brand-50 dark:from-surface-950 dark:to-surface-900 border-b border-surface-200 dark:border-surface-800">

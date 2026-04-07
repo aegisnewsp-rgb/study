@@ -3909,3 +3909,28 @@ News ticker fresh ✅
 - Monitoring only — site healthy, news fresh
 - Build: not triggered (no code changes)
 - Git: 1 commit (326aab3)
+
+## Research Findings — 2026-04-07 06:17 UTC
+
+### Site Health (3 pages checked)
+- Homepage ✅: 200
+- /exams/ ✅: 200
+- /exams/neet/ ✅: 200
+- /notes/neet/physics/phy-001/ ✅: 200
+- /roadmap/ ✅: 301 → 200 (trailing slash redirect, normal)
+
+### Deploy Service
+- ⚠️ DOWN: port 9000 returning 404 (backend still dead — needs SSH fix from user)
+- Site itself: live and healthy at studyroadmap.in
+
+### News
+- News fetch: SIGTERM timeout (Google News feeds slow — expected)
+- public/news.json: 10 items ✅ (JEE Main Session 2 today, UPSC, SSC CGL)
+- No new commit needed for news (fetch script killed before write)
+
+### No changes made
+- All high-value SEO complete. Working tree clean after research-log.md update commit.
+- Remaining items all need user input: GSC/Bing codes, AdSense, Formspree, deploy SSH fix.
+
+### Status
+- Site: healthy ✅ | News: 10 items ✅ | Deploy: down ⚠️

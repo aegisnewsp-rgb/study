@@ -4603,3 +4603,27 @@ News ticker fresh ✅
 - News refresh: 10 items (909 new → deduped to 10-item window)
 - Build: success (3346 pages, sitemap lastmod added)
 - Commit: nothing new to commit (tree clean — prior commit already captured sitemap lastmod fix)
+
+---
+
+## Research Run — 2026-04-07 15:58 UTC
+
+### Site Status
+- Homepage: ✅ 200, title "StudyRoadmap - Free AI Study Plans for 125+ Exams" (FAQPage present)
+- NEET exam page: ✅ 200, title "NEET UG — Exam Pattern, Eligibility & Study Plan | StudyRoadmap™"
+- Notes index: ✅ FAQPage schema present (2 matches)
+- Sitemap: ✅ 200
+
+### Changes This Run
+- None (all major SEO complete, no actionable items pending user input)
+
+### News
+- 10 fresh items (India: 4, Nigeria: 4, Pakistan: 2)
+- News refresh committed ✅
+
+### Notes
+- All SEO infrastructure is comprehensive (FAQPage, BreadcrumbList, Organization, WebSite+SearchAction, CollectionPage, ItemList, HowTo on roadmap, ReviewAggregate on about, custom 404)
+- Deploy service still has Type=oneshot+Restart=no issue (user needs to fix via SSH)
+- GitHub token has no write access (27+ commits stuck locally)
+- Remaining backlog items all need user input: GSC code, AdSense code, deploy fix, directory submissions
+

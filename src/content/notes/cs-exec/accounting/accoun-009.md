@@ -8,7 +8,6 @@ topicName: Debentures
 weight: 3
 country: cs
 generated: "2026-03-25T17:00:00"
-diagramPrompt: Clean educational diagram showing debenture issue mechanics: types of debentures (redeemable/irredeemable, convertible/non-convertible), journal entries for issue at par, at discount, at premium, and redemption methods — white background, exam-style illustration
 ---
 
 # Debentures

@@ -1,3 +1,36 @@
+## Research Findings — 2026-04-07 20:06 UTC | PASSED ✅
+
+### Site Health — 3-key-page FAST check
+- Homepage ✅: 200 OK (FAQPage, Organization, HowTo, Person schema present)
+- /exams/neet/ ✅: 200 OK (FAQPage 3Qs, HowTo, BreadcrumbList, Organization — all present)
+- /notes/neet/physics/ ✅: 200 OK
+- Sitemap ✅: Large sitemap with 3,000+ topic pages confirmed
+- news.json ✅: Refreshed at 20:07 UTC (10 items, deduplicated from 912 new items)
+
+### Fix Applied
+- **Removed placeholder `twitter:app:id:appstore` value `1234567890`** from Layout.astro.
+  - iOS app is not yet published; fake App Store ID could cause Twitter card validation issues.
+  - Google Play app meta tags retained (`com.studyroadmap.app`) for Android deep links.
+  - Comment updated to note iOS app placeholder for when it launches.
+  - Committed: `4c231cb` — "Growth cycle fix: remove placeholder Twitter App Store ID"
+
+### Potential Issue Observed (needs further investigation)
+- Person Schema renders correctly on homepage but **NOT on /exams/neet/** page in production:
+  - `authorObj` is passed to Layout in `[exam].astro` (line 229: `author={authorObj}`)
+  - Layout.astro renders Person Schema conditionally via `{author && ...}`
+  - However, production HTML shows the `<!-- Person Schema -->` comment but no `<script type="application/ld+json">` after it
+  - This suggests a possible workspace vs. production mismatch (build may predate the author prop addition)
+  - **Workspace code looks correct — requires fresh deploy to verify**
+
+### Outstanding (needs user)
+- GSC verification code (placeholder in Layout.astro)
+- Bing verification code (placeholder in Layout.astro)
+- AdSense integration
+- Formspree ID for feedback form
+- Deploy backend systemd fix (Type=oneshot → Type=simple)
+
+---
+
 ## Research Findings — 2026-04-07 16:00 UTC | PASSED ✅
 
 ### Site Health — 3-key-page FAST check

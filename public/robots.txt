@@ -1,7 +1,7 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://studyroadmap.com/sitemap-index.xml
+Sitemap: https://studyroadmap.in/sitemap-index.xml
 
 # ── AI TRAINING — BLOCK (content used for model training) ──────────────────
 User-agent: GPTBot

@@ -5089,3 +5089,20 @@ All major SEO improvements already implemented. No code changes needed this cycl
 
 ### ⚠️ Deploy Blocked — User Action Needed
 Deploy service keeps dying post-build. Needs SSH to fix systemd restart policy.
+
+## Cycle 87 — 2026-04-07 18:35 UTC
+
+**Site status:** All pages 200 OK. Sitemap includes all topic pages. hreflang tags live.
+News items: 10, all have dates now ✅
+
+**ONE improvement — Reddit feeds broken (pubDate missing, no content):**
+- Reddit `.rss` feeds have been broken for a while — they return RSS-wrapped JSON that the XML parser can't process, resulting in 0 items parsed and all Reddit news items having `pubDate` = missing (shown as "NO DATE")
+- Fix: Migrated 5 Reddit feed URLs from `.rss` to Reddit's native JSON API endpoint (e.g., `r/Indian_Academia/hot/.json?limit=10`)
+- Added new `parse_reddit_json_item()` and `parse_reddit_json()` functions
+- Added Reddit-specific filter: skip posts with score < 2 (removes low-quality posts)
+- Dropped r/Pakistan and r/Nigeria (low signal); kept r/Indian_Academia, r/CBSE, r/JEEprep, r/UPSC, r/neet_exams
+- Build successful, commit 67c6f4c
+
+**Result:** News now shows proper dates for Reddit posts (item 4/5 show real timestamps). All 10 items now have valid pubDate ✅
+
+**Status:** Site healthy. All critical SEO done. Pending: GSC/Bing verification codes (user input needed), AdSense, deploy service fix.

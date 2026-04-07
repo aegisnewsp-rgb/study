@@ -53,7 +53,7 @@ if (examIds.length === 0) {
 }
 
 const today = new Date().toISOString().split('T')[0];
-const BASE_URL = 'https://studyroadmap.com';
+const BASE_URL = 'https://studyroadmap.in';
 
 // Read raw sitemap
 let sitemap = fs.readFileSync(sitemapPath, 'utf8');

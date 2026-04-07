@@ -1,3 +1,19 @@
+## Research Findings — 2026-04-07 13:56 UTC
+
+### Site Health (Cycle 98 — FAST check)
+- Homepage ✅: 200 (FAQPage 15 Qs, Organization, HowTo, Person schema — all present)
+- /exams/neet/ ✅: 200 (FAQPage 3 Qs, HowTo, BreadcrumbList — all present)
+- /notes/neet/physics/phy-001/ ✅: 200
+- News ✅: 10 items refreshed (India:4, Nigeria:4, Pakistan:2 — 909 new items deduplicated)
+- Deploy backend: RECOVERED ✅ — was dead at 13:47 (404), now responds "Bad request" to POST = backend alive
+- Git: clean ✅ — no uncommitted changes
+- Sitemap: 3352 URLs confirmed (last check)
+
+### No changes made
+- All SEO improvements already committed and built (AI Plan nav link in Cycle 97)
+- Deploy service self-recovered since last cycle
+- Remaining blockers: user-input items only (GSC code, AdSense, Formspree, SSH deploy fix)
+
 ## Research Findings — 2026-04-07 13:47 UTC
 
 ### Site Health (3 pages checked — Cycle 97)

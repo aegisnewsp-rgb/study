@@ -4142,3 +4142,50 @@ News ticker fresh ✅
 6. Directory submissions (20 directories ready, needs user review)
 
 **Next highest-value action for future cycles:** None actionable without user input. Site health is excellent. Continuing monitoring mode.
+
+---
+
+## Research Findings — 2026-04-07T10:21 UTC
+
+### 🔴 Critical (fix immediately)
+- None — site healthy
+
+### 🟡 Important (fix this cycle)
+- Sitemap script cleaned up 2 broken exam entries during build (uAeu_cat, pcat — unicode characters in IDs from corrupt data files)
+
+### 🟢 Quick Wins (easy improvements)
+- All SEO complete ✅
+- All pages healthy (homepage, NEET exam, NEET physics notes, contact) ✅
+- News: 10 items, JEE Mains Session 2 prominent ✅
+- Schema audit: FAQPage ✅, Article ✅, BreadcrumbList ✅, ContactPage ✅, Organization ✅, WebSite ✅
+
+### 📊 Traffic Opportunities
+- JEE Main Session 2 starting April 7 — high-traffic exam window; site content already covers this well
+- All exam pages have proper structured data for rich results
+
+### ✅ Completed This Run
+- Sitemap post-build script ran: removed 2 unicode-char corrupt exam entries from sitemap, added <lastmod> to all URLs
+- Site confirmed healthy across all key pages
+- Build: succeeded, committed as f62e246
+
+
+## Research Findings — 2026-04-07 10:24 UTC
+
+### Site Health (3 pages checked — Cycle 97)
+- Homepage ✅: 200, FAQPage (15 Qs), Organization, WebSite+SearchAction, HowTo, Person, hreflang, Article
+- /exams/neet/ ✅: 200, FAQPage (3 Qs), HowTo, BreadcrumbList, hreflang
+- /notes/neet/physics/ ✅: no noindex/robots issues, sitemap coverage confirmed
+- Sitemap ✅: All 3200+ topic pages present
+- News ticker: 10 items showing on homepage (news.json live), duplicate headline detected: "India's first 360/360 JEE topper ditched corporate life for singing" appears 2x from India Today (same article, different oc= param — likely duplicate entry in fetch)
+
+### News Quality Note
+- JEE Main Session 2 2026 coverage in news ✅
+- Duplicate headline from India Today (same article, different oc=5 param) — low priority, source-level dedup needed
+- News auto-refreshes every 30 min via cron
+
+### No changes made
+- All high-value SEO complete. Working tree clean — nothing to commit.
+- Remaining items blocked on user input: GSC verification, Bing verification, AdSense integration, Formspree ID, deploy service fix (systemd).
+
+### Status
+- All SEO/improvements done. Site is index-ready once GSC is verified.

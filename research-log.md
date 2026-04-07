@@ -3934,3 +3934,25 @@ News ticker fresh ✅
 
 ### Status
 - Site: healthy ✅ | News: 10 items ✅ | Deploy: down ⚠️
+
+## Research Findings — 2026-04-07T06:23 UTC
+
+### 🔴 Critical (fix immediately)
+- None — all major SEO complete, site healthy
+
+### 🟡 Important (fix this cycle)
+- JEE Main Session 2 exam is happening RIGHT NOW (April 7-9, 2026) — top news story (10h old, 11.23 lakh students) — but the /exams/jeemain/ page has zero mention of it. Students searching for JEE Main info right now won't see any urgency signal. This is the biggest exam event of the year for the target audience.
+
+### 🟢 Quick Wins (easy improvements)
+- Added live-exam alert banner to /exams/[exam].astro template — shows a prominent red "🔴 LIVE NOW" banner for exams in the LIVE_EXAMS map with a CTA to generate their roadmap immediately
+- Currently wired for jeemain (Session 2: April 7-9); easily extensible to other exams (MDCAT season, JAMB window, etc.) by adding entries to the LIVE_EXAMS map
+- Build: ✅ 3346 pages | Commit: 9806494
+
+### 📊 Traffic Opportunities
+- "JEE Main Session 2 2026" is a massive search moment — students actively looking for last-minute prep, tips, syllabus revision
+- Adding a countdown/urgency element to the JEE Main exam page could capture high-intent search traffic right now
+
+### ✅ Completed This Run
+- Added `LIVE_EXAMS` map to `[exam].astro` with JEE Main Session 2 alert (label, message, CTA button linking to /roadmap?exam=jeemain)
+- Red banner appears at top of /exams/jeemain/ for all visitors — high-visibility conversion opportunity during peak exam window
+- Sitemap fix: removed 2 broken exam entries (uAeu_cat, 帖ast) — 126 exam pages now clean in sitemap

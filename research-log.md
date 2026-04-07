@@ -3,6 +3,24 @@
 ### Site Health (Cycle 98 — FAST check)
 - Homepage ✅: 200 (FAQPage 15 Qs, Organization, HowTo, Person schema — all present)
 - /exams/neet/ ✅: 200 (FAQPage 3 Qs, HowTo, BreadcrumbList — all present)
+
+---
+
+## Research Findings — 2026-04-07 14:07 UTC
+
+### Site Health (Cycle 99 — FAST check)
+- Homepage ✅: 200 — all meta, OG, Twitter, FAQPage (15 Qs), Organization, HowTo, Person, WebSite+SearchAction schema present
+- /exams/neet/ ✅: 200 — meta, OG, FAQPage, HowTo, BreadcrumbList, CollectionPage+ItemList schema present
+- /notes/neet/physics/ ✅: 200 — meta, OG, CollectionPage+ItemList (29 topics), BreadcrumbList schema present
+- Sitemap ✅: https://studyroadmap.in/sitemap-0.xml — comprehensive, all exam hub + notes pages included
+- robots.txt ✅: sitemap declared + AI bot policies in place
+
+### Findings
+- Site is in excellent shape. All major SEO structural elements present across homepage, exam hub, and notes pages.
+- Meta tags: title, description, og:*, twitter:*, hreflang, canonical — all correct on all checked pages.
+- Structured data: FAQPage, WebSite/SearchAction, Organization, HowTo, BreadcrumbList, CollectionPage — all implemented.
+- Sitemap: comprehensive including /exams/, /notes/, /roadmap/, static pages + dynamic exam/notes pages.
+- No changes needed this cycle — site is fully optimized for crawlers.
 - /notes/neet/physics/phy-001/ ✅: 200
 - News ✅: 10 items refreshed (India:4, Nigeria:4, Pakistan:2 — 909 new items deduplicated)
 - Deploy backend: RECOVERED ✅ — was dead at 13:47 (404), now responds "Bad request" to POST = backend alive
@@ -4445,3 +4463,31 @@ News ticker fresh ✅
 - Consider adding WebApplication schema to the roadmap page (enhances Rich Results for tool-style pages)
 - Notes pages individual topic URLs are driven by Astro content collections — check if sitemap covers them
 - GA4 not yet integrated (only Plausible privacy analytics) — may want to add if paid tier needed
+
+## Research Findings — 2026-04-07 13:59 UTC
+
+### Site Health (Cycle 99 — FAST check)
+- Homepage ✅: 200 (FAQPage 15 Qs, Organization, HowTo, Person schema — all present)
+- /exams/neet/ ✅: 200
+- /notes/neet/physics/phy-001/ ✅: 200
+- News ✅: 10 items (refreshed)
+- Deploy service: DEAD ❌ — backend returning 404, workspace build succeeds
+
+### 🔴 Critical (fix immediately)
+- `/study-plan-generator/` missing from sitemap — page builds fine but not in sitemap customPages, so Google can't discover it
+
+### ✅ Completed This Run
+- Fixed: Added `https://studyroadmap.in/study-plan-generator/` to `customPages` in `astro.config.mjs`
+- Build: ✅ dist/ contains `/study-plan-generator/` ✅ sitemap-0.xml now includes it ✅
+- Commit: 7b64fcf ✅
+- Deploy: BLOCKED — deploy backend returning 404 (Type=oneshot crash — needs user SSH fix documented in backlog item #6)
+
+### 📊 Traffic Opportunities
+- `/study-plan-generator/` page has rich FAQPage + HowTo schema but is invisible to Google (not in sitemap) — fix will make it crawlable and indexable for "AI study plan generator" queries
+- Sitemap also cleaned up 2 broken exam URLs this build: `uAeu_cat`, `帖ast`
+
+### Remaining Blockers (user input needed)
+- GSC verification code
+- AdSense integration
+- Formspree feedback form ID
+- VPS deploy service fix (Type=oneshot → Type=simple)

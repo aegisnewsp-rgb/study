@@ -4330,3 +4330,26 @@ News ticker fresh ✅
   - AdSense integration (needs AdSense account + code)
   - Formspree form ID (replace REPLACE_WITH_FORMSPREE_ID in feedback.astro)
   - Deploy backend fix: `sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service` (SSH required)
+
+## 2026-04-07 12:17 UTC — Cycle 109
+
+**Site health check:**
+- Homepage ✅ 200 OK, proper title/meta/OG
+- NEET exam page ✅ 200 OK, FAQPage schema, breadcrumbs, exam-specific OG image
+- Notes physics index ✅ 200 OK, server-rendered topic cards
+- robots.txt ✅ Comprehensive (AI training blocked, AI indexing allowed)
+- news.json ⏳ Fresh at 10:12 UTC (~2h old) — acceptable
+- llm.txt ✅ Already updated to 2026-04-07
+
+**Sitemap audit:**
+- Live sitemap at https://studyroadmap.in/sitemap-0.xml was showing only exam pages in the preview
+- /roadmap/ (site's #1 conversion page) was MISSING from sitemap customPages
+- /notes/ index was MISSING from sitemap customPages
+- Note: notes topic pages (~3200) ARE auto-discovered from content collections via getStaticPaths
+
+**Fix applied:**
+- Added `https://studyroadmap.in/roadmap/` and `https://studyroadmap.in/notes/` to sitemap customPages in astro.config.mjs
+- Build verified: 3355 pages, sitemap includes /roadmap/ and all notes pages ✅
+- Committed: 2ed2f35
+
+**Status:** Site healthy. Highest remaining priority: deploy service fix (Type=oneshot → Type=simple), GSC/Bing verification codes needed.

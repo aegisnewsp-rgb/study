@@ -3695,3 +3695,25 @@ News ticker fresh ✅
 ### No changes needed this cycle
 - All high-value SEO implemented. Build clean (3355 pages). Site healthy.
 - Remaining: GSC/Bing/AdSense codes from user, Formspree ID, deploy SSH fix
+
+## Research Findings — 2026-04-07T03:52 UTC
+
+### 🔴 Critical (fix immediately)
+- None — site healthy
+
+### 🟡 Important (fix this cycle)
+- News was 6 days stale (last refresh April 1) — JEE Main Session 2 is TODAY (April 7). Fresh news now committed.
+
+### 🟢 Quick Wins (easy improvements)
+- All major SEO verified: FAQPage ✅, HowTo ✅, BreadcrumbList ✅, Organization ✅, WebSite+SearchAction ✅, hreflang ✅, OG tags ✅, Twitter cards ✅, canonical ✅ on all key pages
+- Sitemap: 3,345 URLs (129 exam pages + 3,216 notes pages + home/about/contact/roadmap) ✅
+
+### 📊 Traffic Opportunities
+- GSC verification still pending (placeholder in Layout.astro — needs user code)
+- AdSense pending (needs approved account + code)
+- Content: ~900 topics still need real content (MiniMax API exhausted — needs top-up)
+
+### ✅ Completed This Run
+- News refreshed: 10 items (India:4, Nigeria:4, Pakistan:2) — JEE Main Session 2 today is top story ✅
+- Commit: 5c49173 ✅
+- Site: all key pages 200 OK ✅

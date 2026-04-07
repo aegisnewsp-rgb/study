@@ -3529,3 +3529,72 @@ sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
 ### No changes made
 - Site unreachable — nothing to build/deploy
 - All high-value SEO complete. Blocked on: VPS restore, deploy service fix (user SSH), GSC/Bing codes, AdSense account, Formspree ID
+
+---
+
+## Cycle 97 — 2026-04-07 01:06 UTC
+
+**Site Health**
+- Homepage: ✅ 200, all meta/OG/FAQPage JSON-LD correct
+- /exams/: ✅ 200
+- /notes/: ✅ 200
+- /roadmap: 301 → roadmap builder
+- Sitemap: ✅ live at studyroadmap.in/sitemap-0.xml (large, topic pages present)
+
+**Issue Found: Sitemap exam slug mismatch (4xx crawl budget leak)**
+- Production sitemap contained `uaeu-cat` (slugified from examId `uAeu_cat`)
+- But generated page directory uses mixed-case `uAeu_cat`, which exists at /exams/uAeu_cat/ → 200 OK
+- `fix-sitemap.cjs` was NOT lowercasing directory names before comparing against slugified exam IDs
+- Result: the script treated `uAeu_cat` as non-existent, but ALSO still added `uaeu-cat` (from examId slugification), creating a phantom 404 entry
+- Also: `uAeu_cat` itself was not being added since the lowercase comparison failed
+
+**Fix Applied**
+- Updated `generatedExamIds` normalization in `fix-sitemap.cjs` to also slugify directory names:
+  `dir.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')` — same transformation applied to examId
+- Now: `uAeu_cat` dir → `uaeu-cat` in set → matches slugified examId `uaeu-cat` ✅
+- Ghost entry `uaeu-cat` (404) will be removed on next postbuild; correct entry will be added instead
+
+**Note: deploy backend still crashes (Type=oneshot systemd bug — user action needed)**
+
+## Research Findings — 2026-04-07 02:11 UTC
+
+### Site Health (3 pages checked)
+- Homepage ✅: 200, FAQPage (15 Qs), Organization, WebSite+SearchAction, HowTo, Person, hreflang
+- Footer "Content reviewed April 2026" ✅
+- News ✅: 10 items — JEE Main Session 2 (11.23 lakh students) featured prominently
+- All structured data schemas intact ✅
+
+### News Quality Check
+Top headline: "JEE Main 2026: 11.23 Lakh Students Appear in Session 2 Exam" — relevant, current
+Other items: UPSC, SSC CGL, JAMB, MDCAT, WAEC — all exam-relevant
+News ticker fresh ✅
+
+### No changes needed
+- All high-value SEO complete. Remaining items blocked on user input (GSC, AdSense, deploy SSH fix, Formspree).
+- Today (April 7): JEE Main Session 2 is happening — news coverage confirmed fresh
+- Site serving correctly at studyroadmap.in
+
+
+---
+
+## Research Findings — 2026-04-07 02:13 UTC
+
+### Site Health (3 pages checked)
+- Homepage ✅: 200, FAQPage (15 Qs), Organization, WebSite+SearchAction, HowTo, Person, hreflang — all intact
+- /exams/neet/ ✅: 200, FAQPage (3 Qs), BreadcrumbList, HowTo — all intact
+- /notes/neet/physics/ ✅: 200, FAQPage (4 Qs), Organization, WebSite, hreflang — all intact
+
+### News Check
+- news.json updated April 6 ✅ — top story: "JEE Main 2026: 11.23 Lakh Students Appear in Session 2 Exam" — relevant & current
+- JEE Main Session 2 is happening today (April 7) — news ticker coverage confirmed ✅
+
+### Sitemap Check
+- sitemap-0.xml includes all topic pages (FMGE, FPSC-CCE, GATE, JAMB, MDCAT, NDA, NEET PG, NEET, SSC CGL, SSC CGL Tier 2, UPSC, WAEC, etc.) ✅
+- sitemap properly includes exam index pages and topic pages ✅
+
+### No changes needed this cycle
+- All SEO signals intact across all 3 checked pages
+- Site serving correctly at studyroadmap.in
+- All remaining items blocked on user input (GSC, AdSense, deploy SSH fix, Formspree, directory submissions)
+- No regressions found
+

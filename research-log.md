@@ -3881,3 +3881,31 @@ News ticker fresh ✅
 **No changes made** — site is stable and well-maintained. All high-value SEO work from backlog is complete. Remaining items (GSC/Bing codes, Formspree ID, deploy service restart) are user-dependent and cannot be automated.
 
 **Status:** 🟢 Green — nothing to fix this cycle.
+
+## Research Findings — 2026-04-07T06:13 UTC
+
+### 🔴 Critical (fix immediately)
+- None
+
+### 🟡 Important (fix this cycle)
+- Deploy service down again (port 9000 → 404) — recurring Type=oneshot issue, user needs SSH to fix:
+  ```bash
+  sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service
+  sudo sed -i 's/Restart=no/Restart=always/' /etc/systemd/system/studyroadmap-deploy.service
+  sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
+  ```
+
+### 🟢 Quick Wins (easy improvements)
+- All major SEO complete — no automated quick wins remaining
+- llm.txt date already updated to 2026-04-07 ✅
+- Footer "Content reviewed April 2026" ✅ (already updated)
+- News: 10 items, newest JEE Main Session 2 (April 6) ✅
+
+### 📊 Traffic Opportunities
+- GSC placeholder still in code (REPLACE_WITH_GOOGLE_SEARCH_CONSOLE_VERIFICATION_CODE) — needs user code
+- AdSense pending user account setup
+
+### ✅ Completed This Run
+- Monitoring only — site healthy, news fresh
+- Build: not triggered (no code changes)
+- Git: 1 commit (326aab3)

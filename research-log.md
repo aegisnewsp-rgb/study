@@ -4536,3 +4536,25 @@ News ticker fresh ✅
 - **Fixed**: 11 template references now use `subjectDisplay` fallback (derived from subject slug) instead of raw `subjectName` which was `None` for several exam's topic pages
 - **Committed**: 50f0f33
 - **Known issue**: Pre-existing build error on `accagl/accounting` (TDZ error on faqs) — existed before this cycle; needs separate investigation
+
+## Research Findings — 2026-04-07T14:44 UTC
+
+### 🔴 Critical (fix immediately)
+- **Build-breaking TDZ bug** in `src/pages/notes/[exam]/[subject]/index.astro`: `const faqs` was defined after `faqJsonLd` which references it in `mainEntity: faqs.map(...)`. JavaScript TDZ causes `ReferenceError: Cannot access 'faqs' before initialization` at render time. Build was failing silently for all subject-level notes pages (e.g., `/notes/accagl/accounting/`).
+
+### 🟡 Important (fixed this cycle)
+- TDZ bug fixed by moving `const faqs = [...]` block to before `const faqJsonLd` definition in the subject notes page template
+- Verified clean build: 3355 pages built successfully, sitemap generated with all exam pages
+
+### 🟢 Quick Wins
+- Sitemap now confirmed generated at `dist/sitemap-0.xml` with all notes and exam pages (postbuild script ran correctly)
+- `dist/sitemap.xml` is the index file pointing to `sitemap-0.xml` — this is correct behavior for `@astrojs/sitemap`
+
+### 📊 Traffic Opportunities
+- Notes pages were potentially returning errors to Googlebot (due to prerender failures) — fixing the TDZ should restore those pages to search index
+- 126 exam pages now properly in sitemap
+
+### ✅ Completed This Run
+- Fixed TDZ bug in `src/pages/notes/[exam]/[subject]/index.astro` — committed as `812858d`
+- Clean build verified: 3355 pages, sitemap generated correctly
+- Deploy service still down (port 9000, VPS backend — no SSH access available)

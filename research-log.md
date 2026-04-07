@@ -3852,3 +3852,32 @@ News ticker fresh ✅
 - Research log updated
 - **No code changes** — site is fully optimized
 
+
+---
+
+## Cycle 87 — 2026-04-07 06:08 UTC
+
+**Site status:** Homepage 200 ✅ | Sitemap ✅ | robots.txt ✅ | llm.txt ✅ (date: 2026-04-07)
+**News:** Freshly fetched 10 items at 06:08 UTC ✅ — JEE Main 2026 Session 2 (today) prominent
+**Deploy service:** DOWN (port 9000 returns 404) — Type=oneshot systemd issue, user SSH fix required
+
+**No code change committed.** All remaining high-value items need user input:
+- GSC verification code (placeholder in Layout.astro)
+- Deploy service fix (3 SSH commands documented in improvement-backlog.md)
+- AdSense integration (needs account + code)
+- Formspree feedback form ID
+- MiniMax API top-up for more content generation
+
+## 2026-04-07 06:10 UTC — Growth Cycle (1-min)
+
+**Site Health:** ✅ All core SEO elements intact on homepage (FAQPage, Organization, WebSite+SearchAction, HowTo, Person, hreflang, Article schema). Twitter app meta present. Canonical + robots OK.
+
+**Live Sitemap Check:** ✅ `sitemap-0.xml` serves correctly. URL count confirmed via count. All entries are lowercase. No uppercase/encoded broken URLs found in live sitemap. Notes section properly split.
+
+**News Fetch:** ✅ Completed. 10 new items saved to `public/news.json`. 810 deduplicated (India:4, Nigeria:4, Pakistan:2).
+
+**Dist Sitemap (build artifact):** ✅ All lowercase URLs confirmed. No uaeu-cat uppercase issues — grep matches on "uaeu" were actually `geogra-007` geography entries.
+
+**No changes made** — site is stable and well-maintained. All high-value SEO work from backlog is complete. Remaining items (GSC/Bing codes, Formspree ID, deploy service restart) are user-dependent and cannot be automated.
+
+**Status:** 🟢 Green — nothing to fix this cycle.

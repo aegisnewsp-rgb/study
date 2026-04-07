@@ -9,29 +9,19 @@ weight: 3
 country: india
 generated: "2026-03-29T05:05:57"
 ---
-<think>
-We need to write study notes for Functions in the exact format as specified.
-
-We have three sections: Lite, Standard, Extended.
-
-The user wants "EXACT format — do not deviate". So we must adhere exactly to the structure and formatting as shown.
-
-The structure:
-
----
 # Functions
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision.
 
 **Functions** — Key Facts for CUET
-• [One essential formula or law]
-• [Most tested CUET concept in this topic]
-• [Common mistake students make]
-• [Key technique or method to solve quickly]
-• [Important exception or special case]
-• [Most frequent question type in CUET]
-⚡ Exam tip: [One sharp CUET-specific shortcut or trap-avoidance tip]
+• **Core definition:** A **function** f: A → B assigns exactly one output f(x) ∈ B to each input x ∈ A. The **domain** is A; the **codomain** is B; the **range** is {f(x) : x ∈ A}.
+• **Most tested concept:** Finding **domain** and **range** — remember to exclude values that make the denominator zero, the radicand negative, or the logarithm non-positive.
+• **Common mistake:** Confusing **range** with **codomain** — codomain is the set of all possible outputs (stated), range is the actual set reached.
+• **Key technique:** For **f(g(x))**, first find the domain of g, then ensure g(x) lies in the domain of f. The **horizontal line test** checks injectivity (one-to-one).
+• **Important exception:** The **constant function** f(x) = c is both **even** and **odd only when c = 0**. A function can be neither even nor odd.
+• **Most frequent question type:** Given f(x) = (expression), find its domain/range, or find f(g(x)) or f⁻¹(x) for inverse functions.
+⚡ **Exam tip:** Before simplifying f(x), determine its domain restrictions first — otherwise you may include extraneous values that appear valid after simplification but are not.
 
 ---
 
@@ -39,7 +29,26 @@ The structure:
 > Standard content for students with a few days to months.
 
 **Functions** — CUET Study Guide
-[Write ~200 words of educational prose. Cover: core concepts, key formulas/derivations, typical CUET question patterns, common traps, and at least 2 short solved examples (2-3 lines each). Use bold for key terms. Write as an expert tutor.]
+
+A **function** f maps every element of the domain to exactly one element in the codomain. The **domain** is all permissible input values; the **range** is the set of actual outputs. For algebraic functions, factor numerator and denominator to cancel common factors — but note that cancellation does NOT restore excluded values that were originally prohibited.
+
+**Key concepts and formulas:**
+- **Even function:** f(−x) = f(x). **Odd function:** f(−x) = −f(x). Many functions are neither.
+- **Periodic function:** f(x + T) = f(x) for all x; smallest positive T is the **period**. Example: sin x has period 2π.
+- **Composite function:** (f ∘ g)(x) = f(g(x)). Domain of f ∘ g = {x in domain of g | g(x) in domain of f}.
+- **Inverse function:** f⁻¹ exists iff f is **one-to-one** (injective). Condition: f(a) = f(b) ⇒ a = b.
+- **Algebra of functions:** (f + g)(x) = f(x) + g(x); (fg)(x) = f(x) g(x); (f/g)(x) = f(x)/g(x) where g(x) ≠ 0.
+
+**Common traps:**
+- Assuming f(g(x)) = g(f(x)) — composition is not commutative.
+- Forgetting that the **square-root function** returns the non-negative root: √(x²) = |x|, not x.
+- Missing **restrictions** on logarithmic arguments: log g(x) defined only when g(x) > 0.
+
+**Practice Numerical 1:** Find the domain of f(x) = √(x² − 4x + 3).
+- The radicand must be ≥ 0: x² − 4x + 3 ≥ 0 → (x − 1)(x − 3) ≥ 0 → x ≤ 1 or x ≥ 3. Domain = (−∞, 1] ∪ [3, ∞).
+
+**Practice Numerical 2:** If f(x) = 2x + 3 and g(x) = x² − 1, find (f ∘ g)(x) and its domain.
+- (f ∘ g)(x) = f(g(x)) = 2(x² − 1) + 3 = 2x² + 1. Domain of g is ℝ; output g(x) = x² − 1 is always ≥ −1, which is in domain of f (all real). So domain of composite is ℝ.
 
 ---
 
@@ -47,62 +56,21 @@ The structure:
 > Comprehensive coverage for students on a longer timeline.
 
 **Functions** — Comprehensive CUET Notes
-[Write ~250 words at CUET Advanced level. Cover: deeper theory, proof of key results, edge cases, cross-topic connections, challenging solved examples. Push difficulty where relevant.]
 
-We need to fill in the placeholders accordingly.
+**Deeper theory and proof:**
 
-First, we need to think about the content. The target is CUET (Common University Entrance Test) Mathematics. The topic is Functions. We need to produce content appropriate for CUET.
+*Injectivity proof using the definition:* To prove f is one-to-one, assume f(a) = f(b) and deduce a = b. Example: f(x) = ax + b (a ≠ 0). If f(a) = f(b) ⇒ a + b = c ⇒ a = b, so linear functions with non-zero slope are injective.
 
-We should include: essential formulas, typical concepts: domain, codomain, range, types of functions (one-to-one, onto, bijective, even, odd, periodic, composite, inverse), functional equations, transformations, composition, inverse functions, piecewise-defined functions, modulus, greatest integer, etc.
+*Proving invertibility of specific functions:* f(x) = eˣ is strictly increasing on ℝ, so it is injective; its inverse is f⁻¹(x) = ln x. Similarly, f(x) = x³ is injective (monotonic), with inverse f⁻¹(x) = ∛x. However, f(x) = x² is not injective on ℝ (f(2) = f(−2) = 4), so it has no inverse on ℝ. Restrict to [0, ∞) to make it invertible.
 
-One essential formula: maybe f(g(x)) = composition, or inverse function condition f(f^{-1}(x)) = x.
+*Intermediate Value Theorem (IVT) for continuity:* If f is continuous on [a, b] and f(a) and f(b) have opposite signs, then there exists at least one c ∈ (a, b) such that f(c) = 0. This is frequently used in problems about existence of roots and in proofs involving function behaviour.
 
-Most tested CUET concept: likely identification of domain/range or checking injectivity/surjectivity.
+*Advanced classification of functions:* 
+- **Bounded:** sup |f(x)| < ∞. Example: sin x is bounded between −1 and 1.
+- **Monotonic:** strictly increasing (a < b ⇒ f(a) < f(b)) or decreasing. Example: f(x) = 1/x is decreasing on (0, ∞) but not on (−∞, 0).
+- **Periodic with fundamental period:** smallest positive T satisfying f(x + T) = f(x). Example: sin(2x) has period π, not 2π.
 
-Common mistake: forgetting to consider restrictions (e.g., denominator not zero, radicand non-negative) when finding domain; confusing range with codomain; misapplying vertical line test for function.
+*Limit and continuity edge cases:* The function f(x) = (x² − 4)/(x − 2) simplifies to x + 2 for x ≠ 2, but at x = 2 the original expression is undefined (hole). The limit as x → 2 is 4, but f(2) is not defined. Always check domain before simplifying.
 
-Key technique: using the horizontal line test for injectivity, solving inequality to find domain, using algebra of functions.
-
-Important exception: constant function is both even and odd? Actually constant function f(x)=c is even (f(-x)=c) but also not odd unless c=0. So constant function zero is both even and odd.
-
-Most frequent question type: find the domain of a given expression or find composite function.
-
-Exam tip: check restrictions before simplifying.
-
-Standard: Write ~200 words covering core concepts, key formulas, typical patterns, traps, and at least 2 solved examples.
-
-Extended: ~250 words at advanced level with deeper theory, proof, edge cases, cross-topic connections, challenging solved examples.
-
-We need to use bold for key terms, e.g., **domain**, **range**, **injectivity**, **surjectivity**, etc.
-
-We also need to maintain the bullet points style and other formatting. Use emojis as shown: 🟢, 🟡, 🔴, ⚡. Possibly include line breaks.
-
-Make sure we don't deviate. Keep the headings exactly as given, the bullet points list. Use the placeholder text replaced with actual content.
-
-Also ensure the "Lite" bullet points are each on separate lines starting with •. The "Exam tip" preceded by ⚡.
-
-Make sure not to add extra sections or notes. The final answer should only contain the three sections, starting with "# Functions" and the appropriate subsections.
-
-We'll write the content now.
-
-**Lite**:
-
-- One essential formula or law: f(g(x)) = composition law; also f^{-1}(f(x)) = x (inverse property). So we can mention composition formula.
-
-- Most tested CUET concept: finding domain and range of a function defined by algebraic expression.
-
-- Common mistake: forgetting to restrict denominator ≠ 0 or radicand ≥ 0 when determining domain.
-
-- Key technique: solving inequalities for domain, using the horizontal line test for injectivity.
-
-- Important exception: the function f(x) = 0 (zero function) is both even and odd.
-
-- Most frequent question type: given f(x) = ... find its domain/range, or find composite f∘g.
-
-- Exam tip: before simplifying, always write down domain restrictions; otherwise you may include extraneous values.
-
-**Standard**: Write ~200 words.
-
-We need to
-</think>
-*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+*Challenging solved example:* Let f(x) = { x² for x < 0; 2x + 1 for x ≥ 0 }. Find f⁻¹ if it exists.
+- f is not one-to-one on ℝ because it is not monotonic across 0: For x < 0, f(x) = x² ≥ 0, so f(−1) = 1 and f(1) = 3 from the other branch. However, on [0, ∞), f(x) = 2x+1 is strictly increasing and maps [0, ∞) to [1, ∞). On (−∞, 0), f(x) = x² maps (−∞, 0) to (0, ∞). The two ranges overlap (0, 1), so f is not injective on ℝ and has no inverse globally. If restricted to [0, ∞), f⁻¹(y) = (y − 1)/2 for y ≥ 1.

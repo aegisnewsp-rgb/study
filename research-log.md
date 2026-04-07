@@ -4643,3 +4643,37 @@ News ticker fresh ✅
 - GitHub token has no write access (27+ commits stuck locally)
 - Remaining backlog items all need user input: GSC code, AdSense code, deploy fix, directory submissions
 
+
+---
+
+## Research Findings — 2026-04-07T16:07 UTC
+
+### 🔴 Critical
+- **VPS unreachable** — studyroadmap.com returns HTTP 000 (connection failure). Same pattern as prior outages. Container or network issue.
+
+### 🟡 Important
+- Deploy service keeps dying (Type=oneshot + Restart=no) — needs SSH fix from user (documented since Cycle 106)
+- GitHub: origin/main not found, 0 unpushed commits (workspace clean)
+
+### 🟢 Quick Wins
+- All SEO complete — nothing actionable remaining without user input (GSC code, AdSense, VPS SSH fix)
+
+### 📊 Traffic Opportunities
+- GSC verification still pending user code
+- JEE Main Session 2 happening TODAY (April 7) — big news opportunity if site were live
+
+### ✅ Completed This Run
+- News refresh: 10 items (JEE Main 2026 April 7 LIVE, NEET 2.6M applicants, UPSC, JAMB malpractice warning)
+- No code changes — VPS down, nothing to deploy
+- Commit: 68dc901 "Research log update 2026-04-07 16:00 UTC"
+
+### ⚠️ Action Required from User
+1. **VPS SSH fix** (for deploy service stability):
+   ```bash
+   sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service
+   sudo sed -i 's/Restart=no/Restart=always/' /etc/systemd/system/studyroadmap-deploy.service
+   sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
+   ```
+2. **GSC verification code** — replace `YOUR_VERIFICATION_CODE_HERE` in Layout.astro
+3. **VPS health check** — container appears down again (HTTP 000 at studyroadmap.com)
+

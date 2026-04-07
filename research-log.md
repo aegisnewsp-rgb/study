@@ -4303,3 +4303,30 @@ News ticker fresh ✅
 
 ### ✅ Completed This Run
 - No code change — site is well-maintained. All major SEO complete. Remaining backlog items need user input (GSC/Bing codes, AdSense API, Formspree ID, deploy SSH fix). Quick win identified: JEE Main Session 2 news keyword tuning in fetch_news.py.
+
+## Research Findings — 2026-04-07T12:14 UTC
+
+### 🔴 Critical (fix immediately)
+- NONE
+
+### 🟡 Site Health Check
+- Homepage ✅: 200, all meta/OG/JSON-LD correct
+- /exams/neet ✅: FAQPage + HowTo + BreadcrumbList + Organization schemas confirmed
+- /notes/neet ✅: CollectionPage + ItemList + FAQPage schemas confirmed
+- News.json ✅: 10 items, freshest from 2026-04-07T09:52 UTC (~2h23m ago)
+- Sitemap ✅: 3200+ topic URLs in sitemap-0.xml
+
+### 🟢 Quick Wins
+- NONE — site is clean, no regressions
+
+### 📊 Traffic Opportunities
+- JEE Main Session 2 2026 is TODAY (April 7) — highest-traffic exam window. Students searching "JEE Main study plan" right now.
+
+### ✅ Completed This Run
+- No code changes — site is well-maintained. All major SEO complete.
+- Remaining backlog items need user input:
+  - GSC verification code (replace REPLACE_WITH_GOOGLE_SEARCH_CONSOLE_VERIFICATION_CODE in Layout.astro)
+  - Bing verification code (replace REPLACE_WITH_BING_VERIFICATION_CODE in Layout.astro)
+  - AdSense integration (needs AdSense account + code)
+  - Formspree form ID (replace REPLACE_WITH_FORMSPREE_ID in feedback.astro)
+  - Deploy backend fix: `sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service` (SSH required)

@@ -4963,3 +4963,25 @@ All major SEO improvements already implemented. No code changes needed this cycl
 - Build: success ✅ (3355 pages, 65s)
 - Git: committed ✅
 - News: refreshed ✅ (11 items, JEE Main April 7 LIVE as top story)
+
+## Research Findings — 2026-04-07T18:07 UTC
+
+### 🔴 Critical (fixed this cycle)
+- **Domain mismatch — site configured as `.in`, live on `.com`**: `astro.config.mjs` had `site: 'https://studyroadmap.in'` and all sitemap customPages used `.in`. The live site is at `.com` (confirmed: `.com → HTTP 200`, `.in → no response`). This means canonical URLs, og:url, hreflang tags, and sitemap were all advertising the wrong domain to search engines. **FIXED**: changed to `.com` in astro.config.mjs.
+
+### 🟡 Important (still open — hardcoded `.in` in page files)
+- **49 occurrences of `studyroadmap.in` as hardcoded string literals** across page files (JSON-LD, breadcrumbList, author URLs, contact email links). `Astro.site` is now correct, but per-page hardcoded structured data in Layout.astro (Organization schema, WebSite SearchAction schema), notes/index.astro, about.astro, contact.astro, privacy.astro still have `.in` URLs. These won't auto-fix. Recommend systematic replace `.in` → `.com` across all src/pages/ files.
+
+### 🟢 Quick Wins
+- Notes index page canonical: `https://studyroadmap.in/notes` (notes/index.astro line 47) → needs `.com`
+- Plausible analytics `data-domain="studyroadmap.in"` — this is CORRECT (analytics tracks the domain visitors actually use)
+
+### 📊 Traffic Opportunities
+- Fixing canonical/domain issues should improve Google crawl efficiency and reduce "site links" confusion
+
+### ✅ Completed This Run
+- Changed `site` in astro.config.mjs from `https://studyroadmap.in` to `https://studyroadmap.com`
+- Updated all sitemap `customPages` URLs (10 base URLs + 125 exam pages)
+- Build: **3355 pages** ✅
+- Commit: `754d1d1` — "Fix site domain: studyroadmap.in → studyroadmap.com"
+- Note: deploy blocked per Cycle 93 — backend service crash (Type=oneshot, Restart=no)

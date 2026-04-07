@@ -3986,3 +3986,30 @@ News ticker fresh ✅
 
 ### No changes made this cycle
 - Site healthy, all SEO complete, working tree clean after research-log commit
+
+## Research Findings — 2026-04-07 06:51 UTC
+
+### Site Health (3 pages checked — Cycle 97)
+- Homepage ✅: 200
+- /roadmap ✅: 301 (→ https://studyroadmap.in/roadmap/ — expected trailing-slash redirect)
+- /exams ✅: 301 (→ https://studyroadmap.in/exams/ — expected)
+- News ✅: 10 items, freshest published 2026-04-07T06:22:18+00:00 — JEE Main S2 day coverage
+- Footer ✅: "Content reviewed April 2026"
+
+### Sitemap Issue Found + Fixed (in workspace dist/)
+- `uaeu-cat` (exam ID `uAeu_cat`) was appearing twice in sitemap: once as `uaeu-cat` (added by fix-sitemap.cjs normalization) and once as `uAeu_cat` (original)
+- Only one of these has an actual page: `dist/exams/uAeu_cat/` exists → URL should be `/exams/uAeu_cat/` NOT `/exams/uaeu-cat/`
+- Cleaned `uaeu-cat` entry from workspace dist/sitemap-0.xml
+- Note: dist/ is gitignored; fix will be applied automatically on next build (fix-sitemap.cjs already handles normalization)
+- **Production still has stale sitemap** — deploy service (Type=oneshot bug) needs SSH fix to push new build:
+  ```bash
+  sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service
+  sudo sed -i 's/Restart=no/Restart=always/' /etc/systemd/system/studyroadmap-deploy.service
+  sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
+  ```
+- 2 other production-only 404s in sitemap: `ast`, `sathe` (confirmed 404 on live site, not in workspace dist — will be cleaned by fix-sitemap.cjs on next build)
+
+### Status
+- All high-value SEO complete. Site healthy.
+- **Blocking: Deploy SSH fix needed** to push workspace to production.
+

@@ -4353,3 +4353,27 @@ News ticker fresh ✅
 - Committed: 2ed2f35
 
 **Status:** Site healthy. Highest remaining priority: deploy service fix (Type=oneshot → Type=simple), GSC/Bing verification codes needed.
+
+---
+
+## 2026-04-07 12:28 UTC — Cycle 110
+
+**Site health check:**
+- Homepage ✅ 200 OK
+- NEET exam page ✅ 200 OK (title/meta/FAQPage)
+- JEE Main exam page ✅ 200 OK
+- Sitemap ✅ 3000+ URLs (exam pages + notes)
+- robots.txt ✅ Comprehensive
+
+**News status:**
+- news.json: 10 items but STALE — top item references "JEE Mains Session 2 from tomorrow" which was April 1 context
+- Today is April 7 — JEE Mains Session 2 has already begun (was April 7 BArch/BPlanning per prior cycle notes)
+- fetch_news.py gets killed by SIGTERM on Google News feeds (known issue, ~2min timeout too short)
+- news.json not updated this cycle — Google News feeds timing out consistently
+
+**Deploy service:**
+- Port 9000: 404 (backend dead — recurring Type=oneshot issue)
+- Site itself remains live (Astro container still running)
+- Deploy fix needs SSH: `Type=oneshot → Type=simple`, `Restart=no → Restart=always`
+
+**No code changes** — all major SEO complete, remaining items need user input (GSC, AdSense, deploy fix, Formspree ID)

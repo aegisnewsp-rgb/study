@@ -28,6 +28,7 @@ export default defineConfig({
         'https://studyroadmap.in/exams/',
         'https://studyroadmap.in/notes/',
         'https://studyroadmap.in/roadmap/',
+        'https://studyroadmap.in/study-plan-generator/',
         ...examSlugs.map(slug => `https://studyroadmap.in/exams/${slug}/`),
       ],
     }),

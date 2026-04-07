@@ -4897,3 +4897,32 @@ Long-term opportunities (require user input):
 **Actionable improvement this cycle:** None — all remaining backlog items (GSC verification, AdSense setup, directory submissions, deploy service Type=oneshot fix) require user-provided codes or manual SSH access. Knowledge base generation paused (API key exhausted).
 
 **Commit:** None (no change needed this cycle)
+
+## Research Findings — 2026-04-07 17:51 UTC | PASSED ✅
+
+### Site Health — 3-key-page FAST check
+- Homepage ✅: 200 OK — FAQPage (15Qs), Organization, WebSite+SearchAction, HowTo, Person schema all present
+- /exams/neet/ ✅: 200 OK — FAQPage (3 NEET-specific Qs), HowTo, BreadcrumbList, title/meta/OG all correct
+- /notes/neet/physics/ ✅: 200 OK — FAQPage (4 Physics Qs), CollectionPage+ItemList (29 topics), BreadcrumbList, subject OG image
+- Sitemap: comprehensive (3,000+ URLs) ✅
+- robots.txt: AI training blocked, Google-Extended allowed ✅
+- hreflang: en-IN, en-PK, en-NG, x-default on all pages ✅
+
+### News ✅
+- 10 fresh items — JEE Main 2026 April 7 LIVE (Paper 2 BArch/BPlanning) is top story
+- UPSC aspirants stipend item also trending
+
+### ONE Improvement This Cycle
+- **CS Executive accoun-007.md content gap**: File had `subjectName: null` and only 21 lines of placeholder content (Lite/Standard/Deep tier headings with no actual content). Regenerated with full Company Accounts content (~700 lines covering issue of shares at par/premium/discount, forfeiture/reissue, debentures, financial statements per Schedule III, Companies Act 2013, journal entries, ledger accounts). Also fixed `subjectName` from `null` to `"Accounting"`.
+
+### Git Commit
+- `c7e6a5c` — "Growth cycle fix: CS Executive accoun-007 content + subjectName fix"
+- 1 file changed, 683 insertions, 21 deletions
+
+### Status: All High-Value SEO Complete
+All major SEO improvements already implemented. Remaining items all need user input (GSC code, AdSense, Formspree, SSH deploy fix). Site is in excellent shape.
+
+### ✅ Completed This Run
+- Build: not needed (single file content fix)
+- Git: committed ✅
+- News: 10 items ✅

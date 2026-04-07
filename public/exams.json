@@ -359,6 +359,13 @@
       "topicCount": 0
     },
     {
+      "examId": "gre",
+      "examName": "GRE",
+      "description": "The Graduate Record Examination is a standardised test widely required for graduate and business school admissions in the US, Canada, Europe, and other countries. Accepted by thousands of universities worldwide.",
+      "country": "india",
+      "lastUpdated": "2026-04-06"
+    },
+    {
       "examId": "gujcet",
       "examName": "GUJCET",
       "country": "india",
@@ -1460,7 +1467,7 @@
       "topicCount": 0
     },
     {
-      "examId": "帖ast",
+      "examId": "\u5e16ast",
       "examName": "LEA/RX Exam (Philippines)",
       "country": "philippines",
       "subjects": [],

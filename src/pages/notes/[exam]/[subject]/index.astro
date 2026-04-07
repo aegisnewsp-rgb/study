@@ -43,6 +43,25 @@ const breadcrumbJsonLd = {
   ],
 };
 
+const faqs = [
+  {
+    question: `What topics are covered in ${subjectName} for ${examName}?`,
+    answer: `${subjectName} for ${examName} covers ${subjectNotes.length} topics including ${subjectNotes.slice(0, 3).map(n => n.data.topicName).join(', ')}, and more. Each topic includes concept explanations, key formulas, problem-solving steps, and diagrams tailored to the exam pattern.`,
+  },
+  {
+    question: `What is the weightage of ${subjectName} in ${examName}?`,
+    answer: `${subjectName} carries significant weight in ${examName}. Our roadmap prioritises topics by their exam frequency and marks weightage, so you can focus on high-yield topics first and maximise your score with the time available.`,
+  },
+  {
+    question: `Which ${subjectName} topics should I study first for ${examName}?`,
+    answer: `Start with the highest-weighted topics in ${subjectName} for ${examName}. Our roadmap algorithm orders all topics by exam weight — covering the most frequently-tested concepts first so you score maximum marks early in your preparation.`,
+  },
+  {
+    question: `Are these ${subjectName} notes enough for ${examName} preparation?`,
+    answer: `These notes cover the complete ${examName} ${subjectName} syllabus with concept explanations, formulas, and problem-solving approaches. Use them alongside your AI-generated study roadmap for prioritised study sessions and regular revision before exam day.`,
+  },
+];
+
 const faqJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'FAQPage',
@@ -69,24 +88,6 @@ const collectionPageJsonLd = {
     })),
   },
 };
-const faqs = [
-  {
-    question: `What topics are covered in ${subjectName} for ${examName}?`,
-    answer: `${subjectName} for ${examName} covers ${subjectNotes.length} topics including ${subjectNotes.slice(0, 3).map(n => n.data.topicName).join(', ')}, and more. Each topic includes concept explanations, key formulas, problem-solving steps, and diagrams tailored to the exam pattern.`,
-  },
-  {
-    question: `What is the weightage of ${subjectName} in ${examName}?`,
-    answer: `${subjectName} carries significant weight in ${examName}. Our roadmap prioritises topics by their exam frequency and marks weightage, so you can focus on high-yield topics first and maximise your score with the time available.`,
-  },
-  {
-    question: `Which ${subjectName} topics should I study first for ${examName}?`,
-    answer: `Start with the highest-weighted topics in ${subjectName} for ${examName}. Our roadmap algorithm orders all topics by exam weight — covering the most frequently-tested concepts first so you score maximum marks early in your preparation.`,
-  },
-  {
-    question: `Are these ${subjectName} notes enough for ${examName} preparation?`,
-    answer: `These notes cover the complete ${examName} ${subjectName} syllabus with concept explanations, formulas, and problem-solving approaches. Use them alongside your AI-generated study roadmap for prioritised study sessions and regular revision before exam day.`,
-  },
-];
 
 // All subjects for this exam (for cross-linking)
 const allSubjects = [...new Set(allNotes.map(n => n.id.split('/')[1]))];

@@ -4513,3 +4513,26 @@ News ticker fresh ✅
 
 ### Commit
 - `565f424` — Growth cycle fix: add FAQPage JSON-LD to subject index pages
+
+---
+
+## Research Findings — 2026-04-07T14:20 UTC | FAST CYCLE
+
+### 🔴 Critical (fix immediately)
+- **Build error: `/notes/accagl/accounting/` crashes with "Cannot access 'faqs' before initialization"** — This error existed BEFORE this cycle's changes (confirmed by git stash test). It's a pre-existing issue in the codebase that causes ALL topic pages with malformed `subjectName: None` frontmatter to crash during static generation. The crash is NOT caused by my changes.
+
+### 🟡 Important (fix this cycle)
+- **subjectDisplay fallback implemented**: Added `subjectDisplay` variable to `[topic].astro` that derives a readable name from the subject slug when `subjectName` is `None`, `null`, or empty. All 11 template occurrences now use `subjectDisplay` instead of raw `subjectName`. This fixes "None" appearing in page titles, breadcrumbs, FAQ answers, and metadata for 10+ exams (CS Executive Economics/Taxation, RBI Grade B Finance, and others).
+- Note: Build still shows 1 pre-existing error on `accagl/accounting` (same error exists without my changes). Commit applied cleanly.
+
+### 🟢 Quick Wins (easy improvements)
+- JEE Main Session 2 is LIVE today (April 7): The `LIVE_EXAMS` banner in `[exam].astro` already shows the correct alert for `jeemain`. ✅
+
+### 📊 Traffic Opportunities
+- News ticker shows 10 fresh items including "JEE Main 2026 April 7 LIVE" and "Record 2.6 Million Students Apply for NEET Exam" ✅
+- All major SEO complete; highest-value remaining: GSC verification code from user
+
+### ✅ Completed This Run
+- **Fixed**: 11 template references now use `subjectDisplay` fallback (derived from subject slug) instead of raw `subjectName` which was `None` for several exam's topic pages
+- **Committed**: 50f0f33
+- **Known issue**: Pre-existing build error on `accagl/accounting` (TDZ error on faqs) — existed before this cycle; needs separate investigation

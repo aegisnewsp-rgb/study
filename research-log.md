@@ -1,3 +1,37 @@
+## Research Findings — 2026-04-07 20:38 UTC | PARTIAL — no code change
+
+### Site Health — 3-key-page FAST check
+- Homepage ✅: 200 OK (FAQPage 15Qs, Person schema present)
+- /exams/neet/ ✅: 200 OK (FAQPage, HowTo, BreadcrumbList, Organization — all present)
+- /notes/neet/physics/ ✅: 200 OK
+- Sitemap ✅: all `<lastmod>2026-04-07</lastmod>` on every URL
+- news.json ✅: 10 items, refreshed at 20:35 UTC
+
+### Fix Applied
+- **Sitemap auto-cleanup (fix-sitemap postbuild hook)**:
+  - Removed 2 broken exam URLs from sitemap:
+    - `https://studyroadmap.in/exams/uAeu_cat/` (Unicode-char corrupted exam ID)
+    - `https://studyroadmap.in/exams/%E5%B8%96ast/` (Chinese-char corrupted exam ID)
+  - These were likely renamed to proper kebab-case IDs in data but still referenced in sitemap
+  - Added `<lastmod>2026-04-07</lastmod>` to all remaining sitemap entries
+  - Added proper `uaeu-cat` exam page to sitemap (now correctly listed)
+  - No source file changes — automated postbuild cleanup
+
+### Status: Workspace Clean, Deploy Needed
+- Workspace has no pending changes (committed at 20:35 UTC)
+- **Deploy service returning HTTP 400** on `POST /deploy` — stale production confirmed
+- Live site still has `twitter:app:id:appstore content="1234567890"` placeholder (workspace fix committed but not deployed)
+- Deploy endpoint blocked — user needs to SSH to VPS and run `bash deploy.sh` OR fix the backend Type=oneshot issue (see improvement-backlog item 6)
+
+### Outstanding (needs user)
+- GSC verification code (placeholder in Layout.astro)
+- Bing verification code (placeholder in Layout.astro)
+- AdSense integration
+- Formspree ID for feedback form
+- Deploy backend systemd fix (Type=oneshot → Type=simple)
+
+---
+
 ## Research Findings — 2026-04-07 20:06 UTC | PASSED ✅
 
 ### Site Health — 3-key-page FAST check

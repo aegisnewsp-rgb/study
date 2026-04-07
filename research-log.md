@@ -5487,3 +5487,47 @@ All substantive SEO improvements already implemented across 100+ cycles. Remaini
 - Cleaned duplicate off_topic entries created by previous sed attempt
 - Syntax verified: py_compile clean ✅
 - Committed: 7442153
+
+---
+
+## Research Findings — 2026-04-07 21:05 UTC | PASSED ✅
+
+### Site Health — 3-key-page FAST check
+- Homepage ✅: 200 OK (FAQPage 15Qs, Person schema, HowTo, Organization, WebSite+SearchAction — all correct)
+- /exams/ ✅: 200 OK (ItemList 124 exams, FAQPage 6Qs, BreadcrumbList — all correct)
+- /notes/neet/physics/ ✅: 200 OK (FAQPage 4Qs, BreadcrumbList 4 levels, CollectionPage+ItemList 29 topics)
+- /study-plan-generator/ ❌: **404** on live site
+
+### Key Findings
+
+**1. study-plan-generator live 404 — workspace builds correctly, production does not**
+- Workspace build: `npm run build` ✅ generates `/study-plan-generator/index.html` successfully
+- Live site: `/study-plan-generator/` returns 404
+- Root cause: Deploy backend crashes after each deploy (systemd `Type=oneshot` exits immediately, `Restart=no` — known issue in backlog #6, user SSH fix needed)
+- Result: Live Docker image is from old build that predates the study-plan-generator page
+- **Action needed (user SSH):** Run the 3 systemd commands from backlog item #6 to fix `Type=oneshot → Type=simple`
+
+**2. News ticker: working correctly**
+- Latest fetch: 2026-04-07T20:52 — 10 items (JEE Main Session 2 2026 marks vs percentile, NEET news)
+- `scripts/fetch_news.py` working correctly
+- `public/news.json` format: flat list (10 items), news.ts handles both list and dict formats
+
+**3. All major SEO signals confirmed present on live site:**
+- ✅ FAQPage on homepage (15Qs), exams (6Qs), notes topics (4Qs)
+- ✅ Organization schema on all pages
+- ✅ WebSite+SearchAction on all pages
+- ✅ BreadcrumbList on notes pages
+- ✅ CollectionPage+ItemList on notes index pages
+- ✅ OG tags (custom og-image.jpg)
+- ✅ hreflang geo-targeting (en-IN, en-PK, en-NG, x-default)
+- ✅ robots.txt: AI training blocked, Google-Extended allowed
+- ✅ sitemap: all topic pages indexed
+
+**4. Blocked items (need user action):**
+- GSC verification code — placeholder `REPLACE_WITH_GOOGLE_SEARCH_CONSOLE_VERIFICATION_CODE`
+- Bing verification code — placeholder `REPLACE_WITH_BING_VERIFICATION_CODE`
+- Deploy backend fix — SSH required (systemd Type=simple change)
+- Formspree feedback form ID — user needs to create formspree.io account
+
+### No change committed this cycle
+All high-value improvements already implemented. Deploy fix is the highest-impact pending change but requires user SSH access.

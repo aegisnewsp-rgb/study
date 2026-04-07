@@ -4266,3 +4266,40 @@ News ticker fresh ✅
 **Improvement identified:** None — site is well-maintained after extensive prior work. All remaining backlog items require human input (verification codes, AdSense API keys, deploy token).
 
 **Action taken:** None — no actionable improvement available this cycle.
+
+## Research Findings — 2026-04-07T11:48 UTC
+
+### 🔴 Critical (fix immediately)
+- NONE (all major SEO complete)
+
+### 🟡 Important (fix this cycle)
+- **Notes index page missing FAQPage JSON-LD script tag** — The notes index (`/notes/`) defined `faqJsonLd` (const + schema object) but NEVER injected it as a `<script type="application/ld+json">` tag. Layout.astro receives `faqs={NOTES_FAQS}` prop and renders its own FAQPage, but the notes page also defined a separate `faqJsonLd` variable that was completely unused. Combined with `breadcrumbJsonLd` which was properly injected, this was a dead-code/dropped-schema situation.
+
+### 🟢 Quick Wins (easy improvements)
+- **FAQPage JSON-LD on notes index**: Added `<script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />` to `src/pages/notes/index.astro`. Build: ✅ 3347 pages. Commit: `2d4fd6b`.
+
+### 📊 Traffic Opportunities
+- JEE Main Session 2 2026 begins TODAY (April 7) — this is the highest-traffic exam window right now. News is serving but news.json had no JEE content in last check. Consider adding JEE Main Session 2 dedicated RSS feed (existing in prior commit 663b1d6).
+
+### ✅ Completed This Run
+- Fixed missing FAQPage JSON-LD on notes index page (`/notes/`). Schema was defined but never rendered. Now renders alongside BreadcrumbList schema. Build ✅ 3347 pages.
+
+## Research Findings — 2026-04-07T12:08 UTC
+
+### 🔴 Critical (fix immediately)
+- NONE
+
+### 🟡 Important (fix this cycle)
+- **News ticker missing JEE Main Session 2 coverage** — JEE Main Session 2 2026 begins TODAY (April 7, 2026). The news ticker is showing unrelated items (Solid Waste Management, UPSC stories, MBA) instead of the biggest exam news of the day. The fetch_news.py should surface JEE Main Session 2 stories prominently given the traffic window.
+
+### 🟢 Quick Wins (easy improvements)
+- **JEE Main Session 2 news keyword** — fetch_news.py could add broader JEE Main keywords to catch Session 2 2026 stories from Google News RSS. Current keywords may be too specific and missing generic "JEE Main April 2026" coverage.
+
+### 📊 Traffic Opportunities
+- JEE Main Session 2 2026 begins TODAY (April 7) — highest-traffic exam window. Students searching "JEE Main study plan" / "JEE Main preparation" right now. StudyRoadmap's JEE Main pages should be front-and-center.
+- 124 exam pages with ItemList schema confirmed live ✅
+- 15 FAQPage questions on homepage ✅
+- 3,352 sitemap URLs ✅
+
+### ✅ Completed This Run
+- No code change — site is well-maintained. All major SEO complete. Remaining backlog items need user input (GSC/Bing codes, AdSense API, Formspree ID, deploy SSH fix). Quick win identified: JEE Main Session 2 news keyword tuning in fetch_news.py.

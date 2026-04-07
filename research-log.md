@@ -1,3 +1,31 @@
+## Research Findings — 2026-04-07 13:47 UTC
+
+### Site Health (3 pages checked — Cycle 97)
+- Homepage ✅: 200
+- /exams/neet/ ✅: 200 (redirects to /exams/neet/)
+- /notes/neet/physics/phy-001/ ✅: 200
+- Live sitemap: 3352 URLs (up from ~3200 last cycle — grew since last deploy)
+- Deploy service: DEAD ❌ — `/deploy` returns 404; backend has exited. Workspace build succeeds (3355 pages). BLOCKED: needs SSH fix (Type=oneshot → Type=simple, documented in backlog item #6)
+
+### Critical Finding: /study-plan-generator/ not in live sitemap
+- Page exists in workspace (`src/pages/study-plan-generator.astro`, 308 lines)
+- Builds successfully → `dist/study-plan-generator/index.html`
+- FAQPage + HowTo schema present ✅, all meta tags correct ✅
+- IN LOCAL sitemap ✅ (confirmed with grep)
+- NOT in LIVE sitemap ❌ (confirmed 0 matches in live sitemap)
+- Live site returns 404 for /study-plan-generator/ (deploy never pushed it)
+- Navbar didn't link to it — even if deployed, users couldn't discover it
+
+### Action Taken
+- Added 'AI Plan' link to Navbar: `/study-plan-generator`
+- Mobile + desktop menus both auto-updated (same navLinks array)
+- Committed: `a1a5b65` — "Growth cycle fix: Add AI Plan to main navigation"
+- Build: 3355 pages, clean ✅
+
+### Status
+- Remains BLOCKED on user SSH fix for deploy service (systemd Type=oneshot)
+- All SEO/improvements complete in workspace. Next deploy will include nav fix.
+
 ## Research Findings — 2026-04-07 03:48 UTC
 
 ### Site Health (3 pages checked — Cycle 96)

@@ -4189,3 +4189,29 @@ News ticker fresh ✅
 
 ### Status
 - All SEO/improvements done. Site is index-ready once GSC is verified.
+
+---
+
+## Research Findings — 2026-04-07 10:26 UTC
+
+### 🔴 Critical
+- None
+
+### 🟡 Important
+- None — all major SEO implemented across 100+ cycles
+
+### 🟢 Quick Wins
+- Site fully healthy: homepage ✅, NEET exam page ✅, topic notes page ✅
+- Build: 3346 pages ✅ (sitemap postbuild script cleaned 2 broken exam entries, added lastmod to all URLs)
+- All structured data types confirmed present on all 3 checked pages: Organization, WebSite+SearchAction, FAQPage, BreadcrumbList, HowTo (exam pages render inline in body — works fine)
+- No code changes needed this cycle
+
+### 📊 Traffic Opportunities
+- All high-value SEO improvements done
+- Remaining blockers need user input: GSC verification code, AdSense integration, deploy service Type=oneshot fix, MiniMax API top-up for content generation
+
+### ✅ Completed This Run
+- Build: ✅ (3346 pages, sitemap fix postbuild)
+- Site check: all 3 pages healthy (200 OK)
+- Commit: 5e144fa — growth cycle fix (research-log update)
+- Deploy: triggered via POST /deploy (awaiting backend availability)

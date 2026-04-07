@@ -4377,3 +4377,27 @@ News ticker fresh ✅
 - Deploy fix needs SSH: `Type=oneshot → Type=simple`, `Restart=no → Restart=always`
 
 **No code changes** — all major SEO complete, remaining items need user input (GSC, AdSense, deploy fix, Formspree ID)
+
+## 2026-04-07 12:36 UTC — Growth Research Cycle
+
+**Pages checked:** Homepage (studyroadmap.in/), JEE Main exam page (/exams/jeemain/), Notes index (/notes/)
+
+**Meta/Structure observations:**
+- All 3 pages have full OG tags, Twitter cards, canonical URLs, hreflang, FAQPage schema, HowTo schema
+- Notes index: 3057 free notes across 89 exams, title/desc/OG tags all present and correct
+- JEE Main page: rich structured data (BreadcrumbList, FAQPage, HowTo), metadata fully present
+- Layout.astro: Organization schema URL was `https://twitter.com/studyroadmap` — **but actual Twitter handle is `@studyroadmap_in`**
+
+**Issue found:** Mismatch between Organization schema Twitter URL and actual Twitter handle.
+
+- Schema says: `https://twitter.com/studyroadmap` (≈ 3 followers, wrong account)
+- Actual handle: `@studyroadmap_in` (studyroadmap_in, the real account)
+
+**Fix applied:** Updated Organization schema sameAs from `https://twitter.com/studyroadmap` → `https://twitter.com/studyroadmap_in`
+
+**Committed:** `dc921d9` — "Fix Twitter URL in Organization schema from /studyroadmap to /studyroadmap_in"
+
+**Backlog notes for future cycles:**
+- Consider adding WebApplication schema to the roadmap page (enhances Rich Results for tool-style pages)
+- Notes pages individual topic URLs are driven by Astro content collections — check if sitemap covers them
+- GA4 not yet integrated (only Plausible privacy analytics) — may want to add if paid tier needed

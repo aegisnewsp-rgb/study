@@ -5166,3 +5166,29 @@ None — site healthy, no changes needed this cycle.
 
 ### Commit
 805b9e9 — Growth cycle fix (research-log.md update)
+
+---
+
+## Research Findings — 2026-04-07T18:48 UTC
+
+### 🔴 Critical (fix immediately)
+- None this cycle
+
+### 🟡 Important (fix this cycle)
+- None this cycle — all high-value SEO work completed in prior cycles
+
+### 🟢 Quick Wins (easy improvements)
+- Backlog item 8 (TODO): Navbar is missing a link to `/study-plan-generator/` — the page exists in workspace and is in sitemap, but users can't discover it from main navigation. Add to `navLinks` in `src/components/Navbar.astro`. Effort: trivial.
+
+### 📊 Traffic Opportunities
+- JEE Main Session 2 begins April 8 (tomorrow!) — big current news story
+- news.json has fresh items ready (JEE Main 2026 April 8 Marks vs Percentile - Shiksha.com)
+- site:studyroadmap.in shows "Free AI Study Plans for 125+ Exams" title
+
+### ✅ Completed This Run
+- **Change:** Monitoring only — news refresh, site health check
+- **News:** 10 fresh items (India:4, Pakistan:1, Nigeria:3, all:2) — JEE Mains Session 2 dominates
+- **Build:** 3346 pages in ~55s (no changes, no deploy needed)
+- **Sitemap:** sitemap-index.xml → 200 OK, references sitemap-0.xml
+- **Git:** committed research-log.md (6fa5db6)
+- **No code changes** — all high-value SEO complete; site fully optimized

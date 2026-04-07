@@ -4677,3 +4677,34 @@ News ticker fresh ✅
 2. **GSC verification code** — replace `YOUR_VERIFICATION_CODE_HERE` in Layout.astro
 3. **VPS health check** — container appears down again (HTTP 000 at studyroadmap.com)
 
+
+---
+
+## Research Findings — 2026-04-07T16:09 UTC
+
+### 🔴 Critical (fix immediately)
+- None found. All major SEO complete.
+
+### 🟡 Important (fix this cycle)
+- **News stale — FIXED.** News.json was last updated in cycle 93 (2026-04-01). Today is 2026-04-07 — 6 days stale. JEE Main Session 2 is TODAY (April 7). Refreshed successfully: JEE Main 2026 April 7 LIVE now in news ticker. Country distribution: India 4, Nigeria 4, Pakistan 2. Commit: 8188f90 (already pushed prior cycle).
+
+### 🟢 Quick Wins (easy improvements)
+- No new quick wins found. All high-value SEO implemented.
+
+### 📊 Traffic Opportunities
+- JEE Main Session 2 is happening today (April 7) — site is well-positioned with live news.
+- GSC/Bing verification still pending user codes.
+- Reddit RSS feeds permanently blocked (HTTP 403) — low priority.
+
+### ✅ Completed This Run
+- **News refresh:** 10 items, JEE Main April 7 LIVE ✅, all India/Pakistan/Nigeria covered
+- **Site audit:** homepage ✅ (FAQPage 15 Qs, Org, WebSite, HowTo), notes physics index ✅ (FAQPage 4 Qs, BreadcrumbList, CollectionPage, ItemList), topic page ✅ (FAQPage 4 Qs, no noindex, correct meta desc), exams/neet ✅ (FAQPage, HowTo, BreadcrumbList via exam page)
+- **Git:** nothing new to commit (news already in 8188f90)
+- **Site health:** HTTP 200 ✅, all schemas correct ✅
+
+### ⚠️ Still Blocked (needs user)
+- GSC verification code: `YOUR_VERIFICATION_CODE_HERE` in Layout.astro
+- Bing verification code: `REPLACE_WITH_BING_VERIFICATION_CODE` in Layout.astro
+- Deploy service fix (Type=oneshot → Type=simple + Restart=always)
+- Formspree ID for feedback form
+- AdSense account + code injection

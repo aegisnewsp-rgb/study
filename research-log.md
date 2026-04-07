@@ -4985,3 +4985,24 @@ All major SEO improvements already implemented. No code changes needed this cycl
 - Build: **3355 pages** ✅
 - Commit: `754d1d1` — "Fix site domain: studyroadmap.in → studyroadmap.com"
 - Note: deploy blocked per Cycle 93 — backend service crash (Type=oneshot, Restart=no)
+
+## Research Findings — 2026-04-07T18:12 UTC
+
+### 🔴 Critical (fix immediately)
+- **Domain mismatch — site now on studyroadmap.com, files still point to studyroadmap.in**: robots.txt and llm.txt both hardcoded the old domain (studyroadmap.in). Live site was migrated to studyroadmap.com (confirmed via last commit 754d1d1 which updated astro.config.mjs and sitemap). robots.txt sitemap URL and llm.txt's canonical links were all wrong.
+
+### 🟡 Important (fix this cycle)
+- llm.txt had 15 references to studyroadmap.in — all updated to studyroadmap.com ✅
+- robots.txt sitemap URL updated ✅
+
+### 🟢 Quick Wins (easy improvements)
+- None remaining — all major SEO complete; remaining items need user input (GSC, AdSense)
+
+### 📊 Traffic Opportunities
+- site:studyroadmap.com shows 0 results (same zero-index state as before)
+- studyroadmap.in domain appears to be expired/not renewing — studyroadmap.com is the live site
+
+### ✅ Completed This Run
+- **Fixed domain mismatch in robots.txt + llm.txt** — changed all 15 references from studyroadmap.in → studyroadmap.com
+- Build: 3355 pages ✅
+- Commit: 83f50bf ✅

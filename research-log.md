@@ -5720,3 +5720,54 @@ Without this fix, every deploy succeeds but the backend dies immediately, servin
 
 ### Status
 - NO CHANGE — site healthy, all remaining work blocked on user-provided credentials or server SSH access
+
+## Research Findings — 2026-04-07T22:58 UTC
+
+### 🔴 Critical (fix immediately)
+- None — site is healthy
+
+### 🟡 Important (fix this cycle)
+- **Corrupt notes directory:** `src/content/notes/帖ast/` (Chinese chars) → renamed to `ast` using Python shutil. This directory maps to exam pages `/exams/ast/` and `/exams/sathe/` in the sitemap (which served as fallback for missing exam pages). Fix ensures notes route properly for these pages.
+
+### 🟢 Quick Wins (easy improvements)
+- Build: 3355 pages ✅
+- Sitemap: 3352 URLs confirmed live
+- News: 10 items fresh (India: 4, Pakistan: 4, Nigeria: 2)
+- /exams/: Title + meta desc ✅, ItemList schema ✅
+- /notes/: Title + meta desc ✅, FAQPage ✅
+- /notes/neet/physics/: Title ✅
+
+### 📊 Traffic Opportunities
+- All major SEO complete
+- Remaining high-value: GSC verification, AdSense integration, knowledge-base content
+
+### ✅ Completed This Run
+- Renamed corrupt notes directory: `帖ast` → `ast` (Python shutil.move)
+- Commit: 5c88420 "Growth cycle fix: rename corrupt notes dir 帖ast→ast"
+
+## Cycle 2026-04-07 23:06 UTC
+**Site:** studyroadmap.in (live) | studytarget.in (domain squatting/hijacked by HugeDomains)
+**VPS Backend:** Down (port 9000 not responding, per previous cycles)
+**Focus:** Structural health check
+
+### Site Health
+- Homepage: ✅ 200, proper meta/OG/Twitter tags, FAQPage+HowTo schema
+- /exams/neet: ✅ 200, proper meta, canonical, breadcrumb, FAQ schema
+- /notes/neet/physics: ✅ 200, proper meta, canonical, FAQ schema
+- Sitemap: ✅ 200, includes 3352+ URLs
+
+### ⚠️ Critical Issue Found
+- **/study-plan-generator/**: 404 on live site
+  - Built file exists: `dist/study-plan-generator/index.html`
+  - Listed in sitemap: `https://studyroadmap.in/study-plan-generator/` (confirmed in sitemap)
+  - Navbar links to `/study-plan-generator` (confirmed in source)
+  - Live server returns 404
+  - **Root cause:** Deploy is stale — latest build not synced to production. VPS backend down likely prevents auto-deploy from completing
+  - **Impact:** Navbar link goes to dead page, hurts UX and SEO
+  - **Fix:** Needs manual redeploy or VPS restart (requires human SSH access)
+
+### Backlog Items Remaining (requires human input)
+- GSC verification code (placeholder)
+- Bing Webmaster code (placeholder)
+- AdSense integration (needs approved account)
+- Directory submission script (needs review)

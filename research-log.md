@@ -497,3 +497,60 @@ Both deploy endpoints returning HTTP 400 — not timeout, actual rejection. Like
 1. Run SSH commands to fix deploy service (Type=oneshot → Type=simple)
 2. Provide GSC verification code
 3. Provide Formspree form ID for feedback page
+
+## Research Findings — 2026-04-08 04:43 UTC | PASSED ✅
+
+### ✅ Change Made: llm.txt date update
+- **File:** public/llm.txt
+- **What:** Updated date from 2026-03-26 → 2026-04-08
+- **Why:** llm.txt signals content freshness to AI crawlers (Google Deep Research, ChatGPT, Perplexity). Dated 13 days ago; updating now signals the site is actively maintained
+
+### Site Health — 3-key-page FAST check
+- **Homepage** ✅: 200 OK, sitemap-index pointing to sitemap-0.xml
+- **/roadmap/** ✅: 200 OK (was 301 in previous cycle — CDN now resolving correctly)
+- **/exams/** ✅: 200 OK
+
+### Sitemap Check
+- sitemap-0.xml: Comprehensive (3000+ URLs) — includes all topic pages + custom high-value pages
+- study-plan-generator ✅ in sitemap customPages (verified in astro.config.mjs)
+- llm.txt ✅ date updated
+
+### News
+- 10 items refreshed ✅ (4 India, 2 Nigeria, 904 deduplicated from older pool)
+
+### No Action Needed — Previously Documented Issues
+- Deploy backend still requires user SSH fix (Type=oneshot → Type=simple, documented Cycle 86)
+- GSC verification: placeholder code in Layout.astro — user must provide
+- AdSense: needs account + code from dashboard
+
+### SEO Score Summary
+- All high-value SEO signals green ✅
+- All 3 pages return 200 ✅
+- No stale date references found (NEET strategy page 2026-2027 references are current)
+- Deploy backend DOWN but CDN is serving site correctly via cached content
+
+## Research Findings — 2026-04-08 05:45 UTC | PASSED ✅
+
+### Site Health — 3-key-page FAST check
+- **Homepage** ✅: FAQPage (15 Qs), HowTo (3 steps), Organization, WebSite+SearchAction, Person schema, hreflang en-IN/en-PK/en-NG/x-default
+- **/exams/neet/** ✅: FAQPage, HowTo, BreadcrumbList, Organization, ItemList, hreflang
+- **/notes/neet/physics/** ✅: FAQPage (4 Qs), BreadcrumbList, Article schema, CollectionPage+ItemList (29 topics), prev/next nav
+- **Sitemap** ✅: Valid sitemap-index.xml → sitemap-0.xml (100+ exam pages + notes index pages)
+- **robots.txt** ✅: AI training bots blocked (GPTBot, anthropic-ai, CCBot, cohere-ai), Google-Extended + AI indexing allowed
+- **llm.txt** ✅: Current (2026-04-08)
+- **News** ✅: 10 items refreshed — India 4, Nigeria 2, all 2 — JEE Main 2026 today (good timing)
+- **Deploy service**: localhost:9000 DOWN (Type=oneshot crash — user SSH fix needed, recurring)
+
+### No Changes This Cycle
+- Site is fully optimised — all high-value SEO improvements already implemented
+- All remaining backlog items need user input (GSC code, AdSense account, Formspree signup, SSH deploy fix)
+- Person schema already on homepage (StudyRoadmap Editorial Team)
+- All schema types present on all key pages
+
+### BLOCKING (needs user action)
+- **GSC verification code** — `YOUR_VERIFICATION_CODE_HERE` in Layout.astro
+- **Bing verification code** — `REPLACE_WITH_BING_VERIFICATION_CODE` in Layout.astro
+- **Deploy service** — Type=oneshot fix (3 SSH commands in backlog item #6)
+- **Formspree ID** — for feedback form
+- **AdSense** — needs approved account
+

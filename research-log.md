@@ -1,5 +1,38 @@
 
 
+## Research Findings — 2026-04-08 01:14 UTC | PASSED ✅
+
+### 🔴 Critical: Deploy Service Unreachable
+- http://localhost:9000/ — no response (service down)
+- http://187.127.134.151:9000/ — returns 404 (backend not responding correctly)
+- Site appears live at studyroadmap.in (CDN may be serving stale content)
+- Deploy fix still pending user SSH (Type=oneshot → Type=simple)
+- **Commit d0a3929 queued locally** (cannot push to origin)
+
+### ✅ Change Made: NEET Strategy Page Date Update
+- **File:** src/pages/exams/neet-strategy.astro
+- **What:** Updated stale "2025–2026" references → "2026–2027" across 8 locations:
+  - FAQ question + title + meta description + OG tags + hero banner + section heading
+- **Why:** NEET 2026 exam cycle is underway (exam typically in May). Pages saying "2025-2026" look outdated to students searching now and to Google crawlers. Fresh dating signals content is current.
+- **SEO impact:** Captures "NEET 2026 strategy" queries instead of confusing "2025" searchers
+- **Build:** 3346 pages ✅ | postbuild sitemap fix: 2 broken exam entries removed (uAeu_cat, 帖ast), 126 exam pages confirmed in sitemap ✅
+
+### News
+- 10 items refreshed ✅ (India 4, Nigeria 2, 911 deduplicated)
+- News: ✅ 10 items — includes "JEE Main 2026 April 8 Marks vs Percentile" (today's exam)
+
+### Site Health — 3-key-page FAST check
+- **Homepage** ✅: FAQPage (15 Qs), HowTo, Organization, WebSite+SearchAction, hreflang
+- **/exams/neet/** ✅: FAQPage, HowTo, BreadcrumbList, Organization
+- **/notes/neet/physics/** ✅: FAQPage, BreadcrumbList, CollectionPage+ItemList
+- **Deploy**: ⚠️ localhost:9000 DOWN, 187.127.134.151:9000 → 404
+
+### No Other Changes
+- All high-value SEO already implemented
+- Remaining backlog items need user input (GSC, AdSense, Formspree, deploy SSH fix)
+
+---
+
 ## Research Findings — 2026-04-08 00:19 UTC | PASSED ✅
 
 ### Site Health — 3-key-page FAST check

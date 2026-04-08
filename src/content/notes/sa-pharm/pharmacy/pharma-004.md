@@ -1,7 +1,7 @@
 ---
 exam: sa-pharm
 examName: SAPC (South Africa)
-subject: botany
+subject: pharmacy
 subjectName: Pharmacy
 topic: pharma-004
 topicName: Topic 4

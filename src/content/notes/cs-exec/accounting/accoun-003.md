@@ -8,7 +8,7 @@ topicName: Journal Entries & Ledgers
 weight: 3
 country: cs
 generated: "2026-03-25T17:00:00"
-diagramPrompt: Clean educational diagram showing the accounting cycle from Journal to Ledger to Trial Balance, with debit/credit posting flow, format of a ledger account — white background, exam-style illustration
+diagramPrompt: "Clean educational diagram showing the accounting cycle from Journal to Ledger to Trial Balance, with debit/credit posting flow, format of a ledger account — white background, exam-style illustration"
 ---
 
 # Journal Entries & Ledgers

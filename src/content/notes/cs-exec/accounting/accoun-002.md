@@ -8,7 +8,7 @@ topicName: Accounting Equations
 weight: 3
 country: cs
 generated: "2026-03-25T17:00:00"
-diagramPrompt: Clean educational diagram showing the Accounting Equation Assets = Liabilities + Equity with visual breakdown of components, debit/credit rules, and transaction analysis — white background, exam-style illustration
+diagramPrompt: "Clean educational diagram showing the Accounting Equation Assets = Liabilities + Equity with visual breakdown of components, debit/credit rules, and transaction analysis — white background, exam-style illustration"
 ---
 
 # Accounting Equations

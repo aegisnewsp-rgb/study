@@ -8,7 +8,7 @@ topicName: Winding Up & Corporate Insolvency
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-diagramPrompt: Clean educational diagram showing the three types of winding up (Compulsory, Voluntary, Subject to Supervision) as parallel paths with arrows showing key differences in initiation, involvement of NCLT, and liquidator appointment — and also showing the IBC 2016 process flow as an alternative to winding up
+diagramPrompt: "Clean educational diagram showing the three types of winding up (Compulsory, Voluntary, Subject to Supervision) as parallel paths with arrows showing key differences in initiation, involvement of NCLT, and liquidator appointment — and also showing the IBC 2016 process flow as an alternative to winding up"
 ---
 
 # Winding Up & Corporate Insolvency

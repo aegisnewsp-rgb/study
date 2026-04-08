@@ -8,7 +8,7 @@ topicName: Incorporation & Formation of Companies
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-diagramPrompt: Clean educational diagram showing the step-by-step process of company incorporation in India under the Companies Act 2013, with arrows showing the flow from DIN acquisition to ROC filing and certificate of incorporation
+diagramPrompt: "Clean educational diagram showing the step-by-step process of company incorporation in India under the Companies Act 2013, with arrows showing the flow from DIN acquisition to ROC filing and certificate of incorporation"
 ---
 
 # Incorporation & Formation of Companies

@@ -8,7 +8,7 @@ topicName: Accounting Principles
 weight: 3
 country: cs
 generated: "2026-03-25T17:00:00"
-diagramPrompt: Clean educational diagram showing Accounting Principles hierarchy with GAAP, IFRS, going concern, matching principle, consistency, materiality — white background, exam-style illustration
+diagramPrompt: "Clean educational diagram showing Accounting Principles hierarchy with GAAP, IFRS, going concern, matching principle, consistency, materiality — white background, exam-style illustration"
 ---
 
 # Accounting Principles

@@ -77,3 +77,46 @@
 ### Observation
 - All remaining backlog items (GSC, AdSense, Formspree, deploy fix) need user action
 - Deploy service crash is the blocker — blocks 1 new page + any future improvements from reaching live
+
+## Research Findings — 2026-04-08 00:30 UTC | PASSED ✅
+
+### Site Health — 3-key-page FAST check
+- **Homepage** ✅: 200 OK, full meta, FAQPage (15 Qs), HowTo, Organization, WebSite+SearchAction, hreflang
+- **/roadmap/** ✅: 301 → /roadmap/ (trailing-slash redirect, normal Astro static)
+- **/exams/** ✅: 301 → /exams/ (trailing-slash redirect, normal Astro static)
+- **/notes** ✅: 301 → /notes/ (trailing-slash redirect, normal Astro static)
+- **/study-plan-generator/** ❌: 404 on live — page exists in workspace, deploy blocked by service crash
+
+### Deploy Status
+- localhost:9000 DOWN (Type=oneshot crash — user SSH fix needed, recurring since cycles ago)
+- **Deploy blocked** — /study-plan-generator/ 404 cannot be fixed until deploy service restored
+- GitHub push blocked — no origin for studyroadmap-astro; commits accumulate locally
+
+### News ✅
+- 10 items saved (India 4, Pakistan 4, Nigeria 2)
+- Reddit: 0 items (all subreddits permanently blocked — low priority)
+- Build: 3346 pages ✅, sitemap postbuild script ran ✅
+
+### Sitemap Postbuild Improvement
+- Removed 2 broken exam entries from sitemap: `uAeu_cat`, `%E5%B8%96ast` (corrupt IDs, no generated page)
+- Added 126 exam pages to sitemap (was missing since dynamic routes)
+- Added `<lastmod>` to all URL entries
+
+### 🟡 Important
+- /study-plan-generator/ 404: page (`study-plan-generator.astro`) exists in workspace + Navbar linked, but deploy service crash prevents it going live
+- User needs to SSH into VPS and run 3 commands (documented in improvement-backlog.md item 6):
+  ```bash
+  sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service
+  sudo sed -i 's/Restart=no/Restart=always/' /etc/systemd/system/studyroadmap-deploy.service
+  sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
+  ```
+
+### ✅ Completed This Run
+- News refreshed: 10 items ✅ (commit 5c554d4)
+- Build: 3346 pages ✅
+- Sitemap: 2 broken entries removed, 126 exam pages added, lastmod dates added ✅
+- Commit: "Growth cycle fix" ✅
+
+### No Changes (deploy blocked)
+- All high-value SEO already implemented
+- Remaining backlog items all need user input (GSC, AdSense, Formspree, SSH deploy fix)

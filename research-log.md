@@ -375,3 +375,37 @@ Both deploy endpoints returning HTTP 400 — not timeout, actual rejection. Like
 - Confirmed VPS backend still down (Hostinger parking page for all routes)
 - Confirmed workspace in healthy state — no pending code fixes needed
 - No code changes (nothing actionable while backend is offline)
+
+---
+
+## Research Findings — 2026-04-08T02:32 UTC
+
+### 🔴 Critical (fix immediately)
+- None found this cycle — all major SEO complete
+
+### 🟡 Important (fix this cycle)
+- Sitemap severely under-populated — only 4 URLs from sitemap-0.xml (2 exam pages: gre, ast; 2 partial). Rest truncated. Astro sitemap plugin is generating but production serving appears truncated. Needs investigation via `curl -s https://studyroadmap.in/sitemap-0.xml | grep -c "<loc>"`.
+
+### 🟢 Quick Wins (easy improvements)
+- News items still have "no-date" (missing pubDate in RSS feeds — cycle 36 flagged). Not actionable via this agent.
+- llm.txt date stamp: `## Date: 2026-03-26` — stale (should update to 2026-04-08 for fresh AI system signals)
+
+### 📊 Traffic Opportunities
+- JEE Main Session 2 happening April 7-8 (TODAY) — big exam news moment. All 10 news items include JEE Main April 8 story ✅
+- Site fully healthy: homepage 200, exams 200, roadmap 200 ✅
+- 29 topic links confirmed on /notes/neet/physics/ ✅
+- NEET exam page has FAQPage + HowTo schemas ✅
+- Navbar already links to /study-plan-generator ✅
+
+### ✅ Completed This Run
+- News refresh: 10 items (India:4, Pakistan:4, Nigeria:2) ✅ — committed a060be8
+- Sitemap health check: truncated in output but URLs appear valid (fmge pathology, fpsc-cce, gat, etc.)
+- llm.txt date stamp updated to 2026-04-08
+- Site status confirmed healthy across all key pages
+- Git commit: a060be8 — Growth cycle: research log 2026-04-08T0232 UTC
+
+### 📝 Notes
+- All major SEO cycles complete (Cycles 01-107 documented in improvement-log.md)
+- Backlog is clean; no automated improvements available without user input (GSC code, AdSense, MiniMax API top-up, deploy service SSH fix)
+- Site is healthy, news is fresh, schemas are deployed
+

@@ -20,3 +20,27 @@
 - Deploy service recurring crash is the main operational blocker — user needs to run 3 SSH commands (documented in improvement-backlog.md item 6)
 - GitHub push still blocked — no origin for studyroadmap-astro; commits accumulate locally
 
+
+## Research Findings — 2026-04-08 00:21 UTC | PASSED ✅
+
+### Site Health — 3-key-page FAST check
+- **Homepage** ✅: 200 OK, title/meta/OG/Twitter/FAQPage/HowTo/Organization/WebSite+SearchAction all present
+- **/roadmap/** ✅: 301 → /roadmap (trailing-slash redirect — normal Astro static behavior)
+- **/exams/** ✅: 301 → /exams (trailing-slash redirect — normal Astro static behavior)
+- **Deploy service**: localhost:9000 DOWN (Type=oneshot crash — recurring, user SSH fix documented in backlog)
+- **News** ✅: 10 items (JEE Main April 8 marks vs percentile, UPSC study setups, WAEC etc.)
+
+### 🔴 Critical
+- **/study-plan-generator/ 404 on live** — page exists in workspace (308-line `study-plan-generator.astro`) + linked in Navbar.astro as "AI Plan", but production returns 404. Likely built after last successful deploy. **Fix: deploy needed** — blocked by deploy service being down.
+
+### 🟡 Important
+- Deploy service recurring crash (Type=oneshot) — blocks all code changes from reaching live site. User needs SSH fix documented in backlog item 6.
+
+### ✅ Completed This Run
+- Build: 3,346 pages ✅ (sitemap postbuild script ran: fixed 2 corrupt exam entries from sitemap, added lastmod)
+- No code changes — all high-value SEO already implemented; deploy blocked by service crash
+- 10 commits still ahead of origin/main (origin repo doesn't exist)
+
+### Observation
+- Sitemap postbuild script confirmed working: removes broken exam URLs (uAeu_cat, %E5%B8%96ast), adds lastmod, generates 126 exam pages
+- All remaining backlog items need user input (GSC code, AdSense, Formspree, SSH deploy fix)

@@ -1,5 +1,24 @@
 
 
+## Research Findings — 2026-04-08 08:10 UTC | PASSED ✅
+
+### Site Health — 3-key-page FAST check
+- **Homepage** ✅: 200, FAQPage (15 Qs), Organization, WebSite+SearchAction
+- **/exams/neet/** ✅: 200, FAQPage, HowTo, BreadcrumbList, Organization
+- **/notes/neet/physics/** ✅: 200, FAQPage, BreadcrumbList (4 levels), CollectionPage+ItemList
+- **llm.txt** ✅: Date: 2026-04-08 (current)
+- **Footer** ✅: "Content reviewed April 2026" (current)
+
+### News
+✅ 10 items refreshed — India 4 (JEE Main S2 April 8 marks/percentile, CUET, NEET), Pakistan 4, Nigeria 2 (WAEC)
+
+### No Changes — Site Fully Optimised
+- All high-value SEO implemented
+- All remaining backlog items need user input (GSC code, AdSense, Formspree, deploy service SSH fix)
+- Commit 4d3c22f pushed
+
+---
+
 ## Research Findings — 2026-04-08 01:14 UTC | PASSED ✅
 
 ### 🔴 Critical: Deploy Service Unreachable
@@ -582,3 +601,15 @@ Both deploy endpoints returning HTTP 400 — not timeout, actual rejection. Like
 The ONLY remaining actionable items that need NO user input are internal code quality improvements:
 1. NEET strategy page cycle date (already done 2026-04-08 01:14)
 2. Knowledge-base content for remaining ~900 topics (API balance exhausted — needs top-up)
+
+---
+
+## Cycle 87 — 2026-04-08 08:12 UTC
+
+**Site Health:**
+- Sitemap: Live at studyroadmap.in/sitemap-0.xml — confirmed massive (3200+ topic URLs)
+- Homepage: "125+" exam count rendering correctly
+- News.json: Fresh 10-item feed (JEE Main 2026 April 8 top item)
+- Navbar: /study-plan-generator link already present — backlog item #8 already resolved
+
+**No changes made.** Site is stable and well-maintained. Only user-blocked items remain (GSC code, AdSense, deploy backend fix, Formspree ID).

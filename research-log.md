@@ -640,3 +640,46 @@ The ONLY remaining actionable items that need NO user input are internal code qu
 - Sitemap: 126 exam pages + all topic pages confirmed ✅
 - Commit state: nothing to commit (working tree clean)
 
+
+=== Growth Cycle — 2026-04-08 08:29 UTC ===
+SCOPE: Meta tags, OG images, sitemap audit (homepage + 1 exam page + 1 notes page)
+
+FINDINGS:
+- Site: https://studyroadmap.in ✅ (live, responding)
+- Sitemap: 128 exam URLs confirmed in dist/sitemap-0.xml ✅
+- OG images: Only 20 exam-specific /og-notes/exam-*.jpg exist (neet, jeemain, upsc, etc.)
+  → 108+ exam pages had no thematic OG image
+- Default OG fallback was generic /og-image.jpg (unthemed, non-exam branded)
+- robots.txt: AI training blocked, AI indexing allowed — correct setup ✅
+- Homepage: single <h1> ✅; exam pages: proper schema + breadcrumb + FAQ ✅
+- Notes pages: proper h1 on topic pages ✅
+
+CHANGE MADE:
+- Created /public/og-notes/exam-default.jpg (copy of exam-neet.jpg as branded fallback)
+- Updated src/layouts/Layout.astro default image prop:
+  OLD: image = '/og-image.jpg'
+  NEW: image = '/og-notes/exam-default.jpg'
+- This affects ALL pages without explicit image props — ~108+ exam pages + notes pages
+- Exam pages with specific /og-notes/exam-{examId}.jpg are UNCHANGED
+
+IMPACT: Medium — better social sharing for exam pages without dedicated OG images
+COMMIT: 8ad959d
+
+---
+
+## Research Findings — 2026-04-08 08:35 UTC | PASSED ✅
+
+### Site Health — 3-key-page FAST check
+- **Homepage** ✅: 200, FAQPage (15 Qs), Organization, WebSite+SearchAction, hreflang tags
+- **/contact/** ✅: 200, FAQPage (3 Qs), Organization, BreadcrumbList, full meta
+- **Sitemap** ✅: fix-sitemap.cjs ran — removed 2 broken exam URLs (no page: uAeu_cat, %E5%B8%96ast), all 125 exam pages confirmed present, lastmod added
+
+### Content / Backlog Status
+- **Navbar**: AI Plan → /study-plan-generator ✅ linked (already done)
+- **Backlog**: All remaining items need user input (GSC code, AdSense, Formspree ID, deploy service SSH fix)
+- **News**: 10 items current from 04:02 UTC cycle
+
+### No Changes — Site Fully Optimised
+- All high-value SEO improvements done
+- All remaining backlog items are user-gated or deferred
+- Build running in background (session grand-rook)

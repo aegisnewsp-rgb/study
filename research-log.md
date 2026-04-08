@@ -238,3 +238,34 @@ Both deploy endpoints returning HTTP 400 — not timeout, actual rejection. Like
 - Site is fully optimised — all major SEO improvements from backlog are complete
 - Remaining blockers all need user action: GSC code, AdSense account, Formspree signup, SSH deploy fix
 - Sitemap postbuild fix (removing corrupt exam URLs) committed in bd07e20, needs deploy to go live
+
+## Research Findings — 2026-04-08 01:05 UTC | PASSED ✅
+
+### Site Health — 3-key-page FAST check
+- **Homepage** ✅: 200 OK, title/meta/OG/Twitter/FAQPage/HowTo/Organization/WebSite+SearchAction all present
+- **/roadmap/** ✅: 301 → /roadmap (trailing-slash redirect — normal Astro static behavior)
+- **/exams/** ✅: 301 → /exams (trailing-slash redirect — normal Astro static behavior)
+- **/study-plan-generator/** ❌: **404** — page exists in workspace (added to navbar at 00:35 UTC) but deploy service is DOWN, so committed code never reached live site
+- **Deploy service**: localhost:9000 DOWN (Type=oneshot crash — user SSH fix needed, recurring since at least 00:19 UTC)
+- **News** ✅: 10 items refreshed — India 4, Nigeria 2, all 4 (911 items deduplicated to 10, ~5 min ago)
+
+### 🔴 Critical
+- **Deploy service DOWN** — localhost:9000 connection refused; all code changes (including study-plan-generator fix from 00:35 UTC) blocked from reaching production. User SSH fix documented in improvement-backlog.md item 6:
+  ```bash
+  sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service
+  sudo sed -i 's/Restart=no/Restart=always/' /etc/systemd/system/studyroadmap-deploy.service
+  sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
+  ```
+
+### 🟡 Important
+- **/study-plan-generator/ 404** — page code committed at 00:35 UTC but deploy service down; needs deploy once service is restored
+
+### ✅ Completed This Run
+- News: 10 items ✅ (India 4, Nigeria 2, all 4) — committed 5b1a126
+- Site health: 3 pages checked ✅
+- No code changes — deploy blocked by service crash
+- 0 new commits ahead of origin (origin repo doesn't exist)
+
+### Observation
+- All high-value SEO work complete; all remaining backlog items need user input (GSC code, AdSense, Formspree, SSH deploy fix)
+- Deploy service has been down since at least 00:19 UTC (~46 minutes); appears to crash after each successful deploy and stay down

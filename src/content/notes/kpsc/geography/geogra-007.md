@@ -2,7 +2,7 @@
 exam: kpsc
 examName: KPSC KAS
 subject: gs1
-subjectName: None
+subjectName: General Studies
 topic: geogra-007
 topicName: Topic 7
 weight: 3

@@ -2,7 +2,7 @@
 exam: up-psc
 examName: UPPSC PCS
 subject: gs1
-subjectName: None
+subjectName: General Studies
 topic: geogra-002
 topicName: Topic 2
 weight: 3

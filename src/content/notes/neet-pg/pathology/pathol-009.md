@@ -2,7 +2,7 @@
 exam: neet-pg
 examName: NEET PG
 subject: botany
-subjectName: None
+subjectName: Botany
 topic: pathol-009
 topicName: Topic 9
 weight: 3

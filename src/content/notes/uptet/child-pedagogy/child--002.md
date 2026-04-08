@@ -2,7 +2,7 @@
 exam: uptet
 examName: UPTET
 subject: gs1
-subjectName: None
+subjectName: General Studies
 topic: child--002
 topicName: Topic 2
 weight: 3

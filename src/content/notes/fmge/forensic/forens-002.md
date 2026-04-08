@@ -2,7 +2,7 @@
 exam: fmge
 examName: FMGE
 subject: botany
-subjectName: None
+subjectName: Botany
 topic: forens-002
 topicName: Topic 2
 weight: 3

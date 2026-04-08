@@ -2,7 +2,7 @@
 exam: accagl
 examName: ACCA/CA Pakistan
 subject: accounting
-subjectName: None
+subjectName: Financial Accounting
 topic: taxati-003
 topicName: Topic 3
 weight: 3

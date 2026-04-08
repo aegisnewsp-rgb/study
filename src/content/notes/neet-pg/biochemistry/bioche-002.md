@@ -2,7 +2,7 @@
 exam: neet-pg
 examName: NEET PG
 subject: biochemistry
-subjectName: None
+subjectName: Biochemistry
 topic: bioche-002
 topicName: Carbohydrate Metabolism
 weight: 3

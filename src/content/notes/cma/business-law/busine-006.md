@@ -2,7 +2,7 @@
 exam: cma
 examName: CMA Foundation
 subject: legal-reasoning
-subjectName: None
+subjectName: Business Laws
 topic: busine-006
 topicName: Topic 6
 weight: 3

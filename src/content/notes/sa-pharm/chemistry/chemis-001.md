@@ -2,7 +2,7 @@
 exam: sa-pharm
 examName: SAPC (South Africa)
 subject: organic-chemistry
-subjectName: ('chemistry', 'Chemistry')
+subjectName: Chemistry
 topic: chemis-001
 topicName: Topic 1
 weight: 3

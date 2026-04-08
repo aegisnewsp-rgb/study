@@ -2,7 +2,7 @@
 exam: ini-cet
 examName: INI CET (AIIMS PG)
 subject: biochemistry
-subjectName: None
+subjectName: Biochemistry
 topic: bioche-005
 topicName: Enzymology
 weight: 3

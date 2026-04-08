@@ -2,7 +2,7 @@
 exam: ican
 examName: ICAN (Nigeria)
 subject: accounting
-subjectName: None
+subjectName: Financial Accounting
 topic: accoun-014
 topicName: Ratio Analysis
 weight: 3

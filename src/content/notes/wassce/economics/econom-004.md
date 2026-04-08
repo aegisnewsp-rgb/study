@@ -2,7 +2,7 @@
 exam: wassce
 examName: WASSCE (Ghana)
 subject: quant
-subjectName: None
+subjectName: Quantitative Aptitude
 topic: econom-004
 topicName: Consumer Behaviour
 weight: 3

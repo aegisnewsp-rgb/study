@@ -2,7 +2,7 @@
 exam: sa-pharm
 examName: SAPC (South Africa)
 subject: legal-reasoning
-subjectName: ('legal-reasoning', 'Business Law')
+subjectName: Business Law
 topic: busine-005
 topicName: Companies Act & Corporate Governance
 weight: 3

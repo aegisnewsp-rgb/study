@@ -2,7 +2,7 @@
 exam: fmge
 examName: FMGE
 subject: biochemistry
-subjectName: None
+subjectName: Biochemistry
 topic: bioche-005
 topicName: Enzymology
 weight: 3

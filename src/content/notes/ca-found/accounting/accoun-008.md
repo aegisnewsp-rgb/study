@@ -2,7 +2,7 @@
 exam: ca-found
 examName: CA Foundation
 subject: accounting
-subjectName: None
+subjectName: Principles of Accounting
 topic: accoun-008
 topicName: Issue of Shares
 weight: 3

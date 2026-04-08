@@ -2,7 +2,7 @@
 exam: neet-pg
 examName: NEET PG
 subject: biochemistry
-subjectName: None
+subjectName: Biochemistry
 topic: bioche-004
 topicName: Lipid Metabolism
 weight: 3

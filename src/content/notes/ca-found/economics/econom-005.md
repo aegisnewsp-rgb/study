@@ -2,7 +2,7 @@
 exam: ca-found
 examName: CA Foundation
 subject: quant
-subjectName: None
+subjectName: Quantitative Aptitude
 topic: econom-005
 topicName: Theory of Production
 weight: 3

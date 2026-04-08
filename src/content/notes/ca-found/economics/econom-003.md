@@ -2,7 +2,7 @@
 exam: ca-found
 examName: CA Foundation
 subject: quant
-subjectName: None
+subjectName: Quantitative Aptitude
 topic: econom-003
 topicName: Elasticity
 weight: 3

@@ -2,7 +2,7 @@
 exam: fmge
 examName: FMGE
 subject: biochemistry
-subjectName: None
+subjectName: Biochemistry
 topic: bioche-002
 topicName: Carbohydrate Metabolism
 weight: 3

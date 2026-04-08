@@ -2,7 +2,7 @@
 exam: wassce
 examName: WASSCE (Ghana)
 subject: accounting
-subjectName: None
+subjectName: Financial Accounting
 topic: accoun-007
 topicName: Company Accounts
 weight: 3

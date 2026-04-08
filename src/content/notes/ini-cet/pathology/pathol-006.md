@@ -2,7 +2,7 @@
 exam: ini-cet
 examName: INI CET (AIIMS PG)
 subject: botany
-subjectName: None
+subjectName: Botany
 topic: pathol-006
 topicName: Topic 6
 weight: 3

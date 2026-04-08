@@ -2,7 +2,7 @@
 exam: ican
 examName: ICAN (Nigeria)
 subject: accounting
-subjectName: None
+subjectName: Financial Accounting
 topic: accoun-015
 topicName: Funds Flow Statement
 weight: 3

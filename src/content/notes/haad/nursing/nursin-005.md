@@ -2,7 +2,7 @@
 exam: haad
 examName: HAAD (UAE)
 subject: botany
-subjectName: None
+subjectName: Botany
 topic: nursin-005
 topicName: Topic 5
 weight: 3

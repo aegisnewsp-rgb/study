@@ -2,7 +2,7 @@
 exam: tnpsc
 examName: TNPSC Group 1
 subject: gs1
-subjectName: None
+subjectName: General Studies
 topic: histor-006
 topicName: Topic 6
 weight: 3

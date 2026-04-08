@@ -2,7 +2,7 @@
 exam: sa-pharm
 examName: SAPC (South Africa)
 subject: legal-reasoning
-subjectName: ('legal-reasoning', 'Business Law')
+subjectName: Business Law
 topic: busine-006
 topicName: Consumer Protection Act & Patient Rights
 weight: 3

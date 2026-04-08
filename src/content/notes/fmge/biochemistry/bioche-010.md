@@ -2,7 +2,7 @@
 exam: fmge
 examName: FMGE
 subject: biochemistry
-subjectName: None
+subjectName: Biochemistry
 topic: bioche-010
 topicName: Nucleic Acid Structure
 weight: 3

@@ -2,7 +2,7 @@
 exam: cma
 examName: CMA Foundation
 subject: quant
-subjectName: None
+subjectName: Quantitative Aptitude
 topic: econom-002
 topicName: Demand and Supply
 weight: 3

@@ -2,7 +2,7 @@
 exam: ras
 examName: RPSC RAS
 subject: gs1
-subjectName: None
+subjectName: General Studies
 topic: histor-010
 topicName: Topic 10
 weight: 3

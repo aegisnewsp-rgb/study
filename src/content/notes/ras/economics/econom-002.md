@@ -2,7 +2,7 @@
 exam: ras
 examName: RPSC RAS
 subject: quant
-subjectName: None
+subjectName: Quantitative Aptitude
 topic: econom-002
 topicName: Demand and Supply
 weight: 3

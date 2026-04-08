@@ -2,7 +2,7 @@
 exam: ppsc
 examName: PPSC (Pakistan)
 subject: gs2
-subjectName: None
+subjectName: General Studies
 topic: pakist-005
 topicName: Topic 5
 weight: 3

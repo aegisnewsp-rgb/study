@@ -2,7 +2,7 @@
 exam: fmge
 examName: FMGE
 subject: botany
-subjectName: None
+subjectName: Botany
 topic: microb-004
 topicName: Topic 4
 weight: 3

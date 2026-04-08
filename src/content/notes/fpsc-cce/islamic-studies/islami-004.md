@@ -2,7 +2,7 @@
 exam: fpsc-cce
 examName: FPSC CSS (Pakistan)
 subject: gs2
-subjectName: None
+subjectName: General Studies
 topic: islami-004
 topicName: Topic 4
 weight: 3

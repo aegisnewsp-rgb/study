@@ -2,7 +2,7 @@
 exam: cma
 examName: CMA Foundation
 subject: accounting
-subjectName: None
+subjectName: Cost Accounting
 topic: accoun-002
 topicName: Journal Entries
 weight: 3

@@ -2,7 +2,7 @@
 exam: qimiyah
 examName: Qimiyah Exam (Saudi)
 subject: gs2
-subjectName: None
+subjectName: General Studies
 topic: islami-003
 topicName: Topic 3
 weight: 3

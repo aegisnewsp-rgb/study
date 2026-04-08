@@ -2,7 +2,7 @@
 exam: fmge
 examName: FMGE
 subject: botany
-subjectName: None
+subjectName: Botany
 topic: pharma-008
 topicName: Topic 8
 weight: 3

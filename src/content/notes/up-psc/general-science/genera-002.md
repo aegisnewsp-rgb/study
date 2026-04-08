@@ -2,7 +2,7 @@
 exam: up-psc
 examName: UPPSC PCS
 subject: awareness
-subjectName: None
+subjectName: General Awareness
 topic: genera-002
 topicName: Topic 2
 weight: 3

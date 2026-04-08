@@ -2,7 +2,7 @@
 exam: ca-found
 examName: CA Foundation
 subject: accounting
-subjectName: None
+subjectName: Principles of Accounting
 topic: accoun-013
 topicName: Budgetary Control
 weight: 3

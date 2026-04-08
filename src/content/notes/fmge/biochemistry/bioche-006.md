@@ -2,7 +2,7 @@
 exam: fmge
 examName: FMGE
 subject: biochemistry
-subjectName: None
+subjectName: Biochemistry
 topic: bioche-006
 topicName: Glycolysis and Gluconeogenesis
 weight: 3

@@ -2,7 +2,7 @@
 exam: ca-found
 examName: CA Foundation
 subject: accounting
-subjectName: None
+subjectName: Principles of Accounting
 topic: accoun-010
 topicName: Cost Accounting Basics
 weight: 3

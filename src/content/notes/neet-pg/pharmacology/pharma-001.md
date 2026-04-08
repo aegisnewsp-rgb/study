@@ -2,7 +2,7 @@
 exam: neet-pg
 examName: NEET PG
 subject: botany
-subjectName: None
+subjectName: Botany
 topic: pharma-001
 topicName: Topic 1
 weight: 3

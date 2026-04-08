@@ -2,7 +2,7 @@
 exam: ctet
 examName: CTET
 subject: gs1
-subjectName: None
+subjectName: General Studies
 topic: child--008
 topicName: Topic 8
 weight: 3

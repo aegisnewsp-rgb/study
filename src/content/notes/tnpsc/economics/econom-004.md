@@ -2,7 +2,7 @@
 exam: tnpsc
 examName: TNPSC Group 1
 subject: quant
-subjectName: None
+subjectName: Quantitative Aptitude
 topic: econom-004
 topicName: Consumer Behaviour
 weight: 3

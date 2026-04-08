@@ -2,7 +2,7 @@
 exam: kpsc
 examName: KPSC KAS
 subject: gs1
-subjectName: None
+subjectName: General Studies
 topic: histor-003
 topicName: Topic 3
 weight: 3

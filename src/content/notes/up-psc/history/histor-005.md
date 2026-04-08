@@ -2,7 +2,7 @@
 exam: up-psc
 examName: UPPSC PCS
 subject: gs1
-subjectName: None
+subjectName: General Studies
 topic: histor-005
 topicName: Topic 5
 weight: 3

@@ -2,7 +2,7 @@
 exam: wassce
 examName: WASSCE (Ghana)
 subject: quant
-subjectName: None
+subjectName: Quantitative Aptitude
 topic: econom-010
 topicName: Money and Banking
 weight: 3

@@ -2,7 +2,7 @@
 exam: tnpsc
 examName: TNPSC Group 1
 subject: gs1
-subjectName: None
+subjectName: General Studies
 topic: histor-004
 topicName: Topic 4
 weight: 3

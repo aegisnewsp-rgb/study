@@ -2,7 +2,7 @@
 exam: fpsc-cce
 examName: FPSC CSS (Pakistan)
 subject: awareness
-subjectName: None
+subjectName: General Awareness
 topic: genera-004
 topicName: Topic 4
 weight: 3

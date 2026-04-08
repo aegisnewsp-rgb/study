@@ -2,7 +2,7 @@
 exam: up-psc
 examName: UPPSC PCS
 subject: quant
-subjectName: None
+subjectName: Quantitative Aptitude
 topic: econom-006
 topicName: Cost Theory
 weight: 3

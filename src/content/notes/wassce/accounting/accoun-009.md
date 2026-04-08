@@ -2,7 +2,7 @@
 exam: wassce
 examName: WASSCE (Ghana)
 subject: accounting
-subjectName: None
+subjectName: Financial Accounting
 topic: accoun-009
 topicName: Debentures
 weight: 3

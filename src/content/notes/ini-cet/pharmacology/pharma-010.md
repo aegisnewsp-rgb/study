@@ -2,7 +2,7 @@
 exam: ini-cet
 examName: INI CET (AIIMS PG)
 subject: botany
-subjectName: None
+subjectName: Botany
 topic: pharma-010
 topicName: Topic 10
 weight: 3

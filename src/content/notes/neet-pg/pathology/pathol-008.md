@@ -2,7 +2,7 @@
 exam: neet-pg
 examName: NEET PG
 subject: botany
-subjectName: None
+subjectName: Botany
 topic: pathol-008
 topicName: Topic 8
 weight: 3

@@ -2,7 +2,7 @@
 exam: cma
 examName: CMA Foundation
 subject: quant
-subjectName: None
+subjectName: Quantitative Aptitude
 topic: econom-009
 topicName: National Income
 weight: 3

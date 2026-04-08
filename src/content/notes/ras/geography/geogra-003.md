@@ -2,7 +2,7 @@
 exam: ras
 examName: RPSC RAS
 subject: gs1
-subjectName: None
+subjectName: General Studies
 topic: geogra-003
 topicName: Topic 3
 weight: 3

@@ -2,7 +2,7 @@
 exam: kpkpse
 examName: KPK PMS
 subject: gs2
-subjectName: None
+subjectName: General Studies
 topic: pakist-002
 topicName: Topic 2
 weight: 3

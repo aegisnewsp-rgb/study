@@ -2,7 +2,7 @@
 exam: bpsc
 examName: BPSC
 subject: gs1
-subjectName: None
+subjectName: General Studies
 topic: histor-002
 topicName: Topic 2
 weight: 3

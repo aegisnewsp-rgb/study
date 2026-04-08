@@ -2,7 +2,7 @@
 exam: up-psc
 examName: UPPSC PCS
 subject: gs1
-subjectName: None
+subjectName: General Studies
 topic: histor-009
 topicName: Topic 9
 weight: 3

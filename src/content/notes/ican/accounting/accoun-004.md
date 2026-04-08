@@ -2,7 +2,7 @@
 exam: ican
 examName: ICAN (Nigeria)
 subject: accounting
-subjectName: None
+subjectName: Financial Accounting
 topic: accoun-004
 topicName: Trial Balance
 weight: 3

@@ -2,7 +2,7 @@
 exam: ini-cet
 examName: INI CET (AIIMS PG)
 subject: biochemistry
-subjectName: None
+subjectName: Biochemistry
 topic: bioche-008
 topicName: Electron Transport Chain
 weight: 3

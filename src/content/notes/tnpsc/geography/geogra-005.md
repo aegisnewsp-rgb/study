@@ -2,7 +2,7 @@
 exam: tnpsc
 examName: TNPSC Group 1
 subject: gs1
-subjectName: None
+subjectName: General Studies
 topic: geogra-005
 topicName: Topic 5
 weight: 3

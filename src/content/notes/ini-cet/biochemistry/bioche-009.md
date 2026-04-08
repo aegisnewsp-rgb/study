@@ -2,7 +2,7 @@
 exam: ini-cet
 examName: INI CET (AIIMS PG)
 subject: biochemistry
-subjectName: None
+subjectName: Biochemistry
 topic: bioche-009
 topicName: Amino Acid Metabolism
 weight: 3

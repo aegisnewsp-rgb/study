@@ -2,7 +2,7 @@
 exam: bpsc
 examName: BPSC
 subject: gs1
-subjectName: None
+subjectName: General Studies
 topic: geogra-005
 topicName: Topic 5
 weight: 3

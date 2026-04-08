@@ -2,7 +2,7 @@
 exam: ican
 examName: ICAN (Nigeria)
 subject: legal-reasoning
-subjectName: None
+subjectName: Mercantile Law
 topic: busine-003
 topicName: Topic 3
 weight: 3

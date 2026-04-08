@@ -152,3 +152,43 @@
 - Site HTTP 200 ✅
 - News: 10 items ✅ (JEE Mains April 8 percentile marks story is today's top item)
 - No changes needed — all high-value improvements exhausted; blocked on user input for GSC/Bing/AdSense
+
+---
+
+## Research Findings — 2026-04-08 00:46 UTC
+
+### 🔴 Critical (fix immediately)
+- **Deploy service DOWN** — port 9000 returning 404, same `Type=oneshot + Restart=no` systemd issue from Cycle 106. Site is live (CDN serves stale content) but workspace changes can't reach production. **Needs user SSH fix** (same commands as Cycle 106):
+  ```bash
+  sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service
+  sudo sed -i 's/Restart=no/Restart=always/' /etc/systemd/system/studyroadmap-deploy.service
+  sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
+  ```
+
+### 🟡 Important (fix this cycle)
+- **Sitemap: 2 broken exam pages still indexed** — live sitemap at `sitemap-0.xml` contains:
+  - `/exams/uAeu_cat/` — corrupt filename/examId from Cycle 80, page returns 404
+  - `/exams/%E5%B8%96ast/` — Chinese character corrupt filename, page returns 404
+  - These are orphaned URLs that should NOT be in sitemap
+- **Sitemap fix COMMITTED** (176e7e1): `scripts/fix-sitemap.cjs` now removes these 2 broken URLs AND adds `<lastmod>` to all entries
+- Build: ✅ 3355 pages, sitemap script runs cleanly
+- **BLOCKED from deploy** — service is down
+
+### 🟢 Quick Wins
+- Sitemap now has `<lastmod>` dates on all entries (SEO freshness signal)
+- Build healthy: 3355 pages ✅
+
+### 📊 Traffic Opportunities
+- All major SEO done. Remaining opportunities need user: GSC code, AdSense code, Bing code, directory submissions
+- Sitemap fix (when deployed) removes 2 bad URLs that were diluting crawl budget
+
+### ✅ Completed This Run
+- Verified deploy service down (same recurring issue — SSH fix needed)
+- Verified sitemap contains 2 broken URLs (`/exams/uAeu_cat/`, `/exams/%E5%B8%96ast/`)
+- Ran `npm run build` — sitemap fix removes broken URLs, adds lastmod dates
+- Committed: 176e7e1 "Sitemap: remove 2 broken exam URLs, add lastmod dates"
+- Commit 3cbdd5a also in recent history: Fixes corrupted `uAeu_cat` examId → `uaeu-cat` in data files + sitemap
+- Site pages all 200: homepage ✅, exams ✅, notes ✅
+- news.json: 10 items ✅ (India: 4, Pakistan: 4, Nigeria: 2)
+
+**Deploy blocked — user SSH fix required for any future changes to reach production.**

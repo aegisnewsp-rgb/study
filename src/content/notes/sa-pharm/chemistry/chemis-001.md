@@ -6,6 +6,8 @@ subjectName: Organic Chemistry
 topic: chemis-001
 topicName: IUPAC Nomenclature of Organic Compounds
 weight: 3
+country: sa
+generated: "2026-03-25T17:00:00"
 ---
 
 ## IUPAC Nomenclature — Naming Organic Compounds Systematically

@@ -6,6 +6,8 @@ subjectName: Organic Chemistry
 topic: chemis-004
 topicName: Electrophilic Addition Reactions to Alkenes
 weight: 3
+country: sa
+generated: "2026-03-25T17:00:00"
 ---
 
 ## Electrophilic Addition Reactions to Alkenes

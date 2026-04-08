@@ -6,6 +6,8 @@ subjectName: Organic Chemistry
 topic: chemis-003
 topicName: Reaction Mechanisms — Nucleophilic Substitution and Elimination
 weight: 3
+country: sa
+generated: "2026-03-25T17:00:00"
 ---
 
 ## Reaction Mechanisms — Nucleophilic Substitution and Elimination

@@ -16,7 +16,7 @@ DEPLOY_TOKEN="${DEPLOY_TOKEN:-your-secret-token-here}"
 BUILD_NO_CACHE="${1:-}"
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-APP_DIR="${APP_DIR:-/opt/studyroadmap-astro}"
+APP_DIR="${APP_DIR:-/srv/studyroadmap}"
 CONTAINER_NAME="studyroadmap"
 PORT=9000
 DEPLOY_BRANCH="${DEPLOY_BRANCH:-main}"

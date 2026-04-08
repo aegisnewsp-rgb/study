@@ -6,6 +6,8 @@ subjectName: Organic Chemistry
 topic: chemis-002
 topicName: Stereochemistry and Isomerism
 weight: 3
+country: sa
+generated: "2026-03-25T17:00:00"
 ---
 
 ## Stereochemistry and Isomerism — Spatial Arrangement of Atoms

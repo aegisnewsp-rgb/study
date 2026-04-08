@@ -6,6 +6,8 @@ subjectName: Organic Chemistry
 topic: chemis-005
 topicName: Carbonyl Chemistry — Nucleophilic Addition Reactions
 weight: 3
+country: sa
+generated: "2026-03-25T17:00:00"
 ---
 
 ## Carbonyl Chemistry — Nucleophilic Addition Reactions

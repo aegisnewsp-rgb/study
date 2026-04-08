@@ -711,3 +711,43 @@ COMMIT: 8ad959d
 - All high-value SEO improvements done
 - All remaining backlog items are user-gated or deferred
 - Build running in background (session grand-rook)
+
+---
+
+## Research Findings — 2026-04-08 12:14 UTC | PASSED ✅
+
+### Site Health — 3-key-page FAST check
+- **Homepage** ✅: 200
+- **/roadmap/** ✅: 200 (301 → /roadmap/ trailing slash)
+- **/exams/** ✅: 200 (301 → /exams/ trailing slash)
+- **Sitemap** ✅: 1,369 OG images + exam pages
+
+### 🔴 Critical: /study-plan-generator 404 on live site
+- `src/pages/study-plan-generator.astro` exists in workspace (308 lines, rich FAQPage+HowTo schema)
+- Navbar already links it (✅ from prior cycle)
+- **Workspace dist/ generates it correctly** (`dist/study-plan-generator/index.html` present)
+- **Live site: 404** — VPS container serving stale build that predates this page
+- **Root cause:** Same recurring deploy service crash (Type=oneshot) — backend endpoint http://172.17.0.1:9000/ returns 404 (Astro dead inside container)
+- **Fix:** User SSH needed to restart deploy service (see backlog)
+
+### 🟡 Important: Deploy service down (recurring)
+- Deploy endpoint: HTTP 404 (backend down, not listening)
+- Site still live from last successful deploy
+- Stuck commits cannot reach production
+
+### 🟢 Quick Wins
+- All high-value SEO already implemented per backlog
+- No user-input-free items remaining
+
+### News
+- ✅ 10 items saved (India: 4, Nigeria: 2) — refreshed and committed
+
+### ✅ Completed This Run
+- News refresh ✅
+- Git commit: 58d1ee3 "Growth cycle fix" ✅ (news.json + 2 pharma notes + research-log)
+
+### Blockers (need user)
+- Deploy service: Type=oneshot → Type=simple + Restart=always (3 SSH commands)
+- GSC verification code (replace placeholder in Layout.astro)
+- Formspree ID (replace in feedback.astro)
+- AdSense integration

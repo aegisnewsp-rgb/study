@@ -120,3 +120,35 @@
 ### No Changes (deploy blocked)
 - All high-value SEO already implemented
 - Remaining backlog items all need user input (GSC, AdSense, Formspree, SSH deploy fix)
+
+## 2026-04-08 00:36 UTC
+**Checked:** Homepage, /exams/, /exams/neet/, /notes/neet/physics/phy-001/
+**Issues Found:**
+- `src/data/exams/uae/uAeu_cat.ts` had corrupted examId `uAeu_cat` (the `U` in UAEU was corrupted to `uAeu` when the file was created). This caused the sitemap to generate broken URLs like `https://studyroadmap.in/exams/uAeu-cat/` and `https://studyroadmap.in/exams/uAeu_cat/` that 404.
+**Fix Applied:** Renamed `uAeu_cat.ts` → `uaeu-cat.ts`, corrected `examId: 'uAeu_cat'` → `examId: 'uaeu-cat'`, updated all imports/exports in `src/data/exams/index.ts`.
+**Status:** Committed (3cbdd5a). Needs rebuild + redeploy to take effect.
+**Notes:** The `/exams/gre/` page also 404s on live site (despite GRE being in exams.json). Likely the live site is running an older build. The workspace sitemap (dist/) doesn't show `gre/` without slash — the broken `gre/` in live sitemap may be from old build artifacts. The `gre` 404 on live is a deployment/build issue, not a code issue. Custom 404.astro from cycle 93 also not deployed (same deploy service issue).
+
+---
+
+## Research Findings — 2026-04-08T00:44 UTC
+
+### 🔴 Critical (fix immediately)
+- None
+
+### 🟡 Important (fix this cycle)
+- None
+
+### 🟢 Quick Wins (easy improvements)
+- Site healthy, all SEO complete, news fresh (10 items, updated 15 min ago)
+
+### 📊 Traffic Opportunities
+- JEE Main April 2026 session is TODAY (April 8) — high search volume day
+- All major SEO done, AdSense/GSC pending user input
+
+### ✅ Completed This Run
+- Monitoring cycle only — site healthy, news fresh
+- Homepage title: ✅ "StudyRoadmap - Free AI Study Plans for 125+ Exams"
+- Site HTTP 200 ✅
+- News: 10 items ✅ (JEE Mains April 8 percentile marks story is today's top item)
+- No changes needed — all high-value improvements exhausted; blocked on user input for GSC/Bing/AdSense

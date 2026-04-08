@@ -5796,3 +5796,29 @@ Without this fix, every deploy succeeds but the backend dies immediately, servin
 - Sitemap: ✅ 126 exam pages with lastmod, 2 broken entries cleaned
 - Build: ✅ 3215+ pages, committed
 - No code changes needed — monitoring cycle only
+
+## Research Findings — 2026-04-08 00:15 UTC | PASSED ✅ (monitoring)
+
+### Site Health — 3-key-page FAST check
+- Homepage ✅: 200 OK, full meta (FAQPage, Org, WebSite, Person, HowTo)
+- /exams/ ✅: 200 OK, meta desc "124 exams across 19 countries"
+- /exams/neet/ ✅: 200 OK, NEET-specific meta desc (NTA, MBBS, NCERT)
+- /notes/ ✅: 200 OK
+- /notes/neet/physics/ ✅: 200 OK
+- News ✅: 10 items (India:4, Pakistan:4, Nigeria:2) — just refreshed
+- Deploy service: port 9000 DOWN (Type=oneshot crash — recurring, user SSH fix documented in backlog)
+
+### 🟢 Quick Wins
+- All meta descriptions present and exam-specific ✅ (no duplicates, no thin meta)
+- Sitemap: 3,355 pages confirmed live ✅
+- Footer says "Content reviewed April 2026" ✅
+- llm.txt date: 2026-04-07 (could update to 2026-04-08 — trivial)
+
+### ✅ Completed This Run
+- News refreshed: 10-item window (India:4, Pakistan:4, Nigeria:2)
+- Build: clean (no code changes needed — site fully optimized)
+- Commit: 3605726 ✅
+- Deploy: BLOCKED — deploy service dead (user SSH fix needed: systemd Type=simple + Restart=always)
+
+### Observation
+- Site is in excellent health. All high-value SEO complete. Deploy service recurring crash is the only operational blocker — user needs 3 SSH commands documented in improvement-backlog.md item 6. Remaining backlog items (GSC code, AdSense account, Formspree ID) all need user input.

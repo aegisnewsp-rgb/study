@@ -2,7 +2,7 @@
 # Learn more: https://llmstxt.org
 # Standard: https://llmstxt.org/docs/format/
 
-## Date: 2026-04-07
+## Date: 2026-04-08
 
 ## Site Overview
 StudyRoadmap is a free, no-signup-required AI study planner for students in India, Pakistan, and Nigeria preparing for competitive exams.

@@ -2,45 +2,123 @@
 exam: sa-pharm
 examName: SAPC (South Africa)
 subject: legal-reasoning
-subjectName: None
+subjectName: ('legal-reasoning', 'Business Law')
 topic: busine-005
-topicName: Topic 5
+topicName: Companies Act & Corporate Governance
 weight: 3
 country: sa
 generated: "2026-03-25T17:00:00"
 ---
 
-# Topic 5
+# Companies Act & Corporate Governance
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Topic 5** — Key Facts for SAPC (South Africa)
-Core concept: Topic 5 is an important topic in None for SAPC (South Africa)
-High-yield point: Understand the fundamental principles and their applications
-⚡ Exam tip: Questions from Topic 5 appear regularly in SAPC (South Africa)
+**Companies Act & Corporate Governance** — Key Facts for SAPC (South Africa)
+Core concept: The Companies Act 71 of 2008 (as amended) governs the formation, governance, rights of shareholders, obligations of directors, and dissolution of companies in South Africa. A pharmacy operated as a company must comply with the Companies Act, its Memorandum of Incorporation, and the SAPC's Rules Relating to Pharmacy. Directors of pharmacy companies are fiduciaries who must act in the best interests of the company and must avoid conflicts between their professional duties and their commercial roles.
+High-yield point: A pharmacy company that is unable to pay its debts and continues trading while insolvent may be placed in liquidation. Directors who were aware of the insolvency and allowed the company to trade may be held personally liable for the company's debts. The responsible pharmacist must also ensure that the company's financial difficulties do not compromise patient safety or the continuity of pharmaceutical care.
+⚡ Exam tip: In examination questions involving a pharmacy company in financial difficulty, always check whether the directors were aware of the insolvency, whether they continued to incur credit without disclosing the company's financial position to creditors, and whether the SAPC has been notified of any changes that may affect the pharmacy's ability to operate safely.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Topic 5** — SAPC (South Africa) Study Guide
-Overview: Topic 5 is a key None topic for SAPC (South Africa)
-Core principles: Build a solid understanding of fundamentals
-Key points: Definitions, applications, and typical exam question patterns
-Study strategy: Theory first, then practice problems
+**Companies Act & Corporate Governance** — SAPC (South Africa) Study Guide
+Overview: The Companies Act 71 of 2008 (the "Companies Act") is the primary legislation governing companies in South Africa. It replaced the Companies Act 61 of 1973 and introduced significant reforms including greater shareholder rights, enhanced director accountability, a more flexible regime for private companies, and improved corporate governance requirements. For pharmacy students, understanding the Companies Act is essential because many pharmacies — particularly chain pharmacies, hospital pharmacy services, and larger independent pharmacies — operate as companies, and pharmacists often serve as directors, shareholders, or both. This topic examines the types of companies used in pharmacy practice, the rules governing their governance, the duties and liability of directors, shareholder rights, and the consequences of company insolvency.
+Core principles: A company is a juristic person (separate legal entity) created by registration under the Companies Act. It has its own rights and obligations, can own property, enter contracts, and sue or be sued in its own name. Shareholders own the company but are not personally liable for its debts beyond any unpaid share capital. Directors manage the company and owe fiduciary duties to it. The relationship between the company, its directors, and its shareholders is governed by the Companies Act, the company's Memorandum of Incorporation (MOI), and any Shareholders' Agreement. The responsible pharmacist within a pharmacy company is accountable to both the SAPC and the company, and these accountabilities may sometimes be in tension.
+Key points:
+- **Types of companies used in pharmacy**: The most common type is a private company (Proprietary Limited or Pty Ltd), which is a company with limited liability whose shares are not publicly traded. Public companies (Limited or Ltd) may be used for large pharmacy chains or hospital groups seeking to raise capital from public investors, though they face more stringent governance requirements. Non-profit companies (NPC) may be used for certain public sector pharmacy services or pharmacy services operating as social enterprises. State-owned companies (SOC) are relevant to hospital pharmacies owned by provincial health departments. A personal liability company (where directors are personally liable for company debts) is rare in pharmacy and generally inadvisable.
+- **Registration and legal existence**: A company comes into existence upon registration by the Companies and Intellectual Property Commission (CIPC). It receives a registration number and a name. A company has perpetual succession — its existence is not affected by the death, insolvency, or withdrawal of a shareholder or director. This continuity of existence is a key advantage over a partnership, which dissolves upon the withdrawal of a partner.
+- **The Memorandum of Incorporation**: The MOI is the company's constitution. It sets out the company's name, the number and type of shares it may issue, the rights attached to each class of shares, the governance structure (number of directors, appointment and removal of directors), any restrictions on the company's activities, and any reserved matters requiring shareholder approval. A pharmacy company's MOI must be consistent with the Pharmacy Act and the SAPC's ownership requirements — it should include provisions preventing the transfer of shares to non-pharmacists and ensuring the responsible pharmacist maintains appropriate professional autonomy.
+- **Directors' duties**: Directors owe the company fiduciary duties (acting in good faith, in the best interests of the company, avoiding conflicts of interest, not misusing the company's assets or information) and a duty of care and skill (acting with the care and skill of a reasonably diligent person in their position). Breach of these duties may result in civil liability to the company or to third parties, and may in some circumstances constitute a criminal offence. A director who is also a pharmacist must additionally comply with the professional standards set by the SAPC, and a breach of professional duty before the SAPC may run concurrently with a breach of directors' duties.
+- **Shareholders' rights**: Shareholders have the right to receive dividends when declared, the right to vote at general meetings, the right to inspect company records, the right to seek relief from courts where the company's affairs are conducted in an oppressive or prejudicial manner, and the right to participate in the distribution of assets upon winding-up. A minority shareholder in a pharmacy company is protected against majority shareholder oppression under Section 163 of the Companies Act.
+- **Company insolvency and liquidation**: When a company cannot pay its debts as they become due, it may be placed in business rescue (if there is a reasonable prospect of rehabilitation) or may be liquidated. Liquidation is the winding-up of the company and the distribution of its assets to creditors. Directors who were aware of insolvency and allowed the company to continue trading, incurring further debts, may be held personally liable for those subsequent debts under Section 22 of the Companies Act. In pharmacy, insolvency may affect the continuity of pharmaceutical care to patients and must be managed with this in mind.
+Study strategy: Focus on directors' duties and the tension between professional obligations and commercial management. Practise identifying whether a particular scenario triggers liability under the Companies Act, under the Pharmacy Act, or both. Understand the distinction between a directors' duty to the company and the professional duty of the responsible pharmacist to patients and the SAPC.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-**Topic 5** — Comprehensive SAPC (South Africa) Notes
-Full coverage: Topic 5 in None for SAPC (South Africa) preparation
-Detailed theory and concept explanations
-Problem-solving strategies and common mistakes to avoid
-Practice: Attempt previous year questions and standard textbook exercises
+**Companies Act & Corporate Governance** — Comprehensive SAPC (South Africa) Notes
+Full coverage: This topic provides comprehensive coverage of the Companies Act 71 of 2008 as it applies to pharmacy businesses, including the types of companies used in pharmacy, the governance framework, directors' duties and liability, shareholder rights, the appointment and role of the company secretary, annual financial statements and audit requirements, business rescue, and liquidation. The relationship between the Companies Act and the pharmacy-specific regulatory framework (particularly the Pharmacy Act and SAPC Rules) is explored in depth.
+
+**1. The Nature and Types of Companies**
+
+A company is a voluntary association of persons incorporated under the Companies Act with a view to pursuing a lawful commercial or other purpose. The Companies Act creates several types of companies, each with different characteristics, governance requirements, and regulatory obligations.
+
+A **private company** (Proprietary Limited or Pty Ltd) is the most common structure for pharmacy businesses. A private company must have at least one shareholder and one director. It may have any number of shareholders up to the maximum prescribed by the Companies Act. Its shares are not publicly traded. A private company must include "Proprietary Limited" or "Pty Ltd" in its name. A private company has the benefit of limited liability — shareholders are not personally liable for company debts beyond their share capital contribution, which is typically fully paid up at the time of registration. A private company is required to have its financial statements independently reviewed if it meets certain thresholds (total assets below a threshold, annual turnover below a threshold, fewer than a prescribed number of employees), and audited if it exceeds those thresholds. For pharmacy companies that are not large enough to require an audit, the review option provides a lower-cost compliance option.
+
+A **public company** (Limited or Ltd) is a company whose shares may be publicly traded and which may invite the public to subscribe for its shares. Public companies face more stringent governance requirements, including mandatory audit, a more extensive set of disclosure obligations, and the requirement to appoint an audit committee. Public companies are used for large pharmacy chains or hospital groups seeking to raise capital publicly. The governance burden of a public company is significant and makes it unsuitable for most individual pharmacy businesses.
+
+A **non-profit company** (NPC) is a company incorporated to pursue a public benefit objective rather than private financial gain. NPCs are commonly used for pharmacy services operating in the public interest, including certain NGO-operated pharmacy services, pharmacy services at public educational institutions, and certain public sector pharmacy operations. NPCs must have at least three directors, and any income generated by the NPC must be applied to its stated public benefit purpose rather than distributed to members or shareholders.
+
+**2. Incorporation and the Memorandum of Incorporation**
+
+A company comes into legal existence upon registration with CIPC. The registration process involves submitting the prescribed registration forms, paying the registration fee, and lodging the company's Memorandum of Incorporation. The MOI is a document that governs the company's internal affairs. It may be a standard MOI (as provided by the Companies Act as a default) or a tailored MOI drafted to suit the specific needs of the company.
+
+The MOI must contain certain mandatory provisions required by the Companies Act, including: the company's name; the company's registration number; the company's financial year end; the number of shares the company is authorised to issue; and any special conditions restricting the company's activities. The MOI may also contain additional provisions (called " alterable provisions" under the Companies Act) that modify or supplement the default rules of the Companies Act, and provisions that are entirely private to the company (called " unalterable provisions" only where specifically permitted by the Companies Act).
+
+For a pharmacy company, the MOI should specifically address: the restriction on share transfers to non-pharmacists (to ensure the pharmacy's SAPC registration is not compromised); the appointment and removal of the responsible pharmacist; the procedures for convening and voting at shareholder meetings; and any reserved matters requiring a special resolution of shareholders (such as the sale of the pharmacy business, the issuance of new shares, or the dissolution of the company). These provisions protect both pharmacist shareholders and patients by ensuring that control of the pharmacy remains with qualified health professionals.
+
+**3. Corporate Governance and the Role of Directors**
+
+Corporate governance refers to the system of rules, practices, and processes by which a company is directed and controlled. In South Africa, corporate governance standards are primarily found in the Companies Act, the MOI, the King IV Report on Corporate Governance (which applies to listed companies and is increasingly applied as a best practice standard for all companies), and industry-specific regulations.
+
+Directors are the persons appointed to manage the company. In a private pharmacy company, directors are often also shareholders and pharmacists. The Companies Act distinguishes between: executive directors (who are involved in the day-to-day management of the pharmacy); and non-executive directors (who provide oversight and strategic guidance without being involved in day-to-day management). A private company is not required to have non-executive directors, but good governance practice suggests at least some independent oversight.
+
+The Companies Act requires that directors be appointed by the shareholders at a general meeting. The appointment must be accepted in writing. A director must be a natural person (not a company or other juristic person) and must not be disqualified from serving as a director under the Companies Act (for example, persons who have been declared prodigals, who are unrehabilitated insolvents, or who have been convicted of certain criminal offences without the option of a fine).
+
+**4. Directors' Duties in Detail**
+
+Directors owe two principal categories of duties to the company: fiduciary duties and the duty of care and skill.
+
+**Fiduciary duties**: These are duties of loyalty and good faith. The core fiduciary duties include: the duty to act in good faith and in the best interests of the company (Section 76(3)(a) of the Companies Act); the duty to avoid conflicts of interest — a director must not place themselves in a position where their personal interests conflict with the interests of the company (Section 76(3)(b)); the duty not to misuse the company's assets, opportunities, or information for personal gain (Section 76(3)(c)); and the duty to act independently (for executive directors, the duty to exercise independent judgment in decision-making). These fiduciary duties are personal to each director — they cannot be delegated or contracted out of. A director who breaches fiduciary duties may be required to account to the company for any profits made or any losses suffered by the company as a result of the breach. In pharmacy, a director who diverts pharmacy business opportunities to their own separate business enterprise is likely in breach of fiduciary duty.
+
+**Duty of care and skill**: Section 76(3)(c) of the Companies Act requires directors to exercise the care and skill of a reasonably diligent person in both their general knowledge, skill, and experience, and their specific knowledge, skill, and experience as a director. This is an objective standard — a director is judged against what a reasonably diligent person in their position would have known, understood, and done. A director who makes business decisions without adequate information, or who fails to attend board meetings without justification, may be in breach of this duty. For pharmacist directors, courts may consider the professional knowledge and skill of the director as relevant to the standard of care — a pharmacist who serves on a pharmacy company's board is held to the standard of a reasonably competent pharmacist-director, not merely the standard of a lay director.
+
+**Conflicts of interest and the duty to disclose**: A director who has a personal financial interest in a matter before the board must disclose that interest as soon as reasonably possible and must recuse themselves from the decision. Failure to disclose a material conflict of interest is a breach of fiduciary duty and may render the related transaction void or give rise to personal liability. In the pharmacy context, a pharmacist director who has a financial interest in a medical device or nutritional supplement company and who votes to have the pharmacy stock those products must make full disclosure and recuse themselves from the vote.
+
+**5. Shareholders' Rights and Minority Protection**
+
+Shareholders own the company but do not manage it (unless they are also directors). The rights of shareholders include: the right to receive a share certificate (or entry in the share register); the right to receive notice of and attend general meetings; the right to vote at general meetings (one vote per share unless the MOI provides otherwise); the right to declare dividends when declared by the board and approved by shareholders; the right to receive annual financial statements; the right to inspect the company's material documents; and the right to seek relief from a court if the company's affairs are being conducted in a manner that is oppressive or unfairly prejudicial to the shareholder.
+
+Section 163 of the Companies Act provides a specific remedy for minority shareholders — a shareholder may apply to a court for relief where the company's affairs are being conducted in an oppressive or unfairly prejudicial manner, or where an act or omission by the company is or will be prejudicial to the shareholder. This remedy is relevant in pharmacy companies where a minority pharmacist shareholder is excluded from management or where majority shareholders are taking decisions that benefit them at the expense of minority shareholders.
+
+The relationship between shareholders is also governed by any Shareholders' Agreement. A Shareholders' Agreement is a private contract between the shareholders that governs their relationship — it typically addresses share transfers, dividend policies, deadlock resolution, reserved matters requiring unanimous consent, and the procedure for the exit of a shareholder. A Shareholders' Agreement is not filed with CIPC and is therefore private, but it is enforceable between the parties.
+
+**6. Financial Statements, Audit, and Disclosure**
+
+The Companies Act requires every company to prepare annual financial statements. These must include a statement of financial position (balance sheet), a statement of profit and loss and other comprehensive income, a statement of changes in equity, and a cash flow statement, together with notes to the financial statements. The financial statements must fairly present the company's financial position and performance.
+
+The requirement for audit versus independent review depends on the company's size: large companies (meeting two of three size criteria relating to assets, turnover, and number of employees) must have their financial statements audited; medium companies (meeting two of three lower thresholds) must have their financial statements independently reviewed; small companies may have their financial statements independently reviewed or, in some cases, may be exempt from audit or review requirements. Most pharmacy companies are small to medium and fall within the review or small company categories, though pharmacy chains may meet the large company thresholds requiring a full audit.
+
+Annual financial statements must be presented to shareholders at the annual general meeting (AGM) within nine months of the company's financial year end. The appointment of an auditor or reviewer must be approved at the AGM. The audited or reviewed financial statements are public documents — a copies must be submitted to CIPC and are available for public inspection.
+
+**7. Business Rescue and Liquidation**
+
+The Companies Act introduced a modern business rescue framework (Chapter 6) to provide financially distressed companies with an opportunity to reorganise and avoid liquidation. Business rescue applies where a company is unable to pay its debts as they become due, or where there is reasonable prospect of rescuing the company. The business rescue process involves: the appointment of a business rescue practitioner; the development and adoption of a business rescue plan; the implementation of the plan; and the emergence of the company from business rescue if the plan is successful.
+
+During business rescue, the company continues to operate but management of the company is placed in the hands of the business rescue practitioner. The practitioner has broad powers to restructure the company's affairs, including the power to suspend or terminate contracts, raise funding on the company's behalf, and distribute the proceeds of realisation to creditors in accordance with a statutory waterfall. Employees' claims have priority over most other unsecured creditors. Pharmacists whose services are engaged by a company in business rescue may be required to continue providing services under the business rescue plan, but their claims for payment will rank according to the statutory priority.
+
+Liquidation is the formal winding-up of the company where business rescue is not viable or has failed. Liquidation results in the company ceasing to exist. The liquidator realises the company's assets, pays creditors in the statutory order of priority, and distributes any surplus to shareholders. In pharmacy, liquidation of a pharmacy company may have significant consequences for patients, particularly those on chronic medication programmes who rely on the pharmacy for ongoing dispensing services. The SAPC should be notified promptly so that arrangements can be made for the transfer of patients' medication records and dispensing services to another pharmacy.
+
+**8. Interaction Between the Companies Act and the Pharmacy Act**
+
+Pharmacists operating pharmacy companies must navigate two parallel regulatory frameworks: the Companies Act (which governs the company's structure, governance, and financial obligations) and the Pharmacy Act and SAPC Rules (which govern professional standards, ownership restrictions, and the responsible pharmacist's obligations). These frameworks interact in several important ways.
+
+First, the Pharmacy Act's restriction on non-pharmacist ownership means that the shareholder composition of a pharmacy company is a professional compliance matter. If a non-pharmacist acquires shares in a pharmacy company in breach of the MOI's transfer restrictions and the SAPC ownership rules, both the company and the responsible pharmacist may face regulatory consequences. The responsible pharmacist's accountability to the SAPC does not disappear because the director/shareholder structure was imposed by the Companies Act.
+
+Second, the duties of a pharmacist who is both a director and the responsible pharmacist exist on two planes simultaneously: the Companies Act duties to the company, and the professional duties to patients and the SAPC. Where these duties conflict — for example, where the company's board directs the responsible pharmacist to reduce staffing levels in ways that may compromise patient safety — the professional duties must take precedence. A pharmacist who complies with an improper board directive that compromises patient safety will face SAPC disciplinary proceedings even if the board authorised the conduct under the Companies Act.
+
+Third, the insolvency of a pharmacy company raises both Companies Act issues (director liability for wrongful trading, business rescue, liquidation) and pharmacy-specific issues (continuity of patient care, the fate of patient medication records, the transfer of SAPC registration). The responsible pharmacist must proactively engage with both the business rescue practitioner or liquidator and the SAPC to ensure that patient care is maintained to the greatest extent possible.
+
+**9. Problem-Solving Strategies and Common Mistakes**
+
+In examination questions involving the Companies Act and pharmacy companies, adopt a structured approach. First, identify the type of company, its governance structure, and the key documents governing it (Companies Act, MOI, Shareholders' Agreement). Second, identify the role of the person whose conduct is in question (director, shareholder, responsible pharmacist, or all three). Third, analyse the applicable duties and identify any breach — which duty applies, what action constituted the breach, and what consequence follows from that breach? Fourth, consider the interaction between the Companies Act and the Pharmacy Act, and assess whether the scenario triggers liability in both frameworks. Fifth, consider the financial health of the company — is the company solvent? Is it trading insolvently? What are the implications for director liability? Common mistakes include: assuming that a director's approval of a transaction at a board meeting is sufficient without considering whether proper disclosure of conflicts was made; conflating director liability with shareholder liability (they are distinct — shareholders are generally not liable for company debts); failing to recognise that the responsible pharmacist's professional obligations may override a board decision made under the Companies Act; and neglecting to consider the patient safety implications of corporate governance failures (particularly in insolvency scenarios).
+Practice: Work through SAPC past examination questions involving pharmacy companies, directors, and shareholders. Focus on scenarios involving conflicts of interest, director liability for insolvent trading, disputes between shareholders, and situations where the professional obligations of the responsible pharmacist conflict with commercial directions from the board.
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

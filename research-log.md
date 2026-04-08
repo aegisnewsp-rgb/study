@@ -44,3 +44,36 @@
 ### Observation
 - Sitemap postbuild script confirmed working: removes broken exam URLs (uAeu_cat, %E5%B8%96ast), adds lastmod, generates 126 exam pages
 - All remaining backlog items need user input (GSC code, AdSense, Formspree, SSH deploy fix)
+
+## Research Findings — 2026-04-08 00:27 UTC | PASSED ✅
+
+### Site Health — 3-key-page FAST check
+- **Homepage** ✅: 200 OK, full meta, FAQPage (15 Qs), HowTo, Organization, WebSite+SearchAction
+- **/roadmap/** ✅: 301 → /roadmap/ (Astro trailing-slash redirect — normal)
+- **/exams/** ✅: 301 → /exams/ (normal)
+- **/notes/** ✅: 200 OK
+- **/study-plan-generator/** ⚠️: 404 on live — page exists in workspace + builds correctly (3355 pages) but never deployed successfully since added
+
+### 🔴 Critical
+- **Deploy service DOWN**: localhost:9000 connection refused; 187.127.134.151:9000 returns "Bad request" (nginx alive, backend dead)
+- **/study-plan-generator/ missing on live**: Built in workspace (3355 pages this cycle) but can't deploy — same recurring Type=oneshot crash
+- **Fix needed (user SSH — documented in backlog item 6)**:
+  ```bash
+  sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service
+  sudo sed -i 's/Restart=no/Restart=always/' /etc/systemd/system/studyroadmap-deploy.service
+  sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy
+  ```
+
+### ✅ Completed This Run
+- Build: 3355 pages ✅ (58s) — includes /study-plan-generator/ which is currently 404 on live
+- Sitemap postbuild: removed 2 broken exam entries (uAeu_cat, %E5%B8%96ast), added lastmod, 126 exam pages
+- Committed: 1e725fc
+- News: 10 items refreshed (India 4, Pakistan 4, Nigeria 2)
+
+### 📊 Traffic Opportunities
+- /study-plan-generator/ is a rich 308-line page with FAQPage+HowTo schema — once deployed, it can capture "AI study plan generator" type queries
+- Deploy fix is the #1 unlock for all pending improvements
+
+### Observation
+- All remaining backlog items (GSC, AdSense, Formspree, deploy fix) need user action
+- Deploy service crash is the blocker — blocks 1 new page + any future improvements from reaching live

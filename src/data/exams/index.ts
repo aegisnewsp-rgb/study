@@ -160,7 +160,7 @@ export { default as must_adm } from './tanzania/must-adm';
 // Uae
 export { default as doh } from './uae/doh';
 export { default as haad } from './uae/haad';
-export { default as uAeu_cat } from './uae/uAeu_cat';
+export { default as uaeu_cat } from './uae/uaeu-cat';
 
 // Uganda
 export { default as law_ent_uga } from './uganda/law-ent-uga';
@@ -290,7 +290,7 @@ import law_ent_tz from './tanzania/law-ent-tz';
 import must_adm from './tanzania/must-adm';
 import doh from './uae/doh';
 import haad from './uae/haad';
-import uAeu_cat from './uae/uAeu_cat';
+import uaeu_cat from './uae/uaeu-cat';
 import law_ent_uga from './uganda/law-ent-uga';
 import makerere_ent from './uganda/makerere-ent';
 import uneb from './uganda/uneb';
@@ -346,7 +346,7 @@ export const ALL_EXAMS = [
   // Tanzania
   acsee, law_ent_tz, must_adm,
   // Uae
-  doh, haad, uAeu_cat,
+  doh, haad, uaeu_cat,
   // Uganda
   law_ent_uga, makerere_ent, uneb,
 ].filter(Boolean);

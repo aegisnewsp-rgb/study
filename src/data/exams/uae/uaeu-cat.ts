@@ -36,7 +36,7 @@ function makeRoadmap(subjects: Subject[], duration: string, totalDays: number, d
 }
 
 const exam: ExamTemplate = {
-  examId: 'uAeu_cat',
+  examId: 'uaeu-cat',
   examName: 'UAE University CAT',
   country: 'uae',
   description: 'United Arab Emirates University (UAEU) College Admission Test — a standardised admissions test for undergraduate admission to UAEU\'s various colleges. UAEU is the UAE\'s flagship national university, located in Al Ain. The test is required for Emirati nationals and UAE residents seeking admission to undergraduate programmes, particularly in the Colleges of Business, Engineering, Health Sciences, and Humanities. UAE nationals are given priority in admission.',

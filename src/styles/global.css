@@ -68,11 +68,19 @@ a:hover { opacity: 0.85; }
   box-shadow: 0 1px 3px rgba(0,0,0,0.25);
 }
 .card-hover {
-  transition: all 0.2s;
+  transition: box-shadow 0.2s, transform 0.2s;
+  will-change: transform;
 }
 .card-hover:hover {
   box-shadow: 0 8px 24px rgba(0,0,0,0.2);
   transform: translateY(-2px);
+}
+
+/* Reduce motion for users who prefer it */
+@media (prefers-reduced-motion: reduce) {
+  .card-hover { transition: none; will-change: auto; }
+  .card-hover:hover { transform: none; }
+  html { scroll-behavior: auto; }
 }
 
 .btn-primary {
@@ -142,12 +150,30 @@ a:hover { opacity: 0.85; }
 }
 
 /* ─── Mobile tap targets (WCAG 2.1 AA — 44×44px minimum) ─────── */
-a, button, input, select, label[for], [role="button"], [role="link"] {
-  min-height: 44px;
-  min-width: 44px;
+/* Applied via padding/sizing in components rather than forcing min dimensions */
+/* This avoids layout distortion in inline links and small UI elements */
+@media (pointer: coarse) {
+  button, select, input[type="submit"], [role="button"] {
+    min-height: 44px;
+  }
 }
-
-/* Allow horizontal-only controls to be narrower */
 input[type="checkbox"], input[type="radio"] {
   min-width: auto;
+}
+
+/* ─── Print styles — clean roadmap output ────────────────────────── */
+@media print {
+  header, footer, nav, .btn-primary, .btn-secondary,
+  #theme-toggle, #mobile-menu-btn, #news-ticker,
+  [aria-label="Breadcrumb"] { display: none !important; }
+
+  body { background: white !important; color: black !important; font-size: 12pt; }
+  .card { border: 1px solid #ccc !important; box-shadow: none !important; background: white !important; }
+  .container-page { max-width: 100% !important; padding: 0 !important; }
+  a { color: black !important; text-decoration: underline; }
+  a::after { content: " (" attr(href) ")"; font-size: 0.8em; color: #666; }
+  a[href^="#"]::after, a[href^="javascript"]::after { content: ""; }
+
+  /* Show all accordion content when printing */
+  [class*="max-h-0"] { max-height: none !important; opacity: 1 !important; }
 }

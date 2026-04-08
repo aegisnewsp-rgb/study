@@ -70,9 +70,36 @@ const DURATION_OPTIONS = [
 ];
 
 const COUNTRY_FLAGS: Record<string, string> = {
-  india:    '🇮🇳',
-  pakistan: '🇵🇰',
-  nigeria:  '🇳🇬',
+  india:       '🇮🇳',
+  pakistan:    '🇵🇰',
+  nigeria:     '🇳🇬',
+  bangladesh: '🇧🇩',
+  srilanka:    '🇱🇰',
+  nepal:       '🇳🇵',
+  china:       '🇨🇳',
+  russia:      '🇷🇺',
+  saudi:       '🇸🇦',
+  uae:         '🇦🇪',
+  southafrica: '🇿🇦',
+  kenya:       '🇰🇪',
+  ethiopia:    '🇪🇹',
+  ghana:       '🇬🇭',
+  uganda:      '🇺🇬',
+  tanzania:    '🇹🇿',
+  philippines: '🇵🇭',
+  indonesia:   '🇮🇩',
+  malaysia:    '🇲🇾',
+  global:      '🌍',
+};
+
+const COUNTRY_LABELS: Record<string, string> = {
+  india: 'India', pakistan: 'Pakistan', nigeria: 'Nigeria',
+  bangladesh: 'Bangladesh', srilanka: 'Sri Lanka', nepal: 'Nepal',
+  china: 'China', russia: 'Russia', saudi: 'Saudi Arabia', uae: 'UAE',
+  southafrica: 'South Africa', kenya: 'Kenya', ethiopia: 'Ethiopia',
+  ghana: 'Ghana', uganda: 'Uganda', tanzania: 'Tanzania',
+  philippines: 'Philippines', indonesia: 'Indonesia', malaysia: 'Malaysia',
+  global: 'Global',
 };
 
 const SUBJECT_COLORS = [
@@ -151,7 +178,7 @@ function SubjectAccordion({
           isOpen ? 'max-h-[2000px] opacity-100' : 'max-h-0 opacity-0'
         }`}
       >
-        <div className="p-3 grid gap-2 sm:grid-cols-2">
+        <div className="p-3 grid gap-2 grid-cols-1 sm:grid-cols-2">
           {sorted.map((topic, i) => (
             <div
               key={topic.id}
@@ -313,11 +340,43 @@ export default function RoadmapApp({ exams }: Props) {
     [selectedExam, exams],
   );
 
-  const groupedExams = useMemo(() => ({
-    India:    exams.filter(e => e.country === 'india'),
-    Pakistan: exams.filter(e => e.country === 'pakistan'),
-    Nigeria:  exams.filter(e => e.country === 'nigeria'),
-  }), [exams]);
+  const groupedExams = useMemo(() => {
+    const primaryCountries = ['india', 'pakistan', 'nigeria'];
+    const groups: Array<{ label: string; flag: string; exams: typeof exams }> = [];
+
+    // Primary countries first
+    for (const country of primaryCountries) {
+      const countryExams = exams.filter(e => e.country === country);
+      if (countryExams.length > 0) {
+        groups.push({
+          label: COUNTRY_LABELS[country] || country,
+          flag: COUNTRY_FLAGS[country] || '🌍',
+          exams: countryExams,
+        });
+      }
+    }
+
+    // All other countries grouped
+    const otherExams = exams.filter(e => !primaryCountries.includes(e.country));
+    if (otherExams.length > 0) {
+      // Group by country
+      const byCountry = new Map<string, typeof exams>();
+      for (const exam of otherExams) {
+        const key = exam.country || 'global';
+        if (!byCountry.has(key)) byCountry.set(key, []);
+        byCountry.get(key)!.push(exam);
+      }
+      for (const [country, countryExams] of byCountry) {
+        groups.push({
+          label: COUNTRY_LABELS[country] || country,
+          flag: COUNTRY_FLAGS[country] || '🌍',
+          exams: countryExams,
+        });
+      }
+    }
+
+    return groups;
+  }, [exams]);
 
   const toggleSubject = (subjectId: string) => {
     setOpenSubjects(prev => {
@@ -355,10 +414,31 @@ export default function RoadmapApp({ exams }: Props) {
     setSelectedExam(examId);
     setSelectedDuration('');
     setOpenSubjects(new Set());
+    // Update URL without reload for shareability
+    if (examId) {
+      const url = new URL(window.location.href);
+      url.searchParams.set('exam', examId);
+      url.searchParams.delete('duration');
+      window.history.replaceState({}, '', url.toString());
+    }
   };
 
   const handleDurationChange = (dur: string) => {
     setSelectedDuration(dur);
+    setOpenSubjects(new Set());
+    // Update URL without reload for shareability
+    if (dur && selectedExam) {
+      const url = new URL(window.location.href);
+      url.searchParams.set('duration', dur);
+      window.history.replaceState({}, '', url.toString());
+    }
+  };
+
+  const expandAllSubjects = () => {
+    setOpenSubjects(new Set(examSubjects.map(s => s.id)));
+  };
+
+  const collapseAllSubjects = () => {
     setOpenSubjects(new Set());
   };
 
@@ -383,21 +463,13 @@ export default function RoadmapApp({ exams }: Props) {
                   className="w-full appearance-none bg-surface-50 dark:bg-surface-800 border border-surface-200 dark:border-surface-700 text-surface-900 dark:text-surface-50 text-sm font-medium rounded-xl px-4 py-2.5 pr-10 cursor-pointer focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-brand-500 transition-colors"
                 >
                   <option value="">— Choose an exam —</option>
-                  <optgroup label="🇮🇳 India">
-                    {groupedExams.India.map(e => (
-                      <option key={e.examId} value={e.examId}>{e.examName}</option>
-                    ))}
-                  </optgroup>
-                  <optgroup label="🇵🇰 Pakistan">
-                    {groupedExams.Pakistan.map(e => (
-                      <option key={e.examId} value={e.examId}>{e.examName}</option>
-                    ))}
-                  </optgroup>
-                  <optgroup label="🇳🇬 Nigeria">
-                    {groupedExams.Nigeria.map(e => (
-                      <option key={e.examId} value={e.examId}>{e.examName}</option>
-                    ))}
-                  </optgroup>
+                  {groupedExams.map(group => (
+                    <optgroup key={group.label} label={`${group.flag} ${group.label}`}>
+                      {group.exams.map(e => (
+                        <option key={e.examId} value={e.examId}>{e.examName}</option>
+                      ))}
+                    </optgroup>
+                  ))}
                 </select>
                 <svg className="absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-surface-400 pointer-events-none" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
@@ -508,9 +580,29 @@ export default function RoadmapApp({ exams }: Props) {
 
           {/* Subject accordions */}
           <div className="space-y-2">
-            <h3 className="text-xs font-semibold uppercase tracking-widest text-surface-500 px-1">
-              Subject Breakdown
-            </h3>
+            <div className="flex items-center justify-between px-1">
+              <h3 className="text-xs font-semibold uppercase tracking-widest text-surface-500">
+                Subject Breakdown
+              </h3>
+              <div className="flex items-center gap-2">
+                <button
+                  onClick={openSubjects.size === examSubjects.length ? collapseAllSubjects : expandAllSubjects}
+                  className="text-xs text-brand-600 dark:text-brand-400 hover:text-brand-500 transition-colors font-medium"
+                >
+                  {openSubjects.size === examSubjects.length ? 'Collapse All' : 'Expand All'}
+                </button>
+                <button
+                  onClick={() => window.print()}
+                  className="text-xs text-surface-500 hover:text-surface-700 dark:hover:text-surface-300 transition-colors font-medium flex items-center gap-1"
+                  title="Print your roadmap"
+                >
+                  <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M6.72 13.829c-.24.03-.48.062-.72.096m.72-.096a42.415 42.415 0 0 1 10.56 0m-10.56 0L6.34 18m10.94-4.171c.24.03.48.062.72.096m-.72-.096L17.66 18m0 0 .229 2.523a1.125 1.125 0 0 1-1.12 1.227H7.231c-.662 0-1.18-.568-1.12-1.227L6.34 18m11.318 0h1.091A2.25 2.25 0 0 0 21 15.75V9.456c0-1.081-.768-2.015-1.837-2.175a48.055 48.055 0 0 0-1.913-.247M6.34 18H5.25A2.25 2.25 0 0 1 3 15.75V9.456c0-1.081.768-2.015 1.837-2.175a48.041 48.041 0 0 1 1.913-.247m10.5 0a48.536 48.536 0 0 0-10.5 0m10.5 0V3.375c0-.621-.504-1.125-1.125-1.125h-8.25c-.621 0-1.125.504-1.125 1.125v3.659M18 10.5h.008v.008H18V10.5Zm-3 0h.008v.008H15V10.5Z" />
+                  </svg>
+                  Print
+                </button>
+              </div>
+            </div>
             {examSubjects.map((subj, idx) => {
               const topics = topicsBySubject.get(subj.name) ?? [];
               if (!topics.length) return null;

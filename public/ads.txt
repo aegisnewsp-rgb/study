@@ -1,0 +1,9 @@
+# ads.txt — Authorized Digital Sellers
+# https://studyroadmap.in/ads.txt
+#
+# Uncomment and replace PUBLISHER_ID with your Google AdSense publisher ID
+# when AdSense is approved:
+# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
+#
+# For other ad networks, add entries below following the IAB ads.txt spec:
+# https://iabtechlab.com/ads-txt/

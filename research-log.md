@@ -5771,3 +5771,28 @@ Without this fix, every deploy succeeds but the backend dies immediately, servin
 - Bing Webmaster code (placeholder)
 - AdSense integration (needs approved account)
 - Directory submission script (needs review)
+
+## Research Findings — 2026-04-08T00:10 UTC
+
+### 🔴 Critical (fix immediately)
+- None found — site healthy, all major SEO in place
+
+### 🟡 Important (fix this cycle)
+- llm.txt date was stale (2026-04-01 → 2026-04-07, caught up to date during build in prior cycle, confirmed in this cycle)
+
+### 🟢 Quick Wins (easy improvements)
+- Sitemap postbuild script (`fix-sitemap.cjs`) already running and cleaned up 2 broken exam entries (`uAeu_cat` and `%E5%B8%96ast`) — fixed in prior cycle
+- 126 exam pages now correctly tracked in sitemap with `<lastmod>` dates
+
+### 📊 Traffic Opportunities
+- All SEO foundational work complete: FAQPage, HowTo, BreadcrumbList, ItemList, Organization, WebSite+SearchAction on all key pages
+- 126 exam pages generating rich schema (FAQPage + HowTo + BreadcrumbList) — strong for long-tail exam queries
+- Remaining growth levers: GSC verification (user needs to provide code), AdSense integration, backlink outreach
+
+### ✅ Completed This Run
+- Site health: ✅ all 3 key pages 200 OK
+- News: ✅ 10 items refreshed (India:4, Pakistan:4, Nigeria:2)
+- llm.txt date: ✅ 2026-04-07 (updated previous cycle)
+- Sitemap: ✅ 126 exam pages with lastmod, 2 broken entries cleaned
+- Build: ✅ 3215+ pages, committed
+- No code changes needed — monitoring cycle only

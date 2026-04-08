@@ -192,3 +192,24 @@
 - news.json: 10 items ✅ (India: 4, Pakistan: 4, Nigeria: 2)
 
 **Deploy blocked — user SSH fix required for any future changes to reach production.**
+
+## Research Findings — 2026-04-08T00:50 UTC
+
+### 🟡 Important (fix this cycle)
+- **Sitemap missing `/study-plan-generator/`** — it IS in the live sitemap (workspace dist/ has it), but the production sitemap at studyroadmap.in/sitemap-0.xml does NOT include it (3,352 URLs confirmed vs 3,355 in workspace). The last deploy added it to the customPages list in astro.config.mjs but the previous deploy was from a state before that change.
+- **Deploy endpoint returns HTTP 400** — `/deploy` POST on both 172.17.0.1:9000 and 187.127.134.151:9000 returns 400 (bad request, not 404), suggesting backend is running but expecting different payload format. May need `dist.zip` file upload or different content-type.
+
+### 🟢 Quick Wins (easy improvements)
+- **Sitemap lastmod dates**: added via `scripts/fix-sitemap.cjs` postbuild script this cycle ✅
+- **2 broken exam URLs removed from sitemap**: `uAeu_cat` and `%E5%B8%96ast` — these had no generated pages but were in sitemap, causing crawl waste
+
+### ✅ Completed This Run
+- Build: 3,355 pages in ~65s ✅
+- Sitemap: removed 2 broken URLs, added `<lastmod>` to all entries ✅
+- study-plan-generator confirmed in workspace dist/ (37KB, FAQPage+HowTo) ✅
+- Git commit: bd07e20 ✅
+- Deploy blocked: backend returning HTTP 400 on both VPS IPs (needs investigation)
+
+### 🚨 Deploy Blocked
+Both deploy endpoints returning HTTP 400 — not timeout, actual rejection. Likely the deploy script expects a `dist.zip` file or specific curl format. User may need to check deploy script configuration.
+

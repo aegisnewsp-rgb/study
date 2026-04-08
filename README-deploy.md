@@ -37,7 +37,7 @@ sudo chown $USER:$USER /opt/studyroadmap-astro
 # 3. Clone the repo (one-time)
 git clone https://github.com/aegisnewsp-rgb/study.git /opt/studyroadmap-astro
 cd /opt/studyroadmap-astro
-git checkout studyroadmap-astro
+git checkout main
 
 # 4. Set your deploy token (change 'your-secret-token' to something secure)
 export DEPLOY_TOKEN="your-secret-token"
@@ -189,9 +189,12 @@ To auto-deploy when the VPS git repo receives a push:
 cat > /opt/studyroadmap-astro/.git/hooks/post-receive << 'EOF'
 #!/bin/bash
 DEPLOY_TOKEN="your-secret-token"
-curl -s -X POST "http://localhost:9000/deploy?token=$DEPLOY_TOKEN" &
+while read oldrev newrev branch; do
+  [ "$branch" = "refs/heads/main" ] || exit 0
+  curl -s -X POST "http://localhost:9000/deploy?token=$DEPLOY_TOKEN" &
+done
 EOF
 chmod +x /opt/studyroadmap-astro/.git/hooks/post-receive
 ```
 
-Now `git push origin studyroadmap-astro` from anywhere will auto-deploy.
+Now `git push origin main` from anywhere will auto-deploy.

@@ -16,9 +16,10 @@ DEPLOY_TOKEN="${DEPLOY_TOKEN:-your-secret-token-here}"
 BUILD_NO_CACHE="${1:-}"
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-APP_DIR="/opt/studyroadmap-astro"
+APP_DIR="${APP_DIR:-/opt/studyroadmap-astro}"
 CONTAINER_NAME="studyroadmap"
 PORT=9000
+DEPLOY_BRANCH="${DEPLOY_BRANCH:-main}"
 
 log() { echo "[$(date '+%Y-%m-%d %H:%M:%S')] $*"; }
 warn() { echo "[$(date '+%Y-%m-%d %H:%M:%S')] WARN: $*" >&2; }
@@ -42,13 +43,13 @@ fi
 # ── Pull latest code ───────────────────────────────────────────────────────────
 log "[1/5] Pulling latest code from git..."
 cd "$APP_DIR"
-git fetch --quiet origin studyroadmap-astro
+git fetch --quiet origin $DEPLOY_BRANCH
 LOCAL=$(git rev-parse HEAD)
-REMOTE=$(git rev-parse origin/studyroadmap-astro)
+REMOTE=$(git rev-parse origin/$DEPLOY_BRANCH)
 if [ "$LOCAL" = "$REMOTE" ]; then
     log "Already at latest commit ($LOCAL). Nothing to pull."
 else
-    git reset --hard origin/studyroadmap-astro
+    git reset --hard origin/$DEPLOY_BRANCH
     log "Updated to $REMOTE"
 fi
 

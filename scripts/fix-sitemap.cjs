@@ -141,14 +141,55 @@ const newExamUrls = examIds
   .filter(id => generatedExamIds.has(id))  // only include if page was actually generated
   .map(id => `<url><loc>${BASE_URL}/exams/${id}/</loc><lastmod>${today}</lastmod></url>`);
 
+// STEP 5: Add notes pages to sitemap
+// Scan dist/notes/ for all generated note pages
+const distNotesBase = path.join(__dirname, '..', 'dist', 'notes');
+const noteUrls = [];
+function scanNotesDir(dir, urlPath) {
+  if (!fs.existsSync(dir)) return;
+  for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+    const full = path.join(dir, entry.name);
+    const newUrlPath = urlPath + '/' + entry.name;
+    if (entry.isDirectory()) {
+      // Check if this directory has an index.html (= a page)
+      if (fs.existsSync(path.join(full, 'index.html'))) {
+        const noteUrl = `${BASE_URL}${newUrlPath}/`;
+        if (!existingUrls.has(noteUrl)) {
+          noteUrls.push(`<url><loc>${noteUrl}</loc><lastmod>${today}</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>`);
+        }
+      }
+      scanNotesDir(full, newUrlPath);
+    }
+  }
+}
+scanNotesDir(distNotesBase, '/notes');
+
+// STEP 6: Add static pages that may be missing
+const staticPages = [
+  '/notes/',
+  '/study-plan-generator/',
+  '/privacy/',
+  '/terms/',
+  '/feedback/',
+  '/contact/',
+  '/about/',
+  '/exams/',
+  '/roadmap/',
+];
+const staticUrls = staticPages
+  .map(p => `${BASE_URL}${p}`)
+  .filter(url => !existingUrls.has(url))
+  .map(url => `<url><loc>${url}</loc><lastmod>${today}</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>`);
+
 // Build complete final sitemap and write atomically
+const allNewUrls = [...newExamUrls, ...noteUrls, ...staticUrls];
 let finalSitemap;
-if (newExamUrls.length > 0) {
-  finalSitemap = sitemap.slice(0, lastIdx) + newExamUrls.join('') + '\n' + closingTag;
-  console.log(`Added ${newExamUrls.length} exam pages to sitemap (${generatedExamIds.size} generated, ${examIds.length} total data files)`);
+if (allNewUrls.length > 0) {
+  finalSitemap = sitemap.slice(0, lastIdx) + allNewUrls.join('\n') + '\n' + closingTag;
+  console.log(`Added ${newExamUrls.length} exam pages, ${noteUrls.length} note pages, ${staticUrls.length} static pages to sitemap`);
 } else {
   finalSitemap = sitemap;
-  console.log(`All ${generatedExamIds.size} generated exam pages already in sitemap (${examIds.length} total data files found)`);
+  console.log(`All pages already in sitemap (${generatedExamIds.size} exam pages, notes scanned)`);
 }
 fs.writeFileSync(sitemapPath, finalSitemap);
 console.log(`Added <lastmod> to all URL entries`);

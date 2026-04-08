@@ -102,8 +102,8 @@ const EXAM_FAQS = [
 ---
 
 <Layout
-  title="Browse Exams — StudyRoadmap™"
-  description={`Explore all ${ALL_EXAMS.length} competitive exams covered by StudyRoadmap™ — NEET, JEE, UPSC, MDCAT, JAMB, WAEC, Gaokao, and more across ${Object.keys(byCountry).length} countries.`}
+  title={`All ${ALL_EXAMS.length}+ Competitive Exams — Free Study Plans | StudyRoadmap™`}
+  description={`Browse ${ALL_EXAMS.length}+ competitive exams with free AI study roadmaps — NEET, JEE Main, UPSC, SSC CGL, CAT, MDCAT, JAMB, WAEC across ${Object.keys(byCountry).length} countries. Exam pattern, eligibility & syllabus for each exam.`}
   faqs={EXAM_FAQS}
   author={{
     name: "StudyRoadmap Editorial Team",
@@ -139,7 +139,7 @@ const EXAM_FAQS = [
 
           <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {exams.map((exam, i) => (
-              <a href={`/roadmap?exam=${exam.examId}`} class="card card-hover p-5 flex flex-col gap-3 group">
+              <a href={`/exams/${exam.examId}/`} class="card card-hover p-5 flex flex-col gap-3 group">
                 <div class="flex items-start justify-between gap-2">
                   <h3 class="font-semibold text-surface-900 dark:text-white group-hover:text-brand-600 dark:group-hover:text-brand-400 transition-colors">
                     {exam.examName}

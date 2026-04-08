@@ -40,8 +40,8 @@ const ABOUT_FAQS = [
 ---
 
 <Layout
-  title="About StudyRoadmap™ — Free AI Study Plans"
-  description="Learn about StudyRoadmap™ — a free planning tool for students across India, Pakistan, and Nigeria preparing for competitive exams."
+  title="About StudyRoadmap™ — Free AI Study Plan Generator for Competitive Exams"
+  description="Learn about StudyRoadmap™ — free AI-powered study planner for NEET, JEE, UPSC, MDCAT, JAMB & 125+ competitive exams across India, Pakistan, and Nigeria. No signup required."
   faqs={ABOUT_FAQS}
   author={{
     name: "StudyRoadmap Editorial Team",
@@ -301,27 +301,22 @@ const ABOUT_FAQS = [
 
   <Footer />
 
+  <!-- SoftwareApplication schema — signals app-like tool to search engines -->
   <script type="application/ld+json" set:html={JSON.stringify({
     "@context": "https://schema.org",
-    "@type": "Review",
-    "itemReviewed": {
-      "@type": "WebApplication",
+    "@type": "SoftwareApplication",
+    "name": "StudyRoadmap",
+    "description": "Free AI-powered study planning tool for competitive exams in India, Pakistan, and Nigeria. Generates instant personalised study roadmaps for 125+ exams including NEET, JEE, UPSC, MDCAT, JAMB, and WAEC.",
+    "url": "https://studyroadmap.in",
+    "applicationCategory": "EducationApplication",
+    "operatingSystem": "Web",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+    "featureList": "AI study roadmap generator, 125+ competitive exams, subject-wise study notes, mobile-responsive, no signup required",
+    "screenshot": "https://studyroadmap.in/og-image.jpg",
+    "author": {
+      "@type": "Organization",
       "name": "StudyRoadmap",
-      "description": "Free AI-powered study planning tool for competitive exams in India, Pakistan, and Nigeria",
-      "url": "https://studyroadmap.in",
-      "applicationCategory": "EducationApplication",
-      "operatingSystem": "Web",
-      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
-    },
-    "reviewRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.7",
-      "bestRating": "5",
-      "worstRating": "1",
-      "reviewCount": "214"
-    },
-    "author": { "@type": "Organization", "name": "StudyRoadmap" },
-    "reviewBody": "Extremely helpful for exam preparation planning. The roadmap generator is fast, accurate, and completely free.",
-    "datePublished": "2026-04-07"
+      "url": "https://studyroadmap.in"
+    }
   })} />
 </Layout>

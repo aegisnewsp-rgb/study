@@ -168,7 +168,7 @@ const howToSteps = [
 ---
 
 
-<Layout title="StudyRoadmap - Free AI Study Plans for 125+ Exams" description="Instant personalised study roadmaps for NEET, JEE, UPSC, MDCAT, JAMB and 125+ competitive exams. Free, no signup, instant results." faqs={FAQS} howToSteps={howToSteps} author={{
+<Layout title="StudyRoadmap — Free AI Study Plan Generator for NEET, JEE, UPSC, MDCAT, JAMB & 125+ Exams" description="Generate free personalised study roadmaps for NEET, JEE Main, UPSC, MDCAT, JAMB, WAEC and 125+ competitive exams. AI-powered study planner — no signup, no fees, instant results." faqs={FAQS} howToSteps={howToSteps} author={{
   name: "StudyRoadmap Editorial Team",
   jobTitle: "Curriculum Editors",
   affiliation: "StudyRoadmap",
@@ -362,7 +362,7 @@ const howToSteps = [
         <div id="exam-grid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {ALL_EXAMS.map((exam, i) => (
             <a
-              href={`/roadmap?exam=${exam.examId}`}
+              href={`/exams/${exam.examId}/`}
               class="card card-hover flex flex-col gap-3 p-5 group exam-card"
               data-country={exam.country}
             >
@@ -395,7 +395,7 @@ const howToSteps = [
                 )}
               </div>
               <div class="flex items-center gap-1 text-brand-600 dark:text-brand-400 text-sm font-medium mt-auto group-hover:gap-2 transition-all">
-                View Roadmap
+                View Exam Details
                 <svg class="w-4 h-4 transition-transform group-hover:translate-x-0.5" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
                 </svg>
@@ -421,6 +421,49 @@ const howToSteps = [
               <p class="text-sm text-surface-500 dark:text-surface-400 leading-relaxed">{f.desc}</p>
             </div>
           ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- FREE STUDY NOTES — internal linking to notes section -->
+    <section class="bg-surface-950 border-t border-surface-800 py-14">
+      <div class="container-page">
+        <p class="section-label text-center mb-3">Study Materials</p>
+        <h2 class="heading-2 text-white text-center mb-3">Free Study Notes for Every Exam</h2>
+        <p class="text-surface-400 text-center mb-8 max-w-xl mx-auto text-sm">
+          Topic-wise study notes with three depth levels — Quick revision, Standard study, and Deep preparation. All free, no signup.
+        </p>
+        <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
+          <a href="/notes/neet/" class="card card-hover p-4 text-center group">
+            <span class="text-lg">🇮🇳</span>
+            <p class="font-semibold text-sm text-surface-900 dark:text-white group-hover:text-brand-600 dark:group-hover:text-brand-400 transition-colors mt-1">NEET Notes</p>
+            <p class="text-xs text-surface-500">Physics, Chemistry, Biology</p>
+          </a>
+          <a href="/notes/jeemain/" class="card card-hover p-4 text-center group">
+            <span class="text-lg">🇮🇳</span>
+            <p class="font-semibold text-sm text-surface-900 dark:text-white group-hover:text-brand-600 dark:group-hover:text-brand-400 transition-colors mt-1">JEE Notes</p>
+            <p class="text-xs text-surface-500">Physics, Chemistry, Maths</p>
+          </a>
+          <a href="/notes/upsc/" class="card card-hover p-4 text-center group">
+            <span class="text-lg">🇮🇳</span>
+            <p class="font-semibold text-sm text-surface-900 dark:text-white group-hover:text-brand-600 dark:group-hover:text-brand-400 transition-colors mt-1">UPSC Notes</p>
+            <p class="text-xs text-surface-500">GK, Polity, History</p>
+          </a>
+          <a href="/notes/mdcat/" class="card card-hover p-4 text-center group">
+            <span class="text-lg">🇵🇰</span>
+            <p class="font-semibold text-sm text-surface-900 dark:text-white group-hover:text-brand-600 dark:group-hover:text-brand-400 transition-colors mt-1">MDCAT Notes</p>
+            <p class="text-xs text-surface-500">Biology, Chemistry, Physics</p>
+          </a>
+          <a href="/notes/jamb/" class="card card-hover p-4 text-center group">
+            <span class="text-lg">🇳🇬</span>
+            <p class="font-semibold text-sm text-surface-900 dark:text-white group-hover:text-brand-600 dark:group-hover:text-brand-400 transition-colors mt-1">JAMB Notes</p>
+            <p class="text-xs text-surface-500">English, Maths, Science</p>
+          </a>
+        </div>
+        <div class="text-center mt-6">
+          <a href="/notes/" class="text-brand-400 hover:text-brand-300 text-sm font-medium">
+            Browse All Study Notes →
+          </a>
         </div>
       </div>
     </section>

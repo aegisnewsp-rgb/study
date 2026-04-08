@@ -1,9 +1,45 @@
+# StudyRoadmap — robots.txt
+# https://studyroadmap.in
+# Last updated: 2026-04-08
+
+# ── DEFAULT — ALLOW ALL ─────────────────────────────────────────────────────
 User-agent: *
 Allow: /
+Disallow: /api/
+Disallow: /_astro/
+Crawl-delay: 1
 
+# Sitemaps
 Sitemap: https://studyroadmap.in/sitemap-index.xml
+Sitemap: https://studyroadmap.in/sitemap-0.xml
+
+# Host directive (Yandex)
+Host: https://studyroadmap.in
+
+# ── SEARCH ENGINE CRAWLERS — ALLOW ──────────────────────────────────────────
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Yandex
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: NaverBot
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Slurp
+Allow: /
 
 # ── AI TRAINING — BLOCK (content used for model training) ──────────────────
+# We want our content cited in AI answers, NOT used to train models.
 User-agent: GPTBot
 Disallow: /
 
@@ -16,16 +52,21 @@ Disallow: /
 User-agent: cohere-ai
 Disallow: /
 
-# ── AI INDEXING / CITATIONS — ALLOW (content surfaced in AI answers) ──────
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: Omgilibot
+Disallow: /
+
+User-agent: Timpibot
+Disallow: /
+
+# ── AI INDEXING / CITATIONS — ALLOW (content surfaced in AI answers) ────────
 # ChatGPT search & citations
 User-agent: OAI-SearchBot
 Allow: /
 
 User-agent: ChatGPT-User
-Allow: /
-
-# Google Gemini / AI Overviews
-User-agent: Google-Extended
 Allow: /
 
 # Perplexity AI search
@@ -42,30 +83,57 @@ Allow: /
 User-agent: claude-web
 Allow: /
 
-# Other AI platforms
-User-agent: Bytespider
+# Brave Search AI
+User-agent: BraveBot
 Allow: /
 
+# You.com AI search
+User-agent: YouBot
+Allow: /
+
+# DuckDuckGo AI assistant
 User-agent: DuckAssistBot
 Allow: /
 
+# Amazon Alexa / product recommendations
 User-agent: Amazonbot
 Allow: /
 
+# Meta (Facebook, Instagram) — social sharing & previews
 User-agent: FacebookBot
 Allow: /
 
 User-agent: meta-externalagent
 Allow: /
 
+# LinkedIn previews
 User-agent: LinkedInBot
 Allow: /
 
+# Apple (Siri, Spotlight, Safari suggestions)
+User-agent: Applebot
+Allow: /
+
+# Microsoft Copilot (Bing-based AI)
+User-agent: Bytespider
+Allow: /
+
+# AI2 (Semantic Scholar, etc.)
 User-agent: AI2Bot
 Allow: /
 
+# Diffbot (knowledge graph builder)
 User-agent: Diffbot
 Allow: /
 
-User-agent: Applebot
+# Mojeek independent search engine
+User-agent: MojeekBot
+Allow: /
+
+# Phind developer search
+User-agent: PhindBot
+Allow: /
+
+# Kagi search
+User-agent: KagiBot
 Allow: /

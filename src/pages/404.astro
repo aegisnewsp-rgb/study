@@ -38,7 +38,7 @@ const structuredData = {
 <Layout
   title="404 — Page Not Found | StudyRoadmap"
   description="The page you're looking for doesn't exist. Get a free instant study roadmap for NEET, JEE, UPSC, MDCAT, JAMB and 125+ exams."
-  noindex={true}
+  robots="noindex, nofollow"
 >
   <Navbar />
 
@@ -89,7 +89,7 @@ const structuredData = {
           { label: 'MDCAT', id: 'mdcat' },
           { label: 'JAMB', id: 'jamb' },
         ].map(({ label, id }) => (
-          <a href={`/roadmap?exam=${id}`} class="px-3 py-1 bg-secondary rounded-lg hover:opacity-80 text-sm">
+          <a href={`/exams/${id}/`} class="px-3 py-1 bg-secondary rounded-lg hover:opacity-80 text-sm">
             {label}
           </a>
         ))}

@@ -1,8 +1,8 @@
 ---
 import Layout from '../layouts/Layout.astro';
 
-const ogTitle = 'Help Improve StudyRoadmap';
-const ogDescription = 'Report errors, suggest topics, or contribute to StudyRoadmap study notes.';
+const ogTitle = 'Help Improve StudyRoadmap — Report Errors & Suggest Topics';
+const ogDescription = 'Report errors, suggest missing topics, or contribute to StudyRoadmap free study notes for NEET, JEE, UPSC, MDCAT, JAMB & 125+ competitive exams.';
 
 const FEEDBACK_FAQS = [
   {
@@ -20,7 +20,7 @@ const FEEDBACK_FAQS = [
 ];
 ---
 
-<Layout title={ogTitle} description={ogDescription} faqs={FEEDBACK_FAQS}
+<Layout title={ogTitle} description={ogDescription} faqs={FEEDBACK_FAQS} robots="index, follow"
   author={{
     name: "StudyRoadmap Editorial Team",
     jobTitle: "Curriculum Editors",

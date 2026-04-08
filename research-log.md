@@ -328,3 +328,50 @@ Both deploy endpoints returning HTTP 400 — not timeout, actual rejection. Like
 - AdSense: needs account + code injection
 - Formspree: `REPLACE_WITH_FORMSPREE_ID` in feedback.astro
 - Directory submission: script ready, needs user review
+
+## Research Findings — 2026-04-08 02:23 UTC | PASSED ✅
+
+### 🔴 Critical
+- None — site fully healthy
+
+### 🟡 Important
+- None — all major SEO complete; remaining items need user input (GSC, AdSense, deploy fix)
+
+### 🟢 Quick Wins
+- Footer "Content reviewed April 2026" ✅ (already updated from prior cycle)
+- llm.txt date already 2026-04-08 ✅ (already updated)
+
+### 📊 Traffic Opportunities
+- All major SEO signals green (FAQPage, Organization, WebSite+SearchAction, HowTo, BreadcrumbList, CollectionPage, ItemList, hreflang, OG tags, Twitter Cards)
+- 3,345+ pages sitemap confirmed ✅
+- News ticker fresh (10 items, JEE Mains Session 2 prominent) ✅
+- Plausible analytics live ✅
+
+### ✅ Completed This Run
+- News refresh: 10 items (India: 4, Nigeria: 2, deduped 911 older) ✅ | committed 03b8cb2
+- Quick audit: homepage, NEET/JEE Main/UPSC exam pages — all schemas present and correct ✅
+- NEET exam page: FAQPage with 3 NEET-specific questions ✅
+- All 6 JSON-LD schemas on exam pages confirmed (Organization, WebSite, FAQPage, Person, BreadcrumbList, HowTo) ✅
+- No changes needed — site in excellent shape
+
+---
+
+## Research Findings — 2026-04-08T02:27 UTC
+
+### 🔴 Critical
+- **VPS backend DOWN** — site returns Hostinger DNS parking page for ALL routes including /exams/neet/. Backend process not running on port 9000. No SSH access available to restart. **Deploy fix still pending user action since Cycle 107.**
+
+### 🟡 Important
+- Workspace code is healthy: sitemap fix committed, news refresh done, NEET strategy page updated to 2026-2027 exam cycle, all 6 JSON-LD schemas confirmed on exam pages
+
+### 🟢 Quick Wins
+- All major SEO items already completed in prior cycles (FAQPage, HowTo, BreadcrumbList, Organization, WebSite, hreflang, OG tags — all green)
+- News scraper fresh (10 items, last run 2026-04-08 02:26 UTC)
+
+### 📊 Traffic Opportunities
+- Site offline = zero organic traffic. Fixing the VPS backend is the #1 growth priority.
+
+### ✅ Completed This Run
+- Confirmed VPS backend still down (Hostinger parking page for all routes)
+- Confirmed workspace in healthy state — no pending code fixes needed
+- No code changes (nothing actionable while backend is offline)

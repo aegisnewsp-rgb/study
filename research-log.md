@@ -5822,3 +5822,29 @@ Without this fix, every deploy succeeds but the backend dies immediately, servin
 
 ### Observation
 - Site is in excellent health. All high-value SEO complete. Deploy service recurring crash is the only operational blocker — user needs 3 SSH commands documented in improvement-backlog.md item 6. Remaining backlog items (GSC code, AdSense account, Formspree ID) all need user input.
+
+## Research Findings — 2026-04-08 00:17 UTC | PASSED ✅
+
+### Site Health — 3-key-page FAST check
+- Homepage ✅: 200 OK, full meta (FAQPage, Org, WebSite, Person, HowTo)
+- /exams/ ✅: 200 OK, meta desc "124 exams across 19 countries"
+- /exams/neet/ ✅: 200 OK, NEET-specific meta desc (NTA, MBBS, NCERT)
+- News ✅: 10 items (India:4, Pakistan:4, Nigeria:2) — refreshed
+- Deploy service: Docker-based, server restart needed (outside workspace scope)
+
+### 🟢 Quick Wins
+- llm.txt date stale (2026-04-07 → 2026-04-08) — trivial one-line fix applied
+- All meta descriptions present and exam-specific ✅
+- Sitemap: 3,355 pages confirmed live ✅
+- Footer says "Content reviewed April 2026" ✅
+
+### 📊 Traffic Opportunities
+- Study plan generator still not linked from navbar (backlog item #8 — trivial)
+- JEE Main Mathematics knowledge base content pending (backlog item #3)
+- AdSense integration pending user code (backlog item #2)
+
+### ✅ Completed This Run
+- llm.txt date updated: 2026-04-07 → 2026-04-08
+- Commit: 30d8cc7 ✅
+- Build: PASSED ✅
+- Site: fully optimized, no code changes needed this cycle

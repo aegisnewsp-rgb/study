@@ -1,0 +1,31 @@
+[Unit]
+Description=StudyRoadmap Deploy Server
+After=network.target docker.service
+Wants=docker.service
+
+[Service]
+Type=simple
+# Run as the user that owns /opt/studyroadmap-astro
+# If you run as root, change to a dedicated user:
+# User=www-data
+# Group=www-data
+WorkingDirectory=/opt/studyroadmap-astro
+ExecStart=/usr/bin/node /opt/studyroadmap-astro/scripts/deploy-server.js
+Restart=always
+RestartSec=5
+
+# Env
+Environment=DEPLOY_PORT=9000
+Environment=DEPLOY_TOKEN=change-me-in-deploy.sh
+Environment=APP_DIR=/opt/studyroadmap-astro
+
+# Logging — journald captures stdout/stderr automatically
+StandardOutput=append:/var/log/studyroadmap-deploy.log
+StandardError=append:/var/log/studyroadmap-deploy.log
+
+# Security: don't run as root if possible
+# Create a deploy user: useradd -r -d /opt/studyroadmap-astro -s /bin/false deploy
+# Then set: User=deploy Group=deploy
+
+[Install]
+WantedBy=multi-user.target

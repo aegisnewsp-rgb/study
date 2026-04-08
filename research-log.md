@@ -302,3 +302,29 @@ Both deploy endpoints returning HTTP 400 — not timeout, actual rejection. Like
 ### Observation
 - All high-value SEO work complete; all remaining backlog items need user input (GSC code, AdSense, Formspree, SSH deploy fix)
 - Deploy service has been down since at least 00:19 UTC (~46 minutes); appears to crash after each successful deploy and stay down
+
+## Research Findings — 2026-04-08 02:17 UTC | PASSED ✅
+
+### ✅ Change Made: NEET Strategy HowTo Schema — "2025" → "2026"
+- **File:** src/pages/exams/neet-strategy.astro
+- **What:** Updated HowTo schema `name` field from "How to create a NEET preparation strategy for 2025" to "...2026"
+- **Why:** It's April 2026 and the NEET 2026 exam cycle is active. The HowTo schema name appearing in Google rich results should reference the current year, not last year's cycle. Users searching for "NEET preparation strategy 2026" will now see a matching schema label.
+- **Build:** 3355 pages ✅ | postbuild sitemap fix: 2 broken exam entries removed (uAeu_cat, 帖ast), 126 exam pages confirmed in sitemap ✅
+
+### News
+- News.json: 10 items, headline "JEE Main 2026 April 8 Marks vs Percentile" — fresh ✅
+
+### Site Health
+- Footer: "Content reviewed April 2026" ✅
+- Sitemap: all URLs with `<lastmod>2026-04-08</lastmod>` ✅
+- llm.txt: dated 2026-04-08 ✅
+- AI Plan link in Navbar ✅
+- OG images: 1368 generated ✅
+
+### Still Blocking (needs user)
+- Deploy service: Type=oneshot → Type=simple (SSH command needed)
+- GSC verification: `YOUR_VERIFICATION_CODE_HERE` in Layout.astro
+- Bing verification: `BING_VERIFICATION_CODE` in Layout.astro
+- AdSense: needs account + code injection
+- Formspree: `REPLACE_WITH_FORMSPREE_ID` in feedback.astro
+- Directory submission: script ready, needs user review

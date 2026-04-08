@@ -1,5 +1,33 @@
 
 
+## Research Findings — 2026-04-08 11:08 UTC | PASSED ✅
+
+### Site Health — 3-key-page FAST check
+- **Homepage** ✅: 200, FAQPage (15 Qs), Organization, WebSite+SearchAction, hreflang, OG image
+- **/exams/** ✅: 200 (previously 404 — trailing slash redirect now working)
+- **/notes/** ✅: 200 (previously 404 — trailing slash redirect now working)
+- **/roadmap/** ✅: 200
+- **Sitemap** ✅: ~3200+ topic pages, FMGE/FMGE noted in production (more content than workspace)
+- **news.json** ✅: 10 items live at /news.json (200), refreshed ~59 min ago
+
+### News
+- 10 items confirmed live — India 4 (JEE Main S2 April 8), Pakistan 4, Nigeria 2
+- fetch_news.py uses `python3` (not `python`), workspace is clean — nothing to commit
+
+### No Changes Made
+- All high-value SEO already implemented
+- Site fully optimised per backlog status
+- No user-input items (GSC, AdSense, Formspree, deploy SSH fix) addressable without human action
+
+### Blockers (need user)
+- GSC verification code in Layout.astro
+- Deploy service: Type=oneshot fix (3 SSH commands)
+- Formspree ID replacement
+- AdSense integration
+- Directory submissions
+
+---
+
 ## Research Findings — 2026-04-08 08:10 UTC | PASSED ✅
 
 ### Site Health — 3-key-page FAST check

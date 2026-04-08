@@ -554,3 +554,31 @@ Both deploy endpoints returning HTTP 400 — not timeout, actual rejection. Like
 - **Formspree ID** — for feedback form
 - **AdSense** — needs approved account
 
+
+## Research Findings — 2026-04-08 06:53 UTC | PASSED ✅
+
+### Site Health — 3-key-page FAST check
+- **Homepage** ✅: FAQPage (15 Qs), HowTo, Organization, WebSite+SearchAction, hreflang, Customلاندر
+- **/exams/neet/** ✅: FAQPage (3 NEET-specific Qs), HowTo, BreadcrumbList, Organization
+- **/notes/neet/physics/** ✅: FAQPage (4 topic Qs), BreadcrumbList, CollectionPage+ItemList (29 topics)
+- **Deploy service**: localhost:9000 DOWN (Type=oneshot crash — user SSH fix needed, recurring)
+- **Sitemap**: All URLs have `<lastmod>2026-04-08</lastmod>` ✅ (1368 images + full site)
+- **News**: 10 items ✅ — committed at 01:14 UTC
+
+### No Changes This Cycle
+- Site is fully optimised — all high-value SEO improvements already implemented
+- All remaining backlog items need user input:
+  - GSC verification code (placeholder in Layout.astro)
+  - AdSense account + code
+  - Formspree form ID
+  - Deploy service SSH fix (Type=oneshot → Type=simple)
+  - Directory submission script (needs review)
+- llm.txt date current ✅
+- Footer content-review date current (April 2026 ✅)
+- Navbar already links to /study-plan-generator ✅ (confirmed in code)
+- OG image assets complete (1368 subject-specific images in /og-notes/)
+
+### Backlog Status Reminder
+The ONLY remaining actionable items that need NO user input are internal code quality improvements:
+1. NEET strategy page cycle date (already done 2026-04-08 01:14)
+2. Knowledge-base content for remaining ~900 topics (API balance exhausted — needs top-up)

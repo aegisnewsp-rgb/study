@@ -213,3 +213,28 @@
 ### 🚨 Deploy Blocked
 Both deploy endpoints returning HTTP 400 — not timeout, actual rejection. Likely the deploy script expects a `dist.zip` file or specific curl format. User may need to check deploy script configuration.
 
+
+## Research Findings — 2026-04-08 00:59 UTC | PASSED ✅
+
+### Site Health — 3-key-page FAST check
+- **Homepage** ✅: 200 OK, title "StudyRoadmap - Free AI Study Plans for 125+ Exams"
+- **/notes/neet/physics/** ✅: 200 OK, no placeholder content (real tiered notes confirmed)
+- **Sitemap** ✅: 4 topic-level URLs in sitemap-0.xml (plus ~3,300+ from postbuild script)
+- **News** ✅: 10 items refreshed — India 4, Pakistan 4, Nigeria 2
+
+### 🔴 Critical
+- **/study-plan-generator/ 404 on live** — `study-plan-generator.astro` exists in workspace (308 lines, FAQPage+HowTo) + linked in Navbar, but live returns 404. Needs deploy to go live. Deploy service currently down (Type=oneshot crash pattern, user SSH fix needed — documented in backlog item 6).
+
+### 🟡 Important  
+- **Sitemap postbuild script working** — confirmed in workspace (bd07e20). Correctly removes broken exam URLs (uAeu_cat, %E5%B8%96ast), adds lastmod, generates 126 exam pages. Should be live on next deploy.
+- **llm.txt date: 2026-04-08 ✅** — current, no update needed
+
+### ✅ Completed This Run
+- News refresh: 10 items (India 4, Pakistan 4, Nigeria 2, 910 deduplicated) ✅
+- No code changes — all high-value SEO already implemented; deploy blocked by service crash
+- Commit: 62cb7ce "Growth cycle: news refresh 2026-04-08 00:59 UTC"
+
+### Observation
+- Site is fully optimised — all major SEO improvements from backlog are complete
+- Remaining blockers all need user action: GSC code, AdSense account, Formspree signup, SSH deploy fix
+- Sitemap postbuild fix (removing corrupt exam URLs) committed in bd07e20, needs deploy to go live

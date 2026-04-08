@@ -2,45 +2,102 @@
 exam: sa-pharm
 examName: SAPC (South Africa)
 subject: organic-chemistry
-subjectName: Chemistry
+subjectName: Organic Chemistry
 topic: chemis-002
-topicName: Topic 2
+topicName: Stereochemistry and Isomerism
 weight: 3
-country: sa
-generated: "2026-03-25T17:00:00"
 ---
 
-# Topic 2
+## Stereochemistry and Isomerism — Spatial Arrangement of Atoms
 
-### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+Stereochemistry is the study of the three-dimensional arrangement of atoms in molecules and how this affects chemical behavior. In pharmacy, stereochemistry is critically important — different stereoisomers of the same drug can have dramatically different biological activities, potencies, and side effect profiles. Thalidomide is the classic tragic example: one enantiomer treated morning sickness while the other caused severe birth defects.
 
-**Topic 2** — Key Facts for SAPC (South Africa)
-Core concept: Topic 2 is an important topic in ('chemistry', 'Chemistry') for SAPC (South Africa)
-High-yield point: Understand the fundamental principles and their applications
-⚡ Exam tip: Questions from Topic 2 appear regularly in SAPC (South Africa)
+### Classification of Isomerism
 
----
+**Structural Isomers (Constitutional Isomers)**
 
-### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+Atoms are connected in a different order:
+- Chain isomers: Different carbon skeleton (e.g., n-pentane vs. isopentane)
+- Position isomers: Different position of functional group (e.g., 1-propanol vs. 2-propanol)
+- Functional group isomers: Different functional groups (e.g., ethanol vs. dimethyl ether)
 
-**Topic 2** — SAPC (South Africa) Study Guide
-Overview: Topic 2 is a key ('chemistry', 'Chemistry') topic for SAPC (South Africa)
-Core principles: Build a solid understanding of fundamentals
-Key points: Definitions, applications, and typical exam question patterns
-Study strategy: Theory first, then practice problems
+**Stereoisomers**
 
----
+Same connectivity, different spatial arrangement:
+- **Conformational isomers** — rotate about single bonds, interconvert rapidly at room temperature
+- **Configurational isomers** — require bond breaking to interconvert:
+  - Geometric (cis-trans / E-Z) isomers
+  - Optical (enantiomers and diastereomers)
 
-### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
+### Geometric Isomerism (Cis-Trans / E-Z)
 
-**Topic 2** — Comprehensive SAPC (South Africa) Notes
-Full coverage: Topic 2 in ('chemistry', 'Chemistry') for SAPC (South Africa) preparation
-Detailed theory and concept explanations
-Problem-solving strategies and common mistakes to avoid
-Practice: Attempt previous year questions and standard textbook exercises
+Occurs in alkenes and cyclic compounds when rotation around a double bond or ring is restricted.
 
----
-*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+**Alkenes — E/Z System:**
+
+The E/Z system (IUPAC) assigns priority to substituents on each carbon of the double bond:
+- Z (zusammen, German for "together") = higher priority groups on the **same side**
+- E (entgegen, German for "opposite") = higher priority groups on **opposite sides**
+
+To assign E or Z:
+1. Assign CIP priority (atomic number) to substituents on each double-bond carbon
+2. Compare priorities on each carbon
+3. If both high priorities are on same side → Z; opposite sides → E
+
+**Cyclic Compounds:**
+
+Cis-trans in cycloalkanes: substituents on the same side of the ring plane (both up or both down) = cis; opposite sides = trans.
+
+### Chirality and Optical Isomerism
+
+**Chiral Centre (Stereocentre):** A carbon atom bonded to four different substituents — it cannot be superimposed on its mirror image.
+
+**Key Terms:**
+- **Enantiomers:** Non-superimposable mirror-image pairs of chiral molecules. They rotate plane-polarized light in equal but opposite directions.
+- **Dextrorotatory (d or +):** Rotates light clockwise (right)
+- **Laevorotatory (l or –):** Rotates light anticlockwise (left)
+- **Racemic mixture (dl or ±):** 50:50 mixture of enantiomers — optically inactive
+
+**The R/S System (Cahn-Ingold-Prelog):**
+1. Assign priorities 1→4 to substituents (highest atomic number = priority 1)
+2. Orient molecule so lowest priority (4) points away from you
+3. Trace 1→2→3: clockwise = **R** (rectus), anticlockwise = **S** (sinister)
+
+### Diastereomers
+
+Diastereomers are stereoisomers that are NOT mirror images of each other. They have different physical properties (melting points, boiling points, solubilities) and different chemical reactivity.
+
+Important case: **Molecules with two or more chiral centres** — each centre can be R or S, giving 2ⁿ stereoisomers. Pairs that are not mirror images = diastereomers.
+
+### Conformational Analysis
+
+**Alkanes — Newman Projections:**
+
+Viewing along a carbon-carbon bond:
+- **Staggered conformation:** Substituents 60° apart — most stable for ethane and substituted ethane
+- **Eclipsed conformation:** Substituents aligned — highest energy, least stable
+- **Anti (staggered):** Substituents 180° apart — most stable for butane
+- **Gauche:** Substituents 60° apart — higher energy than anti
+
+**Cycloalkanes:**
+
+- **Chair conformation** of cyclohexane: Most stable; alternating axial and equatorial positions
+- **Axial positions:** Perpendicular to ring plane; alternating up/down around ring
+- **Equatorial positions:** Roughly in the plane of the ring; larger, less steric hindrance
+- Substituents prefer equatorial positions to minimize 1,3-diaxial interactions
+
+### Pharmaceutical Significance of Stereochemistry
+
+- **Drug-receptor binding** requires precise 3D fit — enantiomers may have very different activities
+- **S-ibuprofen** is the active analgesic; R-ibuprofen is inactive but slowly converts in vivo
+- **S-citalopram** is the active antidepressant; R-citalopram is a by-product of synthesis
+- Many drugs are marketed as single enantiomers due to better safety/efficacy profiles
+- Prochirality: Some molecules have prochiral centres that become chiral during metabolic activation (e.g., ethanol metabolism via acetaldehyde)
+
+### SAPC Examination Tips
+
+1. **Draw R/S on 2D paper:** Practice the "swivel" method — when the lowest priority is on a wedge/dash, determine R/S directly; if it's not, swap it with the group pointing away and reverse the answer.
+2. **E/Z vs. R/S are different systems** — E/Z describes alkene geometry; R/S describes tetrahedral chirality.
+3. **Thalidomide reminder** — know this example and be able to explain why chiral switch policies are complex.
+4. **For cyclic conformations** — always draw the chair clearly with axial/equatorial positions labelled; marks are often lost on poorly drawn cyclohexane chairs.
+5. **Tartaric acid** is a common exam molecule: it has two identical chiral centres → meso form (optically inactive) + enantiomeric pair (R,R and S,S).

@@ -445,3 +445,55 @@ Both deploy endpoints returning HTTP 400 — not timeout, actual rejection. Like
 ### No Other Changes
 - All high-value SEO already implemented
 - Remaining backlog items need user input (GSC code, AdSense, Formspree, deploy SSH fix)
+
+## Research Findings — 2026-04-08 03:33 UTC | PASSED ✅
+
+### Site Health — FAST Check
+- **Homepage** ✅: FAQPage (15 Qs), HowTo, Organization, WebSite+SearchAction, hreflang
+- **/exams/neet/** ✅: FAQPage, HowTo, BreadcrumbList, Organization, hreflang
+- **/notes/neet/physics/** ✅: FAQPage, BreadcrumbList, CollectionPage+ItemList
+- **Deploy service**: localhost:9000 DOWN (Type=oneshot crash — user SSH fix needed, recurring since Cycle 86)
+- **News** ✅: 10 items refreshed
+
+### ✅ Change Made: Build + Sitemap Refresh
+- **3,355 pages** built successfully (3355 ✅)
+- Sitemap post-build: removed 2 broken entries (uAeu_cat, %E5%B8%96ast), 126 exam pages confirmed in sitemap
+- Build + commit only — deploy service still down, committed locally
+
+### No Actionable SEO Changes
+- All high-value SEO already implemented across 100+ cycles
+- Remaining backlog items need user input: GSC code, AdSense, Formspree, SSH deploy fix
+- llm.txt date: 2026-04-08 ✅ | Footer "Content reviewed April 2026" ✅
+
+### Deploy Status
+- ⚠️ Deploy service unreachable (port 9000 down since multiple cycles)
+- 3 commits queued locally (cannot push — origin repo `aegisnewsp-rgb/studyroadmap-astro` 404)
+- Site at studyroadmap.in appears live (CDN serving last successful deploy)
+
+---
+
+## Cycle 87 — 2026-04-08 03:38 UTC
+
+**Site Status:**
+- Homepage: 200 ✅
+- /exams/neet: 301 (→trailing slash) ✅
+- Sitemap: 128 exam pages confirmed ✅ (all 124+ exams present)
+- Sitemap: massive notes pages confirmed ✅ (3,200+ topic pages)
+- Deploy service: DOWN (localhost:9000 unreachable, Type=oneshot crash — user SSH fix needed)
+- llm.txt date: 2026-04-08 ✅
+
+**Key Finding: Backlog Item #8 ALREADY DONE**
+- Navbar already has `/study-plan-generator` link at line 4 of Navbar.astro
+- Page exists at `src/pages/study-plan-generator.astro` (308 lines, FAQPage+HowTo schema)
+- Live 404 is caused by deploy service being down, not missing nav link
+- Backlog entry is stale — already resolved in workspace
+
+**No Changes Made:**
+- All high-value SEO already implemented
+- Remaining items need user input: GSC code, Bing code, Formspree ID, SSH deploy fix
+- Site appears live via CDN (last successful deploy)
+
+**Actionable Reminders (user must provide):**
+1. Run SSH commands to fix deploy service (Type=oneshot → Type=simple)
+2. Provide GSC verification code
+3. Provide Formspree form ID for feedback page

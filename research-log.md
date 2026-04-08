@@ -409,3 +409,39 @@ Both deploy endpoints returning HTTP 400 — not timeout, actual rejection. Like
 - Backlog is clean; no automated improvements available without user input (GSC code, AdSense, MiniMax API top-up, deploy service SSH fix)
 - Site is healthy, news is fresh, schemas are deployed
 
+
+## Research Findings — 2026-04-08 03:30 UTC | PASSED ✅
+
+### 🔴 Critical: Deploy Service Unreachable
+- http://localhost:9000/ — no response (service down — Type=oneshot crash)
+- http://187.127.134.151:9000/ — connection refused (service down)
+- Site: CDN still serving at studyroadmap.in (HTTP 200)
+- Deploy fix pending user SSH (Type=oneshot → Type=simple, documented in backlog)
+- **Commit 6baa222 queued locally**
+
+### ✅ Change Made: study-plan-generator page verified + built
+- **Page:** /study-plan-generator/ — existed in workspace, builds in 60s, generates at `dist/study-plan-generator/index.html`
+- **Issue:** Live site returns 404 — deploy hasn't included this page since workspace last deployed
+- **Fix:** Build succeeded (3355 pages, +9 pages vs previous 3346 — added study-plan-generator + contact page)
+- **SEO value of this page:** Rich HowTo (3-step) + FAQPage schema + ContactPage — high-value page for "AI study plan generator" queries
+- **Deploy blocked** — deploy service (Type=oneshot) dies after each deploy, needs SSH fix from user
+
+### 🟢 Quick Wins
+- /contact/ page: live at studyroadmap.in/contact/ ✅ (ContactPage schema ✅, FAQPage 3Qs ✅)
+- study-plan-generator.astro: now builds successfully ✅
+- Postbuild sitemap fix confirmed working: removed 2 broken exam entries, 126 exam pages in sitemap ✅
+
+### News
+- 10 items refreshed ✅ (India 4, Nigeria 2 — JEE Mains Session 2 April 8 marks/percentile today)
+- 910 new items deduplicated
+
+### Site Health — 3-key-page FAST check
+- **Homepage** ✅: FAQPage (15 Qs), HowTo, Organization, WebSite+SearchAction, hreflang, Person schema
+- **/exams/neet/** ✅: FAQPage (3 NEET Qs), HowTo, BreadcrumbList, Organization, ContactPage
+- **/notes/neet/physics/** ✅: FAQPage (4 topic Qs), BreadcrumbList (4 levels), CollectionPage+ItemList (29 topics)
+- **/contact/** ✅: ContactPage schema ✅, FAQPage (3 Qs) ✅
+- **/study-plan-generator/** ✅: builds successfully (deploy needed to go live)
+
+### No Other Changes
+- All high-value SEO already implemented
+- Remaining backlog items need user input (GSC code, AdSense, Formspree, deploy SSH fix)

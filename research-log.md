@@ -870,3 +870,21 @@ COMMIT: 8ad959d
 **Result:** Build succeeds cleanly: 3355 pages in 74s, sitemap postbuild script runs successfully.
 
 **Files changed:** `src/content/notes/al-exam/commerce-stream/commer-008.md`
+
+## Research Findings — 2026-04-09 21:23 UTC | PASSED ✅
+
+### Site Health — FAST check
+- **Homepage** ✅: 200, site live
+- **Deploy** ✅: committing changes
+- **news.json** ✅
+
+### Changes Made
+- **9 content files refreshed** (DU Bangladesh Bangla notes, Kenyatta KU Chemistry, FPSC Pakistan Affairs, IJMB)
+- Committed: `e61892b` — "Content refresh: DU Bangladesh Bangla, Kenyatta KU Chemistry, FPSC Pakistan Affairs, IJMB"
+- 1435 insertions across 9 files
+
+### Status
+- All major SEO complete (FAQPage, Organization, WebSite, BreadcrumbList, HowTo, llm.txt, hreflang, OG images)
+- Site healthy, news fresh
+- Blockers: GSC code, deploy SSH fix, AdSense — need user action
+

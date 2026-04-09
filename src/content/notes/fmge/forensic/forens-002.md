@@ -10,223 +10,91 @@ country: fmge
 generated: "2026-03-25T17:00:00"
 ---
 
-# Topic 2
+# Topic 2: Forensic Pathology — Wound Classification, Medicolegal Aspects of Injuries, Ante-mortem vs. Post-mortem Wounds
 
-### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+## Introduction to Forensic Pathology
 
-**Medicolegal Aspects of Wounds** — Key Facts for FMGE
-- **Ante-mortem wounds:** Everted edges, vital reaction present, hemorrhage with clots
-- **Post-mortem wounds:** Clean-cut, no vital reaction, no hemorrhage
-- **Abrasions:** Superficial — heal by epithelialization; timing by colour (red 1–2 days, black 2–3 days, brown/scab 3–5 days)
-- **Contusions:** Blood extravasated into tissue — size does NOT indicate severity
-- ⚡ **Exam tip:** "Tardy's spots" = old contusions; important for chronic alcoholics and elderly abuse cases
-
----
-
-### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
-
-**Medicolegal Aspects of Wounds — FMGE Study Guide**
-
-## Definition and Classification
-
-A wound (vulnus) is a breach in the continuity of the skin or mucous membrane, often with damage to underlying tissues. In forensic medicine, wounds are classified based on the mechanism of injury, the degree of tissue damage, and their medicolegal significance.
+Forensic pathology is the branch of medicine that deals with the determination of the cause and manner of death through the examination of a corpse. The postmortem examination (autopsy) is its primary tool. A thorough understanding of wound classification, healing patterns, and the distinction between ante-mortem and post-mortem injuries is essential for every FMGE candidate.
 
 ## Classification of Wounds
 
-### 1. Mechanical Wounds
+Wounds are broadly classified as mechanical, thermal, chemical, and electrical. Each category has distinct features, medicolegal implications, and characteristic findings.
 
-**Abrasions (Excoriation/Rasabraision):**
-Superficial injuries involving only the epidermis. The stratum corneum is removed, exposing the underlying layers.
-- **Types:**
-  - Scratches (linear abrasions from sharp objects)
-  - Grazes (superficial denudation over a broad area)
-  - Pressure abrasions (from blunt force — may show pattern of the weapon)
-  - Impact abrasions (from impact with a blunt object — may show the object's impression)
-- **Healing:** By epithelialization within 3–5 days; no scar formation
-- **Age determination:**
-  - Red/serous: Fresh (few hours)
-  - Black/dry (scab): 1–3 days
-  - Brown/pigment: 4–7 days
-  - Discoloration fading: 7–10 days
-- **Medicolegal importance:** Indicates point of impact, direction of force, may retain pattern of weapon
+### Mechanical Wounds
 
-**Contusions (Bruises):**
-Bruises result from blunt force that ruptures blood vessels in the subcutaneous tissue without breaching the skin.
-- Spread depends on tissue looseness — face and eyelids show extensive spread; scalp shows limited spread due to tight fascial attachments
-- **Age determination by colour:**
-  - Red/blue/purple: Fresh (<1 day)
-  - Dark blue/violet: 1–3 days
-  - Green: 4–7 days
-  - Yellow: 7–10 days
-  - Brown fading: 10–14 days
-- **Important:** Size of bruise ≠ severity of injury; elderly are prone to massive bruising from minor trauma
-- **Tardieu's spots:** Old petechial haemorrhages in chronic alcoholism, elderly, and malnourished individuals — indicate vulnerability
+**Abrasions (Excoriation):** Abrasions involve the superficial layer of the skin — the epidermis — without breaching the basement membrane. They heal by epithelialization within 3–5 days without scar formation. The forensic importance of abrasions lies in indicating the **point of impact**, the **direction of force**, and sometimes the **pattern of the weapon**.
 
-**Lacerations:**
-Tearing or splitting of tissues by blunt force that exceeds the elasticity of the skin.
-- **Types:**
-  - Split/incised laceration (over bony prominences — e.g., scalp, eyebrows, perineum)
-  - Stretch laceration (skin stretched beyond elastic limit)
-  - Crushing laceration (tissue crushed between object and bone)
-  - Avulsion (tissue torn away exposing underlying structures)
-- Margins are irregular, bruised, and contused — unlike incised wounds
-- Hair bulbs are crushed, not cleanly cut
-- May show imprint of weapon if sufficient force applied
+Types of abrasions include: **scratches** (linear, caused by pointed objects), **grazes** (broad superficial denudation from friction), **pressure abrasions** (from blunt force — may reproduce the weapon's surface pattern), and **impact abrasions** (full-thickness epidermal loss at the point of impact, often showing the weapon's impression). Age determination of abrasions relies on colour: red/serous (fresh, hours), black/dry scab (1–3 days), brown/pigmented (4–7 days), and fading discoloration (7–10 days).
 
-**Incised Wounds:**
-Produced by sharp-edged weapons (knife, blade, glass, metal) cutting through tissue.
-- Clean, sharp margins
-- Wound is longer than the depth of the weapon
-- Tissue bridges absent (unlike lacerations)
-- Haemorrhage is more profuse due to clean cutting of blood vessels
-- Vital reaction (inflammation, healing changes) confirms antemortem nature
-- Can be self-inflicted, suicidal, or homicidal
+**Contusions (Bruises):** Contusions result from blunt force that ruptures subcutaneous blood vessels, causing extravasation of blood into the tissues without breaching the skin. The spread of a contusion depends on tissue looseness — the face and eyelids show extensive spread due to loose areolar tissue, while the scalp shows limited spread because of tight fascial attachments.
 
-### 2. Firearm Wounds
+Colour progression of bruises is a reliable indicator of age: red/blue/purple appears within 1 day, dark blue/violet at 1–3 days, green at 4–7 days, yellow at 7–10 days, and brown fading at 10–14 days. Critically, **the size of a bruise does not indicate the severity of the underlying injury** — elderly individuals and those with chronic alcoholism can develop massive bruising from seemingly trivial trauma due to fragile blood vessels and coagulopathies. **Tardieu's spots** are old petechial haemorrhages seen in chronic alcoholism and malnutrition, indicating vascular vulnerability.
 
-**Bullet entry wound characteristics:**
-- Generally smaller than exit wound (bullet compresses on entry)
-- Edges are inverted
-- Abrasion collar present (due to friction and heat of bullet)
-- Soot blackening present if fired at close range
-- Tattooing (black speckling) present at close range (<25 cm) due to unburnt powder
-- Internal beveling (in skull — bone chips driven inward)
+**Lacerations:** Lacerations are tears or splits in the skin and underlying tissues caused by blunt force that exceeds the skin's elastic limit. Their margins are irregular, bruised, and contused — unlike the clean edges of incised wounds. Hair bulbs are crushed rather than cleanly cut. Types include: **split lacerations** (over bony prominences such as scalp, eyebrows, and perineum), **stretch lacerations** (skin stretched beyond its elastic limit), **crushing lacerations** (tissue crushed between an object and underlying bone), and **avulsion** (tissue torn away exposing underlying structures). Lacerations typically show tissue bridges on the wound floor.
 
-**Bullet exit wound characteristics:**
-- Larger, irregular, everted margins
-- No abrasion collar
-- No soot or tattooing
-- External beveling (in skull — bone chips driven outward)
+**Incised Wounds:** Produced by sharp-edged weapons such as knives, blades, glass, or metal cutting through tissue. Key features include clean, sharp, and everted margins; wound length exceeding the depth of the weapon; absence of tissue bridges; and more profuse haemorrhage due to clean transection of blood vessels. They may be suicidal, homicidal, or accidental. **Hesitation wounds** (superficial, multiple, parallel, clustered cuts) typically indicate suicidal intent — the victim hesitates before committing to the fatal act.
 
-**Range of firing — estimation:**
-- **Contact range:** Soot blackening + tattooing + muzzle imprint
-- **Close range (<1 metre):** Tattooing + soot present
-- **Medium range (1–2 metres):** Tattooing without soot
-- **Distant range:** Entry wound alone, no tattooing/soot
+**Stab Wounds:** Produced by pointed weapons such as knives, daggers, or spears. The external wound may be deceptively small, but internal injury can be extensive — penetration of viscera or major vessels can be fatal. The direction of the wound track is crucial for reconstructing the incident.
 
-### 3. Stab Wounds
-- Produced by pointed weapons (knife, dagger, spear)
-- External appearance may be deceptively small
-- Internal injury may be extensive — penetration of viscera, vessels
-- Direction of track important for reconstructing events
-- Hesitation wounds (superficial parallel cuts) suggest suicidal intent
+### Firearm Wounds
 
-## Antemortem vs Postmortem Wounds
+The examination of firearm wounds requires understanding of the **entry wound, exit wound, and the range of fire**.
 
-| Feature | Antemortem | Postmortem |
+**Entry wound characteristics:** Generally smaller than the exit wound (the bullet compresses on impact), edges are inverted, an **abrasion collar** (contusion ring) is present due to friction and heat, **soot blackening** is present when fired at close range, and **tattooing** (stippling from unburnt powder granules) is present at close range (within approximately 25 cm).
+
+**Exit wound characteristics:** Larger, irregular, with everted margins; no abrasion collar; no soot or tattooing.
+
+**Range of fire estimation:** **Contact range** — muzzle imprint, soot blackening, and tattooing all present; **close range (within 1 metre)** — tattooing and soot both present; **medium range (1–2 metres)** — tattooing present but soot absent; **distant range** — entry wound alone without tattooing or soot.
+
+In skull fractures, **internal beveling** (inward indentation of bone at the point of impact) indicates entry, while **external beveling** (outward indentation) indicates exit.
+
+### Thermal Injuries — Burns
+
+Burns are classified by depth:
+
+- **Superficial (first degree):** Erythema only; epidermis intact; heals in 3–5 days
+- **Superficial partial thickness (second degree):** Blistering; epidermis and superficial dermis involved; heals in 10–14 days
+- **Deep partial thickness (deep second degree):** Blisters may be absent; heals in 3–4 weeks with scarring
+- **Full thickness (third degree):** Charred or leathery; all skin layers destroyed; requires skin grafting
+
+The **Rule of Nines** for adults assigns 9% body surface area to each upper limb, 18% to each lower limb, 9% to the head and neck, 18% each to the anterior and posterior trunk, and 1% to the perineum. In children, the head accounts for a larger proportion.
+
+Special burn patterns include: **pugilistic attitude** (flexion of all limbs in defensive posture seen in prolonged burning), **heat haematoma** (subperiosteal haemorrhage suggesting immersion burn in children), **glove-and-stocking pattern** (differential immersion in burning liquid), and **cafe-au-lait marks** (characteristic of electrocution rather than burns).
+
+### Electrical Burns
+
+Electrical injuries follow **Ohm's Law** (Current = Voltage ÷ Resistance). Low-resistance tissues (nerves, blood vessels, muscle) conduct current more readily than high-resistance tissues (skin, bone, fat). Wet skin dramatically reduces resistance, increasing current flow and heat generation (**Joule heating**). Death mechanisms vary: **ventricular fibrillation** is most common in low-voltage electrocution (below 1000V), while **asystole** and respiratory muscle paralysis are seen with high voltage (above 1000V).
+
+## Difference Between Ante-mortem and Post-mortem Wounds
+
+| Feature | Ante-mortem Wound | Post-mortem Wound |
 |---|---|---|
-| Margins | Everted, inflamed | Clean, sharp |
-| Haemorrhage | Present, clotted | Absent/minimal |
-| Vital reaction | Present (leucocytosis, capillary dilation) | Absent |
-| Tissue reaction | Inflammatory changes, healing attempt | No reaction |
-| Survival time | Minutes to hours if vital organs involved | Instantaneous |
+| Margins | Everted, inflamed | Clean, sharp, not everted |
+| Haemorrhage | Present, often clotted | Absent or minimal |
+| Vital reaction | Present (leucocyte infiltration, capillary dilation) | Absent |
+| Tissue reaction | Inflammatory changes; healing attempted | No reaction |
+| Survival time | Minutes to hours (depends on vital organ involvement) | Instantaneous — no vital response |
 
-## IPC Sections Relevant to Wounds
+The presence of **vital reaction** — the body's inflammatory response to injury — is the single most reliable indicator that a wound was inflicted during life. Histologically, wound healing progresses through recognizable stages: no inflammatory cells at 0–6 hours (pure haemorrhage), early polymorphonuclear infiltration at 6–12 hours, leucocyte infiltration with macrophages at 12–24 hours, granulation tissue and fibroblasts at 24–48 hours, capillary ingrowth and early collagen at 3–5 days, active fibroblastic proliferation at 5–10 days, and scar formation after 14 days.
 
-- **Section 319 IPC:** Hurt — Whoever causes bodily pain, disease, or infirmity to any person
-- **Section 320 IPC:** Grievous hurt — Includes emasculation, permanent privation of sight/hearing, destruction of reproductive capacity, permanent disfigurement of head/face, fracture/dislocation of bones, injury that causes severe bodily damage
-- **Section 322 IPC:** Voluntarily causing grievous hurt
-- **Section 325 IPC:** Punishment for voluntarily causing grievous hurt
-- **Section 326 IPC:** Voluntarily causing grievous hurt by dangerous weapons/acids
-- **Section 300 IPC:** Murder — when death is caused with intention
-- **Section 304 IPC:** Culpable homicide not amounting to murder
-- **Section 354 IPC:** Assault or criminal force to woman with intent to outrage modesty
+## Medicolegal Classification of Injuries Under IPC
 
-## Fabricated Wounds
+The Indian Penal Code classifies injuries as follows:
 
-Defence may claim wounds are self-inflicted or exaggerated. Features suggesting fabricated wounds:
-- Multiple superficial parallel cuts (hesitation marks)
-- Wounds on easily accessible body parts
-- Lack of vital reaction if postmortem
-- History inconsistent with wound pattern
+- **Section 319 IPC — Hurt:** Whoever causes bodily pain, disease, or infirmity to any person
+- **Section 320 IPC — Grievous Hurt:** Includes emasculation, permanent privation of sight or hearing, destruction of reproductive capacity, permanent disfigurement of head or face, fractures or dislocations of bones, and any injury that causes severe bodily damage or danger to life
+- **Section 322 IPC — Voluntarily Causing Grievous Hurt:** The act of causing such hurt deliberately
+- **Section 325 IPC — Punishment for Voluntarily Causing Grievous Hurt:** Imprisonment up to 7 years
+- **Section 326 IPC — Grievous Hurt by Dangerous Weapons:** Acids and weapons specifically — imprisonment up to life
+- **Section 300 IPC — Murder:** When death is caused with clear intention to cause death or bodily injury sufficient to cause death
+- **Section 304 IPC — Culpable Homicide Not Amounting to Murder:** When death results from an act with the intention of causing bodily injury but not with the intention to cause death
 
-## Examination of Wounds
+## Regional Injuries — Key Patterns
 
-- Describe location, size, shape, margins, edges, depth, contents
-- Measure with sterile ruler; photograph with scale
-- Describe any foreign bodies present
-- Record in body diagram
-- Preserve clothing for forensic analysis
-- Opinion on age, weapon type, and intention
+**Head injuries** are the most common cause of traumatic death. Scalp lacerations bleed profusely due to the rich anastomosis of superficial temporal, occipital, and supraorbital arteries. **Extradural haemorrhage** (between skull and dura) is classically associated with temporal bone fracture damaging the middle meningeal artery; patients present with a characteristic **lucid interval** followed by deterioration. **Subdural haemorrhage** (between dura and arachnoid) results from tearing of bridging veins; venous accumulation is slower, making it common in elderly and alcoholic patients. **Diffuse Axonal Injury (DAI)** results from rotational acceleration causing widespread white matter damage and carries a high mortality rate.
 
----
-
-### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
-
-**Medicolegal Aspects of Wounds — Comprehensive FMGE Notes**
-
-## Regional Injuries
-
-**Head injuries** are the most common cause of traumatic death:
-- **Scalp wounds** bleed profusely due to rich anastomosis of arteries (superficial temporal, occipital, supraorbital); scalp lacerations can cause life-threatening haemorrhage even without skull fracture
-- **Skull fractures** may be linear, depressed, basilar, or diastatic; a ping-pong fracture is specific to newborns
-- **Extradural haemorrhage** — between skull and dura; associated with temporal bone fracture damaging middle meningeal artery; presents with lucid interval → drowsiness → coma; arterial (rapid accumulation)
-- **Subdural haemorrhage** — between dura and arachnoid; bridging veins torn; venous (slower accumulation); common in elderly and alcoholics
-- **Subarachnoid haemorrhage** — most common of all intracranial haemorrhages; also seen in ruptured berry aneurysm
-- **Diffuse Axonal Injury (DAI):** Rotational acceleration causing widespread white matter damage; associated with high mortality
-
-**Thoracic injuries:**
-- Rib fractures (especially ribs 4–9) may cause pneumothorax, haemothorax, or flail chest
-- Cardiac tamponade — blood in pericardial sac causing death; may occur with seemingly trivial chest trauma if pre-existing pericardial adhesion exists
-- Aortic rupture — usually at isthmus (just distal to left subclavian artery); associated with sudden deceleration
-
-**Abdominal injuries:**
-- Solid organ injuries (liver, spleen, kidney) — blunt abdominal trauma
-- Hollow viscus perforation — seat belt injuries, handlebar injuries
-- Retroperitoneal haemorrhage — may be concealed; duodenal/pancreatic injuries
-
-## Thermal Injuries
-
-**Burns:**
-Classification by depth:
-- **Superficial (1st degree):** Erythema only; epidermis intact; heals in 3–5 days
-- **Superficial partial thickness (2nd degree):** Blistering; epidermis and superficial dermis involved; heals in 10–14 days
-- **Deep partial thickness (deep 2nd degree):** Blisters may be absent; heals in 3–4 weeks with scarring
-- **Full thickness (3rd degree):** Charred/leathery; all skin layers destroyed; requires grafting
-
-**Rule of Nines (for adults):** Head/neck 9%, each upper limb 9%, each lower limb 18%, anterior trunk 18%, posterior trunk 18%, perineum 1%
-
-**Special burns:**
-- **Café-au-lait appearance:** Characteristic of electrocution (current markings)
-- **Pugilistic attitude (boxer posture):** Characteristic of prolonged burning — all limbs flexed and adopt defensive posture
-- **Heat haematoma:** Subperiosteal haemorrhage in children — suggests immersion burn
-- **Glove and stocking pattern:** Differential immersion; indicates victim was immersed in burning liquid
-
-**Electrical Burns:**
-- **Ohm's law:** Current (I) = Voltage (V) / Resistance (R)
-- Low resistance tissues (nerves, blood vessels, muscle) conduct current more readily than high resistance tissues (skin, bone, fat)
-- Wet skin dramatically reduces resistance
-- **Joule heating:** Current passing through resistance generates heat → burns
-- **Arc burns:** At points of entry/exit — characteristic, may be deep
-- **Metallization:** Metal from conductor deposited in skin (visible spectroscopically)
-- **Ventricular fibrillation:** Most common cause of death in low-voltage electrocution (<1000V)
-- **Asystole:** Common in high-voltage electrocution (>1000V)
-- **Flash burns:** From arc without actual current passage through body
-
-## Age of Wounds
-
-For antemortem wounds, histological dating:
-- **0–6 hours:** No inflammatory cells (pure haemorrhage)
-- **6–12 hours:** Early polymorphonuclear infiltration
-- **12–24 hours:** Leucocyte infiltration increases; macrophages appear
-- **24–48 hours:** Granulation tissue begins; fibroblasts appear
-- **3–5 days:** Capillary ingrowth; early collagen formation
-- **5–10 days:** Active fibroblastic proliferation
-- **10–14 days:** Collagen maturation; wound contraction begins
-- **>14 days:** Scar tissue formation
+**Thoracic injuries** causing death include rib fractures (especially ribs 4–9) leading to pneumothorax or flail chest, cardiac tamponade (blood in the pericardial sac causing death by impairing cardiac filling — can occur with trivial chest trauma if prior pericardial adhesion exists), and aortic rupture (usually at the isthmus just distal to the left subclavian artery due to sudden deceleration).
 
 ## Wound Documentation
 
-Proper documentation is crucial for medicolegal proceedings:
-- Written description with measurements
-- Body diagrams
-- Photographs with scales
-- Wound swabs for microbiology/histology
-- Clothing preservation
-- Chain of custody maintained
-
----
-*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+Proper documentation is medicolegally essential: written description with exact measurements, body diagrams, photographs with scales, wound swabs for microbiology or histology, and preservation of clothing. The chain of custody for all evidence must be maintained.

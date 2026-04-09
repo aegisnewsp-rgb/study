@@ -10,380 +10,127 @@ country: fmge
 generated: "2026-03-25T17:00:00"
 ---
 
-# Topic 4
-
-### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
-
-**Forensic Toxicology** — Key Facts for FMGE
-- **Corrosive poisons:** Carbolic acid, mineral acids, alkalis — cause immediate burns of GIT; no antidote reversal
-- **Opium/Alkaloids:** Miosis (pinpoint pupils), respiratory depression, coma; naloxone is antidote
-- **Organophosphorus:** Cholinergic excess (SLUDGEM — Salivation, Lacrimation, Urination, Defaecation, GI distress, Emesis, Miosis); atropine + PAM is treatment
-- **Cyanide:** Bitter almond smell; rosy complexion; venous blood is bright red; sodium nitrite + sodium thiosulphate treatment
-- ⚡ **Exam tip:** Always note the specific antidote — a common FMGE recall question
-
----
-
-### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
-
-**Forensic Toxicology — FMGE Study Guide**
+# Topic 4: Toxicology — Common Poisons (Organophosphates, Corrosives, Opioids, Cocaine), Signs and Management
 
 ## General Principles of Toxicology
 
-Toxicology is the science dealing with poisons — their identification, effects, mechanisms, and treatment. A poison is any substance that, when introduced into or applied to the body, can produce harmful effects or death. The forensic aspect involves determining whether poisoning has occurred, identifying the poison, and establishing its role in any death or injury.
-
-## Classification of Poisons
-
-### By Chemical Nature
-
-**1. Corrosives:**
-- **Inorganic acids:** Sulphuric acid (H₂SO₄), Nitric acid (HNO₃), Hydrochloric acid (HCl)
-- **Organic acids:** Carbolic acid (phenol), Oxalic acid, Acetic acid
-- **Alkalis:** Sodium hydroxide (caustic soda), Potassium hydroxide, Ammonia
-- **Others:** Iodine, Phosphorus (yellow)
-
-**2. Irritants:**
-- **Inorganic:** Heavy metals (arsenic, mercury, lead), Silica
-- **Organic:** Mechanical irritants (glass, diamond dust), Vegetable irritants (castor beans, croton oil)
-
-**3. Neurotoxins:**
-- **Sedative-hypnotics:** Barbiturates, Benzodiazepines, Chloral hydrate
-- **Narcotics:** Opium, Morphine, Heroin, Codeine
-- **Stimulants:** Amphetamines, Cocaine, Caffeine
-- **Hallucinogens:** LSD, Mescaline, Cannabis
-
-**4. Cardiac/Respiratory toxins:**
-- **Cardiac depressants:** Digitalis, Aconite, Quinine
-- **Cyanide and硫化氢 (hydrogen sulfide)**
-- **Carbon monoxide**
-
-### By Mode of Action
-
-**1. Irritant poisons:** Damage gastrointestinal/respiratory mucosa
-**2. Neurotic poisons:** Affect nervous system
-**3. Cardiac poisons:** Affect heart rhythm/function
-**4. Blood poisons:** Affect haemoglobin or blood cells
-**5. Systemic poisons:** Affect multiple organ systems
+A poison is any substance that, when introduced into or applied to the body, produces harmful effects or death. Toxicology encompasses the identification of poisons, understanding their mechanisms of action, recognition of clinical features, and the administration of specific antidotes and supportive care. In forensic medicine, toxicology addresses whether poisoning was accidental, suicidal, or homicidal, and establishes the role of poison in any death through postmortem examination and toxicological analysis.
 
 ## Routes of Poison Administration
 
-- **Oral:** Most common — GIT absorption
-- **Inhalation:** Gases, vapours — alveolar absorption
-- **Parenteral:** Injection — most rapid effect
-- **Dermal:** Percutaneous absorption (especially in infants)
-- **Rectal/Vaginal:** Rare but documented
-- **Stabbing:** Powdered poison inserted through skin
+Poisons can enter the body through several routes. The **oral route** is the most common, with absorption occurring primarily in the gastrointestinal tract. **Inhalation** (gases and vapours absorbed via alveoli) provides the most rapid systemic absorption. **Parenteral administration** (injection) is the fastest route for achieving systemic effects. **Dermal absorption** is particularly significant in infants whose skin is more permeable. Rectal, vaginal, and percutaneous routes are less common but documented.
 
-## Common Poisons and Their Features
+## Organophosphorus Compounds
 
-### Opium and Opioids
+### Mechanism
 
-**Sources:** Opium poppy (Papaver somniferum); contains morphine (10%), codeine, papaverine, noscapine
+Organophosphorus compounds (OPCs) such as malathion, parathion, chlorpyrifos, and dichlorvos are irreversible inhibitors of acetylcholinesterase (AChE). This leads to accumulation of acetylcholine at synapses, causing overstimulation of cholinergic receptors throughout the nervous system. This produces the characteristic **cholinergic crisis**, remembered by the mnemonic **SLUDGEM** or **DUMBELS**.
 
-**Toxic dose:** Morphine >200mg oral; therapeutic dose 10–20mg
+### Clinical Features (SLUDGEM/DUMBELS)
 
-**Clinical features:**
-- **CNS:** Euphoria → drowsiness → coma; constricted pupils (miosis)
-- **Respiratory:** Depression (rate drops to 4–6/minute); cause of death
-- **Cardiovascular:** Hypotension
-- **Other:** Constipation, urinary retention
-
-**Medicolegal features:**
-- Empty bottles/packets near body
-- History of addiction
-- Pinpoint pupils + respiratory depression = hallmark
-- **Antidote:** Naloxone (opioid antagonist); N-allyl nor-morphine (nalorphine)
-
-**Postmortem findings:**
-- Cherry-red brain (due to hypoxia)
-- Froth at nose/mouth
-- Congestion of lungs
-- Stomach may contain opium solution (dark brown fluid)
-- Detect opium/morphine in stomach, blood, urine
-
-### Organophosphorus Compounds
-
-**Examples:** Malathion, Parathion, DDVP, Sarin (nerve agent)
-
-**Mechanism:** Irreversible inhibition of acetylcholinesterase → accumulation of acetylcholine → overstimulation of cholinergic receptors
-
-**Clinical features — Cholinergic excess (SLUDGEM/DUMBELS):**
-- **S:** Salivation, Sweating
+- **S:** Salivation, Sweating, Salivation
 - **L:** Lacrimation
 - **U:** Urination
 - **D:** Defaecation, Diarrhoea
 - **G:** GI distress, Giddiness
-- **E:** Emesis
-- **M:** Miosis, Muscle fasciculation
+- **E:** Emesis (vomiting)
+- **M:** Miosis, Muscle fasciculations, bradycardia
 
-**Other:** Bradycardia, bronchospasm, bronchorrhoea
+Additional features include bronchospasm (causing wheezing), bronchorrhoea (copious secretions in the airway), hypotension, and tachycardia or bradycardia depending on the receptor predominance. Death results from respiratory failure due to paralysis of respiratory muscles, central respiratory depression, and overwhelming secretions.
 
-**Treatment:**
-- **Atropine:** Muscarinic antagonist; given until secretions dry
-- **Pralidoxime (2-PAM):** Reactivates cholinesterase (if given early)
-- **Supportive:** Airway, ventilation, control convulsions
+### Treatment
 
-**Postmortem:** Must collect blood, stomach contents, fat tissue; AChE inhibition in blood
+- **Atropine sulfate:** A competitive muscarinic antagonist; the dose is titrated to achieve drying of secretions (atropinization). It reverses the muscarinic effects but not the nicotinic effects (fasciculations, paralysis).
+- **Pralidoxime (2-PAM):** Reactivates acetylcholinesterase if given early (before "ageing" of the enzyme-inhibitor complex occurs). Most effective within 24–48 hours of exposure.
+- Supportive care: Airway management, mechanical ventilation, control of convulsions with benzodiazepines, management of hypotension.
 
-### Cyanide
+### Postmortem Findings
 
-**Sources:** Bitter almonds, cassava, industrial exposure,某些 suicide/homicide cases
+At autopsy, froth in the airways, pulmonary oedema, and haemorrhagic tracheobronchitis may be seen. Blood, stomach contents, fat tissue, and liver should be preserved for toxicological analysis. The diagnosis is confirmed by demonstrating AChE inhibition in blood.
 
-**Mechanism:** Blocks cytochrome oxidase → cells cannot use oxygen → histotoxic hypoxia
+## Corrosive Poisons
 
-**Features:**
-- **Odour:** Bitter almonds (50% population cannot detect)
-- **Face:** Cherry red (bright pink/red — venous blood is arterialised)
-- **Early:** Anxiety, headache, confusion
-- **Late:** Convulsions, coma, death
-- **Rapid death** if large dose
+### Types and Features
 
-**Treatment:**
-- Amyl nitrite → Sodium nitrite → Sodium thiosulphate (traditional)
-- Or: Hydroxocobalamin (Cyanokit) — preferred; binds cyanide to form cyanocobalamin
+Corrosives cause tissue destruction by chemical action. They are classified as **acids** and **alkalis**.
 
-**Postmortem:**
-- Bright red livor mortis
-- Pink/red mucosa
-- Almond smell (if present)
-- Detect cyanide in blood (stored in special vial — grey top with fluoride/oxalate)
-- Prussian blue test on tissues
+**Concentrated mineral acids** (sulphuric acid — H₂SO₄, nitric acid — HNO₃, hydrochloric acid — HCl) produce immediate burning pain in the mouth, throat, and abdomen. Haematemesis (vomiting of blood) is common. Characteristic **oral burns** appear: sulphuric acid produces **white to black burns** (carbonization), nitric acid produces **yellow to brown burns**. Concentrated acids have a sharp, acidic odour.
 
-### Barbiturates
+**Carbolic acid (phenol)** is a unique corrosive — it has a **local anaesthetic effect**, so despite causing severe burns, the victim may report less pain than expected. Burns appear **white and wrinkled** (like leather) with a characteristic **medicine-like odour**. The urine may turn dark (due to phenols) and the patient may die rapidly from CNS depression.
 
-**Types:** Long-acting (phenobarbitone), Short-acting (pentobarbitone), Ultra-short (thiopentone)
+**Alkalis** (sodium hydroxide — caustic soda, potassium hydroxide, ammonia) cause **liquefactive necrosis** through saponification of fats — deeper and more destructive than acid burns. Severe pain, oesophageal strictures (if survived), and gastric burns are characteristic. Vomiting produces watery or blood-tinged material.
 
-**Features:**
-- CNS depression — drowsiness → coma
-- Respiratory depression
-- Hypotension
-- Bullous lesions (barbiturate blisters) — large, tense bullae on dependent areas; specific to barbiturate poisoning
-- Hypothermia
+### General Management of Corrosive Poisoning
 
-**Treatment:**
-- Gastric lavage (if within 4–6 hours)
-- Alkaline diuresis (for long-acting)
-- Haemodialysis
+**Do not induce vomiting** — re-exposure of the oesophageal mucosa to the corrosive causes further damage. **Do not give gastric lavage** — risk of perforation. Management is primarily supportive: airway management, fluid resuscitation, pain control, antibiotics if perforation is suspected, and nutritional support. Emergency endoscopic evaluation (within 12–24 hours) assesses the extent of injury. Stricture formation is a long-term complication of significant corrosive ingestion.
+
+## Opioids (Opium, Morphine, Heroin)
+
+### Source and Mechanism
+
+Opioids are derived from the opium poppy (*Papaver somniferum*). Opium contains morphine (approximately 10%), codeine, papaverine, and noscapine. Heroin (diacetylmorphine) is synthesized from morphine and is more lipid-soluble, crossing the blood-brain barrier more rapidly.
+
+Opioids act primarily on mu receptors in the central nervous system, producing analgesia, euphoria, sedation, and respiratory depression.
+
+### Clinical Features
+
+The classic triad of opioid poisoning is: **miosis (pinpoint pupils)**, **CNS depression progressing to coma**, and **respiratory depression** (rate may drop to 4–6 breaths per minute). Additional features include hypotension, bradycardia, hypothermia, and constipation. The respiratory depression is the **cause of death** — it leads to hypoxemia, hypercapnia, and ultimately respiratory arrest.
+
+### Management
+
+- **Naloxone:** A competitive opioid receptor antagonist that rapidly reverses respiratory depression. Short half-life (30–90 minutes), so repeated dosing or infusion may be required. **N-allyl nor-morphine (nalorphine)** is an alternative.
+- Airway management and mechanical ventilation
 - Supportive care
 
-**Postmortem:** froth at mouth, congestion of brain, fatty change in liver/kidney; chemical analysis essential
+### Postmortem Findings
 
-### Corrosive Poisons
+Cherry-red brain (due to cerebral hypoxia), froth at the nose and mouth, and pulmonary congestion are typical. The stomach may contain a dark brown fluid (opium solution). Detection of opium alkaloids (morphine) in stomach contents, blood, and urine confirms the diagnosis.
 
-**Concentrated acids (sulphuric, nitric, hydrochloric):**
-- Immediate burning pain in mouth, throat, abdomen
-- Vomiting of blood-stained material (haematemesis)
-- Characteristic mouth burns — white/black (sulphuric), yellow/brown (nitric)
-- Acidic smell
-- If survived: strictures of oesophagus/stomach
+## Cocaine
 
-**Carbolic acid (phenol):**
-- Local numbness — less pain despite severe burns
-- White/brown burns with wrinkled appearance (like leather)
-- Smell of phenol
-- Dark urine
-- CNS depression → rapid death
+### Source and Effects
 
-**Alkalis (caustic soda, ammonia):**
-- Saponification of fats → liquefactive necrosis
-- Severe pain
-- Oesophageal and gastric burns
-- Vomiting of清水 (watery) or blood-tinged material
+Cocaine is an alkaloid derived from the coca plant (*Erythroxylum coca*). It exists as cocaine hydrochloride (water-soluble, used intranasally or intravenously) and crack cocaine (alkaloidal, smoked). Cocaine is a powerful stimulant that blocks the reuptake of catecholamines (dopamine, norepinephrine) and serotonin at synapses, leading to sympathetic overactivity.
 
-## General Management of Poisoning
+### Clinical Features
 
-**Emergency management:**
-1. **ABCD:** Airway, Breathing, Circulation, Dextrostix
-2. **IV access** and fluid resuscitation
-3. **Specific antidotes** when available
-4. **Supportive care**
+Cocaine produces **sympathomimetic toxicity**: tachycardia, hypertension, hyperthermia, diaphoresis, mydriasis (dilated pupils), agitation, and euphoria. Severe toxicity leads to **hyperthermia** (due to increased metabolic activity and vasoconstriction), **myocardial infarction**, **cerebral haemorrhage**, **stroke**, **seizures**, and **death**. **Excited delirium** is a recognized syndrome characterized by agitation, hyperthermia, and sudden cardiorespiratory collapse.
 
-**Decontamination:**
-- **Oral:** Gastric lavage (contraindicated in corrosives, petroleum products, convulsions); activated charcoal (not effective for corrosives, alcohols, cyanide)
-- **Dermal:** Remove clothing, wash with soap and water
-- **Inhalation:** Remove from source, oxygen
+### Management
 
-**Elimination enhancement:**
-- Forced diuresis
-- Alkaline diuresis (for acidic poisons)
-- Haemodialysis
-- Haemoperfusion
+There is **no specific antidote** for cocaine toxicity. Treatment is entirely supportive: benzodiazepines for agitation and seizures, cooling measures for hyperthermia, vasodilators or alpha-blockers for hypertension, beta-blockers are **contraindicated** (unopposed alpha stimulation worsens coronary vasoconstriction), and aspirin and anticoagulation for suspected myocardial infarction.
 
-## Medicolegal Aspects
+### Postmortem Findings
 
-**Types of poisoning cases:**
-- **Suicidal:** Most common in India; organophosphorus, barbiturates, acids
-- **Homicidal:** Less common; arsenic, thallium, opium in children
-- **Accidental:** Food poisoning, industrial exposure, drug overdose
+Signs of sympathetic overactivity may be present: cerebral and pulmonary oedema, myocardial infarction or haemorrhage, and evidence of seizures (tongue biting, rhabdomyolysis). The diagnosis is confirmed by toxicological analysis of blood, urine, and stomach contents.
 
-**IPC Sections:**
-- **Section 284 IPC:** Negligent conduct with poisonous substances
-- **Section 324 IPC:** Voluntarily causing hurt by dangerous weapons
-- **Section 328 IPC:** Causing hurt by act known to be likely to cause death
+## General Management of Poisoning Cases
 
-**Evidence collection in poisoning:**
-- Stomach contents (100ml) + washings
-- Blood (10ml) — from peripheral vein
-- Urine (50ml)
-- CSF (if CNS symptoms)
-- Hair, nails (for chronic poisoning — heavy metals)
-- Liver and kidney (at autopsy — 50g each)
-- Preserved in saturated salt solution (for viscera)
-- Vials must be sealed, labelled, sent with forwarding letter
+### Emergency Management (ABCD Approach)
 
-**Preservation of viscera for chemical analysis:**
-- All poisonous substances decompose rapidly
-- Viscera preserved in saturated common salt solution or rectified spirit
-- Blood preserved in fluoride/oxalate tube
-- Keep refrigerated
-- Send to forensic science laboratory with proper documentation
+- **A (Airway):** Ensure patency; intubate if needed
+- **B (Breathing):** Support ventilation; give oxygen
+- **C (Circulation):** IV access; fluid resuscitation; vasopressors if needed
+- **D (Dextrostix):** Check blood glucose; correct hypoglycaemia
 
----
+### Decontamination
 
-### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
+- **Oral:** Gastric lavage (within 1–2 hours of ingestion, contraindicated in corrosives and petroleum products), activated charcoal (most effective within 1 hour; not effective for corrosives, alcohols, or hydrocarbons)
+- **Dermal:** Remove contaminated clothing; wash skin with soap and water
+- **Inhalation:** Remove from source; administer 100% oxygen
 
-**Forensic Toxicology — Comprehensive FMGE Notes**
+### Enhanced Elimination
 
-## Detailed Poison Profiles
+- Forced diuresis (urine alkalinization for acidic poisons like salicylates)
+- Haemodialysis (for alcohols, metformin, lithium, ethylene glycol)
+- Haemoperfusion (for certain drugs)
 
-### Alcohol (Ethanol)
+### Evidence Preservation in Poisoning Deaths
 
-**Pharmacology:**
-- Rapidly absorbed from stomach (20%) and small intestine (80%)
-- Metabolised by alcohol dehydrogenase in liver
-- Rate of metabolism: approximately 10–15ml/hour of pure alcohol
-- Blood alcohol concentration peaks 30–90 minutes after consumption
+For toxicological analysis at autopsy, the following should be preserved: **stomach and its contents** (100 mL), **blood** (10 mL from a peripheral vein — avoid contamination), **urine** (50 mL), **CSF** (if CNS symptoms), **liver and kidney** (50 g each), and **hair and nails** (for chronic heavy metal poisoning). Viscera should be preserved in **saturated common salt solution** or **rectified spirit**. Blood for alcohol analysis should be stored in a **fluoride/oxalate tube** (grey top). All samples must be sealed, labelled, and sent to the forensic science laboratory with a proper forwarding letter.
 
-**Clinical effects by BAC:**
-- 20–30 mg/dL: Mild euphoria, decreased inhibitions
-- 50–100 mg/dL: Impaired coordination, reaction time
-- 100–150 mg/dL: Slurred speech, ataxia, confusion
-- 150–300 mg/dL: Stupor, vomiting, incontinence
-- 300–400 mg/dL: Coma, hypothermia
-- >400 mg/dL: Respiratory failure, death
+## IPC Sections Related to Poisoning
 
-**Medicolegal aspects:**
-- **Legal limit for driving in India:** 30 mg/dL (0.03%) — Section 185 of Motor Vehicles Act
-- **Drunk and dying:** Chronic alcoholism increases tolerance
-- **Widmark formula:** For calculating BAC from alcohol consumed
-- **Postmortem alcohol:** Must differentiate antemortem consumption from postmortem production (putrefaction can produce alcohol)
-
-**Postmortem findings:**
-- Odour of alcohol from stomach and breath
-- Congestion of brain and lungs
-- Alcohol concentration in blood (central blood more reliable than peripheral)
-- Detect in vitreous humour (stable for longer)
-
-### Metallic Poisons
-
-**Arsenic:**
-- Formerly used as homicidal agent; now mainly accidental/industrial
-- White crystalline powder, odourless — called "inheritance powder"
-- Trivalent (more toxic) and pentavalent forms
-- **Features:** Severe gastroenteritis — vomiting (rice-water), diarrhoea, garlic odour, hypotension → death from cardiovascular collapse
-- **Treatment:** Dimercaprol (BAL), succimer (DMSA)
-- **Postmortem:** Garlic odour; congestion of GIT; fatty change in liver; arsenic in liver, kidney, hair, nails
-- **Detection:** Marsh test (arsine gas formation), Reinsch test
-
-**Mercury:**
-- **Acute:** Severe corrosive gastroenteritis → death from shock
-- **Chronic:** Gingivitis (stomatitis), mercurial tremor ("hatter's shakes"), neuropsychiatric symptoms, renal tubular necrosis
-- **Treatment:** Dimercaprol, D-penicillamine
-- **Postmortem:** Black discoloration of colon mucosa (mercuric chloride); renal tubular necrosis
-
-**Lead:**
-- **Acute:** Abdominal pain, encephalopathy, peripheral neuropathy
-- **Chronic:** Lead colic, lead palsy (wrist drop), lead encephalopathy, microcytic anaemia with basophilic stippling
-- **Lines:** Burtonian lines (blue-purple line on gums), lead lines at metaphyses
-- **Treatment:** EDTA calcium disodium, dimercaprol
-
-### Designer Drugs and Newer Intoxicants
-
-**Organochlorine compounds (DDT):**
-- CNS stimulation → tremors → convulsions
-- Fat-soluble — stored in adipose tissue
-- Treatment: Supportive; diazepam for convulsions
-
-**Carbamate poisoning:**
-- Similar to organophosphorus (AChE inhibition — reversible)
-- Miosis, salivation, diarrhoea
-- **No fasciculations** (distinguishes from organophosphorus)
-- Atropine is treatment; PAM not needed
-
-### Food Poisoning
-
-**Bacterial:**
-- **Salmonella:** Incubation 6–72 hours; gastroenteritis; self-limiting
-- **Staphylococcus aureus:** Incubation 1–6 hours; vomiting predominant; preformed toxin
-- **Clostridium botulinum:** Incubation 12–72 hours; descending flaccid paralysis; "bulbar palsy"; associated with canned foods
-- **Clostridium perfringens:** Incubation 8–24 hours; enterotoxin-mediated diarrhoea
-
-**Chemical food poisoning:**
-- **Monosodium glutamate (MSG):** Chinese restaurant syndrome — flushing, headache, chest discomfort
-- **Mushroom poisoning:** Amanita phalloides — delayed onset (6–24 hours), hepatic and renal failure
-
-### Drug Abuse in India
-
-**Cannabis (charas, ganja, bhang):**
-- Derived from Cannabis sativa
-- Active principle: THC (tetrahydrocannabinol)
-- Effects: Euphoria, altered time perception, increased appetite, conjunctival congestion
-- Cannabis has no specific antidote
-
-**Opium derivatives:**
-- Heroin (smack): Diacetylmorphine — most abused opioid
-- Signs of opioid intoxication: Miosis, CNS depression, respiratory depression
-- Treatment of overdose: Naloxone
-
-**NDPS Act (1985):** Narcotic Drugs and Psychotropic Substances Act regulates drug-related offences in India
-
-## Toxicological Analysis Methods
-
-**Screen tests:**
-- Colour tests (Dinitrophenylhydrazine for ketones, etc.)
-- Thin layer chromatography (TLC)
-- Immunoassay
-
-**Confirmatory tests:**
-- Gas chromatography-mass spectrometry (GC-MS)
-- High performance liquid chromatography (HPLC)
-- Atomic absorption spectrometry (for metals)
-
-**Special considerations:**
-- Chain of custody is essential
-- Proper preservation prevents false negatives
-- Passive smoking and environmental exposure may cause low levels
-- Tolerance levels vary
-
-## Poisoning in Special Populations
-
-**Paediatric poisoning:**
-- Accidental ingestion is most common
-- Kerosene oil is most common poisoning in Indian children
-- Caustic soda and acid ingestion also common
-- Treatment: Supportive, no specific antidote usually available
-
-**Obstetric poisoning:**
-- Poisoning in pregnancy requires consideration of foetal wellbeing
-- Some antidotes are contraindicated in pregnancy
-- Abortion may be required in severe cases
-
-**Geriatric poisoning:**
-- Altered pharmacokinetics — increased sensitivity
-- Multiple comorbidities — worse prognosis
-- May present atypically
-
-## Medicolegal Expert Testimony
-
-The forensic toxicologist may be required to give expert testimony in court:
-- Whether poisoning was cause of death
-- Whether poison was administered ante- or postmortem
-- Whether death was suicidal, homicidal, or accidental
-- Relevance of poison levels detected
-
-The opinion should be given with appropriate caveats about limitations of toxicological analysis.
-
----
-*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+- **Section 284 IPC:** Negligent conduct with poisonous substances — applies to mishandling of poisons in the course of one's occupation
+- **Section 328 IPC:** Causing hurt by a substance known to be likely to cause death — applies to poisoning with intent to cause hurt
+- **Section 300 IPC:** Murder — where death results from intentional poisoning with knowledge that it will cause death

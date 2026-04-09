@@ -4,7 +4,7 @@ examName: A/L Examination (Sri Lanka)
 subject: quant
 subjectName: Commerce Stream
 topic: commer-008
-topicName: Microeconomics: Theory of the Firm
+topicName: "Microeconomics: Theory of the Firm"
 weight: 3
 country: al
 diagramPrompt: ""

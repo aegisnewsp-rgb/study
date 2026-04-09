@@ -912,3 +912,40 @@ India 4 (JEE Main S2 April 8 live), Pakistan 3, Nigeria 3
 - Site healthy, sitemap current, news fresh
 - **Deploy service DOWN again** (port 9000 = 404) — Type=oneshot SSH fix still pending user action
 - Blockers (need human): GSC verification, AdSense, Formspree, deploy SSH fix
+
+---
+
+## Cycle 97 | 2026-04-09T21:28 UTC | PASSED ✅
+
+**Change:** Added ItemList JSON-LD schema to `/notes/` index page
+
+**Changes implemented:**
+1. **ItemList schema on /notes/ index** (`src/pages/notes/index.astro`): Added structured data listing all 89 exam categories with position, name, URL, and description. Pattern follows the CollectionPage+ItemList approach used on `/notes/[exam]/` sub-pages. Now Google understands `/notes/` as a structured list of exam note collections.
+
+**Schema added:**
+```json
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "All Study Notes by Exam on StudyRoadmap",
+  "description": "Browse free study notes for 89 competitive exams...",
+  "numberOfItems": 89,
+  "itemListElement": [ListItem, ListItem, ...]
+}
+```
+
+**Bug fixes (pre-existing):**
+- `src/content/notes/du-ad/bangla/bangla-008.md`: Fixed leading space before `country` key in YAML frontmatter
+- `src/content/notes/kpsc/history/histor-007.md`: Fixed unquoted colon in `topicName` value
+- `src/content/notes/kpsc/history/histor-009.md`: Same unquoted colon fix
+
+**Tests:**
+- Build: 3355 pages ✅
+- ItemList verified in dist/notes/index.html ✅
+- No errors
+
+**Files changed:** src/pages/notes/index.astro, 3 content YAML files
+
+**News:** 10 items ✅ (JEE Main 2026 S2 result likely April 14 - news.json last updated 20:28 UTC)
+**Site:** studyroadmap.in responding 200 ✅
+

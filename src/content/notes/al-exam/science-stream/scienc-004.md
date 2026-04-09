@@ -4,7 +4,7 @@ examName: A/L Examination (Sri Lanka)
 subject: botany
 subjectName: Science Stream
 topic: scienc-004
-topicName: Topic 4
+topicName: "Plant Physiology: Nutrition and Transport"
 weight: 3
 country: al
 generated: "2026-03-25T17:00:00"

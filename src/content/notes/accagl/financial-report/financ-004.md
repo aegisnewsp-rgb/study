@@ -4,7 +4,7 @@ examName: ACCA/CA Pakistan
 subject: accounting
 subjectName: Financial Accounting
 topic: financ-004
-topicName: Topic 4
+topicName: "Statement of Cash Flows"
 weight: 3
 country: accagl
 generated: "2026-03-25T17:00:00"

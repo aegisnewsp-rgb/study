@@ -4,7 +4,7 @@ examName: ACCA/CA Pakistan
 subject: accounting
 subjectName: Financial Accounting
 topic: audit-005
-topicName: Topic 5
+topicName: "Internal Controls Systems"
 weight: 3
 country: accagl
 generated: "2026-03-25T17:00:00"

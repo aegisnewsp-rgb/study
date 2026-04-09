@@ -4,7 +4,7 @@ examName: ACCA/CA Pakistan
 subject: accounting
 subjectName: Financial Accounting
 topic: audit-003
-topicName: Topic 3
+topicName: "Risk Assessment & Audit Evidence"
 weight: 3
 country: accagl
 generated: "2026-03-25T17:00:00"

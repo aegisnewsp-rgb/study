@@ -4,7 +4,7 @@ examName: ACCA/CA Pakistan
 subject: accounting
 subjectName: Financial Accounting
 topic: financ-006
-topicName: Topic 6
+topicName: "Revenue Recognition & Contracts with Customers"
 weight: 3
 country: accagl
 generated: "2026-03-25T17:00:00"

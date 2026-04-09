@@ -4,7 +4,7 @@ examName: ACCA/CA Pakistan
 subject: accounting
 subjectName: Financial Accounting
 topic: financ-002
-topicName: Topic 2
+topicName: "Income Statement & Statement of Comprehensive Income"
 weight: 3
 country: accagl
 generated: "2026-03-25T17:00:00"

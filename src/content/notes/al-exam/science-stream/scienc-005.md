@@ -4,7 +4,7 @@ examName: A/L Examination (Sri Lanka)
 subject: botany
 subjectName: Science Stream
 topic: scienc-005
-topicName: Topic 5
+topicName: "Genetics and Mendelian Inheritance"
 weight: 3
 country: al
 generated: "2026-03-25T17:00:00"

@@ -12,183 +12,160 @@ generated: "2026-03-25T17:00:00"
 
 # Upper Limb Anatomy — Bones, Joints, Muscles, Nerves and Clinical Correlations
 
-### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+## Quick Review
 
 The upper limb is a high-yield area for INI CET — questions frequently test knowledge of nerve injuries, muscle origins/insertions, and fractures. Focus on the brachial plexus, major nerves (musculocutaneous, median, ulnar, radial), and their clinical presentations when injured.
 
 **High-Yield Facts for INI CET:**
+
 - Brachial plexus roots: C5, C6, C7, C8, T1 → trunks (upper, middle, lower) → divisions → cords → terminal branches
 - Axillary nerve injury: Cannot abduct arm (deltoid paralysis) + loss of sensation over lateral shoulder (regimental badge area)
 - Radial nerve injury: Wrist drop (finger extensors paralyzed) + sensory loss over posterior arm/forearm
 - Median nerve injury: Carpal tunnel syndrome — thumb opposition loss, thenar atrophy, sensory loss in lateral 3.5 digits
 - Ulnar nerve injury: Claw hand (intrinsic hand muscle paralysis) + sensory loss in medial 1.5 digits
 
-⚡ **Exam tip:** In nerve injury questions, identify which muscle compartments and skin areas are affected. Remember: radial nerve is in the posterior compartment, median nerve passes through the carpal tunnel, and ulnar nerve is medial at the elbow (funny bone).
+**Exam tip:** In nerve injury questions, identify which muscle compartments and skin areas are affected. Remember: radial nerve is in the posterior compartment, median nerve passes through the carpal tunnel, and ulnar nerve is medial at the elbow (funny bone).
 
 ---
 
-### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+## Bones of the Upper Limb
 
-**The Shoulder and Arm:**
+### Clavicle
 
-#### Bones of the Upper Limb
+The clavicle is an S-shaped long bone and the only bony connection between the trunk and upper limb. It articulates medially with the sternum (sternoclavicular joint) and laterally with the scapula (acromioclavicular joint). It is the most commonly fractured bone in the body, usually at the junction of the middle and lateral third — the weakest point. The common mechanism is a fall on an outstretched hand (FOOSH). Complications of fractures include damage to subclavian vessels and brachial plexus (medial fractures) and pneumothorax (posterior displacement of the lateral fragment).
 
-**Clavicle:**
-- S-shaped long bone; articulates medially with sternum (sternoclavicular joint) and laterally with scapula (acromioclavicular joint)
-- Only bony connection between trunk and upper limb
-- Most commonly fractured bone in the body; usually at junction of middle and lateral third (weakest point)
-- Common mechanism: Fall on outstretched hand (FOOSH)
-- Complications: Damage to subclavian vessels, brachial plexus (medial fractures); pneumothorax (posterior displacement of lateral fragment)
+### Scapula
 
-**Scapula:**
-- Triangular bone with body, spine, acromion, coracoid process, glenoid cavity
-- No direct articulation with axial skeleton — connected by muscles and ligaments
-- Glenoid cavity articulates with humeral head (ball and socket — shallow)
-- Three borders: Superior, lateral (axillary), medial (vertebral)
-- Two processes: Acromion (articulates with clavicle) and Coracoid process (origin of biceps brachii short head, coracobrachialis)
+The scapula is a triangular bone with a body, spine, acromion, coracoid process, and glenoid cavity. It has no direct articulation with the axial skeleton — connected only by muscles and ligaments. The glenoid cavity articulates with the humeral head (ball and socket — shallow joint). Three borders are present: superior, lateral (axillary), and medial (vertebral). Two processes include the acromion (articulates with the clavicle) and coracoid process (origin of biceps brachii short head and coracobrachialis).
 
-**Humerus:**
-- Proximal: Head (articulates with glenoid), anatomical neck, greater and lesser tubercles, intertubercular sulcus (bicipital groove), surgical neck
-- Shaft: Radial groove (for radial nerve and deep brachial vessels), deltoid tuberosity (insertion of deltoid)
-- Distal: Capitulum (articulates with radius), trochlea (articulates with ulna), medial and lateral epicondyles, coronoid and olecranon fossae
+### Humerus
 
-#### Muscles of the Shoulder (Origins on Scapula)
+The humerus has distinct proximal and distal features. Proximally: head (articulates with glenoid), anatomical neck, greater and lesser tubercles, intertubercular sulcus (bicipital groove), and surgical neck. The shaft features the radial groove (for radial nerve and deep brachial vessels) and deltoid tuberosity (insertion of deltoid). Distally: capitulum (articulates with radius), trochlea (articulates with ulna), medial and lateral epicondyles, and coronoid and olecranon fossae.
 
-**Rotator Cuff Muscles — "SITS":**
-- **Supraspinatus:** Origin supraspinous fossa → inserts on greater tubercle of humerus; initiates abduction of arm (first 15°); most commonly torn rotator cuff muscle
-- **Infraspinatus:** Origin infraspinous fossa → greater tubercle; external rotation of arm
-- **Teres Minor:** Origin lateral border of scapula → greater tubercle; external rotation
-- **Subscapularis:** Origin subscapular fossa → lesser tubercle; internal rotation
+---
 
-**Other Shoulder Muscles:**
-- **Deltoid:** Origin acromion + spine of scapula + lateral clavicle → deltoid tuberosity; all fibres: abduction 15-90°; anterior: flexion + medial rotation; posterior: extension + lateral rotation
+## Muscles of the Shoulder
+
+### Rotator Cuff Muscles — "SITS"
+
+The rotator cuff consists of four muscles:
+
+- **Supraspinatus:** Origin from supraspinous fossa → inserts on greater tubercle of humerus; initiates abduction of arm (first 15°); most commonly torn rotator cuff muscle
+- **Infraspinatus:** Origin from infraspinous fossa → greater tubercle; external rotation of arm
+- **Teres Minor:** Origin from lateral border of scapula → greater tubercle; external rotation
+- **Subscapularis:** Origin from subscapular fossa → lesser tubercle; internal rotation
+
+### Other Shoulder Muscles
+
+- **Deltoid:** Origin from acromion + spine of scapula + lateral clavicle → deltoid tuberosity; all fibres: abduction 15-90°; anterior: flexion + medial rotation; posterior: extension + lateral rotation
 - **Pectoralis Major:** Clavicular head (clavicle) + sternocostal head (sternum) → lateral lip of bicipital groove; adduction, medial rotation, flexion
 - **Latissimus Dorsi:** Spinous processes T7-L5, thoracolumbar fascia, iliac crest, lower 3-4 ribs → floor of bicipital groove; extension, adduction, medial rotation ("climbing" muscle)
 - **Teres Major:** Inferior angle of scapula → medial lip of bicipital groove; adduction, medial rotation
 - **Trapezius:** Occipital protuberance, nuchal ligament, spinous processes → acromion + spine of scapula; upper: elevation; middle: retraction; lower: depression
 
-#### Brachial Plexus
+---
 
-**Formation from roots (anterior rami of C5-T1):**
-```
-Roots (C5-T1) → Trunks (upper C5+C6, middle C7, lower C8+T1)
-                → Divisions (anterior and posterior of each trunk)
-                → Cords (lateral, posterior, medial — named by their relationship to axillary artery)
-                → Terminal branches
-```
+## Brachial Plexus
 
-**Important branches from roots:**
-- Dorsal scapular nerve (C5): Rhomboids, levator scapulae
-- Long thoracic nerve (C5, C6, C7): Serratus anterior ("winging" when patient pushes against wall — cannot abduct arm above horizontal)
+### Formation
 
-**Important branches from cords:**
-- Lateral cord: Musculocutaneous nerve (C5-C7), lateral root of median nerve, lateral pectoral nerve
-- Posterior cord: Axillary nerve (C5-C6), radial nerve (C5-T1), thoracodorsal nerve (C6-C8), subscapular nerves (C5-C6)
-- Medial cord: Median nerve (C6-T1), ulnar nerve (C8-T1), medial root of median nerve, medial pectoral nerve, medial cutaneous nerves of arm and forearm
+Roots (anterior rami of C5-T1) → Trunks (upper C5+C6, middle C7, lower C8+T1) → Divisions (anterior and posterior of each trunk) → Cords (lateral, posterior, medial — named by their relationship to axillary artery) → Terminal branches.
 
-**Axillary Nerve (C5-C6):**
-- Travels through quadrangular space with posterior circumflex humeral vessels
-- Motor: Deltoid (abduction 15-90°) + teres minor (lateral rotation)
-- Sensory: Lateral cutaneous nerve of arm → regimental badge area (lateral shoulder skin)
-- Injury: Cannot abduct arm; loss of sensation over lateral shoulder
-- Common injury: Surgical neck of humerus fracture, anterior shoulder dislocation
+### Key Branches from Roots
 
-**Radial Nerve (C5-T1):**
-- In axilla: Takes spiral course around posterior humerus in radial groove
-- Motor: All extensors of upper limb (triceps, brachioradialis, extensor carpi radialis longus, all finger and wrist extensors)
-- Injury sites:
-  - Axilla: Wrist drop + extension loss + sensory loss over posterior arm/forearm + posterior hand
-  - Spiral groove: Wrist drop (finger extensors paralyzed) + brachioradialis intact (branch above groove)
-- Saturday night palsy: Compression in spiral groove when arm hangs over chair edge — causes wrist drop
+- **Dorsal scapular nerve (C5):** Rhomboids, levator scapulae
+- **Long thoracic nerve (C5, C6, C7):** Serratus anterior ("winging" when patient pushes against wall — cannot abduct arm above horizontal)
 
-**Median Nerve (C6-T1):**
-- Carpal tunnel contents: Median nerve + 9 flexor tendons (4 FDS, 4 FDP, FPL) + FCR tendon
-- Motor: Thenar muscles (LOAF — Lumbricals 1&2, Opponens pollicis, Abductor pollicis brevis, Flexor pollicis brevis [two heads]) + lateral two lumbricals + FCR, palmaris brevis
-- Sensory: Palmar side of lateral 3.5 digits + dorsal tips of same digits
-- Injury: In carpal tunnel — thenar atrophy, cannot oppose thumb, sensory loss in lateral 3.5 digits
+### Important Branches from Cords
 
-**Ulnar Nerve (C8-T1):**
-- Runs medial to axillary artery → medial side of arm → behind medial epicondyle of humerus ("funny bone")
-- Guyon's canal: At wrist, ulnar nerve enters hand through pisiform-hooked hamate canal
-- Motor: Intrinsic hand muscles (hypothenar, interossei, medial two lumbricals, adductor pollicis) + flexor carpi ulnaris + medial half of FDP (4th and 5th digits)
-- Sensory: Medial 1.5 digits (5th + half of 4th) — both palmar and dorsal
-- Injury: Claw hand (unopposed extension at MCP, flexion at IP — worse in ulnar paradox where proximal injury causes more deformity than distal due to paralysis of long flexors) + interosseous atrophy + positive Froment's sign (compensatory thumb IP flexion when holding paper due to lost adductor function)
+**Lateral cord:** Musculocutaneous nerve (C5-C7), lateral root of median nerve, lateral pectoral nerve
+
+**Posterior cord:** Axillary nerve (C5-C6), radial nerve (C5-T1), thoracodorsal nerve (C6-C8), subscapular nerves (C5-C6)
+
+**Medial cord:** Median nerve (C6-T1), ulnar nerve (C8-T1), medial root of median nerve, medial pectoral nerve, medial cutaneous nerves of arm and forearm
 
 ---
 
-### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
+## Major Nerves of the Upper Limb
 
-**Elbow, Forearm, and Hand:**
+### Axillary Nerve (C5-C6)
 
-#### Elbow Joint
+The axillary nerve travels through the quadrangular space with posterior circumflex humeral vessels. It supplies motor innervation to the deltoid (abduction 15-90°) and teres minor (lateral rotation). Sensory innervation is via the lateral cutaneous nerve of arm to the regimental badge area (lateral shoulder skin). Injury causes inability to abduct the arm and loss of sensation over the lateral shoulder. Common injury sites include surgical neck of humerus fracture and anterior shoulder dislocation.
 
-**Articulation:** Humeroulnar (trochlea + coronoid/olecranon fossa) + humeroradial (capitulum + radial head) + proximal radioulnar joint
+### Radial Nerve (C5-T1)
 
-**Capsule and ligaments:**
-- Medial (ulnar) collateral ligament: Anterior band (resists valgus stress), posterior band, transverse band
-- Lateral (radial) collateral ligament: Resists varus stress; forms lateral side of annular ligament
-- Annular ligament: Wraps around radial head; allows pronation/supination while maintaining radial head in socket
+In the axilla, the radial nerve takes a spiral course around the posterior humerus in the radial groove. It supplies all extensors of the upper limb (triceps, brachioradialis, extensor carpi radialis longus, all finger and wrist extensors). At the axilla, injury causes wrist drop + extension loss + sensory loss over posterior arm/forearm + posterior hand. In the spiral groove, wrist drop occurs with finger extensors paralyzed but brachioradialis intact (branch above groove). "Saturday night palsy" is compression in the spiral groove when the arm hangs over a chair edge, causing wrist drop.
 
-**Common injuries:**
-- **Supracondylar fracture:** Most common elbow fracture in children (peak 5-7 years); usually from FOOSH; can damage brachial artery (Volkmann's ischemic contracture) or median nerve (anterior interosseous syndrome)
-- **Dislocation:** Posterior dislocation (fall on outstretched hand with elbow flexed); ulnar nerve and brachial artery at risk
+### Median Nerve (C6-T1)
 
-#### Forearm Compartments
+The carpal tunnel contains the median nerve + 9 flexor tendons (4 FDS, 4 FDP, FPL) + FCR tendon. Motor innervation includes thenar muscles (LOAF — Lumbricals 1&2, Opponens pollicis, Abductor pollicis brevis, Flexor pollicis brevis) + lateral two lumbricals + FCR, palmaris brevis. Sensory distribution is to the palmar side of lateral 3.5 digits + dorsal tips of the same digits. Injury in the carpal tunnel causes thenar atrophy, inability to oppose thumb, and sensory loss in lateral 3.5 digits.
 
-**Anterior (flexor) compartment — 9 muscles in 4 layers:**
-- Layer 1 (superficial, from medial epicondyle): Pronator teres, flexor carpi radialis, palmaris longus, flexor carpi ulnaris
-- Layer 2: Flexor digitorum superficialis (FDS) — splits to allow FDP tendons to pass through
-- Layer 3: Flexor pollicis longus, flexor digitorum profundus (FDP) — inserts on distal phalanges
-- Layer 4: Pronator quadratus
+### Ulnar Nerve (C8-T1)
 
-**Posterior (extensor) compartment:**
-- Superficial: Brachioradialis, extensor carpi radialis longus, extensor carpi radialis brevis, extensor digitorum, extensor digiti minimi, extensor carpi ulnaris
-- Deep: Supinator, abductor pollicis longus, extensor pollicis brevis, extensor pollicis longus, extensor indicis
+The ulnar nerve runs medial to the axillary artery → medial side of arm → behind medial epicondyle of humerus ("funny bone"). At the wrist, it enters the hand through Guyon's canal (pisiform-hooked hamate canal). Motor innervation includes intrinsic hand muscles (hypothenar, interossei, medial two lumbricals, adductor pollicis) + flexor carpi ulnaris + medial half of FDP (4th and 5th digits). Sensory distribution is to medial 1.5 digits (5th + half of 4th) — both palmar and dorsal. Injury causes claw hand (unopposed extension at MCP, flexion at IP) + interosseous atrophy + positive Froment's sign (compensatory thumb IP flexion when holding paper due to lost adductor function). The ulnar paradox states that proximal injury causes more deformity than distal due to paralysis of long flexors.
 
-**Nerve supply:** Radial nerve supplies all posterior compartment muscles; median nerve (anterior compartment except flexor carpi ulnaris and medial half of FDP); ulnar nerve (medial half of FDP, flexor carpi ulnaris)
+---
 
-#### Carpal Bones
+## Elbow Joint
+
+### Articulation and Ligaments
+
+The elbow involves humeroulnar (trochlea + coronoid/olecranon fossa) + humeroradial (capitulum + radial head) + proximal radioulnar joint articulations. The medial (ulnar) collateral ligament has anterior band (resists valgus stress), posterior band, and transverse band. The lateral (radial) collateral ligament resists varus stress and forms the lateral side of the annular ligament. The annular ligament wraps around the radial head, allowing pronation/supination while maintaining the radial head in socket.
+
+### Common Injuries
+
+**Supracondylar fracture:** Most common elbow fracture in children (peak 5-7 years); usually from FOOSH; can damage brachial artery (Volkmann's ischemic contracture) or median nerve (anterior interosseous syndrome).
+
+**Posterior dislocation:** Fall on outstretched hand with elbow flexed; ulnar nerve and brachial artery are at risk.
+
+---
+
+## Carpal Bones
 
 **Proximal row (lateral to medial):** Scaphoid, Lunate, Triquetrum, Pisiform
+
 **Distal row (lateral to medial):** Trapezium, Trapezoid, Capitate, Hamate
 
-**Scaphoid:** Most commonly fractured carpal bone (fall on outstretched hand); presents with pain in anatomical snuffbox; at risk for avascular necrosis (blood supply enters distally — proximal fragment may become necrotic); non-union leads to wrist osteoarthritis
+### Scaphoid
 
-**Lunate:** Fractures from hyperextension; DISI (dorsal intercalated segment instability) pattern on lateral X-ray
+The scaphoid is the most commonly fractured carpal bone (fall on outstretched hand). It presents with pain in the anatomical snuffbox and is at risk for avascular necrosis because blood supply enters distally — the proximal fragment may become necrotic. Non-union leads to wrist osteoarthritis.
 
-**Trapezium:** Articular surface for thumb (carpometacarpal joint of thumb — saddle joint); thumb saddle joint allows circumduction; osteoarthritis of this joint is common
+### Other Key Carpal Bones
 
-**Hook of Hamate:** Visible/palpable at base of hypothenar; can be injured in golfers, baseball players; pisiform is sesamoid bone in flexor carpi ulnaris tendon
+- **Lunate:** Fractures from hyperextension; DISI (dorsal intercalated segment instability) pattern on lateral X-ray
+- **Trapezium:** Articular surface for thumb (carpometacarpal joint of thumb — saddle joint); allows circumduction; osteoarthritis of this joint is common
+- **Hook of Hamate:** Visible/palpable at base of hypothenar; can be injured in golfers, baseball players; pisiform is a sesamoid bone in flexor carpi ulnaris tendon
 
-#### Hand
+---
 
-**Thenar eminence:** Abductor pollicis brevis, opponens pollicis, flexor pollicis brevis (median nerve — except deep head from ulnar); adductor pollicis (ulnar nerve)
+## Hand Anatomy
 
-**Hypothenar eminence:** Abductor digiti minimi, flexor digiti minimi brevis, opponens digiti minimi (all ulnar nerve)
+### Thenar and Hypothenar Eminences
 
-**Lumbricals:** 4 muscles; originate from FDP tendons; insert on extensor expansions (lateral two — median nerve; medial two — ulnar nerve); extend PIP joints, flex MCP joints
+The thenar eminence contains abductor pollicis brevis, opponens pollicis, flexor pollicis brevis (median nerve — except deep head from ulnar), and adductor pollicis (ulnar nerve). The hypothenar eminence contains abductor digiti minimi, flexor digiti minimi brevis, opponens digiti minimi (all ulnar nerve).
 
-**Interossei:** 4 dorsal (abduction) + 3 palmar (adduction) — all ulnar nerve; dorsal interossei are bipennate; palmar interossei are unipennate
+### Intrinsic Hand Muscles
 
-**Metacarpophalangeal (MCP) joints:** Condyloid joints — allow flexion/extension + abduction/adduction
-**Interphalangeal (IP) joints:** Hinge joints — allow only flexion/extension
+- **Lumbricals:** 4 muscles; originate from FDP tendons; insert on extensor expansions (lateral two — median nerve; medial two — ulnar nerve); extend PIP joints, flex MCP joints
+- **Interossei:** 4 dorsal (abduction) + 3 palmar (adduction) — all ulnar nerve; dorsal interossei are bipennate; palmar interossei are unipennate
 
-**Carpal Tunnel Syndrome:**
-- Caused by: Repetitive motion (typing, assembly line), pregnancy, hypothyroidism, rheumatoid arthritis, space-occupying lesions
-- Compression of median nerve within carpal tunnel
-- Symptoms: Numbness/tingling in median nerve distribution (lateral 3.5 digits), nocturnal symptoms (worse at night), thenar weakness and atrophy (late)
-- Tinel's sign: Tapping over carpal tunnel causes paraesthesias
-- Phalen's test: Wrist flexion for 60 seconds reproduces symptoms
-- Treatment: Splinting, NSAIDs, corticosteroid injection, surgical release (divide flexor retinaculum)
+### Joints
 
-**Ulnar Nerve Entrapment at Guyon's Canal:**
-- At pisiform and hook of hamate (bony borders)
-- Purely motor: Hypothenar and interossei affected; no sensory loss over palm (ulnar nerve sensory branch to palm travels superficial to canal)
-- Hypothenar atrophy, claw hand, interosseous wasting, positive Froment's sign
+- **MCP joints:** Condyloid joints — allow flexion/extension + abduction/adduction
+- **IP joints:** Hinge joints — allow only flexion/extension
 
-**Intrinsic Hand Muscle Function:**
-- Hand muscles (interossei + lumbricals) allow: MCP flexion + IP extension (claw hand is from loss of this — unopposed extensor digitorum extends PIP joints and flexes DIP)
-- Intrinsics are responsible for fine motor movements: writing, buttoning, gripping
+### Carpal Tunnel Syndrome
+
+**Causes:** Repetitive motion (typing, assembly line), pregnancy, hypothyroidism, rheumatoid arthritis, space-occupying lesions
+
+**Compression:** Median nerve within carpal tunnel
+
+**Symptoms:** Numbness/tingling in median nerve distribution (lateral 3.5 digits), nocturnal symptoms (worse at night), thenar weakness and atrophy (late)
+
+**Tests:** Tinel's sign (tapping over carpal tunnel causes paraesthesias); Phalen's test (wrist flexion for 60 seconds reproduces symptoms)
+
+**Treatment:** Splinting, NSAIDs, corticosteroid injection, surgical release (divide flexor retinaculum)
+
+### Ulnar Nerve Entrapment at Guyon's Canal
+
+At the pisiform and hook of hamate (bony borders), this causes purely motor deficit with hypothenar and interossei affected but no sensory loss over the palm (ulnar nerve sensory branch to palm travels superficial to canal). Findings include hypothenar atrophy, claw hand, interosseous wasting, and positive Froment's sign.

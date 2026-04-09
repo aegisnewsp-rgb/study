@@ -4,43 +4,90 @@ examName: PPSC (Pakistan)
 subject: gs2
 subjectName: General Studies
 topic: pakist-003
-topicName: Topic 3
+topicName: Constitution of Pakistan
 weight: 3
 country: ppsc
 generated: "2026-03-25T17:00:00"
 ---
 
-# Topic 3
+# Constitution of Pakistan
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+> Rapid summary for last-minute revision before your PPSC exam.
 
-**Topic 3** — Key Facts for PPSC (Pakistan)
-Core concept: Topic 3 is an important topic in None for PPSC (Pakistan)
-High-yield point: Understand the fundamental principles and their applications
-⚡ Exam tip: Questions from Topic 3 appear regularly in PPSC (Pakistan)
+## Constitution of Pakistan — Key Facts
+
+### Major Constitutions
+- **1956**: First constitution (Islamic Republic)
+- **1962**: Ayub Khan era (Presidential)
+- **1973**: Current constitution (Parliamentary after 18th Amendment)
+
+### 18th Amendment (2010) — Most Important
+- Restored parliamentary system
+- Removed Concurrent Legislative List
+- Enhanced provincial autonomy (57.5% share to provinces)
+- Devolved 17 federal ministries to provinces
+
+### Key Features of 1973 Constitution
+- Bicameral Parliament: National Assembly (342) + Senate (100)
+- Federal structure with 4 provinces
+- Islamic provisions (Objectives Resolution part of constitution)
+
+⚡ **PPSC High-Yield**: 18th Amendment changed the most. Know the parliamentary system and provincial rights.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
 
-**Topic 3** — PPSC (Pakistan) Study Guide
-Overview: Topic 3 is a key None topic for PPSC (Pakistan)
-Core principles: Build a solid understanding of fundamentals
-Key points: Definitions, applications, and typical exam question patterns
-Study strategy: Theory first, then practice problems
+## Chapter: Constitution of Pakistan
 
----
+### 1.1 Evolution of Constitutions
 
-### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
+#### Objective Resolution (1949)
+- Liaquat Ali Khan
+- Became preamble of subsequent constitutions
 
-**Topic 3** — Comprehensive PPSC (Pakistan) Notes
-Full coverage: Topic 3 in None for PPSC (Pakistan) preparation
-Detailed theory and concept explanations
-Problem-solving strategies and common mistakes to avoid
-Practice: Attempt previous year questions and standard textbook exercises
+#### Constitution of 1956
+- First constitution
+- Islamic Republic declared
+- Overthrown 1958
 
----
-*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+#### Constitution of 1962
+- Ayub Khan era
+- Presidential system
+- Basic Democracy
+
+#### Constitution of 1973 — Current
+- Zulfikar Ali Bhutto
+- Parliamentary system (initially)
+
+### 1.2 18th Amendment (2010)
+
+#### Major Changes
+1. Restored parliamentary system
+2. Removed presidential power to dissolve NA unilaterally
+3. Abolished Concurrent List
+4. Enhanced NFC Award: 57.5% to provinces
+5. Devolved 17 federal ministries
+
+### 1.3 Structure of Parliament
+
+#### National Assembly
+- 342 seats (266 general, 60 women, 16 minorities)
+- 5-year term
+
+#### Senate
+- 100 seats (14 from each of 4 provinces + 8 from ICT + 4 from tribal areas)
+- 6-year term
+
+### 1.4 PPSC High-Yield Points
+
+⚡ **Commonly Asked**:
+1. **Current constitution**: 1973
+2. **18th Amendment**: Restored parliamentary system
+3. **National Assembly**: 342 seats
+4. **Senate**: 100 seats
+5. **NFC Award**: 57.5% to provinces
+6. **First constitution**: 1956
+7. **Concurrent List**: Abolished by 18th Amendment
+8. **Objective Resolution**: 1949

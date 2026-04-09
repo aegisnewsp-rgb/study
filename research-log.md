@@ -802,3 +802,30 @@ COMMIT: 8ad959d
   `sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service`
   `sudo sed -i 's/Restart=no/Restart=always/' /etc/systemd/system/studyroadmap-deploy.service`
   `sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy`
+
+---
+
+## Research Findings — 2026-04-09T20:04 UTC
+
+### 🔴 Critical (fix immediately)
+- Deploy service down — port 9000 returning 404, same recurring issue from backlog (Type=oneshot + Restart=no). Commit stuck locally.
+
+### 🟡 Important (fix this cycle)
+- Navbar missing Study Plan Generator link — backlog item #8. Page exists at `/study-plan-generator/` (rich SEO landing page with FAQPage + HowTo schema, 6 FAQs targeting "AI study plan generator" queries) but not reachable from main navigation.
+
+### 🟢 Quick Wins (easy improvements)
+- Added `/study-plan-generator/` to navLinks in Navbar.astro ✅ COMMITTED
+- Build: 3355 pages ✅
+
+### 📊 Traffic Opportunities
+- "Study Plan Generator" keyword — captured by study-plan-generator.astro (FAQPage + HowTo schema), now discoverable from navbar
+- site:studyroadmap.in returns 0 results (still not indexed — GSC code still needed from user)
+
+### ✅ Completed This Run
+- **Navbar link added**: Study Plan Generator now in main navigation (navLinks array updated in Navbar.astro)
+- **Build**: 3355 pages, committed as `397e42e`
+- **Deploy**: BLOCKED — deploy service down (same root cause as Cycles 106-107)
+
+### ⚠️ Still Blocking (needs user action)
+- Deploy service fix (SSH commands in backlog — Type=oneshot → Type=simple + Restart=always)
+- GSC verification code to replace `YOUR_VERIFICATION_CODE_HERE` placeholder

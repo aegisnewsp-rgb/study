@@ -777,3 +777,28 @@ COMMIT: 8ad959d
 **Action taken:** None — site is already very well-optimized. Sitemap lastmod dates all updated to 2026-04-08. llm.txt already updated today.
 
 **Notes:** Strong candidate for next improvement cycles: WAEC/GMAT/NECO/GRE exam pages (Nigerian/global exams) could benefit from more detailed descriptions if not already present in data. But all source exams checked DO have description fields. Site is in excellent shape.
+
+## Research Findings — 2026-04-08T13:28 UTC
+
+### 🔴 Critical (fix immediately)
+- **Build FAILING** — 5 `sa-pharm/chemistry` notes (chemis-001 to 005) missing required `country` and `generated` frontmatter fields, causing schema validation error. Site was returning 404s because broken build prevented deployment.
+
+### 🟡 Important (fix this cycle)
+- Build broken since last commit. Fixed by adding `country: sa` and `generated: "2026-03-25T17:00:00"` to chemis-001 through 005.
+
+### 🟢 Quick Wins (easy improvements)
+- Build now passes ✅ (3355 pages, 68.64s)
+- Sitemap cleaned up 2 broken exam entries automatically
+
+### 📊 Traffic Opportunities
+- Site was completely down (404) — any organic traffic was bleeding out
+- Deploy still blocked by systemd service config (Type=oneshot, Restart=no)
+
+### ✅ Completed This Run
+- Fixed 5 sa-pharm chemistry notes missing frontmatter (country + generated fields)
+- Build passes: 3355 pages ✅
+- Committed: e20e3df
+- **⚠️ Site still down** — deploy needs user SSH fix:
+  `sudo sed -i 's/Type=oneshot/Type=simple/' /etc/systemd/system/studyroadmap-deploy.service`
+  `sudo sed -i 's/Restart=no/Restart=always/' /etc/systemd/system/studyroadmap-deploy.service`
+  `sudo systemctl daemon-reload && sudo systemctl restart studyroadmap-deploy`

@@ -1,115 +1,128 @@
 ---
-const navLinks = [
-  { href: '/roadmap', label: 'Roadmap' },
-  { href: '/study-plan-generator', label: 'AI Plan' },
-  { href: '/notes', label: 'Notes' },
-  { href: '/exams', label: 'Exams' },
-  { href: '/about', label: 'About' },
-];
-
 const currentPath = Astro.url.pathname;
+
+const navLinks = [
+    { href: '/',                    label: 'Home' },
+    { href: '/exams/',              label: 'Exams' },
+    { href: '/notes/',              label: 'Notes' },
+    { href: '/roadmap/',            label: 'Roadmap' },
+    { href: '/study-plan-generator/', label: 'Study Plan Generator' },
+    { href: '/about/',             label: 'About' },
+];
 ---
 
-<header class="sticky top-0 z-50 bg-white/90 dark:bg-surface-950/90 backdrop-blur-md border-b border-surface-200 dark:border-surface-800">
-  <div class="container-page">
-    <nav class="flex items-center justify-between h-16">
-      <!-- Logo -->
-      <a href="/" class="flex items-center gap-2.5 group">
-        <div class="w-8 h-8 rounded-lg bg-brand-600 flex items-center justify-center text-white font-bold text-sm shadow-sm">
-          SR
-        </div>
-        <span class="font-bold text-surface-900 dark:text-white group-hover:text-brand-600 dark:group-hover:text-brand-400 transition-colors">
-          StudyRoadmap
-        </span>
-        <span class="hidden sm:inline text-xs font-medium px-1.5 py-0.5 rounded bg-brand-100 dark:bg-brand-900 text-brand-700 dark:text-brand-300">
-          FREE
-        </span>
-      </a>
-
-      <!-- Desktop nav -->
-      <div class="hidden sm:flex items-center gap-1">
-        {navLinks.map(link => (
-          <a
-            href={link.href}
-            class:list={[
-              'px-4 py-2 rounded-lg text-sm font-medium transition-colors',
-              currentPath === link.href || currentPath.startsWith(link.href + '/')
-                ? 'bg-brand-50 dark:bg-brand-900/30 text-brand-700 dark:text-brand-300'
-                : 'text-surface-600 dark:text-surface-400 hover:text-surface-900 dark:hover:text-white hover:bg-surface-100 dark:hover:bg-surface-800',
-            ]}
-          >
-            {link.label}
-          </a>
-        ))}
-      </div>
-
-      <!-- Right side: dark mode toggle + CTA -->
-      <div class="flex items-center gap-2">
-        <!-- Dark mode toggle -->
-        <button
-          id="theme-toggle"
-          aria-label="Toggle dark mode"
-          class="w-9 h-9 rounded-lg flex items-center justify-center text-surface-500 hover:text-surface-900 dark:text-surface-400 dark:hover:text-white hover:bg-surface-100 dark:hover:bg-surface-800 transition-colors"
-        >
-          <!-- Sun (shown in dark mode) -->
-          <svg class="w-4.5 h-4.5 hidden dark:block" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
-          </svg>
-          <!-- Moon (shown in light mode) -->
-          <svg class="w-4.5 h-4.5 block dark:hidden" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
-          </svg>
-        </button>
-
-        <!-- CTA -->
-        <a href="/roadmap" class="btn-primary text-sm px-4 py-2 hidden sm:inline-flex">
-          Get Roadmap
+<header class="sticky top-0 z-50 w-full border-b border-surface-200 dark:border-surface-800 bg-white/95 dark:bg-surface-950/95 backdrop-blur-md supports-[backdrop-filter]:bg-white/80 dark:supports-[backdrop-filter]:bg-surface-950/80" role="banner">
+    <div class="container-page flex h-14 items-center justify-between gap-4">
+        <!-- Logo -->
+        <a href="/" class="flex items-center gap-2 font-bold text-lg text-surface-900 dark:text-white hover:text-brand-600 dark:hover:text-brand-400 transition-colors" aria-label="StudyRoadmap home">
+            <svg class="w-7 h-7 text-brand-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2z" /><path d="M22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z" />
+            </svg>
+            <span>StudyRoadmap<sup class="text-[0.5em] align-super opacity-60">&trade;</sup></span>
         </a>
 
-        <!-- Mobile menu button -->
-        <button
-          id="mobile-menu-btn"
-          class="sm:hidden w-9 h-9 rounded-lg flex items-center justify-center text-surface-500 hover:text-surface-900 dark:text-surface-400 dark:hover:text-white hover:bg-surface-100 dark:hover:bg-surface-800 transition-colors"
-          aria-label="Open menu"
-        >
-          <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-          </svg>
-        </button>
-      </div>
-    </nav>
+        <!-- Desktop Navigation -->
+        <nav class="hidden sm:flex items-center gap-1" aria-label="Main navigation" role="navigation">
+            {navLinks.map(link => (
+                <a
+                    href={link.href}
+                    class:list={[
+                        'block px-4 py-2.5 rounded-lg text-sm font-medium transition-colors',
+                        currentPath === link.href
+                            ? 'bg-brand-50 dark:bg-brand-900/30 text-brand-700 dark:text-brand-300'
+                            : 'text-surface-600 dark:text-surface-400 hover:text-surface-900 dark:hover:text-white hover:bg-surface-100 dark:hover:bg-surface-800',
+                    ]}
+                    aria-current={currentPath === link.href ? 'page' : undefined}
+                >
+                    {link.label}
+                </a>
+            ))}
+        </nav>
+
+        <div class="flex items-center gap-2">
+            <!-- Theme toggle -->
+            <button
+                id="theme-toggle"
+                class="w-9 h-9 rounded-lg flex items-center justify-center text-surface-500 hover:text-surface-900 dark:text-surface-400 dark:hover:text-white hover:bg-surface-100 dark:hover:bg-surface-800 transition-colors"
+                aria-label="Toggle dark mode"
+                title="Toggle dark mode"
+            >
+                <!-- Sun (shown in dark mode) -->
+                <svg class="w-4.5 h-4.5 hidden dark:block" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386l-1.591 1.591M21 12h-2.25m-.386 6.364l-1.591-1.591M12 18.75V21m-4.773-4.227l-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" />
+                </svg>
+                <!-- Moon (shown in light mode) -->
+                <svg class="w-4.5 h-4.5 block dark:hidden" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z" />
+                </svg>
+            </button>
+
+            <!-- CTA Button -->
+            <a href="/roadmap/" class="btn-primary text-sm px-4 py-2 hidden sm:inline-flex">
+                Get Roadmap
+            </a>
+
+            <!-- Mobile menu button -->
+            <button
+                id="mobile-menu-btn"
+                class="sm:hidden w-9 h-9 rounded-lg flex items-center justify-center text-surface-500 hover:text-surface-900 dark:text-surface-400 dark:hover:text-white hover:bg-surface-100 dark:hover:bg-surface-800 transition-colors"
+                aria-label="Open menu"
+                aria-expanded="false"
+                aria-controls="mobile-menu"
+            >
+                <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+            </button>
+        </div>
+    </div>
 
     <!-- Mobile menu -->
-    <div id="mobile-menu" class="hidden sm:hidden pb-4">
-      {navLinks.map(link => (
-        <a
-          href={link.href}
-          class:list={[
-            'block px-4 py-2.5 rounded-lg text-sm font-medium transition-colors',
-            currentPath === link.href
-              ? 'bg-brand-50 dark:bg-brand-900/30 text-brand-700 dark:text-brand-300'
-              : 'text-surface-600 dark:text-surface-400 hover:text-surface-900 dark:hover:text-white hover:bg-surface-100 dark:hover:bg-surface-800',
-          ]}
-        >
-          {link.label}
-        </a>
-      ))}
-    </div>
-  </div>
+    <nav id="mobile-menu" class="hidden sm:hidden border-t border-surface-200 dark:border-surface-800 bg-white dark:bg-surface-950 pb-4" aria-label="Mobile navigation" role="navigation">
+        <div class="container-page pt-2 space-y-1">
+            {navLinks.map(link => (
+                <a
+                    href={link.href}
+                    class:list={[
+                        'block px-4 py-3 rounded-lg text-sm font-medium transition-colors',
+                        currentPath === link.href
+                            ? 'bg-brand-50 dark:bg-brand-900/30 text-brand-700 dark:text-brand-300'
+                            : 'text-surface-600 dark:text-surface-400 hover:text-surface-900 dark:hover:text-white hover:bg-surface-100 dark:hover:bg-surface-800',
+                    ]}
+                    aria-current={currentPath === link.href ? 'page' : undefined}
+                >
+                    {link.label}
+                </a>
+            ))}
+            <a href="/roadmap/" class="block mt-2 btn-primary text-sm px-4 py-3 text-center rounded-lg">
+                Get Your Roadmap
+            </a>
+        </div>
+    </nav>
 </header>
 
 <script>
-  // Theme toggle
-  const btn = document.getElementById('theme-toggle');
-  btn?.addEventListener('click', () => {
-    const isDark = document.documentElement.classList.toggle('dark');
-    localStorage.setItem('theme', isDark ? 'dark' : 'light');
-  });
+    // Theme toggle
+    const btn = document.getElementById('theme-toggle');
+    btn?.addEventListener('click', () => {
+        const isDark = document.documentElement.classList.toggle('dark');
+        localStorage.setItem('theme', isDark ? 'dark' : 'light');
+    });
 
-  // Mobile menu
-  const mobileBtn = document.getElementById('mobile-menu-btn');
-  const mobileMenu = document.getElementById('mobile-menu');
-  mobileBtn?.addEventListener('click', () => {
-    mobileMenu?.classList.toggle('hidden');
-  });
+    // Mobile menu with improved accessibility
+    const mobileBtn = document.getElementById('mobile-menu-btn');
+    const mobileMenu = document.getElementById('mobile-menu');
+    mobileBtn?.addEventListener('click', () => {
+        const isHidden = mobileMenu?.classList.toggle('hidden');
+        mobileBtn.setAttribute('aria-expanded', isHidden ? 'false' : 'true');
+    });
+
+    // Close mobile menu on escape key
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && mobileMenu && !mobileMenu.classList.contains('hidden')) {
+            mobileMenu.classList.add('hidden');
+            mobileBtn?.setAttribute('aria-expanded', 'false');
+            mobileBtn?.focus();
+        }
+    });
 </script>

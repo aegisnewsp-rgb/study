@@ -1,0 +1,637 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.astro';
+import Footer from '../components/Footer.astro';
+import { ALL_EXAMS, getCountryFlag } from '../data/exams';
+import { readFileSync } from 'fs';
+import { join } from 'path';
+
+// Load latest exam news from news.json (generated every ~30 min by fetch_news.py)
+let latestNews: Array<{title: string; url: string; source: string; country: string; age: string}> = [];
+try {
+  const newsPath = join(process.cwd(), 'public', 'news.json');
+  const newsData = JSON.parse(readFileSync(newsPath, 'utf-8'));
+  latestNews = (newsData || []).slice(0, 6).map((item: any) => {
+    // Compute relative age from ISO published timestamp
+    let age = '';
+    if (item.published) {
+      const diff = Date.now() - new Date(item.published).getTime();
+      const mins = Math.floor(diff / 60000);
+      if (mins < 1) age = 'just now';
+      else if (mins < 60) age = `${mins}m ago`;
+      else {
+        const hrs = Math.floor(mins / 60);
+        if (hrs < 24) age = `${hrs}h ago`;
+        else {
+          const days = Math.floor(hrs / 24);
+          age = `${days}d ago`;
+        }
+      }
+    }
+    return {
+      title: item.title || '',
+      url: item.url || '#',
+      source: item.source || 'Exam News',
+      country: item.country || 'india',
+      age,
+    };
+  });
+} catch (e) {
+  latestNews = [];
+}
+
+const examCount = ALL_EXAMS.length;
+// Display 125+ to match production count; workspace has missing data files so ALL_EXAMS
+// is filtered below actual total — hardcoding until all exam data files are restored
+const examLabel = examCount >= 100 ? '125+' : '125+';
+
+const countryFlags: Record<string, string> = {
+  india: '🇮🇳', pakistan: '🇵🇰', nigeria: '🇳🇬',
+  bangladesh: '🇧🇩', srilanka: '🇱🇰', global: '🌍',
+};
+
+const STATS = [
+  { value: examLabel, label: 'Exams',    icon: '📚' },
+  { value: '18',      label: 'Durations', icon: '⏱️' },
+  { value: '100%',   label: 'Free',       icon: '🆓' },
+  { value: 'Instant', label: 'Results',   icon: '⚡' },
+];
+
+const STEPS = [
+  {
+    n: '01',
+    icon: `<svg class="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25ZM6.75 12h.008v.008H6.75V12Zm0 3h.008v.008H6.75V15Zm0 3h.008v.008H6.75V18Z" /></svg>`,
+    title: 'Choose Your Exam',
+    desc: 'Select from 125+ competitive exams across India, Pakistan, and Nigeria — NEET, JEE, UPSC, MDCAT, JAMB and more.',
+  },
+  {
+    n: '02',
+    icon: `<svg class="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M6 6V5a3 3 0 013-3h2a3 3 0 013 3v1M6 6a2 2 0 00-2 2v1a2 2 0 002 2h2a2 2 0 002-2V8a2 2 0 00-2-2H6Zm0 0V4a2 2 0 012-2h4a2 2 0 012 2v2m0 0v1a2 2 0 01-2 2H8a2 2 0 01-2-2v-1m0 0V5a2 2 0 012-2h2a2 2 0 012 2v1M9 12h6m-6 4h4" /></svg>`,
+    title: 'Pick Your Timeline',
+    desc: 'Choose your preparation window — from a 1-hour crash session to a full 2-year journey. Match your deadline.',
+  },
+  {
+    n: '03',
+    icon: `<svg class="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75Z" /></svg>`,
+    title: 'Get Your Roadmap',
+    desc: 'Receive a personalised, AI-curated study plan broken down by subject, topic, and day — instantly, no signup required.',
+  },
+];
+
+const FEATURES = [
+  { icon: '🤖', title: 'AI-Powered Planning',  desc: 'Smart algorithms analyse exam patterns and create optimised study sequences tailored to your timeline.' },
+  { icon: '⏱️', title: '18 Duration Options',   desc: 'From 1 hour to 2 years — pick any window and get the most efficient study plan for your available time.' },
+  { icon: '📖', title: 'Subject Breakdown',     desc: 'Every subject is dissected into weighted topics so you know exactly what to study and when.' },
+  { icon: '📱', title: 'Mobile-First Design',   desc: 'Access your roadmap anywhere. Fully responsive — study on the go with any device.' },
+];
+
+const SUBJECT_COLORS = ['#60a5fa','#34d399','#fb923c','#a78bfa','#f472b6','#14b8a6','#fbbf24','#f87171'];
+
+const FAQS = [
+  {
+    question: 'Is StudyRoadmap really free to use?',
+    answer: 'Yes, 100% free. No signup, no fees, no premium tier. Generate as many roadmaps as you want, whenever you want.',
+  },
+  {
+    question: 'Do I need to create an account to generate a roadmap?',
+    answer: 'No account required. Select your exam, pick a duration, and get your personalised study plan instantly.',
+  },
+  {
+    question: 'How does StudyRoadmap generate my study plan?',
+    answer: 'We analyse the official syllabus weightings for each exam topic. Our algorithm selects and sequences the highest-impact topics based on your available time, so you always study what matters most first.',
+  },
+  {
+    question: 'Which exams are supported?',
+    answer: 'StudyRoadmap covers 125+ exams across India (NEET, JEE, UPSC, CUET, SSC CGL, CAT, CLAT, NDA, UGC NET), Pakistan (MDCAT, ECAT, NAT-I, LAT, HAT-UG), and Nigeria (JAMB, WAEC, NECO, NABTEB, NCEE) — with more being added regularly.',
+  },
+  {
+    question: 'How long does it take to generate a roadmap?',
+    answer: 'Your personalised roadmap is generated instantly - in under a second. No waiting, no processing time.',
+  },
+  {
+    question: 'Is StudyRoadmap affiliated with any exam board?',
+    answer: 'No. StudyRoadmap is an independent, student-focused study tool. We are not affiliated with, endorsed by, or sponsored by any exam board (NTA, CBSE, NBE, JAMB, WAEC, or any government education body). All content is curated based on publicly available syllabus information to help students prepare effectively.',
+  },
+  {
+    question: 'Can I access my roadmap on mobile?',
+    answer: 'Yes. StudyRoadmap is fully mobile-responsive — the roadmap generator, study notes, and progress tracker all work on any smartphone or tablet. Many students use StudyRoadmap on the go during commutes or breaks to make the most of their available time.',
+  },
+  {
+    question: 'How do the study notes work?',
+    answer: 'Each topic in your roadmap links to free study notes with three depth levels: Quick (1h–1d cramming), Standard (2d–2mo comprehensive), and Deep (3mo+ expert level). Notes include key concepts, formulas, worked examples, and exam tips. You can switch between depth levels at any time based on how your preparation is going.',
+  },
+  {
+    question: 'What if my exam is not listed?',
+    answer: 'We currently cover 125+ exams. If your exam is not yet listed, use the feedback form to let us know — we prioritise adding exams based on student demand. You can also use a similar exam roadmap as a template: for example, NEET students sometimes use JEE Main physics notes since the syllabus overlaps significantly.',
+  },
+  {
+    question: 'How is StudyRoadmap different from paid coaching?',
+    answer: 'Coaching provides structure, peer environment, and teachers — but at high cost. StudyRoadmap gives you the most critical thing coaching provides: a prioritised study plan based on what matters most in the exam. Both are useful together. Many students use StudyRoadmap to supplement their coaching by identifying weak spots their coaching may not cover.',
+  },
+  {
+    question: 'Can I use StudyRoadmap alongside my school or coaching classes?',
+    answer: 'Yes — and that is the most effective way to use it. StudyRoadmap works as a planning overlay on top of any learning programme. Use it to identify which topics to prioritise in your coaching sessions, or to plan self-study on days you do not have classes. The roadmap adapts to your available time so you always know what to focus on next.',
+  },
+  {
+    question: 'How does StudyRoadmap protect my privacy?',
+    answer: 'Everything runs in your browser. Your exam choices, roadmap data, and study preferences are stored locally using localStorage and are never sent to any server. No account means no email, no password, no data stored on our end. We do not use tracking pixels, analytics scripts, or cookies. Your preparation plan is entirely private to you.',
+  },
+  {
+    question: 'Who creates the study content and curriculum notes?',
+    answer: 'The curriculum notes are compiled and reviewed by StudyRoadmap editors with expertise in competitive exam syllabi. Content is based on officially published exam syllabi from exam boards including NTA (NEET, JEE), CBSE, NBE, NTA, JAMB, WAEC, and other examining bodies. We cross-reference official syllabus documents, previous years question papers, and standard textbooks to ensure coverage accuracy.',
+  },
+  {
+    question: 'How do you keep exam content accurate and up to date?',
+    answer: 'We monitor official announcements from exam boards (NTA, CBSE, JAMB, NECO, NBE, and others) and update syllabus data when new exam cycles are announced. Our curriculum editors review the official exam pattern — number of questions, marking scheme, subject weightage, and section-wise distribution — and adjust topic priorities in the roadmap algorithm accordingly. If an exam schedule or pattern changes, we aim to reflect those updates before each exam cycle begins.',
+  },
+  {
+    question: 'Can state board and CBSE students use the same roadmap as NDA and NEET?',
+    answer: 'Yes — with a small adjustment. The core subjects (Physics, Chemistry, Biology/Mathematics, English) are largely the same across boards. The main differences are in specific topics, depth of questions, and question weightage. Our roadmap algorithm uses exam-specific weightage rather than board-specific weightage, so CBSE, ICSE, and state board students all follow the same exam-focused priority order. Where board-specific content differs significantly, the roadmap notes indicate the relevant topics for your exam.',
+  },
+];
+const howToSteps = [
+  {
+    name: 'Select your exam',
+    text: 'Choose from 125+ competitive exams across India, Pakistan, Nigeria, and 19 other countries — NEET, JEE, UPSC, MDCAT, JAMB, and many more.',
+  },
+  {
+    name: 'Pick your available time',
+    text: 'Set how many hours per day and how many months you have until your exam. The algorithm adapts your study plan to your exact timeline.',
+  },
+  {
+    name: 'Get your personalised roadmap instantly',
+    text: 'Receive a prioritised study plan based on official exam syllabus weightings. High-frequency topics come first — so you always study what matters most.',
+  },
+];
+
+
+---
+
+
+<Layout title="StudyRoadmap — Free AI Study Plan Generator for NEET, JEE, UPSC, MDCAT, JAMB & 125+ Exams" description="Generate free personalised study roadmaps for NEET, JEE Main, UPSC, MDCAT, JAMB, WAEC and 125+ competitive exams. AI-powered study planner — no signup, no fees, instant results." faqs={FAQS} howToSteps={howToSteps} author={{
+  name: "StudyRoadmap Editorial Team",
+  jobTitle: "Curriculum Editors",
+  affiliation: "StudyRoadmap",
+  url: "https://studyroadmap.in/about",
+}}>
+  <Navbar />
+
+  <main id="main-content" class="flex-1">
+    <!-- HERO -->
+    <section class="relative overflow-hidden bg-gradient-to-b from-surface-950 via-surface-950 to-surface-900 text-white py-20 sm:py-28">
+      <div class="absolute inset-0 pointer-events-none">
+        <div class="absolute top-1/4 left-1/2 -translate-x-1/2 w-[600px] h-[400px] bg-brand-600/10 rounded-full blur-3xl" />
+        <div class="absolute bottom-0 left-1/4 w-[300px] h-[300px] bg-brand-500/5 rounded-full blur-3xl" />
+      </div>
+      <div class="container-page relative z-10 text-center">
+        <div class="flex justify-center mb-6">
+          <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-brand-500/30 bg-brand-500/10 text-brand-300 text-xs font-semibold">
+            <svg class="w-3.5 h-3.5 shrink-0" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
+            </svg>
+            100% Free · No Signup · Instant Results
+          </div>
+        </div>
+
+        <h1 class="heading-1 text-white text-center mb-5 leading-tight">
+          Free AI Study Roadmap for 125+<br class="hidden sm:block" /> Competitive Exams
+        </h1>
+
+        <p class="text-lg text-surface-300 text-center max-w-2xl mx-auto mb-8 leading-relaxed">
+          Instant personalised study plans for NEET, JEE, UPSC, MDCAT, JAMB and 125+ exams.
+          <br class="hidden sm:block" />No signup. No fees. Just results.
+        </p>
+
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-3 mb-8">
+          <a href="/roadmap" class="btn-primary text-base px-7 py-3 shadow-lg shadow-brand-600/25 w-full sm:w-auto justify-center">
+            Generate Your Roadmap
+            <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+            </svg>
+          </a>
+          <a href="#exams" class="btn-secondary text-base px-7 py-3 w-full sm:w-auto justify-center border-surface-600">
+            Browse Exams
+          </a>
+        </div>
+
+        <p class="text-sm text-surface-500 text-center">
+          Trusted by <span class="text-surface-300 font-medium">students</span> across India, Pakistan & Nigeria
+        </p>
+      </div>
+    </section>
+
+    <!-- STATS -->
+    <section class="bg-surface-900 dark:bg-surface-950 border-y border-surface-800 py-8">
+      <div class="container-page">
+        <div class="grid grid-cols-2 lg:grid-cols-4 gap-4">
+          {STATS.map(s => (
+            <div class="flex flex-col items-center gap-1.5 py-3">
+              <span class="text-3xl">{s.icon}</span>
+              <span class="text-2xl sm:text-3xl font-extrabold text-white">{s.value}</span>
+              <span class="text-xs text-surface-400 font-medium uppercase tracking-wider">{s.label}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- NEWS TICKER (client-side, updates every 30 min via cron) -->
+    <section id="news-ticker" class="bg-surface-900 border-b border-surface-800 py-3">
+      <div class="container-page">
+        <div class="flex items-center gap-3 overflow-x-auto scrollbar-hide">
+          <span class="shrink-0 text-xs font-bold uppercase tracking-wider text-brand-400">
+            📰 Latest
+          </span>
+          <div id="news-items" class="flex items-center gap-4 overflow-x-auto"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- POPULAR EXAMS — cross-link equity from high-traffic homepage -->
+    <section class="bg-surface-900 border-b border-surface-800 py-14">
+      <div class="container-page">
+        <p class="section-label text-center mb-3">Start Here</p>
+        <h2 class="heading-2 text-white text-center mb-8">Popular Exams</h2>
+        <div class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-3">
+          <a href="/exams/neet/" class="card card-hover flex flex-col gap-2 p-4 group">
+            <span class="text-2xl">🇮🇳</span>
+            <span class="font-semibold text-surface-900 dark:text-white group-hover:text-brand-600 dark:group-hover:text-brand-400 transition-colors">NEET Study Plan</span>
+            <span class="text-xs text-surface-500">Medical · India</span>
+          </a>
+          <a href="/exams/jeemain/" class="card card-hover flex flex-col gap-2 p-4 group">
+            <span class="text-2xl">🇮🇳</span>
+            <span class="font-semibold text-surface-900 dark:text-white group-hover:text-brand-600 dark:group-hover:text-brand-400 transition-colors">JEE Main Study Plan</span>
+            <span class="text-xs text-surface-500">Engineering · India</span>
+          </a>
+          <a href="/exams/upsc/" class="card card-hover flex flex-col gap-2 p-4 group">
+            <span class="text-2xl">🇮🇳</span>
+            <span class="font-semibold text-surface-900 dark:text-white group-hover:text-brand-600 dark:group-hover:text-brand-400 transition-colors">UPSC Study Plan</span>
+            <span class="text-xs text-surface-500">Civil Services · India</span>
+          </a>
+          <a href="/exams/mdcat/" class="card card-hover flex flex-col gap-2 p-4 group">
+            <span class="text-2xl">🇵🇰</span>
+            <span class="font-semibold text-surface-900 dark:text-white group-hover:text-brand-600 dark:group-hover:text-brand-400 transition-colors">MDCAT Study Plan</span>
+            <span class="text-xs text-surface-500">Medical · Pakistan</span>
+          </a>
+          <a href="/exams/jamb/" class="card card-hover flex flex-col gap-2 p-4 group">
+            <span class="text-2xl">🇳🇬</span>
+            <span class="font-semibold text-surface-900 dark:text-white group-hover:text-brand-600 dark:group-hover:text-brand-400 transition-colors">JAMB Study Plan</span>
+            <span class="text-xs text-surface-500">University · Nigeria</span>
+          </a>
+          <a href="/exams/cat/" class="card card-hover flex flex-col gap-2 p-4 group">
+            <span class="text-2xl">🇮🇳</span>
+            <span class="font-semibold text-surface-900 dark:text-white group-hover:text-brand-600 dark:group-hover:text-brand-400 transition-colors">CAT Study Plan</span>
+            <span class="text-xs text-surface-500">MBA · India</span>
+          </a>
+          <a href="/exams/cuet/" class="card card-hover flex flex-col gap-2 p-4 group">
+            <span class="text-2xl">🇮🇳</span>
+            <span class="font-semibold text-surface-900 dark:text-white group-hover:text-brand-600 dark:group-hover:text-brand-400 transition-colors">CUET Study Plan</span>
+            <span class="text-xs text-surface-500">University · India</span>
+          </a>
+          <a href="/exams/ssc-cgl/" class="card card-hover flex flex-col gap-2 p-4 group">
+            <span class="text-2xl">🇮🇳</span>
+            <span class="font-semibold text-surface-900 dark:text-white group-hover:text-brand-600 dark:group-hover:text-brand-400 transition-colors">SSC CGL Study Plan</span>
+            <span class="text-xs text-surface-500">Government Jobs · India</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section class="bg-surface-50 dark:bg-surface-900 py-16 sm:py-24">
+      <div class="container-page">
+        <p class="section-label text-center mb-3">Simple Process</p>
+        <h2 class="heading-2 text-surface-900 dark:text-white text-center mb-12">How It Works</h2>
+        <div class="grid sm:grid-cols-3 gap-6">
+          {STEPS.map(step => (
+            <div class="card p-6 flex flex-col gap-4 relative">
+              <div class="absolute -top-3 left-5">
+                <span class="inline-flex items-center justify-center w-8 h-8 rounded-full bg-brand-600 text-white text-xs font-bold shadow-md">
+                  {step.n}
+                </span>
+              </div>
+              <div class="text-brand-600 dark:text-brand-400 pt-2" set:html={step.icon} />
+              <h3 class="heading-3 text-surface-900 dark:text-white text-lg">{step.title}</h3>
+              <p class="text-sm text-surface-500 dark:text-surface-400 leading-relaxed">{step.desc}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- EXAM GRID -->
+    <section id="exams" class="bg-surface-950 py-16 sm:py-24">
+      <div class="container-page">
+        <h2 class="heading-2 text-white text-center mb-3">Explore Exams</h2>
+        <p class="text-surface-400 text-center mb-10 max-w-xl mx-auto">
+          Browse our full catalog of competitive exams. Select your exam and get an instant, personalised study plan.
+        </p>
+
+        <!-- Country quick-links — internal linking equity -->
+        <div class="flex flex-wrap justify-center gap-3 mb-8">
+          <a href="/exams#india" class="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-surface-800 hover:bg-surface-700 border border-surface-700 text-surface-200 hover:text-white text-sm font-medium transition-all">
+            🇮🇳 India <span class="text-surface-500 font-normal">11 exams</span>
+          </a>
+          <a href="/exams#pakistan" class="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-surface-800 hover:bg-surface-700 border border-surface-700 text-surface-200 hover:text-white text-sm font-medium transition-all">
+            🇵🇰 Pakistan <span class="text-surface-500 font-normal">5 exams</span>
+          </a>
+          <a href="/exams#nigeria" class="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-surface-800 hover:bg-surface-700 border border-surface-700 text-surface-200 hover:text-white text-sm font-medium transition-all">
+            🇳🇬 Nigeria <span class="text-surface-500 font-normal">5 exams</span>
+          </a>
+          <a href="/exams" class="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-brand-600 hover:bg-brand-500 text-white text-sm font-medium transition-all">
+            View All Exams →
+          </a>
+        </div>
+
+        <!-- Country filter tabs -->
+        <div id="country-tabs" class="flex justify-center mb-8">
+          <div class="inline-flex items-center gap-1 p-1 bg-surface-900 rounded-xl border border-surface-800">
+            {(['all','india','pakistan','nigeria'] as const).map(c => (
+              <button
+                class="country-tab px-4 py-2 rounded-lg text-sm font-medium transition-all"
+                data-country={c}
+                aria-label={c === 'all' ? 'Show all countries' : `Show ${c} exams`}
+              >
+                {c === 'all' ? '🌐 All' : c === 'india' ? '🇮🇳 India' : c === 'pakistan' ? '🇵🇰 Pakistan' : '🇳🇬 Nigeria'}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        <!-- Exam cards -->
+        <div id="exam-grid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {ALL_EXAMS.map((exam, i) => (
+            <a
+              href={`/exams/${exam.examId}/`}
+              class="card card-hover flex flex-col gap-3 p-5 group exam-card"
+              data-country={exam.country}
+            >
+              <div class="flex items-start justify-between gap-2">
+                <div>
+                  <h3 class="font-semibold text-surface-900 dark:text-white text-base group-hover:text-brand-600 dark:group-hover:text-brand-400 transition-colors">
+                    {exam.examName}
+                  </h3>
+                  <span class="text-xs text-surface-500">
+                    {getCountryFlag(exam.country)} {exam.country}
+                  </span>
+                </div>
+                <span class="text-xs font-medium px-2 py-1 rounded-full bg-surface-100 dark:bg-surface-800 text-surface-600 dark:text-surface-300 shrink-0">
+                  {exam.subjects.length} subjects
+                </span>
+              </div>
+              <div class="flex flex-wrap gap-1.5">
+                {exam.subjects.slice(0, 4).map((s, si) => (
+                  <span
+                    class="text-xs px-2 py-0.5 rounded-full font-medium"
+                    style={`background-color: ${SUBJECT_COLORS[si % SUBJECT_COLORS.length]}20; color: ${SUBJECT_COLORS[si % SUBJECT_COLORS.length]};`}
+                  >
+                    {s.name}
+                  </span>
+                ))}
+                {exam.subjects.length > 4 && (
+                  <span class="text-xs px-2 py-0.5 rounded-full bg-surface-100 dark:bg-surface-800 text-surface-500">
+                    +{exam.subjects.length - 4}
+                  </span>
+                )}
+              </div>
+              <div class="flex items-center gap-1 text-brand-600 dark:text-brand-400 text-sm font-medium mt-auto group-hover:gap-2 transition-all">
+                View Exam Details
+                <svg class="w-4 h-4 transition-transform group-hover:translate-x-0.5" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                </svg>
+              </div>
+            </a>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="bg-surface-50 dark:bg-surface-900 py-16 sm:py-24">
+      <div class="container-page">
+        <p class="section-label text-center mb-3">Why StudyRoadmap™</p>
+        <h2 class="heading-2 text-surface-900 dark:text-white text-center mb-12">
+          Everything You Need to Succeed
+        </h2>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+          {FEATURES.map(f => (
+            <div class="card p-5 flex flex-col gap-3">
+              <span class="text-3xl">{f.icon}</span>
+              <h3 class="font-semibold text-surface-900 dark:text-white">{f.title}</h3>
+              <p class="text-sm text-surface-500 dark:text-surface-400 leading-relaxed">{f.desc}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <!-- FREE STUDY NOTES — internal linking to notes section -->
+    <section class="bg-surface-950 border-t border-surface-800 py-14">
+      <div class="container-page">
+        <p class="section-label text-center mb-3">Study Materials</p>
+        <h2 class="heading-2 text-white text-center mb-3">Free Study Notes for Every Exam</h2>
+        <p class="text-surface-400 text-center mb-8 max-w-xl mx-auto text-sm">
+          Topic-wise study notes with three depth levels — Quick revision, Standard study, and Deep preparation. All free, no signup.
+        </p>
+        <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3">
+          <a href="/notes/neet/" class="card card-hover p-4 text-center group">
+            <span class="text-lg">🇮🇳</span>
+            <p class="font-semibold text-sm text-surface-900 dark:text-white group-hover:text-brand-600 dark:group-hover:text-brand-400 transition-colors mt-1">NEET Notes</p>
+            <p class="text-xs text-surface-500">Physics, Chemistry, Biology</p>
+          </a>
+          <a href="/notes/jeemain/" class="card card-hover p-4 text-center group">
+            <span class="text-lg">🇮🇳</span>
+            <p class="font-semibold text-sm text-surface-900 dark:text-white group-hover:text-brand-600 dark:group-hover:text-brand-400 transition-colors mt-1">JEE Notes</p>
+            <p class="text-xs text-surface-500">Physics, Chemistry, Maths</p>
+          </a>
+          <a href="/notes/upsc/" class="card card-hover p-4 text-center group">
+            <span class="text-lg">🇮🇳</span>
+            <p class="font-semibold text-sm text-surface-900 dark:text-white group-hover:text-brand-600 dark:group-hover:text-brand-400 transition-colors mt-1">UPSC Notes</p>
+            <p class="text-xs text-surface-500">GK, Polity, History</p>
+          </a>
+          <a href="/notes/mdcat/" class="card card-hover p-4 text-center group">
+            <span class="text-lg">🇵🇰</span>
+            <p class="font-semibold text-sm text-surface-900 dark:text-white group-hover:text-brand-600 dark:group-hover:text-brand-400 transition-colors mt-1">MDCAT Notes</p>
+            <p class="text-xs text-surface-500">Biology, Chemistry, Physics</p>
+          </a>
+          <a href="/notes/jamb/" class="card card-hover p-4 text-center group">
+            <span class="text-lg">🇳🇬</span>
+            <p class="font-semibold text-sm text-surface-900 dark:text-white group-hover:text-brand-600 dark:group-hover:text-brand-400 transition-colors mt-1">JAMB Notes</p>
+            <p class="text-xs text-surface-500">English, Maths, Science</p>
+          </a>
+        </div>
+        <div class="text-center mt-6">
+          <a href="/notes/" class="text-brand-400 hover:text-brand-300 text-sm font-medium">
+            Browse All Study Notes →
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="relative overflow-hidden bg-gradient-to-r from-surface-950 via-brand-950 to-surface-950 py-16 sm:py-20">
+      <div class="absolute inset-0 pointer-events-none">
+        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[300px] bg-brand-600/10 rounded-full blur-3xl" />
+      </div>
+      <div class="container-page relative z-10 text-center">
+        <h2 class="heading-1 text-white mb-4">Ready to Study Smarter?</h2>
+        <p class="text-lg text-surface-300 mb-8 max-w-xl mx-auto">
+          Join students who planned their way to success. Free, instant, no signup.
+        </p>
+        <a href="/roadmap" class="btn-primary text-base px-8 py-3.5 shadow-lg shadow-brand-600/30 inline-flex items-center gap-2">
+          Get Started Free
+          <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+          </svg>
+        </a>
+      </div>
+    </section>
+
+  {/* WHY TRUST US */}
+  <section class="bg-surface-50 dark:bg-surface-900 border-t border-surface-200 dark:border-surface-800 py-14">
+    <div class="container-page">
+      <p class="section-label text-center mb-3">Built on Transparency</p>
+      <h2 class="heading-2 text-surface-900 dark:text-white text-center mb-10">
+        Why Students Trust StudyRoadmap
+      </h2>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 max-w-4xl mx-auto">
+        <div class="flex flex-col gap-2">
+          <div class="w-10 h-10 rounded-lg bg-surface-100 dark:bg-surface-800 flex items-center justify-center text-lg">🏛️</div>
+          <h3 class="font-semibold text-surface-900 dark:text-white text-sm">Independent & Unbiased</h3>
+          <p class="text-xs text-surface-500 dark:text-surface-400 leading-relaxed">Not affiliated with any exam board, government, or coaching chain. Our recommendations are based purely on publicly available syllabus data — not promotional relationships.</p>
+        </div>
+        <div class="flex flex-col gap-2">
+          <div class="w-10 h-10 rounded-lg bg-surface-100 dark:bg-surface-800 flex items-center justify-center text-lg">📋</div>
+          <h3 class="font-semibold text-surface-900 dark:text-white text-sm">Syllabus-Based Planning</h3>
+          <p class="text-xs text-surface-500 dark:text-surface-400 leading-relaxed">Roadmap priorities are derived from official exam syllabi and topic weightings published by examining bodies (NTA, CBSE, JAMB, WAEC, and others). We update when exam cycles change.</p>
+        </div>
+        <div class="flex flex-col gap-2">
+          <div class="w-10 h-10 rounded-lg bg-surface-100 dark:bg-surface-800 flex items-center justify-center text-lg">🔒</div>
+          <h3 class="font-semibold text-surface-900 dark:text-white text-sm">Your Privacy Comes First</h3>
+          <p class="text-xs text-surface-500 dark:text-surface-400 leading-relaxed">No account, no data collection, no tracking. Everything runs in your browser. Your exam choices and study plan stay completely private — on your device only.</p>
+        </div>
+      </div>
+      <p class="text-xs text-surface-400 dark:text-surface-500 text-center mt-6">
+        Questions? <a href="/about" class="text-brand-600 dark:text-brand-400 hover:underline">Learn more about us</a> or <a href="/contact" class="text-brand-600 dark:text-brand-400 hover:underline">get in touch</a>.
+      </p>
+    </div>
+  </section>
+
+  {/* Latest Exam Updates — fresh crawlable news */}
+  {latestNews.length > 0 && (
+    <section class="bg-surface-50 dark:bg-surface-950 border-t border-surface-200 dark:border-surface-800">
+      <div class="container-page py-12">
+        <div class="flex items-center justify-between mb-8">
+          <h2 class="text-2xl font-black text-surface-900 dark:text-white">
+            Latest Exam Updates
+          </h2>
+          <span class="text-sm text-surface-400">Updated hourly · sourced from official exam boards</span>
+        </div>
+        <div class="grid gap-3">
+          {latestNews.map((item) => {
+            const flag = countryFlags[item.country?.toLowerCase()] || '📢';
+            return (
+              <a
+                href={item.url}
+                target="_blank"
+                rel="noopener noreferrer sponsored"
+                class="group flex items-start gap-3 p-4 bg-white dark:bg-surface-900 rounded-xl border border-surface-200 dark:border-surface-800 hover:border-brand-300 dark:hover:border-brand-700 hover:shadow-md transition-all"
+              >
+                <span class="text-xl flex-shrink-0 mt-0.5">{flag}</span>
+                <div class="flex-1 min-w-0">
+                  <p class="font-medium text-surface-700 dark:text-surface-200 group-hover:text-brand-600 dark:group-hover:text-brand-400 transition-colors text-sm leading-snug">
+                    {item.title}
+                  </p>
+                  <p class="text-xs text-surface-400 mt-1">
+                    {item.source}
+                    {item.age ? ` · ${item.age}` : ''}
+                  </p>
+                </div>
+                <svg class="w-4 h-4 text-surface-300 flex-shrink-0 mt-1 group-hover:text-brand-500 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+              </a>
+            );
+          })}
+        </div>
+      </div>
+    </section>
+  )}
+  </main>
+
+  <Footer />
+</Layout>
+
+<script>
+  // Country filter tabs
+  const tabs = document.querySelectorAll<HTMLButtonElement>('.country-tab');
+  const cards = document.querySelectorAll<HTMLElement>('.exam-card');
+
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      const country = tab.dataset.country;
+
+      tabs.forEach(t => {
+        t.classList.toggle('bg-brand-600', t.dataset.country === country);
+        t.classList.toggle('text-white', t.dataset.country === country);
+        t.classList.toggle('shadow-sm', t.dataset.country === country);
+        t.classList.toggle('text-surface-400', t.dataset.country !== country);
+        t.classList.toggle('hover:text-white', t.dataset.country !== country);
+        t.classList.toggle('hover:bg-surface-800', t.dataset.country !== country);
+      });
+
+      cards.forEach(card => {
+        if (country === 'all' || card.dataset.country === country) {
+          card.style.display = '';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    });
+  });
+
+  // Init first tab as active
+  tabs[0]?.click();
+
+  // ── News Ticker (client-side) ──────────────────────────────────
+  const COUNTRY_FLAGS: Record<string, string> = {
+    india: '🇮🇳',
+    pakistan: '🇵🇰',
+    nigeria: '🇳🇬',
+  };
+  function flag(c: string | null) { return c ? (COUNTRY_FLAGS[c] ?? '🌐') : '🌐'; }
+  function formatAge(iso: string): string {
+    try {
+      const d = new Date(iso);
+      const diffH = (Date.now() - d.getTime()) / 3_600_000;
+      if (diffH < 1) return 'Just now';
+      if (diffH < 24) return `${Math.floor(diffH)}h ago`;
+      const diffD = diffH / 24;
+      if (diffD < 7) return `${Math.floor(diffD)}d ago`;
+      return d.toLocaleDateString('en-IN', { day: 'numeric', month: 'short' });
+    } catch { return ''; }
+  }
+  function renderNews(items: any[]) {
+    const container = document.getElementById('news-items');
+    const section = document.getElementById('news-ticker');
+    if (!container || !section || !items?.length) return;
+    items.slice(0, 10).forEach(item => {
+      const a = document.createElement('a');
+      a.href = item.url;
+      a.target = '_blank';
+      a.rel = 'noopener noreferrer';
+      a.className = 'shrink-0 flex items-center gap-2 text-sm text-surface-300 hover:text-white transition-colors whitespace-nowrap group';
+      a.innerHTML = `
+        ${item.country ? `<span class="text-base">${flag(item.country)}</span>` : ''}
+        <span class="max-w-xs truncate">${item.title}</span>
+        <span class="text-xs text-surface-500 shrink-0 group-hover:text-surface-400 transition-colors">${formatAge(item.published)}</span>
+      `;
+      container.appendChild(a);
+    });
+    section.classList.remove('hidden');
+  }
+  fetch('/news.json')
+    .then(r => r.ok ? r.json() : null)
+    .then(data => { if (data?.length) renderNews(data); })
+    .catch(() => { /* news unavailable — section stays hidden */ });
+</script>

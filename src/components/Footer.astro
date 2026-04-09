@@ -1,84 +1,112 @@
 ---
-const links = {
-  Product: [
-    { href: '/roadmap', label: 'Generate Roadmap' },
-    { href: '/study-plan-generator', label: 'AI Study Plan Generator' },
-    { href: '/exams', label: 'Browse All Exams' },
-    { href: '/notes', label: 'Free Study Notes' },
-    { href: '/about', label: 'About Us' },
-    { href: '/contact', label: 'Contact Us' },
-    { href: '/feedback', label: 'Help Improve Notes' },
-  ],
-  'Popular Exams': [
-    { href: '/exams/neet/', label: 'NEET Study Plan' },
-    { href: '/exams/jeemain/', label: 'JEE Main Study Plan' },
-    { href: '/exams/upsc/', label: 'UPSC Study Plan' },
-    { href: '/exams/cat/', label: 'CAT Study Plan' },
-    { href: '/exams/ssc-cgl/', label: 'SSC CGL Study Plan' },
-    { href: '/exams/mdcat/', label: 'MDCAT Study Plan' },
-    { href: '/exams/jamb/', label: 'JAMB Study Plan' },
-    { href: '/exams/waec/', label: 'WAEC Study Plan' },
-  ],
-  Legal: [
-    { href: '/privacy', label: 'Privacy Policy' },
-    { href: '/terms', label: 'Terms of Service' },
-  ],
-};
+const footerGroups = [
+    {
+        group: 'Product',
+        items: [
+            { label: 'Roadmap Generator', href: '/roadmap/' },
+            { label: 'Study Plan Generator', href: '/study-plan-generator/' },
+            { label: 'All Exams', href: '/exams/' },
+            { label: 'Study Notes', href: '/notes/' },
+        ],
+    },
+    {
+        group: 'Popular Exams',
+        items: [
+            { label: 'NEET', href: '/exams/neet/' },
+            { label: 'JEE Main', href: '/exams/jeemain/' },
+            { label: 'UPSC', href: '/exams/upsc/' },
+            { label: 'JAMB', href: '/exams/jamb/' },
+        ],
+    },
+    {
+        group: 'Company',
+        items: [
+            { label: 'About', href: '/about/' },
+            { label: 'Contact', href: '/contact/' },
+            { label: 'Feedback', href: '/feedback/' },
+        ],
+    },
+    {
+        group: 'Legal',
+        items: [
+            { label: 'Privacy Policy', href: '/privacy/' },
+            { label: 'Terms of Service', href: '/terms/' },
+        ],
+    },
+];
 ---
 
-<footer class="mt-auto border-t border-surface-200 dark:border-surface-800 bg-surface-50 dark:bg-surface-950">
-  <div class="container-page py-12">
-    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 mb-10">
-      <!-- Brand -->
-      <div class="lg:col-span-1">
-        <a href="/" class="flex items-center gap-2 mb-3">
-          <div class="w-8 h-8 rounded-lg bg-brand-600 flex items-center justify-center text-white font-bold text-sm">
-            SR
-          </div>
-          <span class="font-bold text-surface-900 dark:text-white">StudyRoadmap™</span>
-        </a>
-        <p class="text-sm text-surface-500 dark:text-surface-400 leading-relaxed">
-          Free AI-powered study plans for students across India, Pakistan, and Nigeria.
-        </p>
-        <p class="text-xs text-surface-400 dark:text-surface-500 mt-2">
-          StudySmart. StudyFree.
-        </p>
-      </div>
-
-      <!-- Link groups -->
-      {Object.entries(links).map(([group, items]) => (
-        <div>
-          <h4 class="text-xs font-bold uppercase tracking-widest text-surface-500 dark:text-surface-400 mb-3">
-            {group}
-          </h4>
-          <ul class="space-y-2">
-            {items.map(item => (
-              <li>
-                <a
-                  href={item.href}
-                  class="text-sm text-surface-600 dark:text-surface-400 hover:text-brand-600 dark:hover:text-brand-400 transition-colors"
-                >
-                  {item.label}
+<footer class="mt-auto border-t border-surface-200 dark:border-surface-800 bg-surface-50 dark:bg-surface-900/50" role="contentinfo">
+    <div class="container-page py-12 sm:py-16">
+        <!-- Top section: Logo + description + newsletter CTA -->
+        <div class="grid grid-cols-1 lg:grid-cols-5 gap-10 lg:gap-12">
+            <!-- Brand column -->
+            <div class="lg:col-span-2">
+                <a href="/" class="inline-flex items-center gap-2 font-bold text-lg text-surface-900 dark:text-white mb-3">
+                    <svg class="w-6 h-6 text-brand-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M2 3h6a4 4 0 014 4v14a3 3 0 00-3-3H2z" /><path d="M22 3h-6a4 4 0 00-4 4v14a3 3 0 013-3h7z" />
+                    </svg>
+                    StudyRoadmap&trade;
                 </a>
-              </li>
-            ))}
-          </ul>
-        </div>
-      ))}
-    </div>
+                <p class="text-sm text-surface-600 dark:text-surface-400 max-w-xs mb-4">
+                    Free AI-powered study roadmap generator for 125+ competitive exams. No signup, no fees &mdash; just smart study plans.
+                </p>
+                <!-- Trust badges -->
+                <div class="flex flex-wrap gap-3 text-xs text-surface-500 dark:text-surface-500">
+                    <span class="inline-flex items-center gap-1">
+                        <svg class="w-3.5 h-3.5 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                        100% Free
+                    </span>
+                    <span class="inline-flex items-center gap-1">
+                        <svg class="w-3.5 h-3.5 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                        No Signup
+                    </span>
+                    <span class="inline-flex items-center gap-1">
+                        <svg class="w-3.5 h-3.5 text-green-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+                        125+ Exams
+                    </span>
+                </div>
+            </div>
 
-    <div class="pt-8 border-t border-surface-200 dark:border-surface-800 flex flex-col sm:flex-row items-center justify-between gap-4">
-      <p class="text-xs text-surface-400 dark:text-surface-500">
-        &copy; {new Date().getFullYear()} StudyRoadmap™. Made for students worldwide.
-      </p>
-      <p class="text-xs text-surface-400 dark:text-surface-500">
-        Not affiliated with any exam board. Plan smart, succeed big.
-      </p>
+            <!-- Link groups -->
+            <div class="lg:col-span-3 grid grid-cols-2 sm:grid-cols-4 gap-8">
+                {footerGroups.map(({ group, items }) => (
+                    <div>
+                        <h4 class="text-sm font-semibold text-surface-900 dark:text-white mb-3">
+                            {group}
+                        </h4>
+                        <ul class="space-y-2">
+                            {items.map(item => (
+                                <li>
+                                    <a
+                                        href={item.href}
+                                        class="text-sm text-surface-600 dark:text-surface-400 hover:text-brand-600 dark:hover:text-brand-400 transition-colors"
+                                    >
+                                        {item.label}
+                                    </a>
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+                ))}
+            </div>
+        </div>
+
+        <!-- Bottom bar -->
+        <div class="pt-8 mt-8 border-t border-surface-200 dark:border-surface-800 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p class="text-xs text-surface-400 dark:text-surface-500">
+                &copy; {new Date().getFullYear()} StudyRoadmap&trade;. Made for students worldwide.
+            </p>
+            <p class="text-xs text-surface-400 dark:text-surface-500">
+                Not affiliated with any exam board. Plan smart, succeed big.
+            </p>
+        </div>
+
+        <!-- Content review date for E-E-A-T -->
+        <div class="text-center pb-2 mt-4">
+            <p class="text-xs text-surface-400 dark:text-surface-500">
+                Content reviewed April 2026
+            </p>
+        </div>
     </div>
-    <div class="text-center pb-2">
-      <p class="text-xs text-surface-400 dark:text-surface-500">
-        Content reviewed April 2026
-      </p>
-    </div>
-  </div>
 </footer>

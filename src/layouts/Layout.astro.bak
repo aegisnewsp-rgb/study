@@ -1,0 +1,250 @@
+---
+import '../styles/global.css';
+import { ALL_EXAMS } from '../data/exams';
+const examCountLabel = `${ALL_EXAMS.length}+`;
+
+interface FAQItem {
+  question: string;
+  answer: string;
+}
+
+interface HowToStep {
+  name: string;
+  text: string;
+}
+
+interface AuthorPerson {
+  name: string;
+  jobTitle: string;
+  affiliation?: string;
+  url?: string;
+}
+
+interface Props {
+  title?: string;
+  description?: string;
+  image?: string;
+  faqs?: FAQItem[];
+  howToSteps?: HowToStep[];
+  robots?: string;
+  author?: AuthorPerson;
+}
+
+const {
+  title = 'StudyRoadmap™ — Free AI Study Plan Generator for NEET, JEE, UPSC & 125+ Exams',
+  description = 'Generate free personalised study roadmaps for NEET, JEE Main, UPSC, SSC CGL, CAT, MDCAT, JAMB, WAEC and 125+ competitive exams. AI-powered study planner — no signup, no fees.',
+  image = '/og-notes/exam-default.jpg',
+  faqs = [],
+  howToSteps = [],
+  robots,
+  author,
+} = Astro.props;
+
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+---
+
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+
+    <!-- Privacy-friendly, cookie-free analytics by Plausible (no personal data collected) -->
+    <script async defer data-domain="studyroadmap.in" src="https://plausible.io/js/pa.js"></script>
+    <link rel="dns-prefetch" href="https://plausible.io" />
+
+    <!-- Performance: preconnect to Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- Async load Inter font — only weights actually used (400,600,700,800) — avoids render-blocking -->
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" /></noscript>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="canonical" href={canonicalURL} />
+    {robots && <meta name="robots" content={robots} />}
+
+    <!-- Google Search Console Verification — uncomment and add your code from Search Console -->
+    <!-- <meta name="google-site-verification" content="YOUR_CODE_HERE" /> -->
+
+    <!-- Primary Meta Tags -->
+    <title>{title}</title>
+    <meta name="title" content={title} />
+    <meta name="description" content={description} />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonicalURL} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={new URL(image, Astro.site)} />
+    <meta property="og:image:width" content="1248" />
+    <meta property="og:image:height" content="832" />
+    <meta name="theme-color" content="#1d4ed8" />
+    <!-- Bing Webmaster Tools — uncomment and add your code -->
+    <!-- <meta name="msvalidate.01" content="YOUR_CODE_HERE" /> -->
+
+    <!-- Yandex Webmaster — uncomment and add your code -->
+    <!-- <meta name="yandex-verification" content="YOUR_CODE_HERE" /> -->
+
+    <!-- Additional SEO meta -->
+    <meta name="geo.region" content="IN" />
+    <meta name="geo.placename" content="India" />
+    <meta name="rating" content="General" />
+    <meta name="revisit-after" content="3 days" />
+    <meta name="author" content="StudyRoadmap" />
+    <meta name="publisher" content="StudyRoadmap" />
+    <meta name="application-name" content="StudyRoadmap" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="StudyRoadmap" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content={canonicalURL} />
+    <meta property="twitter:title" content={title} />
+    <meta property="twitter:description" content={description} />
+    <meta property="twitter:image" content={new URL(image, Astro.site)} />
+    <meta name="twitter:site" content="@studyroadmap_in" />
+    <meta name="twitter:creator" content="@studyroadmap_in" />
+    <!-- Twitter App Meta — Android app deep links from Twitter cards -->
+    <meta name="twitter:app:id:googleplay" content="com.studyroadmap.app" />
+    <meta name="twitter:app:name:googleplay" content="StudyRoadmap" />
+    <!-- iOS App Store: add twitter:app:id:appstore + twitter:app:name:appstore when iOS app launches -->
+
+    <!-- hreflang — multi-country geo-targeting for India, Pakistan, Nigeria -->
+    <link rel="alternate" hreflang="en-IN" href={canonicalURL} />
+    <link rel="alternate" hreflang="en-PK" href={canonicalURL} />
+    <link rel="alternate" hreflang="en-NG" href={canonicalURL} />
+    <link rel="alternate" hreflang="x-default" href={canonicalURL} />
+
+    <link rel="search" type="application/opensearchdescription+xml" title="StudyRoadmap Search" href="/opensearch.xml" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+
+    <!-- llm.txt discovery -->
+    <link rel="alternate" type="text/plain" href="/llm.txt" title="LLM Information" />
+    <link rel="alternate" type="text/plain" href="/llms-full.txt" title="LLM Full Information" />
+
+    <!-- Organization Structured Data -->
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": ["Organization", "EducationalOrganization"],
+      "@id": "https://studyroadmap.in/#organization",
+      "name": "StudyRoadmap",
+      "alternateName": "StudyRoadmap.in",
+      "url": "https://studyroadmap.in",
+      "description": "Free AI-powered study roadmap generator for 125+ competitive exams across India, Pakistan, and Nigeria. Covers NEET, JEE, UPSC, MDCAT, JAMB, WAEC and more. No signup required.",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://studyroadmap.in/og-image.jpg",
+        "width": 1248,
+        "height": 832
+      },
+      "foundingDate": "2026",
+      "areaServed": [
+        { "@type": "Country", "name": "India" },
+        { "@type": "Country", "name": "Pakistan" },
+        { "@type": "Country", "name": "Nigeria" },
+        { "@type": "Country", "name": "Bangladesh" },
+        { "@type": "Country", "name": "Sri Lanka" },
+        { "@type": "Country", "name": "Nepal" }
+      ],
+      "knowsAbout": ["competitive exam preparation", "study planning", "NEET preparation", "JEE preparation", "UPSC preparation", "MDCAT preparation", "JAMB preparation"],
+      "sameAs": [
+        "https://twitter.com/studyroadmap_in",
+        "https://www.linkedin.com/company/studyroadmap",
+        "https://github.com/aegisnewsp-rgb"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "contact@studyroadmap.in",
+        "contactType": "customer support",
+        "availableLanguage": ["English", "Hindi", "Urdu"]
+      }
+    })} />
+
+    <!-- WebSite Schema with SearchAction — enables Google Sitelinks search box -->
+    <script type="application/ld+json" set:html={JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "StudyRoadmap",
+      "url": "https://studyroadmap.in",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://studyroadmap.in/roadmap?exam={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    })} />
+
+    <!-- FAQPage Structured Data -->
+    {faqs.length > 0 && (
+      <script type="application/ld+json" set:html={JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": faqs.map(f => ({
+          "@type": "Question",
+          "name": f.question,
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": f.answer,
+          },
+        })),
+      })} />
+    )}
+
+    <!-- Person Schema — author / editor signal for E-E-E-A-T -->
+    {author && (
+      <script type="application/ld+json" set:html={JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": author.name,
+        "jobTitle": author.jobTitle,
+        "affiliation": author.affiliation ? { "@type": "Organization", "name": author.affiliation } : undefined,
+        "url": author.url,
+      })} />
+    )}
+
+    <!-- HowTo Structured Data — step-by-step guide for using the roadmap tool -->
+    {howToSteps.length > 0 && (
+      <script type="application/ld+json" set:html={JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to generate your free study roadmap",
+        "description": "Follow these steps to get your instant personalised study plan for any competitive exam on StudyRoadmap",
+        "step": howToSteps.map((s, i) => ({
+          "@type": "HowToStep",
+          "position": i + 1,
+          "name": s.name,
+          "text": s.text,
+        })),
+      })} />
+    )}
+
+    <!-- Dark mode: prevent FOUC -->
+    <script is:inline>
+      (function () {
+        const stored = localStorage.getItem('theme');
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        if (stored === 'dark' || (!stored && prefersDark)) {
+          document.documentElement.classList.add('dark');
+        }
+      })();
+    </script>
+  </head>
+
+  <body class="min-h-screen flex flex-col">
+    <!-- Skip navigation — WCAG 2.1 AA: lets keyboard users jump past nav to main content -->
+    <a
+      href="#main-content"
+      class="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-50 focus:px-4 focus:py-2 focus:bg-brand-600 focus:text-white focus:font-semibold focus:rounded-lg focus:shadow-lg"
+    >
+      Skip to main content
+    </a>
+
+    <slot />
+  </body>
+</html>

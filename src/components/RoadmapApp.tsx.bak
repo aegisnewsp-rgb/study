@@ -320,8 +320,6 @@ export default function RoadmapApp({ exams }: Props) {
   const [selectedDuration, setSelectedDuration] = useState<string>('');
   const [openSubjects, setOpenSubjects] = useState<Set<string>>(new Set());
   const [copied, setCopied] = useState(false);
-  const [completedTopics, setCompletedTopics] = useState<Set<string>>(new Set());
-  const [showPrintView, setShowPrintView] = useState(false);
 
   // Pre-populate from URL params (e.g. /roadmap?exam=neet&duration=3mo)
   useEffect(() => {
@@ -329,22 +327,6 @@ export default function RoadmapApp({ exams }: Props) {
     const examParam = params.get('exam');
     const durationParam = params.get('duration');
     if (examParam) setSelectedExam(examParam);
-  // Load progress from localStorage on mount
-  useEffect(() => {
-    try {
-      const saved = localStorage.getItem("sr-progress-" + selectedExam + "-" + selectedDuration);
-      if (saved) setCompletedTopics(new Set(JSON.parse(saved)));
-    } catch(e) {}
-  }, [selectedExam, selectedDuration]);
-
-  // Save progress to localStorage on change
-  useEffect(() => {
-    if (completedTopics.size > 0 && selectedExam && selectedDuration) {
-      try {
-        localStorage.setItem("sr-progress-" + selectedExam + "-" + selectedDuration, JSON.stringify([...completedTopics]));
-      } catch(e) {}
-    }
-  }, [completedTopics, selectedExam, selectedDuration]);
     if (durationParam) setSelectedDuration(durationParam);
   }, []);
 

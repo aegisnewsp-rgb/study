@@ -10,37 +10,56 @@ country: jupeb
 generated: "2026-03-25T17:00:00"
 ---
 
-# Topic 2
+The Science Subject Combination (Physics, Chemistry, Biology/Mathematics) is the most sought-after pathway for students aspiring to enter medical, pharmaceutical, and biological sciences programmes in Nigerian universities.
 
-### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+## Core Subjects and Their Importance
 
-**Topic 2** — Key Facts for JUPEB (Nigeria)
-Core concept: Topic 2 is an important topic in Subject Combinations for JUPEB (Nigeria)
-High-yield point: Understand the fundamental principles and their applications
-⚡ Exam tip: Questions from Topic 2 appear regularly in JUPEB (Nigeria)
+### Physics (Compulsory for most Science combinations)
+Physics provides the fundamental understanding of matter, energy, and their interactions. For medical and biological sciences:
+- Biomechanics: Forces, levers in the human body, joint mechanics
+- Optics: Vision, microscopes, endoscopy
+- Electricity and magnetism: Nerve conduction, ECG, MRI physics
+- Thermodynamics: Heat regulation, metabolic processes
+- Fluid dynamics: Blood flow, respiratory mechanics
 
----
+### Chemistry (Essential)
+Chemistry underpins all biological processes:
+- Organic chemistry: Drug structure-activity relationships, metabolism
+- Biochemistry: Enzyme kinetics, protein structure, carbohydrate chemistry
+- Acid-base chemistry: Blood pH buffering, respiratory compensation
+- Electrochemistry: Nerve impulse transmission
 
-### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+### Biology (For Medical and Life Sciences)
+Biology is indispensable for:
+- Anatomy and physiology understanding
+- Genetics and inheritance patterns
+- Evolution and adaptation
+- Ecology and environmental health
+- Microbiology and infectious diseases
 
-**Topic 2** — JUPEB (Nigeria) Study Guide
-Overview: Topic 2 is a key Subject Combinations topic for JUPEB (Nigeria)
-Core principles: Build a solid understanding of fundamentals
-Key points: Definitions, applications, and typical exam question patterns
-Study strategy: Theory first, then practice problems
+### Mathematics (Alternative or Additional)
+Mathematics provides quantitative reasoning:
+- Statistical analysis for research
+- Calculus for pharmacokinetics
+- Algebra for chemical equations
+- Trigonometry for waveforms
 
----
+## Recommended Combinations
 
-### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
+| Programme | Physics | Chemistry | Biology | Mathematics |
+|---|---|---|---|---|
+| Medicine & Surgery | ✓ | ✓ | ✓ | Recommended |
+| Pharmacy | ✓ | ✓ | ✓ | ✓ |
+| Dentistry | ✓ | ✓ | ✓ | Recommended |
+| Nursing | Optional | ✓ | ✓ | — |
+| Medical Laboratory | Optional | ✓ | ✓ | — |
+| Zoology/Botany | — | ✓ | ✓ | ✓ |
+| Biochemistry | — | ✓ | ✓ | ✓ |
 
-**Topic 2** — Comprehensive JUPEB (Nigeria) Notes
-Full coverage: Topic 2 in Subject Combinations for JUPEB (Nigeria) preparation
-Detailed theory and concept explanations
-Problem-solving strategies and common mistakes to avoid
-Practice: Attempt previous year questions and standard textbook exercises
+## Strategic Considerations
 
----
-*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+**Biology + Physics + Chemistry**: Best for Medicine, Pharmacy, Dentistry, and all biological sciences. This is the most universally accepted combination.
+
+**Chemistry + Physics + Mathematics**: Better suited for Engineering, Physics, and some technology courses. Also acceptable for Pharmacy but not preferred for Medicine.
+
+⚡ **JUPEB Tip**: If Medicine is your goal, prioritize Biology, Physics, and Chemistry. Some universities require Mathematics as the fourth subject for Medicine, so always check specific requirements (e.g., UNIBADAN may require Maths alongside Physics, Chemistry, and Biology).

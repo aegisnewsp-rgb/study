@@ -10,37 +10,49 @@ country: jupeb
 generated: "2026-03-25T17:00:00"
 ---
 
-# Topic 3
+The Physics, Chemistry, and Mathematics (PCM) or Engineering combination is the standard pathway for students targeting Engineering, Physical Sciences, and Technology programmes in Nigerian universities.
 
-### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+## Core Engineering Combinations
 
-**Topic 3** — Key Facts for JUPEB (Nigeria)
-Core concept: Topic 3 is an important topic in Subject Combinations for JUPEB (Nigeria)
-High-yield point: Understand the fundamental principles and their applications
-⚡ Exam tip: Questions from Topic 3 appear regularly in JUPEB (Nigeria)
+### Physics (Mandatory)
+Physics is the foundation of all Engineering disciplines:
+- Mechanics: Statics, dynamics, fluid mechanics (essential for Civil, Mechanical, Petroleum Engineering)
+- Electricity and Magnetism: Circuit theory, electromagnetics (Electrical, Electronic, Computer Engineering)
+- Waves and Optics: Signal processing, telecommunications (Communications Engineering)
+- Thermodynamics: Heat engines, refrigeration (Mechanical, Chemical, Petroleum Engineering)
+- Modern Physics: Semiconductors, nuclear physics (Computer, Electrical Engineering)
 
----
+### Chemistry (Essential for Chemical Engineering and Petroleum Engineering)
+- Physical Chemistry: Reaction kinetics, equilibrium, thermodynamics
+- Organic Chemistry: Hydrocarbons, polymers (Polymer Engineering)
+- Inorganic Chemistry: Periodic properties, industrial chemistry
+- Environmental Chemistry: Pollution control, green chemistry
 
-### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+### Mathematics (The Language of Engineering)
+Mathematics is non-negotiable for all Engineering programmes:
+- Calculus: Differentiation and integration (essential for all engineering analysis)
+- Algebra: Matrix operations, vector analysis
+- Statistics and Probability: Quality control, reliability engineering
+- Mechanics: Engineering mechanics (statics and dynamics)
+- Differential Equations: Modeling engineering systems
 
-**Topic 3** — JUPEB (Nigeria) Study Guide
-Overview: Topic 3 is a key Subject Combinations topic for JUPEB (Nigeria)
-Core principles: Build a solid understanding of fundamentals
-Key points: Definitions, applications, and typical exam question patterns
-Study strategy: Theory first, then practice problems
+## Engineering Discipline Mapping
 
----
+| Engineering Discipline | Physics | Chemistry | Mathematics | Additional |
+|---|---|---|---|---|
+| Electrical/Electronic | ✓ | — | ✓ | Further Maths beneficial |
+| Mechanical | ✓ | — | ✓ | Technical Drawing |
+| Civil | ✓ | — | ✓ | Further Maths |
+| Chemical | ✓ | ✓ | ✓ | — |
+| Petroleum | ✓ | ✓ | ✓ | — |
+| Computer/Software | ✓ | — | ✓ | — |
+| Materials/Metallurgical | ✓ | ✓ | ✓ | — |
 
-### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
+## Direct Entry Requirements
 
-**Topic 3** — Comprehensive JUPEB (Nigeria) Notes
-Full coverage: Topic 3 in Subject Combinations for JUPEB (Nigeria) preparation
-Detailed theory and concept explanations
-Problem-solving strategies and common mistakes to avoid
-Practice: Attempt previous year questions and standard textbook exercises
+Most Nigerian universities require:
+- A minimum of **5 credits in O-Level** including English and Mathematics
+- JUPEB grades of **minimum C in Physics and Mathematics**, and at least a Pass in Chemistry
+- Some federal universities require **B-grade minimum** in Physics and Mathematics for competitive courses like Electrical Engineering
 
----
-*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+⚡ **JUPEB Tip**: For Petroleum Engineering (highly competitive), aim for Distinction (A) grades. Lagos State University (LASU) and Federal University of Petroleum Resources (FUPRE) have varying requirements — check annually. Computer Engineering at UI or UNILAG requires strong Physics, Mathematics, and at minimum Credit in Chemistry.

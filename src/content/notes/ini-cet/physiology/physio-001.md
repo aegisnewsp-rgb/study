@@ -10,37 +10,48 @@ country: ini
 generated: "2026-03-25T17:00:00"
 ---
 
-# Topic 1
+**Cell Membrane Physiology and Transport** covers cell membrane physiology and transport for INI CET (AIIMS PG).
 
-### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+**Cell Membrane Structure** (Fluid Mosaic Model — Singer & Nicolson, 1972):
+- **Phospholipid bilayer**: Hydrophilic heads face aqueous environment; hydrophobic tails face inward
+- **Membrane proteins**: Integral (span bilayer) or peripheral (attached to surface)
+- **Cholesterol**: Intercalated between phospholipids — modulates membrane fluidity
+- **Glycocalyx**: Carbohydrate chains on outer surface (glycolipids, glycoproteins) — cell recognition, protection
 
-**Topic 1** — Key Facts for INI CET (AIIMS PG)
-Core concept: Topic 1 is an important topic in Physiology for INI CET (AIIMS PG)
-High-yield point: Understand the fundamental principles and their applications
-⚡ Exam tip: Questions from Topic 1 appear regularly in INI CET (AIIMS PG)
+**Membrane Transport Mechanisms**:
 
----
+**Passive Transport** (no energy — along electrochemical gradient):
+1. **Simple diffusion**: Non-polar molecules (O₂, CO₂, N₂), small uncharged polar molecules (H₂O, urea)
+2. **Facilitated diffusion**: Ion channels or carrier proteins; stereospecific; saturable (unlike simple diffusion)
+   - **Ion channels**: Selectivity based on size and charge; some are ligand-gated or voltage-gated
+   - **Carrier proteins**: Conformational change to transport; examples: GLUT transporters (glucose), ion pumps
 
-### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+**Active Transport** (requires energy — against gradient):
+1. **Primary active transport**: Direct ATP hydrolysis — e.g., **Na⁺/K⁺-ATPase** (3Na⁺ out, 2K⁺ in per ATP)
+2. **Secondary active transport**: Uses electrochemical gradient created by primary active transport
+   - **Symport (cotransport)**: Both substances in same direction — e.g., SGLT (glucose + Na⁺ reabsorption in proximal tubule)
+   - **Antiport (exchange)**: Substances in opposite directions — e.g., **Na⁺/Ca²⁺ exchanger (NCX)** in cardiac myocytes (3Na⁺ in, 1Ca²⁺ out)
 
-**Topic 1** — INI CET (AIIMS PG) Study Guide
-Overview: Topic 1 is a key Physiology topic for INI CET (AIIMS PG)
-Core principles: Build a solid understanding of fundamentals
-Key points: Definitions, applications, and typical exam question patterns
-Study strategy: Theory first, then practice problems
+**Key Membrane Transporters**:
+| Transporter | Location | Function |
+|---|---|---|
+| **Na⁺/K⁺-ATPase** | All animal cells | Maintains [Na⁺]i low, [K⁺]i high |
+| **Ca²⁺-ATPase (PMCA)** | Plasma membrane | Low [Ca²⁺]i (10⁻⁷ M) |
+| **H⁺/K⁺-ATPase** | Parietal cells | Gastric acid secretion |
+| **GLUT 1-4** | Various tissues | Glucose uptake (insulin-independent vs dependent) |
+| **SGLT 1 & 2** | Renal tubule | Glucose reabsorption |
 
----
+**Osmosis and Tonicity**:
+- **Osmosis**: Water movement across semipermeable membrane from low solute → high solute concentration
+- **Tonicity** (clinical relevance):
+  - **Isotonic**: Same osmolality as plasma (~280-300 mOsm/kg) — 0.9% NaCl (saline), 5% glucose
+  - **Hypotonic**: Lower osmolality — causes cell swelling (lysis if severe)
+  - **Hypertonic**: Higher osmolality — causes cell shrinkage (crenation)
+- **Osmolality vs Osmolarity**: osmolality = per kg solvent (more accurate); osmolarity = per liter solution
 
-### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
+**Donnan Equilibrium**:
+- Unequal distribution of diffusible ions across a membrane when one species is non-diffusible
+- Non-diffusible anion (protein, ATP) on one side → attracts cations, repels anions → establishes electrochemical gradient
+- Example: Plasma proteins (negative charge) → more cations in plasma than IF
 
-**Topic 1** — Comprehensive INI CET (AIIMS PG) Notes
-Full coverage: Topic 1 in Physiology for INI CET (AIIMS PG) preparation
-Detailed theory and concept explanations
-Problem-solving strategies and common mistakes to avoid
-Practice: Attempt previous year questions and standard textbook exercises
-
----
-*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+⚡ **Exam Tip for INI CET (AIIMS PG)**: Na⁺/K⁺-ATPase consumes ~25-30% of total cellular ATP — crucial for maintaining cell volume, resting membrane potential, and secondary active transport. Ouabain and digoxin inhibit Na⁺/K⁺-ATPase (↑[Na⁺]i → reduces NCX activity → ↑[Ca²⁺]i in cardiac myocytes → positive inotropy).

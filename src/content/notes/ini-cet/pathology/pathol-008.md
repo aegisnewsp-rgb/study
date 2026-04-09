@@ -10,37 +10,47 @@ country: ini
 generated: "2026-03-25T17:00:00"
 ---
 
-# Topic 8
+**Ischemia and Infarction** covers ischemia and infarction for INI CET (AIIMS PG).
 
-### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+**Ischemia**: Inadequate blood supply to an organ or tissue (oxygen + nutrient deprivation).
 
-**Topic 8** — Key Facts for INI CET (AIIMS PG)
-Core concept: Topic 8 is an important topic in None for INI CET (AIIMS PG)
-High-yield point: Understand the fundamental principles and their applications
-⚡ Exam tip: Questions from Topic 8 appear regularly in INI CET (AIIMS PG)
+**Causes**:
+- **Arterial occlusion**: Atherosclerosis, thrombosis, embolism, vasospasm
+- **Hypoperfusion**: Shock, heart failure
+- **Venous obstruction**: Outflow impairment (DVT, SVC syndrome)
 
----
+**Ischemia vs Hypoxia**:
+- **Hypoxia**: Reduced oxygen tension in blood/tissues
+- **Ischemia**: Reduced blood flow — both oxygen AND nutrient supply are compromised; more damaging because waste products accumulate
 
-### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+**Ischemic Time Sensitivity**:
+- **Brain**: Most sensitive — irreversible damage in 4–6 minutes
+- **Heart (myocardium)**: Irreversible in 20–30 minutes (wavefront of necrosis — subendocardium most vulnerable)
+- **Skeletal muscle**: Can tolerate several hours
 
-**Topic 8** — INI CET (AIIMS PG) Study Guide
-Overview: Topic 8 is a key None topic for INI CET (AIIMS PG)
-Core principles: Build a solid understanding of fundamentals
-Key points: Definitions, applications, and typical exam question patterns
-Study strategy: Theory first, then practice problems
+**Infarction**: Area of tissue necrosis caused by ischemia.
 
----
+**Types of Infarction**:
+- **Pale (White) Infarct**: Solid organs with end-arterial blood supply — kidney, spleen, heart; wedge-shaped with pale center
+- **Red (Hemorrhagic) Infarct**: 
+  - Dual blood supply (lung — bronchial artery + pulmonary artery)
+  - Loose tissue (brain — loose neuropil)
+  - Venous occlusion (mesenteric veins, testicular torsion)
+  - Reperfusion after ischemia (hemorrhage into necrotic tissue)
 
-### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
+**Myocardial Infarction (MI)**:
+- **Transmural (STEMI)**: Full thickness necrosis — from complete coronary occlusion
+- **Subendocardial (NSTEMI)**: Inner 1/3 to 2/3 of wall — from prolonged hypoperfusion or incomplete occlusion
+- **Temporal Evolution** (gross morphology):
+  - 0–4h: No visible changes
+  - 4–12h: Dark mottling, wavy fibers
+  - 12–24h: Yellow-tan softening, early coagulative necrosis
+  - 1–3 days: Coagulative necrosis, neutrophil infiltration begins
+  - 3–7 days: Macrophage infiltration, early granulation tissue at margins
+  - 1–3 weeks: Granulation tissue, removal of necrotic debris
+  - Weeks to months: Dense scar formation (collagenous scar)
 
-**Topic 8** — Comprehensive INI CET (AIIMS PG) Notes
-Full coverage: Topic 8 in None for INI CET (AIIMS PG) preparation
-Detailed theory and concept explanations
-Problem-solving strategies and common mistakes to avoid
-Practice: Attempt previous year questions and standard textbook exercises
-
----
-*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+⚡ **Exam Tip for INI CET (AIIMS PG)**: ECG changes in MI:
+- STEMI: ST elevation in leads overlying infarcted area
+- NSTEMI: ST depression or T-wave inversion (no ST elevation)
+Troponin I/T: rises within 3–4 hours, peaks at 24h, remains elevated for 7–10 days.

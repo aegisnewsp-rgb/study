@@ -10,37 +10,54 @@ country: ini
 generated: "2026-03-25T17:00:00"
 ---
 
-# Topic 9
+**Neoplasia: Classification and Nomenclature** covers neoplasia classification and nomenclature for INI CET (AIIMS PG).
 
-### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+**Neoplasia**: New, autonomous, excessive growth of cells that persists after the initiating stimulus is removed.
 
-**Topic 9** — Key Facts for INI CET (AIIMS PG)
-Core concept: Topic 9 is an important topic in None for INI CET (AIIMS PG)
-High-yield point: Understand the fundamental principles and their applications
-⚡ Exam tip: Questions from Topic 9 appear regularly in INI CET (AIIMS PG)
+**Key Distinction**:
+- **Hyperplasia**: Increased cell number — stimulus-dependent (reversible)
+- **Neoplasia**: Increased cell number — autonomous growth (independent of stimulus, irreversible)
 
----
+**Tumor Nomenclature**:
+| Type | Description | Example |
+|---|---|---|
+| **Benign** | Confined, encapsulated, no metastasis | Lipoma, chondroma |
+| **Malignant** | Invasive, can metastasize | Carcinoma, sarcoma |
 
-### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+**Specific Nomenclature**:
+- **Adenoma**: Benign glandular tumor (e.g., thyroid adenoma)
+- **Papilloma**: Benign乳头状 growth (e.g., skin warts)
+- **Cystadenoma**: Benign cystic glandular tumor (e.g., ovarian cystadenoma)
+- **Carcinoma**: Malignant tumor of epithelial origin (most common — ~80% of cancers)
+  - Adenocarcinoma: Carcinoma with glandular differentiation
+  - Squamous cell carcinoma: Carcinoma with squamous differentiation
+- **Sarcoma**: Malignant tumor of mesenchymal origin (e.g., osteosarcoma, leiomyosarcoma)
+- **Leukemia**: Hematopoietic malignancy without a solid tumor
+- **Lymphoma**: Hematopoietic malignancy of lymphoid tissue
 
-**Topic 9** — INI CET (AIIMS PG) Study Guide
-Overview: Topic 9 is a key None topic for INI CET (AIIMS PG)
-Core principles: Build a solid understanding of fundamentals
-Key points: Definitions, applications, and typical exam question patterns
-Study strategy: Theory first, then practice problems
+**Grading**: Degree of differentiation (microscopic)
+- GX: Cannot be assessed
+- G1: Well differentiated (low grade)
+- G2: Moderately differentiated (intermediate grade)
+- G3: Poorly differentiated
+- G4: Undifferentiated (high grade)
 
----
+**Staging**: Extent of spread (clinical/radiological — TNM system)
+- **T**: Size and local extent of primary tumor
+- **N**: Regional lymph node involvement
+- **M**: Distant metastasis
 
-### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
+⚡ **Exam Tip for INI CET (AIIMS PG)**: Grading = microscopic (how abnormal cells look). Staging = spread (clinical/radiological). Both determine prognosis and treatment.
 
-**Topic 9** — Comprehensive INI CET (AIIMS PG) Notes
-Full coverage: Topic 9 in None for INI CET (AIIMS PG) preparation
-Detailed theory and concept explanations
-Problem-solving strategies and common mistakes to avoid
-Practice: Attempt previous year questions and standard textbook exercises
+**Benign vs Malignant Characteristics**:
+| Feature | Benign | Malignant |
+|---|---|---|
+| Differentiation | Well differentiated | Poorly/undifferentiated |
+| Rate of growth | Slow, expansile | Rapid, infiltrative |
+| Capsulation | Often encapsulated | Not encapsulated |
+| Nuclear features | Uniform, few mitoses | Pleomorphic, hyperchromatic, many mitoses |
+| Necrosis | Usually absent | Often present |
+| Metastasis | Absent | Present |
+| Recurrence | Rare | Common |
 
----
-*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+**Carcinoma In Situ (CIS)**: Pre-invasive carcinoma — cells are malignant but basement membrane is intact (no invasion). Example: Cervical intraepithelial neoplasia (CIN III), DCIS (breast).

@@ -10,37 +10,41 @@ country: jupeb
 generated: "2026-03-25T17:00:00"
 ---
 
-# Topic 1
+The Joint Universities Preliminary Examinations Board (JUPEB) is a national examination body in Nigeria that runs a one-year programme leading to the award of the Joint Universities Preliminary Examinations Board certificate. This certificate qualifies candidates for Direct Entry admission into Nigerian universities and some foreign institutions, bypassing the traditional UTME (JAMB) requirement for a four-year first degree programme.
 
-### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+## Understanding JUPEB Structure
 
-**Topic 1** — Key Facts for JUPEB (Nigeria)
-Core concept: Topic 1 is an important topic in Subject Combinations for JUPEB (Nigeria)
-High-yield point: Understand the fundamental principles and their applications
-⚡ Exam tip: Questions from Topic 1 appear regularly in JUPEB (Nigeria)
+The JUPEB programme is typically taken after completing Secondary School (SSCE/WAEC/NECO) but before university. It serves as an alternative pathway for students who:
+- Did not meet the cut-off mark for their preferred university in UTME
+- Desire direct entry into professional programmes (Medicine, Law, Engineering)
+- Want to shorten their university duration (2 years after JUPEB instead of 4 years through UTME)
+- Are upgrading their O-Level results
 
----
+The JUPEB examination covers three to four subjects (depending on the university and programme) plus a General Studies course. Students are examined in May/June and results are released in August. The grading system is: A (Distinction), B (Credit), C (Merit), D (Pass), E/F (Fail).
 
-### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+## Why Subject Combinations Matter
 
-**Topic 1** — JUPEB (Nigeria) Study Guide
-Overview: Topic 1 is a key Subject Combinations topic for JUPEB (Nigeria)
-Core principles: Build a solid understanding of fundamentals
-Key points: Definitions, applications, and typical exam question patterns
-Study strategy: Theory first, then practice problems
+Your JUPEB subject combination determines:
+1. The specific degree programmes you are eligible for at each university
+2. Whether you qualify for competitive courses like Medicine, Law, and Engineering
+3. Your university admission timeline (some combinations are more competitive than others)
 
----
+⚡ **Important**: Always verify subject requirements with your target university's JAMB/DE office before choosing your combination. Requirements change yearly.
 
-### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
+## Available JUPEB Subject Groups
 
-**Topic 1** — Comprehensive JUPEB (Nigeria) Notes
-Full coverage: Topic 1 in Subject Combinations for JUPEB (Nigeria) preparation
-Detailed theory and concept explanations
-Problem-solving strategies and common mistakes to avoid
-Practice: Attempt previous year questions and standard textbook exercises
+JUPEB typically offers the following subject groups:
+- **Science**: Physics, Chemistry, Biology, Mathematics, Further Mathematics
+- **Commercial**: Economics, Government, Commerce, Accounting, Geography, Literature
+- **Arts**: Literature, Government, History, Christian Religious Studies, Islamic Studies, Yoruba, French
+- **Technology**: Physics, Chemistry, Mathematics, Technical Drawing, Biology
 
----
-*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+## JUPEB Grading and University Admission
+
+Nigerian universities have varying pass requirements:
+- Medicine: Usually requires A in all three science subjects (A-B-C minimum)
+- Engineering: B-C-C or better in relevant subjects
+- Law: Usually B-C-C or better including Literature
+- Arts/Social Sciences: C-D-D or better
+
+⚡ **Exam Tip**: Some universities give bonus points for JUPEB grades in their Post-UTME screening. A Distinction (A) in all three subjects gives the strongest profile for competitive courses.

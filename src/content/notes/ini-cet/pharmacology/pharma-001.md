@@ -10,37 +10,54 @@ country: ini
 generated: "2026-03-25T17:00:00"
 ---
 
-# Topic 1
+**Pharmacokinetics: Absorption and Distribution** covers pharmacokinetics — absorption and distribution for INI CET (AIIMS PG).
 
-### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+**Pharmacokinetics** (PK): What the body does to a drug — ADME: Absorption, Distribution, Metabolism, Excretion.
 
-**Topic 1** — Key Facts for INI CET (AIIMS PG)
-Core concept: Topic 1 is an important topic in None for INI CET (AIIMS PG)
-High-yield point: Understand the fundamental principles and their applications
-⚡ Exam tip: Questions from Topic 1 appear regularly in INI CET (AIIMS PG)
+**Absorption**: Transfer of drug from site of administration into systemic circulation.
 
----
+**Routes of Administration**:
+| Route | Bioavailability | Onset | Notes |
+|---|---|---|---|
+| IV | 100% (bypasses absorption) | Immediate | No absorption phase; direct vascular access |
+| IM | Variable (depends on drug) | Rapid | Aqueous vs oily depot formulations |
+| SC | Slightly slower than IM | Rapid | Small volumes; irritant drugs avoid SC |
+| Oral | Highly variable | Slower | First-pass effect reduces bioavailability |
+| Sublingual | Bypasses first-pass | Rapid | Nitroglycerin, nifedipine |
+| Rectal | Variable | Moderate | Partial first-pass avoidance |
+| Inhalation | Rapid | Very rapid | Gases, volatile agents, bronchodilators |
+| Topical | Low systemic | Local effect | Skin, eye, lung (inhaled) |
 
-### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+**First-Pass Effect (First-Pass Metabolism)**:
+- Drug absorbed from GI tract → portal circulation → liver before reaching systemic circulation
+- Significant for drugs like propranolol, lidocaine, morphine — extensive hepatic extraction
+- Consequence: Lower oral bioavailability compared to other routes
+- **Pro-drugs**: Inactive until first-pass metabolism activates them (e.g., codeine → morphine, enalapril → enalaprilat)
 
-**Topic 1** — INI CET (AIIMS PG) Study Guide
-Overview: Topic 1 is a key None topic for INI CET (AIIMS PG)
-Core principles: Build a solid understanding of fundamentals
-Key points: Definitions, applications, and typical exam question patterns
-Study strategy: Theory first, then practice problems
+**Factors Affecting Absorption**:
+- **Physicochemical**: Ionization (pKa), lipid solubility, molecular size, stability
+- **pH partition theory**: Non-ionized (lipid-soluble) form crosses cell membranes; ionized form is trapped in aqueous compartments
+- **Formulation**: Particle size, salt form, enteric coating
+- **GI factors**: Gastric emptying, intestinal motility, presence of food (fatty meals increase absorption of fat-soluble drugs like griseofulvin)
 
----
+**Distribution**: Reversible transfer of drug between compartments after absorption.
 
-### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
+**Volume of Distribution (Vd)**:
+- Vd = Amount of drug in body / Plasma drug concentration
+- Apparent volume in which the drug distributes (does not represent a real anatomical space)
+- Vd > 5 L (body water) → drug concentrates in tissues (high tissue affinity)
+- Vd < 5 L → drug remains primarily in plasma (highly protein-bound or polar)
 
-**Topic 1** — Comprehensive INI CET (AIIMS PG) Notes
-Full coverage: Topic 1 in None for INI CET (AIIMS PG) preparation
-Detailed theory and concept explanations
-Problem-solving strategies and common mistakes to avoid
-Practice: Attempt previous year questions and standard textbook exercises
+**Protein Binding**:
+- **Highly protein-bound drugs**: Warfarin (99%), phenytoin (90%), thyroxine (99.5%)
+- **Free (unbound) drug** is pharmacologically active and available for distribution/metabolism/excretion
+- **Displacement interactions**: One drug displaces another from plasma proteins → increased free fraction of displaced drug → toxicity (e.g., warfarin + sulfonamides → bleeding)
+- **Hypoalbuminemia**: Reduced binding capacity → increased free drug → toxicity even at normal total drug levels
 
----
-*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+**Body Fluid Compartments**:
+- Total body water: ~42 L (60% body weight)
+- Plasma: ~3 L
+- Extracellular fluid: ~15 L
+- Intracellular fluid: ~27 L
+
+⚡ **Exam Tip for INI CET (AIIMS PG)**: Vd of 40–60 L for a drug means it is extensively distributed into tissues. High Vd drugs include antidepressants, antipsychotics, antimalarials.

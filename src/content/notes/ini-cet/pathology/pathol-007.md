@@ -10,37 +10,42 @@ country: ini
 generated: "2026-03-25T17:00:00"
 ---
 
-# Topic 7
+**Thrombosis and Embolism** covers thrombosis and embolism for INI CET (AIIMS PG).
 
-### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+**Thrombosis**: Pathological formation of a solid mass (thrombus) from blood constituents within the intact circulatory system.
 
-**Topic 7** — Key Facts for INI CET (AIIMS PG)
-Core concept: Topic 7 is an important topic in None for INI CET (AIIMS PG)
-High-yield point: Understand the fundamental principles and their applications
-⚡ Exam tip: Questions from Topic 7 appear regularly in INI CET (AIIMS PG)
+**Virchow's Triad** (predisposing factors):
+1. **Endothelial injury** (most important for arterial thrombi and cardiac thrombi)
+2. **Abnormal blood flow** (stasis or turbulence — for venous thrombi)
+3. **Hypercoagulability** (thrombophilia)
 
----
+**Arterial vs Venous Thrombi**:
+- **Arterial thrombus**: Starts at site of endothelial injury (white thrombus — platelets + fibrin); travels distally
+- **Venous thrombus** (phlebothrombosis): Starts in stasis (red thrombus — RBC + fibrin); travels proximally (PE source)
+- **Cardiac thrombus**: On damaged endocardium (M.I., atrial fibrillation, dilated cardiomyopathy)
 
-### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+**Fate of Thrombus**:
+1. Propagation (enlarges)
+2. Embolization (breaks off and travels)
+3. Dissolution (fibrinolysis)
+4. Organization and recanalization (fibrous tissue ingrowth; can restore blood flow)
 
-**Topic 7** — INI CET (AIIMS PG) Study Guide
-Overview: Topic 7 is a key None topic for INI CET (AIIMS PG)
-Core principles: Build a solid understanding of fundamentals
-Key points: Definitions, applications, and typical exam question patterns
-Study strategy: Theory first, then practice problems
+**DVT** (Deep Vein Thrombosis):
+- Most common in lower extremities (popliteal, femoral, iliac veins)
+- **Virchow's triad in DVT**: Venous stasis (immobilization, surgery), hypercoagulability (cancer, pregnancy), endothelial injury
+- **Virchow node**: Left supraclavicular lymph node metastasis from abdominal malignancy
 
----
+**Pulmonary Thromboembolism**:
+- 95% of PE arise from DVT (deep leg veins)
+- Saddle embolus at pulmonary artery bifurcation = massive PE → sudden death
+- **Hamptons hump**: Wedge-shaped hemorrhagic infarct (pleura-based) on X-ray
+- **Lines of Zahn**: Alternating layers of platelets and RBCs in thrombus (indicate antemortem formation)
 
-### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
+**Embolism Types**:
+- **Thromboembolism** (most common): DVT → PE
+- **Fat embolism**: Long bone fractures → fat globules → pulmonary and cerebral circulation
+- **Air embolism**: Diving, surgical procedures (>100mL air in venous system)
+- **Atheroembolism**: Cholesterol crystals from atherosclerotic plaques
+- **Amniotic fluid embolism**: Rare, catastrophic; DIC + pulmonary edema
 
-**Topic 7** — Comprehensive INI CET (AIIMS PG) Notes
-Full coverage: Topic 7 in None for INI CET (AIIMS PG) preparation
-Detailed theory and concept explanations
-Problem-solving strategies and common mistakes to avoid
-Practice: Attempt previous year questions and standard textbook exercises
-
----
-*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+⚡ **Exam Tip for INI CET (AIIMS PG)**: Lines of Zahn on histology = antemortem thrombus (not postmortem clot).

@@ -10,37 +10,56 @@ country: jupeb
 generated: "2026-03-25T17:00:00"
 ---
 
-# Topic 7
+The Law and Social Sciences Subject Combinations through JUPEB provide pathways into Legal Studies, International Relations, Sociology, Psychology, Philosophy, and related disciplines at Nigerian universities.
 
-### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+## Law Subject Requirements
 
-**Topic 7** — Key Facts for JUPEB (Nigeria)
-Core concept: Topic 7 is an important topic in Subject Combinations for JUPEB (Nigeria)
-High-yield point: Understand the fundamental principles and their applications
-⚡ Exam tip: Questions from Topic 7 appear regularly in JUPEB (Nigeria)
+### Core Subjects for Law
+Most Nigerian law schools and universities require:
+- **Literature in English** (Essential — builds analytical and language skills)
+- **Government or History** (Essential — understanding of governance and historical context)
+- **Any Commercial or Arts subject** (Economics, Christian Religious Studies, Islamic Studies)
 
----
+### Law School Admission After JUPEB
+After completing JUPEB and gaining university admission:
+- Law programme is typically 4 years (for JUPEB candidates) or 5 years (UTME candidates)
+- Nigerian Law School admission requires LL.B. from an accredited university
+- BL (Barrister at Law) qualification after Law School
+- Call to Nigerian Bar after completion of Law School
 
-### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+## Social Sciences Combinations
 
-**Topic 7** — JUPEB (Nigeria) Study Guide
-Overview: Topic 7 is a key Subject Combinations topic for JUPEB (Nigeria)
-Core principles: Build a solid understanding of fundamentals
-Key points: Definitions, applications, and typical exam question patterns
-Study strategy: Theory first, then practice problems
+### Political Science
+Common combinations: Government + Economics + any Arts/Commercial subject
+- Understanding of political theories, institutions, and processes
+- Public policy analysis
+- International relations
 
----
+### Sociology
+Combinations: Government + Literature + any subject
+- Social structures, institutions, and change
+- Research methods
+- Community development
 
-### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
+### International Relations
+Combinations: Government + Economics + History/Literature
+- Diplomatic studies
+- Global politics and governance
+- International economics
 
-**Topic 7** — Comprehensive JUPEB (Nigeria) Notes
-Full coverage: Topic 7 in Subject Combinations for JUPEB (Nigeria) preparation
-Detailed theory and concept explanations
-Problem-solving strategies and common mistakes to avoid
-Practice: Attempt previous year questions and standard textbook exercises
+### Philosophy
+Combinations: Literature + History + Government/CRS
+- Logical reasoning and argumentation
+- Ethics and moral philosophy
+- History of philosophical thought
 
----
-*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+## Professional Pathways
+
+| Programme | Recommended Subjects | Professional Outcome |
+|---|---|---|
+| Law | Literature + Government + CRS/Economics | Lawyer, Judge, Legal Consultant |
+| International Relations | Government + Economics + History | Diplomat, Foreign Affairs Officer |
+| Political Science | Government + Economics + Literature | Politician, Policy Analyst |
+| Philosophy | Literature + History + Government | Academic, Ethicist, Public Intellectual |
+
+⚡ **JUPEB Tip**: For Law at Lagos State University (LASU), UNIBADAN, or BAYERO University Kano (BUK), aim for B grade or better in Literature and Government. Some schools accept CRS (Christian Religious Studies) instead of Literature. Always verify with your target law faculty before choosing your third subject.

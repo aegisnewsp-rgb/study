@@ -10,37 +10,41 @@ country: jupeb
 generated: "2026-03-25T17:00:00"
 ---
 
-# Topic 6
+Medicine and Dentistry direct entry requirements through JUPEB are among the most stringent in Nigerian university admissions. Understanding these requirements is critical for students aspiring to become doctors, dentists, or other healthcare professionals.
 
-### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+## Minimum Requirements for Medicine
 
-**Topic 6** — Key Facts for JUPEB (Nigeria)
-Core concept: Topic 6 is an important topic in Subject Combinations for JUPEB (Nigeria)
-High-yield point: Understand the fundamental principles and their applications
-⚡ Exam tip: Questions from Topic 6 appear regularly in JUPEB (Nigeria)
+### Subject Combination
+Most Nigerian medical schools require:
+- **Chemistry** (Compulsory — most critical)
+- **Biology** (Compulsory — for anatomy, physiology, biochemistry)
+- **Physics** (Required by many schools including UNIBADAN, UI, ABU)
+- **Mathematics** (Required by some schools as fourth subject)
 
----
+### Grade Requirements
+- **University of Ibadan (UI)**: Minimum **B grade in Physics, Chemistry, and Biology** at JUPEB
+- **University of Lagos (UNILAG)**: Minimum **C grade** in Physics, Chemistry, Biology; may require Mathematics
+- **Ahmadu Bello University (ABU)**: Minimum **C grade** in three science subjects
+- **Delta State University (DELSU)**: Minimum **C grade** in Physics, Chemistry, Biology
+- **Nigerian Teaching Hospital Medical Schools**: Varying requirements; often require Distinction grades
 
-### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+### O-Level Requirements
+Candidates must also have:
+- **5 credits at O-Level** including English Language, Mathematics, Physics, Chemistry, and Biology (at one sitting or combined)
+- Many schools require the 5 credits at one sitting
+- NABTEB and some private exam bodies are sometimes accepted
 
-**Topic 6** — JUPEB (Nigeria) Study Guide
-Overview: Topic 6 is a key Subject Combinations topic for JUPEB (Nigeria)
-Core principles: Build a solid understanding of fundamentals
-Key points: Definitions, applications, and typical exam question patterns
-Study strategy: Theory first, then practice problems
+## Dentistry Requirements
+Dentistry has similar requirements to Medicine:
+- Biology and Chemistry are non-negotiable
+- Physics is strongly recommended
+- Manual dexterity is assessed in some schools through interviews
 
----
+## Strategic Advice for Medical Aspirants
 
-### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
+1. **Prioritize Chemistry, Biology, and Physics**: These three subjects open doors to virtually all medical schools
+2. **Target A and B grades**: Medical school slots are extremely competitive
+3. **Consider the 6-year vs 5-year programme**: Some schools have 6-year MBBS for JUPEB candidates vs 5-year for UTME candidates
+4. **Apply to multiple schools**: Different schools have different requirements and cut-offs
 
-**Topic 6** — Comprehensive JUPEB (Nigeria) Notes
-Full coverage: Topic 6 in Subject Combinations for JUPEB (Nigeria) preparation
-Detailed theory and concept explanations
-Problem-solving strategies and common mistakes to avoid
-Practice: Attempt previous year questions and standard textbook exercises
-
----
-*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+⚡ **JUPEB Tip**: University of Benin (UNIBEN) and University of Jos (UNIJOS) have historically lower cut-offs for medical school. Lagos State University (LASU) requires Chemistry, Physics, Biology and minimum C grades. Check each school's POST-UME/DE screening requirements annually.

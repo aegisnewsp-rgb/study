@@ -10,37 +10,54 @@ country: ini
 generated: "2026-03-25T17:00:00"
 ---
 
-# Topic 8
+**Antimicrobial Agents: General Principles** covers antimicrobial agents — general principles for INI CET (AIIMS PG).
 
-### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+**Key Definitions**:
+- **Bacteriostatic**: Inhibits bacterial growth (not killing) — tetracyclines, macrolides, sulfonamides
+- **Bactericidal**: Kills bacteria — penicillins, cephalosporins, aminoglycosides, fluoroquinolones, metronidazole
+- **Minimum Inhibitory Concentration (MIC)**: Lowest drug concentration that prevents visible bacterial growth
+- **Minimum Bactericidal Concentration (MBC)**: Lowest drug concentration that kills 99.9% of bacteria
+- **Breakpoint**: MIC threshold defining susceptible (S) vs resistant (R)
 
-**Topic 8** — Key Facts for INI CET (AIIMS PG)
-Core concept: Topic 8 is an important topic in None for INI CET (AIIMS PG)
-High-yield point: Understand the fundamental principles and their applications
-⚡ Exam tip: Questions from Topic 8 appear regularly in INI CET (AIIMS PG)
+**Classification of Antimicrobials**:
 
----
+**1. Cell Wall Synthesis Inhibitors** (most are bactericidal):
+- β-lactams: Penicillins, Cephalosporins, Carbapenems, Monobactams
+- Glycopeptides: Vancomycin, Teicoplanin
+- Others: Daptomycin (lipopeptide — disrupts membrane)
 
-### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+**2. Protein Synthesis Inhibitors** (bacteriostatic — except aminoglycosides):
+- **30S inhibitors**: Aminoglycosides (bactericidal), Tetracyclines (bacteriostatic)
+- **50S inhibitors**: Macrolides (azithromycin, clarithromycin), Lincosamides (clindamycin), Chloramphenicol, Linezolid (oxazolidinone)
 
-**Topic 8** — INI CET (AIIMS PG) Study Guide
-Overview: Topic 8 is a key None topic for INI CET (AIIMS PG)
-Core principles: Build a solid understanding of fundamentals
-Key points: Definitions, applications, and typical exam question patterns
-Study strategy: Theory first, then practice problems
+**3. Nucleic Acid Synthesis Inhibitors**:
+- **Folate pathway**: Sulfonamides, Trimethoprim (separate steps — synergistic)
+- **DNA gyrase/topoisomerase IV**: Fluoroquinolones (bactericidal)
+- **RNA polymerase**: Rifampin (bactericidal — used in TB)
+- **DNA**: Metronidazole (bactericidal — anaerobes)
 
----
+**4. Cell Membrane Disruptors**:
+- Polymyxins (colistin — last resort for gram-negatives)
+- Daptomycin (gram-positive)
 
-### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
+**5. Anti-TB Agents**: Isoniazid, Rifampin, Pyrazinamide, Ethambutol, Streptomycin
 
-**Topic 8** — Comprehensive INI CET (AIIMS PG) Notes
-Full coverage: Topic 8 in None for INI CET (AIIMS PG) preparation
-Detailed theory and concept explanations
-Problem-solving strategies and common mistakes to avoid
-Practice: Attempt previous year questions and standard textbook exercises
+**6. Anti-Fungal**: Polyenes (amphotericin B, nystatin), Azoles, Echinocandins, Flucytosine
 
----
-*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+**Selective Toxicity**: The fundamental principle — drug must be more toxic to the pathogen than to the host.
+- Human cells lack cell walls → β-lactams are selectively toxic to bacteria
+- Bacterial ribosomes (70S) differ from human (80S) → aminoglycosides selectively target bacterial protein synthesis
+- Fungal ergosterol vs human cholesterol → polyene antifungals selectively toxic to fungi
+
+**Spectrum of Activity**:
+- **Narrow spectrum**: Single organism group (e.g., penicillin G — mostly gram-positive cocci)
+- **Broad spectrum**: Multiple organism groups (e.g., fluoroquinolones, carbapenems)
+- **Superinfection**: Overgrowth of resistant organisms following broad-spectrum antibiotic use (e.g., C. difficile colitis from clindamycin, fluoroquinolones)
+
+**Combination Therapy Rationale**:
+- **Broad empiric coverage** (unknown pathogen)
+- **Synergy** (e.g., β-lactam + aminoglycoside for Pseudomonas)
+- **Prevent resistance emergence** (e.g., TB — multiple drugs prevent resistant strains)
+- **Polymicrobial infections** (e.g., intra-abdominal infections — multiple organisms)
+
+⚡ **Exam Tip for INI CET (AIIMS PG)**: Bacteriostatic drugs (tetracyclines, macrolides, sulfonamides) may antagonize bactericidal drugs (β-lactams, aminoglycosides) — avoid combining in serious infections. Exception: Trimethoprim-sulfamethoxazole (TMP-SMX) is synergistic despite both being bacteriostatic.

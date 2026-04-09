@@ -10,37 +10,40 @@ country: ini
 generated: "2026-03-25T17:00:00"
 ---
 
-# Topic 3
+**Cell Injury and Adaptation** is a foundational pathology topic for INI CET (AIIMS PG).
 
-### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+**Key Definitions**:
+- **Cell injury**: Any structural or functional alteration in a cell caused by stress
+- **Adaptation**: Reversible changes allowing cells to cope with stress
+- **Atrophy**: Decrease in cell size — from disuse, loss of trophic signals, or aging
+- **Hypertrophy**: Increase in cell size — from increased workload (e.g., cardiac muscle in hypertension)
+- **Hyperplasia**: Increase in cell number — from hormonal stimulation (e.g., endometrial hyperplasia)
+- **Metaplasia**: Replacement of one mature cell type with another — e.g., squamous metaplasia in smoker's airway
 
-**Topic 3** — Key Facts for INI CET (AIIMS PG)
-Core concept: Topic 3 is an important topic in None for INI CET (AIIMS PG)
-High-yield point: Understand the fundamental principles and their applications
-⚡ Exam tip: Questions from Topic 3 appear regularly in INI CET (AIIMS PG)
+**Causes of Cell Injury**:
+1. **Hypoxia** (most common cause) — reduced oxygen delivery
+2. **Physical agents** — trauma, burns, radiation
+3. **Chemical agents** — drugs, toxins, poisons
+4. **Biological agents** — bacteria, viruses, parasites
+5. **Nutritional imbalances** — protein-calorie deficiency, vitamin deficiencies
+6. **Genetic defects** — inborn errors of metabolism, chromosomal abnormalities
+7. **Immunologic reactions** — autoimmune diseases, allergic reactions
 
----
+**Reversible vs Irreversible Injury**:
+- **Reversible**: Cell swelling, fatty change, cellular blebbing — can return to normal
+- **Irreversible**: Mitochondrial dysfunction, calcium influx, nuclear changes (pyknosis, karyolysis, karyorrhexis) — leads to cell death
 
-### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+⚡ **Exam Tip for INI CET (AIIMS PG)**: Remember: **Hypoxia** is the most common cause of cell injury. The sequence is: Adapt → Injure (reversible) → Die (irreversible).
 
-**Topic 3** — INI CET (AIIMS PG) Study Guide
-Overview: Topic 3 is a key None topic for INI CET (AIIMS PG)
-Core principles: Build a solid understanding of fundamentals
-Key points: Definitions, applications, and typical exam question patterns
-Study strategy: Theory first, then practice problems
+**Types of Cell Death**:
+- **Necrosis**: Uncontrolled cell death — requires plasma membrane disruption
+  - Coagulative necrosis (ischemic organs — heart, kidney)
+  - Liquefactive necrosis (brain abscess)
+  - Caseous necrosis (tuberculosis)
+  - Fat necrosis (pancreatitis — saponification)
+  - Fibrinoid necrosis (malignant hypertension, vasculitis)
+- **Apoptosis**: Programmed cell death — requires ATP; does not cause inflammation
+  - Physiological: Embryogenesis, hormonal involution, immune regulation
+  - Pathological: DNA damage, viral infections, hormone withdrawal
 
----
-
-### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
-
-**Topic 3** — Comprehensive INI CET (AIIMS PG) Notes
-Full coverage: Topic 3 in None for INI CET (AIIMS PG) preparation
-Detailed theory and concept explanations
-Problem-solving strategies and common mistakes to avoid
-Practice: Attempt previous year questions and standard textbook exercises
-
----
-*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+**Key Difference**: Necrosis = swelling + inflammation + membrane rupture. Apoptosis = shrinkage + nuclear fragmentation + no inflammation.

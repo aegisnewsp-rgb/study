@@ -10,37 +10,39 @@ country: ini
 generated: "2026-03-25T17:00:00"
 ---
 
-# Topic 5
+**Chronic Inflammation and Tissue Repair** covers healing and chronic inflammation for INI CET (AIIMS PG).
 
-### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+**Tissue Repair** involves two processes:
+1. **Regeneration**: Replacement of lost cells with identical cells
+2. **Fibrosis (Scarring)**: Replacement with connective tissue
 
-**Topic 5** — Key Facts for INI CET (AIIMS PG)
-Core concept: Topic 5 is an important topic in None for INI CET (AIIMS PG)
-High-yield point: Understand the fundamental principles and their applications
-⚡ Exam tip: Questions from Topic 5 appear regularly in INI CET (AIIMS PG)
+**Regeneration Capacity of Tissues**:
+- **Labile cells** (constantly dividing): Epidermis, GI mucosa, bone marrow — can fully regenerate
+- **Stable cells** (low mitotic activity but can divide): Liver, kidney, pancreas, fibroblasts — limited regeneration
+- **Permanent cells** (non-dividing): Neurons, cardiac myocytes, skeletal muscle — cannot regenerate → fibrosis
 
----
+**Steps in Healing by Primary Intention** (clean surgical wound):
+- **Day 0–1**: Hemostasis — clot formation; acute inflammation (neutrophils)
+- **Day 1–3**: Debridement — neutrophils peak; epithelial cells start migrating
+- **Day 3–7**: Proliferative phase — fibroblasts appear, granulation tissue forms, angiogenesis begins, epithelialization completes
+- **Day 7–2 weeks**: Fibroblasts proliferate, collagen deposition (Type III initially, then Type I)
+- **Weeks to months**: Wound contraction (myofibroblasts), collagen remodeling, scar maturation
 
-### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+**Healing by Secondary Intention** (large, open wound):
+- Larger tissue deficit
+- More inflammation and granulation tissue
+- Wound contraction (up to 70-80% reduction in wound size)
+- Results in larger, visible scar
 
-**Topic 5** — INI CET (AIIMS PG) Study Guide
-Overview: Topic 5 is a key None topic for INI CET (AIIMS PG)
-Core principles: Build a solid understanding of fundamentals
-Key points: Definitions, applications, and typical exam question patterns
-Study strategy: Theory first, then practice problems
+**Factors Affecting Wound Healing**:
+- **Retard**: Malnutrition, infection, poor blood supply, diabetes, corticosteroids, smoking
+- **Promote**: Adequate blood supply, good nutrition (Vitamin C, zinc), age (young heal faster)
 
----
+**Granulomatous Inflammation**: Chronic inflammation with granuloma formation
+- **Granuloma**: Collection of epithelioid macrophages + giant cells + lymphocytes
+- **Types**:
+  - **Foreign body granuloma**: Response to inert foreign material (suture, silica, asbestos)
+  - **Immune granuloma**: Response to persistent antigen (mycobacteria, schistosoma, sarcoidosis)
+- **Giant cells**: Langhans giant cells (TB — nuclei arranged in horseshoe), Foreign body giant cells (random nuclei)
 
-### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
-
-**Topic 5** — Comprehensive INI CET (AIIMS PG) Notes
-Full coverage: Topic 5 in None for INI CET (AIIMS PG) preparation
-Detailed theory and concept explanations
-Problem-solving strategies and common mistakes to avoid
-Practice: Attempt previous year questions and standard textbook exercises
-
----
-*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+⚡ **Exam Tip for INI CET (AIIMS PG)**: Sarcoidosis = non-caseating granulomas. Tuberculosis = caseating granulomas (cheese-like necrosis).

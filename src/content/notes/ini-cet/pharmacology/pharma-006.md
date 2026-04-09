@@ -10,37 +10,39 @@ country: ini
 generated: "2026-03-25T17:00:00"
 ---
 
-# Topic 6
+**Autacoids: Histamine and Antihistamines** covers autacoids — histamine and antihistamines for INI CET (AIIMS PG).
 
-### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+**Autacoids**: Locally produced, short-acting chemical messengers (histamine, serotonin, prostaglandins, leukotrienes, kinins).
 
-**Topic 6** — Key Facts for INI CET (AIIMS PG)
-Core concept: Topic 6 is an important topic in None for INI CET (AIIMS PG)
-High-yield point: Understand the fundamental principles and their applications
-⚡ Exam tip: Questions from Topic 6 appear regularly in INI CET (AIIMS PG)
+**Histamine**:
+- **Synthesis**: Histidine (via histidine decarboxylase) → Histamine
+- **Storage**: Mast cells and basophils (in granules — preformed, released immediately)
+- **Release triggers**: Type I hypersensitivity (IgE-mediated), complement fragments (C3a, C5a — anaphylatoxins), physical agents (cold, trauma), drugs (morphine, tubocurarine), food allergens
+- **Receptors**:
+  - **H₁ receptor** (GPCR — Gq): Smooth muscle (bronchoconstriction, GI contraction), vascular endothelium (↑NO → vasodilation, ↑vascular permeability → edema), nasal mucosa (sneezing, rhinorrhea) — ALLERGIC reactions
+  - **H₂ receptor** (GPCR — Gs): Gastric parietal cells (↑HCl secretion) — PEPTIC ULCER disease; heart (↑HR), uterus (relaxation)
 
----
+**Antihistamines (H₁ blockers)**:
+- **First-generation (sedating)** — cross BBB:
+  - **Diphenhydramine**: Allergy, motion sickness (antiemetic), insomnia; side effects: sedation, anticholinergic (dry mouth, urinary retention, constipation)
+  - **Dimenhydrinate**: Motion sickness (Dramamine)
+  - **Promethazine**: Allergy, sedation, antiemetic
+  - **Chlorpheniramine**: Common cold (less effective than for true allergy)
+- **Second-generation (non-sedating)** — do NOT cross BBB significantly:
+  - **Cetirizine**: Active metabolite of hydroxyzine; some anticholinergic effect
+  - **Loratadine**: Non-sedating even at high doses
+  - **Desloratadine**: Active metabolite of loratadine
+  - **Fexofenadine**: Active metabolite of terfenadine (terfenadine withdrawn for QT prolongation)
+  - **Levocetirizine**: Active isomer of cetirizine
+  - **Azelastine**: Nasal spray for allergic rhinitis
 
-### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+**Clinical Uses of H₁ Antihistamines**:
+- Allergic rhinitis (seasonal/perennial) — nasal congestion, sneezing, rhinorrhea, itching
+- Allergic conjunctivitis
+- Urticaria (hives) and angioedema
+- Anaphylaxis (adjunct to epinephrine — epinephrine is first-line for anaphylaxis)
+- Motion sickness (first-generation — antiemetic effect via vestibular pathways)
+- Insomnia (first-generation — CNS depression)
+- Common cold (limited value — rhinovirus not histamine-mediated)
 
-**Topic 6** — INI CET (AIIMS PG) Study Guide
-Overview: Topic 6 is a key None topic for INI CET (AIIMS PG)
-Core principles: Build a solid understanding of fundamentals
-Key points: Definitions, applications, and typical exam question patterns
-Study strategy: Theory first, then practice problems
-
----
-
-### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
-
-**Topic 6** — Comprehensive INI CET (AIIMS PG) Notes
-Full coverage: Topic 6 in None for INI CET (AIIMS PG) preparation
-Detailed theory and concept explanations
-Problem-solving strategies and common mistakes to avoid
-Practice: Attempt previous year questions and standard textbook exercises
-
----
-*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+⚡ **Exam Tip for INI CET (AIIMS PG)**: Second-generation antihistamines (cetirizine, loratadine, fexofenadine) are non-sedating because they do NOT cross the blood-brain barrier. First-generation (diphenhydramine) cause sedation because they DO cross the BBB and block H₁ receptors in the CNS.

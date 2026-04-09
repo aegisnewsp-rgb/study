@@ -10,37 +10,48 @@ country: ini
 generated: "2026-03-25T17:00:00"
 ---
 
-# Topic 2
+**Nerve Conduction and Synaptic Transmission** covers nerve conduction and synaptic transmission for INI CET (AIIMS PG).
 
-### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+**Neuron Structure and Function**:
+- **Soma (cell body)**: Contains nucleus, organelles (Nissl bodies — RER for protein synthesis)
+- **Dendrites**: Receive input signals (receptive field)
+- **Axon hillock**: Site of action potential initiation (most excitable region — highest density of voltage-gated Na⁺ channels)
+- **Axon**: Conducts action potentials; **myelinated axons** conduct much faster (saltatory conduction)
+- **Axon terminal**: Synaptic vesicles containing neurotransmitter
 
-**Topic 2** — Key Facts for INI CET (AIIMS PG)
-Core concept: Topic 2 is an important topic in Physiology for INI CET (AIIMS PG)
-High-yield point: Understand the fundamental principles and their applications
-⚡ Exam tip: Questions from Topic 2 appear regularly in INI CET (AIIMS PG)
+**Resting Membrane Potential (RMP)**:
+- Typically –70 mV (inside negative relative to outside)
+- **Causes**:
+  1. **Na⁺/K⁺-ATPase**: Pumps 3Na⁺ out, 2K⁺ in (creates concentration gradients: [Na⁺]i < [Na⁺]o; [K⁺]i > [K⁺]o)
+  2. **K⁺ leak channels** (most important): High permeability to K⁺ → K⁺ flows out (down gradient) → inside becomes negative
+  3. **Na⁺ leak channels**: Small inward leak → partially offsets K⁺ efflux
+  4. **Ion distribution**: Intracellular proteins (organic anions) are non-diffusible, contributing to negative intracellular charge
+- Goldman equation (constant field equation): E_m = 61 log [(P_K[K⁺]_o + P_Na[Na⁺]_o + P_Cl[Cl⁻]_i) / (P_K[K⁺]_i + P_Na[Na⁺]_i + P_Cl[Cl⁻]_o)]
 
----
+**Action Potential (AP)**:
+- **Phases**:
+  - **Resting**: –70 mV; Na⁺ channels closed; K⁺ channels open
+  - **Depolarization (phase 0)**: Rapid upstroke to +30 mV — voltage-gated Na⁺ channels open (fast, transient)
+  - **Overshoot**: Membrane potential briefly positive (+30 mV)
+  - **Repolarization (phase 1)**: Initial rapid fall — voltage-gated Na⁺ channels inactivate; transient K⁺ efflux (I_to)
+  - **Plateau (phase 2)** — cardiac muscle only: Ca²⁺ channels sustain depolarization → long refractory period
+  - **Repolarization (phase 3)**: K⁺ efflux through delayed rectifier K⁺ channels → returns to –70 mV
+  - **Resting (phase 4)** — neurons: Full restoration of ion gradients
 
-### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+**Conduction Velocity**:
+- **Myelinated fibers**: Saltatory conduction (AP "jumps" between Nodes of Ranvier) — up to 120 m/s
+- **Unmyelinated fibers**: Continuous conduction — 0.5–2 m/s
+- **Factors increasing conduction velocity**: Larger diameter, myelination, temperature (↑T° → ↑CV; local anesthetics block Na⁺ channels → block AP)
 
-**Topic 2** — INI CET (AIIMS PG) Study Guide
-Overview: Topic 2 is a key Physiology topic for INI CET (AIIMS PG)
-Core principles: Build a solid understanding of fundamentals
-Key points: Definitions, applications, and typical exam question patterns
-Study strategy: Theory first, then practice problems
+**Synaptic Transmission**:
+1. **Presynaptic terminal**: AP arrives → voltage-gated Ca²⁺ channels open → Ca²⁺ influx → vesicles fuse with presynaptic membrane (SNARE proteins) → neurotransmitter release
+2. **Synaptic cleft**: ~20–40 nm gap
+3. **Postsynaptic receptor**: Neurotransmitter binds → postsynaptic potential (EPSP or IPSP)
+4. **Termination**: Reuptake (NET, DAT, SERT), enzymatic degradation (AChE for ACh; MAO, COMT for catecholamines)
 
----
+**EPSP vs IPSP**:
+- **EPSP** (Excitatory): Na⁺/K⁺ permeability ↑; depolarizing; brings membrane toward threshold
+- **IPSP** (Inhibitory): Cl⁻ influx (GABA-A) or K⁺ efflux; hyperpolarizing; takes membrane away from threshold
+- **Spatial and temporal summation**: Multiple PSPs combine algebraically; critical for neural integration
 
-### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
-
-**Topic 2** — Comprehensive INI CET (AIIMS PG) Notes
-Full coverage: Topic 2 in Physiology for INI CET (AIIMS PG) preparation
-Detailed theory and concept explanations
-Problem-solving strategies and common mistakes to avoid
-Practice: Attempt previous year questions and standard textbook exercises
-
----
-*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+⚡ **Exam Tip for INI CET (AIIMS PG)**: Curare (d-tubocurarine) blocks nicotinic Nm receptors at the NMJ → competitive antagonism → can be reversed by AChE inhibitors (neostigmine) → ACh accumulates → competes with curare. Succinylcholine (depolarizing blocker) → binds Nm receptor → causes sustained depolarization → phase I block (flaccid paralysis); prolonged use → phase II block (desensitization).

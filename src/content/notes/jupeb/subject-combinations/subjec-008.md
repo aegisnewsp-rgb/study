@@ -10,37 +10,55 @@ country: jupeb
 generated: "2026-03-25T17:00:00"
 ---
 
-# Topic 8
+Engineering Direct Entry subject requirements through JUPEB are specific and vary by institution and engineering discipline. A strategic subject combination is essential for gaining admission into competitive Engineering programmes at Nigerian universities.
 
-### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+## Universal Engineering Requirements
 
-**Topic 8** — Key Facts for JUPEB (Nigeria)
-Core concept: Topic 8 is an important topic in Subject Combinations for JUPEB (Nigeria)
-High-yield point: Understand the fundamental principles and their applications
-⚡ Exam tip: Questions from Topic 8 appear regularly in JUPEB (Nigeria)
+All Engineering programmes require:
+- **Physics** (Non-negotiable — foundational to all engineering)
+- **Mathematics** (Non-negotiable — the analytical language of engineering)
+- **Chemistry** (Required for Chemical, Petroleum, and some Materials Engineering)
 
----
+## Discipline-Specific Requirements
 
-### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+### Electrical and Electronic Engineering
+- Physics + Mathematics (Compulsory)
+- Chemistry OR Further Mathematics (Recommended)
+- For UNIBADAN, UI, UNILAG: Strong Physics and Mathematics grades essential
 
-**Topic 8** — JUPEB (Nigeria) Study Guide
-Overview: Topic 8 is a key Subject Combinations topic for JUPEB (Nigeria)
-Core principles: Build a solid understanding of fundamentals
-Key points: Definitions, applications, and typical exam question patterns
-Study strategy: Theory first, then practice problems
+### Mechanical Engineering
+- Physics + Mathematics (Compulsory)
+- Chemistry OR Technical Drawing
+- Most mechanical engineering schools accept Chemistry or Technical Drawing as third subject
 
----
+### Chemical and Petroleum Engineering
+- Physics + Chemistry + Mathematics (all three are compulsory)
+- These are among the most competitive engineering programmes
 
-### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
+### Civil Engineering
+- Physics + Mathematics (Compulsory)
+- Chemistry OR Further Mathematics OR Geography
 
-**Topic 8** — Comprehensive JUPEB (Nigeria) Notes
-Full coverage: Topic 8 in Subject Combinations for JUPEB (Nigeria) preparation
-Detailed theory and concept explanations
-Problem-solving strategies and common mistakes to avoid
-Practice: Attempt previous year questions and standard textbook exercises
+### Computer Engineering
+- Physics + Mathematics (Compulsory)
+- Chemistry OR any science/technology subject
+- Growing demand means competitive entry grades
 
----
-*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+## Key Universities and Their Requirements
+
+| University | Engineering Focus | Key Requirements |
+|---|---|---|
+| University of Ibadan (UI) | All branches | Physics, Chemistry, Mathematics minimum C |
+| University of Lagos (UNILAG) | All branches | Physics, Mathematics, Chemistry/ Further Maths |
+| Federal University of Technology, Owerri (FUTO) | Technology-focused | Physics, Mathematics, Chemistry |
+| Covenant University | Engineering & Sciences | Strong Physics, Mathematics grades |
+| Lagos State University (LASU) | All branches | Physics, Mathematics minimum C |
+
+## Direct Entry Admission Strategy
+
+1. **Aim for Distinction (A) or B grades**: Especially in Physics and Mathematics
+2. **Mathematics is your safety subject**: Even if Physics is challenging, strong Mathematics grades improve your chances
+3. **Further Mathematics**: If available, adds significant advantage for Engineering admission
+4. **Check FUTO requirements**: FUTO uses a different grading system and may have specific JUPEB requirements
+
+⚡ **JUPEB Tip**: Federal University of Technology, Owerri (FUTO) offers one of the most comprehensive Engineering programmes. Their JUPEB entry requires Physics, Mathematics, and Chemistry with minimum Merit (C) grades. Some state universities like LAUTECH have more flexible requirements but still prioritize Physics and Mathematics.

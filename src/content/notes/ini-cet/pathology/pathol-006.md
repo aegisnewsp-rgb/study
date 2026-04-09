@@ -10,37 +10,41 @@ country: ini
 generated: "2026-03-25T17:00:00"
 ---
 
-# Topic 6
+**Hemodynamic Disorders** covers hemodynamic disorders for INI CET (AIIMS PG).
 
-### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+**Edema**: Abnormal fluid accumulation in interstitial spaces or body cavities.
 
-**Topic 6** — Key Facts for INI CET (AIIMS PG)
-Core concept: Topic 6 is an important topic in None for INI CET (AIIMS PG)
-High-yield point: Understand the fundamental principles and their applications
-⚡ Exam tip: Questions from Topic 6 appear regularly in INI CET (AIIMS PG)
+**Types of Edema**:
+- **Localized edema**: DVT (unilateral leg swelling), allergic reactions (angioedema), lymphatic obstruction
+- **Generalized edema**: Anasarca (severe generalized), peripheral pitting edema
 
----
+**Pathogenesis** (Starling forces):
+- **Increased capillary hydrostatic pressure**: Heart failure, renal failure
+- **Reduced plasma oncotic pressure**: Hypoalbuminemia (liver disease, nephrotic syndrome)
+- **Increased capillary permeability**: Inflammation, burns
+- **Lymphatic obstruction**: Lymphedema (elephantiasis)
 
-### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+**Pitting Edema Test**: Press skin over tibia for 5 seconds — if indentation persists = pitting edema (fluid-filled, not fatty)
 
-**Topic 6** — INI CET (AIIMS PG) Study Guide
-Overview: Topic 6 is a key None topic for INI CET (AIIMS PG)
-Core principles: Build a solid understanding of fundamentals
-Key points: Definitions, applications, and typical exam question patterns
-Study strategy: Theory first, then practice problems
+**Hyperemia and Congestion**:
+- **Active hyperemia**: Arterial inflow increases (inflammation, exercise) — bright red
+- **Passive congestion**: Venous outflow decreases — dark red-blue (liver, lungs)
+  - **Chronic venous congestion (CVC) of liver**: Nutmeg liver (dilated central veins, atrophic hepatocytes, hemorrhage)
+  - **Pulmonary congestion**: Brown induration (hemosiderin-laden macrophages = "heart failure cells")
 
----
+**Hemorrhage**:
+- **Petechiae**: 1–2 mm (platelet disorders, infections)
+- **Purpura**: 3–10 mm
+- **Ecchymosis**: >10 mm (bruise)
+- **Hemothorax/Hemopericardium/Hemoperitoneum**: Blood in body cavities
 
-### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
+**Shock**: Inadequate tissue perfusion leading to cellular hypoxia.
+**Types**:
+| Type | Mechanism | Example |
+|---|---|---|
+| Hypovolemic | Blood/fluid loss | Hemorrhage, severe dehydration |
+| Cardiogenic | Pump failure | MI, cardiac tamponade |
+| Distributive (Septic) | Vasodilation + maldistribution | Sepsis, anaphylaxis, neurogenic |
+| Obstructive | Mechanical obstruction | PE, tension pneumothorax |
 
-**Topic 6** — Comprehensive INI CET (AIIMS PG) Notes
-Full coverage: Topic 6 in None for INI CET (AIIMS PG) preparation
-Detailed theory and concept explanations
-Problem-solving strategies and common mistakes to avoid
-Practice: Attempt previous year questions and standard textbook exercises
-
----
-*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+⚡ **Exam Tip for INI CET (AIIMS PG)**: In septic shock, TNF-α and IL-1 cause vasodilation → warm shock (warm extremities early). In hypovolemic shock → cold extremities. Knowing this difference is critical for clinical diagnosis.

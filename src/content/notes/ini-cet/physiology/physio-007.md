@@ -10,37 +10,49 @@ country: ini
 generated: "2026-03-25T17:00:00"
 ---
 
-# Topic 7
+**Renal Physiology: Glomerular Filtration** covers renal physiology — glomerular filtration for INI CET (AIIMS PG).
 
-### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+**Functional Anatomy**:
+- **Kidneys**: ~10–12 cm, retroperitoneal; ~1 million nephrons per kidney
+- **Nephron**: Basic functional unit
+  - **Renal corpuscle**: Glomerulus + Bowman's capsule
+  - **Proximal tubule**: Reabsorbs ~65% of filtered Na⁺, water, glucose, amino acids
+  - **Loop of Henle**: Countercurrent multiplier; diluting segment
+  - **Distal tubule**: Fine-tuning of Na⁺/K⁺/H⁺; aldosterone-sensitive
+  - **Collecting duct**: ADH-sensitive; final water reabsorption
 
-**Topic 7** — Key Facts for INI CET (AIIMS PG)
-Core concept: Topic 7 is an important topic in Physiology for INI CET (AIIMS PG)
-High-yield point: Understand the fundamental principles and their applications
-⚡ Exam tip: Questions from Topic 7 appear regularly in INI CET (AIIMS PG)
+**Glomerular Filtration**:
+- **GFR** (Glomerular Filtration Rate): ~125 mL/min = 180 L/day
+  - ~1 mL/min per 1.73 m² (normalized for body surface area)
+  - Used to assess kidney function (creatinine clearance estimates GFR)
+- **Filtration fraction (FF)**: GFR / RPF (normal ~20%) — fraction of renal plasma flow that becomes filtrate
 
----
+**Starling Forces in Glomerulus**:
+- **Net Filtration Pressure (NFP)**: P_GC (glomerular capillary hydrostatic pressure ~55 mmHg) – [P_BC (Bowman's capsule hydrostatic pressure ~15 mmHg) + π_GC (glomerular capillary oncotic pressure ~30 mmHg)]
+- **NFP ≈ 10 mmHg** (favors filtration)
+- **π_BC** (Bowman's capsule oncotic pressure) = 0 (no protein normally in filtrate)
 
-### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+**Regulation of GFR**:
 
-**Topic 7** — INI CET (AIIMS PG) Study Guide
-Overview: Topic 7 is a key Physiology topic for INI CET (AIIMS PG)
-Core principles: Build a solid understanding of fundamentals
-Key points: Definitions, applications, and typical exam question patterns
-Study strategy: Theory first, then practice problems
+**1. Autoregulation** (maintains GFR constant across MAP 80-180 mmHg):
+- **Myogenic mechanism**: ↑BP → afferent arteriole stretches → myogenic contraction → ↓blood flow → protects glomerulus
+- **Tubuloglomerular feedback (TGF)**: ↑NaCl at macula densa → adenosine release → afferent arteriolar constriction → ↓GFR (prevents excessive flow)
+  - **Afferent arteriole**: Dilates with PGE₂, NO; constricts with angiotensin II (AT II)
+  - **Efferent arteriole**: Constricts with AT II → ↑P_GC → maintains GFR despite ↓RPF
 
----
+**2. Hormonal/Vascular Regulation**:
+- **Angiotensin II (AT II)**: Constricts efferent arteriole > afferent → maintains GFR despite ↓RBF
+- **PGE₂, bradykinin, NO**: Vasodilators → maintain RBF and GFR
+- **Sympathetic activation** (severe hypovolemia): α₁ constriction → ↓RBF and ↓GFR
 
-### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
+**Filtration Barrier**:
+- **Layers**: Fenestrated endothelium (70–100 nm pores) → basement membrane (negatively charged) → podocyte foot processes (slit diaphragm — nephrin)
+- **Negatively charged barrier**: Glycocalyx on endothelium and podocytes → repels negatively charged proteins (albumin is repelled → minimal filtration under normal conditions)
+- **Proteinuria**: When barrier is damaged (e.g., nephrotic syndrome — loss of negative charge → increased albumin filtration)
 
-**Topic 7** — Comprehensive INI CET (AIIMS PG) Notes
-Full coverage: Topic 7 in Physiology for INI CET (AIIMS PG) preparation
-Detailed theory and concept explanations
-Problem-solving strategies and common mistakes to avoid
-Practice: Attempt previous year questions and standard textbook exercises
+**Creatinine Clearance**:
+- **CrCl ≈ GFR** (creatinine is freely filtered, not reabsorbed, slightly secreted)
+- **Estimate GFR**: Cockcroft-Gault equation (age, weight, gender, creatinine); MDRD or CKD-EPI formulas
+- **Normal**: 90–120 mL/min/1.73m²; falls with age (~1 mL/min/year after 40)
 
----
-*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+⚡ **Exam Tip for INI CET (AIIMS PG)**: In heart failure, ↓CO → ↓RPF → ↑angiotensin II → efferent arteriolar constriction → maintains GFR despite low RPF. ACE inhibitors interrupt this → can precipitate acute kidney injury (especially with bilateral renal artery stenosis or volume depletion). ACE inhibitors are beneficial in chronic heart failure but must be used cautiously in acute decompensation.

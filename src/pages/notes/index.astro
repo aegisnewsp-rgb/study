@@ -57,6 +57,8 @@ const breadcrumbJsonLd = {
   ],
 };
 
+const examsWithNotes = examMeta.filter(e => e.totalTopics > 0);
+const examsWithNotesCount = examsWithNotes.length;
 const notesItemList = {
   '@context': 'https://schema.org',
   '@type': 'ItemList',
@@ -71,9 +73,6 @@ const notesItemList = {
     description: `${exam.totalTopics} study notes across ${exam.subjects} subjects`,
   })),
 };
-
-const examsWithNotes = examMeta.filter(e => e.totalTopics > 0);
-const examsWithNotesCount = examsWithNotes.length;
 // Top exams by topic count for the FAQ sample
 const topExams = [...examsWithNotes]
   .sort((a, b) => b.totalTopics - a.totalTopics)

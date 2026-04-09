@@ -4,7 +4,7 @@ examName: KPSC KAS
 subject: gs1
 subjectName: General Studies
 topic: histor-007
-topicName: Post-Independence India: Integration and Consolidation
+topicName: "Post-Independence India: Integration and Consolidation"
 weight: 3
 country: kpsc
 generated: "2026-03-25T17:00:00"

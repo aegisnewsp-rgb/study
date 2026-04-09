@@ -10,380 +10,151 @@ country: fmge
 generated: "2026-03-25T17:00:00"
 ---
 
-# Topic 6
+# Topic 6: Forensic Psychiatry — Insanity Defense, Indian Evidence Act, McNagarten Rules, DIMIA
 
-### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+## Introduction to Forensic Psychiatry
 
-**Forensic Psychiatry and Miscellaneous Topics** — Key Facts for FMGE
-- **Feigned insanity:** Person deliberately pretends to be insane; common in criminals to escape punishment
-- **True insanity:** Actual mental illness with delusions, hallucinations, impaired judgment
-- **McNaghten rule:** Person not responsible if, at time of act, due to disease of mind, did not know nature of act or did not know it was wrong
-- **Somnambulism (sleepwalking):** NOT insanity — act done in automatism, no criminal responsibility
-- ⚡ **Exam tip:** Infancy (Section 82 IPC) — child under 7 years is absolutely exempt; 7–12 years is doli incapax (rebuttable presumption)
-
----
-
-### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
-
-**Forensic Psychiatry and Miscellaneous Topics — FMGE Study Guide**
-
-## Forensic Psychiatry — Introduction
-
-Forensic psychiatry deals with the interface between mental disorder and the law. It involves the assessment of mental state at the time of an offence, the determination of criminal responsibility, and the management of mentally disordered offenders.
+Forensic psychiatry deals with the interface between mental disorder and the law. Its central concern in criminal practice is the assessment of the accused's mental state at the time of the offence — specifically, whether the accused was capable of understanding the nature of their act and knowing that it was wrong. This determination directly affects criminal responsibility and punishment. In civil practice, forensic psychiatry addresses testamentary capacity, fitness to stand trial, and the management of mentally disordered offenders.
 
 ## Classification of Mental Disorders
 
-### 1. Psychoses
+### Psychoses
 
-**Schizophrenia:**
-- Most common functional psychosis
-- Features: Delusions (paranoid type most common), hallucinations (auditory most common), disorganized speech/behaviour, negative symptoms (flat affect, alogia, avolition)
-- Forensic significance: May commit offences during psychotic episode; not criminally responsible if unable to distinguish right from wrong
+**Schizophrenia** is the most common functional psychosis, characterized by delusions (most commonly paranoid), hallucinations (auditory hallucinations are most characteristic), disorganized speech and behaviour, and negative symptoms (flat affect, poverty of speech, avolition). Individuals may commit offences during psychotic episodes when their capacity to distinguish right from wrong is impaired.
 
-**Manic-Depressive illness (Bipolar disorder):**
-- Manic phase: Elevated mood, increased energy, decreased sleep need, grandiosity, impulsive behaviour
-- Depressive phase: Low mood, anhedonia, fatigue, suicidal ideation
-- May commit impulsive offences during manic phase
+**Manic-Depressive illness (Bipolar disorder)** presents with alternating manic episodes (elevated mood, increased energy, decreased need for sleep, grandiosity, impulsive behaviour) and depressive episodes (low mood, anhedonia, fatigue, suicidal ideation). Impulsive offences may be committed during manic episodes when judgment is impaired.
 
-**Delusional disorders:**
-- Fixed, false beliefs not amenable to change
-- Types: Persecutory, jealous, erotomanic, grandiose, somatic
-- May lead to violence (especially persecutory type)
+**Delusional disorders** involve fixed, false beliefs not amenable to change in light of contrary evidence. Persecutory, jealous, erotomanic, grandiose, and somatic subtypes exist. The persecutory type may lead to violent acts against the perceived source of threat.
 
-### 2. Neuroses
+### Neuroses
 
-**Anxiety disorders:** Excessive worry, panic attacks — rarely lead to offences
-**Obsessive-compulsive disorder:** Obsessions and compulsions; rarely leads to offences
-**Hysteria (Conversion disorder):** Non-organic symptoms; important for medicolegal assessment
+**Anxiety disorders**, **obsessive-compulsive disorder**, and **conversion disorder** (hysteria) are neuroses where the individual retains insight into their condition. Generally, individuals with neuroses are considered criminally responsible as they retain the capacity to understand the nature and wrongfulness of their acts.
 
-### 3. Intellectual Disability (Mental Retardation)
+### Intellectual Disability (Mental Retardation)
 
-**Classification by IQ:**
-- Mild (IQ 50–69): Can achieve up to Class 6–8; can live independently with support
-- Moderate (IQ 35–49): Can achieve up to Class 2; requires supervision
-- Severe (IQ 20–34): Limited communication; requires constant care
-- Profound (IQ <20): Requires full-time care
+Intellectual disability is classified by IQ level. **Mild intellectual disability** (IQ 50–69): can achieve education up to Class 6–8 and can live independently with some support. **Moderate intellectual disability** (IQ 35–49): can achieve basic education, requires supervision. **Severe intellectual disability** (IQ 20–34): limited communication ability, requires constant care. **Profound intellectual disability** (IQ below 20): requires full-time institutional care.
 
-**Forensic significance:** Criminal responsibility depends on ability to understand the nature and consequences of the act
+Criminal responsibility depends on whether the individual had the mental capacity to understand the nature and consequences of the act at the time of commission.
 
-### 4. Epilepsy
+### Epilepsy
 
-**Types:**
-- Grand mal (generalised tonic-clonic): Loss of consciousness, convulsions
-- Petit mal (absence): Brief loss of awareness
-- Jacksonian (focal): Motor/sensory symptoms without loss of consciousness
-- Psychomotor (temporal lobe): Automatisms, altered consciousness
+**Grand mal epilepsy** presents with loss of consciousness and generalized tonic-clonic convulsions. **Jacksonian epilepsy** involves focal motor or sensory symptoms without loss of consciousness. **Psychomotor (temporal lobe) epilepsy** presents with automatisms and altered consciousness.
 
-**Forensic aspects:**
-- Automatisms during seizure may lead to offences
-- Postictal state — confusion, disorientation
-- SUDEP (sudden unexpected death in epilepsy)
-- Status epilepticus — life-threatening emergency
+Forensic significance includes: **automatisms** during seizures (unconscious, involuntary movements) may lead to offences, **postictal confusion** may be mistaken for intoxication, and **SUDEP** (Sudden Unexpected Death in Epilepsy) requires differentiation from other causes of sudden death. Automatisms occurring during a seizure are generally considered involuntary acts with no criminal responsibility.
 
-### 5. Substance Use Disorders
+### Substance Use Disorders
 
-**Alcohol:**
-- Withdrawal delirium (delirium tremens): Confusion, hallucinations, tremors, autonomic hyperactivity
-- Chronic use: Wernicke's encephalopathy (confusion, ataxia, ophthalmoplegia), Korsakoff's psychosis (amnesia, confabulation)
-- Alcoholic hallucinosis — auditory hallucinations without other signs
+**Alcohol intoxication** can produce aggression, impaired judgment, and criminal acts. **Alcohol withdrawal delirium (delirium tremens)** presents with confusion, visual hallucinations (typically formication — insects crawling on skin), tremors, and autonomic hyperactivity. Chronic alcohol use causes **Wernicke's encephalopathy** (confusion, ataxia, ophthalmoplegia) and **Korsakoff's psychosis** (amnesia with confabulation).
 
-**Drug dependence:**
-- Physical dependence: Tolerance + withdrawal symptoms
-- Psychological dependence: Craving, compulsive use
-- Withdrawal can be life-threatening (alcohol, benzodiazepines)
+**Drug dependence** involves both physical dependence (tolerance and withdrawal symptoms) and psychological dependence (craving and compulsive use). Withdrawal from alcohol and benzodiazepines can be life-threatening.
 
-## Criminal Responsibility and Mental Illness
+## Legal Tests for Insanity
 
-### Legal Tests for Insanity
+### McNaghten Rule (1843)
 
-**McNaghten Rule (1843) — English Law, adopted in India:**
-- At the time of the act, the accused was labouring under such a disease of mind as to be incapable of:
-  - Knowing the nature of the act, OR
-  - Knowing that the act was wrong
-- If proven, accused is not guilty by reason of insanity
-- **India:** Section 84 IPC codifies the McNaghten rule
+The McNaghten rule, established in the English case of *Regina v. McNaghten* (1843), is the most influential test for criminal insanity and has been **codified in India under Section 84 of the IPC**. It states that a person is not criminally responsible if, at the time of the act, they were suffering from a **disease of the mind** such that they were incapable of:
 
-**Irresistible Impulse Test:**
-- Accused, though knowing the act was wrong, was unable to control the impulse to commit it
-- Not accepted in India
+1. Knowing the **nature of the act**, OR
+2. Knowing that the act was **contrary to law** (wrong)
 
-**Durham Rule (US):**
-- Accused not guilty if the act was the product of mental disease or defect
-- More liberal than McNaghten
+If both prongs are established, the accused is found **not guilty by reason of insanity**. The burden of proof lies on the accused, who must demonstrate this on the **preponderance of probability** (not beyond reasonable doubt, as in criminal prosecution).
 
-**Model Penal Code (US):**
-- Person is not responsible if, as a result of mental disease or defect, he was unable to appreciate the criminality of his conduct
+### Irresistible Impulse Test
 
-### Feigned Insanity vs True Insanity
+Under this test, an accused who, though knowing that the act was wrong, was unable to control the impulse to commit it due to mental disease, may be acquitted. This test is more liberal than McNaghten. However, it has **not been accepted in India** — Indian law follows the stricter McNaghten standard as codified in Section 84 IPC.
+
+### Durham Rule (United States)
+
+The Durham rule states that an accused is not guilty if the act was the **product of mental disease or defect**. This is broader than McNaghten as it does not require specific cognitive defects. It has been adopted in a limited number of US jurisdictions.
+
+### Model Penal Code (United States)
+
+The Model Penal Code provides that a person is not responsible if, as a result of mental disease or defect, they were **unable to appreciate the criminality of their conduct**. This is more subjective than McNaghten, focusing on the accused's actual appreciation of wrongfulness rather than abstract knowledge.
+
+### Section 84 IPC — Unsoundness of Mind (India)
+
+Section 84 IPC is the statutory codification of the McNaghten rule in India. The essentials are:
+
+- The accused must have been suffering from a **disease of the mind** at the time of the act
+- The disease must have rendered the accused incapable of either:
+  - Knowing the **nature of the act**, OR
+  - Knowing that the act was **wrong**
+- The burden of proof is on the accused (preponderance of probability)
+
+**DIMIA** (Disease Incapacitating Mind's Acquired state) is sometimes used as a mnemonic: **D** — Disease of mind; **I** — Incapable; **M** — Mind's state; **A** — Act committed.
+
+## Feigned Insanity vs. True Insanity
+
+The differentiation is clinically and forensically important as individuals may deliberately feign insanity to escape criminal responsibility.
 
 | Feature | True Insanity | Feigned Insanity |
 |---|---|---|
-| Onset | Gradual | Sudden (after the act) |
-| Course | Progressive | Erratic |
-| Hallucinations | Usually consistent | Inconsistent, dramatic |
-| Attention | Drawn to symptoms | Drawn away from symptoms |
+| Onset | Gradual (psychosis develops over time) | Sudden (appears after the act) |
+| Course | Progressive | Erratic, inconsistent |
+| Hallucinations | Consistent, integrated | Inconsistent, theatrical |
+| Attention toward symptoms | Drawn to them | Drawn away from them |
 | Pupils | May be abnormal | Normal (conscious control) |
 | Memory | Impaired | Preserved |
-| Blink reflex | Absent (in true psychosis) | Present |
+| Blink reflex | Absent in psychosis | Present |
 | Sleep | Disturbed | Normal |
 | Response to examination | Bizarre, uncooperative | Dramatic but cooperative |
 
-**Signs of malingering (feigning):**
-- Exaggerated symptoms
-- Inconsistent responses
-- Too theatrical
-- Knows textbook symptoms but doesn't exhibit natural disorder
-- Answers questions incorrectly (feigning cognitive impairment)
+Signs of malingering include exaggerated symptoms, inconsistent responses, theatrical presentation, knowledge of textbook symptoms without natural disorder manifestation, and incorrectly answering questions that indicate feigned cognitive impairment.
 
-### Types of Mental State Examination (MSE)
+## Mental State Examination (MSE)
 
-**Components:**
+The Mental State Examination is the psychiatric equivalent of a physical examination and is a structured assessment of the accused's current mental state. Components include:
+
 1. **Appearance:** Grooming, posture, facial expression
-2. **Behaviour:** Movement, eye contact, cooperation
-3. **Speech:** Rate, volume, rhythm, quantity
+2. **Behaviour:** Movement, eye contact, cooperation level
+3. **Speech:** Rate, volume, rhythm, and quantity
 4. **Mood:** Subjective emotional state
-5. **Affect:** Objective emotional expression
-6. **Thought:** Form (coherence), content (delusions, obsessions)
-7. **Perception:** Hallucinations, illusions
-8. **Cognition:** Orientation, attention, concentration, memory
-9. **Insight:** Understanding of illness
+5. **Affect:** Objective emotional expression (blunted, flat, inappropriate)
+6. **Thought:** Form (coherence) and content (delusions, obsessions, overvalued ideas)
+7. **Perception:** Hallucinations (auditory, visual, tactile) and illusions
+8. **Cognition:** Orientation (time, place, person), attention, concentration, memory (immediate, recent, remote)
+9. **Insight:** Degree of understanding and awareness of illness
 10. **Judgment:** Ability to make appropriate decisions
 
-## Legal Provisions Under IPC
+## IPC Provisions Relating to Mental State
 
-### Section 82 IPC — Act of a Child Under 7 Years
-- **Absolutely exempt** from criminal liability
-- No prosecution, conviction, or punishment possible
-- Rationale: Child below 7 years cannot understand the nature and consequences of an act
+**Section 82 IPC — Child Under 7 Years:** Absolutely exempt from criminal liability — no prosecution or punishment is possible. The rationale is that a child below 7 cannot understand the nature and consequences of an act.
 
-### Section 83 IPC — Act of a Child Above 7 and Under 12
-- **Doli incapax:** Presumed incapable of committing a crime
-- This presumption is **rebuttable** — prosecution can prove the child understood the nature of the act
-- If prosecution proves understanding, child can be held responsible
-- In practice, children below 12 are dealt with under the Juvenile Justice Act
+**Section 83 IPC — Child Between 7 and 12 Years:** **Doli incapax** — the child is presumed incapable of committing a crime, but this presumption is **rebuttable**. If the prosecution proves that the child understood the nature of the act at the time, the child may be held responsible. In practice, children below 18 are dealt with under the **Juvenile Justice (Care and Protection of Children) Act 2015**.
 
-### Section 84 IPC — Unsoundness of Mind (Insanity)
-- **McNaghten Rule codified in India**
-- Act done by a person who, at the time of act, was incapable of knowing:
-  - The nature of the act, OR
-  - That it was contrary to law
-- The cause of unsoundness of mind must be a "disease of mind"
-- Burden of proof: On the accused (preponderance of probability)
+**Section 84 IPC — Unsoundness of Mind:** Codifies the McNaghten rule (see above).
 
-### Section 85 IPC — Act of an Intoxicated Person
-- Person who is in a state of intoxication (involuntary) and commits an offence is not criminally responsible
-- **Voluntary intoxication** does not excuse — person is responsible for getting intoxicated
-- Involuntary intoxication: Prescribed medication without knowledge, spiked drinks, force/duress
+**Section 85 IPC — Act of an Intoxicated Person:** A person in a state of intoxication (where the intoxication was **involuntary**) who commits an offence is not criminally responsible. Involuntary intoxication includes: prescribed medication without awareness of its effects, spiked drinks, and force or duress. **Voluntary intoxication** does not excuse — the person chose to become intoxicated and is responsible for acts committed while intoxicated.
 
-### Section 86 IPC — Act Intended to Cause Death — Intoxicated Person
-- If a person, while intoxicated, commits an act that would be murder if done sober, they are punishable as if they had the intent that an sober person would have
-- Special rule: General intent offences — intoxication is considered
-- Specific intent offences — intoxication may be considered as negating specific intent
+**Section 86 IPC — Act Intended to Cause Death, Intoxicated Person:** If an intoxicated person commits an act that would amount to murder if done sober, they are punished as if they had the intent that a sober person would have in those circumstances.
 
-### Section 87 IPC — Act Not Known to be Likely to Cause Death
-- No offence if the person did not intend to cause death or grievous hurt
-- Must have acted in good faith for benefit of the person
-
-### Section 88 IPC — Act Done in Good Faith for Benefit
-- Act done in good faith for benefit of a person, without consent, is not an offence if the person could not consent
-
-### Section 89 IPC — Act Done in Good Faith for Benefit of Child or Insane Person
-- Applies to acts done in good faith for the benefit of a child below 12 years or a person of unsound mind
-
-### Section 90 IPC — Consent
-- Consent is not valid if:
-  - Given under fear of injury or misconception of fact
-  - Given by a person of unsound mind or a child
-  - By person incapable of understanding the consequences
+**Section 87 IPC — Act Not Known to Be Likely to Cause Death:** No offence if the person did not intend to cause death or grievous hurt and acted in good faith for the person's benefit.
 
 ## Automatism and Related States
 
-**Automatism:** Unconscious, involuntary behaviour without apparent awareness
-- **True automatism:** Due to disease of mind — exempt under Section 84 IPC
-- **Involuntary act (somnambulism, epilepsy):** Not an offence; external factor
+**Automatism** refers to unconscious, involuntary behaviour without apparent awareness. In the legal context, there are two types:
 
-**Sleepwalking (Somnambulism):**
-- Occurs during non-REM sleep
-- Person performs complex acts without awareness
-- No criminal responsibility (actus reus present but mens rea absent)
-- Important to distinguish from other conditions
+**True automatism:** The automatism arises from a disease of the mind (e.g., epilepsy, sleepwalking) — the accused is exempt under Section 84 IPC as they did not act with guilty knowledge.
 
-**Dissociative states:**
-- Fugue state: Person wanders away from home, assumes new identity
-- Multiple personality disorder
-- State of automatism may lead to offences
+**Involuntary act (somnambulism or epilepsy):** Not an offence. The **actus reus** (guilty act) is present, but **mens rea** (guilty mind) is absent.
 
-**Post-concussional state:**
-- After head injury
-- Automatisms possible
+**Sleepwalking (Somnambulism):** Occurs during non-REM sleep; the person performs complex acts without awareness or memory. No criminal responsibility as mens rea is absent. Important to distinguish from other states as the consequences differ significantly.
 
 ## Infanticide
 
-**Definition:** The killing of a newborn child (within 24 hours of birth) or a child below one year
+**Infanticide** is the killing of a newborn child. Under the **Bharatiya Nyanya Sanhita (BNS) 2023, Section 80**, causing the death of a newborn child by live birth is punishable with imprisonment up to 2 years or a fine, or both. Previously, this fell under **Section 315 IPC** (acts to prevent child being born alive or to cause it to die after birth).
 
-**The Bharatiya Nyaya Sanhita (BNS) 2023:**
-- Section 80: Causing death of newborn child by live birth — punishment: up to 2 years or fine, or both
-- Previously under Indian Penal Code (Section 315 IPC — acts to prevent child being born alive or to cause it to die after birth)
+**Signs of a newborn** include: crown-heel length greater than 45 cm, weight greater than 2.5 kg, head circumference greater than 33 cm, fontanelles (anterior fontanelle 2.5–4 cm), nails reaching fingertips, descended testes in term male infants, and presence of lanugo (which disappears at term — its presence indicates prematurity).
 
-**Signs of a newborn:**
-- **Head circumference** >33 cm (mature)
-- **Crown-heel length** >45 cm
-- **Weight** >2.5 kg
-- **Fontanelles:** Anterior 2.5–4 cm
-- **Nail:** Reaches fingertips
-- **Lanugo:** Present in premature infants, disappears at term
-- **Testes:** Descended in term male infants
-- **Skull bones:** Separate, overlapping possible during birth
+**Live birth vs. stillbirth:** A child who has breathed after complete expulsion from the mother is a live birth and is a legal person. A child dead before complete expulsion or who died during birth is a stillbirth.
 
-**Live birth vs Stillbirth:**
-- **Live birth:** Child breathed after complete expulsion from mother — the child is a legal person
-- **Stillbirth:** Child dead before complete expulsion or died during birth
-- Dead born (stillborn) does not require registration under Births and Deaths Act
-- Medical certificate of cause of stillbirth required (Form 5)
+## Virginity Examination
 
-**Signs of viability:**
-- Weight >1 kg (some authorities say 500g)
-- Crown-heel length >35 cm
-- Head circumference >27 cm
-- Gestational age >28 weeks
+Hymen examination has **very limited medicolegal value**. The hymen is a membrane at the vaginal introitus, variable in shape (annular, crescentic, labial, septate, cribriform). In a nulliparous woman, it is thin and easily dilatable. After sexual intercourse, the hymen may show healed tears and irregular edges, but it may also remain intact in some women who have never had intercourse. **Absence of the hymen does not prove sexual intercourse** — there are many other causes, including physical activity, tampon use, and anatomical variation.
 
-## Virginity and Pregnancy
+## Sexual Offences — Relevant IPC/BNS Sections
 
-### Examination for Virginity
-
-**Hymen examination:**
-- Hymen is a membrane at the introitus; varies in shape and thickness
-- **Types:** Annular, crescentic, labial, septate, cribriform
-- **Hymen in nulliparous woman:** Thin, easily dilatable
-- **After sexual intercourse:** Hymen shows healed tears, irregular edges, may be absent (but not always — some women never tear)
-- **Note:** Absence of hymen does NOT prove sexual intercourse; many other causes
-
-**Medicolegal value:** Very limited; cannot definitively prove or disprove sexual intercourse
-
-### Pregnancy
-
-**Signs of pregnancy:**
-- **Presumptive:** Amenorrhoea, nausea, breast changes, quickening (16–20 weeks), linea nigra
-- **Probable:** Abdominal enlargement, ballotment, Hegar's sign, Chadwick's sign
-- **Positive:** Foetal heart sounds (20 weeks), foetal movements (20 weeks), ultrasound
-
-**Supravital reaction (Bachman's test):** White blood cells from a pregnant woman, when injected into male toads, cause release of sperm — outdated test
-
-### Criminal Abortion (Medical Termination of Pregnancy)
-
-**The MTP Act 1971 (as amended 2021):**
-- Up to 20 weeks: Opinion of one provider required
-- 20–24 weeks: Opinion of two providers required
-- Beyond 24 weeks: Court may permit in certain circumstances
-- Grounds: Risk to mother's life/physical/mental health, foetal abnormalities, contraceptive failure
-
-**Section 312 IPC (now BNS):** Causing miscarriage (abortion) without woman's consent — punishment: imprisonment up to 10 years
-
-**Section 313 IPC:** Miscarriage without consent — imprisonment for life
-
-**Self-abortion:** Woman attempting to cause her own miscarriage — Section 312 IPC
-
-**Signs of abortion:**
-- Products of conception in uterus
-- Curettings show chorionic villi, decidua
-- Evidence of pregnancy in blood/tissues
-
-## Impotence and Sterility
-
-**Impotence (erectile dysfunction):**
-- In male — inability to perform sexual intercourse
-- In female — anatomical or functional abnormality preventing penetration
-- Can be ground for divorce in India
-
-**Sterility:**
-- Inability to produce offspring
-- Does not affect validity of marriage unless specifically mentioned
-
-## Sexual Offences
-
-### Relevant BNS/IPC Sections
-
-**Section 63 BNS (Section 375 IPC):** Rape — sexual intercourse without consent, under threat, against the law of nature
-
-**Section 64 BNS (Section 376 IPC):** Punishment for rape — rigorous imprisonment not less than 10 years (may extend to life)
-
-**Section 66 BNS (Section 377 IPC — decriminalised in 2018):** Unnatural offences — though decriminalised for consenting adults, still relevant in context of minors and non-consent
-
-**Section 90 BNS:** Sexual intercourse by person in authority
-
-## Road Traffic Injuries
-
-**Common injuries in road accidents:**
-- Head injuries (most common cause of death)
-- Chest injuries (rib fractures, flail chest, cardiac injuries)
-- Abdominal injuries (solid organ lacerations)
-- Extremity fractures
-- Cervical spine injuries
-
-**Pedestrian vs Vehicle:**
-- Child: Vehicle bumper marks on legs, secondary impact to head
-- Adult: Primary impact to legs, secondary to pelvis/abdomen, tertiary to head
-
-**Medicolegal documentation:**
-- Detailed description of all injuries
-- Photograph with scale
-- Assessment of whether injuries are consistent with history
-- Scene visit may be useful
-- Vehicle examination by traffic police
-
-**Driving under influence (DUI):**
-- Section 185 Motor Vehicles Act: Blood alcohol concentration >30 mg/100ml
-- Compounds offence: Fine + imprisonment for subsequent offences
-
-## Miscellaneous Topics
-
-### Drowning in Viscera
-
-Viscera to preserve in suspected drowning:
-- Lung (100g) — for diatom detection
-- Blood from left ventricle (10ml)
-- Water from scene
-- Stomach contents
-- Kidney and liver
-
-**Diatom test:** Diatoms in bone marrow (femur) indicates antemortem drowning — most reliable sign
-
-### Electrical Injuries
-
-**Mechanism:** Joule heating (I²R) — current converts to heat as it passes through resistance
-
-**Low voltage (<1000V):** Ventricular fibrillation most common cause of death
-
-**High voltage (>1000V):** Asystole, respiratory muscle paralysis, burns
-
-**Lightning:** Natural electrical discharge; causes characteristic fern-leaf (Lichtenberg) pattern on skin; instant death or survival with neurological deficits
-
-### Starvation
-
-**Signs:**
-- Loss of subcutaneous fat
-- Brown atrophy of fat
-- Windowed appearance of ribs
-- No food in stomach (though may have gastric atrophy)
-- Electrolyte imbalances
-
-**Medicolegal:** Deaths from starvation/h neglect may constitute culpable homicide not amounting to murder
-
-### Torture and Custodial Deaths
-
-**Custodial death:** Death while in police or prison custody
-- Section 176 CrPC: Magistrate's inquest mandatory
-- Section 302 IPC: Murder if custodial torture leads to death
-- Compensation may be ordered by courts
-
-**Torture methods:**
-- Beatings (facing the light — making victim sit with bright light in front)
-- Falaka (beating on soles of feet)
-- Psychological torture
-- Burns
-- Abrasions and contusions
-
----
-*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+- **Section 63 BNS (Section 375 IPC) — Rape:** Sexual intercourse without consent, by threat, or against the law of nature
+- **Section 64 BNS (Section 376 IPC) — Punishment for Rape:** Rigorous imprisonment not less than 10 years, which may extend to life
+- **Section 90 BNS — Sexual Intercourse by Person in Authority**
+- **Section 66 BNS (Section 377 IPC, decriminalised 2018):** Unnatural offences — decriminalised for consenting adults between peers; still applicable in context of minors and non-consent

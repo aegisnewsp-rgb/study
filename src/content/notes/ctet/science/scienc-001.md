@@ -4,123 +4,148 @@ examName: CTET
 subject: botany
 subjectName: Science
 topic: scienc-001
-topicName: Topic 1
+topicName: Living World and Cell Biology
 weight: 3
 country: ctet
 generated: "2026-03-25T17:00:00"
 ---
 
-# Topic 1: Living World and Cell Biology
+# Living World and Cell Biology
 
 ## Characteristics of Living Organisms
 
-All living organisms share **seven characteristics of life**:
+All living organisms share certain key characteristics that distinguish them from non-living matter:
 
-1. **Nutrition** – Taking in food and using it for energy and growth
-2. **Respiration** – Release of energy from food (chemical breakdown)
-3. **Excretion** – Removal of waste products from the body
-4. **Growth** – Increase in size and body mass
-5. **Reproduction** – Production of new individuals of the same species
-6. **Response** – Reacting to changes in the environment (stimulus-response)
-7. **Movement** – Either the whole organism moves or parts of it move
+1. **Cellular organization**: All living things are made up of cells
+2. **Nutrition**: Taking in food and using it for energy and growth
+3. **Respiration**: Breaking down food to release energy (ATP)
+4. **Excretion**: Removing waste products of metabolism
+5. **Growth**: Increase in size and mass
+6. **Reproduction**: Producing offspring of the same kind
+7. **Responsiveness/Irritability**: Reacting to stimuli in the environment
+8. **Movement**: Locomotion (external) or internal movement (blood, food)
+9. **Adaptation**: Adjusting to environmental changes over time
 
-> **CTET Focus:** Questions often ask students to identify which processes distinguish living things from non-living things. Remember: non-living things may show one or two characteristics (e.g., a cloud grows) but not all seven together.
+> **MR. GREN** (Movement, Respiration, Growth, Excretion, Nutrition, Responsiveness) — the mnemonic for characteristics of life.
 
-## Cell Theory
+## Cell: The Basic Unit of Life
 
-The **cell theory** has three core principles:
+### Discovery
 
-- All living organisms are composed of cells
-- The cell is the basic unit of life
-- All cells arise from pre-existing cells (Rudolf Virchow, 1855)
+- **Robert Hooke (1665)**: First to observe cells — examined a thin slice of cork under a microscope and saw small compartments, calling them "cells" (Latin for small rooms)
+- **Anton van Leeuwenhoek (1676)**: First to observe living cells (bacteria, protozoa) — called them "animalcules"
+- **Matthias Schleiden (1838)**: German botanist — all plants are made of cells
+- **Theodor Schwann (1839)**: German zoologist — all animals are made of cells
+- **Rudolf Virchow (1855)**: "Omnis cellula e cellula" — all cells arise from pre-existing cells
 
-**Key scientists:**
-- **Robert Hooke** (1665) – First to observe cells in cork using a microscope
-- **Matthias Schleiden** (1838) – All plants are made of cells
-- **Theodor Schwann** (1839) – All animals are made of cells
+### Cell Theory
 
-## Plant Cell vs. Animal Cell
+The cell theory has three main postulates:
+1. All living organisms are composed of cells
+2. The cell is the basic unit of life
+3. All cells arise from pre-existing cells (not spontaneous generation)
+
+### Types of Cells
+
+#### Prokaryotic Cells (Pro = before, karyon = nucleus)
+
+- **No nuclear membrane** — genetic material (DNA) is scattered in the cytoplasm as a nucleoid
+- **No membrane-bound organelles** (no mitochondria, Golgi bodies, etc.)
+- Smaller, simpler cells
+- Example: Bacteria, Blue-green algae (Cyanobacteria)
+
+**Key features**:
+- DNA is circular, present in the cytoplasm
+- 70S ribosomes (smaller)
+- Cell wall present (made of peptidoglycan)
+- Reproduction is asexual (binary fission)
+
+#### Eukaryotic Cells (Eu = true, karyon = nucleus)
+
+- **Has a definite nucleus** with a nuclear membrane
+- **Membrane-bound organelles** (mitochondria, chloroplast, Golgi apparatus, etc.)
+- Larger, more complex
+- Example: Plants, Animals, Fungi, Protists
+
+**Key features**:
+- DNA is linear, present inside nucleus
+- 80S ribosomes
+- More complex internal compartmentalization
+
+### Comparison: Plant Cell vs Animal Cell
 
 | Feature | Plant Cell | Animal Cell |
 |---|---|---|
-| Cell Wall | ✅ Present (cellulose) | ❌ Absent |
-| Chloroplast | ✅ Present | ❌ Absent |
-| Vacuole | Large, central vacuole | Small, many vacuoles |
-| Centrioles | ❌ Absent | ✅ Present |
-| Shape | Rectangular, fixed | Irregular, rounded |
-| Lysosomes | Rare | Abundant |
-| Plastids | Present (chromoplasts, leucoplasts) | Absent |
+| Cell Wall | Present (cellulose) | Absent |
+| Chloroplast | Present (photosynthesis) | Absent |
+| Vacuoles | Large central vacuole | Small, many |
+| Centrioles | Mostly absent (except in lower plants) | Present |
+| Shape | Rectangular, fixed shape | Irregular, flexible |
+| Lysosomes | Rare | Common |
+| Mitochondria | Present but fewer | Many |
+| Nutrition | Autotrophic (mostly) | Heterotrophic |
+| Size | Larger (10–100 µm) | Smaller (10–20 µm) |
 
-## Cell Organelles and Their Functions
+### Cell Organelles and Their Functions
 
-### Nucleus
-- **Control centre** of the cell
-- Contains **DNA** (genetic material) organized as chromosomes
-- Most cells have one nucleus; some have multiple (e.g., striated muscle cells)
-- Contains the **nucleolus** which produces ribosomes
+**Plasma Membrane**:
+- Made of phospholipid bilayer + proteins (Fluid Mosaic Model — Singer and Nicolson, 1972)
+- Selectively permeable — controls what enters and exits
+- Contains cholesterol (in animal cells — absent in plant cells)
+- Transport: Diffusion, osmosis, active transport, facilitated diffusion
 
-### Mitochondria
-- Called the **"powerhouse of the cell"**
-- Site of **aerobic respiration** — produces ATP (adenosine triphosphate)
-- Has its own DNA and ribosomes (semi-autonomous organelle)
-- More in cells with high energy demands (muscle cells, liver cells)
+**Nucleus**:
+- Contains genetic material (DNA) organized as chromosomes
+- Surrounded by double nuclear membrane with pores
+- Contains nucleolus (for ribosome assembly)
+- Controls all cell activities (the "brain" of the cell)
+- DNA carries genetic code — arranged in histone proteins forming nucleosomes
 
-### Chloroplast
-- Found only in **plant cells and algae**
-- Site of **photosynthesis**
-- Contains green pigment **chlorophyll**
-- Has a double membrane system: outer and inner membrane + thylakoid stacks (grana)
-- Also semi-autonomous (own DNA and ribosomes)
+**Mitochondria (Powerhouse of the cell)**:
+- Double membrane — outer smooth, inner folded (cristae)
+- Site of aerobic respiration — produces ATP (adenosine triphosphate)
+- Has its own DNA (semi-autonomous)
+- Called the "powerhouse" because most ATP is produced here
 
-### Ribosome
-- **Smallest organelle** (not membrane-bound)
-- Site of **protein synthesis** (translation of mRNA)
-- Found free in cytoplasm or attached to rough ER
-- Composed of **rRNA and proteins**
+**Chloroplast (in plant cells only)**:
+- Double membrane organelle
+- Contains chlorophyll (green pigment) — absorbs light energy for photosynthesis
+- Has thylakoid membranes stacked into grana
+- Semi-autonomous (own DNA and ribosomes)
+- Site of photosynthesis (light reaction + dark reaction/Calvin cycle)
 
-### Other Important Organelles
-- **Endoplasmic Reticulum (ER):** Rough ER (with ribosomes) makes proteins; Smooth ER makes lipids
-- **Golgi Apparatus:** Modifies, packages, and ships proteins (the cell's "post office")
-- **Vacuoles:** Storage (water, food, waste); large central vacuole in plants maintains turgor pressure
+**Endoplasmic Reticulum (ER)**:
+- Rough ER: Has ribosomes on surface — protein synthesis and transport
+- Smooth ER: No ribosomes — lipid synthesis and detoxification
 
-## Prokaryotic vs. Eukaryotic Cells
+**Golgi Apparatus (Golgi body/Bodies)**:
+- Stack of flattened membrane sacs (cisternae)
+- Modifies, packages, and ships proteins and lipids
+- "Post office of the cell"
 
-| Feature | Prokaryotic | Eukaryotic |
-|---|---|---|
-| Example | Bacteria, blue-green algae | Plants, animals, fungi, protists |
-| Nucleus | No nuclear membrane (nucleoid) | True nucleus with membrane |
-| DNA | Circular, free in cytoplasm | Linear, inside nucleus |
-| Membrane-bound organelles | ❌ Absent | ✅ Present |
-| Ribosomes | Smaller (70S) | Larger (80S) |
-| Cell size | 1–10 µm | 10–100 µm |
-| Cell wall | Present (peptidoglycan in bacteria) | In plants (cellulose), absent in animals |
-| Mitochondria | Absent | Present |
+**Ribosome**:
+- Site of protein synthesis
+- Made of rRNA and proteins
+- 70S in prokaryotes, 80S in eukaryotes
 
-> **CTET Mnemonic:** "Pro = before (no nucleus membrane), Eu = true (has real nucleus)"
-> **CTET Exam Point:** Plant cells and animal cells are both eukaryotic — they both have a defined nucleus. Only bacteria are prokaryotic.
+**Lysosome**:
+- Contains digestive enzymes (hydrolases)
+- Digests worn-out organelles (autophagy), foreign particles
+- Called the "suicide bag" — if it bursts, it digests the cell itself
 
-## Cell Division
+**Centrosome/Centrioles**:
+- Present in animal cells
+- Involved in cell division (formation of spindle fibers)
+- Forms the basal bodies of cilia and flagella
 
-Cells divide for **growth** and **repair**. Two types:
+## CTET Exam Focus
 
-- **Mitosis** – Produces two identical daughter cells (used for growth and repair)
-- **Meiosis** – Produces four genetically different gametes (used for reproduction)
-
-## Quick Review Formulae & Facts
-
-- **Cell theory** was developed by Schleiden and Schwann (1838–1839)
-- Robert Hooke coined the term **"cell"** in 1665
-- Mitochondria are abundant in cells with **high energy demand** (liver, muscle)
-- Chloroplasts give plants their **green colour** due to chlorophyll
-- The **nucleus** contains the cell's genetic material (DNA)
-- Plant cells have a **cell wall** made of **cellulose**; animal cells do not
+- Cell Theory: Schleiden, Schwann, Virchow
+- Prokaryotic vs Eukaryotic cells: nucleus membrane, organelles
+- Plant cell vs Animal cell: Cell wall, chloroplast, vacuole, centrioles
+- Fluid Mosaic Model: phospholipid bilayer + proteins
+- Mitochondria: ATP production, cristae
+- Chloroplast: chlorophyll, grana, thylakoids, photosynthesis site
 
 ---
-
-### ⚡ CTET Exam Tips
-
-- The cell wall is the **most distinguishing feature** between plant and animal cells
-- Ribosomes are found in **both** plant and animal cells
-- Mitochondria are called the **"powerhouse of the cell"** — this is a CTET favourite
-- Remember: prokaryotes = bacteria only; everything else is eukaryotic
-- The cell membrane is **selectively permeable** — it controls what enters and exits the cell
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

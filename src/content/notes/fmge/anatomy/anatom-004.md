@@ -10,133 +10,66 @@ country: fmge
 generated: "2026-03-25T17:00:00"
 ---
 
-# Abdomen — Stomach, Intestines & Hepatobiliary System
+# Abdomen — Stomach, Liver, Pancreas, Small and Large Intestine, Peritoneum
 
-### 🟢 Lite — Quick Review (1h–1d)
+## Abdominal Wall — Layers, Inguinal Canal, and Hernias
 
-**Abdominal Wall**
-- Layers (superficial to deep): skin, subcutaneous tissue (Camper's fat + Scarpa's fascia), external oblique, internal oblique, transversus abdominis, rectus abdominis, transversalis fascia, extraperitoneal fat, peritoneum
-- **Clinical:** Incisional hernia occurs through weaknesses in abdominal wall; linea alba (midline) — site of abdominal access
-- **Inguinal canal:** superficial inguinal ring (lateral to pubic tubercle), deep inguinal ring (lateral to inferior epigastric vessels)
-- Males: contains spermatic cord; Females: contains round ligament
+The abdominal wall consists of layered structures that must be understood in sequence from superficial to deep: skin, subcutaneous tissue (Camper's fascia — fatty — and Scarpa's fascia — membranous), the external oblique muscle, internal oblique muscle, transversus abdominis muscle, rectus abdominis muscle, transversalis fascia, extraperitoneal fat, and finally the peritoneum. The anterior abdominal wall receives blood supply from the superior epigastric (from the internal thoracic artery) and inferior epigastric arteries (from the external iliac artery), and is innervated by thoracoabdominal nerves (T7–T11), the subcostal nerve (T12), and the iliohypogastric and ilioinguinal nerves (L1).
 
-**Stomach**
-- Regions: cardia, fundus, body, pylorus (antrum, pyloric canal, pyloric sphincter)
-- Lesser curvature (right, attached to lesser omentum) and greater curvature (left, attached to greater omentum)
-- Arterial supply: left gastric (from celiac), right gastric (from hepatic), short gastric (from splenic), left gastroepiploic (from splenic), right gastroepiploic (from gastroduodenal)
-- **Venous drainage:** to portal vein via gastric veins; left and right gastric veins; gastroepiploic veins
-- **Clinical:** Pyloric stenosis — projectile vomiting in infants (2–6 weeks old); gastric ulcer pain relieved by eating; duodenal ulcer pain relieved by eating
+The **inguinal canal** is an oblique passage through the abdominal wall, approximately 4–6 centimeters in length, running from the deep inguinal ring (lateral to the inferior epigastric vessels) to the superficial inguinal ring (lateral to the pubic tubercle). In males it contains the spermatic cord; in females it contains the round ligament of the uterus. The canal has four walls: anterior wall (external oblique aponeurosis and internal oblique in its lateral part), posterior wall (transversalis fascia and conjoint tendon medially), superior wall (arching fibers of internal oblique and transversus abdominis), and inferior wall (inguinal ligament).
 
-**Small Intestine**
-- Duodenum (25 cm): D1 (superior, ampulla of Vater), D2 (descending, major and minor duodenal papillae), D3 (horizontal), D4 (ascending — connects via ligament of Treitz to jejunum)
-- Jejunum and ileum: mesentery attached to posterior abdominal wall; jejunum is proximal 2/5, ileum is distal 3/5
-- **Clinical:** Meckel's diverticulum — remnant of vitelline duct; rule of 2s (2% of population, 2 feet from ileocecal valve, 2 inches long, presents before age 2); intussusception — telescoping of proximal into distal bowel (common in children)
+**Direct inguinal hernias** pass through Hesselbach's triangle — the bounded space formed by the inferior epigastric vessels laterally, the rectus abdominis medially, and the inguinal ligament inferiorly. They are acquired, more common in elderly men, and are covered only by the external spermatic fascia. **Indirect inguinal hernias** pass through the deep inguinal ring, lateral to the inferior epigastric vessels, and follow the inguinal canal — they are often congenital (patent processus vaginalis) and more common in younger individuals. They are covered by all three layers of the spermatic cord. **Femoral hernias** pass through the femoral canal (bounded by the inguinal ligament anteriorly, the pectineal ligament posteriorly, the femoral vein laterally, and the lacunar ligament medially) and are more common in women. Because of the rigid boundaries of the femoral canal, femoral hernias have the highest risk of incarceration and strangulation.
 
-**Large Intestine**
-- Cecum → ascending colon → hepatic flexure → transverse colon → splenic flexure → descending colon → sigmoid colon → rectum
-- **Teniae coli:** longitudinal muscle bands (taenia libera, taenia omentalis, taenia mesocolica) — converge at base of appendix
-- **Clinical:** Appendicitis — McBurney's point (1/3 distance from ASIS to umbilicus); peritonitis from ruptured appendix
+**Clinical correlations:** Incisional hernias occur through weaknesses left at surgical sites. The conjoint tendon (merged internal oblique and transversus abdominis) pulls the rectus sheath medially, creating potential weakness in the posterior wall near the superficial ring. McBurney's point — one-third of the distance from the anterior superior iliac spine to the umbilicus — overlies the base of the appendix and is the point of maximal tenderness in appendicitis.
 
----
+## Stomach — Anatomy, Blood Supply, and Clinical Considerations
 
-### 🟡 Standard — Regular Study (2d–2mo)
+The stomach lies in the left upper quadrant and epigastrium, connecting the esophagus proximally to the duodenum distally. Its regions include the cardia (around the cardiac orifice), the fundus (the dome above the level of the cardiac orifice), the body (the main central region), and the pylorus (which includes the antrum, pyloric canal, and pyloric sphincter). The lesser curvature (right border, attached to the lesser omentum) and greater curvature (left border, attached to the greater omentum and gastrosplenic ligament) create the stomach's characteristic J-shape.
 
-**Peritoneum & Peritoneal Cavity**
+The stomach wall has four layers: mucosa (simple columnar with gastric pits containing specialized cells), submucosa, muscularis externa (inner oblique, middle circular, and outer longitudinal layers — the oblique layer is unique to the stomach), and serosa. The **arterial supply** is rich and arranged along both curvatures. The lesser curvature receives the left gastric artery (from the celiac trunk) and the right gastric artery (from the hepatic artery proper). The greater curvature receives the short gastric arteries and left gastroepiploic artery (from the splenic artery) and the right gastroepiploic artery (from the gastroduodenal artery). The **venous drainage** follows the arteries and drains to the portal vein via the gastric veins. The **nerve supply** includes parasympathetic fibers from the anterior and posterior vagal trunks (which follow the esophagus and distribute along the curvatures) and sympathetic fibers from the celiac plexus.
 
-**Peritoneum:**
-- Parietal peritoneum (lines abdominal wall) and visceral peritoneum (covers organs)
-- Peritoneal cavity: potential space between parietal and visceral layers; contains ~100 mL of serous fluid
-- **Greater omentum:** gastrocolic ligament (stomach to transverse colon), gastrosplenic ligament, lienorenal ligament; "policeman of abdomen" — seals off infections
-- **Lesser omentum:** hepatogastric ligament + hepatoduodenal ligament (contains portal triad: hepatic artery, portal vein, common bile duct)
+**Clinical correlations:** Pyloric stenosis in infants (typically 2–6 weeks of age) causes projectile non-bilious vomiting. A palpable olive-shaped mass may be felt in the right upper quadrant, and ultrasound confirms pyloric muscle hypertrophy (muscle thickness greater than 3–4 mm). Gastric ulcers are most commonly located on the lesser curvature and are associated with pain on eating (food stimulates acid secretion). Duodenal ulcers are typically on the anterior wall of D1 and are associated with pain relieved by eating (food buffers acid). Zollinger-Ellison syndrome — a gastrin-secreting tumor — causes multiple refractory peptic ulcers.
 
-**Intraperitoneal vs Retroperitoneal Organs:**
-- **Intraperitoneal:** stomach, jejunum, ileum, transverse colon, sigmoid colon, liver, spleen
-- **Retroperitoneal:** duodenum (except D1), pancreas (except tail), ascending and descending colon, kidneys, suprarenal glands, aorta, IVC
-- **Clinical:** Retroperitoneal collections less likely to cause diffuse peritonitis; spread along fascial planes
+## Liver — Lobes, Surfaces, and Porta Hepatis
 
-**Portal Venous System**
-- Formed by union of splenic vein and superior mesenteric vein behind pancreatic neck
-- Tributaries: splenic vein (receives short gastric, left gastroepiploic, inferior mesenteric vein), superior mesenteric vein (jejunum, ileum, ascending colon, transverse colon), left and right gastric veins
-- **Clinical:** Portal hypertension → portosystemic anastomoses (esophageal varices at esophagogastric junction; caput medusae around umbilicus; hemorrhoids via middle and superior rectal veins); splenomegaly
+The liver is the largest abdominal organ, occupying the right hypochondrium and epigastrium. It has two surfaces: the diaphragmatic surface (convex, facing the diaphragm and anterior abdominal wall) and the visceral surface (concave, facing the abdominal organs). The liver is divided into right and left lobes by the falciform ligament on the diaphragmatic surface, but functionally it is divided into eight segments (Couinaud classification) based on the branching pattern of the hepatic artery, portal vein, and bile duct.
 
-**Hepatobiliary System**
+The **falciform ligament** is a double-layered peritoneal structure containing the ligamentum teres (the obliterated round ligament — remnant of the umbilical vein) in its free border. The **ligamentum venosum** is the remnant of the ductus venosus, running in the fissure between the left and caudate lobes. The **coronary ligament** (anterior and posterior layers) and the left and right triangular ligaments attach the liver to the diaphragm. The **lesser omentum** (hepatogastric and hepatoduodenal ligaments) connects the liver to the lesser curvature of the stomach and the first part of the duodenum.
 
-**Liver:**
-- Located in right hypochondrium, spanning epigastrium
-- Surfaces: diaphragmatic (anterior, superior, posterior) and visceral (inferior)
-- Ligaments: falciform (free border contains ligamentum teres), coronary, triangular (right and left), ligamentum venosum (remnant of ductus venosus)
-- Porta hepatis: contains hepatic portal vein, hepatic artery proper, common bile duct
-- **Hepatic segments (Couinaud):** 8 segments numbered I–VIII; segment I is caudate lobe
-- **Clinical:** Liver laceration — most common cause of death from abdominal trauma; hepatitis → cirrhosis → portal hypertension
+The **porta hepatis** — the gateway to the liver — is located on the visceral surface and contains the hepatic portal vein, the hepatic artery proper, the common bile duct, lymphatics, and autonomic nerves. The hepatic portal vein (supplying approximately 75 percent of the liver's blood supply) carries blood from the gastrointestinal tract, spleen, and pancreas. The hepatic artery proper (approximately 25 percent of blood supply but 50 percent of oxygen supply) is a branch of the common hepatic artery.
 
-**Gallbladder:**
-- pear-shaped sac on visceral surface of liver
-- Parts: fundus (projects below liver edge at midclavicular line — MCL), body, neck (continues as cystic duct)
-- **Cystic duct:** joins common hepatic duct to form common bile duct
-- **Clinical:** Gallstones — risk factors (40s, Female, Fertile, Fat, Fair); cholecystitis — Murphy's sign (inspiratory arrest during palpation of right subcostal area); Courvoisier's sign (palpable, non-tender gallbladder in a jaundiced patient suggests malignant obstruction, NOT gallstone disease)
+**Clinical correlations:** The liver is the most common site of abdominal trauma. Liver lacerations cause significant hemorrhage because of the organ's dual blood supply. Hepatitis (viral, alcoholic, or autoimmune) can progress to cirrhosis, resulting in portal hypertension, ascites, splenomegaly, and portosystemic collateral formation (esophageal varices, caput medusae, hemorrhoids). The liver segments are clinically relevant for hepatic resections — each segment can be removed independently if its own vascular inflow and biliary drainage are preserved.
 
-**Pancreas**
-- Retroperitoneal organ; head (encased by C-shaped duodenal curve), neck, body, tail
-- Pancreatic duct joins common bile duct at ampulla of Vater (hepatopancreatic ampulla) — opens into D2
-- **Accessory duct (of Santorini):** drains separately into minor duodenal papilla
-- **Blood supply:** splenic artery (body and tail); superior pancreaticoduodenal arteries (head)
-- **Clinical:** Pancreatic cancer (head — painless obstructive jaundice); acute pancreatitis (epigastric pain radiating to back); pseudocyst (collection walled off by granulation tissue)
+## Gallbladder and Biliary System
 
----
+The gallbladder is a pear-shaped hollow organ on the visceral surface of the liver, held in place by the cystic plate and the peritoneal reflections. Its parts are the fundus (which projects below the liver edge at the midclavicular line — the reference point for Murphy's sign), the body, and the neck (which continues as the cystic duct). The gallbladder stores and concentrates bile between meals; CCK released from the duodenal I cells in response to fatty acids and amino acids causes gallbladder contraction.
 
-### 🔴 Extended — Deep Study (3mo+)
+The **cystic duct** joins the common hepatic duct to form the common bile duct (CBD). The CBD runs in the free border of the lesser omentum (hepatoduodenal ligament) alongside the hepatic artery proper and the portal vein, then passes posterior to the D1 of the duodenum and the head of the pancreas to open at the ampulla of Vater (hepatopancreatic ampulla) in D2, together with the pancreatic duct. The sphincter of Oddi guards the ampulla.
 
-**Stomach — Detailed Clinical & Surgical Anatomy**
+**Clinical correlations:** Gallstones (cholelithiasis) are composed of cholesterol (most common in Western populations) or pigment (black from hemolysis, brown from biliary infection). Risk factors are described as the "4 F's": Female, Forty, Fat, Fertile. Cholecystitis (inflammation of the gallbladder) presents with right upper quadrant pain, fever, and a positive Murphy's sign. Courvoisier's sign — a palpable, non-tender gallbladder in a jaundiced patient — suggests malignant obstruction of the CBD (such as pancreatic head cancer) rather than gallstone disease, because chronic gallstone disease causes a fibrotic, non-distensible gallbladder. Choledocholithiasis (CBD stones) can cause obstructive jaundice, cholangitis (fever, jaundice, RUQ pain — Charcot's triad), and pancreatitis.
 
-**Gastric Acid Secretion Regulation:**
-- **Phase 1 (Cephalic):** sight/smell/taste of food → vagus → acetylcholine → parietal cells release HCl
-- **Phase 2 (Gastric):** distension → local reflexes + gastrin (G cells in antrum) → stimulates parietal cells
-- **Phase 3 (Intestinal):** chyme in duodenum → secretin, CCK → inhibit gastric secretion
-- **H+/K+ ATPase inhibitors:** PPIs (omeprazole) — block acid secretion
-- **H2 receptor blockers:** ranitidine
+## Pancreas — Retroperitoneal Structure and Ductal Anatomy
 
-**Gastric Ulcer vs Duodenal Ulcer:**
+The pancreas is a retroperitoneal gland that extends from the C-loop of the duodenum (head) to the hilum of the spleen (tail). It lies posterior to the stomach. Its parts are the head (encased by the C-shaped duodenal curve), the neck (anterior to the portal vein), the body (posterior to the stomach, anterior to the aorta and left kidney), and the tail (which touches the spleen). The uncinate process is the projection of the head posterior to the superior mesenteric vessels.
 
-| Feature | Gastric Ulcer | Duodenal Ulcer |
-|---|---|---|
-| Location | Lesser curvature | Anterior wall of D1 |
-| Food | Pain on eating | Pain relieved by eating |
-| Malignancy risk | Higher | Very low |
-| Mechanism | Reduced mucosal defense | Excess acid |
+The **main pancreatic duct** (of Wirsung) runs through the gland from tail to head, joins the CBD at the ampulla of Vater, and opens into D2. The **accessory pancreatic duct** (of Santorini) drains the upper part of the head and opens into the minor duodenal papilla in D2. The arterial supply is from the splenic artery (body and tail) and the superior pancreaticoduodenal arteries (head). The venous drainage is to the portal and splenic veins.
 
-**Celiac Artery Branches:**
-- Left gastric (stomach, esophagus)
-- Common hepatic (hepatic artery proper, gastroduodenal, right gastric)
-- Splenic (spleen, pancreas, stomach via short gastric and left gastroepiploic)
-- **Clinical:** Celiac artery stenosis → mesenteric ischemia (postprandial abdominal pain — "intestinal angina")
+**Clinical correlations:** Pancreatic cancer — most commonly adenocarcinoma of the head — presents with painless obstructive jaundice (tumor obstructing the CBD), weight loss, and new-onset diabetes. The tumor marker CA 19-9 is used for monitoring. Acute pancreatitis causes severe epigastric pain radiating to the back, elevated serum amylase and lipase, and can progress to pancreatic necrosis, infected necrosis, and multi-organ failure. Pseudocysts — walled-off collections of pancreatic secretions — can develop weeks after an episode of pancreatitis and may require drainage.
 
-**Hepatopancreatic Ampulla (Ampulla of Vater):**
-- Contains: common bile duct, pancreatic duct, and smooth muscle sphincter (sphincter of Oddi)
-- **Variations in biliary anatomy:** cystic duct may join common hepatic duct at various levels; accessory ducts; absent cystic duct
-- **Clinical:** Choledochal cysts (congenital dilatations of bile duct); sphincter of Oddi dysfunction; ERCP for stone extraction
+## Peritoneum and Peritoneal Cavity — Greater and Lesser Omentum
 
-**Inguinal Hernia — Detailed Anatomy**
+The peritoneum is the serous membrane lining the abdominal cavity. The **parietal peritoneum** lines the abdominal and pelvic walls; the **visceral peritoneum** covers the intraperitoneal organs. The **peritoneal cavity** is the potential space between these two layers, containing approximately 100 milliliters of serous fluid. Organs that are almost entirely covered by peritoneum are called **intraperitoneal** (stomach, jejunum, ileum, transverse colon, sigmoid colon, liver, spleen); those that are only partially covered are called **retroperitoneal** (duodenum except D1, pancreas except tail, ascending colon, descending colon, kidneys, suprarenal glands, aorta, IVC).
 
-**Direct inguinal hernia:** passes through Hesselbach's triangle (bounded by inferior epigastric artery laterally, rectus abdominis medially, inguinal ligament inferiorly); medial to deep inguinal ring; covered only by external spermatic fascia; common in elderly men
+The **greater omentum** is a double-layered peritoneal structure hanging from the greater curvature of the stomach like an apron, consisting of the gastrocolic ligament (stomach to transverse colon), the gastrosplenic ligament (stomach to spleen), and the lienorenal ligament (spleen to left kidney). It is rich in fat, contains macrophages, and serves as a "policeman of the abdomen" by sealing off infections and preventing spread. The **lesser omentum** connects the liver to the lesser curvature of the stomach (hepatogastric ligament) and the first part of the duodenum (hepatoduodenal ligament). The hepatoduodenal ligament contains the portal triad (hepatic artery proper, portal vein, and common bile duct) at its free border — this is the surgical landmark for the Pringle maneuver (portal triad clamping to control hepatic hemorrhage).
 
-**Indirect inguinal hernia:** passes through deep inguinal ring, lateral to inferior epigastric vessels; follows inguinal canal; exits via superficial ring; covered by all 3 layers of spermatic fascia; congenital (patent processus vaginalis); common in children and young adults
+**Clinical correlations:** Peritonitis (inflammation of the peritoneum) causes severe abdominal pain, tenderness, guarding, and rigidity. It can result from perforation (appendicitis, peptic ulcer), infection (perforated diverticulitis), or chemical irritation (pancreatitis, bleeding). Paralytic ileus (intestinal paralysis) accompanies peritonitis. The greater omentum often walls off perforated appendicitis, preventing diffuse peritonitis — this is why appendiceal perforation may produce a contained abscess rather than free perforation.
 
-**Femoral hernia:** passes through femoral canal (bounded by inguinal ligament anteriorly, pectineal ligament posteriorly, femoral vein laterally, lacunar ligament medially); more common in women; higher risk of incarceration and strangulation
+## Small and Large Intestine — Duodenum to Rectum
 
-**McBurney's Triad for Appendicitis:**
-1. Pain at McBurney's point
-2. Fever
-3. Leukocytosis
+The **duodenum** is the first 25 centimeters of small intestine, C-shaped, and divided into four parts. D1 (superior part) is the only intraperitoneal portion and contains the ampulla of Vater. D2 (descending part) receives the bile and pancreatic ducts and contains the major and minor duodenal papillae. D3 (horizontal part) crosses the IVC and aorta. D4 (ascending part) rises to meet the jejunum at the ligament of Treitz. The duodenum is retroperitoneal except for D1.
 
-**Appendix — Positional Variations:**
-- Most common: retrocecal (75%)
-- Others: pelvic, subcecal, pre-ileal, post-ileal
-- **Clinical:** Retrocecal appendix — pain may be minimal initially (posterior to cecum); pelvic appendix — irritates bladder causing dysuria
+The **jejunum** (proximal 2/5 of the small intestine mesentery) has a thicker wall, larger mucosal folds (plicae circulares), more prominent circular folds, and a narrower lumen than the ileum. The **ileum** (distal 3/5) has Peyer's patches (lymphoid follicles), a thinner wall, narrower lumen, and less prominent circular folds. The ileum ends at the ileocecal valve, which prevents reflux of colonic contents into the ileum.
 
-**Abdominal Aortic Aneurysm (AAA):**
-- Most commonly infrarenal
-- Risk factors: smoking, hypertension, male sex, age >65
-- **Clinical:** Rupture — triad of hypotension, flank pain, pulsatile mass; "triad of death" (hypotension, back pain, abdominal distension); USG for screening; CT angiography for preoperative planning
+The **large intestine** has distinct features: teniae coli (three longitudinal muscle bands — taenia libera, taenia omentalis, and taenia mesocolica), haustra (sacculations), and omental appendices (fat tags). The cecum is the dilated pouch at the origin of the appendix. The ascending colon runs superiorly to the hepatic flexure; the transverse colon crosses to the splenic flexure; the descending colon runs inferiorly to the sigmoid colon; the sigmoid colon connects to the rectum at S3 level. The rectum has three transverse folds (Houston's valves) and contains the largest mass of venous plexuses in the body — the hemorrhoidal plexus — which is a portosystemic anastomosis.
 
----
-*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+**Clinical correlations:** Meckel's diverticulum is a remnant of the vitelline (omphalomesenteric) duct, occurring in approximately 2 percent of the population, typically located 2 feet from the ileocecal valve, 2 inches long, and presenting before age 2. It follows the rule of 2s and may contain ectopic gastric mucosa (causing peptic ulceration and bleeding). Intussusception — telescoping of a proximal bowel segment into a distal segment — is most common in children at the ileocolic level and presents with colicky pain, vomiting, and "currant jelly" stools. The appendix has positional variations (retrocecal being most common at 75 percent); in retrocecal cases, pain may initially be minimal because the inflamed appendix is posterior to the cecum.

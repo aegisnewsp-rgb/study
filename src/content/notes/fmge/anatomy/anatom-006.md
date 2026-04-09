@@ -10,129 +10,54 @@ country: fmge
 generated: "2026-03-25T17:00:00"
 ---
 
-# Neuroanatomy — Brainstem, Spinal Cord & Cerebellum
+# Brain — Cerebrum, Cerebellum, Brainstem, Ventricles & Blood Supply (Circle of Willis)
 
-### 🟢 Lite — Quick Review (1h–1d)
+## Cerebrum — Lobes, Functional Areas, and White Matter Tracts
 
-**Brainstem**
-- Consists of: midbrain (mesencephalon), pons, medulla oblongata
-- All cranial nerve nuclei (except I, II) are located in brainstem
-- **Reticular formation:** network of neurons throughout brainstem — regulates consciousness, sleep-wake cycle, cardiovascular and respiratory centers
-- **Clinical:** Brainstem stroke — "locked-in syndrome" (ventral pontine lesion — preserved consciousness but quadriplegia, anarthria, preserved vertical eye movements); consciousness requires intact reticular activating system
+The cerebrum — the largest part of the brain — consists of two cerebral hemispheres connected by the corpus callosum. Each hemisphere has an outer layer of grey matter (the cerebral cortex) surrounding an inner mass of white matter, within which lie the basal ganglia, thalamus, and other subcortical nuclei.
 
-**Medulla Oblongata**
-- Connects spinal cord to pons; houses vital centers
-- **Respiratory centers:** dorsal respiratory group (inspiratory) and ventral respiratory group (expiratory)
-- **Cardiovascular centers:** sympathetic (increases HR/BP) and parasympathetic (decreases HR via vagus)
-- **Decussation of pyramids:** motor fibers cross at lower medulla → lateral corticospinal tract
-- **Clinical:** Medullary syndrome (lateral) — ipsilateral tongue deviation (CN XII), loss of taste (CN VII, IX), Horner's syndrome, ataxia; contralateral hemiplegia below lesion; Wallenberg syndrome (PICA occlusion)
+The **frontal lobe** occupies the anterior cranial fossa and is the largest lobe. The precentral gyrus (primary motor cortex, Brodmann area 4) controls voluntary movement of the contralateral body in a somatotopic arrangement known as the motor homunculus — the face and hand areas are disproportionately large. The premotor cortex (area 6) and supplementary motor area plan and coordinate complex movements. Broca's area (areas 44 and 45 — typically in the dominant hemisphere, almost always the left) is located in the inferior frontal gyrus and controls speech production (expressive or motor aphasia). The prefrontal cortex (areas 9, 10, 11 — orbital and dorsolateral) is responsible for executive function, planning, judgment, and personality. The **parietal lobe** includes the postcentral gyrus (primary somatosensory cortex, areas 3, 1, 2), which receives sensory input from the contralateral body. The superior parietal lobule (area 7) is involved in spatial awareness and guidance of movement; the inferior parietal lobule (areas 39 and 40) contains Wernicke's area for speech comprehension in the dominant hemisphere. The **temporal lobe** contains the primary auditory cortex (Heschl's gyri, areas 41 and 42) for hearing, and the superior temporal gyrus (area 22 — Wernicke's area in the dominant hemisphere) for speech comprehension. The hippocampus — in the medial temporal lobe — is critical for memory formation and spatial navigation. The **occipital lobe** contains the primary visual cortex (area 17, calcarine sulcus) for vision and the visual association cortex (areas 18 and 19) for processing and interpreting visual information.
 
-**Pons**
-- Connects midbrain and medulla; contains pneumotaxic and apneustic centers
-- **Trapezoid body:** decussation of auditory fibers
-- **Middle cerebellar peduncle:** largest cerebellar peduncle — carries fibers from pontine nuclei to cerebellum
-- **Clinical:** Pontine hemorrhage — pinpoint pupils (disrupted sympathetic fibers), hyperglycemia, fatal; bilateral ponto-subthalamic lesions → coma
+The **internal capsule** is the white matter pathway connecting the cerebral cortex to the brainstem and spinal cord. It consists of the anterior limb (between the caudate and putamen — carrying frontopontine fibers), the genu (containing corticonuclear fibers to cranial nerve nuclei), and the posterior limb (between the thalamus and putamen — carrying corticospinal and thalamocortical sensory fibers). Stroke affecting the internal capsule causes contralateral hemiparesis and hemisensory loss.
 
-**Midbrain**
-- Contains: cerebral aqueduct (of Sylvius), red nucleus, substantia nigra, cerebral peduncles
-- **Substantia nigra:** dopamine-producing neurons; degenerates in Parkinson's disease
-- **Red nucleus:** relay for cerebellar output to thalamus; involved in motor coordination
-- **Cerebral peduncle:** contains corticospinal, corticonuclear, and corticopontine fibers (motor)
-- **Clinical:** Weber's syndrome (mesencephalic lesion) — ipsilateral CN III palsy + contralateral hemiparesis; Parinaud's syndrome (dorsal midbrain syndrome) — upward gaze palsy, pupillary light-near dissociation
+## Cerebellum — Functional Divisions, Connections, and Clinical Signs
 
-**Spinal Cord**
-- Extends from foramen magnum to L1–L2 (conus medullaris); below that is cauda equina
-- 31 pairs of spinal nerves; 8 cervical, 12 thoracic, 5 lumbar, 5 sacral, 1 coccygeal
-- **Internal structure:** grey matter (H-shaped — anterior, posterior, lateral horns) surrounded by white matter (funiculi)
-- **White matter tracts:** posterior funiculus (fasciculus gracilis + cuneatus), lateral funiculus (corticospinal, spinothalamic, spinocerebellar), anterior funiculus (vestibulospinal, reticulospinal)
-- **Crossed fibers:** lateral corticospinal (decussates at pyramidal decussation), spinothalamic (decussates 1–2 levels above entry)
+The cerebellum occupies the posterior cranial fossa, separated from the cerebrum by the tentorium cerebelli. It consists of two hemispheres connected by a midline vermis. Like the cerebral cortex, it has a three-layered cellular organization: an outer molecular layer (parallel fibers and stellate cells), a middle Purkinje cell layer (the only output neurons of the cerebellar cortex), and an inner granular layer (granule cells receiving mossy fiber input). The white matter — called the arbor vitae for its tree-like pattern — contains the deep cerebellar nuclei (from medial to lateral: fastigial, globose, emboliform, and dentate nuclei).
 
----
+Functionally, the cerebellum is divided into three zones. The **vestibulocerebellum** (flocculonodular lobe) — the oldest phylogenetically — receives input from the vestibular apparatus and regulates balance and eye movements. The **spinocerebellum** (vermis and intermediate zones of the hemispheres) receives proprioceptive input from the spinal cord and coordinates ongoing movements and muscle tone. The **cerebrocerebellum** (lateral hemispheres) receives input from the cerebral cortex via the pontine nuclei and is involved in motor planning, movement sequencing, and cognitive functions.
 
-### 🟡 Standard — Regular Study (2d–2mo)
+The three cerebellar peduncles carry all cerebellar connections. The **superior cerebellar peduncle** (SCP) carries the main output — dentate nucleus fibers projecting to the thalamus (VL and VA nuclei) and red nucleus. The **middle cerebellar peduncle** (MCP) carries the largest volume of fibers — input from the contralateral pontine nuclei (corticopontocerebellar pathway). The **inferior cerebellar peduncle** (ICP) carries input from the spinal cord (dorsal spinocerebellar tract), vestibular apparatus, and inferior olivary nucleus.
 
-**Spinal Cord — Tracts & Functions**
+**Clinical correlations:** Cerebellar lesions produce ipsilateral ataxia (gait ataxia — staggering and wide-based gait; appendicular ataxia — past-pointing on finger-nose-finger testing), dysmetria (inability to judge distance — past-pointing), dysdiadochokinesia (inability to perform rapid alternating movements — rapid pronation-supination test is abnormal), intention tremor (tremor that worsens approaching a target), hypotonia (decreased muscle tone), nystagmus, and scanning speech (slow, staccato speech pattern). Midline cerebellar lesions (vermis) primarily cause gait and truncal ataxia; hemispheric lesions cause ipsilateral appendicular ataxia.
 
-**Motor Tracts (Descending):**
-- **Corticospinal tract:** primary motor pathway; upper motor neuron (UMN) in motor cortex → internal capsule → cerebral peduncle → basis pontis → medullary pyramids → 90% decussate (pyramidal decussation) → lateral corticospinal tract → lower motor neuron (LMN) in anterior horn → spinal nerve → muscle
-- **Tectospinal tract:** superior colliculus → contralateral spinal cord; reflex turning of head toward visual stimuli
-- **Rubrospinal tract:** red nucleus → ipsilateral spinal cord; flexor muscle tone
-- **Vestibulospinal tract:** vestibular nuclei → bilateral spinal cord; extensor muscle tone (posture)
-- **Reticulospinal tract:** pontine and medullary reticular formation → bilateral spinal cord; autonomic function, muscle tone
+## Brainstem — Midbrain, Pons, and Medulla
 
-**Sensory Tracts (Ascending):**
-- **Posterior column-medial lemniscus pathway:** vibration, proprioception, fine touch; fibers ascend ipsilaterally in fasciculus gracilis (lower body) and cuneatus (upper body) → decussate as internal arcuate fibers in medulla → medial lemniscus → VPL nucleus of thalamus → sensory cortex
-- **Spinothalamic tract:** pain and temperature; fibers enter posterior horn, synapse, cross at level → ascend in lateral funiculus → VPL → sensory cortex
-- **Spinocerebellar tract:** unconscious proprioception; anterior (C fibre types) and posterior (Bc-d fiber types) tracts → cerebellum
+The brainstem — comprising the midbrain, pons, and medulla oblongata — connects the cerebrum to the spinal cord and cerebellum. It contains all cranial nerve nuclei except I and II, the reticular formation, and major ascending and descending fiber tracts. It also houses the vital centers for respiration and cardiovascular control.
 
-**Spinal Cord — Clinical Correlations**
-- **Anterior cord syndrome:** damage to anterior 2/3 (anterior spinal artery occlusion) — bilateral motor loss below lesion, bilateral pain/temperature loss below, preserved proprioception/vibration
-- **Posterior cord syndrome:** rare — bilateral loss of proprioception/vibration, preserved motor and pain/temperature
-- **Brown-Séquard syndrome:** hemisection of cord — ipsilateral motor loss, ipsilateral loss of proprioception/vibration, contralateral loss of pain/temperature (2 levels below)
-- **Central cord syndrome:** syringomyelia — cape-like bilateral loss of pain/temperature (crossing spinothalamic fibers), preserved motor and proprioception
+The **midbrain** (mesencephalon) is the shortest brainstem segment, located between the pons below and the cerebral hemispheres above. The cerebral aqueduct (of Sylvius) runs through it, connecting the third and fourth ventricles. The midbrain is divided into the tectum (roof — containing the superior and inferior colliculi), the tegmentum (dorsal, containing the reticular formation, red nucleus, and cranial nerve nuclei), and the basis pedunculi (ventral, containing the corticospinal, corticonuclear, and corticopontine fibers). The **substantia nigra** — a dopamine-producing nucleus in the tegmentum — degenerates in Parkinson's disease. The **red nucleus** (tegmentum) is a relay for cerebellar output to the thalamus. The oculomotor nucleus (CN III) lies in the tegmentum at the superior colliculus level; the trochlear nucleus (CN IV) is just inferior to it.
 
-**Cerebellum**
-- Located in posterior cranial fossa; separated from cerebrum by tentorium cerebelli
-- **Functional divisions:** vestibulocerebellum (flocculonodular lobe — balance), spinocerebellum (vermis + intermediate zones — motor coordination), cerebrocerebellum (lateral hemispheres — planning and initiation)
-- **Internal structure:** cerebellar cortex (3 layers: molecular, Purkinje, granular), white matter (arbor vitae), deep nuclei (fastigial, globose, emboliform, dentate)
-- **Peduncles:** superior (SCP — cerebellar output to thalamus, red nucleus; also carries ventral spinocerebellar tract), middle (MCP — input from pons), inferior (ICP — input from spinal cord and vestibular apparatus)
-- **Clinical:** Cerebellar signs — ataxia (gait, appendicular, truncal), dysmetria (finger-nose-finger — past-pointing), dysdiadochokinesia (rapid alternating movements), intention tremor, nystagmus, hypotonia, scanning speech; lesions lateralize (ipsilateral deficits)
+The **pons** lies between the midbrain and medulla. Its basis contains longitudinal fibers (corticopontine, corticospinal) and transverse pontocerebellar fibers converging on the middle cerebellar peduncle. The tegmentum contains the reticular formation, the abducens nucleus (CN VI), the facial nucleus, and the trigeminal sensory and motor nuclei. The trapezoid body — where auditory fibers decussate — crosses the pons. The pneumotaxic and apneustic centers for respiratory regulation are in the pons.
 
----
+The **medulla oblongata** is the most caudal brainstem segment, continuous with the spinal cord below. Its anterior surface features the pyramidal decussation of corticospinal fibers (lower medulla) and the olives (lateral bulges housing the inferior olivary nuclei). The posterior surface has the fasciculus gracilis and cuneatus — carrying proprioception and vibration sense — terminating in their respective nuclei. The medulla houses the dorsal respiratory group (inspiratory center) and ventral respiratory group (expiratory center), as well as the vasomotor center for blood pressure regulation. The nucleus tractus solitarius processes visceral afferents from CN VII, IX, and X.
 
-### 🔴 Extended — Deep Study (3mo+)
+**Clinical correlations:** Brainstem strokes — most commonly in the posterior circulation (vertebrobasilar system) — are particularly devastating because of the high density of cranial nerve nuclei and vital centers. Locked-in syndrome (ventral pontine lesion) causes quadriplegia, anarthria, preserved consciousness, and preserved vertical eye movements. Weber's syndrome (midbrain) causes ipsilateral CN III palsy and contralateral hemiparesis. Wallenberg syndrome (lateral medullary syndrome — PICA occlusion) causes ipsilateral facial pain/temperature loss (spinal V nucleus), ipsilateral palate/pharynx weakness (CN IX/X), ipsilateral Horner's syndrome, and contralateral body pain/temperature loss (spinothalamic tract). Benedikt's syndrome (red nucleus involvement) causes ipsilateral CN III palsy and contralateral tremor.
 
-**Brainstem — Detailed Cross-Sectional Anatomy**
+## Ventricles of the Brain and Cerebrospinal Fluid
 
-**Midbrain (at superior colliculus level):**
-- Cerebral aqueduct (surrounded by periaqueductal grey), tectum (superior and inferior colliculi), cerebral peduncles (basis pedunculi = corticospinal/corticopontine, substantia nigra, tegmentum)
-- **CN III nucleus:** medial in periaqueductal grey
-- **Trochlear nucleus:** just inferior to III
-- **Red nucleus:** large, oval mass in tegmentum
+The brain contains a system of four interconnected ventricles: two lateral ventricles, the third ventricle, and the fourth ventricle. The **lateral ventricles** are C-shaped cavities — one in each cerebral hemisphere — with five parts: the frontal horn (anterior), body, parietal (occipital) horn, temporal horn, and the atrium (where all horns meet). They communicate with the third ventricle via the interventricular foramen of Monro (between the columns of the fornix).
 
-**Pons (at facial colliculus level):**
-- Basis pontis (longitudinal fibers from corticospinal and corticopontine; transverse pontocerebellar fibers)
-- Tegmentum (facial nucleus, abducens nucleus, facial colliculus)
-- **Facial nucleus** lies deep; fibers loop around abducens nucleus to form facial nerve
-- **Superior cerebellar peduncle:** decussates in midbrain
+The **third ventricle** is a narrow midline cavity between the two thalami, bounded laterally by the thalamus and hypothalamus. Its floor is formed by the hypothalamus and the mammillary bodies. The cerebral aqueduct runs from its posterior border to the fourth ventricle. The **fourth ventricle** lies between the pons and medulla dorsally, and the cerebellum ventrally. It has a diamond-shaped floor (the rhomboid fossa) and a roof formed by the cerebellar vermis and the superior and inferior medullary vela. It communicates with the subarachnoid space via the median aperture (foramen of Magendie) in its roof and the two lateral apertures (foramina of Luschka).
 
-**Medulla (at pyramidal decussation level):**
-- **Corticospinal fibers** form pyramids (anterior)
-- **Internal arcuate fibers:** posterior column fibers crossing in midline to form lemnisci
-- **Gracilis and cuneatus nuclei** in posterior (above decussation)
+**Cerebrospinal fluid (CSF)** is produced by the choroid plexus — vascular tufts of pia mater covered by ependymal cells — primarily in the lateral ventricles. It flows from the lateral ventricles through the foramina of Monro into the third ventricle, through the cerebral aqueduct into the fourth ventricle, through the median and lateral apertures into the subarachnoid space, and is ultimately absorbed by the arachnoid granulations into the dural venous sinuses (primarily the superior sagittal sinus). The total CSF volume is approximately 150 milliliters.
 
-**Medulla (at inferior olivary complex level):**
-- Inferior olivary nucleus (deep to olive = bulge on anterior surface)
-- **Hypoglossal nucleus:** medial in floor of 4th ventricle
-- **Dorsal motor nucleus of X:** lateral to hypoglossal
-- **Nucleus tractus solitarius:** for VII, IX, X taste and visceral afferents
-- **Spinal nucleus of V:** caudally extending into spinal cord
+**Clinical correlations:** Hydrocephalus — abnormal accumulation of CSF — may be communicating (extraventricular obstruction, as in meningitis or SAH, impairing absorption at arachnoid granulations) or non-communicating (intraventricular obstruction, as in aqueductal stenosis). Normal pressure hydrocephalus — a communicating hydrocephalus with normal CSF pressure — presents with the classic triad of dementia, gait disturbance (magnetic gait), and urinary incontinence (Hakim-Adams triad). Choroid plexus papillomas in children can cause excessive CSF production.
 
-**Cerebellar Peduncles — Inputs & Outputs:**
+## Blood Supply — Circle of Willis and Stroke Territories
 
-| Peduncle | Main Contents | Origin/Destination |
-|---|---|---|
-| Superior (SCP) | Dentatorubral tract, thalamocortical fibers | Cerebellum → red nucleus, thalamus |
-| Middle (MCP) | Pontocerebellar fibers | Pons → cerebellum |
-| Inferior (ICP) | Dorsal spinocerebellar, olivocerebellar, vestibulocerebellar | Spinal cord, olive, vestibular → cerebellum |
+The brain receives blood from two pairs of arteries: the internal carotid arteries (anterior circulation — approximately 80 percent of cerebral blood flow) and the vertebral arteries (posterior circulation — approximately 20 percent). The **internal carotid artery (ICA)** enters the skull via the carotid canal, gives off the ophthalmic artery, the posterior communicating artery, and then bifurcates into the anterior cerebral artery (ACA) and middle cerebral artery (MCA). The **vertebral arteries** unite at the lower border of the pons to form the basilar artery, which terminates at the upper border of the pons by bifurcating into the two posterior cerebral arteries (PCA).
 
-**Reticular Formation — Key Nuclear Groups:**
-- **Raphe nuclei** (midline): serotonin production; related to mood, sleep
-- **Locus coeruleus** (rostral pons): norepinephrine; related to arousal, autonomic function
-- **Gigantocellular nucleus:** motor inhibition; lesion → rigidity
+The **Circle of Willis** is the arterial ring at the base of the brain formed by the anterior cerebral arteries (connected by the anterior communicating artery), the internal carotid arteries, the posterior communicating arteries, and the posterior cerebral arteries. It provides collateral circulation if one vessel is blocked. Important anatomical variations include a hypoplastic posterior communicating artery, a fetal origin of the PCA (where the PCoM takes over the PCA territory), and an absent or hypoplastic A1 segment.
 
-**Ventricles of Brain:**
-- Lateral ventricles (C-shaped — frontal, temporal, occipital, temporal horns; body, atrium, trigone)
-- Third ventricle (between thalami; contains interventricular foramen of Monro)
-- Cerebral aqueduct (connects 3rd and 4th ventricle)
-- Fourth ventricle (between pons/medulla and cerebellum); has lateral apertures (foramina of Luschka) and median aperture (foramen of Magendie)
-- **Clinical:** Hydrocephalus — obstruction anywhere in CSF pathway; Communicating (extraventricular obstruction — impaired absorption at arachnoid granulations) vs Non-communicating (intraventricular obstruction)
+The **anterior cerebral artery (ACA)** supplies the medial surface of the frontal and parietal lobes, the anterior two-thirds of the corpus callosum, and part of the basal ganglia. Occlusion causes contralateral leg weakness and sensory loss (motor cortex for the leg is on the medial surface), urinary incontinence, and personality changes. The **middle cerebral artery (MCA)** supplies the lateral surface of the frontal, parietal, and temporal lobes and the insula. It is the most common stroke territory. Occlusion causes contralateral face and arm weakness (sparing the leg), aphasia (if dominant hemisphere), and contralateral homonymous hemianopia (from optic radiation involvement). The **posterior cerebral artery (PCA)** supplies the occipital lobe (primary visual cortex), the medial temporal lobe, and the thalamus. Occlusion causes contralateral homonymous hemianopia with macular sparing (visual cortex sparing because the macula has dual blood supply from the MCA) and memory impairment (hippocampal involvement). The **basilar artery** supplies the brainstem. Basilar tip aneurysm can cause the locked-in syndrome.
 
-**Basal Ganglia**
-- Striatum (caudate + putamen), globus pallidus (interna + externa), substantia nigra (pars reticulata + pars compacta), subthalamic nucleus
-- **Direct pathway:** cortex → striatum → GPi/SNr → thalamus → cortex (facilitates movement)
-- **Indirect pathway:** cortex → striatum → GPe → STN → GPi/SNr → thalamus → cortex (inhibits movement)
-- **Clinical:** Parkinson's disease — substantia nigra pars compacta degeneration → dopamine loss → excess indirect pathway activity → bradykinesia, rigidity, resting tremor, shuffling gait; Huntington's disease — caudate degeneration → chorea
-
----
-*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+**Clinical correlations:** Saccular (berry) aneurysms — the most common type — form at arterial bifurcations where血流 shear stresses the intima. Common sites are the anterior communicating artery (ACoA — the most common overall), the MCA bifurcation, the posterior communicating artery (PCoA), and the basilar tip. Rupture causes subarachnoid hemorrhage (SAH — sudden catastrophic headache, "worst headache of my life," with meningismus). Stroke management requires rapid CT (to rule out hemorrhage), then thrombolysis (IV tPA within 4.5 hours for ischemic stroke) or thrombectomy for large vessel occlusion. The Alberta Stroke Program Early CT Score (ASPECTS) quantifies early ischemic changes in the MCA territory on CT.

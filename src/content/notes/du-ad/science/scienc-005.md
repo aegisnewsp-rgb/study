@@ -16,9 +16,9 @@ generated: "2026-03-25T17:00:00"
 > Rapid summary for last-minute revision before your exam.
 
 **Topic 5** — Key Facts for DU Admission (Bangladesh)
-Core concept: Chemical Bonding and Molecular Structure — how atoms combine to form molecules
-High-yield point: Ionic vs covalent bonds, VSEPR theory, hybridization, dipole moment
-⚡ Exam tip: Questions on Lewis structures, molecular geometry, and bond characteristics are frequently asked
+Core concept: Chemical Bonding and Molecular Structure — how atoms combine to form molecules, ions, and crystals; structure determines properties
+High-yield point: Distinguishing ionic from covalent bonds, Lewis structures, VSEPR molecular geometries, hybridization of atomic orbitals
+⚡ Exam tip: Draw Lewis structures for every molecule; know bond angle predictions for each molecular geometry; hybridization questions appear in every chemistry paper
 
 ---
 
@@ -26,10 +26,10 @@ High-yield point: Ionic vs covalent bonds, VSEPR theory, hybridization, dipole m
 > Standard content for students with a few days to months.
 
 **Topic 5** — DU Admission (Bangladesh) Study Guide
-Overview: Chemical bonding explains how atoms combine to form molecules
-Core principles: Octet rule, electronegativity, bond types, VSEPR theory
-Key points: Lewis structures, hybridization, molecular polarity
-Study strategy: Draw Lewis structures for all molecules, learn VSEPR shapes
+Overview: Chemical bonding theory explains the formation, structure, and properties of chemical substances; it is the theoretical core of chemistry
+Core principles: The octet rule, electronegativity differences determining bond type, orbital hybridization, molecular geometry prediction
+Key points: Ionic, covalent, and metallic bonding; Lewis dot structures; VSEPR theory for geometry prediction; σ and π bonding; dipole moment
+Study strategy: Practice drawing Lewis structures until熟练; connect bond type to physical properties; learn hybridization patterns with corresponding geometries
 
 ---
 
@@ -38,225 +38,212 @@ Study strategy: Draw Lewis structures for all molecules, learn VSEPR shapes
 
 ## Chemical Bonding and Molecular Structure — Complete Study Notes
 
-### Why Do Atoms Bond?
+### Why Atoms Bond: The Thermodynamic Imperative
 
-Atoms bond to achieve stability by completing their **valence electron octet** (8 electrons in outermost shell, except H which wants 2). Bond formation releases energy — bonded atoms have lower energy than isolated atoms.
+Isolated atoms in their ground states possess higher energy than when they are bonded to other atoms. Bond formation releases energy — specifically, the energy released when isolated atoms come together to form a bond is called the **bond energy** (for covalent bonds) or **lattice energy** (for ionic crystals). Stable bonds form because the bonded state has lower energy than the separated atoms. This energy lowering is the fundamental thermodynamic driving force behind all chemical bonding. The octet rule — atoms tendency to achieve eight electrons in their valence shell — reflects this energy minimization, as noble gas configurations represent exceptionally stable, low-energy arrangements.
 
-**Key driving forces:**
-1. **Achieving stable electronic configuration** (noble gas configuration)
-2. **Minimizing energy** (lower energy = more stable)
-3. **Balance between attractive and repulsive forces**
+### Ionic (Electrovalent) Bonding
 
-### Types of Chemical Bonds
+**Ionic bonds** form through the complete transfer of one or more electrons from a metal atom (with low ionization energy) to a non-metal atom (with high electron affinity). The resulting cation and anion are held together by electrostatic attraction in a crystalline lattice.
 
-#### 1. Ionic (Electrovalent) Bonds
+**Characteristics of ionic compounds:**
+- Large electronegativity difference between bonded atoms (ΔEN ≥ 1.7 according to the Pauling scale; however, compounds with ΔEN between 1.5 and 1.7 also display significant ionic character)
+- No shared electron pairs between atoms
+- Form **giant ionic lattices** (not individual molecules) in the solid state
+- High melting and boiling points (substantial lattice energy must be overcome)
+- Conduct electricity when molten (liquid) or dissolved in water (ions become mobile); do not conduct in solid state
+- Generally soluble in polar solvents (especially water) but not in non-polar organic solvents
+- Hard but brittle — when a shear force shifts layers, like charges align and repel, causing fracture
 
-**Definition:** Transfer of electrons from metal to non-metal, forming oppositely charged ions held by electrostatic attraction.
+**Born-Haber Cycle** calculates lattice energy as the sum of energy changes in the step-by-step formation of an ionic solid from elemental form: sublimation energy of the metal + ionization energy of the metal + bond dissociation energy of the non-metal + electron affinity of the non-metal + lattice energy (the final exothermic step).
 
-**Characteristics:**
-- Occurs between metals (low IE) and non-metals (high EA)
-- No shared electron pair
-- Large electronegativity difference (ΔEN > 1.7)
-- Solid crystalline lattice (high melting/boiling points)
-- Conduct electricity in aqueous solution or molten state
-- Soluble in polar solvents (water)
+**Common ionic compounds and their constituent ions:**
 
-**Examples:**
-| Compound | Ions Formed |
-|----------|-------------|
-| NaCl | Na⁺ + Cl⁻ |
-| MgO | Mg²⁺ + O²⁻ |
-| CaCl₂ | Ca²⁺ + 2Cl⁻ |
-| Al₂O₃ | 2Al³⁺ + 3O²⁻ |
+| Compound | Metal ion | Non-metal ion |
+|----------|-----------|---------------|
+| NaCl | Na⁺ | Cl⁻ |
+| MgO | Mg²⁺ | O²⁻ |
+| CaCl₂ | Ca²⁺ | 2Cl⁻ |
+| Al₂O₃ | 2Al³⁺ | 3O²⁻ |
+| K₂SO₄ | 2K⁺ | SO₄²⁻ |
 
-**Born-Haber Cycle:** Energy change in ionic bond formation = ΔH_atomization + ΔH_ionization + ΔH_electron_affinity + ΔH_lattice
+### Covalent Bonding
 
-#### 2. Covalent Bonds
+**Covalent bonds** form when two non-metal atoms share one or more pairs of electrons, achieving octet configurations for both atoms through the shared electrons.
 
-**Definition:** Sharing of electron pairs between non-metal atoms.
+**Characteristics of covalent compounds:**
+- Occurs between atoms of similar electronegativity (ΔEN < 1.7; typically non-metals bonding with non-metals)
+- Forms **discrete molecules** (molecular compounds) rather than extended lattices
+- Lower melting and boiling points than ionic compounds (weaker intermolecular forces compared to ionic lattice forces, though intramolecular covalent bonds are strong)
+- Many molecular compounds are poor conductors of electricity (no mobile charge carriers)
+- May be soluble in either polar or non-polar solvents depending on molecular polarity
 
-**Characteristics:**
-- Occurs between non-metals (similar electronegativity)
-- ΔEN < 1.7 (or zero for identical atoms)
-- Molecules formed (not lattices)
-- Lower melting/boiling points than ionic
-- May conduct electricity (some polar covalent do)
+**Bond parameters:**
+- **Bond length:** The distance between the nuclei of two bonded atoms, typically measured in picometers (pm). Triple bonds are shorter than double bonds, which are shorter than single bonds, because additional shared electron pairs pull nuclei closer together
+- **Bond energy:** The energy required to break one mole of bonds into isolated atoms, measured in kJ/mol. Triple bonds have higher bond energies than double bonds, which have higher bond energies than single bonds
+- **Bond order:** The number of bonding electron pairs shared between atoms. Bond order 1 = single bond, 2 = double bond, 3 = triple bond; fractional bond orders occur in resonance structures
 
-**Types of Covalent Bonds:**
-
-| Type | Description | Example |
-|------|-------------|---------|
-| **Single (σ)** | 1 shared pair | H₂, Cl₂ |
-| **Double (σ+π)** | 2 shared pairs | O₂, CO₂ |
-| **Triple (σ+π+π)** | 3 shared pairs | N₂, C₂H₂ |
-| **Polar covalent** | Unequal sharing | HCl, H₂O |
-| **Non-polar covalent** | Equal sharing | H₂, Cl₂, O₂ |
-
-**Bond Parameters:**
-- **Bond length**: Distance between nuclei (pm). Triple < Double < Single
-- **Bond energy**: Energy to break bond (kJ/mol). Triple > Double > Single
-- **Bond order**: Number of bonds between atoms (1, 2, 3)
-
-**Polar Covalent Bonds:**
-- Unequal electron sharing due to electronegativity difference
-- δ+ on less electronegative atom, δ− on more electronegative atom
-- **Dipole moment (μ)**: μ = δ × d (measured in Debye)
-- Example: HCl, H₂O (water is highly polar)
-
-#### 3. Coordinate (Dative) Covalent Bonds
-
-**Definition:** Both electrons in shared pair come from one atom.
-
-**Notation:** Arrow (→) pointing from donor to acceptor
-**Example:** NH₄⁺ (ammonium ion) — N provides both electrons to H⁺
-
-#### 4. Metallic Bonds
-
-**Definition:** Valence electrons delocalized in a "sea" of electrons shared among all metal atoms.
-
-**Characteristics:**
-- Strong bonding (explains high melting points of metals)
-- Electrical conductivity (delocalized electrons)
-- Malleability and ductility (atoms can slide past each other)
-- Examples: Na, Mg, Fe, Cu
-
-### Lewis Structures (Electron Dot Structures)
-
-**Rules for drawing Lewis structures:**
-1. Count total valence electrons
-2. Identify central atom (usually least electronegative, excluding H)
-3. Connect atoms with single bonds
-4. Satisfy octet for all atoms (except H = 2)
-5. If octet not satisfied, form double/triple bonds
-6. Assign formal charges: FC = Valence e⁻ − (Non-bonding e⁻ + ½Bonding e⁻)
-
-**Examples:**
-
-| Molecule | Lewis Structure | Bond Type |
-|----------|---------------|-----------|
-| CO₂ | O=C=O | Double |
-| CH₄ | Methane — C with 4 H | Single |
-| N₂ | :N≡N: | Triple |
-| O₂ | O=O (paramagnetic) | Double |
-
-**Resonance:**
-- When more than one valid Lewis structure exists
-- Actual structure is hybrid of all resonance forms
-- Example: Benzene (C₆H₆) has two major resonance structures
-
-### VSEPR Theory (Valence Shell Electron Pair Repulsion)
-
-**Principle:** Electron pairs (bonding and non-bonding) arrange around central atom to minimize repulsion.
-
-**Bond angles determined by repulsion:**
-Lone pair–lone pair > Lone pair–bond pair > Bond pair–bond pair
-
-**Molecular Geometries:**
-
-| Shape | Bond Angle | Example | Hybridization |
-|-------|-----------|---------|--------------|
-| Linear | 180° | CO₂, C₂H₂ | sp |
-| Trigonal planar | 120° | BF₃, SO₃ | sp² |
-| Bent/V-shaped | ~109.5° (<120°) | H₂O (104.5°) | sp³ |
-| Tetrahedral | 109.5° | CH₄, SiCl₄ | sp³ |
-| Trigonal pyramidal | ~107° (<109.5°) | NH₃ (107.8°) | sp³ |
-| Trigonal bipyramidal | 90°, 120° | PCl₅ | sp³d |
-| Octahedral | 90° | SF₆ | sp³d² |
-
-### Hybridization
-
-**Definition:** Mixing of atomic orbitals to form new hybrid orbitals for bonding.
-
-| Hybridization | Orbitals Mixed | Geometry | Example |
-|---------------|----------------|----------|---------|
-| sp | One s + one p | Linear | BeCl₂, C₂H₂ |
-| sp² | One s + two p | Trigonal planar | BF₃, C₂H₄ |
-| sp³ | One s + three p | Tetrahedral | CH₄, NH₃, H₂O |
-| sp³d | One s + three p + one d | Trigonal bipyramidal | PCl₅ |
-| sp³d² | One s + three p + two d | Octahedral | SF₆ |
-
-**Bonding and Hybridization:**
-- σ bonds form from hybrid orbital overlap (head-on)
-- π bonds form from p orbital overlap (sideways)
-- Each double bond = 1 σ + 1 π
-- Each triple bond = 1 σ + 2 π
-
-### Hydrogen Bond
-
-**Definition:** Strong dipole-dipole attraction between H (bonded to F/O/N) and lone pair of F/O/N of another molecule.
-
-**Characteristics:**
-- **Not a true chemical bond** — intermolecular force
-- Bond energy: 10-40 kJ/mol (stronger than van der Waals)
-- **Explains:** High boiling points of H₂O, HF, NH₃; DNA base pairing; Protein structure
-
-### Van der Waals Forces
-
-Weak intermolecular forces:
-1. **London dispersion forces**: Instantaneous dipoles (all molecules)
-2. **Debye forces**: Polar molecule induces dipole in non-polar
-3. **Keesom forces**: Dipole-dipole interactions
-
-### Molecular Orbital Theory (Advanced)
-
-**Bond Order = (Bonding e⁻ − Antibonding e⁻)/2**
-
-- Bond order > 0: Bond exists
-- Bond order = 1: Single bond
-- Bond order = 2: Double bond
-- Bond order = 0: No bond (unstable)
-
-**H₂**: σ1s² (BO=1, diamagnetic)
-**He₂**: σ1s² σ*1s² (BO=0, does not exist)
-**O₂**: σ2s² σ*2s² σ2p² π2p⁴ π*2p² (BO=2, paramagnetic — 2 unpaired electrons)
-
-### Dipole Moment
+**Polar versus non-polar covalent bonds:**
+When two atoms of different electronegativity share electrons, the shared electron density concentrates toward the more electronegative atom, creating a bond dipole. The less electronegative atom bears a partial positive charge (δ+) and the more electronegative atom bears a partial negative charge (δ−). The **dipole moment (μ)** quantifies this polarity:
 
 **μ = δ × d**
 
-- Measures polarity of molecule
-- Unit: Debye (D)
-- **Water (μ = 1.85 D)** is highly polar
-- **CO₂ (μ = 0)** is linear and non-polar despite polar bonds (vectors cancel)
-- **Benzene (μ = 0)** symmetrical, non-polar
+Where δ is the magnitude of the partial charge and d is the distance between charge centers (bond length). Dipole moment is measured in Debye units (D). A molecule with polar bonds may still be non-polar overall if the bond dipoles cancel vectorially (example: CO₂, a linear molecule with two opposing C=O bond dipoles that sum to zero net dipole).
 
-### Must-Remember Facts
+### Coordinate (Dative) Covalent Bonds
 
-| Concept | Key Point |
-|---------|-----------|
-| Octet rule | Atoms want 8 valence electrons (except H=2) |
-| Ionic bond | Electron transfer, large ΔEN |
-| Covalent bond | Electron sharing, small ΔEN |
-| Metallic bond | Delocalized electrons |
-| Bond angle of H₂O | 104.5° (bent, less than tetrahedral) |
-| Bond angle of NH₃ | 107.8° (pyramidal) |
-| Most electronegative | Fluorine (EN=4.0) |
-| Hydrogen bond | F/O/N with H — strongest intermolecular |
+A **coordinate covalent bond** (also called dative bond) forms when both electrons in a shared pair originate from a single atom. This is distinct from ordinary covalent bonds where each atom contributes one electron to the shared pair. The donor atom provides the electron pair; the acceptor atom provides an empty orbital. Coordinate bonds are notation ally distinguished by an arrow pointing from donor to acceptor: A → B.
+
+**Important examples:**
+- **Ammonium ion (NH₄⁺):** The nitrogen atom in NH₃ donates its lone pair to H⁺, forming NH₄⁺
+- **Hydronium ion (H₃O⁺):** Oxygen donates its lone pair to H⁺
+- **Sulfur dioxide (SO₂):** Resonance structures involve coordinate bonds
+
+Once formed, a coordinate covalent bond is physically indistinguishable from an ordinary covalent bond — it has the same bond strength and properties. Formal charges on atoms in Lewis structures reflect the origin of shared electrons in dative bonds.
+
+### Metallic Bonding
+
+**Metallic bonds** occur in metals and alloys. Valence electrons become delocalized — not bound to any particular atom — forming an electron sea that surrounds positively charged metal ions (cations). The metal cations are held together by their attraction to this shared electron sea.
+
+**Properties arising from metallic bonding:**
+- **High electrical conductivity** — delocalized electrons move freely under an applied electric field
+- **High thermal conductivity** — free electrons rapidly transfer kinetic energy
+- **Malleability and ductility** — metal ions can slide past each other within the electron sea without losing structural coherence; the electron sea adjusts continuously
+- **High melting and boiling points** — strong electrostatic attractions require substantial energy to overcome
+- **Lustrous appearance** — electron sea absorbs and re-emits visible light
+
+Examples of metallic bonding include sodium (Na), magnesium (Mg), iron (Fe), copper (Cu), and gold (Au). Metallic bonding strength varies across the periodic table, correlating with the number of delocalized electrons and the charge density of the metal ions.
+
+### Lewis Structures: The Electron Dot Method
+
+Lewis structures (electron dot structures) represent covalent molecules by showing how valence electrons are arranged among atoms to satisfy the octet rule. These diagrams form the foundation for understanding molecular geometry, reactivity, and bond character.
+
+**Systematic procedure for drawing Lewis structures:**
+1. **Count total valence electrons** — sum valence electrons of all atoms, adding one electron for each negative charge and subtracting one for each positive charge
+2. **Identify the central atom** — typically the least electronegative element excluding hydrogen; hydrogen is never central
+3. **Construct a skeleton structure** — connect atoms with single bonds (one electron pair per bond)
+4. **Distribute remaining electrons to satisfy the octet** — place electron pairs on terminal atoms first, then the central atom
+5. **Form double or triple bonds if necessary** — if the central atom lacks an octet after step 4, convert lone pairs from terminal atoms into bonding pairs between atoms
+6. **Assign formal charges** using the formula: **Formal charge = Valence electrons − (Non-bonding electrons + ½ Bonding electrons)**
+
+**Formal charge formula:** Each atom's formal charge should approximate zero for the most stable resonance structure; small formal charges on adjacent atoms are acceptable.
+
+### VSEPR Theory: Predicting Molecular Geometry
+
+**Valence Shell Electron Pair Repulsion (VSEPR)** theory predicts molecular shape by assuming that electron pairs (both bonding and non-bonding lone pairs) around a central atom arrange themselves to minimize mutual repulsion. The key principle: **lone pairs repel more strongly than bonding pairs**, causing bond angles to deviate from ideal geometry.
+
+**Repulsion hierarchy:**
+**Lone pair – Lone pair > Lone pair – Bonding pair > Bonding pair – Bonding pair**
+
+This hierarchy explains why molecules with lone pairs have bond angles smaller than their ideal tetrahedral angle of 109.5°.
+
+**Molecular geometries and their characteristics:**
+
+| Geometry | Bond Angle | Example | Hybridization | Lone pairs on central atom |
+|----------|-----------|---------|--------------|----------------------------|
+| Linear | 180° | CO₂, BeCl₂, C₂H₂ | sp | 0 |
+| Trigonal planar | 120° | BF₃, SO₃ | sp² | 0 |
+| Bent/V-shaped | ~109.5° (less than 120°) | H₂O (104.5°) | sp³ | 2 |
+| Tetrahedral | 109.5° | CH₄, SiCl₄ | sp³ | 0 |
+| Trigonal pyramidal | ~107° (less than 109.5°) | NH₃ (107.8°) | sp³ | 1 |
+| Trigonal bipyramidal | 90° and 120° | PCl₅ | sp³d | 0 |
+| Seesaw | < 120° and < 90° | SF₄ | sp³d | 1 |
+| T-shaped | < 90° | ClF₃ | sp³d | 2 |
+| Octahedral | 90° | SF₆ | sp³d² | 0 |
+| Square pyramidal | ~90° | BrF₅ | sp³d² | 1 |
+| Square planar | 90° | XeF₄ | sp³d² | 2 |
+
+### Hybridization: Mixing Atomic Orbitals
+
+**Hybridization** is the concept of atomic orbitals on the same atom mixing and combining to form new orbitals of equal energy, suitable for bonding. Hybrid orbitals form sigma bonds through head-on overlap; pi bonds form from sideways overlap of unhybridized p orbitals.
+
+| Hybridization | Orbitals mixed | Geometry | Bond angle | Examples |
+|---------------|----------------|----------|-----------|----------|
+| sp | One s + one p | Linear | 180° | BeCl₂, CO₂, C₂H₂ |
+| sp² | One s + two p | Trigonal planar | 120° | BF₃, C₂H₄, SO₃ |
+| sp³ | One s + three p | Tetrahedral | 109.5° | CH₄, NH₃, H₂O |
+| sp³d | One s + three p + one d | Trigonal bipyramidal | 90°, 120° | PCl₅, AsF₅ |
+| sp³d² | One s + three p + two d | Octahedral | 90° | SF₆, XeF₄ |
+
+**Critical bonding relationships:**
+- Each single bond = 1 σ bond (formed by hybrid orbital overlap)
+- Each double bond = 1 σ bond + 1 π bond (the σ bond from hybrid orbitals; the π bond from p orbital side overlap)
+- Each triple bond = 1 σ bond + 2 π bonds
+- Non-bonding lone pairs reside in hybrid orbitals
+
+### Hydrogen Bonding
+
+The **hydrogen bond** is a specially strong dipole-dipole interaction specific to compounds where hydrogen is bonded to a highly electronegative atom — specifically fluorine (F), oxygen (O), or nitrogen (N). The H atom bonded to F/O/N carries a substantial partial positive charge (because F, O, and N are strongly electronegative), and this H atom attracts the lone pairs of F, O, or N atoms on adjacent molecules or within the same molecule.
+
+**Properties of hydrogen bonds:**
+- **Bond energy:** 10–40 kJ/mol (much stronger than typical van der Waals forces of 1–5 kJ/mol, but much weaker than covalent bonds of 200–400 kJ/mol)
+- **Directional:** H-bonds prefer linear alignment (angle near 180°) for maximum strength
+- **Not a true chemical bond** — an intermolecular force
+
+**Consequences of hydrogen bonding:**
+- **Abnormally high boiling points** of H₂O, HF, and NH₃ compared to analogous hydrides (e.g., H₂S, HCl, PH₃ all have much lower boiling points than their first-row counterparts)
+- **Ice structure** — hydrogen bonds force water molecules into a tetrahedral lattice with open spaces, making ice less dense than liquid water
+- **DNA double helix** — hydrogen bonds between complementary base pairs (A-T with 2 H-bonds; G-C with 3 H-bonds) hold the two strands together
+- **Protein secondary structure** — hydrogen bonds between peptide groups create alpha helices and beta sheets
+- **Cellular adhesion** — hydrogen bonding between molecules on cell surfaces facilitates tissue formation
+
+### Van der Waals Forces: Weak Intermolecular Attractions
+
+These weak attractive forces operate between all molecules, including noble gas atoms and non-polar molecules.
+
+**London dispersion forces:** Instantaneous and randomly fluctuating electron distributions in any atom or molecule create instantaneous dipoles that induce dipoles in neighboring molecules, producing weak attractive forces. Present in all molecules; strength increases with molecular size and number of electrons (molecular mass).
+
+**Debye forces:** A permanent dipole in one molecule induces a dipole in a non-polar molecule, producing attraction between unlike charges.
+
+**Keesom forces:** Electrostatic interaction between two permanent dipoles — classic dipole-dipole attraction.
+
+Van der Waals forces increase with molecular weight, surface area, and polarizability. They explain the liquefaction of gases and the condensation of non-polar substances at low temperatures.
+
+### Dipole Moment and Molecular Polarity
+
+**μ = δ × d**
+
+The dipole moment measures overall molecular polarity. A molecule with non-zero dipole moment is **polar**; one with zero dipole moment is **non-polar**.
+
+**Key examples:**
+- **Water (μ = 1.85 D):** Highly polar — bent geometry prevents bond dipoles from canceling; vectors sum to a substantial net dipole
+- **CO₂ (μ = 0):** Non-polar despite polar C=O bonds — linear geometry places bond dipoles in exact opposition; they cancel vectorially
+- **Benzene (μ = 0):** Symmetrical hexagonal geometry ensures all bond dipoles cancel
+- **NH₃ (μ = 1.47 D):** Polar — trigonal pyramidal geometry allows no cancellation
+- **CH₄ (μ = 0):** Non-polar — tetrahedral geometry produces perfect cancellation
+
+### Must-Remember Facts and Values
+
+| Concept | Value / Description |
+|--------|---------------------|
+| Octet rule | Atoms want 8 valence electrons (2 for hydrogen) |
+| Ionic bond | Electron transfer; large electronegativity difference |
+| Covalent bond | Electron sharing; small electronegativity difference |
+| Metallic bond | Delocalized electron sea; explains conductivity and malleability |
+| H₂O bond angle | 104.5° — bent, less than tetrahedral 109.5° |
+| NH₃ bond angle | 107.8° — trigonal pyramidal |
+| CH₄ bond angle | 109.5° — exactly tetrahedral |
+| Most electronegative | Fluorine (EN = 4.0 on Pauling scale) |
+| Hydrogen bond | F/O/N with H — strongest intermolecular force |
 | sp³ hybridization | 4 regions, tetrahedral, 109.5° |
 | sp² hybridization | 3 regions, trigonal planar, 120° |
 | sp hybridization | 2 regions, linear, 180° |
+| Electronegativity difference < 0.4 | Non-polar covalent bond |
+| Electronegativity difference 0.4–1.7 | Polar covalent bond |
+| Electronegativity difference > 1.7 | Predominantly ionic bond |
 
-### Common DU Admission Questions
+### Common Examination Question Types
 
-1. Lewis dot structures of molecules
-2. Predicting geometry using VSEPR
-3. Ionic vs covalent bond identification
-4. Hybridization of central atom
-5. Dipole moment — polar vs non-polar molecules
-6. Hydrogen bonding and its effects
-7. Formal charge calculation
+1. **Lewis structure drawing** — apply all six steps systematically; check formal charges
+2. **VSEPR geometry prediction** — count regions of electron density (bonding + lone pairs); apply repulsion hierarchy; predict deviations from ideal angles
+3. **Bond type identification** — use electronegativity difference guidelines to classify as ionic, polar covalent, or non-polar covalent
+4. **Hybridization assignment** — connect number of regions of electron density to hybrid orbital type
+5. **Dipole moment analysis** — predict whether a molecule is polar or non-polar by examining both individual bond dipoles and overall geometry
+6. **Hydrogen bonding recognition** — identify F/O/N atoms bonded to hydrogen in biological and inorganic molecules; predict effects on physical properties
 
-### Exam Tips
+### Examination Strategy
 
-- In VSEPR: Count all electron pairs (bonding + lone pairs), not just atoms
-- Lone pairs repel more than bonding pairs — this reduces bond angle
-- Water has 2 lone pairs → bond angle 104.5° (less than tetrahedral 109.5°)
-- NH₃ has 1 lone pair → bond angle 107.8°
-- CH₄ has no lone pairs → bond angle exactly 109.5°
-- ΔEN > 1.7: Predominantly ionic
-- ΔEN between 0.4-1.7: Polar covalent
-- ΔEN < 0.4: Non-polar covalent
-- Double bonds repel more than single bonds in VSEPR calculations
+Lewis structure questions reward systematic approaches. When drawing electron configurations, verify each atom achieves or approaches an octet before claiming completion. In VSEPR problems, count all electron pairs (bonding and lone pairs) around the central atom — not just atoms — because lone pairs exert repulsive forces that alter geometry. Remember that NH₃ has four regions of electron density (three bonding pairs + one lone pair) despite only three bonded atoms, giving sp³ hybridization and 107.8° bond angles. Water has two lone pairs and two bonding pairs around oxygen, producing sp³ hybridization and the 104.5° bond angle that makes water uniquely important in biological systems.
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

@@ -113,6 +113,7 @@ const faqJsonLd = {
 
 <Layout title={title} description={description} canonical={canonicalUrl} image={ogImage} faqs={NOTES_FAQS} author={authorObj}>
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
+  <script type="application/ld+json" set:html={JSON.stringify(notesItemList)} />
   <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
   <Navbar />
   <main id="main-content" class="flex-1">

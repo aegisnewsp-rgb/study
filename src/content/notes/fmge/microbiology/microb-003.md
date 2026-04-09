@@ -16,9 +16,9 @@ generated: "2026-03-25T17:00:00"
 > Rapid summary for last-minute revision before your exam.
 
 **Topic 3** — Key Facts for FMGE
-Core concept: Enteric Bacteria — E. coli, Salmonella, Shigella, Vibrio — their diseases and lab diagnosis
-High-yield point: Biochemical reactions, serotypes, antibiotic resistance patterns
-⚡ Exam tip: Enteric pathogens are frequently tested — learn distinguishing biochemicals and clinical presentations
+Core concept: Enteric Bacteria — E. coli, Salmonella, Shigella, Vibrio, and antibiotic sensitivity testing
+High-yield point: Biochemical identification patterns, pathotypes of E. coli, serological tests for Salmonella
+⚡ Exam tip: IMViC patterns, TSI reactions, and enteric pathogen differentiation are frequently asked
 
 ---
 
@@ -26,8 +26,8 @@ High-yield point: Biochemical reactions, serotypes, antibiotic resistance patter
 > Standard content for students with a few days to months.
 
 **Topic 3** — FMGE Study Guide
-Overview: Important gram-negative enteric pathogens
-Core principles: Biochemical identification, serological classification, pathogenicity
+Overview: Gram-negative enteric pathogens causing diarrheal disease and systemic illness
+Core principles: Biochemical identification, serological classification, pathogenic mechanisms
 Key points: E. coli pathotypes, Salmonella serovars, Shigella species, Vibrio cholerae
 Study strategy: Focus on biochemical differentiation and clinical syndromes
 
@@ -40,317 +40,181 @@ Study strategy: Focus on biochemical differentiation and clinical syndromes
 
 ---
 
-## Overview of Enterobacteriaceae
+## The Enterobacteriaceae Family
 
-Family of gram-negative rods (Enterobacteriaceae) that inhabit the gut:
-- **Lactose fermenters**: E. coli, Klebsiella, Enterobacter, Citrobacter
-- **Non-lactose fermenters**: Salmonella, Shigella, Proteus
+Enterobacteriaceae comprises a large family of gram-negative rods inhabiting the intestinal tracts of humans and animals. These organisms share common biochemical properties while causing distinct clinical syndromes. The family includes lactose fermenters (E. coli, Klebsiella, Enterobacter, Citrobacter) and non-lactose fermenters (Salmonella, Shigella, Proteus).
 
-### Common Biochemical Tests for Identification
+### Biochemical Identification Framework
 
-| Test | Principle | Positive | Negative |
-|------|----------|----------|----------|
-| **Indole** | Tryptophan → Indole | E. coli | Klebsiella |
-| **MR (Methyl Red)** | Glucose → Mixed acid | E. coli | Enterobacter |
-| **VP (Voges-Proskauer)** | Glucose → Acetoin | Enterobacter | E. coli |
-| **Citrate** | Citrate utilization | Klebsiella, Proteus | E. coli |
-| **Urease** | Urea → NH₃ + CO₂ | Proteus (rapid) | E. coli |
-| **TSI** | Sugar + H₂S | Salmonella (H₂S+) | Shigella |
-| **H₂S production** | Sulfide → Black | Salmonella, Proteus | E. coli, Shigella |
+Multiple tests differentiate enteric bacteria. Triple Sugar Iron (TSI) agar assesses glucose fermentation at the butt and lactose/sucrose fermentation at the slant, along with H₂S production and gas formation. The IMViC panel (Indole, Methyl Red, Voges-Proskauer, Citrate) separates E. coli from Klebsiella and Enterobacter. Urease testing distinguishes Proteus (rapid urease producer) from other enterics.
 
 ---
 
 ## ESCHERICHIA COLI
 
 ### General Characteristics
-- Gram-negative rod
-- **Lactose fermenter** (pink on MacConkey)
-- **Indole positive**, MR positive, VP negative, Citrate negative
-- **IMViC**: ++ -- (E. coli pattern)
-- Normal flora: Colon of humans and warm-blooded animals
 
-### E. coli Pathotypes
+E. coli is a gram-negative rod, lactose fermenter, indole-positive, methyl red-positive, VP-negative, citrate-negative — the classic IMViC pattern ++ --. It constitutes normal colonic flora while functioning as a major pathogen at various anatomical sites.
 
-| Pathotype | Mechanism | Disease | Key Feature |
-|-----------|-----------|---------|-------------|
-| **ETEC** | Heat-labile (LT) + Heat-stable (ST) toxins | Traveler's diarrhea | Watery diarrhea |
-| **EPEC** | Bundle-forming pilus, pedestal formation | Infantile diarrhea | Adherence |
-| **EHEC** | Shiga toxin (Stx1, Stx2) | HUS, bloody diarrhea | No invasion |
-| **EIEC** | Invasion of colonic epithelium | Bacillary dysentery | Invades like Shigella |
-| **EAEC** | Aggregative adherence | Persistent diarrhea | Stacked brick pattern |
-| **DAEC** | Diffuse adherence | Diarrhea in children | |
-| **STEC** | Shiga toxin | HUS | O157:H7 common |
+### Diarrheagenic E. coli Pathotypes
 
-### EHEC (Enterohemorrhagic E. coli) — O157:H7
+Different pathotypes cause distinct clinical syndromes through specific virulence mechanisms.
 
-**Key Features:**
-- **Shiga toxin producing** (Stx)
-- **HUS (Hemolytic Uremic Syndrome)**: Microangiopathic hemolytic anemia + thrombocytopenia + renal failure
-- **No invasion, no fever** (non-inflammatory diarrhea)
-- Source: Undercooked beef (hamburger disease), raw milk
-- **Do NOT give antibiotics** (increases Shiga toxin release → worsens HUS)
+**Enterotoxigenic E. coli (ETEC)** produces heat-labile (LT) and heat-stable (ST) toxins that stimulate adenylate cyclase and guanylate cyclase respectively, causing the copious watery diarrhea of traveler's diarrhea. LT resembles cholera toxin in mechanism; ST activates guanylate cyclase.
 
-**Laboratory:**
-- Sorbitol-MacConkey agar (SMAC): O157:H7 does NOT ferment sorbitol → colorless colonies
-- O157:H7 is **Oxidase negative**
-- Non-O157 STEC: Detected by Shiga toxin PCR
+**Enteropathogenic E. coli (EPEC)** employs bundle-forming pili to attach to intestinal epithelium, causing pedestal formation and childhood diarrhea, particularly in developing countries.
 
-### E. coli as Pathogen
+**Enterohemorrhagic E. coli (EHEC)**, notably O157:H7, produces Shiga toxin that inhibits 60S ribosomal function, causing bloody diarrhea and potentially hemolytic uremic syndrome. The triad of microangiopathic hemolytic anemia, thrombocytopenia, and acute renal failure defines HUS. Importantly, antibiotics increase Shiga toxin release and should be avoided. Non-O157 EHEC requires sorbitol-MacConkey agar for identification as O157:H7 does not ferment sorbitol.
 
-| Site | Disease |
-|------|---------|
-| **UTI** | Cystitis, pyelonephritis (most common cause) |
-| **GI** | Diarrhea (various pathotypes) |
-| **Meningitis** | Neonatal meningitis (K1 antigen) |
-| **Bacteremia** | Sepsis |
+**Enteroinvasive E. coli (EIEC)** invades colonic epithelial cells using plasmid-encoded genes similar to Shigella, producing bacillary dysentery with bloody diarrhea and fever.
+
+**Enteroaggregative E. coli (EAEC)** adheres in stacked-brick aggregative patterns, causing persistent diarrhea in children.
+
+### E. coli Beyond the Intestine
+
+E. coli causes approximately 80% of community-acquired urinary tract infections through virulence factors including P fimbriae and type 1 pili. Neonatal meningitis results from K1 capsule-expressing strains that breach the blood-brain barrier. E. coli bacteremia occurs in immunocompromised patients and those with urinary or biliary tract instrumentation.
 
 ---
 
 ## SALMONELLA
 
-### General Characteristics
-- Gram-negative rod
-- **Non-lactose fermenter** (colorless on MacConkey)
-- **Produces H₂S** (black on TSI)
-- **Non-motile** (except S. choleraesuis)
-- **Citrate positive** (distinguishes from Shigella)
+### Classification and Antigenic Structure
 
-### Classification
+Salmonella species are gram-negative, non-lactose fermenting, H₂S-producing rods. The White-Kauffmann-Le Minor scheme classifies them by somatic (O) and flagellar (H) antigens. Clinically, species division separates S. enterica (subspecies I through VII) from S. bongori.
 
-#### By Clinical Syndrome
-1. **Enteric fever**: S. Typhi, S. Paratyphi A, B, C
-2. **Non-typhoidal Salmonella (NTS)**: S. Typhimurium, S. Enteritidis
+Serovars within S. enterica subspecies I cause human disease. S. Typhi (serovar Typhi) causes typhoid fever exclusively in humans. Non-typhoidal Salmonella including S. Typhimurium and S. Enteritidis infect both animals and humans, causing gastroenteritis.
 
-#### By Antigenic Structure (White-Kauffmann-Le Minor)
-- **O antigen** (somatic): Polysaccharide (heat stable)
-- **H antigen** (flagellar): Protein (heat labile)
+### Salmonella Typhi: Enteric Fever
 
-### Salmonella Typhi
+S. Typhi produces systemic illness through hematogenous spread following intestinal invasion. The incubation period of 7–14 days precedes stepwise escalating fever, headache, relative bradycardia, abdominal pain, and hepatosplenomegaly. Rose spots — salmon-colored macules on the trunk — appear in 30% of patients during the second week. Intestinal hemorrhage and perforation can occur during the third week.
 
-**Characteristics:**
-- **Human only** pathogen (no animal reservoir)
-- **H₂S producer**
-- **Glucose fermenter, lactose non-fermenter**
-- **Citrate positive**
-- **Inactivated by bile** (distinguishes from Salmonella)
+**Carriage** develops in 1–5% of patients, with the gallbladder serving as the reservoir. Chronic carriers, particularly those with cholelithiasis, intermittently shed organisms for years. Famous carriers include "Typhoid Mary" Mallon.
 
-**Diseases:**
-- **Enteric fever** (Typhoid fever): Gradual onset, step-ladder fever, rose spots, hepatosplenomegaly
-- **Carrier state**: Gallbladder carriage (especially with gallstones), can shed for years
+**Laboratory diagnosis** involves blood culture during the first week (sensitivity 80–90%), stool culture during weeks 2–4, and bone marrow culture as gold standard when other tests are negative. The Widal test detects O and H antibodies but lacks specificity due to cross-reactivity and prior immunization. Single O titers ≥1:160 or four-fold rising titers support diagnosis. The TyphiDot test detects IgM antibodies against S. Typhi antigens with greater specificity.
 
-**Laboratory Diagnosis:**
-- **Culture**: Blood (first week), stool (second week), bone marrow (gold standard)
-- **Widal test**: Detects O and H antibodies (not reliable — false positives/negatives)
-  - O antibody: IgM (acute infection)
-  - H antibody: IgG (past infection or vaccination)
-- **Typhidot**: IgM detection (more specific)
-
-**Typhoid Vaccine:**
-- **Oral**: Ty21a (live attenuated)
-- **Injectable**: Vi polysaccharide (parenteral)
-- None 100% effective
+**Treatment** uses ciprofloxacin, ceftriaxone, or azithromycin. Fluoroquinolone resistance is increasing in South Asia. Typhoid vaccines include Ty21a (oral live attenuated) and Vi polysaccharide (injectable) — neither provides complete protection.
 
 ### Non-Typhoidal Salmonella
 
-**Examples:** S. Typhimurium, S. Enteritidis
-
-**Characteristics:**
-- **H₂S producer**
-- Reservoir: **Poultry, eggs, cattle**
-- Causes: **Food poisoning/gastroenteritis** (inflammatory diarrhea)
-- Self-limiting in healthy individuals
-- Can cause bacteremia in immunocompromised
+S. Typhimurium and S. Enteritidis cause self-limiting gastroenteritis with diarrhea, fever, and abdominal cramps within 12–72 hours of ingestion. The infection is typically foodborne through poultry, eggs, beef, or unpasteurized dairy. Bacteremia develops in approximately 5% of cases, particularly in immunocompromised, very young, or elderly patients.
 
 ---
 
 ## SHIGELLA
 
-### General Characteristics
-- Gram-negative rod
-- **Non-lactose fermenter** (colorless on MacConkey)
-- **Non-motile**
-- **Non-H₂S producer** (distinguishes from Salmonella)
-- **Citrate negative** (distinguishes from Salmonella)
-- **Ferments glucose** (acid, no gas)
+### Species and Pathogenesis
 
-### Species
+Shigella species are gram-negative, non-lactose fermenting, non-motile rods that are citrate negative. Four species cause human disease: S. dysenteriae (most severe, produces Shiga toxin), S. flexneri (most common globally), S. boydii, and S. sonnei (causes mild disease, common in developed countries).
 
-| Species | Mannitol | Clinical |
-|---------|---------|---------|
-| S. dysenteriae | Negative | Severe, Shiga toxin, HUS |
-| S. flexneri | Positive | Most common, bloody diarrhea |
-| S. boydii | Positive | Less common |
-| S. sonnei | Positive | Mild, causes outbreaks |
+The organism invades colonic epithelial cells through plasmid-encoded type III secretion system. Intracellular multiplication and cell-to-cell spread produce extensive mucosal damage with ulceration. Shiga toxin from S. dysenteriae type 1 inhibits protein synthesis causing cell death, potentially leading to HUS.
 
-### Pathogenesis
-- **Invasion** of colonic epithelium (similar to EIEC)
-- **Cell-to-cell spread** (actin-based motility)
-- **Shiga toxin** (especially S. dysenteriae type 1): Inhibits 60S ribosome → cell death
-- Causes **bacillary dysentery** (bloody diarrhea with mucus)
+### Clinical Presentation
 
-### Laboratory Diagnosis
-- **Culture**: MacConkey agar (non-lactose fermenter), XLD/SS agar
-- **Biochemically**: Citrate negative (vs Salmonella), H₂S negative
-- **Serotyping**: Based on O antigen
+Bacillary dysentery presents with bloody, mucoid diarrhea, tenesmus, and abdominal cramps. Fever is common. S. dysenteriae type 1 infection carries higher mortality due to more severe colitis and HUS complications.
 
-### Clinical Features
-- Bloody, mucoid diarrhea (dysentery)
-- Tenesmus
-- Fever
-- Abdominal cramps
-- **S. dysenteriae type 1**: Associated with HUS
+### Laboratory Identification
+
+MacConkey agar yields colorless colonies (non-lactose fermenter). XLD and SS agars selectively grow Shigella. Biochemical testing differentiates from Salmonella: Shigella is citrate negative and does not produce H₂S, unlike Salmonella. Serotyping based on O antigen confirms species identification.
 
 ---
 
-## VIBRIO
+## VIBRIO CHOLERAE
 
-### Vibrio cholerae
+### Organism Characteristics
 
-**Characteristics:**
-- Gram-negative **comma-shaped** (or straight) rod
-- **Oxidase positive** (distinguishes from Enterobacteriaceae)
-- **Ferments glucose and sucrose**
-- **Produces cholera toxin** (CT): 
-  - B subunit binds GM1 ganglioside
-  - A subunit enters cell → ADP-ribosylates Gs protein → permanent activation → **massive watery diarrhea**
+V. cholerae is a gram-negative curved rod (comma-shaped), oxidase positive, and ferments glucose and sucrose. Its comma shape and darting motility distinguish it from straight gram-negative rods.
 
-**Disease:**
-- **Cholera**: Profuse "rice-water" stools, no fever, rapid dehydration
-- **Toxin-mediated**: 1-5 L fluid loss/day
-- **Commensal in brackish water**
+### Cholera Toxin Mechanism
 
-**Laboratory Diagnosis:**
-- **Dark field microscopy**: Darting motility
-- **Culture**: Alkaline peptone water (enrichment), TCBS agar (yellow colonies — ferments sucrose)
-- **Oxidase positive** (key test)
+The cholera toxin comprises A and B subunits. The B subunit pentamer binds GM1 ganglioside on intestinal epithelial cells. The A subunit enters the cell and ADP-ribosylates the Gs alpha subunit, constitutively activating adenylate cyclase. Cyclic AMP accumulation drives massive chloride and water secretion into the intestinal lumen, producing the characteristic rice-water stools — voluminous watery diarrhea without fever or abdominal pain. Fluid losses can exceed 1 liter per hour in severe cases.
 
-**Treatment:**
-- **ORS** (Oral Rehydration Solution): Most important
-- **Doxycycline** or **Azithromycin**: Antibiotics reduce shedding
+### Identification and Treatment
 
-**Pandemic strains:**
-- **Classical biotype**: Most severe, less common now
-- **El Tor biotype**: Current pandemic strain (more mild cases, more carriers)
+Dark-field microscopy reveals the characteristic darting motility. TCBS (thiosulfate-citrate-bile salts-sucrose) agar selects for Vibrio, producing yellow colonies from sucrose fermentation. Oxidase positivity distinguishes Vibrio from other enteric bacteria.
 
-### Other Vibrios
+Treatment centers on oral rehydration solution (ORS) packets. Antibiotics (doxycycline, azithromycin) reduce stool volume and duration. Intravenous fluids become necessary for severe dehydration.
 
-| Organism | Source | Disease |
-|---------|--------|---------|
-| V. parahaemolyticus | Seafood (raw fish) | Gastroenteritis |
-| V. vulnificus | Seawater, raw oysters | Wound infection, septicemia |
-| V. alginolyticus | Seawater | Wound infections |
+The El Tor biotype replaced the classical biotype as the dominant pandemic strain. V. cholerae O1 causes epidemic cholera; O139 causes similar disease with potential for pandemic spread.
+
+### Other Vibrio Species
+
+V. parahaemolyticus from raw seafood causes gastroenteritis with watery diarrhea and abdominal pain. V. vulnificus produces wound infections and septicemia from seawater exposure or consuming raw oysters, particularly in patients with liver disease. Both are oxidase-positive and halophilic (require salt).
 
 ---
 
-## CAMPYLOBACTER
+## CAMPYLOBACTER AND HELICOBACTER
 
-### Characteristics
-- Gram-negative **curved/spiral rod** (seagull wing shape)
-- **Microaerophilic** (needs 5% O₂ + 10% CO₂)
-- **Oxidase positive**, **catalase positive**
-- **Motile** (darting motility)
-- Grows at **42°C** (selective for Campylobacter)
+### Campylobacter jejuni
 
-### Disease
-- **Acute gastroenteritis**: Bloody diarrhea, fever, abdominal pain
-- **Guillain-Barré Syndrome** (GBS): Autoimmune demyelination — **post-infectious complication**
-- Source: **Undercooked poultry**, unpasteurized milk
+Campylobacter is a gram-negative curved or spiral rod (seagull-wing appearance), microaerophilic, growing at 42°C. It causes inflammatory diarrhea with bloody stools, fever, and abdominal pain through mucosal invasion. Importantly, it triggers Guillain-Barré syndrome through molecular mimicry between bacterial lipooligosaccharide and nerve gangliosides, making it the most common infectious trigger of GBS. Laboratory culture uses Skirrow's or Campylobacter blood agar under microaerophilic conditions at 42°C.
 
-### Laboratory Diagnosis
-- Culture: Skirrow's medium, Campylobacter agar
-- **Microaerophilic conditions at 42°C**
-- **Gram stain**: Seagull-wing shaped gram-negative rods
+### Helicobacter pylori
+
+H. pylori is a gram-negative spiral bacterium colonizing the gastric mucosa, unique in surviving acidic gastric conditions through urease production. The urease test serves as the rapid office-based diagnostic CLO (Campylobacter-like organism) test. This organism causes chronic gastritis, peptic ulcer disease, and gastric adenocarcinoma (WHO class I carcinogen), and MALT lymphoma. Diagnosis involves biopsy-based rapid urease test, histology with special stains, stool antigen test, urea breath test (13C or 14C labeled), and culture. Triple therapy combining PPI with clarithromycin and amoxicillin (or metronidazole) achieves eradication.
 
 ---
 
-## HELICOBACTER PYLORI
+## ANTIBIOTIC SENSITIVITY TESTING
 
-### Characteristics
-- Gram-negative **spiral/U-shaped** rod
-- **Urease positive** (key test — used in rapid urease test/CLO test)
-- **Oxidase and catalase positive**
-- **Microaerophilic**
-- **Motile** (flagella)
-- Lives in **stomach** (unique)
+### Kirby-Bauer Disk Diffusion
 
-### Disease
-- **Chronic gastritis** and **peptic ulcer disease**
-- **Gastric adenocarcinoma** (Class I carcinogen — WHO)
-- **MALT lymphoma**
+The Kirby-Bauer method places antibiotic-impregnated disks on agar lawns of test bacteria. Following incubation, zone diameters correlate with susceptibility based on CLSI (Clinical and Laboratory Standards Institute) interpretative criteria. Zone sizes classify organisms as sensitive (S), intermediate (I), or resistant (R).
 
-### Laboratory Diagnosis
-- **Rapid urease test (CLO test)**: Urease in biopsy → color change (urea + phenol red)
-- **Urea breath test**: Patient ingests ¹⁴C or ¹³C urea → labeled CO₂ in breath if urease present
-- **Stool antigen test**
-- **Histology**: Silver stain (Warthin-Starry)
-- Culture: Requires microaerophilic conditions (difficult)
+### Minimum Inhibitory Concentration (MIC)
 
-### Treatment
-- **Triple therapy**: PPI + Clarithromycin + Amoxicillin (or Metronidazole)
-- **Quadruple therapy**: PPI + Bismuth + Tetracycline + Metronidazole
+MIC determines the lowest antibiotic concentration preventing visible bacterial growth, providing quantitative susceptibility data. Etest strips combine diffusion and MIC principles, showing elliptical inhibition zones intersecting a graded scale. MIC testing guides therapy for critical infections and resistant organisms.
+
+### Detection of Resistant Organisms
+
+Methicillin-resistant S. aureus (MRSA) detection uses cefoxitin or oxacillin disks with automated testing methods. Extended-spectrum beta-lactamase (ESBL) production in gram-negative bacteria is confirmed through combination disk methods or Etest. Vancomycin-resistant Enterococcus (VRE) and carbapenem-resistant Enterobacteriaceae (CRE) require specific testing protocols.
 
 ---
 
-## MUST-REMEMBER BIOCHEMICALS
+## Must-Remember Points for FMGE
 
-| Organism | Lactose | H₂S | Indole | Citrate | Motile |
-|---------|---------|-----|--------|---------|--------|
-| **E. coli** | + | − | + | − | + |
-| **Salmonella** | − | + | − | + | + |
-| **Shigella** | − | − | − | − | − |
-| **Vibrio cholerae** | +* | − | − | − | + |
-| **Proteus** | − | + | V | + | + |
+| Organism | Key Biochemical Features | Characteristic Disease |
+|---------|------------------------|----------------------|
+| E. coli O157:H7 | Non-sorbitol fermenter, oxidase negative | HUS |
+| S. Typhi | H₂S+, non-lactose fermenter, citrate+ | Enteric fever |
+| Shigella | Non-lactose fermenter, H₂S-, non-motile | Bacillary dysentery |
+| V. cholerae | Oxidase+, comma-shaped, sucrose fermenter | Rice-water diarrhea |
+| Campylobacter | Growth at 42°C, microaerophilic, curved rods | Bloody diarrhea, GBS |
+| H. pylori | Urease+, spiral gram-negative | PUD, gastric cancer |
 
-*Vibrio ferments glucose and sucrose
+### IMViC Patterns for Common Enterics
 
-### Enterobacteriaceae IMViC Patterns
+| Pattern | Organism |
+|---------|----------|
+| ++ -- | E. coli |
+| -- ++ | Klebsiella/Enterobacter |
+| + - - + | Proteus |
+| - + - - | Shigella |
 
-| Pattern | ++ -- | -- ++ | + - + - | - + - + |
-|---------|-------|-------|---------|---------|
-| **Organism** | E. coli | Klebsiella | Proteus | Enterobacter |
+### Frequently Tested Questions
 
----
-
-## MUST-REMEMBER FACTS
-
-| Organism | Key Test/Feature | Disease |
-|---------|----------------|---------|
-| E. coli O157:H7 | No sorbitol fermentation | HUS |
-| S. Typhi | Widal test, blood culture | Enteric fever |
-| S. flexneri/boydii/sonnei | Mannitol fermentation | Bacillary dysentery |
-| S. dysenteriae | Shiga toxin | Severe dysentery + HUS |
-| V. cholerae | Oxidase+, TCBS yellow | Rice-water diarrhea |
-| Campylobacter | Growth at 42°C, curved gram-negative | GBS |
-| H. pylori | Urease+, spiral-shaped | PUD, gastric cancer |
-
-### Common FMGE Questions
-
-**Q: Rice-water stools + oxidase positive:**
+**Q: Rice-water stools plus oxidase-positive comma-shaped organism:**
 A: Vibrio cholerae
 
-**Q: Bloody diarrhea + HUS + no fever:**
-A: EHEC (E. coli O157:H7)
+**Q: HUS following bloody diarrhea without fever:**
+A: E. coli O157:H7 (EHEC)
 
-**Q: H₂S producer + non-lactose fermenter + citrate positive:**
+**Q: Enteric fever with rose spots and stepwise fever pattern:**
+A: Salmonella Typhi (Widal test confirmation)
+
+**Q: Which Shigella species produces Shiga toxin?**
+A: S. dysenteriae type 1
+
+**Q: Campylobacter triggers which neurological syndrome?**
+A: Guillain-Barré syndrome
+
+**Q: Rapid urease test identifies which organism?**
+A: Helicobacter pylori
+
+**Q: Non-lactose fermenter producing H₂S and fermenting citrate:**
 A: Salmonella
 
-**Q: Non-lactose fermenter + non-H₂S + non-motile:**
-A: Shigella
-
-**Q: Which E. coli causes HUS?**
-A: EHEC/O157:H7 (Shiga toxin)
-
-**Q: Widal test detects antibodies to:**
-A: O and H antigens of Salmonella Typhi
-
-**Q: Campylobacter causes which neurological complication?**
-A: Guillain-Barré Syndrome
-
-**Q: H. pylori is diagnosed by:**
-A: Rapid urease test (CLO test), urea breath test
-
 **Q: Cholera toxin mechanism:**
-A: ADP-ribosylates Gs protein → permanent adenylate cyclase activation → cAMP increase → watery diarrhea
+A: ADP-ribosylation of Gs protein → increased cAMP → secretory diarrhea
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

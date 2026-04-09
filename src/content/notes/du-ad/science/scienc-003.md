@@ -16,9 +16,9 @@ generated: "2026-03-25T17:00:00"
 > Rapid summary for last-minute revision before your exam.
 
 **Topic 3** — Key Facts for DU Admission (Bangladesh)
-Core concept: Cell Structure and Function — the basic unit of life
-High-yield point: Cell organelles, difference between plant and animal cells, cell membrane transport
-⚡ Exam tip: Diagram-based questions on cell structure and functions are very common
+Core concept: Cell Biology — the cell is the fundamental unit of all living organisms; structure and function are intimately linked
+High-yield point: Differences between prokaryotes and eukaryotes, plant versus animal cell organelles, fluid mosaic model, cell membrane transport mechanisms
+⚡ Exam tip: Diagram-based questions on cell structure appear almost every year; memorize organelle functions and the plant/animal cell comparison table
 
 ---
 
@@ -26,240 +26,181 @@ High-yield point: Cell organelles, difference between plant and animal cells, ce
 > Standard content for students with a few days to months.
 
 **Topic 3** — DU Admission (Bangladesh) Study Guide
-Overview: Cell biology is fundamental to all biological sciences
-Core principles: Cell theory, organelle structure and function, cell division
-Key points: Prokaryotic vs eukaryotic, plant vs animal cells, cell membrane models
-Study strategy: Draw and label cell diagrams, connect structure to function
+Overview: Cell biology provides the foundational framework for understanding all biological sciences from biochemistry to ecology
+Core principles: Cell theory, organelle structure-function relationships, cell membrane dynamics, cell division mechanisms
+Key points: Prokaryotic versus eukaryotic cell architecture, comparison of plant and animal cells, cytoplasm流动性, mitosis and meiosis stages, fluid mosaic model
+Study strategy: Draw and label cell diagrams repeatedly; connect each organelle's structure directly to its function; use comparison tables to memorize differences
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-## Cell Structure and Function — Complete Study Notes
+## Cell Biology — Complete Study Notes
 
-### Cell Theory
+### The Cell Theory: Foundations of Biology
 
-1. All living organisms are composed of cells
-2. The cell is the basic unit of life
-3. All cells arise from pre-existing cells (Omnis cellula e cellula — Rudolf Virchow)
-4. Cell contains hereditary material (DNA)
+The cell theory represents one of the most important unifying principles in biology. Three postulates comprise it:
 
-**Exceptions to cell theory:**
-- Viruses: Neither truly living nor cellular (discussed in virology)
-- Giant axons of squid: Single cell can be very large
+1. **All living organisms are composed of cells** — from single-celled bacteria to complex multicellular organisms, the cell is the basic structural unit of life
+2. **The cell is the basic unit of life** — all physiological processes of life occur within cells; no smaller unit can independently perform all the functions of life
+3. **All cells arise from pre-existing cells** — articulated by Rudolf Virchow in 1858 as "Omnis cellula e cellula" (every cell from a cell); this refutes the historical notion of spontaneous generation
 
-### Types of Cells
+Exceptions exist but do not invalidate the theory. Viruses consist only of genetic material wrapped in protein and cannot reproduce independently outside host cells — they occupy a borderline zone between living and non-living. The exceptionally large axons of squids can extend meters in length yet remain single cells, demonstrating that cell size is not fundamentally limited by the theory.
+
+### Prokaryotic versus Eukaryotic Cells
+
+All cellular life divides into two vast domains distinguished by internal organization.
 
 #### Prokaryotic Cells
-- **No membrane-bound nucleus** — DNA in nucleoid region
-- **No membrane-bound organelles**
-- Smaller (0.5–5 μm)
-- Examples: Bacteria, Archaea, Cyanobacteria (Blue-green algae)
-- Cell wall present (peptidoglycan in bacteria)
+Prokaryotes (bacteria and archaea) possess a deceptively simple appearance that conceals remarkable biochemical diversity. Their defining characteristic: **no membrane-bound nucleus**. The genetic material consists of a single circular DNA chromosome located in the **nucleoid region**, not enclosed by a membrane. No nuclear envelope, nucleolus, or membrane-bound organelles exist.
 
-**Key structures:** Cell wall, plasma membrane, ribosomes (70S), nucleoid, plasmids, pili, flagella
+**Characteristic features:**
+- **Size:** Typically 0.5–5 micrometers in diameter
+- **Cell wall:** Present and contains peptidoglycan (in bacteria) or pseudo-peptidoglycan (in archaea)
+- **Ribosomes:** 70S (composed of 50S and 30S subunits)
+- **Genetic elements:** Circular chromosome plus often small circular plasmids carrying accessory genes (often antibiotic resistance)
+- **Reproduction:** Binary fission exclusively; no mitosis
+- **Flagella:** If present, composed of flagellin protein in a rotary motor arrangement
+
+**Key prokaryotic structures and their functions:**
+| Structure | Function |
+|-----------|----------|
+| Capsule | Protection, adhesion to surfaces, immune evasion |
+| Cell wall | Shape maintenance, structural support, protection |
+| Plasma membrane | Selective permeability, transport, energy generation (in some bacteria) |
+| Pili | Attachment to host cells, genetic exchange (conjugation pili) |
+| Flagella | Locomotion through rotary motion |
+| Plasmids | Extrachromosomal DNA carrying accessory genes |
+| Ribosomes (70S) | Protein synthesis (translation of mRNA) |
+| Mesosomes | Specialized membrane invaginations for respiration and cell division |
 
 #### Eukaryotic Cells
-- **Membrane-bound nucleus** containing DNA
-- **Membrane-bound organelles** (mitochondria, ER, Golgi, etc.)
-- Larger (10–100 μm)
-- Examples: Plants, animals, fungi, protists
-- Plant cells have cell wall (cellulose); animal cells do not
+Eukaryotes (plants, animals, fungi, and protists) possess a **membrane-bound nucleus** containing linear chromosomes, and **membrane-bound organelles** that create specialized compartments for distinct biochemical functions. Eukaryotic cells are typically 10–100 micrometers in diameter — substantially larger than prokaryotes.
 
-### Comparison: Plant vs Animal Cells
+The membrane-bound organelle system enables spatial segregation of incompatible biochemical reactions, efficiency through concentration of substrates and enzymes within compartments, and regulatory complexity impossible in prokaryotes.
+
+### Plant versus Animal Cells: A Detailed Comparison
+
+The following table summarizes the critical structural distinctions:
 
 | Feature | Plant Cell | Animal Cell |
 |---------|-----------|-------------|
-| Cell wall | Present (cellulose) | Absent |
-| Chloroplasts | Present | Absent |
-| Centrioles | Absent (in most) | Present |
-| Vacuoles | Large central vacuole | Small, numerous |
-| Lysosomes | Rare | Common |
-| Shape | Rectangular, fixed | Irregular, flexible |
-| Plastids | Present | Absent |
-| Reserve food | Starch | Glycogen |
+| Cell wall | Present (cellulose fibers in matrix of hemicellulose and pectin) | Absent |
+| Chloroplasts | Present — site of photosynthesis | Absent |
+| Centrioles | Absent in most; present only in some lower plant forms | Present — organizing centrosomes for spindle apparatus |
+| Vacuoles | Large central vacuole occupying 80–90% of cell volume | Small scattered vacuoles; lysosomes more prominent |
+| Lysosomes | Rare; plant "vacuoles" perform degradative functions | Abundant — active intracellular digestion |
+| Shape | Rectangular, fixed geometry due to cell wall | Irregular, amorphous, changeable shape |
+| Plastids | Present (chloroplasts, chromoplasts, amyloplasts) | Absent |
+| Reserve carbohydrate | Starch (stored in amyloplasts) | Glycogen (stored in cytoplasm and liver cells) |
+| Cilia | Generally absent | Present on many cell types |
+| Cytokinesis | Via cell plate formation (Golgi-derived vesicles) | Via cleavage furrow (actin-myosin contractile ring) |
 
-### Cell Organelles — Structure and Function
+### The Plasma Membrane: Fluid Mosaic Architecture
 
-#### 1. Cell Membrane (Plasma Membrane)
-- **Fluid Mosaic Model** (Singer and Nicolson, 1972)
-- **Composition:** Lipid bilayer + proteins + carbohydrates
-- **Functions:**
-  - Selective permeability
-  - Cell signaling
-  - Transport (active and passive)
-  - Cell recognition (glycoproteins/glycolipids)
-- **Transport mechanisms:**
-  - **Diffusion**: High → Low concentration (no energy)
-  - **Osmosis**: Diffusion of water across semipermeable membrane
-  - **Facilitated diffusion**: Via carrier/channel proteins
-  - **Active transport**: Low → High concentration (requires ATP)
-  - **Endocytosis**: Phagocytosis (solid), Pinocytosis (liquid)
-  - **Exocytosis**: Secretion of materials
+The cell membrane (also called the plasma membrane) forms the boundary between the living cell and its external environment. The **fluid mosaic model**, proposed by Singer and Nicolson in 1972, describes the membrane as a dynamic, two-dimensional liquid in which proteins float and drift laterally within a lipid bilayer.
 
-#### 2. Nucleus
-- **Largest cell organelle**
-- **Structure:** Nuclear envelope (double membrane with pores), nucleoplasm, nucleolus, chromatin
-- **Functions:**
-  - Contains genetic material (DNA)
-  - Controls cell activities
-  - Site of ribosome assembly (nucleolus)
-  - Regulates gene expression
-- **Chromatin:** DNA + histone proteins (55% protein, 45% DNA)
-- **Nucleolus:** Site of rRNA synthesis and ribosome assembly
+**Membrane composition:**
+- **Lipid bilayer:** Phospholipids arranged with hydrophilic heads facing outward and hydrophobic tails facing inward; cholesterol molecules embedded among phospholipids (in animal cells) regulate membrane fluidity
+- **Membrane proteins:** Integral (transmembrane) proteins penetrate the lipid core; peripheral proteins attach to membrane surfaces; these proteins serve as receptors, transporters, enzymes, and structural anchors
+- **Carbohydrates:** Glycolipids and glycoproteins on the extracellular surface form the glycocalyx, involved in cell-cell recognition, immune response, and adhesion
 
-#### 3. Mitochondria
-- **"Powerhouse of the cell"**
-- **Structure:** Double membrane (outer smooth, inner folded into cristae)
-- **Features:** Own DNA, 70S ribosomes (prokaryotic type), self-replicating
-- **Function:** Aerobic respiration — **ATP production** (36-38 ATP per glucose)
-- Matrix contains: Krebs cycle enzymes, mitochondrial DNA, ribosomes
+**Functions of the plasma membrane:**
+1. Selective permeability — controls which substances enter and exit
+2. Transport — facilitates movement via passive diffusion, facilitated diffusion, active transport, endocytosis, and exocytosis
+3. Cell signaling — receptor proteins detect hormones, growth factors, and neurotransmitters
+4. Cell identity — glycocalyx serves as molecular "fingerprint" for cell type identification
+5. Intercellular connection — forms gap junctions (animals) and plasmodesmata (plants)
 
-#### 4. Endoplasmic Reticulum (ER)
-- **Rough ER**: Ribosomes attached → Protein synthesis and modification
-- **Smooth ER**: No ribosomes → Lipid synthesis, detoxification, steroid hormones
-- **Functions:**
-  - Protein folding and transport (RER)
-  - Lipid metabolism (SER)
-  - Calcium storage (muscle cells)
-  - Drug detoxification
+### Cell Membrane Transport Mechanisms
 
-#### 5. Golgi Apparatus (Golgi Body)
-- **Structure:** Stacked flat sacs (cisternae), vesicles
-- **Functions:**
-  - Processing and packaging of proteins
-  - Formation of lysosomes
-  - Secretion of materials
-  - Carbohydrate synthesis (glycoproteins, glycolipids)
-- **Direction:** RER → cis face → Golgi → trans face → Vesicles
+#### Passive Transport (No ATP required)
+**Simple diffusion:** Movement of molecules from high to low concentration down the concentration gradient; rate depends on concentration difference, membrane permeability, temperature, and molecular size. Gases (O₂, CO₂), lipids, and small nonpolar molecules diffuse readily.
 
-#### 6. Lysosomes
-- **"Suicide bags"** — contain hydrolytic enzymes
-- **Enzymes:** Proteases, lipases, nucleases, glycosidases (active at pH 4.5-5)
-- **Functions:**
-  - Intracellular digestion
-  - Autophagy (removing damaged organelles)
-  - Cell lysis (programmed cell death)
-- **Derived from:** Golgi apparatus
-- **Vacuoles vs Lysosomes:** Plant cells have large central vacuole for storage; animal cells have small lysosomes for digestion
+**Facilitated diffusion:** Movement via channel proteins (for ions and small polar molecules) or carrier proteins (for larger molecules); still downhill along concentration gradient but at faster rates than simple diffusion.
 
-#### 7. Chloroplasts
-- **"Kitchen of the cell"**
-- **Structure:** Double membrane, thylakoids (stacked = grana), stroma
-- **Features:** Own DNA, 70S ribosomes, semi-autonomous
-- **Function:** Photosynthesis (light reaction in thylakoids, dark reaction in stroma)
-- **Pigments:** Chlorophyll a, Chlorophyll b, Carotenoids
+**Osmosis:** Special case of diffusion for water across a semipermeable membrane. Water moves from lower solute concentration (higher water potential) to higher solute concentration (lower water potential):
+- **Isotonic solution:** Equal solute concentration inside and outside cell — no net water movement
+- **Hypotonic solution:** Lower solute concentration outside — water enters cell, animal cells swell and may undergo lysis; plant cells resist lysis due to rigid cell wall but may become turgid
+- **Hypertonic solution:** Higher solute concentration outside — water exits cell, animal cells undergo crenation (shrinking); plant cells undergo plasmolysis (cell membrane detaches from cell wall despite cell wall remaining rigid)
 
-#### 8. Ribosomes
-- **Composition:** rRNA + Protein (60% rRNA, 40% protein)
-- **Types:** 70S (prokaryotes) and 80S (eukaryotes)
-- **Structure:** Two subunits (large + small)
-- **Function:** Protein synthesis (translation)
-- **Location:** Free in cytoplasm or attached to RER
+#### Active Transport (ATP required)
+- Moves solutes against concentration gradient (from low to high concentration)
+- Requires carrier proteins (pumps) and ATP hydrolysis
+- Examples: Na⁺/K⁺-ATPase pump (maintains Na⁺ and K⁺ gradients across animal cell membranes), H⁺-ATPase proton pump
 
-#### 9. Cytoskeleton
-| Component | Structure | Function |
-|-----------|-----------|----------|
-| Microfilaments | Actin | Cell movement, division, shape |
-| Microtubules | Tubulin dimers | intracellular transport, cilia, flagella |
-| Intermediate filaments | Various proteins | Mechanical strength, cell integrity |
+#### Bulk Transport
+**Endocytosis:** Material enters cell within membrane vesicles
+- Phagocytosis: Engulfment of solid particles (e.g., bacteria by macrophages)
+- Pinocytosis: Uptake of dissolved materials in tiny vesicles
+- Receptor-mediated endocytosis: Specific molecules bind to cell surface receptors before internalization (e.g., cholesterol uptake)
 
-#### 10. Centrioles and Basal Bodies
-- **Structure:** 9 triplets of microtubules (9+0 arrangement)
-- **Function:** Form spindle fibers during cell division (animal cells)
-- Basal bodies: Form cilia and flagella
+**Exocytosis:** Vesicles fuse with plasma membrane to release materials outside cell — used for secretion of proteins, neurotransmitters, and cell wall components
 
-### Cell Membrane Transport
+### Membrane-Enclosed Organelles: Structure and Function
 
-#### Osmosis
-- Water moves from lower solute concentration → higher solute concentration
-- **Isotonic**: Equal concentration inside and outside
-- **Hypotonic**: Lower solute outside → water moves in → cell swells (lysis)
-- **Hypertonic**: Higher solute outside → water moves out → cell shrinks (crenation)
-- **Plant cells:** Cell wall prevents lysis; plasmolysis in hypertonic solution
+#### Nucleus
+The nucleus serves as the information processing center of the eukaryotic cell. Its double-membrane envelope (nuclear envelope) with nuclear pores regulates traffic between nucleus and cytoplasm. Within lies the nucleoplasm containing chromatin (DNA wound around histone proteins) and the nucleolus — a dense region where ribosomal RNA is synthesized and ribosomal subunits are assembled. The nucleus contains the cell's complete genetic blueprint and directs all cellular activities through transcription of DNA into RNA.
 
-#### Tonicity Examples
-- **Animal cells in distilled water**: Hemolysis (burst)
-- **Plant cells in distilled water**: No lysis (cell wall support)
-- **Animal cells in hypertonic solution**: Crenation
+#### Mitochondria
+Often called the **"powerhouse of the cell,"** mitochondria generate ATP through aerobic respiration. Their double membrane structure creates two compartments: the intermembrane space and the matrix. The inner membrane's extensive folding into cristae vastly increases surface area for ATP synthase complexes. Critically, mitochondria possess their own circular DNA and 70S ribosomes — an evolutionary trace of their prokaryotic origin (endosymbiont theory). They replicate autonomously by binary fission.
 
-### Cell Communication
+**ATP yield from glucose:** Aerobic respiration in mitochondria yields 36–38 ATP per glucose molecule, compared to just 2 ATP from anaerobic glycolysis alone.
 
-- **Gap junctions**: Connect animal cells (allow small molecules)
-- **Plasmodesmata**: Connect plant cells (through cell walls)
-- **Cell signaling**: Receptors on membrane, hormones, neurotransmitters
+#### Chloroplasts
+Present only in plant cells and algae, chloroplasts are the sites of photosynthesis — the conversion of light energy into chemical energy stored in glucose. Their double outer membrane encloses the stroma (fluid-filled interior) containing thylakoid sacs stacked into grana. Chlorophyll pigments embedded in thylakoid membranes absorb light energy for the light reactions; the Calvin cycle of the dark reactions occurs in the stroma. Chloroplasts also possess their own DNA and 70S ribosomes, supporting endosymbiont theory.
 
-### Prokaryotic Cell Structures
+#### Endoplasmic Reticulum (ER)
+The ER is a continuous membrane network extending from the nuclear envelope throughout the cytoplasm.
 
-| Structure | Function |
-|-----------|----------|
-| Capsule | Protection, adherence |
-| Cell wall | Shape, protection |
-| Plasma membrane | Transport |
-| Pili | Attachment to host |
-| Flagella | Motility |
-| Plasmids | Extra-chromosomal DNA |
-| Ribosomes (70S) | Protein synthesis |
-| Mesosome | Respiration, cell division |
+**Rough ER (RER):** Ribosomes stud its surface, giving it a rough appearance. The RER synthesizes proteins destined for secretion, membrane incorporation, or organelle targeting. Polypeptides enter the ER lumen for folding, modification, and quality control.
 
-### Cell Division
+**Smooth ER (SER):** Lacks ribosomes. Functions include lipid and steroid hormone synthesis, carbohydrate metabolism, calcium ion storage (especially in muscle cells where it is called sarcoplasmic reticulum), and detoxification of drugs and poisons (e.g., cytochrome P450 enzymes in liver cells).
 
-#### Mitosis (Somatic cells)
-- **Purpose:** Growth, repair, asexual reproduction
-- **Stages:** Prophase → Metaphase → Anaphase → Telophase
-- **Cytokinesis:** Division of cytoplasm
-- **Result:** Two identical diploid daughter cells
-- **Duration:** 1-2 hours
+#### Golgi Apparatus
+The Golgi body (Golgi complex) consists of stacked, flattened membrane sacs called cisternae. It functions as the cell's **processing, packaging, and shipping center**. Proteins arriving from the ER undergo modification (glycosylation, phosphorylation), sorting, and packaging into vesicles for transport to their destinations — plasma membrane (for secretion), lysosomes, or the cell surface. The Golgi is polar: the cis face receives incoming vesicles from the ER; the trans face dispatches outgoing vesicles toward target locations.
 
-#### Meiosis (Germ cells)
-- **Purpose:** Sexual reproduction, gamete formation
-- **Stages:** Meiosis I (reduction) + Meiosis II (division)
-- **Result:** Four non-identical haploid gametes
-- **Crossing over:** Exchange of genetic material between homologous chromosomes
+#### Lysosomes
+Lysosomes are membrane-bound vesicles containing hydrolytic enzymes active at acidic pH (approximately 4.5–5.0). They function as the cell's **"suicide bags"** — digesting worn-out organelles (autophagy), breaking down ingested pathogens, and triggering programmed cell death (apoptosis) when activated. Lysosomal enzymes include proteases, lipases, nucleases, and glycosidases. The acidic interior is maintained by H⁺-ATPase proton pumps in the lysosomal membrane. In plant cells, the large central vacuole assumes degradative functions otherwise handled by lysosomes.
 
-#### Comparison of Mitosis vs Meiosis
+#### Ribosomes
+Ribosomes are the **sites of protein synthesis (translation)**. Composed of ribosomal RNA (rRNA, approximately 60%) and ribosomal proteins (approximately 40%), they consist of two subunits — large and small — that join to form functional ribosomes on mRNA strands. Prokaryotic ribosomes are 70S (composed of 50S and 30S subunits); eukaryotic ribosomes are 80S (composed of 60S and 40S subunits). Ribosomes exist free in the cytoplasm (synthesizing proteins for use within the cell) or attached to rough ER (synthesizing proteins for secretion or membrane insertion).
 
-| Feature | Mitosis | Meiosis |
-|---------|---------|---------|
-| Division type | One | Two |
-| Chromosome number | Same (diploid) | Half (haploid) |
-| Daughter cells | Two identical | Four different |
-| Crossing over | No | Yes |
-| Used for | Growth, repair | Gamete formation |
+### The Cytoskeleton: Cellular Infrastructure
 
-### Must-Remember Facts
+The cytoskeleton is a dynamic protein network providing structural support, intracellular transport, and cellular movement.
 
-- **Fluid Mosaic Model**: Singer & Nicolson (1972)
-- **Powerhouse of cell**: Mitochondria
-- **Kitchen of cell**: Chloroplast
-- **Suicide bags**: Lysosomes
-- **Site of protein synthesis**: Ribosomes
-- **Site of lipid synthesis**: Smooth ER
-- **Modification and packaging center**: Golgi apparatus
-- **Heterotrophic cells** have mitochondria; plants have both chloroplasts and mitochondria
-- **Bacterial cell wall** contains peptidoglycan
-- **Plant cell wall** contains cellulose
-- **Animal cells** have centrioles; most plant cells do not
-- **Nucleus contains**: Nuclear envelope, nucleoplasm, nucleolus, chromatin
+| Component | Protein | Structure | Function |
+|-----------|---------|-----------|----------|
+| Microfilaments | Actin | Thin filaments (7nm) | Cell crawling, cytokinesis (contractile ring), muscle contraction, cell shape maintenance |
+| Microtubules | Tubulin | Hollow tubes (25nm) | Intracellular transport (motor proteins), cilia and flagella structure, spindle fibers during cell division |
+| Intermediate filaments | Various (keratin, vimentin, lamin) | ropy fibers (8-12nm) | Mechanical strength, cell integrity, maintenance of cell shape under stress |
 
-### Common DU Admission Questions
+### Cell Division: Mitosis versus Meiosis
 
-1. Difference between plant and animal cells
-2. Functions of cell organelles
-3. Fluid mosaic model of cell membrane
-4. Osmosis and tonicity problems
-5. Mitosis vs meiosis stages
-6. Prokaryotic vs eukaryotic cells
-7. Cell theory questions
+**Mitosis** produces two genetically identical diploid daughter cells from one parent cell, used for growth, tissue repair, and asexual reproduction. Stages: prophase → metaphase → anaphase → telophase → cytokinesis. The chromosome number remains constant; daughter cells are clones of the parent cell.
 
-### Exam Tips
+**Meiosis** produces four genetically non-identical haploid gametes from one diploid parent cell, used for sexual reproduction. It consists of two sequential divisions: Meiosis I (reduction division — homologues separate) and Meiosis II (equational division — sister chromatids separate). Key features include crossing over (exchange of DNA segments between homologous chromosomes during prophase I) and independent assortment of homologues, both creating genetic diversity among gametes.
 
-- Plant cells have a large central vacuole (up to 90% cell volume)
-- Mitochondria and chloroplasts have their own DNA and ribosomes (evidence for endosymbiont theory)
-- Animal cells have more mitochondria than plant cells (heterotrophs need more energy)
-- Rough ER gives a "rough" appearance due to ribosomes
-- Golgi apparatus is polar: cis face (receiving) vs trans face (sending)
+### Must-Remember Mnemonics and Facts
+
+- **Fluid mosaic model:** Singer and Nicolson, 1972
+- **Powerhouse of the cell:** Mitochondria
+- **Kitchen of the cell:** Chloroplast
+- **Suicide bags:** Lysosomes
+- **Site of protein synthesis:** Ribosomes
+- **Site of lipid synthesis:** Smooth ER
+- **Modification and packaging center:** Golgi apparatus
+- **Bacterial cell wall contains:** Peptidoglycan
+- **Plant cell wall contains:** Cellulose
+- **Animal cells have** centrioles; **most plant cells do not**
+- **Mitochondria and chloroplasts** have their own DNA and 70S ribosomes — key evidence supporting the endosymbiont theory
+- **Plant cells have large central vacuole** occupying up to 90% of cell volume
+
+### Examination Strategy
+
+Diagram questions require the ability to draw and label cell structures accurately, including organelle shapes, internal structures, and relative positions. For comparison questions, present information in a structured table format as the examiner can quickly verify all required points. In osmosis questions, remember that water moves toward higher solute concentration — always specify whether the external solution is hypo-, hyper-, or isotonic relative to the cell contents, and predict the outcome for both animal and plant cells explicitly.
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

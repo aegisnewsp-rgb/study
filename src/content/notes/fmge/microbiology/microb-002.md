@@ -17,8 +17,8 @@ generated: "2026-03-25T17:00:00"
 
 **Topic 2** — Key Facts for FMGE
 Core concept: Bacteriology — Gram-positive Cocci (Staphylococcus, Streptococcus) and Gram-negative Cocci (Neisseria)
-High-yield point: Staphylococcus aureus (MRSA, coagulase), Streptococcus pyogenes (RPGN), Neisseria (STI)
-⚡ Exam tip: Differentiating features, diseases, and lab diagnosis of Staph, Strep, and Neisseria are high-yield
+High-yield point: S. aureus coagulase test, S. pyogenes bacitracin sensitivity, Neisseria identification
+⚡ Exam tip: Differentiate Staph from Strep via catalase, understand post-streptococcal complications, and know Neisseria identification
 
 ---
 
@@ -26,9 +26,9 @@ High-yield point: Staphylococcus aureus (MRSA, coagulase), Streptococcus pyogene
 > Standard content for students with a few days to months.
 
 **Topic 2** — FMGE Study Guide
-Overview: Important pathogenic bacteria causing common clinical infections
-Core principles: Classification, pathogenicity, laboratory identification
-Key points: Coagulase test, bacitracin sensitivity, antigen detection
+Overview: Important pathogenic cocci causing common clinical infections
+Core principles: Classification, pathogenicity, laboratory identification, treatment
+Key points: Coagulase test, bacitracin sensitivity, antigen detection, antibiotic resistance
 Study strategy: Compare and contrast features of different organisms
 
 ---
@@ -42,251 +42,69 @@ Study strategy: Compare and contrast features of different organisms
 
 ## STAPHYLOCOCCUS
 
-### Classification
-| Species | Coagulase | Clinical Importance |
-|---------|-----------|-------------------|
-| S. aureus | **Positive** | Most pathogenic |
-| S. epidermidis | Negative | Opportunistic, catheter infections |
-| S. saprophyticus | Negative | UTI in sexually active females |
+### Classification and Key Species
 
-### Staphylococcus aureus
+The genus Staphylococcus comprises gram-positive cocci arranged in grape-like clusters. Three species hold clinical significance. Staphylococcus aureus, the most pathogenic, is coagulase-positive, DNase-positive, and produces golden-yellow pigmented colonies. Staphylococcus epidermidis and Staphylococcus saprophyticus are coagulase-negative. S. epidermidis colonizes normal skin and forms biofilms on prosthetic devices. S. saprophyticus ranks second among causes of urinary tract infection in sexually active young women, distinguished by resistance to novobiocin.
 
-**Characteristics:**
-- Gram-positive cocci in **grape-like clusters**
-- **Catalase positive** (distinguishes from Streptococcus)
-- **Coagulase positive** (pathogenic)
-- **DNase positive**
-- **Beta-hemolytic** on blood agar
-- Golden/yellow pigmented colonies
+### Staphylococcus aureus: The Prime Pathogen
 
-**Virulence Factors:**
-| Factor | Function |
-|--------|---------|
-| Protein A | Binds Fc portion of IgG, antiphagocytic |
-| Coagulase | Converts fibrinogen to fibrin (walling off) |
-| DNase | Degrades DNA |
-| Hyaluronidase | Spreading factor (tissue invasion) |
-| Lipase | Tissue invasion |
-| Enterotoxin | Food poisoning |
-| TSST-1 | Toxic Shock Syndrome toxin |
-| PVL toxin | Panton-Valentine leukocidin — necrotizing pneumonia |
+S. aureus colonizes the anterior nares and perineum in approximately 30% of healthy individuals, serving as a reservoir for infection. It causes diverse diseases ranging from superficial skin infections to life-threatening systemic illness.
 
-**Diseases:**
+**Virulence determinants** include protein A, which binds the Fc region of immunoglobulin G, preventing opsonization and phagocytosis. Coagulase converts fibrinogen to fibrin, localizing infection within a wall of fibrin. DNase degrades extracellular DNA in purulent material. Hyaluronidase (spreading factor) breaks down connective tissue ground substance. Lipase facilitates invasion of skin and soft tissue. The Panton-Valentine leukocidin (PVL) causes leukocyte destruction and is associated with necrotizing community-acquired pneumonia and skin infections.
 
-| Category | Diseases |
-|---------|---------|
-| **Skin** | Folliculitis, furuncles, carbuncles, impetigo, cellulitis, abscess |
-| **Systemic** | Bacteremia, endocarditis, osteomyelitis |
-| **Toxin-mediated** | Food poisoning, Toxic Shock Syndrome, Scalded Skin Syndrome |
-| **Respiratory** | Pneumonia (especially post-influenza) |
+**Clinical manifestations** span several categories. Skin and soft tissue infections include folliculitis, furuncles, carbuncles, impetigo, cellulitis, and wound infections. Toxigenic diseases encompass staphylococcal food poisoning from preformed enterotoxin in contaminated food (vomiting, diarrhea within 1–6 hours), toxic shock syndrome from TSST-1 toxin presenting with fever, rash, and multi-organ dysfunction, and staphylococcal scalded skin syndrome caused by exfoliative toxins A and B producing superficial epidermal splitting. Respiratory infections occur post-influenza. Systemic infections include bacteremia, infective endocarditis, osteomyelitis, and septic arthritis.
 
-**Toxic Shock Syndrome:**
-- TSST-1 toxin
-- Presents: High fever, rash, hypotension, multi-organ failure
-- Originally associated with superabsorbent tampons
-- Also: wounds, surgical infections
+### Laboratory Identification of S. aureus
 
-**Staphylococcal Scalded Skin Syndrome (SSSS):**
-- Exfoliative toxin (ETA, ETB)
-- **Split at granular layer** of epidermis (superficial)
-- Common in children
-- Nikolsky sign positive
+Gram staining reveals gram-positive cocci in clusters. On blood agar, colonies demonstrate beta-hemolysis. Mannitol salt agar selects for staphylococci through 7.5% NaCl; S. aureus ferments mannitol producing yellow colonies with yellow zones. The coagulase test using plasma forms clots — the definitive test for pathogenic S. aureus. DNase agar shows clear zones around colonies after HCl precipitation. The thermonuclease test provides rapid confirmation.
 
-**Food Poisoning:**
-- Enterotoxin (heat-stable)
-- Preformed toxin in food (reheated doesn't destroy toxin)
-- Incubation: 1-6 hours
-- Symptoms: Vomiting, diarrhea, abdominal pain
-- Self-limiting (24-48 hours)
+### MRSA: A Major Clinical Challenge
 
-**Laboratory Diagnosis:**
-- **Gram stain**: Gram-positive cocci in clusters
-- **Culture**: Golden colonies on blood agar, mannitol salt agar
-- **Coagulase test**: Confirms S. aureus (positive)
-- **DNase test**: Positive for S. aureus
+Methicillin-resistant Staphylococcus aureus possesses the mecA gene encoding altered penicillin-binding protein PBP2a, conferring resistance to all beta-lactam antibiotics. Hospital-associated MRSA occurs in healthcare settings through invasive procedures and device colonization. Community-associated MRSA presents in healthy individuals without healthcare exposure, typically causing skin infections with PVL toxin.
 
-**MRSA (Methicillin-Resistant S. aureus):**
-- Resistant to all beta-lactams (penicillins, cephalosporins)
-- mecA gene encoding altered PBP (PBP2a)
-- **Treatment**: Vancomycin, Linezolid, Daptomycin, Clindamycin
-- **Types**:
-  - Hospital-associated (HA-MRSA): Healthcare workers, invasive devices
-  - Community-associated (CA-MRSA): Skin infections, healthy individuals, PVL+
+Treatment options for MRSA include vancomycin (glycopeptide inhibiting cell wall synthesis), linezolid (oxazolidinone), daptomycin (lipopeptide), clindamycin (for susceptible strains), trimethoprim-sulfamethoxazole, and tetracyclines.
 
-### Coagulase-Negative Staphylococci (CoNS)
+### Coagulase-Negative Staphylococci
 
-**S. epidermidis:**
-- Normal skin flora
-- **Biofilm formation** on prosthetic devices (catheters, heart valves)
-- nosocomial infections
-
-**S. saprophyticus:**
-- Second most common cause of UTI in sexually active females (after E. coli)
-- Resistant to novobiocin
+S. epidermidis adheres to polymer surfaces through biofilm production, causing infections associated with indwelling catheters, prosthetic heart valves, and orthopedic hardware. S. saprophyticus causes uncomplicated cystitis in young women due to its affinity for uroepithelium.
 
 ---
 
 ## STREPTOCOCCUS
 
-### Classification
+### Classification Systems
 
-#### By Hemolysis on Blood Agar
-| Type | Hemolysis | Examples |
-|------|-----------|---------|
-| **Alpha (α)** | Partial, greenish | S. pneumoniae, Viridans group |
-| **Beta (β)** | Complete, clear | S. pyogenes, S. agalactiae |
-| **Gamma (γ)** | None | Enterococcus, Group D |
+Streptococci are gram-positive cocci in chains, classified by hemolytic pattern and Lancefield serology. Alpha-hemolytic streptococci produce partial hemolysis with greenish discoloration — includes Streptococcus pneumoniae (optochin-sensitive, bile-soluble) and viridans streptococci (optochin-resistant). Beta-hemolytic streptococci cause complete hemolysis — includes Group A Streptococcus (S. pyogenes) and Group B (S. agalactiae). Gamma-hemolytic streptococci show no hemolysis — includes enterococci.
 
-#### Lancefield Classification (Serological)
-Based on C carbohydrate antigen.
+Lancefield classification groups streptococci based on C carbohydrate antigen detected by immunological methods. Group A is S. pyogenes. Group B is S. agalactiae. Group D includes Enterococcus faecalis.
 
-| Group | Species | Important For |
-|-------|---------|--------------|
-| **Group A** | S. pyogenes | Most human disease |
-| **Group B** | S. agalactiae | Neonatal infections |
-| **Group D** | S. faecalis (Enterococcus) | UTIs, endocarditis |
-| **Group C, G** | S. dysgalactiae | Pharyngitis, zoonoses |
+### Streptococcus pyogenes (Group A)
 
----
+S. pyogenes causes the most human disease among streptococci. It is bacitracin-sensitive (key distinguishing feature from other beta-hemolytic streptococci), pyrrolidonyl arylamidase (PYR) positive, and produces streptolysins O and S. The organism expresses M protein, its principal virulence factor, which inhibits phagocytosis and determines serotype.
 
-### Streptococcus pyogenes (Group A Streptococcus)
+**Diseases** manifest as pharyngitis (streptococcal sore throat with exudate, fever, anterior cervical lymphadenopathy), skin infections (impetigo, erysipelas, cellulitis), deep infections (necrotizing fasciitis, myonecrosis), toxin-mediated syndromes (scarlet fever from pyrogenic exotoxin producing sandpaper rash and strawberry tongue), and systemic infections (bacteremia, pneumonia, osteomyelitis).
 
-**Characteristics:**
-- Gram-positive cocci in **chains**
-- **Beta-hemolytic** (clear hemolysis)
-- **Bacitracin sensitive** (key identification test)
-- **CAMP test positive** (with S. aureus)
-- **PYR test positive**
-- Bacitracin disc: 0.04 units — **zone of inhibition = S. pyogenes**
+**Post-streptococcal sequelae** occur after a latency period following infection. Acute rheumatic fever follows pharyngitis by 2–4 weeks, causing pancarditis, migratory polyarthritis, Sydenham chorea, erythema marginatum, and subcutaneous nodules. Jones criteria establish diagnosis with two major or one major plus two minor manifestations plus evidence of preceding streptococcal infection. Acute post-streptococcal glomerulonephritis follows pharyngitis by 1–3 weeks or skin infection by 3–6 weeks, presenting with hematuria, proteinuria, hypertension, and edema from immune complex deposition.
 
-**CAMP Test:**
-- S. aureus produces sphingomyelinase
-- S. pyogenes produces CAMP factor
-- Together cause enhanced hemolysis (arrow-head pattern)
-- **Positive CAMP = Group B Strep** (S. agalactiae) — NOT S. pyogenes
-
-**Virulence Factors:**
-| Factor | Function |
-|--------|---------|
-| M protein | Anti-phagocytic, major virulence |
-| Streptolysin O (SLO) | Oxygen-labile hemolysin (ASO titer) |
-| Streptolysin S (SLS) | Oxygen-stable hemolysin |
-| Hyaluronidase | Tissue spreading |
-| Streptokinase | Fibrinolysis |
-| DNase B | Degrades DNA (anti neutrophil extracellular traps) |
-| Pyrogenic exotoxin | Scarlet fever rash |
-
-**Diseases:**
-
-| Category | Disease |
-|---------|---------|
-| **Skin/Soft tissue** | Impetigo, erysipelas, cellulitis, necrotizing fasciitis |
-| **Pharyngitis** | Streptococcal pharyngitis/tonsillitis |
-| **Systemic** | Scarlet fever, rheumatic fever, glomerulonephritis |
-| **Toxin-mediated** | Scarlet fever (pyrogenic toxin) |
-
-**Post-Streptococcal Complications:**
-
-1. **Acute Rheumatic Fever (ARF):**
-   - Follows untreated pharyngitis (2-4 weeks later)
-   - Jones criteria: Major (carditis, polyarthritis, chorea, erythema marginatum, subcutaneous nodules) + Minor (fever, arthralgia, elevated ESR/CRP)
-   - Heart: Pancarditis (endocarditis → mitral regurgitation)
-   - Diagnosis: Jones criteria + evidence of preceding strep infection
-   - **Prevention**: Benzathine penicillin G for strep pharyngitis
-
-2. **Acute Post-Streptococcal Glomerulonephritis (PSGN):**
-   - Follows skin (impetigo) or pharyngeal infection (1-3 weeks later)
-   - Presents: Hematuria, proteinuria, edema, hypertension
-   - Mechanism: Immune complex deposition
-   - Most resolve spontaneously
-
-**Laboratory Diagnosis:**
-- **Gram stain**: Gram-positive cocci in chains
-- **Culture**: Beta-hemolytic colonies on blood agar
-- **Bacitracin sensitivity**: Sensitive (unlike Group B and C)
-- **PYR test**: Positive
-- **Rapid strep test**: Antigen detection (A carbohydrate)
-
-**Treatment:**
-- **Penicillin G** (or V): Drug of choice
-- **Erythromycin/Azithromycin**: For penicillin allergy
-- **No resistance** to penicillin (yet)
-
----
+**Laboratory diagnosis** employs gram stain (gram-positive cocci in chains), culture on blood agar (beta-hemolytic colonies), bacitracin disc sensitivity (sensitive — zone of inhibition indicates Group A), PYR test (positive), rapid antigen detection test (streptolysin O-dependent), and ASO titer (elevated after pharyngitis). Treatment uses penicillin G or V as first-line; macrolides serve penicillin-allergic patients. No resistance to penicillin has emerged.
 
 ### Streptococcus pneumoniae
 
-**Characteristics:**
-- Gram-positive cocci in **pairs (diplococci)**
-- **Alpha-hemolytic** (greenish, partial)
-- **Optochin sensitive** (key test — unlike Viridans)
-- **Bile soluble** (distinguishes from Viridans)
-- **Quellung reaction**: Capsule swells with specific antiserum
-- Lancet-shaped diplococci
+S. pneumoniae causes lobar pneumonia, meningitis, sinusitis, and otitis media. Morphologically it appears as lancet-shaped diplococci with a capsule visible on India ink or quellung reaction. Alpha-hemolytic colonies on blood agar show greenish discoloration. The organism is optochin-sensitive (distinguishing it from viridans streptococci) and bile-soluble (causing cell lysis).
 
-**Diseases:**
-| Site | Disease |
-|------|---------|
-| Respiratory | Pneumonia (lobar), sinusitis, otitis media |
-| CNS | Meningitis |
-| Blood | Bacteremia, sepsis |
+**Clinical features** include the classic rusty sputum in pneumonia and the rapid progression to meningitis in vulnerable populations. The polysaccharide capsule is antiphnonogenic, forming the basis for vaccines. Treatment employs cephalosporins (ceftriaxone, cefotaxime) or penicillin for susceptible strains. Resistance to penicillin via altered PBPs is increasing.
 
-**Meningitis:**
-- Most common cause of bacterial meningitis in adults
-- Gram-negative (gram-positive lancet-shaped diplococci)
-- **"Rusty" sputum** in pneumonia
-- Associated with **alcoholism, asplenia**
-
-**Laboratory Diagnosis:**
-- Gram stain: Lancet-shaped gram-positive diplococci
-- Culture: Alpha-hemolytic, **optochin sensitive**
-- **Quellung test**: Capsular swelling with antiserum
-- Latex agglutination for capsular antigen
-
-**Treatment:**
-- **Ceftriaxone** or **Cefotaxime**
-- Vancomycin added empirically (until sensitivities known)
-- **Penicillin-resistant** strains increasing (PRSP)
-
-**Vaccines:**
-- **PPSV23** (Pneumovax): 23-valent polysaccharide (adults)
-- **PCV13** (Prevnar): 13-valent conjugate (children)
-
----
+Vaccines include PCV13 (13-valent conjugate vaccine for children under 2 years) and PPSV23 (23-valent polysaccharide vaccine for adults over 65 or those with comorbidities).
 
 ### Group B Streptococcus (S. agalactiae)
 
-**Characteristics:**
-- Beta-hemolytic
-- **CAMP test positive** (arrowhead pattern)
-- **Bacitracin resistant**
-- **Hippurate positive**
+S. agalactiae colonizes the vagina and rectum in 10–30% of pregnant women, representing the leading cause of neonatal sepsis, pneumonia, and meningitis acquired during delivery. It is CAMP test-positive (producing arrowhead-shaped enhanced hemolysis with S. aureus sphingomyelinase), bacitracin-resistant (distinguishing it from S. pyogenes), and hippurate-positive.
 
-**Clinical Importance:**
-- **Leading cause of neonatal sepsis/meningitis**
-- Colonizes vaginal/rectal flora in 10-30% of women
-- Transmitted during delivery
-
-**Prevention:**
-- **Intrapartum antibiotic prophylaxis** (IAP): Penicillin G or Ampicillin
-- Given to colonized mothers during labor
-
----
+Intrapartum antibiotic prophylaxis with penicillin G or ampicillin during labor significantly reduces neonatal disease transmission.
 
 ### Viridans Streptococci
 
-**Examples:** S. mutans, S. sanguis, S. mitis
-
-**Characteristics:**
-- Alpha or non-hemolytic
-- **Optochin resistant** (distinguishes from S. pneumoniae)
-- **Bile esculin negative**
-- Normal oral flora
-
-**Clinical Importance:**
-- **Subacute bacterial endocarditis** (following dental procedures)
-- Part of dental plaque
-- Enterococcus also causes endocarditis
+The viridans group (S. mutans, S. sanguis, S. mitis) constitutes normal oral flora and causes subacute bacterial endocarditis following dental procedures. They are alpha or non-hemolytic, optochin-resistant, and bile esculin-negative. Enterococci (formerly Group D streptococci) share these features but are bile esculin-positive and can grow in 6.5% NaCl.
 
 ---
 
@@ -294,112 +112,69 @@ Based on C carbohydrate antigen.
 
 ### Neisseria gonorrhoeae
 
-**Characteristics:**
-- Gram-negative **intracellular diplococci** (within WBCs)
-- Kidney bean/dumbbell shaped
-- ** oxidase positive**
-- **Does not ferment glucose** (distinguishes from N. meningitidis)
+N. gonorrhoeae appears as gram-negative intracellular diplococci within polymorphonuclear leukocytes, characteristically kidney bean-shaped with concave sides. It is oxidase-positive, fermenting glucose but not maltose or sucrose.
 
-**Diseases:**
-| Disease | Manifestation |
-|---------|---------------|
-| Urethritis/cervicitis | Discharge, dysuria |
-| PID | Pelvic inflammatory disease |
-| Disseminated gonococcal infection | Arthritis-dermatitis syndrome |
-| Ophthalmia neonatorum | Neonatal conjunctivitis |
-| Proctitis | Rectal infection |
+**Transmission** occurs through sexual contact, producing urethritis in males (purulent discharge, dysuria) and cervicitis in females (often asymptomatic). Complications include epididymitis, prostatitis, and disseminated gonococcal infection presenting with arthritis-dermatitis syndrome (tenosynovitis, polyarthralgia, dermatitis). In females, ascending infection causes pelvic inflammatory disease with risk of ectopic pregnancy and infertility. Infants born to infected mothers develop ophthalmia neonatorum.
 
-**Complications:**
-- **Gonococcal arthritis**: Migratory polyarthritis, tenosynovitis, dermatitis
-- **Sterility**: Due to scarring (male and female)
-- **PID**: Can lead to ectopic pregnancy, infertility
+**Laboratory diagnosis** employs gram stain of urethral discharge showing intracellular gram-negative diplococci, culture on modified Thayer-Martin medium (selective for N. gonorrhoeae) requiring 5% CO₂ and humidity, and oxidase testing of suspected colonies. Nucleic acid amplification tests offer superior sensitivity and specificity.
 
-**Laboratory Diagnosis:**
-- **Gram stain**: Gram-negative intracellular diplococci (in neutrophils)
-- **Culture**: Chocolate agar (needs 5% CO₂), Thayer-Martin media (selective)
-- **Oxidase positive**
-- Does NOT ferment glucose (distinguishes from N. meningitidis)
-
-**Treatment:**
-- **Ceftriaxone** (single dose IM) + Azithromycin (for co-infection with Chlamydia)
-- **Azithromycin** or **Doxycycline** for uncomplicated infection
-- **Ciprofloxacin** resistance increasing
-
----
+Treatment follows current guidelines with ceftriaxone as first-line, typically combined with azithromycin for concurrent chlamydial coverage given frequent co-infection.
 
 ### Neisseria meningitidis
 
-**Characteristics:**
-- Gram-negative **intracellular diplococci**
-- **Oxidase positive**
-- **Ferments glucose AND maltose** (unlike N. gonorrhoeae)
-- Has polysaccharide capsule (important for virulence)
+N. meningitidis causes meningococcemia and meningococcal meningitis. Morphologically identical to N. gonorrhoeae, it ferments both glucose and maltose, a distinguishing feature. Its polysaccharide capsule is a major virulence factor.
 
-**Diseases:**
-- **Meningitis**: Most common presentation
-- **Meningococcemia**: Sepsis, DIC, Waterhouse-Friderichsen syndrome
-- **Pneumonia**: Less common
+Meningococcemia presents with fever, headache, petechial rash progressing to purpura, and rapidly developing shock. Waterhouse-Friderichsen syndrome describes acute adrenal hemorrhage causing hemorrhagic necrosis of the adrenal glands with DIC and cardiovascular collapse.
 
-**Waterhouse-Friderichsen Syndrome:**
-- Bilateral adrenal hemorrhage
-- Acute adrenal insufficiency
-- Associated with meningococcemia
-- Presents: DIC, shock, purpura, adrenal hemorrhage
-
-**Laboratory Diagnosis:**
-- **Gram stain**: Gram-negative intracellular diplococci
-- **Culture**: Chocolate agar (needs 5% CO₂)
-- **Oxidase positive**
-- Ferments **both glucose and maltose**
-
-**Prophylaxis:**
-- **Rifampicin** or **Ciprofloxacin** or **Ceftriaxone** for close contacts
-- **Vaccines**: Polysaccharide (MPSV4) or Conjugate (MenACWY)
+Laboratory diagnosis relies on gram stain of CSF (gram-negative intracellular diplococci), culture on chocolate agar with 5% CO₂, and latex agglutination for capsular antigen. Close contacts require chemoprophylaxis with rifampicin, ciprofloxacin, or ceftriaxone. Vaccines include meningococcal polysaccharide (MPSV4) and conjugate vaccines (MenACWY) for groups at risk.
 
 ---
 
-## Must-Remember Points
+## Must-Remember Points for FMGE
 
-| Organism | Key Test | Disease |
-|---------|---------|---------|
-| S. aureus | Coagulase+, DNase+ | Boils, food poisoning, TSS |
-| S. pyogenes | Bacitracin sensitive, PYR+ | Pharyngitis, RF, PSGN |
-| S. pneumoniae | Optochin sensitive, bile soluble | Pneumonia, meningitis |
-| S. agalactiae (GBS) | CAMP+, bacitracin resistant | Neonatal sepsis |
-| N. gonorrhoeae | Oxidase+, doesn't ferment glucose | Urethritis, PID |
-| N. meningitidis | Oxidase+, ferments glucose+maltose | Meningitis, meningococcemia |
+| Organism | Key Identification | Major Disease |
+|---------|-------------------|---------------|
+| S. aureus | Coagulase+, DNase+, gram-positive clusters | Boils, food poisoning, TSS |
+| S. pyogenes | Bacitracin sensitive, PYR+, gram-positive chains | Pharyngitis, RF, PSGN |
+| S. pneumoniae | Optochin sensitive, bile-soluble, alpha hemolytic | Pneumonia, meningitis |
+| S. agalactiae | CAMP+, bacitracin resistant | Neonatal sepsis |
+| N. gonorrhoeae | Oxidase+, gram-negative intracellular diplococci, glucose only | Urethritis, PID |
+| N. meningitidis | Oxidase+, ferments glucose AND maltose | Meningitis, meningococcemia |
 
-### Staph vs Strep Differentiation
+### Staph vs Strep: Key Differentiators
 
-| Test | Staphylococcus | Streptococcus |
-|------|--------------|--------------|
+| Feature | Staphylococcus | Streptococcus |
+|---------|---------------|---------------|
 | Catalase | Positive | Negative |
-| Arrangement | Clusters | Chains |
+| Arrangement | Grape-like clusters | Chains |
 | Coagulase | Positive (S. aureus) | Negative |
-| Bacitracin | Not used | S. pyogenes sensitive |
+| Bacitracin | Not used for ID | S. pyogenes sensitive |
 
-### Common FMGE Questions
+### Frequently Tested Questions
 
-**Q: Catalase positive, coagulase positive:**
+**Q: Catalase-positive, coagulase-positive gram-positive cocci in clusters:**
 A: Staphylococcus aureus
 
-**Q: Bacitracin sensitive, beta-hemolytic:**
+**Q: Bacitracin-sensitive, beta-hemolytic gram-positive cocci in chains:**
 A: Streptococcus pyogenes (Group A)
 
-**Q: Optochin sensitive, alpha-hemolytic:**
+**Q: Optochin-sensitive, alpha-hemolytic diplococci:**
 A: Streptococcus pneumoniae
 
-**Q: Which strep causes neonatal meningitis?**
+**Q: Which streptococcus causes neonatal meningitis?**
 A: Group B Streptococcus (S. agalactiae)
 
 **Q: Which staph causes food poisoning?**
 A: S. aureus (preformed enterotoxin)
 
-**Q: Gram-negative intracellular diplococci + doesn't ferment glucose:**
+**Q: Gram-negative intracellular diplococci fermenting glucose but not maltose:**
 A: Neisseria gonorrhoeae
 
-**Q: Gram-negative intracellular diplococci + ferments glucose and maltose:**
+**Q: Gram-negative diplococci fermenting both glucose and maltose:**
 A: Neisseria meningitidis
+
+**Q: Waterhouse-Friderichsen syndrome is associated with:**
+A: N. meningitidis (meningococcemia with adrenal hemorrhage)
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

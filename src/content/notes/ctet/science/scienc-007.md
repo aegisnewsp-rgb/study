@@ -4,222 +4,231 @@ examName: CTET
 subject: botany
 subjectName: Science
 topic: scienc-007
-topicName: Topic 7
+topicName: Light, Sound, and Heat
 weight: 3
 country: ctet
 generated: "2026-03-25T17:00:00"
 ---
 
-# Topic 7: Light, Sound, and Heat
+# Light, Sound, and Heat
 
-## Reflection and Refraction
+## Light
 
-### Laws of Reflection
+### Nature of Light
 
-When light bounces off a surface (reflection):
+Light is a form of energy that travels in straight lines (rectilinear propagation). It is a type of **electromagnetic radiation** that can be detected by the human eye (visible spectrum).
 
-1. **The angle of incidence (i) = The angle of reflection (r)**
-2. The **incident ray**, **reflected ray**, and **normal** all lie in the **same plane**
+**Speed of light**: 3 × 10⁸ m/s in vacuum (approximately 300,000 km/s) — the fastest speed in the universe.
 
-```
-Incident ray ──→ Normal ───→ Reflected ray
-    ↖️ i          │           ↗️ r
-                 Surface
-```
+**Particle vs Wave**: Light exhibits both wave-like and particle-like properties (**wave-particle duality**). For most CTET purposes, wave properties are sufficient to explain optical phenomena.
 
-**Types of Reflection:**
-- **Regular reflection:** From smooth, polished surfaces (mirror) — parallel rays remain parallel
-- **Diffuse reflection:** From rough surfaces — rays scatter in different directions (we see objects because of diffuse reflection)
+### Reflection of Light
+
+When light hits a surface, it bounces back — this is **reflection**.
+
+**Laws of Reflection**:
+1. The incident ray, reflected ray, and normal all lie in the same plane
+2. Angle of incidence (∠i) = Angle of reflection (∠r)
+
+**Types of reflection**:
+- **Regular (specular) reflection**: From smooth, polished surfaces (mirror) — parallel rays remain parallel
+- **Diffuse (irregular) reflection**: From rough surfaces — rays scatter in different directions (enables us to see non-luminous objects)
 
 ### Mirrors
 
-| Mirror Type | Image Characteristics | Uses |
-|---|---|---|
-| **Plane mirror** | Virtual, upright, same size as object, laterally inverted | Daily use, looking glasses |
-| **Concave mirror** | Real (can be virtual if object is between F and P), magnified, inverted/erect | Reflectors (telescope, torch), dental mirrors |
-| **Convex mirror** | Virtual, upright, diminished (smaller), always behind mirror | Rear-view mirrors (wider field of view), shop security |
+**Plane Mirror**:
+- Virtual (erect) image
+- Same size as object
+- Laterally inverted (left and right appear reversed)
+- Distance of image from mirror = distance of object from mirror
 
-**Mirror formula:**
-```
-1/f = 1/v + 1/u
-```
-(f = focal length, v = image distance, u = object distance; sign convention applies)
+**Spherical Mirrors**:
+
+| Type | Shape | Image | Uses |
+|---|---|---|---|
+| **Concave mirror** | Inner curved surface | Real (inverted) when object beyond focus; Virtual, enlarged when object within focus | Reflectors (telescopes, torches, headlights), dentist's mirror |
+| **Convex mirror** | Outer curved surface | Always virtual, diminished (smaller) | Rear-view mirrors in vehicles, shop security mirrors |
+
+**Mirror formula** (for spherical mirrors):
+1/v + 1/u = 1/f
+(where u = object distance, v = image distance, f = focal length)
+
+**Sign conventions** (New Cartesian convention):
+- Distances measured from the mirror's pole
+- Objects placed in front of mirror → distances are negative
+- Focal length: Concave mirror = negative, Convex mirror = positive
 
 ### Refraction of Light
 
-**Refraction** is the **bending of light** as it passes from one medium to another (due to change in speed).
+When light passes from one medium to another (e.g., air to water), it **bends** — this is refraction.
 
-**Laws of Refraction:**
-1. The incident ray, refracted ray, and normal all lie in the **same plane**
-2. **Snell's Law:** sin i / sin r = n₂/n₁ (ratio of sines = refractive index)
+**Laws of Refraction (Snell's Law)**:
+n₁ sin(i) = n₂ sin(r)
+Where n₁, n₂ = refractive indices of the two media; i = angle of incidence; r = angle of refraction
+
+**Refractive Index** (n): The ratio of speed of light in vacuum to speed of light in the medium. For water, n ≈ 1.33; for glass, n ≈ 1.5.
+
+**Laws**:
+1. Incident ray, refracted ray, and normal all lie in the same plane
+2. Ratio of sin i to sin r is constant for a given pair of media
 
 ### Lenses
 
-| Lens Type | Shape | Image Characteristics | Uses |
-|---|---|---|---|
-| **Convex (converging)** | Thicker at centre, thinner at edges | Real, inverted (object beyond F); Virtual, upright, magnified (object within F) | Spectacles (hypermetropia), microscopes, telescopes |
-| **Concave (diverging)** | Thinner at centre, thicker at edges | Always virtual, upright, diminished | Spectacles (myopia), peepholes |
+**Convex (Converging) Lens**:
+- Thicker in the middle than at edges
+- Converges parallel rays to a point (focus)
+- Used for correcting **hypermetropia** (long-sightedness) and in magnifying glasses
+- Image: Real and inverted when object beyond focal length; Virtual, enlarged when object within focus
 
-**Lens formula:**
-```
-1/f = 1/v - 1/u
-```
+**Concave (Diverging) Lens**:
+- Thinner in the middle than at edges
+- Diverges parallel rays (rays appear to diverge from focus)
+- Used for correcting **myopia** (short-sightedness)
+- Image: Always virtual, diminished, upright
 
-**Power of a lens:**
-```
-P = 1/f (in metres)
-```
-- Unit: **Dioptre (D)**
-- Convex lens: **positive power**; Concave lens: **negative power**
-- CTET: Higher power = more converging/diverging ability
+**Lens formula**: 1/v − 1/u = 1/f (similar to mirror formula but with different sign conventions)
 
-## Human Eye — Structure and Defects
+### The Human Eye
 
-### Structure of the Human Eye
+The human eye functions like a camera:
 
-| Part | Function |
-|---|---|
-| **Cornea** | Refracts light (provides ~65% of eye's focusing power) |
-| **Iris** | Coloured, muscular diaphragm; controls size of pupil |
-| **Pupil** | Opening in iris; regulates amount of light entering |
-| **Lens** | Fine focusing (accommodation); biconvex, transparent |
-| **Retina** | Light-sensitive layer; contains rods (dim light) and cones (colour/bright light) |
-| **Optic nerve** | Carries impulses from retina to brain |
-| **Ciliary muscles** | Change shape of lens for accommodation (focusing) |
-| **Aqueous humour** | Fluid between cornea and lens |
-| **Vitreous humour** | Gel-like substance behind lens |
+| Eye part | Function | Camera analogy |
+|---|---|---|
+| **Cornea** | Transparent front layer, bends light | Lens (initial bending) |
+| **Pupil** | Adjustable opening that controls light entry | Aperture |
+| **Iris** | Colored part, adjusts pupil size (bright light → pupil contracts; dark → pupil dilates) | — |
+| **Crystalline lens** | Flexible, changes shape (accommodation) for focusing | Focus adjustment |
+| **Retina** | Light-sensitive layer with rods (dim light) and cones (color, bright light) | Film/sensor |
+| **Optic nerve** | Carries signals from retina to brain | — |
 
-### Common Eye Defects
+**Accommodation**: The lens changes shape to focus on near and far objects — near objects require lens to become more convex (thicker).
 
-**1. Myopia (Near-sightedness)**
-- Cannot see distant objects clearly
-- **Cause:** Eyeball too long OR lens too convex (curved)
-- **Correction:** **Concave (diverging) lens** (spectacles or contact lens)
-- Far point is nearer than infinity
+### Eye Defects
 
-**2. Hypermetropia (Far-sightedness)**
-- Cannot see nearby objects clearly
-- **Cause:** Eyeball too short OR lens too flat
-- **Correction:** **Convex (converging) lens**
-- Near point is farther than normal (25 cm)
+| Defect | Cause | Far point | Near point | Correction |
+|---|---|---|---|---|
+| **Myopia** (Near-sightedness) | Eyeball too long OR lens too convex | Closer than 6m | Less than 25cm | Concave lens (diverging) |
+| **Hypermetropia** (Long-sightedness) | Eyeball too short OR lens too flat | Normal (>6m) | Farther than 25cm | Convex lens (converging) |
+| **Presbyopia** (Age-related) | Lens loses flexibility with age (after ~40 years) | Far point normal | Farther than 25cm | Convex lens for near; bifocal lens |
+| **Cataract** | Lens becomes cloudy/opaque | Blurry vision in all ranges | Blurry vision in all ranges | Surgery to replace lens with artificial IOL (intraocular lens) |
 
-**3. Presbyopia**
-- Age-related loss of **accommodation** (ciliary muscles weaken; lens loses elasticity)
-- Difficulty focusing on near objects
-- **Correction:** Bifocal lenses (upper: concave for distance; lower: convex for reading) or separate reading glasses
+**Astigmatism**: Irregular curvature of cornea — causes blurred vision at all distances — corrected by cylindrical lenses.
 
-**4. Cataract**
-- Clouding of the **natural lens** (due to age, UV exposure, diabetes)
-- Vision becomes blurred/misty
-- **Treatment:** Surgical replacement of cloudy lens with artificial intra-ocular lens (IOL)
+### Optical Instruments
 
-**5. Astigmatism**
-- Uneven curvature of cornea → distorted/blurred vision at all distances
-- **Correction:** Cylindrical lenses
-
-**CTET Memory Aid:** "Myopia = Minus lens (concave); Hypermetropia = Plus lens (convex)"
+- **Magnifying glass** (simple microscope): Convex lens used to magnify near objects
+- **Compound microscope**: Two convex lenses (objective and eyepiece) — used in biology labs
+- **Telescope**: Used to view distant objects (refracting telescope uses two convex lenses)
+- **Periscope**: Used in submarines to see above water level — uses two mirrors
 
 ## Sound
 
 ### Nature of Sound
-- Sound is a **longitudinal wave** — particles of the medium vibrate **parallel** to the direction of wave propagation
-- Requires a **medium** to travel (cannot travel through vacuum)
-- Speed: **Solid > Liquid > Gas** (fastest in solids due to closely packed particles)
-- At 20°C in air: **~343 m/s**
 
-### Key Terms
+Sound is a **longitudinal wave** — particles of the medium vibrate **parallel** to the direction of wave propagation. It requires a medium to travel (cannot travel through vacuum — unlike light).
 
-| Term | Definition |
-|---|---|
-| **Frequency (f)** | Number of vibrations per second; unit: **Hertz (Hz)** |
-| **Amplitude (A)** | Maximum displacement from mean position; determines **loudness** |
-| **Wavelength (λ)** | Distance between two consecutive crests/troughs |
-| **Time period (T)** | Time for one complete vibration; T = 1/f |
-| **Pitch** | How "high" or "low" a sound seems; determined by **frequency** |
-| **Loudness** | How "loud" or "soft" a sound seems; determined by **amplitude** |
+**Speed of sound** (at 22°C in air): ~344 m/s
+- In solids (steel): ~5,960 m/s (much faster)
+- In liquids (water): ~1,480 m/s
+- In gases: Speed ∝ temperature; inversely ∝ molecular weight
 
-### Sound Range
-- **Audible range** for humans: **20 Hz to 20,000 Hz**
-- **Infrasound:** < 20 Hz (heard by elephants, whales)
-- **Ultrasound:** > 20,000 Hz (used in sonar, medical imaging — echocardiography, foetal imaging)
+**Frequency (f)**: Number of vibrations per second. Unit: **Hertz (Hz)**.
+- **Audible range** for humans: 20 Hz to 20,000 Hz (20 kHz)
+- **Infrasound**: < 20 Hz (elephants, whales use this for communication)
+- **Ultrasound**: > 20 kHz (bats, dolphins, medical imaging — echocardiography, pregnancy scanning)
+
+### Characteristics of Sound
+
+| Property | What it affects | Higher value = |
+|---|---|---|
+| **Loudness** | How loud sound is | Amplitude (decibel/dB) |
+| **Pitch** | How high or low | Frequency (Hz) — higher Hz = higher pitch |
+| **Quality/Timbre** | Recognizability of a voice/instrument | Waveform (overtones) |
+
+**Decibel (dB)**: Logarithmic unit of sound intensity. 0 dB = threshold of hearing; 120 dB = threshold of pain; Normal conversation ~60 dB; Jet engine ~140 dB. Prolonged exposure >85 dB causes permanent hearing damage.
 
 ### Echo
-- A **reflected sound wave** heard separately from the original sound
-- Minimum distance to hear an echo: **17.2 m** (in air at 20°C)
-- Calculated using: `Distance = (Speed of sound × Time) / 2`
-- Applications: **SONAR** (Sound Navigation and Ranging) — used to measure depth of sea, detect submarines, detect fish shoals
 
-### Ultrasound Applications
-- **Medical imaging:** Foetal scanning, echocardiography, tumour detection
-- **Industrial:** Cleaning delicate instruments, detecting cracks in metals
-- **Animal husbandry:** Detection of pregnancy in cattle, buffalo
+An echo is a reflected sound wave heard after a minimum delay (~0.1 seconds) from the original sound. For echo to be heard distinctly, the reflecting surface must be at least **17.2 m** away in air (calculation based on speed of sound ~344 m/s and round trip).
 
-### Reflection of Sound
-- Sound reflects off hard surfaces (like light)
-- Reflected sound = **echo** if heard after the original sound has stopped
-- **Reverberation:** Multiple reflections causing sound to persist (e.g., empty hall with hard walls)
-- Uses: Stethoscope (minimises reverberation), concert hall design (controlled reverberation)
+**Applications of echo**:
+- **SONAR** (Sound Navigation and Ranging): Used by ships and submarines to detect underwater objects, measure depth
+- **Ultrasound imaging**: Used in pregnancy scanning (monitoring fetus), echocardiography (heart imaging), kidney stone detection
 
-## Heat Transfer
+### Musical Sounds vs Noise
 
-### Three Modes of Heat Transfer
+**Musical sound**: Regular, periodic waveforms — pleasing to hear (violin, tuning fork)
+**Noise**: Irregular, non-periodic waveforms — unpleasant (car horn, construction noise)
 
-| Mode | Medium | Mechanism | Example |
-|---|---|---|---|
-| **Conduction** | Solids (especially metals) | Heat transferred through molecular vibration, without net movement of matter | Metal spoon in hot tea gets warm |
-| **Convection** | Liquids and gases | Heat transferred by actual movement of heated particles (currents) | Hot water rising, sea breeze, land breeze |
-| **Radiation** | No medium needed (can travel through vacuum) | Heat transferred as electromagnetic waves (infrared) | Heat from the Sun reaching Earth; glowing fire |
+**Note**: Both can be measured in decibels — but noise at lower intensity can still cause stress.
 
-### Good and Bad Conductors
+## Heat
 
-**Good conductors (metals):** Copper, aluminium, silver, iron — used for cooking utensils, heat sinks
-**Bad conductors (insulators):** Wood, plastic, rubber, air, glass wool, asbestos — used for insulation, handles
+### Heat vs Temperature
 
-> **CTET Point:** Air is a **very poor conductor** — this is why woollen clothes keep us warm (not because they generate heat, but because they trap air which prevents heat loss from the body)
+**Heat**: Total kinetic energy of all molecules in a substance (depends on mass, type of substance, temperature). Unit: Joule (J) or Calorie (1 Cal = 4.184 J).
 
-### Sea Breeze and Land Breeze
-- **Sea breeze (day):** Land heats faster than sea → warm air over land rises → cool air from sea moves towards land → **sea breeze**
-- **Land breeze (night):** Land cools faster than sea → warm air over sea rises → cool air from land moves towards sea → **land breeze**
+**Temperature**: Average kinetic energy of molecules (doesn't depend on mass). Unit: Celsius (°C), Kelvin (K), Fahrenheit (°F).
 
-## Thermometer Scales
+**Conversion**:
+- °C to K: Add 273 (0°C = 273 K)
+- °C to °F: (°C × 9/5) + 32
+- °F to °C: (°F − 32) × 5/9
 
-### Three Common Scales
+> **Kelvin (K)** is the SI unit of temperature — 0 K (absolute zero) is the lowest possible temperature (−273°C) where all molecular motion stops.
 
-| Scale | Freezing Point of Water | Boiling Point of Water | Symbol |
-|---|---|---|---|
-| **Celsius (°C)** | 0°C | 100°C | °C |
-| **Fahrenheit (°F)** | 32°F | 212°F | °F |
-| **Kelvin (K)** | 273.15 K | 373.15 K | K |
+### Transfer of Heat
 
-### Conversions
-```
-°C to °F:  F = (9/5) × C + 32
-°F to °C:  C = (5/9) × (F - 32)
-°C to K:   K = C + 273.15
-K to °C:   C = K - 273.15
-```
+| Mode | How it Works | Example |
+|---|---|---|
+| **Conduction** | Heat transfers through a substance without movement of the substance (touch) | Metal spoon in hot water (metals are good conductors), wooden spoon (poor conductor) |
+| **Convection** | Heat transfers through movement of the heated substance itself (currents) | Hot water rises, cold water sinks (water heating); sea breezes |
+| **Radiation** | Heat transfers as electromagnetic waves (infrared) — no medium needed | Sun's heat reaching Earth; microwave oven; heating coil of a room heater |
 
-### Clinical Thermometer
-- Range: **35°C to 42°C** (covers body temperature range)
-- Has a **constriction** (kink) in the capillary — mercury does not fall back when thermometer is removed
-- Must be **shaken down** before use (to send mercury back below constriction)
+**Conductors**: Metals (copper, iron, aluminum) — good thermal conductors.
+**Insulators**: Wood, plastic, rubber, air — poor thermal conductors.
 
-### Laboratory Thermometer
-- Range: **−10°C to 110°C** (typically)
-- No constriction — mercury falls as temperature drops
-- Used for experiments, not body temperature
+**Convection in nature**: 
+- **Land and sea breezes**: Day — land heats faster → hot air rises → sea breeze. Night — land cools faster → reverse.
+- **Mountain and valley winds**: Day — valley air heats, rises → upslope winds. Night — mountain air cools, descends → downslope winds.
+
+### Thermometers
+
+| Type | Based on | Range and Use |
+|---|---|---|
+| **Mercury thermometer** | Expansion of mercury | Clinical (35–42°C), lab use. Mercury is toxic — replaced gradually |
+| **Alcohol thermometer** | Expansion of alcohol | Low temperature measurements (-115°C to 78°C) |
+| **Digital thermometer** | Electronic sensor (thermistor) | Fast, safe, no mercury |
+| **Infrared thermometer** | Infrared radiation from body | No-contact — used during COVID for forehead temperature |
+| **Maximum-minimum thermometer** | Two markers locked at max/min | Weather stations (Seismic instrument) |
+
+**Clinical thermometer**: Range 35–42°C (94–108°F), only has a constriction to prevent mercury from going back down — so it records the highest temperature.
+
+### Latent Heat
+
+When a substance changes state (melting or boiling), heat is added but temperature does not change — the heat is used to change the state. This is called **latent heat** (hidden heat).
+
+**Latent heat of fusion** (melting): Heat needed to change 1 kg of solid to liquid at its melting point (without temperature change).
+- Ice melting at 0°C: 334 kJ/kg (latent heat of fusion of ice)
+
+**Latent heat of vaporization** (boiling): Heat needed to change 1 kg of liquid to gas at its boiling point (without temperature change).
+- Water boiling at 100°C: 2260 kJ/kg (latent heat of vaporization of water)
+
+This is why sweating cools you down — sweat absorbs heat from the body as it evaporates.
+
+## CTET Exam Focus
+
+- Laws of reflection: ∠i = ∠r
+- Concave vs convex mirrors: Image type, size, use
+- Refraction: Snell's law, refractive index
+- Convex vs concave lenses: Corrections for hypermetropia and myopia
+- Human eye: Cornea, pupil, iris, lens, retina, accommodation
+- Eye defects: Myopia (concave lens), hypermetropia (convex lens), cataract (cloudy lens)
+- Sound: Longitudinal wave, speed in different media, audible range (20 Hz – 20 kHz)
+- Ultrasound: >20 kHz, used in sonar and medical imaging
+- Heat transfer: Conduction (metals), convection (fluids), radiation (no medium needed)
+- Temperature scales: °C, K, °F; conversion formulas
+- Latent heat: Fusion (ice melting) and vaporization (water boiling)
 
 ---
-
-### ⚡ CTET Exam Tips
-
-- **Sound cannot travel through vacuum** — this is the key difference between sound and light (light can travel through vacuum)
-- **Ultrasound frequency > 20,000 Hz** — used in medical scanning of pregnant women
-- **Concave mirror** produces a **magnified virtual image** when object is placed between focus and pole
-- **Convex lens** is a **converging lens**; **concave lens** is a **diverging lens**
-- **Myopia** correction = **concave** lens; **Hypermetropia** correction = **convex** lens
-- **Convection** does NOT occur in solids — particles cannot move freely in solids
-- **Radiation** is the **only mode** of heat transfer that works in vacuum (Sun's heat reaches Earth this way)
-- A **clinical thermometer** must be **shaken** before use — the constriction prevents mercury from falling back
-- **Pitch** is determined by frequency; **Loudness** is determined by amplitude — these are commonly confused in CTET questions
-- The **human eye** can focus on objects at different distances due to **accommodation** (ciliary muscles change lens shape)
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

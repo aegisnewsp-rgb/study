@@ -4,294 +4,189 @@ examName: CTET
 subject: gs1
 subjectName: Social
 topic: social-006
-topicName: Modern Indian History
+topicName: Modern Indian History and Freedom Struggle
 weight: 3
 country: ctet
 generated: "2026-03-25T17:00:00"
 ---
 
-# Modern Indian History
+# Modern Indian History and Freedom Struggle
 
-## Introduction
+## British East India Company Rule
 
-Modern Indian history covers approximately 1757 to 1947 — from the beginning of British colonial rule to Indian independence. This period transformed Indian society, economy, and politics profoundly. For CTET examination, questions test knowledge of British colonial policies, the rise of Indian nationalism, freedom movements, prominent leaders, and the partition of India. Understanding this history is essential for social science teachers, as it connects directly to contemporary Indian society, secularism, constitutional values, and democratic citizenship.
+### Arrival and Early Expansion
 
-## The British East India Company (1757–1858)
+The **British East India Company** was granted a charter by Queen Elizabeth I in 1600 to trade with the East Indies. It set up its first factory (trading post) at **Surat (1612)** after Captain William Hawkins obtained permission from Emperor Jahangir.
 
-### Plassey to Policy
+Key early trading posts: Surat, Madras (Chennai, 1639), Bombay (1661 — acquired from Portugal as dowry when Charles II married Catherine of Braganza), Calcutta (1690, Job Charnock).
 
-**Battle of Plassey (1757):** Robert Clive (British) defeated Siraj-ud-Daulah (Nawab of Bengal) with the help of Mir Jafar (whom Clive installed as Nawab). This battle established British political control in Bengal, though not yet sovereignty.
+### Bengal: The Starting Point
 
-> **CTET Memory**: "Plassey = bribe + betrayal + Bengal = British rule begins"
+- **Battle of Plassey (1757)**: Robert Clive bribed Mir Jafar (commander of Siraj-ud-Daulah) to defeat the Nawab of Bengal — this gave the Company political control without formal war
+- **Battle of Buxar (1764)**: Defeated combined forces of Mir Qasim, Shuja-ud-Daulah (Awadh), and Mughal Emperor Shah Alam II — British established right to collect revenue in Bengal
+- **Treaty of Allahabad (1765)**: Robert Clive obtained Diwani rights (right to collect land revenue) from Mughal Emperor Shah Alam II — Bengal's revenue went to the Company
 
-**Battle of Buxar (1764):** British defeated the combined forces of the Nawab of Awadh, Nawab of Bengal, and Mughal Emperor Shah Alam II. The **Treaty of Allahabad (1765)** gave the East India Company **Diwani rights** (right to collect land revenue) in Bengal, Bihar, and Orissa. This made the Company the supreme political and economic power in India.
+### Administrative Structure
 
-### Subsidiary Alliance (1804) — Lord Wellesley
+**Robert Clive** established the **Dual Government system** (1765–1772):
+- British collected revenue but used Mughal administration to govern — created a corrupt system
 
-The British forced Indian rulers to accept British protection. The ruler:
-- Maintained internal sovereignty but accepted British forces (subsidiary forces)
-- Paid subsidies for maintaining these forces
-- Could not employ foreigners without British approval
-- Could not negotiate with other Indian rulers
+**Warren Hastings (1772–1785)** tried to improve administration and reduce corruption. He was later impeached (1788–1795) for corruption — trial lasted 7 years.
 
-**Effect**: Indian rulers became puppets; British controlled defense and foreign policy. Notable rulers who accepted: Nawab of Awadh (Saadat Khan), Hyderabad (Nizam).
+**Lord Cornwallis (1786–1793)** introduced:
+- **Permanent Settlement (1793)**: Land revenue fixed permanently — created a class of Zamindars (landlords) who became proprietary owners; this system benefited landlords but increased pressure on peasants
+- Revenue demand was fixed regardless of actual agricultural output
 
-### Doctrine of Lapse (1848–1856) — Lord Dalhousie
+### New Revenue Systems
 
-The British refused to recognize adopted heirs as legitimate successors, absorbing princely states where the ruler died without a biological male heir.
-
-- **Affected states**: Satara (1843), Jhansi (1856), Nagpur (1853), Udaipur (1852)
-- **Impact**: Created resentment among princes; was a major cause of 1857 rebellion
-
-### Permanent Settlement (1793) — Lord Cornwallis
-
-The **Zamindari system** was established in Bengal and Bihar:
-- **Zamindars** (landlords) were recognized as hereditary owners of land
-- Fixed land revenue (10/11 of rental value) to be paid to the British regardless of harvest
-- Zamindars who failed to pay lost their land
-- Created a class of absentee landlords; cultivators (ryots) had no security
-
-### Ryotwari System (Madras Presidency) — Thomas Munro
-
-- **Ryots** (cultivators) were recognized as owners of land they cultivated
-- Government collected revenue directly from ryots
-- No intermediaries (zamindars)
-- Failure to pay = land could be sold
-
-### Mahalwari System (1833) — Holt Mackenzie
-
-- Land belonged to the village community (mahal)
-- Village community collectively responsible for revenue
-- Revenue shared among members
+| System | Region | Key Features |
+|---|---|---|
+| **Permanent Settlement (1793)** | Bengal, Bihar, Orissa | Revenue fixed permanently; Zamindars became owners |
+| **Ryotwari (1820)** | Madras Presidency | Direct settlement with actual cultivators (Ryots); higher revenue burden |
+| **Mahalwari (1833)** | Punjab, Western UP | village communities collectively responsible for revenue |
 
 ## The Revolt of 1857
 
 ### Causes
 
-1. **Political**: Doctrine of Lapse, annexation of princely states, end of Mughal pension (Bahadur Shah Zafar)
-2. **Military**: New Enfield rifles required biting greased cartridges (pig fat for Hindu, cow fat for Muslim — deeply offensive)
-3. **Economic**: Heavy taxation, zamindari disruption, deindustrialization of Indian textiles
-4. **Social**: Upper caste resistance to widow remarriage and sati abolition (perceived as Christianization)
-5. **Religious**: Christian missionary activity perceived as threatening
-6. **Immediate**: Mangal Pandey's rebellion in Barrackpore (February 1857)
+1. **Military grievances**: New Enfield rifles required biting off the ends of greased cartridges (made of cow and pig fat — insulting to both Hindus and Muslims)
+2. **Economic exploitation**: Heavy land revenue, deindustrialization of Indian textiles
+3. **Cultural humiliation**: Moves like the 1856 order allowing widows to remarry (which some interpreted as interference with religion)
+4. **Doctrine of Lapse**: A doctrine (unproven legally) introduced by Dalhousie — if a princely state ruler died without a natural heir, the state would be annexed to British India. Satara, Nagpur, Jhansi, and others were annexed under this.
 
-### Course of the Rebellion
+### Outbreak
 
-- **May 10, 1857**: Sepoys at Meerut broke out in open rebellion after being punished for refusing cartridges
-- **Delhi**: Proclaimed Bahadur Shah Zafar as Emperor of India; recaptured Delhi for a brief period
-- **Kanpur**: Led by **Nana Sahib** (who claimed to be the adopted son of Peshwa Baji Rao II); siege of Kanpur
-- **Lucknow**: Rani **Hazrat Mahal** led the rebellion in Awadh; siege of Lucknow
-- **Jhansi**: Rani **Lakshmibai** — famed siege of Jhansi Fort
-- **Bihar**: Kunwar Singh (leader)
+**Mangal Pandey** (34th Native Infantry at Barrackpore, March 1857) fired at British officers to protest the cartridge issue — sparked the rebellion.
+
+**May 10, 1857**: Meerut soldiers (native cavalry) refused to use the new cartridges and killed British officers — rebellion spread rapidly.
+
+### Key Events
+
+- **Delhi**: Proclaimed as the center of rebellion; last Mughal emperor **Bahadur Shah Zafar** was proclaimed emperor of India (a symbolic gesture)
+- **Kanpur**: Rani Lakshmibai (queen of Jhansi, whose kingdom was annexed) fought alongside Tantia Tope and led a fierce resistance
+- **Lucknow**: Siege of Lucknow — British Residency under siege; the final relief by Sir Colin Campbell
+- **Jhansi**: Lakshmibai's defense (her famous quote: "I shall not surrender my inheritance") — fought on horseback, dressed as a soldier
+- **Calcutta**: British recaptured Delhi after heavy fighting; Bahadur Shah Zafar was captured, tried, and exiled to Rangoon (Yangon) — end of the Mughal dynasty
 
 ### Suppression and Aftermath
 
-- The British suppressed the rebellion with extreme brutality — public executions, blowing from cannons
-- Bahadur Shah Zafar exiled to Rangoon (Yangon)
-- End of Mughal Empire (formally abolished 1858)
-- **Government of India Act 1858**: Power transferred from East India Company to the British Crown; **Queen Victoria's Proclamation (November 1, 1858)** promised religious neutrality but failed to address Indian aspirations
+The British brutally suppressed the rebellion — entire villages were burned, suspected rebels executed. **Lord Canning** took a slightly more conciliatory approach.
 
-### Significance
-
-- Ended Company rule; began Crown rule
-- British recognized they needed to win Indian loyalty
-- Promoted more Indian participation in administration (India Council, 1861)
-- Strengthened British racial segregation — the "racial hierarchy" hardened
+**Queen's Proclamation (1858)**: After the revolt, the British Crown directly took over administration from the East India Company:
+- Governor-General became **Viceroy** (first: Lord Canning)
+- British Raj formally established
+- Promised not to interfere with Indian religion but also would not respect "native" rulers' independence
+- Increased military expenditure — Indian soldiers were disarmed and replaced by Gurkhas and Punjabi Muslims
 
 ---
 
-## Early Nationalism (1885–1905)
+## Early Nationalist Movement (1885–1905)
 
 ### Indian National Congress (INC)
 
-- Founded by **A.O. Hume** (British civil servant) and **Womesh Chandra Bonnerjee** (first President, 1885)
-- First session in Bombay (December 28, 1885) — 72 delegates
-- Early goals: Nationalist unity, administrative reforms, civil liberties
-- Early leaders: Womesh Chandra Bonnerjee, Dadabhai Naoroji, Surendranath Banerjee
+Founded by **A.O. Hume** (retired British civil servant) and **Womesh Chandra Bonnerjee** (first president, 1885 Calcutta) at a meeting of 72 delegates.
 
-### Early Phase — Moderates (1885–1905)
+**Initial demands**:
+- Indianization of administration
+- Reduction of taxes
+- Freedom of speech and press
+- Separation of executive and judiciary at lower levels
 
-**Goal**: Reform within the system — get more Indians into administration, reduce taxes, reduce military spending, expand legislative councils.
+**Moderates** (1885–1905): Gopal Krishna Gokhale, Dadabhai Naoroji, Womesh Chandra Bonnerjee, Ranade. They believed in petitioning, requesting — constitutional means. **Dadabhai Naoroji** presented the "Drain Theory" — showing India's wealth was being drained to Britain.
 
-**Prominent Moderate Leaders:**
-- **Dadabhai Naoroji**: "Grand Old Man of India"; first Asian MP in British Parliament; wrote "Poverty and Un-British Rule in India" (estimated £30 million drain from India annually)
-- **Surendranath Banerjee**: Founded Indian Association (1876); promoted anti-colonial sentiment
-- **Gopal Krishna Gokhale**: "Safety Valve Theory" — believed Congress prevented revolution; mentor to Gandhi; served on Imperial Legislative Council
-
-**Methods**: Petitions, resolutions, press campaigns, debates in legislative councils
-
-### The Moderates' Achievements
-- Exposed British economic exploitation
-- Built national consciousness and political awareness
-- Created All-India forum for nationalist opinion
-- Led to the **Indian Councils Act 1892** ( расширение of legislative councils — limited)
-
----
-
-## The Swadeshi Movement and Revolutionary Nationalism (1905–1918)
+**Extremists** (1905–1920): Bal Gangadhar Tilak, Lala Lajpat Rai, Bipin Chandra Pal — believed in more aggressive methods. Their slogan: "Swaraj is my birthright."
 
 ### Partition of Bengal (1905)
 
-- Lord Curzon announced partition of Bengal (1903, implemented 1905)
-- East Bengal + Assam = new province (for administrative convenience — but widely seen as "divide and rule")
-- Real reason: Break the growing nationalist unity
+**Viceroy Lord Curzon** partitioned Bengal (1905) into two provinces — ostensibly for administrative efficiency, actually to divide nationalist sentiment.
 
-### Anti-Partition Movement
+- East Bengal: Muslim-majority (East Pakistan later)
+- West Bengal: Hindu-majority
 
-- **Bengal united in protest**: Swadeshi movement, boycott of British goods
-- **Extremists** (Bepin Chandra Pal, Aurobindo Ghosh, Bal Gangadhar Tilak) vs **Moderates** (Gokhale) in Congress
-- **Annie Besant** and the **Theosophical Society** also supported
+**Swadeshi Movement (1905)**: Nationalists responded with swadeshi (self-reliance) — boycotting British goods, promoting Indian-made products, establishing indigenous schools. Tilak's famous quote: "Swaraj is my birthright and I will have it."
 
-### Extremist Leaders
-
-- **Bal Gangadhar Tilak**: "Swaraj is my birthright"; famous for Ganesh Utsav and Shivaji festivals; worked to unite Hindus and Muslims; arrested in 1908 (7 years imprisonment)
-- **Bepin Chandra Pal**: Champion of self-reliance (Swadeshi); editorial of "Bande Mataram"
-- **Aurobindo Ghosh**: Nationalist philosopher; later turned to spiritual pursuits
-
-### Revolutionary Terrorist Movement
-
-- **Anushilan Samiti** (Founded 1902 by Barin Ghosh) — Kolkata
-- **Ghadar Party** (1913, US/Canada) — founded by Lala Hardayal; planned armed rebellion in Punjab; failed in 1915
-- **Bhagat Singh** (1907–1931): Late but most famous revolutionary; bombed Central Legislative Assembly (1929); Lahore Conspiracy Case; executed 1931 for killing Saunders
-- **Rajguru, Sukhdev Thapar**: Accomplices of Bhagat Singh
-
-### Muslim League (1906)
-
-- Founded at Dacca (Dhaka) under **Nawab Salimullah**
-- Initially demanded separate electorates (later accepted by Minto-Morley Reforms 1909)
-- Led by Aga Khan III and Muhammad Ali Jauhar later
+**Anti-Swadeshi**: Curzon resigned in 1906 but the damage was done — nationalist sentiment was now irreversible.
 
 ---
 
-## Gandhi and the Gandhian Era (1915–1947)
+## The Freedom Struggle (1915–1947)
 
-### Mahatma Gandhi's Early Life
+### Gandhi's Entry and Early Movements
 
-- Born **Mohandas Karamchand Gandhi** in Porbandar, Gujarat (October 2, 1869)
-- Lawyer in South Africa (1893–1914) — fought racial discrimination; developed Satyagraha
-- Returned to India in January 1915; undertook **Rowlatt Satyagraha** (1919) against repressive Rowlatt Act
+**Mahatma Gandhi** returned to India in 1915 after 21 years in South Africa (where he developed Satyagraha — nonviolent resistance). He was immediately drawn into the **Champaran Satyagraha (1917)** — peasant movement against indigo plantation owners in Bihar.
 
-### Rowlatt Act (1919) and Jallianwala Bagh (1919)
-
-- Rowlatt Act: Authorized detention without trial
-- **Jallianwala Bagh massacre (April 13, 1919)**: General Dyer fired on unarmed civilians at a public garden in Amritsar; 379–1,500+ killed (disputed figures); martial law imposed
-- This event radicalized Gandhi and the nation
+**Rowlatt Act (1919)**: British passed a law allowing indefinite detention without trial — Gandhi organized a **Hartal** (strike) on April 6, 1919. This triggered the **Jallianwala Bagh Massacre (April 13, 1919)** — General Dyer ordered troops to fire on unarmed civilians at a walled garden in Amritsar. Over 1,500 died (official figures say ~379, but likely higher). This event radicalized the independence movement.
 
 ### Non-Cooperation Movement (1920–1922)
 
-- Adopted at Congress Session, Calcutta (September 1920)
-- **Non-Cooperation with British**: Return of titles, boycott of schools/colleges, courts, foreign goods
-- Khadi (hand-spun cloth) and Charkha (spinning wheel) became symbols
-- **Chauri Chaura incident (February 5, 1922)**: Police lathicharge on villagers; crowd burnt police station; 22 policemen killed. Gandhi stopped the movement (February 1922) — believed violence would derail the movement
-- Movement fizzled out after Gandhi's arrest (1922)
+The INC, under Gandhi's leadership, launched the **Non-Cooperation Movement**:
+- Surrendering titles and honors
+- Boycotting British goods (especially cloth)
+- Attending schools and colleges that were not government-run
+- Participating in the Khadi movement (hand-spun cloth)
+
+The movement was suspended after the **Chauri Chaura incident (1922)** — a mob in Uttar Pradesh burned a police station alive, killing 22 police officers. Gandhi believed nonviolence had been violated.
 
 ### Civil Disobedience Movement (1930)
 
-- **Salt March (March 12–April 6, 1930)**: Gandhi walked 388 km from Sabarmati Ashram to Dandi with 78 followers; made salt from sea water — defied British salt monopoly
-- 60,000+ people joined the march at various points
-- Over 60,000 arrested including Gandhi (May 1930)
-- Produced the **Gandhi-Irwin Pact (March 1931)**: Congress suspended the movement; Gandhi attended the **Round Table Conference** in London (1931)
+**Gandhi's March (Salt March, March 12–April 6, 1930)**: Gandhi walked 241 miles (388 km) from Sabarmati Ashram to Dandi with 78 followers — they made salt from seawater in defiance of British law. Salt was heavily taxed.
+
+**Key INC resolutions**:
+- Poorna Swaraj (complete independence) — declared at Lahore Session (1929), Jawaharlal Nehru as president
+- Civil Disobedience: Participants refused to pay taxes, made salt, boycotted foreign cloth
 
 ### Round Table Conferences (1930–1932)
 
-- Three conferences in London to discuss India's future
-- Gandhi represented the INC; other delegates: Muslim League, Princely States, British representatives
-- No agreement on fundamental issues — British maintained control
-
-### Poona Pact (1932)
-
-- **Communal Award (1932)**: British PM Ramsay MacDonald announced separate electorates for Depressed Classes (Scheduled Castes)
-- **Mahatma Gandhi** opposed this — fasted unto death in Yerwada Jail
-- **Poona Pact (September 1932)**: B.R. Ambedkar agreed to joint electorates (reserved seats) in exchange for Gandhi ending his fast
-- Created the **Scheduled Castes Federation**
+Three conferences held in London to discuss India's future. The British refused to commit to independence; Gandhi refused to attend the second. The government arrested Gandhi and other leaders.
 
 ### Government of India Act 1935
 
-- Provided for **provincial autonomy** (elected ministries in provinces)
-- **Bicameral legislature** at Centre: Federal Assembly (lower) and Council of States (upper)
-- Diarchy introduced in provinces (Governor retained special powers)
-- **Features**: Expanded franchise, federal structure
-- INC fought the elections under the Act (1937) and formed ministries in most provinces
+Brought provincial autonomy — elected governments in provinces. However, British retained control over key areas (defense, foreign policy, finance).
 
 ### Quit India Movement (1942)
 
-- **August 8–9, 1942, Bombay**: Congress Working Committee passed the "Quit India" resolution
-- **Do or Die**: Gandhi's call — "We shall either be free or make no attempt to survive"
-- Massive crackdown: All INC leaders arrested (Gandhi, Nehru, Patel) on August 8/9, 1942
-- Mass protests, strikes, railway sabotage across India
-- British suppressed violently — over 60,000 arrested, hundreds killed
-- The movement was crushed but it made British rule untenable
+**Gandhi gave a call — "Do or Die"**: "We shall either be free or we shall die." The British government responded by arresting the entire INC Working Committee on August 8, 1942.
+
+**Massive protests** erupted across India — student strikes, underground movements, violence. Over 60,000 people were arrested. More than 10,000 died in police firings. The movement was suppressed but the British knew they could not rule India indefinitely.
+
+### Post-War Negotiations and Partition
+
+**Cripp's Mission (1942)**: Stafford Cripp came with offers of dominion status after the war — rejected by INC.
+
+**Wavell Plan (1945)**: Proposed Simla Conference — failed.
+
+**Cabinet Mission Plan (1946)**: Proposed a three-tier confederation to keep India united — the plan collapsed.
+
+**Direct Action Day (1946)**: Muslim League called for direct action to secure Pakistan — communal violence erupted in Calcutta (August 1946), then in Noakhali (Bengal), then across North India.
+
+**Mountbatten Plan (June 3, 1947)**: Lord Mountbatten, the last Viceroy, announced the partition plan. India would be divided into India and Pakistan. Radcliffe Line drawn by Cyril Radcliffe (two lawyers who had never been to India before).
+
+**Independence and Partition**: August 15, 1947 — India became independent. Mohammed Ali Jinnah became Pakistan's first Governor-General. Over 10–20 lakh (1–2 million) people died in partition-related communal violence; over 15 million were displaced.
+
+**Integration of Princely States**: Sardar Vallabhbhai Patel (deputy PM) and VP Menon negotiated the accession of 562 princely states to India — Hyderabad (police action September 1948), Junagadh, Jammu & Kashmir.
 
 ---
 
-## Rise of Communal Politics and Partition
+## Key Personalities
 
-### Muslim League and Two-Nation Theory
-
-- **Muhammad Ali Jinnah** (1876–1948): Leader of Muslim League from 1934 onward
-- **Lahore Resolution (1940)**: Called for separate Muslim states — "Two-Nation Theory" — Muslims are a distinct nation with separate identity
-- Demand for **Pakistan** — lands where Muslims are majority: Punjab, Bengal, Sindh, Baluchistan, NWFP
-
-### INA and Subhas Chandra Bose
-
-- **Subhas Chandra Bose** escaped house arrest (1941), went to Germany, formed **Indian National Army (INA)** with Japanese help — **Azad Hind Fauj**
-- Took command in 1943; fought British in Burma; slogan **"Give me blood, and I will give you freedom"**
-- **INA trials (1945–46)**: British tried INA officers in Red Fort; sparked massive protests in Indian army
-- Impact: British realized Indian army could no longer be relied upon to suppress independence movement
-
-### British Naval Mutiny (1946)
-
-- HMIS Talwar, mulit-ship: Ratings mutinied in Bombay (February 18, 1946) — 20,000 sailors participated
-- Over 1.5 million workers in support strikes
-- British suppression but it demonstrated the Indian navy/army wouldn't suppress freedom
-
-### Cabinet Mission Plan (1946)
-
-- British Cabinet (Crippies) sent to negotiate transfer of power
-- Proposed a three-tier confederation: Group A (Hindu-majority), Group B & C (Muslim-majority) with common Centre
-- Both Congress and League accepted initially but League withdrew (August 1946) —Direct Action Day (August 16, 1946) — riots in Calcutta
-
-### Partition and Independence
-
-- **Mountbatten Plan (June 3, 1947)**: Announced partition of British India into two dominions — India and Pakistan
-- **Radcliffe Line**: Cyril Radcliffe drew the boundary between India and Pakistan — submitted August 17, 1947 (two days after independence)
-- **August 14, 1947**: Pakistan created
-- **August 15, 1947**: India independent — Pandit Jawaharlal Nehru's "Tryst with Destiny" speech at midnight
-- Massive **violence, riots, mass migrations** — 14 million displaced; 2 lakh to 20 lakh killed (disputed)
-- **Mahatma Gandhi** was deeply distressed by partition violence — fasted in Delhi; assassinated on **January 30, 1948** by **Nathuram Godse** ( RSS member — objected to Gandhi's partition philosophy and his overtures to Muslims)
-
----
-
-## Key Movements and Acts
-
-| Movement/Act | Year | Key Feature |
-|---|---|---|
-| Revolt of 1857 | 1857 | First major armed rebellion |
-| Indian National Congress | 1885 | First political organization |
-| Partition of Bengal | 1905 | "Divide and rule"; Swadeshi movement |
-| Minto-Morley Reforms | 1909 | Separate electorates for Muslims |
-| Rowlatt Act | 1919 | Preventive detention; Jallianwala Bagh |
-| Non-Cooperation | 1920–22 | Boycott of British institutions |
-| Civil Disobedience / Salt March | 1930 | Dandi March; mass civil disobedience |
-| Poona Pact | 1932 | Reserved seats for SC |
-| Government of India Act | 1935 | Provincial autonomy |
-| Quit India Movement | 1942 | "Do or Die"; mass uprising |
-| Cabinet Mission | 1946 | Proposed confederation — failed |
-| Mountbatten Plan | 1947 | Partition of British India |
-| Indian Independence | August 15, 1947 | End of British colonial rule |
+| Leader | Contribution |
+|---|---|
+| **Mahatma Gandhi** | Nonviolence, Satyagraha, Champaran, Khadi, Salt March, Quit India |
+| **Jawaharlal Nehru** | First PM, foreign policy (non-alignment), industrialization |
+| **Sardar Vallabhbhai Patel** | Integration of princely states, "Iron Man of India" |
+| **Subhas Chandra Bose** | Founded Indian National Army (INA), "Give me blood and I will give you freedom" |
+| **Bhagat Singh** | Revolutionary, hanged at age 23 in 1931 for Lahore Conspiracy Case |
+| **Dr. B.R. Ambedkar** | Chairman of Drafting Committee, champion of SC/ST rights, wrote Constitution |
+| **Mahatma Gandhi** | Satyagraha leader (Gandhi) — father of the nation |
 
 ## CTET Exam Focus
 
-- Plassey (1757), Buxar (1764): British political supremacy in Bengal
-- Permanent Settlement: Zamindari system, Cornwallis
-- Subsidiary Alliance: Lord Wellesley
-- Revolt of 1857: Causes, leaders (Nana Sahib, Rani Lakshmibai, Hazrat Mahal), aftermath (end of Company rule)
-- Early Nationalists: Moderates (Dadabhai Naoroji, Gokhale), Extremists (Tilak, Aurobindo)
-- Partition of Bengal: Curzon's role, Swadeshi movement
-- Gandhi's movements: Rowlatt Satyagraha, Non-Cooperation, Salt March, Civil Disobedience, Quit India
-- Revolutionary nationalism: Bhagat Singh, INA, Subhas Chandra Bose
-- Muslim League: Jinnah, Two-Nation Theory, Lahore Resolution (1940)
-- Partition: Mountbatten Plan, Radcliffe Line, migration, violence
-- Independence: August 15, 1947, Gandhi's assassination (1948)
+- **1857 Revolt**: Causes (cartridge, economic exploitation, doctrine of lapse), Mangal Pandey, Rani Lakshmibai, Bahadur Shah Zafar, Jallianwala Bagh
+- **INC Formation (1885)**: Moderates vs Extremists, Swadeshi movement, Partition of Bengal (1905)
+- **Gandhi's movements**: Champaran (1917), Non-Cooperation (1920), Civil Disobedience (1930, Salt March), Quit India (1942)
+- **Jallianwala Bagh (1919)**: Dyer, massacre, impact on nationalist sentiment
+- **Partition (1947)**: Mountbatten Plan, Radcliffe Line, violence, independence on Aug 15
+- **Integration of princely states**: Patel and Menon, Hyderabad, Junagadh, Kashmir
 
 ---
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

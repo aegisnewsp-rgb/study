@@ -4,199 +4,204 @@ examName: CTET
 subject: botany
 subjectName: Science
 topic: scienc-004
-topicName: Topic 4
+topicName: Human Body Systems
 weight: 3
 country: ctet
 generated: "2026-03-25T17:00:00"
 ---
 
-# Topic 4: Human Body Systems
+# Human Body Systems
 
-## Skeletal System
+## Skeletal System: The Framework
 
-The human adult has **206 bones**. The skeleton provides **framework, protection, movement, and blood cell production**.
+The human adult skeleton consists of **206 bones** — a framework that supports the body, protects internal organs, enables movement, produces blood cells, and stores minerals (especially calcium and phosphorus).
 
 ### Divisions of the Skeleton
 
-- **Axial skeleton** (80 bones): Skull, vertebral column, rib cage
-- **Appendicular skeleton** (126 bones): Limbs (arms, legs), shoulder girdle, pelvic girdle
+**Axial Skeleton** (80 bones):
+- Skull (cranium + facial bones)
+- Vertebral column (33 vertebrae: 7 cervical, 12 thoracic, 5 lumbar, 5 fused sacral, 4 fused coccygeal)
+- Rib cage (12 pairs of ribs: 7 true, 3 false, 2 floating)
 
-### Key Bones
-
-| Part | Bones |
-|---|---|
-| **Skull** | Cranium (8 bones) + Face (14 bones) = 22 bones; Sutures join skull bones in adults |
-| **Vertebral column** | 33 vertebrae: 7 cervical, 12 thoracic, 5 lumbar, 5 sacral (fused), 4 coccygeal (fused) |
-| **Rib cage** | 12 pairs of ribs: 7 true ribs, 3 false ribs, 2 floating ribs = 24 ribs + sternum |
-| **Arm** | Humerus, radius, ulna, 8 carpals, 5 metacarpals, 14 phalanges |
-| **Leg** | Femur (strongest bone), tibia, fibula, 7 tarsals, 5 metatarsals, 14 phalanges |
-| **Shoulder girdle** | 2 clavicles + 2 scapulae |
-| **Pelvic girdle** | 2 innominate bones (each = ilium + ischium + pubis, fused) |
+**Appendicular Skeleton** (126 bones):
+- Upper limbs: Shoulder girdle (2 clavicles + 2 scapulae), arm (humerus), forearm (radius + ulna), hand (carpals, metacarpals, phalanges)
+- Lower limbs: Pelvic girdle (2 hip bones + sacrum), thigh (femur), leg (tibia + fibula), foot (tarsals, metatarsals, phalanges)
 
 ### Types of Joints
 
 | Joint Type | Movement | Example |
 |---|---|---|
-| **Ball and socket** | All directions (triaxial) | Shoulder, Hip |
-| **Hinge** | One direction (monaxial) | Elbow, Knee |
-| **Pivot** | Rotation around a single axis | Atlas-Axis (neck) |
-| **Gliding** | Sliding movement | Carpals, tarsals |
+| **Ball and Socket** | All directions (multiaxial) | Shoulder, Hip |
+| **Hinge** | One plane (monaxial) | Elbow, Knee |
+| **Pivot** | Rotation around a single axis | Atlas-Axis (neck rotation) |
+| **Gliding** | Sliding movement | Wrist bones, ankle bones |
+| **Saddle** | Biaxial (two planes) | Thumb (carpometacarpal) |
 | **Fixed/Immovable** | No movement | Skull sutures |
 
-### Bone Functions
-- **Support** and shape
-- **Protection** of vital organs (skull protects brain; rib cage protects heart/lungs)
-- **Movement** (leverage system with muscles)
-- **Blood cell formation** (red marrow in flat bones: femur, humerus)
-- **Storage** of calcium and phosphorus
+**Synovial joints**: Joints with a fluid-filled cavity (synovial fluid) — allow free movement. Ball-and-socket and hinge joints are types of synovial joints.
+
+### Bone and Cartilage
+
+- **Bones**: Rigid, vascular (have blood supply), can heal when broken
+- **Cartilage**: Flexible, avascular (no blood supply) — found in ear, nose, trachea, joints (smooth cartilage for joint movement)
+- **Ligaments**: Connect bone to bone (at joints)
+- **Tendons**: Connect muscle to bone — very strong, non-elastic
+
+**Growth**: Bones grow in length at the **epiphyseal plate** (growth plate) — cartilage that hardens into bone. Growth stops after puberty when the plate fuses.
+
+**Disorders**: Osteoporosis (bone density loss — common in postmenopausal women), arthritis (joint inflammation), rickets (childhood calcium/vitamin D deficiency — soft bones), fractures.
 
 ## Muscular System
 
-### Types of Muscles
+### Types of Muscle Tissue
 
-| Muscle Type | Control | Location | Function |
-|---|---|---|---|
-| **Skeletal (voluntary/striated)** | Voluntary | Attached to bones | Body movement |
-| **Cardiac (heart muscle)** | Involuntary | Heart wall | Pumping blood |
-| **Smooth (visceral/involuntary)** | Involuntary | Walls of internal organs | Movement of food, blood, etc. |
+**Skeletal (Striated) Muscle**:
+- Attached to bones — responsible for voluntary movement
+- Striated (striped) appearance
+- Multi-nucleated
+- Contraction: Fast and strong
 
-### Key Muscle Pairs (Antagonistic Pairs)
-- **Biceps + Triceps** (arm): Biceps bends (flexes) the arm; Triceps straightens (extends) it
-- **Quadriceps + Hamstrings** (thigh): Quadriceps extends leg; Hamstrings flexes it
-- **Diaphragm** (involuntary): Flattens during inspiration, relaxes during expiration
+**Smooth Muscle**:
+- Found in internal organs (stomach, intestines, blood vessels)
+- Not striated (smooth)
+- Involuntary — controlled by autonomic nervous system
+- Contraction: Slow and rhythmic
 
-### How Muscles Work
-- Muscles **contract** to pull on bones (they cannot push)
-- Tendons connect muscle to bone
-- Ligaments connect bone to bone (at joints)
-- Muscle fatigue: build-up of **lactic acid** during prolonged activity
+**Cardiac Muscle**:
+- Found only in the heart (myocardium)
+- Striated but branching
+- Involuntary — intrinsic rhythm (pacemaker)
+- Can contract without nervous stimulation
+- Cannot be consciously controlled
+
+**How muscles work**: Muscles contract when they receive a signal from motor neurons. Muscles work in pairs — **agonist** (prime mover) contracts while **antagonist** relaxes. For example:
+- Biceps (agonist) contracts to flex arm → Triceps (antagonist) relaxes
+- Triceps contracts to extend arm → Biceps relaxes
+
+**ATP**: Muscle contraction requires ATP — produced by aerobic and anaerobic respiration. During heavy exercise, muscles produce lactic acid (oxygen debt).
 
 ## Nervous System
 
 ### Central Nervous System (CNS)
 
-| Part | Function |
-|---|---|
-| **Brain** | Receives, processes, and responds to information; controls all body functions |
-| **Spinal cord** | Conducts impulses to/from brain; mediates **spinal reflexes** |
+**Brain** (protected by skull + three meninges):
+- **Cerebrum**: Largest part, controls voluntary actions, intelligence, memory, speech — divided into left and right hemispheres (left controls right body, right controls left body)
+- **Cerebellum**: Coordinates movement, balance, posture
+- **Medulla Oblongata**: Controls autonomic functions (heart rate, breathing, blood pressure)
+- **Hypothalamus**: Controls body temperature, hunger, thirst, sleep
 
-**Brain regions:**
-- **Cerebrum** (largest): Thought, memory, voluntary actions, intelligence, sensory processing
-- **Cerebellum**: Balance, coordination of movement, posture
-- **Medulla oblongata**: Controls heartbeat, breathing, blood pressure (life-support centre)
+**Spinal Cord** (protected by vertebral column):
+- Carries messages between brain and body
+- Responsible for **reflex actions** (rapid, automatic responses — not involving the brain)
 
 ### Peripheral Nervous System (PNS)
 
-| Division | Function |
-|---|---|
-| **Somatic (voluntary)** | Controls voluntary actions (walking, talking) |
-| **Autonomic (involuntary)** | Controls involuntary functions (heartbeat, digestion) |
-| — Sympathetic | "Fight or flight" response (speeds up heart, dilates pupils) |
-| — Parasympathetic | "Rest and digest" (slows heart, stimulates digestion) |
+**Somatic NS**: Controls voluntary actions — messages from CNS to skeletal muscles.
 
-### Reflex Arc
-
-A reflex is a **rapid, automatic, involuntary response** to a stimulus, without involving the brain.
-
-**Pathway (5 components):**
-```
-Stimulus → Receptor → Sensory Neuron → Relay Neuron → Motor Neuron → Effector (muscle/gland)
-```
-
-**Examples:**
-- Knee-jerk reflex (stretch reflex)
-- Withdrawing hand from a hot object
-- Blinking when something approaches the eye
-
-> **CTET Point:** Reflex actions are **involuntary** — they do not require conscious thought. The brain is informed **after** the reflex action occurs.
+**Autonomic NS**: Controls involuntary functions — further divided into:
+- **Sympathetic NS**: "Fight or flight" — increases heart rate, dilates pupils, slows digestion
+- **Parasympathetic NS**: "Rest and digest" — decreases heart rate, constricts pupils, promotes digestion
 
 ### Neurons (Nerve Cells)
 
-| Type | Function | Direction |
-|---|---|---|
-| **Sensory (afferent) neuron** | Carries impulse from receptor to CNS | Towards CNS |
-| **Motor (efferent) neuron** | Carries impulse from CNS to effector | Away from CNS |
-| **Relay (interneuron)** | Connects sensory and motor neurons within CNS | Within CNS |
+**Structure of a neuron**:
+- **Cell body** (soma): Contains nucleus and most organelles
+- **Dendrites**: Receive signals (input)
+- **Axon**: Conducts signal away from cell body (output)
+- **Myelin sheath**: Fatty layer around some axons — speeds up signal transmission (white matter)
+- **Axon terminals**: Transmit signal to next neuron or effector
 
-**Impulse transmission:** Nerve impulses are **electrochemical** in nature; synapse (gap between neurons) uses **neurotransmitters** (chemical messengers) to cross.
+**Types of neurons**:
+- **Sensory neurons**: Carry signals from sense organs to CNS
+- **Motor neurons**: Carry signals from CNS to muscles/glands
+- **Interneurons**: Connect sensory and motor neurons (in brain and spinal cord)
+
+### Reflex Arc
+
+A reflex is a rapid, automatic response to a stimulus that doesn't require conscious thought:
+
+```
+Stimulus → Sensory receptor → Sensory neuron → Spinal cord (interneuron) → Motor neuron → Effector (muscle/gland)
+```
+
+Examples: Knee-jerk reflex, pulling hand away from hot object. These are evolutionary adaptations for survival — fast responses.
 
 ## Endocrine System
 
-Hormones are **chemical messengers** secreted by endocrine glands directly into the blood.
+The endocrine system uses hormones (chemical messengers) to coordinate body functions. Hormones are secreted by **ductless glands** directly into the bloodstream.
 
 ### Major Endocrine Glands
 
-| Gland | Hormone(s) | Function |
+| Gland | Hormone | Function |
 |---|---|---|
-| **Pituitary** (master gland) | Growth Hormone (GH), TSH, FSH, LH | Controls other glands; growth |
-| **Thyroid** | Thyroxine (T₄), T₃ | Regulates metabolism, growth, development |
-| **Pancreas** (Islets of Langerhans) | Insulin (↓ blood sugar), Glucagon (↑ blood sugar) | Blood sugar regulation |
-| **Adrenaline (Adrenal medulla)** | Adrenaline (epinephrine) | "Fight or flight" response |
-| **Adrenal cortex** | Cortisol, Aldosterone | Stress response; salt-water balance |
-| **Testes** | Testosterone | Male sexual characteristics |
-| **Ovaries** | Oestrogen, Progesterone | Female sexual characteristics |
+| **Pituitary (Master gland)** | Many (GH, TSH, FSH, LH, prolactin) | Controls other glands, growth, reproduction |
+| **Thyroid** | T3, T4, Calcitonin | Metabolism, energy, calcium regulation |
+| **Parathyroid** | PTH (Parathyroid hormone) | Increases blood calcium |
+| **Pancreas** | Insulin, Glucagon | Blood sugar regulation |
+| **Adrenal (Adrenal cortex)** | Cortisol, Aldosterone | Stress response, salt balance |
+| **Adrenal (Adrenal medulla)** | Adrenaline (Epinephrine) | "Fight or flight" response |
+| **Ovaries (female)** | Estrogen, Progesterone | Female sexual characteristics, menstruation |
+| **Testes (male)** | Testosterone | Male sexual characteristics |
+| **Pineal** | Melatonin | Sleep-wake cycle (circadian rhythm) |
+| **Thymus** | Thymosin | Immune system development |
 
-### Key Hormone Facts
-- **Insulin deficiency** → Diabetes mellitus (high blood sugar)
-- **Thyroxine deficiency** (in children) → **Cretinism** (stunted physical and mental growth)
-- **Thyroxine deficiency** (in adults) → **Myxoedema** (sluggish metabolism, weight gain)
-- **Excess thyroxine** → **Exophthalmic goitre** (bulging eyes, weight loss)
-- **Adrenaline** is called the **emergency hormone** — released during fear, anger, excitement
-- Pituitary gland is called the **"master gland"** because it controls most other endocrine glands
+### Key Hormone Functions
+
+**Thyroid hormones (T3/T4)**:
+- Regulate metabolism, heart rate, digestion, brain development
+- **Hypothyroidism**: Weight gain, fatigue, cold intolerance
+- **Hyperthyroidism**: Weight loss, rapid heartbeat, heat intolerance
+- **Goiter**: Enlarged thyroid — due to iodine deficiency
+
+**Insulin and Glucagon (Pancreas)**:
+- **Insulin** (beta cells): Lowers blood sugar → tells liver and muscles to take up glucose
+- **Glucagon** (alpha cells): Raises blood sugar → tells liver to release stored glucose
+- **Diabetes mellitus**: 
+  - Type 1: Autoimmune destruction of beta cells → insulin deficiency (requires insulin injection)
+  - Type 2: Insulin resistance → body doesn't respond to insulin (linked to obesity, lifestyle)
+
+**Adrenaline**:
+- Released by adrenal medulla during stress or danger
+- Increases heart rate, blood pressure, pupil dilation — prepares body for "fight or flight"
 
 ## Excretory System
 
-### Human Excretory Organs
+Excretion is the removal of metabolic waste products (urea, CO₂, water, salts) from the body.
 
-| Organ | Excretory Product |
-|---|---|
-| **Kidneys** | Urine (urea, excess water, salts) |
-| **Lungs** | CO₂, water vapour |
-| **Skin** | Sweat (water, salts, urea) |
-| **Liver** | Bile pigments (bilirubin), cholesterol |
+### Human Excretory System
 
-### Structure of the Kidney
+**Kidneys** (most important excretory organs):
+- Bean-shaped, ~10 cm long, located in the lower back
+- **Nephron**: Functional unit of kidney (~1 million nephrons per kidney)
+- **Urine formation**: Blood is filtered → reabsorption of useful substances → excretion of waste
+  - **Filtration**: Glomerulus (capillary network) filters blood under high pressure → filtrate (water, glucose, amino acids, urea) enters Bowman's capsule
+  - **Reabsorption**: Useful substances (glucose, water, amino acids) reabsorbed in the tubule
+  - **Secretion**: Additional waste (H⁺, K⁺, drugs) secreted into tubule
+  - **Final output**: Urine (water + urea + excess salts + pigments)
 
-- Bean-shaped, reddish-brown, ~10–12 cm long
-- Located in the **retroperitoneal** space (behind peritoneum), at the back of the abdominal cavity
-- Each kidney contains ~**1 million nephrons** (functional units)
+**Ureter**: Carries urine from kidney to bladder.
 
-### Nephron — The Functional Unit
+**Urinary bladder**: Stores urine (~300–500 mL); when full, stretch receptors send signal to brain.
 
-Each nephron has:
-1. **Glomerulus** (capillary cluster) — blood filtering site
-2. **Bowman's capsule** — collects filtrate
-3. **Proximal Convoluted Tubule (PCT)** — reabsorbs glucose, amino acids, water, salts
-4. **Loop of Henle** — concentrates urine (counter-current mechanism)
-5. **Distal Convoluted Tubule (DCT)** — fine-tuning of ions and pH
-6. **Collecting duct** — carries urine to renal pelvis → ureter
+**Urethra**: Carries urine out of the body. In males, it also carries semen.
 
-### Urine Formation (Two Steps)
+### Functions of the Kidneys
 
-**Step 1 — Filtration (in Glomerulus):**
-- Blood is filtered under pressure (~55 mmHg)
-- Filtrate contains: water, glucose, amino acids, urea, salts, but NOT blood cells or proteins
-- This is **ultrafiltration** — size-based separation
+1. **Excretion**: Removes urea, uric acid, creatinine (nitrogenous waste)
+2. **Osmoregulation**: Maintains water and salt balance
+3. **pH regulation**: Maintains blood pH (7.35–7.45)
+4. **Blood pressure regulation**: Via renin-angiotensin system
+5. **Erythropoietin production**: Stimulates RBC production
 
-**Step 2 — Reabsorption (in Tubules):**
-- Selective reabsorption: glucose, amino acids, water, salts are reabsorbed back into blood
-- Urea and excess substances remain → become urine
-- Loop of Henle maintains a concentration gradient for water reabsorption
+**Dialysis**: Used when kidneys fail — machine filters blood mechanically (kidney machine).
 
-### Composition of Urine
-- **95% water**, 2.5% urea, 2.5% other wastes (creatinine, uric acid, salts)
-- Normal urine output: **1–1.5 litres/day**
-- **ADH (Antidiuretic Hormone)** from pituitary controls water reabsorption: less ADH → more dilute urine
+## CTET Exam Focus
+
+- Skeletal: 206 bones, axial + appendicular, ball-and-socket (shoulder), hinge (elbow), pivot (neck), synovial joints
+- Muscular: Skeletal (voluntary, striated), smooth (involuntary), cardiac (heart, involuntary, striated)
+- Nervous: CNS (brain, spinal cord) + PNS (somatic + autonomic); neurons (sensory, motor, interneuron); reflex arc
+- Endocrine: Major glands and hormones (insulin, thyroxine, adrenaline, growth hormone)
+- Excretory: Kidneys (nephron = functional unit), glomerular filtration, reabsorption, urine formation; dialysis as kidney failure treatment
 
 ---
-
-### ⚡ CTET Exam Tips
-
-- The **knee-jerk reflex** is the most commonly asked reflex arc example
-- **Insulin** lowers blood sugar; **Glucagon** raises it — both from the pancreas
-- **Neurons cannot divide** (mitosis does not occur in nerve cells) — damage is often permanent
-- **Mitochondria** are abundant in muscle cells (especially cardiac muscle) — high energy demand
-- **Skeletal muscles** are also called **striated muscles** (striped appearance under microscope)
-- **Red marrow** in bones produces RBCs — found in flat bones (sternum, ribs, vertebrae)
-- The **thyroid gland** requires **iodine** for thyroxine synthesis — deficiency causes **goitre**
-- A newborn baby's skull has **fontanelles** (soft spots) — fibrous membranes that allow brain growth
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

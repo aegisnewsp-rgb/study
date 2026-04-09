@@ -4,363 +4,203 @@ examName: CTET
 subject: gs1
 subjectName: Social
 topic: social-008
-topicName: Social Issues and Education
+topicName: Social Issues and Education Policy
 weight: 3
 country: ctet
 generated: "2026-03-25T17:00:00"
 ---
 
-# Social Issues and Education
+# Social Issues and Education Policy
 
-## Introduction
+## Education in India: Constitutional Provisions
 
-Social issues in education encompass the challenges of equity, access, inclusion, and quality that characterize India's educational system. Despite significant expansion since independence — from a handful of universities to over 1,000 — India still faces deep-rooted problems: unequal access across caste, gender, region, and economic status; poor learning outcomes; inadequate teacher training; and curriculum that often disconnects from children's lives.
+- **Article 21A** (86th Amendment, 2002): Right to Education for children aged 6–14 as a fundamental right
+- **Article 45** (Directive Principles): Free and compulsory education for all children until they complete elementary education
+- **Article 29**: Cultural and educational rights of minorities
+- **Article 350**: Language rights — right to instruction in mother tongue
 
-For CTET examination, questions focus on India's major educational policies and frameworks — particularly **NCF 2005**, the **RTE Act 2009**, and the **National Education Policy 2020** — as well as concepts of equity, inclusion, and social justice in education. Every teacher must understand these frameworks as they directly shape what and how children learn.
-
-## National Curriculum Framework 2005 (NCF 2005)
-
-### Background
-
-The **National Curriculum Framework (NCF)** is a guiding document that sets the standards for school curriculum across India. It is developed by the **National Council of Educational Research and Training (NCERT)** under the Ministry of Education.
-
-- **First NCF**: 1975
-- **Second NCF**: 1988
-- **Third NCF**: 2000
-- **Fourth (current) NCF**: **2005** — the most influential and widely implemented
-
-### Key Principles of NCF 2005
-
-1. **Connecting knowledge to life outside school**: Learning must relate to the child's environment, experiences, and everyday life — not be disconnected abstract information.
-
-2. **Reducing the curriculum load**: The NCF criticized the overcrowded curriculum that imposed rote memorization. It advocated learning without burden.
-
-3. **Ensuring learning for all children**: Emphasis on reaching children who are left out — children from disadvantaged communities, girls, children with disabilities.
-
-4. **Child-centered approach**: The child is at the center — pedagogy must consider the child's developmental stage, interests, and needs.
-
-5. **Sensitivity to issues of gender, caste, religion, and disability**: NCF 2005 was the first NCF to explicitly address these social dimensions.
-
-6. **Medium of instruction**: The NCF strongly recommends **mother tongue/local language** as the medium of instruction, at least in the early years.
-
-### Major Recommendations
-
-**Pedagogy:**
-- Activity-based learning (especially in early primary)
-- Experiential learning — "learning by doing"
-- Questions and dialogue, not just lecture and memorization
-- Art-integrated and sports-integrated learning
-
-**Assessment:**
-- Shift from content-based testing to competency-based assessment
-- Continuous and Comprehensive Evaluation (CCE) recommended
-- Portfolio-based assessment, oral testing, project work
-
-**Curriculum Areas:**
-- **Language**: Three-language formula (mother tongue, Hindi, English); emphasis on reading
-- **Mathematics**: Problem-solving, reasoning — not just computation
-- **Science**: Inquiry-based, experiential
-- **Social Science**: Concern for diversity, justice, constitutional values
-
-**Teacher Education:**
-- NCF for Teacher Education (NCFTE 2009) aligned with NCF 2005
-- Emphasis on continuous professional development
-
-### Significance of NCF 2005
-
-NCF 2005 laid the philosophical foundation for:
-- Right to Education Act 2009
-- Continuous and Comprehensive Evaluation (CCE)
-- Rashtriya Madhyamik Shiksha Abhiyan (RMSA)
-- Sarva Shiksha Abhiyan (SSA) reforms
-
-> **CTET Memory**: NCF 2005 — 5 key shifts: Life-connected curriculum, reduced load, learning for all, child-centered, and sensitive to gender/caste/disability.
+The **RTE Act 2009** (Right of Children to Free and Compulsory Education Act) gave effect to Article 21A. It made elementary education (Class 1 to Class 8) a fundamental right for every child in India.
 
 ---
 
-## Right to Education Act 2009 (RTE Act)
+## RTE Act 2009: Key Provisions
 
-### Constitutional Basis
-
-**Article 21A** of the Indian Constitution (86th Amendment, 2002) made free and compulsory education a **fundamental right** for all children aged 6–14 years.
-
-The **Right of Children to Free and Compulsory Education Act (RTE Act)** was passed in 2009, operationalized from **April 1, 2010**.
-
-### Key Provisions
-
-1. **Free education**: Every child has the right to free education in a neighborhood school up to Class 8.
-2. **Compulsory admission**: No child can be denied admission for any reason.
-3. **No school fees**: Government schools cannot charge any fee.
-4. **No screening**: Schools cannot conduct entrance tests or interviews for admission (Section 13).
-5. **Prohibition of private tuition**: Teachers cannot provide private tuition (Section 28).
-6. **Curriculum**: Must be in accordance with the NCF 2005.
-
-### Important Norms and Standards
-
-The Act prescribes specific norms for schools:
-
-| Norm | Requirement |
-|---|---|
-| **Pupil-Teacher Ratio (PTR)** | 30:1 for Classes I–II; 35:1 for Classes III–V |
-| **School buildings** | All-weather buildings, drinking water, toilet facilities, library |
-| **Teacher qualification** | All teachers must have minimum qualifications (as per NCTE) |
-| **Curriculum** | As prescribed by the concerned academic authority |
-
-### No Detention Policy
-
-Under the RTE Act, **no child can be detained** (held back) up to Class 8. This means:
-- A child automatically promotes to the next class even if they fail
-- This has been controversial — critics argue it reduces accountability and learning pressure
-- **NEP 2020** introduced a new structure and suggested reforms to assessment
-
-### Implementation Challenges
-
-- **Teacher vacancies**: Many schools don't have the required number of trained teachers
-- **Infrastructure gaps**: Not all schools meet the infrastructure norms (building, drinking water, toilets)
-- **Learning outcomes**: Despite enrollment (~95%+), learning levels remain low — the "enrollment but no learning" problem
-- **Private school discrimination**: Some private schools evade RTE provisions
-
-### Sarva Shiksha Abhiyan (SSA) — The Vehicle for RTE
-
-SSA was launched in **2001** as a flagship program to universalize elementary education:
-- Universal access (no child out of school)
-- Universal retention (no child drops out)
-- Universal achievement (learning for all)
-- Components: Free textbooks, free uniforms (under **Sanjay Chopra** initially), teachers' training, school infrastructure
-
-### Relevant Case Law
-
-- **Unni Krishnan v. State of Andhra Pradesh (1993)**: SC held that right to education flows from Article 21 (right to life)
-- **M.A. Murthy v. State of Karnataka**: Directed state to provide infrastructure
-
----
-
-## National Education Policy 2020 (NEP 2020)
-
-### Overview
-
-The **National Education Policy 2020** was approved by the Union Cabinet on July 29, 2020, replacing the 1986 NPE (which was modified in 1992). It is the most comprehensive education reform in Indian history.
+The RTE Act is landmark legislation ensuring free and compulsory education to every child:
 
 ### Key Features
 
-#### 1. School Education Structure: 5+3+3+4
+1. **Free education**: No child shall be liable to pay any kind of fee or charge that prevents them from completing elementary education
+2. **Compulsory education**: It is the responsibility of the appropriate government to ensure admission, attendance, and completion of elementary education
+3. **Zero rejection**: No school can refuse admission to any child
+4. **Barrier-free access**: Schools must have infrastructure and facilities suitable for children with disabilities
+5. **25% reservation**: Private unaided schools must reserve 25% seats for children from economically weaker sections (EWS) — funded by the government
+6. **No screening**: Schools cannot conduct any entrance test or interview for admission to Class 1
+7. **Teacher qualification**: Only teachers with required qualifications (B.El.Ed or D.El.Ed or 12th with 2-year diploma) can be appointed
+8. **Curriculum framework**: Based on the NCF (National Curriculum Framework) — child-centered, activity-based learning
 
-The old **10+2 structure** is replaced by a new **5+3+3+4** structure:
+### Challenges in Implementation
 
-| Stage | Years | Description |
-|---|---|---|
-| **Foundation Stage** | 5 years (3 pre-school + 2 Classes I–II) | Play-based, activity-based learning; focus on language, numbers, motor skills |
-| **Preparatory Stage** | 3 years (Classes III–V) | Interactive learning; reading, writing, speaking, numbers; basic scientific concepts |
-| **Middle Stage** | 3 years (Classes VI–VIII) | Experiential learning across sciences, mathematics, humanities; critical thinking |
-| **Secondary Stage** | 4 years (Classes IX–XII) | Multidisciplinary study; students choose subjects; Board exams reformed |
-
-**Why this matters for CTET**: Teachers of Classes I–II (Paper I) work in the Foundation Stage. Understanding the pedagogical emphasis on play and activity is essential.
-
-#### 2. Universalization of Early Childhood Care and Education (ECCE)
-
-- NEP 2020 mandates **ECCE for all children aged 3–6 years**
-- This will be delivered through **anganwadis and pre-primary schools**
-- Curriculum for ECCE will focus on play, discovery, activity-based learning
-- Research shows early childhood investment has the highest returns
-
-#### 3. Medium of Instruction
-
-- **Mother tongue/home language as medium of instruction** at least till Class 5, preferably till Class 8
-- **No language imposition**: No third language requirement until Class 6
-- **Three-language formula retained** but made more flexible
-- English remains an option but is not mandatory as medium
-
-#### 4. No Rigid Separation of Streams
-
-- Students in Secondary Stage (IX–XII) can take subjects from different streams — a science student can also take humanities subjects
-- This breaks the traditional **Science/Commerce/Arts** divide at the school level
-
-#### 5. Reform in Assessment
-
-- **Board exams to be reformed** — more competency-based, testing application and analysis
-- **Semester system** at Board level
-- **School-based assessment** across the year
-- **Common entrance exam for higher education** (CUET — already implemented for Central Universities from 2022)
-
-#### 6. Teacher Education and Recruitment
-
-- **4-year integrated B.Ed.** degree replacing the 2-year B.Ed.
-- Multiple entry and exit options in teacher education
-- **Common National Professional Standards for Teachers (CNPST)** will be developed
-- Teachers will have **10 days of formal training per year** for continuous professional development
-
-#### 7. Technology in Education
-
-- **DIKSHA** platform: Digital infrastructure for school education — contains e-content, teacher training materials
-- **NISHTHA**: National Initiative for School Heads' and Teachers' Holistic Advancement — world's largest teacher training program (online, launched 2020)
-- **PM e-VIDYA**: Convergence of all digital education initiatives
-
-#### 8. Inclusion and Equity
-
-- Special **Education Zones** for disadvantaged regions
-- **Girls' education**: Special attention to reduce gender gaps, especially in STEM
-- Children with disabilities: **Inclusive education** with assistive devices, resource teachers
-- Free **boarding facilities** in schools for children from tribal areas
-
-### Comparison: RTE Act 2009 vs NEP 2020
-
-| Aspect | RTE Act 2009 | NEP 2020 |
-|---|---|---|
-| **Focus** | Access to elementary education | Holistic transformation of education |
-| **Structure** | 10+2 | 5+3+3+4 |
-| **ECCE** | Not mandated | Universalized (3–6 years) |
-| **Medium** | Not specified | Mother tongue emphasized |
-| **Assessment** | CCE, no detention | Board reform, competency-based |
-| **Teacher education** | NCTE norms | 4-year integrated B.Ed. |
+- Shortage of qualified teachers (~10 lakh teacher vacancies in government schools)
+- Infrastructure gaps — some schools lack drinking water, toilets, boundary walls
+- High pupil-to-teacher ratios in some states
+- Learning outcomes have remained low despite enrollment increases
+- Out-of-school children remain (~3.2 crore before COVID, now may be higher)
 
 ---
 
-## Equity and Inclusion in Education
+## National Curriculum Framework (NCF) 2005
 
-### Meaning of Equity in Education
+The NCF 2005 was developed by NCERT and guided by the **National Steering Committee** chaired by Prof. Yash Pal. It was a major shift from textbook-based, exam-focused learning to a child-centered approach.
 
-**Equity** means that every child receives what they need to achieve their full potential — not the same treatment, but appropriate and fair support. Equity recognizes that children start from different positions and may need different resources.
+### Key Principles of NCF 2005
 
-**Equity vs Equality:**
-- **Equality**: Same resources for all — which actually perpetuates existing inequalities
-- **Equity**: Different resources calibrated to need — gives everyone a fair chance
+1. **Connecting knowledge to life outside the school**: Learning should not be confined to textbooks
+2. **Reducing the burden of curriculum on children**: Less is more — depth over breadth
+3. **Making examinations flexible**: Board exams should reduce pressure; part-year testing preferred
+4. **Nurturing pluralism**: Respect for diverse cultures, languages, and beliefs
+5. **Integration of work and knowledge**: Activity-based, experiential learning
+6. **Environment as a basic need**: Environmental awareness integrated across subjects
 
-### Dimensions of Educational Inequality in India
+### What Changed After NCF 2005
 
-#### Caste-Based Inequality
-
-- Historically marginalized communities (SC, ST, OBC) face discrimination in schools
-- **78th Amendment** and constitutional provisions: Reservations in education and employment
-- **SCERT textbooks** must avoid caste stereotypes
-- Teachers must ensure inclusive classroom environments
-
-#### Gender Inequality
-
-- **Literacy rates (2011 Census)**: Male 82.14%, Female 65.46% — gap though narrowing
-- Girls face barriers: household chores, safety concerns, early marriage, lack of toilets
-- **Sukanya Samriddhi Yojana**: Savings scheme for girl child
-- **Beti Bachao Beti Padhao**: Campaign for survival, protection, and education of girls
-- School infrastructure (separate toilets for girls) is critical for retention
-
-#### Regional Inequality
-
-- **High-performing states**: Kerala, Tamil Nadu, Maharashtra, Karnataka
-- **Low-performing states**: Bihar, Jharkhand, Uttar Pradesh, Rajasthan — lower literacy, higher dropout
-- **North-East**: Special provisions under NEP 2020; regional languages respected
-
-#### Economic Inequality
-
-- Children from BPL families have lower enrollment and higher dropout rates
-- Private schooling creates a **two-tier system**: Expensive private schools vs struggling government schools
-- **RTE Act** mandates 25% reservation for economically weaker sections in private schools
-
-#### Disability and Inclusive Education
-
-- Children with disabilities (CwD) represent approximately **2–3%** of school-age children
-- **RPwD Act 2016** (Rights of Persons with Disabilities): Recognizes **21 disabilities** — 4% reservation in educational institutions
-- **Inclusive education**: Children with disabilities learn in regular schools with appropriate support
-- **NCERT guidelines**: Development of **Braille books, large print textbooks, sign language materials**
-- **CWSN (Children With Special Needs)** identification and support under SSA
-
-### Inclusive Classroom Strategies
-
-1. **Universal Design for Learning (UDL)**: Provide multiple ways to engage, represent content, and express learning
-2. **Differentiated instruction**: Same content but different approaches based on readiness
-3. **Multi-sensory teaching**: Use visual, auditory, and kinesthetic approaches simultaneously
-4. **Assistive technology**: Screen readers, hearing aids, Braille devices
-5. **Accessible infrastructure**: Ramps, wide doors, accessible toilets, lowered blackboards
-6. **Positive classroom culture**: Zero tolerance for discrimination; celebrate diversity
-7. **IEP (Individualized Education Program)**: For children with significant disabilities — personalized learning plan
-
-### Programs Promoting Equity
-
-| Program | Focus |
-|---|---|
-| **Sarva Shiksha Abhiyan (SSA)** | Universalization of elementary education |
-| **Mid-Day Meal (MDM)** | Free cooked meal to improve nutrition and attendance |
-| **Free textbooks** | Under RTE and state schemes |
-| **Scholarships (SC/ST/OBC/Minority)** | Financial support to disadvantaged students |
-| **KGBV (Kasturba Gandhi Bal Vidyalaya)** | Residential schools for girls from rural areas |
-| **Eklavya Model Residential Schools** | For ST children in tribal areas |
-| **Samagra Shiksha Abhiyan** | Merged SSA, RMSA, and teacher education (2018) |
+- **NCERT textbooks restructured**: New textbooks (Maths and Science for Classes 1–8) emphasized understanding, not memorization
+- **Bhasha** (language) emphasis: Respect for regional languages, multilingual approach
+- **Examinations reformed**: CCE (Continuous and Comprehensive Evaluation) introduced to reduce exam pressure
+- **Assessment shifted**: From content recall to conceptual understanding; more focus on formative assessment
 
 ---
 
-## Key Concepts for CTET
+## NEP 2020: A New Education Vision
 
-### Holistic Development (NEP 2020)
+The **National Education Policy 2020** was approved by the Union Cabinet on July 29, 2020. It replaces the 1986 NEP and is the most comprehensive education reform in India in decades.
 
-NEP 2020 envisions education that develops:
-- **Cognitive** (thinking and reasoning)
-- **Emotional and social** (empathy, cooperation)
-- **Cultural and aesthetic** (appreciation of art, music, diversity)
-- **Physical and motor** (health, sports, yoga)
+### Key Reforms
 
-### Continuous and Comprehensive Evaluation (CCE)
+**Structure Changes: 5+3+3+4 (from 10+2)**:
+```
+- Foundational (ages 3–8): Play-based learning, ECCE (Early Childhood Care and Education)
+- Preparatory (ages 8–11): Activity-based learning, beginning of formal education
+- Middle (ages 11–14): Experiential learning in all subjects
+- Secondary (ages 14–18): Critical thinking, discipline choice
+```
 
-- **Continuous**: Ongoing assessment throughout the year
-- **Comprehensive**: Covers both scholastic (academic) and co-scholastic (life skills, values, attitudes) domains
-- Co-scholastic areas: Work education, art education, health and physical education, ICT
+**School Education**:
+- **Universalization of ECCE**: Early childhood education (age 3–6) to be brought into formal schooling structure by 2030
+- **No rigid separation** of academic and vocational streams — all pathways respected equally
+- **Mother tongue as medium**: Instruction in mother tongue/local language up to Class 5 minimum (backed by research showing better conceptual clarity)
+- **Multilingualism**: At least three languages (including Hindi, English, regional)
+- **Assessment reforms**: Board exams to be redesigned — easier, less content-heavy; 360-degree holistic progress card instead of marks
+- **Reduction of content load**: Curricular content to be reduced to essential core concepts
 
-### Key Terminology
+**Higher Education**:
+- **Four-year undergraduate degree** with multiple entry/exit options — students can exit after 1 year (with certificate), 2 years (diploma), or 4 years (degree)
+- **Common Entrance Test (CUET)** for admission to all central universities (implemented 2022)
+- **Academic Bank of Credits**: Students can accumulate credits and transfer them across institutions
+- **Multidisciplinary education**: Single-stream colleges to become multidisciplinary (offering multiple disciplines)
+- **Higher Education Commission of India (HECI)**: Single regulator for higher education — replaces multiple bodies (UGC, AICTE, NCTE)
 
-- **Inclusivity**: All children, regardless of background, learn together
-- **Differential teaching**: Adapting instruction to student needs
-- **Multi-grade teaching**: One teacher handling multiple grades simultaneously (common in rural India)
-- **Learning loss**: Gap in learning due to school closures (especially COVID-19)
-- **ASER (Annual Status of Education Report)**: Nationwide survey of children's learning levels — conducted by Pratham
+**Teacher Education**:
+- **4-year B.Ed.** integrated program to become the minimum qualification for school teachers by 2030
+- **DIET (District Institute of Education and Training)** to be strengthened as the nodal teacher training institution
+- **Obit**: B.El.Ed 4-year integrated degree retained for pre-primary and primary teachers
 
-### Pratham and ASER
+### Vision 2030
 
-- **ASER** (Since 2005): Largest annual survey of children's learning in India
-- Findings: Despite high enrollment (>95%), many Class 5 children cannot read Class 2 text or do basic arithmetic
-- This "enrollment but no learning" crisis has shaped education policy discourse
+- Public investment in education to reach **6% of GDP** (currently ~3.1%)
+- India to become a **global knowledge superpower**
+- Education rooted in Indian value system but globally competitive
 
 ---
 
-## Social Issues Relevant to Indian Education
+## Social Justice and Equity in Education
+
+### Caste Discrimination in Education
+
+Despite constitutional prohibitions:
+- **Article 17**: Abolition of untouchability
+- **Article 15**: Prohibition of discrimination on grounds of religion, race, caste, sex, place of birth
+
+**Steps taken**:
+- Reservations in education (SC: 15%, ST: 7.5%, OBC: 27%) as per Constitution (93rd Amendment, 2005)
+- Pre-matric and post-matric scholarships for SC/ST students
+- Navodaya Vidyalayas (JNV) for talented rural children (including SC/ST)
+- Special coaching for SC/ST students in higher education
+
+### Gender Equity
+
+- **Article 15(3)**: Special provision for women and children
+- **Kanya Vidya Dakshata** (scholarship for girls' education)
+- **Beti Bachao Beti Padhao** (Save the daughter, educate the daughter): Campaign launched in 2014 to improve sex ratio and girls' education
+- **National Girls' Education Programme**: Mid-day meals, free textbooks, separate toilets in schools
+
+**Challenges**:
+- Higher dropout rates for girls after Class 8
+- Domestic responsibilities (cooking, childcare) — girls often can't go to school
+- Safety concerns in schools
+- Early marriage
+
+### Education for Children with Disabilities
+
+**RPwD Act 2016 (Rights of Persons with Disabilities)**:
+- Recognizes 21 categories of disabilities (including specific learning disability, autism spectrum disorder, cerebral palsy)
+- 4% reservation in educational institutions
+- Governments must provide inclusive education wherever possible
+- Special educators and assistive devices to be made available
+
+### Minority Education
+
+- **Article 30**: Right of minorities to establish and administer educational institutions
+- **Article 29**: Protection of interests of minorities regarding culture
+- Islamic education, Christian education, tribal education recognized
+- **National Commission for Minorities Educational Institutions** (set up 2004)
+
+---
+
+## Contemporary Social Issues
 
 ### Poverty and Education
 
-- Malnutrition affects cognitive development — **45% of Indian children under 5 are malnourished** (NFHS data)
-- Mid-Day Meal (MDM) scheme provides one hot cooked meal to children in government schools
-- MDM improves attendance, reduces hunger, and supports nutrition
+Poor children often drop out due to economic pressure. They may work as:
+- **Child labor** (illegally under age 14): Helps support family income but damages education
+- **Domestic work**
+- **Agricultural labor**
 
-### Child Labor
+**Constitutional prohibition**: Article 24: No child below 14 years shall be employed in any factory or hazardous work.
 
-- **Child Labour (Prohibition and Regulation) Act, 2016**: Prohibits employment of children below 14 years
-- RTE Act ensures children aged 6–14 are in school
-- However, many children still work — bonded labor, domestic work, agriculture
+### Child Marriage
 
-### Gender and Education
+- **Prohibition of Child Marriage Act (2006)**: Minimum age for marriage — 18 years (female), 21 years (male)
+- India has one of the highest rates of child marriage in the world (23% of women aged 20–24 married before 18, according to NFHS-5)
+- Impacts: School dropout, early pregnancy, health risks
 
-- **NFHS-5 data**: Sex ratio at birth declining in several states (selective abortion — female foeticide)
-- Education is the single most effective intervention to reduce gender inequality
-- **Kasturba Gandhi Bal Vidyalayas (KGBVs)**: Residential schools for girls from Class 6–8
+### Nutrition and Education
 
-### Digital Divide
+**Mid-Day Meal Scheme** (PM-POSHAN, renamed from National Programme of Nutritional Support to Primary Education in 2021):
+- Provides free cooked meals to children in government and aided schools (Class 1–8)
+- Goals: Reduce hunger, improve nutrition, increase school enrollment and attendance
+- Covers ~11.5 crore children in 11.20 lakh schools
+- Foodgrains provided free by the central government; cooking costs shared with states
 
-- COVID-19 pandemic exposed India's digital divide — children without smartphones/ internet could not access **DIKSHA, PM e-VIDYA**
-- NEP 2020 addresses this through **Digital Infrastructure** initiatives
-- State governments distributed tablets/smartphones to students
-
-### Mental Health in Schools
-
-- NEP 2020 introduces **well-being** as part of school culture
-- **Counsellors in schools**: Deployment of school counselors recommended
-- **Zero tolerance for bullying**: NCF 2005 and RTE emphasize safe school environments
+**Poshan Abhiyaan (National Nutrition Mission, 2018)**:
+- Targets reduction of malnutrition (stunting, wasting, anemia) in children (0–6 years) and women
+- Uses technology (ICDS-CAS app) for real-time monitoring
 
 ---
+
+## Environmental Education
+
+- **NCF 2005** mandates environmental awareness across all subjects
+- **NEP 2020** incorporates environmental sustainability as a cross-curricular theme
+- Topics: Climate change, biodiversity, water conservation, waste management, pollution
+- Schools encouraged to have kitchen gardens, rain-water harvesting, composting
 
 ## CTET Exam Focus
 
-- **NCF 2005**: 5 key principles, child-centered pedagogy, connecting knowledge to life, reducing curriculum load, mother tongue instruction
-- **RTE Act 2009**: Free and compulsory for 6–14 years, 25% reservation in private schools (EWS), no screening, no detention, pupil-teacher ratios
-- **NEP 2020**: 5+3+3+4 structure, ECCE universalization, mother tongue, 4-year B.Ed., technology (DIKSHA, NISHTHA), reform of assessment, inclusive education
-- **Samagra Shiksha Abhiyan**: Merged scheme for school education
-- **Equity and inclusion**: Caste, gender, disability, regional disparities — and specific programs to address them
-- **ASER**: What it measures (learning levels); what the data shows
-- **MDM**: Mid-Day Meal — improves attendance and nutrition
-- **Key cases**: Unni Krishnan (Article 21A foundation)
+- **RTE Act 2009**: Free and compulsory education for 6–14 years (Article 21A), 25% reservation in private schools for EWS, zero rejection, no screening, teacher qualification norms
+- **NCF 2005**: Child-centered pedagogy, "Learning without burden", connecting school to life
+- **NEP 2020**: 5+3+3+4 structure, 4-year B.Ed. minimum qualification, multilingual policy, mother tongue instruction up to Class 5, CUET for university admissions, 6% GDP target
+- **Equity and inclusion**: Caste discrimination, gender equity (Beti Bachao), disability (RPwD Act 2016), minority rights
+- **Contemporary issues**: Child labor (Article 24), child marriage (18 for women), mid-day meal scheme (PM-POSHAN), Poshan Abhiyaan
 
 ---
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

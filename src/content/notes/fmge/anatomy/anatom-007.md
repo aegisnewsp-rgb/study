@@ -10,131 +10,54 @@ country: fmge
 generated: "2026-03-25T17:00:00"
 ---
 
-# Embryology — Organ System Development
+# Histology — Epithelium, Connective Tissue, Muscle, Nerve & Skin
 
-### 🟢 Lite — Quick Review (1h–1d)
+## Epithelial Tissue — Classification by Layer Arrangement and Cell Shape
 
-**Gametogenesis & Fertilization**
-- **Oogenesis:** Primary oocytes formed by 6 months gestation, arrest in prophase I; complete meiosis I just before ovulation (secondary oocyte); meiosis II completes only if fertilized
-- **Spermatogenesis:** Begins at puberty; spermatogonia → primary spermatocyte (meiosis I) → secondary spermatocyte (meiosis II) → spermatids → spermatozoa (spermiogenesis)
-- **Fertilization** occurs in ampulla of uterine tube; zona pellucida block polyspermy; zygote forms → morula (day 3–4) → blastocyst (day 5) with inner cell mass (embryo) and trophoblast (placenta)
-- **Clinical:** Assisted reproductive technologies (IUI, IVF, ICSI); zona pellucida defects → infertility
+Epithelial tissue forms sheets that cover surfaces and line cavities, characterized by tight intercellular connections, a free apical surface, and a basal surface attached to a basement membrane. It is classified according to the number of cell layers (simple — one layer; stratified — multiple layers) and the shape of cells in the surface layer (squamous, cuboidal, columnar).
 
-**Week-by-Week Development Highlights**
-- **Week 2:** Implantation; bilaminar disc (epiblast + hypoblast); amniotic and yolk sac
-- **Week 3 (Gastrulation):** Primitive streak; formation of trilaminar disc; notochord; neurulation begins (neural plate → neural folds → neural tube)
-- **Week 4:** Somites form (42 pairs by day 30); heart begins beating; embryonic folding; gut formation begins
-- **Week 8:** All organ systems established; embryo becomes fetus
+**Simple squamous epithelium** consists of a single layer of flattened cells with disc-shaped nuclei, optimized for diffusion and filtration. It lines blood vessels (endothelium), serous cavities (mesothelium), the alveoli of lungs, and the glomerular capsules of kidneys. **Simple cuboidal epithelium** has cube-shaped cells with spherical central nuclei and is found in thyroid follicles (for hormone storage and release), kidney tubules (reabsorption and concentration), and gland ducts. **Simple columnar epithelium** has tall cells with basally positioned nuclei and is adapted for absorption and secretion. It lines the intestinal tract, where it may have a brush border (microvilli) and goblet cells (unicellular mucus-secreting glands). **Pseudostratified ciliated columnar epithelium** appears to have multiple layers because nuclei are at different heights, but all cells contact the basement membrane; it lines the respiratory tract and the male reproductive tract.
 
-**Pharyngeal Apparatus (Branchial Apparatus):**
-- Pharyngeal clefts (ectoderm), pouches (endoderm), grooves, arches (mesoderm + neural crest)
-- **1st arch:** cartilage (Meckel's), muscles (mastication — V3), nerve (V — trigeminal)
-- **2nd arch:** cartilage (Reichert's), muscles (facial expression — VII), nerve (VII)
-- **3rd arch:** cartilage (greater horn of hyoid), muscles (stylopharyngeus — IX), nerve (IX)
-- **4th arch:** cartilage (thyroid cartilage), muscles (pharyngeal constrictors — X), nerve (X)
-- **Pharyngeal pouch derivatives:**
-  - 1st: tubotympanic recess → middle ear cavity, Eustachian tube
-  - 2nd: tonsillar fossa → palatine tonsil
-  - 3rd: inferior parathyroid + thymus
-  - 4th: superior parathyroid + ultimobranchial body → parafollicular C cells of thyroid
+**Stratified squamous epithelium** has multiple layers with the surface cells being squamous. **Keratinized** stratified squamous forms the skin epidermis — surface cells are dead, filled with keratin, and continuously desquamate. **Non-keratinized** stratified squamous lines the oral cavity, esophagus, vagina, and anal canal — surface cells are living. **Stratified cuboidal** is rare, found in sweat gland ducts and larger salivary ducts. **Transitional epithelium (urothelium)** lines the urinary tract from the renal calyces to the urethra; it is characterized by dome-shaped surface cells (umbrella cells) that can change shape with distension and has 4–6 cell layers.
 
----
+**Glands** are epithelial structures specialized for secretion. **Exocrine glands** have ducts and include merocrine glands (secretion via exocytosis — pancreatic acinar cells, salivary glands), holocrine glands (entire cell breaks into secretion — sebaceous glands), and apocrine glands (decapitation secretion — mammary glands, axillary sweat glands). **Endocrine glands** have no ducts; their products (hormones) enter the bloodstream directly. **Goblet cells** are unicellular exocrine glands that secrete mucin, which becomes mucus on hydration.
 
-### 🟡 Standard — Regular Study (2d–2mo)
+## Connective Tissue Proper — Cells, Fibers, and Ground Substance
 
-**Neurulation & Neural Crest Derivatives**
-- Neural tube → CNS (brain + spinal cord); neural crest → PNS (ganglia, Schwann cells, melanocytes) + many other structures
-- **Neural crest migration defects:** Hirschsprung's disease (aganglionic colon), neuroblastoma, Waardenburg syndrome, phakomatoses
-- **Anterior neuropore** closes at day 25; **posterior neuropore** closes at day 28
-- **Clinical:** Neural tube defects — spina bifida (myelomeningocele most severe), anencephaly (failed anterior neuropore closure); maternal folic acid supplementation reduces incidence
+Connective tissue proper is characterized by abundant extracellular matrix produced by scattered resident cells. It is classified by the relative amounts and organization of its three components: cells, protein fibers (collagen, elastic, reticular), and ground substance (glycosaminoglycans, proteoglycans, glycoproteins).
 
-**Gut Tube Development**
-- **Foregut:** mouth to duodenum (ampulla of Vater) — supplied by celiac artery; derivatives: pharynx, esophagus, stomach, liver, gallbladder, pancreas, spleen
-- **Midgut:** duodenum to splenic flexure — supplied by SMA; derivatives: jejunum, ileum, ascending colon, transverse colon; rotates 90° counterclockwise around SMA axis
-- **Hindgut:** splenic flexure to rectum — supplied by IMA; derivatives: descending colon, sigmoid colon, rectum, upper anal canal
+**Loose connective tissue (areolar)** is the most widespread type, serving as a packing material beneath epithelium, around blood vessels, and in fascial planes. It contains fibroblasts (the most common cells — produce collagen and ground substance), mast cells (contain histamine and heparin — IgE-mediated anaphylaxis and wound healing), plasma cells (antibody-producing cells derived from B lymphocytes), macrophages (tissue phagocytes derived from blood monocytes), and adipocytes (unilocular white fat or multilocular brown fat). **Dense regular connective tissue** has tightly packed, parallel collagen bundles with relatively few fibroblasts and is found in tendons, ligaments, and aponeuroses — optimized for tensile strength in one direction. **Dense irregular connective tissue** has randomly oriented collagen bundles and is found in the dermis of skin, the periosteum of bone, and organ capsules — providing tensile strength in multiple directions. **Elastic connective tissue** contains predominantly elastic fibers (elastin with fibrillin microfibrils) and is found in the ligamentum nuchae, elastic arteries (aorta), and the vocal cords. **Reticular connective tissue** has a network of reticular fibers (type III collagen) and forms the stroma of bone marrow, lymph nodes, the spleen, and liver sinusoids.
 
-**Diaphragm Development**
-- 4 components: septum transversum (central tendon), pleuroperitoneal membranes, dorsal mesentery of esophagus, body wall musculature
-- **Clinical:** Congenital diaphragmatic hernia (Bochdalek hernia) — posterolateral defect, usually left-sided, allows abdominal contents into thoracic cavity causing pulmonary hypoplasia
+**Bone tissue (osseous tissue)** is a specialized connective tissue with a mineralized matrix. The **organic matrix** (osteoid) is produced by osteoblasts, which become trapped in lacunae as osteocytes. Osteoclasts — derived from the monocyte-macrophage lineage — resorb bone. The **inorganic matrix** consists of calcium phosphate crystals (hydroxyapatite) that give bone its rigidity. **Compact bone** is densely packed with Haversian systems (osteons) — cylindrical units with a central Haversian canal containing blood vessels, surrounded by concentric lamellae, lacunae, and canaliculi. **Spongy (cancellous) bone** has trabecular lamellae with marrow in the intervening spaces and no Haversian systems. **Cartilage** is a specialized connective tissue with chondrocytes in lacunae; it is avascular (nutrients diffuse from perichondrium). **Hyaline cartilage** is the most common type and forms the articular surfaces of bones, the tracheal rings, and the costal cartilage; it is the scaffold for endochondral ossification. **Fibrocartilage** contains type I collagen predominating and is found in intervertebral discs, the menisci, and the pubic symphysis. **Elastic cartilage** contains elastic fibers and forms the pinna and epiglottis.
 
-**Heart Development**
-- **Heart tube formation** (day 18–21) → looping (D-loop) → septation
-- **Aorticopulmonary septum** divides truncus arteriosus into aorta and pulmonary trunk
-- **Atrial septation:** septum primum (with foramen primum + foramen secundum) + septum secundum (foramen ovale)
-- **Ventricular septation:** muscular + membranous (conoventricular) septum
-- **Clinical:** ASD (ostium secundum most common), VSD (most common congenital heart defect, perimembranous), Fallot's tetralogy; PDA (patent ductus arteriosus — remains open because of low oxygen tension in neonate)
+## Muscle Tissue — Skeletal, Cardiac, and Smooth
 
-**Urinary System Development**
-- **Pronephros:** degenerates (nonfunctional in humans)
-- **Mesonephros:** temporary; mesonephric (Wolffian) duct → male genital structures
-- **Metanephros:** metanephric diverticulum (ureter, renal pelvis, calyces, collecting ducts) + metanephric mesenchyme (nephron formation)
-- **Ureteric bud** elongates into metanephric mesenchyme → collecting duct system
-- **Clinical:** Renal agenesis — Potter sequence ( oligohydramnios → limb deformities, facial abnormalities, pulmonary hypoplasia); horseshoe kidney (inferior fusion at lower poles); Wilms tumor (nephroblastoma — most common renal malignancy in children)
+**Skeletal muscle** is composed of long, cylindrical, multinucleated fibers with peripheral nuclei arranged in parallel bundles. The cytoplasm contains myofibrils with repeating units (sarcomeres) of alternating A bands (myosin thick filaments) and I bands (actin thin filaments) that create the characteristic cross-striations. The sarcolemma (cell membrane) invaginates as T-tubules that conduct action potentials deep into the fiber. Each muscle fiber is innervated by a single motor neuron at the neuromuscular junction (motor end-plate), where acetylcholine is released from the presynaptic terminal, binding to nicotinic ACh receptors on the postsynaptic membrane to trigger muscle contraction. All muscle fibers innervated by one motor neuron constitute a **motor unit** — the smallest functional unit of skeletal muscle.
 
----
+**Cardiac muscle** is found only in the heart. It consists of branching cells with a single centrally located nucleus, connected end-to-end by **intercalated discs** (which contain fascia adherens, desmosomes, and gap junctions for electrical coupling). The cells are striated but the striations are less regular than in skeletal muscle. There are two functional cell types: **contractile cardiomyocytes** (the majority) and **autorhythmic cells** (pacemaker and conducting cells in the SA node, AV node, bundle of His, and Purkinje fibers).
 
-### 🔴 Extended — Deep Study (3mo+)
+**Smooth muscle** is found in the walls of viscera (gut, bladder, uterus), blood vessels, the iris, and the ciliary body. It consists of spindle-shaped cells with a single central nucleus, non-striated, and under involuntary control. The contractile apparatus consists of actin and myosin filaments arranged in a lattice, anchored to dense bodies in the cytoplasm.
 
-**Extremity Development**
-- Limb buds appear at week 4 (upper before lower)
-- **Apical ectodermal ridge (AER)** — essential for limb outgrowth
-- **Zone of polarizing activity (ZPA)** — determines anterior-posterior axis (Shh gene)
-- **Upper limb rotation:** 90° laterally → thumbs laterally
-- **Lower limb rotation:** 90° medially → great toe medially
-- **Muscles:** derived from somatic mesoderm (myotomes)
-- **Nerves:** brachial plexus for upper limb; lumbosacral plexus for lower limb
-- **Clinical:** Polydactyly (extra digits), syndactyly (fused digits), Amelia (absent limb), meromelia (partial limb absence)
+**Clinical correlations:** Myasthenia gravis is an autoimmune disease where antibodies against the nicotinic acetylcholine receptor at the neuromuscular junction cause fatigable muscle weakness (worse with repeated use). Duchenne muscular dystrophy is an X-linked recessive disorder (affecting boys) where mutations in the dystrophin gene cause progressive muscle degeneration. Myocardial infarction results in cardiomyocyte death and release of cardiac troponins I and T — used as diagnostic markers. Smooth muscle hypertrophy in arterial walls contributes to hypertension.
 
-**Gonadal Development**
-- **Indifferent stage:** gonadal ridge + paramesonephric (Müllerian) ducts + mesonephric (Wolffian) ducts
-- **SRY gene** on Y chromosome → testis-determining factor → development of Sertoli cells (MIS → Müllerian regression) and Leydig cells (testosterone → Wolffian duct → male internal genitalia)
-- **Without SRY:** female development → Müllerian ducts → female internal genitalia (fallopian tubes, uterus, upper vagina)
-- **External genitalia:** initially indifferent (genital tubercle, urethral folds, labioscrotal swellings)
-  - DHT → male external genitalia
-  - Without DHT → female external genitalia
-- **Clinical:** Androgen insensitivity syndrome (46 XY, testes, no Müllerian structures, female phenotype); 5-alpha reductase deficiency; true hermaphroditism
+## Nervous Tissue — Neurons and Neuroglia
 
-**Placenta Development**
-- **Cytotrophoblast** → syncytiotrophoblast (outer layer) + cytotrophoblast (inner layer)
-- **Chorionic villi:** primary → secondary → tertiary (contain fetal blood vessels)
-- **Placental barrier:** syncytiotrophoblast, cytotrophoblast, connective tissue, fetal endothelium (thin in late pregnancy)
-- **Functions:** exchange (O2, CO2, nutrients), hormone production (hCG, progesterone, estrogen), immunological barrier
-- **Clinical:** Placenta previa (painless bleeding in third trimester, previa = low-lying); placental abruption (painful bleeding); placenta accreta (abnormal invasion into myometrium)
+**Neurons** are the functional units of the nervous system, consisting of a cell body (soma), dendrites, and an axon. The cell body contains the nucleus and Nissl substance (rough endoplasmic reticulum for protein synthesis). Dendrites are short, branching processes that receive signals; the axon is a single long process that conducts impulses away from the cell body and may be myelinated. **Multipolar neurons** have multiple dendrites and one axon — the most common type in the CNS. **Bipolar neurons** have one dendrite and one axon — found in the retina, olfactory epithelium, and vestibulocochlear ganglia. **Pseudounipolar neurons** have a single process that divides into peripheral and central branches — the cell body sits off to the side, as in dorsal root ganglia and sensory ganglia of cranial nerves.
 
-**Neural Crest — Key Derivatives:**
-- Dorsal root ganglia (sensory)
-- Autonomic ganglia (sympathetic + parasympathetic)
-- Schwann cells
-- Melanocytes
-- Pia and arachnoid mater
-- Adrenal medulla (chromaffin cells)
-- Odontoblasts
-- Pharyngeal arch cartilage (most)
-- Craniofacial bones (calvaria)
-- **Clinical:** Neurocristopathy — Treacher Collins (mandibulofacial dysostosis), DiGeorge (22q11 deletion), CHARGE association
+**Neuroglia** (glial cells) are the non-neuronal cells of the CNS. **Astrocytes** — the most numerous — have star-shaped cell bodies with multiple processes that form the blood-brain barrier (via their foot processes on capillaries), provide metabolic support for neurons, and regulate extracellular potassium and neurotransmitter levels. **Oligodendrocytes** produce myelin (a lipid-rich insulating layer) in the CNS — each oligodendrocyte can myelinate multiple axons. **Microglia** are the resident macrophages of the CNS — derived from blood monocytes, they phagocytose dead cells and debris. **Ependymal cells** line the ventricles and central canal of the spinal cord; they have cilia that help circulate CSF.
 
-**Teratogenicity — Critical Periods:**
+In the PNS, **Schwann cells** myelinate axons (one Schwann cell per internode) and support nerve regeneration. **Satellite cells** surround neuronal cell bodies in ganglia, providing support and regulation.
 
-| Period | Weeks 1–3 | Weeks 4–8 | Weeks 9–38 |
-|---|---|---|---|
-| Effect | All-or-none | Major structural defects | Growth, minor defects |
-| Example | — | Thalidomide (phocomelia) | DES (vaginal adenocarcinoma in offspring) |
+**Synapses** are junctions for signal transmission — most commonly axodendritic (axon to dendrite), but axosomatic and axoaxonic synapses also exist. The presynaptic terminal contains synaptic vesicles filled with neurotransmitter; the synaptic cleft separates it from the postsynaptic membrane containing the appropriate receptors.
 
-**Twin Pregnancy:**
-- **Dizygotic (fraternal):** 2 ova fertilized, 2 amnions, 2 chorions, can be different sexes
-- **Monozygotic (identical):** 1 ovum splits:
-  - Day 1–3 (before morula): 2 amnions, 2 chorions, 2 placentas
-  - Day 4–8 (after morula, before amnion): 2 amnions, 1 chorion, 1 placenta
-  - Day 8–13: 1 amnion, 1 chorion, 1 placenta (most common)
-- **Clinical:** Twin-twin transfusion syndrome (unbalanced arteriovenous anastomoses in shared placenta); conjoined twins (late splitting)
+**Clinical correlations:** Alzheimer's disease is characterized by extracellular amyloid plaques and intracellular neurofibrillary tangles (hyperphosphorylated tau protein). Parkinson's disease involves loss of dopamine-producing neurons in the substantia nigra pars compacta, causing Lewy bodies (alpha-synuclein inclusions). Multiple sclerosis is an autoimmune demyelinating disease of the CNS — oligodendrocyte damage leads to areas of demyelination ("plaques"). Guillain-Barré syndrome is an acute inflammatory demyelinating polyneuropathy often triggered by infection, causing ascending paralysis.
 
-**Common Congenital Malformations — Embryological Basis:**
-- **Tracheoesophageal fistula:** failure of foregut separation; presents with choking, aspiration, pneumonitis
-- **Esophageal atresia:** often with distal TEF; polyhydramnios prenatally
-- **Pyloric stenosis:** hypertrophy of pyloric muscle; presents at 2–6 weeks with projectile vomiting
-- **Hirschsprung's:** absent ganglion cells in rectosigmoid (neural crest migration failure)
-- **Omphalocele:** failure of midgut return to abdomen; covered by sac
-- **Gastroschisis:** paraumbilical defect; bowel herniated without covering sac
+## Skin — Epidermis, Dermis, and Appendages
 
----
-*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+**The epidermis** is a keratinized stratified squamous epithelium organized into five layers from deep to superficial: the **stratum basale** (single layer of columnar cells sitting on the basement membrane — the only mitotically active layer, producing new cells that migrate upward), the **stratum spinosum** (multiple layers of polyhedral cells with desmosomal connections that appear as "prickles"), the **stratum granulosum** (3–5 layers of flattened cells containing keratohyalin granules that crosslink keratin filaments), the **stratum lucidum** (a thin, translucent layer of dead cells found only in thick skin of palms and soles), and the **stratum corneum** (multiple layers of dead, anucleate, keratin-filled cells that desquamate). **Melanocytes** — neural crest-derived cells residing in the basale — produce melanin and transfer it to keratinocytes; their density determines skin color. Langerhans cells (in the spinosum) are antigen-presenting cells of the immune system.
+
+**The dermis** is divided into the **papillary layer** (areolar connective tissue with capillaries, Meissner's corpuscles for light touch, and the dermal papillae that interdigitate with epidermal rete ridges) and the **reticular layer** (dense irregular connective tissue with thick collagen bundles, hair follicle roots, sweat glands, Ruffini endings for stretch, Pacinian corpuscles for deep pressure, and arteriovenous anastomoses).
+
+**Appendages of the skin** include hair follicles (invaginations of epidermis with associated sebaceous glands and arrector pili smooth muscle — "goosebumps"), **sebaceous glands** (holocrine glands producing sebum — most numerous on the face and scalp; associated with hair follicles everywhere except palms and soles), **sweat glands** (eccrine — most numerous, producing watery sweat for thermoregulation, found everywhere; apocrine — confined to axillae, pubic region, and areola, producing viscous secretion in response to stress and sexual stimulation), and **nails** (keratinized plates on the dorsal surface of distal phalanges — nail matrix is the proliferative zone at the nail root).
+
+**Clinical correlations:** Melanoma — the most lethal skin cancer — arises from melanocytes and spreads via lymphatics; the ABCDE criteria help identify suspicious lesions (Asymmetry, Border irregularity, Color variation, Diameter >6mm, Evolution). Basal cell carcinoma is the most common skin cancer — slow-growing, locally invasive, rarely metastasizes; presents as a pearly papule with telangiectasia. Squamous cell carcinoma arises from keratinocytes, associated with UV exposure, can metastasize. Psoriasis is a chronic inflammatory condition with epidermal hyperproliferation (acanthosis) and parakeratosis. Contact dermatitis (types I and IV hypersensitivity) results from allergen exposure.

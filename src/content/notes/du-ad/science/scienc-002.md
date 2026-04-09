@@ -16,9 +16,9 @@ generated: "2026-03-25T17:00:00"
 > Rapid summary for last-minute revision before your exam.
 
 **Topic 2** — Key Facts for DU Admission (Bangladesh)
-Core concept: Atomic Structure and Periodic Table — electronic configuration and element properties
-High-yield point: Electronic configuration, periodic trends, Bohr model
-⚡ Exam tip: Questions on quantum numbers, orbital filling (Aufbau principle), and periodic trends appear frequently
+Core concept: Atomic Structure and the Periodic Table — arrangement of electrons determines chemical behavior
+High-yield point: Electronic configuration following Aufbau principle, quantum numbers, periodic trends in atomic properties
+⚡ Exam tip: Aufbau diagram sequence, Hund's rule, and periodic trend explanations are frequently tested in multiple-choice and short-answer questions
 
 ---
 
@@ -26,10 +26,10 @@ High-yield point: Electronic configuration, periodic trends, Bohr model
 > Standard content for students with a few days to months.
 
 **Topic 2** — DU Admission (Bangladesh) Study Guide
-Overview: Atomic structure and periodic table form the foundation of chemistry
-Core principles: Atomic models, electron configuration, periodic law
-Key points: Quantum numbers, Aufbau principle, periodic trends in properties
-Study strategy: Memorize the Aufbau diagram, learn periodic groups and their properties
+Overview: Understanding atomic structure illuminates why elements behave as they do and how the periodic table organizes chemical knowledge
+Core principles: Subatomic particle properties, evolution of atomic models, quantum mechanical description of electrons, periodic law
+Key points: Electronic configuration using Aufbau principle, four quantum numbers, orbital shapes and energies, periodic property trends across groups and periods
+Study strategy: Memorize the Aufbau diagram sequence, practice writing electron configurations, learn group trends with causal explanations
 
 ---
 
@@ -38,241 +38,164 @@ Study strategy: Memorize the Aufbau diagram, learn periodic groups and their pro
 
 ## Atomic Structure and Periodic Table — Complete Study Notes
 
-### Discovery of Subatomic Particles
+### The Subatomic Particle Zoo
 
-| Particle | Symbol | Charge | Mass | Discoverer/Year |
-|----------|--------|--------|------|----------------|
-| Electron | e⁻ | −1 | 9.11×10⁻³¹ kg (0.00055 amu) | J.J. Thomson (1897) |
-| Proton | p⁺ | +1 | 1.67×10⁻²⁷ kg (1.007 amu) | Rutherford (1919) |
-| Neutron | n⁰ | 0 | 1.67×10⁻²⁷ kg (1.008 amu) | Chadwick (1932) |
+All ordinary matter consists of just three fundamental particles, though nuclear physics reveals many more exotic species. These three determine the chemical identity and most physical properties of atoms.
 
-**Important facts:**
-- Atomic number (Z) = Number of protons
-- Mass number (A) = Protons + Neutrons
-- Isotopes: Same Z, different A (e.g., ₁H², ₁H³)
-- Isobars: Different Z, same A (e.g., ₆C¹⁴, ₇N¹⁴)
-- Isotones: Different Z, different A, same neutrons (e.g., ₆C¹⁴, ₈O¹⁶)
+| Particle | Symbol | Relative Charge | Rest Mass | Discovery |
+|----------|--------|----------------|-----------|-----------|
+| Electron | e⁻ | −1 | 9.109 × 10⁻³¹ kg (0.00055 amu) | J.J. Thomson (1897) |
+| Proton | p⁺ | +1 | 1.673 × 10⁻²⁷ kg (1.007 amu) | Ernest Rutherford (1919) |
+| Neutron | n⁰ | 0 | 1.675 × 10⁻²⁷ kg (1.008 amu) | James Chadwick (1932) |
 
-### Atomic Models
+The **atomic number (Z)** equals the number of protons and uniquely identifies an element — no two elements share the same Z. The **mass number (A)** is the total count of protons plus neutrons. Isotopes of a given element possess identical Z but different A values because they differ in neutron count. Isobars are nuclei with identical A but different Z, while isotones share the same neutron number despite different proton counts.
+
+### Evolution of Atomic Models
 
 #### Dalton's Atomic Theory (1808)
-1. All matter made of atoms
-2. Atoms are indivisible
-3. Atoms of same element are identical
-4. Atoms of different elements are different
-5. Atoms combine in simple whole number ratios
-6. Atoms cannot be created or destroyed
-
-**Limitations:** Does not explain electromagnetic nature of atoms.
+John Dalton proposed that all matter consists of indivisible atoms of each element, identical in mass and properties for a given element, and that atoms combine in simple whole-number ratios to form compounds. Though foundational, Dalton's model failed to account for the electrical nature of matter and the existence of subatomic particles.
 
 #### Thomson's Plum Pudding Model (1898)
-- Positive sphere with electrons embedded (like plums in pudding)
-- Explained neutrality of atom
-- **Disproven by Rutherford's gold foil experiment**
+J.J. Thomson discovered the electron and proposed a model wherein the atom consisted of a diffuse sphere of positive charge containing electrons embedded within it — rather like plums distributed throughout a pudding. This explained overall atomic neutrality but was conclusively disproven by Rutherford's gold foil experiment.
 
 #### Rutherford's Nuclear Model (1911)
-- All positive charge concentrated in tiny nucleus (10⁻¹³ cm)
-- Electrons orbit around nucleus
-- **Evidence**: Gold foil experiment — most α-particles passed through, few deflected, very few bounced back
-- **Problem**: Accelerated electrons should emit radiation and fall into nucleus (classical physics prediction) — not stable!
+Rutherford's gold foil experiment fired alpha particles at a thin gold foil. The startling observation that most particles passed through undeflected while a few bounced backward at large angles led to the revolutionary conclusion that atoms consist mostly of empty space, with all positive charge and most mass concentrated in an extremely small, dense nucleus. The problem: classical electromagnetism predicted that orbiting electrons should continuously radiate electromagnetic energy and spiral into the nucleus within fractions of a second. Atoms should be unstable — they manifestly are not.
 
-#### Bohr's Model (1913)
-**Postulates:**
-1. Electrons revolve in specific circular orbits (stationary states)
-2. Energy of electron is quantized
-3. Electron absorbs energy → jumps to higher orbit (excited state)
-4. Electron falls back → emits energy as photon
-5. Angular momentum is quantized: **mvr = nh/2π**
+#### Bohr's Quantized Model (1913)
+Niels Bohr resolved the stability paradox by introducing three radical postulates:
+1. Electrons occupy only specific **stationary states** (orbits) without radiating energy
+2. These stationary states have **quantized (discrete) energy levels**
+3. An electron transitions between stationary states by absorbing or emitting a photon of energy exactly matching the energy difference: **E_photon = E_final − E_initial**
 
-**Energy levels:** Eₙ = −13.6/n² eV (for hydrogen)
+For hydrogen, electron energy in level n is: **E_n = −13.6/n² electronvolts (eV)**
 
-**Rydberg formula for hydrogen spectrum:**
-1/λ = R(1/n₁² − 1/n₂²) where R = 1.097 × 10⁷ m⁻¹
+Angular momentum quantization: **mvr = nh/2π** where h is Planck's constant.
 
-**Limitations:**
-- Only explains hydrogen spectrum
-- Does not explain fine structure
-- Violates Heisenberg's uncertainty principle
+The Bohr model successfully explained the hydrogen emission spectrum, generating the famous series: Lyman (UV, transitions to n=1), Balmer (visible, transitions to n=2), Paschen (infrared, transitions to n=3). Despite these successes, Bohr's model failed for multi-electron atoms, could not explain fine spectral structure, and was fundamentally incompatible with Heisenberg's uncertainty principle.
 
-#### Modern Quantum Mechanical Model
+#### Modern Quantum Mechanical Model (1926 onward)
+Werner Heisenberg's uncertainty principle establishes a fundamental limit on knowledge:
 
-**Heisenberg's Uncertainty Principle:**
-Δx · Δp ≥ h/4π or Δx · Δv ≥ h/4πm
+**Δx · Δp ≥ ℏ/2** (or equivalently **Δx · Δv ≥ ℏ/4πm**)
 
-- Cannot simultaneously determine exact position and momentum
-- Orbitals replace "orbits" — probability distributions
+where ℏ = h/2π. This principle implies that confining an electron to a small region (small Δx) necessarily increases its momentum uncertainty (large Δp), making its momentum and therefore its energy poorly defined. The classical concept of a definite electron orbit becomes meaningless. Instead, electrons occupy **orbitals** — three-dimensional probability distributions described by the Schrödinger wave equation (ψ). The probability density ψ² gives the probability of finding the electron in a given region of space.
 
-**Schrödinger Wave Equation (1926):**
-ψ² = probability density of finding electron
+### The Four Quantum Numbers
 
-### Quantum Numbers
+Each electron in any atom is completely specified by four quantum numbers. No two electrons in the same atom can share all four quantum numbers (Pauli exclusion principle).
 
-Four quantum numbers describe each electron:
+#### Principal Quantum Number (n)
+- Designates the electron shell: K-shell (n=1), L-shell (n=2), M-shell (n=3), N-shell (n=4), and so forth
+- Determines the electron's energy level and approximate average distance from the nucleus
+- Determines the maximum number of electrons a shell can hold: **2n²**
 
-#### 1. Principal Quantum Number (n)
-- Shell: K(1), L(2), M(3), N(4), O(5)...
-- Determines energy level and average distance from nucleus
-- Values: 1, 2, 3, 4...
+| Shell (n) | Maximum electrons (2n²) |
+|-----------|--------------------------|
+| 1 (K) | 2 |
+| 2 (L) | 8 |
+| 3 (M) | 18 |
+| 4 (N) | 32 |
 
-#### 2. Azimuthal Quantum Number (l)
-- Sub-shell: s(0), p(1), d(2), f(3)...
-- Values: 0 to (n-1)
-- Shape of orbital
+#### Azimuthal Quantum Number (l)
+- Also called orbital quantum number or subsidiary quantum number
+- Specifies the sub-shell within a given shell: s (l=0), p (l=1), d (l=2), f (l=3)
+- Values range from 0 to (n−1)
+- Determines the shape of the orbital and contributes to electron energy
 
-#### 3. Magnetic Quantum Number (m_l)
-- Orientation of orbital
-- Values: −l to +l (including zero)
+#### Magnetic Quantum Number (m_l)
+- Specifies the orientation of the orbital in space
+- Values range from −l through 0 to +l
+- For p orbitals (l=1): m_l = −1, 0, +1 (three orientations: p_x, p_y, p_z)
+- For d orbitals (l=2): m_l = −2, −1, 0, +1, +2 (five orientations)
 
-#### 4. Spin Quantum Number (m_s)
-- Direction of electron spin
-- Values: +½ (spin up ↑) or −½ (spin down ↓)
+#### Spin Quantum Number (m_s)
+- Describes the direction of electron spin angular momentum
+- Can only take two values: **+½ (spin-up, ↑)** or **−½ (spin-down, ↓)**
+- Independent of the orbital quantum numbers
 
-### Electronic Configuration
+### Electronic Configuration and the Aufbau Principle
+
+Electrons occupy orbitals following systematic rules:
 
 #### Aufbau Principle
-Electrons fill orbitals in order of increasing energy.
-**Order:** 1s → 2s → 2p → 3s → 3p → 4s → 3d → 4p → 5s → 4d → 5p → 6s → 4f → 5d → 6p → 7s → 5f → 6d → 7p
+Electrons fill orbitals in order of increasing energy level, determined by the **(n + l) rule**: when comparing two orbitals, the one with the lower (n + l) sum fills first; if sums are equal, the lower n value fills first.
 
-**Memory aid:** "Some Poor Fancy Students Rather Marry Pretty Science Teachers" (1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p, 5s, 4d, 5p, 6s, 4f, 5d, 6p, 7s, 5f, 6d, 7p)
+**The energy ordering sequence:** 1s → 2s → 2p → 3s → 3p → 4s → 3d → 4p → 5s → 4d → 5p → 6s → 4f → 5d → 6p → 7s → 5f → 6d → 7p
+
+Mnemonic aid: "**S**ome **P**oor **F**ancy **S**tudents **R**ather **M**arry **P**retty **S**cience **T**eachers**"** (1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p, 5s, 4d, 5p, 6s, 4f, 5d, 6p, 7s, 5f, 6d, 7p)
 
 #### Hund's Rule of Maximum Multiplicity
-Electrons fill degenerate orbitals singly first with parallel spins before pairing.
+When degenerate orbitals (orbitals of equal energy, such as the three p orbitals or five d orbitals) are available, electrons occupy them singly with parallel spins before any orbital receives a second electron. This maximizes total spin and produces the most stable electron configuration.
 
-**Example: Carbon (6 electrons)**
-- 1s² 2s² 2p²
-- p orbitals: ↑↓ (one orbital filled), ↑ ↑ (two orbitals with parallel electrons)
+**Example — Nitrogen (7 electrons):**
+- Configuration: 1s² 2s² 2p³
+- p orbital occupation: ↑ ↑ ↑ (three unpaired electrons with parallel spins)
+- NOT ↑↓ ↑ ↑ (which would place two electrons in one orbital)
 
 #### Pauli Exclusion Principle
-No two electrons in an atom can have all four quantum numbers identical.
+No two electrons in a single atom can possess identical values for all four quantum numbers. Since electrons in the same orbital share the same n, l, and m_l values, they must differ in spin (m_s = +½ vs −½). This limits each orbital to exactly two electrons with opposite spins.
 
-**Maximum electrons:**
-- s orbital: 2 electrons
-- p orbital: 6 electrons
-- d orbital: 10 electrons
-- f orbital: 14 electrons
+**Maximum electron capacity by sub-shell:**
+- s orbital (l=0): 2 electrons
+- p subshell (l=1): 6 electrons (three orbitals × 2)
+- d subshell (l=2): 10 electrons (five orbitals × 2)
+- f subshell (l=3): 14 electrons (seven orbitals × 2)
 
-### Periodic Table
+### The Periodic Table: Organization of Elements
 
-**18 groups, 7 periods**
-- **Groups**: Vertical columns (similar chemical properties)
-- **Periods**: Horizontal rows (same number of shells)
+The modern periodic table arranges 118 elements in 18 vertical groups and 7 horizontal periods. This arrangement is not arbitrary — it reflects recurring patterns in chemical behavior arising from electron configuration.
 
-#### s-Block (Groups 1, 2)
-- ns¹, ns² configuration
-- Highly reactive metals (alkali, alkaline earth)
-- Form +1, +2 ions respectively
+#### Electronic Configuration by Block
 
-#### p-Block (Groups 13-18)
-- ns² np¹⁻⁶ configuration
-- Includes metals, metalloids, non-metals
-- Groups 17: Halogens (most reactive non-metals)
-- Group 18: Noble gases (inert)
+**s-Block elements** (Groups 1 and 2 plus helium): ns¹ and ns² configurations. These are generally reactive metals — alkali metals (Group 1) with +1 oxidation state and alkaline earth metals (Group 2) with +2 oxidation state.
 
-#### d-Block (Transition metals, Groups 3-12)
-- (n-1)d¹⁻¹⁰ ns⁰⁻²
-- Variable oxidation states
-- Form colored compounds
-- Paramagnetic properties
+**p-Block elements** (Groups 13 through 18): ns² np¹ through ns² np⁶ configurations. This block contains metals, metalloids, non-metals, halogens (Group 17, most reactive non-metals), and noble gases (Group 18, chemically inert).
 
-#### f-Block (Inner transition metals)
-- Lanthanides (4f) and Actinides (5f)
-- All are radioactive
+**d-Block elements** (Groups 3 through 12, transition metals): Characterized by (n−1)d¹⁻¹⁰ ns⁰⁻² configurations. They exhibit variable oxidation states, form colored compounds, and display paramagnetic properties.
 
-### Periodic Trends
+**f-Block elements** (Lanthanides and Actinides): 4f and 5f series respectively. All f-block elements are metals, and most actinides are radioactive.
 
-#### 1. Atomic Radius
-- **Decreases across a period** (L→R): More protons, same shell, greater nuclear pull
-- **Increases down a group** (T→B): New shells added
+### Periodic Trends in Atomic Properties
 
-#### 2. Ionization Energy (IE)
-- Energy to remove outermost electron
-- **Increases across a period** (generally)
-- **Decreases down a group** (outer electron farther from nucleus)
-- Exceptions: Group 13 (Boron) vs Group 2 (Beryllium) — 13 > 2 due to p-orbital stability
-- Noble gases have highest IE in each period
+#### Atomic Radius
+Atomic radius **decreases across a period** (left to right) because increasing nuclear charge (more protons) pulls all electrons closer while no new shells are added. Atomic radius **increases down a group** because each successive period adds an entirely new electron shell, expanding the radius despite increased nuclear charge.
 
-#### 3. Electron Affinity (EA)
-- Energy released when electron added
-- **Increases across a period** (generally)
-- **Decreases down a group**
-- Chlorine has highest EA (most negative)
+#### Ionization Energy (IE)
+The energy required to remove the outermost electron from a neutral gaseous atom measures how tightly the electron is bound. Ionization energy **increases across a period** (more protons = stronger pull = harder to remove electron) and **decreases down a group** (outer electrons reside in higher shells farther from the nucleus and shielded by inner electrons). Notable exceptions occur at group boundaries where electron sub-shell stability creates irregular trends (e.g., IE of B is lower than Be because removing a p-electron is easier than removing an s-electron).
 
-#### 4. Electronegativity
-- Tendency to attract shared electrons
-- **Increases across a period, decreases down group**
-- Fluorine (most electronegative) = 4.0
-- Francium (least) = 0.7
+#### Electron Affinity (EA)
+Electron affinity measures the energy released when a neutral atom gains an electron to form a negative ion. EA generally **becomes more negative across a period** (atoms increasingly attract additional electrons) and **becomes less negative down a group**. Chlorine possesses the most negative electron affinity among all elements.
 
-#### 5. Metallic Character
-- **Decreases across a period**
-- **Increases down a group**
-- Most metallic: Francium (bottom left)
-- Most non-metallic: Fluorine (top right)
+#### Electronegativity
+The tendency of an atom to attract shared electrons in a chemical bond — a conceptual blend of ionization energy and electron affinity. Electronegativity **increases across a period** and **decreases down a group**. Fluorine is the most electronegative element (EN = 4.0 on the Pauling scale); francium is least electronegative (EN ≈ 0.7).
 
-### Important Elements and Electronic Configurations
+#### Metallic Character
+The tendency of an element to lose electrons and form positive ions. This trend **decreases across a period** (non-metals gain electrons) and **increases down a group** (outer electrons are farther from the nucleus and easier to remove). The most metallic elements occupy the bottom-left corner of the periodic table; the most non-metallic elements occupy the top-right corner.
 
-| Element | Z | Configuration |
-|---------|---|--------------|
-| Hydrogen | 1 | 1s¹ |
-| Helium | 2 | 1s² |
-| Carbon | 6 | 1s² 2s² 2p² |
-| Nitrogen | 7 | 1s² 2s² 2p³ |
-| Oxygen | 8 | 1s² 2s² 2p⁴ |
-| Sodium | 11 | [Ne] 3s¹ |
-| Chlorine | 17 | [Ne] 3s² 3p⁵ |
-| Potassium | 19 | [Ar] 4s¹ |
-| Iron | 26 | [Ar] 3d⁶ 4s² |
-| Copper | 29 | [Ar] 3d¹⁰ 4s¹ (exception) |
+### Key Constants for the Examination
 
-**Notable exceptions in configuration:**
-- Cr: [Ar] 3d⁵ 4s¹ (not 3d⁴ 4s²)
-- Cu: [Ar] 3d¹⁰ 4s¹ (not 3d⁹ 4s²)
-
-### Electromagnetic Spectrum and Atomic Spectra
-
-**Emission spectrum:**
-- Excited electrons fall back → emit photons
-- Each element has unique line spectrum (fingerprint)
-- Hydrogen spectrum series:
-  - Lyman series: UV (n₁=1)
-  - Balmer series: Visible (n₁=2)
-  - Paschen series: IR (n₁=3)
-
-**Photoelectric Effect:**
-- K.E._max = hν − φ (Einstein's equation)
-- φ = work function (minimum energy to eject electron)
-- Threshold frequency: ν₀ = φ/h
-
-### Must-Remember Facts
-
-| Value | Number |
-|-------|--------|
-| Charge on electron | −1.6 × 10⁻¹⁹ C |
-| Mass of electron | 9.11 × 10⁻³¹ kg |
-| Mass of proton | 1.67 × 10⁻²⁷ kg |
-| Mass of neutron | 1.67 × 10⁻²⁷ kg |
-| Bohr radius | 0.529 Å |
+| Constant | Value |
+|----------|-------|
+| Electron charge | 1.602 × 10⁻¹⁹ C |
+| Electron mass | 9.109 × 10⁻³¹ kg |
+| Proton/neutron mass | 1.673 × 10⁻²⁷ kg |
 | Rydberg constant | 1.097 × 10⁷ m⁻¹ |
+| Bohr radius | 0.529 Å (5.29 × 10⁻¹¹ m) |
 | Planck's constant | 6.626 × 10⁻³⁴ J·s |
+| h (reduced) | ℏ = h/2π |
 
-### Common DU Admission Questions
+### Common Examination Question Types
 
-1. Electronic configuration of elements (Aufbau principle)
-2. Quantum numbers for a given electron
-3. Periodic trends — atomic radius, ionization energy
-4. Difference between isotopes, isobars, isotones
-5. Bohr model energy calculation
-6. Photoelectric effect equation
-7. Hund's rule application
+1. **Writing electron configurations** — follow Aufbau principle with exceptions (Cr, Cu, Mo, Ag, etc.)
+2. **Quantum number problems** — determine valid quantum numbers for a specified electron
+3. **Periodic trends** — predict relative atomic radius, ionization energy, or electronegativity and explain the reasoning
+4. **Distinguishing isotopes, isobars, isotones** — count protons, neutrons, or both
+5. **Bohr model calculations** — energy of photon emitted or absorbed during transition
+6. **Photoelectric effect** — K.E._max = hν − φ where ν is frequency and φ is work function
 
-### Exam Tips
+### Examination Strategy
 
-- Remember: n + l rule for orbital energy ordering
-- Larger n = higher energy level
-- For same n: higher l = higher energy
-- s-subshell is spherical, p is dumbbell-shaped
-- Always count total electrons to confirm configuration
-- Atomic radius decreases → IE increases → electronegativity increases (across period)
+The most reliable approach to electron configuration questions is drawing the Aufbau diagram and filling orbitals sequentially. For quantum number problems, remember that n must be a positive integer, l ranges from 0 to (n−1), m_l ranges from −l to +l, and m_s is strictly +½ or −½. For periodic trend questions, always provide a causal explanation linking the property to nuclear charge, electron shells, or shielding — not merely stating the trend direction.
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

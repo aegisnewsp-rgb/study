@@ -57,6 +57,21 @@ const breadcrumbJsonLd = {
   ],
 };
 
+const notesItemList = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: 'All Study Notes by Exam on StudyRoadmap',
+  description: `Browse free study notes for ${examsWithNotesCount} competitive exams including NEET, JEE Main, UPSC, MDCAT, JAMB, WAEC and more.`,
+  numberOfItems: examsWithNotes.length,
+  itemListElement: examsWithNotes.map((exam, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    url: `${siteUrl}/notes/${exam.exam}`,
+    name: exam.examName,
+    description: `${exam.totalTopics} study notes across ${exam.subjects} subjects`,
+  })),
+};
+
 const examsWithNotes = examMeta.filter(e => e.totalTopics > 0);
 const examsWithNotesCount = examsWithNotes.length;
 // Top exams by topic count for the FAQ sample

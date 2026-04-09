@@ -10,139 +10,60 @@ country: fmge
 generated: "2026-03-25T17:00:00"
 ---
 
-# Thorax — Heart, Lungs & Great Vessels
+# Thorax — Heart, Great Vessels, Lungs, Bronchial Tree & Mediastinum
 
-### 🟢 Lite — Quick Review (1h–1d)
+## Pericardium and Surface Anatomy of the Heart
 
-**Heart & Pericardium**
-- Pericardium: fibrous outer layer + parietal serous layer (continuous with visceral layer at great vessel reflections)
-- Pericardial cavity contains 20–30 mL of serous fluid
-- **Fibrous pericardium** attached to central tendon of diaphragm, sternum, and great vessels
-- **Clinical:** Pericarditis — inflammation causing chest pain (pleuritic, worse lying flat), pericardial friction rub; cardiac tamponade — Beck's triad (hypotension, JVD, muffled heart sounds)
+The pericardium surrounds the heart and the roots of the great vessels, consisting of a fibrous outer layer and a serous inner layer. The fibrous pericardium is a tough, dense connective tissue sac that blends with the central tendon of the diaphragm inferiorly, the ascending aorta and superior vena cava superiorly, and attaches to the sternum via the sternopericardial ligaments. The serous layer is subdivided into parietal (lining the inside of the fibrous pericardium) and visceral (covering the heart — also called the epicardium). The pericardial cavity is the potential space between these two serous layers, containing approximately 20–30 milliliters of serous fluid that reduces friction during cardiac contraction.
 
-**Surface Anatomy of Heart**
-- Right border: SVC, right atrium
-- Left border: left auricle, pulmonary trunk, aorta
-- Diaphragmatic surface: left ventricle, right ventricle
-- Apex: left ventricle (5th intercostal space, midclavicular line)
-- **Clinical:** Mitral valve lies behind left atrial appendage; aortic valve behind pulmonary trunk
+The **heart** lies in the middle mediastinum, with its apex pointing anterolaterally toward the left fifth intercostal space at the midclavicular line. Its borders are: the right border formed by the right atrium (extending from SVC to IVC), the left border by the left auricle, pulmonary trunk, and aorta, the inferior border by the right ventricle, and the diaphragmatic surface by the left ventricle and right ventricle. The coronary sulcus separates the atria from the ventricles; the anterior and posterior interventricular sulci mark the septal borders.
 
-**Coronary Circulation**
-- **Left coronary artery:** main stem → LAD (anterior interventricular septum, anterior wall LV, anterior 2/3 of septum) + LCx (left atrium, left ventricle, SA node in 40%)
-- **Right coronary artery:** right atrium, RV, posterior wall LV, PDA (posterior 1/3 of septum, AV node in 90%)
-- **Dominance:** right-dominant (70–85%), left-dominant, co-dominant
-- **Clinical:** LAD occlusion → anteroseptal MI; RCA occlusion → inferior MI
+**Clinical correlations:** Pericarditis causes pleuritic chest pain (worsened by lying flat, relieved by leaning forward) and produces a pericardial friction rub — a scratching sound heard across all cardiac areas. Cardiac tamponade — fluid accumulation in the pericardial cavity compressing the heart — produces Beck's triad: hypotension, elevated jugular venous pressure, and muffled heart sounds. The tamponade requires urgent pericardiocentesis (needle drainage), typically performed at the left xiphocostal angle.
 
-**Lungs & Pleura**
-- Lungs have apex (above clavicle), base, costal and mediastinal surfaces
-- Right lung: 3 lobes (upper, middle, lower) — horizontal fissure, oblique fissure; shorter and wider
-- Left lung: 2 lobes (upper, lower) — lingula (tongue-like projection); cardiac notch
-- Pleura: visceral (covers lung) and parietal (lines thoracic cavity) — pleural cavity between
-- **Hilum:** structures entering/exiting lung — bronchi, pulmonary vessels, bronchial vessels, lymphatics, nerves
-- **Clinical:** Pleural effusion — fluid in pleural space; pneumothorax — air in pleural space; thoracentesis at 7th intercostal space, midaxillary line
+## Chambers, Valves, and the Conducting System
 
----
+The right atrium receives blood from the SVC (which has no valve), the IVC (guarded by the valve of the IVC or Eustachian valve), and the coronary sinus (guarded by the Thebesian valve). Interiorly, the crista terminalis is a vertical ridge that separates the smooth posterior wall from the rough anterior wall lined by pectinate muscles. The fossa ovalis — an oval depression in the interatrial septum — is the remnant of the foramen ovale. The right ventricle has an inflow tract (from tricuspid valve to trabeculae carneae) and an outflow tract (infundibulum leading to the pulmonary valve). The tricuspid valve has three cusps — anterior, septal, and posterior — attached via chordae tendineae to papillary muscles. The left atrium has smooth walls with pectinate muscles confined to the auricle. Four pulmonary veins (two from each lung) open into the left atrium, carrying oxygenated blood. The left ventricle has the thickest wall (approximately three times the thickness of the right ventricular wall), reflecting its high-pressure workload. The mitral (bicuspid) valve has an anterior larger cusp and a posterior smaller cusp; the aortic valve has three cusps — right coronary, left coronary, and non-coronary.
 
-### 🟡 Standard — Regular Study (2d–2mo)
+The **conducting system** of the heart coordinates contraction. The sinoatrial (SA) node lies in the right atrial wall at the junction with the SVC — it is the normal pacemaker, firing at 60–100 beats per minute. The atrioventricular (AV) node lies in the interatrial septum anterior to the coronary sinus ostium — it delays impulses (rate-limiting step, firing at 40–60 bpm). The bundle of His penetrates the central fibrous body and divides into the left and right bundle branches, which further arborize into Purkinje fibers that spread through the ventricular myocardium.
 
-**Mediastinum — Divisions**
+**Clinical correlations:** Heart blocks occur at the AV node or below. First-degree block shows a prolonged PR interval on ECG. Second-degree Mobitz Type I (Wenckebach) shows progressive PR prolongation until a beat is dropped; Mobitz Type II shows sudden dropped beats without progressive PR prolongation and has a worse prognosis. Third-degree (complete) heart block shows complete AV dissociation. Myocardial infarction affecting the conducting system can cause bundle branch blocks or complete heart block.
 
-**Superior mediastinum** (above T4–T5 plane):
-- Thymus, great vessels (SVC, IVC, brachiocephalic veins, aortic arch, brachiocephalic trunk, carotid and subclavian arteries), vagus nerves, phrenic nerves, trachea, thoracic duct, esophagus
+## Coronary Circulation — Arteries and Dominance
 
-**Anterior mediastinum** (anterior to pericardium):
-- Thymic remnants, lymph nodes, internal mammary arteries
+The **left coronary artery** arises from the left aortic sinus and has a short main stem that bifurcates into the left anterior descending artery (LAD) and the left circumflex artery (LCx). The LAD runs in the anterior interventricular sulcus and supplies the anterior two-thirds of the interventricular septum (septal branches), the anterior wall of the left ventricle, and most of the anterior right ventricle. Occlusion causes anteroseptal myocardial infarction (ST elevation in leads V1–V4). The LCx runs in the left coronary sulque and supplies the left atrium, left ventricle, and sometimes the SA and AV nodes. Occlusion causes lateral MI (ST elevation in leads I, aVL, V5–V6).
 
-**Middle mediastinum** (contains pericardium and heart):
-- Heart, pericardium, roots of great vessels, coronary arteries, coronary sinus, phrenic nerves, tracheobronchial lymph nodes
+The **right coronary artery** arises from the right aortic sinus and runs in the right coronary sulque, supplying the right atrium, right ventricle, and posterior wall of the left ventricle. It gives off the SA nodal artery (in 60 percent of people) and the AV nodal artery (in 90 percent of people). The RCA terminates as the posterior descending artery (PDA), which supplies the posterior third of the interventricular septum and the inferior wall of the left ventricle. Occlusion causes inferior MI (ST elevation in leads II, III, aVF).
 
-**Posterior mediastinum** (posterior to pericardium):
-- Esophagus, thoracic aorta, azygos and hemiazygos veins, thoracic duct, vagus nerves, sympathetic trunks
+Coronary dominance is determined by which artery gives off the PDA. Right-dominant circulation (approximately 70 percent of people) occurs when the PDA arises from the RCA. Left-dominant circulation occurs when the PDA arises from the LCx. Codominant circulation occurs when both arteries contribute.
 
-**Trachea & Bronchial Tree**
-- Trachea begins at C6, ends at T4–T5 carina (bifurcates into right and left main bronchi)
-- Right main bronchus: wider, shorter, more vertical — foreign bodies more commonly lodge here
-- Main bronchi → lobar bronchi → segmental bronchi → terminal bronchioles → respiratory bronchioles → alveolar ducts → alveoli
-- **Clinical:** Bronchoscopy — left main bronchus harder to intubate due to aortic arch; aspiration more common in right lung
+**Clinical correlations:** Myocardial ischemia causes angina (crushing substernal chest pain radiating to the left arm, jaw, or back, provoked by exertion and relieved by rest). Acute coronary syndrome includes unstable angina, NSTEMI, and STEMI. LAD occlusion is the most life-threatening because of the large amount of myocardium at risk. Coronary artery bypass grafting (CABG) uses saphenous vein grafts or internal mammary artery grafts to bypass stenotic segments. Primary percutaneous coronary intervention (PCI) is the gold standard for STEMI when available within 90 minutes.
 
-**Diaphragm**
-- Muscular septum between thoracic and abdominal cavities
-- Origins: xiphoid process, costal margins (ribs 7–12), lumbar vertebrae (crura)
-- Insertion: central tendon (trifoliate shape)
-- Openings: T8 (IVC + phrenic nerve), T10 (esophagus + vagus), T12 (aorta + thoracic duct + azygos vein)
-- **Clinical:** Hiatus hernia — abdominal contents herniate through esophageal hiatus; referred pain to shoulder (C3–C5 via phrenic nerve — "C3, 4, 5 keeps the diaphragm alive")
+## Great Vessels — Aorta, Vena Cava, and Bronchial Tree
 
-**Diaphragmatic Herniae**
-- **Morgagni hernia** (anterior parasternal): through Larrey's space (between costal and sternal origins)
-- **Bochdalek hernia** (posterior): through pleuroperitoneal canal — more common, usually left-sided, presents in neonates
+The **ascending aorta** begins at the left ventricle, dilates at its root to form the aortic sinuses (three dilations corresponding to the aortic valve cusps), and continues as the aortic arch at the level of the sternal angle. The **aortic arch** curves posteriorly over the left main bronchus and gives off three branches: the brachiocephalic trunk (which divides into right common carotid and right subclavian arteries), the left common carotid artery, and the left subclavian artery. The **descending thoracic aorta** continues from the aortic arch to the aortic hiatus at T12, giving off bronchial, esophageal, and intercostal arteries. Important anatomical variations include a right aortic arch, a bovine arch (common origin of brachiocephalic and left carotid), and coarctation of the aorta.
 
-**Aortic Arch & Branches**
-- Arch ascends from ascending aorta at T4, arches over left main bronchus, descends to T4
-- **Branches:** brachiocephalic trunk → right CCA + right SCA; left CCA; left SCA
-- Anatomical variations: right aortic arch (3% of population), patent ductus arteriosus, coarctation of aorta
-- **Clinical:** Coarctation of aorta — narrowing distal to left SCA; rib notching on inferior surfaces of ribs 3–8; differential BP between upper and lower limbs
+The **superior vena cava (SVC)** is formed by the union of the two brachiocephalic veins at the lower border of the aortic arch. It descends to open into the right atrium at the upper border of the right atrium. The SVC has no valves, so blood flows directly into the right atrium. The **azygos vein** is an important collateral pathway that drains into the SVC, connecting the IVC system with the SVC system — crucial in cases of IVC obstruction.
 
----
+The **trachea** begins at the cricoid cartilage (C6) and bifurcates at the carina (T4–T5 level — the manubriosternal angle or Angle of Louis). The right main bronchus is wider, shorter, and more vertical than the left, making it the more common site for foreign body aspiration. The left main bronchus is longer and passes under the aortic arch. Main bronchi divide into lobar bronchi (right: 3; left: 2), then segmental bronchi, terminal bronchioles, respiratory bronchioles, alveolar ducts, and finally alveoli. The trachea and main bronchi have C-shaped cartilaginous rings (open posteriorly where the trachealis muscle fills the gap). Bronchioles have no cartilage and are held open by the elastic fibers in their walls.
 
-### 🔴 Extended — Deep Study (3mo+)
+**Clinical correlations:** Coarctation of the aorta is a narrowing of the aorta distal to the left subclavian artery, producing hypertension in the upper extremities, hypotension and weak pulses in the lower extremities, and rib notching of ribs 3–8 from dilated intercostal arteries. A patent ductus arteriosus (PDA) — the ductus arteriosus failing to close after birth — produces a continuous machinery murmur and can cause left-to-right shunt and heart failure. Foreign bodies in the airway lodge in the right main bronchus more frequently due to its geometry.
 
-**Heart — Detailed Internal Anatomy**
+## Lungs, Pleura, and Bronchopulmonary Segments
 
-**Chambers & Valves:**
+The right lung has three lobes (upper, middle, lower) separated by the horizontal fissure (between upper and middle) and the oblique fissure (between middle and lower). The left lung has two lobes (upper and lower) separated by the oblique fissure; it has a cardiac notch (impression from the heart) and a lingula on the upper lobe. Both lungs have an apex (projecting 2.5 cm above the clavicle), a base (resting on the diaphragm), a costal surface, and a mediastinal surface.
 
-**Right Atrium:**
-- Interior: fossa ovalis (remnant of foramen ovale), limbus (border of fossa ovalis), crista terminalis (rough ridge), pectinate muscles (on auricle), opening of coronary sinus, SVC opening (has no valve), IVC opening (has valve of IVC/Eustachian valve)
-- **Clinical:** Atrial septal defect (ASD) — most common secundum type; patent foramen ovale (PFO) — 25% of population
+The **pleura** is a double-layered serous membrane: visceral pleura covers the lung surface and extends into the fissures; parietal pleura lines the thoracic cavity, diaphragm, and mediastinum. The pleural cavity is the potential space between these layers containing a few milliliters of serous fluid. The hilum of the lung — where structures enter and exit — is bounded by the pulmonary artery (superior), pulmonary veins (inferior), and bronchi (posterior).
 
-**Right Ventricle:**
-- Inflow tract: tricuspid valve (3 cusps — anterior, septal, posterior), chordae tendineae, papillary muscles (anterior, posterior, septal)
-- Trabeculae carneae, moderator band (band of myocardium conducting signals from AV bundle to right ventricle)
-- Outflow tract: infundibulum → pulmonary valve (3 cusps — anterior, right, left)
+Each lung is divided into **bronchopulmonary segments** — the smallest surgically resectable unit, each supplied by its own bronchus, artery, and vein. The right lung has 10 segments (upper lobe: apical B1, posterior B2, anterior B3; middle lobe: lateral B4, medial B5; lower lobe: superior B6, medial basal B7, anterior basal B8, lateral basal B9, posterior basal B10). The left lung has 8 or 9 segments (upper lobe:apical B1, posterior B2, anterior B3, superior lingular B4, inferior lingular B5; lower lobe: similar to right but medial basal often absent).
 
-**Left Atrium:**
-- Smooth posterior wall; pectinate muscles only in auricle
-- Opening of pulmonary veins (4 — 2 from each lung) — no valves
-- **Clinical:** Atrial myxoma — most common primary cardiac tumor; often arises near fossa ovalis
+**Clinical correlations:** Pleural effusion — fluid accumulation in the pleural cavity — causes dullness to percussion, absent breath sounds, and decreased chest movement on the affected side; thoracentesis is performed at the 7th intercostal space, midaxillary line, just above the rib to avoid the neurovascular bundle. Pneumothorax — air in the pleural cavity — causes absent breath sounds and hyperresonance; tension pneumothorax is a medical emergency requiring immediate needle decompression (2nd intercostal space, midclavicular line). Atelectasis — lung collapse — occurs from airway obstruction or surfactant deficiency.
 
-**Left Ventricle:**
-- Thickest wall (~3× right ventricular wall)
-- Mitral valve (bicuspid — anterior larger cusp, posterior smaller cusp), chordae tendineae
-- Aortic valve (3 cusps — posterior non-coronary, right and left coronary cusps)
-- **Clinical:** Aortic stenosis — calcific degeneration in elderly, bicuspid aortic valve in younger; syncope and angina as presenting symptoms
+## Mediastinum — Divisions and Contents
 
-**Conducting System of Heart**
-- SA node (right atrial wall near SVC opening) — pacemaker (60–100 bpm)
-- Internodal pathways (anterior, middle, posterior)
-- AV node (interatrial septum near coronary sinus ostium) — rate-limiting (40–60 bpm)
-- Bundle of His (penetrates central fibrous body)
-- Left bundle branch (bifurcates immediately into anterior and posterior fascicles)
-- Right bundle branch
-- Purkinje fibers
-- **Clinical:** Heart blocks — 1st degree (prolonged PR), 2nd degree Mobitz I (Wenckebach, progressive prolongation then drop), 2nd degree Mobitz II (sudden drops), 3rd degree (complete heart block — AV dissociation)
+The mediastinum is the compartment between the two pleural cavities, extending from the thoracic inlet superiorly to the diaphragm inferiorly and from the sternum anteriorly to the vertebral bodies posteriorly. It is divided at the T4–T5 level (the manubriosternal angle) into the superior and inferior mediastinum; the inferior mediastinum is further subdivided into anterior, middle, and posterior.
 
-**Coronary Blood Flow & ECG Correlation**
-- Coronary blood flow occurs during diastole (aortic valve open)
-- LAD territory: V1–V4 (anterior leads); LCx territory: V5–V6, I, aVL (lateral leads); RCA territory: II, III, aVF (inferior leads)
-- **Clinical:** STEMI management — PCI within 90 minutes or thrombolysis within 30 minutes
+**Superior mediastinum** contains the thymus, the brachiocephalic veins and SVC, the aortic arch and its branches, the trachea, the thoracic duct, the esophagus, the vagus nerves (right and left), and the phrenic nerves. **Anterior mediastinum** (anterior to the heart and pericardium) contains the thymic remnants, lymph nodes, and the internal mammary arteries. **Middle mediastinum** (containing the pericardium and heart) contains the heart and pericardium, the roots of the great vessels, the coronary arteries and coronary sinus, the tracheobronchial lymph nodes, and the phrenic nerves. **Posterior mediastinum** (posterior to the pericardium and heart) contains the esophagus, thoracic aorta, azygos and hemiazygos veins, thoracic duct, vagus nerves, and the sympathetic trunks.
 
-**Lungs — Segmentectomy-Relevant Anatomy**
-Each lung has bronchopulmonary segments (independent unit with its own artery, bronchus, and vein):
+The **diaphragm** is the muscular partition between the thorax and abdomen, with its central tendon attaching to the pericardium. Three major structures pass through the diaphragm at specific vertebral levels: the **vena cava hiatus** at T8 (containing the IVC and right phrenic nerve), the **esophageal hiatus** at T10 (containing the esophagus, vagal trunks, and esophageal vessels), and the **aortic hiatus** at T12 (containing the aorta, thoracic duct, and azygos vein).
 
-**Right lung:**
-- Upper lobe: apical (B1), posterior (B2), anterior (B3)
-- Middle lobe: lateral (B4), medial (B5)
-- Lower lobe: superior (B6), medial basal (B7), anterior basal (B8), lateral basal (B9), posterior basal (B10)
-
-**Left lung:**
-- Upper lobe: apical (B1), posterior (B2), anterior (B3), superior lingular (B4), inferior lingular (B5)
-- Lower lobe: superior (B6), medial basal (B7), anterior basal (B8), lateral basal (B9), posterior basal (B10)
-
-**Important Thoracic Surface Markings**
-- Apex of lung: 2.5 cm above clavicle
--hilum: T5–T7
-- Diaphragmatic pleura: extends to Rib 12 (mid-axillary line), Rib 10 (mid-clavicular line)
-- Trachea: begins at C6, bifurcation at T4–T5 (manubriosternal angle — Angle of Louis)
-- **Clinical:** Fissure in lung cancer resection — right lungoblique fissure separates upper+middle from lower; left lungoblique fissure separates upper from lower
-
----
-*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+**Clinical correlations:** The phrenic nerve (C3–C4–C5) innervates the diaphragm — damage causes paralysis of the ipsilateral hemidiaphragm (elevated hemidiaphragm on X-ray). Referred pain from diaphragmatic irritation (blood, infection) is carried by the phrenic nerve and is perceived as pain in the shoulder region (C3–C4 dermatomes — "C3, 4, 5 keeps the diaphragm alive"). Mediastinal shift — displacement of mediastinal structures — occurs with large pleural effusion or tension pneumothorax. Mediastinoscopy allows biopsy of mediastinal lymph nodes for lung cancer staging.

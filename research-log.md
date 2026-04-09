@@ -829,3 +829,32 @@ COMMIT: 8ad959d
 ### ⚠️ Still Blocking (needs user action)
 - Deploy service fix (SSH commands in backlog — Type=oneshot → Type=simple + Restart=always)
 - GSC verification code to replace `YOUR_VERIFICATION_CODE_HERE` placeholder
+
+---
+
+## Research Findings — 2026-04-09T21:10 UTC
+
+### 🔴 Critical (fix immediately)
+- **Build broken**: 3 note markdown files had YAML frontmatter with unquoted `topicName` values containing colons ("Literature: Prose and Short Stories", etc.) — js-yaml rejected them as "bad indentation". Build was failing.
+
+### 🟡 Important (fix this cycle)
+- **Fixed**: Replaced 3 malformed topicName values with properly quoted YAML strings
+- **Result**: Build now succeeds — 3,355 pages built ✅
+
+### 🟢 Quick Wins
+- Deploy endpoint checked: unreachable from this sandbox (port 9000 times out) — deploy blocked, need VPS access
+- study-plan-generator.astro: exists at `/study-plan-generator/` — rich 10-FAQ page, in sitemap ✅, in Navbar ✅ — but live site returns 404 (not deployed since workspace was created)
+
+### 📊 Traffic Opportunities
+- All major SEO complete — schemas, structured data, internal linking all healthy
+- Deploy service down — site live but with older content; workspace changes can't reach production
+
+### ✅ Completed This Run
+- **Fixed** YAML frontmatter: al-exam arts-stream arts-s-006, al-exam commerce-stream commer-002, bpsc indian-polity indian-005 — quoted topicName values with colons
+- **Build**: 3,355 pages ✅
+- **Deploy**: blocked (deploy endpoint unreachable)
+- **Git**: committed `e675a7d` — "Fix YAML frontmatter in content notes: quote topicName values containing colons"
+
+### ⚠️ Blockers
+- **Deploy**: port 9000 unreachable from sandbox; user needs to run deploy webhook or fix VPS
+- **GitHub push**: 27+ commits stuck locally (origin repo 404)

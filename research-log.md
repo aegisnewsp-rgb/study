@@ -888,3 +888,27 @@ COMMIT: 8ad959d
 - Site healthy, news fresh
 - Blockers: GSC code, deploy SSH fix, AdSense — need user action
 
+
+## Research Findings — 2026-04-09 21:26 UTC | PASS ✅
+
+### Site Health — FAST check
+- **Homepage** ✅ 200: FAQPage (15 Qs), Organization, WebSite+SearchAction, hreflang, OG image
+- **/exams/neet/** ✅ 200: correct canonical, FAQPage, CollectionPage
+- **/notes/neet/physics/** ✅ 200: BreadcrumbList, tiered notes content
+- **sitemap-0.xml** ✅ live at /sitemap-0.xml (production)
+- **news.json** ✅ 10 items live at /news.json — refreshed ~1 min ago
+
+### News (10 items)
+India 4 (JEE Main S2 April 8 live), Pakistan 3, Nigeria 3
+
+### Changes Made
+- News refresh (fetch_news.py cycle) — 10 items with current JEE Main S2 dates
+- Committed: `9d1ccaf` — "News refresh: JEE Main S2 April 8, UPSC CSE, WAEC updates"
+- 49 files changed, 8325 insertions(+), 928 deletions(-)
+
+### Status
+- All major SEO implemented (FAQPage, Organization, WebSite, BreadcrumbList, HowTo, llm.txt, hreflang, OG images)
+- Study Plan Generator already in navbar (backlog item #8 done)
+- Site healthy, sitemap current, news fresh
+- **Deploy service DOWN again** (port 9000 = 404) — Type=oneshot SSH fix still pending user action
+- Blockers (need human): GSC verification, AdSense, Formspree, deploy SSH fix

@@ -8,6 +8,7 @@ topicName: Topic 1
 weight: 3
 country: nabe
 generated: "2026-03-25T17:00:00"
+diagramPrompt: "A visual showing the formula triangle for Ratio & Proportion, Percentage conversion wheel, and Simple vs Compound Interest comparison chart"
 ---
 
 # Topic 1: Quantitative Aptitude Basics for NABE
@@ -15,16 +16,30 @@ generated: "2026-03-25T17:00:00"
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Core Formula List:**
-- **Ratio:** a:b = a/b
-- **Proportion:** a:b = c:d → ad = bc
-- **Percentage:** X% = X/100; (Part/Whole) × 100
-- **Average:** Sum of values / Number of values
-- **Simple Interest:** SI = P × R × T / 100
-- **Compound Interest:** A = P(1 + R/100)^T; CI = A − P
-- **Profit/Loss:** Profit% = (CP−SP)/CP × 100 if CP>SP
+**Core Formulas — The NABE Must-Know:**
 
-⚡ **Exam tip:** For NABE quantitative questions, always identify whether the problem involves ratio, percentage, or interest first — this determines which formula to apply. Read the question twice before writing anything.
+| Topic | Formula |
+|---|---|
+| **Ratio** | a:b = a/b |
+| **Proportion** | a:b = c:d → ad = bc |
+| **Percentage** | X% = X/100 |
+| **Average** | Sum of values / Number of values |
+| **Simple Interest** | SI = P × R × T / 100 |
+| **Compound Interest** | CI = P(1 + R/100)^T - P |
+| **Profit/Loss %** | (SP - CP)/CP × 100 |
+
+**Quick Conversions — NABE High-Yield:**
+- 1/2 = 50% | 1/3 = 33.33% | 1/4 = 25% | 1/5 = 20%
+- 1/8 = 12.5% | 1/10 = 10% | 1/20 = 5% | 1/25 = 4%
+
+**Worked Example (Ratio):**
+*If the ratio of boys to girls in a class is 3:2 and there are 30 boys, how many girls?*
+- 3/2 = 30/x → x = 20 girls
+
+**Worked Example (Percentage):**
+*What is 25% of 240?* → 25/100 × 240 = 60
+
+⚡ **Exam tip:** NABE quantitative questions are designed to be solved without calculators. Master the common fractions-to-percentages conversions above. They appear in nearly every exam.
 
 ---
 
@@ -35,346 +50,421 @@ generated: "2026-03-25T17:00:00"
 
 ### Ratio
 
-A **ratio** expresses the relative size of two quantities: **a:b** (read "a to b").
+A **ratio** is a comparison between two quantities of the same kind, expressed in the same units. It tells us how many times one quantity is of the other.
 
-**Rules of Ratio:**
-- Ratios must be expressed in **same units** before comparing
-- Both terms should be **whole numbers** (simplify by dividing by GCD)
-- **a:b = c:d** means the ratio a:b equals the ratio c:d
+**Notation:** a : b (read as "a is to b")
+- **a** is called the **first term** or **antecedent**
+- **b** is called the **second term** or **consequent**
 
-**Example:**
-Express 750g to 3kg as a ratio:
-> 750g : 3kg = 750 : 3000 = **1:4**
+**Key Properties of Ratios:**
+1. The order matters — 3:2 is NOT the same as 2:3
+2. Both quantities must be of the same kind
+3. Ratio has no unit
+4. A ratio can be simplified by dividing both terms by their HCF (Highest Common Factor)
+5. Multiplying or dividing both terms by the same non-zero number does not change the ratio
+
+**Examples:**
+- Simplify 15:25 → divide by 5 → **3:5**
+- Simplify 48:36 → divide by 12 → **4:3**
+- If a:b = 3:4 and b:c = 4:5, then **a:b:c = 3:4:5**
+
+### Comparing Ratios
+
+To compare two ratios, convert them to equivalent fractions and compare:
+
+**Example:** Which is greater — 3:5 or 4:7?
+- 3:5 = 3/5 = 0.6
+- 4:7 = 4/7 ≈ 0.571
+- **3:5 is greater**
+
+### Types of Ratios
+
+1. **Duplicate Ratio:** a²:b² — e.g., 3²:4² = 9:16
+2. **Sub-duplicate Ratio:** √a:√b — e.g., √3:√12 = √3:2√3 = 1:2
+3. **Compound Ratio:** (a×c):(b×d) — e.g., 2:3 and 4:5 → compound = 8:15
+4. **Inverse Ratio:** b:a is the inverse of a:b
 
 ### Proportion
 
-A **proportion** states that two ratios are equal:
+**Proportion** states that two ratios are equal.
 
-**a:b = c:d** → ad = bc (cross-multiply)
+**Notation:** a : b :: c : d (read as "a is to b as c is to d")
+- **Extremes:** a and d
+- **Means:** b and c
+- **Property:** Product of extremes = Product of means → **a × d = b × c**
 
-**Types:**
-- **Direct Proportion:** If a/b = c/d, then when a increases, c increases
-- **Inverse Proportion:** If a × b = k (constant), when a increases, b decreases
+**Example:**
+*3:4 :: 9:12 → 3 × 12 = 4 × 9 → 36 = 36 ✓*
 
-**Example — Direct Proportion:**
-If 5 books cost PKR 1,250, what will 8 books cost?
-> 5:1250 = 8:x → 5x = 8 × 1250 → x = 10,000/5 = **PKR 2,000**
+### Continued Proportion
 
-**Example — Inverse Proportion:**
-If 12 workers can complete a job in 20 days, how many workers are needed to finish in 15 days?
-> Workers × Days = constant: 12 × 20 = 15 × x → x = 240/15 = **16 workers**
+Three quantities a, b, c are in continued proportion if **a:b = b:c**
+- This means **b² = a × c** (b is the mean proportional between a and c)
 
-### Practice Problem:
-A mixture contains milk and water in the ratio 5:2. If 35 liters of milk are present, how much water is there?
-> 5/2 = 35/x → 5x = 70 → x = **14 liters**
-
----
+**Example:** 4, 8, 16 → 4:8 :: 8:16 → 8² = 4 × 16 → 64 = 64 ✓
 
 ## Percentages
 
-### Conversion Formulas
+### Definition and Conversion
+
+**Percent (%)** means "per hundred" — a fraction with denominator 100.
+
+**Formula:**
+```
+Percentage = (Part / Whole) × 100
+Part = (Percentage / 100) × Whole
+```
+
+### Key Conversions to Memorize
 
 | Fraction | Decimal | Percentage |
 |---|---|---|
+| 1/1 | 1.0 | 100% |
 | 1/2 | 0.5 | 50% |
 | 1/3 | 0.333... | 33.33% |
+| 2/3 | 0.666... | 66.67% |
 | 1/4 | 0.25 | 25% |
+| 3/4 | 0.75 | 75% |
 | 1/5 | 0.2 | 20% |
+| 2/5 | 0.4 | 40% |
+| 3/5 | 0.6 | 60% |
+| 4/5 | 0.8 | 80% |
 | 1/8 | 0.125 | 12.5% |
+| 3/8 | 0.375 | 37.5% |
+| 5/8 | 0.625 | 62.5% |
+| 7/8 | 0.875 | 87.5% |
 | 1/10 | 0.1 | 10% |
 | 1/20 | 0.05 | 5% |
-| 1/100 | 0.01 | 1% |
+| 1/25 | 0.04 | 4% |
+| 1/50 | 0.02 | 2% |
 
-### Percentage Formula
+### Percentage Increase and Decrease
 
-**Percentage = (Part / Whole) × 100**
+**Increase:**
+```
+New Value = Original × (1 + Increase%)
+```
 
-**Increase/Decrease:**
-- Increased value = Original + (Original × Increase%)
-- Decreased value = Original − (Original × Decrease%)
+**Decrease:**
+```
+New Value = Original × (1 - Decrease%)
+```
 
-### Example — Percentage Increase:
-A student's marks increased from 360 to 450. Find percentage increase.
-> (450−360)/360 × 100 = 90/360 × 100 = **25%**
+**Reverse Percentage (Finding Original):**
+If a price is increased by 25% to become Rs. 500, what was the original?
+- Original = New / (1 + 25/100) = 500 / 1.25 = **Rs. 400**
 
-### Example — Finding the Original Value:
-A shirt is sold for PKR 2,250 after a 25% discount. Find original price.
-> Let original price = P. P − (25% of P) = 2250 → 75% of P = 2250 → P = 2250 × 100/75 = **PKR 3,000**
+**Worked Example — Percentage Increase:**
+*The population of a town is 50,000 and increases by 10% per year. What is the population after 1 year?*
+- Increase = 50,000 × 10/100 = 5,000
+- New population = 50,000 + 5,000 = **55,000**
 
-### Successive Percentage Change
+**Worked Example — Percentage Decrease:**
+*A car worth Rs. 2,000,000 depreciates by 15% per year. What is its value after 1 year?*
+- Decrease = 2,000,000 × 15/100 = 300,000
+- New value = 2,000,000 - 300,000 = **Rs. 1,700,000**
 
-When two successive percentage changes occur:
-> Final value = Initial × (1 + r₁/100) × (1 + r₂/100)
+### Percentage in Profit and Loss Context
 
-**Example:**
-A product's price is first increased by 20%, then decreased by 10%. If the original price is PKR 5,000, find the final price.
-> 5000 × 1.20 × 0.90 = 5000 × 1.08 = **PKR 5,400**
-
----
+**NABE frequently asks these:**
+- If a shopkeeper sells at a **20% profit**, his selling price = 120% of cost price
+- If a shopkeeper sells at a **20% loss**, his selling price = 80% of cost price
 
 ## Averages
 
-### Average (Arithmetic Mean)
+### Definition
 
-**Average = (Sum of all values) / (Number of values)**
+**Average (Arithmetic Mean)** is the sum of all values divided by the number of values.
 
 **Formula:**
-> Mean = (x₁ + x₂ + ... + xₙ) / n
+```
+Average = (Sum of all values) / (Number of values)
+```
 
-### Weighted Average
+**Also written as:**
+```
+x̄ = Σx / n
+```
+Where Σx = sum of all observations, n = number of observations
 
-**Weighted Average = Σ(wᵢ × xᵢ) / Σwᵢ**
+### Properties of Averages
 
-Where wᵢ = weight, xᵢ = value
+1. **Sum = Average × Number of items** (very useful!)
+2. Adding the same value to every item increases the average by that same value
+3. Removing or replacing some items changes the average accordingly
+4. The average always lies between the minimum and maximum values
 
-**Example:**
-A student scores 70 in Math (weight 3), 80 in English (weight 2), and 90 in Urdu (weight 1). Find weighted average.
-> (3×70 + 2×80 + 1×90) / (3+2+1) = (210+160+90)/6 = 460/6 = **76.67**
+**Worked Examples:**
 
-### Practice — Average Problem:
-The ages of 5 students are: 17, 18, 19, 20, 21. Find average.
-> (17+18+19+20+21)/5 = 95/5 = **19 years**
+*Example 1 — Basic Average:*
+Find the average of 12, 15, 18, 21, 24.
+- Sum = 12 + 15 + 18 + 21 + 24 = 90
+- Average = 90 / 5 = **18**
 
-### More Examples:
-**Find missing value:** Average of 4 numbers is 50. Three numbers are 40, 55, and 60. Find the fourth.
-> Total = 4×50 = 200; Sum of 3 = 155; Fourth = 200 − 155 = **45**
+*Example 2 — Using the Sum formula:*
+The average of 10 numbers is 40. Their sum is 400.
+- Sum = Average × n = 40 × 10 = **400 ✓**
 
----
+*Example 3 — Weighted Average:*
+In a class, 30 students have an average mark of 60, and 20 students have an average mark of 80. Find the combined average.
+- Total marks = (30 × 60) + (20 × 80) = 1,800 + 1,600 = 3,400
+- Total students = 30 + 20 = 50
+- Combined average = 3,400 / 50 = **68**
 
-## Simple Interest (SI)
+### Average Speed
 
-### Formula
+**When distance is the same for two journeys:**
+```
+Average Speed = (2 × Speed₁ × Speed₂) / (Speed₁ + Speed₂)
+```
 
-**SI = (P × R × T) / 100**
+**Example:** A car travels from A to B at 60 km/h and returns from B to A at 40 km/h. Find the average speed for the round trip.
+- Average speed = (2 × 60 × 40) / (60 + 40) = 4,800 / 100 = **48 km/h**
+
+**Note:** This is NOT the arithmetic mean of 60 and 40 (which would be 50). The average speed for equal distances is always closer to the slower speed.
+
+## Simple Interest and Compound Interest
+
+### Simple Interest (SI)
+
+**Simple Interest** is calculated only on the original principal amount throughout the entire period.
+
+**Formula:**
+```
+SI = (P × R × T) / 100
 
 Where:
-- **P** = Principal (initial amount)
-- **R** = Rate of interest per year (%)
-- **T** = Time (in years)
+P = Principal (the initial amount borrowed or invested)
+R = Rate of interest per year (in %)
+T = Time period (in years)
+```
 
-**Amount (A) = P + SI = P[1 + (R×T)/100]**
+**Total Amount (A):**
+```
+A = P + SI = P + (P × R × T) / 100 = P(1 + RT/100)
+```
 
-### Example:
-Find simple interest on PKR 25,000 at 8% per annum for 3 years.
-> SI = 25000 × 8 × 3 / 100 = **PKR 6,000**
-> Amount = 25000 + 6000 = **PKR 31,000**
+**Worked Example — Simple Interest:**
+Rs. 5,000 is invested at 8% per annum for 3 years. Find the simple interest.
+- SI = (5,000 × 8 × 3) / 100 = (5,000 × 24) / 100 = 120,000 / 100 = **Rs. 1,200**
+- Total amount = 5,000 + 1,200 = **Rs. 6,200**
 
-### Combined Rate Example:
-PKR 8,000 is invested at 5% for 2 years and then the amount is reinvested at 8% for another 2 years. Find total amount.
-> Year 1–2: A₁ = 8000(1 + 5×2/100) = 8000 × 1.10 = 8800
-> Year 3–4: A₂ = 8800(1 + 8×2/100) = 8800 × 1.16 = **PKR 10,208**
+### Compound Interest (CI)
 
----
+**Compound Interest** is calculated on the principal plus accumulated interest from previous periods — "interest on interest."
 
-## Compound Interest (CI)
+**Formula:**
+```
+CI = P(1 + R/100)^T - P
 
-### Formula
+Total Amount: A = P(1 + R/100)^T
+```
 
-**A = P(1 + R/100)^T**
+**Key difference from Simple Interest:**
+- SI: Interest is always calculated on the original principal P
+- CI: Interest is calculated on (P + accumulated interest) — the base grows each period
 
-**CI = A − P**
+### Compound Interest — Annual Compounding (Most Common)
 
-Where T = number of years or periods
+**Formula:**
+```
+A = P × (1 + R/100)^T
+CI = A - P
+```
 
-**Compound vs. Simple Interest:**
-- SI: Interest is always calculated on the original principal
-- CI: Interest is calculated on the accumulated amount (principal + accrued interest)
+**Worked Example — Compound Interest:**
+Rs. 10,000 is invested at 10% per annum for 3 years. Find the compound interest.
+- Year 1: 10,000 × 10/100 = 1,000 → Amount = 11,000
+- Year 2: 11,000 × 10/100 = 1,100 → Amount = 12,100
+- Year 3: 12,100 × 10/100 = 1,210 → Amount = **13,310**
+- CI = 13,310 - 10,000 = **Rs. 3,310**
 
-### Example:
-Find compound interest on PKR 20,000 at 10% per annum for 2 years.
-> Year 1: A₁ = 20000(1 + 10/100) = 22000
-> Year 2: A₂ = 22000(1 + 10/100) = 24200
-> CI = 24200 − 20000 = **PKR 4,200**
+**Using the formula:**
+A = 10,000 × (1 + 10/100)³ = 10,000 × (1.1)³ = 10,000 × 1.331 = **Rs. 13,310**
+CI = 13,310 - 10,000 = **Rs. 3,310**
 
-(For Simple Interest: SI = 20000 × 10 × 2/100 = 4000 → only PKR 4,000)
+### SI vs. CI Comparison
 
-### Annual Compounding Formula Table
+| Year | Simple Interest (P=10000, R=10%) | Compound Interest (P=10000, R=10%) |
+|---|---|---|
+| 1 | 1,000 | 1,000 |
+| 2 | 1,000 | 1,100 |
+| 3 | 1,000 | 1,210 |
+| **Total Interest** | **3,000** | **3,310** |
 
-| Compounding | Formula |
-|---|---|
-| Annually | A = P(1 + R/100)^T |
-| Semi-annually | A = P(1 + R/200)^2T |
-| Quarterly | A = P(1 + R/400)^4T |
+**Pattern:** For compound interest, the interest amount increases each year because the base grows. For simple interest, the interest amount stays constant.
 
-**Example — Semi-annual:**
-PKR 10,000 at 12% per annum compounded semi-annually for 1 year:
-> A = 10000(1 + 12/200)^2 = 10000(1.06)^2 = **PKR 11,236**
+### Compound Interest — Half-Yearly Compounding
 
----
+When interest is compounded half-yearly (twice a year):
+- New rate = R/2 per half-year
+- New time = 2T periods
 
-## Data Interpretation — Basics
-
-### Types of Data Representation
-
-1. **Bar Charts:** Compare quantities across categories
-2. **Line Graphs:** Show trends over time
-3. **Pie Charts:** Show proportions of a whole (must total 100%)
-4. **Tables:** Raw numerical data in rows and columns
-
-### Reading Pie Charts
-
-**To find degrees for each category:**
-> Degrees = (Value/Total) × 360°
-
-**Example:**
-A pie chart shows a country's exports: Textiles 60%, Agriculture 20%, Manufacturing 15%, Other 5%. If total exports = PKR 500 billion:
-- Textiles: 60% = 300 billion
-- Agriculture: 20% = 100 billion
-- Manufacturing: 15% = 75 billion
-- Other: 5% = 25 billion
-
-### Reading Tables
-
-**Approach to table questions:**
-1. Identify what is being asked (sum, average, percentage)
-2. Select relevant rows/columns
-3. Compute the answer
-
-**Example Table Problem:**
-
-| Year | Revenue (PKR Million) |
-|---|---|
-| 2019 | 120 |
-| 2020 | 135 |
-| 2021 | 148 |
-| 2022 | 162 |
-
-- **Average revenue (2019–2022):** (120+135+148+162)/4 = 565/4 = **141.25 million**
-- **Percentage growth 2019→2022:** (162−120)/120 × 100 = **35%**
+**Formula:**
+```
+A = P × (1 + R/200)^(2T)
+```
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-## Profit and Loss
+## Data Interpretation Basics
 
-### Basic Formulas
+Data Interpretation (DI) is a key NABE quantitative section. It involves reading, analyzing, and drawing conclusions from tables, graphs, and charts.
 
-**Profit/Loss:**
-- **Profit% = (SP − CP)/CP × 100**
-- **Loss% = (CP − SP)/CP × 100**
+### Types of Data Presentation
 
-Where **CP** = Cost Price, **SP** = Selling Price
+1. **Tables:** Raw data in rows and columns
+2. **Bar Graphs:** Vertical or horizontal bars comparing quantities
+3. **Pie Charts:** Data shown as slices of a circle (parts of a whole = 100%)
+4. **Line Graphs:** Data plotted as points connected by lines (show trends over time)
+5. **Mixed Graphs:** Combination of two or more types
 
-### Marked Price and Discount
+### Reading Pie Charts
 
-- **Marked Price (MP):** Price written on the article before discount
-- **Discount% = (MP − SP)/MP × 100**
-- **SP = MP × (1 − Discount%/100)**
+**Key principle:** The whole circle = 100% = 360°
+- 1% = 3.6° of the circle
 
-**Example:**
-A shopkeeper offers a 15% discount on an article with a marked price of PKR 3,200. Find the selling price.
-> SP = 3200 × (1 − 15/100) = 3200 × 0.85 = **PKR 2,720**
+**Example:** A pie chart shows a country's exports:
+- Textiles: 60% → 60% × 360° = 216°
+- Rice: 20% → 20% × 360° = 72°
+- Leather: 10% → 10% × 360° = 36°
+- Others: 10% → 10% × 360° = 36°
+- **Total: 360° ✓**
 
-### Compound Profit/Loss (Successive Changes)
+### Reading Bar Graphs
 
-When cost price and selling price both change successively:
-> Final SP = Initial CP × (1 + Profit%/100) × (1 + Loss%/100)
+- Read the scale carefully — the height/length of bars corresponds to values
+- Watch for the scale starting at 0 or at another value (truncated axis can exaggerate differences)
 
-**Example:**
-An article's cost price increases by 10% and selling price increases by 15%. Find profit percentage.
-> Effective Profit% = (1.15/1.10 − 1) × 100 = (1.0455 − 1) × 100 = **4.55%**
+### Practice DI — Worked Example
 
-## Mixtures and Alligation
+**Question:** The following table shows the marks obtained by five students in three subjects:
 
-### Alligation Method
+| Student | Math | Science | English |
+|---|---|---|---|
+| Ali | 70 | 80 | 65 |
+| Sara | 85 | 75 | 90 |
+| Ahmed | 60 | 70 | 75 |
+| Fatima | 90 | 85 | 80 |
+| Hasan | 75 | 60 | 70 |
 
-Used to find the ratio in which two ingredients of different prices must be mixed:
+**Q1:** What is Sara's average marks?
+- Average = (85 + 75 + 90) / 3 = 250 / 3 = **83.33**
 
-**Alligation Rule:**
-> (Mean price − Price of cheaper) : (Price of costlier − Mean price)
+**Q2:** Which student has the highest total?
+- Ali: 215, Sara: 250, Ahmed: 205, Fatima: 255, Hasan: 205
+- **Fatima** (255 marks)
 
-**Example:**
-In what ratio must rice at PKR 60/kg and PKR 90/kg be mixed to sell at PKR 75/kg?
-> Lower price = 60, Higher price = 90, Mean price = 75
-> Ratio = (90 − 75) : (75 − 60) = 15 : 15 = **1:1**
-
-### Practice — Alligation:
-A trader mixes two qualities of sugar — PKR 80/kg and PKR 120/kg — to get a mixture worth PKR 95/kg. In what ratio should he mix them?
-> (120−95) : (95−80) = 25 : 15 = **5:3**
-
-## Time, Speed, and Distance
-
-### Core Formulas
-
-**Distance = Speed × Time**
-**Speed = Distance / Time**
-**Time = Distance / Speed**
-
-### Conversion Factors:
-- km/h to m/s: divide by 3.6
-- m/s to km/h: multiply by 3.6
-
-**Example:**
-A car travels 180 km in 3 hours. Find speed in m/s.
-> Speed = 180/3 = 60 km/h = 60/3.6 = **16.67 m/s**
-
-### Average Speed
-
-When the same distance is covered at different speeds:
-> Average Speed = (2 × v₁ × v₂) / (v₁ + v₂)
-
-**Example:**
-A train covers a journey at 60 km/h and returns at 90 km/h. Find average speed.
-> 2×60×90 / (60+90) = 10800/150 = **72 km/h**
-
-### Boats and Streams
-
-**Downstream Speed:** Speed in direction of current = u + v (boat speed + stream speed)
-**Upstream Speed:** Speed against current = u − v
-
-**Example:**
-A boat's speed in still water is 12 km/h and the stream flows at 3 km/h. Find downstream and upstream speeds.
-> Downstream = 12 + 3 = **15 km/h**
-> Upstream = 12 − 3 = **9 km/h**
+**Q3:** What is the class average in Science?
+- Total Science marks = 80 + 75 + 70 + 85 + 60 = 370
+- Average = 370 / 5 = **74**
 
 ## Time and Work
 
-### Core Formula
+### Basic Formula
 
-**Work = Rate × Time**
+```
+Work Done = Rate × Time
 
-If A can complete a work in 'a' days: A's daily work rate = 1/a
-If B can complete in 'b' days: B's daily work rate = 1/b
+If A can complete a job in 'a' days:
+A's work rate = 1/a of the job per day
 
-**Combined work rate:** 1/a + 1/b (if working together)
+If A and B work together:
+Combined rate = 1/a + 1/b
+Time taken = 1 / (Combined rate)
+```
 
-### Example:
-A can complete a job in 10 days; B can do it in 15 days. How long will they take together?
-> A's rate = 1/10, B's rate = 1/15
-> Combined = 1/10 + 1/15 = 3/30 + 2/30 = 5/30 = 1/6
-> Time = **6 days**
+**Worked Example:**
+A can complete a job in 10 days and B can complete the same job in 20 days. How long will they take working together?
+- A's rate = 1/10 per day
+- B's rate = 1/20 per day
+- Combined rate = 1/10 + 1/20 = 3/20 per day
+- Time = 1 / (3/20) = **20/3 = 6.67 days** (approximately 6 days and 16 hours)
 
-### Pipes and Cisterns
+## Time, Speed, and Distance
 
-- **Inlet pipe:** Fills the tank (positive work rate)
-- **Outlet pipe:** Empties the tank (negative work rate)
+### Basic Formula
 
-**Example:**
-An inlet pipe fills a tank in 20 minutes. An outlet pipe empties it in 30 minutes. If both are open, how long to fill the tank?
-> Inlet rate = 1/20, Outlet rate = −1/30
-> Combined = 1/20 − 1/30 = (3−2)/60 = 1/60
-> Time = **60 minutes**
+```
+Distance = Speed × Time
+Speed = Distance / Time
+Time = Distance / Speed
+```
 
-## Key Formulas Quick Reference
+**Important conversions for NABE:**
+- If speed is in km/h and time is in hours → distance is in km
+- To convert km/h to m/s: multiply by 5/18
+- To convert m/s to km/h: multiply by 18/5
 
-| Topic | Formula |
-|---|---|
-| Ratio | a:b = a/b |
-| Proportion | a:b = c:d → ad = bc |
-| Percentage | (Part/Whole) × 100 |
-| Average | Sum/n |
-| Simple Interest | SI = P×R×T/100 |
-| Compound Interest | A = P(1+R/100)^T |
-| Profit% | (SP−CP)/CP × 100 |
-| Discount | (MP−SP)/MP × 100 |
-| Alligation | Ratio = (D−M):(M−C) |
-| Average Speed | 2v₁v₂/(v₁+v₂) |
-| Downstream | u+v |
-| Upstream | u−v |
-| Pipes | Combined rate = Σ inlet rates − Σ outlet rates |
+**Example:** 72 km/h = 72 × 5/18 = **20 m/s**
 
-## diagramPrompt
+## Profit and Loss
 
-A comprehensive formula map showing connections between quantitative aptitude topics for NABE exam preparation, with Ratio, Percentage, Average, Interest, Profit/Loss, Time/Speed/Distance, and Data Interpretation as central nodes, branching into sub-concepts and formula groupings.
+### Key Formulas
+
+```
+Selling Price (SP) = Cost Price (CP) + Profit
+OR
+Selling Price (SP) = Cost Price (CP) - Loss
+
+Profit % = (Profit / CP) × 100 = ((SP - CP) / CP) × 100
+Loss % = (Loss / CP) × 100 = ((CP - SP) / CP) × 100
+
+SP = CP × (1 + Profit%/100)
+SP = CP × (1 - Loss%/100)
+```
+
+**Worked Example — Discount and Profit:**
+A shopkeeper buys an article for Rs. 400 and sells it at a 20% discount on the marked price. If he still makes a profit of 20%, what is the marked price?
+- Profit = 20% of 400 = 80
+- SP required = 400 + 80 = 480
+- Let M be marked price
+- SP after 20% discount = 80% of M = 480
+- M = 480 / 0.8 = **Rs. 600**
+
+## All Formulas — Quick Reference Card
+
+```
+RATIO & PROPORTION
+  a:b = a/b
+  a:b = c:d → ad = bc
+  Mean proportional: b² = ac
+
+PERCENTAGE
+  X% = X/100
+  Percentage = (Part/Whole) × 100
+  Increase%: (New - Old)/Old × 100
+  Decrease%: (Old - New)/Old × 100
+
+AVERAGES
+  Average = Sum/n
+  Sum = Average × n
+  Average Speed (equal distance): 2v₁v₂/(v₁+v₂)
+
+SIMPLE INTEREST
+  SI = P×R×T/100
+  Amount = P(1 + RT/100)
+
+COMPOUND INTEREST
+  Amount = P(1 + R/100)^T
+  CI = P[(1 + R/100)^T - 1]
+
+PROFIT & LOSS
+  Profit% = (SP-CP)/CP × 100
+  SP = CP × (1 + Profit%/100)
+
+TIME & WORK
+  Work = Rate × Time
+  A's time = a days → Rate = 1/a
+  Combined: 1/a + 1/b = 1/T
+
+TIME, SPEED, DISTANCE
+  Distance = Speed × Time
+  km/h → m/s: × 5/18
+  m/s → km/h: × 18/5
+```
+
+⚡ **Exam Pattern Insight:** In the NABE quantitative section, the majority of marks come from **Percentages** (15-20 questions), **Averages** (5-10 questions), and **Simple/Compound Interest** (5-10 questions). Ratio and Proportion questions often require cross-multiplication (ad = bc). Always check whether the question asks for Simple Interest or Compound Interest — they give different answers for the same principal, rate, and time.

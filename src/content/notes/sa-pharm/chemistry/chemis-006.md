@@ -1,16 +1,16 @@
 ---
 exam: sa-pharm
-examName: "SAPC (South Africa)"
+examName: SAPC (South Africa)
 subject: organic-chemistry
-subjectName: "Chemistry"
+subjectName: Organic Chemistry
 topic: chemis-006
-topicName: "Topic 6"
+topicName: Nucleophilic Substitution Reactions — SN1 and SN2
 weight: 3
 country: sa
 generated: "2026-03-25T17:00:00"
 ---
 
-# Topic 6
+# Nucleophilic Substitution Reactions — SN1 and SN2
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

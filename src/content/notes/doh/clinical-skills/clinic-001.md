@@ -4,259 +4,285 @@ examName: DOH (UAE)
 subject: botany
 subjectName: Clinical Skills
 topic: clinic-001
-topicName: Topic 1
+topicName: Vital Signs and Patient Assessment
 weight: 3
 country: doh
 generated: "2026-03-25T17:00:00"
 ---
 
-# Topic 1: Vital Signs and Patient Assessment
+# Vital Signs and Patient Assessment
 
 ## Introduction to Vital Signs
 
-Vital signs are **objective, measurable indicators** of a patient's basic physiological functions. They are the **cornerstone of patient assessment** and provide critical data for monitoring health status and detecting clinical deterioration.
+Vital signs are the four (or five) primary physiological measurements that indicate the basic functions of the body. They are called "vital" because they reflect the patient's fundamental state of health and detect changes that may indicate deterioration or improvement.
 
-### The Five Main Vital Signs
-1. **Temperature**
-2. **Pulse (Heart rate)**
-3. **Respiratory rate**
-4. **Blood pressure**
-5. **Oxygen saturation (SpO₂)** — added as the fifth vital sign in modern practice
+The four primary vital signs are:
+1. **Temperature** (Body temperature)
+2. **Pulse** (Heart rate)
+3. **Respiration** (Breathing rate)
+4. **Blood Pressure** (Arterial pressure)
 
-> **DOH Point:** Vital signs must be measured accurately, documented promptly, and reported immediately if abnormal. In the UAE healthcare system, vital signs are recorded using the **DOH-approved charting system**.
+A fifth vital sign often included is **Oxygen Saturation (SpO₂)** in modern clinical practice.
 
-## Temperature
+Vital signs are typically measured:
+- On admission to any healthcare facility
+- Before and after surgical procedures
+- During routine physical examinations
+- At regular intervals for admitted patients
+- Whenever a patient's condition changes
 
-### Normal Ranges
+**Normal vital signs for a healthy adult at rest**:
+| Vital Sign | Normal Range |
+|---|---|
+| Temperature | 36.5–37.5°C (97.7–99.5°F) |
+| Pulse (Heart rate) | 60–100 beats/min |
+| Respiration | 12–20 breaths/min |
+| Blood Pressure | 120/80 mmHg (systolic/diastolic) |
+| SpO₂ (Oxygen saturation) | 95–100% |
 
-| Site | Normal Range | Average |
-|---|---|---|
-| **Oral (sublingual)** | 36.4–37.6°C | 37.0°C |
-| **Axillary** | 36.5–37.2°C | 36.8°C |
-| **Tympanic (ear)** | 36.8–38.0°C | 37.5°C |
-| **Rectal** | 37.0–38.1°C | 37.5°C |
-| **Temporal artery** | 36.4–37.6°C | 37.0°C |
+## Body Temperature
 
-> **Note:** Rectal temperature is considered the most accurate core temperature; oral is most common in adults; axillary is least accurate.
+### Definition
 
-### Fever Types (Pyrexia)
-
-| Type | Temperature | Pattern |
-|---|---|---|
-| **Low-grade fever** | 37.5–38.3°C | Mild elevation |
-| **High fever** | > 39.5°C | Significant elevation |
-| **Hyperpyrexia** | > 40.0°C | Dangerously high |
-| **Continuous fever** | Persistent, minimal fluctuation | Throughout the day (e.g., pneumonia, typhoid) |
-| **Intermittent fever** | Alternates between fever and normal/abnormal | Malaria, sepsis |
-| **Remittent fever** | Fluctuates > 2°C but does not reach normal | Viral infections |
-| **Relapsing fever** | Alternates between fever episodes and normal periods | Rat-bite fever |
+Body temperature is the degree of heat maintained by the body, reflecting the balance between heat production and heat loss. The body maintains temperature through the hypothalamus (the "thermostat" in the brain).
 
 ### Methods of Measurement
 
-| Method | Site | Time |
-|---|---|---|
-| **Mercury glass thermometer** | Oral, axillary, rectal | 3–5 minutes |
-| **Digital thermometer** | Oral, axillary, rectal | Until beep |
-| **Tympanic (infrared)** | Ear canal | 1–3 seconds |
-| **Temporal artery** | Forehead sweep | 1–3 seconds |
+#### Oral (Mouth)
+- Placement: Under the tongue, with mouth closed
+- Normal: 36.5–37.5°C (97.7–99.5°F)
+- Advantages: Convenient, relatively accurate
+- Disadvantages: Affected by hot/cold drinks, smoking, breathing through mouth
+- Contraindications: Unconscious patients, children under 5, mouth breathers, oral surgery
 
-### Factors Affecting Body Temperature
-- **Age:** Infants and elderly have less efficient thermoregulation
-- **Time of day:** Lowest at 4–6 AM; highest at 4–8 PM (circadian rhythm)
-- **Exercise:** Increases body temperature
-- **Hormones:** Progesterone elevates temperature (ovulation)
-- **Environment:** Ambient temperature influences readings
+#### Rectal
+- Placement: Inserted into rectum
+- Normal: 0.5°C higher than oral (37.0–38.0°C)
+- Most accurate core temperature measurement
+- Used for: Infants, unconscious patients, patients who cannot have oral readings
+- Contraindications: Rectal surgery, hemorrhoids, diarrhea
+
+#### Axillary (Armpit)
+- Placement: Under the arm
+- Normal: 0.5°C lower than oral (36.0–37.0°C)
+- Least accurate — often not recommended for adults
+- Used when other methods are contraindicated
+
+#### Tympanic (Ear)
+- Placement: Infrared sensor in ear canal
+- Reflects core temperature (close to hypothalamus)
+- Normal: Similar to rectal — 0.5°C higher than oral
+- Fast (2–3 seconds)
+- Not affected by ambient temperature as much as oral
+
+#### Temporal Artery (Forehead)
+- Modern infrared scanning method
+- Fast and non-invasive
+- More accurate than tympanic in some studies
+
+### Fever Patterns
+
+| Term | Temperature | Description |
+|---|---|---|
+| **Normal** | 36.5–37.5°C | Optimal body function |
+| **Subnormal** | <36.5°C | Below normal; may indicate hypothermia, shock |
+| **Pyrexia** | >37.5°C | Elevated temperature |
+| **Hyperpyrexia** | >41°C | Very high fever — medical emergency |
+| **Intermittent** | Fever comes and goes | Malaria, sepsis |
+| **Remittent** | Fever fluctuates but doesn't return to normal | Typhoid |
+| **Relapsing** | Fever returns after afebrile period | Borrelia infections |
+| **Sustained/Continuous** | Fever remains elevated without major fluctuations | Pneumonia |
+
+### Regulation
+
+- **Sweating**: Primary cooling mechanism — sweat evaporates from skin
+- **Vasodilation**: Blood vessels dilate → more heat loss through skin
+- **Shivering**: Muscles generate heat to raise temperature
 
 ## Pulse (Heart Rate)
 
-### Normal Pulse Rates
+### Definition
 
-| Population | Normal Range |
-|---|---|
-| **Adults (resting)** | 60–100 beats per minute (bpm) |
-| **Athletes (trained)** | 40–60 bpm (normal for fit individuals) |
-| **Children (1–3 years)** | 80–130 bpm |
-| **Children (6–12 years)** | 70–110 bpm |
-| **Newborns** | 100–160 bpm |
+The pulse is the rhythmic throbbing of an artery as blood is pumped through it by the heart. It is an indicator of heart rate and rhythm.
 
-### Pulse Characteristics to Assess
+### Sites for Pulse Measurement
 
-| Characteristic | What to Measure | Clinical Significance |
+| Site | Location | Used When |
 |---|---|---|
-| **Rate** | Beats per minute | Tachycardia (>100 bpm), Bradycardia (<60 bpm) |
-| **Rhythm** | Regular or irregular | Arrhythmia indicates cardiac pathology |
-| **Volume (force)** | Strong, weak, thready | Reflects stroke volume and cardiac output |
-| **Equality** | Compare both radial pulses | Discrepancy suggests vascular pathology |
-| **Character** |Bounding, wire, water-hammer | Describes quality of pulse wave |
+| **Radial** | Thumb side of wrist (radial artery) | Most common — accessible, convenient |
+| **Carotid** | Side of neck (carotid artery) | Emergency — when radial not accessible |
+| **Brachial** | Inner elbow (brachial artery) | Blood pressure measurement |
+| **Apical** | Left 5th intercostal space (at apex of heart) | Using stethoscope — most accurate for heart rate |
+| **Femoral** | Groin (femoral artery) | Emergency — for infants |
+| **Popliteal** | Behind knee | Lower limb circulation assessment |
+| **Dorsalis pedis** | Top of foot | Lower limb circulation assessment |
+| **Temporal** | Temple area | Used in infants when carotid is difficult |
 
-### Common Pulse Points
+### Assessment of Pulse
 
-| Site | Location |
-|---|---|
-| **Radial** | Thumb side of inner wrist |
-| **Brachial** | Inner aspect of upper arm, medial to biceps tendon |
-| **Carotid** | Lateral to thyroid cartilage, in neck |
-| **Femoral** | Inguinal region, mid-inguinal ligament |
-| **Popliteal** | Behind the knee |
-| **Dorsalis pedis** | Dorsum of foot, between 1st and 2nd metatarsals |
-| **Posterior tibial** | Behind medial malleolus of ankle |
-| **Temporal** | Above and lateral to eye socket |
+When assessing pulse, evaluate:
 
-### DOH Assessment Protocol
-- Count pulse for **full 60 seconds** (or 30 seconds × 2 if regular) in adults
-- Count for **full 60 seconds** in children under 5
-- Note any **irregularities** — always count for full 60 seconds if arrhythmia suspected
-- Assess **both radial pulses** simultaneously in patients with cardiovascular or peripheral vascular disease
+**1. Rate** (Beats per minute):
+- **Tachycardia**: >100 bpm (resting) — may indicate fever, anemia, anxiety, heart disease
+- **Bradycardia**: <60 bpm — may indicate hypothyroidism, heart block, athletic heart
+- **Normal**: 60–100 bpm
 
-## Respiratory Rate
+**2. Rhythm**:
+- **Regular**: Equal intervals between beats
+- **Irregular (Arrhythmia)**: Unequal intervals — may indicate Atrial Fibrillation (AF), premature contractions
 
-### Normal Ranges
+**3. Volume (Strength)**:
+- **Full/Bounding**: Strong pulse — hypertension, anxiety
+- **Weak/Thready**: Difficult to feel — shock, heart failure
+- **Waterhammer/Corrigan's**: Very strong and quick — aortic regurgitation
 
-| Population | Normal Rate |
-|---|---|
-| **Adults** | 12–20 breaths per minute |
-| **Children (1–3 years)** | 20–30 breaths per minute |
-| **Children (6–12 years)** | 18–30 breaths per minute |
-| **Infants** | 30–60 breaths per minute |
+**4. Equality**: Both radial pulses should be equal; unequal may indicate arterial blockage
 
-### What to Assess in Respiration
+### Special Considerations
 
-| Parameter | Normal | Abnormal |
-|---|---|---|
-| **Rate** | 12–20/min (adult) | Tachypnoea (>20), Bradypnoea (<12), Apnoea (no breathing) |
-| **Rhythm** | Regular, even | Cheyne-Stokes, Biot's, Kussmaul's breathing |
-| **Depth** | Normal (tidal volume ~500 mL) | Shallow, deep |
-| **Sound** | Silent | Wheezing, stridor, crackles, snoring |
+- Count for **30 seconds** and multiply by 2 (if regular) or count for **full 60 seconds** (if irregular)
+- In atrial fibrillation: Count apical pulse using stethoscope for one full minute (most accurate)
+- In children: Rate is higher; normal for newborn is 100–160 bpm
 
-### Abnormal Respiratory Patterns
+## Respiration
 
-| Pattern | Description | Associated With |
-|---|---|---|
-| **Cheyne-Stokes** | Gradually increases then decreases, with apnoeic pauses | Severe heart failure, brain injury |
-| **Biot's (atactic)** | Irregular, unpredictable | Brain damage (medulla) |
-| **Kussmaul's** | Deep, laboured, gasping | Diabetic ketoacidosis (metabolic acidosis) |
+### Definition
 
-> **DOH Point:** Count respiratory rate **without the patient being aware** — patients who know they are being observed tend to alter their breathing pattern (voluntary control). Observe while appearing to assess the pulse.
+Respiration refers to the process of breathing — inhaling oxygen and exhaling carbon dioxide. The respiration rate is the number of breaths per minute.
+
+### Normal Values
+
+- **Adult**: 12–20 breaths/min (average 16)
+- **Children**: 20–30 breaths/min
+- **Infants**: 30–60 breaths/min
+
+### Assessment
+
+When observing respiration, note:
+
+**Rate**:
+- **Bradypnea**: <12 breaths/min — may indicate CNS depression, anesthesia, sleep
+- **Tachypnea**: >20 breaths/min (adult) — fever, anxiety, lung disease, metabolic acidosis
+- **Apnea**: Absence of breathing — medical emergency
+
+**Rhythm**:
+- **Regular**: Normal, even breathing
+- **Cheyne-Stokes**: Breathing increases then decreases then stops — associated with severe heart failure, brain injury
+- **Biot's**: Irregular periods of apnea followed by regular breathing — CNS injury
+
+**Depth**:
+- **Shallow**: May indicate pain, pleurisy, fear
+- **Deep**: May indicate metabolic acidosis (Kussmaul breathing in diabetic ketoacidosis)
+
+**Effort**:
+- **Labored breathing (dyspnea)**: Shortness of breath — observable chest movement, flaring nostrils
+- **Stridor**: High-pitched sound on inhalation — airway obstruction
+- **Wheezing**: High-pitched sound on exhalation — asthma, COPD
 
 ## Blood Pressure
 
-### Normal Blood Pressure
+### Definition
+
+Blood pressure is the pressure exerted by the blood against the walls of the arteries. It is measured in **millimetres of mercury (mmHg)**.
+
+**Systolic**: Maximum pressure when the heart contracts (ejects blood) — the top number
+**Diastolic**: Minimum pressure when the heart relaxes (fills with blood) — the bottom number
+
+**Example**: 120/80 mmHg — Systolic 120, Diastolic 80
+
+### Normal Values
 
 | Category | Systolic (mmHg) | Diastolic (mmHg) |
 |---|---|---|
-| **Normal** | < 120 | < 80 |
-| **Elevated** | 120–129 | < 80 |
+| **Normal** | <120 | <80 |
+| **Elevated** | 120–129 | <80 |
 | **Hypertension Stage 1** | 130–139 | 80–89 |
-| **Hypertension Stage 2** | ≥ 140 | ≥ 90 |
-| **Hypotension** | < 90 | < 60 |
+| **Hypertension Stage 2** | ≥140 | ≥90 |
+| **Hypertensive Crisis** | >180 | >120 |
 
-### Blood Pressure Components
+### Measurement Methods
 
-- **Systolic pressure:** Maximum pressure when the heart contracts (ventricular systole)
-- **Diastolic pressure:** Minimum pressure when the heart relaxes (ventricular diastole)
-- **Pulse pressure:** Systolic − Diastolic (normal = 40 mmHg; widened in hyperthyroidism; narrow in aortic stenosis)
-- **Mean Arterial Pressure (MAP):** Approximates diastolic + ⅓ pulse pressure (normal = 70–110 mmHg)
+#### Auscultatory Method (Mercury sphygmomanometer — gold standard)
 
-### The Auscultatory Method (Gold Standard)
+**Equipment**: Sphygmomanometer (mercury or aneroid), stethoscope
 
-**Equipment:** Sphygmomanometer (mercury or aneroid) + Stethoscope
+**Procedure**:
+1. Patient seated or supine, arm supported at heart level
+2. Select appropriate cuff size (cuff bladder should encircle 80% of arm)
+3. Wrap cuff around upper arm (2–3 cm above antecubital fossa)
+4. Palpate radial pulse
+5. Inflate cuff until radial pulse disappears — note reading (approximate systolic)
+6. Place stethoscope over brachial artery (antecubital fossa)
+7. Deflate cuff slowly (2–3 mmHg per second)
+8. Note the pressure when the first Korotkoff sound is heard — **systolic**
+9. Continue deflating — sounds change from loud to soft
+10. Note when sounds disappear completely — **diastolic**
 
-**Steps:**
+**Korotkoff Sounds**:
+- **Phase I**: First clear tapping sound — systolic
+- **Phase II**: Sound becomes softer
+- **Phase III**: Sound becomes louder again
+- **Phase IV**: Sound becomes muffled
+- **Phase V**: Sound disappears — diastolic
 
-1. **Patient preparation:**
-   - Rest for **5 minutes** before measurement
-   - Sit or lie down; arm supported at **heart level**
-   - No caffeine, exercise, or smoking for **30 minutes** prior
-   - Empty bladder before measurement
+**Key points**:
+- Cuff too tight → falsely high reading
+- Cuff too loose → falsely high reading
+- Patient talking → falsely high reading
+- Arm not supported → falsely high reading
+- Legs crossed → falsely high reading
 
-2. **Cuff selection and application:**
-   - Choose appropriate cuff size (bladder width ≥ 40% of arm circumference)
-   - Wrap snugly, **2–3 cm above** the antecubital fossa (elbow crease)
-   - Position cuff at the **level of the right atrium** (mid-axillary line)
+#### Palpatory Method
 
-3. **Palpatory method (preliminary):**
-   - Palpate radial pulse
-   - Inflate cuff until radial pulse disappears; note pressure
-   - Add **30 mmHg** to this value for inflation target
-   - This prevents underestimation of systolic pressure (auscultatory gap)
+Used when auscultation is difficult (e.g., very low pressure). Palpate radial pulse while inflating cuff — note the pressure at which pulse disappears → this is the systolic.
 
-4. **Auscultatory method:**
-   - Place stethoscope over the **brachial artery** (medial to biceps tendon, in antecubital fossa)
-   - Close the sphygmomanometer valve
-   - Inflate to target pressure (30 mmHg above palpatory reading)
-   - Slowly release at **2–3 mmHg per second**
-   - **Korotkoff sounds:**
-     - **Phase I:** First clear tapping sound = **Systolic pressure**
-     - **Phase II:** Murmur/swishing (cuff pressure too high)
-     - **Phase III:** Crisp tapping (pressure falling)
-     - **Phase IV:** Sound muffled (important in pregnancy)
-     - **Phase V:** Sound disappears = **Diastolic pressure**
+#### Automated/Digital Devices
 
-5. **Recording:**
-   - Record to the **nearest 2 mmHg**
-   - Document: Systolic/Diastolic (e.g., 120/80 mmHg)
-   - Record arm used and patient position
-
-**Common Errors in BP Measurement:**
-| Error | Effect |
-|---|---|
-| Cuff over clothing | Falsely high reading |
-| Wrong cuff size (too small) | Falsely high reading |
-| Cuff not at heart level | Falsely high (arm below) or low (arm above) |
-| Deflating too fast | Inaccurate reading |
-| Conversation with patient | Patient may not be relaxed |
-| Auscultatory gap (not detected) | Underestimation of systolic or overestimation of diastolic |
+Used in clinical settings — oscillometric measurement. Advantages: Easy to use, no stethoscope required. Disadvantages: Less accurate in certain conditions (arrhythmias).
 
 ### Factors Affecting Blood Pressure
-- **Age:** Increases with age (arteries lose elasticity)
-- **Body weight:** Higher weight → higher BP
-- **Exercise:** Transient increase; regular exercise → lower resting BP
-- **Emotions/stress:** Increases BP
-- **Time of day:** Lower in early morning, peaks in late afternoon
-- **Posture:** Orthostatic hypotension when standing suddenly
-- **Caffeine/tobacco:** Acute increase
-- **Medications:** Antihypertensives lower BP
 
-## Oxygen Saturation (SpO₂)
+**Physiological**:
+- **Age**: BP increases with age (arteries stiffen)
+- **Gender**: Higher in men until menopause
+- **Exercise**: Temporary increase, then decreases with training
+- **Emotion**: Anxiety increases BP
+- **Body position**: Higher when standing; lower when lying
+- **After meals**: Slight decrease
 
-- Normal SpO₂: **95–100%**
-- **Hypoxia:** SpO₂ < 94% (in non-chronic lung disease patients)
-- **Hypoxemia:** Low arterial oxygen tension (PaO₂ < 80 mmHg)
-- Measured non-invasively using **pulse oximetry**
-- Probe placed on finger, toe, earlobe, or nose
-- **Accuracy affected by:** Poor perfusion, motion artefact, dark nail polish, carbon monoxide poisoning
+**Pathological**:
+- **Hypertension**: Sustained elevated BP — risk of stroke, heart disease
+- **Hypotension**: Low BP — shock, dehydration, heart failure
 
 ## Documenting Vital Signs
 
-### DOH Documentation Standards
-- Vital signs must be documented **immediately** after measurement
-- Include **date, time, site/method** used
-- Note the **patient's condition** during measurement (resting, anxious, post-exercise)
-- **Trends matter more than single readings** — always compare with previous readings
-- Report **significant deviations** from normal to the supervising nurse/physician immediately
-- In the DOH UAE context, vital signs are documented in the **Maternal and Child Health (MCH) form**, **long-term care form**, or **TPR/BP chart** as appropriate
+### Correct Documentation
 
-### When to Measure Vital Signs
-| Situation | Frequency |
-|---|---|
-| **New patient admission** | Within 1 hour |
-| **Pre/post procedure/surgery** | Before and after |
-| **Medication administration** | As ordered (especially cardiac drugs, antihypertensives) |
-| **Change in patient condition** | Immediately |
-| **Stable patient** | Every 4–8 hours |
-| **High dependency/ICU** | Every 15 minutes to 1 hour |
-| **Post-operative** | Every 15–30 minutes until stable, then every 4 hours |
+Vital signs should be recorded with:
+1. **Exact values** (not approximate)
+2. **Site** (e.g., oral vs tympanic temperature; radial vs apical pulse)
+3. **Time** (24-hour format)
+4. **Patient position** (lying, sitting, standing)
+5. **Any abnormal findings** noted immediately
+
+### Trends
+
+Single vital sign readings are less useful than **trends** — comparing readings over time to detect improvement or deterioration.
+
+### Early Warning Scores
+
+Most hospitals use **Early Warning Scores (EWS)** or **National Early Warning Score (NEWS)** to identify patients at risk of deterioration. These scores assign points based on vital sign deviations and trigger escalation of care.
+
+## CTET/DOH Exam Focus
+
+- **Four primary vital signs**: Temperature, pulse, respiration, blood pressure (SpO₂ often fifth)
+- **Normal ranges**: Temp 36.5–37.5°C, pulse 60–100 bpm, RR 12–20/min, BP 120/80 mmHg, SpO₂ 95–100%
+- **Measurement sites**: Oral (under tongue), rectal, axillary, tympanic (ear), temporal (forehead) for temperature; radial (most common), carotid (emergency), apical (most accurate) for pulse
+- **BP measurement**: Auscultatory method — Korotkoff sounds Phase I (systolic) and Phase V (diastolic); cuff size critical
+- **Fever patterns**: Intermittent, remittent, relapsing, continuous
+- **Pulse assessment**: Rate, rhythm, volume; tachycardia vs bradycardia; arrhythmia
+- **Respiration**: Rate, rhythm, depth, effort; Cheyne-Stokes, Biot's breathing
+- **Documentation**: Exact values, site, time, position, trends
 
 ---
-
-### ⚡ DOH Exam Tips
-
-- The **auscultatory gap** (silent period between systolic and diastolic Korotkoff sounds) can cause significant underestimation — always do a **palpatory method first**
-- **Korotkoff Phase V** (sounds disappear) is the **diastolic pressure** in adults; Phase IV (muffling) is used in **children** and sometimes **pregnant women**
-- Always use **appropriate cuff size** — a cuff that is too small gives a **falsely high** reading
-- **Korotkoff sounds** are heard over the **brachial artery** — stethoscope must be placed correctly
-- When BP is high in one arm vs the other by >15 mmHg — investigate for **vascular pathology** (subclavian steal syndrome, coarctation)
-- **Cheyne-Stokes respiration** in a heart failure patient is a **bad prognostic sign**
-- Temperature should be measured **orally** in most adults — but NOT if patient is unconscious, has oral lesions, is confused, or has recently eaten/drunk hot or cold substances
-- **MAP** (Mean Arterial Pressure) is the perfusion pressure of organs — must be maintained above 65 mmHg in shock states
-- A pulse oximetry reading of **99% does NOT rule out hypoxia** — patient could have elevated PaCO₂ with normal SpO₂; always assess the whole clinical picture
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

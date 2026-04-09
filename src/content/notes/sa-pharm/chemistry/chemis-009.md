@@ -1,16 +1,16 @@
 ---
 exam: sa-pharm
-examName: "SAPC (South Africa)"
+examName: SAPC (South Africa)
 subject: organic-chemistry
-subjectName: "Chemistry"
+subjectName: Organic Chemistry
 topic: chemis-009
-topicName: "Topic 9"
+topicName: Carboxylic Acids, Acid Derivatives, and Claisen Condensation
 weight: 3
 country: sa
 generated: "2026-03-25T17:00:00"
 ---
 
-# Topic 9
+# Carboxylic Acids, Acid Derivatives, and Claisen Condensation
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

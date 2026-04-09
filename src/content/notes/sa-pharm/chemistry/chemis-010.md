@@ -1,16 +1,16 @@
 ---
 exam: sa-pharm
-examName: "SAPC (South Africa)"
+examName: SAPC (South Africa)
 subject: organic-chemistry
-subjectName: "Chemistry"
+subjectName: Organic Chemistry
 topic: chemis-010
-topicName: "Topic 10"
+topicName: Amines, Diazonium Salts, and Heterocyclic Chemistry
 weight: 3
 country: sa
 generated: "2026-03-25T17:00:00"
 ---
 
-# Topic 10
+# Amines, Diazonium Salts, and Heterocyclic Chemistry
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

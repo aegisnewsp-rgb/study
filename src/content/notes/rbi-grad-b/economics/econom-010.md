@@ -2,7 +2,7 @@
 exam: rbi-grad-b
 examName: "RBI Grade B"
 subject: quant
-subjectName: "None"
+subjectName: "Economics"
 topic: econom-010
 topicName: "Money and Banking"
 weight: 3

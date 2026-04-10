@@ -2,7 +2,7 @@
 exam: rbi-grad-b
 examName: "RBI Grade B"
 subject: quant
-subjectName: "None"
+subjectName: "Management"
 topic: manage-003
 topicName: "Topic 3"
 weight: 3

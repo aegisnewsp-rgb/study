@@ -2,7 +2,7 @@
 exam: rbi-grad-b
 examName: "RBI Grade B"
 subject: quant
-subjectName: "None"
+subjectName: "Economics"
 topic: econom-001
 topicName: "Introduction to Economics"
 weight: 3

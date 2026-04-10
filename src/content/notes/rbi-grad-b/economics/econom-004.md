@@ -2,7 +2,7 @@
 exam: rbi-grad-b
 examName: "RBI Grade B"
 subject: quant
-subjectName: "None"
+subjectName: "Economics"
 topic: econom-004
 topicName: "Consumer Behaviour"
 weight: 3

@@ -949,3 +949,32 @@ India 4 (JEE Main S2 April 8 live), Pakistan 3, Nigeria 3
 **News:** 10 items ✅ (JEE Main 2026 S2 result likely April 14 - news.json last updated 20:28 UTC)
 **Site:** studyroadmap.in responding 200 ✅
 
+
+---
+
+## Cycle 87 — 2026-04-10 22:45 UTC
+
+**Site health:** studyroadmap.in responding HTTP 200 ✅
+**News:** Fresh — 10 items, top story: "JEE Main 2026 session 2 result likely to be released on this date" ✅
+**News path fix (Cycle 85):** Confirmed working — fetch_news.py now writes to public/news.json ✅
+
+**Sitemap check (LIVE deployed):** ⚠️ **SPARSE — only 4 exam URLs**
+- Live sitemap (https://studyroadmap.in/sitemap-0.xml) contains only: gre, ast, sathe, uaeu-cat
+- Missing: homepage (/), roadmap (/roadmap), exams index (/exams), notes index (/notes), all 3200+ topic pages
+- Workspace: sitemap generated at build time (not in public/), so workspace may differ
+- Risk: Google crawl budget wasted on 4 URLs instead of full 3200+ index
+
+**Meta/structure audit (homepage, /exams/neet, /notes/neet/physics):**
+- Homepage: Title ✅ "StudyRoadmap - Free AI Study Plans for 125+ Exams"
+- NEET exam page: FAQPage schema ✅ 2 ld+json blocks
+- Notes physics page: FAQPage + BreadcrumbList + CollectionPage + ItemList ✅ All present
+- GSC/Bing verification: still placeholders ❌
+
+**Backlog status:**
+- Navbar /study-plan-generator link: Already present ✅ (was marked TODO but already done)
+- Most high-value SEO: COMPLETE — no new code changes available this cycle
+- Remaining blockers: GSC code, AdSense account, Formspree ID, deploy backend fix (all need user)
+
+**Action taken:** None — no actionable code change found. Sitemap sparsity is the most notable finding but requires understanding workspace build state vs deployed state.
+
+**Git status:** News fetch updated public/news.json (10 items), no workspace code changes.

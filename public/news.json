@@ -1,113 +1,107 @@
 [
   {
-    "id": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPNjNuNnlJVjVIQnR2cVYwc2lhLW5sdTlSU2xkNFV3ZEF2YXh4MFozNm1USXNpWV84NkZKclB5SzFoODcyZElBOTJJMFo0YmNHUmhnTzBUWGF3am0ybVAwWjlfZnlmX2xGZWFjUW5pTjJ2LVdFVEpvVlhzeU15R3VYYlJrTl84YkQ0ZENUQjRqM0pZMDRYRUl1NktZVFZJTzduV0RlN196Y0o5ZTJJQWstc3kxUHc1NVVwSjBNQ2JKekRIRlFLY2FDdi02ZUV3YldnQXZDeml6VTY?oc=5",
-    "title": "JEE Main 2026 session 2 result likely to be released on this date: Check important dates here - MSN",
-    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPNjNuNnlJVjVIQnR2cVYwc2lhLW5sdTlSU2xkNFV3ZEF2YXh4MFozNm1USXNpWV84NkZKclB5SzFoODcyZElBOTJJMFo0YmNHUmhnTzBUWGF3am0ybVAwWjlfZnlmX2xGZWFjUW5pTjJ2LVdFVEpvVlhzeU15R3VYYlJrTl84YkQ0ZENUQjRqM0pZMDRYRUl1NktZVFZJTzduV0RlN196Y0o5ZTJJQWstc3kxUHc1NVVwSjBNQ2JKekRIRlFLY2FDdi02ZUV3YldnQXZDeml6VTY?oc=5",
-    "source": "MSN",
-    "published": "2026-04-09T20:28:43+00:00",
-    "country": "india",
-    "tags": [
-      "jee main",
-      "jee"
-    ]
-  },
-  {
-    "id": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQSmNrWG9XX2NJXzJwUEVIbHBxRUllSFNwb3lnNXF4T1N3UHZjdW1UQ2pvdVZVQVFBS1N3WlZ6RnVIY1ZfMW1qdFBDcl9FZE9CTnRjdFJpLUwzaV8tYkxjaS16VlAxVDZFMHl4T25pTjNUU3RvN25SOTd6S2lnWXlmVzg5WGpzTWstQjBsdWxNS3dnbWhodUhCMTc4RUhneGxTNTdyN01qTlpnMUIxSUsxc1VJMWtXUGloVWZpMzl2SVZHQl8zcjdvajJOVC1GU2l3RjdVYTl4OUtiZ9IB3wFBVV95cUxNQmF4dUV1ZTRlcjVELXZDQ0FsdWxOVnRBai1lWHZBSno5WWY4ejBvemNoS2JiZkxyeU5Zb3A0VzViUkpVUDJ6WEZxbEtlcDBFWjRzS0x3X0tLSGVuY01GZGxQZ1ZrVENIRmhOa3h1d2lOcHNPdnZ1S05xUDJUbDhnTUlUSzZVYmVrYUNDcDdYbVB0WEZiSGMtM2toWG9GejVjVFU5czdkVTc3Y1l6U2NMdGg5NE5XaWY4YXZVajByRXV0QUFzZXEwaTlNX0pXcUhkb2RyVTI1blVDUkNFbFM4?oc=5",
-    "title": "SSC’s new ‘sliding mechanism’ to improve transparency, fill vacancies - The Times of India",
-    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQSmNrWG9XX2NJXzJwUEVIbHBxRUllSFNwb3lnNXF4T1N3UHZjdW1UQ2pvdVZVQVFBS1N3WlZ6RnVIY1ZfMW1qdFBDcl9FZE9CTnRjdFJpLUwzaV8tYkxjaS16VlAxVDZFMHl4T25pTjNUU3RvN25SOTd6S2lnWXlmVzg5WGpzTWstQjBsdWxNS3dnbWhodUhCMTc4RUhneGxTNTdyN01qTlpnMUIxSUsxc1VJMWtXUGloVWZpMzl2SVZHQl8zcjdvajJOVC1GU2l3RjdVYTl4OUtiZ9IB3wFBVV95cUxNQmF4dUV1ZTRlcjVELXZDQ0FsdWxOVnRBai1lWHZBSno5WWY4ejBvemNoS2JiZkxyeU5Zb3A0VzViUkpVUDJ6WEZxbEtlcDBFWjRzS0x3X0tLSGVuY01GZGxQZ1ZrVENIRmhOa3h1d2lOcHNPdnZ1S05xUDJUbDhnTUlUSzZVYmVrYUNDcDdYbVB0WEZiSGMtM2toWG9GejVjVFU5czdkVTc3Y1l6U2NMdGg5NE5XaWY4YXZVajByRXV0QUFzZXEwaTlNX0pXcUhkb2RyVTI1blVDUkNFbFM4?oc=5",
-    "source": "The Times of India",
-    "published": "2026-04-09T19:32:00+00:00",
+    "id": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPSlRjNE1YN2dCNlZYcTFrVDRqZjBoVWc1MjhDWV9Jd0drWmFIclNyOFBNcmxQUkc1UkpWS0s4LVNzVUQzQ2FsVmwxbnY1UWt2T0IybGpXcDR6aDk1RktHamlDZmh0X01hRlo2bzU2ajFUR0RMeGtIMVFtM05OOUhmQW9PTzBuX3dQdTk4UGZuS003WTVMc3pTTnZwM1dvdThvN0E?oc=5",
+    "title": "MHT CET PCM Question Paper 2026 Session 1 - Shiksha.com",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPSlRjNE1YN2dCNlZYcTFrVDRqZjBoVWc1MjhDWV9Jd0drWmFIclNyOFBNcmxQUkc1UkpWS0s4LVNzVUQzQ2FsVmwxbnY1UWt2T0IybGpXcDR6aDk1RktHamlDZmh0X01hRlo2bzU2ajFUR0RMeGtIMVFtM05OOUhmQW9PTzBuX3dQdTk4UGZuS003WTVMc3pTTnZwM1dvdThvN0E?oc=5",
+    "source": "Shiksha.com",
+    "published": "2026-04-10T18:59:10+00:00",
     "country": "india",
     "tags": []
   },
   {
-    "id": "https://www.reddit.com/r/UPSC/comments/1sgz7f8/only_a_upsc_aspirant_can_elaborate_this_picture/",
-    "title": "Only a UPSC aspirant can elaborate this picture. Anyone ?",
-    "url": "https://www.reddit.com/r/UPSC/comments/1sgz7f8/only_a_upsc_aspirant_can_elaborate_this_picture/",
-    "source": "Reddit / r/UPSC",
-    "published": "2026-04-09T19:12:04+00:00",
+    "id": "https://www.reddit.com/r/Indian_Academia/comments/1shush3/should_i_take_another_drop_for_neet_ug_first_drop/",
+    "title": "Should I take another drop for NEET UG? First drop get wasted what to do I need advice",
+    "url": "https://www.reddit.com/r/Indian_Academia/comments/1shush3/should_i_take_another_drop_for_neet_ug_first_drop/",
+    "source": "Reddit / r/Indian_Academia",
+    "published": "2026-04-10T18:23:34+00:00",
     "country": "all",
     "tags": [
-      "upsc"
+      "neet"
     ]
   },
   {
-    "id": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOM1YzbkdGeWtzRkE4WVhCTlFxcTdtT3AzdzEzN0FWa2J5amgySE5FWG9ob2hxS2lwNFZ6c0Njay16WHQ2M1U3MEVnazF0UUlCV3dfTmlrcGtIWnVuZ0lDaE1hNHFuTUVCM19SMkZTZ2o3Nm9zZWFZeGkwTnQyNVRlTXoxWllCcURyOVU0dWh4RXVQdw?oc=5",
-    "title": "PMDC reduces MDCAT passing marks for 2026 admissions - Minute Mirror",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOM1YzbkdGeWtzRkE4WVhCTlFxcTdtT3AzdzEzN0FWa2J5amgySE5FWG9ob2hxS2lwNFZ6c0Njay16WHQ2M1U3MEVnazF0UUlCV3dfTmlrcGtIWnVuZ0lDaE1hNHFuTUVCM19SMkZTZ2o3Nm9zZWFZeGkwTnQyNVRlTXoxWllCcURyOVU0dWh4RXVQdw?oc=5",
-    "source": "Minute Mirror",
-    "published": "2026-04-09T18:08:20+00:00",
-    "country": "pakistan",
+    "id": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOamRWU1JUMWJVcl9Yb1Rfc3g1VTY2eHBEeERfaTlSMHZ6S184MlZJR2l6aTU2YS1IZWlSRDh1dEwycEdLZ1ZsMmE5UDdlTnhiVlJPcG5rMkJUUnd0NDBINVNxaENrbzV6czdlWk1EVzZ0c3hCSUYzbTRHZUZaZWI1Qlk1QnY0dDBkZkNkMGdGOTUwNVpucG4za2ozQQ?oc=5",
+    "title": "SSC CGL Notification 2026 Expected Today LIVE: Application Form, Exam Date, Fee, Eligibility & More - Shiksha.com",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOamRWU1JUMWJVcl9Yb1Rfc3g1VTY2eHBEeERfaTlSMHZ6S184MlZJR2l6aTU2YS1IZWlSRDh1dEwycEdLZ1ZsMmE5UDdlTnhiVlJPcG5rMkJUUnd0NDBINVNxaENrbzV6czdlWk1EVzZ0c3hCSUYzbTRHZUZaZWI1Qlk1QnY0dDBkZkNkMGdGOTUwNVpucG4za2ozQQ?oc=5",
+    "source": "Shiksha.com",
+    "published": "2026-04-10T18:10:00+00:00",
+    "country": "india",
     "tags": [
-      "mdcat"
+      "ssc cgl"
     ]
   },
   {
-    "id": "https://www.reddit.com/r/Indian_Academia/comments/1sgue7e/pcmb_student_looking_for_careers_other_than_neet/",
-    "title": "PCMB student looking for careers other than neet.",
-    "url": "https://www.reddit.com/r/Indian_Academia/comments/1sgue7e/pcmb_student_looking_for_careers_other_than_neet/",
+    "id": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE01RE5jd3hTMms3cHhVUFdOZHBqMmFBYzJIMUNqR1JLSjh1blM2cmRjQVJZLUJZVFM5M0dYR0JwRnExQ0RicE9uWDF1OGRObG5OQWtVbW9WS0l3V3RZ0gFiQVVfeXFMTXN6RllGQVVsTmlyUk9jQ1dXdjZoa29oQ3RGdmZKY2ZnY1pzNE0xR0JvY0x6MGc3c2FadjFoSVBPUlM1RVROSmV2bjlxeEpmQnBLdFo2N3NrVDZtYkczXzBhZUE?oc=5",
+    "title": "Jamb examination slip printing: 2026 UTME go start on April 16 - all you need sabi about examination - BBC",
+    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE01RE5jd3hTMms3cHhVUFdOZHBqMmFBYzJIMUNqR1JLSjh1blM2cmRjQVJZLUJZVFM5M0dYR0JwRnExQ0RicE9uWDF1OGRObG5OQWtVbW9WS0l3V3RZ0gFiQVVfeXFMTXN6RllGQVVsTmlyUk9jQ1dXdjZoa29oQ3RGdmZKY2ZnY1pzNE0xR0JvY0x6MGc3c2FadjFoSVBPUlM1RVROSmV2bjlxeEpmQnBLdFo2N3NrVDZtYkczXzBhZUE?oc=5",
+    "source": "BBC",
+    "published": "2026-04-10T18:05:36+00:00",
+    "country": "nigeria",
+    "tags": [
+      "jamb"
+    ]
+  },
+  {
+    "id": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNU0t2THJpZGUybks2THd0bEJHSjhYTTJYLUtMcVI2c19tNC1SQ2NXMlZicXloYlpmOTBuNzBmdF9ONzdnTy1WMXUtbVM1VE9YN2t3bEpkaS1ZZ0I2UndkM2stRHc2SGJEV19BcUgweG9SdWRoZnY0VkJDdzRabHVjZ1F3?oc=5",
+    "title": "2026 UTME: JAMB delists 23 CBT centres few days to exam - Blueprint Newspapers",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNU0t2THJpZGUybks2THd0bEJHSjhYTTJYLUtMcVI2c19tNC1SQ2NXMlZicXloYlpmOTBuNzBmdF9ONzdnTy1WMXUtbVM1VE9YN2t3bEpkaS1ZZ0I2UndkM2stRHc2SGJEV19BcUgweG9SdWRoZnY0VkJDdzRabHVjZ1F3?oc=5",
+    "source": "Blueprint Newspapers",
+    "published": "2026-04-10T17:43:32+00:00",
+    "country": "nigeria",
+    "tags": [
+      "jamb"
+    ]
+  },
+  {
+    "id": "https://www.reddit.com/r/Indian_Academia/comments/1shq77d/private_college_suggestions_required_for_ba/",
+    "title": "Private College Suggestions Required for BA Economics",
+    "url": "https://www.reddit.com/r/Indian_Academia/comments/1shq77d/private_college_suggestions_required_for_ba/",
     "source": "Reddit / r/Indian_Academia",
-    "published": "2026-04-09T16:22:57+00:00",
+    "published": "2026-04-10T15:42:37+00:00",
     "country": "all",
     "tags": [
       "cuet",
-      "neet"
+      "cbse"
     ]
   },
   {
-    "id": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPLXg5NS1uNXJaU2kzTGNxbGhQVFhsZDg3d2wtalVsNWc4NzBLNm5pV1FOenIwQVp6MTZoVGZZZElkN2JjZ2p4eUNXbDhJdXBfR1E5ZzNKUFRKTlI4NHJaZ2lVMTVKMjZYaXBMVGxkeDVjWUdQUjQyc3ZKX1BaMkxReWMzNGJCbjA?oc=5",
-    "title": "JEE Main 2026 IIT Cut-off Expectations and Trends Analysis - The CSR Journal",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPLXg5NS1uNXJaU2kzTGNxbGhQVFhsZDg3d2wtalVsNWc4NzBLNm5pV1FOenIwQVp6MTZoVGZZZElkN2JjZ2p4eUNXbDhJdXBfR1E5ZzNKUFRKTlI4NHJaZ2lVMTVKMjZYaXBMVGxkeDVjWUdQUjQyc3ZKX1BaMkxReWMzNGJCbjA?oc=5",
-    "source": "The CSR Journal",
-    "published": "2026-04-09T16:11:32+00:00",
+    "id": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9DT1g3RTNGdnhxd1ZfOHpnbU1VWVNYWFVJbTE4anJ2M3N2YWQ2bS1MME9Nc3pfd0pBbVc3TllmZG9yU3NzSUxHUmRQNmI2UHJFeVFOQ2M3MTM1S2l2NWNEaVJBTXF1VUhXY2QydDhlZTJYYUE?oc=5",
+    "title": "Deep-Space Distance Measurement: New Technique and Its Significance - StudyIQ",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9DT1g3RTNGdnhxd1ZfOHpnbU1VWVNYWFVJbTE4anJ2M3N2YWQ2bS1MME9Nc3pfd0pBbVc3TllmZG9yU3NzSUxHUmRQNmI2UHJFeVFOQ2M3MTM1S2l2NWNEaVJBTXF1VUhXY2QydDhlZTJYYUE?oc=5",
+    "source": "StudyIQ",
+    "published": "2026-04-10T15:26:15+00:00",
     "country": "india",
-    "tags": [
-      "jee main",
-      "jee"
-    ]
+    "tags": []
   },
   {
-    "id": "https://www.reddit.com/r/Indian_Academia/comments/1sgt1jp/does_neet_and_aiims_accept_dual_marksheet_from/",
-    "title": "Does NEET and AIIMS accept dual marksheet from NIOS?",
-    "url": "https://www.reddit.com/r/Indian_Academia/comments/1sgt1jp/does_neet_and_aiims_accept_dual_marksheet_from/",
-    "source": "Reddit / r/Indian_Academia",
-    "published": "2026-04-09T15:34:22+00:00",
-    "country": "all",
-    "tags": [
-      "neet"
-    ]
-  },
-  {
-    "id": "https://www.reddit.com/r/Indian_Academia/comments/1sgsm8v/if_anyone_is_currently_in_lloyd_only_i_need/",
-    "title": "If anyone is currently in Lloyd only I need urgent help",
-    "url": "https://www.reddit.com/r/Indian_Academia/comments/1sgsm8v/if_anyone_is_currently_in_lloyd_only_i_need/",
-    "source": "Reddit / r/Indian_Academia",
-    "published": "2026-04-09T15:19:14+00:00",
-    "country": "all",
-    "tags": [
-      "cuet"
-    ]
-  },
-  {
-    "id": "https://news.google.com/rss/articles/CBMickFVX3lxTE5DUDlMOUVHZ3ZSNkJzSTJ5d2NJdlU0akZBVXlGWXZReGJxZnRpQmlpZmFIZ0ZOd3BBUlhTTUxCNmVSN3V0UlBxZkE4c29UaWZMa3N1RUxwVGw2VVlmajBBQmUxQzZXV3hyTExTWWNNd2VkQQ?oc=5",
-    "title": "Places in News 2026 for UPSC Exam: Important Locations & Facts - Physics Wallah",
-    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5DUDlMOUVHZ3ZSNkJzSTJ5d2NJdlU0akZBVXlGWXZReGJxZnRpQmlpZmFIZ0ZOd3BBUlhTTUxCNmVSN3V0UlBxZkE4c29UaWZMa3N1RUxwVGw2VVlmajBBQmUxQzZXV3hyTExTWWNNd2VkQQ?oc=5",
-    "source": "Physics Wallah",
-    "published": "2026-04-09T14:30:11+00:00",
+    "id": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5MNlM4UHVCSzc1T1BWeUpWbEFrVHhiNFI4ODhNbDNFbVk3MEJMcWcwVGJpMnAwb3AzSW50QmR2NXV6TG45dkE2WkN2T2ExaTgzUlVIMmNsZ1BWSlJ0dnVB?oc=5",
+    "title": "Elephanta Island Excavations: New Discoveries and Archaeological Insights - StudyIQ",
+    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5MNlM4UHVCSzc1T1BWeUpWbEFrVHhiNFI4ODhNbDNFbVk3MEJMcWcwVGJpMnAwb3AzSW50QmR2NXV6TG45dkE2WkN2T2ExaTgzUlVIMmNsZ1BWSlJ0dnVB?oc=5",
+    "source": "StudyIQ",
+    "published": "2026-04-10T15:21:55+00:00",
     "country": "india",
-    "tags": [
-      "upsc"
-    ]
+    "tags": []
   },
   {
-    "id": "https://news.google.com/rss/articles/CBMifkFVX3lxTE43a0J0ZVhmMlFwX1JlVWNuV2lUdHZjU2tucDhLMWVqZzJVc0FMek8yUlNoTlFxSDAwUkVKTWZWb25jMkxoUlhYM2xZeU9hdGRuMXFCV0NEVUt1S1ZxcWhqT2dSbnlwUHREZUZFejhkNjZ6eFlnVk1DOGphV1ZpZ9IBgwFBVV95cUxPNUJwQ2hCUzkwb2dkdFg4SHNrbFNEdFZOWHRGWDJuYmhEcjdYZTFtUUphcm5DR0xDa0pVWXdYSEt5Y3psd3I2dmRkRXpaaEV2X2pRay1wUUJ3UGdCbnMtN3VqU0c0YmNhbXRVazVHTTZjejY2R29MckNGS3FWTElJX2ZoRQ?oc=5",
-    "title": "MDCAT Passing Percentage Reduced by 3% - ProPakistani",
-    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE43a0J0ZVhmMlFwX1JlVWNuV2lUdHZjU2tucDhLMWVqZzJVc0FMek8yUlNoTlFxSDAwUkVKTWZWb25jMkxoUlhYM2xZeU9hdGRuMXFCV0NEVUt1S1ZxcWhqT2dSbnlwUHREZUZFejhkNjZ6eFlnVk1DOGphV1ZpZ9IBgwFBVV95cUxPNUJwQ2hCUzkwb2dkdFg4SHNrbFNEdFZOWHRGWDJuYmhEcjdYZTFtUUphcm5DR0xDa0pVWXdYSEt5Y3psd3I2dmRkRXpaaEV2X2pRay1wUUJ3UGdCbnMtN3VqU0c0YmNhbXRVazVHTTZjejY2R29MckNGS3FWTElJX2ZoRQ?oc=5",
+    "id": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNdWRvbDBaSGMxa0ZxRkM0UXFDTDZ6VHlydXFxbzlPUzVpQlFfMzF2dEIzVHFIRWdyVlVJQXA3ajJ4ekVsZlhVdUxkRFpkZ21hMEE2bmJzdkdtbUxQaFRfTzdZeGN4WkR5dG45TU03VzZwX3dTMzdDSnJaTG9tTldqQjdCdWFhMTViVk5XV3U2d9IBlAFBVV95cUxNWWNyUDk2UHNOV2lheFBnRklmYldMSmFHZHIzckppNlVJRGFrckJQcldhUURhNm1XSmRkd0ZhN2FVa3NJdENVZEhHMW0tRkhIXzYxRU9aTzRQc2dfQVE3S0RZem1DZnZFZ0tpakstQWRkdlVDSU92a1FTcTI1VG1HTDNCbXEtLVFuakQ5Q1hBWEhDVl9o?oc=5",
+    "title": "Doctors Slam PMDC for Lowering MDCAT Passing Marks - ProPakistani",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNdWRvbDBaSGMxa0ZxRkM0UXFDTDZ6VHlydXFxbzlPUzVpQlFfMzF2dEIzVHFIRWdyVlVJQXA3ajJ4ekVsZlhVdUxkRFpkZ21hMEE2bmJzdkdtbUxQaFRfTzdZeGN4WkR5dG45TU03VzZwX3dTMzdDSnJaTG9tTldqQjdCdWFhMTViVk5XV3U2d9IBlAFBVV95cUxNWWNyUDk2UHNOV2lheFBnRklmYldMSmFHZHIzckppNlVJRGFrckJQcldhUURhNm1XSmRkd0ZhN2FVa3NJdENVZEhHMW0tRkhIXzYxRU9aTzRQc2dfQVE3S0RZem1DZnZFZ0tpakstQWRkdlVDSU92a1FTcTI1VG1HTDNCbXEtLVFuakQ5Q1hBWEhDVl9o?oc=5",
     "source": "ProPakistani",
-    "published": "2026-04-09T07:32:03+00:00",
+    "published": "2026-04-10T13:01:44+00:00",
     "country": "pakistan",
     "tags": [
       "mdcat"
+    ]
+  },
+  {
+    "id": "https://www.reddit.com/r/Indian_Academia/comments/1shg7us/is_bpharma_a_good_career_options_after_12th_grade/",
+    "title": "Is Bpharma a good career options after 12th grade",
+    "url": "https://www.reddit.com/r/Indian_Academia/comments/1shg7us/is_bpharma_a_good_career_options_after_12th_grade/",
+    "source": "Reddit / r/Indian_Academia",
+    "published": "2026-04-10T08:03:51+00:00",
+    "country": "all",
+    "tags": [
+      "neet"
     ]
   }
 ]

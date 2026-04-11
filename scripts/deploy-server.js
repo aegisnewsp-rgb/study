@@ -19,7 +19,7 @@ const path = require('path');
 const fs = require('fs');
 
 const PORT = process.env.DEPLOY_PORT || 9000;
-const TOKEN = process.env.DEPLOY_TOKEN || 'change-me-in-deploy.sh';
+const TOKEN = process.env.DEPLOY_TOKEN || 'your-secret-token-here';
 const APP_DIR = process.env.APP_DIR || '/opt/studyroadmap-astro';
 const LOG_FILE = '/var/log/studyroadmap-deploy.log';
 const PID_FILE = '/var/run/studyroadmap-deploy.pid';

@@ -16,7 +16,7 @@ RestartSec=5
 
 # Env
 Environment=DEPLOY_PORT=9000
-Environment=DEPLOY_TOKEN=change-me-in-deploy.sh
+Environment=DEPLOY_TOKEN=your-secret-token-here
 Environment=APP_DIR=/opt/studyroadmap-astro
 
 # Logging — journald captures stdout/stderr automatically

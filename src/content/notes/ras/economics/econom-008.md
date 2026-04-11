@@ -26,7 +26,7 @@ High-yield point: Understand the fundamental principles and their applications
 > Standard content for students with a few days to months.
 
 **Factor Markets** — RPSC RAS Study Guide
-Overview: Factor Markets is a key None topic for RPSC RAS
+Overview: Factor Markets is a key Quantitative Aptitude topic for RPSC RAS
 Core principles: Build a solid understanding of fundamentals
 Key points: Definitions, applications, and typical exam question patterns
 Study strategy: Theory first, then practice problems

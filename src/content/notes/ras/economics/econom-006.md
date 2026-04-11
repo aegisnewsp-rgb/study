@@ -26,7 +26,7 @@ High-yield point: Understand the fundamental principles and their applications
 > Standard content for students with a few days to months.
 
 **Cost Theory** — RPSC RAS Study Guide
-Overview: Cost Theory is a key None topic for RPSC RAS
+Overview: Cost Theory is a key Quantitative Aptitude topic for RPSC RAS
 Core principles: Build a solid understanding of fundamentals
 Key points: Definitions, applications, and typical exam question patterns
 Study strategy: Theory first, then practice problems
@@ -37,7 +37,7 @@ Study strategy: Theory first, then practice problems
 > Comprehensive coverage for students on a longer study timeline.
 
 **Cost Theory** — Comprehensive RPSC RAS Notes
-Full coverage: Cost Theory in None for RPSC RAS preparation
+Full coverage: Cost Theory in Quantitative Aptitude for RPSC RAS preparation
 Detailed theory and concept explanations
 Problem-solving strategies and common mistakes to avoid
 Practice: Attempt previous year questions and standard textbook exercises

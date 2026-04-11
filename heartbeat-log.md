@@ -8,3 +8,4 @@
 
 **Deploy status:** DOWN — 404 on /deploy endpoint--- Heartbeat 2026-04-11 14:46 UTC ---
 studyroadmap.in: 200 ✓ | deploy: 404 (down, expected)
+2026-04-11 15:27 UTC — Deploy down (404)

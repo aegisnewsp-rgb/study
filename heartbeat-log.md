@@ -10,3 +10,4 @@ Deploy down at 2026-04-11T04:23:59+00:00
 [2026-04-11 06:44 UTC] Deploy down (404)
 - `[2026-04-11 07:44 UTC]` Deploy down (404 at /deploy endpoint)
 - [2026-04-11 07:54 UTC] Deploy check: got 404 (deploy down or returning deploy page, not /deploy endpoint)
+[2026-04-11 08:04] StudyRoadmap deploy DOWN (404)

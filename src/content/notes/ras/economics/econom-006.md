@@ -16,7 +16,7 @@ generated: "2026-03-25T17:00:00"
 > Rapid summary for last-minute revision before your exam.
 
 **Cost Theory** — Key Facts for RPSC RAS
-Core concept: Cost Theory is an important topic in None for RPSC RAS
+Core concept: Cost Theory is an important topic in Quantitative Aptitude for RPSC RAS
 High-yield point: Understand the fundamental principles and their applications
 ⚡ Exam tip: Questions from Cost Theory appear regularly in RPSC RAS
 

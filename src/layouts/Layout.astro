@@ -50,6 +50,9 @@ const {
     publishedDate,
     modifiedDate,
     pageType = 'website',
+    geoRegion,
+    hreflang,
+    countryName,
 } = Astro.props;
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);

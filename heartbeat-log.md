@@ -6,4 +6,5 @@
 - Deploy (172.17.0.1:9000/deploy): 404 ❌ (DOWN)
 - News: refreshed
 
-**Deploy status:** DOWN — 404 on /deploy endpoint
+**Deploy status:** DOWN — 404 on /deploy endpoint--- Heartbeat 2026-04-11 14:46 UTC ---
+studyroadmap.in: 200 ✓ | deploy: 404 (down, expected)

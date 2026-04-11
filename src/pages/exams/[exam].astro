@@ -258,6 +258,27 @@ const pathwayExamEntries = pathwayMap[exam.examId] || [];
 const pathwayExams = pathwayExamEntries
   .filter(p => ALL_EXAMS.some(e => e && e.examId === p.examId))
   .map(p => ({ ...p, exam: ALL_EXAMS.find(e => e && e.examId === p.examId) }));
+
+// Wikipedia citations for E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness)
+const EXAM_WIKI_CITATIONS: Record<string, Array<{ label: string; url: string; note?: string }>> = {
+  'mdcat': [
+    { label: 'Medical and Dental College Admission Test — Wikipedia', url: 'https://en.wikipedia.org/wiki/Medical_and_Dental_College_Admission_Test', note: 'Overview of MDCAT format, conducting bodies, and syllabus scope' },
+    { label: 'Pakistan Medical Commission — Wikipedia', url: 'https://en.wikipedia.org/wiki/Pakistan_Medical_Commission', note: 'Official regulatory authority for MDCAT in Pakistan' },
+  ],
+  'jamb': [
+    { label: 'Joint Admissions and Matriculation Board — Wikipedia', url: 'https://en.wikipedia.org/wiki/Joint_Admissions_and_Matriculation_Board', note: 'Official body conducting JAMB UTME in Nigeria' },
+    { label: 'Unified Tertiary Matriculation Examination — Wikipedia', url: 'https://en.wikipedia.org/wiki/Unified_Tertiary_Matriculation_Examination', note: 'Format, subjects, and scoring system for JAMB exams' },
+  ],
+  'waec': [
+    { label: 'West African Examinations Council — Wikipedia', url: 'https://en.wikipedia.org/wiki/West_African_Examinations_Council', note: "WAEC's role, history, and exam coverage across West Africa" },
+    { label: 'West African Senior School Certificate Examination — Wikipedia', url: 'https://en.wikipedia.org/wiki/West_African_Senior_School_Certificate_Examination', note: 'Senior school certification exam administered by WAEC' },
+  ],
+  'kuccps': [
+    { label: 'Kenya Universities and Colleges Central Placement Service — Wikipedia', url: 'https://en.wikipedia.org/wiki/Kenya_Universities_and_Colleges_Central_Placement_Service', note: 'Government agency managing university admissions placement in Kenya' },
+    { label: 'University education in Kenya — Wikipedia', url: 'https://en.wikipedia.org/wiki/University_education_in_Kenya', note: "Overview of Kenya's university system and admission pathways" },
+  ],
+};
+const wikiCitations = EXAM_WIKI_CITATIONS[exam.examId] || [];
 ---
 
 <Layout
@@ -607,6 +628,41 @@ const pathwayExams = pathwayExamEntries
         </table>
       </div>
     </section>
+
+    {/* Wikipedia Citations — E-E-A-T Sources & References */}
+    {wikiCitations.length > 0 && (
+      <section class="container-page pb-4 pt-8 border-t border-surface-200 dark:border-surface-800">
+        <div class="flex items-center gap-2 mb-4">
+          <span class="text-base">📚</span>
+          <h2 class="text-base font-bold text-surface-700 dark:text-surface-300">
+            Sources & References
+          </h2>
+        </div>
+        <p class="text-xs text-surface-400 dark:text-surface-500 mb-4 leading-relaxed">
+          The following Wikipedia articles provide authoritative background on {examName} and its exam ecosystem. They are cited for E-E-A-T purposes to support the accuracy of the information presented on this page.
+        </p>
+        <ol class="space-y-2">
+          {wikiCitations.map((cite, i) => (
+            <li class="flex gap-3 text-xs">
+              <span class="shrink-0 text-surface-300 dark:text-surface-600 font-mono select-none">[{i + 1}]</span>
+              <div>
+                <a
+                  href={cite.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="text-brand-600 dark:text-brand-400 hover:underline font-medium"
+                >
+                  {cite.label}
+                </a>
+                {cite.note && (
+                  <span class="text-surface-400 dark:text-surface-500"> — {cite.note}</span>
+                )}
+              </div>
+            </li>
+          ))}
+        </ol>
+      </section>
+    )}
 
   </main>
 

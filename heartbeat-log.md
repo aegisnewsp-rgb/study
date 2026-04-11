@@ -36,3 +36,5 @@ Site: 200, Deploy: 404 (down)
 studyroadmap.in: 404 (DOWN)
 deploy: 200 (OK)
 
+
+[2026-04-11 22:50 UTC] Deploy check: 404 — deploy endpoint down at http://172.17.0.1:9000/deploy

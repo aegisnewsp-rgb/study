@@ -1299,3 +1299,15 @@ India 4 (JEE Main S2 April 8 live), Pakistan 3, Nigeria 3
 - Research log: no unresolved critical issues from growth agent
 - Quick-fix: diagramPrompt/YAML checks passed ✅; exam data fields present ✅
 - Action taken: None — no quick-fix candidates found this cycle
+
+---
+## 2026-04-11 20:32 UTC
+**Health:** site 200/200 ✅
+**Checked:** 
+- YAML `subjectName: None`: none found
+- Small placeholder files (<1500c): found 3 RAS economics files
+- 2024 in exam pages: content reference only (valid)
+- Missing examPattern metadata: data files (not actionably empty)
+- Content inspection: econom-006.md had "key None topic" placeholder in 2 places
+**Fix:** Replaced "None" with "Quantitative Aptitude" in Standard & Extended sections
+**Commit:** Yes

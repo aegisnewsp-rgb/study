@@ -27,3 +27,7 @@ studyroadmap.in: 200 ✓ | deploy: 404 (down, expected)
 [2026-04-11 19:23 UTC] site=200 ok | deploy=404 DOWN
 - 2026-04-11 19:48 UTC — deploy (172.17.0.1:9000/deploy) returned 404 (DOWN)
 2026-04-11 20:14 UTC — studyroadmap.in: 200, deploy: 404 (DOWN)
+--- HEARTBEAT 2026-04-11 20:39 UTC ---
+studyroadmap.in: 200 OK
+deploy: 404 DOWN
+news state timestamp suspicious (1775937867, future), skipping refresh

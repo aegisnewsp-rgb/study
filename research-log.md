@@ -1326,3 +1326,10 @@ India 4 (JEE Main S2 April 8 live), Pakistan 3, Nigeria 3
 - Checked: small files → econom-003.md, econom-008.md, gk-010.md (all have real content, only econom-008 had "None" in overview text)
 - **FIXED:** econom-008.md — replaced "key None topic" with "key Quantitative Aptitude topic"
 - Committed
+
+## 2026-04-11 22:03 UTC
+**Health:** dist/ build present ✓ | sitemap-0.xml exists | HTTP curl from host timed out (network-restricted)
+**Research log:** no unresolved critical issues from growth agent
+**Quick-fix found:** 6 files in `notes/ras/economics/` had "topic in None" and "in None for" placeholders
+**Action:** Replaced all remaining RAS economics None placeholders across econom-001/002/004/005/007/008
+**Commit:** 5e786a6 ✅ pushed

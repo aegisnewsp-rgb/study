@@ -4,3 +4,4 @@ Deploy down at 2026-04-11T04:23:59+00:00
 [2026-04-11 04:55:44] Deploy endpoint (http://172.17.0.1:9000/deploy) returned 404 — deploy may be down
 [2026-04-11 04:55:30] News refresh FAILED — script killed (SIGTERM), likely timeout
 [2026-04-11 05:38 UTC] Deploy down: http://172.17.0.1:9000/deploy returned 404
+[2026-04-11 05:58 UTC] Deploy down (404)

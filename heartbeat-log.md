@@ -14,3 +14,5 @@ Deploy is DOWN (404) — 2026-04-11 10:14 UTC
 - studyroadmap.in: 200 ✅
 - deploy (172.17.0.1:9000/deploy): 404 ⚠️ (DOWN)
 - News refresh: ✅ committed (10 items)
+[2026-04-11 11:29 UTC] Deploy status: DOWN (404)
+2026-04-11T11:39:34Z - deploy status: 404 DOWN

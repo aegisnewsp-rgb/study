@@ -1292,3 +1292,10 @@ India 4 (JEE Main S2 April 8 live), Pakistan 3, Nigeria 3
 - Fixed: replaced all None occurrences with subjectName (Quantitative Aptitude)
 - Committed: 327b504
 
+
+2026-04-11T20:04:00Z — StudyRoadmap SEO Pulse (hourly)
+- Health: HTTP 200 homepage, /exams/, /notes/, sitemap-0.xml ✅
+- HTTPS appears down (SSL error 35) — site accessible via HTTP only
+- Research log: no unresolved critical issues from growth agent
+- Quick-fix: diagramPrompt/YAML checks passed ✅; exam data fields present ✅
+- Action taken: None — no quick-fix candidates found this cycle

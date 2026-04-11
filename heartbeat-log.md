@@ -5,3 +5,7 @@
 - studyroadmap.in → 200 ✅
 - deploy → 404 ❌ (deploy down)
 Deploy is DOWN (404) — 2026-04-11 10:14 UTC
+## 2026-04-11 11:15
+- studyroadmap.in: **UP** (200)
+- Deploy /deploy endpoint: **DOWN** (404)
+

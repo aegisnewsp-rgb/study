@@ -1340,3 +1340,11 @@ India 4 (JEE Main S2 April 8 live), Pakistan 3, Nigeria 3
 - Issue found: law-ent-tz/gk/gk-003.md had placeholder name "Topic 3" (generated boilerplate, no real content)
 - Fix: Updated topicName to "Tanzania Constitution and Legal Framework" and h1 to match
 - Commit: 9c02fa8
+
+## 2026-04-11 22:34 UTC
+- Health: ✓ studyroadmap.in/ → 200, /exams/neet/ → 200
+- Checked: subjectName None placeholders → none found
+- Checked: small files → all have real content, no action needed
+- Issue found: law-ent-tz/gk/gk-001.md still had placeholder "Topic 1" (previously only gk-003 was fixed)
+- **FIXED:** gk-001.md — updated topicName, h1, and all 3 section headers to "Tanzania General Knowledge I"
+- Commit: 8a11384 ✅

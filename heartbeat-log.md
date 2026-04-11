@@ -16,3 +16,6 @@ studyroadmap.in: 200 ✓ | deploy: 404 (down, expected)
 - deploy: ❌ 404 (DOWN)
 
 **2026-04-11 16:15 UTC** — Deploy check: HTTP 404 (service down) | Site: 200 OK
+[2026-04-11 16:55 UTC] Deploy check: 404 (down)
+[2026-04-11 17:00 UTC] DEPLOY DOWN — http://172.17.0.1:9000/deploy returned 404
+[2026-04-11 17:05 UTC] Deploy endpoint (172.17.0.1:9000/deploy) returned 404 — deploy appears down

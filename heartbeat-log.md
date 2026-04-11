@@ -31,3 +31,4 @@ studyroadmap.in: 200 ✓ | deploy: 404 (down, expected)
 studyroadmap.in: 200 OK
 deploy: 404 DOWN
 news state timestamp suspicious (1775937867, future), skipping refresh
+Site: 200, Deploy: 404 (down)

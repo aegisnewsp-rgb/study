@@ -1311,3 +1311,11 @@ India 4 (JEE Main S2 April 8 live), Pakistan 3, Nigeria 3
 - Content inspection: econom-006.md had "key None topic" placeholder in 2 places
 **Fix:** Replaced "None" with "Quantitative Aptitude" in Standard & Extended sections
 **Commit:** Yes
+
+---
+## 2026-04-11 21:05 UTC
+**Health:** dist/ build present (HTTP curl timed out from this host — site may be HTTP-only or network-restricted)
+**Research log:** no unresolved critical issues from growth agent
+**Quick-fix found:** 8 files in `notes-new/cs-exec/economics/` had `subjectName: None` and "topic in None" placeholders
+**Action:** Replaced all `subjectName: None` → `subjectName: Economics` and "topic in None" → "topic in Economics" across econom-001 through econom-008
+**Commit:** 55c963c ✅ pushed

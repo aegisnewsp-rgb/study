@@ -1356,3 +1356,9 @@ India 4 (JEE Main S2 April 8 live), Pakistan 3, Nigeria 3
 - Checked: placeholder text in body content
 - **FIXED:** law-ent-tz/gk/gk-001.md — previous commit only fixed frontmatter; body still had "Topic 1" in 3 sections (Lite/Standard/Extended). Replaced with descriptive Tanzania GK content.
 - Commit: 9da7c9e ✅
+
+## 2026-04-11 23:35 UTC
+- **Health**: studyroadmap.in/ ✅ 200, studyroadmap.in/exams/neet/ ✅ 200
+- **Issue**: Placeholder content — `law-ent-tz/gk/gk-008.md` had generic "Topic 8" text with no real content
+- **Fix**: Replaced with real Tanzania Constitution & Legal System content (Union structure, Bill of Rights, Judiciary)
+- **Commit**: 591d2f6

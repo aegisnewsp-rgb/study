@@ -2,7 +2,7 @@
 exam: cs-exec
 examName: CS Executive
 subject: quant
-subjectName: None
+subjectName: Economics
 topic: econom-005
 topicName: Theory of Production
 weight: 3
@@ -16,7 +16,7 @@ generated: "2026-03-25T17:00:00"
 > Rapid summary for last-minute revision before your exam.
 
 **Theory of Production** — Key Facts for CS Executive
-Core concept: Theory of Production is an important topic in None for CS Executive
+Core concept: Theory of Production is an important topic in Economics for CS Executive
 High-yield point: Understand the fundamental principles and their applications
 ⚡ Exam tip: Questions from Theory of Production appear regularly in CS Executive
 

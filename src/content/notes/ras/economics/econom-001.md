@@ -16,7 +16,7 @@ generated: "2026-03-25T17:00:00"
 > Rapid summary for last-minute revision before your exam.
 
 **Introduction to Economics** — Key Facts for RPSC RAS
-Core concept: Introduction to Economics is an important topic in None for RPSC RAS
+Core concept: Introduction to Economics is an important topic in Economics for RPSC RAS
 High-yield point: Understand the fundamental principles and their applications
 ⚡ Exam tip: Questions from Introduction to Economics appear regularly in RPSC RAS
 
@@ -26,7 +26,7 @@ High-yield point: Understand the fundamental principles and their applications
 > Standard content for students with a few days to months.
 
 **Introduction to Economics** — RPSC RAS Study Guide
-Overview: Introduction to Economics is a key None topic for RPSC RAS
+Overview: Introduction to Economics is a key Economics topic for RPSC RAS
 Core principles: Build a solid understanding of fundamentals
 Key points: Definitions, applications, and typical exam question patterns
 Study strategy: Theory first, then practice problems

@@ -16,7 +16,7 @@ generated: "2026-03-25T17:00:00"
 > Rapid summary for last-minute revision before your exam.
 
 **Theory of Production** — Key Facts for RPSC RAS
-Core concept: Theory of Production is an important topic in None for RPSC RAS
+Core concept: Theory of Production is an important topic in Economics for RPSC RAS
 High-yield point: Understand the fundamental principles and their applications
 ⚡ Exam tip: Questions from Theory of Production appear regularly in RPSC RAS
 
@@ -26,7 +26,7 @@ High-yield point: Understand the fundamental principles and their applications
 > Standard content for students with a few days to months.
 
 **Theory of Production** — RPSC RAS Study Guide
-Overview: Theory of Production is a key None topic for RPSC RAS
+Overview: Theory of Production is a key Economics topic for RPSC RAS
 Core principles: Build a solid understanding of fundamentals
 Key points: Definitions, applications, and typical exam question patterns
 Study strategy: Theory first, then practice problems

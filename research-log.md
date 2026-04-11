@@ -1284,3 +1284,11 @@ India 4 (JEE Main S2 April 8 live), Pakistan 3, Nigeria 3
 
 ---
 
+
+2026-04-11T19:32:43Z — StudyRoadmap research check
+- Health: / = 200, /exams/neet/ = 200 ✓
+- Found: ras/economics/econom-003.md (Elasticity) had 3x 'None' placeholders in body text
+  (e.g., 'topic in None' should be 'topic in Quantitative Aptitude')
+- Fixed: replaced all None occurrences with subjectName (Quantitative Aptitude)
+- Committed: 327b504
+

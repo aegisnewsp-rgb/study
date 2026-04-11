@@ -210,7 +210,7 @@ const exam: ExamTemplate = {
   examId: 'mdcat',
   examName: 'MDCAT',
   country: 'pakistan',
-  description: `MDCAT\ is\ Pakistan's\ mandatory\ entry\ test\ for\ admission\ to\ all\ public\ and\ private\ medical\ colleges\.\ Conducted\ by\ PMC\ \(Pakistan\ Medical\ Commission\),\ it\ tests\ competency\ in\ Biology,\ Chemistry,\ Physics,\ and\ English\.`,
+  description: `MDCAT is Pakistan's mandatory entry test for admission to all public and private medical colleges. Conducted by PMC (Pakistan Medical Commission), it tests competency in Biology, Chemistry, Physics, and English.`,
   examPattern: "180 MCQs, 3 hours — Biology(56), Chemistry(56), Physics(44), English(24). Logical Reasoning integrated within English section. Minimum 65% score required for admission to public medical colleges.",
   eligibility: "FSc (Pre-Medical) with minimum 70% aggregate. Candidates must have studied Biology, Chemistry, and Physics. Valid MDCAT score mandatory. Pakistani nationals and foreign students can appear.",
   subjects,

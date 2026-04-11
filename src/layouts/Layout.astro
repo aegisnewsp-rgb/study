@@ -33,6 +33,9 @@ interface Props {
     publishedDate?: string;
     modifiedDate?: string;
     pageType?: 'website' | 'article';
+    geoRegion?: string;
+    hreflang?: string;
+    countryName?: string;
 }
 
 const {
@@ -54,7 +57,7 @@ const currentYear = new Date().getFullYear();
 ---
 
 <!doctype html>
-<html lang="en" class="scroll-smooth">
+<html lang={hreflang ? `en-${geoRegion?.toLowerCase()}` : 'en'} class="scroll-smooth">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -66,12 +69,25 @@ const currentYear = new Date().getFullYear();
         <!-- DNS prefetch for analytics/external resources -->
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
 
+        <!-- Preload Google Font for faster rendering -->
+        <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" onload="this.onload=null;this.rel='stylesheet'" />
+        <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" /></noscript>
+
         <!-- Primary Meta Tags -->
         <title>{title}</title>
         <meta name="title" content={title} />
         <meta name="description" content={description} />
         <link rel="canonical" href={canonicalURL.href} />
         <link rel="sitemap" href="/sitemap-index.xml" />
+
+        <!-- Geo targeting -->
+        {geoRegion && <meta name="geo.region" content={geoRegion} />}
+        {geoRegion && <meta name="geo.placename" content={countryName || 'StudyRoadmap'} />}
+
+        <!-- hreflang for international pages -->
+        {hreflang && <link rel="alternate" hreflang={hreflang} href={canonicalURL.href} />}
+        <link rel="alternate" hreflang="en" href={canonicalURL.href} />
+        <link rel="alternate" hreflang="x-default" href={canonicalURL.href} />
         {robots && <meta name="robots" content={robots} />}
 
         <!-- Favicon -->
@@ -87,7 +103,8 @@ const currentYear = new Date().getFullYear();
         <meta property="og:description" content={description} />
         <meta property="og:image" content={new URL(image, Astro.site).href} />
         <meta property="og:site_name" content="StudyRoadmap" />
-        <meta property="og:locale" content="en_US" />
+        <meta property="og:locale" content={geoRegion ? `en_${geoRegion}` : 'en_US'} />
+        <meta property="og:locale:alternate" content="en_US" />
 
         <!-- Twitter -->
         <meta name="twitter:card" content="summary_large_image" />
@@ -129,9 +146,25 @@ const currentYear = new Date().getFullYear();
             "name": "StudyRoadmap",
             "url": "https://studyroadmap.in",
             "logo": new URL('/favicon.svg', Astro.site).href,
-            "description": "Free AI-powered study roadmap generator for competitive exams",
+            "description": "Free AI-powered study roadmap generator for competitive exams in India, Pakistan, Nigeria, Kenya, Bangladesh, UAE and 100+ countries.",
             "foundingDate": "2024",
-            "sameAs": []
+            "sameAs": [
+                "https://twitter.com/studyroadmap",
+                "https://www.linkedin.com/company/studyroadmap"
+            ],
+            "address": {
+                "@type": "PostalAddress",
+                "addressCountry": "IN",
+                "addressRegion": "Delhi",
+                "description": "StudyRoadmap, Delhi, India"
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+91-11-4567-8900",
+                "contactType": "customer support",
+                "email": "support@studyroadmap.in",
+                "availableLanguage": ["en", "ur", "hi"]
+            }
         })} />
 
         <!-- BreadcrumbList Structured Data -->

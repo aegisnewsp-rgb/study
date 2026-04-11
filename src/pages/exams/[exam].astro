@@ -38,6 +38,16 @@ const countryLabels: Record<string, string> = {
   southafrica: 'South Africa', saudi: 'Saudi Arabia', uae: 'UAE',
 };
 
+const geoRegionMap: Record<string, string> = {
+  india: 'IN', pakistan: 'PK', nigeria: 'NG', bangladesh: 'BD',
+  kenya: 'KE', southafrica: 'ZA', uae: 'AE', malaysia: 'MY',
+};
+
+const hreflangMap: Record<string, string> = {
+  india: 'en-IN', pakistan: 'en-PK', nigeria: 'en-NG', bangladesh: 'en-BD',
+  kenya: 'en-KE', southafrica: 'en-ZA', uae: 'en-AE', malaysia: 'en-MY',
+};
+
 const examName = exam.examName || exam.examId;
 const countryName = countryLabels[exam.country] || exam.country;
 
@@ -138,8 +148,32 @@ const faqJsonLd = {
   mainEntity: examFAQs.map(f => ({
     '@type': 'Question',
     name: f.question,
+    about: {
+      '@type': 'EducationalLevel',
+      'name': exam.educationalLevel || 'Higher Secondary',
+      'description': `${examName} exam preparation for students in ${countryName}.`
+    },
     acceptedAnswer: { '@type': 'Answer', text: f.answer },
   })),
+};
+
+// Course schema for exam pages
+const courseJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Course',
+  'name': `${examName} Study Roadmap`,
+  'description': `Comprehensive ${examName} preparation course covering syllabus, exam pattern, eligibility, and topic-wise study plan.`,
+  'provider': {
+    '@type': 'Organization',
+    'name': 'StudyRoadmap',
+    'url': 'https://studyroadmap.in',
+  },
+  'educationalLevel': exam.educationalLevel || 'Higher Secondary',
+  'inLanguage': 'en',
+  'audience': {
+    '@type': 'Audience',
+    'audienceType': `Students preparing for ${examName} in ${countryName}`
+  },
 };
 
 // Subject data for display
@@ -226,10 +260,20 @@ const pathwayExams = pathwayExamEntries
   .map(p => ({ ...p, exam: ALL_EXAMS.find(e => e && e.examId === p.examId) }));
 ---
 
-<Layout title={title} description={description} canonical={canonicalUrl} image={`/og-notes/exam-${exam.examId}.jpg`} author={authorObj}>
+<Layout
+  title={title}
+  description={description}
+  canonical={canonicalUrl}
+  image={`/og-notes/exam-${exam.examId}.jpg`}
+  author={authorObj}
+  geoRegion={geoRegionMap[exam.country]}
+  hreflang={hreflangMap[exam.country]}
+  countryName={countryName}
+>
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
   <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
   <script type="application/ld+json" set:html={JSON.stringify(howToJsonLd)} />
+  <script type="application/ld+json" set:html={JSON.stringify(courseJsonLd)} />
 
   <Navbar />
 

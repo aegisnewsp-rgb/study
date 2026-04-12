@@ -14,3 +14,10 @@ Deploy status: 404 (down)
 ## Heartbeat — 2026-04-12 11:48 UTC
 - studyroadmap.in: 200 OK
 - deploy (172.17.0.1:9000): 404 DOWN
+-e 
+---
+**2026-04-12 12:08 UTC** | studyroadmap.in: 200 ✅ | deploy: 404 (not found) ⚠️
+
+## 2026-04-12 12:13 UTC
+- studyroadmap.in: 200 ✅
+- deploy (172.17.0.1:9000/deploy): 404 ❌ (DOWN)

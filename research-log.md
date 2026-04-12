@@ -1414,3 +1414,17 @@ India 4 (JEE Main S2 April 8 live), Pakistan 3, Nigeria 3
 - **Commit**: f70068e
 
 2026-04-12 04:36 UTC | Health: ✅ 200/200 | Found: up-psc/economics/econom-003.md had subject=quant/subjectName=Quantitative Aptitude (wrong subject for an economics topic). Fixed: changed to subject=economics/subjectName=Economics. Committed a81c315.
+2026-04-12T05:04 UTC | Health: ❌ site unreachable (curl exit code 6 for both studytroadmap.com and studytroadmap.in) | Previous check (04:36 UTC): site was healthy ✅ | No code issues found: YAML unterminated quotes are full strings (not broken), India exam .ts files all have examPattern/eligibility | No fixes applied — site appears to be down or unreachable | Commit at time of check: a81c315 (econom-003 fix)
+## 2026-04-12 05:06 UTC | PASSED ✅
+
+### Site Health
+- Homepage: 200, /exams/neet/: 200
+
+### Checks Done (30s)
+- YAML subjectName: None → none found
+- Small files (<1500c) → 3 checked, all genuine
+- 2024 in exam pages → only valid context in strategy page
+- examPattern missing → checked data dirs, only .ts index files
+- News (9 items) → all valid dates, no dupes
+
+### Fix: None

@@ -3,7 +3,7 @@ export const general_studies: Subject = {
   topics: [
     { id: 'genera-001', name: 'Topic 1', weight: 3 as const, description: 'History of India and World: Ancient, medieval, modern Indian history, world history events, and their significance — covers UPSC UPPSC RO/ARO history portion.' },
     { id: 'genera-002', name: 'Topic 2', weight: 3 as const, description: 'Geography of India and World: Physical, economic, and human geography, map-based questions, and environmental geography — frequently asked in UPPSC RO/ARO Prelims.' },
-    { id: 'genera-003', name: 'Topic 3', weight: 3 as const, description: 'Indian Polity and Governance: Constitution, government structure, rights, duties, federalism, and governance issues — a high-weight static GK component.' },
+    { id: 'genera-003', name: 'Indian Polity and Governance', weight: 3 as const, description: 'Constitution, government structure, rights, duties, federalism, and governance issues — a high-weight static GK component.' },
     { id: 'genera-004', name: 'Topic 4', weight: 3 as const, description: 'Indian Economy: Economic development, planning, sectors, GDP, inflation, banking, and recent economic policies — static plus current economics.' },
     { id: 'genera-005', name: 'Topic 5', weight: 3 as const, description: 'General Science: Physics, Chemistry, Biology concepts for Class VI-VIII level, recent S&T developments — scoring area for candidates with science background.' },
     { id: 'genera-006', name: 'Topic 6', weight: 3 as const, description: 'Current Affairs — National: Important national events, government schemes, policies, and national awards — static plus current GK mix.' },

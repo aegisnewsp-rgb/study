@@ -38,3 +38,4 @@ deploy: 200 (OK)
 
 
 [2026-04-11 22:50 UTC] Deploy check: 404 — deploy endpoint down at http://172.17.0.1:9000/deploy
+[2026-04-12 01:54 UTC] Deploy service returned 404 — /deploy endpoint not responding

@@ -37,7 +37,7 @@ Study strategy: Theory first, then practice problems
 > Comprehensive coverage for students on a longer study timeline.
 
 **Consumer Behaviour** — Comprehensive RPSC RAS Notes
-Full coverage: Consumer Behaviour in None for RPSC RAS preparation
+Full coverage: Consumer Behaviour in Quantitative Aptitude for RPSC RAS preparation
 Detailed theory and concept explanations
 Problem-solving strategies and common mistakes to avoid
 Practice: Attempt previous year questions and standard textbook exercises

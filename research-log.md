@@ -1560,3 +1560,5 @@ India 4 (JEE Main S2 April 8 live), Pakistan 3, Nigeria 3
 ## 2026-04-12 16:03 UTC
 **Health:** studyroadmap.in → 200, /exams/ → 200, /notes/ → 200, sitemap-0.xml → 200 ✅  
 **Fix:** bpsc/indian-polity/indian-002.md had country: bpsc (exam slug) instead of country: india. Committed as 2c5a493c and pushed.
+
+2026-04-12T17:55 UTC | health: 200/200 | FIXED: src/content/notes/up-psc/economics/econom-006.md — subjectName was "Quantitative Aptitude" should be "Economics" (matching subject field and exam directory).

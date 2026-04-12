@@ -7,3 +7,4 @@
 ## 2026-04-12 17:38 UTC
 - studyroadmap.in: 200 ✓
 - deploy (172.17.0.1:9000): 404 — DOWN
+[2026-04-12 18:08 UTC] deploy endpoint: 404 (deploy down)

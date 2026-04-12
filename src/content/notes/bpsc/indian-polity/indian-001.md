@@ -6,7 +6,7 @@ subjectName: Indian Polity
 topic: indian-001
 topicName: Making of the Indian Constitution
 weight: 3
-country: bpsc
+country: india
 generated: "2026-03-25T17:00:00"
 ---
 

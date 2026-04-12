@@ -1575,3 +1575,9 @@ India 4 (JEE Main S2 April 8 live), Pakistan 3, Nigeria 3
 **Health:** studyroadmap.in/ ✅ 200, /exams/ ✅ 200, /notes/ ✅ 200, sitemap-0.xml ✅ 200
 **Checked:** YAML unquoted diagramPrompt → properly quoted ✅ | examPattern/eligibility in exam data → only re-export index.ts files lack it (expected) ✅ | Stale year refs in strategy pages → none ✅ | `country: bpsc` in BPSC notes → found 5+ files with wrong country
 **Fix:** bpsc/indian-polity/indian-006.md — `country: bpsc` → `country: india`. Committed & pushed as 1d2d0059. Note: indian-004, indian-005, indian-008, indian-010 also have same issue (country: bpsc) — will be addressed in next runs.
+
+## 2026-04-12 19:24 UTC
+- **Health check**: studyroadmap.in ✅ (200), studyroadmap.in/exams/neet/ ✅ (200)
+- **Issue found**: Small placeholder file at 1475 bytes — `src/content/notes/law-ent-tz/gk/gk-002.md`
+- **Fix applied**: Expanded with Extended section (legal theorists, classification table, court system, IRAC method, memory aids) — now 4538 bytes
+- **Commit**: bd190413

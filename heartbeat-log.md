@@ -48,3 +48,9 @@ deploy: 200 (OK)
 ---
 
 2026-04-12 02:45 UTC | DEPLOY DOWN | 404 on /deploy
+[2026-04-12 03:13 UTC] Site: 200 ✓ | Deploy: 404 DOWN
+## Heartbeat Log — 2026-04-12 03:23 UTC
+
+- studyroadmap.in: 200 ✅
+- deploy (172.17.0.1:9000): 404 — DOWN
+- News: refreshed

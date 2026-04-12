@@ -11,3 +11,6 @@ Deploy is DOWN (404) at 2026-04-12 09:48 UTC
 Deploy status: 404 (down)
 - 2026-04-12 10:48 UTC — deploy at 172.17.0.1:9000/deploy → 404 DOWN
 [2026-04-12 11:23 UTC] Deploy check: GET /deploy → 404 (service down or endpoint missing)
+## Heartbeat — 2026-04-12 11:48 UTC
+- studyroadmap.in: 200 OK
+- deploy (172.17.0.1:9000): 404 DOWN

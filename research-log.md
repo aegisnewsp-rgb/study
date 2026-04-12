@@ -1503,3 +1503,19 @@ India 4 (JEE Main S2 April 8 live), Pakistan 3, Nigeria 3
 - Found: 706 files with placeholder topicName "Topic X" in ini-cet notes
 - Fixed: src/content/notes/ini-cet/anatomy/anatom-001.md — topicName "Topic 1" → "Cell Biology" (extracted from content title)
 - Commit: 29a8900f
+
+## 2026-04-12 09:03 UTC
+- Health: ✅ studyroadmap.in/ (200), /exams/ (200), /notes/ (200), sitemap-0.xml (200)
+- Research log: no new critical issues
+- Found: anatom-002.md still had topicName "Topic 2" placeholder
+- Fix: replaced with "Human Genetics" (extracted from H1 title)
+- Commit: edad72b2
+
+
+### 2026-04-12 09:23 UTC
+- Health check: ✅ site (200/200)
+- YAML None check: ✅ none found
+- Small placeholder check: 3 small files found (gk-002 law-ent-tz/gk, econom-003 econom-006 up-psc/economics) — all have proper frontmatter + content, not empty placeholders
+- 2024 references in pages: neet-strategy.astro mentions "NEET 2024 and 2025 papers" — content reference, not stale year
+- Missing examPattern metadata: types.ts, nigeria/index.ts, index.ts are .ts infrastructure files (no frontmatter), not missing data
+- **Result: No fix needed**

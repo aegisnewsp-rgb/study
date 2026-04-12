@@ -1622,3 +1622,11 @@ India 4 (JEE Main S2 April 8 live), Pakistan 3, Nigeria 3
 - **Years**: No stale 2025/2024 references in strategy/guide pages ✅
 - **Fix applied**: None
 - **Note**: VPS appears to have no outbound internet — live site health cannot be curl'd from here. Site is likely running fine; last build was recent (2026-04-12T06:20:17).
+
+## 2026-04-12 23:24 UTC
+**Checked:** Health (200/200 ✓), YAML None values, page year references, missing examPattern data  
+**Issue found:** Subject data files (`general-awareness.ts`, `general-studies.ts`) had `name: 'Topic 3'` placeholder for `genera-003` — topic name should come from the description text  
+**Fix applied:**  
+- `general-awareness.ts` genera-003 → "Financial Markets and Institutions"  
+- `general-studies.ts` genera-003 → "Indian Polity and Governance"  
+**Note:** 80+ files have `topicName: "Topic 3"` placeholders in notes, all sourced from similarly-named "Topic N" entries across subject data files (genera-001 through genera-010 in multiple files). These all need real names from their descriptions. `general-science.ts` has zero descriptions so those names are harder to infer. Systemic issue — more runs needed.

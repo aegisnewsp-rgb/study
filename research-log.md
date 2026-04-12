@@ -1599,3 +1599,10 @@ India 4 (JEE Main S2 April 8 live), Pakistan 3, Nigeria 3
 - **Issue found:** `in None for RPSC RAS` placeholder text in ras/economics notes — subjectName template variable not resolved
 - **Fix applied:** `src/content/notes/ras/economics/econom-001.md` — replaced "None" with actual subjectName "Quantitative Aptitude"
 - **Committed:** 03074813
+
+## 2026-04-12 22:04 UTC
+- **Health**: studyroadmap.in/ ✅ (200), /exams/ ✅ (200), /notes/ ✅ (200), sitemap-0.xml ✅ (200)
+- **YAML diagramPrompt**: all properly quoted ✅
+- **Issues found**: 10+ BPSC notes still have `country: bpsc` (should be `country: india`); 4+ RAS economics files still have "None for RPSC RAS" placeholder in content
+- **Fix**: `econom-004.md` — replaced "Consumer Behaviour in None for RPSC RAS" → "Consumer Behaviour in Quantitative Aptitude for RPSC RAS"
+- **Committed & pushed**: d42108fe

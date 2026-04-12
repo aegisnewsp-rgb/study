@@ -8,3 +8,4 @@
 [2026-04-12 09:12 UTC] studyroadmap.in: 200 OK | deploy: 404 DOWN
 [2026-04-12 09:32 UTC] studyroadmap.in: 200 OK | deploy: 404 DOWN
 Deploy is DOWN (404) at 2026-04-12 09:48 UTC
+Deploy status: 404 (down)

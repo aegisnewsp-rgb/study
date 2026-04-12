@@ -1428,3 +1428,10 @@ India 4 (JEE Main S2 April 8 live), Pakistan 3, Nigeria 3
 - News (9 items) → all valid dates, no dupes
 
 ### Fix: None
+
+## 2026-04-12 05:36 UTC
+- **Health**: studyroadmap.in/ ✅ 200, /exams/neet/ ✅ 200
+- **Checked**: small files (<1500c) as placeholders — all three checked were genuine content
+- **Checked**: wrong year references in pages — none found (2024 in neet-strategy.astro is legitimate content)
+- **Checked**: examPattern metadata in src/data/exams/ — types.ts, nigeria/index.ts, index.ts flagged but these are TS utility files, not exam data — OK
+- **Fixed**: `src/content/notes/up-psc/economics/econom-003.md` — 3 instances of "None" replaced with "Economics"

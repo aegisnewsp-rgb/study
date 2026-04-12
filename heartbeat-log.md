@@ -13,3 +13,5 @@
 - studyroadmap.in: 200 ✅
 - Deploy (172.17.0.1:9000/deploy): 404 ❌ (DOWN)
 - News refresh: done (9 items, pushed)
+Health check failed — deploy at 172.17.0.1:9000 returned 404 (down)
+2026-04-12 05:39 UTC — deploy-down

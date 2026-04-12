@@ -1556,3 +1556,7 @@ India 4 (JEE Main S2 April 8 live), Pakistan 3, Nigeria 3
 **Checked:** YAML unquoted diagramPrompt → all properly quoted (no broken prompts) ✅ | examPattern in India exam data → present ✅ | Stale year refs in strategy pages → none found ✅ | Broken internal links → none found ✅  
 **Fix:** None — nothing actionable found.
 2026-04-12 15:54 UTC — Health: studyroadmap.in ✅ 200, /exams/neet/ ✅ 200 | Fixed: bpsc/indian-polity/indian-001.md had country: bpsc (exam slug) instead of country: india (correct country). Committed as 83f424bf.
+
+## 2026-04-12 16:03 UTC
+**Health:** studyroadmap.in → 200, /exams/ → 200, /notes/ → 200, sitemap-0.xml → 200 ✅  
+**Fix:** bpsc/indian-polity/indian-002.md had country: bpsc (exam slug) instead of country: india. Committed as 2c5a493c and pushed.

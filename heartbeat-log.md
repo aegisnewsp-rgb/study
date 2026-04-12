@@ -56,3 +56,6 @@ deploy: 200 (OK)
 - News: refreshed
 - 2026-04-12 03:38 UTC — deploy endpoint returned 404
 Deploy DOWN at 2026-04-12 04:09 UTC
+- `2026-04-12 04:24 UTC` — deploy returned 404 (container may be down)
+=== Heartbeat 2026-04-12 04:34 UTC ===
+studyroadmap.in: 200 | deploy: 404 (down)

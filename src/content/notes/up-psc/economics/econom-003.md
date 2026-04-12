@@ -1,8 +1,8 @@
 ---
 exam: up-psc
 examName: UPPSC PCS
-subject: quant
-subjectName: Quantitative Aptitude
+subject: economics
+subjectName: Economics
 topic: econom-003
 topicName: Elasticity
 weight: 3

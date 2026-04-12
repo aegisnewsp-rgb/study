@@ -21,3 +21,5 @@ Deploy status: 404 (down)
 ## 2026-04-12 12:13 UTC
 - studyroadmap.in: 200 ✅
 - deploy (172.17.0.1:9000/deploy): 404 ❌ (DOWN)
+[2026-04-12 13:03 UTC] Deploy at 172.17.0.1:9000 returned 404 (DOWN)
+- 2026-04-12 13:18 UTC — deploy is DOWN (404)

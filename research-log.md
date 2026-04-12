@@ -1532,3 +1532,11 @@ India 4 (JEE Main S2 April 8 live), Pakistan 3, Nigeria 3
 - **Checked**: Small placeholder files + subject metadata mismatch
 - **Fix**: `src/content/notes/up-psc/economics/econom-006.md` — `subject: quant` was wrong (file is in economics folder), corrected to `subject: economics`
 - **Commit**: 89100d5f
+2026-04-12 12:53 UTC | Health: / = 200, /exams/neet/ = 200 | No issues found (YAML clean, no placeholders, no wrong years, examPattern present)
+
+2026-04-12 13:03 UTC | Health: / = 200, /exams/ = 200, /notes/ = 200, sitemap-0.xml = 200 | No issues found (YAML clean, no placeholders, no stale years, examPattern present) | No fix needed
+
+## 2026-04-12 13:23 UTC
+**Health:** studyroadmap.in → 200, /exams/neet/ → 200  
+**Checked:** YAML None errors ✓, small note files (valid content, no stubs) ✓, year references in pages (only answer content, no stale metadata) ✓, missing examPattern in Nigeria exams (all present) ✓  
+**Fix:** None — nothing actionable found.

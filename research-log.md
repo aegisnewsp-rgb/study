@@ -1542,3 +1542,11 @@ India 4 (JEE Main S2 April 8 live), Pakistan 3, Nigeria 3
 **Fix:** None — nothing actionable found.
 
 2026-04-12 14:03 UTC | Health: / = 200, /exams/ = 200, /notes/ = 200, sitemap-0.xml = 200 | No issues found (YAML unquoted prompts clean, no incomplete frontmatter, no stale year refs, examPattern present) | No fix needed
+
+## 2026-04-12 14:24 UTC
+- Health: site (200), /exams/neet/ (200) ✅
+- subjectName: None → none found ✅
+- Small files (<1500c) → 3 found, all legit content (gk-002 1475B, econom-003 1463B, econom-006 1484B) ✅
+- 2024 refs in pages → neet-strategy.astro (valid content ref) ✅
+- examPattern: missing → types.ts, nigeria/index.ts, index.ts (TypeScript index files, not exam data) ✅
+**No actionable issue found.**

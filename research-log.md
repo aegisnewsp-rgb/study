@@ -1391,3 +1391,5 @@ India 4 (JEE Main S2 April 8 live), Pakistan 3, Nigeria 3
 - **Checks done**: YAML unterminated quotes → none, empty topicName → none (clean), examPattern/eligibility in exam data → present in all Indian exam files checked
 - **No fixes needed — site is healthy (TLS issue is server-of-origin specific, not a site problem)**
 2026-04-12 02:06 UTC | Health: 200/200 | Checks: subjectName None (none), placeholders (3 small files looked OK), 2024 refs (OK, historical), examPattern missing (none) | Fix: NONE
+
+2026-04-12 02:36 UTC | Health: 200/200 | Checks: subjectName None (psm-003 had 'Botany' instead of 'Psm'), placeholders (none), 2024 refs (OK), examPattern missing (none) | Fix: neet-pg/psm/psm-003.md subjectName 'Botany' → 'Psm'

@@ -1606,3 +1606,10 @@ India 4 (JEE Main S2 April 8 live), Pakistan 3, Nigeria 3
 - **Issues found**: 10+ BPSC notes still have `country: bpsc` (should be `country: india`); 4+ RAS economics files still have "None for RPSC RAS" placeholder in content
 - **Fix**: `econom-004.md` — replaced "Consumer Behaviour in None for RPSC RAS" → "Consumer Behaviour in Quantitative Aptitude for RPSC RAS"
 - **Committed & pushed**: d42108fe
+
+## 2026-04-12 22:24 UTC
+- Health: studyroadmap.in/ ✓ (200), /exams/neet/ ✓ (200)
+- Issue: Placeholder "None" in ini-cet notes (subject name not filled in content)
+- Fixed: src/content/notes/ini-cet/biochemistry/bioche-003.md — replaced "None" → "Biochemistry" in 3 occurrences
+- Commit: dc3bbd57
+- Note: 192 files still contain " in None for" / " a key None topic" patterns — needs batch fix

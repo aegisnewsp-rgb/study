@@ -1403,3 +1403,5 @@ India 4 (JEE Main S2 April 8 live), Pakistan 3, Nigeria 3
 - Fixed: Replaced with substantive 'Constitution of Tanzania' content (2,436 bytes, real facts, tables, key principles)
 - Commit: a1106bc
 
+
+2026-04-12T04:04 UTC | Health: studyroadmap.in 200 ✅, /exams/ 200 ✅, /notes/ 200 ✅, sitemap-0.xml 200 ✅ | Checks: YAML unterminated quotes (none), subjectName:None (none), examPattern/eligibility missing in India exam files (none — all .ts files checked), placeholder content by size <2KB (none found) | No fixes needed — site is healthy

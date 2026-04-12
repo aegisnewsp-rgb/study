@@ -1630,3 +1630,9 @@ India 4 (JEE Main S2 April 8 live), Pakistan 3, Nigeria 3
 - `general-awareness.ts` genera-003 → "Financial Markets and Institutions"  
 - `general-studies.ts` genera-003 → "Indian Polity and Governance"  
 **Note:** 80+ files have `topicName: "Topic 3"` placeholders in notes, all sourced from similarly-named "Topic N" entries across subject data files (genera-001 through genera-010 in multiple files). These all need real names from their descriptions. `general-science.ts` has zero descriptions so those names are harder to infer. Systemic issue — more runs needed.
+
+## 2026-04-12 23:54 UTC — Heartbeat
+- **Health:** site up (200/200), NEET page OK
+- **Checked:** YAML None values, placeholder notes (<1500c), 2024 hardcoded dates, missing examPattern
+- **Found:** None — site healthy
+- **Fix:** None

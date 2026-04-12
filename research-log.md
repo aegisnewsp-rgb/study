@@ -1458,3 +1458,15 @@ India 4 (JEE Main S2 April 8 live), Pakistan 3, Nigeria 3
 - Fixed to: `subjectName: General Awareness`
 
 **Committed:** `5064307` — Fix malformed subjectName in IBPS Clerk genera-005.md
+
+## 2026-04-12 07:03 UTC — StudyRoadmap SEO Pulse
+
+**Health check:** homepage (200), /exams/ (200), /notes/ (200), sitemap-0.xml (200) — all OK
+
+**Checks done:**
+- diagramPrompt unterminated strings: none
+- Missing examPattern/eligibility in exam data: none (index-based structure, no gap)
+- Stale year references (2024/2023) in pages: none found
+
+**Fix:** None
+

@@ -8,7 +8,7 @@ topicName: Vocabulary Development
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.610266"
-diagramPrompt: Educational diagram illustrating Vocabulary Development with clear labels, white background, exam-style illustration
+diagramPrompt: "Educational diagram illustrating Vocabulary Development with clear labels, white background, exam-style illustration
 ---
 # Vocabulary Development
 

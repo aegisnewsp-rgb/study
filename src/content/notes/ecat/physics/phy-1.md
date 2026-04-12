@@ -11,7 +11,7 @@ topicName: Measurement and Units
 weight: 2
 country: pakistan
 generated: "2026-03-24T08:32:08.039185"
-diagramPrompt: Clean educational diagram showing Measurement and Units with clear labels, white background, labeled arrows for forces/fields/vectors, color-coded components, exam-style illustration
+diagramPrompt: "Clean educational diagram showing Measurement and Units with clear labels, white background, labeled arrows for forces/fields/vectors, color-coded components, exam-style illustration
 
 
 

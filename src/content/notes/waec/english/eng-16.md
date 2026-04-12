@@ -11,7 +11,7 @@ topicName: Speeches and Article Writing
 weight: 3
 country: nigeria
 generated: "2026-03-24T08:32:07.615028"
-diagramPrompt: Educational diagram illustrating Speeches and Article Writing with clear labels, white background, exam-style illustration
+diagramPrompt: "Educational diagram illustrating Speeches and Article Writing with clear labels, white background, exam-style illustration
 
 
 

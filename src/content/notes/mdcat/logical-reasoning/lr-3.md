@@ -11,7 +11,7 @@ topicName: Classification
 weight: 3
 country: pakistan
 generated: "2026-03-24T08:32:08.119801"
-diagramPrompt: Educational diagram illustrating Classification with clear labels, white background, exam-style illustration
+diagramPrompt: "Educational diagram illustrating Classification with clear labels, white background, exam-style illustration
 
 
 

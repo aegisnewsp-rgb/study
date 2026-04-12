@@ -8,7 +8,7 @@ topicName: Coding-Decoding
 weight: 4
 country: pakistan
 generated: "2026-03-24T08:32:08.120152"
-diagramPrompt: Clean educational diagram illustrating Coding-Decoding with clear labels, white background, exam-style illustration
+diagramPrompt: "Clean educational diagram illustrating Coding-Decoding with clear labels, white background, exam-style illustration
 ---
 
 # Coding-Decoding

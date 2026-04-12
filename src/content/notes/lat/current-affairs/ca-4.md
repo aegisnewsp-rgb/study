@@ -11,7 +11,7 @@ topicName: United Nations and International Relations
 weight: 3
 country: pakistan
 generated: "2026-03-24T08:32:08.035436"
-diagramPrompt: Educational diagram illustrating United Nations and International Relations with clear labels, white background, exam-style illustration
+diagramPrompt: "Educational diagram illustrating United Nations and International Relations with clear labels, white background, exam-style illustration
 
 
 

@@ -8,7 +8,7 @@ topicName: Seating Arrangements
 weight: 4
 country: pakistan
 generated: "2026-03-24T08:32:08.023509"
-diagramPrompt: Educational diagram illustrating Seating Arrangements with clear labels, white background, exam-style illustration
+diagramPrompt: "Educational diagram illustrating Seating Arrangements with clear labels, white background, exam-style illustration
 ---
 
 # Seating Arrangements

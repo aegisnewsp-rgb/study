@@ -9,7 +9,7 @@ topicName: Some Basic Concepts
 weight: 5
 country: india
 generated: "2026-03-24T08:32:07.921092"
-diagramPrompt: Clear scientific diagram of Some Basic Concepts with atom labels, molecular structure, reaction arrows, white background, color-coded bonds and groups, exam textbook style
+diagramPrompt: "Clear scientific diagram of Some Basic Concepts with atom labels, molecular structure, reaction arrows, white background, color-coded bonds and groups, exam textbook style
 
 
 

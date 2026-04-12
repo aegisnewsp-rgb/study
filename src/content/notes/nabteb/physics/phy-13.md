@@ -11,7 +11,7 @@ topicName: Photoelectric Effect and Atomic Physics
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.563996"
-diagramPrompt: Clean educational diagram showing Photoelectric Effect and Atomic Physics with clear labels, white background, labeled arrows for forces/fields/vectors, color-coded components, exam-style illustration
+diagramPrompt: "Clean educational diagram showing Photoelectric Effect and Atomic Physics with clear labels, white background, labeled arrows for forces/fields/vectors, color-coded components, exam-style illustration
 
 
 

@@ -8,7 +8,7 @@ topicName: Endocrine System and Hormones
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.652182"
-diagramPrompt: Detailed biological diagram of Endocrine System and Hormones with labeled parts, accurate proportions, white background, color-coded tissues/organs, textbook quality
+diagramPrompt: "Detailed biological diagram of Endocrine System and Hormones with labeled parts, accurate proportions, white background, color-coded tissues/organs, textbook quality
 ---
 
 # Endocrine System and Hormones

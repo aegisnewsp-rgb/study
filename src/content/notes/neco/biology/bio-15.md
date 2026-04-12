@@ -11,7 +11,7 @@ topicName: Variation, Evolution and Natural Selection
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.699156"
-diagramPrompt: Detailed biological diagram of Variation, Evolution and Natural Selection with labeled parts, accurate proportions, white background, color-coded tissues/organs, textbook quality
+diagramPrompt: "Detailed biological diagram of Variation, Evolution and Natural Selection with labeled parts, accurate proportions, white background, color-coded tissues/organs, textbook quality
 
 
 

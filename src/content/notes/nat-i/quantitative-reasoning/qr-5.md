@@ -11,7 +11,7 @@ topicName: Ratio and Proportion
 weight: 4
 country: pakistan
 generated: "2026-03-24T08:32:08.134973"
-diagramPrompt: Educational diagram illustrating Ratio and Proportion with clear labels, white background, exam-style illustration
+diagramPrompt: "Educational diagram illustrating Ratio and Proportion with clear labels, white background, exam-style illustration
 
 
 

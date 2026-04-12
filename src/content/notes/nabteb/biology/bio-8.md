@@ -11,7 +11,7 @@ topicName: Coordination and Nervous System
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.575623"
-diagramPrompt: Detailed biological diagram of Coordination and Nervous System with labeled parts, accurate proportions, white background, color-coded tissues/organs, textbook quality
+diagramPrompt: "Detailed biological diagram of Coordination and Nervous System with labeled parts, accurate proportions, white background, color-coded tissues/organs, textbook quality
 
 
 

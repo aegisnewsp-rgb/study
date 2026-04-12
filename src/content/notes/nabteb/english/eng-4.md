@@ -11,7 +11,7 @@ topicName: Sentence Structure
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.541585"
-diagramPrompt: Educational diagram illustrating Sentence Structure with clear labels, white background, exam-style illustration
+diagramPrompt: "Educational diagram illustrating Sentence Structure with clear labels, white background, exam-style illustration
 
 
 

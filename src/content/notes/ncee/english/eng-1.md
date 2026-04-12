@@ -11,7 +11,7 @@ topicName: Vocabulary and Word Meanings
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.586198"
-diagramPrompt: Educational diagram illustrating Vocabulary and Word Meanings with clear labels, white background, exam-style illustration
+diagramPrompt: "Educational diagram illustrating Vocabulary and Word Meanings with clear labels, white background, exam-style illustration
 
 
 

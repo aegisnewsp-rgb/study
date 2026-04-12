@@ -11,7 +11,7 @@ topicName: Jumbled Words and Unscrambling
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.597047"
-diagramPrompt: Educational diagram illustrating Jumbled Words and Unscrambling with clear labels, white background, exam-style illustration
+diagramPrompt: "Educational diagram illustrating Jumbled Words and Unscrambling with clear labels, white background, exam-style illustration
 
 
 

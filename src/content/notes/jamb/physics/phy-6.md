@@ -11,7 +11,7 @@ topicName: Waves and Wave Motion
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.709865"
-diagramPrompt: Clean educational diagram showing Waves and Wave Motion with clear labels, white background, labeled arrows for forces/fields/vectors, color-coded components, exam-style illustration
+diagramPrompt: "Clean educational diagram showing Waves and Wave Motion with clear labels, white background, labeled arrows for forces/fields/vectors, color-coded components, exam-style illustration
 
 
 

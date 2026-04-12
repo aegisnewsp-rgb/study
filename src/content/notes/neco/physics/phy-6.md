@@ -11,7 +11,7 @@ topicName: Heat Energy and Temperature Measurement
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.676880"
-diagramPrompt: Clean educational diagram showing Heat Energy and Temperature Measurement with clear labels, white background, labeled arrows for forces/fields/vectors, color-coded components, exam-style illustration
+diagramPrompt: "Clean educational diagram showing Heat Energy and Temperature Measurement with clear labels, white background, labeled arrows for forces/fields/vectors, color-coded components, exam-style illustration
 
 
 

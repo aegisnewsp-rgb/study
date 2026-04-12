@@ -11,7 +11,7 @@ topicName: Statement and Arguments
 weight: 4
 country: pakistan
 generated: "2026-03-24T08:32:08.021710"
-diagramPrompt: Educational diagram illustrating Statement and Arguments with clear labels, white background, exam-style illustration
+diagramPrompt: "Educational diagram illustrating Statement and Arguments with clear labels, white background, exam-style illustration
 
 
 

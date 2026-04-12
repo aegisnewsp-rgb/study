@@ -11,7 +11,7 @@ topicName: Acids, Bases and Salts
 weight: 5
 country: nigeria
 generated: "2026-03-24T08:32:07.724931"
-diagramPrompt: Clear scientific diagram of Acids, Bases and Salts with atom labels, molecular structure, reaction arrows, white background, color-coded bonds and groups, exam textbook style
+diagramPrompt: "Clear scientific diagram of Acids, Bases and Salts with atom labels, molecular structure, reaction arrows, white background, color-coded bonds and groups, exam textbook style
 
 
 

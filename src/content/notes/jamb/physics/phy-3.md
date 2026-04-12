@@ -8,7 +8,7 @@ topicName: "Scalars and Vectors"
 weight: 4
 country: nigeria
 generated: "2026-04-05T12:00:00.000000"
-diagramPrompt: Clean educational diagram showing Scalars and Vectors with clear labels, white background, labeled arrows for forces/fields/vectors, color-coded components, exam-style illustration
+diagramPrompt: "Clean educational diagram showing Scalars and Vectors with clear labels, white background, labeled arrows for forces/fields/vectors, color-coded components, exam-style illustration
 ---
 
 # Scalars and Vectors

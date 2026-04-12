@@ -8,7 +8,7 @@ topicName: Acids, Bases and Ionic Equilibrium
 weight: 4
 country: pakistan
 generated: "2026-03-24T08:32:08.057340"
-diagramPrompt: Clear scientific diagram of Acids, Bases and Ionic Equilibrium with atom labels, molecular structure, reaction arrows, white background, color-coded bonds and groups, exam textbook style
+diagramPrompt: "Clear scientific diagram of Acids, Bases and Ionic Equilibrium with atom labels, molecular structure, reaction arrows, white background, color-coded bonds and groups, exam textbook style
 
 ---
 

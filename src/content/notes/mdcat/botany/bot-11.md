@@ -8,7 +8,7 @@ topicName: Transport in Plants
 weight: 4
 country: pakistan
 generated: "2026-03-24T08:32:08.106288"
-diagramPrompt: Educational diagram illustrating Transport in Plants with clear labels, white background, exam-style illustration
+diagramPrompt: "Educational diagram illustrating Transport in Plants with clear labels, white background, exam-style illustration
 ---
 
 # Transport in Plants

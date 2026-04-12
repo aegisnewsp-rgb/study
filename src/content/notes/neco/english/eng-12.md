@@ -11,7 +11,7 @@ topicName: Question Tags and Short Responses
 weight: 3
 country: nigeria
 generated: "2026-03-24T08:32:07.659706"
-diagramPrompt: Educational diagram illustrating Question Tags and Short Responses with clear labels, white background, exam-style illustration
+diagramPrompt: "Educational diagram illustrating Question Tags and Short Responses with clear labels, white background, exam-style illustration
 
 
 

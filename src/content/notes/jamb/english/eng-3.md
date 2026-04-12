@@ -11,7 +11,7 @@ topicName: Comprehension Passages
 weight: 5
 country: nigeria
 generated: "2026-03-24T08:32:07.701515"
-diagramPrompt: Educational diagram illustrating Comprehension Passages with clear labels, white background, exam-style illustration
+diagramPrompt: "Educational diagram illustrating Comprehension Passages with clear labels, white background, exam-style illustration
 
 
 

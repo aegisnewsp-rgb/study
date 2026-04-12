@@ -11,7 +11,7 @@ topicName: Prepositions and Conjunctions
 weight: 3
 country: nigeria
 generated: "2026-03-24T08:32:07.658994"
-diagramPrompt: Educational diagram illustrating Prepositions and Conjunctions with clear labels, white background, exam-style illustration
+diagramPrompt: "Educational diagram illustrating Prepositions and Conjunctions with clear labels, white background, exam-style illustration
 
 
 

@@ -11,7 +11,7 @@ topicName: Idioms and Proverbs
 weight: 3
 country: pakistan
 generated: "2026-03-24T08:32:08.017772"
-diagramPrompt: Educational diagram illustrating Idioms and Proverbs with clear labels, white background, exam-style illustration
+diagramPrompt: "Educational diagram illustrating Idioms and Proverbs with clear labels, white background, exam-style illustration
 
 
 

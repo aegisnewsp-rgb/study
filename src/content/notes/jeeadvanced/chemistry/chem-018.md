@@ -8,7 +8,7 @@ topicName: f-Block
 weight: 4
 country: india
 generated: "2026-03-24T08:32:07.928533"
-diagramPrompt: Clear scientific diagram of f-Block with atom labels, molecular structure, reaction arrows, white background, color-coded bonds and groups, exam textbook style
+diagramPrompt: "Clear scientific diagram of f-Block with atom labels, molecular structure, reaction arrows, white background, color-coded bonds and groups, exam textbook style
 ---
 
 # f-Block

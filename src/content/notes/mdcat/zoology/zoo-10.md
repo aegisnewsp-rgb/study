@@ -11,7 +11,7 @@ topicName: Nervous System
 weight: 5
 country: pakistan
 generated: "2026-03-24T08:32:08.112003"
-diagramPrompt: Educational diagram illustrating Nervous System with clear labels, white background, exam-style illustration
+diagramPrompt: "Educational diagram illustrating Nervous System with clear labels, white background, exam-style illustration
 
 
 

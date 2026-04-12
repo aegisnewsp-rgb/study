@@ -8,7 +8,7 @@ topicName: Circulatory System
 weight: 4
 country: pakistan
 generated: "2026-03-24T08:32:08.111014"
-diagramPrompt: Educational diagram illustrating Circulatory System with clear labels, white background, exam-style illustration
+diagramPrompt: "Educational diagram illustrating Circulatory System with clear labels, white background, exam-style illustration
 ---
 
 # Circulatory System

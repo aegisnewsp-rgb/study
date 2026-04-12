@@ -8,7 +8,7 @@ topicName: Sentence Completion and Fill in the Blanks
 weight: 4
 country: pakistan
 generated: "2026-03-24T08:32:08.078414"
-diagramPrompt: Educational diagram illustrating Sentence Completion and Fill in the Blanks with clear labels, white background, exam-style illustration
+diagramPrompt: "Educational diagram illustrating Sentence Completion and Fill in the Blanks with clear labels, white background, exam-style illustration
 
 ---
 

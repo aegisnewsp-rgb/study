@@ -11,7 +11,7 @@ topicName: Environmental Issues
 weight: 2
 country: pakistan
 generated: "2026-03-24T08:32:08.108642"
-diagramPrompt: Educational diagram illustrating Environmental Issues with clear labels, white background, exam-style illustration
+diagramPrompt: "Educational diagram illustrating Environmental Issues with clear labels, white background, exam-style illustration
 
 
 

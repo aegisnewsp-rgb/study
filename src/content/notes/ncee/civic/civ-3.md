@@ -11,7 +11,7 @@ topicName: Nigerian Constitution and Federalism
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.600880"
-diagramPrompt: Educational diagram illustrating Nigerian Constitution and Federalism with clear labels, white background, exam-style illustration
+diagramPrompt: "Educational diagram illustrating Nigerian Constitution and Federalism with clear labels, white background, exam-style illustration
 
 
 

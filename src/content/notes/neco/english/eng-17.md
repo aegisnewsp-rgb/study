@@ -11,7 +11,7 @@ topicName: Speech Writing and Debates
 weight: 3
 country: nigeria
 generated: "2026-03-24T08:32:07.661533"
-diagramPrompt: Educational diagram illustrating Speech Writing and Debates with clear labels, white background, exam-style illustration
+diagramPrompt: "Educational diagram illustrating Speech Writing and Debates with clear labels, white background, exam-style illustration
 
 
 

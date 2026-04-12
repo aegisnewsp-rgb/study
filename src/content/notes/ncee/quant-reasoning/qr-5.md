@@ -11,7 +11,7 @@ topicName: Series Completion (Numbers and Figures)
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.592427"
-diagramPrompt: Educational diagram illustrating Series Completion (Numbers and Figures) with clear labels, white background, exam-style illustration
+diagramPrompt: "Educational diagram illustrating Series Completion (Numbers and Figures) with clear labels, white background, exam-style illustration
 
 
 

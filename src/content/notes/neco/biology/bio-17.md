@@ -11,7 +11,7 @@ topicName: Population Dynamics and Conservation
 weight: 3
 country: nigeria
 generated: "2026-03-24T08:32:07.699911"
-diagramPrompt: Detailed biological diagram of Population Dynamics and Conservation with labeled parts, accurate proportions, white background, color-coded tissues/organs, textbook quality
+diagramPrompt: "Detailed biological diagram of Population Dynamics and Conservation with labeled parts, accurate proportions, white background, color-coded tissues/organs, textbook quality
 
 
 

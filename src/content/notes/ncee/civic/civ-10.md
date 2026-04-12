@@ -11,7 +11,7 @@ topicName: Human Rights and Fundamental Rights
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.603723"
-diagramPrompt: Educational diagram illustrating Human Rights and Fundamental Rights with clear labels, white background, exam-style illustration
+diagramPrompt: "Educational diagram illustrating Human Rights and Fundamental Rights with clear labels, white background, exam-style illustration
 
 
 

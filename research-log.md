@@ -1477,3 +1477,15 @@ India 4 (JEE Main S2 April 8 live), Pakistan 3, Nigeria 3
 - Checked: YAML subjectName=None (none), wrong years in pages (none), missing examPattern metadata (none actionable — types.ts/nigeria/index.ts/index.ts are code files)
 - **FIXED:** src/content/notes/ppsc/gk/gk-010.md was corrupted — TypeScript interface definitions (Topic, Subject, DailyTopicItem, RoadmapTemplate, RescueFocusArea) were injected into middle of markdown content, replacing actual demographic facts. Restored proper content about Pakistan's Society and Demographics with population figures, provincial breakdown, and PPSC-relevant high-yield points.
 - Commit: 3a6e21c
+
+## 2026-04-12 08:03 UTC — StudyRoadmap SEO Pulse
+
+**Health check:** homepage (200), /exams/ (200), /notes/ (200), sitemap-0.xml (200) — all OK
+
+**Checks done:**
+- diagramPrompt unterminated strings: none (CS Executive notes legitimately use multi-line quoted strings)
+- Missing examPattern/eligibility in exam data: only subject-knowledge.ts type files (Indonesia exam — code-generated, not content gaps)
+- Stale year references (2024/2023) in pages: FY2024-25 references in taxation/economics CS notes are correct fiscal year data — not stale
+
+**Fix:** None
+

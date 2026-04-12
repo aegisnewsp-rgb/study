@@ -1362,3 +1362,11 @@ India 4 (JEE Main S2 April 8 live), Pakistan 3, Nigeria 3
 - **Issue**: Placeholder content — `law-ent-tz/gk/gk-008.md` had generic "Topic 8" text with no real content
 - **Fix**: Replaced with real Tanzania Constitution & Legal System content (Union structure, Bill of Rights, Judiciary)
 - **Commit**: 591d2f6
+
+## 2026-04-12 00:04 UTC
+- **Health**: ✅ studyroadmap.in/ → 200, /exams/ → 200, /notes/ → 200
+- **Sitemap**: ✅ sitemap-0.xml accessible, 257KB (healthy)
+- Checked: YAML frontmatter diagramPrompt fields → all properly quoted
+- Checked: examPattern/eligibility in exam data → 124/126 exam files have them (2 are index.ts aggregation files, not exam entries — expected)
+- Checked: stale date references in strategy pages → 2024/2025 refs are exam year data, not broken dates
+- **No issues found — site is healthy**

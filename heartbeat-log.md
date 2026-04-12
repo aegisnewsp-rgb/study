@@ -54,3 +54,4 @@ deploy: 200 (OK)
 - studyroadmap.in: 200 ✅
 - deploy (172.17.0.1:9000): 404 — DOWN
 - News: refreshed
+- 2026-04-12 03:38 UTC — deploy endpoint returned 404

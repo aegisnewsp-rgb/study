@@ -1395,3 +1395,11 @@ India 4 (JEE Main S2 April 8 live), Pakistan 3, Nigeria 3
 2026-04-12 02:36 UTC | Health: 200/200 | Checks: subjectName None (psm-003 had 'Botany' instead of 'Psm'), placeholders (none), 2024 refs (OK), examPattern missing (none) | Fix: neet-pg/psm/psm-003.md subjectName 'Botany' → 'Psm'
 
 2026-04-12 03:06 UTC | Health: ✅ studyroadmap.in (200), /exams/neet/ (200) | Found: placeholder content in src/content/notes/ras/economics/econom-003.md (Elasticity) — Lite section was pure template text ('Core concept: Elasticity is an important topic...'). Replaced with full PED notes covering: types of elasticity table, midpoint formula with worked example, 5 factors affecting elasticity, tax incidence, income/cross elasticity, and revenue relationship. Committed: 55ddab7.
+
+2026-04-12T03:37 — StudyRoadmap Research
+- Health: site 200/200 ✅
+- Checked: placeholder files (size <1500c)
+- Found: src/content/notes/law-ent-tz/gk/gk-005.md was placeholder content (topicName: 'Topic 5', generic text)
+- Fixed: Replaced with substantive 'Constitution of Tanzania' content (2,436 bytes, real facts, tables, key principles)
+- Commit: a1106bc
+

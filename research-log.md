@@ -1412,3 +1412,5 @@ India 4 (JEE Main S2 April 8 live), Pakistan 3, Nigeria 3
 - **Fix**: Replaced generic "Topic 1-8" names in `src/data/exams/tanzania/subjects/gk.ts` with real Tanzania Law School GK topics (Tanzanian History and Heritage, Tanzanian Political System, East African Community, etc.)
 - **Fix**: Fixed subjectName "Gk" -> "General Knowledge" in 5 markdown files + source data
 - **Commit**: f70068e
+
+2026-04-12 04:36 UTC | Health: ✅ 200/200 | Found: up-psc/economics/econom-003.md had subject=quant/subjectName=Quantitative Aptitude (wrong subject for an economics topic). Fixed: changed to subject=economics/subjectName=Economics. Committed a81c315.

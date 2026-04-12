@@ -1370,3 +1370,4 @@ India 4 (JEE Main S2 April 8 live), Pakistan 3, Nigeria 3
 - Checked: examPattern/eligibility in exam data → 124/126 exam files have them (2 are index.ts aggregation files, not exam entries — expected)
 - Checked: stale date references in strategy pages → 2024/2025 refs are exam year data, not broken dates
 - **No issues found — site is healthy**
+2026-04-12 00:06 UTC | Health: site 200/200 ✅ | Checked: YAML None values, placeholder notes, 2024 year refs, missing examPattern. Found: src/content/notes/kpsc/history/histor-009.md had topicName: "" (empty). Fixed: set topicName to "Contemporary India: Issues and Challenges" (derived from title). Commit: 2e73df8.

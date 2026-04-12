@@ -2,7 +2,7 @@
 exam: ibps-clerk
 examName: IBPS Clerk
 subject: awareness
-subjectName: ('awareness', 'General Awareness')
+subjectName: General Awareness
 topic: genera-005
 topicName: Topic 5
 weight: 3

@@ -37,7 +37,7 @@ Study strategy: Theory first, then practice problems
 > Comprehensive coverage for students on a longer study timeline.
 
 **Demand and Supply** — Comprehensive RPSC RAS Notes
-Full coverage: Demand and Supply in None for RPSC RAS preparation
+Full coverage: Demand and Supply in Quantitative Aptitude for RPSC RAS preparation
 Detailed theory and concept explanations
 Problem-solving strategies and common mistakes to avoid
 Practice: Attempt previous year questions and standard textbook exercises

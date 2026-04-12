@@ -6,7 +6,7 @@ subjectName: General Studies
 topic: histor-002
 topicName: Mauryan & Gupta Empire
 weight: 3
-country: bpsc
+country: india
 generated: "2026-03-25T17:00:00"
 ---
 

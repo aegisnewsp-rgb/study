@@ -6,7 +6,7 @@ subjectName: Indian Polity
 topic: indian-009
 topicName: Federal System and Centre-State Relations
 weight: 3
-country: bpsc
+country: india
 generated: "2026-03-25T17:00:00"
 ---
 

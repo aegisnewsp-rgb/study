@@ -6,7 +6,7 @@ subjectName: Indian Polity
 topic: indian-005
 topicName: "Union Executive: President, Vice-President, Prime Minister"
 weight: 3
-country: bpsc
+country: india
 generated: "2026-03-25T17:00:00"
 ---
 

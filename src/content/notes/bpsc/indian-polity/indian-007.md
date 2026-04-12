@@ -6,7 +6,7 @@ subjectName: Indian Polity
 topic: indian-007
 topicName: Supreme Court and Judicial Review
 weight: 3
-country: bpsc
+country: india
 generated: "2026-03-25T17:00:00"
 ---
 

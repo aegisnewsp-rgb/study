@@ -6,7 +6,7 @@ subjectName: Indian Polity
 topic: indian-004
 topicName: Directive Principles of State Policy
 weight: 3
-country: bpsc
+country: india
 generated: "2026-03-25T17:00:00"
 ---
 

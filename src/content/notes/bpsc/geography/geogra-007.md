@@ -6,7 +6,7 @@ subjectName: General Studies
 topic: geogra-007
 topicName: Topic 7
 weight: 3
-country: bpsc
+country: india
 generated: "2026-03-25T17:00:00"
 ---
 

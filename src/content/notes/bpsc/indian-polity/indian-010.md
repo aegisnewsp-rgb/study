@@ -6,7 +6,7 @@ subjectName: Indian Polity
 topic: indian-010
 topicName: Constitutional Amendments and Basic Structure
 weight: 3
-country: bpsc
+country: india
 generated: "2026-03-25T17:00:00"
 ---
 

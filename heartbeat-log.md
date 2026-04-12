@@ -29,3 +29,4 @@
 - Missing examPattern metadata: none found
 
 **Result:** HEARTBEAT_OK — no issues found
+- 2026-04-12 20:58 UTC — deploy returned 404 (down)

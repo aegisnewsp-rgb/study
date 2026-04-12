@@ -1489,3 +1489,10 @@ India 4 (JEE Main S2 April 8 live), Pakistan 3, Nigeria 3
 
 **Fix:** None
 
+
+## 2026-04-12 08:23 UTC — Quick Fix Run
+- Health check: ✅ studyroadmap.in (200), /exams/neet/ (200)
+- Checked: YAML subjectName None errors (none found)
+- Checked: Small placeholder files (3 found, reviewed — content looks legitimate)
+- **FIX APPLIED**: up-psc/economics/econom-006.md — 3x "None" placeholders in subject/topic fields replaced with "Economics"
+- Commit: 2249da05

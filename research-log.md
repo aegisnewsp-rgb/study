@@ -1405,3 +1405,10 @@ India 4 (JEE Main S2 April 8 live), Pakistan 3, Nigeria 3
 
 
 2026-04-12T04:04 UTC | Health: studyroadmap.in 200 ✅, /exams/ 200 ✅, /notes/ 200 ✅, sitemap-0.xml 200 ✅ | Checks: YAML unterminated quotes (none), subjectName:None (none), examPattern/eligibility missing in India exam files (none — all .ts files checked), placeholder content by size <2KB (none found) | No fixes needed — site is healthy
+
+## 2026-04-12 04:06 UTC
+- **Health**: studyroadmap.in ✅ (200), /exams/neet/ ✅ (200)
+- **Issue**: Placeholder topic names in law-ent-tz GK source data + markdown files
+- **Fix**: Replaced generic "Topic 1-8" names in `src/data/exams/tanzania/subjects/gk.ts` with real Tanzania Law School GK topics (Tanzanian History and Heritage, Tanzanian Political System, East African Community, etc.)
+- **Fix**: Fixed subjectName "Gk" -> "General Knowledge" in 5 markdown files + source data
+- **Commit**: f70068e

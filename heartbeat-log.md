@@ -55,3 +55,4 @@ deploy: 200 (OK)
 - deploy (172.17.0.1:9000): 404 — DOWN
 - News: refreshed
 - 2026-04-12 03:38 UTC — deploy endpoint returned 404
+Deploy DOWN at 2026-04-12 04:09 UTC

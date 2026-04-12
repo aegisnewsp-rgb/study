@@ -16,3 +16,16 @@
 [2026-04-12 20:02 UTC] studyroadmap.in: 200 ✅ | deploy: 404 ❌ (down)
 [2026-04-12T20:33:07Z] Site=200, Deploy=404 (down)
 [2026-04-12 20:42 UTC] Deploy (172.17.0.1:9000) returned 404 — appears DOWN
+## 2026-04-12 20:48 UTC — Deploy DOWN (404)
+
+## 2026-04-12 20:54 UTC
+
+**Health:** site=200, /exams/neet/=200 ✓
+
+**Checked:** 
+- YAML subjectName None errors: none found  
+- Tiny placeholders: none found (UP-PSC files are legitimate short notes)
+- Stale 2024 refs in pages: only neet-strategy which is legitimately referencing past exam papers
+- Missing examPattern metadata: none found
+
+**Result:** HEARTBEAT_OK — no issues found

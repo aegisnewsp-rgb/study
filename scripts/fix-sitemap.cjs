@@ -73,6 +73,55 @@ if (!sitemap.trim().startsWith('<?xml')) {
   console.log('Repaired missing XML declaration and <urlset> opening tag in sitemap');
 }
 
+// STEP 0b: Normalize ALL URLs to lowercase to fix duplicate entries from case differences (e.g. uAeu-cat vs uaeu-cat)
+// Deduplicate by keeping only the first occurrence of each lowercase URL
+const seenLowerUrls = new Set();
+sitemap = sitemap.replace(/(<url>[\s\S]*?<\/url>)/g, (urlBlock) => {
+  const locMatch = urlBlock.match(/<loc>([^<]+)<\/loc>/);
+  if (!locMatch) return urlBlock;
+  const lower = locMatch[1].toLowerCase();
+  if (seenLowerUrls.has(lower)) {
+    console.log(`Removing duplicate URL (case variant): ${locMatch[1]}`);
+    return '';  // remove duplicate
+  }
+  // If URL itself is uppercase, fix it
+  if (locMatch[1] !== lower) {
+    const fixed = urlBlock.replace(`<loc>${locMatch[1]}</loc>`, `<loc>${lower}</loc>`);
+    console.log(`Normalized URL to lowercase: ${locMatch[1]} -> ${lower}`);
+    seenLowerUrls.add(lower);
+    return fixed;
+  }
+  seenLowerUrls.add(lower);
+  return urlBlock;
+});
+
+// STEP 0c: Add tiered priority values to all sitemap entries
+// Homepage = 1.0, /exams/ listing = 0.9, major exam pages = 0.8, notes = 0.6, other = 0.5
+sitemap = sitemap.replace(/(<url>[\s\S]*?<\/url>)/g, (urlBlock) => {
+  const locMatch = urlBlock.match(/<loc>([^<]+)<\/loc>/);
+  if (!locMatch) return urlBlock;
+  const url = locMatch[1];
+  let priority = '0.5';
+  let changefreq = 'monthly';
+  if (url === 'https://studyroadmap.in/' || url === 'https://studyroadmap.in') {
+    priority = '1.0'; changefreq = 'daily';
+  } else if (url.endsWith('/exams/') || url === 'https://studyroadmap.in/exams') {
+    priority = '0.9'; changefreq = 'daily';
+  } else if (/\/exams\/[^/]+\/$/.test(url)) {
+    priority = '0.8'; changefreq = 'weekly';
+  } else if (/\/notes\/[^/]+\/$/.test(url)) {
+    priority = '0.6'; changefreq = 'weekly';
+  } else if (/\/notes\/[^/]+\/[^/]+\/$/.test(url)) {
+    priority = '0.5'; changefreq = 'monthly';
+  } else if (url.match(/\/(about|contact|privacy|terms|roadmap)\/$/)) {
+    priority = '0.7'; changefreq = 'monthly';
+  }
+  // Remove any existing priority/changefreq tags and add correct ones
+  let fixed = urlBlock.replace(/<priority>[^<]*<\/priority>/g, '').replace(/<changefreq>[^<]*<\/changefreq>/g, '');
+  fixed = fixed.replace('</loc>', `</loc><lastmod>${today}</lastmod><changefreq>${changefreq}</changefreq><priority>${priority}</priority>`);
+  return fixed;
+});
+
 // STEP 0a: Remove existing sitemap entries for exam pages that were never generated (404s)
 const brokenUrls = [];
 for (const id of examIds) {

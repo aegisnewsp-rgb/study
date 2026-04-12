@@ -1377,3 +1377,9 @@ India 4 (JEE Main S2 April 8 live), Pakistan 3, Nigeria 3
 **Issue found:** Placeholder content — `law-ent-tz/gk/gk-002.md` had generic "Topic 2" placeholder text  
 **Fix:** Replaced with real "Introduction to Law" content covering Tanzania legal system, sources of law, key legal concepts. Also fixed subjectName: "Gk" → "General Knowledge"  
 **Commit:** 71a0d2f
+
+## 2026-04-12 01:03 UTC
+- **Health**: all 200 ✅ (homepage, /exams/, /notes/, sitemap-0.xml)
+- **Research log**: no unresolved critical issues
+- **Checks done**: YAML unterminated quotes → none, empty topicName → none, placeholder content → none, stale year refs → none, recently-modified notes → all valid frontmatter
+- **No issues found — site is healthy**

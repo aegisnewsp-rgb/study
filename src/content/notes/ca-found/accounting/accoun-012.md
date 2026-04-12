@@ -16,7 +16,7 @@ generated: "2026-03-25T17:00:00"
 > Rapid summary for last-minute revision before your exam.
 
 **Standard Costing** — Key Facts for CA Foundation
-Core concept: Standard Costing is an important topic in None for CA Foundation
+Core concept: Standard Costing is an important topic in Principles of Accounting for CA Foundation
 High-yield point: Understand the fundamental principles and their applications
 ⚡ Exam tip: Questions from Standard Costing appear regularly in CA Foundation
 
@@ -26,7 +26,7 @@ High-yield point: Understand the fundamental principles and their applications
 > Standard content for students with a few days to months.
 
 **Standard Costing** — CA Foundation Study Guide
-Overview: Standard Costing is a key None topic for CA Foundation
+Overview: Standard Costing is a key Principles of Accounting topic for CA Foundation
 Core principles: Build a solid understanding of fundamentals
 Key points: Definitions, applications, and typical exam question patterns
 Study strategy: Theory first, then practice problems
@@ -37,7 +37,7 @@ Study strategy: Theory first, then practice problems
 > Comprehensive coverage for students on a longer study timeline.
 
 **Standard Costing** — Comprehensive CA Foundation Notes
-Full coverage: Standard Costing in None for CA Foundation preparation
+Full coverage: Standard Costing in Principles of Accounting for CA Foundation preparation
 Detailed theory and concept explanations
 Problem-solving strategies and common mistakes to avoid
 Practice: Attempt previous year questions and standard textbook exercises

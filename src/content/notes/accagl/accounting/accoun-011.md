@@ -16,7 +16,7 @@ generated: "2026-03-25T17:00:00"
 > Rapid summary for last-minute revision before your exam.
 
 **Marginal Costing** — Key Facts for ACCA/CA Pakistan
-Core concept: Marginal Costing is an important topic in None for ACCA/CA Pakistan
+Core concept: Marginal Costing is an important topic in Financial Accounting for ACCA/CA Pakistan
 High-yield point: Understand the fundamental principles and their applications
 ⚡ Exam tip: Questions from Marginal Costing appear regularly in ACCA/CA Pakistan
 
@@ -26,7 +26,7 @@ High-yield point: Understand the fundamental principles and their applications
 > Standard content for students with a few days to months.
 
 **Marginal Costing** — ACCA/CA Pakistan Study Guide
-Overview: Marginal Costing is a key None topic for ACCA/CA Pakistan
+Overview: Marginal Costing is a key Financial Accounting topic for ACCA/CA Pakistan
 Core principles: Build a solid understanding of fundamentals
 Key points: Definitions, applications, and typical exam question patterns
 Study strategy: Theory first, then practice problems
@@ -37,7 +37,7 @@ Study strategy: Theory first, then practice problems
 > Comprehensive coverage for students on a longer study timeline.
 
 **Marginal Costing** — Comprehensive ACCA/CA Pakistan Notes
-Full coverage: Marginal Costing in None for ACCA/CA Pakistan preparation
+Full coverage: Marginal Costing in Financial Accounting for ACCA/CA Pakistan preparation
 Detailed theory and concept explanations
 Problem-solving strategies and common mistakes to avoid
 Practice: Attempt previous year questions and standard textbook exercises

@@ -16,7 +16,7 @@ generated: "2026-03-25T17:00:00"
 > Rapid summary for last-minute revision before your exam.
 
 **Money and Banking** — Key Facts for WASSCE (Ghana)
-Core concept: Money and Banking is an important topic in None for WASSCE (Ghana)
+Core concept: Money and Banking is an important topic in Quantitative Aptitude for WASSCE (Ghana)
 High-yield point: Understand the fundamental principles and their applications
 ⚡ Exam tip: Questions from Money and Banking appear regularly in WASSCE (Ghana)
 
@@ -26,7 +26,7 @@ High-yield point: Understand the fundamental principles and their applications
 > Standard content for students with a few days to months.
 
 **Money and Banking** — WASSCE (Ghana) Study Guide
-Overview: Money and Banking is a key None topic for WASSCE (Ghana)
+Overview: Money and Banking is a key Quantitative Aptitude topic for WASSCE (Ghana)
 Core principles: Build a solid understanding of fundamentals
 Key points: Definitions, applications, and typical exam question patterns
 Study strategy: Theory first, then practice problems
@@ -37,7 +37,7 @@ Study strategy: Theory first, then practice problems
 > Comprehensive coverage for students on a longer study timeline.
 
 **Money and Banking** — Comprehensive WASSCE (Ghana) Notes
-Full coverage: Money and Banking in None for WASSCE (Ghana) preparation
+Full coverage: Money and Banking in Quantitative Aptitude for WASSCE (Ghana) preparation
 Detailed theory and concept explanations
 Problem-solving strategies and common mistakes to avoid
 Practice: Attempt previous year questions and standard textbook exercises

@@ -16,7 +16,7 @@ generated: "2026-03-25T17:00:00"
 > Rapid summary for last-minute revision before your exam.
 
 **Krebs Cycle** — Key Facts for FMGE
-Core concept: Krebs Cycle is an important topic in None for FMGE
+Core concept: Krebs Cycle is an important topic in Biochemistry for FMGE
 High-yield point: Understand the fundamental principles and their applications
 ⚡ Exam tip: Questions from Krebs Cycle appear regularly in FMGE
 
@@ -26,7 +26,7 @@ High-yield point: Understand the fundamental principles and their applications
 > Standard content for students with a few days to months.
 
 **Krebs Cycle** — FMGE Study Guide
-Overview: Krebs Cycle is a key None topic for FMGE
+Overview: Krebs Cycle is a key Biochemistry topic for FMGE
 Core principles: Build a solid understanding of fundamentals
 Key points: Definitions, applications, and typical exam question patterns
 Study strategy: Theory first, then practice problems
@@ -37,7 +37,7 @@ Study strategy: Theory first, then practice problems
 > Comprehensive coverage for students on a longer study timeline.
 
 **Krebs Cycle** — Comprehensive FMGE Notes
-Full coverage: Krebs Cycle in None for FMGE preparation
+Full coverage: Krebs Cycle in Biochemistry for FMGE preparation
 Detailed theory and concept explanations
 Problem-solving strategies and common mistakes to avoid
 Practice: Attempt previous year questions and standard textbook exercises

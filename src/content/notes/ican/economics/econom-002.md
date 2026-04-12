@@ -16,7 +16,7 @@ generated: "2026-03-25T17:00:00"
 > Rapid summary for last-minute revision before your exam.
 
 **Demand and Supply** — Key Facts for ICAN (Nigeria)
-Core concept: Demand and Supply is an important topic in None for ICAN (Nigeria)
+Core concept: Demand and Supply is an important topic in Quantitative Aptitude for ICAN (Nigeria)
 High-yield point: Understand the fundamental principles and their applications
 ⚡ Exam tip: Questions from Demand and Supply appear regularly in ICAN (Nigeria)
 
@@ -26,7 +26,7 @@ High-yield point: Understand the fundamental principles and their applications
 > Standard content for students with a few days to months.
 
 **Demand and Supply** — ICAN (Nigeria) Study Guide
-Overview: Demand and Supply is a key None topic for ICAN (Nigeria)
+Overview: Demand and Supply is a key Quantitative Aptitude topic for ICAN (Nigeria)
 Core principles: Build a solid understanding of fundamentals
 Key points: Definitions, applications, and typical exam question patterns
 Study strategy: Theory first, then practice problems
@@ -37,7 +37,7 @@ Study strategy: Theory first, then practice problems
 > Comprehensive coverage for students on a longer study timeline.
 
 **Demand and Supply** — Comprehensive ICAN (Nigeria) Notes
-Full coverage: Demand and Supply in None for ICAN (Nigeria) preparation
+Full coverage: Demand and Supply in Quantitative Aptitude for ICAN (Nigeria) preparation
 Detailed theory and concept explanations
 Problem-solving strategies and common mistakes to avoid
 Practice: Attempt previous year questions and standard textbook exercises

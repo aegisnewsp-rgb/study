@@ -1371,3 +1371,9 @@ India 4 (JEE Main S2 April 8 live), Pakistan 3, Nigeria 3
 - Checked: stale date references in strategy pages → 2024/2025 refs are exam year data, not broken dates
 - **No issues found — site is healthy**
 2026-04-12 00:06 UTC | Health: site 200/200 ✅ | Checked: YAML None values, placeholder notes, 2024 year refs, missing examPattern. Found: src/content/notes/kpsc/history/histor-009.md had topicName: "" (empty). Fixed: set topicName to "Contemporary India: Issues and Challenges" (derived from title). Commit: 2e73df8.
+
+## 2026-04-12 00:36 UTC
+**Health:** site ✓ (200/200)  
+**Issue found:** Placeholder content — `law-ent-tz/gk/gk-002.md` had generic "Topic 2" placeholder text  
+**Fix:** Replaced with real "Introduction to Law" content covering Tanzania legal system, sources of law, key legal concepts. Also fixed subjectName: "Gk" → "General Knowledge"  
+**Commit:** 71a0d2f

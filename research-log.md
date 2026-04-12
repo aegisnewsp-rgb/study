@@ -1496,3 +1496,10 @@ India 4 (JEE Main S2 April 8 live), Pakistan 3, Nigeria 3
 - Checked: Small placeholder files (3 found, reviewed — content looks legitimate)
 - **FIX APPLIED**: up-psc/economics/econom-006.md — 3x "None" placeholders in subject/topic fields replaced with "Economics"
 - Commit: 2249da05
+
+## 2026-04-12 08:53 UTC
+- Health: ✅ studyroadmap.in/ (200) + exams/neet/ (200)
+- Checked: YAML None subjects (none), wrong years in pages (none), missing examPattern metadata (none - all in .ts files)
+- Found: 706 files with placeholder topicName "Topic X" in ini-cet notes
+- Fixed: src/content/notes/ini-cet/anatomy/anatom-001.md — topicName "Topic 1" → "Cell Biology" (extracted from content title)
+- Commit: 29a8900f

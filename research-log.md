@@ -1562,3 +1562,16 @@ India 4 (JEE Main S2 April 8 live), Pakistan 3, Nigeria 3
 **Fix:** bpsc/indian-polity/indian-002.md had country: bpsc (exam slug) instead of country: india. Committed as 2c5a493c and pushed.
 
 2026-04-12T17:55 UTC | health: 200/200 | FIXED: src/content/notes/up-psc/economics/econom-006.md — subjectName was "Quantitative Aptitude" should be "Economics" (matching subject field and exam directory).
+
+## 2026-04-12 18:54 UTC
+- Health: studyroadmap.in/ ✅ (200), /exams/neet/ ✅ (200)
+- subjectName:None: none found
+- Small files (<1500c): 3 found (gk-002, econom-003, econom-006) — all genuine short topics (34–46 lines)
+- 2024 refs in pages: neet-strategy.astro — intentional content (strategy referencing 2024/2025 papers)
+- Missing examPattern: index.ts/types.ts/nigeria/index.ts — not content files, no fix needed
+- Action: none — no bugs found
+
+## 2026-04-12T19:03 UTC
+**Health:** studyroadmap.in/ ✅ 200, /exams/ ✅ 200, /notes/ ✅ 200, sitemap-0.xml ✅ 200
+**Checked:** YAML unquoted diagramPrompt → properly quoted ✅ | examPattern/eligibility in exam data → only re-export index.ts files lack it (expected) ✅ | Stale year refs in strategy pages → none ✅ | `country: bpsc` in BPSC notes → found 5+ files with wrong country
+**Fix:** bpsc/indian-polity/indian-006.md — `country: bpsc` → `country: india`. Committed & pushed as 1d2d0059. Note: indian-004, indian-005, indian-008, indian-010 also have same issue (country: bpsc) — will be addressed in next runs.

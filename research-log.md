@@ -1593,3 +1593,9 @@ India 4 (JEE Main S2 April 8 live), Pakistan 3, Nigeria 3
 - Health: ✅ studyroadmap.in/ 200, /exams/neet/ 200
 - Checked: YAML errors (none), placeholders (found econom-008.md), 2024 years, missing examPattern
 - FIX: econom-008.md had "None" subjectName in topic content — replaced with "Quantitative Aptitude"
+
+## 2026-04-12 21:54 UTC
+- **Checked:** Health (site up ✅), YAML errors, placeholder files, wrong year references, missing examPattern metadata
+- **Issue found:** `in None for RPSC RAS` placeholder text in ras/economics notes — subjectName template variable not resolved
+- **Fix applied:** `src/content/notes/ras/economics/econom-001.md` — replaced "None" with actual subjectName "Quantitative Aptitude"
+- **Committed:** 03074813

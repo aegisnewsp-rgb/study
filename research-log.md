@@ -1448,3 +1448,13 @@ India 4 (JEE Main S2 April 8 live), Pakistan 3, Nigeria 3
 - 2024/2023 wrong year references in pages: none found
 
 ### Fix: None
+
+## 2026-04-12 06:23 UTC — StudyRoadmap Research
+
+**Health check:** site (200), /exams/neet/ (200) — both OK
+
+**Issue found:** Malformed `subjectName` in `src/content/notes/ibps-clerk/general-awareness/genera-005.md`
+- Was: `subjectName: ('awareness', 'General Awareness')` (tuple literal — invalid YAML)
+- Fixed to: `subjectName: General Awareness`
+
+**Committed:** `5064307` — Fix malformed subjectName in IBPS Clerk genera-005.md

@@ -13,3 +13,4 @@
 - **Action**: None required — site is up.
 - 2026-04-12T19:45:17+00:00 — studyroadmap.in: 200, deploy: 404 (DOWN)
 [2026-04-12 19:49 UTC] Deploy endpoint down (404)
+[2026-04-12 20:02 UTC] studyroadmap.in: 200 ✅ | deploy: 404 ❌ (down)

@@ -1581,3 +1581,15 @@ India 4 (JEE Main S2 April 8 live), Pakistan 3, Nigeria 3
 - **Issue found**: Small placeholder file at 1475 bytes — `src/content/notes/law-ent-tz/gk/gk-002.md`
 - **Fix applied**: Expanded with Extended section (legal theorists, classification table, court system, IRAC method, memory aids) — now 4538 bytes
 - **Commit**: bd190413
+2026-04-12 19:54 UTC | Health: 200/200 | Found: uAeu-cat directory with 18 notes referencing wrong exam ID (should be uaeu-cat to match src/data/exams/uae/uaeu-cat.ts). Fixed: renamed directory and updated exam field in all 18 notes.
+
+## 2026-04-12 20:03 UTC
+- **Health**: studyroadmap.in/ ✅ (200), /exams/ ✅ (200), /notes/ ✅ (200), sitemap-0.xml ✅ (200)
+- **YAML diagramPrompt**: all properly quoted ✅ (false positive from grep pattern)
+- **examPattern/eligibility**: subject files under src/data/exams/*/subjects/ — expected (subject knowledge, not exam defs) ✅
+- **Fix**: `country: bpsc` → `country: india` in bpsc/history/histor-001.md. Still 9+ files with same issue (indian-003/004/005/007/008/009/010, histor-005/009). Committed & pushed a2958200.
+
+## 2026-04-12 20:24 UTC
+- Health: ✅ studyroadmap.in/ 200, /exams/neet/ 200
+- Checked: YAML errors (none), placeholders (found econom-008.md), 2024 years, missing examPattern
+- FIX: econom-008.md had "None" subjectName in topic content — replaced with "Quantitative Aptitude"

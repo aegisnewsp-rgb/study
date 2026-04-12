@@ -1470,3 +1470,10 @@ India 4 (JEE Main S2 April 8 live), Pakistan 3, Nigeria 3
 
 **Fix:** None
 
+
+
+**2026-04-12 07:53 UTC**
+- Health: studyroadmap.in/ ✅ 200, studyroadmap.in/exams/neet/ ✅ 200
+- Checked: YAML subjectName=None (none), wrong years in pages (none), missing examPattern metadata (none actionable — types.ts/nigeria/index.ts/index.ts are code files)
+- **FIXED:** src/content/notes/ppsc/gk/gk-010.md was corrupted — TypeScript interface definitions (Topic, Subject, DailyTopicItem, RoadmapTemplate, RescueFocusArea) were injected into middle of markdown content, replacing actual demographic facts. Restored proper content about Pakistan's Society and Demographics with population figures, provincial breakdown, and PPSC-relevant high-yield points.
+- Commit: 3a6e21c

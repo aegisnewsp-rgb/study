@@ -4,7 +4,7 @@ examName: "SBI PO"
 subject: awareness
 subjectName: ('awareness', 'General Awareness')
 topic: genera-001
-topicName: "Topic 1"
+topicName: "Indian Banking System and Regulatory Framework"
 weight: 3
 country: sbi
 generated: "2026-03-25T17:00:00"

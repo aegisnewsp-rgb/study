@@ -4,7 +4,7 @@ examName: INI CET (AIIMS PG)
 subject: anatomy
 subjectName: Anatomy
 topic: anatom-009
-topicName: Topic 9
+topicName: Abdomen and Pelvis Anatomy
 weight: 3
 country: ini
 generated: "2026-03-25T17:00:00"

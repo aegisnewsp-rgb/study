@@ -4,7 +4,7 @@ examName: INI CET (AIIMS PG)
 subject: anatomy
 subjectName: Anatomy
 topic: anatom-007
-topicName: Topic 7
+topicName: Thorax and Cardiopulmonary Anatomy
 weight: 3
 country: ini
 generated: "2026-03-25T17:00:00"

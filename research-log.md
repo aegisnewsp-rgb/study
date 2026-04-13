@@ -1692,3 +1692,9 @@ Fix: none
 - Fixed: updated topicName + h1 + references to "Environmental Science & Ecology"
 - Committed: 21f1924d
 2026-04-13 04:54 UTC | Health: / (200), /exams/neet/ (200) | Fix: src/content/notes/up-psc/general-science/genera-001.md — topicName was placeholder 'Topic 1', updated to 'Banking Awareness - RBI and Monetary Policy' per subject data
+
+2026-04-13 05:03 UTC | Health: / (200), /exams/ (200), /notes/ (200), /sitemap-0.xml (200)
+YAML frontmatter: diagramPrompt fields — all properly quoted
+Stale date refs: none found
+Fix: src/data/exams/india/ctet.ts — replaced placeholder 'https://example.com' with official 'https://ctet.nic.in'
+Commit: 8d901786

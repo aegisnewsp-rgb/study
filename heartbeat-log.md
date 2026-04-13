@@ -36,3 +36,7 @@ Deploy down at 2026-04-13 00:50 UTC
 [2026-04-13 01:33 UTC] Deploy check: 404 (DOWN)
 [2026-04-13 01:53 UTC] Deploy check: 404 (DOWN)
 [2026-04-13 02:13 UTC] studyroadmap.in: 200 OK | deploy: 404 DOWN
+=== Heartbeat 2026-04-13T02:23:46Z ===
+studyroadmap.in: 200 ✓ | deploy: 404 ✗ (down)
+
+**2026-04-13 02:38 UTC** — Deploy down (172.17.0.1:9000/deploy → 404). Site at studyroadmap.in returned 200 (origin OK).

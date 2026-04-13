@@ -8,6 +8,7 @@ topicName: Theory of Production and Cost
 description: Key concepts of production functions, cost structures, and short-run vs long-run cost analysis for CS Executive Economics.
 weight: 3
 country: cs
+lastUpdated: "2026-04-13"
 tier: notes
 generated: "2026-03-25T17:00:00"
 ---

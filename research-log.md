@@ -1738,3 +1738,9 @@ Commit: be35164b (pushed ✅)
 - research-log.md: No unresolved critical issues from previous runs.
 - Fix: `src/content/notes/cs-exec/economics/econom-001.md` — added missing `lastUpdated: "2026-04-13"`. (~3055 other notes still missing lastUpdated, flagged for future batch runs)
 - Commit: ecd60bfb (pushed ✅)
+
+## 2026-04-13 10:16 UTC
+**Health:** ✅ studyroadmap.in/ → 200, studyroadmap.in/exams/neet/ → 200
+**Issue found:** Placeholder content in notes files (436 files with "Core concept: X is an important topic in Y" template)
+**Fix:** Replaced src/content/notes/ras/economics/econom-004.md (Consumer Behaviour) with real substantive content covering Cardinal Utility Analysis, Indifference Curve approach, Demand Theory, Consumer's Surplus. Also fixed subject metadata mismatch (was "quant", should be "economics").
+**Commit:** 585e7ff4

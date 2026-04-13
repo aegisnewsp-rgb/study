@@ -4,7 +4,7 @@ examName: NEET PG
 subject: botany
 subjectName: Physiology
 topic: physio-001
-topicName: Topic 1
+topicName: General Physiology & Cell
 weight: 3
 country: neet
 generated: "2026-03-25T17:00:00"

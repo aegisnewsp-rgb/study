@@ -3,6 +3,7 @@ exam: cs-exec
 examName: CS Executive
 subject: accounting
 subjectName: Accounting
+lastUpdated: "2026-04-13"
 topic: accoun-002
 topicName: Accounting Equations
 weight: 3

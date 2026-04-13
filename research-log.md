@@ -1684,3 +1684,10 @@ Broken internal links: none found
 Stale date references: none found (2024 refs in neet-strategy.astro confirmed intentional)
 research-log: no unresolved critical issues
 Fix: none
+
+## 2026-04-13 04:24 UTC
+- Health: ✅ site 200, /exams/neet/ 200
+- Checked: YAML None values (none), exam pages 2024 refs (okay), metadata missing (okay)
+- Found: src/content/notes/up-psc/general-science/genera-006.md had `topicName: "Topic 6"` (placeholder)
+- Fixed: updated topicName + h1 + references to "Environmental Science & Ecology"
+- Committed: 21f1924d

@@ -1784,3 +1784,10 @@ Commit: be35164b (pushed ✅)
 
 ---
 2026-04-13 13:03 UTC | Health: 200 /, 200 /exams/, 200 /notes/, 200 sitemap-0.xml | research-log: no unresolved critical issues | Fix: sbi-clerk/general-awareness/genera-004.md — topicName "Topic 4" (placeholder) → "GDP and National Income" | Commit: 4a71fb6a (pushed ✅)
+
+## 2026-04-13 14:16 UTC
+- Health: / → 200, /exams/neet/ → 200 ✅
+- Checked: YAML None errors (none), small placeholder files (found 3)
+- Fixed: `src/content/notes/up-psc/general-science/genera-002.md` — replaced generic "Topic 2" placeholder with real content: "Chemical Reactions — Acids, Bases and Salts" (UPPSC PCS General Science). Added full 3-tier notes covering pH scale, indicators, neutralisation, key salts (NaCl/Na₂CO₃/NaHCO₃/CaOCl₂), acid-base theories.
+- Remaining small-file placeholders still to fix: genera-004, genera-007, genera-008 (in up-psc/general-science)
+- Commit: 006f445a

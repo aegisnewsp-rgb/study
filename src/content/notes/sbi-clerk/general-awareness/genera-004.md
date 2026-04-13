@@ -4,7 +4,7 @@ examName: "SBI Clerk"
 subject: awareness
 subjectName: ('awareness', 'General Awareness')
 topic: genera-004
-topicName: "Topic 4"
+topicName: "GDP and National Income"
 weight: 3
 country: sbi
 generated: "2026-03-25T17:00:00"

@@ -3,6 +3,7 @@ exam: cs-exec
 examName: CS Executive
 subject: economics
 subjectName: Economics
+lastUpdated: "2026-04-13"
 topic: econom-004
 topicName: Price Theory and Market Structure
 description: Perfect competition, monopoly, monopolistic competition, and oligopoly market structures with equilibrium analysis, diagrams, and CS Executive exam-focused explanations.

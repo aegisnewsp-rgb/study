@@ -8,6 +8,7 @@ topicName: Introduction to Economics
 weight: 3
 country: cs
 generated: "2026-03-25T17:00:00"
+lastUpdated: "2026-04-13"
 ---
 
 # Introduction to Economics

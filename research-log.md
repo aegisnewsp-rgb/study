@@ -1730,3 +1730,5 @@ examPattern/eligibility: india ✅, indonesia ✅
 Stale dates: none
 Fix: src/content/notes/cs-exec/accounting/accoun-002.md — added missing `lastUpdated: "2026-04-13"` (accoun-003 through 010 still missing, batch in progress)
 Commit: be35164b (pushed ✅)
+
+**2026-04-13 09:16 UTC** | Health: ✅ both pages 200 | Issue: `genera-005.md` had `topicName: Topic 5` (generic placeholder) | Fix: Replaced with `General Awareness - Current Events & Issues` and updated all H1/titles/body references

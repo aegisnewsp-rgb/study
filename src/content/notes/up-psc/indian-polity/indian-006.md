@@ -7,6 +7,7 @@ topic: indian-006
 topicName: Topic 6
 weight: 3
 country: up
+lastUpdated: "2026-04-13"
 generated: "2026-03-25T17:00:00"
 ---
 

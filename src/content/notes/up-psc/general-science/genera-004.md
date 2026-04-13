@@ -4,7 +4,7 @@ examName: UPPSC PCS
 subject: awareness
 subjectName: General Awareness
 topic: genera-004
-topicName: Topic 4
+topicName: "[PLACEHOLDER] Topic 4 — needs real content"
 weight: 3
 country: up
 lastUpdated: "2026-04-13"

@@ -4,13 +4,13 @@ examName: "SBI Clerk"
 subject: awareness
 subjectName: ('awareness', 'General Awareness')
 topic: genera-008
-topicName: "Topic 8"
+topicName: "Important Organisations and Summits"
 weight: 3
 country: sbi
 generated: "2026-03-25T17:00:00"
 ---
 
-# Topic 8
+# Important Organisations and Summits
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

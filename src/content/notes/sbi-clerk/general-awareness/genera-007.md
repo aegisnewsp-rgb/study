@@ -4,13 +4,13 @@ examName: "SBI Clerk"
 subject: awareness
 subjectName: ('awareness', 'General Awareness')
 topic: genera-007
-topicName: "Topic 7"
+topicName: "Science and Technology (General)"
 weight: 3
 country: sbi
 generated: "2026-03-25T17:00:00"
 ---
 
-# Topic 7
+# Science and Technology (General)
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

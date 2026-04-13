@@ -1744,3 +1744,8 @@ Commit: be35164b (pushed ✅)
 **Issue found:** Placeholder content in notes files (436 files with "Core concept: X is an important topic in Y" template)
 **Fix:** Replaced src/content/notes/ras/economics/econom-004.md (Consumer Behaviour) with real substantive content covering Cardinal Utility Analysis, Indifference Curve approach, Demand Theory, Consumer's Surplus. Also fixed subject metadata mismatch (was "quant", should be "economics").
 **Commit:** 585e7ff4
+
+## 2026-04-13 10:46 UTC
+- **Health:** studyroadmap.in ✅ 200, /exams/neet/ ✅ 200
+- **Issues checked:** subjectName None ✅, small files ✅, wrong years in pages ✅, missing examPattern ✅
+- **Fix:** ini-cet/anatomy/anatom-008.md — topicName was "Topic 8" (placeholder), fixed to "Head and Neck Anatomy"

@@ -1676,3 +1676,11 @@ Checked: placeholder URLs in exam data files
 Fix: src/data/exams/indonesia/utbk.ts — replaced placeholder 'https://example.com' with official 'https://portal.snpmb.id' (SNPMB portal for UTBK/SNPMTN)
 Commit: 5b25171e
 
+
+=== 2026-04-13 04:04 UTC ===
+Health: studyroadmap.in/ ✓ 200, /exams/ ✓ 200, /notes/ ✓ 200, /sitemap-0.xml ✓ 200
+YAML frontmatter: diagramPrompt fields — all properly quoted, no broken frontmatter
+Broken internal links: none found
+Stale date references: none found (2024 refs in neet-strategy.astro confirmed intentional)
+research-log: no unresolved critical issues
+Fix: none

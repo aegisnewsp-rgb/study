@@ -1801,3 +1801,10 @@ Checked: health (200/200), YAML None errors (none), placeholder files (3 small b
 - Exam eligibility fields: all present ✅
 - Stale year refs (2024/2023 in strategy): none found ✅
 - No fix needed.
+
+## 2026-04-13 15:16 UTC
+- Health: ✅ studyroadmap.in/ (200), studyroadmap.in/exams/neet/ (200)
+- Checked: None values in subjectName (none), short placeholder files (3 found), 2024 year refs (contextual/valid), examPattern missing (matched .ts utility files, not data files)
+- Found: Multiple up-psc notes missing `lastUpdated` frontmatter field
+- Fixed: Added `lastUpdated: "2026-04-13"` to `src/content/notes/up-psc/economics/econom-006.md`
+- Commit: 8fab774c

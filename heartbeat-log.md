@@ -11,3 +11,4 @@
 - **News refresh**: skipped (last check ~6h ago, threshold 55 min)
 [2026-04-13 07:07 UTC] Deploy status: 404 (DOWN) — site studyroadmap.in: 200 OK
 [2026-04-13 07:23 UTC] Deploy status: 404 (DOWN) — site studyroadmap.in: 200 OK
+- `2026-04-13 07:59 UTC` — Deploy down (9000/deploy → 404)

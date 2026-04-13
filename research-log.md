@@ -1651,3 +1651,21 @@ India 4 (JEE Main S2 April 8 live), Pakistan 3, Nigeria 3
 - 2024 refs: neet-strategy.astro reference is intentional ("Based on NEET 2024 and 2025 papers" — valid)
 - examPattern missing: checked types.ts + index files — none
 - Fix: none
+
+---
+2026-04-13 01:54 UTC
+- Health: studyroadmap.in/ ✓ 200, /exams/neet/ ✓ 200
+- YAML errors: none
+- Placeholders: found genera-003.md (1468 bytes) — pure placeholder content (Topic 3, generic text in all tiers)
+- 2024 refs: neet-strategy.astro reference is intentional
+- examPattern missing: checked types.ts + index files — not applicable
+- Fix: Replaced genera-003.md with substantive Laws of Motion and Friction content (Physics) for UPPSC General Science. Commit: 6c6fe348
+
+
+## 2026-04-13 02:03 UTC
+- Health: studyroadmap.in/ ✓ 200, /exams/ ✓ 200, /notes/ ✓ 200, /sitemap-0.xml ✓ 200
+- YAML errors: diagramPrompt fields checked — all properly quoted, no broken frontmatter
+- Placeholders: prior fix (genera-003.md) confirmed committed
+- research-log: last critical issue (genera-003.md placeholder) was fixed at 01:54 UTC — no new issues
+- examPattern: not applicable (already checked in prior runs)
+- Fix: none

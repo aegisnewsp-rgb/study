@@ -1636,3 +1636,10 @@ India 4 (JEE Main S2 April 8 live), Pakistan 3, Nigeria 3
 - **Checked:** YAML None values, placeholder notes (<1500c), 2024 hardcoded dates, missing examPattern
 - **Found:** None — site healthy
 - **Fix:** None
+
+## 2026-04-13 00:03 UTC
+**Checked:** Health (200/200/200 ✓ sitemap ✓), research-log, YAML unterminated quotes  
+**Issue found:** `src/content/notes/upsc/gs1/gs1-003.md` — `diagramPrompt` frontmatter field had unterminated double-quote (line ended with `illustration` instead of `illustration"`)  
+**Fix applied:** Closed the missing quote  
+**Git:** committed + pushed (4432c949)  
+**Note:** No other issues found in quick scan

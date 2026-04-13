@@ -1669,3 +1669,10 @@ India 4 (JEE Main S2 April 8 live), Pakistan 3, Nigeria 3
 - research-log: last critical issue (genera-003.md placeholder) was fixed at 01:54 UTC — no new issues
 - examPattern: not applicable (already checked in prior runs)
 - Fix: none
+
+=== 2026-04-13 03:24 UTC ===
+Health: 200 + 200 ✓
+Checked: placeholder URLs in exam data files
+Fix: src/data/exams/indonesia/utbk.ts — replaced placeholder 'https://example.com' with official 'https://portal.snpmb.id' (SNPMB portal for UTBK/SNPMTN)
+Commit: 5b25171e
+

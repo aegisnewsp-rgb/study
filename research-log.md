@@ -1904,3 +1904,9 @@ Checked: health (200/200), YAML None errors (none), placeholder files (3 small b
 - **Checks:** YAML diagramPrompt errors (none) | Placeholder topicNames in SBI Clerk GA files genera-006–008 all still "Topic N"
 - **Fix:** genera-006.md — "Topic 6" → "Indian Geography and Physical Features" | genera-007.md — "Topic 7" → "Science and Technology (General)" | genera-008.md — "Topic 8" → "Important Organisations and Summits" (content confirms actual topics)
 - **Commit:** 43db14f9 → pushed ✅
+
+**2026-04-13 21:16 UTC**
+- Health: studyroadmap.in/ → 200, exams/neet/ → 200
+- Found: src/content/notes/up-psc/indian-polity/indian-001.md (1472 bytes) was a placeholder "Topic 1" stub
+- Fixed: Replaced with real content — "Preamble and Salient Features of Constitution" with actual UPPSC PCS-relevant material (Kesavananda Bharati case, 42nd/44th amendments, etc.)
+- Committed: 881a49f8

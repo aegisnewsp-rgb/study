@@ -1691,3 +1691,4 @@ Fix: none
 - Found: src/content/notes/up-psc/general-science/genera-006.md had `topicName: "Topic 6"` (placeholder)
 - Fixed: updated topicName + h1 + references to "Environmental Science & Ecology"
 - Committed: 21f1924d
+2026-04-13 04:54 UTC | Health: / (200), /exams/neet/ (200) | Fix: src/content/notes/up-psc/general-science/genera-001.md — topicName was placeholder 'Topic 1', updated to 'Banking Awareness - RBI and Monetary Policy' per subject data

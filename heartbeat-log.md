@@ -22,3 +22,4 @@ Deploy status: 200 (ok)
 --- 2026-04-13 09:08 UTC ---
 studyroadmap.in: 200 ✅
 deploy: 404 ❌ (DOWN)
+- 2026-04-13 09:29 UTC — deploy returned 404 (DOWN)

@@ -1705,3 +1705,10 @@ Commit: 8d901786
 - Fix: Added `lastUpdated: "2026-04-13"` to cs-exec/economics/econom-003.md
 
 2026-04-13 06:35 UTC — Health: home(200), neet(200). Checks: subjectName-None(none), placeholders(none), 2024-years(intentional in strategy), examPattern-missing(none). No issues found.
+
+2026-04-13 07:03 UTC — Health: home(200), /exams/(200), /notes/(200), /sitemap-0.xml(200)
+YAML diagramPrompt: all properly quoted
+examPattern/eligibility: india ✅, indonesia ✅
+Stale dates: none in strategy pages
+Fix: src/content/notes/cs-exec/economics/econom-004.md — added missing `lastUpdated: "2026-04-13"` (many cs-exec notes still lack this field)
+Commit: 1678bc90

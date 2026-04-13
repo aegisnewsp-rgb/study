@@ -1868,3 +1868,25 @@ Checked: health (200/200), YAML None errors (none), placeholder files (3 small b
 - **Fixed:** Rewrote with full 3-tier content on **Light and Optics** for UPPSC PCS General Awareness (4962 bytes)
 - **Commit:** `6435204f` — "Fix placeholder: genera-007 UP-PSC General Awareness → Light and Optics"
 - **Also noted:** genera-004 and genera-008 still have `[PLACEHOLDER]` topicNames — candidates for future runs
+
+## 2026-04-13 19:46 UTC
+- **Health:** ✅ site=200, /exams/neet/=200
+- **Checked:** placeholder files, YAML errors, missing lastUpdated, wrong years
+- **Fix:** Added missing `lastUpdated: "2026-04-13"` to indian-001.md and indian-006.md (UP-PSC Indian Polity notes had `generated:` but no `lastUpdated`)
+- **Commit:** 16be66df
+
+## 2026-04-13 20:03 UTC
+- **Health:** ✅ site=200, /exams/=200, /notes/=200, sitemap-0.xml accessible
+- **research-log:** No unresolved critical issues from growth agent
+- **Checks:** YAML diagramPrompt errors (none) | Placeholder topicNames in SBI Clerk GA files genera-005–008 all say "Topic N"
+- **Fix:**  — topicName "Topic 5" → "Indian Constitution — Parts, Articles, Schedules and Amendments" (content confirms actual topic)
+- **Commit:**  → pushed ✅
+- **Note:** genera-006 (Indian Geography), genera-007 (Science & Technology), genera-008 (International Organisations) also still have generic "Topic N" names — candidates for next runs
+
+## 2026-04-13 20:03 UTC
+- **Health:** site=200, /exams/=200, /notes/=200, sitemap-0.xml accessible
+- **research-log:** No unresolved critical issues from growth agent
+- **Checks:** YAML diagramPrompt errors (none) | Placeholder topicNames in SBI Clerk GA files genera-005-008 all say "Topic N"
+- **Fix:** genera-005.md — topicName "Topic 5" → "Indian Constitution — Parts, Articles, Schedules and Amendments" (content confirms actual topic)
+- **Commit:** 696f6255 → pushed
+- **Note:** genera-006 (Indian Geography), genera-007 (Science & Technology), genera-008 (International Organisations) still have generic "Topic N" names — candidates for next runs

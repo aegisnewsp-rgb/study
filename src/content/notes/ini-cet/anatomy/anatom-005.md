@@ -1,8 +1,8 @@
 ---
 exam: ini-cet
 examName: INI CET (AIIMS PG)
-subject: botany
-subjectName: Botany
+subject: anatomy
+subjectName: Anatomy
 topic: anatom-005
 topicName: Topic 5
 weight: 3

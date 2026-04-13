@@ -1,8 +1,8 @@
 ---
 exam: ini-cet
 examName: INI CET (AIIMS PG)
-subject: botany
-subjectName: Botany
+subject: anatomy
+subjectName: Anatomy
 topic: anatom-008
 topicName: Head and Neck Anatomy
 weight: 3

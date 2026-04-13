@@ -1860,3 +1860,11 @@ Checked: health (200/200), YAML None errors (none), placeholder files (3 small b
 **Checks:** YAML diagramPrompt errors (none) ✅ | Placeholder topicNames (found: ini-cet/pathology pathol-001–010 all "Topic N") | Stale year refs (none) ✅ | examPattern/eligibility (OK) ✅  
 **Fix:** `src/content/notes/ini-cet/pathology/pathol-001.md` — topicName "Topic 1" → "Cell Injury, Death and Adaptation" (content confirms this is the actual topic).  
 **Commit:** f4b67cff → pushed ✅ | No unresolved critical issues
+
+## 2026-04-13 19:16 UTC
+- **Health:** studyroadmap.in → 200, /exams/neet/ → 200 ✅
+- **Checked:** YAML None errors (none), small placeholder files in notes/
+- **Found:** `src/content/notes/up-psc/general-science/genera-007.md` — topicName was "Topic 7" (generic placeholder), ~1468 bytes
+- **Fixed:** Rewrote with full 3-tier content on **Light and Optics** for UPPSC PCS General Awareness (4962 bytes)
+- **Commit:** `6435204f` — "Fix placeholder: genera-007 UP-PSC General Awareness → Light and Optics"
+- **Also noted:** genera-004 and genera-008 still have `[PLACEHOLDER]` topicNames — candidates for future runs

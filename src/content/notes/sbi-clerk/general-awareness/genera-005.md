@@ -4,7 +4,7 @@ examName: "SBI Clerk"
 subject: awareness
 subjectName: ('awareness', 'General Awareness')
 topic: genera-005
-topicName: "Topic 5"
+topicName: "Indian Constitution — Parts, Articles, Schedules and Amendments"
 weight: 3
 country: sbi
 generated: "2026-03-25T17:00:00"

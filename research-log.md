@@ -1842,3 +1842,9 @@ Checked: health (200/200), YAML None errors (none), placeholder files (3 small b
 - Commit: 182060a4 → pushed ✅
 2026-04-13 17:16 UTC | Health: 200/200 | Issue: generic topicName in ini-cet notes | Fix: anatom-006.md topicName Topic 6 → Lower Limb Anatomy | Commit: 23354e9f
 2026-04-13 18:03 UTC | Health: ✅ / (200), /exams/ (200), /notes/ (200), sitemap-0.xml (accessible) | Fix: INI CET anatomy topicName placeholders — anatom-007 Topic 7 → Thorax/Cardiopulmonary, anatom-009 Topic 9 → Abdomen/Pelvis, anatom-010 Topic 10 → Embryology | Commit: 3fa9d223 → pushed ✅ | No unresolved critical issues
+
+## 2026-04-13 18:16 UTC
+**Health:** site ✅ 200, /exams/neet/ ✅ 200  
+**Checks:** YAML None ✅ | Placeholders (3 small files: econom-003/006, genera-004) | 2024 refs in pages ✅ | Missing lastUpdated ❌ (3047 files)  
+**Fix:** Added `lastUpdated: "2026-04-13"` to `src/content/notes/up-psc/general-science/genera-004.md` — replaced stale `generated:` field with proper `lastUpdated:`.  
+**Commit:** 24dcccf3

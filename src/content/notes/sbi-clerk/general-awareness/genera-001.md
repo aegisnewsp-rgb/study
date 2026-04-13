@@ -4,13 +4,13 @@ examName: "SBI Clerk"
 subject: awareness
 subjectName: ('awareness', 'General Awareness')
 topic: genera-001
-topicName: "Topic 1"
+topicName: "RBI and Banking System"
 weight: 3
 country: sbi
 generated: "2026-03-25T17:00:00"
 ---
 
-# Topic 1
+# RBI and Banking System
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

@@ -1890,3 +1890,10 @@ Checked: health (200/200), YAML None errors (none), placeholder files (3 small b
 - **Fix:** genera-005.md — topicName "Topic 5" → "Indian Constitution — Parts, Articles, Schedules and Amendments" (content confirms actual topic)
 - **Commit:** 696f6255 → pushed
 - **Note:** genera-006 (Indian Geography), genera-007 (Science & Technology), genera-008 (International Organisations) still have generic "Topic N" names — candidates for next runs
+
+## 2026-04-13 20:16 UTC
+- **Health**: studyroadmap.in/ ✅ 200, studyroadmap.in/exams/neet/ ✅ 200
+- **Checked**: YAML None values (none), placeholder content files (econom-003, econom-006, indian-001 are real content ~1500 bytes), year references (2024 found but contextual), examPattern metadata (not applicable)
+- **Issue found**: `src/data/exams/india/subjects/indian-polity.ts` had generic placeholder names "Topic 1" through "Topic 10" with RAS/Rajasthan-specific descriptions that don't belong in a general India exam
+- **Fix**: Replaced all 10 topic names with descriptive names (Making of the Constitution, Fundamental Rights and Duties, Directive Principles, Government Structure, Parliament, Judiciary, Federalism, Constitutional Bodies, Local Self Government, Political Science Concepts) and updated descriptions to be exam-agnostic
+- **Commit**: `3d4bb1e9` — Fix placeholder topic names in indian-polity.ts (Topic 1-10 → real names)

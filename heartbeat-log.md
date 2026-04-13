@@ -25,3 +25,6 @@ Deploy down (404) at 2026-04-13 17:39 UTC
 **2026-04-13 19:14 UTC** — Deploy endpoint down (404)
 - [2026-04-13 20:44 UTC] studyroadmap.in: 200 ✅ | deploy: 404 ❌ (DOWN)
 [2026-04-13 21:15 UTC] Deploy down (404 on /deploy), site OK (200)
+
+**2026-04-13 23:24 UTC** — Site: 200 ✅ | Deploy: 404 ❌ (down)
+[2026-04-13 23:44 UTC] Deploy down (404 on /deploy), studyroadmap.in: 200 OK

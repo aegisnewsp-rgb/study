@@ -1,6 +1,7 @@
 ---
 exam: up-psc
 examName: UPPSC PCS
+lastUpdated: "2026-04-13"
 subject: quant
 subjectName: Quantitative Aptitude
 topic: econom-005

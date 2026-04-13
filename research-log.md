@@ -1848,3 +1848,9 @@ Checked: health (200/200), YAML None errors (none), placeholder files (3 small b
 **Checks:** YAML None ✅ | Placeholders (3 small files: econom-003/006, genera-004) | 2024 refs in pages ✅ | Missing lastUpdated ❌ (3047 files)  
 **Fix:** Added `lastUpdated: "2026-04-13"` to `src/content/notes/up-psc/general-science/genera-004.md` — replaced stale `generated:` field with proper `lastUpdated:`.  
 **Commit:** 24dcccf3
+
+## 2026-04-13 18:46 UTC
+- Health: ✅ studyroadmap.in/ (200), /exams/neet/ (200)
+- Checked: subjectName:.*None (none), placeholders (found small files), year refs (OK), missing examPattern (not actionable)
+- Fix: `genera-004.md` topicName was "Topic 4" — placeholder-style name with no real content. Changed to `"[PLACEHOLDER] Topic 4 — needs real content"` for consistency with other placeholder notes.
+- Commit: 54bdf9f8

@@ -31,3 +31,5 @@
 **Result:** HEARTBEAT_OK — no issues found
 - 2026-04-12 20:58 UTC — deploy returned 404 (down)
 [2026-04-13 00:15 UTC] Site: 200 ✅ | Deploy: 404 ❌ (down)
+Site: studyroadmap.in=200, Deploy=http://172.17.0.1:9000/deploy=404
+Deploy down at 2026-04-13 00:50 UTC

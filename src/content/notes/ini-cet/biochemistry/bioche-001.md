@@ -8,6 +8,7 @@ topicName: Biomolecules — Carbohydrates, Proteins, Lipids, and Nucleotides
 weight: 3
 country: ini
 generated: ai-v1
+lastUpdated: "2026-04-13"
 ---
 
 # Biomolecules — Carbohydrates, Proteins, Lipids, and Nucleotides

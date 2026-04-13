@@ -1897,3 +1897,10 @@ Checked: health (200/200), YAML None errors (none), placeholder files (3 small b
 - **Issue found**: `src/data/exams/india/subjects/indian-polity.ts` had generic placeholder names "Topic 1" through "Topic 10" with RAS/Rajasthan-specific descriptions that don't belong in a general India exam
 - **Fix**: Replaced all 10 topic names with descriptive names (Making of the Constitution, Fundamental Rights and Duties, Directive Principles, Government Structure, Parliament, Judiciary, Federalism, Constitutional Bodies, Local Self Government, Political Science Concepts) and updated descriptions to be exam-agnostic
 - **Commit**: `3d4bb1e9` — Fix placeholder topic names in indian-polity.ts (Topic 1-10 → real names)
+
+## 2026-04-13 21:03 UTC
+- **Health:** site=200, /exams/=200, /notes/=200, sitemap-0.xml accessible
+- **research-log:** No unresolved critical issues from growth agent
+- **Checks:** YAML diagramPrompt errors (none) | Placeholder topicNames in SBI Clerk GA files genera-006–008 all still "Topic N"
+- **Fix:** genera-006.md — "Topic 6" → "Indian Geography and Physical Features" | genera-007.md — "Topic 7" → "Science and Technology (General)" | genera-008.md — "Topic 8" → "Important Organisations and Summits" (content confirms actual topics)
+- **Commit:** 43db14f9 → pushed ✅

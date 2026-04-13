@@ -1818,3 +1818,9 @@ Checked: health (200/200), YAML None errors (none), placeholder files (3 small b
 - Found: up-psc/economics/econom-002.md missing `lastUpdated` frontmatter (continuing pattern from prior runs; ~3 more files still in queue)
 - Fixed: Added `lastUpdated: "2026-04-13"` to `src/content/notes/up-psc/economics/econom-002.md`
 - Commit: f675acb7 → pushed ✅
+
+## 2026-04-13 16:16 UTC
+- **Health**: studyroadmap.in ✅ (200), studyroadmap.in/exams/neet/ ✅ (200)
+- **Issue**: `src/data/exams/india/subjects/general-science.ts` — all 8 topics named "Topic 1".."Topic 8" (pure placeholders)
+- **Fix**: Mapped 5 topics from actual content files (genera-001,002,003,005,006); genera-004/007/008 remain as placeholders (content files are blank)
+- **Commit**: d281dc7c

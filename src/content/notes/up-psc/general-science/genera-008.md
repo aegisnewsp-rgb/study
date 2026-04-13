@@ -4,13 +4,14 @@ examName: UPPSC PCS
 subject: awareness
 subjectName: General Awareness
 topic: genera-008
-topicName: Topic 8
+topicName: "[PLACEHOLDER] Topic 8 — needs real content"
 weight: 3
 country: up
 generated: "2026-03-25T17:00:00"
+isPlaceholder: true
 ---
 
-# Topic 8
+# [PLACEHOLDER] Topic 8 — needs real content
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

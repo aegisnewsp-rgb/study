@@ -15,3 +15,4 @@
 [2026-04-13 15:24 UTC] studyroadmap.in: 200 | deploy: 404 (DOWN)
 
 **2026-04-13 15:29 UTC** — Deploy service (172.17.0.1:9000) returned 404. Main site (studyroadmap.in) is UP (200).
+- 2026-04-13 16:34 UTC — deploy returned 404 (site up)

@@ -12,3 +12,13 @@
 [2026-04-13 07:07 UTC] Deploy status: 404 (DOWN) — site studyroadmap.in: 200 OK
 [2026-04-13 07:23 UTC] Deploy status: 404 (DOWN) — site studyroadmap.in: 200 OK
 - `2026-04-13 07:59 UTC` — Deploy down (9000/deploy → 404)
+## Heartbeat — 2026-04-13 08:26 UTC
+
+**ISSUE:** studyroadmap.in returned HTTP 404
+
+Deploy status: 200 (ok)
+
+
+--- 2026-04-13 09:08 UTC ---
+studyroadmap.in: 200 ✅
+deploy: 404 ❌ (DOWN)

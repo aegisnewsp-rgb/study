@@ -4,29 +4,29 @@ examName: UPPSC PCS
 subject: awareness
 subjectName: General Awareness
 topic: genera-005
-topicName: Topic 5
+topicName: General Awareness - Current Events & Issues
 weight: 3
 country: up
 generated: "2026-03-25T17:00:00"
 ---
 
-# Topic 5
+# General Awareness - Current Events & Issues
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Topic 5** — Key Facts for UPPSC PCS
+**General Awareness - Current Events & Issues** — Key Facts for UPPSC PCS
 Core concept: Topic 5 is an important topic in General Awareness for UPPSC PCS
 High-yield point: Understand the fundamental principles and their applications
-⚡ Exam tip: Questions from Topic 5 appear regularly in UPPSC PCS
+⚡ Exam tip: Questions from Current Events & Issues appear regularly in UPPSC PCS
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Topic 5** — UPPSC PCS Study Guide
-Overview: Topic 5 is a key General Awareness topic for UPPSC PCS
+**General Awareness - Current Events & Issues** — UPPSC PCS Study Guide
+Overview: General Awareness - Current Events & Issues is a key General Awareness topic for UPPSC PCS
 Core principles: Build a solid understanding of fundamentals
 Key points: Definitions, applications, and typical exam question patterns
 Study strategy: Theory first, then practice problems
@@ -36,8 +36,8 @@ Study strategy: Theory first, then practice problems
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-**Topic 5** — Comprehensive UPPSC PCS Notes
-Full coverage: Topic 5 in General Awareness for UPPSC PCS preparation
+**General Awareness - Current Events & Issues** — Comprehensive UPPSC PCS Notes
+Full coverage: General Awareness - Current Events & Issues in General Awareness for UPPSC PCS preparation
 Detailed theory and concept explanations
 Problem-solving strategies and common mistakes to avoid
 Practice: Attempt previous year questions and standard textbook exercises

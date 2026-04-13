@@ -44,19 +44,9 @@
     "description": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTE1UM0k1X25FUFozQkRXeWVSSVdJSHpBVGpWbm5Ld1lsUG11SGR4OU9va2ExSjJoUE8xRDFUaWdVQVpiaUdQcm10bFE2VU9LXzV6SGxnZDZVN2Q1SnQwVEpHZ2hR?oc=5\" target=\"_blank\">National Examinations Council (NECO) BECE Timetable 2026: Full Junior WAEC Dates and Subject Schedule</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">MySchoolGist</font>",
     "country": "nigeria",
     "tags": [
-      "waec",
-      "neco"
+      "neco",
+      "waec"
     ]
-  },
-  {
-    "id": "https://news.google.com/rss/articles/CBMicEFVX3lxTE41RXBZZWQ5a3A2RnZKOG9zd3dmNG1jU0kybXBSaS1NeVgwMEhrZ0RMNjZGZUxZWEtYZUNoOW93V3AtcU0ydm5pVWpYTWZnbkpoUkxtektXYndCbGFjMV9waXdaVGpfWEptRGQtRklMSWQ?oc=5",
-    "title": "Current Affairs for 13 April 2026 - Sanskriti IAS",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE41RXBZZWQ5a3A2RnZKOG9zd3dmNG1jU0kybXBSaS1NeVgwMEhrZ0RMNjZGZUxZWEtYZUNoOW93V3AtcU0ydm5pVWpYTWZnbkpoUkxtektXYndCbGFjMV9waXdaVGpfWEptRGQtRklMSWQ?oc=5",
-    "source": "Sanskriti IAS",
-    "published": "2026-04-13T16:08:10+00:00",
-    "description": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE41RXBZZWQ5a3A2RnZKOG9zd3dmNG1jU0kybXBSaS1NeVgwMEhrZ0RMNjZGZUxZWEtYZUNoOW93V3AtcU0ydm5pVWpYTWZnbkpoUkxtektXYndCbGFjMV9waXdaVGpfWEptRGQtRklMSWQ?oc=5\" target=\"_blank\">Current Affairs for 13 April 2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Sanskriti IAS</font>",
-    "country": "india",
-    "tags": []
   },
   {
     "id": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9RR0xPOVhIcnFkWXBnWW1TSlctWk1oLWs1NlJ3UWhRLWR5WDE1TURXUEFiQm8zMHFCQ3dpWWdFQTFEZzhxVDIxRGtFME9qS0ozdmU3M2FudHlwMnZUcHJrS2NxNnc4Q2RDVndzZU00VVg?oc=5",
@@ -69,6 +59,16 @@
     "tags": [
       "ecat"
     ]
+  },
+  {
+    "id": "https://news.google.com/rss/articles/CBMicEFVX3lxTE41RXBZZWQ5a3A2RnZKOG9zd3dmNG1jU0kybXBSaS1NeVgwMEhrZ0RMNjZGZUxZWEtYZUNoOW93V3AtcU0ydm5pVWpYTWZnbkpoUkxtektXYndCbGFjMV9waXdaVGpfWEptRGQtRklMSWQ?oc=5",
+    "title": "Current Affairs for 13 April 2026 - Sanskriti IAS",
+    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE41RXBZZWQ5a3A2RnZKOG9zd3dmNG1jU0kybXBSaS1NeVgwMEhrZ0RMNjZGZUxZWEtYZUNoOW93V3AtcU0ydm5pVWpYTWZnbkpoUkxtektXYndCbGFjMV9waXdaVGpfWEptRGQtRklMSWQ?oc=5",
+    "source": "Sanskriti IAS",
+    "published": "2026-04-13T16:08:10+00:00",
+    "description": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE41RXBZZWQ5a3A2RnZKOG9zd3dmNG1jU0kybXBSaS1NeVgwMEhrZ0RMNjZGZUxZWEtYZUNoOW93V3AtcU0ydm5pVWpYTWZnbkpoUkxtektXYndCbGFjMV9waXdaVGpfWEptRGQtRklMSWQ?oc=5\" target=\"_blank\">Current Affairs for 13 April 2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Sanskriti IAS</font>",
+    "country": "india",
+    "tags": []
   },
   {
     "id": "https://www.reddit.com/r/Indian_Academia/comments/1sk2kmo/gand_phat_gayi_he_koi_madat_karo_gand_phat_gayi/",

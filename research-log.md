@@ -1980,3 +1980,14 @@ Checked: health (200/200), YAML None errors (none), placeholder files (3 small b
 - Checked: placeholder `topicName: Topic X` in INI-CET pathology
 - **FIX:** Replaced generic `topicName: Topic 2–10` with real pathology topic names in pathol-002.md through pathol-010.md (pathol-002 was already confirmed as "Inflammation" from its H1 heading; others mapped based on standard INI-CET pathology syllabus sequence)
 - Commit: `8786d8d6` Fix placeholder topicName in INI-CET pathology notes (pathol-002 to pathol-010)
+
+## 2026-04-14 02:03 UTC
+- Health: ✅ studyroadmap.in/ 200, /exams/ 200, /notes/ 200, sitemap-0.xml accessible
+- research-log: No unresolved critical issues (last fix: INI-CET pathology placeholder at 01:16 UTC)
+- Checks:
+  - YAML unterminated multiline: none
+  - examPattern/eligibility missing: types.ts and Nigeria index.ts — expected (aggregator/root)
+  - Stale year references in strategy pages: none
+  - Placeholder topicName: found 10 INI-CET physiology files (physio-001 to physio-010) still had "Topic X"
+- **FIX:** Replaced all 10 placeholder topicName values in INI-CET physiology notes with real names from src/data/exams/india/subjects/physiology.ts (General Physiology & Cell, Blood, Nerve & Muscle, Gastrointestinal System, Cardiovascular System, Respiratory System, Renal System, Endocrine System, Reproductive System, Central Nervous System)
+- Commit: f7ba514c Fix placeholder topicName in INI-CET physiology notes (physio-001 to physio-010)

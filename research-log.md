@@ -2007,3 +2007,10 @@ Checked: health (200/200), YAML None errors (none), placeholder files (3 small b
 - Fixed: replaced all 'Topic 8' with 'Constitutional Bodies' + committed
 
 2026-04-14 04:05 UTC | Health: ✅ all 4 endpoints 200 | YAML unterminated: none | Stale year refs: none (FY 2024-25 in CS tax content is legitimate) | Placeholders: none | examPattern: types.ts + Nigeria index — expected | No fix needed.
+
+## 2026-04-14 04:16 UTC
+- **Health**: studyroadmap.in/ → 200, studyroadmap.in/exams/neet/ → 200 ✅
+- **Issue found**: Small placeholder file (1498 bytes) — up-psc/economics/econom-006.md with generic repeated placeholder text, no real Cost Theory content
+- **Fixed**: Replaced with full Cost Theory content (types of costs, average/marginal costs, law of variable proportions, long-run costs, exam tips)
+- **Commit**: 02d60f0c
+- **Note**: Two other placeholder candidates remain: indian-006.md, indian-005.md (also <1500 bytes, UP-PSC subjects)

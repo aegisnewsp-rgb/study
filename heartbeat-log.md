@@ -39,3 +39,5 @@ studyroadmap.in: 200 OK | deploy: 404 DOWN
 ## 2026-04-14 01:54 UTC
 - Site (studyroadmap.in): ✅ 200
 - Deploy (172.17.0.1:9000/deploy): ❌ 404 — DOWN
+
+**[2026-04-14 02:25 UTC]** Site: 200 OK | Deploy: DOWN (404)

@@ -20,3 +20,5 @@ OK
   Fetched 934 raw items in 4.7s
 [main] No change — news.json unchanged
 [2026-04-14T10:38:43.707874+00:00] Done in 4.9s. 9 items in window.
+
+[2026-04-14 10:58 UTC] studyroadmap.in → 200 ✓ | deploy → 404 DOWN

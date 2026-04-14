@@ -4,7 +4,7 @@ examName: INI CET (AIIMS PG)
 subject: botany
 subjectName: Botany
 topic: pathol-003
-topicName: Topic 3
+topicName: Cell Injury
 weight: 3
 country: ini
 generated: "2026-03-25T17:00:00"

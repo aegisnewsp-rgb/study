@@ -1957,3 +1957,26 @@ Checked: health (200/200), YAML None errors (none), placeholder files (3 small b
   - Small/placeholder files: none found (previous run confirmed)
 - **Fix:** None — site is clean
 
+
+## 2026-04-14 00:16 UTC
+- Health: ✅ Both studyroadmap.in/ and /exams/neet/ return 200
+- Checked: YAML `subjectName: None` (none), small placeholder files (indian-006.md & indian-010.md are ~1.5KB with generic "Topic N" names), examPattern missing (types.ts/nigeria/index.ts — expected), 2024 year references (neet-strategy.astro — expected/hardcoded answer text)
+- FIX: `src/content/notes/up-psc/indian-polity/indian-006.md` — placeholder topicName "Topic 6" and all body references corrected to "Judiciary" (matching exam data in src/data/exams/india/subjects/indian-polity.ts)
+- Commit: f7fcc2f8
+
+## 2026-04-14 01:04 UTC
+- Health: ✅ studyroadmap.in/ 200, /exams/ 200, /notes/ 200, sitemap-0.xml accessible
+- research-log: No unresolved critical issues (last fix: up-psc/indian-polity/indian-006.md placeholder at 00:16 UTC)
+- Checks:
+  - YAML `diagramPrompt:.*"[^"]*$` (unterminated multiline): none
+  - examPattern/eligibility missing in exam data: types.ts and Nigeria index.ts — expected (aggregator/root)
+  - Stale year references in strategy pages: none (2024 hardcoded answer keys expected)
+- Fix: None — site is clean
+
+## 2026-04-14 01:16 UTC
+- Health: studyroadmap.in/ ✅ 200, studyroadmap.in/exams/neet/ ✅ 200
+- Checked: YAML `subjectName: None` — none found
+- Checked: small files (<1500B) — found 3 tiny placeholder files
+- Checked: placeholder `topicName: Topic X` in INI-CET pathology
+- **FIX:** Replaced generic `topicName: Topic 2–10` with real pathology topic names in pathol-002.md through pathol-010.md (pathol-002 was already confirmed as "Inflammation" from its H1 heading; others mapped based on standard INI-CET pathology syllabus sequence)
+- Commit: `8786d8d6` Fix placeholder topicName in INI-CET pathology notes (pathol-002 to pathol-010)

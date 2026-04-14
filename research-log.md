@@ -1946,3 +1946,14 @@ Checked: health (200/200), YAML None errors (none), placeholder files (3 small b
 - Missing examPattern: index.ts aggregator files only (expected)
 - **Fix: none**
 2026-04-13 23:46 UTC — HEALTH: sites 200/200 OK | ISSUE: neet-pg/psm/psm-001.md had subject=botany + subjectName=Botany (wrong subject) | FIX: subject=psm, subjectName=Community Medicine (PSM) | COMMITTED: 49499367
+
+### 2026-04-14 00:04 UTC
+- **Health:** ✅ All 4 checks pass — studyroadmap.in homepage 200, /exams/ 200, /notes/ 200, sitemap-0.xml 200
+- **research-log:** No unresolved critical issues (last entry: neet-pg/psm-001 fixed at 23:46)
+- **Checks:**
+  - YAML diagramPrompt multiline errors: none
+  - examPattern metadata: Indonesia exam subjects are correctly root-level (no examPattern needed), aggregator files correct
+  - Stale year references in strategy pages: none
+  - Small/placeholder files: none found (previous run confirmed)
+- **Fix:** None — site is clean
+

@@ -28,3 +28,8 @@ Deploy down (404) at 2026-04-13 17:39 UTC
 
 **2026-04-13 23:24 UTC** — Site: 200 ✅ | Deploy: 404 ❌ (down)
 [2026-04-13 23:44 UTC] Deploy down (404 on /deploy), studyroadmap.in: 200 OK
+## Heartbeat — 2026-04-13 23:54 UTC
+
+- **studyroadmap.in**: 404 (DOWN)
+- **deploy**: 200 (ok)
+

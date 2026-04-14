@@ -2038,3 +2038,10 @@ Checked: health (200/200), YAML None errors (none), placeholder files (3 small b
 - 2024 in pages: found in neet-strategy.astro (historical paper analysis, valid)
 - Missing examPattern: results are .ts/index files, not data files — expected
 => No fix needed.
+
+## 2026-04-14 05:46 UTC
+**Health:** studyroadmap.in/ → 200, studyroadmap.in/exams/neet/ → 200 ✅  
+**Checked:** YAML frontmatter validity in src/content/notes/  
+**Found & Fixed:** `cat/dilr/dl-002.md` and `cat/dilr/dl-003.md` — `diagramPrompt` frontmatter field had unclosed `"` quote causing YAML parse errors  
+**Fix:** Closed the quote before the `---` separator  
+**Commit:** f1e9b300

@@ -2022,3 +2022,11 @@ Checked: health (200/200), YAML None errors (none), placeholder files (3 small b
 - **Issue found:** Small placeholder content in `src/content/notes/up-psc/indian-polity/indian-004.md` (1472 bytes, generic "Topic 4" placeholder text)
 - **Fixed:** Replaced with substantive Government Structure content covering parliamentary system, federal structure, Governor/CM/Council of Ministers, legislative bodies, Articles 356, Part VI Constitution
 - Commit: `4d377208`
+
+## 2026-04-14 05:03 UTC
+- **Health**: studyroadmap.in/ (200 ✅), /exams/ (200 ✅), /notes/ (200 ✅), sitemap-0.xml (200 ✅)
+- **YAML errors**: none | **Stale year refs**: none | **examPattern metadata**: no issues
+- **Issue found**: `up-psc/indian-polity/indian-005.md` — 1452-byte placeholder file titled "Parliament" but containing generic "Topic 5" repeated placeholder text with no real exam content
+- **Fixed**: Replaced with substantive Parliament content — Parliament structure (Lok Sabha/Rajya Sabha/President), key articles, parliamentary powers, privilege, budget process, committees, joint sitting, UPSC PCS exam tips
+- **Commit**: `937ffcee` → pushed ✅
+- **Note**: indian-006.md (Judiciary, 1490 bytes) still has placeholder-level content; flagged for next cycle

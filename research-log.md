@@ -2058,3 +2058,8 @@ Checked: health (200/200), YAML None errors (none), placeholder files (3 small b
 **Found & Fixed:** `up-psc/general-science/genera-008.md` — still had `[PLACEHOLDER] Topic 8 — needs real content` (isPlaceholder flag was true); replaced with full **Indian Heritage & Cultural Diversities** content (Lite/Standard/Extended tiers covering UNESCO sites, classical dances, temple architecture, folk traditions, constitutional provisions, UPPSC-specific tips)
 **Commit:** eece1869
 [2026-04-14 08:20 UTC] Health: both pages 200. Fix: added missing lastUpdated to up-psc/indian-polity/indian-002.md and indian-003.md.
+
+## 2026-04-14 09:03 UTC
+**Health:** ✅ studyroadmap.in/ (200), /exams/ (200), /notes/ (200), sitemap-0.xml (200)
+**Checked:** YAML frontmatter (all closed), no placeholder content, exam data files (52/52 have lastUpdated), stale date references in strategy pages
+**Found:** Nothing to fix — all clean

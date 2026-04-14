@@ -1993,3 +1993,17 @@ Checked: health (200/200), YAML None errors (none), placeholder files (3 small b
 - Commit: f7ba514c Fix placeholder topicName in INI-CET physiology notes (physio-001 to physio-010)
 2026-04-14 02:46 UTC | Health: 200, 200 | YAML None: none | Placeholders: none (UP-PSC small files are fine) | Year refs: none | examPattern: types.ts + Nigeria index — expected | No fix needed.
 2026-04-14 03:16 UTC | Health: ✅ site 200, /exams/neet/ 200 | Found: placeholder note indian-010.md (up-psc/indian-polity/ — 'Political Science Concepts' was all [placeholder] text) | Fix: Replaced with substantive 3-tier content covering Sovereignty, Socialism, Secularism, Fraternity, Rule of Law, linked to Preamble, Articles, and SC cases. Committed a7ee9d7d.
+
+
+**2026-04-14 03:46 UTC**
+- Health: ✅ studyroadmap.in/ (200), /exams/neet/ (200)
+- Found:  — placeholder Topic 8 instead of Constitutional Bodies in headers/descriptions
+- Fixed: Replaced all Topic 8 → Constitutional Bodies + git commit
+
+
+2026-04-14 03:46 UTC
+- Health: studyroadmap.in/ (200), /exams/neet/ (200)
+- Found: placeholder 'Topic 8' in indian-008.md
+- Fixed: replaced all 'Topic 8' with 'Constitutional Bodies' + committed
+
+2026-04-14 04:05 UTC | Health: ✅ all 4 endpoints 200 | YAML unterminated: none | Stale year refs: none (FY 2024-25 in CS tax content is legitimate) | Placeholders: none | examPattern: types.ts + Nigeria index — expected | No fix needed.

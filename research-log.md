@@ -2063,3 +2063,9 @@ Checked: health (200/200), YAML None errors (none), placeholder files (3 small b
 **Health:** ✅ studyroadmap.in/ (200), /exams/ (200), /notes/ (200), sitemap-0.xml (200)
 **Checked:** YAML frontmatter (all closed), no placeholder content, exam data files (52/52 have lastUpdated), stale date references in strategy pages
 **Found:** Nothing to fix — all clean
+## 2026-04-14 09:20 UTC
+- Site health: / → 200, /exams/neet/ → 200
+- Found: up-psc/indian-polity/indian-003.md had placeholder content ("Topic 3 is an important topic...")
+- Fixed: Replaced with full Directive Principles (DPSP articles 36-51, classification, significance, comparison with FRs, key cases)
+- Committed: 9a86e044
+

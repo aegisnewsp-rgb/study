@@ -4,7 +4,7 @@ examName: INI CET (AIIMS PG)
 subject: botany
 subjectName: Physiology
 topic: physio-004
-topicName: Topic 4
+topicName: Gastrointestinal System
 weight: 3
 country: ini
 generated: "2026-03-25T17:00:00"

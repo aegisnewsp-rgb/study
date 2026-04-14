@@ -4,7 +4,7 @@ examName: INI CET (AIIMS PG)
 subject: botany
 subjectName: Physiology
 topic: physio-009
-topicName: Topic 9
+topicName: Reproductive System
 weight: 3
 country: ini
 generated: "2026-03-25T17:00:00"

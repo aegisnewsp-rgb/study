@@ -4,7 +4,7 @@ examName: INI CET (AIIMS PG)
 subject: botany
 subjectName: Physiology
 topic: physio-007
-topicName: Topic 7
+topicName: Renal System
 weight: 3
 country: ini
 generated: "2026-03-25T17:00:00"

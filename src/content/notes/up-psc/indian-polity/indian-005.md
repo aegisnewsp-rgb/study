@@ -4,13 +4,13 @@ examName: UPPSC PCS
 subject: gs2
 subjectName: Indian Polity
 topic: indian-005
-topicName: Topic 5
+topicName: Parliament
 weight: 3
 country: up
 generated: "2026-03-25T17:00:00"
 ---
 
-# Topic 5
+# Parliament
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

@@ -4,13 +4,13 @@ examName: UPPSC PCS
 subject: gs2
 subjectName: Indian Polity
 topic: indian-008
-topicName: Topic 8
+topicName: Constitutional Bodies
 weight: 3
 country: up
 generated: "2026-03-25T17:00:00"
 ---
 
-# Topic 8
+# Constitutional Bodies
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

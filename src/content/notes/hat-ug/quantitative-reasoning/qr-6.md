@@ -11,7 +11,8 @@ topicName: Simple and Compound Interest
 weight: 3
 country: pakistan
 generated: "2026-03-24T08:32:08.007031"
-diagramPrompt: "Educational diagram illustrating Simple and Compound Interest with clear labels, white background, exam-style illustration
+diagramPrompt: "Educational diagram illustrating Simple and Compound Interest with clear labels, white background, exam-style illustration"
+
 
 
 

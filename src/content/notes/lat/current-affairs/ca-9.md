@@ -11,7 +11,8 @@ topicName: Sports and Cultural Events
 weight: 2
 country: pakistan
 generated: "2026-03-24T08:32:08.037270"
-diagramPrompt: "Educational diagram illustrating Sports and Cultural Events with clear labels, white background, exam-style illustration
+diagramPrompt: "Educational diagram illustrating Sports and Cultural Events with clear labels, white background, exam-style illustration"
+
 
 
 

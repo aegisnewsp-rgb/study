@@ -11,7 +11,9 @@ topicName: Ores and Metallurgy
 weight: 3
 country: nigeria
 generated: "2026-03-24T08:32:07.647109"
-diagramPrompt: "Clear scientific diagram of Ores and Metallurgy with atom labels, molecular structure, reaction arrows, white background, color-coded bonds and groups, exam textbook style
+diagramPrompt: "Clear scientific diagram of Ores and Metallurgy with atom labels, molecular structure, reaction arrows, white background, color-coded bonds and groups, exam textbook style"
+
+
 
 
 

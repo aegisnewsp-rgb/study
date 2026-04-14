@@ -11,7 +11,8 @@ topicName: The Legislature and Law Making
 weight: 3
 country: nigeria
 generated: "2026-03-24T08:32:07.604506"
-diagramPrompt: "Educational diagram illustrating The Legislature and Law Making with clear labels, white background, exam-style illustration
+diagramPrompt: "Educational diagram illustrating The Legislature and Law Making with clear labels, white background, exam-style illustration"
+
 
 
 

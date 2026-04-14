@@ -8,7 +8,9 @@ topicName: Biological Molecules and Enzymes
 weight: 5
 country: nigeria
 generated: "2026-03-24T08:32:07.649068"
-diagramPrompt: "Detailed biological diagram of Biological Molecules and Enzymes with labeled parts, accurate proportions, white background, color-coded tissues/organs, textbook quality
+diagramPrompt: "Detailed biological diagram of Biological Molecules and Enzymes with labeled parts, accurate proportions, white background, color-coded tissues/organs, textbook quality"
+
+
 ---
 
 # Biological Molecules and Enzymes

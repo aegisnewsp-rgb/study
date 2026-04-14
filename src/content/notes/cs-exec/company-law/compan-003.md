@@ -9,6 +9,7 @@ weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
 diagramPrompt: "Clean educational diagram showing the hierarchy of company meetings: AGM at top, then EGM, Class Meetings below — with arrows showing notice periods, quorum requirements, and voting thresholds for each type"
+
 ---
 
 # Meetings & Proceedings

@@ -8,7 +8,8 @@ topicName: Trigonometry Basics
 weight: 3
 country: uii
 generated: "2026-03-25T17:00:00"
-diagramPrompt: Right-angled triangle with angle theta at base, opposite side labeled O, adjacent side labeled A, hypotenuse labeled H, showing sin theta = O/H, cos theta = A/H, tan theta = O/A
+diagramPrompt: "Right-angled triangle with angle theta at base, opposite side labeled O, adjacent side labeled A, hypotenuse labeled H, showing sin theta = O/H, cos theta = A/H, tan theta = O/A"
+
 ---
 
 # Trigonometry Basics

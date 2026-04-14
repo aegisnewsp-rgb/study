@@ -11,7 +11,8 @@ topicName: Summary Writing and Notes
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.656099"
-diagramPrompt: "Educational diagram illustrating Summary Writing and Notes with clear labels, white background, exam-style illustration
+diagramPrompt: "Educational diagram illustrating Summary Writing and Notes with clear labels, white background, exam-style illustration"
+
 
 
 

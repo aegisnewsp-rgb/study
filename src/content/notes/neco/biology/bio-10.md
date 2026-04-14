@@ -11,7 +11,9 @@ topicName: Sense Organs and Effectors
 weight: 3
 country: nigeria
 generated: "2026-03-24T08:32:07.697006"
-diagramPrompt: "Detailed biological diagram of Sense Organs and Effectors with labeled parts, accurate proportions, white background, color-coded tissues/organs, textbook quality
+diagramPrompt: "Detailed biological diagram of Sense Organs and Effectors with labeled parts, accurate proportions, white background, color-coded tissues/organs, textbook quality"
+
+
 
 
 

@@ -7,7 +7,6 @@ topic: arts-s-013
 topicName: Media Literacy and Digital Communication
 weight: 3
 country: al
-diagramPrompt: ""
 generated: "2026-03-25T17:00:00"
 ---
 

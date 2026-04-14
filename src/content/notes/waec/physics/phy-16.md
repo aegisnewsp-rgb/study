@@ -16,6 +16,7 @@ diagramPrompt: "Clean educational diagram showing Modern Physics: Photoelectric 
 
 
 
+
 ---
 # "Modern Physics: Photoelectric Effect"
 

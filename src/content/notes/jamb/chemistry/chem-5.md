@@ -11,7 +11,9 @@ topicName: Thermochemistry and Energetics
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.723358"
-diagramPrompt: "Clear scientific diagram of Thermochemistry and Energetics with atom labels, molecular structure, reaction arrows, white background, color-coded bonds and groups, exam textbook style
+diagramPrompt: "Clear scientific diagram of Thermochemistry and Energetics with atom labels, molecular structure, reaction arrows, white background, color-coded bonds and groups, exam textbook style"
+
+
 
 
 

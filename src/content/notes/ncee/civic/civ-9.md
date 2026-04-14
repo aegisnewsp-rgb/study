@@ -11,7 +11,8 @@ topicName: Traffic Rules and Road Safety
 weight: 3
 country: nigeria
 generated: "2026-03-24T08:32:07.603321"
-diagramPrompt: "Educational diagram illustrating Traffic Rules and Road Safety with clear labels, white background, exam-style illustration
+diagramPrompt: "Educational diagram illustrating Traffic Rules and Road Safety with clear labels, white background, exam-style illustration"
+
 
 
 

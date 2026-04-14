@@ -11,7 +11,8 @@ topicName: Para-jumbles (Sentence Rearrangement)
 weight: 4
 country: pakistan
 generated: "2026-03-24T08:32:07.996308"
-diagramPrompt: "Educational diagram illustrating Para-jumbles (Sentence Rearrangement) with clear labels, white background, exam-style illustration
+diagramPrompt: "Educational diagram illustrating Para-jumbles (Sentence Rearrangement) with clear labels, white background, exam-style illustration"
+
 
 
 

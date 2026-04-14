@@ -8,7 +8,8 @@ topicName: Statistics & Data Interpretation
 weight: 3
 country: uii
 generated: "2026-03-25T17:00:00"
-diagramPrompt: Bar chart showing distribution of student exam scores grouped in 10-point intervals (0-10, 11-20, etc.) with mean line, median marker, and modal class highlighted
+diagramPrompt: "Bar chart showing distribution of student exam scores grouped in 10-point intervals (0-10, 11-20, etc.) with mean line, median marker, and modal class highlighted"
+
 ---
 
 # Statistics & Data Interpretation

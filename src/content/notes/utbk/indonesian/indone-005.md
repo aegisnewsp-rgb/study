@@ -8,7 +8,8 @@ topicName: Vocabulary and Word Formation
 weight: 3
 country: utbk
 generated: "2026-03-25T17:00:00"
-diagramPrompt: Diagram showing Indonesian word formation process with affixes, root words, and meaning changes, white background, educational style
+diagramPrompt: "Diagram showing Indonesian word formation process with affixes, root words, and meaning changes, white background, educational style"
+
 ---
 
 # Vocabulary and Word Formation

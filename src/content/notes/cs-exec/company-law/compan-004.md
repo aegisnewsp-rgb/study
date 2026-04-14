@@ -9,6 +9,7 @@ weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
 diagramPrompt: "Clean educational diagram showing share capital structure: Authorized Capital at top branching into Issued, Unissued, and Subscribed capital — with further branches showing Paid-up Capital, Calls in Arrears, and Forfeited Shares, with share types below (equity, preference) and debenture types (convertible, non-convertible)"
+
 ---
 
 # Share Capital & Debentures

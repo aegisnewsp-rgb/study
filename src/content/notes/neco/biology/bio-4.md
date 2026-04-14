@@ -16,6 +16,7 @@ diagramPrompt: "Detailed biological diagram of Nutrition: Photosynthesis and Che
 
 
 
+
 ---
 # "Nutrition: Photosynthesis and Chemosynthesis"
 

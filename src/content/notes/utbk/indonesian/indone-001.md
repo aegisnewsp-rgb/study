@@ -8,7 +8,8 @@ topicName: Reading Comprehension
 weight: 3
 country: utbk
 generated: "2026-03-25T17:00:00"
-diagramPrompt: Diagram showing reading comprehension process with main idea, supporting details, and conclusion flow, white background, educational style
+diagramPrompt: "Diagram showing reading comprehension process with main idea, supporting details, and conclusion flow, white background, educational style"
+
 ---
 
 # Reading Comprehension

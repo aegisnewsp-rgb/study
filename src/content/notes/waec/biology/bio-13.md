@@ -9,6 +9,7 @@ weight: 5
 country: nigeria
 generated: "2026-03-24T08:32:07.653441"
 diagramPrompt: "Detailed biological diagram of Genetics: Mendelian Inheritance with labeled parts, accurate proportions, white background, color-coded tissues/organs, textbook quality"
+
 ---
 
 # "Genetics: Mendelian Inheritance"

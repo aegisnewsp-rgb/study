@@ -9,6 +9,7 @@ weight: 3
 country: india
 generated: "2026-03-28T21:10:54"
 diagramPrompt: "Labelled diagrams showing structures of alcohols, phenols, ethers, and key reactions like oxidation, dehydration, and cleavage. Clean white background."
+
 ---
 
 # Alcohols Phenol Ether

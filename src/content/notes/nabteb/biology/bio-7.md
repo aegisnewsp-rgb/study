@@ -11,7 +11,9 @@ topicName: Excretion and Homeostasis
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.575200"
-diagramPrompt: "Detailed biological diagram of Excretion and Homeostasis with labeled parts, accurate proportions, white background, color-coded tissues/organs, textbook quality
+diagramPrompt: "Detailed biological diagram of Excretion and Homeostasis with labeled parts, accurate proportions, white background, color-coded tissues/organs, textbook quality"
+
+
 
 
 

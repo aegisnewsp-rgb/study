@@ -15,6 +15,7 @@ diagramPrompt: "Mathematical diagram showing Calculus: Integration concept with 
 
 
 
+
 ---
 # Calculus: Integration
 

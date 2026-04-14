@@ -7,7 +7,6 @@ topic: arts-s-005
 topicName: English Grammar and Language Structures
 weight: 3
 country: al
-diagramPrompt: ""
 generated: "2026-03-25T17:00:00"
 ---
 

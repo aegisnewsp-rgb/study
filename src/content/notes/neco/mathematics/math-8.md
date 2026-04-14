@@ -15,6 +15,7 @@ diagramPrompt: "Mathematical diagram showing Plane Geometry: Angles, Triangles a
 
 
 
+
 ---
 # Plane Geometry: Angles, Triangles and Polygons
 

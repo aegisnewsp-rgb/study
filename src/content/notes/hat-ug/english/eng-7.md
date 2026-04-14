@@ -11,7 +11,8 @@ topicName: Reading Comprehension
 weight: 5
 country: pakistan
 generated: "2026-03-24T08:32:07.995915"
-diagramPrompt: "Educational diagram illustrating Reading Comprehension with clear labels, white background, exam-style illustration
+diagramPrompt: "Educational diagram illustrating Reading Comprehension with clear labels, white background, exam-style illustration"
+
 
 
 

@@ -7,7 +7,6 @@ topic: commer-013
 topicName: Statistics for Business
 weight: 3
 country: al
-diagramPrompt: ""
 generated: "2026-03-25T17:00:00"
 ---
 

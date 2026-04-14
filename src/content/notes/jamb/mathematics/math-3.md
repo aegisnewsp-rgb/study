@@ -15,6 +15,7 @@ diagramPrompt: "Mathematical diagram showing Geometry: Lines, Angles and Triangl
 
 
 
+
 ---
 # "Geometry: Lines, Angles and Triangles"
 

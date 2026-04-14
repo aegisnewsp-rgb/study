@@ -8,7 +8,7 @@ topicName: Percentage
 tier: quick
 weight: 2
 weight_unit: "% of QA section"
-diagramPrompt: A number line from 0 to 100 showing percentage marks and equivalent fractions
+diagramPrompt: "A number line from 0 to 100 showing percentage marks and equivalent fractions"
 country: India
 generated: ai-v1
 ---

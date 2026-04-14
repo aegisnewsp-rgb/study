@@ -11,7 +11,9 @@ topicName: Sound Waves and Doppler Effect
 weight: 3
 country: nigeria
 generated: "2026-03-24T08:32:07.679305"
-diagramPrompt: "Clean educational diagram showing Sound Waves and Doppler Effect with clear labels, white background, labeled arrows for forces/fields/vectors, color-coded components, exam-style illustration
+diagramPrompt: "Clean educational diagram showing Sound Waves and Doppler Effect with clear labels, white background, labeled arrows for forces/fields/vectors, color-coded components, exam-style illustration"
+
+
 
 
 

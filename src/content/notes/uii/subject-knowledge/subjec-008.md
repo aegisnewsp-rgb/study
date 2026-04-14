@@ -8,7 +8,8 @@ topicName: Geometry — Lines, Angles, Triangles
 weight: 3
 country: uii
 generated: "2026-03-25T17:00:00"
-diagramPrompt: Triangle ABC with vertices labeled, showing interior angles at A, B, C, exterior angle at A formed by extending side BC, and perpendicular bisector of side AB
+diagramPrompt: "Triangle ABC with vertices labeled, showing interior angles at A, B, C, exterior angle at A formed by extending side BC, and perpendicular bisector of side AB"
+
 ---
 
 # Geometry — Lines, Angles, Triangles

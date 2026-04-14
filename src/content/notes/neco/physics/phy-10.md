@@ -15,6 +15,7 @@ diagramPrompt: "Clean educational diagram showing Light: Laws of Reflection and 
 
 
 
+
 ---
 # Light: Laws of Reflection and Refraction
 

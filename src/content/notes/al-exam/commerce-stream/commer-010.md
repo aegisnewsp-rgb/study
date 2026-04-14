@@ -7,7 +7,6 @@ topic: commer-010
 topicName: Taxation and Government Finance
 weight: 3
 country: al
-diagramPrompt: ""
 generated: "2026-03-25T17:00:00"
 ---
 

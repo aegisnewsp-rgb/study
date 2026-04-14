@@ -11,7 +11,9 @@ topicName: Chemical Kinetics
 weight: 3
 country: pakistan
 generated: "2026-03-24T08:32:08.058310"
-diagramPrompt: "Clear scientific diagram of Chemical Kinetics with atom labels, molecular structure, reaction arrows, white background, color-coded bonds and groups, exam textbook style
+diagramPrompt: "Clear scientific diagram of Chemical Kinetics with atom labels, molecular structure, reaction arrows, white background, color-coded bonds and groups, exam textbook style"
+
+
 
 
 

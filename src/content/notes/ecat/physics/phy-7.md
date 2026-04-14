@@ -11,7 +11,9 @@ topicName: Oscillations and SHM
 weight: 4
 country: pakistan
 generated: "2026-03-24T08:32:08.043179"
-diagramPrompt: "Clean educational diagram showing Oscillations and SHM with clear labels, white background, labeled arrows for forces/fields/vectors, color-coded components, exam-style illustration
+diagramPrompt: "Clean educational diagram showing Oscillations and SHM with clear labels, white background, labeled arrows for forces/fields/vectors, color-coded components, exam-style illustration"
+
+
 
 
 

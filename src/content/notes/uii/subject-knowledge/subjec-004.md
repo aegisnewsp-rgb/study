@@ -8,7 +8,8 @@ topicName: Quadratic Equations & Inequalities
 weight: 3
 country: uii
 generated: "2026-03-25T17:00:00"
-diagramPrompt: Parabola graph showing y = x² - 5x + 6 with x-axis intercepts at x = 2 and x = 3, vertex at (2.5, -0.25), shaded region showing where y > 0
+diagramPrompt: "Parabola graph showing y = x² - 5x + 6 with x-axis intercepts at x = 2 and x = 3, vertex at (2.5, -0.25), shaded region showing where y > 0"
+
 ---
 
 # Quadratic Equations & Inequalities

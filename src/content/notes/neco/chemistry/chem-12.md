@@ -16,6 +16,7 @@ diagramPrompt: "Clear scientific diagram of Organic Chemistry: Alcohols, Aldehyd
 
 
 
+
 ---
 # "Organic Chemistry: Alcohols, Aldehydes and Ketones"
 

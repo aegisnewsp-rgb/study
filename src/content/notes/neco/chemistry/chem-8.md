@@ -15,6 +15,7 @@ diagramPrompt: "Clear scientific diagram of Acids, Bases, Salts and pH with atom
 
 
 
+
 ---
 # Acids, Bases, Salts and pH
 

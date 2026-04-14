@@ -11,7 +11,8 @@ topicName: National Unity and Diversity
 weight: 3
 country: nigeria
 generated: "2026-03-24T08:32:07.601713"
-diagramPrompt: "Educational diagram illustrating National Unity and Diversity with clear labels, white background, exam-style illustration
+diagramPrompt: "Educational diagram illustrating National Unity and Diversity with clear labels, white background, exam-style illustration"
+
 
 
 

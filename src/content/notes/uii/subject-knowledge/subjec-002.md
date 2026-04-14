@@ -9,6 +9,7 @@ weight: 3
 country: uii
 generated: "2026-03-25T17:00:00"
 diagramPrompt: "Flowchart showing step-by-step solving of 3x + 7 = 22, isolating the variable: subtract 7, divide by 3, solution x = 5"
+
 ---
 
 # Algebraic Expressions & Simple Equations

@@ -8,7 +8,8 @@ topicName: Applications of Calculus (Rates, Max/Min)
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.624090"
-diagramPrompt: Mathematical diagram showing Applications of Calculus (Rates, Max/Min) concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style
+diagramPrompt: "Mathematical diagram showing Applications of Calculus (Rates, Max/Min) concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style"
+
 ---
 
 # Applications of Calculus (Rates, Max/Min)

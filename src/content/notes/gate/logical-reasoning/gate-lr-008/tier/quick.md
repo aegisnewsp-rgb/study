@@ -8,7 +8,7 @@ topicName: "Calendar & Clock"
 tier: quick
 weight: 2
 weight_unit: "% of GA section"
-diagramPrompt: Clock face showing hour and minute hands with angle between them labeled. Calendar grid showing leap year patterns.
+diagramPrompt: "Clock face showing hour and minute hands with angle between them labeled. Calendar grid showing leap year patterns."
 country: India
 generated: ai-v1
 ---

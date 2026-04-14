@@ -7,7 +7,6 @@ topic: commer-009
 topicName: Banking and Financial Institutions
 weight: 3
 country: al
-diagramPrompt: ""
 generated: "2026-03-25T17:00:00"
 ---
 

@@ -8,7 +8,8 @@ topicName: Force and Motion
 weight: 5
 country: nigeria
 generated: "2026-03-24T08:32:07.607245"
-diagramPrompt: "Educational diagram illustrating Force and Motion with clear labels, white background, exam-style illustration
+diagramPrompt: "Educational diagram illustrating Force and Motion with clear labels, white background, exam-style illustration"
+
 ---
 
 # Force and Motion

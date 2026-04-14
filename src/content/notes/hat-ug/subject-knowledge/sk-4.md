@@ -16,6 +16,7 @@ diagramPrompt: "Educational diagram illustrating Physics: Light and Waves with c
 
 
 
+
 ---
 # "Physics: Light and Waves"
 

@@ -11,7 +11,8 @@ topicName: South Asian Affairs
 weight: 4
 country: pakistan
 generated: "2026-03-24T08:32:08.035042"
-diagramPrompt: "Educational diagram illustrating South Asian Affairs with clear labels, white background, exam-style illustration
+diagramPrompt: "Educational diagram illustrating South Asian Affairs with clear labels, white background, exam-style illustration"
+
 
 
 

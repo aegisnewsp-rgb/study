@@ -9,6 +9,7 @@ weight: 3
 country: nabe
 generated: "2026-03-25T17:00:00"
 diagramPrompt: "A visual showing the formula triangle for Ratio & Proportion, Percentage conversion wheel, and Simple vs Compound Interest comparison chart"
+
 ---
 
 # Topic 1: Quantitative Aptitude Basics for NABE

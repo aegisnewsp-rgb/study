@@ -8,7 +8,7 @@ topicName: "Simple & Compound Interest"
 tier: standard
 weight: 2
 weight_unit: "% of QA section"
-diagramPrompt: A comparison chart showing SI vs CI growth over 5 years at same rate
+diagramPrompt: "A comparison chart showing SI vs CI growth over 5 years at same rate"
 country: India
 generated: ai-v1
 ---

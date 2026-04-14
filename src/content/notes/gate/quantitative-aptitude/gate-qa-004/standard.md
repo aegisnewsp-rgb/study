@@ -8,7 +8,7 @@ topicName: Percentage
 tier: standard
 weight: 2
 weight_unit: "% of QA section"
-diagramPrompt: A pie chart split into percentage portions with fraction equivalents labeled
+diagramPrompt: "A pie chart split into percentage portions with fraction equivalents labeled"
 country: India
 generated: ai-v1
 ---

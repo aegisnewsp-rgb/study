@@ -11,7 +11,8 @@ topicName: Active and Passive Voice
 weight: 3
 country: pakistan
 generated: "2026-03-24T08:32:07.997412"
-diagramPrompt: "Educational diagram illustrating Active and Passive Voice with clear labels, white background, exam-style illustration
+diagramPrompt: "Educational diagram illustrating Active and Passive Voice with clear labels, white background, exam-style illustration"
+
 
 
 

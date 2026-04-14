@@ -9,6 +9,7 @@ weight: 5
 country: nigeria
 generated: "2026-03-24T08:32:07.574382"
 diagramPrompt: "Detailed biological diagram of Respiration and Gaseous Exchange with labeled parts, accurate proportions, white background, color-coded tissues/organs, textbook quality"
+
 ---
 
 # Respiration and Gaseous Exchange

@@ -7,7 +7,6 @@ topic: arts-s-011
 topicName: Critical Thinking and Logical Reasoning
 weight: 3
 country: al
-diagramPrompt: ""
 generated: "2026-03-25T17:00:00"
 ---
 

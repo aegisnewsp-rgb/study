@@ -10,6 +10,7 @@ country: pakistan
 generated: "2026-03-24T08:32:08.064908"
 diagramPrompt: "Mathematical diagram showing Geometric Progression and Binomial Theorem concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style"
 
+
 ---
 
 # Geometric Progression and Binomial Theorem

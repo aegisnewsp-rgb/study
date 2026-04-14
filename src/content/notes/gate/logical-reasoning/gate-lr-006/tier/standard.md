@@ -8,7 +8,7 @@ topicName: Seating Arrangement
 tier: standard
 weight: 2
 weight_unit: "% of GA section"
-diagramPrompt: Diagram showing both linear row arrangement (left to right) and circular arrangement with facing center concept.
+diagramPrompt: "Diagram showing both linear row arrangement (left to right) and circular arrangement with facing center concept."
 country: India
 generated: ai-v1
 ---

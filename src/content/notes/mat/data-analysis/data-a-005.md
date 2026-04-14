@@ -8,7 +8,8 @@ topicName: Line Graphs & Trend Analysis
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-diagramPrompt: A dual-axis line chart showing monthly temperature (°C) and rainfall (mm) for a city across 12 months, with two distinct lines for each metric, styled as a typical MAT exam DI passage requiring trend interpretation and extrapolation.
+diagramPrompt: "A dual-axis line chart showing monthly temperature (°C) and rainfall (mm) for a city across 12 months, with two distinct lines for each metric, styled as a typical MAT exam DI passage requiring trend interpretation and extrapolation."
+
 ---
 
 # Line Graphs & Trend Analysis

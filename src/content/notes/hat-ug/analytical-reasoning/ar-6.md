@@ -15,6 +15,7 @@ diagramPrompt: "Educational diagram illustrating Syllogisms (Logical Deduction) 
 
 
 
+
 ---
 # Syllogisms (Logical Deduction)
 

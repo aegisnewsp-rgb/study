@@ -11,7 +11,8 @@ topicName: Subject-Verb Agreement
 weight: 3
 country: nigeria
 generated: "2026-03-24T08:32:07.588955"
-diagramPrompt: "Educational diagram illustrating Subject-Verb Agreement with clear labels, white background, exam-style illustration
+diagramPrompt: "Educational diagram illustrating Subject-Verb Agreement with clear labels, white background, exam-style illustration"
+
 
 
 

@@ -9,6 +9,7 @@ weight: 5
 country: nigeria
 generated: "2026-03-24T08:32:07.540289"
 diagramPrompt: "Educational diagram illustrating Reading Comprehension with clear labels, white background, exam-style illustration"
+
 ---
 
 # Reading Comprehension

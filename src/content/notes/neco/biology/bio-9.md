@@ -16,6 +16,7 @@ diagramPrompt: "Detailed biological diagram of Coordination: Nervous and Endocri
 
 
 
+
 ---
 # "Coordination: Nervous and Endocrine Systems"
 

@@ -8,7 +8,8 @@ topicName: Business Scenario Analysis
 weight: 3
 country: xat
 generated: "2026-03-25T17:00:00"
-diagramPrompt: Flowchart showing decision making process for business scenarios with stakeholder analysis, risk assessment, and outcome evaluation, white background, professional style
+diagramPrompt: "Flowchart showing decision making process for business scenarios with stakeholder analysis, risk assessment, and outcome evaluation, white background, professional style"
+
 ---
 
 # Business Scenario Analysis

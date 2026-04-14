@@ -8,7 +8,9 @@ topicName: Wave Optics and Interference
 weight: 4
 country: pakistan
 generated: "2026-03-24T08:32:08.050326"
-diagramPrompt: "Clean educational diagram showing Wave Optics and Interference with clear labels, white background, labeled arrows for forces/fields/vectors, color-coded components, exam-style illustration
+diagramPrompt: "Clean educational diagram showing Wave Optics and Interference with clear labels, white background, labeled arrows for forces/fields/vectors, color-coded components, exam-style illustration"
+
+
 ---
 
 # Wave Optics and Interference

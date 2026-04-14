@@ -8,7 +8,7 @@ topicName: "Calendar & Clock"
 tier: standard
 weight: 2
 weight_unit: "% of GA section"
-diagramPrompt: Clock diagram with hour and minute hand positions at various times. Calendar month grid showing odd day calculation.
+diagramPrompt: "Clock diagram with hour and minute hand positions at various times. Calendar month grid showing odd day calculation."
 country: India
 generated: ai-v1
 ---

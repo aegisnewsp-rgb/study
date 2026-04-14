@@ -8,7 +8,8 @@ topicName: Circles — Area, Circumference, Sectors
 weight: 3
 country: uii
 generated: "2026-03-25T17:00:00"
-diagramPrompt: Circle with radius r, showing centre O, diameter AB passing through O, chord CD not through centre, sector OAB with central angle theta, and arc AB
+diagramPrompt: "Circle with radius r, showing centre O, diameter AB passing through O, chord CD not through centre, sector OAB with central angle theta, and arc AB"
+
 ---
 
 # Circles — Area, Circumference, Sectors

@@ -15,6 +15,7 @@ diagramPrompt: "Clear scientific diagram of Atomic Structure and Electron Config
 
 
 
+
 ---
 # Atomic Structure and Electron Configuration
 

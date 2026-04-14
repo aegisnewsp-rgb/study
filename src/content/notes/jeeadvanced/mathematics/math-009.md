@@ -11,7 +11,8 @@ topicName: Indefinite Integrals
 weight: 5
 country: india
 generated: "2026-03-24T08:32:07.937784"
-diagramPrompt: Mathematical diagram showing Indefinite Integrals concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style
+diagramPrompt: "Mathematical diagram showing Indefinite Integrals concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style"
+
 
 
 

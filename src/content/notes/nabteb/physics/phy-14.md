@@ -11,7 +11,9 @@ topicName: Radioactivity and Nuclear Physics
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.564797"
-diagramPrompt: "Clean educational diagram showing Radioactivity and Nuclear Physics with clear labels, white background, labeled arrows for forces/fields/vectors, color-coded components, exam-style illustration
+diagramPrompt: "Clean educational diagram showing Radioactivity and Nuclear Physics with clear labels, white background, labeled arrows for forces/fields/vectors, color-coded components, exam-style illustration"
+
+
 
 
 

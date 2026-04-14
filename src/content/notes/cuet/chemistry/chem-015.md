@@ -11,7 +11,9 @@ topicName: s-Block
 weight: 3
 country: india
 generated: "2026-03-24T08:32:07.842221"
-diagramPrompt: "Clear scientific diagram of s-Block with atom labels, molecular structure, reaction arrows, white background, color-coded bonds and groups, exam textbook style
+diagramPrompt: "Clear scientific diagram of s-Block with atom labels, molecular structure, reaction arrows, white background, color-coded bonds and groups, exam textbook style"
+
+
 
 
 

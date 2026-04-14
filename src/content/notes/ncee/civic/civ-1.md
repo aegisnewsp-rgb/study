@@ -11,7 +11,8 @@ topicName:  Nigerian National Identity and Anthem
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.600114"
-diagramPrompt: "Educational diagram illustrating  Nigerian National Identity and Anthem with clear labels, white background, exam-style illustration
+diagramPrompt: "Educational diagram illustrating  Nigerian National Identity and Anthem with clear labels, white background, exam-style illustration"
+
 
 
 

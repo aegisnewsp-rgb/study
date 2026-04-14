@@ -11,7 +11,8 @@ topicName: Para-jumbles and Coherence
 weight: 4
 country: pakistan
 generated: "2026-03-24T08:32:08.019188"
-diagramPrompt: "Educational diagram illustrating Para-jumbles and Coherence with clear labels, white background, exam-style illustration
+diagramPrompt: "Educational diagram illustrating Para-jumbles and Coherence with clear labels, white background, exam-style illustration"
+
 
 
 

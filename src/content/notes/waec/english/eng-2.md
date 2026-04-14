@@ -11,7 +11,8 @@ topicName: Summary Writing
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.609907"
-diagramPrompt: "Educational diagram illustrating Summary Writing with clear labels, white background, exam-style illustration
+diagramPrompt: "Educational diagram illustrating Summary Writing with clear labels, white background, exam-style illustration"
+
 
 
 

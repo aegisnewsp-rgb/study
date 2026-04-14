@@ -16,6 +16,7 @@ diagramPrompt: "Educational diagram illustrating Legal Aptitude: Criminal Law wi
 
 
 
+
 ---
 # "Legal Aptitude: Criminal Law"
 

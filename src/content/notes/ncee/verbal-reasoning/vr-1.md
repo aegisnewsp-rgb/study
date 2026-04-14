@@ -11,7 +11,8 @@ topicName: Word Analogies
 weight: 5
 country: nigeria
 generated: "2026-03-24T08:32:07.595577"
-diagramPrompt: "Educational diagram illustrating Word Analogies with clear labels, white background, exam-style illustration
+diagramPrompt: "Educational diagram illustrating Word Analogies with clear labels, white background, exam-style illustration"
+
 
 
 

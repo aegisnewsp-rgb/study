@@ -16,6 +16,7 @@ diagramPrompt: "Mathematical diagram showing Trigonometry: Sine and Cosine Rules
 
 
 
+
 ---
 # "Trigonometry: Sine and Cosine Rules"
 

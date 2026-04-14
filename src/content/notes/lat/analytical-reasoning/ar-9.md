@@ -11,7 +11,8 @@ topicName: Cause and Effect
 weight: 4
 country: pakistan
 generated: "2026-03-24T08:32:08.023875"
-diagramPrompt: "Educational diagram illustrating Cause and Effect with clear labels, white background, exam-style illustration
+diagramPrompt: "Educational diagram illustrating Cause and Effect with clear labels, white background, exam-style illustration"
+
 
 
 

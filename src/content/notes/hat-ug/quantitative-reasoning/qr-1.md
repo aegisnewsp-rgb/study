@@ -8,7 +8,8 @@ topicName: Number System
 weight: 4
 country: pakistan
 generated: "2026-03-24T08:32:08.005071"
-diagramPrompt: "Educational diagram illustrating Number System with clear labels, white background, exam-style illustration
+diagramPrompt: "Educational diagram illustrating Number System with clear labels, white background, exam-style illustration"
+
 ---
 
 # Number System

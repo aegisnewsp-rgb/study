@@ -9,6 +9,7 @@ weight: 3
 country: cs
 generated: "2026-03-25T17:00:00"
 diagramPrompt: "Clean educational diagram showing share capital structure, types of shares (equity and preference), share issue entries flow, and forfeiture/reissue process — white background, exam-style illustration"
+
 ---
 
 # Company Accounts

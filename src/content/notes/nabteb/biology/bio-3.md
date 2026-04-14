@@ -9,6 +9,7 @@ weight: 5
 country: nigeria
 generated: "2026-03-24T08:32:07.573576"
 diagramPrompt: "Detailed biological diagram of Enzymes and Metabolism with labeled parts, accurate proportions, white background, color-coded tissues/organs, textbook quality"
+
 ---
 
 # Enzymes and Metabolism

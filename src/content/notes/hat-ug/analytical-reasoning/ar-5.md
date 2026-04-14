@@ -11,7 +11,8 @@ topicName: Classification and Odd One Out
 weight: 3
 country: pakistan
 generated: "2026-03-24T08:32:08.000842"
-diagramPrompt: "Educational diagram illustrating Classification and Odd One Out with clear labels, white background, exam-style illustration
+diagramPrompt: "Educational diagram illustrating Classification and Odd One Out with clear labels, white background, exam-style illustration"
+
 
 
 

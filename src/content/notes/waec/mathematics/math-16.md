@@ -8,7 +8,8 @@ topicName: Probability
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.625253"
-diagramPrompt: Mathematical diagram showing Probability concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style
+diagramPrompt: "Mathematical diagram showing Probability concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style"
+
 ---
 
 # Probability

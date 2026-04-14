@@ -16,6 +16,7 @@ diagramPrompt: "Clear scientific diagram of Organic Chemistry: Carboxylic Acids 
 
 
 
+
 ---
 # "Organic Chemistry: Carboxylic Acids and Esters"
 

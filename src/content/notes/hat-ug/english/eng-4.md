@@ -11,7 +11,8 @@ topicName: One Word Substitution
 weight: 3
 country: pakistan
 generated: "2026-03-24T08:32:07.994809"
-diagramPrompt: "Educational diagram illustrating One Word Substitution with clear labels, white background, exam-style illustration
+diagramPrompt: "Educational diagram illustrating One Word Substitution with clear labels, white background, exam-style illustration"
+
 
 
 

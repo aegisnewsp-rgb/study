@@ -15,6 +15,7 @@ diagramPrompt: "Mathematical diagram showing Trigonometry: Solutions of Triangle
 
 
 
+
 ---
 # "Trigonometry: Solutions of Triangles"
 

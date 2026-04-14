@@ -16,6 +16,7 @@ diagramPrompt: "Clean educational diagram showing Waves: Properties, Equations a
 
 
 
+
 ---
 # "Waves: Properties, Equations and Phenomena"
 

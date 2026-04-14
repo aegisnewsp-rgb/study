@@ -16,6 +16,7 @@ diagramPrompt: "Educational diagram illustrating Energy: Forms and Transformatio
 
 
 
+
 ---
 # "Energy: Forms and Transformations"
 

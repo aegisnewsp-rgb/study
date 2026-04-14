@@ -8,7 +8,9 @@ topicName: Nervous System and Sense Organs
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.651757"
-diagramPrompt: "Detailed biological diagram of Nervous System and Sense Organs with labeled parts, accurate proportions, white background, color-coded tissues/organs, textbook quality
+diagramPrompt: "Detailed biological diagram of Nervous System and Sense Organs with labeled parts, accurate proportions, white background, color-coded tissues/organs, textbook quality"
+
+
 ---
 
 # Nervous System and Sense Organs

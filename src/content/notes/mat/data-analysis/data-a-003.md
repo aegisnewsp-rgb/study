@@ -9,6 +9,7 @@ weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
 diagramPrompt: "A pie chart showing the market share of five smartphone brands in India (Brand A: 32%, Brand B: 25%, Brand C: 18%, Brand D: 15%, Brand E: 10%), with a supplementary bar chart showing revenue in INR crores for the same brands, styled as a typical MAT exam DI passage requiring proportional reasoning."
+
 ---
 
 # Pie Charts & Circle Diagrams

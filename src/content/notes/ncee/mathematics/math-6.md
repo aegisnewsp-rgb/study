@@ -11,7 +11,8 @@ topicName: Word Problems and Applications
 weight: 5
 country: nigeria
 generated: "2026-03-24T08:32:07.582185"
-diagramPrompt: Mathematical diagram showing Word Problems and Applications concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style
+diagramPrompt: "Mathematical diagram showing Word Problems and Applications concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style"
+
 
 
 

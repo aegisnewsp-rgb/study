@@ -11,7 +11,8 @@ topicName: Coding and Decoding (Simple)
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.593236"
-diagramPrompt: "Educational diagram illustrating Coding and Decoding (Simple) with clear labels, white background, exam-style illustration
+diagramPrompt: "Educational diagram illustrating Coding and Decoding (Simple) with clear labels, white background, exam-style illustration"
+
 
 
 

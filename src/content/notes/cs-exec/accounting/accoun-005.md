@@ -9,6 +9,7 @@ weight: 3
 country: cs
 generated: "2026-03-25T17:00:00"
 diagramPrompt: "Clean educational diagram showing the relationship between Cash Book balance and Pass Book (Bank Statement) balance, with arrows indicating items that cause differences — unpresented cheques, uncredited deposits, bank charges, direct debits, interest credited — white background, exam-style illustration"
+
 ---
 
 # Bank Reconciliation Statement

@@ -9,6 +9,7 @@ weight: 3
 country: uii
 generated: "2026-03-25T17:00:00"
 diagramPrompt: "Two number lines side by side: left showing arithmetic sequence 3, 7, 11, 15, 19 with constant difference d=4 between terms; right showing geometric sequence 2, 6, 18, 54, 162 with constant ratio r=3"
+
 ---
 
 # Progressions — Arithmetic & Geometric

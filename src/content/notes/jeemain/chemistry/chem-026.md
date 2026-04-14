@@ -9,6 +9,7 @@ weight: 3
 country: india
 generated: "2026-03-28T21:12:18"
 diagramPrompt: "Labelled diagrams showing structures of glucose, fructose, amino acids, nucleotides (ATP), DNA double helix, and peptide bond formation. Clean white background."
+
 ---
 
 # Biomolecules

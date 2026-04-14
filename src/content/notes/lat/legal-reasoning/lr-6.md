@@ -16,6 +16,7 @@ diagramPrompt: "Educational diagram illustrating Legal Aptitude: Intellectual Pr
 
 
 
+
 ---
 # "Legal Aptitude: Intellectual Property Rights"
 

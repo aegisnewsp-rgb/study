@@ -8,7 +8,9 @@ topicName: Gaseous Exchange and Respiration
 weight: 5
 country: nigeria
 generated: "2026-03-24T08:32:07.650392"
-diagramPrompt: "Detailed biological diagram of Gaseous Exchange and Respiration with labeled parts, accurate proportions, white background, color-coded tissues/organs, textbook quality
+diagramPrompt: "Detailed biological diagram of Gaseous Exchange and Respiration with labeled parts, accurate proportions, white background, color-coded tissues/organs, textbook quality"
+
+
 ---
 
 # Gaseous Exchange and Respiration

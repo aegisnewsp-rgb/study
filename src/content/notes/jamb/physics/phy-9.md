@@ -11,7 +11,9 @@ topicName: Wave Optics (Interference and Diffraction)
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.712253"
-diagramPrompt: "Clean educational diagram showing Wave Optics (Interference and Diffraction) with clear labels, white background, labeled arrows for forces/fields/vectors, color-coded components, exam-style illustration
+diagramPrompt: "Clean educational diagram showing Wave Optics (Interference and Diffraction) with clear labels, white background, labeled arrows for forces/fields/vectors, color-coded components, exam-style illustration"
+
+
 
 
 

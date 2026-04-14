@@ -8,7 +8,8 @@ topicName: Data Sufficiency Problems
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-diagramPrompt: A logical reasoning problem page showing two separate data statements labeled Statement I and Statement II, with a problem question above and answer options A-E indicating whether each statement alone or both together are sufficient to answer the question, styled as a typical MAT exam data sufficiency format.
+diagramPrompt: "A logical reasoning problem page showing two separate data statements labeled Statement I and Statement II, with a problem question above and answer options A-E indicating whether each statement alone or both together are sufficient to answer the question, styled as a typical MAT exam data sufficiency format."
+
 ---
 
 # Data Sufficiency Problems

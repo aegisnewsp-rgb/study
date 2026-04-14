@@ -8,7 +8,8 @@ topicName: Sentence Construction and Synthesis
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.611750"
-diagramPrompt: "Educational diagram illustrating Sentence Construction and Synthesis with clear labels, white background, exam-style illustration
+diagramPrompt: "Educational diagram illustrating Sentence Construction and Synthesis with clear labels, white background, exam-style illustration"
+
 ---
 # Sentence Construction and Synthesis
 

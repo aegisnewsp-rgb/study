@@ -2045,3 +2045,15 @@ Checked: health (200/200), YAML None errors (none), placeholder files (3 small b
 **Found & Fixed:** `cat/dilr/dl-002.md` and `cat/dilr/dl-003.md` — `diagramPrompt` frontmatter field had unclosed `"` quote causing YAML parse errors  
 **Fix:** Closed the quote before the `---` separator  
 **Commit:** f1e9b300
+
+## 2026-04-14 06:50 UTC
+**Health:** ✅ studyroadmap.in/ (200), exams/neet/ (200)
+**Checked:** Placeholder scan → found `genera-004.md` and `genera-008.md` with "[PLACEHOLDER] Topic N — needs real content" in up-psc/general-science/
+**Fix applied:** genera-004.md — replaced placeholder with full "Indian Economy & Union Budget" content (Lite/Standard/Extended tiers) with UPPSC-relevant material including GDP, RBI monetary policy, Union Budget concepts, GST, and key government schemes
+**Commit:** 9b9d6b85
+
+## 2026-04-14 08:03 UTC
+**Health:** ✅ studyroadmap.in/ (200), /exams/ (200), /notes/ (200), sitemap-0.xml (200)
+**Checked:** YAML frontmatter, exam data files, placeholder scan
+**Found & Fixed:** `up-psc/general-science/genera-008.md` — still had `[PLACEHOLDER] Topic 8 — needs real content` (isPlaceholder flag was true); replaced with full **Indian Heritage & Cultural Diversities** content (Lite/Standard/Extended tiers covering UNESCO sites, classical dances, temple architecture, folk traditions, constitutional provisions, UPPSC-specific tips)
+**Commit:** eece1869

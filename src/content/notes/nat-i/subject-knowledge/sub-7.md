@@ -16,6 +16,7 @@ diagramPrompt: "Educational diagram illustrating Mathematics: Algebra and Calcul
 
 
 
+
 ---
 # "Mathematics: Algebra and Calculus"
 

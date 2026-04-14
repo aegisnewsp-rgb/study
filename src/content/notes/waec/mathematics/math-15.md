@@ -9,6 +9,7 @@ weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.624720"
 diagramPrompt: "Mathematical diagram showing Statistics: Mean, Median, Mode concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style"
+
 ---
 
 # Statistics: Mean, Median, Mode

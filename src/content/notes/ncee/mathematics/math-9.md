@@ -11,7 +11,8 @@ topicName: Perimeter and Area of Plane Shapes
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.583932"
-diagramPrompt: Mathematical diagram showing Perimeter and Area of Plane Shapes concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style
+diagramPrompt: "Mathematical diagram showing Perimeter and Area of Plane Shapes concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style"
+
 
 
 

@@ -11,7 +11,9 @@ topicName: Biotechnology
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.577492"
-diagramPrompt: "Detailed biological diagram of Biotechnology with labeled parts, accurate proportions, white background, color-coded tissues/organs, textbook quality
+diagramPrompt: "Detailed biological diagram of Biotechnology with labeled parts, accurate proportions, white background, color-coded tissues/organs, textbook quality"
+
+
 
 
 

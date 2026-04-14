@@ -11,7 +11,8 @@ topicName: International Organizations (UN, WTO, etc.)
 weight: 3
 country: pakistan
 generated: "2026-03-24T08:32:08.031653"
-diagramPrompt: "Educational diagram illustrating International Organizations (UN, WTO, etc.) with clear labels, white background, exam-style illustration
+diagramPrompt: "Educational diagram illustrating International Organizations (UN, WTO, etc.) with clear labels, white background, exam-style illustration"
+
 
 
 

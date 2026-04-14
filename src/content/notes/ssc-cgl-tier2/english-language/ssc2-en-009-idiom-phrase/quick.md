@@ -8,7 +8,7 @@ topicName: "Idiom & Phrase Meaning"
 tier: quick
 weight: 2
 weight_unit: "% of Tier 2 paper"
-diagramPrompt: An idiom on the left with its literal meaning crossed out and the correct idiomatic meaning arrow pointing to the right
+diagramPrompt: "An idiom on the left with its literal meaning crossed out and the correct idiomatic meaning arrow pointing to the right"
 country: India
 generated: ai-v1
 ---

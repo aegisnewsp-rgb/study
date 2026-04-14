@@ -11,7 +11,8 @@ topicName: Direction Sense
 weight: 4
 country: pakistan
 generated: "2026-03-24T08:32:08.128418"
-diagramPrompt: "Educational diagram illustrating Direction Sense with clear labels, white background, exam-style illustration
+diagramPrompt: "Educational diagram illustrating Direction Sense with clear labels, white background, exam-style illustration"
+
 
 
 

@@ -11,7 +11,8 @@ topicName: Exponential and Logarithmic Functions
 weight: 3
 country: pakistan
 generated: "2026-03-24T08:32:08.072418"
-diagramPrompt: Mathematical diagram showing Exponential and Logarithmic Functions concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style
+diagramPrompt: "Mathematical diagram showing Exponential and Logarithmic Functions concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style"
+
 
 
 

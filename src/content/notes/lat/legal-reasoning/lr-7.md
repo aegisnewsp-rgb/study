@@ -11,7 +11,8 @@ topicName: Legal GK and Current Affairs
 weight: 4
 country: pakistan
 generated: "2026-03-24T08:32:08.027607"
-diagramPrompt: "Educational diagram illustrating Legal GK and Current Affairs with clear labels, white background, exam-style illustration
+diagramPrompt: "Educational diagram illustrating Legal GK and Current Affairs with clear labels, white background, exam-style illustration"
+
 
 
 

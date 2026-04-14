@@ -8,7 +8,7 @@ topicName: "Active & Passive Voice — Deep Dive"
 tier: deep
 weight: 2
 weight_unit: "% of Tier 2 paper"
-diagramPrompt: A conversion flowchart for all tense combinations — from tense identification to passive formula application
+diagramPrompt: "A conversion flowchart for all tense combinations — from tense identification to passive formula application"
 country: India
 generated: ai-v1
 ---

@@ -11,7 +11,9 @@ topicName: Fluid Dynamics
 weight: 3
 country: pakistan
 generated: "2026-03-24T08:32:08.083024"
-diagramPrompt: "Clean educational diagram showing Fluid Dynamics with clear labels, white background, labeled arrows for forces/fields/vectors, color-coded components, exam-style illustration
+diagramPrompt: "Clean educational diagram showing Fluid Dynamics with clear labels, white background, labeled arrows for forces/fields/vectors, color-coded components, exam-style illustration"
+
+
 
 
 

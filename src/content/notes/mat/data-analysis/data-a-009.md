@@ -8,7 +8,8 @@ topicName: Venn Diagrams & Set Theory
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-diagramPrompt: A three-circle Venn diagram showing three overlapping circles labeled Mathematics, Physics, and Chemistry, with the number of students in each region indicated as typical for a MAT exam DI passage, with a supplementary table of exact values for each region.
+diagramPrompt: "A three-circle Venn diagram showing three overlapping circles labeled Mathematics, Physics, and Chemistry, with the number of students in each region indicated as typical for a MAT exam DI passage, with a supplementary table of exact values for each region."
+
 ---
 
 # Venn Diagrams & Set Theory

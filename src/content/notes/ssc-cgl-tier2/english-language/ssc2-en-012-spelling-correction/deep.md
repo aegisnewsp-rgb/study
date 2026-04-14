@@ -8,7 +8,7 @@ topicName: Spelling Correction — Deep Dive
 tier: deep
 weight: 2
 weight_unit: "% of Tier 2 paper"
-diagramPrompt: A flow chart for spelling correction — from reading options → identifying error type → applying rule → selecting answer
+diagramPrompt: "A flow chart for spelling correction — from reading options → identifying error type → applying rule → selecting answer"
 country: India
 generated: ai-v1
 ---

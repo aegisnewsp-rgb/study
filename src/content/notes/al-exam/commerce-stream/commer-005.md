@@ -7,7 +7,6 @@ topic: commer-005
 topicName: Accounting Principles and Financial Statements
 weight: 3
 country: al
-diagramPrompt: ""
 generated: "2026-03-25T17:00:00"
 ---
 

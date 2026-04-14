@@ -8,7 +8,8 @@ topicName: Mixed Graphs & Data Fusion
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-diagramPrompt: A compound DI page showing a pie chart for market share, a bar chart for quarterly revenue, and a line graph for growth rate overlaid on the same page, with a data table listing exact figures for all quarters, styled as a comprehensive MAT exam passage requiring cross-referencing between different chart formats.
+diagramPrompt: "A compound DI page showing a pie chart for market share, a bar chart for quarterly revenue, and a line graph for growth rate overlaid on the same page, with a data table listing exact figures for all quarters, styled as a comprehensive MAT exam passage requiring cross-referencing between different chart formats."
+
 ---
 
 # Mixed Graphs & Data Fusion

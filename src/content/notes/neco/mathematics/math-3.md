@@ -11,7 +11,8 @@ topicName: Indices, Logarithms and Surds
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.663833"
-diagramPrompt: Mathematical diagram showing Indices, Logarithms and Surds concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style
+diagramPrompt: "Mathematical diagram showing Indices, Logarithms and Surds concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style"
+
 
 
 

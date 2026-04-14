@@ -8,7 +8,8 @@ topicName: Bar Graphs & Column Charts
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-diagramPrompt: A grouped bar chart showing quarterly revenue (in ₹ lakhs) for two companies, Company X and Company Y, across four quarters of a financial year, with a stacked bar chart overlay option and a trend line overlay, styled as a typical MAT exam DI passage requiring comparative analysis.
+diagramPrompt: "A grouped bar chart showing quarterly revenue (in ₹ lakhs) for two companies, Company X and Company Y, across four quarters of a financial year, with a stacked bar chart overlay option and a trend line overlay, styled as a typical MAT exam DI passage requiring comparative analysis."
+
 ---
 
 # Bar Graphs & Column Charts

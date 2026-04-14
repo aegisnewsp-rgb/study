@@ -11,7 +11,8 @@ topicName: Reading Comprehension and Inference
 weight: 5
 country: nigeria
 generated: "2026-03-24T08:32:07.598567"
-diagramPrompt: "Educational diagram illustrating Reading Comprehension and Inference with clear labels, white background, exam-style illustration
+diagramPrompt: "Educational diagram illustrating Reading Comprehension and Inference with clear labels, white background, exam-style illustration"
+
 
 
 

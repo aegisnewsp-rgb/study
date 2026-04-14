@@ -11,7 +11,8 @@ topicName: DE
 weight: 5
 country: india
 generated: "2026-03-24T08:32:07.938769"
-diagramPrompt: Mathematical diagram showing DE concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style
+diagramPrompt: "Mathematical diagram showing DE concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style"
+
 
 
 

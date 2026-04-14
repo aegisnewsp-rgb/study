@@ -11,7 +11,8 @@ topicName: Singular and Plural Nouns
 weight: 3
 country: nigeria
 generated: "2026-03-24T08:32:07.588583"
-diagramPrompt: "Educational diagram illustrating Singular and Plural Nouns with clear labels, white background, exam-style illustration
+diagramPrompt: "Educational diagram illustrating Singular and Plural Nouns with clear labels, white background, exam-style illustration"
+
 
 
 

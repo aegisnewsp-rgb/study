@@ -10,6 +10,7 @@ country: pakistan
 generated: "2026-03-24T08:32:08.066715"
 diagramPrompt: "Mathematical diagram showing Straight Line and Coordinate Geometry concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style"
 
+
 ---
 
 # Straight Line and Coordinate Geometry

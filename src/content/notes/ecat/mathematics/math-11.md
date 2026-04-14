@@ -10,6 +10,7 @@ country: pakistan
 generated: "2026-03-24T08:32:08.069493"
 diagramPrompt: "Mathematical diagram showing Vectors in 2D and 3D concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style"
 
+
 ---
 
 # Vectors in 2D and 3D

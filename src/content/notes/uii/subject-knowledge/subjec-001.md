@@ -8,7 +8,8 @@ topicName: Basic Arithmetic & Number Operations
 weight: 3
 country: uii
 generated: "2026-03-25T17:00:00"
-diagramPrompt: Number line showing positions of fractions 1/4, 1/2, 3/4 and percentages 25%, 50%, 75% with visual conversion arrows between fractions and percentages
+diagramPrompt: "Number line showing positions of fractions 1/4, 1/2, 3/4 and percentages 25%, 50%, 75% with visual conversion arrows between fractions and percentages"
+
 ---
 
 # Basic Arithmetic & Number Operations

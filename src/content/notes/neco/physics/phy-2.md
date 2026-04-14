@@ -15,6 +15,7 @@ diagramPrompt: "Clean educational diagram showing Kinematics: Displacement, Velo
 
 
 
+
 ---
 # Kinematics: Displacement, Velocity and Acceleration
 

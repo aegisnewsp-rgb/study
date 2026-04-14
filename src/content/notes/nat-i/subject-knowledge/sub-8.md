@@ -16,6 +16,7 @@ diagramPrompt: "Educational diagram illustrating Mathematics: Geometry and Trigo
 
 
 
+
 ---
 # "Mathematics: Geometry and Trigonometry"
 

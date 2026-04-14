@@ -8,7 +8,8 @@ topicName: Active and Passive Voice
 weight: 3
 country: nigeria
 generated: "2026-03-24T08:32:07.702628"
-diagramPrompt: "Educational diagram illustrating Active and Passive Voice with clear labels, white background, exam-style illustration
+diagramPrompt: "Educational diagram illustrating Active and Passive Voice with clear labels, white background, exam-style illustration"
+
 ---
 
 # Active and Passive Voice

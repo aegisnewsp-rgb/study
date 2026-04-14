@@ -7,7 +7,6 @@ topic: arts-s-012
 topicName: Research Skills and Academic Writing
 weight: 3
 country: al
-diagramPrompt: ""
 generated: "2026-03-25T17:00:00"
 ---
 

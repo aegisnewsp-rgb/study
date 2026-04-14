@@ -8,7 +8,8 @@ topicName: Digestive System
 weight: 4
 country: pakistan
 generated: "2026-03-24T08:32:08.110348"
-diagramPrompt: "Educational diagram illustrating Digestive System with clear labels, white background, exam-style illustration
+diagramPrompt: "Educational diagram illustrating Digestive System with clear labels, white background, exam-style illustration"
+
 ---
 
 # Digestive System

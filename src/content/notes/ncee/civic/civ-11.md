@@ -11,7 +11,8 @@ topicName: Good Governance and Leadership
 weight: 3
 country: nigeria
 generated: "2026-03-24T08:32:07.604116"
-diagramPrompt: "Educational diagram illustrating Good Governance and Leadership with clear labels, white background, exam-style illustration
+diagramPrompt: "Educational diagram illustrating Good Governance and Leadership with clear labels, white background, exam-style illustration"
+
 
 
 

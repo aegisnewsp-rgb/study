@@ -8,7 +8,9 @@ topicName: Wave Motion and Sound
 weight: 4
 country: pakistan
 generated: "2026-03-24T08:32:08.043959"
-diagramPrompt: "Clean educational diagram showing Wave Motion and Sound with clear labels, white background, labeled arrows for forces/fields/vectors, color-coded components, exam-style illustration
+diagramPrompt: "Clean educational diagram showing Wave Motion and Sound with clear labels, white background, labeled arrows for forces/fields/vectors, color-coded components, exam-style illustration"
+
+
 ---
 
 # Wave Motion and Sound

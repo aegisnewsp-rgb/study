@@ -16,6 +16,7 @@ diagramPrompt: "Mathematical diagram showing Statistics: Pictograms, Bar Charts 
 
 
 
+
 ---
 # "Statistics: Pictograms, Bar Charts and Tally"
 

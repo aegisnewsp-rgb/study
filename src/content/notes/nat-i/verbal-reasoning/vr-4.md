@@ -11,7 +11,8 @@ topicName: Sentence Completion
 weight: 4
 country: pakistan
 generated: "2026-03-24T08:32:08.123720"
-diagramPrompt: "Educational diagram illustrating Sentence Completion with clear labels, white background, exam-style illustration
+diagramPrompt: "Educational diagram illustrating Sentence Completion with clear labels, white background, exam-style illustration"
+
 
 
 

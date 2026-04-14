@@ -11,7 +11,8 @@ topicName: Analogies (Word Relationships)
 weight: 4
 country: pakistan
 generated: "2026-03-24T08:32:08.122653"
-diagramPrompt: "Educational diagram illustrating Analogies (Word Relationships) with clear labels, white background, exam-style illustration
+diagramPrompt: "Educational diagram illustrating Analogies (Word Relationships) with clear labels, white background, exam-style illustration"
+
 
 
 

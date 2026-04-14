@@ -11,7 +11,8 @@ topicName: Three-Dimensional Geometry Basics
 weight: 3
 country: nigeria
 generated: "2026-03-24T08:32:07.740627"
-diagramPrompt: Mathematical diagram showing Three-Dimensional Geometry Basics concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style
+diagramPrompt: "Mathematical diagram showing Three-Dimensional Geometry Basics concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style"
+
 
 
 

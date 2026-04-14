@@ -10,6 +10,7 @@ country: pakistan
 generated: "2026-03-24T08:32:08.075825"
 diagramPrompt: "Educational diagram illustrating Grammar: Parts of Speech with clear labels, white background, exam-style illustration"
 
+
 ---
 
 # "Grammar: Parts of Speech"

@@ -9,6 +9,7 @@ weight: 5
 country: nigeria
 generated: "2026-03-24T08:32:07.628192"
 diagramPrompt: "Clean educational diagram showing Kinematics: Motion in a Straight Line with clear labels, white background, labeled arrows for forces/fields/vectors, color-coded components, exam-style illustration"
+
 ---
 
 # "Kinematics: Motion in a Straight Line"

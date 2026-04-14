@@ -9,6 +9,7 @@ weight: 5
 country: nigeria
 generated: "2026-03-24T08:32:07.633860"
 diagramPrompt: "Clean educational diagram showing Light: Reflection and Refraction with clear labels, white background, labeled arrows for forces/fields/vectors, color-coded components, exam-style illustration"
+
 ---
 
 # "Light: Reflection and Refraction"

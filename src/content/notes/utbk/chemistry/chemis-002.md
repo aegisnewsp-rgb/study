@@ -8,7 +8,9 @@ topicName: Alcohols and Ethers
 weight: 3
 country: utbk
 generated: "2026-03-25T17:00:00"
-diagramPrompt: "Clear scientific diagram of alcohol and ether molecular structures with functional group labels, reaction mechanisms, white background, color-coded atoms, exam textbook style
+diagramPrompt: "Clear scientific diagram of alcohol and ether molecular structures with functional group labels, reaction mechanisms, white background, color-coded atoms, exam textbook style"
+
+
 ---
 
 # Alcohols and Ethers

@@ -11,7 +11,8 @@ topicName: Coordinate Geometry and Graphs
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.669176"
-diagramPrompt: Mathematical diagram showing Coordinate Geometry and Graphs concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style
+diagramPrompt: "Mathematical diagram showing Coordinate Geometry and Graphs concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style"
+
 
 
 

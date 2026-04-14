@@ -8,7 +8,8 @@ topicName: Logical Deduction (Syllogisms)
 weight: 5
 country: pakistan
 generated: "2026-03-24T08:32:08.020972"
-diagramPrompt: "Educational diagram illustrating Logical Deduction (Syllogisms) with clear labels, white background, exam-style illustration
+diagramPrompt: "Educational diagram illustrating Logical Deduction (Syllogisms) with clear labels, white background, exam-style illustration"
+
 ---
 
 # Logical Deduction (Syllogisms)

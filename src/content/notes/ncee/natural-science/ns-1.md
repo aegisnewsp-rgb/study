@@ -16,6 +16,7 @@ diagramPrompt: "Educational diagram illustrating Living Things: Characteristics 
 
 
 
+
 ---
 # "Living Things: Characteristics and Classification"
 

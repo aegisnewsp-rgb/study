@@ -8,7 +8,8 @@ topicName: Pakistan History
 weight: 4
 country: pakistan
 generated: "2026-03-24T08:32:08.029804"
-diagramPrompt: "Educational diagram illustrating Pakistan History with clear labels, white background, exam-style illustration
+diagramPrompt: "Educational diagram illustrating Pakistan History with clear labels, white background, exam-style illustration"
+
 ---
 
 # Pakistan History

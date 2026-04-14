@@ -11,7 +11,8 @@ topicName: Quadratic Equations
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.548707"
-diagramPrompt: Mathematical diagram showing Quadratic Equations concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style
+diagramPrompt: "Mathematical diagram showing Quadratic Equations concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style"
+
 
 
 

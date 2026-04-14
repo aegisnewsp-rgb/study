@@ -8,7 +8,8 @@ topicName: Logical Reasoning Caselets
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-diagramPrompt: A logic puzzle page showing conditions for a seating arrangement problem with 6 people around a circular table, with directional indicators and partial placement information, styled as a typical MAT exam logical reasoning passage requiring deduction from multiple conditional statements.
+diagramPrompt: "A logic puzzle page showing conditions for a seating arrangement problem with 6 people around a circular table, with directional indicators and partial placement information, styled as a typical MAT exam logical reasoning passage requiring deduction from multiple conditional statements."
+
 ---
 
 # Logical Reasoning Caselets

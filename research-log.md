@@ -2014,3 +2014,11 @@ Checked: health (200/200), YAML None errors (none), placeholder files (3 small b
 - **Fixed**: Replaced with full Cost Theory content (types of costs, average/marginal costs, law of variable proportions, long-run costs, exam tips)
 - **Commit**: 02d60f0c
 - **Note**: Two other placeholder candidates remain: indian-006.md, indian-005.md (also <1500 bytes, UP-PSC subjects)
+
+---
+**2026-04-14 04:46 UTC**
+- Health: ✅ site returning 200 on / and /exams/neet/
+- Checked: YAML errors (none), 2024 year refs in pages (0 issues), missing examPattern metadata (0 issues)
+- **Issue found:** Small placeholder content in `src/content/notes/up-psc/indian-polity/indian-004.md` (1472 bytes, generic "Topic 4" placeholder text)
+- **Fixed:** Replaced with substantive Government Structure content covering parliamentary system, federal structure, Governor/CM/Council of Ministers, legislative bodies, Articles 356, Part VI Constitution
+- Commit: `4d377208`

@@ -2172,3 +2172,9 @@ Checked: health (200/200), YAML None errors (none), placeholder files (3 small b
 - anatomy.ts: replaced with real topics (Cell Biology, Upper Limb, Thorax, Lower Limb, Back, Head/Neck/Brain, Embryology, Histology, Surface Anatomy, Neuroanatomy, General Anatomy, Applied Anatomy)
 - pharmacology.ts: replaced with real topics (General Pharmacology, Autonomic, CNS, Cardiovascular, Renal/Respiratory, GI/Endocrine, Antimicrobial, Immunology/Toxicology, Clinical Pharmacology, Recent Drugs)
 **Commit:** 44232b4e — pushed successfully.
+
+## 2026-04-15 20:37 UTC
+**Health:** studyroadmap.in/ 200, studyroadmap.in/exams/neet/ 200 ✅
+**Checked:** Small files (<1500 bytes) in src/content/notes/ — found 215 placeholder files
+**Fixed:** `src/content/notes/up-psc/history/histor-006.md` — topicName was "Topic 6" (placeholder), body was generic placeholder text. Replaced with full "Art and Culture of India" content tailored for UPPSC PCS (temple architecture, dance forms, music, UNESCO sites, UP-specific culture).
+**Remaining:** 214 small placeholder files still need content (histor-008, and others across exams).

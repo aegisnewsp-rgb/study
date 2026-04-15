@@ -2099,3 +2099,10 @@ Checked: health (200/200), YAML None errors (none), placeholder files (3 small b
 - **Root cause**: Note generated with "Topic 1" as placeholder name; `history.ts` data also had `name: 'Topic 1'` for `histor-001`
 - **Fix**: Rewrote `histor-001.md` with real Ancient Indian History content (Indus Valley, Vedic period, Mahajanapadas, Maurya, Gupta) and updated topicName to "Ancient Indian History"
 - **Committed**: `d7b3b99b` — Fix placeholder content in histor-001.md: Topic 1 → Ancient Indian History
+
+---
+**2026-04-15 14:37 UTC**
+- **Health**: studyroadmap.in/ → 200, studyroadmap.in/exams/neet/ → 200 ✅
+- **Checked**: Placeholder files (size <1500c) → found `up-psc/indian-polity/indian-009.md` (1474 bytes) with placeholder body text ("Topic 9 is an important topic...")
+- **Fix**: Rewrote `indian-009.md` with real Local Self Government content (73rd Amendment, Panchayati Raj, Gram Sabha, PESA Act 1996)
+- **Committed**: `4c03955a` — Fix placeholder content in indian-009.md: Local Self Government

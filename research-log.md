@@ -2202,3 +2202,11 @@ Checked: health (200/200), YAML None errors (none), placeholder files (3 small b
 **Issue found:** Placeholder note in src/content/notes/up-psc/history/histor-003.md — file has `topicName: Modern Indian History` in frontmatter but all three tier sections used generic "Topic 3" placeholder text with no real content.
 **Fix:** Replaced placeholder with substantive Modern Indian History content for UPPSC PCS covering British policies (1857–1947), socio-religious reform, phases of nationalist movement, Gandhi-era movements, partition and independence, UP-specific connections, and answer-writing tips.
 **Commit:** 2b452363
+
+## 2026-04-15 22:37 UTC
+- Health: studyroadmap.in/ → 200, /exams/neet/ → 200 ✓
+- Found: 3 placeholder note files (1454 bytes each, generic text) in src/content/notes/up-psc/history/
+  - histor-004.md (Topic 4), histor-007.md (Topic 7), histor-008.md (Topic 8)
+- Fixed: histor-008.md — replaced placeholder with real content on 'World History and Post-Independence India' (relevant to UPPSC PCS GS Paper 1)
+- Git commit: 77f5dd1f
+- Remaining: histor-004.md and histor-007.md still need real content

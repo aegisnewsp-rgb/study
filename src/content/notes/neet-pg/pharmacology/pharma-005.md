@@ -1,8 +1,8 @@
 ---
 exam: neet-pg
 examName: NEET PG
-subject: botany
-subjectName: Botany
+subject: pharmacology
+subjectName: Pharmacology
 topic: pharma-005
 topicName: Topic 5
 weight: 3

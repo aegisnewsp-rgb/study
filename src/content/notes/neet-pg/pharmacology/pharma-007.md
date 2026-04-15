@@ -1,8 +1,8 @@
 ---
 exam: neet-pg
 examName: NEET PG
-subject: botany
-subjectName: Botany
+subject: pharmacology
+subjectName: Pharmacology
 topic: pharma-007
 topicName: Topic 7
 weight: 3

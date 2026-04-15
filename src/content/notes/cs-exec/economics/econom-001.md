@@ -3,6 +3,7 @@ exam: cs-exec
 examName: CS Executive
 subject: economics
 subjectName: Economics
+description: Introduction to Economics, covering basic concepts, scope, and fundamental principles for CS Executive exam preparation.
 topic: econom-001
 topicName: Introduction to Economics
 weight: 3

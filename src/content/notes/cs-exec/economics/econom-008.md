@@ -3,6 +3,7 @@ exam: cs-exec
 examName: CS Executive
 subject: economics
 subjectName: Economics
+description: Cost Theory covering types of costs, cost curves, short-run and long-run cost analysis, and economies of scale for CS Executive Economics.
 topic: econom-008
 topicName: Cost Theory
 weight: 3

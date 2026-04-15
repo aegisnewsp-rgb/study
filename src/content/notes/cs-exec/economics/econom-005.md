@@ -3,6 +3,7 @@ exam: cs-exec
 examName: CS Executive
 subject: economics
 subjectName: Economics
+description: Theory of Production covering production functions, laws of returns, and factor inputs for CS Executive Economics exam.
 topic: econom-005
 topicName: Theory of Production
 weight: 3

@@ -3,6 +3,7 @@ exam: cs-exec
 examName: CS Executive
 subject: economics
 subjectName: Economics
+description: Supply and Market Equilibrium covering market equilibrium, price determination, and interaction of demand and supply forces for CS Executive Economics.
 topic: econom-007
 topicName: Supply and Market Equilibrium
 weight: 3

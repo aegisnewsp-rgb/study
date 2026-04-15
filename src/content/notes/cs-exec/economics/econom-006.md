@@ -3,6 +3,7 @@ exam: cs-exec
 examName: CS Executive
 subject: economics
 subjectName: Economics
+description: Demand Analysis covering law of demand, price elasticity of demand, income elasticity, and factors influencing consumer demand for CS Executive exam.
 topic: econom-006
 topicName: Demand Analysis
 weight: 3

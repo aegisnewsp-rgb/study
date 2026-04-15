@@ -3,6 +3,7 @@ exam: cs-exec
 examName: CS Executive
 subject: economics
 subjectName: Economics
+description: Demand and Supply Analysis covering price elasticity, market equilibrium, and factors affecting demand and supply for CS Executive Economics.
 topic: econom-002
 topicName: Demand and Supply Analysis
 weight: 3

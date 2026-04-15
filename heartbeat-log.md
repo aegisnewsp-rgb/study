@@ -31,3 +31,4 @@ OK
 ### 2026-04-15 15:09 UTC — studyroadmap.in DOWN (HTTP 404)
 - studyroadmap.in: 404 ❌
 - deploy (172.17.0.1:9000): 200 ✅
+2026-04-15 16:25 UTC — deploy /deploy returned 404 (down)

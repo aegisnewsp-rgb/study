@@ -24,3 +24,4 @@ OK
 [2026-04-14 10:58 UTC] studyroadmap.in → 200 ✓ | deploy → 404 DOWN
 [2026-04-14 11:19 UTC] studyroadmap.in: 200 ✓ | deploy: 404 DOWN
 [2026-04-14 11:24 UTC] Deploy (172.17.0.1:9000) returned 404 — site is up but deploy probe is down
+[2026-04-15 13:36 UTC] Deploy service at 172.17.0.1:9000/deploy returned 404 (DOWN)

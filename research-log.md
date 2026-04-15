@@ -2210,3 +2210,10 @@ Checked: health (200/200), YAML None errors (none), placeholder files (3 small b
 - Fixed: histor-008.md — replaced placeholder with real content on 'World History and Post-Independence India' (relevant to UPPSC PCS GS Paper 1)
 - Git commit: 77f5dd1f
 - Remaining: histor-004.md and histor-007.md still need real content
+
+## 2026-04-15 23:07 UTC
+**Health:** site ✓ (200, 200), exams/neet ✓ (200)
+**Checked:** Placeholders (small files <1500c) in src/content/notes/
+**Issue found:** NEET PG pharmacology notes (pharma-005/006/007/008/009/010) had wrong subject: `botany` + `Botany` instead of `pharmacology` + `Pharmacology`
+**Fix:** Corrected subject/subjectName in 6 pharmacology .md files
+**Commit:** 810ee809 — fix: correct subject/subjectName in neet-pg pharmacology notes (were botany)

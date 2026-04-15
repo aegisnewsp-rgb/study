@@ -2,7 +2,7 @@
 exam: slmc
 examName: SLMC Medical (Sri Lanka)
 subject: organic-chemistry
-subjectName: ('chemistry', 'Chemistry')
+subjectName: Chemistry
 topic: chemis-011
 topicName: Amines & Amides
 weight: 3

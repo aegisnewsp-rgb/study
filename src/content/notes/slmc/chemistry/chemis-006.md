@@ -2,7 +2,7 @@
 exam: slmc
 examName: SLMC Medical (Sri Lanka)
 subject: organic-chemistry
-subjectName: ('chemistry', 'Chemistry')
+subjectName: Chemistry
 topic: chemis-006
 topicName: Alkenes
 weight: 3

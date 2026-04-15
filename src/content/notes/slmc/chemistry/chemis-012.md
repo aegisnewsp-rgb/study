@@ -2,7 +2,7 @@
 exam: slmc
 examName: SLMC Medical (Sri Lanka)
 subject: organic-chemistry
-subjectName: ('chemistry', 'Chemistry')
+subjectName: Chemistry
 topic: chemis-012
 topicName: Biomolecules (Carbohydrates & Proteins)
 weight: 3

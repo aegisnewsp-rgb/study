@@ -2,7 +2,7 @@
 exam: slmc
 examName: SLMC Medical (Sri Lanka)
 subject: organic-chemistry
-subjectName: ('chemistry', 'Chemistry')
+subjectName: Chemistry
 topic: chemis-003
 topicName: IUPAC Nomenclature
 weight: 3
@@ -223,7 +223,7 @@ On exams, common names often appear alongside IUPAC names, so I should recognize
 exam: slmc
 examName: SLMC Medical (Sri Lanka)
 subject: organic-chemistry
-subjectName: ('chemistry', 'Chemistry')
+subjectName: Chemistry
 topic: chemis-004
 topicName: Isomerism in Organic Chemistry
 weight: 3

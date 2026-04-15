@@ -2178,3 +2178,9 @@ Checked: health (200/200), YAML None errors (none), placeholder files (3 small b
 **Checked:** Small files (<1500 bytes) in src/content/notes/ — found 215 placeholder files
 **Fixed:** `src/content/notes/up-psc/history/histor-006.md` — topicName was "Topic 6" (placeholder), body was generic placeholder text. Replaced with full "Art and Culture of India" content tailored for UPPSC PCS (temple architecture, dance forms, music, UNESCO sites, UP-specific culture).
 **Remaining:** 214 small placeholder files still need content (histor-008, and others across exams).
+
+## 2026-04-15 21:03 UTC
+**Health:** studyroadmap.in/ → 200, /exams/ → 200, /notes/ → 200, sitemap-0.xml → 200 ✅
+**Research log:** No critical unresolved issues from growth agent.
+**Issue found & fixed:** `src/content/notes/sbi-po/general-awareness/genera-002.md` had `topicName: "Topic 2"` (placeholder) — correct topic from content body is "RBI's Monetary Policy Framework".
+- Commit: 6362256c — pushed successfully.

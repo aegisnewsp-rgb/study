@@ -2075,3 +2075,14 @@ Checked: health (200/200), YAML None errors (none), placeholder files (3 small b
 **Checked:** YAML frontmatter (all properly closed), no isPlaceholder:true remaining, no PLACEHOLDER text, exam data files structure checked, stale date references in content
 **Found:** AY 2024-25 references in cs-exec/taxation content — intentionally historical, no fix needed
 **Fixed:** Nothing — all clean
+
+## 2026-04-15 13:37 UTC
+**Health check:** Site 200 ✓ | NEET 200 ✓
+**Issue found:** up-psc/indian-polity/indian-006.md — placeholder text, only 1490 bytes, lacked real exam content
+**Fix:** Replaced shallow placeholder with substantive content: key articles, landmark cases (Kesavananda Bharati, Minerva Motel, ADM Jabalpur), HC/SC jurisdiction differences, Collegium system, PIL conditions, exam pattern notes for UPPSC PCS, common mistakes, standard references
+**Commit:** 1c86a524
+
+## 2026-04-15 13:38 UTC
+**Health:** ✅ studyroadmap.in/ (200), /exams/ (200), /notes/ (200), sitemap-0.xml (200)
+**Checked:** YAML frontmatter (all properly closed), no isPlaceholder:true, no PLACEHOLDER text, exam meta.json files (examPattern + eligibility present in all), stale date references in strategy pages
+**Fixed:** Nothing — all clean

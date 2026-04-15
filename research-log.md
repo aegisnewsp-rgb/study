@@ -2143,3 +2143,9 @@ Checked: health (200/200), YAML None errors (none), placeholder files (3 small b
 **Health:** studyroadmap.in/ → 200, studyroadmap.in/exams/neet/ → 200 ✅
 **Checked:** YAML None values, placeholder notes, stale 2024 years, missing examPattern
 **Fix:** 12 SLMC chemistry notes had malformed `subjectName: ('chemistry', 'Chemistry')` (quoted tuple string instead of simple string). Corrected to `subjectName: Chemistry` across all 12 files. Committed as e0567e4d.
+
+
+## 2026-04-15 18:37 UTC
+**Health:** studyroadmap.in/ → 200, studyroadmap.in/exams/neet/ → 200 ✅
+**Checked:** YAML None values (none), placeholder notes (3 small files found), stale 2024 years (OK - contextual), missing examPattern (N/A)
+**Fix:** `src/data/exams/india/subjects/history.ts` — placeholder topic names "Topic 1" through "Topic 10" replaced with proper names (Ancient Indian History, Medieval Indian History, etc.). Committed as 452dc4e2.

@@ -4,7 +4,7 @@ examName: UPPSC PCS
 subject: gs1
 subjectName: General Studies
 topic: histor-003
-topicName: Topic 3
+topicName: Modern Indian History
 weight: 3
 country: up
 generated: "2026-03-25T17:00:00"

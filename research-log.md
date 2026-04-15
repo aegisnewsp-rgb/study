@@ -2217,3 +2217,34 @@ Checked: health (200/200), YAML None errors (none), placeholder files (3 small b
 **Issue found:** NEET PG pharmacology notes (pharma-005/006/007/008/009/010) had wrong subject: `botany` + `Botany` instead of `pharmacology` + `Pharmacology`
 **Fix:** Corrected subject/subjectName in 6 pharmacology .md files
 **Commit:** 810ee809 — fix: correct subject/subjectName in neet-pg pharmacology notes (were botany)
+
+## 2026-04-15 23:37 UTC
+**Health:** studyroadmap.in/ → 200, /exams/neet/ → 200 ✓
+
+**Issue found:** Placeholder content in 
+- topicName was generic "Topic 7" instead of proper subject name
+- All three content tiers had only placeholder text (generic "Topic 7" references with no real content)
+- File was 1454 bytes — tiny compared to neighboring files (histor-001 at 4755 bytes)
+
+**Fix applied:** Replaced placeholder "Topic 7" with substantive content for **Medieval India - Sultanate Period** (UPPSC PCS):
+- 🟢 Lite: Core concept (Sultanate period 1206–1526), high-yield points on iqta system and administrative innovations
+- 🟡 Standard: Five dynasties breakdown (Slave, Khalji, Tughlaq, Sayyid, Lodi) with key admin points
+- 🔴 Extended: Detailed coverage from Qutb-ud-din Aibak through Babur at Panipat, plus problem-solving tips
+
+**Committed:** c66407fe
+
+
+## 2026-04-15 23:37 UTC
+**Health:** studyroadmap.in/ → 200, /exams/neet/ → 200 ✓
+
+**Issue found:** Placeholder content in `src/content/notes/up-psc/history/histor-007.md`
+- topicName was generic "Topic 7" instead of proper subject name
+- All three content tiers had only placeholder text
+- File was 1454 bytes — tiny vs neighbors (histor-001 at 4755 bytes)
+
+**Fix applied:** Replaced placeholder "Topic 7" with **Medieval India - Sultanate Period** content:
+- Lite: Sultanate period 1206–1526, iqta system, admin innovations
+- Standard: Five dynasties (Slave→Khalji→Tughlaq→Sayyid→Lodi)
+- Extended: Full coverage from Qutb-ud-din Aibak to Babur at Panipat
+
+**Committed:** c66407fe

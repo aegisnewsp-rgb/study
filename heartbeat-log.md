@@ -27,3 +27,7 @@ OK
 [2026-04-15 13:36 UTC] Deploy service at 172.17.0.1:9000/deploy returned 404 (DOWN)
 [2026-04-15 14:24 UTC] site=200 ✅ | deploy=http://172.17.0.1:9000/deploy → 404 (DOWN)
 - `2026-04-15 14:39 UTC` — Deploy endpoint `http://172.17.0.1:9000/deploy` returned 404 (deploy down or unreachable)
+
+### 2026-04-15 15:09 UTC — studyroadmap.in DOWN (HTTP 404)
+- studyroadmap.in: 404 ❌
+- deploy (172.17.0.1:9000): 200 ✅

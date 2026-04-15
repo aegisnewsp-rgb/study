@@ -2121,3 +2121,12 @@ Checked: health (200/200), YAML None errors (none), placeholder files (3 small b
 - Fixed: Added description fields to all 6 files
 - Commit: 674aa51c
 
+
+## 2026-04-15 17:07 UTC
+**Health:** studyroadmap.in/ ✅ 200, studyroadmap.in/exams/neet/ ✅ 200
+**Checked:** 
+- Placeholder files (find -size <1500c): found histor-005.md (1473 bytes), histor-009.md (1454 bytes), etc.
+- All `histor-002` through `histor-010` have `topicName: Topic X` with generic placeholder content
+- `histor-001` is the only properly named file (Ancient Indian History)
+**Fixed:** `src/content/notes/up-psc/history/histor-005.md` — replaced generic "Topic 5" placeholder with full Medieval Indian History content (Delhi Sultanate, Mughal Empire, Bhakti-Sufi movements, administrative systems) tailored for UPPSC PCS
+**Commit:** d500cd03

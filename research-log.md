@@ -2149,3 +2149,11 @@ Checked: health (200/200), YAML None errors (none), placeholder files (3 small b
 **Health:** studyroadmap.in/ → 200, studyroadmap.in/exams/neet/ → 200 ✅
 **Checked:** YAML None values (none), placeholder notes (3 small files found), stale 2024 years (OK - contextual), missing examPattern (N/A)
 **Fix:** `src/data/exams/india/subjects/history.ts` — placeholder topic names "Topic 1" through "Topic 10" replaced with proper names (Ancient Indian History, Medieval Indian History, etc.). Committed as 452dc4e2.
+
+## 2026-04-15 19:07 UTC
+- Health: site ✅ (200/200)
+- YAML errors: none
+- Placeholder notes: 3 found (up-psc/history/histor-008, histor-009, up-psc/indian-polity/indian-007) — need regeneration, not quick-fixable here
+- Year references in pages: neet-strategy.astro has "2024 and 2025" correctly referencing past papers — no issue
+- Missing examPattern: types.ts/index.ts — not exam data files, no issue
+**Action:** None — all checks OK or require build-time regeneration.

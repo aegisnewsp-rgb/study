@@ -2092,3 +2092,10 @@ Checked: health (200/200), YAML None errors (none), placeholder files (3 small b
 **Checked:** YAML frontmatter (all properly closed), no isPlaceholder:true, no PLACEHOLDER text, exam data files (examPattern + eligibility present in all), stale date references in strategy pages
 **Found:** Nothing — all clean
 **Fixed:** Nothing
+
+## 2026-04-15 14:07 UTC
+- **Health**: studyroadmap.in/ → 200, studyroadmap.in/exams/neet/ → 200 ✅
+- **Checked**: Placeholder files (size <1500c) → found `up-psc/history/histor-001.md` (1454 bytes) with `topicName: Topic 1` and generic placeholder body text
+- **Root cause**: Note generated with "Topic 1" as placeholder name; `history.ts` data also had `name: 'Topic 1'` for `histor-001`
+- **Fix**: Rewrote `histor-001.md` with real Ancient Indian History content (Indus Valley, Vedic period, Mahajanapadas, Maurya, Gupta) and updated topicName to "Ancient Indian History"
+- **Committed**: `d7b3b99b` — Fix placeholder content in histor-001.md: Topic 1 → Ancient Indian History

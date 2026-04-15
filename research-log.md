@@ -2138,3 +2138,8 @@ Checked: health (200/200), YAML None errors (none), placeholder files (3 small b
 - Found: histor-002.md, histor-003.md, histor-005–008.md, histor-009.md, histor-010.md all are generic placeholder content (topicName: Topic X, no real content)
 - Fixed: Replaced histor-002.md with full Medieval Indian History content (~8.8KB, 3-tier depth)
 - Commit: 2fe5473d
+
+## 2026-04-15 18:07 UTC
+**Health:** studyroadmap.in/ → 200, studyroadmap.in/exams/neet/ → 200 ✅
+**Checked:** YAML None values, placeholder notes, stale 2024 years, missing examPattern
+**Fix:** 12 SLMC chemistry notes had malformed `subjectName: ('chemistry', 'Chemistry')` (quoted tuple string instead of simple string). Corrected to `subjectName: Chemistry` across all 12 files. Committed as e0567e4d.

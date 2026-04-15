@@ -2196,3 +2196,9 @@ Checked: health (200/200), YAML None errors (none), placeholder files (3 small b
 **Research log:** No critical unresolved issues from growth agent.
 **Checks:** YAML frontmatter diagramPrompt unclosed quotes — none found. examPattern/eligibility fields — all exam data files have them. Broken internal links — none found. Stale date references — none found. Small placeholder files remain (214 in up-psc/history, geography), but no quick-fix candidates found this round.
 **Fixed:** None.
+
+## 2026-04-15 22:07 UTC
+**Health:** studyroadmap.in/ → 200, /exams/neet/ → 200 ✅
+**Issue found:** Placeholder note in src/content/notes/up-psc/history/histor-003.md — file has `topicName: Modern Indian History` in frontmatter but all three tier sections used generic "Topic 3" placeholder text with no real content.
+**Fix:** Replaced placeholder with substantive Modern Indian History content for UPPSC PCS covering British policies (1857–1947), socio-religious reform, phases of nationalist movement, Gandhi-era movements, partition and independence, UP-specific connections, and answer-writing tips.
+**Commit:** 2b452363

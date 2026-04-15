@@ -2164,3 +2164,11 @@ Checked: health (200/200), YAML None errors (none), placeholder files (3 small b
 - Found: histor-003.md had `topicName: Topic 3` (placeholder) → should be "Modern Indian History" per subjects/history.ts
 - Fix: Replaced `topicName: Topic 3` → `topicName: Modern Indian History`
 - Commit: f7e9c135
+
+## 2026-04-15 20:03 UTC
+**Health:** studyroadmap.in/ → 200, /exams/ → 200, /notes/ → 200, sitemap-0.xml → 200 ✅
+**Research log:** No critical unresolved issues from growth agent.
+**Issue found & fixed:** INI-CET `anatomy.ts` and `pharmacology.ts` had "Topic 1" through "Topic 10" placeholder names (same pattern as history.ts fixed previously).
+- anatomy.ts: replaced with real topics (Cell Biology, Upper Limb, Thorax, Lower Limb, Back, Head/Neck/Brain, Embryology, Histology, Surface Anatomy, Neuroanatomy, General Anatomy, Applied Anatomy)
+- pharmacology.ts: replaced with real topics (General Pharmacology, Autonomic, CNS, Cardiovascular, Renal/Respiratory, GI/Endocrine, Antimicrobial, Immunology/Toxicology, Clinical Pharmacology, Recent Drugs)
+**Commit:** 44232b4e — pushed successfully.

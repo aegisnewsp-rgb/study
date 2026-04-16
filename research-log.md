@@ -2367,3 +2367,13 @@ FIX: Replaced placeholder Topic 10 in src/content/notes/up-psc/history/histor-01
   - geogra-008.md (1470 bytes)
   - geogra-010.md (1475 bytes)
 - **Fix:** Deleted all 5 stub files — commit 6e3ddba7
+
+---
+## 2026-04-16 11:03 UTC
+- **Health:** ✅ studyroadmap.in → 200, /exams/ → 200, /notes/ → 200, sitemap-0.xml → 200
+- **Note:** Domain is studyroadmap.in (not .com) — curl to .com fails
+- **Stub files:** Found 4 remaining placeholder stubs in up-psc/geography/ (geogra-003, 004, 007, 009) — all <1500 bytes, generic "Topic X" placeholder text
+- **Fix:** Deleted all 4 stub files — commit 2e23b821, pushed successfully
+- **No "Topic X" placeholders remain** (0 matches in full content tree)
+- **YAML frontmatter:** No unclosed diagramPrompt strings found
+- **Exam data files:** No examPattern/eligibility null values found

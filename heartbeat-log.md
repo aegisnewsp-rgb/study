@@ -66,3 +66,4 @@ Deploy down at 2026-04-15 18:45 UTC
 **Issue:** Deploy service down (404 on /deploy)
 **Site:** studyroadmap.in → 200 OK
 
+[2026-04-16 08:10 UTC] Deploy is DOWN (404)

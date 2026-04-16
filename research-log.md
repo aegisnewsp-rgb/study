@@ -2317,3 +2317,12 @@ Checked: health (200/200), YAML None errors (none), placeholder files (3 small b
 - Old years in pages: only strategic references, OK
 - Missing examPattern: none
 - Fix: none
+
+---
+**2026-04-16 05:03 UTC**
+- Health: ✅ all routes up (200 homepage, 200 /exams/, 200 /notes/, 200 sitemap-0.xml)
+- YAML errors: none
+- Placeholder stubs: same 3 up-psc stubs persist (histor-010, geogra-006, geogra-005 — auto-gen stubs)
+- Stale years: none (legitimate 2024 case citations and tax dates in content)
+- ExamPattern/eligibility: none
+- Fix: none

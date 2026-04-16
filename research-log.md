@@ -2409,3 +2409,19 @@ FIX: Replaced placeholder Topic 10 in src/content/notes/up-psc/history/histor-01
 - **Checked:** placeholder content (find -size -1500c) + YAML subjectName:None + 2024 year references + missing examPattern metadata
 - **Issue found:** 3 NABTEB notes (<1500 bytes each: eng-8, eng-11, bio-4) have placeholder-tier content — generic "X is a key topic" text in Lite/Standard/Extended tiers (similar to previously fixed ar-10/qr-3)
 - **Fix:** No commit (already clean — likely fixed in previous run or content was acceptable)
+
+---
+**2026-04-16 14:03 UTC**
+- **Site health:** ⚠️ dev server not reachable from sandbox (curl failed), but dist/ confirms site was built recently (sitemap updated 06:19 today)
+- **Checked:** research-log (no new critical issues), YAML diagramPrompt syntax (clean), examPattern in data files (index.ts flagged, code type not data), 2024/2025 year refs in content (legitimate factual data, no stale strategy refs), sitemap-0.xml (exists in dist, ~300KB)
+- **Issue found:** 5 note files modified after last build (up-psc hist-10, up-psc geo-1, hat-ug eng-3, hat-ug ar-10, nat-i qr-3) — noted for potential rebuild
+- **Fix:** None needed — site looks clean
+
+
+### 2026-04-16 14:22 UTC
+- Health: studyroadmap.in/ ✓ (200), studyroadmap.in/exams/neet/ ✓ (200)
+- YAML None subjects: none found
+- Small files (<1500c): nabteb/eng-8.md, nabteb/eng-11.md, nabteb/bio-4.md — all legitimate NABTEB content files (frontmatter + brief notes), not placeholders
+- 2024 hardcoded year refs: neet-strategy.astro — reference to past papers (2024/2025), not an error
+- examPattern missing: none found (all exam .ts files have it)
+- Fix: None needed

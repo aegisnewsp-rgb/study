@@ -2385,3 +2385,12 @@ FIX: Replaced placeholder Topic 10 in src/content/notes/up-psc/history/histor-01
 - **Stub/placeholder content:** ✅ no "Topic X" or placeholder text found
 - **research-log issues:** ✅ no unresolved critical issues from growth agent
 - **Fix:** None — all checks passed
+
+2026-04-16 12:22 UTC — Quick check
+- Health: site 200/200 ✓
+- YAML None: none ✓
+- Stub/placeholder files: 3 found (eng-3.md, ar-10.md, qr-3.md)
+- 2024 hardcode: neet-strategy.astro (not fixed, content reference)
+- Missing examPattern: types.ts, nigeria/index.ts, index.ts (code files, not data)
+- FIX: Replaced stub content in src/content/notes/hat-ug/english/eng-3.md (Analogies) with actual subject matter (semantic/logical relationships, exam patterns, practice tips). Commit b7b7a38d.
+

@@ -2466,3 +2466,26 @@ FIX: Replaced placeholder Topic 10 in src/content/notes/up-psc/history/histor-01
 2026-04-16 17:22 UTC | Health: 200/200 ✅ | Issue: placeholder content — NABTEB eng-11.md (Summary Writing) had generic "key topic" text, only 1497 bytes vs 2200+ for fixed files | Fix: committed c5ebd814 — replaced with NABTEB-specific Lite/Standard/Extended tiers covering main idea identification, paraphrasing technique, word limit discipline, and the "no commentary" rule
 
 2026-04-16 18:04 UTC | Health: 200/200/200/200 ✅ | YAML: ✅ Clean (cs-exec files properly quoted) | Research log: no critical issues | examPattern: TypeScript type files expected, not data issues | Fix: None — site is clean
+
+
+**2026-04-16 18:52 UTC**
+- Health check: studyroadmap.in/ ✅ 200, studyroadmap.in/exams/neet/ ✅ 200
+- Checked: YAML None subjects (none) | Placeholders (found 3 thin files)
+- Fix: Replaced placeholder content in  with full Nutrition notes (photosynthesis, mineral nutrition, animal nutrition, deficiency diseases, digestive system)
+- Commit: 6ccb05f8
+
+
+
+**2026-04-16 18:52 UTC**
+- Health check: studyroadmap.in/ ✅ 200, studyroadmap.in/exams/neet/ ✅ 200
+- Checked: YAML None subjects (none) | Placeholders (found 3 thin files)
+- Fix: Replaced placeholder content in nabteb/biology/bio-4.md with full Nutrition notes (photosynthesis, mineral nutrition, animal nutrition, deficiency diseases, digestive system)
+- Commit: 6ccb05f8
+
+
+**2026-04-16 19:03 UTC**
+- Health: studyroadmap.in/ ✅ 200, /exams/ ✅ 200, /notes/ ✅ 200, sitemap-0.xml ✅ 200
+- Research log: no critical unresolved issues
+- YAML: diagramPrompt fields properly closed (checked cs-exec company-law)
+- Stale dates: none found in strategy pages
+- Fix: None — site is clean

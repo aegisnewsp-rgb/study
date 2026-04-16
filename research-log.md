@@ -2449,3 +2449,6 @@ FIX: Replaced placeholder Topic 10 in src/content/notes/up-psc/history/histor-01
 - **Stale dates:** ✅ No 2024/2025 date refs found in content
 - **Draft notes:** ✅ None found
 - **Fix:** None — site is clean
+9f09b28e539aca7179007a53e03ffbdebb2103e9 2026-04-16 16:23:45 +0000 Fix NABTEB eng-8.md placeholder content with specific letter-writing details
+
+2026-04-16 16:22 UTC | Health: 200/200 ✅ | Issue: placeholder content in NABTEB notes (eng-8.md) — generic 'key topic' lines replaced with specific letter-writing details across Lite/Standard/Extended tiers | Fix: committed 9f09b28e

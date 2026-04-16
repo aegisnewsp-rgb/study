@@ -43,3 +43,10 @@
 **Checked:** YAML frontmatter (diagramPrompt — all complete), examPattern/eligibility in exam data (present), stale year refs in strategy pages (none), research-log for unresolved criticals (none)
 **Fixes applied:** None
 **Commit/push:** Skipped (nothing to commit)
+
+## 2026-04-16 22:22 UTC
+- **Health:** studyroadmap.in/ ✅ 200, /exams/neet/ ✅ 200
+- **Checked:** None subjectName errors (none), 2024 in pages (non-critical text), missing examPattern metadata
+- **Found:** 3 placeholder/generic content files under 1500 bytes: neet-pg/biochemistry/bioche-007 (Krebs Cycle), lat/gk/gk-2 (World History), fmge/biochemistry/bioche-005 (Enzymology)
+- **Fixed:** Replaced placeholder content in neet-pg/biochemistry/bioche-007.md with actual Krebs Cycle content (Lite/Standard/Extended tiers with real biochemistry facts, enzymes, ATP yield, anaplerotic reactions, clinical correlations)
+- **Commit:** b4982b2e

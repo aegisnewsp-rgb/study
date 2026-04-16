@@ -60,3 +60,9 @@ Deploy down at 2026-04-15 18:45 UTC
 [2026-04-16 05:14 UTC] Site up (200). Deploy down (404).
 
 **2026-04-16 05:49 UTC** — Deploy endpoint (172.17.0.1:9000/deploy) returned 404 — deploy appears DOWN. Site (studyroadmap.in) is 200 OK.
+## Heartbeat Log
+
+**Time:** 2026-04-16 05:59 UTC
+**Issue:** Deploy service down (404 on /deploy)
+**Site:** studyroadmap.in → 200 OK
+

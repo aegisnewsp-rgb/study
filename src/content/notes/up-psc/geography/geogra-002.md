@@ -4,7 +4,7 @@ examName: UPPSC PCS
 subject: gs1
 subjectName: General Studies
 topic: geogra-002
-topicName: Topic 2
+topicName: Rajasthan Geography
 weight: 3
 country: up
 generated: "2026-03-25T17:00:00"

@@ -4,7 +4,7 @@ examName: UPPSC PCS
 subject: gs1
 subjectName: General Studies
 topic: geogra-008
-topicName: Topic 8
+topicName: Environmental Geography
 weight: 3
 country: up
 generated: "2026-03-25T17:00:00"

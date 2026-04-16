@@ -4,7 +4,7 @@ examName: UPPSC PCS
 subject: gs1
 subjectName: General Studies
 topic: geogra-004
-topicName: Topic 4
+topicName: Population and Settlement Geography
 weight: 3
 country: up
 generated: "2026-03-25T17:00:00"

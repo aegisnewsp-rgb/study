@@ -58,3 +58,5 @@ Deploy down at 2026-04-15 18:45 UTC
 [2026-04-16 05:04 UTC] Site up (200). Deploy down (404).
 
 [2026-04-16 05:14 UTC] Site up (200). Deploy down (404).
+
+**2026-04-16 05:49 UTC** — Deploy endpoint (172.17.0.1:9000/deploy) returned 404 — deploy appears DOWN. Site (studyroadmap.in) is 200 OK.

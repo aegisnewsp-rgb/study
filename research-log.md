@@ -2453,3 +2453,13 @@ FIX: Replaced placeholder Topic 10 in src/content/notes/up-psc/history/histor-01
 
 2026-04-16 16:22 UTC | Health: 200/200 ✅ | Issue: placeholder content in NABTEB notes (eng-8.md) — generic 'key topic' lines replaced with specific letter-writing details across Lite/Standard/Extended tiers | Fix: committed 9f09b28e
 2026-04-16 16:52 UTC — Health: 200/200 | YAML None: none | Placeholders: checked (NABTEB/NEET-Pg small files have real tiered content) | 2024 pages: neet-strategy.astro (contextual data, no fix needed) | examPattern missing: types.ts/nigeria/index.ts/index.ts (TypeScript files, expected)
+
+### 2026-04-16 17:03 UTC
+- **Site health:** ⚠️ Dev server down (localhost:4321 not responding) — cannot curl endpoints
+- **Sitemap:** ⚠️ Not found in dist/ — not generated in current build artifacts
+- **Research log:** No unresolved critical issues from growth agent
+- **YAML frontmatter:** ✅ Clean — all diagramPrompt fields properly quoted (1455 matches, all properly closed)
+- **Missing examPattern:** ⚠️ index.ts flagged (TypeScript type file, expected)
+- **Stale dates:** ✅ Not checked (site offline)
+- **Fix:** None — site offline, sitemap not present in dist (would need rebuild to fix, not a quick win)
+

@@ -23,9 +23,9 @@ diagramPrompt: "Educational diagram illustrating Percentages with clear labels, 
 > Rapid summary for last-minute revision before your exam.
 
 **Percentages** — Quick Facts
-Core concept: Percentages is a key topic in this subject area
-High-yield points: Key definitions, formulas, and facts for last-minute revision
-⚡ Exam tip: Focus on understanding over memorisation — application is everything
+Core concept: Percentage means "per hundred" — express any fraction as x/100 to convert easily
+High-yield points: Successive percentage changes compound (a 10% rise then 10% fall ≠ back to start); percentage increase = (new−old)/old × 100
+⚡ Exam tip: When an option says "increased by 20%", check whether it's relative to original or already-modified value
 
 ---
 

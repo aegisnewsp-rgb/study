@@ -2274,3 +2274,9 @@ Checked: health (200/200), YAML None errors (none), placeholder files (3 small b
   - genera-009: "Current Banking and Economic Affairs"
   - genera-010: "General Awareness — Topic 10" (no section heading found, used fallback)
 - **Commit**: 9f70a483
+
+## 2026-04-16 01:07 UTC
+**Site health:** 200 / 200 ✅  
+**Checked:** YAML errors (none), placeholders (found), wrong years (skipped), missing metadata (skipped)  
+**Fix:** up-psc/history/histor-004.md — replaced generic placeholder "Topic 4" with real content for **Delhi Sultanate** (1206–1526, four dynasties, key facts, exam tips, study strategy)  
+**Commit:** 842016ed

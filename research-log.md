@@ -50,3 +50,9 @@
 - **Found:** 3 placeholder/generic content files under 1500 bytes: neet-pg/biochemistry/bioche-007 (Krebs Cycle), lat/gk/gk-2 (World History), fmge/biochemistry/bioche-005 (Enzymology)
 - **Fixed:** Replaced placeholder content in neet-pg/biochemistry/bioche-007.md with actual Krebs Cycle content (Lite/Standard/Extended tiers with real biochemistry facts, enzymes, ATP yield, anaplerotic reactions, clinical correlations)
 - **Commit:** b4982b2e
+
+## 2026-04-16 23:04 UTC
+**Health:** studyroadmap.in ✅ 200 (homepage, /exams/, /notes/); sitemap-0.xml dist/ not built yet (expected — no recent deploy)
+**Checked:** YAML frontmatter (diagramPrompt — all complete across cs-exec), examPattern/eligibility in exam data (present), stale year refs (2024/25 in taxation/economics are correct live data), broken internal links (none found)
+**Fixes applied:** None
+**Commit/push:** Skipped (nothing to commit)

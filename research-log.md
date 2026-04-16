@@ -23,3 +23,17 @@
 **Fixes applied:** None (no issues requiring intervention).
 
 **Commit/push:** Skipped (nothing to commit).
+
+## 2026-04-16 20:22 UTC
+**Health:** site ✓ (200/200)
+**Checked:** Small placeholder notes under 1500 bytes
+- bioche-005.md (1465b) — Enzymology: placeholder text (generic phrases like "Core concept: Enzymology is an important topic")
+- bioche-007.md (1474b) — Krebs Cycle: placeholder
+- pharma-010.md (1429b) — Topic 10: placeholder (says "Botany" but it's pharmacology)
+**Fixed:** bioche-005.md — expanded with real Enzymology content:
+  - 6-class enzyme classification with examples
+  - Michaelis-Menten kinetics, Km/Vmax, Lineweaver-Burk
+  - Inhibition types (competitive/non-competitive/uncompetitive)
+  - Cofactors, allosteric regulation, clinical relevance
+  (~3600 bytes replacing ~1465 byte placeholder)
+**Commit:** bcb4f063

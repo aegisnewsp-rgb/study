@@ -1,11 +1,6 @@
 # Heartbeat Log
 
-## 2026-04-16
-
-- **14:14 UTC** — studyroadmap.in: 200 ✓ | deploy: 404 ✗ (still down since last check, no new occurrence logged)- **14:24 UTC** — studyroadmap.in: 200 ✓ | deploy: 404 ✗ (still down since 14:14 UTC, no new occurrence)
-Deploy down at 2026-04-16 16:20 UTC — status 404
-Deploy DOWN at 2026-04-16 16:55 UTC — studyroadmap.in=200, deploy /deploy=404
-
-## 2026-04-16 17:25 UTC — Deploy Down Detected
-- site (studyroadmap.in): **200 OK**
-- deploy (172.17.0.1:9000): **404 — service not responding**
+## 2026-04-16 17:55 UTC
+- studyroadmap.in: 200 ✅
+- deploy (172.17.0.1:9000/deploy): 404 (down since previous check)
+- News check: skipped (< 55 min since last run at 17:50:49 UTC)

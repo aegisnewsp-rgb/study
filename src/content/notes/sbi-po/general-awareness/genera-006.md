@@ -4,7 +4,7 @@ examName: "SBI PO"
 subject: awareness
 subjectName: ('awareness', 'General Awareness')
 topic: genera-006
-topicName: "Topic 6"
+topicName: "International Finance and Organizations"
 weight: 3
 country: sbi
 generated: "2026-03-25T17:00:00"

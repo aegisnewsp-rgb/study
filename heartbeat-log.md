@@ -43,3 +43,5 @@ Deploy down at 2026-04-15 18:45 UTC
 ---
 2026-04-15 23:26 UTC | site=200 | deploy=404 (DOWN)
 [2026-04-15 23:51 UTC] Deploy endpoint DOWN (got 404, expected 200). Main site https://studyroadmap.in/ is healthy (200).
+
+**2026-04-16 00:28 UTC** | studyroadmap.in: 200 ✅ | deploy (portainer): 404 ❌ (down)

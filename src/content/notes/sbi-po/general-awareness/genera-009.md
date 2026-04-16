@@ -4,7 +4,7 @@ examName: "SBI PO"
 subject: awareness
 subjectName: ('awareness', 'General Awareness')
 topic: genera-009
-topicName: "Topic 9"
+topicName: "Current Banking and Economic Affairs"
 weight: 3
 country: sbi
 generated: "2026-03-25T17:00:00"

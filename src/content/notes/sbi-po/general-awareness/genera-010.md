@@ -4,7 +4,7 @@ examName: SBI PO
 subject: awareness
 subjectName: ('awareness', 'General Awareness')
 topic: genera-010
-topicName: Topic 10
+topicName: "General Awareness — Topic 10"
 weight: 3
 country: sbi
 generated: "2026-03-25T17:00:00"

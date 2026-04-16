@@ -2394,3 +2394,11 @@ FIX: Replaced placeholder Topic 10 in src/content/notes/up-psc/history/histor-01
 - Missing examPattern: types.ts, nigeria/index.ts, index.ts (code files, not data)
 - FIX: Replaced stub content in src/content/notes/hat-ug/english/eng-3.md (Analogies) with actual subject matter (semantic/logical relationships, exam patterns, practice tips). Commit b7b7a38d.
 
+
+---
+**2026-04-16 12:52 UTC**
+- **Site health:** ✅ 200, 200
+- **Checked:** placeholder content in small notes (all <1500 bytes: ar-10, qr-3, eng-8)
+- **Issue found:** Lite-tier "Core concept" fields had generic placeholder text "X is a key topic in this subject area" (also affected Standard tier in ar-10)
+- **Fix:** Replaced with subject-specific content for ar-10 (Puzzles → logic puzzle types & tips) and qr-3 (Percentages → formula fundamentals & exam tips)
+- **Commits:** c39e7bca

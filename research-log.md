@@ -2280,3 +2280,22 @@ Checked: health (200/200), YAML None errors (none), placeholder files (3 small b
 **Checked:** YAML errors (none), placeholders (found), wrong years (skipped), missing metadata (skipped)  
 **Fix:** up-psc/history/histor-004.md — replaced generic placeholder "Topic 4" with real content for **Delhi Sultanate** (1206–1526, four dynasties, key facts, exam tips, study strategy)  
 **Commit:** 842016ed
+
+## 2026-04-16 01:37 UTC
+- **Health:** studyroadmap.in ✅ 200, /exams/neet/ ✅ 200
+- **Checked:** YAML subjectName=None (none) | Placeholders (<1500 bytes: 209 files) | 2024 year refs (1 found, acceptable) | Missing examPattern metadata (3 non-exam data files)
+- **Issue found:** 209 notes files with generic placeholder content — "Topic X is an important topic in General Studies for UPPSC PCS" — no real subject matter. All from `generated: "2026-03-25"`. Affects multiple exams (up-psc geography, history, etc.)
+- **Fix:** None (requires content audit + rewrite per file — not a quick fix)
+- **Status:** Needs investigation — likely a batch-generation gap where real content wasn't populated
+
+## 2026-04-16 02:03 UTC
+**Site health:** 200 ✅ | /exams/ 200 ✅ | /notes/ 200 ✅ | sitemap-0.xml 200 ✅  
+**Checked:** YAML unclosed quotes (none) | Wrong year refs (none critical) | examPattern/eligibility (all present) | Broken internal links (none) | Placeholder content (209 files from prior log, not a quick fix)  
+**Fix:** None  
+**Status:** Site fully healthy. Prior placeholder content issue still open — requires content audit, not a quick fix. No action taken.
+
+## 2026-04-16 02:07 UTC
+**Health:** ✅ studyroadmap.in/ → 200, /exams/neet/ → 200
+**Checked:** Placeholder detection (files <1500 bytes)
+**Issue found:** Multiple auto-generated placeholder files in `up-psc/history/` and `up-psc/geography/` with `topicName: Topic N` (generic) — e.g. histor-010.md, grafa-006.md, grafa-005.md. Files contain generic placeholder content, no real topic data.
+**Fix:** None this run — systemic pattern, needs separate audit sweep.

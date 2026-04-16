@@ -4,43 +4,43 @@ examName: UPPSC PCS
 subject: gs1
 subjectName: General Studies
 topic: histor-004
-topicName: Topic 4
+topicName: "Delhi Sultanate"
 weight: 3
 country: up
 generated: "2026-03-25T17:00:00"
 ---
 
-# Topic 4
+# Delhi Sultanate
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Topic 4** — Key Facts for UPPSC PCS
-Core concept: Topic 4 is an important topic in General Studies for UPPSC PCS
-High-yield point: Understand the fundamental principles and their applications
-⚡ Exam tip: Questions from Topic 4 appear regularly in UPPSC PCS
+**Delhi Sultanate** — Key Facts for UPPSC PCS
+Core concept: The Delhi Sultanate (1206–1526) established Muslim rule over North India
+High-yield point: The four dynasties — Slave, Khalji, Tughlaq, Sayyid, Lodi
+⚡ Exam tip: Administrative reforms, Tughlaq architecture, and Ibn Batuta's accounts are frequently asked
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Topic 4** — UPPSC PCS Study Guide
-Overview: Topic 4 is a key General Studies topic for UPPSC PCS
-Core principles: Build a solid understanding of fundamentals
-Key points: Definitions, applications, and typical exam question patterns
-Study strategy: Theory first, then practice problems
+**Delhi Sultanate** — UPPSC PCS Study Guide
+Overview: The Sultanate period saw major political, administrative, and cultural changes
+Core principles: Centralized administration, Iqta system, judicial reforms
+Key points: Qutub Minar, Alai Darwaza, weightage on dynasty-wise characteristics
+Study strategy: Focus on causes of the dynasty's rise and fall, compare admin systems
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-**Topic 4** — Comprehensive UPPSC PCS Notes
-Full coverage: Topic 4 in General Studies for UPPSC PCS preparation
-Detailed theory and concept explanations
-Problem-solving strategies and common mistakes to avoid
-Practice: Attempt previous year questions and standard textbook exercises
+**Delhi Sultanate** — Comprehensive UPPSC PCS Notes
+Full coverage: 1206 to 1526 — Slave, Khalji, Tughlaq, Sayyid, and Lodi dynasties
+Detailed theory: Balban's theory of kingship, Alauddin's market reforms, Muhammad bin Tughlaq's experiments, Firuz Tughlaq's public works
+Problem-solving strategies: Map-based questions on territorial extent, match dynasties with significant events
+Practice: Attempt previous year UPPSC questions on Sultanate administration and culture
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

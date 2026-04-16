@@ -2260,3 +2260,17 @@ Checked: health (200/200), YAML None errors (none), placeholder files (3 small b
 - Git status: clean (47da00e6 News refresh)
 
 **Fix applied:** None — all checks passed
+
+## 2026-04-16 00:37 UTC
+- **Health check**: studyroadmap.in/ → 200, exams/neet/ → 200 ✅
+- **Checked**: YAML errors (none), placeholder files (found up-psc files too small but they have content), wrong years in pages (neet-strategy has "2024 and 2025" which is factual, not an error), missing examPattern metadata (none found — all exam data files have it)
+- **Issue found & fixed**: 8 SBI PO General Awareness notes had generic `topicName: "Topic N"` placeholders instead of descriptive names. Used the first `## ` heading in each note's Standard section as the topic name:
+  - genera-003: "Financial Markets in India"
+  - genera-004: "Government Budgeting and Taxation"
+  - genera-005: "Indian Economy — Growth and Development"
+  - genera-006: "International Finance and Organizations"
+  - genera-007: "Priority Sector Lending and Financial Inclusion"
+  - genera-008: "Important Indian Acts and Reforms"
+  - genera-009: "Current Banking and Economic Affairs"
+  - genera-010: "General Awareness — Topic 10" (no section heading found, used fallback)
+- **Commit**: 9f70a483

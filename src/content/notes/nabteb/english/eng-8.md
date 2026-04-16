@@ -23,9 +23,9 @@ diagramPrompt: "Educational diagram illustrating Letter Writing with clear label
 > Rapid summary for last-minute revision before your exam.
 
 **Letter Writing** — Quick Facts
-Core concept: Letter Writing is a key topic in this subject area
-High-yield points: Key definitions, formulas, and facts for last-minute revision
-⚡ Exam tip: Focus on understanding over memorisation — application is everything
+Core concept: Letters are structured communications with a sender, recipient, address, salutation, body, and closing — format accuracy earns marks in NABTEB
+High-yield points: Formal vs informal letter format, parts of a letter (heading, date, address, salutation, body, closing), difference between personal and business letters
+⚡ Exam tip: NABTEB always awards marks for correct format — draw a horizontal line after the salutation and after the closing
 
 ---
 
@@ -33,9 +33,9 @@ High-yield points: Key definitions, formulas, and facts for last-minute revision
 > Standard content for students with a few days to months.
 
 **Letter Writing** — Study Guide
-Overview: Letter Writing is part of the core syllabus
-Key concepts: Build a clear understanding of fundamentals
-Standard questions: Typical patterns seen in competitive exams
+Overview: Letter writing in NABTEB requires knowledge of formal letter conventions including the structure, language register, and purpose
+Key concepts: Semi-block and full-block letter formats, formal vs informal language, purpose-driven content (request, complaint, application, invitation)
+Standard questions: Formal letter for job application; Informal letter to a friend describing an event; Semi-formal letter to a principal or boss
 
 ---
 
@@ -43,9 +43,9 @@ Standard questions: Typical patterns seen in competitive exams
 > Comprehensive coverage for students on a longer study timeline.
 
 **Letter Writing** — Comprehensive Notes
-Full coverage: Letter Writing with detailed explanation
-Extended theory: Deeper understanding for thorough preparation
-Practice: Solve previous year questions and standard textbook exercises
+Full coverage: Full correspondence conventions — formal letters, informal letters, postcards, memos, and email etiquette relevant to Nigerian examinations
+Extended theory: Register and tone (formal, semi-formal, informal), cultural context for Nigerian recipients, postal system awareness
+Practice: Write 3 letters weekly using past NABTEB letter questions; review examiner reports to understand common errors
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

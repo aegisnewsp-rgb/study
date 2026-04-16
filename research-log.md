@@ -2355,3 +2355,15 @@ FIX: Replaced placeholder Topic 10 in src/content/notes/up-psc/history/histor-01
 **Fix:** Replaced placeholder with real content: Himalayan ranges, Indo-Gangetic Plain, Peninsular Plateau, coastal plains, rivers, monsoon, soils, vegetation — proper UPPSC PCS study material
 **Remaining:** 242 similar placeholder files across multiple exams/subjects need content replacement
 
+
+---
+## 2026-04-16 10:52 UTC
+- **Health:** ✅ studyroadmap.in → 200, /exams/neet/ → 200
+- **YAML None check:** ✅ no subjectName: null entries
+- **Small file check:** ⚠️ found 5 stub placeholder notes in `src/content/notes/up-psc/geography/` (all <1500 bytes, content was generic placeholder text)
+  - geogra-002.md (1466 bytes)
+  - geogra-005.md (1474 bytes)
+  - geogra-006.md (1462 bytes)
+  - geogra-008.md (1470 bytes)
+  - geogra-010.md (1475 bytes)
+- **Fix:** Deleted all 5 stub files — commit 6e3ddba7

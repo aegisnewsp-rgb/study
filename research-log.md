@@ -2346,3 +2346,12 @@ FIX: Replaced placeholder Topic 10 in src/content/notes/up-psc/history/histor-01
 **Stale years:** None found in strategy pages or exam content
 **Fix:** None
 **Note:** Sitemap URLs use studyroadmap.in (not .com) — consistent with Layout.astro.bak config. Site dist/ appears healthy.
+
+
+**2026-04-16 10:22 UTC**
+**Health:** studyroadmap.in/ = 200, studyroadmap.in/exams/neet/ = 200
+**Checked:** Placeholder content files (243 files with 'Topic X is an important topic...' pattern across src/content/notes)
+**Issue:** up-psc/geography/geogra-001.md (1488 bytes) contained fully auto-generated placeholder text for 'Physical Geography of India'
+**Fix:** Replaced placeholder with real content: Himalayan ranges, Indo-Gangetic Plain, Peninsular Plateau, coastal plains, rivers, monsoon, soils, vegetation — proper UPPSC PCS study material
+**Remaining:** 242 similar placeholder files across multiple exams/subjects need content replacement
+

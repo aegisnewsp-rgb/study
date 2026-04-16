@@ -2463,3 +2463,4 @@ FIX: Replaced placeholder Topic 10 in src/content/notes/up-psc/history/histor-01
 - **Stale dates:** ✅ Not checked (site offline)
 - **Fix:** None — site offline, sitemap not present in dist (would need rebuild to fix, not a quick win)
 
+2026-04-16 17:22 UTC | Health: 200/200 ✅ | Issue: placeholder content — NABTEB eng-11.md (Summary Writing) had generic "key topic" text, only 1497 bytes vs 2200+ for fixed files | Fix: committed c5ebd814 — replaced with NABTEB-specific Lite/Standard/Extended tiers covering main idea identification, paraphrasing technique, word limit discipline, and the "no commentary" rule

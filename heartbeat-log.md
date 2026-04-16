@@ -46,3 +46,11 @@ Deploy down at 2026-04-15 18:45 UTC
 
 **2026-04-16 00:28 UTC** | studyroadmap.in: 200 ✅ | deploy (portainer): 404 ❌ (down)
 - 2026-04-16 02:49 UTC — studyroadmap.in: 200, deploy: 404 (DOWN)
+
+**2026-04-16 03:40 UTC** — studyroadmap.in: 200 ✅ | deploy: 404 (DOWN — service unavailable)
+
+**2026-04-16 03:50 UTC** — studyroadmap.in: 200 ✅ | deploy: 404 (DOWN — service unavailable)
+
+**2026-04-16 04:09 UTC** — Deploy (port 9000) returned 404. Site studyroadmap.in is healthy (200).
+- 2026-04-16 04:14 UTC — studyroadmap.in: 404 (site down)
+- **04:19 UTC** — Deploy returned 404 (down)

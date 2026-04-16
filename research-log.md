@@ -2299,3 +2299,12 @@ Checked: health (200/200), YAML None errors (none), placeholder files (3 small b
 **Checked:** Placeholder detection (files <1500 bytes)
 **Issue found:** Multiple auto-generated placeholder files in `up-psc/history/` and `up-psc/geography/` with `topicName: Topic N` (generic) — e.g. histor-010.md, grafa-006.md, grafa-005.md. Files contain generic placeholder content, no real topic data.
 **Fix:** None this run — systemic pattern, needs separate audit sweep.
+
+---
+**2026-04-16 04:07 UTC**
+- Health: ✅ site up (200/200)
+- YAML None: none found
+- Small placeholders: 3 found (up-psc histor-010, geogra-006, geogra-005 — ~1.4KB each, "Topic 10" stubs from 2026-03-25)
+- Old years in pages: only strategic content, OK
+- Missing examPattern: only types/index files, OK
+- Fix: none (stubs need real content, not code fix)

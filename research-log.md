@@ -2330,3 +2330,19 @@ Checked: health (200/200), YAML None errors (none), placeholder files (3 small b
 CHECKED: Health (200/200), YAML None values, placeholder files, 2024 year refs, missing examPattern
 FIX: Replaced placeholder Topic 10 in src/content/notes/up-psc/history/histor-010.md with real Post-Independence India (1947-2000) content for UPPSC PCS GS Paper 1. Commit: 96e2c13d
 
+
+## 2026-04-16 09:52 UTC — 30min heartbeat
+
+**Checks:** Health (200/200 ✓), YAML None values, small files (<1500c), wrong years in exam pages, missing examPattern
+**Issue found:** UPPSC Geography notes (geogra-001 to 010) had generic `topicName: Topic N` instead of proper names from the Geography subject definition
+**Fix applied:** Updated all 10 UPPSC Geography notes with correct topic names (Physical Geography of India, Rajasthan Geography, Indian Climate and Monsoon, etc.)
+**Commit:** cdbfd1fb
+
+## 2026-04-16 10:03 UTC
+
+**Health:** External curl to studyroadmap.com returned 000 (network unreachable from container). dist/ folder exists with sitemap-0.xml and all routes present. Cannot verify live HTTP status from this environment.
+**YAML errors:** None found (diagramPrompt fields properly quoted)
+**examPattern/eligibility:** All 52 India exam files have both fields populated
+**Stale years:** None found in strategy pages or exam content
+**Fix:** None
+**Note:** Sitemap URLs use studyroadmap.in (not .com) — consistent with Layout.astro.bak config. Site dist/ appears healthy.

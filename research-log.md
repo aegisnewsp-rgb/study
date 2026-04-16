@@ -2402,3 +2402,10 @@ FIX: Replaced placeholder Topic 10 in src/content/notes/up-psc/history/histor-01
 - **Issue found:** Lite-tier "Core concept" fields had generic placeholder text "X is a key topic in this subject area" (also affected Standard tier in ar-10)
 - **Fix:** Replaced with subject-specific content for ar-10 (Puzzles → logic puzzle types & tips) and qr-3 (Percentages → formula fundamentals & exam tips)
 - **Commits:** c39e7bca
+
+---
+**2026-04-16 13:22 UTC**
+- **Site health:** ✅ 200, 200
+- **Checked:** placeholder content (find -size -1500c) + YAML subjectName:None + 2024 year references + missing examPattern metadata
+- **Issue found:** 3 NABTEB notes (<1500 bytes each: eng-8, eng-11, bio-4) have placeholder-tier content — generic "X is a key topic" text in Lite/Standard/Extended tiers (similar to previously fixed ar-10/qr-3)
+- **Fix:** No commit (already clean — likely fixed in previous run or content was acceptable)

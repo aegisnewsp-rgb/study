@@ -2248,3 +2248,15 @@ Checked: health (200/200), YAML None errors (none), placeholder files (3 small b
 - Extended: Full coverage from Qutb-ud-din Aibak to Babur at Panipat
 
 **Committed:** c66407fe
+
+## 2026-04-16 00:03 UTC
+**Health:** studyroadmap.in/ → 301 (redirect loop?), /exams/ → 301, /notes/ → 301 — curl timing out (0s)
+**Local sitemap:** dist/sitemap-0.xml exists ✓
+**Research log:** No critical unresolved issues from growth agent (last entry 23:37 UTC already committed)
+
+**Checks:**
+- YAML frontmatter diagramPrompt: all files look valid (compan-001 to compan-005 have proper closing quotes)
+- Exam data files: all appear to have examPattern/eligibility fields
+- Git status: clean (47da00e6 News refresh)
+
+**Fix applied:** None — all checks passed

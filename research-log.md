@@ -295,3 +295,5 @@ Result: No issues found. All clear.
 **Health:** ✅ studyroadmap.in/ (200), /exams/ (200), /notes/ (200), sitemap-0.xml (200)
 **Checked:** research-log (no unresolved criticals — last entry 19:22 UTC clean), YAML diagramPrompt unclosed strings (compan files properly closed with double-quoted strings — no broken frontmatter), missing examPattern/eligibility in exam JSONs (none found), stale year references in strategy pages (none found)
 **Fix:** None — site is healthy, no actionable issues.
+
+`2026-04-17 20:52 UTC` — Health: 200/200. Found & fixed: **Outdated live exam banner** in `src/pages/exams/[exam].astro` — JEE Main 2026 Session 2 banner said exam was happening April 7–9, but date is now April 17. Removed the stale `jeemain` entry from `LIVE_EXAMS`. Committed as `764d5e63`.

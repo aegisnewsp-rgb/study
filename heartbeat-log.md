@@ -25,3 +25,9 @@ DEPLOY DOWN: http://172.17.0.1:9000/deploy → 404
 - ✅ studyroadmap.in: 200
 - ❌ Deploy (172.17.0.1:9000/deploy): 404 — down
 - ⏭️ News check skipped (last: ~53 min ago, threshold: 55 min)
+
+## 2026-04-17 03:40 UTC
+- Site (studyroadmap.in): ✅ 200
+- Deploy (172.17.0.1:9000/deploy): ❌ 404 — DOWN
+
+**2026-04-17 03:45 UTC** — Deploy down (404 on /deploy), public site OK (200)

@@ -84,3 +84,5 @@ Deploy DOWN at 2026-04-17 19:18 UTC
 
 - Deploy DOWN (404) at 2026-04-17 19:48 UTC
 ## 2026-04-17 20:23 UTC — Deploy DOWN (404 at /deploy)
+[2026-04-17 20:28 UTC] Deploy check: 404 (deploy endpoint down or returned not found)
+[2026-04-17 20:39:02] Deploy status check: studyroadmap.in=200, deploy=404 DOWN

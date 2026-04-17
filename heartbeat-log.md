@@ -22,3 +22,8 @@ ISSUE: studyroadmap.in returned 404 (homepage down)
 Deploy /deply: 200 OK
 [2026-04-17 11:45 UTC] studyroadmap.in: 200 (ok) | deploy: 404 (down, expected)
 Deploy DOWN at 172.17.0.1:9000 (404) — 2026-04-17 11:50 UTC
+
+## 2026-04-17 12:24 UTC — StudyRoadmap heartbeat
+- studyroadmap.in: 200 ✅
+- deploy (172.17.0.1:9000): 404 ❌ DEPLOY DOWN
+- news check: skipped (last ran 49 min ago, threshold 55 min)

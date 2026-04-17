@@ -207,3 +207,8 @@
 - Empty files → none
 - Missing frontmatter → all clean
 **Fix:** None needed
+
+=== 2026-04-17 10:52 UTC ===
+Health: / → 200, /exams/neet/ → 200
+Checked: subjectName=None (none), tiny files (<1500c), 2024 in exam pages (ok), examPattern missing in types/index (ok - not actual data files)
+Result: No issues found.

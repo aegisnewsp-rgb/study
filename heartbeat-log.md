@@ -69,3 +69,6 @@ Deploy is DOWN (404) at 2026-04-17 18:03 UTC
 - deploy (172.17.0.1:9000/deploy): 404 ❌ DEPLOY DOWN (persistent)
 - news: 9 items refreshed ✅, pushed to git
 ## Hearbeat Deploy DOWN at Fri Apr 17 18:23:34 UTC 2026
+StudyRoadmap heartbeat 2026-04-17 18:38 UTC
+- studyroadmap.in: 200 OK
+- deploy: 404 DOWN

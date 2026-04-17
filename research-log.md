@@ -140,3 +140,10 @@
 - Found: clat/english/en-006.md (Fill in Blanks) — only 1473 bytes, contained generic placeholder text ("Fill in Blanks is a key topic in this subject area")
 - Fixed: Replaced with actual CLAT Fill in Blanks content (key concepts, question patterns, common traps, practice strategy, extended theory)
 - Commit: c494103c
+
+## 2026-04-17 05:52 UTC
+- **Health**: studyroadmap.in/ ✅ 200, studyroadmap.in/exams/neet/ ✅ 200
+- **Checked**: placeholder content in small notes files
+- **Issue**: src/content/notes/clat/english/en-004.md (1449 bytes) — contained generic placeholder text ("Para Summary is a key topic in this subject area")
+- **Fix**: Replaced with actual CLAT Para Summary content (Lite/Standard/Extended tiers covering main idea strategies, common traps, CLAT-specific patterns, practice approach)
+- **Commit**: b9cae6fc

@@ -64,3 +64,10 @@
 - **Found**: `fmge/biochemistry/bioche-005.md` and `uaeu-cat/gk/gk-003.md` — both contained only placeholder content ("Topic X is an important topic in Y for Z")
 - **Fixed**: Deleted both placeholder files (2 files, 92 lines removed)
 - **Committed**: `32170b59`
+
+## 2026-04-17 00:22 UTC
+- Health: studyroadmap.in ✓ (200), /exams/neet ✓ (200)
+- Checked: placeholders (size <1500c) in src/content/notes/
+- Found: 5 placeholder uaeu-cat/gk/ notes (gk-004, 005, 006, 007, 008) — all generic "Topic N" content with no real exam-specific info
+- Fix: Removed 5 placeholder files (git rm)
+- Commit: 6e7971f7 "Remove remaining placeholder GK notes (uaeu-cat)"

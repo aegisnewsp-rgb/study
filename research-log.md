@@ -84,3 +84,9 @@
 - **Checked**: YAML unclosed strings, missing examPattern/eligibility, broken HTTP links, stale year refs
 - **Found**: Nothing to fix — all clear
 - **Commit**: None needed
+
+## 2026-04-17 01:22 UTC
+- **Health check**: studyroadmap.in ✓ (200/200)
+- **Issue found**: uaeu-cat/gk/gk-001.md was placeholder (topicName: "Topic 1", generic filler content)
+- **Fix applied**: Replaced with real UAE Geography content (7 emirates, capitals, terrain, climate zones, etc.)
+- **Commit**: 1bf7296b

@@ -195,3 +195,15 @@
 - Stale date references: none found in strategy pages
 - Found: Nothing to fix — all clear
 - Commit: None needed
+
+## 2026-04-17 10:22 UTC
+**Health:** studyroadmap.in ✅ (200), studyroadmap.in/exams/neet/ ✅ (200)
+**Checked:**
+- YAML `subjectName: None` → none found
+- Small files (<1500c) → 3 CUET QA quick notes — genuine content, not placeholders
+- Stale `2024` in pages → neet-strategy.astro (valid context reference, not a year mismatch)
+- Missing `examPattern:` → types.ts (interface file) + nigeria/index.ts (barrel export) — expected, not real issues
+- TODO/FIXME/placeholder → none
+- Empty files → none
+- Missing frontmatter → all clean
+**Fix:** None needed

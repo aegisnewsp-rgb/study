@@ -71,3 +71,9 @@
 - Found: 5 placeholder uaeu-cat/gk/ notes (gk-004, 005, 006, 007, 008) — all generic "Topic N" content with no real exam-specific info
 - Fix: Removed 5 placeholder files (git rm)
 - Commit: 6e7971f7 "Remove remaining placeholder GK notes (uaeu-cat)"
+
+## 2026-04-17 00:52 UTC
+- Health: 200 (site), 200 (neet page)
+- Checked: YAML None values, placeholder notes, 2024 year references, missing examPattern metadata
+- Fixed: src/content/notes/uaeu-cat/gk/gk-001.md — `country: uAeu` → `country: uae` (case mismatch vs data/exams/uae config)
+- Commit: 5213b66b

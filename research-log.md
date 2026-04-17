@@ -118,3 +118,11 @@
 - **Checked**: YAML unclosed strings (grep false positive — diagramPrompt is a body field, not frontmatter, per content schema), examPattern/eligibility in India exam files (all present)
 - **Found**: Nothing to fix — all clear
 - **Commit**: None needed
+
+
+## 2026-04-17 04:52 UTC
+- Health: ✓ 200/200
+- Issue: placeholder content in src/content/notes/clat/current-affairs/ca-004.md (1444 bytes, generic filler text for all tiers)
+- Fix: Rewrote all three tiers with CLAT-specific Static GK content covering Indian Polity, History, Geography, Economics
+- Commit: 09fda0f2
+

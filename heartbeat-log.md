@@ -31,3 +31,5 @@ DEPLOY DOWN: http://172.17.0.1:9000/deploy → 404
 - Deploy (172.17.0.1:9000/deploy): ❌ 404 — DOWN
 
 **2026-04-17 03:45 UTC** — Deploy down (404 on /deploy), public site OK (200)
+
+**2026-04-17 03:50 UTC** — Site OK (200), Deploy still DOWN (404), News refreshed (no change)

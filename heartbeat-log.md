@@ -19,3 +19,9 @@
 
 --- HEARTBEAT 2026-04-17 02:35 UTC ---
 DEPLOY DOWN: http://172.17.0.1:9000/deploy → 404
+
+---
+**2026-04-17 03:07 UTC**
+- ✅ studyroadmap.in: 200
+- ❌ Deploy (172.17.0.1:9000/deploy): 404 — down
+- ⏭️ News check skipped (last: ~53 min ago, threshold: 55 min)

@@ -63,3 +63,8 @@ Deploy down at 2026-04-17 14:28 UTC
 ---
 2026-04-17T17:50:17Z — Deploy check: 404 (deploy down)
 Deploy is DOWN (404) at 2026-04-17 18:03 UTC
+
+--- HEARTBEAT 2026-04-17 18:12 UTC ---
+- studyroadmap.in: 200 ✅
+- deploy (172.17.0.1:9000/deploy): 404 ❌ DEPLOY DOWN (persistent)
+- news: 9 items refreshed ✅, pushed to git

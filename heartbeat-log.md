@@ -16,3 +16,4 @@ deploy (172.17.0.1:9000): 404 DOWN
 studyroadmap.in: ✅ (200)
 deploy (172.17.0.1:9000/deploy): ❌ (404)
 Site DOWN: studyroadmap.in returned 404 at 2026-04-17 10:49 UTC
+[2026-04-17 11:19 UTC] Deploy check: studyroadmap.in=200 ✅ | deploy.railway=404 ❌ (down)

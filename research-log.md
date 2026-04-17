@@ -285,3 +285,8 @@ Result: No issues found. All clear.
 **Health:** ✅ https://studyroadmap.in/ (200), /exams/ (200), /notes/ (200), sitemap-0.xml (200)
 **Checked:** research-log (no unresolved criticals — last entry 18:52 UTC clean), YAML diagramPrompt unclosed strings (cs-exec files all valid block scalars with properly closed double-quoted strings — no broken frontmatter), subjectName null/empty (none), stale year references (none found)
 **Fix:** None — site is healthy, no actionable issues.
+
+## 2026-04-17 19:22 UTC
+**Health:** ✅ studyroadmap.in/ (200), /exams/neet/ (200)
+**Checked:** YAML subjectName nulls (none), small files <1200c (3 valid short CUET/GATE quick notes, complete structure), stale 2024 year refs (neet-strategy.astro line 21 — "Based on NEET 2024 and 2025 papers" is current/factual), missing examPattern in data/exams (types.ts, nigeria/index.ts, index.ts — these are module files, not exam data files, so no issue)
+**Fix:** None — site is healthy, no actionable issues.

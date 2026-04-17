@@ -88,3 +88,5 @@ Deploy DOWN at 2026-04-17 19:18 UTC
 [2026-04-17 20:39:02] Deploy status check: studyroadmap.in=200, deploy=404 DOWN
 ---
 2026-04-17 20:54 UTC — Deploy at 172.17.0.1:9000 returned 404 (DOWN). Site (studyroadmap.in) is up (200).
+[2026-04-17 21:54 UTC] Deploy service (172.17.0.1:9000/deploy) returned 404 — site likely down
+Deploy down (404) at 2026-04-17 21:59 UTC

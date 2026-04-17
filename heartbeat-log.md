@@ -58,3 +58,4 @@ Deploy down at 2026-04-17 14:28 UTC
 2026-04-17 15:09 UTC — Deploy at http://172.17.0.1:9000/deploy returned 404 (DOWN)
 [2026-04-17 16:09 UTC] Deploy at http://172.17.0.1:9000/deploy returned 404 (DOWN) — studyroadmap.in OK (200)
 [2026-04-17 16:19 UTC] Deploy down (404 on /deploy). Main site: OK (200)
+- **2026-04-17 16:34 UTC** — studyroadmap.in: 200 ✅ | deploy: 404 ❌ (down)

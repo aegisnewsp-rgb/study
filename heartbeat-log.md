@@ -11,3 +11,7 @@ deploy (172.17.0.1:9000): 404 DOWN
 --- HEARTBEAT 2026-04-17 10:09 UTC ---
 studyroadmap.in: 200 OK
 deploy (172.17.0.1:9000): 404 DOWN
+
+## 2026-04-17 10:39 UTC — DEPLOY DOWN
+studyroadmap.in: ✅ (200)
+deploy (172.17.0.1:9000/deploy): ❌ (404)

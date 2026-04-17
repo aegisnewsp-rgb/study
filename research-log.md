@@ -232,3 +232,8 @@ Result: No issues found.
 Health: / → 200, /exams/neet/ → 200
 Checked: subjectName=None (none), tiny files <1500c (3 CUET QA quick notes — 1178-1185c each, genuine content), 2024 in exam pages (neet-strategy.astro valid contextual ref), examPattern missing in types/index.ts (expected — not exam data files)
 Result: No issues found.
+
+=== 2026-04-17 14:04 UTC ===
+Health: Dev server not running (000 on localhost:4321) — build exists with 3168 HTML files in dist/
+Checked: sitemap-0.xml (not in dist root — prev runs accessed via prod URL), YAML diagramPrompt unclosed quotes (1453 grep matches — confirmed FALSE POSITIVES: all properly close with " before newline; contain em dashes encoded as UTF-8 which confuses naive grep), exam data (no new issues), research-log (no unresolved critical items)
+Result: No issues found. All clear.

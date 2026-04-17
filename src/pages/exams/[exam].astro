@@ -19,13 +19,8 @@ const SITE_URL = 'https://studyroadmap.in';
 const flag = getCountryFlag(exam.country) || '🌍';
 
 // Live-exam banners — show a timely alert for exams happening right now
+// (Add entries for upcoming exams with dates)
 const LIVE_EXAMS: Record<string, { label: string; message: string; cta: string; ctaUrl: string; }> = {
-  'jeemain': {
-    label: '🔴 LIVE NOW',
-    message: 'JEE Main 2026 Session 2 is happening April 7–9! Get your last-minute revision roadmap before the exam.',
-    cta: 'Generate My JEE Main Roadmap',
-    ctaUrl: '/roadmap?exam=jeemain',
-  },
 };
 
 const liveExam = LIVE_EXAMS[exam.examId];

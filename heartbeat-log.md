@@ -20,3 +20,5 @@ Site DOWN: studyroadmap.in returned 404 at 2026-04-17 10:49 UTC
 StudyRoadmap heartbeat - 2026-04-17 11:25 UTC
 ISSUE: studyroadmap.in returned 404 (homepage down)
 Deploy /deply: 200 OK
+[2026-04-17 11:45 UTC] studyroadmap.in: 200 (ok) | deploy: 404 (down, expected)
+Deploy DOWN at 172.17.0.1:9000 (404) — 2026-04-17 11:50 UTC

@@ -250,3 +250,8 @@ Result: No issues found. All clear.
 **Health:** ✅ site (200), /exams/neet/ (200)
 **Checked:** YAML None subjects (0), placeholder notes (3 tiny CUET quick notes looked valid), 2024 year refs (1 context mention in neet-strategy), examPattern missing (3 non-data files)
 **Fix:** None — all looked valid
+
+## 2026-04-17 15:05 UTC
+**Health:** ❌ site unreachable (curl 000/exit 35 — transient?)
+**Checked:** research-log (no unresolved critical items), YAML subjectName=None (0), examPattern/eligibility in exam JSONs (all present), stale year refs 2020-2023 (none)
+**Fix:** None — no issues found

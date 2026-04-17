@@ -54,3 +54,5 @@ Site (studyroadmap.in): UP (200) | Deploy (172.17.0.1:9000/deploy): DOWN (404)
 StudyRoadmap heartbeat 2026-04-17 13:50 UTC — deploy returned 404 (service down)
 Deploy down at 2026-04-17 14:28 UTC
 [2026-04-17 14:43 UTC] Deploy DOWN (404) — studyroadmap.in OK (200)
+---
+2026-04-17 15:09 UTC — Deploy at http://172.17.0.1:9000/deploy returned 404 (DOWN)

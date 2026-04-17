@@ -8,3 +8,4 @@
 ---
 Site: 200 ✅ | Deploy: 404 (DOWN — site still up though, likely old deploy endpoint)
 Site down (404) at 2026-04-17 08:40 UTC
+[2026-04-17 09:14 UTC] Deploy endpoint down (404)

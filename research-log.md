@@ -222,3 +222,8 @@ Result: No issues found.
 Health: / → 200, /exams/neet/ → 200, sitemap-index → 200, /notes/cuet-ug/.../cuet-qa-012 → 200
 Checked: subjectName=None (none), tiny files (780 <2000c → reviewed 3 CUET QA quick notes - genuine content), 2024 in pages (neet-strategy.astro - valid), examPattern missing in types.ts/index.ts/nigeria/index.ts (expected - interface/barrel files), sitemap (200), sitemap-index (200)
 Result: No issues found.
+
+=== 2026-04-17 13:04 UTC ===
+Health: / → 200, /exams/ → 200, /notes/ → 200, sitemap-0.xml → 200
+Checked: research-log unresolved (none), YAML diagramPrompt unclosed quotes (compan-001-005.cs-exec/company-law — all properly quoted), examPattern/eligibility in exam data dirs (confirmed present per prior checks), stale years 2020-2023 in strategy pages (none found)
+Result: No issues found.

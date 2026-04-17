@@ -14,3 +14,8 @@ Deploy: 404 ✗ (DOWN)
 **Heartbeat 2026-04-17T00:00:22Z**
 - studyroadmap.in: 200 ✅
 - deploy: 404 ❌ (DOWN)
+
+## 2026-04-17 00:49 UTC — Deploy Down
+- **studyroadmap.in:** 200 ✓
+- **deploy (172.17.0.1:9000):** 404 ✗
+- **Duration:** ~12 min (since 00:37 UTC)

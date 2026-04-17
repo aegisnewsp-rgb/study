@@ -90,3 +90,17 @@
 - **Issue found**: uaeu-cat/gk/gk-001.md was placeholder (topicName: "Topic 1", generic filler content)
 - **Fix applied**: Replaced with real UAE Geography content (7 emirates, capitals, terrain, climate zones, etc.)
 - **Commit**: 1bf7296b
+45509100 Quick fix: replace placeholder content in uaeu-cat gk-002 with real current affairs content
+
+## 2026-04-17 01:52 UTC
+**Health**: studyroadmap.in ✅ (200), studyroadmap.in/exams/neet/ ✅ (200)
+**Fix**: Replaced generic placeholder content with real "Current Affairs — International Relations" content (UAE CAT GK-focused: global diplomacy, GCC, UN, treaties, Abraham Accords)
+**Commit**: 45509100
+
+
+## 2026-04-17 02:04 UTC
+- **Health**: All endpoints 200 ✅ (homepage, /exams/, /notes/, sitemap-0.xml)
+- **Research log**: Last entry 01:52 — recent fix (commit 45509100, UAE CAT GK content). No critical unresolved issues.
+- **Checked**: YAML unclosed strings, examPattern/eligibility in exam data files
+- **Found**: Nothing to fix — all clear. YAML strings are properly closed. index.ts is an index file (no examPattern expected).
+- **Commit**: None needed

@@ -10,3 +10,12 @@
 - studyroadmap.in: 200 ✅
 - deploy (172.17.0.1:9000/deploy): 404 ❌ — deploy service down
 - News refresh: done (git push 916f2180), Reddit blocked (403)
+- `2026-04-17 01:55 UTC` — Deploy returned 404 (down)
+
+**2026-04-17 02:03 UTC** — Deploy service down (returned 404)
+[2026-04-17 02:08 UTC] Deploy check failed: http://172.17.0.1:9000/deploy returned 404
+---
+2026-04-17T02:19:01Z — studyroadmap.in: 200 OK | deploy (172.17.0.1:9000): 404 DOWN
+
+--- HEARTBEAT 2026-04-17 02:35 UTC ---
+DEPLOY DOWN: http://172.17.0.1:9000/deploy → 404

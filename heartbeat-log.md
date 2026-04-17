@@ -51,3 +51,7 @@ DEPLOY DOWN at 2026-04-17 04:28
 - Deploy service (172.17.0.1:9000): 404 ❌ DOWN
 - News fetch: ran, Reddit 403s (sources blocked), no content change
 
+
+## 2026-04-17 06:51 UTC
+- Site (studyroadmap.in): 200 ✅
+- Deploy endpoint: 404 ❌ (deploy down or not responding)

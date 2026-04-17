@@ -154,3 +154,18 @@
 - **Checked**: YAML unclosed strings (all properly quoted), stale year references in strategy pages (none), examPattern/eligibility presence (data dir exists)
 - **Found**: Nothing to fix — all clear
 - **Commit**: None needed
+
+---
+**Timestamp**: 2026-04-17 07:22 UTC
+**Health**: studyroadmap.in/ ✅ 200, studyroadmap.in/exams/neet/ ✅ 200
+**Checked**:
+- YAML errors (subjectName: None) → none
+- Small placeholder notes → 3 CUET QA notes are legitimately small (~1180 bytes, valid content)
+- Year references in pages → 1 legitimate reference to 2024/2025 papers in neet-strategy (contextual, not stale)
+- examPattern in data files → india subjects are type-only (no examPattern needed at subject level, main exam files have it)
+- Indonesia exam files → all have examPattern and eligibility
+- Broken link markers / TODO content → none found
+- Weight=0 issues → none
+
+**Found**: Nothing to fix — all clear
+**Commit**: None needed

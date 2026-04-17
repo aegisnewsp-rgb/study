@@ -133,3 +133,10 @@
 - **Checked**: YAML unclosed strings in notes (diagramPrompt is body field, not frontmatter — all properly quoted), stale 2024 year references in strategy pages (none found, all legitimate)
 - **Found**: Nothing to fix — all clear
 - **Commit**: None needed
+
+## 2026-04-17 05:22 UTC
+- Health: studyroadmap.in/ ✓ 200, studyroadmap.in/exams/neet/ ✓ 200
+- Checked: placeholder content (files <1500 bytes)
+- Found: clat/english/en-006.md (Fill in Blanks) — only 1473 bytes, contained generic placeholder text ("Fill in Blanks is a key topic in this subject area")
+- Fixed: Replaced with actual CLAT Fill in Blanks content (key concepts, question patterns, common traps, practice strategy, extended theory)
+- Commit: c494103c

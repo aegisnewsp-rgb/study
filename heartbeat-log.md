@@ -41,3 +41,7 @@ Deploy DOWN at 172.17.0.1:9000 (404) — 2026-04-17 11:50 UTC
 **2026-04-17 12:55 UTC** — Deploy down (404). Site: 200 OK.
 
 ## 2026-04-17 13:09 UTC — Deploy DOWN (404)
+## 2026-04-17 13:25 UTC — Deploy DOWN (404)
+- studyroadmap.in: 200 ✅
+- deploy (172.17.0.1:9000/deploy): 404 ❌ DEPLOY DOWN
+- news check: skipped (last ran ~26 min ago, threshold 55 min)

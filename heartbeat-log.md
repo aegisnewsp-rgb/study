@@ -33,3 +33,9 @@ Deploy DOWN at 172.17.0.1:9000 (404) — 2026-04-17 11:50 UTC
 - studyroadmap.in: 200 ✅
 - deploy (172.17.0.1:9000/deploy): 404 ❌ DEPLOY DOWN
 - news check: skipped (last ran 11 min ago, threshold 55 min)
+## 2026-04-17 12:49 UTC — StudyRoadmap heartbeat
+- studyroadmap.in: 200 ✅
+- deploy (172.17.0.1:9000/deploy): 404 ❌ DEPLOY DOWN
+- news check: ran, 9 items saved ✅
+---
+**2026-04-17 12:55 UTC** — Deploy down (404). Site: 200 OK.

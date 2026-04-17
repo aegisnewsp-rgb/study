@@ -126,3 +126,10 @@
 - Fix: Rewrote all three tiers with CLAT-specific Static GK content covering Indian Polity, History, Geography, Economics
 - Commit: 09fda0f2
 
+
+## 2026-04-17 05:04 UTC
+- **Health**: studyroadmap.in ✅ homepage 200, /exams/ 200, /notes/ 200, sitemap-0.xml 200
+- **Research log**: Last entry 04:52 — fix already applied to ca-004.md; no new critical issues
+- **Checked**: YAML unclosed strings in notes (diagramPrompt is body field, not frontmatter — all properly quoted), stale 2024 year references in strategy pages (none found, all legitimate)
+- **Found**: Nothing to fix — all clear
+- **Commit**: None needed

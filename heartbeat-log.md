@@ -75,3 +75,11 @@ StudyRoadmap heartbeat 2026-04-17 18:38 UTC
 - 2026-04-17 19:08 UTC — studyroadmap.in: 200 OK, deploy: DOWN (404)
 Deploy DOWN at 2026-04-17 19:18 UTC
 - Deploy still DOWN at 2026-04-17 19:23 UTC
+[2026-04-17 19:38 UTC] Deploy down (404)
+## Heartbeat — 2026-04-17 19:43 UTC
+
+**Site (studyroadmap.in):** 200 ✅
+**Deploy (172.17.0.1:9000):** 404 ❌ (down)
+
+
+- Deploy DOWN (404) at 2026-04-17 19:48 UTC

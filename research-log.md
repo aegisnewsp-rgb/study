@@ -385,3 +385,8 @@ Fix: none
 
 2026-04-18 06:22 UTC | Health: 200/200 | Checked: YAML None issues, placeholder files, 2024 years, missing examPattern. Found: gt-008.md had 'country: india' (lowercase). Fixed: sed s/country: india/country: India/. Committed as f1deb4c8.
 | 2026-04-18 06:22 UTC | Health: 200/200 | Checked: YAML None, placeholder files, 2024 years, missing examPattern. Found: gt-008.md had 'country: india' (lowercase). Fixed. Commit: f1deb4c8.
+
+**2026-04-18 08:03 UTC**
+**Health:** ✅ studyroadmap.in/ (200), /exams/ (200), /notes/ (200), sitemap-0.xml (200)
+**Checks:** diagramPrompt unterminated quotes → none; subjectName:None → none; placeholders → none; stale year refs → none; exam data examPattern/eligibility → all present; research-log criticals → none
+**Fix:** None — site is healthy, no actionable issues.

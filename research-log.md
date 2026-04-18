@@ -398,3 +398,9 @@ Fix: none
 - **Fixed:** src/data/exams/malaysia/muet.ts — replaced example.com with https://www.mpm.edu.my (official Malaysian Examinations Council site for MUET)
 - Committed: 646440f4
 
+
+**2026-04-18 09:22 UTC**
+- Health: ✅ studyroadmap.in/ (200), studyroadmap.in/exams/neet/ (200)
+- Checks: YAML None values → none; placeholders → files look valid; 2024 years → reference to 2024/2025 papers is intentional; missing examPattern → none
+- Fix: tnpsc.ts — replaced placeholder officialSource 'https://example.com' with 'https://www.tnpsc.gov.in'
+- Committed: 98a46edb

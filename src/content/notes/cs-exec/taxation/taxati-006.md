@@ -5,6 +5,7 @@ subject: taxation
 subjectName: Taxation
 topic: taxati-006
 topicName: Tax Planning & Management
+description: Tax planning, tax management, tax evasion vs avoidance, advance tax planning, and installment management for CS Executive exam.
 weight: 3
 country: cs
 generated: "2026-03-25T17:00:00"

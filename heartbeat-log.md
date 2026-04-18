@@ -15,3 +15,8 @@ Deploy API: 200 (ok)
 ## 2026-04-18 08:08 UTC
 - studyroadmap.in: 200 ✅
 - deploy (172.17.0.1:9000/deploy): 404 ⚠️ (deploy may be down)
+
+## 2026-04-18 08:18 UTC
+- studyroadmap.in: ✅ 200
+- deploy (172.17.0.1:9000): ❌ 404 — DOWN
+- news: Reddit sources returning HTTP 403 (blocked), no new items fetched

@@ -61,7 +61,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   lastUpdated: '2026-04-06',
-  officialSource: 'https://example.com',
+  officialSource: 'https://ioe.edu.np',
 };
 
 export default exam;

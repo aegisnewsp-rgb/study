@@ -6,7 +6,7 @@ subjectName: Accounting
 topic: accoun-008
 topicName: Issue of Shares
 weight: 3
-country: cs
+country: india
 generated: "2026-03-25T17:00:00"
 diagramPrompt: "Clean educational diagram showing the process of share issue from company incorporation to share allotment, including application money, allotment money, and calls — white background, exam-style illustration"
 

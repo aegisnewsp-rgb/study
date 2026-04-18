@@ -6,7 +6,7 @@ subjectName: Company Law
 topic: compan-009
 topicName: Corporate Governance & Oppression & Mismanagement
 weight: 3
-country: cs
+country: india
 generated: "2026-03-25T17:00:00"
 ---
 

@@ -6,7 +6,7 @@ subjectName: Company Law
 topic: compan-007
 topicName: Share Capital & Debentures
 weight: 3
-country: cs
+country: india
 generated: "2026-03-25T17:00:00"
 ---
 

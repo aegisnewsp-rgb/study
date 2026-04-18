@@ -7,7 +7,7 @@ description: Theory of Production covering production functions, laws of returns
 topic: econom-005
 topicName: Theory of Production
 weight: 3
-country: cs
+country: india
 generated: "2026-03-25T17:00:00"
 ---
 

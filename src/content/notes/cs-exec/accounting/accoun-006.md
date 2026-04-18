@@ -6,7 +6,7 @@ subjectName: Accounting
 topic: accoun-006
 topicName: Final Accounts
 weight: 3
-country: cs
+country: india
 generated: "2026-03-25T17:00:00"
 diagramPrompt: "Clean educational diagram showing the three final accounts — Trading Account, Profit & Loss Account, and Balance Sheet — with arrows flowing from Trial Balance into each statement, and a clear layout of the vertical format for Trading and P&L Account with Gross Profit and Net Profit calculations — white background, exam-style illustration"
 

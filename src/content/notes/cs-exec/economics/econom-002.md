@@ -7,7 +7,7 @@ description: Demand and Supply Analysis covering price elasticity, market equili
 topic: econom-002
 topicName: Demand and Supply Analysis
 weight: 3
-country: cs
+country: india
 generated: "2026-03-25T17:00:00"
 ---
 

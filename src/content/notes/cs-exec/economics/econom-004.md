@@ -8,7 +8,7 @@ topic: econom-004
 topicName: Price Theory and Market Structure
 description: Perfect competition, monopoly, monopolistic competition, and oligopoly market structures with equilibrium analysis, diagrams, and CS Executive exam-focused explanations.
 weight: 3
-country: cs
+country: india
 generated: "2026-03-25T17:00:00"
 ---
 

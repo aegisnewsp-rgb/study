@@ -6,7 +6,7 @@ subjectName: Accounting
 topic: accoun-003
 topicName: Journal Entries & Ledgers
 weight: 3
-country: cs
+country: india
 generated: "2026-03-25T17:00:00"
 diagramPrompt: "Clean educational diagram showing the accounting cycle from Journal to Ledger to Trial Balance, with debit/credit posting flow, format of a ledger account — white background, exam-style illustration"
 

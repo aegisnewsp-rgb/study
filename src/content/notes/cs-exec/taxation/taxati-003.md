@@ -6,7 +6,7 @@ subjectName: Taxation
 topic: taxati-003
 topicName: GST Input Tax Credit & Compliance
 weight: 3
-country: cs
+country: india
 generated: "2026-03-25T17:00:00"
 ---
 

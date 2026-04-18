@@ -7,7 +7,7 @@ description: Supply and Market Equilibrium covering market equilibrium, price de
 topic: econom-007
 topicName: Supply and Market Equilibrium
 weight: 3
-country: cs
+country: india
 generated: "2026-03-25T17:00:00"
 ---
 

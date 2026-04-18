@@ -7,7 +7,7 @@ lastUpdated: "2026-04-13"
 topic: accoun-002
 topicName: Accounting Equations
 weight: 3
-country: cs
+country: india
 generated: "2026-03-25T17:00:00"
 diagramPrompt: "Clean educational diagram showing the Accounting Equation Assets = Liabilities + Equity with visual breakdown of components, debit/credit rules, and transaction analysis — white background, exam-style illustration"
 

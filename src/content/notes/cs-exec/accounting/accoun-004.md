@@ -6,7 +6,7 @@ subjectName: Accounting
 topic: accoun-004
 topicName: Trial Balance
 weight: 3
-country: cs
+country: india
 generated: "2026-03-25T17:00:00"
 diagramPrompt: "Clean educational diagram showing the Trial Balance format with debit and credit columns, listing types of accounts (assets, liabilities, capital, revenues, expenses) and arrows indicating which side each account type appears on — white background, exam-style illustration, clear formatting"
 

@@ -7,7 +7,7 @@ description: Demand Analysis covering law of demand, price elasticity of demand,
 topic: econom-006
 topicName: Demand Analysis
 weight: 3
-country: cs
+country: india
 generated: "2026-03-25T17:00:00"
 ---
 

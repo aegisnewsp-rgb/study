@@ -6,7 +6,7 @@ subjectName: Taxation
 topic: taxati-002
 topicName: GST Framework & Supply
 weight: 3
-country: cs
+country: india
 generated: "2026-03-25T17:00:00"
 ---
 

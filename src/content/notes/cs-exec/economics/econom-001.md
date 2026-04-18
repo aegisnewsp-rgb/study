@@ -7,7 +7,7 @@ description: Introduction to Economics, covering basic concepts, scope, and fund
 topic: econom-001
 topicName: Introduction to Economics
 weight: 3
-country: cs
+country: india
 generated: "2026-03-25T17:00:00"
 lastUpdated: "2026-04-13"
 ---

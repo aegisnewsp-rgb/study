@@ -7,7 +7,7 @@ description: Cost Theory covering types of costs, cost curves, short-run and lon
 topic: econom-008
 topicName: Cost Theory
 weight: 3
-country: cs
+country: india
 generated: "2026-03-25T17:00:00"
 ---
 

@@ -6,7 +6,7 @@ subjectName: Accounting
 topic: accoun-010
 topicName: Cost Accounting Basics
 weight: 3
-country: cs
+country: india
 generated: "2026-03-25T17:00:00"
 ---
 

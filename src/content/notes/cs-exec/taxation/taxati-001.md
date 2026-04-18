@@ -6,7 +6,7 @@ subjectName: Taxation
 topic: taxati-001
 topicName: Income Tax Act Basics
 weight: 5
-country: cs
+country: india
 generated: "2026-03-25T17:00:00"
 ---
 

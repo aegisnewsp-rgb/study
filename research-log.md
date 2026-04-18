@@ -409,3 +409,11 @@ Fix: none
 - Health: ✅ studyroadmap.in/ (200), studyroadmap.in/exams/neet/ (200)
 - Checks: YAML None values → none; placeholders in MUET writing are intentional templates; 2024 years → none; missing examPattern → only type/index files (expected)
 - Fix: none
+
+**2026-04-18 10:03 UTC**
+- Health: ✅ studyroadmap.in/ (200), studyroadmap.in/exams/ (200), studyroadmap.in/notes/ (200), sitemap-0.xml (200)
+- Research log: no unresolved critical issues
+- Checks: YAML None values → none; placeholders → 10+ files still have example.com; 2024/2025 years → intentional references
+- **Fix found:** src/data/exams/indonesia/undana.ts — placeholder officialSource
+- **Fixed:** undana.ts — replaced example.com with https://undana.ac.id (official Universitas Nusa Cendana site)
+- Committed & pushed: 92ec965d

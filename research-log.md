@@ -426,3 +426,12 @@ Fix: none
 - 2024 references in pages: neet-strategy.astro (intentional, discussing 2024 paper analysis) ✅
 - Missing examPattern: only index/types files, expected ✅
 - No action taken.
+
+## 2026-04-18 11:03 UTC
+- Health: studyroadmap.in/ ✅ (200), /exams/ ✅ (200), /notes/ ✅ (200), sitemap-0.xml ✅ (200)
+- Research log: no unresolved critical issues
+- Checks: YAML None values → none; diagramPrompt missing quotes → none; 2024 refs in strategy pages → intentional; placeholders still in ~50+ exam data files
+- **Fixes (2):**
+  1. nepal/engineering-ent.ts — replaced example.com with https://ioe.edu.np (Institute of Engineering, TU Nepal)
+  2. malaysia/matrikulasi.ts — replaced example.com with https://mohe.gov.my (Malaysian Ministry of Higher Education)
+- Committed & pushed: 7cebbf58

@@ -28,3 +28,7 @@ News check: skipped (last 24 min ago)
 ---
 2026-04-18 02:24 UTC | studyroadmap.in: 200 ✅ | deploy at 172.17.0.1:9000: 404 ❌ (DOWN)
 2026-04-18 02:39 UTC — deploy /deploy → 404 (down)
+
+---
+Time: 2026-04-18T02:54 UTC
+Deploy at http://172.17.0.1:9000/deploy → 404 (deploy endpoint not found / service unavailable)

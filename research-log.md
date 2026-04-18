@@ -456,3 +456,9 @@ Fix: none
 - **Issue found:** 31 cs-exec notes had `country: cs` which is invalid (not in types.ts country union). Valid values: india|pakistan|nigeria|etc. CS Executive is an Indian exam.
 - **Fix:** sed replaced `country: cs` → `country: india` across all cs-exec subdirectories (economics, taxation, company-law, accounting)
 - **Committed:** d1eca4bf — "Fix country code cs→india for 31 cs-exec notes"
+
+## 2026-04-18 13:03 UTC
+- Health: ✅ studyroadmap.in/ (200), /exams/ (200), /notes/ (200), sitemap-0.xml (200)
+- Research log: previous fix committed (d1eca4bf cs→india country code)
+- Checks: YAML diagramPrompt unquoted → properly quoted in cs-exec files (intentional); examPattern subjects have no metadata requirement; 2024 refs are contextual (exam paper analysis, valid); internal link text mentions of studyroadmap.in are explanatory examples, not broken links
+- Result: No actionable issue found

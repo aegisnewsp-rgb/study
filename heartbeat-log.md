@@ -17,3 +17,7 @@ Deploy down at 172.17.0.1:9000 (404) — 2026-04-18 10:05 UTC
 Site 404 at Sat Apr 18 11:45:07 UTC 2026
 Site 200 OK at Sat Apr 18 12:19:00 UTC 2026
 Deploy DOWN (404) at Sat Apr 18 12:19:00 UTC 2026
+2026-04-18 13:06 UTC — studyroadmap.in returned 404 (DOWN)
+
+--- 2026-04-18 13:11 UTC ---
+DEPLOY DOWN: http://172.17.0.1:9000/deploy → 404

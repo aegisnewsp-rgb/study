@@ -404,3 +404,8 @@ Fix: none
 - Checks: YAML None values → none; placeholders → files look valid; 2024 years → reference to 2024/2025 papers is intentional; missing examPattern → none
 - Fix: tnpsc.ts — replaced placeholder officialSource 'https://example.com' with 'https://www.tnpsc.gov.in'
 - Committed: 98a46edb
+
+**2026-04-18 09:52 UTC**
+- Health: ✅ studyroadmap.in/ (200), studyroadmap.in/exams/neet/ (200)
+- Checks: YAML None values → none; placeholders in MUET writing are intentional templates; 2024 years → none; missing examPattern → only type/index files (expected)
+- Fix: none

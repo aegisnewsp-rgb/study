@@ -15,3 +15,16 @@ Deploy down at 2026-04-18 00:59 UTC (404)
 - Deploy at 172.17.0.1:9000 → 200 OK
 - News refresh completed (9 items saved, pushed to git)
 [2026-04-18 01:39 UTC] Deploy at http://172.17.0.1:9000/deploy → 404 (DEPLOY DOWN)
+
+## 2026-04-18 01:59 UTC
+- **Public site (studyroadmap.in): HTTP 404** — site may be down or redirecting
+- Deploy (172.17.0.1:9000): HTTP 200 ✓
+- News: no change needed (already fresh, Reddit sources blocked but expected)
+StudyRoadmap heartbeat 2026-04-18 02:09 UTC
+Public site: 200 OK | Deploy (172.17.0.1:9000): 404 DOWN
+News check: skipped (last 24 min ago)
+
+[2026-04-18 02:19 UTC] Deploy check: studyroadmap.in=200 ✅ | /deploy=404 ⚠️ (deploy endpoint not responding)
+---
+2026-04-18 02:24 UTC | studyroadmap.in: 200 ✅ | deploy at 172.17.0.1:9000: 404 ❌ (DOWN)
+2026-04-18 02:39 UTC — deploy /deploy → 404 (down)

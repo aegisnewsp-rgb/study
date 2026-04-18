@@ -333,3 +333,13 @@ Result: No issues found. All clear.
   - lastUpdated on .astro pages → neet-strategy.astro was missing it
 - **Fix:** Added `lastUpdated: '2026-04-18'` frontmatter to neet-strategy.astro
 - **Commit:** a2f3c9d Quick fix: add lastUpdated frontmatter to neet-strategy.astro
+
+## 2026-04-18 02:05 UTC
+**Health:** ✅ studyroadmap.in/ (200), /exams/ (200), /notes/ (200), sitemap-0.xml (200)
+**Checked:** research-log (no unresolved criticals), YAML frontmatter diagramPrompt strings (all properly closed, no unterminated quotes), examPattern/eligibility nulls in exam data (none found), stale year references in strategy pages (none found — 2024/2025 only in historical FAQ context)
+**Fix:** None — site is healthy, no actionable issues.
+
+## 2026-04-18 02:22 UTC
+**Health:** ✅ studyroadmap.in/ (200), /exams/neet/ (200)
+**Checked:** subjectName: None → none found; small notes (~1180 chars) → normal for quick tier; "2024" in pages → only FAQ context (NEET 2024/2025 historical analysis) — OK; missing examPattern → none found; stale year refs → none; 404/broken link markers → none; git status → heartbeat-log.md and research-log.md modified (no commit needed)
+**Fix:** None — site is healthy, no actionable issues.

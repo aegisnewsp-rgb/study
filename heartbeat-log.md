@@ -14,3 +14,4 @@ Deploy down at 2026-04-18 00:59 UTC (404)
 - Site: https://studyroadmap.in/ → HTTP 404
 - Deploy at 172.17.0.1:9000 → 200 OK
 - News refresh completed (9 items saved, pushed to git)
+[2026-04-18 01:39 UTC] Deploy at http://172.17.0.1:9000/deploy → 404 (DEPLOY DOWN)

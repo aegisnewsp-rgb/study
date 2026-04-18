@@ -6,3 +6,7 @@
 [2026-04-18 03:19 UTC] studyroadmap.in → 404 (site down)
 Deploy down at 2026-04-18 03:45 UTC
 Site is DOWN (404)
+### 2026-04-18 04:50 UTC — StudyRoadmap Heartbeat
+
+**Issue:** Deploy endpoint returned 404 (deploy may be down)
+

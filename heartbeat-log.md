@@ -9,3 +9,8 @@
 **Deploy DOWN** at 2026-04-18 00:07:45 UTC — /deploy returned 404
 ### Heartbeat 2026-04-18 00:28 UTC — Deploy DOWN (deploy returned 404)
 Deploy down at 2026-04-18 00:59 UTC (404)
+
+## 2026-04-18 01:19 UTC — studyroadmap.in DOWN (404)
+- Site: https://studyroadmap.in/ → HTTP 404
+- Deploy at 172.17.0.1:9000 → 200 OK
+- News refresh completed (9 items saved, pushed to git)

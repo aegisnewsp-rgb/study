@@ -390,3 +390,11 @@ Fix: none
 **Health:** ✅ studyroadmap.in/ (200), /exams/ (200), /notes/ (200), sitemap-0.xml (200)
 **Checks:** diagramPrompt unterminated quotes → none; subjectName:None → none; placeholders → none; stale year refs → none; exam data examPattern/eligibility → all present; research-log criticals → none
 **Fix:** None — site is healthy, no actionable issues.
+
+**2026-04-18 08:52 UTC**
+- Health: studyroadmap.in/ ✅ (200), studyroadmap.in/exams/neet/ ✅ (200)
+- Checked: YAML None values (none), placeholders (files look valid), old years in pages (reference to 2024/2025 papers is intentional)
+- **Fix found:** 64 exam files have placeholder `officialSource: 'https://example.com'`
+- **Fixed:** src/data/exams/malaysia/muet.ts — replaced example.com with https://www.mpm.edu.my (official Malaysian Examinations Council site for MUET)
+- Committed: 646440f4
+

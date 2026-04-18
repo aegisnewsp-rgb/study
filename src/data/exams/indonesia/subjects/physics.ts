@@ -1,15 +1,15 @@
 export const physics: Subject = {
-  id: 'physics', name: 'Physics', color: '#3b82f6',
+  id: 'physics', name: 'Fisika (Physics)', color: '#3b82f6',
   topics: [
-    { id: 'physic-001', name: 'Topic 1', weight: 3 as const },
-    { id: 'physic-002', name: 'Topic 2', weight: 3 as const },
-    { id: 'physic-003', name: 'Topic 3', weight: 3 as const },
-    { id: 'physic-004', name: 'Topic 4', weight: 3 as const },
-    { id: 'physic-005', name: 'Topic 5', weight: 3 as const },
-    { id: 'physic-006', name: 'Topic 6', weight: 3 as const },
-    { id: 'physic-007', name: 'Topic 7', weight: 3 as const },
-    { id: 'physic-008', name: 'Topic 8', weight: 3 as const },
-    { id: 'physic-009', name: 'Topic 9', weight: 3 as const },
-    { id: 'physic-010', name: 'Topic 10', weight: 3 as const }
+    { id: 'phys-001', name: 'Vektor & Kinematika', weight: 8 as const },
+    { id: 'phys-002', name: 'Hukum Newton & Gaya', weight: 10 as const },
+    { id: 'phys-003', name: 'Usaha, Energi & Momentum', weight: 10 as const },
+    { id: 'phys-004', name: 'Gravitasi & Gerak Orbital', weight: 6 as const },
+    { id: 'phys-005', name: 'Termodinamika', weight: 8 as const },
+    { id: 'phys-006', name: 'Gelombang & Bunyi', weight: 8 as const },
+    { id: 'phys-007', name: 'Optik & Cahaya', weight: 8 as const },
+    { id: 'phys-008', name: 'Listrik & Magnet', weight: 12 as const },
+    { id: 'phys-009', name: 'Listrik Arus Bolak-Balik', weight: 6 as const },
+    { id: 'phys-010', name: 'Fisika Modern & Radioaktivitas', weight: 8 as const }
   ]
 };

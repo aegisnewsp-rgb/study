@@ -462,3 +462,16 @@ Fix: none
 - Research log: previous fix committed (d1eca4bf cs→india country code)
 - Checks: YAML diagramPrompt unquoted → properly quoted in cs-exec files (intentional); examPattern subjects have no metadata requirement; 2024 refs are contextual (exam paper analysis, valid); internal link text mentions of studyroadmap.in are explanatory examples, not broken links
 - Result: No actionable issue found
+
+## 2026-04-18 13:52 UTC
+- Health: studyroadmap.in ✅ (200), /exams/neet/ ✅ (200)
+- Checked: YAML subjectName:None (none) | Placeholders (3 small CUET quick notes — content looks OK) | Wrong years in pages (NEET 2024 refs OK) | Missing examPattern in data files (false positives — all had examPattern)
+- Found: Indonesia physics.ts had 10 generic placeholder topics ("Topic 1", "Topic 2"...) with id "physic-001" etc.
+- Fix: Replaced with real Indonesian UTBK physics topics (Vektor & Kinematika, Hukum Newton, Listrik & Magnet, etc.) + fixed id prefix to "phys-"
+- Commit: b640ab24
+
+## 2026-04-18 14:04 UTC
+- Health: ✅ studyroadmap.in/ (200), /exams/ (200), /notes/ (200), sitemap-0.xml (200)
+- Research log: prior fix (b640ab24 Indonesia physics) committed
+- Checks: YAML unterminated quotes (none — cs-exec diagramPrompt values properly quoted), examPattern/eligibility in all india/*.ts files, stale year refs in strategy pages (none), broken internal links (none), empty subjectName (none)
+- Result: No actionable issue found

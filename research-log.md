@@ -348,3 +348,8 @@ Result: No issues found. All clear.
 **Health:** ✅ studyroadmap.in/ (200), /exams/neet/ (200)
 **Checked:** subjectName: None → none found; small quick notes → genuine content (Probability, SI/CI, Ratio topics); "2024" in pages → only FAQ context (NEET 2024/2025 historical analysis) — OK; missing examPattern → none found (types.ts/index.ts are code, not data files)
 **Fix:** None — site is healthy, no actionable issues.
+
+## 2026-04-18 03:03 UTC
+**Health:** ✅ studyroadmap.in/ (200), /exams/ (200), /notes/ (200), sitemap-0.xml (200)
+**Checked:** YAML unterminated diagramPrompt quotes → none found (all properly closed); Indonesia subject files (physics.ts etc.) → subjects dir, no examPattern needed (expected); Indonesia exam files (utbk.ts, undana.ts, uii.ts) → all have examPattern/eligibility; stale year refs in strategy pages → none found (2024/2025 only in FAQ historical context)
+**Fix:** None — site is healthy, no actionable issues.

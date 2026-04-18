@@ -418,3 +418,11 @@ Fix: none
 - **Fixed:** undana.ts — replaced example.com with https://undana.ac.id (official Universitas Nusa Cendana site)
 - Committed & pushed: 92ec965d
 2026-04-18 10:22 UTC | Health: both 200 OK | Fixed: src/data/exams/nepal/loe.ts — replaced placeholder 'example.com' with 'https://psc.gov.np' for officialSource. Remaining placeholders: russia/eed.ts, nigeria/nce-cours.ts, nigeria/toafa.ts, nepal/cmat.ts
+
+## 2026-04-18 10:52 UTC
+- Health: studyroadmap.in/ ✅ (200), studyroadmap.in/exams/neet/ ✅ (200)
+- YAML None errors: none found
+- Small placeholder files: ~10 notes under 1200 bytes, all have real content (GATE RC, CUET QA) — not stubs
+- 2024 references in pages: neet-strategy.astro (intentional, discussing 2024 paper analysis) ✅
+- Missing examPattern: only index/types files, expected ✅
+- No action taken.

@@ -7,3 +7,4 @@
 - News refresh: Triggered (last check > 55 min ago)
 [2026-04-18 06:56 UTC] Deploy status check: 404 (deploy service down)
 Deploy down at 172.17.0.1:9000/deploy (got 404) at 2026-04-18 07:28 UTC
+[2026-04-18 07:38 UTC] Deploy down (9000/deploy returned 404)

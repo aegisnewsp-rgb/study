@@ -450,3 +450,9 @@ Fix: none
 - Research log: no unresolved critical issues
 - Checks: YAML diagramPrompt → all properly quoted; examPattern/eligibility not required in subject data files
 - Result: No actionable issue found
+
+## 2026-04-18 12:22 UTC
+- **Checked:** site health (✅ 200/200), YAML None values, small files, 2024 year refs, missing examPattern
+- **Issue found:** 31 cs-exec notes had `country: cs` which is invalid (not in types.ts country union). Valid values: india|pakistan|nigeria|etc. CS Executive is an Indian exam.
+- **Fix:** sed replaced `country: cs` → `country: india` across all cs-exec subdirectories (economics, taxation, company-law, accounting)
+- **Committed:** d1eca4bf — "Fix country code cs→india for 31 cs-exec notes"

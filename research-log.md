@@ -322,3 +322,14 @@ Result: No issues found. All clear.
 **Health:** ✅ studyroadmap.in/ (200), /exams/ (200), /notes/ (200), sitemap-0.xml (200)
 **Checked:** research-log (no unresolved criticals — last entry 22:52 UTC clean), YAML frontmatter (diagramPrompt strings properly closed in cs-exec notes), examPattern/eligibility metadata (none missing), stale year references in strategy pages (none found — neet-strategy.astro correctly references 2024/2025 as historical analysis), TODO/FIXME/placeholder in content (none found)
 **Fix:** None — site is healthy, no actionable issues.
+
+## 2026-04-18 00:52 UTC
+- **Health:** ✅ Site up (200), /exams/neet/ up (200)
+- **Checked:**
+  - subjectName: None → None found
+  - Small quick notes (~1180 chars) → normal for quick tier
+  - "2024" in pages → Only in FAQ context (NEET 2024/2025 analysis) — OK
+  - Missing examPattern → None found
+  - lastUpdated on .astro pages → neet-strategy.astro was missing it
+- **Fix:** Added `lastUpdated: '2026-04-18'` frontmatter to neet-strategy.astro
+- **Commit:** a2f3c9d Quick fix: add lastUpdated frontmatter to neet-strategy.astro

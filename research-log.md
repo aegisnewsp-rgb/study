@@ -417,3 +417,4 @@ Fix: none
 - **Fix found:** src/data/exams/indonesia/undana.ts — placeholder officialSource
 - **Fixed:** undana.ts — replaced example.com with https://undana.ac.id (official Universitas Nusa Cendana site)
 - Committed & pushed: 92ec965d
+2026-04-18 10:22 UTC | Health: both 200 OK | Fixed: src/data/exams/nepal/loe.ts — replaced placeholder 'example.com' with 'https://psc.gov.np' for officialSource. Remaining placeholders: russia/eed.ts, nigeria/nce-cours.ts, nigeria/toafa.ts, nepal/cmat.ts

@@ -475,3 +475,6 @@ Fix: none
 - Research log: prior fix (b640ab24 Indonesia physics) committed
 - Checks: YAML unterminated quotes (none — cs-exec diagramPrompt values properly quoted), examPattern/eligibility in all india/*.ts files, stale year refs in strategy pages (none), broken internal links (none), empty subjectName (none)
 - Result: No actionable issue found
+
+
+2026-04-18 14:46 UTC — Quick check: / = 200, /exams/neet/ = 200, subjectName None: none, placeholder files: none, 2024 in pages: neet-strategy.astro (contextual reference, valid), examPattern missing: only type/index files (normal). No fix needed.

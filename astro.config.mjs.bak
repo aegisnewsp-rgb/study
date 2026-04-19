@@ -2,7 +2,6 @@
 import { defineConfig } from 'astro/config';
 import react from '@astrojs/react';
 import sitemap from '@astrojs/sitemap';
-import tailwindcss from '@tailwindcss/vite';
 import path from 'path';
 import { readFileSync } from 'fs';
 
@@ -39,7 +38,14 @@ export default defineConfig({
       lastmod: new Date(),
     }),
   ],
+  output: 'static',
   vite: {
-    plugins: [tailwindcss()],
+    resolve: {
+      alias: {
+        '@layouts': path.resolve('./src/layouts'),
+        '@components': path.resolve('./src/components'),
+        '@data': path.resolve('./src/data'),
+      },
+    },
   },
 });

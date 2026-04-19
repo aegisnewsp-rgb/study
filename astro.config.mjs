@@ -41,5 +41,16 @@ export default defineConfig({
   ],
   vite: {
     plugins: [tailwindcss()],
+    resolve: {
+      alias: {
+        '@layouts': path.resolve('./src/layouts'),
+        '@components': path.resolve('./src/components'),
+        '@lib': path.resolve('./src/lib'),
+        '@utils': path.resolve('./src/utils'),
+        '@data': path.resolve('./src/data'),
+        '@styles': path.resolve('./src/styles'),
+        '@assets': path.resolve('./src/assets'),
+      },
+    },
   },
 });

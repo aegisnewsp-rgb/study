@@ -1,4 +1,6 @@
 @import "tailwindcss";
+@source "../../src/**/*.{astro,html,js,jsx,ts,tsx}";
+
 
 /* ─── Custom Theme Tokens ─────────────────────────────────────── */
 @theme {

@@ -10,6 +10,7 @@ weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
 lastUpdated: "2026-04-13"
+diagramPrompt: "A simple supply-demand graph with S curve sloping upward and D curve sloping downward, intersecting at equilibrium point labeled E with price axis and quantity axis labeled."
 ---
 
 # Introduction to Economics

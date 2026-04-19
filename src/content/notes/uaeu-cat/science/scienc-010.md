@@ -6,7 +6,7 @@ subjectName: Science
 topic: scienc-010
 topicName: Topic 10
 weight: 3
-country: uAeu
+country: UAE
 generated: "2026-03-25T17:00:00"
 ---
 

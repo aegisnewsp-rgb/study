@@ -11,6 +11,7 @@ country: india
 lastUpdated: "2026-04-13"
 tier: notes
 generated: "2026-03-25T17:00:00"
+diagramPrompt: "A simple diagram showing the production function with Output on Y-axis and Input (Labour) on X-axis. Show three phases: increasing returns (steep curve), diminishing returns (flattening), and negative returns (downward slope). Include short-run TC, TVC, and TFC curves below."
 ---
 
 # Theory of Production and Cost

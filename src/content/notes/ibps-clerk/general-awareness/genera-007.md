@@ -4,7 +4,7 @@ examName: IBPS Clerk
 subject: awareness
 subjectName: ('awareness', 'General Awareness')
 topic: genera-007
-topicName: Topic 7
+topicName: Budget and Taxation
 weight: 3
 country: ibps
 generated: "2026-03-25T17:00:00"

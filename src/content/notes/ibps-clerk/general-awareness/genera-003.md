@@ -4,7 +4,7 @@ examName: IBPS Clerk
 subject: awareness
 subjectName: ('awareness', 'General Awareness')
 topic: genera-003
-topicName: Topic 3
+topicName: Banking Products and Services
 weight: 3
 country: ibps
 generated: "2026-03-25T17:00:00"

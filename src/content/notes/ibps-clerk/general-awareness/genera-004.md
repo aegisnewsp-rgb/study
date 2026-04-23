@@ -4,7 +4,7 @@ examName: IBPS Clerk
 subject: awareness
 subjectName: ('awareness', 'General Awareness')
 topic: genera-004
-topicName: Topic 4
+topicName: Financial Inclusion and Digital Banking
 weight: 3
 country: ibps
 generated: "2026-03-25T17:00:00"

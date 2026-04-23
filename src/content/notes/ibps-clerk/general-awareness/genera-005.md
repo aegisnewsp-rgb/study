@@ -4,7 +4,7 @@ examName: IBPS Clerk
 subject: awareness
 subjectName: General Awareness
 topic: genera-005
-topicName: Topic 5
+topicName: Government Banking Schemes
 weight: 3
 country: ibps
 generated: "2026-03-25T17:00:00"

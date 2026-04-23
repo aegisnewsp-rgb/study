@@ -2,7 +2,7 @@
 exam: fmge
 examName: FMGE
 subject: botany
-subjectName: Botany
+subjectName: Microbiology
 topic: microb-006
 topicName: Topic 6
 weight: 3
@@ -10,430 +10,116 @@ country: fmge
 generated: "2026-03-25T17:00:00"
 ---
 
-# Topic 6
+# Topic 6: Mycology, Parasitology & Immunology Basics
 
-### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+## Introduction
 
-**Topic 6** — Key Facts for FMGE
-Core concept: Immunology — innate and adaptive immunity, immunoglobulins, hypersensitivity, vaccines
-High-yield point: Immunoglobulin types and functions, hypersensitivity types, vaccine types
-⚡ Exam tip: Immunoglobulin functions, Type I-IV hypersensitivity, and vaccine classifications are high-yield
+This chapter covers three distinct but equally important areas for FMGE: **medical mycology** (fungal infections), **parasitology** (protozoa and helminths), and **basic immunology** as applied to infectious diseases. Fungal and parasitic infections are collectively called **opportunistic infections** and are particularly relevant in immunocompromised patients. Immunological principles underpin vaccine responses, hypersensitivity reactions, and serological diagnosis.
 
----
+## Medical Mycology
 
-### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+Fungi are eukaryotic organisms with a rigid cell wall (containing chitin, not peptidoglycan). They can be unicellular (yeasts) or multicellular (moulds/dimorphic).
 
-**Topic 6** — FMGE Study Guide
-Overview: Medical immunology for understanding disease and vaccines
-Core principles: Immune system components, antigen-antibody reactions, immunodeficiencies
-Key points: Ig classes, complement, hypersensitivity types, vaccine types
-Study strategy: Connect pathophysiology to clinical scenarios
+### Classification of Medically Important Fungi
 
----
+| Type | Characteristics | Examples |
+|---|---|---|
+| **Yeast** | Unicellular, round/oval, budding | *Candida albicans*, *Cryptococcus neoformans* |
+| **Mould** | Multicellular, filamentous (hyphae) | *Aspergillus*, *Mucor*, *Rhizopus* |
+| **Dimorphic** | Yeast at 37°C, mould at 25°C | *Histoplasma capsulatum*, *Blastomyces*, *Paracoccidioides* |
 
-### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
+### Superficial and Cutaneous Mycoses
 
-## Immunology — Innate and Adaptive Immunity, Hypersensitivity, and Vaccines — Complete Study Notes
+- ***Pityriasis versicolor*** (Tinea versicolor) — *Malassezia furfur*; hypopigmented or hyperpigmented macules on trunk; "spaghetti and meatballs" appearance on KOH; treated with topical selenium sulfide or azoles
+- ***Tinea (dermatophytoses)*** — *Trichophyton*, *Microsporum*, *Epidermophyton*; keratins degraded by fungal keratinases; all cause ringworm lesions with **active scaly border** and central clearing
 
----
+| Infection | Site |
+|---|---|
+| Tinea corporis | Body |
+| Tinea cruris | Groin (jock itch) |
+| Tinea pedis | Foot (athlete's foot) |
+| Tinea capitis | Scalp (black dot ringworm) |
+| Tinea unguium | Nails (onychomycosis) |
 
-## Overview of Immune System
+### Opportunistic Fungal Infections
 
-### Functions of Immune System
-1. **Recognition**: Distinguish self from non-self
-2. **Elimination**: Remove pathogens and abnormal cells
-3. **Memory**: Rapid response on re-exposure
+- ***Candida albicans*** — budding yeast with **pseudohyphae** and **germ tubes**; causes oral thrush (white plaques), vulvovaginitis, esophagitis, disseminated candidiasis; treated with fluconazole (uncomplicated) or amphotericin B (invasive)
+- ***Cryptococcus neoformans*** — **encapsulated yeast** (India ink shows clear halo); acquired from pigeon droppings; causes **cryptococcal meningitis** in AIDS; antigen detection in CSF (CrAg) is diagnostic; treated with amphotericin B + flucytosine, then fluconazole
+- ***Aspergillus fumigatus*** — septate hyphae branching at 45° angles; causes allergic bronchopulmonary aspergillosis (ABPA), aspergilloma ("fungus ball" in pre-existing cavity), invasive aspergillosis in neutropenia; treated with voriconazole
+
+### Endemic Mycoses (Dimorphic Fungi)
+
+- ***Histoplasma capsulatum*** — Ohio/Mississippi River valleys; bird/bat guano; intracellular yeast within macrophages; **GMS stain** shows small (2–4 µm) yeast with narrow-based budding; culture on Sabouraud agar; treated with itraconazole or amphotericin B
+- ***Paracoccidioides brasiliensis*** — Latin America; "**mulberry-like**" yeast with "**pilot's wheel**" (multiple budding); treated with itraconazole
+- ***Blastomyces dermatitidis*** — Great Lakes/North America; **broad-based budding** yeast; treated with itraconazole or amphotericin B
+
+## Parasitology — Protozoa
+
+### Intestinal Protozoa
+
+- ***Entamoeba histolytica*** — amebic dysentery; **four-nucleated cyst** (mature cyst); **hematophagous trophozoite** (engulfed RBCs in cytoplasm); liver abscess (right lobe); transmitted via contaminated water; diagnosis by stool examination (cyst/trophozoite); treated with **metronidazole** (trophozoites) + iodoquinoline or paromomycin (cysts)
+- ***Giardia lamblia*** — "**trophozoites** have parachute-like appearance; **cysts** with 4 nuclei; causes malabsorption, frothy stools; transmitted via contaminated water; treated with **metronidazole** or tinidazole
+- ***Cryptosporidium*** — sporozoites form holes in brush border of enterocytes; watery diarrhea in AIDS (CD4 <100); acid-fast stain (modified Kinyoun) shows **red oocysts** against green background; treated with nitazoxanide
+
+### Blood and Tissue Protozoa
+
+- ***Plasmodium vivax*** and ***falciparum*** — malaria; transmitted by female *Anopheles* mosquito; cyclic fever patterns (tertian: P. vivax/P. falciparum every 48h; quartan: P. malariae every 72h)
+  - *P. vivax*: Enlarged spleen; hypnozoites in liver → **relapse**; needs primaquine (to eliminate liver hypnozoites)
+  - *P. falciparum*: Highest mortality; **crescent-shaped gametocytes**; **Blackwater fever** (hemolysis + hemoglobinuria); ** cerebral malaria** (sequestered RBCs in brain capillaries); severe and resistant; needs IV artesunate
+  - Diagnosis: **Giemsa-stained thick and thin blood films**; rapid antigen detection tests (RDT)
+  - Treatment: Chloroquine (P. vivax in India where sensitive); ACT (artemisinin-based combination therapy) for P. falciparum; primaquine for P. vivax hypnozoites
+
+- ***Trypanosoma cruzi*** (Chagas disease) — **Reduviid bug** ("kissing bug") bite; **amastigotes** in tissue; ** Romana's sign** (periorbital swelling); transmitted by Triatoma bug feces/rubbing into bite wound; endemic in South America; treated with nifurtimox or benznidazole
+
+- ***Leishmania donovani*** — visceral leishmaniasis (kala-azar); sandfly (Phlebotomus) bite; **intracellular amastigotes within macrophages**; **LD bodies** (Leishman-Donovan bodies); hepatosplenomegaly, pancytopenia, weight loss; diagnosis by bone marrow/splenic aspirate (AMastigote culture); treated with **amphotericin B liposomal** (first line in India)
+
+## Parasitology — Helminths
+
+| Helminth | Transmission | Key Feature | Treatment |
+|---|---|---|---|
+| *Ascaris lumbricoides* | Fecal-oral eggs | Large roundworm; **Löffler's filaments** in lungs; high burden → malnutrition | Albendazole |
+| *Enterobius vermicularis* | Fecal-oral eggs | **Scotch tape test**; perianal pruritus; **pinworm** | Albendazole |
+| *Ancylostoma duodenale* (Hookworm) | Barefoot walking | Iron deficiency anemia; **cutting plates** in duodenum | Albendazole |
+| *Strongyloides stercoralis* | Barefoot walking | **Threadworm**; autoinfection; can cause hyperinfection in immunocompromised | Ivermectin |
+| *Wuchereria bancrofti* | Mosquito bite | **Lymphatic filariasis**; elephantiasis; **nocturnal periodicity** (mosquitoes bite at night); **microfilariae in peripheral blood smear at night**; DEC (diethylcarbamazine) | |
+| *Taenia saginata* (beef) / *T. solium* (pork) | Undercooked beef/pork | Proglottids in stool; **scolex with 4 suckers** (T. saginata) or **rostellum with hooklets** (T. solium); *T. solium* can cause **cysticercosis** (larval form in tissues including brain — neurocysticercosis) | Praziquantel |
+| *Echinococcus granulosus* | Dog/sheep contact | **Hydatid cyst** (liver, lung); cyst with daughter cysts; **Casoni's test**; surgical removal + albendazole | |
+
+## Basic Immunology for FMGE
 
 ### Types of Immunity
 
-#### Innate (Non-Specific) Immunity
-- Present from birth
-- First line of defense
-- No immunological memory
-- **Physical**: Skin, mucous membranes
-- **Cellular**: Macrophages, neutrophils, NK cells, dendritic cells
-- **Humoral**: Complement, acute phase proteins, interferons
+- **Innate immunity** — first line of defense: skin, mucous membranes, phagocytes (neutrophils, macrophages), NK cells, complement, interferons
+- **Adaptive immunity** — specific; involves lymphocytes (T and B cells); humoral (B cells → antibodies) and cell-mediated (T cells)
 
-#### Adaptive (Specific) Immunity
-- Develops after exposure
-- **Highly specific** for each antigen
-- **Immunological memory**
-- **Takes time** to develop on first exposure
-- **Cellular**: T lymphocytes (cell-mediated immunity)
-- **Humoral**: B lymphocytes → Antibodies (immunoglobulins)
+### Antibody Functions
 
-### Key Cells
+| Antibody | Function | Location |
+|---|---|---|
+| **IgG** | Main serum antibody; crosses placenta; opsonization; secondary response | Blood, tissues |
+| **IgM** | First antibody produced; pentamer; complement activation; does NOT cross placenta | Blood |
+| **IgA** | Secretory (sIgA) in secretions; mucosal protection | Secretions, saliva, tears |
+| **IgE** | Allergic reactions; parasitic infections; basophil/mast cell activation | Bound to mast cells |
+| **IgD** | B cell receptor function | B cell surface |
 
-| Cell Type | Function |
-|-----------|---------|
-| **Macrophages** | Phagocytosis, antigen presentation |
-| **Neutrophils** | Phagocytosis (first responders) |
-| **NK cells** | Kill virus-infected and tumor cells (no prior sensitization) |
-| **Dendritic cells** | Professional antigen-presenting cells (APCs) |
-| **T cells** | Cell-mediated immunity |
-| **B cells** | Antibody production |
+### Hypersensitivity Reactions
 
----
+| Type | Mechanism | Examples |
+|---|---|---|
+| **Type I (Immediate/Anaphylactic)** | IgE-mediated; mast cell degranulation | Anaphylaxis, asthma, allergic rhinitis |
+| **Type II (Cytotoxic)** | IgG/IgM against cell surface antigens | Hemolytic anemia, Goodpasture's, Graves' |
+| **Type III (Immune Complex)** | Antigen-antibody complex deposition | Serum sickness, post-streptococcal GN, SLE |
+| **Type IV (Delayed/Cell-mediated)** | T-cell mediated | TB skin test (PPD), contact dermatitis, transplant rejection |
 
-## Innate Immunity
+### Vaccines (Key Types)
 
-### Barriers
-| Barrier | Mechanism |
-|---------|----------|
-| **Skin** | Physical barrier, fatty acids (low pH) |
-| **Mucous membranes** | Trap pathogens, lysozyme |
-| **Respiratory epithelium** | Cilia, mucus (mucociliary escalator) |
-| **Gastric acid** | Kills most ingested bacteria |
-| **Normal flora** | Competition with pathogens |
+- **Live attenuated** — MMR, oral polio (Salk/Sabin), rotavirus, yellow fever, BCG, varicella
+- **Inactivated/killed** — injectable polio (IPV), rabies, hepatitis A, Japanese encephalitis
+- **Toxoid** — tetanus (TT), diphtheria (DT)
+- **Polysaccharide/conjugate** — pneumococcal (PCV13/PPSV23), Hib, meningococcal, hepatitis B (recombinant HBsAg — conjugate)
 
-### Phagocytosis
+⚡ **Exam tip:** Fungal elements in KOH preparation: **Pseudohyphae + budding yeast + germ tubes** = *Candida albicans*. **Encapsulated yeast with India ink** = *Cryptococcus neoformans*.
 
-**Process:**
-1. **Recognition**: Opsonins (antibodies, complement C3b) enhance recognition
-2. **Engulfment**: Phagosome formation
-3. **Killing**: Phagolysosome, reactive oxygen species (ROS), enzymes
+⚡ **Exam tip:** Malaria with **crescent/gammetocyte forms** in blood smear = *Plasmodium falciparum* (dangerous; cerebral malaria risk).
 
-**Opsonization:**
-- **C3b** (complement) opsonizes pathogens
-- **Antibodies (IgG)** opsonize pathogens
-- Opsonized pathogens are more easily phagocytosed
-
-### Complement System
-
-**Pathways:**
-| Pathway | Trigger | C3 Convertase |
-|---------|---------|--------------|
-| **Classical** | Ag-Ab complex | C1 → C4b2b |
-| **Lectin** | Mannose on pathogens | MBL → C4b2b |
-| **Alternative** | Spontaneous (C3) | C3bBb |
-
-**Key Functions (CRAM for complement):**
-- **C**hemoattractant: C3a, C5a
-- **R**ecognition: C3b (opsonization)
-- **A**ctivation of cells: C3b
-- **M**embrane attack: MAC (C5b-9)
-
-**MAC (Membrane Attack Complex):**
-- C5b + C6 + C7 + C8 + C9
-- Forms pore in bacterial membrane
-- Lysis of gram-negative bacteria
-
-**Complement Deficiencies:**
-- **C3 deficiency**: Recurrent pyogenic infections
-- **C5-9 deficiency**: Neisserial infections (only organisms needing MAC for killing)
-- **C1 inhibitor deficiency**: **Hereditary angioedema** (bradykinin-mediated — ACE inhibitors contraindicated)
-
----
-
-## Adaptive Immunity
-
-### Major Histocompatibility Complex (MHC)
-
-**MHC Class I:**
-- Present on ALL nucleated cells
-- Presents **endogenous antigens** (viral, tumor)
-- Recognized by **CD8+ T cytotoxic cells**
-
-**MHC Class II:**
-- Present on **APCs** (dendritic cells, macrophages, B cells)
-- Presents **exogenous antigens** (bacterial)
-- Recognized by **CD4+ T helper cells**
-
-### T Cells
-
-#### CD4+ T Helper Cells
-- Recognize antigens on MHC Class II
-- **Th1 cells**: Activate macrophages (intracellular pathogens)
-  - secrete IFN-γ, TNF-α
-- **Th2 cells**: Activate B cells (extracellular pathogens, parasites)
-  - secrete IL-4, IL-5, IL-13
-- **Th17 cells**: Neutrophil recruitment (extracellular bacteria, fungi)
-
-#### CD8+ Cytotoxic T Cells
-- Recognize antigens on MHC Class I
-- Kill virus-infected cells and tumor cells
-- Mechanism: Perforin (pore formation) + Granzymes (apoptosis)
-
-### B Cells and Antibodies
-
-**B Cell Activation:**
-1. B cell receptor (BCR) binds antigen
-2. **T-dependent activation**: Th2 cells provide help (CD40L + cytokines)
-3. **T-independent activation**: Some antigens (polysaccharides) activate B cells without T help
-
-**Class Switching (Isotype Switching):**
-- Same variable region, different constant region
-- IgM → IgG → IgA → IgE (depending on cytokine milieu)
-
----
-
-## Immunoglobulins (Antibodies)
-
-### Structure
-- **Y-shaped** molecule
-- **2 heavy chains + 2 light chains**
-- **Fab region**: Antigen binding (variable)
-- **Fc region**: Effector functions (constant)
-
-### Classes and Functions
-
-| Ig Class | Location | Function | Key Points |
-|----------|----------|----------|-----------|
-| **IgG** | Blood, extracellular | Main antibody, crosses placenta, opsonization, neutralization | Most abundant, longest half-life |
-| **IgM** | Blood, lymph | First antibody produced, complement activation | Pentamer (5 units), first in primary response |
-| **IgA** | Secretions (saliva, tears, milk, respiratory/GI/GU tracts) | Mucosal immunity | Dimer (in secretions), monomer in blood |
-| **IgE** | Bound to mast cells | Type I hypersensitivity, antiparasitic | Causes degranulation |
-| **IgD** | B cell surface | B cell receptor | Function not fully clear |
-
-### Primary vs Secondary Immune Response
-
-| Feature | Primary | Secondary |
-|---------|---------|-----------|
-| First exposure | Yes | No |
-| **Antibody produced** | IgM first | **IgG** predominant |
-| **Time to peak** | 7-10 days | 3-5 days |
-| **Affinity** | Low | High (affinity maturation) |
-| **Memory** | No | Yes |
-
----
-
-## Antigen-Antibody Reactions
-
-### Precipitation Reaction
-- **Soluble antigen** + **antibody** → lattice formation → precipitate
-- Used for: Quantifying antigen/antibody (immunodiffusion, immunoelectrophoresis)
-
-### Agglutination Reaction
-- **Particulate antigen** (cells, latex beads) + antibody → clumping
-- Used for: Blood typing, Weil-Felix test, Widal test
-
-### Neutralization
-- Antibody blocks pathogen (virus, toxin) binding
-- Example: **Antitoxin** neutralizes toxin
-
-### ELISA (Enzyme-Linked Immunosorbent Assay)
-
-| Type | Purpose |
-|------|--------|
-| **Direct ELISA** | Detect antigen |
-| **Indirect ELISA** | Detect antibody (HIV screening) |
-| **Sandwich ELISA** | Detect antigen (high sensitivity) |
-| **Competitive ELISA** | High specificity |
-
-### Western Blot
-- Separates proteins by SDS-PAGE → transferred to membrane → probed with antibody
-- **Confirmatory test for HIV** (after ELISA positive)
-
-### Immunofluorescence
-- **Direct**: Fluorescent antibody against antigen (viral identification)
-- **Indirect**: Unlabeled antibody + fluorescent anti-antibody (autoimmune disease diagnosis)
-
----
-
-## Hypersensitivity Reactions
-
-### Type I — Immediate/Anaphylactic
-
-**Mechanism:** IgE bound to mast cells + allergen → mast cell degranulation
-
-**Mediators released:**
-- **Histamine**: Vasodilation, increased vascular permeability, bronchoconstriction
-- **Leukotrienes**: Prolonged bronchoconstriction (more potent than histamine)
-- **Prostaglandins**: Inflammation, pain
-
-**Clinical Examples:**
-| Example | Manifestation |
-|---------|-------------|
-| Anaphylaxis (systemic) | Hypotension, bronchospasm, urticaria, angioedema |
-| Allergic rhinitis | Sneezing, rhinorrhea, nasal congestion |
-| Asthma (allergic) | Bronchospasm, wheezing |
-| Urticaria | Itchy wheals |
-| Food allergy | Various GI, cutaneous, systemic |
-
-**Treatment:**
-- **Epinephrine** (first-line for anaphylaxis): bronchodilation, vasoconstriction
-- **Antihistamines**: For mild reactions
-- **Corticosteroids**: To prevent rebound
-
-### Type II — Cytotoxic/Antibody-Mediated
-
-**Mechanism:** IgG or IgM antibodies against cell surface antigens → cell destruction
-
-**Mechanisms of damage:**
-- Complement activation (MAC)
-- Opsonization → phagocytosis
-- Antibody-dependent cellular cytotoxicity (ADCC)
-
-**Clinical Examples:**
-| Disease | Mechanism |
-|---------|----------|
-| **Hemolytic transfusion reaction** | ABO incompatibility |
-| **Hemolytic disease of newborn** | Rh incompatibility (anti-D) |
-| **Autoimmune hemolytic anemia** | Autoantibodies against RBCs |
-| **Goodpasture syndrome** | Anti-basement membrane antibodies (lung/kidney) |
-| **Myasthenia gravis** | Anti-acetylcholine receptor antibodies |
-| **Graves disease** | Anti-TSH receptor antibodies (stimulating) |
-
-### Type III — Immune Complex-Mediated
-
-**Mechanism:** Antigen-antibody complexes deposit in tissues → complement activation → inflammation
-
-**Examples:**
-| Disease | Antigen Source |
-|---------|---------------|
-| **Serum sickness** | Foreign proteins (antithymocyte globulin) |
-| **Arthus reaction** | Local immune complex (e.g., at injection site) |
-| **Post-streptococcal glomerulonephritis** | Streptococcal antigen-antibody complexes |
-| **Systemic lupus erythematosus** | Nuclear antigen-antibody complexes |
-| **Vasculitis** | Various immune complexes |
-
-**Features:**
-- **Fever, arthralgia, urticarial rash, lymphadenopathy**
-- **Hypocomplementemia**: Complement consumed in immune complexes
-
-### Type IV — Delayed/Cell-Mediated (T-cell Mediated)
-
-**Mechanism:** Sensitized T cells (CD4+ Th1) release cytokines → macrophage activation → tissue damage
-
-**Timeline:** 24-72 hours (delayed)
-
-**Examples:**
-| Reaction | Mechanism |
-|---------|----------|
-| **TB skin test (PPD/Mantoux)** | Tuberculin antigen → induration (cell-mediated) |
-| **Contact dermatitis** (poison ivy) | T cell-mediated (hapten-carrier) |
-| **Granulomatous reactions** | Persistent antigen → macrophage activation (TB, sarcoidosis) |
-| **Graft rejection** | Host T cells against graft antigens |
-| **Jones-Mote reaction** | Cutaneous basophil hypersensitivity |
-
----
-
-## Immunodeficiency
-
-### Primary (Congenital) Immunodeficiencies
-
-| Disorder | Defect | Infections |
-|---------|--------|-----------|
-| **Bruton's agammaglobulinemia** | X-linked, no B cells | Recurrent bacterial infections (after 6 months — maternal IgG wanes) |
-| **DiGeorge syndrome** | Thymic hypoplasia (22q11 deletion) | Viral, fungal infections |
-| **Severe Combined Immunodeficiency (SCID)** | T and B cell defects | All infections (bacterial, viral, fungal) |
-| **Chronic Granulomatous Disease (CGD)** | Defective NADPH oxidase | Catalase-positive organisms (S. aureus, Aspergillus, Nocardia) |
-| **Chediak-Higashi** | Defective lysosomal trafficking | Pyogenic infections |
-| **Wiskott-Aldrich** | WAS protein defect | Bacterial infections, eczema, thrombocytopenia |
-
-### Secondary (Acquired) Immunodeficiencies
-
-| Cause | Mechanism |
-|-------|----------|
-| **HIV/AIDS** | CD4+ T cell depletion |
-| **Malnutrition** | Protein deficiency → impaired immunity |
-| **Immunosuppressive drugs** | Chemotherapy, steroids |
-| **Radiation** | Bone marrow suppression |
-| **Splenectomy** | Loss of reticuloendothelial function |
-
----
-
-## Vaccines
-
-### Types of Vaccines
-
-| Type | Example | Mechanism |
-|------|---------|-----------|
-| **Live attenuated** | MMR, Varicella, Rotavirus, BCG, Yellow fever | Mimics natural infection, strong immunity |
-| **Inactivated/Killed** | Hepatitis A, Rabies, Influenza (injection), Polio (IPV) | Cannot replicate, safer |
-| **Toxoid** | Tetanus, Diphtheria | Inactivated toxin (still immunogenic) |
-| **Subunit/Protein** | Hepatitis B (HBsAg), Acellular pertussis, Influenza (injectable) | Purified antigen |
-| **Polysaccharide** | Pneumococcal (PPSV23), Meningococcal | Pure polysaccharide (T-independent) |
-| **Conjugate** | Hib, PCV13, Meningococcal conjugate | Polysaccharide + protein (T-dependent) |
-| **mRNA** | COVID-19 (Pfizer, Moderna) | mRNA → spike protein → immunity |
-| **Viral vector** | COVID-19 (AstraZeneca, J&J) | Replicating/non-replicating vector |
-
-### Live vs Killed Vaccines
-
-| Feature | Live Attenuated | Inactivated |
-|---------|---------------|-------------|
-| Immune response | Strong, broad (cell + humoral) | Weaker (humoral) |
-| Revaccination | Not usually needed | Booster doses needed |
-| Storage | Cold chain critical | More stable |
-| Safety in pregnancy/immunocompromised | **Contraindicated** | Safe |
-| Duration of immunity | Long-lasting | Shorter |
-
-### Immunization Schedule (Key Vaccines)
-
-| Vaccine | Type | Notable |
-|---------|------|--------|
-| BCG | Live attenuated | Given at birth, prevents TB |
-| Hepatitis B | Subunit (HBsAg) | Given at birth, 3 doses |
-| OPV/IPV | Live/Inactivated | Polio eradication |
-| DTP | Toxoid + whole cell/acellular pertussis | Booster every 10 years (Tetanus) |
-| MMR | Live attenuated | 2 doses, not given in pregnancy |
-| Hib | Conjugate | Prevents meningitis, epiglottitis |
-| PCV | Conjugate | Prevents pneumococcal disease |
-| Rotavirus | Live attenuated | Oral, prevents gastroenteritis |
-| HPV | Virus-like particle (VLP) | Prevents cervical cancer |
-
-### Monoclonal Antibodies (Therapeutic)
-
-| Antibody | Target | Use |
-|---------|--------|-----|
-| **Omalizumab** | IgE | Allergic asthma |
-| **Rituximab** | CD20 | B cell lymphomas, RA |
-| **Infliximab** | TNF-α | IBD, RA |
-| **Adalimumab** | TNF-α | IBD, RA, psoriasis |
-| **Trastuzumab** | HER2 | Breast cancer |
-| **Bevacizumab** | VEGF | Colorectal, lung cancer |
-
----
-
-## MUST-REMEMBER FACTS
-
-| Category | Key Point |
-|---------|----------|
-| IgG | Most abundant, crosses placenta, longest half-life |
-| IgM | First antibody in primary response, pentamer |
-| IgA | Secretory (dimer), mucosal immunity |
-| IgE | Allergies, antiparasitic |
-| Type I hypersensitivity | IgE + mast cells, immediate |
-| Type II hypersensitivity | Antibodies against cell surface |
-| Type III hypersensitivity | Immune complex deposition |
-| Type IV hypersensitivity | T-cell mediated, delayed |
-| Live vaccines | Contraindicated in pregnancy/immunocompromised |
-| Killed vaccines | Safe but require boosters |
-
-### Common FMGE Questions
-
-**Q: Which immunoglobulin crosses placenta?**
-A: IgG (only one that crosses)
-
-**Q: First antibody in primary immune response:**
-A: IgM
-
-**Q: Cold chain required:**
-A: Live attenuated vaccines
-
-**Q: Type I hypersensitivity mediator most potent in bronchoconstriction:**
-A: Leukotrienes (LTC4, LTD4)
-
-**Q: Which complement deficiency causes neisserial infections?**
-A: C5-C9 (MAC deficiency)
-
-**Q: Type II hypersensitivity example:**
-A: Hemolytic transfusion reaction, Graves disease, Myasthenia gravis
-
-**Q: Type III hypersensitivity:**
-A: Serum sickness, post-streptococcal GN, SLE
-
-**Q: Type IV hypersensitivity:**
-A: TB skin test, contact dermatitis, granulomas
-
-**Q: T-independent antigen:**
-A: Polysaccharide vaccines (don't induce T cell help)
-
-**Q: Conjugate vaccines:**
-A: Hib, PCV — polysaccharide + protein carrier (converts to T-dependent response)
-
----
-*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+⚡ **Exam tip:** A patient with cysticercosis (calcified lesions in brain) from eating undercooked pork = *Taenia solium*. Treat neurocysticercosis with albendazole + steroids.

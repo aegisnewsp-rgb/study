@@ -4,7 +4,7 @@ examName: IBPS Clerk
 subject: awareness
 subjectName: ('awareness', 'General Awareness')
 topic: genera-006
-topicName: Topic 6
+topicName: Indian Economy and GDP
 weight: 3
 country: ibps
 generated: "2026-03-25T17:00:00"

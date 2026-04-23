@@ -4,7 +4,7 @@ examName: IBPS Clerk
 subject: awareness
 subjectName: ('awareness', 'General Awareness')
 topic: genera-008
-topicName: Topic 8
+topicName: International Financial Institutions
 weight: 3
 country: ibps
 generated: "2026-03-25T17:00:00"

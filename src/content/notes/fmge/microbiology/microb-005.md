@@ -2,7 +2,7 @@
 exam: fmge
 examName: FMGE
 subject: botany
-subjectName: Botany
+subjectName: Microbiology
 topic: microb-005
 topicName: Topic 5
 weight: 3
@@ -10,486 +10,132 @@ country: fmge
 generated: "2026-03-25T17:00:00"
 ---
 
-# Topic 5
+# Topic 5: Virology — General Concepts, DNA & RNA Viruses
 
-### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+## Introduction
 
-**Topic 5** — Key Facts for FMGE
-Core concept: Mycology and Parasitology — fungal infections and medically important parasites
-High-yield point: Superficial vs systemic mycoses, malaria, intestinal protozoa, helminths
-⚡ Exam tip: Know fungal disease patterns, malaria life cycle, and parasite diagnostic stages
+Viruses are obligate intracellular parasites that cannot replicate independently — they require host cell machinery to reproduce. Viruses cause a significant proportion of human infectious diseases, ranging from the common cold to AIDS, hepatitis, encephalitis, and emerging infections like COVID-19. For FMGE, understanding viral replication cycles, classification, and specific viral pathogens is essential.
 
----
+## General Properties of Viruses
 
-### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+- **Size:** 20–300 nm (much smaller than bacteria)
+- **Nucleic acid:** Either DNA or RNA — never both
+- **Protein coat (capsid):** Composed of capsomeres; protects nucleic acid
+- **Symmetry:** Icosahedral (e.g., poliovirus, adenovirus) or helical (e.g., rabies, tobacco mosaic virus)
+- **Envelope:** Present in some viruses ( lipid bilayer derived from host cell membrane); viruses without envelopes are more resistant (e.g., adenovirus, poliovirus)
+- **No metabolism:** No enzymes for energy production or protein synthesis — entirely dependent on host
 
-**Topic 5** — FMGE Study Guide
-Overview: Medical mycology and parasitology for FMGE
-Core principles: Classification of fungi, parasite life cycles, lab diagnosis
-Key points: Candida, Aspergillus, Cryptococcus, malaria, amebiasis, helminths
-Study strategy: Focus on disease patterns, diagnostic features, and treatment
+## Viral Replication — General Steps
 
----
+1. **Attachment (Adsorption):** Viral surface proteins (hemagglutinin in influenza; gp120 in HIV) bind to specific host cell receptors
+2. **Penetration:** Receptor-mediated endocytosis (non-enveloped viruses) or membrane fusion (enveloped viruses)
+3. **Uncoating:** Capsid removed; viral nucleic acid released into cytoplasm/nucleus
+4. **Replication:** Viral genome replicates; viral mRNA and proteins synthesized using host machinery
+5. **Assembly (Maturation):** New virions assembled
+6. **Release:** Budding (enveloped viruses) or cell lysis (non-enveloped viruses)
 
-### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
+## Viral Classification (Baltimore Classification)
 
-## Mycology and Parasitology — Fungi, Protozoa, and Helminths — Complete Study Notes
+| Class | Genome | Example |
+|---|---|---|
+| I | dsDNA | Herpesvirus, Adenovirus |
+| II | ssDNA (positive sense) | Parvovirus |
+| III | dsRNA | Rotavirus |
+| IV | ssRNA (+) sense | Poliovirus, Hepatitis A, SARS-CoV-2 |
+| V | ssRNA (−) sense | Influenza, Rabies, Measles |
+| VI | ssRNA (+) → DNA (reverse transcriptase) | HIV (Retrovirus) |
+| VII | dsDNA → RNA (reverse transcriptase) | Hepatitis B (Hepadnavirus) |
 
----
+## Important DNA Viruses
 
-## MEDICAL MYCOLOGY
+### Herpesviruses (Family: Herpesviridae)
 
-### Fungal Classification
+All herpesviruses are large, enveloped, dsDNA viruses. They establish **latency** after primary infection and can reactivate periodically.
 
-| Category | Site | Examples |
-|---------|------|---------|
-| **Superficial** | Skin, hair, nails | Dermatophytes, Malassezia |
-| **Subcutaneous** | Dermis and deeper | Sporotrichosis, Madura mycosis |
-| **Systemic/Deep** | Internal organs | Candida, Aspergillus, Cryptococcus |
-| **Opportunistic** | Immunocompromised | Pneumocystis, Mucor |
+- ***Herpes simplex virus type 1 (HSV-1)*** — oral herpes; cold sores; also causes herpes simplex encephalitis (temporal lobe involvement)
+- ***Herpes simplex virus type 2 (HSV-2)*** — genital herpes; vesicular lesions on erythematous base
+- ***Varicella-zoster virus (VZV)*** — chickenpox (varicella — primary infection); shingles (zoster — reactivation along dermatome); **Tzanck smear** shows multinucleated giant cells
+- ***Cytomegalovirus (CMV)*** — congenital infections (periventricular calcifications, hearing loss, hepatosplenomegaly); mononucleosis-like syndrome in immunocompromised; **owl's eye** intranuclear inclusion bodies
+- ***Epstein-Barr virus (EBV)*** — infectious mononucleosis (fatigue, pharyngitis, lymphadenopathy — especially posterior cervical); **Downey cells** (atypical lymphocytes); associated with **Burkitt lymphoma** (endemic, jaw involvement in African children) and **nasopharyngeal carcinoma**
 
-### Superficial Fungal Infections (Dermatomycoses)
+### Hepatitis Viruses
 
-#### Dermatophytes
+| Virus | Genome | Transmission | Chronic Risk | Vaccine |
+|---|---|---|---|---|
+| **Hepatitis A** | ssRNA (+) | Fecal-oral | No chronic | Yes |
+| **Hepatitis B** | dsDNA (partially) | Blood, sexual, perinatal | **Yes** (10%) | **Yes** |
+| **Hepatitis C** | ssRNA (+) | Blood | **Yes** (80%) | No |
+| **Hepatitis E** | ssRNA (+) | Fecal-oral | No (except preg.) | No (in India) |
 
-**Caused by:** Trichophyton, Microsporum, Epidermophyton
+**Hepatitis B serology:**
+- HBsAg: Surface antigen — indicates active infection
+- Anti-HBs: Surface antibody — indicates immunity (infection recovery or vaccination)
+- HBcAg: Core antigen — not detectable in serum
+- Anti-HBc (IgM): Acute/recent infection
+- Anti-HBc (IgG): Past infection or chronic
+- HBeAg: Viral replication marker — high infectivity
 
-**Tinea (Ringworm) Infections:**
-| Infection | Site |
-|-----------|------|
-| Tinea capitis | Scalp |
-| Tinea corporis | Body |
-| Tinea cruris | Groin (jock itch) |
-| Tinea pedis | Foot (athlete's foot) |
-| Tinea unguium | Nails (onychomycosis) |
-| Tinea manuum | Hand |
+**Hepatitis B vaccine** — contains recombinant HBsAg; 3-dose schedule (0, 1, 6 months); protective antibody level ≥10 mIU/mL
 
-**Lab Diagnosis:**
-- **KOH mount**: **Septate, branching hyphae** visible
-- **Wood's lamp**: Some Microsporum species fluoresce (apple green)
-- Culture: Sabouraud's agar
+## Important RNA Viruses
 
-**Treatment:**
-- **Topical**: Clotrimazole, miconazole, terbinafine
-- **Oral**: Griseofulvin (dermatophytes), terbinafine (onychomycosis)
+### Orthomyxoviridae — Influenza Virus
 
-#### Malassezia (Pityriasis/Tinea versicolor)
+**Segmented, negative-sense, single-stranded RNA virus** with envelope; **hemagglutinin (HA)** mediates attachment and entry; **neuraminidase (NA)** cleaves sialic acid for release of new virions.
 
-**Features:**
-- **Hypo- or hyperpigmented** patches on trunk
-- "Spaghetti and meatballs" appearance on KOH
-- **Salicylic acid** treated
+- **Antigenic drift** — minor mutations in HA/NA; causes seasonal epidemics
+- **Antigenic shift** — major reassortment of genome segments (especially in avian/human strains); causes **pandemics** (e.g., H1N1 2009)
 
-### Opportunistic Fungal Infections
+**Laboratory diagnosis:** Nasopharyngeal swab → RT-PCR (gold standard); rapid antigen detection; viral culture in MDCK cells
 
-#### Candida Species
+**Treatment:** **Oseltamivir**, **zanamivir** (neuraminidase inhibitors); amantadine/rimantadine (M2 inhibitors — no longer recommended due to resistance)
 
-**Most common:** C. albicans
+### Paramyxoviruses
 
-**Normal flora:** Oral cavity, GI tract, vagina
+- ***Measles virus*** — Koplik spots (pathognomonic), maculopapular rash (head to toe), conjunctivitis, cough, coryza (3 Cs); giant cell pneumonia, subacute sclerosing panencephalitis (SSPE); **inactivated measles vaccine** caused atypical measles
+- ***Mumps virus*** — parotitis (bilateral); aseptic meningitis, orchitis, pancreatitis
+- ***Respiratory syncytial virus (RSV)*** — major cause of bronchiolitis in infants; **syncytial giant cells** in respiratory epithelium
+- ***Human metapneumovirus*** — acute respiratory tract infections in children
 
-**Risk factors for candidiasis:**
-- Antibiotics (flora disruption)
-- Diabetes
-- Immunosuppression
-- IV catheters
-- Pregnancy
+### Rhabdoviridae — Rabies Virus
 
-**Clinical Syndromes:**
+**Bullet-shaped**, negative-sense ssRNA virus; **Negri bodies** (intracytoplasmic inclusion bodies) in neurons — pathognomonic for rabies; transmitted via animal bite (dog is main reservoir in India)
 
-| Syndrome | Presentation |
-|---------|-------------|
-| **Oral thrush** | White curd-like plaques on tongue/mucosa |
-| **Vaginal candidiasis** | White discharge, itching |
-| **Esophagitis** | Odynophagia (in AIDS) |
-| **Cutaneous** | Intertrigo (red rash in skin folds) |
-| **Chronic mucocutaneous** | Oral/nail/skin involvement |
-| **Disseminated** | Bloodstream infection (candidemia) |
+**Clinical stages:** Prodrome (fever, paresthesia at bite site) → **Excitative phase** (hydrophobia, aerophobia, agitation, hypersalivation) → Coma → Death
 
-**Lab Diagnosis:**
-- **KOH mount**: **Budding yeast with pseudohyphae** (germ tubes)
-- **Germ tube test**: 37°C for 2-3 hours → germ tube formation (C. albicans)
-- Culture on Sabouraud's agar (cream-colored colonies)
+**Post-exposure prophylaxis (PEP):** Wound cleaning + rabies immunoglobulin (RIG — infiltrated around wound) + **rabies vaccine** (day 0, 3, 7, 14, 28 — Zagreb 2-1-1 regimen or standard 5-dose Essen)
 
-**Treatment:**
-- **Nystatin**: Oral/swab for thrush
-- **Fluconazole**: Systemic/oral candidiasis
-- **Echinocandins** (Caspofungin): Invasive candidiasis
+### HIV (Human Immunodeficiency Virus)
 
-#### Aspergillus
+**Retrovirus** (ssRNA → reverse transcriptase → dsDNA → integration into host genome)
 
-**Species:** A. fumigatus (most common), A. flavus, A. niger
+**Structure:** Enveloped; two copies of **gp120/gp41** on surface (receptor binding); **p24** capsid protein (diagnostic marker); **reverse transcriptase**, integrase, protease
 
-**Features:**
-- **Septate hyphae** branching at **45° angles**
-- Ubiquitous in environment (soil, decaying vegetation)
-
-**Clinical Forms:**
-
-| Form | Presentation |
-|------|-------------|
-| **Allergic bronchopulmonary aspergillosis (ABPA)** | Asthma, hypersensitivity |
-| **Aspergilloma** ("fungus ball") | Colonizes pre-existing cavity, hemoptysis |
-| **Invasive aspergillosis** | Lung invasion, dissemination (immunocompromised) |
-
-**Lab Diagnosis:**
-- KOH: Septate hyphae at 45° angles
-- Culture: Green粉末 colonies (A. fumigatus)
-- **Galactomannan test**: For invasive disease (Aspergillus cell wall antigen)
-- **β-D-glucan test**: Positive (but not specific)
-
-**Treatment:**
-- **Voriconazole**: First-line for invasive disease
-- **Amphotericin B**: Alternative
-
-#### Cryptococcus neoformans
-
-**Features:**
-- **Encapsulated yeast** (India ink shows capsule as halo)
-- Found in pigeon droppings (soil)
-
-**Disease:**
-- **Cryptococcal meningitis** (most common cause of meningitis in AIDS)
-- Pulmonary infection
-
-**Lab Diagnosis:**
-- **India ink preparation**: Encapsulated budding yeast (halo around cell)
-- **Latex agglutination test**: Detects capsular antigen (more sensitive)
-- Culture on Sabouraud's agar (mucoid cream colonies)
-- **Urease positive**
-
-**Treatment:**
-- **Amphotericin B + Flucytosine**: Induction (2 weeks)
-- **Fluconazole**: Maintenance/suppression (in AIDS)
-
-#### Pneumocystis jirovecii (formerly P. carinii)
-
-**Features:**
-- **Atypical fungus** (now considered fungal)
-- Causes **Pneumocystis pneumonia (PCP)**
-
-**Clinical:**
-- **Subacute onset**: Fever, non-productive cough, dyspnea
-- **Bilateral interstitial infiltrates** on CXR
-- Occurs when CD4 <200 in HIV/AIDS
-
-**Lab Diagnosis:**
-- **Stain**: Grocott methenamine silver (GMS) stain — shows cysts
-- **Immunofluorescence** (more sensitive)
-- PCR
-
-**Treatment:**
-- **TMP-SMX** (trimethoprim-sulfamethoxazole): First-line
-- **Pentamidine**: Alternative for sulfa allergy
-- **Prednisone**: Adjunctive for moderate-severe PCP (when PaO₂ <70 mmHg)
-
-**Prevention (when CD4 <200):**
-- **TMP-SMX prophylaxis**
-
----
-
-## PARASITOLOGY
-
-### Classification
-
-| Type | Example | Site |
-|------|---------|------|
-| **Protozoa — Intestinal** | Entamoeba, Giardia | GI tract |
-| **Protozoa — Blood/Tissue** | Plasmodium, Leishmania, Toxoplasma | Blood/organs |
-| **Helminths — Nematodes** | Ascaris, Hookworm, Wuchereria | Intestinal/tissue |
-| **Helminths — Trematodes** | Schistosoma, Fasciola | Blood/liver |
-| **Helminths — Cestodes** | Taenia, Echinococcus, Hymenolepis | Intestinal/tissue |
-
----
-
-### Intestinal Protozoa
-
-#### Entamoeba histolytica
-
-**Transmission:** Fecal-oral (cysts in contaminated food/water)
-
-**Disease:** Amoebic dysentery and amoebic liver abscess
-
-**Clinical:**
-- **Amoebic dysentery**: Bloody diarrhea, mucus, abdominal pain, tenesmus
-- **Amoebic liver abscess**: Fever, RUQ pain, tender hepatomegaly (no diarrhea in 70%)
-- "Anchovy paste" liver abscess aspirate
-
-**Pathology:**
-- **Trophozoites** invade colonic mucosa → flask-shaped ulcers
-- Can spread via portal circulation to liver
-
-**Lab Diagnosis:**
-- **Stool exam**: 
-  - **Trophozoites** (motile, contain RBCs if invasive) — fresh specimen
-  - **Cysts** (4 nuclei, chromatoid bars) — formed specimen
-- **Serology**: Anti-amebic antibodies
-- **Stool antigen detection**: More sensitive
-- Liver abscess: Serology + imaging (US/CT)
-
-**Treatment:**
-- **Metronidazole**: For invasive disease (trophozoites)
-- **Paromomycin** or **Iodoquinol**: For intestinal infection (cysts)
-
-#### Giardia lamblia
-
-**Transmission:** Cysts in contaminated water
-
-**Disease:** Giardiasis (malabsorption, bloating, foul-smelling fatty stools)
-
-**Lab Diagnosis:**
-- **Stool exam**: Cysts (oval, 4 nuclei) or trophozoites
-- **Enterotest**: String test for duodenal sampling
-
-**Treatment:** **Metronidazole** or **Tinidazole**
-
-#### Cryptosporidium
-
-**Transmission:** Oocysts in contaminated water (resistant to chlorination)
-
-**Disease:** Watery diarrhea (in immunocompetent), severe in AIDS
-
-**Lab Diagnosis:**
-- **Acid-fast stain**: Oocysts appear red
-
-**Treatment:**
-- **Nitazoxanide**: In immunocompetent
-- **ART (in AIDS)**: Immune reconstitution is key
-
----
-
-### Blood and Tissue Protozoa
-
-#### Plasmodium (Malaria)
-
-**Species causing human malaria:**
-
-| Species | Severity | Geographic Distribution |
-|---------|---------|----------------------|
-| **P. falciparum** | Most severe, drug-resistant | Africa, SE Asia |
-| **P. vivax** | Moderate | Asia, Latin America |
-| **P. ovale** | Mild | West Africa |
-| **P. malariae** | Mild | Sub-Saharan Africa |
-| **P. knowlesi** | Severe | SE Asia (simian malaria) |
-
-**Life Cycle:**
-1. **Infective form**: **Sporozoites** (from infected mosquito bite)
-2. **Liver stage**: Sporozoites → **Merozoites** in liver (schizogony)
-3. **Blood stage**: Merozoites infect RBCs → trophozoites → schizonts → merozoites
-4. **Sexual stage**: Some merozoites → **Gametocytes** (taken up by mosquito)
-
-**P. vivax/ovale**: **Hypnozoites** persist in liver → relapse
-
-**Clinical Features:**
-- **Cyclic fever**: 
-  - P. falciparum: Irregular
-  - P. vivax/ovale: Tertian (48-hour cycle)
-  - P. malariae: Quartan (72-hour cycle)
-- **Paroxysms**: Cold (rigor) → hot (fever) → sweat (defervescence)
-- Complications: Cerebral malaria (P. falciparum), anemia, jaundice
-
-**Lab Diagnosis:**
-- **Thick smear**: Detection (screening)
-- **Thin smear**: Species identification, parasite count
-- **RDT (Rapid Diagnostic Test)**: Detects PfHRP2, pan-LDH
-- **PCR**: Most sensitive, species differentiation
-
-**Treatment:**
-- **Uncomplicated malaria (P. vivax)**: Chloroquine + Primaquine (for hypnozoites/liver stage)
-- **Uncomplicated malaria (P. falciparum, chloroquine-resistant)**: ACT (Artemisinin-based Combination Therapy)
-- **Severe malaria**: **Artesunate IV** (injectable artemisinin derivative)
-- **Primaquine**: Prevents relapse (P. vivax, P. ovale) — must test for G6PD deficiency
-
-**Prevention:**
-- **ITNs** (Insecticide-treated bed nets)
-- **IRS** (Indoor residual spraying)
-- **Chemoprophylaxis**: Atovaquone-proguanil, doxycycline, mefloquine
-
-#### Toxoplasma gondii
-
-**Transmission:**
-- **Oocysts** from cat feces → accidental ingestion
-- **Tissue cysts** in undercooked meat
-
-**Disease:**
-- **Congenital toxoplasmosis**: If primary infection during pregnancy
-  - Classic triad: Chorioretinitis, hydrocephalus, intracranial calcifications (diffuse)
-- **Immunocompromised**: Toxoplasma encephalitis (ring-enhancing brain lesions)
-- **Normal hosts**: Usually asymptomatic or flu-like
-
-**Lab Diagnosis:**
-- **Sabin-Feldman dye test**: IgG antibodies (neutralizing)
-- **IgM ELISA**: Acute infection
-- **PCR**: Detects T. gondii DNA in amniotic fluid, CSF
-
-**Treatment:**
-- **Pyrimethamine + Sulfadiazine**: Standard treatment
-- **Spiramycin**: During pregnancy (prevents fetal transmission)
-
-#### Leishmania
-
-**Transmission:** Sandfly bite
-
-**Species and Disease:**
-
-| Species | Disease | Geographic |
-|---------|---------|-----------|
-| L. donovani complex | **Visceral leishmaniasis** (Kala-azar) | India, Africa |
-| L. tropica | Cutaneous (oriental sore) | Middle East |
-| L. braziliensis | Mucocutaneous (espundia) | Latin America |
-
-**Visceral Leishmaniasis (Kala-azar):**
-- Fever, weight loss, hepatosplenomegaly, pancytopenia
-- **Post-kala-azar dermal leishmaniasis (PKDL)**: Skin lesions after VL
-
-**Lab Diagnosis:**
-- **Bone marrow/lymph node aspirate**: Amastigotes (intracellular)
-- **Montenegro skin test**: Delayed hypersensitivity
-- **rk39 rapid test**: Immunochromatographic
-
-**Treatment:** **Amphotericin B** (liposomal formulation), Miltefosine
-
----
-
-### Helminths
-
-#### Nematodes (Roundworms)
-
-**Ascaris lumbricoides (Giant roundworm)**
-- **Largest intestinal nematode** (20-35 cm)
-- **Fecal-oral transmission** (eggs in contaminated food)
-- **Pneumonitis** during larval migration (Löeffler's syndrome)
-- **Intestinal phase**: Malnutrition, obstruction (ball of worms)
-- Diagnosis: **Eggs in stool** (female produces 200,000 eggs/day)
-- Treatment: **Albendazole** or **Mebendazole**
-
-**Hookworm (Ancylostoma duodenale, Necator americanus)**
-- **Transmitted**: Larvae penetrate skin (walking barefoot)
-- **Blood loss** → **Iron deficiency anemia**
-- Diagnosis: **Eggs in stool**
-- Treatment: **Albendazole** or **Mebendazole**
-
-**Enterobius vermicularis (Pinworm)**
-- **Perianal itching** (nocturnal)
-- **Scotch tape test**: Eggs on perianal skin
-- Common in children
-- Treatment: **Albendazole** (single dose, repeat after 2 weeks)
-
-**Wuchereria bancrofti (Filariasis)**
-- **Transmitted**: Culex mosquito bite
-- **Adult worms in lymphatics** → Lymphedema, **elephantiasis** (legs, scrotum)
-- **Nocturnal periodicity**: Microfilariae in blood at night
-- Diagnosis: **Night blood smear** (Giemsa) showing **sheathed microfilariae**
-- Treatment: **DEC (Diethylcarbamazine)**
-
-**Strongyloides stercoralis**
-- **Larvae penetrate skin** (like hookworm)
-- **Auto-infection**: Larvae become infective in intestine → persistent infection
-- **Hyperinfection** in immunocompromised (disseminated)
-- Diagnosis: **Baermann technique** or stool PCR
-- Treatment: **Ivermectin** (preferred) or Albendazole
-
-#### Trematodes (Flukes)
-
-**Schistosoma (Blood flukes)**
-- **Transmitted**: Cercariae penetrate skin (swimming in contaminated water)
-- Snail is intermediate host
-
-| Species | Adult Location | Eggs | Disease |
-|---------|--------------|------|---------|
-| S. mansoni | Mesenteric veins | Terminal spine | Intestinal + hepatic |
-| S. japonicum | Mesenteric veins | Lateral spine | Intestinal + hepatic |
-| S. haematobium | Vesical plexus | Terminal spine | Urinary (hematuria) |
-
-**Disease:**
-- **Acute**: Katayama fever (fever, urticaria, eosinophilia)
-- **Chronic**: 
-  - S. haematobium: Hematuria, bladder fibrosis
-  - S. mansoni/japonicum: Periportal fibrosis → portal hypertension (pipe-stem fibrosis)
-
-**Diagnosis:** **Eggs in urine/stool** (terminal spine for S. haematobium, lateral for others)
-**Treatment:** **Praziquantel**
-
-#### Cestodes (Tapeworms)
-
-| Tapeworm | Intermediate Host | Disease |
-|---------|------------------|---------|
-| **Taenia saginata** (beef) | Cattle | Intestinal taeniasis |
-| **Taenia solium** (pork) | Pig | Intestinal taeniasis OR cysticercosis |
-| **Hymenolepis nana** | Direct/insect | Intestinal |
-| **Echinococcus granulosus** | Dog (definitive), Sheep (intermediate) | Hydatid cyst |
-
-**Taenia solium — Cysticercosis:**
-- **Most common cause of adult-onset epilepsy** worldwide
-- **Cysticerci** in brain (neurocysticercosis), muscle, eye
-- ** calcifications** in brain on imaging
-- Transmission: Eggs from human carrier (fecal-oral) — NOT from eating pork
-- Treatment: **Albendazole** or Praziquantel + steroids for brain cysts
-
-**Echinococcus (Hydatid disease):**
-- **Cyst in liver, lungs** (most common sites)
-- **Fluid-filled cysts** with daughter cysts inside
-- **Eosinophilia**
-- Diagnosis: **Imaging** (US/CT/MRI) + Serology
-- Treatment: **Albendazole** (surgery for large cysts)
-- **Aspiration**: Must avoid spillage (anaphylaxis risk)
-
-**Hymenolepis nana:**
-- **Most common tapeworm globally**
-- Autoinfection (no intermediate host needed)
-- Treatment: **Praziquantel**
-
----
-
-## MUST-REMEMBER FACTS
-
-| Organism | Key Diagnostic Feature | Treatment |
-|---------|----------------------|-----------|
-| E. histolytica | RBCs in trophozoites | Metronidazole |
-| Giardia | Cysts with 4 nuclei | Metronidazole |
-| P. falciparum | Irregular fever, high parasitemia | ACT + Artesunate IV if severe |
-| P. vivax | Tertian fever, hypnozoites | Chloroquine + Primaquine |
-| Toxoplasma | Chorioretinitis, hydrocephalus | Pyrimethamine + Sulfadiazine |
-| Leishmania | Amastigotes in macrophages | Amphotericin B |
-| Ascaris | Largest nematode, eggs | Albendazole |
-| Hookworm | Anemia, larvae penetrate skin | Albendazole |
-| Pinworm | Perianal itching, scotch tape | Albendazole |
-| Filariasis | Elephantiasis, sheathed microfilariae | DEC |
-| Schistosoma | Terminal/lateral spine eggs | Praziquantel |
-| Taenia solium | Cysticercosis (calcifications) | Albendazole |
-| Echinococcus | Hydatid cyst (daughter cysts) | Albendazole/Surgery |
-| Candida | Pseudohyphae, germ tubes | Fluconazole |
-| Aspergillus | Septate hyphae 45° | Voriconazole |
-| Cryptococcus | India ink, encapsulated yeast | Amphotericin B + Flucytosine |
-
-### Common FMGE Questions
-
-**Q: Flask-shaped ulcers in colon:**
-A: Entamoeba histolytica
-
-**Q: Ring-enhancing brain lesions + seizures:**
-A: Neurocysticercosis (Taenia solium)
-
-**Q: Elephantiasis + sheathed microfilariae in night blood:**
-A: Wuchereria bancrofti (Filariasis)
-
-**Q: Ascariasis treatment:**
-A: Albendazole or Mebendazole
-
-**Q: Which parasite causes hematuria in urinary bladder?**
-A: Schistosoma haematobium (terminal spine eggs)
-
-**Q: Cryptococcal meningitis diagnosis:**
-A: India ink preparation showing encapsulated budding yeast
-
-**Q: PCP treatment and prophylaxis:**
-A: TMP-SMX
-
-**Q: Antigen in stool for invasive amebiasis:**
-A: Amebic antigen detection
-
----
-*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+**Transmission:** Blood, sexual contact, perinatal; **CD4+ T lymphocytes** are primary target (CD4 is the receptor)
+
+**Opportunistic infections (AIDS-defining):**
+- **Pneumocystis jirovecii pneumonia (PJP)** — most common AIDS-defining illness; ground-glass appearance on chest X-ray; diagnosis by BAL with methenamine silver stain
+- **Oesophageal candidiasis** — white plaques
+- **Cryptococcal meningitis** — India ink negative stain of CSF
+- **Toxoplasma encephalitis** — ring-enhancing brain lesions
+- **Cryptosporidium** — watery diarrhea
+
+**Diagnosis:** ELISA (screening) → Western blot (confirmation); now replaced by rapid immunochromatographic tests; **CD4 count** for staging and treatment decisions
+
+**Treatment (ART — Antiretroviral Therapy):** **HAART** (Highly Active ART) — combination of at least 3 drugs:
+- **NRTIs** (Zidovudine, Tenofovir, Lamivudine)
+- **NNRTIs** (Efavirenz, Nevirapine)
+- **Protease inhibitors** (Ritonavir, Lopinavir)
+- **Integrase inhibitors** (Raltegravir, Dolutegravir)
+
+## FMGE High-Yield Points
+
+- **HSV-1** = oral; **HSV-2** = genital; **VZV** = chickenpox/shingles; **CMV** = congenital CMV (owl's eye inclusions); **EBV** = infectious mono (Downey cells) + Burkitt lymphoma
+- **Hepatitis B serology:** HBsAg positive + Anti-HBs negative = acute/chronic infection
+- **HBsAg** positive + HBeAg positive = high infectivity
+- **Influenza** = segmented, negative-sense RNA; antigenic drift (epidemic) vs. shift (pandemic)
+- **Rabies** = Negri bodies; hydrophobia; PEP with vaccine + immunoglobulin
+- **HIV** = CD4+ T cell destruction; PJP most common AIDS-defining illness; CD4 <200 = start prophylaxis for PJP, toxoplasma, MAC
+- **Rotavirus** = most common cause of severe childhood diarrhea globally; double-shelled wheel appearance on EM; oral rehydration is cornerstone of treatment
+
+⚡ **Exam tip:** A child with acute watery diarrhea, dehydration, and characteristic "wheel-like" virus particles on electron microscopy = **rotavirus gastroenteritis**. Supportive care + ORS is the treatment.

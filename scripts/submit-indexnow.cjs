@@ -36,20 +36,21 @@ if (fs.existsSync(distExamsBase)) {
   }
 }
 
-// Scan dist/notes/ (recursive) for every generated note page.
-// IndexNow accepts up to 10k URLs per request; we batch if needed.
-const distNotesBase = path.join(__dirname, '..', 'dist', 'notes');
-const notePages = [];
-function walkNotes(dir, prefix) {
+// Walk the entire dist/ for any index.html — covers notes, spokes,
+// study-plans, comparisons, after-12th, ai-answers, and any future routes.
+const distRoot = path.join(__dirname, '..', 'dist');
+const allPagesSet = new Set();
+function walkAll(dir, prefix) {
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+    if (entry.name === '_astro' || entry.name.startsWith('.')) continue;
     const full = path.join(dir, entry.name);
-    if (entry.isDirectory()) walkNotes(full, `${prefix}/${entry.name}`);
-    else if (entry.name === 'index.html' && prefix !== '') notePages.push(`${prefix}/`);
+    if (entry.isDirectory()) walkAll(full, `${prefix}/${entry.name}`);
+    else if (entry.name === 'index.html' && prefix !== '') allPagesSet.add(`${prefix}/`);
   }
 }
-if (fs.existsSync(distNotesBase)) walkNotes(distNotesBase, '/notes');
-
-const allUrls = [...corePages, ...examPages, ...notePages].map(p => `https://${HOST}${p}`);
+if (fs.existsSync(distRoot)) walkAll(distRoot, '');
+const merged = new Set([...corePages, ...examPages, ...allPagesSet]);
+const allUrls = [...merged].map(p => `https://${HOST}${p}`);
 
 // Submit in 5000-URL batches (IndexNow per-request cap is 10k, we use 5k for headroom).
 function submit(batch) {
@@ -71,7 +72,9 @@ function submit(batch) {
 }
 
 (async () => {
-  console.log(`Submitting ${allUrls.length} URLs (${corePages.length} core + ${examPages.length} exams + ${notePages.length} notes) in batches of 5000`);
+  const notePages = [...allPagesSet].filter(p => p.startsWith('/notes/'));
+  const otherPages = [...allPagesSet].filter(p => !p.startsWith('/notes/'));
+  console.log(`Submitting ${allUrls.length} URLs (${corePages.length} core + ${examPages.length} exams + ${notePages.length} notes + ${otherPages.length} other) in batches of 5000`);
   for (let i = 0; i < allUrls.length; i += 5000) {
     const batch = allUrls.slice(i, i + 5000);
     const r = await submit(batch);

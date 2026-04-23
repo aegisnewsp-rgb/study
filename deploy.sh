@@ -48,9 +48,17 @@ LOCAL=$(git rev-parse HEAD)
 REMOTE=$(git rev-parse origin/$DEPLOY_BRANCH)
 if [ "$LOCAL" = "$REMOTE" ]; then
     log "Already at latest commit ($LOCAL). Nothing to pull."
-else
+elif git merge-base --is-ancestor "$REMOTE" "$LOCAL" 2>/dev/null; then
+    # Local is AHEAD of remote (has unpushed commits) — do NOT reset backwards.
+    # This guards against pipeline-generated commits that haven't reached origin yet.
+    log "Local ($LOCAL) is ahead of origin/$DEPLOY_BRANCH ($REMOTE); preserving local commits"
+elif git merge-base --is-ancestor "$LOCAL" "$REMOTE" 2>/dev/null; then
+    # Clean fast-forward from remote
     git reset --hard origin/$DEPLOY_BRANCH
-    log "Updated to $REMOTE"
+    log "Fast-forwarded to $REMOTE"
+else
+    # Diverged — refuse to silently destroy local work. Log and bail.
+    die "Local ($LOCAL) has diverged from origin/$DEPLOY_BRANCH ($REMOTE). Manual merge required."
 fi
 
 # ── Install deps ──────────────────────────────────────────────────────────────

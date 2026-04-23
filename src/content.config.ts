@@ -12,7 +12,7 @@ const notes = defineCollection({
     topicName: z.string(),
     weight: z.number(),
     country: z.string(),
-    generated: z.string(),
+    generated: z.union([z.string(), z.date()]).transform((v) => typeof v === 'string' ? v : v.toISOString().slice(0, 10)),
     diagramPrompt: z.string().optional(),
   }),
 });

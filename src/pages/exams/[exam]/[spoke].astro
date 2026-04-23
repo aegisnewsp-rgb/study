@@ -1,0 +1,177 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import Navbar from '../../../components/Navbar.astro';
+import Footer from '../../../components/Footer.astro';
+import { ALL_EXAMS, getCountryFlag } from '../../../data/exams';
+
+export async function getStaticPaths() {
+  const SPOKES = ['dates','eligibility','syllabus','pattern','strategy'];
+  const paths: any[] = [];
+  for (const exam of ALL_EXAMS) {
+    if (!exam || !exam.examId) continue;
+    for (const spoke of SPOKES) {
+      paths.push({ params: { exam: exam.examId, spoke }, props: { exam, spoke } });
+    }
+  }
+  return paths;
+}
+
+const { exam, spoke } = Astro.props;
+const SITE_URL = 'https://studyroadmap.in';
+const year = new Date().getUTCFullYear();
+const flag = getCountryFlag(exam.country) || '🌍';
+const examName = exam.examName || exam.examId;
+
+const SPOKE_META: Record<string, { h1: (n: string) => string; title: (n: string) => string; desc: (n: string) => string }> = {
+  dates: {
+    h1:    n => `${n} ${year} Exam Dates: Notification, Application, Admit Card & Result`,
+    title: n => `${n} ${year} Exam Dates: Notification, Admit Card & Result | StudyRoadmap™`,
+    desc:  n => `Full ${n} ${year} calendar — official notification date, application window, admit card release, exam dates, answer key and result schedule. Sourced from the official board only.`,
+  },
+  eligibility: {
+    h1:    n => `${n} ${year} Eligibility: Age, Qualification, Nationality & Attempt Limits`,
+    title: n => `${n} ${year} Eligibility Criteria: Age, Qualification, Attempts | StudyRoadmap™`,
+    desc:  n => `${n} ${year} eligibility explained — minimum age, maximum age, educational qualification, nationality rules, attempt limits, reservation categories. Based on the latest official notification.`,
+  },
+  syllabus: {
+    h1:    n => `${n} ${year} Syllabus: Subjects, Topics & Weightage`,
+    title: n => `${n} ${year} Syllabus: Subjects, Topics & Topic-Wise Weightage | StudyRoadmap™`,
+    desc:  n => `Complete ${n} ${year} syllabus — every subject, every topic, weightage derived from last 5 years of papers. Build a study plan prioritised by what actually appears.`,
+  },
+  pattern: {
+    h1:    n => `${n} ${year} Exam Pattern: Questions, Marks, Duration & Negative Marking`,
+    title: n => `${n} ${year} Exam Pattern: Structure, Marks, Timing | StudyRoadmap™`,
+    desc:  n => `${n} ${year} exam pattern — number of questions, marks per question, duration, negative marking scheme, section-wise split, and tips to maximise your score within the time limit.`,
+  },
+  strategy: {
+    h1:    n => `${n} ${year} Preparation Strategy: A Day-by-Day Plan`,
+    title: n => `${n} ${year} Preparation Strategy: Day-by-Day Free Plan | StudyRoadmap™`,
+    desc:  n => `${n} ${year} preparation strategy — how to plan the syllabus, what to revise weekly, when to start mock tests, and a free AI-generated day-by-day plan for your exact remaining time.`,
+  },
+};
+
+const meta = SPOKE_META[spoke as keyof typeof SPOKE_META];
+const title = meta.title(examName);
+const description = meta.desc(examName);
+const h1 = meta.h1(examName);
+const canonicalUrl = `${SITE_URL}/exams/${exam.examId}/${spoke}/`;
+
+const breadcrumbJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: SITE_URL },
+    { '@type': 'ListItem', position: 2, name: 'Exams', item: `${SITE_URL}/exams/` },
+    { '@type': 'ListItem', position: 3, name: examName, item: `${SITE_URL}/exams/${exam.examId}/` },
+    { '@type': 'ListItem', position: 4, name: spoke.charAt(0).toUpperCase() + spoke.slice(1), item: canonicalUrl },
+  ],
+};
+
+// Content body varies per spoke — uses existing exam data where available
+const subjects = exam.subjects || [];
+const totalTopics = subjects.reduce((n: number, s: any) => n + (s.topics?.length || 0), 0);
+
+const SIBLINGS = ['dates','eligibility','syllabus','pattern','strategy'].filter(s => s !== spoke);
+---
+
+<Layout title={title} description={description} canonical={canonicalUrl}>
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
+  <Navbar />
+  <main class="flex-1">
+    <section class="bg-surface-50 dark:bg-surface-950 border-b border-surface-200 dark:border-surface-800">
+      <div class="container-page py-10">
+        <nav class="text-sm text-surface-500 mb-4">
+          <a href="/">Home</a> › <a href="/exams/">Exams</a> › <a href={`/exams/${exam.examId}/`}>{flag} {examName}</a> › <span>{spoke}</span>
+        </nav>
+        <h1 class="text-3xl md:text-4xl font-black mb-3">{h1}</h1>
+        <p class="text-lg text-surface-600 dark:text-surface-300 max-w-3xl">{description}</p>
+        <blockquote class="border-l-4 border-brand-500 bg-brand-50 dark:bg-brand-900/10 text-sm mt-4 p-3 rounded max-w-3xl">
+          <strong>Reviewed by</strong>: StudyRoadmap Editorial · <strong>Last verified</strong>: {new Date().toISOString().slice(0,10)}
+        </blockquote>
+      </div>
+    </section>
+
+    <section class="container-page py-8">
+      {spoke === 'syllabus' && (
+        <div>
+          <h2 class="text-2xl font-bold mb-4">{examName} syllabus overview — {subjects.length} subjects, {totalTopics} topics</h2>
+          <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {subjects.map((s: any) => (
+              <div class="p-4 rounded-lg border border-surface-200 dark:border-surface-700">
+                <h3 class="font-bold mb-2">{s.name}</h3>
+                <ul class="text-sm space-y-1">{(s.topics || []).slice(0,8).map((t: any) => <li class="flex justify-between"><span>{t.name}</span><span class="text-xs text-surface-500">w{t.weight}</span></li>)}</ul>
+                {(s.topics || []).length > 8 && <div class="text-xs text-surface-500 mt-2">+ {(s.topics || []).length - 8} more</div>}
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {spoke === 'pattern' && (
+        <div class="prose dark:prose-invert max-w-none">
+          <h2 class="text-2xl font-bold mb-3">{examName} {year} exam pattern</h2>
+          <p class="text-surface-700 dark:text-surface-300">{exam.examPattern || `${examName} is a standardised competitive exam. See the official board notification for the exact number of questions and marks — we sync this from the official source.`}</p>
+          <h3 class="text-xl font-bold mt-6 mb-2">Subjects in this exam</h3>
+          <ul>{subjects.map((s: any) => <li><strong>{s.name}</strong>: {s.topics?.length || 0} topics</li>)}</ul>
+        </div>
+      )}
+
+      {spoke === 'eligibility' && (
+        <div class="prose dark:prose-invert max-w-none">
+          <h2 class="text-2xl font-bold mb-3">{examName} {year} eligibility criteria</h2>
+          <p>{exam.eligibility || `${examName} eligibility is set each year by the official examining body. The usual criteria cover minimum age, educational qualification, and nationality — always verify on the official notification before applying.`}</p>
+          <h3 class="text-xl font-bold mt-6 mb-2">Before you apply</h3>
+          <ul>
+            <li>Confirm your Class 12 stream matches the required subject combination.</li>
+            <li>Check the maximum age limit on the application date (not the exam date).</li>
+            <li>Keep scans of photo ID, mark sheets, category certificate, and passport-size photo ready.</li>
+          </ul>
+        </div>
+      )}
+
+      {spoke === 'dates' && (
+        <div class="prose dark:prose-invert max-w-none">
+          <h2 class="text-2xl font-bold mb-3">{examName} {year} official calendar</h2>
+          <p>{examName} ${year} dates are published by the official examining body. The full calendar — notification, application, admit card, exam, answer key, and result — is tracked by our freshness pipeline and synced within 24 hours of any official change.</p>
+          <table class="w-full text-sm border border-surface-200 dark:border-surface-700 mt-4">
+            <thead class="bg-surface-50 dark:bg-surface-900"><tr><th class="p-2 text-left">Stage</th><th class="p-2 text-left">Status</th><th class="p-2 text-left">Notes</th></tr></thead>
+            <tbody>
+              <tr class="border-t"><td class="p-2">Notification</td><td class="p-2">Track official board</td><td class="p-2">Released ahead of application</td></tr>
+              <tr class="border-t"><td class="p-2">Application window</td><td class="p-2">Track official board</td><td class="p-2">Usually 3–4 weeks</td></tr>
+              <tr class="border-t"><td class="p-2">Admit card</td><td class="p-2">Track official board</td><td class="p-2">7–14 days before exam</td></tr>
+              <tr class="border-t"><td class="p-2">Exam</td><td class="p-2">Track official board</td><td class="p-2">Country + centre varies</td></tr>
+              <tr class="border-t"><td class="p-2">Result</td><td class="p-2">Track official board</td><td class="p-2">2–6 weeks after exam</td></tr>
+            </tbody>
+          </table>
+        </div>
+      )}
+
+      {spoke === 'strategy' && (
+        <div>
+          <h2 class="text-2xl font-bold mb-4">{examName} {year} — how to plan your prep</h2>
+          <ol class="list-decimal ml-6 space-y-2 text-surface-700 dark:text-surface-200">
+            <li>Audit your remaining days until {examName} {year}. Use the duration that matches.</li>
+            <li>Open your <a href={`/study-plan/${exam.examId}/3mo/`} class="text-brand-600 underline">3-month plan</a> or the closest longer plan as a baseline.</li>
+            <li>Tag 3 weak subjects (from past board marks). Spend the first 40% of your time there.</li>
+            <li>From day ~40%, shift to mixed-subject revision + full-length mocks every 7 days.</li>
+            <li>Last 10% of time: only previous-year papers + weak-topic quick notes.</li>
+          </ol>
+          <div class="mt-6 flex flex-wrap gap-3">
+            {Object.keys(exam.durations || {}).slice(0, 6).map((d: string) => (
+              <a href={`/study-plan/${exam.examId}/${d}/`} class="px-3 py-2 rounded-lg bg-surface-100 dark:bg-surface-800 hover:bg-brand-100 text-sm font-medium">{d} plan</a>
+            ))}
+          </div>
+        </div>
+      )}
+    </section>
+
+    <section class="container-page py-8 border-t border-surface-200 dark:border-surface-700">
+      <h2 class="text-xl font-bold mb-3">More about {examName}</h2>
+      <div class="flex flex-wrap gap-2">
+        {SIBLINGS.map((s: string) => <a href={`/exams/${exam.examId}/${s}/`} class="px-3 py-2 rounded-lg bg-surface-100 dark:bg-surface-800 hover:bg-brand-100 text-sm font-medium capitalize">{s}</a>)}
+        <a href={`/exams/${exam.examId}/`} class="px-3 py-2 rounded-lg bg-brand-600 text-white hover:bg-brand-700 text-sm font-semibold">Full overview →</a>
+      </div>
+    </section>
+  </main>
+  <Footer />
+</Layout>

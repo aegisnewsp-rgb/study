@@ -132,7 +132,9 @@ for (const id of examIds) {
 // STEP 0b: Also remove any /exams/{id}/ entries in the sitemap that no longer exist
 // as generated pages — covers cases where exam data files were deleted entirely
 const examUrlInSitemap = new Set();
-const sitemapLocMatches = sitemap.matchAll(/<loc>([^<]*\/exams\/([^<]+)\/)<\/loc>/g);
+// Only match single-segment exam slugs like /exams/neet/ — NOT spoke paths
+// like /exams/neet/syllabus/ which are intentional sub-pages.
+const sitemapLocMatches = sitemap.matchAll(/<loc>([^<]*\/exams\/([^<\/]+)\/)<\/loc>/g);
 for (const m of sitemapLocMatches) {
   const url = m[1];
   const id = m[2].toLowerCase();
@@ -230,8 +232,36 @@ const staticUrls = staticPages
   .filter(url => !existingUrls.has(url))
   .map(url => `<url><loc>${url}</loc><lastmod>${today}</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>`);
 
+// STEP 6b: Catch-all — walk dist/ recursively, add any index.html whose URL is missing.
+// Covers /exams/{id}/{spoke}/, /study-plan/{id}/{d}/, /compare/{pair}/, /after-12th/{stream}/,
+// /ai-answers/, and any future static routes Astro emits.
+const distRoot = path.join(__dirname, '..', 'dist');
+const catchAllUrls = [];
+function walkCatchAll(dir, urlPath) {
+  if (!fs.existsSync(dir)) return;
+  for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+    if (entry.name === '_astro' || entry.name.startsWith('.')) continue;
+    const full = path.join(dir, entry.name);
+    if (entry.isDirectory()) {
+      const sub = urlPath + '/' + entry.name;
+      if (fs.existsSync(path.join(full, 'index.html'))) {
+        const u = `${BASE_URL}${sub}/`;
+        if (!existingUrls.has(u)) {
+          // Skip notes (already handled), exam-hubs (already handled), and the homepage
+          if (!u.includes('/notes/') && !u.match(/\/exams\/[^/]+\/$/)) {
+            catchAllUrls.push(`<url><loc>${u}</loc><lastmod>${today}</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>`);
+          }
+        }
+      }
+      walkCatchAll(full, sub);
+    }
+  }
+}
+walkCatchAll(distRoot, '');
+if (catchAllUrls.length > 0) console.log(`Catch-all: +${catchAllUrls.length} URLs (spokes, study-plans, comparisons, after-12th, ai-answers, …)`);
+
 // Build complete final sitemap and write atomically
-const allNewUrls = [...newExamUrls, ...noteUrls, ...staticUrls];
+const allNewUrls = [...newExamUrls, ...noteUrls, ...staticUrls, ...catchAllUrls];
 let finalSitemap;
 if (allNewUrls.length > 0) {
   finalSitemap = sitemap.slice(0, lastIdx) + allNewUrls.join('\n') + '\n' + closingTag;

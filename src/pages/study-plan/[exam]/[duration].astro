@@ -1,0 +1,225 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import Navbar from '../../../components/Navbar.astro';
+import Footer from '../../../components/Footer.astro';
+import { ALL_EXAMS, getCountryFlag } from '../../../data/exams';
+
+export async function getStaticPaths() {
+  const paths: any[] = [];
+  for (const exam of ALL_EXAMS) {
+    if (!exam || !exam.examId || !exam.durations) continue;
+    for (const [durationKey, roadmap] of Object.entries(exam.durations)) {
+      paths.push({
+        params: { exam: exam.examId, duration: durationKey },
+        props: { exam, durationKey, roadmap },
+      });
+    }
+  }
+  return paths;
+}
+
+const { exam, durationKey, roadmap } = Astro.props;
+const SITE_URL = 'https://studyroadmap.in';
+const currentYear = new Date().getUTCFullYear();
+const flag = getCountryFlag(exam.country) || '🌍';
+const examName = exam.examName || exam.examId;
+
+const DURATION_LABEL: Record<string, string> = {
+  '1h': '1-Hour Cram', '2h': '2-Hour Sprint', '3h': '3-Hour Burst', '12h': '12-Hour Crash',
+  '1d': '1-Day Intensive', '2d': '2-Day Rescue', '3d': '3-Day Push', '5d': '5-Day Block',
+  '10d': '10-Day Plan', '2w': '2-Week Plan', '1mo': '1-Month Plan', '2mo': '2-Month Plan',
+  '3mo': '3-Month Plan', '6mo': '6-Month Plan', '1yr': '1-Year Plan', '2yr': '2-Year Plan',
+};
+const durationLabel = DURATION_LABEL[durationKey] || `${durationKey} Plan`;
+const totalDays = (roadmap as any).totalDays || 0;
+const dailyTopics = ((roadmap as any).dailyTopics || []) as any[];
+
+// Group topics by subject for a week-by-week table
+const bySubject: Record<string, any[]> = {};
+for (const t of dailyTopics) {
+  if (!bySubject[t.subject]) bySubject[t.subject] = [];
+  bySubject[t.subject].push(t);
+}
+
+// Build a weekly schedule when totalDays >= 7
+const weeks: { week: number; start: number; end: number; items: any[] }[] = [];
+if (totalDays >= 7 && dailyTopics.length) {
+  const perWeek = Math.max(1, Math.ceil(dailyTopics.length / Math.ceil(totalDays / 7)));
+  for (let i = 0, w = 1; i < dailyTopics.length; i += perWeek, w++) {
+    weeks.push({
+      week: w,
+      start: (w - 1) * 7 + 1,
+      end: Math.min(w * 7, totalDays),
+      items: dailyTopics.slice(i, i + perWeek),
+    });
+  }
+}
+
+const title = `${examName} ${durationLabel} (${totalDays}-Day Study Plan) ${currentYear} | StudyRoadmap™`;
+const description = `Free ${durationLabel.toLowerCase()} for ${examName} ${currentYear} — ${totalDays} days, ${dailyTopics.length} high-weightage topics mapped to your available time. Day-by-day schedule, subject-wise split, no signup.`;
+const canonicalUrl = `${SITE_URL}/study-plan/${exam.examId}/${durationKey}/`;
+
+const breadcrumbJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: SITE_URL },
+    { '@type': 'ListItem', position: 2, name: 'Exams', item: `${SITE_URL}/exams/` },
+    { '@type': 'ListItem', position: 3, name: examName, item: `${SITE_URL}/exams/${exam.examId}/` },
+    { '@type': 'ListItem', position: 4, name: durationLabel, item: canonicalUrl },
+  ],
+};
+
+const howToJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'HowTo',
+  name: `${examName} ${durationLabel}`,
+  description,
+  totalTime: `PT${totalDays}D`,
+  tool: { '@type': 'HowToTool', name: 'StudyRoadmap AI roadmap generator' },
+  step: dailyTopics.slice(0, 12).map((t: any, i: number) => ({
+    '@type': 'HowToStep',
+    position: i + 1,
+    name: t.name,
+    text: `Cover ${t.name} from ${t.subject}. Weightage: ${t.weight}/5. ${t.description || ''}`,
+  })),
+};
+
+const courseJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Course',
+  name: `${examName} ${durationLabel}`,
+  description,
+  provider: { '@type': 'Organization', '@id': `${SITE_URL}/#organization`, name: 'StudyRoadmap™', url: SITE_URL },
+  hasCourseInstance: {
+    '@type': 'CourseInstance',
+    courseMode: 'online',
+    courseWorkload: `PT${totalDays}D`,
+  },
+  isPartOf: { '@type': 'Course', '@id': `${SITE_URL}/exams/${exam.examId}/#course`, name: `${examName} Study Roadmap`, url: `${SITE_URL}/exams/${exam.examId}/` },
+};
+
+// Related durations
+const siblingDurations = Object.keys(exam.durations || {})
+  .filter((d: string) => d !== durationKey)
+  .slice(0, 6);
+---
+
+<Layout title={title} description={description} canonical={canonicalUrl}>
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
+  <script type="application/ld+json" set:html={JSON.stringify(howToJsonLd)} />
+  <script type="application/ld+json" set:html={JSON.stringify(courseJsonLd)} />
+  <Navbar />
+  <main id="main-content" class="flex-1">
+
+    <section class="bg-gradient-to-b from-surface-50 to-white dark:from-surface-950 dark:to-surface-900 border-b border-surface-200 dark:border-surface-800">
+      <div class="container-page py-10 sm:py-14">
+        <nav class="text-sm text-surface-500 dark:text-surface-400 mb-4 flex flex-wrap gap-2 items-center">
+          <a href="/" class="hover:text-brand-600">Home</a><span>›</span>
+          <a href="/exams/" class="hover:text-brand-600">Exams</a><span>›</span>
+          <a href={`/exams/${exam.examId}/`} class="hover:text-brand-600">{flag} {examName}</a><span>›</span>
+          <span class="text-surface-900 dark:text-surface-100">{durationLabel}</span>
+        </nav>
+        <h1 class="text-3xl md:text-4xl font-black text-surface-900 dark:text-white mb-3">
+          {examName} {durationLabel}: Free {totalDays}-Day Study Plan {currentYear}
+        </h1>
+        <p class="text-lg text-surface-600 dark:text-surface-300 max-w-3xl mb-6">
+          A complete <strong>{totalDays}-day</strong> study plan covering {dailyTopics.length} highest-weightage topics for {examName}.
+          Prioritised by subject weight, not alphabet. No signup, no fees, works offline once loaded.
+        </p>
+
+        <blockquote class="border-l-4 border-brand-500 bg-brand-50 dark:bg-brand-900/10 text-sm text-surface-700 dark:text-surface-200 p-4 rounded max-w-3xl">
+          <strong>Reviewed by</strong>: StudyRoadmap Editorial Team ·
+          <strong>Last verified</strong>: {new Date().toISOString().slice(0, 10)} ·
+          <strong>Methodology</strong>: Topic weightage derived from last 5 years of official {examName} papers; plan optimised by total time × topic difficulty.
+        </blockquote>
+
+        <div class="flex flex-wrap gap-3 mt-6">
+          <a href={`${SITE_URL}/roadmap?exam=${exam.examId}&duration=${durationKey}`} class="inline-flex items-center gap-2 bg-brand-600 hover:bg-brand-700 text-white font-bold px-6 py-3 rounded-xl">Generate My Personalised Plan →</a>
+          <a href={`/exams/${exam.examId}/`} class="inline-flex items-center gap-2 bg-surface-100 dark:bg-surface-800 text-surface-700 dark:text-surface-200 font-semibold px-6 py-3 rounded-xl border border-surface-200 dark:border-surface-700">Back to {examName} Overview</a>
+        </div>
+      </div>
+    </section>
+
+    {weeks.length > 0 && (
+      <section class="container-page py-10">
+        <h2 class="text-2xl font-bold text-surface-900 dark:text-white mb-5">Week-by-week schedule</h2>
+        <div class="overflow-x-auto rounded-lg border border-surface-200 dark:border-surface-700">
+          <table class="w-full text-sm">
+            <thead class="bg-surface-50 dark:bg-surface-900">
+              <tr>
+                <th class="text-left p-3 font-semibold">Week</th>
+                <th class="text-left p-3 font-semibold">Days</th>
+                <th class="text-left p-3 font-semibold">Topics covered</th>
+              </tr>
+            </thead>
+            <tbody>
+              {weeks.map((w) => (
+                <tr class="border-t border-surface-200 dark:border-surface-700">
+                  <td class="p-3 font-semibold">{w.week}</td>
+                  <td class="p-3">{w.start}–{w.end}</td>
+                  <td class="p-3">{w.items.map((t: any) => <span class="inline-block mr-2 mb-1 px-2 py-1 bg-surface-100 dark:bg-surface-800 rounded text-xs"><strong>{t.subject}</strong>: {t.name} (w{t.weight})</span>)}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </section>
+    )}
+
+    <section class="container-page py-10">
+      <h2 class="text-2xl font-bold text-surface-900 dark:text-white mb-5">Subject-wise topic split</h2>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        {Object.entries(bySubject).map(([subject, items]) => (
+          <div class="p-4 rounded-lg border border-surface-200 dark:border-surface-700 bg-white dark:bg-surface-900">
+            <h3 class="font-bold text-surface-900 dark:text-white mb-2">{subject}</h3>
+            <ul class="text-sm space-y-1">
+              {(items as any[]).slice(0, 8).map((t: any) => (
+                <li class="flex justify-between gap-2"><span>{t.name}</span><span class="text-xs text-surface-500">w{t.weight}</span></li>
+              ))}
+              {(items as any[]).length > 8 && <li class="text-xs text-surface-500">+ {(items as any[]).length - 8} more…</li>}
+            </ul>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <section class="container-page py-10 border-t border-surface-200 dark:border-surface-700">
+      <h2 class="text-2xl font-bold text-surface-900 dark:text-white mb-4">Why a {totalDays}-day plan beats a 1,200-page prep book</h2>
+      <div class="overflow-x-auto rounded-lg border border-surface-200 dark:border-surface-700">
+        <table class="w-full text-sm">
+          <thead class="bg-surface-50 dark:bg-surface-900"><tr><th class="text-left p-3">Dimension</th><th class="text-left p-3">Typical {examName} book</th><th class="text-left p-3">This {durationLabel}</th></tr></thead>
+          <tbody>
+            <tr class="border-t border-surface-200 dark:border-surface-700"><td class="p-3">Time to start</td><td class="p-3">Hours of reading before any study starts</td><td class="p-3 font-semibold text-brand-600">Seconds — plan is already here</td></tr>
+            <tr class="border-t border-surface-200 dark:border-surface-700"><td class="p-3">Personalisation</td><td class="p-3">One-size-fits-all</td><td class="p-3 font-semibold text-brand-600">Fits exactly your {totalDays} days</td></tr>
+            <tr class="border-t border-surface-200 dark:border-surface-700"><td class="p-3">Freshness</td><td class="p-3">Printed months ago</td><td class="p-3 font-semibold text-brand-600">Rebuilt every deploy · verified {new Date().toISOString().slice(0,10)}</td></tr>
+            <tr class="border-t border-surface-200 dark:border-surface-700"><td class="p-3">Weightage signal</td><td class="p-3">Author guess</td><td class="p-3 font-semibold text-brand-600">Derived from last 5 years' papers</td></tr>
+            <tr class="border-t border-surface-200 dark:border-surface-700"><td class="p-3">Cost</td><td class="p-3">₹500–2,500</td><td class="p-3 font-semibold text-brand-600">₹0</td></tr>
+            <tr class="border-t border-surface-200 dark:border-surface-700"><td class="p-3">Sign-up required</td><td class="p-3">Often (with a trial trap)</td><td class="p-3 font-semibold text-brand-600">None</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    {siblingDurations.length > 0 && (
+      <section class="container-page py-8 border-t border-surface-200 dark:border-surface-700">
+        <h2 class="text-xl font-bold text-surface-900 dark:text-white mb-3">Other {examName} plans</h2>
+        <div class="flex flex-wrap gap-2">
+          {siblingDurations.map((d: string) => (
+            <a href={`/study-plan/${exam.examId}/${d}/`} class="px-3 py-2 rounded-lg bg-surface-100 dark:bg-surface-800 hover:bg-brand-100 dark:hover:bg-brand-900/30 text-sm font-medium">{DURATION_LABEL[d] || d}</a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    <section class="container-page py-10">
+      <div class="rounded-xl bg-brand-600 text-white p-8 text-center">
+        <h2 class="text-2xl font-bold mb-3">Already know the pattern? Generate a topic-by-topic plan.</h2>
+        <p class="mb-5 text-brand-100">The full personalised roadmap covers weak topics first, tracks completion, and adapts as you mark topics done.</p>
+        <a href={`${SITE_URL}/roadmap?exam=${exam.examId}&duration=${durationKey}`} class="inline-flex items-center gap-2 bg-white text-brand-600 font-bold px-6 py-3 rounded-xl">Generate Personalised Plan →</a>
+      </div>
+    </section>
+
+  </main>
+  <Footer />
+</Layout>

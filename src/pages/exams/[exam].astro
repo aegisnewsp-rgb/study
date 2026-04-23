@@ -336,10 +336,36 @@ const wikiCitations = EXAM_WIKI_CITATIONS[exam.examId] || [];
         </div>
 
         {fullDescription && (
-          <p class="text-surface-600 dark:text-surface-300 text-lg leading-relaxed max-w-3xl mb-8">
+          <p class="text-surface-600 dark:text-surface-300 text-lg leading-relaxed max-w-3xl mb-6">
             {fullDescription}
           </p>
         )}
+
+        <!-- SR-AUTO:START:LIVE-DASHBOARD -->
+        <div class="rounded-xl border border-surface-200 dark:border-surface-700 bg-white dark:bg-surface-900 p-5 max-w-3xl mb-6">
+          <div class="flex justify-between items-center mb-3">
+            <h2 class="text-sm font-bold text-surface-900 dark:text-white uppercase tracking-wide">Live status</h2>
+            <span class="text-xs text-surface-500">Verified {new Date().toISOString().slice(0,10)}</span>
+          </div>
+          <dl class="grid sm:grid-cols-3 gap-3 text-sm">
+            <div><dt class="text-xs text-surface-500">Year</dt><dd class="font-semibold">{currentYear}</dd></div>
+            <div><dt class="text-xs text-surface-500">Subjects</dt><dd class="font-semibold">{subjectList.length}</dd></div>
+            <div><dt class="text-xs text-surface-500">Topics</dt><dd class="font-semibold">{totalTopics}</dd></div>
+          </dl>
+          <p class="text-xs text-surface-500 mt-3">
+            Freshness tracked daily from {exam.officialSource || 'the official examining body'}.
+            <a href={`/exams/${exam.examId}/dates/`} class="text-brand-600 hover:underline"> See {currentYear} calendar →</a>
+          </p>
+        </div>
+        <!-- SR-AUTO:END:LIVE-DASHBOARD -->
+
+        <!-- SR-AUTO:START:SPOKE-NAV -->
+        <div class="flex flex-wrap gap-2 mb-6">
+          {['dates','eligibility','syllabus','pattern','strategy'].map((s: string) => (
+            <a href={`/exams/${exam.examId}/${s}/`} class="px-3 py-1.5 rounded-full bg-surface-100 dark:bg-surface-800 hover:bg-brand-100 dark:hover:bg-brand-900/30 text-xs font-medium capitalize">{s}</a>
+          ))}
+        </div>
+        <!-- SR-AUTO:END:SPOKE-NAV -->
 
         <div class="flex flex-wrap gap-3">
           <a

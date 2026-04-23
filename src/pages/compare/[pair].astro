@@ -1,0 +1,161 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Navbar from '../../components/Navbar.astro';
+import Footer from '../../components/Footer.astro';
+import { ALL_EXAMS, getCountryFlag } from '../../data/exams';
+
+export async function getStaticPaths() {
+  // Only generate pairs where both exams are in the same country AND are popular.
+  // We cap at ~300 pages to keep build fast and quality high.
+  const TIER1 = new Set(['neet','jeemain','jeeadvanced','upsc','gate','cuet','ssc-cgl','cat','clat','bitsat','aiims-mbbs','neet-pg','ugc-net','ndab','mdcat','ecat','nat-i','lat','hat-ug','jamb','waec','neco','nabteb']);
+  const paths: any[] = [];
+  const byCountry: Record<string, any[]> = {};
+  for (const exam of ALL_EXAMS) {
+    if (!exam || !exam.examId || !TIER1.has(exam.examId)) continue;
+    (byCountry[exam.country] ||= []).push(exam);
+  }
+  for (const list of Object.values(byCountry)) {
+    for (let i = 0; i < list.length; i++) {
+      for (let j = i + 1; j < list.length; j++) {
+        const a = list[i], b = list[j];
+        const pair = `${a.examId}-vs-${b.examId}`;
+        paths.push({ params: { pair }, props: { examA: a, examB: b } });
+      }
+    }
+  }
+  return paths;
+}
+
+const { examA, examB } = Astro.props;
+const SITE_URL = 'https://studyroadmap.in';
+const year = new Date().getUTCFullYear();
+const flagA = getCountryFlag(examA.country) || '🌍';
+const flagB = getCountryFlag(examB.country) || '🌍';
+
+// Overlap analysis
+const subjectsA = new Set((examA.subjects || []).map((s: any) => (s.name || '').toLowerCase()));
+const subjectsB = new Set((examB.subjects || []).map((s: any) => (s.name || '').toLowerCase()));
+const shared = [...subjectsA].filter(x => subjectsB.has(x));
+const onlyA = [...subjectsA].filter(x => !subjectsB.has(x));
+const onlyB = [...subjectsB].filter(x => !subjectsA.has(x));
+
+const totalTopicsA = (examA.subjects || []).reduce((n: number, s: any) => n + (s.topics?.length || 0), 0);
+const totalTopicsB = (examB.subjects || []).reduce((n: number, s: any) => n + (s.topics?.length || 0), 0);
+
+const title = `${examA.examName} vs ${examB.examName} ${year}: Which Exam is Right for You? | StudyRoadmap™`;
+const description = `Side-by-side comparison of ${examA.examName} and ${examB.examName} — eligibility, syllabus overlap (${shared.length}/${Math.max(subjectsA.size, subjectsB.size)} shared subjects), exam pattern, difficulty, career outcomes. Free AI-powered study plans for either.`;
+const canonicalUrl = `${SITE_URL}/compare/${examA.examId}-vs-${examB.examId}/`;
+
+const breadcrumbJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: SITE_URL },
+    { '@type': 'ListItem', position: 2, name: 'Compare Exams', item: `${SITE_URL}/compare/` },
+    { '@type': 'ListItem', position: 3, name: `${examA.examName} vs ${examB.examName}`, item: canonicalUrl },
+  ],
+};
+
+const faqs = [
+  { q: `Can I prepare for ${examA.examName} and ${examB.examName} together?`,
+    a: shared.length >= Math.min(subjectsA.size, subjectsB.size) * 0.6
+       ? `Yes — ${shared.length} of ${Math.max(subjectsA.size, subjectsB.size)} subjects overlap. Combined preparation saves significant time, especially in the first 60 days. After that, separate the unique sections (${[...onlyA, ...onlyB].slice(0,4).join(', ')}) with focused week-long blocks.`
+       : `Partially — only ${shared.length} subjects overlap. The exams test different skills; combined preparation is inefficient beyond the basics. Pick the exam whose subjects you're stronger in, master it first, then attempt the other.`,
+  },
+  { q: `Which is harder, ${examA.examName} or ${examB.examName}?`,
+    a: `Difficulty is subjective but can be compared structurally: ${examA.examName} has ${totalTopicsA} topics across ${subjectsA.size} subjects; ${examB.examName} has ${totalTopicsB} topics across ${subjectsB.size}. The exam with fewer, broader subjects favours deep learners; the one with more subjects favours breadth. Your strengths decide.`,
+  },
+  { q: `Do ${examA.examName} and ${examB.examName} have any subject overlap?`,
+    a: shared.length ? `Yes. Shared subjects: ${shared.slice(0,5).join(', ')}. ${[...onlyA.slice(0,3)].length ? examA.examName + ' adds: ' + onlyA.slice(0,3).join(', ') + '. ' : ''}${[...onlyB.slice(0,3)].length ? examB.examName + ' adds: ' + onlyB.slice(0,3).join(', ') + '.' : ''}` : `No shared subjects. Preparation for one does not transfer to the other.`,
+  },
+  { q: `How do I pick between ${examA.examName} and ${examB.examName}?`,
+    a: `Work backwards from outcomes. Look at the colleges/jobs each unlocks, time-to-salary, and your own subject strengths. Then try our free AI study plan for each — 90 days is enough to feel whether the syllabus fits. Start with the 1-month plan to get a taste without committing.`,
+  },
+  { q: `Can I switch between these exams mid-preparation?`,
+    a: `Yes if ${shared.length >= 3 ? 'you keep the shared subjects sharp (' + shared.slice(0,3).join(', ') + ')' : 'you accept losing some momentum'}. Most serious switchers do it before day 60; after that, the opportunity cost of restarting is high. Use StudyRoadmap to auto-rebuild the plan with your remaining days.`,
+  },
+];
+const faqJsonLd = {
+  '@context': 'https://schema.org', '@type': 'FAQPage',
+  mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+};
+---
+
+<Layout title={title} description={description} canonical={canonicalUrl}>
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
+  <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
+  <Navbar />
+  <main class="flex-1">
+    <section class="bg-surface-50 dark:bg-surface-950 border-b border-surface-200 dark:border-surface-800">
+      <div class="container-page py-10">
+        <nav class="text-sm text-surface-500 mb-4"><a href="/" class="hover:text-brand-600">Home</a> › <a href="/compare/" class="hover:text-brand-600">Compare</a> › <span>{examA.examName} vs {examB.examName}</span></nav>
+        <h1 class="text-3xl md:text-4xl font-black text-surface-900 dark:text-white mb-3">
+          {examA.examName} vs {examB.examName} {year}: Which Exam is Right for You?
+        </h1>
+        <p class="text-lg text-surface-600 dark:text-surface-300 max-w-3xl mb-4">
+          {shared.length} of {Math.max(subjectsA.size, subjectsB.size)} subjects overlap. Structured comparison below — syllabus, difficulty, career path, and which one suits your strengths.
+        </p>
+      </div>
+    </section>
+
+    <section class="container-page py-8">
+      <h2 class="text-2xl font-bold mb-4">At a glance</h2>
+      <div class="overflow-x-auto rounded-lg border border-surface-200 dark:border-surface-700">
+        <table class="w-full text-sm">
+          <thead class="bg-surface-50 dark:bg-surface-900"><tr><th class="p-3 text-left">Dimension</th><th class="p-3 text-left">{flagA} {examA.examName}</th><th class="p-3 text-left">{flagB} {examB.examName}</th></tr></thead>
+          <tbody>
+            <tr class="border-t"><td class="p-3">Country</td><td class="p-3">{examA.country}</td><td class="p-3">{examB.country}</td></tr>
+            <tr class="border-t"><td class="p-3">Subjects</td><td class="p-3">{subjectsA.size}</td><td class="p-3">{subjectsB.size}</td></tr>
+            <tr class="border-t"><td class="p-3">Total topics</td><td class="p-3">{totalTopicsA}</td><td class="p-3">{totalTopicsB}</td></tr>
+            <tr class="border-t"><td class="p-3">Eligibility</td><td class="p-3">{examA.eligibility || 'See exam page'}</td><td class="p-3">{examB.eligibility || 'See exam page'}</td></tr>
+            <tr class="border-t"><td class="p-3">Exam pattern</td><td class="p-3">{examA.examPattern || 'See exam page'}</td><td class="p-3">{examB.examPattern || 'See exam page'}</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="container-page py-8">
+      <h2 class="text-2xl font-bold mb-4">Syllabus overlap</h2>
+      <div class="grid md:grid-cols-3 gap-4">
+        <div class="p-4 rounded-lg border bg-green-50 dark:bg-green-900/10 border-green-200 dark:border-green-800">
+          <h3 class="font-bold mb-2">Shared subjects ({shared.length})</h3>
+          <ul class="text-sm space-y-1">{shared.length ? shared.slice(0,12).map((s: string) => <li>• {s}</li>) : <li class="text-surface-500">No overlap</li>}</ul>
+        </div>
+        <div class="p-4 rounded-lg border bg-blue-50 dark:bg-blue-900/10 border-blue-200 dark:border-blue-800">
+          <h3 class="font-bold mb-2">Only in {examA.examName} ({onlyA.length})</h3>
+          <ul class="text-sm space-y-1">{onlyA.slice(0,12).map((s: string) => <li>• {s}</li>)}</ul>
+        </div>
+        <div class="p-4 rounded-lg border bg-purple-50 dark:bg-purple-900/10 border-purple-200 dark:border-purple-800">
+          <h3 class="font-bold mb-2">Only in {examB.examName} ({onlyB.length})</h3>
+          <ul class="text-sm space-y-1">{onlyB.slice(0,12).map((s: string) => <li>• {s}</li>)}</ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-page py-8">
+      <h2 class="text-2xl font-bold mb-4">FAQs</h2>
+      <div class="space-y-4">{faqs.map(f => (
+        <details class="rounded-lg border border-surface-200 dark:border-surface-700 p-4 bg-white dark:bg-surface-900">
+          <summary class="font-semibold cursor-pointer">{f.q}</summary>
+          <p class="text-sm text-surface-600 dark:text-surface-300 mt-3">{f.a}</p>
+        </details>
+      ))}</div>
+    </section>
+
+    <section class="container-page py-10">
+      <div class="grid sm:grid-cols-2 gap-4">
+        <a href={`/exams/${examA.examId}/`} class="block rounded-xl p-6 border border-surface-200 dark:border-surface-700 bg-white dark:bg-surface-900 hover:border-brand-500">
+          <div class="text-lg font-bold">{flagA} {examA.examName}</div>
+          <div class="text-sm text-surface-500 mt-1">{subjectsA.size} subjects · {totalTopicsA} topics</div>
+          <div class="text-brand-600 mt-3 font-semibold">Open full overview →</div>
+        </a>
+        <a href={`/exams/${examB.examId}/`} class="block rounded-xl p-6 border border-surface-200 dark:border-surface-700 bg-white dark:bg-surface-900 hover:border-brand-500">
+          <div class="text-lg font-bold">{flagB} {examB.examName}</div>
+          <div class="text-sm text-surface-500 mt-1">{subjectsB.size} subjects · {totalTopicsB} topics</div>
+          <div class="text-brand-600 mt-3 font-semibold">Open full overview →</div>
+        </a>
+      </div>
+    </section>
+  </main>
+  <Footer />
+</Layout>

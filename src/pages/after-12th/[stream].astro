@@ -1,0 +1,146 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Navbar from '../../components/Navbar.astro';
+import Footer from '../../components/Footer.astro';
+import { ALL_EXAMS, getCountryFlag } from '../../data/exams';
+
+export async function getStaticPaths() {
+  return [
+    { params: { stream: 'engineering' } },
+    { params: { stream: 'medicine' } },
+    { params: { stream: 'civil-services' } },
+    { params: { stream: 'law' } },
+    { params: { stream: 'management' } },
+    { params: { stream: 'commerce' } },
+    { params: { stream: 'arts-humanities' } },
+    { params: { stream: 'defence' } },
+  ];
+}
+
+const { stream } = Astro.params;
+const SITE_URL = 'https://studyroadmap.in';
+const year = new Date().getUTCFullYear();
+
+const STREAM_META: Record<string, { label: string; h1: string; description: string; keywordIds: string[] }> = {
+  engineering: {
+    label: 'Engineering',
+    h1: `Engineering Exams After 12th ${year}: The Complete Guide`,
+    description: `Every engineering entrance exam for ${year} — JEE Main, JEE Advanced, BITSAT, VITEEE, SRMJEEE, GATE, and more. Eligibility, difficulty, college-feed ranked. Free AI study plans.`,
+    keywordIds: ['jeemain','jeeadvanced','bitsat','viteee','srmjeee','gate'],
+  },
+  medicine: {
+    label: 'Medicine',
+    h1: `Medical Entrance Exams After 12th ${year}: NEET, AIIMS, MDCAT & More`,
+    description: `Medical and dental entrance exams for ${year} — NEET UG, AIIMS MBBS, MDCAT (Pakistan), UTME medical cutoffs. Pick the exam that fits your country, eligibility, and target colleges.`,
+    keywordIds: ['neet','aiims-mbbs','neet-pg','mdcat','fmge'],
+  },
+  'civil-services': {
+    label: 'Civil Services',
+    h1: `Civil Services Exams After 12th/Graduation ${year}: UPSC, State PSCs, SSC`,
+    description: `The full civil-services ladder: UPSC CSE, state PSCs, SSC CGL, and more. Eligibility timelines (many accept graduates only; a few allow 12th-pass). Free prep roadmaps.`,
+    keywordIds: ['upsc','ssc-cgl','up-psc','bpsc'],
+  },
+  law: {
+    label: 'Law',
+    h1: `Law Entrance Exams After 12th ${year}: CLAT, AILET, LSAT India`,
+    description: `Every law entrance exam for undergraduate admission — CLAT, AILET, LSAT India, SLAT — compared. Syllabus overlap, college pathways, prep strategies.`,
+    keywordIds: ['clat'],
+  },
+  management: {
+    label: 'Management',
+    h1: `Management Entrance Exams After Graduation ${year}: CAT, XAT, SNAP, CMAT`,
+    description: `MBA and PGDM entrance exams — CAT, XAT, SNAP, CMAT, GMAT. Difficulty, eligibility, college feeds, and how to prepare in under 6 months.`,
+    keywordIds: ['cat','xat','snap','cmat'],
+  },
+  commerce: {
+    label: 'Commerce',
+    h1: `Commerce Entrance Exams After 12th ${year}: CUET, IPMAT, CA-Foundation`,
+    description: `Commerce-stream exams for DU, IIM integrated, ICAI and more — CUET UG, IPMAT, CA-Foundation, CS, CMA. Full breakdown + free study plans.`,
+    keywordIds: ['cuet','ipmat','ca-foundation'],
+  },
+  'arts-humanities': {
+    label: 'Arts & Humanities',
+    h1: `Arts & Humanities Entrance Exams After 12th ${year}`,
+    description: `Arts-stream entrance exams including CUET UG humanities, UCEED, NIFT, NID — for design, social sciences, humanities at top central universities.`,
+    keywordIds: ['cuet','uceed','nift'],
+  },
+  defence: {
+    label: 'Defence',
+    h1: `Defence Exams After 12th ${year}: NDA, CDS, AFCAT`,
+    description: `The entrance path to Indian Defence services — NDA after 12th, CDS and AFCAT after graduation. Physical + written cut-offs, age limits, college routes.`,
+    keywordIds: ['ndab','cds','afcat'],
+  },
+};
+
+const meta = STREAM_META[stream] || STREAM_META['engineering'];
+const streamExams = ALL_EXAMS.filter((e: any) => meta.keywordIds.includes(e.examId) && e.subjects);
+
+const title = `${meta.label} Exams After 12th ${year}: Compare & Pick | StudyRoadmap™`;
+const description = meta.description;
+const canonicalUrl = `${SITE_URL}/after-12th/${stream}/`;
+
+const itemListJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: meta.h1,
+  itemListElement: streamExams.map((e: any, i: number) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    url: `${SITE_URL}/exams/${e.examId}/`,
+    name: e.examName,
+  })),
+};
+
+const breadcrumbJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: SITE_URL },
+    { '@type': 'ListItem', position: 2, name: 'After 12th', item: `${SITE_URL}/after-12th/` },
+    { '@type': 'ListItem', position: 3, name: meta.label, item: canonicalUrl },
+  ],
+};
+---
+
+<Layout title={title} description={description} canonical={canonicalUrl}>
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
+  <script type="application/ld+json" set:html={JSON.stringify(itemListJsonLd)} />
+  <Navbar />
+  <main class="flex-1">
+    <section class="bg-surface-50 dark:bg-surface-950 border-b border-surface-200 dark:border-surface-800">
+      <div class="container-page py-10">
+        <nav class="text-sm text-surface-500 mb-4"><a href="/">Home</a> › <a href="/after-12th/">After 12th</a> › <span>{meta.label}</span></nav>
+        <h1 class="text-3xl md:text-4xl font-black mb-3">{meta.h1}</h1>
+        <p class="text-lg text-surface-600 dark:text-surface-300 max-w-3xl">{description}</p>
+      </div>
+    </section>
+
+    <section class="container-page py-8">
+      <h2 class="text-2xl font-bold mb-5">Exams in this stream</h2>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        {streamExams.map((e: any) => {
+          const topics = (e.subjects || []).reduce((n: number, s: any) => n + (s.topics?.length || 0), 0);
+          return (
+            <a href={`/exams/${e.examId}/`} class="block p-5 rounded-xl border border-surface-200 dark:border-surface-700 bg-white dark:bg-surface-900 hover:border-brand-500 transition">
+              <div class="flex items-center gap-2 mb-2"><span class="text-2xl">{getCountryFlag(e.country) || '🌍'}</span><h3 class="font-bold text-lg">{e.examName}</h3></div>
+              <p class="text-sm text-surface-500">{(e.subjects || []).length} subjects · {topics} topics</p>
+              {e.eligibility && <p class="text-xs text-surface-600 dark:text-surface-400 mt-2 line-clamp-2">{e.eligibility.slice(0, 140)}</p>}
+              <div class="text-brand-600 mt-3 text-sm font-semibold">Open full overview →</div>
+            </a>
+          );
+        })}
+      </div>
+    </section>
+
+    <section class="container-page py-8 border-t border-surface-200 dark:border-surface-700">
+      <h2 class="text-2xl font-bold mb-4">How to choose</h2>
+      <ol class="list-decimal ml-6 space-y-2 text-surface-700 dark:text-surface-200">
+        <li><strong>Start from outcomes</strong>: list the colleges or roles you'd accept; see which exam(s) feed them.</li>
+        <li><strong>Check eligibility windows</strong>: some exams allow 12th-pass, others graduation only — missing the age bar wastes a year.</li>
+        <li><strong>Compare syllabus overlap</strong> using our side-by-side comparison pages.</li>
+        <li><strong>Try a 30-day free plan</strong> for your top 2 exams — you'll know in a week whether the subjects click.</li>
+      </ol>
+    </section>
+  </main>
+  <Footer />
+</Layout>

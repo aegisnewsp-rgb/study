@@ -172,3 +172,60 @@ When making content or feature decisions, prioritize:
 - Email: contact@studyroadmap.in
 - GitHub: https://github.com/aegisnewsp-rgb/study
 - Twitter: @studyroadmap_in
+
+---
+
+## Terminal-Sprint Scope Policy (enforced)
+
+All Claude Code / OpenClaw sprints in this repo are restricted to **content, rolling-window news, and SEO** work. UI / layout / build-config changes require an explicit human ask in the session.
+
+### Allowed paths (default)
+
+- `src/content/**` — study notes, markdown
+- `src/content.config.ts`
+- `src/data/**` — exam + FAQ data
+- `src/pages/**` — only for SEO, content, schema, canonical, FAQ, internal-link, breadcrumb edits
+- `public/**` — SEO support assets (sitemap helpers, llm.txt, llms-full.txt, robots.txt only when the change is strictly SEO intent)
+- `scripts/**` — maintenance + content generation scripts
+- `skills/**` — workspace skills
+- `news.json`, `CLAUDE.md`, `CLAUDE.local.md`, `LOCKED_FILES.txt`, backlog/heartbeat markdown
+
+### Locked paths (never edit in a sprint)
+
+See `LOCKED_FILES.txt`. At minimum:
+- `src/layouts/Layout.astro`
+- `src/styles/global.css`
+- `astro.config.mjs`, `tailwind.config.mjs`, `tailwind.config.ts`
+- `src/components/Navbar.astro`, `src/components/Footer.astro`, `src/components/RoadmapApp.tsx`
+- `docker-compose.yml`, `Dockerfile`, `nginx.conf`, `deploy.sh`
+
+### Default skills (Claude Code + OpenClaw)
+
+Activate these by default for every sprint unless the user disables them:
+- `caveman` — ultra-terse communication, ~75% token savings, keeps technical accuracy
+- `caveman-compress` — compress long outputs
+- `caveman-review` / `caveman-commit` — terse review/commit messages
+- `mmx-cli` — call MiniMax models via `mmx` (`MiniMax-M2.7` default)
+
+MCP servers available:
+- `minimax-mcp-js` — MiniMax image/video/tts/voice-clone MCP
+- `plugin:claude-mem:mcp-search` — memory search across past Claude Code sessions
+
+### End-of-sprint checklist (MANDATORY)
+
+Every sprint ends with:
+
+```bash
+git diff --stat
+./scripts/check-scope.sh                  # must exit 0
+./scripts/build-and-deploy.sh             # builds, sanity-checks CSS, deploys, probes live
+```
+
+If the scope guard fails, revert the offending files and retry. Do not bypass it.
+
+### Model defaults
+
+- Reasoning / planning / long-form content generation: `MiniMax-M2.7` via `mmx text chat` (Max coding plan credits)
+- Code edits inside Claude Code session: whatever model the user selected for the session
+- Images / og images / illustrations when needed: `mmx image` (only if the task asks for new assets)
+

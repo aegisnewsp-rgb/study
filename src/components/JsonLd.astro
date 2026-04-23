@@ -1,0 +1,29 @@
+---
+/**
+ * JsonLd.astro — reusable structured-data injection.
+ *
+ * Usage:
+ *   import JsonLd from '../components/JsonLd.astro';
+ *   <JsonLd data={{ '@context': 'https://schema.org', ... }} />
+ *   <JsonLd data={[schema1, schema2]} />     // array → one <script> per entry
+ *
+ * Why: centralises JSON-LD rendering so schema can be audited/validated in one place.
+ * Safety: escapes '</' inside content to prevent script-tag breakout.
+ */
+interface Props {
+  data: Record<string, any> | Array<Record<string, any>>;
+}
+
+const { data } = Astro.props;
+const items = Array.isArray(data) ? data : [data];
+
+function safeStringify(obj: any): string {
+  const s = JSON.stringify(obj);
+  // Prevent closing-tag breakout inside <script>
+  return s.replace(/<\/(script)/gi, '<\\/$1');
+}
+---
+
+{items.filter(Boolean).map(item => (
+  <script type="application/ld+json" set:html={safeStringify(item)} />
+))}

@@ -37,7 +37,7 @@ const examMeta: ExamMeta[] = Object.entries(byExam).map(([examId, notes]) => {
 examMeta.sort((a, b) => a.examName.localeCompare(b.examName));
 
 const totalNotes = allNotes.length;
-const title = `Free Study Notes for NEET, JEE, UPSC, MDCAT, JAMB — ${totalNotes}+ Topics | StudyRoadmap™`;
+const title = `Free Study Notes ${new Date().getUTCFullYear()}: NEET, JEE, UPSC, MDCAT, JAMB — ${totalNotes}+ Topics | StudyRoadmap™`;
 const description = `Browse ${totalNotes}+ free study notes for NEET, JEE Main, UPSC, SSC CGL, MDCAT, JAMB, WAEC & more exams. Topic-wise notes with Quick, Standard & Deep study tiers. No signup needed.`;
 const canonicalUrl = 'https://studyroadmap.in/notes';
 const ogImage = '/og-image.jpg';
@@ -118,7 +118,7 @@ const faqJsonLd = {
   <main id="main-content" class="flex-1">
     <section class="bg-surface-50 dark:bg-surface-950 border-b border-surface-200 dark:border-surface-800">
       <div class="container-page py-12 text-center">
-        <h1 class="heading-1 text-surface-900 dark:text-surface-50 mb-3">Free Study Notes</h1>
+        <h1 class="heading-1 text-surface-900 dark:text-surface-50 mb-3">{new Date().getUTCFullYear()} Free Study Notes — {totalNotes}+ Topics across {examMeta.length} Exams</h1>
         <p class="text-lg text-surface-600 dark:text-surface-400 max-w-xl mx-auto mb-4">
           {totalNotes} notes across {examMeta.length} exams. No signup, no account — open any note and start studying.
         </p>

@@ -137,3 +137,52 @@ Allow: /
 # Kagi search
 User-agent: KagiBot
 Allow: /
+
+# ── 2026 AI CITATION BOTS — EXPLICIT ALLOW ──────────────────────────────────
+# Google Search Generative Experience + NotebookLM
+User-agent: Google-CloudVertexBot
+Allow: /
+
+# Andi (AI search engine)
+User-agent: AndiBot
+Allow: /
+
+# Mistral Le Chat
+User-agent: MistralAI-User
+Allow: /
+
+# Komo (AI search)
+User-agent: KomoBot
+Allow: /
+
+# Exa (AI-native search index)
+User-agent: ExaBot
+Allow: /
+
+# TikTok Spider (in-app search)
+User-agent: TikTokSpider
+Allow: /
+
+# Yahoo / InfoTigers
+User-agent: InfoTigerBot
+Allow: /
+
+# Neeva successor (Snowflake Cortex)
+User-agent: NeevaBot
+Allow: /
+
+# Facebook link-preview
+User-agent: facebookexternalhit
+Allow: /
+
+# Poe (Quora AI)
+User-agent: PoeBot
+Allow: /
+
+# Cohere citation (user-facing search, NOT training)
+User-agent: cohere-training-data-crawler
+Disallow: /
+User-agent: Cohere-User
+Allow: /
+
+# Last updated: 2026-04-23

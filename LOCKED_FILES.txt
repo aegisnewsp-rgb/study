@@ -1,0 +1,12 @@
+src/layouts/Layout.astro
+src/styles/global.css
+astro.config.mjs
+tailwind.config.mjs
+tailwind.config.ts
+src/components/Navbar.astro
+src/components/Footer.astro
+src/components/RoadmapApp.tsx
+docker-compose.yml
+Dockerfile
+nginx.conf
+deploy.sh

@@ -59,8 +59,11 @@ const fullEligibility = exam.eligibility
   ? exam.eligibility.replace(/\\n/g, ' ').replace(/\\/g, '').replace(/"/g, '')
   : '';
 
-const title = `${examName} — Exam Pattern, Eligibility & Study Plan | StudyRoadmap™`;
-const description = `${fullDescription} Covers exam pattern, eligibility criteria, syllabus topics, and how to generate a free personalised study roadmap in minutes.`;
+const currentYear = new Date().getUTCFullYear();
+const heroHeadline = (exam as any).heroHeadline
+  || `${examName} ${currentYear}: Exam Pattern, Eligibility & Study Plan`;
+const title = `${examName} ${currentYear}: Exam Pattern, Eligibility & Study Plan | StudyRoadmap™`;
+const description = `Full ${examName} ${currentYear} guide — exam pattern, eligibility, syllabus weightage, FAQs, and a free AI study roadmap built in minutes.`;
 const canonicalUrl = `${SITE_URL}/exams/${exam.examId}`;
 
 const authorObj = {
@@ -323,7 +326,7 @@ const wikiCitations = EXAM_WIKI_CITATIONS[exam.examId] || [];
           <span class="text-4xl">{flag}</span>
           <div>
             <h1 class="text-3xl md:text-4xl font-black text-surface-900 dark:text-white mb-2">
-              {examName}
+              {heroHeadline}
             </h1>
             <p class="text-surface-500 dark:text-surface-400 text-sm">
               {countryName} · {subjectList.length} subjects · {totalTopics} topics

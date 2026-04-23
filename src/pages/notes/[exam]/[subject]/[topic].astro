@@ -197,9 +197,9 @@ const breadcrumbJsonLd = {
   '@type': 'BreadcrumbList',
   itemListElement: [
     { '@type': 'ListItem', position: 1, name: 'Home', item: siteUrl },
-    { '@type': 'ListItem', position: 2, name: 'Roadmap', item: `${siteUrl}/roadmap` },
-    { '@type': 'ListItem', position: 3, name: `${examName}`, item: `${siteUrl}/roadmap?exam=${exam}` },
-    { '@type': 'ListItem', position: 4, name: subjectDisplay, item: `${siteUrl}/notes/${exam}/${subject}` },
+    { '@type': 'ListItem', position: 2, name: 'Exams', item: `${siteUrl}/exams/` },
+    { '@type': 'ListItem', position: 3, name: `${examName}`, item: `${siteUrl}/exams/${exam}/` },
+    { '@type': 'ListItem', position: 4, name: subjectDisplay, item: `${siteUrl}/notes/${exam}/${subject}/` },
     { '@type': 'ListItem', position: 5, name: topicName, item: canonicalUrl },
   ],
 };
@@ -217,14 +217,24 @@ const articleJsonLd = {
     logo: { '@type': 'ImageObject', url: `${siteUrl}/favicon.svg` },
   },
   datePublished: note.data.generated || '2026-01-01',
-  dateModified: note.data.generated || '2026-01-01',
+  dateModified: new Date().toISOString().slice(0, 10),
   mainEntityOfPage: { '@type': 'WebPage', '@id': canonicalUrl },
   about: {
     '@type': 'Thing',
     name: topicName,
     description: `${weight}% exam weight for ${examName}`,
   },
-  keywords: `${topicName}, ${subjectDisplay}, ${examName} notes, study notes, exam preparation`,
+  isPartOf: {
+    '@type': 'Course',
+    '@id': `${siteUrl}/exams/${exam}/#course`,
+    name: `${examName} Study Roadmap`,
+    url: `${siteUrl}/exams/${exam}/`,
+    provider: { '@type': 'Organization', name: 'StudyRoadmap™', url: siteUrl },
+  },
+  educationalLevel: country === 'pakistan' ? 'Higher Secondary (Pakistan)' : country === 'nigeria' ? 'Senior Secondary (Nigeria)' : 'Higher Secondary',
+  educationalUse: 'Self-study exam preparation',
+  learningResourceType: 'Study Notes',
+  keywords: `${topicName}, ${subjectDisplay}, ${examName} notes, study notes, exam preparation, ${country}`,
   url: canonicalUrl,
 };
 ---
@@ -241,11 +251,11 @@ const articleJsonLd = {
         <nav class="flex items-center gap-2 text-sm text-surface-500 dark:text-surface-400" aria-label="Breadcrumb">
           <a href="/" class="hover:text-brand-600 dark:hover:text-brand-400">Home</a>
           <span>›</span>
-          <a href="/roadmap" class="hover:text-brand-600 dark:hover:text-brand-400">Roadmap</a>
+          <a href="/exams/" class="hover:text-brand-600 dark:hover:text-brand-400">Exams</a>
           <span>›</span>
-          <a href={`/roadmap?exam=${exam}`} class="hover:text-brand-600 dark:hover:text-brand-400">{flag} {examName}</a>
+          <a href={`/exams/${exam}/`} class="hover:text-brand-600 dark:hover:text-brand-400">{flag} {examName}</a>
           <span>›</span>
-          <a href={`/notes/${exam}/${subject}`} class="hover:text-brand-600 dark:hover:text-brand-400">{subjectDisplay}</a>
+          <a href={`/notes/${exam}/${subject}/`} class="hover:text-brand-600 dark:hover:text-brand-400">{subjectDisplay}</a>
           <span>›</span>
           <span class="text-surface-900 dark:text-surface-100">{topicName}</span>
         </nav>

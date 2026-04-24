@@ -129,6 +129,7 @@ function SubjectAccordion({
   color,
   index,
   examId,
+  selectedDuration,
 }: {
   subjectName: string;
   subjectId: string;
@@ -138,6 +139,7 @@ function SubjectAccordion({
   color: string;
   index: number;
   examId: string;
+  selectedDuration: string;
 }) {
   const sorted = useMemo(() => [...topics].sort((a, b) => b.weight - a.weight), [topics]);
   const highPriority = sorted.filter(t => t.weight >= 7).length;
@@ -329,11 +331,16 @@ export default function RoadmapApp({ exams }: Props) {
     const examParam = params.get('exam');
     const durationParam = params.get('duration');
     if (examParam) setSelectedExam(examParam);
-  // Load progress from localStorage on mount
+    if (durationParam) setSelectedDuration(durationParam);
+  }, []);
+
+  // Load progress from localStorage on mount / when exam+duration change
   useEffect(() => {
+    if (!selectedExam || !selectedDuration) return;
     try {
       const saved = localStorage.getItem("sr-progress-" + selectedExam + "-" + selectedDuration);
       if (saved) setCompletedTopics(new Set(JSON.parse(saved)));
+      else setCompletedTopics(new Set());
     } catch(e) {}
   }, [selectedExam, selectedDuration]);
 
@@ -345,8 +352,6 @@ export default function RoadmapApp({ exams }: Props) {
       } catch(e) {}
     }
   }, [completedTopics, selectedExam, selectedDuration]);
-    if (durationParam) setSelectedDuration(durationParam);
-  }, []);
 
   const roadmap = useMemo<RoadmapTemplate | null>(() => {
     if (!selectedExam || !selectedDuration) return null;
@@ -635,6 +640,7 @@ export default function RoadmapApp({ exams }: Props) {
                   color={subj.color}
                   index={idx}
                   examId={selectedExam}
+                  selectedDuration={selectedDuration}
                 />
               );
             })}

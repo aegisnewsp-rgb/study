@@ -45,7 +45,13 @@ function walkAll(dir, prefix) {
     if (entry.name === '_astro' || entry.name.startsWith('.')) continue;
     const full = path.join(dir, entry.name);
     if (entry.isDirectory()) walkAll(full, `${prefix}/${entry.name}`);
-    else if (entry.name === 'index.html' && prefix !== '') allPagesSet.add(`${prefix}/`);
+    else if (entry.name === 'index.html' && prefix !== '') {
+      try {
+        const head = fs.readFileSync(full, 'utf8').slice(0, 4096);
+        if (/<meta[^>]*name=["']robots["'][^>]*content=["'][^"']*noindex/i.test(head)) continue;
+      } catch {}
+      allPagesSet.add(`${prefix}/`);
+    }
   }
 }
 if (fs.existsSync(distRoot)) walkAll(distRoot, '');

@@ -22,6 +22,14 @@ const { Content } = await render(note);
 // SEO
 const { exam, examName, subject, subjectName, topic, topicName, weight, country, diagramPrompt } = note.data;
 
+// Quality gate: noindex thin/placeholder notes that hurt domain-wide indexing.
+// Covers generic "Topic 12" / "Chapter 3" auto-filler and bodies under ~2500 chars.
+const isPlaceholderTopic = typeof topicName === 'string' && /^(Topic|Chapter|Unit|Section)\s+\d+/i.test(topicName.trim());
+const rawBody = (note.body || '') as string;
+const isThinBody = rawBody.length < 2500;
+const shouldNoindex = isPlaceholderTopic || isThinBody;
+const robotsDirective = shouldNoindex ? 'noindex,follow' : undefined;
+
 // Handle malformed subjectName (None / undefined) — derive from subject slug
 const subjectDisplay = (subjectName && subjectName !== 'None' && subjectName !== 'null') ? subjectName : (subject.charAt(0).toUpperCase() + subject.slice(1).replace(/-/g, ' '));
 
@@ -239,7 +247,7 @@ const articleJsonLd = {
 };
 ---
 
-<Layout title={title} description={description} canonical={canonicalUrl} image={ogImage} faqs={faqs} author={authorObj}>
+<Layout title={title} description={description} canonical={canonicalUrl} image={ogImage} faqs={faqs} author={authorObj} robots={robotsDirective}>
   <script type="application/ld+json" set:html={JSON.stringify(articleJsonLd)} />
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
 

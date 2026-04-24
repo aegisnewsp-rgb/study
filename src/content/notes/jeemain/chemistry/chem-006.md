@@ -9,48 +9,6 @@ weight: 3
 country: india
 generated: "2026-03-28T21:09:19"
 ---
-<think>
-The user wants study notes for Thermodynamics in a specific format. Let me break down what's needed:
-
-1. **Lite Quick Review (1h-1d)**: Rapid summary with bullet points for JEE Main key facts
-2. **Standard Regular Study (2d-2mo)**: 220 words prose with solved examples
-3. **Extended Deep Study (3mo+)**: 280 words comprehensive advanced level notes
-
-Format requirements:
-- Start with "---"
-- Use headings with # for main title and ### for sections
-- Use > for blockquotes (Lite Quick Review section)
-- Use ** for bold text
-
-Let me write comprehensive notes for Thermodynamics covering:
-
-**Thermodynamics topics for JEE:**
-- System and surroundings
-- Types of systems (open, closed, isolated)
-- State functions (U, H, S, G)
-- Zeroth law of thermodynamics
-- First law of thermodynamics (ΔU = Q - W)
-- Work calculations (pressure-volume work)
-- Heat capacity (Cp, Cv)
-- Enthalpy (H)
-- Hess's law
-- Bond enthalpy
-- Second law of thermodynamics
-- Entropy (S)
-- Spontaneity (ΔG = ΔH - TΔS)
-- Third law of thermodynamics
-- Gibbs free energy
-- Relationship between ΔG and equilibrium constant
-
-Let me structure this properly:
-
-1. Lite Quick Review - Brief bullets covering all key formulas and concepts
-2. Standard Regular Study - 220 words with examples
-3. Extended Deep Study - 280 words advanced level
-
-I need to be precise with word counts.
-</think>
-
 # Thermodynamics
 
 ---
@@ -130,7 +88,6 @@ Thermodynamics provides fundamental framework for predicting reaction feasibilit
 The **Zeroth Law** establishes temperature as a fundamental property enabling thermal equilibrium concept. The **First Law** (ΔU = Q − W) establishes energy conservation, with work defined as pressure-volume work for most chemical systems: W = −∫P_ext dV. For reversible processes, W_rev = −nRT ln(V₂/V₁).
 
 **Enthalpy** (H = U + PV) serves as the heat content at constant pressure. Standard enthalpy of formation (ΔH°_f) allows calculation via Hess's law: ΔH°
-
 
 ---
 ## 📊 JEE Main Exam Essentials

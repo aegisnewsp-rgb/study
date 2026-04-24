@@ -9,21 +9,6 @@ weight: 3
 country: india
 generated: "2026-03-29T05:06:11"
 ---
-<think>
-The user wants a study note for Quadratic Equations, formatted exactly as specified. They want three sections: Lite (quick review), Standard (regular study), and Extended (deep study). Each section has a specific format with bullet points and content.
-
-Let me write the content for each section, covering the necessary details about quadratic equations for a CUET exam.
-
-I need to be careful to follow the exact format:
-- Use the emojis as specified (🟢, 🟡, 🔴)
-- Follow the exact headings
-- For Lite: 6 bullet points + 1 tip
-- For Standard: ~200 words prose
-- For Extended: ~250 words prose
-
-Let me write this carefully.
-</think>
-
 # Quadratic Equations
 
 ### 🟢 Lite — Quick Review (1h–1d)

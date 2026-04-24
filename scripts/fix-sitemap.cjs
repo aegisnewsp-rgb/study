@@ -173,7 +173,34 @@ sitemap = sitemap.replace(/<url>([\s\S]*?<\/url>)/g, (match, inner) => {
   return `<url>${inner.replace('</loc>', `</loc><lastmod>${today}</lastmod>`)}`;
 });
 
-// STEP 3: Build set of exam URLs already in sitemap
+// STEP 3a: Strip URLs whose rendered HTML carries `<meta name="robots" content="noindex...">`.
+// Applies mainly to thin/placeholder notes pages — they must NOT appear in sitemaps either,
+// or Google penalises the whole domain for sitemap-vs-noindex mismatch.
+const distRootForScan = path.join(__dirname, '..', 'dist');
+function urlPathFromLoc(loc) {
+  try { return new URL(loc).pathname; } catch { return null; }
+}
+let sitemapStripCount = 0;
+sitemap = sitemap.replace(/<url>[\s\S]*?<\/url>/g, (block) => {
+  const m = block.match(/<loc>([^<]+)<\/loc>/);
+  if (!m) return block;
+  const p = urlPathFromLoc(m[1]);
+  if (!p) return block;
+  const candidate = path.join(distRootForScan, p.replace(/\/$/, ''), 'index.html');
+  if (fs.existsSync(candidate)) {
+    try {
+      const html = fs.readFileSync(candidate, 'utf8');
+      if (/<meta[^>]*name=["']robots["'][^>]*content=["'][^"']*noindex/i.test(html)) {
+        sitemapStripCount++;
+        return '';
+      }
+    } catch {}
+  }
+  return block;
+});
+if (sitemapStripCount > 0) console.log(`Sitemap: stripped ${sitemapStripCount} noindexed URLs from Astro-emitted sitemap`);
+
+// STEP 3b: Build set of exam URLs already in sitemap
 const existingUrls = new Set();
 const locMatches = sitemap.matchAll(/<loc>([^<]+)<\/loc>/g);
 for (const m of locMatches) {
@@ -196,17 +223,24 @@ const newExamUrls = examIds
 // Scan dist/notes/ for all generated note pages
 const distNotesBase = path.join(__dirname, '..', 'dist', 'notes');
 const noteUrls = [];
+let skippedNoindex = 0;
 function scanNotesDir(dir, urlPath) {
   if (!fs.existsSync(dir)) return;
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
     const full = path.join(dir, entry.name);
     const newUrlPath = urlPath + '/' + entry.name;
     if (entry.isDirectory()) {
-      // Check if this directory has an index.html (= a page)
-      if (fs.existsSync(path.join(full, 'index.html'))) {
-        const noteUrl = `${BASE_URL}${newUrlPath}/`;
-        if (!existingUrls.has(noteUrl)) {
-          noteUrls.push(`<url><loc>${noteUrl}</loc><lastmod>${today}</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>`);
+      const idxPath = path.join(full, 'index.html');
+      if (fs.existsSync(idxPath)) {
+        // Skip noindexed notes — they should not be in the sitemap either.
+        const html = fs.readFileSync(idxPath, 'utf8');
+        if (/<meta[^>]*name=["']robots["'][^>]*content=["'][^"']*noindex/i.test(html)) {
+          skippedNoindex++;
+        } else {
+          const noteUrl = `${BASE_URL}${newUrlPath}/`;
+          if (!existingUrls.has(noteUrl)) {
+            noteUrls.push(`<url><loc>${noteUrl}</loc><lastmod>${today}</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>`);
+          }
         }
       }
       scanNotesDir(full, newUrlPath);
@@ -214,6 +248,7 @@ function scanNotesDir(dir, urlPath) {
   }
 }
 scanNotesDir(distNotesBase, '/notes');
+if (skippedNoindex > 0) console.log(`Sitemap: skipped ${skippedNoindex} noindexed notes pages (thin/placeholder)`);
 
 // STEP 6: Add static pages that may be missing
 const staticPages = [

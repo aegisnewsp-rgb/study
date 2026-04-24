@@ -9,35 +9,6 @@ weight: 3
 country: india
 generated: "2026-03-29T05:06:49"
 ---
-<think>
-The user wants me to create study notes for Probability in the exact format specified. I need to follow the structure exactly:
-
-1. A header with "Probability"
-2. Three sections: Lite (Quick Review), Standard (Regular Study), and Extended (Deep Study)
-3. Each section has specific content requirements and formatting
-4. I need to use the emojis and formatting exactly as shown
-
-Let me create comprehensive study notes for Probability that would be helpful for CUET preparation.
-
-For the Lite section:
-- Key facts format with bullets
-- 6 bullet points covering: essential formula, most tested concept, common mistake, key technique, important exception, frequent question type
-- One exam tip
-
-For the Standard section:
-- ~200 words of educational prose
-- Cover core concepts, key formulas, typical question patterns, common traps
-- At least 2 short solved examples
-- Bold for key terms
-
-For the Extended section:
-- ~250 words at advanced level
-- Deeper theory, proof of key results, edge cases, cross-topic connections
-- Challenging solved examples
-
-Let me write this out carefully.
-</think>
-
 # Probability
 
 ### 🟢 Lite — Quick Review (1h–1d)

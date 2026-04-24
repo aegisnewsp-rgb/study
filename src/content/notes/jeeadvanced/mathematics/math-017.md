@@ -95,7 +95,6 @@ We claim $a_n$ is increasing and bounded above by 2.
 $a_1 = 1 < 2$.
 Assume $a_n < 2$. Then $a_{n+1} = \sqrt{2 + a_n} < \sqrt{2+2} = 2$.
 Also $a_{n+1} - a_n = \sqrt{2+a_n} - a_n$.
-We need to check $a_n < \sqrt{2+a_n}$ for $a_n < 2$.
 This is equivalent to $a_n^2 < 2 + a_n$ → $a_n^2 - a_n - 2 < 0$ → $(a_n-2)(a_n+1) < 0$.
 Since $a_n \geq 1$, we have $a_n - 2 < 0$ and $a_n + 1 > 0$, so product is negative. ✓
 

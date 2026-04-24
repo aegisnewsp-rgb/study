@@ -9,7 +9,6 @@ weight: 3
 country: legon
 generated: "2026-03-25T17:00:00"
 ---
-
 # Topic 10: Sequences and Series
 
 ### 🟢 Lite — Quick Review (1h–1d)
@@ -80,7 +79,6 @@ S₇ = 2(3⁷ - 1)/(3 - 1) = 2(2187 - 1)/2 = 2(2186)/2 = **2186**
 **Finding Missing Terms in Sequences**
 
 Insert three arithmetic means between 5 and 25.
-We need to find a₂, a₃, a₄ such that: 5, a₂, a₃, a₄, 25 forms an arithmetic sequence.
 Total parts = 5 (including endpoints)
 d = (25 - 5)/(5 - 1) = 20/4 = 5
 Means: 5 + 5 = **10**, 10 + 5 = **15**, 15 + 5 = **20**

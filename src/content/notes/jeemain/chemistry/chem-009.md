@@ -9,28 +9,6 @@ weight: 3
 country: india
 generated: "2026-03-28T21:09:21"
 ---
-<think>
-The user wants me to create study notes for Electrochemistry in an EXACT format with three sections:
-
-1. **Lite Quick Review (1h-1d)** - Rapid summary with bullet points for JEE Main key facts
-2. **Standard Regular Study (2d-2mo)** - 220 words prose with solved examples
-3. **Extended Deep Study (3mo+)** - 280 words advanced level comprehensive notes
-
-I need to follow the exact formatting with the markdown structure they specified. Let me create comprehensive, accurate chemistry content for JEE preparation.
-
-Let me structure this carefully:
-
-Section 1: Quick bullet points
-Section 2: Prose with solved examples (~220 words)
-Section 3: Advanced comprehensive notes (~280 words)
-
-I need to be careful about:
-- Accuracy of electrochemical concepts
-- JEE relevance
-- Proper formatting with the exact markers
-- Word counts approximately correct
-</think>
-
 ---
 # Electrochemistry
 
@@ -95,7 +73,6 @@ Electrochemistry encompasses the study of galvanic (voltaic) cells that convert 
 **Electrochemical Cell Thermodynamics**: The Gibbs free energy change (ΔG) determines cell feasibility. The fundamental relationship ΔG = -nFE establishes that electrical work obtainable equals the product of charge transferred and cell potential. The equilibrium constant relates through ΔG° = -RTlnK = -nFE°cell, enabling calculation of K from standard potentials and vice versa. Temperature dependence follows the van't Hoff equation modified for electrochemical systems.
 
 **Nernst Equation Derivation and Applications**: Starting from
-
 
 ---
 ## 📊 JEE Main Exam Essentials

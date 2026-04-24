@@ -11,7 +11,6 @@ generated: "2026-03-24T08:32:07.947706"
 diagramPrompt: "Mathematical diagram showing Mathematical Induction concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style"
 
 ---
-
 # Mathematical Induction
 
 ### 🟢 Lite — Quick Review (1h–1d)
@@ -100,8 +99,6 @@ Since $11m + 12$ is an integer, $5 | (11^{k+1} - 6)$. ✓
 **Base Case ($n=5$):** $2^5 = 32$, $5^2 = 25$. $32 > 25$. ✓
 
 **Inductive Step:** Assume $2^k > k^2$ for some $k \geq 5$.
-
-We need to show $2^{k+1} > (k+1)^2 = k^2 + 2k + 1$.
 
 $$2^{k+1} = 2 \cdot 2^k > 2 \cdot k^2$$
 

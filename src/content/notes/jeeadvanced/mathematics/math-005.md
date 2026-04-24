@@ -93,8 +93,6 @@ So $k = 3$.
 
 *Example 3:* Show that $f(x) = \frac{1}{x}$ is not uniformly continuous on $(0,1)$.
 
-We need to find $\epsilon > 0$ such that for all $\delta > 0$, there exist $x,y \in (0,1)$ with $|x-y| < \delta$ but $|f(x)-f(y)| \geq \epsilon$.
-
 Take $\epsilon = 1$.
 For any $\delta > 0$, choose $n$ large so $1/n < \delta$.
 Let $x = 1/(2n), y = 1/n$.

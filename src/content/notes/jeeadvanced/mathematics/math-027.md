@@ -85,8 +85,6 @@ From HP: reciprocals $1/a, 1/b, 1/c$ are in AP.
 So $\frac{2}{b} = \frac{1}{a} + \frac{1}{c} = \frac{a+c}{ac}$.
 Thus $2ac = b(a+c)$, or $b = \frac{2ac}{a+c}$.
 
-We need to prove: $\frac{a}{b} + \frac{b}{c} + \frac{c}{a} = 3 + \frac{1}{2}\left(\frac{a}{c} + \frac{c}{a}\right)$.
-
 Left side: $\frac{a}{b} + \frac{b}{c} + \frac{c}{a} = \frac{a(a+c)}{2ac} + \frac{2ac}{c(a+c)} + \frac{c(a+c)}{2ac} = \frac{a+c}{2c} + \frac{2a}{a+c} + \frac{a+c}{2a}$.
 
 Compute $\frac{a+c}{2c} + \frac{c+a}{2a} = \frac{a^2 + ac + ac + c^2}{2ac} = \frac{a^2 + 2ac + c^2}{2ac} = \frac{(a+c)^2}{2ac}$.

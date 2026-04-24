@@ -9,31 +9,6 @@ weight: 3
 country: india
 generated: "2026-03-29T05:05:08"
 ---
-<think>
-The user wants study notes for "Permutations" at three difficulty levels with exact formatting. Let me write this carefully following the template.
-
-Let me structure this:
-
-1. 🟢 Lite - Quick Review section with bullet points
-2. 🟡 Standard - Regular Study with ~200 words of educational prose
-3. 🔴 Extended - Deep Study with ~250 words at advanced level
-
-I need to cover permutations for CUET Mathematics specifically. Let me write each section carefully.
-
-Key concepts to cover:
-- Fundamental principle of counting
-- Permutation definition
-- Formula: nPr = n!/(n-r)!
-
-
-- Special cases like when r=n, r=0, and identical objects
-- Arrangements, circular permutations, and word arrangements
-- Common traps like confusing permutations with combinations
-- CUET-specific shortcuts and question patterns
-
-Let me write this now.
-</think>
-
 ---
 # Permutations
 

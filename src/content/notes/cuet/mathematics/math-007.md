@@ -9,20 +9,6 @@ weight: 3
 country: india
 generated: "2026-03-29T05:05:10"
 ---
-<think>
-The user wants me to create study notes for Hyperbola in three difficulty levels for CUET Mathematics preparation. I need to follow the exact format provided without deviation.
-
-Let me create comprehensive notes for each level:
-
-1. **Lite (Quick Review)** - For rapid revision in 1 hour to 1 day
-2. **Standard (Regular Study)** - For 2 days to 2 months of study
-3. **Extended (Deep Study)** - For 3+ months of comprehensive preparation
-
-I need to include all the specified elements in each section and make sure to use bold for key terms as instructed.
-
-Let me write this out carefully following the exact format.
-</think>
-
 # Hyperbola
 
 ### 🟢 Lite — Quick Review (1h–1d)

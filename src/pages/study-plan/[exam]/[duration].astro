@@ -107,6 +107,49 @@ const siblingDurations = Object.keys(exam.durations || {})
 ---
 
 <Layout title={title} description={description} canonical={canonicalUrl}>
+  <style is:global>
+    /* SR-THEME: Trust Academic — cream / forest / brass.
+       Per-page override of palette tokens; doesn't affect rest of site. */
+    :root {
+      --color-brand-50:  #ecf2ee;
+      --color-brand-100: #d4e2d8;
+      --color-brand-200: #a9c4b1;
+      --color-brand-300: #7ea689;
+      --color-brand-400: #4d7e5d;
+      --color-brand-500: #2a5a3e;
+      --color-brand-600: #1a3a2e;
+      --color-brand-700: #143025;
+      --color-brand-800: #0e241c;
+      --color-brand-900: #081813;
+      --color-brand-950: #040c0a;
+      --color-surface-50:  #f5f1e8;  /* warmer cream */
+      --color-surface-100: #ebe5d4;
+      --color-surface-200: #ddd4bd;
+      --color-surface-300: #c8bda1;
+      --color-surface-400: #a89d80;
+      --color-surface-500: #6b6354;
+      --color-surface-600: #4a4438;
+      --color-surface-700: #353027;
+      --color-surface-800: #24201a;
+      --color-surface-900: #18150f;
+      --color-surface-950: #0c0a07;
+      /* Brass accent (used as amber/decoration). */
+      --color-accent-500: #b08d3c;
+      --color-accent-400: #c4a559;
+    }
+    html, body { background: #f0eee9; color: #2a251f; }
+    .dark html, .dark body { background: #18150f; color: #f5f1e8; }
+    /* Editorial serif on hero h1 only — Georgia for trust-academic feel. */
+    .sr-trust-h1 {
+      font-family: ui-serif, Georgia, "Times New Roman", serif;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+    }
+    /* Brass dot for status pill. */
+    .sr-trust-pulse { background: #b08d3c !important; }
+    /* Tighter, more editorial body. */
+    .sr-trust-prose p { font-family: ui-serif, Georgia, serif; font-size: 1.05rem; line-height: 1.6; }
+  </style>
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
   <script type="application/ld+json" set:html={JSON.stringify(howToJsonLd)} />
   <script type="application/ld+json" set:html={JSON.stringify(courseJsonLd)} />
@@ -125,12 +168,12 @@ const siblingDurations = Object.keys(exam.durations || {})
         </nav>
 
         <div class="inline-flex items-center gap-2 bg-brand-100/60 dark:bg-brand-900/40 text-brand-700 dark:text-brand-300 text-xs font-semibold px-3 py-1.5 rounded-full mb-4 border border-brand-200/60 dark:border-brand-800/50">
-          <span class="w-1.5 h-1.5 rounded-full bg-brand-500 animate-pulse"></span>
+          <span class="sr-trust-pulse w-1.5 h-1.5 rounded-full bg-brand-500 animate-pulse"></span>
           Updated {new Date().toISOString().slice(0, 10)} · {currentYear} Edition
         </div>
 
-        <h1 class="text-4xl md:text-5xl lg:text-6xl font-black tracking-tight text-surface-900 dark:text-white mb-4 leading-[1.05]">
-          {examName} <span class="bg-gradient-to-r from-brand-600 to-brand-400 bg-clip-text text-transparent">{durationLabel}</span>
+        <h1 class="sr-trust-h1 text-4xl md:text-5xl lg:text-6xl text-surface-900 dark:text-white mb-4 leading-[1.05]">
+          {examName} <span class="italic text-brand-600 dark:text-brand-400">{durationLabel}</span>
         </h1>
         <p class="text-lg md:text-xl text-surface-600 dark:text-surface-300 max-w-3xl mb-6 leading-relaxed">
           A complete <strong class="text-surface-900 dark:text-white">{totalDays}-day</strong> plan covering <strong class="text-surface-900 dark:text-white">{dailyTopics.length} highest-weightage topics</strong> — prioritised by subject weight, not alphabet. No signup, no fees.

@@ -190,16 +190,27 @@ const siblingDurations = Object.keys(exam.durations || {})
     )}
 
     <section class="container-page py-10">
-      <h2 class="text-2xl font-bold text-surface-900 dark:text-white mb-5">Subject-wise topic split</h2>
+      <h2 class="text-2xl font-bold text-surface-900 dark:text-white mb-2">Subject-wise topic split</h2>
+      <p class="text-surface-600 dark:text-surface-400 text-sm mb-5">Each topic shows its weightage (1–5) and the concepts you'll cover. Higher-weight topics appear first.</p>
       <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {Object.entries(bySubject).map(([subject, items]) => (
           <div class="p-4 rounded-lg border border-surface-200 dark:border-surface-700 bg-white dark:bg-surface-900">
-            <h3 class="font-bold text-surface-900 dark:text-white mb-2">{subject}</h3>
-            <ul class="text-sm space-y-1">
+            <h3 class="font-bold text-surface-900 dark:text-white mb-3">{subject}</h3>
+            <ul class="text-sm space-y-3">
               {(items as any[]).slice(0, 8).map((t: any) => (
-                <li class="flex justify-between gap-2"><span>{t.name}</span><span class="text-xs text-surface-500">w{t.weight}</span></li>
+                <li>
+                  <div class="flex items-baseline justify-between gap-2">
+                    <span class="font-medium text-surface-800 dark:text-surface-200">{t.name}</span>
+                    <span class="text-xs font-mono text-surface-500 shrink-0">w{t.weight}</span>
+                  </div>
+                  {t.description && (
+                    <p class="text-xs text-surface-600 dark:text-surface-400 leading-snug mt-1">{t.description}</p>
+                  )}
+                </li>
               ))}
-              {(items as any[]).length > 8 && <li class="text-xs text-surface-500">+ {(items as any[]).length - 8} more…</li>}
+              {(items as any[]).length > 8 && (
+                <li class="text-xs text-surface-500 pt-1 border-t border-surface-100 dark:border-surface-800">+ {(items as any[]).length - 8} more topic{(items as any[]).length - 8 === 1 ? '' : 's'} on the full roadmap</li>
+              )}
             </ul>
           </div>
         ))}

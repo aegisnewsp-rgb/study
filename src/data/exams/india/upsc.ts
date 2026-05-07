@@ -46,7 +46,7 @@ const subjects = [gs1, gs2, essay, optional];
 
 const DURATIONS = ['1h','2h','3h','5h','12h','1d','2d','3d','5d','7d','10d','2w','1mo','2mo','3mo','6mo','1yr','2yr'];
 const DUR_MAP: Record<string, {days: number; desc: string}> = {
-  // SR-DURMAP-V1 — distinct, feasibility-grounded plan summaries.
+  
   '1h':  { days: 1,   desc: '60-minute exam-eve sprint: only the 4 highest-weight topics, formula-card style.' },
   '2h':  { days: 1,   desc: 'Two-hour priority pass — 6 top-weight topics, one quick example each, no theory deep-dive.' },
   '3h':  { days: 1,   desc: 'Three-hour focus block — 9 highest-yield topics, brief concept + 1-2 worked examples per topic.' },

@@ -38,7 +38,7 @@ const exam: ExamTemplate = {
     '6mo': makeRoadmap(subjects, '6mo', 180, 'Study plan for UNEB UACE (Uganda) — 6 Months'),
     '1yr': makeRoadmap(subjects, '1yr', 365, 'Study plan for UNEB UACE (Uganda) — 1 Year'),
     '2yr': makeRoadmap(subjects, '2yr', 730, 'Study plan for UNEB UACE (Uganda) — 2 Years'),
-  },  // SR-BACKFILL-V1,
+  },
   rescueMode: {
     name: 'Rescue Mode',
     description: 'Cramming plan for UNEB UACE (Uganda)',

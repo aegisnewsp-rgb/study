@@ -1,7 +1,7 @@
 ---
 exam: sbi-clerk
 examName: "SBI Clerk"
-subject: awareness
+subject: general-awareness
 subjectName: ('awareness', 'General Awareness')
 topic: genera-003
 topicName: "Currency, Coins, and Financial Inclusion"

@@ -1,7 +1,7 @@
 ---
 exam: ras
 examName: RPSC RAS
-subject: gs2
+subject: indian-polity
 subjectName: Indian Polity
 topic: indian-002
 topicName: Preamble, Fundamental Rights and DPSP

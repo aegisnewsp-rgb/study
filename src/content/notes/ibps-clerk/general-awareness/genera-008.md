@@ -1,7 +1,7 @@
 ---
 exam: ibps-clerk
 examName: IBPS Clerk
-subject: awareness
+subject: general-awareness
 subjectName: ('awareness', 'General Awareness')
 topic: genera-008
 topicName: International Financial Institutions

@@ -1,7 +1,7 @@
 ---
 exam: fpsc-cce
 examName: FPSC CSS (Pakistan)
-subject: gs2
+subject: pakistan-affairs
 subjectName: General Studies
 topic: pakist-002
 topicName: Land and People — Demographics and Society

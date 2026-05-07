@@ -1,7 +1,7 @@
 ---
 exam: bpsc
 examName: BPSC
-subject: gs1
+subject: history
 subjectName: General Studies
 topic: histor-004
 topicName: Coming of the British & Revenue Settlements

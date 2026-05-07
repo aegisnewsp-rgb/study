@@ -1,7 +1,7 @@
 ---
 exam: lsat
 examName: LSAT India
-subject: english
+subject: reading-comp
 subjectName: Reading Comp
 topic: readin-004
 topicName: Structure Questions

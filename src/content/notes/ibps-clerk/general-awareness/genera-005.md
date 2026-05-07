@@ -1,7 +1,7 @@
 ---
 exam: ibps-clerk
 examName: IBPS Clerk
-subject: awareness
+subject: general-awareness
 subjectName: General Awareness
 topic: genera-005
 topicName: Government Banking Schemes

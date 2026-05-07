@@ -1,7 +1,7 @@
 ---
 exam: putme
 examName: Post-UTME (Nigeria)
-subject: quantitative-techniques
+subject: subject-combination
 subjectName: Subject Combination
 topic: subjec-008
 topicName: Topic 8

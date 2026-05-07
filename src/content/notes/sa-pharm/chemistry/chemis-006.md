@@ -1,7 +1,7 @@
 ---
 exam: sa-pharm
 examName: SAPC (South Africa)
-subject: organic-chemistry
+subject: chemistry
 subjectName: Organic Chemistry
 topic: chemis-006
 topicName: Nucleophilic Substitution Reactions — SN1 and SN2

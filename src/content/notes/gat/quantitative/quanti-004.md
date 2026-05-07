@@ -1,7 +1,7 @@
 ---
 exam: gat
 examName: GAT Pakistan
-subject: quantitative-techniques
+subject: quantitative
 subjectName: ('quantitative-techniques', 'Quantitative Techniques')
 topic: quanti-004
 topicName: Topic 4

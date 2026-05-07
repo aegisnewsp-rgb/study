@@ -1,7 +1,7 @@
 ---
 exam: bpsc
 examName: BPSC
-subject: gs2
+subject: indian-polity
 subjectName: Indian Polity
 topic: indian-001
 topicName: Making of the Indian Constitution

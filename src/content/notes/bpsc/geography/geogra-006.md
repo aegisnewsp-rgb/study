@@ -1,7 +1,7 @@
 ---
 exam: bpsc
 examName: BPSC
-subject: gs1
+subject: geography
 subjectName: General Studies
 topic: geogra-006
 topicName: Topic 6

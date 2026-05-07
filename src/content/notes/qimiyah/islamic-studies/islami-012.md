@@ -1,7 +1,7 @@
 ---
 exam: qimiyah
 examName: Qimiyah Exam (Saudi)
-subject: gs2
+subject: islamic-studies
 subjectName: General Studies
 topic: islami-012
 topicName: Sirah of the Prophet (Prophetic Biography)

@@ -1,7 +1,7 @@
 ---
 exam: sbi-po
 examName: SBI PO
-subject: awareness
+subject: general-awareness
 subjectName: ('awareness', 'General Awareness')
 topic: genera-010
 topicName: "General Awareness — Topic 10"

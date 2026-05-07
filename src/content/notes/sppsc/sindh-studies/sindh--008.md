@@ -1,7 +1,7 @@
 ---
 exam: sppsc
 examName: SPSC (Sindh)
-subject: gs2
+subject: sindh-studies
 subjectName: Sindh Studies
 topic: sindh--008
 topicName: Notable Personalities of Sindh

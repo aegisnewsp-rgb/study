@@ -1,7 +1,7 @@
 ---
 exam: sa-pharm
 examName: SAPC (South Africa)
-subject: legal-reasoning
+subject: business-law
 subjectName: Business Law
 topic: busine-001
 topicName: Introduction to Law & Legal System of South Africa

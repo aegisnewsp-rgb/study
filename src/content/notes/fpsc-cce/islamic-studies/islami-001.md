@@ -1,7 +1,7 @@
 ---
 exam: fpsc-cce
 examName: FPSC CSS (Pakistan)
-subject: gs2
+subject: islamic-studies
 subjectName: General Studies
 topic: islami-001
 topicName: Concept of Tauheed and Islamic Aqaid

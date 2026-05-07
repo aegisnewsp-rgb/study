@@ -1,7 +1,7 @@
 ---
 exam: lsat
 examName: LSAT India
-subject: logical-reasoning
+subject: analytical-reasoning
 subjectName: Analytical Reasoning
 topic: analyt-006
 topicName: Topic 6

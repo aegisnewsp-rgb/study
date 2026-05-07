@@ -1,7 +1,7 @@
 ---
 exam: al-exam
 examName: A/L Examination (Sri Lanka)
-subject: botany
+subject: science-stream
 subjectName: Science Stream
 topic: scienc-009
 topicName: Topic 9

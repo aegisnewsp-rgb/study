@@ -1,7 +1,7 @@
 ---
 exam: tnpsc
 examName: TNPSC Group 1
-subject: gs1
+subject: history
 subjectName: General Studies
 topic: histor-001
 topicName: Topic 1

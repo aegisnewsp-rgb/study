@@ -1,7 +1,7 @@
 ---
 exam: uptet
 examName: UPTET
-subject: gs1
+subject: social
 subjectName: Social
 topic: social-008
 topicName: Topic 8

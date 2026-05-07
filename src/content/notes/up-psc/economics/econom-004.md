@@ -1,7 +1,7 @@
 ---
 exam: up-psc
 examName: UPPSC PCS
-subject: quant
+subject: economics
 subjectName: Quantitative Aptitude
 topic: econom-004
 topicName: Consumer Behaviour

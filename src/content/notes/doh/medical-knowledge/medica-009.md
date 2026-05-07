@@ -1,7 +1,7 @@
 ---
 exam: doh
 examName: DOH (UAE)
-subject: botany
+subject: medical-knowledge
 subjectName: Medical Knowledge
 topic: medica-009
 topicName: Infectious Diseases

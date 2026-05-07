@@ -1,7 +1,7 @@
 ---
 exam: accagl
 examName: ACCA/CA Pakistan
-subject: accounting
+subject: financial-report
 subjectName: Financial Accounting
 topic: financ-007
 topicName: "Non-Current Assets & Impairment"

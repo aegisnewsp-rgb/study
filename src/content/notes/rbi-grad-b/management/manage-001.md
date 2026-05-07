@@ -1,7 +1,7 @@
 ---
 exam: rbi-grad-b
 examName: "RBI Grade B"
-subject: quant
+subject: management
 subjectName: "Management"
 topic: manage-001
 topicName: "Topic 1"

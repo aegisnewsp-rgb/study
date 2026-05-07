@@ -1,7 +1,7 @@
 ---
 exam: nmat
 examName: NMAT (Philippines)
-subject: english
+subject: verbal
 subjectName: Verbal
 topic: verbal-001
 topicName: Parts of Speech and Sentence Structure

@@ -1,7 +1,7 @@
 ---
 exam: ctet
 examName: CTET
-subject: botany
+subject: science
 subjectName: Science
 topic: scienc-008
 topicName: Natural Resources and Environment

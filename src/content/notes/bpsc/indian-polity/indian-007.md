@@ -1,7 +1,7 @@
 ---
 exam: bpsc
 examName: BPSC
-subject: gs2
+subject: indian-polity
 subjectName: Indian Polity
 topic: indian-007
 topicName: Supreme Court and Judicial Review

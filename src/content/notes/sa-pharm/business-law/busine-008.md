@@ -1,7 +1,7 @@
 ---
 exam: sa-pharm
 examName: SAPC (South Africa)
-subject: legal-reasoning
+subject: business-law
 subjectName: Business Law
 topic: busine-008
 topicName: Medicines & Related Substances Act (Act 101 of 1965)

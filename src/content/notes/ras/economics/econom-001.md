@@ -1,7 +1,7 @@
 ---
 exam: ras
 examName: RPSC RAS
-subject: quant
+subject: economics
 subjectName: Quantitative Aptitude
 topic: econom-001
 topicName: Introduction to Economics

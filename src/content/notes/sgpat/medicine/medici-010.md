@@ -1,7 +1,7 @@
 ---
 exam: sgpat
 examName: Saudi GP Board
-subject: botany
+subject: medicine
 subjectName: Medicine
 topic: medici-010
 topicName: Topic 10

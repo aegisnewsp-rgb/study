@@ -1,7 +1,7 @@
 ---
 exam: neet-pg
 examName: NEET PG
-subject: botany
+subject: anatomy
 subjectName: Botany
 topic: anatom-008
 topicName: Topic 8

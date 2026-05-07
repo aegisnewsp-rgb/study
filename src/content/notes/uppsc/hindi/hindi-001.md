@@ -1,7 +1,7 @@
 ---
 exam: uppsc
 examName: UPPSC RO/ARO
-subject: english
+subject: hindi
 subjectName: Hindi
 topic: hindi-001
 topicName: "हिंदी व्याकरण: वर्ण और ध्वनि (Hindi Grammar: Letters and Sounds)"

@@ -1,7 +1,7 @@
 ---
 exam: nmat
 examName: NMAT (Philippines)
-subject: english
+subject: verbal
 subjectName: Verbal
 topic: verbal-003
 topicName: Subject-Verb Agreement

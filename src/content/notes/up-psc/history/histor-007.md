@@ -1,7 +1,7 @@
 ---
 exam: up-psc
 examName: UPPSC PCS
-subject: gs1
+subject: history
 subjectName: General Studies
 topic: histor-007
 topicName: Medieval India - Sultanate Period

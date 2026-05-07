@@ -1,7 +1,7 @@
 ---
 exam: ctet
 examName: CTET
-subject: gs1
+subject: child-pedagogy
 subjectName: General Studies
 topic: child--004
 topicName: Kohlberg's Theory of Moral Development

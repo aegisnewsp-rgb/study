@@ -1,7 +1,7 @@
 ---
 exam: up-psc
 examName: UPPSC PCS
-subject: awareness
+subject: general-science
 subjectName: General Awareness
 topic: genera-004
 topicName: Indian Economy & Union Budget

@@ -1,7 +1,7 @@
 ---
 exam: bpsc
 examName: BPSC
-subject: gs1
+subject: history
 subjectName: General Studies
 topic: histor-005
 topicName: 1857 Revolt & Early Nationalist Movement

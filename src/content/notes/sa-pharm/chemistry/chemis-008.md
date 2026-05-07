@@ -1,7 +1,7 @@
 ---
 exam: sa-pharm
 examName: SAPC (South Africa)
-subject: organic-chemistry
+subject: chemistry
 subjectName: Organic Chemistry
 topic: chemis-008
 topicName: Aldehydes, Ketones, and Carbonyl Group Chemistry

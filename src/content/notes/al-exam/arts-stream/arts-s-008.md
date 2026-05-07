@@ -1,7 +1,7 @@
 ---
 exam: al-exam
 examName: A/L Examination (Sri Lanka)
-subject: english
+subject: arts-stream
 subjectName: Arts Stream
 topic: arts-s-008
 topicName: Drama and Theatrical Elements

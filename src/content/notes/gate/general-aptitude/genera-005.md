@@ -1,7 +1,7 @@
 ---
 exam: gate
 examName: "GATE"
-subject: quant
+subject: general-aptitude
 subjectName: "General Aptitude"
 topic: genera-005
 topicName: "Topic 5"

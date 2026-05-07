@@ -1,7 +1,7 @@
 ---
 exam: up-psc
 examName: UPPSC PCS
-subject: gs2
+subject: indian-polity
 subjectName: Indian Polity
 topic: indian-001
 topicName: Preamble and Salient Features of Constitution

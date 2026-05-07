@@ -1,7 +1,7 @@
 ---
 exam: wassce
 examName: WASSCE (Ghana)
-subject: quant
+subject: economics
 subjectName: Quantitative Aptitude
 topic: econom-007
 topicName: Market Structures

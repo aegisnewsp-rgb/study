@@ -1,7 +1,7 @@
 ---
 exam: ras
 examName: RPSC RAS
-subject: gs1
+subject: geography
 subjectName: General Studies
 topic: geogra-003
 topicName: Drainage System of Rajasthan

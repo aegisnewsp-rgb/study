@@ -1,7 +1,7 @@
 ---
 exam: uptet
 examName: UPTET
-subject: gs1
+subject: child-pedagogy
 subjectName: Child Pedagogy
 topic: child--008
 topicName: Guidance and Counselling

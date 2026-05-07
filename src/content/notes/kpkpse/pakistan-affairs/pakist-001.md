@@ -1,7 +1,7 @@
 ---
 exam: kpkpse
 examName: KPK PMS
-subject: gs2
+subject: pakistan-affairs
 subjectName: General Studies
 topic: pakist-001
 topicName: Topic 1

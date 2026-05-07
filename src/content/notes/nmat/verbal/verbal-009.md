@@ -1,7 +1,7 @@
 ---
 exam: nmat
 examName: NMAT (Philippines)
-subject: english
+subject: verbal
 subjectName: Verbal
 topic: verbal-009
 topicName: Logical Reasoning in Verbal

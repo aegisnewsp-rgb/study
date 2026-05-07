@@ -1,7 +1,7 @@
 ---
 exam: fpsc-cce
 examName: FPSC CSS (Pakistan)
-subject: awareness
+subject: general-science
 subjectName: General Awareness
 topic: genera-007
 topicName: Contemporary Issues and Pakistan's Challenges

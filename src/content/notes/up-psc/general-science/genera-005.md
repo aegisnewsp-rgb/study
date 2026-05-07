@@ -1,7 +1,7 @@
 ---
 exam: up-psc
 examName: UPPSC PCS
-subject: awareness
+subject: general-science
 subjectName: General Awareness
 topic: genera-005
 topicName: General Awareness - Current Events & Issues

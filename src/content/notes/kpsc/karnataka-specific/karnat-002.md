@@ -1,7 +1,7 @@
 ---
 exam: kpsc
 examName: KPSC KAS
-subject: gs2
+subject: karnataka-specific
 subjectName: Karnataka Specific
 topic: karnat-002
 topicName: History and Cultural Heritage of Karnataka

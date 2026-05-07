@@ -1,7 +1,7 @@
 ---
 exam: accagl
 examName: ACCA/CA Pakistan
-subject: accounting
+subject: audit
 subjectName: Financial Accounting
 topic: audit-003
 topicName: "Risk Assessment & Audit Evidence"

@@ -1,7 +1,7 @@
 ---
 exam: fpsc-cce
 examName: FPSC CSS (Pakistan)
-subject: gs2
+subject: islamic-studies
 subjectName: General Studies
 topic: islami-006
 topicName: Muslim Spain (Andalusia) and Umayyad Caliphate

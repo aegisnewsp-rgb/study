@@ -1,7 +1,7 @@
 ---
 exam: ras
 examName: RPSC RAS
-subject: gs1
+subject: geography
 subjectName: General Studies
 topic: geogra-002
 topicName: Climate of Rajasthan

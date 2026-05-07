@@ -1,7 +1,7 @@
 ---
 exam: rbi-grad-b
 examName: "RBI Grade B"
-subject: quant
+subject: economics
 subjectName: "Economics"
 topic: econom-006
 topicName: "Cost Theory"

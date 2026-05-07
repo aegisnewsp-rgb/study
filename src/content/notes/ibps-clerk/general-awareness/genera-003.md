@@ -1,7 +1,7 @@
 ---
 exam: ibps-clerk
 examName: IBPS Clerk
-subject: awareness
+subject: general-awareness
 subjectName: ('awareness', 'General Awareness')
 topic: genera-003
 topicName: Banking Products and Services

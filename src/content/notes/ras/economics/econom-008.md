@@ -1,7 +1,7 @@
 ---
 exam: ras
 examName: RPSC RAS
-subject: quant
+subject: economics
 subjectName: Quantitative Aptitude
 topic: econom-008
 topicName: Factor Markets

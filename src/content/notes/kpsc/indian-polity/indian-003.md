@@ -1,7 +1,7 @@
 ---
 exam: kpsc
 examName: KPSC KAS
-subject: gs2
+subject: indian-polity
 subjectName: Indian Polity
 topic: indian-003
 topicName: Fundamental Rights (Articles 12-35)

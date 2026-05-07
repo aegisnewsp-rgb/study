@@ -1,7 +1,7 @@
 ---
 exam: kpsc
 examName: KPSC KAS
-subject: gs2
+subject: karnataka-specific
 subjectName: Karnataka Specific
 topic: karnat-003
 topicName: Administration and Political Developments in Karnataka

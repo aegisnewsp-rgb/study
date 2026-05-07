@@ -1,7 +1,7 @@
 ---
 exam: muet
 examName: MUET (Malaysia)
-subject: english
+subject: writing
 subjectName: Writing
 topic: writin-008
 topicName: Topic 8

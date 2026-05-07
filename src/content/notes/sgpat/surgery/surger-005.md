@@ -1,7 +1,7 @@
 ---
 exam: sgpat
 examName: Saudi GP Board
-subject: botany
+subject: surgery
 subjectName: Surgery
 topic: surger-005
 topicName: Topic 5

@@ -1,7 +1,7 @@
 ---
 exam: neet-pg
 examName: NEET PG
-subject: botany
+subject: microbiology
 subjectName: Botany
 topic: microb-001
 topicName: Topic 1

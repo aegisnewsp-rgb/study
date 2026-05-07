@@ -1,7 +1,7 @@
 ---
 exam: doh
 examName: DOH (UAE)
-subject: botany
+subject: medical-knowledge
 subjectName: Medical Knowledge
 topic: medica-014
 topicName: Wound Care and Tissue Viability

@@ -1,7 +1,7 @@
 ---
 exam: ctet
 examName: CTET
-subject: gs1
+subject: social
 subjectName: Social
 topic: social-006
 topicName: Modern Indian History and Freedom Struggle

@@ -1,7 +1,7 @@
 ---
 exam: bpsc
 examName: BPSC
-subject: gs2
+subject: indian-polity
 subjectName: Indian Polity
 topic: indian-009
 topicName: Federal System and Centre-State Relations

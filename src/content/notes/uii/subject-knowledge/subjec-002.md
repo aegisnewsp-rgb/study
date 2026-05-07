@@ -1,7 +1,7 @@
 ---
 exam: uii
 examName: UI Entrance (Indonesia)
-subject: quant
+subject: subject-knowledge
 subjectName: Subject Knowledge
 topic: subjec-002
 topicName: Algebraic Expressions & Simple Equations

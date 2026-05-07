@@ -1,7 +1,7 @@
 ---
 exam: uptet
 examName: UPTET
-subject: botany
+subject: science
 subjectName: Science
 topic: scienc-002
 topicName: "Matter: Classification and Physical Changes"

@@ -1,7 +1,7 @@
 ---
 exam: sa-pharm
 examName: SAPC (South Africa)
-subject: organic-chemistry
+subject: chemistry
 subjectName: Organic Chemistry
 topic: chemis-009
 topicName: Carboxylic Acids, Acid Derivatives, and Claisen Condensation

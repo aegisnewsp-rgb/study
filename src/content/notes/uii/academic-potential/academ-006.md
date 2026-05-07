@@ -1,7 +1,7 @@
 ---
 exam: uii
 examName: UI Entrance (Indonesia)
-subject: quant
+subject: academic-potential
 subjectName: Academic Potential
 topic: academ-006
 topicName: Basic Algebra and Equations

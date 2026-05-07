@@ -1,7 +1,7 @@
 ---
 exam: tnpsc
 examName: TNPSC Group 1
-subject: quant
+subject: economics
 subjectName: Quantitative Aptitude
 topic: econom-002
 topicName: Demand and Supply

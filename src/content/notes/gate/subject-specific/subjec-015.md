@@ -1,7 +1,7 @@
 ---
 exam: gate
 examName: "GATE"
-subject: quant
+subject: subject-specific
 subjectName: "Subject Specific"
 topic: subjec-015
 topicName: "Topic 15"

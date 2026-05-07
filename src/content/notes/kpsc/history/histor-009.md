@@ -1,7 +1,7 @@
 ---
 exam: kpsc
 examName: KPSC KAS
-subject: gs1
+subject: history
 subjectName: General Studies
 topic: histor-009
 topicName: "Contemporary India: Issues and Challenges"

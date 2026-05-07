@@ -1,7 +1,7 @@
 ---
 exam: qimiyah
 examName: Qimiyah Exam (Saudi)
-subject: english
+subject: arabic
 subjectName: Arabic
 topic: arabic-006
 topicName: Topic 6

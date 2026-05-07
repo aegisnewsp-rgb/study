@@ -1,7 +1,7 @@
 ---
 exam: ppsc
 examName: PPSC (Pakistan)
-subject: gs2
+subject: pakistan-affairs
 subjectName: General Studies
 topic: pakist-002
 topicName: History of Pakistan — Pre-Independence to 1971

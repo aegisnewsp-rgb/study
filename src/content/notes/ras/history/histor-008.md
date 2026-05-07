@@ -1,7 +1,7 @@
 ---
 exam: ras
 examName: RPSC RAS
-subject: gs1
+subject: history
 subjectName: General Studies
 topic: histor-008
 topicName: Maratha Empire and Confederacy

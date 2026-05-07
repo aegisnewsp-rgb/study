@@ -1,7 +1,7 @@
 ---
 exam: tnpsc
 examName: TNPSC Group 1
-subject: gs1
+subject: geography
 subjectName: General Studies
 topic: geogra-003
 topicName: Topic 3

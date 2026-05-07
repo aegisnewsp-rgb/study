@@ -1,7 +1,7 @@
 ---
 exam: fmge
 examName: FMGE
-subject: botany
+subject: pathology
 subjectName: Botany
 topic: pathol-002
 topicName: Inflammation and Repair

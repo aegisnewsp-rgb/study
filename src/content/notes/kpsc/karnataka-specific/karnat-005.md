@@ -1,7 +1,7 @@
 ---
 exam: kpsc
 examName: KPSC KAS
-subject: gs2
+subject: karnataka-specific
 subjectName: Karnataka Specific
 topic: karnat-005
 topicName: Topic 5

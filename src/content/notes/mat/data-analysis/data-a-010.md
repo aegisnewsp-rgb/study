@@ -1,7 +1,7 @@
 ---
 exam: mat
 examName: MAT
-subject: dilr
+subject: data-analysis
 subjectName: Data Analysis
 topic: data-a-010
 topicName: Mixed Data Sets & Data Integration

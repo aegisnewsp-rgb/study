@@ -1,7 +1,7 @@
 ---
 exam: neet-pg
 examName: NEET PG
-subject: botany
+subject: anatomy
 subjectName: Botany
 topic: anatom-004
 topicName: Topic 4

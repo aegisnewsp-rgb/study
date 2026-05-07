@@ -1,7 +1,7 @@
 ---
 exam: fmge
 examName: FMGE
-subject: botany
+subject: physiology
 subjectName: Botany
 topic: physio-004
 topicName: Topic 4

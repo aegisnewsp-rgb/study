@@ -1,7 +1,7 @@
 ---
 exam: sbi-po
 examName: "SBI PO"
-subject: awareness
+subject: general-awareness
 subjectName: ('awareness', 'General Awareness')
 topic: genera-002
 topicName: "RBI's Monetary Policy Framework"

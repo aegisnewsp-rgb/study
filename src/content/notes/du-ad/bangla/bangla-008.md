@@ -1,7 +1,7 @@
 ---
 exam: du-ad
 examName: DU Admission (Bangladesh)
-subject: english
+subject: bangla
 subjectName: Bangla
 topic: bangla-008
 topicName: Modern Bengali Literature and Drama

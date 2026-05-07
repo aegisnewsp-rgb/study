@@ -1,7 +1,7 @@
 ---
 exam: up-psc
 examName: UPPSC PCS
-subject: gs1
+subject: history
 subjectName: General Studies
 topic: histor-010
 topicName: Post-Independence India (1947–2000)

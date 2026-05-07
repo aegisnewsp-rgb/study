@@ -1,7 +1,7 @@
 ---
 exam: uptet
 examName: "UPTET"
-subject: gs1
+subject: social
 subjectName: "Social Studies"
 topic: social-002
 topicName: "Indian Constitution: Preamble and Fundamental Rights"

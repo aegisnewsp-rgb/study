@@ -1,7 +1,7 @@
 ---
 exam: accagl
 examName: ACCA/CA Pakistan
-subject: accounting
+subject: financial-report
 subjectName: Financial Accounting
 topic: financ-002
 topicName: "Income Statement & Statement of Comprehensive Income"

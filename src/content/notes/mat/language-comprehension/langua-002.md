@@ -1,7 +1,7 @@
 ---
 exam: mat
 examName: MAT
-subject: varc
+subject: language-comprehension
 subjectName: Language Comprehension
 topic: langua-002
 topicName: Main Idea & Theme Questions

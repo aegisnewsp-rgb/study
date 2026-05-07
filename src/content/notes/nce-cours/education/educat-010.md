@@ -1,7 +1,7 @@
 ---
 exam: nce-cours
 examName: NCE (Nigeria)
-subject: quant
+subject: education
 subjectName: Education
 topic: educat-010
 topicName: Topic 10

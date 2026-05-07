@@ -1,7 +1,7 @@
 ---
 exam: cma
 examName: CMA Foundation
-subject: legal-reasoning
+subject: business-law
 subjectName: Business Laws
 topic: busine-008
 topicName: Sale of Goods Act and Partnership Act

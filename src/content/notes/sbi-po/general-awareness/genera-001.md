@@ -1,7 +1,7 @@
 ---
 exam: sbi-po
 examName: "SBI PO"
-subject: awareness
+subject: general-awareness
 subjectName: ('awareness', 'General Awareness')
 topic: genera-001
 topicName: "Indian Banking System and Regulatory Framework"

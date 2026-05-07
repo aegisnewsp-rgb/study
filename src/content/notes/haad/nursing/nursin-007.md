@@ -1,7 +1,7 @@
 ---
 exam: haad
 examName: HAAD (UAE)
-subject: botany
+subject: nursing
 subjectName: Botany
 topic: nursin-007
 topicName: Topic 7

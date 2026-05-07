@@ -1,7 +1,7 @@
 ---
 exam: uptet
 examName: UPTET
-subject: gs1
+subject: child-pedagogy
 subjectName: Child Pedagogy
 topic: child--005
 topicName: Principles of Learning — Motivation, Attention, Retention & Reinforcement

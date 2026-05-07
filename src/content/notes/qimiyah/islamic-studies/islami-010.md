@@ -1,7 +1,7 @@
 ---
 exam: qimiyah
 examName: Qimiyah Exam (Saudi)
-subject: gs2
+subject: islamic-studies
 subjectName: General Studies
 topic: islami-010
 topicName: Hajj (Pilgrimage)

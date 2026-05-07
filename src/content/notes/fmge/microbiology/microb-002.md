@@ -1,7 +1,7 @@
 ---
 exam: fmge
 examName: FMGE
-subject: botany
+subject: microbiology
 subjectName: Microbiology
 topic: microb-002
 topicName: Topic 2

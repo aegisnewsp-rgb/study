@@ -1,7 +1,7 @@
 ---
 exam: doh
 examName: DOH (UAE)
-subject: botany
+subject: medical-knowledge
 subjectName: Medical Knowledge
 topic: medica-004
 topicName: Anatomy and Physiological Systems

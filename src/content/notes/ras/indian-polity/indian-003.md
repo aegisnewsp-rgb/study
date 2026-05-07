@@ -1,7 +1,7 @@
 ---
 exam: ras
 examName: RPSC RAS
-subject: gs2
+subject: indian-polity
 subjectName: Indian Polity
 topic: indian-003
 topicName: Union States Federalism and Emergency Provisions

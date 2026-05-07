@@ -1,7 +1,7 @@
 ---
 exam: haad
 examName: HAAD (UAE)
-subject: organic-chemistry
+subject: chemistry
 subjectName: ('chemistry', 'Chemistry')
 topic: chemis-005
 topicName: Topic 5

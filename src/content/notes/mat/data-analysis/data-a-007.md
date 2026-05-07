@@ -1,7 +1,7 @@
 ---
 exam: mat
 examName: MAT (Management Aptitude Test)
-subject: dilr
+subject: data-analysis
 subjectName: Data Interpretation & Logical Reasoning
 topic: data-a-007
 topicName: Data Sufficiency Problems

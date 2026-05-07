@@ -1,7 +1,7 @@
 ---
 exam: uptet
 examName: "UPTET"
-subject: botany
+subject: science
 subjectName: "Science"
 topic: scienc-004
 topicName: "Electricity and Magnetism"

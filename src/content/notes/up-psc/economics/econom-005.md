@@ -2,7 +2,7 @@
 exam: up-psc
 examName: UPPSC PCS
 lastUpdated: "2026-04-13"
-subject: quant
+subject: economics
 subjectName: Quantitative Aptitude
 topic: econom-005
 topicName: Theory of Production

@@ -1,7 +1,7 @@
 ---
 exam: kenyatta-ku
 examName: Kenyatta University (Kenya)
-subject: organic-chemistry
+subject: chemistry
 subjectName: ('chemistry', 'Chemistry')
 topic: chemis-012
 topicName: Topic 12

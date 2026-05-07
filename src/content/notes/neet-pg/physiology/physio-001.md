@@ -1,7 +1,7 @@
 ---
 exam: neet-pg
 examName: NEET PG
-subject: botany
+subject: physiology
 subjectName: Physiology
 topic: physio-001
 topicName: General Physiology and Cell Biology

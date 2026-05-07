@@ -1,7 +1,7 @@
 ---
 exam: fpsc-cce
 examName: FPSC CSS (Pakistan)
-subject: gs2
+subject: islamic-studies
 subjectName: General Studies
 topic: islami-003
 topicName: Sources of Islamic Law (Quran and Hadith)

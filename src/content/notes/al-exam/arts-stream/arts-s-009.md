@@ -1,7 +1,7 @@
 ---
 exam: al-exam
 examName: A/L Examination (Sri Lanka)
-subject: english
+subject: arts-stream
 subjectName: Arts Stream
 topic: arts-s-009
 topicName: Essay Writing and Composition Skills

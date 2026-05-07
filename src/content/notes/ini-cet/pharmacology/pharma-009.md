@@ -1,7 +1,7 @@
 ---
 exam: ini-cet
 examName: INI CET (AIIMS PG)
-subject: botany
+subject: pharmacology
 subjectName: Botany
 topic: pharma-009
 topicName: Topic 9

@@ -1,7 +1,7 @@
 ---
 exam: ppsc
 examName: PPSC (Pakistan)
-subject: gs2
+subject: pakistan-affairs
 subjectName: General Studies
 topic: pakist-008
 topicName: Topic 8

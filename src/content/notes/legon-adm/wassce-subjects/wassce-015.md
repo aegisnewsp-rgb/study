@@ -1,7 +1,7 @@
 ---
 exam: legon-adm
 examName: Legon Admissions (Ghana)
-subject: quant
+subject: wassce-subjects
 subjectName: Wassce Subjects
 topic: wassce-015
 topicName: Statistics and Probability

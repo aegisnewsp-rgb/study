@@ -1,7 +1,7 @@
 ---
 exam: u-pcat
 examName: UPCAT (Philippines)
-subject: botany
+subject: science
 subjectName: Science
 topic: scienc-004
 topicName: Topic 4

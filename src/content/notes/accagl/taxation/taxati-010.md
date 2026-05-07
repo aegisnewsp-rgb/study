@@ -1,7 +1,7 @@
 ---
 exam: accagl
 examName: ACCA/CA Pakistan
-subject: accounting
+subject: taxation
 subjectName: Financial Accounting
 topic: taxati-010
 topicName: Tax Planning & Minimisation

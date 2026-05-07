@@ -1,7 +1,7 @@
 ---
 exam: u-pcat
 examName: UPCAT (Philippines)
-subject: english
+subject: filipino
 subjectName: Filipino
 topic: filipi-007
 topicName: Topic 7

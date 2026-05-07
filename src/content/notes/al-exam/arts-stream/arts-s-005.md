@@ -1,7 +1,7 @@
 ---
 exam: al-exam
 examName: A/L Examination (Sri Lanka)
-subject: english
+subject: arts-stream
 subjectName: Arts Stream
 topic: arts-s-005
 topicName: English Grammar and Language Structures

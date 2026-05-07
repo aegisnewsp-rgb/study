@@ -1,7 +1,7 @@
 ---
 exam: ras
 examName: RPSC RAS
-subject: gs1
+subject: history
 subjectName: General Studies
 topic: histor-009
 topicName: Rise of British Power and the Rebellion of 1857

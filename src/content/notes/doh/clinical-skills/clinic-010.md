@@ -1,7 +1,7 @@
 ---
 exam: doh
 examName: DOH (UAE)
-subject: botany
+subject: clinical-skills
 subjectName: Clinical Skills
 topic: clinic-010
 topicName: NG Tube Insertion and Enteral Nutrition

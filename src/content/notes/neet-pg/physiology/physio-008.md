@@ -1,7 +1,7 @@
 ---
 exam: neet-pg
 examName: NEET PG
-subject: botany
+subject: physiology
 subjectName: Physiology
 topic: physio-008
 topicName: Endocrine Physiology

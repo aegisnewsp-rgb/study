@@ -1,7 +1,7 @@
 ---
 exam: mat
 examName: MAT
-subject: quant
+subject: mathematical-skills
 subjectName: Mathematical Skills
 topic: mathem-010
 topicName: HCF, LCM, Average, Age Problems & Chain Rule

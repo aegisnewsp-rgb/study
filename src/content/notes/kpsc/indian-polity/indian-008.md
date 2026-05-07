@@ -1,7 +1,7 @@
 ---
 exam: kpsc
 examName: KPSC KAS
-subject: gs2
+subject: indian-polity
 subjectName: Indian Polity
 topic: indian-008
 topicName: Parliament and State Legislatures

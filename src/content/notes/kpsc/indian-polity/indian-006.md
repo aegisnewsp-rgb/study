@@ -1,7 +1,7 @@
 ---
 exam: kpsc
 examName: KPSC KAS
-subject: gs2
+subject: indian-polity
 subjectName: Indian Polity
 topic: indian-006
 topicName: Preamble, Fundamental Rights, and DPSP

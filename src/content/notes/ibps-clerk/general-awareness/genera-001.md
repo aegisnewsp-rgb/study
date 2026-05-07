@@ -1,7 +1,7 @@
 ---
 exam: ibps-clerk
 examName: IBPS Clerk
-subject: awareness
+subject: general-awareness
 subjectName: ('awareness', 'General Awareness')
 topic: genera-001
 topicName: Indian Banking System and Structure

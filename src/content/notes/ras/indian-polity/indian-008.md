@@ -1,7 +1,7 @@
 ---
 exam: ras
 examName: RPSC RAS
-subject: gs2
+subject: indian-polity
 subjectName: Indian Polity
 topic: indian-008
 topicName: State Governments Governor Chief Minister Council of Ministers

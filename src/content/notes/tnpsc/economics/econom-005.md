@@ -1,7 +1,7 @@
 ---
 exam: tnpsc
 examName: TNPSC Group 1
-subject: quant
+subject: economics
 subjectName: Quantitative Aptitude
 topic: econom-005
 topicName: Theory of Production

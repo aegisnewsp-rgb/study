@@ -1,7 +1,7 @@
 ---
 exam: utbk
 examName: UTBK/SNPMTN (Indonesia)
-subject: organic-chemistry
+subject: chemistry
 subjectName: ('chemistry', 'Chemistry')
 topic: chemis-006
 topicName: Topic 6

@@ -1,7 +1,7 @@
 ---
 exam: ras
 examName: RPSC RAS
-subject: gs2
+subject: indian-polity
 subjectName: Indian Polity
 topic: indian-007
 topicName: High Courts Subordinate Courts Judicial Review Basic Structure

@@ -1,7 +1,7 @@
 ---
 exam: uaeu-cat
 examName: UAE University CAT
-subject: botany
+subject: science
 subjectName: Science
 topic: scienc-003
 topicName: Topic 3

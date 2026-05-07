@@ -1,7 +1,7 @@
 ---
 exam: legon-adm
 examName: Legon Admissions (Ghana)
-subject: quant
+subject: wassce-subjects
 subjectName: Wassce Subjects
 topic: wassce-011
 topicName: Topic 11

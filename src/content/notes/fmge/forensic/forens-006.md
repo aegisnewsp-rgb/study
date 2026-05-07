@@ -1,7 +1,7 @@
 ---
 exam: fmge
 examName: FMGE
-subject: botany
+subject: forensic
 subjectName: Botany
 topic: forens-006
 topicName: Topic 6

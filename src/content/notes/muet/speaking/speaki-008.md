@@ -1,7 +1,7 @@
 ---
 exam: muet
 examName: MUET (Malaysia)
-subject: english
+subject: speaking
 subjectName: Speaking
 topic: speaki-008
 topicName: Topic 8

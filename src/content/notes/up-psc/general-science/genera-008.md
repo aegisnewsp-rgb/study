@@ -1,7 +1,7 @@
 ---
 exam: up-psc
 examName: UPPSC PCS
-subject: awareness
+subject: general-science
 subjectName: General Awareness
 topic: genera-008
 topicName: Indian Heritage & CulturalDiversities

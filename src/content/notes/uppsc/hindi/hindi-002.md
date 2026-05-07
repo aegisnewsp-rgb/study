@@ -1,7 +1,7 @@
 ---
 exam: uppsc
 examName: UPPSC RO/ARO
-subject: english
+subject: hindi
 subjectName: Hindi
 topic: hindi-002
 topicName: Hindi Grammar and Composition

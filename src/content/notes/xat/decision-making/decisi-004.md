@@ -1,7 +1,7 @@
 ---
 exam: xat
 examName: XAT
-subject: logical-reasoning
+subject: decision-making
 subjectName: Decision Making
 topic: decisi-004
 topicName: Human Resource Decisions

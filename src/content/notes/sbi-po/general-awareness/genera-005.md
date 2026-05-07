@@ -1,7 +1,7 @@
 ---
 exam: sbi-po
 examName: "SBI PO"
-subject: awareness
+subject: general-awareness
 subjectName: ('awareness', 'General Awareness')
 topic: genera-005
 topicName: "Indian Economy — Growth and Development"

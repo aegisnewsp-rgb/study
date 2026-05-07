@@ -1,7 +1,7 @@
 ---
 exam: kpkpse
 examName: KPK PMS
-subject: gs2
+subject: pakistan-affairs
 subjectName: General Studies
 topic: pakist-006
 topicName: Constitution of Pakistan

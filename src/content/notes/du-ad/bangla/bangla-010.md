@@ -1,7 +1,7 @@
 ---
 exam: du-ad
 examName: DU Admission (Bangladesh)
-subject: english
+subject: bangla
 subjectName: Bangla
 topic: bangla-010
 topicName: Bengali Grammar and Language

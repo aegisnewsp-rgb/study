@@ -1,7 +1,7 @@
 ---
 exam: lsat
 examName: LSAT India
-subject: english
+subject: reading-comp
 subjectName: Reading Comp
 topic: readin-008
 topicName: Must Be True & Cannot Be True Questions

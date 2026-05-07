@@ -1,7 +1,7 @@
 ---
 exam: accagl
 examName: ACCA/CA Pakistan
-subject: accounting
+subject: audit
 subjectName: Financial Accounting
 topic: audit-001
 topicName: "Audit Framework, Regulations & Professional Ethics"

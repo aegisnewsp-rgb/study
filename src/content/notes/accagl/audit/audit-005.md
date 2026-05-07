@@ -1,7 +1,7 @@
 ---
 exam: accagl
 examName: ACCA/CA Pakistan
-subject: accounting
+subject: audit
 subjectName: Financial Accounting
 topic: audit-005
 topicName: "Internal Controls Systems"

@@ -1,7 +1,7 @@
 ---
 exam: muet
 examName: MUET (Malaysia)
-subject: english
+subject: reading
 subjectName: Reading
 topic: readin-003
 topicName: Topic 3

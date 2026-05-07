@@ -1,7 +1,7 @@
 ---
 exam: kpkpse
 examName: KPK PMS
-subject: gs2
+subject: islamic-studies
 subjectName: General Studies
 topic: islami-001
 topicName: Topic 1

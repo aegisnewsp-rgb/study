@@ -1,7 +1,7 @@
 ---
 exam: kpsc
 examName: KPSC KAS
-subject: gs1
+subject: history
 subjectName: General Studies
 topic: histor-010
 topicName: India in World Affairs

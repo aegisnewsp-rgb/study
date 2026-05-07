@@ -1,7 +1,7 @@
 ---
 exam: ini-cet
 examName: INI CET (AIIMS PG)
-subject: botany
+subject: pathology
 subjectName: Botany
 topic: pathol-010
 topicName: Nutritional Diseases

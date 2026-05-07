@@ -1,7 +1,7 @@
 ---
 exam: uptet
 examName: UPTET
-subject: gs1
+subject: child-pedagogy
 subjectName: General Studies
 topic: child--002
 topicName: Topic 2

@@ -1,7 +1,7 @@
 ---
 exam: rbi-grad-b
 examName: "RBI Grade B"
-subject: quant
+subject: economics
 subjectName: "Economics"
 topic: econom-009
 topicName: "National Income"

@@ -1,7 +1,7 @@
 ---
 exam: doh
 examName: DOH (UAE)
-subject: botany
+subject: clinical-skills
 subjectName: Clinical Skills
 topic: clinic-001
 topicName: Vital Signs and Patient Assessment

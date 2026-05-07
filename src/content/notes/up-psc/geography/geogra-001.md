@@ -1,7 +1,7 @@
 ---
 exam: up-psc
 examName: UPPSC PCS
-subject: gs1
+subject: geography
 subjectName: General Studies
 topic: geogra-001
 topicName: Physical Geography of India

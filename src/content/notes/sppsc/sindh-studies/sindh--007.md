@@ -1,7 +1,7 @@
 ---
 exam: sppsc
 examName: SPSC (Sindh)
-subject: gs2
+subject: sindh-studies
 subjectName: Sindh Studies
 topic: sindh--007
 topicName: Political Movements in Sindh

@@ -1,7 +1,7 @@
 ---
 exam: undana
 examName: UNDANA Admission (Indonesia)
-subject: botany
+subject: science
 subjectName: Science
 topic: scienc-001
 topicName: Topic 1

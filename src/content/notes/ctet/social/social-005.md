@@ -1,7 +1,7 @@
 ---
 exam: ctet
 examName: CTET
-subject: gs1
+subject: social
 subjectName: Social
 topic: social-005
 topicName: Medieval Indian History

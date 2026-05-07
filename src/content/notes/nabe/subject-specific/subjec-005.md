@@ -1,7 +1,7 @@
 ---
 exam: nabe
 examName: NABE (Pakistan)
-subject: quant
+subject: subject-specific
 subjectName: Subject Specific
 topic: subjec-005
 topicName: Topic 5

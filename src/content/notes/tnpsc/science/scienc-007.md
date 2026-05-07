@@ -1,7 +1,7 @@
 ---
 exam: tnpsc
 examName: TNPSC Group 1
-subject: botany
+subject: science
 subjectName: Science
 topic: scienc-007
 topicName: Topic 7

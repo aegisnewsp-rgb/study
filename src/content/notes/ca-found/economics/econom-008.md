@@ -1,7 +1,7 @@
 ---
 exam: ca-found
 examName: CA Foundation
-subject: quant
+subject: economics
 subjectName: Quantitative Aptitude
 topic: econom-008
 topicName: Factor Markets

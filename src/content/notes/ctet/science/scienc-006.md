@@ -1,7 +1,7 @@
 ---
 exam: ctet
 examName: CTET
-subject: botany
+subject: science
 subjectName: Science
 topic: scienc-006
 topicName: Matter, Motion, and Force

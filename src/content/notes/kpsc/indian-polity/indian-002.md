@@ -1,7 +1,7 @@
 ---
 exam: kpsc
 examName: KPSC KAS
-subject: gs2
+subject: indian-polity
 subjectName: Indian Polity
 topic: indian-002
 topicName: "The Making of the Indian Constitution"

@@ -1,7 +1,7 @@
 ---
 exam: rbi-grad-b
 examName: "RBI Grade B"
-subject: quant
+subject: economics
 subjectName: "Economics"
 topic: econom-011
 topicName: "Inflation: Types, Causes, and RBI's Anti-Inflationary Policy"

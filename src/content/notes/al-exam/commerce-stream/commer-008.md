@@ -1,7 +1,7 @@
 ---
 exam: al-exam
 examName: A/L Examination (Sri Lanka)
-subject: quant
+subject: commerce-stream
 subjectName: Commerce Stream
 topic: commer-008
 topicName: "Microeconomics: Theory of the Firm"

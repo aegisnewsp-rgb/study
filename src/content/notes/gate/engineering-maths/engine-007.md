@@ -1,7 +1,7 @@
 ---
 exam: gate
 examName: "GATE"
-subject: mathematics
+subject: engineering-maths
 subjectName: "Engineering Maths"
 topic: engine-007
 topicName: "Topic 7"

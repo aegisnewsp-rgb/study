@@ -1,7 +1,7 @@
 ---
 exam: al-exam
 examName: A/L Examination (Sri Lanka)
-subject: quant
+subject: commerce-stream
 subjectName: Commerce Stream
 topic: commer-001
 topicName: Financial Accounting Fundamentals

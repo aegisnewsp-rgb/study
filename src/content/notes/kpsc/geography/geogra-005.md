@@ -1,7 +1,7 @@
 ---
 exam: kpsc
 examName: KPSC KAS
-subject: gs1
+subject: geography
 subjectName: General Studies
 topic: geogra-005
 topicName: Natural Vegetation of India

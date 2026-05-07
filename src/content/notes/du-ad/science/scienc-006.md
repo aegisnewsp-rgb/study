@@ -1,7 +1,7 @@
 ---
 exam: du-ad
 examName: DU Admission (Bangladesh)
-subject: botany
+subject: science
 subjectName: Science
 topic: scienc-006
 topicName: Topic 6

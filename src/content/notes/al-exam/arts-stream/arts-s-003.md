@@ -1,7 +1,7 @@
 ---
 exam: al-exam
 examName: A/L Examination (Sri Lanka)
-subject: english
+subject: arts-stream
 subjectName: Arts Stream
 topic: arts-s-003
 topicName: 17th Century Literature & Romantic Revival

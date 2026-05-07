@@ -1,7 +1,7 @@
 ---
 exam: ican
 examName: ICAN (Nigeria)
-subject: quant
+subject: economics
 subjectName: Quantitative Aptitude
 topic: econom-001
 topicName: Introduction to Economics

@@ -1,0 +1,104 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Navbar from '../../components/Navbar.astro';
+import Footer from '../../components/Footer.astro';
+
+const SITE_URL = 'https://studyroadmap.in';
+const year = new Date().getUTCFullYear();
+
+const STREAMS = [
+  { id: 'engineering',     label: 'Engineering',         icon: '⚙️', desc: 'JEE Main, JEE Advanced, BITSAT, VITEEE, GATE — every engineering entrance exam.' },
+  { id: 'medicine',        label: 'Medicine',            icon: '🩺', desc: 'NEET UG, AIIMS MBBS, MDCAT (Pakistan), UTME — medical and dental entrances.' },
+  { id: 'civil-services',  label: 'Civil Services',      icon: '🏛️', desc: 'UPSC CSE, state PSCs, SSC CGL — the full civil-services ladder.' },
+  { id: 'law',             label: 'Law',                 icon: '⚖️', desc: 'CLAT, AILET, LSAT India — law entrance exams for undergraduate admission.' },
+  { id: 'management',      label: 'Management',          icon: '📊', desc: 'CAT, XAT, SNAP, CMAT, GMAT — MBA and PGDM entrance exams.' },
+  { id: 'commerce',        label: 'Commerce',            icon: '💼', desc: 'CUET UG, IPMAT, CA-Foundation, CS, CMA — commerce-stream exams.' },
+  { id: 'arts-humanities', label: 'Arts & Humanities',   icon: '🎨', desc: 'CUET humanities, UCEED, NIFT, NID — arts and design entrances.' },
+  { id: 'defence',         label: 'Defence',             icon: '🪖', desc: 'NDA, CDS, AFCAT — entrance path to Indian Defence services.' },
+];
+
+const title = `Exams After 12th ${year} — Career Stream Guide`;
+const description = `Choose the right competitive exam after 12th. ${STREAMS.length} career streams: engineering, medical, law, defence, civil services, management, commerce, arts. Eligibility, difficulty, free study plans.`;
+const canonicalUrl = `${SITE_URL}/after-12th/`;
+
+const breadcrumbJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: SITE_URL },
+    { '@type': 'ListItem', position: 2, name: 'After 12th', item: canonicalUrl },
+  ],
+};
+
+const itemList = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: 'Career streams after 12th',
+  numberOfItems: STREAMS.length,
+  itemListElement: STREAMS.map((s, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    name: `${s.label} exams after 12th`,
+    url: `${SITE_URL}/after-12th/${s.id}/`,
+    description: s.desc,
+  })),
+};
+
+const faqs = [
+  { q: 'Which exam should I take after 12th?', a: 'It depends on your stream and career goal. Pick a career stream below — each page lists the entrance exams ranked by accessibility (eligibility, attempts, difficulty) along with the colleges they unlock.' },
+  { q: 'Can I take multiple competitive exams in the same year?', a: 'Yes — engineering and medical streams share strong subject overlap (Physics, Chemistry), and several students prepare for JEE Main + BITSAT, or NEET + AIIMS MBBS, in parallel. See our /compare/ pages for syllabus overlap.' },
+  { q: 'Is there a single exam for multiple streams?', a: 'CUET UG is the closest — it gates admission to most central universities across humanities, commerce, sciences and BSc programmes. For specialised streams (engineering, medicine, law, defence) you still need stream-specific entrance exams.' },
+  { q: 'When should I start preparing?', a: 'Most students start by Class 11 for engineering and medical entrances. For UPSC CSE you can start in graduation. CLAT, CAT and CUET typically need 6–12 months of focused prep.' },
+];
+const faqJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+};
+---
+<Layout title={title} description={description} image="/og-image.jpg">
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
+  <script type="application/ld+json" set:html={JSON.stringify(itemList)} />
+  <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
+  <Navbar />
+  <main class="max-w-6xl mx-auto px-4 py-10">
+    <nav class="text-sm text-gray-500 mb-4"><a href="/">Home</a> &rsaquo; <span>After 12th</span></nav>
+    <h1 class="text-4xl font-bold mb-4">Exams After 12th {year}</h1>
+    <p class="text-lg text-gray-700 mb-8">{description}</p>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4 mb-12">
+      {STREAMS.map(s => (
+        <a href={`/after-12th/${s.id}/`} class="block bg-white border rounded-lg p-5 hover:shadow-md hover:border-blue-300 transition">
+          <div class="text-3xl mb-2">{s.icon}</div>
+          <h2 class="font-semibold text-lg mb-1">{s.label}</h2>
+          <p class="text-sm text-gray-600">{s.desc}</p>
+          <div class="mt-3 text-blue-600 text-sm font-medium">Explore exams &rarr;</div>
+        </a>
+      ))}
+    </div>
+
+    <section class="bg-blue-50 rounded-lg p-6 mb-10">
+      <h2 class="text-xl font-semibold mb-3">How to pick the right exam</h2>
+      <ol class="list-decimal pl-6 space-y-1 text-gray-700 text-sm">
+        <li>Identify your stream (PCM / PCB / Commerce / Arts).</li>
+        <li>List the colleges or careers you actually want.</li>
+        <li>Check which entrance exam each target accepts.</li>
+        <li>Compare difficulty + attempt limits + age cap.</li>
+        <li>Generate a free study roadmap to see if the timeline works.</li>
+      </ol>
+    </section>
+
+    <section class="mt-8 border-t pt-8">
+      <h2 class="text-2xl font-semibold mb-4">Frequently asked</h2>
+      <div class="space-y-4">
+        {faqs.map(f => (
+          <details class="bg-gray-50 rounded p-4">
+            <summary class="font-medium cursor-pointer">{f.q}</summary>
+            <p class="mt-2 text-gray-700 text-sm">{f.a}</p>
+          </details>
+        ))}
+      </div>
+    </section>
+  </main>
+  <Footer />
+</Layout>

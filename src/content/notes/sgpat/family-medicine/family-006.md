@@ -1,7 +1,7 @@
 ---
 exam: sgpat
 examName: Saudi GP Board
-subject: botany
+subject: family-medicine
 subjectName: Family Medicine
 topic: family-006
 topicName: Topic 6

@@ -1,7 +1,7 @@
 ---
 exam: ibps-po
 examName: IBPS PO
-subject: awareness
+subject: general-awareness
 subjectName: ('awareness', 'General Awareness')
 topic: genera-004
 topicName: Topic 4

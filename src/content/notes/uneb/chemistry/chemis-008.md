@@ -1,7 +1,7 @@
 ---
 exam: uneb
 examName: UNEB UACE (Uganda)
-subject: organic-chemistry
+subject: chemistry
 subjectName: ('chemistry', 'Chemistry')
 topic: chemis-008
 topicName: Topic 8

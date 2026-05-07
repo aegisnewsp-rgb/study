@@ -1,7 +1,7 @@
 ---
 exam: cma
 examName: CMA Foundation
-subject: legal-reasoning
+subject: business-law
 subjectName: Business Laws
 topic: busine-001
 topicName: The Indian Contract Act, 1872

@@ -1,7 +1,7 @@
 ---
 exam: cma
 examName: CMA Foundation
-subject: quant
+subject: economics
 subjectName: Quantitative Aptitude
 topic: econom-009
 topicName: National Income

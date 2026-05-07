@@ -1,7 +1,7 @@
 ---
 exam: makerere-ent
 examName: Makerere University (Uganda)
-subject: organic-chemistry
+subject: chemistry
 subjectName: ('chemistry', 'Chemistry')
 topic: chemis-009
 topicName: Topic 9

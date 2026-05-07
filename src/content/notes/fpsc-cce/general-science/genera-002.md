@@ -1,7 +1,7 @@
 ---
 exam: fpsc-cce
 examName: FPSC CSS (Pakistan)
-subject: awareness
+subject: general-science
 subjectName: General Awareness
 topic: genera-002
 topicName: History of Pakistan Movement (1857-1947)

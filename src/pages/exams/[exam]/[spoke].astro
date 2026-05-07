@@ -25,27 +25,27 @@ const examName = exam.examName || exam.examId;
 const SPOKE_META: Record<string, { h1: (n: string) => string; title: (n: string) => string; desc: (n: string) => string }> = {
   dates: {
     h1:    n => `${n} ${year} Exam Dates: Notification, Application, Admit Card & Result`,
-    title: n => `${n} ${year} Exam Dates: Notification, Admit Card & Result | StudyRoadmap™`,
+    title: n => `${n} ${year} Exam Dates — Notification & Admit Card`,
     desc:  n => `Full ${n} ${year} calendar — official notification date, application window, admit card release, exam dates, answer key and result schedule. Sourced from the official board only.`,
   },
   eligibility: {
     h1:    n => `${n} ${year} Eligibility: Age, Qualification, Nationality & Attempt Limits`,
-    title: n => `${n} ${year} Eligibility Criteria: Age, Qualification, Attempts | StudyRoadmap™`,
+    title: n => `${n} ${year} Eligibility — Age, Qualification, Attempts`,
     desc:  n => `${n} ${year} eligibility explained — minimum age, maximum age, educational qualification, nationality rules, attempt limits, reservation categories. Based on the latest official notification.`,
   },
   syllabus: {
     h1:    n => `${n} ${year} Syllabus: Subjects, Topics & Weightage`,
-    title: n => `${n} ${year} Syllabus: Subjects, Topics & Topic-Wise Weightage | StudyRoadmap™`,
+    title: n => `${n} ${year} Syllabus — Subjects, Topics, Weightage`,
     desc:  n => `Complete ${n} ${year} syllabus — every subject, every topic, weightage derived from last 5 years of papers. Build a study plan prioritised by what actually appears.`,
   },
   pattern: {
     h1:    n => `${n} ${year} Exam Pattern: Questions, Marks, Duration & Negative Marking`,
-    title: n => `${n} ${year} Exam Pattern: Structure, Marks, Timing | StudyRoadmap™`,
+    title: n => `${n} ${year} Exam Pattern — Structure, Marks, Timing`,
     desc:  n => `${n} ${year} exam pattern — number of questions, marks per question, duration, negative marking scheme, section-wise split, and tips to maximise your score within the time limit.`,
   },
   strategy: {
     h1:    n => `${n} ${year} Preparation Strategy: A Day-by-Day Plan`,
-    title: n => `${n} ${year} Preparation Strategy: Day-by-Day Free Plan | StudyRoadmap™`,
+    title: n => `${n} ${year} Strategy — Day-by-Day Free Plan`,
     desc:  n => `${n} ${year} preparation strategy — how to plan the syllabus, what to revise weekly, when to start mock tests, and a free AI-generated day-by-day plan for your exact remaining time.`,
   },
 };

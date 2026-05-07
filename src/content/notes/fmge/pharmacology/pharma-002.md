@@ -1,7 +1,7 @@
 ---
 exam: fmge
 examName: FMGE
-subject: botany
+subject: pharmacology
 subjectName: Botany
 topic: pharma-002
 topicName: Topic 2

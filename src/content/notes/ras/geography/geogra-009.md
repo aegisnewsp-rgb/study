@@ -1,7 +1,7 @@
 ---
 exam: ras
 examName: RPSC RAS
-subject: gs1
+subject: geography
 subjectName: General Studies
 topic: geogra-009
 topicName: Animal Husbandry in Rajasthan

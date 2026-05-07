@@ -1,7 +1,7 @@
 ---
 exam: accagl
 examName: ACCA/CA Pakistan
-subject: accounting
+subject: audit
 subjectName: Financial Accounting
 topic: audit-006
 topicName: "Audit of Specific Financial Statement Areas"

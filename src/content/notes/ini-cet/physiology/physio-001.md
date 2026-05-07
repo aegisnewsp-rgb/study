@@ -1,7 +1,7 @@
 ---
 exam: ini-cet
 examName: INI CET (AIIMS PG)
-subject: botany
+subject: physiology
 subjectName: Physiology
 topic: physio-001
 topicName: General Physiology & Cell

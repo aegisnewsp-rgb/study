@@ -1,7 +1,7 @@
 ---
 exam: sppsc
 examName: SPSC (Sindh)
-subject: gs2
+subject: sindh-studies
 subjectName: Sindh Studies
 topic: sindh--004
 topicName: Indus Valley Civilization

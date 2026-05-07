@@ -1,7 +1,7 @@
 ---
 exam: rbi-grad-b
 examName: "RBI Grade B"
-subject: quant
+subject: finance
 subjectName: "Finance"
 topic: financ-010
 topicName: "Topic 10"

@@ -1,7 +1,7 @@
 ---
 exam: ctet
 examName: CTET
-subject: gs1
+subject: child-pedagogy
 subjectName: General Studies
 topic: child--007
 topicName: Theories of Learning (Continued)

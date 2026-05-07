@@ -1,7 +1,7 @@
 ---
 exam: ras
 examName: RPSC RAS
-subject: gs2
+subject: indian-polity
 subjectName: Indian Polity
 topic: indian-010
 topicName: Amendment Power Article 368 Runj Formula Basic Structure CAG FC

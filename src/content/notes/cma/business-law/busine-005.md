@@ -1,7 +1,7 @@
 ---
 exam: cma
 examName: CMA Foundation
-subject: legal-reasoning
+subject: business-law
 subjectName: Business Laws
 topic: busine-005
 topicName: The Companies Act, 2013

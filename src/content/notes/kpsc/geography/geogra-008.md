@@ -1,7 +1,7 @@
 ---
 exam: kpsc
 examName: KPSC KAS
-subject: gs1
+subject: geography
 subjectName: General Studies
 topic: geogra-008
 topicName: Industries and Manufacturing

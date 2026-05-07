@@ -1,7 +1,7 @@
 ---
 exam: utbk
 examName: UTBK/SNPMTN (Indonesia)
-subject: english
+subject: indonesian
 subjectName: Indonesian
 topic: indone-004
 topicName: Topic 4

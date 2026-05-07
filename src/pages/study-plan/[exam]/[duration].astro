@@ -113,53 +113,93 @@ const siblingDurations = Object.keys(exam.durations || {})
   <Navbar />
   <main id="main-content" class="flex-1">
 
-    <section class="bg-gradient-to-b from-surface-50 to-white dark:from-surface-950 dark:to-surface-900 border-b border-surface-200 dark:border-surface-800">
-      <div class="container-page py-10 sm:py-14">
-        <nav class="text-sm text-surface-500 dark:text-surface-400 mb-4 flex flex-wrap gap-2 items-center">
-          <a href="/" class="hover:text-brand-600">Home</a><span>›</span>
-          <a href="/exams/" class="hover:text-brand-600">Exams</a><span>›</span>
-          <a href={`/exams/${exam.examId}/`} class="hover:text-brand-600">{flag} {examName}</a><span>›</span>
-          <span class="text-surface-900 dark:text-surface-100">{durationLabel}</span>
+    <section class="relative overflow-hidden bg-gradient-to-br from-brand-50 via-white to-surface-50 dark:from-brand-950/30 dark:via-surface-950 dark:to-surface-900 border-b border-surface-200 dark:border-surface-800">
+      {/* Decorative blurred orb */}
+      <div aria-hidden="true" class="absolute -top-32 -right-32 w-96 h-96 rounded-full bg-brand-500/10 dark:bg-brand-400/10 blur-3xl pointer-events-none"></div>
+      <div class="container-page py-12 sm:py-16 relative">
+        <nav class="text-sm text-surface-500 dark:text-surface-400 mb-5 flex flex-wrap gap-2 items-center">
+          <a href="/" class="hover:text-brand-600">Home</a><span class="text-surface-300 dark:text-surface-700">/</span>
+          <a href="/exams/" class="hover:text-brand-600">Exams</a><span class="text-surface-300 dark:text-surface-700">/</span>
+          <a href={`/exams/${exam.examId}/`} class="hover:text-brand-600">{flag} {examName}</a><span class="text-surface-300 dark:text-surface-700">/</span>
+          <span class="text-surface-900 dark:text-surface-100 font-medium">{durationLabel}</span>
         </nav>
-        <h1 class="text-3xl md:text-4xl font-black text-surface-900 dark:text-white mb-3">
-          {examName} {durationLabel}: Free {totalDays}-Day Study Plan {currentYear}
+
+        <div class="inline-flex items-center gap-2 bg-brand-100/60 dark:bg-brand-900/40 text-brand-700 dark:text-brand-300 text-xs font-semibold px-3 py-1.5 rounded-full mb-4 border border-brand-200/60 dark:border-brand-800/50">
+          <span class="w-1.5 h-1.5 rounded-full bg-brand-500 animate-pulse"></span>
+          Updated {new Date().toISOString().slice(0, 10)} · {currentYear} Edition
+        </div>
+
+        <h1 class="text-4xl md:text-5xl lg:text-6xl font-black tracking-tight text-surface-900 dark:text-white mb-4 leading-[1.05]">
+          {examName} <span class="bg-gradient-to-r from-brand-600 to-brand-400 bg-clip-text text-transparent">{durationLabel}</span>
         </h1>
-        <p class="text-lg text-surface-600 dark:text-surface-300 max-w-3xl mb-6">
-          A complete <strong>{totalDays}-day</strong> study plan covering {dailyTopics.length} highest-weightage topics for {examName}.
-          Prioritised by subject weight, not alphabet. No signup, no fees, works offline once loaded.
+        <p class="text-lg md:text-xl text-surface-600 dark:text-surface-300 max-w-3xl mb-6 leading-relaxed">
+          A complete <strong class="text-surface-900 dark:text-white">{totalDays}-day</strong> plan covering <strong class="text-surface-900 dark:text-white">{dailyTopics.length} highest-weightage topics</strong> — prioritised by subject weight, not alphabet. No signup, no fees.
         </p>
 
-        <blockquote class="border-l-4 border-brand-500 bg-brand-50 dark:bg-brand-900/10 text-sm text-surface-700 dark:text-surface-200 p-4 rounded max-w-3xl">
-          <strong>Reviewed by</strong>: StudyRoadmap Editorial Team ·
-          <strong>Last verified</strong>: {new Date().toISOString().slice(0, 10)} ·
-          <strong>Methodology</strong>: Topic weightage derived from last 5 years of official {examName} papers; plan optimised by total time × topic difficulty.
-        </blockquote>
+        {/* Quick-stat strip */}
+        <dl class="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-7 max-w-3xl">
+          <div class="bg-white/80 dark:bg-surface-900/80 backdrop-blur rounded-xl p-3 border border-surface-200/60 dark:border-surface-700/60">
+            <dt class="text-[10px] uppercase tracking-widest text-surface-500 font-semibold">Days</dt>
+            <dd class="text-2xl font-bold text-surface-900 dark:text-white mt-0.5">{totalDays}</dd>
+          </div>
+          <div class="bg-white/80 dark:bg-surface-900/80 backdrop-blur rounded-xl p-3 border border-surface-200/60 dark:border-surface-700/60">
+            <dt class="text-[10px] uppercase tracking-widest text-surface-500 font-semibold">Topics</dt>
+            <dd class="text-2xl font-bold text-surface-900 dark:text-white mt-0.5">{dailyTopics.length}</dd>
+          </div>
+          <div class="bg-white/80 dark:bg-surface-900/80 backdrop-blur rounded-xl p-3 border border-surface-200/60 dark:border-surface-700/60">
+            <dt class="text-[10px] uppercase tracking-widest text-surface-500 font-semibold">Subjects</dt>
+            <dd class="text-2xl font-bold text-surface-900 dark:text-white mt-0.5">{Object.keys(bySubject).length}</dd>
+          </div>
+          <div class="bg-white/80 dark:bg-surface-900/80 backdrop-blur rounded-xl p-3 border border-surface-200/60 dark:border-surface-700/60">
+            <dt class="text-[10px] uppercase tracking-widest text-surface-500 font-semibold">{phases.length > 0 ? 'Phases' : 'Cost'}</dt>
+            <dd class="text-2xl font-bold text-surface-900 dark:text-white mt-0.5">{phases.length > 0 ? phases.length : 'Free'}</dd>
+          </div>
+        </dl>
 
-        <div class="flex flex-wrap gap-3 mt-6">
-          <a href={`${SITE_URL}/roadmap?exam=${exam.examId}&duration=${durationKey}`} class="inline-flex items-center gap-2 bg-brand-600 hover:bg-brand-700 text-white font-bold px-6 py-3 rounded-xl">Generate My Personalised Plan →</a>
-          <a href={`/exams/${exam.examId}/`} class="inline-flex items-center gap-2 bg-surface-100 dark:bg-surface-800 text-surface-700 dark:text-surface-200 font-semibold px-6 py-3 rounded-xl border border-surface-200 dark:border-surface-700">Back to {examName} Overview</a>
+        <div class="flex flex-wrap gap-3">
+          <a href={`${SITE_URL}/roadmap?exam=${exam.examId}&duration=${durationKey}`} class="group inline-flex items-center gap-2 bg-gradient-to-r from-brand-600 to-brand-500 hover:from-brand-700 hover:to-brand-600 text-white font-bold px-6 py-3 rounded-xl shadow-lg shadow-brand-500/20 hover:shadow-xl hover:shadow-brand-500/30 transition-all">
+            Generate My Personalised Plan
+            <span class="transition-transform group-hover:translate-x-0.5">→</span>
+          </a>
+          <a href={`/exams/${exam.examId}/`} class="inline-flex items-center gap-2 bg-white dark:bg-surface-800 text-surface-700 dark:text-surface-200 font-semibold px-6 py-3 rounded-xl border border-surface-200 dark:border-surface-700 hover:border-brand-300 dark:hover:border-brand-700 transition-colors">
+            ← {examName} Overview
+          </a>
         </div>
       </div>
     </section>
 
     {phases.length > 0 && (
-      <section class="container-page py-10">
-        <h2 class="text-2xl font-bold text-surface-900 dark:text-white mb-2">Phase-by-phase plan</h2>
-        <p class="text-surface-600 dark:text-surface-400 text-sm mb-5">A {totalDays}-day plan only works when you sequence it. Here is how the {durationLabel} breaks down.</p>
-        <div class="grid gap-4">
-          {phases.map((p, i) => (
-            <div class="rounded-lg border border-surface-200 dark:border-surface-700 bg-white dark:bg-surface-900 p-5">
-              <div class="flex items-baseline justify-between gap-3 flex-wrap">
-                <h3 class="text-lg font-bold text-surface-900 dark:text-white">Phase {i + 1}: {p.name}</h3>
-                <span class="text-xs font-mono px-2 py-1 rounded bg-brand-50 dark:bg-brand-900/30 text-brand-700 dark:text-brand-300">{p.weeks} {p.weeks === 1 ? 'week' : 'weeks'}</span>
-              </div>
-              <p class="text-sm text-surface-700 dark:text-surface-300 mt-2"><strong>Focus:</strong> {p.focus}</p>
-              <ul class="text-sm text-surface-700 dark:text-surface-300 mt-3 space-y-1">
-                {p.deliverables.map((d) => (<li class="flex gap-2"><span class="text-brand-600">▸</span><span>{d}</span></li>))}
-              </ul>
-            </div>
-          ))}
+      <section class="container-page py-12">
+        <div class="flex items-baseline justify-between gap-4 flex-wrap mb-2">
+          <h2 class="text-3xl font-bold text-surface-900 dark:text-white">Phase-by-phase plan</h2>
+          <span class="text-xs font-mono text-surface-500">{phases.reduce((s, p) => s + p.weeks, 0)} weeks total</span>
         </div>
+        <p class="text-surface-600 dark:text-surface-400 mb-8 max-w-2xl">A {totalDays}-day plan only works when you sequence it. Here is how the {durationLabel} breaks down — foundation, depth, then mocks.</p>
+
+        <ol class="relative border-l-2 border-dashed border-brand-300 dark:border-brand-700/60 ml-3 space-y-6">
+          {phases.map((p, i) => (
+            <li class="relative pl-7">
+              <span class="absolute -left-[13px] top-2 flex items-center justify-center w-6 h-6 rounded-full bg-gradient-to-br from-brand-600 to-brand-400 text-white text-xs font-bold shadow-md shadow-brand-500/30 ring-4 ring-white dark:ring-surface-950">{i + 1}</span>
+              <div class="rounded-2xl border border-surface-200 dark:border-surface-700 bg-white dark:bg-surface-900 p-6 hover:border-brand-300 dark:hover:border-brand-700 transition-colors">
+                <div class="flex items-baseline justify-between gap-3 flex-wrap mb-2">
+                  <h3 class="text-xl font-bold text-surface-900 dark:text-white">{p.name}</h3>
+                  <span class="text-xs font-semibold px-2.5 py-1 rounded-full bg-brand-50 dark:bg-brand-900/40 text-brand-700 dark:text-brand-300 border border-brand-100 dark:border-brand-800">
+                    {p.weeks} {p.weeks === 1 ? 'week' : 'weeks'}
+                  </span>
+                </div>
+                <p class="text-sm text-surface-700 dark:text-surface-300 mb-4 leading-relaxed">{p.focus}</p>
+                <div class="grid sm:grid-cols-3 gap-2">
+                  {p.deliverables.map((d) => (
+                    <div class="flex gap-2 items-start text-xs text-surface-700 dark:text-surface-300 bg-surface-50 dark:bg-surface-800/60 rounded-lg p-2.5">
+                      <svg class="w-3.5 h-3.5 mt-0.5 text-brand-500 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+                      <span>{d}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </li>
+          ))}
+        </ol>
       </section>
     )}
 
@@ -189,29 +229,36 @@ const siblingDurations = Object.keys(exam.durations || {})
       </section>
     )}
 
-    <section class="container-page py-10">
-      <h2 class="text-2xl font-bold text-surface-900 dark:text-white mb-2">Subject-wise topic split</h2>
-      <p class="text-surface-600 dark:text-surface-400 text-sm mb-5">Each topic shows its weightage (1–5) and the concepts you'll cover. Higher-weight topics appear first.</p>
-      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-        {Object.entries(bySubject).map(([subject, items]) => (
-          <div class="p-4 rounded-lg border border-surface-200 dark:border-surface-700 bg-white dark:bg-surface-900">
-            <h3 class="font-bold text-surface-900 dark:text-white mb-3">{subject}</h3>
-            <ul class="text-sm space-y-3">
-              {(items as any[]).slice(0, 8).map((t: any) => (
-                <li>
-                  <div class="flex items-baseline justify-between gap-2">
-                    <span class="font-medium text-surface-800 dark:text-surface-200">{t.name}</span>
-                    <span class="text-xs font-mono text-surface-500 shrink-0">w{t.weight}</span>
-                  </div>
-                  {t.description && (
-                    <p class="text-xs text-surface-600 dark:text-surface-400 leading-snug mt-1">{t.description}</p>
-                  )}
-                </li>
-              ))}
-              {(items as any[]).length > 8 && (
-                <li class="text-xs text-surface-500 pt-1 border-t border-surface-100 dark:border-surface-800">+ {(items as any[]).length - 8} more topic{(items as any[]).length - 8 === 1 ? '' : 's'} on the full roadmap</li>
-              )}
-            </ul>
+    <section class="container-page py-12">
+      <h2 class="text-3xl font-bold text-surface-900 dark:text-white mb-2">Subject-wise topic split</h2>
+      <p class="text-surface-600 dark:text-surface-400 mb-8 max-w-2xl">Each topic shows its weightage (1–5 dots) and the concepts you'll cover. Higher-weight topics appear first.</p>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+        {Object.entries(bySubject).map(([subject, items], si) => (
+          <div class="rounded-2xl border border-surface-200 dark:border-surface-700 bg-white dark:bg-surface-900 overflow-hidden hover:shadow-md transition-shadow">
+            {/* Color-coded header strip */}
+            <div class={`h-1 bg-gradient-to-r ${['from-blue-500 to-cyan-400','from-emerald-500 to-teal-400','from-amber-500 to-orange-400','from-violet-500 to-fuchsia-400','from-rose-500 to-pink-400','from-indigo-500 to-blue-400'][si % 6]}`}></div>
+            <div class="p-5">
+              <div class="flex items-baseline justify-between mb-4">
+                <h3 class="font-bold text-surface-900 dark:text-white">{subject}</h3>
+                <span class="text-xs font-mono text-surface-500">{(items as any[]).length} topic{(items as any[]).length === 1 ? '' : 's'}</span>
+              </div>
+              <ul class="text-sm space-y-3.5">
+                {(items as any[]).slice(0, 8).map((t: any) => (
+                  <li class="group">
+                    <div class="flex items-baseline justify-between gap-3">
+                      <span class="font-semibold text-surface-800 dark:text-surface-200">{t.name}</span>
+                      <span class="text-[10px] font-mono text-amber-500 shrink-0 tracking-tighter" aria-label={`weight ${t.weight} of 5`}>{'●'.repeat(Math.max(0, Math.min(5, t.weight || 0)))}{'○'.repeat(Math.max(0, 5 - Math.min(5, t.weight || 0)))}</span>
+                    </div>
+                    {t.description && (
+                      <p class="text-xs text-surface-600 dark:text-surface-400 leading-relaxed mt-1.5">{t.description}</p>
+                    )}
+                  </li>
+                ))}
+                {(items as any[]).length > 8 && (
+                  <li class="text-xs text-surface-500 pt-2 border-t border-surface-100 dark:border-surface-800">+ {(items as any[]).length - 8} more topic{(items as any[]).length - 8 === 1 ? '' : 's'} on the full roadmap →</li>
+                )}
+              </ul>
+            </div>
           </div>
         ))}
       </div>

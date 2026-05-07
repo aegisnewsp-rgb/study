@@ -14,29 +14,61 @@ const subjects: Subject[] = [
     economics,
 ];
 
+function makeRoadmap(subjects: Subject[], durationKey: string, totalDays: number, description: string): RoadmapTemplate {
+  // SR-FEASIBILITY-V1 — feasibility-aware topic selection.
+  // Per-duration coverage and per-day load assume realistic study budgets:
+  //   short plans (<= 12h): 30-45 min/topic, single pass, weight-sorted
+  //   day-scale (1d-2w):    rapid first pass, partial → full coverage
+  //   month+:               full coverage; longer plans get more revision
+  // Subjects are round-robin interleaved so day-1 isn't all one subject.
+  const allTopics: DailyTopicItem[] = [];
+  for (const s of subjects) {
+    for (const t of s.topics) allTopics.push({ ...t, subject: s.name });
+  }
+  const totalTopics = allTopics.length;
 
-function makeRoadmap(subjects: Subject[], duration: string, totalDays: number, description: string): RoadmapTemplate {
-  const dailyCapacity = Math.max(1, Math.floor(subjects.reduce((sum, s) => sum + s.topics.length, 0) / totalDays));
-  const dailyTopics: DailyTopicItem[] = [];
-  let day = 1;
-  const usedTopics = new Set<string>();
+  // coverage = monotonic fraction of distinct topics shown.
+  const coverageMap: Record<string, number> = {
+    '1h':  0.03, '2h':  0.06, '3h':  0.09, '5h':  0.14, '12h': 0.20,
+    '1d':  0.25, '2d':  0.35, '3d':  0.45, '5d':  0.60, '7d':  0.75,
+    '10d': 0.90, '2w':  1.00,
+    '1mo': 1.00, '2mo': 1.00, '3mo': 1.00, '6mo': 1.00, '1yr': 1.00, '2yr': 1.00,
+  };
+  // Hard floor for short durations — always surface this many topics
+  // even if the syllabus is huge. Picked so 1h..12h are clearly distinct.
+  const minTopicsMap: Record<string, number> = {
+    '1h': 2, '2h': 4, '3h': 6, '5h': 9, '12h': 14,
+  };
+  const cov = coverageMap[durationKey] ?? 1.00;
+  const floor = minTopicsMap[durationKey] ?? 1;
+  // Cap at totalTopics last so a small-syllabus exam never asks for more
+  // topics than it has.
+  const pickCount = Math.min(totalTopics, Math.max(floor, Math.ceil(totalTopics * cov)));
 
-  while (day <= totalDays) {
-    for (const subject of subjects) {
-      const available = subject.topics.filter(t => !usedTopics.has(t.id));
-      const toUse = available.slice(0, dailyCapacity);
-      for (const topic of toUse) {
-        usedTopics.add(topic.id);
-        dailyTopics.push({ ...topic, subject: subject.name });
-      }
+  // Group by subject, sort each by weight desc, then round-robin interleave.
+  const bySubject: Record<string, DailyTopicItem[]> = {};
+  const order: string[] = [];
+  for (const t of allTopics) {
+    if (!bySubject[t.subject]) { bySubject[t.subject] = []; order.push(t.subject); }
+    bySubject[t.subject].push(t);
+  }
+  for (const k of order) bySubject[k].sort((a, b) => b.weight - a.weight);
+
+  const interleaved: DailyTopicItem[] = [];
+  let depth = 0;
+  while (interleaved.length < totalTopics) {
+    let added = false;
+    for (const k of order) {
+      const arr = bySubject[k];
+      if (arr[depth]) { interleaved.push(arr[depth]); added = true; }
     }
-    day++;
-    if (usedTopics.size >= subjects.reduce((s, sb) => s + sb.topics.length, 0)) break;
+    depth++;
+    if (!added) break;
   }
 
-  return { duration, totalDays, dailyTopics, description };
+  const dailyTopics: DailyTopicItem[] = interleaved.slice(0, pickCount);
+  return { duration: durationKey, totalDays, dailyTopics, description };
 }
-
 const exam: ExamTemplate = {
   examId: 'tnpsc',
   examName: 'TNPSC Group 1',
@@ -45,15 +77,26 @@ const exam: ExamTemplate = {
   examPattern: `The TNPSC Group 1 Preliminary examination consists of a single paper General Studies (200 questions, 300 marks) to be completed in 3 hours. This paper covers current events, history and geography of India and Tamil Nadu, Indian polity, Indian economy, general science, and mental ability tests. The Main examination has three papers: Paper I (General Studies - 300 marks, 3 hours) covering similar topics as Prelims but in depth; Paper II (General Studies - 300 marks, 3 hours) with more specialized topics; and Paper III (a paper chosen by the candidate from a list of optional subjects - 500 marks, 3 hours). The Interview/Personality Test carries 100 marks. Only those who qualify in Prelims appear for Mains, and final selection is based on Mains + Interview marks.`,
   eligibility: `Candidates must be Indian citizens (or subjects of Nepal, Bhutan, or Tibetan refugees) with a bachelor's degree in any discipline from a recognized university. The age limit is 21-32 years for most positions, with relaxations for SC/ST (no upper limit), OBC (35 years), PwD (37 years for blind/deaf, 40 years for others), and ex-servicemen (48 years). Candidates must have proficiency in Tamil language (reading, writing, and speaking). Those without Tamil proficiency may need to pass the Tamil language test conducted by TNPSC within a specified period after appointment.`,
   subjects,
-  durations: {
-  '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for TNPSC Group 1 — 1 Hour'),
-  '1d': makeRoadmap(subjects, '1d', 1, 'Study plan for TNPSC Group 1 — 1 Day'),
-  '3d': makeRoadmap(subjects, '3d', 3, 'Study plan for TNPSC Group 1 — 3 Days'),
-  '7d': makeRoadmap(subjects, '7d', 7, 'Study plan for TNPSC Group 1 — 1 Week'),
-  '1mo': makeRoadmap(subjects, '1mo', 30, 'Study plan for TNPSC Group 1 — 1 Month'),
-  '3mo': makeRoadmap(subjects, '3mo', 90, 'Study plan for TNPSC Group 1 — 3 Months'),
-  '6mo': makeRoadmap(subjects, '6mo', 180, 'Study plan for TNPSC Group 1 — 6 Months'),
-  },
+    durations: {
+    '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for TNPSC Group 1 — 1 Hour'),
+    '2h': makeRoadmap(subjects, '2h', 1, 'Study plan for TNPSC Group 1 — 2 Hours'),
+    '3h': makeRoadmap(subjects, '3h', 1, 'Study plan for TNPSC Group 1 — 3 Hours'),
+    '5h': makeRoadmap(subjects, '5h', 1, 'Study plan for TNPSC Group 1 — 5 Hours'),
+    '12h': makeRoadmap(subjects, '12h', 1, 'Study plan for TNPSC Group 1 — 12 Hours'),
+    '1d': makeRoadmap(subjects, '1d', 1, 'Study plan for TNPSC Group 1 — 1 Day'),
+    '2d': makeRoadmap(subjects, '2d', 2, 'Study plan for TNPSC Group 1 — 2 Days'),
+    '3d': makeRoadmap(subjects, '3d', 3, 'Study plan for TNPSC Group 1 — 3 Days'),
+    '5d': makeRoadmap(subjects, '5d', 5, 'Study plan for TNPSC Group 1 — 5 Days'),
+    '7d': makeRoadmap(subjects, '7d', 7, 'Study plan for TNPSC Group 1 — 1 Week'),
+    '10d': makeRoadmap(subjects, '10d', 10, 'Study plan for TNPSC Group 1 — 10 Days'),
+    '2w': makeRoadmap(subjects, '2w', 14, 'Study plan for TNPSC Group 1 — 2 Weeks'),
+    '1mo': makeRoadmap(subjects, '1mo', 30, 'Study plan for TNPSC Group 1 — 1 Month'),
+    '2mo': makeRoadmap(subjects, '2mo', 60, 'Study plan for TNPSC Group 1 — 2 Months'),
+    '3mo': makeRoadmap(subjects, '3mo', 90, 'Study plan for TNPSC Group 1 — 3 Months'),
+    '6mo': makeRoadmap(subjects, '6mo', 180, 'Study plan for TNPSC Group 1 — 6 Months'),
+    '1yr': makeRoadmap(subjects, '1yr', 365, 'Study plan for TNPSC Group 1 — 1 Year'),
+    '2yr': makeRoadmap(subjects, '2yr', 730, 'Study plan for TNPSC Group 1 — 2 Years'),
+  },  // SR-BACKFILL-V1,
   rescueMode: {
     name: 'Rescue Mode',
     description: 'Cramming plan for TNPSC Group 1',

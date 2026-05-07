@@ -33,6 +33,7 @@ const DURATION_LABEL: Record<string, string> = {
 const durationLabel = DURATION_LABEL[durationKey] || `${durationKey} Plan`;
 const totalDays = (roadmap as any).totalDays || 0;
 const dailyTopics = ((roadmap as any).dailyTopics || []) as any[];
+const phases = ((roadmap as any).phases || []) as { name: string; weeks: number; focus: string; deliverables: string[] }[];
 
 // Group topics by subject for a week-by-week table
 const bySubject: Record<string, any[]> = {};
@@ -140,6 +141,27 @@ const siblingDurations = Object.keys(exam.durations || {})
         </div>
       </div>
     </section>
+
+    {phases.length > 0 && (
+      <section class="container-page py-10">
+        <h2 class="text-2xl font-bold text-surface-900 dark:text-white mb-2">Phase-by-phase plan</h2>
+        <p class="text-surface-600 dark:text-surface-400 text-sm mb-5">A {totalDays}-day plan only works when you sequence it. Here is how the {durationLabel} breaks down.</p>
+        <div class="grid gap-4">
+          {phases.map((p, i) => (
+            <div class="rounded-lg border border-surface-200 dark:border-surface-700 bg-white dark:bg-surface-900 p-5">
+              <div class="flex items-baseline justify-between gap-3 flex-wrap">
+                <h3 class="text-lg font-bold text-surface-900 dark:text-white">Phase {i + 1}: {p.name}</h3>
+                <span class="text-xs font-mono px-2 py-1 rounded bg-brand-50 dark:bg-brand-900/30 text-brand-700 dark:text-brand-300">{p.weeks} {p.weeks === 1 ? 'week' : 'weeks'}</span>
+              </div>
+              <p class="text-sm text-surface-700 dark:text-surface-300 mt-2"><strong>Focus:</strong> {p.focus}</p>
+              <ul class="text-sm text-surface-700 dark:text-surface-300 mt-3 space-y-1">
+                {p.deliverables.map((d) => (<li class="flex gap-2"><span class="text-brand-600">▸</span><span>{d}</span></li>))}
+              </ul>
+            </div>
+          ))}
+        </div>
+      </section>
+    )}
 
     {weeks.length > 0 && (
       <section class="container-page py-10">

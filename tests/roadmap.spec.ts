@@ -58,5 +58,20 @@ describe('roadmap invariants', () => {
         ).toBeGreaterThanOrEqual(3);
       }
     });
+
+    it('emits phases for long durations (1mo+), each with non-empty fields', () => {
+      const LONG = ['1mo', '2mo', '3mo', '6mo', '1yr', '2yr'] as const;
+      for (const d of LONG) {
+        const phases = exam.durations[d].phases;
+        expect(phases, `${exam.examId} ${d} missing phases`).toBeDefined();
+        expect(phases.length, `${exam.examId} ${d} empty phases`).toBeGreaterThanOrEqual(2);
+        for (const p of phases) {
+          expect(p.name).toBeTruthy();
+          expect(p.weeks).toBeGreaterThan(0);
+          expect(p.focus).toBeTruthy();
+          expect(Array.isArray(p.deliverables) && p.deliverables.length).toBeTruthy();
+        }
+      }
+    });
   });
 });

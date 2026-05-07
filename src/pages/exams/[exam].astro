@@ -4,6 +4,8 @@ import Navbar from '../../components/Navbar.astro';
 import Footer from '../../components/Footer.astro';
 import { ALL_EXAMS, getCountryFlag } from '../../data/exams';
 import { EXAM_FAQS } from '../../data/exam-faqs';
+import fs from 'node:fs';
+import path from 'node:path';
 
 export async function getStaticPaths() {
   return ALL_EXAMS
@@ -62,7 +64,7 @@ const fullEligibility = exam.eligibility
 const currentYear = new Date().getUTCFullYear();
 const heroHeadline = (exam as any).heroHeadline
   || `${examName} ${currentYear}: Exam Pattern, Eligibility & Study Plan`;
-const title = `${examName} ${currentYear}: Exam Pattern, Eligibility & Study Plan | StudyRoadmap™`;
+const title = `${examName} ${currentYear} — Pattern, Syllabus & Roadmap`;
 const description = `Full ${examName} ${currentYear} guide — exam pattern, eligibility, syllabus weightage, FAQs, and a free AI study roadmap built in minutes.`;
 const canonicalUrl = `${SITE_URL}/exams/${exam.examId}`;
 
@@ -283,7 +285,7 @@ const wikiCitations = EXAM_WIKI_CITATIONS[exam.examId] || [];
   title={title}
   description={description}
   canonical={canonicalUrl}
-  image={`/og-notes/exam-${exam.examId}.jpg`}
+  image={fs.existsSync(path.join(process.cwd(), 'public', `/og-notes/exam-${exam.examId}.jpg`)) ? `/og-notes/exam-${exam.examId}.jpg` : '/og-notes/exam-default.jpg'}
   author={authorObj}
   geoRegion={geoRegionMap[exam.country]}
   hreflang={hreflangMap[exam.country]}

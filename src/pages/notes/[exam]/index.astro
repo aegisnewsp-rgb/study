@@ -38,10 +38,13 @@ const EXAM_EQUIVALENTS: Record<string, Array<{id: string, name: string, flag: st
 const relatedExams = EXAM_EQUIVALENTS[exam] || [];
 
 
-// Group by subject
+// Group by subject — use the directory slug from note.id (which IS the route),
+// not note.data.subject (which can drift from the directory and 404s links).
+// e.g. file sbi-po/general-awareness/genera-006.md has data.subject="awareness"
+// but the rendered route is /notes/sbi-po/general-awareness/genera-006/
 const bySubject: Record<string, typeof examNotes> = {}; // eslint-disable-line @typescript-eslint/no-explicit-any
 for (const note of examNotes) {
-  const subject = note.data.subject;
+  const subject = note.id.split('/')[1];
   if (!bySubject[subject]) bySubject[subject] = [];
   bySubject[subject].push(note);
 }
@@ -170,7 +173,7 @@ const faqJsonLd = {
           <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
             {notes.sort((a,b) => a.data.topic.localeCompare(b.data.topic)).slice(0, 6).map(note => (
               <a
-                href={`/notes/${note.data.exam}/${note.data.subject}/${note.data.topic}`}
+                href={`/notes/${note.id}`}
                 class="group block bg-surface-50 dark:bg-surface-900 border border-surface-200 dark:border-surface-700 rounded-lg p-4 hover:border-brand-300 dark:hover:border-brand-700 transition-all"
               >
                 <div class="flex items-center justify-between mb-1">

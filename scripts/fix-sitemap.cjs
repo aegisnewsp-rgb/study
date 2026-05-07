@@ -181,24 +181,30 @@ function urlPathFromLoc(loc) {
   try { return new URL(loc).pathname; } catch { return null; }
 }
 let sitemapStripCount = 0;
+let sitemapMissingDiskCount = 0;
 sitemap = sitemap.replace(/<url>[\s\S]*?<\/url>/g, (block) => {
   const m = block.match(/<loc>([^<]+)<\/loc>/);
   if (!m) return block;
   const p = urlPathFromLoc(m[1]);
-  if (!p) return block;
+  if (!p || p === '/') return block;
   const candidate = path.join(distRootForScan, p.replace(/\/$/, ''), 'index.html');
-  if (fs.existsSync(candidate)) {
-    try {
-      const html = fs.readFileSync(candidate, 'utf8');
-      if (/<meta[^>]*name=["']robots["'][^>]*content=["'][^"']*noindex/i.test(html)) {
-        sitemapStripCount++;
-        return '';
-      }
-    } catch {}
+  if (!fs.existsSync(candidate)) {
+    // STEP 3a-strict: URL has no backing index.html on disk → would 404 in prod.
+    // Strip it from sitemap rather than feeding Google a known broken link.
+    sitemapMissingDiskCount++;
+    return '';
   }
+  try {
+    const html = fs.readFileSync(candidate, 'utf8');
+    if (/<meta[^>]*name=["']robots["'][^>]*content=["'][^"']*noindex/i.test(html)) {
+      sitemapStripCount++;
+      return '';
+    }
+  } catch {}
   return block;
 });
 if (sitemapStripCount > 0) console.log(`Sitemap: stripped ${sitemapStripCount} noindexed URLs from Astro-emitted sitemap`);
+if (sitemapMissingDiskCount > 0) console.log(`Sitemap: stripped ${sitemapMissingDiskCount} URLs with no index.html on disk (would-be 404s)`);
 
 // STEP 3b: Build set of exam URLs already in sitemap
 const existingUrls = new Set();

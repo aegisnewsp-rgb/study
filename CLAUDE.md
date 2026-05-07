@@ -3,6 +3,10 @@
 > This file governs all AI-assisted development on the StudyRoadmap codebase.
 > Follow these rules when making any changes. Violations may break SEO, AdSense compliance, or user trust.
 
+## CRITICAL: Deploy branch is `feature/openclaw-content-machine`
+
+The live container at `studyroadmap.in` is built from this repo's working tree on branch **`feature/openclaw-content-machine`**, not `main`. `deploy.sh` nominally references `origin/main` but `main` is stale by 50+ commits — all current content (study-plan templates, swarm-merged mdx, OG fallbacks) only exists on the feature branch. Always commit to and deploy from `feature/openclaw-content-machine`. Host-side `/data/sr-merge-patches.sh`, `/data/sr-swarm.sh`, and `/data/sr-health-check.sh` enforce this via the `SR_DEPLOY_BRANCH` env var and will abort/FAIL if the repo HEAD drifts. Merging feature → main requires unlocking `chattr +i` files in `LOCKED_FILES.txt` first; coordinate before attempting.
+
 ## Project Overview
 
 **StudyRoadmap** (https://studyroadmap.in) is a free, no-signup AI study planner for competitive exams across India, Pakistan, Nigeria, and 16+ other countries.

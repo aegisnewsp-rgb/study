@@ -145,7 +145,7 @@ const howToJsonLd = {
     </section>
 
     <!-- React island: all interactivity lives here -->
-    <RoadmapApp exams={ALL_EXAMS} client:load />
+    <RoadmapApp exams={ALL_EXAMS} client:only="react" />
 
     <!-- Exam-specific FAQ section (populated by JS when exam is selected) -->
     <section id="exam-faq-section" class="hidden border-t border-surface-200 dark:border-surface-800">

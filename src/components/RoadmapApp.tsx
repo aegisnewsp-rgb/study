@@ -1,4 +1,3 @@
-'use client';
 import { useState, useMemo, useEffect } from 'react';
 import type { ExamTemplate, DailyTopicItem, RoadmapTemplate } from '../data/exams';
 

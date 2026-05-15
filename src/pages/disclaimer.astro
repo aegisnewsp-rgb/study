@@ -1,0 +1,69 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.astro';
+import Footer from '../components/Footer.astro';
+---
+<Layout title="Disclaimer — StudyRoadmap™" description="StudyRoadmap™ disclaimer. Educational planning tool only — always verify exam details with official sources. Not affiliated with any exam board.">
+  <script type="application/ld+json" set:html={JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://studyroadmap.in"},{"@type":"ListItem","position":2,"name":"Disclaimer","item":"https://studyroadmap.in/disclaimer"}]})} />
+  <Navbar />
+  <main id="main-content" class="flex-1">
+    <section class="bg-surface-50 dark:bg-surface-950 border-b border-surface-200 dark:border-surface-800">
+      <div class="container-page py-14 text-center">
+        <h1 class="heading-1 text-surface-900 dark:text-surface-50">Disclaimer</h1>
+      </div>
+    </section>
+    <section class="container-page py-14 max-w-3xl mx-auto">
+      <div class="card p-6 sm:p-8 space-y-6 text-sm text-surface-600 dark:text-surface-400 leading-relaxed">
+        <p><strong class="text-surface-900 dark:text-surface-100">Effective date:</strong> {new Date().toLocaleDateString('en-IN', { year: 'numeric', month: 'long', day: 'numeric' })}</p>
+
+        <div>
+          <h2 class="text-base font-semibold text-surface-900 dark:text-surface-100 mb-2">Educational Information Only</h2>
+          <p>All content on StudyRoadmap™ — including study roadmaps, exam pages, syllabus breakdowns, notes, and FAQs — is provided for <strong class="text-surface-900 dark:text-surface-100">general educational and informational purposes only</strong>. It does not constitute professional, academic, or career advice. You should not rely on this site as your sole source of exam preparation guidance.</p>
+        </div>
+
+        <div>
+          <h2 class="text-base font-semibold text-surface-900 dark:text-surface-100 mb-2">No Guarantee of Accuracy</h2>
+          <p>Exam dates, eligibility criteria, fees, patterns, and syllabus details change frequently and are set by the respective conducting bodies. While we make every effort to keep information current and cite official primary sources, we <strong class="text-surface-900 dark:text-surface-100">cannot guarantee</strong> that every detail is complete, accurate, or up to date. <strong class="text-surface-900 dark:text-surface-100">Always verify exam details directly with the official examination authority</strong> before making any preparation, registration, or financial decision.</p>
+        </div>
+
+        <div>
+          <h2 class="text-base font-semibold text-surface-900 dark:text-surface-100 mb-2">No Affiliation</h2>
+          <p>StudyRoadmap™ is an independent educational resource. We are <strong class="text-surface-900 dark:text-surface-100">not affiliated with, endorsed by, sponsored by, or connected to</strong> any government body, examination board, university, or coaching institute whose exams are referenced on this site. All exam names, logos, and trademarks are the property of their respective owners and are used here only for identification and informational purposes.</p>
+        </div>
+
+        <div>
+          <h2 class="text-base font-semibold text-surface-900 dark:text-surface-100 mb-2">No Outcome Guarantee</h2>
+          <p>Using StudyRoadmap™ does not guarantee any particular result, score, rank, or selection in any examination. Exam success depends on many factors — individual effort, prior preparation, exam-day performance, and circumstances beyond the scope of any planning tool. The roadmaps we generate are starting points for organising your study, not promises of outcomes.</p>
+        </div>
+
+        <div>
+          <h2 class="text-base font-semibold text-surface-900 dark:text-surface-100 mb-2">External Links</h2>
+          <p>This site links to official exam websites and other third-party resources for your convenience. We do not control and are not responsible for the content, accuracy, availability, or privacy practices of any external site. Visiting a linked site is at your own discretion and risk.</p>
+        </div>
+
+        <div>
+          <h2 class="text-base font-semibold text-surface-900 dark:text-surface-100 mb-2">Advertising</h2>
+          <p>StudyRoadmap™ may display advertisements served by third-party advertising networks, including Google AdSense. These advertisers may use cookies and similar technologies to serve ads based on your prior visits to this and other websites. Advertisements are clearly distinguishable from our editorial content, and ad placement never influences our exam recommendations, topic priorities, or study guidance. See our <a href="/privacy/" class="text-brand-600 hover:underline dark:text-brand-400">Privacy Policy</a> for details on advertising cookies and how to opt out.</p>
+        </div>
+
+        <div>
+          <h2 class="text-base font-semibold text-surface-900 dark:text-surface-100 mb-2">Limitation of Liability</h2>
+          <p>StudyRoadmap™ and its operators accept no liability for any loss, damage, or inconvenience arising from the use of, or reliance on, any content or feature of this site. The service is provided <strong class="text-surface-900 dark:text-surface-100">"as is"</strong> without warranties of any kind.</p>
+        </div>
+
+        <div>
+          <h2 class="text-base font-semibold text-surface-900 dark:text-surface-100 mb-2">Contact</h2>
+          <p>For questions about this disclaimer or any content on the site:</p>
+          <ul class="list-disc pl-5 space-y-1 mt-2">
+            <li>
+              <a href="mailto:contact@studyroadmap.in" class="text-brand-600 hover:underline dark:text-brand-400">
+                contact@studyroadmap.in
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+  <Footer />
+</Layout>

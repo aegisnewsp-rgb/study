@@ -29,7 +29,20 @@ const { exam, examName, subject, subjectName, topic, topicName, weight, country,
 const isPlaceholderTopic = typeof topicName === 'string' && /^(Topic|Chapter|Unit|Section)\s+\d+/i.test(topicName.trim());
 const rawBody = (note.body || '') as string;
 const isThinBody = rawBody.length < 2500;
-const shouldNoindex = isPlaceholderTopic || isThinBody;
+// Templated-filler gate: early auto-generated stub notes use these exact vacuous
+// phrases instead of real explanations (e.g. "Nuclei is a fundamental concept in
+// Physics"). Some are >2500 chars and squeak past the length gate, so match the
+// signature directly. This clears itself automatically once the swarm rewrites the
+// note with substantive content — no per-file frontmatter flag needed.
+const FILLER_PATTERNS = [
+  /is an important topic in/i,
+  /is a fundamental concept in [A-Z]/,
+  /appear regularly in (NEET|JEE)/i,
+  /Build (a |strong )?(solid )?foundation of fundamentals/i,
+  /Understand the core principle and its direct applications/i,
+];
+const isTemplatedFiller = FILLER_PATTERNS.some((re) => re.test(rawBody));
+const shouldNoindex = isPlaceholderTopic || isThinBody || isTemplatedFiller;
 const robotsDirective = shouldNoindex ? 'noindex,follow' : undefined;
 
 // Handle malformed subjectName (None / undefined) — derive from subject slug

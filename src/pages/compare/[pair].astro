@@ -3,6 +3,7 @@ import Layout from '../../layouts/Layout.astro';
 import Navbar from '../../components/Navbar.astro';
 import Footer from '../../components/Footer.astro';
 import { ALL_EXAMS, getCountryFlag } from '../../data/exams';
+import { isCuratedComparePair } from '../../data/compare-curation';
 
 export async function getStaticPaths() {
   // Only generate pairs where both exams are in the same country AND are popular.
@@ -28,6 +29,9 @@ export async function getStaticPaths() {
 
 const { examA, examB } = Astro.props;
 const SITE_URL = 'https://studyroadmap.in';
+// Noindex combinatorial filler pairs — only curated, genuinely-searched
+// comparisons stay in the index (see @data/compare-curation).
+const compareRobots = isCuratedComparePair(examA.examId, examB.examId) ? undefined : 'noindex,follow';
 const year = new Date().getUTCFullYear();
 const flagA = getCountryFlag(examA.country) || '🌍';
 const flagB = getCountryFlag(examB.country) || '🌍';
@@ -81,7 +85,7 @@ const faqJsonLd = {
 };
 ---
 
-<Layout title={title} description={description} canonical={canonicalUrl}>
+<Layout title={title} description={description} canonical={canonicalUrl} robots={compareRobots}>
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
   <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
   <Navbar />

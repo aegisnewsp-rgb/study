@@ -3,6 +3,7 @@ import Layout from '../../layouts/Layout.astro';
 import Navbar from '../../components/Navbar.astro';
 import Footer from '../../components/Footer.astro';
 import { ALL_EXAMS, getCountryFlag } from '../../data/exams';
+import { isCuratedComparePair } from '../../data/compare-curation';
 
 const SITE_URL = 'https://studyroadmap.in';
 const year = new Date().getUTCFullYear();
@@ -20,6 +21,9 @@ for (const [country, list] of Object.entries(byCountry)) {
   const pairs: Pair[] = [];
   for (let i = 0; i < list.length; i++) {
     for (let j = i + 1; j < list.length; j++) {
+      // Only list curated, indexed comparisons — combinatorial filler pairs are
+      // noindexed in [pair].astro and kept out of the listing here too.
+      if (!isCuratedComparePair(list[i].examId, list[j].examId)) continue;
       pairs.push({ a: list[i], b: list[j], slug: `${list[i].examId}-vs-${list[j].examId}` });
     }
   }

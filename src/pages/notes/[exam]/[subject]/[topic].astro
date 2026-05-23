@@ -5,6 +5,7 @@ import path from 'node:path';
 import Layout from '@layouts/Layout.astro';
 import Navbar from '@components/Navbar.astro';
 import Footer from '@components/Footer.astro';
+import { isLowValueNote } from '@data/note-quality';
 
 export async function getStaticPaths() {
   const allNotes = await getCollection('notes');
@@ -24,25 +25,12 @@ const { Content } = await render(note);
 // SEO
 const { exam, examName, subject, subjectName, topic, topicName, weight, country, diagramPrompt } = note.data;
 
-// Quality gate: noindex thin/placeholder notes that hurt domain-wide indexing.
-// Covers generic "Topic 12" / "Chapter 3" auto-filler and bodies under ~2500 chars.
-const isPlaceholderTopic = typeof topicName === 'string' && /^(Topic|Chapter|Unit|Section)\s+\d+/i.test(topicName.trim());
-const rawBody = (note.body || '') as string;
-const isThinBody = rawBody.length < 2500;
-// Templated-filler gate: early auto-generated stub notes use these exact vacuous
-// phrases instead of real explanations (e.g. "Nuclei is a fundamental concept in
-// Physics"). Some are >2500 chars and squeak past the length gate, so match the
-// signature directly. This clears itself automatically once the swarm rewrites the
+// Quality gate (shared with the notes listing pages via @data/note-quality):
+// noindex thin / placeholder / templated-filler notes that hurt domain-wide
+// indexing. Clears itself automatically once the rewrite pipeline replaces the
 // note with substantive content — no per-file frontmatter flag needed.
-const FILLER_PATTERNS = [
-  /is an important topic in/i,
-  /is a fundamental concept in [A-Z]/,
-  /appear regularly in (NEET|JEE)/i,
-  /Build (a |strong )?(solid )?foundation of fundamentals/i,
-  /Understand the core principle and its direct applications/i,
-];
-const isTemplatedFiller = FILLER_PATTERNS.some((re) => re.test(rawBody));
-const shouldNoindex = isPlaceholderTopic || isThinBody || isTemplatedFiller;
+const rawBody = (note.body || '') as string;
+const shouldNoindex = isLowValueNote(rawBody, note.data);
 const robotsDirective = shouldNoindex ? 'noindex,follow' : undefined;
 
 // Handle malformed subjectName (None / undefined) — derive from subject slug

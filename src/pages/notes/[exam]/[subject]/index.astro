@@ -5,6 +5,7 @@ import path from 'node:path';
 import Layout from '@layouts/Layout.astro';
 import Navbar from '@components/Navbar.astro';
 import Footer from '@components/Footer.astro';
+import { isGoodNote } from '@data/note-quality';
 
 export async function getStaticPaths() {
   const allNotes = await getCollection('notes');
@@ -17,12 +18,17 @@ export async function getStaticPaths() {
 
 const { slug } = Astro.props;
 const allNotes = await getCollection('notes');
-const subjectNotes = allNotes
+const allSubjectNotes = allNotes
   .filter(n => n.id.startsWith(slug + '/'))
   .sort((a, b) => a.data.topic.localeCompare(b.data.topic));
+// Only list indexable notes — low-value ones are orphaned (and noindexed in
+// [topic].astro) until the rewrite pipeline upgrades them. If every note in the
+// subject is still low-value, the hub itself has nothing to offer → noindex it.
+const subjectNotes = allSubjectNotes.filter(isGoodNote);
+const subjectHubRobots = subjectNotes.length === 0 ? 'noindex,follow' : undefined;
 
 const { exam, subject } = Astro.params;
-const firstNote = subjectNotes[0];
+const firstNote = allSubjectNotes[0];
 const examName = firstNote?.data.examName || exam;
 const subjectName = firstNote?.data.subjectName || subject;
 const flag = { india: '🇮🇳', pakistan: '🇵🇰', nigeria: '🇳🇬' }[firstNote?.data.country] || '🌍';
@@ -119,7 +125,7 @@ const EXAM_EQUIVALENTS: Record<string, Array<{id: string; name: string; flag: st
 const relatedExams = EXAM_EQUIVALENTS[exam] || [];
 ---
 
-<Layout title={title} description={description} canonical={canonicalUrl} image={ogImage} faqs={faqs} author={authorObj}>
+<Layout title={title} description={description} canonical={canonicalUrl} image={ogImage} faqs={faqs} author={authorObj} robots={subjectHubRobots}>
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
   <script type="application/ld+json" set:html={JSON.stringify(collectionPageJsonLd)} />
   <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />

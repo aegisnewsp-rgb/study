@@ -290,7 +290,13 @@ function walkCatchAll(dir, urlPath) {
         if (!existingUrls.has(u)) {
           // Skip notes (already handled), exam-hubs (already handled), and the homepage
           if (!u.includes('/notes/') && !u.match(/\/exams\/[^/]+\/$/)) {
-            catchAllUrls.push(`<url><loc>${u}</loc><lastmod>${today}</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>`);
+            // Respect page-level noindex (e.g. non-canonical study-plan durations):
+            // a URL that serves noindex must NOT be in the sitemap, or Google flags
+            // the sitemap-vs-noindex mismatch as a quality problem.
+            const html = fs.readFileSync(path.join(full, 'index.html'), 'utf8');
+            if (!/<meta[^>]*name=["']robots["'][^>]*content=["'][^"']*noindex/i.test(html)) {
+              catchAllUrls.push(`<url><loc>${u}</loc><lastmod>${today}</lastmod><changefreq>monthly</changefreq><priority>0.6</priority></url>`);
+            }
           }
         }
       }

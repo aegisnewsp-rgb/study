@@ -3,8 +3,11 @@ import { getCollection } from 'astro:content';
 import Layout from '@layouts/Layout.astro';
 import Navbar from '@components/Navbar.astro';
 import Footer from '@components/Footer.astro';
+import { isGoodNote } from '@data/note-quality';
 
-const allNotes = await getCollection('notes');
+// Only count/list indexable notes; exams whose notes are all still low-value
+// drop off the index until the rewrite pipeline restores them.
+const allNotes = (await getCollection('notes')).filter(isGoodNote);
 
 // Group by exam
 const byExam: Record<string, typeof allNotes> = {};

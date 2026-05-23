@@ -31,6 +31,17 @@ const DURATION_LABEL: Record<string, string> = {
   '3mo': '3-Month Plan', '6mo': '6-Month Plan', '1yr': '1-Year Plan', '2yr': '2-Year Plan',
 };
 const durationLabel = DURATION_LABEL[durationKey] || `${durationKey} Plan`;
+
+// Doorway-page guard: each exam has ~18 duration variants that are ~92% identical
+// (only the schedule numbers change), which Google treats as scaled/duplicate
+// content. Index exactly ONE canonical duration per exam (prefer a mid-length
+// plan) and noindex the rest. The study-plan generator and on-site links still
+// serve every duration to real users — they just aren't separate indexed pages.
+const DURATION_PREFERENCE = ['3mo','6mo','1yr','1mo','2mo','2yr','10d','2w','7d','5d','3d','2d','1d','12h','5h','3h','2h','1h'];
+const examDurationKeys = Object.keys((exam as any).durations || {});
+const canonicalDuration = DURATION_PREFERENCE.find((d) => examDurationKeys.includes(d)) || examDurationKeys[0];
+const studyPlanRobots = durationKey === canonicalDuration ? undefined : 'noindex,follow';
+
 const totalDays = (roadmap as any).totalDays || 0;
 const dailyTopics = ((roadmap as any).dailyTopics || []) as any[];
 const phases = ((roadmap as any).phases || []) as { name: string; weeks: number; focus: string; deliverables: string[] }[];
@@ -106,7 +117,7 @@ const siblingDurations = Object.keys(exam.durations || {})
   .slice(0, 6);
 ---
 
-<Layout title={title} description={description} canonical={canonicalUrl}>
+<Layout title={title} description={description} canonical={canonicalUrl} robots={studyPlanRobots}>
   <style is:global>
     /* SR-THEME: Trust Academic — cream / forest / brass.
        Per-page override of palette tokens; doesn't affect rest of site. */

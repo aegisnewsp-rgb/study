@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 import Layout from '@layouts/Layout.astro';
 import Navbar from '@components/Navbar.astro';
 import Footer from '@components/Footer.astro';
+import { isGoodNote } from '@data/note-quality';
 
 export async function getStaticPaths() {
   const allNotes = await getCollection('notes');
@@ -15,9 +16,13 @@ export async function getStaticPaths() {
 
 const { exam } = Astro.props;
 const allNotes = await getCollection('notes');
-const examNotes = allNotes.filter(n => n.id.startsWith(exam + '/'));
+const allExamNotes = allNotes.filter(n => n.id.startsWith(exam + '/'));
+// Group/list only indexable notes; if the whole exam is still low-value, noindex
+// the hub until the rewrite pipeline restores enough quality topics.
+const examNotes = allExamNotes.filter(isGoodNote);
+const examHubRobots = examNotes.length === 0 ? 'noindex,follow' : undefined;
 
-const firstNote = examNotes[0];
+const firstNote = allExamNotes[0];
 const examName = firstNote?.data.examName || exam;
 const flag = { india: '🇮🇳', pakistan: '🇵🇰', nigeria: '🇳🇬' }[firstNote?.data.country] || '🌍';
 
@@ -134,7 +139,7 @@ const faqJsonLd = {
 };
 ---
 
-<Layout title={title} description={description} canonical={canonicalUrl} image={ogImage} author={authorObj}>
+<Layout title={title} description={description} canonical={canonicalUrl} image={ogImage} author={authorObj} robots={examHubRobots}>
   <style is:global>
     :root {
       --color-brand-50:  #ecf2ee; --color-brand-100: #d4e2d8; --color-brand-200: #a9c4b1;

@@ -22,3 +22,8 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+# BMAD-METHOD (local agent tooling, not part of the site)
+_bmad/
+_bmad-output/
+.claude/

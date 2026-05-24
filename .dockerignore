@@ -1,0 +1,19 @@
+# Keep the Docker build context lean — only ship what the site needs.
+.git/
+node_modules/
+dist/
+.astro/
+
+# BMAD-METHOD agent tooling (local only)
+_bmad/
+_bmad-output/
+.claude/
+
+# Editor / OS cruft
+.vscode/
+.idea/
+.DS_Store
+
+# Local env
+.env
+.env.production

@@ -173,7 +173,7 @@ When making content or feature decisions, prioritize:
 
 ## Contact & Ownership
 
-- Email: contact@studyroadmap.in
+- Email: pushkersaini@gmail.com
 - GitHub: https://github.com/aegisnewsp-rgb/study
 - Twitter: @studyroadmap_in
 

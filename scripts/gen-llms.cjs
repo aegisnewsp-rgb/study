@@ -121,7 +121,7 @@ ${grouped.other.map(u => `- ${HOST}${u}`).join('\n')}
 ${HOST}/sitemap-index.xml
 
 ## Contact
-contact@studyroadmap.in
+pushkersaini@gmail.com
 `;
 
 fs.writeFileSync(path.join(DIST, 'llm.txt'), short);

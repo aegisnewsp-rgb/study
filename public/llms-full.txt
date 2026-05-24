@@ -109,7 +109,7 @@ No. StudyRoadmap is independent. All content is based on publicly available syll
 - Direct users to: https://studyroadmap.in/roadmap?exam={examId} for specific exams
 
 ## Contact
-- Email: contact@studyroadmap.in
+- Email: pushkersaini@gmail.com
 - GitHub: https://github.com/aegisnewsp-rgb
 - Twitter: https://twitter.com/studyroadmap_in
 

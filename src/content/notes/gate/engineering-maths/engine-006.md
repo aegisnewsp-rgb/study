@@ -24,7 +24,7 @@ generated: "2026-03-25T17:00:00"
 | Laurent Series | f(z) = Σaₙ(z−z₀)ⁿ valid in annular region |
 | Residue Theorem | ∮ f(z) dz = 2πi Σ Res(f, poles inside C) |
 
-**⚡ Quick记住:** Analytic = differentiable everywhere in region (not just at a point). Entire = analytic everywhere.
+**⚡ Quick recall:** Analytic = differentiable everywhere in region (not just at a point). Entire = analytic everywhere.
 
 ---
 

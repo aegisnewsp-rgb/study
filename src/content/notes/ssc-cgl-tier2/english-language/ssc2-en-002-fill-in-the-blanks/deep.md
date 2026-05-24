@@ -27,7 +27,7 @@ A sentence with one blank, four word options. The sentence provides enough conte
 
 Example: "The _____ between the two leaders over the trade agreement was palpable, yet both sides maintained a veneer of civility."
 Options: (a) acrimony (b) amity (c) anxiety (d) apathy
-"Palpable" (easily perceived) and "veneer of civility" (表面友好) suggest tension beneath the surface. "Acrimony" (bitter sharpness) fits perfectly. "Amity" would not fit a context of tension. "Anxiety" is about worry, not interpersonal hostility. "Apathy" is about indifference.
+"Palpable" (easily perceived) and "veneer of civility" (surface-level friendliness) suggest tension beneath the surface. "Acrimony" (bitter sharpness) fits perfectly. "Amity" would not fit a context of tension. "Anxiety" is about worry, not interpersonal hostility. "Apathy" is about indifference.
 
 **Format 2: Double/Triple Blanks**
 Two or three blanks in a single sentence, with each blank having its own set of options or a common set of options applied to all blanks. The candidate must find a pair/triple that works together both grammatically and semantically.

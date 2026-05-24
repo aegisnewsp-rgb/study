@@ -342,12 +342,12 @@ Hippocampus → Fornix → Mammillary bodies → Anterior thalamic nucleus → C
 **Parasympathetic (craniosacral)**:
 - **Cholinergic** throughout (ACh at all synapses)
 - **Receptors**: Nicotinic (ganglia), Muscarinic (end organs)
-- **Functions**: Rest and digest,瞳孔缩小,促进分泌,心率减慢
+- **Functions**: Rest and digest, pupil constriction, increased secretion, decreased heart rate
 
 **Sympathetic (thoracolumbar)**:
 - **Pre-ganglionic**: ACh (nicotinic receptors)
 - **Post-ganglionic**: Mostly norepinephrine (α, β receptors), sweat glands (ACh, muscarinic)
-- **Functions**: Fight or flight,瞳孔开大,心率加快,血压升高
+- **Functions**: Fight or flight, pupil dilation, increased heart rate, increased blood pressure
 
 **Autonomic Receptors**:
 

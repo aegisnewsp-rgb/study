@@ -24,7 +24,7 @@ generated: "2026-03-25T17:00:00"
 | Wave equation | ∂²u/∂t² = c² ∂²u/∂x² | d'Alembert's formula or series |
 | Laplace equation | uₓₓ + u_yy = 0 | Harmonic functions |
 
-**⚡ Quick记住:** Heat → parabolic (diffusion), Wave → hyperbolic (oscillation), Laplace → elliptic (steady-state)
+**⚡ Quick recall:** Heat → parabolic (diffusion), Wave → hyperbolic (oscillation), Laplace → elliptic (steady-state)
 
 ---
 

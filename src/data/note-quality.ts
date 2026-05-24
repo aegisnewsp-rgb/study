@@ -20,6 +20,18 @@ const FILLER_PATTERNS = [
   /Understand the core principle and its direct applications/i,
 ];
 
+// Detects CJK code-switch contamination: the note-authoring model (a Chinese LLM)
+// sometimes leaks Chinese words mid-sentence into English notes ("Population公式").
+// A leak is a few CJK chars in a mostly-English note; a legitimately Chinese-medium
+// note (e.g. gaokao) would be majority CJK — so we gate on density, not presence.
+const CJK_RE = /[一-鿿]/g;
+export function hasCjkContamination(text: string): boolean {
+  const cjk = (text.match(CJK_RE) ?? []).length;
+  if (cjk === 0) return false;
+  const nonSpace = text.replace(/\s/g, '').length;
+  return nonSpace > 0 && cjk / nonSpace < 0.05;
+}
+
 export function isLowValueNote(
   body: string | undefined,
   data: { topicName?: string } | undefined,
@@ -31,7 +43,7 @@ export function isLowValueNote(
   const text = body ?? '';
   const isThinBody = text.length < 2500;
   const isTemplatedFiller = FILLER_PATTERNS.some((re) => re.test(text));
-  return isPlaceholderTopic || isThinBody || isTemplatedFiller;
+  return isPlaceholderTopic || isThinBody || isTemplatedFiller || hasCjkContamination(text);
 }
 
 // Convenience for `.filter(isGoodNote)` over a collection of entries.

@@ -124,7 +124,7 @@ Drug metabolism occurs primarily in the **liver** (by cytochrome P450 enzymes), 
 - **Sulfonylureas (glibenclamide, gliclazide):** Stimulate insulin secretion from pancreatic beta cells; risk of hypoglycemia and weight gain
 - **Insulin:** Essential for T1DM; used in T2DM when oral agents fail; types: rapid-acting (aspart, lispro — given with meals), intermediate-acting (NPH), long-acting (glargine, detemir — basal coverage). Side effect: hypoglycemia (treat with oral glucose or IV dextrose/glucagon IM/SC)
 
-**⚡ Exam tip:** Drug half-life determines time to steady state (~4–5 half-lives). Narrow therapeutic index drugs require TDM (digoxin, aminoglycosides, vancomycin, warfarin, lithium, phenytoin). For anaphylaxis (Type I allergic reaction):肾上腺素 (epinephrine) IM is first-line — NOT antihistamine. For hypoglycemia: if patient unconscious → IV dextrose 50% (D50); if conscious → oral glucose.
+**⚡ Exam tip:** Drug half-life determines time to steady state (~4–5 half-lives). Narrow therapeutic index drugs require TDM (digoxin, aminoglycosides, vancomycin, warfarin, lithium, phenytoin). For anaphylaxis (Type I allergic reaction): epinephrine IM is first-line — NOT antihistamine. For hypoglycemia: if patient unconscious → IV dextrose 50% (D50); if conscious → oral glucose.
 
 
 ---

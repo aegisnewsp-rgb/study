@@ -407,7 +407,7 @@ South Africa has the largest ART programme in the world. Pharmacists working in 
 
 **Integrase Inhibitors (INSTIs):**
 - Dolutegravir — first-line; generally well tolerated; INSTI associated weight gain (metabolic effects); CYP3A4 not involved; good option for TB co-treatment (interacts with rifampicin — dolutegravir dose increase)
-- Raltegravir — second-line; IV and PO;较少 drug interactions
+- Raltegravir — second-line; IV and PO; fewer drug interactions
 
 **Protease Inhibitors (PIs) — Ritonavir or cobicistat as boosters:**
 - Atazanavir/ritonavir — jaundice (unconjugated hyperbilirubinaemia); stone formation; CYP3A4 inhibitor
@@ -469,7 +469,7 @@ Antimicrobial stewardship (ASP) refers to coordinated interventions designed to 
 
 **SA Antibiotic Stewardship Programme (SAABSP):**
 - National initiative to promote rational antibiotic use
--指引 hospital ASPs
+- Guidance for hospital ASPs
 - Point prevalence surveys (SAPS — South African Point Prevalence Survey)
 - Resistance surveillance through NICD (National Institute for Communicable Diseases)
 

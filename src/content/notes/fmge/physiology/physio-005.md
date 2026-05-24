@@ -120,7 +120,7 @@ High-yield point: Boyle's law explains how negative intrapleural pressure (creat
 **Regions**:
 - **West zone 1** (top of lung): V/Q > 1 (alveolar pressure > arterial pressure → capillary compression → poor perfusion) - rare in normal standing person
 - **West zone 2** (mid lung): Greatest blood flow - arterial pressure > alveolar pressure > venous pressure (turbulent flow)
-- **West zone 3** (bottom of lung): V/Q < 1 (highest perfusion; lowest ventilation due to压迫effect on alveoli)
+- **West zone 3** (bottom of lung): V/Q < 1 (highest perfusion; lowest ventilation due to compression effect on alveoli)
 
 ### Shunt
 - **Anatomic shunt**: Blood bypasses alveoli (Thebesian veins, bronchial veins)

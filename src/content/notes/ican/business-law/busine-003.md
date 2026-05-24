@@ -42,7 +42,7 @@ Where a contract is divided into distinct parts with a separate price for each p
 
 **Time of Performance:**
 - If no time is stated, performance is within a reasonable time
-- If time is "of the essence" (material), late performance is a breach allowing rescission (*United Dominions Corporation v.利息*; *B粤-Barat v. Louis Dreyfus*)
+- If time is "of the essence" (material), late performance is a breach allowing rescission
 - If time is not of the essence, late performance is a breach giving rise to damages but not rescission
 
 **Discharge by Agreement:**

@@ -23,7 +23,7 @@ generated: ai-v1
 Most DI problems don't need you to "interpret" anything — they need you to add, subtract, multiply, divide, and convert percentages. The chart is just a delivery mechanism for numbers you could equally get from a table. So the real skill is: (1) finding the right numbers quickly, and (2) doing arithmetic without a calculator.
 
 **Reading Truncated (Cut) Y-Axis Graphs**
-This is the most common trick in DI. When a bar graph's Y-axis doesn't start at 0, tiny differences get放大ed into big-looking differences. A graph showing bars of height 95 and 100 might look dramatically different if the Y-axis starts at 90! Always check where the Y-axis begins. If it starts at 90, the "difference" between 95 and 100 is actually just 5 units out of 100, or 5%.
+This is the most common trick in DI. When a bar graph's Y-axis doesn't start at 0, tiny differences get magnified into big-looking differences. A graph showing bars of height 95 and 100 might look dramatically different if the Y-axis starts at 90! Always check where the Y-axis begins. If it starts at 90, the "difference" between 95 and 100 is actually just 5 units out of 100, or 5%.
 
 **Multi-Source DI — Connecting Two or More Charts**
 CUET sometimes gives you two charts that refer to the same data. Example: a pie chart shows the percentage distribution of marks across subjects, and a bar graph shows marks obtained per subject. To find total marks: you might need to calculate the actual tonnage or percentage value from the pie, then multiply by per-unit value from the bar. The connection is rarely obvious — look for shared categories or totals.

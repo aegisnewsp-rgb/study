@@ -438,7 +438,7 @@ Medical emergency; occurs with all antipsychotics (both typical and atypical).
 | Drug | Half-life | Features |
 |------|----------|---------|
 | Zopiclone | ~5 hours | Metallic taste (common); some next-day impairment |
-| Zolpidem | ~2.5 hours | Shorter acting;幻觉, sleep-driving reported; less dependence than benzodiazepines |
+| Zolpidem | ~2.5 hours | Shorter acting; hallucinations, sleep-driving reported; less dependence than benzodiazepines |
 | Eszopiclone | ~6 hours | S-enantiomer of zopiclone; available in some markets |
 
 **Adverse effects:** CNS effects, complex sleep behaviours (sleep-driving, sleep-eating), hallucinations; dependence and withdrawal reported.
@@ -469,7 +469,7 @@ Medical emergency; occurs with all antipsychotics (both typical and atypical).
 
 | Seizure Type | Features | Common Drugs |
 |-------------|---------|--------------|
-| **Focal (partial) seizures** | One brain region;可以有或无意识改变 | Carbamazepine, lamotrigine, levetiracetam, valproic acid |
+| **Focal (partial) seizures** | One brain region; with or without altered consciousness | Carbamazepine, lamotrigine, levetiracetam, valproic acid |
 | **Generalised tonic-clonic** | Whole brain; loss of consciousness; tonic then clonic phases | Valproic acid, lamotrigine, levetiracetam, phenytoin, carbamazepine |
 | **Absence seizures** | Brief loss of awareness; no tonic-clonic activity | Ethosuximide, valproic acid |
 | **Myoclonic seizures** | Sudden brief muscle jerks | Valproic acid, clonazepam, levetiracetam |
@@ -584,7 +584,7 @@ Parkinson's disease (PD) results from degeneration of dopaminergic neurones in t
 9. **Clozapine agranulocytosis** — mandatory weekly FBC × 18 weeks; SAHPRA monitoring programme
 10. **Valproic acid** — broad spectrum; hepatotoxicity; neural tube defects; pancreatitis
 11. **Lamotrigine** — slow titration; SJS/TEN risk; valproate interaction (requires slower titration)
-12. **Phenytoin non-linear kinetics** — saturation kinetics; protein binding;华南-维持 dose relationship
+12. **Phenytoin non-linear kinetics** — saturation kinetics; protein binding; dose-maintenance relationship
 13. **Levodopa + carbidopa** — rationale for combination; peripheral vs central effects
 14. **Benzodiazepine scheduling** — schedule 5/6; flumazenil availability
 15. **Neuroleptic malignant syndrome** — hyperthermia, rigidity, CK elevation; management (stop drug, supportive care)

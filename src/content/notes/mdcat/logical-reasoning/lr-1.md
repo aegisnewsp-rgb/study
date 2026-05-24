@@ -121,13 +121,13 @@ Medical colleges require candidates who can **think critically and make connecti
 **2. Structural/Linguistic Relationships**
 
 - *Grammatical structure:* Subject-verb-object relationships. "Dog bites man" is to "Man bites dog" as "Cat scratches furniture" is to "Furniture scratches cat" — reversing roles changes the relationship entirely.
-- *Part of speech一致性:* In MDCAT, the correct answer pair typically matches the part of speech of the original pair. If the given pair is adjective:noun, the answer should follow the same pattern.
+- *Part of speech consistency:* In MDCAT, the correct answer pair typically matches the part of speech of the original pair. If the given pair is adjective:noun, the answer should follow the same pattern.
 - *Prefix/Suffix patterns:* "Unhappy : Sad" (un- reverses meaning), "Biology : Life" (root word relationships).
 
 **3. Logical/Conceptual Relationships**
 
 - *Hierarchical:* Class-member, superordinate-subordinate. "Fruit : Mango" (fruit is the category, mango is a specific member). MNRC tests this in biological/medical contexts heavily.
-- *Serial/Ordered:* Rankings, sequences, stages. "见习 : 实习 : 正式" type questions test understanding of progression.
+- *Serial/Ordered:* Rankings, sequences, stages. "Trainee : Intern : Permanent" type questions test understanding of progression.
 - *Spatial:* Over/under, inside/outside, proximity. "Ceiling : Room" = top boundary of a space.
 - *Temporal:* Before/after, simultaneous, duration. "Sunrise : Morning" = marker of a time period.
 - *Numerical/Mathematical:* Ratio, fraction, doubling. "Dozen : 12" :: "Gross : 144". Though less common in MDCAT verbal analogies, this appears in some analytical sections.

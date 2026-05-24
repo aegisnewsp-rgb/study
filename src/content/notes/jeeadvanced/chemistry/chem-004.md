@@ -115,7 +115,7 @@ Note: the classification (1°, 2°, 3°) refers to the number of carbon groups a
 
 **⚡ Common student mistakes:**
 1. Confusing the classification of alcohols (primary/secondary/tertiary) — count carbons attached to the carbon bearing OH, not the OH group itself
-2. Thinking all ortho/para directors are activating — halogen例外
+2. Thinking all ortho/para directors are activating — halogen exception
 3. Classifying amines wrong — a methylamine is $1°$ (one C attached to N), dimethylamine is $2°$ (two C attached to N)
 
 ---

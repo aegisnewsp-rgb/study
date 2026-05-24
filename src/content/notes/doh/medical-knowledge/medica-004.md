@@ -137,7 +137,7 @@ Where RQ (respiratory quotient) = 0.8
 
 **Thyroid Disorders:**
 - **Hypothyroidism** (more common in Middle East due to iodine deficiency in some areas): Fatigue, weight gain, cold intolerance, bradycardia, constipation, dry skin, goitre
-- **Hyperthyroidism** (Graves' disease): Weight loss, heat intolerance, tachycardia, tremor, anxiety, exophthalmos (Graves'特有的)
+- **Hyperthyroidism** (Graves' disease): Weight loss, heat intolerance, tachycardia, tremor, anxiety, exophthalmos (Graves'-specific)
 - Thyroid storm (thyrotoxic crisis): Life-threatening; fever, delirium, tachycardia, heart failure; precipitated by infection, surgery, radioactive iodine
 - Management of thyroid storm: Propylthiouracil (PTU) or methimazole; potassium iodide (SSKI); propranolol; hydrocortisone
 

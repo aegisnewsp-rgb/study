@@ -132,7 +132,7 @@ generated: "2026-03-25T17:00:00"
 - **Treatment**: Albendazole (single dose 400 mg) OR mebendazole; pyrantel pamoate
 
 #### Hookworm (Ancylostoma duodenale & Necator americanus)
-- **Nematodes**; A. duodenale (“老” hookworm, also causes eosinophilic pneumonitis and "ground itch") and N. americanus (“新” hookworm)
+- **Nematodes**; A. duodenale (Old World hookworm, also causes eosinophilic pneumonitis and "ground itch") and N. americanus (New World hookworm)
 - **Transmission**: Larvae penetrate skin (barefoot walk on contaminated soil); larvae migrate to lungs → coughed up → swallowed
 - **Clinical**: Iron deficiency anemia (most common complication) — worms suck blood from intestinal mucosa; eosinophilia
 - **Diagnosis**: Stool ova (ova of hookworm have characteristic cleavage at 2–8 cell stage); eosinophilia

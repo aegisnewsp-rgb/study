@@ -35,7 +35,7 @@ generated: "2026-03-25T17:00:00"
 | Category | Meaning | Sri Lankan Example |
 |----------|---------|-------------------|
 | EX | Extinct | Sri Lankan quill pipit (bird) |
-| CR | Critically Endangered | Asian elephant (局部) |
+| CR | Critically Endangered | Asian elephant (locally) |
 | EN | Endangered | Leopard, purple-faced langur |
 | VU | Vulnerable | Saltwater crocodile |
 | NT | Near Threatened | Mugger crocodile |

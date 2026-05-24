@@ -214,7 +214,7 @@ Computers work in **binary (base 2)** — only 0s and 1s.
 
 **Common Threats**:
 - **Virus**: Self-replicating malicious code that spreads by attaching to files
-- **Worm**: Spreads通过网络 without user interaction
+- **Worm**: Spreads through the network without user interaction
 - **Trojan Horse**: Disguised as legitimate software but creates backdoor
 - **Ransomware**: Encrypts files and demands payment
 - **Phishing**: Fake emails/websites stealing personal information

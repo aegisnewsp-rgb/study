@@ -153,7 +153,7 @@ Competitive antagonist at muscarinic receptors; blocks ACh from binding
 **For Parkinsonism**:
 - **Trihexyphenidyl (Artane)**, **Benztropine**: Crosses BBB; reduces extrapyramidal symptoms
 
-**For GI痉挛**: **Hyoscine (scopolamine)**, dicyclomine
+**For GI spasm**: **Hyoscine (scopolamine)**, dicyclomine
 
 **For ophthalmology**:
 - **Tropicamide**, **Cyclopentolate**: Shorter duration than atropine for fundus examination

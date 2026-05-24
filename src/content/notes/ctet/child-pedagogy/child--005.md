@@ -17,7 +17,7 @@ generated: "2026-03-25T17:00:00"
 Intelligence is one of the most studied and debated concepts in psychology. For CTET examination, questions on intelligence theories frequently appear in Child Development and Pedagogy sections. Understanding how intelligence has been conceptualized — from a single general ability to multiple distinct intelligences — is essential for every teacher.
 
 A teacher who understands intelligence theories can:
-- Recognize that academic成绩 (academic performance) is not the only measure of a child's potential
+- Recognize that academic performance is not the only measure of a child's potential
 - Design lessons that reach children with different intellectual strengths
 - Avoid labeling children as "intelligent" or "not intelligent" based solely on test scores
 - Create an inclusive classroom where all children can succeed

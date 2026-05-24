@@ -58,7 +58,7 @@ The brand name (proprietary or trademark name) is assigned by the pharmaceutical
 
 - **Company-assigned** — varies by manufacturer
 - **Example:** "Panado" (Aspen) contains paracetamol; "Adco-Paracetamol" also contains paracetamol
-- **Format:** Often chosen for marketing appeal, ease of recall, or therapeutic暗示
+- **Format:** Often chosen for marketing appeal, ease of recall, or therapeutic connotation
 - **In South Africa:** Multiple brands may contain the same active ingredient — pharmacists must be able to identify equivalents
 
 **Important:** Different brands containing the same active ingredient are considered generically equivalent unless a clinical difference is documented (e.g., modified-release formulations, poorly soluble drugs with bioequivalence concerns).

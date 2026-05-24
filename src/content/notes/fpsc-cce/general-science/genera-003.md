@@ -170,7 +170,7 @@ generated: "2026-03-25T17:00:00"
 - Equal representation: 14 seats from each Province, 4 from each Territory (ICT, FATA)
 - **Total**: 104 members
 - **Purpose**: Protect smaller provinces' interests against majority provinces
-- **Key powers**: Cannot be dissolved;重要作用 in constitutional amendments
+- **Key powers**: Cannot be dissolved; important role in constitutional amendments
 
 **7. National Assembly (Lower House)**:
 - 342 seats total (general seats, women, minorities)

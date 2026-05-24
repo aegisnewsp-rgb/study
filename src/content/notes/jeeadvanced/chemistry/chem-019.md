@@ -322,7 +322,7 @@ Fe₂O₃ + 2Al → 2Fe + Al₂O₃ (thermite welding)
 
 The thermite uses Al powder as reducing agent; reaction is highly exothermic (Fe produced in molten state).
 
-⚡ **Exam tip:** Remember the铭言: "More negative ΔG° means more stable oxide." The metal with more negative ΔG° for its oxide can reduce the other metal's oxide if its line is below the other's on the Ellingham diagram.
+⚡ **Exam tip:** Remember the maxim: "More negative ΔG° means more stable oxide." The metal with more negative ΔG° for its oxide can reduce the other metal's oxide if its line is below the other's on the Ellingham diagram.
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

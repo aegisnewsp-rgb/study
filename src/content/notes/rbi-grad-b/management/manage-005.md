@@ -73,7 +73,7 @@ Core organisation outsources functions to external entities.
 - **Disadvantages**: Less control, coordination challenges
 
 ### 5. Team-Based Structure
-Permanent cross-functional teams取代 traditional departments.
+Permanent cross-functional teams replace traditional departments.
 - **Advantages**: Collaboration, speed, employee empowerment
 - **Disadvantages**: Turf wars, potential for slow individual decision-making
 

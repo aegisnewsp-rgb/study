@@ -30,7 +30,7 @@ A strong vocabulary of Islamic terms is essential for the Qimiyah examination. M
 | حكيم | Ḥakīm | The All-Wise |
 | سميع | Samī' | The All-Hearing |
 | بصير | Baṣīr | The All-Seeing |
-|活着 | Ḥayy | The Ever-Living |
+| حي | Ḥayy | The Ever-Living |
 | قيوم | Qayyūm | The Self-Subsisting |
 | نور | Nūr | Light |
 | هدى | Hudā | Guidance |
@@ -135,7 +135,7 @@ A strong vocabulary of Islamic terms is essential for the Qimiyah examination. M
 | حب | Ḥubb | Love |
 | كره | Karḥ | Dislike; hatred |
 | نيّة | Niyyah | Intention |
-|饵 | 'Ubūdiyyah | Servitude to Allah |
+| عبودية | 'Ubūdiyyah | Servitude to Allah |
 | إساءة | Īsā'ah | Wrongdoing; mistreatment |
 
 ## Key Facts for Qimiyah Examination
@@ -248,7 +248,7 @@ The Quran states: "And to Allah belong the best names, so invoke Him by them" (A
 | المنتقم | Al-Muntaqim | The Avenger |
 | العفو | Al-'Afū | The Pardoner |
 | الرؤوف | Ar-Ra'ūf | The Kind |
-|ذا惩戒 | Dhū al-Jalāl wa al-Ikrām | Possessor of Glory and Bounty |
+| ذو الجلال والإكرام | Dhū al-Jalāl wa al-Ikrām | Possessor of Glory and Bounty |
 | مقيم | Muqīm | The Maintainer; The Establisher |
 | الشاكور | Ash-Shākūr | The Grateful |
 | جبار | Jabbār | The Restorer |

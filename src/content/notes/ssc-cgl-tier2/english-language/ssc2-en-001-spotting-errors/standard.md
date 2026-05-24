@@ -23,7 +23,7 @@ Spotting Errors is one of the most high-frequency topics in SSC CGL Tier 2 Engli
 The key skill here is **grammatical accuracy under time pressure**. You need to develop the habit of scanning the entire sentence systematically rather than reading it once and guessing. Most errors in SSC questions fall into predictable patterns.
 
 ### Key Points
-- **Subject-Verb Agreement**: Watch for intervening phrases between subject and verb. "The盒 of the students were" — "box" is singular, so "was" is correct despite "students" being plural nearby.
+- **Subject-Verb Agreement**: Watch for intervening phrases between subject and verb. "The box of the students were" — "box" is singular, so "was" is correct despite "students" being plural nearby.
 - **Tense Consistency**: In complex sentences, the main clause and subordinate clause must have logically consistent tenses. "If I knew, I will help" → "would help."
 - **Article Errors**: "The" vs "a/an" misuse. "Honest" takes "an" because the sound matters, not the spelling. "A honest man" is wrong.
 - **Preposition Errors**: Fixed prepositions are often tested with idioms — "independent of," "afraid of," "comprised of" (not "comprised from").

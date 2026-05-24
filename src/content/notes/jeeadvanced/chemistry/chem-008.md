@@ -188,7 +188,7 @@ Can also be viewed as 2PbO·PbO₂
 **N-Factor (Total Change in O.N.) in Complex Redox Systems:**
 
 For a compound that can act as both oxidizing and reducing agent (amphoteric redox):
-- I₂ in碱性 medium undergoes disproportionation: I₂ + 2OH⁻ → I⁻ + OI⁻ + H₂O
+- I₂ in alkaline medium undergoes disproportionation: I₂ + 2OH⁻ → I⁻ + OI⁻ + H₂O
 - NO₂ in water: 2NO₂ + H₂O → HNO₂ + HNO₃ (disproportionation)
 
 **n-Factor for compounds with multiple atoms of the same element in different environments:**

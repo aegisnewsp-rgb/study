@@ -200,7 +200,7 @@ generated: "2026-03-25T17:00:00"
 
 **Narrow River (Arkavathi tributary) Pollution**:
 - 80% of Bangalore's sewage flows into Narrow River
-- Major污染源: Industrial effluents from peenya industrial area; untreated domestic sewage
+- Major pollution sources: Industrial effluents from peenya industrial area; untreated domestic sewage
 - River restoration: National Green Tribunal orders; river rejuvenation project ongoing
 
 **Sand Mining in Karnataka**:

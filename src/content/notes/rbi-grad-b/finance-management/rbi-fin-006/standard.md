@@ -46,7 +46,7 @@ Let me break this down from the ground up — because management theory is one o
 | Span of Control | Number of subordinates directly reporting to a manager |
 | Centralization | Degree to which decision-making authority is concentrated at the top |
 | Authority | Right to give commands and expect compliance |
-| Responsibility | Accountability for完成任务 |
+| Responsibility | Accountability for completing tasks |
 
 ### Real-World Example (RBI Context)
 RBI's organizational structure applies Fayol's principles directly. The Governor sits at the top of the scalar chain, with Deputy Governors heading different functional areas (Monetary Policy, Financial Markets, Banking Supervision, etc.). Each department has a clear chain of command (Unity of Command), specialized divisions handle specific functions (Division of Work), and the internal performance review process operates as a form of Management by Objectives where departmental targets are set and measured.

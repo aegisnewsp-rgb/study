@@ -303,7 +303,7 @@ CH₃-CO-R + 3NaOX → CHX₃ + R-COO⁻ + 3Na⁺ (where X = Cl, Br, I)
 
 **Mechanism of Haloform Reaction:**
 1. Halogenation of α-carbon (under basic conditions): CH₃-CO-CH₂-R + X₂ → CH₃-CO-CHX-R + HX
-2.重复卤代直到所有α-H被取代
+2. Repeat halogenation until all α-H atoms are substituted
 3. Hydroxide attacks carbonyl: forms tetrahedral intermediate
 4. Cleavage: C-C bond breaks, gives carboxylate and CHX₃
 

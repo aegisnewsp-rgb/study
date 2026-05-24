@@ -17,7 +17,7 @@ generated: "2026-03-25T17:00:00"
 
 The Analytical Reasoning section of the LSAT—commonly known as "Logic Games"—is one of four scored sections on the test and typically comprises approximately 22-24 questions. This section tests your ability to understand a complex set of conditions and relationships, then draw logical deductions from them. Unlike Logical Reasoning questions, which present an argument you must evaluate, Analytical Reasoning presents a scenario with rules, and you must determine what must, could, or cannot be true based on those rules.
 
-Each Logic Game consists of a scenario (a description of a situation), a set of rules (conditions that govern the scenario), and typically 5-7 questions testing various deductions. The four major categories of Logic Games are: sequencing, grouping,分配的 (arrangement), and hybrid games combining elements of the above. Your goal is to develop a systematic method for diagramming and solving these games efficiently.
+Each Logic Game consists of a scenario (a description of a situation), a set of rules (conditions that govern the scenario), and typically 5-7 questions testing various deductions. The four major categories of Logic Games are: sequencing, grouping, arrangement, and hybrid games combining elements of the above. Your goal is to develop a systematic method for diagramming and solving these games efficiently.
 
 **Key Facts:**
 - The Analytical Reasoning section typically has 22-24 questions

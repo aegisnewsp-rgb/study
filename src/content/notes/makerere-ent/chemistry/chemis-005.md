@@ -198,7 +198,7 @@ Both carbons have four different groups (H, OH, COOH, CH₃) → chiral → enan
 **Chiral molecules without carbon stereocenters:**
 - Allenes (cumulative double bonds): C=C=C with four different substituents on terminal carbons
 - Spiranes: Two rings joined at one carbon
-- Chiral轴: Biaryls with restricted rotation (atropisomerism)
+- Chiral axis: Biaryls with restricted rotation (atropisomerism)
 
 ## 5. Diastereomers
 

@@ -148,7 +148,7 @@ R–CHO + HCN → R–CH(OH)–CN (cyanohydrin)
 **⚠️ Toxicity**: HCN and cyanides are extremely toxic — handle with care.
 
 **Example**: Propanone + HCN → 2-hydroxy-2-methylpropanenitrile (acetone cyanohydrin)
-Used in: Synthesis of hydroxy acids, lactones, as intermediate in有机合成.
+Used in: Synthesis of hydroxy acids, lactones, as intermediate in organic synthesis.
 
 ### 5.2 Addition of Sodium Hydrogensulfite (NaHSO₃)
 R–CHO + NaHSO₃ → R–CH(OH)–SO₃Na (bisulfite addition compound)

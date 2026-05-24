@@ -493,7 +493,7 @@ E(X) = Σ[x × P(x)]
 
 #### Business Application: Descriptive Statistics for Business
 
-**常用 Business Statistics in Sri Lanka**:
+**Commonly Used Business Statistics in Sri Lanka**:
 
 **Sales Analysis**:
 - Average daily sales

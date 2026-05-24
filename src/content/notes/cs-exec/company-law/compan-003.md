@@ -364,7 +364,7 @@ diagramPrompt: "Clean educational diagram showing the hierarchy of company meeti
 
 **Filing Requirements:**
 - **MGT-4:** Return of takeovers and acquisitions (not relevant to meetings)
-- **MGT-5:** Return of一批/compromise/amalgamation (not relevant here)
+- **MGT-5:** Return of arrangement/compromise/amalgamation (not relevant here)
 - **MGT-7:** Annual Return (includes details of meetings held)
 - Resolutions passed must be filed with RoC within 30 days (Form MGT-4 for certain resolutions)
 
@@ -579,7 +579,7 @@ diagramPrompt: "Clean educational diagram showing the hierarchy of company meeti
 4. Proxy appointment obtained by fraud/misrepresentation
 5. Proxy form torn/defaced so resolution is unclear
 
-**⚡ Exam tip:** Always check the 48-hour deposit rule — this is one of the most commonly tested细节 in exams
+**⚡ Exam tip:** Always check the 48-hour deposit rule — this is one of the most commonly tested details in exams
 
 **Corporate Representative (Section 113):**
 - Body corporate (company/LLP) holding shares must appoint:

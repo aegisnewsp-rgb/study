@@ -23,7 +23,7 @@ generated: "2026-04-14T08:03:00"
 - Forts: Red Fort (Delhi), Gwalior Fort (MP), Jhansi Fort (UP), Mehrangarh (Rajasthan)
 - Main pilgrimage circuits: Char Dhams (Badrinath, Kedarnath, Gangotri, Yamunotri), Puri, Tirupati, Shirdi
 
-**Key cultural institutions:** National Museum (Delhi),印度 Indian Museum (Kolkata), Victoria Memorial (Kolkata)
+**Key cultural institutions:** National Museum (Delhi), Indian Museum (Kolkata), Victoria Memorial (Kolkata)
 - Folk music: Lavani (Maharashtra), Bihu (Assam), Garba (Gujarat), Ghoomar (Rajasthan)
 - Important festivals: Diwali, Holi, Eid, Christmas, Baisakhi, Pongal, Onam, Navratri
 

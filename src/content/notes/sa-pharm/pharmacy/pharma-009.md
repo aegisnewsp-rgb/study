@@ -259,7 +259,7 @@ Paradoxically, heparin can cause thrombosis (not bleeding) through an immune mec
 | SJS/TEN | Mucocutaneous blistering; ± ocular involvement | Sulphonamides, anticonvulsants, allopurinol, NSAIDs |
 | DRESS | Fever, rash, eosinophilia, organ involvement | Aromatic anticonvulsants, allopurinol, sulfonamides |
 | Photosensitivity | Enhanced sunburn | Tetracyclines (especially doxycycline), fluoroquinolones, thiazides |
-| Exfoliative dermatitis | Erythroderma;全身红斑鳞屑性皮炎 | Gold, penicillamine, sulfasalazine, anticonvulsants |
+| Exfoliative dermatitis | Erythroderma; generalized erythematous scaly dermatitis | Gold, penicillamine, sulfasalazine, anticonvulsants |
 
 ### Other Notable ADRs
 

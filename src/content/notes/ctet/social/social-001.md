@@ -14,7 +14,7 @@ generated: "2026-03-25T17:00:00"
 
 ## The Origin of the Earth
 
-The most widely accepted scientific explanation for Earth's origin is the **Big Bang Theory**. Approximately 13.8 billion years ago, all matter and energy in the universe was compressed into an extremely hot, dense point that exploded向外扩张. This expansion continues today.
+The most widely accepted scientific explanation for Earth's origin is the **Big Bang Theory**. Approximately 13.8 billion years ago, all matter and energy in the universe was compressed into an extremely hot, dense point that exploded and expanded outward. This expansion continues today.
 
 ### Formation of the Solar System
 

@@ -71,7 +71,7 @@ Understanding word parts lets you decode unfamiliar words:
 | -cide | killing | pesticide, herbicide |
 | -ectomy | surgical removal | appendectomy |
 | -er/-or | one who does | teacher, conductor |
-| -fest | festival |耿kongress, songfest |
+| -fest | festival | songfest |
 | -ful | full of | careful, powerful |
 | -genous | producing | indigenous, endogenous |
 | -graph | writing/recording | photograph, telegraph |

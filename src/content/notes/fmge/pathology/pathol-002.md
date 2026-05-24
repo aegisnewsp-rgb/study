@@ -114,7 +114,7 @@ High-yield point: Cardinal signs of inflammation (Rubor, Calor, Tumor, Dolor, Fu
 
 ### Exudate Types
 
-- **Serous**: Clear, watery (烫伤, early inflammation)
+- **Serous**: Clear, watery (burns, early inflammation)
 - **Fibrinous**: Yellow-white, fibrin strands (diphtheria, rheumatic carditis, lobar pneumonia)
 - **Hemorrhagic**: RBCs present (trauma, malignancy, hemorrhagic infarcts)
 - **Suppurative/Purulent**: Creamy yellow pus (Staphylococcus, Streptococcus)

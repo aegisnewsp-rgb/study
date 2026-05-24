@@ -133,7 +133,7 @@ RuPay cards issued under Jan Dhan provide coverage under the **Paashupdatra** (a
 **BHIM (Bharat Interface for Money):**
 - Named after Dr. Bhimrao Ambedkar
 - Launched December 2016 by PM Narendra Modi
-- Allows instant money transfer using UPI or扫描 QR code
+- Allows instant money transfer using UPI or by scanning a QR code
 - No need to share bank account number — just scan and pay
 
 **UPI Architecture:**

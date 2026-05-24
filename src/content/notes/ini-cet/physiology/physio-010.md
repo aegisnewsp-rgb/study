@@ -46,7 +46,7 @@ generated: "2026-03-25T17:00:00"
 - **Tests**: IGF-1 level (integrated GH secretion), GH stimulation test (for deficiency), GH suppression test (for excess — oral glucose load should suppress GH to <1 ng/mL; fails to suppress in acromegaly)
 
 **Prolactin**:
-- **Secretion**: Primarily inhibited by **dopamine** (tonic inhibition); ↑ in pregnancy (estrogen刺激 lactotrophs); TRH also stimulates
+- **Secretion**: Primarily inhibited by **dopamine** (tonic inhibition); ↑ in pregnancy (estrogen stimulates lactotrophs); TRH also stimulates
 - **Function**: Stimulates breast development during pregnancy; initiates and maintains lactation (milk production)
 - **Hyperprolactinemia**: Galactorrhea, amenorrhea, ↓libido, infertility; causes: prolactinoma, antipsychotics (dopamine antagonists), hypothyroidism
 

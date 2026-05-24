@@ -187,7 +187,7 @@ Granuloma: Collection of epithelioid macrophages surrounded by lymphocytes + occ
 **Phase 4 — Remodelling (3 weeks to years):**
 - Collagen remodelling: Type III collagen replaced by Type I (stronger); cross-linking increases; wound tensile strength increases
 - Myofibroblasts disappear (apoptosis) → scar contraction
-- Scar matures: Becas扁平 and pale; cellularity decreases; vascular regression → avascular scar
+- Scar matures: Becomes flat and pale; cellularity decreases; vascular regression → avascular scar
 - Tensile strength: 30% at 1 week, 50% at 3 weeks, 80% at 3 months; never returns to 100% (remains at ~80% maximum)
 - Scar is metabolically active for years — collagen continues to be remodelled
 

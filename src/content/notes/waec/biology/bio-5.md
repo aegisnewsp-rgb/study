@@ -47,7 +47,7 @@ Mouth → Pharynx → Oesophagus → Stomach → Small intestine (duodenum + jej
 | Maltase | Ileum | Maltose | Glucose |
 | Lipase | Duodenum | Fats | Fatty acids + Glycerol |
 
-⚡ **WAEC Tip:** Remember the substrate for each enzyme. A common question is "Name the enzyme that digests蛋白质 (proteins) in the stomach" — answer is **pepsin**. The inactive form (pepsinogen) is activated by HCl.
+⚡ **WAEC Tip:** Remember the substrate for each enzyme. A common question is "Name the enzyme that digests proteins in the stomach" — answer is **pepsin**. The inactive form (pepsinogen) is activated by HCl.
 
 ---
 
@@ -62,13 +62,13 @@ The muscular walls of the alimentary canal contract rhythmically to push food al
 This is **involuntary** and continues even if you are upside down!
 
 **The Stomach:**
-- **容量**: About 1.5 litres
+- **Capacity**: About 1.5 litres
 - **Gastric glands** secrete:
   - **HCl**: Creates acidic pH (≈2) — kills bacteria, activates pepsinogen
   - **Pepsinogen**: Inactive enzyme activated to pepsin by HCl
   - **Mucus**: Protects stomach lining from HCl
   - **Intrinsic factor**: Required for vitamin B₁₂ absorption
-- **Food停留**: 2-6 hours; proteins denatured by HCl
+- **Food retention**: 2-6 hours; proteins denatured by HCl
 - **Chyme**: Semi-liquid food mixture released into duodenum
 
 **The Small Intestine:**

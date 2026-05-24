@@ -25,7 +25,7 @@ Management control systems have evolved through distinct phases. In the early 20
 
 The modern view, articulated by merchant scholars like Merchant and Simons, recognizes that control systems must address three distinct problems:
 1. **Results control**: Measure outcomes and compare to targets (budgets, KPIs, ROI)
-2. **行为控制 (Action/Behavior control)**: Ensure people follow correct procedures (SOPs, policies, authorization limits)
+2. **Action/Behavior control**: Ensure people follow correct procedures (SOPs, policies, authorization limits)
 3. **Personnel control**: Hire and retain competent people who self-control (selection, training, culture)
 
 In a central bank, all three operate simultaneously: RBI's Annual Report and financial statements address results control; its circulars and guidelines address behavior control; its recruitment examination and training programs (like the Bankers' Training College in Mumbai) address personnel control.
@@ -109,7 +109,7 @@ RBI's Prompt Corrective Action framework is the most consequential control syste
 
 When triggered, the **interventions escalate**:
 - **Susceptible:** Restriction on dividend declaration, higher provisions, supervisory action plan
-- **Serious:** Restriction on branch expansion,强制 recapitalization,强制 merger or acquisition
+- **Serious:** Restriction on branch expansion, forced recapitalization, forced merger or acquisition
 - **Critical:** RBI may approach the central government for resolution — merger with stronger bank, reconstruction, or winding up
 
 The 2020 YES Bank crisis and the 2018-19 IL&FS default tested India's financial control framework severely. The PCA framework's ability to catch deterioration early is crucial for financial stability — but critics note that PCA was already triggered on IL&FS at an early stage, yet the group's liquidity crisis still cascaded through the system.
@@ -125,7 +125,7 @@ These are often confused but operate differently:
 | Timing | Real-time, simultaneous with transactions | Periodic, retrospective |
 | Scope | Focused on high-risk areas (cash, advances, compliance) | Comprehensive, covers all areas |
 | Authority | Reports to Branch Manager and Audit Department | Reports directly to Audit Committee/Board |
-|频率 | Continuous | Quarterly or half-yearly |
+| Frequency | Continuous | Quarterly or half-yearly |
 | RBI Mandate | Required for banks with >200 branches | Required for all banks |
 
 RBI's Internal Audit Department (IAD) conducts comprehensive audits of RBI's own offices — including regional offices and the Nagpur and Coin Depositories. The rigors of this internal control is essential for RBI to maintain its credibility as a banking regulator.

@@ -38,7 +38,7 @@ Mirror formula: $\frac{1}{f} = \frac{1}{u} + \frac{1}{v}$ where $f$ = focal leng
 $n_1 \sin\theta_1 = n_2 \sin\theta_2$ where $n$ = refractive index. For light going from rarer to denser medium: bends towards normal ($\theta_2 < \theta_1$). Absolute refractive index $n = c/v$ where $c = 3 \times 10^8$ m/s.
 
 **Critical Angle and Total Internal Reflection (TIR):**
-When light goes from denser to rarer: $\sin\theta_c = n_2/n_1$. If $\theta_i > \theta_c$, total internal reflection occurs.钻石 $n = 2.42$, so $\theta_c = \sin^{-1}(1/2.42) = 24.4°$. That's why diamonds sparkle — low critical angle leads to many internal reflections.
+When light goes from denser to rarer: $\sin\theta_c = n_2/n_1$. If $\theta_i > \theta_c$, total internal reflection occurs. Diamond has $n = 2.42$, so $\theta_c = \sin^{-1}(1/2.42) = 24.4°$. That's why diamonds sparkle — low critical angle leads to many internal reflections.
 
 ⚡ **Exam tip:** TIR only occurs when light travels from a denser to a rarer medium AND the angle of incidence exceeds the critical angle. A common mistake is trying to apply TIR when going from rarer to denser.
 

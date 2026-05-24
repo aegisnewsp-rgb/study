@@ -188,7 +188,7 @@ The teacher starts formally but shifts to a more personal, casual register when 
 ## Training Your Ear for Accent and Register
 
 **Daily practice habits:**
-- Listen to **Malaysian English podcasts** (such as上了code podcasts, local news) to familiarise yourself with Malaysian-accented English
+- Listen to **Malaysian English podcasts** (such as local news) to familiarise yourself with Malaysian-accented English
 - Watch **international films and series** in English and note how different characters from different backgrounds sound
 - Practice with **British Council's LearnEnglish listening materials**, which include diverse accents
 - Use **CBC Radio (Canada) or ABC News (Australia)** for free news audio with clear, accessible accents

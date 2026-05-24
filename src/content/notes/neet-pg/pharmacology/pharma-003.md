@@ -53,7 +53,7 @@ generated: "2026-03-25T17:00:00"
 
 | Drug | Reversibility | Clinical Use | Notes |
 |---|---|---|---|
-| **Edrophonium** | Rapid/reversible | Myasthenia gravis (diagnosis), Torsades | Very short acting; N作用短 |
+| **Edrophonium** | Rapid/reversible | Myasthenia gravis (diagnosis), Torsades | Very short acting; short duration |
 | **Neostigmine** | Reversible (competitive) | Myasthenia gravis, reversal of NMJ block, ileus | Quaternary amine (doesn't cross BBB) |
 | **Pyridostigmine** | Reversible (competitive) | Myasthenia gravis (longer acting than neostigmine) | Also used in orthostatic hypotension |
 | **Physostigmine** | Reversible (competitive) | Anticholinergic toxicity (crosses BBB) | Tertiary amine (crosses BBB) |
@@ -172,7 +172,7 @@ generated: "2026-03-25T17:00:00"
 |---|---|---|---|
 | **Parasympathetic** | ACh | Muscarinic (M2/M3) | Rest and digest |
 | **Sympathetic (most)** | NE | α1, β1, β2 | Fight or flight |
-| **Sympathetic (sweat glands)** | ACh | Muscarinic (M3) | Sympathetic cholinergic (唯一例外) |
+| **Sympathetic (sweat glands)** | ACh | Muscarinic (M3) | Sympathetic cholinergic (the only exception) |
 | **Adrenal medulla** | ACh | Nn | Secretion of Epi/NE |
 | **Sympathetic (vasodilator)** | ACh | M | Active vasodilation in skeletal muscle |
 

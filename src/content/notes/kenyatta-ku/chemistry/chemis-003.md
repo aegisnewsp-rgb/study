@@ -177,7 +177,7 @@ CH₃–CH=CH₂ + [O] + H₂O → CH₃–CH(OH)–CH₂OH   (propane-1,2-diol)
 **Strong Oxidation (Hot concentrated KMnO₄ or CrO₃):**
 Cleaves the C=C bond completely:
 - Disubstituted carbon → carboxylic acid (RCOOH)
-- Monosubstituted carbon → CO₂ (or HCOOH if末端)
+- Monosubstituted carbon → CO₂ (or HCOOH if terminal)
 - Terminal alkene → CO₂
 
 **Example:**

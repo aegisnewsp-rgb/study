@@ -172,7 +172,7 @@ Found in **plateau and plain areas** across Rajasthan:
 **Kumbhalgarh Wildlife Sanctuary (Rajsamand/Udaipur):**
 - **Location:** Part of the Aravalli range
 - **Area:** 608 sq km
-- **Vegetation:** Dry deciduous forest — dhok,极力
+- **Vegetation:** Dry deciduous forest — dhok
 - **Significance:** Part of the **Northern Aravalli Leopard Wildlife Corridor** — connects Ranthambore to the Kumbhalgarh forests, allowing tigers and leopards to move between populations
 
 **Sariska Tiger Reserve (Alwar):**

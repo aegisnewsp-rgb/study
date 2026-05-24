@@ -76,7 +76,7 @@ India has two major stock exchanges:
 - First dematerialized electronic exchange in India
 - Located in Mumbai
 - NSE's benchmark index is **Nifty 50** (comprising 50 of the largest and most liquid stocks listed on the NSE)
-- **NSE's trading platform** is entirely electronic (屏幕 based on Bloomberg technology, later replaced by own system)
+- **NSE's trading platform** is entirely electronic (screen-based, originally based on Bloomberg technology, later replaced by own system)
 
 **2. Bombay Stock Exchange (BSE):**
 - Established in 1875 as the **Native Share and Stock Brokers' Association** — the oldest stock exchange in Asia

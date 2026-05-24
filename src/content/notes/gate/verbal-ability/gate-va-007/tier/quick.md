@@ -8,7 +8,7 @@ topicName: Analogy
 tier: quick
 weight: 2
 weight_unit: "% of GA section"
-diagramPrompt: "Balance scale diagram: LEFT = 'Composer : Music' (worker creates product), RIGHT = 'Pen : Paper' (tool作用于object)"
+diagramPrompt: "Balance scale diagram: LEFT = 'Composer : Music' (worker creates product), RIGHT = 'Pen : Paper' (tool acts on object)"
 country: India
 generated: ai-v1
 ---

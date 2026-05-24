@@ -104,7 +104,7 @@ These are common and require decomposing the figure into standard shapes. Consid
 
 **Compound Shapes Involving Circles**
 
-The classic "四个圆互相外切" type: four circles of radius r are arranged so each touches two neighbours. The centres form a square of side 2r. The region in the centre (curvilinear quadrilateral) can be found by adding four sector areas and subtracting the square.
+The classic "four mutually externally tangent circles" type: four circles of radius r are arranged so each touches two neighbours. The centres form a square of side 2r. The region in the centre (curvilinear quadrilateral) can be found by adding four sector areas and subtracting the square.
 
 For circles inscribed in sectors: if a circle of radius r is inscribed in a sector of radius R and angle θ (radians), the relationship is r = R sin(θ/2) / (1 + sin(θ/2)).
 

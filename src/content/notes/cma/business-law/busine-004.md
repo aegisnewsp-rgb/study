@@ -235,7 +235,7 @@ Must be presented to drawee:
 
 ### When Presentment Excused
 - No reasonable diligence possible
-- Drawee is虚拟 ( fictitious)
+- Drawee is fictitious
 - Presentment would be useless
 
 ## 9. Dishonour (Sections 91–92)

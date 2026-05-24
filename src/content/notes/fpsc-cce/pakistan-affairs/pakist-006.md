@@ -74,7 +74,7 @@ generated: "2026-03-25T17:00:00"
 - No high-level diplomatic dialogue
 - Regular skirmishes along LoC
 - Both nuclear-armed states
-- **Risk of miscalculation**:常に
+- **Risk of miscalculation**: ever-present
 
 ## Pakistan-China Relations
 

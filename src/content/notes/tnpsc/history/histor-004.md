@@ -97,7 +97,7 @@ The early Vedic society was relatively egalitarian, with no rigid caste system:
 
 - **Brahminical orthodoxy strengthened:** Elaborate rituals and priestly authority expanded
 - **Debates on rituals:** The Kshatriya Janapadas of Videha (king Mucala) and Magadha saw the rise of heterodox traditions — Jainism, Buddhism, and Ajivika
-- **Upanishads:** Philosophical texts (林中哲学) began to be composed, questioning the authority of Vedas and exploring concepts of Brahman, Atman, and karma
+- **Upanishads:** Philosophical texts (forest philosophy) began to be composed, questioning the authority of Vedas and exploring concepts of Brahman, Atman, and karma
 
 ### Economic Changes
 

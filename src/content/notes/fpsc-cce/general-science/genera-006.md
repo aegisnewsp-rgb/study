@@ -187,7 +187,7 @@ generated: "2026-03-25T17:00:00"
 |---------|--------|--------|---------|
 | Standby Arrangement | 1958 | $15M | First program |
 | Extended Fund Facility | 2013 | $6.7B | Completed |
-| Extended Arrangement | 2019 | $6B |的程序 (ended early by Imran Khan) |
+| Extended Arrangement | 2019 | $6B | Program (ended early by Imran Khan) |
 | New Program | 2023 | $3B | Current program |
 
 ### Conditionalities

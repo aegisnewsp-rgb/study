@@ -509,7 +509,7 @@ The same logic applies, but now the average is of variable costs only.
 #### 2. Managerial Economies
 
 - **Specialization of management**: Larger firms can afford dedicated managers for specific functions (marketing, finance, production)
-- **中层管理**: Professional middle management layers become viable at large scale
+- **Middle management**: Professional middle management layers become viable at large scale
 
 #### 3. Financial Economies
 

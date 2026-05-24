@@ -51,7 +51,7 @@ If DEEP is coded as GJHW:
 D→G (+3), E→J (+3), E→H (+2), P→W (+2)
 Pattern: alternate +3, +3, +2, +2
 
-If TABLE is coded as X欢OU (in a number pattern):
+If TABLE is coded using a number pattern:
 T(20) + 5 = Y(25) → but answer was different...
 ```
 

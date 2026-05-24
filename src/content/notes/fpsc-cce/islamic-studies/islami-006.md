@@ -103,7 +103,7 @@ generated: "2026-03-25T17:00:00"
 
 **Al-Mansur (Manuger) — The Victorious**:
 - **Regent** (not a ruler by title)
-- **实际统治者**: De facto ruler for Hisham II
+- **Actual ruler**: De facto ruler for Hisham II
 - **Military campaigns**: Devastating raids against Christian kingdoms
 - **Sacked Santiago de Compostela**: 997 CE — carried bells back to Córdoba
 - Built **Medina Azahara** further

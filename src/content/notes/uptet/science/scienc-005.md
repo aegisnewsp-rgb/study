@@ -160,7 +160,7 @@ Nitrogen is 78% of the atmosphere but cannot be used directly by most organisms.
 
 | Biome | Climate | Vegetation | Example |
 |---|---|---|---|
-| Tropical rainforest | Hot, wet year-round | Dense,多层 canopy, high biodiversity | Amazon, Western Ghats |
+| Tropical rainforest | Hot, wet year-round | Dense, multi-layered canopy, high biodiversity | Amazon, Western Ghats |
 | Desert | Hot/dry or cold/dry | Xerophytic plants, cacti | Thar Desert, Rajasthan |
 | Tundra | Extremely cold | Mosses, lichens, no trees | Himalayas above 4000m |
 | Savanna | Warm, seasonal rainfall | Grasses, scattered trees | African savanna |

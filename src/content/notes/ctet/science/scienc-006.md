@@ -151,7 +151,7 @@ Friction is the force that opposes the relative motion between two surfaces in c
 
 **Reducing friction**: Lubrication (oil), ball bearings (rolling friction < sliding), polishing surfaces.
 
-**Increasing friction**: Tread patterns in shoes, anti-skid mats,雪 chains on tires.
+**Increasing friction**: Tread patterns in shoes, anti-skid mats, snow chains on tires.
 
 ### Momentum
 

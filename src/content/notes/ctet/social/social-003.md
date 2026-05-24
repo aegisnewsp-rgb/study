@@ -111,7 +111,7 @@ India has a **bicameral Parliament** at the Centre:
 
 ### Rajya Sabha (Council of States)
 - Upper house, maximum 250 members (currently 233)
-- **Indirectly elected**: By elected members of state legislative assemblies (比例ally by single transferable vote)
+- **Indirectly elected**: By elected members of state legislative assemblies (proportionally by single transferable vote)
 - Term: 6 years, 1/3 retire every 2 years (rotational)
 - **Special powers**: Can introduce bills for the creation of new states, can recommend creation of new All-India Services
 

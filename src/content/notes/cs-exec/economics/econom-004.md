@@ -206,7 +206,7 @@ In perfect competition: AR = MR = P (all equal to market price)
 3. **Patents and Copyrights**:
    - Government-granted exclusive rights
    - 20-year patent protection for inventions
-   -激励 R&D investment
+   - Incentivize R&D investment
    - Examples: Pharmaceutical patents (Pfizer's drugs)
 
 4. **Government Licenses and Franchises**:

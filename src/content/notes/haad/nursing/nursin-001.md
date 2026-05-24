@@ -37,7 +37,7 @@ Vital signs are the most fundamental objective measurements of a patient's physi
 
 ### Temperature
 - **Normal range:** 36.5°C–37.5°C (97.7°F–99.5°F)
-- **Methods:** Oral (most common), tympanic (耳道 — accurate in infants), axillary (least accurate), rectal (most accurate but reserved for specific cases)
+- **Methods:** Oral (most common), tympanic (ear canal — accurate in infants), axillary (least accurate), rectal (most accurate but reserved for specific cases)
 - **Fever (pyrexia):** Oral temperature > 37.5°C sustained
 - **Hyperthermia:** > 40°C — medical emergency
 - **Hypothermia:** < 35°C — medical emergency

@@ -207,7 +207,7 @@ In India, socioeconomic and cultural differences significantly affect learning:
 - Use home language for initial instruction (NEP 2020 supports multilingual approaches)
 - Connect learning to children's lived experiences
 - Provide additional support for disadvantaged children
-- Never羞辱 or shame children from poor backgrounds
+- Never humiliate or shame children from poor backgrounds
 - Be aware of hidden biases
 
 ## CTET Exam Pattern Summary

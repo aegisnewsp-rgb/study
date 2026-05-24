@@ -179,7 +179,7 @@ Sequence questions appear as:
 2. Find a specific term given the pattern
 3. Complete a partially filled sequence
 4. Identify the rule from multiple sequences
-5. Sequence word problems: "A细菌 culture has 500 bacteria, doubling every hour. How many after 10 hours?" → geometric: 500 × 2^10 = 512,000.
+5. Sequence word problems: "A bacterial culture has 500 bacteria, doubling every hour. How many after 10 hours?" → geometric: 500 × 2^10 = 512,000.
 
 ⚡ **Exam Strategy:** For tricky sequences, try computing first 3–4 differences systematically. If first differences aren't constant, compute second differences. If those are constant, it's a quadratic. For interleaved sequences, check whether odd positions form one pattern and even positions another.
 

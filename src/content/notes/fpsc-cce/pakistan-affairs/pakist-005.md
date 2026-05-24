@@ -176,7 +176,7 @@ generated: "2026-03-25T17:00:00"
 **Imported Fuel Problem**:
 - Oil and gas imported → foreign exchange strain
 - Rupee depreciation → fuel costs rise
-- Electricity tariffs rise → industry竞争力下降
+- Electricity tariffs rise → industry competitiveness declines
 
 ### 4. China-Pakistan Economic Corridor (CPEC)
 

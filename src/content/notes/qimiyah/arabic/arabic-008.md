@@ -71,7 +71,7 @@ Letters have qualities (ṣifāt) that describe HOW they are pronounced:
 |---------|---------|-------------|
 | الجهر (al-Jahr) — Voiced | همس (Hamās) — Unvoiced | Voiced vs. voiceless |
 | الشدة (Ash-Shiddah) — Tight | رخاوة (Rakhāwah) — Loose | Tight constriction vs. relaxed |
-| الاستعلاء (Al-Isti'lā') — Raised | الان不和 (Al-Infita') | Pharyngealization (emphasis) |
+| الاستعلاء (Al-Isti'lā') — Raised | الانفتاح (Al-Infitā') — Lowered | Pharyngealization (emphasis) |
 | الهمس (Al-Hamās) | الجهر (Al-Jahr) | Whispered vs. voiced |
 
 **The Solar Letters (الحروف الشمسية)** — These letters are pronounced with a slight ish-shamsiyyah (solar quality) and cause the lam of the definite article to be absorbed:
@@ -92,7 +92,7 @@ Pronounce noon and tanween clearly, with no nasalization, when followed by one o
 ### 2. الإدغام (Al-Idghām)
 Merge noon and tanween into the following letter (with ghunnah) when followed by one of these six letters: و، م، ن، ل، ر، ي.
 
-**The merged letters** are: **و (waw), م (mim), ن (nun), ل (lam), ر (ra), ي (ya)** — **"نون冗" or "ومن لري"** (memorize as "WAMN LRY" or "1-2-3-4-5-6" with و، م، ن، ل، ر، ي)
+**The merged letters** are: **و (waw), م (mim), ن (nun), ل (lam), ر (ra), ي (ya)** — **"ومن لري"** (memorize as "WAMN LRY" or "1-2-3-4-5-6" with و، م، ن، ل، ر، ي)
 
 **Verse example**: مِنْ نِعْمَةٍ (min ni'matin) — "from a blessing" — noon merges into nun with ghunnah
 
@@ -212,7 +212,7 @@ When reading the definite article ال (al-), the lam takes different pronunciat
 
 **3. الوقف التهجدي (Taḥqīqī stopping)**: Precise pronunciation with the full vowel — used in formal recitation.
 
-**4. الوقف على حرف下一个**: When a verse ends with a connected letter (i.e., the next verse begins with the same letter), the reciter may pause.
+**4. الوقف على حرف (the next letter)**: When a verse ends with a connected letter (i.e., the next verse begins with the same letter), the reciter may pause.
 
 ## Elongation (المد)
 

@@ -27,9 +27,9 @@ The cluster subjects for Cluster 7 (Education) are structured around your teachi
 - **Third Subject** — C+ minimum; can be any KCSE subject
 
 Common teaching subject combinations include:
-- **Science组合**: Mathematics + Physics/Chemistry/Biology
-- **Arts组合**: English + History/Kiswahili/Geography/Religious Education
-- **Business组合**: Mathematics + Economics/Accounting
+- **Science combination**: Mathematics + Physics/Chemistry/Biology
+- **Arts combination**: English + History/Kiswahili/Geography/Religious Education
+- **Business combination**: Mathematics + Economics/Accounting
 
 Some universities also offer a Bachelor of Education in Early Childhood Education, Special Needs Education, and Physical Education, which may have slightly different entry requirements.
 

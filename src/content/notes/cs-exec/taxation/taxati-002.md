@@ -155,7 +155,7 @@ A company has branches in Delhi, Maharashtra, and Karnataka. The turnover of all
 > - Provision by a club, association, society, or any organization **for a consideration** (whether realized in cash or otherwise)
 > - **Service of making supply** of goods or services by one **unit of a business** to another unit of the same business
 > - **Admission**, for a consideration, of persons to **premises** (clubs, hotels, etc.)
-> - **Services of定型 hire purchase**, lease, or any other manner of **disposal of goods**
+> - **Services of hire purchase**, lease, or any other manner of **disposal of goods**
 > - **Sale or transfer of goods** in the course of business
 > - **Importation of services** (whether or not in the course of business)
 > - **Discontinued activities** (even if discontinued after commencement of this Act)

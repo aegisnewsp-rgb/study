@@ -222,7 +222,7 @@ Companies meeting any of the following in the preceding financial year must cons
 
 **RBI's Corporate Governance Guidelines for Banks (2024+):**
 - Fit and proper criteria for directors
--限制Maximum number of board positions
+- Restriction on the maximum number of board positions
 - Board committees must meet minimum number of times
 - Risk management committee composition and responsibilities
 - Disclosure of beneficial ownership

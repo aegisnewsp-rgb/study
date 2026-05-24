@@ -125,7 +125,7 @@ Every listed company must submit a quarterly corporate governance report to the 
 3. A recipient of UPSI (tippee) trades in the securities
 
 *Preventive Measures — Trading Window:*
-- The company must封闭 (close) the trading window for insiders during designated periods (e.g., 7 days before and after board meetings)
+- The company must close the trading window for insiders during designated periods (e.g., 7 days before and after board meetings)
 - Directors and specified employees cannot trade in the company's securities during the trading window closure period
 - The compliance officer (usually the Company Secretary) is responsible for maintaining the trading window closure list
 

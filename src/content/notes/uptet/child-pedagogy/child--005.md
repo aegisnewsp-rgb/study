@@ -221,7 +221,7 @@ Albert Bandura (1963) showed children learned aggressive behavior by watching ad
 5. Peer tutoring and cooperative learning
 
 **NCF 2005 on Diverse Learners**:
-- Emphasizes "零距离" (zero rejection) — no child should be left out
+- Emphasizes "zero rejection" — no child should be left out
 - Continuous and Comprehensive Evaluation (CCE) instead of high-stakes exams
 - Activity-based, child-centred pedagogy
 - Teachers as facilitators, not just knowledge transmitters

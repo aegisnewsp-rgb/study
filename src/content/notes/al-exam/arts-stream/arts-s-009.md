@@ -197,7 +197,7 @@ generated: "2026-03-25T17:00:00"
 9. **Equality**: Gender equality, disability rights, minority rights
 10. **Leadership**: Youth leadership, good governance
 
-**Famous Sri Lankan Figures for引用**:
+**Famous Sri Lankan Figures for Quotation**:
 - **Sri Lankan proverbs**: "Kele aramba wattaramaya" (Lazy beginning, fearful end)
 - **Mahinda Rajapaksa**: Former President, championed development
 - **Professor G. L. Peiris**: Distinguished academic and politician

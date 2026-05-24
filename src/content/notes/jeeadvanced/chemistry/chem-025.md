@@ -125,7 +125,7 @@ Industrial: Fe/HCl is cheaper
 **4. From Amides (Hofmann Bromamide Reaction):**
 ```
 R–CONH₂ + Br₂ + 4NaOH → R–NH₂ + CO₃²⁻ + 2NaBr + H₂O
-酰胺 → 1° amine with loss of one carbon
+Amide → 1° amine with loss of one carbon
 Mechanism: Bromination → dehydrohalogenation → isocyanate → hydrolysis → amine
 ```
 ⚡ This is THE go-to method for making pure primary amines from carboxylic acids (via amide). The product has one fewer carbon than the starting amide. Important in amino acid chemistry.
@@ -293,7 +293,7 @@ In aprotic solvents: inductive dominates
 - Pyrrole (C₄H₄NH): N is sp², lone pair in p orbital (part of aromatic sextet) → NOT basic (pKb ~13, almost non-basic)
 - Imidazole: has two N atoms, one basic (pKa ~7) — part of histidine and biological systems
 
-⚡ **JEE常常考 Basicity Order Problems:**
+⚡ **JEE frequently asks — Basicity Order Problems:**
 Arrange: aniline, p-nitroaniline, p-methylaniline, p-chloroaniline
 Answer: p-methylaniline > aniline > p-chloroaniline > p-nitroaniline
 - p-NO₂ (strongly –M, –I): dramatically decreases basicity → weakest base

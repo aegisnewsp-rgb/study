@@ -101,7 +101,7 @@ SHM is the projection of uniform circular motion onto a diameter. If a point mov
 - 2020 JAMB: Effect of doubling amplitude on period of simple pendulum
 
 **Important comparisons:**
-| System | Period formula |影响因素|
+| System | Period formula | Influencing factors |
 |--------|---------------|--------|
 | Spring-mass | $T = 2\pi\sqrt{m/k}$ | mass, spring constant |
 | Simple pendulum | $T = 2\pi\sqrt{l/g}$ | length, gravity (NOT mass) |

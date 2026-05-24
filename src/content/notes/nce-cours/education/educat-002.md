@@ -123,7 +123,7 @@ Common question types:
 1. Development of proper social behavior
 2. Preparation for adult responsibilities
 3. Transmission of cultural heritage
-4. Development of职业技能
+4. Development of vocational skills
 5. Character formation and moral development
 
 **Methods**:
@@ -295,7 +295,7 @@ Common question types:
 1. **Colonial Legacy**: Education system reflects colonial priorities, not indigenous ones
 2. **Policy Instability**: Frequent changes without adequate implementation
 3. **Resource Mismatch**: Ambitious goals with inadequate resources
-4. **Quality vs. Quantity**: Expansion often牺牲 quality
+4. **Quality vs. Quantity**: Expansion often sacrifices quality
 5. **Relevance Gap**: Education often disconnected from national development needs
 
 #### 9. Statistics on Nigerian Education

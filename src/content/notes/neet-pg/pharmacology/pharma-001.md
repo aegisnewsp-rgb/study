@@ -51,7 +51,7 @@ generated: "2026-03-25T17:00:00"
 
 | Route | Bioavailability | Onset | Uses |
 |---|---|---|---|
-| **IV** | 100% | Immediate | Emergency,病房 drugs |
+| **IV** | 100% | Immediate | Emergency, ward drugs |
 | **IM** | Variable (faster than SC) | Minutes | Vaccines, antibiotics |
 | **SC** | Slower absorption | ~15-30 min | Insulin, heparin |
 | **Oral** | Variable (first-pass) | Slow | Most chronic drugs |
@@ -217,7 +217,7 @@ generated: "2026-03-25T17:00:00"
 - **Alcohol** — induces CYP2E1; acute use inhibits CYP2E1 (disulfiram reaction with metronidazole)
 - **Probenecid** — blocks tubular secretion of penicillin; used to ↑ penicillin levels
 - **Cimetidine** — non-selective CYP inhibitor; causes ↑ levels of many drugs; use famotidine or ranitidine instead (less interaction)
-- **pH会影响药物排泄：** Sodium bicarbonate → alkalinize urine → ↑ excretion of aspirin, phenobarbital (acidic drugs)
+- **pH affects drug excretion:** Sodium bicarbonate → alkalinize urine → ↑ excretion of aspirin, phenobarbital (acidic drugs)
 - **Acidification of urine** (NH4Cl) → ↑ excretion of weak bases (amphetamines, PCP)
 - **Enterohepatic circulation** — drug enters bile as glucuronide → gut bacteria hydrolyze → free drug reabsorbed → prolonged effect (e.g., morphine, estrogens, OCPs)
 

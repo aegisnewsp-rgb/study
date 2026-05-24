@@ -82,7 +82,7 @@ Customer chooses based on perceived value
 | Factor | Description | Sri Lankan Example |
 |--------|-------------|-------------------|
 | Company | Internal resources, departments | Ceylon Tea Gardens marketing division |
-| Suppliers |提供原材料者 | Tea leaf suppliers to factories |
+| Suppliers | Provide raw materials | Tea leaf suppliers to factories |
 | Marketing Intermediaries | Help distribute/sell | Tea auctions, distributors |
 | Markets | Customers | International tea buyers |
 | Competitors | Rival sellers | Kenya, India tea competition |

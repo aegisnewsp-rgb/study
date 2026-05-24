@@ -29,7 +29,7 @@ High-yield point: Distinguishing ionic from covalent bonds, Lewis structures, VS
 Overview: Chemical bonding theory explains the formation, structure, and properties of chemical substances; it is the theoretical core of chemistry
 Core principles: The octet rule, electronegativity differences determining bond type, orbital hybridization, molecular geometry prediction
 Key points: Ionic, covalent, and metallic bonding; Lewis dot structures; VSEPR theory for geometry prediction; σ and π bonding; dipole moment
-Study strategy: Practice drawing Lewis structures until熟练; connect bond type to physical properties; learn hybridization patterns with corresponding geometries
+Study strategy: Practice drawing Lewis structures until proficient; connect bond type to physical properties; learn hybridization patterns with corresponding geometries
 
 ---
 

@@ -18,7 +18,7 @@ generated: "2026-03-25T17:00:00"
 **Antimicrobial and Anticancer Pharmacology** — Key Facts for FMGE
 Core concept: Antibiotics work by targeting bacterial-specific processes; chemotherapy agents target rapidly dividing cells with limited selectivity
 High-yield point: Know the key adverse effects of major antibiotic classes and chemotherapeutic agents
-⚡ Exam tip: Vancomycin (nephrotoxicity, red man syndrome), aminoglycosides (ototoxicity, nephrotoxicity), and化疗 agents (myelosuppression) are frequently tested
+⚡ Exam tip: Vancomycin (nephrotoxicity, red man syndrome), aminoglycosides (ototoxicity, nephrotoxicity), and chemotherapy agents (myelosuppression) are frequently tested
 
 ---
 

@@ -99,7 +99,7 @@ diagramPrompt: "Clear scientific diagram of Coordination Compounds with atom lab
 - n = 4 → μ = √24 ≈ 4.90 BM (high-spin d⁶, e.g., [Fe(H₂O)₆]²⁺)
 - n = 5 → μ = √35 ≈ 5.92 BM (high-spin d⁵)
 
-⚡ **JEE计算题:** A complex has magnetic moment of 3.87 BM. What is the number of unpaired electrons? n=3 gives μ=√15=3.87 BM. This could be: high-spin d⁴ or low-spin d⁷ in octahedral geometry.
+⚡ **JEE calculation problem:** A complex has magnetic moment of 3.87 BM. What is the number of unpaired electrons? n=3 gives μ=√15=3.87 BM. This could be: high-spin d⁴ or low-spin d⁷ in octahedral geometry.
 
 **Coordination Numbers and Geometries:**
 | CN | Geometry | Examples |
@@ -241,7 +241,7 @@ Examples:
 - Example: [Cu(H₂O)₆]²⁺ is Jahn-Teller distorted → elongated octahedron (two axial bonds longer than four equatorial bonds)
 - This is why Cu²⁺ complexes are often square planar or distorted octahedral, not regular octahedral
 
-⚡ **JEE计算题:** Calculate CFSE for [Co(NH₃)₆]³⁺ (Co³⁺ = d⁶, strong field, low spin):
+⚡ **JEE calculation problem:** Calculate CFSE for [Co(NH₃)₆]³⁺ (Co³⁺ = d⁶, strong field, low spin):
 - Configuration: t₂g⁶eg⁰
 - CFSE = 6(–0.4)Δ₀ + 0 = –2.4Δ₀
 - No pairing energy needed beyond what the strong field provides
@@ -404,7 +404,7 @@ For 4 unpaired: μ = √(4×6) = √24 = 4.90 BM (this is what we use in JEE)
 Actually: n(n+2) for n=4: 4×6 = 24, √24 = 4.90 BM
 ```
 
-⚡ **JEE常常考:** "The spin-only magnetic moment of [CoF₆]³⁻ is 4.90 BM. What does this tell you?" Since Co³⁺ is d⁶ and F⁻ is weak field, we have high spin d⁶ (t₂g⁴eg², 4 unpaired). Co³⁺ is usually low spin in complexes (strong field) but F⁻ being weak field causes high spin. So [CoF₆]³⁻ = high spin d⁶, 4 unpaired electrons, μ = 4.90 BM.
+⚡ **JEE frequently asks:** "The spin-only magnetic moment of [CoF₆]³⁻ is 4.90 BM. What does this tell you?" Since Co³⁺ is d⁶ and F⁻ is weak field, we have high spin d⁶ (t₂g⁴eg², 4 unpaired). Co³⁺ is usually low spin in complexes (strong field) but F⁻ being weak field causes high spin. So [CoF₆]³⁻ = high spin d⁶, 4 unpaired electrons, μ = 4.90 BM.
 
 **6. Stability Constants and Their Use:**
 

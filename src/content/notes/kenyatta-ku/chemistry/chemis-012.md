@@ -17,7 +17,7 @@ generated: "2026-03-25T17:00:00"
 
 **Topic 12** — Key Facts for Kenyatta University (Kenya)
 Core concept: Lipids are a diverse class of hydrophobic biological molecules that are soluble in non-polar organic solvents but insoluble in water; they include fatty acids, triglycerides, phospholipids, steroids, and fat-soluble vitamins
-High-yield point: Saturated fatty acids have no C=C double bonds (straight chains, pack tightly → high melting point); unsaturated fatty acids have C=C double bonds (kinks, pack loosely → low melting point); trans fats are unsaturated fatty acids with trans double bonds — health risk不同于 natural cis unsaturated fats
+High-yield point: Saturated fatty acids have no C=C double bonds (straight chains, pack tightly → high melting point); unsaturated fatty acids have C=C double bonds (kinks, pack loosely → low melting point); trans fats are unsaturated fatty acids with trans double bonds — a health risk unlike natural cis unsaturated fats
 ⚡ Exam tip: Triacylglycerols (fats and oils) are esters of glycerol (propane-1,2,3-triol) with three fatty acids; saponification of a triglyceride with NaOH yields glycerol and three fatty acid sodium salts (soap); iodine number measures the degree of unsaturation of a fat
 
 ---

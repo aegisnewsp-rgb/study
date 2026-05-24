@@ -332,7 +332,7 @@ Revenue profits arise from the normal trading operations of the business:
 
 > **Important Rule:** Capital profits can ONLY be used to write off capital losses or to create capital reserves — they CANNOT be distributed as dividends. Revenue profits can be distributed as dividends.
 
-#### 2.深 — Depreciation and Its Effect on the Accounting Equation
+#### 2. Depreciation and Its Effect on the Accounting Equation
 
 **Depreciation** is the systematic allocation of the depreciable amount of a tangible fixed asset over its useful life. The concept behind depreciation is that a fixed asset loses value as it is used up in the business — this reflects the **matching principle** (the cost of the asset is matched against the revenues it helps generate over its useful life).
 

@@ -123,7 +123,7 @@ Masseter, temporalis, medial pterygoid, lateral pterygoid — all from 1st phary
 Main trunk exits stylomastoid foramen → enters parotid gland → divides into terminal branches (temporal, zygomatic, buccal, marginal mandibular, cervical). Within parotid, it forms parotid plexus (pes anserinus) but does not supply parotid (secretomotor parasympathetic to parotid is CN IX via auriculotemporal nerve).
 
 **Clinical:**
-- **Bell's palsy:** CN VII lesion (peripheral — affects all ipsilateral muscles); cannot close eye, forehead furrows,嘴角 droops, hyperacusis, loss of taste anterior 2/3 tongue; most common cause is viral (HSV reactivation)
+- **Bell's palsy:** CN VII lesion (peripheral — affects all ipsilateral muscles); cannot close eye, forehead furrows, angle of mouth droops, hyperacusis, loss of taste anterior 2/3 tongue; most common cause is viral (HSV reactivation)
 - **Stroke (UMN lesion):** Contralateral lower face affected, forehead spared (bilateral UMN to forehead)
 
 ### Parotid Gland

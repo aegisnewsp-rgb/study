@@ -143,7 +143,7 @@ generated: "2026-03-25T17:00:00"
 **Ramadan Fasting**:
 - **9th month of Islamic calendar**
 - **Obligatory for**: Every adult Muslim (with exceptions for illness, travel, menstruation, elderly)
-- **Reward**: Fasting is鲤 for Allah — "Whoever fasts in Ramadan with faith and seeking reward, his past sins are forgiven" (Bukhari, Muslim)
+- **Reward**: Fasting is for Allah — "Whoever fasts in Ramadan with faith and seeking reward, his past sins are forgiven" (Bukhari, Muslim)
 
 **Things That Break Fast**:
 - Intentional eating/drinking

@@ -85,7 +85,7 @@ An author who devotes significant space to acknowledging opposing views and qual
 ## Sample Tone Question
 
 **Passage excerpt:**
-> "The claim that free markets automatically self-correct has been repeatedly disproven by historical experience. The Great Depression, the 2008 financial crisis, and numerous smaller-scale busts all demonstrate that unregulated markets can and do produce catastrophic failures that ripple through entire economies. Yet defenders of laissez-faire economics continue to assert that government intervention is always counterproductive. This固执己见 (stubborn insistence) in the face of overwhelming contrary evidence is precisely what makes economic orthodoxy so intellectually bankrupt."
+> "The claim that free markets automatically self-correct has been repeatedly disproven by historical experience. The Great Depression, the 2008 financial crisis, and numerous smaller-scale busts all demonstrate that unregulated markets can and do produce catastrophic failures that ripple through entire economies. Yet defenders of laissez-faire economics continue to assert that government intervention is always counterproductive. This stubborn insistence in the face of overwhelming contrary evidence is precisely what makes economic orthodoxy so intellectually bankrupt."
 
 **Question:** "The author's tone in this passage can best be described as:"
 

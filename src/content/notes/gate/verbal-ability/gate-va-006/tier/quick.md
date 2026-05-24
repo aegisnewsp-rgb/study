@@ -43,7 +43,7 @@ A: **(B) Kind** — "benevolent" means well-meaning, generous, kind. "Cruel" is 
 | Eloquent | Fluent, articulate | Obsolete | Outdated |
 | Paradigm | Model, pattern | Ambiguous | Unclear |
 | Taciturn | Silent | Tenacious | Persistent |
-| Voracious |贪婪的, insatiable | Benevolent | Kind |
+| Voracious | Greedy, insatiable | Benevolent | Kind |
 | Malevolent | Ill-meaning | Cogent | Compelling |
 | Pragmatic | Practical | Altruistic | Selfless |
 

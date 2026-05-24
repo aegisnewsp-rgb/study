@@ -24,7 +24,7 @@ generated: "2026-03-25T17:00:00"
 - **Eating etiquette:** Say Bismillah, eat with the right hand, eat from what is nearest to you, do not blow on food, lick your fingers.
 - **Social ethics:** Greeting with "Assalamu alaykum," honouring neighbours, keeping promises, and speaking good or remaining silent.
 
-**⚡ Exam tip:** Questions on Islamic etiquette (adab) frequently combine Quranic verses with the Prophet's sayings. Know the hadith about the有三个 people who will not enter Paradise, etc.
+**⚡ Exam tip:** Questions on Islamic etiquette (adab) frequently combine Quranic verses with the Prophet's sayings. Know the hadith about the three people who will not enter Paradise, etc.
 
 ---
 

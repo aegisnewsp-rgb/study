@@ -124,7 +124,7 @@ generated: "2026-03-25T17:00:00"
 **Syndesmosis:**
 - Tibiofibular ligament complex (anterior, posterior, inferior tibiofibular ligament)
 - Maintains tibial plafond relationship with talus
-- **Clinical:** High ankle sprain — mechanism: external rotation + dorsiflexion; squeeze test (pain on squeezing tibia and fibula together); fibular fracture above ankle (Maisonneuve fracture —伤 + interosseous membrane injury)
+- **Clinical:** High ankle sprain — mechanism: external rotation + dorsiflexion; squeeze test (pain on squeezing tibia and fibula together); fibular fracture above ankle (Maisonneuve fracture — proximal fibular fracture + interosseous membrane injury)
 - **Imaging:** X-ray — tibial clear space, medial clear space, tibiofibular overlap; CT for subtle injuries
 
 **Tendon Sheaths Around Ankle:**

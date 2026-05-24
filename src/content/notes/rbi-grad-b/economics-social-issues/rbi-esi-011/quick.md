@@ -25,7 +25,7 @@ Trade data directly drives RBI's current account deficit assessment, foreign exc
 
 ### Must Know Facts
 - WTO's TRIPS Agreement (Trade-Related Aspects of Intellectual Property Rights) governs patents, copyrights, and geographical indications globally
-- India exited RCEP negotiations in 2019 citing concerns over Chinese goods flooding the market and不对称 market access
+- India exited RCEP negotiations in 2019 citing concerns over Chinese goods flooding the market and asymmetric market access
 - India-UAE CEPA (2022) and India-Australia ECTA (2022) are India's most recent major trade agreements, targeting tariff elimination on 90%+ goods
 - India's exports are dominated by petroleum products, drugs/pharmaceuticals, IT services, and gems & jewellery
 - Current Account Deficit (CAD) stood at ~1.2% of GDP in FY24; RBI manages this through forex reserves and trade policy coordination

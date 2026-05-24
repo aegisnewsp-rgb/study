@@ -132,7 +132,7 @@ Li and Mg show diagonal similarity (properties more similar to each other than t
 **Comparative Study — First Ionisation Energy Across Period 2:**
 
 | Element | Li | Be | B | C | N | O | F | Ne |
-|---------|----|----|---|---|---|美---|----|----|
+|---------|----|----|---|---|---|---|----|----|
 | $IE_1$ (kJ mol⁻¹) | 520 | 899 | 800 | 1086 | 1402 | 1314 | 1681 | 2081 |
 
 Notable: Be (900) > B (800) and N (1402) > O (1314) — these two drops are the most important exceptions to learn.

@@ -174,7 +174,7 @@ Moved by **Jawaharlal Nehru** in the Constituent Assembly. It was a visionary st
 - **Prime Minister and Cabinet** system
 - **Constitutional conventions** (uncodified practices)
 - **Rule of law**
-- **Prerogative writs** (方向 in Indian context)
+- **Prerogative writs** (directions in Indian context)
 - **Bicameral Parliament** (Lok Sabha + Rajya Sabha)
 
 **4. Irish Constitution (Ireland):**

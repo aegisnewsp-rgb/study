@@ -20,7 +20,7 @@ generated: "2026-03-25T17:00:00"
 - **India is a "quasi-federal"** — strong unitary features with federal structure
 - **Three Lists**: **Union List** (97 subjects), **State List** (66 subjects), **Concurrent List** (47 subjects)
 - **Residuary powers**: With **Parliament** (Article 248 + Item 97 of Union List)
-- **Z违犯**: 7th Schedule, Article 246
+- **Distribution of legislative powers**: 7th Schedule, Article 246
 - **Article 1**: "India, that is Bharat, is a Union of States" — not "Federation of States"
 - **Fifth Schedule**: Tribal areas governance (separate from the three lists)
 - **Articles 256-263**: Administrative relations between Centre and States

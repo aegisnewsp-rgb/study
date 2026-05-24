@@ -43,7 +43,7 @@ High-yield point: Know the difference between reversible cell injury (degenerati
 
 ### Physical Injury
 - Mechanical trauma, temperature extremes, electric shock, radiation
-- Burns cause protein denaturation and血流stasis
+- Burns cause protein denaturation and blood flow stasis
 
 ### Chemical Injury
 - Direct toxins (cyanide, arsenic)

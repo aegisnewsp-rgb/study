@@ -15,7 +15,7 @@ generated: ai-v1
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Enzymology** is the study of enzymes — biological catalysts that accelerate chemical reactions without being consumed. INI CET frequently tests enzyme kinetics (Michaelis-Menten), inhibition types (competitive vs non-competitive), and co-factors. A single理解了Km和Vmax图表能帮你解决大部分题目。
+**Enzymology** is the study of enzymes — biological catalysts that accelerate chemical reactions without being consumed. INI CET frequently tests enzyme kinetics (Michaelis-Menten), inhibition types (competitive vs non-competitive), and co-factors. Understanding the Km and Vmax graph alone can help you solve most of the questions.
 
 **High-Yield Facts for INI CET:**
 - **Enzyme classification:** 6 major classes (oxidoreductases, transferases, hydrolases, lyases, isomerases, ligases) — remember with mnemonic "OHL TIL"

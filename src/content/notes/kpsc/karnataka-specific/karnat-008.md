@@ -32,7 +32,7 @@ Karnataka's cultural heritage is one of the richest and most diverse in India, s
 | **Karnataka Rajyotsava Day** | Statewide | Celebration of Karnataka's formation (1 November 1956). Filled with rallies, cultural programs, and the iconic Rajyotsava awards. | 1 November |
 | **Muggu** | North Karnataka | Traditional festival involving decorated floor patterns (rangoli) | Sankranti (January) |
 | **Bondar** | North Karnataka | Harvest festival of the Kuruba community | November |
-| **Brahman festival** | Mysore region |祭祀型 festival | March |
+| **Brahman festival** | Mysore region | Ritual festival | March |
 
 ### Mysore Dasara — The Quintessential Karnataka Festival
 

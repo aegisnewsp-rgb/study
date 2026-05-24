@@ -288,7 +288,7 @@ While the kidneys and liver are the dominant elimination organs, several other p
 | **MRP2 (ABCC2)** | Canalicular membrane | Glucuronide conjugates (e.g., bilirubin glucuronide), methotrexate |
 | **OATP1B1/1B3 (SLCO1B1/1B3)** | Basolateral (uptake) | Statins (atorvastatin, pravastatin, rosuvastatin), rifampicin |
 
-**Enterohepatic recirculation (EHC):** Many drugs excreted in bile are not fully eliminated — instead, the drug or conjugate in bile enters the duodenum, where intestinal bacteria can hydrolyse glucuronide or sulfate conjugates, releasing the parent drug or aglycone, which is then reabsorbed. This creates a循环 of absorption, hepatic metabolism, biliary excretion, intestinal hydrolysis, and reabsorption, effectively prolonging the half-life of the drug.
+**Enterohepatic recirculation (EHC):** Many drugs excreted in bile are not fully eliminated — instead, the drug or conjugate in bile enters the duodenum, where intestinal bacteria can hydrolyse glucuronide or sulfate conjugates, releasing the parent drug or aglycone, which is then reabsorbed. This creates a cycle of absorption, hepatic metabolism, biliary excretion, intestinal hydrolysis, and reabsorption, effectively prolonging the half-life of the drug.
 
 **Drugs with significant enterohepatic recirculation:**
 - **Oestrogens (ethinyloestradiol, oestradiol):** Conjugated oestrogens are excreted in bile; hydrolysis and reabsorption extend half-life; this is clinically relevant as oral contraceptives undergo EHC

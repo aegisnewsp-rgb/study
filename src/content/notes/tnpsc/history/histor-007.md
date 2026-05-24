@@ -18,7 +18,7 @@ generated: "2026-03-25T17:00:00"
 **Post-Mauryan Period and Regional Kingdoms** — Key Facts for TNPSC Group 1
 Core concept: After the fall of the Maurya Empire (185 BCE), India witnessed the rise of multiple regional powers including the Shungas, Satavahanas, Kushans, and Cholas — a period of political fragmentation but remarkable cultural and artistic achievements
 High-yield point: The Satavahanas bridged the Deccan and Andhra; the Kushans under Kanishka hosted the Fourth Buddhist Council and promoted Gandhara art
-⚡ Exam tip: TNPSC frequently tests Kanishka's贡献 and the cultural achievements of this era — Kushan art, Satavahana trade, Sangam literature
+⚡ Exam tip: TNPSC frequently tests Kanishka's contribution and the cultural achievements of this era — Kushan art, Satavahana trade, Sangam literature
 
 ---
 
@@ -200,7 +200,7 @@ Kanishka I is one of the most celebrated rulers in Indian history:
 - **Other capital:** Taxila (for eastern territories)
 - **Military campaigns:** Extended Kushan empire to the Ganges; fought the Satavahanas
 
-### Kanishka's贡献
+### Kanishka's Contributions
 
 1. **Fourth Buddhist Council:** Convened at Kundalana (Kashmir) — presided over by Vasumitra; resulted in the compilation of the **Mahavibhasha** (great exposition) — Sarvastivada school
 2. **Stupa at Peshawar:** Kanishka built the famous Kanishka Stupa at Peshawar — one of the tallest Buddhist structures

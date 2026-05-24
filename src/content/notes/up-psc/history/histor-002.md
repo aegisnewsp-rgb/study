@@ -47,13 +47,13 @@ Full coverage: Medieval Indian History from the Turkish conquest of North India 
 
 Detailed theory and concept explanations:
 • **Turkish Conquest of North India**: Muhammad Ghori's campaigns (Prithviraj Chauhan, 1192); Qutb-ud-din Aibak's establishment of the Mamluk/ Slave dynasty; Iltutmish's consolidation and the Turki model of governance
-• **Delhi Sultanate — Administration**: The Iqta system (military land grants), the role of the Muqtis and Muqta; Sultanate's revenue system (犁 and cash crops); urban centers like Delhi; the Chalisa and Tawaif aristocracy
+• **Delhi Sultanate — Administration**: The Iqta system (military land grants), the role of the Muqtis and Muqta; Sultanate's revenue system (plough and cash crops); urban centers like Delhi; the Chalisa and Tawaif aristocracy
 • **Khilji Revolution (1290–1320)**: Alauddin Khilji's conquests (Ranthambore, Gujarat, Malwa, Deccan); market reforms (Dana-bадаqt); price control mechanism; strengthening the army with Mongol tactics
 • **Tughlaq Innovations (1320–1413)**: Muhammad bin Tughlaq's controversial reforms — Token Currency, Daqilik system, shift of capital to Daulatabad; his experimental governance leading to chaos
 • **Tughlaq Decline and Timur's Invasion (1398)**: Weak successors, Sayyid and Lodi dynasties; Timur's sack of Delhi; growth of provincial kingdoms
 • **Vijayanagara Empire (c. 1336–1646)**: Founder Harihara I and Bukka Raya I; Raya dynasty and Krishnadevaraya's reign (1509–1529) — peak of power; literary achievements (Sanskrit, Telugu); architecture (Vitthala Temple, Hampi); destruction by the Deccan Sultanates at the Battle of Talikota (1565)
 • **Bahmani Kingdom (1347–1526)**: Hasan Gangu's foundation; conflicts with Vijayanagara; Bahmani architecture (Gulbarga, Bidar); integration of Persian culture; fragmentation into Deccan Sultanates (Bijapur, Golkonda, Ahmadnagar, Bidar, Berar)
-• **Mughal Foundations (1526–1530)**: Babur — Timurid lineage, Memoirs (Baburnama), First Battle of Panipat (1526), Khanwa (1527),阎Dj (1529); Humayun's struggles and Safavid exile
+• **Mughal Foundations (1526–1530)**: Babur — Timurid lineage, Memoirs (Baburnama), First Battle of Panipat (1526), Khanwa (1527); Humayun's struggles and Safavid exile
 • **Sher Shah Suri (1540–1545)**: Battle of Kanauj; administrative reforms — land revenue (Zabt system), Qanoongoes, Paigah system, coins, postal system (Dak); road construction (Grand Trunk Road, erox)
 • **Akbar's Empire (1556–1605)**: Second Battle of Panipat (1556) with Hemu; Rajput policy (Jodha Bai, marriage alliances); conquests in Gujarat, Bengal, Deccan; Din-i-Ilahi; Ibadat Khana; Ain-i-Dharmasastra/expansion of the empire;Fatehpur Sikri
 • **Jahangir (1605–1627)**: Nur Jahan's influence; campaigns in Deccan; paintings of the JahangirNama; interactions with English traders

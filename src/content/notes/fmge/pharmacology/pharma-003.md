@@ -164,7 +164,7 @@ High-yield point: Know the difference between alpha-1 (vasoconstriction), alpha-
 **β1-selective (cardioselective)**:
 - **Metoprolol, Atenolol, Esmolol** (ultra-short IV): Hypertension, angina, MI, arrhythmias
 - **Bisoprolol**: CHF (benefit in heart failure)
-- **Side effects at high doses**: β2 blockade (bronchospasm,掩盖 hypoglycemia symptoms)
+- **Side effects at high doses**: β2 blockade (bronchospasm, masks hypoglycemia symptoms)
 
 **With additional properties**:
 - **Carvedilol** (α1 + β non-selective): CHF

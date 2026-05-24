@@ -27,7 +27,7 @@ Let me explain this using a simple real-life comparison. A Bank Fixed Deposit (F
 
 **2. Unsystematic Risk (company-specific risk, diversifiable risk):** This affects only one company or industry — a mining company finds a new deposit, a pharma company wins a drug patent, or a bank's IT system fails. This risk CAN be eliminated by holding a diversified portfolio. A well-diversified investor doesn't get paid for taking unsystematic risk because it's easily avoidable.
 
-This is the核心 insight of the **Capital Asset Pricing Model (CAPM)**: only systematic risk matters for pricing, because rational investors will diversify away the rest.
+This is the core insight of the **Capital Asset Pricing Model (CAPM)**: only systematic risk matters for pricing, because rational investors will diversify away the rest.
 
 **The CAPM Formula:**
 

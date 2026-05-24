@@ -90,7 +90,7 @@ Agriculture contributes approximately 23% to Pakistan's GDP and employs 42% of t
 
 - **Punjab Plains** — Wheat, cotton, sugarcane, rice (particularly Basmati rice).
 - **Sindh Plains** — Cotton, rice, sugarcane, fruits (mangoes, dates, bananas).
-- **Balochistan** — Fruits including apples, grapes, apricots, and almonds; also天然气 production.
+- **Balochistan** — Fruits including apples, grapes, apricots, and almonds; also natural gas production.
 - **Riverine Areas** — Rice, wheat, vegetables.
 
 ### 🔴 Extended — Deep Study (3mo+)
@@ -225,7 +225,7 @@ CPEC positions Pakistan as a key transit hub between China, Central Asia, and th
 The region of Kashmir, contested between India and Pakistan since 1947, holds immense strategic value:
 
 - Source of major rivers (Indus, Jhelum, Chenab)
-- Himalayan mountain屏障 providing defense depth
+- Himalayan mountain barrier providing defense depth
 - Tourism and glacier reserves
 
 #### Demographics and Human Geography

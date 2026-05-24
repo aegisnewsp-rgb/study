@@ -261,7 +261,7 @@ Doubling both inputs (2x) increased output by 2.5x — more than proportional �
 1. **Indivisibilities**: Large machines cannot be efficiently used at small scales; they become viable at larger scales
 2. **Specialization**: Division of labour becomes possible at larger scales — workers can specialize in specific tasks
 3. **Dimension principle**: Large containers/vessels have more volume relative to surface area (e.g., storage tanks)
-4. **Managerial economies**: Specialized management and中层 management become cost-effective
+4. **Managerial economies**: Specialized management and middle management become cost-effective
 5. **By-products**: Large scale allows utilization of waste materials
 6. **Financial economies**: Larger firms can access cheaper credit and capital markets
 
@@ -697,7 +697,7 @@ When setting transfer prices between divisions, understanding the marginal produ
 In evaluating mergers, understanding the production functions of combining entities helps assess:
 - Whether the merger creates production synergies (IRS from combination)
 - Whether the merged entity will face DRS (over-expansion)
-- The rational for asset剥离 (asset sales of non-core divisions)
+- The rational for asset divestiture (asset sales of non-core divisions)
 
 ### 4. Compliance and Regulatory Advisory
 

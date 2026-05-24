@@ -36,7 +36,7 @@ Percentages, ratios, and proportions form the backbone of quantitative reasoning
 
 **Percentages — Deeper Understanding**
 
-Percentages appear in three main题型 in the UI exam: direct percentage calculation, successive percentage changes, and percentage reverse-engineering (finding the original given the final value).
+Percentages appear in three main question types in the UI exam: direct percentage calculation, successive percentage changes, and percentage reverse-engineering (finding the original given the final value).
 
 For successive percentage changes, the multiplicative approach is faster than applying each change sequentially. If a value x undergoes changes of p%, q%, and r%, the final value is x × (1 + p/100) × (1 + q/100) × (1 + r/100). A value increasing by 10%, then 20%, then decreasing by 5% from 50,000 gives: 50,000 × 1.10 × 1.20 × 0.95 = 62,700.
 

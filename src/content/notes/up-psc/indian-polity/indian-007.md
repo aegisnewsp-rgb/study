@@ -121,7 +121,7 @@ generated: "2026-03-25T17:00:00"
 **Recent Judgments on Federalism**
 - 2017: SC upheld 100% OBC reservation in NEBC (affects cooperative federalism)
 - 2020: Agriculture laws controversy — Centre vs states on subjects in List II
-- 2023: Supreme Court's肘ection amendments affecting state autonomy debates
+- 2023: Supreme Court's election amendments affecting state autonomy debates
 
 **Answer Writing Tips for UPPSC**
 - Differentiate between "Federal" and "Unitary" features of Indian Constitution

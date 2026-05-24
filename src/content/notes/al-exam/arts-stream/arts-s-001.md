@@ -73,7 +73,7 @@ The humour is earthy and inclusive — Chaucer laughs with, not just at, his cha
 The Canterbury Tales is written in the London dialect of Middle English. Students should recognise:
 - Pronouns: "he" (he), "she" (she), "they" (they)
 - Verb endings: "-eth" or "-th" for third person singular ("he speaketh")
-- Vocabulary: "whilom" (formerly), "worthy" (noble), "精" (noble)
+- Vocabulary: "whilom" (formerly), "worthy" (noble)
 - Pronunciation differences: final "-e" was often pronounced
 
 **⚡ Exam tip:** When analysing character, link the General Prologue portrait to the tale the character tells — the Miller's portrait (rude, strong) matches his tale's boisterous obscenity.

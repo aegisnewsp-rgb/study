@@ -158,7 +158,7 @@ Or rearranged: (CH₃)₂C⁺–CH(CH₃)–CH₃ (even more stable tertiary at 
 - One-step, concerted (anti-periplanar geometry required)
 - Strong base abstracts H⁺ while leaving group departs simultaneously
 - Rate = k[substrate][base] (second order)
-- Hofmann product favored with bulky bases (夺取more substituted = more hindered)
+- Hofmann product favored with bulky bases (abstracting at more substituted = more hindered)
 
 **Anti-periplanar requirement**: The H and leaving group must be on opposite sides (180° dihedral angle) for the orbital overlap needed to form the π bond.
 

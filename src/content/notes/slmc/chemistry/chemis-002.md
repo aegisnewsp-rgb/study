@@ -141,7 +141,7 @@ Cycloalkanes have the formula **CₙH₂ₙ** (same as alkenes — both have one
   - Acidic hydrogen — reacts with Na, NaNH₂, AgNO₃ to form salt
   - Forms silver acetylide (white) or copper(I) acetylide (reddish-brown)
   - **Test:** AgNO₃ + terminal alkyne → precipitate (alcoholic NH₃ needed)
-- **Internal alkyne:** No acidic hydrogen; no silver镜 precipitate
+- **Internal alkyne:** No acidic hydrogen; no silver precipitate
 
 ### Reactions of Alkynes
 

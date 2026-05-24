@@ -96,7 +96,7 @@ The Court also examined whether the Commission could de-recognize a political pa
 
 #### Detailed Anti-Defection Analysis
 
-The anti-defection law under the Tenth Schedule has been one of the most controversial constitutional provisions since its enactment. Its stated purpose is to prevent political defections that destabilise elected governments and promote horse-trading. Its critics argue that it has反而束缚了议员的良心，阻止他们根据人民的利益投票。
+The anti-defection law under the Tenth Schedule has been one of the most controversial constitutional provisions since its enactment. Its stated purpose is to prevent political defections that destabilise elected governments and promote horse-trading. Its critics argue that it instead shackles the conscience of legislators, preventing them from voting according to the interests of the people.
 
 The key cases on anti-defection include Kihoto Hollohan vs. Zachillhu in 1992 where the Supreme Court upheld the anti-defection provisions but held that the Speaker's decision is subject to judicial review. The Court held that the presiding officer must act reasonably, follow principles of natural justice, and give the affected member an opportunity to be heard. The Court also held that the anti-defection law does not prevent a member from voting according to conscience on certain matters, particularly those relating to the whip being contrary to the member's understanding of the public interest.
 

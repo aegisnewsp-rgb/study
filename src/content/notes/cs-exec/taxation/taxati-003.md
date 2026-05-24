@@ -75,7 +75,7 @@ This chain ensures that GST is effectively a **tax on the value addition** at ea
 **3. Tax Paid by Supplier:**
 - ITC is only available if the supplier has **actually paid** the tax to the government.
 - If the supplier defaults in paying tax, the recipient's ITC is **not affected** until the supplier files their return — the recipient can still claim ITC based on the invoice.
-- However, if the supplier **never pays** the tax (fraudulent invoices), the recipient's ITC may be denied under the **反ITC fraud provisions**.
+- However, if the supplier **never pays** the tax (fraudulent invoices), the recipient's ITC may be denied under the **anti-ITC fraud provisions**.
 
 **4. Valid Invoice:**
 - A **tax invoice** is the primary document for claiming ITC.
@@ -118,7 +118,7 @@ If a credit note is received from the supplier (for discount, return, or price r
 
 ### 2.1 Overview
 
-**Section 17(5)** provides a **negative list** — it specifies categories of goods and services on which ITC is **not available** even if they are used for business purposes. These are primarily items of **personal consumption** or items where allowing ITC would lead to **tax evasion or循環ation**.
+**Section 17(5)** provides a **negative list** — it specifies categories of goods and services on which ITC is **not available** even if they are used for business purposes. These are primarily items of **personal consumption** or items where allowing ITC would lead to **tax evasion or circulation**.
 
 ### 2.2 Blocked ITC — Detailed Analysis
 
@@ -815,7 +815,7 @@ To **protect revenue** — prevent the taxpayer from dissipating assets during i
 - Documents seized must be **photocopied** and returned within **30 days**.
 
 **Section 68 — Power to Require Production of Accounts:**
-- Officers can require production of **accounts, documents, and发货".
+- Officers can require production of **accounts, documents, and goods**.
 - Taxpayers must **comply** within the stipulated time.
 
 ### 10.3 Penalty Provisions

@@ -275,7 +275,7 @@ Common question types:
 - Origin: T1-L2 (lateral horn)
 - Short preganglionic, long postganglionic
 - Neurotransmitter: ACh (preganglionic), NE (postganglionic)
-- Fight or flight: ↑ HR, ↑ BP, ↑瞳孔, ↓ digestion
+- Fight or flight: ↑ HR, ↑ BP, ↑ pupil dilation, ↓ digestion
 - Adrenal medulla: Modified sympathetic ganglion, secretes Epi/NE
 
 **Parasympathetic (Craniosacral)**:

@@ -108,7 +108,7 @@ Different aspects of development proceed at different rates. A child may be adva
 Genetic factors determine physical traits, basic temperament, and some cognitive potentials. The concept of **maturation** — genetically programmed biological changes — drives many developmental milestones.
 
 ### Environment (Nurture)
-Nutrition, family environment, schooling, culture, peer groups, and socioeconomic conditions profoundly shape development. The **相互作用 (interaction)** of heredity and environment creates the individual.
+Nutrition, family environment, schooling, culture, peer groups, and socioeconomic conditions profoundly shape development. The **interaction** of heredity and environment creates the individual.
 
 **Bronfenbrenner's Ecological Systems Theory** is frequently asked in CTET:
 - **Microsystem:** Family, school, peer group

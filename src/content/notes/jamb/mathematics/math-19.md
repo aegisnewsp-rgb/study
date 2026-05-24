@@ -466,7 +466,7 @@ $$M_o = 19.5 + \frac{8}{8+12} \times 10 = 19.5 + \frac{8}{20} \times 10 = 19.5 +
 
 ### 💡 JAMB-Specific Tips:
 
-- **Time management:** Statistics questions are often计算-heavy. Show your working clearly so you can check for errors without starting over.
+- **Time management:** Statistics questions are often calculation-heavy. Show your working clearly so you can check for errors without starting over.
 - **Answer format:** JAMB expects exact answers where possible. Simplify square roots (e.g., $\sqrt{50} = 5\sqrt{2}$) or leave as decimals to 2–3 significant figures.
 - **Sketching helps:** Even for calculation questions, quickly sketch the frequency distribution. It helps you spot the modal class and median class correctly.
 - **Check for skewed data:** If a question mentions "skewed distribution," expect questions about the relationship between mean, median, and mode.

@@ -246,7 +246,7 @@ p-Nitrophenol (pKa ~7.2) > o-Nitrophenol (pKa ~7.2) > Phenol (pKa ~10)
 ```
 Why? Electron-withdrawing groups (–NO₂) stabilize phenoxide; alkyl groups donate electrons (+I) destabilizing alkoxide.
 
-⚡ **JEE常常考:** "Arrange in order of acidity: phenol, o-cresol, p-nitrophenol, p-cresol." Answer: p-nitrophenol > phenol > o-cresol > p-cresol (alkyl groups are weakly activating, slightly decrease acidity).
+⚡ **JEE frequently asks:** "Arrange in order of acidity: phenol, o-cresol, p-nitrophenol, p-cresol." Answer: p-nitrophenol > phenol > o-cresol > p-cresol (alkyl groups are weakly activating, slightly decrease acidity).
 
 **Basicity of Ethers:**
 - Ethers are very weak bases (protonated only with strong acids like cold conc. H₂SO₄)

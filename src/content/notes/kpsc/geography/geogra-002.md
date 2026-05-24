@@ -56,7 +56,7 @@ Himalayan rivers are **perennial** (snow and glacier-fed) with well-developed **
 - **Son**: Rises from Amarkantak plateau (Madhya Pradesh); joins Ganga near Patna
 
 **Brahmaputra River System**:
-- Rises in **Kailash Range** (Tibet) as **Tsangpo**; enters India through **Arunachal Pradesh** (名为 **Dihang**); major tributaries: Dibang, Lohit
+- Rises in **Kailash Range** (Tibet) as **Tsangpo**; enters India through **Arunachal Pradesh** (known as **Dihang**); major tributaries: Dibang, Lohit
 - Known as **Jamuna** in Bangladesh; joins Ganga as **Padma**; empties into Bay of Bengal through the **Meghna** estuary
 - Characterized by **braided channels** and shifting course (avulsion) — the **Majuli Island** (Assam) is gradually being eroded
 

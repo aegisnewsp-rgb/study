@@ -145,7 +145,7 @@ India has six major vegetation types (in order of altitude/dryness):
 | **Black (Regur)** | Deccan plateau (Maharashtra, MP, Telangana) | Derived from basalt, self-ploughing, holds moisture well |
 | **Red** | Tamil Nadu, Karnataka, Odisha | Iron oxide rich, found in high rainfall areas |
 | **Yellow** | Eastern plains | Similar to red but less iron |
-| **Laterite** | Kerala, Karnataka, MP, Assam | Heavy rainfall areas,贫瘠 (infertile), leached |
+| **Laterite** | Kerala, Karnataka, MP, Assam | Heavy rainfall areas, infertile, leached |
 | **Desert/Arid** | Rajasthan, Gujarat | Sandy, low organic matter |
 | **Mountain** | Himalayan region | Forest soil, loamy, acidic in higher altitudes |
 

@@ -29,7 +29,7 @@ This final topic integrates the grammar and vocabulary covered in previous lesso
 **Verse example**: قُلْ يَا أَيُّهَا الَّذِينَ آمَنُوا لَا تُحَرِّمُوا مَا أَحَلَّ اللَّهُ لَكُمْ
 "Say, O you who have believed, do not prohibit what Allah has made lawful for you" (Al-Ma'idah 5:87)
 
-### Pattern 2: The指名 (Amr, Nahy, Tawhid Construction)
+### Pattern 2: The Imperative (Amr, Nahy, Tawhid Construction)
 
 When addressing multiple people with a command or prohibition in the Quran, the second person plural form is often used with the sense of a general address:
 

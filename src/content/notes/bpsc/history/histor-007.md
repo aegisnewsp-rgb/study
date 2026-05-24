@@ -247,7 +247,7 @@ Buddhism and Jainism were the two most important **Shramana** (renouncer) moveme
 - **Nalanda (Bihar)**: University town, not a stupa — but major Buddhist centre
 
 ### Chaityas (Prayer Halls)
--早期: Rock-cut caves at **Bhaja, Bedsa, Karli** — 2nd–1st century BCE
+- Early: Rock-cut caves at **Bhaja, Bedsa, Karli** — 2nd–1st century BCE
 - Later: **Ajanta caves (Maharashtra)** — 2nd century BCE to 7th century CE; paintings of Buddha's life
 - **Ellora caves (Maharashtra)** — Kailasa temple (Hindu), Buddhist caves
 
@@ -272,7 +272,7 @@ Buddhism and Jainism were the two most important **Shramana** (renouncer) moveme
 | 3rd Council | c. 250 BCE | Pataliputra | Under Ashoka; purified Buddhist doctrine; compiled Abhidhamma |
 | 4th Council | c. 100 BCE | Kashmir | Written tradition; Sarvastivada school |
 
-## Buddhist Pilgrimage Sites (The Four善逝八塔 — Ashtamahasthana)
+## Buddhist Pilgrimage Sites (The Eight Great Stupas — Ashtamahasthana)
 1. **Lumbini** (birth)
 2. **Bodh Gaya** (enlightenment)
 3. **Sarnath** (first sermon)

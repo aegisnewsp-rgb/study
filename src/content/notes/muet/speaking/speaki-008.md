@@ -64,7 +64,7 @@ If the examiner cannot hear you clearly, they cannot award you marks for the con
 ## Pitfall 4: Lack of Eye Contact
 
 ### The Problem
-Candidates who低着头读笔记 or look exclusively at their own hands, the floor, or the table are perceived as lacking in confidence. In the MUET context, candidates are not permitted to use written notes during the talk — so looking around the room or at the examiner is both expected and appropriate.
+Candidates who read notes with their heads down or look exclusively at their own hands, the floor, or the table are perceived as lacking in confidence. In the MUET context, candidates are not permitted to use written notes during the talk — so looking around the room or at the examiner is both expected and appropriate.
 
 ### Why It Fails
 Eye contact is a fundamental element of real communication. Speaking without it signals that you are not truly engaging with your audience. This affects the examiner's impression of your communicative intent.

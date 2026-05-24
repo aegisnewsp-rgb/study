@@ -49,7 +49,7 @@ generated: "2026-03-25T17:00:00"
 - **ADH (Vasopressin)**: From supraoptic nucleus
 - **Oxytocin**: From paraventricular nucleus
 
-⚡ **Exam tip**: **Pineal gland** secretes **melatonin** — regulates circadian rhythm;褪黑素 is inhibited by light (NREM promotion)
+⚡ **Exam tip**: **Pineal gland** secretes **melatonin** — regulates circadian rhythm; melatonin is inhibited by light (NREM promotion)
 
 ### Thyroid Physiology
 
@@ -214,7 +214,7 @@ generated: "2026-03-25T17:00:00"
 | System | Effect |
 |--------|--------|
 | **Metabolic** | ↑ gluconeogenesis, ↑ proteolysis, ↑ lipolysis, insulin resistance |
-| **抗应激** | Permits catecholamine effects, ↑ vasopressor sensitivity |
+| **Anti-stress** | Permits catecholamine effects, ↑ vasopressor sensitivity |
 | **Anti-inflammatory** | ↓ phospholipase A₂, ↓ NF-κB, ↓ cytokine release, stabilize lysosomes |
 | **Cardiovascular** | ↑ catecholamine receptors, ↑ vascular tone |
 | **CNS** | Mood regulation, appetite (orexigenic) |

@@ -142,7 +142,7 @@ generated: "2026-03-25T17:00:00"
 
 **Gandhi on Social Issues**:
 - **Untouchability**: Campaign for removal; harijan (children of God) terminology; temple entry movements
-- **Hindu-Muslim Unity**: All India晴雨表; opposed Partition (1947) but accepted after violence
+- **Hindu-Muslim Unity**: an All-India barometer; opposed Partition (1947) but accepted after violence
 - **Women's Role**: Active participation in movements; Kasturba Gandhi as partner; women picketed liquor shops
 
 ### Subhas Chandra Bose — The Revolutionary

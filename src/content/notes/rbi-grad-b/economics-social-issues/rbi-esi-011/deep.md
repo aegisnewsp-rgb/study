@@ -66,7 +66,7 @@ India's most significant trade deal in a decade. The UAE is India's 3rd largest 
 **India-Australia ECTA (2022):**
 Economic Cooperation and Trade Agreement — covers 90% of Indian exports to Australia getting tariff-free access. Key wins: 
 - **Textiles and garments**: Australian market opens for Indian clothing (major employment potential)
-- **Agriculture**: India's rice and小麦 (wheat) get better access
+- **Agriculture**: India's rice and wheat get better access
 - **Skills mobility**: Indian nurses and teachers get better recognition pathways
 - **GST**: Australian GST does not apply to Indian services exports
 

@@ -177,7 +177,7 @@ generated: ai-v1
 - Phenylalanine accumulates → converted to phenylpyruvate → excreted as phenylacetate (musty odor)
 - Results: Intellectual disability, seizures, fair hair/skin (tyrosine deficiency → melanin reduced), eczema
 - Treatment: Low phenylalanine diet (special medical foods); BH4 supplementation for BH4-responsive PKU
-- Variant: Tyrosinemia (fumarylacetoacetate hydrolase deficiency) → severe liver disease,得名 from fumarylacetoacetate
+- Variant: Tyrosinemia (fumarylacetoacetate hydrolase deficiency) → severe liver disease, named after the substrate fumarylacetoacetate
 
 **Maple Syrup Urine Disease (MSUD):**
 - Deficiency of branched-chain α-ketoacid dehydrogenase (BCKDH) complex

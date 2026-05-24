@@ -46,7 +46,7 @@ Jean Piaget (1896–1980), Swiss psychologist, proposed that children's thinking
 #### Stage 1: Sensorimotor (0–2 years)
 - Baby learns through senses and motor actions
 - **Object permanence**: Objects continue to exist even when hidden
-- Before 9 months: A躲在 behind a screen = gone (out of sight, out of mind)
+- Before 9 months: An object hidden behind a screen = gone (out of sight, out of mind)
 - After 9 months: The child searches for hidden objects = permanence established
 - Egocentrism at its peak: Cannot distinguish self from others
 

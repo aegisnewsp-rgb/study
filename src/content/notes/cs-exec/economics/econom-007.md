@@ -86,7 +86,7 @@ Supply and market equilibrium form the analytical backbone of price theory and a
 
 ## Price Discrimination
 
-- **First-degree (Perfect)**: Charge each consumer their maximum willingness to pay (完美的价格歧视) — MR = AR = D
+- **First-degree (Perfect)**: Charge each consumer their maximum willingness to pay — MR = AR = D
 - **Second-degree**: Charge different prices for different quantities (e.g., block pricing)
 - **Third-degree**: Separate markets/consumer groups with different price elasticities (e.g., student discounts)
 
@@ -665,7 +665,7 @@ The rational outcome is often that both cheat (defect) — leading to an equilib
 #### First-Degree (Perfect Price Discrimination)
 
 - Charge each consumer the **maximum price they are willing to pay** (their choke price for the last unit)
-- Also called "完美的价格歧视" or "individual pricing"
+- Also called "perfect price discrimination" or "individual pricing"
 - The firm captures **ALL** consumer surplus as profit
 - MR = AR = Demand (the firm sells each unit at its reservation price)
 - **No deadweight loss** — all mutually beneficial trades occur

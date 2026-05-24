@@ -169,7 +169,7 @@ Goleman popularised EQ with five components:
 | Empathy | Sensing the emotional states of others |
 | Social Skills | Building and maintaining relationships |
 
-> **Why EQ matters for teachers:** Students with high EQ have better peer relationships, lower behavioural problems, and higher academic persistence. Teachers can build EQ through情绪 label activities, conflict resolution circles, and modelling self-regulation.
+> **Why EQ matters for teachers:** Students with high EQ have better peer relationships, lower behavioural problems, and higher academic persistence. Teachers can build EQ through emotion label activities, conflict resolution circles, and modelling self-regulation.
 
 **Cultural Bias in Intelligence Testing**
 

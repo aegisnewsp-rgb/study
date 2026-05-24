@@ -842,7 +842,7 @@ The Income Tax Act provides for various penalties for different types of default
 
 **Meaning of Concealment:**
 - Deliberately not reporting income
-- Showing expenses or deductions that are not真实 (not genuine)
+- Showing expenses or deductions that are not genuine
 - Claiming exemption under false pretenses
 - Showing lower income than actually earned
 

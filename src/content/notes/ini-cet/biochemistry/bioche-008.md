@@ -89,7 +89,7 @@ generated: ai-v1
 **ATP Synthase (F₀F₁ ATPase):**
 - **F₀ (membrane-embedded):** Forms the proton channel; has the proton-binding sites
 - **F₁ (matrix-facing):** Contains the catalytic sites for ATP synthesis
-- Propose rotation: As H⁺ flow through F₀, they cause the rotor to spin → conformational changes in F₁催化 ADP + Pi → ATP
+- Propose rotation: As H⁺ flow through F₀, they cause the rotor to spin → conformational changes in F₁ catalyze ADP + Pi → ATP
 - Oligomycin (antibiotic) binds F₀ and blocks the proton channel → ATP synthesis stops, but ETC continues and runs without making ATP
 
 **Proton Gradient Across the Inner Mitochondrial Membrane:**

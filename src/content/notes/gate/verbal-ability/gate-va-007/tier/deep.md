@@ -17,7 +17,7 @@ generated: ai-v1
 ## Analogy — Deep Dive
 
 ### Full Concept Explanation
-Analogy questions are the most cognitively demanding word problems in GATE's Verbal Ability section. They require simultaneous engagement of vocabulary knowledge, logical reasoning, and pattern recognition. Unlike synonym or antonym questions where meaning is fixed, analogy questions demand you construct the meaning relationship yourself — and that's where students最容易失分.
+Analogy questions are the most cognitively demanding word problems in GATE's Verbal Ability section. They require simultaneous engagement of vocabulary knowledge, logical reasoning, and pattern recognition. Unlike synonym or antonym questions where meaning is fixed, analogy questions demand you construct the meaning relationship yourself — and that's where students most often lose marks.
 
 The taxonomy of analogy relationships extends far beyond the basic categories. Understanding the full range prepares you for the unexpected. Worker-Tool relationships sometimes reverse (the tool is used by the worker), sometimes the worker is characterized by the tool (sculptor : chisel :: but sculptor isn't defined by the chisel alone). Function relationships sometimes describe what something does (knife : cut), sometimes what it's used for (lamp : illumination). Getting the direction right matters — "knife cuts" but "scissors is for cutting." The order of the pair encodes the relationship direction.
 

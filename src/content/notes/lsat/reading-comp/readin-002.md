@@ -103,7 +103,7 @@ This is the most common error on these questions. Consider a passage about the d
 ## Common Wrong Answer Patterns
 
 - **The "topic statement"**: States what the passage is about without making a claim. Example: "The passage discusses the debate over bilingual education" (describes subject, not main point).
-- **The "引申" (overextension)**: Goes beyond what the passage actually says. Example: "The passage proves that bilingual education policies are harmful."
+- **The "overextension"**: Goes beyond what the passage actually says. Example: "The passage proves that bilingual education policies are harmful."
 - **The "reverse"**: Gets the author's position exactly backwards. Example: "The passage argues that both sides have adequately addressed the relevant evidence."
 - **The "half-right"**: Captures part of the author's argument but misses the crucial qualifier. Example: "The passage argues that context shapes preferences" (leaves out the critique of rational agent theory).
 

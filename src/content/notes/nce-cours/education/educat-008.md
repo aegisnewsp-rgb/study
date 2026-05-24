@@ -346,7 +346,7 @@ A professional relationship that empowers individuals to achieve wellness, growt
 - **C**: Conventional — organizing, clerical
 
 **Krumboltz (1979) — Social Learning Theory**:
-- Career决定 based on learning experiences
+- Career decisions based on learning experiences
 - Self-assessment and world-of-work information
 - Goal-setting and action planning
 

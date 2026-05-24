@@ -26,7 +26,7 @@ The key is resisting the urge to find a superficial connection. "Bird" and "nest
 **Cause-Effect:** Fire : Burn, Rain : Flood, Effort : Success
 **Worker-Tool:** Surgeon : Scalpel, Writer : Pen, Painter : Brush
 **Sequence/Order:** Breakfast : Lunch : Dinner, Inhale : Exhale, Birth : Death
-**Degree:**同意 :狂热 (Consent : Fanaticism), Cold : Freezing, Fond : Obsessed
+**Degree:** Consent : Fanaticism, Cold : Freezing, Fond : Obsessed
 **Function/Purpose:** Knife : Cut, Hammer : Strike, Thermometer : Measure
 **Similarity/Resemblance:** Twin : Resemble, Map : Territory, Echo : Reflection
 **Opposite:** Black : White, Hot : Cold, Generous : Stingy

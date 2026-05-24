@@ -233,7 +233,7 @@ The DFC project represents Indian Railways' largest capacity expansion initiativ
 - **PMGSY in Karnataka**: Rural connectivity improved significantly; 2018 data: 97%+ rural villages connected by pucca road
 
 **Railway Development**:
-- **New Railway line projects**: Hubli-W假i line, Gadag-Bidar gauge conversion
+- **New Railway line projects**: Gadag-Bidar gauge conversion
 - **Railway electrification**: SWR zone has achieved near-100% electrification
 - **Bangalore suburban rail project**: 4 lines; partially operational; completion would decongest Bangalore's transport
 

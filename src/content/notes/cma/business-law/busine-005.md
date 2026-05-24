@@ -254,7 +254,7 @@ A promoter is a person who:
 ### The Corporate Veil Doctrine
 The corporate veil separates the company from its members. Members generally cannot be held liable for company's debts — this is the **limited liability** principle.
 
-### When Courts Will Lift the Veil (Section 6,例外)
+### When Courts Will Lift the Veil (Section 6, Exceptions)
 
 Courts will disregard the corporate personality (lift the veil) when:
 

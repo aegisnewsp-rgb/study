@@ -146,7 +146,7 @@ Each head has specific rules for what income is chargeable and what deductions a
 | Salary | 12 | Perquisites, allowances, benefits-in-kind, retirement benefits |
 | Income from Property | 15 | Rental income, vacancy allowance, deductions under Section 16 |
 | Income from Business | 16 | Receipts, admissibility of expenses, accounting treatment |
-| Capital Gains | 37 | Disposal of specified assets;区分 short-term vs long-term |
+| Capital Gains | 37 | Disposal of specified assets; distinguish short-term vs long-term |
 | Income from Other Sources | 18 | Residual head; dividends, interest, royalties, etc. |
 
 #### 5. Income from Other Sources vs. Business Income

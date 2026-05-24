@@ -264,7 +264,7 @@ Bank Charges A/c     Dr.  (amount)
 
 #### 4. Subdivisions of Journal — Special Journals
 
-In large organisations, the journal is subdivided to提高 efficiency:
+In large organisations, the journal is subdivided to improve efficiency:
 
 - **Cash Journal / Cash Book:** Records all cash and bank transactions
 - **Sales Journal:** Records all credit sales

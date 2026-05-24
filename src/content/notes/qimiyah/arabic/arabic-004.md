@@ -219,7 +219,7 @@ When possessive suffixes are attached to prepositions (حروف الجر), they 
 "All the students are present."
 
 The noun following كُلٌّ is put in the **genitive case (مجرور)**:
-- كُلُّ (kullu) = كُلٌّ with its主人 in nominative (if functioning as subject)
+- كُلُّ (kullu) = كُلٌّ as the head noun in nominative (if functioning as subject)
 - الطُّلَّابِ (al-ṭullābi) = genitive following كُلّ
 
 **Example with suffix**: كُلُّهُمْ حَاضِرُونَ (kulluhum ḥāḍirūna) — "All of them are present"

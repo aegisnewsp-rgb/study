@@ -117,7 +117,7 @@ Diabetes education is the cornerstone of diabetes management in the UAE, where p
 - High consumption of processed foods and fast food
 
 **Nutrition Guidelines for UAE:**
-- Traditional Emirati cuisine includes large amounts of rice, bread,骆驼肉, fish, and dates — modifications should focus on portion control and reducing saturated fat
+- Traditional Emirati cuisine includes large amounts of rice, bread, camel meat, fish, and dates — modifications should focus on portion control and reducing saturated fat
 - Reduce sodium intake (traditional dishas include high-salt broths)
 - Increase fruit and vegetable consumption (below WHO recommendations in UAE)
 - Reduce sugar-sweetened beverages (common in Gulf region — ayran, fresh juices with added sugar)

@@ -30,7 +30,7 @@ The genus *Staphylococcus* contains over 40 species, but only a handful are clin
 
 *S. aureus* possesses an impressive array of virulence factors:
 
-- **Coagulase** — converts fibrinogen to fibrin;的唯一 characteristic of *S. aureus*
+- **Coagulase** — converts fibrinogen to fibrin; the defining characteristic of *S. aureus*
 - **Protein A** — binds Fc portion of IgG, preventing opsonization and phagocytosis
 - **Catalase** — converts H₂O₂ to water and oxygen; protects against oxidative killing
 - **Beta-lactamase** — degrades penicillin and ampicillin; widespread in clinical isolates

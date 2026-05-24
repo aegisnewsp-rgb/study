@@ -20,7 +20,7 @@ generated: "2026-03-25T17:00:00"
 **Supreme Court Facts:**
 - Highest court of India; 34 judges (max)
 - Article 124: Parliament can increase judges beyond 25
-- **Original Jurisdiction:** Disputes between States, Centre vs States, Goa vs Maharashtra (卡纳塔克 claim over belongings)
+- **Original Jurisdiction:** Disputes between States, Centre vs States, Goa vs Maharashtra (Karnataka claim over belongings)
 - **Appellate Jurisdiction:** Constitutional, civil, criminal appeals
 - **Writ Jurisdiction (Art 32):** Supreme Court can issue writs for fundamental rights ONLY; High Courts can issue for fundamental + other rights (Art 226)
 

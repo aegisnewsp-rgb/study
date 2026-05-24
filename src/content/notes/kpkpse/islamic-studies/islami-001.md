@@ -42,7 +42,7 @@ The Uthmanic manuscript (Mushaf Uthman) is the standardised text used today. Whe
 **The 114 Surahs:**
 | Category | Number | Characteristics |
 |---|---|---|
-| Makki | 86 | Short verses; focus on tauhid, akhirah, moral教导 |
+| Makki | 86 | Short verses; focus on tauhid, akhirah, moral teachings |
 | Madani | 28 | Longer verses; focus on law, society, governance |
 
 **Key Surahs for Islamic Law:**
@@ -58,7 +58,7 @@ The Quran contains approximately 500 verses related to Islamic law (ahkam). Key 
 - **Family law**: Marriage, divorce, inheritance (Surah An-Nisa)
 - **Criminal law**: Hirabah (disruption of society), qisas (retaliation), diya (blood money)
 - **Economic law**: Prohibition of riba (interest), gharar (uncertainty), hoarding
-- **Islamic礼仪**: Salat (prayer), sawm (fasting), hajj, zakah
+- **Islamic rituals**: Salat (prayer), sawm (fasting), hajj, zakah
 
 **The Methodology of Quranic Interpretation (Tafsir):**
 - **Tafsir by scholars**: Classical exegesis (Ibn Abbas, Tabari, Ibn Kathir)

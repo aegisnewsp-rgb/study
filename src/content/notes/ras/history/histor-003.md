@@ -69,7 +69,7 @@ Chandragupta established the **first large centralised empire:**
 
 Bindusara (also called **Susrutha** in some sources):
 - Extended the empire to the **Deccan** — conquered the region of **Kalinga** (Odisha) or at least demanded submission
-- **Southern expansion** — sent his son Ashoka to govern **Ujjain** (，初步)
+- **Southern expansion** — sent his son Ashoka to govern **Ujjain** (initially)
 - Used **forced labour** for infrastructure (some sources suggest harsh rule)
 
 ### Relations with Greeks

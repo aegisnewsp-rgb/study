@@ -373,7 +373,7 @@ $$\frac{dT}{dt} = 2\pi k \frac{(T - T_0)^3}{Q}$$
 
 - Infrared imaging detects surface temperature variations
 - Subsurface defects show as temperature anomalies
-- Active (外部热源) or passive
+- Active (external heat source) or passive
 
 ### Shearography
 

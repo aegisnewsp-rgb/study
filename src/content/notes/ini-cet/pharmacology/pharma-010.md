@@ -60,5 +60,5 @@ generated: "2026-03-25T17:00:00"
 - **Hepatotoxicity** (especially in pregnancy)
 
 **Other Related Drugs**:
-- **Glycylcyclines**: **Tigecycline** — broader tetracycline (，克服 tetracycline resistance); used for complicated skin/soft tissue and intra-abdominal infections when other options unavailable; GI side effects prominent
+- **Glycylcyclines**: **Tigecycline** — broader tetracycline (overcomes tetracycline resistance); used for complicated skin/soft tissue and intra-abdominal infections when other options unavailable; GI side effects prominent
 - **Oxazolidinones**: **Linezolid** — binds to 23S rRNA of 50S (not the A site); bacteriostatic for most gram-positives; active against MRSA, VRE, penicillin-resistant pneumococci; **SAE**: Thrombocytopenia with prolonged use; MAO inhibition (serotonin syndrome with SSRIs — CONTRAINDICATED)

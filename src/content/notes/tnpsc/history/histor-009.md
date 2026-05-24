@@ -168,7 +168,7 @@ Founded in 1336 CE by Harihara I and Bukka Raya I — brothers who served under 
 
 - **Architecture:** The distinctive "Dravidian style" — massive gopurams (gateway towers), courtyards, granaries
 - **Hampi:** Ruins of Hampi include the Virupaksha Temple, Vittala Temple (with the famous stone chariot), Hazara Rama Temple, Queen's Bath, Lotus Mahal
-- **Literature:** Telugu literature reached its zenith —芭蕉 (Krishnadevaraya composed Amukta Malyada); Kannada literature under Deva Raya II
+- **Literature:** Telugu literature reached its zenith (Krishnadevaraya composed Amukta Malyada); Kannada literature under Deva Raya II
 - **Bronze sculpture:** Continued the South Indian bronze tradition
 
 ### Decline and Fall

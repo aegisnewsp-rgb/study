@@ -64,7 +64,7 @@ generated: "2026-03-25T17:00:00"
 **Validity**:
 | Type | Meaning | Example |
 |------|---------|---------|
-| Internal validity |因果关系可信 | No confounding variables |
+| Internal validity | Causal relationship is credible | No confounding variables |
 | External validity | Can generalise results | Representative sample |
 
 ⚡ **A/L PYQ**: "What is the difference between accuracy and precision?" Answer: Accuracy = how close your measurement is to the true value. Precision = how close repeated measurements are to each other. A precise measurement can still be inaccurate if there's systematic error.

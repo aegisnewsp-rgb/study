@@ -66,7 +66,7 @@ Wudu is the Islamic procedure for achieving ritual purity before prayer. Its com
 
 **Sunnahs of Wudu include:** saying Bismillah, washing hands first, rinsing the mouth and nose, wiping the ears, and wiping the neck.
 
-**Nullifiers of Wudu:** Natural excretion or gas, sleep beyond a微睡, eating camel meat, touching private parts without a barrier, and major bleeding.
+**Nullifiers of Wudu:** Natural excretion or gas, sleep beyond a light doze, eating camel meat, touching private parts without a barrier, and major bleeding.
 
 ### Ghusl (الاغتسال) — The Major Ablution
 

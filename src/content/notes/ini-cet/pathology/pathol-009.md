@@ -26,7 +26,7 @@ generated: "2026-03-25T17:00:00"
 
 **Specific Nomenclature**:
 - **Adenoma**: Benign glandular tumor (e.g., thyroid adenoma)
-- **Papilloma**: Benign乳头状 growth (e.g., skin warts)
+- **Papilloma**: Benign papillary growth (e.g., skin warts)
 - **Cystadenoma**: Benign cystic glandular tumor (e.g., ovarian cystadenoma)
 - **Carcinoma**: Malignant tumor of epithelial origin (most common — ~80% of cancers)
   - Adenocarcinoma: Carcinoma with glandular differentiation

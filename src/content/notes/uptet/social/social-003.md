@@ -84,7 +84,7 @@ generated: "2026-03-25T17:00:00"
 - **Dak Chowki**: Postal system established (horse and foot messengers)
 - **Token Currency**: First to introduce bronze/tin coins as token money (FAILED - caused inflation)
 - **Taxation**: Imposed heavy tax on Khalsa lands (caused rebellion)
-- **Army reforms**: Attempted paid羌 regiment (failed)
+- **Army reforms**: Attempted paid regiment (failed)
 - **IQTA system** reorganized - divided empire into 5 parts for revenue
 - Despite "crazy" label, he was a scholar, poet, and visionary administrator
 

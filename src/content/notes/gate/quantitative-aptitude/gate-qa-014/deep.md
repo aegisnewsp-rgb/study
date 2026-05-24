@@ -18,7 +18,7 @@ generated: ai-v1
 ## Permutation & Combination — Deep Dive
 
 ### Concept Deep Dive
-Counting problems look deceptively simple but can become陷阱 (trap) problems very quickly. The key is to correctly identify what kind of counting situation you're in. At the highest level, every counting problem involves either arrangement (permutation) or selection (combination), and the critical question is whether order matters in the context of the problem. But even this distinction has nuances — when you arrange items in a circle, for instance, rotation doesn't create a new arrangement, which fundamentally changes the count.
+Counting problems look deceptively simple but can become trap problems very quickly. The key is to correctly identify what kind of counting situation you're in. At the highest level, every counting problem involves either arrangement (permutation) or selection (combination), and the critical question is whether order matters in the context of the problem. But even this distinction has nuances — when you arrange items in a circle, for instance, rotation doesn't create a new arrangement, which fundamentally changes the count.
 
 Consider circular permutations. If you seat 5 people around a round table, how many distinct arrangements are there? The naive answer is 5! = 120. But think about it: if everyone shifts one seat clockwise, you get the same seating configuration. All 5 rotations of any arrangement are identical in a circle. So you divide by 5, giving (5-1)! = 4! = 24. The formula for circular permutations of n distinct objects is (n-1)!. This only applies when the circle has no fixed reference point — if there's a head of the table or a specific north position, then regular linear arrangements apply.
 

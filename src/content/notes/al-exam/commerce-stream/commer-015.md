@@ -382,7 +382,7 @@ Process:
 | Step | Method | Sri Lankan Context |
 |------|--------|-------------------|
 | Step 1 | Direct negotiation | First attempt between union and management |
-| Step 2 | Mediation | Labour Department mediation officer介入 |
+| Step 2 | Mediation | Labour Department mediation officer intervenes |
 | Step 3 | Conciliation | More formal third-party involvement |
 | Step 4 | Arbitration | Binding or non-binding depending on agreement |
 | Step 5 | Adjudication | Labour tribunal/Court of Appeal |

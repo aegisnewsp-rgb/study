@@ -123,7 +123,7 @@ The Bennet family has five daughters; Mrs Bennet's obsession is marrying them we
 *Key themes:*
 - **Marriage as social institution** — Austen's famous opening ("It is a truth universally acknowledged...") is satirical. Characters marry for money, status, security, passion, or genuine love — and Austen judges each.
 - **Class and status** — wealth, connections, and "accomplishments" determine social worth; Austen critiques this system
-- **Self-knowledge and growth** — Elizabeth and Darcy both mature through painful反思
+- **Self-knowledge and growth** — Elizabeth and Darcy both mature through painful reflection
 
 *Notable quotes:* "I declare after all there is no enjoyment like reading!" (Mr Bennet, ironically); Darcy's confession: "In vain have I struggled. It will not do."
 
@@ -213,7 +213,7 @@ Austen's irony operates at three levels:
 2. **Dramatic irony** — the reader understands more than characters; Emma misreads Harriet Smith's social standing; Elizabeth doesn't see Darcy's genuine reform
 3. **Structural irony** — the novel itself questions the very marriage-market it depicts; the happy ending (marriage for love) is both endorsed and complicated by the social conditions enabling it
 
-Austen's free indirect discourse is the key technical vehicle for this irony. When Emma thinks "Harriet was一日 no common girl," the narrator's presence is felt but the thought is Emma's. The reader can simultaneously认同 Emma's perspective and see beyond it.
+Austen's free indirect discourse is the key technical vehicle for this irony. When Emma thinks "Harriet was no common girl," the narrator's presence is felt but the thought is Emma's. The reader can simultaneously identify with Emma's perspective and see beyond it.
 
 **Gothic Novel — Origins and Influence**
 
@@ -241,7 +241,7 @@ Critics (Barthes, Foucault) have argued that the Bildungsroman's narrative of se
 
 **Critical Perspectives on Victorian and Regency Novels**
 
-- **Marxist:** The novel as bourgeois意识形态; characters' "choices" are determined by their class position; Austen's landed gentry world is one where capital determines marriage
+- **Marxist:** The novel as bourgeois ideology; characters' "choices" are determined by their class position; Austen's landed gentry world is one where capital determines marriage
 - **Feminist:** Austen's women navigate patriarchal constraints; Dickens's female characters (Nancy in *Oliver Twist*) expose the vulnerability of working-class women; the "angel in the house" ideology is both internalised and subtly critiqued
 - **Postcolonial:** Dickens's empire in *Bleak House*; the racial dimension of the Gothic (the racialised "other" in Frankenstein's creature); colonial wealth funding Regency society
 

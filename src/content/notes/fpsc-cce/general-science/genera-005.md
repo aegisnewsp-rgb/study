@@ -70,7 +70,7 @@ generated: "2026-03-25T17:00:00"
 
 **Zia-ul-Haq Era (1977-1988)**:
 - **Soviet Invasion of Afghanistan (1979)**: Pakistan became frontline state
-- **US援助**: CIA funneled Stinger missiles, funds through Pakistan to Afghan mujahideen
+- **US aid**: CIA funneled Stinger missiles, funds through Pakistan to Afghan mujahideen
 - **Jehadi Infrastructure**: Rise of Taliban (formed 1994), Pakistan supported them against Soviet-backed government
 
 ### Phase 3: Post-Soviet and Nuclear Crisis (1990s)

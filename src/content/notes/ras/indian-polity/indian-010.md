@@ -20,7 +20,7 @@ The Constitution of India is notably easier to amend than the US Constitution bu
 
 ### 🟢 Lite — Quick Review (1h–1d)
 
-Article 368 provides the procedure for amending the Constitution. Not all amendments go through Article 368. Some provisions of the Constitution can be amended by a simple parliamentary majority without going through Article 368 (for example, certain changes to the议会 lists in the Seventh Schedule). These are considered minor changes that do not affect the basic structure of the Constitution.
+Article 368 provides the procedure for amending the Constitution. Not all amendments go through Article 368. Some provisions of the Constitution can be amended by a simple parliamentary majority without going through Article 368 (for example, certain changes to the legislative lists in the Seventh Schedule). These are considered minor changes that do not affect the basic structure of the Constitution.
 
 The three categories of amendments under Article 368 are as follows. First, certain amendments require only a simple majority of both Houses of Parliament (not the special majority requirement of Article 368 itself). Second, most amendments require a special majority: two-thirds of members present and voting in each House, plus an absolute majority of the total membership of each House. Third, some amendments require both the special majority in Parliament and ratification by at least half of the state legislatures. This third category applies to changes affecting the federal structure, the representation of states in Parliament, the Supreme Court and High Court jurisdiction, and the amendment procedure itself.
 

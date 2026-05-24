@@ -20,7 +20,7 @@ generated: ai-v1
 ### Full Concept
 
 #### Ratio of Three Quantities
-Ratios can compare more than two things. If the ratio of面粉:水:盐 in a recipe is 5:3:1 and the total flour is 500g, each "unit" = 500 ÷ 5 = 100g. So water = 3 × 100 = 300g and salt = 1 × 100 = 100g. The key is: **find the value of one unit first**, then multiply.
+Ratios can compare more than two things. If the ratio of flour:water:salt in a recipe is 5:3:1 and the total flour is 500g, each "unit" = 500 ÷ 5 = 100g. So water = 3 × 100 = 300g and salt = 1 × 100 = 100g. The key is: **find the value of one unit first**, then multiply.
 
 For three quantities a:b:c divided in ratio a:b:c, individual shares = (a×Total)/(a+b+c), etc.
 

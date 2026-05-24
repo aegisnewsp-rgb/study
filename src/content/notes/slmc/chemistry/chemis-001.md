@@ -150,7 +150,7 @@ Understanding electron distribution is critical for predicting reaction outcomes
 - Polarity transmitted through σ bonds
 - Electron-donating groups (EDG): –CH₃, –OH, –NH₂
 - Electron-withdrawing groups (EWG): –NO₂, –CN, –COOH, –COOR, –CX₃
-- Effect decreases with distance:影响力 at carbon-1 > carbon-2 > carbon-3
+- Effect decreases with distance: influence at carbon-1 > carbon-2 > carbon-3
 
 ### Resonance Effect
 - Delocalization of π electrons or lone pairs through conjugated systems

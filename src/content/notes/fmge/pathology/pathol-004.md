@@ -67,7 +67,7 @@ Excess fluid accumulation in interstitial tissue spaces or body cavities
 | Causes | CHF, nephrosis, cirrhosis | Inflammation, infection |
 
 **Serous effusion**: Transudate from systemic causes
-**Purulent effusion**: Exudate with脓性 cells (empyema)
+**Purulent effusion**: Exudate with pus cells (empyema)
 
 ### Sites of Edema
 

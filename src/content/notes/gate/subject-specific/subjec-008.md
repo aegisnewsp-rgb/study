@@ -256,7 +256,7 @@ Power P = (T₁ – T₂) × V where V is belt velocity (m/s)
 
 **Failure modes:**
 - **Spalling:** Fatigue failure starting at subsurface — most common
-- **Brinelling:** Static indentation from振动 or incorrect handling
+- **Brinelling:** Static indentation from vibration or incorrect handling
 - **Abrasive wear:** Contamination in lubricant
 - **Corrosion:** Water or chemical contamination
 - **Electrical pitting:** EDM damage from electric motors

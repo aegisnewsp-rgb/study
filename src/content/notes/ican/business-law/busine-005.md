@@ -66,7 +66,7 @@ The general rule: Only the owner of goods can pass good title (*nemo dat quod no
 
 4. **Sale by One of Several Joint Owners:** If one joint owner sells goods with the authority of the other joint owners, the buyer gets good title
 
-5. **Seller in Possession After Sale:** If a seller remains in possession of goods after a sale, and delivers them to a third party who receives them in good faith, that third party obtains good title (Section 24 — "双重销售" rule)
+5. **Seller in Possession After Sale:** If a seller remains in possession of goods after a sale, and delivers them to a third party who receives them in good faith, that third party obtains good title (Section 24 — "double sale" rule)
 
 6. **Buyer in Possession Before Payment:** If a buyer obtains possession of goods with the seller's consent before payment, and sells them to a third party in good faith, that third party obtains good title (this is complex — read carefully)
 

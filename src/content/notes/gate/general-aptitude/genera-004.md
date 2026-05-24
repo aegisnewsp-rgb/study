@@ -24,7 +24,7 @@ These three topics — motion, work, and flow — are united by the same underly
 > - **Relative speed** (same direction) = |v₁ − v₂|; (opposite direction) = v₁ + v₂
 > - **Upstream speed** = u − v; **Downstream speed** = u + v (where u = boat speed in still water, v = stream speed)
 > - **Work rate:** If A does a job in x days, A's rate = 1/x job/day
-> - **Combined work:** Rate相加 → Time = xy/(x+y) for two workers
+> - **Combined work:** Rate added → Time = xy/(x+y) for two workers
 
 **⚡ GATE exam tip:** For average speed when the same distance is covered at speeds v₁ and v₂, the harmonic mean applies: v_avg = 2v₁v₂/(v₁+v₂). The arithmetic mean (v₁+v₂)/2 is WRONG in this case.
 

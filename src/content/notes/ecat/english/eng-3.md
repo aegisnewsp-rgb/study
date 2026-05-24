@@ -135,9 +135,9 @@ Transitive verbs have a direct object. Some verbs can be both:
 - "The heater rose the temperature." (transitive — the heater did something to the temperature)
 
 Linking verbs (copular verbs) connect subject to a complement (noun or adjective describing the subject):
--感官动词: look, seem, appear, feel, taste, smell, sound
--转变动词: become, get, grow, turn, go, come, fall, run
--状态动词: be, remain, stay, keep, prove
+- Sense verbs: look, seem, appear, feel, taste, smell, sound
+- Change-of-state verbs: become, get, grow, turn, go, come, fall, run
+- State verbs: be, remain, stay, keep, prove
 
 "Turn" with colours: "Her face turned pale" (adjective, not "turned palely"). "The milk turned sour" (adjective).
 

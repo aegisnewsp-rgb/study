@@ -112,7 +112,7 @@ Courts may lift the corporate veil and hold shareholders personally liable in ex
 - Fraud or evasion of legal obligations (e.g., where the company is used to defraud creditors)
 - Agency relationship — where the company is acting as an agent of the shareholders
 - Group accounts — for financial reporting purposes
-- Statutory provisions — CAMA 2020 Section 粗 (certain provisions allow veil-piercing)
+- Statutory provisions — CAMA 2020 (certain provisions allow veil-piercing)
 
 **The Constitution and Business Law:**
 

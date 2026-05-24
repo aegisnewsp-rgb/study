@@ -185,7 +185,7 @@ The company can alter the conditions contained in its Memorandum with respect to
   - If the charge is not registered, it becomes **void against the liquidator and creditors** — this means secured creditors lose their security interest and become unsecured creditors
   - The registered charge is disclosed in the **Register of Charges** maintained by RoC and is available for public inspection
   - **Fixed Charge:** Specific asset (e.g., factory land and building); ranks first in priority; crystallises immediately upon creation
-  - **Floating Charge:**覆盖 a class of assets (e.g., stock, book debts); "floats" over the assets and crystallises (becomes fixed) upon default or winding up
+  - **Floating Charge:** covers a class of assets (e.g., stock, book debts); "floats" over the assets and crystallises (becomes fixed) upon default or winding up
 
 **⚡ High-Yield Point:** A floating charge created within 12 months before the commencement of winding up is **void against the liquidator** under **Section 339** unless the company had received cash or value in exchange — this is a critical trap for exam questions involving preferential payments.
 

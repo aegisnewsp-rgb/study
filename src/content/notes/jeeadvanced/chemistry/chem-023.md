@@ -338,7 +338,7 @@ Analysis:
 Answer: Butan-2-one
 ```
 
-⚡ **JEE常常考:** A compound with molecular formula C₅H₁₀O gives yellow precipitate with I₂/NaOH but negative Tollens'. This is 2-pentanone or 3-pentanone. Both are methyl ketones (CH₃–CO– is always terminal or internal if CH₃ is attached).
+⚡ **JEE frequently asks:** A compound with molecular formula C₅H₁₀O gives yellow precipitate with I₂/NaOH but negative Tollens'. This is 2-pentanone or 3-pentanone. Both are methyl ketones (CH₃–CO– is always terminal or internal if CH₃ is attached).
 
 **6. Environmental & Biological Significance:**
 

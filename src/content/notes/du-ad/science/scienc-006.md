@@ -49,7 +49,7 @@ Heredity is the process by which offspring inherit traits from their parents. Th
 #### 1. Law of Dominance
 In a heterozygote, the dominant allele masks the recessive allele. The trait that appears in the F1 generation is the dominant trait.
 
-**Example:** When pure tall (TT) and pure dwarf (tt) pea plants are crossed, all F1 offspring are tall (Tt). The矮 allele is hidden but still present.
+**Example:** When pure tall (TT) and pure dwarf (tt) pea plants are crossed, all F1 offspring are tall (Tt). The dwarf allele is hidden but still present.
 
 #### 2. Law of Segregation
 During gamete formation, paired alleles separate randomly so each gamete receives only one allele from each pair.
@@ -172,7 +172,7 @@ Human sex is determined by X and Y chromosomes:
 
 1. Problem on monohybrid cross (find phenotypic ratio)
 2. Blood group genetics (Rh factor combined with ABO)
-3. Sex-linked inheritance (color blindness in家族)
+3. Sex-linked inheritance (color blindness in families)
 4. Difference between gene and allele
 5. Crossing over and recombination
 

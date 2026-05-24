@@ -96,7 +96,7 @@ The CI–SI gap accelerates with time because CI is exponential while SI is line
 #### Instalment Problems
 
 **Simple Interest instalments (straightforward):**
-A冰箱 priced at ₹18,000 is bought on hire purchase at 10% SI for 2 years, paid in 2 equal annual instalments.
+A refrigerator priced at ₹18,000 is bought on hire purchase at 10% SI for 2 years, paid in 2 equal annual instalments.
 
 Total SI = $\frac{18000 \times 10 \times 2}{100} = ₹3{,}600$
 Total amount = ₹21,600

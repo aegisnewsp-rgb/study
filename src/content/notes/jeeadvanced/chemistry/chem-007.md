@@ -92,7 +92,7 @@ van 't Hoff equation: ln(K₂/K₁) = −(ΔH°/R)(1/T₂ − 1/T₁)
 For exothermic (ΔH° < 0): Increasing T → K decreases (less product)
 For endothermic (ΔH° > 0): Increasing T → K increases (more product)
 
-**Effect of inert gas at constant volume**: No effect on K or equilibrium composition (partial pressures of all components remain same since total moles不变, volume不变).
+**Effect of inert gas at constant volume**: No effect on K or equilibrium composition (partial pressures of all components remain same since total moles unchanged, volume unchanged).
 
 **Effect of inert gas at constant pressure**: Equilibrium shifts toward more moles of gas (because adding inert gas at constant P means V must increase, reducing all partial pressures equally, so Q = K and the system must shift to keep Q = K — actually check: for PCl₅ ⇌ PCl₃ + Cl₂, Q = P_PCl₃·P_Cl₂/P_PCl₅ = (n_PCl₃·n_Cl₂/n_PCl₅)·(P_total/V)... this gets complex. For most exam purposes: inert gas at constant V → no effect; inert gas at constant P → shifts toward more moles).
 

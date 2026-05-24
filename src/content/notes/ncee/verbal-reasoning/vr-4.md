@@ -272,7 +272,7 @@ Answer: **B** — "Rough" is the closest antonym of "Gentle"
 | Excellent | Poor | Useful | Useless |
 | Expand | Contract | Usual | Unusual |
 | Export | Import | Vacation | Work |
-| Face |背-回避 | Valid | Invalid |
+| Face | Avoid | Valid | Invalid |
 | Fade | Brighten | Valuable | Worthless |
 | Fair | Unfair | Vanish | Appear |
 | Familiar | Unfamiliar | Vast | Tiny |

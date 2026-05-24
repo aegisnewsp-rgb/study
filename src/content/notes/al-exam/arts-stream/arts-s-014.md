@@ -138,7 +138,7 @@ generated: "2026-03-25T17:00:00"
 - Healthcare financing and access
 
 **Environmental Justice**:
--谁是 Who bears environmental burden?
+- Who bears environmental burden?
 - Industrial pollution affecting communities
 - Waste management crisis (solid waste)
 - Chemical fertiliser ban and organic farming debate

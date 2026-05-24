@@ -80,7 +80,7 @@ Peshawar is one of the ancient cities on the **Silk Road**, with continuous habi
 
 ### Quetta: Mountain Gateway
 
-Quetta sits in a natural mountain bowl (海拔 1,700 meters), historically known as the "Fruit Garden" due to its agricultural productivity:
+Quetta sits in a natural mountain bowl (elevation 1,700 meters), historically known as the "Fruit Garden" due to its agricultural productivity:
 
 - **Hazara community** in Quetta has faced targeted violence (bombings in 2003, 2011, 2013)
 - **Quetta Conspiracy Case (1951)**: Failed coup attempt against the Punjabi-dominated military establishment

@@ -80,7 +80,7 @@ generated: "2026-03-25T17:00:00"
 |---------|-------------|
 | Core product | The fundamental benefit customers receive |
 | Actual product | Physical features, brand, packaging |
-| Augmented product |附加 services, warranty, after-sales support |
+| Augmented product | Additional services, warranty, after-sales support |
 
 **Product Life Cycle**:
 | Stage | Characteristics | Marketing Focus |

@@ -167,7 +167,7 @@ The Arthashastra by Chanakya provides detailed information on Mauryan administra
 
 ### Espionage
 
-Chanakya emphasized intelligence gathering through spies (梵 Pratisa). The Arthashastra describes an elaborate espionage system with 8 categories of spies.
+Chanakya emphasized intelligence gathering through spies. The Arthashastra describes an elaborate espionage system with 8 categories of spies.
 
 ## Arthashastra
 

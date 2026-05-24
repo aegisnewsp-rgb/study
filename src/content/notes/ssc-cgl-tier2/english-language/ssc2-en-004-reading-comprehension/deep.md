@@ -50,7 +50,7 @@ These are the hardest. The correct answer must be **necessarily true** based on 
 
 **Type 4: Tone/Attitude Questions (10-15%)**
 The author's tone is judged by:
-- Word choice (褒贬)
+- Word choice (connotation)
 - Sentence length and complexity
 - Whether counter-arguments are acknowledged or dismissed
 - The presence of humour, irony, or sarcasm

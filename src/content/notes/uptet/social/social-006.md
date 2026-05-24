@@ -25,7 +25,7 @@ generated: "2026-03-25T17:00:00"
 - Major sectors: Agriculture (17%), Industry (25%), Services (58%)
 
 **Five-Year Plans** (Planning Commission, 1951-2014):
-- **1st Plan (1951-56)**: Agriculture,重点 dam building (Hirakud, Bhakra)
+- **1st Plan (1951-56)**: Agriculture, focus on dam building (Hirakud, Bhakra)
 - **2nd Plan (1956-61)**: Heavy industry, import substitution (Mahalanobis model)
 - **3rd Plan (1961-66)**: Agriculture, defense ( Sino-Indian war, famine)
 - **4th-7th Plans**: Various focuses - poverty alleviation, technology

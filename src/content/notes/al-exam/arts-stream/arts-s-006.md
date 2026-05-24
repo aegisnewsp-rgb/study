@@ -172,7 +172,7 @@ generated: "2026-03-25T17:00:00"
 #### Sri Lankan Short Story Tradition
 
 **Pioneers of Sri Lankan Short Fiction**:
-- **Martin Wickramasinghe** (1894-1976): Author of "Gamperaliya" (Transformation) and "Bug蒻y a swargayak" (The Master)
+- **Martin Wickramasinghe** (1894-1976): Author of "Gamperaliya" (Transformation)
 - **Katherine M. Balasuriya**: Known for "Two Women" depicting women's struggles
 - **James T. M. K. Perera**: Focused on social realism
 - **Gunasinghe Baduge**: Contemporary writer exploring conflict and identity

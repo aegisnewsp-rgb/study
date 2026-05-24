@@ -11,7 +11,7 @@ generated: "2026-03-25T17:00:00"
 ---
 # Arabic Sentence Structure and the тройной состав
 
-Understanding Arabic sentence structure is essential for reading, comprehending, and translating Arabic texts — including Quranic verses and hadith. Arabic sentences follow a distinctive pattern that differs significantly from English. This topic covers the basic sentence types in Arabic, the three components of a nominal sentence (抬纳), and the rules governing verb-subject order.
+Understanding Arabic sentence structure is essential for reading, comprehending, and translating Arabic texts — including Quranic verses and hadith. Arabic sentences follow a distinctive pattern that differs significantly from English. This topic covers the basic sentence types in Arabic, the three components of a nominal sentence, and the rules governing verb-subject order.
 
 ## The Two Sentence Types in Arabic
 

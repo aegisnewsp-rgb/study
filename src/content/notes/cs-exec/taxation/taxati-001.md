@@ -139,7 +139,7 @@ An assessee is any person by whom tax or any other sum of money is payable under
 Income includes:
 1. Profits and gains of business or profession
 2. Dividend
-3. Voluntary contributions received by a trust/institution created wholly/t主要是 for religious or charitable purposes
+3. Voluntary contributions received by a trust/institution created wholly/mainly for religious or charitable purposes
 4. Casual income (lottery, horse races, card games, etc.)
 5. Income from owning and maintaining race horses
 6. Income from machinery, plant, or furniture let on hire
@@ -432,7 +432,7 @@ In income tax law, the following principles apply:
 
 **Case Law Principles:**
 - **Snell's case principle**: The meaning of words in a statute must be determined by context
-- **B習慣 principle**: When the legislature changes the language of a provision, the courts presume a change in intent
+- **Change of language principle**: When the legislature changes the language of a provision, the courts presume a change in intent
 - **Generalia specialibus non derogant**: Specific provisions override general provisions
 - **In pari materia**: Statutes dealing with the same subject matter should be interpreted together
 
@@ -468,7 +468,7 @@ Tax rates for companies:
 - Minimum Alternate Tax (MAT) under Sec 115JB: 15% of book profit (plus surcharge + cess)
 
 **Firm:**
-A firm registered under the Indian Partnership Act, 1932 is treated as a distinct "person" from its partners. The firm pays tax on its income, and partners are separately taxed on their share of firm's profits. However, note that from AY 2023-24 onwards, the concept of "optimum解析" for firms has been significantly changed.
+A firm registered under the Indian Partnership Act, 1932 is treated as a distinct "person" from its partners. The firm pays tax on its income, and partners are separately taxed on their share of firm's profits. However, note that the relevant provisions for firms have been significantly changed from AY 2023-24 onwards.
 
 **Association of Persons (AOP) and Body of Individuals (BOI):**
 An AOP is a group of persons who join together for a common purpose (not necessarily business). A BOI is simply a collection of individuals (not necessarily for a common purpose). Both are taxable, though the tax rate differs from individuals.

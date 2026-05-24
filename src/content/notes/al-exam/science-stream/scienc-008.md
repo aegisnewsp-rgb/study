@@ -37,7 +37,7 @@ $$\text{Organism} \rightarrow \text{Population} \rightarrow \text{Community} \ri
 | Decomposers | Soil, air, minerals |
 | Predators, parasites | pH, salinity |
 
-⚡ **A/L Exam Tip**: Sri Lanka is in the Tropical Rainforest Biome - high temperature, high rainfall year-round,多层 canopy structure!
+⚡ **A/L Exam Tip**: Sri Lanka is in the Tropical Rainforest Biome - high temperature, high rainfall year-round, multi-layered canopy structure!
 
 ---
 

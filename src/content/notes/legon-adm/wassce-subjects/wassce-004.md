@@ -112,7 +112,7 @@ If two towns are 6 km apart in reality, what is their distance on the map?
 
 **Historical Context: The Golden Ratio**
 
-The ratio φ (phi) = (1 + √5)/2 ≈ 1.618:1, known as the Golden Ratio, has fascinated mathematicians since ancient Greece. Euclid defined it as the division of a line into "extreme and mean ratio"—the point that divides a segment such that the ratio of the whole segment to the longer part equals the ratio of the longer part to the shorter part. This ratio appears throughout nature (spiral shells, flower petals,人体 proportions) and classical architecture, including the Parthenon. Understanding ratios therefore connects modern WASSCE problems to millennia of mathematical tradition.
+The ratio φ (phi) = (1 + √5)/2 ≈ 1.618:1, known as the Golden Ratio, has fascinated mathematicians since ancient Greece. Euclid defined it as the division of a line into "extreme and mean ratio"—the point that divides a segment such that the ratio of the whole segment to the longer part equals the ratio of the longer part to the shorter part. This ratio appears throughout nature (spiral shells, flower petals, human body proportions) and classical architecture, including the Parthenon. Understanding ratios therefore connects modern WASSCE problems to millennia of mathematical tradition.
 
 **Proportional Parts and Internal Division**
 

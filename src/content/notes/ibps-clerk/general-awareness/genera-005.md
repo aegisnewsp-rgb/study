@@ -86,7 +86,7 @@ Launched on **May 9, 2015**, APY is a **government-subsidized pension scheme** f
 **Key features:**
 - **Eligibility:** All citizens aged 18–40 years who are not covered under any statutory pension scheme
 - **Contribution:** Based on age of entry and desired pension amount (₹1,000–₹5,000 per month)
-- **Government co-contribution:** The government contributes **50% of the subscriber's contribution** (up to ₹2,000 per year) for those with income below ₹10,000 per month under the撒axonomy
+- **Government co-contribution:** The government contributes **50% of the subscriber's contribution** (up to ₹2,000 per year) for those with income below ₹10,000 per month
 - **Spouse's continuation:** If the subscriber dies, the spouse continues to receive the pension; after both die, the accumulated pension corpus is returned
 - **Returns:** Guaranteed minimum pension based on contribution and age
 

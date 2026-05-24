@@ -85,7 +85,7 @@ CH₃–CH(OH)–CH₃ →(oxidation) CH₃–CO–CH₃ (acetone/propan-2-one)
 
 **Tertiary alcohols** do NOT oxidize (no hydrogen on the carbon bearing the –OH to be removed) — they are resistant to oxidation.
 
-**The Lucas Test:** ZnCl₂ + concentrated HCl is used to differentiate primary, secondary, and tertiary alcohols based on the speed of reaction. Tertiary alcohols react immediately (形成 cloudy layer), secondary alcohols react within 5–10 minutes, and primary alcohols react very slowly (or only on heating). This is an SN1 reaction — the rate depends on the stability of the carbocation intermediate.
+**The Lucas Test:** ZnCl₂ + concentrated HCl is used to differentiate primary, secondary, and tertiary alcohols based on the speed of reaction. Tertiary alcohols react immediately (forming a cloudy layer), secondary alcohols react within 5–10 minutes, and primary alcohols react very slowly (or only on heating). This is an SN1 reaction — the rate depends on the stability of the carbocation intermediate.
 
 ### Elimination Reactions (Dehydration)
 

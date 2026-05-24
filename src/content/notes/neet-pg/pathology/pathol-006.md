@@ -27,7 +27,7 @@ generated: "2026-03-25T17:00:00"
 **Grading**: Degree of differentiation (GX–G4); based on how much tumor resembles normal tissue.
 **Staging**: TNM — Tumor size (T), Nodes (N), Metastasis (M); most important prognostic factor.
 
-**Oncogenes**: Gain of function;只需要one allele mutated (dominant); e.g., RAS, MYC, BCR-ABL (CML), HER2/neu.
+**Oncogenes**: Gain of function; only one allele mutated (dominant); e.g., RAS, MYC, BCR-ABL (CML), HER2/neu.
 **Tumor suppressor genes**: Loss of function; requires BOTH alleles lost (recessive); e.g., RB (retinoblastoma), p53 (Li-Fraumeni), BRCA1/2, APC.
 
 ⚡ **Exam tip**: "2-hit hypothesis" = both alleles of tumor suppressor gene must be inactivated; explains why hereditary cancers occur earlier (1st hit is germline, 2nd is somatic).

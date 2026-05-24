@@ -122,7 +122,7 @@ The **Delhi Sultanate (1206–1526 CE)** was established by Qutb-ud-din Aibak af
 
 #### Lodi Dynasty (1451–1526)
 - **Bahlul Khan Lodi** (1451–1489): Founded the Lodi dynasty; revived Afghan nobility
-- **Sikandar Lodi (1489–1517)**: Great builder; built **Agra city**; introduced **、明、清** (rice husk) — no; introduced the **Dohcha** style of architecture
+- **Sikandar Lodi (1489–1517)**: Great builder; built **Agra city**
 - **Ibrahim Lodi (1517–1526)**: Defeated at the **First Battle of Panipat (1526)** by **Babur** — ending the Sultanate
 
 ---
@@ -167,7 +167,7 @@ The **Delhi Sultanate (1206–1526 CE)** was established by Qutb-ud-din Aibak af
 - **Ibadat Khana** (House of Worship) at Fatehpur Sikri — invited saints of all religions for debates
 - Promoted **Suleh-i-Kul** (universal peace) — syncretic religious policy
 - Invited **Abul Fazl** and **Faizi** to his court; studied **Ramayana** and **Mahabharata** through learned scholars
-- **Din-i-Ilahi** (Tauhid-i-Ilahi): A syncretic religion he founded (not强制); lasted only during his reign
+- **Din-i-Ilahi** (Tauhid-i-Ilahi): A syncretic religion he founded (not compulsory); lasted only during his reign
 - Married **Mariam-uz-Zamani** (Jodha Bai) — promoted Rajput-Mughal unity
 
 **Administration:**

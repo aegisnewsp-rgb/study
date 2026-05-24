@@ -107,7 +107,7 @@ Answer: A. definitive (definitive = final, conclusive — matches the context of
 Tentative = provisional = conditional all express uncertainty, opposite of what the sentence requires.
 
 **Common JAMB Pitfalls**
-1. Confusing "、静" (quiet) with "quite" — they are different words
+1. Confusing "quiet" with "quite" — they are different words
 2. Choosing a word with partial overlap ("happy" and "content" — not exact synonyms)
 3. Selecting the antonym of a derivative rather than the root word
 4. Ignoring the context — synonyms work differently in formal vs. informal sentences

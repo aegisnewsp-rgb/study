@@ -183,7 +183,7 @@ Key amendments to preamble: 42nd Amendment (1976) added "Socialist" and "Secular
 - **Indus Water Treaty (1960):** India can use only 20% of Indus waters; World Bank is guarantor; Saqalwat (Pakistan's right)
 
 #### Important UNESCO World Heritage Sites in India (2024)
-- **Cultural sites:** Taj Mahal (Agra), Agra Fort, Fatehpur Sikri, Red Fort (Delhi), Qutub Minar, Humayun's Tomb, Sanchi Stupa, Ajanta Caves, Ellora Caves, Khajuraho Group of Monuments, Sun Temple Konark, Charminar, Hampi Monuments, Mahabalipuram, Brihadeeswara Temple (Tanjore), Jaipur City,庙 (Brahma Temple — missing), Kaziranga, Keoladeo National Park, Khangchendzonga
+- **Cultural sites:** Taj Mahal (Agra), Agra Fort, Fatehpur Sikri, Red Fort (Delhi), Qutub Minar, Humayun's Tomb, Sanchi Stupa, Ajanta Caves, Ellora Caves, Khajuraho Group of Monuments, Sun Temple Konark, Charminar, Hampi Monuments, Mahabalipuram, Brihadeeswara Temple (Tanjore), Jaipur City, Brahma Temple, Kaziranga, Keoladeo National Park, Khangchendzonga
 - **Natural sites:** Kaziranga, Keoladeo, Manas, Nanda Devi (protected area), Sundarbans, Western Ghats, Khangchendzonga National Park
 - **Mixed sites:** None in India currently
 

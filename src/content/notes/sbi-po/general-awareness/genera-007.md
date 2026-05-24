@@ -114,7 +114,7 @@ Scheduled Commercial Banks (SCBs) must lend a specified percentage of their **Ad
 
 #### 6. Others
 - Security papers, handloom, artisan credit
--贡献 to SHG (Self Help Groups) bank linkage program
+- Contribution to SHG (Self Help Groups) bank linkage program
 - Vulnerable groups: DAP beneficiaries, disabled, SC/ST
 
 ## Kisan Credit Card (KCC)

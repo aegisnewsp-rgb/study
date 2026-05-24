@@ -147,7 +147,7 @@ Medieval India saw the flourishing of powerful regional kingdoms across the subc
 
 - **Kshatriya** clans claiming descent from ancient solar or lunar dynasties
 - Organization: **Multiple clans** (Sisodia Rathores, Kachwahas, Parmaras, Chalukyas, etc.)
-- **Jauhar tradition**: In times of defeat, women and children would commit集体 self-immolation (Jauhar) to avoid capture and dishonour
+- **Jauhar tradition**: In times of defeat, women and children would commit collective self-immolation (Jauhar) to avoid capture and dishonour
 - **Fort architecture**: Hill forts (Jaipur, Jodhpur's Mehrangarh, Chittorgarh) were central to Rajput defense
 - **Land grants to Brahmins** (Agraharas) — patronized temples and learning
 - Rajput women had significant property rights — could own and inherit land
@@ -203,7 +203,7 @@ Medieval India saw the flourishing of powerful regional kingdoms across the subc
 ## Chola Administration — Detailed
 
 - **Mandalams** (provinces) → **Valanadus** (districts) → **Kurms** (groups of villages) → **Nadus** (village clusters) → **Villages** (individual villages)
-- **S吹thi**: Village assembly — managed local affairs
+- **Sabha**: Village assembly — managed local affairs
 - Land revenue: Usually **1/6 of produce** (less than most other systems)
 - **Brahmin settlements (Agraharas)**: Given revenue-free land to brahmins; these were centers of learning
 - Systematic **land surveys** — each plot of land was measured and recorded

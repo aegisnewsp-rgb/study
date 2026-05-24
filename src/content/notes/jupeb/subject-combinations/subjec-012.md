@@ -83,7 +83,7 @@ JUPEB Economics covers both Microeconomics and Macroeconomics at a depth signifi
 - Economic growth and development
 
 **Common JUPEB Economics Exam Patterns:**
-- Definition and explanation questions (，要求 precise definitions)
+- Definition and explanation questions (requiring precise definitions)
 - Calculation questions on elasticity, national income, and money supply
 - Diagram-based questions (demand-supply curves, AD-AS models)
 - Essay questions on policy analysis (e.g., "Evaluate the impact of monetary policy on inflation in Nigeria")

@@ -195,7 +195,7 @@ Common question types:
 - Triple helix of alpha chains
 - Structure: Tropocollagen → Collagen fibril → Fiber
 - Types: I (bone, tendon), II (cartilage), III (reticular), IV (basement membrane), V (surface)
--特性: Tensile strength, inelastic
+- Properties: Tensile strength, inelastic
 - Stain: Pink with H&E, Blue with Van Gieson
 
 **Elastic Fibers**:

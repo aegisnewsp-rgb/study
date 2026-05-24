@@ -84,7 +84,7 @@ The mechanism above produces a mixture of products because the methyl free radic
 The relative reactivity of halogens with alkanes: $F_2 > Cl_2 > Br_2 > I_2$. Fluorination is explosively exothermic and difficult to control. Iodination is energetically unfavourable (endothermic) and essentially does not occur without a strong oxidising agent.
 
 **Bonding Energetics:**
-The C–H bond dissociation energy (413 kJ mol⁻¹) is higher than C–C (348 kJ mol⁻¹), so breaking a C–H bond is harder. In radical halogenation, the hydrogen on a tertiary carbon is most easily substituted because the resulting tertiary free radical is most stable (三级 > 二级 > 一级). WAEC does not require you to know relative rates of substitution at different carbon positions, but understanding radical stability will help with alkenes and carbocations later.
+The C–H bond dissociation energy (413 kJ mol⁻¹) is higher than C–C (348 kJ mol⁻¹), so breaking a C–H bond is harder. In radical halogenation, the hydrogen on a tertiary carbon is most easily substituted because the resulting tertiary free radical is most stable (tertiary > secondary > primary). WAEC does not require you to know relative rates of substitution at different carbon positions, but understanding radical stability will help with alkenes and carbocations later.
 
 **Comparative Study — Alkanes vs Alkenes:**
 

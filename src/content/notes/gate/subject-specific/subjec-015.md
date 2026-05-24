@@ -173,7 +173,7 @@ Joint B: Members BD (5 kN compression), BC, AB. ΣF_y = 0: BC sin θ = 0 → BC 
 ### Compound and Complex Trusses
 
 **Compound truss types:**
-- **Type 1:** Three肝炎 connected by pins (simplest truss)
+- **Type 1:** Three members connected by pins (simplest truss)
 - **Type 2:** Multiple simple trusses connected by joints + 1 member or 3 members
 - **Type 3:** Complex trusses (non-Houston type) — must analyze by method of joints or computer methods
 

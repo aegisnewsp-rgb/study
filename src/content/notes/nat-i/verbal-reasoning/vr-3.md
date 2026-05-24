@@ -199,7 +199,7 @@ Some antonym questions require understanding logical relationships:
 **Status Reversal:**
 - Amateur ↔ Professional
 - Minority ↔ Majority
--稚幼虫 ↔ Adult
+- Larva ↔ Adult
 
 **NTS NAT-I Antonym Question Patterns:**
 

@@ -35,7 +35,7 @@ Rabindranath Tagore (রবীন্দ্রনাথ ঠাকুর, 1861–1
 - Ghare Baire (ঘরে বাইরে) — The Home and the World
 - Yogayog (যোগাযোগ) — conflicts of tradition and modernity
 
-> **⚡ Exam Tip:** Tagore's Gitanjali (specifically the English translation published in 1912) earned him the Nobel Prize. The Nobel citation praised the "profoundly sensitive, fresh and beautiful verse" of his "Gitanjali with its pege着我的."
+> **⚡ Exam Tip:** Tagore's Gitanjali (specifically the English translation published in 1912) earned him the Nobel Prize. The Nobel citation praised the "profoundly sensitive, fresh and beautiful verse" of his Gitanjali.
 
 ---
 

@@ -60,7 +60,7 @@ The University of Nairobi's Department of Computer Science is one of the oldest 
 
 ## Why Computer Science Is Growing Rapidly
 
-Kenya has emerged as one of Africa's leading technology hubs. The Silicon Savannah — centred around Nairobi and supporting initiatives like the Konza Technology Park — has attracted significant investment in software development, mobile applications, fintech, and digital services. Companies like M-KOPA, Twiga Foods, Fat狮子 (Farmer's Pig), and hundreds of app developers are actively hiring computer scientists.
+Kenya has emerged as one of Africa's leading technology hubs. The Silicon Savannah — centred around Nairobi and supporting initiatives like the Konza Technology Park — has attracted significant investment in software development, mobile applications, fintech, and digital services. Companies like M-KOPA, Twiga Foods, and hundreds of app developers are actively hiring computer scientists.
 
 The COVID-19 pandemic accelerated digital transformation across Kenya's banking, retail, healthcare, and government sectors, further expanding demand for IT professionals. Computer Science graduates who can code, manage databases, analyse data, and develop digital solutions are among the most employable graduates in the Kenyan economy.
 

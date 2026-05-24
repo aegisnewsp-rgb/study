@@ -24,7 +24,7 @@ generated: "2026-03-25T17:00:00"
 | Cauchy-Euler | Assume x^m | Replace x^r pattern |
 | Variation of parameters | CF → u₁, u₂ → Wronskian | PI = −y₁∫y₂R/W + y₂∫y₁R/W |
 
-**⚡ Quick记住:** Real distinct roots → e^(r₁x), e^(r₂x); Real equal r → e^(rx), xe^(rx); Complex r = α ± iβ → e^(αx)[cos βx, sin βx]
+**⚡ Quick recall:** Real distinct roots → e^(r₁x), e^(r₂x); Real equal r → e^(rx), xe^(rx); Complex r = α ± iβ → e^(αx)[cos βx, sin βx]
 
 ---
 

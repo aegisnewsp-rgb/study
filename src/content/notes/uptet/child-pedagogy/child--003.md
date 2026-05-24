@@ -27,7 +27,7 @@ Kohlberg identified **3 levels** with **2 stages** each (6 stages total):
 | **Conventional** | 3, 4 | Social norms; maintain social order |
 | **Postconventional** | 5, 6 | Universal ethical principles; social contract |
 
-**⚡ UPTET tip**: Remember the order — Preconventional (self) → Conventional (society) → Postconventional (universal principles). Most adults停留在 Conventional level.
+**⚡ UPTET tip**: Remember the order — Preconventional (self) → Conventional (society) → Postconventional (universal principles). Most adults remain at the Conventional level.
 
 ---
 

@@ -199,7 +199,7 @@ generated: "2026-03-25T17:00:00"
 **Prominent Women**:
 - **Sarojini Naidu**: Nightingale of India, Gandhi's disciple, first woman Governor of UP
 - **Annie Besant**: Irish-born, Home Rule Movement, first woman president of INC (1917)
-- **Kasturba Gandhi**: Wife of Gandhi, social work,多次 arrested
+- **Kasturba Gandhi**: Wife of Gandhi, social work, arrested multiple times
 - **Vijaya Lakshmi Pandit**: Resigned from UP Legislative Council, later diplomat
 - **Aruna Asaf Ali**: Quit India Movement, hoisted flag in Bombay (1942)
 

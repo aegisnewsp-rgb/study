@@ -28,7 +28,7 @@ High-yield point: Differences between prokaryotes and eukaryotes, plant versus a
 **Topic 3** — DU Admission (Bangladesh) Study Guide
 Overview: Cell biology provides the foundational framework for understanding all biological sciences from biochemistry to ecology
 Core principles: Cell theory, organelle structure-function relationships, cell membrane dynamics, cell division mechanisms
-Key points: Prokaryotic versus eukaryotic cell architecture, comparison of plant and animal cells, cytoplasm流动性, mitosis and meiosis stages, fluid mosaic model
+Key points: Prokaryotic versus eukaryotic cell architecture, comparison of plant and animal cells, cytoplasmic streaming, mitosis and meiosis stages, fluid mosaic model
 Study strategy: Draw and label cell diagrams repeatedly; connect each organelle's structure directly to its function; use comparison tables to memorize differences
 
 ---

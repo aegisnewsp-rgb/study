@@ -49,7 +49,7 @@ generated: "2026-03-25T17:00:00"
 
 ### Alexander the Great (325 BCE)
 - **Alexander invaded Sindh in 325 BCE** as part of his campaign against the Persian Empire
-- Crossed the Indus River near **Hazara**; defeated local rulers including **M资料显示**
+- Crossed the Indus River near **Hazara**; defeated local rulers
 - Alexander founded several cities ( Alexandria, Nysa) in the region
 - His generals ( Seleucus Nicator) established **Greco-Bactrian rule** in parts of modern Pakistan/Afghanistan
 

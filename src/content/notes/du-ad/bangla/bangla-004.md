@@ -34,7 +34,7 @@ The Bengal Renaissance (বাংলার নবজাগরণ) refers to the 
 
 **Founding Figures:**
 - **Raja Ram Mohan Roy (1772–1833):** Father of the Bengal Renaissance; founded Brahmo Samaj
-- **Henry Louis Vivian Derozio (1809–1831):** Young Bengal movement;第一个引入西方哲学的印度人
+- **Henry Louis Vivian Derozio (1809–1831):** Young Bengal movement; one of the first to introduce Western philosophy in India
 
 > **⚡ Exam Tip:** The Bengal Renaissance is the most important literary-historical movement for the DU exam. Know the key figures, their contributions, and the chronological development of this period.
 

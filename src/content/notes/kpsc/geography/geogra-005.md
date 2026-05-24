@@ -168,7 +168,7 @@ Karnataka's forests exemplify the Western Ghats biodiversity:
 **Bamboo (Dendrocalamus strictus)**:
 - Found throughout Karnataka's forests
 - Used for paper, handcrafts, scaffolding, construction
-- **竹产业发展**: Karnataka's bamboo-based industries in Kodagu and Uttara Kannada
+- **Bamboo industry development**: Karnataka's bamboo-based industries in Kodagu and Uttara Kannada
 
 **Karnataka's Wildlife**:
 - **Bandipur National Park** (Mysore district): One of India's best tiger reserves; also hosts Gaur, Elephant, Sambar Deer

@@ -69,7 +69,7 @@ Jinnah's frustration with Congress's refusal to protect Muslim rights led him to
 **The Resolution:**
 The Muslim League's annual session in Lahore (March 23, 1940) passed the resolution moved by A.K. Fazlul Huq:
 
-"地理配置的相邻单位应被划分成一些地区，这些地区应由同质穆斯林群体组成"
+"Geographically contiguous units should be demarcated into regions which should be so constituted that the areas in which Muslims are numerically in a majority are grouped together..."
 
 (The regions in which Muslims are numerically in a majority, like the Punjab, NWFP, Sindh and Baluchistan, should be grouped to constitute 'Independent States'..."
 

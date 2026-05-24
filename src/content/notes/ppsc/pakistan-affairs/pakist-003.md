@@ -303,7 +303,7 @@ These are non-justiciable guidelines for the state:
 - **34** — Full participation of women
 - **35** — Protection of family, mother, child
 - **36** — Rights of minorities
-- **37** — Economic goals — education, health, labor, food, housing,缩微; also references Quran and Sunnah in Article 37(j)
+- **37** — Economic goals — education, health, labor, food, housing; also references Quran and Sunnah in Article 37(j)
 - **38** — Social security, compulsory insurance, unemployment benefits, etc.
 - **39** — Participation of people in armed forces
 - **40** — Local government system

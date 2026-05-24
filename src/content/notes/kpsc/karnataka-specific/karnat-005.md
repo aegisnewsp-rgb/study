@@ -33,7 +33,7 @@ Also known as the **Western Chalukyas**, the Kalachakra dynasty ruled from their
 
 - **Rock-cut temples** at Badami, Aihole, and Pattadakal (UNESCO World Heritage Site) were expanded and renovated
 - Patronage to scholars like **Vijñāneśvara** (author of *Mitakshara*, a seminal treatise on Hindu law) and **Bhattanarayana**
-- Administrative divisions: **Nadu, Sim雪山, Nadu** system — village self-governance was highly developed
+- Administrative divisions: **Nadu, Sime** system — village self-governance was highly developed
 - Emissive art style called the **Chalukyan style** influenced Pallava, Hoysala, and later Vijayanagara architecture
 - Introduction of the **Dravida vimana** temple architecture in Deccan
 
@@ -67,7 +67,7 @@ The Hoysalas originated from **Dwaraka** (mythological) and established their ca
 ### Key Rulers
 
 - **Nripa Kama I** (early 11th century): Earliest known ruler
-- **Vishnuvardhana (Bittiga)** (1108–1152 CE): The greatest Hoysala ruler. He defeated the Cholas at **K触发 H** and freed his kingdom. A convert to **Vaishnavism** under the influence of saint ** Ramanuja**. He built the famous **Chennakesava Temple at Belur**.
+- **Vishnuvardhana (Bittiga)** (1108–1152 CE): The greatest Hoysala ruler. He defeated the Cholas and freed his kingdom. A convert to **Vaishnavism** under the influence of saint **Ramanuja**. He built the famous **Chennakesava Temple at Belur**.
 - **Ballala II** (1173–1220 CE): Declared independence from the Chola overlordship; known as *Dakshina Chakra*
 - **Ballala III** (1292–1343 CE): The last Hoysala ruler who fought against the Delhi Sultanate; died in battle at **Khavi** near Tiruchirapalli
 

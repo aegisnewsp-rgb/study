@@ -228,7 +228,7 @@ The **saponification value** (SV) of a fat or oil is defined as the milligrams o
 CH₃(CH₂)₁₄COO(CH₂)₁₅CH₃   (Cetyl palmitate, beeswax)
 ```
 
-They are硬的, water-resistant solids used for protective coatings on leaves, fruits, and animal fur.
+They are hard, water-resistant solids used for protective coatings on leaves, fruits, and animal fur.
 
 **Common natural waxes:**
 - Beeswax: Cetyl palmitate

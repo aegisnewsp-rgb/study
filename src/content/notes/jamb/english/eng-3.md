@@ -63,7 +63,7 @@ The answer is NOT directly stated in the passage. You must "read between the lin
 **Vocabulary in Context:**
 Apply the context rule: substitute each answer choice in the blank and see which makes sense. Look at the surrounding sentences for clues — contrast signals (but, however, unlike) or support signals (also, similarly, for example).
 
-Example: "The村民们 were RESIGNED to their fate." If the context mentions hardship, poverty, the村民们 had no choice but to accept — the word means accepting without protest despite hardship.
+Example: "The villagers were RESIGNED to their fate." If the context mentions hardship, poverty, the villagers had no choice but to accept — the word means accepting without protest despite hardship.
 
 **Tone Words to Know:**
 - Analytical: examining carefully

@@ -113,7 +113,7 @@ In calcite ($CaCO_3$) and quartz, unpolarised light splits into two rays: ordina
 For a simple magnifier (convex lens): $M = D/f + 1$ where $D$ = least distance of distinct vision = 25 cm (normal eye). For relaxed eye: $M = D/f$. Microscope: $M = (L/f_o)(D/f_e)$ where $L$ = tube length, $f_o$ = objective focal length, $f_e$ = eyepiece focal length. Telescope: $M = -f_o/f_e$ (refracting) or $M = -f_o/f_e$ (reflecting).
 
 **JAMB Pattern Analysis:**
-JAMB questions frequently ask: (1) Image characteristics from mirror/lens formula, (2) Critical angle and TIR conditions, (3) Refractive index from apparent depth, (4) Power of lens combinations. Classic JAMB question: "An object is placed 20 cm from a concave mirror of focal length 10 cm. Find the image distance." Answer: $1/f = 1/u + 1/v$; $1/10 = 1/(-20) + 1/v$; $0.1 = -0.05 + 1/v$; $1/v = 0.15$; $v = 6.67$ cm (real, inverted).
+JAMB questions frequently ask: (1) Image characteristics from mirror/lens formula, (2) Critical angle and TIR conditions, (3) Refractive index from apparent depth, (4) Power of lens combinations. Classic JAMB question: "An object is placed 20 cm from a concave mirror of focal length 10 cm. Find the image distance." Answer: $1/f = 1/u + 1/v$; $1/10 = 1/(-20) + 1/v$; $0.1 = -0.05 + 1/v$; $1/v = 0.05$; $v = 20$ cm (real, inverted, magnification −1).
 
 ---
 

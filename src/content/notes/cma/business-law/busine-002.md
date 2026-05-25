@@ -31,7 +31,7 @@ High-yield point: Conditions vs. Warranties — Breach of condition gives right 
 The Sale of Goods Act, 1930 (Act 3 of 1930) came into force on 1 July 1930, replacing the corresponding provisions of the Indian Contract Act, 1872. It governs the transfer of goods between a seller and buyer for a price. The Act applies to all sales of goods in India.
 
 **Key Definitions**
-- **Goods** [Section 2(7)] — Includes all movable property, actionable claims, money, and stock-and-sharing (but UITF/goods to be manufactured in future are treated specially)
+- **Goods** [Section 2(7)] — Means every kind of movable property other than actionable claims and money, and includes stocks and shares, growing crops, grass, and things attached to/forming part of the land which are agreed to be severed before sale
 - **Sale** [Section 2(3)] — Transfer of ownership for a price in present
 - **Agreement to Sell** [Section 2(3)] — Transfer of ownership contingent on future event; if event fails, seller can sue for price
 - **Seller/Vendor** — Transferor of goods

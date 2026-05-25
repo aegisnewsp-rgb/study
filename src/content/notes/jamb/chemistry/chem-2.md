@@ -107,7 +107,7 @@ Electron configurations:
 - $F_2$: $(σ2s)^2(σ^*2s)^2(σ2p_z)^2(π2p_x)^2(π2p_y)^2(π^*2p_x)^2(π^*2p_y)^2$, bond order = 1, diamagnetic
 
 **Lattice Energy — Born-Haber Cycle:**
-For $MgCl_2$: $Mg(s) → Mg(g)$ (atomisation) $ΔH = 150$ kJ/mol; $Mg(g) → Mg^{2+}(g) + 2e^-$ (IE₁ + IE₂ = 2184$ kJ/mol); $Cl_2(g) → 2Cl(g)$ (bond dissociation = 244 kJ/mol); $Cl(g) + e^- → Cl^-(g)$ (EA = -349 kJ/mol); $Mg^{2+}(g) + 2Cl^-(g) → MgCl_2(s)$ (lattice energy = -2527 kJ/mol). Net: $\Delta_f H° = 150 + 2184 + 244 + 2(-349) + (-2527) = -641$ kJ/mol.
+For $MgCl_2$: $Mg(s) → Mg(g)$ (atomisation) $ΔH = 150$ kJ/mol; $Mg(g) → Mg^{2+}(g) + 2e^-$ (IE₁ + IE₂ = 2184$ kJ/mol); $Cl_2(g) → 2Cl(g)$ (bond dissociation = 244 kJ/mol); $Cl(g) + e^- → Cl^-(g)$ (EA = -349 kJ/mol); $Mg^{2+}(g) + 2Cl^-(g) → MgCl_2(s)$ (lattice energy = -2527 kJ/mol). Net: $\Delta_f H° = 150 + 2184 + 244 + 2(-349) + (-2527) = -647$ kJ/mol.
 
 **Hybridisation — Percentage Character:**
 $sp^3$: 25% s, 75% p. Bond angle: 109.5°. $sp^2$: 33.3% s, 66.7% p. Bond angle: 120°. $sp$: 50% s, 50% p. Bond angle: 180°.

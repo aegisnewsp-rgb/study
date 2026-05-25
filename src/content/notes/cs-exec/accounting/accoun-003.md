@@ -587,10 +587,10 @@ Correct Accounts          Dr./Cr.
       To Bhanu Traders A/c                      8,000
    (Being goods returned by Bhanu Traders)
 
-8. Arun & Co. A/c              Dr.  54,000
-      To Bank A/c                               52,920
-      To Discount Received A/c                     1,080
-   (Being payment made after 2% cash discount on ₹54,000)
+8. Arun & Co. A/c              Dr.  49,000
+      To Bank A/c                               48,020
+      To Discount Received A/c                       980
+   (Being payment made after 2% cash discount on ₹49,000)
 
 9. Drawings A/c                Dr.  5,000
       To Cash A/c                               5,000

@@ -109,7 +109,7 @@ $VC = Q$ (capacitor voltage). Kirchhoff's voltage law: $\varepsilon = I(R + r) +
 Instantaneous power $P = IV = I^2R = V^2/R$. For a resistor: all power becomes heat. For a battery delivering power: $P = \varepsilon I$. For a battery receiving power (charging): $P = \varepsilon I$ (same formula, but $I$ is negative direction, so power is negative — battery absorbs energy).
 
 **JAMB Pattern Analysis:**
-Common JAMB questions: (1) Find equivalent resistance of complex networks, (2) Calculate terminal voltage given emf and internal resistance, (3) Use metre bridge to find unknown resistance, (4) RC time constant problems. A typical JAMB 2023 question: "A cell of emf 6 V and internal resistance 1 Ω delivers a current of 1 A to an external resistor. Find the external resistance." Answer: $V = \varepsilon - Ir$; $1 = 6 - 1(1)$; $R = 1/1 = 5 \Omega$.
+Common JAMB questions: (1) Find equivalent resistance of complex networks, (2) Calculate terminal voltage given emf and internal resistance, (3) Use metre bridge to find unknown resistance, (4) RC time constant problems. A typical JAMB 2023 question: "A cell of emf 6 V and internal resistance 1 Ω delivers a current of 1 A to an external resistor. Find the external resistance." Answer: $V = \varepsilon - Ir$; $V = 6 - 1(1) = 5$ V; $R = V/I = 5/1 = 5 \Omega$.
 
 ---
 

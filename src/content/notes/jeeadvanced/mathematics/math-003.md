@@ -40,7 +40,7 @@ $$\tan^{-1}x + \tan^{-1}y = \tan^{-1}\left(\frac{x+y}{1-xy}\right) \quad \text{(
 $$\tan^{-1}x - \tan^{-1}y = \tan^{-1}\left(\frac{x-y}{1+xy}\right)$$
 
 **Double Angle:**
-$$2\tan^{-1}x = \sin^{-1}\left(\frac{2x}{\sqrt{1+x^2}}\right) = \tan^{-1}\left(\frac{2x}{1-x^2}\right) \quad \text{(valid when } |x| < 1\text{)}$$
+$$2\tan^{-1}x = \sin^{-1}\left(\frac{2x}{1+x^2}\right) = \tan^{-1}\left(\frac{2x}{1-x^2}\right) \quad \text{(valid when } |x| < 1\text{)}$$
 
 ⚡ **Exam tip:** Always check the principal value branch before applying identities. $\sin^{-1}(\sin\frac{7\pi}{6}) \neq \frac{7\pi}{6}$ because $\frac{7\pi}{6}$ lies outside $[-\frac{\pi}{2}, \frac{\pi}{2}]$.
 
@@ -100,7 +100,7 @@ This gives $2\tan^{-1}x = \sin^{-1}\left(\frac{2x}{1+x^2}\right)$ but the simple
 - $y = \sin^{-1}x$: passes through $(0, 0), (1, \frac{\pi}{2}), (-1, -\frac{\pi}{2})$. Same shape as $y = \sin x$ rotated 90°.
 - $y = \cos^{-1}x$: decreasing from $(\!-1, \pi)$ to $(1, 0)$. Relationship: $\cos^{-1}x = \frac{\pi}{2} - \sin^{-1}x$.
 - $y = \tan^{-1}x$: passes through $(0, 0)$, horizontal asymptotes $y = \pm \frac{\pi}{2}$. Odd function: $\tan^{-1}(-x) = -\tan^{-1}x$.
-- $y = \cot^{-1}x$: decreasing from $(-\infty, \pi)$ to $(\infty, 0)$. Relationship: $\cot^{-1}x = \pi - \tan^{-1}x$ for $x \geq 0$.
+- $y = \cot^{-1}x$: decreasing from $(-\infty, \pi)$ to $(\infty, 0)$. Relationship: $\cot^{-1}x = \frac{\pi}{2} - \tan^{-1}x$ for all $x$.
 - $y = \sec^{-1}x$ and $y = \cosec^{-1}x$: step functions with domain $|x| \geq 1$.
 
 **Simplifying Expressions**
@@ -142,8 +142,8 @@ So $\tan^{-1}(\sqrt{3}) - \cot^{-1}(-\sqrt{3}) = \frac{\pi}{3} - \frac{5\pi}{6} 
 The six inverse trigonometric functions form three complementary pairs:
 
 $$\sin^{-1}x + \cos^{-1}x = \frac{\pi}{2}$$
-$$\tan^{-1}x + \cot^{-1}x = \frac{\pi}{2} \quad \text{for } x > 0; \text{ for } x < 0: = -\frac{\pi}{2}$$
-$$\sec^{-1}x + \cosec^{-1}x = \frac{\pi}{2} \quad \text{for } x \geq 1; \text{ for } x \leq -1: = -\frac{\pi}{2}$$
+$$\tan^{-1}x + \cot^{-1}x = \frac{\pi}{2} \quad \text{for all real } x$$
+$$\sec^{-1}x + \cosec^{-1}x = \frac{\pi}{2} \quad \text{for all } |x| \geq 1$$
 
 **Derivatives of Inverse Trig Functions**
 
@@ -217,6 +217,6 @@ But $7 > 1$ and the sum should be in $(\frac{\pi}{2}, \pi)$ since both terms are
 
 - $y = \sin^{-1}(x-1)$: shift right by 1 unit.
 - $y = 2\cos^{-1}x$: vertical stretch by factor 2 (range becomes $[0, 2\pi]$).
-- $y = \tan^{-1}x + \frac{\pi}{2}$: shift up by $\frac{\pi}{2}$ (equivalent to $\cot^{-1}x$ for $x \geq 0$).
+- $y = \frac{\pi}{2} - \tan^{-1}x$: reflection then shift (equivalent to $\cot^{-1}x$ for all $x$).
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

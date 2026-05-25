@@ -18,6 +18,15 @@ const FILLER_PATTERNS = [
   /appear regularly in (NEET|JEE)/i,
   /Build (a |strong )?(solid )?foundation of fundamentals/i,
   /Understand the core principle and its direct applications/i,
+  // The "generic-tier" template variant: padded past the 2500-char floor with
+  // contentless boilerplate (e.g. "X is a key topic in this subject area",
+  // "Full coverage: X with detailed explanation"). These phrases appear ONLY in
+  // that template across the whole corpus — never in substantive notes.
+  /is a key topic in this subject area/i,
+  /Build a clear understanding of fundamentals/i,
+  /Typical patterns seen in competitive exams/i,
+  /Focus on understanding over memorisation — application is everything/i,
+  /Full coverage:\s*.+ with detailed explanation/i,
 ];
 
 // Detects CJK code-switch contamination: the note-authoring model (a Chinese LLM)

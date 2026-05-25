@@ -197,10 +197,10 @@ Objects or considerations are unlawful if:
 | Section | Type | Effect |
 |---------|------|--------|
 | 24 | Agreements in restraint of marriage | Void |
-| 25 | Agreements in restraint of trade | Void |
+| 27 | Agreements in restraint of trade | Void |
 | 26 | Agreements in restraint of legal proceedings | Void |
 | 27 | Uncertain agreements | Void |
-| 28 | Wagering agreements | Void (exception: horse racing) |
+| 30 | Wagering agreements | Void (exception: horse racing) |
 | 29 | Ambiguous agreements | Void |
 
 ## 9. Contingent Contracts (Sections 31–36)

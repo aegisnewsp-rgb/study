@@ -345,7 +345,7 @@ Catecholamines have a **catechol ring + amine group**. They are **NOT effective 
 
 - *"Which drug is used to diagnose myasthenia gravis?"* → **Edrophonium (Tensilon test)**
 - *"Which AChE inhibitor does NOT cross BBB?"* → **Neostigmine** (vs Physostigmine does cross)
-- *"Which β blocker is uroselective (α1A)?"* → **Tamsulosin** (for BPH)
+- *"Which α blocker is uroselective (α1A)?"* → **Tamsulosin** (for BPH)
 - *"Which drug causes first-dose syncope?"* → **Prazosin** (α1 blocker)
 - *"Reversal of neuromuscular blockade by succinylcholine?"* → **Neostigmine** (indirect cholinomimetic)
 - *"Treatment of organophosphate poisoning?"* → **Atropine + Pralidoxime**

@@ -145,9 +145,9 @@ A life insurance policy can be assigned (transferred) by:
 
 Assignment must be notified to the insurer in writing.
 
-**Insurance Act 1906 (Nigeria) — Key Provisions:**
+**Insurance Act 2003 (Nigeria) — Key Provisions:**
 
-The Insurance Act 1906 (as amended) regulates insurance business in Nigeria:
+The Insurance Act 2003 (as amended) regulates insurance business in Nigeria:
 - No person may carry on insurance business in Nigeria without a licence from the National Insurance Commission (NAICOM)
 - Insurers must maintain minimum solvency margins
 - Deposits must be made with the Central Bank of Nigeria
@@ -203,7 +203,7 @@ With electronic banking (online transfers, mobile banking, ATMs), the question o
 A wagering contract is void as contrary to public policy. Insurance avoids being a wager by requiring insurable interest. If insurable interest is absent, the contract is void.
 
 **Double Insurance:**
-If the insured effects two policies covering the same risk and the same interest without informing the insurers, the second policy is void (if effected with knowledge of the first).
+If the insured effects two policies covering the same risk and the same interest, the policies are valid (double insurance is permitted), but the insured cannot recover more than the actual loss in total — the insurers share the loss rateably under the principle of contribution.
 
 **Return of Premium:**
 If the risk has not attached (the contract never became effective), the premium is returnable. If the insurer avoids the contract for misrepresentation or non-disclosure, the premium is not returnable.

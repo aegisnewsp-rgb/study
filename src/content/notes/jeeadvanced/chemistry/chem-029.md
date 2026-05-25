@@ -200,7 +200,7 @@ diagramPrompt: "Clear scientific diagram of Coordination Compounds with atom lab
 
 **Octahedral Complexes — d-Orbital Splitting:**
 ```
-         eg (dz², dxy)
+         eg (dz², dx²-y²)
         /        \
       /          \
     /            \
@@ -357,7 +357,7 @@ Indicator: Eriochrome Black T (changes from wine red to blue at endpoint)
 - Fe²⁺ in porphyrin (Fe is in +2 oxidation state)
 - Binds O₂ reversibly at the 6th coordination position
 - O₂ binding is cooperative: binding of first O₂ makes second easier (the Fe moves into the plane of the porphyrin, causing a conformational change)
-- CO is toxic because it binds to Fe²⁺ 25,000× more strongly than O₂ (via π-backbonding)
+- CO is toxic because it binds to Fe²⁺ about 200–250× more strongly than O₂ (via π-backbonding)
 - The porphyrin ring is a tetraaza macrocycle (four N donors in square planar arrangement around Fe)
 
 *Chlorophyll:*

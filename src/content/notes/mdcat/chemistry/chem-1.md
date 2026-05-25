@@ -121,7 +121,7 @@ Since $E = \frac{hc}{\lambda}$: $\frac{1}{\lambda} = R_H\left(\frac{1}{n_1^2} - 
 
 **Screening (Penetration) Effect:**
 Inner electrons shield outer electrons from the full nuclear charge. Effective nuclear charge $Z_{eff} = Z - \sigma$ where $\sigma$ is the screening constant.
-Order of screening: f > d > p > s (f electrons are least effective at shielding).
+Order of screening: s > p > d > f (f electrons are least effective at shielding).
 
 **MDCAT Question Patterns:**
 MDCAT Pakistan atomic structure questions frequently test: (1) quantum number assignments and allowed values, (2) electron configuration including exceptions (Cr, Cu, Mo, Ag), (3) Hund's rule application for p³, d⁵ configurations, (4) de Broglie wavelength calculations, (5) photoelectric effect equation, (6) Heisenberg uncertainty principle — which combinations of measurements are possible. 2–3 questions per paper. Quantum numbers are high-yield for MCQs.

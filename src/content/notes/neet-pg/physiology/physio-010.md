@@ -368,7 +368,7 @@ Hippocampus → Fornix → Mammillary bodies → Anterior thalamic nucleus → C
 - **Neurotransmitters**: Acetylcholine, dopamine, norepinephrine, serotonin
 
 **NREM Sleep** (stages 1–3):
-- **Stage 1**: Light sleep (theta waves), sleep spindles and K-complexes appear
+- **Stage 1**: Light sleep (theta waves), slow rolling eye movements
 - **Stage 2**: True sleep onset, sleep spindles (12–14 Hz), K-complexes
 - **Stage 3 (slow-wave)**: Delta waves (0.5–2 Hz), restoration, GH and prolactin release
 

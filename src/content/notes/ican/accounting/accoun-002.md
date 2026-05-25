@@ -157,7 +157,7 @@ This distinction determines whether spending is recorded as an asset (capital) o
 
 **Suspense Account**
 
-When the trial balance fails to agree, the difference is temporarily placed in a Suspense Account. Common causes include: posting the wrong amount, omitting an amount, posting to the wrong side, or error of principle. Once the error(s) are located, the suspense account is cleared.
+When the trial balance fails to agree, the difference is temporarily placed in a Suspense Account. Common causes include: posting the wrong amount on one side, omitting one side of an entry, posting to the wrong side, or casting/balancing errors. Once the error(s) are located, the suspense account is cleared.
 
 ⚡ **ICAN Exam Pattern**: Journal entry questions are tested in both the Financial Accounting (Foundation) and Advanced Financial Accounting papers. Candidates must be able to produce correct journal entries with narrations for 10-15 transactions within a limited time. Practice past questions under timed conditions — ICAN typically allows 15 minutes for 10 journal entries.
 

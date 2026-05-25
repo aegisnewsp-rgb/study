@@ -424,7 +424,7 @@ EXAM_DEFS = [
     ("kenyatta-ku","Kenyatta University (Kenya)","kenya",    [("physics",12),("chemistry",12),("mathematics",12),("english",8)]),
     ("toafa",     "TOAFL (Nigeria)",          "nigeria",     [("english",10),("mathematics",10),("logical-reasoning",10)]),
     ("nmat",      "NMAT (Philippines)",         "philippines", [("verbal",10),("logical",10),("quantitative",10),("mental-ability",8)]),
-    ("帖ast",     "LEA/RX Exam (Philippines)","philippines", [("pharmacy",15),("chemistry",10),("biology",10)]),
+    ("pcat",      "LEA/RX Exam (Philippines)","philippines", [("pharmacy",15),("chemistry",10),("biology",10)]),
     ("utbk",      "UTBK/SNPMTN (Indonesia)",  "indonesia",   [("mathematics",12),("physics",10),("chemistry",10),("biology",10),("indonesian",8)]),
     ("uii",       "UI Entrance (Indonesia)",   "indonesia",   [("academic-potential",15),("subject-knowledge",15)]),
     ("undana",    "UNDANA Admission (Indonesia)","indonesia",  [("mathematics",12),("science",12),("language",10),("gk",8)]),

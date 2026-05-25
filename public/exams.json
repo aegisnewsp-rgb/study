@@ -1249,14 +1249,7 @@
       "topicCount": 0
     },
     {
-      "examId": "uAeu-cat",
-      "examName": "UAE University CAT",
-      "country": "uae",
-      "subjects": [],
-      "topicCount": 0
-    },
-    {
-      "examId": "uAeu_cat",
+      "examId": "uaeu-cat",
       "examName": "UAE University CAT",
       "country": "uae",
       "subjects": [],
@@ -1463,13 +1456,6 @@
       "examId": "xat",
       "examName": "XAT",
       "country": "india",
-      "subjects": [],
-      "topicCount": 0
-    },
-    {
-      "examId": "\u5e16ast",
-      "examName": "LEA/RX Exam (Philippines)",
-      "country": "philippines",
       "subjects": [],
       "topicCount": 0
     }

@@ -22,7 +22,7 @@ const physics: Subject = {
     { id: 'phy-015', name: 'Electrostatics', weight: 5, description: "Electrostatics: Coulomb's law, electric field, electric potential, Gauss's law, electric dipoles, and energy stored in electric fields." },
     { id: 'phy-016', name: 'Capacitance', weight: 5, description: "Capacitance: Capacitors, series and parallel combinations, capacitance calculation, dielectrics, energy stored in capacitors, and RC circuits." },
     { id: 'phy-017', name: 'Current Electricity', weight: 5, description: "Current Electricity: Ohm's law, Kirchhoff's laws, series/parallel circuits, EMF, internal resistance, network analysis, and power dissipation." },
-    { id: 'phy-018', name: 'Moving Charges', weight: 5, description: "Moving Charges & Magnetism: Magnetic field due to current, Biot-Savart law, Ampere's law, force on moving charges, and cyclotron原理." },
+    { id: 'phy-018', name: 'Moving Charges', weight: 5, description: "Moving Charges & Magnetism: Magnetic field due to current, Biot-Savart law, Ampere's law, force on moving charges, and cyclotron principle." },
     { id: 'phy-019', name: 'Magnetism', weight: 5, description: "Magnetism & Matter: Magnetic dipole, Earth's magnetism, magnetization, magnetic materials, and magnetic force on current-carrying conductors." },
     { id: 'phy-020', name: 'EMI', weight: 5, description: "Electromagnetic Induction: Faraday's law, Lenz's law, motional EMF, self-induction, mutual induction, eddy currents, and LR/LC circuits." },
     { id: 'phy-021', name: 'AC', weight: 5, description: "Alternating Current: AC circuits, RMS and peak values, phasor diagrams, LCR circuits, resonance, impedance, power in AC circuits, and transformers." },

@@ -128,7 +128,7 @@ const zoology: Subject = {
     { id: 'zoo-009', name: 'Inheritance', weight: 5 , description: "Mendel's laws, monohybrid and dihybrid crosses, linkage, crossing over, and chromosomal disorders." },
     { id: 'zoo-010', name: 'Evolution', weight: 3 , description: "Darwin's theory, evidence of evolution, natural selection, speciation, Hardy-Weinberg principle, and human evolution." },
     { id: 'zoo-011', name: 'Human Health Disease', weight: 4 , description: 'Common diseases — malaria, dengue, tuberculosis, AIDS; immunity, vaccines, and public health measures.' },
-    { id: 'zoo-012', name: 'Human Welfare', weight: 2 , description: 'Common human diseases,寄生虫, bacterial and viral infections, and public health in India.' },
+    { id: 'zoo-012', name: 'Human Welfare', weight: 2 , description: 'Common human diseases, parasites, bacterial and viral infections, and public health in India.' },
     { id: 'zoo-013', name: 'Biotechnology', weight: 3 , description: 'Recombinant DNA technology, PCR, gene cloning, transgenic organisms, and ethical issues in biomedicine.' },
     { id: 'zoo-014', name: 'Health Disease', weight: 2 , description: 'Human health — nutrition, mental health, infectious diseases, and first aid basics.' },
     { id: 'zoo-015', name: 'Sensory Organs', weight: 3 , description: 'Eye, ear, nose, tongue, skin — structure and function of sensory receptors and signal transmission.' },

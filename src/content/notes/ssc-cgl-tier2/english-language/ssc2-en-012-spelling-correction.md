@@ -34,15 +34,6 @@ A: **B (Accommodation)** — Two 'c's, two 'm's. Remember: "Accommodation has tw
 ---
 ## Spelling Correction — Quick Reference
 
-### Key Rule / Formula
-Identify the correctly spelled word from options. Focus on commonly misspelled patterns: silent letters (knight, psychology), double consonants (occurred, committed), i/e rules (believe, receive), and homophones (their/there/they're).
-
-### Memory Trick
-**S-A-F-E**: **S**ilent letters → **A**void double errors → **F**ix i/e rules → **E**liminate homophones.
-
-### 1-Sentence Summary
-Spelling Correction in SSC CGL Tier 2 tests whether you can identify the correctly spelled word from four options — focusing on common error patterns like silent letters, doubling, and confusing word pairs.
-
 ### Quick Example
 Q: Which of the following is correctly spelled?
 A: Accommodation — Two 'c's, two 'm's. "Accommodation has two 'c's and two 'm's."

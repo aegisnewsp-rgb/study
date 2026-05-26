@@ -36,12 +36,6 @@ A: **Read the last paragraph first** — authors often signal their opinion in t
 ### Key Rule / Formula
 Read the passage once fully, then answer questions using only what the passage explicitly states or logically implies — not your general knowledge.
 
-### Memory Trick
-**E-E-E**: **E**xplicit (what it says), **E**vidence (find it), **E**liminate (wrong options).
-
-### 1-Sentence Summary
-SSC CGL Tier 2's Reading Comprehension tests your ability to understand, infer, and evaluate short passages — expect 3-5 questions per passage drawn from factual recall, vocabulary-in-context, tone identification, and inference.
-
 ### Quick Example
 Q: Based on the passage, what can be inferred about the author's opinion?
 A: Read the last paragraph first — authors often signal their opinion in the opening or closing. Then eliminate options that are not supported by the passage.

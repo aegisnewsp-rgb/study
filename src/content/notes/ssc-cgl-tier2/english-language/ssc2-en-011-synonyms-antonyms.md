@@ -36,12 +36,6 @@ A: **Short-lived / temporary** — Ephemeral means lasting for a very short time
 ### Key Rule / Formula
 Synonyms = words with the SAME meaning. Antonyms = words with OPPOSITE meaning. Choose the closest match to the given word.
 
-### Memory Trick
-**S-A Match**: **S**ynonym = **S**ame side, **A**ntonym = **A**pposite side.
-
-### 1-Sentence Summary
-Synonyms & Antonyms in SSC CGL Tier 2 test your vocabulary depth — choose the word closest in meaning (synonym) or opposite in meaning (antonym) to the given word.
-
 ### Quick Example
 Q: Choose the synonym of "ephemeral":
 A: Short-lived / temporary — Ephemeral means lasting for a very short time. "Permanent" would be an antonym.

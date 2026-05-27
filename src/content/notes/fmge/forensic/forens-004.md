@@ -8,129 +8,144 @@ topicName: Topic 4
 weight: 3
 country: fmge
 generated: "2026-03-25T17:00:00"
+lastUpdated: "2026-05-27"
 ---
 
-# Topic 4: Toxicology — Common Poisons (Organophosphates, Corrosives, Opioids, Cocaine), Signs and Management
+# Topic 4
 
-## General Principles of Toxicology
+### 🟢 Lite — Quick Review (1h–1d)
 
-A poison is any substance that, when introduced into or applied to the body, produces harmful effects or death. Toxicology encompasses the identification of poisons, understanding their mechanisms of action, recognition of clinical features, and the administration of specific antidotes and supportive care. In forensic medicine, toxicology addresses whether poisoning was accidental, suicidal, or homicidal, and establishes the role of poison in any death through postmortem examination and toxicological analysis.
+> Rapid summary for last-minute revision before your exam.
 
-## Routes of Poison Administration
+**Plant Anatomy** is the study of the internal microscopic structure of plant tissues, organs (root, stem, leaf), and their functional organization. Plant tissues are broadly classified into **meristematic** (actively dividing) and **permanent** (differentiated).
 
-Poisons can enter the body through several routes. The **oral route** is the most common, with absorption occurring primarily in the gastrointestinal tract. **Inhalation** (gases and vapours absorbed via alveoli) provides the most rapid systemic absorption. **Parenteral administration** (injection) is the fastest route for achieving systemic effects. **Dermal absorption** is particularly significant in infants whose skin is more permeable. Rectal, vaginal, and percutaneous routes are less common but documented.
+Three types of simple permanent tissues:
+- **Parenchyma** — thin-walled, living, storage
+- **Collenchyma** — corner-thickened walls, living, flexible support
+- **Sclerenchyma** — lignified walls, dead, protection
 
-## Organophosphorus Compounds
+Two types of complex permanent tissues:
+- **Xylem** — conducts water (tracheids, vessels, parenchyma, fibers)
+- **Phloem** — conducts food (sieve tubes, companion cells, parenchyma, fibers)
 
-### Mechanism
+**Primary growth** occurs at apical meristems; **secondary growth** in dicots involves vascular cambium (producing secondary xylem/phloem) and cork cambium (periderm).
 
-Organophosphorus compounds (OPCs) such as malathion, parathion, chlorpyrifos, and dichlorvos are irreversible inhibitors of acetylcholinesterase (AChE). This leads to accumulation of acetylcholine at synapses, causing overstimulation of cholinergic receptors throughout the nervous system. This produces the characteristic **cholinergic crisis**, remembered by the mnemonic **SLUDGEM** or **DUMBELS**.
+Dicot vs Monocot: dicot roots show fewer radial bundles (2–6); monocot roots show polyarch bundles (many). Dicot stems have vascular bundles in a ring; monocot stems have scattered bundles.
 
-### Clinical Features (SLUDGEM/DUMBELS)
+**Key facts for FMGE:**
+- **Casparian strip** on endodermal radial walls blocks apoplastic water flow — forces water into cells
+- **Annual rings** form from spring wood (wide vessels) vs autumn wood (narrow vessels)
+- **Stomatal types**: anomocytic (no subsidiary cells), anisocytic (3 unequal), diacytic (2 subsidiary cells at right angles), paracytic (2 parallel)
+- Tylosis = ballooning of parenchyma into xylem vessels, seen in heartwood formation
 
-- **S:** Salivation, Sweating, Salivation
-- **L:** Lacrimation
-- **U:** Urination
-- **D:** Defaecation, Diarrhoea
-- **G:** GI distress, Giddiness
-- **E:** Emesis (vomiting)
-- **M:** Miosis, Muscle fasciculations, bradycardia
+---
 
-Additional features include bronchospasm (causing wheezing), bronchorrhoea (copious secretions in the airway), hypotension, and tachycardia or bradycardia depending on the receptor predominance. Death results from respiratory failure due to paralysis of respiratory muscles, central respiratory depression, and overwhelming secretions.
+### 🟡 Standard — Regular Study (2d–2mo)
 
-### Treatment
+> Standard content for students with a few days to months.
 
-- **Atropine sulfate:** A competitive muscarinic antagonist; the dose is titrated to achieve drying of secretions (atropinization). It reverses the muscarinic effects but not the nicotinic effects (fasciculations, paralysis).
-- **Pralidoxime (2-PAM):** Reactivates acetylcholinesterase if given early (before "ageing" of the enzyme-inhibitor complex occurs). Most effective within 24–48 hours of exposure.
-- Supportive care: Airway management, mechanical ventilation, control of convulsions with benzodiazepines, management of hypotension.
+## Meristematic Tissues
 
-### Postmortem Findings
+Meristems are classified by **location** and **function**:
+- **Apical meristem**: shoot tip and root tip — primary growth, produce primary tissues
+- **Lateral meristem**: vascular cambium and cork cambium — secondary growth, increase girth
+- **Intercalary meristem**: base of internodes in monocots — growth in length
 
-At autopsy, froth in the airways, pulmonary oedema, and haemorrhagic tracheobronchitis may be seen. Blood, stomach contents, fat tissue, and liver should be preserved for toxicological analysis. The diagnosis is confirmed by demonstrating AChE inhibition in blood.
+Note: intercalary meristem is classified by position, not origin (it is derived from apical meristem activity).
 
-## Corrosive Poisons
+## Simple Permanent Tissues
 
-### Types and Features
+| Tissue | Wall | Cell state | Function |
+|---|---|---|---|
+| Parenchyma | Thin, cellulose | Living | Storage, photosynthesis |
+| Collenchyma | Corner-thickened pectin | Living | Tensile strength, flexible support |
+| Sclerenchyma | Uniform lignified | Dead | Hard protection |
 
-Corrosives cause tissue destruction by chemical action. They are classified as **acids** and **alkalis**.
+## Complex Permanent Tissues
 
-**Concentrated mineral acids** (sulphuric acid — H₂SO₄, nitric acid — HNO₃, hydrochloric acid — HCl) produce immediate burning pain in the mouth, throat, and abdomen. Haematemesis (vomiting of blood) is common. Characteristic **oral burns** appear: sulphuric acid produces **white to black burns** (carbonization), nitric acid produces **yellow to brown burns**. Concentrated acids have a sharp, acidic odour.
+**Xylem (tracheary system):** Tracheids (elongated, tapering ends) and vessel elements (shorter, perforated end walls) conduct water. Both are dead. Parenchyma stores food; fibers provide mechanical support.
 
-**Carbolic acid (phenol)** is a unique corrosive — it has a **local anaesthetic effect**, so despite causing severe burns, the victim may report less pain than expected. Burns appear **white and wrinkled** (like leather) with a characteristic **medicine-like odour**. The urine may turn dark (due to phenols) and the patient may die rapidly from CNS depression.
+**Phloem (sieve-tube system):** Sieve tube elements are living but lack nuclei — conduction depends on companion cells (nucleated sister cells). Phloem parenchyma stores; fibers provide support.
 
-**Alkalis** (sodium hydroxide — caustic soda, potassium hydroxide, ammonia) cause **liquefactive necrosis** through saponification of fats — deeper and more destructive than acid burns. Severe pain, oesophageal strictures (if survived), and gastric burns are characteristic. Vomiting produces watery or blood-tinged material.
+## Dicot vs Monocot Anatomy
 
-### General Management of Corrosive Poisoning
+**Dicot root (radial bundle):** Pericycle → xylem bundles (2–6, alternating with phloem) arranged radially → endodermis with Casparian strip → cortex → hypodermis → epidermis. Pith may be present.
 
-**Do not induce vomiting** — re-exposure of the oesophageal mucosa to the corrosive causes further damage. **Do not give gastric lavage** — risk of perforation. Management is primarily supportive: airway management, fluid resuscitation, pain control, antibiotics if perforation is suspected, and nutritional support. Emergency endoscopic evaluation (within 12–24 hours) assesses the extent of injury. Stricture formation is a long-term complication of significant corrosive ingestion.
+**Monocot root (polyarch):** Many xylem bundles scattered around pith; no secondary growth possible. Pericycle may be indistinct; lateral roots arise directly from endodermis.
 
-## Opioids (Opium, Morphine, Heroin)
+**Dicot stem:** Vascular bundles in a ring, open (cambium present between bundles), phloem outside xylem — conjoint collateral. Interfascicular cambium connects procambium bundles.
 
-### Source and Mechanism
+**Monocot stem:** Vascular bundles scattered in ground tissue, closed (no cambium), no pith. No secondary growth.
 
-Opioids are derived from the opium poppy (*Papaver somniferum*). Opium contains morphine (approximately 10%), codeine, papaverine, and noscapine. Heroin (diacetylmorphine) is synthesized from morphine and is more lipid-soluble, crossing the blood-brain barrier more rapidly.
+## Secondary Growth in Dicots
 
-Opioids act primarily on mu receptors in the central nervous system, producing analgesia, euphoria, sedation, and respiratory depression.
+Vascular cambium produces **secondary xylem** inward and **secondary phloem** outward per season. **Annual rings** form because spring wood (earlywood) has wider vessels for rapid water conduction; autumn wood (latewood) has narrow vessels. The number of rings ≈ age of the branch.
 
-### Clinical Features
+**Cork cambium (phellogen)** produces periderm (cork/phellem on outside, phelloderm on inside) replacing epidermis.
 
-The classic triad of opioid poisoning is: **miosis (pinpoint pupils)**, **CNS depression progressing to coma**, and **respiratory depression** (rate may drop to 4–6 breaths per minute). Additional features include hypotension, bradycardia, hypothermia, and constipation. The respiratory depression is the **cause of death** — it leads to hypoxemia, hypercapnia, and ultimately respiratory arrest.
+## Leaf Anatomy
 
-### Management
+- **Dorsiventral** (dicot): distinct palisade mesophyll (compact, chloroplast-rich) above spongy mesophyll (loose, air spaces below); stomata mainly on abaxial surface
+- **Isobilateral** (monocot): both surfaces have equal palisade-like mesophyll or uniform spongy tissue; stomata on both surfaces
 
-- **Naloxone:** A competitive opioid receptor antagonist that rapidly reverses respiratory depression. Short half-life (30–90 minutes), so repeated dosing or infusion may be required. **N-allyl nor-morphine (nalorphine)** is an alternative.
-- Airway management and mechanical ventilation
-- Supportive care
+## Casparian Strip Function
 
-### Postmortem Findings
+The endodermis has a **suberized Casparian band** on radial and transverse walls. This blocks the **apoplastic pathway** (between cells), forcing water and dissolved minerals to enter the **symplastic pathway** (through cytoplasm) or **transmembrane pathway**. Endodermal cells then actively pump minerals into the xylem via specific transporters.
 
-Cherry-red brain (due to cerebral hypoxia), froth at the nose and mouth, and pulmonary congestion are typical. The stomach may contain a dark brown fluid (opium solution). Detection of opium alkaloids (morphine) in stomach contents, blood, and urine confirms the diagnosis.
+---
 
-## Cocaine
+### 🔴 Extended — Deep Study (3mo+)
 
-### Source and Effects
+> Comprehensive coverage for students on a longer study timeline.
 
-Cocaine is an alkaloid derived from the coca plant (*Erythroxylum coca*). It exists as cocaine hydrochloride (water-soluble, used intranasally or intravenously) and crack cocaine (alkaloidal, smoked). Cocaine is a powerful stimulant that blocks the reuptake of catecholamines (dopamine, norepinephrine) and serotonin at synapses, leading to sympathetic overactivity.
+## Stomatal Types (Epidermal Structure)
 
-### Clinical Features
+Stomata are classified by subsidiary cell arrangement and origin:
 
-Cocaine produces **sympathomimetic toxicity**: tachycardia, hypertension, hyperthermia, diaphoresis, mydriasis (dilated pupils), agitation, and euphoria. Severe toxicity leads to **hyperthermia** (due to increased metabolic activity and vasoconstriction), **myocardial infarction**, **cerebral haemorrhage**, **stroke**, **seizures**, and **death**. **Excited delirium** is a recognized syndrome characterized by agitation, hyperthermia, and sudden cardiorespiratory collapse.
+| Type | Subsidiary cells | Pattern |
+|---|---|---|
+| **Anomocytic** (ranunculaceous) | None — surrounding epidermal cells unmodified | Wild species, common in dicots |
+| **Anisocytic** (cruciferous) | 3 — two small, one large | Mustard family |
+| **Diacytic** (caryophyllaceous) | 2 — at right angles to guard cells | Carnation family |
+| **Paracytic** (rubiaceous) | 2 — parallel to guard cells | Coffee, many monocots |
+| **Actinocytic** | 5–6 radiating around pore | Less common |
 
-### Management
+Anisocytic and anomocytic are frequently tested in FMGE — the key differentiator: anisocytic has **three unequal** subsidiary cells; anomocytic has **zero**.
 
-There is **no specific antidote** for cocaine toxicity. Treatment is entirely supportive: benzodiazepines for agitation and seizures, cooling measures for hyperthermia, vasodilators or alpha-blockers for hypertension, beta-blockers are **contraindicated** (unopposed alpha stimulation worsens coronary vasoconstriction), and aspirin and anticoagulation for suspected myocardial infarction.
+## Tylosis and Heartwood Formation
 
-### Postmortem Findings
+**Tylosis** refers to the outgrowth of thin-walled parenchyma cells (called **tyloses**) that protrude through **pit pairs** into the lumen of adjacent xylem vessels. This occurs when adjacent living ray parenchyma cells enlarge and push extensions through the half-bordered pit membrane into a vessel element.
 
-Signs of sympathetic overactivity may be present: cerebral and pulmonary oedema, myocardial infarction or haemorrhage, and evidence of seizures (tongue biting, rhabdomyolysis). The diagnosis is confirmed by toxicological analysis of blood, urine, and stomach contents.
+Tylosis is the hallmark of **heartwood (duramen) formation**: as ray parenchyma dies, tyloses block vessels, making heartwood non-conductive, darker, and resistant to decay. **Sapwood (alburnum)** retains functional vessels and lighter color.
 
-## General Management of Poisoning Cases
+## Misconceptions and Edge Cases
 
-### Emergency Management (ABCD Approach)
+1. **Pericycle in monocot roots**: Many textbooks omit or minimize pericycle in monocots. Lateral roots in monocot roots arise from the **endodermis or pericycle** — since pericycle may be indistinct, endodermis actively participates.
 
-- **A (Airway):** Ensure patency; intubate if needed
-- **B (Breathing):** Support ventilation; give oxygen
-- **C (Circulation):** IV access; fluid resuscitation; vasopressors if needed
-- **D (Dextrostix):** Check blood glucose; correct hypoglycaemia
+2. **Intercalary meristem origin**: Students often treat it as a separate type by origin. It is classified by position only — embryologically derived from apical meristem. In FMGE questions distinguishing "origin vs position" classification, remember: apical/lateral/intercalary = position-based.
 
-### Decontamination
+3. **Pith in dicot roots**: Not universal. In some dicots (e.g., *Ranunculus*), pith may be reduced or absent; in some monocots, pith may be well-developed. The polyarch pattern (many bundles) is the most reliable monocot identifier.
 
-- **Oral:** Gastric lavage (within 1–2 hours of ingestion, contraindicated in corrosives and petroleum products), activated charcoal (most effective within 1 hour; not effective for corrosives, alcohols, or hydrocarbons)
-- **Dermal:** Remove contaminated clothing; wash skin with soap and water
-- **Inhalation:** Remove from source; administer 100% oxygen
+## Apoplastic vs Symplastic vs Transmembrane Pathways
 
-### Enhanced Elimination
+Water in roots moves via three pathways:
+- **Apoplastic**: through cell walls and intercellular spaces — blocked by Casparian strip at endodermis
+- **Symplastic**: through plasmodesmata (cytoplasmic connections) — continues across endodermis
+- **Transmembrane**: enters one cell, exits via plasma membrane, enters next cell — bypasses Casparian wall band via active transport
 
-- Forced diuresis (urine alkalinization for acidic poisons like salicylates)
-- Haemodialysis (for alcohols, metformin, lithium, ethylene glycol)
-- Haemoperfusion (for certain drugs)
+This has direct clinical relevance for understanding how ions are selectively loaded into xylem vessels for root pressure and guttation.
 
-### Evidence Preservation in Poisoning Deaths
+## Common FMGE Traps
 
-For toxicological analysis at autopsy, the following should be preserved: **stomach and its contents** (100 mL), **blood** (10 mL from a peripheral vein — avoid contamination), **urine** (50 mL), **CSF** (if CNS symptoms), **liver and kidney** (50 g each), and **hair and nails** (for chronic heavy metal poisoning). Viscera should be preserved in **saturated common salt solution** or **rectified spirit**. Blood for alcohol analysis should be stored in a **fluoride/oxalate tube** (grey top). All samples must be sealed, labelled, and sent to the forensic science laboratory with a proper forwarding letter.
+- Describing a dicot root with many bundles (8+) — this is actually a monocot pattern
+- Identifying spring wood vs autumn wood in a diagram without noting vessel diameter
+- Confusing "closed vascular bundle" (monocot stem, no cambium) with "open bundle" (dicot stem, cambium present)
+- Forgetting that companion cells are **not** present in phloem of pteridophytes and gymnosperms — sieve cells there lack companion cells
 
-## IPC Sections Related to Poisoning
+## Practice Prompts
 
-- **Section 284 IPC:** Negligent conduct with poisonous substances — applies to mishandling of poisons in the course of one's occupation
-- **Section 328 IPC:** Causing hurt by a substance known to be likely to cause death — applies to poisoning with intent to cause hurt
-- **Section 300 IPC:** Murder — where death results from intentional poisoning with knowledge that it will cause death
+1. A photomicrograph of a dicot stem cross-section shows vascular bundles arranged in a ring with clear cambium between xylem and phloem. Identify the plant type and explain why secondary growth is possible here but not in a monocot stem of similar age.
+
+2. A leaf cross-section has stomata on both adaxial and abaxial surfaces with uniform mesophyll on both sides and bulliform cells in the adaxial epidermis. Identify the leaf type and explain the functional significance of these features in water conservation.
+
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

@@ -4,8 +4,7 @@ import Navbar from '../components/Navbar.astro';
 import Footer from '../components/Footer.astro';
 ---
 <Layout title="Privacy Policy — StudyRoadmap™" description="StudyRoadmap™ privacy policy. We collect no personal data. Your exam choices stay on your device.">
-  <script type="application/ld+json">
-    {JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://studyroadmap.in"},{"@type":"ListItem","position":2,"name":"Privacy Policy","item":"https://studyroadmap.in/privacy"}]})}
+  <script type="application/ld+json" set:html={JSON.stringify({"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://studyroadmap.in/"},{"@type":"ListItem","position":2,"name":"Privacy Policy","item":"https://studyroadmap.in/privacy/"}]})}>
   </script>
   <Navbar />
   <main id="main-content" class="flex-1">
@@ -20,8 +19,8 @@ import Footer from '../components/Footer.astro';
         <p>StudyRoadmap™ is built with privacy as a core principle. We collect <strong class="text-surface-900 dark:text-surface-100">as little data as possible</strong>.</p>
         <div>
           <h2 class="text-base font-semibold text-surface-900 dark:text-surface-100 mb-2">What We Collect</h2>
-          <p>We use <strong class="text-surface-900 dark:text-surface-100">Plausible Analytics</strong>, a privacy-friendly, cookie-free analytics service that collects only anonymous, aggregate page-view data. Plausible does not use cookies, does not track individuals, does not collect personal information, and is fully GDPR-compliant. No IP addresses are stored and no cross-site tracking occurs. We use this data solely to understand which pages are most visited so we can improve our content.</p>
-          <p class="mt-2">We do not use tracking pixels, advertising cookies, or any personal data collection. We don't know who you are, what exam you're preparing for, or how long you're studying.</p>
+          <p>We currently run <strong class="text-surface-900 dark:text-surface-100">no first-party analytics</strong>. We do not deploy Google Analytics, Plausible, or any other analytics script on this site at this time. Our hosting providers (Vercel, Cloudflare) log standard request metadata (IP, user-agent, referrer) for security and operations as governed by their own policies; we do not retain or correlate that data ourselves.</p>
+          <p class="mt-2">We do not use tracking pixels or personal data collection of our own. We don't know who you are, what exam you're preparing for, or how long you're studying. If we enable a privacy-friendly analytics service in the future, this page will be updated before it goes live.</p>
         </div>
         <div>
           <h2 class="text-base font-semibold text-surface-900 dark:text-surface-100 mb-2">Cookies and Local Storage</h2>
@@ -33,7 +32,7 @@ import Footer from '../components/Footer.astro';
         </div>
         <div>
           <h2 class="text-base font-semibold text-surface-900 dark:text-surface-100 mb-2">Third-Party Services</h2>
-          <p>We use <strong class="text-surface-900 dark:text-surface-100">Plausible Analytics</strong> (plausible.io) for privacy-friendly, cookie-free analytics — no personal data is collected or stored. We use <strong class="text-surface-900 dark:text-surface-100">Vercel</strong> for hosting and <strong class="text-surface-900 dark:text-surface-100">Cloudflare</strong> for DNS and SSL. These services may log basic request data (IP, user-agent) as part of their normal operations, governed by their own privacy policies.</p>
+          <p>We use <strong class="text-surface-900 dark:text-surface-100">Vercel</strong> for hosting, <strong class="text-surface-900 dark:text-surface-100">Cloudflare</strong> for DNS and SSL, and <strong class="text-surface-900 dark:text-surface-100">Google Fonts</strong> (fonts.googleapis.com, fonts.gstatic.com) for typography. Google receives a request log (IP, user-agent) each time a font asset loads, governed by the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" class="text-brand-600 dark:text-brand-400 hover:underline">Google Privacy Policy</a>. Vercel and Cloudflare may log basic request data (IP, user-agent) as part of their normal operations, governed by their own privacy policies. If we display ads via <strong class="text-surface-900 dark:text-surface-100">Google AdSense</strong>, EEA, UK, and Swiss visitors will see a Google-provided consent prompt for personalised advertising in line with UK/EU GDPR. You retain the right to access, correct, erase, restrict, port, or object to processing of any personal data held by these providers — contact us at the email below and we will route the request.</p>
         </div>
         <div>
           <h2 class="text-base font-semibold text-surface-900 dark:text-surface-100 mb-2">Advertising</h2>

@@ -38,7 +38,7 @@ const subjectDisplay = (subjectName && subjectName !== 'None' && subjectName !==
 
 const title = `${topicName} — ${subjectDisplay} | ${examName} Study Notes`;
 const description = `${topicName} study notes for ${examName}. ${weight}% exam weight. Part of the free ${examName} study roadmap on StudyRoadmap™.`;
-const canonicalUrl = `https://studyroadmap.in/notes/${note.id}`;
+const canonicalUrl = `https://studyroadmap.in/notes/${note.id}/`;
 const _candidateOg = `/og-notes/${exam}-${subject}-${topic}.jpg`;
 const ogImage = fs.existsSync(path.join(process.cwd(), 'public', _candidateOg))
   ? _candidateOg
@@ -231,7 +231,8 @@ const articleJsonLd = {
     logo: { '@type': 'ImageObject', url: `${siteUrl}/favicon.svg` },
   },
   datePublished: note.data.generated || '2026-01-01',
-  dateModified: new Date().toISOString().slice(0, 10),
+  dateModified: new Date().toISOString(),
+  image: `${siteUrl}${ogImage}`,
   mainEntityOfPage: { '@type': 'WebPage', '@id': canonicalUrl },
   about: {
     '@type': 'Thing',

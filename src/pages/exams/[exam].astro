@@ -172,7 +172,24 @@ const courseJsonLd = {
   'inLanguage': 'en',
   'audience': {
     '@type': 'Audience',
-    'audienceType': `Students preparing for ${examName} in ${countryName}`
+    'audienceType': `Students preparing for ${examName} in ${countryName}`,
+  },
+  'offers': {
+    '@type': 'Offer',
+    'category': 'Free',
+    'price': '0',
+    'priceCurrency': 'INR',
+    'availability': 'https://schema.org/InStock',
+  },
+  'hasCourseInstance': {
+    '@type': 'CourseInstance',
+    'courseMode': 'Online',
+    'courseWorkload': 'PT2H',
+    'instructor': {
+      '@type': 'Organization',
+      'name': 'StudyRoadmap',
+      'url': 'https://studyroadmap.in',
+    },
   },
 };
 

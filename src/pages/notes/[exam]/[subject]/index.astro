@@ -100,10 +100,11 @@ const collectionPageJsonLd = {
   },
 };
 
-// All subjects for this exam (for cross-linking)
-const allSubjects = [...new Set(allNotes.map(n => n.id.split('/')[1]))];
+// All subjects for THIS exam only (for cross-linking)
+const examNotes = allNotes.filter(n => n.id.split('/')[0] === exam);
+const allSubjects = [...new Set(examNotes.map(n => n.id.split('/')[1]))];
 const otherSubjects = allSubjects.filter(s => s !== subject).map(s => {
-  const exampleNote = allNotes.find(n => n.id.split('/')[1] === s);
+  const exampleNote = examNotes.find(n => n.id.split('/')[1] === s);
   return { id: s, name: exampleNote?.data.subjectName || s };
 });
 

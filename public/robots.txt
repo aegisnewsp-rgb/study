@@ -16,6 +16,20 @@ Sitemap: https://studyroadmap.in/sitemap-0.xml
 # Host directive (Yandex)
 Host: https://studyroadmap.in
 
+# ── GOOGLE ADSENSE — EXPLICIT ALLOW (required for ad serving) ──────────────
+# Google's AdSense crawler must be allowed to fetch every page where ads will
+# render so it can verify content policy before serving impressions.
+User-agent: Mediapartners-Google
+Allow: /
+
+# AdsBot for landing-page experience checks
+User-agent: AdsBot-Google
+Allow: /
+
+# Google Site Verification (Search Console + AdSense)
+User-agent: Google-Site-Verification
+Allow: /
+
 # ── SEARCH ENGINE CRAWLERS — ALLOW ──────────────────────────────────────────
 User-agent: Googlebot
 Allow: /

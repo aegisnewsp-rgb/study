@@ -27,3 +27,4 @@ pnpm-debug.log*
 _bmad/
 _bmad-output/
 .claude/
+test-results/

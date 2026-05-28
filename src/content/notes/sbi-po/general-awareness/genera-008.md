@@ -8,284 +8,83 @@ topicName: "Important Indian Acts and Reforms"
 weight: 3
 country: sbi
 generated: "2026-03-25T17:00:00"
+lastUpdated: "2026-05-28"
 ---
 
-# Topic 8
+# Important Indian Acts and Reforms
 
 ### 🟢 Lite — Quick Review (1h–1d)
+
 > Rapid summary for last-minute revision before your exam.
 
-- **Banking Regulation Act 1949**: Main banking legislation; gives RBI power to license banks, set CRR/SLR, inspect banks, issue directions; Section 35A: RBI can give directions in public interest
-- **RBI Act 1934**: Governs RBI's functions; MPC, monetary policy, currency issue, FEMA provisions
-- **SARFAESI Act 2002**: Enables banks to recover NPAs without court intervention; can take possession and sell secured assets
-- **DRT Act 1993**: Debt Recovery Tribunal; hears cases where debt exceeds ₹20 lakh; faster than civil courts
-- **FRBM Act 2003**: Fiscal Responsibility and Budget Management; mandated fiscal deficit < 3% of GDP; revenue deficit to zero
-- ⚡ PMLA (Prevention of Money Laundering Act, 2002): Banks must maintain KYC, CTR, suspicious transaction reports; non-compliance is criminal offence
+**Land Reforms** abolished the **Zamindari system** via state acts (e.g., Hyderabad Tenancy Act) and imposed **land ceiling** — maximum holding limits per family to prevent concentration. **73rd Amendment (1992)** gave constitutional status to **Panchayati Raj** — a 3-tier system (Gram Panchayat → Panchayat Samiti → Zilla Parishad) with mandatory **reservation for SC/ST and women**. **74th Amendment (1992)** constitutionalized **Urban Local Bodies** — Nagar Panchayat, Municipal Council, Municipal Corporation — and added the 12th Schedule with **18 municipal subjects**. **MGNREGA (2005)** guarantees **100 days/year** employment to rural households at minimum wages. **RTE Act (2009)** mandates **free education for ages 6–14**; 25% seats reserved for disadvantaged groups in private schools. **GST (2017)** replaced 17 indirect taxes with **4 slabs: 5%, 12%, 18%, 28%**; threshold ₹20 lakh (₹10 lakh for special category states). **IBC (2016)** sets **180-day resolution window** (extendable to 330 days); **NCLT** adjudicates; **IBBI** regulates. **RERA (2016)** mandates project registration, carpet area standardization, and **70% escrow funding**. **Companies Act 2013** requires **CSR** for companies with net worth ₹500 Cr+.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
 
-## Important Indian Acts and Reforms
+## Land Reforms and Zamindari Abolition
 
-For the SBI PO exam, a thorough understanding of the legislative framework governing banking and finance is essential. This topic covers the key Acts, their provisions, and their impact on the banking sector.
+Post-independence India inherited the Zamindari system where intermediaries (Zamindars, Talukdars) collected land revenue. **State-specific tenancy acts** — such as the Hyderabad Tenancy Act, Orissa Land Reforms Act, and Tamil Nadu's 1961 Act — legally abolished these intermediaries, transferring ownership to actual tillers. **Land ceiling laws** simultaneously fixed maximum holding sizes (typically 4.5–18 acres depending on soil fertility and location), forcing surplus redistribution to landless farmers. These reforms were a **state subject** under the Constitution, producing wide interstate variation.
 
-## Banking Regulation Act 1949
+## 73rd and 74th Constitutional Amendments
 
-### Historical Background
-Originally called the Banking Companies Act, 1949. Passed after bank failures in the 1940s. Became the Banking Regulation Act in 1966.
+The **73rd Amendment (1992)** inserted **Part IX** into the Constitution, establishing a 3-tier Panchayati Raj system: **Gram Panchayat** (village level), **Panchayat Samiti** (block level), and **Zilla Parishad** (district level). Every Panchayat body must have **one-third seats reserved for women** and seats proportionate to SC/ST population. **State Election Commissions** conduct Panchayat elections; **State Finance Commissions** review financial devolution.
 
-### Key Provisions
+The **74th Amendment (1992)** did the same for **Urban Local Bodies**, classifying municipalities into **Nagar Panchayat** (transitional areas), **Municipal Council** (smaller towns), and **Municipal Corporation** (larger cities). The **12th Schedule** was added listing 18 functional subjects for municipalities including urban planning, water supply, and public health.
 
-**Section 5(b)**: Definition of "Banking"
-- Accepting deposits of money from the public for the purpose of lending or investment
-- Repayable on demand, cheque, draft, or otherwise
+## Key Social and Economic Legislations
 
-**Section 6**: Forms of business banks may undertake
-- Issue of letters of credit, traveller's cheques
-- Collection and payment of crossed cheques
-- Bills of exchange, promissory notes
-- Acting as correspondents
-- Safe custody of valuables
-- Safe deposit vaults
+**MGNREGA (2005)** — enacted under **Article 21** (right to life) — guarantees 100 days of guaranteed wage employment per rural household per year. Workers receive **piece-rate wages** and are entitled to **unemployment allowance** if work is not provided within 15 days. The **Schedule II** of the Act specifies a **Grievance Redressal Mechanism**.
 
-**Section 10**: Board composition requirements
-- Minimum 2 directors; no maximum cap (RBI prescribes)
-- At least 51% directors must have banking expertise
+**RTE Act (2009)** makes education **free and compulsory** for all children aged 6–14. Private unaided schools must reserve **25% seats** for children from economically weaker sections. No **capitation fee** or screening test is permitted for admission.
 
-**Section 17**: Mandatory transfer of profits
-- Minimum 20% of net profits to reserves before dividend
-- Transfer of higher percentage when capital is below prescribed level
+**GST (2017)** — subsumed under **Article 246A** — replaced VAT, excise duty, service tax, and customs duties with a **unified market**. The **GST Council** (Article 279A) recommends rates. The **IGST** mechanism apportions revenue between Centre and States. Registered taxpayers file **GSTR-1, GSTR-3B** monthly returns.
 
-**Section 21**: RBI can direct banks on interest rates
-- Historically regulated interest rates (withdrawn gradually since 2011)
-- RBI still sets savings bank interest rate ceiling
+## IBC 2016 and RERA 2016
 
-### RBI's Supervisory Powers
+The **Insolvency and Bankruptcy Code** consolidated scattered debt-recovery laws. The **Corporate Insolvency Resolution Process (CIRP)** begins upon **NCLT admission** of a creditor petition. The **Resolution Professional** manages the debtor company; the **Committee of Creditors** votes on resolution plans (requiring **66% majority**). Timeline: **180 days**, extendable by NCLT to **330 days** maximum. **IBBI** (Insolvency and Bankruptcy Board of India) functions as the regulator.
 
-**Section 35**: RBI can inspect any bank (scheduled or non-scheduled)
-- On-site inspection and off-site surveillance
-- Annual inspection of all scheduled commercial banks
+**RERA** established **State Real Estate Regulatory Authorities** and the **Central RERA** portal. Developers must register projects, define **carpet area** (net usable floor area excluding walls), deposit **70% of project funds** in a designated escrow account, and adhere to **5% penalty on project cost** for delayed possession.
 
-**Section 35A**: RBI can give directions in public interest
-- Broad powers to ensure sound banking practices
+**Companies Act 2013** mandates **Corporate Social Responsibility** for companies meeting any one of: net worth ₹500 Cr+, annual turnover ₹1,000 Cr+, or net profit ₹5 Cr+. The **National Company Law Tribunal (NCLT)** adjudicates disputes; the **Serious Fraud Investigation Office (SFIO)** investigates corporate fraud.
 
-**Section 36ACA**: RBI can supersede board of a bank
-- Can remove managing director/CEO
-- **YES Bank (2020)**: RBI used this power; appointed an administrator and orchestrated reconstruction with RBI's safeguards
-
-### Prompt Corrective Action (PCA) Framework
-
-**Background**: RBI introduced PCA framework in 2017 for scheduled commercial banks (excluding RRBs and small finance banks).
-
-**Triggers** (when banks breach thresholds):
-- **Capital Ratios**: CET1 ratio, Tier 1 capital ratio, Total Capital ratio
-- **Asset Quality**: GNPA ratio, Net NPA ratio
-- **Profitability**: Return on Assets (ROA)
-
-**Actions under PCA**:
-1. **Higher provisions**: Mandatory provisioning for NPA recognition
-2. **Restrictions on dividend distribution**: Cannot declare dividends
-3. **Restrictions on branch expansion**: No new branches
-4. **Restrictions on borrowing**: Limits on inter-bank borrowings
-5. **Capital raise requirement**: Compulsory capital raise
-6. **Risk-weighted asset restrictions**: No increase in risk-weighted assets
-
-**Most stringent**: If a bank breaches minimum capital ratios, RBI can supersede the board.
-
-## SARFAESI Act 2002
-
-The **Securitisation, Reconstruction and Enforcement of Security Interest Act** empowers banks to recover NPAs without court intervention.
-
-### Key Powers
-
-**Section 13 — Enforcement**:
-- If borrower defaults, bank can issue a **Demand Notice** requiring repayment within 60 days
-- If not repaid, bank can take **possession** of the secured asset
-- Bank can sell the asset without court intervention
-
-**Types of Security Interests**:
-- Mortgage (immovable property)
-- Pledge (movable goods)
-- Hypothecation (goods, vehicles, machinery)
-
-**Other Powers**:
-- Appointment of **Receiver** to manage secured asset
-- Transfer of NPA accounts to **Asset Reconstruction Companies (ARCs)**
-- Banks can acquire financial assets from other banks/financial institutions
-
-### Asset Reconstruction Companies (ARCs)
-
-**Registered with RBI** under SARFAESI
-- Buy NPAs from banks at a discount
-- Manage and recover over time
-- Example: **India Asset Reconstruction Company (IARC)**, **Suraksha Asset Reconstruction Private Limited**
-
-**Security Receipts (SRs)**:
-- When banks sell assets to ARC, they receive SRs (not cash)
-- SRs can be redeemed when ARC recovers from the borrower
-
-### DRT vs SARFAESI
-
-| Feature | SARFAESI | DRT |
-|---------|---------|-----|
-| Speed | Faster (no court) | Slower (court process) |
-| Approach | Direct action | Legal proceedings |
-| Suitable for | Clear-cut secured assets | Disputed cases |
-| Recovery % | Variable | Variable |
-
-## Debt Recovery Tribunal (DRT) Act 1993
-
-### Structure
-- **DRT**: Adjudicating authority for recovery of debt ≥ ₹20 lakh
-- **DRAT**: Appellate tribunal (against DRT orders)
-- Multiple DRTs across India; Benches in major cities
-
-### Process
-1. Application filed by bank with DRT
-2. DRT issues summons to borrower
-3. Evidence submitted; hearing held
-4. DRT passes **Recovery Certificate** (RC)
-5. Recovery Officer enforces RC (attach and sell property)
-
-## FRBM Act 2003
-
-The **Fiscal Responsibility and Budget Management Act** established fiscal discipline.
-
-### Key Provisions
-
-**Section 4 — Fiscal Deficit Target**:
-- Reduce fiscal deficit to **3% of GDP** by 2008-09 (not achieved)
-- Fiscal deficit to be reduced by at least 0.3% of GDP each year
-
-**Section 5 — Revenue Deficit Target**:
-- Revenue deficit to be eliminated and converted to revenue surplus
-
-**Medium-Term Fiscal Policy Statement**:
-- Government must lay before Parliament: Debt management strategy, fiscal strategy statement
-
-**FRBM Review** (2020s):
-- The 3% target has been considered too restrictive for developing economies
-- FRBM review committee recommended allowing fiscal deficit up to 5% of GDP in normal times
-- Higher limits during emergencies (COVID)
-
-## Prevention of Money Laundering Act (PMLA) 2002
-
-### Overview
-India's primary anti-money laundering legislation; came into force 2005.
-
-### Key Obligations
-
-**Know Your Customer (KYC)**:
-- Banks must verify identity (Aadhaar, PAN)
-- Verify address
-- Understand nature of customer's business
-- Ongoing due diligence
-
-**Customer Due Diligence (CDD)**:
-- Verify beneficial owner (real person behind the entity)
-- Enhanced due diligence for high-risk customers
-
-**Reporting Requirements**:
-
-1. **Cash Transaction Report (CTR)**: Cash transactions ≥ ₹10 lakh (single or aggregate)
-2. **Suspicious Transaction Report (STR)**: Any transaction suspected to involve money laundering; filed with FIU-IND
-3. **Counterfeit Currency Report**: For counterfeit note detection
-4. **Non-Profit Organisation Transactions**: For charities/non-profits
-
-**Penalty for Non-Compliance**:
-- Monetary penalty by RBI/FIU
-- Criminal prosecution of responsible officers
-
-### FIU-IND
-**Financial Intelligence Unit — India**: National agency that receives, analyses, and disseminates financial intelligence to law enforcement agencies.
-
-## Negotiable Instruments Act 1881
-
-### Key Provisions
-
-**Cheque**: A bill of exchange drawn on a banker; payable on demand.
-
-**Crossing of Cheques**:
-- **General Crossing**: Two parallel lines across cheque; payable through any bank
-- **Special Crossing**: Bank name mentioned; payable only to that bank
-
-**Types of Crossing**:
-- **Payee's Account**: "A/c Payee" — only depositing in payee's account
-- **Not Negotiable**: Disclaims endorsement guarantee
-
-**Dishonour of Cheques**:
-- **Insufficient funds** (Section 138): Criminal offense
-- **Mismatch of signature**: Civil dispute
-- Bank must return cheque within 3 days
-
-**Criminal Liability under Section 138**:
-- Complaint to Magistrate within 1 month of cause
-- Court can convict; imprisonment up to 2 years or fine or both
-
-## Information Technology Act 2000 (Amended 2008)
-
-### Key Provisions for Banking
-
-**Section 43A**: Compensation for failure to protect data
-- If a body corporate possessing sensitive data fails to maintain reasonable security practices → liable to pay compensation
-
-**Section 72A**: Disclosure of information without consent
-- Service provider cannot disclose personal information
-
-**Section 66**: Computer-related offences
-- Hacking, unauthorized access, spreading viruses
-
-**Section 66E**: Violation of privacy
-- Publishing/transmitting private area of any person
-
-**Digital Signature**: Cryptographic authentication of electronic documents (Schedule II)
+**FRBM Act 2003** targets fiscal deficit reduction to **3% of GDP**, with **zero revenue deficit** as the medium-term goal. The **Fiscal Responsibility and Budget Management (FRBM) Review Committee (2017)** suggested replacing the deficit target with a **debt-to-GDP ratio of 60%** by 2023.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
 
-## Securitisation
+## Land Ceiling — State-Level Variation and Judicial Challenges
 
-**Definition**: Pooling of financial assets (loans) and converting them into securities that can be sold to investors.
+Land ceiling laws fixed maximum holding sizes — ranging from **4.18 acres** (irrigated double-crop land in Andhra Pradesh) to **27 acres** (dry land in Rajasthan). **West Bengal** implemented ceilings rapidly through Operation Barga, recording tenant Cultivators; **Kerala** abolished landlords via the **Karnataka Land Reforms Act, 1961** model. **Judicial challenges** arose over family definition (whether major sons constitute a separate family), exemptions for tea/coffee plantations, and the distinction between **Khatedar** (record-of-rights holder) and **actual cultivator**. In *State of West Bengal v. B.K. Mondal & Sons* (1962), the Supreme Court upheld ceiling laws as **reasonable restrictions under Article 19(1)(g)**. Examinees should note that **non-residents** and **religious institutions** are treated differently under state schedules.
 
-**Process**:
-1. Bank transfers loan portfolio to a **Special Purpose Vehicle (SPV)**
-2. SPV issues **Pass-Through Certificates (PTCs)** to investors
-3. Cash flows from loans (EMIs) go to investors
-4. Servicer collects EMIs and passes to SPV
+## MGNREGA — Employment Guarantee vs. Demand-Deposit Mismatch
 
-**Why Banks Securitise**:
-- Reduce risk-weighted assets
-- Free up capital
-- Transfer risk
+The **guarantee element** of MGNREGA is its most exam-tested feature: employment must be provided within **15 days** of application; failure triggers **unemployment allowance** at 1/4th wages for first 30 days, 1/2 wages thereafter. The **State Employment Guarantee Council** monitors implementation. However, **fund utilization** shows a consistent gap — demand outstrips supply in states like Rajasthan and Andhra Pradesh. **Work demand estimation** is based on **MGNREGA MIS** data, not Census figures, making it a potential trap in SBI PO questions asking about coverage numbers.
 
-## Insolvency and Bankruptcy Code (IBC) 2016
+## GST — Threshold, Composition Scheme, and IGST Mechanism
 
-**Framework**:
-- **NCLT (National Company Law Tribunal)**: Adjudicate corporate insolvency
-- **IP (Insolvency Professional)**: Manages debtor company during moratorium
-- **Committee of Creditors (CoC)**: Banks vote on resolution plan (requires 66% majority)
-- **Resolution Plan**: Must ensure recovery for creditors
+SBI PO questions frequently test the **composition scheme threshold**: turnover below **₹1.5 Cr** (₹75 lakh for northeastern states). Composition dealers pay **3%** (manufacturers), **5%** (restaurants), or **1%** (other services) — no input tax credit allowed. **IGST** (Integrated GST) applies to inter-state supplies; the Centre and States split the SGST portion. For **reverse charge mechanism** (RCM), the recipient pays tax on behalf of an unregistered supplier — a common MCQ trap where students confuse RCM applicability with regular registration. **Exempt items** include fresh fruits, vegetables, milk, bread, and education services.
 
-**Timeline**: 330 days including litigation (extendable by 90 days)
+## IBC 2016 — Moratorium, Homebuyers, and Preference Hierarchy
 
-**Cases Filed**: Over 5,000 corporate insolvency cases since 2016
+The **moratorium period** under **Section 14** freezes all recovery proceedings against the corporate debtor — this directly impacts bank NPA recognition timelines. **Homebuyers** were granted the status of **financial creditors** in *Flat Buyers Association vs. Jaypee Infratech (2018)*, enabling them to vote in Committee of Creditors proceedings. The **waterfall mechanism** (Section 53) places secured creditors (financial creditors first) ahead of operational creditors (government dues, employee salaries below ₹3 Cr) in liquidation proceeds. **IBBI's disciplinary committee** can penalize Resolution Professionals for procedural lapses — a niche but tested point for SBI PO's GA section.
 
-**Recovery Rates**: Average ~45-47 paise per rupee admitted
+## FRBM Act — Deficits andFiscal Drag
 
-## Recent Amendments
+The **fiscal deficit** equals (Total Expenditure − Revenue Receipts − Non-debt Capital Receipts). The **primary deficit** excludes interest payments. Under FRBM, the **medium-term fiscal policy statement** must be laid before Parliament alongside the Budget. The **2020 FRBM review** suspended fiscal deficit targets due to COVID-19; restoration to 4.5% is now targeted by **FY2026**. Watch for questions linking **Dearness Allowance (DA) hikes** to fiscal drag — a typical UPSC and SBI PO reasoning type.
 
-**Banking Regulation (Amendment) Act 2020**:
-- RBI's powers over cooperative banks strengthened
-- Can supersede board, remove directors
-- Can initiate merger of weak cooperative banks
+## RERA — Penalties, Appellate Tribunals, and Carpet Area Nuance
 
-**Banking Laws (Amendment) Act 2023**:
-- **State Bank of India (Subsidiary Banks) Act** amendments: Enabled merger of associate banks with SBI
-- Additional provisions for bank governance
+**RERA penalties** range from **5% of project cost** (delay) to **10%** (non-registration). The **carpet area definition** excludes balconies, verandas, and walls — this distinction from **super built-up area** (which includes common areas at a loading factor) frequently appears in banking awareness and general awareness sections. **Real Estate Regulatory Authorities** must dispose of complaints within **60 days**; appeals lie to the **Real Estate Appellate Tribunal** within 60 days of the authority's order.
+
+**SBI PO-specific weightage**: Focus on **GST slabs and registration threshold**, **IBC resolution timelines**, **FRBM deficit targets**, and **RERA carpet area definition** — these appear in Section A General Awareness with 3% weightage. Recent amendments to **IBC (2023)** allowing personal insolvency relief and **RERA amendments** streamlining project registration timelines are also exam-relevant updates.
 
 ---
+
+### Practice Prompts
+1. Calculate the GST payable on a product with base price ₹10,000 under the 18% slab, explaining how CGST and SGST are apportioned if the transaction is intra-state.
+2. Under IBC 2016, if a Resolution Professional fails to complete CIRP within 330 days, what automatic consequence follows, and which authority triggers it?
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

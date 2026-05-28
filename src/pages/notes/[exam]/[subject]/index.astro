@@ -22,10 +22,19 @@ const allSubjectNotes = allNotes
   .filter(n => n.id.startsWith(slug + '/'))
   .sort((a, b) => a.data.topic.localeCompare(b.data.topic));
 // Only list indexable notes — low-value ones are orphaned (and noindexed in
-// [topic].astro) until the rewrite pipeline upgrades them. If every note in the
-// subject is still low-value, the hub itself has nothing to offer → noindex it.
+// [topic].astro) until the rewrite pipeline upgrades them.
+// AdSense 2026 thin-content gate: if the hub has < 3 substantive notes, the
+// hub itself doesn't carry enough indexed-content value → noindex it. (Was
+// `=== 0`; tightened to `< 3` after the 2026-05-28 audit found 192 hubs with
+// only 1-2 good notes shipping as 187-word landing pages.)
 const subjectNotes = allSubjectNotes.filter(isGoodNote);
-const subjectHubRobots = subjectNotes.length === 0 ? 'noindex,follow' : undefined;
+const subjectHubRobots = subjectNotes.length < 3 ? 'noindex,follow' : undefined;
+// Weight distribution for the subject (visible weightage table)
+const weightTable = subjectNotes
+  .slice(0, 12)
+  .map(n => ({ topic: n.data.topic, name: n.data.topicName, weight: n.data.weight || 0 }))
+  .sort((a, b) => b.weight - a.weight);
+const totalWeight = weightTable.reduce((s, r) => s + (r.weight || 0), 0);
 
 const { exam, subject } = Astro.params;
 const firstNote = allSubjectNotes[0];
@@ -157,8 +166,74 @@ const relatedExams = EXAM_EQUIVALENTS[exam] || [];
       </div>
     </section>
 
-    <!-- Topic grid -->
+    {/* About this subject — visible prose */}
+    <section class="container-page py-10 max-w-3xl">
+      <div class="prose prose-surface dark:prose-invert max-w-none">
+        <h2>About {subjectName} in {examName}</h2>
+        <p>
+          {subjectName} is one of the {Math.max(allSubjects?.length || 4, 4)} core subjects in the {examName} syllabus.
+          Our editorial team has structured this section into {subjectNotes.length} topic notes that follow the official
+          {' '}{examName} weightage and the latest exam-pattern guidance. Each topic note is researched against the
+          published {examName} syllabus, drafted with AI assistance, and reviewed by
+          {' '}<a href="/author/pushkar-saini/" rel="author">Pushkar Saini</a> before it ships.
+        </p>
+        <p>
+          The topics below are ordered by their syllabus weightage so you can focus on high-yield areas first. If you
+          are starting late or short on time, prioritise the top-weighted topics and use our
+          {' '}<a href={`/study-plan-generator/?exam=${exam}`}>study-plan generator</a> for a time-boxed plan.
+        </p>
+
+        {weightTable.length > 0 && (
+          <>
+            <h2>Topic weightage for {subjectName}</h2>
+            <p class="text-sm text-surface-600 dark:text-surface-400">
+              The top {weightTable.length} topics in {subjectName} by exam weightage. Totals reflect the share of the
+              {' '}{subjectName} section in {examName}; weight values are taken from the published exam pattern.
+            </p>
+            <table>
+              <thead>
+                <tr><th>Topic</th><th class="text-right">Weight</th></tr>
+              </thead>
+              <tbody>
+                {weightTable.map(r => (
+                  <tr>
+                    <td><a href={`/notes/${exam}/${subject}/${r.topic}/`}>{r.name}</a></td>
+                    <td class="text-right">{r.weight}%</td>
+                  </tr>
+                ))}
+              </tbody>
+              {totalWeight > 0 && (
+                <tfoot><tr><td><strong>Combined</strong></td><td class="text-right"><strong>{totalWeight}%</strong></td></tr></tfoot>
+              )}
+            </table>
+          </>
+        )}
+
+        <h2>How to use these notes</h2>
+        <p>
+          Start with the highest-weighted topic in the table above. Each topic page opens with the concept, then
+          works through formulas or frameworks, exam-pattern context, and a short verification block citing the
+          official source. Notes are designed for a 25-30 minute focused study session per topic, with summary
+          flashcards at the end for revision passes.
+        </p>
+
+        <h2>Frequently asked questions</h2>
+        {faqs.map(f => (
+          <>
+            <h3>{f.question}</h3>
+            <p>{f.answer}</p>
+          </>
+        ))}
+
+        <p class="text-sm text-surface-500 dark:text-surface-400 mt-8 border-t pt-4">
+          Reviewed by <a href="/author/pushkar-saini/" rel="author">Pushkar Saini</a> · methodology: <a href="/editorial-process/">research → draft → verify → curate</a>.
+        </p>
+      </div>
+    </section>
+
+    {/* Topic grid */}
     <section class="container-page py-12">
+      <h2 class="text-2xl font-bold text-surface-900 dark:text-white mb-6">All {subjectNotes.length} {subjectName} Topics</h2>
       <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
         {subjectNotes.map(note => (
           <a

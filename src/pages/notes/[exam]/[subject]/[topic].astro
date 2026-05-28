@@ -37,7 +37,10 @@ const robotsDirective = shouldNoindex ? 'noindex,follow' : undefined;
 const subjectDisplay = (subjectName && subjectName !== 'None' && subjectName !== 'null') ? subjectName : (subject.charAt(0).toUpperCase() + subject.slice(1).replace(/-/g, ' '));
 
 const title = `${topicName} — ${subjectDisplay} | ${examName} Study Notes`;
-const description = `${topicName} study notes for ${examName}. ${weight}% exam weight. Part of the free ${examName} study roadmap on StudyRoadmap™.`;
+// Keep description ≤160 chars even for the longest topicName/examName combos.
+// Pattern: "Topic — Exam study notes (W% weight). Free Quick / Standard / Deep tiers."
+const _descRaw = `${topicName} — ${examName} study notes (${weight}% weight). Free Quick / Standard / Deep tiers, no signup.`;
+const description = _descRaw.length > 160 ? _descRaw.slice(0, 157) + '...' : _descRaw;
 const canonicalUrl = `https://studyroadmap.in/notes/${note.id}/`;
 const _candidateOg = `/og-notes/${exam}-${subject}-${topic}.jpg`;
 const ogImage = fs.existsSync(path.join(process.cwd(), 'public', _candidateOg))
@@ -307,6 +310,14 @@ const articleJsonLd = {
       <div class="grid lg:grid-cols-3 gap-10">
         <!-- Main content -->
         <article class="lg:col-span-2">
+          <!-- Editor + last-reviewed E-E-A-T strip -->
+          <div class="not-prose mb-6 flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-surface-500 dark:text-surface-400">
+            <span>By <a href="/about/" class="text-brand-600 dark:text-brand-400 hover:underline">StudyRoadmap Editorial Team</a></span>
+            <span aria-hidden="true">·</span>
+            <span>Last updated <time datetime={new Date().toISOString().slice(0,10)}>{new Date().toLocaleDateString('en-IN', { year:'numeric', month:'long', day:'numeric' })}</time></span>
+            <span aria-hidden="true">·</span>
+            <span>{weight}% exam weight</span>
+          </div>
           <!-- Tier selector -->
           <div class="not-prose mb-6 p-1 bg-surface-100 dark:bg-surface-800 rounded-xl inline-flex gap-0.5" id="tier-selector" role="group" aria-label="Study depth selector">
             <button id="btn-lite" onclick="switchTier('lite')" class="tier-btn px-4 py-2 text-sm font-medium rounded-lg transition-all duration-200" data-tier="lite">

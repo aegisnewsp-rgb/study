@@ -1,0 +1,27 @@
+{
+  "name": "StudyRoadmap",
+  "short_name": "StudyRoadmap",
+  "description": "Free AI-powered study roadmap generator for 125+ competitive exams. No signup, no fees.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#2563eb",
+  "orientation": "portrait-primary",
+  "lang": "en",
+  "categories": ["education", "productivity", "reference"],
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

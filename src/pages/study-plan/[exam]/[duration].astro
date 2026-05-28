@@ -68,7 +68,8 @@ if (totalDays >= 7 && dailyTopics.length) {
 }
 
 const title = `${examName} ${durationLabel} (${totalDays}-Day Study Plan) ${currentYear} | StudyRoadmap™`;
-const description = `Free ${durationLabel.toLowerCase()} for ${examName} ${currentYear} — ${totalDays} days, ${dailyTopics.length} high-weightage topics mapped to your available time. Day-by-day schedule, subject-wise split, no signup.`;
+const _descRaw = `Free ${durationLabel.toLowerCase()} for ${examName} ${currentYear} — ${totalDays}-day schedule, ${dailyTopics.length} weighted topics, day-by-day plan, no signup.`;
+const description = _descRaw.length > 160 ? _descRaw.slice(0, 157) + '...' : _descRaw;
 const canonicalUrl = `${SITE_URL}/study-plan/${exam.examId}/${durationKey}/`;
 
 const breadcrumbJsonLd = {

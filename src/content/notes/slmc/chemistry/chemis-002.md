@@ -8,256 +8,143 @@ topicName: Hydrocarbons
 weight: 3
 country: slmc
 generated: "2026-03-25T17:00:00"
+lastUpdated: "2026-05-28"
 ---
 
-# Hydrocarbons — Saturated (Alkanes & Cycloalkanes) and Unsaturated (Alkenes & Alkynes)
+# Hydrocarbons
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-Hydrocarbons are compounds containing only carbon and hydrogen atoms. They are classified as **saturated** (single bonds only: alkanes) or **unsaturated** (double/triple bonds: alkenes, alkynes). Cycloalkanes are saturated hydrocarbons in ring form. For SLMC, know the general formulas, key reactions, and distinguishing tests between saturated and unsaturated hydrocarbons.
+**Hydrocarbons** are organic compounds containing only **carbon** and **hydrogen** atoms bonded by covalent bonds. They are the simplest organic compounds and form the backbone of organic chemistry.
 
-**High-Yield Facts for SLMC:**
-- Alkanes: CₙH₂ₙ₊₂ (saturated, single bonds only)
-- Alkenes: CₙH₂ₙ (one double bond); cycloalkanes: CₙH₂ₙ (ring, no double bond)
-- Alkynes: CₙH₂ₙ₋₂ (one triple bond)
-- Unsaturation test: Bromine water (brown) or KMnO₄ (purple) decolorizes with alkenes/alkynes but NOT with alkanes
-- ⚡ Exam tip: Burning alkane flame — blue (complete) vs yellow luminous (incomplete). Methane + 2O₂ → CO₂ + 2H₂O
+**Classification:**
+- **Saturated** hydrocarbons: **Alkanes** (general formula **CₙH₂ₙ₊₂**) — only single C–C bonds.
+- **Unsaturated** hydrocarbons: **Alkenes** (CₙH₂ₙ, at least one C=C) and **Alkynes** (CₙH₂ₙ₋₂, at least one C≡C).
+
+**Key Formulas:**
+- Combustion: **CₓHᵧ + (x + y/4)O₂ → xCO₂ + (y/2)H₂O** (complete)
+- Alkenes decolourise **bromine water** (orange-brown fades).
+- Alkenes + cold dilute **KMnO₄** → **diol** (purple fades).
+- Markovnikov's rule: **H adds to the carbon with more H atoms already attached.**
+
+**SLMC High-Yield Pointers:**
+1. **Bromine test** distinguishes alkenes from alkanes — alkanes do not decolourise.
+2. **Alkynes with terminal C≡C** give **white precipitate** with silver nitrate (AgNO₃).
+3. IUPAC naming: longest chain, lowest locants; prefix tells carbon count (meth- = 1, eth- = 2, prop- = 3, but- = 4).
+4. **Catenation** — carbon's ability to bond to itself — explains why so many hydrocarbon structures exist.
+5. Combustion products: complete → CO₂ + H₂O; incomplete → CO + H₂O or C + H₂O.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Hydrocarbons** — SLMC Medical (Sri Lanka) Study Guide
+## Homologous Series and Classification
 
-## Classification of Hydrocarbons
+A **homologous series** is a family of organic compounds sharing the same **general formula**, similar chemical properties, and a regular gradation in physical properties. Each successive member differs by **–CH₂–** (one carbon and two hydrogens).
 
-```
-Hydrocarbons
-├── Saturated (Alkanes: CₙH₂ₙ₊₂, only σ bonds)
-│   ├── Acyclic: straight-chain and branched alkanes
-│   └── Cyclic: cycloalkanes (CₙH₂ₙ, ring of CH₂ units)
-└── Unsaturated
-    ├── Alkenes (CₙH₂ₙ, at least one C=C double bond)
-    └── Alkynes (CₙH₂ₙ₋₂, at least one C≡C triple bond)
-```
-
-## Acyclic Alkanes (Saturated Open-Chain Hydrocarbons)
-
-### Nomenclature of Straight-Chain Alkanes
-
-| Carbon Atoms | Name | Formula | Boiling Point (°C) |
+| Series | General Formula | Bond Type | First Member |
 |---|---|---|---|
-| 1 | Methane | CH₄ | –162 |
-| 2 | Ethane | C₂H₆ | –89 |
-| 3 | Propane | C₃H₈ | –42 |
-| 4 | Butane | C₄H₁₀ | –0.5 |
-| 5 | Pentane | C₅H₁₂ | 36 |
-| 6 | Hexane | C₆H₁₄ | 69 |
-| 7 | Heptane | C₇H₁₆ | 98 |
-| 8 | Octane | C₈H₁₈ | 126 |
-| 9 | Nonane | C₉H₂₀ | 151 |
-| 10 | Decane | C₁₀H₂₂ | 174 |
+| **Alkanes** | CₙH₂ₙ₊₂ | C–C single only | Methane (CH₄) |
+| **Alkenes** | CₙH₂ₙ | One C=C double | Ethene (C₂H₄) |
+| **Alkynes** | CₙH₂ₙ₋₂ | One C≡C triple | Ethyne (C₂H₂) |
 
-**Boiling point trend:** Increases with molecular size (more electrons → stronger London dispersion forces). Branching decreases boiling point (more spherical shape → less surface area for intermolecular forces).
+## Alkanes — Substitution Reactions
 
-### Properties of Alkanes
+Alkanes are **saturated** and undergo **substitution reactions**. The classic example is **chlorination**:
 
-- **Physical state:** C₁–C₄: gases; C₅–C₁₇: liquids; C₁₈+: solids
-- **Insoluble in water** (non-polar; water is polar)
-- **Less dense than water** (density ~0.8 g/cm³ for liquids)
-- **Chemical reactivity:** Alkanes are relatively inert — strong C–C and C–H bonds
-- **Combustion:** Complete: CO₂ + H₂O; Incomplete (limited O₂): CO + H₂O or C + H₂O
-- **Halogenation:** CH₄ + Cl₂ → CH₃Cl + HCl (homolytic fission, UV light required)
+**CH₄ + Cl₂ → CH₃Cl + HCl** (under UV light)
 
-### Cycloalkanes
+The reaction proceeds via a **free-radical mechanism** — initiation (Cl₂ splits), propagation (CH₃• formed), and termination steps. Similar bromination is slower but more selective.
 
-Cycloalkanes have the formula **CₙH₂ₙ** (same as alkenes — both have one degree of unsaturation).
+## Alkenes — Addition Reactions
 
-**Key points:**
-- Simplest cycloalkane: cyclopropane (C₃H₆) — highly strained bond angle (60° vs normal 109.5°)
-- Cyclobutane (C₄H₈), cyclopentane (C₅H₁₀), cyclohexane (C₆H₁₂)
-- Cyclohexane exists in chair and boat conformations; chair is more stable
-- **Substitution reactions:** Like alkanes, cycloalkanes undergo free radical halogenation
-- **Addition reactions:** NOT like alkenes — cycloalkanes do NOT decolorize bromine water
+Alkenes are **unsaturated** and undergo **addition reactions** at the C=C bond. Key reactions for SLMC:
 
-## Alkenes (Unsaturated Hydrocarbons with C=C)
+- **Hydrogenation:** C₂H₄ + H₂ → C₂H₆ (Ni catalyst, heat)
+- **Halogenation:** C₂H₄ + Br₂ → C₂H₄Br₂ (bromine water test — decolourises orange-brown)
+- **Hydration:** C₂H₄ + H₂O → C₂H₅OH (H⁺ catalyst, Markovnikov product)
+- **Oxidation by cold KMnO₄:** forms a **diol** (two –OH groups on adjacent carbons)
 
-### General Formula and Structure
-- **CₙH₂ₙ** — one degree of unsaturation (one double bond)
-- sp² hybridized carbons; trigonal planar geometry (120°)
-- The double bond consists of one σ bond (sp²–sp² overlap) + one π bond (p-orbital overlap)
+**Markovnikov's rule** applies: when HX adds to an unsymmetrical alkene, the **H attaches to the carbon with more existing H atoms**, and the **halogen goes to the more substituted carbon**.
 
-### Nomenclature
-- Suffix: **-ene**
-- Number the chain to give the double bond the lowest possible number
-- Examples: ethene (C₂H₄), propene (C₃H₆), but-1-ene, but-2-ene
+## Alkynes — Distinguishing Test
 
-### Isomerism in Alkenes
-- **Structural isomerism:** Position of double bond (but-1-ene vs but-2-ene)
-- **Geometric (cis-trans) isomerism:** In alkenes where each carbon of the double bond has two different groups attached (e.g., but-2-ene: CH₃–CH=CH–CH₃)
-  - **Cis:** Same groups on same side (e.g., both methyl groups above the double bond)
-  - **Trans:** Same groups on opposite sides
+Alkynes undergo similar addition reactions. Terminal alkynes (–C≡CH) give a **white precipitate** with **ammoniacal AgNO₃**:
 
-### Reactions of Alkenes
+**RC≡CH + AgNO₃ → RC≡CAg↓ + HNO₃**
 
-**1. Addition reactions (most characteristic):**
-- **Hydrogenation:** CH₂=CH₂ + H₂ → CH₃–CH₃ (Ni catalyst, heat)
-- **Halogenation:** CH₂=CH₂ + Br₂ → CH₂Br–CH₂Br (bromine water DECOLORIZES — key test for unsaturation)
-- **Hydrogen halide (HCl, HBr):** Markovnikov's addition — H adds to carbon with MORE hydrogens; X/Hal adds to carbon with FEWER hydrogens
-  - Example: CH₃–CH=CH₂ + HBr → CH₃–CH(Br)–CH₃ (2-bromopropane)
-- **Hydration (H₂O + H⁺):** Follows Markovnikov's rule — OH group goes to the MORE substituted carbon
+This test does not occur with alkenes or internal alkynes, making it a key distinction for SLMC questions.
 
-**2. Oxidation reactions:**
-- **With cold KMnO₄ (Baeyer reagent):** Purple color disappears → diol (HO–CH₂–CH₂–OH from ethene)
-- **With hot KMnO₄:** Complete cleavage → CO₂ + H₂O (for ethene) or carboxylic acids/ketones
-- ** ozonolysis:** Breaks the double bond at the C=C; products identified by O₃ + Zn/H₂O workup
+## Structural Isomerism
 
-**3. Polymerization:**
-- n(CH₂=CH₂) → [–CH₂–CH₂–]ₙ (polyethene/polyethylene)
+Hydrocarbons show **structural isomerism** — same molecular formula, different connectivity:
+- **Chain isomerism:** straight vs. branched carbon skeleton (e.g., butane vs. isobutane)
+- **Positional isomerism:** double/triple bond in different positions (e.g., but-1-ene vs. but-2-ene)
 
-### Distinguishing Alkenes from Alkanes
+## Combustion
 
-| Test | Alkane | Alkene |
-|---|---|---|
-| Bromine water (brown) | No decolorization | Decolorizes (addition reaction) |
-| Acidified KMnO₄ (purple) | No decolorization | Decolorizes (oxidation) |
-| Combustion flame | Blue/yellow | Luminous yellow flame |
+**Complete combustion:**
+CₓHᵧ + (x + y/4)O₂ → xCO₂ + (y/2)H₂O + heat
 
-## Alkynes (Unsaturated Hydrocarbons with C≡C)
+**Incomplete combustion** (limited O₂): produces **CO** or **carbon (soot)** instead of CO₂.
 
-### General Formula and Structure
-- **CₙH₂ₙ₋₂** — two degrees of unsaturation (one triple bond OR two double bonds)
-- sp hybridized carbons; linear geometry (180°)
-- The triple bond = one σ bond + two π bonds
+## Nomenclature Basics
 
-### Nomenclature
-- Suffix: **-yne**
-- Examples: ethyne (C₂H₂), propyne (C₃H₄), but-1-yne, but-2-yne
+1. Identify the longest carbon chain (parent name).
+2. Number from the end giving the **lowest locant** to the multiple bond or substituent.
+3. Prefix = carbon count: meth- (1), eth- (2), prop- (3), but- (4), pent- (5), hex- (6).
 
-### Special Reactivity: Terminal vs Internal Alkynes
-- **Terminal alkyne:** C≡C–H (acetylene H–C≡C–H)
-  - Acidic hydrogen — reacts with Na, NaNH₂, AgNO₃ to form salt
-  - Forms silver acetylide (white) or copper(I) acetylide (reddish-brown)
-  - **Test:** AgNO₃ + terminal alkyne → precipitate (alcoholic NH₃ needed)
-- **Internal alkyne:** No acidic hydrogen; no silver precipitate
+Example: **CH₃–CH₂–CH=CH–CH₃** → **Pent-2-ene** (5 carbons, double bond at C2).
 
-### Reactions of Alkynes
+## Cracking and Reforming
 
-**1. Addition reactions (proceeds in two stages):**
-- **H₂ + Ni or Pt:** First adds to give alkene, then alkane
-- **H₂ + Lindlar's catalyst (Pd/CaCO₃ + quinoline):** Cis-alkene (syn addition)
-- **Na + NH₃ (liquid):** Trans-alkene (anti addition)
-- **Halogenation:** Br₂ adds across triple bond → dibromoalkene → tetra-bromoalkane
-
-**2. Oxidation:**
-- Hot KMnO₄ → carboxylic acids (or CO₂ from terminal alkyne)
-
-**3. Reaction with AgNO₃/CuCl:**
-- Terminal alkynes ONLY: RC≡CH + AgNO₃ → silver acetylide precipitate (white)
-- Internal alkynes: NO reaction
-
-## Degree of Unsaturation (DOU) — Critical Concept
-
-The degree of unsaturation tells you how many rings or multiple bonds are in a molecule:
-
-**DOU formula:**
-DOU = (2C + 2 – H – X + N) / 2
-
-Where C = carbons, H = hydrogens, X = halogens, N = nitrogens
-
-**Interpreting DOU:**
-- DOU = 0: Fully saturated alkane
-- DOU = 1: One double bond OR one ring
-- DOU = 2: Two double bonds OR one triple bond OR two rings OR one double bond + one ring
-- DOU ≥ 3: Three or more π bonds/rings combined
-
-**Example:** C₆H₁₂: DOU = (2×6 + 2 – 12)/2 = 1 → cyclohexane OR hexene
-
-## How to Approach Hydrocarbon Questions in SLMC
-
-1. **Find the molecular formula** → calculate DOU to determine type of unsaturation
-2. **Check saturation status** → use bromine water or KMnO₄ test
-3. **For alkenes** → check for cis-trans isomerism when both carbons of C=C have two different groups
-4. **For Markovnikov addition** → H goes to the carbon with MORE hydrogens already
-5. **For alkynes** → check if terminal (has acidic H, gives Ag/Cu precipitate) or internal
-
-⚡ **Exam tip:** Cycloalkanes (CₙH₂ₙ) and alkenes (CₙH₂ₙ) have the same molecular formula pattern but very different chemistry. Both have DOU = 1, but cycloalkanes undergo SUBSTITUTION reactions (like alkanes) while alkenes undergo ADDITION reactions. This is the most commonly confused point on the SLMC exam.
+**Cracking** breaks large alkanes into smaller, more useful alkanes and alkenes (thermal or catalytic). **Catalytic reforming** converts straight-chain alkanes to branched isomers (higher octane rating) — important in petroleum refining.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-**Hydrocarbons** — Comprehensive SLMC Medical (Sri Lanka) Notes
+## Mechanism of Free-Radical Halogenation in Alkanes
 
-## Reaction Mechanisms — Advanced
+The chlorination of methane proceeds via three stages:
+1. **Initiation:** UV light causes homolytic cleavage: **Cl₂ → 2Cl•**
+2. **Propagation:** Cl• abstracts H from CH₄ → CH₃• + HCl; then CH₃• reacts with Cl₂ → CH₃Cl + Cl• (chain continues)
+3. **Termination:** Two radicals combine: Cl• + Cl• → Cl₂; CH₃• + Cl• → CH₃Cl; CH₃• + CH₃• → C₂H₆
 
-### Electrophilic Addition to Alkenes
+Multiple substituted products (CH₃Cl, CH₂Cl₂, CHCl₃, CCl₄) form as the reaction progresses — this is why controlled conditions matter in SLMC questions.
 
-**Mechanism:** The π bond is a source of electrons → it attacks electrophiles.
+## Beyond Markovnikov — Anti-Markovnikov Addition
 
-1. **The π electrons form a bond with the electrophile (E⁺)** → a carbocation forms on the more substituted carbon (carbocation stability: tertiary > secondary > primary)
-2. **The nucleophile (Nu⁻) attacks the carbocation** → the addition product is formed
+In the presence of **peroxides** (R–O–O–R), HBr adds **anti-Markovnikov** to alkenes: Br attaches to the more substituted carbon. This is a **radical mechanism** contrasting with the standard electrophilic addition. peroxides acts as a "reverse" agent important for understanding why conditions change outcomes — a classic SLMC trap question.
 
-**Markovnikov's Rule explained:** The electrophile adds to the carbon that can form the more stable carbocation intermediate. More substituted carbocations are stabilized by hyperconjugation and inductive effects.
+## Polymerization — Ethene to Polythene
 
-**Carbocation rearrangements:** If a more stable carbocation can form via hydride or methyl shift, rearrangement occurs — leading to unexpected products.
+**Addition polymerization** links many unsaturated monomers into a polymer chain:
 
-### Free Radical Halogenation of Alkanes
+**n CH₂=CH₂ → [–CH₂–CH₂–]ₙ (polythene)**
 
-**Mechanism (homolytic fission):**
+The double bond breaks and each monomer contributes two carbon atoms to the polymer backbone. This reaction occurs under high pressure and temperature with a peroxide initiator.
 
-**Initiation:** Cl₂ → 2Cl• (UV light)
-**Propagation:** 
-  - CH₄ + Cl• → •CH₃ + HCl
-  - •CH₃ + Cl₂ → CH₃Cl + Cl•
-**Termination:**
-  - Cl• + Cl• → Cl₂
-  - •CH₃ + Cl• → CH₃Cl
-  - •CH₃ + •CH₃ → C₂H₆
+## Connecting to Adjacent Topics
 
-**Selectivity:** Chlorination of propane gives 2-chloropropane (secondary) preferentially over 1-chloropropane (primary) because the secondary radical is more stable.
+- **Environmental organic chemistry:** Hydrocarbons are precursors to **BTEX compounds** (benzene, toluene, ethylbenzene, xylene) found in petroleum pollution.
+- **Biochemistry link:** The hydrocarbon backbone of **fatty acids** (alkane chains) and the aromatic ring structure of **amino acid phenylalanine** extend hydrocarbon knowledge into biology.
+- **Medicinal chemistry:** Alkyl halides (from hydrocarbon substitution) are used as anaesthetics; aromatic hydrocarbons form steroid skeletons.
 
-### Polymerization
+## Common Mistakes in SLMC Exams
 
-**Addition polymerization:** Monomers with C=C double bonds link together without loss of atoms. Examples: polyethene (PE), polyvinyl chloride (PVC), polystyrene (PS).
+1. **Writing alkane reactions as addition** — remember: alkanes only undergo substitution. Writing CH₄ + Br₂ → CH₃Br + HBr as an addition reaction costs full marks.
+2. **Markovnikov misapplication** — only valid for electrophilic addition (HCl, H₂O, HBr without peroxides). Do not apply it to H₂ or catalytic hydrogenation.
+3. **Confusing structural isomers vs. stereoisomers** — hydrocarbons show only structural (chain, positional, functional group) isomerism at this level. No stereochemistry required for SLMC.
+4. **Forgetting to specify conditions** — UV light for alkane substitution, catalyst + heat for alkene addition, cold dilute vs. hot conc. KMnO₄ for alkenes. Missing conditions changes the product entirely.
 
-**Condensation polymerization:** Monomers link with loss of small molecules (e.g., water, HCl). Examples: nylon, terylene, Bakelite.
+## Practice Prompts
 
-## Conformations of Cyclohexane
+1. A hydrocarbon (C₄H₁₀) is subjected to catalytic cracking. Draw the possible products and identify which would decolourise bromine water. Explain your reasoning using the chemistry of C=C bonds.
 
-**Chair conformation:** Most stable; all bond angles ~109.5°; alternating axial (up/down) and equatorial (angled) positions. Substituents prefer equatorial positions (less steric strain).
+2. Compound X (C₃H₆) decolourises bromine water rapidly and gives a white precipitate with ammoniacal silver nitrate. Compound Y (C₃H₈) does not decolourise bromine water. Identify X and Y with equations. Classify each by hydrocarbon type and write the IUPAC name.
 
-**Boat conformation:** Less stable; flagpole interactions between two "flagpole" hydrogens on the bow and stern.
-
-**Substituent effects on cyclohexane:**
-- Axial substituents experience 1,3-diaxial steric strain (three large interactions)
-- Large substituents strongly prefer equatorial position
-
-## Aromatic Hydrocarbons (Arenes) — Brief Introduction
-
-Benzene (C₆H₆) is the simplest aromatic hydrocarbon:
-- **Aromaticity criteria:** Cyclic, planar, conjugated, (4n+2) π electrons (Hückel's rule)
-- Benzene: 6 π electrons (n=1) → highly stable
-- Electrophilic substitution reactions: nitration, halogenation, sulfonation, Friedel-Crafts alkylation
-- Does NOT undergo addition reactions easily (would lose aromaticity)
-
-## Common Mistakes in Hydrocarbon Problems
-
-1. **Confusing cycloalkanes with alkenes** — same formula (CₙH₂ₙ) but different reactions
-2. **Applying Markovnikov's rule to alkanes** — alkanes don't undergo addition reactions
-3. **Forgetting geometric isomerism rules** — cis-trans requires each C of double bond to have two different groups attached
-4. **Not calculating DOU first** — this single step prevents most errors in structure determination
-5. **Confusing Baeyer reagent (cold dilute KMnO₄) with hot KMnO₄** — cold gives diols, hot gives cleavage products
-
-## Practice Questions for SLMC
-
-1. "A compound C₄H₈ does not decolorize bromine water but reacts with Cl₂ in UV light. What is it?" → **Cyclobutane** (not an alkene)
-2. "Why is cyclopropane more reactive than cyclohexane?" → Angle strain (60° vs 109.5°)
-3. "What is the product of addition of HBr to propene?" → 2-bromopropane (Markovnikov)
-4. "Which alkene shows geometric isomerism: but-1-ene or but-2-ene?" → but-2-ene (both C=C carbons have two different groups)
-
----
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

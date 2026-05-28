@@ -50,7 +50,16 @@ export function isLowValueNote(
     typeof topicName === 'string' &&
     /^(Topic|Chapter|Unit|Section)\s+\d+/i.test(topicName.trim());
   const text = body ?? '';
-  const isThinBody = text.length < 2500;
+  // Body char floor: 3500 (~500 body words). AdSense 2026 reviewer rubric
+  // (eastondev / pubfuture / genieegroup 2026 corpora) treats <800 words as
+  // thin; on our content the chars-to-words ratio is ~7 so 3500 catches the
+  // <500-word FAIL tier and the worst of the THIN tier. Raised from the
+  // original 2500 char floor on 2026-05-28 evening after a 150-URL sample
+  // showed ~9% of indexed pages falling in the THIN/FAIL tier. NB: H2/H3
+  // structural-emptiness was considered but would have noindexed 1800+
+  // notes that use bold-as-heading rather than markdown `## ` — handled at
+  // render time by the note template's bold→h2 promotion instead.
+  const isThinBody = text.length < 3500;
   const isTemplatedFiller = FILLER_PATTERNS.some((re) => re.test(text));
   return isPlaceholderTopic || isThinBody || isTemplatedFiller || hasCjkContamination(text);
 }

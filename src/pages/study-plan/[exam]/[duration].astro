@@ -103,12 +103,61 @@ const courseJsonLd = {
   name: `${examName} ${durationLabel}`,
   description,
   provider: { '@type': 'Organization', '@id': `${SITE_URL}/#organization`, name: 'StudyRoadmap™', url: SITE_URL },
+  offers: {
+    '@type': 'Offer',
+    category: 'Free',
+    price: '0',
+    priceCurrency: 'INR',
+    availability: 'https://schema.org/InStock',
+    url: canonicalUrl,
+  },
   hasCourseInstance: {
     '@type': 'CourseInstance',
-    courseMode: 'online',
+    courseMode: 'Online',
     courseWorkload: `PT${totalDays}D`,
+    instructor: { '@type': 'Organization', name: 'StudyRoadmap', url: SITE_URL },
   },
   isPartOf: { '@type': 'Course', '@id': `${SITE_URL}/exams/${exam.examId}/#course`, name: `${examName} Study Roadmap`, url: `${SITE_URL}/exams/${exam.examId}/` },
+};
+
+const subjectsCovered = Object.keys(bySubject).slice(0, 4).join(', ');
+const faqJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: `How long should I study daily for ${examName} in the ${durationLabel}?`,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: `For the ${durationLabel} (${totalDays} day${totalDays === 1 ? '' : 's'} total), allocate ${totalDays >= 90 ? '3–4' : totalDays >= 30 ? '4–6' : '6–8'} focused study hours per day. Use the daily topic schedule below — each day's load is calibrated to topic weight and your remaining timeline.`,
+      },
+    },
+    {
+      '@type': 'Question',
+      name: `What subjects does this ${examName} study plan cover?`,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: `This ${durationLabel} covers ${Object.keys(bySubject).length} subjects: ${subjectsCovered}${Object.keys(bySubject).length > 4 ? ', and more' : ''}. Topic order is weight-prioritised so the highest-yield material is covered first.`,
+      },
+    },
+    {
+      '@type': 'Question',
+      name: `Is this ${examName} ${durationLabel} free?`,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: `Yes — StudyRoadmap publishes every duration plan free, with no signup or paywall. The full ${totalDays}-day schedule, daily topics, and per-subject breakdown are all open-access on this page.`,
+      },
+    },
+    {
+      '@type': 'Question',
+      name: `Can I switch to a longer or shorter ${examName} plan?`,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: `Yes. Browse other available durations for ${examName} on the exam hub. Switching duration regenerates the daily topic schedule from the same syllabus, so progress concepts carry over.`,
+      },
+    },
+  ],
 };
 
 // Related durations
@@ -164,6 +213,7 @@ const siblingDurations = Object.keys(exam.durations || {})
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
   <script type="application/ld+json" set:html={JSON.stringify(howToJsonLd)} />
   <script type="application/ld+json" set:html={JSON.stringify(courseJsonLd)} />
+  <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
   <Navbar />
   <main id="main-content" class="flex-1">
 
@@ -245,7 +295,7 @@ const siblingDurations = Object.keys(exam.durations || {})
                 <div class="grid sm:grid-cols-3 gap-2">
                   {p.deliverables.map((d) => (
                     <div class="flex gap-2 items-start text-xs text-surface-700 dark:text-surface-300 bg-surface-50 dark:bg-surface-800/60 rounded-lg p-2.5">
-                      <svg class="w-3.5 h-3.5 mt-0.5 text-brand-500 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
+                      <svg aria-hidden="true" focusable="false" class="w-3.5 h-3.5 mt-0.5 text-brand-500 shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5"><path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7"/></svg>
                       <span>{d}</span>
                     </div>
                   ))}

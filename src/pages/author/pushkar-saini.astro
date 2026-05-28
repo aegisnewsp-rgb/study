@@ -1,0 +1,144 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Navbar from '../../components/Navbar.astro';
+import Footer from '../../components/Footer.astro';
+import { getCollection } from 'astro:content';
+import { isGoodNote } from '../../data/note-quality';
+import { ALL_EXAMS } from '../../data/exams';
+
+const SITE_URL = 'https://studyroadmap.in';
+const canonicalUrl = `${SITE_URL}/author/pushkar-saini/`;
+const currentYear = new Date().getUTCFullYear();
+
+// Build a recent-notes list as the author's article archive.
+const allNotes = await getCollection('notes');
+const indexableNotes = allNotes.filter(isGoodNote);
+const recentNotes = indexableNotes
+  .sort((a, b) => (a.id < b.id ? 1 : -1))
+  .slice(0, 24)
+  .map((n) => {
+    const [exam, subject, topic] = n.id.split('/');
+    return {
+      url: `/notes/${n.id}/`,
+      examName: n.data.examName || exam,
+      subjectName: n.data.subjectName || subject,
+      topicName: n.data.topicName || topic,
+    };
+  });
+
+const examCount = ALL_EXAMS.length;
+
+const title = `Pushkar Saini — Founder & Editor, StudyRoadmap™`;
+const description = `Pushkar Saini is the founder and editor of StudyRoadmap™ — a free study-plan generator covering ${examCount}+ competitive exams across India, Pakistan and Nigeria.`;
+
+const personJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  '@id': `${SITE_URL}/author/pushkar-saini/#person`,
+  name: 'Pushkar Saini',
+  url: canonicalUrl,
+  jobTitle: 'Founder & Editor',
+  email: 'mailto:pushkersaini@gmail.com',
+  description: 'Founder and editor of StudyRoadmap™ — competitive-exam syllabus analysis, AI-assisted note drafting, manual fact verification across notes for NEET, JEE, UPSC, MDCAT, JAMB and 125+ other exams.',
+  worksFor: {
+    '@type': 'Organization',
+    '@id': `${SITE_URL}/#organization`,
+    name: 'StudyRoadmap',
+    url: SITE_URL,
+  },
+  knowsAbout: [
+    'Competitive exam preparation',
+    'Curriculum design',
+    'Educational technology',
+    'Syllabus weightage analysis',
+    'AI-assisted educational content',
+  ],
+  sameAs: [`mailto:pushkersaini@gmail.com`],
+};
+
+const breadcrumbJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE_URL}/` },
+    { '@type': 'ListItem', position: 2, name: 'Author: Pushkar Saini', item: canonicalUrl },
+  ],
+};
+---
+
+<Layout title={title} description={description} canonical={canonicalUrl}>
+  <script type="application/ld+json" set:html={JSON.stringify(personJsonLd)} />
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
+  <Navbar />
+  <main id="main-content" class="flex-1">
+    <section class="bg-surface-50 dark:bg-surface-950 border-b border-surface-200 dark:border-surface-800">
+      <div class="container-page py-14 max-w-3xl mx-auto">
+        <p class="text-sm text-surface-500 uppercase tracking-wider mb-2">Author Profile</p>
+        <h1 class="heading-1 text-surface-900 dark:text-surface-50 mb-4">Pushkar Saini</h1>
+        <p class="text-lg text-surface-700 dark:text-surface-300">
+          Founder &amp; Editor — StudyRoadmap™
+        </p>
+      </div>
+    </section>
+
+    <section class="container-page py-12 max-w-3xl mx-auto">
+      <div class="prose prose-surface dark:prose-invert max-w-none">
+        <h2>About Pushkar</h2>
+        <p>
+          Pushkar Saini is the founder of StudyRoadmap™. He owns syllabus analysis,
+          exam-pattern research, and the editorial gate that validates every note before
+          it ships to the live site. StudyRoadmap™ is the project of one founder and
+          uses AI-assisted research to scale syllabus coverage across 125+ competitive
+          exams, with manual editorial oversight on every indexed page.
+        </p>
+        <p>
+          Pushkar drives a multi-stage editorial pipeline that pairs AI-assisted research
+          and drafting with manual review, fact verification against official exam-board
+          syllabi, and editorial sign-off. The process is documented on the
+          <a href="/editorial-process/">Editorial Process</a> page.
+        </p>
+
+        <h2>Coverage</h2>
+        <p>
+          StudyRoadmap™ currently covers <strong>{examCount}+ competitive exams</strong>:
+          NEET, JEE Main, JEE Advanced, UPSC, SSC CGL, CAT, CLAT, NDA, UGC NET (India);
+          MDCAT, ECAT, NAT-I, LAT, HAT-UG (Pakistan); JAMB, WAEC, NECO, NABTEB, NCEE
+          (Nigeria); and growing coverage in Bangladesh, Sri Lanka, UAE, Kenya, Nepal,
+          and other markets.
+        </p>
+
+        <h2>Contact</h2>
+        <p>
+          Reach Pushkar by email at
+          <a href="mailto:pushkersaini@gmail.com">pushkersaini@gmail.com</a>
+          for editorial corrections, sourcing questions, or partnership enquiries. Bug
+          reports and feature suggestions are best filed via the
+          <a href="/feedback/">feedback form</a>.
+        </p>
+      </div>
+
+      <h2 class="text-2xl font-bold text-surface-900 dark:text-white mt-12 mb-4">Recent notes by Pushkar</h2>
+      <p class="text-sm text-surface-600 dark:text-surface-400 mb-6">
+        24 most recently shipped indexed notes (out of {indexableNotes.length} total). Each note has
+        passed manual editorial review against the published <a href="/editorial-process/" class="text-brand-600 dark:text-brand-400 hover:underline">editorial process</a>.
+      </p>
+      <ul class="grid sm:grid-cols-2 gap-3">
+        {recentNotes.map((n) => (
+          <li>
+            <a href={n.url} class="block p-4 rounded-lg border border-surface-200 dark:border-surface-800 hover:border-brand-500 dark:hover:border-brand-500 transition-colors">
+              <span class="block text-sm font-medium text-surface-900 dark:text-white">{n.topicName}</span>
+              <span class="block text-xs text-surface-500 mt-1">{n.examName} · {n.subjectName}</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+
+      <div class="mt-8 text-center">
+        <a href="/notes/" class="inline-block px-5 py-2.5 rounded-lg bg-brand-600 hover:bg-brand-700 text-white text-sm font-medium">
+          Browse all {indexableNotes.length} indexed notes →
+        </a>
+      </div>
+    </section>
+  </main>
+  <Footer />
+</Layout>

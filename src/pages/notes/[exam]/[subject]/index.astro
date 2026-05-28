@@ -38,7 +38,7 @@ const _descRaw = `Free ${subjectName} study notes for ${examName}. ${subjectNote
 const description = _descRaw.length > 160 ? _descRaw.slice(0, 157) + '...' : _descRaw;
 const canonicalUrl = `https://studyroadmap.in/notes/${exam}/${subject}`;
 const siteUrl = 'https://studyroadmap.in';
-const authorObj = { name: "StudyRoadmap Editorial Team", jobTitle: "Curriculum Editors", affiliation: "StudyRoadmap", url: "https://studyroadmap.in/about" };
+const authorObj = { name: "Pushkar Saini", jobTitle: "Founder & Editor", affiliation: "StudyRoadmap", url: "https://studyroadmap.in/author/pushkar-saini/" };
 const _candidateOg = `/og-notes/subject-${exam}-${subject}.jpg`;
 const ogImage = fs.existsSync(path.join(process.cwd(), 'public', _candidateOg))
   ? _candidateOg

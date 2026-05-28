@@ -319,6 +319,27 @@ grep -qiE 'editorial|editor|team' "$TMP/about.html" && score "eeat.editorial-dis
 DISC=$(curl -so /dev/null -w "%{http_code}" "$BASE/disclaimer/")
 [ "$DISC" = "200" ] && score "eeat.disclaimer-page" "1" "100" "disclaimer page 200" || score "eeat.disclaimer-page" "1" "0" "disclaimer $DISC"
 
+# Round-4: named author + author archive + editorial-process + external citation + no-dead-social
+# Named real author byline (not generic "Editorial Team") on note page
+echo "$NOTE_HTML" | grep -qE 'Pushkar Saini' && score "eeat.named-author-byline" "2" "100" "named author byline on note" || score "eeat.named-author-byline" "2" "0" "generic byline only"
+# Author archive page exists with Person schema
+AUTH=$(curl -s "$BASE/author/pushkar-saini/")
+echo "$AUTH" | grep -q '"@type":"Person"' && score "eeat.author-archive-page" "1" "100" "author archive + Person schema" || score "eeat.author-archive-page" "1" "0" "author archive missing or no Person schema"
+# Editorial-process page exists with methodology
+EPROC=$(curl -s "$BASE/editorial-process/")
+if echo "$EPROC" | grep -qiE 'research.*draft.*verify.*curate|fact-verify'; then
+  score "eeat.editorial-process-page" "2" "100" "editorial-process documents pipeline"
+else
+  score "eeat.editorial-process-page" "2" "0" "editorial-process missing or thin"
+fi
+# External authoritative citation present on note (Sources section)
+echo "$NOTE_HTML" | grep -qE 'Sources.*verification|Authoritative source|officialSource|target="_blank"[^>]*rel=' && score "eeat.external-citation" "2" "100" "external authoritative source on note" || score "eeat.external-citation" "2" "0" "no external citation"
+# Organization schema sameAs is empty OR contains only verifiable URLs (no dead Twitter/LinkedIn)
+SAMEAS=$(grep -oE '"sameAs":\[[^]]*\]' "$TMP/home.html" | head -1)
+DEAD_SOCIAL=0
+echo "$SAMEAS" | grep -qE 'twitter\.com/studyroadmap|linkedin\.com/company/studyroadmap|instagram\.com/studyroadmap' && DEAD_SOCIAL=1
+[ "$DEAD_SOCIAL" = "0" ] && score "eeat.no-dead-social" "1" "100" "no dead social URLs in schema" || score "eeat.no-dead-social" "1" "0" "dead social URLs still claimed"
+
 # ─────────────────────────────────────────────────────────────────────
 # 13. ADS.TXT + ADSENSE SETUP (weight 4)
 # ─────────────────────────────────────────────────────────────────────

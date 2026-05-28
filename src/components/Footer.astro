@@ -32,6 +32,7 @@ const footerGroups = [
             { label: 'Privacy Policy', href: '/privacy/' },
             { label: 'Terms of Service', href: '/terms/' },
             { label: 'Disclaimer', href: '/disclaimer/' },
+            { label: 'Editorial Process', href: '/editorial-process/' },
         ],
     },
 ];
@@ -103,10 +104,13 @@ const footerGroups = [
             </p>
         </div>
 
-        <!-- Content review date for E-E-A-T -->
+        <!-- Editorial accountability strip — links published process + named editor for E-E-A-T -->
         <div class="text-center pb-2 mt-4">
             <p class="text-xs text-surface-400 dark:text-surface-500">
-                Content reviewed April 2026
+                Edited by <a href="/author/pushkar-saini/" class="hover:text-brand-600 dark:hover:text-brand-400 underline-offset-2 hover:underline" rel="author">Pushkar Saini</a>
+                &middot; reviewed on a rolling 90-day cycle &middot;
+                <a href="/editorial-process/" class="hover:text-brand-600 dark:hover:text-brand-400 underline-offset-2 hover:underline">editorial process</a>
+                &middot; last reviewed {new Date().toLocaleDateString('en-IN', { month: 'long', year: 'numeric' })}
             </p>
         </div>
     </div>

@@ -153,10 +153,12 @@ const currentYear = new Date().getFullYear();
             "logo": new URL('/favicon.svg', Astro.site).href,
             "description": "Free AI-powered study roadmap generator for competitive exams in India, Pakistan, Nigeria, Kenya, Bangladesh, UAE and 100+ countries.",
             "foundingDate": "2024",
-            "sameAs": [
-                "https://twitter.com/studyroadmap",
-                "https://www.linkedin.com/company/studyroadmap"
-            ],
+            "founder": {
+                "@type": "Person",
+                "name": "Pushkar Saini",
+                "url": "https://studyroadmap.in/about/",
+                "email": "pushkersaini@gmail.com"
+            },
             "address": {
                 "@type": "PostalAddress",
                 "addressCountry": "IN",

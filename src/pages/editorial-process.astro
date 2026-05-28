@@ -1,0 +1,163 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '../components/Navbar.astro';
+import Footer from '../components/Footer.astro';
+
+const SITE_URL = 'https://studyroadmap.in';
+const canonicalUrl = `${SITE_URL}/editorial-process/`;
+
+const title = 'Editorial Process — How StudyRoadmap™ Notes Are Written & Verified';
+const description = 'How StudyRoadmap™ writes and verifies its study notes: a four-stage research → draft → fact-verify → curate pipeline with named editorial ownership.';
+
+const breadcrumbJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE_URL}/` },
+    { '@type': 'ListItem', position: 2, name: 'Editorial Process', item: canonicalUrl },
+  ],
+};
+
+const techArticleJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'TechArticle',
+  headline: 'Editorial Process — How StudyRoadmap™ Notes Are Written & Verified',
+  description,
+  url: canonicalUrl,
+  mainEntityOfPage: canonicalUrl,
+  author: {
+    '@type': 'Person',
+    name: 'Pushkar Saini',
+    url: `${SITE_URL}/author/pushkar-saini/`,
+  },
+  publisher: {
+    '@type': 'Organization',
+    '@id': `${SITE_URL}/#organization`,
+    name: 'StudyRoadmap',
+    url: SITE_URL,
+  },
+  datePublished: '2026-05-28',
+  dateModified: new Date().toISOString(),
+};
+---
+
+<Layout title={title} description={description} canonical={canonicalUrl}>
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
+  <script type="application/ld+json" set:html={JSON.stringify(techArticleJsonLd)} />
+  <Navbar />
+  <main id="main-content" class="flex-1">
+    <section class="bg-surface-50 dark:bg-surface-950 border-b border-surface-200 dark:border-surface-800">
+      <div class="container-page py-14 max-w-3xl mx-auto">
+        <h1 class="heading-1 text-surface-900 dark:text-surface-50 mb-4">How StudyRoadmap™ Notes Are Written &amp; Verified</h1>
+        <p class="text-lg text-surface-700 dark:text-surface-300">
+          Every indexed page on StudyRoadmap™ passes a four-stage editorial pipeline before it goes live.
+          This page documents that pipeline, the AI-assistance policy, and how to report a correction.
+        </p>
+      </div>
+    </section>
+
+    <section class="container-page py-12 max-w-3xl mx-auto">
+      <div class="prose prose-surface dark:prose-invert max-w-none">
+
+        <h2>Editorial ownership</h2>
+        <p>
+          Editorial decisions on StudyRoadmap™ are owned by
+          <a href="/author/pushkar-saini/" rel="author">Pushkar Saini</a>, founder and editor.
+          Pushkar sets the syllabus-coverage policy, signs off the editorial gate criteria, and is the
+          contact for corrections (<a href="mailto:pushkersaini@gmail.com">pushkersaini@gmail.com</a>).
+        </p>
+
+        <h2>The four-stage pipeline</h2>
+        <p>
+          Every published note moves through four stages before it can be indexed:
+        </p>
+        <ol>
+          <li>
+            <strong>Research.</strong> Topic scope is derived from the official exam-board syllabus.
+            The research stage produces a concept tree: definitions, formulas, marking weight, and
+            common question patterns. AI tools assist with the initial concept extraction; the
+            output is treated as raw research material, never as the published note.
+          </li>
+          <li>
+            <strong>Draft.</strong> A full three-tier draft (🟢 Quick / 🟡 Standard / 🔴 Deep) is
+            produced from the research material. The draft is then checked for tier-balance,
+            topic alignment, and accurate use of formulas and named conventions.
+          </li>
+          <li>
+            <strong>Fact-verify.</strong> Numeric claims, marking percentages, regulatory references,
+            and named entities are checked against the relevant official source (exam-conducting
+            board, NCERT / NTA / JAMB / WAEC official syllabus PDFs, regulatory websites). Drafts
+            that fail this stage are rejected back to draft.
+          </li>
+          <li>
+            <strong>Curate.</strong> A final editorial gate enforces three additional criteria:
+            originality (no scaled / templated boilerplate), substance (minimum substantive content
+            threshold), and reviewer sign-off. A note that fails curate is not indexed.
+          </li>
+        </ol>
+
+        <h2>How AI is used</h2>
+        <p>
+          StudyRoadmap™ uses large-language-model tools to accelerate research extraction and
+          draft generation. AI is <strong>not</strong> the publisher of any note — every note
+          on the indexed site has passed the manual fact-verify and curate stages described above.
+          Notes that do not pass the editorial gate are kept out of the search index until
+          they are revisited.
+        </p>
+        <p>
+          We do not publish content that has not been through the gate. Pages that are flagged
+          as failing the substance threshold are marked <code>noindex</code> automatically and
+          are not surfaced in navigation or the sitemap.
+        </p>
+
+        <h2>Updates &amp; corrections</h2>
+        <p>
+          Every published note carries a visible last-updated date and an editor byline linking to
+          the <a href="/author/pushkar-saini/">author profile</a>. Notes are re-reviewed when:
+        </p>
+        <ul>
+          <li>The exam-conducting board publishes a syllabus revision or pattern change.</li>
+          <li>A reader flags a factual error via <a href="/feedback/">feedback form</a> or
+            <a href="mailto:pushkersaini@gmail.com">email</a>.</li>
+          <li>An internal audit (rolling, ~every 90 days) re-tests the page against the curate gate.</li>
+        </ul>
+
+        <h2>Sourcing policy</h2>
+        <p>
+          Where a note makes a specific factual claim (a marking weight, an eligibility cut-off, a
+          pattern change, a regulatory reference), the source is the official exam-conducting body
+          for that exam. The current list of cited boards includes NTA, CBSE, NBE, JEE Apex Board,
+          UPSC, IBPS, SSC, ICSI, ICAI, ICMAI (India); PMC, HEC, UHS, PPSC (Pakistan); JAMB, WAEC,
+          NECO, NABTEB, NUC (Nigeria); UGC, NUEPA, and the relevant national education ministries.
+        </p>
+        <p>
+          We do not cite community forums, Quora, Reddit, AI chat exports, or scraped
+          third-party blogs as authoritative sources.
+        </p>
+
+        <h2>Independence</h2>
+        <p>
+          StudyRoadmap™ is not affiliated with, endorsed by, or sponsored by any exam-conducting
+          body, university, coaching centre, or publisher. Every exam-board name and trademark on
+          the site is the property of the respective owner; we use them descriptively under
+          nominative fair use.
+        </p>
+        <p>
+          The site is fully free; there is no paid tier, no signup, and no upsell. Advertising
+          (when enabled) is served by third-party networks (e.g. Google AdSense); see our
+          <a href="/privacy/">privacy policy</a> and <a href="/terms/">terms of service</a> for
+          full disclosure.
+        </p>
+
+        <h2>Report a correction</h2>
+        <p>
+          The fastest way to flag a factual error: open the page where you found it, copy the
+          URL, and email <a href="mailto:pushkersaini@gmail.com">pushkersaini@gmail.com</a> with
+          one sentence describing the error. Corrections are typically actioned within 48 hours
+          and the updated note carries the new last-updated date.
+        </p>
+      </div>
+    </section>
+  </main>
+  <Footer />
+</Layout>

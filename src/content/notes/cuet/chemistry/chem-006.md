@@ -123,9 +123,9 @@ At absolute zero (0 K), a perfect crystalline substance has $S = 0$ J mol⁻¹ K
 
 **Spontaneity — Free Energy Criteria:**
 
-The combined first and second law: $dU = TdS - PdV$ (for a reversible process in a closed system). From $G = H - TS$: $dG = dH - TdS - SdT$. At constant $T$ and $P$: $dG = TdS - PdV - TdS = -PdV$... wait, let me redo:
+The combined first and second law for a reversible process in a closed system is $dU = TdS - PdV$. Starting from the definition $G = H - TS$, the differential is $dG = dH - TdS - SdT$. At constant temperature and pressure ($dT = 0$, $dP = 0$), this reduces to $dG = dH - TdS = (dU + PdV) - TdS$. Substituting $dU = TdS - PdV$ (the reversible-path value) gives $dG = (TdS - PdV) + PdV - TdS = 0$, which is the equilibrium condition.
 
-At constant $T$ and $P$: $dG = dH - TdS = (dU + PdV) - TdS = TdS - PdV + PdV - TdS = 0$ for reversible... Actually for any process: $dG \leq 0$ (spontaneous).
+For a general (possibly irreversible) process at constant $T$ and $P$, the second law requires $TdS \geq dq$, which leads to the working criterion $dG \leq 0$: the process is spontaneous when $dG < 0$ and at equilibrium when $dG = 0$. This is why Gibbs free energy is the natural spontaneity indicator at constant $T$ and $P$.
 
 **Thermodynamic Equilibrium:**
 At equilibrium, $\Delta G = 0$ and $K_{eq} = e^{-\Delta G^\circ/RT}$. van't Hoff equation: $\ln K_{eq} = -\Delta H^\circ/(RT) + \Delta S^\circ/R$. This gives $K$ at any temperature if $\Delta H^\circ$ and $\Delta S^\circ$ are known (assumed temperature-independent).

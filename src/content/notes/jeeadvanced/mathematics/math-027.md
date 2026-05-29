@@ -64,7 +64,7 @@ The geometric mean of $x$ and $y$ is $G = \sqrt{xy}$. For $n$ positive numbers, 
 The harmonic mean of $x$ and $y$ is $H = \frac{2xy}{x+y}$.
 
 **AM-GM-HM Inequality:**
-For positive numbers: $HM \leq GM \leq AM$, with equality when all numbers are equal.
+For positive numbers: $HM \leq GM \leq AM$, with equality when all numbers are equal. A useful corollary for two positive numbers is $G^2 = A \cdot H$, i.e. the geometric mean is itself the GM of the arithmetic and harmonic means.
 
 **Worked Examples:**
 
@@ -79,39 +79,21 @@ So $c = 2b - a$ and $d = b^2/a$.
 Pattern: $a_n = 2^n - 1$ (check: $2^1-1=1, 2^2-1=3, 2^3-1=7, 2^4-1=15, 2^5-1=31$).
 $S = \sum_{k=1}^{n} (2^k - 1) = \sum_{k=1}^{n} 2^k - \sum_{k=1}^{n} 1 = (2^{n+1} - 2) - n = 2^{n+1} - n - 2$.
 
-*Example 3 (JEE 2022):* If $a, b, c$ are in HP, prove that $a/b + b/c + c/a = 3 + (a/c + c/a)/2$.
+*Example 3:* If $a, b, c$ are in HP, prove that $\frac{b+a}{b-a} + \frac{b+c}{b-c} = 2$.
 
-From HP: reciprocals $1/a, 1/b, 1/c$ are in AP.
-So $\frac{2}{b} = \frac{1}{a} + \frac{1}{c} = \frac{a+c}{ac}$.
-Thus $2ac = b(a+c)$, or $b = \frac{2ac}{a+c}$.
+Since $a, b, c$ are in HP, their reciprocals $\frac{1}{a}, \frac{1}{b}, \frac{1}{c}$ are in AP. Hence
+$$\frac{2}{b} = \frac{1}{a} + \frac{1}{c} = \frac{a+c}{ac} \quad\Rightarrow\quad b = \frac{2ac}{a+c}.$$
 
-Left side: $\frac{a}{b} + \frac{b}{c} + \frac{c}{a} = \frac{a(a+c)}{2ac} + \frac{2ac}{c(a+c)} + \frac{c(a+c)}{2ac} = \frac{a+c}{2c} + \frac{2a}{a+c} + \frac{a+c}{2a}$.
+Treat the two terms separately. For the first term,
+$$\frac{b+a}{b-a} = \frac{\frac{2ac}{a+c} + a}{\frac{2ac}{a+c} - a} = \frac{2ac + a(a+c)}{2ac - a(a+c)} = \frac{a(a+3c)}{a(c-a)} = \frac{a+3c}{c-a}.$$
 
-Compute $\frac{a+c}{2c} + \frac{c+a}{2a} = \frac{a^2 + ac + ac + c^2}{2ac} = \frac{a^2 + 2ac + c^2}{2ac} = \frac{(a+c)^2}{2ac}$.
-And add $\frac{2a}{a+c}$:
-$LHS = \frac{(a+c)^2}{2ac} + \frac{2a}{a+c} = \frac{(a+c)^3 + 4a^2c}{2ac(a+c)}$.
+For the second term,
+$$\frac{b+c}{b-c} = \frac{\frac{2ac}{a+c} + c}{\frac{2ac}{a+c} - c} = \frac{2ac + c(a+c)}{2ac - c(a+c)} = \frac{c(3a+c)}{c(a-c)} = \frac{3a+c}{a-c}.$$
 
-Right side: $3 + \frac{1}{2}\left(\frac{a}{c} + \frac{c}{a}\right) = 3 + \frac{a^2 + c^2}{2ac} = \frac{6ac + a^2 + c^2}{2ac} = \frac{a^2 + 6ac + c^2}{2ac}$.
+Adding, and noting $\frac{1}{c-a} = -\frac{1}{a-c}$,
+$$\frac{a+3c}{c-a} + \frac{3a+c}{a-c} = \frac{-(a+3c) + (3a+c)}{a-c} = \frac{2a - 2c}{a-c} = 2.$$
 
-Are these equal? Let's check: $(a+c)^3 + 4a^2c = (a^3 + 3a^2c + 3ac^2 + c^3) + 4a^2c = a^3 + 7a^2c + 3ac^2 + c^3$.
-Numerator of RHS: $a^2 + 6ac + c^2$ times $(a+c)$ from the denominator's $(a+c)$... Actually we need common denominator $2ac(a+c)$.
-
-RHS needs to be expressed with $(a+c)$ factor: $\frac{a^2 + 6ac + c^2}{2ac} = \frac{(a+c)^3 + (a^2+6ac+c^2)(a+c) - (a+c)^3}{2ac(a+c)}$... messy.
-
-Let me verify with numbers: $a=1, c=4$, then $b = 2ac/(a+c) = 8/5$.
-LHS: $1/(8/5) + (8/5)/4 + 4/1 = 5/8 + 2/5 + 4 = 0.625 + 0.4 + 4 = 5.025$.
-RHS: $3 + (1/4 + 4)/2 = 3 + (0.25 + 4)/2 = 3 + 4.25/2 = 3 + 2.125 = 5.125$.
-Not equal! Let me recalculate.
-
-Oh wait, I made an error. Let me recompute LHS: $a/b + b/c + c/a = 1/(8/5) + (8/5)/4 + 4/1 = 5/8 + (8/5) \cdot (1/4) + 4 = 5/8 + 8/20 + 4 = 5/8 + 2/5 + 4 = 0.625 + 0.4 + 4 = 5.025$.
-
-RHS: $3 + (a/c + c/a)/2 = 3 + (1/4 + 4/1)/2 = 3 + (0.25 + 4)/2 = 3 + 4.25/2 = 3 + 2.125 = 5.125$.
-
-Hmm still off. Maybe the problem statement is different or I made an error in formula. Let's work directly from $b = 2ac/(a+c)$.
-
-Actually the identity may be $a/b + b/c + c/a = 3 + (a-c)^2/(ac)$ or something. Let me try a different approach.
-
-But for now let me provide the content with the correct mathematical treatment I can verify.
+This confirms the identity. The key step in any HP problem is converting to the equivalent AP statement about reciprocals before manipulating.
 
 ---
 
@@ -123,9 +105,11 @@ Series of form $a, (a+d)r, (a+2d)r^2, \ldots$
 
 Sum $S_n = a + (a+d)r + (a+2d)r^2 + \cdots + [a+(n-1)d]r^{n-1}$.
 
-To find sum: multiply by $r$, subtract, use geometric series formulas.
+To find the sum, multiply $S_n$ by $r$, subtract the shifted series from the original, and collect the resulting geometric series.
 
 $S_n = \frac{a - [a+(n-1)d]r^n}{1-r} + \frac{dr(1-r^{n-1})}{(1-r)^2}$.
+
+For $|r| < 1$, taking $n \to \infty$ gives $S_\infty = \frac{a}{1-r} + \frac{dr}{(1-r)^2}$.
 
 **Special Summation Techniques:**
 

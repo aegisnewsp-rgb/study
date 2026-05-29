@@ -106,7 +106,7 @@ The inclusion-exclusion principle also appears in counting problems. If you want
 - Common error: Including 0 in the first position (creating 4-digit numbers), or forgetting the divisibility-by-3 condition
 
 **Q3:** In how many ways can the letters of the word "TRIANGLE" be arranged such that no vowel occupies either the first or the last position?
-- Working: "TRIANGLE" has 8 letters: T,R,N,G,L,E,I,A — 6 consonants, 2 vowels (E,I,A — wait, E,I,A are vowels, so 3 vowels and 5 consonants T,R,N,G,L). Actually vowels: E, I, A = 3. Consonants: T, R, N, G, L = 5. First and last positions must be consonants: choose 2 from 5 consonants, arrange them = 5P2 = 20. Remaining 6 positions (middle 6 slots) filled by remaining 6 letters (3 consonants + 3 vowels) in 6! ways = 720. Total = 20 × 720 = 14,400.
+- Working: "TRIANGLE" has 8 letters: T, R, I, A, N, G, L, E — 5 consonants (T, R, N, G, L) and 3 vowels (I, A, E). First and last positions must be consonants: choose 2 from 5 consonants, arrange them = 5P2 = 20. Remaining 6 positions (middle 6 slots) filled by remaining 6 letters (3 consonants + 3 vowels) in 6! ways = 720. Total = 20 × 720 = 14,400.
 - Answer: **14,400**
 - Common error: Treating vowel/consonant positions as freely interchangeable rather than constrained
 

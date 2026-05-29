@@ -58,8 +58,8 @@ Mensuration is pure formula recall. The key challenge in SSC Tier 2 is not just 
 - Percentage increase in volume when side increases by x%: new volume = (1 + x/100)³ times old volume.
 
 ### Worked Example
-**Q:** A solid sphere of radius 6 cm is melted and recast into a cone of radius 6 cm and height 12 cm. Find the height of the cone. (π = 22/7)
-**Approach:** Volume of sphere = (4/3)π × 6³ = (4/3)π × 216 = 288π. Volume of cone = (1/3)π × 6² × 12 = (1/3)π × 36 × 12 = 144π. Since volume is the same: 288π = 144π? That doesn't work — the sphere volume is larger. Actually let me check: sphere volume = 4/3 × π × 216 = 904.78. Cone volume = 1/3 × π × 36 × 12 = 452.39. These are unequal. Let me reconsider the problem: Actually the problem states the sphere is melted into a cone — the numbers must work out. Perhaps the height is what we need to find: Volume of sphere = (4/3)π × 216 = 288π. For the cone: 288π = (1/3)π × 36 × h → 288 = 12h → h = 24 cm. Yes that's the correct approach: find h from equating volumes.
+**Q:** A solid sphere of radius 6 cm is melted and recast into a cone of base radius 6 cm. Find the height of the cone. (π = 22/7)
+**Approach:** Recasting conserves volume, so the volume of the sphere equals the volume of the cone. Volume of sphere = (4/3)π × 6³ = (4/3)π × 216 = 288π. Volume of cone = (1/3)π × 6² × h = 12πh. Equate the two: 288π = 12πh → h = 288/12 = **24 cm**. The technique is always to set the original volume equal to the new volume and solve for the unknown dimension.
 
 ### SSC Pattern / Tips
 - Wire reshaping problems: volume of wire (cylinder of very small radius) = πr² × length. When reshaped, equate volumes.
@@ -78,12 +78,12 @@ Mensuration is pure formula recall. The key challenge in SSC Tier 2 is not just 
 - **Hemisphere:** Volume = (2/3)πr³. Curved surface area = 2πr². Total surface area = 3πr² (includes base circle).
 - **Frustum of a Cone:** When a cone is sliced parallel to its base, the smaller cut-off top is also a smaller similar cone. Volume of frustum = (1/3)πh(r₁² + r₂² + r₁r₂) where r₁ and r₂ are radii of the two circular ends.
 - **Inscribed and Circumscribed Shapes:**
-  - Largest cylinder inside a sphere: diameter = sphere diameter, height = diameter. Volume = (2/3)πr³ × 2? Actually: cylinder with max volume inscribed in sphere of radius R: r = R/√2, h = R√2, volume = √2πR³.
-  - Largest sphere inside a cylinder: sphere diameter = cylinder diameter = cylinder's internal diameter.
+  - Largest cylinder inside a sphere: for the maximum-volume cylinder inscribed in a sphere of radius R, the cylinder has base radius r = R√(2/3) and height h = 2R/√3, giving maximum volume = (4/3√3)πR³.
+  - Largest sphere inside a cylinder: sphere diameter = cylinder's internal diameter, and the sphere fits only if cylinder height is at least that diameter.
 
 **Combination and Conversion Problems:**
 - When metal sheets are folded into open or closed cylinders, surface area changes but volume (of metal) stays same. The metal volume = area of sheet × thickness (usually negligible).
-- When wire is drawn (stretched) to reduce diameter, volume is constant: πr₁²L₁ = πr₂²L₂. The length changes inversely with the square of radius change.
+- When wire is drawn (stretched) to reduce diameter, volume is constant: πr₁²L₁ = πr₂²L₂. The length changes inversely with the square of the radius change.
 - For cone + hemisphere + cylinder (composite solid), add individual volumes.
 
 **Error in Approximation:** SSC uses π = 22/7 or 3.14 in most questions. If not specified, use 22/7 for calculations involving fractions of 7, and 3.14 otherwise.
@@ -97,7 +97,7 @@ Mensuration is pure formula recall. The key challenge in SSC Tier 2 is not just 
 
 ### High-Scoring Strategy
 1. For wire reshaping problems: write volume of original = volume of new, substitute, solve. Volume of cylinder = πr²L.
-2. For inscribed shapes, maximise volume by setting derivative to zero. For sphere inscribed in cone (minimum wastage): r/R = h/(h+something) — know the standard results.
+2. For inscribed shapes, maximise volume by setting the derivative to zero, or simply recall the standard results (largest cone in a sphere, largest cylinder in a cone).
 3. When comparing old and new area/volume after percentage change in dimensions, use the square/cube expansion: (1 ± x/100)² or ³.
 4. For composite solids, draw a rough sketch, label each component, calculate each volume separately, add.
 5. If a shape is painted both inside and outside with some thickness, use surface area × thickness for volume of paint.
@@ -106,8 +106,8 @@ Mensuration is pure formula recall. The key challenge in SSC Tier 2 is not just 
 **Q1:** A sphere of radius 6 cm is dropped into a cylindrical vessel of radius 6 cm containing water. By how much does the water level rise?
 Answer: 8 cm — Working: Volume of sphere = (4/3)π × 216 = 288π. Cylindrical cross-section area = π × 36 = 36π. Rise in water level = Volume / cross-section area = 288π / 36π = 8 cm.
 
-**Q2:** A wire of radius 2 mm is bent into a square. If the side of the square is 22 cm, find the radius of the wire when straightened.
-Answer: 0.5 mm — Working: Wire length = perimeter of square = 4 × 22 = 88 cm = 880 mm. Wire is cylindrical: length = 880 mm, volume = π × 4 × 880 = 3520π mm³. Volume = π × r² × 880 = 3520π → r² = 4 → r = 2 mm. Hmm that's the original radius. I need a different question. Let me try: Wire radius 2mm, bent into square of side 11cm: length = 4×11=44cm=440mm. 440mm of wire with radius 2mm → total wire volume = π×4×440 = 1760π mm³. If same wire is bent into circle, find radius: πr² × 440 = 1760π → r² = 4 → r = 2mm. That's also same. Let me use: A wire of radius r is bent into a circle of radius R. Find R in terms of r. Circumference = 2πR = 2πr × (length/r)... this is getting complex. Actually the question works if I set numbers differently.
+**Q2:** A wire of radius 2 mm is melted and recast into a thinner wire of radius 1 mm. If the original wire is 50 cm long, find the length of the new wire.
+Answer: 200 cm — Working: Volume is conserved, so π × r₁² × L₁ = π × r₂² × L₂. Here r₁ = 2 mm, L₁ = 50 cm, r₂ = 1 mm. So 2² × 50 = 1² × L₂ → 4 × 50 = L₂ → L₂ = 200 cm. The length grows by the square of the radius ratio: halving the radius quadruples the length.
 
 **Q3:** The radius of a sphere increases from 7 cm to 14 cm. Find the ratio of new volume to original volume.
 Answer: 8:1 — Working: Volume ∝ r³. New r = 2 × old r. New volume = 8 × old volume. Ratio = 8:1.

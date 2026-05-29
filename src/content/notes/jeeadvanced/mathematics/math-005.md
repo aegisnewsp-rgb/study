@@ -45,7 +45,7 @@ Equivalently: $\lim_{x \to a^-} f(x) = \lim_{x \to a^+} f(x) = f(a)$.
 
 ⚡ **JEE Tip:** To check continuity of $f(x) = \frac{g(x)}{h(x)}$ at $x=a$ where $h(a) = 0$, first check if $g(a) = 0$. If both are zero, factor and cancel, or use limit.
 
-⚡ **Common Mistake:** A function can be discontinuous even if its derivative exists (e.g., $f(x) = |x|$ is continuous but not differentiable at $0$ — actually check: $|x|$ IS continuous at $0$). Example of continuous but not differentiable: $f(x) = |x|$ at $0$ IS differentiable from neither side... wait, $f(x) = |x|$ is continuous at 0, derivative doesn't exist there. For a function that's continuous but not differentiable, think $f(x) = x^{1/3}$ at $0$ or the famous Weierstrass function (nowhere differentiable but continuous everywhere).
+⚡ **Common Mistake:** Continuity does not imply differentiability. A function can be continuous at a point yet fail to be differentiable there. The standard example is $f(x) = |x|$, which is continuous at $0$ but has no derivative at $0$ (the left-hand and right-hand slopes are $-1$ and $+1$). Other examples of continuous-but-not-differentiable functions include $f(x) = x^{1/3}$ at $0$ (vertical tangent) and the Weierstrass function, which is continuous everywhere but differentiable nowhere.
 
 ---
 

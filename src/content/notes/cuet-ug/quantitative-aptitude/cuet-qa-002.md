@@ -28,7 +28,7 @@ BODMAS is the rule that tells you which mathematical operation to perform first 
 
 ### 30-Second Example
 Q: Simplify 3 + 6 × (5 − 2)² ÷ √16
-A: **15** — (i) Brackets: (5−2)=3 → 3 + 6 × 3² ÷ √16. (ii) Orders: 3²=9, √16=4 → 3 + 6 × 9 ÷ 4. (iii) D/M: 6×9=54, 54÷4=13.5. (iv) A/S: 3+13.5=16.5 ≠ 15. Let me redo: 6×9=54, 54÷4=13.5, 3+13.5=16.5. Hmm — let me use a cleaner example: 3 + 6 × (5 − 2) = 3 + 6 × 3 = 3 + 18 = **21** (brackets first, then multiplication, then addition).
+A: **16.5** — (i) Brackets: (5−2)=3 → 3 + 6 × 3² ÷ √16. (ii) Orders: 3²=9, √16=4 → 3 + 6 × 9 ÷ 4. (iii) D/M left to right: 6×9=54, 54÷4=13.5 → 3 + 13.5. (iv) A/S: 3 + 13.5 = **16.5**.
 
 ### Must Remember
 - **Different brackets resolve in order:** parentheses () → braces {} → brackets [] — treat innermost first
@@ -152,7 +152,7 @@ Working: Inner brackets: (3 − 2) = 1. Then {5 − 1} = 4. Then [24 ÷ 4] = 6. 
 Answer: **12**
 
 **Q2:** Find the value of 5 × { [ (2³ + 3²) ÷ 7 ] − √16 }
-Working: Orders: 2³ = 8, 3² = 9, so (8 + 9) = 17. 17 ÷ 7 = not clean — let's keep it as fraction first. √16 = 4. So inside: (17 ÷ 7) − 4 = (17/7) − (28/7) = (17−28)/7 = −11/7. Then 5 × (−11/7) = −55/7 = **−7.86** (or −55/7 as fraction).
+Working: Orders: 2³ = 8, 3² = 9, so (8 + 9) = 17. Keep 17 ÷ 7 as the fraction 17/7. √16 = 4. So inside: (17 ÷ 7) − 4 = (17/7) − (28/7) = (17−28)/7 = −11/7. Then 5 × (−11/7) = −55/7 = **−7.86** (or −55/7 as fraction).
 Answer: **−55/7**
 
 ### Tricky Cases

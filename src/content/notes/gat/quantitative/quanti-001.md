@@ -246,16 +246,11 @@ Answer: 9900
    divisible by 17 is:
    (a) 884 (b) 867 (c) 952 (d) 999
    
-   Answer: (b) 867
-   Solution: Smallest 3-digit = 102 (17×6)
-             Largest 3-digit = 986 (17×58)
-             Difference = 986 - 102 = 884
-             (Wait, let me recalculate)
-             Smallest 3-digit divisible by 17: 17×6 = 102 ✓
+   Answer: (a) 884
+   Solution: Smallest 3-digit divisible by 17: 17×6 = 102 ✓
              Largest 3-digit divisible by 17: 17×58 = 986
-             17×59 = 1003 (4-digit)
+             (17×59 = 1003, which is a 4-digit number)
              Difference = 986 - 102 = 884
-             Answer should be (a) 884
 
 3. How many prime numbers are between 1 and 50?
    (a) 14 (b) 15 (c) 16 (d) 17

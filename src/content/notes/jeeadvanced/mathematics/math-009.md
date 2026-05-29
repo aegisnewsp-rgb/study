@@ -88,8 +88,7 @@ Equating coefficients: $x^2$: $1 = A+B$, constant: $1 = 3A$.
 So $A = 1/3$, and $B = 1 - 1/3 = 2/3$. $C = 0$.
 Thus $\int \frac{x^2+1}{x^3+3x} dx = \int \frac{1/3}{x} dx + \int \frac{(2/3)x}{x^2+3} dx = \frac{1}{3}\ln|x| + \frac{1}{3}\ln|x^2+3| + C = \frac{1}{3}\ln|x(x^2+3)| + C$.
 
-Wait, checking: $\int \frac{Bx}{x^2+3} dx = \frac{B}{2}\ln|x^2+3|$.
-So with $B=2/3$: $\frac{2}{3} \cdot \frac{1}{2} = 1/3$. ✓.
+Here $\int \frac{Bx}{x^2+3} dx = \frac{B}{2}\ln|x^2+3|$, so with $B=2/3$ the coefficient is $\frac{2}{3} \cdot \frac{1}{2} = \frac{1}{3}$, confirming the result.
 
 *Example 2 (JEE 2022):* Evaluate $\int \sin(\ln x) dx$.
 
@@ -143,8 +142,7 @@ This is expressible in elementary functions when:
 
 *Problem (JEE Advanced 2023):* Evaluate $\int \frac{\cos^6 x}{\sin^2 x} dx$.
 
-Simplify: $\frac{\cos^6 x}{\sin^2 x} = \frac{(1-\sin^2 x)^3}{\sin^2 x}$ using $\cos^2 x = 1 - \sin^2 x$?
-No: $\cos^6 x = (\cos^2 x)^3 = (1-\sin^2 x)^3$.
+Simplify using $\cos^2 x = 1 - \sin^2 x$, so $\cos^6 x = (\cos^2 x)^3 = (1-\sin^2 x)^3$.
 So integrand $= \frac{(1-\sin^2 x)^3}{\sin^2 x} = \frac{1 - 3\sin^2 x + 3\sin^4 x - \sin^6 x}{\sin^2 x} = \csc^2 x - 3 + 3\sin^2 x - \sin^4 x$.
 
 So $\int \csc^2 x dx - 3\int dx + 3\int \sin^2 x dx - \int \sin^4 x dx$.

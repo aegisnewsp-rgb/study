@@ -94,7 +94,7 @@ For endothermic (ΔH° > 0): Increasing T → K increases (more product)
 
 **Effect of inert gas at constant volume**: No effect on K or equilibrium composition (partial pressures of all components remain same since total moles unchanged, volume unchanged).
 
-**Effect of inert gas at constant pressure**: Equilibrium shifts toward more moles of gas (because adding inert gas at constant P means V must increase, reducing all partial pressures equally, so Q = K and the system must shift to keep Q = K — actually check: for PCl₅ ⇌ PCl₃ + Cl₂, Q = P_PCl₃·P_Cl₂/P_PCl₅ = (n_PCl₃·n_Cl₂/n_PCl₅)·(P_total/V)... this gets complex. For most exam purposes: inert gas at constant V → no effect; inert gas at constant P → shifts toward more moles).
+**Effect of inert gas at constant pressure**: Equilibrium shifts toward the side with more moles of gas. Adding inert gas at constant total pressure forces the volume to increase, which lowers the partial pressure of every reacting species equally. For a reaction with Δn > 0, this makes Q fall below K, so the system shifts forward (toward more gas moles) to restore Q = K. Summary: inert gas at constant V → no effect on equilibrium composition; inert gas at constant P → shifts toward the side with more gas moles.
 
 **4. Reaction Quotient Q — Identifying Direction of Shift**
 
@@ -190,8 +190,8 @@ This extends beyond JEE scope but provides the theoretical basis for why Le Chat
 **5. Equilibrium in Heterogeneous Systems — Detailed Examples**
 
 **Example 1**: C(s) + H₂O(g) ⇌ CO(g) + H₂(g)
-K_c = [CO][H₂O]/[H₂O] = [CO][H₂]/[H₂] — wait, carefully:
-Actually: K_c = [CO][H₂]/[H₂O] (C is solid, omitted)
+Carbon is a pure solid and is omitted from the expression:
+K_c = [CO][H₂]/[H₂O]
 K_p = P_CO · P_H₂ / P_H₂O
 
 **Example 2**: NH₄HS(s) ⇌ NH₃(g) + H₂S(g)

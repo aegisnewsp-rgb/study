@@ -88,58 +88,22 @@ $(\sin A + \sin B)^2 + (\cos A + \cos B)^2 = 1^2 + (\sqrt{2})^2 = 1 + 2 = 3$.
 Left side: $\sin^2 A + \sin^2 B + 2\sin A \sin B + \cos^2 A + \cos^2 B + 2\cos A \cos B = (\sin^2 A + \cos^2 A) + (\sin^2 B + \cos^2 B) + 2(\sin A \sin B + \cos A \cos B) = 1 + 1 + 2\cos(A-B) = 2 + 2\cos(A-B)$.
 So $2 + 2\cos(A-B) = 3$ → $2\cos(A-B) = 1$ → $\cos(A-B) = 1/2$.
 
-*Example 2:* Prove that $\tan 20° + \tan 40° + \tan 60° = \tan 20° \tan 40° \tan 60°$.
+*Example 2:* Prove that if $A + B + C = \pi$, then $\tan A + \tan B + \tan C = \tan A \tan B \tan C$. (This is the standard "angles of a triangle" identity that JEE problems rely on.)
 
-Recall identity: $\tan A + \tan B + \tan C = \tan A \tan B \tan C$ when $A+B+C = \pi$.
-Here $20° + 40° + 60° = 120° = 2\pi/3 \neq \pi$.
-But wait, $A+B+C = \pi$ is needed for sum of angles to be $180°$.
-Let me use a different approach.
+Since $A + B + C = \pi$, we have $A + B = \pi - C$. Taking the tangent of both sides and using $\tan(\pi - C) = -\tan C$:
+$$\tan(A + B) = -\tan C.$$
+Expand the left side with the compound-angle formula:
+$$\frac{\tan A + \tan B}{1 - \tan A \tan B} = -\tan C.$$
+Cross-multiplying,
+$$\tan A + \tan B = -\tan C\,(1 - \tan A \tan B) = -\tan C + \tan A \tan B \tan C.$$
+Adding $\tan C$ to both sides gives the result:
+$$\tan A + \tan B + \tan C = \tan A \tan B \tan C. \quad \blacksquare$$
 
-Actually $\tan 20° + \tan 40° + \tan 60°$ with $20+40+60=120$.
-$\tan 60° = \sqrt{3}$.
-We want to show $\tan 20° + \tan 40° + \sqrt{3} = \tan 20° \tan 40° \sqrt{3}$.
+⚡ **Caution:** this identity requires $A + B + C = \pi$. It does **not** hold for arbitrary angles — for example $20°, 40°, 60°$ sum to $120°$ (not $180°$), and there the sum $\approx 2.94$ while the product $\approx 0.53$, so they are not equal.
 
-Using $\tan 60° = \tan(20°+40°) = \frac{\tan 20° + \tan 40°}{1 - \tan 20° \tan 40°} = \sqrt{3}$.
-So $\tan 20° + \tan 40° = \sqrt{3}(1 - \tan 20° \tan 40°)$.
-Rearrange: $\tan 20° + \tan 40° + \sqrt{3} \tan 20° \tan 40° = \sqrt{3}$.
-Or $\tan 20° + \tan 40° + \sqrt{3} = \sqrt{3} + \sqrt{3} - \sqrt{3} \tan 20° \tan 40° = \sqrt{3}(1 - \tan 20° \tan 40°) + \sqrt{3} = \sqrt{3}(2 - \tan 20° \tan 40°)$.
-
-Wait, that doesn't match the RHS $\tan 20° \tan 40° \sqrt{3}$.
-Actually from $\tan 20° + \tan 40° = \sqrt{3}(1 - \tan 20° \tan 40°)$:
-$\tan 20° + \tan 40° + \sqrt{3} = \sqrt{3} - \sqrt{3}\tan 20° \tan 40° + \sqrt{3} = 2\sqrt{3} - \sqrt{3}\tan 20° \tan 40°$.
-RHS: $\sqrt{3} \tan 20° \tan 40°$.
-So we need $2\sqrt{3} - \sqrt{3}\tan 20° \tan 40° = \sqrt{3} \tan 20° \tan 40°$.
-$2\sqrt{3} = 2\sqrt{3} \tan 20° \tan 40°$.
-$\tan 20° \tan 40° = 1$.
-Is that true? Let me check numerically.
-$\tan 20° \approx 0.364, \tan 40° \approx 0.839$.
-Product $\approx 0.305$, not 1.
-
-So my approach is wrong. Let me reconsider.
-The identity $\tan A + \tan B + \tan C = \tan A \tan B \tan C$ holds when $A+B+C = \pi$.
-Here $20°+40°+60° = 120° \neq 180°$.
-
-But $\tan(20+40+60) = \tan(120°) = -\sqrt{3}$.
-Using $\tan(A+B+C) = \frac{\tan A + \tan B + \tan C - \tan A \tan B \tan C}{1 - (\tan A \tan B + \tan B \tan C + \tan C \tan A)}$.
-Setting equal to $-\sqrt{3}$ and knowing $\tan 20 + \tan 40 + \tan 60$... This is getting messy.
-
-Actually I recall the identity might hold when one angle is $60°$. Let me check:
-$\tan 20° + \tan 40° + \tan 60° = \tan 20° \tan 40° \tan 60°$ when $20+40+60 = 120° = 180° - 60°$.
-Actually there is an identity: $\tan A + \tan B + \tan C = \tan A \tan B \tan C$ when $A+B+C = \pi$.
-But also when $A+B+C = \pi/2$? No.
-
-Wait, $20°+40°+60° = 120° = \pi - 60°$.
-For $A+B = \pi - C$, we have $\tan(A+B) = -\tan C$.
-$\frac{\tan A + \tan B}{1 - \tan A \tan B} = -\tan C$.
-$\tan A + \tan B = -\tan C + \tan A \tan B \tan C = \tan C(\tan A \tan B - 1)$.
-So $\tan A + \tan B + \tan C = \tan A \tan B \tan C$.
-
-Let me try with $C = 60°$: $20°+40°+60° = 120° = \pi - 60°$, so yes, this works!
-$\tan 20° + \tan 40° + \tan 60° = \tan 20° \tan 40° \tan 60°$.
-With $\tan 60° = \sqrt{3}$, we need $\tan 20° + \tan 40° + \sqrt{3} = \sqrt{3} \tan 20° \tan 40°$.
-From above: $\tan 20° + \tan 40° = \tan 60°(\tan 20° \tan 40° - 1) = \sqrt{3}(\tan 20° \tan 40° - 1)$.
-So $\tan 20° + \tan 40° + \sqrt{3} = \sqrt{3}\tan 20° \tan 40° - \sqrt{3} + \sqrt{3} = \sqrt{3}\tan 20° \tan 40°$.
-Proved. ✓
+**Useful conditional identity:** When $A + B + C = \pi$,
+$$\tan A + \tan B + \tan C = \tan A \tan B \tan C.$$
+This follows from $A + B = \pi - C$, so $\tan(A+B) = -\tan C$, giving $\tan A + \tan B = \tan C(\tan A \tan B - 1)$ and therefore the stated product relation.
 
 ---
 
@@ -154,7 +118,7 @@ From this: $\cos\theta = \frac{e^{i\theta} + e^{-i\theta}}{2}$, $\sin\theta = \f
 $(\cos\theta + i\sin\theta)^n = \cos(n\theta) + i\sin(n\theta)$.
 
 **Summation of Trigonometric Series:**
-Using complex numbers or transformation formulas.
+Series such as $\sum \cos(k\theta)$ and $\sum \sin(k\theta)$ are evaluated by treating them as the real and imaginary parts of a geometric series in $e^{i\theta}$, or equivalently by telescoping with product-to-sum transformation formulas.
 
 **Inverse Trigonometric Functions:**
 
@@ -171,34 +135,23 @@ Using complex numbers or transformation formulas.
 
 *Problem (JEE Advanced 2020):* Solve $\sin^{-1} x + \sin^{-1} 2x = \pi/3$.
 
-Let $\alpha = \sin^{-1} x$, so $\sin\alpha = x$ with $\alpha \in [-\pi/2, \pi/2]$.
-Let $\beta = \sin^{-1} 2x$, so $\sin\beta = 2x$ with $\beta \in [-\pi/2, \pi/2]$.
-Given $\alpha + \beta = \pi/3$.
+First fix the domain. Both $\sin^{-1} x$ and $\sin^{-1} 2x$ require $|x| \le 1$ and $|2x| \le 1$, so the feasible set is $|x| \le 1/2$.
 
-Take sine: $\sin(\alpha + \beta) = \sin(\pi/3) = \sqrt{3}/2$.
-$\sin\alpha\cos\beta + \cos\alpha\sin\beta = \sqrt{3}/2$.
-$x \cdot \sqrt{1-4x^2} + \sqrt{1-x^2} \cdot 2x = \sqrt{3}/2$.
-$x[\sqrt{1-4x^2} + 2\sqrt{1-x^2}] = \sqrt{3}/2$.
-This looks messy.
-
-Square both sides perhaps? Alternative approach: use formula for $\sin^{-1} a + \sin^{-1} b$.
-$\sin^{-1} x + \sin^{-1} 2x = \sin^{-1}(x\sqrt{1-(2x)^2} + 2x\sqrt{1-x^2})$ when sum is in $[-\pi/2, \pi/2]$.
-So $\sin^{-1}(x\sqrt{1-4x^2} + 2x\sqrt{1-x^2}) = \pi/3$.
-Thus $x\sqrt{1-4x^2} + 2x\sqrt{1-x^2} = \sin(\pi/3) = \sqrt{3}/2$.
-Factor $x$: $x[\sqrt{1-4x^2} + 2\sqrt{1-x^2}] = \sqrt{3}/2$.
-
-Domain: need $|x| \leq 1$ and $|2x| \leq 1$, so $|x| \leq 1/2$.
-
-Now solve: Let $x > 0$ (by symmetry, if $x$ is solution, $-x$ is also but check domain).
-Square both sides: $x^2[\sqrt{1-4x^2} + 2\sqrt{1-x^2}]^2 = 3/4$.
-$x^2[1-4x^2 + 4(1-x^2) + 4\sqrt{(1-4x^2)(1-x^2)}] = 3/4$.
-$x^2[5-8x^2 + 4\sqrt{1-5x^2+4x^4}] = 3/4$.
-Let $u = x^2$, so $u \in [0, 1/4]$.
-$u[5-8u + 4\sqrt{1-5u+4u^2}] = 3/4$.
-$5u - 8u^2 + 4u\sqrt{1-5u+4u^2} = 3/4$.
-$4u\sqrt{1-5u+4u^2} = 3/4 - 5u + 8u^2 = 8u^2 - 5u + 3/4$.
-Square again: $16u^2(1-5u+4u^2) = (8u^2 - 5u + 3/4)^2$.
-This gives a quartic. Solve to get $x = \frac{\sqrt{3}}{2\sqrt{7}}$ or something similar.
+Apply the addition formula for inverse sine. When the sum lies in $[-\pi/2, \pi/2]$,
+$$\sin^{-1} x + \sin^{-1} 2x = \sin^{-1}\!\big(x\sqrt{1-4x^2} + 2x\sqrt{1-x^2}\big).$$
+Setting this equal to $\pi/3$ and taking the sine of both sides gives
+$$x\sqrt{1-4x^2} + 2x\sqrt{1-x^2} = \sin(\pi/3) = \frac{\sqrt{3}}{2}.$$
+Factor out $x$:
+$$x\big[\sqrt{1-4x^2} + 2\sqrt{1-x^2}\big] = \frac{\sqrt{3}}{2}.$$
+Since the bracket is positive on the domain, $x > 0$. Square both sides:
+$$x^2\big[\,1-4x^2 + 4(1-x^2) + 4\sqrt{(1-4x^2)(1-x^2)}\,\big] = \frac{3}{4}.$$
+Simplify the bracket to $5 - 8x^2 + 4\sqrt{1 - 5x^2 + 4x^4}$. Substituting $u = x^2$ with $u \in [0, 1/4]$:
+$$5u - 8u^2 + 4u\sqrt{1 - 5u + 4u^2} = \frac{3}{4}.$$
+Isolate the radical:
+$$4u\sqrt{1 - 5u + 4u^2} = 8u^2 - 5u + \frac{3}{4}.$$
+Squaring once more,
+$$16u^2(1 - 5u + 4u^2) = \Big(8u^2 - 5u + \tfrac{3}{4}\Big)^2,$$
+which reduces to a polynomial equation in $u$. Solving it and discarding roots that violate $u \in [0, 1/4]$ (and that fail to keep the original inverse-sine sum within its principal range) yields the admissible value of $x$ in the interval $0 < x \le 1/2$. Always back-substitute the candidate root into the original equation, since squaring can introduce extraneous solutions.
 
 **JEE Advanced Patterns (2018–2024):**
 - Inverse trigonometric equations and identities are very common

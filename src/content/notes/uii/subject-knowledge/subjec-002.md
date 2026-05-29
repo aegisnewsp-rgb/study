@@ -84,9 +84,13 @@ While the fundamental theorem states that a polynomial of degree n has exactly n
 
 Translating word problems into algebraic equations is a critical skill. Consider: "The sum of three times a number and 17 is 74. What is the number?" Translation: 3x + 17 = 74 → 3x = 57 → x = 19.
 
-More complex example: "A father is four times as old as his son. In 20 years, he will be twice as old. Find their current ages." Let son's age = x, father's age = 4x. In 20 years: 4x + 20 = 2(x + 20) → 4x + 20 = 2x + 40 → 2x = 20 → x = 20. Son is 20, father is 80.
+More complex example: "A father is four times as old as his son. In 20 years, he will be twice as old as his son. Find their current ages."
 
-Check: In 20 years, son is 40, father is 100. Father is 2.5 times, not twice. Wait — let me recalculate: 4x + 20 = 2(x + 20) → 4x + 20 = 2x + 40 → 2x = 20 → x = 10. Son is 10, father is 40. In 20 years: son 30, father 60. Yes, father is twice son's age. Correct.
+Let the son's current age be x, so the father's current age is 4x. In 20 years the son is x + 20 and the father is 4x + 20, and the father is then twice as old as the son:
+
+4x + 20 = 2(x + 20) → 4x + 20 = 2x + 40 → 2x = 20 → x = 10.
+
+So the son is currently 10 and the father is 40. Verification: in 20 years the son is 30 and the father is 60, and 60 = 2 × 30, confirming the father is twice the son's age. When checking age problems, always substitute the future ages back into the original condition.
 
 **Partial Fractions**
 

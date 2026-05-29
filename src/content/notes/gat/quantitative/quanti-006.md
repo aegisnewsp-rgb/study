@@ -88,9 +88,10 @@ Example 2: 12 workers can complete a project in 18 days. After 6 days,
 6 more workers join. How many more days needed?
 
 Solution:
+Total work = 12 × 18 = 216 man-days
 Work done in 6 days = 12 × 6 = 72 man-days
-Remaining work = 180 - 72 = 108 man-days
-With 18 workers: 108/18 = 6 more days
+Remaining work = 216 - 72 = 144 man-days
+With 18 workers: 144/18 = 8 more days
 ```
 
 #### Pipes and Cisterns
@@ -153,83 +154,15 @@ Days needed = (3/4)/(1/40) = 30 days
 #### GAT-Style Practice Questions
 
 ```
-1. A and B can do a work in 8 and 12 days respectively. They work
+1. A and B can do a work in 6 and 12 days respectively. They work
    together for 3 days. How much work is left?
    (a) 1/3 (b) 1/4 (c) 1/2 (d) 5/12
 
    Answer: (b) 1/4
-   Solution: A's rate = 1/8, B's rate = 1/12
-             Combined = 1/8 + 1/12 = 5/24
-             3 days work = 15/24 = 5/8
-             Remaining = 1 - 5/8 = 3/8... 
-             Wait, let me recalculate
-             Actually: 5/24 × 3 = 15/24 = 5/8
-             Remaining = 1 - 5/8 = 3/8... 
-             Still not matching options.
-             
-             Let me check: 1/8 + 1/12 = (3+2)/24 = 5/24
-             3 days = 15/24 = 5/8 ✓
-             Remaining = 3/8
-             Not in options... Let me check again.
-             
-             Actually, let me recalculate properly:
-             Combined 3 days = 3 × (1/8 + 1/12) = 3 × (3+2)/24 = 3 × 5/24 = 15/24 = 5/8
-             Remaining = 3/8
-             
-             Hmm, 3/8 is not in the options. Let me see the question again.
-             If A works alone for some days...
-             Actually 1/4 = 6/24... not matching 5/8 = 15/24
-             
-             Let me try: (1 - 5/8) = 3/8 which is 9/24
-             Not matching any.
-             
-             Let me check my calculation once more:
-             1/8 + 1/12 = 3/24 + 2/24 = 5/24 per day
-             3 days = 15/24 = 5/8
-             Left = 3/8... hmm that's 9/24
-             
-             Wait, 1/4 = 6/24... not 15/24
-             
-             Let me reconsider: Did I make a calculation error?
-             Actually wait - the options are 1/3, 1/4, 1/2, 5/12
-             5/12 = 10/24
-             1/2 = 12/24
-             1/3 = 8/24
-             1/4 = 6/24
-             
-             My answer 15/24 = 5/8 is not there.
-             But 15/24 simplifies to 5/8...
-             
-             Let me try option (d) 5/12 = 10/24
-             1 - 10/24 = 14/24 = 7/12... not matching.
-             
-             I think there might be an issue with my calculation.
-             Let me recalculate:
-             A alone: 8 days
-             B alone: 12 days
-             Together in 1 day: 1/8 + 1/12 = 5/24
-             In 3 days: 15/24 = 5/8
-             Remaining: 3/8
-             
-             But the options don't have 3/8...
-             Perhaps the question was different.
-             
-             Let me just give the correct answer: 3/8, but since not in options,
-             let me check if the answer is 5/12...
-             
-             Actually let me try a different interpretation:
-             1 - 3 × (1/8 + 1/12) = 1 - 3 × 5/24 = 1 - 15/24 = 9/24 = 3/8
-             
-             Since 3/8 is not an option, perhaps the question was for 2 days?
-             1 - 2 × 5/24 = 1 - 10/24 = 14/24 = 7/12... no.
-             
-             For 4 days:
-             1 - 4 × 5/24 = 1 - 20/24 = 4/24 = 1/6... no.
-             
-             I'll go with 1/4 as closest if there was rounding, but
-             actual is 3/8. Let me state the correct answer anyway.
-             
-             Answer: 3/8 (not in options, but likely answer key error)
+   Solution: A's rate = 1/6, B's rate = 1/12
+             Combined rate = 1/6 + 1/12 = 2/12 + 1/12 = 3/12 = 1/4 per day
+             Work in 3 days = 3 × 1/4 = 3/4
+             Remaining = 1 - 3/4 = 1/4
 
 2. 15 men can complete a work in 12 days. How many days will 20 men
    take to complete the same work?

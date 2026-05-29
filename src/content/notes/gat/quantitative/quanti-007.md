@@ -209,37 +209,15 @@ Time = 400/2 = 200 seconds
    Answer: (a) 2 km/h
    Solution: S = (12 - 8)/2 = 2 km/h
 
-4. Two trains 150 m and 200 m long run at 60 km/h and 90 km/h respectively
+4. Two trains 175 m and 225 m long run at 50 km/h and 70 km/h respectively
    in opposite directions. Time to cross each other?
    (a) 8 seconds (b) 10 seconds (c) 12 seconds (d) 14 seconds
 
    Answer: (c) 12 seconds
-   Solution: Relative speed = 60 + 90 = 150 km/h = 150 × 5/18 = 41.67 m/s
-             Total length = 350 m
-             Time = 350/41.67 ≈ 8.4 seconds
-             Let me recalculate...
-             150 km/h = 41.67 m/s ✓
-             350/41.67 ≈ 8.4 seconds... not matching 12.
-             
-             Let me recalculate properly:
-             60 km/h = 16.67 m/s
-             90 km/h = 25 m/s
-             Relative = 41.67 m/s
-             350/41.67 = 8.4 sec
-             
-             Not matching. Let me try different interpretation.
-             Maybe they wanted the answer in different units.
-             Or maybe my calculation is off.
-             
-             Let me recalculate with fractions:
-             60 × 5/18 = 300/18 = 50/3 m/s
-             90 × 5/18 = 450/18 = 25 m/s
-             Total = 50/3 + 25 = (50+75)/3 = 125/3 m/s
-             350 ÷ (125/3) = 350 × 3/125 = 1050/125 = 8.4 seconds
-             
-             Still 8.4... not 12.
-             Perhaps the question had different numbers.
-             Let me give correct answer: 8.4 seconds
+   Solution: Relative speed = 50 + 70 = 120 km/h
+             Convert: 120 × 5/18 = 100/3 ≈ 33.33 m/s
+             Total length = 175 + 225 = 400 m
+             Time = 400 ÷ (100/3) = 400 × 3/100 = 12 seconds
 
 5. A car goes from A to B at 60 km/h and returns at 40 km/h. Find
    average speed for the round trip.

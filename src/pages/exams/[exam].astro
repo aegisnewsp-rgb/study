@@ -99,7 +99,7 @@ const howToJsonLd = {
       '@type': 'HowToStep',
       name: 'Step 1 — Generate your personalised roadmap',
       text: `Select "${examName}" on StudyRoadmap, choose your available preparation time, and get an instant AI-generated study plan prioritised by topic weightage for ${examName}.`,
-      url: `${SITE_URL}/roadmap?exam=${exam.examId}`,
+      url: `${SITE_URL}/roadmap/?exam=${exam.examId}`,
     },
     {
       '@type': 'HowToStep',
@@ -111,7 +111,7 @@ const howToJsonLd = {
       '@type': 'HowToStep',
       name: 'Step 3 — Track progress and revise',
       text: `Mark topics as completed in your roadmap. The AI roadmap adapts to your pace and ensures you cover all high-weightage topics before exam day.`,
-      url: `${SITE_URL}/roadmap?exam=${exam.examId}`,
+      url: `${SITE_URL}/roadmap/?exam=${exam.examId}`,
     },
   ],
 };
@@ -421,7 +421,7 @@ const wikiCitations = EXAM_WIKI_CITATIONS[exam.examId] || [];
 
         <div class="flex flex-wrap gap-3">
           <a
-            href={`${SITE_URL}/roadmap?exam=${exam.examId}`}
+            href={`${SITE_URL}/roadmap/?exam=${exam.examId}`}
             class="group inline-flex items-center gap-2 bg-gradient-to-r from-brand-600 to-brand-500 hover:from-brand-700 hover:to-brand-600 text-white font-bold px-6 py-3 rounded-xl transition-all shadow-lg shadow-brand-500/20 hover:shadow-xl hover:shadow-brand-500/30"
           >
             <svg aria-hidden="true" focusable="false" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/></svg>
@@ -497,7 +497,7 @@ const wikiCitations = EXAM_WIKI_CITATIONS[exam.examId] || [];
         </div>
         <div class="mt-6 text-center">
           <a
-            href={`${SITE_URL}/roadmap?exam=${exam.examId}`}
+            href={`${SITE_URL}/roadmap/?exam=${exam.examId}`}
             class="inline-flex items-center gap-2 text-brand-600 dark:text-brand-400 font-semibold hover:underline"
           >
             Generate your personalised {examName} roadmap →
@@ -521,14 +521,14 @@ const wikiCitations = EXAM_WIKI_CITATIONS[exam.examId] || [];
           <div class="flex flex-wrap gap-3">
             {durations.map((d: string) => (
               <a
-                href={`${SITE_URL}/roadmap?exam=${exam.examId}&duration=${d}`}
+                href={`${SITE_URL}/roadmap/?exam=${exam.examId}&duration=${d}`}
                 class="bg-white/10 hover:bg-white/20 text-white font-bold px-4 py-2 rounded-lg text-sm transition-colors"
               >
                 {d}
               </a>
             ))}
             <a
-              href={`${SITE_URL}/roadmap?exam=${exam.examId}`}
+              href={`${SITE_URL}/roadmap/?exam=${exam.examId}`}
               class="bg-white text-brand-700 font-bold px-5 py-2 rounded-lg text-sm hover:bg-brand-50 transition-colors"
             >
               All Durations →
@@ -599,7 +599,7 @@ const wikiCitations = EXAM_WIKI_CITATIONS[exam.examId] || [];
           ))}
         </div>
         <p class="text-sm text-surface-400 dark:text-surface-500 mt-6">
-          Generating roadmap for {examName}? <a href={`/roadmap?exam=${exam.examId}`} class="text-brand-600 dark:text-brand-400 hover:underline font-medium">Get your free personalised study plan →</a>
+          Generating roadmap for {examName}? <a href={`/roadmap/?exam=${exam.examId}`} class="text-brand-600 dark:text-brand-400 hover:underline font-medium">Get your free personalised study plan →</a>
         </p>
       </section>
     )}

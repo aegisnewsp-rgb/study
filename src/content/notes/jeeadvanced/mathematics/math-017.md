@@ -133,32 +133,31 @@ For convergent sequences: $\lim a_n = L$ implies $\lim \frac{1}{n}\sum_{k=1}^n a
 
 *Problem (JEE Advanced 2020):* Evaluate $\lim_{n \to \infty} n \left(\sin \frac{1}{\sqrt{n}} - \frac{1}{\sqrt{n}}\right)$.
 
-Using series expansion for small $x$: $\sin x = x - x^3/6 + O(x^5)$.
-With $x = 1/\sqrt{n}$:
-$\sin(1/\sqrt{n}) = \frac{1}{\sqrt{n}} - \frac{1}{6n^{3/2}} + O(n^{-5/2})$.
-So $n(\sin(1/\sqrt{n}) - \frac{1}{\sqrt{n}}) = n(-\frac{1}{6n^{3/2}} + O(n^{-5/2})) = -\frac{1}{6\sqrt{n}} + O(n^{-3/2})$.
-As $n \to \infty$, this $\to 0$.
+The standard technique is to expand the sine in its Taylor series for small argument. For small $x$, $\sin x = x - \frac{x^3}{6} + O(x^5)$.
 
-But wait, we need limit of $n(\sin(1/\sqrt{n}) - 1/\sqrt{n})$.
-Actually $\sin(1/\sqrt{n}) \approx 1/\sqrt{n} - (1/\sqrt{n})^3/6 = 1/\sqrt{n} - 1/(6n^{3/2})$.
-So $\sin(1/\sqrt{n}) - 1/\sqrt{n} \approx -1/(6n^{3/2})$.
-Multiply by $n$: $\approx -1/(6n^{1/2}) \to 0$.
+Substitute $x = 1/\sqrt{n}$, which tends to $0$ as $n \to \infty$:
+$$\sin\frac{1}{\sqrt{n}} = \frac{1}{\sqrt{n}} - \frac{1}{6n^{3/2}} + O(n^{-5/2}).$$
 
-So answer is 0.
+Subtracting the leading term isolates the cubic correction:
+$$\sin\frac{1}{\sqrt{n}} - \frac{1}{\sqrt{n}} = -\frac{1}{6n^{3/2}} + O(n^{-5/2}).$$
 
-Actually let me verify with Stolz-Cesàro or L'Hôpital type approach for sequences:
-Define $b_n = n(\sin(1/\sqrt{n}) - 1/\sqrt{n})$.
-As $n \to \infty$, $b_n \to 0$.
+Multiplying by $n$:
+$$n\left(\sin\frac{1}{\sqrt{n}} - \frac{1}{\sqrt{n}}\right) = -\frac{1}{6\sqrt{n}} + O(n^{-3/2}).$$
+
+As $n \to \infty$, every term vanishes, so the limit is $\boxed{0}$.
 
 *Problem 2:* Find $\lim_{n \to \infty} \frac{1}{n^2} \sum_{k=1}^n k \sin(k/n)$.
 
-Interpret as Riemann sum: $\frac{1}{n} \sum_{k=1}^n (k/n) \sin(k/n) \cdot (1/n)$? No.
-$\frac{1}{n^2} \sum_{k=1}^n k \sin(k/n) = \frac{1}{n} \sum_{k=1}^n (k/n) \sin(k/n)$.
-As $n \to \infty$, this $\to \int_0^1 x \sin x \, dx$.
+Rewrite the sum so that it has the form of a Riemann sum. Factoring one power of $n$ out of $n^2$ gives:
+$$\frac{1}{n^2} \sum_{k=1}^n k \sin(k/n) = \frac{1}{n} \sum_{k=1}^n \frac{k}{n} \sin\frac{k}{n}.$$
 
-Compute $\int_0^1 x \sin x \, dx = [-x \cos x]_0^1 + \int_0^1 \cos x \, dx = -\cos 1 + 1 + [\sin x]_0^1 = 1 - \cos 1 + \sin 1$.
+This is the Riemann sum for $f(x) = x \sin x$ on $[0,1]$ with the partition points $x_k = k/n$. Hence, as $n \to \infty$:
+$$\frac{1}{n} \sum_{k=1}^n \frac{k}{n} \sin\frac{k}{n} \to \int_0^1 x \sin x \, dx.$$
 
-So limit $= \sin 1 + 1 - \cos 1$.
+Evaluate the integral by parts:
+$$\int_0^1 x \sin x \, dx = [-x \cos x]_0^1 + \int_0^1 \cos x \, dx = -\cos 1 + [\sin x]_0^1 = \sin 1 - \cos 1.$$
+
+So the limit equals $\sin 1 - \cos 1$.
 
 **JEE Advanced Patterns (2018–2024):**
 - Recurrence relations solving via characteristic equation is frequent

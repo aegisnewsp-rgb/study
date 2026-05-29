@@ -239,32 +239,16 @@ Percentage error = (0.2/5.0) × 100 = 4%
    decreased by 20%. The net change is:
    (a) +5% (b) -5% (c) 0% (d) +10%
 
-   Answer: (a) +5%
-   Solution: Let price = Rs. 100
-             After 25% increase: Rs. 125
-             After 20% decrease: 125 × 0.80 = Rs. 100
+   Answer: (c) 0%
+   Solution: Let original price = Rs. 100
+             After 25% increase: 100 × 1.25 = Rs. 125
+             After 20% decrease (applied to the NEW value 125):
+                 20% of 125 = 25, so 125 - 25 = Rs. 100
              Net change = 0%
-             (Wait, that's wrong)
-             Let price = 100
-             After 25% increase: 125
-             After 20% decrease of 125: 125 × 0.8 = 100
-             Actually that's 0% change.
-             Let me recalculate...
-
-             Let original = 100
-             After 25% increase = 125
-             After 20% decrease on 125 = 125 × 0.8 = 100
-             So it's back to 100... 
-
-             Wait, the 20% decrease is on the NEW value (125)
-             20% of 125 = 25
-             125 - 25 = 100
-             Net change = 0%
-
-             Hmm, that can't be right either since (1.25 × 0.8 = 1.0)
-
-             Actually: (1 + 25/100)(1 - 20/100) = 1.25 × 0.8 = 1.0 = 0% change
-             Answer: (c) 0%
+             Using the multiplier method:
+                 (1 + 25/100)(1 - 20/100) = 1.25 × 0.80 = 1.00
+             A multiplier of 1.00 means the final price equals the
+             original, confirming a net change of 0%.
 
 3. A shop offers two successive discounts of 20% and 15%.
    What is the equivalent single discount?

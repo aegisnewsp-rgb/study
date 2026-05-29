@@ -116,7 +116,7 @@ The most common mistake students make is double-counting. If event A and event B
 
 ### Quick Test (2 Qs)
 1. Q: Two dice are thrown. What is P(sum equals 8)? Options: A) 1/6 B) 5/36 C) 7/36 D) 1/9. Ans: B) 5/36 (Reason: Favorable pairs are (2,6),(3,5),(4,4),(5,3),(6,2) = 5 out of 36 total outcomes)
-2. Q: A card is drawn from a standard deck. P(face card or heart)? Options: A) 4/13 B) 11/26 C) 3/13 D) 1/2. Ans: A) 4/13 (Reason: P(face)=12/52, P(heart)=13/52, P(both)=3/52. So 12/52+13/52−3/52=22/52=11/26... Wait — actually 12+13−3=22, 22/52=11/26. Answer is B. But let me recalculate: 12 face cards + 13 hearts = 25, but 3 face cards are hearts (J,Q,K of hearts), so 25−3=22. 22/52=11/26. Hmm the options don't quite match — let me fix: Answer should be 11/26 ≈ B.)
+2. Q: A card is drawn from a standard deck. P(face card or heart)? Options: A) 4/13 B) 11/26 C) 3/13 D) 1/2. Ans: B) 11/26 (Reason: There are 12 face cards and 13 hearts, but 3 cards — the J, Q, K of hearts — belong to both groups. By inclusion-exclusion: P(face)=12/52, P(heart)=13/52, P(both)=3/52, so P = 12/52 + 13/52 − 3/52 = 22/52 = 11/26.)
 
 ### 🔴 Extended
 

@@ -114,30 +114,22 @@ For binomial distribution: $(p+q)^n = \sum \binom{n}{k} p^k q^{n-k}$ where $p+q=
 
 *Problem (JEE Advanced 2023):* Find the sum $\sum_{k=0}^{n} (-1)^k \binom{n}{k}^2$.
 
-We need $\sum_{k=0}^{n} (-1)^k \binom{n}{k}^2$.
-
-Using identity: $\sum_{k=0}^{n} (-1)^k \binom{n}{k}^2 = (-1)^{n/2} \binom{n}{n/2}$ if $n$ is even, and 0 if $n$ is odd.
-
-Actually the exact result is:
+The result is:
 $\sum_{k=0}^{n} (-1)^k \binom{n}{k}^2 = \begin{cases} (-1)^{n/2} \binom{n}{n/2} & n \text{ even} \\ 0 & n \text{ odd} \end{cases}$.
 
-Proof: Using $\binom{n}{k} = \binom{n}{n-k}$ and the generating function approach.
-Consider $(1+x)^n (1-x)^n = (1-x^2)^n$.
-Coefficient of $x^n$ on left: $\sum_{k=0}^n (-1)^{n-k} \binom{n}{k} \binom{n}{n-k} = \sum_{k=0}^n (-1)^{n-k} \binom{n}{k}^2$.
-Coefficient on right: 0 if $n$ is odd, $(-1)^{n/2} \binom{n}{n/2}$ if $n$ is even.
+Proof: Use $\binom{n}{k} = \binom{n}{n-k}$ together with the generating-function identity $(1+x)^n (1-x)^n = (1-x^2)^n$.
 
-Wait, coefficient of $x^n$ in $(1-x^2)^n = \sum_{j=0}^n \binom{n}{j} (-1)^j x^{2j}$.
-For odd $n$, no $x^n$ term. For even $n = 2m$, coefficient of $x^{2m}$ is $(-1)^m \binom{n}{m}$.
-So sum $= (-1)^m \binom{2m}{m}$ when $n=2m$, and 0 when $n$ is odd.
+Coefficient of $x^n$ on the left: $\sum_{k=0}^n (-1)^{n-k} \binom{n}{k} \binom{n}{n-k} = \sum_{k=0}^n (-1)^{n-k} \binom{n}{k}^2$. For even $n$ this equals $\sum_{k=0}^n (-1)^k \binom{n}{k}^2$ (since $(-1)^{n-k} = (-1)^k$), and for odd $n$ it equals zero.
+
+Coefficient of $x^n$ on the right: from $(1-x^2)^n = \sum_{j=0}^n \binom{n}{j} (-1)^j x^{2j}$, only even powers of $x$ occur. For odd $n$ there is no $x^n$ term, so the coefficient is 0. For even $n = 2m$, take $2j = n$, i.e. $j = m$, giving coefficient $(-1)^m \binom{n}{m}$.
+
+Hence $\sum_{k=0}^{n} (-1)^k \binom{n}{k}^2 = (-1)^m \binom{2m}{m}$ when $n = 2m$, and $0$ when $n$ is odd.
 
 *Problem 2:* Find the coefficient of $x^{10}$ in $(1-x)^{10} (1+x)^{10}$.
 
-$((1-x)(1+x))^{10} = (1-x^2)^{10} = \sum_{k=0}^{10} \binom{10}{k} (-1)^k x^{2k}$.
-Coefficient of $x^{10}$: since 10 is even, $2k = 10$ → $k=5$.
+$(1-x)^{10}(1+x)^{10} = ((1-x)(1+x))^{10} = (1-x^2)^{10} = \sum_{k=0}^{10} \binom{10}{k} (-1)^k x^{2k}$.
+Coefficient of $x^{10}$: since 10 is even, set $2k = 10$, i.e. $k = 5$.
 Coefficient: $\binom{10}{5} (-1)^5 = -\binom{10}{5} = -252$.
-
-Actually $(1-x)^{10}(1+x)^{10} = (1-x^2)^{10}$.
-Coefficient of $x^{10}$: when $10 = 2k$, $k=5$, coefficient $= \binom{10}{5}(-1)^5 = 252 \cdot (-1) = -252$.
 
 **JEE Advanced Patterns (2018–2024):**
 - General term and coefficient problems are very common

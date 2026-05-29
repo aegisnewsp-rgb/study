@@ -19,7 +19,7 @@ import Footer from '../components/Footer.astro';
         <p>StudyRoadmap™ is built with privacy as a core principle. We collect <strong class="text-surface-900 dark:text-surface-100">as little data as possible</strong>.</p>
         <div>
           <h2 class="text-base font-semibold text-surface-900 dark:text-surface-100 mb-2">What We Collect</h2>
-          <p>We currently run <strong class="text-surface-900 dark:text-surface-100">no first-party analytics</strong>. We do not deploy Google Analytics, Plausible, or any other analytics script on this site at this time. Our hosting providers (Vercel, Cloudflare) log standard request metadata (IP, user-agent, referrer) for security and operations as governed by their own policies; we do not retain or correlate that data ourselves.</p>
+          <p>We currently run <strong class="text-surface-900 dark:text-surface-100">no first-party analytics</strong>. We do not deploy Google Analytics, Plausible, or any other analytics script on this site at this time. Our self-hosted nginx server logs standard request metadata (IP, user-agent, referrer) in its access logs for security and operations; we do not retain or correlate that data for tracking.</p>
           <p class="mt-2">We do not use tracking pixels or personal data collection of our own. We don't know who you are, what exam you're preparing for, or how long you're studying. If we enable a privacy-friendly analytics service in the future, this page will be updated before it goes live.</p>
         </div>
         <div>
@@ -28,11 +28,11 @@ import Footer from '../components/Footer.astro';
         </div>
         <div>
           <h2 class="text-base font-semibold text-surface-900 dark:text-surface-100 mb-2">Your Data Rights</h2>
-          <p>Because we collect no personal data, there is no data to access, correct, or delete — it was never here to begin with. If you have concerns about data handled by our hosting providers (Vercel, Cloudflare), please contact us at the addresses below.</p>
+          <p>Because we collect no personal data, there is no data to access, correct, or delete — it was never here to begin with. If you have concerns about the request metadata recorded in our server access logs, please contact us at the addresses below.</p>
         </div>
         <div>
           <h2 class="text-base font-semibold text-surface-900 dark:text-surface-100 mb-2">Third-Party Services</h2>
-          <p>We use <strong class="text-surface-900 dark:text-surface-100">Vercel</strong> for hosting, <strong class="text-surface-900 dark:text-surface-100">Cloudflare</strong> for DNS and SSL, and <strong class="text-surface-900 dark:text-surface-100">Google Fonts</strong> (fonts.googleapis.com, fonts.gstatic.com) for typography. Google receives a request log (IP, user-agent) each time a font asset loads, governed by the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" class="text-brand-600 dark:text-brand-400 hover:underline">Google Privacy Policy</a>. Vercel and Cloudflare may log basic request data (IP, user-agent) as part of their normal operations, governed by their own privacy policies. If we display ads via <strong class="text-surface-900 dark:text-surface-100">Google AdSense</strong>, EEA, UK, and Swiss visitors will see a Google-provided consent prompt for personalised advertising in line with UK/EU GDPR. You retain the right to access, correct, erase, restrict, port, or object to processing of any personal data held by these providers — contact us at the email below and we will route the request.</p>
+          <p>We self-host the site on an <strong class="text-surface-900 dark:text-surface-100">nginx</strong> server and use <strong class="text-surface-900 dark:text-surface-100">Google Fonts</strong> (fonts.googleapis.com, fonts.gstatic.com) for typography. Google receives a request log (IP, user-agent) each time a font asset loads, governed by the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" class="text-brand-600 dark:text-brand-400 hover:underline">Google Privacy Policy</a>. Our server records basic request data (IP, user-agent) in standard access logs as part of normal operations and security monitoring. If we display ads via <strong class="text-surface-900 dark:text-surface-100">Google AdSense</strong>, EEA, UK, and Swiss visitors will see a Google-provided consent prompt for personalised advertising in line with UK/EU GDPR. You retain the right to access, correct, erase, restrict, port, or object to processing of any personal data held by these providers — contact us at the email below and we will route the request.</p>
         </div>
         <div>
           <h2 class="text-base font-semibold text-surface-900 dark:text-surface-100 mb-2">Advertising</h2>
@@ -58,8 +58,8 @@ import Footer from '../components/Footer.astro';
               — for privacy questions and data requests
             </li>
             <li>
-              <a href="https://github.com/aegisnewsp-rgb" target="_blank" rel="noopener noreferrer" class="text-brand-600 hover:underline dark:text-brand-400">
-                Open a GitHub Issue
+              <a href="/feedback/" class="text-brand-600 hover:underline dark:text-brand-400">
+                Submit feedback
               </a>
               — for bug reports and feature suggestions
             </li>

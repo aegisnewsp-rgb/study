@@ -27,7 +27,7 @@ const CONTACT_FAQS = [
     name: "StudyRoadmap Editorial Team",
     jobTitle: "Curriculum Editors",
     affiliation: "StudyRoadmap",
-    url: "https://studyroadmap.in/about",
+    url: "https://studyroadmap.in/about/",
   }}
 >
   <script type="application/ld+json" set:html={JSON.stringify({
@@ -83,11 +83,9 @@ const CONTACT_FAQS = [
         </p>
 
         <form
+          id="contact-form"
           name="contact"
-          method="POST"
           class="card p-6 flex flex-col gap-5"
-          data-netlify="true"
-          netlify-hint-bypass
         >
           <div class="grid sm:grid-cols-2 gap-4">
             <div class="flex flex-col gap-1.5">
@@ -158,6 +156,25 @@ const CONTACT_FAQS = [
             We read every message. Since we are a small team, please allow 3–5 business days for a response. For urgent exam-related announcements, always refer to your official exam board's website.
           </p>
         </form>
+        <script is:inline>
+          // The site is statically hosted on nginx (no form backend), so the
+          // contact form composes a pre-filled email to the editor instead of
+          // POSTing to a dead endpoint. The visible email + feedback links below
+          // are the no-JS fallback.
+          (function () {
+            var f = document.getElementById('contact-form');
+            if (!f) return;
+            f.addEventListener('submit', function (e) {
+              e.preventDefault();
+              var v = function (id) { var el = f.querySelector('#' + id); return el ? el.value : ''; };
+              var body = 'From: ' + v('name') + ' <' + v('email') + '>\n\n' + v('message');
+              window.location.href =
+                'mailto:pushkersaini@gmail.com'
+                + '?subject=' + encodeURIComponent('[StudyRoadmap] ' + (v('subject') || 'Contact'))
+                + '&body=' + encodeURIComponent(body);
+            });
+          })();
+        </script>
 
         <div class="mt-10 p-5 bg-surface-100 dark:bg-surface-800 rounded-xl border border-surface-200 dark:border-surface-700">
           <h2 class="font-semibold text-surface-900 dark:text-white text-sm mb-2">Other ways to reach us</h2>

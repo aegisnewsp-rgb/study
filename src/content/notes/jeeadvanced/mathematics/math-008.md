@@ -86,27 +86,16 @@ Using first derivative test: $f'(x) = 4(x-1)^3$. For $x < 1$, $(x-1)^3 < 0$ so $
 So $f$ decreases before $1$ and increases after $1$. This is a local minimum at $x = 1$.
 Value: $f(1) = 0$.
 
-*Example 2:* Using MVT, show that $\frac{\sin x}{x} > \frac{2}{\pi}$ for $x \in (0, \pi/2)$.
+*Example 2:* Show that $\frac{\sin x}{x} > \frac{2}{\pi}$ for $x \in (0, \pi/2)$.
 
-Consider $f(x) = \sin x$ on $[0, \pi/2]$.
-By MVT: $\frac{\sin x - \sin 0}{x - 0} = f'(c) = \cos c$ for some $c \in (0, x)$.
-So $\frac{\sin x}{x} = \cos c$.
-Since $0 < c < x < \pi/2$, we have $\cos c > \cos x > 0$.
-Wait, we need a lower bound.
-
-Actually $\cos c \geq \cos x$ (since $\cos$ is decreasing on $[0, \pi/2]$).
-So $\frac{\sin x}{x} = \cos c \geq \cos x$.
-But $\cos x \geq 0$, not the bound we want.
-
-Instead, consider $\sin x \geq \frac{2x}{\pi}$ on $[0, \pi/2]$.
-Let $g(x) = \sin x - \frac{2x}{\pi}$.
-$g(0) = 0, g(\pi/2) = 1 - 1 = 0$.
-$g'(x) = \cos x - \frac{2}{\pi}$.
-$g'(x) = 0$ when $\cos x = \frac{2}{\pi}$ → $x = \cos^{-1}(2/\pi)$.
-For $0 < x < \cos^{-1}(2/\pi)$, $g'(x) > 0$ (since $\cos x > 2/\pi$).
-For $\cos^{-1}(2/\pi) < x < \pi/2$, $g'(x) < 0$.
-So $g$ increases then decreases, with maximum at $x = \cos^{-1}(2/\pi)$.
-Since $g(0) = g(\pi/2) = 0$ and $g$ is positive in between, we have $\sin x \geq \frac{2x}{\pi}$ on $[0, \pi/2]$.
+This is equivalent to showing $\sin x > \frac{2x}{\pi}$ on $(0, \pi/2)$. Define $g(x) = \sin x - \frac{2x}{\pi}$ on $[0, \pi/2]$.
+$g(0) = 0$ and $g(\pi/2) = 1 - 1 = 0$.
+$g'(x) = \cos x - \frac{2}{\pi}$, which vanishes at $x = \cos^{-1}(2/\pi)$.
+For $0 < x < \cos^{-1}(2/\pi)$, $\cos x > \frac{2}{\pi}$, so $g'(x) > 0$.
+For $\cos^{-1}(2/\pi) < x < \pi/2$, $\cos x < \frac{2}{\pi}$, so $g'(x) < 0$.
+Hence $g$ increases on $(0, \cos^{-1}(2/\pi))$ and decreases on $(\cos^{-1}(2/\pi), \pi/2)$, attaining its maximum at the interior point $x = \cos^{-1}(2/\pi)$.
+Since $g(0) = g(\pi/2) = 0$ and $g$ is strictly monotonic on each side of its single interior maximum, $g(x) > 0$ for every $x \in (0, \pi/2)$.
+Therefore $\sin x > \frac{2x}{\pi}$, and dividing by $x > 0$ gives $\frac{\sin x}{x} > \frac{2}{\pi}$ on $(0, \pi/2)$.
 
 ---
 

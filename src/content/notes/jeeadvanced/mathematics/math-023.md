@@ -68,10 +68,9 @@ For $\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$, asymptotes are $y = \pm \frac{b}{a}
 For rectangular hyperbola $xy = c^2$, asymptotes are the coordinate axes $x = 0$ and $y = 0$.
 
 **Director Circle:**
-Locus of intersection of perpendicular tangents. For hyperbola, this is $x^2 + y^2 = a^2 - b^2$.
-Wait, for hyperbola $c^2 = a^2 + b^2$, and director circle would need to be meaningful. Actually perpendicular tangents to hyperbola don't have a bounded director circle in the same way — the intersection points go to infinity.
-
-Actually let me reconsider: For hyperbola, perpendicular tangents intersect on the circle $x^2 + y^2 = a^2 - b^2$ only when $a > b$. When $a < b$ this is an imaginary circle. This only exists when $|a| > |b|$.
+The director circle is the locus of the point of intersection of two perpendicular tangents. For the hyperbola $\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$, this locus is the circle
+$$x^2 + y^2 = a^2 - b^2.$$
+This is a real circle only when $a > b$. When $a = b$ the locus degenerates to the single point at the centre, and when $a < b$ the radius is imaginary, so no real point is the intersection of perpendicular tangents — in that case no two perpendicular tangents to the hyperbola exist.
 
 **Worked Examples:**
 
@@ -92,9 +91,9 @@ Simplify: $\frac{5x}{16} - \frac{y}{4} = 1$ → multiply by 16: $5x - 4y = 16$.
 
 *Example 3:* Find the equation of the normal to $xy = 32$ at point $(4, 8)$.
 
-Method 1: Use implicit differentiation. $y + x\frac{dy}{dx} = 0$ → $\frac{dy}{dx} = -\frac{y}{x}$.
-At $(4,8)$: slope $m = -8/4 = -2$.
-Normal slope $= -1/m = 1/2$.
+Differentiate implicitly: $y + x\frac{dy}{dx} = 0$ → $\frac{dy}{dx} = -\frac{y}{x}$.
+At $(4,8)$: slope of tangent $m = -8/4 = -2$.
+Slope of normal $= -1/m = 1/2$.
 Equation: $y - 8 = \frac{1}{2}(x - 4)$ → $2y - 16 = x - 4$ → $x - 2y + 12 = 0$.
 
 ---
@@ -103,72 +102,53 @@ Equation: $y - 8 = \frac{1}{2}(x - 4)$ → $2y - 16 = x - 4$ → $x - 2y + 12 = 
 > Comprehensive theory for serious JEE Advanced preparation.
 
 **Conjugate Hyperbola:**
-For $\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$, the conjugate hyperbola is $-\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$ or $\frac{y^2}{b^2} - \frac{x^2}{a^2} = 1$.
+For $\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$, the conjugate hyperbola is $-\frac{x^2}{a^2} + \frac{y^2}{b^2} = 1$, equivalently $\frac{y^2}{b^2} - \frac{x^2}{a^2} = 1$.
 
-They share the same asymptotes $y = \pm \frac{b}{a}x$.
+A hyperbola and its conjugate share the same pair of asymptotes $y = \pm \frac{b}{a}x$.
 
 **Rectangular Hyperbola:**
 When transverse axis = conjugate axis ($a = b$), we get the rectangular hyperbola $x^2 - y^2 = a^2$.
-In rotated form (axes at 45°): $xy = \frac{a^2}{2}$.
+In rotated form (axes turned through 45°): $xy = \frac{a^2}{2}$.
 
 **Director Circle for Rectangular Hyperbola:**
 For $xy = c^2$, the director circle (locus of intersection of perpendicular tangents) is $x^2 + y^2 = 2c^2$.
 
 **Pole and Polar:**
-For hyperbola $\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$, the polar of point $(x_1, y_1)$ is $\frac{xx_1}{a^2} - \frac{yy_1}{b^2} = 1$.
-The pole of chord $\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$ lies on the hyperbola's director circle only when $a > b$.
+For hyperbola $\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$, the polar of a point $(x_1, y_1)$ is
+$$\frac{xx_1}{a^2} - \frac{yy_1}{b^2} = 1.$$
+When $(x_1, y_1)$ lies on the hyperbola, the polar coincides with the tangent at that point. When the point is external, its polar is the chord of contact of the two tangents drawn from it.
 
 **Reflection Property:**
-A ray from one focus reflects off the hyperbola as if it came from the other focus. More precisely: the tangent at any point $P$ makes equal angles with lines $PF_1$ and $PF_2$.
+A ray directed toward one focus reflects off the hyperbola as if it came from the other focus. Equivalently, the tangent at any point $P$ makes equal angles with the focal radii $PF_1$ and $PF_2$.
 
 **Advanced Problems:**
 
-*Problem 1 (JEE Advanced 2019):* From point $(h, k)$, tangents are drawn to hyperbola $\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$. Find the locus of $(h, k)$ if the chord of contact is a chord of the hyperbola.
+*Problem 1 (JEE Advanced 2019):* From a point $(h, k)$, tangents are drawn to the hyperbola $\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$. Find the locus of $(h, k)$ for which the chord of contact is a genuine chord (meeting the hyperbola in two real points).
 
-Chord of contact from $(h,k)$ is $\frac{xh}{a^2} - \frac{yk}{b^2} = 1$.
-For this chord to intersect the hyperbola in real points (be a chord, not tangent at imaginary points), the equation formed by substituting $y$ from chord into hyperbola must have discriminant $\geq 0$.
-
-Substituting $y = \frac{b^2}{hk}(xh - a^2)$ into $\frac{x^2}{a^2} - \frac{y^2}{b^2} = 1$:
-$\frac{x^2}{a^2} - \frac{1}{b^2} \cdot \frac{b^4(hxk - h a^2)^2}{k^2 h^2} = 1$.
-After simplification and requiring discriminant condition, we get the locus.
-
-Actually, simpler approach: chord of contact $T = 0$ is a chord of the hyperbola (not tangent) when the point $(h,k)$ lies outside the hyperbola's director circle. So locus is the region outside $x^2 + y^2 = a^2 - b^2$.
+The chord of contact from $(h,k)$ is $T = 0$, i.e. $\frac{xh}{a^2} - \frac{yk}{b^2} = 1$.
+Two real tangents can be drawn from an external point, and the chord of contact then joins the two real points of tangency. Hence the chord of contact is a real chord precisely when $(h, k)$ lies outside the hyperbola, i.e. when
+$$\frac{h^2}{a^2} - \frac{k^2}{b^2} < 1.$$
+This inequality (together with $(h,k)$ not lying inside a branch) describes the required locus of points from which two real tangents — and therefore a real chord of contact — exist.
 
 *Problem 2:* Find the asymptotes of $2x^2 + 5xy + 2y^2 + 4x + 5y + 2 = 0$.
 
-The asymptotes of a general second-degree curve $ax^2 + 2hxy + by^2 + 2gx + 2fy + c = 0$ are obtained by dropping the constant term:
-$ax^2 + 2hxy + by^2 + 2gx + 2fy = 0$.
+The asymptotes of a second-degree curve have the same second-degree (homogeneous) part as the curve and differ only in the linear and constant terms; they also pass through the centre of the conic. Two facts drive the solution.
 
-Here $a=2, h=5/2, b=2, g=2, f=5/2$.
-So $2x^2 + 5xy + 2y^2 + 4x + 5y = 0$.
-Factor if possible: try $(2x + y)(x + 2y) = 2x^2 + 4xy + xy + 2y^2 = 2x^2 + 5xy + 2y^2$. ✓
-So asymptotes: $(2x + y)(x + 2y) + 4x + 5y = 0$? Wait, we need to keep the linear terms.
-$2x^2 + 5xy + 2y^2 + 4x + 5y = 0$.
-Treating as quadratic in $x$: $2x^2 + (5y+4)x + (2y^2 + 5y) = 0$.
-Using quadratic formula: $x = \frac{-(5y+4) \pm \sqrt{(5y+4)^2 - 16(y^2 + \frac{5}{2}y)}}{4}$.
+**Directions of the asymptotes** come from the homogeneous part $2x^2 + 5xy + 2y^2 = 0$. Factoring,
+$$2x^2 + 5xy + 2y^2 = (2x + y)(x + 2y),$$
+so the asymptotes are parallel to the lines $2x + y = 0$ and $x + 2y = 0$.
 
-Actually factor approach: $2x^2 + 5xy + 2y^2 = (2x+y)(x+2y)$.
-So $(2x+y)(x+2y) + 4x + 5y = 0$.
-Let $2x+y = u, x+2y = v$. Note $u+2v = 4x+2y + 2x + 4y$... no, $u+2v = 2x+y + 2x+4y = 4x+5y$.
-So the equation is $uv + (u+2v) = 0$ → $uv + u + 2v = 0$ → $u(v+1) = -2v$ → $u = \frac{-2v}{v+1}$.
-In terms of $x, y$: $\frac{2x+y}{x+2y+1} = \frac{-2(x+2y)}{x+2y+1} = -2 \cdot \frac{x+2y}{x+2y+1}$.
-This is messy. The asymptotes are $2x+y+1=0$ and $x+2y+1=0$ approximately, but need to check.
+**Centre of the conic** is found from the partial derivatives:
+$$4x + 5y + 4 = 0, \qquad 5x + 4y + 5 = 0.$$
+Solving gives $x = -1,\ y = 0$, so the centre is $(-1, 0)$.
 
-Actually for asymptotes parallel to axes: the constant term doesn't affect asymptote directions. The homogeneous part $2x^2 + 5xy + 2y^2 = 0$ gives slopes.
-$2x^2 + 5xy + 2y^2 = 0$ → divide by $y^2$: $2m^2 + 5m + 2 = 0$ where $m = x/y$.
-$(2m+1)(m+2) = 0$ → $m = -1/2$ or $m = -2$.
-So asymptotes are $2x + y + c_1 = 0$ and $x + 2y + c_2 = 0$ where $c_1, c_2$ are determined... but for asymptotes we just need to check if the shifted asymptotes work.
+Each asymptote passes through the centre $(-1, 0)$ with one of the two directions:
+- $2(x + 1) + (y - 0) = 0 \Rightarrow 2x + y + 2 = 0$
+- $(x + 1) + 2(y - 0) = 0 \Rightarrow x + 2y + 1 = 0$
 
-Actually the asymptotes of a central conic pass through the centre. Find centre: partial derivatives of homogeneous part give... $4x + 5y + 4 = 0$ and $5x + 4y + 5 = 0$. Solve: $x = 1, y = -2$. Center is $(1, -2)$.
-Asymptotes: $2(x-1) + (y+2) = 0$ → $2x + y = 0$? And $(x-1) + 2(y+2) = 0$ → $x + 2y + 3 = 0$.
+Check that the centre satisfies both: $2(-1) + 0 + 2 = 0$ ✓ and $(-1) + 2(0) + 1 = 0$ ✓. As a final check, $(2x + y + 2)(x + 2y + 1)$ expands to exactly $2x^2 + 5xy + 2y^2 + 4x + 5y + 2$, confirming the conic is this degenerate pair of lines.
 
-But the asymptotes should be approximately $2x+y = 0$ and $x+2y = 0$ or shifted. Let me check by substituting into original equation to see which constant terms make the resulting quadratic have zero discriminant (touches at infinity).
-
-Actually it's easier to solve $2x^2 + 5xy + 2y^2 + 4x + 5y = 0$ for large $|x|$ or $|y|$: the asymptotes are the lines satisfying the homogeneous part $2x^2 + 5xy + 2y^2 = 0$. So $2x+y=0$ and $x+2y=0$ are the directions. The asymptotes pass through the centre $(1, -2)$: $2(x-1) + (y+2) = 0$ → $2x+y=0$, and $(x-1) + 2(y+2) = 0$ → $x+2y+3=0$.
-
-Check: $2(1) + (-2) = 0$ ✓ for first. $1 + 2(-2) + 3 = 1 - 4 + 3 = 0$ ✓.
-
-So asymptotes are $2x + y = 0$ and $x + 2y + 3 = 0$.
+**Asymptotes:** $2x + y + 2 = 0$ and $x + 2y + 1 = 0$.
 
 **JEE Advanced Patterns (2018–2024):**
 - Parametric form $(a\sec\theta, b\tan\theta)$ is essential for hyperbola problems

@@ -265,77 +265,57 @@ Selling price for 20% profit:
 
 #### Chain Ratio Problems
 
+To combine several linked ratios, equalise the shared term at each junction
+using the LCM, then read off the required ratio.
+
 ```
 Example: If A:B = 2:3, B:C = 4:5, C:D = 6:7, find A:D
 
 Solution:
-A:B = 2:3 = (2×4):(3×4) = 8:12
-B:C = 4:5 = (4×3):(5×3) = 12:15
-C:D = 6:7 = (6×2.5):(7×2.5) - wait, 12/15 = 4/5
-
-Actually: Let me use the LCM approach properly
-A:B = 2:3
-B:C = 4:5 ⟹ B common = 3×4 = 12
-So A:B = 2×4 : 3×4 = 8:12
-And B:C = 4×3 : 5×3 = 12:15
+Step 1 — Combine A:B and B:C by making B common.
+The LCM of 3 and 4 is 12.
+A:B = 2:3 = 8:12 (×4)
+B:C = 4:5 = 12:15 (×3)
 So A:B:C = 8:12:15
 
-C:D = 6:7
-C common = 15 = 6×2.5
-So C:D = 6×2.5 : 7×2.5 = 15:17.5
+Step 2 — Bring in C:D by making C common.
+A:B:C has C = 15 and C:D has C = 6; the LCM of 15 and 6 is 30.
+A:B:C = 8:12:15 = 16:24:30 (×2)
+C:D   = 6:7 = 30:35 (×5)
+So A:B:C:D = 16:24:30:35
 
-Therefore A:D = 8:17.5 = 16:35
+Step 3 — Read off A:D.
+A:D = 16:35
 ```
 
 #### Age Problems with Ratios
 
+Age problems combine ratios with linear equations. Set each present age as a
+multiple of a common variable, then apply the future or past condition.
+
 ```
-Example: The ratio of ages of father and son is 5:2. After 10 years,
-the ratio becomes 3:1. Find their present ages.
+Example: The ratio of the ages of a father and his son is 7:3. After 6 years,
+the ratio becomes 5:3. Find their present ages.
 
 Solution:
-Let father's age = 5x, son's age = 2x
-After 10 years: (5x+10)/(2x+10) = 3/1
-5x + 10 = 3(2x + 10)
-5x + 10 = 6x + 30
-x = -20 (This is wrong, let me recheck)
+Let father's age = 7x and son's age = 3x.
+After 6 years: (7x + 6)/(3x + 6) = 5/3
+Cross-multiply:
+3(7x + 6) = 5(3x + 6)
+21x + 18 = 15x + 30
+6x = 12
+x = 2
 
-Wait, if x = -20, Father = -100... impossible
+Present ages: Father = 7x = 14 years, Son = 3x = 6 years.
 
-Let me retry:
-(5x+10)/(2x+10) = 3/1
-5x + 10 = 3(2x + 10)
-5x + 10 = 6x + 30
-10 - 30 = 6x - 5x
--20 = x
-
-Hmm, still -20. The ratio setup seems wrong for positive ages.
-
-Actually for father:son = 5:2, and after 10 years becomes 3:1,
-this means the ratio increases (from 2.5 to 3), which is possible!
-
-Let me set it up again:
-5x + 10 = 3(2x + 10)
-5x + 10 = 6x + 30
-x = -20
-
-This suggests the numbers don't work with positive ages.
-Let me check: if x=20, Father=100, Son=40, ratio=2.5
-After 10 years: 110:50 = 2.2 (not 3!)
-
-So the problem setup might be wrong or ages aren't possible.
-For GAT, such impossible age problems do appear - just find the answer
-that satisfies the equation.
-
-If x = 10, Father=50, Son=20, ratio=2.5
-After 10 years: 60:30 = 2:1 (ratio is 2, not 3)
-
-If x = 20, Father=100, Son=40, ratio=2.5
-After 10 years: 110:50 = 11:5 (ratio is 2.2)
-
-So no solution with these ratios for positive ages.
-The ages don't work for a ratio change from 5:2 to 3:1 after 10 years.
+Verification:
+After 6 years → Father = 20, Son = 12, ratio = 20:12 = 5:3 ✓
 ```
+
+⚡ **GAT Tip**: After solving, always substitute the value back into the
+"after N years" (or "N years ago") condition to confirm the ratio matches.
+A negative or impossible age means the chosen ratios are inconsistent, so
+recheck the equation setup before selecting an answer.
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

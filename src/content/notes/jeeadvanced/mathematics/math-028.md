@@ -176,13 +176,16 @@ The rearrangement inequality states that for two sequences sorted in the same or
 **$n^3 - n$ is divisible by 6** (and hence by 3):
 $n^3 - n = n(n-1)(n+1)$, product of three consecutive integers, always divisible by 3. Also divisible by 2 (at least one even factor). So divisible by 6.
 
-**Prove $11^n + 2$ is divisible by 3:**
-- Base: $n=0$: $11^0 + 2 = 3$, divisible by 3. ✓
-- Step: Assume $3 | (11^k + 2)$. Then $11^{k+1} + 2 = 11 \cdot 11^k + 2 = 11(11^k + 2) - 22 + 2 = 11(11^k + 2) - 20$. Since $3 | (11^k + 2)$ and $3 | 20$? Actually, $-20$ is not divisible by 3. Let me redo: $11^{k+1} + 2 = 11(11^k + 2) - 22 + 2 = 11(11^k + 2) - 20 = 11(11^k + 2) - 18 - 2 = 11(11^k + 2) - 3(6) - 2$. Hmm...
+**Prove $4^n + 2$ is divisible by 3 for all $n \geq 1$:**
 
-Better approach: $11 \equiv 2 \pmod{3}$, so $11^n \equiv 2^n \pmod{3}$. $2^n \equiv 2$ when $n$ is odd, $2^n \equiv 1$ when $n$ is even. Actually: $11^n + 2 \equiv 2^n + 2 \pmod{3}$. For $n=1$: $2+2=4\equiv 1$. For $n=2$: $4+2=6\equiv 0$. For $n=3$: $8+2=10\equiv 1$. So $11^n+2$ is divisible by 3 iff $n$ is even.
+Note that $4 \equiv 1 \pmod 3$, so the inductive step is clean — multiplying by 4 leaves the residue unchanged.
 
-By induction: $11^n + 2 = 11(11^{n-1} + 2) - 20$. If $n-1$ is even, $11^{n-1} + 2 \equiv 1+2 \equiv 0 \pmod{3}$. Then $11(0) - 20 \equiv -20 \equiv -2 \not\equiv 0$. The inductive step is easier directly: $11^{n+2} + 2 = 121 \cdot 11^n + 2 \equiv 1 \cdot 11^n + 2 \equiv 1 \cdot (11^n + 2) \pmod{3}$.
+- **Base ($n=1$):** $4^1 + 2 = 6$, divisible by 3. ✓
+- **Step:** Assume $3 \mid (4^k + 2)$, so $4^k + 2 = 3m$ for some integer $m$. Then
+$$4^{k+1} + 2 = 4 \cdot 4^k + 2 = 4(4^k + 2) - 8 + 2 = 4(3m) - 6 = 3(4m - 2).$$
+Since $4m - 2$ is an integer, $3 \mid (4^{k+1} + 2)$. ✓
+
+This illustrates a general technique for divisibility proofs: write $a^{k+1} + c$ in terms of $a(a^k + c)$ plus a multiple of the divisor. The reduction $a \equiv 1 \pmod d$ (here $4 \equiv 1 \pmod 3$) guarantees the leftover constant is itself divisible by $d$, which is what makes the inductive step succeed.
 
 **De Moivre's Theorem by Induction:**
 

@@ -88,7 +88,7 @@ When a quantity changes by x% then y% (applied to the new value):
 | Interest each year | Same | Decreasing (effective rate changes) |
 | Grows linearly | Yes | No (exponential) |
 
-**⚡ GATE trick — Equal SI and CI question:** If SI = CI for 2 years at rate R%, then R = 200/2 = 100/R? Wait, the formula: SI for 2 years = 2PR/100. CI for 2 years = P[(1+R/100)² − 1] = P[R/100 + R²/10000]. Setting equal: 2PR/100 = PR/100 + PR²/10000 → PR/100 = PR²/10000 → R = 100/2 = 50. So **R = 50%**.
+**⚡ GATE trick — Difference between CI and SI:** For 2 years, SI = 2PR/100 and CI = P[(1+R/100)² − 1] = P[2R/100 + R²/10000]. Their difference is **CI − SI = P × (R/100)²**, which equals the interest earned in the second year on the first year's interest. For 1 year, SI and CI are always equal. This compact formula lets you find P, R, or the gap directly. For example, if the difference between CI and SI on a sum for 2 years at 10% is ₹50, then P × (10/100)² = 50 → P = ₹5000.
 
 #### Discounts and Marked Price
 

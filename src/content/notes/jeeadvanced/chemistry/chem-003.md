@@ -193,7 +193,7 @@ S uses 3s, three 3p, and two 3d orbitals → forms 6 equivalent sp³d² hybrid o
 **Be₂ (σ1s² σ*1s² σ2s² σ*2s²)**: BO = 0, not observed
 **B₂ (σ1s² σ*1s² σ2s² σ*2s² π2pₓ¹ π2pᵧ¹)**: BO = 1, paramagnetic (2 unpaired)
 **C₂ (σ1s² σ*1s² σ2s² σ*2s² σ2pᵤ² π2pₓ¹ π2pᵧ¹)**: BO = 2, diamagnetic
-**N₂ (σ1s² σ*1s² σ2s² σ*2s² σ2pᵤ² π2pₓ² π2pᵧ²)**: BO = 3, diamagnetic. The HOMO is σ2pᵤ (in heteronuclear shift for Z ≤ 7, becomes bonding) — wait, correction: for N₂ (Z=7): σ2pᵤ is bonding and below π2p. The σ2pᵤ is actually the higher energy bonding orbital in this case.
+**N₂ (σ1s² σ*1s² σ2s² σ*2s² π2pₓ² π2pᵧ² σ2pᵤ²)**: BO = 3, diamagnetic. For N₂ (Z = 7), s–p mixing raises the σ2pᵤ orbital above the π2p orbitals, so σ2pᵤ is the highest-energy occupied bonding orbital and is the HOMO.
 **O₂ (σ1s² σ*1s² σ2s² σ*2s² σ2pᵤ² π2pₓ² π2pᵧ² π*2pₓ¹ π*2pᵧ¹)**: BO = 2, paramagnetic
 **Ne₂**: BO = 0
 

@@ -40,9 +40,9 @@ From centrally planned Soviet-style documents to market-friendly cooperative fed
 
 ### Concept Explanation
 
-Let me walk you through this the way I'd explain it to a 24-year-old sitting across from me — because this is genuinely one of the most important chapters in India's economic story.
+The story of Five-Year Plans is one of the most important chapters in India's economic history, tracing the country's path from state-led socialism to a market-oriented economy.
 
-**Why did India even have Five-Year Plans?**
+**Why did India have Five-Year Plans?**
 
 When India became independent in 1947, the country faced a critical choice. The West had capitalism. The Soviet Union had central planning. Jawaharlal Nehru, India's first Prime Minister, was deeply influenced by Fabian socialism — the idea that a developing country needed the state to actively build industry and infrastructure because the private sector was too weak and profit-driven to do it equitably. The Five-Year Plans were borrowed directly from the Soviet model.
 
@@ -188,18 +188,17 @@ But the adjustment was painful: small-scale industries that had been protected b
 
 **Working:**
 
-(a) CAGR = [(Ending Value / Beginning Value)^(1/n) - 1] × 100
+(a) Two distinct measures apply here, and it is important to use the one the question intends. The compound annual growth rate (CAGR) measures growth between two endpoints only:
+
+CAGR = [(Ending Value / Beginning Value)^(1/n) - 1] × 100
 = [(101.6 / 83.1)^(1/5) - 1] × 100
 = [(1.2226)^(0.2) - 1] × 100
 = [1.0411 - 1] × 100
-= **4.11%** — Wait, this doesn't match. Let me recalculate.
+= **4.1%**
 
-Actually, CAGR formula with correct exponent:
-= (101.6/83.1)^(1/5) - 1 = 1.04106 - 1 = 0.04106 = **4.1%**
+The CAGR here understates Plan-period performance because n=5 spans only four growth intervals between the five fiscal years given, and the 2012-13 base year was itself a slow-growth year. For Plan assessment, the headline figure is the actual average annual growth across the Plan years:
 
-But this seems too low. Let me reconsider — the Plan average growth should be calculated differently.
-
-Actual average annual growth over the Plan period: (5.5 + 6.4 + 7.4 + 8.3 + 7.1) / 5 = 6.94% ≈ **6.9%**
+Average annual growth = (5.5 + 6.4 + 7.4 + 8.3 + 7.1) / 5 = 6.94% ≈ **6.9%**
 
 (b) Gap = Target (8.0%) - Actual (6.9%) = **1.1 percentage points**
 

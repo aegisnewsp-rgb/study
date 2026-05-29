@@ -16,7 +16,6 @@ diagramPrompt: "Clear scientific diagram of Carboxylic Acids with atom labels, m
 
 
 
-
 ---
 # Carboxylic Acids
 
@@ -58,10 +57,7 @@ diagramPrompt: "Clear scientific diagram of Carboxylic Acids with atom labels, m
 - C(sp²)–O σ bonds: one to hydroxyl O, one to carbonyl O
 - C(sp²)=O π bond: delocalized over C=O and C–O
 - The C=O bond is shorter (120 pm) and stronger than the C–O bond (130 pm)
-- Resonance: R–C(=O)–OH ⟷ R–C(–O⁻)=O⁺H (no, that's wrong)
-- Correct resonance: R–C(=O)–OH ⟷ R–C(–O⁻)=O⁺H actually does not occur
-- True resonance: R–C(=O)–OH ⟷ R–C(–O⁻)=O⁺H is a coordinate bond form
-- Better: R–C(=O)–OH (neutral) ⟷ R–C(–O⁻)=O⁺H (zwitterionic, not significant)
+- In the neutral acid, the resonance form R–C(–O⁻)=O⁺H (separating charge on the hydroxyl oxygen) is a minor, high-energy contributor, so the neutral acid is only weakly resonance stabilized
 - The carboxylate anion R–COO⁻ is strongly resonance stabilized: both C–O bonds are equivalent (bond order 1.5)
 - The anion has delocalized negative charge over TWO oxygens → explains high acidity
 
@@ -163,7 +159,7 @@ diagramPrompt: "Clear scientific diagram of Carboxylic Acids with atom labels, m
 
 **Kolbe's Electrolysis:**
 ```
-2CH₃COONa → CH₃–CH₃ + 2CO₂ (anode) [actually coupling of methyl radicals]
+2CH₃COONa → CH₃–CH₃ + 2CO₂ (anode) [coupling of methyl radicals]
 Mechanism: Anode: 2CH₃COO⁻ → 2CH₃• + 2CO₂ → CH₃–CH₃ (Wurtz-type coupling)
 Cathode: 2H₂O + 2e⁻ → H₂ + 2OH⁻
 ```
@@ -177,11 +173,11 @@ Cathode: 2H₂O + 2e⁻ → H₂ + 2OH⁻
 
 **1. Detailed Mechanisms:**
 
-**Esterification Mechanism ( Fischer Esterification):**
+**Esterification Mechanism (Fischer Esterification):**
 ```
 Step 1: Protonation of carbonyl oxygen → C=O becomes more electrophilic
 Step 2: ROH attacks carbonyl C → tetrahedral intermediate (C now has 4 bonds: O, O, R', OR)
-Step 3: Proton transfer from oxonium ion to leaving group orientation
+Step 3: Proton transfer within the tetrahedral intermediate
 Step 4: Loss of H₂O from protonated tetrahedral intermediate
 Step 5: Deprotonation → ester + H⁺
 Rate = k[acyl carbon][H⁺] (acid-catalyzed, first order in each)
@@ -197,25 +193,25 @@ Basic: R–COOR' + OH⁻ → R–COO⁻ + R'OH (irreversible, saponification)
 ```
 ⚡ Basic hydrolysis is irreversible because carboxylate is resonance-stabilized and a poor electrophile. Acidic hydrolysis is reversible. This is why saponification (base-catalyzed) goes to completion.
 
-**Schmidt Reaction (Carboxylic Acid + Hydrazonic Acid):**
+**Schmidt Reaction (Carboxylic Acid + Hydrazoic Acid):**
 ```
-R–COOH + N₃H → R–NH₂ + CO₂ + N₂
+R–COOH + HN₃ → R–NH₂ + CO₂ + N₂
 Loss of N₂ drives the reaction
 This is a rearrangement reaction — useful for making amines
 ```
 
 **Lossen, Curtius, Hofmann Rearrangements (all generate isocyanates):**
 ```
-Lossen: R–COO–NH₂ → R–N=C=O (isocyanate) → R–NH₂ + CO₂
-Curtius: R–COO–N₃ → R–N=C=O → R–NH₂
-Hofmann: R–COO–NH₂Br → R–N=C=O → R–NH₂ (brominated variant)
+Lossen: R–CO–NH–OH → R–N=C=O (isocyanate) → R–NH₂ + CO₂
+Curtius: R–CO–N₃ → R–N=C=O → R–NH₂
+Hofmann: R–CO–NHBr → R–N=C=O → R–NH₂ (bromamide variant)
 ```
-⚡ All three degrade a carboxylic acid to an amine with loss of one carbon. Important in synthesis for making amines from acids.
+⚡ All three degrade a carboxylic acid derivative to an amine with loss of one carbon. Important in synthesis for making amines from acids.
 
 **α-Halogenation (HVZ) Mechanism:**
 ```
 Step 1: PBr₃ converts –OH to –Br: R–CH₂–COOH + PBr₃ → R–CH₂–COBr
-Step 2: The acyl bromide enolizes: R–CH₂–COBr ⇌ R–CH=Br–C=O (enol form)
+Step 2: The acyl bromide enolizes: R–CH₂–COBr ⇌ R–CH=C(OH)Br (enol form)
 Step 3: Br₂ attacks the enol: bromination at α-carbon
 Step 4: Hydrolysis of acyl bromide: R–CH(Br)–COBr + H₂O → R–CH(Br)–COOH + HBr
 Net: α-H replaced by Br
@@ -235,13 +231,13 @@ Net: α-H replaced by Br
 
 ⚡ **Malonic acid** decarboxylates at 150°C to give acetic acid + CO₂. This is important because malonic ester synthesis uses the decarboxylation step to make substituted acetic acids.
 
-⚡ **Succinic acid** forms succinic anhydride when heated (intramolecular esterification). Adipic acid gives adipic anhydride.
+⚡ **Succinic acid** forms succinic anhydride when heated (intramolecular dehydration). Glutaric acid likewise forms its cyclic anhydride.
 
 **Acidity of Dicarboxylic Acids:**
 - First pKa is lower than expected because one –COOH is electron-withdrawing toward the other
-- Second pKa is higher because the mono-anion (–COO⁻–CH₂–COOH) has the negative charge near an electron-withdrawing COOH (less acidic than first)
+- Second pKa is higher because the mono-anion (⁻OOC–CH₂–COOH) carries a negative charge that resists further deprotonation
 - For oxalic acid: pKa1 = 1.27 because after first dissociation, the anion (⁻OOC–COOH) has the second –COOH strongly electron-withdrawing
-- For malonic: pKa2 (5.69) is much higher than pKa1 (2.83) because after losing first H⁺, the anion already has a negative charge — the second dissociation is harder (electrostatic work required)
+- For malonic: pKa2 (5.69) is much higher than pKa1 (2.83) because after losing the first H⁺, the anion already carries a negative charge — the second dissociation is harder (electrostatic work required)
 
 **3. Functional Derivatives — Relative Reactivity:**
 
@@ -250,7 +246,7 @@ Net: α-H replaced by Br
 Acid chloride (R–COCl) > Acid anhydride (R–CO–O–CO–R) > Ester (R–COOR')
 > Amide (R–CONH₂) > Carboxylate (R–COO⁻)
 ```
-⚡ Reason: Leaving group ability. Better leaving groups (Cl⁻, –OCOR⁻) make better acylating agents. Amides have NH₂ as leaving group — very poor (pKa of NH₃ ~38), so amides are the least reactive.
+⚡ Reason: Leaving group ability. Better leaving groups (Cl⁻, –OCOR⁻) make better acylating agents. Amides have NH₂⁻ as leaving group — very poor (pKa of NH₃ ~38), so amides are the least reactive.
 
 **Conversion hierarchy:**
 ```
@@ -276,51 +272,53 @@ CH₂(COOR)₂ + base → ⁻CH(COOR)₂ (malonic ester anion)
 ⁻CH(COOR)₂ + R–X → R–CH(COOR)₂ (alkylation)
 → H₃O⁺/heat → R–CH₂–COOH (decarboxylation, loses one CO₂)
 ```
-⚡ This is THE JEE classic for making substituted carboxylic acids. The decarboxylation step is critical: the intermediate has a β-keto acid structure that readily loses CO₂.
+⚡ This is THE JEE classic for making substituted carboxylic acids. The decarboxylation step is critical: the diacid intermediate has a β-carboxyl arrangement that readily loses CO₂.
 
-Example: Make propanoic acid from malonic ester:
+Example: Make butanoic acid from malonic ester:
 ```
-(CH₃CH₂OOC)₂CH₂ + EtBr → (CH₃CH₂OOC)₂CH–CH₂CH₃
-→ decarboxylate → CH₃CH₂CH₂COOH (butanoic acid, not propanoic)
-To get propanoic: start with CH₂(COOR)₂ + MeI → MeCH(COOR)₂ → decarboxylate → MeCH₂COOH (propanoic)
+CH₂(COOR)₂ + EtBr → CH₃CH₂–CH(COOR)₂
+→ hydrolyze + decarboxylate → CH₃CH₂CH₂COOH (butanoic acid)
+```
+To target propanoic acid instead, alkylate with MeI:
+```
+CH₂(COOR)₂ + MeI → CH₃–CH(COOR)₂ → decarboxylate → CH₃CH₂COOH (propanoic acid)
 ```
 
 **Acetoacetic Ester Synthesis:**
 ```
 CH₃–CO–CH₂–COOR + base → CH₃–CO–CH(⁻)–COOR
 → alkylation → CH₃–CO–CH(R)–COOR
-→ H₃O⁺, heat → CH₃–CO–CH₂–R (ketone) [ketone cleavage, not decarboxylation]
-OR → decarboxylation gives substituted acetone if R is not acyl
+→ H₃O⁺, heat → CH₃–CO–CH₂–R (substituted acetone) [ketonic hydrolysis]
 ```
-⚡ The acetoacetic ester synthesis yields ketones (ketone cleavage) when the alkylated intermediate is heated with acid. This is distinct from malonic ester synthesis which gives carboxylic acids.
+⚡ The acetoacetic ester synthesis yields ketones (ketonic hydrolysis) when the alkylated intermediate is heated with dilute acid. This is distinct from malonic ester synthesis, which gives carboxylic acids.
 
 **Gabriel Synthesis (making primary amines):**
 ```
 Phthalimide + KOH → K⁺ ⁻N(Phthaloyl) 
 + R–X → R–N(Phthaloyl)
-→ H₂N–NH₂ or hydrazine → R–NH₂ (primary amine)
-This is a standard method for primary amine synthesis without alkylation
+→ H₂N–NH₂ (hydrazine) → R–NH₂ (primary amine)
+This is a standard method for primary amine synthesis without over-alkylation
 ```
-⚡ Gabriel synthesis makes primary amines cleanly. If you use NH₃ directly, you get a mixture of primary, secondary, tertiary amines.
+⚡ Gabriel synthesis makes primary amines cleanly. If you use NH₃ directly, you get a mixture of primary, secondary, and tertiary amines.
 
 **5. Special Reactions of Unsaturated Acids:**
 
 **Perkin's Reaction:**
 ```
-Ar–CHO + (R–OOC–CH₂–COOH) (anhydride) → Ar–CH=CH–COOH (cinnamic acid derivative)
+Ar–CHO + (CH₃CO)₂O (acetic anhydride) → Ar–CH=CH–COOH (cinnamic acid)
 Base removes α-H from anhydride → carbanion → attacks aldehyde → elimination
 ```
 
 **Knoevenagel Condensation:**
 ```
-R–CHO + CH₂(COOR')₂ → R–CH=CH(COOR')₂ + H₂O (catalyzed by base)
+R–CHO + CH₂(COOR')₂ → R–CH=C(COOR')₂ + H₂O (catalyzed by base)
 Active methylene compounds with aldehydes/ketones → α,β-unsaturated products
 ```
 
-**Erlennmeyer Reaction:**
+**Erlenmeyer (Azlactone) Synthesis:**
 ```
-R–CHO + NH₂–CH₂–COOH (glycine) → R–CH=CH–NH₂–COOH (azlactone intermediate)
-→ hydrolysis → α,β-unsaturated amino acid
+Ar–CHO + hippuric acid (PhCONH–CH₂–COOH) → azlactone intermediate
+→ hydrolysis → α,β-unsaturated (and ultimately α-) amino acid
 Used in amino acid synthesis
 ```
 
@@ -329,85 +327,47 @@ Used in amino acid synthesis
 **pKa and Strength:**
 - Carboxylic acid pKa ~4-5 (stronger than carbonic acid H₂CO₃, pKa ~6.4, which is why carbonates dissolve acids: CO₃²⁻ + H⁺ → HCO₃⁻)
 - Compare: HCl pKa ~-7, H₂SO₄ pKa1 ~-3 (strong mineral acids are far stronger)
-- Note: H₂CO₃ pKa ~6.35 but apparent pKa of CO₂ solution is ~7 (weakly acidic)
+- Note: H₂CO₃ pKa ~6.35 but the apparent pKa of a CO₂ solution is ~7 (weakly acidic)
 
 **Qualitative Analysis:**
 ```
 Solubility in NaHCO₃ (effervescence) = carboxylic acid
-Does not reduce Tollens/Fehling's = saturated acid (if reduces, it's a reducing acid like formic)
+Does not reduce Tollens/Fehling's = saturated acid (if it reduces, it's a reducing acid like formic)
 Forms amide with NH₃ = carboxylic acid
 Calcium salt test: Ca²⁺ + 2R–COO⁻ → (R–COO)₂Ca (precipitate for C₄+ acids)
-Most calcium salts are soluble except those of C₄+ acids
+Calcium salts of higher (C₄+) acids are sparingly soluble
 ```
 
 ⚡ **JEE Quantitative Problem Pattern:**
-"A 1.12 g sample of monocarboxylic acid requires 40 mL of 0.5 M NaOH for neutralization. Find the molecular formula."
+"A monocarboxylic acid sample requires 40 mL of 0.5 M NaOH for complete neutralization. Determine its molar mass from the mass taken, then identify the acid."
 ```
-Moles NaOH = 0.04 × 0.5 = 0.02 mol
-Monocarboxylic acid: R–COOH + NaOH → R–COONa + H₂O
-1 mole acid = 1 mole NaOH
-Moles acid = 0.02 mol
-MW = 1.12/0.02 = 56
-General formula: CₙH₂ₙO₂ → CₙH₂ₙO₂ = 56
-12n + 2n + 32 = 56 → 14n = 24 → n ≈ 1.7 (not integer, so check again)
-Wait: C₃H₄O₂ = 72... C₄H₈O₂ = 88... 56 = C₃H₄O? No...
-56 = CH₃CH₂CH₂COOH would be 88...
-Maybe it's C₂H₄O₂ = 60 (acetic acid)
-Try C₃H₆O₂ = 74
-Let me recalculate: MW = 56
-Could be C₂H₄O₂ = 60, C₃H₄O₂ = 72, C₄H₈O₂ = 88
-Hmm, maybe the formula is C₄H₈O₂? MW = 88
-1.12 g / 88 g/mol = 0.0127 mol
-NaOH: 0.04 × 0.5 = 0.02 mol
-Ratio: 0.02/0.0127 = 1.57... hmm
-Actually let me just solve properly:
-MW = 1.12 / (0.04 × 0.5) = 1.12/0.02 = 56 g/mol
-56 = 12x + y×1 + 32 (for COOH = 45)
-12x + y = 11, where y = 2x + 1 (for saturated hydrocarbon chain CnH2n+1)
-12n + 2n + 1 + 45 = formula weight
-14n + 46 = 56 → n = 10/14 = not integer
-Something is off. Maybe the acid is unsaturated? CnH2n-1COOH: 14n + 45 = 56 → n = 11/14
-Let me just set general: R–COOH = 56
-R = 56 - 45 = 11 (C₃H₄?)
-This could be an unsaturated acid or different...
-Or maybe it's C₂H₅COOH (propionic) MW = 74, ratio = 0.015
-Wait, I'm overcomplicating. The standard approach: 
-MW = 56, acid has 1 COOH = 45, R = 11 = C₃H₄ (unsaturated)
-C₃H₄ = propiolic acid HC≡C–COOH (propargic acid, 2-propynoic acid)
-That's C₃H₄O₂ MW = 72... not 56
-Actually: C₂H₅COOH = propionic = C₃H₆O₂ = 74
-C₂H₃COOH (acrylic) = C₃H₄O₂ = 72
-HC≡C–COOH = propiolic = C₃H₄O₂ = 72
-Let me just think: MW = 56, COOH = 45, R = 11
-C₃H₄ = C3H4 gives 40, not 11. C3H8 gives 44, not 11.
-Hmm... actually R = H gives COOH = 45, MW = 46 = formic acid
-For R = CH₃ = 15, MW = 60 = acetic acid
-For R = C₂H₅ = 29, MW = 74 = propionic acid
-For R = C₃H₇ = 43, MW = 88 = butyric acid
-56 = no simple R. Maybe the base wasn't exactly 0.5M or there's another interpretation...
-56 = COOH (45) + R (11). R = C3H8... no 11 is... C3H8 = 44. C2H4 = 28. C3H4 = 40.
-C4H8 = 56? No that's the MW of a C4 hydrocarbon
-Actually: R = 11 means C - H... C₂H₆ = 30, C₃H₆ = 42, C₄H₁₀ = 58
-Hmm, maybe MW of R is 11 = CH₃... but CH₃ = 15
-OH = 17, NO₂ = 46, NH₂ = 16...
-R = 11 could be... C₃H₄ gives 40, no. C₃H₈ = 44.
-Actually 11 = C - H... could be part of something larger. I think I'm making this too hard.
-For JEE, the answer is likely acetic acid MW = 60, or propionic MW = 74.
-Wait: maybe the MW calculation is just a practice problem type. The key concept is: moles acid = moles base = V(M) for monoprotic.
+A monocarboxylic acid reacts 1:1 with NaOH:
+   R–COOH + NaOH → R–COONa + H₂O
+So moles of acid = moles of NaOH = V × M.
+
+Worked example — take 1.20 g of the acid:
+   Moles NaOH = 0.040 L × 0.5 M = 0.020 mol
+   Moles acid = 0.020 mol (1:1)
+   Molar mass = mass / moles = 1.20 / 0.020 = 60 g/mol
+
+Identify: for a saturated monocarboxylic acid CₙH₂ₙO₂,
+   12n + 2n + 32 = 60 → 14n = 28 → n = 2
+   So the acid is C₂H₄O₂ = CH₃COOH (acetic acid).
 ```
+⚡ Method to remember: for a monoprotic acid, moles of acid = (volume of base in L) × (molarity of base). Divide the mass taken by these moles to get the molar mass, then fit it to CₙH₂ₙO₂ (for a saturated acid) to identify the acid.
 
 **7. Biological Significance:**
 
-- Formic acid: ant venom (H–COOH, pKa 3.75, strongest of the aliphatic acids)
+- Formic acid: ant venom (H–COOH, pKa 3.75, strongest of the simple aliphatic acids)
 - Acetic acid: vinegar (CH₃COOH, 5-8% in dilute form)
-- Citric acid: citrus fruits (HOC(COOH)–CH₂–C(COOH)₂–CH₂–COOH, tribasic)
+- Citric acid: citrus fruits (a tribasic hydroxy acid, three –COOH groups)
 - Lactic acid: CH₃–CH(OH)–COOH (muscle metabolism, sour milk, chiral)
 - Tartaric acid: HOOC–CH(OH)–CH(OH)–COOH (wine, cream of tartar)
 - Oxalic acid: found in rhubarb leaves (toxic, chelating agent for calcium)
 - Adipic acid: industrially from cyclohexane → cyclohexanol → cyclohexanone → adipic acid (nylon precursor)
 - Benzoic acid: preservative (sodium benzoate in soft drinks), occurs in gum benzoin
 
-⚡ **Food chemistry note:** Sorbic acid (CH₃–CH=CH–CH=CH–COOH) is a widely used food preservative (preserves against mold and bacteria). It's a polyunsaturated fatty acid analog.
+⚡ **Food chemistry note:** Sorbic acid (CH₃–CH=CH–CH=CH–COOH) is a widely used food preservative (acts against mold and bacteria). It is a polyunsaturated short-chain acid.
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

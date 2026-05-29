@@ -95,24 +95,20 @@ Circle: $g = -2, f = -3, c = 3$.
 Radius $r = \sqrt{4 + 9 - 3} = \sqrt{10}$.
 Centre $C = (2, 3)$.
 Distance from $P(5,3)$ to $C$: $PC = \sqrt{(5-2)^2 + (3-3)^2} = 3$.
-Length of tangent $PT = \sqrt{PC^2 - r^2} = \sqrt{9 - 10} = \sqrt{-1}$ — imaginary!
-This means point $(5,3)$ is inside the circle, so no real tangents.
+Length of tangent $PT = \sqrt{PC^2 - r^2} = \sqrt{9 - 10} = \sqrt{-1}$ — imaginary.
+This means the point $(5,3)$ lies inside the circle, so no real tangents exist.
 
-Check: does $(5,3)$ satisfy $(x-2)^2 + (y-3)^2 < r^2$?
-$(3)^2 + 0 = 9 < 10$ ✓. So inside.
+Verify by the power test: substitute $(5,3)$ into $(x-2)^2 + (y-3)^2 - r^2$.
+$(3)^2 + 0 - 10 = 9 - 10 = -1 < 0$, confirming the point is inside the circle.
 
-*Example 3:* Find the image of point $(3, 4)$ in the circle $x^2 + y^2 = 25$.
+*Example 3:* Find the image (inverse) of point $(3, 4)$ in the circle $x^2 + y^2 = 25$.
 
-We want point $Q$ such that the circle is the perpendicular bisector of $PQ$.
-Line from $O(0,0)$ to $P(3,4)$: $y = \frac{4}{3}x$.
-$OP = 5$ (on circle since $3^2+4^2=25$).
-The point $Q$ lies on line $OP$ with $O$ between $Q$ and $P$ if $P$ is inside? Actually $P$ is ON the circle.
-For any point on circle, the reflection in the circle (invert with respect to circle) gives... hmm.
-
-Actually "image in the circle" could mean reflection in the circle as a mirror. But circles don't have a simple reflection.
-It could mean inversion: for point $P$, find $Q$ such that $OP \cdot OQ = r^2$.
-$OP = 5, r = 5$, so $OQ = r^2/OP = 25/5 = 5$.
-Since $P$ is on circle, $Q = P$.
+The image of a point in a circle is its inverse: the point $Q$ on ray $OP$ such that $OP \cdot OQ = r^2$, where $O(0,0)$ is the centre.
+The line from $O(0,0)$ to $P(3,4)$ is $y = \frac{4}{3}x$.
+Here $OP = \sqrt{3^2 + 4^2} = 5$, and since $3^2 + 4^2 = 25$, the point $P$ lies on the circle.
+Applying the inversion relation: $OQ = \dfrac{r^2}{OP} = \dfrac{25}{5} = 5$.
+Since $Q$ lies on ray $OP$ at the same distance $5$ as $P$, we get $Q = P = (3,4)$.
+This illustrates a general property: every point on the circle of inversion is its own image.
 
 ---
 
@@ -154,25 +150,15 @@ Therefore exactly 3 common tangents.
 *JEE Advanced 2019:* Find the equation of the circle which touches the circle $x^2 + y^2 = 4$ externally at $(2,0)$ and has radius 3.
 
 Let the required circle have centre $C_1(h,k)$ and radius $r_1 = 3$.
-It touches circle $S: x^2+y^2=4$ externally at $P(2,0)$.
-So $P$ lies on both circles, and $C_1P$ extended passes through $O$ (since circles touch externally at $P$ and $OP$ is the line of centres).
-Actually for two circles touching externally at $P$, the centres $O$ and $C_1$ lie on opposite sides of $P$? No, both centres are on the same side of the tangent at $P$.
+It touches the circle $S: x^2+y^2=4$ externally at $P(2,0)$, so $P$ lies on both circles and the contact point lies on the line of centres.
 
-Wait, for external touching at $P$: $O, P, C_1$ are collinear with $P$ between $O$ and $C_1$? Or with $O$ between?
-If circle 1 (radius 2) at origin and circle 2 (radius 3) touches it externally "beyond" $P$: then $OP = 2, PC_1 = 3$, so $OC_1 = 5$.
-So $C_1$ is on ray $OP$ extended, on the far side from $O$.
-Since $P = (2,0)$ and $O = (0,0)$, the ray $OP$ is the positive x-axis.
-So $C_1 = (2+3, 0) = (5, 0)$? Wait, $P$ is at distance 2 from $O$. If we go further away along the same direction by distance 3, we get centre at $(5, 0)$.
-But $P$ should be on the line $OC_1$. Since $P = (2,0)$ is on $OP$ ray from $O$, and we want $P$ between $O$ and $C_1$? No, for external touching, the point of contact lies on the line of centres, and the circles are on opposite sides of $P$.
-Actually, imagine two balls touching. The point of contact is between the centres? No, both centres are on the same side of the contact point relative to the tangent line. The centres are on opposite sides of the contact point along the line through centres.
+For two circles touching externally at $P$, the centres lie on opposite sides of $P$ along the line of centres, with $OP = r_O$, $C_1P = r_1$, and $OC_1 = r_O + r_1$.
+Here circle $S$ has centre $O(0,0)$ and radius $r_O = 2$, so $OP = 2$, $C_1P = 3$, and $OC_1 = 2 + 3 = 5$.
 
-For two circles of radii $r_1$ and $r_2$ touching externally at point $P$:
-$OP = r_1, CP = r_2$, and $OC = r_1 + r_2$.
-If circle 1 is centred at $O(0,0)$ with $r_1 = 2$, and touches at $P(2,0)$, then circle 2 centred at... $C_1$ must satisfy $C_1P = r_2 = 3$ and $OC_1 = 2+3=5$.
-Since $P=(2,0)$ and $O=(0,0)$, $C_1$ is at $(5,0)$ if we go further along the x-axis from $O$ through $P$.
-Actually $OP = 2$ along positive x-axis. To get distance 5 from $O$, centre is at $(5,0)$. Distance from $C_1$ to $P$: $5-2 = 3$ ✓.
+The contact point $P=(2,0)$ lies on the positive x-axis from $O$. The centre $C_1$ lies on this same ray, beyond $P$, at distance $5$ from $O$.
+Thus $C_1 = (5, 0)$, and indeed the distance from $C_1$ to $P$ is $5 - 2 = 3 = r_1$. ✓
 
-So the required circle: centre $(5,0)$, radius $3$: $(x-5)^2 + y^2 = 9$.
+So the required circle is: centre $(5,0)$, radius $3$: $(x-5)^2 + y^2 = 9$.
 
 **JEE Advanced Patterns (2018–2024):**
 - Radical axis problems and properties of concurrent radical axes appeared in 2020, 2023

@@ -46,8 +46,8 @@ Logical reasoning tests your ability to decode patterns, decode relationships, a
 - **Grandparent/Grandchild:** Two generations up/down
 - **Maternal/Paternal:** Mother side / Father side
 
-**GATE Example:** Pointing to a photograph, a man says, "The sister of this man's mother is my aunt." How is the person in the photograph related to this man?
-> Solution: Man's mother has a sister (aunt). That aunt is the grandmother of the person in the photo? Wait: "The sister of this man's mother is my aunt" → The sister is his maternal aunt → She has a child (the person in the photo) who is the man's **cousin**. Answer: **Cousin**.
+**GATE Example:** Pointing to a photograph, a man says, "The sister of this man's mother is my aunt." How is the person in the photograph related to the speaker?
+> Solution: The sister of the photographed man's mother is the speaker's aunt — that is, this aunt is a sibling of one of the speaker's parents. Since the photographed man's mother and this aunt are sisters, the photographed man's mother is also a sibling of the speaker's parent, making her the speaker's aunt. Therefore the man in the photograph, being her child, is the speaker's **cousin**. Answer: **Cousin**.
 
 **Coding relationships:** "A + B" means A is B's brother. "A − B" means A is B's sister. Combine using the family tree.
 
@@ -74,13 +74,9 @@ Logical reasoning tests your ability to decode patterns, decode relationships, a
 3. **Mirror coding:** Reverse the alphabet (A↔Z, B↔Y).
 4. **Symbol substitution:** Each letter replaced by a symbol/number from a given key.
 
-**GATE Example:** In a certain code, PRODUCT is coded as 16-18-15-3-21-19-20. How is QUANTUM coded?
-> P=16, R=18, O=15, D=4, U=21, C=3, T=20 (using A=1, Z=26).
-> Wait, 3 is C but D=4 in standard. Let me recheck: P=16, R=18, O=15, U=21, A=1, N=14, T=20, M=13.
-> Pattern: seems like consecutive letters starting from P: P=16, R=18 (skip Q=17), O=15... not linear.
-> Actually: P(16), R(18), O(15), D(4), U(21), C(3), T(20) — these are not simple.
-> Since it's the first occurrence: In PRODUCT, P=16, R=18, O=15, D=4, U=21, C=3, T=20. These look like 26-n for reverse alphabetical: Z=1, so P(16)=11? No.
-> Let's use direct: Q=17, U=21, A=1, N=14, T=20, U=21, M=13 → **17-21-1-14-20-21-13**.
+**GATE Example:** In a certain code, PRODUCT is coded as 16-18-15-4-21-3-20. How is QUANTUM coded?
+> The code is simple positional substitution with A=1, B=2, …, Z=26: P=16, R=18, O=15, D=4, U=21, C=3, T=20, which matches the given code.
+> Apply the same rule to QUANTUM: Q=17, U=21, A=1, N=14, T=20, U=21, M=13 → **17-21-1-14-20-21-13**.
 
 #### Syllogisms
 

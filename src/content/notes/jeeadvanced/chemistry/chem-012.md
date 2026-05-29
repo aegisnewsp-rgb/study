@@ -166,10 +166,9 @@ Causes:
 - A−B interactions weaker than A−A or B−B
 - Escape tendency of each component increases
 - Examples: ethanol + cyclohexane, benzene + acetone
-- Results: Maximum vapor pressure (maximum boiling azeotrope or minimum boiling?)
+- Results: Maximum vapor pressure, which corresponds to a minimum boiling azeotrope (higher vapor pressure means a lower boiling point).
 
-Wait — positive deviation gives MINIMUM boiling azeotrope. Because higher vapor pressure means lower boiling point.
-Ethanol-water forms minimum boiling azeotrope at 95.6% ethanol (positive deviation).
+Ethanol-water forms a minimum boiling azeotrope at 95.6% ethanol (positive deviation).
 
 *Negative deviation:* p_i < x_i P°_i
 Causes:
@@ -281,7 +280,7 @@ From temperature dependence, one can find ΔH of solution.
 **Surface Tension and Solutions:**
 
 Solute effects on surface tension:
-- Inorganic salts (NaCl, KCl): Increase surface tension (positively adsorbed? No, they're excluded from surface)
+- Inorganic salts (NaCl, KCl): Increase surface tension (they are excluded from the surface, i.e. negatively adsorbed)
 - Organic compounds (alcohols, fatty acids): Decrease surface tension (surface active agents)
 
 Surfactants (surface active agents) have hydrophilic head and hydrophobic tail.

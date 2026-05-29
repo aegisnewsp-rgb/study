@@ -175,31 +175,40 @@ Corporate assets generate cash flows not directly attributable to specific CGU. 
 - Future cash flows: Rs.1,200,000 per year
 - FVLCD: Rs.4,600,000
 
-*VIU calculation:*
+*Step 1 — VIU at 31 Dec 20X2:*
 ```
 PV of annuity (5 years, 10%) = 3.791
-PV = 1,200,000 × 3.791 = 4,549,200
+VIU = 1,200,000 × 3.791 = 4,549,200
 
-Recoverable amount = max(4,549,200, 4,600,000) = 4,600,000
+Recoverable amount = max(VIU 4,549,200, FVLCD 4,600,000) = 4,600,000
 Impairment loss = 5,000,000 − 4,600,000 = 400,000
 ```
 
-*Year 20X3 (after impairment):*
+*Step 2 — Carrying amount after impairment (20X3 onward):*
 - New carrying amount: Rs.4,600,000
-- Revised depreciation = 4,600,000 / 5 = 920,000/year
+- Revised depreciation = 4,600,000 ÷ 5 = Rs.920,000/year
 
-*Year 20X4 — Indicators of reversal:*
+*Step 3 — Reversal review at 31 Dec 20X4 (two years after impairment):*
 - Revised VIU: Rs.4,200,000
 - FVLCD: Rs.4,000,000
-- Recoverable amount: Rs.4,200,000
-- Carrying amount before reversal: Rs.3,680,000
-- Maximum reversal: 4,600,000 − (400,000 × 2 years depreciation) = Rs.3,800,000? Wait — no impairment reversal formula:
-  - No impairment value: 4,600,000 depreciated for 2 years = 4,600,000 × 3/5 = Rs.2,760,000... Actually: if no impairment had occurred, carrying amount after 2 years = 5,000,000 − (2 × 1,000,000) = Rs.3,000,000
-  - Reversal capped at: 3,000,000 − (4,600,000 − 2×920,000) = 3,000,000 − 2,760,000 = 240,000... Maximum reversal = what carrying amount would have been (3,000,000) minus current carrying amount (3,680,000)... Actually no reversal possible because current (3,680,000) already exceeds what it would have been without impairment (3,000,000). Wait, let me recalculate.
+- Recoverable amount = max(4,200,000, 4,000,000) = Rs.4,200,000
+- Carrying amount before reversal = 4,600,000 − (2 × 920,000) = Rs.3,680,000
 
-Actually: No impairment carrying amount at Year 2 = 5,000,000 − 2×1,000,000 = Rs.3,000,000. Current carrying amount = Rs.4,600,000 − Rs.920,000 = Rs.3,680,000. Reversal = Rs.3,680,000 − Rs.3,000,000? No. Reversal = 3,680,000 − 3,680,000 = 0? Wait...
+*Step 4 — Apply the reversal cap (IAS 36.117):*
 
-Max recoverable (no impairment path) = 4,600,000 − 2×920,000 = Rs.2,760,000. Current = 3,680,000. So reversal possible up to: 3,680,000 − 2,760,000 = Rs.920,000.
+The reversal cannot lift the carrying amount above what it would have been, net of depreciation, had no impairment ever been recognised. On the no-impairment path the asset depreciates from Rs.5,000,000 at Rs.1,000,000/year, so after two years the capped carrying amount is:
+
+```
+No-impairment carrying amount = 5,000,000 − (2 × 1,000,000) = Rs.3,000,000
+```
+
+The reversal cap (Rs.3,000,000) is BELOW the current carrying amount (Rs.3,680,000). Although the recoverable amount of Rs.4,200,000 now exceeds the carrying amount — so the original impairment no longer exists — the asset cannot be written back up beyond the cap. The carrying amount is already above the capped figure, so:
+
+```
+Permitted reversal = nil (carrying amount stays at Rs.3,680,000)
+```
+
+This illustrates the key principle: a reversal restores value only up to the depreciated historical-cost path, never beyond it.
 
 **Common Exam Mistakes:**
 

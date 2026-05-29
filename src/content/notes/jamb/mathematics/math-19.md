@@ -87,10 +87,7 @@ For continuous grouped data:
   - Upper class boundary = upper limit + 0.5
 - **Class mark (midpoint):** $x = \frac{\text{lower boundary} + \text{upper boundary}}{2}$
 
-Example: Class 150–154 → Lower boundary = 149.5, Upper boundary = 154.5, Class mark = $\frac{149.5 + 154.5}{2} = 102$
-
-Wait, let me recalculate:
-- Class 150–154 → Lower boundary = 149.5, Upper boundary = 154.5
+Example: Class 150–154 → Lower boundary = 149.5, Upper boundary = 154.5
 - Class mark $x = \frac{149.5 + 154.5}{2} = \frac{304}{2} = 152$
 
 **Class Width:** $w = \text{upper boundary} - \text{lower boundary} = 154.5 - 149.5 = 5$

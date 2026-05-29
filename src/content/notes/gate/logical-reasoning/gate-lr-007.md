@@ -37,7 +37,7 @@ A: 10km — A is at (5, -5) relative to origin, B is at (5, 5). Distance = √((
 ### 🟡 Standard
 
 ### Concept
-Direction Sense problems ask you to track someone moving through a path of cardinal directions and turns. The skill seems simple — how hard can it be to follow "walk north, turn right, walk east"? — but the complexity comes from chaining multiple turns, tracking relative positions after complex paths, and applying the Pythagorean theorem when someone ends up diagonal from where they started.
+Direction Sense problems ask you to track someone moving through a path of cardinal directions and turns. The skill looks simple — following "walk north, turn right, walk east" is easy in isolation — but the complexity comes from chaining multiple turns, tracking relative positions after complex paths, and applying the Pythagorean theorem when someone ends up diagonal from where they started.
 
 The key insight is that every move can be broken into two components: direction (which way you're facing) and displacement (how far you travel in that direction). You track these separately, updating your facing direction with each turn and your position with each move.
 
@@ -95,13 +95,21 @@ Shadow or "one behind" problems add another layer. Instead of one person moving,
 
 ### GATE-Level Practice
 
-**Q1:** A person starts at point P, walks 12m East to Q, then turns 135° right and walks to point R. If R is 5m from P, how far did he walk from Q to R?
+**Q1:** A person starts at point P, walks 12m East to Q, then turns 90° right and walks to point R. If R is 13m from P, how far did he walk from Q to R?
 
-Answer: 135° right turn from East = South + 45° = Southeast (or S 45° E). Let's use components: Walking from Q to R in SE direction. Distance PR = 5m. The path from P to Q is purely East (12m). For R to be 5m from P, we have a triangle with PQ = 12 (East), QR = unknown (at SE angle = 135° from East = 180-135 = 45° South of East), and PR = 5. Using law of cosines: QR² = PQ² + PR² - 2(PQ)(PR)cos(angle P). The angle at P between East direction and PR is unknown. Alternatively, draw coordinates: P(0,0), Q(12,0). R is at distance 5 from P. QR is at 135° right from East = SE direction, which is 45° below East axis. So R = Q + d*(cos(-45°), sin(-45°)) = Q + d*(√2/2, -√2/2). Distance PR = 5 = √((12 + d*√2/2)² + (0 - d*√2/2)²). Solving gives d = 13m approximately. Wait, let me redo: QR at 135° right from East means from East (0°), turning right 135° gives 135° from North = Southeast direction. Actually: East is 0°, right turn 135° = 135° clockwise = South of East by 45° = Southeast. Vector = d*(cos45, -sin45) = d*(0.707, -0.707). So R = (12 + 0.707d, -0.707d). PR = 5 = √((12+0.707d)² + (0.707d)²). 25 = 144 + 17.0d + 0.5d² + 0.5d² = 144 + 17d + d². d² + 17d + 119 = 0. (d+7)(d+10) = 0. d = 7m (positive). Answer: 7m.
+Answer: Place P at the origin and Q at (12, 0). A 90° right (clockwise) turn from East points the walker South, so the QR leg runs straight down: R = (12, −d), where d = QR. The angle PQR between QP (pointing West from Q) and QR (pointing South) is 90°, making PQR a right triangle with the right angle at Q.
+
+By the Pythagorean theorem, PR² = PQ² + QR²:
+13² = 12² + d²
+169 = 144 + d²
+d² = 25
+d = 5.
+
+The walker covered **5m from Q to R**. This is the classic 5-12-13 right triangle: whenever a path turns 90° and the endpoints form a Pythagorean triple, the missing leg drops out immediately without coordinates.
 
 **Q2:** A man walks 10m North, 20m Southeast, 10m West. His friend starts at same point, walks 20m South, 10m East, then stops. How far apart are they?
 
-Answer: Man: Start (0,0). North to (0,10). Southeast 20m = (20*cos(-45°), 20*sin(-45°)) = (14.14, -14.14) → (14.14, -4.14). West 10m → (4.14, -4.14). Friend: South 20m → (0,-20). East 10m → (10,-20). Distance: √((4.14-10)² + (-4.14+20)²) = √((-5.86)² + (15.86)²) = √(34.3 + 251.6) = √285.9 ≈ 16.9m.
+Answer: Man: Start (0,0). North to (0,10). Southeast 20m = (20·cos(−45°), 20·sin(−45°)) = (14.14, −14.14) → (14.14, −4.14). West 10m → (4.14, −4.14). Friend: South 20m → (0,−20). East 10m → (10,−20). Distance: √((4.14−10)² + (−4.14+20)²) = √((−5.86)² + (15.86)²) = √(34.3 + 251.6) = √285.9 ≈ 16.9m.
 
 ### Multiple Approaches
 **Coordinate Method**: Assign coordinates to each position. North = +y, East = +x. After each move, update (x,y). Final displacement = √(x² + y²). Most reliable for complex paths.

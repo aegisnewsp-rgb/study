@@ -79,13 +79,9 @@ The rank $r(A)$ is the number of non-zero rows in its row echelon form.
 *Example 1:* If $A = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}$, find $A^{-1}$.
 
 $|A| = 1 \cdot 4 - 2 \cdot 3 = 4 - 6 = -2$.
-$\text{adj}(A) = \begin{pmatrix} 4 & -2 \\ -3 & 1 \end{pmatrix}^T = \begin{pmatrix} 4 & -3 \\ -2 & 1 \end{pmatrix}$? Wait, cofactor matrix:
-$C_{11} = 4, C_{12} = -3, C_{21} = -2, C_{22} = 1$.
-So cofactor matrix $= \begin{pmatrix} 4 & -3 \\ -2 & 1 \end{pmatrix}$.
-$\text{adj}(A) = \begin{pmatrix} 4 & -2 \\ -3 & 1 \end{pmatrix}$... wait the off-diagonal need negation.
 
-Actually: $C_{11} = 4, C_{12} = -3$ (since $(-1)^{1+2} \cdot 3$), $C_{21} = -2$ (since $(-1)^{2+1} \cdot 2$), $C_{22} = 1$.
-So $C = \begin{pmatrix} 4 & -3 \\ -2 & 1 \end{pmatrix}$.
+Compute the cofactors $C_{ij} = (-1)^{i+j}M_{ij}$: $C_{11} = 4$, $C_{12} = -3$ (since $(-1)^{1+2} \cdot 3$), $C_{21} = -2$ (since $(-1)^{2+1} \cdot 2$), $C_{22} = 1$.
+So the cofactor matrix $C = \begin{pmatrix} 4 & -3 \\ -2 & 1 \end{pmatrix}$.
 $\text{adj}(A) = C^T = \begin{pmatrix} 4 & -2 \\ -3 & 1 \end{pmatrix}$.
 
 $A^{-1} = \frac{1}{-2} \begin{pmatrix} 4 & -2 \\ -3 & 1 \end{pmatrix} = \begin{pmatrix} -2 & 1 \\ 3/2 & -1/2 \end{pmatrix}$.

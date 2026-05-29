@@ -138,7 +138,7 @@ A ratio is a comparison of two quantities — it tells you how many times one qu
 
 ### SSC-Level Practice
 **Q1:** Three partners A, B, C invest in a business in the ratio 3:5:7. After 5 months, A withdraws half his capital. If the profit at the end of the year is ₹76,500, find B's share.
-Answer: ₹25,500 — Working: A: 3×5 + 1.5×7 = 15 + 10.5 = 25.5. B: 5×12 = 60. C: 7×12 = 84. Total = 25.5+60+84 = 169.5. B's share = 60/169.5 × 76500 = 27078. Let me recalculate: A invested for 5 months at full 3, then half (1.5) for 7 months = 3×5 + 1.5×7 = 15 + 10.5 = 25.5. B: 5×12 = 60. C: 7×12 = 84. Total = 169.5. B's share = 60/169.5 × 76500. 76500/169.5 = 451.33... × 60 = 27080. Hmm let me use fractions: 25.5 = 51/2, 60, 84. Total = 51/2 + 60 + 84 = 51/2 + 144 = (51+288)/2 = 339/2. B's fraction = 60 / (339/2) = 120/339 = 40/113. B's share = 40/113 × 76500 = (40 × 76500)/113 = 3060000/113 = 27079.6. So approximately ₹27,080.
+Answer: ≈ ₹27,080 — Working: Compute each partner's time-weighted capital in ratio units. A holds full capital 3 for the first 5 months, then half of it (1.5) for the remaining 7 months: A = 3×5 + 1.5×7 = 15 + 10.5 = 25.5. B keeps 5 for all 12 months: B = 5×12 = 60. C keeps 7 for all 12 months: C = 7×12 = 84. Total units = 25.5 + 60 + 84 = 169.5. To keep the arithmetic clean, convert to halves: total = 339/2. B's fraction of the profit = 60 ÷ (339/2) = 120/339 = 40/113. B's share = (40/113) × 76,500 = 3,060,000 / 113 ≈ **₹27,080**.
 
 **Q2:** If a:b = 2:3 and b:c = 4:5, find a:b:c.
 Answer: 8:12:15 — Working: LCM of b terms: 3 and 4 → 12. A:B = 2:3 → multiply by 4 → 8:12. B:C = 4:5 → multiply by 3 → 12:15. Combine: 8:12:15.

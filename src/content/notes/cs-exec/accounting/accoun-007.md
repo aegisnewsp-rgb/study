@@ -417,45 +417,25 @@ Bank A/c              Dr.  1,40,000
    To Share Application A/c            1,40,000
 ```
 
-*Step 2: On Allotment (transfer Application money)*
-Total allotment money due = 50,000 × ₹3 = ₹1,50,000
-Excess application money adjusted = (70,000 – 50,000) × ₹2 = ₹40,000
-Amount adjusted against allotment = ₹40,000
-Balance refunded = Nil (entire excess was applied)
-Actually payable on allotment = ₹1,50,000 – ₹40,000 = ₹1,10,000 (but B didn't pay his share)
+*Step 2: On Allotment (transfer of Application money)*
 
-*For the company:*
+The pro-rata ratio is 70,000 : 50,000 = 7 : 5 (i.e. 1.4 shares applied for every 1 share allotted). The application money is dealt with as follows:
+- Application money received: 70,000 × ₹2 = ₹1,40,000
+- Application money required on allotted shares: 50,000 × ₹2 = ₹1,00,000 (transferred to Share Capital)
+- Excess application money: ₹1,40,000 – ₹1,00,000 = ₹40,000 (adjusted against allotment)
+
+Total allotment money due = 50,000 × ₹3 = ₹1,50,000. After adjusting the ₹40,000 excess, the amount actually payable on allotment = ₹1,50,000 – ₹40,000 = ₹1,10,000.
+
+*Journal on transfer of application money:*
 ```
 Share Application A/c Dr.  1,40,000
    To Share Capital A/c              1,00,000   (₹2 per share × 50,000)
-   To Securities Premium A/c          50,000   (₹1 per share × 50,000)
-   To Share Allotment A/c              10,000  (excess of 20,000 shares × ₹0.50... wait)
-
-Actually, the standard approach:
-- Application money received: 70,000 × ₹2 = ₹1,40,000
-- Shares allotted: 50,000
-- Pro-rata ratio: 70,000/50,000 = 1.4:1
-- Each applicant who applied for 1.4 shares gets 1 share
-- Excess per share: Application ₹2 – Allotment money payable... 
-
-Let me reconsider:
-Application money: 70,000 × ₹2 = ₹1,40,000
-Allotment money due: 50,000 × ₹3 = ₹1,50,000
-Excess application money: ₹1,40,000 – (50,000 × ₹2 applied portion) = ₹1,40,000 – ₹1,00,000 = ₹40,000
-This ₹40,000 excess is adjusted against allotment.
-
-So, amount payable on allotment after adjusting excess: ₹1,50,000 – ₹40,000 = ₹1,10,000
-
-Journal on allotment:
-```
-Share Application A/c Dr.  1,40,000
-   To Share Capital A/c              1,00,000
-   To Securities Premium A/c           50,000
-   To Share Allotment A/c              10,000
-(Being application money transferred)
+   To Securities Premium A/c          —          (premium is collected on allotment)
+   To Share Allotment A/c              40,000   (excess adjusted against allotment)
+(Being application money transferred and excess adjusted to allotment)
 ```
 
-Now B's case:
+*B's position under pro-rata:*
 B applied for: 500 × (70,000/50,000) = 700 shares (pro-rata)
 B paid on application: 700 × ₹2 = ₹1,400
 Allotment money for B's 500 shares: 500 × ₹3 = ₹1,500
@@ -463,18 +443,21 @@ Excess adjusted for B: 200 × ₹2 = ₹400
 Amount B should pay on allotment: ₹1,500 – ₹400 = ₹1,100
 But B failed to pay allotment → ₹1,100 is in arrears
 
-*Step 3: When Allotment was Due and Received (from all except B):*
+*Step 3: When Allotment was Due (allotment money ₹3 = ₹2 capital + ₹1 premium):*
 ```
-Share Allotment A/c   Dr.  1,50,000
-   To Share Capital A/c               1,50,000  (₹3 per share)
-   To Securities Premium A/c            —
+Share Allotment A/c   Dr.  1,50,000  (50,000 × ₹3)
+   To Share Capital A/c               1,00,000  (₹2 per share)
+   To Securities Premium A/c           50,000  (₹1 per share)
+(Being allotment money due including premium)
 ```
 
-*But B didn't pay:*
+*On allotment received (from all except B, who defaulted on ₹1,100):*
+The net allotment payable was ₹1,10,000 after adjusting the ₹40,000 excess application money. B's share of this was ₹1,100, which he failed to pay, so the company received ₹1,10,000 – ₹1,100 = ₹1,08,900.
 ```
-Bank A/c              Dr.  1,08,900  (₹1,10,000 – ₹1,100 from B)
-Share Allotment A/c   Dr.  1,100
-   To Share Allotment A/c              1,10,000
+Bank A/c              Dr.  1,08,900  (amount received)
+Calls in Arrears A/c  Dr.    1,100  (B's unpaid allotment)
+   To Share Allotment A/c            1,10,000
+(Being allotment money received except from B)
 ```
 
 *Step 4: On First and Final Call Made:*

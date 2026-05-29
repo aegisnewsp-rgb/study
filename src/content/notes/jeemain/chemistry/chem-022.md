@@ -160,7 +160,7 @@ Phenol is first deprotonated (phenoxide ion, more nucleophilic than phenol). CHC
 **Solved Example:**
 Arrange in increasing order of acidity: phenol, p-nitrophenol, p-cresol, ethanol.
 
-Solution: Electron-withdrawing groups increase acidity; electron-donating groups decrease it. Nitro is strongly –I and –R; methyl is weakly +I. Order: ethanol (pK_a ≈ 16) < p-cresol (pK_a ≈ 10.3) < phenol (pK_a ≈ 10) < p-nitrophenol (pK_a ≈ 7.2). Wait, p-nitrophenol has pK_a ~7.2, actually lower than phenol (more acidic). So increasing acidity: ethanol < p-cresol < phenol < p-nitrophenol. Yes.
+Solution: Electron-withdrawing groups increase acidity; electron-donating groups decrease it. Nitro is strongly –I and –R; methyl is weakly +I. A lower pK_a corresponds to a stronger acid. Therefore the order of increasing acidity is ethanol (pK_a ≈ 16) < p-cresol (pK_a ≈ 10.3) < phenol (pK_a ≈ 10) < p-nitrophenol (pK_a ≈ 7.2). The nitro group's strong electron withdrawal stabilises the phenoxide ion, making p-nitrophenol the most acidic of the four.
 
 ---
 
@@ -232,7 +232,7 @@ Both involve loss of water. In dehydration, the double bond forms directly. In p
 
 **Problem 1:** A compound C₄H₁₀O gives orange colour with K₂Cr₂O₇/H₂SO₄ and does not react with Lucas reagent. It on dehydration gives but-1-ene as the major product. Identify.
 
-Solution: Positive with K₂Cr₂O₇ indicates it is oxidisable (alcohol/aldehyde). Does not react with Lucas reagent means it is a primary alcohol (1° alcohols react slowly with Lucas; 2° give turbidity in ~5 min; 3° give immediate). Major alkene from dehydration is but-1-ene (CH₂=CH–CH₂–CH₃) — this comes from a primary alcohol. So the alcohol must be butan-1-ol (CH₃CH₂CH₂CH₂OH). Dehydration at 170°C gives the Zaitsev product (but-2-ene) typically, but at lower temperatures with acid, the terminal alkene can form via a different mechanism. Actually, dehydration of primary alcohols usually gives mainly the internal alkene (Zaitsev). But if the question states but-1-ene is major, it may involve a specific catalyst. However, based on oxidation and Lucas evidence, the answer is butan-1-ol.
+Solution: A positive test with K₂Cr₂O₇/H₂SO₄ shows the compound is oxidisable, so it is a 1° or 2° alcohol (3° alcohols are not oxidised). No turbidity with Lucas reagent identifies it as a primary alcohol (1° alcohols show no immediate reaction; 2° give turbidity in ~5 min; 3° give immediate turbidity). The only primary alcohol of formula C₄H₁₀O whose carbon skeleton can give but-1-ene on dehydration is butan-1-ol, CH₃CH₂CH₂CH₂OH (the isomeric primary alcohol 2-methylpropan-1-ol would give 2-methylpropene, not a butene). Therefore the compound is butan-1-ol.
 
 **Problem 2:** p-nitrophenol has pK_a = 7.2 while p-t-butylphenol has pK_a = 10. Explain.
 

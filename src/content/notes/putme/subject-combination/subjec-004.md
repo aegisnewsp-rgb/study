@@ -66,8 +66,8 @@ In 20 years: 4x + 20 = 2(x + 20)
 
 **Example**: How many kg of peanuts at ₦800/kg must be mixed with 30 kg of cashew at ₦1,200/kg to make a mixture worth ₦960/kg?
 
-0.30x + 0.60(100−x) = 0.45 × 100... wait, let me redo:
-Let x = kg of peanuts. 800x + 1200(30) = 960(x+30)
+Let x = kg of peanuts. The total value of the ingredients must equal the total value of the mixture, so set up a value-balance equation:
+800x + 1200(30) = 960(x + 30)
 800x + 36,000 = 960x + 28,800 → 7,200 = 160x → **x = 45 kg**
 
 ### 5. Number Problems

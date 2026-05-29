@@ -108,9 +108,9 @@ MPV = (15 − 14) × 220 = **₹220 Favorable** (bought cheaper than standard)
 **Step 3 — MUV:**
 MUV = (200 − 220) × 15 = **₹300 Unfavorable** (used 20 kg more than standard)
 
-**Check:** MPV + MUV = 220 − 300 = −280 ≠ −80
+**Check:** MPV + MUV = (+220) + (−300) = −80 = MCV. ✓ The additive identity holds because the quantity purchased equals the quantity consumed (220 kg).
 
-Wait—this reveals a critical point: **MPV must use quantity purchased (AQp), while MUV uses quantity consumed (AQc)**. If purchasing and consumption quantities differ, the additive identity MCV = MPV + MUV holds only when the correct AQ figures are used. This is a common **calculation trap** examiners set.
+**Examiner's trap:** When purchasing and consumption quantities differ, **MPV must use the quantity purchased (AQp), while MUV uses the quantity consumed (AQc)**. The identity MCV = MPV + MUV then holds only when each variance is computed with its correct AQ figure.
 
 #### Common Mistakes to Avoid
 

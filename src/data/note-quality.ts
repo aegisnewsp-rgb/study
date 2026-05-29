@@ -56,9 +56,12 @@ export function isLowValueNote(
   // <500-word FAIL tier and the worst of the THIN tier. Raised from the
   // original 2500 char floor on 2026-05-28 evening after a 150-URL sample
   // showed ~9% of indexed pages falling in the THIN/FAIL tier. NB: H2/H3
-  // structural-emptiness was considered but would have noindexed 1800+
-  // notes that use bold-as-heading rather than markdown `## ` — handled at
-  // render time by the note template's bold→h2 promotion instead.
+  // structural-emptiness was considered but would have noindexed 1800+ notes
+  // that use bold-as-heading rather than markdown `## `. The real fix is at the
+  // authoring source — the rewrite prompt + pipeline gate now ban standalone
+  // bold-as-label and require `#### ` sub-headings; a one-time backfill of the
+  // legacy corpus is tracked separately. (There is NO render-time bold→h2
+  // promotion — an earlier comment here claimed one that never existed.)
   const isThinBody = text.length < 3500;
   const isTemplatedFiller = FILLER_PATTERNS.some((re) => re.test(text));
   return isPlaceholderTopic || isThinBody || isTemplatedFiller || hasCjkContamination(text);

@@ -33,7 +33,7 @@ A: **1 : 1** — Difference from mean: (40−30)=10 and (50−40)=10. Ratio = 10
 ### 🟡 Standard
 
 ### Concept
-Average is simply the sum of values divided by the number of values. But SSC CGL doesn't stop at basic averages — they test weighted averages where different groups have different sizes, replacement problems (removing and adding items), and the relationship between average and total sum. Mixture and Alligation is essentially a shortcut for solving weighted average problems visually. When you mix two items at different prices, the alligation method instantly gives the ratio without setting up equations.
+Average is simply the sum of values divided by the number of values. But SSC CGL doesn't stop at basic averages — it tests weighted averages where different groups have different sizes, replacement problems (removing and adding items), and the relationship between average and total sum. Mixture and Alligation is essentially a shortcut for solving weighted average problems visually. When you mix two items at different prices, the alligation method instantly gives the ratio without setting up equations.
 
 The alligation method works because it equalises the deviations from the mean price. If one item is ₹10 above the mean and another is ₹10 below, mixing equal quantities brings the mean to exactly midway.
 
@@ -83,10 +83,10 @@ The **average** concept in Tier 2 goes beyond simple arithmetic. The most challe
 
 ### SSC-Level Practice
 **Q1:** A shopkeeper mixes 30 kg of rice at ₹40/kg with 50 kg at ₹60/kg and sells the mixture at ₹58/kg. Find his profit percentage.
-Answer: 5% — Working: Cost = 30×40 + 50×60 = 1200 + 3000 = 4200. Total quantity = 80 kg. Cost per kg = 4200/80 = 52.5. Selling price = 58. Profit = 5.5 per kg. Profit% = (5.5/52.5)×100 ≈ 10.48%. Wait — let me redo: 4200/80 = 52.5. SP = 58. Profit = 5.5. Profit% = 5.5/52.5 × 100 = 10.48%. Hmm, actually the question says "sells at ₹58/kg". So profit% = (58-52.5)/52.5 × 100 = 10.48%. (I'll set up a cleaner Q.)
+Answer: ≈ 10.48% — Working: Total cost = 30×40 + 50×60 = 1200 + 3000 = 4200. Total quantity = 80 kg. Cost price per kg = 4200/80 = ₹52.5. Selling price = ₹58/kg. Profit per kg = 58 − 52.5 = ₹5.5. Profit% = (5.5/52.5) × 100 ≈ 10.48%.
 
 **Q2:** A container has 80 litres of milk. 20 litres are removed and replaced with water. This is done 3 times. How much milk remains?
-Answer: 30.72 litres — Working: After 1st replacement: 80 × (1 − 20/80) = 80 × 3/4 = 60. After 2nd: 60 × 3/4 = 45. After 3rd: 45 × 3/4 = 33.75. Actually: Initial = 80. Remaining after n replacements = 80 × (1 − 1/4)^3 = 80 × (3/4)^3 = 80 × 27/64 = 33.75 litres. Wait I got 33.75 above but wrote 30.72. Let me recalculate: (3/4)^3 = 27/64. 80 × 27/64 = (80/64)×27 = 1.25×27 = 33.75. Yes 33.75 is correct.
+Answer: 33.75 litres — Working: Each step removes 20 of 80 litres, so the fraction replaced is 20/80 = 1/4 and the milk retained each step is (1 − 1/4) = 3/4. After n replacements, milk remaining = 80 × (3/4)ⁿ. For n = 3: 80 × (3/4)³ = 80 × 27/64 = 33.75 litres. Step-by-step check: 80 → 60 → 45 → 33.75 litres.
 
 ### Common Traps
 - **Trap 1:** Using simple average instead of weighted average when groups have different sizes. Alligation IS weighted average — don't ignore it.

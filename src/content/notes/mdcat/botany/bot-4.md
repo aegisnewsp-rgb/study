@@ -56,7 +56,7 @@ diagramPrompt: "Educational diagram illustrating Variety of Life with clear labe
 
 > Comprehensive coverage for students on a longer study timeline.
 
-# Variety of Life — Comprehensive Notes
+**Variety of Life — Comprehensive Notes**
 
 ## 1. Classification and the Five Kingdom System
 

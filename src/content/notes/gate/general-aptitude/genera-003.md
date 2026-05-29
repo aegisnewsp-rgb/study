@@ -140,8 +140,7 @@ This is mathematically equivalent to parallel resistance in circuits — an inte
 If A:B = p:q and B:C = r:s, then A:C = (p×r) : (q×s). But **for combining ratios, you need B to be the same first**.
 
 **GATE Example:** If P:Q = 2:3, Q:R = 4:5, and R:S = 6:7, find P:S.
-> P:Q = 2:3 = 8:12 (to make Q=12); Q:R = 4:5 = 12:15 (to make Q=12); R:S = 6:7 = 15:17.5 (wait, need R same): R=15 from Q:R and R=15 from R:S → R=15, S=17.5.
-> Actually: P:Q = 2:3 = 8:12; Q:R = 4:5 = 12:15; R:S = 6:7 = 15:17.5 = 30:35. So P:Q:R:S = 8:12:15:35. **P:S = 8:35**.
+> Solution: Make Q consistent first. P:Q = 2:3 = 8:12 and Q:R = 4:5 = 12:15, so P:Q:R = 8:12:15. Now bring in R:S = 6:7 by making R consistent: scale P:Q:R by 2 to get 16:24:30, and scale R:S = 6:7 to R = 30, i.e. 30:35. Therefore P:Q:R:S = 16:24:30:35, giving **P:S = 16:35**.
 
 #### Percentage from Ratio
 

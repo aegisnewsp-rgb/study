@@ -133,7 +133,7 @@ A = (n₁×A₁ + n₂×A₂ + n₃×A₃ + ...) / (n₁ + n₂ + n₃ + ...)
   - Using the change formula: A' = A + (y − x)/n
   - A' = 45 + (40 − 50)/10 = 45 − 1 = 44 kg
 - Answer: 44 kg
-- Common error: Trying to think of it as (45 × 10 − 50 + 40)/9 — but n stays 10 since one left and one joined. Only 9 students remain.
+- Common error: Dividing by 9, as in (45 × 10 − 50 + 40)/9. The count stays 10, because one student left and one joined — the class still has 10 members.
 
 **Q3:** A batsman scored 80, 0, 50, and 70 in four innings. In a fifth innings, he scored a century. His average increased by exactly 10 runs. Find his new average.
 - Working:

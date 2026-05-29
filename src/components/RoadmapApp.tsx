@@ -196,7 +196,7 @@ function SubjectAccordion({
               </div>
               {hasNotes(examId) ? (
                 <a
-                href={`/notes/${examId}/${subjectId}/${topic.id}?duration=${selectedDuration}`}
+                href={`/notes/${examId}/${subjectId}/${topic.id}/?duration=${selectedDuration}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="shrink-0 text-brand-600 dark:text-brand-400 hover:text-brand-500 dark:hover:text-brand-300 transition-colors"
@@ -221,7 +221,7 @@ function SubjectAccordion({
                 const pool = getPcmNotesPool(examId, subjectId);
                 return pool ? (
                   <a
-                    href={`/notes/${pool.exam}/${pool.subject}/${topic.id}?duration=${selectedDuration}`}
+                    href={`/notes/${pool.exam}/${pool.subject}/${topic.id}/?duration=${selectedDuration}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="shrink-0 text-brand-600 dark:text-brand-400 hover:text-brand-500 dark:hover:text-brand-300 transition-colors"

@@ -80,7 +80,7 @@ For metals: $R_T = R_0[1 + \alpha(T - T_0)]$. For copper, $\alpha ≈ 0.00393$ /
 For semiconductors: $R = R_0 e^{E_g/(2kT)}$ where $E_g$ = band gap (~0.7 eV for silicon, ~1.1 eV). As $T$ increases, carrier concentration $n$ increases exponentially — the dominant effect, so resistance decreases.
 
 **Wheatstone Bridge — Numerical:**
-Example: $R_1 = 2 \Omega$, $R_2 = 4 \Omega$, $R_3 = 4 \Omega$, $R_4 = 8 \Omega$. $R_1/R_2 = 0.5$, $R_3/R_4 = 0.5$. Bridge is balanced, so the $R_4$ resistor carries no current. Equivalent resistance: $R_{eq} = (R_1+R_2) || (R_3+R_4) = (6)(12)/18 = 4 \Omega$. Actually let me redo: $(2+4) = 6$ in series; $(4+8) = 12$ in series. These two branches in parallel: $1/R_{eq} = 1/6 + 1/12 = 3/12 = 1/4$. So $R_{eq} = 4 \Omega$.
+Example: $R_1 = 2 \Omega$, $R_2 = 4 \Omega$, $R_3 = 4 \Omega$, $R_4 = 8 \Omega$. Since $R_1/R_2 = 0.5$ and $R_3/R_4 = 0.5$, the bridge is balanced and the bridge (galvanometer) branch carries no current. With no current crossing the bridge, the two arms reduce to simple series combinations: $R_1 + R_2 = 2 + 4 = 6 \Omega$ and $R_3 + R_4 = 4 + 8 = 12 \Omega$. These two branches sit in parallel, so $1/R_{eq} = 1/6 + 1/12 = 3/12 = 1/4$, giving $R_{eq} = 4 \Omega$.
 
 **Potentiometer — Precision Measurement:**
 A potentiometer can measure emf with zero current drawn from the source (ideal). For a cell of emf $\varepsilon$ and internal resistance $r$, the potentiometer gives $\varepsilon$ (open circuit, no current drawn). To measure $r$: first read $\varepsilon$ with switch open, then close switch and read terminal voltage $V$ at balance: $r = (\varepsilon/V - 1)R_{load}$.

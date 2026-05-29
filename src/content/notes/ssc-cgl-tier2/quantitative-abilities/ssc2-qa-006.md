@@ -90,7 +90,7 @@ Pipes and cisterns use the same logic: a filling pipe has positive rate, an empt
 
 ### SSC-Level Practice
 **Q1:** A and B can do a work in 20 and 30 days respectively. They work together for 5 days, then A leaves. How many more days for B to finish?
-Answer: 15 days — Working: A+B in 5 days = 5(1/20 + 1/30) = 5(5/60) = 25/60 = 5/12. Remaining = 7/12. B alone: (7/12)/(1/30) = 7/12 × 30 = 17.5. Hmm 7/12 × 30 = 17.5. Actually 7/12 × 30/1 = 210/12 = 17.5. Let me recalculate: 1/20 + 1/30 = (3+2)/60 = 5/60 = 1/12. In 5 days = 5/12. Remaining = 7/12. B's rate = 1/30. Days = (7/12)/(1/30) = 7/12 × 30 = 210/12 = 17.5. So 17.5 more days. That's not a clean number. Let me check: A's 5 days + B's 17.5 days = total work. 5/12 + 17.5/30 = 5/12 + 17.5/30 = 12.5/30 + 17.5/30 = 30/30 = 1. Yes. So answer is 17.5 days.
+Answer: 17.5 days — Working: Combined rate = 1/20 + 1/30 = (3+2)/60 = 5/60 = 1/12 per day. In 5 days together they complete 5 × 1/12 = 5/12 of the work. Remaining = 1 − 5/12 = 7/12. B alone works at 1/30 per day, so the time B needs = (7/12) ÷ (1/30) = 7/12 × 30 = 210/12 = 17.5 days. Check: A+B for 5 days (5/12) + B for 17.5 days (17.5/30 = 7/12) = 5/12 + 7/12 = 1 complete job. ✓
 
 **Q2:** A fill pipe fills a tank in 20 min, a drain pipe empties in 30 min. Both are open. When will the tank be filled?
 Answer: 60 minutes — Working: Net rate = 1/20 − 1/30 = (3−2)/60 = 1/60 per minute. Time = 1/(1/60) = 60 minutes.

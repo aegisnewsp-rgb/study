@@ -182,10 +182,10 @@ Ravi is a UK citizen who visited India for 100 days in FY 2024-25. He has not be
 
 **Example 2 — Resident but Not Ordinarily Resident (RNOR):**
 An Indian entrepreneur, Priya, who has been abroad for 7 years (staying in Singapore) visits India for 170 days in FY 2024-25. She has been in India for only 80 days in the past 4 years combined.
-- Days in India in PY: 170 ≥ 182? No, 170 < 182 → Fails basic test
-- But wait — she doesn't qualify for the 60-day exception because she doesn't satisfy the 4-year aggregate condition
-- Actually, since she fails 182-day test and doesn't qualify for 60-day exception → **Non-Resident**
-- If she had stayed 190 days in FY 2024-25: She would be Resident. But since she hasn't been in India for 2 of past 10 years nor for 730 days in past 7 years → **RNOR**
+- Days in India in PY: 170 < 182 → Fails the basic 182-day test
+- She does not qualify for the 60-day exception because she does not satisfy the 4-year aggregate (365 days) condition
+- Since she fails the 182-day test and does not qualify for the 60-day exception → **Non-Resident**
+- If she had instead stayed 190 days in FY 2024-25, she would be a Resident. But because she has not been resident in 2 of the past 10 years nor present for 730 days in the past 7 years, she would be **RNOR**
 
 **Example 3 — Resident and Ordinarily Resident (ROR):**
 Mr. Sharma, an Indian citizen, has been in India throughout FY 2024-25 and has a long-standing Indian business. He clearly satisfies both the basic test (365 days) and the ordinary residency tests.
@@ -382,7 +382,7 @@ Total deductions: ₹2,35,000
 
 **Total Income:** 16,29,000 - 2,35,000 = **₹13,94,000**
 
-**Tax on Normal Income (excluding STCG):** ₹12,00,000 + ₹64,000 + ₹3,00,000 + ₹15,000 = ₹15,79,000 (before 80C etc.) Actually: 16,29,000 - 50,000 (STCG) = 15,79,000
+**Tax on Normal Income (excluding STCG):** The STCG of ₹50,000 is taxed separately at the special rate, so it is removed from the slab base: ₹16,29,000 − ₹50,000 (STCG) = ₹15,79,000.
 
 Tax on ₹15,79,000 (new regime, age below 60):
 - Up to 3L: Nil
@@ -532,14 +532,12 @@ If he had stayed 190 days in FY 2024-25:
 - Was he in India for 730 days in past 7 years? 460+180 = 640 < 730 → Fails → **RNOR**
 
 **Illustration 6:**
-Ms. Nisha, an Indian citizen, returned to India permanently on 1st June, 2024 after living in the USA for 15 years. She stays in India for the entire period from June 2024 to March 2025 = 305 days (June: 30, July: 31, Aug: 31, Sep: 30, Oct: 31, Nov: 30, Dec: 31, Jan: 31, Feb: 28, Mar: 31 = 304 days... actually let's count: June 1 to March 31 = 304 days approximately).
+Ms. Nisha, an Indian citizen, returned to India permanently on 1st June, 2024 after living in the USA for 15 years. She stays in India for the entire period from 1st June 2024 to 31st March 2025. Counting the months (June: 30, July: 31, Aug: 31, Sep: 30, Oct: 31, Nov: 30, Dec: 31, Jan: 31, Feb: 28, Mar: 31), her stay totals 304 days.
 
-- 304 < 182 → Fails 182-day test
-- Does she qualify for 60-day exception? She is an Indian citizen returning to India (so not going abroad for employment this time) — actually she was abroad for 15 years. The 60-day exception requires that she has NOT left India as a citizen for employment. She was abroad for employment. So the 60-day rule doesn't apply to her.
+- 304 days ≥ 182 → She satisfies the basic 182-day test and is therefore a **Resident**
+- Ordinary-residency test: she was abroad for the previous 15 years, so she has not been resident in India in at least 2 of the 10 preceding years (and has not stayed 730 days in the preceding 7 years) → she is **RNOR**
 
-Actually, the 60-day rule applies if she goes abroad for employment ON THE 60th day. Since she was already abroad for 15 years and has returned, the test is:
-- She has been in India for 304 days → **Resident** (since 304 > 182)
-- Was she in India for 2 of past 10 years? No (she was abroad) → **RNOR**
+This is the common "returning Indian" pattern: a long-term expatriate who comes back and stays more than 182 days becomes Resident immediately, but takes RNOR status until the ordinary-residency conditions are met in later years.
 
 **Deemed Residents under Sec 2(47A) — Analysis:**
 
@@ -892,7 +890,7 @@ This is the residuary head — any income that does not fall under any of the fi
 - Any fees, commission, or reward
 
 **Key Deductions:**
-- **Sec 57(i)**: Expense incurred for earning interest/dividend income — actually, no deduction is available for dividend income (Sec 94A: anti-avoidance)
+- **Sec 57(i)**: Expense incurred for earning interest/dividend income — note that no deduction is available against dividend income (Sec 94A: anti-avoidance)
 - **Sec 57(ii)**: Deduction for annuity under annuity plan — 50% of amount received or ₹1,00,000, whichever is less
 - **Sec 57(iii)**: Deduction for family pension — least of: 33.33% of pension, ₹15,000, or actual amount
 
@@ -963,18 +961,10 @@ Least of:
 Least = ₹60,000 → HRA exempt: ₹60,000; HRA taxable: ₹1,80,000
 
 **Taxable Salary:**
-Basic salary + DA + HRA taxable portion: 
-Gross: ₹18,00,000
-Less: HRA exempt: ₹60,000
-Less: Standard deduction: ₹75,000
-Less: Professional tax: ₹2,500
-= **Taxable Salary: ₹16,62,500**
-
-Actually, let me recompute properly:
 Gross salary: ₹18,00,000
 Less: HRA exempt: ₹60,000 → ₹17,40,000
-Less: Standard deduction: ₹75,000 → ₹16,65,000
-Less: Professional tax: ₹2,500 → ₹16,62,500
+Less: Standard deduction u/s 16(ia): ₹75,000 → ₹16,65,000
+Less: Professional tax u/s 16(iii): ₹2,500 → **Taxable Salary: ₹16,62,500**
 
 **Step 2: Compute House Property Income**
 
@@ -1003,40 +993,19 @@ Note: HP loss of ₹11,000 can be set off against other heads.
 
 Net profit as given: ₹6,50,000
 Add back:
-- PF contribution beyond due date (Sec 43B): ₹12,000 (disallowed since not paid before due date)
-Total: ₹6,62,000
+- PF contribution paid beyond the due date (Sec 43B): ₹12,000 — disallowed because it was not paid before the due date of filing the return
 
-Deductions:
-- PF contribution (employee's own): This is employee's contribution — actually in P&L it would be a business expense, but Sec 36(1)(iv) allows employer's contribution only; employee's contribution is personal
-Wait — in P&L, if the business shows salary expenses net of employee PF contribution, the employee's PF contribution is not a business expense
-Actually: PF paid by employer = ₹2,16,000 (allowed under Sec 36(1)(iv)) — this is the EMPLOYER's contribution
-The employee's contribution would have been deducted from salary before paying — this is not a business expense
+The employer's PF contribution of ₹2,16,000 is allowable under Sec 36(1)(iv); the employee's own PF contribution is recovered from salary and is never a business expense, so it requires no adjustment here.
 
-So Business Income = ₹6,62,000
-
-But wait: PF beyond due date → ₹12,000 disallowed → add back ₹12,000
+**Business Income = ₹6,50,000 + ₹12,000 = ₹6,62,000**
 
 **Step 4: Capital Gains**
 
-STCG (listed equity): ₹1,20,000 — taxable at 15% = ₹18,000
+STCG (listed equity, STT-paid): ₹1,20,000 — taxable at 15% under Sec 111A = ₹18,000
 
-LTCG on land:
-Purchase price (Indexed): ₹50,00,000 × (331/200) = ₹82,75,000? Wait, this seems wrong.
+LTCG on land: The figure of ₹50,00,000 is the long-term capital gain itself (the indexed cost of acquisition has already been deducted from the sale consideration). For land held more than 24 months, LTCG is taxed at 20% with indexation.
 
-Let me redo:
-Actual cost = Some amount (not given clearly). Let me assume the capital gain of ₹50,00,000 is ALREADY computed. So the transfer is for ₹50,00,000.
-
-Actually: LTCG on land is given as ₹50,00,000. This is the GAIN (not the full sale proceeds). The indexed cost would need to be subtracted from sale proceeds.
-
-Sale proceeds = ₹50,00,000 (this is the gain, meaning sale - indexed cost = 50L)
-So indexed cost = sale proceeds - gain = S - 50,00,000
-
-This is a simplified scenario. Let's just take the LTCG as ₹50,00,000 for tax calculation.
-
-LTCG on land: ₹50,00,000 → taxable at 20% (with indexation) = ₹10,00,000
-However, if indexation benefit applies, the tax would be on the actual gain. Since the gain is given as ₹50,00,000, that's what we use.
-
-Actually, wait — the problem says "Long-term Capital Gains (land in Mumbai, held 5 years): ₹50,00,000" — this means the capital gain IS ₹50,00,000. So tax = 20% of ₹50,00,000 = ₹10,00,000.
+LTCG on land: ₹50,00,000 × 20% = ₹10,00,000
 
 **Step 5: Other Sources**
 
@@ -1071,23 +1040,7 @@ Total Deductions: ₹2,05,000
 
 **Tax Computation:**
 
-Now, agricultural income integration:
-Net income for slab = ₹74,28,500 - ₹90,000 (agricultural) = ₹73,38,500
-
-Tax on ₹73,38,500 (new regime, below 60):
-- Up to 3L: Nil
-- 3L-6L: 5% of 3L = ₹15,000
-- 6L-9L: 10% of 3L = ₹30,000
-- 9L-12L: 15% of 3L = ₹45,000
-- 12L-15L: 20% of 3L = ₹60,000
-- Above 15L: 30% of (73.385L - 15L) = 30% × 58.385L = ₹17,51,550
-Total: ₹19,01,550
-
-Now, since agricultural income pushes into higher slabs, the tax on agricultural income portion is added:
-Average rate = 19,01,550/73.385L ≈ 25.9%
-Tax on agi income portion = 25.9% × ₹90,000 = ₹23,310 (approximately)
-
-**Note:** In the new regime, this integration does not apply for individuals below 60 — agricultural income is simply exempt. The old regime had partial integration. Since the new regime is now the default for AY 2025-26, we'll compute under the new regime.
+A note on agricultural income: the ₹90,000 of agricultural income is exempt under Sec 10(1). The partial-integration mechanism (whereby agricultural income is aggregated with non-agricultural income only to determine the average rate of tax) applies under the old regime. Under the new regime — the default for AY 2025-26 — agricultural income is simply left out and does not affect the slab computation. This illustration is therefore computed under the new regime.
 
 **New Regime Computation (Default for AY 2025-26):**
 Gross Total Income = ₹76,33,500
@@ -1104,7 +1057,7 @@ Tax on ₹74,28,500 (new regime):
 
 Total: ₹19,28,550
 
-Add: STCG on equity (Sec 112): ₹1,20,000 × 15% = ₹18,000
+Add: STCG on equity (Sec 111A): ₹1,20,000 × 15% = ₹18,000
 Add: LTCG on land: ₹50,00,000 × 20% = ₹10,00,000 (with indexation)
 Add: Lottery winnings: ₹20,000 × 30% = ₹6,000
 

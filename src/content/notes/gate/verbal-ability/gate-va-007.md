@@ -77,13 +77,13 @@ The key is resisting the urge to find a superficial connection. "Bird" and "nest
 **Approach:** First, name the relationship between the first pair in precise, simple terms. Second, generate 2-3 possible relationships the answer pairs could have. Third, match — the correct answer will satisfy the exact same relationship type.
 
 ### Step-by-Step Example
-**Q:** CROW : BIRDCAR :: BUTTERFLY : ___
+**Q:** CROW : BIRD :: BUTTERFLY : ___
 (A) Insect (B) Cocoon (C) Caterpillar (D) Wings
 
 **Approach:**
-Step 1 → CROW is a specific type of bird. "Birdcar" is not a standard word — let's reconsider. Actually: CROW : BIRD :: BUTTERFLY : ___ could be "CROW is a type of BIRD, so BUTTERFLY is a type of ___."
-Step 2 → Butterfly is a type of insect (not a cocoon, which is what it transforms into, or wings, which are parts)
-Step 3 → The relationship is "specific type : general category"
+Step 1 → A crow is a specific type of bird, so the relationship is "specific type : general category."
+Step 2 → A butterfly is a specific type of insect. A cocoon is what it develops from, and wings are parts of it, so neither matches the relationship; a caterpillar is its earlier life stage, not its category.
+Step 3 → Apply the "specific type : general category" relationship to find the match.
 **Answer:** (A) Insect
 
 ### Common Mistakes
@@ -98,7 +98,7 @@ Analogy questions are the most cognitively demanding word problems in GATE's Ver
 
 The taxonomy of analogy relationships extends far beyond the basic categories. Understanding the full range prepares you for the unexpected. Worker-Tool relationships sometimes reverse (the tool is used by the worker), sometimes the worker is characterized by the tool (sculptor : chisel :: but sculptor isn't defined by the chisel alone). Function relationships sometimes describe what something does (knife : cut), sometimes what it's used for (lamp : illumination). Getting the direction right matters — "knife cuts" but "scissors is for cutting." The order of the pair encodes the relationship direction.
 
-Part-Whole relationships have subtypes: component (wheel : bicycle), ingredient (flour : bread), member (tree : forest — wait, actually tree is a member of forest), location (Paris : France). Sequence relationships include simple linear order (Monday : Tuesday), circular (Monday : Friday — both days of the week but different positions), and process steps (raw : cooked). Getting precise about the subtype prevents confusion when multiple options seem plausible.
+Part-Whole relationships have subtypes: component (wheel : bicycle), ingredient (flour : bread), member (tree : forest, where a tree is a member of a forest), location (Paris : France). Sequence relationships include simple linear order (Monday : Tuesday), circular (Monday : Friday — both days of the week but different positions), and process steps (raw : cooked). Getting precise about the subtype prevents confusion when multiple options seem plausible.
 
 The hardest analogy questions use compound or layered relationships. "Architect : Blueprint :: General : Battleplan" involves both worker-tool (architect uses blueprint) and the more specific context that blueprints are planning documents. When you see such pairs, ask: is this primarily about what the first does to the second, or about their roles in a larger system?
 

@@ -45,7 +45,7 @@ const description = `Browse ${totalNotes}+ free study notes for NEET, JEE Main, 
 const canonicalUrl = 'https://studyroadmap.in/notes';
 const ogImage = '/og-image.jpg';
 const siteUrl = 'https://studyroadmap.in';
-const authorObj = { name: "StudyRoadmap Editorial Team", jobTitle: "Curriculum Editors", affiliation: "StudyRoadmap", url: "https://studyroadmap.in/about" };
+const authorObj = { name: "StudyRoadmap Editorial Team", jobTitle: "Curriculum Editors", affiliation: "StudyRoadmap", url: "https://studyroadmap.in/about/" };
 
 const countryFlags: Record<string, string> = { india: '🇮🇳', pakistan: '🇵🇰', nigeria: '🇳🇬' };
 const countryNames: Record<string, string> = { india: 'India', pakistan: 'Pakistan', nigeria: 'Nigeria' };
@@ -146,7 +146,7 @@ const faqJsonLd = {
               <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
                 {countryExams.map(exam => (
                   <a
-                    href={`/notes/${exam.exam}`}
+                    href={`/notes/${exam.exam}/`}
                     class="group block bg-surface-50 dark:bg-surface-900 border border-surface-200 dark:border-surface-700 rounded-xl p-5 hover:border-brand-300 dark:hover:border-brand-700 hover:shadow-md transition-all"
                   >
                     <div class="flex items-center justify-between mb-2">

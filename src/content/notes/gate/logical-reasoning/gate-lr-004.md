@@ -132,13 +132,12 @@ This is the most common trap and the most commonly misunderstood option (B). Exa
 - Assertion: "Humans cannot survive without water." Reason: "Water covers 70% of Earth's surface." Both true, but coverage doesn't explain why humans can't survive without it.
 
 **When the Assertion is False but Reason is True (Option E):**
-- Assertion: "Sound cannot travel through space." Reason: "Space is a vacuum containing no particles." Both the reason and the fact that space is a vacuum are true, BUT sound actually cannot travel through space (it's a vacuum), so the assertion here is actually TRUE in this case. For option E, we'd need an actually false assertion with a true reason.
-- Assertion: "The Sun is a planet." Reason: "The Sun is a celestial body." The assertion is false (Sun is a star), reason is true. Option E.
+- Assertion: "The Sun is a planet." Reason: "The Sun is a celestial body." The assertion is false (the Sun is a star, not a planet), while the reason is true (the Sun is indeed a celestial body). A true reason does not rescue a false assertion, so this is Option E.
+- Assertion: "Sound travels faster in a vacuum than in air." Reason: "A vacuum is a region containing no particles." The assertion is false (sound cannot travel through a vacuum at all, since it needs a medium), while the reason is true. Option E.
 
 **When Both Are False (Option D):**
-- Assertion: "Light travels faster than sound." (True actually — light does travel faster than sound)
-- Assertion: "Diamond is the hardest natural substance." (True)
-- Need genuinely false assertions with false reasons for D.
+- Assertion: "Sound travels faster than light." Reason: "Sound is a form of electromagnetic radiation." Both are false: light travels far faster than sound, and sound is a mechanical wave, not electromagnetic radiation. Option D.
+- Assertion: "Graphite is the hardest natural substance." Reason: "Graphite atoms are held together by metallic bonds." Both are false: diamond is the hardest natural substance, and graphite's layers are held by covalent bonds within layers and weak van der Waals forces between them, not metallic bonds. Option D.
 
 ### GATE-Level Practice
 
@@ -150,7 +149,7 @@ Answer: **A** — Both are true, and the crystal structure (tetrahedral covalent
 **Q2:** Assertion: A body at rest cannot have acceleration.
 Reason: Acceleration is the rate of change of velocity, and a body at rest has zero velocity, so its velocity cannot change.
 
-Answer: **A** — Both true, and the reason correctly explains why a body at rest has zero acceleration (no change in velocity). However, a body at rest CAN have acceleration if forces act on it — but that's different from "has acceleration." Actually, if forces act, acceleration is not zero. So a body at rest with no forces has zero acceleration. The reasoning is correct.
+Answer: **D** — Both the assertion and the reason are false. A body can be momentarily at rest yet still accelerating: a ball thrown straight up has zero velocity at the top of its path, yet its acceleration there is $g$ (gravity acting downward). Zero velocity does not imply zero acceleration. The reason is also wrong: having zero velocity at an instant does not mean the velocity cannot change — acceleration measures how fast velocity changes, and that rate can be nonzero even when the velocity itself is momentarily zero. Since both the assertion and the reason are false, the answer is Option D.
 
 **Q3:** Assertion: The boiling point of water decreases at higher altitudes.
 Reason: At higher altitudes, atmospheric pressure decreases, and liquids boil when their vapor pressure equals atmospheric pressure, so lower pressure means lower boiling point.

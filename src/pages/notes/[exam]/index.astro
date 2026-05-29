@@ -30,17 +30,17 @@ const EXAM_EQUIVALENTS: Record<string, Array<{id: string, name: string, flag: st
   'neet':       [{id:'mdcat', name:'MDCAT (Pakistan)', flag:'🇵🇰'}, {id:'jamb', name:'JAMB (Nigeria)', flag:'🇳🇬'}],
   'mdcat':      [{id:'neet', name:'NEET UG (India)', flag:'🇮🇳'}, {id:'jamb', name:'JAMB (Nigeria)', flag:'🇳🇬'}],
   'jamb':       [{id:'neet', name:'NEET UG (India)', flag:'🇮🇳'}, {id:'mdcat', name:'MDCAT (Pakistan)', flag:'🇵🇰'}],
-  'jee-main':   [{id:'jeadvance', name:'JEE Advanced (India)', flag:'🇮🇳'}, {id:'ecat', name:'ECAT (Pakistan)', flag:'🇵🇰'}],
+  'jee-main':   [{id:'jeeadvanced', name:'JEE Advanced (India)', flag:'🇮🇳'}, {id:'ecat', name:'ECAT (Pakistan)', flag:'🇵🇰'}],
   'jeeadvanced':[{id:'jeemain', name:'JEE Main (India)', flag:'🇮🇳'}, {id:'ecat', name:'ECAT (Pakistan)', flag:'🇵🇰'}],
   'ecat':       [{id:'jeemain', name:'JEE Main (India)', flag:'🇮🇳'}, {id:'jeeadvanced', name:'JEE Advanced (India)', flag:'🇮🇳'}],
   'cat':        [{id:'jamb', name:'JAMB (Nigeria)', flag:'🇳🇬'}],
   'clat':       [{id:'lat', name:'LAT (Pakistan)', flag:'🇵🇰'}],
   'lat':        [{id:'clat', name:'CLAT (India)', flag:'🇮🇳'}],
-  'upsc':       [{id:'css', name:'CSS (Pakistan)', flag:'🇵🇰'}],
-  'ssc-cgl':    [{id:'pts', name:'PTS (Pakistan)', flag:'🇵🇰'}],
-  'nda':        [{id:'js1', name:'JS1 (Nigeria)', flag:'🇳🇬'}],
 };
-const relatedExams = EXAM_EQUIVALENTS[exam] || [];
+// Only link equivalents that actually have a notes hub — others 404. Build the
+// set of exams that have notes from the loaded collection and filter against it.
+const examsWithNotes = new Set(allNotes.map(n => n.id.split('/')[0]));
+const relatedExams = (EXAM_EQUIVALENTS[exam] || []).filter(r => examsWithNotes.has(r.id));
 
 
 // Group by subject — use the directory slug from note.id (which IS the route),
@@ -58,7 +58,7 @@ const title = `${examName} Study Notes — All Subjects | StudyRoadmap™`;
 const description = `Free ${examName} study notes for all subjects. ${examNotes.length} topics — Physics, Chemistry, Biology, and more. No signup required.`;
 const canonicalUrl = `https://studyroadmap.in/notes/${exam}`;
 const siteUrl = 'https://studyroadmap.in';
-const authorObj = { name: "StudyRoadmap Editorial Team", jobTitle: "Curriculum Editors", affiliation: "StudyRoadmap", url: "https://studyroadmap.in/about" };
+const authorObj = { name: "StudyRoadmap Editorial Team", jobTitle: "Curriculum Editors", affiliation: "StudyRoadmap", url: "https://studyroadmap.in/about/" };
 // Only 20 of 125+ exams have custom OG images — fall back to default for rest
 const EXAM_OG_IMAGES = ['cat','clat','cuet','ecat','hat-ug','jamb','jeeadvanced','jeemain','lat','mdcat','nabteb','nat-i','ncee','nda','neco','neet','ssc-cgl','ugc-net','upsc','waec'];
 const ogImage = EXAM_OG_IMAGES.includes(exam) ? `/og-notes/exam-${exam}.jpg` : '/og-image.jpg';
@@ -188,7 +188,7 @@ const faqJsonLd = {
         </p>
 
         <div class="flex flex-wrap gap-3">
-          <a href={`/roadmap?exam=${exam}`} class="group inline-flex items-center gap-2 bg-gradient-to-r from-brand-600 to-brand-500 hover:from-brand-700 hover:to-brand-600 text-white font-bold px-6 py-3 rounded-xl transition-all shadow-lg shadow-brand-500/20 hover:shadow-xl hover:shadow-brand-500/30">
+          <a href={`/roadmap/?exam=${exam}`} class="group inline-flex items-center gap-2 bg-gradient-to-r from-brand-600 to-brand-500 hover:from-brand-700 hover:to-brand-600 text-white font-bold px-6 py-3 rounded-xl transition-all shadow-lg shadow-brand-500/20 hover:shadow-xl hover:shadow-brand-500/30">
             Generate {examName} Roadmap
             <span class="transition-transform group-hover:translate-x-0.5">→</span>
           </a>
@@ -206,14 +206,14 @@ const faqJsonLd = {
             <h2 class="heading-3 text-surface-800 dark:text-surface-100">
               {notes[0].data.subjectName}
             </h2>
-            <a href={`/notes/${exam}/${subject}`} class="text-sm text-brand-600 dark:text-brand-400 hover:underline">
+            <a href={`/notes/${exam}/${subject}/`} class="text-sm text-brand-600 dark:text-brand-400 hover:underline">
               View all {notes.length} →
             </a>
           </div>
           <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
             {notes.sort((a,b) => a.data.topic.localeCompare(b.data.topic)).slice(0, 6).map(note => (
               <a
-                href={`/notes/${note.id}`}
+                href={`/notes/${note.id}/`}
                 class="group block bg-surface-50 dark:bg-surface-900 border border-surface-200 dark:border-surface-700 rounded-lg p-4 hover:border-brand-300 dark:hover:border-brand-700 transition-all"
               >
                 <div class="flex items-center justify-between mb-1">
@@ -227,7 +227,7 @@ const faqJsonLd = {
             ))}
           </div>
           {notes.length > 6 && (
-            <a href={`/notes/${exam}/${subject}`} class="text-sm text-brand-600 dark:text-brand-400 hover:underline mt-2 inline-block">
+            <a href={`/notes/${exam}/${subject}/`} class="text-sm text-brand-600 dark:text-brand-400 hover:underline mt-2 inline-block">
               + {notes.length - 6} more {notes[0].data.subjectName} topics →
             </a>
           )}
@@ -241,7 +241,7 @@ const faqJsonLd = {
         </p>
         <div class="flex flex-wrap gap-3">
           {relatedExams.map(rel => (
-            <a href={`/notes/${rel.id}`} class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-surface-100 dark:bg-surface-800 border border-surface-200 dark:border-surface-700 hover:border-brand-300 dark:hover:border-brand-700 text-surface-700 dark:text-surface-300 text-sm transition-all">
+            <a href={`/notes/${rel.id}/`} class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-surface-100 dark:bg-surface-800 border border-surface-200 dark:border-surface-700 hover:border-brand-300 dark:hover:border-brand-700 text-surface-700 dark:text-surface-300 text-sm transition-all">
               <span>{rel.flag}</span>
               <span>{rel.name}</span>
               <span class="text-surface-400">→</span>

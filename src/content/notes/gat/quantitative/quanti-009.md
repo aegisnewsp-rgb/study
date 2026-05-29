@@ -198,18 +198,12 @@ Solution: 2 < x < 3
 4. Sum of first 10 terms of AP: 2, 5, 8, 11...
    (a) 155 (b) 165 (c) 175 (d) 185
 
-   Answer: (b) 165
+   Answer: (a) 155
    Solution: a = 2, d = 3, n = 10
-             Sₙ = 10/2(2×2 + 9×3) = 5(4 + 27) = 5 × 31 = 155
-             Wait, that's 155... let me recalculate
-             Actually: Sₙ = n/2(2a + (n-1)d)
-             = 10/2(4 + 27) = 5 × 31 = 155
-             Not matching any option. Let me check options again.
-             If answer is 165: 5(4+29) = 5×33 = 165
-             But d = 3, so 9×3 = 27... hmm.
-             Let me recalculate: 4 + 9×3 = 4 + 27 = 31... 5×31 = 155
-             So answer should be 155, but option b is 165.
-             Let me give answer as 155.
+             Sₙ = n/2(2a + (n-1)d)
+             = 10/2(2×2 + 9×3)
+             = 5(4 + 27)
+             = 5 × 31 = 155
 
 5. Find the 8th term of GP: 3, 6, 12, 24...
    (a) 384 (b) 192 (c) 96 (d) 768

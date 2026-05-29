@@ -71,7 +71,7 @@ Conclusions:
 **Approach:** 
 Step 1 → Draw what you know: Teachers ⊂ Educated. Some Educated ∩ Patient. Patient ∩ Rude = ∅.
 Step 2 → Check Conclusion 1: Can some teachers be patient? Yes — teachers are educated, and some educated are patient, so it's possible but not definite. **Invalid** (not necessarily true).
-Step 3 → Check Conclusion 2: Since no patient person is rude, and all teachers are educated (some of whom are patient), teachers could still be rude if they're not patient. Wait — if a teacher WERE rude, they'd contradict statement 3. But wait, statement 3 says no patient person is rude, not that all rude people aren't patient. A teacher could be rude AND not patient. So this doesn't necessarily follow either. Actually, re-read: No patient people are rude = Rude people are never patient. Teachers might or might not be patient, so teachers might or might not be rude. **Invalid.**
+Step 3 → Check Conclusion 2: Statement 3 only forbids *patient* people from being rude; equivalently, every rude person is non-patient. It says nothing about teachers who are not patient. Since teachers need not be patient, a teacher can be both rude and non-patient without contradicting any statement. So "No teacher is rude" need not hold. **Invalid.**
 
 **Answer:** Neither conclusion follows.
 

@@ -107,7 +107,7 @@ The cell membrane is described as a "fluid mosaic" because:
 
 The nucleus is bounded by a double nuclear membrane (nuclear envelope) with nuclear pores. The nucleolus (inside the nucleus) is the site of ribosomal RNA (rRNA) synthesis.
 
-DNA is packaged with histone proteins to form chromatin. During cell division, chromatin condenses to form visible chromosomes (46 in humans, 40 in Nigerian dwarf goat — wait, that's wrong, humans have 46, fruit flies have 8).
+DNA is packaged with histone proteins to form chromatin. During cell division, chromatin condenses to form visible chromosomes. The number of chromosomes is constant for a given species — humans have 46 (23 pairs), while fruit flies (Drosophila) have 8 (4 pairs).
 
 **The Endomembrane System:**
 

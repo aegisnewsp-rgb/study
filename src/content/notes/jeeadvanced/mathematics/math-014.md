@@ -64,7 +64,7 @@ where $B_i$ form a partition of $S$.
 
 When outcomes are equally likely, counting principles apply.
 
-** urn problems:**
+**Urn problems:**
 
 - **With replacement:** Each draw is independent
 - **Without replacement:** Draws affect subsequent probabilities
@@ -130,52 +130,29 @@ $E[X] = E[E[X|Y]]$ (law of total expectation).
 
 *Problem 1 (JEE Advanced 2023):* An urn contains 5 white and 5 black balls. Balls are drawn without replacement until all balls of one colour are exhausted. Find the expected number of draws.
 
-Let $X$ be the number of draws needed. We draw until only one colour remains.
-The process stops when either all whites or all blacks are drawn.
-By symmetry and linearity of expectation, we can compute $E[X]$.
+The clean way to handle this is to count the balls that are **left undrawn** when the process stops, rather than the draws themselves. If $X$ is the number of draws and $L$ is the number of balls remaining at the stopping point, then $X + L = 10$, so
+$$E[X] = 10 - E[L].$$
 
-Actually, the key insight: we need to draw until one colour runs out. The last ball drawn is always the colour that "wins".
-The minimum draws is 6 (all 5 of one colour + 1 of the other). Maximum is 10 (one colour just runs out last).
-Using symmetry and analysis of the last ball: $P(\text{last ball is white}) = P(\text{last ball is black}) = 1/2$.
-Actually for draws without replacement, the last ball is equally likely to be any ball, so $P(\text{last ball white}) = 5/10 = 1/2$.
-But the stopping condition is when one colour is exhausted. The number of draws until stopping is the position of the last ball of the majority colour.
+When one colour is exhausted, every ball still in the urn must be of the *other* colour, so the leftover balls are all one colour. Use indicator variables. Imagine the 10 balls placed in a uniformly random order; the draw order is just this arrangement.
 
-This is a classic negative hypergeometric problem. The expected number is:
-$$E[X] = \frac{N+1}{2} \cdot \frac{K+1}{N+2} + \frac{N+1}{2} \cdot \frac{N-K+1}{N+2}$$
-where $N=10$ and $K=5$. Actually simpler: by symmetry between white and black, $E[X] = \frac{N+1}{2} = 5.5$.
+A particular white ball is left undrawn exactly when the process stops by exhausting the **black** balls *before* reaching this white ball — equivalently, when this white ball comes after all 5 black balls in the arrangement. Among the 6 balls consisting of this one white ball and the 5 black balls, each is equally likely to be last, so
+$$P(\text{this white ball is leftover}) = \frac{1}{6}.$$
 
-Wait, that's not right. Let me reconsider. The negative hypergeometric distribution gives the distribution of draws until $k$-th success.
-Here we stop when either whites or blacks are exhausted. If we draw $r$ balls, we stop when either we've drawn all 5 whites (in which case $r \geq 5$ and the $r$-th ball is black) or we've drawn all 5 blacks ($r$-th is white).
-Actually the draw count is the position of the last ball of the colour that wasn't exhausted. By symmetry and considering the ballot problem approach, we get $E[X] = \frac{N+1}{2} = 5.5$... but that would be for the position of a random ball.
+There are 5 white balls, and by the symmetry between the two colours the same probability applies to each black ball. By linearity of expectation,
+$$E[L] = 5 \cdot \frac{1}{6} + 5 \cdot \frac{1}{6} = \frac{10}{6} = \frac{5}{3}.$$
 
-Let me reconsider. The process stops when one colour is gone. This is equivalent to asking: if we shuffle all 10 balls, what's the position of the last ball of either colour? By symmetry, the expected position equals the expected position of the 5th ball of a given colour.
+Therefore
+$$E[X] = 10 - \frac{5}{3} = \frac{25}{3} \approx 8.33 \text{ draws.}$$
 
-Actually, let's think differently. If we arrange all 10 balls randomly, the position of the last white ball is where whites "finish". Similarly for blacks. We stop at $\max(\text{position of last white}, \text{position of last black})$. This is at least 6 (one colour done in 5 draws) and at most 10.
-By symmetry between the balls, all positions are equally likely for the "boundary". The expected stopping point can be computed as $\frac{11}{2}$ for the maximum of two random positions... Actually no.
+This is an instance of the **negative hypergeometric** stopping problem; the indicator method generalizes directly to $K$ white and $K$ black balls, giving leftover expectation $\frac{2K}{K+1}$ and expected draws $2K - \frac{2K}{K+1}$.
 
-Let me use a simpler argument: For any random arrangement, let $M$ be the maximum of the position of the last white and last black. The expected value of $M$ for $n$ white and $n$ black is known to be $\frac{3n+1}{2}$ for the maximum... Actually no.
+*Problem 2:* A fair coin is tossed repeatedly. Find the expected number of tosses to obtain the first head.
 
-For the negative hypergeometric: the probability we stop after $k$ draws is the probability that the $k$-th draw completes one colour, which means exactly one colour has all $K$ balls among the first $k$ draws.
-
-$P(\text{stop at } k) = \frac{\binom{K}{K}\binom{K}{0}}{\binom{2K}{K}} \cdot \frac{K}{2K-K+1} \times 2$ by symmetry = $\frac{2K}{2K-k+1} \cdot \frac{\binom{2K-k}{K}}{\binom{2K}{K}}$... This is getting complex.
-
-Better approach: The probability that whites get exhausted at draw $k$ means the last white is at position $k$ and position $k+1$ onwards are all blacks. This equals $\frac{\binom{k-1}{K-1}\binom{2K-k}{K}}{\binom{2K}{2K-K}}$ or something equivalent.
-
-For equal numbers $n=5$ and $K=5$, using symmetry and known result: $E[\text{stop}] = \frac{11}{3}$ is NOT correct.
-
-I think the correct answer is $E[X] = \frac{2n^2+2n}{2n+1}$ for the negative hypergeometric stopping time. With $n=5$: $E[X] = \frac{50+10}{11} = \frac{60}{11} \approx 5.45$.
-
-Actually for the more general result, when drawing without replacement until one category is empty: $E[X] = \frac{(K+L+1)K}{K+1} + \frac{(K+L+1)L}{L+1} - (K+L+1)$ or some symmetric form.
-
-For $K=L=n=5$: $E[X] = \frac{11 \times 5}{6} + \frac{11 \times 5}{6} - 11 = \frac{55}{6} + \frac{55}{6} - 11 = \frac{110}{6} - 11 = \frac{110-66}{6} = \frac{44}{6} = \frac{22}{3} \approx 7.33$.
-
-Hmm, let me just accept the known formula for expected draws until one colour exhausted is $\frac{2K}{K+1} + \frac{2L}{L+1} - 1$ for the symmetric case $K=L=n$: this gives $4 - 1 = 3$ which is clearly wrong.
-
-I'll state the expected value as approximately 6.5 and move on — the precise answer for $n=5$ is $6$ via symmetry for some cases.
+This is geometric with $p = \tfrac{1}{2}$, so $E[X] = \frac{1}{p} = 2$ tosses.
 
 **JEE Advanced Patterns (2018–2024):**
 - Bayes' theorem and total probability are frequently tested
-- Binomial distribution withurns/probability appears most years
+- Binomial distribution with urns/probability appears most years
 - Expectation calculations using linearity and conditional expectation (2021, 2023)
 - Negative binomial and geometric distribution appeared in 2020 and 2022
 - Problems combining probability with algebra (finding coefficients, etc.) are trending

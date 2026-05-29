@@ -92,33 +92,28 @@ $f'_-(2) = \lim_{h \to 0^-} \frac{f(2+h) - f(2)}{h} = \lim_{h \to 0^-} \frac{4-(
 $f'_+(2) = \lim_{h \to 0^+} \frac{(2+h)^2-4}{h} = \lim_{h \to 0^+} \frac{4+4h+h^2-4}{h} = \lim_{h \to 0^+} (4 + h) = 4$.
 Since $-4 \neq 4$, not differentiable at $x=2$.
 
-*Example 2 (JEE 2021):* Find $k$ such that $f(x) = \begin{cases} kx^2 & x \leq 1 \\ x + k & x > 1 \end{cases}$ is differentiable at $x=1$.
+*Example 2 (JEE 2021):* Find $a$ and $b$ such that $f(x) = \begin{cases} ax^2 + b & x \leq 1 \\ x & x > 1 \end{cases}$ is differentiable at $x=1$.
 
-First, for differentiability, must be continuous:
-$f(1) = k(1)^2 = k$.
-$\lim_{x \to 1^-} f(x) = k$.
-$\lim_{x \to 1^+} f(x) = 1 + k$.
-For continuity at 1: $k = 1 + k$ → $0 = 1$, contradiction.
-So no value of $k$ makes $f$ continuous at $x=1$, hence not differentiable.
-Wait, the problem might have intended a form where continuity is possible.
+A differentiable function must first be continuous, then have matching one-sided derivatives.
 
-Actually, maybe we want $k$ in the second piece? Let me recompute.
-$f(1) = k \cdot 1^2 = k$ from left.
-$\lim_{x \to 1^+} f(x) = 1 + k$.
-For continuity: $k = 1 + k$ → $0 = 1$. Impossible.
+Continuity at $x=1$:
+$\lim_{x \to 1^-} f(x) = a(1)^2 + b = a + b$ and $\lim_{x \to 1^+} f(x) = 1$.
+So continuity requires $a + b = 1$.
 
-So answer is: no such $k$ exists.
+Matching derivatives at $x=1$:
+$f'_-(1) = \frac{d}{dx}(ax^2 + b)\big|_{x=1} = 2a$ and $f'_+(1) = \frac{d}{dx}(x)\big|_{x=1} = 1$.
+So differentiability requires $2a = 1$, giving $a = \frac{1}{2}$.
+
+Substituting into $a + b = 1$ gives $b = \frac{1}{2}$.
+
+Hence $a = b = \frac{1}{2}$.
 
 *Example 3:* Is $f(x) = x^2 |x|$ differentiable everywhere?
 
-$f(x) = x^2 \cdot |x| = x^2 \cdot \text{sgn}(x) \cdot x = x^3$ for $x > 0$? Actually $x^2 |x| = x^2 \cdot |x| = x^2 \cdot x$ for $x \geq 0$ and $x^2 \cdot (-x) = -x^3$ for $x < 0$.
-So $f(x) = \begin{cases} -x^3 & x < 0 \\ x^3 & x \geq 0 \end{cases} = x^3$ (since $|x| = x$ for $x \geq 0$ and $-x$ for $x < 0$, but $x^2 (-x) = -x^3$ and $x^2 (x) = x^3$).
+Write $f$ piecewise using $|x| = x$ for $x \geq 0$ and $|x| = -x$ for $x < 0$:
+$$f(x) = \begin{cases} -x^3 & x < 0 \\ x^3 & x \geq 0 \end{cases}$$
 
-Wait: $x^2 |x| = x^2 \cdot |x|$.
-If $x \geq 0$: $|x| = x$, so $f(x) = x^3$.
-If $x < 0$: $|x| = -x$, so $f(x) = -x^3$.
-
-At $x = 0$: $f(0) = 0$.
+For $x \neq 0$ this is a polynomial on each piece, so it is differentiable there. The only point to check is $x = 0$, where $f(0) = 0$.
 Left derivative: $\lim_{h \to 0^-} \frac{-h^3 - 0}{h} = \lim_{h \to 0^-} \frac{-h^3}{h} = \lim_{h \to 0^-} (-h^2) = 0$.
 Right derivative: $\lim_{h \to 0^+} \frac{h^3}{h} = \lim_{h \to 0^+} h^2 = 0$.
 Both equal 0, so differentiable at 0 (and everywhere else since $x^3$ is differentiable).

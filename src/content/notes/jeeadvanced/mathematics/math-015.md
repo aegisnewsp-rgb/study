@@ -78,20 +78,11 @@ Special values: $D_1 = 0, D_2 = 1, D_3 = 2, D_4 = 9, D_5 = 44$.
 
 *Example 1:* How many 5-digit numbers can be formed using digits 1, 2, 3, 4, 5 (without repetition) that are divisible by 4?
 
-A number is divisible by 4 if its last two digits form a number divisible by 4.
-Last two digits can be: 12, 24, 32, 44 (no 44 since no repetition), 52.
-List all pairs: 12, 24, 32, 52 (also 44 impossible, 20 not valid).
-Also 04 combinations: but no zero in our set. So 12, 24, 32, 52. Also 44 doesn't work, 04 isn't in set.
+A number is divisible by 4 if and only if its last two digits form a number divisible by 4. So the strategy is to fix the last two positions with a valid pair and freely arrange the rest.
 
-Wait also 04, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, 56, 60, 64, 68, 72, 76, 80, 84, 88, 92, 96.
+Using only the digits 1–5 with no repetition, the ordered two-digit endings divisible by 4 are: 12, 24, 32, and 52. (Endings such as 44 or 04 are excluded because they require a repeated digit or a 0, neither of which is available.) That gives 4 valid choices for the last two positions.
 
-With digits 1-5 only: possible pairs (ordered): 12, 24, 32, 52.
-Also 04 not possible.
-And also 44, 00 not in set.
-What about 20? digits 2 and 0, but no 0.
-
-So pairs: 12, 24, 32, 52. That's 4 possibilities for the last two positions.
-For each, the first 3 positions can be filled with remaining 3 digits in $3! = 6$ ways.
+For each such ending, the first 3 positions are filled with the remaining 3 digits in $3! = 6$ ways.
 Total: $4 \times 6 = 24$ numbers.
 
 *Example 2 (JEE 2022):* Count arrangements of "EXAMINATION" where vowels appear together.
@@ -131,46 +122,43 @@ Total: $24 \times 120 = 2880$.
 
 **Partition of Numbers:**
 
-**Ferrers Diagram:** Visual representation of partitions.
+**Ferrers Diagram:** Visual representation of partitions, where each part of the partition is drawn as a row of dots. Conjugating (reflecting) the diagram gives a partition into parts whose sizes correspond to the column counts, which is the basis of many partition identities.
 
-The number of partitions of $n$ into at most $k$ parts, each at most $m$, equals coefficient of $x^n$ in $(1-x)(1-x^2)\cdots(1-x^m)(1-x)\cdots(1-x^k)$ or equivalently the partition function $p_k^m(n)$.
+The number of partitions of $n$ into at most $k$ parts equals the number of partitions of $n$ into parts each of size at most $k$ — the two are related by conjugation of the Ferrers diagram.
 
 **Generating Functions for Permutations:**
 
-The exponential generating function (EGF) for permutations is:
-$$\sum_{n=0}^{\infty} P(n,r) \frac{x^n}{n!} = \left(1 + \frac{x}{1}\right)\left(1 + \frac{x}{1}\right)\cdots\left(1 + \frac{x}{1}\right) \text{ (r factors)} = \left(1 + x\right)^r$$
+Generating functions package a counting sequence into the coefficients of a power series. For permutations, the exponential generating function (EGF) is the natural tool, since labelled arrangements are weighted by $\frac{x^n}{n!}$.
 
-Wait, that's for permutations with some property. Actually EGF for all permutations is $\sum \frac{n! x^n}{n!} = \frac{1}{1-x}$.
+The EGF for the number of permutations of an $n$-element set is
+$$\sum_{n=0}^{\infty} n! \, \frac{x^n}{n!} = \sum_{n=0}^{\infty} x^n = \frac{1}{1-x}.$$
+
+More generally, the ordinary generating function for the falling factorials (ordered selections) uses the identity $\sum_{r} P(n,r) = \lfloor e \cdot n! \rfloor$ for the total number of partial permutations of an $n$-set.
 
 **Advanced Problems:**
 
 *Problem 1 (JEE Advanced 2020):* Find the number of 9-digit numbers with digits 1–9 where each digit appears exactly once, and the number is divisible by 9.
 
-A number is divisible by 9 if sum of digits is divisible by 9.
+A number is divisible by 9 if the sum of its digits is divisible by 9.
 Sum of digits 1–9 = 45, which is divisible by 9. So ANY arrangement of 1–9 is divisible by 9.
 Number of such arrangements: $9! = 362880$.
 
 *Problem 2:* In how many ways can 12 examination papers be distributed among 4 students so that each student gets at least one paper?
 
 Total ways to assign 12 distinct papers to 4 students: $4^{12}$ (each paper has 4 choices).
-Subtract assignments where at least one student gets nothing. Use inclusion-exclusion.
-$A_i$ = student $i$ gets no papers.
+Subtract assignments where at least one student gets nothing, using inclusion-exclusion. Let $A_i$ be the event that student $i$ gets no papers.
 $|A_i| = 3^{12}$ (papers go to remaining 3).
 $|A_i \cap A_j| = 2^{12}$.
-$|A_1 \cap A_2 \cap A_3| = 1^{12} = 1$.
+$|A_i \cap A_j \cap A_k| = 1^{12} = 1$.
 $|A_1 \cap A_2 \cap A_3 \cap A_4| = 0$.
 
-So answer: $\binom{4}{1}3^{12} - \binom{4}{2}2^{12} + \binom{4}{3}1^{12} = 4 \cdot 531441 - 6 \cdot 4096 + 4 \cdot 1 = 2125764 - 24576 + 4 = 2101192$.
-
-Wait $3^{12} = 531441$ correct.
-$4^{12} = 16777216$.
-$4 \cdot 531441 = 2125764$.
-$6 \cdot 4096 = 24576$.
-$4 \cdot 1 = 4$.
-So answer: $16777216 - 2125764 + 24576 - 4 = 14676024$.
+By inclusion-exclusion, the count of "every student gets at least one paper" is
+$$4^{12} - \binom{4}{1}3^{12} + \binom{4}{2}2^{12} - \binom{4}{3}1^{12}.$$
+Using $4^{12} = 16777216$, $3^{12} = 531441$, $2^{12} = 4096$:
+$$16777216 - 4 \cdot 531441 + 6 \cdot 4096 - 4 \cdot 1 = 16777216 - 2125764 + 24576 - 4 = 14676024.$$
 
 *Problem 3:* Number of surjections from an $n$-set to an $m$-set ($n \geq m$):
-$$m! S(n,m)$$
+$$m! \, S(n,m)$$
 where $S(n,m)$ are Stirling numbers of the second kind.
 
 $S(n,m) = \frac{1}{m!} \sum_{k=0}^{m} (-1)^k \binom{m}{k} (m-k)^n$.

@@ -12,15 +12,18 @@ generated: "2026-03-25T17:00:00"
 
 # Pronunciation and Fluency in MUET Speaking
 
-## Why Pronunciation Matters
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
+
+#### Why Pronunciation Matters
 
 In the MUET Speaking assessment, pronunciation carries significant weight — it is one of the four marking criteria. However, the key principle is **intelligibility**: your speech must be clear enough for an examiner to understand without strain. Perfect native-like pronunciation is not required, but consistent clarity is.
 
 For Malaysian speakers, there are predictable patterns of difficulty that are well-documented among MUET examiners. Knowing these allows you to target your practice effectively.
 
-## Common Pronunciation Issues for Malaysian Speakers
+#### Common Pronunciation Issues for Malaysian Speakers
 
-### Vowel Confusion
+##### Vowel Confusion
 Malaysian languages tend to have fewer vowel sounds than English. This causes several common errors:
 
 - **/ɪ/ vs /iː/** — "sit" vs "seat", "ship" vs "sheep"
@@ -31,15 +34,19 @@ Malaysian languages tend to have fewer vowel sounds than English. This causes se
 - *sit / seat, ship / sheep, bit / beat*
 - *bad / bud, cat / cut, tap / tup*
 
-### Final Consonant Omission
+##### Final Consonant Omission
 In Malaysian English, speakers often drop final consonants, particularly /t/, /d/, /s/, and /k/. This makes words like "wanted," "passed," and "cooked" sound like their uninflected forms.
 
 **Practical fix:** When practising, consciously exaggerate the final consonant. Place your hand in front of your mouth — you should feel a small puff of air for /t/ and /p/.
 
-### Consonant Cluster Simplification
+##### Consonant Cluster Simplification
 English words like "streets," "texts," and "platforms" have consonant clusters that Malaysian speakers often simplify by inserting a vowel or dropping a consonant.
 
-**Practical fix:** Break the word into syllables: /plat-form/ rather than /plat-form/. Slow, deliberate practice of these words in isolation before using them in sentences is very effective.
+**Practical fix:** Break the word into clean syllables and keep every consonant: say "plat-form" rather than the simplified "pla-fom", and "streets" with a fully released final cluster /striːts/ rather than /striːs/. Slow, deliberate practice of these words in isolation before using them in sentences is very effective.
+
+---
+
+### 🟡 Standard — Regular Study (2d–2mo)
 
 ## Word Stress — The Most Critical Area
 
@@ -56,8 +63,8 @@ English is a stress-timed language, meaning stressed syllables occur at roughly 
 | Two-syllable nouns | REcord, CONtest | First syllable |
 | Two-syllable verbs | reCORD, conTEST | Second syllable |
 | Two-syllable adjectives | haPPY, soLID | Second syllable |
-| Three-syllable words | eMER GEN cy | First and third |
-| -tion endings | eduCAtion, orgaNAtion | Penultimate syllable |
+| Three-syllable words | eMERgency, fanTAStic | Second syllable |
+| -tion endings | eduCAtion, organiSAtion | Penultimate syllable |
 
 ⚡ **Exam tip:** Using the wrong stress pattern on a common word is one of the fastest ways to lose pronunciation marks. For example, saying "REcord" when you mean "reCORD" (noun vs verb) marks you immediately as non-fluent.
 
@@ -65,6 +72,33 @@ English is a stress-timed language, meaning stressed syllables occur at roughly 
 These follow different stress patterns:
 - **Compound noun:** "BLACKboard" (stress on first part)
 - **Compound verb:** "black BOARD" (stress on second part)
+
+## Intonation Patterns
+
+### Statement Intonation
+Use a falling intonation at the end of statements:
+*"I believe that climate change is a serious issue."* ↓
+
+### Question Intonation
+Yes/No questions rise before the answer:
+*"Do you think university fees should be subsidised?"* ↗
+
+Wh-questions fall:
+*"What are the main causes of urban pollution?"* ↓
+
+### Listing Intonation
+When listing items, rise on all items except the last:
+*"I would like to discuss three points: first, *economic* growth; second, *environmental* impact; and third, *social* equality."* ↗ ↗ ↓
+
+### Contrast and Emphasis
+When contrasting two ideas, stress the key word and use clear intonation shift:
+*"I understand the *economic* argument, but I believe the *environmental* cost is too high."*
+
+⚡ **Exam tip:** A common Malaysian English pattern is flat, monotonous intonation throughout. Even if your grammar and vocabulary are excellent, flat intonation signals limited proficiency. Practice marking intonation in your scripts using arrows (↗ ↓ ↗ ↓) before you speak.
+
+---
+
+### 🔴 Extended — Deep Study (3mo+)
 
 ## Connected Speech — Sounding Natural
 
@@ -79,8 +113,8 @@ Native English speakers rarely pronounce each word in isolation. They blend soun
 *"I saw you[j]at the event."* → "I saw you at the event"
 
 **3. Elision — Consonants are omitted in fast speech:**
-*"Goldsmith"* → /goʊdstθ/ (d is absorbed)
-*"Christmas"* → /krɪsməs/ (t is dropped)
+*"Christmas"* → /ˈkrɪsməs/ (the t is dropped)
+*"sandwich"* → /ˈsænwɪdʒ/ (the d is absorbed)
 
 **4. Assimilation — One sound changes to match a neighbouring sound:**
 *"In bank"* → /ɪŋ bæŋk/ (n becomes ŋ before b)
@@ -108,29 +142,6 @@ Self-correction is actually a **positive signal** — it shows you are monitorin
 
 Do not make a production error and then leave it uncorrected if it significantly changes your meaning. Natural self-repair is a mark of a Band 4+ speaker.
 
-## Intonation Patterns
-
-### Statement Intonation
-Use a falling intonation at the end of statements:
-*"I believe that climate change is a serious issue."* ↓
-
-### Question Intonation
-Yes/No questions rise before the answer:
-*"Do you think university fees should be subsidised?"* ↗
-
-Wh-questions fall:
-*"What are the main causes of urban pollution?"* ↓
-
-### Listing Intonation
-When listing items, rise on all items except the last:
-*"I would like to discuss three points: first, *economic* growth; second, *environmental* impact; and third, *social* equality."* ↗ ↗ ↓
-
-### Contrast and Emphasis
-When contrasting two ideas, stress the key word and use clear intonation shift:
-*"I understand the *economic* argument, but I believe the *environmental* cost is too high."*
-
-⚡ **Exam tip:** A common Malaysian English pattern is flat, monotonous intonation throughout. Even if your grammar and vocabulary are excellent, flat intonation signals limited proficiency. Practice marking intonation in your scripts using arrows (↗ ↓ ↗ ↓) before you speak.
-
 ## A Practice Routine for Pronunciation
 
 1. Choose 5 words with difficult stress patterns each day
@@ -140,4 +151,5 @@ When contrasting two ideas, stress the key word and use clear intonation shift:
 5. Practise the same paragraph multiple times until it feels effortless
 
 ---
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

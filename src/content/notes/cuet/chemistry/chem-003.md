@@ -116,7 +116,7 @@ Explained by: (1) Electron sea model — delocalised electrons in a lattice of p
 For NaCl: $\Delta_f H^\circ = \Delta_{atom}H(Na) + \frac{1}{2}\Delta_{bond}H(Cl_2) + IEA(Na) + EA(Cl) + \Delta_{lattice}H$. With values: $107 + 122 + 496 + (-349) + \Delta_{lattice}H = -411$. $\Delta_{lattice}H = +787$ kJ/mol. This large positive lattice energy makes NaCl stable.
 
 **CUET Exam Trends:**
-Questions frequently test: (1) VSEPR shape prediction from formula, (2) Formal charge calculation on Lewis structures, (3) MO theory bond order for $O_2$, $N_2$, $He_2$, (4) H-bonding in water/alcohols and its effects on boiling point, (5) Fajans' rule for comparing ionic character. JEE 2022 asked: "Which molecule has the highest dipole moment among CH₄, NH₃, H₂O, CO₂?" Answer: NH₃ (μ = 1.47 D) > H₂O (1.85 D wait — actually H₂O has higher μ). Let me recalculate: H₂O has 1.85 D, NH₃ has 1.47 D. So H₂O > NH₃ > CH₄ = 0 > CO₂ = 0.
+Questions frequently test: (1) VSEPR shape prediction from formula, (2) Formal charge calculation on Lewis structures, (3) MO theory bond order for $O_2$, $N_2$, $He_2$, (4) H-bonding in water/alcohols and its effects on boiling point, (5) Fajans' rule for comparing ionic character. JEE 2022 asked: "Which molecule has the highest dipole moment among CH₄, NH₃, H₂O, CO₂?" The dipole moments are H₂O = 1.85 D, NH₃ = 1.47 D, while both CH₄ (tetrahedral) and CO₂ (linear) have μ = 0 because their bond dipoles cancel by symmetry. The order is therefore H₂O > NH₃ > CH₄ = CO₂ = 0, so the answer is H₂O (1.85 D). A common trap is to pick NH₃; remember that water's bent geometry combined with two highly polar O-H bonds gives it the larger net dipole.
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*

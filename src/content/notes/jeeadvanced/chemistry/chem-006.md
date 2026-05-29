@@ -81,14 +81,14 @@ For irreversible expansion against constant external pressure P_ext: w = −P_ex
 **Bond enthalpy**: Energy required to break 1 mole of bonds in gaseous molecules. Average bond enthalpy is used because bond energy varies slightly with environment.
 
 **Example**: Calculate ΔH for combustion of CH₄: CH₄ + 2O₂ → CO₂ + 2H₂O
-ΔH = [ΔH(C=O) in CO₂ × 2 + ΔH(O–H) × 4] − [ΔH(C–H) × 4 + ΔH(O=O) × 2]
-= [(2 × 805) + (4 × 463)] − [(4 × 414) + (2 × 496)]
-= (1610 + 1852) − (1656 + 992) = 3462 − 2648 = +814 kJ/mol
 
-Wait: Combustion should be exothermic (−ΔH). Let me recalculate:
-Actually: Bonds broken = 4(C–H) + 2(O=O) = 4(414) + 2(496) = 1656 + 992 = 2648 kJ (input)
-Bonds formed = 2(C=O) + 4(O–H) = 2(805) + 4(463) = 1610 + 1852 = 3462 kJ (released)
-ΔH = bonds broken − bonds formed = 2648 − 3462 = −814 kJ/mol ✓
+Apply ΔH = Σ(bonds broken) − Σ(bonds formed). Breaking bonds in the reactants absorbs energy (+), while forming bonds in the products releases energy (−), so the correct order is "broken minus formed."
+
+Bonds broken (reactants) = 4(C–H) + 2(O=O) = 4(414) + 2(496) = 1656 + 992 = 2648 kJ (input)
+Bonds formed (products) = 2(C=O) + 4(O–H) = 2(805) + 4(463) = 1610 + 1852 = 3462 kJ (released)
+ΔH = bonds broken − bonds formed = 2648 − 3462 = −814 kJ/mol
+
+The negative sign confirms combustion is exothermic, as expected. A common slip is to reverse the subtraction (formed − broken); always set it up as bonds broken minus bonds formed.
 
 **4. Kirchhoff's Law — Temperature Dependence of ΔH**
 

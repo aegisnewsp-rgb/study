@@ -41,7 +41,7 @@ Sound is a longitudinal wave propagating as alternating compressions (high press
 
 For sound in air (mostly diatomic N₂ and O₂): γ = 7/5 = 1.4, M = 0.029 kg/mol, so v ≈ 331 + 0.6T(°C) m/s (approximately 343 m/s at 20°C).
 
-**⚡ ECAT Tip:** The Doppler effect describes how the observed frequency changes when there is relative motion between source and observer: f' = f × (v ± v_o)/(v ∓ v_s), where v is the speed of sound in the medium. Upper signs for approach, lower for recession. If the source moves toward a stationary observer: f' increases (higher pitch). If the observer moves away from a stationary source: f' also increases... wait, let me be precise: f' = f(v ± v_o)/v for observer moving (plus when approaching), and f' = f × v/(v ∓ v_s) for source moving (minus when approaching). For source and observer both moving: combine both effects.
+**⚡ ECAT Tip:** The Doppler effect describes how the observed frequency changes when there is relative motion between source and observer. The general relation is f' = f × (v ± v_o)/(v ∓ v_s), where v is the speed of sound in the medium, v_o is the observer's speed, and v_s is the source's speed. Choose the upper signs for approach (relative motion that reduces the separation) and the lower signs for recession. Two special cases make the sign rule concrete: for an observer moving with a stationary source, f' = f(v ± v_o)/v, with the plus sign when the observer approaches; for a source moving toward a stationary observer, f' = f × v/(v − v_s), which raises the observed pitch. When both source and observer move, the two effects combine in a single expression. In every case, motion that brings source and observer closer together raises the observed frequency, while motion that increases their separation lowers it.
 
 ---
 
@@ -76,16 +76,16 @@ Intensity I = Power/Area = P/(4πr²) for spherical spreading. Intensity level i
 
 **Derivation of Wave Speed on a String:**
 
-Consider a string element of mass dm and length ds under tension T. For a transverse wave of small amplitude, the restoring force at the crest provides centripetal acceleration. A simpler approach: from energy: a pulse traveling along a string with speed v has kinetic energy ½μv²A² per unit length (μ = linear mass density). The potential energy stored due to stretching is also ½μv²A². The speed is determined by v = √(T/μ). This result shows that wave speed depends only on the physical properties of the string — not on the amplitude or frequency.
+Consider a string element of mass dm and length ds under tension T. For a transverse wave of small amplitude, the restoring force at the crest provides the centripetal acceleration that bends the element along the wave. An equivalent energy argument gives the same result: a pulse traveling along a string with speed v carries kinetic energy ½μv²A² per unit length (μ = linear mass density), and the potential energy stored due to stretching is also ½μv²A². Equating the elastic restoring effect to the inertia of the element yields v = √(T/μ). This result shows that wave speed depends only on the physical properties of the string — its tension and mass per unit length — not on the amplitude or frequency.
 
 **Sound in Tubes — End Corrections:**
 
-Real tubes have end corrections because the antinode at an open end actually forms slightly beyond the tube opening. Effective length L_eff = L + 0.3D for a pipe of diameter D. This is why tuning a guitar string precisely requires adjusting for the actual scale length including the portion that extends over the bridge.
+Real tubes have end corrections because the antinode at an open end actually forms slightly beyond the tube opening. Effective length L_eff = L + 0.3D for a pipe of diameter D. The same principle of effective versus physical length appears in stringed instruments, where the vibrating length includes the portion that extends over the bridge, so precise tuning accounts for the full acoustic scale length rather than the nominal one.
 
 **Ultrasound and Its Applications:**
 
 Ultrasound frequencies (> 20 kHz, above human hearing range) have important applications: (1) Medical imaging — A-scan, B-scan, and Doppler ultrasound in obstetrics and cardiology; (2) Industrial non-destructive testing — detecting flaws in welds and materials; (3) Sonar — using time-of-flight to measure ocean depth and detect submarines (v_sound in water ≈ 1500 m/s, much faster than in air).
 
-The acoustic impedance Z = ρv determines how much sound is reflected at an interface. For ultrasound imaging, the reflection at tissue interfaces depends on Z₁ - Z₂. This is why ultrasound works well for soft tissues but cannot image bone or lung (too much impedance mismatch).
+The acoustic impedance Z = ρv determines how much sound is reflected at an interface. For ultrasound imaging, the reflection at tissue interfaces depends on the impedance difference Z₁ - Z₂. This is why ultrasound works well for soft tissues, which have similar impedances, but cannot image bone or lung clearly because the impedance mismatch is too large and almost all the sound is reflected.
 
 **⚡ ECAT Pattern:** ECAT frequently tests: (1) v = fλ calculations with numerical values given for any two of v, f, λ; (2) Doppler effect problems where a source or observer moves and students must determine whether the observed frequency increases or decreases; (3) standing wave patterns in strings and pipes, identifying nodes and antinodes; and (4) intensity level in decibels calculations. A typical ECAT problem: "A source of frequency 500 Hz moves toward a stationary observer at 30 m/s. If the speed of sound is 340 m/s, what is the observed frequency?" f' = f × v/(v - v_s) = 500 × 340/(340 - 30) = 500 × 340/310 ≈ 548 Hz.

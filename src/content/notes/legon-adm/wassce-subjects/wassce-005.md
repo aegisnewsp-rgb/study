@@ -36,7 +36,7 @@ Indices (exponents) and logarithms are closely linked topics that frequently app
 - When solving exponential equations, try to express both sides with the same base if possible
 - Common logarithm base is 10: log x means log₁₀ x. Natural logarithm base is e ≈ 2.71828: ln x means log_e x
 
-⚡ **Exam Tip:** WASSCE often asks you to solve equations like 2^(x+1) = 32. Write 32 as 2^5, then equate exponents: x + 1 = 5, so x = 4. When solving log equations, always check that the argument is positive — a log equation like log₂(x − 3) = 4 requires x − 3 > 0, giving x > 3. Substitute x = 11 into the original: log₂(8) = 3 ≠ 4. Wait, let me recalculate: x − 3 = 2^4 = 16, so x = 19. Always verify your solution in the original equation.
+⚡ **Exam Tip:** WASSCE often asks you to solve equations like 2^(x+1) = 32. Write 32 as 2^5, then equate exponents: x + 1 = 5, so x = 4. When solving log equations, always check that the argument is positive — a log equation like log₂(x − 3) = 4 requires x − 3 > 0, giving x > 3. Convert to exponential form: x − 3 = 2^4 = 16, so x = 19. Verify in the original: log₂(19 − 3) = log₂ 16 = 4. ✓ Always substitute your solution back into the original equation to confirm both the value and the domain.
 
 ---
 
@@ -112,7 +112,7 @@ Example: Calculate log₂ 7 using a calculator. log₂ 7 = log₁₀ 7 / log₁�
 
 *Product law:* Let log_a M = x and log_a N = y, so M = a^x and N = a^y. Then MN = a^x × a^y = a^(x+y). Taking log base a: log_a (MN) = x + y = log_a M + log_a N. ✓
 
-*Quotient law:* MN = a^x / a^y = a^(x−y). So log_a (M/N) = x − y = log_a M − log_a N. ✓
+*Quotient law:* M/N = a^x / a^y = a^(x−y). So log_a (M/N) = x − y = log_a M − log_a N. ✓
 
 *Power law:* M = a^x, so M^n = (a^x)^n = a^(nx). Therefore log_a (M^n) = nx = n log_a M. ✓
 

@@ -71,19 +71,15 @@ Total students = 50
 Total sum = 1400 + 2400 = 3800
 Overall average = 3800/50 = 76
 
-Shortcut (using alligation concept):
-Group 1: 20 students, avg 70
-Group 2: 30 students, avg 80
-Difference from overall: Group 1 gives 6, Group 2 gives 10
-Ratio = 6:10 = 3:5
-Overall average = (70 × 3 + 80 × 5)/8 = 410/8 = 51.25... 
-Wait, that's not right either.
+Shortcut (weighting by group size):
+The overall average is the weighted mean of the two group averages,
+with the weights being the number of students in each group.
+Overall average = (20 × 70 + 30 × 80)/(20 + 30)
+                = (1400 + 2400)/50
+                = 3800/50 = 76 ✓
 
-Let me recalculate properly:
-Sum 1 = 20 × 70 = 1400
-Sum 2 = 30 × 80 = 2400
-Total = 1400 + 2400 = 3800
-Average = 3800/50 = 76 ✓
+This always lies between the two group averages (70 and 80), and is
+pulled closer to 80 because the larger group (30 students) sits there.
 ```
 
 ⚡ **Common Mistake**: Don't just average the averages! (70+80)/2 = 75 is WRONG because there are different numbers of students.

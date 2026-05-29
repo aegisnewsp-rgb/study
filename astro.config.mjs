@@ -7,6 +7,25 @@ import path from 'path';
 import { readFileSync, readdirSync, statSync } from 'fs';
 import { execSync } from 'child_process';
 
+// AdSense/a11y: every note body opens with a markdown `# {topicName}` that
+// renders as a SECOND <h1> (the note template already emits <h1>{topicName}</h1>),
+// and the body title then jumps straight to the `### 🟢 Lite` tier h3 (h1->h3 skip).
+// Demote ALL body-level <h1> to <h2> at the render layer so each note page has
+// exactly one <h1> and a sequential outline. Note bodies are the only markdown
+// surface, so .astro page <h1>s are untouched (not markdown). The tier-color
+// inline script keys off h3 only, and no TOC consumer exists — verified safe.
+function rehypeDemoteBodyH1() {
+  return (tree) => {
+    const walk = (node) => {
+      if (node.children) for (const c of node.children) {
+        if (c.type === 'element' && c.tagName === 'h1') c.tagName = 'h2';
+        walk(c);
+      }
+    };
+    walk(tree);
+  };
+}
+
 // Load all exam slugs from exams.json to include in sitemap
 const EXAMS_JSON_PATH = path.resolve('./public/exams.json');
 let examSlugs = [];
@@ -59,6 +78,9 @@ console.log(`sitemap: loaded ${noteLastMod.size} per-URL lastmod entries`);
 
 export default defineConfig({
   site: 'https://studyroadmap.in',
+  markdown: {
+    rehypePlugins: [rehypeDemoteBodyH1],
+  },
   integrations: [
     react(),
     sitemap({

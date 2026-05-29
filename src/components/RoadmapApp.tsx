@@ -166,6 +166,7 @@ function SubjectAccordion({
             </span>
           )}
           <svg
+            aria-hidden="true" focusable={false}
             className={`w-4 h-4 text-surface-400 transition-transform duration-200 ${isOpen ? 'rotate-180' : ''}`}
             fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor"
           >
@@ -213,7 +214,7 @@ function SubjectAccordion({
                   }
                 }}
               >
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+                <svg aria-hidden="true" focusable={false} className="w-4 h-4" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
                 </svg>
               </a>
@@ -238,7 +239,7 @@ function SubjectAccordion({
                       }
                     }}
                   >
-                    <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+                    <svg aria-hidden="true" focusable={false} className="w-4 h-4" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
                     </svg>
                   </a>
@@ -493,7 +494,7 @@ export default function RoadmapApp({ exams }: Props) {
                     </optgroup>
                   ))}
                 </select>
-                <svg className="absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-surface-400 pointer-events-none" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+                <svg aria-hidden="true" focusable={false} className="absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-surface-400 pointer-events-none" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
                 </svg>
               </div>
@@ -517,7 +518,7 @@ export default function RoadmapApp({ exams }: Props) {
                     <option key={opt.value} value={opt.value}>{opt.label}</option>
                   ))}
                 </select>
-                <svg className="absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-surface-400 pointer-events-none" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+                <svg aria-hidden="true" focusable={false} className="absolute right-3 top-1/2 -translate-y-1/2 w-4 h-4 text-surface-400 pointer-events-none" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
                 </svg>
               </div>
@@ -540,7 +541,7 @@ export default function RoadmapApp({ exams }: Props) {
         <section className="container-page pb-14 space-y-6 max-w-4xl mx-auto">
           {/* Disclaimer */}
           <div className="flex items-start gap-2.5 p-3 bg-amber-50 dark:bg-amber-900/20 border border-amber-200 dark:border-amber-800 rounded-xl">
-            <svg className="w-4 h-4 text-amber-500 shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+            <svg aria-hidden="true" focusable={false} className="w-4 h-4 text-amber-500 shrink-0 mt-0.5" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126ZM12 15.75h.007v.008H12v-.008Z" />
             </svg>
             <p className="text-xs text-amber-700 dark:text-amber-300 leading-relaxed">
@@ -583,12 +584,12 @@ export default function RoadmapApp({ exams }: Props) {
                 >
                   {copied ? (
                     <>
-                      <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" /></svg>
+                      <svg aria-hidden="true" focusable={false} className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" /></svg>
                       Copied!
                     </>
                   ) : (
                     <>
-                      <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" d="M7.217 10.907a2.25 2.25 0 100 2.186m0-2.186c.18.324.43.615.74.937.31.322.673.586.986.748l4.837 3.125a2.25 2.25 0 01.447 1.634v.626a.75.75 0 01-.75.75h-2.5a.75.75 0 01-.75-.75v-1.803a2.083 2.083 0 01-.447-1.27l.795-1.23a1.994 1.994 0 00-.448-2.522l-3.5-2.5a1.994 1.994 0 00-2.522.448l-1.5 1.5a2.25 2.25 0 102.186 2.186m5.25-4.499v5.142m0-5.142l-5.25 4.5-5.25-4.5" /></svg>
+                      <svg aria-hidden="true" focusable={false} className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" d="M7.217 10.907a2.25 2.25 0 100 2.186m0-2.186c.18.324.43.615.74.937.31.322.673.586.986.748l4.837 3.125a2.25 2.25 0 01.447 1.634v.626a.75.75 0 01-.75.75h-2.5a.75.75 0 01-.75-.75v-1.803a2.083 2.083 0 01-.447-1.27l.795-1.23a1.994 1.994 0 00-.448-2.522l-3.5-2.5a1.994 1.994 0 00-2.522.448l-1.5 1.5a2.25 2.25 0 102.186 2.186m5.25-4.499v5.142m0-5.142l-5.25 4.5-5.25-4.5" /></svg>
                       Share roadmap
                     </>
                   )}
@@ -618,7 +619,7 @@ export default function RoadmapApp({ exams }: Props) {
                   className="text-xs text-surface-500 hover:text-surface-700 dark:hover:text-surface-300 transition-colors font-medium flex items-center gap-1"
                   title="Print your roadmap"
                 >
-                  <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+                  <svg aria-hidden="true" focusable={false} className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M6.72 13.829c-.24.03-.48.062-.72.096m.72-.096a42.415 42.415 0 0 1 10.56 0m-10.56 0L6.34 18m10.94-4.171c.24.03.48.062.72.096m-.72-.096L17.66 18m0 0 .229 2.523a1.125 1.125 0 0 1-1.12 1.227H7.231c-.662 0-1.18-.568-1.12-1.227L6.34 18m11.318 0h1.091A2.25 2.25 0 0 0 21 15.75V9.456c0-1.081-.768-2.015-1.837-2.175a48.055 48.055 0 0 0-1.913-.247M6.34 18H5.25A2.25 2.25 0 0 1 3 15.75V9.456c0-1.081.768-2.015 1.837-2.175a48.041 48.041 0 0 1 1.913-.247m10.5 0a48.536 48.536 0 0 0-10.5 0m10.5 0V3.375c0-.621-.504-1.125-1.125-1.125h-8.25c-.621 0-1.125.504-1.125 1.125v3.659M18 10.5h.008v.008H18V10.5Zm-3 0h.008v.008H15V10.5Z" />
                   </svg>
                   Print
@@ -670,7 +671,7 @@ export default function RoadmapApp({ exams }: Props) {
         <section className="container-page pb-20">
           <div className="max-w-2xl mx-auto text-center py-16">
             <div className="w-16 h-16 rounded-2xl bg-surface-100 dark:bg-surface-800 flex items-center justify-center mx-auto mb-4">
-              <svg className="w-8 h-8 text-surface-400" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+              <svg aria-hidden="true" focusable={false} className="w-8 h-8 text-surface-400" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M9 6.75V15m6-6v8.25m.503 3.498l4.875-2.437c.381-.19.622-.58.622-1.006V4.82c0-.836-.88-1.38-1.628-1.006l-3.869 1.934c-.317.159-.69.159-1.006 0L9.503 3.252a1.125 1.125 0 0 0-1.006 0L3.622 5.689C3.24 5.88 3 6.27 3 6.695V19.18c0 .836.88 1.38 1.628 1.006l3.869-1.934c.317-.159.69-.159 1.006 0l4.994 2.497c.317.158.69.158 1.006 0Z" />
               </svg>
             </div>

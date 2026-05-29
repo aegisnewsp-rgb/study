@@ -28,3 +28,8 @@ _bmad/
 _bmad-output/
 .claude/
 test-results/
+
+# build/compiled artifacts that must never be tracked (leaked previously)
+__pycache__/
+*.pyc
+*.tar.gz

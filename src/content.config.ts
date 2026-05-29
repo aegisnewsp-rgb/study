@@ -13,6 +13,9 @@ const notes = defineCollection({
     weight: z.number(),
     country: z.string(),
     generated: z.union([z.string(), z.date()]).transform((v) => typeof v === 'string' ? v : v.toISOString().slice(0, 10)),
+    // Real last-edit date stamped by the curate worker on rewrite. Optional:
+    // notes that have never been rewritten fall back to `generated` at render.
+    lastUpdated: z.union([z.string(), z.date()]).transform((v) => typeof v === 'string' ? v : v.toISOString().slice(0, 10)).optional(),
     diagramPrompt: z.string().optional(),
   }),
 });

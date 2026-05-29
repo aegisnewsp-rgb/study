@@ -50,6 +50,16 @@ const ogImage = fs.existsSync(path.join(process.cwd(), 'public', _candidateOg))
 const siteUrl = 'https://studyroadmap.in';
 const authorObj = { name: "Pushkar Saini", jobTitle: "Founder & Editor", affiliation: "StudyRoadmap", url: "https://studyroadmap.in/author/pushkar-saini/" };
 
+// Honest per-note modified date. Prefer the `lastUpdated` stamp the curate worker
+// writes on rewrite; otherwise fall back to the note's authoring date (`generated`).
+// Never `new Date()` — stamping build-time on every page on every rebuild is a
+// fake-freshness signal that hurts E-E-A-T and trips AdSense scaled-content review.
+const _modRaw = String(note.data.lastUpdated || note.data.generated || '2026-01-01');
+const _modDate = new Date(/^\d{4}-\d{2}-\d{2}$/.test(_modRaw) ? `${_modRaw}T00:00:00Z` : _modRaw);
+const lastModifiedISO = isNaN(_modDate.getTime()) ? '2026-01-01T00:00:00.000Z' : _modDate.toISOString();
+const lastModifiedDay = lastModifiedISO.slice(0, 10);
+const lastModifiedDisplay = new Date(lastModifiedISO).toLocaleDateString('en-IN', { year: 'numeric', month: 'long', day: 'numeric' });
+
 // Pull the exam's official-source URL so we can cite it inside the note body
 // (each indexed note gets at least one authoritative external link).
 const examMeta = (ALL_EXAMS as any[]).find((e) => e && e.examId === exam);
@@ -240,7 +250,7 @@ const articleJsonLd = {
     logo: { '@type': 'ImageObject', url: `${siteUrl}/favicon.svg` },
   },
   datePublished: note.data.generated || '2026-01-01',
-  dateModified: new Date().toISOString(),
+  dateModified: lastModifiedISO,
   image: `${siteUrl}${ogImage}`,
   mainEntityOfPage: { '@type': 'WebPage', '@id': canonicalUrl },
   about: {
@@ -320,7 +330,7 @@ const articleJsonLd = {
           <div class="not-prose mb-6 flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-surface-500 dark:text-surface-400">
             <span>By <a href="/author/pushkar-saini/" class="text-brand-600 dark:text-brand-400 hover:underline" rel="author">Pushkar Saini</a></span>
             <span aria-hidden="true">·</span>
-            <span>Last updated <time datetime={new Date().toISOString().slice(0,10)}>{new Date().toLocaleDateString('en-IN', { year:'numeric', month:'long', day:'numeric' })}</time></span>
+            <span>Last updated <time datetime={lastModifiedDay}>{lastModifiedDisplay}</time></span>
             <span aria-hidden="true">·</span>
             <span>{weight}% exam weight</span>
           </div>
@@ -368,7 +378,7 @@ const articleJsonLd = {
                 Editorial methodology: <a href="/editorial-process/" class="text-brand-600 dark:text-brand-400 hover:underline">research → draft → fact-verify → curate pipeline</a>
               </li>
               <li>
-                Reviewed by <a href="/author/pushkar-saini/" class="text-brand-600 dark:text-brand-400 hover:underline" rel="author">Pushkar Saini</a> · last updated <time datetime={new Date().toISOString().slice(0,10)}>{new Date().toLocaleDateString('en-IN', { year:'numeric', month:'long', day:'numeric' })}</time>
+                Reviewed by <a href="/author/pushkar-saini/" class="text-brand-600 dark:text-brand-400 hover:underline" rel="author">Pushkar Saini</a> · last updated <time datetime={lastModifiedDay}>{lastModifiedDisplay}</time>
               </li>
               <li>
                 Found an error? Email <a href="mailto:pushkersaini@gmail.com" class="text-brand-600 dark:text-brand-400 hover:underline">pushkersaini@gmail.com</a> with the page URL and a one-line description — corrections typically actioned within 48 hours.

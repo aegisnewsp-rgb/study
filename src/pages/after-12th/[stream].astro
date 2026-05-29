@@ -95,7 +95,7 @@ const breadcrumbJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: SITE_URL },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE_URL}/` },
     { '@type': 'ListItem', position: 2, name: 'After 12th', item: `${SITE_URL}/after-12th/` },
     { '@type': 'ListItem', position: 3, name: meta.label, item: canonicalUrl },
   ],
@@ -106,7 +106,7 @@ const breadcrumbJsonLd = {
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
   <script type="application/ld+json" set:html={JSON.stringify(itemListJsonLd)} />
   <Navbar />
-  <main class="flex-1">
+  <main id="main-content" class="flex-1">
     <section class="bg-surface-50 dark:bg-surface-950 border-b border-surface-200 dark:border-surface-800">
       <div class="container-page py-10">
         <nav class="text-sm text-surface-500 mb-4"><a href="/">Home</a> › <a href="/after-12th/">After 12th</a> › <span>{meta.label}</span></nav>

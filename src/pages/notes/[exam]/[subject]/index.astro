@@ -32,7 +32,7 @@ const subjectHubRobots = subjectNotes.length < 3 ? 'noindex,follow' : undefined;
 // Weight distribution for the subject (visible weightage table)
 const weightTable = subjectNotes
   .slice(0, 12)
-  .map(n => ({ topic: n.data.topic, name: n.data.topicName, weight: n.data.weight || 0 }))
+  .map(n => ({ id: n.id.split('/')[2], topic: n.data.topic, name: n.data.topicName, weight: n.data.weight || 0 }))
   .sort((a, b) => b.weight - a.weight);
 const totalWeight = weightTable.reduce((s, r) => s + (r.weight || 0), 0);
 
@@ -45,7 +45,7 @@ const flag = { india: '🇮🇳', pakistan: '🇵🇰', nigeria: '🇳🇬' }[fi
 const title = `${subjectName} Study Notes — ${examName} | StudyRoadmap™`;
 const _descRaw = `Free ${subjectName} study notes for ${examName}. ${subjectNotes.length} topics across Quick, Standard, and Deep tiers — concepts, formulas, practice.`;
 const description = _descRaw.length > 160 ? _descRaw.slice(0, 157) + '...' : _descRaw;
-const canonicalUrl = `https://studyroadmap.in/notes/${exam}/${subject}`;
+const canonicalUrl = `https://studyroadmap.in/notes/${exam}/${subject}/`;
 const siteUrl = 'https://studyroadmap.in';
 const authorObj = { name: "Pushkar Saini", jobTitle: "Founder & Editor", affiliation: "StudyRoadmap", url: "https://studyroadmap.in/author/pushkar-saini/" };
 const _candidateOg = `/og-notes/subject-${exam}-${subject}.jpg`;
@@ -57,7 +57,7 @@ const breadcrumbJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: siteUrl },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: `${siteUrl}/` },
     { '@type': 'ListItem', position: 2, name: 'Exams', item: `${siteUrl}/exams/` },
     { '@type': 'ListItem', position: 3, name: examName, item: `${siteUrl}/exams/${exam}/` },
     { '@type': 'ListItem', position: 4, name: subjectName, item: canonicalUrl },
@@ -83,16 +83,6 @@ const faqs = [
   },
 ];
 
-const faqJsonLd = {
-  '@context': 'https://schema.org',
-  '@type': 'FAQPage',
-  mainEntity: faqs.map(f => ({
-    '@type': 'Question',
-    name: f.question,
-    acceptedAnswer: { '@type': 'Answer', text: f.answer },
-  })),
-};
-
 const collectionPageJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'CollectionPage',
@@ -104,7 +94,7 @@ const collectionPageJsonLd = {
     itemListElement: subjectNotes.map((note, i) => ({
       '@type': 'ListItem',
       position: i + 1,
-      url: `${siteUrl}/notes/${exam}/${subject}/${note.data.topic}`,
+      url: `${siteUrl}/notes/${note.id}/`,
       name: note.data.topicName,
     })),
   },
@@ -139,7 +129,6 @@ const relatedExams = (EXAM_EQUIVALENTS[exam] || []).filter(r => examsWithNotes.h
 <Layout title={title} description={description} canonical={canonicalUrl} image={ogImage} faqs={faqs} author={authorObj} robots={subjectHubRobots}>
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
   <script type="application/ld+json" set:html={JSON.stringify(collectionPageJsonLd)} />
-  <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
   <Navbar />
   <main id="main-content" class="flex-1">
     <!-- Header -->
@@ -197,7 +186,7 @@ const relatedExams = (EXAM_EQUIVALENTS[exam] || []).filter(r => examsWithNotes.h
               <tbody>
                 {weightTable.map(r => (
                   <tr>
-                    <td><a href={`/notes/${exam}/${subject}/${r.topic}/`}>{r.name}</a></td>
+                    <td><a href={`/notes/${exam}/${subject}/${r.id}/`}>{r.name}</a></td>
                     <td class="text-right">{r.weight}%</td>
                   </tr>
                 ))}

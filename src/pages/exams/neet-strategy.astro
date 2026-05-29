@@ -65,13 +65,12 @@ const HOWTO_SCHEMA = {
 <Layout
   title="NEET Preparation Strategy 2026–2027 | Free AI Study Roadmap"
   description="Proven NEET preparation strategy for 2026–2027. Create your free personalised AI study plan in 60 seconds. NEET syllabus analysis, topic weightage, study order, and daily roadmap generator."
-  ogTitle="NEET Preparation Strategy 2026–2027 | Free AI Study Roadmap"
-  ogDescription="Build your NEET preparation strategy with our free AI study roadmap generator. Personalised study plan based on NEET topic weightage."
-  schema={[FAQ_SCHEMA, HOWTO_SCHEMA]}
 >
+  <script type="application/ld+json" set:html={JSON.stringify(FAQ_SCHEMA)} />
+  <script type="application/ld+json" set:html={JSON.stringify(HOWTO_SCHEMA)} />
   <Navbar />
 
-  <main class="min-h-screen bg-surface-50 dark:bg-surface-900">
+  <main id="main-content" class="min-h-screen bg-surface-50 dark:bg-surface-900">
     <!-- Hero -->
     <section class="relative bg-gradient-to-br from-green-600 via-emerald-700 to-teal-800 text-white py-20 px-4">
       <div class="max-w-4xl mx-auto text-center">

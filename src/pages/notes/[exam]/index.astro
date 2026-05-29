@@ -56,7 +56,7 @@ for (const note of examNotes) {
 
 const title = `${examName} Study Notes — All Subjects | StudyRoadmap™`;
 const description = `Free ${examName} study notes for all subjects. ${examNotes.length} topics — Physics, Chemistry, Biology, and more. No signup required.`;
-const canonicalUrl = `https://studyroadmap.in/notes/${exam}`;
+const canonicalUrl = `https://studyroadmap.in/notes/${exam}/`;
 const siteUrl = 'https://studyroadmap.in';
 const authorObj = { name: "StudyRoadmap Editorial Team", jobTitle: "Curriculum Editors", affiliation: "StudyRoadmap", url: "https://studyroadmap.in/about/" };
 // Only 20 of 125+ exams have custom OG images — fall back to default for rest
@@ -67,8 +67,8 @@ const breadcrumbJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: siteUrl },
-    { '@type': 'ListItem', position: 2, name: 'Notes', item: `${siteUrl}/notes` },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: `${siteUrl}/` },
+    { '@type': 'ListItem', position: 2, name: 'Notes', item: `${siteUrl}/notes/` },
     { '@type': 'ListItem', position: 3, name: examName, item: canonicalUrl },
   ],
 };
@@ -84,7 +84,7 @@ const collectionPageJsonLd = {
     itemListElement: Object.entries(bySubject).map(([subjectId, notes], i) => ({
       '@type': 'ListItem',
       position: i + 1,
-      url: `${siteUrl}/notes/${exam}/${subjectId}`,
+      url: `${siteUrl}/notes/${exam}/${subjectId}/`,
       name: notes[0]?.data.subjectName || subjectId,
       numberOfItems: notes.length,
     })),

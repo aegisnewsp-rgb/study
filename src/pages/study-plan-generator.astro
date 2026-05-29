@@ -51,19 +51,6 @@ const GENERATOR_FAQS = [
   },
 ];
 
-const FAQ_SCHEMA = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": GENERATOR_FAQS.map((faq, i) => ({
-    "@type": "Question",
-    "name": faq.question,
-    "acceptedAnswer": {
-      "@type": "Answer",
-      "text": faq.answer
-    }
-  }))
-};
-
 const HOWTO_SCHEMA = {
   "@context": "https://schema.org",
   "@type": "HowTo",
@@ -95,17 +82,12 @@ const HOWTO_SCHEMA = {
 <Layout
   title={`Free AI Study Plan Generator ${new Date().getUTCFullYear()} — NEET, JEE, UPSC Timetable Maker (No Signup) | StudyRoadmap™`}
   description={`Create a free personalised AI study plan for ${new Date().getUTCFullYear()} — NEET, JEE Main, UPSC, SSC CGL, CAT, MDCAT, JAMB, WAEC & 125+ exams. Daily timetable, topic-wise weightage, zero signup, instant results.`}
-  ogTitle="Free AI Study Plan Generator | StudyRoadmap"
-  ogDescription="Generate a free personalised AI study plan for any exam in under 60 seconds. NEET, JEE, UPSC, MDCAT, JAMB, WAEC and 125+ exams supported."
   faqs={GENERATOR_FAQS}
-  schema={[
-    FAQ_SCHEMA,
-    HOWTO_SCHEMA
-  ]}
 >
+  <script type="application/ld+json" set:html={JSON.stringify(HOWTO_SCHEMA)} />
   <Navbar />
 
-  <main class="min-h-screen bg-surface-50 dark:bg-surface-900">
+  <main id="main-content" class="min-h-screen bg-surface-50 dark:bg-surface-900">
     <!-- Hero Section -->
     <section class="relative bg-gradient-to-br from-brand-600 via-brand-700 to-brand-800 text-white py-20 px-4">
       <div class="max-w-4xl mx-auto text-center">

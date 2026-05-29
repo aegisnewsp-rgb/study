@@ -54,7 +54,7 @@ const breadcrumbJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: SITE_URL },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE_URL}/` },
     { '@type': 'ListItem', position: 2, name: 'Compare Exams', item: `${SITE_URL}/compare/` },
     { '@type': 'ListItem', position: 3, name: `${examA.examName} vs ${examB.examName}`, item: canonicalUrl },
   ],
@@ -89,7 +89,7 @@ const faqJsonLd = {
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
   <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
   <Navbar />
-  <main class="flex-1">
+  <main id="main-content" class="flex-1">
     <section class="bg-surface-50 dark:bg-surface-950 border-b border-surface-200 dark:border-surface-800">
       <div class="container-page py-10">
         <nav class="text-sm text-surface-500 mb-4"><a href="/" class="hover:text-brand-600">Home</a> › <a href="/compare/" class="hover:text-brand-600">Compare</a> › <span>{examA.examName} vs {examB.examName}</span></nav>

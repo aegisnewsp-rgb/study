@@ -61,7 +61,7 @@ const breadcrumbJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'BreadcrumbList',
   itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Home', item: SITE_URL },
+    { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE_URL}/` },
     { '@type': 'ListItem', position: 2, name: 'Exams', item: `${SITE_URL}/exams/` },
     { '@type': 'ListItem', position: 3, name: examName, item: `${SITE_URL}/exams/${exam.examId}/` },
     { '@type': 'ListItem', position: 4, name: spoke.charAt(0).toUpperCase() + spoke.slice(1), item: canonicalUrl },
@@ -78,7 +78,7 @@ const SIBLINGS = ['dates','eligibility','syllabus','pattern','strategy'].filter(
 <Layout title={title} description={description} canonical={canonicalUrl}>
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
   <Navbar />
-  <main class="flex-1">
+  <main id="main-content" class="flex-1">
     <section class="bg-surface-50 dark:bg-surface-950 border-b border-surface-200 dark:border-surface-800">
       <div class="container-page py-10">
         <nav class="text-sm text-surface-500 mb-4">

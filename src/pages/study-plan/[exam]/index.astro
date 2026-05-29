@@ -1,0 +1,244 @@
+---
+import Layout from '../../../layouts/Layout.astro';
+import Navbar from '../../../components/Navbar.astro';
+import Footer from '../../../components/Footer.astro';
+import { ALL_EXAMS, getCountryFlag } from '../../../data/exams';
+import { getStudyPlanStrategy, indexedDurationsFor } from '../../../data/study-plan-strategy';
+
+export async function getStaticPaths() {
+  const paths: any[] = [];
+  for (const exam of ALL_EXAMS) {
+    if (!exam || !exam.examId || !exam.durations || Object.keys(exam.durations).length === 0) continue;
+    paths.push({ params: { exam: exam.examId }, props: { exam } });
+  }
+  return paths;
+}
+
+const { exam } = Astro.props;
+const SITE_URL = 'https://studyroadmap.in';
+const currentYear = new Date().getUTCFullYear();
+const CONTENT_REV = '2026-05-28'; // stable fallback; never build-time
+const flag = getCountryFlag(exam.country) || '🌍';
+const examName = exam.examName || exam.examId;
+const lastUpdated = exam.lastUpdated || CONTENT_REV;
+const canonicalUrl = `${SITE_URL}/study-plan/${exam.examId}/`;
+
+const DURATION_LABEL: Record<string, string> = {
+  '1h': '1-Hour Cram', '2h': '2-Hour Sprint', '3h': '3-Hour Burst', '5h': '5-Hour Block', '12h': '12-Hour Crash',
+  '1d': '1-Day Intensive', '2d': '2-Day Rescue', '3d': '3-Day Push', '5d': '5-Day Block', '7d': '1-Week Plan',
+  '10d': '10-Day Plan', '2w': '2-Week Plan', '1mo': '1-Month Plan', '2mo': '2-Month Plan',
+  '3mo': '3-Month Plan', '6mo': '6-Month Plan', '1yr': '1-Year Plan', '2yr': '2-Year Plan',
+};
+
+const durationKeys = Object.keys(exam.durations || {});
+const totalDaysByKey: Record<string, number> = {};
+for (const k of durationKeys) totalDaysByKey[k] = (exam.durations?.[k]?.totalDays) || 0;
+const sortedKeys = [...durationKeys].sort((a, b) => (totalDaysByKey[a] || 0) - (totalDaysByKey[b] || 0));
+const indexedDurations = indexedDurationsFor(durationKeys, totalDaysByKey);
+
+// Subject / topic scope — prefer the canonical subjects list, fall back to the
+// richest duration's dailyTopics so the hub always has real numbers to weave in.
+const longestKey = sortedKeys[sortedKeys.length - 1];
+const longestTopics = (exam.durations?.[longestKey]?.dailyTopics || []) as any[];
+const subjectAgg: Record<string, number> = {};
+let topicCount = 0;
+if (Array.isArray(exam.subjects) && exam.subjects.length) {
+  for (const s of exam.subjects) {
+    const tops = (s.topics || []) as any[];
+    subjectAgg[s.name] = tops.reduce((n: number, t: any) => n + (t.weight || 0), 0);
+    topicCount += tops.length;
+  }
+} else {
+  for (const t of longestTopics) {
+    subjectAgg[t.subject] = (subjectAgg[t.subject] || 0) + (t.weight || 0);
+  }
+  topicCount = longestTopics.length;
+}
+const rankedSubjects = Object.entries(subjectAgg).sort((a, b) => b[1] - a[1]).map(([n]) => n);
+const subjectCount = rankedSubjects.length;
+const topSubjects = rankedSubjects.slice(0, 3);
+const topProse = topSubjects.length === 0 ? 'the highest-weight subjects'
+  : topSubjects.length === 1 ? topSubjects[0]
+  : topSubjects.length === 2 ? `${topSubjects[0]} and ${topSubjects[1]}`
+  : `${topSubjects.slice(0, -1).join(', ')}, and ${topSubjects[topSubjects.length - 1]}`;
+
+// One strategy summary per indexed duration, for the "choose your timeline" guide.
+const planCards = sortedKeys.map((k) => {
+  const roadmap = exam.durations[k];
+  const td = roadmap?.totalDays || 0;
+  const strat = getStudyPlanStrategy({ durationLabel: DURATION_LABEL[k] || k, totalDays: td, dailyTopics: (roadmap?.dailyTopics || []), examName });
+  return { key: k, label: DURATION_LABEL[k] || k, totalDays: td, indexed: indexedDurations.has(k), archetype: strat.archetype, tagline: strat.tagline, hours: strat.hoursPerDay };
+});
+const featuredPlans = planCards.filter((p) => p.indexed);
+
+const title = `${examName} Study Plan ${currentYear}: Free Roadmaps for Every Timeline | StudyRoadmap™`;
+const _desc = `Free ${examName} study plans for ${currentYear} — from a last-week sprint to a full-year foundation build. ${topicCount} weight-prioritised topics across ${subjectCount} subjects, day-by-day, no signup.`;
+const description = _desc.length > 160 ? _desc.slice(0, 157) + '...' : _desc;
+
+const breadcrumbJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE_URL}/` },
+    { '@type': 'ListItem', position: 2, name: 'Study Plans', item: `${SITE_URL}/study-plan/` },
+    { '@type': 'ListItem', position: 3, name: examName, item: canonicalUrl },
+  ],
+};
+
+const courseJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Course',
+  '@id': `${SITE_URL}/study-plan/${exam.examId}/#course`,
+  name: `${examName} Study Plan`,
+  description,
+  provider: { '@type': 'Organization', '@id': `${SITE_URL}/#organization`, name: 'StudyRoadmap™', url: SITE_URL },
+  offers: { '@type': 'Offer', category: 'Free', price: '0', priceCurrency: 'INR', availability: 'https://schema.org/InStock', url: canonicalUrl },
+  isPartOf: { '@type': 'Course', '@id': `${SITE_URL}/exams/${exam.examId}/#course`, name: `${examName} Study Roadmap`, url: `${SITE_URL}/exams/${exam.examId}/` },
+};
+
+const itemListJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: `${examName} study plans by duration`,
+  itemListElement: featuredPlans.map((p, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    name: `${examName} ${p.label}`,
+    url: `${SITE_URL}/study-plan/${exam.examId}/${p.key}/`,
+  })),
+};
+
+const faqs = [
+  {
+    q: `How long do I need to prepare for ${examName}?`,
+    a: `It depends on your starting point and target score. ${examName} has ${topicCount} weighted topics across ${subjectCount} subjects, so most candidates use a 3-to-6-month plan for a first serious attempt and a 1-year-plus plan to build from scratch. Shorter ${examName} plans (2 weeks to 2 months) work for revision or a focused retake. Pick the timeline that matches the days you actually have.`,
+  },
+  {
+    q: `Which subjects carry the most weight in ${examName}?`,
+    a: `Across recent ${examName} papers, ${topProse} carry the heaviest weightage, so every plan here front-loads them. The full breakdown — all ${subjectCount} subjects with per-topic weight — is shown on each duration's page.`,
+  },
+  {
+    q: `Are these ${examName} study plans really free?`,
+    a: `Yes. Every ${examName} plan on StudyRoadmap is free with no signup and no paywall — the full day-by-day schedule, subject split, and weightage are all open on the page. You can also generate a personalised plan that adapts to topics you mark done.`,
+  },
+  {
+    q: `How are these ${examName} plans built?`,
+    a: `Topics are ordered by weightage derived from recent ${examName} papers, then distributed across your chosen timeline so the highest-yield material is covered first. Plans were last reviewed ${lastUpdated} for the ${currentYear} cycle.`,
+  },
+];
+const faqJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqs.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+};
+---
+
+<Layout title={title} description={description} canonical={canonicalUrl}>
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
+  <script type="application/ld+json" set:html={JSON.stringify(courseJsonLd)} />
+  <script type="application/ld+json" set:html={JSON.stringify(itemListJsonLd)} />
+  <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
+  <Navbar />
+  <main id="main-content" class="flex-1">
+
+    <section class="bg-gradient-to-br from-brand-50 via-white to-surface-50 dark:from-brand-950/30 dark:via-surface-950 dark:to-surface-900 border-b border-surface-200 dark:border-surface-800">
+      <div class="container-page py-12 sm:py-16">
+        <nav class="text-sm text-surface-500 dark:text-surface-400 mb-5 flex flex-wrap gap-2 items-center">
+          <a href="/" class="hover:text-brand-600">Home</a><span class="text-surface-300 dark:text-surface-700">/</span>
+          <a href="/study-plan/" class="hover:text-brand-600">Study Plans</a><span class="text-surface-300 dark:text-surface-700">/</span>
+          <span class="text-surface-900 dark:text-surface-100 font-medium">{flag} {examName}</span>
+        </nav>
+
+        <div class="inline-flex items-center gap-2 bg-brand-100/60 dark:bg-brand-900/40 text-brand-700 dark:text-brand-300 text-xs font-semibold px-3 py-1.5 rounded-full mb-4 border border-brand-200/60 dark:border-brand-800/50">
+          <span class="w-1.5 h-1.5 rounded-full bg-brand-500 animate-pulse"></span>
+          Updated {lastUpdated} · {currentYear} Edition
+        </div>
+
+        <h1 class="text-4xl md:text-5xl font-black text-surface-900 dark:text-white mb-4 leading-[1.05]">
+          {examName} Study Plan <span class="text-brand-600 dark:text-brand-400">{currentYear}</span>
+        </h1>
+        <p class="text-lg md:text-xl text-surface-600 dark:text-surface-300 max-w-3xl leading-relaxed">
+          Free, ready-made {examName} roadmaps for whatever time you have left — from a last-week sprint to a full-year foundation build. Each one covers <strong class="text-surface-900 dark:text-white">{topicCount} weighted topics</strong> across <strong class="text-surface-900 dark:text-white">{subjectCount} subjects</strong>, prioritised by weight, with a day-by-day schedule. No signup, no fees.
+        </p>
+
+        <div class="mt-7 flex flex-wrap gap-3">
+          <a href={`/roadmap/?exam=${exam.examId}`} class="inline-flex items-center gap-2 bg-gradient-to-r from-brand-600 to-brand-500 hover:from-brand-700 hover:to-brand-600 text-white font-bold px-6 py-3 rounded-xl shadow-lg shadow-brand-500/20 transition-all">
+            Generate My Personalised Plan →
+          </a>
+          <a href={`/exams/${exam.examId}/`} class="inline-flex items-center gap-2 bg-white dark:bg-surface-800 text-surface-700 dark:text-surface-200 font-semibold px-6 py-3 rounded-xl border border-surface-200 dark:border-surface-700 hover:border-brand-300 transition-colors">
+            ← {examName} Overview
+          </a>
+        </div>
+      </div>
+    </section>
+
+    {/* Recommended timelines — the indexed, fully-written duration plans */}
+    <section class="container-page py-12">
+      <h2 class="text-3xl font-bold text-surface-900 dark:text-white mb-2">Choose your {examName} timeline</h2>
+      <p class="text-surface-600 dark:text-surface-400 mb-8 max-w-2xl">Each plan is built differently — not just a shorter version of the same thing. Pick the one that matches the days you have before {examName}.</p>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+        {featuredPlans.map((p) => (
+          <a href={`/study-plan/${exam.examId}/${p.key}/`} class="group rounded-2xl border border-surface-200 dark:border-surface-700 bg-white dark:bg-surface-900 p-6 hover:border-brand-400 hover:shadow-md transition-all">
+            <div class="flex items-baseline justify-between mb-2">
+              <h3 class="text-lg font-bold text-surface-900 dark:text-white">{p.label}</h3>
+              <span class="text-xs font-mono text-surface-500">{p.totalDays} days</span>
+            </div>
+            <div class="text-xs font-bold uppercase tracking-wider text-brand-600 dark:text-brand-400 mb-2">{p.archetype}</div>
+            <p class="text-sm text-surface-600 dark:text-surface-300 leading-relaxed mb-3">{p.tagline}</p>
+            <div class="text-xs text-surface-500">{p.hours} / day · <span class="text-brand-600 dark:text-brand-400 group-hover:underline">view plan →</span></div>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    {/* Subject scope */}
+    {rankedSubjects.length > 0 && (
+      <section class="container-page py-10 border-t border-surface-200 dark:border-surface-700">
+        <h2 class="text-2xl font-bold text-surface-900 dark:text-white mb-2">What every {examName} plan covers</h2>
+        <p class="text-surface-600 dark:text-surface-400 mb-6 max-w-2xl">All {topicCount} topics across these {subjectCount} subjects, ordered by weightage so the highest-yield material comes first. {topProse} carry the most marks.</p>
+        <div class="flex flex-wrap gap-2">
+          {rankedSubjects.map((s, i) => (
+            <span class={`px-3 py-1.5 rounded-lg text-sm font-medium ${i < 3 ? 'bg-brand-100 dark:bg-brand-900/30 text-brand-700 dark:text-brand-300' : 'bg-surface-100 dark:bg-surface-800 text-surface-700 dark:text-surface-300'}`}>{s}</span>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {/* All durations */}
+    <section class="container-page py-10 border-t border-surface-200 dark:border-surface-700">
+      <h2 class="text-2xl font-bold text-surface-900 dark:text-white mb-2">All {examName} durations</h2>
+      <p class="text-surface-600 dark:text-surface-400 mb-6 max-w-2xl">Shorter than two weeks? Those are crash/revision tools — use them, but the indexed plans above are the ones built for a full preparation.</p>
+      <div class="flex flex-wrap gap-2">
+        {sortedKeys.map((k) => (
+          <a href={`/study-plan/${exam.examId}/${k}/`} class="px-3 py-2 rounded-lg bg-surface-100 dark:bg-surface-800 hover:bg-brand-100 dark:hover:bg-brand-900/30 text-sm font-medium">{DURATION_LABEL[k] || k}</a>
+        ))}
+      </div>
+    </section>
+
+    {/* FAQ */}
+    <section class="container-page py-10 border-t border-surface-200 dark:border-surface-700">
+      <h2 class="text-2xl font-bold text-surface-900 dark:text-white mb-5">{examName} study plan — FAQs</h2>
+      <div class="max-w-3xl divide-y divide-surface-200 dark:divide-surface-700">
+        {faqs.map((f) => (
+          <details class="group py-4">
+            <summary class="flex cursor-pointer items-center justify-between gap-3 font-semibold text-surface-900 dark:text-white list-none">
+              <span>{f.q}</span>
+              <span class="text-brand-500 transition-transform group-open:rotate-45 text-xl leading-none">+</span>
+            </summary>
+            <p class="mt-3 text-sm text-surface-700 dark:text-surface-300 leading-relaxed">{f.a}</p>
+          </details>
+        ))}
+      </div>
+    </section>
+
+    <section class="container-page py-10">
+      <div class="rounded-xl bg-brand-600 text-white p-8 text-center">
+        <h2 class="text-2xl font-bold mb-3">Want a plan that adapts as you study?</h2>
+        <p class="mb-5 text-brand-100">Generate a personalised {examName} roadmap that tracks completion and reprioritises weak topics as you mark them done.</p>
+        <a href={`/roadmap/?exam=${exam.examId}`} class="inline-flex items-center gap-2 bg-white text-brand-600 font-bold px-6 py-3 rounded-xl">Generate Personalised Plan →</a>
+      </div>
+    </section>
+
+  </main>
+  <Footer />
+</Layout>

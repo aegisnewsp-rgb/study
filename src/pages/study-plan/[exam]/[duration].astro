@@ -3,6 +3,7 @@ import Layout from '../../../layouts/Layout.astro';
 import Navbar from '../../../components/Navbar.astro';
 import Footer from '../../../components/Footer.astro';
 import { ALL_EXAMS, getCountryFlag } from '../../../data/exams';
+import { getStudyPlanStrategy, indexedDurationsFor } from '../../../data/study-plan-strategy';
 
 export async function getStaticPaths() {
   const paths: any[] = [];
@@ -33,18 +34,22 @@ const DURATION_LABEL: Record<string, string> = {
 };
 const durationLabel = DURATION_LABEL[durationKey] || `${durationKey} Plan`;
 
-// Doorway-page guard: each exam has ~18 duration variants that are ~92% identical
-// (only the schedule numbers change), which Google treats as scaled/duplicate
-// content. Index exactly ONE canonical duration per exam (prefer a mid-length
-// plan) and noindex the rest. The study-plan generator and on-site links still
-// serve every duration to real users — they just aren't separate indexed pages.
-const DURATION_PREFERENCE = ['3mo','6mo','1yr','1mo','2mo','2yr','10d','2w','7d','5d','3d','2d','1d','12h','5h','3h','2h','1h'];
+// Indexing policy: each exam offers up to ~18 duration variants. Sub-2-week
+// plans are cram/triage TOOLS (no real search demand, thin by nature) and stay
+// noindex,follow — served to users, kept out of the index. The demand-backed
+// durations (2w/1mo/2mo/3mo/6mo/1yr/2yr) are indexed, BUT only because each now
+// carries genuinely duration-specific guidance (see getStudyPlanStrategy) rather
+// than the same prose with different day-numbers. Every exam keeps at least one
+// indexed plan: if it offers no allowlisted duration, its longest one is indexed.
 const examDurationKeys = Object.keys((exam as any).durations || {});
-const canonicalDuration = DURATION_PREFERENCE.find((d) => examDurationKeys.includes(d)) || examDurationKeys[0];
-const studyPlanRobots = durationKey === canonicalDuration ? undefined : 'noindex,follow';
+const totalDaysByKey: Record<string, number> = {};
+for (const k of examDurationKeys) totalDaysByKey[k] = ((exam as any).durations?.[k]?.totalDays) || 0;
+const indexedDurations = indexedDurationsFor(examDurationKeys, totalDaysByKey);
+const studyPlanRobots = indexedDurations.has(durationKey) ? undefined : 'noindex,follow';
 
 const totalDays = (roadmap as any).totalDays || 0;
 const dailyTopics = ((roadmap as any).dailyTopics || []) as any[];
+const strategy = getStudyPlanStrategy({ durationLabel, totalDays, dailyTopics, examName });
 const phases = ((roadmap as any).phases || []) as { name: string; weeks: number; focus: string; deliverables: string[] }[];
 
 // Group topics by subject for a week-by-week table
@@ -127,14 +132,12 @@ const faqJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'FAQPage',
   mainEntity: [
-    {
+    // Duration-specific Q&A derived from the strategy engine — distinct per timeline.
+    ...strategy.faq.map((f) => ({
       '@type': 'Question',
-      name: `How long should I study daily for ${examName} in the ${durationLabel}?`,
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: `For the ${durationLabel} (${totalDays} day${totalDays === 1 ? '' : 's'} total), allocate ${totalDays >= 90 ? '3–4' : totalDays >= 30 ? '4–6' : '6–8'} focused study hours per day. Use the daily topic schedule below — each day's load is calibrated to topic weight and your remaining timeline.`,
-      },
-    },
+      name: f.q,
+      acceptedAnswer: { '@type': 'Answer', text: f.a },
+    })),
     {
       '@type': 'Question',
       name: `What subjects does this ${examName} study plan cover?`,
@@ -149,14 +152,6 @@ const faqJsonLd = {
       acceptedAnswer: {
         '@type': 'Answer',
         text: `Yes — StudyRoadmap publishes every duration plan free, with no signup or paywall. The full ${totalDays}-day schedule, daily topics, and per-subject breakdown are all open-access on this page.`,
-      },
-    },
-    {
-      '@type': 'Question',
-      name: `Can I switch to a longer or shorter ${examName} plan?`,
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: `Yes. Browse other available durations for ${examName} on the exam hub. Switching duration regenerates the daily topic schedule from the same syllabus, so progress concepts carry over.`,
       },
     },
   ],
@@ -263,13 +258,59 @@ const siblingDurations = Object.keys(exam.durations || {})
         </dl>
 
         <div class="flex flex-wrap gap-3">
-          <a href={`${SITE_URL}/roadmap?exam=${exam.examId}&duration=${durationKey}`} class="group inline-flex items-center gap-2 bg-gradient-to-r from-brand-600 to-brand-500 hover:from-brand-700 hover:to-brand-600 text-white font-bold px-6 py-3 rounded-xl shadow-lg shadow-brand-500/20 hover:shadow-xl hover:shadow-brand-500/30 transition-all">
+          <a href={`${SITE_URL}/roadmap/?exam=${exam.examId}&duration=${durationKey}`} class="group inline-flex items-center gap-2 bg-gradient-to-r from-brand-600 to-brand-500 hover:from-brand-700 hover:to-brand-600 text-white font-bold px-6 py-3 rounded-xl shadow-lg shadow-brand-500/20 hover:shadow-xl hover:shadow-brand-500/30 transition-all">
             Generate My Personalised Plan
             <span class="transition-transform group-hover:translate-x-0.5">→</span>
           </a>
           <a href={`/exams/${exam.examId}/`} class="inline-flex items-center gap-2 bg-white dark:bg-surface-800 text-surface-700 dark:text-surface-200 font-semibold px-6 py-3 rounded-xl border border-surface-200 dark:border-surface-700 hover:border-brand-300 dark:hover:border-brand-700 transition-colors">
             ← {examName} Overview
           </a>
+        </div>
+      </div>
+    </section>
+
+    {/* Strategy — genuinely duration-specific guidance. This is what makes a
+        1-month plan a different document from a 1-year plan, not just a smaller
+        table: different pace, what to cut, pass count, mock cadence and risks. */}
+    <section class="container-page py-12">
+      <div class="flex flex-wrap items-center gap-3 mb-3">
+        <span class="inline-flex items-center gap-2 bg-accent-500/10 text-accent-400 text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full border border-accent-400/30">{strategy.archetype}</span>
+        <span class="text-sm text-surface-500 dark:text-surface-400">{strategy.passes}</span>
+      </div>
+      <h2 class="text-3xl font-bold text-surface-900 dark:text-white mb-3">How to actually use your {totalDays} day{totalDays === 1 ? '' : 's'}</h2>
+      <p class="text-lg text-surface-600 dark:text-surface-300 max-w-3xl mb-6">{strategy.tagline}</p>
+
+      <div class="grid grid-cols-2 sm:grid-cols-3 gap-4 mb-8 max-w-3xl">
+        <div class="rounded-xl border border-surface-200 dark:border-surface-700 bg-white dark:bg-surface-900 p-4">
+          <div class="text-[10px] uppercase tracking-widest text-surface-500 font-semibold">Daily study</div>
+          <div class="text-lg font-bold text-surface-900 dark:text-white mt-1">{strategy.hoursPerDay}</div>
+        </div>
+        <div class="rounded-xl border border-surface-200 dark:border-surface-700 bg-white dark:bg-surface-900 p-4">
+          <div class="text-[10px] uppercase tracking-widest text-surface-500 font-semibold">New topics / day</div>
+          <div class="text-lg font-bold text-surface-900 dark:text-white mt-1">≈ {strategy.topicsPerDay}</div>
+        </div>
+        <div class="rounded-xl border border-surface-200 dark:border-surface-700 bg-white dark:bg-surface-900 p-4 col-span-2 sm:col-span-1">
+          <div class="text-[10px] uppercase tracking-widest text-surface-500 font-semibold">Approach</div>
+          <div class="text-sm font-semibold text-surface-900 dark:text-white mt-1">{strategy.passes}</div>
+        </div>
+      </div>
+
+      <div class="max-w-3xl space-y-4 text-surface-700 dark:text-surface-300 leading-relaxed">
+        {strategy.paragraphs.map((p) => <p>{p}</p>)}
+      </div>
+
+      <div class="grid sm:grid-cols-3 gap-5 mt-8">
+        <div class="rounded-2xl border border-surface-200 dark:border-surface-700 p-5 bg-surface-50/60 dark:bg-surface-900/40">
+          <h3 class="font-bold text-surface-900 dark:text-white mb-2">What to prioritise &amp; cut</h3>
+          <p class="text-sm text-surface-700 dark:text-surface-300 leading-relaxed">{strategy.whatToCut}</p>
+        </div>
+        <div class="rounded-2xl border border-surface-200 dark:border-surface-700 p-5 bg-surface-50/60 dark:bg-surface-900/40">
+          <h3 class="font-bold text-surface-900 dark:text-white mb-2">Mock tests &amp; revision</h3>
+          <p class="text-sm text-surface-700 dark:text-surface-300 leading-relaxed">{strategy.mockPlan}</p>
+        </div>
+        <div class="rounded-2xl border border-surface-200 dark:border-surface-700 p-5 bg-surface-50/60 dark:bg-surface-900/40">
+          <h3 class="font-bold text-surface-900 dark:text-white mb-2">Weekly rhythm</h3>
+          <p class="text-sm text-surface-700 dark:text-surface-300 leading-relaxed">{strategy.weeklyRhythm}</p>
         </div>
       </div>
     </section>
@@ -394,15 +435,32 @@ const siblingDurations = Object.keys(exam.durations || {})
           {siblingDurations.map((d: string) => (
             <a href={`/study-plan/${exam.examId}/${d}/`} class="px-3 py-2 rounded-lg bg-surface-100 dark:bg-surface-800 hover:bg-brand-100 dark:hover:bg-brand-900/30 text-sm font-medium">{DURATION_LABEL[d] || d}</a>
           ))}
+          <a href={`/study-plan/${exam.examId}/`} class="px-3 py-2 rounded-lg bg-brand-600 text-white hover:bg-brand-700 text-sm font-semibold">All {examName} plans &amp; strategy →</a>
         </div>
       </section>
     )}
+
+    {/* Visible FAQ backing the FAQPage schema — duration-specific, distinct per plan. */}
+    <section class="container-page py-10 border-t border-surface-200 dark:border-surface-700">
+      <h2 class="text-2xl font-bold text-surface-900 dark:text-white mb-5">{examName} {durationLabel} — common questions</h2>
+      <div class="max-w-3xl divide-y divide-surface-200 dark:divide-surface-700">
+        {strategy.faq.map((f) => (
+          <details class="group py-4">
+            <summary class="flex cursor-pointer items-center justify-between gap-3 font-semibold text-surface-900 dark:text-white list-none">
+              <span>{f.q}</span>
+              <span class="text-brand-500 transition-transform group-open:rotate-45 text-xl leading-none">+</span>
+            </summary>
+            <p class="mt-3 text-sm text-surface-700 dark:text-surface-300 leading-relaxed">{f.a}</p>
+          </details>
+        ))}
+      </div>
+    </section>
 
     <section class="container-page py-10">
       <div class="rounded-xl bg-brand-600 text-white p-8 text-center">
         <h2 class="text-2xl font-bold mb-3">Already know the pattern? Generate a topic-by-topic plan.</h2>
         <p class="mb-5 text-brand-100">The full personalised roadmap covers weak topics first, tracks completion, and adapts as you mark topics done.</p>
-        <a href={`${SITE_URL}/roadmap?exam=${exam.examId}&duration=${durationKey}`} class="inline-flex items-center gap-2 bg-white text-brand-600 font-bold px-6 py-3 rounded-xl">Generate Personalised Plan →</a>
+        <a href={`${SITE_URL}/roadmap/?exam=${exam.examId}&duration=${durationKey}`} class="inline-flex items-center gap-2 bg-white text-brand-600 font-bold px-6 py-3 rounded-xl">Generate Personalised Plan →</a>
       </div>
     </section>
 

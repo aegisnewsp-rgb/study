@@ -19,6 +19,7 @@ export async function getStaticPaths() {
 const { exam, spoke } = Astro.props;
 const SITE_URL = 'https://studyroadmap.in';
 const year = new Date().getUTCFullYear();
+const CONTENT_REV = '2026-05-28'; // stable fallback; never build-time
 const flag = getCountryFlag(exam.country) || '🌍';
 const examName = exam.examName || exam.examId;
 
@@ -86,7 +87,7 @@ const SIBLINGS = ['dates','eligibility','syllabus','pattern','strategy'].filter(
         <h1 class="text-3xl md:text-4xl font-black mb-3">{h1}</h1>
         <p class="text-lg text-surface-600 dark:text-surface-300 max-w-3xl">{description}</p>
         <blockquote class="border-l-4 border-brand-500 bg-brand-50 dark:bg-brand-900/10 text-sm mt-4 p-3 rounded max-w-3xl">
-          <strong>Reviewed by</strong>: StudyRoadmap Editorial · <strong>Last verified</strong>: {new Date().toISOString().slice(0,10)}
+          <strong>Reviewed by</strong>: StudyRoadmap Editorial · <strong>Last verified</strong>: {exam.lastUpdated || CONTENT_REV}
         </blockquote>
       </div>
     </section>

@@ -21,6 +21,7 @@ export async function getStaticPaths() {
 const { exam, durationKey, roadmap } = Astro.props;
 const SITE_URL = 'https://studyroadmap.in';
 const currentYear = new Date().getUTCFullYear();
+const CONTENT_REV = '2026-05-28'; // stable fallback; never build-time
 const flag = getCountryFlag(exam.country) || '🌍';
 const examName = exam.examName || exam.examId;
 
@@ -231,7 +232,7 @@ const siblingDurations = Object.keys(exam.durations || {})
 
         <div class="inline-flex items-center gap-2 bg-brand-100/60 dark:bg-brand-900/40 text-brand-700 dark:text-brand-300 text-xs font-semibold px-3 py-1.5 rounded-full mb-4 border border-brand-200/60 dark:border-brand-800/50">
           <span class="sr-trust-pulse w-1.5 h-1.5 rounded-full bg-brand-500 animate-pulse"></span>
-          Updated {new Date().toISOString().slice(0, 10)} · {currentYear} Edition
+          Updated {exam.lastUpdated || CONTENT_REV} · {currentYear} Edition
         </div>
 
         <h1 class="sr-trust-h1 text-4xl md:text-5xl lg:text-6xl text-surface-900 dark:text-white mb-4 leading-[1.05]">
@@ -377,7 +378,7 @@ const siblingDurations = Object.keys(exam.durations || {})
           <tbody>
             <tr class="border-t border-surface-200 dark:border-surface-700"><td class="p-3">Time to start</td><td class="p-3">Hours of reading before any study starts</td><td class="p-3 font-semibold text-brand-600">Seconds — plan is already here</td></tr>
             <tr class="border-t border-surface-200 dark:border-surface-700"><td class="p-3">Personalisation</td><td class="p-3">One-size-fits-all</td><td class="p-3 font-semibold text-brand-600">Fits exactly your {totalDays} days</td></tr>
-            <tr class="border-t border-surface-200 dark:border-surface-700"><td class="p-3">Freshness</td><td class="p-3">Printed months ago</td><td class="p-3 font-semibold text-brand-600">Rebuilt every deploy · verified {new Date().toISOString().slice(0,10)}</td></tr>
+            <tr class="border-t border-surface-200 dark:border-surface-700"><td class="p-3">Freshness</td><td class="p-3">Printed months ago</td><td class="p-3 font-semibold text-brand-600">Updated for the {currentYear} cycle · verified {exam.lastUpdated || CONTENT_REV}</td></tr>
             <tr class="border-t border-surface-200 dark:border-surface-700"><td class="p-3">Weightage signal</td><td class="p-3">Author guess</td><td class="p-3 font-semibold text-brand-600">Derived from last 5 years' papers</td></tr>
             <tr class="border-t border-surface-200 dark:border-surface-700"><td class="p-3">Cost</td><td class="p-3">₹500–2,500</td><td class="p-3 font-semibold text-brand-600">₹0</td></tr>
             <tr class="border-t border-surface-200 dark:border-surface-700"><td class="p-3">Sign-up required</td><td class="p-3">Often (with a trial trap)</td><td class="p-3 font-semibold text-brand-600">None</td></tr>

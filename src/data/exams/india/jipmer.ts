@@ -51,8 +51,8 @@ const exam: ExamTemplate = {
     })),
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
-  lastUpdated: '2026-04-06',
-  officialSource: 'https://example.com',
+  lastUpdated: '2026-05-30',
+  officialSource: 'https://jipmer.edu.in/announcement/entrance-examinations-admissions',
 };
 
 export default exam;

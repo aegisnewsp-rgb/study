@@ -4,7 +4,7 @@ import Navbar from '../../components/Navbar.astro';
 import Footer from '../../components/Footer.astro';
 import { ALL_EXAMS, getCountryFlag } from '../../data/exams';
 
-const SITE_URL = 'https://studyroadmap.in';
+import { SITE_URL } from '@data/site';
 const canonicalUrl = `${SITE_URL}/study-plan/`;
 const currentYear = new Date().getUTCFullYear();
 

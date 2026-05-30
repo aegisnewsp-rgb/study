@@ -17,7 +17,7 @@ export async function getStaticPaths() {
 }
 
 const { exam } = Astro.props;
-const SITE_URL = 'https://studyroadmap.in';
+import { SITE_URL } from '@data/site';
 const flag = getCountryFlag(exam.country) || '🌍';
 
 // Live-exam banners — show a timely alert for exams happening right now

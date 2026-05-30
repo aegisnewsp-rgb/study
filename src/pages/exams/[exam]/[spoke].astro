@@ -17,7 +17,7 @@ export async function getStaticPaths() {
 }
 
 const { exam, spoke } = Astro.props;
-const SITE_URL = 'https://studyroadmap.in';
+import { SITE_URL } from '@data/site';
 const year = new Date().getUTCFullYear();
 const CONTENT_REV = '2026-05-28'; // stable fallback; never build-time
 const flag = getCountryFlag(exam.country) || '🌍';

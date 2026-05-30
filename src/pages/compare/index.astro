@@ -5,7 +5,7 @@ import Footer from '../../components/Footer.astro';
 import { ALL_EXAMS, getCountryFlag } from '../../data/exams';
 import { isCuratedComparePair } from '../../data/compare-curation';
 
-const SITE_URL = 'https://studyroadmap.in';
+import { SITE_URL } from '@data/site';
 const year = new Date().getUTCFullYear();
 
 const TIER1 = new Set(['neet','jeemain','jeeadvanced','upsc','gate','cuet','ssc-cgl','cat','clat','bitsat','aiims-mbbs','neet-pg','ugc-net','ndab','mdcat','ecat','nat-i','lat','hat-ug','jamb','waec','neco','nabteb']);

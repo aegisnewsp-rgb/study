@@ -28,7 +28,7 @@ export async function getStaticPaths() {
 }
 
 const { examA, examB } = Astro.props;
-const SITE_URL = 'https://studyroadmap.in';
+import { SITE_URL } from '@data/site';
 // Noindex combinatorial filler pairs — only curated, genuinely-searched
 // comparisons stay in the index (see @data/compare-curation).
 const compareRobots = isCuratedComparePair(examA.examId, examB.examId) ? undefined : 'noindex,follow';

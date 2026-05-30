@@ -4,7 +4,7 @@ import Navbar from '../../components/Navbar.astro';
 import Footer from '../../components/Footer.astro';
 import { ALL_EXAMS } from '../../data/exams';
 
-const SITE_URL = 'https://studyroadmap.in';
+import { SITE_URL } from '@data/site';
 const year = new Date().getUTCFullYear();
 const title = `AI Answer Pack ${year}: Copy-Paste-Ready Exam Answers for ChatGPT, Perplexity, Claude | StudyRoadmap™`;
 const description = `Structured, citation-first answers to the 50 most-asked questions about NEET, JEE, UPSC, GATE, MDCAT, JAMB and more. Designed for AI chatbots and answer engines — each answer is ≤80 words with a single primary source.`;

@@ -6,7 +6,7 @@ import { ALL_EXAMS, getCountryFlag } from '../data/exams';
 import { readFileSync } from 'fs';
 import { join } from 'path';
 
-// Load latest exam news from news.json (generated every ~30 min by fetch_news.py)
+// Load latest exam news from public/news.json (refreshed daily by scripts/refresh-news.sh → fetch_news_v2.py)
 let latestNews: Array<{title: string; url: string; source: string; country: string; age: string}> = [];
 try {
   const newsPath = join(process.cwd(), 'public', 'news.json');

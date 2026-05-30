@@ -71,10 +71,10 @@ Step 3: $C = 180° - 40° - 94.59° = 45.41°$.
 
 Given $a = 8$, $b = 6$, $c = 5$. Find all angles.
 
-Step 1: $s = (8+6+5)/2 = 9.5$.
-Step 2: Use Heron's formula: $\Delta = \sqrt{9.5 \times 1.5 \times 3.5 \times 4.5} = \sqrt{224.44} = 14.98$.
-Step 3: $\sin A = 2\Delta/(bc) = 29.96/30 = 0.9987$. $A = 87.1°$.
-Step 4: $\cos A = (b^2 + c^2 - a^2)/(2bc) = (36 + 25 - 64)/(60) = -3/60 = -0.05$. Wait — negative cos? That suggests obtuse angle. Let's use $\cos B$: $(a^2 + c^2 - b^2)/(2ac) = (64 + 25 - 36)/(80) = 53/80 = 0.6625$. $B = 48.4°$. $C = 180 - 87.1 - 48.4 = 44.5°$. Actually $\cos A = (36+25-64)/(60) = -3/60 = -0.05$. So $A = 92.9°$.
+Step 1: Find the largest angle $A$ (opposite the longest side $a = 8$) using the cosine rule: $\cos A = (b^2 + c^2 - a^2)/(2bc) = (36 + 25 - 64)/(2 \times 6 \times 5) = -3/60 = -0.05$. The negative cosine means $A$ is obtuse: $A = 92.87°$.
+Step 2: Find $B$ by the cosine rule: $\cos B = (a^2 + c^2 - b^2)/(2ac) = (64 + 25 - 36)/(2 \times 8 \times 5) = 53/80 = 0.6625$, so $B = 48.51°$.
+Step 3: Find $C$ from the angle sum: $C = 180° - 92.87° - 48.51° = 38.62°$ (or by cosine rule, $\cos C = (a^2 + b^2 - c^2)/(2ab) = (64 + 36 - 25)/96 = 0.78125$, $C = 38.62°$).
+Step 4: Check: $92.87° + 48.51° + 38.62° = 180°$. ✓ (For reference, Heron's formula gives the area $\Delta = \sqrt{9.5 \times 1.5 \times 3.5 \times 4.5} = \sqrt{224.44} = 14.98$.)
 
 **The Ambiguous Case (SSA) — Detailed:**
 

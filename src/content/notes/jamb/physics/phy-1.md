@@ -57,7 +57,7 @@ For objects dropped near Earth's surface (ignoring air resistance): $a = g = 9.8
 - **Velocity-time graph:** Slope = acceleration. Area under the graph = displacement. If graph is above the time axis, displacement is positive.
 - **Acceleration-time graph:** Area under graph = change in velocity.
 
-Example: An object moving with $u = 10$ m/s, $a = -2$ m/s². After 8 s: $v = 10 + (-2)(8) = -6$ m/s. It has reversed direction. $s = (10)(-6)/2 + \frac{1}{2}(-2)(8)^2 = 20 - 64 = -44$ m (in negative direction).
+Example: An object moving with $u = 10$ m/s, $a = -2$ m/s². After 8 s: $v = 10 + (-2)(8) = -6$ m/s. It has reversed direction. $s = ut + \frac{1}{2}at^2 = (10)(8) + \frac{1}{2}(-2)(8)^2 = 80 - 64 = +16$ m (net displacement is still positive because the object travels forward before reversing).
 
 **Relative Velocity:**
 If two objects A and B move along the same line with velocities $v_A$ and $v_B$, the velocity of A relative to B is $v_{AB} = v_A - v_B$. If both move in the same direction, $v_{AB}$ is the difference. If opposite directions, $v_{AB} = v_A + v_B$.

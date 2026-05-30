@@ -29,7 +29,7 @@ diagramPrompt: "Clean educational diagram illustrating Coding-Decoding with clea
 | Forward shift | Each letter shifts forward by n positions | ABC → EFG (shift +4) |
 | Backward shift | Each letter shifts backward by n positions | DEZ → ZAV (shift -4) |
 | Bilateral/Mirror | A↔Z, B↔Y (position 27 - n) | CAT → XZG |
-| Reverse alphabet | A=26, B=25... Z=1 | ONE → LVM |
+| Reverse alphabet | A=26, B=25... Z=1 | ONE → LMV |
 | Number substitution | A=1, B=2... Z=26 | CAT → 3-1-20 |
 | Keyboard proximity | Adjacent on QWERTY keyboard | COME → XPDR |
 
@@ -58,7 +58,7 @@ def shift_forward(word, n):
             result += char
     return result
 
-shift_forward("CODE", 3)  # → FRSH
+shift_forward("CODE", 3)  # → FRGH
 ```
 
 **Shift Patterns You Will See**:
@@ -70,7 +70,7 @@ shift_forward("CODE", 3)  # → FRSH
 | +4 | E | Q | D |
 | +5 | F | R | E |
 
-**Common in MDCAT**: "If CODE is written as FUDH, how is PAID written?"
+**Common in MDCAT**: "If CODE is written as FRGH, how is PAID written?"
 - Establish the rule from the first letter: C→F is a forward shift of +3. Verify it holds for every letter before applying it — under a constant +3 shift, C→F, O→R, D→G and E→H all advance by exactly 3 positions.
 - For a clean +3 shift: P(+3)=S, A(+3)=D, I(+3)=L, D(+3)=G → **SDLG**
 
@@ -90,7 +90,7 @@ $$n_{coded} = 27 - n_{original}$$
 | M (13) | N (14) | 14 |
 | Z (26) | A (1) | 1 |
 
-**Example**: CODE → XLVW
+**Example**: CODE → XLWV
 C(3)→X(24): 27−3=24 ✓
 O(15)→L(12): 27−15=12 ✓
 D(4)→W(23): 27−4=23 ✓

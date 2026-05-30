@@ -44,7 +44,7 @@ Key: nC_r = nC_{n−r} (complementary property)
 - Arrangement in a line with some identical objects: n!/[n₁!n₂!...]
 
 **Special arrangements:**
-- Number of ways to arrange n letters of word "BANANA": B(1), A(3), N(2) → 5!/(1!3!2!) = 20
+- Number of ways to arrange the 6 letters of word "BANANA": B(1), A(3), N(2) → 6!/(1!3!2!) = 60
 - Rank of a word in dictionary: arrange letters alphabetically, count words before the target
 
 **Restricted permutations:**
@@ -124,7 +124,7 @@ This is also the coefficient of a^{n₁} b^{n₂} ... in (a + b + ...)^n
 **Bridge crossing and similar:**
 Think carefully about whether arrangements are being counted once or twice
 Example: "How many ways can 5 men and 5 women be seated at a round table so that no two women are adjacent?"
-Treat men first: fix one man → arrange 4 others in (4−1)! = 6 ways → 5 men occupy 5 alternate seats → 5 women choose 5 remaining seats: 5! ways → total = 6 × 120 = 720
+Treat men first: seat 5 men around the round table in (5−1)! = 4! = 24 ways → 5 men occupy 5 alternate seats, creating 5 gaps → 5 women fill the 5 gaps: 5! = 120 ways → total = 24 × 120 = 2880
 
 - **Remember:** Order matters → permutation (nP_r); order doesn't matter → combination (nC_r); to handle "at least one" or "none", use complement: total − cases where condition fails; for distributing identical items, use stars and bars: C(n+r−1, r−1)
 - **Previous years:** "Number of ways to select 3 consonants and 2 vowels from 7 consonants and 4 vowels" [2023]; "Number of ways to form a committee with at least 3 men from 5 men and 4 women" [2024]; "Arrange word ASSASSINATION" [2024]

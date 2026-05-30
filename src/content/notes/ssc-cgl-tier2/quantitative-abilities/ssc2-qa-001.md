@@ -113,10 +113,10 @@ The number system in SSC CGL Tier 2 goes well beyond textbook definitions. It de
 
 ### SSC-Level Practice
 **Q1:** A number gives remainder 3 when divided by 5, 7, and 11. If the sum of these divisors is 23, find the smallest such number.
-Answer: 3 — Working: LCM(5,7,11) = 385. Smallest number = 385 + 3 = 388. (Sum 5+7+11=23 matches the condition.)
+Answer: 388 — Working: LCM(5,7,11) = 385. Smallest number = 385 + 3 = 388. (Sum 5+7+11=23 matches the condition.)
 
 **Q2:** Find the unit digit of 7^43 + 3^28.
-Answer: 8 — Working: 7^43 → 43 mod 4 = 3 → 7^3 unit digit = 343 → 3. 3^28 → 28 mod 4 = 0 → 3^4 unit digit = 1 → so 3^28 = (3^4)^7 → unit digit = 1. Sum = 3+1 = 4. Wait — check: 3^28 = (3^4)^7, yes unit digit 1. 7^43: 43 mod 4 = 3, so 7^3 = 343, unit digit 3. Sum = 4. But actually: 7^43 unit digit = 7^(4×10+3) → 7^3 → 3. 3^28 unit digit = 3^(4×7) → 1. Sum = 4. (Answer is 4, not 8 — correction: 3+1=4.)
+Answer: 4 — Working: 7^43 → 43 mod 4 = 3 → 7^3 unit digit = 343 → 3. 3^28 → 28 mod 4 = 0 → 3^4 unit digit = 1 → so 3^28 = (3^4)^7 → unit digit = 1. Sum = 3 + 1 = 4.
 
 ### Common Traps
 - **Trap 1:** Using HCF × LCM = product rule when numbers are NOT co-prime. Always verify co-primality first.

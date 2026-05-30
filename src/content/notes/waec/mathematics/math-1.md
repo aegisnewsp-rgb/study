@@ -85,7 +85,7 @@ $$1101011_2 = \underbrace{0110}_{6} \underbrace{1011}_{B} = 6B_{16}$$
 
 **Octal to Hexadecimal:**
 Use binary as an intermediary:
-$723_8 = 111\ 010\ 011_2 = 111010011_2 = \underbrace{0001}_{1} \underbrace{1101}_{D} \qdm 0011}_{3} = 1D3_{16}$
+$723_8 = 111\ 010\ 011_2 = 111010011_2 = \underbrace{0001}_{1} \underbrace{1101}_{D} \underbrace{0011}_{3} = 1D3_{16}$
 
 **Addition in Different Bases:**
 
@@ -141,16 +141,7 @@ $82 \div 4 = 20$ remainder 2
 Convert back: $20_{10} = 40_5$, $2_{10} = 2_5$
 So $312_5 \div 4_5 = 40_5$ remainder $2_5$
 
-Check: $40_5 \times 4_5 + 2_5 = 3 \times 40 + 2 = 120 + 2 = 122_5$
-$312_5 - 122_5 = 190_5$... this is wrong.
-
-Let me redo in base 5:
-$312_5 \div 4_5$:
-4 goes into 31 (base 5) = 3 times (3 × 4 = 12_5 = 7₁₀)
-$31_5 - 12_5 = 31_5 - 12_5 = (3×5 + 1) - (1×5 + 2) = 16 - 7 = 9_{10} = 14_5$
-Bring down 2: $14_5 \div 4_5 = 2$ remainder... $14_5 - 12_5 = 2_5$
-
-So answer: $32_5$ remainder $2_5$
+Check: $40_5 \times 4_5 + 2_5$ in decimal is $20_{10} \times 4_{10} + 2_{10} = 82_{10} = 312_5$ ✓
 
 **Fractional Bases:**
 

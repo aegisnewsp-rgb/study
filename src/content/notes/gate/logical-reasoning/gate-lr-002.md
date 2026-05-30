@@ -59,13 +59,13 @@ Pattern confirmed: +1 shift for all letters. The code is a Caesar cipher with sh
 
 **Common Variations in GATE:**
 
-1. **Alternating Shift**: Odd-position letters shift by +n, even-position letters shift by +m. Example: ABCD → EGH (A+4, B+2, C+4, D+2).
+1. **Alternating Shift**: Odd-position letters shift by +n, even-position letters shift by +m. Example: ABCD → EDGF (A+4, B+2, C+4, D+2).
 
 2. **Middle Letter Swap**: First and last letters swap positions, middle letters shift. Example: MASTER → TAMERS.
 
 3. **Vowel-Consonant Rule**: Vowels shift differently from consonants. Example: A(1)→E(5, +4), but B(2)→D(4, +2).
 
-4. **Reverse Coding**: The word is written backwards and then each letter is shifted. Example: CAT → XZG (CAT reversed = TAC, then T→X(+4), A→E(+4), C→G(+4)).
+4. **Reverse Coding**: The word is written backwards and then each letter is shifted. Example: CAT → XEG (CAT reversed = TAC, then T→X(+4), A→E(+4), C→G(+4)).
 
 **Comparison Table — Common Coding Patterns:**
 
@@ -273,7 +273,7 @@ This is self-inverse — applying it twice returns the original.
 
 **6. Vigenère Cipher (Key-Based):**
 A keyword determines the shift for each letter. "CAT" means first letter shifts by C(3), second by A(1), third by T(20), fourth cycles back to C(3).
-- MECH with key BAD → M+B=D, E+A=F, C+D=G, H+A=I = DFGI
+- MECH with key BAD → M+B=O, E+A=F, C+D=G, H+B=J = OFGJ
 
 **7. Word Coding:**
 The word is transformed structurally, not letter-by-letter:

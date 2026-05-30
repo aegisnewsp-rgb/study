@@ -37,7 +37,7 @@ $n! = n \times (n-1) \times (n-2) \times \cdots \times 1$. By definition, $0! = 
 - $P(n, 1) = n$ (choosing 1 from $n$)
 - $P(n, 0) = 1$
 
-⚡ **JEE Tip:** When objects repeat, divide by factorials of each repeated type: number of arrangements of "BOOKKEEPER" = $\frac{10!}{2! \cdot 3! \cdot 2!}$ (2 Os, 3 Ks, 2 Rs).
+⚡ **JEE Tip:** When objects repeat, divide by factorials of each repeated type: number of arrangements of "BOOKKEEPER" = $\frac{10!}{2! \cdot 2! \cdot 3!}$ (2 O's, 2 K's, 3 E's).
 
 ⚡ **Common Mistake:** Don't use $n^r$ when order matters but selections don't repeat. If you choose $r$ out of $n$ and arrange them (permutation without repetition), use $P(n,r)$, not $n^r$.
 
@@ -55,13 +55,13 @@ $n! = n \times (n-1) \times (n-2) \times \cdots \times 1$. By definition, $0! = 
 
 **1. Restrictions on adjacent positions:**
 Use inclusion-exclusion or "treat as block" method.
-Example: arrangements of "KEPLER" with P and L together.
-Treat $(PL)$ or $(LP)$ as one unit: $5! \times 2! = 240$.
+Example: arrangements of "KEPLER" with P and L together (note E repeats twice).
+Treat $(PL)$ or $(LP)$ as one unit: 5 units with 2 Es, $\frac{5!}{2!} \times 2! = 120$.
 
 **2. Restrictions on not being together:**
 Total arrangements minus arrangements with restriction.
 Example: arrangements of "KEPLER" with P and L NOT together.
-Total: $6! = 720$. With P and L together: $240$. So NOT together: $720 - 240 = 480$.
+Total: $\frac{6!}{2!} = 360$ (E repeats twice). With P and L together: $120$. So NOT together: $360 - 120 = 240$.
 
 **3. Position-based restrictions:**
 Example: arrangements of numbers 1–5 where 1 is not in first position.
@@ -88,13 +88,13 @@ Total: $4 \times 6 = 24$ numbers.
 *Example 2 (JEE 2022):* Count arrangements of "EXAMINATION" where vowels appear together.
 
 Letters: E, X, A, M, I, N, A, T, I, O, N.
-Vowels: E, A, A, I, I, O (6 vowels, 3 As, 2 Is).
+Vowels: E, A, A, I, I, O (6 vowels, 2 As, 2 Is).
 Consonants: X, M, N, N, T (5 consonants, 2 Ns).
 
 Treat vowels as a block: 1 block + 5 consonants = 6 items.
 Arrangements of 6 items: $\frac{6!}{2!}$ (for 2 Ns) $= 360$.
-Within vowel block: arrange E, A, A, I, I, O = $\frac{6!}{3! \cdot 2!} = 60$.
-Total: $360 \times 60 = 21600$.
+Within vowel block: arrange E, A, A, I, I, O = $\frac{6!}{2! \cdot 2!} = 180$.
+Total: $360 \times 180 = 64800$.
 
 *Example 3:* In how many ways can 5 boys and 5 girls be seated around a round table so that no two adjacent are of same gender?
 

@@ -4,6 +4,7 @@ import Layout from '@layouts/Layout.astro';
 import Navbar from '@components/Navbar.astro';
 import Footer from '@components/Footer.astro';
 import { isGoodNote } from '@data/note-quality';
+import { EXAM_EQUIVALENTS } from '@data/exam-equivalents';
 
 export async function getStaticPaths() {
   const allNotes = await getCollection('notes');
@@ -26,17 +27,6 @@ const firstNote = allExamNotes[0];
 const examName = firstNote?.data.examName || exam;
 const flag = { india: '🇮🇳', pakistan: '🇵🇰', nigeria: '🇳🇬' }[firstNote?.data.country] || '🌍';
 
-const EXAM_EQUIVALENTS: Record<string, Array<{id: string, name: string, flag: string}>> = {
-  'neet':       [{id:'mdcat', name:'MDCAT (Pakistan)', flag:'🇵🇰'}, {id:'jamb', name:'JAMB (Nigeria)', flag:'🇳🇬'}],
-  'mdcat':      [{id:'neet', name:'NEET UG (India)', flag:'🇮🇳'}, {id:'jamb', name:'JAMB (Nigeria)', flag:'🇳🇬'}],
-  'jamb':       [{id:'neet', name:'NEET UG (India)', flag:'🇮🇳'}, {id:'mdcat', name:'MDCAT (Pakistan)', flag:'🇵🇰'}],
-  'jee-main':   [{id:'jeeadvanced', name:'JEE Advanced (India)', flag:'🇮🇳'}, {id:'ecat', name:'ECAT (Pakistan)', flag:'🇵🇰'}],
-  'jeeadvanced':[{id:'jeemain', name:'JEE Main (India)', flag:'🇮🇳'}, {id:'ecat', name:'ECAT (Pakistan)', flag:'🇵🇰'}],
-  'ecat':       [{id:'jeemain', name:'JEE Main (India)', flag:'🇮🇳'}, {id:'jeeadvanced', name:'JEE Advanced (India)', flag:'🇮🇳'}],
-  'cat':        [{id:'jamb', name:'JAMB (Nigeria)', flag:'🇳🇬'}],
-  'clat':       [{id:'lat', name:'LAT (Pakistan)', flag:'🇵🇰'}],
-  'lat':        [{id:'clat', name:'CLAT (India)', flag:'🇮🇳'}],
-};
 // Only link equivalents that actually have a notes hub — others 404. Build the
 // set of exams that have notes from the loaded collection and filter against it.
 const examsWithNotes = new Set(allNotes.map(n => n.id.split('/')[0]));

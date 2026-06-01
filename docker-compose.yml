@@ -3,9 +3,13 @@ services:
     build: .
     container_name: studyroadmap
     restart: unless-stopped
-    # Mount news.json from host so cron can update it without rebuilding
-    volumes:
-      - ./news.json:/usr/share/nginx/html/news.json:ro
+    # NOTE: previously bind-mounted ./news.json over the served file. Removed
+    # 2026-06-01 after it caused a ~14h sitewide outage: when the host file went
+    # missing, `docker compose up` auto-created ./news.json as an empty DIRECTORY,
+    # and every subsequent start failed the bind mount (container stuck "created",
+    # Traefik 404 sitewide). The mount was also abandoned — refresh-news.sh only
+    # maintains public/news.json, which is baked into dist/ at build, so /news.json
+    # is served correctly from the image with no fragile host bind mount.
     labels:
       - traefik.enable=true
       - "traefik.http.routers.studyroadmap.rule=Host(`studyroadmap.in`) || Host(`www.studyroadmap.in`)"

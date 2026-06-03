@@ -6,8 +6,9 @@ subjectName: Subject Knowledge
 topic: subjec-002
 topicName: Algebraic Expressions & Simple Equations
 weight: 3
-country: uii
+country: indonesia
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 diagramPrompt: "Flowchart showing step-by-step solving of 3x + 7 = 22, isolating the variable: subtract 7, divide by 3, solution x = 5"
 
 ---

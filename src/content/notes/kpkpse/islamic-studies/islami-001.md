@@ -2,12 +2,13 @@
 exam: kpkpse
 examName: KPK PMS
 subject: islamic-studies
-subjectName: General Studies
+subjectName: "Islamic Studies"
 topic: islami-001
-topicName: Topic 1
+topicName: "Islamic Studies (General Studies): Sources of Islamic Law and Islamic Philosophy"
 weight: 3
-country: kpkpse
+country: pakistan
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Islamic Studies (General Studies): Sources of Islamic Law and Islamic Philosophy

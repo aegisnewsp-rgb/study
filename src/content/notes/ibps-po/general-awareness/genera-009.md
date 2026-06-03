@@ -2,12 +2,13 @@
 exam: ibps-po
 examName: IBPS PO
 subject: general-awareness
-subjectName: ('awareness', 'General Awareness')
+subjectName: "General Awareness"
 topic: genera-009
-topicName: Topic 9
+topicName: "Important Days, Dates & Current Affairs for Bank Exams"
 weight: 3
-country: ibps
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Important Days, Dates & Current Affairs for Bank Exams

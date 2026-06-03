@@ -1,5 +1,5 @@
 ---
-exam: cuet-ug
+exam: cuet
 examName: CUET UG
 subject: quantitative-aptitude
 subjectName: Quantitative Aptitude
@@ -9,8 +9,9 @@ tier: unified
 weight: 2
 weight_unit: "% of Section II"
 diagramPrompt: "A detailed alligation cross-diagram: mean price 40 in the centre, cheap 30 on left, dear 50 on right, with arrows showing differences and the ratio written below"
-country: India
-generated: ai-v1
+country: india
+generated: 2026-03-25
+lastUpdated: 2026-03-25
 ---
 
 # Average, Mixture & Alligation

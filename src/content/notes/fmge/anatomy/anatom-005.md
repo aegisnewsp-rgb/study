@@ -4,10 +4,11 @@ examName: FMGE
 subject: anatomy
 subjectName: Anatomy
 topic: anatom-005
-topicName: Topic 5
+topicName: "Head and Neck — Skull, Cranial Nerves (V, VII, IX, X, XI, XII), Face, and Neck Triangles"
 weight: 3
-country: fmge
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Head and Neck — Skull, Cranial Nerves (V, VII, IX, X, XI, XII), Face, and Neck Triangles

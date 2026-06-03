@@ -8,6 +8,7 @@ topicName: "Photosynthesis: The Light and Dark Reactions"
 weight: 3
 country: pakistan
 generated: "2026-03-24T08:32:08.107631"
+lastUpdated: 2026-03-24
 diagramPrompt: "Educational diagram illustrating Photosynthesis with light reactions and dark reactions (Calvin cycle), showing chloroplast structure, photosystem II and I, electron transport chain, ATP synthase, and the Calvin cycle in a stroma, white background, exam-style illustration"
 
 ---

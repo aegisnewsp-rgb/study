@@ -4,10 +4,11 @@ examName: NABE (Pakistan)
 subject: subject-specific
 subjectName: Subject Specific
 topic: subjec-015
-topicName: Topic 15
+topicName: "Data Interpretation and Statistics"
 weight: 3
-country: nabe
+country: pakistan
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Data Interpretation and Statistics

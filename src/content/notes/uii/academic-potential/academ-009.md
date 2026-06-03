@@ -6,8 +6,9 @@ subjectName: Academic Potential
 topic: academ-009
 topicName: Logical Reasoning — Deductive
 weight: 3
-country: uii
+country: indonesia
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Logical Reasoning — Deductive

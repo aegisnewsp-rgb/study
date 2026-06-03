@@ -8,6 +8,7 @@ topicName: Work, Energy and Power
 weight: 5
 country: nigeria
 generated: "2026-03-24T08:32:07.629820"
+lastUpdated: 2026-03-24
 diagramPrompt: "Clean educational diagram showing Work, Energy and Power with clear labels, white background, labeled arrows for forces/fields/vectors, color-coded components, exam-style illustration"
 
 

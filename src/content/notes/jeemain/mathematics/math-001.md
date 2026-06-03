@@ -11,6 +11,7 @@ topicName: Complex Numbers
 weight: 4
 country: india
 generated: "2026-04-17T22:33:00.000000"
+lastUpdated: 2026-04-17
 diagramPrompt: "Clean educational diagram showing Complex Numbers Argand plane with clear labels, white background, labeled arrows, color-coded components, exam-style illustration"
 
 

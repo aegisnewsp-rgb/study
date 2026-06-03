@@ -2,12 +2,13 @@
 exam: makerere-ent
 examName: Makerere University (Uganda)
 subject: chemistry
-subjectName: ('chemistry', 'Chemistry')
+subjectName: "Chemistry"
 topic: chemis-005
-topicName: Topic 5
+topicName: "Isomerism"
 weight: 3
-country: makerere
+country: uganda
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Isomerism

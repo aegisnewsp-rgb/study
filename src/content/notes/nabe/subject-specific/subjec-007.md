@@ -4,10 +4,11 @@ examName: NABE (Pakistan)
 subject: subject-specific
 subjectName: Subject Specific
 topic: subjec-007
-topicName: Topic 7
+topicName: "Time and Work"
 weight: 3
-country: nabe
+country: pakistan
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Time and Work

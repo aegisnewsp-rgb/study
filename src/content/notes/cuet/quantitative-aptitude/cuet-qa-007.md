@@ -1,5 +1,5 @@
 ---
-exam: cuet-ug
+exam: cuet
 examName: CUET UG
 subject: quantitative-aptitude
 subjectName: Quantitative Aptitude
@@ -9,8 +9,9 @@ tier: unified
 weight: 2
 weight_unit: "% of Section II"
 diagramPrompt: "An advanced diagram showing a worker's productivity curve over time, demonstrating the inverse relationship between number of workers and days to complete. Show how 4 men working 6 hours a day can complete the same work as 3 men working 8 hours a day, using the man-hours concept."
-country: India
-generated: ai-v1
+country: india
+generated: 2026-03-25
+lastUpdated: 2026-03-25
 ---
 
 # Time & Work, Pipes & Cisterns

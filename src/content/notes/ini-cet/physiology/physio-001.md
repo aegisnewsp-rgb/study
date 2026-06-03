@@ -4,10 +4,11 @@ examName: INI CET (AIIMS PG)
 subject: physiology
 subjectName: Physiology
 topic: physio-001
-topicName: General Physiology & Cell
+topicName: "Cell Membrane Physiology and Transport"
 weight: 3
-country: ini
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 **Cell Membrane Physiology and Transport** covers cell membrane physiology and transport for INI CET (AIIMS PG).

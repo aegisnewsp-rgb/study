@@ -8,6 +8,7 @@ topicName: Electrostatics
 weight: 5
 country: pakistan
 generated: "2026-03-24T08:32:08.086060"
+lastUpdated: 2026-03-24
 diagramPrompt: "Clean educational diagram showing Electrostatics with clear labels, white background, labeled arrows for forces/fields/vectors, color-coded components, exam-style illustration"
 
 

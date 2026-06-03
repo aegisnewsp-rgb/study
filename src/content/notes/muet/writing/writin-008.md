@@ -2,12 +2,13 @@
 exam: muet
 examName: MUET (Malaysia)
 subject: writing
-subjectName: Writing
+subjectName: "Writing (Paper 4)"
 topic: writin-008
-topicName: Topic 8
+topicName: "Marking Criteria and Examiner Expectations"
 weight: 3
-country: muet
+country: malaysia
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Marking Criteria and Examiner Expectations

@@ -2,12 +2,13 @@
 exam: kpkpse
 examName: KPK PMS
 subject: islamic-studies
-subjectName: General Studies
+subjectName: "Islamic Studies"
 topic: islami-002
-topicName: Topic 2
+topicName: "Pillars of Islam and the Islamic Way of Life"
 weight: 3
-country: kpkpse
+country: pakistan
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Pillars of Islam and the Islamic Way of Life

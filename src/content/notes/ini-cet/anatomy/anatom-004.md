@@ -6,8 +6,9 @@ subjectName: Anatomy
 topic: anatom-004
 topicName: Skin (Integument)
 weight: 3
-country: ini
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Skin (Integument) — Structure, Appendages and Clinical Aspects

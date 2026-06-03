@@ -11,6 +11,7 @@ topicName: Binomial Theorem
 weight: 4
 country: india
 generated: "2026-04-17T22:36:00.000000"
+lastUpdated: 2026-04-17
 diagramPrompt: "Clean educational diagram showing Binomial Expansion Pascal's Triangle with clear labels, white background, labeled coefficients, color-coded terms, exam-style illustration"
 
 

@@ -2,12 +2,13 @@
 exam: haad
 examName: HAAD (UAE)
 subject: chemistry
-subjectName: ('chemistry', 'Chemistry')
+subjectName: "Chemistry"
 topic: chemis-008
-topicName: Topic 8
+topicName: "Carboxylic Acids and Their Derivatives"
 weight: 3
-country: haad
+country: uae
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Carboxylic Acids and Their Derivatives

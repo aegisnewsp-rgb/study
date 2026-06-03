@@ -6,8 +6,9 @@ subjectName: Mathematics
 topic: math-19
 topicName: Statistics
 weight: 3
-country: ng
+country: nigeria
 generated: "2026-03-24T08:32:07.742094"
+lastUpdated: 2026-03-24
 diagramPrompt: "Statistical diagram showing frequency distribution histogram, bar chart, mean median mode illustration, data visualization style, clean black and white"
 ---
 

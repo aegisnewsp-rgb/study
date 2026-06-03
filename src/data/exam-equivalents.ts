@@ -52,8 +52,7 @@ export const EXAM_EQUIVALENTS: Record<string, Array<{id: string; name: string; f
   'cmat':       [{id:'mat', name:'MAT (India)', flag:'🇮🇳'}, {id:'cat', name:'CAT (India)', flag:'🇮🇳'}],
 
   // ── Common University / Central Exams ─────────────────────
-  'cuet':       [{id:'cuet-ug', name:'CUET-UG (India)', flag:'🇮🇳'}, {id:'cucet-pg', name:'CUCET-PG (India)', flag:'🇮🇳'}],
-  'cuet-ug':    [{id:'cuet', name:'CUET (India)', flag:'🇮🇳'}],
+  'cuet':       [{id:'cucet-pg', name:'CUCET-PG (India)', flag:'🇮🇳'}],
   'cucet-pg':   [{id:'cuet', name:'CUET (India)', flag:'🇮🇳'}, {id:'gate', name:'GATE (India)', flag:'🇮🇳'}],
   'du-ad':      [{id:'du-adm', name:'DU-Admin (India)', flag:'🇮🇳'}, {id:'cuet', name:'CUET (India)', flag:'🇮🇳'}],
   'du-adm':     [{id:'du-ad', name:'DU-Arts (India)', flag:'🇮🇳'}],
@@ -81,7 +80,7 @@ export const EXAM_EQUIVALENTS: Record<string, Array<{id: string; name: string; f
   'upsc':       [{id:'fpsc-cce', name:'CSS/FPSC (Pakistan)', flag:'🇵🇰'}, {id:'jamb', name:'JAMB (Nigeria)', flag:'🇳🇬'}],
   'uppsc':      [{id:'upsc', name:'UPSC (India)', flag:'🇮🇳'}, {id:'ras', name:'RAS (India)', flag:'🇮🇳'}],
   'ras':        [{id:'upsc', name:'UPSC (India)', flag:'🇮🇳'}, {id:'uppsc', name:'UPPSC (India)', flag:'🇮🇳'}],
-  'bpsc':       [{id:'upsc', name:'UPSC (India)', flag:'🇮🇳'}, {id:'bpsc', name:'BPSC (India)', flag:'🇮🇳'}],
+  'bpsc':       [{id:'upsc', name:'UPSC (India)', flag:'🇮🇳'}, {id:'uppsc', name:'UPPSC (India)', flag:'🇮🇳'}],
 
   // ── Defence ───────────────────────────────────────────────
   'nda':        [{id:'cds', name:'CDS (India)', flag:'🇮🇳'}],
@@ -101,7 +100,6 @@ export const EXAM_EQUIVALENTS: Record<string, Array<{id: string; name: string; f
 
   // ── Sub-national / State Exams ────────────────────────────
   'ssc-cgl':    [{id:'bpsc', name:'BPSC (India)', flag:'🇮🇳'}, {id:'uppsc', name:'UPPSC (India)', flag:'🇮🇳'}],
-  'ssc-cgl-tier2': [{id:'ssc-cgl', name:'SSC CGL (India)', flag:'🇮🇳'}],
   'tnpsc':      [{id:'upsc', name:'UPSC (India)', flag:'🇮🇳'}, {id:'bpsc', name:'BPSC (India)', flag:'🇮🇳'}],
   'kpsc':       [{id:'upsc', name:'UPSC (India)', flag:'🇮🇳'}, {id:'ras', name:'RAS (India)', flag:'🇮🇳'}],
 

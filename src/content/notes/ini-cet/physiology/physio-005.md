@@ -4,10 +4,11 @@ examName: INI CET (AIIMS PG)
 subject: physiology
 subjectName: Physiology
 topic: physio-005
-topicName: Cardiovascular System
+topicName: "Hemodynamics and Blood Pressure Regulation"
 weight: 3
-country: ini
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 **Hemodynamics and Blood Pressure Regulation** covers hemodynamics and blood pressure regulation for INI CET (AIIMS PG).

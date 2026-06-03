@@ -2,12 +2,13 @@
 exam: fmge
 examName: FMGE
 subject: pathology
-subjectName: Botany
+subjectName: "Pathology"
 topic: pathol-005
-topicName: Topic 5
+topicName: "Genetic Disorders"
 weight: 3
-country: fmge
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Genetic Disorders

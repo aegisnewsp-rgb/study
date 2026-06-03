@@ -2,12 +2,13 @@
 exam: mat
 examName: MAT (Management Aptitude Test)
 subject: data-analysis
-subjectName: Data Interpretation & Logical Reasoning
+subjectName: "Data-Analysis"
 topic: data-a-005
 topicName: Line Graphs & Trend Analysis
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 diagramPrompt: "A dual-axis line chart showing monthly temperature (°C) and rainfall (mm) for a city across 12 months, with two distinct lines for each metric, styled as a typical MAT exam DI passage requiring trend interpretation and extrapolation."
 
 ---

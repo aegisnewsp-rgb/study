@@ -4,10 +4,11 @@ examName: NABE (Pakistan)
 subject: subject-specific
 subjectName: Subject Specific
 topic: subjec-001
-topicName: Topic 1
+topicName: "Topic 1: Quantitative Aptitude Basics for NABE"
 weight: 3
-country: nabe
+country: pakistan
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 diagramPrompt: "A visual showing the formula triangle for Ratio & Proportion, Percentage conversion wheel, and Simple vs Compound Interest comparison chart"
 
 ---

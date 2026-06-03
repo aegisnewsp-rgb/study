@@ -9,8 +9,9 @@ tier: unified
 weight: 2
 weight_unit: "% of GA section"
 diagramPrompt: "An advanced decision matrix for Assertion & Reason: rows represent statement truth (true/false), columns represent reason truth (true/false), cells show the resulting option (A/B/C/D/E) and whether the explanation link is required. Includes examples of each cell."
-country: India
-generated: ai-v1
+country: india
+generated: 2026-05-26
+lastUpdated: 2026-05-26
 ---
 
 # Assertion & Reason

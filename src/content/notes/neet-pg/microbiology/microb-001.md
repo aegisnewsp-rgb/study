@@ -2,12 +2,13 @@
 exam: neet-pg
 examName: NEET PG
 subject: microbiology
-subjectName: Botany
+subjectName: "Microbiology"
 topic: microb-001
-topicName: Topic 1
+topicName: "Bacteria"
 weight: 3
-country: neet
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Bacteria

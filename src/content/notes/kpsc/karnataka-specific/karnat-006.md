@@ -2,12 +2,13 @@
 exam: kpsc
 examName: KPSC KAS
 subject: karnataka-specific
-subjectName: Karnataka Specific
+subjectName: "Karnataka-Specific"
 topic: karnat-006
-topicName: Topic 6
+topicName: "Karnataka Economy: Agriculture, IT, Silk, Coffee, Sericulture, and Industrial Development"
 weight: 3
-country: kpsc
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Karnataka Economy: Agriculture, IT, Silk, Coffee, Sericulture, and Industrial Development

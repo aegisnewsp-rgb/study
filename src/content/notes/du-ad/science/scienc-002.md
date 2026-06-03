@@ -6,8 +6,9 @@ subjectName: Science
 topic: scienc-002
 topicName: Topic 2
 weight: 3
-country: du
+country: bangladesh
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Topic 2

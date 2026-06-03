@@ -9,6 +9,7 @@ topicName: Chemical Equilibrium
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.642509"
+lastUpdated: 2026-03-24
 diagramPrompt: "Clear scientific diagram of Chemical Equilibrium with atom labels, molecular structure, reaction arrows, white background, color-coded bonds and groups, exam textbook style"
 
 

@@ -2,12 +2,13 @@
 exam: uptet
 examName: UPTET
 subject: social
-subjectName: Social
+subjectName: "Social Studies"
 topic: social-008
-topicName: Topic 8
+topicName: "Social Issues and Social Justice in India"
 weight: 3
-country: uptet
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Social Issues and Social Justice in India

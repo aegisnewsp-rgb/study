@@ -11,6 +11,7 @@ topicName: Periodic Properties
 weight: 3
 country: pakistan
 generated: "2026-03-24T08:32:08.097628"
+lastUpdated: 2026-03-24
 diagramPrompt: "Clear scientific diagram of Periodic Properties with atom labels, molecular structure, reaction arrows, white background, color-coded bonds and groups, exam textbook style"
 
 

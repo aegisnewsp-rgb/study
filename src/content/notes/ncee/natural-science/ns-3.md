@@ -12,6 +12,7 @@ topicName: "Plants: Structure and Functions"
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.605720"
+lastUpdated: 2026-03-24
 diagramPrompt: "Educational diagram illustrating Plants: Structure and Functions with clear labels, white background, exam-style illustration"
 
 

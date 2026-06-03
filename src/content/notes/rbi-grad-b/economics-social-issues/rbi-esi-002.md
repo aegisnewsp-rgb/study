@@ -9,8 +9,9 @@ tier: unified
 weight: 3
 weight_unit: "% of Phase 2 paper"
 diagramPrompt: "A conceptual diagram: At centre, 'India's Development Planning' with four concentric rings representing evolution: Ring 1 = Fabian Socialism (1950s-60s), Ring 2 = Mixed Economy with License Raj (1970s-80s), Ring 3 = LPG Reforms (1991-2014), Ring 4 = NITI Aayog Cooperative Federalism (2015-present). Each ring has key instruments listed."
-country: India
-generated: ai-v1
+country: india
+generated: 2026-05-26
+lastUpdated: 2026-05-26
 ---
 
 # Five-Year Plans & Economic Planning in India

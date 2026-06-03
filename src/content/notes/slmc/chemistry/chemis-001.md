@@ -6,8 +6,9 @@ subjectName: Chemistry
 topic: chemis-001
 topicName: Organic Chemistry Fundamentals
 weight: 3
-country: slmc
+country: srilanka
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Organic Chemistry Fundamentals — Structure, Bonding, and the Carbon Atom

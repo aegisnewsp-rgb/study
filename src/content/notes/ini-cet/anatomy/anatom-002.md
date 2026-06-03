@@ -6,8 +6,9 @@ subjectName: Anatomy
 topic: anatom-002
 topicName: Human Genetics
 weight: 3
-country: ini
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Human Genetics — Chromosomes, Inheritance Patterns and Genetic Disorders

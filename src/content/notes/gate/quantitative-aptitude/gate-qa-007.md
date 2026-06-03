@@ -9,8 +9,9 @@ tier: unified
 weight: 2
 weight_unit: "% of QA section"
 diagramPrompt: "A detailed diagram showing the cross-multiplication process in a proportion with visual arrows, plus a mixture composition bar for word problems"
-country: India
-generated: ai-v1
+country: india
+generated: 2026-05-26
+lastUpdated: 2026-05-26
 ---
 
 # Ratio & Proportion

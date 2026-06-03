@@ -2,12 +2,13 @@
 exam: kenyatta-ku
 examName: Kenyatta University (Kenya)
 subject: chemistry
-subjectName: ('chemistry', 'Chemistry')
+subjectName: "Chemistry"
 topic: chemis-005
-topicName: Topic 5
+topicName: "Alcohols: Classification, Preparation, and Reactions"
 weight: 3
-country: kenyatta
+country: kenya
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Alcohols: Classification, Preparation, and Reactions

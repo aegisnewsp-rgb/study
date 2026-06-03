@@ -6,8 +6,9 @@ subjectName: Science
 topic: scienc-003
 topicName: Biology and Life Sciences
 weight: 3
-country: uptet
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Biology and Life Sciences

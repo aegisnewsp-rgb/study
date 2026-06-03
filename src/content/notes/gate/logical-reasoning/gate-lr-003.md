@@ -9,8 +9,9 @@ tier: unified
 weight: 2
 weight_unit: "% of GA section"
 diagramPrompt: "A comprehensive Venn diagram grid showing all combinations of premises and their possible conclusions. Shows 3-circle Venn diagrams for complex syllogisms with middle term, subject, and predicate clearly labeled. Demonstrates the undistributed middle fallacy visually."
-country: India
-generated: ai-v1
+country: india
+generated: 2026-05-26
+lastUpdated: 2026-05-26
 ---
 
 # Syllogisms

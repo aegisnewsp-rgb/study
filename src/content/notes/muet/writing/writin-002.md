@@ -2,12 +2,13 @@
 exam: muet
 examName: MUET (Malaysia)
 subject: writing
-subjectName: Writing
+subjectName: "Writing (Paper 4)"
 topic: writin-002
-topicName: Topic 2
+topicName: "Task 1 — Writing an Information Transfer Letter"
 weight: 3
-country: muet
+country: malaysia
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Task 1 — Writing an Information Transfer Letter

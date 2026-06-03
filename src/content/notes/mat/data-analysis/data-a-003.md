@@ -2,12 +2,13 @@
 exam: mat
 examName: MAT (Management Aptitude Test)
 subject: data-analysis
-subjectName: Data Interpretation & Logical Reasoning
+subjectName: "Data-Analysis"
 topic: data-a-003
 topicName: Pie Charts & Circle Diagrams
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 diagramPrompt: "A pie chart showing the market share of five smartphone brands in India (Brand A: 32%, Brand B: 25%, Brand C: 18%, Brand D: 15%, Brand E: 10%), with a supplementary bar chart showing revenue in INR crores for the same brands, styled as a typical MAT exam DI passage requiring proportional reasoning."
 
 ---

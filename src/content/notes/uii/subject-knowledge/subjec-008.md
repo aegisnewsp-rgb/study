@@ -6,8 +6,9 @@ subjectName: Subject Knowledge
 topic: subjec-008
 topicName: Geometry — Lines, Angles, Triangles
 weight: 3
-country: uii
+country: indonesia
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 diagramPrompt: "Triangle ABC with vertices labeled, showing interior angles at A, B, C, exterior angle at A formed by extending side BC, and perpendicular bisector of side AB"
 
 ---

@@ -2,12 +2,13 @@
 exam: utbk
 examName: UTBK/SNPMTN (Indonesia)
 subject: indonesian
-subjectName: Indonesian
+subjectName: "Indonesian Language (Literasi Bahasa Indonesia)"
 topic: indone-007
 topicName: Topic 7
 weight: 3
-country: utbk
+country: indonesia
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Topic 7

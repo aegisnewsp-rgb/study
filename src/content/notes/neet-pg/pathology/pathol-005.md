@@ -6,8 +6,9 @@ subjectName: Pathology
 topic: pathol-005
 topicName: Immunopathology — Hypersensitivity, Immunodeficiency & Autoimmunity
 weight: 3
-country: neet
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Immunopathology — Hypersensitivity, Immunodeficiency & Autoimmunity

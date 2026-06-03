@@ -11,6 +11,7 @@ topicName: "Calculus: Integration"
 weight: 5
 country: nigeria
 generated: "2026-03-24T08:32:07.670153"
+lastUpdated: 2026-03-24
 diagramPrompt: "Mathematical diagram showing Calculus: Integration concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style"
 
 

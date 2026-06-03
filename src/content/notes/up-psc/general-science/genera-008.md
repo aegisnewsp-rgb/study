@@ -2,12 +2,13 @@
 exam: up-psc
 examName: UPPSC PCS
 subject: general-science
-subjectName: General Awareness
+subjectName: "General Science"
 topic: genera-008
 topicName: Indian Heritage & CulturalDiversities
 weight: 3
-country: up
+country: india
 generated: "2026-04-14T08:03:00"
+lastUpdated: 2026-04-14
 ---
 
 # Indian Heritage & Cultural Diversities

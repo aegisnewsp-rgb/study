@@ -8,6 +8,7 @@ topicName: Directors & Key Managerial Personnel
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 diagramPrompt: "Clean educational diagram showing the hierarchy of company management: Board of Directors at top, followed by Key Managerial Personnel (KMP), then various committees — Audit, Nomination, Stakeholders Relationship — with connecting arrows showing reporting lines"
 
 ---

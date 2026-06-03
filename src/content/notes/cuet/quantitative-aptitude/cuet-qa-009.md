@@ -1,5 +1,5 @@
 ---
-exam: cuet-ug
+exam: cuet
 examName: CUET UG
 subject: quantitative-aptitude
 subjectName: Quantitative Aptitude
@@ -9,8 +9,9 @@ tier: unified
 weight: 2
 weight_unit: "% of Section II"
 diagramPrompt: "An advanced diagram showing a parabola with its axis of symmetry, vertex, and x-intercepts labeled. Include annotations for discriminant D > 0, D = 0, and D < 0 cases. Also show an AP as an arithmetic spiral of dots and a GP as an exponential growth curve."
-country: India
-generated: ai-v1
+country: india
+generated: 2026-03-25
+lastUpdated: 2026-03-25
 ---
 
 # Algebra

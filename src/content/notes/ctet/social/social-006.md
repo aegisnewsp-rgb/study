@@ -2,12 +2,13 @@
 exam: ctet
 examName: CTET
 subject: social
-subjectName: Social
+subjectName: "Social Studies"
 topic: social-006
 topicName: Modern Indian History and Freedom Struggle
 weight: 3
-country: ctet
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Modern Indian History and Freedom Struggle

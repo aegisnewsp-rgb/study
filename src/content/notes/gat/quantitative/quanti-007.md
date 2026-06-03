@@ -2,12 +2,13 @@
 exam: gat
 examName: GAT Pakistan
 subject: quantitative
-subjectName: ('quantitative-techniques', 'Quantitative Techniques')
+subjectName: "Quantitative Techniques"
 topic: quanti-007
-topicName: Topic 7
+topicName: "Time, Speed and Distance"
 weight: 3
-country: gat
+country: pakistan
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Time, Speed and Distance

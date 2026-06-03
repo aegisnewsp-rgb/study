@@ -1,5 +1,5 @@
 ---
-exam: ssc-cgl-tier2
+exam: ssc-cgl
 examName: SSC CGL Tier 2
 subject: quantitative-abilities
 subjectName: Quantitative Abilities
@@ -9,8 +9,9 @@ tier: unified
 weight: 2
 weight_unit: "% of Tier 2 paper"
 diagramPrompt: "A composite solid diagram showing a cylinder with a hemisphere on top and a cone at the bottom, with labelled dimensions and a cross-section view showing the internal structure."
-country: India
-generated: ai-v1
+country: india
+generated: 2026-03-25
+lastUpdated: 2026-03-25
 ---
 
 # Mensuration (2D + 3D with numericals)

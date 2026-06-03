@@ -1,5 +1,5 @@
 ---
-exam: ssc-cgl-tier2
+exam: ssc-cgl
 examName: SSC CGL Tier 2
 subject: english-language
 subjectName: English Language
@@ -9,8 +9,9 @@ tier: unified
 weight: 2
 weight_unit: "% of Tier 2 paper"
 diagramPrompt: "A passage annotated with markers: Thesis Statement (T), Supporting Evidence (S), Counter-argument (C), Author's Opinion (O), Implicit Assumption (I), and question type labels linked to each"
-country: India
-generated: ai-v1
+country: india
+generated: 2026-03-25
+lastUpdated: 2026-03-25
 ---
 
 # Reading Comprehension (Passage + Questions)

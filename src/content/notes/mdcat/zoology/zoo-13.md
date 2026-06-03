@@ -11,6 +11,7 @@ topicName: Growth and Development
 weight: 3
 country: pakistan
 generated: "2026-03-24T08:32:08.113023"
+lastUpdated: 2026-03-24
 diagramPrompt: "Educational diagram illustrating Growth and Development with clear labels, white background, exam-style illustration"
 
 

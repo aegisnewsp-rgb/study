@@ -2,12 +2,13 @@
 exam: sbi-clerk
 examName: "SBI Clerk"
 subject: general-awareness
-subjectName: ('awareness', 'General Awareness')
+subjectName: "General Awareness"
 topic: genera-002
 topicName: "Monetary Policy and RBI's Policy Tools"
 weight: 3
-country: sbi
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Topic 2

@@ -6,8 +6,9 @@ subjectName: General Studies
 topic: islami-011
 topicName: Islamic Ethics and Manners (Adab)
 weight: 3
-country: qimiyah
+country: saudi
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Islamic Ethics and Manners (Adab)

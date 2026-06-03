@@ -6,8 +6,9 @@ subjectName: Mathematics
 topic: math-20
 topicName: Sets and Set Theory
 weight: 3
-country: ng
+country: nigeria
 generated: "2026-03-24T08:32:07.741774"
+lastUpdated: 2026-03-24
 diagramPrompt: "Euler-Venn diagram showing two intersecting sets A and B with region shading, set notation labels U for universal set, A ∩ B for intersection, A ∪ B for union, and A' for complement, clean black and white style"
 ---
 

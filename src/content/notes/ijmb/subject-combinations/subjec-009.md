@@ -2,12 +2,13 @@
 exam: ijmb
 examName: IJMB (Nigeria)
 subject: subject-combinations
-subjectName: Subject Combinations
+subjectName: "Subject-Combinations"
 topic: subjec-009
-topicName: Topic 9
+topicName: "Computer Science, ICT and Information Systems — The IJMB Route"
 weight: 3
-country: ijmb
+country: nigeria
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Computer Science, ICT and Information Systems — The IJMB Route

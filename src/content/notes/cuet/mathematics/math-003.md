@@ -8,6 +8,7 @@ topicName: Straight Lines
 weight: 3
 country: india
 generated: "2026-03-29T05:04:39"
+lastUpdated: 2026-03-29
 ---
 # Straight Lines
 

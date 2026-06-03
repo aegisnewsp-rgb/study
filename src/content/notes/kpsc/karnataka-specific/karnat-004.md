@@ -2,12 +2,13 @@
 exam: kpsc
 examName: KPSC KAS
 subject: karnataka-specific
-subjectName: Karnataka Specific
+subjectName: "Karnataka-Specific"
 topic: karnat-004
-topicName: Topic 4
+topicName: "Karnataka Geography: Physical Features, Divisions, Rivers, and Climate"
 weight: 3
-country: kpsc
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Karnataka Geography: Physical Features, Divisions, Rivers, and Climate

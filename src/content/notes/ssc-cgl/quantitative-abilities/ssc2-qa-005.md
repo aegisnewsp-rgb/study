@@ -1,5 +1,5 @@
 ---
-exam: ssc-cgl-tier2
+exam: ssc-cgl
 examName: SSC CGL Tier 2
 subject: quantitative-abilities
 subjectName: Quantitative Abilities
@@ -9,8 +9,9 @@ tier: unified
 weight: 2
 weight_unit: "% of Tier 2 paper"
 diagramPrompt: "A timeline showing partner contributions over 12 months with segmented bars for each partner's capital changes, with the final profit distribution waterfall at the bottom."
-country: India
-generated: ai-v1
+country: india
+generated: 2026-03-25
+lastUpdated: 2026-03-25
 ---
 
 # Ratio, Proportion & Partnership

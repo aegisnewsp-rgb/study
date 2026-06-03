@@ -6,8 +6,9 @@ subjectName: Business Law
 topic: busine-002
 topicName: Contract Law & Pharmaceutical Agreements
 weight: 3
-country: sa
+country: southafrica
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Contract Law & Pharmaceutical Agreements

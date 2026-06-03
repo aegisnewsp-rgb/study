@@ -4,10 +4,11 @@ examName: KUCCPS (Kenya)
 subject: subject-clusters
 subjectName: Subject Clusters
 topic: subjec-007
-topicName: Topic 7
+topicName: "Topic 7: Cluster 7 — Education"
 weight: 3
-country: kuccps
+country: kenya
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Topic 7: Cluster 7 — Education

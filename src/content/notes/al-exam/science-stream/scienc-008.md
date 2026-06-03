@@ -2,12 +2,13 @@
 exam: al-exam
 examName: A/L Examination (Sri Lanka)
 subject: science-stream
-subjectName: Science Stream
+subjectName: "Science-Stream"
 topic: scienc-008
 topicName: "Ecology and Ecosystem Dynamics"
 weight: 3
-country: al
+country: srilanka
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Ecology and Ecosystem Dynamics

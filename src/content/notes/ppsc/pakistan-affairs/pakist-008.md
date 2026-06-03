@@ -2,12 +2,13 @@
 exam: ppsc
 examName: PPSC (Pakistan)
 subject: pakistan-affairs
-subjectName: General Studies
+subjectName: "Pakistan Affairs"
 topic: pakist-008
-topicName: Topic 8
+topicName: "Foreign Policy of Pakistan"
 weight: 3
-country: ppsc
+country: pakistan
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 # Foreign Policy of Pakistan
 

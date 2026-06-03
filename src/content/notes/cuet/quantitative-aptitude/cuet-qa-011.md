@@ -1,5 +1,5 @@
 ---
-exam: cuet-ug
+exam: cuet
 examName: CUET UG
 subject: quantitative-aptitude
 subjectName: Quantitative Aptitude
@@ -9,8 +9,9 @@ tier: unified
 weight: 2
 weight_unit: "% of Section II"
 diagramPrompt: "Draw a multi-source DI example: a pie chart on the left showing percentage distribution, and a bar graph on the right showing yearly trend for the same categories. Show a connecting line where data from pie is used to calculate bar values."
-country: India
-generated: ai-v1
+country: india
+generated: 2026-03-25
+lastUpdated: 2026-03-25
 ---
 
 # Data Interpretation

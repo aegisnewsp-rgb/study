@@ -2,12 +2,13 @@
 exam: neet-pg
 examName: NEET PG
 subject: anatomy
-subjectName: Botany
+subjectName: "Anatomy"
 topic: anatom-010
-topicName: Topic 10
+topicName: "Upper Limb"
 weight: 3
-country: neet
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Upper Limb

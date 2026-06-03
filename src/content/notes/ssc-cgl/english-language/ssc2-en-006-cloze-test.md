@@ -1,5 +1,5 @@
 ---
-exam: ssc-cgl-tier2
+exam: ssc-cgl
 examName: SSC CGL Tier 2
 subject: english-language
 subjectName: English Language
@@ -9,8 +9,9 @@ tier: unified
 weight: 2
 weight_unit: "% of Tier 2 paper"
 diagramPrompt: "A passage with 10 blanks showing three layers: (1) Grammatical category (noun/verb/adjective), (2) Context meaning (positive/negative/neutral), (3) Logical flow arrows between blanks"
-country: India
-generated: ai-v1
+country: india
+generated: 2026-03-25
+lastUpdated: 2026-03-25
 ---
 
 # Cloze Test

@@ -12,6 +12,7 @@ topicName: "Reproduction: Asexual and Sexual"
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.697436"
+lastUpdated: 2026-03-24
 diagramPrompt: "Detailed biological diagram of Reproduction: Asexual and Sexual with labeled parts, accurate proportions, white background, color-coded tissues/organs, textbook quality"
 
 

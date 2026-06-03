@@ -1,5 +1,5 @@
 ---
-exam: cuet-ug
+exam: cuet
 examName: CUET UG
 subject: quantitative-aptitude
 subjectName: Quantitative Aptitude
@@ -9,8 +9,9 @@ tier: unified
 weight: 2
 weight_unit: "% of Section II"
 diagramPrompt: "Four growth curves on one graph — SI (straight line), CI annual, CI quarterly, CI monthly — all diverging upward with CI curves progressively steeper"
-country: India
-generated: ai-v1
+country: india
+generated: 2026-03-25
+lastUpdated: 2026-03-25
 ---
 
 # Simple & Compound Interest

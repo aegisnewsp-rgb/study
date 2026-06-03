@@ -2,12 +2,13 @@
 exam: uptet
 examName: UPTET
 subject: child-pedagogy
-subjectName: Child Pedagogy
+subjectName: "Child Development and Pedagogy"
 topic: child--006
 topicName: Assessment and Evaluation
 weight: 3
-country: uptet
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Assessment and Evaluation in Education

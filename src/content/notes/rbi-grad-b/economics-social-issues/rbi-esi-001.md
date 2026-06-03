@@ -9,8 +9,9 @@ tier: unified
 weight: 3
 weight_unit: "% of Phase 2 paper"
 diagramPrompt: "A dual-axis chart: Left axis (bar chart) showing sectoral GDP share over decades (1950s Agriculture-dominated → 1990s Industry rising → 2020s Services dominant); Right axis (line) showing corresponding employment share, revealing the structural disconnect — employment shifted little while GDP transformed completely."
-country: India
-generated: ai-v1
+country: india
+generated: 2026-05-26
+lastUpdated: 2026-05-26
 ---
 
 # Indian Economy: Structure & Characteristics

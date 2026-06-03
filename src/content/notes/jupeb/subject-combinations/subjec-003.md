@@ -2,12 +2,13 @@
 exam: jupeb
 examName: JUPEB (Nigeria)
 subject: subject-combinations
-subjectName: Subject Combinations
+subjectName: "Subject-Combinations"
 topic: subjec-003
 topicName: Topic 3
 weight: 3
-country: jupeb
+country: nigeria
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 The Physics, Chemistry, and Mathematics (PCM) or Engineering combination is the standard pathway for students targeting Engineering, Physical Sciences, and Technology programmes in Nigerian universities.

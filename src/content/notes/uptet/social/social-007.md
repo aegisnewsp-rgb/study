@@ -2,12 +2,13 @@
 exam: uptet
 examName: UPTET
 subject: social
-subjectName: Social
+subjectName: "Social Studies"
 topic: social-007
-topicName: Topic 7
+topicName: "Indian Polity: Panchayati Raj and Local Governance"
 weight: 3
-country: uptet
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Indian Polity: Panchayati Raj and Local Governance

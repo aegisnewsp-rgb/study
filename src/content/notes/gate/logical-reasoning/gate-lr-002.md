@@ -9,8 +9,9 @@ tier: unified
 weight: 2
 weight_unit: "% of GA section"
 diagramPrompt: "A comprehensive decision tree for coding-decoding: shows all major types (letter shift, position-based, atbash, pairwise swap, interweaving, number coding), each with examples and verification checklist. Shows wrap-around calculation for shifts beyond Z."
-country: India
-generated: ai-v1
+country: india
+generated: 2026-05-26
+lastUpdated: 2026-05-26
 ---
 
 # Coding-Decoding

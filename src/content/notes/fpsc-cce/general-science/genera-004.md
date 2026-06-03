@@ -2,12 +2,13 @@
 exam: fpsc-cce
 examName: FPSC CSS (Pakistan)
 subject: general-science
-subjectName: General Awareness
+subjectName: "General Science"
 topic: genera-004
 topicName: Pakistan's Economy and Development
 weight: 3
-country: fpsc
+country: pakistan
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Pakistan's Economy and Development

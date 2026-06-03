@@ -2,12 +2,13 @@
 exam: al-exam
 examName: A/L Examination (Sri Lanka)
 subject: commerce-stream
-subjectName: Commerce Stream
+subjectName: "Commerce-Stream"
 topic: commer-008
 topicName: "Microeconomics: Theory of the Firm"
 weight: 3
-country: al
+country: srilanka
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Microeconomics: Theory of the Firm

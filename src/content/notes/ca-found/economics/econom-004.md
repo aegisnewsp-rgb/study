@@ -2,12 +2,13 @@
 exam: ca-found
 examName: CA Foundation
 subject: economics
-subjectName: Quantitative Aptitude
+subjectName: "Economics"
 topic: econom-004
 topicName: Consumer Behaviour
 weight: 3
-country: ca
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Consumer Behaviour

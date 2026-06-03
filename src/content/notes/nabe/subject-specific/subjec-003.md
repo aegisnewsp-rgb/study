@@ -4,10 +4,11 @@ examName: NABE (Pakistan)
 subject: subject-specific
 subjectName: Subject Specific
 topic: subjec-003
-topicName: Topic 3
+topicName: "Percentage"
 weight: 3
-country: nabe
+country: pakistan
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Percentage

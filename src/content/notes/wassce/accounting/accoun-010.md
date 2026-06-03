@@ -2,12 +2,13 @@
 exam: wassce
 examName: WASSCE (Ghana)
 subject: accounting
-subjectName: Financial Accounting
+subjectName: "Accounting"
 topic: accoun-010
 topicName: Cost Accounting Basics
 weight: 3
-country: wassce
+country: ghana
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Cost Accounting Basics

@@ -2,12 +2,13 @@
 exam: cma
 examName: CMA Foundation
 subject: business-law
-subjectName: Business Laws
+subjectName: "Business Law"
 topic: busine-002
 topicName: The Sale of Goods Act, 1930
 weight: 3
-country: cma
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # The Sale of Goods Act, 1930

@@ -8,6 +8,7 @@ topicName: "Thermochemistry and Energetics"
 weight: 4
 country: nigeria
 generated: "2026-04-05T03:34:00.000000"
+lastUpdated: 2026-04-05
 diagramPrompt: "Clear scientific diagram of Thermochemistry and Energetics with enthalpy labels, reaction coordinate graph, white background, color-coded energy levels, exam textbook style"
 
 ---

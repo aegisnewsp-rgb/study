@@ -4,10 +4,11 @@ examName: KUCCPS (Kenya)
 subject: subject-clusters
 subjectName: Subject Clusters
 topic: subjec-014
-topicName: Topic 14
+topicName: "Topic 14: Cluster 14 — Journalism and Media"
 weight: 3
-country: kuccps
+country: kenya
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Topic 14: Cluster 14 — Journalism and Media

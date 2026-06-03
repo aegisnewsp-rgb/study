@@ -9,8 +9,9 @@ tier: unified
 weight: 3
 weight_unit: "% of Phase 2 paper"
 diagramPrompt: "Draw an advanced comparative matrix showing India's performance across HDI dimensions (health, education, income), GII pillars, and MPI dimensions — with global average benchmarks, BRICS comparison, and India's trend over 10 years as trend arrows"
-country: India
-generated: ai-v1
+country: india
+generated: 2026-05-26
+lastUpdated: 2026-05-26
 ---
 
 # Global Indices: HDI, GII & Ease of Doing Business

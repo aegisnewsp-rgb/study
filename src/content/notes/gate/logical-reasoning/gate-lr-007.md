@@ -9,8 +9,9 @@ tier: unified
 weight: 2
 weight_unit: "% of GA section"
 diagramPrompt: "Complex path diagram showing multiple turns, intermediate points, and final displacement vector with distance calculation."
-country: India
-generated: ai-v1
+country: india
+generated: 2026-05-26
+lastUpdated: 2026-05-26
 ---
 
 # Direction Sense

@@ -145,7 +145,7 @@ const exam: ExamTemplate = {
   examName: 'JEE Main',
   country: 'india',
   description: `JEE\ Main\ is\ the\ first\-stage\ entrance\ exam\ for\ admission\ to\ NITs,\ IIITs,\ and\ other\ Centrally\ Funded\ Technical\ Institutions\.\ Also\ used\ for\ JEE\ Advanced\ eligibility\.\ Conducted\ by\ NTA\ in\ multiple\ sessions\.`,
-  examPattern: "90 MCQs (30 Physics, 30 Chemistry, 30 Mathematics), 3 hours, 300 marks — each correct answer gets 4 marks, 1 mark deducted for wrong answer. Each subject has 25 MCQs + 5 numerical questions (numericals are not negative-marked).",
+  examPattern: "75 questions (25 per subject — Physics, Chemistry, Mathematics), 3 hours, 300 marks. Each subject has Section A (20 MCQs) and Section B (5 numerical-value questions), all compulsory. Correct answer +4; 1 mark deducted for a wrong answer in both sections — since 2025 the Section B numericals are compulsory and carry the same -1 negative marking.",
   eligibility: "Class 12 PCM stream with minimum 75% aggregate for general category (65% for SC/ST/OBC). Subject-wise minimum of 60% in each of Physics, Chemistry, and Mathematics.",
   subjects,
   durations,

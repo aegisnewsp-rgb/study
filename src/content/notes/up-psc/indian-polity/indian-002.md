@@ -6,7 +6,7 @@ subjectName: Indian Polity
 topic: indian-002
 topicName: Fundamental Rights and Duties
 weight: 3
-country: up
+country: india
 generated: "2026-03-25T17:00:00"
 lastUpdated: "2026-03-25"
 ---

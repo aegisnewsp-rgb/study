@@ -2,12 +2,13 @@
 exam: up-psc
 examName: UPPSC PCS
 subject: general-science
-subjectName: General Awareness
+subjectName: "General Science"
 topic: genera-005
 topicName: General Awareness - Current Events & Issues
 weight: 3
-country: up
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # General Awareness - Current Events & Issues

@@ -4,10 +4,11 @@ examName: Qimiyah Exam (Saudi)
 subject: arabic
 subjectName: Arabic
 topic: arabic-010
-topicName: Topic 10
+topicName: "Arabic Grammar in Islamic Texts: Advanced Application"
 weight: 3
-country: qimiyah
+country: saudi
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 # Arabic Grammar in Islamic Texts: Advanced Application
 

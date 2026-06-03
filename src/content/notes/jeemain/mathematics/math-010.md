@@ -11,6 +11,7 @@ topicName: Limits
 weight: 5
 country: india
 generated: "2026-04-17T22:42:00.000000"
+lastUpdated: 2026-04-17
 diagramPrompt: "Clean educational diagram showing Limit of function graph with clear labels, white background, color-coded curves, asymptote indication, exam-style illustration"
 
 

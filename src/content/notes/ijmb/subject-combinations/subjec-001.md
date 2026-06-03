@@ -2,12 +2,13 @@
 exam: ijmb
 examName: IJMB (Nigeria)
 subject: subject-combinations
-subjectName: Subject Combinations
+subjectName: "Subject-Combinations"
 topic: subjec-001
-topicName: Topic 1
+topicName: "Understanding the IJMB Programme and its Role in Nigerian University Admission"
 weight: 3
-country: ijmb
+country: nigeria
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Understanding the IJMB Programme and its Role in Nigerian University Admission

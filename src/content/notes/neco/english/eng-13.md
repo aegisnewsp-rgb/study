@@ -11,6 +11,7 @@ topicName: Conditional Sentences
 weight: 3
 country: nigeria
 generated: "2026-03-24T08:32:07.660057"
+lastUpdated: 2026-03-24
 diagramPrompt: "Educational diagram illustrating Conditional Sentences with clear labels, white background, exam-style illustration"
 
 

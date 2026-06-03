@@ -2,12 +2,13 @@
 exam: kpkpse
 examName: KPK PMS
 subject: islamic-studies
-subjectName: General Studies
+subjectName: "Islamic Studies"
 topic: islami-008
-topicName: Topic 8
+topicName: "Contemporary Islamic Thought: Reform, Extremism, and Modern Challenges"
 weight: 3
-country: kpkpse
+country: pakistan
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Contemporary Islamic Thought: Reform, Extremism, and Modern Challenges

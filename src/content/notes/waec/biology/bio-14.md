@@ -8,6 +8,7 @@ topicName: Variation and Evolution
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.653831"
+lastUpdated: 2026-03-24
 diagramPrompt: "Detailed biological diagram of Variation and Evolution with labeled parts, accurate proportions, white background, color-coded tissues/organs, textbook quality"
 
 

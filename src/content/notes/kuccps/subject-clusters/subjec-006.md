@@ -4,10 +4,11 @@ examName: KUCCPS (Kenya)
 subject: subject-clusters
 subjectName: Subject Clusters
 topic: subjec-006
-topicName: Topic 6
+topicName: "Topic 6: Cluster 6 — Agriculture and Biological Sciences"
 weight: 3
-country: kuccps
+country: kenya
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Topic 6: Cluster 6 — Agriculture and Biological Sciences

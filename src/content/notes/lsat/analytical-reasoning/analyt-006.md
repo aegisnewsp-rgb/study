@@ -2,12 +2,13 @@
 exam: lsat
 examName: LSAT India
 subject: analytical-reasoning
-subjectName: Analytical Reasoning
+subjectName: "Analytical-Reasoning"
 topic: analyt-006
-topicName: Topic 6
+topicName: "Conditional Logic & Sufficient-Necessary Conditions"
 weight: 3
-country: lsat
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Conditional Logic & Sufficient-Necessary Conditions

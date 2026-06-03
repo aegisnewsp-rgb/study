@@ -9,8 +9,9 @@ tier: unified
 weight: 3
 weight_unit: "% of Phase 2 paper"
 diagramPrompt: "Complex multi-layered architecture diagram: Foundation shows RBI's PCA trigger thresholds with specific numbers. Above that, a three-tier control pyramid: Operational Controls (bottom, largest), Management Controls (middle), Strategic Controls (top). Side panels show Balanced Scorecard perspectives with Indian bank-specific KPIs. Bottom section shows audit types: Concurrent Audit (real-time), Internal Audit (periodic), Statutory Audit (annual), with their scope and timing differences."
-country: India
-generated: ai-v1
+country: india
+generated: 2026-05-26
+lastUpdated: 2026-05-26
 ---
 
 # Communication & Control

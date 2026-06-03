@@ -9,8 +9,9 @@ tier: unified
 weight: 2
 weight_unit: "% of GA section"
 diagramPrompt: "An advanced diagnostic flowchart with 8 nodes: Subject-Verb Agreement (with subcases: intervening phrases, compound subjects, collective nouns, each/every/neither), Article Selection (countable/uncountable, specific/generic, sound vs letter), Tense Logic (simple vs perfect, main clause vs subordinate), Preposition Collocations (verb-prep, adj-prep pairs), Pronoun Reference (ambiguous, collective, gender), Parallel Structure (coordinating conjunctions, correlatives), Modifier Placement (dangling, squinting, misplaced), Word Form (verb/noun/adj/adverb confusion)"
-country: India
-generated: ai-v1
+country: india
+generated: 2026-05-26
+lastUpdated: 2026-05-26
 ---
 
 # Spotting Errors (Grammar)

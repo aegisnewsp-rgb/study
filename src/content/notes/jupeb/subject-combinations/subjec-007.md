@@ -2,12 +2,13 @@
 exam: jupeb
 examName: JUPEB (Nigeria)
 subject: subject-combinations
-subjectName: Subject Combinations
+subjectName: "Subject-Combinations"
 topic: subjec-007
 topicName: Topic 7
 weight: 3
-country: jupeb
+country: nigeria
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 The Law and Social Sciences Subject Combinations through JUPEB provide pathways into Legal Studies, International Relations, Sociology, Psychology, Philosophy, and related disciplines at Nigerian universities.

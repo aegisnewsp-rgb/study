@@ -2,12 +2,13 @@
 exam: bpsc
 examName: BPSC
 subject: geography
-subjectName: General Studies
+subjectName: "Geography"
 topic: geogra-009
-topicName: Topic 9
+topicName: "India: Climate, Soils and Natural Vegetation"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # India: Climate, Soils and Natural Vegetation

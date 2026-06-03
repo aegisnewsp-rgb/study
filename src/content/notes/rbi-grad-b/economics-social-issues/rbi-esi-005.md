@@ -9,8 +9,9 @@ tier: unified
 weight: 3
 weight_unit: "% of Phase 2 paper"
 diagramPrompt: "An advanced multi-stage flow diagram: Nominal GDP → inflation adjustment → Real GDP; separate pathway: GDP at market prices → indirect taxes/subsidies → GDP at factor cost → +NFIA → GNP → −depreciation → NNP; plus sectoral GVA breakdown (agriculture, industry, services)"
-country: India
-generated: ai-v1
+country: india
+generated: 2026-05-26
+lastUpdated: 2026-05-26
 ---
 
 # GDP, GNP, NDP, NNP

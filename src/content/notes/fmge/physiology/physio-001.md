@@ -2,12 +2,13 @@
 exam: fmge
 examName: FMGE
 subject: physiology
-subjectName: Botany
+subjectName: "Physiology"
 topic: physio-001
-topicName: Topic 1
+topicName: "Cell Physiology and Membrane Transport"
 weight: 3
-country: fmge
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Cell Physiology and Membrane Transport

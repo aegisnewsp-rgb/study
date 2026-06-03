@@ -6,8 +6,9 @@ subjectName: Economics
 topic: econom-004
 topicName: Consumer Behaviour
 weight: 3
-country: ras
+country: india
 generated: "2026-04-13"
+lastUpdated: 2026-04-13
 ---
 
 # Consumer Behaviour

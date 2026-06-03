@@ -9,8 +9,9 @@ tier: unified
 weight: 2
 weight_unit: "% of GA section"
 diagramPrompt: "A comprehensive family tree showing all relationship types: self, siblings (brother/sister), parents, grandparents, great-grandparents, children, grandchildren, great-grandchildren, aunts, uncles, nieces, nephews, cousins (first, second), in-laws (mother-in-law, father-in-law, sister-in-law, brother-in-law, son-in-law, daughter-in-law). Each labeled with gender and generation markers."
-country: India
-generated: ai-v1
+country: india
+generated: 2026-05-26
+lastUpdated: 2026-05-26
 ---
 
 # Blood Relations

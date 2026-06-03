@@ -2,12 +2,13 @@
 exam: undana
 examName: UNDANA Admission (Indonesia)
 subject: language
-subjectName: Language
+subjectName: "Language (Indonesian/English)"
 topic: langua-009
 topicName: Topic 9
 weight: 3
-country: undana
+country: indonesia
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Topic 9

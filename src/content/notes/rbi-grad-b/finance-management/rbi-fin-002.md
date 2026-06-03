@@ -9,8 +9,9 @@ tier: unified
 weight: 3
 weight_unit: "% of Phase 2 paper"
 diagramPrompt: "Draw an advanced financial decision tree: central node labelled 'Capital Budgeting Decision', branching into: (1) NPV branch → accept/reject rule explained; (2) IRR branch → accept/reject rule; (3) PI branch → accept/reject rule. Below, show a conflict scenario where NPV and IRR disagree for mutually exclusive projects, with the NPV supremacy argument summarised."
-country: India
-generated: ai-v1
+country: india
+generated: 2026-05-26
+lastUpdated: 2026-05-26
 ---
 
 # Time Value of Money

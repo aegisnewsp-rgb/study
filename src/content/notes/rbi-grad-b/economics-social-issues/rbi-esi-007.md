@@ -9,8 +9,9 @@ tier: unified
 weight: 3
 weight_unit: "% of Phase 2 paper"
 diagramPrompt: "An advanced BoP diagram: T-account showing double-entry principle (every debit has a credit), a pie chart of forex reserve composition, a timeline of rupee-USD rate from 1991 to 2024, and a flow diagram of RBI's intervention mechanism"
-country: India
-generated: ai-v1
+country: india
+generated: 2026-05-26
+lastUpdated: 2026-05-26
 ---
 
 # Foreign Exchange & BoP

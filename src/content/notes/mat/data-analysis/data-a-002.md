@@ -2,12 +2,13 @@
 exam: mat
 examName: MAT
 subject: data-analysis
-subjectName: Data Analysis
+subjectName: "Data-Analysis"
 topic: data-a-002
 topicName: Data Comparison & Caselets
 weight: 3
-country: mat
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Data Comparison & Caselets

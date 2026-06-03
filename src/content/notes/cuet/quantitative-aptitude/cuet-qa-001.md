@@ -1,5 +1,5 @@
 ---
-exam: cuet-ug
+exam: cuet
 examName: CUET UG
 subject: quantitative-aptitude
 subjectName: Quantitative Aptitude
@@ -9,8 +9,9 @@ tier: unified
 weight: 2
 weight_unit: "% of Section II"
 diagramPrompt: "An advanced diagram showing the Euclidean algorithm steps: 48 ÷ 18 → remainder 12 → 18 ÷ 12 → remainder 6 → 12 ÷ 6 = 0, with HCF = 6"
-country: India
-generated: ai-v1
+country: india
+generated: 2026-03-25
+lastUpdated: 2026-03-25
 ---
 
 # Number System

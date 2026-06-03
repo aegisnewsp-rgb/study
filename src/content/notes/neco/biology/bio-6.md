@@ -11,6 +11,7 @@ topicName: Gaseous Exchange and Cell Respiration
 weight: 5
 country: nigeria
 generated: "2026-03-24T08:32:07.695220"
+lastUpdated: 2026-03-24
 diagramPrompt: "Detailed biological diagram of Gaseous Exchange and Cell Respiration with labeled parts, accurate proportions, white background, color-coded tissues/organs, textbook quality"
 
 

@@ -4,10 +4,11 @@ examName: Qimiyah Exam (Saudi)
 subject: arabic
 subjectName: Arabic
 topic: arabic-002
-topicName: Topic 2
+topicName: "Parts of Speech in Arabic (Anaṣūr al-Kalimah)"
 weight: 3
-country: qimiyah
+country: saudi
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 # Parts of Speech in Arabic (Anaṣūr al-Kalimah)
 

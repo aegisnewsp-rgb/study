@@ -6,7 +6,7 @@ subjectName: Indian Polity
 topic: indian-001
 topicName: Preamble and Salient Features of Constitution
 weight: 3
-country: up
+country: india
 lastUpdated: "2026-04-13"
 generated: "2026-03-25T17:00:00"
 ---

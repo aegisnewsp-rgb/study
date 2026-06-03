@@ -8,6 +8,7 @@ topicName: Atoms and Atomic Structure
 weight: 3
 country: india
 generated: 2026-04-23
+lastUpdated: 2026-04-23
 ---
 
 # Atoms and Atomic Structure — NEET Physics Notes

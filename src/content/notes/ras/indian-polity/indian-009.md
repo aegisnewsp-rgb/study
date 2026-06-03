@@ -6,8 +6,9 @@ subjectName: Indian Polity
 topic: indian-009
 topicName: Elections Election Commission Representation of People Act Anti-Defection
 weight: 3
-country: ras
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Elections, Election Commission, Representation of People Act, and Anti-Defection

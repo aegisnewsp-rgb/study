@@ -2,12 +2,13 @@
 exam: ibps-po
 examName: IBPS PO
 subject: general-awareness
-subjectName: ('awareness', 'General Awareness')
+subjectName: "General Awareness"
 topic: genera-010
-topicName: Topic 10
+topicName: "Static GK — Important Facts About India & the World"
 weight: 3
-country: ibps
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Static GK — Important Facts About India & the World

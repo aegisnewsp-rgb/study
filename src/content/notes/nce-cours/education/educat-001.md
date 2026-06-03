@@ -4,10 +4,11 @@ examName: NCE (Nigeria)
 subject: education
 subjectName: Education
 topic: educat-001
-topicName: Topic 1
+topicName: "Philosophy of Education"
 weight: 3
-country: nce
+country: nigeria
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Philosophy of Education

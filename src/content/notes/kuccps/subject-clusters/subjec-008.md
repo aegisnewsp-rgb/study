@@ -4,10 +4,11 @@ examName: KUCCPS (Kenya)
 subject: subject-clusters
 subjectName: Subject Clusters
 topic: subjec-008
-topicName: Topic 8
+topicName: "Topic 8: Cluster 8 — Social Sciences"
 weight: 3
-country: kuccps
+country: kenya
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Topic 8: Cluster 8 — Social Sciences

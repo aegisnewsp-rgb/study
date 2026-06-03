@@ -9,8 +9,9 @@ tier: unified
 weight: 2
 weight_unit: "% of QA section"
 diagramPrompt: "A detailed age flow diagram showing how multiple family members' ages relate over time, with past-present-future timelines, age gaps marked as constants, and ratios shown as variables that change"
-country: India
-generated: ai-v1
+country: india
+generated: 2026-05-26
+lastUpdated: 2026-05-26
 ---
 
 # Ages

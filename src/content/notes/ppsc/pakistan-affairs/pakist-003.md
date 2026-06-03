@@ -6,8 +6,9 @@ subjectName: Pakistan Affairs
 topic: pakistan-003
 topicName: Constitution of Pakistan
 weight: 3
-country: pak
+country: pakistan
 generated: "2026-03-24T08:32:07.884076"
+lastUpdated: 2026-03-24
 ---
 
 ### 🟢 Lite — Quick Review (1h–1d)

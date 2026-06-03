@@ -9,8 +9,9 @@ tier: unified
 weight: 2
 weight_unit: "% of QA section"
 diagramPrompt: "A growth curve comparing SI (linear) vs CI (exponential) over time, with half-yearly compounding shown"
-country: India
-generated: ai-v1
+country: india
+generated: 2026-05-26
+lastUpdated: 2026-05-26
 ---
 
 # Simple & Compound Interest

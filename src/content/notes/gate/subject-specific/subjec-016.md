@@ -2,12 +2,13 @@
 exam: gate
 examName: "GATE"
 subject: subject-specific
-subjectName: "Subject Specific"
+subjectName: "Subject-Specific"
 topic: subjec-016
-topicName: "Topic 16"
+topicName: "Engineering Mechanics — Dynamics"
 weight: 3
-country: gate
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Engineering Mechanics — Dynamics

@@ -6,8 +6,9 @@ subjectName: "Economics"
 topic: econom-008
 topicName: "Factor Markets"
 weight: 3
-country: rbi
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Factor Markets

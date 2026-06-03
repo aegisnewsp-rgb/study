@@ -8,6 +8,7 @@ topicName: Prepositions
 weight: 3
 country: pakistan
 generated: "2026-03-24T08:32:08.117735"
+lastUpdated: 2026-03-24
 diagramPrompt: "Educational diagram illustrating Prepositions with clear labels, white background, exam-style illustration"
 ---
 

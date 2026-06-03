@@ -2,12 +2,13 @@
 exam: ibps-clerk
 examName: IBPS Clerk
 subject: general-awareness
-subjectName: ('awareness', 'General Awareness')
+subjectName: "General Awareness"
 topic: genera-008
 topicName: International Financial Institutions
 weight: 3
-country: ibps
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # International Financial Institutions

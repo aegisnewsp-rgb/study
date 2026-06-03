@@ -6,8 +6,9 @@ subjectName: Bangla
 topic: bangla-005
 topicName: Rabindranath Tagore
 weight: 3
-country: du
+country: bangladesh
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Rabindranath Tagore

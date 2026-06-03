@@ -9,8 +9,9 @@ tier: unified
 weight: 2
 weight_unit: "% of QA section"
 diagramPrompt: "A comparison chart showing percentage increase vs decrease asymmetry, and a successive percentage change calculator diagram"
-country: India
-generated: ai-v1
+country: india
+generated: 2026-05-26
+lastUpdated: 2026-05-26
 ---
 
 # Percentage

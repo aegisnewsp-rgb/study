@@ -2,12 +2,13 @@
 exam: ijmb
 examName: IJMB (Nigeria)
 subject: subject-combinations
-subjectName: Subject Combinations
+subjectName: "Subject-Combinations"
 topic: subjec-010
-topicName: Topic 10
+topicName: "Law and Legal Studies — The IJMB Pathway to the Nigerian Bar"
 weight: 3
-country: ijmb
+country: nigeria
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Law and Legal Studies — The IJMB Pathway to the Nigerian Bar

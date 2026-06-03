@@ -9,8 +9,9 @@ tier: unified
 weight: 3
 weight_unit: "% of Phase 2 paper"
 diagramPrompt: "An advanced multi-layer diagram: Government budget framework with receipt categories, expenditure categories, deficit types and their formulas, FRBM targets and deviations timeline, and debt sustainability analysis (r-g gap concept)"
-country: India
-generated: ai-v1
+country: india
+generated: 2026-05-26
+lastUpdated: 2026-05-26
 ---
 
 # Budget & Fiscal Policy

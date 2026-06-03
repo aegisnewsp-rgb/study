@@ -2,12 +2,13 @@
 exam: doh
 examName: DOH (UAE)
 subject: medical-knowledge
-subjectName: Medical Knowledge
+subjectName: "Medical-Knowledge"
 topic: medica-015
 topicName: UAE Health System and Healthcare Regulations
 weight: 3
-country: doh
+country: uae
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # UAE Health System and Healthcare Regulations

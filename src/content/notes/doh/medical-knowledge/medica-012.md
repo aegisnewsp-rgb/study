@@ -2,12 +2,13 @@
 exam: doh
 examName: DOH (UAE)
 subject: medical-knowledge
-subjectName: Medical Knowledge
+subjectName: "Medical-Knowledge"
 topic: medica-012
 topicName: Pain Assessment and Management
 weight: 3
-country: doh
+country: uae
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Pain Assessment and Management

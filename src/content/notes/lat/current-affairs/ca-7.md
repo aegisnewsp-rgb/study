@@ -11,6 +11,7 @@ topicName: Global Economy and Trade
 weight: 3
 country: pakistan
 generated: "2026-03-24T08:32:08.036538"
+lastUpdated: 2026-03-24
 diagramPrompt: "Educational diagram illustrating Global Economy and Trade with clear labels, white background, exam-style illustration"
 
 

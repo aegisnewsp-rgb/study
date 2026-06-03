@@ -2,12 +2,13 @@
 exam: ini-cet
 examName: INI CET (AIIMS PG)
 subject: pharmacology
-subjectName: Botany
+subjectName: "Pharmacology"
 topic: pharma-007
 topicName: Topic 7
 weight: 3
-country: ini
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 **NSAIDs and Anti-inflammatory Drugs** covers NSAIDs and anti-inflammatory drugs for INI CET (AIIMS PG).

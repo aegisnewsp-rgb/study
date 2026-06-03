@@ -2,12 +2,13 @@
 exam: jupeb
 examName: JUPEB (Nigeria)
 subject: subject-combinations
-subjectName: Subject Combinations
+subjectName: "Subject-Combinations"
 topic: subjec-006
 topicName: Topic 6
 weight: 3
-country: jupeb
+country: nigeria
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 Medicine and Dentistry direct entry requirements through JUPEB are among the most stringent in Nigerian university admissions. Understanding these requirements is critical for students aspiring to become doctors, dentists, or other healthcare professionals.

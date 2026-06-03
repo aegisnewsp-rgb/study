@@ -2,12 +2,13 @@
 exam: haad
 examName: HAAD (UAE)
 subject: nursing
-subjectName: Botany
+subjectName: "Nursing"
 topic: nursin-001
-topicName: Topic 1
+topicName: "Fundamentals of Nursing"
 weight: 3
-country: haad
+country: uae
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Fundamentals of Nursing

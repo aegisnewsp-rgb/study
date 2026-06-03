@@ -9,8 +9,9 @@ tier: unified
 weight: 3
 weight_unit: "% of Phase 2 paper"
 diagramPrompt: "An advanced system architecture diagram: Payment stack layers (customer → app → UPI/NPCI → bank accounts), inclusion spectrum (unbanked → aided → active), and RBI's three-dimensional FI-Index radar chart"
-country: India
-generated: ai-v1
+country: india
+generated: 2026-05-26
+lastUpdated: 2026-05-26
 ---
 
 # Banking & Financial Inclusion

@@ -2,12 +2,13 @@
 exam: xat
 examName: XAT
 subject: decision-making
-subjectName: Decision Making
+subjectName: "Decision-Making"
 topic: decisi-006
 topicName: Financial and Investment Decisions
 weight: 3
-country: xat
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Financial and Investment Decisions

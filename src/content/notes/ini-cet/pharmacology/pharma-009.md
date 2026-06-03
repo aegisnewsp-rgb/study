@@ -2,12 +2,13 @@
 exam: ini-cet
 examName: INI CET (AIIMS PG)
 subject: pharmacology
-subjectName: Botany
+subjectName: "Pharmacology"
 topic: pharma-009
 topicName: Topic 9
 weight: 3
-country: ini
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 **Antimicrobial Agents: Beta-Lactams and Glycopeptides** covers beta-lactams and glycopeptides for INI CET (AIIMS PG).

@@ -6,8 +6,9 @@ subjectName: Anatomy
 topic: anatom-008
 topicName: Head and Neck Anatomy
 weight: 3
-country: ini
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Head and Neck Anatomy — Skull, Cranial Nerves, Triangles and Brain

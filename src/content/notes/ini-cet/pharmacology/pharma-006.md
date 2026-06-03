@@ -2,12 +2,13 @@
 exam: ini-cet
 examName: INI CET (AIIMS PG)
 subject: pharmacology
-subjectName: Botany
+subjectName: "Pharmacology"
 topic: pharma-006
 topicName: Topic 6
 weight: 3
-country: ini
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 **Autacoids: Histamine and Antihistamines** covers autacoids — histamine and antihistamines for INI CET (AIIMS PG).

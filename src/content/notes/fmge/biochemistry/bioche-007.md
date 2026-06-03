@@ -6,8 +6,9 @@ subjectName: Biochemistry
 topic: bioche-007
 topicName: Krebs Cycle
 weight: 3
-country: fmge
+country: india
 generated: "2026-04-17T06:08:00"
+lastUpdated: 2026-04-17
 ---
 
 # Krebs Cycle

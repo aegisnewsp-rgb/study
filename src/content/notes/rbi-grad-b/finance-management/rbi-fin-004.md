@@ -9,8 +9,9 @@ tier: unified
 weight: 3
 weight_unit: "% of Phase 2 paper"
 diagramPrompt: "Draw an advanced multi-factor risk framework: (centre) a risk assessment dashboard showing: (top-left) Security Market Line with CAPM equation and stock positions; (top-right) Efficient Frontier with Capital Market Line tangent from Rf to the market portfolio; (bottom-left) Risk decomposition showing systematic vs unsystematic risk with Beta, Standard Deviation, and Diversifiable risk labelled; (bottom-right) Sharpe Ratio comparison table for three portfolios with implied risk-adjusted performance scores. Show how all four concepts interconnect with arrows."
-country: India
-generated: ai-v1
+country: india
+generated: 2026-05-26
+lastUpdated: 2026-05-26
 ---
 
 # Risk & Return

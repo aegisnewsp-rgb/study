@@ -6,8 +6,9 @@ subjectName: Biochemistry
 topic: bioche-003
 topicName: Carbohydrate Metabolism
 weight: 3
-country: ini
-generated: ai-v1
+country: india
+generated: 2026-03-25
+lastUpdated: 2026-03-25
 ---
 
 # Carbohydrate Metabolism — Glycolysis, Gluconeogenesis, Glycogen Metabolism, and the HMP Shunt

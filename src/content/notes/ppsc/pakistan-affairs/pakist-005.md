@@ -2,12 +2,13 @@
 exam: ppsc
 examName: PPSC (Pakistan)
 subject: pakistan-affairs
-subjectName: General Studies
+subjectName: "Pakistan Affairs"
 topic: pakist-005
-topicName: Topic 5
+topicName: "The Constitution of 1956 and the Republican Era"
 weight: 3
-country: ppsc
+country: pakistan
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 # The Constitution of 1956 and the Republican Era
 

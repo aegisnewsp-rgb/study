@@ -2,12 +2,13 @@
 exam: utbk
 examName: UTBK/SNPMTN (Indonesia)
 subject: chemistry
-subjectName: ('chemistry', 'Chemistry')
+subjectName: "Chemistry"
 topic: chemis-002
 topicName: Alcohols and Ethers
 weight: 3
-country: utbk
+country: indonesia
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 diagramPrompt: "Clear scientific diagram of alcohol and ether molecular structures with functional group labels, reaction mechanisms, white background, color-coded atoms, exam textbook style"
 
 

@@ -2,12 +2,13 @@
 exam: mat
 examName: MAT
 subject: mathematical-skills
-subjectName: Mathematical Skills
+subjectName: "Mathematical-Skills"
 topic: mathem-001
 topicName: Number System & Basics
 weight: 3
-country: mat
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Number System & Basics

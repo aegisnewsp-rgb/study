@@ -2,12 +2,13 @@
 exam: fpsc-cce
 examName: FPSC CSS (Pakistan)
 subject: islamic-studies
-subjectName: General Studies
+subjectName: "Islamic Studies"
 topic: islami-007
 topicName: Islamic Political Thought and the Islamic State
 weight: 3
-country: fpsc
+country: pakistan
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Islamic Political Thought and the Islamic State

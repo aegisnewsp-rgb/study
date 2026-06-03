@@ -2,12 +2,13 @@
 exam: mat
 examName: MAT (Management Aptitude Test)
 subject: data-analysis
-subjectName: Data Interpretation & Logical Reasoning
+subjectName: "Data-Analysis"
 topic: data-a-008
 topicName: Logical Reasoning Caselets
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 diagramPrompt: "A logic puzzle page showing conditions for a seating arrangement problem with 6 people around a circular table, with directional indicators and partial placement information, styled as a typical MAT exam logical reasoning passage requiring deduction from multiple conditional statements."
 
 ---
@@ -74,54 +75,40 @@ Check that your final arrangement satisfies all conditions without contradiction
 5. Elish sits between Divya and Fatima.
 
 **Step 1 — Set up the circle**
-Place Amit and Bina as opposite pairs. In a circle of 6, opposite means 3 seats apart.
+Number the six seats 1 to 6 going clockwise. Everyone faces the centre, so each person's **left** is the clockwise direction (the next-higher seat number) and their **right** is counter-clockwise. In a circle of 6, "opposite" means exactly 3 seats apart.
 
-**Step 2 — Place Amit and Bina**
-Let Amit's position = 12 o'clock. Then Bina is at 6 o'clock (directly opposite).
+**Step 2 — Place Amit and Bina (Condition 1)**
+Fix Amit at seat 1. Bina is directly opposite, so Bina = seat 4 (3 seats away).
 
 **Step 3 — Apply Condition 2: Chetan is immediately to the left of Bina**
-If Bina is at 6 o'clock (facing centre, left means clockwise), Bina's left = 5 o'clock. So Chetan = 5 o'clock.
+Left = clockwise = the next seat after Bina. Bina is at seat 4, so Chetan = seat 5.
+
+The seats now filled are 1 (Amit), 4 (Bina), 5 (Chetan). The remaining seats — 2, 3, 6 — must hold Divya, Elish, and Fatima.
 
 **Step 4 — Apply Condition 4: Fatima is third to the left of Divya**
-"Third to the left" means count 3 seats going left (counter-clockwise from Divya's perspective). In a circle of 6, if Divya = position D, Fatima = D − 3 (mod 6).
+"Third to the left" means count 3 seats clockwise from Divya: Fatima = Divya + 3 (wrapping around the circle of 6). Test each open seat for Divya:
+- Divya = 2 → Fatima = 5 (Chetan). Rejected.
+- Divya = 3 → Fatima = 6 (open). Possible.
+- Divya = 6 → Fatima = 3 (open), but seat 6 is adjacent to Amit at seat 1, which Condition 3 forbids. Rejected.
 
-**Step 5 — Apply Condition 5: Elish sits between Divya and Fatima**
-This means Divya and Fatima are separated by exactly two seats, with Elish in between.
+So Divya = seat 3 and Fatima = seat 6.
 
-Let Divya = position X. Then Fatima = X − 3 (mod 6). The seats between Divya and Fatima going the shorter way are: X−1 and X−2 (one direction) or X+1 and X+2 (the other direction). Elish must occupy one of these intermediate positions.
+**Step 5 — Apply Condition 3: Divya is not adjacent to Amit**
+Divya = 3 is two seats from Amit = 1, so they are not adjacent. Condition 3 holds.
 
-Since Fatima = X−3, the seats between them going one way are X−1 and X−2. Going the other way around the circle, between them are X+1 and X+2.
+**Step 6 — Place Elish (Condition 5: Elish sits between Divya and Fatima)**
+Only seat 2 is left, so Elish = seat 2. Check the condition: on the arc Fatima (6) → Amit (1) → Elish (2) → Divya (3), Elish sits between Divya and Fatima. Condition 5 holds.
 
-Let's test Divya at 2 o'clock: then Fatima = 2−3 = 11 o'clock (or position −1 ≡ 11 ≡ 11 on a 12-hour clock = 11 o'clock). The seats between 2 and 11 going clockwise: 3,4,5,6,7,8,9,10. That's 8 seats, not 2. Going counter-clockwise: 1, 12. Elish between them? The two seats between 2 and 11 going the shorter path are 1 and 12 (if going counter-clockwise from 2: 1, 12, 11 — so 1 and 12 are between). Elish would be at either 1 or 12.
+**Final arrangement (clockwise):** seat 1 Amit, seat 2 Elish, seat 3 Divya, seat 4 Bina, seat 5 Chetan, seat 6 Fatima.
 
-Let's try Divya at 8 o'clock: then Fatima = 8−3 = 5 o'clock. The shorter arc between 8 and 5 going counter-clockwise: 8→7→6→5. Seats between = 7 and 6. Elish must be at 6 or 7. This is plausible.
+**Step 7 — Verify all conditions**
+1. Amit (1) opposite Bina (4): 3 apart. ✓
+2. Chetan (5) immediately left of Bina (4): ✓
+3. Divya (3) not adjacent to Amit (1): ✓
+4. Fatima (6) third to the left of Divya (3): 3 + 3 = 6. ✓
+5. Elish (2) between Divya and Fatima: ✓
 
-**Step 6 — Place Elish and Divya/Fatima in remaining slots**
-Remaining positions: 1, 2, 3, 4, 7, 8, 9, 10, 11, 12 — wait, we have 6 total positions, already placed: Amit=12, Bina=6, Chetan=5. Remaining positions: 1, 2, 3, 4, 7, 8, 9, 10, 11. But we only have Divya, Elish, Fatima left (3 people). The remaining positions must accommodate them.
-
-Actually: Seats at 12, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 on a clock. Amit at 12. Bina at 6 (opposite Amit). Chetan at 5 (left of Bina). Left: 1, 2, 3, 4, 7, 8, 9, 10, 11. We need to place Divya, Fatima, Elish.
-
-From Fatima = Divya − 3: possible pairs (Divya, Fatima): (1,10), (2,11), (3,12), (4,1), (5,2), (6,3), (7,4), (8,5), (9,6), (10,7), (11,8), (12,9).
-- Fatima can't be at 12 (Amit), 6 (Bina), 5 (Chetan). So remove (3,12), (6,3), (9,6), (12,9).
-- Divya can't be at 5 (Chetan), 6 (Bina), 12 (Amit). So remove (5,2), (6,3), (12,9).
-- Remaining pairs: (1,10), (2,11), (4,1), (7,4), (8,5), (10,7), (11,8).
-
-Elish must sit between Divya and Fatima. In pair (1,10): going clockwise 1→2→3→4→5→6→7→8→9→10, between them are 2,3,4,5,6,7,8,9. Going counter-clockwise 1→12→11→10, between are 12 and 11. Only 2 seats between going the short way. Elish must be at 12 or 11. Both are free. This works for (1,10).
-
-Try pair (7,4): going clockwise 7→8→9→10→11→12→1→2→3→4. Seats between going one way = 8,9,10,11,12,1,2,3. Going counter-clockwise 7→6→5→4, between = 6 and 5. But 5 is Chetan. So only seat 6 is free for Elish (not 5). So (7,4) works with Elish at 6.
-
-This gives us multiple solutions. Let's check other conditions: "Divya is not adjacent to Amit." Amit=12. So Divya cannot be at 11 or 1. Remove (2,11), (4,1), (8,5), (11,8). Remaining: (1,10) and (7,4).
-
-For (1,10): Divya=1, Fatima=10. Elish between 1 and 10: either 12 or 11. If Elish=12, Divya=1 is not adjacent to Amit=12? Actually 1 and 12 ARE adjacent on a circle (they're next to each other). So Divya cannot be at 1 (adjacent to Amit=12). This eliminates (1,10). For (7,4): Divya=7, Fatima=4. Elish at 6. Check adjacency: Amit=12, Bina=6, Chetan=5. Elish=6 is actually Bina's position — conflict! So (7,4) doesn't work either.
-
-Let's revisit. Maybe our initial placement of Amit and Bina could be different (we assumed Amit=12, Bina=6, but they just need to be opposite, not necessarily at 12 and 6). The relative positions are what matter. Let's place Amit at top, Bina opposite.
-
-Bina's left (counter-clockwise from Bina's perspective) is one position counter-clockwise. Let Bina at top (12 o'clock). Then Chetan immediately to her left = 11 o'clock. This means Bina is at 12, Chetan at 11, Amit opposite Bina = 6 o'clock.
-
-Now Divya and Fatima: Fatima = third to the left of Divya. On a circle, going left from Divya means counter-clockwise. Let Divya at 2 o'clock. Third to left = going counter-clockwise 3 seats: 2→1→12→11 = Fatima at 11 o'clock. But 11 is Chetan. Conflict. Try Divya at 3 o'clock: third left = 3→2→1→12 = Fatima at 12 (Bina). Conflict. Divya at 4: 4→3→2→1 = Fatima=1. Seat 1 is free. Elish between 4 and 1. Between going counter-clockwise 4→3→2→1: Elish could be at 3 or 2. Both free. Check adjacency: Amit=6, Bina=12, Chetan=11. Elish at 3 or 2. Divya at 4. Fatima at 1. Check Divya not adjacent to Amit: Divya=4, Amit=6 — seats between: 5,6,7,8,9,10,11,12. Seats 5 (between 4 and 6 counter-clockwise) and 6 (Amit) and 12 are on the path. 4 and 6 are separated by seat 5, so they ARE adjacent (separated by one seat). Actually adjacent means next to each other — 4 and 5 are adjacent, 5 and 6 are adjacent. So 4 and 6 are NOT directly adjacent (two seats apart).
-
-Final arrangement: Amit=6, Bina=12, Chetan=11, Divya=4, Fatima=1, Elish at 2 or 3.
-This is sufficient to answer most questions about relative positions.
+The arrangement is fully determined, so any question about relative positions can be answered directly from it.
 
 #### Worked Example — Ranking Problem
 
@@ -142,7 +129,7 @@ Then Evelyn must be rank 4 or 5. But Bhavesh = 3. So Evelyn ∈ {4, 5}.
 From Statement 2: Charu > Deepak (Charu's rank is better than Deepak's → Charu is above Deepak on the ranking, i.e., lower rank number).
 So Charu = {1, 2, 3, 4} and Deepak = {2, 3, 4, 5}, with Charu < Deepak.
 
-Rank 1 is not taken yet (Anjali is 2, Bhavesh is 3). So Charu = 1. Deepak must then be > 1 and > Charu, so Deepak ∈ {4, 5} (but Charu=1, Bhavesh=3, Anjali=2 already fill 1,2,3). Wait: Rank 1 = Charu. Rank 2 = Anjali. Rank 3 = Bhavesh. Remaining: Evelyn and Deepak for ranks 4 and 5.
+Rank 1 is not taken yet (Anjali is 2, Bhavesh is 3). So Charu = 1. This fills ranks 1, 2, and 3 with Charu, Anjali, and Bhavesh, leaving ranks 4 and 5 for Evelyn and Deepak.
 
 From Statement 5: Deepak is not rank 5. Therefore Deepak = 4, Evelyn = 5.
 

@@ -4,10 +4,11 @@ examName: "RBI Grade B"
 subject: finance
 subjectName: "Finance"
 topic: financ-003
-topicName: "Topic 3"
+topicName: "RBI and the Banking System"
 weight: 3
-country: rbi
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # RBI and the Banking System

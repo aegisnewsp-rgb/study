@@ -6,8 +6,9 @@ subjectName: English Language
 topic: eng-12
 topicName: Question Tags and Short Answers
 weight: 3
-country: ng
+country: nigeria
 generated: "2026-03-24T08:32:07.704770"
+lastUpdated: 2026-03-24
 diagramPrompt: "Educational diagram illustrating Question Tags and Short Answers with clear labels, white background, exam-style illustration"
 ---
 

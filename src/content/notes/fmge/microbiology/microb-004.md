@@ -4,10 +4,11 @@ examName: FMGE
 subject: microbiology
 subjectName: Microbiology
 topic: microb-004
-topicName: Topic 4
+topicName: "Topic 4: Gram-Negative Cocci, Bacilli & Enterobacteriaceae"
 weight: 3
-country: fmge
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Topic 4: Gram-Negative Cocci, Bacilli & Enterobacteriaceae

@@ -8,6 +8,7 @@ topicName: "Grammar: Parts of Speech"
 weight: 4
 country: pakistan
 generated: "2026-03-24T08:32:08.075825"
+lastUpdated: 2026-03-24
 diagramPrompt: "Educational diagram illustrating Grammar: Parts of Speech with clear labels, white background, exam-style illustration"
 
 

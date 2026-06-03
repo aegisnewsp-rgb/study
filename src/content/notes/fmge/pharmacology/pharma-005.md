@@ -2,12 +2,13 @@
 exam: fmge
 examName: FMGE
 subject: pharmacology
-subjectName: Botany
+subjectName: "Pharmacology"
 topic: pharma-005
-topicName: Topic 5
+topicName: "CNS Pharmacology - Antidepressants, Antipsychotics, and Anticonvulsants"
 weight: 3
-country: fmge
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # CNS Pharmacology - Antidepressants, Antipsychotics, and Anticonvulsants

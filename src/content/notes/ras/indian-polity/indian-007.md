@@ -6,8 +6,9 @@ subjectName: Indian Polity
 topic: indian-007
 topicName: High Courts Subordinate Courts Judicial Review Basic Structure
 weight: 3
-country: ras
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # High Courts, Subordinate Courts, Judicial Review, and the Basic Structure Doctrine

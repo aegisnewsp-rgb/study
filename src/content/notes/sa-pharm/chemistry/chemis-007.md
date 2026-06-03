@@ -2,12 +2,13 @@
 exam: sa-pharm
 examName: SAPC (South Africa)
 subject: chemistry
-subjectName: Organic Chemistry
+subjectName: "Chemistry"
 topic: chemis-007
 topicName: Electrophilic Aromatic Substitution (EAS) and Benzene Chemistry
 weight: 3
-country: sa
+country: southafrica
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Electrophilic Aromatic Substitution (EAS) and Benzene Chemistry

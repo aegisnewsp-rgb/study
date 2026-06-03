@@ -4,10 +4,11 @@ examName: "GATE"
 subject: general-aptitude
 subjectName: "General Aptitude"
 topic: genera-003
-topicName: "Topic 3"
+topicName: "Ratio, Proportion and Mixtures"
 weight: 3
-country: gate
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Ratio, Proportion and Mixtures

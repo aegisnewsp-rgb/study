@@ -6,8 +6,9 @@ subjectName: Indian Polity
 topic: indian-005
 topicName: Parliament Lok Sabha Rajya Sabha Legislative Process
 weight: 3
-country: ras
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Parliament: Lok Sabha, Rajya Sabha, and Legislative Process

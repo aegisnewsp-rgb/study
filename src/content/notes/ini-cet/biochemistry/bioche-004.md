@@ -6,8 +6,9 @@ subjectName: Biochemistry
 topic: bioche-004
 topicName: Lipid Metabolism
 weight: 3
-country: ini
-generated: ai-v1
+country: india
+generated: 2026-03-25
+lastUpdated: 2026-03-25
 ---
 
 # Lipid Metabolism — Fatty Acid Oxidation, Synthesis, Ketogenesis, and Cholesterol

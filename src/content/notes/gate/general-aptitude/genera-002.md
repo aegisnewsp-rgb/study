@@ -4,10 +4,11 @@ examName: "GATE"
 subject: general-aptitude
 subjectName: "General Aptitude"
 topic: genera-002
-topicName: "Topic 2"
+topicName: "Percentages, Profit and Loss"
 weight: 3
-country: gate
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Percentages, Profit and Loss

@@ -6,8 +6,9 @@ subjectName: Indian Polity
 topic: indian-006
 topicName: Supreme Court Jurisdiction Original Jurisdiction Appeals Collegium
 weight: 3
-country: ras
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Supreme Court: Jurisdiction, Original Jurisdiction, Appeals, Article 32, and Collegium System

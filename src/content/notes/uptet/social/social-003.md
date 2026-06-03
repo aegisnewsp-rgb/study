@@ -2,12 +2,13 @@
 exam: uptet
 examName: UPTET
 subject: social
-subjectName: Social
+subjectName: "Social Studies"
 topic: social-003
-topicName: Topic 3
+topicName: "Medieval Indian History: Delhi Sultanate and Mughal Empire"
 weight: 3
-country: uptet
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Medieval Indian History: Delhi Sultanate and Mughal Empire

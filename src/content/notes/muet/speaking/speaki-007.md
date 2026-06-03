@@ -2,12 +2,13 @@
 exam: muet
 examName: MUET (Malaysia)
 subject: speaking
-subjectName: Speaking
+subjectName: "Speaking (Paper 3)"
 topic: speaki-007
-topicName: Topic 7
+topicName: "Handling Unfamiliar Topics"
 weight: 3
-country: muet
+country: malaysia
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Handling Unfamiliar Topics

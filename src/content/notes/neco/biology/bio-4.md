@@ -12,6 +12,7 @@ topicName: "Nutrition: Photosynthesis and Chemosynthesis"
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.694227"
+lastUpdated: 2026-03-24
 diagramPrompt: "Detailed biological diagram of Nutrition: Photosynthesis and Chemosynthesis with labeled parts, accurate proportions, white background, color-coded tissues/organs, textbook quality"
 
 

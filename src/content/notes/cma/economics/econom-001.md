@@ -2,12 +2,13 @@
 exam: cma
 examName: CMA Foundation
 subject: economics
-subjectName: Quantitative Aptitude
+subjectName: "Economics"
 topic: econom-001
 topicName: Introduction to Economics
 weight: 3
-country: cma
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Introduction to Economics

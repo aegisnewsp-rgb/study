@@ -4,10 +4,11 @@ examName: INI CET (AIIMS PG)
 subject: physiology
 subjectName: Physiology
 topic: physio-007
-topicName: Renal System
+topicName: "Renal Physiology: Glomerular Filtration"
 weight: 3
-country: ini
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 **Renal Physiology: Glomerular Filtration** covers renal physiology — glomerular filtration for INI CET (AIIMS PG).

@@ -2,12 +2,13 @@
 exam: lsat
 examName: LSAT India
 subject: analytical-reasoning
-subjectName: Analytical Reasoning
+subjectName: "Analytical-Reasoning"
 topic: analyt-009
-topicName: Topic 9
+topicName: "Linear Ordering Games"
 weight: 3
-country: lsat
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Linear Ordering Games

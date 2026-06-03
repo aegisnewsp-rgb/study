@@ -9,8 +9,9 @@ tier: unified
 weight: 2
 weight_unit: "% of QA section"
 diagramPrompt: "A hierarchical tree diagram showing BODMAS priority levels expanding into sub-categories, with example expressions branching at each level to illustrate how complexity builds from simple operations"
-country: India
-generated: ai-v1
+country: india
+generated: 2026-05-26
+lastUpdated: 2026-05-26
 ---
 
 # Simplification & BODMAS

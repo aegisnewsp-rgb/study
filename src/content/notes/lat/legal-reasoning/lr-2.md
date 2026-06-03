@@ -8,6 +8,7 @@ topicName: "Legal Aptitude: Contract Law"
 weight: 5
 country: pakistan
 generated: "2026-03-24T08:32:07.605334"
+lastUpdated: 2026-03-24
 diagramPrompt: "Educational diagram illustrating Legal Aptitude: Contract Law with clear labels, white background, exam-style illustration"
 
 ---

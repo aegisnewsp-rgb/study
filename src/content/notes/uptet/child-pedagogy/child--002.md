@@ -2,12 +2,13 @@
 exam: uptet
 examName: UPTET
 subject: child-pedagogy
-subjectName: General Studies
+subjectName: "Child Development and Pedagogy"
 topic: child--002
-topicName: Topic 2
+topicName: "Learning Theories — Behaviourism, Cognitivism, Constructivism"
 weight: 3
-country: uptet
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Learning Theories — Behaviourism, Cognitivism, Constructivism

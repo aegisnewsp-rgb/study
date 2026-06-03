@@ -2,12 +2,13 @@
 exam: uptet
 examName: UPTET
 subject: social
-subjectName: Social
+subjectName: "Social Studies"
 topic: social-004
-topicName: Topic 4
+topicName: "Modern Indian History: Indian Freedom Struggle (1857-1947)"
 weight: 3
-country: uptet
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Modern Indian History: Indian Freedom Struggle (1857-1947)

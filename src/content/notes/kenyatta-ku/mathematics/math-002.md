@@ -9,8 +9,9 @@ subjectName: Mathematics
 topic: math-002
 topicName: Calculus
 weight: 5
-country: kenyatta
+country: kenya
 generated: "2026-04-17T23:36:00.000000"
+lastUpdated: 2026-04-17
 diagramPrompt: "Clean educational diagram showing Calculus derivative integral with clear labels, white background, exam-style illustration"
 
 

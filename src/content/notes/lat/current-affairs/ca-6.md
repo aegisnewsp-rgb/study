@@ -11,6 +11,7 @@ topicName: Climate Change and Environment
 weight: 3
 country: pakistan
 generated: "2026-03-24T08:32:08.036173"
+lastUpdated: 2026-03-24
 diagramPrompt: "Educational diagram illustrating Climate Change and Environment with clear labels, white background, exam-style illustration"
 
 

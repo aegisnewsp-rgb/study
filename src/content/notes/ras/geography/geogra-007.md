@@ -2,12 +2,13 @@
 exam: ras
 examName: RPSC RAS
 subject: geography
-subjectName: General Studies
+subjectName: "Geography"
 topic: geogra-007
 topicName: Water Resources of Rajasthan
 weight: 3
-country: ras
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Water Resources of Rajasthan

@@ -9,8 +9,9 @@ tier: unified
 weight: 2
 weight_unit: "% of GA section"
 diagramPrompt: "Concentric circles: innermost = perfect synonyms, middle ring = near synonyms with different intensity/register, outer ring = loosely related words that students often confuse"
-country: India
-generated: ai-v1
+country: india
+generated: 2026-05-26
+lastUpdated: 2026-05-26
 ---
 
 # Synonyms

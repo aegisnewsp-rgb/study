@@ -9,8 +9,9 @@ tier: unified
 weight: 2
 weight_unit: "% of GA section"
 diagramPrompt: "A comprehensive decision tree for direct/indirect speech conversion: 4 branches (statement, yes/no question, wh-question, command) each with sub-branches for tense backshift rules, pronoun changes, and time expression transformations. Shows exceptions like 'universal truths' where backshift is optional."
-country: India
-generated: ai-v1
+country: india
+generated: 2026-05-26
+lastUpdated: 2026-05-26
 ---
 
 # Direct & Indirect Speech

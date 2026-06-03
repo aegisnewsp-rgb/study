@@ -2,12 +2,13 @@
 exam: al-exam
 examName: A/L Examination (Sri Lanka)
 subject: commerce-stream
-subjectName: Commerce Stream
+subjectName: "Commerce-Stream"
 topic: commer-009
 topicName: Banking and Financial Institutions
 weight: 3
-country: al
+country: srilanka
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Banking and Financial Institutions

@@ -2,12 +2,13 @@
 exam: al-exam
 examName: A/L Examination (Sri Lanka)
 subject: science-stream
-subjectName: Science Stream
+subjectName: "Science-Stream"
 topic: scienc-013
-topicName: Topic 13
+topicName: "Biotechnology and Applications"
 weight: 3
-country: al
+country: srilanka
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Biotechnology and Applications

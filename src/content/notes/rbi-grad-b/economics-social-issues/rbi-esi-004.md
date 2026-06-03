@@ -9,8 +9,9 @@ tier: unified
 weight: 3
 weight_unit: "% of Phase 2 paper"
 diagramPrompt: "A comprehensive monetary policy framework diagram: Centre shows 'RBI MPC Decision' → branching to 'Policy Rates' (repo, reverse repo, MSF, bank rate, CRR, SLR) → 'Money Market Rates' → 'Banking System' (deposit rates, lending rates, credit growth) → 'Aggregate Demand' → 'Inflation/Growth'. Show feedback loop: actual inflation feeds back to MPC's next decision. Show the 4% ±2% CPI inflation target band graphically."
-country: India
-generated: ai-v1
+country: india
+generated: 2026-05-26
+lastUpdated: 2026-05-26
 ---
 
 # Inflation & Monetary Policy

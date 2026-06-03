@@ -6,8 +6,9 @@ subjectName: Chemistry
 topic: chemis-003
 topicName: IUPAC Nomenclature of Organic Compounds
 weight: 3
-country: slmc
+country: srilanka
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # IUPAC Nomenclature of Organic Compounds — Naming systematically

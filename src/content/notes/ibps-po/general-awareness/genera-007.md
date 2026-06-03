@@ -2,12 +2,13 @@
 exam: ibps-po
 examName: IBPS PO
 subject: general-awareness
-subjectName: ('awareness', 'General Awareness')
+subjectName: "General Awareness"
 topic: genera-007
-topicName: Topic 7
+topicName: "Indian Economy — Key Concepts & Macroeconomic Indicators"
 weight: 3
-country: ibps
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Indian Economy — Key Concepts & Macroeconomic Indicators

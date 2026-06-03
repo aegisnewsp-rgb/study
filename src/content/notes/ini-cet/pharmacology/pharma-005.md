@@ -2,12 +2,13 @@
 exam: ini-cet
 examName: INI CET (AIIMS PG)
 subject: pharmacology
-subjectName: Botany
+subjectName: "Pharmacology"
 topic: pharma-005
 topicName: Topic 5
 weight: 3
-country: ini
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 **Adrenergic Pharmacology** covers adrenergic pharmacology for INI CET (AIIMS PG).

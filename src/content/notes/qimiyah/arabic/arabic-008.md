@@ -4,10 +4,11 @@ examName: Qimiyah Exam (Saudi)
 subject: arabic
 subjectName: Arabic
 topic: arabic-008
-topicName: Topic 8
+topicName: "Quranic Text Reading: Tajweed Fundamentals"
 weight: 3
-country: qimiyah
+country: saudi
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 # Quranic Text Reading: Tajweed Fundamentals
 

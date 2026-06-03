@@ -9,8 +9,9 @@ tier: unified
 weight: 3
 weight_unit: "% of Phase 2 paper"
 diagramPrompt: "Draw an advanced layered diagram of the Indian Financial System showing: (1) Top layer — RBI as the central regulator with monetary policy tools (CRR, SLR, Repo/Reverse Repo); (2) Middle layer split into Money Market (T-Bills, CPs, Call Money, CBLO, LAF) and Capital Market (Primary: IPO/FPO/Rights, Secondary: BSE/NSE with cash/derivatives segments, Depositories: NSDL/CDSL); (3) Bottom layer showing participants: Banks, Corporates, MFs, Foreign Investors, Retail. Add arrows showing fund flows."
-country: India
-generated: ai-v1
+country: india
+generated: 2026-05-26
+lastUpdated: 2026-05-26
 ---
 
 # Financial Markets

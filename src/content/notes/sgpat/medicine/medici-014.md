@@ -6,8 +6,9 @@ subjectName: Medicine
 topic: medici-014
 topicName: Topic 14
 weight: 3
-country: sgpat
+country: saudi
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Topic 14

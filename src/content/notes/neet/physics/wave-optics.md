@@ -8,6 +8,7 @@ topicName: Wave Optics
 weight: 4
 country: india
 generated: 2026-04-23
+lastUpdated: 2026-04-23
 ---
 
 # Wave Optics — NEET Physics Notes

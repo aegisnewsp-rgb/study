@@ -4,10 +4,11 @@ examName: INI CET (AIIMS PG)
 subject: anatomy
 subjectName: Anatomy
 topic: anatom-005
-topicName: Topic 5
+topicName: "Upper Limb Anatomy — Bones, Joints, Muscles, Nerves and Clinical Correlations"
 weight: 3
-country: ini
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Upper Limb Anatomy — Bones, Joints, Muscles, Nerves and Clinical Correlations

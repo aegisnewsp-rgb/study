@@ -6,8 +6,9 @@ subjectName: Biochemistry
 topic: bioche-007
 topicName: Krebs Cycle (TCA Cycle)
 weight: 3
-country: ini
-generated: ai-v1
+country: india
+generated: 2026-03-25
+lastUpdated: 2026-03-25
 ---
 
 # Krebs Cycle (Tricarboxylic Acid Cycle / Citric Acid Cycle)

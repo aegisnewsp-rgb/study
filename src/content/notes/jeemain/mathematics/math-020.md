@@ -11,6 +11,7 @@ topicName: Three Dimensional Geometry
 weight: 4
 country: india
 generated: "2026-04-17T22:59:00.000000"
+lastUpdated: 2026-04-17
 diagramPrompt: "Clean educational diagram showing 3D Geometry coordinate axes planes with clear labels, white background, labeled axes x y z, exam-style illustration"
 
 

@@ -2,12 +2,13 @@
 exam: up-psc
 examName: UPPSC PCS
 subject: history
-subjectName: General Studies
+subjectName: "History"
 topic: histor-006
 topicName: Art and Culture of India
 weight: 3
-country: up
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Art and Culture of India

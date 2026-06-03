@@ -2,12 +2,13 @@
 exam: bpsc
 examName: BPSC
 subject: geography
-subjectName: General Studies
+subjectName: "Geography"
 topic: geogra-007
-topicName: Topic 7
+topicName: "Resource Geography and Environmental Concerns"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Resource Geography and Environmental Concerns

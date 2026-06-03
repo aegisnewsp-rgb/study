@@ -6,8 +6,9 @@ subjectName: Hindi
 topic: hindi-002
 topicName: Hindi Grammar and Composition
 weight: 3
-country: uppsc
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Hindi Grammar and Composition

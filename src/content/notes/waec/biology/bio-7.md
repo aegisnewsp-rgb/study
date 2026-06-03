@@ -8,6 +8,7 @@ topicName: "Transport: Circulatory System"
 weight: 5
 country: nigeria
 generated: "2026-03-24T08:32:07.650818"
+lastUpdated: 2026-03-24
 diagramPrompt: "Detailed biological diagram of Transport: Circulatory System with labeled parts, accurate proportions, white background, color-coded tissues/organs, textbook quality"
 
 ---

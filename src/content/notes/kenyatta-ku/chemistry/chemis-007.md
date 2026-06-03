@@ -2,12 +2,13 @@
 exam: kenyatta-ku
 examName: Kenyatta University (Kenya)
 subject: chemistry
-subjectName: ('chemistry', 'Chemistry')
+subjectName: "Chemistry"
 topic: chemis-007
-topicName: Topic 7
+topicName: "Carboxylic Acids: Structure, Preparation, and Reactions"
 weight: 3
-country: kenyatta
+country: kenya
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Carboxylic Acids: Structure, Preparation, and Reactions

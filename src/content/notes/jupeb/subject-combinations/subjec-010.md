@@ -2,12 +2,13 @@
 exam: jupeb
 examName: JUPEB (Nigeria)
 subject: subject-combinations
-subjectName: Subject Combinations
+subjectName: "Subject-Combinations"
 topic: subjec-010
 topicName: Topic 10
 weight: 3
-country: jupeb
+country: nigeria
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 Choosing the right JUPEB subject combination is one of the most consequential academic decisions you'll make. This guide provides strategic frameworks for selecting combinations that maximize your university admission chances and career prospects.

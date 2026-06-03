@@ -2,12 +2,13 @@
 exam: accagl
 examName: ACCA/CA Pakistan
 subject: audit
-subjectName: Financial Accounting
+subjectName: "Auditing"
 topic: audit-007
 topicName: "Completion & Final Review"
 weight: 3
-country: accagl
+country: pakistan
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Completion & Final Review

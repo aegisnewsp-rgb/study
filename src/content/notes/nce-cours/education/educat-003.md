@@ -4,10 +4,11 @@ examName: NCE (Nigeria)
 subject: education
 subjectName: Education
 topic: educat-003
-topicName: Topic 3
+topicName: "Sociology of Education"
 weight: 3
-country: nce
+country: nigeria
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Sociology of Education

@@ -6,8 +6,9 @@ subjectName: Pharmacy
 topic: pharma-006
 topicName: Drug-Receptor Interactions and Pharmacodynamics
 weight: 3
-country: sa
+country: southafrica
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Drug-Receptor Interactions and Pharmacodynamics

@@ -8,6 +8,7 @@ topicName: Grammar Usage
 weight: 4
 country: pakistan
 generated: "2026-03-24T08:32:08.118741"
+lastUpdated: 2026-03-24
 diagramPrompt: "Educational diagram illustrating Grammar Usage with clear labels, white background, exam-style illustration"
 
 ---
@@ -58,7 +59,7 @@ diagramPrompt: "Educational diagram illustrating Grammar Usage with clear labels
 
 2. **Compound Subjects:**
    - With **and**: usually plural — "Tom and Jerry **are** friends"
-   - With **or/nor**: verb agrees with closer subject — "Neither the doctor nor the nurses **are**" (wait — nurses is plural)
+   - With **or/nor**: verb agrees with the closer subject — "Neither the doctor nor the nurses **are**" (nurses is closer and plural, so the verb is plural)
 
 3. **Collective Nouns:** US English treats as singular (team **is**); British English may treat as plural
    - The jury **has** reached its verdict. (US)

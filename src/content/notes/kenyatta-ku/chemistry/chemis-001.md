@@ -2,12 +2,13 @@
 exam: kenyatta-ku
 examName: Kenyatta University (Kenya)
 subject: chemistry
-subjectName: ('chemistry', 'Chemistry')
+subjectName: "Chemistry"
 topic: chemis-001
-topicName: Topic 1
+topicName: "Introduction to Organic Chemistry and Chemical Bonding"
 weight: 3
-country: kenyatta
+country: kenya
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Introduction to Organic Chemistry and Chemical Bonding

@@ -2,12 +2,13 @@
 exam: kpkpse
 examName: KPK PMS
 subject: pakistan-affairs
-subjectName: General Studies
+subjectName: "Pakistan Affairs"
 topic: pakist-008
 topicName: Important Cities and Historical Places
 weight: 3
-country: kpkpse
+country: pakistan
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Important Cities and Historical Places

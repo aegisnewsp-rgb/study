@@ -2,12 +2,13 @@
 exam: ican
 examName: ICAN (Nigeria)
 subject: business-law
-subjectName: Mercantile Law
+subjectName: "Business Law"
 topic: busine-004
 topicName: Topic 4
 weight: 3
-country: ican
+country: nigeria
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Topic 4

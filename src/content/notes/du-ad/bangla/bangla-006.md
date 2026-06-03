@@ -6,8 +6,9 @@ subjectName: Bangla
 topic: bangla-006
 topicName: Kazi Nazrul Islam
 weight: 3
-country: du
+country: bangladesh
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Kazi Nazrul Islam

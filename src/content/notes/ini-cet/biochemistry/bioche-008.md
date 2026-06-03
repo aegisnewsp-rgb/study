@@ -6,8 +6,9 @@ subjectName: Biochemistry
 topic: bioche-008
 topicName: Electron Transport Chain and Oxidative Phosphorylation
 weight: 3
-country: ini
-generated: ai-v1
+country: india
+generated: 2026-03-25
+lastUpdated: 2026-03-25
 ---
 
 # Electron Transport Chain and Oxidative Phosphorylation

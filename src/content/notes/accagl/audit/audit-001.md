@@ -2,12 +2,13 @@
 exam: accagl
 examName: ACCA/CA Pakistan
 subject: audit
-subjectName: Financial Accounting
+subjectName: "Auditing"
 topic: audit-001
 topicName: "Audit Framework, Regulations & Professional Ethics"
 weight: 3
-country: accagl
+country: pakistan
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Audit Framework, Regulations & Professional Ethics

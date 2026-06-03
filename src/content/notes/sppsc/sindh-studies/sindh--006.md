@@ -6,8 +6,9 @@ subjectName: Sindh Studies
 topic: sindh--006
 topicName: Sindh's Economy and Agriculture
 weight: 3
-country: sppsc
+country: pakistan
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Sindh's Economy and Agriculture

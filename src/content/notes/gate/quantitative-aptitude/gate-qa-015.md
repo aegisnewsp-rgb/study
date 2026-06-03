@@ -9,8 +9,9 @@ tier: unified
 weight: 2
 weight_unit: "% of QA section"
 diagramPrompt: "A multi-panel display showing various DI elements: a compound bar chart comparing two years, a pie chart with a exploded slice, and a data table with highlighted cells"
-country: India
-generated: ai-v1
+country: india
+generated: 2026-05-26
+lastUpdated: 2026-05-26
 ---
 
 # Data Interpretation

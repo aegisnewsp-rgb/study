@@ -2,12 +2,13 @@
 exam: ppsc
 examName: PPSC (Pakistan)
 subject: pakistan-affairs
-subjectName: General Studies
+subjectName: "Pakistan Affairs"
 topic: pakist-002
 topicName: History of Pakistan — Pre-Independence to 1971
 weight: 3
-country: ppsc
+country: pakistan
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # History of Pakistan — Pre-Independence to 1971

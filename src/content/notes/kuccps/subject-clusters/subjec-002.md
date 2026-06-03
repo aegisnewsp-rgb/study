@@ -4,10 +4,11 @@ examName: KUCCPS (Kenya)
 subject: subject-clusters
 subjectName: Subject Clusters
 topic: subjec-002
-topicName: Topic 2
+topicName: "Topic 2: Cluster 2 — Medicine"
 weight: 3
-country: kuccps
+country: kenya
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Topic 2: Cluster 2 — Medicine

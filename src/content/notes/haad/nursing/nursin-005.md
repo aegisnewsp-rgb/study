@@ -2,12 +2,13 @@
 exam: haad
 examName: HAAD (UAE)
 subject: nursing
-subjectName: Botany
+subjectName: "Nursing"
 topic: nursin-005
-topicName: Topic 5
+topicName: "Pediatric Nursing"
 weight: 3
-country: haad
+country: uae
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Pediatric Nursing

@@ -2,12 +2,13 @@
 exam: mat
 examName: MAT
 subject: mathematical-skills
-subjectName: Mathematical Skills
+subjectName: "Mathematical-Skills"
 topic: mathem-010
 topicName: HCF, LCM, Average, Age Problems & Chain Rule
 weight: 3
-country: mat
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # HCF, LCM, Average, Age Problems & Chain Rule
@@ -116,9 +117,9 @@ Example: LCM of $\frac{3}{4}$ and $\frac{5}{6}$ = $\frac{\text{LCM}(3,5)}{\text{
 **Q: Two bells ring together every 12 and 15 minutes respectively. After how many minutes will they ring together again?**
 - LCM of 12 and 15 = 60 minutes = **1 hour**
 
-**Q: Find the largest number that divides 204 and 870, leaving remainders 5 and 8 respectively.**
-- 204 − 5 = 199; 870 − 8 = 862
-- HCF of 199 and 862 = **199**
+**Q: Find the largest number that divides 245 and 1029, leaving remainders 5 and 9 respectively.**
+- 245 − 5 = 240; 1029 − 9 = 1020
+- HCF of 240 and 1020 = **60**  (check: 245 ÷ 60 leaves 5; 1029 ÷ 60 leaves 9 ✓)
 
 ---
 
@@ -248,7 +249,7 @@ $$\bar{x} = \frac{\sum f_i x_i}{\sum f_i}$$
 **Q: 20 men can build a wall 200m long in 30 days. How many men are needed to build 300m in 15 days?**
 - $W_1 = 200, M_1 = 20, D_1 = 30$
 - $W_2 = 300, M_2 = ?, D_2 = 15$
-- $M_2 = \frac{200 \times 30 \times 300}{300 \times 15 \times 200} \times 20$ — Wait, formula: $M_1 D_1 / W_1 = M_2 D_2 / W_2$
+- Apply the chain rule formula: $M_1 D_1 / W_1 = M_2 D_2 / W_2$
 - $M_2 = 20 \times 30 \times 300 / (200 \times 15) = 20 \times 30 \times 300 / 3000 = 60$ men
 
 **Q: A pump fills a tank in 2 hours but a leak can empty it in 6 hours. How long to fill with leak active?**

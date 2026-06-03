@@ -181,7 +181,7 @@ const exam: ExamTemplate = {
   examName: 'NEET UG',
   country: 'india',
   description: `NEET\ UG\ is\ India's\ single\-window\ entrance\ exam\ for\ admission\ to\ MBBS,\ BDS,\ AYUSH\ and\ other\ medical\ courses\ in\ government\ and\ private\ colleges\.\ Conducted\ by\ NTA,\ it\ tests\ Physics,\ Chemistry,\ and\ Biology\ from\ the\ NCERT\ syllabus\.`,
-  examPattern: "200 MCQs — Physics(45), Chemistry(45), Biology(90), 3h 20min, 720 marks total. 4 marks per correct answer, 1 mark deducted for wrong answer.",
+  examPattern: "180 compulsory questions — Physics (45), Chemistry (45), Biology (90: Botany 45 + Zoology 45), 3 hours, 720 marks total. 4 marks per correct answer, 1 mark deducted for wrong answer. The optional Section B buffer used during 2021–2024 was discontinued from 2025.",
   eligibility: "Class 12 PCB (Physics, Chemistry, Biology) with minimum 50% aggregate for general category (40% for SC/ST/OBC). Lower age limit 17 years as of December 31 of admission year.",
   subjects,
   durations,

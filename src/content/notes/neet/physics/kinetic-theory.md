@@ -8,6 +8,7 @@ topicName: Kinetic Theory of Gases
 weight: 3
 country: india
 generated: 2026-04-23
+lastUpdated: 2026-04-23
 ---
 
 # Kinetic Theory of Gases — NEET Physics Notes

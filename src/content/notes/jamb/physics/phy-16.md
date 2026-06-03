@@ -11,6 +11,7 @@ topicName: Atomic Structure and Bohr Model
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.717792"
+lastUpdated: 2026-03-24
 diagramPrompt: "Clean educational diagram showing Atomic Structure and Bohr Model with clear labels, white background, labeled arrows for forces/fields/vectors, color-coded components, exam-style illustration"
 
 

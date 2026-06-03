@@ -2,12 +2,13 @@
 exam: ini-cet
 examName: INI CET (AIIMS PG)
 subject: pathology
-subjectName: Botany
+subjectName: "Pathology"
 topic: pathol-008
 topicName: Infectious Diseases
 weight: 3
-country: ini
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 **Ischemia and Infarction** covers ischemia and infarction for INI CET (AIIMS PG).

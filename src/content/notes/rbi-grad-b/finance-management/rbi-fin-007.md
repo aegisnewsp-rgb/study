@@ -9,8 +9,9 @@ tier: unified
 weight: 3
 weight_unit: "% of Phase 2 paper"
 diagramPrompt: "Advanced integrated model: Central Venn diagram showing where Maslow, Herzberg, McGregor, Vroom, and ERG overlap and differ. Surrounding panels show: (1) Job satisfaction continuum from dissatisfaction to satisfaction with theory labels at each point. (2) Practical application: how a modern RBI manager applies all theories simultaneously. (3) Timeline showing when each theory emerged and what gap it filled."
-country: India
-generated: ai-v1
+country: india
+generated: 2026-05-26
+lastUpdated: 2026-05-26
 ---
 
 # Leadership & Motivation Theories

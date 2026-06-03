@@ -12,6 +12,7 @@ topicName: "Living Things: Characteristics and Classification"
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.604924"
+lastUpdated: 2026-03-24
 diagramPrompt: "Educational diagram illustrating Living Things: Characteristics and Classification with clear labels, white background, exam-style illustration"
 
 

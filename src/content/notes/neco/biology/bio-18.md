@@ -12,6 +12,7 @@ topicName: "Biotechnology: Tissue Culture and Genetic Engineering"
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.700387"
+lastUpdated: 2026-03-24
 diagramPrompt: "Detailed biological diagram of Biotechnology: Tissue Culture and Genetic Engineering with labeled parts, accurate proportions, white background, color-coded tissues/organs, textbook quality"
 
 

@@ -2,12 +2,13 @@
 exam: kpsc
 examName: KPSC KAS
 subject: karnataka-specific
-subjectName: Karnataka Specific
+subjectName: "Karnataka-Specific"
 topic: karnat-001
 topicName: Physical Geography of Karnataka
 weight: 3
-country: kpsc
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Physical Geography of Karnataka

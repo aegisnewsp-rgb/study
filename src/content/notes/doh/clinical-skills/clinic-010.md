@@ -2,12 +2,13 @@
 exam: doh
 examName: DOH (UAE)
 subject: clinical-skills
-subjectName: Clinical Skills
+subjectName: "Clinical-Skills"
 topic: clinic-010
 topicName: NG Tube Insertion and Enteral Nutrition
 weight: 3
-country: doh
+country: uae
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # NG Tube Insertion and Enteral Nutrition

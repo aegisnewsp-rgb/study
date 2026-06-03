@@ -12,6 +12,7 @@ topicName: "Trigonometry: Sine and Cosine Rules"
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.668648"
+lastUpdated: 2026-03-24
 diagramPrompt: "Mathematical diagram showing Trigonometry: Sine and Cosine Rules concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style"
 
 

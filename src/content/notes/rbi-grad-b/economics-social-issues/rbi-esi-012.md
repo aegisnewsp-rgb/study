@@ -9,8 +9,9 @@ tier: unified
 weight: 3
 weight_unit: "% of Phase 2 paper"
 diagramPrompt: "Draw an advanced macroeconomic dashboard: a four-quadrant grid showing Monetary Policy (repo rate, inflation), Fiscal Policy (fiscal deficit, capex), External Sector (CAD, forex reserves), and Banking & Finance (NPAs, digital payments) — with current values, trend arrows, and policy responses for each"
-country: India
-generated: ai-v1
+country: india
+generated: 2026-05-26
+lastUpdated: 2026-05-26
 ---
 
 # Current Economic Affairs

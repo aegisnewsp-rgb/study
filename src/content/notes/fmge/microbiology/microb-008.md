@@ -6,8 +6,9 @@ subjectName: Microbiology
 topic: microb-008
 topicName: Bacterial Genetics & Drug Resistance
 weight: 3
-country: fmge
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Bacterial Genetics & Drug Resistance

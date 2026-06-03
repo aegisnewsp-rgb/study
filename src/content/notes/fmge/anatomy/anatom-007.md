@@ -4,10 +4,11 @@ examName: FMGE
 subject: anatomy
 subjectName: Anatomy
 topic: anatom-007
-topicName: Topic 7
+topicName: "Histology — Epithelium, Connective Tissue, Muscle, Nerve & Skin"
 weight: 3
-country: fmge
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Histology — Epithelium, Connective Tissue, Muscle, Nerve & Skin

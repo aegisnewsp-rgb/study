@@ -2,12 +2,13 @@
 exam: fmge
 examName: FMGE
 subject: pathology
-subjectName: Botany
+subjectName: "Pathology"
 topic: pathol-010
-topicName: Topic 10
+topicName: "Systemic Pathology - Organ System Review"
 weight: 3
-country: fmge
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Systemic Pathology - Organ System Review

@@ -6,8 +6,9 @@ subjectName: Business Law
 topic: busine-007
 topicName: Intellectual Property Law & Patents
 weight: 3
-country: sa
+country: southafrica
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Intellectual Property Law & Patents

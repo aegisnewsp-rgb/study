@@ -2,12 +2,13 @@
 exam: kpkpse
 examName: KPK PMS
 subject: islamic-studies
-subjectName: General Studies
+subjectName: "Islamic Studies"
 topic: islami-006
-topicName: Topic 6
+topicName: "Islamic Law: Fiqh (Jurisprudence) and Its Application"
 weight: 3
-country: kpkpse
+country: pakistan
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Islamic Law: Fiqh (Jurisprudence) and Its Application

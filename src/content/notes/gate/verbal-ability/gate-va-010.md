@@ -9,8 +9,9 @@ tier: unified
 weight: 2
 weight_unit: "% of GA section"
 diagramPrompt: "An advanced decision tree for para jumbles: shows how to identify paragraph type (factual, argumentative, narrative), maps common linking words to their logical function (contrast, addition, cause, effect, example), and demonstrates the 'pairing method' where two sentences that must be adjacent are identified first."
-country: India
-generated: ai-v1
+country: india
+generated: 2026-05-26
+lastUpdated: 2026-05-26
 ---
 
 # Para Jumbles / Sentence Rearrangement

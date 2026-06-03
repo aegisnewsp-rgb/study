@@ -11,6 +11,7 @@ topicName: Height and Distance
 weight: 3
 country: india
 generated: "2026-04-17T23:07:00.000000"
+lastUpdated: 2026-04-17
 diagramPrompt: "Clean educational diagram showing Height and Distance trigonometric problem with clear labels, white background, angle of elevation depression, exam-style illustration"
 
 

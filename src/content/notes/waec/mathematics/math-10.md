@@ -8,6 +8,7 @@ topicName: "Trigonometry: Sine, Cosine and Tangent"
 weight: 5
 country: nigeria
 generated: "2026-03-24T08:32:07.621837"
+lastUpdated: 2026-03-24
 diagramPrompt: "Mathematical diagram showing Trigonometry: Sine, Cosine and Tangent concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style"
 
 ---

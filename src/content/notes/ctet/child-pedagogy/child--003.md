@@ -2,12 +2,13 @@
 exam: ctet
 examName: CTET
 subject: child-pedagogy
-subjectName: General Studies
+subjectName: "Child Development and Pedagogy"
 topic: child--003
 topicName: Vygotsky's Sociocultural Theory
 weight: 3
-country: ctet
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Vygotsky's Sociocultural Theory

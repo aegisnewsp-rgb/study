@@ -6,8 +6,9 @@ subjectName: Medicine
 topic: medici-012
 topicName: Topic 12
 weight: 3
-country: sgpat
+country: saudi
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Topic 12

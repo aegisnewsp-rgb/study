@@ -8,6 +8,7 @@ topicName: "Trigonometry: Sine and Cosine Rules"
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.622485"
+lastUpdated: 2026-03-24
 diagramPrompt: "Mathematical diagram showing Trigonometry: Sine and Cosine Rules concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style"
 
 ---
@@ -100,7 +101,7 @@ $$A = \frac{1}{2}(12)(9)\sin 40° = 54 \times 0.6428 \approx 34.71 \text{ cm}^2$
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive theory for thorough preparation.
 
-** bearings and Navigation:**
+**Bearings and Navigation:**
 
 **Bearings** are angles measured clockwise from North:
 
@@ -117,29 +118,20 @@ $$AC^2 = 200^2 + 150^2 - 2(200)(150)\cos 90°$$
 $$AC^2 = 40000 + 22500 - 0 = 62500$$
 $$AC = 250 \text{ km}$$
 
-Using Sine Rule for angle at B in triangle ABC:
+Using the Sine Rule to find the angle at C in triangle ABC:
 $$\frac{\sin(\angle ACB)}{AB} = \frac{\sin(\angle ABC)}{AC}$$
 $$\frac{\sin(\angle ACB)}{200} = \frac{\sin 90°}{250}$$
 $$\sin(\angle ACB) = \frac{200 \times 1}{250} = 0.8$$
 $$\angle ACB = \sin^{-1}(0.8) \approx 53.13°$$
 
-Bearing from C to A = 150° + 53.13° + 180° = 383.13° = 023.13° (since bearings are typically written 000° to 360°)
+Now find the bearing of A from C. Since C is on a bearing of 150° from B, the bearing of B from C is the back-bearing $150° + 180° = 330°$.
 
-Actually, need to be more careful. From C, A is in the opposite direction. Let me redo:
+At C, measure clockwise from the direction to B (330°) by the angle $\angle ACB = 53.13°$ to reach the direction to A:
+$$\text{Bearing of A from C} = 330° + 53.13° = 383.13°$$
+Subtracting 360° to express it in the range 000°–360°:
+$$383.13° - 360° = 023.13°$$
 
-From C, direction to B is 330° (150° + 180° = 330°).
-Angle from C to A relative to B = 53.13° (as calculated above).
-So bearing from C to A = 330° - 53.13° = 276.87° (going the shorter way around).
-
-Wait, we need the bearing of A FROM C. This means we start at C, face North, and rotate clockwise to face A.
-
-Actually let's use: bearing of C from A was 150°. So bearing of A from C is 150° + 180° = 330° ± angle ACB.
-Since C is at bearing 150° from A, and AC = 250, AB = 200, BC = 150, angle at A from C direction is given by:
-Using triangle: angle CAB = 180° - 53.13° = 126.87°
-Bearing of C from A = 150°
-So bearing of A from C = 150° + 180° - angle at C = 330° - 53.13° = 276.87° or 330° + 53.13° = 383.13° (same as 023.13°)
-
-The shorter angle is 276.87°, so bearing ≈ 277°.
+So the distance of A from C is **250 km** on a bearing of **023°** (to the nearest degree).
 
 **3D Trigonometry:**
 
@@ -148,14 +140,9 @@ The shorter angle is 276.87°, so bearing ≈ 277°.
 In 3D, the distance from the centre of the triangle to each anchor point is the same. For an equilateral triangle, the distance from centroid to vertex is:
 $$d = \frac{\sqrt{3}}{3} \times \text{side} = \frac{\sqrt{3}}{3} \times 10 = \frac{10\sqrt{3}}{3} \approx 5.77 \text{ m}$$
 
-In right triangle (pole height, wire, ground distance):
-$$\sin 60° = \frac{\text{height}}{\text{wire length}}$$
-Actually, we need the wire length first. We know ground projection is 5.77 m.
-$$h = \text{wire length} \times \sin 60° = \text{wire length} \times \frac{\sqrt{3}}{2}$$
-
-But we also know the wire makes 60° with ground:
+The pole, the ground, and the wire form a right triangle in which the wire makes 60° with the ground and the ground distance (horizontal projection) is 5.77 m. Using the tangent ratio:
 $$\tan 60° = \frac{h}{5.77}$$
-$$h = 5.77 \times \sqrt{3} = 5.77 \times 1.732 = 10 \text{ m}$$
+$$h = 5.77 \times \tan 60° = 5.77 \times \sqrt{3} = 5.77 \times 1.732 \approx 10 \text{ m}$$
 
 So the pole is 10 m tall.
 

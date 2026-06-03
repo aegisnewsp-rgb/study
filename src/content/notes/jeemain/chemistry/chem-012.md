@@ -8,6 +8,7 @@ topicName: Solutions
 weight: 3
 country: india
 generated: "2026-03-28T21:09:48"
+lastUpdated: 2026-03-28
 ---
 ---
 ## 📊 JEE Main Exam Essentials

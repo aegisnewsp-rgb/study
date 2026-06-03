@@ -1,5 +1,5 @@
 ---
-exam: ssc-cgl-tier2
+exam: ssc-cgl
 examName: SSC CGL Tier 2
 subject: quantitative-abilities
 subjectName: Quantitative Abilities
@@ -9,8 +9,9 @@ tier: unified
 weight: 2
 weight_unit: "% of Tier 2 paper"
 diagramPrompt: "A comparative bar chart showing Company A and Company B quarterly profits (in Rs. Crores) for 4 quarters. Company A: Q1=8, Q2=12, Q3=10, Q4=15. Company B: Q1=6, Q2=14, Q3=9, Q4=13. Two bars per quarter, clearly labelled. Show a trend line overlay for each company."
-country: India
-generated: ai-v1
+country: india
+generated: 2026-03-25
+lastUpdated: 2026-03-25
 ---
 
 # Data Interpretation & Statistics

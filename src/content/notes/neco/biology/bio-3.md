@@ -11,6 +11,7 @@ topicName: Enzymes and Biochemical Reactions
 weight: 5
 country: nigeria
 generated: "2026-03-24T08:32:07.693759"
+lastUpdated: 2026-03-24
 diagramPrompt: "Detailed biological diagram of Enzymes and Biochemical Reactions with labeled parts, accurate proportions, white background, color-coded tissues/organs, textbook quality"
 
 

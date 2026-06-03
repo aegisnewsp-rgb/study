@@ -2,12 +2,13 @@
 exam: fmge
 examName: FMGE
 subject: forensic
-subjectName: Botany
+subjectName: "Forensic"
 topic: forens-002
-topicName: Topic 2
+topicName: "Topic 2: Forensic Pathology — Wound Classification, Medicolegal Aspects of Injuries, Ante-mortem vs. Post-mortem Wounds"
 weight: 3
-country: fmge
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Topic 2: Forensic Pathology — Wound Classification, Medicolegal Aspects of Injuries, Ante-mortem vs. Post-mortem Wounds

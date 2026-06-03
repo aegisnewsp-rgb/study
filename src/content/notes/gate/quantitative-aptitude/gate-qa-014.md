@@ -9,8 +9,9 @@ tier: unified
 weight: 2
 weight_unit: "% of QA section"
 diagramPrompt: "A comprehensive decision tree starting with 'Arrange all or select subset?' branching to 'Permutation or Combination?' and further to circular permutations and combinations with repetition"
-country: India
-generated: ai-v1
+country: india
+generated: 2026-05-26
+lastUpdated: 2026-05-26
 ---
 
 # Permutation & Combination

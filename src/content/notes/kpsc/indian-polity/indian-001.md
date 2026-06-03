@@ -6,8 +6,9 @@ subjectName: Indian Polity
 topic: indian-001
 topicName: The Preamble to the Indian Constitution
 weight: 3
-country: kpsc
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # The Preamble to the Indian Constitution

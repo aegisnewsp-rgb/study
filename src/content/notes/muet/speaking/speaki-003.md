@@ -2,12 +2,13 @@
 exam: muet
 examName: MUET (Malaysia)
 subject: speaking
-subjectName: Speaking
+subjectName: "Speaking (Paper 3)"
 topic: speaki-003
-topicName: Topic 3
+topicName: "Pronunciation and Fluency in MUET Speaking"
 weight: 3
-country: muet
+country: malaysia
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Pronunciation and Fluency in MUET Speaking
@@ -62,8 +63,8 @@ English is a stress-timed language, meaning stressed syllables occur at roughly 
 |---|---|---|
 | Two-syllable nouns | REcord, CONtest | First syllable |
 | Two-syllable verbs | reCORD, conTEST | Second syllable |
-| Two-syllable adjectives | haPPY, soLID | Second syllable |
-| Three-syllable words | eMERgency, fanTAStic | Second syllable |
+| Two-syllable adjectives | HAPpy, SOlid | First syllable |
+| Three-syllable words | fanTAStic, comPUTer | Second syllable |
 | -tion endings | eduCAtion, organiSAtion | Penultimate syllable |
 
 ⚡ **Exam tip:** Using the wrong stress pattern on a common word is one of the fastest ways to lose pronunciation marks. For example, saying "REcord" when you mean "reCORD" (noun vs verb) marks you immediately as non-fluent.

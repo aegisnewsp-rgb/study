@@ -2,12 +2,13 @@
 exam: al-exam
 examName: A/L Examination (Sri Lanka)
 subject: commerce-stream
-subjectName: Commerce Stream
+subjectName: "Commerce-Stream"
 topic: commer-002
 topicName: "Economics: Demand, Supply, and Market Equilibrium"
 weight: 3
-country: al
+country: srilanka
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Economics: Demand, Supply, and Market Equilibrium

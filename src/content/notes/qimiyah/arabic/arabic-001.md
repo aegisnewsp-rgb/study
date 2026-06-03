@@ -4,10 +4,11 @@ examName: Qimiyah Exam (Saudi)
 subject: arabic
 subjectName: Arabic
 topic: arabic-001
-topicName: Topic 1
+topicName: "Arabic Alphabet and Vocalization (Harakat)"
 weight: 3
-country: qimiyah
+country: saudi
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 # Arabic Alphabet and Vocalization (Harakat)
 

@@ -2,12 +2,13 @@
 exam: mat
 examName: MAT
 subject: language-comprehension
-subjectName: Language Comprehension
+subjectName: "Language-Comprehension"
 topic: langua-002
 topicName: Main Idea & Theme Questions
 weight: 3
-country: mat
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Main Idea & Theme Questions

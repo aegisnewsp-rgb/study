@@ -6,7 +6,7 @@ import Layout from '@layouts/Layout.astro';
 import Navbar from '@components/Navbar.astro';
 import Footer from '@components/Footer.astro';
 import { isLowValueNote } from '@data/note-quality';
-import { ALL_EXAMS } from '@data/exams';
+import { ALL_EXAMS, getCountryFlag } from '@data/exams';
 import { EXAM_EQUIVALENTS } from '@data/exam-equivalents';
 
 export async function getStaticPaths() {
@@ -96,8 +96,7 @@ const examsWithNotes = new Set(allNotes.map(n => n.id.split('/')[0]));
 const relatedExams = (EXAM_EQUIVALENTS[exam] || []).filter(r => examsWithNotes.has(r.id));
 
 // Country flag
-const countryFlags: Record<string, string> = { india: '🇮🇳', pakistan: '🇵🇰', nigeria: '🇳🇬' };
-const flag = countryFlags[country] || '🌍';
+const flag = getCountryFlag(country) || '🌍';
 
 const faqs = [
   {
@@ -307,13 +306,6 @@ const articleJsonLd = {
 
           <script is:inline>
             function switchTier(tier) {
-              // Update active button
-              document.querySelectorAll('.tier-btn').forEach(function(btn) {
-                btn.classList.remove('active');
-              });
-              var activeBtn = document.getElementById('btn-' + tier);
-              if (activeBtn) activeBtn.classList.add('active');
-
               // Show/hide tier sections
               var content = document.getElementById('note-content');
               if (!content) return;
@@ -345,6 +337,32 @@ const articleJsonLd = {
               }
               if (currentSection) sections.push(currentSection);
 
+              // Resolve the tier to actually show. Many notes are missing one or
+              // more tier sections (commonly the 🔴 Deep tier). The auto-selected
+              // tier could therefore match no section and render a blank page — so
+              // fall back to the nearest available tier instead of hiding all
+              // content. If the note has no tier markers at all, leave everything
+              // visible.
+              if (sections.length === 0) {
+                document.querySelectorAll('.tier-btn').forEach(function(btn) { btn.classList.remove('active'); });
+                return;
+              }
+              var available = {};
+              for (var a = 0; a < sections.length; a++) available[sections[a].tier] = true;
+              if (!available[tier]) {
+                var order = ['standard', 'lite', 'extended'];
+                for (var o = 0; o < order.length; o++) {
+                  if (available[order[o]]) { tier = order[o]; break; }
+                }
+              }
+
+              // Update active button to the tier actually being shown
+              document.querySelectorAll('.tier-btn').forEach(function(btn) {
+                btn.classList.remove('active');
+              });
+              var activeBtn = document.getElementById('btn-' + tier);
+              if (activeBtn) activeBtn.classList.add('active');
+
               // Show selected, hide others
               for (var s = 0; s < sections.length; s++) {
                 var sec = sections[s];
@@ -373,8 +391,34 @@ const articleJsonLd = {
               try { localStorage.setItem('sr_tier', tier); } catch(e) {}
             }
 
+            // Hide tier buttons that have no matching section so the selector
+            // only offers tiers the note actually contains (no inert buttons).
+            function pruneTierButtons() {
+              var content = document.getElementById('note-content');
+              if (!content) return;
+              var headings = content.querySelectorAll('h3');
+              var present = {};
+              for (var i = 0; i < headings.length; i++) {
+                var t = headings[i].textContent;
+                if (t.indexOf('🟢') !== -1) present.lite = true;
+                else if (t.indexOf('🟡') !== -1) present.standard = true;
+                else if (t.indexOf('🔴') !== -1) present.extended = true;
+              }
+              var hasAny = present.lite || present.standard || present.extended;
+              var sel = document.getElementById('tier-selector');
+              if (!hasAny) { if (sel) sel.style.display = 'none'; return; }
+              var map = { lite: 'btn-lite', standard: 'btn-standard', extended: 'btn-extended' };
+              for (var k in map) {
+                if (!present[k]) {
+                  var b = document.getElementById(map[k]);
+                  if (b) b.style.display = 'none';
+                }
+              }
+            }
+
             // Auto-select based on stored preference or roadmap duration
             function initTier() {
+              pruneTierButtons();
               // First check localStorage for explicit choice
               var stored;
               try { stored = localStorage.getItem('sr_tier'); } catch(e) {}

@@ -4,10 +4,11 @@ examName: NCE (Nigeria)
 subject: education
 subjectName: Education
 topic: educat-008
-topicName: Topic 8
+topicName: "Guidance and Counseling"
 weight: 3
-country: nce
+country: nigeria
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Guidance and Counseling

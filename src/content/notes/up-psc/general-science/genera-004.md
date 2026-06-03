@@ -2,11 +2,11 @@
 exam: up-psc
 examName: UPPSC PCS
 subject: general-science
-subjectName: General Awareness
+subjectName: "General Science"
 topic: genera-004
 topicName: Indian Economy & Union Budget
 weight: 3
-country: up
+country: india
 lastUpdated: "2026-04-14"
 generated: "2026-03-25T17:00:00"
 ---

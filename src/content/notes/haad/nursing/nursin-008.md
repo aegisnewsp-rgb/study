@@ -2,12 +2,13 @@
 exam: haad
 examName: HAAD (UAE)
 subject: nursing
-subjectName: Botany
+subjectName: "Nursing"
 topic: nursin-008
-topicName: Topic 8
+topicName: "Nursing Ethics and Professional Practice"
 weight: 3
-country: haad
+country: uae
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Nursing Ethics and Professional Practice

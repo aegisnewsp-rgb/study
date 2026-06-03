@@ -2,12 +2,13 @@
 exam: ras
 examName: RPSC RAS
 subject: history
-subjectName: General Studies
+subjectName: "History"
 topic: histor-004
 topicName: Gupta Empire and Golden Age
 weight: 3
-country: ras
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Gupta Empire and Golden Age

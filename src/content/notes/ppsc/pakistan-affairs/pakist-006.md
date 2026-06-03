@@ -2,12 +2,13 @@
 exam: ppsc
 examName: PPSC (Pakistan)
 subject: pakistan-affairs
-subjectName: General Studies
+subjectName: "Pakistan Affairs"
 topic: pakist-006
-topicName: Topic 6
+topicName: "Ayub Khan's Era and the Constitution of 1962"
 weight: 3
-country: ppsc
+country: pakistan
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 # Ayub Khan's Era and the Constitution of 1962
 

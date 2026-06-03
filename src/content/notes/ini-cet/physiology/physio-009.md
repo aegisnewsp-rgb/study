@@ -4,10 +4,11 @@ examName: INI CET (AIIMS PG)
 subject: physiology
 subjectName: Physiology
 topic: physio-009
-topicName: Reproductive System
+topicName: "Gastrointestinal Physiology: Motility"
 weight: 3
-country: ini
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 **Gastrointestinal Physiology: Motility** covers gastrointestinal motility for INI CET (AIIMS PG).

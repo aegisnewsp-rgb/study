@@ -4,10 +4,11 @@ examName: INI CET (AIIMS PG)
 subject: physiology
 subjectName: Physiology
 topic: physio-003
-topicName: Nerve & Muscle
+topicName: "Muscle Physiology: Skeletal Muscle Contraction"
 weight: 3
-country: ini
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 **Muscle Physiology: Skeletal Muscle Contraction** covers skeletal muscle contraction for INI CET (AIIMS PG).

@@ -4,10 +4,11 @@ examName: "RBI Grade B"
 subject: finance
 subjectName: "Finance"
 topic: financ-004
-topicName: "Topic 4"
+topicName: "Financial Inclusion and Digital Finance"
 weight: 3
-country: rbi
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Financial Inclusion and Digital Finance

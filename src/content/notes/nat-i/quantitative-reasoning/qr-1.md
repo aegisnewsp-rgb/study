@@ -11,6 +11,7 @@ topicName: Number System and Properties
 weight: 4
 country: pakistan
 generated: "2026-03-24T08:32:08.133538"
+lastUpdated: 2026-03-24
 diagramPrompt: "Educational diagram illustrating Number System and Properties with clear labels, white background, exam-style illustration"
 
 

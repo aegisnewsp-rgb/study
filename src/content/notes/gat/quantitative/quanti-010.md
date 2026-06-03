@@ -2,12 +2,13 @@
 exam: gat
 examName: GAT Pakistan
 subject: quantitative
-subjectName: ('quantitative-techniques', 'Quantitative Techniques')
+subjectName: "Quantitative Techniques"
 topic: quanti-010
-topicName: Topic 10
+topicName: "Geometry"
 weight: 3
-country: gat
+country: pakistan
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Geometry

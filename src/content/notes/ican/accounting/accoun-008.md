@@ -2,12 +2,13 @@
 exam: ican
 examName: ICAN (Nigeria)
 subject: accounting
-subjectName: Financial Accounting
+subjectName: "Accounting"
 topic: accoun-008
 topicName: Issue of Shares
 weight: 3
-country: ican
+country: nigeria
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Issue of Shares

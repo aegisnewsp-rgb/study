@@ -9,8 +9,9 @@ subjectName: Physics
 topic: phy-14
 topicName: Alternating Current (AC)
 weight: 3
-country: pk
+country: pakistan
 generated: "2026-03-24T08:32:08.089173"
+lastUpdated: 2026-03-24
 diagramPrompt: "Clean educational diagram showing Alternating Current (AC) with clear labels, white background, labeled arrows for forces/fields/vectors, color-coded components, exam-style illustration"
 
 

@@ -2,12 +2,13 @@
 exam: gate
 examName: "GATE"
 subject: engineering-maths
-subjectName: "Engineering Maths"
+subjectName: "Engineering-Maths"
 topic: engine-003
 topicName: "Differential Equations"
 weight: 3
-country: gate
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Differential Equations

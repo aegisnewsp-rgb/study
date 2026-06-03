@@ -4,10 +4,11 @@ examName: UPTET
 subject: science
 subjectName: Science
 topic: scienc-001
-topicName: Topic 1
+topicName: "Physics — Motion and Force"
 weight: 3
-country: uptet
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Physics — Motion and Force

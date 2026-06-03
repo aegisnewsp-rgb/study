@@ -6,8 +6,9 @@ subjectName: Pharmacy
 topic: pharma-002
 topicName: Pharmacokinetics — ADME
 weight: 3
-country: sa
+country: southafrica
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Pharmacokinetics — Absorption, Distribution, Metabolism, and Excretion (ADME)

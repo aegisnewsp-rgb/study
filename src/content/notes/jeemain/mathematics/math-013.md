@@ -11,6 +11,7 @@ topicName: Integration
 weight: 5
 country: india
 generated: "2026-04-17T22:52:00.000000"
+lastUpdated: 2026-04-17
 diagramPrompt: "Clean educational diagram showing Integration as area under curve with clear labels, white background, color-coded region, exam-style illustration"
 
 

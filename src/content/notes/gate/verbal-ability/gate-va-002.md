@@ -9,8 +9,9 @@ tier: unified
 weight: 2
 weight_unit: "% of GA section"
 diagramPrompt: "A decision pyramid with four tiers: Top (meaning preserved) → Second tier (4 criteria: Grammar, Clarity, Concision, Style) → Third tier (common errors: Redundancy, Wordiness, Wrong word, Idiom violation) → Bottom (examples mapped to each error type)"
-country: India
-generated: ai-v1
+country: india
+generated: 2026-05-26
+lastUpdated: 2026-05-26
 ---
 
 # Sentence Improvement

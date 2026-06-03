@@ -2,11 +2,11 @@
 exam: fpsc-cce
 examName: FPSC CSS (Pakistan)
 subject: general-science
-subjectName: General Awareness
+subjectName: "General Science"
 topic: genera-006
 topicName: International Organizations and Pakistan
 weight: 3
-country: fpsc
+country: pakistan
 generated: "2026-03-25T17:00:00"
 lastUpdated: "2026-05-29"
 ---

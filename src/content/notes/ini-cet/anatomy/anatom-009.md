@@ -6,8 +6,9 @@ subjectName: Anatomy
 topic: anatom-009
 topicName: Abdomen and Pelvis Anatomy
 weight: 3
-country: ini
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Abdomen and Pelvis — GI Organs, Peritoneum, Kidneys, Pelvic Viscera and Nerves

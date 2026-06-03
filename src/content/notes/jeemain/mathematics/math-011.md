@@ -11,6 +11,7 @@ topicName: Differentiation
 weight: 5
 country: india
 generated: "2026-04-17T22:50:00.000000"
+lastUpdated: 2026-04-17
 diagramPrompt: "Clean educational diagram showing Differentiation derivative as slope of tangent with clear labels, white background, color-coded curves, exam-style illustration"
 
 

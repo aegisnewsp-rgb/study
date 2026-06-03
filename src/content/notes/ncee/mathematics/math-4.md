@@ -11,6 +11,7 @@ topicName: Indices and Standard Form
 weight: 3
 country: nigeria
 generated: "2026-03-24T08:32:07.580899"
+lastUpdated: 2026-03-24
 diagramPrompt: "Mathematical diagram showing Indices and Standard Form concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style"
 
 

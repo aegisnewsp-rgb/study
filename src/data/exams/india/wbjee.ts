@@ -16,7 +16,7 @@ const exam: ExamTemplate = {
   examName: 'WBJEE',
   country: 'india',
   description: "West Bengal Joint Entrance Examination (WBJEE) is the state entrance test for admission to engineering, pharmacy, and architecture colleges in West Bengal. Conducted by WBJEEB, it tests PCM fundamentals.",
-  examPattern: "200 MCQs: Physics(40), Chemistry(40), Mathematics(40) in Category I and II format. 2 hours each paper.",
+  examPattern: "155 MCQs across two papers — Paper I: Mathematics (75 questions, 100 marks); Paper II: Physics (40) + Chemistry (40) = 80 questions, 100 marks. 2 hours per paper, 200 marks total. Questions appear in Category I, II and III formats with category-specific marking and negative marking.",
   eligibility: "Class 12 with PCM with minimum 45% aggregate. West Bengal domicile required for general category seats.",
   subjects,
     durations: {

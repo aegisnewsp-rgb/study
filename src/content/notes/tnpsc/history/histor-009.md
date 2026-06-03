@@ -2,11 +2,11 @@
 exam: tnpsc
 examName: TNPSC Group 1
 subject: history
-subjectName: General Studies
+subjectName: "History"
 topic: histor-009
 topicName: Medieval India
 weight: 3
-country: tnpsc
+country: india
 generated: "2026-03-25T17:00:00"
 lastUpdated: "2026-05-28"
 ---

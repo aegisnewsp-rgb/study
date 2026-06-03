@@ -2,12 +2,13 @@
 exam: ini-cet
 examName: INI CET (AIIMS PG)
 subject: pharmacology
-subjectName: Botany
+subjectName: "Pharmacology"
 topic: pharma-010
 topicName: Topic 10
 weight: 3
-country: ini
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 **Antimicrobial Agents: Quinolones, Aminoglycosides, and Tetracyclines** covers quinolones, aminoglycosides, and tetracyclines for INI CET (AIIMS PG).

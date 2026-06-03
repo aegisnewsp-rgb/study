@@ -3,11 +3,11 @@ exam: up-psc
 examName: UPPSC PCS
 lastUpdated: "2026-04-13"
 subject: economics
-subjectName: Quantitative Aptitude
+subjectName: "Economics"
 topic: econom-005
 topicName: Theory of Production
 weight: 3
-country: up
+country: india
 generated: "2026-03-25T17:00:00"
 ---
 

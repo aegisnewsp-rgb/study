@@ -2,12 +2,13 @@
 exam: uppsc
 examName: UPPSC RO/ARO
 subject: general-studies
-subjectName: General Studies
+subjectName: "General-Studies"
 topic: genera-020
 topicName: Topic 20
 weight: 3
-country: uppsc
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Topic 20

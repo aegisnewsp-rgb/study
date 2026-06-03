@@ -2,12 +2,13 @@
 exam: muet
 examName: MUET (Malaysia)
 subject: reading
-subjectName: Reading
+subjectName: "Reading (Paper 2)"
 topic: readin-006
-topicName: Topic 6
+topicName: "Understanding Arguments and Evaluating Evidence"
 weight: 3
-country: muet
+country: malaysia
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Understanding Arguments and Evaluating Evidence

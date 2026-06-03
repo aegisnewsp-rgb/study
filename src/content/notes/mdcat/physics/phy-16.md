@@ -11,6 +11,7 @@ topicName: Modern Physics
 weight: 4
 country: pakistan
 generated: "2026-03-24T08:32:08.090695"
+lastUpdated: 2026-03-24
 diagramPrompt: "Clean educational diagram showing Modern Physics with clear labels, white background, labeled arrows for forces/fields/vectors, color-coded components, exam-style illustration"
 
 

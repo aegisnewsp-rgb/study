@@ -2,12 +2,13 @@
 exam: fpsc-cce
 examName: FPSC CSS (Pakistan)
 subject: islamic-studies
-subjectName: General Studies
+subjectName: "Islamic Studies"
 topic: islami-002
 topicName: Ibadat (Worship) and Islamic Practices
 weight: 3
-country: fpsc
+country: pakistan
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Ibadat (Worship) and Islamic Practices

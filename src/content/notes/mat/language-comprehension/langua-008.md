@@ -2,12 +2,13 @@
 exam: mat
 examName: MAT
 subject: language-comprehension
-subjectName: Language Comprehension
+subjectName: "Language-Comprehension"
 topic: langua-008
 topicName: Critical Reasoning
 weight: 3
-country: mat
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Critical Reasoning

@@ -2,12 +2,13 @@
 exam: kpkpse
 examName: KPK PMS
 subject: pakistan-affairs
-subjectName: General Studies
+subjectName: "Pakistan Affairs"
 topic: pakist-003
-topicName: Topic 3
+topicName: "Pakistan's Key Institutions, Reforms, and the Road Ahead"
 weight: 3
-country: kpkpse
+country: pakistan
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Pakistan's Key Institutions, Reforms, and the Road Ahead

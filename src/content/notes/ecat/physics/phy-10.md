@@ -11,6 +11,7 @@ topicName: Electrostatics and Electric Field
 weight: 5
 country: pakistan
 generated: "2026-03-24T08:32:08.045605"
+lastUpdated: 2026-03-24
 diagramPrompt: "Clean educational diagram showing Electrostatics and Electric Field with clear labels, white background, labeled arrows for forces/fields/vectors, color-coded components, exam-style illustration"
 
 

@@ -9,8 +9,9 @@ tier: unified
 weight: 3
 weight_unit: "% of Phase 2 paper"
 diagramPrompt: "Draw an advanced flowchart of India's trade policy framework: WTO apex rules → bilateral FTAs → multilateral negotiations → export promotion councils → RBI forex management → current account sustainability — with India's trade data flows at each node"
-country: India
-generated: ai-v1
+country: india
+generated: 2026-05-26
+lastUpdated: 2026-05-26
 ---
 
 # India & International Trade

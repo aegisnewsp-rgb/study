@@ -6,8 +6,9 @@ subjectName: "Science"
 topic: scienc-005
 topicName: "Environment and Natural Resources"
 weight: 3
-country: uptet
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Environment and Natural Resources

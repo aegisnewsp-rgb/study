@@ -8,6 +8,7 @@ topicName: Amines
 weight: 3
 country: india
 generated: "2026-03-28T21:11:21"
+lastUpdated: 2026-03-28
 diagramPrompt: "A labelled diagram showing structure of primary, secondary, tertiary amines, quaternary ammonium salt, and key reactions like diazotisation. Clean white background."
 
 ---

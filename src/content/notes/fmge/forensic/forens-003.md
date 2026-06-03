@@ -2,12 +2,13 @@
 exam: fmge
 examName: FMGE
 subject: forensic
-subjectName: Botany
+subjectName: "Forensic"
 topic: forens-003
-topicName: Topic 3
+topicName: "Topic 3: Asphyxia — Hanging, Strangulation, Suffocation, Drowning, Signs of Asphyxial Death"
 weight: 3
-country: fmge
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Topic 3: Asphyxia — Hanging, Strangulation, Suffocation, Drowning, Signs of Asphyxial Death

@@ -2,12 +2,13 @@
 exam: sa-pharm
 examName: SAPC (South Africa)
 subject: chemistry
-subjectName: Organic Chemistry
+subjectName: "Chemistry"
 topic: chemis-002
 topicName: Stereochemistry and Isomerism
 weight: 3
-country: sa
+country: southafrica
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 ## Stereochemistry and Isomerism — Spatial Arrangement of Atoms

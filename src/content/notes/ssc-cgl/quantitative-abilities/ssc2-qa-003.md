@@ -1,5 +1,5 @@
 ---
-exam: ssc-cgl-tier2
+exam: ssc-cgl
 examName: SSC CGL Tier 2
 subject: quantitative-abilities
 subjectName: Quantitative Abilities
@@ -9,8 +9,9 @@ tier: unified
 weight: 2
 weight_unit: "% of Tier 2 paper"
 diagramPrompt: "A compound interest growth curve (exponential curve) overlaid with a simple interest straight line from the same starting point, showing the widening gap between years 1 through 5."
-country: India
-generated: ai-v1
+country: india
+generated: 2026-03-25
+lastUpdated: 2026-03-25
 ---
 
 # Percentage & Simple/Compound Interest

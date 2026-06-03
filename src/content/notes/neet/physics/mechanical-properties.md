@@ -8,6 +8,7 @@ topicName: Mechanical Properties of Solids
 weight: 3
 country: india
 generated: 2026-04-23
+lastUpdated: 2026-04-23
 ---
 
 # Mechanical Properties of Solids — NEET Physics Notes

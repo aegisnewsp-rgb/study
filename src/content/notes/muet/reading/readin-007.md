@@ -2,12 +2,13 @@
 exam: muet
 examName: MUET (Malaysia)
 subject: reading
-subjectName: Reading
+subjectName: "Reading (Paper 2)"
 topic: readin-007
-topicName: Topic 7
+topicName: "Interpreting Graphs and Visual Information in Passages"
 weight: 3
-country: muet
+country: malaysia
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Interpreting Graphs and Visual Information in Passages

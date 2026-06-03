@@ -4,10 +4,11 @@ examName: Qimiyah Exam (Saudi)
 subject: arabic
 subjectName: Arabic
 topic: arabic-006
-topicName: Topic 6
+topicName: "Arabic Reading Comprehension and نصّ Analysis"
 weight: 3
-country: qimiyah
+country: saudi
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 # Arabic Reading Comprehension and نصّ Analysis
 

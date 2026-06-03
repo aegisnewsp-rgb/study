@@ -6,8 +6,9 @@ subjectName: Sindh Studies
 topic: sindh--004
 topicName: Indus Valley Civilization
 weight: 3
-country: sppsc
+country: pakistan
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Indus Valley Civilization

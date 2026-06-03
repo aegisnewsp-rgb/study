@@ -11,6 +11,7 @@ topicName: Simple Word Problems Involving Operations
 weight: 5
 country: nigeria
 generated: "2026-03-24T08:32:07.592018"
+lastUpdated: 2026-03-24
 diagramPrompt: "Educational diagram illustrating Simple Word Problems Involving Operations with clear labels, white background, exam-style illustration"
 
 

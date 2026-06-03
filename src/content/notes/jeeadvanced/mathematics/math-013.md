@@ -11,6 +11,7 @@ topicName: 3D Geometry
 weight: 5
 country: india
 generated: "2026-03-24T08:32:07.939803"
+lastUpdated: 2026-03-24
 diagramPrompt: "Mathematical diagram showing 3D Geometry concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style"
 
 

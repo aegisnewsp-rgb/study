@@ -8,6 +8,7 @@ topicName: Fluid Mechanics
 weight: 3
 country: india
 generated: 2026-04-23
+lastUpdated: 2026-04-23
 ---
 
 # Fluid Mechanics — NEET Physics Notes

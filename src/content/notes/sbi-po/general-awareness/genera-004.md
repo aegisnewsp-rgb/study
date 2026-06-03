@@ -2,12 +2,13 @@
 exam: sbi-po
 examName: "SBI PO"
 subject: general-awareness
-subjectName: ('awareness', 'General Awareness')
+subjectName: "General Awareness"
 topic: genera-004
 topicName: "Government Budgeting and Taxation"
 weight: 3
-country: sbi
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Topic 4

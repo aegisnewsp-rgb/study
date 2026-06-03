@@ -2,12 +2,13 @@
 exam: gate
 examName: "GATE"
 subject: subject-specific
-subjectName: "Subject Specific"
+subjectName: "Subject-Specific"
 topic: subjec-002
 topicName: "Thermodynamic Cycles and Steam Turbines"
 weight: 3
-country: gate
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Thermodynamic Cycles and Steam Turbines

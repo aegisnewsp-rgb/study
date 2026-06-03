@@ -8,6 +8,7 @@ topicName: Transport in Living Things
 weight: 5
 country: nigeria
 generated: "2026-03-24T08:32:07.574792"
+lastUpdated: 2026-03-24
 diagramPrompt: "Detailed biological diagram of Transport in Living Things with labeled parts, accurate proportions, white background, color-coded tissues/organs, textbook quality"
 
 ---

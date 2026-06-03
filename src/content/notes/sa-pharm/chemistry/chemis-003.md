@@ -2,12 +2,13 @@
 exam: sa-pharm
 examName: SAPC (South Africa)
 subject: chemistry
-subjectName: Organic Chemistry
+subjectName: "Chemistry"
 topic: chemis-003
 topicName: Reaction Mechanisms — Nucleophilic Substitution and Elimination
 weight: 3
-country: sa
+country: southafrica
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 ## Reaction Mechanisms — Nucleophilic Substitution and Elimination

@@ -2,12 +2,13 @@
 exam: utbk
 examName: UTBK/SNPMTN (Indonesia)
 subject: indonesian
-subjectName: Bahasa Indonesia
+subjectName: "Indonesian Language (Literasi Bahasa Indonesia)"
 topic: indone-005
 topicName: Vocabulary and Word Formation
 weight: 3
-country: utbk
+country: indonesia
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 diagramPrompt: "Diagram showing Indonesian word formation process with affixes, root words, and meaning changes, white background, educational style"
 
 ---

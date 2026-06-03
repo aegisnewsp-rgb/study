@@ -8,6 +8,7 @@ topicName: Surface Chemistry
 weight: 2
 country: india
 generated: 2026-04-23
+lastUpdated: 2026-04-23
 ---
 
 # Surface Chemistry — NEET Chemistry Notes

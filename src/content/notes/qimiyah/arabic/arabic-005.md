@@ -4,10 +4,11 @@ examName: Qimiyah Exam (Saudi)
 subject: arabic
 subjectName: Arabic
 topic: arabic-005
-topicName: Topic 5
+topicName: "Past and Present Verb Tenses: فِعل ماضٍ وفعل مضارع"
 weight: 3
-country: qimiyah
+country: saudi
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 # Past and Present Verb Tenses: فِعل ماضٍ وفعل مضارع
 

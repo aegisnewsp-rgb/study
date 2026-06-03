@@ -1,5 +1,5 @@
 ---
-exam: ssc-cgl-tier2
+exam: ssc-cgl
 examName: SSC CGL Tier 2
 subject: quantitative-abilities
 subjectName: Quantitative Abilities
@@ -9,8 +9,9 @@ tier: unified
 weight: 2
 weight_unit: "% of Tier 2 paper"
 diagramPrompt: "A right-angled triangle ABC with right angle at B. Angle A is θ. Side BC is the side opposite to angle A, side AB is adjacent to angle A, and hypotenuse is AC. Label all three sides clearly and show the positions of sin θ, cos θ, and tan θ ratios."
-country: India
-generated: ai-v1
+country: india
+generated: 2026-03-25
+lastUpdated: 2026-03-25
 ---
 
 # Trigonometry
@@ -112,11 +113,11 @@ Step 5: Answer elimination works powerfully here. If asked for tan 15° and opti
 
 **Q1:** From a point on the ground, the angle of elevation of the top of a tower 60m tall is 30°. From another point on the ground 40√3 m away from the first point towards the tower, the angle of elevation is 60°. Find the height of the tower.
 
-Answer: 60 m — Working: From the second point, height/horizontal distance = tan 60° = √3, so height = (40√3) × √3 = 40 × 3 = 120m? Wait, correct approach: At second point, h/x = tan 60° = √3, so x = h/√3. At first point, h/(x + 40√3) = tan 30° = 1/√3. Substituting: h/[(h/√3) + 40√3] = 1/√3 → h√3 = h + 120 → 2h = 120 → h = 60m. ✓
+Answer: 60 m — Working: Let h be the height and x the horizontal distance from the nearer (second) point to the base. At the second point, h/x = tan 60° = √3, so x = h/√3. At the first point, which is 40√3 m farther back, h/(x + 40√3) = tan 30° = 1/√3. Substituting: h/[(h/√3) + 40√3] = 1/√3 → h√3 = h + 120 → 2h = 120 → h = 60 m. ✓
 
 **Q2:** If 0° < θ < 90° and sin 7θ = cos 5θ, find the value of 3θ.
 
-Answer: 135° — Working: sin 7θ = cos 5θ = sin(90° - 5θ). So either 7θ = 90° - 5θ → 12θ = 90° → θ = 7.5°. Then 3θ = 22.5°? No — try 7θ = 90° + 5θ (since sin x = sin y means x = y or x = 180° - y): 7θ = 90° + 5θ → 2θ = 90° → θ = 45°. Then 3θ = 135°. ✓
+Answer: 135° — Working: sin 7θ = cos 5θ = sin(90° - 5θ). Using sin x = sin y ⇒ x = 180° - y, take 7θ = 180° - (90° - 5θ) = 90° + 5θ, so 2θ = 90° → θ = 45°. Then 3θ = 135°. ✓
 
 ### Common Traps
 - **Forgetting the complementary angle identity:** sin(90° - θ) = cosθ and cot(90° - θ) = tanθ are extremely common in SSC — always look for complementary pairs in the problem before starting calculation.

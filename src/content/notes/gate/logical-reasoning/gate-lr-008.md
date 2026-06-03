@@ -9,8 +9,9 @@ tier: unified
 weight: 2
 weight_unit: "% of GA section"
 diagramPrompt: "Advanced clock diagram showing continuous hour hand movement, minute hand at various positions, and calendar leap year decision tree."
-country: India
-generated: ai-v1
+country: india
+generated: 2026-05-26
+lastUpdated: 2026-05-26
 ---
 
 # Calendar & Clock

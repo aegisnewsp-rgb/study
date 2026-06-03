@@ -8,6 +8,7 @@ topicName: Atomic Structure
 weight: 3
 country: india
 generated: "2026-03-28T21:08:36"
+lastUpdated: 2026-03-28
 diagramPrompt: "A labelled diagram showing the structure of an atom with nucleus (protons and neutrons), electron shells (K, L, M), orbitals, and energy levels. Use a clean white background."
 
 ---

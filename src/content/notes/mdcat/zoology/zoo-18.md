@@ -8,6 +8,7 @@ topicName: Ecology
 weight: 3
 country: pakistan
 generated: "2026-03-24T08:32:08.114688"
+lastUpdated: 2026-03-24
 diagramPrompt: "Educational diagram illustrating Ecology with clear labels, white background, exam-style illustration"
 
 

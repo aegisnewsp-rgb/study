@@ -4,10 +4,11 @@ examName: "RBI Grade B"
 subject: finance
 subjectName: "Finance"
 topic: financ-002
-topicName: "Topic 2"
+topicName: "Bonds and Debentures"
 weight: 3
-country: rbi
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Bonds and Debentures

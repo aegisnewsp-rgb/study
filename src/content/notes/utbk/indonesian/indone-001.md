@@ -2,12 +2,13 @@
 exam: utbk
 examName: UTBK/SNPMTN (Indonesia)
 subject: indonesian
-subjectName: Bahasa Indonesia
+subjectName: "Indonesian Language (Literasi Bahasa Indonesia)"
 topic: indone-001
 topicName: Reading Comprehension
 weight: 3
-country: utbk
+country: indonesia
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 diagramPrompt: "Diagram showing reading comprehension process with main idea, supporting details, and conclusion flow, white background, educational style"
 
 ---

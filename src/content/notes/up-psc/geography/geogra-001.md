@@ -2,12 +2,13 @@
 exam: up-psc
 examName: UPPSC PCS
 subject: geography
-subjectName: General Studies
+subjectName: "Geography"
 topic: geogra-001
 topicName: Physical Geography of India
 weight: 3
-country: up
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Physical Geography of India

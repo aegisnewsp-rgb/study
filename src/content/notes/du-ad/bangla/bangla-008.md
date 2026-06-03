@@ -6,8 +6,9 @@ subjectName: Bangla
 topic: bangla-008
 topicName: Modern Bengali Literature and Drama
 weight: 3
-country: du
+country: bangladesh
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Modern Bengali Literature and Drama

@@ -6,8 +6,9 @@ subjectName: Hindi
 topic: hindi-001
 topicName: "हिंदी व्याकरण: वर्ण और ध्वनि (Hindi Grammar: Letters and Sounds)"
 weight: 3
-country: uppsc
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # हिंदी व्याकरण: वर्ण और ध्वनि (Hindi Grammar: Letters and Sounds)

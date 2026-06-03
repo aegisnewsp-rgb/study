@@ -12,6 +12,7 @@ topicName: "Animals: Classification and Habitats"
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.606115"
+lastUpdated: 2026-03-24
 diagramPrompt: "Educational diagram illustrating Animals: Classification and Habitats with clear labels, white background, exam-style illustration"
 
 

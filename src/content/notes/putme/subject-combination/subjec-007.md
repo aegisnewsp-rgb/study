@@ -2,12 +2,13 @@
 exam: putme
 examName: Post-UTME (Nigeria)
 subject: subject-combination
-subjectName: Subject Combination
+subjectName: "Subject-Combination"
 topic: subjec-007
-topicName: Topic 7
+topicName: "Linear and Quadratic Equations"
 weight: 3
-country: putme
+country: nigeria
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 # Linear and Quadratic Equations
 

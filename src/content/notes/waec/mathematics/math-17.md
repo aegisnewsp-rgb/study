@@ -8,6 +8,7 @@ topicName: "Mensuration: Areas and Volumes"
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.625861"
+lastUpdated: 2026-03-24
 diagramPrompt: "Mathematical diagram showing Mensuration: Areas and Volumes concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style"
 
 ---
@@ -157,7 +158,7 @@ $$\text{Density} = \frac{\text{Mass}}{\text{Volume}}$$
 
 *Problem*: A metal sphere has radius 6 cm and density 8.5 g/cm³. Find its mass.
 $$V = \frac{4}{3}\pi(6)^3 = \frac{4}{3}\pi \times 216 = 288\pi \text{ cm}^3$$
-$$m = 8.5 \times 288\pi \approx 7696.9 \text{ g} \approx 7.7 \text{ kg}$$
+$$m = 8.5 \times 288\pi \approx 7693.7 \text{ g} \approx 7.7 \text{ kg}$$
 
 **Conversion Between Units:**
 
@@ -188,14 +189,10 @@ $$\text{Depth} = \frac{0.048}{0.48} = 0.1 \text{ m} = 10 \text{ cm}$$
 
 **Earthwork and Trench Problems:**
 
-*Problem*: A trench is 50 m long, 2 m wide, and 1.5 m deep. Earth is removed and spread to form a heap with a uniform depth of 0.2 m over an area of 100 m². Find the dimensions of the heap.
+*Problem*: A trench is 50 m long, 2 m wide, and 1.5 m deep. The earth removed is spread evenly to a uniform depth of 0.2 m. Find the area the spread earth covers.
 
 Volume of trench = $50 \times 2 \times 1.5 = 150$ m³
-This volume is spread to depth 0.2 m:
-$$\text{Area} = \frac{150}{0.2} = 750 \text{ m}^2$$
-But we already have 100 m²... wait, this means it would be 7.5 m deep over the 100 m² area, which doesn't make sense.
-
-Actually, the problem might be asking for the dimensions of the heap assuming it forms a cone or something similar. More likely: 150 m³ spread over 100 m² gives:
-$$\text{New depth} = \frac{150}{100} = 1.5 \text{ m}$$
+The same volume is spread to a depth of 0.2 m, so:
+$$\text{Area} = \frac{\text{Volume}}{\text{Depth}} = \frac{150}{0.2} = 750 \text{ m}^2$$
 
 ⚡ **WAEC Examination Patterns:** Calculate areas and volumes of standard shapes. Solve problems involving combined shapes. Apply similarity (scale factors for area and volume). Convert between different units. Solve density problems. Find surface areas of cones, spheres, and cylinders. Solve practical problems involving water tanks, earthworks, and storage.

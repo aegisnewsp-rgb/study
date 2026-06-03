@@ -252,7 +252,7 @@
     {
       "examId": "ecat",
       "examName": "ECAT (Engineering College Admission Test)",
-      "country": "india",
+      "country": "pakistan",
       "subjects": [
         {
           "id": "physics",
@@ -382,7 +382,7 @@
     {
       "examId": "hat-ug",
       "examName": "HAT-UG (HEC Aptitude Test - Undergraduate)",
-      "country": "india",
+      "country": "pakistan",
       "subjects": [
         {
           "id": "english",
@@ -456,7 +456,7 @@
     {
       "examId": "jamb",
       "examName": "JAMB UTME",
-      "country": "india",
+      "country": "nigeria",
       "subjects": [
         {
           "id": "english",
@@ -610,7 +610,7 @@
     {
       "examId": "lat",
       "examName": "LAT (Law Admission Test)",
-      "country": "india",
+      "country": "pakistan",
       "subjects": [
         {
           "id": "english",
@@ -739,7 +739,7 @@
     {
       "examId": "mdcat",
       "examName": "MDCAT",
-      "country": "india",
+      "country": "pakistan",
       "subjects": [
         {
           "id": "physics",
@@ -825,7 +825,7 @@
     {
       "examId": "nabteb",
       "examName": "NABTEB",
-      "country": "india",
+      "country": "nigeria",
       "subjects": [
         {
           "id": "english",
@@ -863,7 +863,7 @@
     {
       "examId": "nat-i",
       "examName": "NAT-I (NTS)",
-      "country": "india",
+      "country": "pakistan",
       "subjects": [
         {
           "id": "verbalReasoning",
@@ -902,7 +902,7 @@
     {
       "examId": "ncee",
       "examName": "NCEE (National Common Entrance Examination)",
-      "country": "india",
+      "country": "nigeria",
       "subjects": [
         {
           "id": "mathematics",
@@ -966,7 +966,7 @@
     {
       "examId": "neco",
       "examName": "NECO SSCE",
-      "country": "india",
+      "country": "nigeria",
       "subjects": [
         {
           "id": "english",
@@ -1373,7 +1373,7 @@
     {
       "examId": "waec",
       "examName": "WAEC WASSCE",
-      "country": "india",
+      "country": "nigeria",
       "subjects": [
         {
           "id": "english",

@@ -8,6 +8,7 @@ topicName: Quadratic Equations
 weight: 3
 country: india
 generated: "2026-03-29T05:06:11"
+lastUpdated: 2026-03-29
 ---
 # Quadratic Equations
 

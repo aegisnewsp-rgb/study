@@ -11,6 +11,7 @@ topicName: Business Correspondence Basics
 weight: 3
 country: nigeria
 generated: "2026-03-24T08:32:07.545587"
+lastUpdated: 2026-03-24
 diagramPrompt: "Educational diagram illustrating Business Correspondence Basics with clear labels, white background, exam-style illustration"
 
 

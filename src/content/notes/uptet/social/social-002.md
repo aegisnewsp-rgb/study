@@ -6,8 +6,9 @@ subjectName: "Social Studies"
 topic: social-002
 topicName: "Indian Constitution: Preamble and Fundamental Rights"
 weight: 3
-country: uptet
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Indian Constitution: Preamble and Fundamental Rights

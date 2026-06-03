@@ -6,8 +6,9 @@ subjectName: Academic Potential
 topic: academ-008
 topicName: Geometry Basics
 weight: 3
-country: uii
+country: indonesia
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Geometry Basics
@@ -111,9 +112,8 @@ Volume scale factor = (scale factor)³.
 
 Angle chasing involves using known angle relationships to find unknown angles step by step.
 
-Example: In triangle ABC, D is on AC. Lines AB and CD are extended to meet at E, with AB ⟂ CD. If ∠DBC = 30° and ∠BCA = 50°, find ∠CDE.
-∠BCD = 50° (alternate interior, AB ∥ CD? Wait, need to check configuration. Assuming AB is a line through B intersecting CD at right angle at some point — draw the diagram.)
-Using the rule: exterior angle of a triangle = sum of opposite interior angles. ∠CDE is an exterior angle of triangle BCD (if D is on line extended from C). So ∠CDE = ∠DBC + ∠BCD = 30° + 50° = 80°. ✓
+Example: In triangle ABC, D lies on AC, and line CD is extended to E. If ∠DBC = 30° and ∠BCA = 50°, find ∠CDE.
+Because D is on AC, ∠BCD = ∠BCA = 50°. In triangle BCD, ∠CDE is the exterior angle at D, so it equals the sum of the two opposite interior angles: ∠CDE = ∠DBC + ∠BCD = 30° + 50° = 80°.
 
 **Proof: Sum of Interior Angles of a Polygon**
 

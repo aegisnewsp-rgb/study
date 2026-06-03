@@ -11,6 +11,7 @@ topicName: Light and Sound
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.607999"
+lastUpdated: 2026-03-24
 diagramPrompt: "Educational diagram illustrating Light and Sound with clear labels, white background, exam-style illustration"
 
 

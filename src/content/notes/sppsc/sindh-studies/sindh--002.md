@@ -6,8 +6,9 @@ subjectName: Sindh Studies
 topic: sindh--002
 topicName: History of Sindh (Ancient & Medieval)
 weight: 3
-country: sppsc
+country: pakistan
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # History of Sindh (Ancient & Medieval)

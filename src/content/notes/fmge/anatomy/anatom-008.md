@@ -4,10 +4,11 @@ examName: FMGE
 subject: anatomy
 subjectName: Anatomy
 topic: anatom-008
-topicName: Topic 8
+topicName: "Embryology — Germ Layer Formation, Neural Crest, Pharyngeal Apparatus & Limb Development"
 weight: 3
-country: fmge
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Embryology — Germ Layer Formation, Neural Crest, Pharyngeal Apparatus & Limb Development

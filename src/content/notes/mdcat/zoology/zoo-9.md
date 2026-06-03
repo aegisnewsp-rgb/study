@@ -8,6 +8,7 @@ topicName: Homeostasis
 weight: 4
 country: pakistan
 generated: "2026-03-24T08:32:08.111673"
+lastUpdated: 2026-03-24
 diagramPrompt: "Clean educational diagram illustrating Homeostasis with clear labels, white background, labeled arrows showing feedback loop, exam-style illustration"
 
 

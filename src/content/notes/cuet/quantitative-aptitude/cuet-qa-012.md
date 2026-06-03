@@ -1,5 +1,5 @@
 ---
-exam: cuet-ug
+exam: cuet
 examName: CUET UG
 subject: quantitative-aptitude
 subjectName: Quantitative Aptitude
@@ -9,8 +9,9 @@ tier: unified
 weight: 2
 weight_unit: "% of Section II"
 diagramPrompt: "Draw a probability tree diagram showing two coin tosses. Each toss branches into Head and Tail. Label each end path with its probability. Show P(At least one Head) calculation using complement: 1 - P(no heads) = 1 - (1/2 × 1/2) = 3/4."
-country: India
-generated: ai-v1
+country: india
+generated: 2026-03-25
+lastUpdated: 2026-03-25
 ---
 
 # Probability & Statistics

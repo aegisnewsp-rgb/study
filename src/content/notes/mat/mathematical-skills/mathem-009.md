@@ -2,12 +2,13 @@
 exam: mat
 examName: MAT
 subject: mathematical-skills
-subjectName: Mathematical Skills
+subjectName: "Mathematical-Skills"
 topic: mathem-009
 topicName: Ratio, Proportion & Partnership
 weight: 3
-country: mat
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Ratio, Proportion & Partnership

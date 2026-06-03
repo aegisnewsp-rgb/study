@@ -2,11 +2,11 @@
 exam: accagl
 examName: ACCA/CA Pakistan
 subject: accounting
-subjectName: Financial Accounting
+subjectName: "Accounting"
 topic: accoun-002
 topicName: Journal Entries
 weight: 3
-country: accagl
+country: pakistan
 generated: "2026-03-25T17:00:00"
 lastUpdated: "2026-05-23"
 ---

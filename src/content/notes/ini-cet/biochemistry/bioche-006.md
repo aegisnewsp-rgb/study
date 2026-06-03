@@ -6,8 +6,9 @@ subjectName: Biochemistry
 topic: bioche-006
 topicName: Bioenergetics and Metabolic Integration
 weight: 3
-country: ini
-generated: ai-v1
+country: india
+generated: 2026-03-25
+lastUpdated: 2026-03-25
 ---
 
 # Bioenergetics and Metabolic Integration — Energy Principles, ATP, and Integration of Metabolism

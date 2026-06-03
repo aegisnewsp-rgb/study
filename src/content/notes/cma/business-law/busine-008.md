@@ -2,12 +2,13 @@
 exam: cma
 examName: CMA Foundation
 subject: business-law
-subjectName: Business Laws
+subjectName: "Business Law"
 topic: busine-008
 topicName: Sale of Goods Act and Partnership Act
 weight: 3
-country: cma
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Sale of Goods Act, 1930 and Partnership Act, 1932

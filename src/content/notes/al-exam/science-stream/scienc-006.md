@@ -2,12 +2,13 @@
 exam: al-exam
 examName: A/L Examination (Sri Lanka)
 subject: science-stream
-subjectName: Science Stream
+subjectName: "Science-Stream"
 topic: scienc-006
 topicName: "Human Physiology and Body Systems"
 weight: 3
-country: al
+country: srilanka
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Human Physiology and Body Systems

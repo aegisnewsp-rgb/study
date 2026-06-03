@@ -2,12 +2,13 @@
 exam: bpsc
 examName: BPSC
 subject: geography
-subjectName: General Studies
+subjectName: "Geography"
 topic: geogra-002
-topicName: Topic 2
+topicName: "Climate and Weather Systems"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Climate and Weather Systems

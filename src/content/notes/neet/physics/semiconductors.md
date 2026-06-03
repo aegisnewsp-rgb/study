@@ -8,6 +8,7 @@ topicName: Semiconductor Electronics
 weight: 3
 country: india
 generated: 2026-04-23
+lastUpdated: 2026-04-23
 ---
 
 # Semiconductor Electronics — NEET Physics Notes

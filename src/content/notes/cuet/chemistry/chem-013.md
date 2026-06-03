@@ -11,6 +11,7 @@ topicName: Colloidal
 weight: 2
 country: india
 generated: "2026-03-24T08:32:07.841179"
+lastUpdated: 2026-03-24
 diagramPrompt: "Clear scientific diagram of Colloidal with atom labels, molecular structure, reaction arrows, white background, color-coded bonds and groups, exam textbook style"
 
 

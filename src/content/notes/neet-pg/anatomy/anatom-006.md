@@ -2,12 +2,13 @@
 exam: neet-pg
 examName: NEET PG
 subject: anatomy
-subjectName: Botany
+subjectName: "Anatomy"
 topic: anatom-006
-topicName: Topic 6
+topicName: "Cardiovascular System"
 weight: 3
-country: neet
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Cardiovascular System

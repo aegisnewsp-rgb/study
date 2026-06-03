@@ -6,8 +6,9 @@ subjectName: Academic Potential
 topic: academ-006
 topicName: Basic Algebra and Equations
 weight: 3
-country: uii
+country: indonesia
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Basic Algebra and Equations

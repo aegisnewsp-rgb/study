@@ -2,11 +2,11 @@
 exam: ca-found
 examName: CA Foundation
 subject: accounting
-subjectName: Principles of Accounting
+subjectName: "Accounting"
 topic: accoun-006
 topicName: Final Accounts
 weight: 3
-country: ca
+country: india
 generated: "2026-03-25T17:00:00"
 lastUpdated: "2026-05-24"
 ---

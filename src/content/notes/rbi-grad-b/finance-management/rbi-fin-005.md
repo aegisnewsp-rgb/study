@@ -9,8 +9,9 @@ tier: unified
 weight: 3
 weight_unit: "% of Phase 2 paper"
 diagramPrompt: "Advanced multi-panel diagram: (Top-left) Efficient frontier derivation showing hyperbola in risk-return space with individual assets inside. (Top-right) CML tangent to efficient frontier with risk-free rate marked on y-axis. (Bottom-left) SML with beta on x-axis, expected return on y-axis, market portfolio at (1, Rm). (Bottom-right) Diversification benefit chart showing portfolio risk declining as number of stocks increases, asymptotically approaching systematic risk level."
-country: India
-generated: ai-v1
+country: india
+generated: 2026-05-26
+lastUpdated: 2026-05-26
 ---
 
 # Portfolio Management

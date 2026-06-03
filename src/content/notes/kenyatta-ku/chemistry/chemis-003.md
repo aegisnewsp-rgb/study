@@ -2,12 +2,13 @@
 exam: kenyatta-ku
 examName: Kenyatta University (Kenya)
 subject: chemistry
-subjectName: ('chemistry', 'Chemistry')
+subjectName: "Chemistry"
 topic: chemis-003
-topicName: Topic 3
+topicName: "Alkenes: Structure, Isomerism, and Addition Reactions"
 weight: 3
-country: kenyatta
+country: kenya
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Alkenes: Structure, Isomerism, and Addition Reactions

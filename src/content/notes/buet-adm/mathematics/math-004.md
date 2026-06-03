@@ -9,8 +9,9 @@ subjectName: Mathematics
 topic: math-004
 topicName: Calculus
 weight: 5
-country: bd
+country: bangladesh
 generated: "2026-04-17T23:23:00.000000"
+lastUpdated: 2026-04-17
 diagramPrompt: "Clean educational diagram showing Calculus derivative and integral with clear labels, white background, exam-style illustration"
 
 

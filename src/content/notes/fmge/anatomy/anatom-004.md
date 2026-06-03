@@ -4,10 +4,11 @@ examName: FMGE
 subject: anatomy
 subjectName: Anatomy
 topic: anatom-004
-topicName: Topic 4
+topicName: "Abdomen — Stomach, Liver, Pancreas, Small and Large Intestine, Peritoneum"
 weight: 3
-country: fmge
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Abdomen — Stomach, Liver, Pancreas, Small and Large Intestine, Peritoneum

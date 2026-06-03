@@ -9,8 +9,9 @@ tier: unified
 weight: 2
 weight_unit: "% of QA section"
 diagramPrompt: "A prime factorization tree diagram showing how 360 breaks down into 2³ × 3² × 5, with visual branches showing the division process"
-country: India
-generated: ai-v1
+country: india
+generated: 2026-05-26
+lastUpdated: 2026-05-26
 ---
 
 # Number System (HCF/LCM, Divisibility)

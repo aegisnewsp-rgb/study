@@ -4,10 +4,11 @@ examName: INI CET (AIIMS PG)
 subject: physiology
 subjectName: Physiology
 topic: physio-006
-topicName: Respiratory System
+topicName: "Respiratory Mechanics and Gas Exchange"
 weight: 3
-country: ini
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 **Respiratory Mechanics and Gas Exchange** covers respiratory mechanics and gas exchange for INI CET (AIIMS PG).

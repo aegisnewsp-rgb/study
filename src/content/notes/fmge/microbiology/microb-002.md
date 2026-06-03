@@ -4,10 +4,11 @@ examName: FMGE
 subject: microbiology
 subjectName: Microbiology
 topic: microb-002
-topicName: Topic 2
+topicName: "Topic 2: Bacterial Growth, Nutrition & Culture Media"
 weight: 3
-country: fmge
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Topic 2: Bacterial Growth, Nutrition & Culture Media

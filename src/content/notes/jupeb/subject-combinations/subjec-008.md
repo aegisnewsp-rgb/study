@@ -2,12 +2,13 @@
 exam: jupeb
 examName: JUPEB (Nigeria)
 subject: subject-combinations
-subjectName: Subject Combinations
+subjectName: "Subject-Combinations"
 topic: subjec-008
 topicName: Topic 8
 weight: 3
-country: jupeb
+country: nigeria
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 Engineering Direct Entry subject requirements through JUPEB are specific and vary by institution and engineering discipline. A strategic subject combination is essential for gaining admission into competitive Engineering programmes at Nigerian universities.

@@ -2,12 +2,13 @@
 exam: kpsc
 examName: KPSC KAS
 subject: karnataka-specific
-subjectName: Karnataka Specific
+subjectName: "Karnataka-Specific"
 topic: karnat-005
-topicName: Topic 5
+topicName: "Karnataka Medieval History: Kalachakra, Jain/Buddhist Centres, Hoysala, and Vijayanagara"
 weight: 3
-country: kpsc
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Karnataka Medieval History: Kalachakra, Jain/Buddhist Centres, Hoysala, and Vijayanagara

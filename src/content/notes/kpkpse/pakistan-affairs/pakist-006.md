@@ -2,12 +2,13 @@
 exam: kpkpse
 examName: KPK PMS
 subject: pakistan-affairs
-subjectName: General Studies
+subjectName: "Pakistan Affairs"
 topic: pakist-006
 topicName: Constitution of Pakistan
 weight: 3
-country: kpkpse
+country: pakistan
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Constitution of Pakistan

@@ -4,10 +4,11 @@ examName: "GATE"
 subject: general-aptitude
 subjectName: "General Aptitude"
 topic: genera-008
-topicName: "Topic 8"
+topicName: "Permutation, Combination and Probability"
 weight: 3
-country: gate
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Permutation, Combination and Probability

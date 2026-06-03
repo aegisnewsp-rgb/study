@@ -6,7 +6,7 @@ subjectName: Indian Polity
 topic: indian-005
 topicName: Parliament
 weight: 3
-country: up
+country: india
 lastUpdated: "2026-04-14"
 generated: "2026-03-25T17:00:00"
 ---

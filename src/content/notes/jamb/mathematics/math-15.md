@@ -6,8 +6,9 @@ subjectName: Mathematics
 topic: math-15
 topicName: Matrices and Determinants
 weight: 3
-country: ng
+country: nigeria
 generated: "2026-03-24T08:32:07.738865"
+lastUpdated: 2026-03-24
 diagramPrompt: "Matrix diagram showing 2x2 and 3x3 matrix structures with labeled rows and columns, determinant calculation illustration, clean black and white style"
 ---
 

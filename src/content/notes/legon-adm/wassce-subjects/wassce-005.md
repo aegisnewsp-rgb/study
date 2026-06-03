@@ -2,12 +2,13 @@
 exam: legon-adm
 examName: Legon Admissions (Ghana)
 subject: wassce-subjects
-subjectName: Wassce Subjects
+subjectName: "Wassce-Subjects"
 topic: wassce-005
 topicName: Indices and Logarithms
 weight: 3
-country: legon
+country: ghana
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Indices and Logarithms

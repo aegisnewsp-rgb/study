@@ -2,11 +2,11 @@
 exam: muet
 examName: MUET (Malaysia)
 subject: speaking
-subjectName: Speaking
+subjectName: "Speaking (Paper 3)"
 topic: speaki-008
 topicName: Topic 8
 weight: 3
-country: muet
+country: malaysia
 generated: "2026-03-25T17:00:00"
 lastUpdated: "2026-05-27"
 ---

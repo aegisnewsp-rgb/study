@@ -8,6 +8,7 @@ topicName: Thermal Properties of Matter
 weight: 4
 country: india
 generated: 2026-04-23
+lastUpdated: 2026-04-23
 ---
 
 # Thermal Properties of Matter — NEET Physics Notes

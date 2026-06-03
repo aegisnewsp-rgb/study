@@ -9,8 +9,9 @@ subjectName: Mathematics
 topic: math-003
 topicName: Trigonometry
 weight: 4
-country: kenyatta
+country: kenya
 generated: "2026-04-17T23:37:00.000000"
+lastUpdated: 2026-04-17
 diagramPrompt: "Clean educational diagram showing Trigonometry unit circle with clear labels, white background, exam-style illustration"
 
 

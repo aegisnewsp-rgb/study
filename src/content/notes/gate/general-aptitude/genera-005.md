@@ -4,10 +4,11 @@ examName: "GATE"
 subject: general-aptitude
 subjectName: "General Aptitude"
 topic: genera-005
-topicName: "Topic 5"
+topicName: "Geometry and Mensuration"
 weight: 3
-country: gate
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Geometry and Mensuration

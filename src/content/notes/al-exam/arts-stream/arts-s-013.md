@@ -2,12 +2,13 @@
 exam: al-exam
 examName: A/L Examination (Sri Lanka)
 subject: arts-stream
-subjectName: Arts Stream
+subjectName: "Arts-Stream"
 topic: arts-s-013
 topicName: Media Literacy and Digital Communication
 weight: 3
-country: al
+country: srilanka
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Media Literacy and Digital Communication

@@ -6,8 +6,9 @@ subjectName: Verbal
 topic: verbal-001
 topicName: Parts of Speech and Sentence Structure
 weight: 3
-country: nmat
+country: philippines
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Parts of Speech and Sentence Structure

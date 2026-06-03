@@ -2,12 +2,13 @@
 exam: mat
 examName: MAT (Management Aptitude Test)
 subject: data-analysis
-subjectName: Data Interpretation & Logical Reasoning
+subjectName: "Data-Analysis"
 topic: data-a-006
 topicName: Mixed Graphs & Data Fusion
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 diagramPrompt: "A compound DI page showing a pie chart for market share, a bar chart for quarterly revenue, and a line graph for growth rate overlaid on the same page, with a data table listing exact figures for all quarters, styled as a comprehensive MAT exam passage requiring cross-referencing between different chart formats."
 
 ---

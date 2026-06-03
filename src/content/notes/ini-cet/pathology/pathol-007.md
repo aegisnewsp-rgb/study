@@ -6,8 +6,9 @@ subjectName: Pathology
 topic: pathol-007
 topicName: Immunopathology
 weight: 3
-country: ini
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 ### 🟢 Lite — Quick Review (1h–1d)

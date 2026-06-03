@@ -9,8 +9,9 @@ tier: unified
 weight: 3
 weight_unit: "% of Phase 2 paper"
 diagramPrompt: "Draw an advanced financial statement analysis pyramid: (top) ROE as apex; (second tier) three pillars of DuPont: Net Profit Margin (efficiency), Asset Turnover (productivity), Equity Multiplier (leverage); (third tier) beneath each pillar show sub-ratios: for Margin → Gross Margin, Operating Margin, Net Margin; for Turnover → Receivable Turnover, Inventory Turnover, Asset Turnover; for Leverage → Debt Ratio, Interest Coverage; (bottom) base items from Income Statement and Balance Sheet that feed into each ratio. Show arrows from raw numbers to ratios to ROE."
-country: India
-generated: ai-v1
+country: india
+generated: 2026-05-26
+lastUpdated: 2026-05-26
 ---
 
 # Balance Sheet & Financial Statement Analysis

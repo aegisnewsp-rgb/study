@@ -9,8 +9,9 @@ subjectName: Mathematics
 topic: math-004
 topicName: Probability and Statistics
 weight: 4
-country: kenyatta
+country: kenya
 generated: "2026-04-17T23:38:00.000000"
+lastUpdated: 2026-04-17
 diagramPrompt: "Clean educational diagram showing Probability Statistics with clear labels, white background, exam-style illustration"
 
 

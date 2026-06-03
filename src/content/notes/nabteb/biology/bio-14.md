@@ -11,6 +11,7 @@ topicName: Growth and Development
 weight: 3
 country: nigeria
 generated: "2026-03-24T08:32:07.577886"
+lastUpdated: 2026-03-24
 diagramPrompt: "Detailed biological diagram of Growth and Development with labeled parts, accurate proportions, white background, color-coded tissues/organs, textbook quality"
 
 

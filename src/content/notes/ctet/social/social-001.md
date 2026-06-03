@@ -2,12 +2,13 @@
 exam: ctet
 examName: CTET
 subject: social
-subjectName: Social
+subjectName: "Social Studies"
 topic: social-001
 topicName: The Earth and the Solar System
 weight: 3
-country: ctet
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # The Earth and the Solar System

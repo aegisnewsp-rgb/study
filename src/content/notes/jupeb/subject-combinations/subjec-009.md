@@ -2,12 +2,13 @@
 exam: jupeb
 examName: JUPEB (Nigeria)
 subject: subject-combinations
-subjectName: Subject Combinations
+subjectName: "Subject-Combinations"
 topic: subjec-009
 topicName: Topic 9
 weight: 3
-country: jupeb
+country: nigeria
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 Business and Management Subject Combinations through JUPEB prepare students for careers in Accounting, Business Administration, Marketing, Banking and Finance, Insurance, and Entrepreneurship studies at Nigerian universities.

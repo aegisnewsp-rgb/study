@@ -2,12 +2,13 @@
 exam: neet-pg
 examName: NEET PG
 subject: anatomy
-subjectName: Botany
+subjectName: "Anatomy"
 topic: anatom-001
-topicName: Topic 1
+topicName: "Cell Structure and General Anatomy"
 weight: 3
-country: neet
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Cell Structure and General Anatomy

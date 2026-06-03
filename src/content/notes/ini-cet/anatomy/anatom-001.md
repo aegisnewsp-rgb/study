@@ -6,8 +6,9 @@ subjectName: Anatomy
 topic: anatom-001
 topicName: Cell Biology
 weight: 3
-country: ini
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Cell Biology — The Fundamental Unit of Life

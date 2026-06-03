@@ -6,7 +6,7 @@ subjectName: Economics
 topic: econom-003
 topicName: Elasticity
 weight: 3
-country: up
+country: india
 lastUpdated: "2026-04-13"
 generated: "2026-03-25T17:00:00"
 ---

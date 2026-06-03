@@ -8,6 +8,7 @@ topicName: Communication Systems
 weight: 2
 country: india
 generated: 2026-04-23
+lastUpdated: 2026-04-23
 ---
 
 # Communication Systems — NEET Physics Notes

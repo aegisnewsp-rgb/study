@@ -2,12 +2,13 @@
 exam: gate
 examName: "GATE"
 subject: subject-specific
-subjectName: "Subject Specific"
+subjectName: "Subject-Specific"
 topic: subjec-019
-topicName: "Topic 19"
+topicName: "Electrical Machines — Transformers"
 weight: 3
-country: gate
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Electrical Machines — Transformers

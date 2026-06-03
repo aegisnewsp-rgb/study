@@ -2,12 +2,13 @@
 exam: fmge
 examName: FMGE
 subject: pathology
-subjectName: Botany
+subjectName: "Pathology"
 topic: pathol-003
-topicName: Topic 3
+topicName: "Neoplasia"
 weight: 3
-country: fmge
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Neoplasia

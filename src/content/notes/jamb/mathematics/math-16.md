@@ -6,8 +6,9 @@ subjectName: Mathematics
 topic: math-16
 topicName: Vectors in Two Dimensions
 weight: 3
-country: ng
+country: nigeria
 generated: "2026-03-24T08:32:07.739451"
+lastUpdated: 2026-03-24
 diagramPrompt: "Vector diagram in 2D showing vector components, magnitude and direction, angle with horizontal axis, head-to-tail addition method, clean black and white style"
 ---
 

@@ -2,12 +2,13 @@
 exam: bpsc
 examName: BPSC
 subject: history
-subjectName: General Studies
+subjectName: "History"
 topic: histor-002
 topicName: Mauryan & Gupta Empire
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Mauryan & Gupta Empire

@@ -2,12 +2,13 @@
 exam: gate
 examName: "GATE"
 subject: subject-specific
-subjectName: "Subject Specific"
+subjectName: "Subject-Specific"
 topic: subjec-017
-topicName: "Topic 17"
+topicName: "Control Systems — Transfer Function and Block Diagrams"
 weight: 3
-country: gate
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Control Systems — Transfer Function and Block Diagrams

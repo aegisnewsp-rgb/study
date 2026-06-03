@@ -4,10 +4,11 @@ examName: INI CET (AIIMS PG)
 subject: physiology
 subjectName: Physiology
 topic: physio-010
-topicName: Central Nervous System
+topicName: "Endocrine Physiology: Hypothalamic-Pituitary Axis"
 weight: 3
-country: ini
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 **Endocrine Physiology: Hypothalamic-Pituitary Axis** covers endocrine physiology — the hypothalamic-pituitary axis for INI CET (AIIMS PG).

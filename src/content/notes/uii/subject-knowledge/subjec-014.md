@@ -6,8 +6,9 @@ subjectName: Subject Knowledge
 topic: subjec-014
 topicName: Probability & Counting Principles
 weight: 3
-country: uii
+country: indonesia
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 diagramPrompt: "Tree diagram showing two coin tosses, branching to HH, HT, TH, TT with probability 1/4 each at each final outcome, and a separate diagram showing 5 points on a circle with all chords drawn connecting them"
 
 ---

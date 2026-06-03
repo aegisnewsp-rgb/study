@@ -2,12 +2,13 @@
 exam: muet
 examName: MUET (Malaysia)
 subject: speaking
-subjectName: Speaking
+subjectName: "Speaking (Paper 3)"
 topic: speaki-004
-topicName: Topic 4
+topicName: "Task 2: Group Discussion — Roles and Strategies"
 weight: 3
-country: muet
+country: malaysia
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Task 2: Group Discussion — Roles and Strategies

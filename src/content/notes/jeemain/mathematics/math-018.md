@@ -11,6 +11,7 @@ topicName: Conic Sections
 weight: 4
 country: india
 generated: "2026-04-17T22:57:00.000000"
+lastUpdated: 2026-04-17
 diagramPrompt: "Clean educational diagram showing Conic Sections parabola ellipse hyperbola with clear labels, white background, labeled foci directrix axes, exam-style illustration"
 
 

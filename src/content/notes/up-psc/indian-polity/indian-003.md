@@ -7,7 +7,7 @@ topic: indian-003
 topicName: Directive Principles
 description: Directive Principles of State Policy — DPSP articles, classifications, features, and significance for UPPSC PCS Indian Polity.
 weight: 3
-country: up
+country: india
 lastUpdated: "2026-04-14"
 tier: notes
 generated: "2026-03-25T17:00:00"

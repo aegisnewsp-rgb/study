@@ -2,12 +2,13 @@
 exam: jupeb
 examName: JUPEB (Nigeria)
 subject: subject-combinations
-subjectName: Subject Combinations
+subjectName: "Subject-Combinations"
 topic: subjec-001
 topicName: Topic 1
 weight: 3
-country: jupeb
+country: nigeria
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 The Joint Universities Preliminary Examinations Board (JUPEB) is a national examination body in Nigeria that runs a one-year programme leading to the award of the Joint Universities Preliminary Examinations Board certificate. This certificate qualifies candidates for Direct Entry admission into Nigerian universities and some foreign institutions, bypassing the traditional UTME (JAMB) requirement for a four-year first degree programme.

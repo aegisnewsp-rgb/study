@@ -8,6 +8,7 @@ topicName: Kinematics
 weight: 5
 country: pakistan
 generated: "2026-03-24T08:32:08.079991"
+lastUpdated: 2026-03-24
 diagramPrompt: "Clean educational diagram showing Kinematics with clear labels, white background, labeled arrows for forces/fields/vectors, color-coded components, exam-style illustration"
 
 

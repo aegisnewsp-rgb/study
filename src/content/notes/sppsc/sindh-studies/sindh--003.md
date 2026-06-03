@@ -6,8 +6,9 @@ subjectName: Sindh Studies
 topic: sindh--003
 topicName: British Raj in Sindh
 weight: 3
-country: sppsc
+country: pakistan
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # British Raj in Sindh

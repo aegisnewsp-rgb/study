@@ -6,8 +6,9 @@ subjectName: Physiology
 topic: physio-001
 topicName: General Physiology and Cell Biology
 weight: 3
-country: neet
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # General Physiology and Cell Biology

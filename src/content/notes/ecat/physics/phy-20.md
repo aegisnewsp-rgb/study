@@ -11,6 +11,7 @@ topicName: Electronics and Semiconductors
 weight: 3
 country: pakistan
 generated: "2026-03-24T08:32:08.053591"
+lastUpdated: 2026-03-24
 diagramPrompt: "Clean educational diagram showing Electronics and Semiconductors with clear labels, white background, labeled arrows for forces/fields/vectors, color-coded components, exam-style illustration"
 
 

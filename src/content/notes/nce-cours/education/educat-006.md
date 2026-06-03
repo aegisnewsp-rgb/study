@@ -4,10 +4,11 @@ examName: NCE (Nigeria)
 subject: education
 subjectName: Education
 topic: educat-006
-topicName: Topic 6
+topicName: "Educational Technology"
 weight: 3
-country: nce
+country: nigeria
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Educational Technology

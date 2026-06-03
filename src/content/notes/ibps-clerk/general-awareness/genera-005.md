@@ -6,8 +6,9 @@ subjectName: General Awareness
 topic: genera-005
 topicName: Government Banking Schemes
 weight: 3
-country: ibps
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Government Banking Schemes

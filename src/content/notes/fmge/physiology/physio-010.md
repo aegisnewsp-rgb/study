@@ -2,12 +2,13 @@
 exam: fmge
 examName: FMGE
 subject: physiology
-subjectName: Botany
+subjectName: "Physiology"
 topic: physio-010
-topicName: Topic 10
+topicName: "Special Senses and Neurophysiology"
 weight: 3
-country: fmge
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Special Senses and Neurophysiology

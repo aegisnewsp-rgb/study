@@ -6,8 +6,9 @@ subjectName: Indian Polity
 topic: indian-004
 topicName: Directive Principles of State Policy
 weight: 3
-country: kpsc
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Directive Principles of State Policy

@@ -12,6 +12,7 @@ topicName: "Matter: States and Properties"
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.606501"
+lastUpdated: 2026-03-24
 diagramPrompt: "Educational diagram illustrating Matter: States and Properties with clear labels, white background, exam-style illustration"
 
 

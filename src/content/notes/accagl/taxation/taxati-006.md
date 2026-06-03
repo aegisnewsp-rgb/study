@@ -2,12 +2,13 @@
 exam: accagl
 examName: ACCA/CA Pakistan
 subject: taxation
-subjectName: Financial Accounting
+subjectName: "Taxation"
 topic: taxati-006
 topicName: Tax Administration & Returns
 weight: 3
-country: accagl
+country: pakistan
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Tax Administration & Returns

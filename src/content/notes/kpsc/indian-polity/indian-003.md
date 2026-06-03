@@ -6,8 +6,9 @@ subjectName: Indian Polity
 topic: indian-003
 topicName: Fundamental Rights (Articles 12-35)
 weight: 3
-country: kpsc
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Fundamental Rights (Articles 12-35)

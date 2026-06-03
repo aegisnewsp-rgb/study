@@ -11,6 +11,7 @@ topicName: Factors and Multiples (HCF and LCM)
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.580301"
+lastUpdated: 2026-03-24
 diagramPrompt: "Mathematical diagram showing Factors and Multiples (HCF and LCM) concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style"
 
 

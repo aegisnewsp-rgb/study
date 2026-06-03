@@ -4,10 +4,11 @@ examName: "RBI Grade B"
 subject: finance
 subjectName: "Finance"
 topic: financ-001
-topicName: "Topic 1"
+topicName: "Financial Markets and Institutions"
 weight: 3
-country: rbi
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Financial Markets and Institutions

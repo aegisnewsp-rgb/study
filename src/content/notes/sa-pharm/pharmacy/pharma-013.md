@@ -6,8 +6,9 @@ subjectName: Pharmacy
 topic: pharma-013
 topicName: Central Nervous System Drugs
 weight: 3
-country: sa
+country: southafrica
 generated: "2026-04-09T20:00:00"
+lastUpdated: 2026-04-09
 ---
 
 # Central Nervous System Drugs

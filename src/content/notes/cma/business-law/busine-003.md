@@ -2,12 +2,13 @@
 exam: cma
 examName: CMA Foundation
 subject: business-law
-subjectName: Business Laws
+subjectName: "Business Law"
 topic: busine-003
 topicName: The Partnership Act, 1932
 weight: 3
-country: cma
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # The Partnership Act, 1932

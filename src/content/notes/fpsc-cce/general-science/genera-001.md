@@ -2,12 +2,13 @@
 exam: fpsc-cce
 examName: FPSC CSS (Pakistan)
 subject: general-science
-subjectName: General Awareness
+subjectName: "General Science"
 topic: genera-001
 topicName: Pakistan Geography and Physical Features
 weight: 3
-country: fpsc
+country: pakistan
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Pakistan Geography and Physical Features

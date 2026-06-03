@@ -2,12 +2,13 @@
 exam: haad
 examName: HAAD (UAE)
 subject: nursing
-subjectName: Botany
+subjectName: "Nursing"
 topic: nursin-007
-topicName: Topic 7
+topicName: "Community Health Nursing"
 weight: 3
-country: haad
+country: uae
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Community Health Nursing

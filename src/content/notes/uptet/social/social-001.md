@@ -2,12 +2,13 @@
 exam: uptet
 examName: UPTET
 subject: social
-subjectName: Social
+subjectName: "Social Studies"
 topic: social-001
-topicName: Topic 1
+topicName: "Ancient Indian History: Indus Valley Civilization"
 weight: 3
-country: uptet
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Ancient Indian History: Indus Valley Civilization

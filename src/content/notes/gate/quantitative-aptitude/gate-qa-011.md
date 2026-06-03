@@ -9,8 +9,9 @@ tier: unified
 weight: 2
 weight_unit: "% of QA section"
 diagramPrompt: "A graph plotting AP terms linearly (straight line) and GP terms exponentially (curved line), both starting from the same first term, to show the contrast between linear and exponential growth"
-country: India
-generated: ai-v1
+country: india
+generated: 2026-05-26
+lastUpdated: 2026-05-26
 ---
 
 # Progressions (AP & GP)

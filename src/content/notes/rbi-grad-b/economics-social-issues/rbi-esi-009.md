@@ -9,8 +9,9 @@ tier: unified
 weight: 3
 weight_unit: "% of Phase 2 paper"
 diagramPrompt: "Draw an advanced multi-level Sankey flow diagram mapping India's social sector spending: from Union Budget 2025-26 → major scheme allocations (MGNREGA, Ayushman Bharat, SSA, Skill India) → execution agencies → delivery channels (DBT, ASHA, empanelled hospitals) → beneficiary outcomes (health coverage, days of employment, students reached)"
-country: India
-generated: ai-v1
+country: india
+generated: 2026-05-26
+lastUpdated: 2026-05-26
 ---
 
 # Social Sector: Health, Education & Employment

@@ -2,11 +2,11 @@
 exam: gate
 examName: "GATE"
 subject: engineering-maths
-subjectName: "Engineering Maths"
+subjectName: "Engineering-Maths"
 topic: engine-006
 topicName: "Complex Analysis"
 weight: 3
-country: gate
+country: india
 generated: "2026-03-25T17:00:00"
 lastUpdated: "2026-05-29"
 ---

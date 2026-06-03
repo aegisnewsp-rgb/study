@@ -2,12 +2,13 @@
 exam: fmge
 examName: FMGE
 subject: pharmacology
-subjectName: Botany
+subjectName: "Pharmacology"
 topic: pharma-002
-topicName: Topic 2
+topicName: "Cholinergic and Anticholinergic Pharmacology"
 weight: 3
-country: fmge
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Cholinergic and Anticholinergic Pharmacology

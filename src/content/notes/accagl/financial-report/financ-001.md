@@ -2,12 +2,13 @@
 exam: accagl
 examName: ACCA/CA Pakistan
 subject: financial-report
-subjectName: Financial Accounting
+subjectName: "Financial Reporting"
 topic: financ-001
 topicName: "Conceptual Framework & Accounting Standards"
 weight: 3
-country: accagl
+country: pakistan
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Topic 1: Conceptual Framework & Accounting Standards

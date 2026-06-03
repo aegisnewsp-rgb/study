@@ -8,6 +8,7 @@ topicName: "Cell Biology: Cell Structure and Organelles"
 weight: 5
 country: nigeria
 generated: "2026-03-24T08:32:07.648076"
+lastUpdated: 2026-03-24
 diagramPrompt: "Detailed biological diagram of Cell Biology: Cell Structure and Organelles with labeled parts, accurate proportions, white background, color-coded tissues/organs, textbook quality"
 
 ---

@@ -11,6 +11,7 @@ topicName: Matrices and Determinants
 weight: 4
 country: india
 generated: "2026-04-17T22:39:00.000000"
+lastUpdated: 2026-04-17
 diagramPrompt: "Clean educational diagram showing Matrix operations and Determinant calculation with clear labels, white background, color-coded elements, exam-style illustration"
 
 

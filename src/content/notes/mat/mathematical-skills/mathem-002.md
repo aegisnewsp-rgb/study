@@ -2,12 +2,13 @@
 exam: mat
 examName: MAT
 subject: mathematical-skills
-subjectName: Mathematical Skills
+subjectName: "Mathematical-Skills"
 topic: mathem-002
 topicName: Basic Arithmetic Operations
 weight: 3
-country: mat
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Basic Arithmetic Operations

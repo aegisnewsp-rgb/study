@@ -11,6 +11,7 @@ topicName: Trigonometry
 weight: 5
 country: india
 generated: "2026-04-17T22:40:00.000000"
+lastUpdated: 2026-04-17
 diagramPrompt: "Clean educational diagram showing Trigonometry unit circle and angle measures with clear labels, white background, color-coded quadrants, exam-style illustration"
 
 

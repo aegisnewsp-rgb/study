@@ -2,12 +2,13 @@
 exam: jupeb
 examName: JUPEB (Nigeria)
 subject: subject-combinations
-subjectName: Subject Combinations
+subjectName: "Subject-Combinations"
 topic: subjec-002
 topicName: Topic 2
 weight: 3
-country: jupeb
+country: nigeria
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 The Science Subject Combination (Physics, Chemistry, Biology/Mathematics) is the most sought-after pathway for students aspiring to enter medical, pharmaceutical, and biological sciences programmes in Nigerian universities.

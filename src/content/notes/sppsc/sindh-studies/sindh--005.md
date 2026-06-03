@@ -6,8 +6,9 @@ subjectName: Sindh Studies
 topic: sindh--005
 topicName: Culture and Traditions of Sindh
 weight: 3
-country: sppsc
+country: pakistan
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Culture and Traditions of Sindh

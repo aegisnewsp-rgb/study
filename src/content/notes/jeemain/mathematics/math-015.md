@@ -11,6 +11,7 @@ topicName: Differential Equations
 weight: 4
 country: india
 generated: "2026-04-17T22:54:00.000000"
+lastUpdated: 2026-04-17
 diagramPrompt: "Clean educational diagram showing Differential Equation slope field with clear labels, white background, color-coded solution curves, exam-style illustration"
 
 

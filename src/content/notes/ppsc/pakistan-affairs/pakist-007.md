@@ -2,12 +2,13 @@
 exam: ppsc
 examName: PPSC (Pakistan)
 subject: pakistan-affairs
-subjectName: General Studies
+subjectName: "Pakistan Affairs"
 topic: pakist-007
-topicName: Topic 7
+topicName: "Zulfikar Ali Bhutto and the Constitution of 1973"
 weight: 3
-country: ppsc
+country: pakistan
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 # Zulfikar Ali Bhutto and the Constitution of 1973
 

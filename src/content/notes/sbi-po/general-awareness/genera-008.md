@@ -2,11 +2,11 @@
 exam: sbi-po
 examName: "SBI PO"
 subject: general-awareness
-subjectName: ('awareness', 'General Awareness')
+subjectName: "General Awareness"
 topic: genera-008
 topicName: "Important Indian Acts and Reforms"
 weight: 3
-country: sbi
+country: india
 generated: "2026-03-25T17:00:00"
 lastUpdated: "2026-05-28"
 ---

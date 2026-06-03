@@ -11,6 +11,7 @@ topicName: Applications of Derivatives
 weight: 5
 country: india
 generated: "2026-04-17T22:51:00.000000"
+lastUpdated: 2026-04-17
 diagramPrompt: "Clean educational diagram showing derivative applications tangent normal with clear labels, white background, color-coded curves, exam-style illustration"
 
 

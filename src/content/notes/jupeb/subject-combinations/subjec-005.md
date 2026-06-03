@@ -2,12 +2,13 @@
 exam: jupeb
 examName: JUPEB (Nigeria)
 subject: subject-combinations
-subjectName: Subject Combinations
+subjectName: "Subject-Combinations"
 topic: subjec-005
 topicName: Topic 5
 weight: 3
-country: jupeb
+country: nigeria
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 Agricultural and Environmental Science Subject Combinations prepare students for careers in agriculture, environmental management, forestry, fisheries, and related biological sciences across Nigerian universities.

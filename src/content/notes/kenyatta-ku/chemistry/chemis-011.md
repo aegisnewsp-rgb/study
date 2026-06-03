@@ -2,12 +2,13 @@
 exam: kenyatta-ku
 examName: Kenyatta University (Kenya)
 subject: chemistry
-subjectName: ('chemistry', 'Chemistry')
+subjectName: "Chemistry"
 topic: chemis-011
-topicName: Topic 11
+topicName: "Carbohydrates: Classification, Stereochemistry, and Reactions"
 weight: 3
-country: kenyatta
+country: kenya
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Carbohydrates: Classification, Stereochemistry, and Reactions

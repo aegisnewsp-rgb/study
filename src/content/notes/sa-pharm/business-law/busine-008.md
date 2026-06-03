@@ -6,8 +6,9 @@ subjectName: Business Law
 topic: busine-008
 topicName: Medicines & Related Substances Act (Act 101 of 1965)
 weight: 3
-country: sa
+country: southafrica
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Medicines & Related Substances Act (Act 101 of 1965)

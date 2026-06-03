@@ -2,12 +2,13 @@
 exam: ini-cet
 examName: INI CET (AIIMS PG)
 subject: pathology
-subjectName: Botany
+subjectName: "Pathology"
 topic: pathol-002
 topicName: Inflammation
 weight: 3
-country: ini
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Inflammation — Acute and Chronic Inflammation, Healing and Repair

@@ -6,8 +6,9 @@ subjectName: Indian Polity
 topic: indian-008
 topicName: State Governments Governor Chief Minister Council of Ministers
 weight: 3
-country: ras
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # State Governments: Governor, Chief Minister, Council of Ministers, and State Legislature

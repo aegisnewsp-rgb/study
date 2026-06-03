@@ -1,5 +1,5 @@
 ---
-exam: ssc-cgl-tier2
+exam: ssc-cgl
 examName: SSC CGL Tier 2
 subject: english-language
 subjectName: English Language
@@ -9,8 +9,9 @@ tier: unified
 weight: 2
 weight_unit: "% of Tier 2 paper"
 diagramPrompt: "A mind map showing vocabulary categories: Word Types (Noun, Verb, Adjective, Adverb), Context Clue Types (Definition, Example, Contrast, Synonym, Cause-Effect, Tone), and Blank Types (Single, Double, Triple)"
-country: India
-generated: ai-v1
+country: india
+generated: 2026-03-25
+lastUpdated: 2026-03-25
 ---
 
 # Fill in the Blanks (Vocabulary-based)

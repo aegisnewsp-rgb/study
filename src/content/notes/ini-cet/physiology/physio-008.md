@@ -4,10 +4,11 @@ examName: INI CET (AIIMS PG)
 subject: physiology
 subjectName: Physiology
 topic: physio-008
-topicName: Endocrine System
+topicName: "Renal Physiology: Tubular Transport and Urine Formation"
 weight: 3
-country: ini
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 **Renal Physiology: Tubular Transport and Urine Formation** covers renal tubular transport and urine formation for INI CET (AIIMS PG).

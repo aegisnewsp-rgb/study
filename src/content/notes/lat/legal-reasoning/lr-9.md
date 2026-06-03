@@ -8,6 +8,7 @@ topicName: Principle of Liability
 weight: 4
 country: pakistan
 generated: "2026-03-24T08:32:08.028343"
+lastUpdated: 2026-03-24
 diagramPrompt: "Educational diagram illustrating Principle of Liability with clear labels, white background, exam-style illustration"
 
 ---

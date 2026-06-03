@@ -11,6 +11,7 @@ topicName: Probability
 weight: 5
 country: india
 generated: "2026-04-17T22:38:00.000000"
+lastUpdated: 2026-04-17
 diagramPrompt: "Clean educational diagram showing Probability tree diagram and Venn diagram with clear labels, white background, color-coded events, exam-style illustration"
 
 

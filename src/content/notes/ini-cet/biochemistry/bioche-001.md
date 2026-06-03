@@ -6,8 +6,8 @@ subjectName: Biochemistry
 topic: bioche-001
 topicName: Biomolecules — Carbohydrates, Proteins, Lipids, and Nucleotides
 weight: 3
-country: ini
-generated: ai-v1
+country: india
+generated: 2026-03-25
 lastUpdated: "2026-04-13"
 ---
 

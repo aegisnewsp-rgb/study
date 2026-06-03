@@ -4,10 +4,11 @@ examName: Qimiyah Exam (Saudi)
 subject: arabic
 subjectName: Arabic
 topic: arabic-004
-topicName: Topic 4
+topicName: "Arabic Pronouns (Ḍamīr)"
 weight: 3
-country: qimiyah
+country: saudi
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 # Arabic Pronouns (Ḍamīr)
 

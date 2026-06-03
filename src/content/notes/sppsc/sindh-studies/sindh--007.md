@@ -6,8 +6,9 @@ subjectName: Sindh Studies
 topic: sindh--007
 topicName: Political Movements in Sindh
 weight: 3
-country: sppsc
+country: pakistan
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Political Movements in Sindh

@@ -8,6 +8,7 @@ topicName: Carboxylic Acids
 weight: 3
 country: india
 generated: "2026-03-28T21:11:22"
+lastUpdated: 2026-03-28
 ---
 ---
 ## 📊 JEE Main Exam Essentials

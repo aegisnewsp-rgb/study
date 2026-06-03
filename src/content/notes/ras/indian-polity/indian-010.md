@@ -6,8 +6,9 @@ subjectName: Indian Polity
 topic: indian-010
 topicName: Amendment Power Article 368 Runj Formula Basic Structure CAG FC
 weight: 3
-country: ras
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Amendment Power, Article 368, Runj Formula, Basic Structure, CAG, and Finance Commission

@@ -11,6 +11,7 @@ topicName: Straight Lines
 weight: 5
 country: india
 generated: "2026-04-17T22:55:00.000000"
+lastUpdated: 2026-04-17
 diagramPrompt: "Clean educational diagram showing Straight Lines coordinate geometry with clear labels, white background, labeled axes, slope, intercepts, exam-style illustration"
 
 

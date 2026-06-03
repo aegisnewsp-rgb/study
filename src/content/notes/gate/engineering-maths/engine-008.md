@@ -2,12 +2,13 @@
 exam: gate
 examName: "GATE"
 subject: engineering-maths
-subjectName: "Engineering Maths"
+subjectName: "Engineering-Maths"
 topic: engine-008
-topicName: "Topic 8"
+topicName: "Joint Distributions and Sampling Theory"
 weight: 3
-country: gate
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Joint Distributions and Sampling Theory

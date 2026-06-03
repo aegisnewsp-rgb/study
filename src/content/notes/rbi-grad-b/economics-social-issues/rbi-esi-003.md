@@ -9,8 +9,9 @@ tier: unified
 weight: 3
 weight_unit: "% of Phase 2 paper"
 diagramPrompt: "An advanced Lorenz Curve with Gini Coefficient calculation diagram: A full square (unit square) with the diagonal line of equality. The Lorenz curve is drawn as a smooth curve. The Gini formula is shown as: Gini = Area A / (Area A + Area B). Shade Area A (between diagonal and Lorenz curve) and Area B (below Lorenz curve). Show extreme cases: Gini=0 (diagonal itself), Gini=1 (L-shape along bottom and right edge)."
-country: India
-generated: ai-v1
+country: india
+generated: 2026-05-26
+lastUpdated: 2026-05-26
 ---
 
 # Poverty & Income Inequality

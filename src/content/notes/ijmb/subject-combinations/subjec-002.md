@@ -2,12 +2,13 @@
 exam: ijmb
 examName: IJMB (Nigeria)
 subject: subject-combinations
-subjectName: Subject Combinations
+subjectName: "Subject-Combinations"
 topic: subjec-002
-topicName: Topic 2
+topicName: "Science Subject Combinations for IJMB — Which Courses They Unlock"
 weight: 3
-country: ijmb
+country: nigeria
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Science Subject Combinations for IJMB — Which Courses They Unlock

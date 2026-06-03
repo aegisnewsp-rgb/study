@@ -2,12 +2,13 @@
 exam: al-exam
 examName: A/L Examination (Sri Lanka)
 subject: science-stream
-subjectName: Science Stream
+subjectName: "Science-Stream"
 topic: scienc-001
 topicName: "Cell Biology and Cell Structure"
 weight: 3
-country: al
+country: srilanka
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Cell Biology and Cell Structure

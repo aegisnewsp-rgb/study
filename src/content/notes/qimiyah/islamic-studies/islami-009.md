@@ -6,8 +6,9 @@ subjectName: General Studies
 topic: islami-009
 topicName: Zakat (Almsgiving)
 weight: 3
-country: qimiyah
+country: saudi
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Zakat (Almsgiving)

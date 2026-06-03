@@ -11,6 +11,7 @@ topicName: Definite Integration
 weight: 5
 country: india
 generated: "2026-04-17T22:53:00.000000"
+lastUpdated: 2026-04-17
 diagramPrompt: "Clean educational diagram showing Definite Integral as area with clear labels, white background, color-coded region, evaluation process, exam-style illustration"
 
 

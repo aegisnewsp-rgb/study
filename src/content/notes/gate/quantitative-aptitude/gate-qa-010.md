@@ -9,8 +9,9 @@ tier: unified
 weight: 2
 weight_unit: "% of QA section"
 diagramPrompt: "An advanced diagram showing composite 2D shapes — a rectangle with a semicircle attached on one side, and a right triangle with altitude drawn inside, labeled with all relevant measurements"
-country: India
-generated: ai-v1
+country: india
+generated: 2026-05-26
+lastUpdated: 2026-05-26
 ---
 
 # Mensuration (2D)

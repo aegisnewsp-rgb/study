@@ -9,8 +9,9 @@ tier: unified
 weight: 2
 weight_unit: "% of GA section"
 diagramPrompt: "A diagnostic flowchart: Sentence given → Is blank position filled with article/preposition/conjunction/tense? (Grammar path) → Does context give meaning clues? (Vocab path) → Are there collocation signals? → Does tone/register fit GATE formal? → Select answer"
-country: India
-generated: ai-v1
+country: india
+generated: 2026-05-26
+lastUpdated: 2026-05-26
 ---
 
 # Fill in the Blanks (Grammar + Vocab)

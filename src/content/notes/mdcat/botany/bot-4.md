@@ -8,6 +8,7 @@ topicName: Variety of Life
 weight: 3
 country: pakistan
 generated: "2026-03-24T08:32:08.103910"
+lastUpdated: 2026-03-24
 diagramPrompt: "Educational diagram illustrating Variety of Life with clear labels, white background, exam-style illustration"
 ---
 

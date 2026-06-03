@@ -11,6 +11,7 @@ topicName: Capacitors and Capacitance
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.681675"
+lastUpdated: 2026-03-24
 diagramPrompt: "Clean educational diagram showing Capacitors and Capacitance with clear labels, white background, labeled arrows for forces/fields/vectors, color-coded components, exam-style illustration"
 
 

@@ -2,12 +2,13 @@
 exam: kpsc
 examName: KPSC KAS
 subject: history
-subjectName: General Studies
+subjectName: "History"
 topic: histor-008
 topicName: Five-Year Plans and Economic Development
 weight: 3
-country: kpsc
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Five-Year Plans and Economic Development

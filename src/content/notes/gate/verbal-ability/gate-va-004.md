@@ -9,8 +9,9 @@ tier: unified
 weight: 2
 weight_unit: "% of GA section"
 diagramPrompt: "A comprehensive RC analysis map: Passage structure (intro, thesis, body evidence, conclusion) → Question taxonomy (5 types with subtypes) → Answer selection process (Locate → Analyze → Evaluate → Select with elimination) → Common trap patterns for each question type"
-country: India
-generated: ai-v1
+country: india
+generated: 2026-05-26
+lastUpdated: 2026-05-26
 ---
 
 # Reading Comprehension

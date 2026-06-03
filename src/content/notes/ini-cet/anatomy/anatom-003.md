@@ -6,8 +6,9 @@ subjectName: Anatomy
 topic: anatom-003
 topicName: Tissue Types and Histology
 weight: 3
-country: ini
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Tissue Types and Histology — Epithelium, Connective Tissue, Muscle and Nerve

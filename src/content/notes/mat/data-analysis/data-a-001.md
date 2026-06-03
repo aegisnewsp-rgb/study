@@ -2,12 +2,13 @@
 exam: mat
 examName: MAT (Management Aptitude Test)
 subject: data-analysis
-subjectName: Data Interpretation & Logical Reasoning
+subjectName: "Data-Analysis"
 topic: data-a-001
 topicName: Tables & Caselets
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 diagramPrompt: "A structured data table showing quarterly sales figures across four regions (North, South, East, West) for three consecutive years, with row totals and column totals, styled as a typical MAT exam DI passage with compact numeric data requiring careful reading."
 
 ---

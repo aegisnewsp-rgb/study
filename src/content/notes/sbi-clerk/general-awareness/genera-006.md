@@ -2,12 +2,13 @@
 exam: sbi-clerk
 examName: "SBI Clerk"
 subject: general-awareness
-subjectName: ('awareness', 'General Awareness')
+subjectName: "General Awareness"
 topic: genera-006
 topicName: "Indian Geography and Physical Features"
 weight: 3
-country: sbi
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Indian Geography and Physical Features

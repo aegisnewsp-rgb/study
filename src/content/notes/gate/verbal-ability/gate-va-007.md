@@ -9,8 +9,9 @@ tier: unified
 weight: 2
 weight_unit: "% of GA section"
 diagramPrompt: "Two-column diagram: Column A shows 'Paper: Writer :: Canvas: Artist' with arrows showing transformation/process flow. Column B shows tricky variant questions."
-country: India
-generated: ai-v1
+country: india
+generated: 2026-05-26
+lastUpdated: 2026-05-26
 ---
 
 # Analogy

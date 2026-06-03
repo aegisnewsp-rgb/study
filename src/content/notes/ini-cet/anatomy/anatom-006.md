@@ -6,8 +6,9 @@ subjectName: Anatomy
 topic: anatom-006
 topicName: Lower Limb Anatomy
 weight: 3
-country: ini
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Lower Limb Anatomy — Bones, Joints, Muscles, Nerves and Clinical Correlations

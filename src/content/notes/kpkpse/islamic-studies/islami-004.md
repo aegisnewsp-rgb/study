@@ -2,12 +2,13 @@
 exam: kpkpse
 examName: KPK PMS
 subject: islamic-studies
-subjectName: General Studies
+subjectName: "Islamic Studies"
 topic: islami-004
-topicName: Topic 4
+topicName: "Islamic History: The Rightly Guided Caliphs and Major Dynasties"
 weight: 3
-country: kpkpse
+country: pakistan
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Islamic History: The Rightly Guided Caliphs and Major Dynasties

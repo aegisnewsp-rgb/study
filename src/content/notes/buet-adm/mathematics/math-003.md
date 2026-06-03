@@ -9,8 +9,9 @@ subjectName: Mathematics
 topic: math-003
 topicName: Coordinate Geometry
 weight: 5
-country: bd
+country: bangladesh
 generated: "2026-04-17T23:22:00.000000"
+lastUpdated: 2026-04-17
 diagramPrompt: "Clean educational diagram showing Coordinate Geometry with clear labels, white background, exam-style illustration"
 
 

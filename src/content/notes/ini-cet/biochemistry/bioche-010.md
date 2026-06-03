@@ -6,8 +6,9 @@ subjectName: Biochemistry
 topic: bioche-010
 topicName: Mineral Metabolism
 weight: 3
-country: ini
-generated: ai-v1
+country: india
+generated: 2026-03-25
+lastUpdated: 2026-03-25
 ---
 
 # Mineral Metabolism — Calcium, Phosphate, Magnesium, Iron, and Trace Elements

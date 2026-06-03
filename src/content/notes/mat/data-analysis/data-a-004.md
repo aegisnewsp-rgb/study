@@ -2,12 +2,13 @@
 exam: mat
 examName: MAT (Management Aptitude Test)
 subject: data-analysis
-subjectName: Data Interpretation & Logical Reasoning
+subjectName: "Data-Analysis"
 topic: data-a-004
 topicName: Bar Graphs & Column Charts
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 diagramPrompt: "A grouped bar chart showing quarterly revenue (in ₹ lakhs) for two companies, Company X and Company Y, across four quarters of a financial year, with a stacked bar chart overlay option and a trend line overlay, styled as a typical MAT exam DI passage requiring comparative analysis."
 
 ---

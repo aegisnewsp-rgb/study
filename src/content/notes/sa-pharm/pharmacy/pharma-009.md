@@ -6,8 +6,9 @@ subjectName: Pharmacy
 topic: pharma-009
 topicName: Adverse Drug Reactions and Pharmacovigilance
 weight: 3
-country: sa
+country: southafrica
 generated: "2026-04-09T20:00:00"
+lastUpdated: 2026-04-09
 ---
 
 # Adverse Drug Reactions and Pharmacovigilance

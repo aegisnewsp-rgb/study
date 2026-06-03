@@ -6,7 +6,7 @@ subjectName: Indian Polity
 topic: indian-006
 topicName: Judiciary
 weight: 3
-country: up
+country: india
 lastUpdated: "2026-04-15"
 generated: "2026-03-25T17:00:00"
 ---

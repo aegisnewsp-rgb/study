@@ -8,6 +8,7 @@ topicName: Supreme Court and Judicial Review
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Supreme Court and Judicial Review

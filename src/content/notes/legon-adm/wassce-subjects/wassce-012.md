@@ -2,12 +2,13 @@
 exam: legon-adm
 examName: Legon Admissions (Ghana)
 subject: wassce-subjects
-subjectName: Wassce Subjects
+subjectName: "Wassce-Subjects"
 topic: wassce-012
-topicName: Topic 12
+topicName: "Topic 12: Trigonometry"
 weight: 3
-country: legon
+country: ghana
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Topic 12: Trigonometry

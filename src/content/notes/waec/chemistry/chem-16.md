@@ -11,6 +11,7 @@ topicName: Water and Hardness of Water
 weight: 3
 country: nigeria
 generated: "2026-03-24T08:32:07.646443"
+lastUpdated: 2026-03-24
 diagramPrompt: "Clear scientific diagram of Water and Hardness of Water with atom labels, molecular structure, reaction arrows, white background, color-coded bonds and groups, exam textbook style"
 
 

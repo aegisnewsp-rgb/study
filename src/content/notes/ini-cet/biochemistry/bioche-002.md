@@ -6,8 +6,9 @@ subjectName: Biochemistry
 topic: bioche-002
 topicName: Amino Acid Metabolism and the Urea Cycle
 weight: 3
-country: ini
-generated: ai-v1
+country: india
+generated: 2026-03-25
+lastUpdated: 2026-03-25
 ---
 
 # Amino Acid Metabolism and the Urea Cycle — Transamination, Deamination, Gluconeogenesis, and Nitrogen Excretion

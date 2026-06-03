@@ -11,6 +11,7 @@ topicName: Environmental Chemistry
 weight: 2
 country: pakistan
 generated: "2026-03-24T08:32:08.102519"
+lastUpdated: 2026-03-24
 diagramPrompt: "Clear scientific diagram of Environmental Chemistry with atom labels, molecular structure, reaction arrows, white background, color-coded bonds and groups, exam textbook style"
 
 

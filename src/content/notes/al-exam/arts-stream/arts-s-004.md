@@ -2,12 +2,13 @@
 exam: al-exam
 examName: A/L Examination (Sri Lanka)
 subject: arts-stream
-subjectName: Arts Stream
+subjectName: "Arts-Stream"
 topic: arts-s-004
 topicName: The Novel & Literary Forms
 weight: 3
-country: al
+country: srilanka
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # The Novel & Literary Forms

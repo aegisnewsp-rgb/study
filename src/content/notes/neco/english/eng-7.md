@@ -11,6 +11,7 @@ topicName: Sentence Construction
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.657913"
+lastUpdated: 2026-03-24
 diagramPrompt: "Educational diagram illustrating Sentence Construction with clear labels, white background, exam-style illustration"
 
 

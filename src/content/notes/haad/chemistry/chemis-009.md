@@ -2,12 +2,13 @@
 exam: haad
 examName: HAAD (UAE)
 subject: chemistry
-subjectName: ('chemistry', 'Chemistry')
+subjectName: "Chemistry"
 topic: chemis-009
-topicName: Topic 9
+topicName: "Amines and Nitrogen Compounds"
 weight: 3
-country: haad
+country: uae
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Amines and Nitrogen Compounds

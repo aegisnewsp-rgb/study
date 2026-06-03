@@ -2,12 +2,13 @@
 exam: fmge
 examName: FMGE
 subject: physiology
-subjectName: Botany
+subjectName: "Physiology"
 topic: physio-006
-topicName: Topic 6
+topicName: "Renal Physiology"
 weight: 3
-country: fmge
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Renal Physiology

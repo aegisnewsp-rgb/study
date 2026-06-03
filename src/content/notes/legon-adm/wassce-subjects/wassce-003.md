@@ -2,12 +2,13 @@
 exam: legon-adm
 examName: Legon Admissions (Ghana)
 subject: wassce-subjects
-subjectName: Wassce Subjects
+subjectName: "Wassce-Subjects"
 topic: wassce-003
-topicName: Topic 3
+topicName: "Topic 3: Fractions, Decimals and Percentages"
 weight: 3
-country: legon
+country: ghana
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Topic 3: Fractions, Decimals and Percentages

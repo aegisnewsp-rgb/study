@@ -9,8 +9,9 @@ tier: unified
 weight: 3
 weight_unit: "% of Phase 2 paper"
 diagramPrompt: "Multi-layered diagram: Central hub showing 'Modern Manager' surrounded by Taylor (process/scientific layer), Fayol (organizational layer), Mintzberg (roles layer), Drucker (objectives layer). Arrows connect layers showing how each theory builds on and complements the others. Outer ring shows RBI-specific management applications."
-country: India
-generated: ai-v1
+country: india
+generated: 2026-05-26
+lastUpdated: 2026-05-26
 ---
 
 # Management Principles & Functions

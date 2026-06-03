@@ -4,6 +4,7 @@ import Layout from '@layouts/Layout.astro';
 import Navbar from '@components/Navbar.astro';
 import Footer from '@components/Footer.astro';
 import { isGoodNote } from '@data/note-quality';
+import { getCountryFlag } from '@data/exams';
 
 // Only count/list indexable notes; exams whose notes are all still low-value
 // drop off the index until the rewrite pipeline restores them.
@@ -31,7 +32,7 @@ const examMeta: ExamMeta[] = Object.entries(byExam).map(([examId, notes]) => {
   return {
     exam: examId,
     examName: first.data.examName,
-    flag: { india: '🇮🇳', pakistan: '🇵🇰', nigeria: '🇳🇬' }[first.data.country] ?? '🌍',
+    flag: getCountryFlag(first.data.country) || '🌍',
     country: first.data.country,
     totalTopics: notes.length,
     subjects: new Set(notes.map(n => n.data.subject)).size,
@@ -47,9 +48,25 @@ const ogImage = '/og-image.jpg';
 const siteUrl = 'https://studyroadmap.in';
 const authorObj = { name: "StudyRoadmap Editorial Team", jobTitle: "Curriculum Editors", affiliation: "StudyRoadmap", url: "https://studyroadmap.in/about/" };
 
-const countryFlags: Record<string, string> = { india: '🇮🇳', pakistan: '🇵🇰', nigeria: '🇳🇬' };
-const countryNames: Record<string, string> = { india: 'India', pakistan: 'Pakistan', nigeria: 'Nigeria' };
-const countries = ['india', 'pakistan', 'nigeria'] as const;
+const countryNames: Record<string, string> = {
+  india: 'India', pakistan: 'Pakistan', nigeria: 'Nigeria', bangladesh: 'Bangladesh',
+  srilanka: 'Sri Lanka', nepal: 'Nepal', saudi: 'Saudi Arabia', uae: 'UAE',
+  southafrica: 'South Africa', kenya: 'Kenya', ethiopia: 'Ethiopia', ghana: 'Ghana',
+  uganda: 'Uganda', tanzania: 'Tanzania', russia: 'Russia', china: 'China',
+  philippines: 'Philippines', indonesia: 'Indonesia', malaysia: 'Malaysia',
+};
+// Show every country that actually has indexable notes. India/Pakistan/Nigeria
+// lead (largest catalogues); the rest follow by descending exam count so the
+// hub links every notes catalogue instead of silently hiding 16 countries.
+const examsByCountry = new Map<string, number>();
+for (const e of examMeta) examsByCountry.set(e.country, (examsByCountry.get(e.country) ?? 0) + 1);
+const LEAD = ['india', 'pakistan', 'nigeria'];
+const countries = [
+  ...LEAD.filter(c => examsByCountry.has(c)),
+  ...[...examsByCountry.keys()]
+    .filter(c => !LEAD.includes(c))
+    .sort((a, b) => (examsByCountry.get(b)! - examsByCountry.get(a)!) || a.localeCompare(b)),
+];
 
 const breadcrumbJsonLd = {
   '@context': 'https://schema.org',
@@ -128,8 +145,8 @@ const NOTES_FAQS = [
           return (
             <div>
               <h2 class="heading-2 text-surface-800 dark:text-surface-100 mb-5 flex items-center gap-3">
-                <span class="text-2xl">{countryFlags[country]}</span>
-                {countryNames[country]}
+                <span class="text-2xl">{getCountryFlag(country) || '🌍'}</span>
+                {countryNames[country] ?? country.charAt(0).toUpperCase() + country.slice(1)}
                 <span class="text-sm font-normal text-surface-400">{countryExams.length} exams</span>
               </h2>
               <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">

@@ -2,12 +2,13 @@
 exam: kpsc
 examName: KPSC KAS
 subject: history
-subjectName: General Studies
+subjectName: "History"
 topic: histor-004
 topicName: Indian Constitution and Framing
 weight: 3
-country: kpsc
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Indian Constitution and Framing

@@ -2,12 +2,13 @@
 exam: lsat
 examName: LSAT India
 subject: reading-comp
-subjectName: Reading Comp
+subjectName: "Reading-Comp"
 topic: readin-007
 topicName: Strengthen & Weaken Arguments
 weight: 3
-country: lsat
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Strengthen & Weaken Arguments

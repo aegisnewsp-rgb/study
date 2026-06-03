@@ -2,12 +2,13 @@
 exam: ibps-po
 examName: IBPS PO
 subject: general-awareness
-subjectName: ('awareness', 'General Awareness')
+subjectName: "General Awareness"
 topic: genera-003
-topicName: Topic 3
+topicName: "Government Banking Schemes and Priority Sector Lending"
 weight: 3
-country: ibps
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Government Banking Schemes and Priority Sector Lending

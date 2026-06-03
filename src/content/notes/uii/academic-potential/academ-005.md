@@ -6,8 +6,9 @@ subjectName: Academic Potential
 topic: academ-005
 topicName: Averages
 weight: 3
-country: uii
+country: indonesia
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Averages
@@ -67,9 +68,7 @@ The median is the middle value. Sort the data first.
 Odd number of values: median is the (n+1)/2-th value.
 Even number of values: median is the average of the n/2-th and (n/2 + 1)-th values.
 
-Example (odd): 4, 7, 2, 9, 1, 6. Sorted: 1, 2, 4, 6, 7, 9. n=6 (even). Median = average of 3rd and 4th values = (4+6)/2 = 5.
-
-Wait, with n=6, the two middle positions are 3 and 4, so (4+6)/2 = 5. ✓
+Example (even): 4, 7, 2, 9, 1, 6. Sorted: 1, 2, 4, 6, 7, 9. n=6, so the two middle positions are 3 and 4. Median = average of the 3rd and 4th values = (4+6)/2 = 5.
 
 **The Mode**
 

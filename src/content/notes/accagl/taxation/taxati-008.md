@@ -2,12 +2,13 @@
 exam: accagl
 examName: ACCA/CA Pakistan
 subject: taxation
-subjectName: Financial Accounting
+subjectName: "Taxation"
 topic: taxati-008
 topicName: International Taxation & Transfer Pricing
 weight: 3
-country: accagl
+country: pakistan
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # International Taxation & Transfer Pricing

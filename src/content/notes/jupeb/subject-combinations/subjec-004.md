@@ -2,12 +2,13 @@
 exam: jupeb
 examName: JUPEB (Nigeria)
 subject: subject-combinations
-subjectName: Subject Combinations
+subjectName: "Subject-Combinations"
 topic: subjec-004
 topicName: Topic 4
 weight: 3
-country: jupeb
+country: nigeria
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 The Commercial Subject Combination (Economics, Government, Commerce, Accounting, Literature) is designed for students targeting Business, Management, Social Sciences, and Commercial programmes at Nigerian universities.

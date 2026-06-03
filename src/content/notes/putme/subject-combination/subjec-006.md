@@ -2,12 +2,13 @@
 exam: putme
 examName: Post-UTME (Nigeria)
 subject: subject-combination
-subjectName: Subject Combination
+subjectName: "Subject-Combination"
 topic: subjec-006
-topicName: Topic 6
+topicName: "Algebraic Expressions"
 weight: 3
-country: putme
+country: nigeria
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 # Algebraic Expressions
 

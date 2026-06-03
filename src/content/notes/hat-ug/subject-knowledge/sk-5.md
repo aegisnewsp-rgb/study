@@ -12,6 +12,7 @@ topicName: "Chemistry: Atomic Structure and Bonding"
 weight: 4
 country: pakistan
 generated: "2026-03-24T08:32:08.012478"
+lastUpdated: 2026-03-24
 diagramPrompt: "Educational diagram illustrating Chemistry: Atomic Structure and Bonding with clear labels, white background, exam-style illustration"
 
 

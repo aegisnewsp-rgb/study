@@ -9,8 +9,9 @@ tier: unified
 weight: 2
 weight_unit: "% of QA section"
 diagramPrompt: "A two-group histogram comparing Class A and Class B average scores, with a dashed line showing the weighted combined average positioned closer to Class B due to its larger size"
-country: India
-generated: ai-v1
+country: india
+generated: 2026-05-26
+lastUpdated: 2026-05-26
 ---
 
 # Average & Weighted Average

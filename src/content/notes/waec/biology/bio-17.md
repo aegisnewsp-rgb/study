@@ -8,6 +8,7 @@ topicName: Biotechnology and Genetic Engineering
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.654990"
+lastUpdated: 2026-03-24
 diagramPrompt: "Detailed biological diagram of Biotechnology and Genetic Engineering with labeled parts, accurate proportions, white background, color-coded tissues/organs, textbook quality"
 
 

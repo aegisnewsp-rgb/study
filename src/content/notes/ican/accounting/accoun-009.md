@@ -2,12 +2,13 @@
 exam: ican
 examName: ICAN (Nigeria)
 subject: accounting
-subjectName: Financial Accounting
+subjectName: "Accounting"
 topic: accoun-009
 topicName: Debentures
 weight: 3
-country: ican
+country: nigeria
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Debentures

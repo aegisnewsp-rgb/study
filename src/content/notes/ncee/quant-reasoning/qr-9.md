@@ -11,6 +11,7 @@ topicName: Figure Series and Sequences
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.594013"
+lastUpdated: 2026-03-24
 diagramPrompt: "Educational diagram illustrating Figure Series and Sequences with clear labels, white background, exam-style illustration"
 
 

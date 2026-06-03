@@ -9,8 +9,9 @@ subjectName: Mathematics
 topic: math-001
 topicName: Algebra
 weight: 5
-country: bd
+country: bangladesh
 generated: "2026-04-17T23:20:00.000000"
+lastUpdated: 2026-04-17
 diagramPrompt: "Clean educational diagram showing Algebra concepts with clear labels, white background, exam-style illustration"
 
 

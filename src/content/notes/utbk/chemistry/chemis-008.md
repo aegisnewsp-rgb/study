@@ -2,12 +2,13 @@
 exam: utbk
 examName: UTBK/SNPMTN (Indonesia)
 subject: chemistry
-subjectName: ('chemistry', 'Chemistry')
+subjectName: "Chemistry"
 topic: chemis-008
 topicName: Topic 8
 weight: 3
-country: utbk
+country: indonesia
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Topic 8

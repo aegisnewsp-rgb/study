@@ -6,8 +6,9 @@ subjectName: Biochemistry
 topic: bioche-001
 topicName: Biomolecules and Enzymes
 weight: 3
-country: fmge
+country: india
 generated: "2026-03-25T17:00:00"
+lastUpdated: 2026-03-25
 ---
 
 # Biomolecules and Enzymes

@@ -3,8 +3,13 @@ import Layout from '../layouts/Layout.astro';
 import Navbar from '../components/Navbar.astro';
 import Footer from '../components/Footer.astro';
 import RoadmapApp from '../components/RoadmapApp';
+import { getCollection } from 'astro:content';
 import { ALL_EXAMS } from '../data/exams';
 import { EXAM_FAQS } from '../data/exam-faqs';
+
+// Only show the "notes →" shortcut for exams that actually have a generated
+// notes hub — linking note-less exams produces /notes/<exam>/ 404s.
+const examsWithNotes = new Set((await getCollection('notes')).map(n => n.id.split('/')[0]));
 
 const ROADMAP_FAQS = [
   {
@@ -190,13 +195,15 @@ const howToJsonLd = {
                       <span class="text-surface-400">→</span>
                       {exam.examName}
                     </a>
-                    <a
-                      href={`/notes/${exam.examId}/`}
-                      class="text-xs text-brand-600 dark:text-brand-400 hover:underline shrink-0"
-                      aria-label={`${exam.examName} study notes`}
-                    >
-                      notes →
-                    </a>
+                    {examsWithNotes.has(exam.examId) && (
+                      <a
+                        href={`/notes/${exam.examId}/`}
+                        class="text-xs text-brand-600 dark:text-brand-400 hover:underline shrink-0"
+                        aria-label={`${exam.examName} study notes`}
+                      >
+                        notes →
+                      </a>
+                    )}
                   </li>
                 ))}
               </ul>

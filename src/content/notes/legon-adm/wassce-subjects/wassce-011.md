@@ -4,14 +4,14 @@ examName: Legon Admissions (Ghana)
 subject: wassce-subjects
 subjectName: "Wassce-Subjects"
 topic: wassce-011
-topicName: "Topic 11: Geometry and Measurement"
+topicName: "Geometry and Measurement"
 weight: 3
 country: ghana
 generated: "2026-03-25T17:00:00"
 lastUpdated: 2026-03-25
 ---
 
-# Topic 11: Geometry and Measurement
+# Geometry and Measurement
 
 ### 🟢 Lite — Quick Review (1h–1d)
 

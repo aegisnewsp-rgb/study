@@ -11,7 +11,7 @@ generated: "2026-03-25T17:00:00"
 lastUpdated: 2026-03-25
 ---
 
-# Topic 3: Statement of Financial Position (Balance Sheet)
+# Statement of Financial Position (Balance Sheet)
 
 ### 🟢 Lite — Quick Review (1h–1d)
 

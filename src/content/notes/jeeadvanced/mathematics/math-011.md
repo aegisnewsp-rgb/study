@@ -7,7 +7,7 @@ examName: JEE Advanced
 subject: mathematics
 subjectName: Mathematics
 topic: math-011
-topicName: DE
+topicName: "Differential Equations"
 weight: 5
 country: india
 generated: "2026-03-24T08:32:07.938769"
@@ -18,7 +18,7 @@ diagramPrompt: "Mathematical diagram showing DE concept with coordinate axes, la
 
 
 ---
-# DE
+# Differential Equations
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

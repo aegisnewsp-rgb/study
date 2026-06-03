@@ -4,14 +4,14 @@ examName: FMGE
 subject: forensic
 subjectName: "Forensic"
 topic: forens-005
-topicName: "Topic 5: Legal Medicine — IPC Sections Relevant to Medical Practice, Medical Negligence"
+topicName: "Legal Medicine — IPC Sections Relevant to Medical Practice, Medical Negligence"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
 lastUpdated: 2026-03-25
 ---
 
-# Topic 5: Legal Medicine — IPC Sections Relevant to Medical Practice, Medical Negligence
+# Legal Medicine — IPC Sections Relevant to Medical Practice, Medical Negligence
 
 ## Introduction to Medical Jurisprudence
 

@@ -4,14 +4,14 @@ examName: MUET (Malaysia)
 subject: listening
 subjectName: "Listening (Paper 1)"
 topic: listen-004
-topicName: "Topic 4: Short Accents, Registers & Contextual Understanding"
+topicName: "Short Accents, Registers & Contextual Understanding"
 weight: 3
 country: malaysia
 generated: "2026-03-25T17:00:00"
 lastUpdated: 2026-03-25
 ---
 
-# Topic 4: Short Accents, Registers & Contextual Understanding
+# Short Accents, Registers & Contextual Understanding
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

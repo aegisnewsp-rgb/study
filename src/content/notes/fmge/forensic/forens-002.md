@@ -4,14 +4,14 @@ examName: FMGE
 subject: forensic
 subjectName: "Forensic"
 topic: forens-002
-topicName: "Topic 2: Forensic Pathology — Wound Classification, Medicolegal Aspects of Injuries, Ante-mortem vs. Post-mortem Wounds"
+topicName: "Forensic Pathology — Wound Classification, Medicolegal Aspects of Injuries, Ante-mortem vs. Post-mortem Wounds"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
 lastUpdated: 2026-03-25
 ---
 
-# Topic 2: Forensic Pathology — Wound Classification, Medicolegal Aspects of Injuries, Ante-mortem vs. Post-mortem Wounds
+# Forensic Pathology — Wound Classification, Medicolegal Aspects of Injuries, Ante-mortem vs. Post-mortem Wounds
 
 ## Introduction to Forensic Pathology
 
@@ -60,7 +60,7 @@ Burns are classified by depth:
 
 The **Rule of Nines** for adults assigns 9% body surface area to each upper limb, 18% to each lower limb, 9% to the head and neck, 18% each to the anterior and posterior trunk, and 1% to the perineum. In children, the head accounts for a larger proportion.
 
-Special burn patterns include: **pugilistic attitude** (flexion of all limbs in defensive posture seen in prolonged burning), **heat haematoma** (subperiosteal haemorrhage suggesting immersion burn in children), **glove-and-stocking pattern** (differential immersion in burning liquid), and **cafe-au-lait marks** (characteristic of electrocution rather than burns).
+Special burn patterns include: **pugilistic attitude** (flexion of all limbs in a defensive posture seen in prolonged burning), **heat haematoma** (a postmortem extradural collection of friable, chocolate-brown, heat-coagulated blood produced when fire heat contracts the dura and extrudes blood from the venous sinuses — a charring artefact that mimics an antemortem extradural haemorrhage), and **glove-and-stocking pattern** (differential immersion in burning liquid). The characteristic forensic lesion of electrocution, by contrast, is the **electric mark / Joule burn** — a round-to-oval, crater-like lesion with raised pale margins and surrounding blanching, caused by Joule heating; lightning instead produces arborescent Lichtenberg figures.
 
 ### Electrical Burns
 

@@ -51,7 +51,8 @@ This topic covers the evolution of atomic models, Bohr's theory of the hydrogen 
 - Explains spectral series (Lyman, Balmer, etc.)
 
 **Limitations:**
-- Cannot explain fine spectral lines (Zeeman effect)
+- Cannot explain fine structure (closely spaced splitting of spectral lines due to relativistic and spin-orbit effects)
+- Cannot explain the Zeeman effect (splitting of spectral lines in an external magnetic field)
 - Cannot explain spectral intensity variations
 - Fails for multi-electron atoms
 

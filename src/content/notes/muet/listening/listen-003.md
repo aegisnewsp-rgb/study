@@ -4,14 +4,14 @@ examName: MUET (Malaysia)
 subject: listening
 subjectName: "Listening (Paper 1)"
 topic: listen-003
-topicName: "Topic 3: Understanding Spoken Texts & Intentions"
+topicName: "Understanding Spoken Texts & Intentions"
 weight: 3
 country: malaysia
 generated: "2026-03-25T17:00:00"
 lastUpdated: 2026-03-25
 ---
 
-# Topic 3: Understanding Spoken Texts & Intentions
+# Understanding Spoken Texts & Intentions
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

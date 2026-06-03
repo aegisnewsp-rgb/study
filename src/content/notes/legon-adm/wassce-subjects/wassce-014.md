@@ -4,14 +4,14 @@ examName: Legon Admissions (Ghana)
 subject: wassce-subjects
 subjectName: "Wassce-Subjects"
 topic: wassce-014
-topicName: "Topic 14: Sets and Venn Diagrams"
+topicName: "Sets and Venn Diagrams"
 weight: 3
 country: ghana
 generated: "2026-03-25T17:00:00"
 lastUpdated: 2026-03-25
 ---
 
-# Topic 14: Sets and Venn Diagrams
+# Sets and Venn Diagrams
 
 ### 🟢 Lite — Quick Review (1h–1d)
 

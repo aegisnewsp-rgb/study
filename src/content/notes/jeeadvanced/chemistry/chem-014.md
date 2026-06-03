@@ -118,8 +118,8 @@ More negative EA = stronger electron acceptor = more reactive nonmetal.
 - Group 2 elements have very low EA (stable s²)
 
 *Values for halogens (for reference):*
-F = −3.62 eV, Cl = −3.61 eV, Br = −3.36 eV, I = −3.06 eV
-Cl > F (odd-even effect — F is small, added electron suffers strong repulsion)
+F = −3.40 eV, Cl = −3.62 eV, Br = −3.36 eV, I = −3.06 eV
+Cl > F (F is small, so the added electron suffers strong inter-electron repulsion in the compact 2p shell, making Cl's EA more negative)
 
 **Electronegativity (EN):**
 

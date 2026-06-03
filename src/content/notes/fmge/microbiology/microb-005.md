@@ -4,14 +4,14 @@ examName: FMGE
 subject: microbiology
 subjectName: Microbiology
 topic: microb-005
-topicName: "Topic 5: Virology — General Concepts, DNA & RNA Viruses"
+topicName: "Virology — General Concepts, DNA & RNA Viruses"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
 lastUpdated: 2026-03-25
 ---
 
-# Topic 5: Virology — General Concepts, DNA & RNA Viruses
+# Virology — General Concepts, DNA & RNA Viruses
 
 ## Introduction
 

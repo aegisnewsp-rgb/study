@@ -4,14 +4,14 @@ examName: KUCCPS (Kenya)
 subject: subject-clusters
 subjectName: Subject Clusters
 topic: subjec-011
-topicName: "Topic 11: Cluster 11 — Architecture and Building"
+topicName: "Cluster 11 — Architecture and Building"
 weight: 3
 country: kenya
 generated: "2026-03-25T17:00:00"
 lastUpdated: 2026-03-25
 ---
 
-# Topic 11: Cluster 11 — Architecture and Building
+# Cluster 11 — Architecture and Building
 
 ## What Is Cluster 11?
 

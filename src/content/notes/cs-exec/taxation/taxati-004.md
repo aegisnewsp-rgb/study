@@ -638,28 +638,27 @@ Company declares dividend of Rs. 100 lakhs.
 - If dividend is **paid to a resident individual** and the **total dividend paid by the company in a year** is less than Rs. **5,000** — **No TDS**.
 - If the shareholder provides **Form 15G/15H** (declaration of no tax liability) — **No TDS**.
 
-### 6.3 Dividend Income in Shareholder's Hands — Section 10(34)
+### 6.3 Dividend Income in Shareholder's Hands
 
-**Section 10(34)** provides **exemption from income tax** for dividends received from a **domestic company** (prior to AY 2021-22 — this exemption was available in the hands of shareholders, and DDT was paid by the company).
+Up to AY 2020-21, dividends received from a domestic company were **exempt** in the shareholder's hands under **Section 10(34)** (because the company had already paid DDT under Section 115-O).
 
 **Current Position (Post AY 2021-22):**
-- Section 10(34) exemption is still available for **dividend income** received from a domestic company.
-- However, the **first Rs. 10 lakhs** of dividend income from domestic companies is **exempt** under Section 10(34) read with Section 115BBDA.
-- **Dividend exceeding Rs. 10 lakhs** is taxable at **10%** for resident individuals/HUFs (Section 115BBDA).
+- The Finance Act, 2020 **withdrew the Section 10(34) exemption** (w.e.f. 01-04-2020) at the same time it abolished DDT.
+- Consequently, dividend income from a domestic company is now **fully taxable** in the hands of the shareholder at **applicable/normal slab rates** (or at corporate tax rates for company shareholders).
+- **Section 115BBDA** — which earlier taxed dividend exceeding **Rs. 10 lakhs** at **10%** in the hands of resident individuals/HUFs/firms — has become **redundant from AY 2021-22**. There is **no longer any Rs. 10 lakh exemption** and **no separate 10% rate**, because the entire dividend is now taxable in the shareholder's hands.
 
-**Note:** The Rs. 10 lakh limit was introduced in Finance Act, 2016 and applies only to individuals and HUFs receiving dividend from domestic companies.
+**Note:** The Rs. 10 lakh / 10% mechanism under Section 115BBDA (introduced by Finance Act, 2016) operated only while DDT was in force; it ceased to have effect once dividends became fully taxable in shareholders' hands from AY 2021-22.
 
 **Taxation of Dividend (Post DDT Repeal):**
 
 | Recipient | Rate | Provision |
 |---|---|---|
-| Individual/HUF (up to Rs. 10L) | Exempt | Section 10(34) |
-| Individual/HUF (above Rs. 10L) | 10% | Section 115BBDA |
-| Domestic Company | 10% (if conditions met) | Section 115A |
-| Foreign Company | 10% or 15% | Section 115A |
+| Individual/HUF | Applicable slab rates | Taxable as Income from Other Sources |
+| Domestic Company | Normal corporate rate (deduction available under Section 80M) | Section 80M |
+| Foreign Company | 20% (or DTAA rate) | Section 115A |
 | Partnership Firm | 30% (slab) | Normal rates |
 
-> 🔴 **High Priority:** The **repeal of DDT** (Section 115-O) is one of the most significant recent changes. The dividend is now **taxable in shareholders' hands** with TDS deducted by the company at source. The Rs. 10 lakh exemption under Section 10(34) read with Section 115BBDA and the 10% rate above Rs. 10 lakhs are key examination points.
+> 🔴 **High Priority:** The **repeal of DDT** (Section 115-O) is one of the most significant recent changes. The dividend is now **taxable in shareholders' hands** at applicable/normal rates, with TDS deducted by the company at source under Section 194. Note that the Finance Act, 2020 also **withdrew the Section 10(34) exemption** and rendered **Section 115BBDA redundant** — there is no longer a Rs. 10 lakh exemption or a separate 10% rate from AY 2021-22.
 
 ---
 

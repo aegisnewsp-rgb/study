@@ -4,14 +4,14 @@ examName: Legon Admissions (Ghana)
 subject: wassce-subjects
 subjectName: "Wassce-Subjects"
 topic: wassce-007
-topicName: "Topic 7: Algebraic Expressions and Equations"
+topicName: "Algebraic Expressions and Equations"
 weight: 3
 country: ghana
 generated: "2026-03-25T17:00:00"
 lastUpdated: 2026-03-25
 ---
 
-# Topic 7: Algebraic Expressions and Equations
+# Algebraic Expressions and Equations
 
 ### 🟢 Lite — Quick Review (1h–1d)
 

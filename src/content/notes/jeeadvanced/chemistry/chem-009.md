@@ -26,7 +26,7 @@ diagramPrompt: "Clear scientific diagram of Electrochemistry with atom labels, m
 
 | Cell | Galvanic (Voltaic) | Electrolytic |
 |---|---|---|
-| Energy | Electrical → Chemical | Chemical → Electrical |
+| Energy | Chemical → Electrical | Electrical → Chemical |
 | ΔG | ΔG < 0 (spontaneous) | ΔG > 0 (non-spontaneous) |
 | Electrodes | Cathode = + (reduction) | Cathode = − (reduction) |
 | | Anode = − (oxidation) | Anode = + (oxidation) |

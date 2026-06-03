@@ -128,7 +128,7 @@ Unsaturated hydrocarbons with at least one C≡C triple bond.
       CH₃-CH=CH₂ + H₂O → CH₃-CH(OH)-CH₃ (indirect via H₂SO₄)
    
    e) **Ozonolysis:**
-      CH₂=CH-CH=CH₂ + 2O₃ → 2HCHO + (COOH)₂ (glyoxal)
+      CH₂=CH-CH=CH₂ + 2O₃ → 2HCHO + OHC-CHO (glyoxal)
       Ozonide intermediate → reductive cleavage with Zn/H₂O or Zn/CH₃COOH → carbonyls
 
 2. **Oxidation:**

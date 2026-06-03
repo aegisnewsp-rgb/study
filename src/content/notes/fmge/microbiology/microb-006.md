@@ -4,14 +4,14 @@ examName: FMGE
 subject: microbiology
 subjectName: Microbiology
 topic: microb-006
-topicName: "Topic 6: Mycology, Parasitology & Immunology Basics"
+topicName: "Mycology, Parasitology & Immunology Basics"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
 lastUpdated: 2026-03-25
 ---
 
-# Topic 6: Mycology, Parasitology & Immunology Basics
+# Mycology, Parasitology & Immunology Basics
 
 ## Introduction
 
@@ -78,7 +78,7 @@ Fungi are eukaryotic organisms with a rigid cell wall (containing chitin, not pe
 
 | Helminth | Transmission | Key Feature | Treatment |
 |---|---|---|---|
-| *Ascaris lumbricoides* | Fecal-oral eggs | Large roundworm; **Löffler's filaments** in lungs; high burden → malnutrition | Albendazole |
+| *Ascaris lumbricoides* | Fecal-oral eggs | Large roundworm; **Löffler's syndrome** (transient eosinophilic pneumonitis from larval lung migration); high burden → malnutrition | Albendazole |
 | *Enterobius vermicularis* | Fecal-oral eggs | **Scotch tape test**; perianal pruritus; **pinworm** | Albendazole |
 | *Ancylostoma duodenale* (Hookworm) | Barefoot walking | Iron deficiency anemia; **cutting plates** in duodenum | Albendazole |
 | *Strongyloides stercoralis* | Barefoot walking | **Threadworm**; autoinfection; can cause hyperinfection in immunocompromised | Ivermectin |
@@ -114,7 +114,7 @@ Fungi are eukaryotic organisms with a rigid cell wall (containing chitin, not pe
 
 ### Vaccines (Key Types)
 
-- **Live attenuated** — MMR, oral polio (Salk/Sabin), rotavirus, yellow fever, BCG, varicella
+- **Live attenuated** — MMR, oral polio (Sabin/OPV), rotavirus, yellow fever, BCG, varicella
 - **Inactivated/killed** — injectable polio (IPV), rabies, hepatitis A, Japanese encephalitis
 - **Toxoid** — tetanus (TT), diphtheria (DT)
 - **Polysaccharide/conjugate** — pneumococcal (PCV13/PPSV23), Hib, meningococcal, hepatitis B (recombinant HBsAg — conjugate)

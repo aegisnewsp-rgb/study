@@ -21,7 +21,7 @@ The kinetic theory of gases explains the behaviour of gases in terms of motion o
 - **Pressure:** P = (⅓) ρ v̄² = (⅓) (Nm/v) v̄²
 - **RMS Velocity:** v_rms = √(3P/ρ) = √(3kT/m) = √(3RT/M)
 - **Average KE:** (½) mv̄² = (3/2) kT per molecule
-- **Degrees of Freedom:** f = 2 for monoatomic, 5 for diatomic, 6 for polyatomic
+- **Degrees of Freedom:** f = 3 for monoatomic, 5 for diatomic, 6 for polyatomic
 - **Equipartition Theorem:** Energy equally distributed among degrees of freedom — each degree gets (½) kT
 - **Gas Law:** PV = nRT (universal gas constant R = 8.314 J/mol·K)
 

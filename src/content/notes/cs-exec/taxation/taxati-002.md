@@ -41,7 +41,7 @@ The constitutional foundation for GST in India was laid by the **101st Constitut
 
 6. **Article 368** — Amended to include GST-related provisions that require a special majority for amendment.
 
-7. **Article 279B** — Provides for the Goods and Services Tax Council to be a constitutional body (though the Council as formed is a statutory body under Article 279A).
+7. **GST Council under Article 279A** — The GST Council is a **constitutional body** created directly by Article 279A (not a statutory body), tasked with making recommendations on GST to the Union and the States. (Note: the 101st Amendment inserted no separate "Article 279B." An Article 279B proposing a GST Dispute Settlement Authority appeared only in the abandoned 2011 GST Bill and was never enacted.)
 
 8. **Subsuming of Entry 54 of List II (State List)** — Taxes on the sale of goods (VAT) was a State subject; this has been subsumed into GST.
 
@@ -55,7 +55,7 @@ This article is the **cornerstone of GST legality** — it overrides the general
 
 ### 1.2 Article 279A — GST Council
 
-**Article 279A** of the Constitution formally established the **GST Council**. While the article provides for the Council's establishment, the Council itself is a **statutory body** constituted under the CGST Act, 2017.
+**Article 279A** of the Constitution formally established the **GST Council**. The Council is therefore a **constitutional body** created directly by Article 279A — not a statutory body under any ordinary law. (The President constituted it by notification on 15th September 2016, in exercise of the power conferred by Article 279A.)
 
 #### Composition of the GST Council (Article 279A):
 

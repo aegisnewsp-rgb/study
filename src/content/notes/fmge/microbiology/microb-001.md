@@ -4,14 +4,14 @@ examName: FMGE
 subject: microbiology
 subjectName: Microbiology
 topic: microb-001
-topicName: "Topic 1: Microbial Morphology & Staining"
+topicName: "Microbial Morphology & Staining"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
 lastUpdated: 2026-03-25
 ---
 
-# Topic 1: Microbial Morphology & Staining
+# Microbial Morphology & Staining
 
 ## Introduction
 

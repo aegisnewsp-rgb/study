@@ -4,14 +4,14 @@ examName: MUET (Malaysia)
 subject: listening
 subjectName: "Listening (Paper 1)"
 topic: listen-005
-topicName: "Topic 5: Practice Tests & Exam Strategy"
+topicName: "Practice Tests & Exam Strategy"
 weight: 3
 country: malaysia
 generated: "2026-03-25T17:00:00"
 lastUpdated: 2026-03-25
 ---
 
-# Topic 5: Practice Tests & Exam Strategy
+# Practice Tests & Exam Strategy
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

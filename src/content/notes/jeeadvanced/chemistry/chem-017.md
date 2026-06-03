@@ -106,7 +106,7 @@ Ni²⁺/Ni: -0.25 V
 Cu²⁺/Cu: +0.34 V
 Zn²⁺/Zn: -0.76 V
 ```
-More negative E° means stronger reducing agent. Mn²⁺ is the most stable d² ion in aqueous solution (has half-filled d⁵ configuration). Cr³⁺ is stable because of half-filled t₂g in octahedral field.
+More negative E° means stronger reducing agent. Mn²⁺ is the most stable d⁵ ion in aqueous solution (it has the extra-stable half-filled 3d⁵ configuration). Cr³⁺ is stable because of half-filled t₂g in octahedral field.
 
 **Potassium Dichromate (K₂Cr₂O₇):**
 - Orange-red crystals, soluble in water

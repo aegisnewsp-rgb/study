@@ -4,14 +4,14 @@ examName: KUCCPS (Kenya)
 subject: subject-clusters
 subjectName: Subject Clusters
 topic: subjec-003
-topicName: "Topic 3: Cluster 3 — Law"
+topicName: "Cluster 3 — Law"
 weight: 3
 country: kenya
 generated: "2026-03-25T17:00:00"
 lastUpdated: 2026-03-25
 ---
 
-# Topic 3: Cluster 3 — Law
+# Cluster 3 — Law
 
 ## What Is Cluster 3?
 

@@ -4,14 +4,14 @@ examName: FMGE
 subject: microbiology
 subjectName: Microbiology
 topic: microb-004
-topicName: "Topic 4: Gram-Negative Cocci, Bacilli & Enterobacteriaceae"
+topicName: "Gram-Negative Cocci, Bacilli & Enterobacteriaceae"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
 lastUpdated: 2026-03-25
 ---
 
-# Topic 4: Gram-Negative Cocci, Bacilli & Enterobacteriaceae
+# Gram-Negative Cocci, Bacilli & Enterobacteriaceae
 
 ## Introduction
 
@@ -32,7 +32,7 @@ Gram-negative bacteria are responsible for a vast array of human infections, fro
 
 **Laboratory diagnosis:**
 - Gram stain of CSF — gram-negative diplococci within WBCs
-- Culture on **chocolate agar** (not blood agar — requires factors X and V from heated blood)
+- Culture on **chocolate agar** (grows poorly on plain blood agar — gentle heating of the blood inactivates inhibitory substances and releases enriching nutrients). Note: X (hemin) and V (NAD) factor dependence is a feature of *Haemophilus*, NOT meningococcus.
 - Throat swab culture
 - Latex agglutination for capsular antigen detection
 

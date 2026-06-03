@@ -4,7 +4,7 @@ examName: NABE (Pakistan)
 subject: subject-specific
 subjectName: Subject Specific
 topic: subjec-001
-topicName: "Topic 1: Quantitative Aptitude Basics for NABE"
+topicName: "Quantitative Aptitude Basics for NABE"
 weight: 3
 country: pakistan
 generated: "2026-03-25T17:00:00"
@@ -13,7 +13,7 @@ diagramPrompt: "A visual showing the formula triangle for Ratio & Proportion, Pe
 
 ---
 
-# Topic 1: Quantitative Aptitude Basics for NABE
+# Quantitative Aptitude Basics for NABE
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

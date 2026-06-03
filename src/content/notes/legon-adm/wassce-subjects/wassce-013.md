@@ -4,14 +4,14 @@ examName: Legon Admissions (Ghana)
 subject: wassce-subjects
 subjectName: "Wassce-Subjects"
 topic: wassce-013
-topicName: "Topic 13: Statistics and Probability"
+topicName: "Statistics and Probability"
 weight: 3
 country: ghana
 generated: "2026-03-25T17:00:00"
 lastUpdated: 2026-03-25
 ---
 
-# Topic 13: Statistics and Probability
+# Statistics and Probability
 
 ### 🟢 Lite — Quick Review (1h–1d)
 

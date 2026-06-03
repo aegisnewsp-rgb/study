@@ -4,14 +4,14 @@ examName: Legon Admissions (Ghana)
 subject: wassce-subjects
 subjectName: "Wassce-Subjects"
 topic: wassce-001
-topicName: "Topic 1: Number Theory and Basic Arithmetic"
+topicName: "Number Theory and Basic Arithmetic"
 weight: 3
 country: ghana
 generated: "2026-03-25T17:00:00"
 lastUpdated: 2026-03-25
 ---
 
-# Topic 1: Number Theory and Basic Arithmetic
+# Number Theory and Basic Arithmetic
 
 ### 🟢 Lite — Quick Review (1h–1d)
 

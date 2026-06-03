@@ -91,7 +91,7 @@ The lanthanide contraction has three measurable consequences that JEE Advanced e
 
 1. **Similar radii in transition series:** Zr (atomic radius 160 pm) and Hf (159 pm) are nearly identical in size. This occurs because the reduction in atomic size from the lanthanide contraction (+4f electrons have very poor shielding, 0.35 of d-electron shielding) exactly compensates for the normal periodic decrease. The same applies to Nb/Ta and Mo/W pairs.
 
-2. **Basicity of Ln³⁺ ions:** Basicity is inversely related to charge density. La³⁺ has the largest ionic radius (103 pm, coordination number 6) and therefore the lowest charge density, making it the most basic. As ionic radius decreases across the series, charge density increases, making cations more acidic (harder Lewis acids). This affects their behaviour in complexes: heavier lanthanides form more stable complexes with ligands like EDTA.
+2. **Basicity of Ln³⁺ ions:** Basicity is inversely related to charge density. La³⁺ has the largest ionic radius (116 pm, coordination number 6) and therefore the lowest charge density, making it the most basic. As ionic radius decreases across the series, charge density increases, making cations more acidic (harder Lewis acids). This affects their behaviour in complexes: heavier lanthanides form more stable complexes with ligands like EDTA.
 
 3. **Progressive change in properties:** Colour, magnetic moment, and standard electrode potentials all vary systematically. For example, La³⁺ is colourless (4f⁰), while many Ln³⁺ ions are coloured due to f-f transitions. Gd³⁺ (4f⁷) is colourless; Tb³⁺ (4f⁸) is greenish; Tm³⁺ (4f¹²) is green; Yb³⁺ (4f¹³) is colourless.
 

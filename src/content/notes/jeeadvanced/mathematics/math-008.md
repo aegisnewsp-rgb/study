@@ -7,7 +7,7 @@ examName: JEE Advanced
 subject: mathematics
 subjectName: Mathematics
 topic: math-008
-topicName: AOD
+topicName: "Application of Derivatives"
 weight: 5
 country: india
 generated: "2026-03-24T08:32:07.937291"
@@ -18,7 +18,7 @@ diagramPrompt: "Mathematical diagram showing AOD concept with coordinate axes, l
 
 
 ---
-# AOD
+# Application of Derivatives
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

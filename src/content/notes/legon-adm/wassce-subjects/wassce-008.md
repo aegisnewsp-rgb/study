@@ -4,14 +4,14 @@ examName: Legon Admissions (Ghana)
 subject: wassce-subjects
 subjectName: "Wassce-Subjects"
 topic: wassce-008
-topicName: "Topic 8: Linear Equations and Inequalities"
+topicName: "Linear Equations and Inequalities"
 weight: 3
 country: ghana
 generated: "2026-03-25T17:00:00"
 lastUpdated: 2026-03-25
 ---
 
-# Topic 8: Linear Equations and Inequalities
+# Linear Equations and Inequalities
 
 ### 🟢 Lite — Quick Review (1h–1d)
 

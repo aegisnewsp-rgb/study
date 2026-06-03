@@ -4,14 +4,14 @@ examName: FMGE
 subject: microbiology
 subjectName: Microbiology
 topic: microb-003
-topicName: "Topic 3: Gram-Positive Cocci — Staphylococcus & Streptococcus"
+topicName: "Gram-Positive Cocci — Staphylococcus & Streptococcus"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
 lastUpdated: 2026-03-25
 ---
 
-# Topic 3: Gram-Positive Cocci — Staphylococcus & Streptococcus
+# Gram-Positive Cocci — Staphylococcus & Streptococcus
 
 ## Introduction
 

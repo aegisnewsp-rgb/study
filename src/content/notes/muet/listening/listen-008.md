@@ -4,14 +4,14 @@ examName: MUET (Malaysia)
 subject: listening
 subjectName: "Listening (Paper 1)"
 topic: listen-008
-topicName: "Topic 8: Interpreting Graphical Data in Listening Tasks"
+topicName: "Interpreting Graphical Data in Listening Tasks"
 weight: 3
 country: malaysia
 generated: "2026-03-25T17:00:00"
 lastUpdated: 2026-03-25
 ---
 
-# Topic 8: Interpreting Graphical Data in Listening Tasks
+# Interpreting Graphical Data in Listening Tasks
 
 ### 🟢 Lite — Quick Review (1h–1d)
 

@@ -4,14 +4,14 @@ examName: MUET (Malaysia)
 subject: listening
 subjectName: "Listening (Paper 1)"
 topic: listen-007
-topicName: "Topic 7: Understanding Opinions, Attitudes, and Emotions"
+topicName: "Understanding Opinions, Attitudes, and Emotions"
 weight: 3
 country: malaysia
 generated: "2026-03-25T17:00:00"
 lastUpdated: 2026-03-25
 ---
 
-# Topic 7: Understanding Opinions, Attitudes, and Emotions
+# Understanding Opinions, Attitudes, and Emotions
 
 ### 🟢 Lite — Quick Review (1h–1d)
 

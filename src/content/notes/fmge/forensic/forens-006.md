@@ -4,14 +4,14 @@ examName: FMGE
 subject: forensic
 subjectName: "Forensic"
 topic: forens-006
-topicName: "Topic 6: Forensic Psychiatry — Insanity Defense, Indian Evidence Act, McNagarten Rules, DIMIA"
+topicName: "Forensic Psychiatry — Insanity Defense, Indian Evidence Act, McNaghten Rules"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
 lastUpdated: 2026-03-25
 ---
 
-# Topic 6: Forensic Psychiatry — Insanity Defense, Indian Evidence Act, McNagarten Rules, DIMIA
+# Forensic Psychiatry — Insanity Defense, Indian Evidence Act, McNaghten Rules
 
 ## Introduction to Forensic Psychiatry
 
@@ -82,8 +82,6 @@ Section 84 IPC is the statutory codification of the McNaghten rule in India. The
   - Knowing that the act was **wrong**
 - The burden of proof is on the accused (preponderance of probability)
 
-**DIMIA** (Disease Incapacitating Mind's Acquired state) is sometimes used as a mnemonic: **D** — Disease of mind; **I** — Incapable; **M** — Mind's state; **A** — Act committed.
-
 ## Feigned Insanity vs. True Insanity
 
 The differentiation is clinically and forensically important as individuals may deliberately feign insanity to escape criminal responsibility.
@@ -143,7 +141,7 @@ The Mental State Examination is the psychiatric equivalent of a physical examina
 
 ## Infanticide
 
-**Infanticide** is the killing of a newborn child. Under the **Bharatiya Nyanya Sanhita (BNS) 2023, Section 80**, causing the death of a newborn child by live birth is punishable with imprisonment up to 2 years or a fine, or both. Previously, this fell under **Section 315 IPC** (acts to prevent child being born alive or to cause it to die after birth).
+**Infanticide** is the killing of a newborn child. Under the **Bharatiya Nyaya Sanhita (BNS) 2023, Section 91** (act done with intent to prevent a child being born alive or to cause it to die after birth), such an act done with the relevant intent is punishable with imprisonment of either description up to 10 years, or a fine, or both. Previously, this fell under **Section 315 IPC** (acts to prevent child being born alive or to cause it to die after birth).
 
 **Signs of a newborn** include: crown-heel length greater than 45 cm, weight greater than 2.5 kg, head circumference greater than 33 cm, fontanelles (anterior fontanelle 2.5–4 cm), nails reaching fingertips, descended testes in term male infants, and presence of lanugo (which disappears at term — its presence indicates prematurity).
 
@@ -158,4 +156,4 @@ Hymen examination has **very limited medicolegal value**. The hymen is a membran
 - **Section 63 BNS (Section 375 IPC) — Rape:** Sexual intercourse without consent, by threat, or against the law of nature
 - **Section 64 BNS (Section 376 IPC) — Punishment for Rape:** Rigorous imprisonment not less than 10 years, which may extend to life
 - **Section 90 BNS — Sexual Intercourse by Person in Authority**
-- **Section 66 BNS (Section 377 IPC, decriminalised 2018):** Unnatural offences — decriminalised for consenting adults between peers; still applicable in context of minors and non-consent
+- **Section 377 IPC (unnatural offences):** Decriminalised for consenting adults by the Supreme Court in *Navtej Singh Johar v. Union of India* (2018). The Bharatiya Nyaya Sanhita (BNS) 2023 contains no provision equivalent to Section 377 IPC; non-consensual acts and offences against minors are now dealt with under provisions such as the POCSO Act and the general sexual-offence sections of the BNS

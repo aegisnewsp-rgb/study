@@ -4,14 +4,14 @@ examName: KUCCPS (Kenya)
 subject: subject-clusters
 subjectName: Subject Clusters
 topic: subjec-001
-topicName: "Topic 1: Cluster 1 — Engineering"
+topicName: "Cluster 1 — Engineering"
 weight: 3
 country: kenya
 generated: "2026-03-25T17:00:00"
 lastUpdated: 2026-03-25
 ---
 
-# Topic 1: Cluster 1 — Engineering
+# Cluster 1 — Engineering
 
 ## What Is Cluster 1?
 

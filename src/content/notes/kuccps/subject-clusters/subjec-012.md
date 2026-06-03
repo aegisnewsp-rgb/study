@@ -4,14 +4,14 @@ examName: KUCCPS (Kenya)
 subject: subject-clusters
 subjectName: Subject Clusters
 topic: subjec-012
-topicName: "Topic 12: Cluster 12 — Health Sciences"
+topicName: "Cluster 12 — Health Sciences"
 weight: 3
 country: kenya
 generated: "2026-03-25T17:00:00"
 lastUpdated: 2026-03-25
 ---
 
-# Topic 12: Cluster 12 — Health Sciences
+# Cluster 12 — Health Sciences
 
 ## What Is Cluster 12?
 

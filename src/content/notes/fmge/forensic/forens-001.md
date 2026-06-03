@@ -4,14 +4,14 @@ examName: FMGE
 subject: forensic
 subjectName: "Forensic"
 topic: forens-001
-topicName: "Topic 1: Thanatology — Types of Death, Signs of Death, Changes After Death"
+topicName: "Thanatology — Types of Death, Signs of Death, Changes After Death"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
 lastUpdated: 2026-03-25
 ---
 
-# Topic 1: Thanatology — Types of Death, Signs of Death, Changes After Death
+# Thanatology — Types of Death, Signs of Death, Changes After Death
 
 ## Introduction to Thanatology
 
@@ -67,7 +67,7 @@ These appear at the moment of death and include cessation of respiration (no che
 
 ### Early Postmortem Signs (Within First Few Hours)
 
-**Algor Mortis (Postmortem Cooling):** The body loses heat after death. The cooling rate is approximately **1–1.5°F (0.5–1°C) per hour** under normal atmospheric conditions, following Newton's Law of Cooling. The **Glaister formula** estimates time since death as: (98.4°F – rectal temperature in °F) × 1.5 = hours since death. Cooling is accelerated in hypothermia, drowning in cold water, and in cachectic bodies. Cooling is delayed in obese individuals, hot climates, septicemia, and phencyclidine intoxication.
+**Algor Mortis (Postmortem Cooling):** The body loses heat after death. The cooling rate is approximately **1–1.5°F (0.5–1°C) per hour** under normal atmospheric conditions, following Newton's Law of Cooling. The **Glaister formula** estimates time since death as: (98.4°F – rectal temperature in °F) ÷ 1.5 = hours since death (the divisor of 1.5 reflects the assumed average cooling rate of ~1.5°F per hour). Cooling is accelerated in hypothermia, drowning in cold water, and in cachectic bodies. Cooling is delayed in obese individuals, hot climates, septicemia, and phencyclidine intoxication.
 
 **Rigor Mortis (Postmortem Stiffening):** A unique form of muscular stiffening caused by the combination of exhaustion of ATP and accumulation of lactic acid. It typically begins **2–4 hours after death**, first affecting the **small muscles of the jaw and eyelids**, then spreading to larger muscles. Rigor mortis is fully established at **6–12 hours** and disappears after **24–48 hours** due to autolysis. Its forensic importance lies in estimating the postmortem interval and determining whether a body has been moved after death. Rigor mortis is affected by ambient temperature — it develops faster in hot conditions and is delayed in cold environments. It is also influenced by the cause of death: developing rapidly after deaths from sepsis, convulsive disorders, and drowning in cold water.
 

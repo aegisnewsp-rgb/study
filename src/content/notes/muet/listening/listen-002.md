@@ -4,14 +4,14 @@ examName: MUET (Malaysia)
 subject: listening
 subjectName: "Listening (Paper 1)"
 topic: listen-002
-topicName: "Topic 2: Note-Taking & Information Extraction"
+topicName: "Note-Taking & Information Extraction"
 weight: 3
 country: malaysia
 generated: "2026-03-25T17:00:00"
 lastUpdated: 2026-03-25
 ---
 
-# Topic 2: Note-Taking & Information Extraction
+# Note-Taking & Information Extraction
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

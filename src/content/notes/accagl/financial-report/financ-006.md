@@ -11,7 +11,7 @@ generated: "2026-03-25T17:00:00"
 lastUpdated: 2026-03-25
 ---
 
-# Topic 6: Revenue Recognition & Contracts with Customers
+# Revenue Recognition & Contracts with Customers
 
 ### 🟢 Lite — Quick Review (1h–1d)
 

@@ -4,14 +4,14 @@ examName: Legon Admissions (Ghana)
 subject: wassce-subjects
 subjectName: "Wassce-Subjects"
 topic: wassce-009
-topicName: "Topic 9: Quadratic Equations"
+topicName: "Quadratic Equations"
 weight: 3
 country: ghana
 generated: "2026-03-25T17:00:00"
 lastUpdated: 2026-03-25
 ---
 
-# Topic 9: Quadratic Equations
+# Quadratic Equations
 
 ### 🟢 Lite — Quick Review (1h–1d)
 

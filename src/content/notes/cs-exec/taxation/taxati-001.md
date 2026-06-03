@@ -28,10 +28,10 @@ This chapter covers the basic structure of the Income Tax Act, 1961; important d
 **Important Definitions under Section 2:**
 - **Assesse** (Sec 2(7)): Any person on whom tax is payable — includes every person whose total income exceeds the maximum amount not chargeable to tax
 - **Assessment Year** (Sec 2(9)): The period from 1st April to 31st March following the previous year; AY 2025-26 = year ending 31.03.2026 (previous year being FY 2024-25)
-- **Previous Year** (Sec 2(44)): The financial year (1st April to 31st March) immediately preceding the assessment year
+- **Previous Year** (Sec 3, term defined in Sec 2(34)): The financial year (1st April to 31st March) immediately preceding the assessment year
 - **Person** (Sec 2(31)): Includes individual, HUF, company, firm, AOP/BOI, artificial juridical person, local authority, and every unspecified person
 - **Income** (Sec 2(24)): Includes profits and gains, dividend, voluntary contributions received by a religious/charitable trust, lottery/horse race winnings, and any specific provision
-- **Total Income** (Sec 2(40)): The aggregate income computed under the Act under the five heads of income, after claiming deductions under Chapter VI-A
+- **Total Income** (Sec 2(45)): The aggregate income computed under the Act under the five heads of income, after claiming deductions under Chapter VI-A
 - **Gross Total Income**: Total income before deductions under Chapter VI-A
 
 **Residential Status (Sec 6) — Quick Reference:**
@@ -60,7 +60,7 @@ This chapter covers the basic structure of the Income Tax Act, 1961; important d
 
 **Key Points for Exam:**
 - Previous Year = Financial Year preceding Assessment Year
-- Deemed individuals u/s 10(38) — short-term capital gains on listed securities taxable at 15%
+- Short-term capital gains on STT-paid listed securities (equity shares/equity-oriented MF) are taxable at 15% u/s 111A (20% for transfers on/after 23 July 2024)
 - RNOR status means no benefit of treaty rates for overseas income
 - Section 9 covers deemed residency for Indian citizens with foreign assignments
 - Agricultural income is exempt under Sec 10(1) but is relevant for rate computation (partial integration)
@@ -124,7 +124,7 @@ The assessment year is a period of 12 months commencing on 1st April every year.
 
 **Important Note:** In the case of a business or profession that is newly set up, the previous year is the Financial Year in which the business commences. In the case of a business discontinued, the previous year is the Financial Year in which the business is discontinued.
 
-**Previous Year [Sec 2(44)]:**
+**Previous Year [Sec 3; term defined in Sec 2(34)]:**
 The previous year is the Financial Year immediately preceding the Assessment Year. The FY runs from 1st April to 31st March.
 
 **Illustration 2:** If a company files its return for AY 2025-26, the relevant previous year is FY 2024-25 (1st April 2024 to 31st March 2025).
@@ -207,7 +207,7 @@ A company is a resident in India if:
 **For Firms, AOP, BOI:**
 Only two categories: Resident or Non-Resident. No ROR/RNOR distinction.
 
-**Deemed Residents (Sec 2(47A)):**
+**Deemed Residents (Sec 6(1A)):**
 An Indian citizen or a person of Indian origin who:
 - Has total income (excluding foreign income) exceeding ₹3 lakh in a year; AND
 - Is not liable to tax in any other country by reason of domicile/residence
@@ -275,7 +275,7 @@ Key exemptions relevant for CS Executive students:
 - **Sec 10(14)**: Special allowances (children education, hostel, transport, medical, etc.) up to specified limits
 - **Sec 10(17)**: Daily allowance and official tours
 - **Sec 10(26)**: Income of a member of a Scheduled Tribe residing in specified areas
-- **Sec 10(33)**: Exempt income from equity shares (STT-paid) — but Sec 10(38) taxes short-term gains on listed securities at 15%
+- **Sec 10(33)**: Exempt income from transfer of specified Unit Trust of India units — note that short-term capital gains on STT-paid listed securities are taxed at 15% u/s 111A (20% for transfers on/after 23 July 2024), not under Sec 10
 - **Sec 10(34)**: Dividend from domestic company (exempt in hands of recipient; subject to DDT at company level)
 - **Sec 10(35)**: Income from units of UTI/Mutual Fund (specified)
 - **Sec 10(38)**: Long-term capital gains on listed equity shares/equity-oriented MF exceeding ₹1,25,000 at 12.5% (with Rebate 87A for income up to ₹7L)
@@ -540,7 +540,7 @@ Ms. Nisha, an Indian citizen, returned to India permanently on 1st June, 2024 af
 
 This is the common "returning Indian" pattern: a long-term expatriate who comes back and stays more than 182 days becomes Resident immediately, but takes RNOR status until the ordinary-residency conditions are met in later years.
 
-**Deemed Residents under Sec 2(47A) — Analysis:**
+**Deemed Residents under Sec 6(1A) — Analysis:**
 
 This is an important provision introduced by the Finance Act, 2020 to target wealthy Indian expatriates who claim non-residency to avoid tax. An Indian citizen is a "deemed resident" if:
 

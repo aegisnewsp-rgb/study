@@ -4,14 +4,14 @@ examName: KUCCPS (Kenya)
 subject: subject-clusters
 subjectName: Subject Clusters
 topic: subjec-013
-topicName: "Topic 13: Cluster 13 — Environmental Sciences"
+topicName: "Cluster 13 — Environmental Sciences"
 weight: 3
 country: kenya
 generated: "2026-03-25T17:00:00"
 lastUpdated: 2026-03-25
 ---
 
-# Topic 13: Cluster 13 — Environmental Sciences
+# Cluster 13 — Environmental Sciences
 
 ## What Is Cluster 13?
 

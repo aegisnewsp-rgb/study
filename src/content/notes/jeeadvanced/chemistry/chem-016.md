@@ -29,7 +29,7 @@ The p-block spans Groups 13–18 in the periodic table, containing elements with
 
 **Group 13 (Boron Family):** B, Al, Ga, In, Tl
 - General electronic configuration: ns²np¹
-- Al shows +1 oxidation state (inert pair effect), while B shows +3
+- Both B and Al predominantly show the +3 oxidation state; the +1 state (inert pair effect) becomes significant only for the heavier members (Ga, In) and is most stable for Tl, where +1 dominates over +3
 - Boron forms covalent compounds (BX₃), Aluminum forms ionic (Al₂O₃)
 - Important: Al(OH)₃ is amphoteric — reacts with both acids and bases
   Al(OH)₃ + 3HCl → AlCl₃ + 3H₂O

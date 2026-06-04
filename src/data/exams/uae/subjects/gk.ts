@@ -1,8 +1,8 @@
 export const gk: Subject = {
   id: 'gk', name: 'Gk', color: '#6b7280',
   topics: [
-    { id: 'gk-001', name: 'Topic 1', weight: 3 as const },
-    { id: 'gk-002', name: 'Topic 2', weight: 3 as const },
+    { id: 'gk-001', name: 'UAE Geography and Environment', weight: 3 as const },
+    { id: 'gk-002', name: 'Current Affairs — International Relations', weight: 3 as const },
     { id: 'gk-003', name: 'Topic 3', weight: 3 as const },
     { id: 'gk-004', name: 'Topic 4', weight: 3 as const },
     { id: 'gk-005', name: 'Topic 5', weight: 3 as const },

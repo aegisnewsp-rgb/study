@@ -4,148 +4,95 @@ examName: FMGE
 subject: forensic
 subjectName: "Forensic"
 topic: forens-004
-topicName: Topic 4
+topicName: "Forensic Toxicology — Classification of Poisons, Common Poisonings, Medicolegal Autopsy & Management"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-05-27"
+lastUpdated: 2026-06-03
 ---
 
-# Topic 4
+# Forensic Toxicology — Classification of Poisons, Common Poisonings, Medicolegal Autopsy & Management
 
-### 🟢 Lite — Quick Review (1h–1d)
+## Introduction to Forensic Toxicology
 
-> Rapid summary for last-minute revision before your exam.
+Toxicology is the study of poisons — their source, properties, mode of action, symptoms, fatal dose and period, treatment, and medicolegal aspects. **Forensic (medicolegal) toxicology** applies this knowledge to questions of law: was a death due to poisoning, was it suicidal, homicidal, or accidental, and what evidence will stand in court. A **poison** is any substance which, when administered into or applied to the body in a small quantity, produces ill health or death by its chemical action. For FMGE, the high-yield areas are the classification of poisons, the features of poisons common in India (organophosphates, aluminium phosphide, corrosives, arsenic, opioids, and datura), the correct preservation of viscera, and the principles of management.
 
-**Plant Anatomy** is the study of the internal microscopic structure of plant tissues, organs (root, stem, leaf), and their functional organization. Plant tissues are broadly classified into **meristematic** (actively dividing) and **permanent** (differentiated).
+## Relevant Law
 
-Three types of simple permanent tissues:
-- **Parenchyma** — thin-walled, living, storage
-- **Collenchyma** — corner-thickened walls, living, flexible support
-- **Sclerenchyma** — lignified walls, dead, protection
+A doctor's handling of a suspected poisoning case is governed by statute. The **Poisons Act, 1919** regulates the import, possession, and sale of poisons, and the **Drugs and Cosmetics Act, 1940** controls the manufacture and sale of drugs. Under the Indian Penal Code, **Section 328 IPC** punishes causing hurt by means of poison or any stupefying, intoxicating, or unwholesome substance with intent to commit an offence, and **Section 284 IPC** punishes negligent conduct with respect to a poisonous substance. Deaths from poisoning with criminal intent are dealt with under the general homicide provisions (Sections 299 and 300 IPC). A case of suspected homicidal or suicidal poisoning is a **medicolegal case**, and the treating doctor must inform the police.
 
-Two types of complex permanent tissues:
-- **Xylem** — conducts water (tracheids, vessels, parenchyma, fibers)
-- **Phloem** — conducts food (sieve tubes, companion cells, parenchyma, fibers)
+## Classification of Poisons
 
-**Primary growth** occurs at apical meristems; **secondary growth** in dicots involves vascular cambium (producing secondary xylem/phloem) and cork cambium (periderm).
+Poisons are classified by their predominant mode of action.
 
-Dicot vs Monocot: dicot roots show fewer radial bundles (2–6); monocot roots show polyarch bundles (many). Dicot stems have vascular bundles in a ring; monocot stems have scattered bundles.
+### Corrosives
+Substances that produce local destruction (chemical burns) of tissue on contact:
+- **Strong acids:** sulphuric acid (oil of vitriol), nitric acid (aqua fortis), hydrochloric acid. Acids produce **coagulative necrosis** with a dry, leathery eschar.
+- **Strong alkalis:** sodium and potassium hydroxide. Alkalis produce **liquefactive (colliquative) necrosis** with a soft, soapy, translucent slough — deeper penetration than acids.
+- **Organic/weaker corrosives:** oxalic acid, carbolic acid (phenol).
 
-**Key facts for FMGE:**
-- **Casparian strip** on endodermal radial walls blocks apoplastic water flow — forces water into cells
-- **Annual rings** form from spring wood (wide vessels) vs autumn wood (narrow vessels)
-- **Stomatal types**: anomocytic (no subsidiary cells), anisocytic (3 unequal), diacytic (2 subsidiary cells at right angles), paracytic (2 parallel)
-- Tylosis = ballooning of parenchyma into xylem vessels, seen in heartwood formation
+### Irritants
+Produce inflammation and irritation of the tissues:
+- **Inorganic — non-metallic:** phosphorus, chlorine, bromine, iodine.
+- **Inorganic — metallic:** arsenic, mercury, lead, copper, antimony, thallium.
+- **Inorganic — mechanical:** powdered glass, diamond dust.
+- **Organic — vegetable:** castor (ricin), croton, *Abrus precatorius* (jequirity/rosary pea), calotropis.
+- **Organic — animal:** snake venom, cantharides (Spanish fly), insect and scorpion stings.
 
----
+### Neurotics (acting chiefly on the nervous system)
+- **Cerebral:** somniferous (opium and its alkaloid morphine); inebriants (ethyl alcohol, ether, chloroform); deliriants (datura, cannabis, cocaine, belladonna/atropine).
+- **Spinal:** excitant — strychnine (from *nux vomica*); depressant — gelsemium.
+- **Peripheral:** curare, conium (hemlock).
 
-### 🟡 Standard — Regular Study (2d–2mo)
+### Cardiac Poisons
+Aconite (the most rapidly fatal vegetable poison), digitalis, oleander (yellow and white), nicotine, and tobacco.
 
-> Standard content for students with a few days to months.
+### Asphyxiants (irrespirable gases)
+Carbon monoxide, carbon dioxide, hydrogen sulphide, and war/irritant gases.
 
-## Meristematic Tissues
+### Miscellaneous (agricultural and household)
+Organophosphates and carbamates, organochlorines, aluminium phosphide, and kerosene/hydrocarbons.
 
-Meristems are classified by **location** and **function**:
-- **Apical meristem**: shoot tip and root tip — primary growth, produce primary tissues
-- **Lateral meristem**: vascular cambium and cork cambium — secondary growth, increase girth
-- **Intercalary meristem**: base of internodes in monocots — growth in length
+## Factors Modifying the Action of a Poison
 
-Note: intercalary meristem is classified by position, not origin (it is derived from apical meristem activity).
+The clinical and fatal effect of a poison depends on the **dose**, the **physical form** (gas > liquid > powder > solid; a poison must dissolve to act), the **concentration**, and the **route of administration** (inhalation and intravenous routes act fastest, followed by intramuscular, subcutaneous, oral, and dermal). Patient factors also matter: **age** (children and the elderly are more susceptible), **state of health**, **sleep** (slows absorption), **idiosyncrasy and hypersensitivity**, **tolerance** (as seen with chronic opioid use), and **cumulative effect** (slowly excreted poisons such as arsenic and lead).
 
-## Simple Permanent Tissues
+## Ideal Homicidal vs. Suicidal Poison
 
-| Tissue | Wall | Cell state | Function |
-|---|---|---|---|
-| Parenchyma | Thin, cellulose | Living | Storage, photosynthesis |
-| Collenchyma | Corner-thickened pectin | Living | Tensile strength, flexible support |
-| Sclerenchyma | Uniform lignified | Dead | Hard protection |
+An **ideal homicidal poison** is cheap, easily available, colourless, odourless, and tasteless (so it can be mixed with food), produces symptoms resembling a natural disease, and leaves no characteristic post-mortem appearance — classic examples are **arsenic, aconite, and thallium**. An **ideal suicidal poison** is one that is easily available, cheap, capable of causing painless death with certainty, and acts reliably — examples in India include **organophosphates, aluminium phosphide, opium, and barbiturates**.
 
-## Complex Permanent Tissues
+## Common Poisonings in India (High-Yield)
 
-**Xylem (tracheary system):** Tracheids (elongated, tapering ends) and vessel elements (shorter, perforated end walls) conduct water. Both are dead. Parenchyma stores food; fibers provide mechanical support.
+### Organophosphorus Compounds
+Insecticides such as malathion and parathion. They **irreversibly inhibit acetylcholinesterase**, causing accumulation of acetylcholine. Features are **muscarinic** (the SLUDGE complex — salivation, lacrimation, urination, defaecation, gastrointestinal cramps, emesis; plus bradycardia, bronchorrhoea, and miosis), **nicotinic** (muscle fasciculations, weakness, paralysis), and **CNS** (confusion, convulsions, coma). The breath may smell of garlic. **Management: atropine** (to reverse muscarinic effects, titrated to drying of secretions) **plus pralidoxime / 2-PAM** (a cholinesterase reactivator, most useful early before "ageing" of the enzyme).
 
-**Phloem (sieve-tube system):** Sieve tube elements are living but lack nuclei — conduction depends on companion cells (nucleated sister cells). Phloem parenchyma stores; fibers provide support.
+### Aluminium Phosphide (Celphos, "rice tablet")
+A very common fatal poisoning in agricultural India. On contact with moisture and gastric acid it liberates **phosphine gas**, which blocks cellular respiration. It causes profound, refractory **circulatory shock and metabolic acidosis**; the breath and gastric contents smell of garlic/decaying fish. There is **no specific antidote** — management is supportive, with airway protection, correction of acidosis and shock, and gastric lavage (some use potassium permanganate or coconut oil to retard phosphine release).
 
-## Dicot vs Monocot Anatomy
+### Arsenic
+The classic homicidal poison. **Acute** poisoning produces severe vomiting and "**rice-water stools**" with a garlic odour, mimicking cholera or gastroenteritis. **Chronic** poisoning produces "**raindrop**" skin pigmentation, hyperkeratosis, **Mee's lines** (transverse white bands on the nails), and peripheral neuropathy. Arsenic is deposited in hair and nails and can be detected **long after death** (the **Reinsch and Marsh tests** are classic detection methods). **Antidote: BAL (dimercaprol)**, or oral DMSA/DMPS.
 
-**Dicot root (radial bundle):** Pericycle → xylem bundles (2–6, alternating with phloem) arranged radially → endodermis with Casparian strip → cortex → hypodermis → epidermis. Pith may be present.
+### Corrosive Poisoning
+Acids and alkalis produce chemical burns of the lips, mouth, oesophagus, and stomach with intense pain, dysphagia, and risk of perforation; late complications include oesophageal and pyloric stricture. **Gastric lavage and emetics are contraindicated** (risk of re-exposing tissues and perforation); management is dilution, airway protection, and supportive care.
 
-**Monocot root (polyarch):** Many xylem bundles scattered around pith; no secondary growth possible. Pericycle may be indistinct; lateral roots arise directly from endodermis.
+### Opioids (Opium / Morphine / Heroin)
+The classic triad is **pinpoint (miotic) pupils, respiratory depression, and coma**. **Antidote: naloxone**, a competitive opioid antagonist.
 
-**Dicot stem:** Vascular bundles in a ring, open (cambium present between bundles), phloem outside xylem — conjoint collateral. Interfascicular cambium connects procambium bundles.
+### Datura (Dhatura)
+Known as the "**poison of highway robbers**" for its use in stupefying victims. Its alkaloids (atropine, hyoscine) are **anticholinergic**, producing the classic picture: "**blind as a bat** (mydriasis, blurred vision), **dry as a bone** (dry mouth and skin), **red as a beet** (flushing), **hot as a hare** (hyperthermia), and **mad as a hatter** (delirium, hallucinations)." Management is supportive; **physostigmine** may be used in severe anticholinergic toxicity.
 
-**Monocot stem:** Vascular bundles scattered in ground tissue, closed (no cambium), no pith. No secondary growth.
+### Carbon Monoxide
+A colourless, odourless gas with about **240 times the affinity of oxygen for haemoglobin**, forming carboxyhaemoglobin and causing tissue hypoxia. The characteristic post-mortem finding is **cherry-red** discoloration of the skin, lividity, and blood. Treatment is **100% oxygen** (hyperbaric oxygen in severe cases).
 
-## Secondary Growth in Dicots
+### Snake Bite
+**Neurotoxic** venom (cobra, krait) causes ptosis, bulbar palsy, and respiratory paralysis; **vasculotoxic/haemotoxic** venom (vipers) causes local swelling, bleeding, and coagulopathy. Treatment is **polyvalent anti-snake venom (ASV)** with supportive care.
 
-Vascular cambium produces **secondary xylem** inward and **secondary phloem** outward per season. **Annual rings** form because spring wood (earlywood) has wider vessels for rapid water conduction; autumn wood (latewood) has narrow vessels. The number of rings ≈ age of the branch.
+## Medicolegal Autopsy and Preservation of Viscera
 
-**Cork cambium (phellogen)** produces periderm (cork/phellem on outside, phelloderm on inside) replacing epidermis.
+In a suspected poisoning death, the autopsy surgeon must **preserve viscera** for chemical analysis at the Forensic Science Laboratory. The routine samples are: the **stomach and its contents**, the **upper part of the small intestine** with contents, about **500 g of liver**, **half of each kidney**, and samples of **blood and urine**. In suspected metallic poisoning, also preserve hair, nails, skin, and bone.
 
-## Leaf Anatomy
+The standard preservative is **saturated saline (common salt) solution**. Two important exceptions: for suspected **alcohol** or **carbon monoxide** poisoning, the preservative is **sodium fluoride with potassium oxalate** (fluoride prevents fermentation/neoformation or destruction of alcohol). **Formalin must never be used** as a preservative for toxicological samples, as it interferes with chemical analysis (and itself destroys or alters many poisons). Each container is sealed, labelled, and dispatched with a sample of the preservative as a control, maintaining an unbroken chain of custody.
 
-- **Dorsiventral** (dicot): distinct palisade mesophyll (compact, chloroplast-rich) above spongy mesophyll (loose, air spaces below); stomata mainly on abaxial surface
-- **Isobilateral** (monocot): both surfaces have equal palisade-like mesophyll or uniform spongy tissue; stomata on both surfaces
+## Principles of Management of Poisoning
 
-## Casparian Strip Function
-
-The endodermis has a **suberized Casparian band** on radial and transverse walls. This blocks the **apoplastic pathway** (between cells), forcing water and dissolved minerals to enter the **symplastic pathway** (through cytoplasm) or **transmembrane pathway**. Endodermal cells then actively pump minerals into the xylem via specific transporters.
-
----
-
-### 🔴 Extended — Deep Study (3mo+)
-
-> Comprehensive coverage for students on a longer study timeline.
-
-## Stomatal Types (Epidermal Structure)
-
-Stomata are classified by subsidiary cell arrangement and origin:
-
-| Type | Subsidiary cells | Pattern |
-|---|---|---|
-| **Anomocytic** (ranunculaceous) | None — surrounding epidermal cells unmodified | Wild species, common in dicots |
-| **Anisocytic** (cruciferous) | 3 — two small, one large | Mustard family |
-| **Diacytic** (caryophyllaceous) | 2 — at right angles to guard cells | Carnation family |
-| **Paracytic** (rubiaceous) | 2 — parallel to guard cells | Coffee, many monocots |
-| **Actinocytic** | 5–6 radiating around pore | Less common |
-
-Anisocytic and anomocytic are frequently tested in FMGE — the key differentiator: anisocytic has **three unequal** subsidiary cells; anomocytic has **zero**.
-
-## Tylosis and Heartwood Formation
-
-**Tylosis** refers to the outgrowth of thin-walled parenchyma cells (called **tyloses**) that protrude through **pit pairs** into the lumen of adjacent xylem vessels. This occurs when adjacent living ray parenchyma cells enlarge and push extensions through the half-bordered pit membrane into a vessel element.
-
-Tylosis is the hallmark of **heartwood (duramen) formation**: as ray parenchyma dies, tyloses block vessels, making heartwood non-conductive, darker, and resistant to decay. **Sapwood (alburnum)** retains functional vessels and lighter color.
-
-## Misconceptions and Edge Cases
-
-1. **Pericycle in monocot roots**: Many textbooks omit or minimize pericycle in monocots. Lateral roots in monocot roots arise from the **endodermis or pericycle** — since pericycle may be indistinct, endodermis actively participates.
-
-2. **Intercalary meristem origin**: Students often treat it as a separate type by origin. It is classified by position only — embryologically derived from apical meristem. In FMGE questions distinguishing "origin vs position" classification, remember: apical/lateral/intercalary = position-based.
-
-3. **Pith in dicot roots**: Not universal. In some dicots (e.g., *Ranunculus*), pith may be reduced or absent; in some monocots, pith may be well-developed. The polyarch pattern (many bundles) is the most reliable monocot identifier.
-
-## Apoplastic vs Symplastic vs Transmembrane Pathways
-
-Water in roots moves via three pathways:
-- **Apoplastic**: through cell walls and intercellular spaces — blocked by Casparian strip at endodermis
-- **Symplastic**: through plasmodesmata (cytoplasmic connections) — continues across endodermis
-- **Transmembrane**: enters one cell, exits via plasma membrane, enters next cell — bypasses Casparian wall band via active transport
-
-This has direct clinical relevance for understanding how ions are selectively loaded into xylem vessels for root pressure and guttation.
-
-## Common FMGE Traps
-
-- Describing a dicot root with many bundles (8+) — this is actually a monocot pattern
-- Identifying spring wood vs autumn wood in a diagram without noting vessel diameter
-- Confusing "closed vascular bundle" (monocot stem, no cambium) with "open bundle" (dicot stem, cambium present)
-- Forgetting that companion cells are **not** present in phloem of pteridophytes and gymnosperms — sieve cells there lack companion cells
-
-## Practice Prompts
-
-1. A photomicrograph of a dicot stem cross-section shows vascular bundles arranged in a ring with clear cambium between xylem and phloem. Identify the plant type and explain why secondary growth is possible here but not in a monocot stem of similar age.
-
-2. A leaf cross-section has stomata on both adaxial and abaxial surfaces with uniform mesophyll on both sides and bulliform cells in the adaxial epidermis. Identify the leaf type and explain the functional significance of these features in water conservation.
-
-*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+Management follows a logical sequence: (1) **stabilise** the airway, breathing, and circulation; (2) **remove unabsorbed poison** — gastric lavage (contraindicated in corrosive and convulsant poisoning and in unprotected airway) and **activated charcoal**, the "universal antidote," which adsorbs most organic poisons but is **ineffective for metals, corrosives, alcohols, and hydrocarbons**; (3) **administer antidotes** where available — physical, chemical, or physiological/pharmacological (for example atropine and pralidoxime for organophosphates, naloxone for opioids, BAL for arsenic); (4) **enhance elimination** by forced alkaline diuresis, haemodialysis, or haemoperfusion in selected poisonings; and (5) provide **supportive and symptomatic care** throughout.

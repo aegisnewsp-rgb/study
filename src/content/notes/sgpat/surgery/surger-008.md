@@ -8,40 +8,85 @@ topicName: Topic 8
 weight: 3
 country: saudi
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-06-09"
 ---
 
 # Topic 8
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
 
-**Topic 8** — Key Facts for Saudi GP Board
-Core concept: Topic 8 is an important topic in Surgery for Saudi GP Board
-High-yield point: Understand the fundamental principles and their applications
-⚡ Exam tip: Questions from Topic 8 appear regularly in Saudi GP Board
+**Fluid and Electrolyte Management in Surgery** is the practice of maintaining homeostasis by replacing water, electrolytes, and blood products based on calculated requirements and ongoing losses. The core formula for daily maintenance fluids follows the Holliday-Segar method: **100 ml/kg/day for the first 10 kg, plus 50 ml/kg/day for the next 10 kg, plus 20 ml/kg/day for the remainder** — or the simplified version: **25 ml/kg/day plus 10 ml/kg for the next 10 kg plus 5 ml/kg for remaining kg**. For burn resuscitation, the **Parkland formula** delivers 4 ml × body weight (kg) × %TBSA burned over the first 24 hours, with half administered in the first 8 hours. The **3:1 rule** applies to shock resuscitation: 3 ml crystalloid per 1 ml estimated blood loss. Target urine output is **0.5 ml/kg/h** in adults and **1 ml/kg/h** in children. Key corrections: **Anion gap = Na − (Cl + HCO₃)** and **Corrected Na = Measured Na + 1.6 × (glucose − 100)/100**. High-yield for written and OSCE — expect calculation questions on maintenance fluids, burn resuscitation volumes, and sodium correction.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
 
-**Topic 8** — Saudi GP Board Study Guide
-Overview: Topic 8 is a key Surgery topic for Saudi GP Board
-Core principles: Build a solid understanding of fundamentals
-Key points: Definitions, applications, and typical exam question patterns
-Study strategy: Theory first, then practice problems
+#### Crystalloids vs. Colloids
+
+Crystalloid solutions (e.g., normal saline, Ringer's lactate) distribute across the entire extracellular compartment — only about one-third remains intravascular after administration. Colloids (e.g., albumin, hydroxyethyl starch) remain confined to the vascular space for longer due to their larger molecular size and higher oncotic pressure, making them more volume-efficient per milliliter administered. However, colloids carry a risk of anaphylaxis and are significantly more expensive.
+
+#### Third Spacing
+
+Third spacing refers to fluid accumulation in non-functional compartments — the peritoneal cavity, interstitial tissues, or the gut lumen — following surgical trauma, sepsis, or hypoalbuminemia. This fluid is sequestered and not readily available for circulation, contributing to the "relative hypovolemia" seen post-operatively even when intravascular pressures appear adequate.
+
+#### Daily Maintenance Requirements
+
+| Electrolyte | Approximate Daily Requirement |
+|---|---|
+| Sodium | 70–100 mEq |
+| Potassium | 40–80 mEq |
+| Water | 30–40 ml/kg |
+
+Insensible losses (respiration, perspiration) average **10 ml/kg/day** and increase by **10% per °C above 37°C** in febrile patients.
+
+#### Electrolyte Correction Principles
+
+Correcting sodium disorders requires calculating the corrected sodium when hyperglycemia is present (use the formula above). Potassium replacement should never begin until urine output is confirmed adequate — administering K⁺ to an oliguric patient risks life-threatening hyperkalemia. Corrections must proceed gradually (≤8–10 mEq/L per 24 hours) to prevent cerebral edema from osmotic shifts.
+
+#### Common Exam Traps
+
+Candidates frequently confuse maintenance fluid volumes with resuscitation volumes. The Parkland formula is specifically for the **first 24 hours** — the initial half must be given within the first 8 hours post-burn. Failing to account for ongoing losses from drains, nasogastric suction, or fever consistently leads to under-resuscitation.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
 
-**Topic 8** — Comprehensive Saudi GP Board Notes
-Full coverage: Topic 8 in Surgery for Saudi GP Board preparation
-Detailed theory and concept explanations
-Problem-solving strategies and common mistakes to avoid
-Practice: Attempt previous year questions and standard textbook exercises
+#### Mechanism of Crystalloid Redistribution
 
----
+When crystalloids are infused, they equilibrate across the intravascular and interstitial compartments within 20–30 minutes. This means that for every 100 ml of crystalloid given, approximately 66 ml shifts into the interstitium and only 33 ml remains in the plasma — explaining why large-volume resuscitation with crystalloids alone can cause peripheral and pulmonary edema, particularly in patients with decreased colloid osmotic pressure (serum albumin <25 g/L).
+
+#### Colloid Osmotic Pressure and the Starling Equation
+
+Colloid osmotic pressure (COP) is generated by plasma proteins, primarily albumin, and opposes capillary hydrostatic pressure to retain fluid within the vascular compartment. Normal COP is **25–30 mmHg**. In hypoalbuminemia, COP falls, reducing the oncotic pull that keeps fluid intravascular — a critical factor when deciding whether to use crystalloids or colloids in post-surgical patients with low albumin.
+
+#### Hyaline Membrane Formation in Resuscitation
+
+In massively resuscitated trauma or burn patients, particularly when large volumes of crystalloids are used without colloid support, pulmonary edema can progress to hyaline membrane formation — proteinaceous deposits that impair gas exchange and mimic acute respiratory distress syndrome (ARDS). This complication is more likely when cumulative fluid balance exceeds 6–8 litres positive in 24 hours.
+
+#### Worked Example: Burn Resuscitation
+
+A 70 kg male with 40% TBSA burns presents at 22:00 (4 hours post-injury):
+- **Parkland total first 24h** = 4 × 70 × 40 = **11,200 ml**
+- **Half to give in first 8h** = 5,600 ml — this must be given by 06:00 (8 hours from injury)
+- **Amount to give in next 4h (from hour 4 to hour 8)** = 5,600 ml
+- Remaining 5,600 ml is given over hours 8–24
+
+#### Adjacent Topic Connections
+
+- **Fluid responsiveness**: Fluid challenges of 250–500 ml over 10 minutes help distinguish responders from non-responders; static measures (CVP) are less reliable than dynamic indices.
+- **Perioperative fluid targeting**: Goal-directed fluid therapy using stroke volume variation (SVV) or oesophageal Doppler reduces post-operative complications in major abdominal surgery.
+- **AKI prevention**: Monitoring urine output, serial creatinine, and avoiding nephrotoxic agents (NSAIDs, ACE inhibitors) during resuscitation is essential.
+
+#### Common Mistakes to Avoid
+
+1. **Using maintenance formula for resuscitation** — maintenance (1–3 L/day) is vastly different from resuscitation volumes (potentially 10+ L in major burns).
+2. **Administering potassium before confirming urine output** — always ensure >0.5 ml/kg/h before starting K⁺ infusion.
+3. **Using hypertonic saline without correcting sodium first** — the corrected sodium formula must be applied in hyperglycaemic states.
+4. **Underestimating insensible losses** — febrile patients (>38°C) require an additional 10–15% fluid per degree Celsius.
+
+#### Practice Prompts
+
+1. A 55 kg woman is admitted with 30% TBSA burns at 08:00. Using the Parkland formula, calculate the total volume for the first 24 hours and specify how much should be infused in the first 8 hours and in the subsequent hours.
+2. A surgical patient has Na⁺ 118 mEq/L and glucose 320 mg/dL. Calculate the corrected sodium and explain why the corrected value is clinically significant for management.
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

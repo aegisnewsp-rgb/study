@@ -7,7 +7,7 @@ import os, sys, time, json, concurrent.futures, requests
 
 MINIMAX_API_KEY = os.environ.get("MINIMAX_API_KEY", "")
 MINIMAX_URL = "https://api.minimax.io/v1/text/chatcompletion_v2"
-MODEL = "MiniMax-M2.7"
+MODEL = "MiniMax-M3"
 MAX_RETRIES = 3
 BACKOFF = 10
 

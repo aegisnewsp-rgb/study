@@ -8,6 +8,7 @@ import Footer from '@components/Footer.astro';
 import { isLowValueNote } from '@data/note-quality';
 import { ALL_EXAMS, getCountryFlag } from '@data/exams';
 import { EXAM_EQUIVALENTS } from '@data/exam-equivalents';
+import { isNoindexExam } from '@data/suppressed-exams';
 
 export async function getStaticPaths() {
   const allNotes = await getCollection('notes');
@@ -33,7 +34,7 @@ const { exam, examName, subject, subjectName, topic, topicName, weight, country,
 // note with substantive content — no per-file frontmatter flag needed.
 const rawBody = (note.body || '') as string;
 const shouldNoindex = isLowValueNote(rawBody, note.data);
-const robotsDirective = shouldNoindex ? 'noindex,follow' : undefined;
+const robotsDirective = (shouldNoindex || isNoindexExam(exam)) ? 'noindex,follow' : undefined;
 
 // Handle malformed subjectName (None / undefined) — derive from subject slug
 const subjectDisplay = (subjectName && subjectName !== 'None' && subjectName !== 'null') ? subjectName : (subject.charAt(0).toUpperCase() + subject.slice(1).replace(/-/g, ' '));

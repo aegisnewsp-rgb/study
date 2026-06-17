@@ -296,6 +296,10 @@ const EXAM_WIKI_CITATIONS: Record<string, Array<{ label: string; url: string; no
   ],
 };
 const wikiCitations = EXAM_WIKI_CITATIONS[exam.examId] || [];
+
+import { isNoindexExam, DISCONTINUED_EXAMS } from '../../data/suppressed-exams';
+const examRobots = isNoindexExam(exam.examId) ? 'noindex, follow' : undefined;
+const discontinuedNotice = DISCONTINUED_EXAMS[exam.examId];
 ---
 
 <Layout
@@ -307,6 +311,7 @@ const wikiCitations = EXAM_WIKI_CITATIONS[exam.examId] || [];
   geoRegion={geoRegionMap[exam.country]}
   hreflang={hreflangMap[exam.country]}
   countryName={countryName}
+  robots={examRobots}
 >
   <style is:global>
     /* SR-THEME: Trust Academic */
@@ -333,6 +338,15 @@ const wikiCitations = EXAM_WIKI_CITATIONS[exam.examId] || [];
   <Navbar />
 
   <main id="main-content" class="flex-1">
+
+    {discontinuedNotice && (
+      <div class="bg-amber-100 dark:bg-amber-900/30 border-b border-amber-300 dark:border-amber-700/50">
+        <div class="container-page py-3 flex items-start gap-3">
+          <span class="shrink-0 text-xs font-bold tracking-widest text-amber-800 dark:text-amber-300 mt-0.5">⚠ DISCONTINUED</span>
+          <p class="text-sm text-amber-900 dark:text-amber-200 flex-1">{discontinuedNotice}</p>
+        </div>
+      </div>
+    )}
 
     {/* Live exam alert banner */}
     {liveExam && (

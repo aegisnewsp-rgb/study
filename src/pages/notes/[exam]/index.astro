@@ -5,6 +5,7 @@ import Navbar from '@components/Navbar.astro';
 import Footer from '@components/Footer.astro';
 import { isGoodNote } from '@data/note-quality';
 import { EXAM_EQUIVALENTS } from '@data/exam-equivalents';
+import { isNoindexExam } from '@data/suppressed-exams';
 
 export async function getStaticPaths() {
   const allNotes = await getCollection('notes');
@@ -21,7 +22,7 @@ const allExamNotes = allNotes.filter(n => n.id.startsWith(exam + '/'));
 // Group/list only indexable notes; if the whole exam is still low-value, noindex
 // the hub until the rewrite pipeline restores enough quality topics.
 const examNotes = allExamNotes.filter(isGoodNote);
-const examHubRobots = examNotes.length === 0 ? 'noindex,follow' : undefined;
+const examHubRobots = (examNotes.length === 0 || isNoindexExam(exam)) ? 'noindex,follow' : undefined;
 
 const firstNote = allExamNotes[0];
 const examName = firstNote?.data.examName || exam;

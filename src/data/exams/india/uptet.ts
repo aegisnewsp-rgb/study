@@ -54,7 +54,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   lastUpdated: '2026-05-30',
-  officialSource: 'https://upessc.up.gov.in/',
+  officialSource: 'https://updeled.gov.in/',
 };
 
 export default exam;

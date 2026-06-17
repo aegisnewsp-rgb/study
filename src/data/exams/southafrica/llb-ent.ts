@@ -50,7 +50,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   lastUpdated: '2026-04-06',
-  officialSource: 'https://www.che.ac.za',
+  officialSource: 'https://www.nbt.ac.za',
 };
 
 export default exam;

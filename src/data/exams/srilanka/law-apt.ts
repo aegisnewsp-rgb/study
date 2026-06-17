@@ -50,7 +50,7 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   lastUpdated: '2026-04-06',
-  officialSource: 'https://www.lawcollege.lk',
+  officialSource: 'https://www.sllc.ac.lk',
 };
 
 export default exam;

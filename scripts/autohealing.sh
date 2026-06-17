@@ -42,12 +42,22 @@ if [ -d "$REPO/news.json" ]; then
   [ -f "$REPO/dist/news.json" ] && cp -p "$REPO/dist/news.json" "$REPO/news.json"
 fi
 
-# ── Rule 1: re-lock config files ─────────────────────────────────────────────
+# ── Rule 1: ensure config files are NOT immutable (vqzo crash-trap removal) ───
+# PREVIOUSLY this re-locked the files with `chattr +i` every 10 min as an OS
+# "integrity guard". That was the ROOT CAUSE of the recurring openclaw-vqzo
+# crash loop: the container entrypoint runs `chown -R node:node /data` under
+# `set -e`, and a chown syscall on an immutable inode returns EPERM → the
+# entrypoint aborts before `exec` → unless-stopped restart loop on EVERY vqzo
+# restart (deploy / reboot / OOM / manual). These files are already protected
+# from autonomous claw edits by the merge-patches scope guard (check-scope.sh)
+# and the build/test gate, so OS-level +i was redundant and only bought outages.
+# Actively CLEAR +i so a stray lock (old script / manual chattr) can never
+# crash-loop vqzo again. (2026-06-17)
 for f in astro.config.mjs postcss.config.mjs package.json package-lock.json \
          src/layouts/Layout.astro src/styles/global.css; do
   [ -e "$f" ] || continue
-  lsattr "$f" 2>/dev/null | grep -q -- "----i" || {
-    chattr +i "$f" 2>/dev/null && log "Re-locked: $f"
+  lsattr "$f" 2>/dev/null | grep -q -- "----i" && {
+    chattr -i "$f" 2>/dev/null && log "Unlocked stale +i (vqzo crash-trap): $f"
   }
 done
 

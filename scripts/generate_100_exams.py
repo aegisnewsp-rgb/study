@@ -406,7 +406,7 @@ EXAM_DEFS = [
     # ── Other countries ────────────────────────────────────────────────────────
     ("gat",       "GAT Pakistan",             "pakistan",    [("english",10),("quantitative",10),("logical-reasoning",10)]),
     ("nlt",       "NLT Pakistan",            "pakistan",    [("english",10),("gk",10),("current-affairs",8)]),
-    ("nabe",      "NABE (Pakistan)",          "pakistan",    [("gk",10),("subject-specific",15)]),
+
     ("putme",     "Post-UTME (Nigeria)",       "nigeria",     [("english",10),("subject-combination",10)]),
     ("du-ad",     "DU Admission (Bangladesh)", "bangladesh",  [("bangla",10),("english",10),("gk",10),("science",10)]),
     ("slmc",      "SLMC Medical (Sri Lanka)", "srilanka",    [("physics",12),("chemistry",12),("biology",12),("english",8)]),

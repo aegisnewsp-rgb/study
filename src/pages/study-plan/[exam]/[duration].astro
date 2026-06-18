@@ -4,6 +4,7 @@ import Navbar from '../../../components/Navbar.astro';
 import Footer from '../../../components/Footer.astro';
 import { ALL_EXAMS, getCountryFlag } from '../../../data/exams';
 import { getStudyPlanStrategy, indexedDurationsFor } from '../../../data/study-plan-strategy';
+import { isNoindexExam } from '../../../data/suppressed-exams';
 
 export async function getStaticPaths() {
   const paths: any[] = [];
@@ -45,7 +46,9 @@ const examDurationKeys = Object.keys((exam as any).durations || {});
 const totalDaysByKey: Record<string, number> = {};
 for (const k of examDurationKeys) totalDaysByKey[k] = ((exam as any).durations?.[k]?.totalDays) || 0;
 const indexedDurations = indexedDurationsFor(examDurationKeys, totalDaysByKey);
-const studyPlanRobots = indexedDurations.has(durationKey) ? undefined : 'noindex,follow';
+const studyPlanRobots = isNoindexExam(exam.examId) || !indexedDurations.has(durationKey)
+  ? 'noindex,follow'
+  : undefined;
 
 const totalDays = (roadmap as any).totalDays || 0;
 const dailyTopics = ((roadmap as any).dailyTopics || []) as any[];

@@ -3,8 +3,11 @@ import Layout from '../layouts/Layout.astro';
 import Navbar from '../components/Navbar.astro';
 import Footer from '../components/Footer.astro';
 import { ALL_EXAMS, getCountryFlag } from '../data/exams';
+import { isNoindexExam } from '../data/suppressed-exams';
 
 import { SITE_URL } from '@data/site';
+
+const listedExams = ALL_EXAMS.filter(e => e && e.examId && !isNoindexExam(e.examId));
 
 const breadcrumbJsonLd = {
   '@context': 'https://schema.org',
@@ -28,9 +31,9 @@ const examItemList = {
   '@context': 'https://schema.org',
   '@type': 'ItemList',
   name: 'All Competitive Exams on StudyRoadmap',
-  description: `Browse ${ALL_EXAMS.length} competitive exams from India, Pakistan, Nigeria, and 16 other countries. Each exam page includes syllabus, exam pattern, eligibility criteria, and free AI study roadmap.`,
-  numberOfItems: ALL_EXAMS.length,
-  itemListElement: ALL_EXAMS.map((exam, i) => ({
+  description: `Browse ${listedExams.length} competitive exams from India, Pakistan, Nigeria, and 16 other countries. Each exam page includes syllabus, exam pattern, eligibility criteria, and free AI study roadmap.`,
+  numberOfItems: listedExams.length,
+  itemListElement: listedExams.map((exam, i) => ({
     '@type': 'ListItem',
     position: i + 1,
     name: exam.examName || exam.examId,
@@ -68,7 +71,7 @@ const byCountry = Object.fromEntries(
   Object.entries(COUNTRY_LABELS)
     .map(([code, { label, flag }]) => [
       code,
-      { label, flag, exams: ALL_EXAMS.filter(e => e.country === code) },
+      { label, flag, exams: listedExams.filter(e => e.country === code) },
     ])
     .filter(([, { exams }]) => exams.length > 0)
 );

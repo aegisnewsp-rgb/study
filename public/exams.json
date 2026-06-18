@@ -816,13 +816,6 @@
       "topicCount": 0
     },
     {
-      "examId": "nabe",
-      "examName": "NABE (Pakistan)",
-      "country": "pakistan",
-      "subjects": [],
-      "topicCount": 0
-    },
-    {
       "examId": "nabteb",
       "examName": "NABTEB",
       "country": "nigeria",
@@ -1092,7 +1085,7 @@
     },
     {
       "examId": "pcat",
-      "examName": "LEA/RX Exam (Philippines)",
+      "examName": "PCAT (Philippines)",
       "country": "philippines",
       "subjects": [],
       "topicCount": 0
@@ -1229,7 +1222,7 @@
     },
     {
       "examId": "toafa",
-      "examName": "TOAFL (Nigeria)",
+      "examName": "TOEFL (Nigeria)",
       "country": "nigeria",
       "subjects": [],
       "topicCount": 0

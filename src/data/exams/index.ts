@@ -125,7 +125,6 @@ export { default as fpsc_cce } from './pakistan/fpsc-cce';
 export { default as gat } from './pakistan/gat';
 export { default as kpkpse } from './pakistan/kpkpse';
 export { default as mcat } from './pakistan/mcat';
-export { default as nabe } from './pakistan/nabe';
 export { default as nlt } from './pakistan/nlt';
 export { default as ppsc } from './pakistan/ppsc';
 export { default as sppsc } from './pakistan/sppsc';
@@ -269,7 +268,6 @@ import fpsc_cce from './pakistan/fpsc-cce';
 import gat from './pakistan/gat';
 import kpkpse from './pakistan/kpkpse';
 import mcat from './pakistan/mcat';
-import nabe from './pakistan/nabe';
 import nlt from './pakistan/nlt';
 import ppsc from './pakistan/ppsc';
 import sppsc from './pakistan/sppsc';
@@ -332,7 +330,7 @@ export const ALL_EXAMS = [
   toafa,
   // Pakistan
   accagl, ecat_eng, fpsc_cce, gat, kpkpse,
-  mcat, nabe, nlt, ppsc, sppsc,
+  mcat, nlt, ppsc, sppsc,
   // Philippines
   nmat, u_pcat, pcat_ph,
   // Russia

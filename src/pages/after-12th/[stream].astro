@@ -56,7 +56,7 @@ const STREAM_META: Record<string, { label: string; h1: string; description: stri
     label: 'Commerce',
     h1: `Commerce Entrance Exams After 12th ${year}: CUET, IPMAT, CA-Foundation`,
     description: `Commerce-stream exams for DU, IIM integrated, ICAI and more — CUET UG, IPMAT, CA-Foundation, CS, CMA. Full breakdown + free study plans.`,
-    keywordIds: ['cuet','ipmat','ca-foundation'],
+    keywordIds: ['cuet','ipmat','ca-found'],
   },
   'arts-humanities': {
     label: 'Arts & Humanities',
@@ -68,7 +68,7 @@ const STREAM_META: Record<string, { label: string; h1: string; description: stri
     label: 'Defence',
     h1: `Defence Exams After 12th ${year}: NDA, CDS, AFCAT`,
     description: `The entrance path to Indian Defence services — NDA after 12th, CDS and AFCAT after graduation. Physical + written cut-offs, age limits, college routes.`,
-    keywordIds: ['ndab','cds','afcat'],
+    keywordIds: ['nda'],
   },
 };
 
@@ -102,7 +102,12 @@ const breadcrumbJsonLd = {
 };
 ---
 
-<Layout title={title} description={description} canonical={canonicalUrl}>
+<Layout
+  title={title}
+  description={description}
+  canonical={canonicalUrl}
+  robots={streamExams.length === 0 ? 'noindex,follow' : undefined}
+>
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
   <script type="application/ld+json" set:html={JSON.stringify(itemListJsonLd)} />
   <Navbar />

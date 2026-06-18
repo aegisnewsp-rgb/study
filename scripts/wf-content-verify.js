@@ -24,7 +24,7 @@ const DEFAULT_PROMOTED = [
   'fmge/forensic/forens-001.md', 'fmge/forensic/forens-002.md', 'fmge/microbiology/microb-001.md',
   'fmge/microbiology/microb-002.md', 'kuccps/subject-clusters/subjec-001.md', 'kuccps/subject-clusters/subjec-002.md',
   'legon-adm/wassce-subjects/wassce-001.md', 'legon-adm/wassce-subjects/wassce-003.md',
-  'muet/listening/listen-001.md', 'muet/listening/listen-002.md', 'nabe/gk/gk-001.md', 'nabe/gk/gk-002.md',
+  'muet/listening/listen-001.md', 'muet/listening/listen-002.md',
 ]
 const DEFAULT_HUNT = [
   { exam: 'fmge', subject: 'forensic' }, { exam: 'fmge', subject: 'microbiology' },

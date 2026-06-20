@@ -8,90 +8,57 @@ topicName: History of Pakistan — Pre-Independence to 1971
 weight: 3
 country: pakistan
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-06-20"
 ---
 
 # History of Pakistan — Pre-Independence to 1971
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your PPSC exam.
+> Rapid summary for last-minute revision before your exam.
 
-## History of Pakistan — Key Facts
-
-### Independence Movement
-- **1857**: War of Independence against British
-- **1906**: All India Muslim League founded
-- **1930**: Allama Iqbal proposed Muslim state
-- **1940**: Lahore Resolution (Two-Nation Theory)
-- **1947**: Partition and independence (14 August)
-
-### Key Leaders
-- **Sir Syed Ahmed Khan**: Aligarh Movement
-- **Allama Iqbal**: Poet-philosopher, proposed Pakistan
-- **Quaid-e-Azam Muhammad Ali Jinnah**: Founder of Pakistan
-
-### Important Events
-- **1947**: Partition — 7 million Muslims migrated
-- **1956**: First constitution
-- **1958**: First martial law
-- **1965**: War with India (Kashmir)
-- **1971**: Bangladesh Liberation War
-
-⚡ **PPSC High-Yield**: Lahore Resolution (1940), independence (1947), 1971 war and Bangladesh creation.
+**History of Pakistan (Pre-Independence to 1971)** traces the **Muslim political movement in British India** from the **Aligarh Movement (Sir Syed Ahmad Khan)** and the founding of the **All-India Muslim League (1906)** through Partition on **14 August 1947**, ending with the **Fall of Dhaka on 16 December 1971**. The **Two-Nation Theory** — that Hindus and Muslims were distinct nations — was articulated in **Iqbal's Allahabad Address (1930)** and operationalised in the **Lahore Resolution (23 March 1940)**, which demanded independent Muslim-majority states. Post-1947 milestones to memorise: **Objectives Resolution (12 March 1949)**, **One Unit Scheme (14 October 1955)**, **First Constitution (23 March 1956)**, **Basic Democracies (1959)**, **Second Constitution (8 June 1962)**, **Legal Framework Order (1970)**, **Operation Searchlight (25 March 1971)**. PPSC routinely tests these dates in MCQs and asks for the significance of the Objectives Resolution.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-## Chapter: History of Pakistan
+#### Ideological Foundations and the Pakistan Movement
+The Muslim separatist consciousness crystallised through **Sir Syed Ahmad Khan's Aligarh Movement (1875 onwards)**, which urged Muslims to acquire Western education while preserving Islamic identity and to stay loyal to the British after the **War of Independence 1857**. The **Indian National Congress (1885)** was perceived as a Hindu body after the Urdu Movement controversy and the partition of Bengal's reversal (1911), pushing Muslims to form the **All-India Muslim League at Dhaka (30 December 1906)** under Nawab Salimullah.
 
-### 1.1 Early History
+The **Lucknow Pact (1916)** temporarily united Congress and the League, but the **Nehru Report (1928)** — which rejected separate electorates — provoked **Jinnah's Fourteen Points (1929)**. **Sir Muhammad Iqbal's Allahabad Address (December 1930)** articulated the vision of a consolidated Muslim state within India, and the **Lahore Resolution (23 March 1940)** formally demanded independent Muslim-majority states. The **Cabinet Mission Plan (1946)** proposed a federal India with grouped provinces, which Jinnah accepted and then withdrew; the **Mountbatten Plan / 3rd June Plan (1947)** delivered the **Radcliffe Award**, creating **Pakistan on 14 August 1947**.
 
-#### Muslim Invasions
-- 711 CE: Muhammad bin Qasim (Sindh)
-- 1175-1206: Muhammad Ghori (Delhi Sultanate)
+#### Constitutional Evolution (1947–1971)
 
-#### Mughal Empire (1526-1857)
-- Babur to Aurangzeb
-- Aurangzeb: Last powerful Mughal
+| Year | Document | Key Feature |
+|------|----------|-------------|
+| 1949 | Objectives Resolution | Sovereignty belongs to Allah; Islamic democracy |
+| 1955 | One Unit Scheme | All West Pakistan provinces merged into ONE unit |
+| 1956 | First Constitution | "Islamic Republic of Pakistan", federal parliamentary |
+| 1959 | Basic Democracies Order | 4-tier local govt; indirect election of President |
+| 1962 | Second Constitution | Presidential system under Ayub Khan |
+| 1970 | Legal Framework Order | Basis for one-person-one-vote elections |
 
-### 1.2 Independence Movement
+The **First Constituent Assembly** was dissolved by **Governor-General Ghulam Muhammad in 1954**; the **Second Assembly (1955)** passed the **1956 Constitution**, abrogated by **Ayub Khan's martial law (1958)**. The **One Unit Scheme** neutralised East Pakistan's numerical majority in a 50–50 parliament, lasting until **1970**.
 
-#### Sir Syed Ahmed Khan (1817-1898)
-- Founded Aligarh Muslim University (1875)
-- Educational and social reforms
+---
 
-#### Allama Iqbal (1877-1938)
-- 1930 Allahabad Address: Proposed Muslim state
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-#### Quaid-e-Azam Jinnah (1876-1948)
-- Founded Pakistan (14 August 1947)
-- First Governor-General
+#### Mechanisms Behind the 1971 Break-Up
+The Bangladesh Liberation War was the result of accumulated structural and political failures. The **1970 general elections** gave Sheikh Mujibur Rahman's **Awami League 160 of 162 East Pakistan seats**, a parliamentary majority that entitled it to form government. The **Legal Framework Order (LFO) of 1970** — framed by General Yahya Khan — required the president to invite the majority party, but **Zulfikar Ali Bhutto and the Pakistan Peoples Party** refused to accept an Awami League government, citing concerns over the **Six-Point Movement (1966)** which demanded a loose confederation. The dismissal and the subsequent **Operation Searchlight (25 March 1971)** — a military crackdown in Dhaka — triggered mass exodus, **Indian intervention on 3 December 1971**, and the **Fall of Dhaka (16 December 1971)**. **Yahya Khan resigned on 20 December 1971**.
 
-### 1.3 Lahore Resolution (23 March 1940)
-- Two-Nation Theory: Hindus and Muslims are separate nations
-- Basis for Pakistan movement
+#### Common Mistakes and Exam Traps
+- Confusing the **Lahore Resolution (1940)** with the **Pakistan Resolution of 1940** — they are the same document, but the date matters.
+- Attributing the **Two-Nation Theory** solely to Jinnah; the intellectual lineage runs from **Sir Syed Ahmad Khan → Iqbal → Jinnah**.
+- The **One Unit Scheme (14 October 1955)** ended in **1970**, not 1971.
+- The **First Constitution (1956)** was federal parliamentary, while the **Second (1962)** was presidential — examiners frequently swap the systems.
+- The **Objectives Resolution** was moved by **Liaquat Ali Khan**, and A.K. Fazlul Huq seconded it.
 
-### 1.4 Partition (1947)
-- Radcliffe Award: Cyril Radcliffe drew boundaries
-- 14 August 1947: Independence
-- Mass migration and violence
+#### Practice Prompts
+1. Trace the evolution of the **Two-Nation Theory** from Sir Syed Ahmad Khan to the Lahore Resolution, citing at least three primary sources.
+2. Evaluate the role of the **One Unit Scheme** and the **Legal Framework Order (1970)** in the political crisis leading to the dismemberment of Pakistan in 1971.
 
-### 1.5 Bangladesh Liberation (1971)
-- Language riots (1952): Bengali vs Urdu
-- 1970 elections: Awami League won
-- March 1971: Army crackdown
-- December 1971: Pakistan surrendered
-- Bangladesh created
-
-### 1.6 PPSC High-Yield Points
-
-⚡ **Commonly Asked**:
-1. **Quaid-e-Azam**: Muhammad Ali Jinnah
-2. **Lahore Resolution**: 23 March 1940
-3. **Independence**: 14 August 1947
-4. **Allama Iqbal**: Proposed Pakistan (1930)
-5. **Two-Nation Theory**: Hindus and Muslims as separate nations
-6. **1971**: Bangladesh creation, 93,000 Pakistani POWs
-7. **First constitution**: 1956
-8. **First martial law**: 1958 (Ayub Khan)
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

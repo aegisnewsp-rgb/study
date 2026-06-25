@@ -449,20 +449,10 @@ const articleJsonLd = {
             }
           </script>
 
-          <!-- Diagram prompt section -->
-          {diagramPrompt && (
-            <div class="mt-8 p-5 bg-brand-50 dark:bg-brand-950 border border-brand-200 dark:border-brand-800 rounded-xl">
-              <h3 class="text-sm font-semibold text-brand-700 dark:text-brand-300 mb-2 flex items-center gap-2">
-                📐 Diagram Reference
-              </h3>
-              <p class="text-sm text-surface-600 dark:text-surface-400 italic">
-                {diagramPrompt}
-              </p>
-              <p class="text-xs text-surface-400 mt-2">
-                Diagram reference for visual learners — use alongside the written explanation above.
-              </p>
-            </div>
-          )}
+          {/* Diagram-prompt box removed: `diagramPrompt` frontmatter holds a raw
+              AI image-generation instruction (e.g. "A simple diagram showing…"),
+              never an actual rendered image. Publishing that prompt verbatim is a
+              glaring AI-tell that hurt E-E-A-T/AdSense on ~1.3k indexed notes. */}
         </article>
 
         <!-- Prev / Next Topic Navigation -->

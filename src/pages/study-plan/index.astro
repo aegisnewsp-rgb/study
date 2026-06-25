@@ -3,13 +3,14 @@ import Layout from '../../layouts/Layout.astro';
 import Navbar from '../../components/Navbar.astro';
 import Footer from '../../components/Footer.astro';
 import { ALL_EXAMS, getCountryFlag } from '../../data/exams';
+import { isNoindexExam } from '../../data/suppressed-exams';
 
 import { SITE_URL } from '@data/site';
 const canonicalUrl = `${SITE_URL}/study-plan/`;
 const currentYear = new Date().getUTCFullYear();
 
 const plans = ALL_EXAMS
-  .filter((e: any) => e && e.examId && e.durations && Object.keys(e.durations).length > 0)
+  .filter((e: any) => e && e.examId && !isNoindexExam(e.examId) && e.durations && Object.keys(e.durations).length > 0)
   .map((e: any) => ({
     examId: e.examId,
     name: e.examName || e.examId,

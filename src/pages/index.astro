@@ -3,8 +3,15 @@ import Layout from '../layouts/Layout.astro';
 import Navbar from '../components/Navbar.astro';
 import Footer from '../components/Footer.astro';
 import { ALL_EXAMS, getCountryFlag } from '../data/exams';
+import { isNoindexExam } from '../data/suppressed-exams';
 import { readFileSync } from 'fs';
 import { join } from 'path';
+
+// Exclude noindexed/suppressed exams (fabricated/discontinued) from every
+// homepage link surface — the /exams/ ItemList already filters them, but the
+// homepage grid + directory must too, or indexed pages leak links to noindex
+// targets (AdSense/E-E-A-T defect). isNoindexExam covers NOINDEX_EXAMS.
+const VISIBLE_EXAMS = ALL_EXAMS.filter((e) => e && e.examId && !isNoindexExam(e.examId));
 
 // Load latest exam news from public/news.json (refreshed daily by scripts/refresh-news.sh → fetch_news_v2.py)
 let latestNews: Array<{title: string; url: string; source: string; country: string; age: string}> = [];
@@ -371,7 +378,7 @@ const howToSteps = [
              Remainder (115 exams) rendered below as a compact directory to keep
              SEO link equity intact while cutting ~120KB of inline styles. -->
         <div id="exam-grid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {ALL_EXAMS.slice(0, 12).map((exam) => (
+          {VISIBLE_EXAMS.slice(0, 12).map((exam) => (
             <a
               href={`/exams/${exam.examId}/`}
               class="card card-hover flex flex-col gap-3 p-5 group exam-card"
@@ -415,11 +422,11 @@ const howToSteps = [
         <!-- Compact directory: every other exam, link-only. Keeps internal-link
              equity for crawlers (Googlebot follows these); strips per-card
              subject pills + decorative SVG → ~80KB HTML reduction. -->
-        {ALL_EXAMS.length > 12 && (
+        {VISIBLE_EXAMS.length > 12 && (
           <div class="mt-10">
-            <h3 class="text-surface-300 text-sm font-semibold uppercase tracking-wider mb-4 text-center">All exams ({ALL_EXAMS.length} total)</h3>
+            <h3 class="text-surface-300 text-sm font-semibold uppercase tracking-wider mb-4 text-center">All exams ({VISIBLE_EXAMS.length} total)</h3>
             <div id="exam-grid-rest" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2">
-              {ALL_EXAMS.slice(12).map((exam) => (
+              {VISIBLE_EXAMS.slice(12).map((exam) => (
                 <a
                   href={`/exams/${exam.examId}/`}
                   class="exam-card flex items-center justify-between gap-2 px-3 py-2.5 rounded-lg bg-surface-900 hover:bg-surface-800 border border-surface-800 hover:border-brand-700 text-surface-200 hover:text-white text-sm transition-colors"

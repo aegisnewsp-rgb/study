@@ -23,7 +23,7 @@ lastUpdated: 2026-03-25
 
 **Scope of Tax:** Pakistan imposes tax on the **worldwide income** of residents (Section 3), but only **Pakistan-source income** of non-residents. Residency is the key determinant.
 
-**Tax Year:** The tax year (or "year of income") is the **calendar year** (1 January to 31 December). For businesses, it may differ if they maintain a lunar calendar — but for tax purposes, it is the financial year ending with the lunar year (Section 2(62)).
+**Tax Year (Section 74):** The **normal tax year** is the 12-month period **ending 30 June** and is denoted by the calendar year in which it ends — e.g. tax year 2026 runs from **1 July 2025 to 30 June 2026**. With FBR approval, a business can adopt a **special tax year** (a 12-month period ending on a different date) where the nature of its business warrants it.
 
 **Residence Status (Section 9):**
 - **Resident:** Present in Pakistan for 183+ days in a tax year, OR manages affairs from Pakistan for 183+ days, OR is a Pakistani citizen on foreign assignment
@@ -59,7 +59,7 @@ Tax is charged on the **taxable income** of every person for each tax year. "Per
 | Status | Tax on Pakistan-Source Income | Tax on Foreign Income |
 |--------|-------------------------------|----------------------|
 | Resident (Ordinarily Resident) | ✓ Taxable | ✓ Taxable (with relief) |
-| Resident (Not Ordinarily Resident) | ✓ Taxable | ✗ Generally exempt |
+| Resident (Not Ordinarily Resident) | ✓ Taxable | ✗ Exempt (unless Pakistan-source) |
 | Non-Resident | ✓ Taxable | ✗ Not taxable |
 
 **Test of Ordinary Residence:** A person is ordinarily resident if:
@@ -68,8 +68,8 @@ Tax is charged on the **taxable income** of every person for each tax year. "Per
 
 **Deemed Resident (Section 9(3)):** Pakistani citizens working abroad for a foreign employer are **not** automatically treated as resident in Pakistan.
 
-#### Tax Year (Section 2(62))
-The tax year means the calendar year. For businesses closing accounts on a non-calendar basis, they may elect a substituted tax year under Section 2(62A) — subject to FBR approval.
+#### Tax Year (Section 74)
+The normal tax year is the 12-month period ending 30 June (e.g. tax year 2026 = 1 July 2025 to 30 June 2026). For businesses closing accounts on a different date, they can adopt a special tax year under Section 74 with FBR approval.
 
 #### Computation of Taxable Income
 **Step 1:** Determine gross income under each head
@@ -100,7 +100,7 @@ Income Tax in Pakistan is a **federal subject**. The Constitution empowers the F
 **Important Definitions (Section 2):**
 - **"Assessee"** — A person by whom income tax or any other tax is payable
 - **"Assessment Year"** — The year following the tax year (year of income)
-- **"Tax Year"** — The calendar year or the substituted tax year
+- **"Tax Year"** — The normal tax year (12 months ending 30 June) or an approved special tax year
 - **"Taxable Income"** — Total income reduced by deductions allowed under the Ordinance
 - **"Gross Income"** — Total income from all heads before any deductions
 
@@ -137,7 +137,7 @@ Mr. Ahmed is a Pakistani citizen. In tax year 2024, he was physically present in
 - Management of affairs test: **Met** (affairs managed from Pakistan for 120 days — however, this requires 183 days too)
 - Conclusion: **Non-Resident** (since 183-day test is the primary test under Section 9(1)(a))
 
-⚡ **Common Mistake:** Students often confuse the "management of affairs" test as a standalone alternative to the 183-day physical presence test. In practice, both prongs of Section 9(1)(a) and 9(1)(b) require 183 days — the management test does not lower the threshold.
+⚡ **Common Mistake:** Students frequently confuse the "management of affairs" test as a standalone alternative to the 183-day physical presence test. In practice, both prongs of Section 9(1)(a) and 9(1)(b) require 183 days — the management test does not lower the threshold.
 
 #### 4. Five Heads of Income (Section 12)
 Each head has specific rules for what income is chargeable and what deductions are admissible:
@@ -170,7 +170,7 @@ This distinction is critical. Courts have developed principles:
 **For Companies (Third Schedule):**
 - Banking companies: **35%**
 - Insurance companies: **40%**
-- Other companies: **29%** (minimum turnover tax may apply for certain categories)
+- Other companies: **29%** (a minimum turnover tax applies to certain categories)
 - Small companies (listed): **20%**
 
 ⚡ **Practice Tip:** In the ACCA exam, always check whether the question specifies the taxpayer type (individual, AOP, or company) before applying rates. Also verify the tax year, as slabs may be updated by the Finance Act.

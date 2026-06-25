@@ -210,9 +210,10 @@ const subjectList = exam.subjects || [];
 const totalTopics = subjectList.reduce((acc: number, s: any) => acc + (s.topics?.length || 0), 0);
 const durations = Object.keys(exam.durations || {}).slice(0, 6);
 
-// Find related exams (same country, different exam)
+// Find related exams (same country, different exam) — never link to noindex
+// (fabricated/discontinued) exams from an indexed page.
 const relatedExams = ALL_EXAMS
-  .filter(e => e && e.examId !== exam.examId && e.country === exam.country)
+  .filter(e => e && e.examId !== exam.examId && e.country === exam.country && !isNoindexExam(e.examId))
   .slice(0, 4);
 
 // Exam pathway mappings — cross-links between logically related exams

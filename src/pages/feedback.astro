@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
-
+import Navbar from '../components/Navbar.astro';
+import Footer from '../components/Footer.astro';
 import FaqSection from '../components/FaqSection.astro';
 const ogTitle = 'Help Improve StudyRoadmap — Report Errors & Suggest Topics';
 const ogDescription = 'Report errors, suggest missing topics, or contribute to StudyRoadmap free study notes for NEET, JEE, UPSC, MDCAT, JAMB & 125+ competitive exams.';
@@ -29,6 +30,7 @@ const FEEDBACK_FAQS = [
     url: "https://studyroadmap.in/about/",
   }}
 >
+  <Navbar />
   <main id="main-content" class="container-page py-16 max-w-2xl">
     <div class="text-center mb-10">
       <div class="inline-flex items-center justify-center w-14 h-14 rounded-full bg-brand-100 dark:bg-brand-900/30 mb-4">
@@ -206,6 +208,7 @@ const FEEDBACK_FAQS = [
       <FaqSection faqs={FEEDBACK_FAQS} heading="Feedback — common questions" />
 
   </main>
+  <Footer />
 </Layout>
 
 <script>

@@ -5,7 +5,7 @@ import path from 'node:path';
 import Layout from '@layouts/Layout.astro';
 import Navbar from '@components/Navbar.astro';
 import Footer from '@components/Footer.astro';
-import { isLowValueNote, isGoodNote, isIndexableExamHub } from '@data/note-quality';
+import { isLowValueNote, isGoodNote, isIndexableExamHub, duplicateNoteIds } from '@data/note-quality';
 import { ALL_EXAMS, getCountryFlag } from '@data/exams';
 import { EXAM_EQUIVALENTS } from '@data/exam-equivalents';
 import { isNoindexExam } from '@data/suppressed-exams';
@@ -33,7 +33,12 @@ const { exam, examName, subject, subjectName, topic, topicName, weight, country,
 // indexing. Clears itself automatically once the rewrite pipeline replaces the
 // note with substantive content — no per-file frontmatter flag needed.
 const rawBody = (note.body || '') as string;
-const shouldNoindex = isLowValueNote(rawBody, note.data);
+// Fetch the whole collection once here — needed for the duplicate-topic dedup
+// (two notes sharing exam/subject/topicName render identical title+meta) and
+// reused for the related/sibling links further down.
+const allNotes = await getCollection('notes');
+const dupIds = duplicateNoteIds(allNotes);
+const shouldNoindex = isLowValueNote(rawBody, note.data) || dupIds.has(note.id);
 const robotsDirective = (shouldNoindex || isNoindexExam(exam)) ? 'noindex,follow' : undefined;
 
 // Handle malformed subjectName (None / undefined) — derive from subject slug
@@ -82,11 +87,11 @@ const officialSource = examMeta?.officialSource || '';
 // Related notes: same exam + subject, different topic. Only good notes —
 // low-value siblings are noindexed (follow-link leak) and placeholder ones
 // render literal "Topic N" anchor text (104 indexed pages, 2026-07-04 audit).
-const allNotes = await getCollection('notes');
+// allNotes already fetched above (for the dedup gate).
 const sameExamSubject = allNotes.filter(n => {
   const parts = n.id.split('/');
   return parts[0] === note.id.split('/')[0] && parts[1] === note.id.split('/')[1] && parts[2] !== note.id.split('/')[2]
-    && isGoodNote(n);
+    && isGoodNote(n) && !dupIds.has(n.id);
 }).slice(0, 5);
 
 // Sequential navigation: prev and next topic in same subject

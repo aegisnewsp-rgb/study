@@ -84,7 +84,16 @@ const totalTopics = subjects.reduce((n: number, s: any) => n + (s.topics?.length
 const { isPlaceholderSyllabus } = placeholderSyllabusStats(rawSubjects);
 
 const SIBLINGS = ['dates','eligibility','syllabus','pattern','strategy'].filter(s => s !== spoke);
-const spokeRobots = (isNoindexExam(exam.examId) || (spoke === 'syllabus' && isPlaceholderSyllabus))
+// `dates` and `strategy` render an identical body for every exam — no per-exam
+// data exists to differentiate them, so 105 near-duplicate URLs each would trip
+// Google's scaled-content / thin-content review (AdSense approval blocker,
+// flagged 2026-07-04). Keep them reachable for users (follow) but out of the
+// index until they carry genuinely per-exam content; the substantive spokes
+// (eligibility / pattern / syllabus, which pull real exam data) stay indexed.
+const spokeRobots = (isNoindexExam(exam.examId)
+    || (spoke === 'syllabus' && isPlaceholderSyllabus)
+    || spoke === 'dates'
+    || spoke === 'strategy')
   ? 'noindex, follow' : undefined;
 ---
 
@@ -146,7 +155,7 @@ const spokeRobots = (isNoindexExam(exam.examId) || (spoke === 'syllabus' && isPl
       {spoke === 'dates' && (
         <div class="prose dark:prose-invert max-w-none">
           <h2 class="text-2xl font-bold mb-3">{examName} {year} official calendar</h2>
-          <p>{examName} ${year} dates are published by the official examining body. The full calendar — notification, application, admit card, exam, answer key, and result — is tracked by our freshness pipeline and synced within 24 hours of any official change.</p>
+          <p>{examName} {year} dates are set by the official examining body. This page explains the stages of the exam cycle — always confirm the exact notification, application, admit-card, exam and result dates on the official website before you rely on them.</p>
           <table class="w-full text-sm border border-surface-200 dark:border-surface-700 mt-4">
             <thead class="bg-surface-50 dark:bg-surface-900"><tr><th class="p-2 text-left">Stage</th><th class="p-2 text-left">Status</th><th class="p-2 text-left">Notes</th></tr></thead>
             <tbody>

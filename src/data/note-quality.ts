@@ -72,6 +72,46 @@ export function isGoodNote(entry: { body?: string; data?: { topicName?: string }
   return !isLowValueNote(entry.body, entry.data);
 }
 
+// Canonical-dedup. When two or more good notes share the same
+// exam/subject/topicName they render a byte-identical <title> and meta
+// description — a Google duplicate-content signal (10 pairs flagged in the
+// 2026-07-04 AdSense audit, e.g. neet/physics `fluid-mechanics.md` and
+// `phy-009.md` are both "Fluid Mechanics"). Keep exactly ONE canonical page per
+// group indexed and noindex the rest. Canonical preference: a human-readable
+// topic slug (the intended URL) over a generic numbered slug (`phy-009`), then
+// the longer body, then id — fully deterministic so the build is reproducible.
+// Returns the set of note ids that should be noindexed as non-canonical dups.
+const GENERIC_SLUG_RE = /^[a-z]{2,8}-?\d{2,4}$/i; // phy-009, chem-003, compan-004, wassce-015
+export function duplicateNoteIds(
+  allNotes: Array<{ id: string; body?: string; data?: { topicName?: string } }>,
+): Set<string> {
+  const groups = new Map<string, Array<{ id: string; body?: string; data?: { topicName?: string } }>>();
+  for (const n of allNotes) {
+    if (isLowValueNote(n.body, n.data)) continue; // already noindexed elsewhere
+    const parts = n.id.split('/');
+    const topic = (n.data?.topicName ?? '').trim().toLowerCase();
+    if (!topic || parts.length < 3) continue;
+    const key = `${parts[0]}/${parts[1]}/${topic}`;
+    const arr = groups.get(key);
+    if (arr) arr.push(n); else groups.set(key, [n]);
+  }
+  const dups = new Set<string>();
+  for (const notes of groups.values()) {
+    if (notes.length < 2) continue;
+    const slugOf = (id: string) => id.split('/')[2] || '';
+    const canonical = [...notes].sort((a, b) => {
+      const ag = GENERIC_SLUG_RE.test(slugOf(a.id)) ? 1 : 0;
+      const bg = GENERIC_SLUG_RE.test(slugOf(b.id)) ? 1 : 0;
+      if (ag !== bg) return ag - bg;                       // human-readable slug wins
+      const al = (a.body ?? '').length, bl = (b.body ?? '').length;
+      if (al !== bl) return bl - al;                       // longer body wins
+      return a.id.localeCompare(b.id);                     // stable tiebreak
+    })[0];
+    for (const n of notes) if (n.id !== canonical.id) dups.add(n.id);
+  }
+  return dups;
+}
+
 // ── Hub indexability thresholds ──────────────────────────────────────────────
 // Single source of truth shared by the notes hub pages (robots meta) and every
 // page that LINKS to a hub (e.g. the exam-hub subject grid in exams/[exam].astro).
@@ -80,9 +120,17 @@ export function isGoodNote(entry: { body?: string; data?: { topicName?: string }
 // (the leak class plugged in ca38b672 and again on 2026-07-03).
 import { isNoindexExam } from './suppressed-exams';
 
-// notes/[exam]/index.astro: hub is indexable with >=1 good note.
+// notes/[exam]/index.astro: an exam notes hub is indexable only with >=5 good
+// notes. The old >=1 floor indexed near-empty hubs that link to just 2-3 leaf
+// notes and have no indexable subject hub of their own (uppsc=2, utbk=3 good
+// notes — flagged as thin content in the 2026-07-04 AdSense audit). A floor of
+// 5 keeps the hub at least as substantive as one full subject hub (>=3) plus
+// depth, and self-heals upward as the rewrite pipeline improves notes. Every
+// caller passes the exam's TOTAL good-note count, so the hub and every page
+// that links to it stay in lockstep — no follow-link-into-noindex leak, the
+// invariant these call sites depend on.
 export function isIndexableExamHub(goodNoteCount: number, examId: string): boolean {
-  return goodNoteCount > 0 && !isNoindexExam(examId);
+  return goodNoteCount >= 5 && !isNoindexExam(examId);
 }
 
 // notes/[exam]/[subject]/index.astro: hub is indexable with >=3 good notes

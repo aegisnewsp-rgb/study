@@ -16,7 +16,7 @@ lastUpdated: "2026-07-04"
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Cost** in economics is the monetary value of resources sacrificed to produce a good or service. The accounting view records only **explicit costs** (wages, rent, materials paid in cash), while the economist adds **implicit costs** — the **opportunity cost** of owner-owned inputs (own labour, own capital) — to obtain **economic cost**. The core six formulas carry every ICAN numerical: **TC = FC + VC**, **AC = TC/Q**, **AFC = FC/Q**, **AVC = VC/Q**, **MC = ΔTC/ΔQ**, and **Break-even (units) = FC ÷ (Price − AVC)**. Three points to lock down: (1) MC intersects AC and AVC at their **minimum points**, not their maximum; (2) **short run** = at least one fixed factor (typically capital), NOT a calendar period; (3) a loss-making firm continues in the short run if **Price ≥ AVC**, otherwise it shuts down.
+**Cost** in economics is the monetary value of resources sacrificed to produce a good or service. The accounting view records only **explicit costs** (wages, rent, materials paid in cash), while the economist adds **implicit costs** — the **opportunity cost** of owner-owned inputs (own labour, own capital) — to obtain **economic cost**. The core six formulas carry every ICAN numerical: **TC = FC + VC**, **AC = TC/Q**, **AFC = FC/Q**, **AVC = VC/Q**, **MC = ΔTC/ΔQ**, and **Break-even (units) = FC ÷ (Price − AVC)**. Three points to lock down: (1) MC intersects AC and AVC at their **minimum points**, not their maximum; (2) **short run** = at least one fixed factor (commonly capital), NOT a calendar period; (3) a loss-making firm continues in the short run if **Price ≥ AVC**, otherwise it shuts down.
 
 ---
 
@@ -37,7 +37,7 @@ In the short run at least one factor (capital) is fixed, so adding more of the v
 
 #### Typical ICAN Question Patterns
 
-Candidates should expect MCQ items on (a) identifying which cost is fixed, (b) computing AC/MC from a cost schedule, and (c) interpreting a diagram where MC crosses AVC and AC. Numerical questions often supply a table of TC and Q and ask for AC, AVC, AFC and the profit-maximising output where MC equals a given price.
+Candidates should expect MCQ items on (a) identifying which cost is fixed, (b) computing AC/MC from a cost schedule, and (c) interpreting a diagram where MC crosses AVC and AC. Numerical questions frequently supply a table of TC and Q and ask for AC, AVC, AFC and the profit-maximising output where MC equals a given price.
 
 ---
 

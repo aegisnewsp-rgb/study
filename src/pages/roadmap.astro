@@ -119,6 +119,24 @@ const howToJsonLd = {
   ],
 };
 
+// RoadmapApp is client:only, so Astro serializes its props verbatim into the
+// HTML — passing ALL_EXAMS shipped a 24.5 MB page (24.09 MB props blob,
+// 2.74 MB gzipped; 2026-07-03 audit, P1). The component reads ONLY the fields
+// below (verified against every property access in RoadmapApp.tsx), so pass a
+// slim clone. Real fix — per-exam JSON fetched on selection — requires
+// RoadmapApp.tsx changes (locked file, patch prepared for user approval).
+const SLIM_EXAMS = ALL_EXAMS.filter((e: any) => e && e.examId).map((e: any) => ({
+  examId: e.examId,
+  examName: e.examName,
+  country: e.country,
+  subjects: (e.subjects || []).map((sub: any) => ({ id: sub.id, name: sub.name, color: sub.color })),
+  durations: Object.fromEntries(Object.entries(e.durations || {}).map(([k, d]: [string, any]) => [k, {
+    description: d.description,
+    totalDays: d.totalDays,
+    dailyTopics: (d.dailyTopics || []).map((t: any) => ({ id: t.id, name: t.name, subject: t.subject, weight: t.weight })),
+  }])),
+}));
+
 ---
 
 <Layout
@@ -150,7 +168,7 @@ const howToJsonLd = {
     </section>
 
     <!-- React island: all interactivity lives here -->
-    <RoadmapApp exams={ALL_EXAMS} client:only="react" />
+    <RoadmapApp exams={SLIM_EXAMS as any} client:only="react" />
 
     <!-- Exam-specific FAQ section (populated by JS when exam is selected) -->
     <section id="exam-faq-section" class="hidden border-t border-surface-200 dark:border-surface-800">

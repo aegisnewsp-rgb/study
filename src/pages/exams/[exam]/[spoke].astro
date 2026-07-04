@@ -69,12 +69,23 @@ const breadcrumbJsonLd = {
   ],
 };
 
-// Content body varies per spoke — uses existing exam data where available
-const subjects = exam.subjects || [];
+// Content body varies per spoke — uses existing exam data where available.
+// Literal "Topic N" rows are corrupt placeholder module data, not content:
+// strip them from every rendered list, and noindex the syllabus spoke when the
+// module is majority-placeholder (32 indexed syllabus spokes shipped raw
+// "Topic 1..Topic 15" tables until 2026-07-03). Self-heals after backfill.
+const isPlaceholderTopic = (t: any) => /^Topic \d+$/i.test(t?.name || '');
+const rawSubjects = exam.subjects || [];
+const rawTopicCount = rawSubjects.reduce((n: number, s: any) => n + (s.topics?.length || 0), 0);
+const placeholderCount = rawSubjects.reduce(
+  (n: number, s: any) => n + (s.topics || []).filter(isPlaceholderTopic).length, 0);
+const subjects = rawSubjects.map((s: any) => ({ ...s, topics: (s.topics || []).filter((t: any) => !isPlaceholderTopic(t)) }));
 const totalTopics = subjects.reduce((n: number, s: any) => n + (s.topics?.length || 0), 0);
+const isPlaceholderSyllabus = rawTopicCount > 0 && placeholderCount / rawTopicCount >= 0.5;
 
 const SIBLINGS = ['dates','eligibility','syllabus','pattern','strategy'].filter(s => s !== spoke);
-const spokeRobots = isNoindexExam(exam.examId) ? 'noindex, follow' : undefined;
+const spokeRobots = (isNoindexExam(exam.examId) || (spoke === 'syllabus' && isPlaceholderSyllabus))
+  ? 'noindex, follow' : undefined;
 ---
 
 <Layout title={title} description={description} canonical={canonicalUrl} robots={spokeRobots}>

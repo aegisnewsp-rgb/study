@@ -98,10 +98,10 @@ In MAT, when two sources conflict, the table (absolute figures) generally takes 
 1. Read all questions briefly (30 seconds) — identify which sources each question needs
 2. For each question, trace the data path: Source A provides X, Source B provides Y, combine for answer
 3. For single-source questions, extract and calculate directly
-4. For cross-source questions, build a mini scratchpad:
-   - From Source A: Variable A = [value], Variable B = [value]
-   - From Source B: Variable C = [value] (% of something)
-   - Combined: Variable B's share of total = B / C × 100 = [answer]
+4. For cross-source questions, build a mini scratchpad. For example, if a table gives Company X's revenue as 240 crore and a pie chart shows Company X holding 30% of sector revenue:
+   - From the table (Source A): revenue of X = 240 crore
+   - From the pie chart (Source B): X's sector share = 30%
+   - Combined: total sector revenue = 240 / 0.30 = 800 crore
 5. Check that units match before combining
 6. Verify by cross-checking against the third source if available
 

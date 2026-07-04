@@ -220,10 +220,28 @@ if (lastIdx === -1) {
   process.exit(1);
 }
 
+// NB: STEP 3a strips noindexed exam hubs from the Astro-emitted sitemap, but
+// existingUrls is built AFTER that strip — so without a noindex check here,
+// this step silently re-adds every noindexed exam hub as "missing" (the exact
+// bug that leaked all 14 NOINDEX_EXAMS hubs into the live sitemap, found
+// 2026-07-03). A sitemap URL must never serve robots noindex.
+let reAddSkippedNoindex = 0;
 const newExamUrls = examIds
   .filter(id => !existingUrls.has(`${BASE_URL}/exams/${id}/`))
   .filter(id => generatedExamIds.has(id))  // only include if page was actually generated
+  .filter(id => {
+    const idx = path.join(distExamsBase, id, 'index.html');
+    try {
+      const html = fs.readFileSync(idx, 'utf8');
+      if (/<meta[^>]*name=["']robots["'][^>]*content=["'][^"']*noindex/i.test(html)) {
+        reAddSkippedNoindex++;
+        return false;
+      }
+    } catch {}
+    return true;
+  })
   .map(id => `<url><loc>${BASE_URL}/exams/${id}/</loc><lastmod>${today}</lastmod></url>`);
+if (reAddSkippedNoindex > 0) console.log(`Sitemap: refused to re-add ${reAddSkippedNoindex} noindexed exam hubs`);
 
 // STEP 5: Add notes pages to sitemap
 // Scan dist/notes/ for all generated note pages

@@ -46,12 +46,21 @@ const examDurationKeys = Object.keys((exam as any).durations || {});
 const totalDaysByKey: Record<string, number> = {};
 for (const k of examDurationKeys) totalDaysByKey[k] = ((exam as any).durations?.[k]?.totalDays) || 0;
 const indexedDurations = indexedDurationsFor(examDurationKeys, totalDaysByKey);
-const studyPlanRobots = isNoindexExam(exam.examId) || !indexedDurations.has(durationKey)
+const totalDays = (roadmap as any).totalDays || 0;
+// Placeholder-syllabus gate: exam-data subject modules that still carry literal
+// "Topic N" rows render as a day-by-day table of "Topic 1..Topic 15" — zero
+// search value and an obvious template smell (37 indexed exams affected,
+// 2026-07-03 audit). Strip placeholder rows from the rendered plan entirely,
+// and noindex the page when the underlying list was majority-placeholder or
+// nothing real remains. Self-heals once the syllabus backfill lands.
+const rawDailyTopics = ((roadmap as any).dailyTopics || []) as any[];
+const placeholderTopicCount = rawDailyTopics.filter((t: any) => /^Topic \d+$/i.test(t?.name || '')).length;
+const dailyTopics = rawDailyTopics.filter((t: any) => !/^Topic \d+$/i.test(t?.name || ''));
+const isPlaceholderPlan = rawDailyTopics.length === 0 || dailyTopics.length === 0
+  || placeholderTopicCount / rawDailyTopics.length >= 0.5;
+const studyPlanRobots = isNoindexExam(exam.examId) || !indexedDurations.has(durationKey) || isPlaceholderPlan
   ? 'noindex,follow'
   : undefined;
-
-const totalDays = (roadmap as any).totalDays || 0;
-const dailyTopics = ((roadmap as any).dailyTopics || []) as any[];
 const strategy = getStudyPlanStrategy({ durationLabel, totalDays, dailyTopics, examName });
 const phases = ((roadmap as any).phases || []) as { name: string; weeks: number; focus: string; deliverables: string[] }[];
 

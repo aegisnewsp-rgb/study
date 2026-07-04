@@ -128,9 +128,10 @@ Allow: /
 User-agent: Applebot
 Allow: /
 
-# Microsoft Copilot (Bing-based AI)
+# ByteDance AI-training crawler — blocked per the AI-training policy above.
+# (Was mislabelled "Microsoft Copilot"; Copilot crawls via Bingbot, already allowed.)
 User-agent: Bytespider
-Allow: /
+Disallow: /
 
 # AI2 (Semantic Scholar, etc.)
 User-agent: AI2Bot

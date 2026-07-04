@@ -5,9 +5,8 @@ import path from 'node:path';
 import Layout from '@layouts/Layout.astro';
 import Navbar from '@components/Navbar.astro';
 import Footer from '@components/Footer.astro';
-import { isGoodNote } from '@data/note-quality';
+import { isGoodNote, isIndexableSubjectHub } from '@data/note-quality';
 import { EXAM_EQUIVALENTS } from '@data/exam-equivalents';
-import { isNoindexExam } from '@data/suppressed-exams';
 
 export async function getStaticPaths() {
   const allNotes = await getCollection('notes');
@@ -30,7 +29,7 @@ const allSubjectNotes = allNotes
 // `=== 0`; tightened to `< 3` after the 2026-05-28 audit found 192 hubs with
 // only 1-2 good notes shipping as 187-word landing pages.)
 const subjectNotes = allSubjectNotes.filter(isGoodNote);
-const subjectHubRobots = (subjectNotes.length < 3 || isNoindexExam(slug.split('/')[0])) ? 'noindex,follow' : undefined;
+const subjectHubRobots = isIndexableSubjectHub(subjectNotes.length, slug.split('/')[0]) ? undefined : 'noindex,follow';
 // Weight distribution for the subject (visible weightage table)
 const weightTable = subjectNotes
   .slice(0, 12)

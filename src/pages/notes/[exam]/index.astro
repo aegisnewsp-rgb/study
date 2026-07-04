@@ -3,13 +3,16 @@ import { getCollection } from 'astro:content';
 import Layout from '@layouts/Layout.astro';
 import Navbar from '@components/Navbar.astro';
 import Footer from '@components/Footer.astro';
-import { isGoodNote } from '@data/note-quality';
+import { isGoodNote, isIndexableExamHub } from '@data/note-quality';
 import { EXAM_EQUIVALENTS } from '@data/exam-equivalents';
-import { isNoindexExam } from '@data/suppressed-exams';
 
 export async function getStaticPaths() {
   const allNotes = await getCollection('notes');
-  const exams = [...new Set(allNotes.map(n => n.id.split('/')[0]))];
+  // Skip exams whose notes ALL fail the quality gate — an empty "0 topics ·
+  // 0 subjects" shell is a dead-end URL (found live for law-apt-kenya, sgpat,
+  // uaeu-cat, uneb on 2026-07-03). 404 until the rewrite pipeline produces at
+  // least one good note, at which point the hub auto-returns.
+  const exams = [...new Set(allNotes.filter(isGoodNote).map(n => n.id.split('/')[0]))];
   return exams.map(exam => ({
     params: { exam },
     props: { exam },
@@ -22,7 +25,7 @@ const allExamNotes = allNotes.filter(n => n.id.startsWith(exam + '/'));
 // Group/list only indexable notes; if the whole exam is still low-value, noindex
 // the hub until the rewrite pipeline restores enough quality topics.
 const examNotes = allExamNotes.filter(isGoodNote);
-const examHubRobots = (examNotes.length === 0 || isNoindexExam(exam)) ? 'noindex,follow' : undefined;
+const examHubRobots = isIndexableExamHub(examNotes.length, exam) ? undefined : 'noindex,follow';
 
 const firstNote = allExamNotes[0];
 const examName = firstNote?.data.examName || exam;

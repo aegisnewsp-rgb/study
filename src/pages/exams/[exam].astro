@@ -7,16 +7,32 @@ import { EXAM_FAQS } from '../../data/exam-faqs';
 import { getCollection } from 'astro:content';
 import fs from 'node:fs';
 import path from 'node:path';
+import { isGoodNote, isIndexableExamHub, isIndexableSubjectHub } from '../../data/note-quality';
 
+// Only link note hubs that are actually indexable — this page is indexed, and a
+// follow-link into a noindexed hub leaks crawl signals (policy: never link to
+// noindex). Uses the same shared thresholds the hub pages use for their own
+// robots meta, so the two can't drift apart.
 const allNotes = await getCollection('notes');
-const examsWithNotes = new Set(allNotes.map(n => n.id.split('/')[0]));
+const goodNotesPerExam = new Map<string, number>();
+const goodNotesPerSubject = new Map<string, number>();
+for (const n of allNotes.filter(isGoodNote)) {
+  const parts = n.id.split('/');
+  goodNotesPerExam.set(parts[0], (goodNotesPerExam.get(parts[0]) || 0) + 1);
+  if (parts.length >= 2) {
+    const key = `${parts[0]}/${parts[1]}`;
+    goodNotesPerSubject.set(key, (goodNotesPerSubject.get(key) || 0) + 1);
+  }
+}
+const examsWithNotes = new Set(
+  [...goodNotesPerExam.entries()]
+    .filter(([examId, count]) => isIndexableExamHub(count, examId))
+    .map(([examId]) => examId),
+);
 const examSubjectNotes = new Set(
-  allNotes
-    .map(n => {
-      const parts = n.id.split('/');
-      return parts.length >= 2 ? `${parts[0]}/${parts[1]}` : '';
-    })
-    .filter(Boolean),
+  [...goodNotesPerSubject.entries()]
+    .filter(([key, count]) => isIndexableSubjectHub(count, key.split('/')[0]))
+    .map(([key]) => key),
 );
 
 export async function getStaticPaths() {
@@ -512,10 +528,10 @@ const discontinuedNotice = DISCONTINUED_EXAMS[exam.examId];
                 </div>
                 <p class="text-sm text-surface-500 dark:text-surface-400">
                   {subject.topics?.length || 0} topics
-                  {subject.topics?.slice(0, 3).map((t: any) => (
+                  {subject.topics?.filter((t: any) => !/^Topic \d+$/i.test(t.name || '')).slice(0, 3).map((t: any) => (
                     <span class="inline-block mr-1">· {t.name}</span>
                   ))}
-                  {(subject.topics?.length || 0) > 3 && <span class="text-surface-400">+ more</span>}
+                  {(subject.topics?.filter((t: any) => !/^Topic \d+$/i.test(t.name || '')).length || 0) > 3 && <span class="text-surface-400">+ more</span>}
                 </p>
               </>
             );

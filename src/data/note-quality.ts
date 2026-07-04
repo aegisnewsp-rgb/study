@@ -71,3 +71,22 @@ export function isLowValueNote(
 export function isGoodNote(entry: { body?: string; data?: { topicName?: string } }): boolean {
   return !isLowValueNote(entry.body, entry.data);
 }
+
+// ── Hub indexability thresholds ──────────────────────────────────────────────
+// Single source of truth shared by the notes hub pages (robots meta) and every
+// page that LINKS to a hub (e.g. the exam-hub subject grid in exams/[exam].astro).
+// If a linker uses different thresholds than the hub's own noindex logic,
+// indexable pages start passing follow-links into noindexed hubs again
+// (the leak class plugged in ca38b672 and again on 2026-07-03).
+import { isNoindexExam } from './suppressed-exams';
+
+// notes/[exam]/index.astro: hub is indexable with >=1 good note.
+export function isIndexableExamHub(goodNoteCount: number, examId: string): boolean {
+  return goodNoteCount > 0 && !isNoindexExam(examId);
+}
+
+// notes/[exam]/[subject]/index.astro: hub is indexable with >=3 good notes
+// (AdSense 2026 thin-content gate, tightened from ===0 on 2026-05-28).
+export function isIndexableSubjectHub(goodNoteCount: number, examId: string): boolean {
+  return goodNoteCount >= 3 && !isNoindexExam(examId);
+}

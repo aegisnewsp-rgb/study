@@ -16,7 +16,7 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Topic 1** — Key Facts for Kenyatta University (Kenya)
+**Introduction to Organic Chemistry and Chemical Bonding** — Key Facts for Kenyatta University (Kenya)
 Core concept: Organic chemistry is the study of carbon compounds; carbon's unique ability to form four covalent bonds and catenation makes organic chemistry vast and central to life
 High-yield point: Know the difference between sigma (σ) and pi (π) bonds, sp³/sp²/sp hybridisation, and the tetravalent nature of carbon
 ⚡ Exam tip: Kenyatta University organic chemistry exams frequently test orbital hybridisation diagrams and functional group recognition — be able to draw sp³, sp², and sp carbon centres accurately

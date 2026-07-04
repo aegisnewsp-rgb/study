@@ -16,7 +16,7 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Topic 5** — Key Facts for Kenyatta University (Kenya)
+**Alcohols: Classification, Preparation, and Reactions** — Key Facts for Kenyatta University (Kenya)
 Core concept: Alcohols contain the –OH (hydroxyl) functional group attached to an sp³-hybridised carbon; they are classified as primary (1°), secondary (2°), or tertiary (3°) based on the carbon bearing the –OH group
 High-yield point: 1° alcohols undergo oxidation to aldehydes then carboxylic acids; 2° alcohols oxidise to ketones; 3° alcohols do not oxidise without breaking the C–C bond; Lucas test (ZnCl₂/HCl) distinguishes them by reaction rate
 ⚡ Exam tip: The Lucas test reaction times are: 3° alcohols react immediately (cloudy within 1 min), 2° alcohols react in 5–15 min, 1° alcohols do not react at room temperature — frequently tested

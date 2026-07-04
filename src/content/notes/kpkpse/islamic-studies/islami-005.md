@@ -16,7 +16,7 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Topic 5** — Key Facts for KPK PMS
+**Islamic Civilisation: Science, Architecture, Literature, and Philosophy** — Key Facts for KPK PMS
 Core concept: The Islamic Golden Age (approximately 8th–14th centuries CE) produced extraordinary achievements in science, medicine, mathematics, philosophy, and literature; Islamic scholars preserved and advanced ancient knowledge while making original contributions; the House of Wisdom in Baghdad was the intellectual centre of this civilisation
 High-yield point: Islamic scientists made foundational contributions to algebra (al-Khwarizmi), optics (Ibn al-Haytham), chemistry (Jabir ibn Hayyan), medicine (Ibn Sina's Canon of Medicine), and astronomy (Al-Battani, Al-Zarqali); the Arabic numeral system and the word "algorithm" are direct derivatives of Islamic scholarship transmitted to Europe via Moorish Spain and Crusader contacts
 ⚡ Exam tip: The contributions of individual Islamic scholars are frequently tested in the Islamic Studies section — know the key figures and their achievements; Ibn Sina (Canon of Medicine) and Al-Khwarizmi (algebra) are the most commonly referenced scholars

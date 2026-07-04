@@ -16,7 +16,7 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Topic 13** — Key Facts for JUPEB (Nigeria)
+**Arts Subject Combinations for JUPEB** — Key Facts for JUPEB (Nigeria)
 Core concept: Arts subject combinations (Literature, Government, History, CRS/Islamic Studies) lead to degrees in Law, Mass Communication, Humanities, Education, and Social Sciences at Nigerian universities
 High-yield point: Literature in English is critical for Law; History and Government are complementary for Humanities; CRS/Islamic Studies add depth for Arts and Theology programmes
 ⚡ Exam tip: The JUPEB arts exam is essay-heavy — develop structured, well-argued responses; examiners penalise weak English heavily in arts papers

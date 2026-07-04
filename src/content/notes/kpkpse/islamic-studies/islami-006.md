@@ -16,7 +16,7 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Topic 6** — Key Facts for KPK PMS
+**Islamic Law: Fiqh (Jurisprudence) and Its Application** — Key Facts for KPK PMS
 Core concept: Fiqh (Islamic jurisprudence) is the science of deriving practical rulings from the primary sources of Islamic law (Quran, Sunnah, Ijma, Qiyas); it encompasses personal conduct, family law, criminal law, economic transactions, and governance
 High-yield point: The Islamic legal system classifies acts into five categories: wajib/fard (obligatory), sunnah (recommended), mubah (neutral), makruh (disliked), and haram (forbidden); the four Sunni schools of jurisprudence (Hanafi, Maliki, Shafi'i, Hanbali) each derive rulings through slightly different methodologies but reach similar conclusions on most matters
 ⚡ Exam tip: Islamic criminal law (hudud) includes specific penalties for specific crimes: zina (adultery/stoning), false accusation of zina (flogging), drinking alcohol (whipping), theft (amputation of the hand), robbery (cross amputation); these are frequently tested — know the hudud crimes and their punishments

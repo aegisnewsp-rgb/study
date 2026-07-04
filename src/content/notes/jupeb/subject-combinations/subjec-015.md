@@ -16,7 +16,7 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Topic 15** — Key Facts for JUPEB (Nigeria)
+**JUPEB General Studies (GST) and Examination Success Strategies** — Key Facts for JUPEB (Nigeria)
 Core concept: The General Studies (GST) paper is compulsory for ALL JUPEB candidates — failing it withholds your certificate regardless of how well you performed in your three major subjects
 High-yield point: The Use of English component carries the highest weight; master comprehension, summary, and essay writing techniques
 ⚡ Exam tip: ManyJUPEB candidates with excellent subject grades have been denied their certificate because they failed GST — this is the most underestimated paper in JUPEB

@@ -16,7 +16,7 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Topic 8** — Key Facts for KPK PMS
+**Contemporary Islamic Thought: Reform, Extremism, and Modern Challenges** — Key Facts for KPK PMS
 Core concept: Contemporary Islamic thought grapples with modernity, democracy, human rights, women's rights, and the relationship between religion and state; key debates include the Islamic state vs. secular democracy, ijtihad vs. taqlid, and the compatibility of Islam with modernity
 High-yield point: The most influential reformist Islamic thinkers of the 20th century include Muhammad Abduh (reform of Islamic thought), Ali Abd al-Raziq (separation of religion and state), Fazlur Rahman (Islamic hermeneutics), and Abdallah Omar (progressive Islam); their ideas remain influential in contemporary Islamic discourse
 ⚡ Exam tip: The debate between modernists (who advocate ijtihad and reinterpretation) and traditionalists (who advocate taqlid and strict adherence to classical interpretations) is central to contemporary Islamic thought; Pakistan's religious landscape includes traditionalist (Barelvi, Deobandi) and revivalist (Wahhabi/Salafi) movements

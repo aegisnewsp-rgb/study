@@ -16,7 +16,7 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Topic 1** — Key Facts for KPK PMS
+**Pakistan Affairs: Historical Foundations and the Creation of Pakistan** — Key Facts for KPK PMS
 Core concept: Pakistan was created as a homeland for South Asia's Muslims on August 14, 1947 through the partition of British India; the Pakistan Movement was led by the All India Muslim League under Muhammad Ali Jinnah; the creation resulted in the largest and most violent demographic transfer in modern history with over 10 million people displaced and 200,000–2,000,000 killed
 High-yield point: The 1940 Lahore Resolution (also called the Pakistan Resolution) is considered the founding document of Pakistan; it was moved by A.K. Fazlul Huq and supported by Jinnah; the resolution stated that "geographically contiguous units are demarcated into regions which may be constituted with a homogeneous group of Muslims" — this was interpreted as a demand for a separate Muslim state
 ⚡ Exam tip: The Two-Nation Theory (that Muslims and Hindus are separate nations, not one nation with religious differences) is the ideological foundation of Pakistan — it is frequently tested in Pakistani competitive examinations; also know Jinnah's August 11, 1947 address to the Constituent Assembly which called for religious freedom for all Pakistanis

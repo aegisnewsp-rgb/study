@@ -16,7 +16,7 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Topic 3** — Key Facts for Kenyatta University (Kenya)
+**Alkenes: Structure, Isomerism, and Addition Reactions** — Key Facts for Kenyatta University (Kenya)
 Core concept: Alkenes are unsaturated hydrocarbons containing at least one carbon-carbon double bond (C=C); they undergo addition reactions because the π bond is relatively weak and breakable
 High-yield point: Markovnikov's rule states that in electrophilic addition of HX to an unsymmetrical alkene, the hydrogen adds to the carbon with more hydrogens; anti-Markovnikov addition occurs with peroxides
 ⚡ Exam tip: Kenyatta University exams frequently test Markovnikov addition, cis-trans isomerism around C=C bonds, and polymerisation mechanisms — be precise with these

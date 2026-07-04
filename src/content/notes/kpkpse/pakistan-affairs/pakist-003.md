@@ -16,7 +16,7 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Topic 3** — Key Facts for KPK PMS
+**Pakistan's Key Institutions, Reforms, and the Road Ahead** — Key Facts for KPK PMS
 Core concept: Pakistan's key state institutions — the military, civil service, judiciary, and media — have been shaped by colonial governance patterns and post-colonial authoritarianism; each institution has significant strengths and persistent weaknesses that shape Pakistan's development trajectory
 High-yield point: The Pakistan Army is the most powerful institution in Pakistan; it has ruled directly for approximately 30 years and has influenced civilian governments throughout Pakistani history; the army controls significant economic assets (Army Welfare Trust, Fauji Foundation) estimated at 10–15% of GDP
 ⚡ Exam tip: The Pakistan Army's three roles — external defence, internal security, and economic management — are frequently tested; the concept of "military-military relations" (army-to-army ties with foreign militaries) is particularly important for understanding Pakistan's strategic posture

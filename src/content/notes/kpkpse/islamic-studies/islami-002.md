@@ -16,7 +16,7 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Topic 2** — Key Facts for KPK PMS
+**Pillars of Islam and the Islamic Way of Life** — Key Facts for KPK PMS
 Core concept: The Five Pillars of Islam (Arkan al-Islam) are the foundational acts of worship that every Muslim is obligated to perform; they are Shahadah (testimony of faith), Salat (prayer), Zakat (obligatory charity), Sawm (fasting during Ramadan), and Hajj (pilgrimage to Makkah)
 High-yield point: The Shahadah is the declaration of faith: "La ilaha illallah Muhammadur Rasulullah" (There is no god but Allah, Muhammad is the Messenger of Allah); reciting it with conviction and accepting all its implications makes one a Muslim; the Shahadah is the first pillar and the gateway to Islam
 ⚡ Exam tip: The Kharijites (extreme religious groups) historically rejected the practice of commanding good and forbidding evil if done by a ruler who committed sin; this contrasts with the mainstream Sunni position that governance does not invalidate the validity of prayers

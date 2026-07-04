@@ -5,7 +5,7 @@ import path from 'node:path';
 import Layout from '@layouts/Layout.astro';
 import Navbar from '@components/Navbar.astro';
 import Footer from '@components/Footer.astro';
-import { isLowValueNote } from '@data/note-quality';
+import { isLowValueNote, isGoodNote, isIndexableExamHub } from '@data/note-quality';
 import { ALL_EXAMS, getCountryFlag } from '@data/exams';
 import { EXAM_EQUIVALENTS } from '@data/exam-equivalents';
 import { isNoindexExam } from '@data/suppressed-exams';
@@ -58,9 +58,7 @@ const authorObj = { name: "Pushkar Saini", jobTitle: "Founder & Editor", affilia
 // fake-freshness signal that hurts E-E-A-T and trips AdSense scaled-content review.
 const _modRaw = String(note.data.lastUpdated || note.data.generated || '2026-01-01');
 const _modDate = new Date(/^\d{4}-\d{2}-\d{2}$/.test(_modRaw) ? `${_modRaw}T00:00:00Z` : _modRaw);
-const lastModifiedISO = isNaN(_modDate.getTime()) ? '2026-01-01T00:00:00.000Z' : _modDate.toISOString();
-const lastModifiedDay = lastModifiedISO.slice(0, 10);
-const lastModifiedDisplay = new Date(lastModifiedISO).toLocaleDateString('en-IN', { year: 'numeric', month: 'long', day: 'numeric' });
+let lastModifiedISO = isNaN(_modDate.getTime()) ? '2026-01-01T00:00:00.000Z' : _modDate.toISOString();
 
 // datePublished must also be a valid ISO date. `generated` is sometimes "ai-v1"
 // or a microsecond / no-timezone value that Google rejects in Article schema.
@@ -69,16 +67,26 @@ const _pubRaw = String(note.data.generated || '');
 const _pubDate = new Date(/^\d{4}-\d{2}-\d{2}$/.test(_pubRaw) ? `${_pubRaw}T00:00:00Z` : _pubRaw);
 const datePublishedISO = isNaN(_pubDate.getTime()) ? lastModifiedISO : _pubDate.toISOString();
 
+// `lastUpdated` is date-only (parses to midnight) while `generated` carries an
+// intraday timestamp — same-day pairs made dateModified precede datePublished
+// on ~76% of notes (logically invalid Article schema). Clamp to published.
+if (lastModifiedISO < datePublishedISO) lastModifiedISO = datePublishedISO;
+const lastModifiedDay = lastModifiedISO.slice(0, 10);
+const lastModifiedDisplay = new Date(lastModifiedISO).toLocaleDateString('en-IN', { year: 'numeric', month: 'long', day: 'numeric' });
+
 // Pull the exam's official-source URL so we can cite it inside the note body
 // (each indexed note gets at least one authoritative external link).
 const examMeta = (ALL_EXAMS as any[]).find((e) => e && e.examId === exam);
 const officialSource = examMeta?.officialSource || '';
 
-// Related notes: same exam + subject, different topic
+// Related notes: same exam + subject, different topic. Only good notes —
+// low-value siblings are noindexed (follow-link leak) and placeholder ones
+// render literal "Topic N" anchor text (104 indexed pages, 2026-07-04 audit).
 const allNotes = await getCollection('notes');
 const sameExamSubject = allNotes.filter(n => {
   const parts = n.id.split('/');
-  return parts[0] === note.id.split('/')[0] && parts[1] === note.id.split('/')[1] && parts[2] !== note.id.split('/')[2];
+  return parts[0] === note.id.split('/')[0] && parts[1] === note.id.split('/')[1] && parts[2] !== note.id.split('/')[2]
+    && isGoodNote(n);
 }).slice(0, 5);
 
 // Sequential navigation: prev and next topic in same subject
@@ -91,32 +99,25 @@ const currentIdx = sortedNotes.findIndex(n => n.id === note.id);
 const prevTopic = currentIdx > 0 ? sortedNotes[currentIdx - 1] : null;
 const nextTopic = currentIdx < sortedNotes.length - 1 ? sortedNotes[currentIdx + 1] : null;
 
-// Only link equivalents that actually have a notes hub — others 404. Build the
-// set of exams that have notes from the loaded collection and filter against it.
-const examsWithNotes = new Set(allNotes.map(n => n.id.split('/')[0]));
-const relatedExams = (EXAM_EQUIVALENTS[exam] || []).filter(r => examsWithNotes.has(r.id));
+// Only link equivalents whose notes hub exists (≥1 good note — all-bad hubs
+// 404) and is indexable, so this page never follow-links a noindexed hub.
+const goodByExam = new Map<string, number>();
+for (const n of allNotes) {
+  if (isGoodNote(n)) {
+    const eid = n.id.split('/')[0];
+    goodByExam.set(eid, (goodByExam.get(eid) || 0) + 1);
+  }
+}
+const relatedExams = (EXAM_EQUIVALENTS[exam] || [])
+  .filter(r => isIndexableExamHub(goodByExam.get(r.id) || 0, r.id));
 
 // Country flag
 const flag = getCountryFlag(country) || '🌍';
 
-const faqs = [
-  {
-    question: `What is ${topicName} in ${examName}?`,
-    answer: `${topicName} is a topic in the ${subjectDisplay} syllabus of ${examName}. It carries a weight of ${weight}% in the exam. Our notes cover the key concepts, formulas, and problem-solving approaches you need to master this topic.`,
-  },
-  {
-    question: `How do the Quick / Standard / Deep tiers work?`,
-    answer: `Each topic has three content tiers. Quick (1h–1d) gives high-yield facts and exam tips for last-minute revision. Standard (2d–2mo) covers full concepts, key points, and formulas. Deep (3mo+) provides comprehensive coverage with derivations and practice prompts. The tier auto-selects based on your roadmap duration, or you can switch manually.`,
-  },
-  {
-    question: `How do these notes help with ${examName} preparation?`,
-    answer: `These notes are part of your personalised ${examName} study roadmap. Each topic has three depth levels so you study at the right intensity for your available time. Use the roadmap to prioritise topics by exam weight, then dive into notes at your chosen depth.`,
-  },
-  {
-    question: `Is this really free?`,
-    answer: `Yes — all StudyRoadmap™ content is completely free. No account required, no signup, no email. Just open the notes and start studying.`,
-  },
-];
+// No FAQPage schema here: the old templated Q&A ("What is X in Y?", tier
+// explainer, "Is this really free?") was emitted schema-only on 2,972 indexed
+// notes with nothing visible on the page — a structured-data policy violation
+// and duplicated boilerplate at scale. The note body itself is the content.
 
 const breadcrumbJsonLd = {
   '@context': 'https://schema.org',
@@ -166,7 +167,7 @@ const articleJsonLd = {
 };
 ---
 
-<Layout title={title} description={description} canonical={canonicalUrl} image={ogImage} faqs={faqs} author={authorObj} robots={robotsDirective}>
+<Layout title={title} description={description} canonical={canonicalUrl} image={ogImage} author={authorObj} robots={robotsDirective}>
   <script type="application/ld+json" set:html={JSON.stringify(articleJsonLd)} />
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
 

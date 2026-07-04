@@ -4,6 +4,7 @@ import Navbar from '../../../components/Navbar.astro';
 import Footer from '../../../components/Footer.astro';
 import { ALL_EXAMS, getCountryFlag } from '../../../data/exams';
 import { isNoindexExam } from '../../../data/suppressed-exams';
+import { isPlaceholderExamTopic, placeholderSyllabusStats } from '../../../data/note-quality';
 
 export async function getStaticPaths() {
   const SPOKES = ['dates','eligibility','syllabus','pattern','strategy'];
@@ -74,14 +75,13 @@ const breadcrumbJsonLd = {
 // strip them from every rendered list, and noindex the syllabus spoke when the
 // module is majority-placeholder (32 indexed syllabus spokes shipped raw
 // "Topic 1..Topic 15" tables until 2026-07-03). Self-heals after backfill.
-const isPlaceholderTopic = (t: any) => /^Topic \d+$/i.test(t?.name || '');
+// Predicate shared via note-quality.ts so the hub's SPOKE-NAV agrees with
+// this page's own noindex gate (22 indexed hubs follow-linked their
+// noindexed syllabus spokes until 2026-07-04).
 const rawSubjects = exam.subjects || [];
-const rawTopicCount = rawSubjects.reduce((n: number, s: any) => n + (s.topics?.length || 0), 0);
-const placeholderCount = rawSubjects.reduce(
-  (n: number, s: any) => n + (s.topics || []).filter(isPlaceholderTopic).length, 0);
-const subjects = rawSubjects.map((s: any) => ({ ...s, topics: (s.topics || []).filter((t: any) => !isPlaceholderTopic(t)) }));
+const subjects = rawSubjects.map((s: any) => ({ ...s, topics: (s.topics || []).filter((t: any) => !isPlaceholderExamTopic(t)) }));
 const totalTopics = subjects.reduce((n: number, s: any) => n + (s.topics?.length || 0), 0);
-const isPlaceholderSyllabus = rawTopicCount > 0 && placeholderCount / rawTopicCount >= 0.5;
+const { isPlaceholderSyllabus } = placeholderSyllabusStats(rawSubjects);
 
 const SIBLINGS = ['dates','eligibility','syllabus','pattern','strategy'].filter(s => s !== spoke);
 const spokeRobots = (isNoindexExam(exam.examId) || (spoke === 'syllabus' && isPlaceholderSyllabus))

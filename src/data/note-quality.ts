@@ -90,3 +90,20 @@ export function isIndexableExamHub(goodNoteCount: number, examId: string): boole
 export function isIndexableSubjectHub(goodNoteCount: number, examId: string): boolean {
   return goodNoteCount >= 3 && !isNoindexExam(examId);
 }
+
+// ── Exam-data placeholder helpers ────────────────────────────────────────────
+// Literal "Topic N" rows are corrupt placeholder module data, not content.
+// Shared by the exam hub, syllabus spoke, and study-plan templates so the
+// noindex gate and every linker/count agree on what a placeholder is —
+// a hub must not link (or claim topic counts for) a spoke it knows is
+// majority-placeholder and therefore noindexed.
+export const isPlaceholderExamTopic = (t: { name?: string } | null | undefined): boolean =>
+  /^Topic \d+$/i.test(t?.name || '');
+
+export function placeholderSyllabusStats(subjects: Array<{ topics?: Array<{ name?: string }> }> | undefined) {
+  const subs = subjects || [];
+  const raw = subs.reduce((n, s) => n + (s.topics?.length || 0), 0);
+  const placeholders = subs.reduce(
+    (n, s) => n + (s.topics || []).filter(isPlaceholderExamTopic).length, 0);
+  return { raw, placeholders, isPlaceholderSyllabus: raw > 0 && placeholders / raw >= 0.5 };
+}

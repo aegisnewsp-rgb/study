@@ -16,7 +16,7 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Topic 8** — Key Facts for Kenyatta University (Kenya)
+**Esters: Structure, Nomenclature, and Chemical Reactions** — Key Facts for Kenyatta University (Kenya)
 Core concept: Esters (R–COOR') are derived from carboxylic acids by substituting the –OH with –OR' group; they have the functional group –COO– and are named as alkyl alkanoates (e.g., ethyl acetate = ethyl ethanoate)
 High-yield point: Esters undergo hydrolysis (acid-catalysed reversible, alkaline irreversible giving carboxylate salt + alcohol); transesterification (alcohol + ester → new ester + new alcohol); and reduction (LiAlH₄ → two alcohols)
 ⚡ Exam tip: The acid-catalysed hydrolysis of an ester is reversible and follows the mechanism of nucleophilic acyl substitution; alkaline hydrolysis (saponification) is NOT reversible because the carboxylate anion is resonance-stabilised and cannot reform the ester

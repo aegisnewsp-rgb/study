@@ -16,7 +16,7 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Topic 2** — Key Facts for KPK PMS
+**Pakistan's Governance, Economy, and Society: Core Issues and Challenges** — Key Facts for KPK PMS
 Core concept: Pakistan is the fifth most populous country in the world with ~240 million people; it faces persistent challenges in human development, governance, and economic stability; despite rich natural resources and strategic location, it struggles with poverty, inequality, and institutional weakness
 High-yield point: Pakistan's Human Development Index (HDI) ranking is approximately 161/193 (2022), reflecting low life expectancy (~67 years), low educational attainment (~4.5 mean years of schooling), and low per capita income; the country has one of the world's largest out-of-school children populations (~22 million)
 ⚡ Exam tip: The persistent fiscal deficit and low tax-to-GDP ratio (~10%) are core structural challenges; Pakistan's tax system disproportionately burdens the poor while leaving large sectors untaxed — agricultural income, real estate, and the informal economy; this is frequently tested

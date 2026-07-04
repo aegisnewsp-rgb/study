@@ -3,7 +3,8 @@ import { getCollection } from 'astro:content';
 import Layout from '@layouts/Layout.astro';
 import Navbar from '@components/Navbar.astro';
 import Footer from '@components/Footer.astro';
-import { isGoodNote } from '@data/note-quality';
+import FaqSection from '@components/FaqSection.astro';
+import { isGoodNote, isIndexableExamHub } from '@data/note-quality';
 import { getCountryFlag } from '@data/exams';
 
 // Only count/list indexable notes; exams whose notes are all still low-value
@@ -27,7 +28,12 @@ type ExamMeta = {
   subjects: number;
 };
 
-const examMeta: ExamMeta[] = Object.entries(byExam).map(([examId, notes]) => {
+// Same indexability threshold as the exam hubs themselves — this indexed
+// landing page must never follow-link a noindexed hub (haad/loe/nlt leaked
+// here after the 2026-07-03 NOINDEX additions; caught by the 07-04 audit).
+const examMeta: ExamMeta[] = Object.entries(byExam)
+  .filter(([examId, notes]) => isIndexableExamHub(notes.length, examId))
+  .map(([examId, notes]) => {
   const first = notes[0];
   return {
     exam: examId,
@@ -175,6 +181,8 @@ const NOTES_FAQS = [
         })}
       </div>
     </section>
+      <FaqSection faqs={NOTES_FAQS} heading="Study notes — FAQs" />
+
   </main>
   <Footer />
 </Layout>

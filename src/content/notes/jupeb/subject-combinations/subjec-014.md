@@ -16,7 +16,7 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Topic 14** — Key Facts for JUPEB (Nigeria)
+**Technology and Vocational Subject Combinations for JUPEB** — Key Facts for JUPEB (Nigeria)
 Core concept: Technology and vocational subject combinations (Physics, Chemistry, Technical Drawing, Biology) target engineering, technology, and applied science programmes at Nigerian universities
 High-yield point: Technical Drawing combined with Physics and Chemistry is essential for Architecture and Engineering programmes; the inclusion of Further Mathematics strengthens competitive technical applications
 ⚡ Exam tip: Technical Drawing requires drawing practice under timed conditions — don't just read the textbook; practice sketching and constructing diagrams

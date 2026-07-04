@@ -144,28 +144,15 @@ const faqJsonLd = {
   '@context': 'https://schema.org',
   '@type': 'FAQPage',
   mainEntity: [
-    // Duration-specific Q&A derived from the strategy engine — distinct per timeline.
+    // Duration-specific Q&A derived from the strategy engine — distinct per
+    // timeline. ONLY these are marked up: they are what the visible FAQ
+    // section renders, and schema must not describe invisible content (the
+    // two former extra questions existed schema-only on all 2,232 plans).
     ...strategy.faq.map((f) => ({
       '@type': 'Question',
       name: f.q,
       acceptedAnswer: { '@type': 'Answer', text: f.a },
     })),
-    {
-      '@type': 'Question',
-      name: `What subjects does this ${examName} study plan cover?`,
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: `This ${durationLabel} covers ${Object.keys(bySubject).length} subjects: ${subjectsCovered}${Object.keys(bySubject).length > 4 ? ', and more' : ''}. Topic order is weight-prioritised so the highest-yield material is covered first.`,
-      },
-    },
-    {
-      '@type': 'Question',
-      name: `Is this ${examName} ${durationLabel} free?`,
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: `Yes — StudyRoadmap publishes every duration plan free, with no signup or paywall. The full ${totalDays}-day schedule, daily topics, and per-subject breakdown are all open-access on this page.`,
-      },
-    },
   ],
 };
 

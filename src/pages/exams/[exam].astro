@@ -7,7 +7,7 @@ import { EXAM_FAQS } from '../../data/exam-faqs';
 import { getCollection } from 'astro:content';
 import fs from 'node:fs';
 import path from 'node:path';
-import { isGoodNote, isIndexableExamHub, isIndexableSubjectHub } from '../../data/note-quality';
+import { isGoodNote, isIndexableExamHub, isIndexableSubjectHub, isPlaceholderExamTopic, placeholderSyllabusStats } from '../../data/note-quality';
 
 // Only link note hubs that are actually indexable — this page is indexed, and a
 // follow-link into a noindexed hub leaks crawl signals (policy: never link to
@@ -133,7 +133,9 @@ const howToJsonLd = {
       '@type': 'HowToStep',
       name: 'Step 2 — Study topic by topic',
       text: `Follow your roadmap and open free study notes for each topic. Notes include concept explanations, key formulas, exam-level practice questions, and three depth tiers (Quick, Standard, Deep) based on your time.`,
-      url: `${SITE_URL}/notes/${exam.examId}/`,
+      // All-bad-note hubs 404 — never emit a schema URL this page's own
+      // visible "Browse Study Notes" gate already hides (GSC-visible 404s).
+      url: examsWithNotes.has(exam.examId) ? `${SITE_URL}/notes/${exam.examId}/` : `${SITE_URL}/roadmap/?exam=${exam.examId}`,
     },
     {
       '@type': 'HowToStep',
@@ -183,8 +185,10 @@ const faqJsonLd = examSpecificFAQs ? {
   })),
 } : null;
 
-// Course schema for exam pages
-const courseJsonLd = {
+// Course schema for exam pages. Discontinued exams get none — a
+// "Comprehensive X preparation course" Course object on a page whose banner
+// says the exam is no longer conducted is contradictory markup (lsat).
+const courseJsonLd = DISCONTINUED_EXAMS[exam.examId] ? null : {
   '@context': 'https://schema.org',
   '@type': 'Course',
   'name': `${examName} Study Roadmap`,
@@ -221,10 +225,18 @@ const courseJsonLd = {
   },
 };
 
-// Subject data for display
+// Subject data for display. Counts exclude placeholder "Topic N" rows so the
+// hub can't claim "45 topics" while its own filtered views render 0 (indexed
+// hubs self-contradicted their syllabus spokes until 2026-07-04).
 const subjectList = exam.subjects || [];
-const totalTopics = subjectList.reduce((acc: number, s: any) => acc + (s.topics?.length || 0), 0);
+const realTopics = (s: any) => (s.topics || []).filter((t: any) => !isPlaceholderExamTopic(t));
+const totalTopics = subjectList.reduce((acc: number, s: any) => acc + realTopics(s).length, 0);
 const durations = Object.keys(exam.durations || {}).slice(0, 6);
+// The syllabus spoke noindexes itself when majority-placeholder — don't
+// follow-link it from this indexed hub (same never-link-noindex policy).
+const { isPlaceholderSyllabus } = placeholderSyllabusStats(exam.subjects);
+const spokeLinks = ['dates','eligibility','syllabus','pattern','strategy']
+  .filter((s) => s !== 'syllabus' || !isPlaceholderSyllabus);
 
 // Find related exams (same country, different exam) — never link to noindex
 // (fabricated/discontinued) exams from an indexed page.
@@ -362,7 +374,7 @@ const discontinuedNotice = DISCONTINUED_EXAMS[exam.examId];
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
   {faqJsonLd && <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />}
   <script type="application/ld+json" set:html={JSON.stringify(howToJsonLd)} />
-  <script type="application/ld+json" set:html={JSON.stringify(courseJsonLd)} />
+  {courseJsonLd && <script type="application/ld+json" set:html={JSON.stringify(courseJsonLd)} />}
 
   <Navbar />
 
@@ -451,7 +463,7 @@ const discontinuedNotice = DISCONTINUED_EXAMS[exam.examId];
 
         <!-- SR-AUTO:START:SPOKE-NAV -->
         <div class="flex flex-wrap gap-2 mb-6">
-          {['dates','eligibility','syllabus','pattern','strategy'].map((s: string) => (
+          {spokeLinks.map((s: string) => (
             <a href={`/exams/${exam.examId}/${s}/`} class="px-3 py-1.5 rounded-full bg-surface-100 dark:bg-surface-800 hover:bg-brand-100 dark:hover:bg-brand-900/30 text-xs font-medium capitalize">{s}</a>
           ))}
         </div>
@@ -527,11 +539,11 @@ const discontinuedNotice = DISCONTINUED_EXAMS[exam.examId];
                   {hasSubjectNotes && <span class="text-xs text-surface-400 group-hover:text-brand-600 transition-colors">→</span>}
                 </div>
                 <p class="text-sm text-surface-500 dark:text-surface-400">
-                  {subject.topics?.length || 0} topics
-                  {subject.topics?.filter((t: any) => !/^Topic \d+$/i.test(t.name || '')).slice(0, 3).map((t: any) => (
+                  {realTopics(subject).length} topics
+                  {realTopics(subject).slice(0, 3).map((t: any) => (
                     <span class="inline-block mr-1">· {t.name}</span>
                   ))}
-                  {(subject.topics?.filter((t: any) => !/^Topic \d+$/i.test(t.name || '')).length || 0) > 3 && <span class="text-surface-400">+ more</span>}
+                  {realTopics(subject).length > 3 && <span class="text-surface-400">+ more</span>}
                 </p>
               </>
             );

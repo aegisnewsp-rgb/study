@@ -16,7 +16,7 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Topic 7** — Key Facts for KPK PMS
+**Islam in Pakistan: History, Politics, and the Islamisation Process** — Key Facts for KPK PMS
 Core concept: Pakistan's creation was driven by the All India Muslim League's demand for a separate Muslim homeland; the Islamic identity of Pakistan has been a subject of continuous political and constitutional debate since independence
 High-yield point: The Objectives Resolution (1949) under Liaquat Ali Khan established the Islamic character of the state without making Sharia the supreme law; Zia-ul-Haq's Islamisation (1977–1988) was the most extensive state-driven Islamisation in Pakistani history; Pakistan's Islamic identity is reflected in the Objectives Resolution, the prohibition of alcohol, and the Islamic penal code
 ⚡ Exam tip: Zia's Islamisation programme is a frequently tested topic in the KPK PMS — it included the Hadood Ordinances (1979), the Shariat Benevolent Supremacy (1985), the Qanoon-e-Shahadat (1984, evidence law), the Zakat and Ushr system, and the Financial Institutions (Recovery of Finances) Ordinance — know these specifically

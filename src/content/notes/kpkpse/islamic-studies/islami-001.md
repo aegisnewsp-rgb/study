@@ -16,7 +16,7 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Topic 1** — Key Facts for KPK PMS
+**Islamic Studies (General Studies): Sources of Islamic Law and Islamic Philosophy** — Key Facts for KPK PMS
 Core concept: The primary sources of Islamic law (Sharia) are the Quran and Sunnah; their secondary sources include Ijma (consensus of scholars), Qiyas (analogical reasoning), and for Shia Muslims, 'Ilm (knowledge of the Imams) and 'Aql (reason); understanding these sources is essential for Islamic jurisprudence (Fiqh)
 High-yield point: The Quran is the literal word of God revealed to Prophet Muhammad (SAW) through Angel Jibril over 23 years (610–632 CE); it contains 114 Surahs; the Sunnah consists of the Prophet's sayings (Hadith), actions, and approvals (Taqrir); together, these form the Sharia which governs Islamic law and ethics
 ⚡ Exam tip: The KPK PMS Islamic Studies paper frequently asks about the classification of Hadith (Sahih, Hasan, Da'if), the different schools of Islamic jurisprudence (Madhahib: Hanafi, Maliki, Shafi'i, Hanbali), and the difference between Shia and Sunni approaches to Islamic law

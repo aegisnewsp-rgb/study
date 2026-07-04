@@ -3,6 +3,7 @@ import Layout from '../layouts/Layout.astro';
 import Navbar from '../components/Navbar.astro';
 import Footer from '../components/Footer.astro';
 
+import FaqSection from '../components/FaqSection.astro';
 const CONTACT_FAQS = [
   {
     question: "How long does it take to get a response?",
@@ -186,6 +187,8 @@ const CONTACT_FAQS = [
         </div>
       </div>
     </section>
+      <FaqSection faqs={CONTACT_FAQS} heading="Contact — common questions" />
+
   </main>
 
   <Footer />

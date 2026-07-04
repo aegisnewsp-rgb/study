@@ -1,6 +1,7 @@
 ---
 import Layout from '../layouts/Layout.astro';
 
+import FaqSection from '../components/FaqSection.astro';
 const ogTitle = 'Help Improve StudyRoadmap — Report Errors & Suggest Topics';
 const ogDescription = 'Report errors, suggest missing topics, or contribute to StudyRoadmap free study notes for NEET, JEE, UPSC, MDCAT, JAMB & 125+ competitive exams.';
 
@@ -202,6 +203,8 @@ const FEEDBACK_FAQS = [
         </details>
       </div>
     </div>
+      <FaqSection faqs={FEEDBACK_FAQS} heading="Feedback — common questions" />
+
   </main>
 </Layout>
 

@@ -2,6 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import Navbar from '../components/Navbar.astro';
 import Footer from '../components/Footer.astro';
+import FaqSection from '../components/FaqSection.astro';
 import { ALL_EXAMS } from '../data/exams';
 
 const LAST_UPDATED = 'April 2026';
@@ -315,6 +316,8 @@ const ABOUT_FAQS = [
         Last updated: {LAST_UPDATED} · StudyRoadmap™ is not affiliated with any exam board.
       </p>
     </section>
+      <FaqSection faqs={ABOUT_FAQS} heading="About StudyRoadmap — FAQs" />
+
   </main>
 
   <Footer />

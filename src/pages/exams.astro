@@ -2,6 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import Navbar from '../components/Navbar.astro';
 import Footer from '../components/Footer.astro';
+import FaqSection from '../components/FaqSection.astro';
 import { ALL_EXAMS, getCountryFlag } from '../data/exams';
 import { isNoindexExam } from '../data/suppressed-exams';
 
@@ -191,6 +192,8 @@ const EXAM_FAQS = [
         </div>
       ))}
     </section>
+      <FaqSection faqs={EXAM_FAQS} heading="Choosing an exam — FAQs" />
+
   </main>
 
   <Footer />

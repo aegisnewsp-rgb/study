@@ -16,7 +16,7 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Topic 11** — Key Facts for Kenyatta University (Kenya)
+**Carbohydrates: Classification, Stereochemistry, and Reactions** — Key Facts for Kenyatta University (Kenya)
 Core concept: Carbohydrates (sugars) are polyhydroxy aldehydes or ketones; they are classified as aldoses (aldehyde sugars) or ketoses (ketone sugars), and further as trioses (3C), tetroses (4C), pentoses (5C), hexoses (6C), etc.
 High-yield point: D- and L- notation in sugars refers to the last chiral centre (farthest from the aldehyde/ketone); D-glucose has the –OH on the last chiral centre on the right (Fischer projection); all naturally occurring sugars in humans are D-sugars; epimers differ at only one chiral centre
 ⚡ Exam tip: Glucose is the most important carbohydrate — its open-chain Fischer projection shows CHO and CH₂OH at opposite ends with four chiral centres (C2, C3, C4, C5); D-(+)-glucose is the naturally occurring enantiomer; the "(+)" refers to dextrorotatory optical rotation, not the D/L configuration

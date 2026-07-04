@@ -16,7 +16,7 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Topic 9** — Key Facts for Kenyatta University (Kenya)
+**Amines: Classification, Structure, and Reactions** — Key Facts for Kenyatta University (Kenya)
 Core concept: Amines are organic derivatives of ammonia (NH₃) where one or more hydrogen atoms are replaced by alkyl or aryl groups; they are classified as primary (1°), secondary (2°), or tertiary (3°) based on the number of carbon substituents on the nitrogen atom
 High-yield point: Basicity order: aliphatic amines > NH₃ > aromatic amines; aniline (C₆H₅NH₂) is much less basic than alkyl amines because the nitrogen lone pair is delocalised into the benzene ring (resonance); the pKb of aniline is ~9.4 vs ~3.3 for ethylamine
 ⚡ Exam tip: Aromatic amines (aniline) do not react with nitrous acid (HNO₂) to give diazonium salts at room temperature because the diazonium ion is stabilised by the aromatic ring but the reaction is more complex; standard diazotisation requires 0–5°C and gives benzyne-type intermediates

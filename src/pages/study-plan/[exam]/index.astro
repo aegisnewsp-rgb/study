@@ -5,6 +5,7 @@ import Footer from '../../../components/Footer.astro';
 import { ALL_EXAMS, getCountryFlag } from '../../../data/exams';
 import { getStudyPlanStrategy, indexedDurationsFor } from '../../../data/study-plan-strategy';
 import { isNoindexExam } from '../../../data/suppressed-exams';
+import { isPlaceholderExamTopic } from '../../../data/note-quality';
 
 export async function getStaticPaths() {
   const paths: any[] = [];
@@ -43,17 +44,20 @@ const longestKey = sortedKeys[sortedKeys.length - 1];
 const longestTopics = (exam.durations?.[longestKey]?.dailyTopics || []) as any[];
 const subjectAgg: Record<string, number> = {};
 let topicCount = 0;
+// Placeholder "Topic N" rows are excluded everywhere — the hub must not
+// weave in counts its own duration pages filter out and noindex against.
 if (Array.isArray(exam.subjects) && exam.subjects.length) {
   for (const s of exam.subjects) {
-    const tops = (s.topics || []) as any[];
+    const tops = ((s.topics || []) as any[]).filter((t: any) => !isPlaceholderExamTopic(t));
     subjectAgg[s.name] = tops.reduce((n: number, t: any) => n + (t.weight || 0), 0);
     topicCount += tops.length;
   }
 } else {
-  for (const t of longestTopics) {
+  const realLongest = longestTopics.filter((t: any) => !isPlaceholderExamTopic(t));
+  for (const t of realLongest) {
     subjectAgg[t.subject] = (subjectAgg[t.subject] || 0) + (t.weight || 0);
   }
-  topicCount = longestTopics.length;
+  topicCount = realLongest.length;
 }
 const rankedSubjects = Object.entries(subjectAgg).sort((a, b) => b[1] - a[1]).map(([n]) => n);
 const subjectCount = rankedSubjects.length;
@@ -132,7 +136,15 @@ const faqJsonLd = {
   '@type': 'FAQPage',
   mainEntity: faqs.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
 };
-const studyPlanRobots = isNoindexExam(exam.examId) ? 'noindex, follow' : undefined;
+// Mirror the [duration].astro self-heal: when EVERY duration page of this
+// exam is a placeholder plan (and therefore noindexed), the hub would be an
+// indexed page whose children are 100% noindexed — noindex it too.
+const allDurationsPlaceholder = durationKeys.length > 0 && durationKeys.every((k) => {
+  const raw = (exam.durations?.[k]?.dailyTopics || []) as any[];
+  const ph = raw.filter((t: any) => isPlaceholderExamTopic(t)).length;
+  return raw.length === 0 || ph / raw.length >= 0.5;
+});
+const studyPlanRobots = (isNoindexExam(exam.examId) || allDurationsPlaceholder) ? 'noindex, follow' : undefined;
 ---
 
 <Layout title={title} description={description} canonical={canonicalUrl} robots={studyPlanRobots}>

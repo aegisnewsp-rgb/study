@@ -16,7 +16,7 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Topic 10** — Key Facts for Kenyatta University (Kenya)
+**Organic Spectroscopy: IR, ¹H NMR, and UV-Vis Spectroscopy** — Key Facts for Kenyatta University (Kenya)
 Core concept: Spectroscopy techniques are used to identify the structure of organic molecules; IR spectroscopy identifies functional groups from their absorption of infrared light; ¹H NMR identifies hydrogen environments and their chemical shifts; UV-Vis identifies conjugated π-systems
 High-yield point: IR peaks: O–H and N–H (broad, 3200–3600 cm⁻¹), C≡N (sharp, 2240–2260 cm⁻¹), C≡C (sharp, 2100–2260 cm⁻¹), C=O (strong, 1700–1750 cm⁻¹), C=C (medium, 1620–1680 cm⁻¹); NMR chemical shifts: aldehyde H (9–10 ppm), benzylic H (2.3–2.8 ppm), alcohol O–H (variable 1–5 ppm, exchangeable with D₂O)
 ⚡ Exam tip: The splitting pattern in ¹H NMR (n+1 rule) comes from neighbouring non-equivalent hydrogens; be careful to identify which hydrogens are equivalent and which are neighbours

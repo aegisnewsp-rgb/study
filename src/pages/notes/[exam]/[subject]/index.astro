@@ -5,7 +5,7 @@ import path from 'node:path';
 import Layout from '@layouts/Layout.astro';
 import Navbar from '@components/Navbar.astro';
 import Footer from '@components/Footer.astro';
-import { isGoodNote, isIndexableSubjectHub } from '@data/note-quality';
+import { isGoodNote, isIndexableSubjectHub, isIndexableExamHub } from '@data/note-quality';
 import { EXAM_EQUIVALENTS } from '@data/exam-equivalents';
 
 export async function getStaticPaths() {
@@ -110,10 +110,17 @@ const otherSubjects = allSubjects.filter(s => s !== subject).map(s => {
 });
 
 // Equivalent exams
-// Only link equivalents that actually have a notes hub — others 404. Build the
-// set of exams that have notes from the loaded collection and filter against it.
-const examsWithNotes = new Set(allNotes.map(n => n.id.split('/')[0]));
-const relatedExams = (EXAM_EQUIVALENTS[exam] || []).filter(r => examsWithNotes.has(r.id));
+// Only link equivalents whose notes hub exists (≥1 good note — all-bad hubs
+// 404) and is indexable — never follow-link a noindexed hub from here.
+const goodByExam = new Map<string, number>();
+for (const n of allNotes) {
+  if (isGoodNote(n)) {
+    const eid = n.id.split('/')[0];
+    goodByExam.set(eid, (goodByExam.get(eid) || 0) + 1);
+  }
+}
+const relatedExams = (EXAM_EQUIVALENTS[exam] || [])
+  .filter(r => isIndexableExamHub(goodByExam.get(r.id) || 0, r.id));
 ---
 
 <Layout title={title} description={description} canonical={canonicalUrl} image={ogImage} faqs={faqs} author={authorObj} robots={subjectHubRobots}>

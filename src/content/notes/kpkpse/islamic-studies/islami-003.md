@@ -16,7 +16,7 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Topic 3** — Key Facts for KPK PMS
+**Islamic Ethics, Morality, and the Islamic Worldview** — Key Facts for KPK PMS
 Core concept: Islamic ethics (Akhlaq) is grounded in the Quran and Sunnah; it encompasses both personal morality and social conduct; the twin concepts of halal (permissible) and haram (forbidden) define the ethical boundaries of a Muslim's life
 High-yield point: The concept of halal and haram in Islam is comprehensive: halal means everything permitted unless explicitly forbidden; haram means everything forbidden unless explicitly permitted; Islamic ethics requires intention (niyyah) to transform action from ritual to worship — "actions are judged by intentions" (Hadith)
 ⚡ Exam tip: The concept of halal and haram for food and drink (food laws) and business transactions (prohibition of riba/interest, gharar/uncertainty, maysir/gambling) are frequently tested in the KPK PMS Islamic Studies paper; the hadith about intention is considered one of the most important hadiths in Islam

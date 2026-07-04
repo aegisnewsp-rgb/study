@@ -16,7 +16,7 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Topic 4** — Key Facts for KPK PMS
+**Islamic History: The Rightly Guided Caliphs and Major Dynasties** — Key Facts for KPK PMS
 Core concept: The history of Islamic civilisation spans from the Prophet Muhammad's (SAW) mission in Makkah (610 CE) through the Rashidun Caliphate (632–661 CE), the Umayyad (661–750 CE), Abbasid (750–1258 CE) dynasties, and the later Islamic empires (Ottoman, Safavid, Mughal)
 High-yield point: The Rashidun Caliphate (Abu Bakr, Umar ibn al-Khattab, Uthman ibn Affan, Ali ibn Abi Talib) is considered the ideal period of Islamic governance; the Pious Caliphs (Al-Khulafa al-Rashidun) established the foundations of Islamic statehood, justice, and expansion; their rule lasted 30 years and witnessed the expansion from Arabia to Egypt, Persia, and Central Asia
 ⚡ Exam tip: The Rightly Guided Caliphs are frequently tested — know their names, their key policies, their deaths, and the circumstances of their rule; Abu Bakr established the Quran's compilation, Umar ibn al-Khattab created the first census and state treasury (Bayt al-Mal), Uthman standardised the Quran, Ali's caliphate was marked by the fitna (civil war) with Muawiyah

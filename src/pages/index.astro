@@ -2,6 +2,7 @@
 import Layout from '../layouts/Layout.astro';
 import Navbar from '../components/Navbar.astro';
 import Footer from '../components/Footer.astro';
+import FaqSection from '../components/FaqSection.astro';
 import { ALL_EXAMS, getCountryFlag } from '../data/exams';
 import { isNoindexExam } from '../data/suppressed-exams';
 import { readFileSync } from 'fs';
@@ -596,6 +597,22 @@ const howToSteps = [
       </div>
     </section>
   )}
+      <!-- Visible steps backing the HowTo JSON-LD (markup must match on-page content) -->
+      <section class="container-page py-10 border-t border-surface-200 dark:border-surface-700">
+        <h2 class="text-2xl font-bold text-surface-900 dark:text-white mb-6">How it works</h2>
+        <ol class="grid sm:grid-cols-3 gap-6 list-none">
+          {howToSteps.map((s, i) => (
+            <li class="rounded-xl border border-surface-200 dark:border-surface-700 p-5">
+              <div class="text-brand-500 font-bold text-sm mb-2">Step {i + 1}</div>
+              <h3 class="font-semibold text-surface-900 dark:text-white mb-1.5">{s.name}</h3>
+              <p class="text-sm text-surface-600 dark:text-surface-300 leading-relaxed">{s.text}</p>
+            </li>
+          ))}
+        </ol>
+      </section>
+
+      <FaqSection faqs={FAQS} heading="Frequently asked questions" />
+
   </main>
 
   <Footer />

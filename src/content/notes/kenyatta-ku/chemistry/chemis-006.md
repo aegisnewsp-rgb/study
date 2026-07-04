@@ -16,7 +16,7 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Topic 6** — Key Facts for Kenyatta University (Kenya)
+**Aldehydes and Ketones: Structure, Preparation, and Reactions** — Key Facts for Kenyatta University (Kenya)
 Core concept: Aldehydes have the –CHO group on a terminal carbon (R–CHO); ketones have the –CO– group internal (R–CO–R'); both contain the carbonyl (C=O) functional group, which is polar and electrophilic at the carbon atom
 High-yield point: Both aldehydes and ketones undergo nucleophilic addition reactions; NaBH₄ reduces them to alcohols; Tollens' reagent (AgNO₃/NH₃) oxidises aldehydes to carboxylic acids (gives silver mirror) but does NOT oxidise ketones; Fehling's solution (Cu²⁺) similarly distinguishes them
 ⚡ Exam tip: The nucleophilic addition mechanism involves: (1) nucleophile attacks carbonyl carbon, (2) carbonyl oxygen is protonated, (3) proton transfer; the carbonyl carbon must be sp² planar — this is frequently tested

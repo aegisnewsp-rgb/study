@@ -16,7 +16,7 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Topic 2** — Key Facts for Kenyatta University (Kenya)
+**Alkanes: Structure, Properties, and Reactions** — Key Facts for Kenyatta University (Kenya)
 Core concept: Alkanes are saturated hydrocarbons with only single bonds (C–C and C–H); they are relatively inert due to the strength of C–H and C–C bonds and the non-polar nature of the molecule
 High-yield point: Know the complete combustion equation, substitution reactions with halogens, and the differences between the various isomers of butane and pentane
 ⚡ Exam tip: Alkane exam questions frequently ask about the mechanism of free-radical halogenation — be able to describe the initiation, propagation, and termination steps with appropriate equations

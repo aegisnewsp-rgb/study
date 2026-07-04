@@ -8,7 +8,7 @@ topicName: "Science Subject Combinations for JUPEB"
 weight: 3
 country: nigeria
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: 2026-07-04
 ---
 
 # Science Subject Combinations for JUPEB
@@ -16,7 +16,7 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Topic 11** — Key Facts for JUPEB (Nigeria)
+**Science Subject Combinations for JUPEB** — Key Facts for JUPEB (Nigeria)
 Core concept: Science subject combinations for JUPEB determine eligibility for medical, engineering, and science programmes at Nigerian universities
 High-yield point: Physics, Chemistry, and Biology (PCB) is the most common science combination; Physics, Chemistry, Mathematics (PCM) opens engineering doors
 ⚡ Exam tip: Questions from this topic appear regularly in JUPEB exams, especially on which combination unlocks which university programme
@@ -43,7 +43,7 @@ This is the primary combination for medical and biological sciences. It is accep
 - Physiotherapy
 - Zoology, Botany, and Biological Sciences
 
-PCB holders typically need a minimum of **A-B-C** for competitive courses like Medicine, though requirements vary by institution. For example, University of Ibadan might accept B-C-C for lower-tier science courses, while Lagos State University (LASU) and Bayero University Kano (BUK) often demand higher grades for clinical programmes.
+PCB holders need a minimum of **A-B-C** for competitive courses like Medicine, though requirements vary by institution. For example, University of Ibadan accepts B-C-C for lower-tier science courses, while Lagos State University (LASU) and Bayero University Kano (BUK) demand higher grades for clinical programmes.
 
 **2. Physics, Chemistry, Mathematics (PCM)**
 PCM is the preferred route for:
@@ -53,7 +53,7 @@ PCM is the preferred route for:
 - Mathematics and Statistics
 - Architecture
 
-Unlike PCB, PCM is NOT typically accepted for Medicine and Surgery in most Nigerian universities. However, some institutions like the University of Benin (UNIBEN) accept PCM for Engineering even if PCB is more common. PCM students should verify specifically with their target university's Direct Entry requirements.
+Unlike PCB, PCM is NOT accepted for Medicine and Surgery in most Nigerian universities. However, some institutions like the University of Benin (UNIBEN) accept PCM for Engineering even if PCB is more common. PCM students should verify specifically with their target university's Direct Entry requirements.
 
 **3. Physics, Chemistry, Further Mathematics (PCFM)**
 This is the most rigorous science combination and is highly valued for:
@@ -77,7 +77,7 @@ Only a handful of universities accept PCFM, but where accepted, it can be a stro
 
 ### JUPEB Grading for Science Subjects
 
-The JUPEB grading system applies uniformly, but science subjects often have lower grade boundaries for progression:
+The JUPEB grading system applies uniformly, but science subjects have lower grade boundaries for progression:
 - **A (Distinction)**: 75–100%
 - **B (Credit)**: 65–74%
 - **C (Merit)**: 55–64%
@@ -88,7 +88,7 @@ For competitive courses, most universities require a **minimum of C in all three
 
 ### Study Strategy for Science Combinations
 
-1. **Past Questions**: Obtain and practice JUPEB past questions from previous years. The exam pattern is consistent, with questions often repeated in different forms.
+1. **Past Questions**: Obtain and practice JUPEB past questions from previous years. The exam pattern is consistent, with questions frequently repeated in different forms.
 2. **Diagram-Based Questions**: JUPEB frequently includes diagram-based questions in Physics and Biology. Practice drawing and labeling diagrams under timed conditions.
 3. **Numerical Problem-Solving**: Chemistry and Physics require heavy numerical practice. Memorize key formulas and practice units conversions, which are a common source of errors.
 4. **Time Management**: Science papers can be content-heavy. Allocate approximately 1 minute per mark during practice.
@@ -183,7 +183,7 @@ A minimum pass in GST is required to obtain the JUPEB certificate, even if all t
 1. **Join a JUPEB tutorial center**: The structured environment and peer competition significantly improve performance.
 2. **Use WAEC-level textbooks as foundation**: JUPEB content builds on WAEC SSCE knowledge. If your O-Level foundation is weak, start with WAEC-focused revision before moving to JUPEB level.
 3. **Practice under timed conditions**: JUPEB is paper-based and time-bound. Simulate exam conditions during practice.
-4. **Focus on high-weight topics**: In Physics, Mechanics and Electricity typically carry 40% of marks. In Chemistry, Organic reactions and electrochemistry are frequently tested.
+4. **Focus on high-weight topics**: In Physics, Mechanics and Electricity carry around 40% of marks. In Chemistry, Organic reactions and electrochemistry are frequently tested.
 5. **Use the "topic elimination" technique**: If you are weak in one sub-topic (e.g., Organic Chemistry), ensure you master at least two other areas to compensate.
 
 ### JUPEB Registration and Examination Process

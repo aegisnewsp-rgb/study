@@ -16,7 +16,7 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Topic 12** — Key Facts for JUPEB (Nigeria)
+**Commercial Subject Combinations for JUPEB** — Key Facts for JUPEB (Nigeria)
 Core concept: Commercial subject combinations (Economics, Government, Commerce, Accounting) open pathways to Business, Accounting, Law, and Social Science programmes at Nigerian universities
 High-yield point: Economics and Accounting are the cornerstone subjects; Government adds breadth for Law and Political Science; Commerce provides business context
 ⚡ Exam tip: JUPEB commercial questions frequently test students on which combination qualifies for specific degree programmes — this is a common exam trap

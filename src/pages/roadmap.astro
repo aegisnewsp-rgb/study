@@ -3,13 +3,25 @@ import Layout from '../layouts/Layout.astro';
 import Navbar from '../components/Navbar.astro';
 import Footer from '../components/Footer.astro';
 import RoadmapApp from '../components/RoadmapApp';
+import FaqSection from '../components/FaqSection.astro';
 import { getCollection } from 'astro:content';
 import { ALL_EXAMS } from '../data/exams';
 import { EXAM_FAQS } from '../data/exam-faqs';
+import { isGoodNote, isIndexableExamHub } from '../data/note-quality';
 
-// Only show the "notes →" shortcut for exams that actually have a generated
-// notes hub — linking note-less exams produces /notes/<exam>/ 404s.
-const examsWithNotes = new Set((await getCollection('notes')).map(n => n.id.split('/')[0]));
+// Only show the "notes →" shortcut for exams whose notes hub both exists
+// (≥1 good note — all-bad hubs 404) and is indexable — linking noindexed
+// hubs from this indexed page would leak follow-links (2026-07-04 audit).
+const goodNotesByExam = new Map<string, number>();
+for (const n of await getCollection('notes')) {
+  const examId = n.id.split('/')[0];
+  if (isGoodNote(n)) goodNotesByExam.set(examId, (goodNotesByExam.get(examId) || 0) + 1);
+}
+const examsWithNotes = new Set(
+  [...goodNotesByExam.entries()]
+    .filter(([examId, good]) => isIndexableExamHub(good, examId))
+    .map(([examId]) => examId)
+);
 
 const ROADMAP_FAQS = [
   {
@@ -131,6 +143,7 @@ const SLIM_EXAMS = ALL_EXAMS.filter((e: any) => e && e.examId).map((e: any) => (
   country: e.country,
   subjects: (e.subjects || []).map((sub: any) => ({ id: sub.id, name: sub.name, color: sub.color })),
   durations: Object.fromEntries(Object.entries(e.durations || {}).map(([k, d]: [string, any]) => [k, {
+    duration: k,
     description: d.description,
     totalDays: d.totalDays,
     dailyTopics: (d.dailyTopics || []).map((t: any) => ({ id: t.id, name: t.name, subject: t.subject, weight: t.weight })),
@@ -247,6 +260,8 @@ const SLIM_EXAMS = ALL_EXAMS.filter((e: any) => e && e.examId).map((e: any) => (
         </div>
       </div>
     </section>
+
+    <FaqSection faqs={ROADMAP_FAQS} heading="Roadmap generator — FAQs" />
   </main>
 
   <Footer />

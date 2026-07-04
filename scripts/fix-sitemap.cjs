@@ -37,12 +37,19 @@ examIds = [...new Set(examIds)];
 // (exams may have .ts data files but not be in ALL_EXAMS, so no page is generated)
 const distExamsBase = path.join(__dirname, '..', 'dist', 'exams');
 const generatedExamIds = new Set();
+// normalized slug → ACTUAL dist dir name. STEP 4 must read the real dir: a
+// case/char-corrupted examId (the historical 'uAeu-cat' pattern) normalizes
+// into the Set but its dist dir keeps the raw name — resolving the noindex
+// check from the normalized slug would throw, and a swallowed read error
+// must mean "exclude", never "include unchecked".
+const distDirByNormalizedId = new Map();
 if (fs.existsSync(distExamsBase)) {
   for (const dir of fs.readdirSync(distExamsBase, { withFileTypes: true })) {
     if (dir.isDirectory()) {
       // Normalize to the same slug format as the examId slugification in STEP 4
       const normalized = dir.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
       generatedExamIds.add(normalized);
+      distDirByNormalizedId.set(normalized, dir.name);
     }
   }
 }
@@ -230,14 +237,18 @@ const newExamUrls = examIds
   .filter(id => !existingUrls.has(`${BASE_URL}/exams/${id}/`))
   .filter(id => generatedExamIds.has(id))  // only include if page was actually generated
   .filter(id => {
-    const idx = path.join(distExamsBase, id, 'index.html');
+    const idx = path.join(distExamsBase, distDirByNormalizedId.get(id) || id, 'index.html');
     try {
       const html = fs.readFileSync(idx, 'utf8');
       if (/<meta[^>]*name=["']robots["'][^>]*content=["'][^"']*noindex/i.test(html)) {
         reAddSkippedNoindex++;
         return false;
       }
-    } catch {}
+    } catch {
+      // Unreadable page ⇒ its noindex state is unknown — exclude, don't ship.
+      reAddSkippedNoindex++;
+      return false;
+    }
     return true;
   })
   .map(id => `<url><loc>${BASE_URL}/exams/${id}/</loc><lastmod>${today}</lastmod></url>`);

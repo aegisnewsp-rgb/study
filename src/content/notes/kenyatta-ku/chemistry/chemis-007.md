@@ -16,7 +16,7 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Topic 7** — Key Facts for Kenyatta University (Kenya)
+**Carboxylic Acids: Structure, Preparation, and Reactions** — Key Facts for Kenyatta University (Kenya)
 Core concept: Carboxylic acids contain the –COOH functional group; the –OH part of the carboxyl group is significantly more acidic (pKa ~4.76) than alcohols (pKa ~16) due to resonance stabilisation of the carboxylate anion
 High-yield point: Carboxylic acids can be reduced to primary alcohols (LiAlH₄ only), decarboxylated (lost as CO₂), and converted to acid chlorides (SOCl₂), anhydrides, esters, and amides — know the reactions and reagents for each
 ⚡ Exam tip: The pKa of formic acid (~3.75) is lower than acetic acid (~4.76); benzoic acid (~4.20) has a pKa between formic and acetic; these values reflect the electron-withdrawing effects of substituents and are frequently compared in exam questions

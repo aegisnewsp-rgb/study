@@ -16,7 +16,7 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Topic 4** — Key Facts for Kenyatta University (Kenya)
+**Alkynes: Structure, Acidity of Terminal Alkynes, and Reactions** — Key Facts for Kenyatta University (Kenya)
 Core concept: Alkynes contain a carbon-carbon triple bond (C≡C); the unique property of terminal alkynes is their Brønsted-Lowry acidity (pKa ~25), allowing formation of acetylide ions and subsequent substitution reactions
 High-yield point: Terminal alkynes react with NaNH₂ (strong base) or AgNO₃/NH₃ to form silver or copper acetylides; internal alkynes do not exhibit this acidity
 ⚡ Exam tip: The substitution of terminal alkynes to form alkynyl anions is a favourite Kenyatta University exam question — know the AgNO₃/NH₃ test and the NaNH₂ reaction mechanism

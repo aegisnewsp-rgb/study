@@ -234,7 +234,7 @@ const articleJsonLd = {
             <span>{weight}% exam weight</span>
           </div>
           <!-- Tier selector -->
-          <div class="not-prose mb-6 p-1 bg-surface-100 dark:bg-surface-800 rounded-xl inline-flex gap-0.5" id="tier-selector" role="group" aria-label="Study depth selector">
+          <div class="not-prose mb-6 p-1 bg-surface-100 dark:bg-surface-800 rounded-xl inline-flex gap-0.5 min-w-[28rem] max-w-full" id="tier-selector" role="group" aria-label="Study depth selector">
             <button id="btn-lite" onclick="switchTier('lite')" class="tier-btn px-4 py-2 text-sm font-medium rounded-lg transition-all duration-200" data-tier="lite">
               🟢 Quick (1h–1d)
             </button>
@@ -256,8 +256,78 @@ const articleJsonLd = {
               prose-table:text-sm
               prose-th:bg-surface-100 dark:prose-th:bg-surface-800
               prose-tr:border-surface-200 dark:prose-tr:border-surface-700"
-              id="note-content">
+              id="note-content" class="tier-pending">
             <Content />
+            <!-- Synchronous tier hide — runs before first paint to prevent CLS
+                 when initTier later collapses non-selected tier sections. -->
+            <script is:inline>
+              (function () {
+                function resolveTier() {
+                  var stored;
+                  try { stored = localStorage.getItem('sr_tier'); } catch (e) {}
+                  var tier = stored || 'standard';
+                  if (!stored) {
+                    var dur = new URLSearchParams(location.search).get('duration') || '';
+                    if (/^(1h|2h|3h|5h|12h|1d)$/.test(dur)) tier = 'lite';
+                    else if (/^(2d|3d|5d|7d|10d|2w|1mo)$/.test(dur)) tier = 'standard';
+                    else tier = 'extended';
+                  }
+                  return tier;
+                }
+                function applyTier(tier) {
+                  var content = document.getElementById('note-content');
+                  if (!content) return;
+                  var headings = content.querySelectorAll('h3');
+                  var sections = [];
+                  var current = null;
+                  for (var i = 0; i < headings.length; i++) {
+                    var h = headings[i];
+                    var t = h.textContent || '';
+                    if (t.indexOf('🟢') !== -1) {
+                      if (current) sections.push(current);
+                      current = { tier: 'lite', start: h };
+                    } else if (t.indexOf('🟡') !== -1) {
+                      if (current) sections.push(current);
+                      current = { tier: 'standard', start: h };
+                    } else if (t.indexOf('🔴') !== -1) {
+                      if (current) sections.push(current);
+                      current = { tier: 'extended', start: h };
+                    }
+                    if (current) {
+                      h.setAttribute('data-tier', current.tier);
+                      h.classList.add('tier-heading');
+                    }
+                  }
+                  if (current) sections.push(current);
+                  if (!sections.length) {
+                    content.classList.remove('tier-pending');
+                    return;
+                  }
+                  var available = {};
+                  for (var a = 0; a < sections.length; a++) available[sections[a].tier] = true;
+                  if (!available[tier]) {
+                    var order = ['standard', 'lite', 'extended'];
+                    for (var o = 0; o < order.length; o++) {
+                      if (available[order[o]]) { tier = order[o]; break; }
+                    }
+                  }
+                  for (var s = 0; s < sections.length; s++) {
+                    var sec = sections[s];
+                    var el = sec.start;
+                    var show = sec.tier === tier;
+                    el.style.display = show ? '' : 'none';
+                    var next = el.nextElementSibling;
+                    while (next && !(next.tagName === 'H3' && next.classList.contains('tier-heading'))) {
+                      next.style.display = show ? '' : 'none';
+                      next = next.nextElementSibling;
+                    }
+                  }
+                  content.classList.remove('tier-pending');
+                  content.dataset.activeTier = tier;
+                }
+                applyTier(resolveTier());
+              })();
+            </script>
           </div>
 
           <!-- Authoritative source + editorial sign-off footer.
@@ -286,9 +356,19 @@ const articleJsonLd = {
           </div>
 
           <style>
+            #note-content.tier-pending {
+              /* Reserve height while sync script collapses tiers — avoids flash of full content */
+              min-height: 24rem;
+            }
             .tier-btn {
               color: var(--surface-500, #6b7280);
               background: transparent;
+              flex: 1 1 0;
+              min-width: 0;
+            }
+            .tier-btn--absent {
+              visibility: hidden;
+              pointer-events: none;
             }
             .tier-btn.active {
               background: var(--surface-50, #f9fafb);
@@ -416,9 +496,16 @@ const articleJsonLd = {
               if (!hasAny) { if (sel) sel.style.display = 'none'; return; }
               var map = { lite: 'btn-lite', standard: 'btn-standard', extended: 'btn-extended' };
               for (var k in map) {
+                var b = document.getElementById(map[k]);
+                if (!b) continue;
                 if (!present[k]) {
-                  var b = document.getElementById(map[k]);
-                  if (b) b.style.display = 'none';
+                  b.classList.add('tier-btn--absent');
+                  b.setAttribute('aria-hidden', 'true');
+                  b.disabled = true;
+                } else {
+                  b.classList.remove('tier-btn--absent');
+                  b.removeAttribute('aria-hidden');
+                  b.disabled = false;
                 }
               }
             }

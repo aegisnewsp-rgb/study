@@ -19,7 +19,7 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 APP_DIR="${APP_DIR:-/srv/studyroadmap}"
 CONTAINER_NAME="studyroadmap"
 PORT=9000
-DEPLOY_BRANCH="${DEPLOY_BRANCH:-main}"
+DEPLOY_BRANCH="${DEPLOY_BRANCH:-feature/openclaw-content-machine}"
 
 log() { echo "[$(date '+%Y-%m-%d %H:%M:%S')] $*"; }
 warn() { echo "[$(date '+%Y-%m-%d %H:%M:%S')] WARN: $*" >&2; }

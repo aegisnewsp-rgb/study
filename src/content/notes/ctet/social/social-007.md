@@ -8,187 +8,103 @@ topicName: Indian Economy and Development
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-07-11"
 ---
 
 # Indian Economy and Development
 
-## Economic Systems
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your CTET Social Studies paper.
 
-### Types of Economies
+The Indian economy is a **mixed economy** where the public and private sectors coexist, with agriculture (primary), industry (secondary), and services (tertiary) contributing to **Gross Domestic Product (GDP)** and employment. The **Planning Commission (1950–2014)** steered development through the **Five Year Plans**, replaced in 2015 by **NITI Aayog**, an advisory body promoting cooperative federalism.
 
-| Type | Description | Example |
-|---|---|---|
-| **Capitalist/Free Market** | Private ownership, market determines prices | USA |
-| **Socialist/Planned** | Government ownership, central planning | Former USSR |
-| **Mixed Economy** | Both public and private sectors coexist | India (post-1991 reforms) |
+The watershed moment is the **LPG reforms 1991** — **Liberalisation, Privatisation, Globalisation** — launched under PM **P.V. Narasimha Rao** with **Manmohan Singh** as Finance Minister. The **Green Revolution** raised foodgrain yields through HYV seeds, fertilisers, and irrigation, but stayed concentrated in Punjab, Haryana, and western UP.
 
-India follows a **mixed economy** model — both public sector enterprises (Banking, Railways, Defense) and private sector operate.
+> **CTET cue:** LPG ≠ Globalisation alone; remember all three components and the Rao–Singh duo.
 
-### Economic Planning in India
-
-India adopted centralized planning after independence, inspired by the Soviet model:
-
-**Five-Year Plans** (1951–2017):
-- **1st Plan (1951–56)**: Focus on agriculture (Community Development Programme); aimed to reduce poverty
-- **2nd Plan (1956–61)**: Heavy industry focus (Mahalanobis model — 4-sector model); built steel plants (Bhilai, Durgapur, Rourkela)
-- **3rd Plan (1961–66)**: Agriculture emphasis; war with China (1962), Indo-Pak war (1965) disrupted
-- **4th Plan (1969–74)**: Growth with stability; Green Revolution seeds planted
-- **5th Plan (1974–78)**: Garibi Hatao (Remove Poverty) — launched by Indira Gandhi
-- **6th Plan (1980–85)**: 5.5% growth target
-- **7th Plan (1985–90)**: Infrastructure focus
-- **8th Plan (1992–97)**: Liberalization begins
-- **9th–12th Plans**: Growth with macro-economic stability
-
-**NITI Aayog** replaced the Planning Commission in 2015 — focuses on bottom-up planning, cooperative federalism, and state-specific development strategies rather than centralized allocation.
+#### High-yield pointers:
+- NITI Aayog is **advisory**, not constitutional; it replaced (not renamed) the Planning Commission.
+- **HDI** (health, education, income) is **not** the same as GDP.
+- Contemporary flagships: **GST**, **MGNREGA**, **Atmanirbhar Bharat**, **Digital India**.
 
 ---
 
-## Sectors of the Economy
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-### Primary Sector (Agriculture and Allied Activities)
+#### Structure of the Indian Economy
 
-Contributes ~18–20% to GDP but employs over 50% of the workforce. Includes agriculture, forestry, fishing, mining.
+The primary sector (agriculture, forestry, mining) still employs nearly 45% of the workforce but contributes a much smaller share to GDP than the tertiary sector (services, IT, banking). The secondary sector (manufacturing, construction) lies between them. **Sectoral imbalance** — too many people on farms, too few in manufacturing — is a recurring CTET theme.
 
-**Green Revolution (1960s–70s)**:
-- High-Yield Variety (HYV) seeds (wheat, rice) from Mexico and Philippines introduced
-- Punjab, Haryana, and Western UP became model states
-- Result: India moved from food scarcity to surplus
+| Sector | Examples | Share in GDP (approx.) | Share in Employment |
+|---|---|---|---|
+| Primary | Agriculture, dairy, mining | ~17% | ~45% |
+| Secondary | Manufacturing, construction, utilities | ~25% | ~25% |
+| Tertiary | Trade, transport, IT, banking, education | ~55% | ~30% |
 
-**Agriculture in India**:
-- India has the largest cultivated land area (~156 million hectares)
-- Major crops: Rice (kharif), Wheat (rabi), Cotton, Sugarcane, Tea, Coffee, Spices (cardamom, pepper)
-- **Kharif** (summer crops): Rice, maize, cotton, jowar — dependent on monsoons
-- **Rabi** (winter crops): Wheat, gram, mustard — grown October-March with irrigation
+#### Planning: From Commission to Aayog
 
-**Allied activities**: Animal husbandry (dairy, poultry), fisheries, forestry, sericulture.
+The **Planning Commission**, set up in 1950 by a Cabinet Resolution (not the Constitution), drafted twelve Five Year Plans (1951–2012). The **NITI Aayog** (National Institution for Transforming India), established on 1 January 2015, replaced it as a **policy think-tank**. It advises states, but does not allocate plan funds — that role moved to the **Finance Ministry** through the Union Budget.
 
-### Secondary Sector (Industry and Manufacturing)
+> **Trap:** NITI Aayog is *not* a constitutional body; it has no Articles behind it.
 
-Contributes ~25–28% to GDP. Includes manufacturing, construction, electricity, mining.
+#### The 1991 LPG Reforms
 
-**Key industries**:
-- **Textiles** (largest employer after agriculture — includes handloom and powerloom)
-- **Iron and Steel** (Tata Steel, SAIL, Jindal — Bhilai, Rourkela, Durgapur)
-- **Information Technology** (Bangalore, Hyderabad — major global IT hub)
-- **Automobiles** (Maruti, Hyundai, Tata Motors)
-- **Chemicals and pharmaceuticals**
-- **Cement** (ACC, Ambuja, UltraTech)
+Balance-of-payments crisis in 1991 forced India to abandon the **License Raj**. The reforms dismantled industrial licensing, opened markets to **Foreign Direct Investment (FDI)**, reduced tariffs, and began **disinvestment** in PSUs. Outcomes: faster GDP growth, a services-led boom, rising inequality, and pressure on small industry.
 
-**Make in India**: Launched 2014 by NDA government — aimed to make India a global manufacturing hub, attract FDI, create jobs. Sectors: Automobiles, Electronics, Skill development, Defense.
+#### Agriculture and the Green Revolution
 
-### Tertiary Sector (Services)
+Launched in the mid-1960s with M.S. Swaminathan's guidance, the Green Revolution combined **High-Yielding Variety (HYV) seeds**, chemical fertilisers, canal and tube-well irrigation, and institutional credit. It made India food-secure at the national level but widened **regional inequality**, depleted soil and water, and bypassed rain-fed and eastern regions.
 
-Contributes ~55–60% to GDP — largest sector. Includes:
-- **Banking and Financial Services**
-- **Information Technology and Software**
-- **Retail and Trade**
-- **Transportation and Logistics**
-- **Education and Healthcare**
-- **Tourism** (Incredible India campaign)
+#### Poverty, Unemployment, and Human Development
+
+- **Poverty line** in India has used the **Tendulkar (2009)** and **Rangarajan (2014)** methodologies — both define poverty by monthly per-capita consumption expenditure.
+- **Unemployment types** tested: open, disguised (underemployment in agriculture), seasonal, and educated.
+- **HDI** (UNDP) measures life expectancy, education, and per-capita income — distinct from GDP.
 
 ---
 
-## Key Economic Concepts
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-### Gross Domestic Product (GDP)
+#### Privatisation vs Denationalisation vs Liberalisation
 
-The total monetary value of all goods and services produced within a country's territory in a given year.
+Students confuse these three. **Liberalisation** removes state controls (licences, price controls, import quotas). **Privatisation** transfers ownership/management of PSUs to private hands. **Denationalisation** is the broader rollback of state control, sometimes through market competition rather than ownership change. CTET may frame an MCQ around "transfer of public sector assets to private firms" — that is **privatisation**, not denationalisation.
 
-- **GDP Growth Rate**: India's growth rate was ~7%+ for many years (2015–2020), making it one of the fastest-growing major economies; projected to be world's 3rd largest by 2030
-- **GDP per capita**: Income per person — India ranks lower (~$2,500 per capita), indicating uneven wealth distribution
+#### Public Sector Undertakings (PSUs)
 
-### Gross National Income (GNI)
+PSUs were set up under the **Industrial Policy Resolution 1956** to build the "commanding heights" of the economy — defence, atomic energy, railways, steel, heavy machinery. The 1991 reforms introduced **disinvestment** (selling government stake) and *Navratna* status for high-performing PSUs. Strategic PSUs in defence and atomic energy remain closed to privatisation, reflecting the **mixed economy** framework.
 
-GNI = GDP + Net income from abroad (remittances, income from foreign investments). It measures total income earned by a country's residents, including overseas earnings.
+#### Contemporary Development Policies
 
-### Inflation
+- **GST (2017)** unified indirect taxes into a single destination-based levy.
+- **MGNREGA (2005)** guarantees 100 days of wage employment per rural household — a textbook case of **inclusive growth**.
+- **Atmanirbhar Bharat (2020)** emphasised self-reliance post-COVID through production-linked incentives.
+- **SDG 2030** goals on poverty, health, education, and climate frame current policy language.
 
-**Consumer Price Index (CPI)**: Measures price changes in a basket of consumer goods and services — the official measure of inflation in India (target: 4% ± 2%).
+#### Common CTET Traps
 
-**Wholesale Price Index (WPI)**: Measures price changes at the wholesale level — largely used in India previously.
+> "NITI Aayog was set up by the Constitution" — false; it was set up by executive resolution.
+> "LPG reforms were introduced by Rajiv Gandhi" — false; they were introduced by **P.V. Narasimha Rao** (with Manmohan Singh as FM).
+> "Green Revolution solved India's hunger problem uniformly" — false; it was regionally concentrated.
 
-**Types of inflation**:
-- **Demand-pull**: Too much money chasing too few goods
-- **Cost-push**: Increased cost of production pushes prices up
-- **Creeping inflation**: 2–3% annually — considered healthy
-- **Hyperinflation**: Extremely high, uncontrolled — rare in India
+#### Exam Strategy
 
-### Demonetization (2016)
+This topic carries about **3% of CTET Paper-II** marks and is tested through 1-mark conceptual MCQs. Spend roughly **30–45 seconds per question**. Revise one mnemonic — **LPG = Liberalisation + Privatisation + Globalisation** — and the **Rao–Singh (1991)** pairing. Link every contemporary scheme (GST, MGNREGA, Atmanirbhar Bharat) to either LPG or inclusive growth in your answers.
 
-On November 8, 2016, the government invalidated 500 and 1000 rupee notes (86% of currency in circulation) to target black money, counterfeit notes, and terrorism funding. The move was controversial — GDP contracted in the short term, informal sector suffered greatly.
+#### Practice Prompts
 
-### GST (Goods and Services Tax)
-
-Implemented July 1, 2017 — a unified indirect tax replacing multiple state and central taxes (VAT, excise, service tax). It established a common market across India, reducing cascading of taxes. Four slabs: 5%, 12%, 18%, 28% (plus cess on sin goods).
-
----
-
-## Poverty and Unemployment
-
-### Poverty in India
-
-**BPL (Below Poverty Line) criteria**:
-- Rural: Income < ₹972/month (planning commission, 2011–12)
-- Urban: Income < ₹1,407/month
-
-**Poverty estimates**:
-- 2011–12: ~21.9% of population (around 270 million people) lived below poverty line
-- 2022 target (NITI Aayog): Eradicate poverty by 2030
-
-**Challenges**: Regional inequality — states like Odisha, Bihar, Jharkhand, Chhattisgarh have higher poverty; welfare schemes (MNREGA, PDS, Mid-day Meal, PM-KISAN) aim to address poverty.
-
-### Unemployment
-
-**Types of unemployment in India**:
-1. **Disguised unemployment**: More people employed than actually needed (e.g., 5 people working in agriculture where only 2 are needed) — most prevalent in agriculture
-2. **Seasonal unemployment**: Agriculture is seasonal — no work in off-season
-3. **Educated unemployment**: Those with degrees but no jobs (a growing problem)
-4. **Cyclical unemployment**: Related to economic cycles (recessions)
-5. **Structural unemployment**: Skills mismatch with available jobs
-
-**NREGA (Mahatma Gandhi National Rural Employment Guarantee Act, 2005)**:
-- Guarantees 100 days of wage employment per year to every rural household
-- Right-based approach to rural employment
-- Provides a safety net but criticized for poor implementation and corruption
-
-### Government Schemes
-
-| Scheme | Target | Key Feature |
-|---|---|---|
-| **PM-KISAN** | Farmers | ₹6,000/year direct income support |
-| **Mid-Day Meal** | School children | Free nutritious meal to improve nutrition and school attendance |
-| **MNREGA** | Rural unemployed | 100-day guaranteed employment |
-| **Stand Up India** | SC/ST and women | Bank loans for entrepreneurship |
-| **Startup India** | Entrepreneurs | Tax benefits, simplified regulations for startups |
-| **Mudra Yojana** | Small business | Collateral-free loans to small entrepreneurs |
-| **Ayushman Bharat** | Poor families | Health insurance up to ₹5 lakh per family |
+1. Differentiate between Planning Commission and NITI Aayog in terms of **constitutional status, function, and fund allocation**.
+2. Explain how the **Green Revolution** increased foodgrain output but also produced regional and ecological imbalances.
 
 ---
 
-## Sustainable Development and NEP
+## Continue your study
 
-### NITI Aayog's SDG Targets
-
-India committed to the **UN Sustainable Development Goals (SDGs) 2030** — 17 goals including no poverty (Goal 1), zero hunger (Goal 2), quality education (Goal 4), gender equality (Goal 5), clean water (Goal 6).
-
-### NEP 2020 — Education and Economy Link
-
-The **National Education Policy (NEP) 2020** aims to transform India's human capital by 2030:
-- **5+3+3+4** structure (replaces 10+2)
-- Foundational (ages 3–8), Preparatory (8–11), Middle (11–14), Secondary (14–18)
-- Emphasis on vocational training, multilingualism, critical thinking
-- Aims to increase public investment in education to 6% of GDP (from ~3% currently)
-
-## CTET Exam Focus
-
-- **Three sectors**: Primary (agriculture, 50%+ workforce), Secondary (industry), Tertiary (services — 55% of GDP)
-- **Five-Year Plans**: Planning Commission (replaced by NITI Aayog in 2015), Green Revolution, Mahalanobis model
-- **GDP vs GNI**: GDP = domestic, GNI = national including overseas income
-- **Inflation**: CPI and WPI, demand-pull vs cost-push, 4% target
-- **Demonetization**: November 8, 2016 — ₹500 and ₹1000 notes invalidated
-- **GST**: Unified indirect tax from July 1, 2017, four slabs
-- **Poverty and unemployment**: BPL criteria, disguised unemployment, educated unemployment, NREGA, PM-KISAN
+- **[View this topic in your CTET roadmap](/roadmap/?exam=ctet&duration=1mo)** — see where "Indian Economy and Development" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ctet&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[CTET exam overview](/exams/ctet/)** — pattern, eligibility, and syllabus
+- **[All Social Studies notes](/notes/ctet/social/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

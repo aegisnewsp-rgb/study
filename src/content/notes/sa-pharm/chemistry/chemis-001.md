@@ -8,83 +8,93 @@ topicName: IUPAC Nomenclature of Organic Compounds
 weight: 3
 country: southafrica
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-07-11"
 ---
 
-## IUPAC Nomenclature — Naming Organic Compounds Systematically
+# IUPAC Nomenclature of Organic Compounds
 
-The IUPAC (International Union of Pure and Applied Chemistry) system provides a universal naming convention for organic compounds. For the SAPC (South Africa Pharmacy) examination, mastering IUPAC nomenclature is essential — it forms the foundation for identifying, communicating, and classifying organic molecules across all areas of pharmacy, from drug synthesis to pharmaceutical chemistry.
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
 
-### Step-by-Step Naming Procedure
+The IUPAC name of an organic compound is built from four pieces: the **parent hydride** (longest chain or ring containing the principal group), **locants** (lowest set of numbers), **substituent prefixes**, and the **principal characteristic group suffix**.
 
-**Step 1 — Identify the Longest Carbon Chain (Parent Chain)**
+#### Naming steps in order
+1. Pick the **principal characteristic group** → it becomes the suffix (carboxylic acid → *-oic acid*).
+2. Choose the **parent chain** (longest C-skeleton including that group and the most multiple bonds).
+3. **Number** to give the lowest set of locants, applied first to the principal group, then to multiple bonds, then to prefixes.
+4. List substituent prefixes in **alphanumeric order**, ignoring multiplying prefixes (*di-, tri-, tetra-*).
+5. Add **stereodescriptors** in italics: *R/S* at chiral centres, *E/Z* at C=C.
 
-Find the longest continuous chain of carbon atoms in the molecule. This chain determines the root name:
+**Exam tip:** Write *but-2-ene*, never *2-butene* — the locant sits immediately before the suffix it describes.
 
-| Carbons | Root | Carbons | Root |
-|---------|------|---------|------|
-| 1 | Meth- | 6 | Hex- |
-| 2 | Eth- | 7 | Hept- |
-| 3 | Prop- | 8 | Oct- |
-| 4 | But- | 9 | Non- |
-| 5 | Pent- | 10 | Dec- |
+---
 
-**Step 2 — Identify the Principal Functional Group**
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-The highest-priority functional group determines the suffix. Priority order (highest to lowest): Carboxylic acid > Anhydride > Ester > Acid halide > Amide > Nitrile > Aldehyde > Ketone > Alcohol > Thiol > Amine > Alkene/Alkyne.
+#### Functional-group priority (suffix ↔ prefix)
 
-For compounds with lower-priority groups, they are named as prefixes: -OH becomes hydroxy-, -NH₂ becomes amino-, -Cl becomes chloro-.
+| Priority | Group | Suffix | Prefix name |
+|---|---|---|---|
+| 1 | –COOH | *-oic acid* | carboxy- |
+| 2 | –COOR | *-oate* | alkoxycarbonyl- |
+| 3 | –CONH₂ | *-amide* | amido- |
+| 4 | –C≡N | *-nitrile* | cyano- |
+| 5 | –CHO | *-al* | oxo-/formyl- |
+| 6 | >C=O | *-one* | oxo- |
+| 7 | –OH | *-ol* | hydroxy- |
+| 8 | –NH₂ | *-amine* | amino- |
 
-**Step 3 — Number the Chain**
+Only the **highest-priority** group is cited as a suffix; everything else becomes a prefix. The table follows the 2013 IUPAC Blue Book ordering used at SAPC level.
 
-Number the chain from the end that gives the lowest number to the principal functional group. For alkanes, start from the end nearest any substituent.
+#### Building a name — worked logic
 
-**Step 4 — Identify and Name Substituents**
+For **HOOC–CH(CH₃)–CH₂–CH₂–CH₃**, the longest chain that contains the carboxylic acid has **5 carbons** (pentanoic acid). Numbering from the –COOH carbon places the methyl at **C-2**, giving **2-methylpentanoic acid**. The methyl prefix is listed alphabetically by the letter *m*, with no multiplying prefix needed.
 
-Name all alkyl substituents (methyl, ethyl, etc.) and functional groups acting as substituents (bromo-, chloro-, nitro-, etc.). List substituents alphabetically, ignoring multiplicative prefixes (di-, tri-, etc.).
+> **Trap:** Don't pick a longer chain that *excludes* the principal group — the principal group must sit inside the parent skeleton.
 
-### Functional Group Suffixes and Prefix Patterns
+For **CH₃–CH=CH–CH₃**, the parent is **but-** with a double bond; numbering to give the lowest locant to the C=C gives **but-2-ene**. The geometry descriptor *(E)* or *(Z)* is added in italics before the name: *(E)-but-2-ene*.
 
-| Functional Group | Suffix | Prefix (as substituent) |
-|-----------------|--------|------------------------|
-| Alkane | -ane | — |
-| Alkene | -ene | — |
-| Alkyne | -yne | — |
-| Alcohol | -anol | hydroxy- |
-| Aldehyde | -anal | oxo- |
-| Ketone | -anone | oxo- |
-| Carboxylic acid | -anoic acid | carboxy- |
-| Ester | -anoate | alkoxycarbonyl- |
-| Amine (1°) | -anamine | amino- |
-| Amine (2°) | -anamine | (N-substituent) amino- |
-| Ether | — | alkoxy- |
-| Halide | — | halo- (chloro-, bromo-, etc.) |
-| Nitro | — | nitro- |
-| Benzene | — | phenyl |
+#### Rules to remember
+- Use **lowest set of locants**, not lowest first number: at positions 2,2,4 the set {2,2,4} beats {2,3,3} only when read term-by-term; if the first differs, the lower first number wins.
+- Drop the final **-e** of the parent before adding a vowel-initial suffix: *pentane → pentan-1-ol*.
+- Multiply identical substituents with **di-, tri-, tetra-**, but alphabetise by the substituent name itself, not the multiplier.
+- For rings use *cyclo-*; benzene, toluene, and phenol are **retained names** allowed by IUPAC.
 
-### Nomenclature of Alkyl Substituents
+---
 
-- Methyl (CH₃–) — one carbon
-- Ethyl (C₂H₅–) — two carbons
-- Propyl (C₃H₇–) — three carbons: n-propyl and isopropyl isomers
-- Butyl (C₄H₉–) — four carbons: n-butyl, isobutyl, sec-butyl, tert-butyl
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-### Cyclic Compounds
+#### Stereodescriptors and CIP priority
 
-Cycloalkanes are named by adding the prefix "cyclo-" to the alkane name. When a chain is attached to a ring, the ring serves as the parent if it has more substituents than the chain.
+At SAPC you must assign **R/S** at one chiral carbon and **E/Z** at one C=C. Apply the **Cahn–Ingold–Prelog** rules: rank the four substituents by atomic number at the first point of difference, orient the lowest-priority group away from you, and read 1→2→3. Clockwise = **R**; anticlockwise = **S**. For double bonds, give **higher priority** to each end and check whether the higher-priority groups lie on the **same side (Z, *zusammen*)** or **opposite sides (E, *entgegen*)**.
 
-### Benzene Derivatives
+#### Heterocycles and polycyclics
+- **Hantzsch–Widman** names saturated heterocycles by ring size and heteroatom: oxirane (3-membered O), oxolane (5-membered O), piperidine (6-membered N).
+- **Von Baeyer** bridged bicyclic names use the format *bicyclo[2.2.1]heptane* — the bracketed numbers are the carbons in each bridge, listed in descending order.
+- Avoid the common error of renaming benzene as *cyclohexa-1,3,5-triene* — IUPAC retains **benzene** as an acceptable parent.
 
-Monosubstituted benzenes are named as "benzene" with the substituent. Common pharmaceutical examples: toluene (methylbenzene), phenol (hydroxybenzene), aniline (aminobenzene), benzoic acid (carboxybenzene).
+#### Common SAPC traps
+- Writing **2-butene** instead of **but-2-ene** (locant position).
+- Adding the suffix to the wrong fragment in esters: ethyl ethanoate, not *ethoxyethane*.
+- Alphabetising **dimethyl** under *d* — the multiplier is ignored.
+- Choosing a six-carbon chain over a five-carbon one simply because it is longer, when the longer chain **excludes** the carboxylic acid.
 
-### SAPC Examination Tips
+#### Practice prompts
+1. Name **CH₃–CH(OH)–CH(Br)–CH₃** with stereochemistry at C-2 and C-3.
+2. Draw the structure of **(Z)-3-methylpent-2-ene** and identify the principal characteristic group (none → hydrocarbon parent).
 
-1. **Always identify the functional group with the highest priority first** — this determines the suffix and the numbering direction.
-2. **Alphabetical ordering of substituents** — "bromo" comes before "chloro" comes before "methyl" — ignore di-, tri-, tetra- prefixes when alphabetizing.
-3. **Lowest set of locants** — when two numbering schemes are possible, choose the one that gives the lowest numbers to the principal functional group and double/triple bonds.
-4. **Drug name recognition** — many pharmaceutical compounds use modified IUPAC names (e.g., paracetamol is N-(4-hydroxyphenyl)acetamide); understanding IUPAC helps you recognize drug structures.
-5. **Practice converting structures to names** — draw and name at least 20 diverse structures covering each functional group family before the exam.
+> **Exam weight tip:** This topic is worth the full **3%** of the SAPC Chemistry paper and is usually a single multi-mark question testing parent selection, numbering, ordering, and one stereodescriptor.
 
-### Common Exam Trap
+---
 
-Students often lose marks by forgetting that substituents like "iso-" and "sec-" affect the carbon skeleton structure, not just the name. Always draw the structure before naming it to avoid confusion between isomers like 2-methylbutane vs. 3-methylbutane.
+## Continue your study
+
+- **[View this topic in your SAPC (South Africa) roadmap](/roadmap/?exam=sa-pharm&duration=1mo)** — see where "IUPAC Nomenclature of Organic Compounds" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=sa-pharm&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[SAPC (South Africa) exam overview](/exams/sa-pharm/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/sa-pharm/chemistry/)** — browse sibling topics in this subject
+
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

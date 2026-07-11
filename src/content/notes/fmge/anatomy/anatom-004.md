@@ -8,69 +8,119 @@ topicName: "Abdomen — Stomach, Liver, Pancreas, Small and Large Intestine, Per
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-07-11"
 ---
 
 # Abdomen — Stomach, Liver, Pancreas, Small and Large Intestine, Peritoneum
 
-## Abdominal Wall — Layers, Inguinal Canal, and Hernias
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
 
-The abdominal wall consists of layered structures that must be understood in sequence from superficial to deep: skin, subcutaneous tissue (Camper's fascia — fatty — and Scarpa's fascia — membranous), the external oblique muscle, internal oblique muscle, transversus abdominis muscle, rectus abdominis muscle, transversalis fascia, extraperitoneal fat, and finally the peritoneum. The anterior abdominal wall receives blood supply from the superior epigastric (from the internal thoracic artery) and inferior epigastric arteries (from the external iliac artery), and is innervated by thoracoabdominal nerves (T7–T11), the subcostal nerve (T12), and the iliohypogastric and ilioinguinal nerves (L1).
+- **Peritoneum**: serous membrane with **parietal** (abdominal wall) and **visceral** (organ) layers, enclosing the peritoneal cavity; lesser sac communicates with greater sac via the **foramen of Winslow**.
+- **Lesser omentum** carries the **portal triad** in its free edge: portal vein (posterior), hepatic artery (antero-left), common bile duct (antero-right).
+- **Gut blood supply**: coeliac trunk → foregut; superior mesenteric artery (SMA) → midgut (up to proximal 2/3 transverse colon); inferior mesenteric artery (IMA) → hindgut.
+- **McBurney's point**: junction of lateral 1/3 and medial 2/3 of the line from ASIS to umbilicus — surface marking for appendicitis.
+- **Liver**: anatomically 4 lobes (right, left, caudate, quadrate); the caudate and quadrate are functionally left-lobe based on Couinaud supply.
+- **Pancreas**: mostly retroperitoneal — **only the tail** is intraperitoneal (within the lienorenal ligament).
 
-The **inguinal canal** is an oblique passage through the abdominal wall, approximately 4–6 centimeters in length, running from the deep inguinal ring (lateral to the inferior epigastric vessels) to the superficial inguinal ring (lateral to the pubic tubercle). In males it contains the spermatic cord; in females it contains the round ligament of the uterus. The canal has four walls: anterior wall (external oblique aponeurosis and internal oblique in its lateral part), posterior wall (transversalis fascia and conjoint tendon medially), superior wall (arching fibers of internal oblique and transversus abdominis), and inferior wall (inguinal ligament).
+---
 
-**Direct inguinal hernias** pass through Hesselbach's triangle — the bounded space formed by the inferior epigastric vessels laterally, the rectus abdominis medially, and the inguinal ligament inferiorly. They are acquired, more common in elderly men, and are covered only by the external spermatic fascia. **Indirect inguinal hernias** pass through the deep inguinal ring, lateral to the inferior epigastric vessels, and follow the inguinal canal — they are often congenital (patent processus vaginalis) and more common in younger individuals. They are covered by all three layers of the spermatic cord. **Femoral hernias** pass through the femoral canal (bounded by the inguinal ligament anteriorly, the pectineal ligament posteriorly, the femoral vein laterally, and the lacunar ligament medially) and are more common in women. Because of the rigid boundaries of the femoral canal, femoral hernias have the highest risk of incarceration and strangulation.
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-**Clinical correlations:** Incisional hernias occur through weaknesses left at surgical sites. The conjoint tendon (merged internal oblique and transversus abdominis) pulls the rectus sheath medially, creating potential weakness in the posterior wall near the superficial ring. McBurney's point — one-third of the distance from the anterior superior iliac spine to the umbilicus — overlies the base of the appendix and is the point of maximal tenderness in appendicitis.
+#### Peritoneal Cavity and Foramen of Winslow
 
-## Stomach — Anatomy, Blood Supply, and Clinical Considerations
+The peritoneum forms a closed sac in males and an open one (via the Fallopian tubes) in females. The **greater sac** and **lesser sac (omental bursa)** communicate exclusively through the **epiploic foramen of Winslow**, whose four boundaries are essential FMGE recall.
 
-The stomach lies in the left upper quadrant and epigastrium, connecting the esophagus proximally to the duodenum distally. Its regions include the cardia (around the cardiac orifice), the fundus (the dome above the level of the cardiac orifice), the body (the main central region), and the pylorus (which includes the antrum, pyloric canal, and pyloric sphincter). The lesser curvature (right border, attached to the lesser omentum) and greater curvature (left border, attached to the greater omentum and gastrosplenic ligament) create the stomach's characteristic J-shape.
+| Boundary | Structure |
+|---|---|
+| Anterior | Hepatoduodenal ligament (portal triad) |
+| Posterior | Inferior vena cava |
+| Superior | Caudate lobe of liver |
+| Inferior | First part of duodenum |
 
-The stomach wall has four layers: mucosa (simple columnar with gastric pits containing specialized cells), submucosa, muscularis externa (inner oblique, middle circular, and outer longitudinal layers — the oblique layer is unique to the stomach), and serosa. The **arterial supply** is rich and arranged along both curvatures. The lesser curvature receives the left gastric artery (from the celiac trunk) and the right gastric artery (from the hepatic artery proper). The greater curvature receives the short gastric arteries and left gastroepiploic artery (from the splenic artery) and the right gastroepiploic artery (from the gastroduodenal artery). The **venous drainage** follows the arteries and drains to the portal vein via the gastric veins. The **nerve supply** includes parasympathetic fibers from the anterior and posterior vagal trunks (which follow the esophagus and distribute along the curvatures) and sympathetic fibers from the celiac plexus.
+#### Blood Supply of the Gut (Embryologic Division)
 
-**Clinical correlations:** Pyloric stenosis in infants (typically 2–6 weeks of age) causes projectile non-bilious vomiting. A palpable olive-shaped mass may be felt in the right upper quadrant, and ultrasound confirms pyloric muscle hypertrophy (muscle thickness greater than 3–4 mm). Gastric ulcers are most commonly located on the lesser curvature and are associated with pain on eating (food stimulates acid secretion). Duodenal ulcers are typically on the anterior wall of D1 and are associated with pain relieved by eating (food buffers acid). Zollinger-Ellison syndrome — a gastrin-secreting tumor — causes multiple refractory peptic ulcers.
+The three anterior gut arteries map neatly onto embryologic segments.
 
-## Liver — Lobes, Surfaces, and Porta Hepatis
+| Artery | Territory (Foregut/Midgut/Hindgut) |
+|---|---|
+| Coeliac trunk | Oesophagus (abdominal) → duodenum up to major papilla, liver, pancreas, spleen |
+| Superior mesenteric | Duodenum beyond papilla → proximal 2/3 transverse colon |
+| Inferior mesenteric | Distal 1/3 transverse colon → upper anal canal |
 
-The liver is the largest abdominal organ, occupying the right hypochondrium and epigastrium. It has two surfaces: the diaphragmatic surface (convex, facing the diaphragm and anterior abdominal wall) and the visceral surface (concave, facing the abdominal organs). The liver is divided into right and left lobes by the falciform ligament on the diaphragmatic surface, but functionally it is divided into eight segments (Couinaud classification) based on the branching pattern of the hepatic artery, portal vein, and bile duct.
+**Watershed areas** at the splenic flexure (Sudeck's critical point analogue) and rectosigmoid junction are vulnerable to ischaemia in shock.
 
-The **falciform ligament** is a double-layered peritoneal structure containing the ligamentum teres (the obliterated round ligament — remnant of the umbilical vein) in its free border. The **ligamentum venosum** is the remnant of the ductus venosus, running in the fissure between the left and caudate lobes. The **coronary ligament** (anterior and posterior layers) and the left and right triangular ligaments attach the liver to the diaphragm. The **lesser omentum** (hepatogastric and hepatoduodenal ligaments) connects the liver to the lesser curvature of the stomach and the first part of the duodenum.
+#### Stomach and Pancreas
 
-The **porta hepatis** — the gateway to the liver — is located on the visceral surface and contains the hepatic portal vein, the hepatic artery proper, the common bile duct, lymphatics, and autonomic nerves. The hepatic portal vein (supplying approximately 75 percent of the liver's blood supply) carries blood from the gastrointestinal tract, spleen, and pancreas. The hepatic artery proper (approximately 25 percent of blood supply but 50 percent of oxygen supply) is a branch of the common hepatic artery.
+The stomach is **intraperitoneal**, supplied by five arteries all arising from the coeliac trunk: right and left gastric (lesser curvature), right and left gastroepiploic (greater curvature), and short gastrics (fundus, from splenic). Its two curvatures and two surfaces (anterior/posterior) are tested as phrasing traps.
 
-**Clinical correlations:** The liver is the most common site of abdominal trauma. Liver lacerations cause significant hemorrhage because of the organ's dual blood supply. Hepatitis (viral, alcoholic, or autoimmune) can progress to cirrhosis, resulting in portal hypertension, ascites, splenomegaly, and portosystemic collateral formation (esophageal varices, caput medusae, hemorrhoids). The liver segments are clinically relevant for hepatic resections — each segment can be removed independently if its own vascular inflow and biliary drainage are preserved.
+The **main pancreatic duct (Wirsung)** fuses with the common bile duct to form the **hepatopancreatic ampulla (Vater)**, opening at the major duodenal papilla under the **sphincter of Oddi**.
 
-## Gallbladder and Biliary System
+#### Distinguishing Small vs Large Intestine
 
-The gallbladder is a pear-shaped hollow organ on the visceral surface of the liver, held in place by the cystic plate and the peritoneal reflections. Its parts are the fundus (which projects below the liver edge at the midclavicular line — the reference point for Murphy's sign), the body, and the neck (which continues as the cystic duct). The gallbladder stores and concentrates bile between meals; CCK released from the duodenal I cells in response to fatty acids and amino acids causes gallbladder contraction.
+| Feature | Small Intestine | Large Intestine |
+|---|---|---|
+| Diameter | Smaller | Larger |
+| Longitudinal muscle | Continuous | Three bands → **taeniae coli** |
+| Sacculations | Absent | **Haustra** |
+| Fat tags | None | **Appendices epiploicae** |
+| Mucosal folds | **Plicae circulares** (valves of Kerckring) | No circular folds |
+| Peyer's patches | Concentrated in ileum | None |
 
-The **cystic duct** joins the common hepatic duct to form the common bile duct (CBD). The CBD runs in the free border of the lesser omentum (hepatoduodenal ligament) alongside the hepatic artery proper and the portal vein, then passes posterior to the D1 of the duodenum and the head of the pancreas to open at the ampulla of Vater (hepatopancreatic ampulla) in D2, together with the pancreatic duct. The sphincter of Oddi guards the ampulla.
+> **Tip**: The trio *taeniae + haustra + appendices epiploicae* is exclusive to the large intestine — any MCQ offering "appendices epiploicae in the ileum" is wrong by definition.
 
-**Clinical correlations:** Gallstones (cholelithiasis) are composed of cholesterol (most common in Western populations) or pigment (black from hemolysis, brown from biliary infection). Risk factors are described as the "4 F's": Female, Forty, Fat, Fertile. Cholecystitis (inflammation of the gallbladder) presents with right upper quadrant pain, fever, and a positive Murphy's sign. Courvoisier's sign — a palpable, non-tender gallbladder in a jaundiced patient — suggests malignant obstruction of the CBD (such as pancreatic head cancer) rather than gallstone disease, because chronic gallstone disease causes a fibrotic, non-distensible gallbladder. Choledocholithiasis (CBD stones) can cause obstructive jaundice, cholangitis (fever, jaundice, RUQ pain — Charcot's triad), and pancreatitis.
+#### Typical FMGE Question Patterns
 
-## Pancreas — Retroperitoneal Structure and Ductal Anatomy
+- Image-based: identify portal-triad structures in the hepatoduodenal ligament.
+- Clinical: portal hypertension → sites of **portocaval anastomoses** (oesophageal varices, caput medusae, anorectal varices, retroperitoneal veins).
+- Applied: McBurney's point tenderness in appendicitis; pyloric stenosis and the pyloric sphincter; ligament of **Treitz** at the duodenojejunal flexure.
 
-The pancreas is a retroperitoneal gland that extends from the C-loop of the duodenum (head) to the hilum of the spleen (tail). It lies posterior to the stomach. Its parts are the head (encased by the C-shaped duodenal curve), the neck (anterior to the portal vein), the body (posterior to the stomach, anterior to the aorta and left kidney), and the tail (which touches the spleen). The uncinate process is the projection of the head posterior to the superior mesenteric vessels.
+---
 
-The **main pancreatic duct** (of Wirsung) runs through the gland from tail to head, joins the CBD at the ampulla of Vater, and opens into D2. The **accessory pancreatic duct** (of Santorini) drains the upper part of the head and opens into the minor duodenal papilla in D2. The arterial supply is from the splenic artery (body and tail) and the superior pancreaticoduodenal arteries (head). The venous drainage is to the portal and splenic veins.
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-**Clinical correlations:** Pancreatic cancer — most commonly adenocarcinoma of the head — presents with painless obstructive jaundice (tumor obstructing the CBD), weight loss, and new-onset diabetes. The tumor marker CA 19-9 is used for monitoring. Acute pancreatitis causes severe epigastric pain radiating to the back, elevated serum amylase and lipase, and can progress to pancreatic necrosis, infected necrosis, and multi-organ failure. Pseudocysts — walled-off collections of pancreatic secretions — can develop weeks after an episode of pancreatitis and may require drainage.
+#### Liver Lobation and Couinaud Discrepancy
 
-## Peritoneum and Peritoneal Cavity — Greater and Lesser Omentum
+The anatomical surface view presents four lobes (right, left, **quadrate**, **caudate**), but the **caudate and quadrate lobes are functionally part of the left lobe** because they receive the left hepatic artery and left portal vein branch. **Couinaud segments** divide the liver into 8 functional units using the right and middle hepatic veins and the portal triad as landmarks. Segment I corresponds to the caudate lobe and receives independent venous drainage directly into the IVC.
 
-The peritoneum is the serous membrane lining the abdominal cavity. The **parietal peritoneum** lines the abdominal and pelvic walls; the **visceral peritoneum** covers the intraperitoneal organs. The **peritoneal cavity** is the potential space between these two layers, containing approximately 100 milliliters of serous fluid. Organs that are almost entirely covered by peritoneum are called **intraperitoneal** (stomach, jejunum, ileum, transverse colon, sigmoid colon, liver, spleen); those that are only partially covered are called **retroperitoneal** (duodenum except D1, pancreas except tail, ascending colon, descending colon, kidneys, suprarenal glands, aorta, IVC).
+#### Lesser Sac and Surgical Anatomy
 
-The **greater omentum** is a double-layered peritoneal structure hanging from the greater curvature of the stomach like an apron, consisting of the gastrocolic ligament (stomach to transverse colon), the gastrosplenic ligament (stomach to spleen), and the lienorenal ligament (spleen to left kidney). It is rich in fat, contains macrophages, and serves as a "policeman of the abdomen" by sealing off infections and preventing spread. The **lesser omentum** connects the liver to the lesser curvature of the stomach (hepatogastric ligament) and the first part of the duodenum (hepatoduodenal ligament). The hepatoduodenal ligament contains the portal triad (hepatic artery proper, portal vein, and common bile duct) at its free border — this is the surgical landmark for the Pringle maneuver (portal triad clamping to control hepatic hemorrhage).
+The **lesser sac** lies posterior to the stomach and lesser omentum and is a common site of fluid accumulation in perforated peptic ulcer ("subhepatic abscess" on imaging). It extends into the **greater omentum** and communicates with the greater sac only via the foramen of Winslow — a clinically critical fact because open surgical entry into the lesser sac requires passing through this foramen or via the gastrocolic omentum.
 
-**Clinical correlations:** Peritonitis (inflammation of the peritoneum) causes severe abdominal pain, tenderness, guarding, and rigidity. It can result from perforation (appendicitis, peptic ulcer), infection (perforated diverticulitis), or chemical irritation (pancreatitis, bleeding). Paralytic ileus (intestinal paralysis) accompanies peritonitis. The greater omentum often walls off perforated appendicitis, preventing diffuse peritonitis — this is why appendiceal perforation may produce a contained abscess rather than free perforation.
+#### Pancreatic Duct Anatomy
 
-## Small and Large Intestine — Duodenum to Rectum
+The **duct of Wirsung** drains 90% of pancreatic exocrine secretions and joins the **common bile duct** to form Vater's ampulla. An accessory duct (**Santorini**) opens at the minor papilla and is the dominant duct in 5–10% of people. Both ducts are guarded by separate sphincters (Sphincter Boyden for the bile duct, pancreatic duct sphincter) within the **sphincter of Oddi complex**. Pancreatic divisum, where Santorini carries most drainage, is a recognised cause of recurrent pancreatitis.
 
-The **duodenum** is the first 25 centimeters of small intestine, C-shaped, and divided into four parts. D1 (superior part) is the only intraperitoneal portion and contains the ampulla of Vater. D2 (descending part) receives the bile and pancreatic ducts and contains the major and minor duodenal papillae. D3 (horizontal part) crosses the IVC and aorta. D4 (ascending part) rises to meet the jejunum at the ligament of Treitz. The duodenum is retroperitoneal except for D1.
+#### Portocaval Anastomoses — Sites and Significance
 
-The **jejunum** (proximal 2/5 of the small intestine mesentery) has a thicker wall, larger mucosal folds (plicae circulares), more prominent circular folds, and a narrower lumen than the ileum. The **ileum** (distal 3/5) has Peyer's patches (lymphoid follicles), a thinner wall, narrower lumen, and less prominent circular folds. The ileum ends at the ileocecal valve, which prevents reflux of colonic contents into the ileum.
+| Site | Portal tributary | Systemic tributary | Clinical sign |
+|---|---|---|---|
+| Oesophageal | Left gastric | Oesophageal veins of azygos | Oesophageal varices |
+| Para-umbilical | Para-umbilical | Superficial epigastric | Caput medusae |
+| Anorectal | Superior rectal | Middle/inferior rectal | Haemorrhoids |
+| Retroperitoneal | Colic veins | Renal/lumbar veins | Veins of Retzius |
 
-The **large intestine** has distinct features: teniae coli (three longitudinal muscle bands — taenia libera, taenia omentalis, and taenia mesocolica), haustra (sacculations), and omental appendices (fat tags). The cecum is the dilated pouch at the origin of the appendix. The ascending colon runs superiorly to the hepatic flexure; the transverse colon crosses to the splenic flexure; the descending colon runs inferiorly to the sigmoid colon; the sigmoid colon connects to the rectum at S3 level. The rectum has three transverse folds (Houston's valves) and contains the largest mass of venous plexuses in the body — the hemorrhoidal plexus — which is a portosystemic anastomosis.
+#### Common Mistakes (FMGE traps)
 
-**Clinical correlations:** Meckel's diverticulum is a remnant of the vitelline (omphalomesenteric) duct, occurring in approximately 2 percent of the population, typically located 2 feet from the ileocecal valve, 2 inches long, and presenting before age 2. It follows the rule of 2s and may contain ectopic gastric mucosa (causing peptic ulceration and bleeding). Intussusception — telescoping of a proximal bowel segment into a distal segment — is most common in children at the ileocolic level and presents with colicky pain, vomiting, and "currant jelly" stools. The appendix has positional variations (retrocecal being most common at 75 percent); in retrocecal cases, pain may initially be minimal because the inflamed appendix is posterior to the cecum.
+- Calling the caudate/quadrate lobes "right-lobe" — they are functionally **left**.
+- Naming IVC as anterior boundary of foramen of Winslow — it is **posterior**.
+- Stating pancreas or ascending colon is intraperitoneal — both are **secondary retroperitoneal** (pancreas tail is the exception, within the lienorenal ligament).
+- Attributing appendices epiploicae or taeniae coli to the small intestine.
+
+#### Practice Prompts
+
+1. **Clinical vignette**: A 45-year-old chronic alcoholic with haematemesis. List the four portocaval anastomoses in order of clinical frequency and name the portal tributary involved at the oesophagus.
+2. **Image-based**: Identify, on cross-section of the hepatoduodenal ligament, the relative positions of portal vein, hepatic artery, and common bile duct, and state which lies anteriorly to the right.
+
+---
+
+## Continue your study
+
+- **[View this topic in your FMGE roadmap](/roadmap/?exam=fmge&duration=1mo)** — see where "Abdomen — Stomach, Liver, Pancreas, Small and Large Intestine, Peritoneum" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=fmge&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[FMGE exam overview](/exams/fmge/)** — pattern, eligibility, and syllabus
+- **[All Anatomy notes](/notes/fmge/anatomy/)** — browse sibling topics in this subject
+
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

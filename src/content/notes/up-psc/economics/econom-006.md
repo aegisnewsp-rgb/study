@@ -8,80 +8,87 @@ topicName: Cost Theory
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-04-14"
+lastUpdated: "2026-07-11"
 ---
 
 # Cost Theory
 
-Cost Theory explains how a firm's costs vary with its level of output. It is a fundamental topic in microeconomics and frequently tested in UPPSC PCS exams.
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
 
-## Key Concepts
+**Cost Theory** explains how a firm's production costs behave as output (Q) changes, and it supplies the supply-side rules used in perfect competition. The must-know identity is **TC = TFC + TVC**, and the must-know curves are **AC, AVC, MC** in the short run and **LAC, LMC** in the long run. Because of the Law of Variable Proportions, the short-run MC and AC curves are **U-shaped**, with MC always cutting AC and AVC at their minimum points — this is the **MC = AC** test for cost-minimising output.
 
-### Short-Run Cost Curves
+- **Break-even point**: P = AC → firm earns normal profit, zero economic profit.
+- **Shut-down point (SR)**: P < min AVC → firm halts production even if TFC is unrecoverable.
+- **Long-run equilibrium**: P = MR = MC = min LAC under perfect competition.
 
-| Cost Type | Definition | Shape |
+| Symbol | Meaning | Unit |
 |---|---|---|
-| Total Fixed Cost (TFC) | Cost that does not change with output | Horizontal line |
-| Total Variable Cost (TVC) | Cost that changes with output | Initially increasing at decreasing rate, then at increasing rate |
-| Total Cost (TC) | TFC + TVC | Same shape as TVC, shifted up by TFC |
+| TC | Total Cost = TFC + TVC | ₹ |
+| AC | Average Cost = TC / Q | ₹/unit |
+| MC | Marginal Cost = ΔTC / ΔQ | ₹/unit |
+| LAC | Long-run AC = LTC / Q | ₹/unit |
 
-### Average and Marginal Costs
-
-- **Average Fixed Cost (AFC)** = TFC / Q — declines as output rises (never rises)
-- **Average Variable Cost (AVC)** = TVC / Q — U-shaped; falls then rises due to diminishing returns
-- **Average Total Cost (ATC)** = TC / Q — U-shaped; sum of AFC and AVC
-- **Marginal Cost (MC)** — change in total cost from producing one extra unit; cuts ATC and AVC from below at their minimum points
-
-### Relationship Between MC and Other Costs
-
-- When MC < AVC, AVC falls
-- When MC > AVC, AVC rises
-- MC curve intersects AVC and ATC at their **minimum points**
-
-## Laws of Production in Short Run
-
-### Law of Variable Proportions
-
-Three phases:
-1. **Increasing Returns** — MP of variable factor rises (MC falls)
-2. **Diminishing Returns** — MP of variable factor falls (MC rises)
-3. **Negative Returns** — TP falls, MP becomes negative
-
-### Cost Function
-
-The cost function is derived from the production function:
-- TC = f(Q) where costs increase with output
-- In short run: TC = TFC + bQ + cQ² (quadratic form)
-
-## Long-Run Cost Analysis
-
-In the long run, all inputs are variable. The **Long-Run Average Cost (LAC)** curve is the planning curve — it envelopes the short-run ATC curves.
-
-- **Economies of Scale**: LAC falls as output increases (bulk buying, specialization, division of labour)
-- **Diseconomies of Scale**: LAC rises at very high output levels (management difficulties)
-- **Minimum Efficient Scale (MES)**: Output level where LAC is lowest
-
-### Shape of LAC
-
-Typically U-shaped, but can be L-shaped (natural monopoly) or saucer-shaped depending on industry structure.
-
-## Fixed vs Variable Costs
-
-| Aspect | Fixed Costs | Variable Costs |
-|---|---|---|
-| Change with output | No | Yes |
-| Examples | Rent, salaries, insurance | Raw materials, direct labour |
-| Decision horizon | Sunk in short run | Relevant for production decisions |
-| Behaviour | Constant | Initially decreasing, then increasing |
-
-## Tricks & Tips for Exam
-
-- MC is derived from TC: MC = ΔTC / ΔQ
-- In the **short run**, when MP is maximum, MC is minimum
-- TFC is always falling (as a curve), never rises
-- The gap between ATC and AVC = AFC, which narrows as output increases
-- MC always cuts AVC and ATC at their **lowest points** (from below)
+**UPPSC PCS tip**: A 10-mark question on "U-shaped cost curve" or "shut-down vs break-even point" appears almost every attempt — memorise the MC = AC intersection rule.
 
 ---
 
-*Previous year UPPSC PCS questions from Cost Theory have focused on MC curve properties, relationship between cost curves, and the Law of Variable Proportions.*
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
+
+#### Short-Run Cost Curves
+In the short run, at least one factor (typically capital) is fixed. Costs split into **TFC** (rent, salary of permanent staff, depreciation) which does not vary with Q, and **TVC** (raw materials, power, casual labour) which rises with Q. The **AFC curve** is a downward rectangular hyperbola (TFC ÷ Q), forcing AVC upward as Q expands, so the **SAC curve** first falls (AFC effect dominates) and then rises (AVC effect dominates) — giving its characteristic **U-shape**. **MC**, defined as the change in TC from producing one extra unit, lies below AC when AC is falling and above AC when AC is rising, crossing AC at its minimum.
+
+> **Exam pointer**: Always state "MC cuts AC at the minimum of AC, not the maximum." Many distractors in UPPSC MCQs flip this.
+
+#### Long-Run Cost Curves
+In the long run all factors are variable, so the firm can choose its plant size. The **LAC** is the **envelope** of all possible **SRAC** curves — it touches each SRAC at its minimum but never rises above any of them. The **LMC** curve is derived from the long-run total cost (LTC) and is independent of the SRMCs.
+
+#### Economies and Diseconomies of Scale
+The downward sloping portion of LAC reflects **internal economies of scale** — technical (indivisibilities, mass production), pecuniary (cheaper credit, bulk discounts), managerial (specialisation), marketing, and risk-bearing economies. The upward portion reflects **diseconomies of scale** from managerial inefficiency, coordination failures, and bureaucratic bottlenecks. A flat middle stretch indicates **constant returns to scale**.
+
+| Source of economy | Mechanism |
+|---|---|
+| Technical | Use of larger, indivisible machines |
+| Pecuniary | Lower input prices from bulk buying |
+| Managerial | Specialisation of supervision |
+| Marketing | Spreading advertising over more units |
+
+#### Profit, Break-Even and Shut-Down
+**Economic profit** = Total Revenue − (Explicit + Implicit cost). **Break-even** is P = AC, giving zero economic profit but normal profit for the entrepreneur. **Shut-down** triggers when P < min AVC in the short run (losses exceed TFC) and when P < min LAC in the long run. **Sunk costs** — once incurred and unrecoverable — are irrelevant to forward-looking output decisions.
+
+---
+
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
+
+#### Deriving the U-Shape from the Law of Variable Proportions
+As more units of the variable factor (say, labour) are combined with a fixed factor (say, capital), the **marginal product of labour** first rises, then falls. Because **MC = w / MPL** (where w is the wage rate and MPL is the marginal product of labour), MC falls when MPL rises and rises when MPL falls — hence the U-shape. AC mirrors this because AC = wL/Q = w/APL, and APL is U-shaped for the same reason. This is the **short-run** story; the long-run U-shape of LAC arises from a completely different mechanism — returns to scale — and conflating the two is the most common answer-script error.
+
+#### Envelope Curve Intuition
+For every output Q, the firm selects the plant whose SRAC is lowest at that Q. Plotting these minima for all Qs gives LAC. Mathematically, **LAC(Q) = min SRAC_k(Q)** over all plant sizes k, and the LMC equals the slope of the LTC of the currently optimal plant. The **minimum efficient scale (MES)** is the smallest Q at which LAC reaches its minimum.
+
+#### Common Mistakes and Traps
+- Confusing **diminishing returns** (short run, one factor fixed) with **diseconomies of scale** (long run, all factors variable).
+- Saying "MC = AC implies maximum profit" — the correct condition for profit maximisation is **MR = MC**, while MC = AC only marks the minimum of AC.
+- Treating **break-even** as zero accounting profit; accounting profit can still be positive at break-even because of implicit costs.
+- Reading "shut down" as closing the business permanently — in the short run, it only means halting production and bearing TFC.
+
+#### Worked Micro-Example
+A firm's TC schedule is Q = 1 → TC = 50, Q = 2 → TC = 90, Q = 3 → TC = 120, Q = 4 → TC = 160. Then MC at Q=2 is 40, Q=3 is 30, Q=4 is 40. AC at Q=3 is 40, and MC at Q=3 is 30 < AC, so AC is still falling — the firm is not yet at minimum AC. This illustrates why **MC below AC pulls AC down** and why the MC = AC minimum comes only when MC rises back to the AC level.
+
+#### Practice Prompts
+1. Distinguish between economies of scale and the Law of Variable Proportions as explanations of U-shaped cost curves.
+2. "Break-even means no loss and no profit." Critically examine this statement using the concepts of accounting profit and economic profit.
+
+---
+
+## Continue your study
+
+- **[View this topic in your UPPSC PCS roadmap](/roadmap/?exam=up-psc&duration=1mo)** — see where "Cost Theory" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=up-psc&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UPPSC PCS exam overview](/exams/up-psc/)** — pattern, eligibility, and syllabus
+- **[All Economics notes](/notes/up-psc/economics/)** — browse sibling topics in this subject
+
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

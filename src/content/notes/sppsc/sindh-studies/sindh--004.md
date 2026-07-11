@@ -8,7 +8,7 @@ topicName: Indus Valley Civilization
 weight: 3
 country: pakistan
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-07-11"
 ---
 
 # Indus Valley Civilization
@@ -16,196 +16,84 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Indus Valley Civilization** — Key Facts for SPSC (Sindh)
-- Also called the **Harappan Civilization** — one of the world's earliest **urban civilizations** (2600–1900 BCE)
-- Major cities: **Mohenjo-daro** (Sindh) and **Harappa** (Punjab, Pakistan)
-- Known for **grid-pattern city planning**, advanced **drainage systems**, and standardized **weights and measures**
-- The script remains **undeciphered** — one of the world's great unsolved scripts
-- ⚡ Exam tip: Mohenjo-daro layout, archaeological findings, and causes of decline are high-yield for SPSC
+The **Indus Valley (Harappan) Civilization** was a Bronze Age urban culture (c. 3300–1300 BCE) spread across ~1.25 million sq km of the Indus basin, with its **Mature Phase c. 2600–1900 BCE**. For SPSC Sindh Studies, **Mohenjo-daro** (Larkana) and **Kot Diji** (Khairpur) make Sindh the geographic heart of Harappan studies in Pakistan.
 
----
+#### Must-know anchors
+
+- **Excavators**: Rai Bahadur **Daya Ram Sahni** at Harappa (1921); **R.D. Banerji** at Mohenjo-daro (1922).
+- **Chronology (textbook framing)**: Pre-Harappan → **Early Harappan (Kot Diji)** 3200–2600 BCE → **Mature Harappan** 2600–1900 BCE → **Late Harappan** 1900–1300 BCE.
+- **Signature features**: grid-iron streets, baked bricks (1:2:4 ratio), covered drainage, **Great Bath**, **Great Granary**, standardized weights, undeciphered **Indus script** (~400 signs), steatite **unicorn seal**, **Pashupati seal** (John Marshall's proto-Shiva reading).
+- **Trade**: Harappan seals at Ur and Susa; **Meluhha** = Indus region in Sumerian texts.
+- **Heritage status**: Mohenjo-daro inscribed **UNESCO World Heritage Site in 1980**.
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Indus Valley Civilization** — SPSC (Sindh) Study Guide
+#### Geographic Extent and Sindh's Centrality
+The civilization stretched from Sutkagen Dor (Balochistan) in the west to Alamgirpur (UP) in the east, and from Shortugai (Afghanistan) in the north to Daimabad (Maharashtra) in the south. Within modern Sindh the principal sites are **Mohenjo-daro** (Larkana), **Kot Diji** (Khairpur), **Chanhu-daro** (Nawabshah), **Lakhan-jo-daro**, **Allahdino**, **Tharro Hill**, **Jhukar**, and **Nal** in lower Sindh. Mohenjo-daro alone has been estimated at ~80 hectares with a possible peak population near 40,000.
 
-## Overview
+#### Chronology Used in Pakistani Textbooks
+The Mortimer Wheeler–Raikes–Allchin framework is the exam standard:
 
-The **Indus Valley Civilization** (also called the **Harappan Civilization**) was one of the earliest and largest **Bronze Age urban civilizations** in the world. It flourished in the northwestern regions of the Indian subcontinent, primarily in what is now Pakistan and northwest India.
-
-| Parameter | Details |
-|---|---|
-| **Period** | 2600–1900 BCE (Mature Phase) |
-| **Extent** | ~1 million km²; largest of the ancient civilizations |
-| **Major Sites** | Mohenjo-daro (Sindh), Harappa (Punjab), Dholavira (Gujarat), Rakhigarhi (Haryana) |
-| **Peak Population** | ~5 million at its height |
-
-## Major Cities
-
-### Mohenjo-daro (Sindh, Pakistan) — The Crown Jewel
-
-**Location**: Larkana District, Sindh, Pakistan — on the right bank of the Indus River
-**Excavated**: First by Sir John Marshall (1922); major excavations by Sir Mortimer Wheeler (1930s)
-**Meaning**: "Mound of the Dead Men" (local name; actual Sindhi name is **Chanhudrio**)
-
-**City Planning**:
-- **Grid pattern**: streets laid out in a rectangular grid — remarkable for its time
-- **Advanced drainage**: covered drains running beneath streets; wastewater carried to collection pits outside the city
-- **Standardized bricks**: baked mud bricks (sun-dried bricks) of consistent dimensions (1:2:4 ratio)
-- **Citadel Mound**: raised platform (12–15 m high) with large public buildings (granary, assembly hall, college)
-
-**Key Structures**:
-
-| Structure | Description |
-|---|---|
-| **The Great Granary** | Large rectangular building; likely used for grain storage and redistribution |
-| **The Assembly Hall** | Large pillared hall; possibly for public gatherings |
-| **The College** | Multi-room building; possibly for priests/scribes |
-| **The Bath (Great Bather)** | 12 × 7 m pool (also called the Great Bath) — likely for ritual purification |
-| **The Lower City** | Residential area with standardized house plans; inner courtyards for ventilation |
-
-**Population**: estimated 30,000–40,000 at its peak
-
-### Harappa (Punjab, Pakistan)
-- First excavated in **1872** by Alexander Cunningham
-- Similar layout to Mohenjo-daro — grid pattern, granary, drainage
-- Named after the modern village of Harappa
-
-### Dholavira (Gujarat, India)
-- Smaller than Mohenjo-daro but well-preserved
-- Notable for its **water management system**
-
-### Rakhigarhi (Haryana, India)
-- Recently discovered; large urban center
-- Predates previously known Harappan cities
-
-## Economic System
-
-### Trade
-
-**Internal Trade:**
-- **River transport** on the Indus and its tributaries
-- Agricultural surplus from surrounding villages brought to urban centers
-- **Standardized weights and measures**: binary system (1, 2, 4, 8, 16... up to 160 units) — remarkably consistent across the civilization
-
-**External Trade:**
-- **Mesopotamia trade** (ancient Iraq): exchanged copper, lapis lazuli, carnelian, shell, ivory, gold
-- **Dilmun (Bahrain)**: trading hub between Harappan cities and Mesopotamia
-- **Meluhha** (in Mesopotamian texts): possibly the Indus Valley
-
-**Exports**: cotton textiles (possibly — earliest evidence of cotton cultivation), pottery, terracotta figurines, seals
-**Imports**: lapis lazuli from Afghanistan, carnelian from Gujarat, copper from Rajasthan
-
-### Weights and Measures
-
-| Unit | Approximate Length | Usage |
+| Phase | Dates (BCE) | Marker in Sindh |
 |---|---|---|
-| **Indus inch** | ~1.32 cm | Standardized measurement unit |
-| **Foot** | ~30 cm | Architectural measurement |
-| **Cubit** | ~52–53 cm | Larger construction |
+| Pre-Harappan (Mehrgarh tradition) | 7000–3300 | Mehrgarh (Balochistan) |
+| Early Harappan (Kot Diji) | 3200–2600 | Kot Diji fortified mound |
+| Mature Harappan | 2600–1900 | Mohenjo-daro, Chanhu-daro |
+| Late Harappan (Cemetery H) | 1900–1300 | Jhukar, Pir Shah Jurio |
 
-The use of **standardized brick dimensions** and **binary weight system** suggests centralized administration.
+#### Town Planning and Engineering
+Cities followed orthogonal **grid-iron planning** aligned to cardinal directions. The **citadel** sat on an elevated western mound; the **lower town** lay to the east. Standardized **baked bricks** in ratio **1:2:4** line streets, wells and drains. **Covered brick drains with manholes** and soak-pits ran along lanes, a level of civic engineering unmatched in contemporary Egypt or Mesopotamia. The **Great Bath** at Mohenjo-daro — a tank ~12 m × 7 m, ~2.4 m deep — was waterproofed with **bitumen and gypsum mortar**, and is conventionally described as a **ritual bathing tank**.
 
-## Script and Writing
+#### Economy, Craft and Long-Distance Trade
+Agriculture combined **wheat, barley, pulses, mustard, sesame, rice (Lothal)** and the **first domesticated cotton**. Pasture was dominated by the humped **zebu bull**, alongside buffalo and goat. Specialized crafts include **bead-making at Nageshwar and Chanhu-daro**, **carnelian etched work at Chanhudaro**, **shell-working**, and **copper-arsenic bronze** metallurgy. Sindh's **Rohri Hills flint quarries** fed Harappan tool production. **Steatite seals** with the **unicorn** motif, Indus script and a central standard reached **Ur, Susa, Oman, Bahrain and Mesopotamia**; Sumerian texts refer to a land called **Meluhha**, identified by Pakistani historians with the Indus region.
 
-### The Indus Script
-- **Undeciphered** to this day — one of the world's major unsolved scripts
-- **~400–500 signs** identified; combining signs (logosyllabic)
-- Inscribed on **steatite (soapstone) seals** and some copper tablets
-- Found primarily on seals (rectangular, with an animal motif + script)
+#### Religion, Script and the Pashupati Question
+The script has roughly **400 signs** and remains undeciphered; seals are read right-to-left on present evidence. Probable ritual elements include the **Pashupati figure** (seated horned personage surrounded by animals — **John Marshall**, 1931, identified it as a **proto-Shiva / Mahadeva** prototype), the **Mother Goddess** terracotta figurines, the **sacred bull**, and the **pipal tree**. This Marshall reading is the one SPSC answer keys typically credit.
 
-### Seals
-- **Steatite** (soft stone) carved seals with an animal motif (bull, elephant, rhinoceros, tiger)
-- Typically square (1–2 cm); pierced for suspension
-- Used for trade identification and possibly ritual purposes
-- **Most famous seal**: Pashupati Seal (from Mohenjo-daro) — depicts a seated figure (possibly Shiva-like deity) surrounded by animals
+#### Discovery and Excavation Leadership
+**Harappa** was identified by Sahni in 1921, **Mohenjo-daro** by Banerji in 1922. Later directors include **Mortimer Wheeler** (1944–48), **George F. Dales**, **M.S. Vats**, **Ahmad Hasan Dani** (Pakistan's first major director) and **N.G. Majumdar**. Pakistan's **Department of Archaeology** now manages Mohenjo-daro under the Antiquities Act 1975.
 
-## Society and Culture
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-### Social Structure (Inferred)
-- **Urban planning** suggests a centralized authority (city governors or priests)
-- **No obvious palaces or temples** (unlike Mesopotamia) — suggests relatively egalitarian or collective administration
-- **Granary** indicates surplus management — likely by the state
+#### Decline: A Multi-Causal Model (not a single event)
+The standard SPSC answer rejects the single-cause Aryan-invasion narrative and lists converging stressors c. 1900–1300 BCE:
 
-### Religion and Rituals
-- **Seal motif**: some seals depict figures in **yogic posture** (proto-Shiva/Pashupati)
-- **Phallic symbols** (proto-Shiva lingams) found
-- **Bath structures** suggest ritual purification practices (similar to later Hindu temple practices)
-- **Terracotta figurines**: female figurines (mother goddess cult) — widespread in the civilization
+1. **Climatic weakening of the monsoon**, with isotopic evidence of drier conditions.
+2. **Tectonic / hydrological shift** of the Indus and the drying of the Ghaggar-Hakra channel, withdrawing water from eastern Mature Harappan sites.
+3. **Collapse of long-distance trade** as Mesopotamian import patterns shift after 1900 BCE; Ur's decline reduces demand for Harappan carnelian and seals.
+4. **Flood-stress and salinisation** of agricultural fields near Mohenjo-daro.
+5. **Possible cultural disruption** suggested by the unburied skeletons on Mohenjo-daro's citadel stairs and the late defensive thickening of walls — interpreted in textbooks as evidence of conflict, but current scholarship treats these as marginal clues, not a verdict.
 
-### Arts and Crafts
-- **Terracotta figurines**: human and animal figures; high craftsmanship
-- **Bronze statues**: famous **"Dancing Girl"** from Mohenjo-daro (Bronze Age bronze — 4,500 years old)
-- **Stone statues**: **"Priest-King"** from Mohenjo-daro (steatite statue; 1.75 m tall)
-- **Shell, ivory, and faience work**: jewelry and decorative items
-- **Seal carvings**: carnelian and steatite
+The official Pakistani curriculum treats decline as **multi-causal**, not as the result of a single Aryan invasion.
 
-## Decline and End of the Civilization
-
-### Timeline
-- **Mature Phase**: 2600–1900 BCE
-- **Overseas interface Period**: 1900–1700 BCE (decline in trade; spread of Harappan culture)
-- **Late Harappan Phase**: 1700–1300 BCE (diminishing urban centers; migration eastward)
-
-### Theories on Decline
-
-**1. Climate Change (Aryan Invasion Theory)**:
-- Later replaced by the **Aryan Invasion theory** (now largely discredited)
-- Current consensus: **climate change** caused the Ghaggar-Hakra River (paleo-channel of the Indus) to shift or dry up
-- Reduced agricultural capacity → population dispersal
-
-**2. River Shifts**:
-- The **Saraswati River** (Ghaggar Hakra) dried up gradually
-- Indus flooding may have affected Mohenjo-daro
-
-**3. Disease and Epidemics**:
-- Some evidence of **skeletal remains** suggesting disease
-
-**4. Aryan Migration (Revised Theory)**:
-- **Gradual migration** of Indo-Aryan-speaking peoples into the region
-- **Not a violent conquest** — evidence suggests peaceful interaction
-- Cultural synthesis with Harappan practices (fire rituals, soma ceremony) — possibly absorbed
-
-**Most accepted theory**: Multi-factor decline — **climate change, river shifts, and ecological degradation** causing agricultural collapse and urban abandonment.
-
-## Archaeological Sites in Sindh
-
-| Site | Location | Significance |
-|---|---|---|
-| **Mohenjo-daro** | Larkana District | Largest Harappan city in Sindh; UNESCO World Heritage |
-| **Chanhudrio** | Larkana District | Small Harappan site near Mohenjo-daro |
-| **Kot Diji** | Khairpur District | Pre-Harappan site; pre-dates Mohenjo-daro |
-| **Lakes of Larkana region** | Larkana | Early settlement sites in the region |
-
-## Significance for SPSC Exam
-
-- **Mohenjo-daro** was excavated by **Sir John Marshall (1922)** and **Sir Mortimer Wheeler (1930s)** — both important names
-- The **Great Bath** at Mohenjo-daro is the most iconic Harappan structure
-- **"Dancing Girl"** — bronze statue; 4,500 years old
-- **"Priest-King"** — steatite statue from Mohenjo-daro
-- **Undeciphered script** — remains one of the most important unsolved scripts globally
-- The civilization was **Bronze Age** — copper and bronze tools were used alongside stone tools
-
-## Mohenjo-daro: Key Facts for SPSC
-
-| Feature | Detail |
+#### Common Traps to Avoid in the Exam Room
+| Trap | Correct SPSC framing |
 |---|---|
-| **Discovery** | 1922 by Sir John Marshall |
-| **Location** | Larkana District, Sindh |
-| **Period** | 2600–1900 BCE |
-| **Population (peak)** | ~30,000–40,000 |
-| **Iconic Finds** | Dancing Girl (bronze), Priest-King (steatite), Pashupati Seal, Great Bath |
-| **UNESCO Status** | World Heritage Site (1980) — but preservation has been poor |
-| **Writing** | Undeciphered Indus script |
+| "Mohenjo-daro was the capital of a unified empire." | A network of regional centres, not a centralised state. |
+| "Lothal dockyard is in Sindh." | Lothal is in **Gujarat**; Sindh's port-era evidence sits at Nal and along the eastern Nara/Rann margins. |
+| "Indus script was deciphered by Rao/Parpola." | **Undeciphered**; no consensus reading. |
+| "Great Bath was a temple or swimming pool." | A **ritual bathing tank** of civic-religious significance. |
+| "Kot Diji = Mature Harappan." | Kot Diji is the **Early Harappan precursor** that physically overlies pre-Harappan levels. |
+| "Mature phase = 2500–1500 BCE." | Use **2600–1900 BCE** as in Sindh Textbook Board volumes. |
 
-## Legacy
+#### Worked Short-Note Prompt
+> *"Write a short note on the discovery and archaeological significance of Mohenjo-daro for Sindh."*
 
-- **Agricultural techniques** from the civilization (crop rotation, irrigation) influenced later South Asian agriculture
-- **Urban planning principles** (grid patterns, drainage) influenced subsequent South Asian city planning
-- **Cotton cultivation** — possibly pioneered in the Indus Valley (the oldest cotton textiles found here)
-- **Proto-Shiva practices** from the civilization influenced later Hindu religious practices
-- **Seal systems** influenced later South Asian administrative traditions
+Expected bullet points: discovery by R.D. Banerji (1922) on a Larkana mound; Citadel–Lower Town grid layout; **Great Bath** of bitumen-and-gypsum waterproofed brickwork; **Great Granary**; sophisticated **drainage** with manhole covers; steatite seals and **Indus script**; UNESCO inscription **1980**; managed by Pakistan's **Department of Archaeology** under the Antiquities Act 1975; treated as the type site for Sindh's Harappan heritage and a recurring short-note question in PMS and lecturers' papers.
+
+#### Practice Prompts
+1. Distinguish the **Kot Diji culture** from the **Mature Harappan phase**, with at least two material-culture markers and one Sindh site for each.
+2. Evaluate **three causes** of the decline of the Indus Valley Civilization, showing why the single-factor Aryan-migration theory is now considered insufficient.
 
 ---
+
+## Continue your study
+
+- **[View this topic in your SPSC (Sindh) roadmap](/roadmap/?exam=sppsc&duration=1mo)** — see where "Indus Valley Civilization" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=sppsc&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[SPSC (Sindh) exam overview](/exams/sppsc/)** — pattern, eligibility, and syllabus
+- **[All Sindh Studies notes](/notes/sppsc/sindh-studies/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

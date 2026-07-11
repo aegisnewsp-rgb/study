@@ -8,7 +8,7 @@ topicName: Neoplasia — Classification, Grading, Staging & Tumor Biology
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-07-11"
 ---
 
 # Neoplasia — Classification, Grading, Staging & Tumor Biology
@@ -16,71 +16,89 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Benign vs Malignant**:
-- Benign: Well-differentiated, cohesive, encapsulated, no metastasis
-- Malignant: Poorly differentiated, invasive, pleomorphism, hyperchromatic nuclei, mitotic figures, necrosis, metastasis
+**Neoplasia** is an abnormal mass of tissue whose growth is uncoordinated with surrounding tissue and persists after the inciting stimulus is removed. **Benign** tumors are well-differentiated, grow by expansion, and do not metastasize. **Malignant** tumors show **anaplasia**, invasive growth, and can metastasize.
 
-**Tumor nomenclature**:
-- Epithelial: Benign = papilloma/adenoma; Malignant = carcinoma (squamous/adenocarcinoma)
-- Mesenchymal: Benign = fibroma/leiomyoma; Malignant = sarcoma
-- Mixed: Teratoma (contains all 3 germ layers)
+| Feature | Benign | Malignant |
+|---|---|---|
+| Differentiation | Well-differentiated | Anaplastic / pleomorphic |
+| Growth | Expansile | Infiltrative / invasive |
+| Metastasis | Absent | Present |
+| Suffix | -oma (mostly) | Carcinoma / sarcoma |
 
-**Grading**: Degree of differentiation (GX–G4); based on how much tumor resembles normal tissue.
-**Staging**: TNM — Tumor size (T), Nodes (N), Metastasis (M); most important prognostic factor.
-
-**Oncogenes**: Gain of function; only one allele mutated (dominant); e.g., RAS, MYC, BCR-ABL (CML), HER2/neu.
-**Tumor suppressor genes**: Loss of function; requires BOTH alleles lost (recessive); e.g., RB (retinoblastoma), p53 (Li-Fraumeni), BRCA1/2, APC.
-
-⚡ **Exam tip**: "2-hit hypothesis" = both alleles of tumor suppressor gene must be inactivated; explains why hereditary cancers occur earlier (1st hit is germline, 2nd is somatic).
+- **Grading** = histologic (GX, G1–G4) — assesses differentiation. **Staging** = anatomic (TNM, Stage 0–IV) — assesses spread. Stage predicts prognosis better than grade.
+- Carcinoma in situ (Tis) is pre-invasive; basement membrane is intact. Once breached, it is invasive carcinoma.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-## Nomenclature
+#### Benign vs Malignant — Criteria
+Benign neoplasms closely resemble their parent tissue, are encapsulated, and displace rather than destroy adjacent structures. Malignant neoplasms display **anaplasia** (loss of differentiation, nuclear pleomorphism, abnormal mitoses, high N:C ratio), invade through basement membranes, and seed distant sites. Naming follows tissue of origin: epithelial malignancy = **carcinoma**, mesenchymal = **sarcoma**, melanocytic = **melanoma**, lymphoid = **lymphoma**, germ cell of testis = **seminoma**.
 
-### Benign Tumors
+#### Grading (Microscopic)
+Grading quantifies how closely tumor cells resemble normal cells. AJCC 8th edition uses:
+- **GX** = grade cannot be assessed
+- **G1** = well-differentiated (low grade)
+- **G2** = moderately differentiated
+- **G3** = poorly differentiated
+- **G4** = undifferentiated (high grade)
 
-| Tissue | Benign Tumor | Example |
-|---|---|---|
-| Squamous epithelium | Squamous papilloma | Skin warts |
-| Glandular epithelium | Adenoma | Colonic adenoma, thyroid adenoma |
-| Fibroblasts | Fibroma | Soft tissue fibroma |
-| Smooth muscle | Leiomyoma | Uterine leiomyoma (most common pelvic tumor in women) |
-| Striated muscle | Rhabdomyoma | Cardiac rhabdomyoma (associated with tuberous sclerosis) |
-| Blood vessels | Hemangioma | Strawberry hemangioma of infancy |
-| Adipose | Lipoma | Most common soft tissue tumor |
-| Nerve sheath | Schwannoma | Acoustic neuroma (vestibular schwannoma) |
+Parameters include percent of tumor differentiating, nuclear pleomorphism, mitotic count, and (for some tumors) necrosis.
 
-### Malignant Tumors
+#### Staging (Anatomic) — TNM
+- **T** (T0–T4, Tis): size/extent of primary Tumor, with **Tis** reserved for carcinoma in situ.
+- **N** (N0–N3): regional lymph **N**ode involvement.
+- **M** (M0/M1): distant **M**etastasis.
 
-| Tissue | Malignant Tumor | Notes |
-|---|---|---|
-| Squamous epithelium | Squamous cell carcinoma | Keratin pearls, intercellular bridges |
-| Glandular epithelium | Adenocarcinoma | Gland formation; mucin production |
-| Basal cells | Basal cell carcinoma | Face; locally invasive; rare metastasis |
-| Melanocytes | Melanoma | Most dangerous skin cancer; vertical growth phase |
-| Fibroblasts | Fibrosarcoma | — |
-| Smooth muscle | Leiomyosarcoma | Uterus, GI, retroperitoneum |
-| Striated muscle | Rhabdomyosarcoma | Children; botryoid type in bladder/vagina |
-| Bone | Osteosarcoma | Most common primary bone malignancy; peak 10–20 years |
-| Cartilage | Chondrosarcoma | Adults; slow-growing |
-| Fat | Liposarcoma | Retroperitoneum |
-| Blood vessels | Angiosarcoma | Liver (vinyl chloride), spleen, breast |
-| Nerve sheath | Malignant peripheral nerve sheath tumor (MPNST) | NF1-associated |
-| Mesothelioma | — | Pleura; associated with asbestos exposure |
-| Glioma | Astrocytoma, oligodendroglioma, glioblastoma | CNS |
-| Lymphocytes | Lymphoma (Hodgkin and Non-Hodgkin) | — |
-| Hematopoietic | Leukemia | — |
+These combine with grade into **Stage Grouping 0, I, II, III, IV**. Stage IV universally denotes distant spread.
 
-### Special Tumor Terms
+#### Cancer-Specific Staging Systems
 
-- **Carcinoma in situ**: Pre-invasive; cells haven't breached basement membrane; e.g., carcinoma in situ of cervix (CIN), DCIS (ductal carcinoma in situ of breast)
-- **Leukemia**: Malignant tumor of blood-forming cells; NO solid tumor
-- **Lymphoma**: Solid tumor of lymphoid tissue; often presents with lymphadenopathy
-- **Sarcoma**: Malignant tumor of mesenchymal origin
-- **Teratoma**: Germ cell tumor containing tissues from all 3 germ layers; in ovary (mature cystic teratoma = dermoid cyst) or testis
-- **Choriocarcinoma**: Gestational trophoblastic disease; very aggressive; produces β-hCG; sensitive to chemotherapy
-- **Dysgerminoma**: Female germ cell tumor; analogous to seminoma in males; radiosensitive
-- **Yolk sac tumor (endodermal sinus tumor)**: Produces AFP; most common testicular germ cell
+| Cancer | System |
+|---|---|
+| Colorectal | Dukes / Modified Astler-Coller |
+| Gynecologic | FIGO |
+| Lymphomas | Ann Arbor |
+| Melanoma | Breslow thickness, Clark level |
+| Prostate | Gleason score / ISUP grade group |
+
+> **Trap:** Lymphomas use Ann Arbor, not TNM. FIGO applies to cervix/endometrium/ovary, not to colon cancer.
+
+---
+
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
+
+#### Dysplasia vs Carcinoma in Situ
+**Dysplasia** is disordered, atypical epithelial growth that is **reversible** when the irritant is removed; it is not a true neoplasm. When atypia spans the **full thickness** of the epithelium without breaching the basement membrane, the lesion is upgraded to **carcinoma in situ (Tis)** — biologically malignant but not yet invasive.
+
+#### Routes of Metastasis
+- **Lymphatic** — favoured by carcinomas; regional nodes are sampled first (sentinel node).
+- **Hematogenous** — favoured by sarcomas and many carcinomas to lung/liver/bone.
+- **Transcoelomic** — across serosal cavities (e.g., ovarian carcinoma cells across peritoneum).
+- **Seeding** — along needle tracts or surgical surfaces.
+
+#### Hallmarks Touching Classification
+Sustained proliferative signalling, evasion of growth suppressors, replicative immortality, induction of angiogenesis, invasion and metastasis, and the **Warburg effect** (aerobic glycolysis even with oxygen) underpin the malignant phenotype examiners reference.
+
+#### Common Mistakes
+- Mixing grade (G1–G4) with stage (I–IV) labels in MCQs.
+- Assuming "-oma" implies benign — **lymphoma, melanoma, seminoma, mesothelioma, glioma** are malignant.
+- Forgetting Tis = carcinoma in situ = Stage 0, not Stage I.
+
+#### Practice Prompts
+1. A colonic biopsy shows full-thickness epithelial atypia without basement membrane breach. Stage it using TNM.
+2. A 60-year-old has a retroperitoneal mass with venous invasion, lung nodules. Name the likely malignancy type, preferred metastatic route, and the relevant grading parameter most increased.
+
+---
+
+## Continue your study
+
+- **[View this topic in your NEET PG roadmap](/roadmap/?exam=neet-pg&duration=1mo)** — see where "Neoplasia — Classification, Grading, Staging & Tumor Biology" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=neet-pg&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NEET PG exam overview](/exams/neet-pg/)** — pattern, eligibility, and syllabus
+- **[All Pathology notes](/notes/neet-pg/pathology/)** — browse sibling topics in this subject
+
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

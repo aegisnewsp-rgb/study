@@ -8,7 +8,7 @@ topicName: "Nerve Physiology and Synaptic Transmission"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-07-12"
 ---
 
 # Nerve Physiology and Synaptic Transmission
@@ -16,202 +16,99 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Nerve Physiology and Synaptic Transmission** — Key Facts for FMGE
-Core concept: Neurons generate action potentials via voltage-gated Na and K channels; synapses transmit signals via neurotransmitters
-High-yield point: Action potential propagation follows all-or-none law; refractory periods ensure unidirectional flow
-⚡ Exam tip: The absolute refractory period corresponds to Na channel inactivation; relative refractory period corresponds to K channel activation
+- **Resting membrane potential** in a mammalian neuron sits near **−70 mV**, set mainly by **K⁺ permeability** and maintained by the **Na⁺/K⁺-ATPase** (3 Na⁺ out / 2 K⁺ in per ATP).
+- An **action potential (AP)** is an all-or-none depolarization that begins at the **axon hillock** (highest Na⁺-channel density) once the membrane reaches **threshold ≈ −55 mV**.
+- **Phases:** rapid **Na⁺ influx** (depolarization) → **Na⁺-channel inactivation + K⁺ efflux** (repolarization) → brief **after-hyperpolarization**.
+- **Saltatory conduction** along **myelinated axons** regenerates the AP only at **Nodes of Ranvier**, where voltage-gated Na⁺ channels cluster.
+- At a **chemical synapse**, presynaptic **Ca²⁺ entry** triggers SNARE-mediated **vesicle fusion**, releasing neurotransmitter (e.g., ACh, glutamate, GABA) into the ~20–40 nm **synaptic cleft**.
+- **Postsynaptic potentials** are either **EPSPs** (Na⁺/Ca²⁺ influx, depolarizing) or **IPSPs** (Cl⁻ influx or K⁺ efflux, hyperpolarizing), and they **summate spatially and temporally** at the axon hillock.
+
+> **Exam tip:** FMGE loves clinical stems — *myasthenia gravis*, *organophosphate poisoning*, *multiple sclerosis* — all map to one step in this cascade.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Nerve Physiology and Synaptic Transmission** — FMGE Study Guide
+#### Resting Potential and the Nernst Equation
+The **resting membrane potential (Vₘ ≈ −70 mV)** is dominated by K⁺ leak channels, not by the Na⁺/K⁺ pump directly. For any single ion the equilibrium potential follows the **Nernst equation**:
 
-## Resting Membrane Potential
+> **E_ion = (RT / zF) · ln([ion]ₒᵤₜ / [ion]ᵢₙ)**
 
-### Ionic Distribution
-- **Intracellular**: High K (140 mM), low Na (10-15 mM), high protein anions
-- **Extracellular**: High Na (145 mM), High Cl (110 mM), low K (3-5 mM)
-- **Cause**: Na/K ATPase + K leak channels
+where **R = 8.314 J/(mol·K)**, **T** = absolute temperature, **z** = ionic valence, **F = 96 485 C/mol**. Because real membranes are permeable to **Na⁺, K⁺, and Cl⁻ simultaneously**, the actual Vₘ is given by the **Goldman–Hodgkin–Katz (GHK) voltage equation**, which weights each ion by its relative permeability (P_K ≫ P_Na at rest).
 
-### Origin of Resting Potential
-- **K leak channels** allow K to flow out down its concentration gradient
-- Creates negative charge inside (cations lost = more negative)
-- Equilibrium reached when electrical gradient balances chemical gradient
-- **Goldman equation**: Takes permeability of all major ions into account
-- At rest: K permeability >> Na permeability → resting potential close to K equilibrium potential (-90 mV)
-- Actual resting potential (-70 mV) is less negative than Ek because some Na leaks in
+#### Action Potential Phases
+| Phase | Dominant event | Net ion flux |
+|---|---|---|
+| Resting | K⁺ leak dominates | K⁺ out |
+| Depolarization (to threshold) | Voltage-gated Na⁺ channels open | Na⁺ in |
+| Peak (~+30 mV) | Na⁺ channels inactivate | K⁺ out begins |
+| Repolarization | Voltage-gated K⁺ channels open | K⁺ out |
+| After-hyperpolarization | K⁺ channels slow to close | K⁺ out |
+| Recovery | Na⁺/K⁺-ATPase restores gradients | 3 Na⁺ out / 2 K⁺ in |
 
-## Action Potential
+The **all-or-none law** applies once threshold is reached; **subthreshold** stimuli produce graded **local (electrotonic) potentials** that decay with the **length constant λ = √(r_m / r_i)** and rise with the **membrane time constant τ = r_m · c_m**.
 
-### Phases
+#### Refractory Periods
+- **Absolute refractory period** — Na⁺ channels are inactivated; **no AP** can fire, regardless of stimulus strength.
+- **Relative refractory period** — some Na⁺ channels have recovered while K⁺ channels are still open; an AP needs a **stronger-than-normal** stimulus.
 
-**Resting state**: All voltage-gated channels closed; Na channels deactivated
+#### Synaptic Transmission Steps
+1. AP arrives at the presynaptic terminal.
+2. Depolarization opens **voltage-gated Ca²⁺ channels**.
+3. Ca²⁺ triggers **SNARE-mediated vesicle fusion**.
+4. **Neurotransmitter** is released into the **synaptic cleft**.
+5. Binds **postsynaptic receptors** → **EPSP** (Na⁺/Ca²⁺ influx) or **IPSP** (Cl⁻ influx / K⁺ efflux).
+6. Signal terminated by **reuptake, enzymatic degradation** (e.g., **acetylcholinesterase** cleaves ACh to acetate + choline), or **diffusion**.
 
-**Depolarization (Phase 0)**:
-- Stimulus reaches threshold (-55 mV)
-- Voltage-gated Na channels open rapidly (fast Na channels)
-- Na influx → rapid depolarization toward +30 mV (Na equilibrium potential)
-- **All-or-none**: Either reaches threshold or doesn't fire
+#### Neuromuscular Junction (NMJ)
+Somatic motor neurons release **ACh** onto **nicotinic (N_M)** receptors at the motor end-plate, producing a large **end-plate potential (EPP)** that reliably fires a muscle AP.
 
-**Repolarization (Phase 1)**:
-- Na channels inactivate (fast inactivation)
-- K channels open (delayed rectifier K channels)
-- K efflux → rapid return toward resting potential
+> **Pharmacology hook:** **Curare** competitively blocks N_M receptors; **succinylcholine** depolarizes the end-plate; **organophosphates** inhibit acetylcholinesterase; **myasthenia gravis** involves autoantibodies against the same N_M receptors.
 
-**After-hyperpolarization (Phase 2/Hyperpolarization)**:
-- K channels remain open slightly longer
-- Membrane becomes slightly more negative than resting potential
-- **Overshoot**: Brief hyperpolarization
+#### Common MCQ Traps in FMGE
+- Confusing **absolute vs relative refractory period** definitions.
+- Saying Vₘ equals the **K⁺ Nernst potential** instead of the GHK-weighted Vₘ.
+- Assuming APs travel **under** the myelin — they regenerate only at **Nodes of Ranvier**.
 
-**Return to resting (Phase 3)**:
-- All channels return to resting state
-- Na/K ATPase restores ionic gradients (slowly - over minutes)
+---
 
-### Properties
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-**Threshold**: -55 mV (must reach this to fire)
-**Peak**: +30 mV
-**Duration**: 1-2 ms in neurons
-**Propagation**: Spread to adjacent areas via local currents
+#### Edge Cases and Clinical Correlations
+**Saltatory conduction** in **myelinated axons** is not a luxury — it raises conduction velocity roughly in proportion to axon diameter (≈ **6·d m/s** for d in µm) and cuts metabolic cost because ionic exchange happens only at nodes. This is why **demyelinating diseases** (multiple sclerosis, Guillain-Barré syndrome) produce measurable **conduction slowing, block, and conduction failure**, presenting clinically as weakness, paresthesia, and visual loss (optic neuritis in MS).
 
-### Refractory Periods
+#### Electrical vs Chemical Synapses
+**Electrical synapses** use **connexons** (gap junctions) for direct ionic flow — **bidirectional, near-zero delay, no neurotransmitter**. They dominate in **cardiac muscle, smooth muscle, and some CNS neurons**. By contrast, chemical synapses impose a **synaptic delay of ~0.5 ms** but allow **amplification, modulation, and unidirectional signalling**.
 
-**Absolute refractory period**:
-- During depolarization and early repolarization
-- Na channels are inactivated (cannot open again no matter how strong stimulus)
-- **No action potential can be initiated** during this period
-- Determines maximum firing frequency
+#### Summation and Integration
+Single EPSPs are usually subthreshold; firing requires **summation**:
+- **Spatial summation** — simultaneous inputs at different dendritic sites.
+- **Temporal summation** — rapid successive inputs at one site.
+The integrated signal travels **passively (electrotonically)** to the **axon hillock**, the lowest-threshold site because of dense **voltage-gated Na⁺ channels**. **IPSPs** subtract from this sum, often via **GABA_A** (Cl⁻) or **glycine** (Cl⁻) receptors; **EPSPs** add via **AMPA/NMDA** (glutamate) or nicotinic (ACh) receptors.
 
-**Relative refractory period**:
-- During after-hyperpolarization
-- Some Na channels have returned from inactivation but K channels still open
-- Can initiate AP with stronger-than-normal stimulus
-- **Higher threshold** during this period
+#### Common Mistakes to Avoid
+- The **Na⁺/K⁺-ATPase** does **not** generate the AP upstroke — it only restores gradients afterward, contributing only a few mV electrogenically.
+- The **site of AP initiation** (axon hillock) is distinct from the **site of synaptic integration** (soma and dendrites).
+- **Lambert-Eaton syndrome** autoantibodies target **presynaptic Ca²⁺ channels** (less ACh release), whereas **myasthenia gravis** targets **postsynaptic ACh receptors** — both weaken the NMJ but at different steps.
 
-### Propagation
+> **Worked micro-example:** A motor neuron fires at the NMJ. Ca²⁺ enters the motor nerve terminal, vesicles fuse, ACh is released, binds **N_M receptors**, opens Na⁺/K⁺ channels, and the end-plate depolarizes by ~40 mV — easily exceeding threshold and triggering a muscle AP. Give **curare** → receptor blocked → no EPP → **flaccid paralysis**. Give **neostigmine** → acetylcholinesterase inhibited → more ACh available → partial reversal of myasthenic weakness.
 
-**Unmyelinated fibers**:
-- Action potential regenerates at each point along the axon
-- Slow conduction (1 m/s in small fibers)
+> **Strategy for FMGE (3% weight, ~2–3 MCQs):** Memorize the AP ion/time table, the absolute/relative refractory distinction, NMJ pharmacology (curare, succinylcholine, organophosphates, myasthenia), and the EPSP vs IPSP direction. Clinical vignettes almost always point to **one specific step** in the cascade.
 
-**Myelinated fibers (saltatory conduction)**:
-- Myelin insulates axon (lipid - poor conductor)
-- Currents "jump" between Nodes of Ranvier ( Nodes of Ranvier)
-- Nodes have high density of voltage-gated Na channels
-- Much faster conduction (50-150 m/s)
+#### Practice Prompts
+1. A patient with organophosphate poisoning presents with salivation, bronchospasm, and miosis. **Which enzyme is inhibited, and which step of synaptic transmission is prolonged?**
+2. In multiple sclerosis, conduction is slowed most severely at **which anatomical structure, and why does demyelination reduce conduction velocity?**
 
-**Factors affecting conduction velocity**:
-- Axon diameter (larger = faster)
-- Myelination (myelinated = faster)
-- Temperature (higher = faster within physiological range)
+---
 
-### Classification of Nerve Fibers
+## Continue your study
 
-| Type | Function | Diameter | Conduction |
-|------|----------|----------|------------|
-| Aα | Muscle spindles, motor | 13-20 μm | 70-120 m/s |
-| Aβ | Touch, pressure | 8-13 μm | 40-70 m/s |
-| Aγ | Muscle spindle (intrafusal) | 4-8 μm | 15-40 m/s |
-| Aδ | Pain, temperature (sharp) | 1-4 μm | 6-30 m/s |
-| B | Preganglionic autonomic | 1-3 μm | 3-15 m/s |
-| C | Pain, temperature (dull), postganglionic autonomic | 0.5-1.5 μm | 0.5-2 m/s |
-
-## Synaptic Transmission
-
-### Synapse Structure
-- **Presynaptic terminal**: Contains synaptic vesicles with neurotransmitter
-- **Synaptic cleft**: 20-40 nm gap
-- **Postsynaptic membrane**: Contains receptors for neurotransmitter
-
-### Steps in Synaptic Transmission
-
-1. **AP arrives** at presynaptic terminal
-2. **Voltage-gated Ca²⁺ channels** open → Ca²⁺ influx
-3. **Ca²⁺ triggers vesicle fusion** with presynaptic membrane
-4. **Neurotransmitter released** into synaptic cleft
-5. **Neurotransmitter binds** to postsynaptic receptors
-6. **Postsynaptic response**: Excitatory (depolarization) or inhibitory (hyperpolarization)
-7. **Neurotransmitter removed**: Reuptake, degradation, diffusion
-
-### Types of Synapses
-
-**Electrical synapses**:
-- Gap junctions (connexons)
-- Direct ionic communication
-- Bidirectional, very fast
-- Found in some CNS neurons, heart, smooth muscle
-
-**Chemical synapses**:
-- Neurotransmitter-mediated
-- Unidirectional
-- Slower but allows amplification and modulation
-- Most synapses in CNS
-
-### Neurotransmitters
-
-**Excitatory neurotransmitters**:
-- **Glutamate**: Major excitatory in CNS; NMDA, AMPA, kainate receptors
-- **Acetylcholine**: At NMJs, autonomic ganglia, CNS
-
-**Inhibitory neurotransmitters**:
-- **GABA**: Major inhibitory in CNS; GABA-A (Cl channel), GABA-B (K channel, Gi)
-- **Glycine**: Major inhibitory in spinal cord; Cl channel
-
-**Others**:
-- **Dopamine**: D1 (excitatory), D2 (inhibitory) - reward, movement
-- **Norepinephrine**: Locus coeruleus - arousal, attention
-- **Serotonin**: Mood, sleep, appetite
-- **Substance P**: Pain transmission
-- **Endorphins**: Pain modulation, pleasure
-
-### Synaptic Integration
-
-**EPSP (Excitatory Postsynaptic Potential)**:
-- Na or Ca influx → depolarization
-- Graded (size proportional to stimulus)
-- Additive (spatial summation)
-- Rapidly decaying
-
-**IPSP (Inhibitory Postsynaptic Potential)**:
-- Cl influx or K efflux → hyperpolarization
-- Graded, additive
-- Can also prevent EPSPs (shunting inhibition)
-
-**Summation**:
-- **Spatial**: Multiple synapses fire simultaneously
-- **Temporal**: Same synapse fires rapidly in succession
-- **Integration**: At axon hillock - determines if AP fires
-
-### Postsynaptic Receptors
-
-**Ionotropic receptors** (ligand-gated ion channels):
-- Fast response (milliseconds)
-- Direct channel opening
-- Examples: NMDA, AMPA (glutamate), GABA-A (Cl), nicotinic ACh (Na)
-
-**Metabotropic receptors** (GPCR):
-- Slower response (seconds to minutes)
-- Second messenger systems
-- Examples: Muscarinic ACh, GABA-B, dopamine receptors
-
-## Neuromuscular Junction
-
-- Motor neuron axon terminal meets skeletal muscle fiber
-- **Motor end plate**: Specialized region of muscle membrane
-- ACh released → binds nAChR → Na influx → end plate potential (EPP)
-- **Miniature EPPs**: Spontaneous vesicle release
-- **Safety factor**: EPP always > threshold → always triggers AP
-- **Myasthenia gravis**: Autoantibodies against AChR → fatigable weakness
-- **Lambert-Eaton**: Antibodies against presynaptic Ca channel → weakness, improves with exercise
-
-## Nerve Conduction Studies
-
-**Latency**: Time from stimulus to response
-**Amplitude**: Size of response
-**Velocity**: Calculated from distance and latency
-**Demyelination**: Slowed conduction, temporal dispersion, prolonged latencies
+- **[View this topic in your FMGE roadmap](/roadmap/?exam=fmge&duration=1mo)** — see where "Nerve Physiology and Synaptic Transmission" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=fmge&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[FMGE exam overview](/exams/fmge/)** — pattern, eligibility, and syllabus
+- **[All Physiology notes](/notes/fmge/physiology/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

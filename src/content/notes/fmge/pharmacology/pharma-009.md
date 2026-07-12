@@ -8,7 +8,7 @@ topicName: "Antimicrobial and Anticancer Pharmacology"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-07-12"
 ---
 
 # Antimicrobial and Anticancer Pharmacology
@@ -16,279 +16,102 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Antimicrobial and Anticancer Pharmacology** — Key Facts for FMGE
-Core concept: Antibiotics work by targeting bacterial-specific processes; chemotherapy agents target rapidly dividing cells with limited selectivity
-High-yield point: Know the key adverse effects of major antibiotic classes and chemotherapeutic agents
-⚡ Exam tip: Vancomycin (nephrotoxicity, red man syndrome), aminoglycosides (ototoxicity, nephrotoxicity), and chemotherapy agents (myelosuppression) are frequently tested
+**Antimicrobial and anticancer pharmacology** covers drugs that kill or suppress microbes (antibacterial, antifungal, antiviral, antiparasitic) and malignant cells, classified by **mechanism of action** rather than by chemical class. The high-yield anchors are below.
+
+> **High-yield anchors**
+> - **Beta-lactams (penicillins, cephalosporins, carbapenems, monobactams)** inhibit **PBPs** and block peptidoglycan cross-linking — bactericidal, **time-dependent**.
+> - **Aminoglycosides** bind the **30S ribosomal subunit**; bactericidal, **concentration-dependent** (high Cmax/MIC).
+> - **Vancomycin** AUC₂₄/MIC target is **400–600 mg·h/L** for MRSA pneumonia.
+> - **Doxorubicin** is limited by **cardiotoxicity** (dexrazoxane rescue); **cisplatin** by **nephrotoxicity** (hydration + amifostine); **bleomycin** by **pulmonary fibrosis**; **vincristine** by **peripheral neuropathy**; **cyclophosphamide** by **haemorrhagic cystitis** (mesna rescue).
+> - **Methotrexate** inhibits **dihydrofolate reductase**; high-dose toxicity rescued by **leucovorin**.
+
+| Drug of choice (must-know) | Indication |
+|---|---|
+| Vancomycin | MRSA, severe Gram-positive |
+| Doxycycline | Rickettsia, Lyme, chlamydia |
+| Amphotericin B | Systemic mycoses, cryptococcal meningitis |
+| Oseltamivir | Influenza A/B |
+| Imatinib | BCR-ABL CML |
+| Trastuzumab | HER2+ breast cancer |
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Antimicrobial and Anticancer Pharmacology** — FMGE Study Guide
-
-## Antibiotics - Detailed
-
-### Beta-Lactams
-
-**Penicillins**:
-- **Benzylpenicillin (Penicillin G)**: Gram-positive cocci (Strep, Staph - but not MRSA), syphilis, meningitis, anaerobic infections; IV/IM; short half-life
-- **Amoxicillin/Ampicillin**: Extended spectrum; respiratory, urinary, H. influenzae, E. coli, Listeria; oral and IV
-- **Piperacillin**: Antipseudomonal; used with tazobactam (Zosyn)
-
-**Mechanism**: β-lactam ring binds PBPs → inhibit cell wall synthesis → bactericidal
-
-**Side effects**:
-- **Hypersensitivity** (most common - 1-10%): Urticaria, anaphylaxis (IgE-mediated), maculopapular rash, serum sickness
-- **Cross-reactivity** between penicillins (10% with cephalosporins)
-- **Diarrhea** (C. difficile)
-- **Nephrotoxicity** (interstitial nephritis)
-
-**Cephalosporins** (generations differ in spectrum):
-- **1st gen** (cefazolin, cephalexin): Gram-positive cocci (skin, soft tissue infections)
-- **2nd gen** (cefuroxime, cefaclor): H. influenzae, M. catarrhalis, some gram-negatives
-- **3rd gen** (ceftriaxone, cefotaxime, ceftazidime): Serious infections, meningitis, sepsis; ceftriaxone once-daily for serious infections; no nephrotoxicity
-- **4th gen** (cefepime): Pseudomonas coverage + gram-positive
-- **5th gen** (ceftaroline): MRSA coverage
-
-**Carbapenems** (imipenem, meropenem, ertapenem):
-- **Imipenem**: Broadest spectrum; combined with cilastatin (prevents renal degradation)
-- **Meropenem**: Better for CNS (crosses BBB)
-- **Ertapenem**: Once daily; not effective against Pseudomonas/Enterococcus
-- **Side effects**: Seizures (imipenem > others), GI upset, hypersensitivity
-
-**Monobactams** (aztreonam):
-- Only gram-negative coverage including Pseudomonas
-- Safe in penicillin-allergic patients (no cross-reactivity)
-- No CNS penetration
-
-### Glycopeptides
-
-**Vancomycin**:
-- **Mechanism**: D-Ala-D-Ala binding (binds peptidoglycan precursor) → cell wall synthesis inhibition
-- **Spectrum**: MRSA, C. difficile (oral), serious gram-positive infections (Staph aureus, Enterococcus)
-- **Side effects**:
-  - **Red man syndrome**: Infusion-related histamine release (histamine ↑ with rapid infusion); prevent by slowing infusion rate, antihistamines
-  - **Nephrotoxicity**: Monitor levels, trough 10-15 μg/mL for serious infections
-  - **Ototoxicity**
-- **Monitor**: Trough levels (efficacy and toxicity)
-- **Dosing**: Given as dose/mg per target levels
-
-**Teicoplanin**: Similar to vancomycin; less infusion reactions
-
-### Aminoglycosides
-
-**Examples**: Gentamicin, tobramycin, amikacin, streptomycin, neomycin
-
-**Mechanism**: Bind 30S ribosome → mRNA misreading → bactericidal
-
-**Spectrum**: Gram-negative aerobes (Pseudomonas, Klebsiella, E. coli, Proteus); given with β-lactams for synergy in serious infections
-
-**Administration**: IV; very poor oral absorption; can be given IM
-
-**Side effects** (concentration-dependent toxicity):
-- **Nephrotoxicity** (most important): Acute tubular necrosis; monitor peaks/troughs
-- **Ototoxicity**: Vestibular (gentamicin - ataxia, vertigo) and cochlear (damage → deafness)
-- **Neuromuscular blockade**: Can cause respiratory paralysis (rare, but dangerous in myasthenia gravis); reversed by calcium or neostigmine
-
-**Monitoring**: Peak and trough levels (trough <2 μg/mL for gentamicin to avoid nephrotoxicity)
-
-**Synergy**: Often combined with β-lactams for enhanced gram-positive coverage (Enterococcus, Staph) and gram-negative coverage
-
-### Macrolides
-
-**Examples**: Erythromycin, azithromycin, clarithromycin
-
-**Mechanism**: Bind 50S ribosome → block translocation → bacteriostatic
-
-**Spectrum**: Gram-positive (Strep, Staph - but not MRSA), atypicals (Mycoplasma, Chlamydia, Legionella), pertussis
-
-**Azithromycin**: Longer half-life; better tolerated; used for community-acquired pneumonia, chlamydia, MAC in AIDS
-
-**Side effects**:
-- **GI distress** (erythromycin - motilin agonist → nausea, diarrhea, abdominal cramps)
-- **Hepatotoxicity** (azithromycin > clarithromycin)
-- **QT prolongation** (all - monitor with other QT-prolonging drugs)
-- **CYP450 inhibition** (erythromycin, clarithromycin > azithromycin) → many drug interactions
-
-### Fluoroquinolones
-
-**Examples**: Ciprofloxacin, levofloxacin, moxifloxacin, ofloxacin
-
-**Mechanism**: Inhibit DNA gyrase and topoisomerase IV → bactericidal
-
-**Spectrum**: Gram-negative (including Pseudomonas - ciprofloxacin), some gram-positive (atypicals), anthrax, bone/joint infections, UTI, prostatitis
-
-**Contraindications**: Children (cartilage damage - tendons), pregnancy, seizure disorder (CNS toxicity)
-
-**Side effects**:
-- **Tendon rupture/damage** (Achilles tendon - black box warning; avoid in patients >60, transplant patients, on corticosteroids)
-- **QT prolongation** (moxifloxacin > levofloxacin > ciprofloxacin)
-- **CNS effects**: Headache, dizziness, confusion, seizures
-- **Photosensitivity**
-- **Cartilage damage** in immature animals - not used in children/pregnancy
-
-### Tetracyclines and Glycylcyclines
-
-**Tetracyclines** (tetracycline, doxycycline, minocycline):
-- **Mechanism**: Bind 30S → block tRNA attachment → bacteriostatic
-- **Spectrum**: Atypicals, Rocky Mountain spotted fever, Lyme disease, cholera, acne
-- **Doxycycline**: Most commonly used; can be used for malaria prophylaxis
-- **Side effects**: Photosensitivity, GI distress, hepatotoxicity (in pregnancy), tooth discoloration in children, antianabolic effect (↑BUN)
-- **Contraindications**: Pregnancy (tooth discoloration, hepatotoxicity), children <8 years (teeth, bone)
-
-**Glycylcyclines** (Tigecycline):
-- **Mechanism**: Overcomes tetracycline resistance (tetM determinant); binds 30S
-- **Broad spectrum**: MRSA, VRE, resistant gram-negatives (Acinetobacter); used for skin/soft tissue and intra-abdominal infections
-- **Side effects**: Nausea, vomiting, photosensitivity
-
-### Lincosamides
-
-**Clindamycin**:
-- **Mechanism**: Binds 50S → bacteriostatic
-- **Spectrum**: Gram-positive cocci (not enterococcus), anaerobes (Bacteroides)
-- **Uses**: Skin/soft tissue, bone/joint, toxoplasmosis, PCP (with pyrimethamine)
-- **Side effect**: **C. difficile colitis** (highest risk among antibiotics - even higher than fluoroquinolones)
-- **Also**: Skin rash, neutropenia
-
-### Oxazolidinones
-
-**Linezolid**:
-- **Mechanism**: Binds 23S rRNA (50S) → bacteriostatic
-- **Spectrum**: MRSA, VRE (drug of choice for VRE infections)
-- **Uses**: Skin/soft tissue infections, pneumonia
-- **Side effects**: Thrombocytopenia (myelosuppression - monitor plt), peripheral neuropathy (with prolonged use >2-4 weeks), serotonin syndrome (MAOI-like)
-- **Note**: Linezolid is a weak MAOI - avoid with serotonergic drugs (SSRI, meperidine)
-
-### Anti-TB Drugs (RIPE)
-
-**Rifampin**:
-- Inhibits DNA-dependent RNA polymerase → bactericidal
-- **Used in**: TB (with other drugs), H. influenzae prophylaxis, Staph infections (prosthetic joints)
-- **Side effects**: Hepatotoxicity, orange body fluids (tears, sweat, urine), drug interactions (CYP450 inducer - decreases many drug levels)
-- **Discoloration**: Warn patients about orange discoloration of body fluids (contact lenses stained)
-
-**Isoniazid (INH)**:
-- Inhibits mycolic acid synthesis → bactericidal (active only in replicating TB)
-- **Side effects**: **Peripheral neuropathy** (give pyridoxine B6 to prevent), **Hepatotoxicity** (age >35 risk), drug-induced lupus, sideroblastic anemia
-- **Metabolism**: Acetylator status affects half-life (slow acetylators = higher risk of toxicity)
-
-**Pyrazinamide**:
-- Mechanism unclear; works in acidic intracellular environment
-- **Side effects**: Hepatotoxicity, hyperuricemia (gout - inhibit uric acid excretion)
-
-**Ethambutol**:
-- Inhibits arabinosyl transferase (cell wall)
-- **Side effects**: **Optic neuritis** (red-green color blindness - check visual acuity and color vision monthly)
-- **Contraindicated**: Children (<6 years - can't report visual changes)
-
-**Streptomycin** (injectable aminoglycoside):
-- **Uses**: Severe TB (especially meningeal - crosses BBB)
-- **Side effects**: Ototoxicity, nephrotoxicity (aminoglycoside class)
-
-### Anti-Malarial Drugs
-
-**Chloroquine**: First-line for susceptible malaria; also for amebic liver abscess
-**Artemisinin derivatives**: First-line for P. falciparum (resistant strains); fast-acting
-**Mefloquine**: P. falciparum resistance areas; also prophylaxis
-**Primaquine**: Radical cure of P. vivax and ovale (eliminates hypnozoites in liver); causes hemolysis in G6PD deficiency (test before giving)
-**Atovaquone-proguanil (Malarone)**: Prophylaxis and treatment; well tolerated
-
-## Anticancer Drugs
-
-### Alkylating Agents
-
-**Nitrogen mustards** (cyclophosphamide, mechlorethamine):
-- Cross-link DNA at guanine N-7 position
-- **Cyclophosphamide**: Active in liver (phosphoramide mustard); hemorrhagic cystitis (acrolein - give mesna to prevent); myelosuppression, SIADH
-- **Side effects**: Myelosuppression, alopecia, nausea, immunosuppression
-
-**Platinum compounds** (cisplatin, carboplatin, oxaliplatin):
-- **Cisplatin**: Testicular, ovarian, lung, bladder cancer; nephrotoxicity (prevent with aggressive hydration), ototoxicity (high-frequency hearing loss), peripheral neuropathy
-- **Carboplatin**: Less nephrotoxic, less neurotoxic; more myelosuppressive
-- **Oxaliplatin**: Colorectal cancer; neurotoxicity (acute neuropathy with cold sensitivity)
-
-**Alkyl sulfonates** (busulfan): CML; pulmonary fibrosis, hyperpigmentation
-
-### Antimetabolites
-
-**Methotrexate**:
-- **Mechanism**: Folate analog → inhibits dihydrofolate reductase → blocks DNA synthesis
-- **Uses**: Leukemia, lymphoma, solid tumors, ectopic pregnancy (medical abortion), autoimmune diseases (RA, psoriasis, IBD)
-- **Side effects**: Myelosuppression, mucositis, hepatotoxicity, nephrotoxicity (crystalluria in renal tubules), pulmonary fibrosis
-- **Rescue**: Leucovorin (folinic acid) "rescues" from toxicity (bypasses DHFR block); also given with high-dose MTX
-
-**5-Fluorouracil (5-FU)**:
-- Inhibits thymidylate synthase → ↓DNA synthesis
-- **Side effects**: Myelosuppression, mucositis, hand-foot syndrome (palmar-plantar erythrodysesthesia)
-
-**Cytarabine (Ara-C)**:
-- Incorporates into DNA and inhibits polymerase
-- **Uses**: AML (drug of choice), lymphoma
-- **Side effects**: Myelosuppression, cerebellar toxicity (at high doses)
-
-**6-Mercaptopurine (6-MP), 6-Thioguanine**:
-- Purine analogs; used in ALL
-- **Side effects**: Myelosuppression, hepatotoxicity
-- **Metabolism**: Xanthine oxidase; allopurinol ↑toxicity (must reduce 6-MP dose by 50-75% if given with allopurinol)
-
-### Plant Alkaloids
-
-**Vinca alkaloids** (vincristine, vinblastine):
-- **Mechanism**: Inhibit microtubule polymerization → arrest in metaphase
-- **Vincristine**: Lymphomas, leukemias, solid tumors; neurotoxicity (peripheral neuropathy - most limiting)
-- **Vinblastine**: Testicular cancer, Hodgkin lymphoma; less neurotoxic but more myelosuppressive
-- **Side effects**: Neurotoxicity, myelosuppression, alopecia
-
-**Taxanes** (paclitaxel, docetaxel):
-- **Mechanism**: Stabilize microtubules → prevent depolymerization → arrest cell division
-- **Uses**: Breast, ovarian, lung cancer
-- **Side effects**: Myelosuppression, hypersensitivity reactions (paclitaxel - requires premedication with steroids and antihistamines), peripheral neuropathy, fluid retention (docetaxel)
-
-### Topoisomerase Inhibitors
-
-**Anthracyclines** (doxorubicin, daunorubicin, epirubicin):
-- **Mechanism**: Inhibit topoisomerase II → DNA damage
-- **Uses**: Breast cancer, Hodgkin lymphoma (ABVD), leukemia, sarcoma
-- **Side effects**: **Cardiotoxicity** (cumulative, dose-related dilated cardiomyopathy - avoid >450 mg/m²); myelosuppression, alopecia, nausea
-- **Cardiotoxicity prevention**: Dexrazoxane (iron chelator)
-
-**Etoposide**:
-- Inhibits topoisomerase II
-- **Uses**: Testicular cancer, small cell lung cancer, lymphoma
-- **Side effects**: Myelosuppression, alopecia, nausea, secondary leukemia
-
-### Other Chemotherapy Agents
-
-**Bleomycin**:
-- Generates free radicals → DNA strand breaks
-- **Uses**: Hodgkin lymphoma (ABVD), testicular cancer, squamous cell cancers
-- **Side effects**: **Pulmonary fibrosis** (dose-limiting - especially in older patients or with high O2 exposure); skin toxicity, mucositis
-
-**Asparaginase**:
-- Depletes asparagine → leukemic cell death (can't synthesize asparagine)
-- **Uses**: ALL
-- **Side effects**: Pancreatitis, coagulopathy (↓synthetic function → bleeding/thrombosis), hypersensitivity, hyperglycemia
-
-### Common Toxicities of Chemotherapy
-
-**Myelosuppression** (most common - dose-limiting for many agents):
-- Neutropenia → infection risk
-- Thrombocytopenia → bleeding risk
-- Anemia → fatigue, dyspnea
-
-**Nausea and vomiting** (chemoreceptor trigger zone):
-- Acute (within 24h): 5-HT3 antagonists, steroids
-- Delayed: NK1 antagonists, steroids
-
-**Alopecia**: Anthracyclines, cyclophosphamide, etoposide; cold caps may prevent (vasoconstriction to scalp)
-
-**Immunosuppression**: Many agents
-
-**Secondary malignancies**: Alkylating agents, etoposide (secondary AML)
-
-**Gonadal dysfunction**: Many agents (especially alkylators) → infertility
+#### Classification by mechanism
+Antimicrobials are grouped by target. **Cell-wall inhibitors** (beta-lactams, glycopeptides) are bactericidal and **time-dependent** — efficacy tracks the percentage of the dosing interval that free drug exceeds the MIC. **Protein-synthesis inhibitors** include aminoglycosides (30S, concentration-dependent, post-antibiotic effect), macrolides and clindamycin (50S), tetracyclines (30S), and linezolid (50S, binds 23S rRNA). **Nucleic-acid inhibitors** are fluoroquinolones (DNA gyrase/topoisomerase IV) and rifampicin (RNA polymerase). **Folate antagonists** (sulfonamides, trimethoprim) act sequentially on dihydropteroate and dihydrofolate reductases.
+
+#### Beta-lactamase inhibitors
+Clavulanic acid (with amoxicillin), sulbactam (with ampicillin) and tazobactam (with piperacillin) bind and neutralise many serine beta-lactamases. They do **not** cover carbapenemases, AmpC, or most ESBLs — a routine exam trap.
+
+#### Resistance mechanisms
+Bacteria evade drugs via **enzymatic inactivation** (beta-lactamases, aminoglycoside-modifying enzymes), **target modification** (PBP2a in MRSA, 23S rRNA mutation in linezolid resistance), **efflux pumps** (tetracyclines, fluoroquinolones), **reduced permeability**, and **target bypass** (sul1/dhfr in trimethoprim resistance).
+
+#### Anticancer drug groups
+- **Alkylating agents** (cyclophosphamide, cisplatin, busulfan) crosslink DNA — **CCNS**.
+- **Antimetabolites** (methotrexate, 5-FU, 6-MP) are **CCS** (S-phase).
+- **Vinca alkaloids** (vincristine) prevent microtubule polymerisation; **taxanes** (paclitaxel) prevent depolymerisation — both arrest **M phase**.
+- **Anthracyclines** (doxorubicin) generate free radicals and inhibit **topoisomerase II**.
+- **Targeted therapy**: **imatinib** is a BCR-ABL tyrosine kinase inhibitor; **trastuzumab** is an anti-HER2 monoclonal antibody.
+
+#### Pharmacokinetic formulas
+- **MIC** = lowest drug concentration (mg/L) that visibly inhibits growth under standardised CLSI/EUCAST broth microdilution.
+- **MBC** = lowest concentration killing ≥99.9% (3-log₁₀ CFU/mL) on subculture.
+- **FICI** = (MIC_A combo / MIC_A alone) + (MIC_B combo / MIC_B alone); **≤0.5 synergy, >0.5–1 additive, 1–4 indifferent, >4 antagonism**.
+- **Mosteller BSA** (m²) = √[(height_cm × weight_kg) / 3600] — used to dose antineoplastics.
+- **Cockcroft-Gault CrCl** (mL/min) = [(140 − age) × weight_kg] / (72 × sCr_mg/dL); multiply by **0.85** if female — guides renally cleared antimicrobials.
+
+#### High-yield drug interactions
+| Drug | Interaction | Effect |
+|---|---|---|
+| Rifampicin | CYP450 **inducer** | Lowers OCP, warfarin, protease inhibitor levels |
+| Azoles (ketoconazole) | CYP3A4 **inhibitor** | Raises tacrolimus, warfarin, statin levels |
+| Fluoroquinolones + Ca²⁺/Mg²⁺/Fe²⁺ | Chelation | Reduced absorption |
+| Aminoglycosides + loop diuretics | Additive | Ototoxicity |
+| Methotrexate + NSAIDs/TMP | Reduced clearance | Marrow and mucosal toxicity |
+
+> **Mnemonic — CYP450 inducers**: *"**CRAP GPS**"* — **C**arbamazepine, **R**ifampicin, **A**lcohol (chronic), **P**henytoin, **G**riseofulvin, **P**henobarbital, **S**t John's wort.
+
+---
+
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
+
+#### Pharmacodynamic refinements
+Beta-lactams and vancomycin exhibit **time-dependent killing**: optimise by **prolonged or continuous infusion**, not by raising the dose. Aminoglycosides and fluoroquinolones show **concentration-dependent killing** with a **post-antibiotic effect** — once-daily high-dose regimens maximise Cmax/MIC and reduce adaptive resistance. Trough monitoring matters: vancomycin troughs >15–20 mg/L sharply raise **nephrotoxicity** without proportional efficacy gains, hence the shift to AUC-guided dosing (400–600 mg·h/L for MRSA pneumonia).
+
+#### Resistance phenotypes you must recognise
+- **MRSA** — mecA-mediated PBP2a; treated with vancomycin, linezolid, daptomycin, ceftaroline.
+- **VRE** — vanA/vanB ligases altering peptidoglycan precursors; **linezolid** or **daptomycin** are first-line.
+- **ESBL producers** — hydrolyse penicillins, aztreonam, and most cephalosporins; carbapenems remain the gold standard, though **piperacillin-tazobactam** is acceptable for non-severe infections.
+- **Carbapenem-resistant Enterobacterales (CRE)** — require **polymyxins, tigecycline, ceftazidime-avibactam**, or meropenem-vaborbactam depending on the resistance mechanism.
+
+#### Anticancer toxicity mapping
+| Drug | Dose-limiting toxicity | Preventer / rescue |
+|---|---|---|
+| Doxorubicin | Cardiotoxicity (free-radical, topo II) | Dexrazoxane, lifetime cumulative dose ≤450 mg/m² |
+| Cisplatin | Nephrotoxicity, ototoxicity | Saline hydration, amifostine |
+| Bleomycin | Pulmonary fibrosis | Baseline DLCO, avoid FiO₂ >0.4 intra-op |
+| Vincristine | Peripheral neuropathy | Stop drug; no marrow suppression |
+| Methotrexate (high dose) | Myelosuppression, mucositis | **Leucovorin** rescue |
+| Cyclophosphamide | Haemorrhagic cystitis (acrolein) | **Mesna** + hydration |
+
+#### Combination chemotherapy logic
+Drugs are combined to (a) hit **different cell-cycle phases** (CCS + CCNS), (b) achieve **synergistic FICI ≤0.5**, and (c) avoid overlapping toxicities. **Adjuvant** therapy targets micrometastases after definitive surgery; **neoadjuvant** therapy downsizes tumours before surgery. The CHOP regimen (Cyclophosphamide, Hydroxydaunorubicin/doxorubicin, Oncovin/vincristine, Prednisone) for non-Hodgkin lymphoma is a classic FMGE-tested combination.
+
+#### Practice prompts
+1. A patient on warfarin is prescribed **metronidazole** for *C. difficile* colitis. What happens to INR, and how would you manage it?
+2. A 55-year-old receives high-dose **methotrexate** for osteosarcoma. List three supportive measures that prevent nephrotoxicity and explain why **leucovorin** must be timed correctly.
+
+---
+
+## Continue your study
+
+- **[View this topic in your FMGE roadmap](/roadmap/?exam=fmge&duration=1mo)** — see where "Antimicrobial and Anticancer Pharmacology" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=fmge&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[FMGE exam overview](/exams/fmge/)** — pattern, eligibility, and syllabus
+- **[All Pharmacology notes](/notes/fmge/pharmacology/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

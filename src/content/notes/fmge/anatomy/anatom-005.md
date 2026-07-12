@@ -8,61 +8,97 @@ topicName: "Head and Neck — Skull, Cranial Nerves (V, VII, IX, X, XI, XII), Fa
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-07-12"
 ---
 
 # Head and Neck — Skull, Cranial Nerves (V, VII, IX, X, XI, XII), Face, and Neck Triangles
 
-## Skull — Vault, Base, Foramina, and Key Sutures
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
 
-The skull consists of the calvaria (the vault protecting the brain) and the cranial base (the floor on which the brain rests). The calvaria is formed by the frontal bone, the two parietal bones, the two temporal bones, the occipital bone, the sphenoid, and the ethmoid. The major sutures of the calvaria are the coronal suture (between the frontal and parietal bones), the sagittal suture (between the two parietal bones), the lambdoid suture (between the parietal and occipital bones), and the squamous suture (between the temporal and parietal bones).
+The **skull** has 22 bones: 8 forming the **neurocranium** (frontal, 2 parietal, 2 temporal, occipital, sphenoid, ethmoid) and 14 forming the **viscerocranium** (facial skeleton). Six cranial nerves mediate head-and-neck function: **V (trigeminal)** — sensation of face, motor to muscles of mastication via V3; **VII (facial)** — muscles of facial expression, taste anterior 2/3 tongue; **IX (glossopharyngeal)** — sensation/taste posterior 1/3 tongue, parotid secretion; **X (vagus)** — pharynx, larynx, parasympathetic to viscera up to splenic flexure; **XI (accessory)** — SCM and trapezius; **XII (hypoglossal)** — all tongue muscles except palatoglossus.
 
-The **pterion** is an H-shaped region at the junction of the frontal, parietal, greater wing of sphenoid, and temporal bones. It overlies the anterior branch of the middle meningeal artery, making it a critical surgical landmark. An extradural hematoma — blood accumulating between the skull and dura — can result from fracture of the temporal bone disrupting the middle meningeal artery, forming a lens-shaped (biconvex) collection that causes rapid mass effect and midline shift.
+| Nerve | Exit Foramen | One-line Clinical Tie |
+|---|---|---|
+| V1 ophthalmic | Superior orbital fissure | Corneal reflex afferent |
+| V2 maxillary | Foramen rotundum | Trigeminal neuralgia |
+| V3 mandibular | Foramen ovale | Motor to mastication |
+| VII | Stylomastoid foramen | Bell's palsy |
+| IX, X, XI | Jugular foramen | Jugular foramen syndrome |
+| XII | Hypoglossal canal | Tongue deviates to lesion |
 
-The **skull base** contains several important foramina that serve as conduits for cranial nerves and blood vessels. The **foramen magnum** — the largest foramen — transmits the medulla oblongata, the vertebral arteries, the spinal accessory nerve (CN XI), and the meninges. The ** cribriform plate** of the ethmoid transmits the olfactory nerves (CN I) from the nasal mucosa to the olfactory bulb. The ** optic canal** transmits the optic nerve (CN II) and the ophthalmic artery. The **superior orbital fissure** — between the greater and lesser wings of the sphenoid — transmits CN III (oculomotor), CN IV (trochlear), V1 (ophthalmic division of trigeminal), and CN VI (abducens). The **foramen rotundum** transmits V2 (maxillary division of trigeminal). The **foramen ovale** transmits V3 (mandibular division of trigeminal). The **foramen spinosum** — a small opening posterolateral to foramen ovale — transmits the middle meningeal artery. The **internal acoustic meatus** transmits CN VII (facial) and CN VIII (vestibulocochlear). The **jugular foramen** transmits CN IX (glossopharyngeal), CN X (vagus), CN XI (spinal accessory), and the sigmoid sinus (becoming the internal jugular vein). The **hypoglossal canal** transmits CN XII (hypoglossal).
+The **sternocleidomastoid** divides the neck into anterior and posterior triangles — asked in nearly every FMGE paper.
 
-## The Trigeminal Nerve (CN V) — Divisions, Nuclei, and Clinical Testing
+---
 
-The trigeminal nerve is the largest cranial nerve, carrying both sensory and motor fibers. It emerges from the ventrolateral surface of the pons as a sensory root and a smaller motor root. The sensory ganglia (containing cell bodies of sensory neurons) lie in Meckel's cave — a dural pouch on the petrous apex. The nerve divides into three divisions:
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-**V1 — Ophthalmic nerve** enters the orbit via the superior orbital fissure, divides into the lacrimal, frontal, and nasociliary nerves, and provides sensory innervation to the eye (cornea, conjunctiva), upper eyelid, forehead, nose, and anterior scalp. **V2 — Maxillary nerve** exits the skull via foramen rotundum, traverses the pterygopalatine fossa, and gives branches to the cheek, upper teeth, maxillary sinus, and palate. **V3 — Mandibular nerve** exits via foramen ovale, is the only division with motor fibers, and supplies the muscles of mastication (masseter, temporalis, medial and lateral pterygoids), mylohyoid, anterior belly of digastric, and the tensor tympani and tensor veli palatini.
+#### Skull Base Foramina and Their Contents
+The cranial cavity is floored by three fossae (anterior, middle, posterior). Each transmits nerves and vessels that FMGE links to surgical injury.
 
-The sensory nuclei of CN V are the principal sensory nucleus (touch — mid-pons), the spinal nucleus of V (pain and temperature — extends down to C2 spinal level), and the mesencephalic nucleus (proprioception from masticatory muscles and teeth). The motor nucleus — the masticator nucleus — lies in the pons and is served by V3.
+| Foramen | Structures Passing |
+|---|---|
+| Optic canal | CN II, ophthalmic artery |
+| Superior orbital fissure | CN III, IV, V1, VI |
+| Foramen rotundum | CN V2 |
+| Foramen ovale | CN V3, accessory meningeal artery |
+| Foramen spinosum | Middle meningeal artery |
+| Jugular foramen | CN IX, X, XI, internal jugular vein |
+| Hypoglossal canal | CN XII |
+| Foramen magnum | Medulla, vertebral arteries, CN XI (spinal root) |
 
-**Clinical correlations:** Trigeminal neuralgia (tic douloureux) is characterized by lancinating, electric shock-like pain in the distribution of one or more divisions of CN V, typically V2 or V3. It may be triggered by touch, chewing, or speaking and is more common in older adults. Multiple sclerosis and microvascular compression of the root are known causes. Herpes zoster ophthalmicus (V1) can cause corneal scarring and post-herpetic neuralgia. The corneal reflex — blinking when the cornea is touched — tests V1 (afferent limb) and VII (efferent limb — motor response). Absence indicates V1 or VII damage.
+#### Trigeminal (V) — Divisions and Functions
+V1 and V2 are purely sensory. V3 carries sensation to the lower face plus motor fibres to the **muscles of mastication** (masseter, temporalis, medial and lateral pterygoids) plus tensor tympani, tensor veli palatini, mylohyoid, and anterior belly of digastric. Mnemonic: **"M's eat"** — Masseter, Medial pterygoid (Mandibular division also has Mylohyoid, tensor muscles).
 
-## The Facial Nerve (CN VII) — Intracranial Course, Branches, and Clinical Syndromes
+#### Facial Nerve (VII) — Branches and Palsy Patterns
+After exiting the stylomastoid foramen, VII gives five motor branches to the face: **Temporal, Zygomatic, Buccal, Marginal mandibular, Cervical** — "**To Zanzibar By Motor Car**". Parasympathetic branches include greater petrosal (to pterygopalatine ganglion, lacrimation) and chorda tympani (to submandibular ganglion, submandibular/sublingual salivation + taste).
 
-The facial nerve has the longest intracranial course of any cranial nerve. It arises at the cerebellopontine angle, enters the internal acoustic meatus alongside CN VIII, and travels within the facial canal of the petrous temporal bone before exiting at the stylomastoid foramen.
+> **Upper vs Lower Motor Neuron (UMN vs LMN) facial palsy** — Forehead is spared in UMN lesions (bilateral cortical input) but involved in LMN lesions like Bell's palsy. FMGE almost always frames this as a clinical MCQ.
 
-Within the facial canal, it gives off four important branches in sequence. The **greater petrosal nerve** — the first branch — carries parasympathetic fibers to the lacrimal gland and nasal and palatine glands (via the pterygopalatine ganglion). The **nerve to stapedius** innervates the stapedius muscle, which dampens ossicular vibrations; paralysis causes hyperacusis (sounds appear abnormally loud). The **chorda tympani** carries taste sensation from the anterior two-thirds of the tongue (via the lingual nerve), and parasympathetic fibers to the submandibular and sublingual glands (via the submandibular ganglion). After exiting the stylomastoid foramen, the facial nerve divides into its terminal motor branches — the temporal, zygomatic, buccal, marginal mandibular, and cervical branches — which innervate the muscles of facial expression.
+#### Neck Triangles
+The **anterior triangle** is bounded by the anterior border of SCM, the mandible, and the midline. Its subdivisions — **muscular, carotid, submandibular, submental, digastric** — house the carotid sheath, thyroid gland, and submandibular gland.
 
-**Clinical correlations:** Bell's palsy — idiopathic acute facial nerve palsy — is the most common cause of unilateral facial paralysis. It causes weakness of the entire hemiface including the forehead (LMN pattern), eye closure difficulty (lagophthalmos), loss of the nasolabial fold, and deviation of the mouth toward the unaffected side. Ramsay Hunt syndrome — reactivation of varicella-zoster virus in the geniculate ganglion — causes facial palsy plus vesicles in the external ear (otic) and may involve CN VIII. Upper motor neuron facial palsy (from stroke) spares the forehead because the upper face receives bilateral cortical innervation. Lesions in the internal acoustic meatus or facial canal affect hearing (CN VIII involvement) and tearing (greater petrosal nerve involvement).
+The **posterior triangle** is bounded by the posterior border of SCM, the anterior border of trapezius, and the middle third of the clavicle. Contents include the **spinal accessory nerve (CN XI), brachial plexus roots, cervical plexus, subclavian artery (3rd part), subclavian vein, and cervical lymph nodes**.
 
-## Cranial Nerves IX, X, XI, and XII — Pharyngeal and Visceral Functions
+---
 
-**Glossopharyngeal nerve (CN IX)** carries sensory fibers from the posterior third of the tongue (taste via the glossopharyngeal branches), the pharynx, the middle ear, and the carotid body and sinus (baroreceptor and chemoreceptor information). It provides motor innervation to the stylopharyngeus muscle (the only muscle it innervates), which elevates the pharynx during swallowing. Parasympathetic fibers go to the parotid gland via the otic ganglion (with V3 as the post-ganglionic carrier). The glossopharyngeal nerve exits the skull via the jugular foramen, where its sensory ganglia (superior and inferior) are located.
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-**Vagus nerve (CN X)** is the longest cranial nerve and the major parasympathetic nerve. It exits the skull via the jugular foramen with CN IX and XI. In the neck, it runs within the carotid sheath (common/internal carotid artery and internal jugular vein). Its cervical branches include the auricular nerve (external ear sensation), the pharyngeal branch (motor to pharyngeal muscles via the pharyngeal plexus), the superior laryngeal nerve (divides into external laryngeal nerve — innervating the cricothyroid — and internal laryngeal nerve — sensory to larynx above the vocal cords), the recurrent laryngeal nerves (innervating all intrinsic laryngeal muscles except cricothyroid; the left loops under the aortic arch, the right under the right subclavian artery), and cardiac branches (slow the heart rate).
+#### Edge Cases and Trap Questions
+**Recurrent laryngeal nerve asymmetry:** The right recurrent laryngeal loops around the right subclavian artery; the left loops around the arch of the aorta near the ligamentum arteriosum. During thyroidectomy, the left nerve is more vulnerable because of its longer course. Injury produces a **cadaveric (midline) vocal cord** and hoarseness — bilateral injury causes stridor and aphonia.
 
-**Spinal accessory nerve (CN XI)** is purely motor. It has two components: a cranial component from the medulla that joins the vagus, and a spinal component from the upper cervical spinal cord (C1–C5) that ascends through the foramen magnum and exits via the jugular foramen. The spinal component innervates the sternocleidomastoid and trapezius muscles. It crosses the posterior triangle of the neck superficially before entering the sternocleidomastoid, making it vulnerable during lymph node biopsies in this region.
+**Spinal vs cranial accessory root:** Only the **spinal root of XI** supplies SCM and trapezius. The cranial root joins the vagus and rides with it to innervate laryngeal muscles. A classic MCQ: sectioning CN XI in the posterior triangle paralyzes trapezius, producing a **drooping shoulder** and inability to shrug against resistance.
 
-**Hypoglossal nerve (CN XII)** is also purely motor, innervating all intrinsic and extrinsic tongue muscles except the palatoglossus. It exits via the hypoglossal canal and descends in the neck, first lateral to the carotid sheath, then medial to it. In the posterior triangle, it hooks around the occipital artery and runs on the lateral surface of the external and internal carotid arteries before entering the tongue.
+**Hypoglossal lesion sign:** A lower motor neuron XII lesion causes the tongue to deviate **toward the lesion** on protrusion because the unopposed contralateral genioglossus pushes the tip across the midline. Upper motor neuron lesions (above the hypoglossal nucleus, e.g., cortical stroke) deviate the tongue **away** from the lesion.
 
-**Clinical correlations:** CN IX damage causes loss of the gag reflex and taste disturbance on the posterior tongue. CN X damage — especially the recurrent laryngeal branch — causes hoarseness (unilateral palsy) or aspiration (bilateral palsy). Bilateral vagal injury causes profound bradycardia and can cause cardiac arrest. CN XI damage causes inability to shrug the shoulder (trapezius weakness) and difficulty turning the head away from the affected side (sternocleidomastoid weakness). CN XII damage causes ipsilateral tongue deviation toward the affected side (because genioglossus pushes the tongue toward the opposite side).
+#### Connections to Adjacent Topics
+- **Cavernous sinus:** CN III, IV, V1, V2, and VI pass through its lateral wall or sinus itself — linking this topic to cavernous sinus thrombosis (often tested with the same image).
+- **Parotid gland surgery:** The facial nerve divides within the parotid into temporofacial and cervicofacial trunks — iatrogenic injury here is the most common cause of iatrogenic facial palsy.
+- **Frey's syndrome (gustatory sweating):** Aberrant parasympathetic regrowth of auriculotemporal nerve fibres to sweat glands after parotidectomy — sweating over the preauricular region while eating.
 
-## Face — Muscles of Facial Expression and Muscles of Mastication
+#### Worked Micro-Example
+A 45-year-old woman undergoes total thyroidectomy. Post-op she is hoarse; flexible laryngoscopy shows the left vocal cord fixed in the midline. **Lesion:** Left recurrent laryngeal nerve, coursing in the tracheoesophageal groove, injured during ligation of the inferior thyroid artery. **Mechanism:** All intrinsic laryngeal muscles except cricothyroid are paralyzed; the cord adopts a paramedian/cadaveric position.
 
-All muscles of facial expression are derived from the second pharyngeal arch and are innervated by CN VII (facial nerve). They insert into skin or other facial muscles rather than bone, allowing fine facial movements. Key muscles include the **orbicularis oculi** (closes the eye — weakness causes lagophthalmos and exposure keratopathy), **orbicularis oris** (closes the mouth and purses the lips — weakness causes drooling and dysarthria), **buccinator** (keeps food between the teeth during mastication and allows cheek blowing — weakness causes food accumulation), the **zygomaticus major and minor** (pull the corner of the mouth upward — smiling muscles), **levator labii superioris** (elevates the upper lip), **risorius** (draws the corner of the mouth laterally), and the **frontalis** (elevates the eyebrows — tested by asking the patient to raise eyebrows).
+#### Common Mistakes (FMGE-specific)
+1. Saying **palatoglossus is supplied by XII** — it is supplied by the vagus via pharyngeal plexus.
+2. Forgetting that **vagus parasympathetics reach only the splenic flexure**; beyond that, pelvic splanchnics (S2–S4) take over.
+3. Listing the **external jugular vein as a content** of the posterior triangle — it is a superficial landmark crossing the triangle but lies in the superficial fascia.
+4. Assuming Bell's palsy spares the forehead — it does **not**; forehead involvement is the hallmark of LMN VII lesion.
 
-The **muscles of mastication** — all innervated by V3 — are the masseter, temporalis, medial pterygoid, and lateral pterygoid. They close the jaw, protrude the mandible (medial and lateral pterygoids), and move the mandible sideways (pterygoids on one side produce lateral movements). The lateral pterygoid also opens the jaw (assisted by the digastric, mylohyoid, and geniohyoid).
+#### Practice Prompts
+1. A patient cannot shrug the right shoulder against resistance and cannot turn the head to the left. Which nerve is injured, and where is the most likely site of lesion?
+2. A patient with left UMN facial palsy presents with right-sided hemiparesis. Why is the forehead spared on the left, and which lesion location explains this dissociation?
 
-**Clinical correlations:** UMN facial palsy (stroke) spares the forehead; LMN facial palsy (Bell's palsy) affects the entire hemiface. The muscles of mastication are tested by asking the patient to clench the teeth — the masseter and temporalis can be palpated. In trigeminal nerve damage (V3), the jaw deviates toward the affected side when opened (because the lateral pterygoid on the opposite side is unopposed).
+---
 
-## Neck Triangles — Anterior and Posterior
+## Continue your study
 
-The **anterior triangle of the neck** is bounded by the anterior border of the sternocleidomastoid (posterior), the midline of the neck (anterior), and the superior border of the mandible (superior). It is subdivided into four smaller triangles: the **submandibular triangle** (bounded by the mandible, anterior belly of digastric, and posterior belly of digastric — contains the submandibular gland, submandibular lymph nodes, and the facial artery and vein), the **submental triangle** (bounded by both anterior bellies of digastric and the chin — contains the submental lymph nodes), the **carotid triangle** (bounded by the sternocleidomastoid, posterior belly of digastric, and omohyoid — contains the carotid sheath and its contents, the internal jugular vein, CN XII, and the hypoglossal nerve), and the **muscular triangle** (bounded by the sternocleidomastoid, omohyoid, and midline — contains the strap muscles of the neck and the thyroid and parathyroid glands).
+- **[View this topic in your FMGE roadmap](/roadmap/?exam=fmge&duration=1mo)** — see where "Head and Neck — Skull, Cranial Nerves (V, VII, IX, X, XI, XII), Face, and Neck Triangles" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=fmge&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[FMGE exam overview](/exams/fmge/)** — pattern, eligibility, and syllabus
+- **[All Anatomy notes](/notes/fmge/anatomy/)** — browse sibling topics in this subject
 
-The **posterior triangle of the neck** is bounded by the posterior border of the sternocleidomastoid (anterior), the anterior border of the trapezius (posterior), and the middle third of the clavicle (inferior). It is subdivided by the omohyoid muscle into the occipital triangle (superior) and the supraclavicular (omoclavicular or subclavian) triangle (inferior — most clinically significant). The posterior triangle contains the spinal accessory nerve (CN XI) crossing the triangle superficially at the posterior border of sternocleidomastoid — this is the nerve at risk during cervical lymph node biopsies. It also contains the brachial plexus (emerging between the anterior and middle scalene muscles), the transverse cervical artery, the external jugular vein, and the supraclavicular lymph nodes.
-
-**Clinical correlations:** Ludwig's angina — a rapidly spreading infection of the submandibular space — presents as a firm, brawny swelling of the floor of the mouth and can cause life-threatening airway obstruction. The posterior triangle is a common site for scalene muscle block (for brachial plexus anesthesia) and supraclavicular approach to the brachial plexus. Injury to the spinal accessory nerve in the posterior triangle causes weakness of shoulder elevation and rotation, with winging of the scapula.
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

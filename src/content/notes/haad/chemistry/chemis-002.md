@@ -8,201 +8,108 @@ topicName: "IUPAC Nomenclature of Organic Compounds"
 weight: 3
 country: uae
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-07-12"
 ---
 
 # IUPAC Nomenclature of Organic Compounds
 
-The naming of organic compounds is governed by a systematic set of rules established by the **International Union of Pure and Applied Chemistry (IUPAC)**. For healthcare professionals — particularly pharmacists and laboratory scientists preparing for the HAAD examination — correct IUPAC nomenclature is not an academic exercise: it is a professional necessity. Medication errors, miscommunication in clinical settings, and dangerous confusion between similarly named drugs can have life-threatening consequences. Understanding how to name and identify organic compounds correctly is therefore an essential competency. This chapter provides a comprehensive guide to IUPAC nomenclature for the major classes of organic compounds tested on the HAAD examination.
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
 
-## The IUPAC Naming System: A Step-by-Step Approach
+Every HAAD organic-chemistry question that asks "name this" or "draw this" is solved by four moves: pick the **parent chain**, **number** it, name the **substituents**, and attach the correct **functional-group suffix**.
 
-The IUPAC name for any organic compound is constructed from three components:
+- **Parent chain** = longest continuous carbon chain that contains the **principal characteristic group**. Root names scale with carbon count: C1 meth-, C2 eth-, C3 prop-, C4 but-, C5 pent-, C6 hex-, C7 hept-, C8 oct-.
+- **Suffix priority (descending):** carboxylic acid > ester > amide > nitrile > aldehyde > ketone > alcohol > amine. The senior group becomes the suffix; everything else becomes a prefix.
+- **Numbering rule:** lowest locant set at the first point of difference. Give the principal group the lowest locant; in hydrocarbons, give the lowest locant to the first point of unsaturation (double/triple bond).
 
-**1. Parent (root):** Identifies the longest carbon chain or the parent structure (e.g., meth- = 1 carbon, eth- = 2 carbons, prop- = 3 carbons, but- = 4 carbons, pent- = 5 carbons, hex- = 6 carbons, hept- = 7 carbons, oct- = 8 carbons, non- = 9 carbons, dec- = 10 carbons).
-
-**2. Suffix:** Indicates the principal functional group present in the compound (e.g., -ane = alkane/saturated hydrocarbon, -ene = alkene/double bond, -yne = alkyne/triple bond, -ol = alcohol/hydroxyl group, -al = aldehyde, -one = ketone, -oic acid = carboxylic acid, -amine = amino group, etc.).
-
-**3. Prefixes:** Identify substituents (branches or functional groups that are not the principal functional group) with their positions on the parent chain, listed in alphabetical order (e.g., methyl-, ethyl-, chloro-, bromo-, nitro-, hydroxy-).
-
-### Step-by-Step Procedure for Naming
-
-1. **Identify all functional groups** in the molecule
-2. **Determine the principal functional group** (highest priority according to the IUPAC priority table)
-3. **Select the parent structure** — the longest carbon chain containing the principal functional group
-4. **Number the chain** to give the principal functional group the lowest possible number; if there is a tie, number to give other functional groups or multiple bonds the lowest numbers
-5. **Identify and name substituents** (alkyl groups, halogens, nitro groups, etc.)
-6. **Assemble the name** — substituent names (in alphabetical order) + parent name + suffix
-
-## Priority of Functional Groups
-
-When a compound contains more than one functional group, the group with the highest priority determines the suffix. The order from highest to lowest priority (selected):
-
-1. Carboxylic acids (–COOH) — suffix: -oic acid
-2. Anhydrides — suffix: -oic anhydride
-3. Esters (–COOR) — suffix: -oate
-4. Acid halides (–COCl) — suffix: -oyl chloride
-5. Amides (–CONH₂) — suffix: -amide
-6. Nitriles (–CN) — suffix: -nitrile
-7. Aldehydes (–CHO) — suffix: -al
-8. Ketones (–C=O) — suffix: -one
-9. Alcohols (–OH) — suffix: -ol
-10. Amines (–NH₂) — suffix: -amine
-11. Alkenes (C=C) — suffix: -ene
-12. Alkynes (C≡C) — suffix: -yne
-13. Halides (–Cl, –Br, –I) — prefix: halo-
-14. Nitro groups (–NO₂) — prefix: nitro-
-15. Ethers (–O–) — named as alkoxy- prefix
-
-## Nomenclature of Alkanes and Alkyl Groups
-
-### Straight-Chain Alkanes
-| Carbon Atoms | Name | Formula |
+| n (carbons) | Root | Saturated formula |
 |---|---|---|
-| 1 | Methane | CH₄ |
-| 2 | Ethane | C₂H₆ |
-| 3 | Propane | C₃H₈ |
-| 4 | Butane | C₄H₁₀ |
-| 5 | Pentane | C₅H₁₂ |
-| 6 | Hexane | C₆H₁₄ |
-| 7 | Heptane | C₇H₁₆ |
-| 8 | Octane | C₈H₁₈ |
-| 9 | Nonane | C₉H₂₀ |
-| 10 | Decane | C₁₀H₂₂ |
+| 1 | meth- | CH₄ |
+| 2 | eth- | C₂H₆ |
+| 3 | prop- | C₃H₈ |
+| 4 | but- | C₄H₁₀ |
+| 5 | pent- | C₅H₁₂ |
+| 6 | hex- | C₆H₁₄ |
 
-### Alkyl Substituents
-Removing one hydrogen from an alkane gives an **alkyl group** (named by replacing -ane with -yl):
-- CH₃– → Methyl
-- C₂H₅– → Ethyl
-- C₃H₇– → Propyl (exists as n-propyl and isopropyl)
-- C₄H₉– → Butyl (four isomers: n-butyl, sec-butyl, isobutyl, tert-butyl)
+> **Exam tip:** alkane formula is CₙH₂ₙ₊₂; alkene CₙH₂ₙ; alkyne CₙH₂ₙ₋₂; cycloalkane CₙH₂ₙ. Confirm saturation before naming.
 
-### Branched Alkanes
-When naming branched alkanes:
-- Find the longest continuous chain (this is the parent)
-- Number from the end that gives substituents the lowest numbers
-- Name substituents with their position numbers
-- Alphabetize substituent names
+---
 
-Example: CH₃–CH₂–CH(CH₃)–CH₂–CH₃ = Pentane with a methyl substituent at C3 = **3-methylpentane**
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-For multiple substituents of the same type: use di-, tri-, tetra- prefixes (but these prefixes are NOT alphabetized — only the substituent name is):
-- CH₃–C(CH₃)₂–CH₂–CH₃ = **2,2-dimethylbutane**
+#### The Five-Step Naming Procedure
 
-## Nomenclature of Alkenes and Alkynes
+1. **Identify the senior functional group.** Walk down the priority ladder: carboxylic acid –COOH → ester –COOR → amide –CONH₂ → nitrile –C≡N → aldehyde –CHO → ketone C=O → alcohol –OH → amine –NH₂. The highest-priority group decides the suffix; all others become prefixes.
+2. **Select the parent chain.** Pick the longest continuous carbon chain that contains the carbon of the senior group. For rings, prepend *cyclo-* to the parent root.
+3. **Number the chain.** Apply the **lowest locant set rule** at the first point of difference. If the senior group can receive locant 1, do so; otherwise assign the lowest locants to double bonds, then triple bonds, then substituents.
+4. **Name and locate substituents.** Common prefixes include methyl (–CH₃), ethyl (–C₂H₅), chloro/bromo/iodo, hydroxy, amino, nitro. Use di-, tri-, tetra- for repeats; these multiplying prefixes are **ignored** in alphabetisation.
+5. **Assemble the name.** Format: `locants + substituent prefixes (alphabetical) + parent root + primary suffix`. Hyphenate numerals to letters; separate numbers with commas.
 
-**Alkenes** (C=C double bond): suffix = -ene; position of double bond is indicated by the lower-numbered carbon
-Example: CH₂=CH–CH₂–CH₃ = **But-1-ene** (or 1-butene)
+#### Common Suffix and Elision Table
 
-**Cycloalkenes:** Number to give the double bond the lowest number; the word "cyclo" is added before the parent name:
-Example: A six-membered ring with a double bond starting at C1 = **Cyclohexene**
-
-**Alkynes** (C≡C triple bond): suffix = -yne
-Example: CH≡C–CH₂–CH₃ = **But-1-yne** (or 1-butyne)
-
-**Multiple bonds:** When both double and triple bonds are present, number to give the lowest possible numbers to the multiple bonds; use -en- before -yn- in the suffix:
-Example: CH₂=CH–C≡CH = **But-1-en-3-yne**
-
-## Nomenclature of Alcohols
-
-Alcohols contain the –OH (hydroxyl) functional group. Naming:
-- Suffix: **-ol**
-- The position of the –OH group is indicated by the carbon number
-- Number the chain to give the –OH group the lowest possible number
-
-Examples:
-- CH₃–CH₂–OH = Ethanol (no number needed — the –OH is on C1 in a two-carbon chain)
-- CH₃–CH(OH)–CH₃ = Propan-2-ol (isopropanol)
-- CH₃–CH₂–CH₂–OH = Propan-1-ol (n-propanol)
-
-Multiple –OH groups: use diol, triol suffixes:
-- HO–CH₂–CH₂–OH = Ethane-1,2-diol (ethylene glycol)
-
-## Nomenclature of Aldehydes
-
-Aldehydes contain the –CHO (formyl) group at the end of a carbon chain. Naming:
-- Suffix: **-al**
-- The carbon of the –CHO group is always C1
-- No position number is needed because the aldehyde is always at the end
-
-Examples:
-- HCHO = Methanal (formaldehyde)
-- CH₃–CHO = Ethanal (acetaldehyde)
-- CH₃–CH₂–CHO = Propanal (propionaldehyde)
-
-## Nomenclature of Ketones
-
-Ketones contain the carbonyl group (C=O) within the carbon chain (not at the end). Naming:
-- Suffix: **-one**
-- The position of the C=O is indicated by the lower-numbered carbon
-- Number the chain to give the C=O the lowest possible number
-
-Examples:
-- CH₃–CO–CH₃ = Propan-2-one (acetone)
-- CH₃–CO–CH₂–CH₃ = Butan-2-one (methyl ethyl ketone, MEK)
-
-## Nomenclature of Carboxylic Acids
-
-Carboxylic acids contain the –COOH (carboxyl) group. Naming:
-- Suffix: **-oic acid**
-- The carbon of the –COOH group is always C1
-
-Examples:
-- HCOOH = Methanoic acid (formic acid) — note: the common name formic acid comes from the Latin word "formica" meaning ant
-- CH₃–COOH = Ethanoic acid (acetic acid) — common name: vinegar
-- CH₃–CH₂–COOH = Propanoic acid (propionic acid)
-
-Dicarboxylic acids (two –COOH groups):
-- HOOC–COOH = Ethanedioic acid (oxalic acid)
-- HOOC–CH₂–COOH = Propanedioic acid (malonic acid)
-- HOOC–CH₂–CH₂–COOH = Butanedioic acid (succinic acid)
-
-## Nomenclature of Esters
-
-Esters are derived from carboxylic acids by replacing the –OH of the acid with an –OR group (alkoxy). Naming:
-- The alkyl group (from the alcohol part) comes first: "alkyl"
-- The carboxylate part: name of acid with -oate suffix
-
-Example: CH₃–COO–CH₂–CH₃ = Ethyl ethanoate (ethyl acetate)
-
-## Nomenclature of Amines
-
-Amines are derivatives of ammonia (NH₃) where one or more hydrogen atoms are replaced by alkyl/aromatic groups. Naming:
-- **Primary amines (–NH₂):** suffix -amine; position indicated by number
-- **Secondary and tertiary amines:** use the prefix N-alkyl to indicate substituents on nitrogen
-
-Examples:
-- CH₃–NH₂ = Methanamine (methylamine)
-- CH₃–CH₂–NH₂ = Ethanamine (ethylamine)
-- CH₃–NH–CH₂–CH₃ = N-methylethanamine (ethylmethylamine — secondary amine)
-- (CH₃)₃N = N,N-Dimethylethanamine (trimethylamine — tertiary amine)
-
-## Nomenclature of Ethers
-
-Ethers have the structure R–O–R'. Naming:
-- Name each alkyl group (alphabetically) followed by "ether"
-- Or use the IUPAC system: alkoxy- prefix
-
-Examples:
-- CH₃–O–CH₂–CH₃ = Ethyl methyl ether (or methoxyethane)
-- CH₃–CH₂–O–CH₂–CH₃ = Diethyl ether (ethoxyethane)
-
-## Common vs. IUPAC Names
-
-Many organic compounds are more commonly known by their **trivial/common names** than their IUPAC names. Healthcare professionals must be familiar with both:
-
-| Common Name | IUPAC Name | Structure |
+| Functional group | Suffix | Example |
 |---|---|---|
-| Acetone | Propan-2-one | CH₃COCH₃ |
-| Acetaldehyde | Ethanal | CH₃CHO |
-| Formaldehyde | Methanal | HCHO |
-| Acetic acid | Ethanoic acid | CH₃COOH |
-| Isopropyl alcohol | Propan-2-ol | (CH₃)₂CHOH |
-| Methyl alcohol | Methanol | CH₃OH |
-| Ethyl alcohol | Ethanol | C₂H₅OH |
+| Carboxylic acid | -anoic acid | CH₃COOH → ethanoic acid |
+| Aldehyde | -anal | CH₃CHO → ethanal |
+| Ketone | -anone | CH₃COCH₃ → propan-2-one |
+| Alcohol | -anol | CH₃CH₂OH → ethanol |
+| Alkene | -ene | CH₂=CH₂ → ethene |
+| Alkyne | -yne | HC≡CH → ethyne |
 
-**⚡ Exam tip:** On the HAAD exam, if a question asks for the IUPAC name, give the systematic name. If the question asks for the common name or a drug's official name, use the trivial name. For numbering, remember: aldehyde carbon is always C1, principal functional group gets the lowest number, and substituents are listed alphabetically (ignoring di-, tri-, etc. prefixes for alphabetization).
+> **Elision rule:** drop the terminal *-e* of the parent before a vowel-starting suffix (*ethan + ol* → ethanol, not ethane-ol).
 
+#### Typical HAAD Question Patterns
+
+- Convert a 2D skeletal structure (up to C8) into its IUPAC name — a 2- to 3-mark short answer.
+- Convert an IUPAC name into a line or condensed structure.
+- Identify the parent chain, principal group, or correct locant in a multi-step MCQ.
+
+---
+
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
+
+#### Edge Cases and Priority Conflicts
+
+When a molecule contains both a double bond and an alcohol, the **–ol** suffix wins because –OH outranks C=C in the IUPAC priority ladder. The alkene is then cited as an "en" infix: CH₂=CH–CH(OH)–CH₃ is **but-1-en-3-ol**, not but-3-ol-1-ene. Numbering runs to give –OH the lowest locant (3), then the double bond (1).
+
+For **esters**, name the alkyl group on oxygen first, then the acyl fragment as a separate word ending in *-oate*: CH₃CH₂COOCH₃ is methyl propanoate. This two-word format catches many HAAD candidates who try to write "methylpropanoate" as one word.
+
+When the longest chain contains **eight or more carbons**, HAAD questions typically cap at C8, but recognise octan-, nonan-, and decan- in options. For **substituted benzenes**, the ring itself is the parent (benzene), and substituents receive locants 1–6; the –OH derivative is named **phenol**, not benzenol, a retained trivial name accepted by IUPAC.
+
+#### Common Mistakes Recap
+
+- Selecting a longest chain that does **not** include the principal group's carbon — invalid even if the chain is one carbon longer elsewhere.
+- Numbering so the senior group gets a higher locant than necessary.
+- Treating *di-*, *tri-*, *tetra-* as alphabetisation entries; e.g., "ethyl" precedes "dimethyl" because *e* < *m*, ignoring the *d*.
+- Forgetting the terminal *-e* elision before vowels: writing "propane-1,2-diol" instead of "propane-1,2-diol" is acceptable, but "propane-1-ol" is wrong (must be "propan-1-ol").
+
+#### Worked Micro-Example
+
+Structure: CH₃–CH(Cl)–CH₂–CH₂–OH.
+
+- Senior group: –OH (alcohol beats halide). Suffix: **-1-ol**.
+- Parent chain: four carbons → **butan**.
+- Numbering from the –OH end: –OH at C1, Cl at C3.
+- Substituent prefix: **3-chloro**.
+- Final name: **3-chlorobutan-1-ol**.
+
+#### Practice Prompts
+
+1. Name CH₃–C(=O)–CH₂–CH=CH₂ and justify the locant choice.
+2. Draw the structure of 2-amino-3-methylpentanoic acid and identify the senior functional group.
+
+> **Strategy for the 3% HAAD slice:** budget 3–4 minutes per nomenclature item. Identify the senior group first, lock the parent chain, then apply the lowest-locant rule. These four moves resolve more than 90% of HAAD items on this topic.
+
+---
+
+## Continue your study
+
+- **[View this topic in your HAAD (UAE) roadmap](/roadmap/?exam=haad&duration=1mo)** — see where "IUPAC Nomenclature of Organic Compounds" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=haad&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[HAAD (UAE) exam overview](/exams/haad/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/haad/chemistry/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

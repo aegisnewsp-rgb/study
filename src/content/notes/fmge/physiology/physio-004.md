@@ -8,175 +8,85 @@ topicName: "Cardiovascular Physiology"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-07-12"
 ---
 
 # Cardiovascular Physiology
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+> Rapid summary for last-minute revision before your FMGE recall pass.
 
-**Cardiovascular Physiology** — Key Facts for FMGE
-Core concept: The heart functions as a dual pump; cardiac output is determined by heart rate and stroke volume; blood flows through vasculature driven by pressure gradients
-High-yield point: Starling's law of the heart explains how preload affects stroke volume; understanding pressure-volume loops is key
-⚡ Exam tip: Cardiac output = HR × SV; normal CO is ~5 L/min; be clear about the phases of the cardiac cycle and what happens to pressures, volumes, and heart sounds
+**Cardiovascular physiology** describes how the heart and vasculature work as a coupled pump-and-conduit system to perfuse tissues. The governing equation is **CO = SV × HR**, where cardiac output (L/min) equals stroke volume (mL/beat) multiplied by heart rate (beats/min); normal resting CO is ~5 L/min.
+
+> Mnemonic: **"SV = EDV − ESV"** — stroke volume is the difference between end-diastolic and end-systolic ventricular volumes.
+
+Blood pressure is summarised by **MAP = DBP + ⅓(SBP − DBP)**, since diastole occupies roughly two-thirds of the cycle. The **SA node** sets the rate (~70–80/min) under vagal dominance, while **preload, afterload, and contractility** determine SV through the **Frank–Starling mechanism**.
+
+- **High-yield FMGE pointer:** coronary perfusion of the left ventricle occurs in **diastole**, not systole.
+- **Trap:** confusing *preload* (venous return / EDV) with *afterload* (aortic pressure / SVR).
+- **Quick check:** a pulse pressure > 60 mmHg suggests aortic regurgitation or a hyperdynamic state.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+> Standard content for FMGE preparation with a few days to months of runway.
 
-**Cardiovascular Physiology** — FMGE Study Guide
+#### Cardiac cycle and pressure–volume relationships
+The cycle has four phases: **atrial systole** (final ventricular filling), **isovolumetric contraction** (all valves closed, sharp pressure rise), **ventricular ejection** (semilunar valves open), and **isovolumetric relaxation** (ventricular pressure falls below atrial pressure). The first heart sound (**S1**) marks mitral and tricuspid closure; **S2** marks aortic and pulmonary closure. Splitting of S2 on inspiration is physiologic because increased venous return delays pulmonary valve closure.
 
-## Cardiac Cycle
+#### Determinants of stroke volume
+SV depends on three variables governed by the **Frank–Starling law**: increased end-diastolic volume stretches sarcomeres, augmenting contractile force up to an optimal length. The second determinant is **afterload**, the arterial pressure the ventricle must overcome. The third is **contractility** (inotropy), modulated by sympathetic stimulation via β1 receptors and intracellular calcium handling.
 
-### Phases
+#### Electrical conduction
+The **SA node** (phase-4 "funny" current, If) initiates each impulse. Conduction slows at the **AV node** (~100 ms delay) to allow ventricular filling, then accelerates through the **Bundle of His**, bundle branches, and **Purkinje fibres**. Vagal tone dominates at rest; sympathetic activation raises HR and contractility simultaneously.
 
-**Systole**:
-1. **Isovolumetric contraction**: AV valves close, semilunar valves closed, pressure rises rapidly
-2. **Rapid ejection**: Semilunar valves open, blood ejected rapidly; ventricular pressure peaks
-3. **Reduced ejection**: Slower ejection, pressure begins to fall; systole ends
+#### Vascular physics
+Applying **Ohm's law analogue**: ΔP = CO × SVR. Arterial **compliance** (C = ΔV/ΔP) buffers pulsatile ejection, explaining why stiffened aortas produce widened pulse pressure.
 
-**Diastole**:
-4. **Isovolumetric relaxation**: Semilunar valves close, AV valves still closed, pressure falls; ventricular volume unchanged
-5. **Rapid filling**: AV valves open, blood rushes into ventricles; 70% of filling occurs
-6. **Reduced filling (diastasis)**: Slower filling; atrial contraction contributes final filling
-7. **Atrial systole (atrial kick)**: Atrial contraction adds final 15-25% of ventricular filling
+| Variable | Formula | Normal value |
+|---|---|---|
+| Cardiac output | SV × HR | 4–8 L/min |
+| Stroke volume | EDV − ESV | ~70 mL |
+| MAP | DBP + ⅓(SBP − DBP) | 70–100 mmHg |
+| Cardiac index | CO / BSA | 2.5–4.0 L/min/m² |
 
-### Heart Sounds
+> FMGE favourite: a question links a wedge-pressure tracing with a Wiggers diagram and asks which phase corresponds to aortic valve opening — answer: end of isovolumetric contraction.
 
-**S1 (lub)**: AV valve closure (mitral first, then tricuspid); marks beginning of systole
-**S2 (dub)**: Semilunar valve closure (aortic first, then pulmonic); marks end of systole
-**S3**: Rapid ventricular filling (in children/young adults, pathological in adults - dilated ventricle)
-**S4**: Atrial contraction against stiff ventricle (hypertrophied ventricle - HTN, hypertrophy)
+---
 
-### Pressure-Volume Loop
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-- **Bottom right**: End-diastolic volume (EDV) - filled, starting contraction
-- **Right side**: Isovolumetric contraction (vertical up - pressure ↑, volume same)
-- **Top**: End-systolic volume (ESV) - maximal pressure, minimal volume
-- **Left side**: Isovolumetric relaxation (vertical down - pressure ↓, volume same)
-- **Bottom left**: End-diastolic volume (EDV) - starting filling
-- **Loop area**: Stroke work (external work done by heart)
+#### Capillary exchange and Starling forces
+Net fluid movement across the capillary wall follows **Jv = LpS[(Pc − Pi) − σ(πc − πi)]**. At the arterial end, hydrostatic pressure (~35 mmHg) exceeds oncotic pull (~25 mmHg), favouring filtration; at the venous end, hydrostatic pressure falls to ~15 mmHg, favouring reabsorption. The **Starling principle** explains oedema in left-sided heart failure (rising venous hydrostatic pressure) and in nephrotic syndrome (falling plasma oncotic pressure).
 
-## Cardiac Output
+#### Coronary circulation peculiarities
+Unlike systemic organs, the **left coronary artery** is perfused almost entirely during **diastole** because intramural compression during systole collapses the subendocardial vessels. Tachycardia shortens diastole disproportionately, reducing coronary flow and prediscing to subendocardial ischaemia — a classic FMGE scenario in aortic stenosis with coexistent anaemia.
 
-### Equation
-**CO = HR × SV**
-- Normal CO: 5 L/min (at rest)
-- CO = SV × HR; SV = EDV - ESV
+#### Blood pressure regulation
+**Baroreceptors** in the carotid sinus and aortic arch reset within 1–2 days, so they buffer acute changes but not chronic hypertension. **Renin–angiotensin–aldosterone system (RAAS)** activation — through β1 stimulation of juxtaglomerular cells, reduced renal perfusion, or low distal sodium — raises SVR via angiotensin II and expands volume via aldosterone. **Atrial natriuretic peptide (ANP)** antagonises RAAS, causing vasodilation and natriuresis.
 
-### Heart Rate
-- Normal: 60-100 bpm
-- **Chronotropic**: HR control (+ or -)
-- **Dromotropic**: Conduction velocity (+ or -)
-- **Inotropic**: Contractility (+ or -)
+#### Common mistakes and edge cases
+- Treating **MAP** as the simple mean of SBP and DBP ignores the longer diastolic interval.
+- Confusing **contractility** (intrinsic, calcium-driven) with **preload** (extrinsic stretch).
+- Assuming the **J-point** on ECG reflects diastole; it marks the end of ventricular depolarisation.
+- In **complete heart block**, assuming escape rhythm originates in the SA node — it arises distally (junctional 40–60/min, ventricular 20–40/min).
+- Forgetting **coronary sinus** drains into the right atrium, not the left.
 
-### Stroke Volume Determinants
+> Exam strategy: FMGE Physiology contributes ~3% weight but clusters around heart failure, shock physiology, and ECG–cardiac-cycle correlation. Allocate 4–5 minutes per question and draw a quick Wiggers timeline before answering.
 
-**Preload** (venous return/end-diastolic volume):
-- Stretch of cardiac muscle before contraction
-- **Starling's law**: Increased preload → increased SV (within physiological limits)
-- Dependent on: Venous return, atrial contraction, ventricular compliance
+#### Practice prompts
+1. A patient with severe aortic regurgitation has BP 160/60 mmHg. Calculate MAP, pulse pressure, and explain the widened pulse pressure using arterial compliance principles.
+2. During exercise, HR rises to 160/min and SV plateaus. Quantify the change in CO and identify the dominant regulatory mechanism (Frank–Starling vs sympathetic inotropy).
 
-**Afterload** (arterial pressure ventricle must overcome):
-- Aortic pressure during systole
-- Increased afterload → decreased SV (heart works harder)
-- Dependent on: Systemic vascular resistance (SVR), arterial pressure, ventricular radius
+---
 
-**Contractility** (inotropic state):
-- Intrinsic strength of cardiac muscle independent of preload/afterload
-- Increased by: Sympathetic stimulation, catecholamines, increased Ca²⁺
-- Decreased by: Beta-blockade, HF, hypoxia, acidosis
+## Continue your study
 
-### Regulation of Cardiac Output
-
-**Starling mechanism**: Adjusts SV based on EDV to match venous return
-**Autonomic nervous system**: Sympathetic (↑HR, ↑contractility) vs parasympathetic (↓HR)
-**Afterload**: Peripheral resistance affects how much work heart must do
-**Heart rate changes**: Account for most immediate CO changes
-
-## Cardiac Electrical Activity
-
-### Pacemaker Cells
-
-**SA node** (primary pacemaker):
-- Intrinsic rate: 60-100 bpm
-- Slow response fibers (no fast Na channels; Ca-dependent action potential)
-- Located in right atrium near SVC opening
-
-**AV node**:
-- Intrinsic rate: 40-60 bpm
-- Delays impulse transmission (allows atrial contraction before ventricular contraction)
-- Located at base of interatrial septum
-
-**Purkinje fibers**:
-- Intrinsic rate: 20-40 bpm
-- Fast conduction (fast Na channels)
-- Distribute impulse throughout ventricles
-
-### Cardiac Action Potential
-
-**Non-pacemaker (ventricular myocyte)**:
-- **Phase 0**: Rapid depolarization (fast Na channels - similar to neurons)
-- **Phase 1**: Early repolarization (K efflux)
-- **Phase 2**: Plateau (Ca²⁺ influx via L-type Ca channels balanced by K efflux) - unique to cardiac muscle
-- **Phase 3**: Repolarization (K efflux > Ca²⁺ influx)
-- **Phase 4**: Resting membrane potential (K leak channels, Na/K ATPase)
-
-**Pacemaker cells (SA node)**:
-- **Slow response AP**: No phase 0 (no fast Na); upstroke via L-type Ca channels
-- **Phase 4 diastolic depolarization**: Funny current (If) causes slow depolarization
-- **Phases 0-3**: Similar but more gradual than ventricular myocytes
-
-### Conduction Velocity
-- Atrial pathways: 1 m/s
-- AV node: 0.05 m/s (slow - allows time for atrial contraction)
-- Bundle of His: 1 m/s
-- Purkinje fibers: 2-4 m/s (fastest)
-- Ventricular muscle: 0.3-0.5 m/s
-
-## Hemodynamics
-
-### Blood Flow (Q)
-**Q = ΔP / R** (Ohm's law analog)
-- Blood flow is proportional to pressure gradient and inversely proportional to resistance
-
-### Resistance
-**R = 8ηL / πr⁴** (Poiseuille's law)
-- **Most important factor**: Radius (4th power!)
-- Small changes in radius cause large changes in resistance
-- **η** (viscosity): Affected by hematocrit; polycythemia increases viscosity
-
-### Blood Pressure
-- **Systolic**: Peak pressure during ventricular contraction
-- **Diastolic**: Lowest pressure during ventricular relaxation
-- **Pulse pressure**: Systolic - Diastolic (normal ~40 mmHg)
-- **Mean arterial pressure (MAP)**: Diastolic + 1/3 pulse pressure
-- MAP = CO × SVR (approximately)
-
-### Resistance in Series vs Parallel
-- **Series**: Total = R1 + R2 + ... (each resistance adds)
-- **Parallel**: 1/Rtotal = 1/R1 + 1/R2 + ... (total resistance is less than any individual)
-- Systemic circulation: SVR (TPR) = arterioles + capillaries + venules
-- Most resistance in arterioles (functional vasoconstriction/dilation)
-
-## Coronary Circulation
-
-- **Left coronary artery**: Supplies LV, most of septum; feeds left anterior descending (LAD) and left circumflex
-- **Right coronary artery**: Supplies RA, RV, SA node (in 60%), AV node (in 90%)
-- **During systole**: Coronary flow almost stops (high intramural pressure compresses vessels)
-- **During diastole**: Major coronary fill occurs
-- **LV subendocardium**: Most vulnerable to ischemia (highest pressure, longest systolic compression)
-- **Exercise**: ↑CO, ↓diastolic time → can limit coronary flow if stenosis present
-
-## Blood Volume Distribution
-
-- **Veins (~64%)**: Largest reservoir; capacitance vessels; most blood at rest
-- **Heart and lungs (~13%)**: Smaller reservoirs
-- **Arteries (~8%)**: High-pressure system
-- **Capillaries (~5%)**: Site of exchange
-- **Venules and small veins (~10%)**: Blood storage
+- **[View this topic in your FMGE roadmap](/roadmap/?exam=fmge&duration=1mo)** — see where "Cardiovascular Physiology" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=fmge&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[FMGE exam overview](/exams/fmge/)** — pattern, eligibility, and syllabus
+- **[All Physiology notes](/notes/fmge/physiology/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

@@ -8,242 +8,85 @@ topicName: "Renal Physiology"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-07-12"
 ---
 
 # Renal Physiology
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+> Rapid summary for last-minute revision before your FMGE MCQ block.
 
-**Renal Physiology** — Key Facts for FMGE
-Core concept: The kidneys regulate fluid balance, electrolyte balance, acid-base balance, and blood pressure; they also excrete metabolic waste products
-High-yield point: GFR is the best measure of kidney function; clearance concepts help understand how substances are handled by kidneys
-⚡ Exam tip: Know what each segment of the nephron does to water and solute handling - this is fundamental to understanding diuretics and kidney function
+**Renal physiology** describes how the kidneys filter plasma at the glomerulus, reabsorb and secrete solutes along the nephron, and excrete waste while regulating extracellular fluid volume, osmolality, electrolytes, and acid–base balance.
+
+- **GFR** = clearance of **inulin**; **ERPF** ≈ clearance of **PAH**; **RBF** = ERPF / (1 − Hct).
+- **Filtration fraction (FF)** = GFR / RPF ≈ 0.16–0.20; rises with efferent constriction (angiotensin II).
+- **Net filtration pressure** ≈ (45 − 15) − (25 − 0) = **~10 mmHg**.
+- **ADH** inserts **aquaporin-2** in collecting duct → concentrated urine; absence → diabetes insipidus.
+- **RAAS**: ↓ renal perfusion → **renin** → AT-I → ACE → **AT-II** → aldosterone → Na⁺ reabsorption, K⁺/H⁺ secretion.
+
+**High-yield FMGE pointers:** Inulin = GFR marker; PAH = RPF marker; creatinine clearance slightly overestimates GFR due to tubular secretion; macula densa senses **luminal NaCl/Cl⁻** via NKCC2, not Na⁺ alone.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+> Standard content for students with a few days to months of preparation.
 
-**Renal Physiology** — FMGE Study Guide
+#### Glomerular Filtration and Starling Forces
+Ultrafiltration at the glomerulus is governed by Starling forces. **NFP = (P_GC − P_BS) − (π_GC − π_BS)**, where P_GC ≈ 45 mmHg, P_BS ≈ 15 mmHg, π_GC ≈ 25 mmHg, π_BS ≈ 0. As blood flows along the capillary, π_GC rises (plasma proteins concentrate), so NFP falls distally. **SNGFR = K_f × NFP**. GFR is autoregulated between MAP ≈ 80–180 mmHg by the **myogenic response** of afferent arterioles and **tubuloglomerular feedback** via macula densa NaCl sensing.
 
-## Nephron Structure
+#### Clearance Physiology
+Clearance C_x = (U_x × V) / P_x (mL/min). Inulin is freely filtered and neither reabsorbed nor secreted → **C_inulin = GFR**. PAH is filtered and secreted, almost completely cleared in one pass → **C_PAH = effective RPF**. **FF = GFR / RPF** (not RBF). At Hct 0.45, RBF ≈ 1.8 × RPF.
 
-### Nephron Components
-- **Glomerulus**: Filter blood (capillaries between afferent and efferent arterioles)
-- **Bowman's capsule**: Surrounds glomerulus; collects filtrate
-- **Proximal tubule**: Reabsorbs ~65% of filtered water and Na; most active reabsorption
-- **Loop of Henle**: Countercurrent multiplier; concentrates urine
-- **Distal tubule**: Fine-tuning of Na, K, H
-- **Collecting duct**: ADH affects water reabsorption; final urine concentration
+#### Tubular Handling and the Medullary Gradient
+The **countercurrent multiplier** in the loop of Henle (active NaCl reabsorption in the water-impermeable thick ascending limb) generates a corticomedullary osmotic gradient from ~300 to ~1200 mOsm/L, preserved by **vasa recta countercurrent exchange**. **ADH** inserts aquaporin-2 in collecting ducts → water reabsorption; without ADH, dilute urine results. **Aldosterone** acts on principal cells to reabsorb Na⁺ and secrete K⁺/H⁺.
 
-### Cortical and Juxtamedullary Nephrons
-- **Cortical nephrons**: 85%; short loops; primarily for regulation of solute and water
-- **Juxtamedullary nephrons**: 15%; long loops that dip into medulla; for concentration of urine
+#### RAAS and Acid–Base
+Renin release from juxtaglomerular cells is triggered by ↓ renal perfusion, ↓ GFR, or sympathetic β1 stimulation. Acid–base regulation occurs via HCO3⁻ reabsorption in the proximal tubule and H⁺ secretion by α-intercalated cells, with new HCO3⁻ generated; urinary buffers include HPO4²⁻ and NH3/NH4⁺.
 
-## Glomerular Filtration
+#### Common Exam Traps
 
-### Filtration Barrier
-- **Capillary endothelium**: Fenestrated (pores) - prevents cells
-- **Basement membrane**: GBM - size and charge selective
-- **Podocyte foot processes**: Slit diaphragm - final barrier
-- **Negatively charged**: Prevents filtration of negatively charged proteins
+| Concept | Frequent Mistake | Correct Fact |
+|---|---|---|
+| Clearance marker | Confusing inulin and PAH | Inulin → GFR; PAH → ERPF |
+| FF denominator | Dividing GFR by RBF | FF = GFR / RPF |
+| Creatinine | C_Cr = exact GFR | C_Cr slightly **overestimates** GFR (tubular secretion) |
+| Macula densa | Senses [Na⁺] | Senses luminal NaCl/Cl⁻ via NKCC2 |
+| ADH site | Acts on loop of Henle | Acts on **collecting duct** |
 
-### GFR (Glomerular Filtration Rate)
-- **Normal**: 125 mL/min = 180 L/day
-- **Filtration fraction (FF)**: GFR/RPF = 125/600 = ~20% of plasma is filtered
+---
 
-### Forces (Starling Forces in Glomerulus)
-- **Net Filtration Pressure (NFP) = (Pgc - Pbs) - (πgc - πbs)**
-- Pgc (glomerular capillary hydrostatic pressure): ~60 mmHg (favors filtration)
-- Pbs (Bowman's space hydrostatic pressure): ~18 mmHg (opposes filtration)
-- πgc (glomerular capillary oncotic pressure): ~29 mmHg (opposes filtration)
-- πbs (Bowman's space oncotic pressure): ~0 mmHg (no protein normally)
-- **NFP ≈ 10 mmHg** (favors filtration)
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for deep mastery and clinical integration.
 
-### Regulation of GFR
+#### Edge Cases and Clinical Correlations
+**CKD and PAH extraction:** When renal extraction of PAH (E_PAH) falls, C_PAH underestimates true RPF. True RPF = C_PAH / E_PAH. **Free water clearance** C_H2O = V − C_osm: positive in water diuresis, negative during ADH-driven concentration; used clinically to assess concentrating ability after water deprivation.
 
-**Autoregulation** (myogenic and tubuloglomerular feedback):
-- Maintains GFR relatively constant despite changes in systemic BP (80-180 mmHg)
-- **Myogenic response**: Afferent arteriole responds to stretch by contracting
-- **Tubuloglomerular feedback (TGF)**: Macula densa senses NaCl at distal tubule → adjusts afferent arteriole tone
+**Peritubular capillary Starling forces** drive reabsorption: J_v = K[(P_c − P_i) − σ(π_c − π_i)]. High peritubular oncotic pressure (from filtration at glomerulus) and low interstitial hydrostatic pressure favor reabsorption.
 
-**Hormonal/Neural**:
-- Sympathetic: ↑α1 → constricts afferent/efferent → ↓GFR (severe hypotension)
-- Angiotensin II: Preferentially constricts efferent > afferent → maintains GFR (but overall ↓RBF)
-- NSAIDs: Inhibit prostaglandins → afferent vasoconstriction → ↓GFR (especially in volume depletion)
+#### Worked Micro-Example
+A patient has P_Cr = 2.0 mg/dL, urine creatinine = 200 mg/dL, urine flow = 1.0 mL/min.
+C_Cr = (200 × 1.0) / 2.0 = **100 mL/min** → estimate GFR; corrected for 1.73 m² BSA still ≈ normal. Note this slightly overestimates true GFR.
 
-### Measuring GFR
-- **Inulin clearance**: Gold standard (inulin is freely filtered, not reabsorbed/secreted)
-- **Creatinine clearance**: Approximates GFR; slight underestimation (creatinine is slightly secreted)
-- **Cockcroft-Gault equation**: Estimates CrCl based on age, weight, serum creatinine
-- **CKD-EPI, MDRD**: More accurate equations for GFR estimation
+#### Connections to Adjacent Topics
+- **Cardiovascular physiology:** RAAS links perfusion pressure to Na⁺/volume homeostasis.
+- **Acid–base physiology:** Renal HCO3⁻ generation complements respiratory HCO3⁻ buffering.
+- **Endocrine:** ADH axis shared with osmoregulation; aldosterone overlaps with adrenal cortex.
 
-## Tubular Reabsorption and Secretion
+#### Exam-Specific Strategy
+Renal physiology carries ~3% weight but is high-yield because **every clinical vignette touches GFR, RAAS, or acid–base**. Expect 2–3 MCQs per FMGE paper from this topic. Time per question should be ≤45 seconds if formulas are memorized.
 
-### Proximal Tubule
-- **Reabsorbs**: 65% of filtered Na, water, glucose, amino acids, bicarbonate
-- **Na/H exchanger**: ~65% of Na reabsorption via this mechanism
-- **Glucose reabsorption**: SGLT2 (apical) + GLUT2 (basolateral); threshold ~180 mg/dL
-- **Bicarbonate reabsorption**: Via carbonic anhydrase; ~90% reabsorbed in PCT
-- **Fluid reabsorption**: Isosmotic (no net change in osmolality)
-- **Krebs-Henseleit**: Loop diuretics act here
+#### Practice Prompts
+1. If efferent arteriolar resistance rises while RPF stays constant, what happens to GFR, FF, and peritubular capillary oncotic pressure?
+2. A patient with central diabetes insipidus receives desmopressin. Predict changes in urine osmolality, C_H2O, and plasma osmolality.
 
-### Loop of Henle
+---
 
-**Descending limb**:
-- Permeable to water (aquaporins); not to NaCl
-- Water leaves → fluid becomes hypertonic
-- **Thin descending limb**: Very permeable to water (up to 1200 mOsm at tip)
+## Continue your study
 
-**Ascending limb**:
-- Impermeable to water; actively reabsorbs Na, K, Cl (NKCC2 transporter)
-- **Thin ascending limb**: NaCl reabsorption; permeable to some solutes
-- **Thick ascending limb**: NKCC2 transporter; Na, K, 2Cl reabsorbed
-- Generates **hypertonic medullary interstitium** (countercurrent multiplication)
-- **Lumen becomes hypotonic** as it leaves (hypotonic fluid to DCT)
-
-**Loop Diuretics** (Furosemide, Bumetanide):
-- Block NKCC2 → ↓NaCl reabsorption in TAL → ↓medullary osmolarity → ↓concentrating ability → diuresis
-
-### Distal Convoluted Tubule
-- **Thiazide-sensitive NaCl cotransporter (NCC)**: Active Na/Cl reabsorption
-- **No ADH effect**: Cannot concentrate urine here
-- **Parathyroid hormone**: ↑Ca reabsorption (via TRPV5 channels)
-
-**Thiazide diuretics**: Block NCC in DCT → ↓NaCl reabsorption
-
-### Collecting Duct
-
-**Cortical collecting duct**:
-- **Principal cells**: Na reabsorption via ENaC (epithelial Na channels); K secretion
-- **Aldosterone**: Stimulates ENaC → Na reabsorption, K secretion
-- **Intercalated cells**: H secretion (H-ATPase), K reabsorption
-
-**Medullary collecting duct**:
-- **ADH**: Increases aquaporin-2 (AQP2) insertion → water reabsorption → concentrated urine
-- **Without ADH**: Collecting duct impermeable to water → dilute urine (up to 50-100 mOsm)
-- **With ADH**: Can concentrate urine up to 1200 mOsm (maximum)
-
-**Amiloride**: Blocks ENaC (↑K retention - used with thiazides/loop diuretics)
-**Spironolactone/Eplerenone**: Blocks aldosterone receptor
-
-## Clearance Concept
-
-### Definition
-**Clearance = (U × V) / P**
-- U = urine concentration, V = urine flow rate, P = plasma concentration
-- **C = Amount removed from plasma per unit time / plasma concentration**
-
-### Creatinine Clearance
-- **Ccr = (Ucr × V) / Pcr**
-- Approximates GFR if creatinine is not secreted/reabsorbed
-- **Underestimates GFR** slightly because creatinine is secreted (~10-20%)
-
-### PAH Clearance
-- **CPAH = (UPAH × V) / PPAH**
-- PAH is filtered and secreted → approximates renal plasma flow (RPF)
-- **RPF normal**: ~625 mL/min
-- **ERPF** (effective renal plasma flow): ~300-500 mL/min
-
-### Filtration Fraction
-**FF = GFR/RPF = 125/625 = 0.20 (20%)**
-
-## Acid-Base Balance
-
-### H⁺ Regulation
-- **Filtered bicarbonate reabsorption**: ~90% in PCT
-- **Ammonium (NH₄⁺) excretion**: Major mechanism for acid excretion
-- **Titratable acids**: Phosphate buffer system
-
-### Tubular H⁺ Secretion
-- **Proximal tubule**: Na/H exchanger (NHE3)
-- **Distal nephron**: H-ATPase (intercalated cells)
-
-### Acid-Base Disturbances
-
-**Metabolic acidosis**:
-- ↓pH, ↓HCO₃⁻, Normal PaCO₂ (primary)
-- Compensatory hyperventilation → ↓PaCO₂
-- Causes: Lactic acidosis, DKA, renal failure, diarrhea, loss of bicarbonate
-- Treatment: HCO₃⁻ (if severe, pH <7.1)
-
-**Metabolic alkalosis**:
-- ↑pH, ↑HCO₃⁻, Normal PaCO₂ (primary)
-- Compensatory hypoventilation → ↑PaCO₂
-- Causes: Vomiting, diuretic use, primary hyperaldosteronism
-- Treatment: Address cause; give NaCl/KCl
-
-**Respiratory acidosis**:
-- ↓pH, ↑PaCO₂, Normal HCO₃⁻ (acute) or ↑HCO₃⁻ (chronic)
-- Causes: Hypoventilation (COPD, obesity hypoventilation, sedation)
-- Chronic: Renal compensation (↑HCO₃⁻)
-
-**Respiratory alkalosis**:
-- ↑pH, ↓PaCO₂, Normal HCO₃⁻ (acute) or ↓HCO₃⁻ (chronic)
-- Causes: Hyperventilation (anxiety, high altitude, early sepsis)
-- Chronic: ↓HCO₃⁻
-
-**Anion gap**: AG = Na - (Cl + HCO₃)
-- Normal: 8-12 mEq/L
-- Elevated AG: Lactic acidosis, ketoacidosis, renal failure, toxic alcohols
-- Normal AG (hyperchloremic): Diarrhea, RTA, carbonic anhydrase inhibitors
-
-## Urine Concentration
-
-### Countercurrent System
-- **Loop of Henle**: Countercurrent multiplier (active NaCl pumping)
-- **Vasa recta**: Countercurrent exchanger (preserves medullary gradient)
-- **Collecting duct**: ADH increases water reabsorption
-
-### Osmolality
-- **Medullary interstitium**: Up to 1200 mOsm/kg (max concentration)
-- **Urine**: Can range from 50 mOsm/kg (dilute) to 1200 mOsm/kg (concentrated)
-
-### ADH Effects
-- **↑ADH**: More AQP2 channels → more water reabsorption → concentrated urine
-- **↓ADH**: Fewer AQP2 channels → water stays → dilute urine
-
-### Diabetes Insipidus
-- **Central**: Lack of ADH production/release (pituitary surgery, trauma)
-- **Nephrogenic**: Kidney doesn't respond to ADH (hypokalemia, hypercalcemia, lithium)
-- Both cause large volumes of dilute urine, dehydration risk
-
-## Potassium Balance
-
-### K⁺ Handling
-- **Filtered**: Freely at glomerulus
-- **Reabsorbed**: 90% in PCT; 10% reaches collecting duct
-- **Secreted**: Principal cells of collecting duct (regulated by aldosterone)
-- **Aldosterone**: Stimulates K secretion in principal cells
-
-### Factors Affecting K Secretion
-- **↑Aldosterone**: ↑K secretion
-- **↑Urine flow rate**: ↑K secretion
-- **↓Serum [K]**: ↓K secretion
-- **Acidosis**: ↑K secretion (H⁺ enters cells in exchange for K)
-- **Aldosterone antagonist (spironolactone)**: ↓K secretion (hyperkalemia risk)
-
-### Hyperkalemia
-- Risk: Renal failure, hypoaldosteronism, acidosis, drugs (ACEi, ARB, K-sparing diuretics)
-- ECG changes: Peaked T waves → QRS widening → VF/asystole
-
-### Hypokalemia
-- Causes: Diuretics, vomiting, Conn's syndrome, Cushing's
-- ECG: Flat T waves → U waves → arrhythmias
-
-## Micturition
-
-### Bladder Function
-- **Detrusor muscle**: Smooth muscle; contracts during urination
-- **Internal urethral sphincter**: Involuntary; sympathetic (α1)
-- **External urethral sphincter**: Voluntary; somatic (pudendal nerve)
-
-### Micturition Reflex
-- Stretch receptors in bladder wall → signals to sacral cord
-- Parasympathetic: Contracts detrusor, relaxes internal sphincter
-- **Loss of voluntary control**: Neurogenic bladder (spinal cord lesions)
+- **[View this topic in your FMGE roadmap](/roadmap/?exam=fmge&duration=1mo)** — see where "Renal Physiology" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=fmge&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[FMGE exam overview](/exams/fmge/)** — pattern, eligibility, and syllabus
+- **[All Physiology notes](/notes/fmge/physiology/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

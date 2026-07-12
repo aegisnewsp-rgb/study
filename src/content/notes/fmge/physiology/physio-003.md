@@ -8,203 +8,101 @@ topicName: "Muscle Physiology"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-07-12"
 ---
 
 # Muscle Physiology
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+> Rapid summary for last-minute revision before your FMGE.
 
-**Muscle Physiology** — Key Facts for FMGE
-Core concept: Muscle contraction occurs via the sliding filament mechanism; excitation-contraction coupling links neural input to mechanical output
-High-yield point: The sarcomere is the functional unit; actin slides over myosin using ATP; troponin and tropomyosin regulate this process
-⚡ Exam tip: Tetanus occurs when stimuli arrive faster than the refractory period; unfused (incomplete) tetanus vs fused (complete) tetanus
+**Muscle physiology** explains how **skeletal, cardiac, and smooth muscle** convert a nerve signal into force. The functional contractile unit is the **sarcomere**, built from **actin (thin)** and **myosin (thick)** filaments. Contraction follows the **sliding filament theory**: myosin heads, energised by **ATP hydrolysis**, pull thin filaments toward the M-line so the **Z-lines** move closer.
+
+Key sequence at the **neuromuscular junction (NMJ)**:
+
+- Motor neuron releases **acetylcholine (ACh)** → binds **nicotinic (N<sub>M</sub>)** receptors on the motor end-plate.
+- **End-plate potential** triggers a muscle **action potential** that travels down the **T-tubule**.
+- **Dihydropyridine (DHPR)** receptors activate **ryanodine (RyR)** channels on the **sarcoplasmic reticulum (SR)**.
+- **Ca²⁺** binds **troponin C** → **tropomyosin** shifts → actin sites are exposed → cross-bridge cycling.
+
+**ATP** is required for three steps: cross-bridge cocking, detachment after the power stroke, and **SERCA**-driven Ca²⁺ reuptake during relaxation. Force grades by **motor-unit recruitment** and **rate coding**; peak tension occurs at the **optimal sarcomere length (~2.0–2.2 µm)** where actin–myosin overlap is maximal.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Muscle Physiology** — FMGE Study Guide
+#### Structural Basis of Contraction
+A skeletal-muscle fibre contains **myofibrils** of repeating **sarcomeres** (Z-line to Z-line). The **A-band** (myosin length) stays constant, while the **I-band** and **H-zone** shrink during shortening. Thin filaments are **actin, tropomyosin, and troponin** (TnC, TnI, TnT); thick filaments are **myosin II** with S1 heads and S2 tails.
 
-## Muscle Types
+#### Excitation–Contraction (E-C) Coupling
+The AP in the **T-tubule** is sensed by voltage-gated **DHPR** (L-type Ca²⁺ channels). In **skeletal muscle** DHPRs are mechanically linked to **RyR1** receptors — Ca²⁺ release is independent of extracellular Ca²⁺. In **cardiac muscle**, the RyR2 channel is triggered by **Ca²⁺-induced Ca²⁺ release (CICR)**, requiring Ca²⁺ entry through DHPR. **Smooth muscle** lacks troponin; Ca²⁺ binds **calmodulin**, activating **myosin light-chain kinase (MLCK)** to phosphorylate the myosin regulatory light chain.
 
-**Skeletal muscle**:
-- Striated, voluntary
-- Attached to bones
-- Multiple nuclei, peripheral
-- Innervated by somatic motor neurons
-- Can be isotonic or isometric
+#### Cross-Bridge Cycle and ATP Functions
+1. **ATP binds myosin** → head detaches from actin.
+2. **Myosin ATPase** hydrolyses ATP → head cocks (~45°).
+3. Ca²⁺-exposed actin binds the cocked head.
+4. **Power stroke** releases **ADP + P<sub>i</sub>** → filament slides ~10 nm.
+5. New **ATP** binding re-starts the cycle.
 
-**Cardiac muscle**:
-- Striated, involuntary
-- Found only in heart
-- Single nucleus, central
-- Intercalated disks with gap junctions
-- Autorhythmic (pacemaker cells)
-- Long refractory period (prevents tetanus)
+Without ATP, myosin stays bound — the basis of **rigor mortis**.
 
-**Smooth muscle**:
-- Non-striated (no sarcomeres)
-- Involuntary
-- Found in hollow organs (blood vessels, gut, bladder)
-- Single nucleus, central
-- Two types: Unitary (visceral) and Multiunit
+#### Muscle Mechanics
+| Parameter | Relationship | Clinical / Exam Hook |
+|---|---|---|
+| Length–tension | Active tension peaks at sarcomere length **~2.0–2.2 µm** | Sub-optimal overlap reduces force in over-stretched/shortened muscle |
+| Force–velocity (Hill) | Velocity of shortening **∝ 1/load**; hyperbolic | Peak **power** at ~⅓ max load |
+| Summation / Tetanus | Repeated stimuli sum → **incomplete (unfused)** or **complete (fused) tetanus** | Skeletal only; cardiac cannot tetanise (long absolute refractory period) |
+| Isotonic vs Isometric | **Isotonic**: constant tension, length changes; **Isometric**: constant length, tension changes | Lifting a book = isotonic; pushing a wall = isometric |
 
-## Skeletal Muscle Structure
+#### Fibre Types
+**Type I (slow oxidative)** — fatigue-resistant, rich in mitochondria and myoglobin (red); used for posture. **Type IIa (fast oxidative-glycolytic)** and **Type IIx (fast glycolytic)** — rapid, powerful, fatigue quickly (white).
 
-### Organization
-- **Muscle** → **Fascicles** → **Muscle fibers** → **Myofibrils** → **Sarcomeres**
+#### Energy Sources
+Order of ATP regeneration: stored ATP → **phosphocreatine (PCr)** → **anaerobic glycolysis** → **aerobic oxidation**. The post-exercise **EPOC (oxygen debt)** has an early **alactacid** (PCr resynthesis, ~2–3 min) and a later **lactacid** (lactate clearance) component.
 
-### Sarcomere Structure
-- **Z lines**: Define boundaries of each sarcomere
-- **I band**: Light band; actin only; Z line in middle
-- **A band**: Dark band; myosin + actin overlap
-- **H zone**: Center of A band; myosin only (no actin)
-- **M line**: Center of H zone; structural proteins
-- **I band narrows with contraction**; A band stays same length
+---
 
-### Contractile Proteins
-- **Myosin (thick filament)**: Has heads that bind actin and hydrolyze ATP; arranged in staggered array with central M line
-- **Actin (thin filament)**: Has binding sites for myosin (blocked by tropomyosin in relaxed state); has troponin at regular intervals
-- **Tropomyosin**: Blocks myosin-binding sites on actin when muscle is relaxed
-- **Troponin**: Complex of 3 subunits (TnC binds Ca, TnI inhibits actin-myosin interaction, TnT attaches to tropomyosin)
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-## Excitation-Contraction Coupling
+#### Clinical and Pharmacological Correlates
+**Myasthenia gravis** features antibodies against the **postsynaptic nicotinic ACh receptor (N<sub>M</sub>)** at the motor end-plate, causing fatigable weakness that improves with **edrophonium/tensilon testing** and is treated with **pyridostigmine**, **thymectomy**, and immunosuppression. **Lambert–Eaton syndrome** is a presynaptic **P/Q-type Ca²⁺-channel** disorder (often paraneoplastic) where strength *improves* with repeated effort.
 
-### Steps
-1. **Motor neuron AP** travels down axon to NMJ
-2. **ACh released** from motor neuron terminal
-3. **ACh binds nicotinic receptors** on motor end plate
-4. **End plate potential (EPP)** triggers muscle AP
-5. **Muscle AP** propagates along sarcolemma and into T-tubules
-6. **Depolarization** of T-tubule triggers **DHP receptor** conformational change
-7. **DHP receptor** mechanically opens **ryanodine receptor** (RyR) on sarcoplasmic reticulum
-8. **Ca²⁺ released** from SR into cytoplasm (100x increase from resting ~0.1 μM to ~10 μM)
-9. **Ca²⁺ binds troponin C** → troponin conformational change
-10. **Tropomyosin moves** away from myosin-binding sites on actin
-11. **Myosin heads bind actin** → cross-bridge formation
-12. **Power stroke**: Myosin head pivots, actin slides
-13. **ATP binds myosin** → myosin detaches from actin
-14. **ATP hydrolysis** energizes myosin head for next cycle
+NMJ pharmacology tests recall well: **d-tubocurarine, pancuronium, atracurium** are competitive **non-depolarising** blockers reversed by **neostigmine + glycopyrrolate**; **succinylcholine (suxamethonium)** is a **depolarising** blocker that first depolarises (fasciculations) then desensitises, and may trigger **malignant hyperthermia** via the **RyR1** receptor (treated with **dantrolene**, which blocks SR Ca²⁺ release).
 
-### Relaxation
-- **Ca²⁺-ATPase (SERCA)** pumps Ca²⁺ back into SR (uses ATP)
-- Ca²⁺ binds to calsequestrin in SR (storage)
-- Without Ca²⁺, troponin-tropomyosin complex returns to blocking position
-- Actin and myosin slide apart → muscle relaxes
+**Duchenne muscular dystrophy** is an X-linked **dystrophin** gene mutation; the **Gower sign** and pseudohypertrophy of calves are classic. **Dantrolene** lowers myoplasmic Ca²⁺; **statins** can cause myopathy via CoQ10-linked effects.
 
-### Role of T-tubules
-- Carry depolarization deep into muscle fiber
-- Located at A-I junction (where SR closely surrounds)
-- DHP receptor (voltage sensor) in T-tubule membrane
-- RyR (Ca release channel) in SR membrane
-- Together they couple depolarization to Ca release
+#### Common Examination Traps
+> Many FMGE options test *ATP function*: pick "ATP is needed for cross-bridge detachment" rather than "ATP is needed for the power stroke" (the latter is *P<sub>i</sub>/ADP release).
 
-## Cross-Bridge Cycle
+- **Troponin C** binds Ca²⁺, not tropomyosin. Tropomyosin *blocks* the binding site at rest.
+- **SR** stores Ca²⁺ in skeletal/cardiac muscle — **not** the mitochondria.
+- **Rigor mortis** = ATP depletion, not lactic acid accumulation; onset **2–4 h**, peak **~12 h**, resolution **24–48 h** post-mortem.
+- **Summation and tetanus** are properties of **skeletal**, not cardiac, muscle. **Treppe (Bowditch staircase)** describes cardiac positive force–frequency at higher rates.
+- **Motor unit** = 1 motor neuron + *all* fibres it innervates; gradation is by **recruitment** and **rate coding**, not single-fibre force changes.
 
-1. **Rigor state**: Myosin bound to actin (no ATP)
-2. **ATP binding**: Myosin dissociates from actin
-3. **ATP hydrolysis**: Myosin head cocks (energized state)
-4. **Cross-bridge formation**: Myosin binds to new actin site (weaker binding in cock state)
-5. **Power stroke**: Myosin pivots, actin slides toward M line
-6. **ADP release**: Prepares for next cycle
+#### Micro-Worked Example (Numeric)
+A patient lifts a 10 kg mass (≈ 98 N with g = 9.8 m·s⁻²) through 0.30 m.
+- **Work** = F × d = 98 × 0.30 = **29.4 J**.
+- If the lift takes 2 s, **Power** = 29.4 / 2 = **14.7 W**.
+- One cross-bridge stroke moves the filament ~10 nm against a tiny fraction of a pico-Newton; the **~10⁹** cross-bridges acting in parallel in a single fibre explain macroscopic tension.
 
-**Energy supply**:
-- **Phosphocreatine** (immediate energy, stores high-energy phosphate)
-- **Anaerobic glycolysis** (fast, produces lactate)
-- **Aerobic metabolism** (most efficient, requires oxygen)
+#### Adjacent Links
+Cardiac muscle shares E-C coupling but adds **CICR** and a **long absolute refractory period** (functional syncytium via **intercalated discs** and **gap junctions**, preventing tetanus). Smooth muscle in the gut uses **pacemaker interstitial cells of Cajal**, phasic vs tonic patterns, and **MLCK/MLCP balance** — relevant in tocolysis and asthma pharmacology.
 
-## Mechanics of Contraction
+#### Practice Prompts
+1. *A 22-year-old given succinylcholine develops masseter rigidity, tachycardia to 140/min, end-tidal CO₂ rising from 35 to 65 mmHg, and a temperature of 40.5 °C. Outline the pathophysiology, the receptor involved, and the first-line drug with its mechanism.*
+2. *Sketch the length–tension curve of skeletal muscle. Mark the optimal sarcomere length, explain why passive tension rises at higher lengths, and predict how sarcomere length 3.0 µm would affect active force.*
 
-### Twitch
-- Single stimulus → single contraction
-- **Latent period**: 5-10 ms (time for AP and Ca release)
-- **Contraction time**: 50-100 ms
-- **Relaxation time**: 50-100 ms
+---
 
-### Summation
-- **Wave summation**: Second stimulus arrives before relaxation complete → sum of contractions
-- **Tetani**: High frequency stimulation → no relaxation between contractions
-  - **Incomplete tetanus**: Oscillations between partial relaxation
-  - **Complete tetanus**: Smooth, sustained maximal contraction
+## Continue your study
 
-### Length-Tension Relationship
-- **Optimal length**: Maximum overlap of actin and myosin → maximum tension
-- **Shortened sarcomere**: Less overlap → less tension
-- **Lengthened sarcomere**: Less overlap → less tension
-- **Starling's law of the heart**: Increased preload → increased force (same principle)
-
-### Types of Contraction
-- **Isotonic**: Tension constant, muscle changes length
-  - **Concentric**: Muscle shortens (lifting weight)
-  - **Eccentric**: Muscle lengthens while contracting (lowering weight)
-- **Isometric**: Length constant, tension changes (holding position)
-- **Isoinertial**: Load constant
-
-### Muscle Fiber Types
-
-**Type I (Slow-twitch, red)**:
-- Oxidative (aerobic) metabolism
-- Many mitochondria, myoglobin
-- Resistant to fatigue
-- Postural muscles (soleus)
-- Small diameter, slow contraction
-
-**Type IIA (Fast-twitch, red)**:
-- Oxidative + glycolytic
-- Intermediate fatigue resistance
-- Mixed functions
-
-**Type IIB/IIX (Fast-twitch, white)**:
-- Glycolytic metabolism
-- Few mitochondria, less myoglobin
-- Fatigues quickly
-- Large diameter, fast contraction
-- Powerful movements
-
-## Smooth Muscle
-
-### Structure
-- Spindle-shaped cells, single nucleus
-- No sarcomeres; actin and myosin arranged diagonally
-- Dense bodies (like Z lines) anchor actin
-- Caveolae (T-tubule equivalent)
-
-### Contraction Mechanism
-- **Ca²⁺ enters** via voltage-gated channels or receptor-operated channels
-- **Calmodulin** binds Ca²⁺ (instead of troponin)
-- **Ca²⁺-calmodulin activates MLCK** (myosin light chain kinase)
-- **MLCK phosphorylates myosin light chain** → enables cross-bridge cycling
-- **MLCP** (phosphatase) dephosphorylates → relaxation
-
-### Regulation
-- **Neural**: Autonomic (sympathetic/parasympathetic)
-- **Hormonal**: Epinephrine (via β2 → relaxes), oxytocin (contracts uterus)
-- **Local**: Stretch, hypoxia, H⁺, histamine
-
-### Types
-**Unitary (visceral)**:
-- Gap junctions (syncytium)
-- Spontaneous activity (pacemaker cells)
-- Found in: intestine, uterus, blood vessels
-- Respond as a unit
-
-**Multiunit**:
-- No gap junctions
-- Independent contraction
-- Found in: eye, large blood vessels, airway
-
-## Cardiac Muscle
-
-- Striated like skeletal
-- Single nucleus (usually)
-- Intercalated disks (gap junctions + desmosomes)
-- Long refractory period (no tetanus - important for pumping)
-- All-or-none contraction of entire heart (functional syncytium)
-- **Autorhythmic**: Pacemaker cells generate AP spontaneously
-- **Frank-Starling mechanism**: Increased preload → increased force
+- **[View this topic in your FMGE roadmap](/roadmap/?exam=fmge&duration=1mo)** — see where "Muscle Physiology" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=fmge&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[FMGE exam overview](/exams/fmge/)** — pattern, eligibility, and syllabus
+- **[All Physiology notes](/notes/fmge/physiology/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

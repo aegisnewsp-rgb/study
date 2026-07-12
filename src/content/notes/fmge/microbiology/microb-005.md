@@ -8,135 +8,117 @@ topicName: "Virology — General Concepts, DNA & RNA Viruses"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-07-12"
 ---
 
 # Virology — General Concepts, DNA & RNA Viruses
 
-## Introduction
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
 
-Viruses are obligate intracellular parasites that cannot replicate independently — they require host cell machinery to reproduce. Viruses cause a significant proportion of human infectious diseases, ranging from the common cold to AIDS, hepatitis, encephalitis, and emerging infections like COVID-19. For FMGE, understanding viral replication cycles, classification, and specific viral pathogens is essential.
+A **virion** is the complete infectious particle: a nucleic acid core (DNA *or* RNA, never both) packaged inside a protein **capsid** of repeating **capsomeres**, sometimes wrapped in a host-derived lipid **envelope** studded with glycoprotein **peplomers (spikes)**. Size ranges 20–300 nm, and viruses are **obligate intracellular parasites** — they cannot generate ATP or ribosomes and must hijack a living host cell.
 
-## General Properties of Viruses
+The **Baltimore classification** is the single most-tested framework: it sorts viruses into 7 groups by genome type and replication strategy, and FMGE questions routinely ask "which Baltimore group does this virus belong to?"
 
-- **Size:** 20–300 nm (much smaller than bacteria)
-- **Nucleic acid:** Either DNA or RNA — never both
-- **Protein coat (capsid):** Composed of capsomeres; protects nucleic acid
-- **Symmetry:** Icosahedral (e.g., poliovirus, adenovirus) or helical (e.g., rabies, tobacco mosaic virus)
-- **Envelope:** Present in some viruses ( lipid bilayer derived from host cell membrane); viruses without envelopes are more resistant (e.g., adenovirus, poliovirus)
-- **No metabolism:** No enzymes for energy production or protein synthesis — entirely dependent on host
-
-## Viral Replication — General Steps
-
-1. **Attachment (Adsorption):** Viral surface proteins (hemagglutinin in influenza; gp120 in HIV) bind to specific host cell receptors
-2. **Penetration:** Receptor-mediated endocytosis (non-enveloped viruses) or membrane fusion (enveloped viruses)
-3. **Uncoating:** Capsid removed; viral nucleic acid released into cytoplasm/nucleus
-4. **Replication:** Viral genome replicates; viral mRNA and proteins synthesized using host machinery
-5. **Assembly (Maturation):** New virions assembled
-6. **Release:** Budding (enveloped viruses) or cell lysis (non-enveloped viruses)
-
-## Viral Classification (Baltimore Classification)
-
-| Class | Genome | Example |
+| Baltimore | Genome | Example family |
 |---|---|---|
-| I | dsDNA | Herpesvirus, Adenovirus |
-| II | ssDNA (positive sense) | Parvovirus |
-| III | dsRNA | Rotavirus |
-| IV | ssRNA (+) sense | Poliovirus, Hepatitis A, SARS-CoV-2 |
-| V | ssRNA (−) sense | Influenza, Rabies, Measles |
-| VI | ssRNA (+) → DNA (reverse transcriptase) | HIV (Retrovirus) |
-| VII | dsDNA → RNA (reverse transcriptase) | Hepatitis B (Hepadnavirus) |
+| I | dsDNA | Herpesviridae, Adenoviridae |
+| II | ssDNA | Parvoviridae (B19) |
+| III | dsRNA | Reoviridae (Rotavirus) |
+| IV | (+)ssRNA | Picornaviridae, Togaviridae, Flaviviridae |
+| V | (−)ssRNA | Orthomyxoviridae, Paramyxoviridae, Rhabdoviridae |
+| VI | ssRNA-RT | Retroviridae (HIV) |
+| VII | dsDNA-RT | Hepadnaviridae (HBV) |
 
-## Important DNA Viruses
+> High-yield traps: **Parvovirus = ssDNA (not dsDNA)**; **HIV = Baltimore VI, not IV**; **Poxvirus replicates in cytoplasm**, not nucleus; **HBV uses reverse transcription** despite being a DNA virus.
 
-### Herpesviruses (Family: Herpesviridae)
+---
 
-All herpesviruses are large, enveloped, dsDNA viruses. They establish **latency** after primary infection and can reactivate periodically.
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-- ***Herpes simplex virus type 1 (HSV-1)*** — oral herpes; cold sores; also causes herpes simplex encephalitis (temporal lobe involvement)
-- ***Herpes simplex virus type 2 (HSV-2)*** — genital herpes; vesicular lesions on erythematous base
-- ***Varicella-zoster virus (VZV)*** — chickenpox (varicella — primary infection); shingles (zoster — reactivation along dermatome); **Tzanck smear** shows multinucleated giant cells
-- ***Cytomegalovirus (CMV)*** — congenital infections (periventricular calcifications, hearing loss, hepatosplenomegaly); mononucleosis-like syndrome in immunocompromised; **owl's eye** intranuclear inclusion bodies
-- ***Epstein-Barr virus (EBV)*** — infectious mononucleosis (fatigue, pharyngitis, lymphadenopathy — especially posterior cervical); **Downey cells** (atypical lymphocytes); associated with **Burkitt lymphoma** (endemic, jaw involvement in African children) and **nasopharyngeal carcinoma**
+#### Virion architecture and symmetry
 
-### Hepatitis Viruses
+The capsid adopts one of three symmetries. **Icosahedral** (20 triangular faces, icosahedral) is seen in adenovirus, poliovirus, and papillomavirus. **Helical** symmetry appears in rabies, tobacco mosaic–like animal viruses, and most enveloped RNA viruses. **Complex** symmetry is unique to poxviruses, which carry a brick-shaped structure with lateral bodies and a dumbbell-shaped core. Enveloped viruses acquire their bilayer from the host plasma membrane (HIV), Golgi (HBV), or nuclear membrane (herpesviruses); the embedded glycoproteins (HA/NA in influenza, gp120 in HIV, HBsAg in HBV) determine tropism and are the main antigenic targets.
 
-| Virus | Genome | Transmission | Chronic Risk | Vaccine |
-|---|---|---|---|---|
-| **Hepatitis A** | ssRNA (+) | Fecal-oral | No chronic | Yes |
-| **Hepatitis B** | dsDNA (partially) | Blood, sexual, perinatal | **Yes** (10%) | **Yes** |
-| **Hepatitis C** | ssRNA (+) | Blood | **Yes** (80%) | No |
-| **Hepatitis E** | ssRNA (+) | Fecal-oral | No (except preg.) | No (in India) |
+#### Genome polarity — the highest-yield distinction
 
-**Hepatitis B serology:**
-- HBsAg: Surface antigen — indicates active infection
-- Anti-HBs: Surface antibody — indicates immunity (infection recovery or vaccination)
-- HBcAg: Core antigen — not detectable in serum
-- Anti-HBc (IgM): Acute/recent infection
-- Anti-HBc (IgG): Past infection or chronic
-- HBeAg: Viral replication marker — high infectivity
+Positive-sense RNA viruses carry genomes that read directly as mRNA and translate immediately on entry — **Picornaviridae** (polio, hepatitis A, coxsackie), **Togaviridae** (rubella), **Flaviviridae** (dengue, yellow fever, Zika, HCV), **Coronaviridae** (SARS-CoV-2). They do **not** need to package an RNA polymerase.
 
-**Hepatitis B vaccine** — contains recombinant HBsAg; 3-dose schedule (0, 1, 6 months); protective antibody level ≥10 mIU/mL
+Negative-sense RNA viruses cannot translate directly; their virion must carry a **virion-associated RNA-dependent RNA polymerase**. Families: **Orthomyxoviridae** (influenza, segmented), **Paramyxoviridae** (measles, mumps, RSV, parainfluenza), **Rhabdoviridae** (rabies), **Filoviridae** (Ebola, Marburg), **Bunyaviridae** (Hantaan, Crimean-Congo), **Arenaviridae** (LCM, Lassa). **dsRNA** viruses (rotavirus) also carry a polymerase because the host ribosome cannot read dsRNA.
 
-## Important RNA Viruses
+#### Replication cycle
 
-### Orthomyxoviridae — Influenza Virus
+1. **Attachment** — spike binds host receptor (HIV gp120 → CD4+CCR5; influenza HA → sialic acid; rabies Gp → acetylcholine receptor).
+2. **Penetration** — receptor-mediated endocytosis (most) or direct fusion (HIV, herpes).
+3. **Uncoating** releases genome.
+4. **Early transcription/translation** — early proteins (polymerases, regulatory factors).
+5. **Genome replication**.
+6. **Late transcription/translation** — structural proteins.
+7. **Assembly** in nucleus (DNA viruses, except pox) or cytoplasm (RNA viruses + pox).
+8. **Release** by budding (enveloped) or cell lysis (naked).
 
-**Segmented, negative-sense, single-stranded RNA virus** with envelope; **hemagglutinin (HA)** mediates attachment and entry; **neuraminidase (NA)** cleaves sialic acid for release of new virions.
+#### Enveloped vs naked — clinical relevance
 
-- **Antigenic drift** — minor mutations in HA/NA; causes seasonal epidemics
-- **Antigenic shift** — major reassortment of genome segments (especially in avian/human strains); causes **pandemics** (e.g., H1N1 2009)
+| Feature | Enveloped | Naked |
+|---|---|---|
+| Examples | HIV, Influenza, HBV, HSV, Measles | Adenovirus, Polio, HPV, Rotavirus, HAV |
+| Disinfectant sensitivity | Labile — destroyed by ether, chloroform, heat, drying | Resistant — survives drying, acid, bile, detergents |
+| Transmission | Respiratory droplets, body fluids, blood | Faecal-oral, fomites, sexual |
+| Common sites | Mucosa, blood, neural | Gut, skin, conjunctiva |
 
-**Laboratory diagnosis:** Nasopharyngeal swab → RT-PCR (gold standard); rapid antigen detection; viral culture in MDCK cells
+> Mnemonic for naked DNA icosahedral viruses: **"HAPPy"** — Hepadnavirus is the exception (enveloped); Adenovirus, Papillomavirus, Polyomavirus, Parvovirus are naked.
 
-**Treatment:** **Oseltamivir**, **zanamivir** (neuraminidase inhibitors); amantadine/rimantadine (M2 inhibitors — no longer recommended due to resistance)
+---
 
-### Paramyxoviruses
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-- ***Measles virus*** — Koplik spots (pathognomonic), maculopapular rash (head to toe), conjunctivitis, cough, coryza (3 Cs); giant cell pneumonia, subacute sclerosing panencephalitis (SSPE); **inactivated measles vaccine** caused atypical measles
-- ***Mumps virus*** — parotitis (bilateral); aseptic meningitis, orchitis, pancreatitis
-- ***Respiratory syncytial virus (RSV)*** — major cause of bronchiolitis in infants; **syncytial giant cells** in respiratory epithelium
-- ***Human metapneumovirus*** — acute respiratory tract infections in children
+#### Cytopathic effects and diagnostic inclusions
 
-### Rhabdoviridae — Rabies Virus
+A **cytopathic effect (CPE)** is the visible change a virus produces in cultured cells. Classifiable patterns include cell rounding (adenovirus, poliovirus), **syncytia** (multinucleate giant cells from fusion — measles, RSV, HIV, HSV, VZV), **haemadsorption** (measles, influenza — RBCs stick to infected monolayer), **plaques** (clearings where virus has lysed cells), and **transformation** (focus formation by HTLV-1, EBV).
 
-**Bullet-shaped**, negative-sense ssRNA virus; **Negri bodies** (intracytoplasmic inclusion bodies) in neurons — pathognomonic for rabies; transmitted via animal bite (dog is main reservoir in India)
+Inclusion bodies are diagnostically high-yield:
 
-**Clinical stages:** Prodrome (fever, paresthesia at bite site) → **Excitative phase** (hydrophobia, aerophobia, agitation, hypersalivation) → Coma → Death
+| Inclusion | Virus | Location |
+|---|---|---|
+| **Negri bodies** | Rabies | Cytoplasmic, in hippocampal/pyramidal neurons — pathognomonic |
+| **Cowdry type A** | HSV, VZV | Intranuclear, eosinophilic |
+| **Cowdry type B** | Poliovirus, adenovirus | Intranuclear |
+| **Owl-eye** | CMV | Large intranuclear with halo |
+| **Guarnieri bodies** | Poxviruses | Cytoplasmic |
 
-**Post-exposure prophylaxis (PEP):** Wound cleaning + rabies immunoglobulin (RIG — infiltrated around wound) + **rabies vaccine** (day 0, 3, 7, 14, 28 — Zagreb 2-1-1 regimen or standard 5-dose Essen)
+#### Bacteriophage life cycles and lysogeny
 
-### HIV (Human Immunodeficiency Virus)
+The **lytic cycle** (T4 phage): adsorption → injection → early transcription → replication → late transcription → assembly → lysis by **lysozyme**. The **lysogenic cycle** (λ phage): after injection, the genome integrates as a **prophage**, replicates silently with host chromosome, and is induced by UV/stress via **SOS recA** cleavage of the **cI repressor**, then enters lytic phase. Lysogenic conversion gives *Corynebacterium diphtheriae* the **tox** gene, *Vibrio cholerae* the **ctx** gene for cholera toxin, and *Clostridium botulinum* type C botulinum toxin.
 
-**Retrovirus** (ssRNA → reverse transcriptase → dsDNA → integration into host genome)
+#### Prions — the deliberate exception
 
-**Structure:** Enveloped; two copies of **gp120/gp41** on surface (receptor binding); **p24** capsid protein (diagnostic marker); **reverse transcriptase**, integrase, protease
+**Prions** (PrP^Sc) cause CJD, kuru, GSS, fatal familial insomnia, vCJD. They contain no nucleic acid, are not viruses, and are excluded from Baltimore classification — yet are tested alongside virology because they are protein-only infectious agents resistant to standard sterilisation except **1 N NaOH, 134 °C for 18 min, or concentrated bleach**.
 
-**Transmission:** Blood, sexual contact, perinatal; **CD4+ T lymphocytes** are primary target (CD4 is the receptor)
+#### Worked schematic — how HBV blurs the DNA/RNA boundary
 
-**Opportunistic infections (AIDS-defining):**
-- **Pneumocystis jirovecii pneumonia (PJP)** — most common AIDS-defining illness; ground-glass appearance on chest X-ray; diagnosis by BAL with methenamine silver stain
-- **Oesophageal candidiasis** — white plaques
-- **Cryptococcal meningitis** — India ink negative stain of CSF
-- **Toxoplasma encephalitis** — ring-enhancing brain lesions
-- **Cryptosporidium** — watery diarrhea
+Hepadnavirus uses an unusual strategy: the relaxed circular **dsDNA** genome is repaired in the nucleus to **cccDNA**, then transcribed by host RNA Pol II into a **pregenomic (+)ssRNA**. The virion's reverse transcriptase copies this RNA back into DNA inside the assembling capsid — meaning HBV goes through an RNA intermediate, justifying Baltimore group VII.
 
-**Diagnosis:** ELISA (screening) → Western blot (confirmation); now replaced by rapid immunochromatographic tests; **CD4 count** for staging and treatment decisions
+#### Common FMGE traps
 
-**Treatment (ART — Antiretroviral Therapy):** **HAART** (Highly Active ART) — combination of at least 3 drugs:
-- **NRTIs** (Zidovudine, Tenofovir, Lamivudine)
-- **NNRTIs** (Efavirenz, Nevirapine)
-- **Protease inhibitors** (Ritonavir, Lopinavir)
-- **Integrase inhibitors** (Raltegravir, Dolutegravir)
+- Listing HIV under Baltimore IV — it is **Group VI (ssRNA-RT)**.
+- Calling Poxvirus a nuclear virus — replicates entirely in cytoplasm using a packaged DNA-dependent RNA polymerase.
+- Marking HBV as naked — it is **enveloped** with HBsAg spikes.
+- Believing prions are viruses — explicitly excluded.
 
-## FMGE High-Yield Points
+#### Practice prompts
 
-- **HSV-1** = oral; **HSV-2** = genital; **VZV** = chickenpox/shingles; **CMV** = congenital CMV (owl's eye inclusions); **EBV** = infectious mono (Downey cells) + Burkitt lymphoma
-- **Hepatitis B serology:** HBsAg positive + Anti-HBs negative = acute/chronic infection
-- **HBsAg** positive + HBeAg positive = high infectivity
-- **Influenza** = segmented, negative-sense RNA; antigenic drift (epidemic) vs. shift (pandemic)
-- **Rabies** = Negri bodies; hydrophobia; PEP with vaccine + immunoglobulin
-- **HIV** = CD4+ T cell destruction; PJP most common AIDS-defining illness; CD4 <200 = start prophylaxis for PJP, toxoplasma, MAC
-- **Rotavirus** = most common cause of severe childhood diarrhea globally; double-shelled wheel appearance on EM; oral rehydration is cornerstone of treatment
+1. A 6-year-old presents with fever, Koplik spots, and a maculopapular rash; buccal scraping shows multinucleate giant cells. Identify the virus family, Baltimore group, and the type of inclusion/syncytium.
+2. A rabies brain biopsy shows eosinophilic cytoplasmic inclusions in hippocampal neurons. Name the inclusion, the virus family, its symmetry, and whether it is enveloped or naked.
 
-⚡ **Exam tip:** A child with acute watery diarrhea, dehydration, and characteristic "wheel-like" virus particles on electron microscopy = **rotavirus gastroenteritis**. Supportive care + ORS is the treatment.
+---
+
+## Continue your study
+
+- **[View this topic in your FMGE roadmap](/roadmap/?exam=fmge&duration=1mo)** — see where "Virology — General Concepts, DNA & RNA Viruses" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=fmge&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[FMGE exam overview](/exams/fmge/)** — pattern, eligibility, and syllabus
+- **[All Microbiology notes](/notes/fmge/microbiology/)** — browse sibling topics in this subject
+
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

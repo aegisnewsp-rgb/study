@@ -8,7 +8,7 @@ topicName: "Neoplasia"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-07-12"
 ---
 
 # Neoplasia
@@ -16,190 +16,100 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Neoplasia** — Key Facts for FMGE
-Core concept: Neoplasia is autonomous, uncontrolled cell proliferation with loss of normal growth control
-High-yield point: Benign tumors are encapsulated and don't metastasize; malignant tumors are invasive and can metastasize via blood or lymph
-⚡ Exam tip: Grading vs staging and tumor markers are high-yield topics in FMGE
+- **Definition:** A **neoplasm** is an abnormal tissue mass whose growth is **autonomous**, uncoordinated, and persists after the inciting stimulus is removed, arising from a clonal proliferation of genetically altered cells.
+- **Nomenclature:** Benign epithelial = *adenoma*, *papilloma*; malignant epithelial = **carcinoma**; benign mesenchymal = *-oma* (e.g., lipoma); malignant mesenchymal = **sarcoma**; blood cancers = *leukemia*/*lymphoma*.
+- **Carcinogenesis is multistep:** **Initiation** (irreversible DNA damage) → **Promotion** (clonal expansion) → **Progression** (additional mutations → malignancy).
+- **Two gene classes:** **Proto-oncogenes** (gain-of-function, dominant; e.g., *RAS*, *MYC*, *HER2*) and **tumor suppressor genes** (loss-of-function, recessive per **Knudson two-hit**; e.g., *RB*, *TP53*, *APC*, *BRCA1/2*).
+- **Grading vs staging:** Grading = microscopic differentiation; **TNM staging** = anatomic extent and the strongest prognostic indicator.
+- **High-yield FMGE pointers:** Carcinoma in situ has full-thickness atypia but **intact basement membrane**; p53 is the "guardian of the genome"; PSA tracks prostate cancer, AFP tracks HCC/yolk-sac tumor, β-hCG tracks choriocarcinoma.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Neoplasia** — FMGE Study Guide
+#### Hallmarks of Cancer (Hanahan & Weinberg)
 
-## Definitions
+A unifying framework for FMGE MCQs on tumor biology. Each hallmark maps to a specific molecular lesion.
 
-**Neoplasia**: New, uncontrolled growth of cells that exceeds normal tissue architecture and persists after the stimulus is removed
+| Hallmark | Mechanism | Example |
+|---|---|---|
+| Sustained proliferative signaling | Autocrine loops, RAS-MAPK activation | *HER2* amplification in breast cancer |
+| Evasion of growth suppressors | Loss of *RB*, *TP53* | Retinoblastoma, Li-Fraumeni |
+| Resistance to cell death | BCL-2 overexpression | Follicular lymphoma, t(14;18) |
+| Replicative immortality | Telomerase reactivation | Most carcinomas |
+| Sustained angiogenesis | VEGF secretion | Renal cell carcinoma |
+| Invasion & metastasis | E-cadherin loss, MMP secretion | Epithelial–mesenchymal transition |
+| Deregulated cellular energetics | **Warburg effect** (aerobic glycolysis) | FDG-PET uptake |
 
-**Tumor**: Any swelling or mass; technically different from neoplasia but often used interchangeably
+#### Grading Versus Staging
 
-**Benign tumor**: Slow-growing, encapsulated, does not invade or metastasize (suffix: -oma)
-**Malignant tumor**: Rapid-growing, invasive, can metastasize (suffix: -carcinoma for epithelial, -sarcoma for mesenchymal)
+**Grading** scores differentiation: **GX** (cannot assess), **G1** (well differentiated, mild anaplasia), **G2** (moderate), **G3** (poorly differentiated), **G4** (undifferentiated, marked anaplasia). **Staging** uses **TNM**: **T** = size/extent of primary tumor, **N** = regional lymph node spread, **M** = distant metastasis. Staging outweighs grading for prognosis and is the basis of treatment planning.
 
-## Nomenclature
+#### Carcinoma In Situ vs Invasive Carcinoma
 
-### Benign Tumors
-- Connective tissue: Lipoma, chondroma, osteoma, fibroma
-- Smooth muscle: Leiomyoma
-- Blood vessels: Hemangioma
-- Glands: Adenoma (benign glandular tumor)
+> Both show **full-thickness cytologic atypia** and loss of polarity. The defining line is the **basement membrane**: intact in *in situ* (no metastasis possible), breached in *invasive* (metastasis becomes possible).
 
-### Malignant Tumors
-- **Carcinoma**: Malignant tumor of epithelial origin (squamous cell carcinoma, adenocarcinoma)
-- **Sarcoma**: Malignant tumor of mesenchymal origin (osteosarcoma, leiomyosarcoma, fibrosarcoma)
-- **Mixed tumors**: Contain multiple cell types (e.g., pleomorphic adenoma of salivary gland)
-- **Teratoma**: Germ cell tumor with multiple tissue types from all three embryologic layers
+#### High-Yield Tumor Markers
 
-### Special Nomenclature
-- Leukemia: Malignant proliferation of WBCs in blood/bone marrow
-- Lymphoma: Malignant lymphoid tumors
-- Myeloma: Plasma cell neoplasm
-- Seminoma/dysgerminoma: Testicular/ovarian germ cell tumors
+| Marker | Primary Tumor | Caveat |
+|---|---|---|
+| AFP | Hepatocellular carcinoma, yolk-sac tumor | Also rises in hepatitis, pregnancy |
+| CEA | Colorectal carcinoma | Non-specific; used for monitoring |
+| PSA | Prostate cancer | Elevated in BPH/prostatitis |
+| β-hCG | Choriocarcinoma, gestational trophoblastic disease | Also rises in normal pregnancy |
+| CA-125 | Ovarian cancer | Raised in endometriosis, PID |
+| CA 19-9 | Pancreatic adenocarcinoma | Non-specific |
+| Calcitonin | Medullary thyroid carcinoma | Used for screening in MEN2 |
 
-## Differences Between Benign and Malignant Tumors
+---
 
-| Feature | Benign | Malignant |
-|---------|--------|-----------|
-| Growth rate | Slow | Rapid |
-| Capsulation | Encapsulated | Not encapsulated |
-| Borders | Well-defined | Infiltrative/irregular |
-| Metastasis | Absent | Present |
-| Differentiation | Well-differentiated | Poorly differentiated |
-| Mitosis | Rare, normal | Frequent, abnormal |
-| Necrosis | Rare | Common |
-| Recurrence | Rare after removal | Common |
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-## Local Invasion and Metastasis
+#### Viral and Chemical Carcinogenesis
 
-### Mechanisms of Spread
+Three viral associations are repeatedly tested: **HPV** (types 16, 18) — E6 degrades **p53**, E7 inactivates **RB**, driving cervical, anal, and oropharyngeal squamous carcinoma; **EBV** — Burkitt lymphoma via t(8;14) *MYC* translocation, plus nasopharyngeal carcinoma and post-transplant lymphoproliferation; **H. pylori** — gastric **MALT lymphoma** (regresses with eradication in early lesions). **HBV/HCV** cause hepatocellular carcinoma through chronic inflammation and cirrhosis.
 
-**Local invasion**:
-- Malignant cells lose adhesion molecules (E-cadherin)
-- Secrete proteolytic enzymes (collagenase, MMPs) to degrade basement membrane
-- Direct invasion into surrounding tissue
+Chemical carcinogens to recognize on FMGE: **polycyclic aromatic hydrocarbons** in tobacco (lung, larynx, bladder), **aflatoxin B1** (HCC, *TP53* codon 249 mutation), **nitrosamines** (gastric cancer), **asbestos** (mesothelioma, bronchogenic carcinoma — synergistic with smoking), and **benzene** (leukemia). **UV-B** (290–320 nm) produces pyrimidine dimers implicated in skin cancers, while ionizing radiation causes double-strand breaks leading to *RB*, *TP53*, or *ATM* loss.
 
-**Lymphatic spread**:
-- Carcinomas spread via lymphatics more than sarcomas
-- Sentinel lymph node: First node draining a tumor (important for staging)
-- Can cause lymphangitic carcinomatosis
+#### Paraneoplastic Syndromes
 
-**Hematogenous spread**:
-- Invasion of blood vessels (angioinvasion)
-- Sarcomas commonly spread via blood
-- Portal circulation → liver metastases (GI cancers)
-- IVC → lung metastases (renal, testicular cancers)
+Endocrine and immune phenomena occur in 10–15% of malignancies and are testable.
 
-### Patterns of Metastasis
+- **SIADH** and ectopic **ACTH (Cushing)** → small cell lung carcinoma.
+- **Hypercalcemia via PTHrP** → squamous cell carcinoma of lung; **hypercalcemia via osteolytic metastases** → breast carcinoma, multiple myeloma.
+- **Trousseau migratory thrombophlebitis** → pancreatic adenocarcinoma (mucin-induced hypercoagulability).
+- **Lambert-Eaton myasthenic syndrome** → small cell lung carcinoma (antibodies against presynaptic voltage-gated calcium channels).
+- **Hypertrophic osteoarthropathy** and **finger clubbing** → bronchogenic carcinoma.
+- **Polycythemia** (ectopic EPO) → renal cell carcinoma, hepatocellular carcinoma.
 
-- **Carcinoma**: Lungs, liver, brain, bones
-- **Sarcoma**: Lungs (most common)
-- **Prostate cancer**: Bones (osteoblastic metastases)
-- **Breast cancer**: Bones, brain, liver, lungs
-- **Colon cancer**: Liver (portal drainage)
+#### Mode of Spread and Metastatic Tropism
 
-**Seed and soil hypothesis**: Certain tumors metastasize to specific organs due to microenvironment compatibility
+Local invasion requires loss of **E-cadherin** and secretion of **matrix metalloproteinases** (MMP-2, MMP-9). Metastasis uses three routes: **lymphatic** (typical for carcinomas; sentinel-node biopsy guides resection), **hematogenous** (sarcomas, lung, breast, renal, thyroid; liver and lung are first capillary filters), and **transcoelomic** (ovarian → peritoneal surfaces). FMGE loves organ-specific tropism pairings: **prostate → osteoblastic bone**; **lung → adrenal, brain, bone**; **breast → bone, lung, liver, brain**; **gastric signet-ring → Krukenberg in ovary**.
 
-## Grading and Staging
+#### Common Pitfalls
 
-### Grading (Tumor Characteristics)
-Based on degree of differentiation and mitotic activity:
-- **Grade I (G1)**: Well-differentiated, low mitotic rate
-- **Grade II (G2)**: Moderately differentiated
-- **Grade III (G3)**: Poorly differentiated
-- **Grade IV (G4)**: Anaplastic/undifferentiated
+> Mark each as "trap" before answering.
+- Hyperplasia is reversible and stimulus-dependent; neoplasia is autonomous and persists.
+- Benign tumors can kill by **location** (pituitary adenoma, meningioma) or **hormone secretion** (pheochromocytoma, insulinoma).
+- Some benign lesions are **premalignant**: villous colonic adenoma, oral leukoplakia, Barrett esophagus.
+- Grading assesses differentiation; staging is more important clinically.
+- Apoptosis evasion (BCL-2) is distinct from increased proliferation — both occur in cancer.
 
-### TNM Staging System
-- **T**: Tumor size and local extent (T1-T4)
-- **N**: Lymph node involvement (N0-N3)
-- **M**: Distant metastasis (M0-M1)
+#### Practice Prompts
 
-**Stage grouping**:
-- Stage 0: Carcinoma in situ
-- Stage I: Small, localized tumor
-- Stage II: Larger or with minimal spread
-- Stage III: Extensive local/regional spread
-- Stage IV: Distant metastasis
+1. A 45-year-old smoker with weight loss presents with hematuria and bilateral flank masses. Biopsy shows a urothelial carcinoma with E-cadherin loss. Which hallmark of cancer does E-cadherin loss best represent, and which route of spread accounts for the bilateral renal involvement?
+2. A 6-year-old develops bilateral retinoblastoma. The father had unilateral retinoblastoma diagnosed at age 3. Explain how **Knudson's two-hit hypothesis** accounts for the earlier and bilateral presentation in the child, and identify the chromosome involved.
 
-## Oncogenes and Tumor Suppressor Genes
+---
 
-### Oncogenes (Growth-promoting genes)
-- **ras**: GTPase signal transducer; mutated in many cancers (30% of all human tumors)
-- **myc**: Transcription factor; overexpressed in Burkitt lymphoma (t(8;14))
-- **bcl-2**: Prevents apoptosis; overexpressed in follicular lymphoma t(14;18)
-- **Her2/neu (ERBB2)**: Receptor tyrosine kinase; amplified in breast cancer
-- **bcr-abl**: Tyrosine kinase; fusion in CML t(9;22) - targeted by imatinib
-- **EGFR**: Growth factor receptor; mutated in lung adenocarcinoma
+## Continue your study
 
-### Tumor Suppressor Genes (Growth-inhibiting genes)
-- **p53**: "Guardian of genome" - most frequently mutated gene in human cancers; prevents DNA-damaged cells from replicating
-- **Rb (Retinoblastoma)**: Blocks cell cycle at G1/S checkpoint; both alleles must be lost
-- **APC**: Adenomatous polyposis coli; loss → familial adenomatous polyposis (FAP) → colon cancer
-- **BRCA1/BRCA2**: DNA repair; mutations → breast and ovarian cancer
-- **WT1**: Wilms tumor suppressor
-- **NF1/NF2**: Neurofibromatosis (nerve sheath tumors)
-
-## Carcinogenic Agents
-
-### Chemical Carcinogenesis
-**Initiators** (irreversible):
-- Polycyclic aromatic hydrocarbons: Benzopyrene (smoke, charcoal-grilled meat) → lung, skin cancer
-- Aromatic amines: 2-naphthylamine → bladder cancer
-- Nitrosamines: Gastric cancer
-- Alkylating agents: Chemotherapy agents (cyclophosphamide)
-
-**Promoters** (reversible, require initiator):
-- Phenobarbital (promotes liver tumors)
-- Hormones (estrogen)
-
-**Carcinogenesis stages**: Initiation (mutations) → Promotion (clonal expansion) → Progression (malignant phenotype)
-
-### Viral Oncogenesis
-- **HPV (Human Papillomavirus)**: E6 protein inactivates p53, E7 inactivates Rb → cervical carcinoma
-- **HBV, HCV**: Chronic hepatitis → hepatocellular carcinoma
-- **EBV**: Burkitt lymphoma, nasopharyngeal carcinoma, post-transplant lymphoproliferative disorder
-- **HTLV-1**: Adult T-cell leukemia/lymphoma
-- **HHV-8 (Kaposi sarcoma-associated herpesvirus)**: Kaposi sarcoma
-
-### Radiation Carcinogenesis
-- **UV radiation**: Basal cell carcinoma, squamous cell carcinoma, melanoma (DNA damage, pyrimidine dimers)
-- **Ionizing radiation**: Leukemia (atomic bomb survivors), thyroid cancer (radioiodine)
-
-## Tumor Markers
-
-| Marker | Associated Tumor |
-|--------|-----------------|
-| AFP | Hepatocellular carcinoma, non-seminomatous germ cell tumors |
-| CEA | Colorectal cancer (also raised in pancreatitis, smoking) |
-| CA-125 | Ovarian cancer |
-| CA-19-9 | Pancreatic cancer |
-| PSA | Prostate cancer |
-| β-hCG | Choriocarcinoma, testicular germ cell tumors |
-| Calcitonin | Medullary thyroid carcinoma |
-| S-100 | Melanoma |
-| Alkaline phosphatase | Bone metastases (osteoblastic), liver metastases |
-
-## Paraneoplastic Syndromes
-
-Symptoms produced by tumors at sites distant from the tumor itself:
-
-- **PTHrP** (Parathyroid hormone-related peptide): Hypercalcemia (squamous cell lung cancer, breast cancer)
-- **ACTH**: Cushing syndrome (small cell lung cancer)
-- **ADH**: SIADH (small cell lung cancer)
-- **EPO**: Polycythemia (renal cell carcinoma, cerebellar hemangioma)
-- **5-HT** (Serotonin): Carcinoid syndrome (bronchial adenoma, GI carcinoid)
-- **Calcitonin**: Diarrhea (medullary thyroid carcinoma)
-
-## Hallmarks of Cancer (Hanahan and Weinberg)
-
-1. Self-sufficiency in growth signals
-2. Insensitivity to growth-inhibitory signals
-3. Evasion of apoptosis
-4. Limitless replicative potential (telomerase activation)
-5. Sustained angiogenesis
-6. Ability to invade and metastasize
-7. Reprogramming energy metabolism (Warburg effect)
-8. Evasion of immune destruction
+- **[View this topic in your FMGE roadmap](/roadmap/?exam=fmge&duration=1mo)** — see where "Neoplasia" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=fmge&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[FMGE exam overview](/exams/fmge/)** — pattern, eligibility, and syllabus
+- **[All Pathology notes](/notes/fmge/pathology/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

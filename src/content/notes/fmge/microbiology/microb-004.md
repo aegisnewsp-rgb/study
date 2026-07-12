@@ -8,138 +8,105 @@ topicName: "Gram-Negative Cocci, Bacilli & Enterobacteriaceae"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-07-12"
 ---
 
 # Gram-Negative Cocci, Bacilli & Enterobacteriaceae
 
-## Introduction
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
 
-Gram-negative bacteria are responsible for a vast array of human infections, from meningitis and gonorrhea to typhoid, dysentery, and plague. This chapter covers the most clinically important gram-negative organisms for FMGE: **Neisseria** species, ** Haemophilus**, the **Enterobacteriaceae** family, and other clinically significant gram-negative rods.
+- **Gram-negative cells** lose crystal violet during decolorization because alcohol dissolves their LPS-rich outer membrane, so safranin stains them **pink/red**.
+- **Lipid A of LPS** is the **endotoxin** that drives septic shock via TLR4 → TNF-α/IL-1/IL-6 release; this is the defining toxin of Gram-negative sepsis.
+- **Enterobacteriaceae** = oxidase-**negative**, glucose-fermenting, facultatively anaerobic rods; split into **lactose fermenters** (E. coli, Klebsiella, Enterobacter, Citrobacter) and **non-lactose fermenters** (Shigella, Salmonella, Proteus, Yersinia).
+- **Neisseria quick split:** *N. meningitidis* ferments **maltose + glucose** and has a polysaccharide capsule; *N. gonorrhoeae* ferments **only glucose** and lacks a capsule.
+- **Pseudomonas** is the classic **oxidase-positive** Gram-negative rod — **NOT** an Enterobacteriaceae; produces **pyocyanin (blue-green)** and **pyoverdine (yellow-green)**.
 
-## Neisseria
+---
 
-### *Neisseria meningitidis* (Meningococcus)
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-**Morphology:** Gram-negative, kidney bean-shaped diplococci; intracellular diplococci seen in CSF neutrophils
+#### Cell Envelope and Endotoxin
 
-**Classification:** Serogroups based on capsular polysaccharide: **A, B, C, W135, X, Y, Z** (most common in India: A and C; globally: B and C)
+The Gram-negative envelope has a thin peptidoglycan layer sandwiched between an inner cytoplasmic membrane and an **outer membrane** containing **lipopolysaccharide (LPS)**. The lipid-rich outer membrane is dissolved by the alcohol/acetone decolorizer, washing out crystal violet and permitting safranin counterstain. The **Lipid A** moiety of LPS is released on bacterial lysis and acts as **endotoxin**, triggering macrophage TLR4 signalling and the cytokine cascade responsible for **fever, DIC, and septic shock**.
 
-**Diseases:**
-- **Meningitis** — most feared presentation; rapid onset, petechial rash, DIC
-- **Meningococcemia** — without meningitis; high fever, purpuric rash, shock
-- **Waterhouse-Friderichsen syndrome** — bilateral adrenal hemorrhage with meningococcemia; rapidly fatal
+#### Neisseria — Gram-Negative Cocci
 
-**Laboratory diagnosis:**
-- Gram stain of CSF — gram-negative diplococci within WBCs
-- Culture on **chocolate agar** (grows poorly on plain blood agar — gentle heating of the blood inactivates inhibitory substances and releases enriching nutrients). Note: X (hemin) and V (NAD) factor dependence is a feature of *Haemophilus*, NOT meningococcus.
-- Throat swab culture
-- Latex agglutination for capsular antigen detection
+Both species are oxidase-positive, diplococcal, and grow on **Thayer-Martin (chocolate agar + vancomycin, colistin, nystatin, trimethoprim)**.
 
-**Prevention:** Meningococcal vaccines (conjugate ACYW, polysaccharide A+C). Rifampicin or ciprofloxacin prophylaxis for close contacts.
+| Feature | *N. meningitidis* | *N. gonorrhoeae* |
+|---|---|---|
+| Capsule | Polysaccharide (A, B, C, Y, W-135) | Absent |
+| Maltose fermentation | **Positive** | Negative |
+| Glucose fermentation | Positive | Positive (only sugar) |
+| Clinical | Meningitis, Waterhouse-Friderichsen | Urethritis, PID, neonatal ophthalmia |
+| Diagnosis | CSF latex agglutination/PCR | Gram-negative intracellular diplococci, NAAT |
 
-### *Neisseria gonorrhoeae* (Gonococcus)
+#### Enterobacteriaceae Biochemistry
 
-**Morphology:** Gram-negative kidney bean-shaped diplococci; **obligate human pathogen** — no animal reservoir
+Every member is **oxidase-negative** and a **glucose fermenter**; differentiation rests on lactose fermentation, H₂S, motility, and IMViC reactions.
 
-**Transmission:** Sexual contact; vertical transmission (ophthalmia neonatorum)
+| Organism | MacConkey | Motility | H₂S (TSI) | IMViC |
+|---|---|---|---|---|
+| *E. coli* | LF (pink) | Motile | − | + + − − |
+| *Klebsiella* | LF, mucoid | Non-motile | − | − − + + |
+| *Enterobacter* | LF | Motile | − | − − + + |
+| *Citrobacter* | LF (late) | Motile | Variable | − −/ + + |
+| *Shigella* | NLF | Non-motile | − | Variable |
+| *Salmonella* | NLF | Motile | **+ (K/A, H₂S)** | + + − − |
+| *Proteus* | NLF | **Swarming** | + | Variable |
+| *Yersinia* | NLF | Non-motile (25 °C motile) | − | Variable |
 
-**Diseases:**
-- **Urethritis/cervicitis** — purulent discharge, dysuria
-- **Disseminated gonococcal infection (DGI)** — arthritis-dermatitis syndrome
-- **Ophthalmia neonatorum** — conjunctivitis in newborns; preventable with silver nitrate or erythromycin eye drops
+> FMGE trap: students often call Pseudomonas an Enterobacteriaceae — **oxidase-positive** excludes it from the family.
 
-**Laboratory diagnosis:**
-- Gram stain of discharge — gram-negative intracellular diplococci (classic finding in male urethritis)
-- Culture on **chocolate agar** with antibiotics (Thayer-Martin medium — selective for *Neisseria*)
-- Nucleic acid amplification test (NAAT) is most sensitive
+#### Salmonella, Shigella and E. coli Pathotypes
 
-**Treatment:** Ceftriaxone (single IM dose) + azithromycin (for concurrent chlamydia). Increasing azithromycin resistance reported.
+*Salmonella Typhi* carries the **Vi capsular antigen** (not found in Paratyphi A) and causes **enteric fever** with step-ladder fever, rose spots, and relative bradycardia; **Widal test** shows rising TO/TH titres ≥ 1:160. *Shigella* (especially *S. dysenteriae* type 1) is non-motile and produces **Shiga toxin → HUS**. **EHEC O157:H7** is a **sorbitol non-fermenter on SMAC**; **antibiotics are contraindicated** because they increase toxin release.
 
-## Haemophilus influenzae
+#### Pseudomonas, Vibrio, Haemophilus and Campylobacter
 
-**Morphology:** Gram-negative coccobacillus; pleomorphic; requires factors X (hemin) and V (NAD) for growth
+*Pseudomonas aeruginosa* is an obligate aerobe with **grape-like odor (aminoacetophenone)**, pyocyanin/pyoverdine pigments, growth at 42 °C, and intrinsic resistance — treat with anti-pseudomonal β-lactams, aminoglycosides, or carbapenems. *Vibrio cholerae* is comma-shaped, oxidase-positive, motile, and grows on **alkaline peptone water (pH 8.5)** and **TCBS agar (yellow sucrose-fermenting colonies)**. *Haemophilus influenzae* requires **X (hemin) and V (NAD) factors**, grows on chocolate agar, and shows **satellitism** around a *Staphylococcus* streak. *Campylobacter jejuni* is microaerophilic, oxidase-positive, grows at 42 °C on Skirrow agar, and is linked to **Guillain-Barré syndrome** via lipo-oligosaccharide mimicry.
 
-**Culture:** Chocolate agar — small, translucent, iridescent colonies. **Satellitism phenomenon** — tiny colonies near *S. aureus* streaks (the staph provides V factor).
+> Rapid recall mnemonic — *“NOISE”* for oxidase-negative Enterobacteriaceae vs *“POVA”* (Pseudomonas, Oxidase-positive, Vibrio, Aeromonas) for the oxidase-positive rods.
 
-**Type b (Hib) — Most Pathogenic Serotype:**
-- **Meningitis** — most common cause of bacterial meningitis in children 6 months to 5 years (now reduced by Hib vaccine)
-- **Epiglottitis** — life-threatening; "thumb sign" on lateral neck X-ray
-- **Pneumonia**, otitis media, sinusitis
+---
 
-**Laboratory:** Quellung reaction with type-specific antisera detects capsular polysaccharide. Countercurrent immunoelectrophoresis (CIEP) can detect Hib antigen in CSF.
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-**Prevention:** **Hib conjugate vaccine** (part of universal immunization program in India) — dramatically reduced Hib meningitis and epiglottitis.
+#### Differential Logic on TSI and Urease
 
-## Enterobacteriaceae
+Triple Sugar Iron agar slants report slant/butt and gas/H₂S. *Salmonella* and *Proteus* give **K/A + H₂S (blackening)**, *E. coli* gives **A/A + gas**, *Shigella* gives **K/A without H₂S**, and *Pseudomonas* gives **K/K no change**. Pair TSI with **urease** to separate *Proteus* (**urease-positive**, relevant to struvite stones) from *Salmonella* (urease-negative). Always correlate with motility — *Shigella* and *Klebsiella* are non-motile, *Proteus* swarms, *Salmonella* shows peritrichous darting motility.
 
-This large family includes many clinically important gut-derived gram-negative rods. They are lactose fermenters or non-fermenters.
+#### E. coli Pathotypes — Mechanism Map
 
-### *Escherichia coli*
+| Pathotype | Lesion | Toxin / Adhesin | Disease |
+|---|---|---|---|
+| ETEC | Small bowel | LT (↑cAMP) + ST (↑cGMP) | Traveler's diarrhea |
+| EPEC | Small bowel | Bundle-forming pilus, no toxin | Infant diarrhea |
+| EHEC O157:H7 | Colon | **Shiga-like toxin** | Hemorrhagic colitis, HUS |
+| EIEC | Colon invasion | — | Dysentery-like |
+| EAEC | Aggregative stacks | EAST toxin | Persistent pediatric diarrhea |
 
-**Characteristics:** Lactose fermenter; motile (peritrichous flagella); indole-positive; lysine decarboxylase-positive; citrate-negative (IMViC: ++ – –); Eosin methylene blue (EMB) agar shows metallic green sheen
+#### Cross-Reacting Serology and Diagnostic Pearls
 
-**Pathogenic strains:**
-- **EPEC** (Enteropathogenic) — infantile diarrhea; attaching and effacing lesions
-- **ETEC** (Enterotoxigenic) — traveler's diarrhea; heat-labile (LT) and heat-stable (ST) enterotoxins; watery diarrhea
-- **EHEC** (Enterohemorrhagic) — *O157:H7*; Shiga toxin; bloody diarrhea, HUS (hemolytic uremic syndrome) — do NOT give antibiotics (increases toxin release)
-- **EIEC** (Enteroinvasive) — dysentery-like; invades colonic mucosa
-- **EAEC** (Enteroaggregative) — persistent diarrhea in children
+The **Weil-Felix test** uses cross-reactive *Proteus* OX-2, OX-19, OX-K antigens to detect rickettsial antibodies — unrelated to *Proteus* virulence but a classic FMGE link between Enterobacteriaceae and rickettsial diagnosis. **Christie–Atkins–Munch-Petersen (CAMP)** test, **Nagler reaction**, and the **Quellung reaction** are reserved for Gram-positive organisms; the FMGE frequently tests which test belongs to which bug.
 
-### *Klebsiella pneumoniae*
+> **Antibiotic trap:** in suspected EHEC, **avoid β-lactams and antimotility drugs** — bacteriolysis releases Shiga toxin and raises HUS risk; treatment is supportive.
 
-**Characteristics:** **Lactose fermenter**; large, mucoid (hypercapsulated) colonies; non-motile; very prominent polysaccharide capsule
+#### Practice Prompts
 
-**Diseases:** Hospital-acquired pneumonia (especially in alcoholics and diabetics), UTI, bacteremia, necrotizing pneumonia (currant jelly sputum)
+1. A 22-year-old man has urethral discharge; Gram stain shows Gram-negative intracellular diplococci. The organism ferments only glucose, not maltose. Name the organism, the recommended culture medium, and the confirmatory molecular test.
+2. A child with bloody diarrhea develops microangiopathic hemolytic anemia, thrombocytopenia, and acute kidney injury after amoxicillin. Identify the organism, the screening medium that isolates it, and the mechanism linking the antibiotic to the renal complication.
 
-### *Proteus* Species
+---
 
-**Characteristics:** Non-lactose fermenter; motile; produces **urease** (liberates ammonia → alkaline urine); swarming motility on blood agar; associated with **struvite (staghorn) kidney stones**
+## Continue your study
 
-- ***Proteus mirabilis*** — most common; UTI, wound infections
-- ***Proteus vulgaris*** — indole-positive (mirabilis is indole-negative)
+- **[View this topic in your FMGE roadmap](/roadmap/?exam=fmge&duration=1mo)** — see where "Gram-Negative Cocci, Bacilli & Enterobacteriaceae" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=fmge&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[FMGE exam overview](/exams/fmge/)** — pattern, eligibility, and syllabus
+- **[All Microbiology notes](/notes/fmge/microbiology/)** — browse sibling topics in this subject
 
-### *Shigella* Species
-
-**Characteristics:** Non-lactose fermenter; non-motile; does not produce gas from glucose; highly communicable (low infectious dose: 10–100 organisms)
-
-**Species and associated disease:**
-- *S. dysenteriae* — produces Shiga toxin; most severe dysentery; can cause HUS
-- *S. flexneri*, *S. boydii*, *S. sonnei* — less severe dysentery
-
-**Laboratory:** Gram-negative rods; culture on **MacConkey agar** (colorless), **SS agar**, **XLD agar** (red colonies)
-
-**Transmission:** Fecal-oral; person-to-person spread; common in children
-
-### *Salmonella* Species
-
-**Characteristics:** Non-lactose fermenter; motile (peritrichous flagella); produces H₂S (on triple sugar iron and Wilson-Blair media)
-
-- ***Salmonella typhi*** — typhoid fever (enteric fever); stepwise fever, rose spots, hepatosplenomegaly, relative bradycardia
-- ***Salmonella enteritidis*, *S. choleraesuis*** — nontyphoidal salmonellosis; gastroenteritis
-
-**Laboratory diagnosis:** Blood culture (for typhoid — biphasic medium like Rao's bile broth); stool culture (Widal test is supportive but not definitive — significant rise in O and H titers)
-
-**Prevention:** **Typhoid vaccines** — oral (Ty21a) and injectable (Vi polysaccharide vaccine — single dose, revaccination every 3 years)
-
-### *Pseudomonas aeruginosa*
-
-**Characteristics:** Non-lactose fermenter; **obligate aerobe** (oxidase-positive); produces **blue-green pigments** (pyocyanin, pyoverdin); **grape-like odor**; grows at 42°C (distinguishes from other non-fermenters)
-
-**Diseases:** Hospital-acquired pneumonia (especially in CF and burn patients), ventilator-associated pneumonia, catheter-associated UTI, malignant otitis externa, hot tub folliculitis, burn wound infections, osteochondritis of foot (puncture through shoe)
-
-**Biofilm formation** on prosthetic devices makes eradication difficult.
-
-## FMGE High-Yield Points
-
-- **Meningococcus** = gram-negative diplococci in CSF; petechial rash; Waterhouse-Friderichsen
-- **Gonococcus** = gram-negative intracellular diplococci; STI; purulent discharge
-- **Hib** = type b capsular polysaccharide; causes meningitis in children (now vaccine-preventable)
-- **E. coli** — most common cause of UTI; O157:H7 = bloody diarrhea + HUS (no antibiotics)
-- **Klebsiella** = mucoid colonies; "currant jelly" sputum in pneumonia
-- **Proteus** = urease-positive; swarming motility; associated with staghorn calculi
-- **Shigella** = very low infectious dose; bloody diarrhea; person-to-person spread
-- **Salmonella typhi** = stepwise fever; rose spots; H₂S production; Widal test
-- **Pseudomonas** = oxidase-positive; blue-green pigments; grows at 42°C; nosocomial
-
-⚡ **Exam tip:** Non-lactose fermenter + H₂S producer + motile = think *Salmonella* or *Proteus*. Non-lactose fermenter + H₂S negative + non-motile = *Shigella*.
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

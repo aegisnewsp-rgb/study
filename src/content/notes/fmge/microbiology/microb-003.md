@@ -8,122 +8,107 @@ topicName: "Gram-Positive Cocci — Staphylococcus & Streptococcus"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-07-12"
 ---
 
 # Gram-Positive Cocci — Staphylococcus & Streptococcus
 
-## Introduction
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your FMGE Microbiology paper.
 
-Gram-positive cocci are among the most clinically significant bacterial pathogens. **Staphylococcus** and **Streptococcus** species cause a wide spectrum of diseases ranging from minor skin infections to life-threatening sepsis, meningitis, and endocarditis. For FMGE, mastering the identification, pathogenicity, and laboratory diagnosis of these organisms is mandatory.
+**Gram-positive cocci** retain crystal violet and appear purple; they split into two genera using one test — **catalase**.
 
-## Staphylococcus
-
-### Classification and Key Species
-
-The genus *Staphylococcus* contains over 40 species, but only a handful are clinically significant:
-
-- ***Staphylococcus aureus*** — most pathogenic; coagulase-positive; causes pyogenic infections, food poisoning, toxic shock syndrome
-- ***Staphylococcus epidermidis*** — coagulase-negative; normal skin flora; major cause of prosthetic device infections
-- ***Staphylococcus saprophyticus*** — coagulase-negative; second most common cause of UTI in young sexually active women
-
-### Virulence Factors of *S. aureus*
-
-*S. aureus* possesses an impressive array of virulence factors:
-
-- **Coagulase** — converts fibrinogen to fibrin; the defining characteristic of *S. aureus*
-- **Protein A** — binds Fc portion of IgG, preventing opsonization and phagocytosis
-- **Catalase** — converts H₂O₂ to water and oxygen; protects against oxidative killing
-- **Beta-lactamase** — degrades penicillin and ampicillin; widespread in clinical isolates
-- **Panton-Valentine leukocidin (PVL)** — associated with necrotizing pneumonia and skin/soft tissue infections; community-associated MRSA often carries PVL
-- **Exfoliative toxins (ETA, ETB)** — cause staphylococcal scalded skin syndrome (SSSS) and bullous impetigo
-- **Toxic Shock Syndrome Toxin-1 (TSST-1)** — causes toxic shock syndrome (TSS) associated with superabsorbent tampon use and nasal packing
-- **Enterotoxins (A–E, G–J)** — heat-stable toxins causing **staphylococcal food poisoning** (emetic form, incubation 1–6 hours)
-
-### Diseases Caused by *S. aureus*
-
-| Disease | Mechanism |
-|---|---|
-| Folliculitis, furuncles, carbuncles | Pyogenic skin infections |
-| Acute bacterial endocarditis | IV drug users, prosthetic valves |
-| Osteomyelitis | Often hematogenous in children |
-| Pneumonia | Post-influenza, aspiration |
-| Septic arthritis | Direct inoculation or hematogenous |
-| Food poisoning | Preformed enterotoxin (emetic) |
-| Toxic shock syndrome | TSST-1 superantigen |
-| Scalded skin syndrome | Exfoliative toxins |
-
-### Laboratory Diagnosis
-
-- **Gram stain**: Gram-positive cocci in clusters
-- **Culture**: Golden yellow (pigmented), beta-hemolytic colonies on blood agar
-- **Catalase test**: Positive (distinguishes from Streptococcus)
-- **Coagulase test**: Positive (definitive for *S. aureus*)
-- **Mannitol salt agar**: Ferments mannitol (yellow); selective for Staphylococci
-- **DNase test**: Positive — another identifying feature of *S. aureus*
-
-### MRSA (Methicillin-Resistant *S. aureus*)
-
-MRSA possesses the **mecA gene** encoding PBP2a, which has low affinity for beta-lactam antibiotics. MRSA is resistant to all penicillins, cephalosporins, and carbapenems. Treatment options include **vancomycin**, **linezolid**, **daptomycin**, and **clindamycin** (if susceptible). HA-MRSA (hospital-associated) and CA-MRSA (community-associated) are epidemiologically distinct.
-
-## Streptococcus
-
-### Classification
-
-**Lancefield grouping** (based on carbohydrate antigen on cell wall) is the classical classification system:
-
-- **Group A Streptococcus (GAS)** — *Streptococcus pyogenes* — most pathogenic strep
-- **Group B Streptococcus (GBS)** — *Streptococcus agalactiae* — neonatal meningitis, sepsis
-- **Group D** — *Streptococcus bovis* — associated with colorectal cancer
-- **Viridans group** — *S. mutans*, *S. sanguinis* — normal oral flora; cause subacute bacterial endocarditis
-- **Pneumococcus** — *Streptococcus pneumoniae* — lancet-shaped diplococci
-
-### *Streptococcus pyogenes* (GAS)
-
-**Key characteristics:**
-- Beta-hemolytic (complete RBC lysis) on blood agar
-- Bacitracin-sensitive (zone of inhibition around bacitracin disc) — used for presumptive identification
-- PYR (pyrrolidonyl arylamidase) test positive
-
-**Diseases:**
-| Category | Examples |
-|---|---|
-| Pyogenic | Pharyngitis, impetigo, cellulitis, erysipelas |
-| Toxic | Scarlet fever (pharyngitis + rash + strawberry tongue) |
-| Immunological | Rheumatic fever, post-streptococcal glomerulonephritis (PSGN) |
-
-**Post-streptococcal sequelae** (occurs 1–4 weeks after infection):
-- **Acute rheumatic fever (ARF)** — follows pharyngitis; Jones criteria (major: carditis, polyarthritis, chorea, erythema marginatum, subcutaneous nodules; minor: fever, arthralgia, elevated ESR/CRP)
-- **PSGN** — follows skin infection (impetigo) more than pharyngitis; results in hematuria, proteinuria, hypertension
-
-**Anti-streptolysin O (ASO) titer** — elevated in ARF; **Anti-DNase B** — elevated in PSGN
-
-### *Streptococcus pneumoniae*
-
-**Morphology:** Gram-positive, **lancet-shaped diplococci** (pointed ends); bile soluble; alpha-hemolytic on blood agar; **optochin-sensitive**
-
-**Diseases:** Pneumonia (lobar, rust-colored sputum), meningitis, otitis media, sinusitis, bacteremia
-
-**Capsule:** The polysaccharide capsule is the primary virulence factor. **Quellung reaction** (capsular swelling with specific antisera) is the gold standard for identification. The capsule is also the basis of pneumococcal vaccines (PCV13, PPSV23).
-
-### Laboratory Differentiation of Streptococci
-
-| Test | *S. pyogenes* | *S. pneumoniae* | *S. viridans* |
+| Genus | Catalase | Arrangement | First split |
 |---|---|---|---|
-| Hemolysis | Beta | Alpha | Alpha |
-| Bacitracin | Sensitive | Resistant | Resistant |
-| Optochin | Resistant | **Sensitive** | Resistant |
-| Bile solubility | Insoluble | **Soluble** | Insoluble |
-| Bile esculin | Negative | Negative | Variable |
+| *Staphylococcus* | Positive | Grape-like clusters | Coagulase → *S. aureus* vs CoNS |
+| *Streptococcus* / *Enterococcus* | Negative | Chains or pairs | Haemolysis pattern on blood agar |
 
-## FMGE High-Yield Points
+#### Must-remember high-yield facts:
 
-- **Coagulase-positive** = *S. aureus*; coagulase-negative staphylococci = *S. epidermidis*, *S. saprophyticus*
-- **Food poisoning** with short incubation (1–6 hours) = *S. aureus* enterotoxin (preformed toxin)
-- **Scarlet fever** = GAS pharyngitis with rash and strawberry tongue
-- **Rheumatic fever** follows **pharyngitis**; PSGN follows **skin infection** (impetigo)
-- **Strep pneumoniae** = lancet-shaped diplococci, alpha-hemolytic, **optochin-sensitive**, **bile-soluble**
-- **Viridans streptococci** = alpha-hemolytic, **optochin-resistant**, **bile-insoluble**; cause subacute endocarditis
-- **Group B Strep** (*S. agalactiae*) = major cause of neonatal sepsis and meningitis; screened in pregnant women with rectal/vaginal swab
+- *S. aureus*: coagulase +, DNase +, β-haemolytic, mannitol fermenter, **Protein A binds Fc-IgG**; MRSA carries **mecA → PBP2a**.
+- *S. pyogenes* (GAS): **Lancefield Group A**, bacitracin-sensitive, PYR +, M protein antiphagocytic; ASO titre for rheumatic fever.
+- *S. agalactiae* (GBS): Group B, **CAMP test positive**, bacitracin-resistant; screen at 35–37 weeks gestation.
+- *S. pneumoniae*: lancet-shaped diplococci, **optochin-sensitive, bile-soluble**, quellung reaction positive.
+- Viridans group: α-haemolytic but **optochin-resistant, bile-insoluble** → dental caries, subacute endocarditis.
 
-⚡ **Exam tip:** If USMLE/FMGE asks about a patient with a "sandpaper-like rash, strawberry tongue, and recent pharyngitis" — the answer is **scarlet fever** caused by *Streptococcus pyogenes*.
+---
+
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months before FMGE.
+
+#### Catalase as the Master Differentiator
+
+On a Gram-stained smear showing purple cocci, perform **catalase** (3 % H₂O₂): bubbling = *Staphylococcus*; no bubbles = *Streptococcus*/*Enterococcus*. Next, test the staphylococci with **coagulase** (rabbit plasma clotting). Coagulase-positive = ***S. aureus***; coagulase-negative staphylococci (CoNS) include *S. epidermidis* and *S. saprophyticus*, separated by **novobiocin** sensitivity.
+
+#### *Staphylococcus aureus* — Toxins and Disease
+
+*S. aureus* produces **β-haemolysis**, golden colonies, **DNase**, and ferments mannitol (yellow on mannitol salt agar). Its virulence toolkit includes:
+
+- **α-toxin** (pore-forming, lecithinase) — tissue necrosis in boils and abscesses.
+- **Toxic Shock Syndrome Toxin-1 (TSST-1)** — superantigen causing tampon-associated TSS.
+- **Enterotoxins A–E** — heat-stable, preformed in food → rapid-onset vomiting.
+- **Exfoliatins A/B** — serine proteases cleaving desmoglein-1 → Staphylococcal Scalded Skin Syndrome in neonates.
+
+MRSA carries the **mecA** gene encoding PBP2a, conferring resistance to methicillin, oxacillin, and all β-lactams. Treat MSSA with **cloxacillin or cefazolin**; treat MRSA with **vancomycin or linezolid**.
+
+#### Streptococci by Haemolysis Pattern
+
+Blood agar is the next decision point:
+
+| Pattern | Appearance | Key organisms |
+|---|---|---|
+| **β (complete)** | Clear zone | *S. pyogenes*, *S. agalactiae* |
+| **α (partial)** | Greenish discoloration | *S. pneumoniae*, viridans group |
+| **γ (none)** | No change | Enterococci |
+
+#### *Streptococcus pyogenes* (GAS) and Sequelae
+
+Group A, **bacitracin-sensitive, PYR-positive**. The **M protein** blocks phagocytosis and is the antigen in >80 serotypes. Two serious immune sequelae follow pharyngitis or skin infection: **acute rheumatic fever** (Aschoff bodies, mitral regurgitation, Jones criteria) and **post-streptococcal glomerulonephritis** (nephritic syndrome, anti-GBM-like injury). Diagnosis of recent infection relies on the **ASO titre**.
+
+#### *Streptococcus agalactiae* (GBS) and Neonatal Disease
+
+Group B, bacitracin-resistant, **CAMP test positive** (arrowhead synergy with *S. aureus* β-haemolysin), hippurate hydrolysis positive. Leading cause of **early-onset neonatal meningitis and septicaemia**, acquired during delivery. Standard of care: vaginal–rectal screening at **35–37 weeks**, with **intrapartum penicillin** prophylaxis for colonised mothers.
+
+---
+
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for deeper mastery.
+
+#### *Streptococcus pneumoniae* — Capsule-Critical Pathogen
+
+Lancet-shaped diplococci with a **polysaccharide capsule** in 84 serotypes. The capsule is antiphagocytic; anticapsular antibody is protective. Two lab tests are diagnostic: **optochin sensitivity** (zone of inhibition) and **bile solubility** (autolysis by bile salts). The **quellung reaction** uses type-specific antiserum to swell the capsule visibly under the microscope. Vaccine strategy mirrors age risk: **PCV13** (conjugate, T-cell dependent) for children under 2; **PPSV23** (pure polysaccharide) for adults over 65 and asplenic patients. Typical presentations — lobar pneumonia, otitis media, sinusitis, meningitis.
+
+#### CoNS, Viridans, and Enterococci — Subtler Players
+
+*S. epidermidis* produces a **biofilm (polysaccharide slime layer)** on prosthetic valves, catheters, and orthopaedic hardware — biofilm makes antibiotics 100–1000× less effective. *S. saprophyticus* is the **second commonest cause of uncomplicated UTI in sexually active young women**, recognised by novobiocin resistance. Viridans streptococci (*S. mutans*, *S. sanguis*, *S. mitis*) seed damaged or prosthetic valves during transient bacteraemia after dental procedures — antibiotic prophylaxis is indicated for high-risk valve patients. **Enterococcus** tolerates 6.5 % NaCl and hydrolyses aesculin (bile–aesculin positive), distinguishing it from true streptococci; **VRE** is a major hospital-acquired threat.
+
+#### Common Exam Traps
+
+> Trap: Both *S. aureus* and *S. pyogenes* are β-haemolytic — never equate "β-haemolytic" with "Streptococcus" alone.
+
+- Confusing catalase +ve Staph with catalase –ve Strep at the bench.
+- Mistaking *S. saprophyticus* (novobiocin-R) for *S. epidermidis* (novobiocin-S) in CoNS UTI workup.
+- Reporting viridans as *S. pneumoniae* because both are α-haemolytic — optochin and bile solubility resolve it.
+- Forgetting that **Protein A** binds the Fc portion of IgG, used in lab co-agglutination tests and as a contaminant in immunoprecipitation.
+- Missing that enterococci grow in 6.5 % NaCl, unlike true streptococci.
+
+#### Worked Micro-Vignette
+
+A 4-year-old presents with fever, sore throat, and tender anterior cervical lymphadenopathy. Rapid strep test is positive. The correct treatment is **penicillin G for 10 days** — chosen because *S. pyogenes* remains universally sensitive. Inadequate treatment risks **acute rheumatic fever**, which would manifest 2–4 weeks later with migratory polyarthritis, carditis, and an elevated **ASO titre**.
+
+#### Practice Prompts
+
+1. A blood-agar plate from a catheter-tip shows creamy, non-haemolytic, catalase-positive cocci in clusters that are coagulase-negative and novobiocin-resistant. Identify the organism and the clinical context it suggests.
+2. A neonate born at 38 weeks develops meningitis on day 3 of life. Mother had no prenatal screening. Which organism is most likely, what screening test should have been done, and what prophylaxis was indicated?
+
+---
+
+## Continue your study
+
+- **[View this topic in your FMGE roadmap](/roadmap/?exam=fmge&duration=1mo)** — see where "Gram-Positive Cocci — Staphylococcus & Streptococcus" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=fmge&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[FMGE exam overview](/exams/fmge/)** — pattern, eligibility, and syllabus
+- **[All Microbiology notes](/notes/fmge/microbiology/)** — browse sibling topics in this subject
+
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

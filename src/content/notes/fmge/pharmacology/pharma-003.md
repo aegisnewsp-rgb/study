@@ -8,208 +8,106 @@ topicName: "Adrenergic Pharmacology"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-07-12"
 ---
 
 # Adrenergic Pharmacology
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+> Rapid summary for last-minute revision before your FMGE Pharmacology paper.
 
-**Adrenergic Pharmacology** — Key Facts for FMGE
-Core concept: Catecholamines (epinephrine, norepinephrine, dopamine) activate alpha and beta adrenergic receptors; non-catecholamines (clonidine, phenylephrine) have different pharmacokinetics
-High-yield point: Know the difference between alpha-1 (vasoconstriction), alpha-2 (decreased sympathetic outflow), beta-1 (heart), beta-2 (bronchodilation) receptor functions
-⚡ Exam tip: Beta-blockers (especially non-selective like propranolol) can cause bronchospasm in asthmatics because they block beta-2 receptors in lungs
+**Adrenergic pharmacology** covers drugs acting on receptors for the endogenous **catecholamines** — adrenaline (epinephrine), noradrenaline (norepinephrine), and dopamine. Receptor subtypes: **α1, α2, β1, β2, β3**, all G-protein coupled. **α1 = Gq → ↑IP3/DAG/Ca²⁺** (vasoconstriction); **α2 = Gi → ↓cAMP** (presynaptic negative feedback); **β1/β2/β3 = Gs → ↑cAMP**.
 
----
+Biosynthesis: **Tyrosine → DOPA → Dopamine → Noradrenaline → Adrenaline**, with **tyrosine hydroxylase** as the rate-limiting step (needs BH4). Metabolism by **MAO and COMT**.
+
+- **Direct agonists:** phenylephrine (α1), clonidine (α2), salbutamol (β2), dobutamine (β1).
+- **Indirect agonists:** tyramine, amphetamine (release), cocaine (Uptake-1 block), reserpine (vesicular depletion).
+- **Mixed:** ephedrine, pseudoephedrine.
+- **Antagonists:** prazosin (α1), propranolol (non-selective β), atenolol/metoprolol (β1-selective).
+- **Adrenaline reversal:** after α-blockade, adrenaline's β2 vasodilation unmasks a **fall** in BP.
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Adrenergic Pharmacology** — FMGE Study Guide
+#### Receptor Signalling and Tissues
 
-## Adrenergic Receptors
+Each adrenergic receptor couples to a distinct G-protein and downstream second messenger. Knowing this explains every organ-level effect tested in MCQs.
 
-### Alpha Receptors
+| Receptor | G-protein | Second messenger | Dominant response |
+|----------|-----------|------------------|-------------------|
+| **α1** | Gq | IP3, DAG, ↑Ca²⁺ | Vascular smooth muscle contraction, mydriasis, sphincter tone |
+| **α2** | Gi | ↓cAMP | Presynaptic feedback inhibition of NA release; central sympathetic outflow ↓ |
+| **β1** | Gs | ↑cAMP | Heart: ↑HR, ↑contractility, ↑AV conduction |
+| **β2** | Gs | ↑cAMP | Bronchial, uterine, skeletal-muscle vascular smooth muscle relaxation |
+| **β3** | Gs | ↑cAMP | Lipolysis in adipose tissue; detrusor relaxation |
 
-**Alpha-1 receptors (Gq)**:
-- Location: Vascular smooth muscle (skin, splanchnic, renal), iris dilator muscle, bladder trigone/sphincter, piloerector muscles
-- Effect: Vasoconstriction (↑BP), mydriasis, bladder sphincter contraction, piloerection
-- **Blocking agents**: Prazosin, terazosin, doxazosin (alpha-1 blockers) - used in hypertension and BPH
+#### Sympathomimetic Drug Classes
 
-**Alpha-2 receptors (Gi)**:
-- Location: Presynaptic nerve terminals (autoreceptors), pancreas (inhibits insulin), platelets
-- Effect: ↓sympathetic outflow (centrally), ↓insulin release, platelet aggregation
-- **Agonists**: Clonidine (centrally acting antihypertensive), α-methyldopa (pregnancy hypertension)
-- **Blocking agents**: Yohimbine (used for erectile dysfunction - blocks alpha-2)
+- **Direct agonists** bind the receptor itself. Adrenaline acts on α1, α2, β1, β2; noradrenaline acts on α1, α2, β1 (minimal β2 — so it raises BP without reflex tachycardia from β2 vasodilation).
+- **Indirect agonists** depend on endogenous NA. Tyramine and amphetamine displace NA from vesicles; cocaine blocks neuronal **Uptake-1**; reserpine irreversibly inhibits the vesicular monoamine transporter (VMAT).
+- **Mixed agents** (ephedrine, pseudoephedrine) combine both and are common in decongestants.
 
-### Beta Receptors
+#### Adrenaline Reversal — a Classic MCQ
 
-**Beta-1 receptors (Gs)**:
-- Location: Heart (SA node, AV node, ventricular muscle)
-- Effect: ↑HR (chronotropic), ↑contractility (inotropic), ↑AV conduction (dromotropic), ↑refractory period
-- **Blocking agents**: Metoprolol, atenolol, esmolol - cardioprotective, antihypertensive, anti-anginal, anti-arrhythmic
+Pretreatment with an **irreversible α-blocker** (phenoxybenzamine) blocks α1 vasoconstriction. When adrenaline is then given, only its β2 vasodilator effect operates → **mean arterial pressure falls** instead of rising. This is the high-yield *adrenaline reversal* phenomenon.
 
-**Beta-2 receptors (Gs)**:
-- Location: Bronchial smooth muscle, vascular smooth muscle (skeletal muscle), uterine smooth muscle, liver
-- Effect: Bronchodilation, vasodilation (skeletal muscle), uterine relaxation, glycogenolysis
-- **Agonists**: Albuterol, salmeterol (long-acting) - bronchodilators for asthma
-- **Blocking agents**: Non-selective beta-blockers (propranolol) block beta-2 → bronchoconstriction (contraindicated in asthma)
+#### Drug-Interaction Traps
 
-**Beta-3 receptors**:
-- Location: Adipose tissue, bladder
-- Effect: Lipolysis, thermogenesis, bladder relaxation
-- **Agonists**: Mirabegron (for overactive bladder)
+- **MAOIs + tyramine-rich cheese** → hypertensive crisis ("cheese reaction") because hepatic MAO no longer inactivates tyramine, which floods synapses with NA.
+- **Non-selective β-blockers** (propranolol) are contraindicated in asthma — β2 blockade can trigger bronchospasm.
+- **Cardioselective β1-blockers** (atenolol, metoprolol) lose selectivity at higher doses, so they are not absolutely safe in severe bronchospasm.
 
-### Dopamine Receptors
+#### Exam Pattern
 
-- **D1** (vasodilation in renal, mesenteric, coronary beds) - agonists: fenoldopam (hypertensive emergency with renal protection)
-- **D2** (presynaptic, CNS - antiemetic) - antagonists: metoclopramide, chlorpromazine
+FMGE Pharmacology MCQs frequently ask: (1) receptor type mediating a given response, (2) which drug is contraindicated in a clinical scenario, (3) the mechanism of drug-drug or drug-food interactions, and (4) adrenaline-reversal-style physiology questions.
 
-## Catecholamine Chemistry
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-**Catechol ring**: Benzene with two adjacent hydroxyl groups (dihydroxybenzene)
+#### Pharmacokinetics of Catecholamines
 
-**Catecholamines synthesized from tyrosine**:
-- Tyrosine → L-DOPA → Dopamine → Norepinephrine → Epinephrine
-- Enzyme: Tyrosine hydroxylase (rate-limiting), DOPA decarboxylase, dopamine β-hydroxylase, phenylethanolamine-N-methyltransferase (PNMT)
+Catecholamines are **weak bases** with pKa ≈ 8.5–9.6; at gastric pH they are largely ionised and **poorly absorbed orally**. They are also substrates of intestinal and hepatic **MAO/COMT**, so oral bioavailability is negligible. Clinical use therefore relies on **IM** (adrenaline in anaphylaxis), **IV infusion** (dopamine, dobutamine, noradrenaline in shock), or **inhalation** (salbutamol). The Henderson-Hasselbalch relation explains why these drugs must be given parenterally: at low pH the protonated (ionised) form dominates and crosses membranes poorly.
 
-**Catecholamines have**:
-- Rapid onset, short duration (metabolized by COMT and MAO)
-- Do NOT cross BBB (polar)
-- Inactivated by reuptake (NET, DAT) and metabolism
+#### Receptor Occupancy and Potency
 
-**Non-catecholamines** (single hydroxyl or no hydroxyl on benzene):
-- Longer duration (not metabolized by COMT)
-- Cross BBB (lipophilic) - e.g., phenylephrine, clonidine
+Drug–receptor binding follows **B/Bmax = [L] / (Kd + [L])**. Potency is quantified as **pD2 = −log₁₀ EC50** — a higher pD2 means a lower EC50 and greater potency. Use this when comparing salbutamol versus isoprenaline at β2 receptors.
 
-## Adrenergic Agonists
+#### Dose-Dependent Actions of Dopamine
 
-### Direct-Acting Sympathomimetics
+A frequently-tested nuance: dopamine is not "pure β1".
 
-**Epinephrine**:
-- Non-selective (α1, α2, β1, β2)
-- **At low doses**: β effects predominate (β2 → vasodilation in skeletal muscle)
-- **At high doses**: α effects predominate (vasoconstriction)
-- **Uses**: Anaphylaxis (drug of choice), cardiac arrest, glaucoma, with local anesthetic (↓bleeding,↑duration)
-- **Side effects**: Tachycardia, hypertension, arrhythmias, anxiety
+| Dose range | Receptor activated | Clinical effect |
+|------------|-------------------|-----------------|
+| Low (1–5 µg/kg/min) | D1 (renal, mesenteric) | Renal vasodilation, ↑GFR |
+| Moderate (5–15) | β1 | ↑Cardiac output, inotropy |
+| High (>15) | α1 | Vasoconstriction, raised SVR |
 
-**Norepinephrine**:
-- α1, α2, β1 (minimal β2)
-- **Effects**: Strong vasoconstriction (↑SVR, ↑BP), reflex bradycardia, ↑cardiac contractility
-- **Uses**: Septic shock (vasopressor), cardiogenic shock
-- **Side effects**: Severe hypertension, tissue necrosis if extravasated
+#### Clinical Applications and MCQ Pearls
 
-**Dopamine**:
-- Dose-dependent effects:
-  - Low (<2 μg/kg/min): D1 (renal vasodilation)
-  - Medium (2-10): β1 (inotropy, ↑HR)
-  - High (>10): α1 (vasoconstriction)
-- **Uses**: Shock, heart failure, renal failure (low dose)
-- **Side effects**: Tachycardia, arrhythmias, metabolites cause nausea
+- **Anaphylaxis:** adrenaline IM (0.3–0.5 mg) into the anterolateral thigh.
+- **Shock:** noradrenaline for distributive/septic shock (α1 pressor); dopamine at moderate doses for cardiogenic shock.
+- **Asthma:** selective β2 agonists (salbutamol, salmeterol).
+- **Glaucoma:** topical β-blockers (timolol) reduce aqueous humour production.
+- **BPH:** α1 antagonists (tamsulosin, alfuzosin) relax prostatic smooth muscle; watch for **first-dose orthostatic hypotension** with prazosin.
+- **Hypertension:** β-blockers, central α2 agonists (clonidine — abrupt withdrawal can precipitate rebound hypertension).
 
-**Dobutamine**:
-- Synthetic catecholamine; β1 > β2 > α1
-- **Effect**: ↑cardiac contractility with less ↑HR and vasoconstriction than dopamine
-- **Uses**: Acute heart failure, cardiogenic shock
+#### Common Mistakes to Avoid
 
-**Isoproterenol**:
-- Non-selective β agonist (β1 = β2)
-- **Effects**: ↑HR, ↑contractility, bronchodilation, vasodilation (β2)
-- **Uses**: Bradycardia, heart block, bronchospasm
+- Confusing **α1 antagonism (prazosin)** with **α2 agonism (clonidine)** — both reduce sympathetic tone but by opposite mechanisms.
+- Treating "cardioselective" as synonymous with "safe in asthma" — selectivity is **dose-dependent**.
+- Forgetting that **reserpine** depletes NA irreversibly and is linked to **depression and drug-induced Parkinsonism**; its onset is slow (days), unlike cocaine's rapid reuptake block.
 
-**Phenylephrine**:
-- Pure α1 agonist (no beta activity)
-- **Effects**: Vasoconstriction → ↑BP, reflex bradycardia, mydriasis
-- **Uses**: Hypotension (vasopressor), nasal decongestant, ophthalmic procedures
+#### Practice Prompts
 
-**Clonidine**:
-- α2 agonist (centrally acting)
-- **Effects**: ↓sympathetic outflow → ↓BP, sedation, analgesia
-- **Uses**: Hypertension (especially with renal disease), opioid withdrawal, anesthesia adjunct
-- **Side effects**: Rebound hypertension if abruptly stopped
+1. A patient on phenoxybenzamine receives adrenaline during surgery and develops hypotension. Explain the receptor mechanism, and name the receptor whose unopposed action causes the fall in BP.
+2. List, in sequence, the four enzymes that convert tyrosine to adrenaline, and identify which one is rate-limiting and which cofactor it requires.
 
-### Indirect-Acting Sympathomimetics
+## Continue your study
 
-**Amphetamine, Ephedrine, Pseudoephedrine**:
-- Enter nerve terminal → displace catecholamines from storage vesicles → release norepinephrine
-- Also inhibit MAO and reuptake
-- Cross BBB → CNS effects (alertness, euphoria)
-
-### Mixed-Acting
-
-**Ephedrine**:
-- Both direct (weak agonist) and indirect (releases NE) effects
-- Longer duration than epinephrine
-- Crosses BBB
-- Used for hypotension during spinal anesthesia, nasal congestion
-
-## Adrenergic Antagonists (Blockers)
-
-### Alpha Blockers
-
-**Non-selective (α1 = α2)**:
-- **Phentolamine**: Reversible; used for pheochromocytoma (intraoperative), REVERSIBLE (not for chronic use)
-- **Phenoxybenzamine**: Irreversible (covalent binding); used for pheochromocytoma preoperative and inoperable cases
-
-**Selective α1 blockers**:
-- **Prazosin, Terazosin, Doxazosin, Tamsulosin (uroselective)**: Used for hypertension (prazosin not first-line) and BPH (tamsulosin - selective for prostate α1A)
-- **Side effects**: First-dose orthostatic hypotension (start low, go slow); reflex tachycardia
-
-### Beta Blockers
-
-**Non-selective (β1 = β2)**:
-- **Propranolol**: Mostlipid-soluble (crosses BBB); used for hypertension, angina, arrhythmia, migraine prophylaxis, thyrotoxicosis, essential tremor
-- **Nadolol, Timolol**: Used for glaucoma (topical - ↓aqueous humor production)
-
-**β1-selective (cardioselective)**:
-- **Metoprolol, Atenolol, Esmolol** (ultra-short IV): Hypertension, angina, MI, arrhythmias
-- **Bisoprolol**: CHF (benefit in heart failure)
-- **Side effects at high doses**: β2 blockade (bronchospasm, masks hypoglycemia symptoms)
-
-**With additional properties**:
-- **Carvedilol** (α1 + β non-selective): CHF
-- **Labetalol** (α1 + β non-selective): Hypertensive emergency (IV)
-- **Nebivolol**: β1 selective + NO-mediated vasodilation
-
-### Combined Alpha + Beta Blockers
-
-- **Labetalol**: α1 (weak), β1, β2 blockade; IV for hypertensive emergencies
-- **Carvedilol**: α1, β1, β2; CHF
-
-### Side Effects of Beta Blockers
-
-- **Bronchospasm** (β2 block) - contraindicated in asthma/COPD
-- **Bradycardia** (β1 block) - contraindicated in 2nd/3rd degree AV block
-- **Masking of hypoglycemic symptoms** (β2 block) - use selectively in diabetics
-- **Rebound angina/MI** on abrupt discontinuation (upregulated receptors)
-- **Sexual dysfunction** (central effect)
-- **Weight gain** (slight)
-- **CNS effects** (propranolol - nightmares, depression)
-
-### Contraindications to Beta Blockers
-- Asthma/COPD (non-selective)
-- Severe bradycardia, AV block
-- Acute heart failure (cardiogenic shock)
-- Unstable angina (caution - can worsen)
-
-## Sympathetic Drug Lists
-
-| Drug | Receptor Profile | Key Use |
-|------|-----------------|---------|
-| Epinephrine | α1, α2, β1, β2 | Anaphylaxis, cardiac arrest |
-| Norepinephrine | α1, α2, β1 | Septic shock |
-| Dopamine | D1, β1, α1 (dose-dependent) | Shock, heart failure |
-| Dobutamine | β1 > β2 > α1 | Acute heart failure |
-| Isoproterenol | β1 = β2 | Bradycardia |
-| Phenylephrine | α1 | Vasopressor, decongestant |
-| Clonidine | α2 | Hypertension |
-| Albuterol | β2 | Asthma (bronchodilator) |
-| Salmeterol | β2 (long-acting) | Asthma maintenance |
-| Prazosin | α1 | BPH, hypertension |
-| Propranolol | β1 = β2 | Hypertension, arrhythmia |
-| Metoprolol | β1 selective | Cardiac protection |
-| Carvedilol | α1 + β | Heart failure |
+- **[View this topic in your FMGE roadmap](/roadmap/?exam=fmge&duration=1mo)** — see where "Adrenergic Pharmacology" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=fmge&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[FMGE exam overview](/exams/fmge/)** — pattern, eligibility, and syllabus
+- **[All Pharmacology notes](/notes/fmge/pharmacology/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

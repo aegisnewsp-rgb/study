@@ -8,209 +8,111 @@ topicName: "General Pharmacology"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-07-12"
 ---
 
 # General Pharmacology
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+> Rapid summary for last-minute revision before your FMGE.
 
-**General Pharmacology** — Key Facts for FMGE
-Core concept: Understanding how drugs are absorbed, distributed, metabolized, and excreted (ADME) determines dosing and toxicity
-High-yield point: First-pass metabolism, zero-order vs first-order kinetics, and therapeutic index are commonly tested
-⚡ Exam tip: Most FMGE pharmacology questions ask you to identify drug interactions or contraindications based on pharmacokinetic principles
+General Pharmacology is the umbrella covering **pharmacokinetics** (ADME — Absorption, Distribution, Metabolism, Excretion) and **pharmacodynamics** (receptor-level drug action). Master these five formulas because FMGE expects numerical fluency, not just definitions.
+
+| Parameter | Formula | Clinical anchor |
+|---|---|---|
+| Volume of distribution (Vd) | Dose (IV) / Plasma Css | High Vd = lipophilic drug, sequestered in tissue |
+| Half-life (t½) | 0.693 × Vd / Cl | Predicts time to steady state (≈4–5 × t½) |
+| Therapeutic Index | TD50 / ED50 | Digoxin, lithium, warfarin → low TI, needs monitoring |
+| Loading dose | Vd × Target Cp / F | Used when t½ is long (amiodarone, digoxin) |
+| Maintenance dose | Css × Cl × τ / F | Keeps plateau within the therapeutic window |
+
+- **Agonist** = affinity + intrinsic activity; **antagonist** = affinity only (zero intrinsic activity).
+- **Competitive antagonists** shift the dose–response curve rightward (surmountable); **non-competitive** lower the maximum response (insurmountable).
+- Drug nomenclature trap: the **generic (INN) name** is universal; the brand name is manufacturer-specific.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**General Pharmacology** — FMGE Study Guide
+#### Pharmacokinetics — what the body does to the drug
 
-## Pharmacokinetics (ADME)
+The ADME sequence dictates plasma concentration. **Bioavailability (F)** is the fraction of an oral dose reaching systemic circulation after surviving first-pass hepatic metabolism; F = 1 for IV doses, the gold reference. A drug like **propranolol** has low oral F because of extensive first-pass loss, so oral doses are multiples of the IV dose.
 
-### Absorption
+**Volume of distribution (Vd)** is an apparent, not anatomical, volume — calculated as Dose / Plasma concentration. A Vd larger than total body water (~42 L in a 70 kg adult) implies extensive tissue binding, as seen with chloroquine, digoxin, and amiodarone.
 
-**Routes of administration**:
-- **Oral**: Most common; subject to first-pass metabolism (liver)
-- **IV**: Bypasses first-pass; immediate effect; no absorption phase
-- **IM**: Better absorption than SC; depends on blood flow
-- **SC**: Slower than IM; useful for depot preparations
-- **Topical**: Local effect; some systemic absorption
-- **Inhalation**: Rapid absorption via alveoli; no first-pass
+> Most clinical drugs follow **first-order kinetics** — a fixed fraction eliminated per unit time. **Zero-order kinetics** (ethanol, high-dose phenytoin, salicylates) eliminates a fixed amount per unit time, which is why their plasma levels rise disproportionately after a small dose increase.
 
-**Factors affecting absorption**:
-- **Bioavailability (F)**: Fraction of drug reaching systemic circulation unchanged
-  - F = (AUC oral)/(AUC IV) × 100
-  - IV = 100% (absolute bioavailability)
-  - High first-pass = low bioavailability (e.g., propranolol, nitroglycerin)
-- **Ionization**: Weak acids (aspirin) absorbed better in acidic stomach; weak bases in intestine
-- **Lipophilicity**: More lipophilic drugs cross membranes more easily
+Clearance (Cl) integrates hepatic and renal elimination; half-life t½ = 0.693 × Vd / Cl. Because t½ is the single most practical number, it sets both the dosing interval and the time to steady state (≈4–5 × t½).
 
-**First-pass metabolism**:
-- Drug absorbed from GI tract → portal circulation → liver → systemic circulation
-- Some drugs extensively metabolized in liver on first pass → low bioavailability
-- **Examples**: Propranolol (60-80%), morphine (20-40%), lidocaine (35%)
-- Drugs with high first-pass should not be given orally in acute situations (IV instead)
+#### Pharmacodynamics — what the drug does to the body
 
-### Distribution
+Drugs act through **receptors** (proteins, ion channels, enzymes, nucleic acids). **Affinity** is the attraction between drug and receptor; **intrinsic activity** is the ability to trigger a response once bound. **Potency** refers to the dose producing a given effect (EC50), while **efficacy** is the maximum response (Emax).
 
-**Volume of distribution (Vd)**:
-- Vd = (Amount of drug in body)/(Plasma concentration)
-- Theoretical volume that would be needed to contain total drug at plasma concentration
-- **High Vd (>40 L)**: Drug distributes into tissues (deep compartment) - amphiphilic, highly lipid-soluble
-- **Low Vd (<20 L)**: Drug remains primarily in plasma (albumin-bound)
+| Antagonist type | Dose–response effect | Example |
+|---|---|---|
+| Competitive (reversible) | Parallel rightward shift; Emax unchanged | Atropine at muscarinic receptors |
+| Non-competitive | Maximum response depressed | Phenoxybenzamine at α-receptors (irreversible) |
+| Partial agonist | Lower Emax than full agonist; can antagonise a full agonist in same system | Buprenorphine at μ-opioid receptors |
 
-**Protein binding**:
-- **Albumin**: Binds acidic drugs (warfarin, sulfonamides, NSAIDs)
-- **Alpha-1 glycoprotein**: Binds basic drugs (propranolol, lidocaine)
-- **Displacement interactions**: Two drugs compete for binding sites → increased free concentration of one drug
-  - **Example**: Warfarin + sulfonamides → bleeding (sulfonamides displace warfarin from albumin)
-- Only free (unbound) drug is pharmacologically active
+#### Adverse reactions and monitoring
 
-**Blood-brain barrier**:
-- Tight junctions between endothelial cells
-- Only lipophilic, non-ionized drugs cross
-- **Example**: Dopamine (polar) doesn't cross; L-dopa (less polar) crosses and is converted to dopamine in brain
+- **Type A** reactions are **augmented**, dose-dependent, and predictable (e.g., bleeding with warfarin).
+- **Type B** reactions are **bizarre**, idiosyncratic, and unpredictable (e.g., malignant hyperthermia with halothane).
+- Drug interactions split into **pharmacokinetic** (one drug alters another's ADME — probenecid blocks penicillin secretion) and **pharmacodynamic** (combined receptor effect — β-lactam + aminoglycoside synergy).
 
-**Placental transfer**:
-- Most drugs can cross placenta to some extent
-- **Category X** (contraindicated): Thalidomide, isotretinoin, methotrexate, warfarin
-- **Category A** (safest): Folate, levothyroxine
+#### FMGE-style question patterns
 
-### Metabolism
+- "Drug X has Vd = 500 L; identify the likely property" — think lipophilic, tissue-bound.
+- "Calculate maintenance dose given Cl, Css, τ, F" — a direct arithmetic MCQ.
+- "Agonist added shifts curve right and lowers Emax" — that is a **partial agonist** acting against a full agonist.
+- "Identify zero-order kinetics drug" — ethanol, phenytoin (high dose), salicylate, heparin (at high dose).
 
-**Phase I reactions** (Functionalization):
-- Oxidation, reduction, hydrolysis by cytochrome P450 system (CYP450)
-- **CYP450 enzymes**: Located in liver smooth ER (Heme iron in active site)
-- **CYP3A4**: Most abundant; metabolizes ~50% of drugs
-- **CYP2D6**: Polymorphic; codeine (prodrug) → morphine (in CYP2D6 extensive metabolizers)
-- **Inducers** (increase CYP activity): Rifampin, carbamazepine, phenytoin, chronic alcohol, St. John's wort
-- **Inhibitors** (decrease CYP activity): Ketoconazole, erythromycin, cimetidine, grapefruit juice, acute alcohol
+---
 
-**Phase II reactions** (Conjugation):
-- Glucuronidation, sulfation, acetylation, methylation
-- Generally makes drug more water-soluble for renal excretion
-- **Example**: Morphine → morphine-6-glucuronide (active metabolite)
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-**Zero-order kinetics**:
-- Constant amount of drug eliminated per unit time (regardless of concentration)
-- Occurs at high drug concentrations when enzymes are saturated
-- **Examples**: Phenytoin, aspirin at high doses, ethanol
-- **T1/2 increases as concentration increases** (unlike first-order)
+#### Edge cases and mechanisms worth remembering
 
-**First-order kinetics**:
-- Fraction of drug eliminated per unit time is constant
-- Most drugs follow first-order kinetics
-- **T1/2 is constant** regardless of concentration
-- **First-order equation**: C = C0 × e^(-kt)
+**Receptor regulation** runs in two directions. Chronic agonist exposure typically causes **down-regulation** (tolerance, e.g., opioids, β-agonists), whereas chronic antagonist exposure can cause **up-regulation**, producing rebound hyperactivity on sudden withdrawal — the classic example being rebound tachycardia and angina after abrupt β-blocker stoppage.
 
-**Loading dose calculation**:
-- Loading dose = (Vd × target plasma concentration) / bioavailability (F)
-- Used when rapid attainment of steady state is needed
+**Therapeutic index** is a population statistic, not a patient-specific guarantee. Digoxin (TI ≈ 2–3), lithium (TI ≈ 2–3), warfarin, and aminoglycosides all demand **therapeutic drug monitoring (TDM)**. Even a "safe" drug like penicillin can be lethal in an allergic individual — Type B reactions ignore TI entirely.
 
-**Steady state**:
-- Reached after 4-5 half-lives (97% of steady state)
-- **Constant rate infusion**: Steady state = (Clearance × desired plasma concentration) / infusion rate
+> The **therapeutic window** plotted as plasma concentration on the x-axis versus response on the y-axis is a better clinical tool than TI alone, because it directly shows where efficacy meets toxicity for that patient.
 
-### Excretion
+#### Connections to system pharmacology
 
-**Renal excretion**:
-- Glomerular filtration (free drug + bound drug? → only free drug filtered)
-- Tubular secretion (active transport - increases elimination)
-- Tubular reabsorption (passive - drugs reabsorbed if reabsorb water; acidification increases excretion of basic drugs)
-- **Cockcroft-Gault equation**: Estimates creatinine clearance (used for drug dosing in renal impairment)
+Every system-based topic — ANS, CVS, CNS, antimicrobials — leans on General Pharmacology vocabulary. When the paper asks "mechanism of action of ondansetron," the answer uses **competitive antagonism at 5-HT3 receptors**. When it asks "why does rifampicin fail as oral contraception," the answer uses **enzyme induction accelerating steroid metabolism** — a pharmacokinetic interaction. Mastery of ADME, dose–response curves, and antagonism types therefore multiplies marks across the entire paper.
 
-**Biliary excretion**:
-- Some drugs excreted in bile → feces
-- Enterohepatic circulation: Drug secreted in bile → absorbed from intestine → back to liver
-- Prolongs drug effect
-- **Example**: Digoxin (some biliary excretion), some estrogens
+#### Common errors examiners exploit
 
-**Other routes**:
-- Pulmonary: Volatile anesthetics (exhaled)
-- Saliva, sweat, breast milk (important for lactating mothers)
+- Equating **potency with efficacy** — morphine is less potent than fentanyl but both have high efficacy at μ-receptors.
+- Forgetting that **first-pass metabolism** only applies to orally absorbed drugs — IV, IM, SC, transdermal, and sublingual routes bypass it.
+- Treating **all competitive antagonists as reversible** — phenoxybenzamine and aspirin are irreversible covalent binders.
+- Misapplying **half-life rules to zero-order drugs** — t½ lengthens as concentration rises for phenytoin, making dose escalation dangerous.
 
-## Pharmacodynamics
+#### Worked micro-example
 
-### Mechanisms of Drug Action
+A 60 kg patient needs digoxin; target plasma concentration = 0.0015 mg/L, Vd ≈ 7 L/kg, F (oral) ≈ 0.7.
+Loading dose = Vd × Target Cp / F = (7 × 60 × 0.0015) / 0.7 = 0.63 / 0.7 ≈ **0.9 mg**.
 
-**Agonists**:
-- Bind to receptor and produce response
-- **Full agonist**: Maximal response
-- **Partial agonist**: Submaximal response even at high concentrations (e.g., buprenorphine)
-- **Inverse agonist**: Produces opposite effect to agonist (e.g., some antihistamines)
+Maintenance dose depends on Cl (≈ 70 mL/min for a normal adult converted to L/h = 4.2 L/h) and τ = 24 h:
+MD = (Css × Cl × τ) / F = (0.0015 × 4.2 × 24) / 0.7 ≈ **0.216 mg/day** → rounded to **0.25 mg/day**.
 
-**Antagonists**:
-- Bind to receptor without producing effect
-- **Competitive antagonist**: Reversible; can be overcome by increasing agonist concentration
-- **Non-competitive antagonist**: Irreversible; cannot be overcome by increasing agonist
-- **Physiological antagonist**: Acts at different receptor to produce opposite effect (e.g., histamine vs epinephrine for anaphylaxis)
+#### Practice prompts
 
-### Receptor Types
+1. A drug has EC50 = 1 µg/mL and Emax = 100 %; another has EC50 = 10 µg/mL and Emax = 60 %. Compare their **potency** and **efficacy**, and predict the curve shift if a non-competitive antagonist is added.
+2. Theophylline clearance falls in heart failure. Using t½ = 0.693 × Vd / Cl, explain how the dosing interval should change, and identify the kinetic order most likely governing its elimination at therapeutic levels.
 
-**G-protein coupled receptors (GPCR)**:
-- **Gs**: ↑cAMP → stimulatory effects (β-agonists, glucagon)
-- **Gi**: ↓cAMP → inhibitory effects (α2-agonists, adenosine)
-- **Gq**: ↑IP3/DAG → ↑intracellular Ca²⁺ (α1-agonists, muscarinic M1, M3)
-- **G11**: Opening of Ca²⁺-activated K⁺ channels (muscarinic M2)
+---
 
-**Ligand-gated ion channels**:
-- Nicotinic ACh receptors (Na⁺ influx)
-- GABA-A receptors (Cl⁻ influx → hyperpolarization)
-- NMDA/glutamate receptors (Ca²⁺ influx)
+## Continue your study
 
-**Enzyme-linked receptors**:
-- Insulin receptor (tyrosine kinase)
-- ANP receptor (guanylyl cyclase → ↑cGMP)
-
-**Nuclear receptors**:
-- Steroid hormones, thyroid hormone (intracellular receptors → gene transcription changes)
-- Slower onset but longer duration of effect
-
-### Therapeutic Index
-
-**Therapeutic Index (TI)** = TD50/ED50
-- Higher TI = safer drug (wide margin between effective and toxic doses)
-- **Low TI drugs**: Warfarin (2-3), digoxin (2), lithium (3), theophylline (4)
-- **Narrow therapeutic index** drugs: Require therapeutic drug monitoring
-
-**Half-maximal effective concentration (EC50)**:
-- Concentration at which 50% of maximal effect is achieved
-- Lower EC50 = more potent drug
-
-### Drug Interactions
-
-**Pharmacokinetic interactions**:
-- Absorption: Antacids chelate tetracyclines; cholestyramine binds other drugs
-- Distribution: Sulfonamides displace warfarin
-- Metabolism: CYP450 inducers/inhibitors
-- Excretion: Probenecid blocks uric acid secretion (and other drugs)
-
-**Pharmacodynamic interactions**:
-- Synergistic: Two drugs with similar effects (e.g., benzodiazepine + alcohol = CNS depression)
-- Additive: Sum of effects
-- Antagonistic: One drug reduces effect of another
-
-### Adverse Drug Reactions
-
-**Type A (Predictable, dose-dependent)**:
-- Extensions of pharmacological effect
-- **Examples**: Respiratory depression with opioids, bleeding with warfarin
-- Can be avoided by careful dosing
-
-**Type B (Unpredictable, dose-independent)**:
-- **Idiosyncratic**: Genetic deficiency (G6PD + sulfonamides = hemolysis)
-- **Allergic/immune**: IgE-mediated (penicillin anaphylaxis)
-- **Pseudoallergic**: Direct mast cell degranulation (radiocontrast, vancomycin "red man syndrome")
-
-**Teratogenicity**:
-- **Thalidomide**: Limb defects (phocomelia)
-- **Isotretinoin**: Severe malformations
-- **Warfarin**: Warfarin embryopathy (nasal hypoplasia, stippled epiphyses)
-- **ACE inhibitors**: Fetal renal damage
-- **Category X** drugs: Contraindicated in pregnancy
+- **[View this topic in your FMGE roadmap](/roadmap/?exam=fmge&duration=1mo)** — see where "General Pharmacology" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=fmge&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[FMGE exam overview](/exams/fmge/)** — pattern, eligibility, and syllabus
+- **[All Pharmacology notes](/notes/fmge/pharmacology/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

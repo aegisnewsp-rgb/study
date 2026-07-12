@@ -8,175 +8,98 @@ topicName: Indian Contract Act — Offer, Acceptance, and Consideration
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-07-12"
 ---
 
-# Indian Contract Act, 1872 — Part 1
+# Indian Contract Act — Offer, Acceptance, and Consideration
 
-## Introduction to the Indian Contract Act, 1872
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
 
-The Indian Contract Act, 1872 is the primary legislation governing contracts in India. It defines what constitutes a valid contract, the rules for formation, and the rights and obligations of parties. It applies to the whole of India except the state of Jammu & Kashmir.
+A **contract** under Section 2(h) of the Indian Contract Act, 1872 is "an agreement enforceable by law." It is built from three pillars: a **proposal/offer** (Sec 2(a)), its absolute and unqualified **acceptance** (Sec 2(b)), and **consideration** — something in return (Sec 2(d)).
 
-### Definition of Contract (Section 2(h))
+#### The 3-Step Formation
+1. **Offer (Proposal):** One party expresses willingness to do or abstain from doing something, with the intention that it becomes binding on acceptance.
+2. **Acceptance:** The offeree assents to the offer's terms exactly as stated — the **mirror image rule**. A counter-offer destroys the original.
+3. **Consideration:** "Quid pro quo" — value exchanged between the parties. It need not be adequate, only **lawful**.
 
-A **Contract** is an agreement enforceable by law. To be enforceable, a contract must possess all the essential elements of a valid contract.
+> **Exam tip:** Section numbers are scoring currency. Memorise 2(a), 2(b), 2(d), 2(g), 2(h), 4, and 6 — they appear in nearly every MCQ.
 
-### Definition of Agreement (Section 2(e))
-
-An **Agreement** is the mutual promises/understanding between two or more parties. Essentially, agreement = offer + acceptance.
-
-**Formula**: Contract = Agreement + Enforceability by Law (i.e., certain agreements that are legally binding)
-
-### Essential Elements of a Valid Contract
-
-1. **Offer and Acceptance** (Sections 3–9): There must be a valid offer and a valid acceptance
-2. **Consensus ad idem**: Both parties must agree on the same thing in the same sense (mutual intention)
-3. **Consideration** (Section 25): Something of value must be exchanged
-4. **Capacity of Parties** (Sections 10–12): Parties must be competent to contract
-5. **Free Consent** (Sections 13–22): Consent must not be obtained by coercion, undue influence, fraud, or misrepresentation
-6. **Legality of Object** (Sections 23–30): The agreement must be for a lawful purpose
-7. **Possibility of Performance** (Section 56): The agreement must be capable of being performed
-8. **Certainty** (Section 29): The terms must be certain and not vague
-
-## Offer and Acceptance
-
-### What is an Offer? (Section 2(a))
-
-An offer is a proposal made by the **offeror** to the **offeree**. It is the expression of willingness to do or abstain from doing something, with the intent that it shall become binding upon acceptance.
-
-**Key case**: Hyde v. Wrench (1840) — An offer can be revoked before acceptance. A purported acceptance of a revoked offer is a new offer.
-
-### Communication of Offer (Section 3)
-
-An offer is complete when:
-- It is communicated to the offeree
-- The offeree has knowledge of the offer
-
-**Example**: Posting a letter — communication of offer is complete when the letter reaches the offeree (Section 3).
-
-### Types of Offers
-
-| Type | Description | Example |
+| Element | Section | One-line test |
 |---|---|---|
-| **Express offer** | Stated in clear words (oral or written) | "I offer to sell my car for ₹5 lakhs" |
-| **Implied offer** | Inferred from conduct | Display of goods in a shop with price tag |
-| **Specific offer** | Made to a specific person | Offer to sell a specific piece of land to a named individual |
-| **General offer** | Made to the world at large | A reward for finding lost dog — anyone who fulfills the conditions can claim |
-| **Cross offer** | Two parties make identical offers to each other simultaneously | Not acceptance — does not constitute a contract |
-| **Counter offer** | Acceptance with modification | "I accept but only if the price is ₹4 lakhs" — counter offer, original offer lapses |
-
-### Acceptance (Section 2(b))
-
-Acceptance is the expression of assent to the offer. The offeree must communicate acceptance to the offeror.
-
-**Rules of Acceptance**:
-1. Must be communicated (silence is not acceptance — Felthouse v. Brindley, 1862)
-2. Must be absolute and unconditional (conditional acceptance = counter offer = rejection)
-3. Must be in the mode prescribed by the offeror (if no mode prescribed — any reasonable mode)
-4. Must be within the time limit specified or within a reasonable time
-5. Cannot be given before communication of offer (offer must exist to be accepted)
-
-**Communication of Acceptance (Section 4)**:
-- The acceptance is complete when:
-  - The offeror receives it (if acceptance is communicated by post/instrument)
-  - When put in the course of transmission (if acceptance is communicated by telephone/telegraph)
-  - When received by the offeror (if acceptance is by telephone/telegraph)
-
-### Revocation of Offer and Acceptance (Sections 5–6)
-
-**Revocation of Offer** (Section 6):
-- Offer can be revoked at any time before acceptance
-- Revocation must be communicated to the offeree before acceptance
-- **Revocation by lapse**: Offer lapses if not accepted within specified time or reasonable time
-- **Revocation by rejection**: If offeree rejects, the offer is terminated
-
-**Revocation of Acceptance** (Section 5):
-- Acceptance can be revoked if revocation reaches the offeror before or at the same time as acceptance
-
-## Consideration (Section 25)
-
-**Definition**: Consideration is something of value given by the promisee to the promisor (or at the promisor's request) in exchange for the promise. It can be:
-- An act (doing something)
-- A forbearance (not doing something)
-- A promise to do or not do something
-
-**Section 25**: "An agreement without consideration is void" — unless it satisfies one of the exceptions.
-
-### Rules of Consideration
-
-1. **Something must be given**: Consideration need not be adequate (courts don't judge whether price is fair), but something must be given
-2. **Must move from the promisee**: Consideration must be given by the person to whom the promise is made (or someone on their behalf)
-3. **Must be real and not illusory**: Cannot be physically impossible or legally impossible
-4. **Must not be past**: Past consideration is not valid (but exceptions exist)
-5. **Must be lawful**: Consideration must not be illegal, immoral, or opposed to public policy
-
-### Exceptions to Consideration (Section 25)
-
-| Exception | Section | Description |
-|---|---|---|
-| **Love and affection** | 25(1) | Promise to pay a debt barred by limitation — if made out of natural love and affection between near relatives |
-| **Promise to compensate** | 25(2) | Promise to compensate for something done voluntarily (past consideration treated as valid) — e.g., A saves B's property from fire; B promises to pay; promise is enforceable |
-| **Promise to pay debt barred by limitation** | 25(3) | If debtor promises to pay a time-barred debt (due to limitation period expiry) |
-
-### Stranger to Contract (Privity of Contract)
-
-The doctrine of **privity of contract** states that only parties to a contract can enforce it or be bound by it. A third party (stranger) cannot sue or be sued under a contract.
-
-**Key case**: Tweddle v. Atkinson (1861) — A third party cannot enforce a contract even if it was made for their benefit.
-
-**Exceptions to stranger to contract**:
-- **Trust/Charge**: If a contract creates a trust, the beneficiary (third party) can enforce it
-- **Family settlements**: A third party can enforce if the agreement is based on a family arrangement
-- **Acknowledgment**: If the promisor acknowledges the third party's rights
-
-## Capacity of Parties (Sections 10–12)
-
-### Who Can Contract? (Section 11)
-
-Every person is competent to contract who:
-1. Is of the age of majority (18 years in India; 21 years for those under guardianship of Court of Wards)
-2. Is of sound mind
-3. Is not disqualified from contracting by any law
-
-### Minor (Person Below 18 Years)
-
-**Section 11**: A minor is not competent to contract.
-
-**Key rules for minor's agreements**:
-1. **Contract with a minor is void**: Not voidable — absolutely void (unlike other defective contracts which are voidable)
-2. **No restitution**: Minor cannot be asked to return what they received — even if they misrepresent their age (Soni Jayaram v. Thodur, 1899)
-3. **Benefit exception**: A minor can be a promisee (beneficiary) — the other party must fulfill their part
-4. **Partnership**: A minor cannot become a partner — but can be admitted to benefits of partnership (under Partnership Act)
-
-**Key case**: Mohiri Bibi v. Dharmod Ghose (1903) — Contract with minor is void; no restitution; money paid to minor need not be returned.
-
-### Unsound Mind (Section 12)
-
-A person of unsound mind is not competent to contract. However:
-- A person who is usually of unsound mind but is in a lucid interval may contract during that period
-- A person who is drunk cannot contract until sober
-
-### Disqualified Persons
-
-- Persons declared insolvent by a court
-- Foreign sovereigns and ambassadors (with certain immunities)
-- Corporations (governed by their own Acts — Companies Act, etc.)
-
-### Effects of Incapacity (Section 19, 19A)
-
-- **Agreements with minors**: Void — no liability
-- **Agreements with persons of unsound mind or disqualified persons**: Voidable at the option of the other party (if the other party was unaware of the incapacity and the agreement is not for the benefit of the minor)
-
-## CTET Exam Focus
-
-- **Contract = Agreement + Enforceability by law** (Section 2(h))
-- **Offer**: Definition (Section 2(a)), communication, types (express, implied, general, specific)
-- **Acceptance**: Rules (absolute, communicated, in prescribed mode), communication of acceptance (Section 4)
-- **Revocation**: Offer lapses by rejection, lapse of time, counter-offer (not acceptance)
-- **Consideration**: Something of value; rules (must move from promisee, must be real, not past); Section 25 — agreement without consideration is void (3 exceptions)
-- **Minor's agreement**: Void ab initio (void from beginning); Mohiri Bibi case — no restitution to minor even if minor misrepresented age
-- **Privity of contract**: Stranger cannot sue; exceptions (trust, family settlement)
-- **Incapacity**: Minor, unsound mind, disqualified persons
+| Offer | 2(a) | Willingness creating legal relations on acceptance |
+| Acceptance | 2(b) | Absolute and unqualified assent |
+| Consideration | 2(d) | Something in return, lawful, at promisor's desire |
 
 ---
+
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
+
+#### Offer vs Invitation to Offer
+An **offer** is a definite promise capable of acceptance by a specific person or the public. An **invitation to offer** merely invites negotiations — the catalogue, advertisement, price list, or tender notice is *not* an offer; the customer's order triggered by it is. The leading illustration is **Harris v. Clarke** (advertisements are not offers).
+
+#### Legal Rules of a Valid Offer
+- Must intend to create **legal relations** (commercial presumption applies).
+- Terms must be **certain** and capable of acceptance.
+- Must be **communicated** to the offeree before acceptance.
+- Distinct from a mere declaration of intention or an invitation to treat.
+- May be **express, implied, or conditional**, but not vague.
+
+#### Legal Rules of Acceptance
+- Must be **absolute and unqualified** — qualified assent is a counter-offer, not acceptance.
+- Must be **communicated** to the offeror in the usual or prescribed manner.
+- Acceptance is complete the moment it is **posted** (Sec 4) — the postal rule — but revocation is complete only **on receipt**.
+- Must precede any revocation, rejection, lapse of time, or counter-offer.
+
+#### Consideration in Depth
+Section 2(d) defines consideration as "something in return" — an act, forbearance, or promise. It must be **lawful, real, and at the desire of the promisor**. The Act does not require **adequacy**; courts leave valuation to the parties (illustrated by *Chinaya v. Ramayya*). A pre-existing legal duty is generally not consideration, except under the exceptions carved out by Section 25 (e.g., natural love and affection between near relatives, written promise to pay a time-barred debt, and compromise of a disputed claim).
+
+> **Trap to avoid:** Forgetting the qualifier "lawful." If the consideration is unlawful, the agreement is **void** under Sec 23, not merely unenforceable.
+
+#### Exam Pattern (CMA Foundation Paper 3)
+Questions typically arrive as **1-mark MCQs** on definitions and **2–3 mark short notes** on legal rules of offer, communication rules, or distinction tables. Aim to reproduce the exact statutory language for 2(a), 2(b), 2(d), and 2(h) when definitions are asked.
+
+---
+
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
+
+#### Communication Mechanics (Section 3 and 4)
+Performance of conditions is treated as acceptance. Acceptance against a proposal is complete when **put in the course of transmission** so as to be out of the offeror's power; revocation is complete when it **comes to the knowledge** of the other party. Instantaneous communication (telex, email in settled commercial practice) collapses both points — acceptance is complete on receipt.
+
+#### Modes of Revocation of Offer (Section 6)
+- By **notice** of revocation from the offeror.
+- By **lapse of stipulated time** or, where none is fixed, a reasonable time.
+- By **non-fulfilment of a condition precedent**.
+- By **death or insanity** of the offeror before acceptance.
+- By a **counter-offer** or **rejection** by the offeree.
+
+#### Privity and Limits
+Only a party to a contract can sue on it (**Privity of Contract**). Strangers cannot enforce, though they may benefit incidentally. A stranger also cannot be sued. This is why collateral arrangements (guarantees, trust structures) are sometimes engineered into commercial transactions.
+
+#### Common Mistakes in Answers
+| Mistake | Correction |
+|---|---|
+| Calling an advertisement an "offer" | Advertisements are invitations to offer |
+| Treating a counter-offer as acceptance | A counter-offer revokes the original offer |
+| Asserting mental acceptance is binding | Acceptance is incomplete until communicated (or posted) |
+| Demanding "adequate" consideration | Adequacy is irrelevant; only legality matters |
+| Confusing void with voidable | **Void** = unenforceable ab initio; **voidable** = valid until rescinded |
+
+#### Practice Prompts
+1. *"A auctioneer advertises a car for sale. Ramesh sends an acceptance letter."* — Is the advertisement an offer? Discuss using **Harris v. Clarke** and the Indian position under Sec 2(a).
+2. *"Sita promises to pay her discharged debtor Ram ₹50,000 in writing, signed and witnessed."* — Is consideration present? Apply **Section 25 exceptions** and decide enforceability.
+
+> **Strategy note:** For Paper 3, this cluster contributes ~3% weightage. Allocate roughly 4–5 hours across the syllabus and interleave it with capacity (Sec 11) and consent (Sec 13–19) since examiners frequently link them.
+
+---
+
+## Continue your study
+
+- **[View this topic in your CMA Foundation roadmap](/roadmap/?exam=cma&duration=1mo)** — see where "Indian Contract Act — Offer, Acceptance, and Consideration" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=cma&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[CMA Foundation exam overview](/exams/cma/)** — pattern, eligibility, and syllabus
+- **[All Business Law notes](/notes/cma/business-law/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

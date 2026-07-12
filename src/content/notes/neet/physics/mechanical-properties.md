@@ -8,150 +8,83 @@ topicName: Mechanical Properties of Solids
 weight: 3
 country: india
 generated: 2026-04-23
-lastUpdated: 2026-04-23
+lastUpdated: "2026-07-12"
 ---
 
-# Mechanical Properties of Solids — NEET Physics Notes
+# Mechanical Properties of Solids
 
-This chapter covers elasticity, deformation of materials under stress, and the mechanical behaviour of solids — a fundamental topic in mechanics with consistent weightage in NEET Physics.
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your NEET UG attempt.
 
-## Quick Revision
+**Stress** is the internal restoring force developed per unit cross-sectional area (σ = F/A, in N/m² or Pa). **Strain** is the relative deformation produced — dimensionless, since it is a ratio of two like quantities.
 
-- **Elasticity:** Property of a body to regain its original shape/size after removal of deforming force
-- **Stress:** Internal restoring force per unit area = F/A, unit: N/m² or Pascal
-- **Strain:** Relative change in dimension = ΔL/L, dimensionless
-- **Hooke's Law:** Stress ∝ Strain (within elastic limit)
-- **Young's Modulus (Y):** Y = (F/A) / (ΔL/L) = FL/AΔL
-- **Bulk Modulus (B):** B = −P / (ΔV/V)
-- **Shear Modulus (G):** G = F/A (shear stress / shear strain)
-- **Poisson's Ratio (σ):** σ = (lateral strain) / (longitudinal strain)
-- **Elastic Potential Energy:** U = (½) × stress × strain × volume
+Within the elastic limit, **Hooke's Law** holds: stress ∝ strain, giving the three elastic moduli for the three deformation modes:
 
-## Standard Study
+| Modulus | Formula | Deformation mode |
+|---|---|---|
+| Young's (Y) | Y = (F/A) / (ΔL/L) | Length change |
+| Bulk (K) | K = −P / (ΔV/V) | Volume change |
+| Shear (G) | G = (F/A) / θ | Shape change |
 
-### Types of Stress
+**Poisson's ratio** σ = lateral strain / longitudinal strain lies between −1 and 0.5 for stable materials. NEET UG asks 1–2 questions (≈4 marks) from this NCERT Class 11 chapter, usually based on the **stress–strain curve** or the Y = FL/(AΔL) numerical.
 
-1. **Tensile Stress:** Pulling force per unit area — length increases
-2. **Compressive Stress:** Pushing force per unit area — length decreases
-3. **Shear Stress:** Tangential force per unit area — shape changes
+---
 
-### Types of Strain
+### 🟡 Standard — Regular Study (2d–2mo)
+> Working understanding of elasticity for a few-days-to-months study plan.
 
-1. **Longitudinal Strain:** Change in length / original length
-2. **Volume Strain:** Change in volume / original volume
-3. **Shear Strain:** Angular deformation θ where tan θ ≈ θ
+#### Stress, Strain and the Three Moduli
 
-### Hooke's Law and Moduli
+When an external force deforms a solid, internal restoring forces develop. **Normal stress** acts perpendicular to the surface (tensile or compressive), while **tangential (shearing) stress** acts parallel to it. Strain takes three corresponding forms: longitudinal, volume, and shearing.
 
-**Stress-Strain Curve:**
-- **Proportional Limit:** Up to point P — stress ∝ strain (Hooke's law holds)
-- **Elastic Limit:** Up to point E — body regains original shape after removal
-- **Yield Point (Y):** Beyond this, permanent deformation occurs
-- **Fracture Point (F):** Material breaks here
+The modulus for each mode is the ratio of relevant stress to relevant strain, with the same SI unit — pascal (Pa) — across all three. Because strain is dimensionless, the modulus carries the unit of stress alone.
 
-### Young's Modulus (Y)
+#### Relations Among the Moduli
 
-- Most commonly tested modulus in NEET
-- Y = (FL) / (AΔL)
-- Higher Y → stiffer material (harder to stretch/compress)
-- Example: Steel Y ≈ 200 GPa, Rubber Y ≈ 0.05 GPa
+For an isotropic, homogeneous solid, the four elastic constants are not independent:
 
-### Bulk Modulus (B)
+- **Y = 2G(1 + σ)**
+- **Y = 3K(1 − 2σ)**
+- **K = (2G(1 + σ)) / (3(1 − 2σ))**
 
-- B = −P / (ΔV/V)
-- Negative sign because pressure increases when volume decreases
-- Compressibility = 1/B
+> **Exam trap:** Many students write K = 1/G or treat Y, K, G as interchangeable. They correspond to *different* deformation modes — substituting one for another gives a wrong answer.
 
-### Shear Modulus (G)
+#### Reading the Stress–Strain Curve
 
-- G = (F/A) / (x/h) where x = parallel displacement, h = distance between layers
-- Also called Modulus of Rigidity
+The curve reveals: proportional limit → elastic limit → yield point → plastic region → **ultimate tensile strength** → fracture point. Hooke's law is valid only up to the proportional limit; beyond it, deformation is permanent. **Ductile** materials (copper, aluminium) stretch substantially before breaking; **brittle** materials (glass, cast iron) fracture soon after the elastic limit with negligible plastic flow.
 
-### Poisson's Ratio
+#### Common NEET-style Numerical
 
-- σ = (lateral strain) / (longitudinal strain)
-- For most metals: 0.25 ≤ σ ≤ 0.33
-- Theoretical range: −1 ≤ σ ≤ 0.5 (for isotropic materials, σ ≤ 0.5)
+Using **Y = FL/(AΔL)**: a 2 m steel wire of cross-section 2 × 10⁻⁶ m² stretches by 1 mm under a 200 N load. Compute Y = (200 × 2) / (2 × 10⁻⁶ × 10⁻³) = 2 × 10¹¹ Pa — a value students must recognise as typical for steel.
 
-### Relation Between Moduli
+---
 
-For isotropic elastic materials, the three moduli and Poisson's ratio are related:
-- Y = 2G(1 + σ)
-- B = Y / (3(1 − 2σ))
-- Y = 3B(1 − 2σ)
+### 🔴 Extended — Deep Study (3mo+)
+> Edge cases, mechanism, and cross-topic links for the long-term NEET aspirant.
 
-### Elastic Potential Energy
+#### The Negative Sign in Bulk Modulus
 
-- When a wire is stretched, work done is stored as elastic PE
-- U = (½) × Stress × Strain × Volume
-- U = (½) × Y × (strain)² × V
-- Energy density (U/V) = (½) × stress × strain = (½) × Y × (strain)²
+Pressure is always positive, but compression makes ΔV negative. Hence **K = −P / (ΔV/V)** keeps K positive. Forgetting this sign gives K negative — physically meaningless. **Compressibility** is the reciprocal 1/K, with units Pa⁻¹ or m²/N.
 
-## Deep Study
+#### Bounds on Poisson's Ratio
 
-### Stress-Strain Behaviour
+For a stable isotropic solid, thermodynamic arguments restrict σ to **−1 ≤ σ ≤ 0.5**. Most engineering materials sit between 0.2 and 0.5; cork sits near 0 (lateral strain is negligible). A NEET assertion-reason item may test whether σ can exceed 0.5 — it cannot, because that would imply instability under volume change.
 
-**Ductile Materials (e.g., copper, aluminium):**
-- Large plastic deformation before fracture
-- Large region between elastic limit and fracture
-- Used for making wires and sheets
+#### Elastic Fatigue and Beyond
 
-**Brittle Materials (e.g., glass, ceramics):**
-- Very little plastic deformation before fracture
-- Breaking occurs close to elastic limit
-- Example: Cast iron, concrete
+Repeated loading below the elastic limit can fracture a specimen — this is **elastic fatigue**, distinct from plastic failure. Materials like rubber deviate strongly from Hooke's law even at small strains (non-linear elasticity), so the "stress ∝ strain" rule applies strictly to metals in the linear region.
 
-**Elastomers (e.g., rubber)::**
-- Large elastic strain (up to several hundred percent)
-- Stress-strain curve is non-linear
-- No well-defined yield point
+#### Practice Prompts
 
-### Cantilever and Beam Bending
+1. A copper rod of length L and radius r is stretched by force F. Derive the elastic potential energy stored per unit volume as (½) × stress × strain.
+2. Given Y = 2 × 10¹¹ Pa and σ = 0.3 for steel, compute the bulk modulus K using Y = 3K(1 − 2σ).
 
-- When a beam is loaded at one end (cantilever), it bends
-- Depression at free end: δ = (WL³) / (3YI)
-- W = load, L = length, Y = Young's modulus, I = moment of inertia
+## Continue your study
 
-### Torsion
+- **[View this topic in your NEET UG roadmap](/roadmap/?exam=neet&duration=1mo)** — see where "Mechanical Properties of Solids" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=neet&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NEET UG exam overview](/exams/neet/)** — pattern, eligibility, and syllabus
+- **[All Physics notes](/notes/neet/physics/)** — browse sibling topics in this subject
 
-- When a cylinder is twisted, shear stress is produced
-- Angle of twist θ = (TL) / (GJ)
-- T = torque, J = polar moment of inertia, G = shear modulus
-
-### Thermal Stress
-
-- When temperature changes in a constrained rod, thermal stress develops
-- Thermal stress = Y × α × ΔT
-- α = coefficient of linear expansion
-- ΔT = change in temperature
-
-## Exam Tips
-
-1. Hooke's Law is valid ONLY within proportional/elastic limit
-2. Young's Modulus is the most frequently asked — know its formula and unit
-3. Stress has unit N/m² (Pascal), same as pressure
-4. Bulk modulus applies to liquids/gases under pressure — compression
-5. Wire stretching: work done = ½ × F × ΔL = ½ × Y × A × (ΔL)²/L
-6. Thermal stress formula YαΔT is commonly used in problems
-7. Poisson's ratio must be dimensionless — watch for unit conversion errors
-8. Elastic PE per unit volume = ½ × stress × strain
-
-## Common Pitfalls
-
-- Confusing stress with pressure (while dimensionally same, stress has directional nature)
-- Forgetting that stress ∝ strain only within elastic limit — outside this relationship breaks
-- Not converting units properly — use consistent SI units (Pa, m, m²)
-- Confusing shear modulus with Young's modulus in torsion problems
-- Forgetting negative sign in Bulk Modulus formula (B = −PΔV/V)
-- Not realising that for same force, thinnest wire experiences highest stress
-
-## Suggested Study Order
-
-1. Basic concepts: elasticity, stress, strain definitions
-2. Hooke's Law and Young's Modulus
-3. Stress-Strain curve analysis
-4. Bulk modulus and shear modulus
-5. Poisson's ratio and relations between moduli
-6. Elastic potential energy
-7. Thermal stress problems
-8. Cantilever and beam bending
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

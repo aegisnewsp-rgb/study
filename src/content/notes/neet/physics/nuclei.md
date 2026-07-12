@@ -8,153 +8,101 @@ topicName: Nucleus and Radioactivity
 weight: 3
 country: india
 generated: 2026-04-23
-lastUpdated: 2026-04-23
+lastUpdated: "2026-07-12"
 ---
 
-# Nucleus and Radioactivity — NEET Physics Notes
+# Nucleus and Radioactivity
 
-This topic covers nuclear structure, radioactivity, nuclear reactions, and the physics of nuclear energy — an essential chapter in NEET Physics with consistent question weightage.
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
 
-## Quick Revision
+The **nucleus** holds **Z protons** and **N neutrons** (nucleons), giving mass number **A = Z + N**. **Radioactivity** is the spontaneous disintegration of unstable nuclei, independent of temperature, pressure, or chemical state.
 
-- **Nuclear Composition:** Protons (Z) + Neutrons (N) = Mass number (A)
-- **Isotopes:** Same Z, different N (e.g., ¹₂H, ²₂H, ³₂H)
-- **Radioactive Decay Laws:** N = N₀ e^(−λt)
-- **Half-Life:** T½ = ln2/λ = 0.693/λ
-- **Mean Life:** τ = 1/λ
-- **Activity:** A = λN, measured in Becquerel (Bq) or Curie (Ci)
-- **Mass Defect:** Δm = [Zmp + Nmn] − M_nucleus
-- **Binding Energy:** E = Δmc², often expressed in MeV (1 u = 931.5 MeV)
-- **Radioactive Series:** U-238, Th-232, U-235 series — decay until stable Pb
+- **Alpha (α):** ⁴₂He nucleus — A drops by 4, Z by 2.
+- **Beta-minus (β⁻):** n → p + e⁻ + antineutrino — Z rises by 1, A unchanged.
+- **Beta-plus (β⁺) / K-capture:** p → n + e⁺ + neutrino — Z drops by 1, A unchanged.
+- **Gamma (γ):** de-excitation photon — A and Z unchanged.
 
-## Standard Study
+> **High-yield:** Binding energy per nucleon B = (Δm·c²)/A peaks near Fe-56 (~8.8 MeV), which is why both fission of heavy nuclei and fusion of light nuclei release energy.
 
-### Nuclear Structure
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-- **Size:** Radius R = R₀A^(1/3), R₀ ≈ 1.2 fm
-- **Nuclear Density:** ~10¹⁷ kg/m³ — extremely high, almost independent of A
-- **Nuclear Force:** Short-range (~1 fm), attractive, strongest force in nature
-- **Neutron-Proton Ratio:** N/Z ratio increases with atomic number for stable nuclei
+#### Mass Defect and Binding Energy
 
-### Binding Energy and Stability
+A bound nucleus weighs less than the sum of its free nucleons. The **mass defect** is
 
-- Binding energy per nucleon peaks at Iron-56 (~8.8 MeV/nucleon)
-- Light nuclei: fusion releases energy (combining lighter nuclei)
-- Heavy nuclei: fission releases energy (splitting heavier nuclei)
-- Binding energy curve explains why nuclear reactions release energy
+> Δm = Z·m_p + N·m_n − M_nucleus
 
-### Radioactivity Types
+with **1 u = 931.494 MeV/c²**. Total binding energy is Δm·c², and per nucleon it is B = (Δm·c²)/A.
 
-| Type | Symbol | Nature | Penetration | Ionisation |
-|------|--------|--------|-------------|-----------|
-| Alpha (α) | ⁴₂He | He nucleus, charge +2 | Low | High |
-| Beta minus (β⁻) | ⁰₋₁e | Electron | Medium | Medium |
-| Beta plus (β⁺) | ⁰₊₁e | Positron | Medium | Medium |
-| Gamma (γ) | γ | High-energy photon | Very High | Low |
+#### Radioactive Decay Law
 
-**Alpha Decay:** A → (A-4) + ⁴₂He; He nucleus emitted
-**Beta Decay:** n → p + e⁻ + ν̄ₑ (neutron converts to proton)
-**Gamma Decay:** Nucleus releases excess energy as photon
+Decay is exponential:
 
-### Decay Laws
+> N(t) = N₀·e^(−λt),  A(t) = λN(t) = A₀·e^(−λt)
 
-- **Activity:** A = −dN/dt = λN
-- **Decay constant λ:** Probability per unit time that a nucleus will decay
-- **Half-life T½:** Time for half the nuclei to decay
-- **Mean life τ:** Average lifetime of a nucleus = T½/ln2 ≈ T½/0.693
-- **Number of nuclei remaining:** N = N₀(1/2)^(t/T½) = N₀e^(−λt)
+where λ is the **decay constant** (s⁻¹). The **half-life** T½ and **mean life** τ satisfy λ = ln 2 / T½ = 1/τ, so τ ≈ 1.44·T½.
 
-### Soddy's Displacement Law
+#### Soddy–Fajans Displacement Rules
 
-- Alpha decay: mass number decreases by 4, atomic number decreases by 2
-- Beta minus decay: mass number unchanged, atomic number increases by 1
-- Gamma decay: no change in mass or atomic number
+| Decay | ΔA | ΔZ |
+|---|---|---|
+| α | −4 | −2 |
+| β⁻ | 0 | +1 |
+| β⁺ / K-capture | 0 | −1 |
+| γ | 0 | 0 |
 
-### Nuclear Reactions
+#### Units
 
-- **Q-value (Energy of reaction):** Q = (M_initial − M_final)c²
-- Q > 0: Exothermic (releases energy)
-- Q < 0: Endothermic (absorbs energy)
-- Threshold energy for endothermic reactions: E_th = −(Q × (M_target/M_total))
+**1 Bq = 1 disintegration/s**; **1 Ci = 3.7×10¹⁰ Bq** (older non-SI unit).
 
-### Fission and Fusion
+#### NEET Question Patterns
 
-**Nuclear Fission:**
-- Heavy nucleus (U-235) splits into lighter nuclei
-- Produces 2-3 neutrons, releases ~200 MeV per fission
-- Chain reaction occurs when neutrons cause further fissions
-- Critical mass required for sustained chain reaction
+Typical 2-mark items ask for B per nucleon from a given mass table, decay-constant from half-life, activity after time t, or identification of emitted particle in a series. A classic trap: confusing β⁻ with β⁺ direction in Z.
 
-**Nuclear Fusion:**
-- Light nuclei combine to form heavier nucleus
-- Releases more energy per unit mass than fission
-- Occurs in stars (including the Sun) at very high temperatures
-- Requires extreme temperature and pressure to overcome Coulomb barrier
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-### Applications
+#### Alpha Decay Mechanics
 
-- **Radioisotopes in medicine:** Cobalt-60 for cancer therapy, Iodine-131 for thyroid
-- **Carbon dating:** ¹⁴C used to determine age of archaeological samples
-- **Nuclear power:** Controlled fission for electricity generation
+Alpha emission is a tunnelling problem. The α particle sits inside a deep nuclear well but faces the **Coulomb barrier** of the daughter nucleus; quantum tunnelling gives a finite probability per encounter. The **Geiger–Nuttall law** quantifies this:
 
-## Deep Study
+> log₁₀ T½ ∝ Z_d / √Q
 
-### Nuclear Models
+where Q is the decay energy in MeV. A tiny increase in Q collapses T½ by orders of magnitude — that is why ²³⁸U (T½ = 4.5×10⁹ y) and ²³⁴U (T½ = 2.5×10⁵ y) sit in the same sample.
 
-**Liquid Drop Model:**
-- Nucleus treated as a drop of incompressible nuclear fluid
-- Explains nuclear fission, mass formula with volume, surface, Coulomb, asymmetry terms
-- Semi-empirical mass formula: B = aV − aS − aC − aA − δ(A)
+#### Conservation Laws Across Decays
 
-**Shell Model:**
-- Nucleons arranged in shells (magic numbers: 2, 8, 20, 28, 50, 82, 126)
-- Explains nuclear stability, magic numbers, spin-orbit coupling
+Every decay obeys **charge (Z), nucleon number (A), mass-energy, linear momentum, and angular momentum**. Beta decay is the only place the **weak interaction** appears at this level, and the emitted neutrino carries the missing energy and spin.
 
-### Conservation Laws in Nuclear Reactions
+#### Worked Example (Binding Energy)
 
-- Mass number (A) conserved
-- Atomic number (Z) conserved
-- Linear momentum conserved
-- Energy (including rest mass energy) conserved
-- Angular momentum conserved
-- Parity conserved (in strong and electromagnetic interactions)
+For ⁵⁶Fe, mass of atom ≈ 55.9349 u, Z = 26, N = 30.
 
-### Rutherford Scattering Formula
+- Sum of nucleons: 26·1.007825 + 30·1.008665 = 56.4636 u.
+- Δm = 56.4636 − 55.9349 = 0.5287 u.
+- Δm·c² = 0.5287 × 931.494 ≈ **492 MeV**.
+- B/A ≈ **8.79 MeV** per nucleon, matching the peak of the curve.
 
-- Scattering angle θ relates to impact parameter b
-- For small angles, scattering reveals nuclear size
+#### Common Mistakes
 
-### Radioactive Dating
+- Treating **count rate** as equal to **activity**; remember detector efficiency and geometry.
+- Using (½)^(t/T½) when t is **not** an integer multiple of T½ — use the exponential form.
+- Forgetting that **γ rays do not transmute** the nucleus.
+- Conflating **Bq** with radiation **dose** units (Gy, Sv, rad, rem).
 
-- Carbon-14 dating: half-life 5730 years
-- Uranium-Lead dating: for geological timescales (~4.5 billion years)
+#### Two Practice Prompts
 
-## Exam Tips
+1. A sample has A₀ = 10⁶ Bq and T½ = 8 days. Find A after 32 days and the mean life τ.
+2. ²³²Th (Z = 90) emits 6 α and 4 β⁻ in sequence. Identify the final (Z, A) and verify using Soddy–Fajans.
 
-1. Alpha decay reduces atomic number by 2 and mass number by 4
-2. Beta minus decay increases atomic number by 1 (neutron → proton + electron)
-3. Gamma decay doesn't change A or Z — just releases energy
-4. Half-life and decay constant relationship: T½ = 0.693/λ
-5. For fission/fusion energy calculations: use E = Δm × c²
-6. Binding energy per nucleon curve — Iron-56 is most stable
-7. Activity decreases exponentially: A = A₀e^(−λt)
-8. 1 u (atomic mass unit) = 931.5 MeV/c²
+## Continue your study
 
-## Common Pitfalls
+- **[View this topic in your NEET UG roadmap](/roadmap/?exam=neet&duration=1mo)** — see where "Nucleus and Radioactivity" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=neet&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NEET UG exam overview](/exams/neet/)** — pattern, eligibility, and syllabus
+- **[All Physics notes](/notes/neet/physics/)** — browse sibling topics in this subject
 
-- Confusing atomic number and mass number in decay equations
-- Forgetting that gamma rays have no mass or charge
-- Not balancing nuclear equations properly for mass number and atomic number
-- Mixing up half-life with mean lifetime (τ = T½/ln2)
-- Confusing fission (splitting) vs fusion (combining)
-
-## Suggested Study Order
-
-1. Nuclear structure — composition, size, density
-2. Binding energy and mass defect
-3. Radioactivity — types of decay, laws
-4. Decay equations and Soddy's laws
-5. Half-life, mean life, activity calculations
-6. Nuclear reactions and Q-value
-7. Fission and fusion
-8. Applications — dating, medicine, power
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

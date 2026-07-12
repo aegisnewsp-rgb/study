@@ -8,142 +8,112 @@ topicName: "Amines and Nitrogen Compounds"
 weight: 3
 country: uae
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-07-12"
 ---
 
 # Amines and Nitrogen Compounds
 
-Amines are organic derivatives of ammonia (NH₃) in which one or more hydrogen atoms are replaced by alkyl or aryl groups. They are among the most important functional groups in pharmaceutical chemistry — approximately **40% of all modern drugs** contain an amine functional group. Examples include **adrenaline** (a neurotransmitter and drug), **morphine** (an analgesic), **chloramphenicol** (an antibiotic), **procaine** (a local anesthetic), **diphenhydramine** (an antihistamine), **amitriptyline** (an antidepressant), and **sildenafil (Viagra)** (a vasodilator). For HAAD candidates, understanding amine chemistry is therefore not optional — it is essential for drug recognition, drug metabolism, acid-base chemistry in the body, and the interpretation of pharmacological interactions. This chapter covers the structure, classification, nomenclature, properties, and reactions of amines.
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
 
-## Classification of Amines
+**Amines** are organic derivatives of ammonia (NH₃) where one or more H atoms are replaced by alkyl or aryl groups. They are classified by how many carbons sit on nitrogen: **primary (1°)**, **secondary (2°)**, **tertiary (3°)**, plus the fully substituted **quaternary ammonium salt**. The N atom carries a **lone pair**, which is why amines behave as **Brønsted–Lowry bases** (accept H⁺) and **Lewis bases / nucleophiles** (donate the lone pair).
 
-Amines are classified based on the number of hydrogen atoms replaced in NH₃:
+| Property | Quick fact for HAAD |
+|---|---|
+| Aqueous basicity order (methylamines) | (CH₃)₂NH > CH₃NH₂ > (CH₃)₃N > NH₃ |
+| Aromatic vs aliphatic | Aniline pK_b ≈ 9.38 — far weaker than CH₃NH₂ |
+| Key identity at 25 °C | pK_a(RNH₃⁺) + pK_b(RNH₂) = 14 |
+| Diagnostic 1° test | Carbylamine (R–NC, foul smell) — 1° only |
 
-**Primary (1°) amines:** One alkyl/aryl group attached to nitrogen (R–NH₂)
-**Secondary (2°) amines:** Two alkyl/aryl groups attached to nitrogen (R₂NH)
-**Tertiary (3°) amines:** Three alkyl/aryl groups attached to nitrogen (R₃N)
+Three high-yield pointers: write **Gabriel synthesis** for *pure* 1° amines (phthalimide route); remember **Hofmann bromamide** *loses one carbon* (R–CO–NH₂ → R–NH₂); and **diazotisation must stay at 0–5 °C** because ArN₂⁺ hydrolyses to phenol on warming.
 
-Additionally:
-- **Quaternary (4°) ammonium salts:** R₄N⁺ — nitrogen with four substituents and a positive charge (e.g., choline, tetraalkylammonium salts)
-- **Diamines:** Amines with two –NH₂ groups (e.g., ethylenediamine, putrescine, cadaverine)
+---
 
-**Example of classification:**
-- CH₃–NH₂ = Methylamine (1°)
-- CH₃–NH–C₂H₅ = Ethylmethylamine (2°)
-- (CH₃)₃N = Trimethylamine (3°)
-- (CH₃)₄N⁺Cl⁻ = Tetramethylammonium chloride (quaternary)
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-## Nomenclature of Amines
+#### Structure, Classification, Nomenclature
 
-### Common Names
-List the alkyl groups attached to nitrogen in alphabetical order, followed by "amine":
-- CH₃–NH₂ = Methylamine
-- C₂H₅–NH₂ = Ethylamine
-- CH₃–NH–C₂H₅ = Ethylmethylamine
-- (C₂H₅)₂NH = Diethylamine
+Replace H atoms of NH₃ with R/Ar groups to get R–NH₂ (1°), R₂NH (2°), R₃N (3°), and R₄N⁺X⁻ (quaternary salt — nitrogen has no lone pair). IUPAC names end in **-amine** (methanamine, propan-1-amine) or use the *aniline* parent for aromatics; the –NH₂ group on a ring is the *amino-* substituent.
 
-### IUPAC Names
-For primary amines, find the longest carbon chain containing the –NH₂ group and use the suffix **-amine**:
-- CH₃–CH₂–NH₂ = Ethanamine (not ethylamine)
-- CH₃–CH₂–CH₂–NH₂ = Propan-1-amine
-- CH₃–CH(NH₂)–CH₃ = Propan-2-amine
+#### Why Amines Are Basic
 
-For secondary and tertiary amines:
-- Use the prefix **N-** to indicate substituents attached to nitrogen
-- Name the amine as a primary amine and prefix the other substituents with N-
-- Example: CH₃–NH–C₂H₅ = N-methylethanamine
+The nitrogen lone pair picks up H⁺. For any amine RNH₂ in water:
 
-### Aromatic Amines
-- Aniline = C₆H₅–NH₂ (benzenamine)
-- N-methylaniline = C₆H₅–NH–CH₃ (N-methylbenzenamine)
-- Diphenylamine = (C₆H₅)₂NH
+$$K_b = \frac{[\text{RNH}_3^+][\text{OH}^-]}{[\text{RNH}_2]}, \quad pK_b = -\log_{10}K_b$$
 
-## Physical Properties of Amines
+A *larger K_b* (smaller pK_b) means a stronger base. Aqueous solution relation at 25 °C:
 
-**Boiling point:** Amines with similar molecular weights have lower boiling points than alcohols because nitrogen is less electronegative than oxygen, making the N–H bond less polar than the O–H bond and therefore forming weaker hydrogen bonds:
-- Ethanol (MW = 46): BP = 78°C
-- Dimethylamine (MW = 45): BP = 7°C
-- Ethylamine (MW = 45): BP = 17°C
+$$pK_a(\text{RNH}_3^+) + pK_b(\text{RNH}_2) = 14$$
 
-**Solubility in water:** Amines with up to about 6 carbons are soluble in water (the N atom can accept hydrogen bonds from water). Solubility decreases with increasing carbon chain length.
+#### Comparing Basicity
 
-**Odor:** Lower aliphatic amines have a distinctive **fishy odor** — trimethylamine is responsible for the smell of decaying fish. Higher amines have progressively less odor. Putrescine (butane-1,4-diamine) and cadaverine (pentane-1,5-diamine) are polyamines with foul odors and are produced during protein decomposition.
+| Series | Order of basicity (aqueous) | Reason |
+|---|---|---|
+| Methylamines | (CH₃)₂NH > CH₃NH₂ > (CH₃)₃N > NH₃ | +I donation raises electron density, but steric crowding in 3° blocks H⁺ and solvation |
+| Aromatic (aniline ring) | –CH₃, –OCH₃, –NH₂ ↑ basicity; –NO₂, –CN, –COOH ↓ | Donors push electrons into N; ring-withdrawers delocalise the lone pair further |
+| Aniline vs cyclohexylamine | aliphatic >> aniline | Aniline's lone pair overlaps the ring π-system (resonance), reducing availability |
 
-**Basicity:** The most important chemical property of amines is their **basicity**. Amines are weak bases that can be protonated by acids to form ammonium salts:
-R–NH₂ + HCl → R–NH₃⁺Cl⁻ (amine salt)
+#### Key Preparations
 
-The basicity of amines is measured by the **pKb** value (lower pKb = stronger base):
-- Primary aliphatic amines: pKb ≈ 3–5 (relatively strong bases)
-- Secondary aliphatic amines: slightly more basic than primary
-- Tertiary aliphatic amines: slightly more basic than secondary
-- Aromatic amines (aniline): pKb ≈ 9.4 (much weaker base — aromatic ring withdraws electrons by resonance)
-- Amides: pKb ≈ 15 (very weak bases — the nitrogen's lone pair is delocalized into the carbonyl)
+- **Reduction** of nitro compounds: R–NO₂ (Sn/HCl or H₂/Ni) → R–NH₂.
+- **Hofmann bromamide**: R–CO–NH₂ + Br₂ + 4 NaOH → R–NH₂ + Na₂CO₃ + 2 NaBr + 2 H₂O (one carbon lost — a classic "name the product" item).
+- **Gabriel synthesis**: phthalimide + KOH + R–X → N-alkyl phthalimide → (hydrazine) → pure 1° R–NH₂.
+- **Ammonolysis of alkyl halides** gives a *mixture* of 1°, 2°, 3° plus quaternary salt — never assume a single product.
 
-**Why are aliphatic amines more basic than aromatic amines?** In aniline, the nitrogen's lone pair is partially delocalized into the aromatic ring (by resonance), making it less available for protonation. In aliphatic amines, the alkyl groups are electron-donating by induction (+I effect), pushing electron density toward nitrogen and making it more nucleophilic and basic.
+#### Characteristic Reactions
 
-## Chemical Reactions of Amines
+- **Acylation** (Schotten–Baumann): R–NH₂ + R′COCl + NaOH → R′CO–NHR + NaCl + H₂O.
+- **HNO₂**: 1° aliphatic → ROH + N₂; 1° aromatic at 0–5 °C → ArN₂⁺ (diazonium); 2° → yellow N-nitrosamine; 3° → no useful product.
+- **Diazonium chemistry** — Sandmeyer: ArN₂⁺ + CuCl → ArCl; + CuBr → ArBr; + CuCN → ArCN. **Azo coupling** with phenol/naphthol gives coloured azo dyes used as indicators.
 
-### As Bases: Salt Formation
+#### Identification Tests (high-yield for HAAD MCQs)
 
-Amines react with acids to form salts — this is clinically important because amine drugs (which are often basic) are administered as salts to improve solubility and stability:
-- **Amphetamine sulfate** (drug for ADHD)
-- **Ephedrine hydrochloride** (decongestant)
-- **Procaine hydrochloride** (local anesthetic)
-- **Diphenhydramine hydrochloride** (Benadryl)
+- **Carbylamine test**: 1° amine + CHCl₃ + alc. KOH → R–NC (foul, *isocyanide* — note R–NC, not R–CN). 2° and 3° do not respond.
+- **Hinsberg test** with PhSO₂Cl: 1° → soluble K-salt in KOH; 2° → insoluble sulphonamide; 3° → no reaction (and insoluble).
 
-The salt form is typically water-soluble and can be administered orally, intravenously, or intramuscularly.
+HAAD questions on this chapter are typically **MCQ plus short-answer**, asking you to identify the amine class from a reagent outcome, rank basicities, or supply reagents/conditions for a named reaction.
 
-### As Nucleophiles: Acylation
+---
 
-Amines (particularly primary and secondary) react with acid chlorides, acid anhydrides, and other acylating agents to form **amides**:
-R–NH₂ + (CH₃CO)₂O → CH₃–CONHR + CH₃COOH
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-**Acylation of aniline:** Aniline reacts with acetic anhydride to form **acetanilide** (N-phenylacetamide). This is important because acetanilide was the precursor to **paracetamol (acetaminophen)** — the acetylation reduces the susceptibility of aniline to oxidation and modulates the pharmacological activity.
+#### Edge Cases and Exam Traps
 
-Primary amines give **secondary amides** (one N-H replaced by the acyl group); secondary amines give **tertiary amides** (no N-H remaining).
+A common trap: writing the **carbylamine product as R–CN (cyanide)**. It is **R–NC (isocyanide)**, with the carbon bonded to N. Another trap is assuming **diazonium salts are stable at room temperature** — they hydrolyse to phenol above 5 °C, so every diazotisation scheme must show the 0–5 °C bath.
 
-### Reaction with Nitrous Acid (HNO₂)
+Students also misorder methylamine basicity by placing (CH₃)₃N on top. In the *gas phase* trimethylamine *is* the strongest, but in water its three methyl groups **sterically block solvation of the protonated cation** (R₃NH⁺), so dimethylamine wins in aqueous solution — the order examiners want.
 
-This is one of the most characteristic reactions of amines and is used to distinguish between primary, secondary, and tertiary amines:
+#### Worked Numeric Micro-Example
 
-**Primary aliphatic amines + HNO₂:** Produce **alcohols** with evolution of **N₂ gas**:
-R–NH₂ + HNO₂ → R–OH + N₂↑ + H₂O
+A student measures a 0.10 M solution of an unknown amine and finds [OH⁻] = 1.3 × 10⁻³ M. Then:
 
-The evolution of nitrogen gas is the basis of a qualitative test for primary amines. This reaction is also important biologically — nitric oxide (NO), a signaling molecule in the cardiovascular system, is produced from arginine via a similar enzymatic reaction.
+$$K_b = \frac{(1.3\times10^{-3})^2}{0.10 - 1.3\times10^{-3}} \approx 1.7\times10^{-5},\quad pK_b \approx 4.77$$
 
-**Primary aromatic amines + HNO₂:** At 0–5°C, they form **diazonium salts** (which are stable at low temperatures):
-C₆H₅–NH₂ + NaNO₂ + 2HCl →(0–5°C) C₆H₅–N₂⁺Cl⁻ + 2H₂O
+Applying $pK_a + pK_b = 14$ gives the conjugate acid pK_a ≈ 9.23. This value is close to NH₃'s conjugate acid (pK_a 9.25), so the unknown is behaving like a small aliphatic amine — a useful sanity check before choosing answers on HAAD acid–base items.
 
-**Secondary amines + HNO₂:** Form **N-nitrosoamines** (N-nitroso compounds — some of which are carcinogenic):
-R₂NH + HNO₂ → R₂N–N=O + H₂O
+#### Substituent Effects on Aniline
 
-**Tertiary amines + HNO₂:** Form **nitroamines** or are merely protonated (no characteristic reaction).
+On the ring, electron-**donating** groups at *para* (–OCH₃, –CH₃, –NH₂) push electron density toward N, raising basicity. Electron-**withdrawing** groups (–NO₂, –CN, –COOH, –SO₃H) delocalise the N lone pair further, dropping pK_b. *ortho* substituents can also reduce basicity through **steric inhibition of resonance** and crowding of the incoming proton — a subtle point that distinguishes top-scoring answers.
 
-### Carbylamine Reaction (Isocyanide Test)
+#### Links to Adjacent Topics
 
-Primary amines (both aliphatic and aromatic) react with chloroform (or dichloroethylene) and alcoholic KOH to produce **carbylamines (isocyanides)** — compounds with an extremely foul, nauseating odor:
-R–NH₂ + CHCl₃ + 4KOH → R–NC + 3KCl + 3H₂O
+Amines bridge **organic nitrogen chemistry** with **acid–base equilibria** (K_b / K_a interconversion), **aromatic chemistry** (diazonium → phenol/haloarene via Sandmeyer), and **biochemistry** (amino acids, nucleic-acid bases all contain amine N). In HAAD-style clinical chemistry questions, amine salts (RNH₃⁺Cl⁻) explain why many basic drugs (e.g., antihistamines) are formulated as hydrochlorides — water solubility for delivery.
 
-Secondary and tertiary amines do not give this reaction. The carbylamine test is therefore used to distinguish primary amines from secondary and tertiary amines.
+#### Two Practice Prompts
 
-## Heterocyclic Amines
+1. **Identification**: An unknown liquid amine (C₃H₉N) gives a foul-smelling product with CHCl₃/alkali, dissolves the Hinsberg reagent's precipitate in KOH, and on treatment with HNO₂ liberates N₂. Name the compound and write balanced equations for each test.
+2. **Synthesis design**: Starting from benzene, outline a route to *p*-bromoaniline using a diazonium intermediate. Specify reagents, conditions, and the temperature control needed.
 
-Many pharmacologically important compounds contain nitrogen atoms within a ring system (heterocyclic compounds). Key examples include:
+---
 
-**Pyridine (C₅H₅N):** A six-membered aromatic heterocycle with one nitrogen. It is a basic heterocycle (pKb ≈ 8.8). Pyridine is used as a solvent and as a precursor to many herbicides and pharmaceuticals. Nicotine (the addictive compound in tobacco) contains a pyridine ring fused to a pyrrolidine ring.
+## Continue your study
 
-**Pyrrole (C₄H₅N):** A five-membered aromatic heterocycle with one nitrogen. Pyrrole is not basic (its nitrogen's lone pair is part of the aromatic sextet). The porphyrin ring system (which forms the core of hemoglobin, myoglobin, and chlorophyll) contains four pyrrole units.
-
-**Pyrimidine (C₄H₄N₂):** A six-membered aromatic heterocycle with two nitrogen atoms. The **pyrimidine bases** — cytosine, thymine, and uracil — are components of DNA and RNA.
-
-**Purine (C₅H₄N₄):** A fused five- and six-membered heterocycle with four nitrogen atoms. The **purine bases** — adenine and guanine — are the other two bases in DNA and RNA. **Caffeine** (in coffee and tea) and **theobromine** (in chocolate) are methylxanthines derived from purine.
-
-**Histamine:** A heterocyclic amine derived from histidine (an amino acid). Histamine is released during allergic reactions and is responsible for itching, sneezing, and vasodilation. **Antihistamine drugs** (like diphenhydramine) are histamine H1 receptor antagonists.
-
-**Serotonin (5-hydroxytryptamine, 5-HT):** A neurotransmitter derived from tryptophan. Dysregulation of serotonin is linked to depression and anxiety. **SSRIs** (Selective Serotonin Reuptake Inhibitors) like fluoxetine (Prozac) are antidepressants that increase serotonin levels in the synaptic cleft.
-
-**⚡ Exam tip:** Primary aliphatic amines give N₂ gas with nitrous acid (HNO₂) — this distinguishes them from secondary and tertiary amines. Aromatic amines (aniline) form diazonium salts with HNO₂ at 0–5°C. Amides are much less basic than amines (pKb of amide ~15 vs. pKb of aliphatic amine ~3-5). Remember the order of basicity: aliphatic amines > aromatic amines (aniline) > amides.
-
+- **[View this topic in your HAAD (UAE) roadmap](/roadmap/?exam=haad&duration=1mo)** — see where "Amines and Nitrogen Compounds" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=haad&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[HAAD (UAE) exam overview](/exams/haad/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/haad/chemistry/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

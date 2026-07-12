@@ -8,143 +8,80 @@ topicName: "Fundamentals of Nursing"
 weight: 3
 country: uae
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-07-12"
 ---
 
 # Fundamentals of Nursing
 
-Fundamental nursing skills form the cornerstone of all nursing practice. Whether a nurse is working in a bustling emergency department in Abu Dhabi, a primary healthcare center in Al Ain, or a specialty clinic in Dubai, the basic principles of nursing care — infection control, vital signs assessment, medication administration, patient hygiene, and therapeutic communication — remain the same. The HAAD (Health Authority Abu Dhabi) examination tests these foundational skills rigorously because they represent the minimum standard of safe nursing care. This chapter covers the essential fundamentals that every HAAD candidate must master.
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
 
-## The Nursing Process
+**Fundamentals of Nursing** is the foundation block tested on the HAAD (Department of Health Abu Dhabi) Prometric nurse-licensure MCQ paper. It anchors the nursing process (**ADPIE**: Assessment, Diagnosis, Planning, Implementation, Evaluation) and links directly to vital signs, asepsis, medication safety, and communication.
 
-The **nursing process** is a systematic, patient-centered approach to care that consists of five interconnected stages. It is the foundation of professional nursing practice in the UAE and worldwide:
+- **Vital sign norms (adult):** oral temp 36.5–37.5 °C, pulse 60–100 bpm, respiration 12–20/min, BP <120/80 mmHg, SpO₂ ≥95%. Document in order **T-P-R-BP**.
+- **WHO 5 Moments** for hand hygiene: before patient contact, before aseptic task, after body-fluid risk, after patient contact, after contact with patient surroundings.
+- **Five (now 8–9) Rights of Medication:** right patient, drug, dose, route, time — plus right documentation, right reason, right response, right to refuse.
 
-1. **Assessment:** Systematic collection and organization of data about the patient's health status. This includes subjective data (what the patient reports — symptoms, feelings) and objective data (what the nurse observes — vital signs, physical signs). Methods include observation, interview, physical examination, and review of medical records. In the UAE healthcare system, assessment is documented using structured formats including the **SOAPIE** format (Subjective, Objective, Assessment, Plan, Intervention, Evaluation).
+> Exam tip: Assessment comes BEFORE any intervention in ADPIE; if a stem asks "first nursing action," choose the assessment option unless the patient is in immediate airway/breathing/circulation crisis.
 
-2. **Nursing Diagnosis:** Identification of actual or potential health problems based on the assessment data. North American Nursing Diagnosis Association (NANDA) nursing diagnoses are the internationally recognized standard. Examples include "Risk for infection," "Acute pain," "Impaired physical mobility," "Ineffective breathing pattern."
+---
 
-3. **Planning:** Development of individualized care plans that specify goals (expected outcomes) and interventions (nursing actions). Goals should be SMART: Specific, Measurable, Achievable, Relevant, and Time-bound. Plans are documented in the patient's care record and must be communicated to the entire healthcare team.
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-4. **Implementation:** Execution of the nursing interventions identified in the care plan. Interventions may be:
-   - **Dependent:** Ordered by a physician (e.g., administer medication)
-   - **Independent:** Actions within the nurse's scope (e.g., patient education, therapeutic communication)
-   - **Interdependent:** Collaborative actions with other healthcare team members
+#### Nursing Process (ADPIE)
+The **nursing process** is the cyclical clinical reasoning method every HAAD scenario item hinges on. **Assessment** (subjective + objective data collection) precedes diagnosis, which precedes planning, implementation, and evaluation. NANDA-I nursing diagnoses focus on the *human response* to illness, not the medical disease label — keep the wording patient-centred (e.g., "Ineffective airway clearance" rather than "Pneumonia").
 
-5. **Evaluation:** Determination of the effectiveness of the care plan by comparing actual outcomes with expected outcomes. If goals are not met, the plan is revised.
+#### Vital Signs and Documentation Order
+Vital signs are the most frequently tested fundamental. Normal adult ranges and the fixed documentation sequence **T-P-R-BP** are high-yield. Tympanic and rectal readings run ~0.5–1.0 °C higher than oral; axillary runs ~0.5 °C lower. Pain is the **5th vital sign**, assessed via **PQRST** (Provocation, Quality, Region/Radiation, Severity, Timing) or a 0–10 numeric scale.
 
-## Vital Signs Assessment
+| Parameter | Adult Normal | Action Threshold |
+|---|---|---|
+| Oral temp | 36.5–37.5 °C | >38.3 °C = fever |
+| Pulse | 60–100 bpm | <60 brady, >100 tachy |
+| Respiration | 12–20/min | <12 or >24 abnormal |
+| BP | <120/80 mmHg | >140/90 stage 2 HTN |
+| SpO₂ | ≥95% | <92% notify |
 
-Vital signs are the most fundamental objective measurements of a patient's physiological status. They must be assessed accurately and interpreted in the context of the patient's condition, age, medications, and baseline.
+#### Asepsis and Infection Control
+**Medical asepsis** = clean technique (hand hygiene, clean gloves, non-sterile field). **Surgical asepsis** = sterile field, sterile gloves, no contamination. **Standard precautions** apply to ALL patients regardless of diagnosis; **transmission-based precautions** (airborne, droplet, contact) are added for specific pathogens.
 
-### Temperature
-- **Normal range:** 36.5°C–37.5°C (97.7°F–99.5°F)
-- **Methods:** Oral (most common), tympanic (ear canal — accurate in infants), axillary (least accurate), rectal (most accurate but reserved for specific cases)
-- **Fever (pyrexia):** Oral temperature > 37.5°C sustained
-- **Hyperthermia:** > 40°C — medical emergency
-- **Hypothermia:** < 35°C — medical emergency
-- **Types of fever patterns:** Continuous (steady elevation), intermittent (alternating fever and normal), remittent (fluctuating but never normal), relapsing (episodes of fever with afebrile periods)
+#### Medication Safety and Communication
+The expanded **Rights of Medication Administration** (8–9) protect against the most common HAAD scenario errors. **SBAR** (Situation–Background–Assessment–Recommendation) structures handover calls so a receiving nurse can act without ambiguity. **Therapeutic communication** uses open-ended questions, restating, and clarifying — never advice, false reassurance, or subject-changing.
 
-### Pulse
-- **Normal rate:** 60–100 beats per minute (adult)
-- **Tachycardia:** > 100 bpm
-- **Bradycardia:** < 60 bpm
-- **Sites:** Radial (most common), carotid (emergency/cardiac monitoring), apical (heart sounds — used when pulse deficit is suspected), brachial (blood pressure measurement), femoral, popliteal, dorsalis pedis, posterior tibial
-- **Character:** Rate, rhythm (regular or irregular), amplitude (strong, weak, thready), equality (compare both sides)
+> Priority trap: Maslow guides psychosocial ordering only AFTER physiological (airway, breathing, circulation) and safety needs are secured.
 
-### Respiratory Rate
-- **Normal rate:** 12–20 breaths per minute (adult)
-- **Tachypnea:** > 20 breaths/minute
-- **Bradypnea:** < 12 breaths/minute
-- **Apnea:** Absence of breathing
-- **Assessing:** Count for full 30 seconds (if regular) or 60 seconds (if irregular); multiply by 2 or 1 respectively. Observe rate, rhythm, depth (shallow, normal, deep), and character (labored, effortless, noisy)
-- **Oxygen saturation (SpO₂):** Normal ≥ 95%; below 90% is hypoxemia
+---
 
-### Blood Pressure
-- **Normal:** Systolic < 120 mmHg; Diastolic < 80 mmHg
-- **Elevated:** Systolic 120–129 mmHg; Diastolic < 80 mmHg
-- **Hypertension Stage 1:** Systolic 130–139 mmHg OR Diastolic 80–89 mmHg
-- **Hypertension Stage 2:** Systolic ≥ 140 mmHg OR Diastolic ≥ 90 mmHg
-- **Hypotension:** Systolic < 90 mmHg (may be normal for some individuals)
-- **Measuring:** Use appropriate cuff size (too small = falsely elevated; too large = falsely low); patient seated or supine; arm at heart level; deflate 2–3 mmHg/second; record both systolic (Korotkoff phase I) and diastolic (Korotkoff phase V — disappearance of sound)
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-### Pain Assessment
-Pain is the **fifth vital sign**. Use a standardized pain scale appropriate to the patient's age and ability to communicate:
-- **Numeric rating scale (0–10):** Most adults can use this
-- **Visual analog scale (VAS):** For patients who can point
-- **Faces pain scale:** For children or patients with language barriers
-- **FLACC scale:** For non-verbal patients (Face, Legs, Activity, Cry, Consolability)
+#### Pressure Injuries and Skin Integrity
+NPUAP/EPUAP staging is regularly tested: **Stage 1** non-blanchable erythema, **Stage 2** partial-thickness loss, **Stage 3** full-thickness (no fat/muscle visible), **Stage 4** full-thickness with bone/tendon exposed, plus **unstageable** (slough/eschar obscures base) and **deep tissue injury** (persistent non-blanchable deep red/maroon). Braden Scale scores ≤18 signal risk; preventive nursing actions include 2-hour repositioning, heel offloading, skin-moisture management, and nutrition optimisation.
 
-Document the location, quality, intensity, timing, aggravating/relieving factors, and the effectiveness of interventions.
+#### Hand Hygiene Technique and PPE Selection
+WHO technique: **40–60 seconds** with soap and water covering palms, backs, interlaced fingers, thumbs, and fingertips; alcohol-based rub runs **20–30 seconds** and is preferred unless hands are visibly soiled or the pathogen is *C. difficile*. **Standard precautions PPE** is *risk-assessed*: gloves for blood/body fluids, gown for splashes, mask + eye protection for aerosolising procedures — gloves alone are never sufficient when droplets are likely.
 
-## Infection Control
+#### Priority Setting and Delegation
+HAAD scenario items test **ABCs → Maslow → acute vs chronic → actual vs risk diagnosis**. The nurse assigns rather than delegates the nursing process; only the *implementation* of stable, routine tasks may be delegated to unlicensed assistive personnel, never assessment, teaching, or evaluation.
 
-Infection prevention and control is paramount in all healthcare settings, particularly in the UAE where the population includes patients from diverse cultural and geographic backgrounds with varying vaccination histories and infection risks.
+#### Worked Scenario
+A 68-year-old post-op day 1 patient has BP 88/56, HR 112, RR 22, SpO₂ 93%, and reports pain 7/10. **First action:** assess airway/breathing — apply oxygen and elevate head of bed. **Second:** notify physician using SBAR. **Third:** administer prescribed analgesia only AFTER physician orders; document via PQRST.
 
-### Chain of Infection
-The chain consists of six links — breaking any one link prevents infection:
-1. **Infectious agent** (bacteria, virus, fungus, parasite)
-2. **Reservoir** (place where the organism lives and multiplies — e.g., patient, equipment, environment)
-3. **Portal of exit** (how the organism leaves — e.g., respiratory secretions, blood, wound drainage)
-4. **Mode of transmission** (contact, droplet, airborne, vector, common vehicle)
-5. **Portal of entry** (how the organism enters — e.g., broken skin, respiratory tract, urinary catheter)
-6. **Susceptible host** (the person at risk — compromised immune system, open wound, invasive procedure)
+> Common mistake: Treating the pain score as the priority when the SpO₂ and hypotension signal respiratory/circulatory compromise — physiological threats always precede comfort.
 
-### Standard Precautions (Universal Precautions)
-These apply to ALL patients at ALL times:
-- **Hand hygiene:** Alcohol-based hand rub (before and after patient contact, before aseptic procedure, after body fluid exposure risk, after touching patient surroundings) — the single most effective infection control measure
-- **PPE:** Gloves (when touching blood, body fluids, mucous membranes, broken skin); gown (when procedure contaminates clothing); mask and eye protection (when splashes or sprays are possible)
-- **Respiratory hygiene:** Cover coughs and sneezes; wear mask if respiratory infection is suspected
-- **Sharps safety:** Never recap needles; dispose immediately in sharps container
-- **Patient care equipment:** Clean and disinfect between patients
+#### Practice Prompts
+1. A nurse enters a TB isolation room. Which PPE sequence is correct — and which of the WHO 5 Moments applies?
+2. During handover, the outgoing nurse forgets to state the Recommendation in SBAR. What risk does this create, and how should the receiving nurse respond?
 
-### Transmission-Based Precautions
-In addition to standard precautions, for patients with known or suspected infections:
+---
 
-**Contact precautions:** Private room or cohorting; gown and gloves for all contact; dedicated equipment
-**Droplet precautions:** Private room or surgical mask for anyone within 1 meter; patient mask if tolerable
-**Airborne precautions:** Negative pressure room (airborne infection isolation room — AIIR); N95 respirator; patient room door closed; patient must wear surgical mask when outside room
+## Continue your study
 
-### Aseptic Technique
-**Sterile vs. clean:** Sterile = completely free of microorganisms; clean = reduced microbial load but not sterile.
-- **Medical asepsis:** Reduces microorganisms (hand hygiene, cleaning, disinfection)
-- **Surgical asepsis:** Eliminates all microorganisms (sterile technique for invasive procedures)
-
-**Principles of surgical asepsis:**
-- Only sterile items are used in sterile fields
-- Items below waist level are considered contaminated
-- Tap water is not sterile — only sterile irrigation solutions should be used in sterile cavities
-- A sterile field must be kept dry — moisture wicks microorganisms through the sterile barrier
-- Edges of sterile packages are considered contaminated
-- If sterility is in doubt, consider it contaminated
-
-## Medication Administration
-
-The **"Five Rights"** of medication administration are a fundamental safety checklist:
-1. **Right patient:** Verify with at least two identifiers (name, date of birth, MRN/Emirates ID)
-2. **Right drug:** Check the medication label THREE times (before drawing up/preparing, during preparation, after preparation)
-3. **Right dose:** Confirm dose is appropriate for the patient's weight, age, and condition; calculate carefully
-4. **Right route:** Oral, IM, IV, SC, ID, topical, inhaled, rectal — each has different technique and absorption characteristics
-5. **Right time:** Scheduled medications must be given within the correct time window (typically ±30 minutes for routine medications)
-
-Additional "rights" often added: **Right documentation**, **Right indication**, **Right to refuse**, **Right assessment**, **Right evaluation**.
-
-### Routes of Administration
-- **Oral (PO):** Safest, cheapest; slower onset; not for vomiting, NPO patients, or before surgery
-- **Subcutaneous (SC):** Insulin, heparin, vaccines; 45°–90° angle depending on needle length and patient body habitus; absorption is slow
-- **Intramuscular (IM):** Vaccines, antibiotics, hormonal agents; 90° angle; absorption faster than SC due to greater blood supply; risk of hitting nerve or blood vessel
-- **Intravenous (IV):** Direct vascular access; immediate onset; used for fluids, medications, blood products; highest risk of adverse reactions and infection
-- **Intradermal (ID):** Skin testing (tuberculin, allergy tests); 10°–15° angle; into the dermis; very slow absorption
-- **Topical:** Creams, ointments, patches; local or systemic effect depending on formulation
-- **Rectal:** Suppositories, enemas; bypass first-pass metabolism; used when oral route unavailable
-
-### Calculating Drug Doses
-- **Basic formula:** Desired dose ÷ Available dose × Volume to administer
-- **IV drip rates:** Total volume × Drop factor ÷ Time in minutes = drops/minute (gtts/min)
-  - For adults: Microdrip (60 gtts/mL) or Macrodrip (10, 15, or 20 gtts/mL depending on brand)
-  - For children: Always use microdrip (60 gtts/mL)
-
-**⚡ Exam tip:** Hand hygiene is the single most effective infection control measure. The chain of infection has 6 links — remember: Agent, Reservoir, Portal of Exit, Mode of Transmission, Portal of Entry, Host. Always verify patient identity with TWO identifiers before any intervention. Never administer a medication you have not personally prepared.
-
+- **[View this topic in your HAAD (UAE) roadmap](/roadmap/?exam=haad&duration=1mo)** — see where "Fundamentals of Nursing" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=haad&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[HAAD (UAE) exam overview](/exams/haad/)** — pattern, eligibility, and syllabus
+- **[All Nursing notes](/notes/haad/nursing/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

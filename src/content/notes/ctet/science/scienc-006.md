@@ -8,237 +8,85 @@ topicName: Matter, Motion, and Force
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-07-12"
 ---
 
 # Matter, Motion, and Force
 
-## Matter: Classification and Properties
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
 
-### What is Matter?
+**Matter** is anything that has **mass** and occupies space. **Motion** is the change in position of an object relative to a reference point over time. **Force** is a push or pull (a vector, measured in newtons) that can alter an object's state of rest, direction, speed, or shape.
 
-Matter is anything that has **mass** and occupies **space** (volume). All matter is made of atoms.
-
-### States of Matter
-
-| State | Shape | Volume | Particles | Compressibility |
-|---|---|---|---|---|
-| **Solid** | Fixed | Fixed | Closely packed, definite arrangement | Incompressible |
-| **Liquid** | Takes container's shape | Fixed | Loosely packed, can slide | Very slightly compressible |
-| **Gas** | Fills entire container | Takes container's volume | Far apart, random motion | Highly compressible |
-| **Plasma** | No fixed shape | Expands to fill volume | Ionized gas, free electrons | Super high temperature state |
-
-**Changing states**:
-- Solid → Liquid: **Melting** (at melting point, heat is used to overcome forces between particles)
-- Liquid → Gas: **Vaporization/Evaporation** (boiling at boiling point, or at any temperature from surface)
-- Solid → Gas: **Sublimation** (e.g., camphor, dry ice)
-- Gas → Liquid: **Condensation** (releases heat)
-- Liquid → Solid: **Freezing** (at freezing point)
-- Plasma → Gas: **Recombination** (cooling)
-
-### Kinetic Theory of Matter
-
-- All matter is made of particles in continuous motion
-- Higher temperature → faster particle motion
-- Particles of a solid vibrate in fixed positions
-- Particles of a liquid slide past each other
-- Particles of a gas move freely in all directions
-
-### Classification of Matter
-
-```
-Matter
-├── Pure Substances
-│   ├── Elements (one type of atom) — e.g., Iron (Fe), Gold (Au), Oxygen (O)
-│   └── Compounds (two or more elements chemically combined) — e.g., H₂O, CO₂, NaCl
-└── Mixtures
-    ├── Homogeneous (uniform throughout) — e.g., salt solution, air, alloy
-    └── Heterogeneous (non-uniform) — e.g., sand + water, oil + water
-```
-
-### Physical and Chemical Changes
-
-**Physical change**: Change in physical appearance, not in chemical nature. Example: Ice → water → steam (still H₂O).
-
-**Chemical change**: New substances with different properties are formed. Example: Iron + oxygen + water → rust (Fe₂O₃); Milk turning into curd (lactic acid fermentation).
-
-**Chemical properties**: Flammability, reactivity with acids, rusting, rotting.
-**Physical properties**: Color, hardness, density, melting point, boiling point, solubility.
-
-## Motion
-
-### Basic Concepts
-
-**Motion**: Change in position of an object with time, with respect to a reference point (frame of reference).
-
-**Distance**: Total path length traveled (scalar — only magnitude, no direction).
-
-**Displacement**: Shortest path between initial and final positions (vector — has direction). Displacement ≤ distance (equal only if motion is in a straight line without reversal).
-
-**Speed**: Distance traveled per unit time. Speed = Distance / Time (scalar). Units: m/s.
-
-**Velocity**: Rate of change of displacement (vector). Velocity = Displacement / Time.
-
-**Acceleration**: Rate of change of velocity. a = (v − u) / t. Units: m/s².
-
-### Equations of Motion
-
-For uniformly accelerated motion (straight line with constant acceleration):
-
-1. **v = u + at**
-2. **s = ut + ½at²**
-3. **v² = u² + 2as**
-4. **s = (u + v)/2 × t**
-
-Where: u = initial velocity, v = final velocity, a = acceleration, s = distance, t = time.
-
-**Free fall under gravity**: When objects fall freely (no air resistance), acceleration = **g = 9.8 m/s²** (approximated as 10 m/s² for convenience). All objects fall at the same rate regardless of mass (ignoring air resistance).
-
-**Circular motion**: Motion along a circular path — velocity direction keeps changing (even if speed is constant), so there is acceleration (centripetal acceleration directed toward center).
-
-## Force and Newton's Laws
-
-### Force
-
-Force is a push or pull that can change the state of motion of an object. It is a **vector** quantity. Units: Newton (N). 1 N = 1 kg × 1 m/s².
-
-**Balanced forces**: Net force = 0 → object at rest or moving with constant velocity (Newton's 1st law).
-**Unbalanced forces**: Net force ≠ 0 → object accelerates (changes speed or direction).
-
-### Newton's Laws of Motion
-
-#### Newton's First Law (Law of Inertia)
-
-An object continues in its state of rest or uniform motion in a straight line unless acted upon by an **external unbalanced force**.
-
-**Inertia**: The tendency of an object to resist changes in its state of motion. Mass is the quantitative measure of inertia — heavier objects have more inertia.
-
-Examples:
-- Passenger in a bus jerks backward when the bus suddenly moves — body resists sudden motion
-- Seat belts in cars: Prevent passengers from being thrown forward during sudden braking
-- A coin placed on a card over a glass: Flick the card and the coin drops into the glass (the card moves quickly and the coin falls due to inertia)
-
-#### Newton's Second Law
-
-Force = mass × acceleration (F = ma). The rate of change of momentum is proportional to the applied force.
-
-**Impulse**: Force × time = change in momentum. Used in catching a ball — by moving hands backward, the time of impact increases, reducing the force (reduced injury).
-
-#### Newton's Third Law (Action-Reaction)
-
-For every action, there is an equal and opposite reaction. Forces always occur in pairs, acting on different objects.
-
-Examples:
-- Swimming: Push water backward → water pushes you forward
-- Rocket propulsion: Exhaust gases pushed backward → rocket moves forward
-- Walking: Push ground backward with foot → ground pushes you forward
-
-**Note**: Action and reaction forces act on different objects, so they do not cancel each other out.
-
-### Friction
-
-Friction is the force that opposes the relative motion between two surfaces in contact.
-
-**Types of friction**:
-- **Static friction**: Prevents initial motion (you try to push a heavy box but it doesn't move)
-- **Sliding friction**: Opposes motion of sliding objects (sled on snow)
-- **Rolling friction**: Less than sliding friction (wheel reduces friction)
-
-**Laws of friction**:
-1. Friction acts parallel to the surface (opposes direction of motion)
-2. Friction force is proportional to the normal reaction (F = µR, where µ = coefficient of friction)
-3. Friction depends on the nature of surfaces (rough vs smooth)
-4. Friction is independent of the apparent area of contact
-
-**Reducing friction**: Lubrication (oil), ball bearings (rolling friction < sliding), polishing surfaces.
-
-**Increasing friction**: Tread patterns in shoes, anti-skid mats, snow chains on tires.
-
-### Momentum
-
-**Linear momentum** (p) = mass × velocity (p = mv). Unit: kg·m/s. It is a vector quantity.
-
-**Conservation of momentum**: In an isolated system (no external forces), total momentum before collision = total momentum after collision.
-
-This is the principle behind rocket propulsion and collisions.
-
-## Work, Energy, and Power
-
-### Work
-
-Work is done when a force causes displacement in the direction of the force.
-
-**Work (W) = Force (F) × Displacement (s) × cos θ**
-(θ = angle between force direction and displacement direction)
-
-- If force and displacement are in the same direction (θ = 0°): W = F × s
-- If force and displacement are perpendicular (θ = 90°): W = 0 (e.g., carrying a bag while walking — force is upward, displacement is forward)
-- If force and displacement are opposite (θ = 180°): W = negative (e.g., friction — negative work)
-
-Unit: **Joule (J)** = 1 N × 1 m. 1 kilojoule (kJ) = 1000 J.
-
-### Energy
-
-Energy is the capacity to do work. It is also measured in joules.
-
-**Kinetic Energy (KE)**: Energy of motion.
-- KE = ½mv² (mass × velocity squared)
-
-**Potential Energy (PE)**: Energy stored due to position or configuration.
-
-- **Gravitational Potential Energy**: PE = mgh (mass × gravity × height)
-  - h is measured from the reference point (ground)
-  - The higher the object, the more PE it has
-
-**Mechanical Energy** = KE + PE. In the absence of friction, total mechanical energy remains constant (conservation of energy).
-
-**Energy transformation**:
-- Dropping a ball: PE (at height) → KE (falling) → PE (bouncing back up, less due to sound/heat)
-- Roller coaster: PE converts to KE going down, KE converts back to PE going up
-- Photosynthesis: Light energy → chemical energy (glucose)
-
-### Power
-
-Power is the rate of doing work or the rate of energy transfer.
-
-**Power (P) = Work done / Time taken = Energy / Time**
-
-Unit: **Watt (W)** = 1 Joule/second. Also: Kilowatt (kW) = 1000 W, Megawatt = 1,000,000 W.
-
-**1 horsepower (HP)** ≈ 746 W (used for motors and engines).
-
-## Simple Machines
-
-A simple machine makes work easier by either:
-- Multiplying the force (mechanical advantage)
-- Changing the direction of force
-- Increasing the speed of output (at the cost of force)
-
-| Machine | Description | Examples |
+| Quantity | Formula | SI Unit |
 |---|---|---|
-| **Lever** | Rigid bar that pivots around a fulcrum — 1st class (fulcrum in middle), 2nd class (load in middle), 3rd class (effort in middle) | See-saw, crowbar, wheelbarrow |
-| **Pulley** | Wheel with a groove for rope — fixed or movable | Crane, lifting hoist |
-| **Inclined plane** | Sloping surface — easier than lifting vertically | Ramp, staircase |
-| **Wedge** | Two inclined planes joined | Axe, knife, chisel |
-| **Screw** | Inclined plane wrapped around a cylinder | Screw, jar lid, bolt |
-| **Wheel and axle** | Large wheel attached to a smaller cylinder | Door knob, steering wheel |
+| Speed | v = d / t | m/s |
+| Acceleration | a = (v − u) / t | m/s² |
+| Force | F = m × a | N (kg·m/s²) |
+| Weight | W = m × g, g ≈ 9.8 m/s² | N |
+| Momentum | p = m × v | kg·m/s |
 
-**Mechanical Advantage (MA)** = Load/Effort (greater MA = less effort needed).
+- **Mass** is constant; **weight** changes with gravity (you weigh ~1/6 on the Moon).
+- Newton's three laws cover **inertia**, **F = ma**, and **action–reaction** on two different bodies.
+- CTET tests identification of the correct law from a real-life situation and unit-based numericals.
 
-**Efficiency** = (Work output / Work input) × 100%. Real machines always have efficiency < 100% due to friction.
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-## CTET Exam Focus
+#### States of Matter and Particles
+All matter is built from tiny particles held by **intermolecular forces**. In **solids** the particles are tightly packed and vibrate in fixed positions; in **liquids** they slide past each other with moderate attraction; in **gases** the particles move freely and collide often. Stronger interparticle force means lower kinetic energy and a more rigid structure.
 
-- Three states of matter and changes of state (melting, boiling, sublimation, etc.)
-- Physical vs chemical changes — examples
-- Elements, compounds, mixtures (homogeneous vs heterogeneous)
-- Speed, velocity, acceleration — equations of motion
-- Newton's three laws with examples (inertia, F = ma, action-reaction)
-- Friction: Types (static, sliding, rolling), reducing friction
-- Work: W = F × s × cos θ; joule as unit
-- KE = ½mv²; PE = mgh; energy conservation
-- Power: Watt (J/s), horsepower
-- Simple machines: Lever (1st/2nd/3rd class), pulley, inclined plane
+#### Describing Motion
+**Distance** is the total path length (scalar, m); **displacement** is the shortest straight-line change in position from start to end (vector, m). **Speed** = distance/time, while **velocity** = displacement/time, so velocity carries direction and may be negative. An object moving in a circle at constant speed has changing velocity because direction keeps changing.
 
----
+> Tip: A body moving at *constant velocity* is acted on by **balanced forces**, not zero forces. Examiners frame this as a "trick" MCQ.
+
+#### Newton's Laws at a Glance
+- **First Law (Inertia):** A body at rest stays at rest, and a body in motion continues in a straight line at uniform speed, unless acted on by an **unbalanced force**. Seatbelts and headrests protect passengers from inertia during sudden braking.
+- **Second Law:** The net force on a body equals mass times acceleration, **F = ma**. Doubling force doubles acceleration; doubling mass halves it.
+- **Third Law:** Every action has an equal and opposite reaction, but the pair **always acts on two different bodies**. A gun recoils backward because the forward push acts on the bullet, and the reaction pushes the gun.
+
+#### Mass vs Weight
+Mass (kg) is the amount of matter; weight (N) is the gravitational pull on that mass. A 60 kg student weighs about 588 N on Earth but only about 98 N on the Moon, because the Moon's surface gravity is roughly 1.67 m/s².
+
+#### Friction
+**Friction** opposes relative motion between surfaces and depends on surface roughness and the normal force. It is essential for walking, braking, and writing, but unwanted in machine parts, where lubricants, ball bearings, and wheels reduce it.
+
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
+
+#### Balanced vs Unbalanced Forces
+When the **net force** on an object is zero, it is in equilibrium and either remains at rest or moves with constant velocity. When the vector sum of forces is non-zero, the object accelerates in the direction of the resultant. A book resting on a table has balanced forces: weight downward, normal force upward. A kite in steady flight has lift, weight, tension, and drag in balance.
+
+#### Connecting the Laws to Phenomena
+- A passenger lurches forward in a stopping bus because of **inertia** (First Law).
+- A cricket bowler delivers a ball: the harder the throw, the larger the **F = ma**, so the ball accelerates faster.
+- A swimmer pushes water backward and water pushes the swimmer forward, illustrating the **Third Law** acting on different bodies.
+- A rocket ejects gas downward at high velocity; the reaction lifts the rocket upward. Momentum of gas + rocket is conserved.
+
+#### Pressure and Thrust
+Pressure is force per unit area, **P = F/A** (Pa = N/m²). A sharp nail has a small tip area, so the same force produces very high pressure, letting it pierce wood. School bags with wide straps reduce pressure on shoulders even though weight is unchanged.
+
+#### Edge Cases and Traps
+> Trap: Heavier and lighter objects dropped together in a vacuum fall at the same rate, because g is independent of mass. With air resistance, a feather falls slower than a stone.
+
+> Trap: Friction is not always "bad." Without it, you cannot walk, brake a cycle, or hold a glass.
+
+#### Quick Numerical Practice
+A 1 200 kg car starts from rest and reaches 20 m/s in 10 s. Acceleration a = (20 − 0)/10 = 2 m/s². Net force F = m·a = 1 200 × 2 = **2 400 N**.
+
+A 0.15 kg cricket ball moving at 30 m/s is caught. Its momentum p = m·v = 0.15 × 30 = **4.5 kg·m/s**.
+
+#### Exam Strategy for CTET Paper II
+- Expect **3–5 MCQs** on this theme, mapped to NCERT Class 8 Chapters 8, 9, 11 and Class 7 Chapter 13.
+- Be ready for **assertion–reason** items where the assertion is true but the reason misapplies Newton's Third Law to the same body.
+- Memorise SI units: force N, pressure Pa, momentum kg·m/s — unit mismatch is a common elimination tool in MCQs.
+
+## Continue your study
+
+- **[View this topic in your CTET roadmap](/roadmap/?exam=ctet&duration=1mo)** — see where "Matter, Motion, and Force" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ctet&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[CTET exam overview](/exams/ctet/)** — pattern, eligibility, and syllabus
+- **[All Science notes](/notes/ctet/science/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

@@ -8,167 +8,98 @@ topicName: "Systemic Pathology - Organ System Review"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-07-12"
 ---
 
 # Systemic Pathology - Organ System Review
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+> Rapid summary for last-minute revision before your FMGE.
 
-**Systemic Pathology** — Key Facts for FMGE
-Core concept: Major organ systems have characteristic pathological responses and disease patterns that recur across different diseases
-High-yield point: Each organ has its own pattern of injury response - heart undergoes coagulative necrosis, brain undergoes liquefactive necrosis
-⚡ Exam tip: Connecting pathophysiology to clinical findings and understanding why specific organs develop specific lesions is key to FMGE success
+**Systemic pathology** organises disease by **organ system**, linking gross morphology, **histopathology**, pathophysiology and clinical presentation for each unit. FMGE awards roughly **4–5 of 150 questions** (3%) to Pathology, and organ-system lesions dominate the paper.
+
+#### Core pillars to memorise
+- **Cellular adaptations**: hypertrophy, hyperplasia, atrophy, metaplasia, dysplasia.
+- **Necrosis patterns**: coagulative (ischaemia in solid organs), liquefactive (CNS, abscess), caseous (TB), fat (pancreas), fibrinoid (vasculitis), gangrenous (limbs).
+- **Neoplasia nomenclature**: benign → `-oma`; malignant epithelial → `carcinoma`; malignant mesenchymal → `sarcoma`. Mind the malignant `-oma` exceptions: **melanoma, seminoma, hepatoma, lymphoma**.
+- **TNM staging**: T = tumour extent, N = regional nodes, M = metastasis.
+
+High-yield hallmarks: **Aschoff bodies** (rheumatic carditis), **Mallory-Denk bodies** (alcoholic hepatitis), **Reed-Sternberg cells** (Hodgkin lymphoma), **Lewy bodies** (Parkinson disease), **psammoma bodies** (papillary thyroid carcinoma, meningioma, serous ovarian tumours, mesothelioma).
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Systemic Pathology** — FMGE Study Guide
+Systemic pathology rebuilds the disease catalogue along anatomical lines rather than aetiological lines. For each organ, you integrate the **aetiology** (congenital, inflammatory, neoplastic, vascular, degenerative, metabolic, traumatic), the **pathogenesis**, the **gross and microscopic appearance**, and the **clinical syndrome** that follows.
 
-## Cardiovascular Pathology
+#### Neoplasia framework
+A solid tumour is **benign** when it remains localised, is well-differentiated and does not metastasise; **malignant** tumours invade and spread. Histological **grading** measures differentiation, while **TNM staging** measures anatomical extent.
 
-### Atherosclerosis
-- **Intimal atherosclerosis**: Lipid-laden plaques in aorta, coronary arteries, cerebral arteries
-- **Risk factors**: Hypertension, smoking, diabetes, hyperlipidemia, family history
-- **Complications**: Ischemic heart disease, stroke, peripheral vascular disease
-- **Morphology**: Foam cells, fibrous cap, necrotic lipid core, calcification
+| Parameter | Grading | Staging (TNM) |
+|---|---|---|
+| What it assesses | Degree of differentiation | Anatomic spread |
+| Tool used | Microscopic criteria | Imaging + pathology |
+| Prognostic weight | Lower | Higher |
 
-### Ischemic Heart Disease
-- **Angina pectoris**: Stable (exertional), unstable (crescendo), variant (Prinzmetal - coronary spasm)
-- **Myocardial infarction**:
-  - Transmural (STEMI): Full thickness necrosis; Q wave on ECG
-  - Subendocardial (NSTEMI): Inner half of myocardium
-- **Evolution of MI**: 0-4h (no change) → 4-12h (early coagulative necrosis, wavy fibers) → 12-24h (early neutrophil infiltration) → 1-3 days (macrophages, early granulation) → 1-3 weeks (granulation tissue) → months (fibrosis, scar)
-- **Complications**: Arrhythmias (most common cause of death within first hour), cardiogenic shock, mural thrombus → embolism, papillary muscle rupture (mitral regurgitation), ventricular septal rupture, cardiac tamponade (free wall rupture), CHF, Dressler syndrome (autoimmune pericarditis)
+#### Inflammation framework
+**Acute inflammation** produces vascular dilation, exudate and **neutrophilic** infiltrate. **Chronic inflammation** features mononuclear cells (lymphocytes, plasma cells, macrophages), tissue destruction and **repair by fibrosis**. **Granulomatous** inflammation is a chronic subtype with epithelioid macrophages and giant cells — caseating in tuberculosis, non-caseating in sarcoidosis.
 
-### Hypertension
-- **Benign**: Essential hypertension - small vessel arteriolosclerosis (hyaline)
-- **Malignant**: Accelerated - fibrinoid necrosis, onion-skinning, malignant nephrosclerosis
-- **Effects**: Left ventricular hypertrophy → heart failure, Hypertensive nephrosclerosis → renal failure, Charcot-Bouchard microaneurysms → cerebral hemorrhage
+#### Vascular basis of disease
+**Atherosclerosis** involves endothelial injury, LDL accumulation, foam-cell formation and a fibrous cap; plaque rupture triggers thrombosis, ischaemia and infarction. **Hyaline arteriolosclerosis** is linked to benign hypertension and diabetes, while **hyperplastic arteriolosclerosis** ("onion-skinning") marks malignant hypertension.
 
-### Cardiomyopathy
-- **Dilated**: Most common; heart enlarged, flabby; systolic dysfunction; myocarditis, alcoholism, genetic
-- **Hypertrophic**: Asymmetric septal hypertrophy; autosomal dominant; systolic anterior motion (SAM) of mitral valve; sudden death in young athletes
-- **Restrictive**: Infiltrative (amyloidosis, sarcoidosis), endomyocardial fibrosis
+#### Organ-specific high-yield facts
+- **Cardiovascular**: myocardial infarction coagulative necrosis at 4–24 h, neutrophil peak at 1–3 days, granulation tissue by day 7.
+- **Respiratory**: small cell carcinoma — central, neuroendocrine, paraneoplastic ADH/ACTH; adenocarcinoma — peripheral, most common in non-smokers.
+- **GI**: peptic ulcer favours lesser curvature (gastric) and duodenal bulb; colorectal carcinoma sequence **adenoma → carcinoma** via APC, KRAS, p53, DCC.
+- **Hepatobiliary**: micronodular cirrhosis in alcohol, macronodular in post-viral hepatitis; hepatocellular carcinoma shows **trabecular** pattern with bile production.
+- **Renal**: nephritic syndrome = glomerular bleeding; nephrotic syndrome = massive proteinuria; **clear cell RCC** is the classic adult renal malignancy.
+- **Breast & GYN**: fibroadenoma is the commonest benign breast lump in young women; invasive ductal carcinoma is the commonest malignancy; cervical carcinoma is HPV-driven (types 16, 18).
 
-### Valvular Heart Disease
-- **Mitral stenosis**: Most commonly rheumatic; left atrial enlargement, pulmonary congestion, atrial fibrillation
-- **Mitral regurgitation**: Volume overload, cardiomegaly, pulmonary edema
-- **Aortic stenosis**: Calcific degeneration (elderly), congenital bicuspid aortic valve; sync_pe, angina, heart failure; left ventricular hypertrophy
-- **Aortic regurgitation**: Wide pulse pressure, Corrigan pulse (water hammer), De Musset sign, Austin Flint murmur
-- **Infective endocarditis**: Vegetations on heart valves; acute (S. aureus - aggressive) vs subacute (Strep viridans - more indolent); Duke criteria
-
-### Aneurysms
-- **True aneurysm**: All three layers intact; atherosclerotic (abdominal aorta), syphilitic (thoracic aorta)
-- **False aneurysm (pseudoaneurysm)**: Hematoma with fibrous capsule; trauma, percutaneous procedures
-- **Dissecting aneurysm**: Blood in media - Classically hypertension; Stanford Type A (ascending aorta) and Type B (descending aorta); acute aortic regurgitation, cardiac tamponade, branch vessel occlusion
-
-## Pulmonary Pathology
-
-### Pneumonia
-- **Lobar pneumonia** (Streptococcus pneumoniae): Stages - congestion (day 1), red hepatization (day 2-3), gray hepatization (day 4-8), resolution (day 9+)
-- **Bronchopneumonia** (Staph, Strep, H. influenzae): Patchy consolidation around bronchi
-- **Interstitial pneumonia** (viral - influenza, COVID-19): Diffuse alveolar damage, bilateral involvement
-
-### COPD and Emphysema
-- **Chronic bronchitis**: Productive cough >3 months/year for >2 consecutive years; Reid index >50%
-- **Emphysema**: Destruction of alveolar walls; centriacinar (smoking) - upper lobes; panacinar (alpha-1 antitrypsin deficiency) - lower lobes
-- **Pathophysiology**: Loss of elastic recoil, airflow obstruction, air trapping, hyperinflation
-
-### Asthma
-- Type I hypersensitivity; bronchial smooth muscle hypertrophy, eosinophilic infiltrate, mucous gland hyperplasia
-- **Atopic (extrinsic)** and **Intrinsic (non-atopic)**
-- Status asthmaticus: Severe, refractory bronchospasm
-
-### Lung Cancer
-- **Squamous cell carcinoma**: Central, keratin pearls, associated with smoking
-- **Adenocarcinoma**: Peripheral (most common overall in non-smokers), glandular differentiation, mucin
-- **Small cell carcinoma**: Central, neuroendocrine, oat cells, paraneoplastic syndromes (SIADH, ectopic ACTH)
-- **Large cell carcinoma**: Poorly differentiated, giant cells
-- Metastasis: Brain, bone, liver, adrenal
-
-### Tuberculosis
-- **Primary TB**: Ghon complex, lower/middle lobe
-- **Secondary TB**: Apical cavitary lesions (reactivation)
-- **Caseating granulomas**: Central caseous necrosis, Langhans giant cells
-- **Miliary TB**: Thousands of tiny tubercles throughout lungs and other organs
-
-## GI Pathology
-
-### Peptic Ulcer Disease
-- **Gastric ulcer**: Greater curvature; risk of malignancy
-- **Duodenal ulcer**: Lesser curvature of pylorus; associated with H. pylori; pain relieved by eating
-- **Complications**: Hemorrhage, perforation, penetration, pyloric obstruction
-
-### Gastritis
-- **Acute gastritis**: Erosions, alcohol, NSAIDs, stress (Curling ulcer - burns, Cushing ulcer - CNS injury)
-- **Chronic gastritis**: Type A (fundal - autoimmune, pernicious anemia), Type B (antral - H. pylori, most common)
-
-### Inflammatory Bowel Disease
-- **Crohn disease**: Transmural inflammation, skip lesions, non-caseating granulomas, cobblestone mucosa, creeping fat, string sign on barium, perianal disease
-- **Ulcerative colitis**: Mucosal inflammation, continuous lesions starting from rectum, crypt abscesses, pseudopolyps, toxic megacolon; increased colon cancer risk
-
-### Colorectal Carcinoma
-- Most common GI cancer; adenocarcinoma
-- **Adenoma-carcinoma sequence**: APC mutation → K-ras → DCC → p53
-- Left colon: Narrowing, constricting (cauliflower-like)
-- Right colon: Annular, apple-core appearance
-- Elevated CEA (carcinoembryonic antigen)
-
-### Hepatitis
-- **Viral hepatitis patterns**:
-  - **Acute viral hepatitis**: Spotty necrosis, Councilman bodies (apoptotic bodies), portal inflammation
-  - **Chronic hepatitis**: Portal tract expansion, interface hepatitis, cirrhosis
-  - **Fulminant hepatitis**: Massive necrosis, hepatic encephalopathy
-- **Alcoholic hepatitis**: Mallory bodies (intracytoplasmic eosinophilic inclusions), neutrophilic infiltrate, fatty change
-- **Cirrhosis**: Micronodular (alcohol, biliary) vs macronodular (viral, autoimmune)
-
-## Renal Pathology
-
-### Glomerulonephritis
-
-**Nephritic syndrome** (hematuria, proteinuria <3.5g/day, hypertension, edema, oliguria):
-- **Acute proliferative GN** (post-streptococcal): "Looped" or "lumpy bumpy" immunofluorescence; subepithelial humps
-- **IgA nephropathy** (Berger disease): Episodic gross hematuria following URI; mesangial IgA deposits
-- **Rapidly progressive (Crescentic) GN**: Crescent formation (proliferation of parietal cells and macrophages in Bowman's space); poor prognosis
-
-**Nephrotic syndrome** (proteinuria >3.5g/day, hypoalbuminemia, edema, hyperlipidemia):
-- **Minimal change disease**: Children; foot process effacement on EM; responds to steroids
-- **Focal segmental glomerulosclerosis (FSGS)**: HIV-associated; heroin-associated; primary
-- **Membranous nephropathy**: "Spike and dome" appearance; adults; may be secondary to malignancy, hepatitis B, SLE, drugs
-- **Amyloidosis**: Kidney involvement → nephrotic syndrome
-
-### Tubulointerstitial Disease
-- **Acute tubular necrosis (ATN)**: Ischemic (shock) or nephrotoxic (aminoglycosides, contrast dye)
-- **Acute pyelonephritis**: Neutrophilic infiltration of interstitium and tubules; WBC casts
-- **Chronic pyelonephritis**: Tubular atrophy, interstitial fibrosis, Thyroidization of tubules; associated with vesicoureteral reflux or obstruction
-
-### Renal Cell Carcinoma
-- **Clear cell carcinoma**: Most common; "Clear cells" due to glycogen and lipid; associated with VHL gene mutation
-- **Papillary carcinoma**: Multicentric, bilateral
-- **Wilms tumor** (nephroblastoma): Children; triphasic (blastema, stromal, epithelial elements)
-
-## Nervous System Pathology
-
-### Stroke
-- **Ischemic stroke** (87%): Thrombotic (atherosclerotic large vessel) or embolic (cardioembolic - AF, mural thrombus)
-- **Hemorrhagic stroke** (13%): Hypertension → Charcot-Bouchard microaneurysm rupture; amyloid angiopathy (elderly)
-- **Liquefactive necrosis**: Brain tissue undergoes enzymatic digestion → cystic cavity
-
-### CNS Tumors
-- **Gliomas**: Astrocytoma (most common primary brain tumor), oligodendroglioma (fried egg cells), ependymoma
-- **Meningioma**: Arachnoid cells; dural attachment; psammoma bodies; benign but can recur
-- **Medulloblastoma**: Children; small round blue cells; cerebellar
-- **Metastatic**: Most common brain tumors; lung, breast, melanoma, colon, kidney
-
-### Neurodegenerative Diseases
-- **Alzheimer disease**: Neuritic plaques (Aβ), neurofibrillary tangles (tau), cortical atrophy; ApoE4 associated
-- **Parkinson disease**: Loss of dopaminergic neurons in substantia nigra; Lewy bodies (α-synuclein); resting tremor, bradykinesia, rigidity, postural instability
-- **Huntington disease**: Caudate atrophy; CAG repeats in huntingtin gene
-- **Multiple sclerosis**: Demyelination; periventricular white matter plaques; relapsing-remitting course
+**FMGE trap**: confusing `-oma` with benign status — *melanoma, seminoma, hepatoma and lymphoma are malignant.* Likewise, do not swap grading with staging.
 
 ---
+
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer timeline.
+
+Mastery of systemic pathology demands fluency with **paraneoplastic syndromes**, **systemic effects of focal disease**, and **microscale signatures** that unlock image-based MCQs.
+
+#### Paraneoplastic links worth memorising
+
+| Tumour | Syndrome / Marker |
+|---|---|
+| Small cell lung carcinoma | Ectopic ACTH, SIADH, Lambert-Eaton |
+| Squamous cell carcinoma | Hypercalcaemia (PTHrP) |
+| Renal cell carcinoma | Polycythaemia (EPO), Stauffer syndrome |
+| Hepatocellular carcinoma | Hypoglycaemia, hypercalcaemia |
+| Pancreatic adenocarcinoma | Trousseau sign (migratory thrombophlebitis) |
+
+#### Hallmark inclusions and bodies
+- **Aschoff bodies**: fibrinoid necrosis with Anitschkow cells in rheumatic carditis.
+- **Mallory-Denk bodies**: eosinophilic intracytoplasmic inclusions of damaged keratin in alcoholic hepatitis.
+- **Reed-Sternberg cells**: binucleate "owl-eye" CD15+/CD30+ cells in Hodgkin lymphoma.
+- **Neurofibrillary tangles + amyloid (Aβ) plaques**: Alzheimer disease.
+- **Lewy bodies**: α-synuclein inclusions, Parkinson disease and dementia with Lewy bodies.
+- **Psammoma bodies**: concentric calcifications — papillary thyroid carcinoma, meningioma, serous ovarian tumour, mesothelioma.
+
+#### Edge cases and commonly missed links
+- **Dysplasia vs metaplasia**: metaplasia is reversible replacement of one mature cell type by another (e.g., bronchial squamous metaplasia in smokers); dysplasia is disordered, atypical growth that may progress to malignancy (e.g., cervical intraepithelial neoplasia).
+- **Coagulative vs liquefactive necrosis**: brain infarction is liquefactive because of high lipid content and lack of supportive stroma — the only major CNS exception.
+- **Staging vs grading independence**: a low-grade tumour can still be high-stage (node-positive), so prognosis requires both.
+- **Systemic spillover**: amyloidosis, vasculitis and DIC originate focally but present as multi-organ failure — always consider a unifying pathological process.
+
+#### Practice prompts
+1. A 58-year-old smoker presents with hypercalcaemia and a hilar lung mass. Histology shows keratin pearls and intercellular bridges. Which paraneoplastic mediator is responsible, and which histological subtype is this?
+2. A 45-year-old woman has a cervical lymph node biopsy showing binucleate cells with prominent eosinophilic nucleoli ("owl-eye") that are CD15+ and CD30+. What is the diagnosis, and which architectural pattern subtype carries the best prognosis?
+
+---
+
+## Continue your study
+
+- **[View this topic in your FMGE roadmap](/roadmap/?exam=fmge&duration=1mo)** — see where "Systemic Pathology - Organ System Review" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=fmge&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[FMGE exam overview](/exams/fmge/)** — pattern, eligibility, and syllabus
+- **[All Pathology notes](/notes/fmge/pathology/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

@@ -8,7 +8,7 @@ topicName: "Genetic Disorders"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-07-12"
 ---
 
 # Genetic Disorders
@@ -16,176 +16,74 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Genetic Disorders** — Key Facts for FMGE
-Core concept: Single-gene disorders follow Mendelian inheritance patterns; chromosomal disorders cause developmental abnormalities
-High-yield point: Know how to recognize and differentiate common inheritance patterns (autosomal dominant, recessive, X-linked)
-⚡ Exam tip: Remember that autosomal dominant conditions often show variable expressivity and incomplete penetrance
+Genetic disorders arise from pathogenic DNA alterations (mutations) or chromosomal changes (number/structure), producing defective proteins, enzyme deficiencies, or altered gene dosage.
 
----
+- **Single-gene (Mendelian):** Autosomal dominant (Marfan, Huntington, achondroplasia, familial hypercholesterolemia); Autosomal recessive (cystic fibrosis, sickle cell, thalassemia, PKU, Tay-Sachs, Gaucher); X-linked recessive (hemophilia A/B, DMD, G6PD deficiency, Lesch-Nyhan, Fabry).
+- **Cytogenetic:** Trisomy 21 (Down), 45,XO (Turner), 47,XXY (Klinefelter), trisomy 18 (Edwards), trisomy 13 (Patau); translocations like **Philadelphia t(9;22)** in CML; deletions 5p− (Cri-du-chat), 22q11.2 (DiGeorge).
+- **Trinucleotide repeats (anticipation):** Huntington (CAG), Fragile X (CGG), myotonic dystrophy (CTG), Friedreich ataxia (GAA).
+- **Mitochondrial (maternal):** MELAS, MERRF, LHON.
+- **Imprinting:** Prader-Willi (paternal 15q deletion) vs Angelman (maternal 15q deletion).
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Genetic Disorders** — FMGE Study Guide
+#### Inheritance Patterns
 
-## Chromosomal Abnormalities
+| Pattern | Risk to Offspring | Classic Examples |
+|---|---|---|
+| Autosomal dominant | 50%, vertical pedigree, male = female | Marfan, Huntington, achondroplasia, familial hypercholesterolemia |
+| Autosomal recessive | 25%, often skips generations, consanguinity | Cystic fibrosis, sickle cell, thalassemia, PKU, Tay-Sachs |
+| X-linked recessive | Males affected, carrier mothers | Hemophilia A/B, DMD, G6PD deficiency, Lesch-Nyhan, Bruton agammaglobulinemia |
+| X-linked dominant | All daughters of affected fathers affected | Rett syndrome, vitamin D-resistant rickets |
+| Mitochondrial | All children of affected mother affected | MELAS, MERRF, LHON |
 
-### Numerical Abnormalities (Aneuploidy)
+#### Aneuploidies and Structural Defects
 
-**Euploidy**: Exact multiple of haploid set (46 chromosomes)
-**Aneuploidy**: Abnormal chromosome number
+Numerical errors typically arise from **nondisjunction** during meiosis. Maternal meiosis I errors dominate in Down syndrome; risk rises sharply after maternal age 35. Structural defects include **translocations** (reciprocal, Robertsonian — the latter causing ~4% of Down syndrome), **deletions** (Cri-du-chat 5p−, DiGeorge 22q11.2), and **ring chromosomes**.
 
-**Trisomy** (one extra chromosome):
-- **Trisomy 21 (Down syndrome)**: Most common, features include flat facies, epicanthal folds, Brushfield spots, single palmar crease, sandal gap, intellectual disability. Associated with early-onset Alzheimer's, ALL, hypothyroidism. Advanced maternal age is risk factor.
-- **Trisomy 18 (Edwards syndrome)**: Rocker bottom feet, clenched fists with overlapping fingers, micrognathia, severe intellectual disability, congenital heart defects. Most die before 1 year.
-- **Trisomy 13 (Patau syndrome)**: Holoprosencephaly, cleft lip/palate, polydactyly, cyclopia. Most die within first year.
+| Syndrome | Karyotype | Hallmark Clinical Clue |
+|---|---|---|
+| Down | Trisomy 21 | Flat facies, endocardial cushion defect, duodenal atresia, Alzheimer risk |
+| Edwards | Trisomy 18 | Clenched fists, rocker-bottom feet, severe intellectual disability |
+| Patau | Trisomy 13 | Cleft lip/palate, polydactyly, holoprosencephaly |
+| Turner | 45,XO | Streak ovaries, webbed neck, coarctation, **no Barr body** |
+| Klinefelter | 47,XXY | Tall infertile male, gynecomastia, **Barr body present** |
 
-**Monosomy** (one missing chromosome):
-- **Turner syndrome (45,XO)**: Short stature, webbed neck, shield chest, primary amenorrhea, coarctation of aorta. No intellectual disability typically.
+> **Trap:** Philadelphia chromosome t(9;22)(q34;q11) forms the **BCR-ABL** fusion in CML — it is **acquired somatic**, not inherited.
 
-**Sex chromosome abnormalities:**
-- **Klinefelter syndrome (47,XXY)**: Tall, eunuchoid, gynecomastia, small firm testes, azoospermia, mild intellectual disability. Most common male hypogonadism.
-- **Triple X syndrome (47,XXX)**: Phenotypically normal females, may have mild learning disabilities
-- **XYY syndrome (47,XYY)**: Tall males, normal phenotype (controversial "criminal" association disproven)
+#### Inborn Errors of Metabolism
 
-### Structural Abnormalities
+Enzyme defects cause substrate accumulation or product deficiency. PKU (phenylalanine hydroxylase deficiency) mandates dietary phenylalanine restriction to prevent intellectual disability; Tay-Sachs (hexosaminidase A) shows cherry-red macula with **no hepatosplenomegaly**, distinguishing it from Niemann-Pick.
 
-- **Translocation**: Exchange of genetic material between chromosomes
-  - Robertsonian translocation: Between acrocentric chromosomes (13, 14, 15, 21, 22) - common cause of familial Down syndrome
-- **Deletion**: Loss of chromosomal segment
-  - Cri du chat syndrome: 5p deletion (microcephaly, cat-like cry)
-  - DiGeorge syndrome: 22q11 deletion (cardiac defects, thymic aplasia, hypocalcemia)
-- **Duplication**: Extra copy of chromosomal segment
-- **Inversion**: Segment reversed within chromosome
-- **Ring chromosome**: Deletion of both ends with fusion
-- **Isochromosome**: One arm duplicated, one missing
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-## Single Gene Disorders
+#### Trinucleotide Repeat Expansion and Anticipation
 
-### Autosomal Dominant
+Repeat number expands across generations, producing earlier onset and greater severity — the phenomenon of **anticipation**. In Huntington disease, CAG repeats in the *HTT* gene on chromosome 4p encode polyglutamine; ≥40 repeats cause disease. Fragile X syndrome involves CGG expansion in *FMR1* with methylation silencing; it is the **leading inherited cause of intellectual disability**. Paternal CGG expansion produces macroorchidism without classic Fragile X because methylation differs.
 
-- Condition manifests when only ONE copy of mutant gene is present
-- **Examples**:
-  - Huntington disease ( CAG repeats in huntingtin gene, anticipation)
-  - Marfan syndrome (FBN1 gene, connective tissue disorder)
-  - Familial hypercholesterolemia (LDL receptor mutation)
-  - Neurofibromatosis type 1 (NF1 gene, café-au-lait spots, neurofibromas)
-  - Polyposis coli (APC gene, colon polyps → cancer)
-  - Acute intermittent porphyria
-  - Osteogenesis imperfecta (COL1A1 gene)
-- **Features**: Affects both sexes, affected child has at least one affected parent, vertical transmission
-- **Important concept**: Variable expressivity (different severity) and incomplete penetrance (some gene carriers are asymptomatic)
+#### Imprinting and Uniparental Disomy
 
-### Autosomal Recessive
+Genes on **15q11-13** are parentally imprinted. Paternal deletion → **Prader-Willi** (hyperphagia, obesity, hypotonia, hypogonadism); maternal deletion → **Angelman** (happy puppet, ataxia, seizures — *UBE3A* is maternally expressed). Both can also arise from **uniparental disomy**.
 
-- Condition manifests only when TWO copies of mutant gene present
-- **Examples**:
-  - Cystic fibrosis (CFTR mutation - most common lethal genetic disease in Caucasians)
-  - Phenylketonuria (PKU) - phenylalanine hydroxylase deficiency
-  - Galactosemia
-  - Glycogen storage diseases (von Gierke, Pompe)
-  - Sickle cell anemia
-  - Friedreich ataxia
-  - Wilson disease (ATP7B gene - copper accumulation)
-  - Hemochromatosis
-- **Features**: Both parents are carriers (heterozygous), 25% risk for each pregnancy, both sexes equally affected
-- **Consanguinity**: Higher risk in children of related parents (increased chance of inheriting same recessive allele)
+#### Mutation Mechanisms and Diagnostic Tools
 
-### X-linked Recessive
+- **Point mutations:** missense (substituted amino acid — sickle cell), nonsense (premature stop → truncated protein → nonsense-mediated decay), silent, splice-site.
+- **Frameshift:** insertion/deletion not in a multiple of 3 shifts the reading frame.
+- **Loss-of-function** vs **gain-of-function** mutations differ in dominant disease mechanism; DMD shows frameshift (no dystrophin) versus Becker's in-frame deletion (truncated dystrophin).
+- **Diagnostic arsenal:** karyotype for aneuploidy, FISH for microdeletions, PCR for known mutations, Southern blot for repeat expansions, chromosomal microarray for copy-number variants, and **next-generation sequencing** panels for Mendelian disorders.
 
-- Gene located on X chromosome
-- **Examples**:
-  - Hemophilia A and B (Factor VIII and IX deficiency)
-  - Duchenne/Becker muscular dystrophy (dystrophin gene)
-  - Red-green color blindness
-  - G6PD deficiency
-  - Lesch-Nyhan syndrome (HGPRT deficiency)
-  - Ornithine transcarbamylase deficiency
-- **Features**: Primarily affects males, carrier females may show mild symptoms, no male-to-male transmission, affected male mother is carrier
-- **Key**: Affected males → all daughters carriers (no affected sons since father gives Y to sons)
+#### Practice Prompts
 
-### X-linked Dominant
+1. A 30-year-old tall male presents with infertility, gynecomastia, and small firm testes. Karyotype most likely shows: ____. What Barr body status is expected?
+2. A newborn fails newborn screening with elevated phenylalanine; enzyme deficient and dietary intervention that prevents neurological damage?
 
-- **Examples**:
-  - Vitamin D-resistant rickets (hypophosphatemia)
-  - Rett syndrome (mostly affects females)
-- **Features**: Both males and females affected, but often more severe in males
+## Continue your study
 
-### Mitochondrial Inheritance
-
-- Inherited exclusively from mother (mitochondria come from egg)
-- **Examples**:
-  - Leber hereditary optic neuropathy (LHON) - maternal transmission
-  - MELAS (mitochondrial encephalomyopathy, lactic acidosis, stroke-like episodes)
-  - MERFF (myoclonic epilepsy with ragged red fibers)
-- **Features**: All children of affected mother affected, no transmission from father
-
-## Multifactorial Inheritance
-
-- Combination of multiple genes + environmental factors
-- **Examples**:
-  - Cleft lip/palate
-  - Neural tube defects (spina bifida, anencephaly)
-  - Congenital heart defects
-  - Diabetes mellitus type 1
-  - Schizophrenia, bipolar disorder
-  - Essential hypertension
-  - Rheumatoid arthritis
-- **Recurrence risk**: Higher with more affected family members, more severe expression
-
-## Important Genetic Concepts
-
-### Anticipation
-- Disease severity increases and age of onset decreases in successive generations
-- **CAG trinucleotide repeat disorders**: Huntington disease, myotonic dystrophy, Friedreich ataxia
-- **CGG repeat**: Fragile X syndrome
-
-### Imprinting
-- Genes expressed differently depending on whether inherited from mother or father
-- **Examples**:
-  - Prader-Willi syndrome: Paternal deletion (15q11-13) → hypotonia, obesity, intellectual disability
-  - Angelman syndrome: Maternal deletion/silencing of same region → ataxia, seizures, happy demeanor
-  - Beckwith-Wiedemann syndrome: IGF2 imprinting (paternal duplication)
-
-### Uniparental Disomy
-- Both chromosomes of a pair inherited from one parent (loss of other parent's chromosome + duplication)
-- Can cause disease if child inherits two copies of mutated gene (CFTR)
-
-## Teratogenicity
-
-### Known Teratogens
-
-- **Thalidomide**: Limb defects (phocomelia)
-- **Alcohol (Fetal Alcohol Syndrome)**: Growth retardation, facial anomalies, CNS dysfunction
-- **Isotretinoin**: Craniofacial, cardiac, CNS malformations
-- **Warfarin**: Nasal hypoplasia, stippled epiphyses, growth retardation
-- **DES (Diethylstilbestrol)**: Clear cell adenocarcinoma of vagina in daughters
-- **Lead**: CNS damage
-- **Infections**: TORCH (Toxoplasma, Others, Rubella, CMV, Herpes)
-
-### Critical Periods
-
-- **Weeks 1-2**: All-or-none effect (either survives or not)
-- **Weeks 3-8 (organogenesis)**: Most vulnerable to teratogens
-- **After 8 weeks**: Organ growth and development continue, but major structural defects less common
-
-## Genetic Testing
-
-### Karyotype Analysis
-- Detects large chromosomal abnormalities
-- Used for: prenatal diagnosis, suspected chromosomal syndromes, recurrent miscarriage
-
-### FISH (Fluorescence In Situ Hybridization)
-- Detects specific chromosomal regions
-- Used for microdeletions (DiGeorge 22q11, Cri du chat 5p)
-
-### Microarray (CGH)
-- Detects submicroscopic deletions/duplications
-- Higher resolution than karyotype
-
-### Molecular Testing
-- PCR, sequencing for single gene disorders
-- Used for: cystic fibrosis, Huntington disease, sickle cell, thalassemia
+- **[View this topic in your FMGE roadmap](/roadmap/?exam=fmge&duration=1mo)** — see where "Genetic Disorders" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=fmge&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[FMGE exam overview](/exams/fmge/)** — pattern, eligibility, and syllabus
+- **[All Pathology notes](/notes/fmge/pathology/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

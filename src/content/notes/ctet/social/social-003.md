@@ -8,150 +8,100 @@ topicName: Indian Constitution and Political System
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-07-12"
 ---
 
 # Indian Constitution and Political System
 
-## The Making of the Constitution
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
 
-India became independent on August 15, 1947, and the Constitution came into effect on **January 26, 1950** — this date is celebrated as **Republic Day**.
+The **Indian Constitution** is the supreme law of India, adopted on **26 November 1949** and enforced on **26 January 1950**. It establishes a **parliamentary**, **federal** system with a **single citizenship**, **universal adult suffrage**, and an **independent judiciary** headed by the Supreme Court.
 
-### Key Committees and Bodies
+The **Preamble** declares India a Sovereign, Socialist, Secular, Democratic Republic committed to Justice, Liberty, Equality and Fraternity. **Fundamental Rights** (Part III, Articles 12–35) are **justiciable**, but **Directive Principles** (Part IV, Articles 36–51) are **non-justiciable** guidelines to the State.
 
-- **Drafting Committee**: Chairman — Dr. B.R. Ambedkar. Submitted the draft constitution on November 26, 1947 (celebrated as **National Law Day**)
-- **Constituent Assembly**: 299 members, chaired by Dr. Rajendra Prasad
-- **Constitutional advisors**: Sir B.N. Rau (Legal Advisor), others
+| Term | Key Fact |
+|---|---|
+| Preamble | Added by 42nd Amendment 1976: words Socialist, Secular, Integrity |
+| Fundamental Duties | 11 duties under Article 51A |
+| Residuary Powers | Lie with Parliament (Article 248) |
+| Real Executive | Prime Minister + Council of Ministers, not the President |
 
-**Sources of the Indian Constitution:**
-- Government of India Act, 1935 (structure)
-- US Constitution (fundamental rights, independent judiciary, presidential system)
-- UK Constitution (parliamentary system, rule of law, convention)
-- Irish Constitution (directive principles of state policy)
-- Canadian Constitution (federation with strong centre)
-- Japanese Constitution (concurrency of subjects)
+**Exam pointer:** MCQs frequently test the FR vs DPSP distinction and writs under **Article 32** (Supreme Court) vs **Article 226** (High Court).
 
-**Philosophy of the Constitution**: The Preamble reflects the philosophy — Sovereign, Socialist, Secular, Democratic, Republic.
+---
 
-## The Preamble
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-The Preamble serves as the introductory statement of the Constitution and reflects the ideals and aspirations of the people of India.
+#### Framing of the Constitution
 
-> *"We, THE PEOPLE OF INDIA, having solemnly resolved to constitute India into a SOVEREIGN SOCIALIST SECULAR DEMOCRATIC REPUBLIC and to secure to all its citizens: JUSTICE, social, economic and political; LIBERTY of thought, expression, belief, faith and worship; EQUALITY of status and of opportunity; and to promote among them all FRATERNITY assuring the dignity of the individual and the unity and integrity of the Nation."*
+The Constitution is the longest written constitution in the world and was drafted by the **Constituent Assembly** chaired by **Dr. B. R. Ambedkar**. It is partly rigid and partly flexible: most provisions need a special majority of Parliament, but some require ratification by at least half the state legislatures under **Article 368**.
 
-**Key amendments**:
-- **42nd Amendment (1976)**: Added "Socialist" and "Secular" and "Integrity"
-- **73rd/74th Amendments**: Added "Panchaayati Raj" and "Municipalities"
+#### Political System Structure
 
-## Features of the Indian Constitution
+India adopted the **British Parliamentary model**, not the American Presidential model. The President is the nominal head; the **Prime Minister** and **Council of Ministers** hold real executive power and are collectively responsible to the **Lok Sabha**. State governments mirror this with a Chief Minister accountable to the Vidhan Sabha.
 
-- **Lengthiest constitution in the world** (originally 395 articles, now ~470, plus 12 schedules)
-- **Blend of rigidity and flexibility** (some provisions require special majority, others ordinary)
-- **Federal structure with unitary bias** (emergency provisions make it quasi-federal)
-- **Parliamentary system** (executive responsible to legislature)
-- **Independent judiciary** (Supreme Court as guardian of Constitution)
-- **Fundamental Rights** (Part III, Articles 12–35)
-- **Directive Principles of State Policy** (Part IV, Articles 36–51)
-- **Fundamental Duties** (Part IV-A, Article 51A — added by 86th Amendment, 2002)
-- **Single citizenship** (only Indian citizenship, no state citizenship)
-- **Official languages** (Article 343 — Hindi in Devanagari script with English as additional official language for 15 years; later made permanent by 97th Amendment)
+#### Federalism with Unitary Bias
 
-## Fundamental Rights (Articles 12–35)
+The Seventh Schedule distributes legislative power into **Union List**, **State List** and **Concurrent List**; the Concurrent List gives Parliament overriding power. Emergency provisions (Articles 352, 356, 360) tilt the balance towards the Centre, creating a “federalism with unitary bias” — a frequent CTET framing.
 
-Fundamental Rights are justiciable (enforceable in court). Six rights:
+#### Rights, Duties and Writs
 
-| # | Right | Key Articles | Content |
-|---|---|---|---|
-| 1 | **Right to Equality** (Art 14–18) | 14: Equality before law; 15: No discrimination; 16: Equal opportunity in public employment; 17: Abolition of untouchability; 18: Abolition of titles | |
-| 2 | **Right to Freedom** (Art 19–22) | 19: Six freedoms (speech, assembly, association, movement, residence, profession); 20: Protection in respect of conviction; 21: Right to life and personal liberty; 21A: Right to education (86th amendment); 22: Protection against arrest | |
-| 3 | **Right against Exploitation** (Art 23–24) | 23: Prohibition of traffic in human beings and forced labour; 24: No employment of children below 14 years in factories | |
-| 4 | **Right to Freedom of Religion** (Art 25–28) | 25: Freedom of conscience and free profession; 26: Freedom to manage religious affairs; 27: No compulsory taxes for religion; 28: No religious instruction in state-funded institutions | |
-| 5 | **Cultural and Educational Rights** (Art 29–30) | 29: Protection of interests of minorities; 30: Right of minorities to establish educational institutions | |
-| 6 | **Right to Constitutional Remedies** (Art 32) | Right to move Supreme Court for enforcement of Fundamental Rights — Dr. Ambedkar called Article 32 the "heart and soul" of the Constitution | |
+| Feature | Articles | Nature |
+|---|---|---|
+| Fundamental Rights | 12–35 | Justiciable |
+| Directive Principles | 36–51 | Non-justiciable, State duty |
+| Fundamental Duties | 51A | Citizen obligation |
+| Writs (Habeas Corpus, Mandamus, Prohibition, Certiorari, Quo Warranto) | 32 (SC), 226 (HC) | Enforceable remedies |
 
-> **Article 21**: Right to life and personal liberty — the most fundamental right. Expanded by the Supreme Court to include: Right to privacy (2017), Right to die with dignity (2018), Right to clean environment.
+> **Trap:** Article 32 itself is a Fundamental Right (Right to Constitutional Remedies), but writs in High Courts come under Article 226, not 32.
 
-## Fundamental Duties (Article 51A)
+#### Single Citizenship
 
-Added by 86th Amendment (2002), based on the recommendations of the Swaran Singh Committee. Ten duties:
+Unlike the USA, India offers **single citizenship** governed by Articles 5–11 and the **Citizenship Act, 1955**. Only Parliament can regulate citizenship, reinforcing central supremacy.
 
-1. To abide by the Constitution and respect National Flag and National Anthem
-2. To cherish and follow the noble ideals of the freedom struggle
-3. To protect sovereignty, unity, and integrity of India
-4. To defend the country when called upon
-5. To promote harmony and brotherhood
-6. To preserve composite culture
-7. To protect natural environment
-8. To develop scientific temper
-9. To safeguard public property
-10. To strive for excellence in all endeavors
+---
 
-## Directive Principles of State Policy (Articles 36–51)
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-Non-justiciable (cannot be enforced in court) but fundamental in governance. Aimed at establishing a welfare state.
+#### Secularism, Socialism and the Preamble
 
-Key DPSPs:
-- **Article 38**: Social order in which justice, social, economic, and political shall inform all institutions of national life
-- **Article 39**: Certain principles of policy to be followed by the State — equal means of livelihood, concentration of wealth avoided, mineral resources not to be monopolized
-- **Article 40**: Organization of Village Panchayats
-- **Article 43**: Living wage for workers
-- **Article 44**: Uniform Civil Code (still not implemented — controversial)
-- **Article 48**: Protection of environment and wildlife
+In **Kesavananda Bharati v. State of Kerala (1973)**, the Supreme Court ruled the Preamble is part of the Constitution but cannot be amended to destroy the **basic structure**. The 42nd Amendment (1976) inserted **Socialist**, **Secular** and **Integrity** into the Preamble. Indian secularism means equal respect and non-discrimination by the State among all religions — distinct from the western separation model.
 
-> The Supreme Court ruled in **Minerva Mills (1980)** that the balance between Fundamental Rights and DPSPs cannot be destroyed — Parliament cannot amend the Basic Structure.
+#### Money Bill and Parliamentary Procedure
 
-## The Parliament
+A **Money Bill** originates only in the Lok Sabha (Article 109). The Rajya Sabha can recommend amendments within **14 days** but cannot reject or amend it. Passing requires an **effective majority** (all members then in office, excluding the Speaker), which differs from quorum (1/10 of total members).
 
-India has a **bicameral Parliament** at the Centre:
+#### Practice Prompts
 
-### Lok Sabha (House of the People)
-- Lower house, maximum 552 members (530 states + 20 union territories + 2 Anglo-Indian nominated)
-- Directly elected by citizens above 18 years (after 61st Amendment, 1988)
-- Term: 5 years
-- **Money Bill**: Originated only in Lok Sabha; Rajya Sabha has limited role
+**Prompt 1 (MCQ):** Which part of the Constitution lists Fundamental Duties?
+- *Correct:* Part IVA, Article 51A.
+- *Wrong attractors:* Part III (Fundamental Rights), Part IV (Directive Principles).
 
-### Rajya Sabha (Council of States)
-- Upper house, maximum 250 members (currently 233)
-- **Indirectly elected**: By elected members of state legislative assemblies (proportionally by single transferable vote)
-- Term: 6 years, 1/3 retire every 2 years (rotational)
-- **Special powers**: Can introduce bills for the creation of new states, can recommend creation of new All-India Services
+**Prompt 2 (Conceptual):** Distinguish between Fundamental Rights and Directive Principles in three points.
+- *Model answer:* FR are justiciable and negative (limit State action); DPSP are non-justiciable and positive (direct State welfare action); both together form the conscience of the Constitution.
 
-**Speaker of Lok Sabha**: Presiding officer — currently Om Birla (as of 2024).
+#### Common Mistakes
 
-## The President of India
+- Marking **DPSP** as legally enforceable. They are guides to the State, not rights.
+- Citing **Article 32** for High Court writs; that power is under **Article 226**.
+- Assuming **dual citizenship** exists; India grants only single citizenship.
+- Treating the **President** as the real executive; in the parliamentary system, real power lies with the PM and Council of Ministers.
 
-The President is the **head of state** — largely a ceremonial figure (except in some discretionary powers).
+#### CTET Strategy
 
-- **Elected**: By an electoral college comprising elected members of both Houses of Parliament and state legislative assemblies
-- **Term**: 5 years, max 2 terms
-- **Qualifications**: 35+ years, citizen of India, not a member of Parliament/state legislature
-- **Powers**: Summons Parliament, appoints CJI and judges, declares emergency, pardons (Article 72)
+This topic clusters around **3%** of the Social Studies paper, but is **high-yield per question** because every item tests civic vocabulary that overlaps with pedagogy (developing democratic values). Revise the Preamble keywords, FR vs DPSP table, and writ articles 32/226 together as a single revision block.
 
-**Emergency powers (Article 352)**:
-- **National Emergency**: War, external aggression, armed rebellion (Article 352) — declared by President on written advice of Cabinet; first declared in 1971 (war with Pakistan); second in 1975 (internal emergency — Indira Gandhi)
-- **State Emergency**: Presidential rule in a state (Article 356) — 44 times applied
-- **Financial Emergency**: Article 360 — never invoked
+---
 
-## Council of Ministers and Prime Minister
+## Continue your study
 
-- **President**: Appoints PM (leader of majority in Lok Sabha)
-- **Council of Ministers**: PM + other ministers (collective responsibility to Lok Sabha)
-- **Cabinet**: Inner circle of senior ministers (decides major policy)
-
-**PM's powers**:
-- Leader of Lok Sabha (controls legislative agenda)
-- Chief advisor to President
-- Leader of the ruling party/coalition
-
-## CTET Exam Focus
-
-- Preamble: Key words — Sovereign, Socialist, Secular, Democratic, Republic, Justice, Liberty, Equality, Fraternity
-- Fundamental Rights: Six rights, Articles 14–35, justiciable, Article 21 most important
-- Fundamental Duties: Article 51A, 10 duties, added by 86th Amendment (2002)
-- DPSP: Non-justiciable, welfare state, Article 40 (Panchayati Raj), 43 (living wage), 44 (Uniform Civil Code)
-- Parliament: Bicameral — Lok Sabha (552, direct election, 5yr) and Rajya Sabha (250, indirect election, 6yr)
-- President: Elected by electoral college, emergency powers under Article 352
-- Key Amendments: 42nd (1976 — Socialist, Secular), 73rd (Panchayati Raj), 74th (Municipalities), 86th (Fundamental Duties, Article 21A — RTE)
+- **[View this topic in your CTET roadmap](/roadmap/?exam=ctet&duration=1mo)** — see where "Indian Constitution and Political System" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ctet&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[CTET exam overview](/exams/ctet/)** — pattern, eligibility, and syllabus
+- **[All Social Studies notes](/notes/ctet/social/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

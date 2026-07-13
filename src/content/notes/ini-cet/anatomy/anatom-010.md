@@ -8,199 +8,113 @@ topicName: Embryology and Developmental Anatomy
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-07-13"
 ---
 
-# Embryology — Human Development, Organogenesis and Congenital Anomalies
+# Embryology and Developmental Anatomy
 
-## Quick Review
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
 
-Embryology is a high-yield topic in INI CET — questions frequently test knowledge of germ layer derivatives, foetal circulation, and common congenital anomalies. Focus on the derivatives of the three germ layers, the neural tube defects, and how foetal circulation differs from adult circulation.
+Embryology traces human development from **fertilisation** (ampulla of uterine tube) through the **embryonic period** (weeks 1–8) and **fetal period** (week 9–birth). Key timeline anchors for INI CET:
 
-**High-Yield Facts for INI CET:**
+- **Day 1:** zygote; **Day 3–4:** morula (~16 cells); **Day 5:** blastocyst with **embryoblast + trophoblast**; **Day 6–7:** interstitial implantation, hCG begins.
+- **Week 2:** bilaminar disc (epiblast + hypoblast), amniotic cavity, yolk sac.
+- **Week 3:** **gastrulation** via primitive streak → trilaminar disc; notochord induces **neurulation**.
+- **Day 25:** cranial neuropore closes; **Day 27:** caudal neuropore closes (failure → anencephaly / spina bifida).
 
-- Ectoderm derivatives: CNS, peripheral nervous system, epidermis, hair, nails, lens of eye, anterior pituitary, enamel of teeth
-- Mesoderm derivatives: Muscles, bones, cartilage, blood vessels, kidney, gonads
-- Endoderm derivatives: Epithelial lining of GI tract (including liver, pancreas), respiratory tract, bladder, thyroid, thymus
-- Foetal shunts: Ductus venosus (bypasses liver), foramen ovale (bypasses lungs), ductus arteriosus (bypasses lungs); all close after birth
-
-**Exam tip:** Neural tube defects (spina bifida, anencephaly) are associated with folic acid deficiency. The neural tube closes by day 28 — often before a woman knows she's pregnant. Meckel's diverticulum is a remnant of the vitelline (omphalomesenteric) duct.
-
----
-
-## Gametogenesis and Fertilisation
-
-### Spermatogenesis
-
-Occurs in seminiferous tubules of testes; takes ~74 days. Spermatogonia (2n) → primary spermatocytes (2n) → secondary spermatocytes (n) → spermatids (n) → spermatozoa (n). Sertoli cells support and nourish developing sperm; form blood-testis barrier. Leydig cells (interstitial cells) produce testosterone; stimulated by LH. Final product: 4 spermatids from 1 primary spermatocyte. Mature sperm has head (nucleus + acrosome containing hyaluronidase for oocyte penetration), neck (centrioles), midpiece (mitochondria), tail (flagellum). Testicular temperature is 2-3°C below body temperature (varicocele causes infertility — increased temperature impairs spermatogenesis).
-
-### Oogenesis
-
-Oogonia multiply in fetal life → primary oocytes (arrested in prophase I) → remain dormant until puberty. One primary oocyte completes meiosis I per menstrual cycle → secondary oocyte (arrested in metaphase II) + first polar body. Secondary oocyte completes meiosis II only if fertilised → ovum (n) + second polar body. The oocyte is ovulated as a secondary oocyte surrounded by zona pellucida (glycoproteins ZP1, ZP2, ZP3) and corona radiata (granulosa cells). Follicular atresia: Most follicles degenerate; only ~400-500 ovulated in a reproductive lifetime.
-
-### Fertilisation
-
-Occurs in the ampulla of the fallopian tube (widest part). Capacitation: Sperm gains hypermotility in the female reproductive tract (~6 hours). Acrosome reaction: Sperm penetrates corona radiata → binds zona pellucida → acrosome releases enzymes → penetrates zona. Sperm-oocyte membrane fusion → oocyte completes meiosis II → second polar body extruded → female pronucleus forms. Sperm entry triggers the cortical reaction (release of cortical granules from oocyte) → zona reaction (hardening of zona pellucida) → prevents polyspermy. Syngamy: Pronuclei fuse; zygote formed (2n); mitotic cleavage begins.
-
-### Cleavage and Implantation
-
-- Day 1: Zygote
-- Day 2: 2-cell
-- Day 3: Morula (16 cells)
-- Day 4: Blastocyst (fluid-filled cavity forms)
-- Day 5-6: Hatching from zona pellucida → implants in endometrial wall
-
-Inner cell mass (embryoblast) → embryo proper. Outer cell mass (trophoblast) → placenta. Implantation occurs in the posterior uterine wall with syncytiotrophoblast (secretes hCG) + cytotrophoblast. hCG is detected in maternal blood 8-10 days post-fertilisation; sustains corpus luteum → progesterone → prevents menstruation; basis of pregnancy tests.
+Six **pharyngeal arches** exist (1, 2, 3, 4, 6); arch 5 regresses. Placenta is **haemochorial + discoid**, endocrine from trophoblast.
 
 ---
 
-## Gastrulation and Germ Layer Formation
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-### Gastrulation (Week 3)
+#### Gametogenesis and Fertilisation
 
-Primitive streak forms on epiblast (from caudal end); Hensen's node (primitive node) at cranial end. Epiblast cells migrate through primitive streak → replace hypoblast → mesoderm and endoderm.
+**Spermatogenesis** occurs in seminiferous tubules over ~64 days and yields four functional sperm (either X or Y). **Oogenesis** arrests at metaphase II until fertilisation; only one ovum per cycle is produced, always carrying an X chromosome. Fertilisation in the **ampulla** restores the diploid 46,XY or 46,XX state and defines genetic sex. Cortical reaction blocks polyspermy.
 
-**Germ Layer Derivatives:**
+#### Week 1: Cleavage and Implantation
 
-- **Ectoderm (from epiblast):** CNS, epidermis, sensory organs, pituitary, adrenal medulla, peripheral nerves
-- **Mesoderm:** Bones, muscles, cartilage, blood vessels, kidney, gonads, spleen, adrenal cortex, dermis, meninges, pleura, pericardium, peritoneum
-- **Endoderm (from hypoblast):** Epithelial lining of GI tract and respiratory tract, liver, pancreas, thyroid, bladder, urethra, vagina, middle ear
+Cleavage is **holoblastic, unequal, and asynchronous**, generating a **morula** (≈16 cells, day 3–4) and then a **blastocyst** (day 5) containing the **inner cell mass (embryoblast, future embryo)** and **trophoblast (future placenta/membranes)**. Implantation on day 6–7 is **interstitial** in the posterior superior wall of the uterine body. The syncytiotrophoblast invades endometrium and secretes **hCG**, sustaining the corpus luteum.
 
-### Neurulation
+| Event | Day | Structure formed |
+|---|---|---|
+| Morula | 3–4 | 16-cell ball |
+| Blastocyst | 5 | Inner cell mass + trophoblast |
+| Implantation | 6–7 | Syncytiotrophoblast + hCG |
+| Bilaminar disc | 8 | Epiblast + hypoblast |
 
-Neural plate (ectoderm thickens) → neural folds → neural tube (closes at day 28 — cranial and caudal neuropores close). Neural tube → CNS (brain and spinal cord); neural crest → PNS (dorsal root ganglia, autonomic ganglia, adrenal medulla, melanocytes, meninges, craniofacial cartilage).
+#### Week 2 and Week 3: Bilaminar to Trilaminar Disc
 
-**Neural Tube Defects:**
+The **bilaminar disc** (epiblast above hypoblast) establishes the amniotic cavity, primary yolk sac, and extra-embryonic mesoderm that splits into somatic and splanchnic layers lining the **chorionic cavity**. **Gastrulation** in week 3 — through the **primitive streak** (cranial node defines the craniocaudal axis) — converts this into a **trilaminar disc** (ectoderm, mesoderm, endoderm). The **notochord** (from the node) defines the embryonic axis and induces the overlying ectoderm to thicken into the **neural plate**, which folds into the **neural tube**.
 
-- **Anencephaly:** Cranial neuropore fails to close → forebrain and calvaria absent; incompatible with life
-- **Spina bifida occulta:** Vertebral arch fails to close; skin covers; usually lumbar; minimal symptoms
-- **Myelomeningocele:** Vertebral arch + meninges + spinal cord herniate; causes lower limb paralysis, bladder/bowel dysfunction; associated with Arnold-Chiari II malformation
-- **Meningocele:** Meninges herniate but spinal cord is normal
-- **Folic acid supplementation (400 mcg/day)** before conception and during first trimester reduces neural tube defect risk by 50-70%
+> Mnemonic — **PIRE**: Proliferation, Invasion (implan**t**ation), Recognition (hCG), Embryonic disc formation.
 
----
+#### Placentation and Fetal Membranes
 
-## Pharyngeal Arches and Derivatives
-
-Six pairs of pharyngeal (branchial) arches; each has artery, cartilage, muscle, nerve.
-
-| Arch | Cartilage | Muscles | Nerve |
-|------|-----------|---------|-------|
-| 1 (Mandibular) | Malleus, incus, mandible | Muscles of mastication, mylohyoid, anterior digastric, tensor tympani, tensor veli palatini | V3 |
-| 2 (Hyoid) | Stapes, styloid process, lesser horn of hyoid | Stapedius, stylohyoid, posterior digastric, muscles of facial expression | VII |
-| 3 | Greater horn of hyoid, lower body of hyoid | Stylopharyngeus | IX |
-| 4 | Thyroid cartilage, epiglottic cartilage | Cricothyroid, pharyngeal constrictors | X (superior laryngeal) |
-| 5 | Rudimentary; disappears | — | — |
-| 6 | Laryngeal cartilages (cricoid, arytenoid, corniculate, cuneiform) | Intrinsic laryngeal (except cricothyroid) | X (recurrent laryngeal) |
-
-### Pharyngeal Pouch Derivatives
-
-- 1st pouch → middle ear cavity, Eustachian tube, mastoid air cells
-- 2nd pouch → palatine tonsils (lymphoid)
-- 3rd pouch → inferior parathyroids + thymus (migrate caudally)
-- 4th pouch → superior parathyroids
-
-**DiGeorge syndrome:** 22q11.2 deletion; failure of 3rd and 4th pouch development → thymic and parathyroid aplasia → hypocalcaemia (tetany), cardiac defects (conotruncal), T-cell deficiency (recurrent infections).
-
-### Face Development
-
-Frontonasal process (midline) → nasal placodes (form around nasal pits) → lateral and medial nasal processes. Medial nasal processes → intermaxillary segment → philtrum of upper lip, primary palate, four incisor teeth. Lateral nasal processes → alae of nose. Maxillary processes (from arch 1) → lateral upper lip, secondary palate.
-
-**Cleft lip:** Failure of fusion between medial nasal process and maxillary process (unilateral or bilateral).
-
-**Cleft palate:** Failure of fusion of palatine shelves (midline); can be anterior (primary palate) or posterior (secondary palate).
+The definitive **placenta** forms from fetal **chorion frondosum** + maternal **decidua basalis**. It is **haemochorial** (maternal blood bathes trophoblast) and **discoid** in shape. Hormones: hCG (peaks ~10 weeks), hPL, oestrogen, and progesterone (luteal–placental shift around week 8). Fetal membranes: **amnion** (inner), **chorion** (outer), **yolk sac** (early haematopoiesis), and **allantois** (urinary, contributes to urachus).
 
 ---
 
-## Gastrointestinal Tract Development
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-### Foregut (Coeliac Trunk)
+#### Pharyngeal Arch Derivatives
 
-Oesophagus → stomach (rotates 90° clockwise) → duodenum (first part + proximal second part). Liver, gallbladder, pancreas (ventral and dorsal buds). Respiratory system (laryngotracheal diverticulum — outpouching from foregut).
+Six arches exist; the fifth regresses. Each arch carries a **cartilage, muscle, nerve, and aortic arch artery**. Cartilages of arches 1 and 2 form middle-ear ossicles and the hyoid (Reichert's cartilage of arch 2 gives the stapes).
 
-### Midgut (SMA)
+| Arch | Cartilage | Key muscle | Nerve |
+|---|---|---|---|
+| 1 (Mandibular) | Meckel → malleus, incus, sphenomandibular lig. | Muscles of mastication, mylohyoid, anterior digastric, tensor tympani, tensor veli palatini | CN V (V2/V3) |
+| 2 (Hyoid) | Reichert → stapes, styloid process, lesser horn + upper body of hyoid | Muscles of facial expression, stapedius, stylohyoid, posterior digastric | CN VII |
+| 3 | Greater horn + lower body of hyoid | Stylopharyngeus | CN IX |
+| 4 | Thyroid cartilage; epiglottic cartilage | Cricothyroid, pharyngeal constrictors, levator veli palatini | CN X (superior laryngeal) |
+| 6 | Cricoid, arytenoid, corniculate | Intrinsic laryngeal muscles (except cricothyroid) | CN X (recurrent laryngeal) |
 
-Distal duodenum → jejunum → ileum → ascending colon → proximal 2/3 of transverse colon. Rotation: 270° counterclockwise around SMA axis. Vitelline (omphalomesenteric) duct connects yolk sac to midgut; if patent → Meckel's diverticulum (2ft from ileocaecal valve; contains ectopic gastric/pancreatic tissue; follows rule of 2s — 2% of population, 2ft from ileocaecal valve, 2 inches long, presents before age 2, may cause melaena, intussusception, obstruction).
+#### Aortic Arch Derivatives
 
-### Hindgut (IMA)
+- Arch 1 → maxillary artery (mostly regresses)
+- Arch 2 → stapedial + hyoid arteries (mostly regress)
+- Arch 3 → **common carotid + proximal internal carotid**
+- Arch 4 → **left** arch = aortic arch; **right** arch = proximal right subclavian
+- Arch 5 → absent
+- Arch 6 → **left** = left pulmonary artery + ductus arteriosus; **right** = proximal right pulmonary artery (distal regresses)
 
-Distal 1/3 transverse colon → descending colon → sigmoid → rectum → upper anal canal (above pectinate line). Lower anal canal (below pectinate line): Derived from proctodeum (endodermal invagination).
+> Edward's mnemonic for arch 6 derivatives: **"1st is Maximum, 2nd is Stapedial, 3rd is Carotid, 4th is systemic (aorta on left), 6th is pulmonary."**
 
----
+#### Teratology and Critical Period
 
-## Urogenital System Development
+The **critical (teratogenic) period** is weeks **3–8**, the window of organogenesis. High-yield teratogens:
 
-### Kidney Development (Three Successive)
+| Teratogen | Classic defect |
+|---|---|
+| **Alcohol** | Fetal alcohol syndrome (smooth philtrum, thin vermillion, microcephaly) |
+| **Thalidomide** | Limb reduction defects (phocomelia) |
+| **Rubella** | Cataract, PDA, sensorineural deafness |
+| **Folate antagonists** | Neural tube defects |
+| **Retinoic acid (isotretinoin)** | CNS, craniofacial, cardiac defects |
+| **ACE inhibitors** | Oligohydramnios, renal dysgenesis |
 
-1. **Pronephros:** Non-functional; degenerates
-2. **Mesonephros:** Functions temporarily; in males → efferent ductules (connect to testis); in females → degenerates
-3. **Metanephros (permanent):** Metanephric mesoderm (forms nephron) + ureteric bud (forms collecting system); ascends from pelvis to lumbar position
+#### Common INI CET Traps
 
-**Ureteric bud:** From mesonephric duct → ureter, renal pelvis, calyces, collecting ducts; causes renal dysplasia if maldevelopment.
+- Embryonic age is **post-fertilisation**; gestational (menstrual) age adds **~2 weeks**.
+- Neural tube closes **cranially first (day 25)** then **caudally (day 27)** — reversal of order is a frequent distractor.
+- hCG **peaks around week 10**, not at implantation; progesterone shifts to placental production by week 8 (the "luteal–placental shift").
+- Placenta is **haemochorial**, never endotheliochorial.
 
-### Bladder Development
+#### Practice Prompts
 
-Absorbed from urogenital sinus + mesonephric ducts (trigone from mesonephric ducts). Allantois → urachus → median umbilical ligament.
-
-### Sexual Differentiation
-
-- **Y chromosome (SRY gene)** → testes determining factor → Sertoli cells produce MIS (Anti-Müllerian Hormone) → regresses paramesonephric ducts; Leydig cells produce testosterone → Wolffian duct differentiates; testosterone → DHT → external genitalia male
-- **No SRY** → female development; no MIS → paramesonephric ducts develop; no testosterone → Wolffian regresses; oestrogen → female external genitalia
-
-**Paramesonephric (Müllerian) ducts:** Female; develop into fallopian tubes, uterus, upper 2/3 of vagina.
-
-**Mesonephric (Wolffian) ducts:** Male; develop into efferent ductules, epididymis, vas deferens, seminal vesicles, ejaculatory duct.
-
----
-
-## Congenital Anomalies
-
-- **Hypospadias:** Urethral opening on ventral penis; due to failure of urethral folds to close (most common anterior); associated with chordee
-- **Epispadias:** Urethral opening on dorsal penis; associated with bladder exstrophy
-- **Cryptorchidism:** Undescended testis; common in premature males; testis should descend by 3 months; increased risk of testicular cancer; corrected with orchidopexy
-- **Bicornuate uterus:** Failure of fusion of paramesonephric ducts → two-horned uterus; associated with recurrent pregnancy loss
-- **Horseshoe kidney:** Lower poles of kidneys fuse across midline; usually asymptomatic; associated with Turner syndrome, trisomy 18
-
----
-
-## Placenta
-
-### Structure
-
-Chorionic villi (branching) — maternal blood in intervillous space (from spiral arteries — high pressure, low resistance); fetal blood in villous capillaries. Placental barrier: Syncytiotrophoblast, cytotrophoblast, basement membrane, CT, fetal capillary endothelium — progressively thins as pregnancy progresses. Chorion frondosum (fetal) + decidua basalis (maternal) = placenta.
-
-### Functions
-
-- **Exchange:** O₂, CO₂, nutrients, waste (by diffusion, facilitated transport, active transport)
-- **Endocrine:** hCG (sustains corpus luteum until 8-10 weeks, then placenta takes over), human placental lactogen (hPL), oestrogen, progesterone
-- **Immune:** IgG crosses placenta (provides passive immunity to fetus)
-
-### Umbilical Cord
-
-2 arteries (deoxygenated fetal blood), 1 vein (oxygenated fetal blood to fetus), Wharton's jelly; inserts into placenta; normal length 40-60cm; may be single umbilical artery (associated with renal anomalies).
+1. A newborn presents with a preauricular sinus and mandibular hypoplasia. Identify the affected pharyngeal arch and explain the embryological basis for the cartilage and muscle deficits you would expect.
+2. A pregnant woman in week 4 is inadvertently given isotretinoin. List three organ systems most vulnerable during weeks 3–8 and justify why the neural tube, heart, and craniofacial structures are at peak risk.
 
 ---
 
-## Foetal Circulation
+## Continue your study
 
-### Key Differences from Adult
+- **[View this topic in your INI CET (AIIMS PG) roadmap](/roadmap/?exam=ini-cet&duration=1mo)** — see where "Embryology and Developmental Anatomy" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ini-cet&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[INI CET (AIIMS PG) exam overview](/exams/ini-cet/)** — pattern, eligibility, and syllabus
+- **[All Anatomy notes](/notes/ini-cet/anatomy/)** — browse sibling topics in this subject
 
-1. **Ductus venosus:** Shunts oxygenated blood from umbilical vein past liver → IVC; bypasses hepatic portal circulation; closes after birth → ligamentum venosum
-2. **Foramen ovale:** Hole in atrial septum → shunts blood from right to left atrium → bypasses lungs; closes after birth → fossa ovalis
-3. **Ductus arteriosus:** Connects pulmonary artery to aorta → shunts blood from right heart to systemic circulation → bypasses lungs; closes after birth → ligamentum arteriosum
-
-### At Birth
-
-- Lungs expand → pulmonary vascular resistance drops → pulmonary blood flow increases
-- Left atrial pressure > right atrial pressure → foramen ovale closes (functional closure)
-- Increased O₂ → ductus arteriosus constricts → functional closure within 24-48h
-- Umbilical vessels constrict → ductus venosus closes
-- All foetal shunts become ligaments: Ligamentum venosum, fossa ovalis, ligamentum arteriosum
-
----
-
-## Twins
-
-- **Monozygotic (identical):** Single fertilised ovum splits; share same genotype; can be dichorionic/diamniotic, monochorionic/diamniotic, or monochorionic/monoamniotic (late split — high risk)
-- **Dizygotic (fraternal):** Two ova fertilised by two sperm; different genotypes; always dichorionic/diamniotic
-- **Vanishing twin:** One embryo reabsorbs; more common with ART; may cause bleeding in first trimester
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

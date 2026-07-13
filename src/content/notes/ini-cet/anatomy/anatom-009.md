@@ -8,229 +8,92 @@ topicName: Abdomen and Pelvis Anatomy
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-07-13"
 ---
 
-# Abdomen and Pelvis — GI Organs, Peritoneum, Kidneys, Pelvic Viscera and Nerves
+# Abdomen and Pelvis Anatomy
 
-## Quick Review
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
 
-Abdominal and pelvic anatomy are frequently tested in INI CET, especially the peritoneal relations of abdominal organs, blood supply to GI organs, and the course of the ureters. Focus on the portocaval system, the three layers of the abdominal wall, and the anatomy of the pelvis.
+**Abdomen and Pelvis Anatomy** for INI CET covers the abdominal wall, peritoneal cavity, retroperitoneal viscera, pelvic walls, pelvic floor, and perineum, with neurovascular and lymphatic relations.
 
-**High-Yield Facts for INI CET:**
-
-- Peritoneum: Parietal (lines wall) vs visceral (covers organs); peritoneum forms mesenteries, omenta, and ligaments
-- Lesser sac (omental bursa): Posterior to stomach and lesser omentum; communicates with greater sac via omental (Epiploic) foramen (of Winslow)
-- Liver: Right lobe (larger), left lobe (smaller), caudate and quadrate lobes; portal triad (hepatic portal vein, hepatic artery, bile duct); supplied by hepatic artery (25%) and portal vein (75%); venous drainage by hepatic veins to IVC
-- Kidneys: Retroperitoneal; right kidney lower (liver); left kidney higher (protected by spleen); cortex + medulla (pyramids)
-
-**Exam tip:** Stomach has lesser curvature (supplied by left gastric artery) and greater curvature (supplied by short gastric and left gastro-omental artery). Pancreas: head (uncinate process touching IVC), neck, body, tail; crosses anatomical structures at L1-L2 — the "submarines" behind the stomach.
-
----
-
-## Abdominal Wall and Regions
-
-### Quadrants and Regions
-
-- 9 regions: Right hypochondrium, epigastrium, left hypochondrium; right lumbar, umbilical, left lumbar; right iliac fossa, suprapubic, left iliac fossa
-- McBurney's point: 1/3 distance from ASIS to umbilicus — marks the surface projection of the appendix
-- Costal margin: Formed by costal cartilages of ribs 7-12; contains: Right hypochondrium (liver, gallbladder, right kidney), epigastrium (stomach, pancreas, aorta), left hypochondrium (spleen, left kidney, stomach tail)
-
-### Anterior Abdominal Wall — Layers
-
-Skin → Camper's fascia (fat) → Scarpa's fascia (membranous) → external oblique aponeurosis → internal oblique → transversus abdominis → transversalis fascia → extraperitoneal fat → parietal peritoneum.
-
-### Muscles of the Anterior Abdominal Wall
-
-- **External oblique:** Fibres inferomedial ("hands in pockets"); forms inguinal ligament (Poupart's ligament) at its lower free border; also forms lacunar ligament (Gimbernat's) at medial attachment
-- **Internal oblique:** Fibres superomedial; cremaster muscle (from internal oblique) covers spermatic cord
-- **Transversus abdominis:** Deepest; transverse fibres; forms conjoint tendon medial to rectus
-
-### Rectus Sheath
-
-Formed by aponeuroses of external oblique, internal oblique, and transversus. Above the arcuate line (halfway between umbilicus and pubic symphysis): anterior wall formed by external oblique aponeurosis + half of internal oblique aponeurosis; posterior wall formed by rest of internal oblique aponeurosis + transversus aponeurosis. Below the arcuate line: all three aponeuroses go to anterior wall; posterior wall has only transversalis fascia.
-
-### Inguinal Canal
-
-Site of potential weakness; 4cm long; runs from deep (internal) inguinal ring (midpoint of inguinal ligament) to superficial (external) inguinal ring (aperture in external oblique aponeurosis). Contains: spermatic cord in males, round ligament in females; ilioinguinal nerve (C1 — emerges from superficial ring).
-
-**Direct vs Indirect Hernia:**
-- **Indirect inguinal hernia:** Lateral to inferior epigastric vessels; congenital (patent processus vaginalis); covered by all three layers
-- **Direct inguinal hernia:** Medial to inferior epigastric vessels; acquired (weakness in Hesselbach triangle); covered by transversalis fascia only
-- **Hesselbach triangle:** Medial border = lateral edge of rectus abdominis; Lateral border = inferior epigastric vessels; Inferior border = inguinal ligament
+- **Nine regions** of the abdomen: two **midclavicular** lines + two horizontal planes (transpyloric L1, transtubercular L5) yield **epigastric, umbilical, hypogastric** (each split right/left).
+- **Transpyloric plane (L1)** marks the **pylorus**, **pancreas neck**, **SMA origin**, **renal hila**, and **conus medullaris** termination.
+- **Hesselbach's triangle**: inferior epigastric vessels (lateral), rectus abdominis (medial), inguinal ligament (inferior) — site of **direct inguinal hernia**.
+- **Kidney posterior relations**: **3 muscles** (psoas major, quadratus lumborum, transversus abdominis) and **3 nerves** (subcostal, iliohypogastric, ilioinguinal).
+- **Left testicular vein drains to the left renal vein** — explains **left-sided varicocele**.
 
 ---
 
-## Peritoneum and GI Organs
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-### Peritoneum
+#### Layers and Surface Anatomy
 
-**Parietal peritoneum:** Lines abdominal and pelvic walls; sensitive to pain (somatic) — parietal peritoneal irritation causes localised, well-defined pain.
+The **anterior abdominal wall** has nine layers from skin to peritoneum: skin, **Camper's fascia** (fatty), **Scarpa's fascia** (membranous), **external oblique**, **internal oblique**, **transversus abdominis**, **rectus abdominis** (sheath), **transversalis fascia**, extraperitoneal fat, and **parietal peritoneum**. The **inguinal ligament** is the rolled-in inferior border of the external oblique aponeurosis running from **ASIS to pubic tubercle**.
 
-**Visceral peritoneum:** Covers abdominal organs; sensitive only to stretch — deep visceral pain is poorly localised, often referred to T5-L1 dermatomes.
+#### Inguinal Region
 
-### Intraperitoneal vs Retroperitoneal
+The **inguinal canal** transmits the spermatic cord (or round ligament) and ilioinguinal nerve. The **deep ring** lies lateral to the inferior epigastric vessels, deep to transversalis fascia; the **superficial ring** is a defect in the external oblique aponeurosis medial to the inferior epigastric vessels. **Indirect hernias** pass lateral to the inferior epigastric vessels (through the deep ring); **direct hernias** push through **Hesselbach's triangle**.
 
-- **Intraperitoneal:** Covered by visceral peritoneum; has mesentery connecting to posterior abdominal wall; examples: stomach, jejunum, ileum, transverse colon, sigmoid colon, liver, spleen, appendix
-- **Retroperitoneal:** Only partially covered by peritoneum (anterior surface); examples: duodenum (except first part), pancreas (except tail), ascending and descending colon, kidneys, adrenal glands, aorta, IVC
+#### Peritoneum and Lesser Sac
 
-### Peritoneal Folds
+The **lesser omentum** (hepatoduodenal + hepatogastric ligaments) carries the **portal triad** in its free edge. The **greater omentum** hangs from the greater curvature and transverse colon. **Morison's pouch** (hepatorenal recess) is the lowest peritoneal space in supine position — common site for subphrenic abscess.
 
-- **Greater omentum:** Double layer from greater curvature of stomach → drapes over transverse colon and small intestine; contains fat; has immune function (contains macrophages); surgical barrier
-- **Lesser omentum:** Connects lesser curvature of stomach and proximal duodenum to liver; contains hepatic portal triad (portal vein, hepatic artery, bile duct); divided into hepatogastric ligament + hepatoduodenal ligament (forms anterior boundary of omental foramen)
-- **Omental (Epiploic) foramen (of Winslow):** Entry to lesser sac; bounded anteriorly by hepatoduodenal ligament, posteriorly by IVC, superiorly by caudate lobe of liver, inferiorly by duodenum
+#### Vertebral Landmarks (High-Yield Table)
 
----
+| Level | Structure |
+|-------|-----------|
+| T10 | Xiphoid process, pylorus, oesophageal opening |
+| L1 | Transpyloric plane, pancreas, SMA, renal hila, conus medullaris |
+| L2 | Renal artery origin, IVC formation |
+| L4 | Aortic bifurcation into common iliacs |
+| S2–S4 | Pelvic splanchnics, pudendal nerve origin |
 
-## Stomach
+#### Portosystemic Anastomoses
 
-**Surfaces and borders:** Lesser curvature (right border) — supplied by left gastric artery; Greater curvature (left border) — supplied by short gastric + left gastro-omental artery; Anterior surface and posterior surface.
+> **Exam pearl**: four classic sites — **oesophageal** (left gastric ↔ azygos), **rectal** (superior ↔ middle/inferior), **caput medusae** (paraumbilical ↔ superficial epigastric), and **retroperitoneal** (colic ↔ renal/lumbar).
 
-**Regions:** Cardia, fundus (above oesophageal opening), body, pyloric antrum and canal.
-
-**Innervation:** Vagal trunks (parasympathetic) — anterior (left) and posterior (right) vagal trunks; sympathetics from coeliac plexus (T6-T10).
-
----
-
-## Duodenum
-
-**Four parts (C-shaped around head of pancreas):**
-
-- **D1 (superior):** Short, intraperitoneal; first part; contains entry of common bile duct and pancreatic duct (hepatopancreatic ampulla of Vater)
-- **D2 (descending):** Retroperitoneal; contains major duodenal papilla (entry of bile + pancreatic duct)
-- **D3 (horizontal):** Retroperitoneal; crosses IVC and aorta
-- **D4 (ascending):** Retroperitoneal; ascends to duodojejunal flexure; suspended by ligament of Treitz (suspensory muscle of duodenum — bands of smooth muscle + CT from right crus of diaphragm)
+The **testis drains to para-aortic nodes at L1–L2**, not inguinal nodes — a **testicular tumour** often presents with a para-aortic mass.
 
 ---
 
-## Pancreas
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-**Head** (in C-shaped curve of duodenum): Uncinate process extends behind superior mesenteric vessels.
+#### Pelvic Diaphragm and Perineum
 
-**Neck:** Anterior to portal vein; between head and body.
+The **pelvic diaphragm** comprises **levator ani** (pubococcygeus, puborectalis, iliococcygeus) and **coccygeus**, separating pelvic cavity from perineum. The **perineum** divides into the **urogenital triangle** (anterior, pierced by urethra/vagina) and **anal triangle** (posterior, pierced by anal canal). The **pudendal canal (Alcock's canal)** in the lateral wall of the ischioanal fossa carries the **pudendal nerve (S2–S4)** and internal pudendal vessels. The **perineal body** is the central tendinous node where bulbospongiosus, external sphincter, and levator ani converge.
 
-**Body:** Crosses L1; posterior to stomach; tail reaches splenic hilum.
+#### Kidney and Ureter Relations
 
-**Pancreatic duct:** Runs through tail to head → joins bile duct at hepatopancreatic ampulla (Vater's); sphincter of Oddi controls entry.
+The **right kidney sits lower** than the left due to hepatic displacement. Posteriorly, both kidneys relate to **psoas major, quadratus lumborum, and transversus abdominis** from medial to lateral, with **subcostal (T12), iliohypogastric (L1), and ilioinguinal (L1)** nerves descending in that sequence. The ureter crosses the **bifurcation of common iliac arteries** at the pelvic brim — a key landmark for stone impaction.
 
-**Exocrine function:** Digestive enzymes — trypsin, chymotrypsin, carboxypeptidase (all secreted as inactive proenzymes), amylase, lipase, nucleases.
+#### Referred Pain and Clinical Signs
 
-**Endocrine function:** Islets of Langerhans — alpha (glucagon), beta (insulin), delta (somatostatin), PP (pancreatic polypeptide).
+- **Kehr's sign**: shoulder tip pain from diaphragmatic irritation via **phrenic nerve (C3–C5)** — classic for splenic rupture.
+- **McBurney's point**: junction of lateral 1/3 and medial 2/3 of the line from **ASIS to umbilicus** — surface marker for appendiceal base.
+- **Psoas sign**: pain on hip extension in appendicitis/psoas abscess.
 
----
+#### Common Traps
 
-## Liver and Biliary System
+> Mistake: attributing caput medusae to umbilical vein flow. Correct: **recanalised paraumbilical veins** in the falciform ligament connect the left portal vein to superficial abdominal veins.
 
-### Liver Anatomy
+> Mistake: stating left and right testicular veins both drain to the IVC. Correct: the **left testicular vein drains into the left renal vein**, producing higher left-sided varicocele incidence.
 
-- **Anatomical:** Right lobe (larger), left lobe (smaller), caudate (dorsal), quadrate (ventral)
-- **Functional:** 8 segments by Couinaud classification (based on portal triad distribution)
-- **Porta hepatis:** Entry of hepatic portal vein and hepatic artery, exit of hepatic ducts; lies between caudate and quadrate lobes
+#### Practice Prompts
 
-### Gallbladder
-
-Attached to liver by cystic duct; Hartmann's pouch (constriction at neck — common site of gallstone impaction); fundus (projects beyond liver edge); body; neck.
-
-### Biliary Tree
-
-Right hepatic duct + left hepatic duct → common hepatic duct → joins cystic duct → common bile duct (CBD) → runs in lesser omentum → behind D1 → through head of pancreas → hepatopancreatic ampulla of Vater → major duodenal papilla (D2).
-
-### Portal Venous System
-
-Splenic vein + superior mesenteric vein → hepatic portal vein → liver. Portal vein supplies 75% of liver blood supply.
-
-**Portocaval anastomoses (sites where portal and systemic venous systems connect — portal hypertension leads to dilation and bleeding):**
-
-1. **Oesophageal varices:** Oesophageal veins ↔ left gastric (portal)
-2. **Rectal varices:** Superior rectal (portal) ↔ middle and inferior rectal (systemic)
-3. **Paraumbilical:** Paraumbilical veins ↔ superficial epigastric → caput medusae
-4. **Retroperitoneal:** Colic veins (portal) ↔ renal and lumbar veins (systemic)
+1. A 30-year-old man has painless left scrotal swelling. Trace the venous drainage explaining laterality, and name the lymphatic nodes first involved in testicular malignancy.
+2. List the boundaries of the lesser sac and the structures forming its anterior, posterior, and right free borders.
 
 ---
 
-## Large Intestine
+## Continue your study
 
-### Key Features
+- **[View this topic in your INI CET (AIIMS PG) roadmap](/roadmap/?exam=ini-cet&duration=1mo)** — see where "Abdomen and Pelvis Anatomy" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ini-cet&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[INI CET (AIIMS PG) exam overview](/exams/ini-cet/)** — pattern, eligibility, and syllabus
+- **[All Anatomy notes](/notes/ini-cet/anatomy/)** — browse sibling topics in this subject
 
-Taeniae coli (three longitudinal muscle bands — haustra between them), omental appendices (fatty tags).
-
-### Caecum and Appendix
-
-Caecum is intraperitoneal; ascending colon begins here; vermiform appendix attaches at posteromedial wall at McBurney's point. Appendix has mesoappendix (contains appendicular artery — branch of ileocolic artery). Different positions: retrocaecal most common, then pelvic, then subcaecal, then pre-ileal. McBurney's point = surface marking for appendicitis.
-
-### Blood Supply
-
-- **SMA (superior mesenteric artery):** Midgut derivatives — duodenum D1 to proximal 2/3 transverse colon
-- **IMA (inferior mesenteric artery):** Hindgut derivatives — distal 1/3 transverse colon to upper rectum
-
----
-
-## Kidneys
-
-### Location and Structure
-
-Retroperitoneal; T12-L3; right slightly lower (liver); left slightly higher (spleen). Each kidney ~11cm; weighs 120-170g; surrounded by perirenal fat and renal fascia (of Gerota).
-
-**Structure:**
-- **Capsule:** Smooth, fibrous; can be stripped
-- **Cortex:** Outer, contains glomeruli; extends as medullary rays into medulla
-- **Medulla:** 8-12 pyramids; each pyramid has base (cortical side) and papilla (apex pointing to minor calyx); papillae open into minor calyces → major calyces → renal pelvis → ureter
-
-### Blood Supply
-
-Renal artery (from aorta at L1-L2) → segmental arteries → interlobar → arcuate → interlobular → afferent arterioles → glomerulus → efferent arteriole → peritubular capillaries → interlobular → arcuate → renal vein → IVC.
-
-### Ureter
-
-25cm long; has three constrictions:
-1. UPJ (where renal pelvis narrows to ureter)
-2. Pelvic brim (crosses bifurcation of common iliac)
-3. UVJ (where ureter enters bladder trigone — posterolateral)
-
----
-
-## Pelvis and Pelvic Viscera
-
-### Pelvic Walls
-
-Pelvic brim divides pelvis into true (below brim) and false (above brim) pelvis. Bones: two hip bones (ilium, ischium, pubis), sacrum, coccyx.
-
-**Pelvic floor:** Pelvic diaphragm — levator ani (pubococcygeus, iliococcygeus, puborectalis) + coccygeus; supports pelvic organs; has urogenital hiatus (urethra in both, vagina in females, rectum).
-
-### Male Pelvic Organs
-
-**Urinary Bladder:** Extraperitoneal; stores urine; capacity ~500mL; trigone (smooth triangle between ureteric orifices and internal urethral orifice) — common site of infection.
-
-**Prostate:** Below bladder; surrounds prostatic urethra. Contains ejaculatory ducts (from seminal vesicles and vas deferens) which open into prostatic urethra at verumontanum.
-
-- **BPH:** Causes urinary frequency, nocturia, hesitancy, weak stream; arises from transitional zone (periurethral); treated with 5-alpha reductase inhibitors (finasteride), alpha blockers (tamsulosin), surgery (TURP)
-- **Prostate cancer:** Arises from peripheral zone (70%); PSA, digital rectal examination (DRE), transrectal ultrasound (TRUS), biopsy; spreads to bone (osteoblastic secondaries)
-
-### Female Pelvic Organs
-
-**Uterus:** Retroverted and anteflexed (normal); supported by broad ligament, round ligament, cardinal ligament, uterosacral ligaments.
-
-**Parts:** Fundus (above cornua), body, isthmus, cervix.
-
-**Layers:** Perimetrium (serosa), myometrium (thick smooth muscle — contracts during labour), endometrium (functional and basal layers — menstruates if no implantation).
-
-**Hysterectomy types:** Total (cervix removed), subtotal (cervix left), radical (parametrium removed).
-
-**Ovaries:** Intraperitoneal; attached to uterus by ovarian ligament, to pelvic wall by suspensory ligament (contains ovarian vessels). Blood supply: Ovarian artery (from aorta at L2); ovarian vein → IVC (right) and left renal vein (left).
-
-**Vagina:** 8cm; connections: Cervix above, vestibular glands laterally; fornices (anterior, posterior, lateral); contains vaginal flora (Lactobacillus — produces lactic acid → pH 4); no glands — mucus from cervical glands.
-
----
-
-## Suprarenal Glands
-
-Retroperitoneal; right triangular (pyramidal) on right kidney; left crescentic on left kidney.
-
-**Cortex (from mesoderm):**
-- Zona glomerulosa: Mineralocorticoids — aldosterone
-- Zona fasciculata: Glucocorticoids — cortisol
-- Zona reticularis: Androgens
-
-**Medulla (from ectoderm):** Chromaffin cells; secretes adrenaline and noradrenaline; innervated by sympathetic preganglionic fibres (splanchnic nerve).
-
-**Blood supply:** Superior suprarenal (from inferior phrenic), middle suprarenal (from aorta), inferior suprarenal (from renal artery).
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

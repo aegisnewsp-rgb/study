@@ -8,148 +8,103 @@ topicName: "Karnataka Geography: Physical Features, Divisions, Rivers, and Clima
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-07-13"
 ---
 
 # Karnataka Geography: Physical Features, Divisions, Rivers, and Climate
 
-## Introduction
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your KAS Prelims.
 
-Karnataka, situated in the southwestern region of India, spans an area of approximately 1,91,791 sq km — making it the **eighth largest state** by area. It lies between 11°5'N and 18°45'N latitude and 74°E and 78°5'E longitude. The state is bounded by Maharashtra and Goa to the north, Andhra Pradesh to the east, Tamil Nadu to the southeast, Kerala to the south, and the Arabian Sea to the west. The state's diversity in physical features ranges from the towering Western Ghats to the flat Deccan plateau and the coastal lowlands.
+Karnataka lies between **11°31′N–18°14′N** and **74°55′E–78°35′E**, covering ~**1,91,791 sq km** with a ~320 km Arabian Sea coastline. Three physiographic units run across the state: the **Malnad** (Western Ghats / Sahyadri, evergreen, heavy rainfall), the **Maidan / Bayaluseeme** (Deccan plateau, semi-arid), and the **Coastal belt** (laterite). Two drainage systems dominate — the **Krishna–Tungabhadra–Bhima** system draining east to the Bay of Bengal, and the **Cauvery** with Hemavati, Kabini, Shimsha tributaries; the **Nethravati, Kali, Sharavathi, Bedti** drain west to the Arabian Sea.
 
-## Physical Divisions of Karnataka
+> **Top scoring facts:** Mullayanagiri (1,925 m) is the highest peak; Jog Falls on Sharavathi (~253 m) is India's tallest plunge waterfall; Agumbe (~4,000 mm) is the "Cherrapunji of South India"; KRS Dam sits on the Cauvery.
 
-Karnataka can be divided into **four major physiographic divisions**:
+| Item | Value |
+|---|---|
+| Highest peak | Mullayanagiri, Chikkamagaluru (1,925 m) |
+| Wettest place | Agumbe / Hulikal (~4,000 mm) |
+| Driest belt | North-east Maidan — Bijapur, Raichur (<600 mm) |
+| Tallest waterfall | Jog Falls (Gerosoppa), Sharavathi (~253 m) |
 
-### 1. The Coastal Plain (Kanara Coastal Region)
+---
 
-- Also known as the **Malenadu** (land of forests and rain)
-- Stretches along the Arabian Sea for about 320 km
-- Comprises the districts of **Dakshina Kannada, Udupi, and Uttara Kannada**
-- Maximum width of 65 km near Mangalore
-- Characterized by **sand dunes, lagoons, backwaters, and creeks**
-- Key ports: **Mangalore (New Mangalore Port)**, Malpe, Bhatkal
-- The Netravati and Swarna rivers flow through this region
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for KAS Prelims & Mains — physical setting, rivers, climate, soils.
 
-### 2. The Western Ghats (Sahyadri Range)
+#### Physiographic Divisions
 
-- Running parallel to the coast, roughly 80–120 km inland
-- Average elevation: **600–900 metres**; highest peak: **Mullayanagiri (1,930 m)** in Chikkamagaluru district
-- Known as the **"Ghost of the Mountains"** in local folklore
-- Forms a natural barrier causing **orographic rainfall**
-- Rich biodiversity — part of the **Western Ghats biodiversity hotspot** (UNESCO World Heritage Site)
-- Major passes: **Sampige, Ambutirtha, and Konkan**
-- Important hill stations: **Kodagu (Coorg), Chikkamagaluru, Mangalore**
+Karnataka's terrain is conventionally split into three east-west belts. The **Malnad** (~40 km wide strip on the Ghats crest) has elevation 600–1,900 m, laterite soil, dense evergreen and shola forests, and hosts coffee, tea, cardamom, and pepper estates. The **Maidan** (Bayaluseeme) lies east of the Ghats on the Deccan Plateau at 300–900 m, characterised by rolling peneplains, red sandy soils in the south and black regur in the north. The **Coastal strip** (~320 km long, 50–80 km wide) is a narrow lateritic plain supporting coconut, areca, and fisheries.
 
-### 3. The Central Plateau (Malnadu)
+> **KAS trap:** The Deccan Plateau is *not* synonymous with Maidan — the Malnad (Ghats) is the western edge of the plateau; both together form Karnataka's share of the larger Deccan.
 
-- The **core of the Deccan Plateau** lies in central Karnataka
-- Comprises districts like **Hassan, Chikkamagaluru, Shivamogga, Davanagere**
-- Undulating terrain with granite hills and laterite plateaus
-- Key rivers: Tungabhadra, Kaveri, Hemavathi
-- Coffee plantations extensively cultivated here — **Chikkamagaluru is the birthplace of coffee in India** (1847)
+#### River Systems and Direction
 
-### 4. The Eastern Plains (Bayaluseeme)
+| System | Rivers / Tributaries | Drainage direction | Mouth |
+|---|---|---|---|
+| Krishna basin | Krishna, Tungabhadra, Bhima, Ghataprabha, Malprabha | East | Bay of Bengal |
+| Cauvery basin | Cauvery, Hemavati, Kabini, Shimsha, Arkavathy | East | Bay of Bengal |
+| West-flowing | Nethravati, Gurupura, Kali, Bedti, Aghanashini, Sharavathi, Zuari | West | Arabian Sea |
 
-- The **dry, flat plateau region** extending into the northeastern part
-- Comprises districts: **Kalaburagi, Yadgir, Raichur, Koppal, Bellary (Ballari)**
-- Average elevation: **300–600 metres**
-- Characterized by **black cotton soil (vertisols)** — highly suitable for cotton, jowar, sunflower
-- Semi-arid climate with scanty rainfall
-- The **Krishna and Tungabhadra rivers** are major lifelines here
+> **Trick PYQ:** Tungabhadra is a tributary of **Krishna**, not Godavari. Sharavathi (west-flowing) drops at **Jog Falls** — do not confuse with Shivanasamudra on the Cauvery.
 
-## Major Rivers of Karnataka
+#### Climate
 
-Karnataka is drained by several rivers belonging to the **Krishna, Kaveri, and West-flowing river systems**.
+Karnataka has a **tropical monsoon** climate — **Köppen Aw** over the Maidan and **Am** along Malnad and coast. The **south-west monsoon (June–September)** delivers ~75% of annual rainfall, blocked by the Sahyadri to create a sharp **rain-shadow** over north-eastern districts. The **north-east monsoon (October–December)** is critical for the south-interior (Mysuru, Mandya) and the coast. Four recognised seasons: winter (Jan–Feb), summer (Mar–May), SW monsoon (Jun–Sep), NE monsoon (Oct–Dec).
 
-### Krishna River System
+> **High-yield pairing:** Agumbe (~4,000 mm) and Hulikal face the monsoon first; Raichur–Bijapur lie in the rain-shadow (<600 mm). The rainfall gradient exceeds 7× across the state.
 
-| River | Origin | Key Dam | Notable Fact |
-|-------|--------|---------|--------------|
-| Krishna | Mahabaleshwar (Maharashtra) | Almatti Dam (largest in Karnataka) | Flows through 11 districts |
-| Tungabhadra | Varaha (Western Ghats) | Tungabhadra Dam, Hospet | Joint project with Andhra Pradesh |
-| Bhima |Bhima peaks, Maharashtra | Bhima Dam, Yadgir | Inter-state river with major irrigation projects |
-| Koyna | Western Ghats | Koyna Dam (Maharashtra border) | Known for Koyna Wildlife Sanctuary |
+#### Soils, Dams, and Districts
 
-**Almatti Dam** on the Krishna River is the largest hydroelectric project in Karnataka with a capacity of 290 MW. The **Upper Krishna Project** involves the Almatti, Narayanpur, and Bijapur dam complexes.
+Red soils dominate the southern Maidan, **black regur** the north (Bijapur, Belagami, Kalaburagi), **laterite** the Malnad and coast, and **alluvial** ribbons the river valleys. Key dams: **KRS** (Cauvery, Mysuru), **Tungabhadra** (Hosapete), **Linganamakki** (Sharavathi), **Almatti** (Krishna), **Supa** (Kali). After 2022 reorganisation the state has **31 districts** under four revenue divisions — Bengaluru, Mysuru, Belagavi, Kalaburagi (older KAS papers still cite 30).
 
-### Kaveri River System
+---
 
-- **River Kaveri (Cauvery)**: Originates at **Talacauvery in Coorg (Kodagu district)** — a sacred pilgrimage site
-- Flows through **Chikkamagaluru, Hassan, Mandya, Mysore, Tiruchirapalli (Tamil Nadu)**
-- Known as the **"Ganga of the South"**
-- Major tributaries: Hemavathi, Lakshmanathirtha, Kabini, Shimsha
-- **KRS (Krishnarajasagara) Dam** built at Kannambadi (Mandya) — built in 1924 under the leadership of Sir M. Visvesvaraya
-- **Raft racing** is popular in Kodagu's Kaveri tributaries during monsoons
-- water-sharing dispute with Tamil Nadu — governed by **Kaveri Water Disputes Tribunal (1956)**
+### 🔴 Extended — Deep Study (3mo+)
+> Mastery content — edge cases, mechanisms, inter-linkages, exam craft.
 
-### West-Flowing Rivers (Into Arabian Sea)
+#### Climate Mechanisms and Rainfall Variability
 
-- **Netravati**: Flows through Mangalore; participates in the port city's irrigation
-- **Sharavathi**: Originates near Ambuthirtha; forms the **Jog Falls (Kunchika Falls)** — 830 ft, 2nd highest waterfall in India after Nohsngith in Meghalaya
-- **Kundapur**: Coastal river in Udupi district
-- **Mahi**: Minor river in Dakshina Kannada
+The **rain-shadow effect** is the single most-tested climatic mechanism in KAS. Moist SW monsoon winds rise against the Sahyadri scarp, releasing heavy orographic rain on Agumbe, Hulikal, Talakaveri, and Bisle; descending dry **foehn-like westerlies** then warm adiabatically, stripping moisture from the Maidan. Quantify annual variability using:
 
-### East-Flowing Rivers (Into Bay of Bengal)
+#### Rainfall Variability Index (%) = (σ of annual rainfall ÷ mean annual rainfall) × 100
 
-- Penna, Papagni, and Pinder rivers flow into Andhra Pradesh
-- Contribute to inter-state river water sharing
+North-eastern districts show CV > 35% (drought-prone, covered under PMFDR), whereas Malnad shows CV < 15% (assured rainfall belt). Inter-annual variability drives the state's recurring **drought declarations** in Bijapur, Raichur, Yadgir, and Kalaburagi — a frequent Mains GS-III link to Disaster Management.
 
-## Climate of Karnataka
+> **Mains linkage:** Climate variability feeds directly into questions on **agricultural distress, tank irrigation, and crop insurance (PMFBY)** in KAS Mains GS-III.
 
-Karnataka exhibits **three distinct climatic zones**:
+#### Adjacent Topic Connections
 
-### 1. Coastal Climate (Hot and Humid)
+- **Western Ghats → Environment & Biodiversity:** A UNESCO World Heritage Site and one of eight "hottest hotspots"; supports 5,000+ angiosperm species and endemic fauna (lion-tailed macaque, Nilgiri tahr).
+- **Rivers → Economy:** Cauvery irrigation sustains Mandya, Mysuru sugarcane and paddy; Tungabhadra–Krishna supports the north's jowar–cotton–tobacco belt.
+- **Coast → Trade & Ports:** New Mangalore Port handles iron-ore exports from Kudremukh; Karwar is a naval base.
 
-- **Temperature**: 22°C–34°C year-round
-- **Rainfall**: 3,000–4,000 mm per year (heavy monsoonal)
-- Active from June to September (Southwest Monsoon)
-- **Tropical evergreen forests** dominate
-- Mangalore records some of the highest humidity in India
+#### Common Examiner Traps
 
-### 2. Ghat Region (Cold and Wet)
+| Mistake | Correction |
+|---|---|
+| Jog Falls is on the Cauvery | Jog Falls is on **Sharavathi** (west-flowing) |
+| Mullayanagiri = 1,950 m | Correct: **1,925 m** in Baba Budan hills |
+| Agumbe is India's wettest | Among South India's wettest; India's peak is Mawsynram (Meghalaya) |
+| Tungabhadra → Godavari | Tributary of **Krishna** |
+| Karnataka has 27 districts | Currently **31 districts / 4 divisions** post-2022 |
 
-- **Temperature**: 15°C–28°C (coolest part of Karnataka)
-- **Rainfall**: 2,500–5,000 mm (highly orographic)
-- Kodagu, Chikkamagaluru, and parts of Shivamogga district
-- Snowfall occasionally in higher peaks of Kuduremukha and Mullayanagiri
-- Major **coffee-growing belt** due to moderate temperatures and adequate rainfall
+#### Worked Micro-Example
 
-### 3. Interior Plateau (Hot and Dry)
+A KAS Prelims item may ask: "Which river system drains the Malnad towards the west?" Apply: Ghats crest → short, swift, west-flowing rivers draining into the Arabian Sea (Nethravati, Kali, Sharavathi). Eastern Maidan rivers (Tungabhadra, Bhima) are longer, gentler, and join the Krishna or Cauvery.
 
-- **Temperature**: 18°C–40°C (extreme summer heat)
-- **Rainfall**: 500–900 mm (scanty and uncertain)
-- Semi-arid conditions prevail
-- North Karnataka districts (Kalaburagi, Yadgir, Koppal) face **drought conditions** frequently
-- **Dryland farming** predominates — jowar, bajra, cotton, sunflower
+#### Practice prompts:
+1. Explain the physiographic basis for the rainfall gradient between Agumbe and Raichur, citing the rain-shadow mechanism and the SW monsoon trajectory.
+2. Distinguish, with district-level examples, the soil–crop–climate correlation across Malnad, south Maidan, and north Maidan.
 
-## Monsoon Pattern
+---
 
-- **Southwest Monsoon (June–September)**: Primary rainfall contributor, accounting for ~80% of annual rainfall
-- **Northeast Monsoon (October–November)**: Secondary rainfall, important for Rabi crops
-- **Retreating monsoon** brings light rainfall to coastal and southern interior during October
+## Continue your study
 
-## Soils of Karnataka
+- **[View this topic in your KPSC KAS roadmap](/roadmap/?exam=kpsc&duration=1mo)** — see where "Karnataka Geography: Physical Features, Divisions, Rivers, and Climate" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=kpsc&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[KPSC KAS exam overview](/exams/kpsc/)** — pattern, eligibility, and syllabus
+- **[All Karnataka-Specific notes](/notes/kpsc/karnataka-specific/)** — browse sibling topics in this subject
 
-| Soil Type | Region | Crops Grown |
-|-----------|--------|------------|
-| Black Cotton Soil (Vertisols) | North Karnataka (Kalaburagi, Yadgir, Bellary) | Cotton, jowar, sunflower |
-| Red Loamy Soil | Southern and Eastern Karnataka | Ragi, rice, sugarcane |
-| Laterite Soil | Western Ghats and Malnadu | Coffee, rubber, spices |
-| Sandy Loam | Coastal region | Cashew, coconut, arecanut |
-| Alluvial Soil | River valleys (Krishna, Kaveri, Tungabhadra) | Paddy, sugarcane, vegetables |
-
-## Important Facts for KPSC KAS Exam
-
-- Karnataka contributes **approximately 75% of India's coffee production** (Arabica and Robusta varieties)
-- The state has **10 agro-climatic zones** — among the most diverse in India
-- **Mullayanagiri** (1,930 m) is the highest peak in Karnataka and the entire Western Ghats south of the Himalayas
-- **Jog Falls** (Sharavathi River) is the 2nd highest waterfall in India after Nohsngith
-- **Kuduremukha** is a UNESCO World Heritage site within the Western Ghats
-- Karnataka receives average annual rainfall of **1,248 mm**
-- The **causality ratio** of the Krishna River basin is 1:5.7 (runoff vs. precipitation)
-- **Mysore** sits in the thermally quiet zone and is relatively earthquake-free
-
-## Conclusion
-
-Karnataka's geography is a remarkable blend of mountains, plateaus, coasts, and river valleys. Understanding its physical divisions and river systems is crucial for comprehending the state's agriculture, climate, and socioeconomic patterns. For the KPSC KAS exam, focus on identifying districts associated with each physiographic division, major dams and rivers, rainfall distribution patterns, and the agricultural implications of each soil type.
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

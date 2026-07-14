@@ -345,7 +345,8 @@ echo "$SAMEAS" | grep -qE 'twitter\.com/studyroadmap|linkedin\.com/company/study
 # ─────────────────────────────────────────────────────────────────────
 [ -s "$TMP/ads.txt" ] && score "ads.txt-present" "1" "100" "ads.txt exists" || score "ads.txt-present" "1" "0" "ads.txt empty/missing"
 grep -qE '^google\.com,\s*pub-[0-9]+,\s*DIRECT' "$TMP/ads.txt" && score "ads.txt-pub-id" "2" "100" "pub-id populated" || score "ads.txt-pub-id" "2" "0" "pub-id placeholder (user must apply + supply)"
-grep -qE 'googletagmanager\.com|googlesyndication\.com' "$TMP/home.html" && score "ads.adsense-loader" "1" "100" "AdSense script loaded" || score "ads.adsense-loader" "1" "0" "AdSense script not present (depends on approval)"
+# Real AdSense unit loader (not GA4 gtag). Expected 0 until user supplies pub-ID + snippet.
+grep -qE 'pagead2\.googlesyndication\.com/pagead/js/adsbygoogle|adsbygoogle\.js|ca-pub-[0-9]+' "$TMP/home.html" && score "ads.adsense-loader" "1" "100" "AdSense script loaded" || score "ads.adsense-loader" "1" "0" "AdSense script not present (depends on approval)"
 
 # ─────────────────────────────────────────────────────────────────────
 # 14. SOFT 404 / REDIRECT QUALITY (weight 3)

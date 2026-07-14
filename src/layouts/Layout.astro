@@ -187,64 +187,6 @@ const currentYear = new Date().getFullYear();
             }
         })} />
 
-        <!-- BreadcrumbList Structured Data -->
-        {breadcrumbs.length > 0 && (
-            <script type="application/ld+json" set:html={JSON.stringify({
-                "@context": "https://schema.org",
-                "@type": "BreadcrumbList",
-                "itemListElement": breadcrumbs.map((b, i) => ({
-                    "@type": "ListItem",
-                    "position": i + 1,
-                    "name": b.name,
-                    "item": b.url,
-                })),
-            })} />
-        )}
-
-        <!-- FAQPage Structured Data -->
-        {faqs.length > 0 && (
-            <script type="application/ld+json" set:html={JSON.stringify({
-                "@context": "https://schema.org",
-                "@type": "FAQPage",
-                "mainEntity": faqs.map(f => ({
-                    "@type": "Question",
-                    "name": f.question,
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": f.answer,
-                    },
-                })),
-            })} />
-        )}
-
-        <!-- Person Schema for E-E-A-T -->
-        {author && (
-            <script type="application/ld+json" set:html={JSON.stringify({
-                "@context": "https://schema.org",
-                "@type": "Person",
-                "name": author.name,
-                "jobTitle": author.jobTitle,
-                "affiliation": author.affiliation ? { "@type": "Organization", "name": author.affiliation } : undefined,
-                "url": author.url,
-            })} />
-        )}
-
-        <!-- HowTo Structured Data -->
-        {howToSteps.length > 0 && (
-            <script type="application/ld+json" set:html={JSON.stringify({
-                "@context": "https://schema.org",
-                "@type": "HowTo",
-                "name": title,
-                "description": description,
-                "step": howToSteps.map((s, i) => ({
-                    "@type": "HowToStep",
-                    "position": i + 1,
-                    "name": s.name,
-                    "text": s.text,
-                })),
-            })} />
-        )}
-
         <!-- Dark mode: prevent FOUC -->
         <script is:inline>
             (function () {
@@ -256,12 +198,10 @@ const currentYear = new Date().getFullYear();
             })();
         </script>
 
-        <!-- Web Vitals observer removed: the prior inline script never sent
-             anything (the sendBeacon call was commented out), so it was ~1.7KB
-             of dead code in <head> on every page — enough to push the LCP <h1>
-             and #main-content past the 14KB first-paint budget. Re-add behind a
-             real beacon endpoint, deferred (not inline in <head>), if RUM is
-             ever actually wanted. -->
+        <!-- Large page-specific JSON-LD (FAQ/HowTo/Person/Breadcrumb) is rendered
+             at end of <body> so #main-content + LCP <h1> stay inside the first
+             14KB first-paint budget (AdSense/CWV scorecard). WebSite + Organization
+             stay in <head> (small, used for sitelinks). -->
     </head>
 
     <body class="min-h-screen flex flex-col bg-white dark:bg-surface-950 text-surface-900 dark:text-surface-100 transition-colors duration-200">
@@ -307,5 +247,57 @@ const currentYear = new Date().getFullYear();
                 });
             })();
         </script>
+
+        <!-- Deferred structured data (moved from <head> for first-14KB LCP budget) -->
+        {breadcrumbs.length > 0 && (
+            <script type="application/ld+json" set:html={JSON.stringify({
+                "@context": "https://schema.org",
+                "@type": "BreadcrumbList",
+                "itemListElement": breadcrumbs.map((b, i) => ({
+                    "@type": "ListItem",
+                    "position": i + 1,
+                    "name": b.name,
+                    "item": b.url,
+                })),
+            })} />
+        )}
+        {faqs.length > 0 && (
+            <script type="application/ld+json" set:html={JSON.stringify({
+                "@context": "https://schema.org",
+                "@type": "FAQPage",
+                "mainEntity": faqs.map(f => ({
+                    "@type": "Question",
+                    "name": f.question,
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": f.answer,
+                    },
+                })),
+            })} />
+        )}
+        {author && (
+            <script type="application/ld+json" set:html={JSON.stringify({
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": author.name,
+                "jobTitle": author.jobTitle,
+                "affiliation": author.affiliation ? { "@type": "Organization", "name": author.affiliation } : undefined,
+                "url": author.url,
+            })} />
+        )}
+        {howToSteps.length > 0 && (
+            <script type="application/ld+json" set:html={JSON.stringify({
+                "@context": "https://schema.org",
+                "@type": "HowTo",
+                "name": title,
+                "description": description,
+                "step": howToSteps.map((s, i) => ({
+                    "@type": "HowToStep",
+                    "position": i + 1,
+                    "name": s.name,
+                    "text": s.text,
+                })),
+            })} />
+        )}
     </body>
 </html>

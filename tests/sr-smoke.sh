@@ -74,11 +74,12 @@ for r in "${ALL[@]}"; do
     esac
   fi
 
-  # No tracker (Plausible / GA / GTM) — privacy/terms are allowed to *mention* by name
+  # Unexpected trackers only. GA4 (G-XPWXLW8J3R via gtag.js) is intentional and
+  # disclosed on /privacy/. Flag Plausible leftovers, raw GTM container, FB Pixel, Hotjar.
   case "$r" in
     /privacy/|/terms/) : ;;
     *)
-      if grep -qE 'plausible\.io/api/event|googletagmanager\.com/gtm\.js|google-analytics\.com|gtag\(' /tmp/sr-smoke.html; then
+      if grep -qE 'plausible\.io/api/event|googletagmanager\.com/gtm\.js|connect\.facebook\.net|static\.hotjar\.com|clarity\.ms' /tmp/sr-smoke.html; then
         FAILS+=("tracker-leak $url")
       fi
       ;;

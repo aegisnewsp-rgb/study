@@ -8,109 +8,97 @@ topicName: Electrophilic Addition Reactions to Alkenes
 weight: 3
 country: southafrica
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-07-14"
 ---
 
-## Electrophilic Addition Reactions to Alkenes
+# Electrophilic Addition Reactions to Alkenes
 
-Alkenes are electron-rich due to the π-bond, making them susceptible to attack by electrophiles (electron-deficient species). Electrophilic addition is one of the most important reaction classes in organic chemistry, underpinning many drug synthesis routes and metabolic transformations. The SAPC exam frequently tests regioselectivity (Markovnikov vs. anti-Markovnikov) and stereoselectivity (syn vs. anti addition).
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
 
-### General Mechanism
+Alkenes contain a **π bond** of loosely-held electrons that attracts an **electrophile (E⁺)**. The electrophile attacks the π bond, breaking it and leaving the alkene with a positive charge on one carbon — the **carbocation intermediate**. A nucleophile (Nu⁻) then captures the cation, so the C=C becomes a C–C single bond with two new **σ bonds** (e.g., H–X, X–X, H–OH, H–OSO₃H).
 
-Step 1: The π-electrons of the alkene attack the electrophile (E⁺), forming a cyclic **bromonium ion** (halogenation) or a **carbocation** (other additions). This is the rate-determining step.
+- **Markovnikov's rule:** H adds to the carbon of the C=C that already carries more H atoms; the X (or OH) goes to the more substituted carbon, because that gives the **more stable carbocation** (3° > 2° > 1° > methyl).
+- **Br₂** adds **anti** (trans) via a cyclic **bromonium ion**.
+- **HBr + peroxides (ROOR, hν)** gives the **anti-Markovnikov** product (Kharasch free-radical effect). HCl and HI do **not** show this switch.
 
-Step 2: The nucleophile attacks the more substituted carbon of the intermediate (carbocation), opening the ring in the case of halonium ions.
+> Exam tip: For SAPC Paper 2, mechanism arrows + carbocation + final product = 3–4 marks.
 
-### Addition of Halogens (Halogenation)
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-**Br₂ and Cl₂ add across the C=C bond in **anti** fashion.
+#### The Two-Step Mechanism
 
-**Mechanism:**
-1. Br₂ approaches the π-bond → **bromonium ion** forms (3-membered ring with Br⁺)
-2. Br⁻ attacks from the **back side** (anti to the bromonium) — anti addition results
+Step 1 — the π electrons of the alkene attack the electrophile, forming the **more substituted carbocation** (Markovnikov regiochemistry). Step 2 — a nucleophile attacks the planar cation from either face, delivering the second substituent. The rate law is **second-order overall**:
 
-**Stereochemical Outcome:**
-- In cycloalkenes, anti addition gives **trans products** (one axial, one equatorial in chair cyclohexane)
-- Anti addition is diagnostic for bromonium ion intermediate — you can prove the mechanism by observing stereochemistry
+> Rate = k[alkene][E–X]   (units: M⁻¹ s⁻¹)
 
-**Test for Alkenes:** Br₂ in CCl₄ (brown/red colour) decolourizes as Br₂ adds — used as a qualitative test for unsaturation.
+#### Reagents and Products
 
-### Addition of Hydrogen Halides (HX)
+| Reagent | Conditions | Regiochemistry | Stereochemistry |
+|---|---|---|---|
+| HX (HCl, HBr, HI) | Anhydrous, no peroxides | Markovnikov | Not stereospecific |
+| HBr | ROOR or hν | Anti-Markovnikov | Not stereospecific |
+| X₂ (Br₂, Cl₂) | Inert solvent (CCl₄) | Symmetric | **Anti** (trans) via bromonium ion |
+| H₂O / H₂SO₄ | Aqueous acid | Markovnikov | Not stereospecific |
+| Cold dilute KMnO₄ | Aqueous, 0–5 °C | Symmetric | **Syn** (cis) diol |
+| Hg(OAc)₂ / NaBH₄ | THF/H₂O then NaBH₄ | Markovnikov (no rearrangement) | Anti oxy → net Markovnikov OH |
 
-**Regioselectivity — Markovnikov's Rule:** The hydrogen adds to the **less substituted** carbon, and the halogen adds to the **more substituted** carbon.
+#### Why Markovnikov Works
 
-**Rationale:** The intermediate is a **carbocation** — more substituted carbocations are more stable, so the electrophile adds to form the most stable carbocation possible.
+Carbocation stability follows the order **tertiary > secondary > primary**, driven by hyperconjugation and the +I inductive donation of alkyl groups. Adding H first to the *less*-substituted carbon leaves the positive charge on the *more*-substituted carbon — the lower-energy pathway.
 
-**Carbocation Rearrangements:** If a more stable carbocation can form via hydride or methyl shift, rearrangement occurs and the major product reflects the rearranged carbocation.
+#### Predicting the Product
 
-**Anti-Markovnikov Addition:** Occurs in the presence of **peroxides** (radical mechanism). Hydrogen adds to the more substituted carbon (opposite of Markovnikov's rule). Only works with HBr; HBr peroxides do not apply to HCl or HI.
+1. Identify the alkene symmetry (symmetrical vs unsymmetrical).
+2. Apply Markovnikov unless HBr + peroxide is specified.
+3. Check whether a **1,2-hydride or methyl shift** gives a more stable cation.
+4. Match stereochemistry: Br₂ → anti; cold KMnO₄ → syn.
 
-### Addition of Water (Hydration)
+> Common trap: HBr + ROOR reverses regiochemistry, but **HCl and HI do not** because the H–X bond is too strong for the radical chain to propagate (H–Cl ≈ 431 kJ mol⁻¹; H–Br ≈ 366 kJ mol⁻¹; H–I ≈ 298 kJ mol⁻¹).
 
-**Acid-catalyzed hydration:** H₂O adds across the double bond following Markovnikov's rule (H to less substituted carbon, OH to more substituted).
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-**Mechanism:** H⁺ from acid protonates the alkene → carbocation → water attacks → deprotonation to give alcohol.
+#### Edge Cases and Rearrangements
 
-**Oxymercuration-Reduction (Markovnikov, no rearrangement):** Hg(OAc)₂ + H₂O adds OH Markovnikov without carbocation rearrangement. The subsequent NaBH₄ reduction replaces Hg with H. This is the laboratory method for Markovnikov addition without side reactions.
+When HX adds to an alkene where the *initial* carbocation is 2° (or 1°) but a neighbouring carbon is 3°, a **1,2-hydride shift** (or 1,2-methyl shift) converts it into the more stable cation **before** the nucleophile attacks. The product therefore reflects the rearranged skeleton, not the textbook Markovnikov placement. Example: 3,3-dimethylbut-1-ene + HCl gives largely 2-chloro-2,3-dimethylbutane after a methyl shift, not the "expected" 2-chloro-3,3-dimethylbutane.
 
-**Hydroboration-Oxidation (Anti-Markovnikov):** BH₃ (borane) adds syn and anti-Markovnikov; H₂O₂/NaOH oxidation replaces B with OH → **syn addition, anti-Markovnikov**. Stereospecific: adds OH syn (both to same face).
+#### Stereochemistry Nuance
 
-### Addition of Sulfuric Acid (H₂SO₄)
+The **bromonium ion** is a three-membered ring with a formal +1 charge; backside nucleophilic attack forces Br atoms onto opposite faces — hence **anti addition**. In contrast, **cold KMnO₄** and **OsO₄** form a cyclic manganate/osmate ester that delivers both oxygens to the **same face** — **syn addition**, giving a *cis*-vicinal diol.
 
-Concentrated H₂SO₄ adds to alkenes Markovnikov-wise to give alkyl hydrogen sulfates. The product is water-soluble and can be hydrolyzed back to the alcohol. This reaction is the basis for separating alkenes from hydrocarbon mixtures.
+#### Energetics
 
-### Oxidation Reactions
+The overall enthalpy change is approximately the **π bond energy minus the two new σ bonds formed**:
 
-**Syn Addition of Dihalogens (Br₂, Cl₂):** Anti addition across C=C, giving vicinal dihalides. Cyclohexene + Br₂ → trans-1,2-dibromocyclohexane.
+> ΔH_addition ≈ −(π − 2σ) kJ mol⁻¹
 
-**Epoxidation (Peracid):** Epoxides form by syn addition of oxygen — peracids (RCOOOH) transfer oxygen to the π-bond. This is **syn** addition (both C-O bonds form on the same face).
+Combined with ΔG = ΔH − TΔS, the reaction is exergonic at room temperature because two particles become one (negative ΔS), but the strongly negative ΔH dominates.
 
-**Dihydroxylation — Syn Addition of Two OH Groups:**
+#### Connections
 
-| Reagent | Stereochemistry | Product |
-|---------|----------------|---------|
-| OsO₄ / NaHSO₃ or K₂OsO₄.H₂O | Syn addition | **Cis**-diol (both OH same side) |
-| Cold KMnO₄ | Syn addition | **Cis**-diol |
-| Ozonolysis (reductive workup Zn/H₂O or DMS) | Cleaves C=C | Aldehydes/ketones |
-| Ozonolysis (oxidative workup H₂O₂) | Cleaves C=C | Carboxylic acids |
+Electrophilic addition underpins **alkene test reactions** (bromine-water decolourisation), **Markovnikov hydration** in industry (e.g., ethanol from ethene), and feeds directly into **polymerisation** of alkenes (Ziegler–Natta, radical polymerisation of HBr-style chemistry).
 
-### Ozonolysis
+#### Common Mistakes
 
-Ozonolysis cleaves the C=C bond:
-- Disubstituted alkene carbon → **ketone** (C=O with two carbon substituents)
-- Monosubstituted alkene carbon → **aldehyde** (C=O with one H)
-- Unsubstituted (=CH₂) → **formaldehyde** (H₂C=O)
+- Predicting **syn** Br₂ addition (it is anti).
+- Forgetting that **HCl and HI ignore peroxides** for anti-Markovnikov.
+- Ignoring **carbocation rearrangements** in 2° → 3° shifts.
+- Writing a **first-order** rate law — it is **second-order**.
 
-Reductive workup (Zn/CH₃COOH or DMS) gives aldehydes/ketones. Oxidative workup (H₂O₂) gives carboxylic acids.
+#### Practice Prompts
 
-### Polymerization
+1. Draw the curly-arrow mechanism for CH₃CH=CH₂ + HBr → major product. Identify the carbocation and justify its preference.
+2. Predict the products (with stereochemistry) when cyclohexene reacts with: (a) Br₂/CCl₄, (b) cold dilute KMnO₄.
 
-Alkenes undergo **addition polymerization**: thousands of monomer units (styrene, ethylene, propylene) link via repeated addition across C=C bonds, catalysed by Ziegler-Natta catalysts or free radical initiators. Understanding polymerization is important for pharmaceutical packaging materials and biodegradable polymer drugs.
+---
 
-### Addition to Cyclohexene
+## Continue your study
 
-**Anti Addition (Br₂, Cl₂):** Results in trans relationship between substituents — one axial, one equatorial on adjacent carbons.
+- **[View this topic in your SAPC (South Africa) roadmap](/roadmap/?exam=sa-pharm&duration=1mo)** — see where "Electrophilic Addition Reactions to Alkenes" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=sa-pharm&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[SAPC (South Africa) exam overview](/exams/sa-pharm/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/sa-pharm/chemistry/)** — browse sibling topics in this subject
 
-**Syn Addition (OsO₄, epoxidation):** Both substituents end up on the same face — both axial or both equatorial.
-
-### SAPC Examination Tips
-
-1. **Markovnikov = "more stable carbocation intermediate"** — always explain regioselectivity via the intermediate, not just the rule
-2. **Anti = back-side attack** (Br₂/Cl₂) vs. **Syn = same-face addition** (OsO₄, hydroboration-oxidation) — distinguish clearly
-3. **Ozonolysis products** — count substituents on each carbon of the original double bond: 2 substituents = ketone, 1 = aldehyde, 0 = formaldehyde
-4. **Carbocation rearrangements** — always check if a 1,2-hydride or 1,2-methyl shift could give a more stable carbocation
-5. **Peracid epoxidation** always adds syn — if you need to know which face the oxygen adds to, check for stereoisomeric products
-6. **Practical application** — hydration of alkenes is the reverse of dehydration (elimination); Le Chatelier's principle applies — excess water drives hydration forward
-
-### Reaction Summary Table
-
-| Reaction | Reagent | Regioselectivity | Stereochemistry | Intermediate |
-|----------|---------|-----------------|-----------------|--------------|
-| Halogenation | Br₂, Cl₂ | — | Anti | Bromonium/chloronium ion |
-| HX addition | HBr, HCl | Markovnikov | Anti (via carbocation) | Carbocation |
-| HX + peroxides | HBr (peroxide) | Anti-Markovnikov | — | Radical |
-| Hydration | H₂O/H₂SO₄ | Markovnikov | — | Carbocation |
-| Oxymercuration | Hg(OAc)₂/H₂O then NaBH₄ | Markovnikov, no rearrangement | — | Mercurinium ion |
-| Hydroboration | BH₃ then H₂O₂/NaOH | Anti-Markovnikov | Syn | — |
-| Dihydroxylation | OsO₄ or cold KMnO₄ | — | Syn | — |
-| Epoxidation | RCOOOH | — | Syn | — |
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

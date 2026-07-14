@@ -8,132 +8,105 @@ topicName: Reaction Mechanisms — Nucleophilic Substitution and Elimination
 weight: 3
 country: southafrica
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-07-14"
 ---
 
-## Reaction Mechanisms — Nucleophilic Substitution and Elimination
+# Reaction Mechanisms — Nucleophilic Substitution and Elimination
 
-Understanding reaction mechanisms allows you to predict products, explain reactivity patterns, and design synthetic routes — essential skills for pharmaceutical chemistry. In the SAPC exam, SN1, SN2, E1, and E2 mechanisms are consistently tested, often through analysis of reaction conditions and substrate structure.
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
 
-### Bond Cleavage and Formation
+**Nucleophilic substitution** replaces a leaving group on a carbon with a nucleophile; **elimination** removes the leaving group plus a β-hydrogen to form an alkene. Both pathways compete from the same alkyl substrate, and the outcome is decided by **substrate class, nucleophile/base strength, and solvent**.
 
-**Heterolytic Cleavage:** Bond breaks unevenly — one atom receives both electrons → **carbocation** (electron-deficient, electrophile) and **carbanion** (electron-rich, nucleophile).
+- **SN2**: one step, bimolecular, **inversion of configuration** (Walden), rate = k[substrate][nucleophile]. Favoured by **methyl/1° carbons**, polar aprotic solvent, strong unhindered nucleophile.
+- **SN1**: two steps via a **planar carbocation** → racemisation, rate = k[substrate]. Favoured by **3° carbons**, polar protic solvent, weak nucleophile.
+- **E2**: one step, **anti-periplanar** H–C–C–LG geometry, gives **Zaitsev** alkene unless a **bulky base** (t-BuO⁻) forces Hofmann.
+- **E1**: two steps sharing the SN1 carbocation; favoured by 3° substrate, polar protic solvent, weak base.
 
-**Homolytic Cleavage:** Bond breaks evenly — each atom receives one electron → two **free radicals** (important in polymerization and halogenation).
+**SAPC Chemistry high-yield pointers:** (1) **3° carbons never do SN2**; (2) the **best leaving groups are the weakest bases** (I⁻ > Br⁻ > Cl⁻ > F⁻); (3) bulky base → E2, strong unhindered nucleophile → SN2.
 
-### Nucleophilic Substitution Reactions
+---
 
-#### SN2 Mechanism — Bimolecular Nucleophilic Substitution
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-**Mechanism:** Concerted, single step. The nucleophile attacks from the **back side** (180° from the leaving group), pushing the leaving group off the front — like an umbrella turning inside out in the wind.
+#### The Four Competing Pathways
 
-**Rate Law:** Rate = k[Substrate][Nucleophile] — **bimolecular**
+All four mechanisms begin with the same substrate — typically a **haloalkane (R–X)** or a protonated alcohol (R–OH₂⁺) — and diverge based on three variables: **substrate structure**, **reagent character (nucleophile vs base)**, and **solvent**. The table below summarises the deciding factors.
 
-**Characteristics:**
-- Inversion of configuration at the chiral centre (Walden inversion)
-- Backside attack requires **less steric hindrance** — better with less substituted carbon
-- Strong nucleophile required in **polar aprotic solvent** (acetone, DMSO, DMF)
-- No intermediate — single transition state
-- Steric hindrance dramatically slows the reaction
+| Mechanism | Steps | Rate law | Stereochemistry | Favoured substrate | Favoured reagent/solvent |
+|---|---|---|---|---|---|
+| SN2 | 1 (concerted) | k[R–X][Nu⁻] | Inversion (Walden) | Methyl, 1° | Strong unhindered Nu⁻; polar aprotic |
+| SN1 | 2 (via C⁺) | k[R–X] | Racemisation (planar C⁺) | 3°, allylic, benzylic | Weak Nu; polar protic |
+| E2 | 1 (concerted) | k[R–X][Base] | Anti-periplanar required | 3°, 2° (with strong base) | Strong base; polar aprotic |
+| E1 | 2 (via C⁺) | k[R–X] | Zaitsev alkene | 3°, allylic, benzylic | Weak base; polar protic |
 
-**Favourable conditions:** Methyl > 1° > 2° alkyl halides. 3° almost never undergoes SN2.
+#### Mechanism Arrows and Intermediates
 
-**Good nucleophiles (strong, anionic):** OH⁻, CN⁻, RO⁻, N₃⁻, I⁻, RS⁻
+In **SN2**, the nucleophile attacks the electrophilic carbon from the **backside** (opposite the leaving group) in a single transition state; the carbon undergoes **sp³ → sp² → sp³** motion, producing **inversion**. In **SN1**, the leaving group departs first to generate a **planar sp² carbocation**, then the nucleophile attacks either face → **50:50 racemate**. The **E2** transition state demands that the β-H and the leaving group be **anti-periplanar (180° dihedral)**, which is why cyclohexane substrates give the **trans-diaxial** alkene exclusively. The **E1** mechanism shares the SN1 carbocation, so the two always co-occur on 3° substrates in polar protic media.
 
-#### SN1 Mechanism — Unimolecular Nucleophilic Substitution
+#### Deciding the Product: A Three-Question Workflow
 
-**Mechanism:** Two steps. Step 1 — slow ionization to form a **carbocation intermediate**. Step 2 — rapid nucleophilic attack on the carbocation.
+1. **What is the carbon class?** Methyl/1° → SN2/E2; 2° → all four possible, reagent-dependent; 3° → SN1/E1/E2 (never SN2).
+2. **What is the reagent?** Strong **unhindered** anion (I⁻, CN⁻, N₃⁻, RS⁻, OH⁻) acts as nucleophile → substitution. Strong **bulky** base (t-BuO⁻, LDA) acts as base → elimination.
+3. **What is the solvent?** Polar protic (H₂O, EtOH) stabilises the carbocation → SN1/E1. Polar aprotic (acetone, DMSO, DMF) leaves the nucleophile "naked" and reactive → SN2/E2.
 
-**Rate Law:** Rate = k[Substrate] only — **unimolecular**
+#### Common SAPC Traps
 
-**Characteristics:**
-- **Racemization** occurs at the chiral centre (if applicable) because the planar carbocation can be attacked from either face
-- Rate depends **only on substrate** — carbocation stability is key
-- **More substituted carbocations are more stable** (tertiary > secondary > primary > methyl)
-- Polar **protic solvent** stabilizes the carbocation intermediate and the leaving group anion
-- Rearrangements possible (hydride shift, methyl shift) when a more stable carbocation can form
+- Drawing **retention** of configuration for SN1 (should be racemisation).
+- Putting the β-H and leaving group **syn-periplanar** in an E2 transition state.
+- Using F⁻ as a leaving group without first converting –OH to a tosylate (–OTs) or alkylating to an alkyl iodide.
+- Assuming Hofmann (less substituted) alkene by default — **Zaitsev rules** unless a bulky base is present.
 
-**Favourable conditions:** Tertiary and secondary substrates. Polar protic solvents (water, alcohols). Weak nucleophiles (H₂O, ROH).
+---
 
-### Carbocation Stability
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-| Type | Structure | Stability |
-|------|-----------|-----------|
-| Methyl | CH₃⁺ | Least stable |
-| Primary (1°) | RCH₂⁺ | Unstable |
-| Secondary (2°) | R₂CH⁺ | Moderate |
-| Tertiary (3°) | R₃C⁺ | Most stable |
-| Allylic | R-CH=CH-CH₂⁺ | Stabilized by resonance |
-| Benzyllic | C₆H₅-CH₂⁺ | Very stable (resonance) |
+#### Carbocation Stability and the SN1/E1 Decision
 
-**Resonance-stabilized carbocations** (allylic and benzylic) can form more readily than their non-resonance-stabilized counterparts.
+Because SN1 and E1 share the **same rate-determining step** (ionisation of C–X), anything that stabilises the intermediate accelerates both. **Carbocation stability order**: 3° > 2° > 1° > methyl, augmented by **hyperconjugation** (alkyl groups donate electron density into the empty p-orbital) and **resonance delocalisation** (allylic, benzylic, and acylium cations). Rearrangements (hydride or methyl shift) are diagnostic of SN1/E1 — if a 1,2-shift "fixes" a less stable cation, the mechanism is almost certainly stepwise.
 
-### Competition Between SN1 and SN2
+#### Stereochemistry in Cyclic Systems
 
-| Factor | Favours SN2 | Favours SN1 |
-|--------|------------|-------------|
-| Substrate | Methyl, 1° | 2°, 3° |
-| Nucleophile | Strong (anionic) | Weak |
-| Solvent | Polar aprotic | Polar protic |
-| Leaving group | Good (I⁻ > Br⁻ > Cl⁻ > F⁻) | Good |
-| Steric hindrance | Low | High |
-| Carbocation stability | Not relevant | Critical |
+On cyclohexane rings, the **anti-periplanar constraint** forces the β-H and leaving group into **axial positions on adjacent carbons**. A trans-1-bromo-2-methylcyclohexane with both substituents axial therefore eliminates rapidly to 1-methylcyclohexene, while the cis isomer (one axial, one equatorial) is far slower. The SAPC paper frequently tests this with Newman-projection questions: always draw the **staggered conformation** that places H and LG 180° apart.
 
-### Elimination Reactions
+#### Quantitative Rate Comparison (Worked Snippet)
 
-#### E2 Mechanism — Bimolecular Elimination
+For a generic primary alkyl bromide reacting with NaI in acetone (Finkelstein, classic SN2):
 
-**Mechanism:** Concerted, single step. A base removes a proton (β-hydrogen) while the leaving group departs simultaneously, forming a double bond.
+```
+Rate = k × [R–Br] × [I⁻]
+       k(1° R–Br) ≈ 1 (reference)
+       k(2° R–Br) ≈ 1/30     ← steric hindrance
+       k(3° R–Br) ≈ 1/10⁴    ← SN2 essentially shut down
+```
 
-**Requirements:**
-1. **Anti-periplanar geometry** — the hydrogen and leaving group must be 180° apart (trans-diaxial in cyclohexane)
-2. Strong base (or strong nucleophile acting as base)
-3. Good leaving group
+Reverse the solvent to aqueous ethanol and add AgNO₃ — the Ag⁺ sequesters Br⁻ and a **polar protic** medium now dominates, switching 3° substrates into SN1 territory (precipitate of AgBr confirms ionisation).
 
-**Rate:** Rate = k[Substrate][Base] — bimolecular
+#### Solvation of the Nucleophile
 
-**Zaitsev's Rule:** The more substituted (more stable) alkene is the major product. Exception: bulky bases (t-BuO⁻, DBU) give the **Hofmann product** (less substituted alkene) due to steric hindrance.
+Polar **protic** solvents (H₂O, ROH, HCO₂H) hydrogen-bond to the nucleophile, lowering its ground-state energy but also its reactivity — yet they stabilise the developing carbocation in the transition state, so SN1/E1 win. Polar **aprotic** solvents (DMSO, DMF, acetone, MeCN) solvate **cations** well but leave **anions poorly solvated** ("naked" nucleophile), maximising SN2/E2 rates.
 
-#### E1 Mechanism — Unimolecular Elimination
+#### Connections to Other SAPC Topics
 
-**Mechanism:** Same first step as SN1 — ionization to carbocation. Step 2 — base removes a β-hydrogen from the carbocation, forming a double bond.
+- **Alcohol reactions**: PBr₃, SOCl₂, and conc. H₂SO₄/heat all convert –OH into a better leaving group, channeling the molecule into these four mechanisms.
+- **Aromatic chemistry**: Aryl halides (sp² C–X) resist SN1/SN2; they need the **benzyne (E1cb)** or **nucleophilic aromatic substitution** mechanism instead — a frequent distractor.
+- **Pharmaceutical context** (SAPC applied emphasis): the metabolism of many drug molecules proceeds through **SN2 conjugation** (e.g. glutathione transferase) or **E1 dehydration** of β-hydroxy intermediates; predicting metabolic stability depends on identifying the most reactive carbon in the molecule.
 
-**Rate:** Rate = k[Substrate] — unimolecular
+#### Practice Prompts
 
-**Characteristics:**
-- Same conditions and substrate requirements as SN1
-- Carbocation intermediate → rearrangements possible
-- Competes directly with SN1 — polar protic solvent, weak base
-- Regioselectivity follows Zaitsev's Rule
+1. **Mechanism drawing**: For 2-bromo-2-methylbutane + ethanol (warm), show the major product, classify the mechanism, and justify the choice of solvent.
+2. **Product prediction**: Treat (R)-2-bromobutane with NaCN in DMSO. Draw the major product in 3D, name the mechanism, state the rate law, and explain why using NaOH in water would give a different major pathway.
 
-### Substitution vs. Elimination Competition
+---
 
-| Condition | Favours Substitution | Favours Elimination |
-|-----------|---------------------|---------------------|
-| Substrate | Methyl, 1° (SN2) | 3° (E2) |
-| Base/nucleophile strength | Weak nucleophile | Strong base (especially bulky) |
-| Solvent | Polar aprotic (SN2) | Polar protic (E1) |
-| Temperature | Lower | Higher (endothermic, ΔS positive) |
-| Steric hindrance | Low | High |
+## Continue your study
 
-### Leaving Group Ability
+- **[View this topic in your SAPC (South Africa) roadmap](/roadmap/?exam=sa-pharm&duration=1mo)** — see where "Reaction Mechanisms — Nucleophilic Substitution and Elimination" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=sa-pharm&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[SAPC (South Africa) exam overview](/exams/sa-pharm/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/sa-pharm/chemistry/)** — browse sibling topics in this subject
 
-Better leaving groups = more stable anions when departed:
-
-**Good to Poor:** I⁻ > Br⁻ > Cl⁻ >> F⁻
-
-Tosylate (TsO⁻) and mesylate (MsO⁻) are excellent leaving groups — frequently used in pharmaceutical synthesis.
-
-### Pharmaceutical Chemistry Connections
-
-- **Drug metabolism Phase I reactions** often involve nucleophilic attack on drug metabolites (e.g., cytochrome P450 oxidation creates electrophilic intermediates that react with nucleophiles in proteins/DNA)
-- **SN1-like reactions** occur in the formation of oxonium ions during glycoside hydrolysis
-- **E2 reactions** are used in the laboratory synthesis of pharmaceutical intermediates — understanding anti-periplanar requirements explains why some elimination reactions fail
-
-### SAPC Examination Tips
-
-1. **Always check substrate first** — 3° → E1/SN1; methyl/1° → SN2; 2° is the battleground (analyze conditions)
-2. **Temperature matters** — high temperature favours elimination over substitution (more positive entropy change for elimination)
-3. **Drawing the mechanism matters** — show arrows correctly: nucleophile → substrate, leaving group ← departing. Never draw arrows crossing atoms.
-4. **Zaitsev vs. Hofmann** — unless a bulky base is specified, draw the more substituted alkene as the major product.
-5. **Anti-periplanar geometry** — in cyclohexane E2, the H and leaving group must both be axial and trans to each other.
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

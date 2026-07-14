@@ -11,126 +11,94 @@ weight_unit: "% of Tier 2 paper"
 diagramPrompt: "A comprehensive error taxonomy chart with 8 categories of grammar errors, each with 3 sub-types, and common SSC CGL question patterns noted beside each"
 country: india
 generated: 2026-03-25
-lastUpdated: 2026-03-25
+lastUpdated: "2026-07-14"
 ---
 
 # Spotting Errors (Grammar)
 
-### 🟢 Lite
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
 
-### Key Rule / Formula
-Identify the part of the sentence that violates a grammar rule — no part is error-free if the sentence is grammatically wrong.
+**Spotting Errors** items present a sentence with one part underlined (a/b/c/d); you must mark the **grammatically incorrect** segment. In SSC CGL Tier 2, this section carries 20–25 questions × 0.5 marks (with 0.25 negative marking) in Paper-II English.
 
-### Memory Trick
-**SAND** — Scan for: **S**ubject-verb, **A**rticles, **N**oun-pronoun agreement, **D**angling modifiers.
+#### The Must-Know Triggers
 
-### 1-Sentence Summary
-SSC CGL Tier 2 tests your ability to identify which part of a sentence contains a grammatical error — usually subject-verb agreement, verb tense, articles, prepositions, or parallel structure.
+- **Subject–Verb Agreement (SVA):** singular subject → singular verb. Heads-up words: *each, every, either, neither, anyone, everyone, somebody, a lot of, the list/array/fleet of + plural noun* still takes a singular verb.
+- **Tense Consistency:** keep one tense inside a clause; only shift with a clear time signal (*yesterday, now, since 2015*).
+- **Article Choice:** *a/an* for new singular countable nouns; *the* for specific/known nouns; zero article with plurals or uncountables in general statements.
+- **Preposition Pairs:** *since + point of time*, *for + duration*; *at/on/in* (place/time: smallest → largest).
 
-### Quick Example
-Q: Neither the students **nor** the teacher **was** present in the class.
-A: **was** — error. When "neither...nor" or "either...or" connects two subjects, the verb agrees with the **nearest** subject. "Teacher" is singular → "were" should be used.
+> **One-line trick:** Locate the **main subject** first, then walk left-to-right checking agreement → tense → article → preposition → pronoun → modifier.
 
 ---
 
-## Spotting Errors (Grammar) — Quick Reference
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-### Quick Example
-Q: Neither the students nor the teacher was present in the class.
-A: was — error. When "neither...nor" or "either...or" connects two subjects, the verb agrees with the nearest subject. "Teacher" is singular → "were" should be used.
+#### How an Item Is Built
 
-### 🟡 Standard
+Each sentence contains four underlined chunks, but only one contains the error. Three chunks are deliberately clean to look "equally correct," so a surface-level read misleads. The right method is **vertical scanning by grammar rule**, not horizontal reading.
 
-### Concept
-Spotting Errors is one of the most high-frequency topics in SSC CGL Tier 2 English. A sentence is divided into four parts (marked as Option A, B, C, D). Your job is to find which part contains a grammatical or structural error. The error can be in subject-verb agreement, verb tense, article usage, preposition selection, pronoun-antecedent agreement, or parallel construction. Sometimes the entire sentence is correct — in that case, the answer is "No error."
+#### The Seven Rule-Buckets Tested Most
 
-The key skill here is **grammatical accuracy under time pressure**. You need to develop the habit of scanning the entire sentence systematically rather than reading it once and guessing. Most errors in SSC questions fall into predictable patterns.
+| # | Rule Bucket | Typical Distractor |
+|---|---|---|
+| 1 | SVA (with intervening phrase) | "The box of chocolates **are**…" → *is* |
+| 2 | Tense shift | Past + present mixed without a time marker |
+| 3 | Article misuse | "I need **a** information" → *an / some* |
+| 4 | Preposition pair | "since five years" / "for Monday" |
+| 5 | Pronoun mismatch | "Everyone must bring **their** ID" → *his or her* |
+| 6 | Modal semantics | *must* used for future probability, not just obligation |
+| 7 | Parallelism | "to read, writing and revise" → all gerunds or all infinitives |
 
-### Key Points
-- **Subject-Verb Agreement**: Watch for intervening phrases between subject and verb. "The box of the students were" — "box" is singular, so "was" is correct despite "students" being plural nearby.
-- **Tense Consistency**: In complex sentences, the main clause and subordinate clause must have logically consistent tenses. "If I knew, I will help" → "would help."
-- **Article Errors**: "The" vs "a/an" misuse. "Honest" takes "an" because the sound matters, not the spelling. "A honest man" is wrong.
-- **Preposition Errors**: Fixed prepositions are often tested with idioms — "independent of," "afraid of," "comprised of" (not "comprised from").
-- **Pronoun-Antecedent Agreement**: Collective nouns take singular verbs in formal English ("The team is playing well") but plural in American usage.
-- **Parallel Structure**: Items in a list must follow the same grammatical pattern. "She likes reading, to write, and dancing" → "reading, writing, and dancing."
+#### Pronoun & Voice Specifics
 
-### Worked Example
-**Q:** The principal along with the teachers **(A)** / have requested **(B)** / the management to provide **(C)** / better facilities. **(D)** / No error **(E)**
+- **Who** = persons, **which** = things, **that** = restrictive clause. Don't use *who* for "the company who…".
+- Only **transitive verbs** passivise. "The accident was **happened**" is wrong; intransitive verbs stay active.
+- Dangling participle: "Walking down the lane, **the houses** looked old" — houses don't walk; rewrite the subject.
 
-**Approach:** The subject is "principal" (singular). The phrase "along with the teachers" is parenthetical — it does not change the number of the subject. The verb must be singular. "Have requested" is wrong — it should be "has requested."
+> **Exam-pointer:** Roughly 40–45% of SSC CGL Tier 2 spotting-error items are SVA or tense based. Master those two buckets first for the highest mark-to-effort ratio.
 
-**Answer:** B
+#### Typical Question Patterns
 
-### SSC Pattern / Tips
-- The error is **most commonly in the verb** (subject-verb agreement or tense form).
-- Watch for "along with," "as well as," "together with," "not only...but also" — these do NOT make the subject plural.
-- "Neither...nor" and "either...or" take the verb that agrees with the nearer subject.
-- Always check if "no error" could be correct — but only 1-2 questions per paper have this answer.
+- A long sentence with a prepositional phrase separating subject and verb (*"The teacher along with the students **is** going"*).
+- Comparisons needing parallel form: *"He is as good if not better than his brother"* → *as good as, if not better than*.
+- Adverb placement errors: *"He **never has** spoken" vs. "He **has never** spoken"* (mid-position rule for *never*).
 
-### 🔴 Extended
+---
 
-### Full Concept
-Spotting Errors in SSC CGL Tier 2 is not merely about knowing grammar rules — it is about **identifying the specific location of an error** in a four-part sentence within seconds. The question typically presents a sentence broken into four parts labeled A, B, C, D (sometimes with a fifth "No error" option). The candidate must select the part that is incorrect. The errors tested are a curated subset of grammar rules that SSC considers essential for graduates appearing in government exams.
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-The question tests the following grammatical areas:
+#### Edge Cases Examiners Exploit
 
-**1. Subject-Verb Agreement**: This is the single most tested category. The classic trap is an intervening phrase containing a plural noun that seduces you into using a plural verb. Example: "The quality of the mangoes were good" — "quality" is singular, so "was" is correct. Another common trap is nouns that look plural but are singular: "Mathematics is interesting," "News is good," "Politics is dirty."
+- **"One of the + plural noun + singular verb"** is correct because *one* is the head: *"One of the boys who **was** absent"* — the relative clause is plural, but the antecedent rule is set by *one*.
+- **Collective nouns** behave differently in British vs American English; SSC follows British — *team, jury, committee* take a singular verb when acting as a unit.
+- **"Data, criteria, phenomena, media"** are plural; their singulars are *datum, criterion, phenomenon, medium*. Watch for "the data **is**" traps.
+- **Less vs fewer:** *fewer* with countable plurals; *less* with uncountable mass nouns. "Less people" is a classic wrong choice.
+- **Too/enough order:** *too + adjective (+ to + V)*, *adjective + enough (+ to + V)* — never *too much pleased*; the correct intensifier for past participles is *very much*.
+- **Because / because of:** *because* takes a clause; *because of* takes a noun phrase or gerund. Mixing them is a guaranteed half-mark loss.
 
-**2. Tense and Verb Form Errors**: These appear in complex sentences with multiple clauses. The error is often in the subordinate clause where the tense is inconsistent with the main clause. Watch for conditional sentences: "If I had money, I will travel" — correct form is "would travel."
+#### Connections to Adjacent SSC Tasks
 
-**3. Article Errors**: The a/an distinction is based on the **sound** of the following word, not its spelling. "A university" (yoo → consonant sound), "an hour" (silent h), "a one-way street" (w sound). Also "the" is used before superlative adjectives, unique entities, and names of seas/rivers/mountains.
+Spotting-Error competence feeds directly into **Sentence Improvement**, **Fill in the Blanks (modals/prepositions)**, and **Active–Passive rewriting** in the same paper. Strengthening SVA and tense here raises accuracy in Cloze Test and Para Jumbles as well, because these rules govern clause linking.
 
-**4. Preposition Errors**: These are highly formulaic. SSC tests fixed prepositional phrases: "afraid of," "capable of," "independent of," "comprised of," "prefer X to Y," "interested in," "different from" (not "different than"). Memorise common pairs.
+> **Strategy note:** Tier 2 is a 2-hour, 200-mark computer-based test. Allocate ~8–10 minutes for the entire 20–25 question spotting block — that's 20–30 seconds per item, so a first-pass vertical scan (subject → verb → tense → article) is faster than a full re-read.
 
-**5. Parallel Structure Errors**: When a sentence lists items connected by "and," "but," or "or," all items must be in the same grammatical form. "He likes reading, writing, and to write" — the last item breaks the pattern.
+#### Two Practice Prompts
 
-**6. Pronoun-Antecedent Agreement**: Pronouns must match their antecedents in number, gender, and person. "Each of the boys has taken his book" — correct. "Each of the boys have taken their book" — incorrect in formal English (though increasingly accepted in modern usage, SSC still expects the singular form).
+1. *"Each of the candidates (a) / have submitted (b) / their forms (c) / before the deadline. (d) / No error"* — identify the chunk.
+2. *"Since the COVID-19 pandemic (a) / the tourism industry (b) / has been struggling (c) / for revival measures. (d) / No error"* — fix the preposition pair.
 
-**7. Comparison Errors**: "She is taller than me" vs "She is taller than I" — both can appear correct depending on whether the verb is implied. SSC often tests "between you and I" (wrong — should be "between you and me").
+*(Answers covered by the rules above: (b) "have submitted" → "has submitted"; (d) "for" → "since/to get".)*
 
-**8. Word Order Errors**: Especially with adverbs — "He only wants to play" vs "He wants only to play" — position of "only" changes meaning entirely.
+---
 
-### SSC CGL Deep Analysis
+## Continue your study
 
-Based on analysis of SSC CGL Tier 2 papers from 2018–2024:
+- **[View this topic in your SSC CGL Tier 2 roadmap](/roadmap/?exam=ssc-cgl&duration=1mo)** — see where "Spotting Errors (Grammar)" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ssc-cgl&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[SSC CGL Tier 2 exam overview](/exams/ssc-cgl/)** — pattern, eligibility, and syllabus
+- **[All English Language notes](/notes/ssc-cgl/english-language/)** — browse sibling topics in this subject
 
-- **Frequency**: 3-5 questions per paper (Tier 2 — 200-mark English paper)
-- **Difficulty distribution**: 40% easy, 45% moderate, 15% difficult
-- **Most common error type**: Subject-verb agreement (50% of questions)
-- **Least tested**: Dangling modifiers and comparison errors (5% each)
-- **New trend (2022-2024)**: Questions involving collective nouns with singular/plural ambiguity ("The team are" vs "The team is") — 2-3 per paper
-- **Tricky pattern**: Questions where the apparent subject looks plural but the grammatical subject is singular (e.g., "A set of rules have been laid down" — "set" is singular)
-- **No-error questions**: Appear in 1-2 questions per paper — do not assume "no error" is always wrong, but also do not over-select it
-
-### High-Scoring Strategy
-
-1. **Read the entire sentence first** at normal reading speed to get the meaning.
-2. **Apply the SAND checklist mentally**: Subject-verb, Articles, Noun-pronoun, dangling modifiers.
-3. **Start with the verb** — check tense and subject-verb agreement first (covers ~60% of errors).
-4. **Eliminate options**: If B looks clearly correct, eliminate it. Trust your first instinct on obvious errors.
-5. **Watch for intervening phrases** — "as well as," "along with," "together with," "in addition to" never make a subject plural.
-6. **For "no error"**: Only mark it when every single word in the sentence is correct — do not guess it unless you are certain.
-7. **Time allocation**: Spend no more than 45 seconds per question. If you are unsure, make an educated guess and move on.
-
-### SSC-Level Practice
-
-**Q1:** He as well as his brothers **are** (A) / fond of watching **(B)** / cricket matches **(C)** / on television. **(D)**
-
-Answer: **A** — Working: "He" is the subject. "As well as his brothers" is an intervening phrase. The verb must agree with "He" (singular) → "is" not "are."
-
-**Q2:** The number of students **appearing** (A) / for the examination **(B)** / have **(C)** / been increasing every year. **(D)**
-
-Answer: **C** — Working: "The number" is singular. "A number of students" would be plural. "The number of students...has been increasing" is correct. "Have" should be "has."
-
-**Q3:** Neither he nor his friends **was** (A) / aware of the **(B)** / sudden change **(C)** / in the schedule. **(D)**
-
-Answer: **A** — Working: "Neither...nor" takes verb agreement with the nearer subject. "Friends" is plural → verb should be "were," not "was." The nearest subject (friends) is plural, so plural verb "were" is correct.
-
-### Common Traps
-
-- **Intervening plural noun trap**: "The leader along with the followers were present" — students often mark this as correct because "followers" is plural, but "leader" (singular) is the actual subject.
-- **Collective noun trap**: "The jury has reached its verdict" (formal/British English) vs "The jury have taken their seats" — SSC uses formal British English conventions where collective nouns take singular verbs. Do not apply American English rules.
-- **Each/Every trap**: "Each of the chocolates were wrapped" — "Each" is always singular, so "was wrapped" is correct.
-- **Neither/Either of trap**: "Either of the two roads lead to the station" — "Either of" takes a singular verb: "leads."
-
-*Content adapted based on your selected roadmap duration.*
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

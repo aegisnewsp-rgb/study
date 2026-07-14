@@ -8,7 +8,7 @@ topicName: Alkenes
 weight: 3
 country: srilanka
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-07-14"
 ---
 
 # Alkenes
@@ -16,126 +16,73 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Alkenes** — Key Facts for SLMC Medical (Sri Lanka)
-- Alkenes are **unsaturated hydrocarbons** containing at least one C=C double bond
-- General formula: **CₙH₂ₙ** (for one double bond)
-- The double bond consists of one **σ-bond** and one **π-bond**
-- Each carbon in the C=C is **sp²-hybridized** (120° bond angle)
-- ⚡ Exam tip: Markovnikov's rule and addition reactions are high-yield for SLMC
+**Alkenes** are unsaturated hydrocarbons containing at least one **carbon–carbon double bond (C=C)**. Each C=C consists of one strong **σ bond** (head-on overlap) plus one weaker **π bond** (lateral overlap), which is why alkenes react far more readily than alkanes.
 
----
+- General formula (acyclic, one C=C): **CₙH₂ₙ**, n ≥ 2
+- Restricted rotation about C=C → **cis–trans (E/Z) isomerism**
+- Characteristic test: decolourisation of **bromine in CCl₄** and cold dilute **KMnO₄** (Baeyer's test)
+
+**Markownikoff's rule:** in HX/H₂O addition to an unsymmetrical alkene, H goes to the carbon already bearing more hydrogens. **Saytzeff rule:** elimination favours the **more substituted alkene**. Polymerisation of ethene → **polythene**.
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Alkenes** — SLMC Medical (Sri Lanka) Study Guide
+#### Structure of the C=C Bond
+The double bond is built from one σ bond (sp²–sp² hybrid overlap) and one π bond (sideways p-orbital overlap). Because the π bond locks the two carbons in a fixed geometry, rotation about C=C is prevented. Each doubly-bonded carbon is sp² hybridised with bond angles near 120°, leaving alkenes planar at the C=C.
 
-## What Are Alkenes?
+#### General Formula and Unsaturation
+Acyclic mono-alkenes fit **CₙH₂ₙ** (e.g. C₂H₄, C₃H₆). Cycloalkanes share the same CₙH₂ₙ formula, so the degree-of-unsaturation calculation (DoU = (2C + 2 − H)/2) is the cleanest way to detect a double bond or ring.
 
-Alkenes are hydrocarbons containing **carbon-carbon double bonds**. The double bond makes them chemically reactive compared to alkanes (which are saturated and inert). Their general formula for a single double bond is **CₙH₂ₙ**.
-
-## Nomenclature
-
-Alkenes use the "-ene" suffix. Number the chain from the end that gives the double bond the lowest possible number:
-- Ethene (C₂H₄): CH₂=CH₂
-- Propene (C₃H₆): CH₂=CH–CH₃
-- But-1-ene / But-2-ene (C₄H₈)
-- For multiple double bonds: diene (2 double bonds), triene (3 double bonds)
-
-Branched alkenes: if a double bond and a branch exist at the same position, the double bond takes priority in numbering.
-
-## Electronic Structure
-
-Each carbon in a C=C double bond is **sp²-hybridized**:
-- Three sp² orbitals form σ-bonds at ~120° angles (planar/trigonal geometry)
-- The unhybridized p orbital on each carbon overlaps sideways to form the **π-bond**
-- The π-bond is weaker and breaks first in reactions — this is why alkenes are more reactive
-
-C=C bond length (~134 pm) is **shorter** than C–C single bond (~154 pm), and C=C bond energy (~611 kJ/mol) is **stronger** than a C–C single bond (~347 kJ/mol). However, the π-bond specifically (~268 kJ/mol) is weaker and more easily broken.
-
-## Physical Properties
-
-| Property | Trend |
-|---|---|
-| Boiling point | Increases with molecular size; trans alkenes generally have higher BP than cis |
-| Solubility | Insoluble in water; soluble in organic solvents |
-| Density | Less than water |
-| State | Ethene, propene: gases; C₃–C₄: gases/liquids; C₅+: liquids |
-
-**Cis-trans isomerism** (geometric isomerism) arises when each carbon of the double bond has two different groups attached:
-- **Cis**: identical groups on the same side
-- **Trans**: identical groups on opposite sides
-
-## Chemical Properties — Addition Reactions
-
-Alkenes undergo **addition reactions** at the π-bond. Key reactions:
-
-### 1. Hydrogenation
-**Alkene + H₂ → Alkane** (with Pt/Pd/Ni catalyst, heat)
-- Ethene + H₂ → Ethane
-- This reaction is **exothermic** (hydrogenation enthalpy ~ –136 kJ/mol for ethene)
-
-### 2. Halogenation
-**Alkene + X₂ → Vicinal dihalide** (X = Cl₂ or Br₂, in inert solvent)
-- Ethene + Br₂ → C₂H₄Br₂ (1,2-dibromoethane)
-- The reaction decolorizes **bromine water** (brown to colorless) — used as a test for unsaturation
-
-### 3. Addition of Hydrogen Halides (HX)
-**Alkene + HX → Haloalkane**
-
-**Markovnikov's Rule**: In unsymmetrical alkenes, the hydrogen adds to the carbon with **more hydrogens** already attached, and the halogen adds to the carbon with **fewer hydrogens**.
-
-Example: Propene + HCl → **2-chloropropane** (H adds to CH₂ end, Cl adds to CH end)
-- The alternative (1-chloropropane) is formed in much smaller amount
-
-### 4. Hydration (Addition of H₂O)
-**Alkene + H₂O → Alcohol** (H⁺ catalyst, heat)
-- Follows Markovnikov's rule — water adds with H to the carbon with more H atoms
-- Ethene + H₂O → Ethanol
-- Propene + H₂O → Isopropanol (propan-2-ol)
-
-### 5. Addition of Halogens in Water (HOX)
-Gives **halohydrin**: halogen adds to one carbon, OH adds to the other. The halogen goes to the carbon with **more H atoms** (Markovnikov direction).
-
-### 6. Ozonolysis
-**Alkene + O₃ → Ozonide → Cleavage products**
-- Alkene is cleaved at the double bond
-- Products are aldehydes and/or ketones
-- Used to determine the position of the double bond in an unknown alkene
-
-## Oxidation Reactions
+#### Electrophilic Addition Reactions
+Alkenes are nucleophile-rich (π electrons) and undergo electrophilic addition:
 
 | Reagent | Product | Notes |
 |---|---|---|
-| Cold dilute KMnO₄ | Diol (glycol) | Syn addition of two –OH groups |
-| Hot concentrated KMnO₄ | CO₂ + H₂O | Complete oxidation |
-| O₃ (ozonolysis) | Aldehydes/ketones | Cleaves C=C bond |
+| H₂ / Ni, Pt or Pd | Alkane | Catalytic hydrogenation |
+| Br₂ / CCl₄ | Vicinal dibromide | Brown colour disappears (test) |
+| HCl, HBr, HI | Alkyl halide | Follows Markownikoff |
+| H₂O / H⁺ (H₂SO₄) | Alcohol | Acid-catalysed hydration |
+| Cold dil. KMnO₄ | Cis-diol | Baeyer's test, purple → brown MnO₂ |
+| Hot conc. KMnO₄ | Cleavage products | Carboxylic acid, ketone, or CO₂ |
 
-Alkene + **cold dilute KMnO₄** → **dihydroxylglycol** (diol) — decolorizes purple KMnO₄
+#### Markownikoff and Anti-Markownikoff Addition
+With propene + HBr, the secondary carbocation is more stable, giving **2-bromopropane** as the major product. With **HBr + peroxide** (Kharasch effect), a radical mechanism delivers **1-bromopropane** (anti-Markownikoff).
 
-Alkene + **acidified KMnO₄** (hot/concentrated) → **CO₂** — complete cleavage of the double bond
+#### Geometric Isomerism
+Cis–trans isomerism appears only when each doubly-bonded carbon carries **two different groups**. 2-butene exists as cis- and trans- isomers; 1-butene does not.
 
-## Polymerization
+#### SLMC Question Patterns
+Expect (i) writing CₙH₂ₙ and calculating DoU, (ii) drawing major products of electrophilic addition, (iii) naming with the IUPAC **-ene** suffix and lowest locant, (iv) Baeyer's or bromine test identification, and (v) the polymerisation of ethene to polythene.
 
-Alkenes undergo **addition polymerization**:
-- **n CH₂=CH₂ → [–CH₂–CH₂–]ₙ** (polyethylene)
-- **n CH₂=CH–CH₃ → [–CH₂–CH(CH₃)–]ₙ** (polypropylene)
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-Common polymers: polyethylene (PE), polyvinyl chloride (PVC), polystyrene (PS), polymethyl methacrylate (PMMA).
+#### Preparation Methods
+Four main routes appear on Sri Lankan A-level and SLMC-style papers. **Dehydrohalogenation** of an alkyl halide with alcoholic KOH follows E2 kinetics and obeys Saytzeff's rule, giving the more substituted alkene. **Dehydration** of alcohols with concentrated H₂SO₄ at ~170 °C is E1 for secondary/tertiary alcohols. **Dehalogenation** of vicinal dihalides using Zn dust removes two bromines to regenerate the C=C. **Partial reduction of alkynes** (H₂ / Lindlar's catalyst, or Na/NH₃₍liq₎) yields cis- or trans-alkenes respectively.
 
-## Clinical and Medical Relevance
+#### Saytzeff vs Hofmann
+Saytzeff elimination produces the **more substituted, more stable alkene** (thermodynamic control). Hofmann elimination with bulky bases such as *tert*-butoxide gives the **less substituted alkene** because of steric hindrance at the transition state — students regularly confuse the two.
 
-- **Ethene (C₂H₄)** is used as a **plant hormone** to ripen fruits — important in food science
-- **Propene** is used to manufacture polypropylene (PP), used in medical syringes and packaging
-- **PVC** is used in medical tubing, blood bags, and intravenous catheters
-- **Ozone (O₃)** therapy: ozonolysis has medical applications in disinfection
-- **Halothane hepatitis**: halogenated alkenes (like halothane) can cause severe hepatotoxicity after repeated exposure
+#### Polymerisation and Industrial Context
+Ethene → polythene via free-radical polymerisation (high T, high P, peroxide initiator) or Ziegler–Natta catalysis (TiCl₄/Al(C₂H₅)₃) for high-density polythene. Propene gives polypropene (PP), chloroethene gives PVC, and tetrafluoroethene gives PTFE. Each monomer retains the empirical formula CₙHₘ of the alkene.
 
-## Common SLMC Exam Traps
-- Markovnikov's rule applies ONLY to unsymmetrical alkenes — don't apply it to symmetrical ones like ethene
-- Cis-trans isomerism requires each double-bond carbon to have two **different** substituents — if either carbon has identical groups, no cis-trans exists
-- "Dihydroxylglycol" (from KMnO₄ cold) should NOT be confused with glycol (HO–CH₂–CH₂–OH is ethylene glycol, a different compound)
-- The product of halogen addition to an alkene is a **vicinal (adjacent)** dihalide — both halogens on adjacent carbons
+#### Common Mistakes
+- Writing CₙH₂ₙ₊₂ (alkane formula) instead of CₙH₂ₙ.
+- Stating that Baeyer's test forms a "white precipitate of MnO₂" — the diagnostic is **decolourisation of purple KMnO₄**, with brown MnO₂ forming secondarily.
+- Assuming 1-butene shows cis–trans isomerism (it does not — one sp² carbon carries two H atoms).
+- Forgetting that cycloalkanes also fit CₙH₂ₙ.
+- Drawing the polymerisation product of propene as **–(CH₂–CH₃)ₙ–** rather than **–(CH₂–CH(CH₃))ₙ–**.
+
+#### Practice Prompts
+1. Compound X has molecular formula C₅H₁₀ and decolourises Br₂/CCl₄ in 30 s. Draw the three structural isomers that fit, and state which one can exhibit cis–trans isomerism.
+2. 2-methylbut-2-ene reacts with HBr in peroxide-free conditions. Using a carbocation stability argument, write the major product and the minor product, then name both using IUPAC rules.
+
+## Continue your study
+
+- **[View this topic in your SLMC Medical (Sri Lanka) roadmap](/roadmap/?exam=slmc&duration=1mo)** — see where "Alkenes" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=slmc&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[SLMC Medical (Sri Lanka) exam overview](/exams/slmc/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/slmc/chemistry/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

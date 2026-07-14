@@ -8,7 +8,7 @@ topicName: Carboxylic Acids
 weight: 3
 country: srilanka
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-07-14"
 ---
 
 # Carboxylic Acids
@@ -16,143 +16,79 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Carboxylic Acids** — Key Facts for SLMC Medical (Sri Lanka)
-- Carboxylic acids contain the **–COOH functional group** (or –CO₂H)
-- General formula: **CₙH₂ₙ₊₁COOH** (or R–COOH)
-- They are the **most oxidized** organic functional group (containing 2 oxygen atoms)
-- pKa values: Formic acid ~3.75; Acetic acid ~4.76; Propionic acid ~4.87
-- ⚡ Exam tip: Esterification, decarboxylation, and the HVZ reaction are high-yield for SLMC
+Carboxylic acids are organic compounds that contain the **carboxyl functional group (–COOH)**: a carbonyl (C=O) and a hydroxyl (–OH) attached to the **same** carbon. The general formula for a saturated monocarboxylic acid is **C<sub>n</sub>H<sub>2n+1</sub>COOH**.
+
+| Property | Value |
+|---|---|
+| General formula | C<sub>n</sub>H<sub>2n+1</sub>COOH |
+| Acidity (acetic acid) | pKa = 4.76 at 25 °C |
+| Key resonance | Carboxylate anion RCOO⁻ is stabilised by two equivalent C–O bonds |
+| Fischer esterification | RCOOH + R′OH ⇌ RCOOR′ + H<sub>2</sub> |
+
+Two points examiners love: (1) acetic acid and benzoic acid are the most-tested examples in SLMC Chemistry; (2) the unusually high boiling point of carboxylic acids comes from **hydrogen-bonded dimer formation**, not from a single molecule's polarity.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Carboxylic Acids** — SLMC Medical (Sri Lanka) Study Guide
+#### Nomenclature and Structure
+The IUPAC suffix is **-oic acid** (e.g., methanoic, ethanoic, benzoic acid). Common names you must recognise: formic (HCOOH), acetic (CH<sub>3</sub>COOH), propanoic, oxalic (HOOC–COOH), and benzoic (C<sub>6</sub>H<sub>5</sub>COOH). The acidic proton is the **–OH proton**, not the α-hydrogen.
 
-## What Are Carboxylic Acids?
+#### Acidic Character
+Carboxylic acids are weak acids (pKa 4–5). On losing H⁺, the resulting **carboxylate anion (RCOO⁻)** is stabilised by resonance — the negative charge is shared equally between both oxygens, giving two equivalent C–O bonds of bond order 1.5. This is why a carboxylic acid is **far more acidic than an alcohol** (alcohol pKa ≈ 16–18).
 
-Carboxylic acids contain the **carboxyl functional group (–COOH or –CO₂H)** attached to an alkyl group or hydrogen. The carbon of the –COOH group is the carbonyl carbon (C=O) bonded to an –OH group.
+#### Physical Properties
+Boiling points are higher than for alcohols of similar molar mass because two molecules form a **cyclic hydrogen-bonded dimer** in liquid and even in vapour phase. Solubility in water drops sharply once the carbon chain exceeds four carbons (butanoic acid is still soluble; hexanoic acid is not).
 
-General formula: **R–COOH** (where R = H for formic acid, alkyl for higher acids)
+#### Preparation and Reactions
 
-## Nomenclature
+| Reaction | Reagent / Condition | Product |
+|---|---|---|
+| Oxidation of primary alcohol/aldehyde | KMnO<sub>4</sub> or K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>, heat | RCOOH |
+| Hydrolysis of nitrile | H<sub>3</sub>O<sup>+</sup>, heat | RCOOH + NH<sub>4</sub><sup>+</sup> |
+| Grignard + CO<sub>2</sub> | dry ether, then H<sub>3</sub>O<sup>+</sup> | RCOOH |
+| Fischer esterification | R′OH, H<sup>+</sup> catalyst | Ester + H<sub>2</sub>O |
+| Acid chloride formation | SOCl<sub>2</sub> or PCl<sub>5</sub> | RCOCl |
+| Reduction | LiAlH<sub>4</sub> | Primary alcohol RCH<sub>2</sub>OH |
 
-Common and IUPAC names:
-- Methanoic acid = **Formic acid** (HCOOH) — from ants (formica)
-- Ethanoic acid = **Acetic acid** (CH₃COOH) — from vinegar
-- Propanoic acid = **Propionic acid** (C₂H₅COOH)
-- Butanoic acid = **Butyric acid** (butyric = butter) — responsible for rancid butter odor
-- Pentanoic acid = **Valeric acid**
-- Hexanoic acid = **Caproic acid**
+> Trap: saponification of a triglyceride needs **3 mol NaOH** per mole of fat, not 1 — write the equation as C<sub>3</sub>H<sub>5</sub>(OCOR)<sub>3</sub> + 3 NaOH → C<sub>3</sub>H<sub>5</sub>(OH)<sub>3</sub> + 3 RCOONa.
 
-Dicarboxylic acids:
-- Ethanedioic acid = **Oxalic acid** (HOOC–COOH) — found in rhubarb leaves; toxic
-- Propanedioic acid = **Malonic acid**
-- Butanedioic acid = **Succinic acid**
-- Hexanedioic acid = **Adipic acid** — used in nylon synthesis
+In the SLMC Chemistry paper this topic appears as a **2–4 mark short note** asking for the general formula, one named reaction with a balanced equation, and a one-line acidity comparison.
 
-## Physical Properties
+---
 
-| Property | Trend |
-|---|---|
-| Boiling point | High (due to **dimeric hydrogen bonding** via two –COOH groups); increases with chain length |
-| Melting point | Even-numbered dicarboxylic acids have higher MP than odd-numbered (due to packing efficiency) |
-| Solubility | C₁–C₄: miscible with water; C₅–C₉: sparingly soluble; C₁₀+: insoluble |
-| Odor | Formic acid: pungent; Acetic acid: vinegar; Butyric acid: rancid |
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-**Hydrogen bonding in carboxylic acids**: Each –COOH group can form hydrogen bonds with TWO other molecules — this gives carboxylic acids unusually high boiling points (acetic acid BP 118°C vs ethanol BP 78°C despite similar MW).
+#### Substituent Effects on Acidity
+Acidity is governed by how well the conjugate base is stabilised. **Electron-withdrawing groups** (–Cl, –NO<sub>2</sub>, –CN) on the α-carbon pull electron density away and stabilise RCOO⁻, lowering pKa. **Electron-donating groups** (–CH<sub>3</sub>, –OCH<sub>3</sub>) destabilise it, raising pKa. This is the **inductive effect**.
 
-In the **solid and liquid states**, carboxylic acids exist as **dimers** via intermolecular H-bonding:
-```
-HOOC–R······O=C–R
-      ↑
-   hydrogen bond
-```
+> Classic ordering: formic (pKa 3.75) < chloroacetic (2.87) < acetic (4.76) < propanoic (4.87) < butanoic (4.82). Chlorine makes chloroacetic **stronger** than acetic despite the longer chain.
 
-## Chemical Properties
+#### Decarboxylation — A Frequently Confused Reaction
+Only the **sodium salt heated with soda lime (NaOH/CaO)** undergoes decarboxylation: RCOONa + NaOH → RH + Na<sub>2</sub>CO<sub>3</sub>. The free acid RCOOH **does not** lose CO<sub>2</sub> under these conditions. β-keto acids and malonic acids decarboxylate spontaneously on gentle heating because they form a cyclic six-membered transition state.
 
-### 1. Acidity
+#### Connections to Other Topics
+Carboxylic acids bridge multiple syllabus areas: **esters** (fats, oils, biodiesel), **amides** (peptide bonds in proteins), and **citric/succinic acids** in the Krebs cycle. The same carbonyl-chemistry logic used here applies later to acid derivatives (RCOCl, (RCO)<sub>2</sub>O, RCOOR′, RCONH<sub>2</sub>), all of which are more reactive than the parent acid because the leaving group is weaker than OH⁻.
 
-Carboxylic acids are **weak acids** (pKa ~4–5):
-- They dissociate: **R–COOH ⇌ R–COO⁻ + H⁺**
-- The carboxylate anion (R–COO⁻) is **stabilized by resonance** — two equivalent resonance structures delocalize the negative charge across two oxygen atoms
+#### Common Mistakes
+- Confusing the **–OH proton** (acidic) with the **α-hydrogen** (not acidic in the Brønsted sense).
+- Writing esterification without the acid catalyst H<sub>2</sub>SO<sub>4</sub>.
+- Forgetting that **dimers** explain boiling-point anomalies in physical-property questions.
 
-Acid strength increases with:
-- **Electron-withdrawing substituents** (e.g., –Cl, –NO₂) via inductive effect
-- **Conjugation** with π-systems (e.g., benzoic acid: pKa 4.20)
-- **Formic acid** is stronger than acetic acid because the R group is H (no inductive effect from alkyl group)
+#### Practice Prompts
+1. Write the balanced equation for the conversion of ethanol to ethyl ethanoate in three steps, naming each reagent.
+2. Arrange formic, acetic, dichloroacetic and propanoic acids in **increasing pKa** order, justifying the ranking with resonance and inductive arguments.
 
-Neutralization reactions:
-- **R–COOH + NaOH → R–COONa + H₂O**
-- **R–COOH + Na₂CO₃ → R–COONa + NaHCO₃**
-- **R–COOH + NaHCO₃ → R–COONa + H₂O + CO₂↑** (effervescence — diagnostic test!)
+---
 
-### 2. Esterification (Fischer Esterification)
+## Continue your study
 
-**Acid-catalyzed reaction of carboxylic acid with alcohols:**
-- **R–COOH + R'–OH ⇌ R–COOR' + H₂O** (conc. H₂SO₄ catalyst, heat)
-- This is a **reversible reaction** — excess alcohol or removal of water drives the equilibrium toward ester
-- Esters are named as **alkyl alkanoates** (e.g., ethyl acetate = ethyl ethanoate)
-
-Mechanism: **Nucleophilic acyl substitution** — the nucleophile (alcohol) attacks the carbonyl carbon; the –OH group leaves as water.
-
-### 3. Reduction
-
-- **R–COOH + LiAlH₄ → R–CH₂OH** (primary alcohol — reduces entire acid to alcohol)
-- **R–COOH + R'/MgBr → NO direct reaction** (Grignard does NOT directly add to carboxylic acids — the acid protonates the Grignard reagent first!)
-
-To make tertiary alcohols from carboxylic acids:
-1. Reduce acid to alcohol with LiAlH₄
-2. Oxidize alcohol to ketone with PCC
-3. Add 2 equivalents of Grignard
-
-### 4. Decarboxylation
-
-Heating calcium salts of carboxylic acids produces **ketones** (dry distillation):
-- **2CH₃COONa + Ca(OH)₂ → (CH₃)₂C=O + Na₂CO₃ + H₂O** (acetone from calcium acetate)
-
-Sodium salts of carboxylic acids with **NaOH + CaO** at high temperature produce **alkanes**:
-- **CH₃COONa + NaOH + CaO → CH₄ + Na₂CO₃** (methane from sodium acetate)
-This is the **Kolbe's electrolysis** principle for alkane preparation.
-
-### 5. Hell-Volhard-Zelinsky (HVZ) Reaction
-
-**Alpha halogenation** of carboxylic acids:
-- **R–CH₂–COOH + Br₂/PBr₃ → R–CH(Br)–COOH** (α-bromo acid)
-- Reaction occurs at the **alpha carbon** (carbon adjacent to carboxyl group)
-- Used to make amino acids (via azide substitution) — biologically very important
-
-### 6. Conversion to Acid Chlorrides
-
-**R–COOH + SOCl₂ → R–COCl + SO₂ + HCl**
-or: **R–COOH + PCl₅ → R–COCl + POCl₃ + HCl**
-
-Acid chlorides are highly reactive intermediates for organic synthesis.
-
-## Important Carboxylic Acids in Medicine
-
-- **Acetylsalicylic acid** (Aspirin): acetyl ester of salicylic acid; NSAID; antipyretic; anticoagulant properties
-- **Salicylic acid**: keratolytic agent used in wart treatments; precursor to aspirin
-- **Lactic acid** (2-hydroxypropanoic acid): produced during muscle exertion; involved in the Cori cycle
-- **Citric acid**: component of Krebs cycle; used as acidulant in pharmaceutical syrups
-- **Oxalic acid**: toxic; found in rhubarb; chelates calcium — causes kidney stones
-- **Benzoic acid**: preservative (sodium benzoate); antifungal
-- **EDTA**: ethylenediaminetetraacetic acid — chelating agent used in heavy metal poisoning treatment
-
-## Clinical and Medical Relevance
-
-- **Acetic acid (vinegar)**: used as a solvent and for urinary alkalinization; 1% solution for ear infections (Swimmer's ear)
-- **Citric acid** in the **Krebs cycle**: each turn consumes 1 acetyl-CoA, produces 3 NADH, 1 FADH₂, 1 GTP
-- **Lactic acidosis**: buildup of lactic acid in blood; seen in shock, severe exercise, metformin toxicity
-- **Sodium benzoate** as a preservative in foods and medications — concerns about hyperactivity in children
-- **Aspirin** mechanism: irreversibly inhibits COX-1 and COX-2 enzymes → decreased prostaglandin synthesis → anti-inflammatory, analgesic, antipyretic effects
-
-## Common SLMC Exam Traps
-- Carboxylic acids do NOT react with Grignard reagents directly — the acidic H protonates the Grignard reagent first, destroying it
-- To convert carboxylic acid to tertiary alcohol, you must FIRST reduce to alcohol (LiAlH₄), THEN react with Grignard
-- Esterification occurs at the **carbonyl carbon** (acyl carbon), not the alpha carbon
-- Sodium bicarbonate test (effervescence with NaHCO₃) distinguishes carboxylic acids from phenols — phenols are weak acids but do NOT effervesce with NaHCO₃
+- **[View this topic in your SLMC Medical (Sri Lanka) roadmap](/roadmap/?exam=slmc&duration=1mo)** — see where "Carboxylic Acids" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=slmc&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[SLMC Medical (Sri Lanka) exam overview](/exams/slmc/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/slmc/chemistry/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

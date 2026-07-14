@@ -371,11 +371,6 @@ const discontinuedNotice = DISCONTINUED_EXAMS[exam.examId];
     .sr-trust-h1 { font-family: ui-serif, Georgia, "Times New Roman", serif; font-weight: 600; letter-spacing: -0.02em; }
     .sr-trust-pulse { background: #b08d3c !important; }
   </style>
-  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
-  {faqJsonLd && <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />}
-  <script type="application/ld+json" set:html={JSON.stringify(howToJsonLd)} />
-  {courseJsonLd && <script type="application/ld+json" set:html={JSON.stringify(courseJsonLd)} />}
-
   <Navbar />
 
   <main id="main-content" class="flex-1">
@@ -805,4 +800,10 @@ const discontinuedNotice = DISCONTINUED_EXAMS[exam.examId];
   </main>
 
   <Footer />
+
+  <!-- Deferred structured data: after #main-content so LCP/h1 stay in first-14KB -->
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
+  {faqJsonLd && <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />}
+  <script type="application/ld+json" set:html={JSON.stringify(howToJsonLd)} />
+  {courseJsonLd && <script type="application/ld+json" set:html={JSON.stringify(courseJsonLd)} />}
 </Layout>

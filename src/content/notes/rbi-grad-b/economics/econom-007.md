@@ -8,109 +8,87 @@ topicName: "Market Structures"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-06-06"
+lastUpdated: "2026-07-14"
 ---
 
 # Market Structures
 
 ### 🟢 Lite — Quick Review (1h–1d)
-
 > Rapid summary for last-minute revision before your exam.
 
-**Market structures** classify markets by degree of competition, determined by number of sellers, product type, entry barriers, and price control.
+**Market structure** describes how a market is organised based on the **number of buyers and sellers**, **product differentiation**, **barriers to entry**, and **information availability**. These features determine whether a firm is a **price taker** (perfect competition) or a **price maker** (monopoly, oligopoly).
 
-**Four structures:** Perfect competition (many firms, homogeneous product, price taker) → Monopolistic competition (many firms, differentiated product, some price control) → Oligopoly (few firms, interdependence) → Monopoly (single firm, price maker, barriers to entry).
+- **Perfect Competition:** AR = MR = P; long-run profit is zero economic profit (normal profit only); P = MC = min AC.
+- **Monopoly:** Single seller, MR < P; sustained **supernormal profit** possible; deadweight loss arises.
+- **Oligopoly:** Few interdependent firms; **Sweezy's kinked demand curve** explains price rigidity; HHI > 2,500 = highly concentrated.
+- **Monopolistic Competition (Chamberlin):** Many firms, differentiated products, **excess capacity** in long run.
 
-**Key formula:** MR = MC (profit maximization for all structures). In **perfect competition** specifically, AR = MR = P (price equals both average and marginal revenue).
-
-**Lerner Index** measures market power: L = (P − MC)/P = 1/|ed|, where P = price, MC = marginal cost, ed = elasticity of demand. Higher L = more monopoly power.
-
-**RBI-specific:** Expect 1–2 MCQ questions. Common traps: conflating AR = MR as universal (only in perfect competition), forgetting that monopolistic competition earns zero economic profit in LR (P = AC), and using wrong MR formula for different structures.
+**High-yield formulas:** HHI = Σ(sᵢ)²; CRₙ = (Σ top-n shares / total sales) × 100; Lerner Index = (P − MC) / P.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-#### Four Market Structures Compared
+## The Four Canonical Structures
 
-| Structure | Sellers | Product | Entry | P vs MC | LR Profit |
-|---|---|---|---|---|---|
-| Perfect Competition | Many | Homogeneous | Free | P = MC | Zero (normal) |
-| Monopolistic Competition | Many | Differentiated | Free | P > MC | Zero (P = AC) |
-| Oligopoly | Few | Homog./Differentiated | Restricted | P > MC | Can be positive |
-| Monopoly | One | Unique | Blocked | P > MC | Supernormal |
+| Feature | Perfect Competition | Monopolistic Competition | Oligopoly | Monopoly |
+|---|---|---|---|---|
+| Number of firms | Very large | Large | Few | One |
+| Product type | Homogeneous | Differentiated | May be differentiated | Unique, no close substitute |
+| Entry barriers | None | Low | High | Very high |
+| Price maker/taker | Taker | Partial maker | Partial maker | Maker |
+| AR vs MR | AR = MR = P | AR > MR | AR > MR (typically) | AR > MR |
+| Long-run profit | Normal only | Normal only (excess capacity) | Supernormal possible | Supernormal possible |
+| Example | Agricultural produce | Restaurants, retail | Telecom, airlines | Railways (historically) |
 
-#### Profit Maximization Condition
+#### Profit-Maximisation and the Shutdown Rule
 
-The rule **MR = MC** applies universally across all market structures. Firms produce where MR crosses MC from below.
-
-**Derivation for monopoly/monopolistic competition:** TR = P × Q, but since P falls as Q rises: MR = dTR/dQ = P + Q(dP/dQ) = P[1 + 1/ed]. Because ed is negative, MR < P.
-
-**In perfect competition:** since firms are price takers, P = AR = MR (demand curve is perfectly elastic). Therefore P = MC at equilibrium.
-
-#### Social Cost of Monopoly
-
-Monopoly creates **deadweight loss** (DWL): the triangle between P = MC and P = monopoly price. This represents allocative inefficiency — society loses surplus because output is below the socially optimal level.
-
-**Lerner Index** (L) = (P − MC)/P = 1/|ed|. Higher values indicate greater market power. For a perfectly competitive firm where P = MC, L = 0.
+Every firm maximises profit where **MR = MC**, subject to the second-order condition that **MC must be rising** (cutting MC) at that output. Profit equals **TR − TC**, where TR = P × Q. The **shutdown rule** states a firm exits production in the short run only if **P < AVC** (Average Variable Cost); otherwise it covers variable costs and some fixed costs. The **break-even point** occurs when **P = ATC** — the firm earns exactly normal profit, with zero economic profit but full cost recovery.
 
 #### Concentration Measures
 
-- **CRn**: Sum of market shares of top n firms. CR4 > 40% suggests oligopoly.
-- **HHI**: Σ(si)², where si = market share of firm i in %. HHI > 2500 indicates high concentration (US DOJ threshold for anti-competitive concern).
+Two indices quantify market concentration. **CRₙ** sums the market shares of the top *n* firms as a percentage of total industry sales. **HHI** squares each firm's market share (expressed as a whole-number percentage, e.g. 25 for 25%) and sums them, ranging from near 0 to 10,000. The Competition Commission of India (CCI) follows US DoJ thresholds: HHI < 1,500 is unconcentrated, 1,500–2,500 is moderate, > 2,500 is highly concentrated.
 
-#### Exam Pattern for RBI Grade B
+#### Oligopoly Behaviour
 
-RBI Grade B asks 3–4 questions from this topic. Questions often require:
-- Identifying market structure from a scenario
-- Calculating Lerner Index
-- Comparing efficiency across structures
-- Understanding why monopoly produces less than socially optimal output
+Oligopoly is defined by **strategic interdependence**. Sweezy's **kinked demand curve** assumes rivals match price cuts but ignore price hikes, producing a discontinuity in the MR curve and explaining observed price stickiness. A **cartel** (e.g., OPEC) is a formal collusive arrangement to restrict output and raise price; it is inherently unstable because each member has an incentive to cheat.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-#### Price Discrimination
+#### Edge Cases and Contestable Markets
 
-A monopolist with market power may charge different prices to different consumers. Three types exist:
+Baumol's **contestable markets theory** shows that even an industry with one or two incumbent firms can exhibit competitive pricing when **entry and exit costs are low**. The threat of hit-and-run entry disciplines incumbents, who price at average cost despite concentrated structure. This refines the textbook monopoly model and explains why some deregulated industries (e.g., domestic aviation in post-2003 India) behaved competitively despite high HHI values.
 
-- **First-degree (perfect discrimination):** Charge each consumer their maximum willingness to pay. MR = P (no DWL), but practically difficult to implement.
-- **Second-degree:** Different prices for different quantities consumed (e.g., volume discounts).
-- **Third-degree (most common):** Separate prices for different market segments (e.g., student discounts, senior citizen fares). Requires identifiable groups with different elasticities.
+#### Price Discrimination and the "PIGGY" Conditions
 
-The condition: MR in each segment = MC for overall profit maximization. Consumers with inelastic demand pay higher prices.
+Under monopoly, a firm may practise **price discrimination** when: it has market power (**P**ower), each sub-market has distinct **I**ncidence of demand, the firm can prevent **G**rey-market resale (**G**atekeeping), and consumer groups have different price elasticities (**Y**ield). The **Lerner Index** (P − MC) / P measures monopoly power directly: 0 in perfect competition, approaching 1 in pure monopoly.
 
-#### Oligopoly and Game Theory
+#### Connection to Banking and RBI Policy
 
-Oligopoly firms are **interdependent** — each firm's decision depends on rivals' responses. This makes game theory essential:
+Market structure shapes the **monetary transmission mechanism**. A concentrated banking sector can dampen policy rate pass-through because a few dominant banks adjust deposit and lending rates with a lag. RBI's 2017 and 2020 reports on financial market concentration warn that high **HHI in public-sector bank lending** can suppress credit access for SMEs. The **Competition Act 2002**, enforced by the CCI, prohibits anti-competitive agreements and abuse of dominance — directly relevant to banking mergers and cartel-like behaviour in syndicated lending.
 
-- **Nash Equilibrium:** Each firm chooses its best strategy given rivals' strategies. No firm can gain by unilaterally changing its choice.
-- **Collusion/Cartel:** Firms coordinate to behave like a monopoly, sharing monopoly profit. Unstable — incentive to cheat. Cartels often collapse (OPEC is a notable exception).
-- **Prisoner's Dilemma:** Individual rational choices lead to inferior collective outcomes. Both firms would earn more by colluding, but each has incentive to cheat.
+#### Common Traps
 
-**Kinked demand curve model:** If a rival matches price cuts but ignores price increases, a firm's demand curve has a kink at the current price. This explains price rigidity in oligopoly.
-
-#### Common Mistakes to Avoid
-
-1. **AR = MR is NOT universal.** This holds only in perfect competition where price is constant. In monopoly and monopolistic competition, MR < AR (price) because firms face downward-sloping demand.
-
-2. **Long-run profit confusion.** Perfect and monopolistic competition yield zero economic profit in LR (P = AC) due to free entry. Monopoly retains supernormal profit because barriers prevent entry.
-
-3. **HHI calculation:** Market shares must be squared, not summed directly. A duopoly with 50% each: HHI = 2500 + 2500 = 5000 (highly concentrated).
-
-4. **Monopolistic competition efficiency:** LR equilibrium has excess capacity — firms produce below the minimum AC point, meaning productive inefficiency exists alongside allocative inefficiency.
-
-#### Connections to Adjacent Topics
-
-- **Market failure:** Monopoly's DWL is a textbook example of market failure requiring regulation.
-- **Imperfect information:** Affects all structures — oligopoly pricing strategies often exploit information asymmetry.
-- **Factor markets:** Monopsony (single buyer) parallels monopoly; LR equilibrium condition P = AC extends to labor markets.
+- Confusing **AR with MR**: AR = P always; MR < P except under perfect competition.
+- Equating zero economic profit with accounting loss — in long-run equilibrium under perfect competition, the firm still earns normal profit (opportunity cost of capital covered).
+- Misapplying the **kinked demand curve** to perfect competition, where individual firm demand is perfectly elastic (not kinked).
 
 #### Practice Prompts
 
-1. A monopoly faces demand P = 100 − Q and MC = 20. Calculate profit-maximizing output, price, and Lerner Index. (Answer: Set MR = MC → MR = 100 − 2Q = 20 → Q = 40; P = 60; L = (60−20)/60 = 0.67)
+1. Compute HHI for an industry with five firms having shares 30%, 25%, 20%, 15%, 10%. (Answer: 2,250 — moderately concentrated.)
+2. Explain in 120 words why a monopolist's socially optimal output is lower than the competitive level, and how deadweight loss is measured.
 
-2. Two firms in a duopoly simultaneously choose prices. Game theory predicts equilibrium outcome differs from monopoly outcome. Explain using Nash equilibrium concept.
+---
+
+## Continue your study
+
+- **[View this topic in your RBI Grade B roadmap](/roadmap/?exam=rbi-grad-b&duration=1mo)** — see where "Market Structures" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=rbi-grad-b&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[RBI Grade B exam overview](/exams/rbi-grad-b/)** — pattern, eligibility, and syllabus
+- **[All Economics notes](/notes/rbi-grad-b/economics/)** — browse sibling topics in this subject
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

@@ -8,7 +8,7 @@ topicName: Mughal Empire
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-07-14"
 ---
 
 # Mughal Empire
@@ -16,249 +16,120 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-The **Mughal Empire** (1526–1858) was one of the greatest empires in Indian history — founded by **Babur** after his victory at Panipat, it reached its zenith under **Akbar, Jahangir, Shah Jahan, and Aurangzeb.** The Mughals left an indelible mark on Indian art, architecture, culture, and administration.
+The **Mughal Empire (1526–1857)** was a Turko-Mongol dynasty founded by **Babur** at the **First Battle of Panipat (1526)** against Ibrahim Lodi. It reached its administrative, cultural, and economic zenith under **Akbar, Jahangir, Shah Jahan, and Aurangzeb**, then dissolved after the 1857 revolt.
 
-**Key Facts for RPSC RAS:**
-- **Babur** (r. 1526–1530) founded the empire — defeated Ibrahim Lodi at the **First Battle of Panipat (1526)**.
-- **Humayun** (r. 1530–1540, then 1555–1556) — Babur's son; exiled to Persia; returned and reclaimed the throne.
-- **Akbar** (r. 1556–1605) — the greatest Mughal; consolidated the empire; **Akbarnama; Din-i-Ilahi**.
-- **Jahangir** (r. 1605–1627) — lover of art; married Nur Jahan.
-- **Shah Jahan** (r. 1628–1658) — built the **Taj Mahal** (for Mumtaz Mahal, 1632–1653); deposed by his son Aurangzeb.
-- **Aurangzeb** (r. 1658–1707) — expanded to the Deccan; reimposed jizya; faced rebellions.
-- The empire ended after the **1857 rebellion** — last Mughal emperor **Bahadur Shah Zafar** was exiled to Rangoon.
+#### Must-Know Pillars
 
-**⚡ Exam tip:** The causes of the First Battle of Panipat, Akar's religious policy, the Taj Mahal, and Aurangzeb's Deccan campaigns are frequently asked.
+- **Akbar's religious policy**: Sulh-i-Kul (universal tolerance), abolition of Jaziya in **1564**, founding of **Din-i-Ilahi in 1582** at Fatehpur Sikri's Ibadat Khana.
+- **Mansabdari system**: dual ranks of **Zat** (personal pay rank) and **Sawar** (cavalry rank, never exceeding Zat, ranging 10–10,000), non-heritable, with periodic **Dagh-o-chehrah** branding/mustering.
+- **Land revenue**: Todar Mal's **Zabti/Dahsala** assessed one-third of average 10-year produce (Kar-i-Kalang) in cash.
+
+#### High-Yield Pointers
+
+- **Aurangzeb's territorial peak** at death (~3.2 million sq km); executed Sambhaji (1689), reimposed Jaziya (1679), executed Guru Tegh Bahadur (1675).
+- **Third Battle of Panipat (1761)** = Ahmad Shah Abdali vs Maratha Peshwa Sadashivrao Bhau — **not** Mughals vs Marathas.
+- **Treaty of Allahabad (1765)** followed the **Battle of Buxar (1764)** and granted Diwani of Bengal, Bihar, Orissa to the East India Company.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-## Foundation — Babur (1526–1530)
+## Founding and Early Consolidation
 
-### The First Battle of Panipat (21 April 1526)
+Babur's three foundational victories — **Panipat (1526), Khanwa (1527)** against Rana Sanga, and **Ghaghra (1529)** against Afghan chiefs — established Timurid legitimacy in north India. Humayun lost the empire to **Sher Shah Suri (1540)** and spent **1543–1555** in Safavid exile before regaining it at the **Battle of Sirhind (1555)**. The Sur Interregnum matters for RAS because Sher Shah's administrative innovations (rupia, sarais, road network) were selectively adopted by Akbar later.
 
-**Background:**
-- **Ibrahim Lodi** (last Lodi sultan) was unpopular — Afghan nobles were defecting
-- Babur (descended from Timur and Chengiz Khan) had established himself in Kabul (1507)
-- He crossed the Indus and advanced into the Punjab
+## Akbar's Administrative Architecture
 
-**Battle:**
-- Ibrahim Lodi had **over 100,000 troops and 1,000 elephants**
-- Babur had ~12,000 troops — but used **artillery (topchi)** and **tulughma** tactics (encircling from flanks)
-- Ibrahim Lodi was **killed in battle** — his army disintegrated
+Akbar built the empire's institutional core between 1556 and 1605, advised by his **Navratnas** (Birbal, Tansen, Todar Mal, Abul Fazl, Faizi, Raja Man Singh, etc.). The **Mansabdari** ranked nobles on a decimal scale of 10 to 10,000, with **Zat** determining personal status/pay and **Sawar** indicating actual cavalry maintained.
 
-**Significance:**
-- Ended the Delhi Sultanate
-- Started the Mughal Empire
-- First use of artillery in India in a major battle — a game-changer
-
-### Babur's Reign (1526–1530)
-
-- Established the Mughal Empire in the Delhi-Agra region
-- Faced the **Battle of Khanwa (1527)** against the Rajput confederacy under **Rana Sanga** — Babur won
-- Defeated the **Afghan nobles** at the **Battle of Ghagra (1529)**
-- Died in 1530 — left a powerful empire to his son Humayun
-
-**Babur's Memoirs:** **Baburnama** — written in Chagatai Turkic — provides vivid details of his life
-
----
-
-## Humayun (1530–1540, 1555–1556)
-
-### Early Reign Challenges
-
-- Humayun inherited the empire but struggled with:
-  - Afghan nobles rebelling
-  - Bahadur Shah (Gujarat) attacking
-  - His own brothers (Kamran, Askari, Hindal) fighting for territory
-
-### Sher Shah Suri
-
-**Sher Shah Sur (r. 1540–1545):**
-- Formerly **Farid Khan** — renamed Sher Shah by Humayun
-- Became the governor of Bihar — then revolted
-- Defeated Humayun at the **Battle of Kanauj (1540)** — Humayun fled to Persia
-
-**Sher Shah's Achievements:**
-- Founded the **Sur dynasty**
-- **Great administrator** — introduced reforms that lasted centuries
-- **Grand Trunk Road** — built the GT Road from Bengal to Kabul (still used today)
-- **Currency reform** — introduced the silver **Rupee** (derived from Sanskrit "rupiya")
-- **Postal system (Dak)** — efficient intelligence and communication network
-
-### Humayun's Return (1555)
-
-- After years in Persia, Humayun returned with Persian help
-- Defeated the Sur forces at the **Battle of Sirhind (1555)**
-- Died in 1556 (accidentally fell from his terrace while reading)
-
----
-
-## Akbar — The Great (1556–1605)
-
-### Consolidation
-
-**Early Years:**
-- Akbar was only 13 when Humayun died
-- His **regent was Bairam Khan** — who stabilised the empire
-- **Battle of Panipat II (1556):** Akbar's forces under Bairam Khan defeated **Hem Chandra (Hemu)** — the Hindu Afghan who had seized Delhi
-
-### Military Conquests
-
-Akbar's empire expanded dramatically:
-
-| Region | Method | Notable Events |
+| Feature | Zat | Sawar |
 |---|---|---|
-| **Rajputana** | Marriage alliance + conquest | Married **Jodha Bai** (princess of Amer); Rajputs became loyal allies |
-| **Gujarat** | Military conquest | 1572–73 — rich and commercially important |
-| **Bengal** | Military conquest | 1574–76 — defeated Daud Khan Karrani |
-| **Kashmir** | Conquest (no battle) | annexed peacefully |
-| **Deccan** | Diplomacy + limited war | annexed Ahmadnagar, Berar, Khandesh |
+| Meaning | Personal rank + salary | Cavalry rank |
+| Range | 10 – 10,000 (later higher) | Always ≤ Zat |
+| Special variants | — | Du-Aspah (double), Sih-Aspah (triple) |
+| Hereditary? | No | No |
+| Review | Periodic Dagh-o-chehrah (branding + muster) | Same |
 
-### Religious Policy — Din-i-Ilahi
+> **Trap to avoid:** Many students write "Sawar equals Zat for all Mansabdars." In reality, Sawar was a *separate* quota that could be lower than Zat; du-Aspah and sih-Aspah were the multi-horse elites.
 
-Akbar was famous for his **liberal religious policy:**
-- Married **Hindu, Parsi, and Rajput wives** — promoted communal harmony
-- **Abolished jizya** (tax on non-Muslims) — a revolutionary step
-- **Akbarnama** — written by Abul Fazl; official biography
-- **Din-i-Ilahi** (Divine Faith): Akbar's own religious idea — synthesised elements of Islam, Hinduism, Christianity, Jainism, Zoroastrianism
-  - Did not become popular — only ~20 followers
-- **Ibadat Khana** (House of Worship) — where scholars of all faiths debated
+## Revenue Administration
 
-### Administration
+Akbar authorised **multiple** revenue systems, not only Zabti. **Todar Mal's** standardisation after 1580 (Dahsala) measured the average produce of the last 10 years (Kar-i-Kalang) in cash at rates fixed per bigha in dams.
 
-**Mansabdari System:**
-- The **Mansabdari** system was Akbar's administrative innovation
-- Every noble was assigned a **mansab** (rank) from **Zat (personal salary)** and **Sawar (cavalry allowance)**
-- **Mansabdars** ranged from **Mansab 10 to Mansab 5,000**
-- Basis of military and administrative organisation
-- Combined **civil, military, and land revenue** functions
+| System | Region / Context | Method |
+|---|---|---|
+| **Zabti / Dahsala** | North India (Awadh, Agra, Delhi) | Cash assessment on 10-year average |
+| **Nasq / Nasaq** | Bengal, Bihar | Rough cash estimate per area |
+| **Kankut / Ghat-bakshi** | Deccan, Gujarat | Estimate by grain heaps |
+| **Batai** | Everywhere (default) | Crop-sharing (1/2, 2/5, etc.) |
+| **Nasaq-i-muqaddam** | Village-level | Headman's estimate |
 
-**Revenue System — Todar Mal:**
-- **Ain-i-Dharmani** (established by Akbar's finance minister **Raja Todar Mal**)
-- Standardised **land revenue** system:
-  - **Zabt system:** Land revenue based on measurement (measured in bighas)
-  - **Rates fixed** per quality of land
-  - **Cash payment** in most areas
-  - **Highly efficient** — increased revenue significantly
+## Provincial and Court Hierarchy
 
----
+Under **Aurangzeb, 15 Subahs** (subas) were governed by **Subedars** (military-administrative head), assisted by a **Diwan** (revenue), **Bakhshi** (military pay), **Sadr-us-Sudur** (religious/charity), **Qazi** (judge), and **Kotwal** (city police). At the centre, the **Diwan-i-Kul** oversaw all provincial Diwans; the **Mir Bakshi** handled military matters through the central Bakhshi.
 
-## Jahangir (1605–1627)
+## Jahangir, Shah Jahan, and Aurangzeb
 
-**Personality:** Jahangir was an **art lover and wine enthusiast:**
+- **Jahangir (r. 1605–1627)** continued Akbar's Rajput policy, accepted Mewar's submission in 1615 under Amar Singh, and is associated with the **Chain of Justice at Agra Fort** — *not* Akbar, as is frequently misattributed.
+- **Shah Jahan (r. 1628–1658)** built the **Taj Mahal, Red Fort, Jama Masjid, Moti Masjid** and the **Peacock Throne**, but his **Central Asian and Balkh-Badakhshan campaigns failed** and drained the treasury. The war of succession (1657–1659) pitted **Dara, Shuja, Aurangzeb, and Murad** — Aurangzeb prevailed and imprisoned his father till death.
+- **Aurangzeb (r. 1658–1707)** stretched the empire to its largest extent but lost it through over-extension in the Deccan, Jat, Satnami, Sikh, Bundela, Rajput (Marwar/Mewar), and Maratha wars. His **reimposition of Jaziya (1679)** and **execution of Guru Tegh Bahadur (1675)** reversed Akbar's syncretic legacy.
 
-**Key Features:**
-- Married **Nur Jahan** (original name Mehr-un-Nissa) — the most powerful Mughal empress
-- **Nur Jahan** wielded significant political influence — managed the empire during Jahangir's illness
-- Built the **Tomb of Itimad-ud-Daulah** — the "Baby Taj" — first Mughal structure in white marble
-- **Art patronage:** The **Mughal painting** reached new heights under Jahangir — naturalistic portraits, miniatures
+> **Mains tip:** When asked "Was Aurangzeb responsible for Mughal decline?" — credit his **jagirdari crisis** (Bejagir, Biswa-desa, ijarah malpractices), long Deccan wars, and breakdown of **Sulh-i-Kul**.
 
-**Jahangir's Memoir:** **Tuzuk-i-Jahangiri** — provides detailed accounts of his reign
+## Later Mughals and Decline
+
+After Aurangzeb, **17 emperors** ruled in 150 years as puppets of nobles, Marathas, and finally the British. **Muhammad Shah 'Rangila'** saw the **Nadir Shah invasion (1739)** — Delhi sacked, Peacock Throne and Kohinoor seized. **Ahmad Shah Abdali's 8 invasions (1748–1769)** culminated in the **Third Battle of Panipat (1761)**. **Shah Alam II** was granted the **Diwani of Bengal, Bihar, and Orissa** to the East India Company at the **Treaty of Allahabad (1765)** after the **Battle of Buxar (1764)**, reducing the emperor to a British pensioner until **Bahadur Shah Zafar's deposition in 1857**.
 
 ---
 
-## Shah Jahan (1628–1658)
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-### The Golden Age of Mughal Architecture
+## Edge Cases and Misattributions
 
-Shah Jahan is remembered as the **greatest patron of Mughal architecture:**
+RPSC examiners consistently test **finer distinctions** rather than headline facts. The following are the most frequently mishandled:
 
-**Major Buildings:**
+1. **Chain of Justice**: Belongs to **Jahangir at Agra Fort** (a golden chain with 60 bells for petitions). Akbar never had a literal chain — his accessibility was informal.
+2. **Din-i-Ilahi**: An ethical *order*, never a state religion; adherents probably never exceeded **18–20** including Birbal (who died in 1586). Abul Fazl does not even list it in the Akbarnama's religion section.
+3. **Sambhaji's capture (1689)**: Not by Aurangzeb personally, but by **Mu'azzam (later Bahadur Shah I) and Khan-i-Jahan Bahadur**, with Qazi Abdul Mannan of Sangamner passing sentence.
+4. **Shah Jahan's Central Asian campaigns**: The **Balkh–Badakhshan** expedition (1646–1647) under Murad, and the **Qandahar campaigns** all failed; Qandahar was permanently lost to the Safavids in 1649.
+5. **Nadir Shah**: The Peacock Throne was *seized*, not gifted; Delhi was plundered for **two months**; the **Kohinoor** and the **Mughal treasury** were carried away.
+6. **Buxar (1764) vs Allahabad (1765)**: Buxar was the **military defeat** of Shah Alam II, Shuja-ud-Daulah, and Mir Qasim by Hector Munro. Allahabad was the **political settlement** — Diwani granted, annual pension of **₹26 lakh** to Shah Alam, and **₹50 lakh** reserved for Nawab of Awadh.
 
-| Building | Location | Built For | Year |
-|---|---|---|---|
-| **Taj Mahal** | Agra | Mumtaz Mahal | 1632–1653 |
-| **Red Fort** | Delhi | Imperial residence | 1638–1648 |
-| **Jama Masjid** | Delhi | Grand mosque | 1650–1656 |
-| **Peacock Throne** | Delhi | Royal throne | 1650s |
-| **Moti Masjid** | Agra | Private mosque | 1660s |
+## Connections to Adjacent Topics
 
-**The Taj Mahal:**
-- Built by **20,000 workers** over **22 years**
-- White Makrana marble
-- Houses **Mumtaz Mahal's tomb** (Shah Jahan's wife); Shah Jahan's own tomb was never completed
-- **UNESCO World Heritage Site (1983)**
+- **Sher Shah Suri (RAS-prelims favourite)**: Compare his Grand Trunk Road reforms and *rupia* with Mughal currency; Akbar's revenue ideas drew from Sur models.
+- **Maratha Empire**: The **Treaty of Purandar (1665)** between Jai Singh I and Shivaji (ceded 23 forts, paid 4 lakh hun), the **coronation at Raigad (1674)**, and the **Ganimi Kava** guerrilla tactics. Aurangzeb's Deccan wars seeded Peshwa ascendancy.
+- **Sikh Empire**: Guru Tegh Bahadur's execution (1675) and later Guru Gobind Singh's creation of the Khalsa (1699) directly trace to Aurangzeb's religious turn.
+- **Architecture styles**: **Indo-Islamic synthesis** — Fatehpur Sikri's trabeate (post-and-lintel) under Akbar, Pietra Dura flowering under Shah Jahan, Aurangzeb's stark decline visible in **Bibi-ka-Maqbara (Aurangabad)** — a far cry from the Taj.
 
-### Later Years
+## Common Mistakes
 
-- Shah Jahan's sons fought for succession — **War of Succession (1657–58)**
-- **Aurangzeb** defeated his brothers and imprisoned Shah Jahan
-- Shah Jahan spent his last years in **Agra Fort** — gazing at the Taj Mahal
+- Writing "Mughals fought Marathas at Third Panipat" — it was **Abdali vs Peshwa**.
+- Treating **Mughal Empire end** as a single year — say "**de facto decline after 1707, de jure end 1857**."
+- Confusing **Nizam-ul-Mulk (Chin Qilich Khan, Hyderabad, 1724)** with **Mir Qasim (Bengal)** — contemporaries, different states.
+- Misattributing **Padshahnama** to Abdul Fazl (he wrote **Akbarnama**); Padshahnama is by **Abdul Hamid Lahori** under Shah Jahan.
+- Claiming Aurangzeb's empire covered a fixed **X million sq km** — give **~3.2 million sq km at his death (1707)** as the only defensible figure.
 
----
+## Worked Example: Identifying the Battle
 
-## Aurangzeb (1658–1707)
+> *Question*: "Arrange in chronological order: (i) Battle of Buxar, (ii) Treaty of Allahabad, (iii) Third Battle of Panipat, (iv) Nadir Shah's invasion."
 
-### Rise to Power
+Solution: (iv) **Nadir Shah (1739)** → (iii) **Third Panipat (1761)** → (i) **Buxar (1764)** → (ii) **Allahabad (1765)**. RPSC often frames Prelims questions this way to test event-vs-aftermath sequencing.
 
-Aurangzeb's **war of succession** was brutal:
+## Practice Prompts
 
-1. **Dara Shikoh** (eldest, favourite) — defeated at **Samugarh (1658)**
-2. **Shah Shuja** (second) — fled to Burma (lost his way)
-3. **Murad Baksh** (fourth) — executed by Aurangzeb
-4. **Aurangzeb** became emperor
-
-### Reign of Aurangzeb
-
-**Religious Policy — The Controversy:**
-- **Reimposed jizya** (1680) — on Hindus
-- **Destroyed Hindu temples** — Varanasi, Kashi Vishwanath, etc.
-- This **alienated** the Rajputs and other Hindu groups
-- **Note:** Earlier Mughal emperors had protected temples; Aurangzeb reversed this
-
-**Deccan Campaigns:**
-- Aurangzeb spent the **last 25 years of his life** in the Deccan
-- Fought the **Marathas** under **Shivaji**
-- **Shivaji's son Sambhaji** was executed by Aurangzeb (1689)
-- Yet the Maratha guerrilla warfare continued
-
-**The Deccan Campaigns were disastrous:**
-- Exhausted the Mughal treasury
-- Aurangzeb died in **Ahmednagar (1707)** — exhausted, the empire was in decline
-
-### Causes of Mughal Decline
-
-1. **Religious policies** — alienated non-Muslims
-2. **War of succession** — weakened the imperial institution
-3. **Deccan overreach** — drained resources
-4. **Maratha insurgency** — continuous rebellion
-5. **Nobles' power** — mansabdars became powerful and independent
-6. **Economic decline** — revenue system stagnated
+1. Compare **Akbar's Sulh-i-Kul with Aurangzeb's religious policy** — identify three policy reversals and link each to a specific event/year. (Mains GS I, 15 marks)
+2. Explain how the **Mansabdari system and the jagirdari crisis** together produced Mughal fiscal collapse by 1707. Use **Dagh-o-chehrah, Bejagir, and ijarah** in your answer. (Mains, 10 marks)
 
 ---
 
-## The Later Mughals and the End
+## Continue your study
 
-**Bahadur Shah I (Shah Alam) (1707–1712):**
-- Son of Aurangzeb — attempted reforms
-- First to use **"Shah Alam"** (Emperor of the World)
-- Made peace with the Rajputs and Marathas
+- **[View this topic in your RPSC RAS roadmap](/roadmap/?exam=ras&duration=1mo)** — see where "Mughal Empire" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ras&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[RPSC RAS exam overview](/exams/ras/)** — pattern, eligibility, and syllabus
+- **[All History notes](/notes/ras/history/)** — browse sibling topics in this subject
 
-**Muhammad Shah (1719–1748):**
-- **Invasion of Nader Shah** (1739) — Persian invasion; sacked Delhi; took the **Koh-i-Noor** and **Peacock Throne**
-- **Battle of Karnal (1739):** Nader Shah defeated the Mughal army
-
-**The 1857 Rebellion:**
-- Last Mughal emperor **Bahadur Shah Zafar** was deposed and exiled to **Rangoon (Yangon)** in 1858
-- The Mughal Empire officially ended
-
----
-
-## Practice Questions for RPSC RAS
-
-1. What were the causes of the First Battle of Panipat? Why did Babur win?
-2. What was the Mansabdari system? How did it function?
-3. What was Akbar's religious policy? How did he promote communal harmony?
-4. Describe the Taj Mahal — its construction, design, and significance.
-5. What caused the decline of the Mughal Empire?
-
-### Common Mistakes to Avoid
-
-- **Confusing the First Battle of Panipat (1526) with the Second (1556)** — different battles, different combatants.
-- **Thinking Akkar abolished jizya permanently** — it was reimposed by Aurangzeb.
-- **Confusing Sher Shah's reforms with Mughal reforms** — Sher Shah preceded Akbar.
-
----
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

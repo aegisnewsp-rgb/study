@@ -8,7 +8,7 @@ topicName: Maratha Empire and Confederacy
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-07-14"
 ---
 
 # Maratha Empire and Confederacy
@@ -16,221 +16,71 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-The **Maratha Empire** (c. 1674–1818) was founded by **Shivaji Bhonsle** and grew to become the dominant power in India by the mid-18th century — eventually forming the **Maratha Confederacy** that filled the vacuum left by the declining Mughals. Shivaji's grandson, **Sambhaji**, and later the **Peshwas** of Pune transformed the Marathas from a regional power into an empire that stretched from Attock (Afghanistan) to Cuttack (Odisha).
+The **Maratha Empire** was a Hindu polity founded by **Shivaji Bhonsale** in the western Deccan, crowned at Raigad in **1674**. It rested on fort-centred guerrilla warfare (*ganimi kava*), the *Ashtapradhan* council of eight ministers, and the twin levies **chauth** (¼ of land revenue) and **sardeshmukhi** (an extra ⅒ overlord claim). After Shivaji, the **Peshwas** (Brahmin prime ministers from 1713) turned a kingdom into a **Maratha Confederacy** of five houses: Peshwa, **Scindia (Gwalior)**, **Holkar (Indore)**, **Gaekwad (Baroda)**, **Bhonsle (Nagpur)**.
 
-**Key Facts for RPSC RAS:**
-- **Shivaji** (r. 1645–1680) founded the Maratha kingdom — declared **Hindu Chatrapati (king)** at Raigad in 1674.
-- **Shivaji's general**, **Morar Bhonsle**, built the **strong foundation of Maratha administration.**
-- The **Peshwa** system began in 1713 when **Balaji Vishwanath** became the Peshwa (chief minister).
-- Under **Sadashiv Rao Bhau** (Peshwa), the Marathas were defeated at the **Third Battle of Panipat (1761)** by Ahmad Shah Durrani.
-- The **Maratha Confederacy** ended after the **Anglo-Maratha Wars (1772–1818)** — the last major Indian power to resist British rule.
+| Must-know fact | Date / Value |
+|---|---|
+| Shivaji's coronation | 1674, Raigad |
+| Treaty of Purandar (Shivaji–Jai Singh) | 1665 |
+| Baji Rao I's northern expedition | 1737 (Delhi tribute) |
+| Third Battle of Panipat | 14 Jan 1761 (vs. Abdali) |
+| Treaty of Salbai | 1782 |
+| Third Anglo-Maratha War | 1817–18 |
 
-**⚡ Exam tip:** Shivaji's administration, the battle of Panipat, the Peshwa system, and the Maratha contribution to anti-Mughal resistance are high-yield topics.
+**High-yield pointers:** chauth ≠ sardeshmukhi; Panipat was lost by **Sadashiv Rao Bhau**, not Balaji Baji Rao personally; the Marathas were absorbed via **Subsidiary Alliance**, not Doctrine of Lapse.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-## Shivaji — The Founder (1629–1680)
+#### Foundations under Shivaji (1630–1680)
+Shivaji carved out *swarajya* from the Bijapuri Sultanate using light cavalry raids, night assaults, and a chain of hill forts — **Rajgad, Raigad, Sinhagad, Pratapgad, Torna**. The **Treaty of Purandar (1665)** with Mughal envoy Jai Singh I forced him to surrender 23 forts, though he retained Raigad. Coronation in 1674 made him a *Chhatrapati*, and the title *Hindu Pad Padshahi* signalled a pan-Hindu political vision.
 
-### Early Life
+#### Administrative and revenue system
+Power was institutionalised through the **Ashtapradhan** (Peshwa, Sachiv/Mukhya Prabhu, Mantri, Senapati, Panditrao, Nyayadisha, Sumant, Dabir) — ministers without fixed portfolios who reported directly to the king. **Chauth** was a protection-cum-protection grant of **¼ of the land revenue** of neighbouring territories, paid to the Marathas to forgo raids; **sardeshmukhi** was an additional **⅒ overlordship claim** by the head of the deshmukh families. Together they funded a fiscal-military machine without direct annexation.
 
-Shivaji was born in **Shivneri Fort** (Maharashtra) in 1629 to **Shahji Bhonsle** and **Jijabai**:
-- Father was a Maratha noble in the service of the Bijapur Sultanate
-- Mother **Jijabai** instilled strong Hindu pride and leadership values
-- Shivaji grew up watching Mughal and Bijapuri politics
+#### Peshwa ascendancy and Confederacy
+**Balaji Vishwanath (1713–20)** converted the Peshwa's office into a de facto hereditary prime-ministership. His son **Baji Rao I (1720–40)** pushed Maratha power north — **Battle of Bhopal (1737)** and the **Battle of Khardala** opened Rajputana and Delhi, where the Mughal emperor accepted Maratha protection. By the mid-18th century, conquests were distributed as hereditary *jagirs* among five great families — the **Peshwa at Pune, Scindia at Gwalior, Holkar at Indore, Gaekwad at Baroda, Bhonsle at Nagpur** — creating the loose **Maratha Confederacy**.
 
-### Rise to Power
+#### Panipat (1761) and decline
+The **Third Battle of Panipat (1761)** against Ahmad Shah Abdali shattered Maratha ambitions in the north; the Peshwa **Balaji Baji Rao (Nana Saheb)** lost his cousin **Sadashiv Rao Bhau** and large numbers of veteran sardars. After Panipat, internal rivalry (notably **Holkar vs. Scindia**) and British diplomacy eroded confederate unity.
 
-**Shivaji's early campaigns (1645–1655):**
-- Acquired **Torna** — his first fort (1645, age 16)
-- Captured **Sinhgad** — strategically important fort near Pune
-- Built a network of forts across the Western Ghats
-
-**Conflicts with Bijapur:**
-- The Bijapur Sultan tried to suppress Shivaji
-- Shivaji defeated Bijapuri forces repeatedly
-- The Mughals became involved — **Shivaji was summoned to Agra** (1656)
-
-**The Escape from Agra:**
-- In 1666, Shivaji was summoned by Aurangzeb to the Mughal court
-- He escaped from Agra — famously jumped from the window of the harem (or from the Jilaukhana of the Jama Masjid)
-- This became legendary in Maratha folklore
-
-### The Coronation (1674)
-
-On **11 March 1674**, Shivaji was formally crowned **Chhatrapati (king)** at **Raigad Fort:**
-
-- Took the title **Shivaji Maharaj**
-- Adopted **Hindu rituals** (not Islamic) — symbolically rejecting Mughal sovereignty
-- Issued **silver coins** (rupiya) — signalling independence
-
-### Administration of Shivaji
-
-Shivaji built an **efficient and decentralised administration:**
-
-**Ashta Pradhan (Council of Eight):**
-Shivaji's council of ministers:
-
-| Minister | Portfolio |
+| Cause of decline | Mechanism |
 |---|---|
-| **Peshwa** | Prime Minister, finance |
-| **Maji** | Chief Revenue Minister |
-| **Sachiv** | Home and correspondence |
-| **Pandit Rao** | Religious affairs |
-| **Sumat** | External affairs |
-| **Sawar** | Cavalry and horses |
-| **Nayat** | Food and supplies |
-| **Pandit** | Legal/judicial |
+| Internal rivalry among five houses | Prevented unified resistance |
+| Over-extension of jagirs | Sardars became semi-independent |
+| British Subsidiary Alliance (post-1798) | Maratha states lost right to wage war |
+| Defeat in Anglo-Maratha Wars (1803–05, 1817–18) | Annexation of Peshwai and princely states |
 
-**Revenue System:**
-- **Mirasdar system** — hereditary land rights for peasants who paid revenue
-- Revenue was fixed at **1/3 of agricultural produce** (relatively fair)
-- **Chauth and Sardeshmukhi** — taxes on territories:
-  - **Chauth:** 1/4 of revenue of adjoining territories
-  - **Sardeshmukhi:** Additional levy — Maratha right to collect
-
-**Military Organisation:**
-- **Mavli cavalry** — loyal, well-trained horsemen
-- **Ganavari** or river-based supply system
-- **Guerilla warfare** — hit-and-run tactics in the hills
+The **Treaty of Salbai (1782)** restored the status quo after the First Anglo-Maratha War; the **Third Anglo-Maratha War (1817–18)** ended with **Peshwa Baji Rao II's** surrender and exile to Bithoor.
 
 ---
 
-## Sambhaji and the Early Confederacy (1680–1740)
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-### Sambhaji (r. 1680–1689)
+#### Edge cases and conceptual traps
+RPSC frequently frames the Maratha polity as a single "empire", but historians distinguish **two distinct phases**: Shivaji's centralised *swarajya* (1674–1680, revived under Rajaram and Tarabai, 1680–1707) and the **Peshwa-led Confederacy** (1713–1818). Treating them as one continuous unit obscures why the same dynasty collapsed within decades of Panipat.
 
-Shivaji's son **Sambhaji** (also educated, able) continued expanding but was captured by Aurangzeb's forces:
-- Tortured and executed in 1689 — Aurangzeb's cruelest act
-- Sambhaji's son **Shahu** became the next Chhatrapati
+A second trap involves the **Pindaris**. They were freebooting cavalry bands operating out of Maratha territory — patronised by Holkar and Scindia — but they were never a formal wing of the Maratha army. The **Pindari War (1817–18)** was conducted by Lord Hastings parallel to the Third Anglo-Maratha War, and eliminating them was a precondition for British control of central India.
 
-### Shahu (r. 1694–1749)
+#### Worked micro-example: Reading a Panipat MCQ
+A typical Prelims question reads: *"Who commanded the Maratha forces at the Third Battle of Panipat?"* The correct answer is **Sadashiv Rao Bhau**, not Peshwa Balaji Baji Rao (Nana Saheb), and not Baji Rao I (who died in 1740, two decades earlier). **Baji Rao I was never defeated in pitched battle.** The confederate force comprised the Peshwa's contingent plus Bhonsle, Holkar, and Scindia troops; Holkar and Scindia withdrew early, weakening Bhau's right flank — an internal-rivalry failure examiners love to cite.
 
-- As a child, was a prisoner of Aurangzeb for decades
-- Released in 1707 after Aurangzeb's death
-- Became Chhatrapati with the help of the **Peshwa Balaji Vishwanath**
+#### Exam-specific strategy
+For RPSC RAS, expect: (a) a **chronology match** (treaties vs. battles), (b) a **map item** locating Pune, Raigad, Panipat, Salbai, Bhopal, (c) a **short note on Peshwa administration**, and (d) an **essay** linking Maratha decline to the Subsidiary Alliance. Allocating roughly **4–5 minutes per question** on the 3%-weighted History slice keeps pace with the GK Paper.
 
----
+#### Practice prompts
+1. *"Chauth and sardeshmukhi were essentially the same tax under different names."* Critically evaluate in 150 words, defining each levy, identifying the separate authority that levied sardeshmukhi, and naming one region where both operated in Shivaji's reign.
+2. *"The Third Battle of Panipat alone caused the collapse of Maratha power."* Discuss with reference to (i) pre-Panipat confederate disunity, (ii) post-Panipat recovery attempts under **Nana Phadnis' regency**, and (iii) British Subsidiary Alliance concluded between 1798 and 1818.
 
-## The Peshwa Era (1713–1818)
+## Continue your study
 
-### Balaji Vishwanath (r. 1713–1720)
-
-- First **Peshwa** (chief minister) — appointed by Shahu
-- **Established the Peshwa's dominance** over the Maratha Confederacy
-- Negotiated the **Treaty of Sarkar (Poona)** with the Mughals — Marathas got recognition
-
-### Bajirao I (r. 1720–1740) — The Warrior Peshwa
-
-**Bajirao** is considered the **greatest Peshwa:**
-- **"Ballala E Shahu"** (lion among servants) — as he called himself
-- Expanded the Maratha empire dramatically:
-  - **Battle of Delhi (1737):** Maratha forces under Bajirao entered Delhi — the Mughals were humiliated
-  - **Defeated the Nizam** — forced him to pay tribute and cede Malwa
-  - **Annexed Gujarat and Malwa** to Maratha control
-  - **First Bajirao's campaigns extended Maratha power to the Narmada**
-
-### The Peshwa System
-
-The **Peshwas** became the **de facto rulers** while the Chhatrapati remained a figurehead:
-
-**Hierarchy:**
-- **Chhatrapati** — nominal king (Shivaji's descendants)
-- **Peshwa** — chief minister and real power (from Pune)
-- **Subhedars** — provincial governors
-- **Sardars** — military commanders
-
-**The Maratha Confederacy:**
-- A **loose confederacy** — different leaders controlled different regions:
-  - **Peshwa (Pune)** — overall leadership
-  - **Gaekwads (Baroda)**
-  - **Holkars (Indore)**
-  - **Scindias (Gwalior)**
-  - **Bhonsles (Nagpur)**
-
-### Sadashiv Rao Bhau and the Third Battle of Panipat (1761)
-
-**Sadashiv Rao Bhau** (also called **Sadashivrao Bhau**) — Peshwa from 1761:
-- Brilliant administrator and military organiser
-- Launched the **Maratha campaign to capture Delhi and north India**
-
-**The Third Battle of Panipat:**
-- **14 January 1761**
-- **Maratha army** under Sadashiv Rao Bhau vs. **Afghan army** under **Ahmad Shah Durrani**
-- **Decisive Afghan victory:**
-  - Marathas were **defeated badly**
-  - Sadashiv Rao Bhau was killed
-  - ~100,000 Maratha troops killed
-  - **Maratha dream of Delhi ended**
-
-**Why the Marathas Lost:**
-- **Supply lines stretched** — deep in north India
-- **Overconfidence** — dismissed the Afghan threat
-- **Afghan reinforcement** — Durrani got reinforcements
-- **Maratha heavy artillery** was slower than Afghan cavalry
-
-**Consequences:**
-- Maratha power in the north was broken
-- The **British (EIC)** gained from Maratha defeat — the power vacuum allowed them to expand
-- Ahmad Shah Durrani returned to Afghanistan — didn't stay in India
-
-### The Later Peshwas
-
-**Narayan Rao** (r. 1773): Murdered by his uncle
-
-**Madhav Rao Narayan** (r. 1774–1795): Puppet Peshwa under supervision of Nana Fadnavis
-
-**Baji Rao II** (r. 1795–1818): Last Peshwa
-- Defeated at the **Battle of Hadaph (1802)**
-- The **Second Anglo-Maratha War** (1803–1805) forced him to sign treaties ceding territory
-- The **Third Anglo-Maratha War (1817–1818)** ended the Maratha power:
-  - Baji Rao II was defeated at **Khadki (1817)**
-  - He was given a pension (**Pension of 8 lakh rupees/year**) and the title "Maharaja"
-  - The Maratha Confederacy was dissolved
-
----
-
-## Maratha Administration and Legacy
-
-### Military
-
-- **Cavalry-based** — the famous Maratha light cavalry
-- **Guerilla tactics** — especially under Shivaji
-- **Heavy artillery** — especially under Sadashiv Rao Bhau
-- **Navy** — Shivaji had built a small navy — contested Portuguese and Siddi control
-
-### Chauth and Sardeshmukhi
-
-These were the **unique Maratha revenue claims:**
-- **Chauth:** 25% of revenue from territories controlled by Mughals but claimed by Marathas
-- **Sardeshmukhi:** Additional levy — a right to collect from territories they claimed
-- These were levied throughout the Deccan and eventually extended to **Malwa, Gujarat, and Bengal**
-- The **Bengal Nawabs** (Alivardi Khan, then Siraj-ud-Daulah) were forced to pay Chauth
-
-### Contribution to Indian History
-
-1. **Weakened Mughal power** — Maratha campaigns accelerated Mughal decline
-2. **Promoted Hindu revival** — reconsecrated temples destroyed by Aurangzeb
-3. **Administrative innovations** — efficient revenue and military systems
-4. **Cultural patronage** — supported Marathi and Sanskrit literature
-
----
-
-## Practice Questions for RPSC RAS
-
-1. Who was Shivaji? How did he establish the Maratha kingdom?
-2. What was the Ashta Pradhan council? How did it function?
-3. What was the Third Battle of Panipat? What were its consequences?
-4. What were Chauth and Sardeshmukhi? How did the Marathas collect these?
-5. How did the Maratha Confederacy end?
-
-### Common Mistakes to Avoid
-
-- **Confusing the Third Battle of Panipat (1761) with the First (1526) and Second (1556)** — Panipat I was Mughal-Babur vs Lodi; Panipat II was Mughal-Akbar vs Hemu; Panipat III was Maratha vs Afghan.
-- **Thinking the Marathas were unified** — they were a confederacy of independent chieftains who often fought each other.
-- **Confusing Shivaji with later Peshwas** — Shivaji was the founder; the Peshwas were chief ministers who later became more powerful.
+- **[View this topic in your RPSC RAS roadmap](/roadmap/?exam=ras&duration=1mo)** — see where "Maratha Empire and Confederacy" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ras&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[RPSC RAS exam overview](/exams/ras/)** — pattern, eligibility, and syllabus
+- **[All History notes](/notes/ras/history/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

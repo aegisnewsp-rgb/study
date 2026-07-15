@@ -8,7 +8,7 @@ topicName: Carbohydrate Metabolism
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-06-23"
+lastUpdated: "2026-07-15"
 ---
 
 # Carbohydrate Metabolism
@@ -16,60 +16,97 @@ lastUpdated: "2026-06-23"
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Carbohydrate metabolism** is the set of pathways handling monosaccharides: **glycolysis** (glucose → 2 pyruvate, net 2 ATP + 2 NADH), **TCA cycle** (acetyl-CoA → 2 CO₂, 3 NADH + 1 FADH₂ + 1 GTP per turn), and **oxidative phosphorylation** (NADH/FADH₂ → ~2.5/1.5 ATP via ETC). **Glucose-6-phosphate (G6P)** is the central hub linking glycolysis, glycogenesis, glycogenolysis, the pentose phosphate pathway, and gluconeogenesis. The rate-limiting step of glycolysis is **phosphofructokinase-1 (PFK-1)**, activated by AMP/fructose-2,6-bisphosphate and inhibited by ATP/citrate. **Pyruvate dehydrogenase** is irreversible, uses five cofactors (TPP, lipoate, CoA, FAD, NAD⁺) and converts pyruvate to acetyl-CoA. Aerobic yield per glucose is **38 ATP (theoretical) or 36 ATP (modern 2.5 ATP/NADH, 1.5 ATP/FADH₂ accounting)**. G6PD deficiency, galactosaemia, and essential fructosuria are high-yield FMGE disorders.
+- **Glycolysis (Embden-Meyerhof-Parnas)** converts glucose to 2 pyruvate in the cytosol, yielding a **net 2 ATP** (substrate-level) and 2 NADH. It has **10 steps**, with three irreversible regulatory steps catalysed by **hexokinase/glucokinase**, **phosphofructokinase-1 (PFK-1)**, and **pyruvate kinase**.
+- **Aerobic fate of pyruvate:** pyruvate → acetyl-CoA (by **pyruvate dehydrogenase**, mitochondrial) → **8-step Krebs/TCA cycle** (2 GTP, 6 NADH, 2 FADH₂) → **oxidative phosphorylation** for the bulk ATP.
+- **Total ATP yield per glucose ≈ 30–32**, depending on the shuttle (malate–aspartate gives 32; glycerol-3-phosphate gives 30).
+- **Ancillary pathways:** **HMP shunt** (NADPH + ribose-5-P, rate-limiting G6PD), **gluconeogenesis** (liver/kidney, bypasses the three irreversible glycolytic steps), **glycogenesis/glycogenolysis** (branched glycogen, α-1,4 with α-1,6 branches).
+- **High-yield disorders:** Von Gierke (G6Pase), Cori (debranching enzyme), McArdle (muscle glycogen phosphorylase), Pompe (lysosomal α-1,4-glucosidase), **G6PD deficiency** (HMP shunt), **galactosemias**, **essential fructosuria**, **hereditary fructose intolerance**.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-#### Glycolysis (Embden–Meyerhof–Parnas Pathway)
-A 10-step cytosolic pathway converting one glucose to two pyruvates. Steps 1, 3, and 10 are **irreversible** and used for regulation: **hexokinase** (Km ≈ 0.1 mM, ubiquitous, feedback-inhibited by G6P), **PFK-1** (the committed, rate-limiting step, allosterically inhibited by ATP/citrate, activated by AMP and fructose-2,6-bisphosphate), and **pyruvate kinase** (activated by F1,6BP; inhibited by ATP and alanine). Substrate-level phosphorylation occurs at steps 7 (1,3-BPG → 3-PG) and 10 (PEP → pyruvate), yielding 2 ATP per glucose net. NADH is generated at step 6 (glyceraldehyde-3-phosphate dehydrogenase).
+#### Glycolysis in Detail
 
-#### Fate of Pyruvate
-- **Aerobic:** mitochondrial **pyruvate dehydrogenase complex** → acetyl-CoA + CO₂ + NADH.
-- **Anaerobic:** **lactate dehydrogenase** → lactate, regenerating NAD⁺ for continued glycolysis (basis of Cori cycle).
-- **Yeast:** pyruvate decarboxylase → acetaldehyde → ethanol (alcohol dehydrogenase).
+Glycolysis occurs in the **cytosol** of every cell. Glucose is trapped by **hexokinase** (Km ≈ 0.1 mM, ubiquitous, product-inhibited by glucose-6-phosphate) or **glucokinase** (Km ≈ 10 mM, hepatocytes/β-cells, induced by insulin). PFK-1, the rate-limiting enzyme, is allosterically **activated by AMP/F2,6BP** and **inhibited by ATP/citrate**.
 
-#### TCA (Krebs) Cycle
-Mitochondrial, 8 steps, acetyl-CoA + oxaloacetate → 2 CO₂ + 3 NADH + 1 FADH₂ + 1 GTP. Key enzymes: citrate synthase, isocitrate dehydrogenase (rate-limiting, NADH/ATP-inhibited), and α-ketoglutarate dehydrogenase (same cofactors as pyruvate dehydrogenase). OAA is regenerated; anaplerotic pyruvate carboxylase (biotin, acetyl-CoA activated) replenishes intermediates.
+The net equation is:
+
+> **Glucose + 2 NAD⁺ + 2 ADP + 2 Pᵢ → 2 Pyruvate + 2 NADH + 2 H⁺ + 2 ATP + 2 H₂O**
+
+Under anaerobic conditions, lactate dehydrogenase (LDH-1 to LDH-5 isoenzymes) regenerates NAD⁺ by converting pyruvate to lactate.
+
+#### Pyruvate Dehydrogenase and the TCA Cycle
+
+Pyruvate enters mitochondria via the **pyruvate dehydrogenase (PDH) complex** (TPP, lipoamide, FAD, NAD⁺, CoA as cofactors), producing acetyl-CoA + CO₂ + NADH. Acetyl-CoA condenses with oxaloacetate via **citrate synthase** to start the **Krebs cycle**.
+
+| Step | Enzyme | Key product |
+|---|---|---|
+| 1 | Citrate synthase | Citrate |
+| 3 | Isocitrate dehydrogenase | α-KG + CO₂ + NADH (**rate-limiting**) |
+| 4 | α-Ketoglutarate dehydrogenase | Succinyl-CoA + NADH |
+| 6 | Succinate dehydrogenase | Fumarate + FADH₂ |
+| 8 | Malate dehydrogenase | OAA + NADH |
+
+Per acetyl-CoA: **3 NADH, 1 FADH₂, 1 GTP**.
+
+#### P/O Ratios and ATP Yield
+
+> **NADH → 2.5 ATP; FADH₂ → 1.5 ATP** (modern values; older texts use 3 and 2).
+
+Total ≈ **30–32 ATP/glucose** (glycolysis substrate-level 2 + GTP 2 + NADH from glycolysis 5 + PDH 5 + TCA NADH 15 + TCA FADH₂ 3).
+
+#### Pentose Phosphate Pathway
+
+The oxidative branch (rate-limiting **G6PD**) generates **2 NADPH** per glucose-6-phosphate, used for reductive biosynthesis and maintaining reduced glutathione. The non-oxidative branch interconverts sugars (ribose-5-P for nucleotides).
 
 #### Gluconeogenesis and Glycogen
-**Gluconeogenesis** (liver > kidney cortex) bypasses the three irreversible glycolytic steps using **pyruvate carboxylase** (pyruvate → OAA), **PEP carboxykinase** (OAA → PEP), and **glucose-6-phosphatase** (G6P → glucose). Cost: **6 ATP equivalents per glucose**. **Glycogenesis** uses glycogen synthase (active form dephosphorylated, stimulated by insulin); **glycogenolysis** uses glycogen phosphorylase (active phosphorylated, stimulated by glucagon/epinephrine via cAMP-PKA cascade). Debranching enzyme (4-α-glucanotransferase + amylo-1,6-glucosidase) is needed; its absence causes **Cori disease**.
 
-#### Pentose Phosphate Pathway (HMP Shunt)
-Two phases: oxidative (G6P → ribulose-5-phosphate + 2 NADPH, rate-limiting **G6PD**) and non-oxidative (reversible interconversions yielding ribose-5-P for nucleotides or fructose-6-P/glyceraldehyde-3-P for glycolysis). NADPH fuels fatty-acid synthesis and maintains reduced glutathione; **G6PD deficiency** (X-linked) causes haemolytic anaemia triggered by **fava beans, primaquine, sulphonamides, dapsone**.
+**Gluconeogenesis** (liver, kidney) uses **pyruvate carboxylase**, **PEPCK**, **fructose-1,6-bisphosphatase**, and **G6Pase** to bypass the three irreversible glycolytic steps. **Glycogenesis** (glycogen synthase) and **glycogenolysis** (glycogen phosphorylase) are reciprocally regulated by **insulin** (dephosphorylates both, promoting storage) and **glucagon/epinephrine** (phosphorylate, promoting breakdown).
 
-#### Fructose and Galactose Metabolism
-Fructose → fructose-1-P via **fructokinase**, then split by **aldolase B** into glyceraldehyde + DHAP. Galactose → galactose-1-P (galactokinase) → UDP-galactose (galactose-1-P uridyltransferase). Deficiencies: **essential fructosuria** (benign fructokinase loss), **hereditary fructose intolerance** (aldolase B, severe), **classic galactosaemia** (uridyltransferase, cataracts + hepatomegaly + E. coli sepsis).
+#### Exam Pattern
 
-#### Exam-Specific Pointers
-FMGE Biochemistry (3% weightage) typically asks 1–2 MCQs from carbohydrate metabolism. Common traps: confusing **hexokinase vs glucokinase** (glucokinase: liver/β-cells, high Km ~10 mM, induced by insulin, not inhibited by G6P), and forgetting the **3 ATP cost of pyruvate carboxylase** in gluconeogenesis stoichiometry.
+FMGE frequently asks: PFK-1 regulation, PDH cofactors, TCA rate-limiting enzyme, ATP yield, **Von Gierke features** (hepatomegaly, hypoglycaemia, lactic acidosis, hyperuricaemia), and **G6PD deficiency triggers** (fava beans, primaquine, sulfa drugs).
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-#### Regulation in Detail and Clinical Correlations
-**PFK-2/fructose-2,6-bisphosphatase** is a bifunctional enzyme: in the fed state insulin activates a phosphatase domain raising F2,6BP, which potently activates PFK-1; in fasting glucagon/epinephrine (via PKA) phosphorylate it, switching to kinase activity and lowering F2,6BP, slowing glycolysis and favouring gluconeogenesis. **Pyruvate kinase M2** in tumour cells (PKM2) is regulated by phosphotyrosine binding, diverting glycolytic intermediates to the pentose phosphate pathway — the **Warburg effect**. **HbA1c** reflects integrated glycaemia over ~120 days (RBC lifespan); the estimated average glucose relation is **eAG (mg/dL) = 28.7 × HbA1c − 46.7**.
+#### Shuttle Systems and Why ATP Yield Varies
+
+Cytosolic NADH cannot cross the inner mitochondrial membrane. The **malate–aspartate shuttle** (liver, heart, kidney) transfers reducing equivalents as malate, yielding **2.5 ATP/NADH**. The **glycerol-3-phosphate shuttle** (skeletal muscle, brain) feeds electrons to FAD, yielding **1.5 ATP/NADH** — explaining the **30 vs 32 ATP** discrepancy.
 
 #### Edge Cases and Traps
-- **NADH shuttle problem:** cytosolic glycolytic NADH cannot cross the mitochondrial inner membrane. The **malate-aspartate shuttle** (liver/heart) yields 2.5 ATP per NADH; the **glycerol-3-phosphate shuttle** (skeletal muscle/brain) yields only 1.5 ATP, explaining the 36 vs 38 ATP discrepancy in working muscle.
-- **Lactate is NOT a waste product** — it is a major gluconeogenic precursor and an energy substrate for brain/heart during exercise; the **Cori cycle** (lactate → glucose) and **glucose-alanine cycle** (alanine carries both carbon and amino nitrogen from muscle to liver) are interdependent.
-- **Galactosaemia** screening: urinary reducing substance positive, but glucose oxidase negative; **Benedict's test** is non-specific. Treatment of classic galactosaemia is **lactose-free (galactose-free) diet**, not just milk avoidance.
-- **Fructose-1,6-bisphosphatase deficiency** mimics HFI clinically but is a gluconeogenic, not fructolytic, block — patients tolerate fructose but develop fasting hypoglycaemia and lactic acidosis.
-- **Mucopolysaccharidoses** involve GAG catabolism, not monosaccharide metabolism; avoid mixing with glycogen storage diseases (von Gierke = G6Pase, Pompe = lysosomal α-glucosidase, McArdle = muscle glycogen phosphorylase, Cori = debranching enzyme, Andersen = branching enzyme).
 
-#### Worked Mini-Example
-A patient ingests 180 g of glucose. Aerobic oxidation: 180/180 = 1 mol glucose → 36 mol ATP × 7.3 kcal/mol = **262.8 kcal** stored as ATP. Free energy from complete glucose oxidation is ~686 kcal/mol → efficiency ≈ **38%** (rest dissipated as heat, matching basal metabolic realities). Clinically, this is why glucose yields more usable energy per gram (4 kcal/g) anaerobically but only briefly before lactate accumulation limits performance.
+- **Hexokinase vs glucokinase:** hexokinase has low Km and is feedback-inhibited by G6P; glucokinase has high Km, is **not inhibited by G6P**, and is induced by insulin — explaining hepatic glucose uptake postprandially.
+- **Cori cycle cost:** resynthesising one glucose from 2 lactate consumes **6 ATP equivalents** in the liver.
+- **Von Gierke (Type I)** lacks **glucose-6-phosphatase**, so G6P cannot be released as free glucose → fasting hypoglycaemia, lactic acidosis (shunted to glycolysis), hyperuricaemia (lactate competes with urate for renal secretion), and hyperlipidaemia.
+- **Pompe disease (Type II)** is the only glycogenosis that is a **lysosomal storage disorder** (acid α-1,4-glucosidase deficiency) with cardiomegaly and early death.
+- **McArdle (Type V)** patients show a **"second-wind" phenomenon** because increased blood flow delivers free fatty acids and glucose once muscle glycogen is exhausted.
+
+#### Connections to Adjacent Topics
+
+Carbohydrate metabolism links to **lipid metabolism** (acetyl-CoA → fatty acids, citrate shuttle; excess acetyl-CoA → ketone bodies in starvation), **amino acid metabolism** (glucogenic vs ketogenic amino acids feeding the TCA cycle), and **HMP-shunt NADPH** essential for the **glutathione reductase** pathway that protects RBCs — directly relevant to G6PD deficiency.
 
 #### Common Mistakes
-Confusing **glucokinase with hexokinase kinetics**; forgetting that **insulin upregulates glucokinase, pyruvate kinase, and PFK-1** transcriptionally while glucagon/epinephrine activate **PKA phosphorylation**; assuming all NADH gives 3 ATP (modern value is 2.5); mis-attributing **pyruvate carboxylase** to mitochondria of muscle (it is liver/kidney only).
+
+> Candidates confuse **glycogenolysis** (cytosolic, phosphorylase) with **lysosomal glycogen breakdown** (Pompe). They also misattribute HMP-shut NADH production; the shunt makes **NADPH**, not NADH.
 
 #### Practice Prompts
-1. A neonate vomits after breastfeeding, develops jaundice, hepatomegaly, cataracts, and *E. coli* sepsis. Name the deficient enzyme and the accumulated substrate, and explain why a fructose-based formula would be dangerous in this disease but tolerated in **essential fructosuria**.
-2. Calculate the ATP yield of anaerobic glycolysis of 2 glucose molecules in a working muscle using the glycerol-3-phosphate shuttle, and explain why prolonged anaerobic effort is self-limiting without oxygen.
+
+1. Calculate ATP yield from one glucose when only the glycerol-3-phosphate shuttle is active, showing each contributing step.
+2. A neonate vomits after fructose-containing feeds, becomes hypoglycaemic, and develops jaundice. Identify the likely enzyme defect and explain why **essential fructosuria is asymptomatic** while **hereditary fructose intolerance is severe**.
+
+---
+
+## Continue your study
+
+- **[View this topic in your FMGE roadmap](/roadmap/?exam=fmge&duration=1mo)** — see where "Carbohydrate Metabolism" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=fmge&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[FMGE exam overview](/exams/fmge/)** — pattern, eligibility, and syllabus
+- **[All Biochemistry notes](/notes/fmge/biochemistry/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

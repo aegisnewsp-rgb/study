@@ -8,135 +8,103 @@ topicName: "Complex Analysis"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-05-29"
+lastUpdated: "2026-07-15"
 ---
 
 # Complex Analysis
 
 ### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
 
-**Complex Analysis** studies functions of a complex variable *f*(*z*) where *z* = *x* + *iy*, primarily in the context of analyticity, contour integration, and singularities in the complex plane.
+**Complex Analysis** studies functions of the variable $z = x + iy$ where $i = \sqrt{-1}$ and $x, y \in \mathbb{R}$. A function $f(z) = u(x,y) + iv(x,y)$ is **holomorphic** (complex differentiable) in an open domain precisely when it satisfies the **Cauchy–Riemann (CR) equations**:
 
-**Key definitions:**
-- **Analytic**: *f*(*z*) is differentiable at every point in a neighborhood — not just at a point.
-- **Cauchy-Riemann (C-R) equations**: for *f*(*z*) = *u*(*x*,*y*) + *iv*(*x*,*y*), analyticity requires **uₓ = vᵧ** and **uᵧ = −vₓ**.
-- **Singularity types**: removable (limit finite), pole (order *n* finite), essential (infinite order).
-- **Residue** at *z* = *a*: coefficient of 1/(*z*−*a*) in Laurent series.
+$$\frac{\partial u}{\partial x} = \frac{\partial v}{\partial y}, \qquad \frac{\partial u}{\partial y} = -\frac{\partial v}{\partial x}.$$
 
-**Must-know formulas:**
-- **C-R**: uₓ = vᵧ, uᵧ = −vₓ
-- **Cauchy integral formula**: *f*(*a*) = (1/2πi) ∮ *f*(*z*)/(*z*−*a*) dz
-- **Residue theorem**: ∮ *f*(*z*) dz = 2πi × (sum of residues inside *C*)
+#### Must-remember formulas
 
-**High-yield exam pointers for GATE:**
-1. GATE Engineering Maths carries ~13–15 marks total; Complex Analysis typically yields **2–4 marks** as 1-mark MCQ or 2-mark NAT.
-2. Questions often ask to **verify analyticity via C-R equations** first — never skip this step.
-3. For pole of order *n* at *z* = *a*, use: Res = (1/(*n*−1)!) × lim_{z→a} d^{n−1}/dz^{n−1}[(*z*−*a*)*^n f(*z*)].
-4. Common trap: applying Cauchy's theorem (integral = 0) when singularities lie inside the contour.
+| Result | Statement | Use |
+|---|---|---|
+| Modulus–argument form | $z^n = r^n(\cos n\theta + i\sin n\theta)$ | Roots, powers |
+| Cauchy's integral formula | $f(a) = \frac{1}{2\pi i}\oint_C \frac{f(z)}{z-a}\,dz$ | Extract values inside a contour |
+| Residue theorem | $\oint_C f(z)\,dz = 2\pi i \sum_k \text{Res}(f, z_k)$ | Real and contour integrals |
+
+#### High-yield pointers
+- CR equations are the **gatekeeper**; only after they hold can you apply Cauchy's theorems.
+- Isolated singularities fall into three classes: **removable**, **pole**, **essential**.
+- GATE asks NATs on $\oint_C f(z)\,dz$ via residues and MCQs on classifying singularities.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-## Analyticity and the Cauchy-Riemann Equations
+#### Holomorphicity and the CR equations
 
-A function *f*(*z*) = *u*(*x*,*y*) + *iv*(*x*,*y*) is **analytic** (holomorphic) on a domain *D* if it is complex-differentiable at every point of *D*. Differentiability demands that the C-R equations hold:
+A function $f: \mathbb{C} \to \mathbb{C}$ is holomorphic at $z_0$ if the limit $f'(z_0) = \lim_{z \to z_0} \frac{f(z)-f(z_0)}{z-z_0}$ exists finitely, independently of the path. Writing $f = u + iv$ with $u, v$ real-differentiable, the limit exists **iff** both CR equations hold and $u, v$ have continuous partials near $z_0$. If CR holds everywhere on a simply connected domain, $f$ is **analytic** there (equal to its Taylor series).
 
-$$u_x = v_y \quad \text{and} \quad u_y = -v_x$$
+CR also forces $\nabla^2 u = 0 = \nabla^2 v$, so the real and imaginary parts of any holomorphic function are **harmonic** — a fact examiners test by giving $u$ and asking whether a conjugate $v$ exists.
 
-and additionally that these partial derivatives are **continuous** in a neighborhood. Both conditions are required — satisfying C-R alone is insufficient for analyticity unless continuity is confirmed.
+#### Contour integration
 
-## Singularities and Their Classification
+**Cauchy's theorem:** if $f$ is holomorphic inside and on a simple closed contour $C$ in a simply connected domain, then $\oint_C f(z)\,dz = 0$. **Cauchy's integral formula** extends this: for $f$ holomorphic inside $C$, $f(a) = \frac{1}{2\pi i}\oint_C \frac{f(z)}{z-a}\,dz$ for any $a$ enclosed by $C$. Differentiating yields the higher-order formula $f^{(n)}(a) = \frac{n!}{2\pi i}\oint_C \frac{f(z)}{(z-a)^{n+1}}\,dz$.
 
-Let *f* have an isolated singularity at *z*₀:
+#### Classification of isolated singularities
 
-- **Removable singularity**: lim_{z→z₀} *f*(*z*) exists finitely. The function can be redefined to be analytic at *z*₀.
-- **Pole of order *m***: |*f*(*z*)| → ∞ as *z* → *z*₀, and (*z*−*z*₀)^*m* f(*z*) is analytic and non-zero at *z*₀.
-- **Essential singularity**: Laurent series has infinitely many negative powers; behaviour is wild (Picard's theorem).
+For an isolated singularity at $z = a$, expand $f$ in a **Laurent series** $f(z) = \sum_{n=-\infty}^{\infty} a_n (z-a)^n$.
 
-## Residue Calculation
-
-The **residue** at a pole of order *n* at *z* = *a* is:
-
-$$\text{Res}_{z=a} f(z) = \frac{1}{(n-1)!} \lim_{z\to a} \frac{d^{n-1}}{dz^{n-1}}\left[(z-a)^n f(z)\right]$$
-
-For a **simple pole** (*n* = 1): Res = lim_{z→a} (*z*−*a*) f(*z*).
-
-## Cauchy's Integral Theorem and Formulae
-
-- **Cauchy's theorem**: if *f* is analytic on and inside a closed contour *C*, then ∮_C f(*z*) dz = 0.
-- **Cauchy integral formula** (for derivatives): if *f* is analytic inside *C*, then
-
-$$f^{(n)}(a) = \frac{n!}{2\pi i} \oint_C \frac{f(z)}{(z-a)^{n+1}} dz$$
-
-This extends to evaluating higher-order derivatives directly via contour integration.
-
-## Residue Theorem for Contour Integration
-
-For a function analytic except at isolated singularities inside *C*:
-
-$$\oint_C f(z)\, dz = 2\pi i \sum \text{Residues inside } C$$
-
-GATE typically asks to evaluate real integrals (e.g., ∫₀^{2π} R(sinθ, cosθ) dθ) by converting to a contour integral on |*z*| = 1.
-
-| Concept | Condition | Key formula |
+| Type | Behaviour | Coefficient $a_{-1}$ (residue) |
 |---|---|---|
-| Analyticity | C-R + continuity | *f*′ exists on neighborhood |
-| Simple pole residue | order 1 | lim_{z→a} (*z*−*a*) f(*z*) |
-| *n*th order pole residue | order *n* | derivative formula above |
-| Cauchy theorem | analytic on & inside *C* | ∮ f dz = 0 |
-| Residue theorem | isolated singularities | 2πi × sum of residues |
+| Removable | $\lim_{z\to a} f(z)$ finite | $= 0$ |
+| Pole of order $m$ | $(z-a)^m f(z)$ finite and $\ne 0$ | from Laurent term |
+| Essential | Laurent tail has infinitely many negative powers | generally $\ne 0$ |
 
-**Typical GATE question patterns**: (a) verify analyticity by applying C-R to a given *f*, (b) identify singularity type and compute residue, (c) evaluate a closed contour integral using the residue theorem.
+#### Typical GATE patterns
+- **NAT (1–2 marks):** evaluate $\oint_C \frac{e^z}{z^2+1}\,dz$ over $|z| = 2$ using the residue theorem.
+- **MCQ:** classify the singularity of $e^{1/z}$ at $z = 0$ (essential), or test whether $u = x^2 - y^2$ admits a harmonic conjugate (yes; $v = 2xy + c$).
+- **Common trap:** computing the residue of a simple pole via $\lim_{z\to a}(z-a)f(z)$, **not** $\lim_{z\to a} \frac{f(z)}{z-a}$.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-## Laurent Series and the Ring of Convergence
+#### Branch cuts, multi-valuedness, and conformal maps
 
-When singularities lie inside a region, **Taylor series fails** — the correct tool is the **Laurent series**:
+The functions $\sqrt{z}$ and $\log z$ are not single-valued on all of $\mathbb{C}$. Each has a **branch point** at $z = 0$ (for $\sqrt{z}$) or $z = 0, \infty$ (for $\log z$). Selecting a branch cuts the plane along a ray (commonly the negative real axis, $\arg z \in (-\pi, \pi]$) where $\arg z$ jumps by $2\pi$. GATE statements like "find the principal value of $\log(-1)$" hinge on choosing the principal branch $i\pi$ instead of $-i\pi$ — the latter would be the [0, 2π) branch's value.
 
-$$f(z) = \sum_{n=-\infty}^{\infty} a_n (z-a)^n, \quad a_n = \frac{1}{2\pi i} \oint_C \frac{f(\zeta)}{(\zeta-a)^{n+1}} d\zeta$$
+**Möbius transformations** $w = \frac{az+b}{cz+d}$ (with $ad-bc \neq 0$) are holomorphic on the Riemann sphere $\mathbb{C} \cup \{\infty\}$ and map circles/lines to circles/lines. They are the building blocks of **conformal maps**, useful in solving Laplace's equation on awkward domains via Schwarz–Christoffel mapping.
 
-The series splits into the **analytic part** (non-negative powers) and the **principal part** (negative powers). The coefficient *a*_{−1} equals the residue. Convergence holds in the annulus *R*₁ < |*z*−*a*| < *R*₂ where *R*₁ is distance to the nearest singularity and *R*₂ is distance to the next one.
+#### Computing residues and evaluating real integrals
 
-## Essential Singularities — Weierstrass and Picard
+For a **simple pole** at $a$: $\text{Res}(f,a) = \lim_{z \to a}(z-a)f(z)$. For $f = p(z)/q(z)$ with $q(a)=0$, $q'(a)\neq 0$: $\text{Res}(f,a) = p(a)/q'(a)$.
 
-An **essential singularity** has infinitely many negative terms in its Laurent expansion. Weierstrass's theorem: near an essential singularity, *f*(*z*) gets arbitrarily close to any complex value infinitely often. Picard's stronger result: *f* takes **every** complex value (with at most one exception) infinitely often in any neighborhood of an essential singularity. Example: *e*^{1/*z*} has an essential singularity at *z* = 0.
+Two contour recipes GATE often uses:
+1. **Semicircular contour in the upper half-plane** for $\int_{-\infty}^{\infty} \frac{P(x)}{Q(x)}dx$ where $\deg Q \geq \deg P + 2$ and $Q$ has no real zeros (Jordan's lemma kills the arc).
+2. **Wedge / sector contours** for integrals of $x^{\alpha}$ on $[0,\infty)$; the factor $e^{2\pi i \alpha}$ from circling the origin equals 1 minus the residue contribution, giving a clean real-integral identity.
 
-## Singularity at Infinity
+#### Worked micro-example
 
-Treat *w* = 1/*z*; expand around *w* = 0. Classify the singularity at infinity via the behavior of *f*(*w*) at *w* = 0:
-- If *f*(*z*) → 0 as |*z*| → ∞ → removable singularity at infinity.
-- If *f*(*z*) → constant ≠ 0 → simple pole at infinity.
-- If *f*(*z*) grows as *z*^*n* → pole of order *n* at infinity.
-- If behavior is unbounded in an essential way → essential singularity at infinity.
+Compute $\oint_{|z-1|=1} \frac{\sin z}{(z-1)^3}\,dz$. The contour encloses the pole of order 3 at $z=1$. By Cauchy's formula for derivatives, $\oint \frac{\sin z}{(z-1)^3}\,dz = \frac{2\pi i}{2!}\,\sin^{(2)}(1) = \pi i\,(-\sin 1) = -\pi i \sin 1$.
 
-**Residue at infinity**: Res_{*z*=∞} f(*z*) = −Res_{w=0} (1/*w*²) f(1/*w*). Useful when it's easier to compute the residue at *z* = ∞ than sum residues elsewhere.
+#### Common mistakes and connections
 
-## Conformal Mapping
+- Forgetting that $u, v$ must have **continuous partials** — CR alone is necessary but not sufficient without smoothness.
+- Treating $(0,0)$ as a pole just because $\log z$ blows up; it is a **branch point**, not an isolated singularity.
+- **Links:** Residue theory bridges to **Fourier transforms** (closing contours in upper/lower half-planes) and to **linear systems** (inverse Laplace via Bromwich contour).
+- **Exam strategy:** the 3% weight means one solvable NAT earns an easy 2 marks — keep the residue-of-simple-pole formula on a single flashcard.
 
-A map *w* = *f*(*z*) is **conformal** (angle-preserving) if *f* is analytic with *f*′(*z*) ≠ 0. Conformal maps preserve:
-- Oriented angles between curves.
-- The shape of infinitesimal figures (locally).
+#### Practice prompts
+1. Show that $f(z) = \bar{z}$ is **not** holomorphic anywhere by checking CR at a general point.
+2. Evaluate $\oint_{|z|=3} \frac{z+1}{z(z-2)(z+4i)}\,dz$ by listing all enclosed poles and summing residues.
 
-Applications in engineering: solving Laplace's equation (heat transfer, fluid flow) by mapping complicated domains to simpler ones (e.g., unit disk) where boundary conditions are easier to apply.
+---
 
-## Common Mistakes and Traps in GATE
+## Continue your study
 
-1. **Assuming Cauchy's theorem applies** when singularities are inside *C*. If any singularity lies on or inside the contour, the integral is *not* zero — use the residue theorem instead.
-2. **Using the wrong order for the residue formula** — applying the simple-pole formula to a higher-order pole yields a wrong answer.
-3. **Skipping the analyticity check** before applying Cauchy's integral formula — the formula requires analyticity on and inside *C*.
-4. **Forgetting the singularity at infinity** when evaluating integrals over all singularities. The sum of all residues including at infinity equals zero, so Res_{∞} = −∑ all finite residues.
-5. **Neglecting continuity of C-R partial derivatives** — a function can satisfy C-R at a point but still fail to be analytic because the partials are discontinuous there.
+- **[View this topic in your GATE roadmap](/roadmap/?exam=gate&duration=1mo)** — see where "Complex Analysis" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=gate&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[GATE exam overview](/exams/gate/)** — pattern, eligibility, and syllabus
+- **[All Engineering-Maths notes](/notes/gate/engineering-maths/)** — browse sibling topics in this subject
 
-## Practice Prompts
-
-1. Classify the singularity of *f*(*z*) = *e*^{z}/(*z*−1)³ at *z* = 1 and compute Res_{z=1} f(*z*).
-
-2. Evaluate ∮_C (sin *z*)/(*z*(2z−1)) dz where *C* is |*z*| = 2, traversed counterclockwise.
-
-3. Use the residue theorem to evaluate the real integral ∫₀^{2π} dθ/(1 + *a* sin θ) for |*a*| < 1.
-
+---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

@@ -11,165 +11,128 @@ topicName: Permutations
 weight: 5
 country: india
 generated: "2026-03-24T08:32:07.940870"
-lastUpdated: 2026-03-24
+lastUpdated: "2026-07-15"
 diagramPrompt: "Mathematical diagram showing Permutations concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style"
 
 
 
 
 ---
+
 # Permutations
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Fundamental Principle of Counting:**
-If one operation can be done in $m$ ways, and for each of these, another operation can be done in $n$ ways, then both operations can be done in $m \times n$ ways.
+A **permutation** counts the number of **ordered arrangements** of `r` distinct objects chosen from `n` distinct objects. The central formula is:
 
-**Factorial:**
-$n! = n \times (n-1) \times (n-2) \times \cdots \times 1$. By definition, $0! = 1$.
+$$^nP_r = \frac{n!}{(n-r)!}, \quad n \ge r \ge 0$$
 
-**Permutation (Arrangement):**
-- **Without repetition:** $P(n, r) = \frac{n!}{(n-r)!}$
-- **With repetition:** $n^r$ (each of $r$ positions has $n$ choices)
+where `n` is the total pool of distinct objects and `r` is the number of positions filled. The factorial identity `n! = n \times (n-1) \times \cdots \times 2 \times 1` drives every counting step, with `0! = 1` as the base case.
 
-**Special Cases:**
-- $P(n, n) = n!$ (arranging all $n$ objects)
-- $P(n, 1) = n$ (choosing 1 from $n$)
-- $P(n, 0) = 1$
+> **High-yield pointer:** Circular permutations of `n` distinct objects = `(n-1)!`, NOT `n!` — fix one object to remove rotational equivalence.
 
-⚡ **JEE Tip:** When objects repeat, divide by factorials of each repeated type: number of arrangements of "BOOKKEEPER" = $\frac{10!}{2! \cdot 2! \cdot 3!}$ (2 O's, 2 K's, 3 E's).
-
-⚡ **Common Mistake:** Don't use $n^r$ when order matters but selections don't repeat. If you choose $r$ out of $n$ and arrange them (permutation without repetition), use $P(n,r)$, not $n^r$.
+#### Exam pointers:
+- Distinguish **order matters (permutation)** from **order irrelevant (combination)** before plugging into a formula.
+- When items repeat (e.g., `MISSISSIPPI`), divide by the factorial of each repeated block.
+- Derangements `D_n = n! \sum_{k=0}^{n} \frac{(-1)^k}{k!}` are tested via inclusion–exclusion.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> For students who want genuine understanding.
+> Standard content for students with a few days to months.
 
-**Circular Permutations:**
+#### Definition and the core formula
 
-- **Around a circle:** $(n-1)!$ (fix one position to remove rotation symmetry)
-- **Necklace/KEY:** If clockwise and anticlockwise arrangements are identical: $\frac{(n-1)!}{2}$
+For `n` distinct objects arranged `r` at a time, the number of linear arrangements is:
 
-**Conditional Permutations:**
+$$^nP_r = \frac{n!}{(n-r)!}$$
 
-**1. Restrictions on adjacent positions:**
-Use inclusion-exclusion or "treat as block" method.
-Example: arrangements of "KEPLER" with P and L together (note E repeats twice).
-Treat $(PL)$ or $(LP)$ as one unit: 5 units with 2 Es, $\frac{5!}{2!} \times 2! = 120$.
+Derivation: the first position has `n` choices, the second `n-1`, …, the `r`-th has `n-r+1`. Multiplying gives `n(n-1)\cdots(n-r+1) = n!/(n-r)!`. This rests on the **Fundamental Principle of Counting** — if task A can be done in `m` ways and task B in `n` ways, the pair can be done in `m \times n` ways.
 
-**2. Restrictions on not being together:**
-Total arrangements minus arrangements with restriction.
-Example: arrangements of "KEPLER" with P and L NOT together.
-Total: $\frac{6!}{2!} = 360$ (E repeats twice). With P and L together: $120$. So NOT together: $360 - 120 = 240$.
+#### Identical objects and multinomial counts
 
-**3. Position-based restrictions:**
-Example: arrangements of numbers 1–5 where 1 is not in first position.
-Use complement: total $5! - 4! = 120 - 24 = 96$.
+When `n` objects contain `p` identical of one kind, `q` of another, `r` of a third, and so on, distinct arrangements equal:
 
-**Derangements (Principle of Inclusion-Exclusion):**
+$$\frac{n!}{p! \, q! \, r! \cdots}$$
 
-Number of ways to arrange $n$ items so that no item is in its original position:
-$$D_n = n!\left[\frac{1}{0!} - \frac{1}{1!} + \frac{1}{2!} - \frac{1}{3!} + \cdots + \frac{(-1)^n}{n!}\right]$$
+The denominator cancels overcounting from treating identical items as distinguishable. Example: the letters of `MISSISSIPPI` (11 letters with `4` I's, `4` S's, `2` P's) yield `11!/(4! \cdot 4! \cdot 2!) = 34650` distinct arrangements.
 
-Special values: $D_1 = 0, D_2 = 1, D_3 = 2, D_4 = 9, D_5 = 44$.
+#### Circular arrangements and constraints
 
-**Worked Examples:**
+For `n` distinct objects around a circle, fix one object as reference (eliminating `n` rotations), giving `(n-1)!`. The **gaps method** handles "arrangements where no two of `k` specified objects are adjacent": place the non-restricted `(n-k)` items first, creating `(n-k-1)!` linear arrangements and `(n-k)` internal gaps plus `2` end gaps, then seat the `k` objects in `^kP_k` ways.
 
-*Example 1:* How many 5-digit numbers can be formed using digits 1, 2, 3, 4, 5 (without repetition) that are divisible by 4?
+> **Trap:** "Together" means bundle the group first (internal permutations), then treat the bundle as one unit among `(n - \text{group size} + 1)` slots.
 
-A number is divisible by 4 if and only if its last two digits form a number divisible by 4. So the strategy is to fix the last two positions with a valid pair and freely arrange the rest.
+#### Permutation vs combination
 
-Using only the digits 1–5 with no repetition, the ordered two-digit endings divisible by 4 are: 12, 24, 32, and 52. (Endings such as 44 or 04 are excluded because they require a repeated digit or a 0, neither of which is available.) That gives 4 valid choices for the last two positions.
+The identity `^nP_r = r! \cdot {^nC_r}` connects the two counts: each `r`-combination can be internally ordered in `r!` ways. Use this when a problem gives a combination count and asks for ordered arrangements.
 
-For each such ending, the first 3 positions are filled with the remaining 3 digits in $3! = 6$ ways.
-Total: $4 \times 6 = 24$ numbers.
+| Situation | Formula |
+|---|---|
+| `r` from `n` distinct, ordered | `n! / (n-r)!` |
+| All `n` in a circle | `(n-1)!` |
+| `n` with repeats (p,q,r identical) | `n! / (p! q! r!)` |
+| `r`-arrangements with repetition allowed | `n^r` |
+| Derangements of `n` items | `n! \sum (-1)^k / k!` |
 
-*Example 2 (JEE 2022):* Count arrangements of "EXAMINATION" where vowels appear together.
-
-Letters: E, X, A, M, I, N, A, T, I, O, N.
-Vowels: E, A, A, I, I, O (6 vowels, 2 As, 2 Is).
-Consonants: X, M, N, N, T (5 consonants, 2 Ns).
-
-Treat vowels as a block: 1 block + 5 consonants = 6 items.
-Arrangements of 6 items: $\frac{6!}{2!}$ (for 2 Ns) $= 360$.
-Within vowel block: arrange E, A, A, I, I, O = $\frac{6!}{2! \cdot 2!} = 180$.
-Total: $360 \times 180 = 64800$.
-
-*Example 3:* In how many ways can 5 boys and 5 girls be seated around a round table so that no two adjacent are of same gender?
-
-Place boys first: $(5-1)! = 4! = 24$ arrangements.
-Now there are 5 gaps between boys (gaps are the positions).
-Seat girls in these 5 gaps: $5! = 120$ arrangements.
-Total: $24 \times 120 = 2880$.
+JEE Advanced typically tests permutations as a **single integer-answer or MCQ worth 3–4 marks**, often embedded inside Probability or Binomial Theorem questions.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive theory for serious JEE Advanced preparation.
+> Comprehensive coverage for students on a longer study timeline.
 
-**Distribution Problems:**
+#### Derangements via inclusion–exclusion
 
-**1. Distribute $n$ distinct objects into $r$ distinct boxes:**
-- No restriction: $r^n$
-- No box empty (inclusion-exclusion): $\sum_{k=0}^{r} (-1)^k \binom{r}{k} (r-k)^n$
-- At most one per box: $P(n, r)$
+A **derangement** `D_n` is a permutation with no fixed point. Using inclusion–exclusion on the `n` bad events `A_i` (element `i` stays in position `i`):
 
-**2. Distribute $n$ identical objects into $r$ distinct boxes:**
-- No restriction: $\binom{n+r-1}{r-1}$
-- No box empty: $\binom{n-1}{r-1}$
-- At most $m$ in each: inclusion-exclusion or generating functions
+$$D_n = n! \sum_{k=0}^{n} \frac{(-1)^k}{k!} \approx \frac{n!}{e}$$
 
-**Partition of Numbers:**
+For small `n`: `D_1 = 0`, `D_2 = 1`, `D_3 = 2`, `D_4 = 9`, `D_5 = 44`. The recurrence `D_n = (n-1)(D_{n-1} + D_{n-2})` is faster to compute by hand.
 
-**Ferrers Diagram:** Visual representation of partitions, where each part of the partition is drawn as a row of dots. Conjugating (reflecting) the diagram gives a partition into parts whose sizes correspond to the column counts, which is the basis of many partition identities.
+#### Restricted positions — problème des ménages
 
-The number of partitions of $n$ into at most $k$ parts equals the number of partitions of $n$ into parts each of size at most $k$ — the two are related by conjugation of the Ferrers diagram.
+For `n` married couples seated at a circular table with men and women alternating and no spouse adjacent, the count is the **ménage number**:
 
-**Generating Functions for Permutations:**
+$$M_n = 2 \cdot n! \cdot A_n$$
 
-Generating functions package a counting sequence into the coefficients of a power series. For permutations, the exponential generating function (EGF) is the natural tool, since labelled arrangements are weighted by $\frac{x^n}{n!}$.
+where `A_n` satisfies the recurrence `A_n = (n-2)A_{n-1} + (n-3)A_{n-2}` with `A_0 = 1, A_1 = 0`. JEE Advanced occasionally disguises this as a "circular arrangement with alternating groups" question.
 
-The EGF for the number of permutations of an $n$-element set is
-$$\sum_{n=0}^{\infty} n! \, \frac{x^n}{n!} = \sum_{n=0}^{\infty} x^n = \frac{1}{1-x}.$$
+#### Multinomial distribution of distinct objects into labeled boxes
 
-More generally, the ordinary generating function for the falling factorials (ordered selections) uses the identity $\sum_{r} P(n,r) = \lfloor e \cdot n! \rfloor$ for the total number of partial permutations of an $n$-set.
+Distributing `n` distinct objects into groups of sizes `n_1, n_2, \ldots, n_k` (with `n_1 + n_2 + \cdots + n_k = n`):
 
-**Advanced Problems:**
+$$\binom{n}{n_1, n_2, \ldots, n_k} = \frac{n!}{n_1! \, n_2! \cdots n_k!}$$
 
-*Problem 1 (JEE Advanced 2020):* Find the number of 9-digit numbers with digits 1–9 where each digit appears exactly once, and the number is divisible by 9.
+This coefficient appears in the **Multinomial Theorem** and in probability questions asking for the chance that a shuffled deck produces specific block structures.
 
-A number is divisible by 9 if the sum of its digits is divisible by 9.
-Sum of digits 1–9 = 45, which is divisible by 9. So ANY arrangement of 1–9 is divisible by 9.
-Number of such arrangements: $9! = 362880$.
+#### Common mistakes
 
-*Problem 2:* In how many ways can 12 examination papers be distributed among 4 students so that each student gets at least one paper?
+> **Misread trap:** `^nP_r` with `r > n` gives 0, not a negative factorial — guard with the condition `n \ge r`.
 
-Total ways to assign 12 distinct papers to 4 students: $4^{12}$ (each paper has 4 choices).
-Subtract assignments where at least one student gets nothing, using inclusion-exclusion. Let $A_i$ be the event that student $i$ gets no papers.
-$|A_i| = 3^{12}$ (papers go to remaining 3).
-$|A_i \cap A_j| = 2^{12}$.
-$|A_i \cap A_j \cap A_k| = 1^{12} = 1$.
-$|A_1 \cap A_2 \cap A_3 \cap A_4| = 0$.
+- Confusing `n^r` (with repetition) with `n!/(n-r)!` (without repetition).
+- Treating circular permutations as `n!` when rotations are equivalent; using `(n-1)!` for necklaces where flips also coincide (then divide by `2` for `n \ge 3`).
+- For multinomial division: forgetting one of the repeated-group factorials.
+- Overcounting in "apart" problems by placing restricted items in non-adjacent gaps but using `^kP_k` instead of `k!` if those `k` items are themselves distinct yet treated as identical.
 
-By inclusion-exclusion, the count of "every student gets at least one paper" is
-$$4^{12} - \binom{4}{1}3^{12} + \binom{4}{2}2^{12} - \binom{4}{3}1^{12}.$$
-Using $4^{12} = 16777216$, $3^{12} = 531441$, $2^{12} = 4096$:
-$$16777216 - 4 \cdot 531441 + 6 \cdot 4096 - 4 \cdot 1 = 16777216 - 2125764 + 24576 - 4 = 14676024.$$
+#### Practice prompts
 
-*Problem 3:* Number of surjections from an $n$-set to an $m$-set ($n \geq m$):
-$$m! \, S(n,m)$$
-where $S(n,m)$ are Stirling numbers of the second kind.
+1. **Integer answer:** Find the number of ways to arrange the letters of `BANANA` so that no two `A`'s are adjacent. (Answer: `5! \cdot {^6C_3} / \text{overlap correction}` — solve via the gaps method.)
+2. **MCQ:** Six distinct books are distributed among three students such that each gets at least one. The number of distributions is — (compute via multinomial restricted by the "at least one" condition).
 
-$S(n,m) = \frac{1}{m!} \sum_{k=0}^{m} (-1)^k \binom{m}{k} (m-k)^n$.
+#### Connections to adjacent topics
 
-**JEE Advanced Patterns (2018–2024):**
-- Distribution problems with conditions (at least one, at most $k$) are common
-- Derangements formula is frequently tested (usually given, but $D_n$ values up to 5 should be memorised)
-- Circular permutations with gender adjacency are classic
-- Stirling numbers appear in 2021, 2023 papers
-- Principle of inclusion-exclusion in complex counting is trending upward
+Permutations feed directly into **Probability** (sample spaces), **Binomial Theorem** (`(x+y)^n` coefficients are combinations, but coefficient *positions* correspond to permutations of exponent allocations), and **Generating Functions** (exponential generating functions encode `n!` weights). Mastery here unlocks the harder arrangement problems in JEE Advanced Paper 2.
 
 ---
-*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+
+## Continue your study
+
+- **[View this topic in your JEE Advanced roadmap](/roadmap/?exam=jeeadvanced&duration=1mo)** — see where "Permutations" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=jeeadvanced&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[JEE Advanced exam overview](/exams/jeeadvanced/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/jeeadvanced/mathematics/)** — browse sibling topics in this subject
+
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

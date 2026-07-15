@@ -8,7 +8,7 @@ topicName: Work, Energy and Power
 weight: 5
 country: nigeria
 generated: "2026-03-24T08:32:07.556837"
-lastUpdated: 2026-03-24
+lastUpdated: "2026-07-15"
 diagramPrompt: "Clean educational diagram showing Work, Energy and Power with clear labels, white background, labeled arrows for forces/fields/vectors, color-coded components, exam-style illustration"
 
 
@@ -17,68 +17,92 @@ diagramPrompt: "Clean educational diagram showing Work, Energy and Power with cl
 # Work, Energy and Power
 
 ### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your NABTEB Physics paper.
 
-> Rapid summary for last-minute revision before your exam.
+**Work** is done when a force moves its point of application through a distance; it is a **scalar** measured in **joules (J)**. The defining formula is **W = Fd cos θ**, where θ is the angle between the force and displacement. **Energy** is the capacity to do work, also in joules, with two mechanical forms: **kinetic energy KE = ½mv²** (energy of motion) and **gravitational potential energy PE = mgh** (energy of position).
 
-**Work — Force and Displacement:**
+**Power** is the rate of doing work: **P = W/t**, measured in **watts (W)**, where 1 W = 1 J/s. The **work–energy theorem** states that net work done on a body equals its change in kinetic energy, W = ΔKE. **Efficiency η = (useful output ÷ input) × 100%**, always below 100%.
 
-Work is done when a force causes displacement in the direction of the force. The mathematical formula is W = F × d × cosθ, where F is the force applied, d is the displacement, and θ is the angle between the force direction and the displacement direction. SI unit: Joule (J). Work is a scalar quantity.
-
-Key facts:
-- When θ = 0° (force in same direction as motion): W = Fd (maximum)
-- When θ = 90° (force perpendicular to motion): W = 0 (e.g., centripetal force in uniform circular motion)
-- When θ = 180° (force opposite to motion): W = -Fd (negative — force does work against motion)
-
-Practical example: An NABTEB student carries a 3 kg load of books horizontally for 10 m at constant speed. The work done against gravity = 0 (since displacement is horizontal, not vertical). The work done against friction depends on the force applied — at constant speed, applied force = friction force, and the net work = 0.
-
-**⚡ NABTEB Tip:** In NABTEB, always identify the force doing work and the displacement in the same direction. Lifting a load vertically: W = mgh. Lowering a load slowly (braked): W = -mgh (work done by gravity is positive, but the student doing the lowering does negative work). Throwing a ball upward: work done by gravity = -mgh (negative, gravity opposes motion).
+- Holding a stationary load does **zero work** — no displacement.
+- g = 9.8 m/s² (≈10 m/s²) is used in PE = mgh on Earth.
+- 1 horsepower ≈ 746 W.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students working through the NABTEB syllabus over weeks.
 
-> Standard content for students with a few days to months.
+#### Defining Work and Its Scalar Nature
 
-**Kinetic Energy (KE) and Potential Energy (PE):**
+Work is the dot product of force and displacement vectors. When a force **F** acts on a body that moves through displacement **d** at angle θ to the force, only the component of force parallel to motion does work:
 
-KE = ½mv². This is always positive. A lorry of mass 2000 kg travelling at 15 m/s has KE = ½ × 2000 × 225 = 225,000 J.
+> W = Fd cos θ — when θ = 0°, W = Fd (maximum); when θ = 90°, W = 0 (force perpendicular to motion); when θ = 180°, W = −Fd (force opposes motion, e.g. friction).
 
-Gravitational PE = mgh. This depends on the reference level chosen for h = 0. Only changes in PE matter physically — the absolute value is arbitrary.
+Work is **scalar**: negative work does not mean a "negative amount of energy"; it signals that the force removes energy from the body. Lifting a 5 kg box through 2 m vertically requires W = (5)(9.8)(2) = 98 J.
 
-Energy transformation: When a ball falls from height h, its PE decreases from mgh to 0 while its KE increases from 0 to ½mv². At any point during the fall: ½mv² + mgh' = mgh (total energy conserved if no air resistance).
+#### Kinetic and Potential Energy
 
-**Power — Rate of Doing Work:**
+Kinetic energy depends on mass and the square of speed, which is why doubling speed quadruples KE. Potential energy in a gravitational field near Earth's surface is linear in height.
 
-Power = Work done / Time = Energy transformed / Time. SI unit: Watt (W). 1 Watt = 1 Joule per second.
+| Quantity | Formula | SI Unit | Depends on |
+|---|---|---|---|
+| Work | W = Fd cos θ | J (joule) | Force, displacement, angle |
+| Kinetic energy | KE = ½mv² | J | Mass, speed |
+| Gravitational PE | PE = mgh | J | Mass, height, g |
+| Power | P = W/t | W (watt) | Energy per unit time |
+| Efficiency | η = output/input × 100% | % | Useful vs total energy |
 
-Average power = Total work / Total time. Instantaneous power = Force × velocity = Fv.
+#### Work–Energy Theorem and Conservation
 
-Example: A mining machine lifts 500 kg of ore through 20 m in 10 seconds. Work done = mgh = 500 × 10 × 20 = 100,000 J. Average power = 100,000/10 = 10,000 W = 10 kW. The useful power output is 10 kW. If the motor input power is 12 kW, efficiency = 10/12 × 100% = 83.3%.
+The **work–energy theorem** (W_net = ΔKE = KE_f − KE_i) links kinematics to dynamics and lets you solve problems without computing acceleration directly. **Conservation of mechanical energy** (KE + PE = constant) holds only when no non-conservative forces do work; friction converts mechanical energy into **heat/internal energy**, which is why a sliding block slows and warms.
 
-**⚡ NABTEB Tip:** The formula W = Fd cosθ requires that d is the displacement of the point of application of the force. If a force acts at an angle, only the component F cosθ in the direction of displacement does work. This is a very common mistake in NABTEB exams.
+#### NABTEB Question Patterns
+
+Expect 1–2 short structured questions worth roughly 5% of total marks. Common formats: (a) define work, energy, power and state units; (b) calculate KE/PE from given data; (c) apply W = Fd cos θ to a pulling or pushing scenario; (d) compute power from P = W/t; (e) explain why efficiency is always below 100%. MCQs often test the cos θ factor or the scalar nature of energy.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students building long-term mastery.
 
-> Comprehensive coverage for students on a longer study timeline.
+#### Edge Cases and Common Traps
 
-**Conservation of Mechanical Energy:**
+> A porter carrying a load across a level platform at constant speed does **zero work** against gravity on the load — vertical displacement is zero, so W_gravity = 0; only horizontal friction forces contribute.
 
-When only conservative forces (gravity, spring force) act, total mechanical energy (KE + PE) is conserved. When non-conservative forces (friction, air resistance, tension with dissipation) act, mechanical energy changes — the difference equals work done by non-conservative forces.
+Work requires **displacement in the direction of force**. When force and displacement are perpendicular (e.g. the normal reaction on a body moving horizontally), W = 0 even though the force exists. Conversely, when force has a component **opposite** to motion (θ > 90°), W is **negative** — kinetic energy decreases. A common NABTEB trap is asking why a man pushing against a stationary wall does no work: the wall does not move.
 
-For a pendulum: at angle θ from vertical (string length L), height h = L - L cosθ = L(1 - cosθ). PE = mgL(1 - cosθ). At the bottom (θ = 0): v = maximum, PE = 0, KE = ½mv² = mgL(1 - cosθ_max). Therefore v_max = √(2gL(1 - cosθ_max)). This is derived from energy conservation, not kinematics.
+Variable force: if F changes with position, total work is the **area under the F–d graph**, not simply Fd. This generalises to springs, where W = ½kx².
 
-**Collisions:**
+#### Machines, Power and Efficiency
 
-Elastic collision (e = 1): Both momentum AND kinetic energy conserved. For m₁ at u₁ colliding with stationary m₂:
-v₁ = ((m₁ - m₂)/(m₁ + m₂)) × u₁
-v₂ = (2m₁/(m₁ + m₂)) × u₁
+Power P = W/t = Fv cos θ when a body moves at velocity v against force F. A car climbing a hill at constant speed needs more power than on level road because it must do work against gravity per unit time. Real machines lose energy as **heat, sound, deformation**, so η < 100%. Power input is measured at the source; useful output is what the machine delivers to its task.
 
-Perfectly inelastic (e = 0): Objects stick together. Only momentum conserved — KE is lost. v = (m₁u₁ + m₂u₂)/(m₁ + m₂). Fraction of KE lost = 1 - 1/(1 + m₁/m₂)².
+> **Common mistakes:** treating mass and weight as identical (weight is a force in newtons, mass is in kilograms); writing P = E instead of P = E/t; using g = 9.8 in one part and g = 10 in another; assuming PE = mgh applies far from Earth (it does not — gravitational PE near a planet uses GmM/r, not mgh).
 
-**Efficiency of Machines:**
+#### Worked Micro-Example
 
-Efficiency η = (Useful energy output / Total energy input) × 100%. For a system with multiple energy transformations, overall efficiency = product of individual efficiencies. Example: A generator has efficiency 80% and a motor has efficiency 90%. Overall efficiency = 0.80 × 0.90 = 72%.
+A 1200 kg car climbs a 30 m hill in 25 s against a constant gravitational resistance of 1200 × 9.8 = 11760 N along the slope.
 
-**⚡ NABTEB Pattern:** NABTEB frequently asks: "A machine does 500 J of work in 10 seconds. What is its power?" Answer: P = W/t = 500/10 = 50 W. Or: "Calculate the kinetic energy of a 2 kg ball moving at 3 m/s." Answer: KE = ½ × 2 × 9 = 9 J. Common errors include forgetting to square the velocity and mixing up units.
+- Work against gravity: W = Fd = (11760)(30) = 352 800 J
+- Useful power developed: P = W/t = 352 800 / 25 = 14 112 W ≈ 14.1 kW
+- Equivalent in horsepower: 14 112 / 746 ≈ 18.9 hp
+
+#### Connection to Adjacent Topics
+
+Work–energy ideas extend into **momentum** (impulse–momentum theorem), **circular motion** (centripetal force does no work because velocity is tangential), and **electricity** (P = IV, energy = Pt). NABTEB occasionally links Work–Energy with **machines** and **heat** units.
+
+#### Practice Prompts
+
+1. A 4 kg block is pulled 5 m across a horizontal floor by a 20 N force at 60° above horizontal. Find the work done.
+2. A pump lifts 300 kg of water through 6 m every minute. Calculate its useful power output in watts and its efficiency if its electrical input is 400 W.
+
+---
+
+## Continue your study
+
+- **[View this topic in your NABTEB roadmap](/roadmap/?exam=nabteb&duration=1mo)** — see where "Work, Energy and Power" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=nabteb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NABTEB exam overview](/exams/nabteb/)** — pattern, eligibility, and syllabus
+- **[All Physics notes](/notes/nabteb/physics/)** — browse sibling topics in this subject
+
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

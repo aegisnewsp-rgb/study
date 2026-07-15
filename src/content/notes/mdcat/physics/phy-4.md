@@ -11,7 +11,7 @@ topicName: Work, Energy and Power
 weight: 4
 country: pakistan
 generated: "2026-03-24T08:32:08.081528"
-lastUpdated: "2026-06-25"
+lastUpdated: "2026-07-15"
 diagramPrompt: "Clean educational diagram showing Work, Energy and Power with clear labels, white background, labeled arrows for forces/fields/vectors, color-coded components, exam-style illustration"
 
 
@@ -23,77 +23,118 @@ diagramPrompt: "Clean educational diagram showing Work, Energy and Power with cl
 # Work, Energy and Power
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+> Rapid summary for last-minute revision before your MDCAT.
 
-**Work** is the scalar product of force and displacement: `W = F d cosθ`, where θ is the angle between the applied force and the displacement vector. It is measured in **joules (J)**. A force perpendicular to motion does zero work; holding a dumbbell stationary produces no work because displacement is zero.
+**Work** is a scalar — the dot product of force and displacement, **W = F·d·cosθ**, measured in joules (J). It is **positive** when the force component aligns with motion, **negative** when it opposes motion, and **zero** when force is perpendicular to displacement.
 
-**Energy** is the capacity to do work. Two forms dominate MDCAT problems: **kinetic energy** `K = ½ m v²` (motion energy) and **gravitational potential energy** `U = m g h` with g = 9.8 m s⁻² near Earth's surface. The **work–energy theorem** ties them together: net work done equals change in kinetic energy, `W_net = ΔK`.
+#### Must-know formulas
 
-**Power** is the time-rate of doing work, `P = W / t`, measured in **watts (W)**; 1 W = 1 J s⁻¹. For a vehicle cruising at constant velocity, `P = F v`, so doubling speed doubles the power demand at the same tractive force.
+| Quantity | Formula | Units |
+|---|---|---|
+| Work | W = F d cosθ | J |
+| Kinetic energy | KE = ½ m v² | J |
+| Gravitational PE | PE = m g h | J |
+| Elastic PE | PE = ½ k x² | J |
+| Power | P = W/t = F v cosθ | W |
+| Efficiency | η = (output/input) × 100% | % |
 
-*High-yield pointers:* (1) Always include g in P.E. (2) Use cosθ — a 60° push on a 10 N block over 5 m gives 25 J, not 50 J. (3) Power is scalar, not W (work).
+> Work-energy theorem: **W_net = ΔKE = ½ m v_f² − ½ m v_i²**.
+
+#### High-yield pointers
+- Mechanical energy (KE + PE) is conserved **only** when no friction or air drag acts.
+- g = 9.8 m/s² (or 10 m/s²) — stay consistent within one numerical.
+- 1 kW = 1000 W; 1 hp ≈ 746 W.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-#### Defining Work Quantitatively
-Work done by a constant force is `W = F d cosθ`. The displacement `d` must be in the **same direction** as the component of force considered. If θ = 0°, W = Fd (maximum); if θ = 90°, W = 0 (force perpendicular to motion — e.g., normal reaction on a sliding block does no work); if θ = 180°, W = −Fd (force opposing motion, such as kinetic friction). Work is **path-independent only for conservative forces**; for friction, W depends on the actual path length.
+#### Work and its sign convention
 
-#### Kinetic Energy and the Work–Energy Theorem
-A body of mass m moving at speed v possesses **kinetic energy** `K = ½ m v²`. The **work–energy theorem** states that the net work done by all forces acting on a body equals the change in its kinetic energy:
-`W_net = K_f − K_i = ½ m v_f² − ½ m v_i²`.
-This theorem converts force-based problems into energy bookkeeping, bypassing the need to compute accelerations explicitly.
+Work is energy transferred *to* or *by* a body via a force acting through a displacement. The angle **θ** between **F** and **d** is critical:
 
-#### Potential Energy
-**Gravitational P.E.** near Earth's surface: `U_g = m g h`, where h is height above a chosen reference. **Elastic P.E.** in a spring obeying Hooke's law: `U_s = ½ k x²`, where k is the spring constant (N m⁻¹) and x is extension/compression. Geometrically, this equals the triangular area under the straight-line F–x graph between 0 and x.
+- θ = 0° → W = +Fd (force aids motion)
+- θ = 90° → W = 0 (e.g., normal force on a sliding block)
+- θ = 180° → W = −Fd (force opposes motion, like kinetic friction)
 
-#### Conservation of Mechanical Energy
-For a system with only **conservative forces** acting (gravity, ideal springs, electrostatic), the total **mechanical energy** `E = K + U` is constant. If friction, air drag, or any non-conservative force does work, mechanical energy decreases by exactly that amount — the lost energy becomes heat or sound.
+Work is a **scalar**, so adding works from multiple forces gives the net work: W_net = ΣW_i.
+
+#### Kinetic energy and the work–energy theorem
+
+A body of mass m moving at speed v stores kinetic energy **KE = ½ m v²**. The work–energy theorem states that the total work done by all forces equals the change in kinetic energy. This single relation often bypasses a full kinematic solution — if you know the forces and displacement, you can find v_f without computing acceleration explicitly.
+
+#### Potential energy and conservative forces
+
+Gravitational PE, **PE = m g h**, depends on height relative to a chosen reference. Elastic PE in a spring follows **PE = ½ k x²**, where x is the extension/compression from the relaxed length and k is the spring constant (Hooke's law: F = −k x). Both forms rely on **conservative forces** — forces whose work around any closed path is zero and which allow a potential-energy function to be defined.
+
+#### Conservation of mechanical energy
+
+When only conservative forces act, **KE_i + PE_i = KE_f + PE_f**. This is the cleanest way to handle vertical free-fall problems and motion on smooth inclines. If friction or air drag is present, energy is converted into heat and the mechanical total decreases:
 
 #### Power
-Average power `P = W / t`. Instantaneous power for a force acting on a moving body: `P = F v cosθ`. The SI unit **watt** equals 1 J s⁻¹; commercial electricity is billed in **kilowatt-hours** (1 kWh = 3.6 × 10⁶ J).
 
-#### Efficiency
-Real machines and engines always waste energy. **Efficiency** `η = (useful output energy / input energy) × 100%`, always less than 100%.
+Power is the rate of energy transfer. **Average power P = W/t**, while **instantaneous P = F v cosθ**. Common traps: using initial velocity instead of average in F·v, and unit conversion (1 kW = 1000 W; 1 hp ≈ 746 W).
 
-#### Common MDCAT Question Patterns
-- Numerical: a 4 kg ball thrown upward at 20 m s⁻¹ — find max height using `½ m v² = m g h`.
-- Conceptual: comparing work done by gravity on two paths between the same heights.
-- Graph-based: reading spring constant from a force–extension slope.
-- Conceptual: which form of energy converts into which (chemical → kinetic → electrical).
+| Trap | Fix |
+|---|---|
+| Forgetting cosθ | Identify θ between **F** and **v** |
+| Conserving energy with friction | Subtract W_friction = f·d first |
+| Mixing mass and weight | Use m for KE, mg for gravitational PE |
+
+MDCAT MCQs frequently test the sign of work (especially on inclines), spring problems combining F = kx with ½kx², and finding final speed from a given force and distance.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-#### Conservative vs Non-Conservative Forces
-A **conservative force** does work that depends only on initial and final positions, not on the path (gravity, ideal spring force, Coulomb). A **non-conservative force** (friction, air resistance, applied push) dissipates mechanical energy as heat; work done by it is path-dependent. The **mechanical-energy equation** with friction becomes:
-`K_i + U_i = K_f + U_f + W_friction`.
+#### Conservative vs non-conservative forces
 
-#### Variable Forces and the Area Interpretation
-For a force that varies with position (such as a spring force `F = −k x`), work is the **area under the F-versus-x curve**. For a spring stretched from 0 to x, the graph is a triangle with base x and height kx, giving `W = ½ k x²` — identical to the stored elastic P.E. This integral definition, `W = ∫ F · dx`, extends the scalar-product idea to non-constant forces.
+A force is conservative when the work it does between two points is path-independent. Gravity and the spring force qualify; kinetic friction and air drag do not — their work dissipates mechanical energy as heat. The mechanical-energy equation becomes:
 
-#### Power in Human Physiology and Machines
-A 70 kg person climbing 3 m in 6 s does `W = m g h = 2058 J`, so `P ≈ 343 W`. Sustained human output is closer to 75–100 W; the rest is biological inefficiency, dissipated as heat. Car engines quote power in horsepower (1 hp ≈ 746 W). A vehicle requiring 800 N of tractive force at 30 m s⁻¹ needs `P = 24 kW ≈ 32 hp` to maintain that speed on a level road.
+KE_i + PE_i = KE_f + PE_f + W_{non-conservative}
 
-#### Worked Numeric Example
-A 2 kg block slides down a frictionless 5 m incline from rest, then compresses a spring (k = 800 N m⁻¹) at the base. Find the maximum spring compression x.
-Energy conservation: `m g h = ½ k x²` (since incline height = 5 m, and final K = 0 at max compression).
-`2 × 9.8 × 5 = ½ × 800 × x²` → `98 = 400 x²` → `x² = 0.245` → `x ≈ 0.495 m`.
+In MDCAT incline problems, W_friction = μ_k N · d must be subtracted from the left side before solving for v_f.
 
-#### Typical MDCAT Traps
-1. Including or omitting g — P.E. without g is meaningless.
-2. Confusing `½ m v²` with `½ m v` (linear momentum, not energy).
-3. Assuming a constant force gives constant power — power scales with v.
-4. Computing efficiency as a decimal instead of a percentage.
-5. Believing mechanical energy is conserved whenever "energy is conserved" — global energy is conserved by the first law of thermodynamics; *mechanical* energy is only conserved when non-conservative work is zero.
+#### Variable forces and the work–energy theorem in general form
 
-#### Practice Prompts
-1. A 1500 kg car travelling at 20 m s⁻¹ brakes uniformly to 10 m s⁻¹. Using the work–energy theorem, find the braking force if it stops in 25 m.
-2. An electric motor rated 2 kW lifts a 100 kg load through 10 m. If the motor takes 7 s, calculate its efficiency.
+For forces that change with position, work is the area under an **F vs x** graph. The general statement W_net = ∫F·dx = ΔKE still holds, which connects directly to the calculus definition of PE: F = −dU/dx. This is why conservative forces can be derived from a potential energy function.
+
+#### Power, efficiency, and the First Law
+
+**Efficiency η = (useful energy output / total energy input) × 100%**. The First Law of Thermodynamics extends conservation: total energy (mechanical + thermal + internal) is constant — energy is transformed, never destroyed. A car engine rated at 100 kW with η = 25 % delivers only 25 kW to the wheels; the rest exits as heat.
+
+#### Worked micro-example
+
+A 2 kg block slides 5 m down a frictionless 30° incline from rest.
+
+- h = 5 sin30° = 2.5 m
+- ΔPE = m g h = 2 × 9.8 × 2.5 = 49 J
+- By conservation: ½ m v_f² = 49 → v_f = √49 = 7 m/s
+
+If μ_k = 0.2 on the same incline, W_friction = μ_k m g cos30° · d = 0.2 × 2 × 9.8 × 0.866 × 5 ≈ 16.97 J. Net KE gained = 49 − 16.97 ≈ 32.03 J, giving v_f ≈ 5.66 m/s.
+
+#### Common mistakes
+
+- Using W = F·d without cosθ for an angled pull.
+- Computing P = Fv using the wrong velocity (initial vs average).
+- Setting h = 0 at the bottom but using a PE formula that assumes ground is reference — only **ΔPE** matters.
+- Squaring velocity twice in energy-from-work conversions.
+
+#### Practice prompts
+
+1. A 1500 kg car accelerates uniformly from 36 km/h to 72 km/h over 50 m. Find the net force and the power delivered at the final instant.
+2. A spring with k = 200 N/m is compressed 0.1 m, launching a 0.5 kg ball vertically. How high does the ball rise if 20 % of the energy is lost to air resistance?
+
+---
+
+## Continue your study
+
+- **[View this topic in your MDCAT roadmap](/roadmap/?exam=mdcat&duration=1mo)** — see where "Work, Energy and Power" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=mdcat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[MDCAT exam overview](/exams/mdcat/)** — pattern, eligibility, and syllabus
+- **[All Physics notes](/notes/mdcat/physics/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

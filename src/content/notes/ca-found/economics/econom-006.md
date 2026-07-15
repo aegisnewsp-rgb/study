@@ -8,7 +8,7 @@ topicName: Cost Theory
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-05-26"
+lastUpdated: "2026-07-15"
 ---
 
 # Cost Theory
@@ -16,82 +16,85 @@ lastUpdated: "2026-05-26"
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Cost Theory** maps how a firm's output level drives its production costs. In the **short run**, **Total Fixed Cost (TFC)** stays constant regardless of output (rent, salaries), while **Total Variable Cost (TVC)** rises with quantity (raw materials, labor). **Total Cost (TC) = TFC + TVC**.
+**Cost Theory** examines how a firm's production costs behave as output changes, separating the **short run** (at least one factor fixed, so TFC > 0) from the **long run** (all factors variable, TFC = 0).
 
-Four per-unit formulas to memorize: **AFC = TFC/Q** (falls continuously as Q increases), **AVC = TVC/Q** (U-shaped), **AC = TC/Q** (U-shaped, AC = AFC + AVC), and **MC = ΔTC/ΔQ** (also U-shaped, crosses AC at its minimum). When **MC < AC**, AC falls; when **MC > AC**, AC rises. This intersection is the single most-tested relationship in CA Foundation.
+Core identities to memorise:
 
-The **shut-down point** occurs where Price = minimum AVC — if P falls below this, the firm should cease production in the short run.
+- **TC = TFC + TVC**
+- **AC = TC / Q**, broken into **AFC = TFC/Q** and **AVC = TVC/Q**
+- **MC = ΔTC / ΔQ**
 
-Key exam pointers: (1) MC always crosses AC at AC's lowest point — this is non-negotiable geometry, (2) In the **long run**, TFC disappears because all inputs become variable, (3) LAC envelopes all possible SAC curves as a **Planning Curve**.
+The **MC curve cuts both AVC and AC at their minimum points**. When MC < AC, AC falls; when MC > AC, AC rises. AFC keeps falling as Q rises because a constant TFC is spread over more units, which is why AC always lies above AVC.
 
----
+Break-even output: **Q\* = TFC / (P − AVC)**.
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-## Short-Run Cost Behavior
+#### Cost categories every CA Foundation student must separate
 
-The short-run cost function holds at least one input fixed (typically capital). TFC remains flat at every output level — it exists even at Q = 0. TVC starts at zero when Q = 0 and increases, initially at a decreasing rate (due to increasing returns to the variable factor), then at an increasing rate (due to diminishing returns).
+| Category | What it includes | Treats normal profit? |
+|---|---|---|
+| Explicit cost | Actual cash payments — wages, rent, interest, raw material | No |
+| Implicit cost | Notional cost of owner-owned resources and forgone rent | Yes (normal profit) |
+| Accounting cost | Explicit costs only, recorded in books | No |
+| Economic cost | Explicit + Implicit costs | Yes |
 
-The **Law of Variable Proportions** drives this: as a firm adds more units of a variable input to a fixed input, marginal product first rises (causing MC to fall), then falls (causing MC to rise). This creates the characteristic U-shape of both MC and AVC curves.
+**Economic profit** = Total Revenue − (Explicit + Implicit cost). A firm earning zero economic profit still covers the opportunity cost of capital, i.e., earns **normal profit**.
 
-## Deriving MC from TC
+#### Short-run cost curve behaviour
 
-**MC = dTC/dQ** (continuous) or **ΔTC/ΔQ** (discrete). Since TFC is constant, MC = ΔTVC/ΔQ in the short run. The slope of the TC curve at any point equals MC at that output level.
+The **Law of Variable Proportions** explains the U-shape of AVC and AC. Initially the fixed factor is under-utilised, so marginal product of the variable factor rises and MC falls. After the optimum combination, diminishing returns set in and MC rises, pulling AVC and AC upward.
 
-## The MC–AC Relationship
+**Key relationship:** MC intersects AVC and AC at their respective minimums, never at their maximums. Because AFC falls continuously as Q grows, AC approaches AVC from above but never meets it.
 
-This relationship flows from basic arithmetic, not theory: when adding a new unit costs less than the current average, the average must fall. Formally:
-- If **MC < AC**, the last unit was cheaper than the average → AC falls
-- If **MC > AC**, the last unit was more expensive than the average → AC rises
-- Therefore **MC = AC at AC's minimum point**
+#### Long-run cost curves
 
-## Shut-Down Condition
+In the long run, the firm can vary every input, so TFC = 0 and TC = TVC. The **LRAC is the envelope** of all possible short-run AC curves — it touches each SRAC at its minimum point but never lies above any of them. The U-shape of LRAC reflects **economies of scale** (falling segment) and **diseconomies of scale** (rising segment).
 
-A firm should continue production in the short run if **P ≥ minimum AVC**. Below this price, total revenue cannot cover variable costs, so losses from shutting down (equal to TFC) are smaller than losses from producing.
+#### Typical CA Foundation question patterns
 
----
+> ICAI usually frames a cost schedule (Q, TFC, TVC) and asks for AC, AVC, AFC, MC values, plus a statement about which curve AC cuts where.
+
+Numericals on break-even quantity and shut-down rule (operate if P ≥ AVC, shut down if P < AVC) are standard 1–2 mark items.
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-## Long-Run Cost Curves: The Envelope Relationship
+#### Edge cases and traps examiners exploit
 
-In the **long run**, all inputs are variable and no input is permanently fixed. The **Long-Run Average Cost (LAC)** curve represents the lowest possible average cost at each output level when the firm can choose its optimal factory size. It is the **Planning Curve** — it tells the firm what scale to build.
+- **AFC at very high Q**: AFC approaches but never equals zero; students writing "AFC = 0" lose marks. The curve is a rectangular hyperbola (TFC = AFC × Q).
+- **Break-even vs shut-down point**: Break-even is where **P = AC** (zero economic profit). Shut-down is where **P = AVC** (below this, the firm cannot even cover variable costs). Confusing the two formulas is the single most common error.
+- **LRAC ≠ SRAC**: LRAC is not one firm's SRAC; it is the lowest achievable cost for every output level given optimal plant size in the long run.
 
-Technically, the LAC curve is the **envelope** of all Short-Run Average Cost (SAC) curves. Each SAC corresponds to a specific plant size. The LAC touches each SAC at exactly one point — the output level where that particular plant size is optimal.
+#### Worked micro-example
 
-## LAC Shape: Economies and Diseconomies of Scale
+Given TFC = ₹1,000, TVC schedule: Q = 1, TVC = 400; Q = 2, TVC = 700; Q = 3, TVC = 900; Q = 4, TVC = 1,200.
 
-The U-shape of the LAC arises from two opposing forces:
+| Q | TC | AC = TC/Q | AFC | AVC | MC = ΔTC |
+|---|---|---|---|---|---|
+| 1 | 1,400 | 1,400.00 | 1,000.00 | 400.00 | — |
+| 2 | 1,700 | 850.00 | 500.00 | 350.00 | 300 |
+| 3 | 1,900 | 633.33 | 333.33 | 300.00 | 200 |
+| 4 | 2,200 | 550.00 | 250.00 | 300.00 | 300 |
 
-- **Economies of Scale** (LAC falling): specialization of labor, managerial division of labor, bulk purchasing, technological adoption
-- **Diseconomies of Scale** (LAC rising): coordination costs, communication breakdowns, loss of entrepreneurial control
+Notice MC is minimum at Q = 3 (₹200), AVC is minimum at Q = 3 (₹300), and AC keeps falling because MC < AC throughout. If price = ₹350, break-even Q\* = 1,000 / (350 − 300) = 20 units.
 
-Between these zones, **constant returns to scale** produce a flat segment of LAC.
+#### Common mistakes to avoid
 
-## Long-Run Marginal Cost (LMC)
+> Writing AC = AVC + AFC without verifying units, or stating MC = AC at the maximum of AC instead of the minimum, are both guaranteed mark-cutters in ICAI MCQs.
 
-**LMC = ΔLTC/ΔQ**. The relationship between LMC and LAC mirrors the short-run MC–AC relationship: LMC crosses LAC at LAC's minimum. Critically, when LMC < LAC, the firm should increase output (building a larger plant is worthwhile); when LMC > LAC, the firm should reduce output.
+#### Practice prompts
 
-## Common Mistakes to Avoid
+1. From a given cost schedule, compute AC, AVC, AFC, MC and state at what output MC equals AC.
+2. Distinguish accounting profit from economic profit when the owner forgoes a ₹50,000 salary and earns ₹3,00,000 accounting profit with ₹2,20,000 explicit costs.
 
-1. **TFC in the long run**: Students often forget that TFC is a short-run concept. In the long-run, all costs are variable — there is no fixed cost.
-2. **MC always falling**: MC first falls (increasing returns), reaches a minimum, then rises (diminishing returns). It never simply declines with output.
-3. **AVC at zero output**: At Q = 0, TVC = 0 so AVC = 0/0 is undefined, but remember TC = TFC at zero output.
-4. **SAC–LAC tangency**: The LAC envelope touches each SAC at only one point, and the SAC lies above LAC everywhere else.
+## Continue your study
 
-## Worked Example
+- **[View this topic in your CA Foundation roadmap](/roadmap/?exam=ca-found&duration=1mo)** — see where "Cost Theory" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ca-found&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[CA Foundation exam overview](/exams/ca-found/)** — pattern, eligibility, and syllabus
+- **[All Economics notes](/notes/ca-found/economics/)** — browse sibling topics in this subject
 
-Suppose TFC = ₹20,000. At Q = 100, TVC = ₹30,000.
-- TC = 20,000 + 30,000 = **₹50,000**
-- AFC = 20,000/100 = **₹200**
-- AVC = 30,000/100 = **₹300**
-- AC = 50,000/100 = **₹500** (equals AFC + AVC = 200 + 300 ✓)
-
-If output rises to Q = 200 and TVC becomes ₹50,000:
-- MC = (50,000 − 30,000)/(200 − 100) = **₹200 per unit**
-
-If P = ₹400, the firm earns ₹80,000 revenue against TC ₹70,000 (profit ₹10,000), so it should produce in the short run since P > minimum AVC.
-
+---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

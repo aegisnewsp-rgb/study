@@ -8,78 +8,113 @@ topicName: Differential Equations
 weight: 3
 country: india
 generated: "2026-03-29T05:06:34"
-lastUpdated: 2026-03-29
+lastUpdated: "2026-07-15"
 ---
+
 # Differential Equations
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision.
+> Rapid summary for last-minute revision before your exam.
 
-**Differential Equations** — Key Facts for CUET
-• **Core definition:** A **differential equation** relates a function and its derivatives. The **order** is the highest derivative present; the **degree** is the highest power of the highest-order derivative (after removing fractions and radicals).
-• **Most tested concept:** Solving **first-order linear ODEs** using an **integrating factor** µ = e^{∫P dx}, giving general solution y·µ = ∫Q·µ dx + C.
-• **Common mistake:** Forgetting the constant of integration C — every indefinite solution must include it. Also misidentifying the order when the equation is given implicitly.
-• **Key technique:** For **separable equations**, rewrite as f(y) dy = g(x) dx, then integrate both sides: ∫f(y) dy = ∫g(x) dx + C.
-• **Important exception:** The trivial solution y = 0 is always a solution to a homogeneous linear ODE, but many problems ask for non-trivial solutions — check the problem statement before discarding y = 0.
-• **Most frequent question type:** Find the **general solution** of a given differential equation, or find a **particular solution** using an initial condition (e.g., y(0) = 2).
-⚡ **Exam tip:** Always check whether the equation is **exact** before searching for an integrating factor. If Mdx + Ndy = 0 and ∂M/∂y = ∂N/∂x, the solution is simply ∫M dx + ∫(N − ∂/∂y ∫M dx) dy = C.
+- **Definition:** An equation linking a function y = f(x), the independent variable x, and one or more derivatives of y.
+- **Order** = highest order derivative present; **degree** = exponent of that derivative (after clearing fractions, polynomial form only).
+- **General solution** contains *n* arbitrary constants for an *n*th-order DE; a **particular solution** fixes those constants using initial/boundary conditions.
+- **Variable separation** is the first method to try: write dy/dx = f(x)·g(y), then integrate both sides after separation.
+- **Linear first-order DE:** dy/dx + P(x)y = Q(x); integrating factor = e^(∫P dx).
+
+> **CUET trap:** A question asking for the *general* solution must include the constant of integration + C — answers without it lose the mark.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Differential Equations** — CUET Study Guide
+#### Core Vocabulary
 
-A **differential equation** (DE) contains derivatives of an unknown function. The **order** is the highest derivative; the **degree** is the highest power of the highest-order term after the equation is cleared of fractions and radicals. The **general solution** contains arbitrary constants equal to the order; a **particular solution** is obtained by applying initial conditions.
+| Term | Meaning |
+|---|---|
+| Order | Highest derivative in the equation (1st, 2nd, 3rd, …) |
+| Degree | Power of the highest-order derivative, defined only when it is polynomial |
+| General solution | Contains *n* arbitrary constants for an *n*th-order DE |
+| Particular solution | Constants evaluated from given conditions |
+| IVP | Initial value problem — DE plus y(x₀) = y₀ conditions |
 
-**Types and solution methods:**
+#### Solving by Variable Separation
 
-*First-order, first-degree separable DEs:* dy/dx = g(x) h(y). Rewrite as dy/h(y) = g(x) dx, then integrate: ∫ dy/h(y) = ∫ g(x) dx + C.
+When dy/dx can be rewritten as f(x)·g(y), move all y-terms to one side:
 
-*First-order linear DEs:* dy/dx + P(x) y = Q(x). Compute integrating factor µ = exp(∫ P dx). Multiply the entire equation by µ: d/dx (y·µ) = Q·µ. Integrate: y·µ = ∫ Q·µ dx + C.
+∫ [1/g(y)] dy = ∫ f(x) dx + C
 
-*Homogeneous linear DEs with constant coefficients:* For a₂ y'' + a₁ y' + a₀ y = 0, solve the **characteristic equation** a₂ r² + a₁ r + a₀ = 0. If r₁ ≠ r₂ are real: y = C₁ e^{r₁x} + C₂ e^{r₂x}. If r₁ = r₂ = r: y = (C₁ + C₂ x) e^{rx}. If complex r = α ± iβ: y = e^{αx}[C₁ cos βx + C₂ sin βx].
+This works for forms like dy/dx = x²y, dy/dx = (1+y²)/(1+x²), and population-growth models.
 
-*Bernoulli equation:* dy/dx + P y = Q yⁿ. Substitute u = y^{1−n} to reduce to a linear DE.
+#### Homogeneous Equations
 
-**Common patterns:**
-- Forming a DE from a given general solution: differentiate until the number of constants equals the order, then eliminate the constants.
-- Verifying a solution by substituting back into the DE.
+A DE M dx + N dy = 0 is **homogeneous** if M and N are homogeneous functions of the *same* degree in x and y. Substitute **y = vx**, so dy/dx = v + x(dv/dx), then separate variables in v and x. After integration, replace v = y/x to obtain the solution in original variables.
 
-**Practice Numerical 1:** Solve dy/dx = (2x y)/ (x² + 1).
-- This is separable: dy/y = 2x dx/(x² + 1). Integrate: ∫ dy/y = ∫ 2x/(x² + 1) dx → ln|y| = ln|x² + 1| + C → y = C (x² + 1).
+#### First-Order Linear DE
 
-**Practice Numerical 2:** Solve dy/dx + y/(x + 1) = 3x/(x + 1), given y(0) = 2.
-- Here P = 1/(x+1), Q = 3x/(x+1). Integrating factor µ = e^{∫1/(x+1) dx} = e^{ln|x+1|} = x + 1.
-- Multiply: (x+1) dy/dx + y = 3x → d/dx[y(x+1)] = 3x → y(x+1) = ∫ 3x dx + C = 3x²/2 + C.
-- Apply y(0) = 2: 2(1) = 0 + C → C = 2 → Particular solution: y(x+1) = 3x²/2 + 2 → y = [3x²/2 + 2]/(x+1).
+Standard form: dy/dx + P(x)y = Q(x).
+
+Multiply both sides by the integrating factor **I.F. = e^(∫P dx)**:
+
+y · e^(∫P dx) = ∫ Q · e^(∫P dx) dx + C
+
+#### Typical CUET MCQ Patterns
+
+- Identify order and degree of a given equation (mind non-polynomial forms).
+- Form a DE by eliminating one or two arbitrary constants from y = f(x, C₁, C₂).
+- Match an equation to its solution family.
+- Choose the correct integrating factor e^(∫P dx), not e^(∫Q dx).
+- Apply a given initial condition to convert general to particular solution.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer timeline.
+> Comprehensive coverage for students on a longer study timeline.
 
-**Differential Equations** — Comprehensive CUET Notes
+#### Bernoulli and Exact Equations
 
-**Deeper theory and proof:**
+**Bernoulli form:** dy/dx + P(x)y = Q(x)·yⁿ with n ≠ 0, 1. Divide by yⁿ, let v = y^(1−n). The transformed equation dv/dx + (1−n)P·v = (1−n)Q is linear in v and solved by the integrating-factor method.
 
-*Derivation of the integrating factor for a linear ODE:* Starting with dy/dx + P y = Q, multiply both sides by µ = e^{∫ P dx}. The left side becomes µ dy/dx + P µ y = µ dy/dx + (dµ/dx) y = d/dx (y µ). This is the key property: the left-hand side becomes the derivative of the product, making integration straightforward. The condition for this to work is that µ satisfies dµ/dx = P µ, which yields µ = e^{∫ P dx} (up to a multiplicative constant, which cancels).
+**Exact equations:** M dx + N dy = 0 is exact when ∂M/∂y = ∂N/∂x. The solution is reconstructed as ∫ M dx + ∫(terms of N free of x) dy = C. If the equation is not exact, search for an integrating factor depending on x only or y only using the standard test ratios (M_y − N_x)/N and (N_x − M_y)/M.
 
-*Exact differential equations and integrating factor strategy:* For M(x, y) dx + N(x, y) dy = 0, if ∂M/∂y = ∂N/∂x, the DE is exact and a potential function ψ(x, y) satisfies ∂ψ/∂x = M and ∂ψ/∂y = N. The solution is ψ(x, y) = C. If not exact, an integrating factor µ(x) or µ(y) may make it exact. For µ depending only on x: µ(x) = exp(∫ (∂M/∂y − ∂N/∂x)/N dx). For µ depending only on y: µ(y) = exp(∫ (∂N/∂x − ∂M/∂y)/M dy).
+#### Higher-Order Linear DEs with Constant Coefficients
 
-*Method of undetermined coefficients — a systematic approach:* For a non-homogeneous linear ODE with constant coefficients, guess a particular solution based on the form of the forcing term (right-hand side). If the forcing term is a polynomial of degree m, try a polynomial of the same degree. If it is e^{kx}, try Ae^{kx}. If it is a trigonometric polynomial sin/cos, try A sin bx + B cos bx. If the guess overlaps with a solution of the homogeneous equation, multiply by x (or x² if needed).
+For (Dⁿ + a₁Dⁿ⁻¹ + … + aₙ)y = f(x), write **y = y_c + y_p**:
 
-*Cauchy–Euler (equidimensional) equations:* These have the form aₙ xⁿ y⁽ⁿ⁾ + aₙ₋₁ xⁿ⁻¹ y⁽ⁿ⁻¹⁾ + … + a₀ y = 0. For a second-order Cauchy–Euler equation x² y'' + a x y' + b y = 0, try a solution of the form y = xʳ. Substituting gives the **indicial equation** r(r−1) + a r + b = 0. Solve for r: if r₁ ≠ r₂ are distinct, y = C₁ x^{r₁} + C₂ x^{r₂}; if repeated, y = (C₁ + C₂ ln x) x^{r}.
+- **Complementary function y_c** comes from the auxiliary equation mⁿ + a₁mⁿ⁻¹ + … = 0.
+- **Particular integral y_p** uses the operator method: y_p = 1/f(D) · f(x), with standard replacements 1/(D−a) = e^(ax) ∫ e^(−ax)(·) dx for cases where f(a) = 0.
 
-*Partial differential equations (PDEs) — a glimpse:* The heat equation u_t = α² u_{xx} and wave equation u_{tt} = c² u_{xx} are classic PDEs. In CUET context, only ODEs are tested, but recognition of PDE form is useful for cross-topic awareness: a PDE has partial derivatives with respect to more than one variable.
+#### Common Mistakes in CUET UG
 
-*Cross-topic connection — growth and decay:* Many real-world processes follow dy/dt = k y, whose solution is y(t) = y₀ e^{kt}. For a substance with half-life T½, k = −ln 2/T½. For Newton's law of cooling: dT/dt = −k(T − Tₘ), solution T(t) = Tₘ + (T₀ − Tₘ) e^{−kt}. These are standard applications in CUET.
+- Treating **degree as defined for non-polynomial derivatives** — it is not; clear fractions first.
+- Losing the constant of integration after the final step.
+- Applying y = vx to equations that are *not* homogeneous (M, N of different total degrees).
+- Writing I.F. = e^(∫Q dx) instead of e^(∫P dx).
 
-*Challenging solved example:* Solve y'' − 4y' + 4y = e^{2x}.
-- Homogeneous solution: characteristic r² − 4r + 4 = 0 → (r − 2)² = 0 → r = 2 (repeated). So y_h = (C₁ + C₂ x) e^{2x}.
-- For the particular solution, the RHS is e^{2x}, which is a solution of the homogeneous equation (since e^{2x} is in y_h). Multiply the trial guess by x²: try y_p = A x² e^{2x}.
-- Compute y'_p and y''_p: y_p = A x² e^{2x} → y'_p = 2A x e^{2x} + 2A x² e^{2x} = 2A x(1 + x) e^{2x} → y''_p = 2A (1 + 2x) e^{2x} + 2A x(1 + x)·2 e^{2x} = [2A + 4A x + 4A x²] e^{2x}.
-- Substitute into LHS: y''_p − 4 y'_p + 4 y_p = [2A + 4A x + 4A x²] e^{2x} − 4[2A x(1 + x) e^{2x}] + 4[A x² e^{2x}] = [2A + 4A x + 4A x² − 8A x − 8A x² + 4A x²] e^{2x} = 2A e^{2x}.
-- Set equal to RHS e^{2x}: 2A e^{2x} = e^{2x} → A = 1/2.
-- General solution: y = (C₁ + C₂ x) e^{2x} + (1/2) x² e^{2x}.
+#### Worked Micro-Example
+
+Solve dy/dx + y tan x = sin x with y(0) = 0.
+
+Here P = tan x, so I.F. = e^(∫tan x dx) = sec x. Multiplying:
+
+d/dx (y sec x) = sin x · sec x = tan x
+
+Integrate: y sec x = −ln|cos x| + C. With y(0) = 0: 0 = −ln 1 + C ⇒ C = 0. So **y = −cos x · ln(cos x)**.
+
+#### Practice Prompts
+
+1. Find the order and degree of (d³y/dx³)^(1/2) + (d²y/dx²)³ + y = 0 after rationalising.
+2. Solve dy/dx = (x + y)/(x − y) and identify whether it is homogeneous; find the curve passing through (1, 1).
+
+---
+
+## Continue your study
+
+- **[View this topic in your CUET UG roadmap](/roadmap/?exam=cuet&duration=1mo)** — see where "Differential Equations" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=cuet&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[CUET UG exam overview](/exams/cuet/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/cuet/mathematics/)** — browse sibling topics in this subject
+
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

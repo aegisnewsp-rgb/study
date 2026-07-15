@@ -8,7 +8,7 @@ topicName: Aldehydes, Ketones and Carboxylic Acids
 weight: 4
 country: pakistan
 generated: "2026-03-24T08:32:08.062057"
-lastUpdated: 2026-03-24
+lastUpdated: "2026-07-15"
 diagramPrompt: "Clear scientific diagram of Aldehydes, Ketones and Carboxylic Acids with atom labels, molecular structure, reaction arrows, white background, color-coded bonds and groups, exam textbook style"
 
 
@@ -17,84 +17,81 @@ diagramPrompt: "Clear scientific diagram of Aldehydes, Ketones and Carboxylic Ac
 # Aldehydes, Ketones and Carboxylic Acids
 
 ### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your ECAT Chemistry paper.
 
-> Rapid summary for last-minute revision before your exam.
-
-**Aldehydes — R-CHO:**
-
-Aldehydes contain a carbonyl group (C=O) attached to at least one hydrogen atom and one carbon or hydrogen: R-CHO. Formaldehyde H₂C=O has two hydrogens on the carbonyl carbon. In IUPAC nomenclature, the suffix -al is used. Propanal (CH₃CH₂CHO), Butanal (CH₃CH₂CH₂CHO). The carbonyl carbon is always carbon 1 in naming.
-
-**Ketones — R-CO-R':**
-
-Ketones contain a carbonyl group attached to two carbon atoms (neither can be part of the -CHO or -COOH group): R-CO-R'. Acetone (propanone) CH₃COCH₃ is the simplest and most common ketone. In IUPAC, the suffix -one is used: Butanone (methyl ethyl ketone, MEK), Pentanone. The carbonyl carbon gets the lowest possible number.
-
-**Carboxylic Acids — R-COOH:**
-
-Carboxylic acids contain a -COOH functional group (carbonyl + hydroxyl attached to the same carbon). The suffix -oic acid is used: Methanoic acid (formic acid, HCOOH, found in ant stings), Ethanoic acid (acetic acid, CH₃COOH, found in vinegar). Propanoic acid, Butanoic acid (rancid butter smell).
-
-**⚡ ECAT Tip:** Aldehydes can be oxidised to carboxylic acids; ketones cannot be further oxidised without breaking the carbon skeleton (strong oxidising agents cleave C-C bonds adjacent to the carbonyl). This is a key distinction: Tollens' reagent (AgNO₃ in ammonia) gives a silver mirror with aldehydes but not with ketones. Fehling's solution (Cu²⁺ in alkaline tartrate) gives a red precipitate of Cu₂O with aldehydes but not ketones.
-
----
+- **Aldehyde** R–CHO: carbonyl C bonded to at least one H (e.g. HCHO, CH₃CHO). **Ketone** R–CO–R′: carbonyl C bonded to two C groups (e.g. CH₃COCH₃, acetone). **Carboxylic acid** R–COOH: carbonyl + –OH on the same C.
+- The C=O carbon is **sp² hybridised**, trigonal planar (≈120°), and strongly **polar (dipole ≈ 2.3–2.7 D)**. This polarity drives **nucleophilic addition** at the carbonyl C.
+- **Distinguishing tests (high-yield):** Tollens' (silver mirror) and Fehling's (red Cu₂O) → aldehydes only. **2,4-DNP** → orange precipitate with both aldehydes AND ketones. **NaHCO₃ effervescence** → carboxylic acids.
+- **Acidity order (carboxylic acids):** HCOOH > C₆H₅COOH > CH₃COOH > CH₃CH₂COOH. Electron-withdrawing groups (–Cl, –NO₂) **lower pKa** (stronger acid); alkyl groups (+I) **raise pKa**.
+- **Must-name reactions:** Aldol, Cannizzaro, Clemmensen (Zn-Hg/HCl), Wolff–Kishner (NH₂NH₂/KOH), Rosenmund, Stephen, HVZ, Fischer esterification.
 
 ### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months before ECAT.
 
-> Standard content for students with a few days to months.
+#### Structure and Bonding
+All three families share the **carbonyl group (C=O)**. The carbon is **sp² hybridised** with a trigonal planar geometry (≈120°). Because oxygen is far more electronegative than carbon, the bond is polarised: C bears a partial positive charge (δ⁺) and O carries δ⁻. This δ⁺ on carbon is the *single fact* that explains nearly every reaction of these compounds — nucleophiles attack there.
 
-**Nucleophilic Addition Reactions — The Key Mechanism:**
+#### Naming Conventions (IUPAC)
+Aldehydes are named **alkanals**, ketones **alkanones**, carboxylic acids **alkanoic acids**. The parent chain **must include the C=O carbon**, and numbering starts at the carbonyl C (so –CHO is C-1 in propanal, CH₃CH₂CHO). Common names (formic, acetic, acetone) often appear in ECAT MCQs alongside the IUPAC name.
 
-The carbonyl carbon is electrophilic (δ+ due to oxygen's electronegativity) and is attacked by nucleophiles. The C=O bond is shorter and stronger than C-C because of the double bond with oxygen.
+#### Methods of Preparation
+- **Aldehydes:** mild oxidation of 1° alcohols (PCC), Rosenmund reduction (RCOCl + H₂/Pd-BaSO₄), Stephen reaction (RCN → RCHO via SnCl₂/HCl), ozonolysis of alkenes.
+- **Ketones:** oxidation of 2° alcohols, Friedel–Crafts acylation (RCOCl + ArH + AlCl₃), dry distillation of calcium carboxylates.
+- **Carboxylic acids:** vigorous oxidation of 1° alcohols/aldehydes, nitrile hydrolysis (RCN → RCOOH), ester hydrolysis, **HVZ reaction** (Br₂/Red P on the α-C), and Grignard + CO₂ → RCOOH after H₃O⁺ work-up.
 
-*Addition of HCN:* KCN + dilute acid provides HCN in situ. CN⁻ attacks the carbonyl carbon, forming a cyanohydrin: R-CHO + HCN → R-CH(OH)-CN. Acetone + HCN → acetone cyanohydrin (used in synthesis of methacrylic acid for plastics). This reaction is reversible.
+#### Reactivity Comparison
 
-*Addition of Alcohols (Acetal/Ketal formation):* Aldehydes react with alcohols under acid catalysis to form hemiacetals (R-CH(OH)-OR'), then acetals (R-CH(OR')₂). Ketones form ketals similarly. These are important in protecting carbonyl groups during organic synthesis.
+| Property | Aldehyde | Ketone | Carboxylic Acid |
+|---|---|---|---|
+| Geometry at C=O | sp², planar | sp², planar | sp², planar |
+| Nucleophilic addition | Fast | Slower (steric + electronic) | Slow (OH donates electron density) |
+| Tollens' / Fehling's | **Positive** | Negative | Negative (except HCOOH) |
+| 2,4-DNP | Positive | Positive | Negative |
+| NaHCO₃ | No reaction | No reaction | **Effervescence (CO₂)** |
+| Acidity (pKa) | ~17 (α-H of CH₃CHO ≈ 17) | ~20 | 4–5 (acetic = 4.76) |
 
-*Reduction:* NaBH₄ (mild) reduces aldehydes to primary alcohols and ketones to secondary alcohols. LiAlH₄ (strong) reduces all carbonyls including carboxylic acids. Catalytic hydrogenation (H₂/Pt, Ni, or Pd) also reduces carbonyls but is less selective.
+> **Trap alert:** 2,4-DNP confirms a carbonyl but **cannot distinguish** aldehyde from ketone. Use Tollens' or Fehling's for that purpose.
 
-**Iodoform Reaction — A Test for Methyl Ketones:**
+#### Key Reaction Patterns
+- **Aldol condensation:** needs an α-hydrogen; product is a β-hydroxy carbonyl, which dehydrates to an α,β-unsaturated carbonyl.
+- **Cannizzaro:** needs **no α-hydrogen**; disproportionation (e.g. 2 HCHO → HCOOH + CH₃OH). Benzaldehyde also reacts.
+- **Clemmensen (Zn-Hg/HCl)** and **Wolff–Kishner (NH₂NH₂ then KOH/ethylene glycol)** both reduce C=O → CH₂. Clemmensen fails with acid-sensitive groups; Wolff–Kishner fails with base-sensitive groups.
+- **Fischer esterification:** RCOOH + R′OH ⇌ RCOOR′ + H₂O, acid-catalysed, equilibrium constant K_eq = [ester][water]/[acid][alcohol].
 
-Methyl ketones (RC-CO-CH₃) and acetaldehyde (CH₃CHO) give a positive iodoform test: when treated with I₂ in NaOH, they produce a pale yellow precipitate of CHI₃ (iodoform) with a characteristic antiseptic smell. The reaction proceeds via multiple halogenations (tri-iodination) of the methyl group followed by hydroxide-induced cleavage. Acetone (propanone) gives a positive test. Butanone (methyl ethyl ketone) also gives a positive test. 3-pentanone does not (no methyl group adjacent to carbonyl).
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline, focusing on mechanisms, edge cases, and exam-specific traps.
 
-**⚡ ECAT Tip:** The carbonyl group is planar with sp² hybridised carbon (120° bond angles). The oxygen is also sp² hybridised. In nucleophilic addition, the nucleophile attacks from above or below the plane, and the C=O bond breaks, creating a tetrahedral intermediate. For unsymmetrical ketones (like methyl ethyl ketone), the addition creates a chiral centre, producing a racemic mixture if the ketone is unsymmetrical.
+#### Mechanism Spotlight: Nucleophilic Addition
+A nucleophile (Nu⁻) attacks the electrophilic carbonyl carbon from above or below the plane; the C=O π bond breaks and electrons move onto oxygen, forming a tetrahedral alkoxide intermediate. Protonation of the alkoxide gives the addition product. The rate depends on **(a) the magnitude of δ⁺ on carbon** (stronger electron-withdrawing R groups speed it up) and **(b) steric crowding** at the carbonyl C (smaller groups → faster). This explains why HCHO > CH₃CHO > (CH₃)₂C=O in nucleophilic addition rate.
+
+#### Acidity and Resonance
+Carboxylic acids are ~10¹¹ times more acidic than alcohols because the **conjugate base (carboxylate, RCOO⁻) is resonance-stabilised** across two equivalent O atoms — the negative charge is delocalised over O–C–O. Alcohols (RO⁻) have no such stabilisation. Substituent effects:
+- **–I groups** (Cl, F, NO₂ near the –COOH) increase acidity by stabilising the anion.
+- **+I groups** (alkyl) decrease acidity by destabilising it.
+- **Ortho-effect** in benzoic acids: bulky ortho substituents (e.g. o-methyl) sterically hinder resonance and *increase* acidity compared with para/meta isomers.
+
+#### Edge Cases Examiners Love
+- **HCOOH vs other carboxylic acids:** Only **formic acid** has a C–H on the carbonyl carbon, so it is the lone carboxylic acid that gives a **positive Tollens' and Fehling's test**.
+- **Grignard with CO vs CO₂:** RMgX + CO₂ → RCOOH (after H₃O⁺); RMgX + CO (under pressure) → RCHO; two equivalents of RMgX with RCOOR′ give a tertiary alcohol.
+- **Aldol vs Cannizzaro:** both need a base, but aldol needs α-H, Cannizzaro does not. So **HCHO can only do Cannizzaro**, while **CH₃CHO can only do aldol**.
+- **HVZ** brominates the α-carbon of a carboxylic acid (not the carbonyl C); the product is an α-bromo acid, which can be converted to α-hydroxy, α-amino, or α-keto acids.
+- **Soda-lime decarboxylation:** RCOONa + NaOH/CaO → R–H (loss of CO₂); used to step down a carbon chain.
+
+#### Common Mistakes
+> **Watch out:** writing CH₃CH₂CHO as "1-propanal" is wrong — the correct IUPAC is **propanal**, with the C-1 fixed at the CHO group. Also, do not confuse **Clemmensen** (acidic) with **Wolff–Kishner** (basic); ECAT MCQs often mix up the reagents in options.
+
+#### Practice Prompts
+1. Predict the product when **benzaldehyde (C₆H₅CHO)** is treated with concentrated NaOH. Name the reaction and identify the two organic products.
+2. Arrange in order of increasing acidity: **CH₃CH₂COOH, CH₃CHClCOOH, CH₃CH₂CH₂COOH, (CH₃)₂CHCOOH**. Justify using the inductive effect.
 
 ---
 
-### 🔴 Extended — Deep Study (3mo+)
+## Continue your study
 
-> Comprehensive coverage for students on a longer study timeline.
+- **[View this topic in your ECAT (Engineering College Admission Test) roadmap](/roadmap/?exam=ecat&duration=1mo)** — see where "Aldehydes, Ketones and Carboxylic Acids" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ecat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[ECAT (Engineering College Admission Test) exam overview](/exams/ecat/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/ecat/chemistry/)** — browse sibling topics in this subject
 
-**Oxidation Reactions — Distinguishing Tests:**
-
-*Acidified potassium dichromate (K₂Cr₂O₇/H₂SO₄):*
-- Aldehydes: orange Cr(VI) reduces to green Cr(III)
-- Primary alcohols → aldehydes → carboxylic acids (colour change orange → green)
-- Ketones: no reaction (unless under forcing conditions that break the C-C bond)
-
-*Tollens' Reagent (Ag(NH₃)₂⁺):*
-- Aldehydes: Ag⁺ reduces to metallic Ag, forming a silver mirror on the test tube
-- Ketones: no reaction
-- This is the classic "silver mirror test" for aldehydes
-
-*Benedict's Solution (Cu²⁺ with citrate/carbonate):*
-- Aldehydes: blue Cu²⁺ reduces to red Cu₂O precipitate
-- Ketones: no reaction
-- This is used to test for glucose in urine (a reducing sugar with aldehyde character in its open-chain form)
-
-**Carboxylic Acid Derivatives — Reactivity Order:**
-
-Carboxylic acids can be converted to:
-1. Acid chlorides (RCOCl) — most reactive, using SOCl₂ (thionyl chloride), PCl₃, or PCl₅
-2. Acid anhydrides (R-CO)₂O — using acid chloride + carboxylate salt
-3. Esters (RCOOR') — Fischer esterification: RCOOH + R'OH ↔ RCOOR' + H₂O (acid-catalysed, reversible)
-4. Amides (RCONH₂) — using SOCl₂ then NH₃, or directly from acid + NH₄Cl at high temperature
-
-The reactivity order follows the ability of the leaving group to leave: Cl⁻ > -OOC-R > RO⁻ > NH₂⁻. More electron-withdrawing leaving groups increase reactivity.
-
-**Biological Significance:**
-
-- Formaldehyde (HCHO): preservative, crosslinking of biological tissues
-- Acetaldehyde (CH₃CHO): intermediate in alcohol metabolism; causes flushing reaction in people deficient in aldehyde dehydrogenase
-- Acetone (CH₃COCH₃): ketone body produced in diabetes and prolonged fasting; exhaled breath indicator
-- Acetic acid (CH₃COOH): central metabolite (acetyl-CoA), component of vinegar
-- Fatty acids: long-chain carboxylic acids (palmitic C₁₆, stearic C₁₈) are the building blocks of triglycerides and phospholipids in biological membranes
-
-**⚡ ECAT Pattern:** ECAT chemistry frequently tests: (1) IUPAC naming of aldehydes, ketones, and carboxylic acids (identifying the functional group priority — COOH > CHO > C=O > OH); (2) distinguishing aldehydes from ketones using Tollens' or Fehling's test; (3) nucleophilic addition mechanism (HCN, NaHSO₃); (4) reduction products of aldehydes vs ketones; and (5) the iodoform test for methyl ketones. A common ECAT question: "Which of the following will give a positive Tollens' test: formaldehyde, acetone, acetaldehyde, benzaldehyde?" Answer: All aldehydes (formaldehyde and acetaldehyde) give positive Tollens'. Benzaldehyde (an aromatic aldehyde) also gives positive Tollens' despite being aromatic — it reduces Ag⁺ to Ag. Acetone (a ketone) does not.
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

@@ -8,7 +8,7 @@ topicName: Sources of Islamic Law (Quran and Hadith)
 weight: 3
 country: pakistan
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-07-16"
 ---
 
 # Sources of Islamic Law (Quran and Hadith)
@@ -16,267 +16,96 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Sources of Islamic Law** — Key Facts for FPSC CSS (Pakistan)
+In **Usul al-Fiqh**, the sources from which Shariah rulings are derived are called *Adillah al-Ahkam*. The **Quran** is the first and supreme source — the verbatim, revealed word of Allah transmitted to the Prophet (ﷺ) through Angel Jibreel. The **Hadith** (with the broader **Sunnah**) is the second source, recording the Prophet's sayings, actions, and tacit approvals (*taqrir*).
 
-**Primary Sources**:
-| Source | Priority | Description |
-|--------|---------|-------------|
-| Quran | 1st | The Holy Book — word of Allah |
-| Sunnah/Hadith | 2nd | Practices of Prophet Muhammad (SAW) |
+Together, Quran and Hadith are termed the *Naqliyyat* — transmitted, divine sources. Authority for following the Sunnah rests on the *Ijma of the Companions* and Quranic injunctions such as **4:59** ("obey Allah and obey the Messenger") and **4:80** ("he who obeys the Messenger has obeyed Allah").
 
-**Secondary Sources**:
-| Source | Description |
-|--------|-------------|
-| Ijma (إجماع) | Consensus of scholars |
-| Qiyas (قياس) | Analogy |
-| Ijtihad (اجتهاد) | Independent reasoning |
-| Istihsan (استحسان) | Juristic preference |
-| Maslaha Mursala | Public interest |
-| Urf (عرف) | Customary practice |
+#### High-yield pointers:
 
-**The Four Sunni Schools (Madhahib)**:
-| Madhab | Founder | Predominant Region |
-|--------|---------|-------------------|
-| Hanafi | Imam Abu Hanifa | Turkey, Central Asia, South Asia |
-| Maliki | Malik ibn Anas | North Africa, West Africa |
-| Shafi'i | Imam al-Shafi'i | Egypt, Yemen, Southeast Asia |
-| Hanbali | Ahmad ibn Hanbal | Saudi Arabia |
-
-⚡ **CSS Tip**: Pakistan follows the **Hanafi school** as its official school of thought for personal law, while the **Shafi'i school** is predominant in Khyber Pakhtunkhwa's coastal areas.
+- **Quran collection:** memorised during the Prophet's lifetime, compiled under **Abu Bakr** (c. 633 CE after Yamama), standardised under **Uthman** (c. 650 CE).
+- **Hadith grades:** *Sahih* → *Hasan* → *Da'if* → *Mawdu'*. Always judge by **isnad** (chain) and **matn** (text).
+- **Transmission number:** *Mutawatir* (mass-transmitted → certain/*qat'i*); *Ahad* (solitary → probable/*zanni*).
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Sources of Islamic Law** — Detailed Study Guide
+#### The Quran as the Primary Source
 
-## The Quran — The Primary Source
+The Quran is the *Kalamullah* revealed in Arabic over 23 years. Its authenticity rests on **mass transmission (*tawatur*)** — every letter is preserved through unbroken chains of memorisers (*huffaz*) and written codices, fulfilling **15:9** ("We will be its guardian"). Collection proceeded in three stages: (1) continuous memorisation among the *Sahaba*, (2) Abu Bakr's compilation on the instruction of Umar after the Battle of Yamama (12 AH), preserved with Hafsa, and (3) Uthman's unified codex (24–25 AH) to settle regional dialectal variants.
 
-### Revelation History
-- **Duration**: 23 years (610-632 CE)
-- **Revelation**: Through Angel Jibrael (Gabriel) to Prophet Muhammad (SAW)
-- **Revelation Modes**: Revealed partly in Mecca (Makki), partly in Medina (Madani)
-- **Preservation**: Memorized by companions, written on parchment, preserved in hearts
+#### Categories of Quranic Rulings
 
-### Revelation Context
+| Criterion | Categories | Implication |
+|---|---|---|
+| Clarity | *Muhkamat* (clear) vs *Mutashabihat* (ambiguous) | Only Muhkamat yield binding rulings; see **3:7** |
+| Scope | *Aamm* (general) / *Khass* (specific) / *Mushtarak* | Restriction via *Takhsis* |
+| Transmission | *Qat'i al-Wurud* vs *Zanni al-Wurud* | Certain vs probable provenance |
+| Indication | *Qat'i al-Dilalah* vs *Zanni al-Dilalah* | Certain vs probable meaning |
 
-**Makki Surahs** (Meccan):
-- Revealed before Hijra (622 CE)
-- Topics: Tauheed, Day of Judgment, moral teachings
-- Shorter, rhythmic verses
-- Surahs: Al-Fatiha, Al-Ikhlas, Al-A'la, etc.
+#### Hadith as the Second Source
 
-**Madani Surahs**:
-- Revealed after Hijra
-- Topics: Islamic law, society, governance, battles
-- Longer, detailed verses
-- Surahs: Al-Baqarah, Aal-e-Imran, An-Nisa, Al-Ma'idah, etc.
+Hadith details what the Quran leaves general — the specifics of Salah, Hajj rituals, Zakat thresholds, and dietary rulings. Without it, the Quran would remain largely unworkable as law. The Prophet himself said, "I have been given the Quran and along with it its like (the Sunnah)."
 
-### Quranic Sciences (Ulum al-Quran)
+#### Classification of Hadith
 
-**Qira'at (Readings)**:
-- Different authentic recitation methods
-- **Hafs**: Most widely used (used in Pakistan)
-- **Warsh**: Used in North Africa
+#### By chain (isnad) and narrators:
 
-**Tajweed**: Rules of recitation (correct pronunciation)
+- **Sahih** — continuous chain, upright (*adl*) and accurate (*dabit*) narrators.
+- **Hasan** — meets Sahih conditions but with slightly weaker memory.
+- **Da'if** — broken chain or unreliable narrator; not used for *ahkam* except with supporting evidence.
+- **Mawdu'** — fabricated; forbidden to attribute to the Prophet (ﷺ).
 
-**Tafsir (Exegesis)**:
-| Scholar | Tafsir Work |
-|---------|-------------|
-| Ibn Kathir | Tafsir Ibn Kathir |
-| Jalalain | Tafsir al-Jalalain |
-| Al-Tabari | Jami' al-Bayan |
-| Al-Qurtubi | Al-Jami' li Ahkam al-Quran |
+#### By number of narrators:
 
-### Content Organization
+- **Mutawatir** — reported by such a large number at every generation that fabrication is impossible; yields *qat'i* (certain) knowledge.
+- **Ahad** — solitary or limited reporters; yields *zanni* (probable) knowledge in the Shafi'i view, though obligatory in practice.
 
-**114 Surahs (Chapters)**:
-| Category | Number of Surahs | Description |
-|----------|-----------------|-------------|
-| Muqatta'at | 29 | Surahs beginning with abbreviated letters |
-| Makki | ~86 | Revealed in Mecca |
-| Madani | ~28 | Revealed in Medina |
+**Canonical collections:** *Sahih al-Bukhari* and *Sahih Muslim* (the *Sahihayn*) head the list, followed by the four *Sunan* (Abu Dawud, Tirmidhi, Nasa'i, Ibn Majah), *Muwatta* of Imam Malik, and *Musnad* of Ahmad.
 
-**Juz and Para**:
-- 30 parts (Juz/Am)
-- 60 sections (Hizb)
-- Each Juz roughly equals one month's reading
+#### Khabar al-Wahid Debate
 
-## The Sunnah and Hadith
+The **Hanafi** school holds *Khabar al-Wahid* can establish rulings in action but not in *aqa'id* (belief), while the **Shafi'i** school requires it in both domains if narrators are upright.
 
-### What is Sunnah?
-- **Sunnah**: The practices, sayings, and approvals of Prophet Muhammad (SAW)
-- **Hadith**: The verbal record of the Sunnah
-- Together they form the second source of Islamic law
-
-### Hadith Classification
-
-**By Content**:
-| Type | Arabic | Description |
-|------|--------|-------------|
-| Qudsi | قدسي | Revelation from Allah through Prophet's words |
-| Nabawi | نبوي | Prophet's sayings, actions, approvals |
-
-**By Authenticity**:
-| Grade | Arabic | Description |
-|-------|--------|-------------|
-| Sahih | صحيح | Authentic — chain and text both sound |
-| Hasan | حسن | Good — sound chain, acceptable text |
-| Da'if | ضعيف | Weak — problems in chain or text |
-| Mawdu' | موضوع | Fabricated — invented, not from Prophet |
-
-**Major Hadith Collections**:
-| Collection | Compiler | Status |
-|-----------|----------|--------|
-| Sahih Bukhari | Imam Bukhari (810-870 CE) | Most authentic after Quran |
-| Sahih Muslim | Imam Muslim (821-875 CE) | Second most authentic |
-| Sunan al-Tirmidhi | Al-Tirmidhi | Contains Qudsi hadiths |
-| Sunan Abu Dawud | Abu Dawud | Focus on Fiqh |
-| Sunan al-Nasa'i | Al-Nasa'i | Focus on legal hadiths |
-| Sunan Ibn Majah | Ibn Majah | Contains weak hadiths |
-
-**The Four Sunan** + **Sahihayn** (Bukhari and Muslim) = **Kutub al-Sittah** (Six Authentic Books)
-
-### Hadith Sciences
-
-**Ilm al-Rijal**: Science of narrator evaluation
-- Each narrator assessed for: Memory, character, piety
-- Chain of narrators (Isnad) examined
-
-**Ilm al-Jarh wa al-Ta'deel**: Science of disparagement and recommendation
-
-**Mustalah al-Hadith**: Terminology of hadith classification
+> **Exam tip:** Always mention both *isnad* and *matn* when grading a Hadith in a CSS answer — citing one without the other loses marks.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-**Sources of Islamic Law** — Complete Notes for FPSC CSS
+#### Naskh (Abrogation) — A Critical Distinction
 
-## Detailed Secondary Sources
+**Naskh al-Tilawa duna al-Hukm** (recital abrogated, ruling remains) versus **Naskh al-Hukm duna al-Tilawa** (ruling abrogated, recital remains) are the two recognised forms debated by **Ibn Arabi** and **al-Jassas**. A common error is conflating naskh with **Takhsis** (qualifying a general text) or **Istisna'** (excepting a case) — they are categorically different. Crucially, the *Jumhur* (orthodox majority) hold that **Sunnah cannot abrogate the Quran**; abrogation occurs only between Quranic verses or by abrogating Sunnah with later Sunnah.
 
-### 1. Ijma (Consensus)
+#### Shia Position on Sources
 
-**Definition**: Universal agreement of Muslim scholars (Mujtahideen) of a particular era on a religious issue
+For breadth in a CSS answer, note that **Twelver Shia** accept Quran, Hadith, *Ijma*, and *Aql* (reason) as their four sources. Their Hadith corpus is the *Al-Kafi*, *Man La Yahduruhu al-Faqih*, *Tahdhib al-Ahkam*, and *Al-Istibsar* — known as the *Kutub al-Arba'a*.
 
-**Types**:
-| Type | Description |
-|------|-------------|
-| Ijma' al-Ummah | Consensus of entire Muslim community |
-| Ijma' al-Mujtahideen | Consensus of qualified scholars |
-| Ijma' al-Mutlaq | Absolute consensus |
+#### Common Traps in FPSC CSS Answers
 
-**Basis in Quran**: "Whoever opposes the Messenger after guidance has been clearly shown... hold fast to the rope of Allah" — scholars use this for authority
+| Mistake | Correct Position |
+|---|---|
+| Equating Hadith and Sunnah | Sunnah is broader; Hadith is the textual report |
+| Treating Ahad as certain | Ahad yields *zanni* knowledge |
+| Ignoring isnad grading | Examiners expect critical *takrij* |
+| Citing Da'if as Sahih | Always state the grade before applying |
+| Saying Sunnah abrogates Quran | Only the Quran can abrogate the Quran |
 
-**Example**: Consensus that Prophet Muhammad is the final messenger (Khatm an-Nabiyyeen)
+#### Worked Schematic
 
-### 2. Qiyas (Analogy)
+> A Hadith states: *"Actions are judged by intentions."* (Bukhari, Sahih) — *isnad*: Umar → Hisham → his father → Umar (radiyallahu anhu); *matn*: clearly sound; grade: **Muttafaqun alayh** (agreed authentic). This Hadith is *zanni al-wurud* (Ahad chain) but *qat'i al-dilalah* in legal application, illustrating how certainty can be split between transmission and meaning.
 
-**Definition**: Applying Quran/Hadith ruling to a new case based on similarity
-
-**Components**:
-| Component | Arabic | Description |
-|-----------|--------|-------------|
-| Asl | الأصل | Original case with known ruling |
-| Far' | الفرع | New case requiring ruling |
-| 'Ilal | علل | Effective cause (illah) linking the two |
-| Hukum | حكم | The ruling |
-
-**Example**: Prohibition of alcohol — the 'illah (cause) is intoxication. Since hashish/ketamine also cause intoxication, they are similarly prohibited.
-
-### 3. Ijtihad (Independent Reasoning)
-
-**Definition**: Maximum exertion of a qualified scholar's effort to derive Islamic rulings
-
-**Who Can Perform Ijtihad?**:
-- **Mujtahid Mustashar**: Qualified to derive new rulings
-- **Qualifications**: Knowledge of Arabic, Quran, Hadith, Fiqh principles, contemporary issues
-
-**The Concept of Closing the Gate of Ijtihad**:
-- Some scholars claim the gate was closed after early generations
-- **Majority view**: Gate remains open — new situations require new ijtihad
-- Contemporary examples: organ transplantation, IVF, cryptocurrency
-
-### 4. Other Sources and Principles
-
-**Istihsan (Juristic Preference)**:
-- Choosing one evidence over another when the latter would lead to an undesirable outcome
-- Abu Hanifa's preferred principle
-
-**Maslaha Mursala (Public Interest)**:
-- An unspecified benefit recognized by Shariah but without textual evidence
-- Must be real benefit, not speculative
-- **Example**: Regulations to prevent epidemic diseases
-
-**Urf (Custom)**:
-- When no textual evidence exists, established custom can be followed
-- **Condition**: Custom must not contradict Shariah
-
-**Qiyas al-'Urf (Analogy based on custom)**:
-- Custom can be considered as 'illah (effective cause)
-
-## Differences Between Schools
-
-| Issue | Hanafi | Shafi'i/Maliki |
-|-------|--------|----------------|
-| Sources priority | Abu Hanifa gave more weight to Qiyas | Gave more weight to Hadith directly |
-| Istihsan | Used extensively | Limited use |
-| Ijma | Only consensus of companions | Extended to all qualified scholars |
-| Viewing Hadith | Preferred some Sahih over weak hadiths | Generally followed all authentic hadiths |
-
-## Modern Fiqh Issues
-
-**Organ Transplantation**:
-- **Majority view**: Permissible — saving life takes priority
-- Based on principle: "No harm shall be inflicted nor reciprocated"
-
-**IVF and Surrogacy**:
-- **IVF (test-tube baby)**: Generally permissible between married couples
-- **Surrogacy**: Controversial — some allow, others forbid
-- **Donor sperm/eggs**: Majority forbid — lineage disruption
-
-**Cryptocurrency**:
-- **Bitcoin and others**: Scholarly debate — some say permissible if no riba/gambling involved
-- Others forbid due to speculation (gharar)
-
-**Interest (Riba) in Banks**:
-- All schools agree conventional bank interest is prohibited
-- **Islamic banking**: Uses profit-loss sharing (Mudarabah, Musharakah) instead
+**Practice prompts:** (1) Differentiate *Mutawatir* from *Ahad* with one example each from the canonical collections. (2) Explain why a CSS marker expects grading of any Hadith you cite — draft a 150-word answer on the authority of Khabar al-Wahid.
 
 ---
 
-## CSS Examination Preparation
+## Continue your study
 
-```
-Key Questions:
+- **[View this topic in your FPSC CSS (Pakistan) roadmap](/roadmap/?exam=fpsc-cce&duration=1mo)** — see where "Sources of Islamic Law (Quran and Hadith)" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=fpsc-cce&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[FPSC CSS (Pakistan) exam overview](/exams/fpsc-cce/)** — pattern, eligibility, and syllabus
+- **[All Islamic Studies notes](/notes/fpsc-cce/islamic-studies/)** — browse sibling topics in this subject
 
-1. "Describe the primary and secondary sources of Islamic law."
-2. "Explain the process of Hadith authentication."
-3. "What is the difference between Sahih, Hasan, and Da'if hadiths?"
-4. "Discuss the four major Sunni schools of Fiqh and their differences."
-5. "How do Islamic scholars derive rulings for modern issues?"
-
-Key Terms:
-- Ilm al-Hadith: Science of Hadith
-- Ilm al-Rijal: Science of narrators
-- Tajweed: Quranic recitation rules
-- Tafsir: Quranic exegesis
-- Ijtihad: Independent reasoning
-- Qiyas: Analogy
-
-Major Hadith Collections (Kutub al-Sittah):
-- Sahih Bukhari — 7,275 hadiths (most authentic)
-- Sahih Muslim — 4,000 hadiths
-- Sunan al-Tirmidhi
-- Sunan Abu Dawud
-- Sunan al-Nasa'i
-- Sunan Ibn Majah
-```
-
-⚡ **CSS Strategy**: For sources of law, know the **Arabic terms** and the **differences between schools** (Hanafi vs. Shafi'i). For Hadith, memorize the **six books** and their compilers. Contemporary Fiqh issues are increasingly tested.
-
----
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

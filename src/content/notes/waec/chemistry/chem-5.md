@@ -11,7 +11,7 @@ topicName: Thermochemistry
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.641900"
-lastUpdated: 2026-03-24
+lastUpdated: "2026-07-16"
 diagramPrompt: "Clear scientific diagram of Thermochemistry with atom labels, molecular structure, reaction arrows, white background, color-coded bonds and groups, exam textbook style"
 
 
@@ -19,120 +19,99 @@ diagramPrompt: "Clear scientific diagram of Thermochemistry with atom labels, mo
 
 
 ---
+
 # Thermochemistry
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+> Rapid summary for last-minute revision before your WAEC WASSCE Chemistry papers.
 
-**Thermochemistry** — Key Facts for WAEC
+**Thermochemistry** studies the heat absorbed or released during chemical reactions and physical changes. The central quantity is the **enthalpy change (ΔH)**, measured in kJ mol⁻¹ under standard conditions (298 K, 1 atm).
 
-**Definitions:**
-- **Thermochemistry** studies heat changes accompanying chemical reactions.
-- **Enthalpy (H)** is the total heat content of a system at constant pressure.
-- **Standard enthalpy of reaction (ΔH°)** is the enthalpy change when moles of reactants in their standard states react to form products in their standard states.
-- **Exothermic reactions** release heat to the surroundings (ΔH = negative, e.g., combustion).
-- **Endothermic reactions** absorb heat from the surroundings (ΔH = positive, e.g., decomposition of calcium carbonate).
+- **Exothermic reaction**: ΔH < 0; system releases heat to surroundings (combustion, neutralisation).
+- **Endothermic reaction**: ΔH > 0; system absorbs heat from surroundings (dissolution of NH₄Cl, photosynthesis).
+- **Core equations**: Q = mcΔθ (heat from temperature rise) and ΔH°reaction = Σ ΔH°f(products) − Σ ΔH°f(reactants).
 
-**Key Equations:**
-- ΔH = H_products − H_reactants
-- ΔH = Σ bonds broken − Σ bonds formed (approximate)
-- Heat gained/lost: q = mcΔT (where m = mass, c = specific heat capacity, ΔT = temperature change)
+> Memorise: ΔH°n ≈ **−57.1 kJ mol⁻¹** for strong acid + strong base → H₂O(l).
 
-**Common ΔH Values to Memorise for WAEC:**
-- Enthalpy of combustion of methanol: −726 kJ mol⁻¹
-- Enthalpy of neutralisation (strong acid + strong alkali): −57.3 kJ mol⁻¹
-- Enthalpy of dissolution of ammonium chloride: +15.5 kJ mol⁻¹
-
-**⚡ WAEC Exam Tip:** In data interpretation questions, always check the sign carefully. A negative ΔH means exothermic. Watch whether the question asks for the enthalpy change of reaction or the enthalpy change of formation. Also, note the state symbols — H₂O(l) and H₂O(g) have different enthalpy values.
+WAEC tests definitions, Q = mcΔθ calculations, and Hess's Law cycles for roughly 4–8 marks per paper.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+> Standard content for students preparing over weeks to a couple of months.
 
-**Thermochemistry** — Chemistry Study Guide
+#### Key Enthalpy Definitions
 
-**Enthalpy of Reaction**
+- **Standard enthalpy of combustion (ΔH°c)**: heat released when 1 mole of a substance burns completely in oxygen under standard conditions.
+- **Standard enthalpy of formation (ΔH°f)**: enthalpy change when 1 mole of a compound is formed from its elements in their standard states. By definition, ΔH°f of any element in its standard state = 0.
+- **Standard enthalpy of neutralisation (ΔH°n)**: heat evolved when 1 mole of water is formed from the reaction of a strong acid with a strong base in dilute solution (−57.1 kJ mol⁻¹).
 
-The enthalpy change for a reaction can be measured experimentally using calorimetry. In a simple school-laboratory setup, a known mass of water is used as the heat sink, and the temperature rise is recorded when a reaction is carried out.
+#### Calorimetry Calculations
 
-**Calorimetry Calculations:**
-A student burns 0.50 g of methanol (M = 32 g mol⁻¹) in a spirit burner and heats 200 cm³ of water from 25°C to 60°C. Calculate the enthalpy of combustion of methanol.
+The heat gained by the solution equals the heat released by the reaction, assuming an adiabatic calorimeter:
 
-- Moles of methanol = 0.50/32 = 0.0156 mol
-- Heat absorbed by water = mcΔT = 200 × 4.2 × 35 = 29,400 J = 29.4 kJ
-- ΔH_c = −29.4/0.0156 = −1,885 kJ mol⁻¹ (experimental value — less exothermic than the standard value due to heat losses)
+$$Q = mc\Delta\theta$$
 
-**Hess's Law:**
-Hess's Law of Constant Heat Summation states that the total enthalpy change for a reaction is independent of the route taken. This allows us to calculate enthalpy changes that cannot be measured directly.
+where Q = heat (J), m = mass of solution (g), c = specific heat capacity (≈ 4.2 J g⁻¹ K⁻¹ for water), Δθ = temperature change (K or °C). Then ΔH = −Q/n, where n is moles of the limiting reactant.
 
-**Example — Calculate the enthalpy of formation of methane:**
-C(s) + 2H₂(g) → CH₄(g)  ΔH_f = ?
+#### Hess's Law
 
-Given:
-- C(s) + O₂(g) → CO₂(g)  ΔH = −393.5 kJ mol⁻¹
-- 2H₂(g) + ½O₂(g) → H₂O(l)  ΔH = −285.8 kJ mol⁻¹
-- CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l)  ΔH = −890.3 kJ mol⁻¹
+The total enthalpy change is independent of the route taken. To calculate an unknown ΔH:
 
-Applying Hess's Law (formation enthalpy = sum of combustion enthalpies of reactants minus combustion enthalpy of product):
-ΔH_f = [−393.5 + 2(−285.8)] − [−890.3]
-ΔH_f = −965.1 + 890.3 = −74.8 kJ mol⁻¹
+1. Write the target equation.
+2. Arrange given equations so reactants/products align.
+3. Reverse equations as needed (flip the sign of ΔH).
+4. Multiply coefficients by a factor → multiply ΔH by the same factor.
+5. Sum the equations and their ΔH values.
 
-**Bond Enthalpies:**
-Average bond enthalpy is the energy required to break one mole of bonds in gaseous molecules. Breaking bonds is endothermic (+); forming bonds is exothermic (−).
+#### Typical WAEC Patterns
 
-ΔH ≈ Σ (bond enthalpies of bonds broken) − Σ (bond enthalpies of bonds formed)
-
-**⚡ Common Mistakes to Avoid:**
-- Confusing enthalpy of formation with enthalpy of combustion
-- Forgetting that standard enthalpy values are per mole of reaction as written
-- Neglecting to include state symbols when comparing enthalpy values
-- In Hess's law cycles, forgetting to multiply enthalpy values when the stoichiometric coefficient is greater than 1
+| Question Type | Skill Tested |
+|---|---|
+| Define ΔH°f, ΔH°c, ΔH°n with examples | Recall + units |
+| Q = mcΔθ problem (combustion of fuel) | Numerical accuracy |
+| Hess's Law two- or three-step cycle | Equation manipulation |
+| Bond-energy ΔH calculation | Σ(bonds broken) − Σ(bonds formed) |
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-**Thermochemistry** — Comprehensive Chemistry Notes
+#### Bond Energy Approach
 
-**Detailed Treatment of Enthalpy Concepts**
+The enthalpy change can be estimated directly from bond dissociation enthalpies:
 
-**Born-Haber Cycles:**
-Born-Haber cycles are a specific application of Hess's law used to calculate lattice enthalpy (the energy released when one mole of an ionic compound forms from its gaseous ions). The cycle relates lattice enthalpy to enthalpy of formation, atomisation enthalpies, ionisation energies, electron affinity, and bond dissociation enthalpies.
+$$\Delta H = \Sigma BE(\text{bonds broken}) - \Sigma BE(\text{bonds formed})$$
 
-For sodium chloride:
-ΔH_f = ΔH_atom(Na) + ½ΔH_dissociation(Cl₂) + IE(Na) + EA(Cl) + ΔH_lattice
+Breaking bonds absorbs energy (positive); forming bonds releases it (negative). WAEC questions often give a table of bond energies and ask for ΔH of combustion of methane or ethanol.
 
-**Enthalpy of Solution and Lattice Energy:**
-The enthalpy of solution has two components: lattice enthalpy (endothermic, energy needed to separate ions) and hydration enthalpy (exothermic, energy released when ions are hydrated). If lattice enthalpy > hydration enthalpy, the overall process is endothermic and the solute may not dissolve readily.
+#### Worked Hess's Law Example
 
-**Entropy (S):**
-Entropy is a measure of disorder or randomness. The second law of thermodynamics states that the total entropy of the universe always increases for a spontaneous process. Gibbs free energy (G) combines enthalpy and entropy:
+Given: (i) C(s) + O₂(g) → CO₂(g), ΔH₁ = −393.5 kJ mol⁻¹; (ii) H₂(g) + ½O₂(g) → H₂O(l), ΔH₂ = −285.8 kJ mol⁻¹; (iii) CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(l), ΔH₃ = −890.4 kJ mol⁻¹. Find ΔH°f of CH₄.
 
-ΔG = ΔH − TΔS
+Using Hess's Law: ΔH°f(CH₄) = ΔH₁ + 2ΔH₂ − ΔH₃ = −393.5 + 2(−285.8) − (−890.4) = **−74.7 kJ mol⁻¹**.
 
-A reaction is spontaneous when ΔG is negative.
+#### Edge Cases and Examiner Traps
 
-**Rate vs. Thermodynamic Control:**
-A reaction may be thermodynamically favourable (negative ΔG) but kinetically slow (high activation energy). Thermochemistry tells us about energy changes, not the speed of reaction.
+- **Weak acid/basis neutralisation**: ΔH°n is less exothermic than −57.1 kJ mol⁻¹ because ionisation absorbs energy.
+- **Sign convention**: WAEC follows IUPAC — exothermic ΔH is negative.
+- **Calorimeter constant (C)**: forgetting it underestimates ΔH for bomb or flame calorimeters; use Q_total = (mcΔθ + CΔθ).
+- **Mass of solution vs solute**: always use total solution mass in mcΔθ.
 
-**WAEC Past Question Patterns:**
-- Calculations using q = mcΔT with specific heat capacity of water (4.2 J g⁻¹ K⁻¹)
-- Hess's law cycles presented as energy level diagrams
-- Interpreting Born-Haber cycles with labelled arrows
-- Explaining endothermic vs. exothermic changes in context (e.g., Instant cold packs, hand warmers)
-- Bond energy calculations for enthalpy of reaction
-- Predicting sign of ΔS and its effect on spontaneity
+#### Practice Prompts
 
-**⚡ WAEC-Specific Exam Tips:**
-1. In calculation questions, always write the thermochemical equation alongside your working.
-2. Watch for "per mole of reactant" vs. "per mole of product" — read the question carefully.
-3. If a value isn't given in the question, use the standard values from your data booklet.
-4. Energy level diagrams: label the axes, mark reactants and products, and indicate ΔH with a double-headed arrow.
-5. When answering "explain why" questions about exothermic reactions, mention that bond formation releases more energy than bond breaking, and that the heat released increases the temperature of the surroundings.
-6. Lattice enthalpy cannot be measured directly — be ready to construct or interpret a Born-Haber cycle from given data.
+1. 2.0 g of methanol (CH₃OH) raises 500 cm³ of water from 25.0 °C to 30.5 °C in a calorimeter. Calculate ΔH°c of methanol in kJ mol⁻¹.
+2. Using bond energies C–H = 413, O=O = 495, C=O (in CO₂) = 805, O–H = 463 kJ mol⁻¹, calculate ΔH for CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(g).
 
 ---
-*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
 
+## Continue your study
+
+- **[View this topic in your WAEC WASSCE roadmap](/roadmap/?exam=waec&duration=1mo)** — see where "Thermochemistry" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=waec&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[WAEC WASSCE exam overview](/exams/waec/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/waec/chemistry/)** — browse sibling topics in this subject
+
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

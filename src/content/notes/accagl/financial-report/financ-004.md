@@ -8,222 +8,86 @@ topicName: "Statement of Cash Flows"
 weight: 3
 country: pakistan
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-07-16"
 ---
 
 # Statement of Cash Flows
 
 ### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
 
-**IAS 7 — Statement of Cash Flows**
+The **Statement of Cash Flows** is a primary financial statement under **IAS 7** that explains the movement in a reporting entity's **cash and cash equivalents** during a period. It splits cash movements into three sections — **operating, investing and financing** — and reconciles them to the change in the cash balance.
 
-Cash Flows split into three activities:
+- **Closing cash = Opening cash + Net operating + Net investing + Net financing**
+- **Indirect method** starts from **profit before tax**, adds back **depreciation/amortisation**, reverses gains/losses on disposal, then adjusts for **working capital changes** and deducts **income tax paid**.
+- **Free cash flow = Net cash from operating activities − Capital expenditure − Dividends paid**.
 
-**1. Operating Activities (Key — always required):**
-- Cash received from customers
-- Cash paid to suppliers and employees
-- Cash paid for inventories
-- General operating cash flows
-
-**2. Investing Activities:**
-- Purchase/sale of PPE and intangibles
-- Purchase/sale of investments
-- Loans given/received
-- Interest and dividends RECEIVED
-
-**3. Financing Activities:**
-- Proceeds from issuing shares/loans
-- Repayment of borrowings
-- Dividends PAID
-- Lease payments (principal portion only — IFRS 16)
-
-**Methods:**
-- **Direct:** Major classes of gross cash receipts and payments (IAS 7.18)
-- **Indirect:** PBT adjusted for non-cash items and working capital changes (IAS 7.20)
-
-⚡ **Exam tip:** Interest paid is often classified as operating. In Pakistan/ACCA, dividends paid = financing. IAS 7 permits flexibility but interest paid/received has specific rules. ALWAYS check exam question for classification requirements.
+> Exam pointer: in ACCA FR and CA Pakistan (CAF-8) papers, the question is almost always constructed — expect a Statement of Financial Position, a Statement of Profit or Loss, and a notes excerpt, then prepare the cash flow statement and answer a 2–4 mark analysis follow-up.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-**IAS 7 — Statement of Cash Flows**
+#### Why this statement exists
+Accrual profit does not tell the user how much cash the business actually generated or used. The Statement of Cash Flows removes non-cash items and accruals so that lenders, investors and analysts can assess **liquidity, solvency and the quality of earnings**. Cash and cash equivalents include **cash on hand, demand deposits, and short-term highly liquid investments with an original maturity of three months or less**.
 
-The statement of cash flows explains how entity's cash and cash equivalents changed during the period (opening → closing).
+#### The three sections
 
-**Cash and Cash Equivalents (IAS 7.6):**
+| Section | Typical content | Direction |
+|---|---|---|
+| Operating | Cash receipts from customers, cash paid to suppliers and employees, tax paid | Day-to-day trade |
+| Investing | Purchase/sale of PPE, acquisition/disposal of investments, interest received | Long-term assets |
+| Financing | Issue/repayment of shares and borrowings, dividends paid, interest paid | Capital structure |
 
-Cash = cash on hand + demand deposits
-Cash Equivalents = short-term, highly liquid investments with original maturity ≤3 months, readily convertible to known amounts, subject to insignificant risk of changes in value (e.g., treasury bills, money market funds).
+#### Indirect method — the working
+Start with **profit before tax**. Add back **depreciation, amortisation and impairment** (non-cash expenses). Subtract gains or add back losses on **disposal of non-current assets**. Adjust for movements in **trade receivables, inventories, trade payables and accruals** (an increase in a receivable is a cash outflow; a decrease is a cash inflow). Finally deduct **income tax actually paid**. The result is **net cash from operating activities**, the figure most analysts scrutinise.
 
-Bank overdrafts are NOT cash equivalents — they are liabilities. They may be included in cash management in some jurisdictions but IAS 7 treats them separately.
+#### Classification choices you must justify
+**Interest paid, interest received, dividends paid and dividends received** may each be placed in any one of the three sections, provided the policy is **disclosed in the notes and applied consistently** across periods. Income taxes paid normally sit in operating activities.
 
-**Cash Flows from Operating Activities — Direct Method:**
-
-```
-Cash received from customers          XXX
-Cash paid to suppliers               (XXX)
-Cash paid to employees               (XXX)
-Cash paid for other operating         (XXX)
-                                     -----
-Net cash from operating activities    XXX
-```
-
-**Cash Flows from Operating Activities — Indirect Method:**
-
-```
-Profit before tax                    XXX
-Adjustments for:
-  Depreciation and amortisation       XXX
-  Loss/(Gain) on disposal of NCA      XXX
-  Finance costs (interest)            XXX
-  Decrease/(Increase) in inventories  XXX
-  Decrease/(Increase) in receivables  XXX
-  Increase/(Decrease) in payables     XXX
-                                     -----
-Cash generated from operations        XXX
-Tax paid                            (XXX)
-                                     -----
-Net cash from operating activities    XXX
-```
-
-**Investing Activities — Common Items:**
-
-| Item | Classification |
-|---|---|
-| Purchase of PPE | Investing outflow |
-| Proceeds from sale of PPE | Investing inflow |
-| Purchase of financial instruments | Investing outflow |
-| Proceeds from sale of financial instruments | Investing inflow |
-| Interest received | Investing OR Operating (policy choice) |
-| Dividends received | Investing OR Operating (policy choice) |
-| Loans given | Investing outflow |
-| Loan repayments received | Investing inflow |
-
-**Financing Activities — Common Items:**
-
-| Item | Classification |
-|---|---|
-| Proceeds from share issue | Financing inflow |
-| Share buyback / redemption | Financing outflow |
-| Proceeds from bank loan | Financing inflow |
-| Repayment of bank loan | Financing outflow |
-| Lease principal payments (IFRS 16) | Financing outflow |
-| Dividends paid | Financing outflow |
-| Interest paid | Financing OR Operating (policy choice) |
-
-**Key Formulas:**
-
-- **Free Cash Flow to Firm (FCFF):** NOPAT + D&A − ΔWC − Capex
-- **Cash Conversion Ratio:** Operating Cash Flow / Net Profit (higher = better)
-- **Cash to Debt Ratio:** Operating Cash Flow / Total Debt
-
-⚡ **Exam tip:** The indirect method reconciles PBT to operating cash flow — you must show ALL working capital changes. A common trick: increase in inventory = cash outflow (subtract), increase in payables = cash inflow (add back).
+#### Typical constructed-question format
+ACCA FR questions carry roughly 10–15 marks on this topic. You are given a SOFP (two years), a SOCI, and extracts for PPE, borrowings and dividends. The marks cluster around **correct depreciation add-back, working capital movements, disposal proceeds, and the finance/operating split for interest**.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-**Comprehensive Analysis — IAS 7 Statement of Cash Flows**
+#### Direct vs indirect method — what examiners expect
+IAS 7 permits both, but **the indirect method is mandatory in practice for ACCA FR and CAF-8** because the reconciliation from profit to operating cash flow itself carries marks. Under the **direct method** you would instead list gross cash receipts from customers and gross cash paid to suppliers and employees, then deduct interest and tax paid.
 
-**Understanding the Cash Flow Statement's Purpose:**
+#### Capital expenditure — the classic trap
+Capital expenditure is **not** simply "PPE purchased in cash". The correct formula, after extracting movements from the PPE note, is:
 
-The cash flow statement bridges the accrual-based P&L and SoFP to show actual cash movements. A profitable company can still fail due to poor cash management — the cash flow statement exposes this. IAS 7 requires all entities to present a cash flow statement.
+#### Worked micro-example
+Opening PPE = PKR 800,000; closing PPE = PKR 1,100,000; depreciation charge = PKR 120,000; disposals at carrying amount = PKR 60,000.
 
-**Indirect Method — Detailed Derivation:**
+- Additions via finance lease (non-cash) = PKR 50,000
+- Cash purchases = Closing − Opening − Leases + Disposals = 1,100,000 − 800,000 − 50,000 + 60,000 = **PKR 310,000**
+- Disposal proceeds (separate note) = PKR 90,000
 
-Start with PBT and work through:
+Plug these into the investing section: cash outflow PKR 310,000, cash inflow PKR 90,000, gain/loss on disposal cleared through operating.
 
-*Non-Cash Items to Add/Subtract:*
-- Depreciation (no cash outflow, add back)
-- Amortisation of intangibles (add back)
-- Amortisation of bond premium/discount (adjust finance cost)
-- Impairment of assets (add back if loss, subtract if reversal)
-- Loss/(Gain) on disposal of NCA (subtract gain, add loss)
-- Unrealised foreign exchange losses/(gains) (add/subtract)
+> Free cash flow for analysis: Net cash from operating − PKR 310,000 − dividends paid.
 
-*Working Capital Changes:*
-- Increase in inventories → cash OUTFLOW (money tied up)
-- Decrease in inventories → cash INFLOW (money released)
-- Increase in trade receivables → cash OUTFLOW (owed but not collected)
-- Decrease in trade receivables → cash INFLOW (collected)
-- Increase in trade payables → cash INFLOW (supplier financing)
-- Decrease in trade payables → cash OUTFLOW (paid off)
+#### Non-cash transactions and policy traps
+**Finance lease additions, share-for-share exchanges and asset swaps** do not appear in the cash flow statement — they go in a **separate non-cash investing and financing disclosure note**. Forgetting this leaves the investing section understated.
 
-**Direct vs Indirect — Why Indirect is More Common:**
+**Bank overdrafts** are normally included in cash and cash equivalents when repayable on demand and form an integral part of cash management; treating them as financing breaks consistency. **IFRS 16 right-of-use depreciation** must be added back consistently with the finance cost split between operating and financing. Revaluation increases never pass through cash flow.
 
-Most entities use indirect because it's easier to prepare from existing accounting records. The direct method ( IAS 7.18) requires tracking individual cash transactions — more useful for users but more burdensome to prepare. IAS 7 encourages but does not mandate the direct method.
+#### Practice prompts
+1. From the given SOFP, SOCI and PPE note, prepare the operating section of the Statement of Cash Flows using the indirect method and comment on the working capital impact.
+2. Recalculate capital expenditure correctly after identifying a finance lease addition of PKR 45,000, and compute free cash flow given dividends paid of PKR 70,000.
 
-**Foreign Currency Cash Flows — IAS 7.25-28:**
+---
 
-Translate foreign currency cash flows using exchange rates at dates of cash transactions. Effect of exchange rate changes on foreign cash balances is shown separately (not in operating, investing, or financing) — as "effect of exchange rate changes on cash."
+## Continue your study
 
-**Non-Cash Transactions (IAS 7.43):**
-
-These are excluded from cash flow statement but disclosed in notes:
-- Acquisition of assets through finance leases
-- Conversion of debt to equity
-- Asset exchanges (non-cash)
-- Acquisition by issue of shares
-- Dividend reinvestment plans
-
-**IFRS 16 and Cash Flows — Critical for ACCA:**
-
-Under IFRS 16, lease payments are split:
-- **Principal portion** → Financing activities (outflow)
-- **Interest portion** → Can be classified as Operating (preferred) or Financing
-- **Short-term lease payments / low-value leases** → Operating activities
-
-IFRS 16.59: "cash payments for the principal portion of lease liabilities are classified as financing activities." This increased financing outflows significantly for lessees.
-
-**Worked Example — Indirect Method:**
-
-*Pakistan Mills Ltd: PBT Rs.2,400,000; Depreciation Rs.480,000; Gain on sale of machine Rs.120,000; Increase in trade receivables Rs.200,000; Increase in inventories Rs.150,000; Increase in trade payables Rs.300,000; Tax paid Rs.600,000; Bonus shares issued Rs.500,000; Interim dividend paid Rs.400,000.*
-
-```
-Cash Flows from Operating Activities:
-PBT                                         2,400,000
-Adjustments:
-  Depreciation                               480,000
-  Gain on disposal                          (120,000)
-  Increase in trade receivables            (200,000)
-  Increase in inventories                   (150,000)
-  Increase in trade payables                 300,000
-                                           ----------
-Cash generated from operations              2,710,000
-Tax paid                                    (600,000)
-                                           ----------
-Net cash from operating activities          2,110,000
-
-Cash Flows from Investing Activities:
-Proceeds from sale of machine                 200,000  (gain 120 means BV was 80)
-Purchase of new equipment                   (800,000)
-                                           ----------
-Net cash used in investing                   (600,000)
-
-Cash Flows from Financing Activities:
-Dividends paid                              (400,000)
-Proceeds from share issue                     600,000
-Repayment of long-term loan                  (300,000)
-                                           ----------
-Net cash used in financing                   (100,000)
-
-Net increase in cash                        1,410,000
-```
-
-**Common Exam Mistakes:**
-
-- Classifying interest paid as investing (it's usually operating)
-- Forgetting that bank overdraft is a current liability — changes in overdraft are cash flows
-- Misclassifying bonus share issue (non-cash, disclosed in notes) as financing
-- Mixing up direct and indirect method presentation formats
-- Failing to show tax and dividend paid separately from operating/investing
-- Forgetting to adjust for non-cash items like foreign exchange movements
-
-**Practice Tips:**
-- Always draw a T-account for cash to verify: Opening + Inflows − Outflows = Closing
-- In consolidated cash flow questions, remember to eliminate intra-group dividends and transactions
-- For not-for-profit entities, operating cash flow is computed differently — focus on receipts from and payments to members
+- **[View this topic in your ACCA/CA Pakistan roadmap](/roadmap/?exam=accagl&duration=1mo)** — see where "Statement of Cash Flows" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=accagl&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[ACCA/CA Pakistan exam overview](/exams/accagl/)** — pattern, eligibility, and syllabus
+- **[All Financial Reporting notes](/notes/accagl/financial-report/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

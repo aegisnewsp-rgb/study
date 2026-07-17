@@ -8,7 +8,7 @@ topicName: "Currency, Coins, and Financial Inclusion"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-07-17"
 ---
 
 # Currency, Coins, and Financial Inclusion
@@ -16,190 +16,92 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-- **Indian Currency**: Notes of ₹20, ₹50, ₹100, ₹200, ₹500, ₹2000; coins up to ₹10; ₹1 note issued by GOI
-- **Currency Management**: RBI manages currency; Currency Chests at designated bank branches; soiled notes replaced free of charge
-- **PMJDY (Pradhan Mantri Jan Dhan Yojana)**: Financial inclusion flagship; zero-balance account with RuPay debit card, ₹2 lakh overdraft, ₹30 lakh accident insurance
-- **Jan Dhan Statistics**: Over 50 crore accounts opened; major financial inclusion achievement
-- **UPI (Unified Payments Interface)**: Real-time payment system; BHIM app; single mobile interface for multiple bank accounts
-- ⚡ ₹2000 note was withdrawn from circulation in 2023 as part of currency management and corruption-reduction measures
+**Currency issuance** in India is the **Reserve Bank of India's (RBI)** monopoly under **Section 22 of the RBI Act, 1934**. The single exception is the **₹1 coin and note**, which the **Ministry of Finance** (Department of Economic Affairs) issues under the Coinage Act, 2011. All banknotes and coins are **unlimited legal tender** (Section 26, RBI Act, 1934).
+
+The banknotes presently in circulation are the **Mahatma Gandhi New Series** (base year 2005/2016) in denominations of **₹10, ₹20, ₹50, ₹100, ₹200, ₹500**. The **₹2000 note** lost legal-tender status on **19 May 2023**; the exchange/deposit window closed on **19 July 2024**.
+
+**Financial inclusion** is delivered mainly through:
+- **PMJDY** (28 Aug 2014) — zero-balance **BSBDA** with RuPay card and insurance.
+- **PMJJBY** — life cover ₹2 lakh at ₹330/year; **PMSBY** — accident cover ₹2 lakh at ₹20/year.
+- **MUDRA** — Shishu ≤₹50,000; Kishore up to ₹5 lakh; Tarun up to ₹10 lakh.
+- **Payment Banks** (deposit cap ₹2 lakh, **cannot lend**) and **Small Finance Banks** (full licence).
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-## Currency, Coins, and Financial Inclusion
+#### Who issues what
+The **RBI** has the sole authority to issue banknotes of all denominations, except the **₹1 note/coin**, which is issued by the **Ministry of Finance**. Coins of all denominations (₹1, ₹2, ₹5, ₹10, ₹20) are **minted by the Government of India** at mints in Mumbai, Kolkata, Hyderabad and Noida. Current notes bear the **RBI Governor's signature**; older pre-2005 notes carried the Finance Secretary's signature.
 
-Understanding currency management and financial inclusion schemes is essential for banking exams, as these directly relate to the real-world impact of banking services.
+#### Banknote denominations and key events
+The **Mahatma Gandhi New Series** (₹5 to ₹2,000) replaced the Mahatma Gandhi Series 1996. The **₹2000 note**, introduced on **8 November 2016** as part of demonetisation, ceased to be legal tender on **19 May 2023** — though it remains a **RBI-issued banknote** for accounting purposes. The historic **demonetisation of ₹500 and ₹1000** notes happened on the same date in 2016.
 
-## Indian Currency — Overview
+> Exam tip: Do not say "₹2000 is no longer a banknote." Its legal-tender character was withdrawn, but it is still a liability of the RBI.
 
-### Currency Denominations
+#### Currency management infrastructure
+**Currency chests** are vaults maintained by designated banks (SBI, PNB, etc.) as RBI's custodians for storage and distribution. **Small coin depots** handle coin supply. The **Currency Note Museum** in Mumbai (established 1990) and 13 other RBI museums preserve India's monetary heritage.
 
-**Bank Notes (Issued by RBI):**
+#### Financial Inclusion schemes
+Financial inclusion means access to **banking, credit, insurance and pension** services for weaker sections at affordable cost. The flagship programmes are:
 
-| Denomination | Color | Features |
-|-------------|-------|---------|
-| ₹10 | Brown | Magnolia; Kannauj (heritage) |
-| ₹20 | Green | Masjid; Red Fort |
-| ₹50 | Fluorescent Blue | Hampi; Konark |
-| ₹100 | Lavender | Mangalyaan; Rani Lakshmibai |
-| ₹200 | Bright Green | Sanchi Stupa |
-| ₹500 | Stone Grey | Red Fort; Mangal Mandir |
-| ₹2000 | Magenta | Mangalyaan; Bramha Temple |
+| Scheme | Launch | Key benefit |
+|---|---|---|
+| **PMJDY** | 28 Aug 2014 | Zero-balance BSBDA, RuPay card, ₹2 lakh accident + life cover |
+| **PMJJBY** | 2015 | Life cover ₹2 lakh, premium ₹330/yr, age 18–50 |
+| **PMSBY** | 2015 | Accident cover ₹2 lakh, premium ₹20/yr, age 18–70 |
+| **APY** | 2015 | Pension ₹1,000–₹5,000/month, age 18–40 |
+| **MUDRA** | 8 Apr 2015 | Loans Shishu ≤₹50k, Kishore ≤₹5L, Tarun ≤₹10L |
 
-**Note**: ₹2000 notes were withdrawn from circulation in May 2023 (demonetisation of ₹2000 as a currency management exercise).
+#### Payment Banks vs Small Finance Banks
+**Payment Banks** (Paytm, India Post, Airtel, Jio, Fino) can accept deposits up to **₹2 lakh**, enable remittances and sell mutual funds/insurance — but **cannot lend**. **Small Finance Banks** (10 licensed since 2015) offer the **full banking menu** including loans, targeting underserved sections. **Business Correspondents (BCs)** such as FINO PayTech extend banking through micro-ATMs and **AePS (Aadhaar Enabled Payment System)** in unbanked villages.
 
-**Coins (Issued by Government of India):**
-- 50 paise, ₹1, ₹2, ₹5, ₹10
-- The ₹1 coin has the Ashoka Chakra on the reverse
-- Coins are minted at mints (Kolkata, Mumbai, Hyderabad, Noida)
+#### RBI Financial Inclusion Index
+Launched in 2021, the **FI-Index** measures **Access, Usage and Quality** across banking, insurance, pensions, equity and digital. It stood at **64.4 in March 2024**.
 
-### Note-issuing Authority
-
-- RBI issues notes on behalf of the **Central Government**
-- The **Monetary Policy** framework allows RBI to issue notes based on the character of design approved by GOI
-- The **Legal Tender Currency** designation means every banknote carries the promise of the Governor of RBI to pay the bearer
-
-### Features of Indian Banknotes
-
-**Security Features** (for identification in exams):
-- Mahatma Gandhi's portrait (all notes since 1996)
-- Serial number (alpha-numeric; RBI Governor's signature)
-- See-through register (denoted by small numerals and designs that match when held to light)
-- Watermark (Mahatma Gandhi's portrait and multi-directional lines)
-- Fluorescent ink (visible under UV light)
-- Intaglio printing (raised printing for visually impaired — ₹20 note has 3 slits)
-- Embedded security thread (golden thread running through notes)
-- Micro lettering
-
-## Demonetisation — Key Facts
-
-### 2016 Demonetisation
-
-**Date**: November 8, 2016
-**What happened**: ₹500 and ₹1000 notes were demonetised (ceased to be legal tender)
-**New notes introduced**: ₹500 (new design with machine-readable features) and ₹2000
-**Objectives stated**: Curb black money, counterfeit notes, terrorism financing
-**Impact**: 99.3% of demonetised currency returned to banking system — suggests limited success in catching undeclared wealth
-
-### ₹2000 Note Withdrawal (2023)
-
-- Announced May 19, 2023: ₹2000 notes withdrawn from circulation
-- People could exchange at bank branches or deposit in accounts till a deadline
-- Purpose: Currency management; reduce large-denomination usage
-
-## Financial Inclusion — Key Government Schemes
-
-### PMJDY (Pradhan Mantri Jan Dhan Yojana)
-
-**Launched**: August 15, 2014
-
-**Key Features**:
-- **Zero-balance account** (BSBD — Basic Savings Bank Deposit Account)
-- **RuPay Debit Card**: Free card with ₹2 lakh accident insurance
-- **₹30,000 overdraft facility** (increased to ₹50,000 in some cases)
-- **Life insurance cover of ₹2 lakh** under PMJJBY (Pradhan Mantri Jeevan Jyoti Bima Yojana)
-- **Accident insurance cover of ₹2 lakh** under PMSBY (Pradhan Mantri Suraksha Bima Yojana)
-- **Direct Benefit Transfer**: Government subsidies transferred directly to Jan Dhan accounts
-
-**Progress**: Over 50 crore Jan Dhan accounts opened as of 2024; near-universal banking coverage achieved
-
-### PMJJBY (Pradhan Mantri Jeevan Jyoti Bima Yojana)
-- **Life insurance**: ₹2 lakh on death due to any reason
-- **Premium**: ₹436/year (auto-debited from PMJDY account)
-- **Eligibility**: 18-50 years age group
-
-### PMSBY (Pradhan Mantri Suraksha Bima Yojana)
-- **Accident insurance**: ₹2 lakh for accidental death/total permanent disability; ₹1 lakh for partial disability
-- **Premium**: ₹20/year
-
-### Sukanya Samriddhi Yojana
-- Small savings scheme for girl child
-- Interest rate: 8.2% (quarterly revised)
-- Partial withdrawal for education
-
-## Digital Payment Systems
-
-### UPI (Unified Payments Interface)
-
-**Launched**: 2016 by NPCI (National Payments Corporation of India)
-
-**Features**:
-- Real-time, 24×7 fund transfers
-- Single mobile app interface for multiple bank accounts
-- QR code-based payments
-- No need to share bank account number — use Virtual Payment Address (VPA)
-- Examples: Google Pay, PhonePe, Paytm, BHIM app
-
-**Volume**: UPI crossed 10 billion transactions per month in 2023; global recognition as successful payment system
-
-### BHIM App
-- Government-launched UPI app
-- Simple, basic interface for UPI payments
-
-### IMPS (Immediate Payment Service)
-- 24×7 instant fund transfer
-- Works on mobile, internet, ATM
-- ₹2 lakh per transaction limit
-
-### NEFT (National Electronic Funds Transfer)
-- Batch-based fund transfers (settled every 30 minutes or hourly)
-- No minimum or maximum limit
-- Available 24×7 since 2021
-
-### RTGS (Real Time Gross Settlement)
-- Real-time, gross settlement (no netting)
-- For large-value transactions (minimum ₹2 lakh)
-- Immediate, final settlement
-
-### USSD (Unstructured Supplementary Service Data)
-- For feature phones without internet
-- Dial *99# for basic banking services
-- ₹5000 per transaction limit
-
-### Debit and Credit Cards
-- **RuPay**: Indian card network launched by NPCI
-- **Visa, Mastercard**: International card networks operating in India
-- Contactless (NFC) payments growing rapidly
+> Trap alert: Payment Banks do not issue credit cards or loans — confusing this with Small Finance Banks is a frequent MCQ distractor.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-## Currency Management and Note Processing
+#### Legal architecture in detail
+**Section 22 of the RBI Act, 1934** confers on the Reserve Bank the **sole right to issue banknotes** in India, while **Section 26** declares them **unlimited legal tender** for discharging any debt. The **Coinage Act, 2011** consolidated the law on coin issuance and replaced the earlier Indian Coinage Act, 1906, giving the central government exclusive minting rights.
 
-**Note Processing**:
-- Soiled (dirty) and mutilated notes are exchanged at bank branches free of charge
-- Banks are mandated to accept soiled notes
-- Fit notes (acceptable) are recirculated; unfit notes are destroyed by RBI
+#### Security features and clean-note policy
+MG New Series notes carry the **RBI Governor's signature**, a **See-Through Register** with the denomination numeral, the **Ashoka Pillar** emblem, a **Security Thread** with inscriptions, **Intaglio printing** of the portrait and a **latent image**. RBI's **Clean Note Policy** (2006) and **Master Directions on Note Replenishment** mandate banks to withdraw soiled notes through ink-marked wrappers. Counterfeit detection falls under the **FICN (Fake Indian Currency Notes)** framework coordinated with the Ministry of Home Affairs.
 
-**Currency Chests**:
-- Specific bank branches designated as Currency Chests
-- Hold cash reserves for RBI
-- Soiled note exchange, counterfeit note detection
+#### Why ₹2000 was withdrawn
+Introduced post-demonetisation to rapidly remonetise the economy, the **₹2000 note** was seldom used for daily transactions. Its withdrawal of legal-tender status followed a downward trajectory in circulation from ₹3.56 lakh crore (May 2023) to below ₹10,000 crore by mid-2024. The **deposit/exchange window closed on 19 July 2024**, after which the note can only be exchanged at the RBI offices in Mumbai, Kolkata, Chennai, Nagpur, Lucknow, Guwahati and Bengaluru — useful for one factual MCQ.
 
-## Financial Inclusion Index
+#### MUDRA, PM SVANidhi and credit inclusion
+**MUDRA Yojana** refinances through **NABARD, SIDBI and PSU banks** for non-corporate, non-farm small businesses. The 2020 expansion added **Tarun Plus (₹10–20 lakh)**. **PM SVANidhi** (2020) extends collateral-free working-capital loans up to ₹50,000 to street vendors. The **Kisan Credit Card (KCC)** provides short-term crop loans at 4% effective interest (with prompt repayment subvention).
 
-RBI publishes a Financial Inclusion Index (FI-Index):
-- Covers banking services, digital payments, insurance, equity market access
-- Composite score from 0-100 (higher = more inclusive)
-- FI-Index for 2023: ~60 (improving)
+#### Emerging digital rails
+The **Account Aggregator (AA) framework** (RBI 2021) allows consent-based data sharing across financial institutions. **Digital Lending Guidelines** (2 September 2022) require every digital loan to flow directly into the borrower's bank account via regulated entities, and disallow undisclosed fees. The **Bharat Bill Payment System (BBPS)** consolidates bill payments across categories, while **DBT (Direct Benefit Transfer)** through **Aadhaar Payment Bridge System (APBS)** delivers subsidies to PMJDY accounts — over ₹32 lakh crore transferred as of 2024.
 
-## Digital Banking Security
+> Strategy: In SBI Clerk Prelims, expect one direct MCQ from PMJDY insurance figures and one from Payment/Small Finance Bank distinctions. Mains level may ask "who issues ₹1 coin" or "RBI's role under Section 22."
 
-**Tips for safe digital banking:**
-- Never share OTP, PIN, password with anyone
-- Verify beneficiary before authorizing transactions
-- Report unauthorized transactions immediately to bank
-- Use official banking apps only; avoid clicking links in SMS
+#### Common mistakes
+- Saying RBI issues the ₹1 note — wrong; it is the **Ministry of Finance**.
+- Treating ₹2000 as "not legal tender" without noting its **legal-tender status ended on 19 May 2023**.
+- Confusing **PMJJBY (life, ₹330)** with **PMSBY (accident, ₹20)**.
+- MUDRA Tarun limit of ₹10 lakh is widely misquoted as ₹5 lakh.
+- Payment Banks' **deposit cap is ₹2 lakh per individual**, not per family.
 
-**Frauds**:
-- Phishing (fake calls/SMS asking for details)
-- Vishing (voice phishing)
-- UPI fraud (fake links, impersonation)
-- SIM swap fraud
+#### Practice prompts
+1. Which section of the RBI Act, 1934 gives the central bank the monopoly right to issue banknotes, and which denomination is excluded from this provision?
+2. Compare the deposit limit, lending ability and target customers of Payment Banks and Small Finance Banks.
+
+---
+
+## Continue your study
+
+- **[View this topic in your SBI Clerk roadmap](/roadmap/?exam=sbi-clerk&duration=1mo)** — see where "Currency, Coins, and Financial Inclusion" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=sbi-clerk&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[SBI Clerk exam overview](/exams/sbi-clerk/)** — pattern, eligibility, and syllabus
+- **[All General Awareness notes](/notes/sbi-clerk/general-awareness/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

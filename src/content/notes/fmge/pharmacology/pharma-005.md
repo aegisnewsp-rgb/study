@@ -8,240 +8,92 @@ topicName: "CNS Pharmacology - Antidepressants, Antipsychotics, and Anticonvulsa
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-07-18"
 ---
 
 # CNS Pharmacology - Antidepressants, Antipsychotics, and Anticonvulsants
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+> Rapid summary for last-minute revision before your FMGE screen test.
 
-**CNS Pharmacology** — Key Facts for FMGE
-Core concept: Antidepressants work primarily by increasing synaptic serotonin and/or norepinephrine; antipsychotics block dopamine D2 receptors
-High-yield point: SSRIs are first-line for depression due to better safety/tolerability; atypicals have lower extrapyramidal side effects than typicals
-⚡ Exam tip: TCAs cause anticholinergic effects, orthostatic hypotension, and cardiac toxicity; SSRIs are much safer but can cause serotonin syndrome
+CNS drugs in this cluster act on **monoamines**, **dopamine**, and **ion channels** that govern neuronal firing.
+
+- **Antidepressants:** TCAs block NE/5-HT reuptake (amitriptyline, imipramine); **SSRIs** are first-line (fluoxetine, sertraline); SNRIs (venlafaxine, duloxetine) cover neuropathic pain; **MAOIs** (phenelzine) need a 2-week washout and ban tyramine-rich foods.
+- **Antipsychotics:** Typical high-potency agents (haloperidol) cause **EPS**; atypicals (risperidone, olanzapine, clozapine) add 5-HT2A blockade. **Clozapine** is reserved for treatment-resistant cases due to **agranulocytosis** (1–2%).
+- **Anticonvulsants:** Phenytoin follows **zero-order kinetics** (10–20 mcg/mL); carbamazepine is first-line for trigeminal neuralgia; valproate covers generalized and myoclonic seizures; ethosuximide is the **absence-only** drug (T-type Ca²⁺ blocker).
+- **Exam pointers:** NMS = hyperthermia + rigidity + ↑CK → dantrolene + bromocriptine. Serotonin syndrome triad = mental status + autonomic + neuromuscular clonus → cyproheptadine. Status epilepticus first-line = **IV lorazepam 0.1 mg/kg**.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**CNS Pharmacology** — FMGE Study Guide
+#### Classification and Core Mechanisms
 
-## Antidepressants
+**Antidepressants** enhance monoaminergic tone. **TCAs** (amitriptyline, imipramine, nortriptyline, clomipramine, doxepin) inhibit NE/5-HT reuptake but also block muscarinic, H1, α1, and cardiac Na⁺ channels, which explains their anticholinergic, sedative, hypotensive, and cardiotoxic profile in overdose. **SSRIs** (fluoxetine, sertraline, paroxetine, citalopram, escitalopram) are first-line because of their safety margin; fluoxetine's active metabolite **norfluoxetine** has a half-life of 7–15 days, demanding a 5-week washout before an MAOI. **MAOIs** irreversibly block MAO-A/B; tyramine from aged cheese and cured meats displaces stored NE, triggering hypertensive crisis.
 
-### Tricyclic Antidepressants (TCAs)
+**Antipsychotics** are split by D2 potency and 5-HT2A activity. High-potency typicals (haloperidol, fluphenazine) cause more **EPS**; low-potency typicals (chlorpromazine, thioridazine) cause more sedation, orthostasis, QT prolongation, and (with thioridazine) pigmentary retinopathy. Atypicals (risperidone, olanzapine, quetiapine, aripiprazole, ziprasidone, lurasidone, **clozapine**) all carry some metabolic risk; clozapine uniquely avoids EPS but requires ANC monitoring.
 
-**Examples**: Amitriptyline, nortriptyline, imipramine, desipramine, clomipramine
+#### Anticonvulsant Mechanisms
 
-**Mechanism**: 
-- Block reuptake of serotonin (5-HT) and norepinephrine (NE) → ↑ synaptic levels
-- Also block: H1 histamine, muscarinic (M1), α1 adrenergic, 5-HT2 receptors
+| Drug | Primary target | First-line indication |
+|---|---|---|
+| Phenytoin | Use-dependent Na⁺ channel block | Focal / GTC (non-absence) |
+| Carbamazepine | Na⁺ channel block | Trigeminal neuralgia, focal, GTC |
+| Valproate | Na⁺ block + ↑GABA | Generalized, myoclonic, bipolar |
+| Ethosuximide | T-type Ca²⁺ channels | Absence only |
+| Phenobarbital | GABA-A potentiation | Neonatal seizures |
+| Lamotrigine | Na⁺ block + ↓glutamate | Focal, bipolar |
+| Levetiracetam | SV2A binding | Focal, generalized adjunct |
+| Gabapentin/Pregabalin | α2δ Ca²⁺ channel | Neuropathic pain, focal |
 
-**Pharmacokinetics**:
-- Highly lipophilic, wide distribution
-- Hepatic metabolism (CYP450) → active metabolites
-- Nortriptyline is metabolite of amitriptyline; desipramine is metabolite of imipramine
+#### Adverse Effects and Traps
 
-**Adverse effects (due to receptor blockade)**:
-- **Anticholinergic**: Dry mouth, constipation, urinary retention, blurred vision, tachycardia, confusion (worse in elderly - urinary retention, glaucoma)
-- **α1 blockade**: Orthostatic hypotension, dizziness
-- **Histamine H1 blockade**: Sedation, weight gain
-- **Cardiac**: Prolonged QRS, QT prolongation, arrhythmias, tachycardia
-- **Seizures**: Lower seizure threshold (dose-dependent)
-- **Sedation**: Amitriptyline most sedating; desipramine least
+> **TCA overdose** kills via QRS widening from Na⁺ blockade — treat with IV sodium bicarbonate. NaHCO₃ also boosts protein binding and reverses cardiotoxicity.
 
-**Toxicity**:
-- Anticholinergic symptoms: Hyperthermia, mydriasis, flushed skin, urinary retention, altered mental status
-- Cardiac arrhythmias (widened QRS, prolonged QT) → can be fatal
-- **Treatment**: Sodium bicarbonate (narrows QRS by increasing protein binding), supportive care
+> **Carbamazepine** induces CYP450 including its own metabolism; combined with **HLA-B*1502** it sharply raises Stevens-Johnson syndrome risk in Asian populations — screen before prescribing.
 
-**Uses**:
-- Major depression (second-line after SSRIs)
-- Neuropathic pain (amitriptyline, nortriptyline)
-- Migraine prophylaxis
-- OCD (clomipramine)
-- Enuresis (imipramine - rarely used now)
-- Chronic pain syndromes
+> **Valproate** is the most teratogenic anticonvulsant (neural tube defects) and inhibits lamotrigine metabolism, doubling SJS risk if titrated at usual speed.
 
-### Selective Serotonin Reuptake Inhibitors (SSRIs)
+**Serotonin syndrome** (mental status change + autonomic hyperactivity + neuromuscular clonus) appears within hours; **cyproheptadine** is the antidote. **NMS** (hyperthermia, lead-pipe rigidity, autonomic instability, ↑CK) responds to **dantrolene plus bromocriptine** after stopping the offending neuroleptic.
 
-**Examples**: Fluoxetine, sertraline, paroxetine, citalopram, escitalopram, fluvoxamine
+---
 
-**Mechanism**: Selectively block 5-HT reuptake → ↑serotonin in synaptic cleft
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-**Pharmacokinetics**:
-- All inhibit CYP2D6 (except sertraline at high dose); fluoxetine also inhibits CYP3A4, CYP2C19
-- Long half-life of fluoxetine (4-6 days including active metabolite norfluoxetine)
+#### Pharmacokinetic Edge Cases
 
-**Adverse effects**:
-- **GI**: Nausea, diarrhea (sertraline), dyspepsia
-- **Sexual dysfunction**: Decreased libido, anorgasmia, erectile dysfunction (very common - affects compliance)
-- **CNS**: Headache, insomnia or somnolence, anxiety
-- **Serotonin syndrome** (with MAOIs, tryptophan, linezolid, meperidine): Hyperthermia, rigidity, hyperreflexia, myoclonus, altered mental status
-- **Discontinuation syndrome**: Paroxetine and venlafaxine (short half-lives) - dizziness, paresthesias, vivid dreams
-- **SIADH/hyponatremia**: Especially in elderly (increased ADH secretion)
-- **Bleeding**: Increased bleeding risk (platelet 5-HT) - especially with NSAIDs, warfarin
+Phenytoin transitions from first-order to **zero-order kinetics** within the therapeutic window because CYP2C9/2C19 saturate; dose increases produce disproportionate plasma jumps, so titration is in 30 mg increments. Carbamazepine, phenytoin, and phenobarbital are potent **CYP450 inducers** that lower levels of warfarin, OCPs, antiretrovirals, and many antiepileptics themselves; valproate and fluoxetine are equally potent **inhibitors** that raise levels of lamotrigine, phenytoin, and TCAs.
 
-**Uses**:
-- Major depressive disorder (first-line)
-- Panic disorder, social anxiety disorder
-- Generalized anxiety disorder
-- OCD (fluoxetine, sertraline, fluvoxamine)
-- Bulimia (fluoxetine)
-- PTSD
-- Premenstrual dysphoric disorder
+#### Atypical Antipsychotics — Nuance for FMGE
 
-### Serotonin-Norepinephrine Reuptake Inhibitors (SNRIs)
+Clozapine's **agranulocytosis** (1–2%) mandates weekly ANC for the first 6 months, then biweekly, then monthly; it is the only antipsychotic proven to reduce suicidality in schizophrenia. Aripiprazole is a **D2 partial agonist**, producing functional antagonism in hyperdopaminergic states and agonism in hypodopaminergic states, which limits prolactin elevation. Olanzapine and clozapine cause the **most weight gain and dyslipidemia**; ziprasidone and aripiprazole are the most weight-neutral.
 
-**Examples**: Venlafaxine, duloxetine, desvenlafaxine
+#### Seizure Pharmacology — Worked Example
 
-**Mechanism**: Block 5-HT and NE reuptake
+A 24-year-old presents with continuous generalized tonic-clonic activity for 25 minutes. Step 1: **IV lorazepam 0.1 mg/kg (max 4 mg)** or IM midazolam 10 mg if no IV access. Step 2: load **fosphenytoin 20 mg PE/kg IV** or **levetiracetam 60 mg/kg IV (max 4500 mg)**. Step 3: if seizures persist beyond 30–60 minutes, escalate to **refractory status epilepticus** with midazolam, propofol, or pentobarbital infusion under EEG monitoring.
 
-**Adverse effects**: Similar to SSRIs + ↑NE → ↑BP, tachycardia; discontinuation syndrome
+#### Connections and Common Mistakes
 
-**Uses**: Depression, GAD, diabetic neuropathy, chronic musculoskeletal pain
+- Lithium's **narrow therapeutic index (0.6–1.2 mEq/L)** is monitored every 3–5 days during titration; toxicity presents with coarse tremor, ataxia, confusion, and seizures — treat with hemodialysis.
+- **Bupropion** lowers the seizure threshold and is contraindicated in eating disorders; it is the antidepressant of choice in smoking cessation.
+- **Mirtazapine** at low dose (15 mg) is more sedating than at 45 mg because of stronger H1 effect relative to α2 blockade — a frequently tested pearl.
+- Choosing **thioridazine or chlorpromazine** in the elderly invites anticholinergic delirium and falls; both typical and atypical antipsychotics carry an FDA black-box warning for **increased mortality in dementia-related psychosis**.
 
-### Atypical Antidepressants
+#### Practice Prompts
 
-**Bupropion**:
-- NE and dopamine reuptake inhibitor (NDRI)
-- No sexual dysfunction, no weight gain
-- **Contraindicated** in eating disorders, seizure disorders
-- Used for depression with sexual dysfunction, ADHD, smoking cessation
+1. A patient on sertraline adds linezolid and develops agitation, diaphoresis, and inducible clonus. Name the syndrome, the offending mechanism, and the antidote.
+2. A woman on valproate for bipolar disorder switches to lamotrigine at the standard starting dose and develops a maculopustular rash with mucosal involvement within 10 days. Explain the pharmacokinetic interaction and the correct lamotrigine titration adjustment.
 
-**Mirtazapine**:
-- Blocks α2 autoreceptor (↑NE and 5-HT release) + blocks 5-HT2, 5-HT3
-- Sedation, appetite stimulation, weight gain
-- Useful for depressed patients with insomnia and weight loss
+---
 
-**Trazodone**:
-- 5-HT2A antagonist + weak 5-HT reuptake inhibition
-- Causes significant sedation
-- Used for insomnia (low dose) and depression
+## Continue your study
 
-**MAO Inhibitors (MAOIs)** - rarely used now due to diet/drug interactions:
-- **Phenelzine, tranylcypromine, isocarboxazid**: Non-selective MAO inhibition
-- **Dietary restriction**: Tyramine-containing foods (aged cheese, red wine, fermented foods) → hypertensive crisis (tyramine displaces NE)
-- **Drug interactions**: Meperidine (serotonin syndrome), sympathomimetics, SSRIs (wait 2 weeks between drugs)
-- **Uses**: Atypical depression, refractory cases
-
-## Antipsychotics (Neuroleptics)
-
-### Typical (First-Generation)
-
-**Examples**: Haloperidol, chlorpromazine, fluphenazine, perphenazine, thioridazine
-
-**Mechanism**: Predominantly D2 receptor blockade (mesolimbic pathway → antipsychotic effect)
-
-**Adverse effects** (due to D2 blockade in other pathways):
-- **Extrapyramidal symptoms (EPS)** (striatum - nigrostriatal pathway):
-  - **Acute dystonia** (hours): Sustained muscle contraction (oculogyric crisis, torticollis) - treat with anticholinergic (trihexyphenidyl)
-  - **Akathisia** (days-weeks): Inability to sit still, inner restlessness - treat with beta-blocker or BZD
-  - **Parkinsonism** (weeks-months): Bradykinesia, rigidity, tremor - treat with anticholinergic or amantadine
-  - **Tardive dyskinesia** (months-years): Involuntary choreoathetoid movements (orofacial - lip smacking, tongue protrusion) - irreversible; stop drug immediately; treat with tetrabenazine, VMAT2 inhibitor
-- **Hyperprolactinemia** (tuberoinfundibular pathway): Galactorrhea, amenorrhea, erectile dysfunction, gynaecomastia (D2 blockade → ↑prolactin)
-- **Neuroleptic malignant syndrome** (rare but life-threatening): High fever, muscle rigidity, autonomic instability, elevated CK - treat with dantrolene, bromocriptine
-
-### Atypical (Second-Generation)
-
-**Examples**: Clozapine, risperidone, olanzapine, quetiapine, ziprasidone, aripiprazole, paliperidone
-
-**Mechanism**: D2 + 5-HT2A blockade (serotonin modulation reduces EPS)
-
-**Adverse effects**:
-- **Metabolic syndrome**: Weight gain, hyperlipidemia, diabetes (clozapine > olanzapine > risperidone > others)
-- **Myocarditis**: Clozapine (can be fatal)
-- **Agranulocytosis**: Clozapine (requires WBC monitoring)
-- **Sedation**: Olanzapine, quetiapine
-- **EPS**: Much lower than typicals (but not zero)
-- **Hyperprolactinemia**: Risperidone > others
-- **QT prolongation**: Ziprasidone, thioridazine
-- **Orthostatic hypotension**: Risperidone, clozapine
-
-### Uses of Antipsychotics
-
-- **Schizophrenia**: Positive symptoms (hallucinations, delusions) respond well; negative symptoms (flat affect, social withdrawal) respond less
-- **Bipolar disorder**: Acute mania, maintenance
-- **Psychotic depression**: With antidepressant
-- **Delirium**: Haloperidol (first-generation) preferred for delirium due to low anticholinergic effects
-- **Tourette syndrome**: Haloperidol, pimozide
-- **Nausea**: Prochlorperazine, chlorpromazine
-
-## Anticonvulsants
-
-### Phenytoin
-
-**Mechanism**: Blocks voltage-gated Na channels (stabilizes neuronal membranes)
-
-**Uses**: Tonic-clonic seizures, focal seizures, status epilepticus (IV)
-
-**Adverse effects**:
-- **Gingival hyperplasia** (25%): More common in children
-- **Hirsutism**: Aesthetic concern
-- **Osteomalacia**: ↓Vitamin D metabolism
-- **Megaloblastic anemia**: ↓Folate absorption
-- **Peripheral neuropathy**: ↓Folate, B12
-- **Ataxia, nystagmus, diplopia**: CNS toxicity (dose-related)
-- **Teratogenicity**: Fetal hydantoin syndrome (craniofacial anomalies, nail hypoplasia)
-- **Cushing syndrome**: Enzyme induction → ↓cortisol clearance
-- **SLE-like syndrome**: With hydantoin
-
-**Pharmacokinetics**: 
-- Zero-order at therapeutic concentrations → narrow TI
-- Highly protein bound (90%); displaced by other highly protein-bound drugs
-- Enzyme inducer (CYP450) → many drug interactions
-- IV must be given slowly (cardiac depression, hypotension)
-
-### Carbamazepine
-
-**Mechanism**: Blocks Na channels; also enhances GABA
-
-**Uses**: Tonic-clonic, focal seizures, trigeminal neuralgia (first-line), bipolar disorder
-
-**Adverse effects**:
-- **Aplastic anemia, agranulocytosis**: Hematological monitoring required
-- **SIADH**: Hyponatremia (water retention)
-- **Stevens-Johnson syndrome**: HLA-B*1502 association (test before starting in Asian patients)
-- **Enzyme inducer**: Similar drug interactions to phenytoin
-- **Dizziness, ataxia, diplopia**
-
-### Valproic Acid
-
-**Mechanism**: Blocks Na channels, ↑GABA, ↓excitatory transmission
-
-**Uses**: Absence seizures, myoclonic, tonic-clonic, bipolar, migraine prophylaxis
-
-**Adverse effects**:
-- **Hepatotoxicity**: Especially in children <2 years
-- **Pancreatitis**
-- **Teratogenicity**: Neural tube defects (spina bifida) - avoid in pregnancy
-- **Weight gain, tremor, hair loss**
-- **Hyperammonemia**: Can cause encephalopathy even with normal liver tests
-
-### Benzodiazepines (Anticonvulsant use)
-
-- **Clonazepam**: Absence, myoclonic seizures
-- **Diazepam/lorazepam**: Status epilepticus (IV)
-- **Clobazam**: Seizure clusters
-
-### Ethosuximide
-
-- First-line for **absence seizures only**
-- Mechanism: Blocks T-type Ca²⁺ channels in thalamic neurons
-- Adverse effects: GI upset, headache, rash, SLE-like syndrome
-
-### Gabapentin/Pregabalin
-
-- **Gabapentin**: Structurally related to GABA; used for neuropathic pain, focal seizures, restless leg syndrome
-- **Pregabalin**: Similar but better pharmacokinetics; Schedule V controlled
-
-### Levetiracetam
-
-- Newer antiepileptic; mechanism unclear
-- Few drug interactions
-- Used for partial onset, generalized tonic-clonic seizures
-- Adverse effects: Behavioral changes (irritability, depression), somnolence
+- **[View this topic in your FMGE roadmap](/roadmap/?exam=fmge&duration=1mo)** — see where "CNS Pharmacology - Antidepressants, Antipsychotics, and Anticonvulsants" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=fmge&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[FMGE exam overview](/exams/fmge/)** — pattern, eligibility, and syllabus
+- **[All Pharmacology notes](/notes/fmge/pharmacology/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

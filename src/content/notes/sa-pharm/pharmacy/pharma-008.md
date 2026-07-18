@@ -16,83 +16,85 @@ lastUpdated: "2026-07-18"
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-A **drug interaction** is a modification of one drug's effect (the **object drug**) by a concurrently administered **precipitant drug**. Mechanisms fall into two classes:
+A **drug interaction** is a modification of one drug's effect by a concurrently administered **precipitant drug** (the cause) acting on an **object drug** (the affected agent). Under SAPC Good Pharmacy Practice, recognising and managing these interactions is a core dispensing competency.
 
-- **Pharmacokinetic (ADME)** — the precipitant alters **A**bsorption, **D**istribution, **M**etabolism, or **E**xcretion. Most metabolism interactions involve the **CYP450** enzyme system, especially **CYP3A4** (metabolises ~50% of drugs).
-- **Pharmacodynamic** — the precipitant alters the response at the receptor/site, producing **additive**, **synergistic**, or **antagonistic** effects.
+- **Pharmacokinetic (ADME)** — altered absorption, distribution, metabolism, or excretion. **CYP450 induction** (rifampicin, carbamazepine, St John's wort) reduces object-drug levels; **CYP450 inhibition** (azole antifungals, macrolides, grapefruit juice via CYP3A4) raises them.
+- **Pharmacodynamic** — additive, synergistic, or antagonistic effects at the receptor or physiological level (e.g., warfarin + aspirin → bleeding).
+- **High-risk object drugs** carry a narrow therapeutic index: warfarin, digoxin, lithium, theophylline, aminoglycosides, phenytoin.
 
-#### High-yield SAPC facts
-
-| Term | Meaning |
-|---|---|
-| Object drug | The drug whose effect is changed |
-| Precipitant drug | The drug causing the change |
-| CYP3A4 inhibition | Immediate onset; azoles, macrolides, grapefruit juice |
-| CYP3A4 induction | Delayed 7–14 days; rifampicin, carbamazepine, St John's wort |
-| Narrow therapeutic index | Digoxin, warfarin, lithium, theophylline, aminoglycosides |
-
-Always identify the mechanism (PK vs PD), name the specific CYP isoform, and propose a **pharmacist intervention** under GPP.
+> **Exam tip:** Always name the **mechanism (PK or PD)**, the **precipitant**, the **object drug**, and the **clinical outcome** — most SAPC scenario questions award marks for that exact sequence.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-#### Pharmacokinetic (ADME) Interactions
+#### Classification Framework
 
-These alter the **plasma concentration** of the object drug.
+Drug interactions fall into **drug–drug**, **drug–food**, **drug–herb**, and **drug–disease** categories as defined by SAPC Minimum Standards. Drug–drug interactions are sub-classified into **pharmacokinetic (PK)** and **pharmacodynamic (PD)** types. A third category, **pharmaceutical incompatibility**, refers to physical or chemical changes when drugs are mixed before administration (e.g., ceftriaxone + calcium-containing IV fluids forming precipitates).
 
-- **Absorption**: chelation (tetracyclines + Ca²⁺/Fe²⁺/Mg²⁺ antacids), pH changes (ketoconazole needs acid; PPIs reduce its absorption), and motility effects (metoclopramide speeds, opioids slow).
-- **Distribution**: protein-binding displacement. Warfarin and phenytoin are >90% bound; displacement by sulfonamides or NSAIDs transiently raises **free** drug.
-- **Metabolism**: hepatic CYP450 activity is the dominant site. **Inducers** (rifampicin, carbamazepine, phenytoin, St John's wort, chronic alcohol, smoking via CYP1A2) increase enzyme synthesis, lowering object-drug levels. **Inhibitors** (ketoconazole, erythromycin, clarithromycin, fluconazole, grapefruit juice, fluvoxamine, allopurinol) raise object-drug levels, sometimes dangerously.
-- **Excretion**: probenecid competitively blocks renal tubular secretion of penicillins and cephalosporins, prolonging their half-life.
+#### Pharmacokinetic (ADME) Mechanisms
 
-#### Pharmacodynamic Interactions
-
-These alter the **response** without changing plasma levels.
-
-- **Additive/synergistic**: warfarin + aspirin → bleeding; two QT-prolonging agents → torsades; SSRIs + MAOIs → serotonin syndrome; aminoglycosides + loop diuretics → ototoxicity.
-- **Antagonistic**: naloxone reverses opioids; vitamin K reverses warfarin; flumazenil reverses benzodiazepines.
-- **Idiosyncratic**: unpredictable reactions, often genetically determined (e.g., CYP2D6 poor metabolisers + codeine → reduced analgesia).
-
-#### SAPC Clinical Responsibilities
-
-Under the **Pharmacy Act (Act 53 of 1974)**, Good Pharmacy Practice (GPP), and **SAHPRA** oversight, the pharmacist must perform **medication reconciliation** at every transition of care, screen for interactions, counsel the patient, and report ADRs to the **National Adverse Drug Event Monitoring Centre**.
-
-#### Common Exam Scenarios
-
-| Scenario | Mechanism | Pharmacist Action |
+| ADME Stage | Mechanism | Classic Example |
 |---|---|---|
-| Rifampicin + oral contraceptive | CYP3A4 induction → ↓ ethinylestradiol | Recommend non-hormonal backup |
-| Warfarin + co-trimoxazole | CYP2C9 inhibition + protein displacement | Monitor INR, reduce warfarin |
-| Digoxin + verapamil | P-gp inhibition + ↓ renal clearance | Check digoxin level, reduce dose |
-| Theophylline + ciprofloxacin | CYP1A2 inhibition | Monitor levels, consider alternative antibiotic |
+| Absorption | Chelation, pH change, motility alteration | Tetracycline + Ca²⁺/Fe²⁺ → ↓ absorption |
+| Distribution | Protein-binding displacement | Warfarin displaced by sulfonamides |
+| Metabolism | CYP450 induction | Rifampicin ↓ OCP, warfarin, protease inhibitors |
+| Metabolism | CYP450 inhibition | Erythromycin ↑ simvastatin → rhabdomyolysis |
+| Excretion | Competition at renal tubules | Probenecid ↑ penicillin levels |
+
+> **Mnemonic:** "**Induction is slow, inhibition is fast**" — enzyme induction peaks at 7–14 days; inhibition occurs within 24–48 hours of starting the inhibitor.
+
+#### Pharmacodynamic Mechanisms
+
+PD interactions do **not** alter drug concentrations. They modify the **response** at the target site.
+
+- **Additive/synergistic** — warfarin + aspirin (bleeding), aminoglycosides + vancomycin (nephro/ototoxicity), two QT-prolonging agents (torsades de pointes).
+- **Antagonistic** — naloxone reversing opioid overdose; vitamin K reversing warfarin; β-agonist + non-selective β-blocker (bronchospasm).
+- **Idiosyncratic** — unpredictable responses such as serotonin syndrome (SSRIs + MAOIs/tramadol) or malignant hyperthermia triggers.
+
+#### Pharmacist's Clinical Responsibilities
+
+Under GPP and the Medicines and Related Substances Act (Act 101 of 1965), the pharmacist must perform **medication reconciliation** at every transition of care, counsel on **self-medication risks** (especially St John's wort and grapefruit juice), and report suspected ADRs to SAHPRA's **National Adverse Drug Event Monitoring Centre**.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-#### Edge Cases and Pharmacogenetics
+#### High-Yield Mechanism Clusters for SAPC Scenarios
 
-South African populations show significant **CYP2D6 polymorphism**. Poor metabolisers (PMs) experience toxicity with codeine (decreased conversion to morphine) and metoprolol (excess β-blockade), while ultrarapid metabolisers may under-respond. Always interpret interaction risk in the context of genotype when relevant.
+- **Oral contraceptive failure** with rifampicin, rifabutin, carbamazepine, phenytoin, and St John's wort — all are potent **CYP3A4 inducers**. Counsel patients to use a non-hormonal backup method.
+- **Warfarin potentiation** by co-trimoxazole (displaces protein binding + inhibits CYP2C9), amiodarone, metronidazole, fluconazole, and NSAIDs. The bleeding risk is **multifactorial** — both PK and PD.
+- **Digoxin toxicity** with verapamil, amiodarone, clarithromycin, and spironolactone, all acting on **P-glycoprotein efflux** and renal clearance.
+- **Theophylline toxicity** with ciprofloxacin (CYP1A2 inhibition) and erythromycin — life-threatening in asthmatic patients.
+- **QT prolongation** risk stacking: fluoroquinolones + macrolides + antipsychotics + Class III antiarrhythmics.
 
-CYP450 **induction** requires new enzyme synthesis, so the clinical effect is delayed 7–14 days and persists after the inducer is stopped. **Inhibition** is immediate. This timing difference is the basis of a recurring SAPC MCQ trap.
+#### Risk Stratification and Pharmacogenetics
 
-#### Transporter and Food Interactions
+Not every package-insert listing is clinically relevant. SAPC examiners reward **risk-stratified** answers that consider:
 
-**P-glycoprotein** efflux at the gut, kidney, and blood-brain barrier limits absorption and CNS entry. Inhibitors (verapamil, quinidine, ketoconazole) raise digoxin and loperamide levels; inducers (rifampicin, St John's wort) lower them. **Grapefruit juice** inhibits intestinal CYP3A4, potentiating statins, calcium-channel blockers, and ciclosporin.
+- **Narrow therapeutic index** of the object drug.
+- **Polypharmacy** (≥5 chronic medicines) — common in elderly SA patients with HIV/TB comorbidity.
+- **CYP2D6 polymorphism** — poor metabolisers (PMs) in SA populations are at risk of codeine → morphine accumulation, while ultrarapid metabolisers get therapeutic failure.
+- **Renal/hepatic impairment** as effect modifiers.
 
-#### Common Mistakes in the Exam
+#### Management Strategy Table
 
-> A bleeding patient on warfarin + aspirin is a **pharmacodynamic** (additive anticoagulant + antiplatelet) interaction, not a CYP interaction. Misclassifying mechanism is the single most common error.
+| Strategy | When to Use | Example |
+|---|---|---|
+| Dose adjustment | PK interaction, no substitute | ↓ simvastatin dose with erythromycin |
+| Therapeutic substitution | High-risk object drug | Switch to azithromycin (no CYP3A4 inhibition) |
+| Temporal separation | Absorption-based interaction | 2 h gap between tetracycline and antacid |
+| TDM/INR monitoring | Narrow-index drug | INR every 2–3 days when adding co-trimoxazole to warfarin |
+| Patient education | OTC/herb/food triggers | Advise avoiding grapefruit with statins |
 
-Other frequent slips: assuming herbal products are inert; overlooking that **tobacco smoking** induces CYP1A2 and reduces theophylline, olanzapine, and clozapine levels; failing to perform **medication reconciliation** during hospital discharge; and treating every package-insert interaction as equally severe rather than stratifying by evidence level and patient risk.
+> **Trap to avoid:** Do **not** classify warfarin + aspirin as a CYP interaction — it is a **pharmacodynamic additive anticoagulant/antiplatelet** effect. Confusing PK with PD is one of the most common SAPC marking deductions.
 
 #### Practice Prompts
 
-1. A 68-year-old on **digoxin 0.25 mg**, **verapamil**, **furosemide**, and **warfarin** is prescribed **clarithromycin** for pneumonia. Identify the precipitant/object drugs, mechanisms, and the pharmacist's monitoring plan.
-2. Explain why a patient stabilised on **warfarin** experiences a sudden rise in INR one week after starting **fluconazole** for candidiasis, and outline the GPP-aligned counselling points.
+1. **Scenario:** A 62-year-old HIV-positive patient on lopinavir/ritonavir, warfarin (INR 2.5), and TB treatment (rifampicin) presents with a falling INR after starting TB therapy. Identify the mechanism, precipitant, object drug, clinical risk, and the pharmacist's intervention.
+2. **Scenario:** A patient buying St John's wort over the counter is also on sertraline and an oral contraceptive. List every interaction, classify each as PK or PD, and outline the counselling points required by GPP.
 
 ---
 

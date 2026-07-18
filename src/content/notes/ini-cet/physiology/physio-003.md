@@ -16,63 +16,84 @@ lastUpdated: "2026-07-18"
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Skeletal muscle contraction** shortens the sarcomere by the **sliding-filament mechanism**: actin (thin) filaments glide along myosin (thick) filaments through cyclic cross-bridge formation, energised by **ATP hydrolysis**. Contraction is triggered when a somatic motor-neuron action potential at the **neuromuscular junction** depolarises the sarcolemma, propagates down **T-tubules**, opens **dihydropyridine (DHPR)**–coupled **ryanodine receptors (RyR)**, and floods the sarcoplasm with **Ca²⁺ from the sarcoplasmic reticulum**.
+**Skeletal muscle contraction** begins when a somatic motor neuron's action potential releases **acetylcholine (ACh)** at the neuromuscular junction (NMJ). ACh binds **nicotinic ACh receptors** on the motor end plate, depolarising the sarcolemma and driving an action potential into the **T-tubules**.
 
-- **Ca²⁺ binds troponin C → tropomyosin shifts → myosin-binding sites on actin are exposed.**
-- **ATP has two roles:** (1) binding dissociates the cross-bridge, (2) hydrolysis re-cocks the head.
-- **Rigor mortis = falling ATP** → myosin stays attached to actin because detachment needs ATP.
-- **Optimal sarcomere length L₀ ≈ 2.0–2.2 µm** — maximum active tension.
+Voltage-gated **dihydropyridine receptors (DHPRs)** in the T-tubule mechanically open **ryanodine receptors (RyR1)** on the sarcoplasmic reticulum (SR), releasing stored Ca²⁺. Ca²⁺ binds **troponin C**, pulling **tropomyosin** away from actin's myosin-binding sites and enabling **cross-bridge cycling** between actin and myosin heads using ATP.
+
+- **Sliding filament theory (Huxley, 1954):** sarcomeres shorten as actin slides over myosin; filaments themselves do not contract.
+- **Optimal sarcomere length** for peak active tension: **~2.0–2.2 µm**.
+- **High-yield clinical triggers:** myasthenia gravis (anti-AChR antibodies), Lambert-Eaton (anti-P/Q-type VGCC), rigor mortis, malignant hyperthermia (RyR1 mutation).
+
+---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-#### Excitation–Contraction Coupling
-A somatic α-motor neuron releases **acetylcholine (ACh)** at the end-plate; ACh activates nicotinic receptors → end-plate potential → **sarcolemmal action potential** → propagation into **T-tubules**. Voltage-gated **DHPRs** in the T-tubule sense depolarisation and mechanically open **RyR (RyR1)** on the sarcoplasmic reticulum (SR), releasing stored **Ca²⁺** into the sarcoplasm.
+#### Excitation-Contraction Coupling
 
-#### The Cross-Bridge Cycle
-Ca²⁺ binds **troponin C**; tropomyosin rolls off the myosin-binding cleft on actin. **Myosin heads**, pre-cocked by ATP hydrolysis, attach → release **ADP + Pi** (the **power stroke**, sliding actin) → bind fresh **ATP** → detach → hydrolyse ATP to re-cock. The power stroke is powered by the *prior* hydrolysis event, not by ATP binding.
+The chain from nerve to contraction follows a strict sequence: **motor neuron AP → ACh release → end-plate potential (EPP) → muscle AP → T-tubule depolarisation → DHPR-RyR1 mechanical coupling → SR Ca²⁺ release → troponin C binds Ca²⁺ → tropomyosin shift → cross-bridge formation → ATP-driven power stroke → SERCA reuptake of Ca²⁺ → relaxation.**
 
-#### Termination and Relaxation
-**SERCA** pumps Ca²⁺ back into the SR; troponin releases Ca²⁺; tropomyosin re-covers actin → relaxation.
+A critical distinction: skeletal muscle uses **mechanical coupling** between DHPR and RyR1 (no extracellular Ca²⁺ entry needed), unlike cardiac myocytes which require Ca²⁺-induced Ca²⁺ release.
 
-#### Key Quantitative Relationships
+#### Cross-Bridge Cycle
 
-| Relationship | Formula (abbrev.) | Clinical / Exam Point |
+Each myosin head cycles through four stages:
+
+1. **Attachment** (weak binding to actin after Ca²⁺ exposure)
+2. **Detachment** following ATP binding
+3. **Cocking** on ATP hydrolysis (head re-extends)
+4. **Power stroke** triggered by **Pi release**, completed by ADP release
+
+> Common trap: students reverse the order — Pi release (not ADP release) triggers the power stroke.
+
+#### Force and Velocity Relationships
+
+| Law | Relationship | Exam use |
 |---|---|---|
-| Twitch tension vs time | T(t) = T_max · (t/t_rise) · exp(1 − t/t_rise) | Latent period before tension rises |
-| Hill force–velocity | (P + a)(v + b) = (P₀ + a)·v_max | Max power at ≈ ⅓ P₀ |
-| Length–tension | T_a = T_opt · sin(πL/L₀) | Peak at L₀ ≈ 2.0–2.2 µm |
-| Tetanus fusion freq | f ≈ 1 / (refractory + relaxation time) | Higher in slow (Type I) fibres |
+| Hill's equation | V = V_max × (1 − F/F_max) | Higher load → slower shortening |
+| Length-tension | Peak active tension at 2.0–2.2 µm | Explains descending limb of Starling-type curve |
+| Power | P = F × V (W) | Peak power at ~⅓ max load |
 
-#### Neuromuscular Pharmacology (high-yield for INI CET)
-- **Myasthenia gravis:** antibodies against **postsynaptic nicotinic ACh receptors** → fatigable weakness, **worsens** with use.
-- **Lambert-Eaton syndrome (LEMS):** antibodies against **presynaptic Ca²⁺ channels** → weakness, **improves** with brief effort (Ca²⁺ accumulates).
-- **Curare / α-bungarotoxin:** competitive postsynaptic blockade.
-- **Succinylcholine:** depolarising blockade; defective in pseudocholinesterase deficiency.
+#### Motor Unit and Fibre Types
+
+A **motor unit** = one alpha motor neuron + all fibres it innervates. Small motor units serve extraocular muscles (fine control); large units serve the quadriceps (power).
+
+| Type | Metabolism | Fatigue |
+|---|---|---|
+| Type I (slow oxidative) | Aerobic | Resistant |
+| Type IIa (fast oxidative-glycolytic) | Mixed | Intermediate |
+| Type IIx/IIb (fast glycolytic) | Anaerobic | Fatigable |
+
+---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-#### Edge Cases in the Length–Tension Curve
-Below **L₀/2**, thin filaments collide with the **Z-disc** and overlap each other on opposite sides — active tension falls sharply (double-overlap, thick–thin interference). Beyond **3L₀/2**, fewer myosin heads can find actin binding sites, so tension falls linearly toward zero. The plateau between L₀ − 20% and L₀ + 20% is the **operating range** of most human sarcomeres in vivo.
+#### Summation, Tetanus, and Recruitment
 
-#### Force–Velocity and Energy (Hill)
-Hill's equation is a rectangular hyperbola: as **load P** rises, shortening velocity **v** falls toward zero at P = P₀. **Maximum mechanical power** is delivered at roughly **⅓ P₀**. **Eccentric** (lengthening) contractions can exceed P₀ by 20–40% because cross-bridges are forcibly torn while still bound — fewer detach per unit time, raising average force.
+Successive stimuli arriving before Ca²⁺ is resequestered by **SERCA** produce **summation**; rapid stimulation produces **tetanus**. This is mechanistically distinct from **recruitment** (activating additional motor units). INI CET often distinguishes a single twitch on EMG trace from unfused vs fused tetanus.
 
-#### Fibre-Type Architecture
+#### Length-Tension Curve: Edge Cases
 
-| Fibre | Motor neuron | Myosin ATPase | Metabolism | Fatigue |
-|---|---|---|---|---|
-| Type I (slow oxidative) | Small α-MN | Slow | Oxidative, high myoglobin | Resistant |
-| Type IIa (fast oxidative-glycolytic) | Large α-MN | Fast | Mixed | Intermediate |
-| Type IIx/IIb (fast glycolytic) | Large α-MN | Fast | Glycolytic, low myoglobin | Rapid |
+Beyond ~3.0 µm sarcomere length, **passive tension** dominates due to **titin** and connective tissue elements. Below ~1.5 µm, actin filaments overlap, reducing active tension. The plateau region (2.0–2.2 µm) reflects maximal thin-thick filament overlap without double overlap.
 
-#### Sensory Reflexes from Muscle
-**Muscle spindles** (intrafusal fibres, **Ia afferents**) detect length and velocity → monosynaptic **stretch reflex** (e.g., knee-jerk). **Golgi tendon organs** (**Ib afferents**) detect tension → polysynaptic **inverse myotatic reflex** that inhibits the agonist to protect tendons.
+#### Rigor Mortis and ATP Dependence
+
+Without ATP, cross-bridges stay attached because **detachment requires ATP binding**. Rigor mortis peaks at ~12 hours post-mortem and resolves as endogenous proteases degrade myofibrillar proteins.
+
+#### Clinical Correlations
+
+- **Myasthenia gravis:** anti-AChR antibodies → decremental response on repetitive nerve stimulation (CMAP amplitude falls >10%).
+- **Lambert-Eaton syndrome:** anti-P/Q-type VGCC antibodies → incremental response after brief exercise.
+- **Malignant hyperthermia:** RyR1 mutation → uncontrolled SR Ca²⁺ release, hypermetabolic state, treated with **dantrolene**.
+- **Organophosphates / succinylcholine / curare:** modulate NMJ pharmacology — succinylcholine is a depolarising blocker; curare is competitive.
+
+> Mnemonic: **"TIC"** — **T**roponin **I**nhibits, **T**roponin **T** binds **T**ropomyosin, **T**roponin **C** binds **C**alcium.
 
 #### Practice Prompts
-1. *A patient dies from cyanide poisoning at 06:00. Why does rigor mortis appear earliest in the **eyelids** and **jaw**, and what happens at the molecular level?*
-2. *A 32-year-old woman has proximal weakness that improves after 10 seconds of repetitive nerve stimulation. Name the disorder, the antigen targeted, and explain why use transiently helps.*
+
+1. A patient on dantrolene for malignant hyperthermia prophylaxis — explain the molecular target and why dantrolene stops Ca²⁺ release without blocking neuromuscular transmission.
+2. EMG shows a decremental response at 2 Hz stimulation that worsens at higher frequencies — name the disease, the antibody target, and predict the response to edrophonium.
 
 ---
 
@@ -83,4 +104,5 @@ Hill's equation is a rectangular hyperbola: as **load P** rises, shortening velo
 - **[INI CET (AIIMS PG) exam overview](/exams/ini-cet/)** — pattern, eligibility, and syllabus
 - **[All Physiology notes](/notes/ini-cet/physiology/)** — browse sibling topics in this subject
 
+---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

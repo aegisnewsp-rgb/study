@@ -208,10 +208,13 @@ const articleJsonLd = {
         <p class="text-surface-600 dark:text-surface-400 max-w-2xl">
           Part of the {examName} study roadmap. {subjectDisplay} topic {topic} of {subjectDisplay}.
         </p>
-        <!-- Generate roadmap CTA -->
+        <!-- Planning ↔ notes cross-links -->
         <div class="mt-6 flex gap-3 flex-wrap">
           <a href={`/roadmap/?exam=${exam}`} class="btn-primary inline-flex items-center gap-2">
             → See in Roadmap
+          </a>
+          <a href={`/study-plan/${exam}/`} class="btn-secondary inline-flex items-center gap-2">
+            {examName} Study Plans
           </a>
           <a href={`/roadmap/?exam=${exam}&duration=1mo`} class="btn-secondary inline-flex items-center gap-2">
             Build 1-Month Plan

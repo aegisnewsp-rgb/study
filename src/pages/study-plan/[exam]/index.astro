@@ -1,11 +1,12 @@
 ---
+import { getCollection } from 'astro:content';
 import Layout from '../../../layouts/Layout.astro';
 import Navbar from '../../../components/Navbar.astro';
 import Footer from '../../../components/Footer.astro';
 import { ALL_EXAMS, getCountryFlag } from '../../../data/exams';
 import { getStudyPlanStrategy, indexedDurationsFor } from '../../../data/study-plan-strategy';
 import { isNoindexExam } from '../../../data/suppressed-exams';
-import { isPlaceholderExamTopic } from '../../../data/note-quality';
+import { isPlaceholderExamTopic, isGoodNote } from '../../../data/note-quality';
 
 export async function getStaticPaths() {
   const paths: any[] = [];
@@ -145,6 +146,16 @@ const allDurationsPlaceholder = durationKeys.length > 0 && durationKeys.every((k
   return raw.length === 0 || ph / raw.length >= 0.5;
 });
 const studyPlanRobots = (isNoindexExam(exam.examId) || allDurationsPlaceholder) ? 'noindex, follow' : undefined;
+
+// Notes hub cross-link (only when good notes exist for this exam)
+const allNotes = await getCollection('notes');
+const examGoodNotes = allNotes.filter((n) => n.id.startsWith(exam.examId + '/') && isGoodNote(n));
+const hasNotes = examGoodNotes.length > 0;
+const subjectIdByName: Record<string, string> = {};
+for (const s of (exam.subjects || []) as { id: string; name: string }[]) {
+  if (s?.name && s?.id) subjectIdByName[s.name] = s.id;
+}
+const notesSubjectSet = new Set(examGoodNotes.map((n) => n.id.split('/')[1]).filter(Boolean));
 ---
 
 <Layout title={title} description={description} canonical={canonicalUrl} robots={studyPlanRobots}>
@@ -179,6 +190,11 @@ const studyPlanRobots = (isNoindexExam(exam.examId) || allDurationsPlaceholder) 
           <a href={`/roadmap/?exam=${exam.examId}`} class="inline-flex items-center gap-2 bg-gradient-to-r from-brand-600 to-brand-500 hover:from-brand-700 hover:to-brand-600 text-white font-bold px-6 py-3 rounded-xl shadow-lg shadow-brand-500/20 transition-all">
             Generate My Personalised Plan →
           </a>
+          {hasNotes && (
+            <a href={`/notes/${exam.examId}/`} class="inline-flex items-center gap-2 bg-white dark:bg-surface-800 text-surface-700 dark:text-surface-200 font-semibold px-6 py-3 rounded-xl border border-surface-200 dark:border-surface-700 hover:border-brand-300 transition-colors">
+              Browse {examName} Notes ({examGoodNotes.length}) →
+            </a>
+          )}
           <a href={`/exams/${exam.examId}/`} class="inline-flex items-center gap-2 bg-white dark:bg-surface-800 text-surface-700 dark:text-surface-200 font-semibold px-6 py-3 rounded-xl border border-surface-200 dark:border-surface-700 hover:border-brand-300 transition-colors">
             ← {examName} Overview
           </a>
@@ -211,10 +227,27 @@ const studyPlanRobots = (isNoindexExam(exam.examId) || allDurationsPlaceholder) 
         <h2 class="text-2xl font-bold text-surface-900 dark:text-white mb-2">What every {examName} plan covers</h2>
         <p class="text-surface-600 dark:text-surface-400 mb-6 max-w-2xl">All {topicCount} topics across these {subjectCount} subjects, ordered by weightage so the highest-yield material comes first. {topProse} carry the most marks.</p>
         <div class="flex flex-wrap gap-2">
-          {rankedSubjects.map((s, i) => (
-            <span class={`px-3 py-1.5 rounded-lg text-sm font-medium ${i < 3 ? 'bg-brand-100 dark:bg-brand-900/30 text-brand-700 dark:text-brand-300' : 'bg-surface-100 dark:bg-surface-800 text-surface-700 dark:text-surface-300'}`}>{s}</span>
-          ))}
+          {rankedSubjects.map((s, i) => {
+            const sid = subjectIdByName[s];
+            const chipClass = `px-3 py-1.5 rounded-lg text-sm font-medium ${i < 3 ? 'bg-brand-100 dark:bg-brand-900/30 text-brand-700 dark:text-brand-300' : 'bg-surface-100 dark:bg-surface-800 text-surface-700 dark:text-surface-300'}`;
+            if (sid && notesSubjectSet.has(sid)) {
+              return (
+                <a href={`/notes/${exam.examId}/${sid}/`} class={`${chipClass} hover:ring-2 hover:ring-brand-400/50 transition-shadow`} title={`Open ${s} notes`}>
+                  {s} →
+                </a>
+              );
+            }
+            return <span class={chipClass}>{s}</span>;
+          })}
         </div>
+        {hasNotes && (
+          <p class="mt-5 text-sm text-surface-600 dark:text-surface-400">
+            Pair this plan with free topic notes:{' '}
+            <a href={`/notes/${exam.examId}/`} class="text-brand-600 dark:text-brand-400 font-semibold hover:underline">
+              {examName} study notes →
+            </a>
+          </p>
+        )}
       </section>
     )}
 
@@ -249,7 +282,14 @@ const studyPlanRobots = (isNoindexExam(exam.examId) || allDurationsPlaceholder) 
       <div class="rounded-xl bg-brand-600 text-white p-8 text-center">
         <h2 class="text-2xl font-bold mb-3">Want a plan that adapts as you study?</h2>
         <p class="mb-5 text-brand-100">Generate a personalised {examName} roadmap that tracks completion and reprioritises weak topics as you mark them done.</p>
-        <a href={`/roadmap/?exam=${exam.examId}`} class="inline-flex items-center gap-2 bg-white text-brand-600 font-bold px-6 py-3 rounded-xl">Generate Personalised Plan →</a>
+        <div class="flex flex-wrap gap-3 justify-center">
+          <a href={`/roadmap/?exam=${exam.examId}`} class="inline-flex items-center gap-2 bg-white text-brand-600 font-bold px-6 py-3 rounded-xl">Generate Personalised Plan →</a>
+          {hasNotes && (
+            <a href={`/notes/${exam.examId}/`} class="inline-flex items-center gap-2 bg-brand-500/40 border border-white/30 text-white font-semibold px-6 py-3 rounded-xl hover:bg-brand-500/60 transition-colors">
+              Open topic notes →
+            </a>
+          )}
+        </div>
       </div>
     </section>
 

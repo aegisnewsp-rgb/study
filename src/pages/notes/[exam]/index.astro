@@ -55,8 +55,20 @@ for (const note of examNotes) {
   bySubject[subject].push(note);
 }
 
+// Derive meta subjects from real note content — never hardcode PCB
+// (was falsely claiming Physics/Chemistry/Biology on UPSC, CAT, CLAT, etc.).
+const subjectNames = Object.values(bySubject)
+  .map((notes) => notes[0]?.data.subjectName)
+  .filter((n): n is string => Boolean(n));
+const subjectList =
+  subjectNames.length === 0
+    ? 'all subjects'
+    : subjectNames.length <= 3
+      ? subjectNames.join(', ')
+      : `${subjectNames.slice(0, 3).join(', ')}, and more`;
+
 const title = `${examName} Study Notes — All Subjects | StudyRoadmap™`;
-const description = `Free ${examName} study notes for all subjects. ${examNotes.length} topics — Physics, Chemistry, Biology, and more. No signup required.`;
+const description = `Free ${examName} study notes for all subjects. ${examNotes.length} topics — ${subjectList}. No signup required.`;
 const canonicalUrl = `https://studyroadmap.in/notes/${exam}/`;
 const siteUrl = 'https://studyroadmap.in';
 const authorObj = { name: "StudyRoadmap Editorial Team", jobTitle: "Curriculum Editors", affiliation: "StudyRoadmap", url: "https://studyroadmap.in/about/" };
@@ -196,6 +208,9 @@ const faqJsonLd = {
           <a href={`/roadmap/?exam=${exam}`} class="group inline-flex items-center gap-2 bg-gradient-to-r from-brand-600 to-brand-500 hover:from-brand-700 hover:to-brand-600 text-white font-bold px-6 py-3 rounded-xl transition-all shadow-lg shadow-brand-500/20 hover:shadow-xl hover:shadow-brand-500/30">
             Generate {examName} Roadmap
             <span class="transition-transform group-hover:translate-x-0.5">→</span>
+          </a>
+          <a href={`/study-plan/${exam}/`} class="inline-flex items-center gap-2 bg-white dark:bg-surface-800 text-surface-700 dark:text-surface-200 font-semibold px-6 py-3 rounded-xl transition-colors border border-surface-200 dark:border-surface-700 hover:border-brand-300 dark:hover:border-brand-700">
+            {examName} Study Plans
           </a>
           <a href={`/exams/${exam}/`} class="inline-flex items-center gap-2 bg-white dark:bg-surface-800 text-surface-700 dark:text-surface-200 font-semibold px-6 py-3 rounded-xl transition-colors border border-surface-200 dark:border-surface-700 hover:border-brand-300 dark:hover:border-brand-700">
             ← {examName} Overview

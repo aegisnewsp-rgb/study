@@ -241,6 +241,40 @@ const HOWTO_SCHEMA = {
       </div>
     </section>
 
+    <!-- Topic notes — planning → notes journey -->
+    <section class="py-16 px-4 bg-white dark:bg-surface-800">
+      <div class="max-w-5xl mx-auto">
+        <h2 class="text-3xl font-bold text-center mb-4 text-surface-900 dark:text-white">
+          After your plan: free topic notes
+        </h2>
+        <p class="text-center text-surface-600 dark:text-surface-400 mb-10 max-w-2xl mx-auto">
+          Generate a study plan, then open concept-first notes for each high-weight topic — no signup, linked from every exam plan page.
+        </p>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {[
+            { id: 'neet', name: 'NEET UG', flag: '🇮🇳' },
+            { id: 'jeemain', name: 'JEE Main', flag: '🇮🇳' },
+            { id: 'upsc', name: 'UPSC CSE', flag: '🇮🇳' },
+            { id: 'mdcat', name: 'MDCAT', flag: '🇵🇰' },
+            { id: 'jamb', name: 'JAMB', flag: '🇳🇬' },
+            { id: 'waec', name: 'WAEC', flag: '🇳🇬' },
+          ].map((e) => (
+            <a
+              href={`/notes/${e.id}/`}
+              class="flex items-center justify-between gap-3 rounded-xl border border-surface-200 dark:border-surface-700 bg-surface-50 dark:bg-surface-900 p-4 hover:border-brand-400 dark:hover:border-brand-600 transition-colors"
+            >
+              <span class="font-semibold text-surface-900 dark:text-white">{e.flag} {e.name} notes</span>
+              <span class="text-brand-600 dark:text-brand-400 text-sm font-medium">Open →</span>
+            </a>
+          ))}
+        </div>
+        <div class="text-center mt-8 flex flex-wrap gap-4 justify-center">
+          <a href="/notes/" class="text-brand-600 dark:text-brand-400 font-medium hover:underline">Browse all topic notes →</a>
+          <a href="/study-plan/" class="text-brand-600 dark:text-brand-400 font-medium hover:underline">Browse ready-made study plans →</a>
+        </div>
+      </div>
+    </section>
+
     <!-- FAQ Section -->
     <section class="py-16 px-4 bg-white dark:bg-surface-800 border-t border-surface-200 dark:border-surface-700">
       <div class="max-w-3xl mx-auto">

@@ -8,7 +8,7 @@ topicName: "Non-Current Assets & Impairment"
 weight: 3
 country: pakistan
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-17"
+lastUpdated: "2026-07-24"
 ---
 
 # Non-Current Assets & Impairment
@@ -16,91 +16,72 @@ lastUpdated: "2026-07-17"
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Non-current assets** are resources held for use over more than one accounting period: PPE (IAS 16), intangibles (IAS 38), right-of-use assets (IFRS 16), investment property (IAS 40), and goodwill. Under **IAS 36 Impairment of Assets**, an asset is impaired when **carrying amount > recoverable amount**.
+Non-current assets are resources held beyond twelve months to support operations, not resale — they include PPE, right-of-use assets, intangibles, investment property, goodwill, and investments in associates. Under **IAS 36**, an asset is impaired when its **carrying amount** exceeds its **recoverable amount**, forcing an immediate write-down to the lower figure. Recoverable amount is the **higher** of fair value less costs of disposal (FVLCD) and value in use (VIU), never the lower or the average.
 
-> **Recoverable amount = MAX(FVLCD, VIU)** — pick the higher of the two, not the lower.
-
-| Term | Meaning |
-|---|---|
-| **FVLCD** | Fair value less costs of disposal |
-| **VIU** | Present value of estimated future cash flows |
-| **Impairment loss** | Carrying amount − Recoverable amount (only if positive) |
-
-- **Goodwill impairment is NOT reversible** under IAS 36.
-- Annual mandatory testing: goodwill, indefinite-life intangibles, intangibles not yet available.
-- Revised depreciation = (Carrying amount after impairment − Residual value) ÷ Remaining useful life.
+- **Recoverable amount = max(FVLCD, VIU)** — pick the higher value, both measured in PKR.
+- Goodwill and indefinite-life intangibles are tested **annually**, even with no impairment indicator.
+- Impairment losses on goodwill are **irreversible**; losses on other PPE/intangibles can be reversed up to depreciated historical cost.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-#### Core definitions under IAS 36
+#### Defining the asset pool and the impairment trigger
 
-An asset is **impaired** when its carrying amount on the statement of financial position exceeds the amount expected to be recovered through use or sale. The benchmark is **recoverable amount**, not fair value alone. Two independent estimates must be computed: **FVLCD** (a market-based exit price, IFRS 13 hierarchy) and **VIU** (an entity-specific entry price, derived from discounted cash flows). The higher of these two is selected.
+IAS 36 applies to all non-financial non-current assets within its scope, including property, plant and equipment, right-of-use assets under IFRS 16, identifiable intangibles, investment property carried at cost, and goodwill. An asset becomes impaired when external or internal information indicates its carrying amount may not be recoverable. External triggers include market value declines, adverse technological changes, and increases in market interest rates; internal triggers cover physical damage and evidence of obsolescence.
 
-#### Indicators triggering an impairment review
+#### Computing recoverable amount
 
-IAS 36 para 12 lists **external** signals — significant market value decline, adverse changes in technology, markets, economy or law, increases in market interest rates, and carrying amount exceeding market capitalisation. **Internal** signals include obsolescence, physical damage, worse-than-expected economic performance, and plans to dispose of the asset earlier than previously expected. For goodwill and indefinite-life intangibles, mandatory **annual** testing applies regardless of indicators.
+The recoverable amount is the higher of two measurements:
 
-#### Cash-generating units and goodwill
+| Measurement | What it represents | Practical source |
+| --- | --- | --- |
+| FVLCD | Exit price in an arm's length transaction, net of incremental disposal costs | Active market quotes, binding sale agreements, recent comparable transactions |
+| VIU | Present value of future cash flows expected from the asset in its current condition | Entity's latest approved budget/forecast, extrapolated for up to 5 years plus a terminal value |
 
-Because goodwill has no independent cash flows, it is **allocated to the CGUs expected to benefit from the acquisition's synergies**, tested at that level, and then impaired pro-rata against the CGU's carrying amount. Impairment loss first reduces goodwill, then other assets pro-rata on the basis of carrying amount, but no individual asset is reduced below the highest of its FVLCD, VIU (if determinable), or zero.
+For VIU, future cash flows must be estimated for the asset in its existing condition — excluding uncommitted restructurings and capital expenditure that improves performance beyond the asset's original assessed standard.
 
-#### VIU mechanics
+#### The CGU and loss allocation
 
-VIU discounts forecast cash flows at a **pre-tax** rate reflecting the time value of money and asset-specific risks. Projections cover up to **five years** of reasonable, supportable assumptions, then a terminal value using a steady or declining growth rate. Post-tax rates are not used without adjusting the cash flows.
+When individual cash flows cannot be identified, assets are grouped into the **smallest identifiable group (CGU)** that generates largely independent inflows. An impairment loss is allocated first to reduce any **goodwill** allocated to the CGU, then pro-rata to the carrying amounts of the other assets, subject to a floor of the higher of FVLCD, VIU (if determinable) or zero for each asset.
 
-#### Reversal rules
-
-A previously recognised impairment loss (other than goodwill) is **reversed** only if indicators of reversal exist and recoverable amount is recomputed. The reversal is capped at the carrying amount that would have existed had no impairment been recognised — depreciation is recalculated on that notional figure.
-
-> **Trap:** Do not test impairment using undiscounted cash flows first and compare to carrying amount — that is the older SFAS-style trigger, not IAS 36. IAS 36 jumps directly to recoverable amount.
-
-#### Common exam question patterns
-
-- 6–10 mark computational question: compute FVLCD and VIU, identify recoverable amount, calculate impairment loss, allocate to CGU and revise depreciation.
-- Narrative question on indicators, disclosure, or treatment of goodwill in a business combination context.
+- Carrying amount of a CGU includes identifiable assets, allocated goodwill, and corporate assets only when a reasonable, consistent basis exists.
+- Discount rates used in VIU must be **pre-tax** and reflect the time value of money plus asset-specific risks.
+- Reversal of impairment is prohibited for goodwill and FVOCI equity investments, but permitted for other assets up to the depreciated historical cost.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-#### Edge cases and interactions
+#### Edge cases, interaction and exam strategy
 
-Goodwill impairment interacts with **IFRS 3 Business Combinations** — any adjustment to the acquisition-date fair values within the 12-month measurement period changes goodwill before the first impairment test. Under the **IAS 16 revaluation model**, an impairment loss first offsets any revaluation surplus in OCI for that asset, with any excess hitting profit or loss.
+At 3% of the Financial Reporting exam, IAS 36 questions usually combine a calculation with a discussion element. Expect a 15–20 mark scenario where you must: (1) identify the indicator, (2) compute recoverable amount, (3) allocate the loss across a CGU, and (4) comment on disclosure and reversal. A common trap asks you to use the **lower** of FVLCD and VIU — the standard requires the **higher**, reflecting the economic reality that the entity will not sell an asset for less than it could earn by using it.
 
-#### Discount rate subtleties
+#### Worked allocation across a CGU
 
-The rate should reflect the rate of return investors would require from the asset, including currency, country-risk, and price-risk premiums. Using a **group WACC** is acceptable only if adjusted for the specific asset's risk profile. Foreign-currency cash flows require matching currency discount rates.
+A CGU has goodwill of PKR 50m and three other assets: A (PKR 80m), B (PKR 60m), C (PKR 40m) — total carrying PKR 230m. Recoverable amount is PKR 190m, so the impairment loss is PKR 40m. First, eliminate goodwill: PKR 50m → 0. Remaining loss PKR 0 (already absorbed). Had goodwill been only PKR 10m, the residual PKR 30m would be allocated pro-rata to A, B and C in the ratio 80 : 60 : 40.
 
-#### Disclosure depth
+#### Common mistakes table
 
-IAS 36 requires, for each material impairment loss: the events causing it, the amount, the segment affected, and — if recoverable amount is FVLCD — the level in the fair value hierarchy; if VIU — the key assumptions (budget/forecast period, growth rate, discount rate) and sensitivity to a reasonable possible change.
+| Mistake | Correction under IAS 36 |
+| --- | --- |
+| Using average of FVLCD and VIU | Use the higher of the two |
+| Including uncommitted restructuring cash flows in VIU | Exclude — asset is in current condition |
+| Applying entity WACC without pre-tax conversion | Convert post-tax rate to a pre-tax equivalent that matches pre-tax cash flows |
+| Reducing an asset below its own recoverable amount during allocation | Cap at the higher of FVLCD, VIU (if measurable) or zero |
+| Reversing goodwill impairment in a later year | Prohibited for goodwill and FVOCI equity |
+| Testing only when an indicator exists | Annual test mandatory for goodwill and indefinite-life intangibles |
 
-#### Common mistakes examiners exploit
+#### Distinguishing from related frameworks
 
-| Mistake | Why it loses marks |
-|---|---|
-| Picking the lower of FVLCD and VIU | Standard requires the higher |
-| Reversing goodwill impairment | Explicitly prohibited |
-| Forgetting to revise depreciation after impairment | Carrying amount change affects future periods |
-| Discounting with post-tax rate on pre-tax cash flows | Timing mismatch distorts VIU |
-| Allocating impairment solely to goodwill | Excess reduces other CGU assets pro-rata |
-
-#### Worked micro-example
-
-A CGU has PPE carrying PKR 1,800,000, brand PKR 600,000, goodwill PKR 400,000 (total PKR 2,800,000). FVLCD of the CGU is PKR 2,300,000; VIU is PKR 2,500,000. Recoverable amount = **PKR 2,500,000**. Impairment loss = **PKR 300,000**. Allocate: goodwill absorbs PKR 400,000? No — loss is only PKR 300,000, so the entire loss first reduces goodwill to PKR 100,000. No further allocation needed because the test stops when CGU carrying equals recoverable amount.
+IAS 36 covers non-financial assets; financial assets within IFRS 9 use the **expected credit loss (ECL)** model. The two frameworks must not be mixed. Depreciation is systematic allocation of cost; impairment is a one-off write-down triggered by a recoverable amount shortfall — they are distinct events.
 
 #### Practice prompts
 
-1. An asset's VIU is PKR 4,200,000 and FVLCD is PKR 4,550,000. Carrying amount is PKR 4,800,000. Compute the impairment loss and the revised annual depreciation if residual value is PKR 200,000 and remaining life is 6 years.
-2. A Pakistani manufacturing entity records an impairment loss of PKR 2 million on a CGU containing goodwill. Two years later, the CGU's recoverable amount recovers by PKR 1.4 million. Explain the correct treatment of that recovery under IAS 36.
-
-#### Exam strategy
-
-Within the 3% Financial Reporting (FR/AFR) weightage, expect IAS 36 inside a larger group question rather than a stand-alone scenario. Target **under 9 minutes per mark cluster**: 3 minutes defining recoverable amount, 4 minutes computing, 2 minutes on disclosure or reversal discussion. Memorise the prohibition on goodwill reversal — it is the single most-tested IAS 36 point across both ACCA FR and ICAP AFR sittings.
+1. A factory CGU carrying PKR 500m (including goodwill PKR 120m) has FVLCD of PKR 360m and VIU of PKR 410m. Calculate the impairment loss and show the allocation.
+2. A previous impairment of PKR 25m on equipment is reviewed in year 3; recoverable amount has recovered to PKR 90m and the depreciated historical cost would be PKR 95m. State the permitted treatment and the journal entry.
 
 ---
 
@@ -111,4 +92,5 @@ Within the 3% Financial Reporting (FR/AFR) weightage, expect IAS 36 inside a lar
 - **[ACCA/CA Pakistan exam overview](/exams/accagl/)** — pattern, eligibility, and syllabus
 - **[All Financial Reporting notes](/notes/accagl/financial-report/)** — browse sibling topics in this subject
 
+---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

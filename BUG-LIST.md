@@ -831,16 +831,16 @@ bash /data/sr-sync-claw-skills.sh
 | Item | Status |
 |------|--------|
 | note-rewrite | **LIVE** at `45bbe954` — 9 notes: CLAT ca-002 + JEE chem-016/017/020 + phy-026 + NEET ic-005/oc-004 + MDCAT lr-6 + UPSC gs1-007/010 |
-| note-rewrite wave2 | **LIVE** at `dc22ea1d` + `24138100` — oc-003, communications, CLAT en-004/006, JAMB phy-7, NEET phy-012, MDCAT lr-7, SSC rs-005, WAEC eng-9/16 (src) |
-| note-rewrite wave3+restore | **LIVE** at `802428d3` — 11 notes: NECO math-9/2/11 + eng-5/10/11 + bio-11; CUET chem-005/021; ACCA financ-007; CS-Exec econom-007. Restored from WORK + HEDGEFIX after T11 wipe |
-| note-rewrite wave4 | **Committed** `2cee1bf3` (8: WAEC phy-8/16, NECO phy/chem) + `835752ff` (11: CUET eng/math/phy/chem, LAT eng-2, NECO math-18/chem) — **LIVE** via manual deploy `74c146a4` @ 18:10Z |
-| Deploy unblock | **FIXED** `check-scope.sh`: allow `BUG-LIST.md` + `docs/` — uncommitted BUG-LIST had aborted every post-commit ship (scope fail after gauntlet pass) |
-| Ship proof | Live `74c146a4` Created=18:10Z; WAEC phy-8/16, NECO chem-9, CUET eng-001, NAT-I ar-6 all **noindex=0** HTTP 200 |
-| wave5 (hourly N=8) | **LIVE** `b230e568` @ container 18:51Z — 6 notes: ACCAGL accoun-010, INI-CET pathol-004, LAT gk-7, NCEE math-8 + qr-8/12; `deploy=ok live=200` (scope fix worked end-to-end) |
-| wave6 | N=10 started 18:51Z after wave5 ship; autonomous drain continues |
-| Claw health | All 4 gateways **UP**; heartbeat fails=0; qa-scout 10/10 (18:10Z) |
-| Pipeline harden | FOOTERFIX + **HEDGEFIX** (≤4 hedge/1k); selective unstage; flock; scope allowlist for ops docs |
-| Backlog | **~185 pending** note-rewrite; done 1751; abandoned ~972; failed ~285; top pending exams: hat-ug/tnpsc/lat/nat-i/ncee |
-| Page tests | Rewritten notes rejoin index once container ships; smoke after 18:10 deploy green |
-| Dual-batch race | flock prevents concurrent batch; wave5 N=10 skipped lock-busy while hourly N=8 builds |
+| note-rewrite wave2 | **LIVE** at `dc22ea1d` + `24138100` — oc-003, communications, CLAT en-004/006, JAMB phy-7, NEET phy-012, MDCAT lr-7, SSC rs-005, WAEC eng-9/16 (src); container started 2026-07-24T14:25Z |
+| note-rewrite wave3+restore | **LIVE** at `802428d3` (container ~15:52Z) — 11 notes: NECO math-9/2/11 + eng-5/10/11 + bio-11; CUET chem-005/021; ACCA financ-007; CS-Exec econom-007. Wave3 was wiped by T11 hard-reset; restored from WORK + HEDGEFIX |
+| Claw health | All 4 gateways **UP**; heartbeat fails=0; qa-scout 10/10; last30days-official on all claws; quota shouldRun true (~33% interval / 100% weekly) |
+| Skills | vqzo gained last30days-official + adsense-compliance (+ docker-ops, github-explorer); skill-snippets synced |
+| Pipeline harden | FOOTERFIX + **HEDGEFIX** (≤4 hedge/1k before T11); batch **selective unstage** instead of full hard-reset; flock single-flight; `check-scope` allowlist + `BUG-LIST.md`/`docs/` |
+| Backlog | **207 pending** (hat-ug 19, tnpsc 17, lat 16, nat-i 14…); done 1851; failed 600 (mostly historical gate/curate-veto); abandoned 1058 |
+| Page tests | Wave5 live: WAEC phy-8, CUET eng-001, NAT-I ar-6, NCEE math-8, INI-CET pathol-004 all **noindex=0** + Continue your study |
+| Dual-batch race | Hourly N=8 killed mid-host-build overlapping docker compose; flock prevents recurrence |
+| wave4 | **LIVE** `74c146a4` (scope fix + ar-6) — WAEC/CUET/etc stack shipped ~18:10Z |
+| wave5 | **LIVE** `b230e568` — 6 notes; container Created=2026-07-24T18:51:02Z |
+| wave6 | **LIVE** `ec185ee3` (10 notes) deploy=ok live=200 @ 19:47Z; container Created=2026-07-24T19:47:24Z. All 10 smoke **noindex=0 cont=1**: ncee/ns-11, hat-ug/sk-13+qr-14, ca-found/accoun-010, ecat/chem-18, nat-i/ar-7+qr-4, ini-cet/pathol-006, nabteb/eng-14, law-ent-tz/gk-008 |
+| wave7 | **STARTED** after wave6 LIVE — N=10 continue drain (~207 pending pre-wave6) |
 

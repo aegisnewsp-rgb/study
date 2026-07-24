@@ -201,7 +201,9 @@ const faqJsonLd = {
           <span class="block text-xl md:text-2xl font-normal italic text-surface-600 dark:text-surface-300 mt-2">Study Notes</span>
         </h1>
         <p class="text-lg text-surface-600 dark:text-surface-300 max-w-2xl mb-6 leading-relaxed">
-          Concept-first notes for every topic — written for fast revision. Organised by subject, weight-tagged, completely free.
+          Concept-first notes for every topic — written for fast revision. Organised by subject
+          {exam === 'neet' ? ' (Physics, Chemistry, Biology — Botany & Zoology)' : subjectNames.length ? ` (${subjectList})` : ''},
+          weight-tagged, completely free.
         </p>
 
         <div class="flex flex-wrap gap-3">

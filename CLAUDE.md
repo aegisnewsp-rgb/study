@@ -13,7 +13,7 @@ The live container at `studyroadmap.in` is built from this repo's working tree o
 
 - **Stack**: Astro 6 (static output), React 19, Tailwind CSS 4, TypeScript
 - **Hosting**: Vercel (static), Cloudflare DNS
-- **Analytics**: Plausible (cookie-free, privacy-friendly)
+- **Analytics**: Google Analytics 4 (`G-XPWXLW8J3R`) — disclosed in privacy policy; exam prefs stay in localStorage
 - **Content**: 125+ exams, 3000+ study notes, exam data in TypeScript files
 
 ## Architecture
@@ -73,7 +73,7 @@ scripts/
 - **Content quality**: Every page must have substantial, original content (not thin/duplicated)
 - **No misleading content**: Exam descriptions must be factual, sourced from official syllabi
 - **No fake reviews/ratings**: NEVER add self-review schemas (AggregateRating for own site)
-- **Privacy policy**: Must disclose ALL data collection (Plausible, any ads, localStorage)
+- **Privacy policy**: Must disclose ALL data collection (GA4, any ads, localStorage). Never claim "no analytics" or "no tracking cookies" while gtag is loaded.
 - **ads.txt**: Keep updated in `public/ads.txt` with authorized sellers
 - **Ad placement**: Ads must be clearly distinguishable from content (no deceptive layouts)
 - **No prohibited content**: No adult content, violence, hate speech, copyrighted exam papers
@@ -84,9 +84,9 @@ scripts/
 
 - **No personal data collection**: The site stores NOTHING on servers
 - **localStorage only**: Exam choices and preferences stored client-side
-- **Plausible analytics**: Cookie-free, GDPR-compliant — this is the only analytics
-- **Privacy policy must be accurate**: If you add any tracking, update `privacy.astro`
-- **No third-party tracking pixels**: No Facebook Pixel, Google Analytics (GA4), etc.
+- **Google Analytics 4**: Live site-wide via Layout.astro (`G-XPWXLW8J3R`). Keep privacy/FAQ/about/terms aligned with this fact.
+- **Privacy policy must be accurate**: If you change analytics or ads, update `privacy.astro` and all FAQ copy that mentions analytics.
+- **No extra tracking pixels**: Do not add Facebook Pixel, TikTok Pixel, etc. without explicit user approval and privacy updates.
 
 ### 4. Performance — Keep It Fast
 
@@ -144,11 +144,11 @@ scripts/
 
 1. **DON'T** link exam cards to `/roadmap?exam=` — always use `/exams/{id}/`
 2. **DON'T** add self-review schemas (Google considers this spam)
-3. **DON'T** claim "no analytics" in privacy page (we use Plausible)
+3. **DON'T** claim "no analytics" / "no first-party analytics" / "no tracking cookies" anywhere while GA4 gtag is in Layout.astro
 4. **DON'T** add placeholder verification codes that render in HTML
 5. **DON'T** use SPA rewrites in vercel.json (breaks static page routing)
 6. **DON'T** force min-height:44px on all elements (breaks inline layouts)
-7. **DON'T** add Google Analytics or any tracking that requires cookies
+7. **DON'T** add additional ad/analytics networks without updating privacy + CSP + ads.txt
 8. **DON'T** change the Astro output mode from `static`
 9. **DON'T** remove the `prefers-reduced-motion` media query
 10. **DON'T** hardcode exam counts — always derive from `ALL_EXAMS.length`
@@ -169,7 +169,7 @@ When making content or feature decisions, prioritize:
 - **Auto-deploy**: Push to `main` triggers Vercel deploy
 - **Post-deploy**: Run `node scripts/submit-indexnow.cjs` for instant indexing
 - **Verify**: Check https://studyroadmap.in/sitemap-0.xml after deploy
-- **Monitor**: Check Plausible dashboard for traffic changes after content updates
+- **Monitor**: Check GA4 dashboard for traffic changes after content updates
 
 ## Contact & Ownership
 

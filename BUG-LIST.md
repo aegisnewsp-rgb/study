@@ -807,24 +807,23 @@ bash /data/sr-sync-claw-skills.sh
 *End of master bug list — single source of truth for OpenClaw + host remediation.*
 ---
 
-## Phase A progress (2026-07-24)
+## Phase A progress (2026-07-24 p.m. — deploy + continue)
 
-Host guards applied this session (code/docs — **deploy required** for live site):
+**Deployed live** commit chain: `e419362b` (GA honesty / NEET hub) + Docker build included BUG-100 slim (committed as `173a7a20`).
 
 | ID | Status | What changed |
 |----|--------|----------------|
-| 001 | **FIXED** (auditor) | `sr-adsense-page-check.py` PROHIBITED tightened; fixture `/data/openclaw-workspace/fixtures/r6-prohibited-regex-test.py` PASS |
-| 060 | **FIXED** (src) | index/about/terms/roadmap FAQ + footer copy now disclose GA4 |
-| 063/035 | **FIXED** | CLAUDE.md GA4 truth |
-| 065 | **FIXED** (src) | Homepage title shortened (~60 chars) |
-| 101 | **FIXED** | `sr-cwv-weekly.sh` strips HTML comments before H1 count |
-| 105 | **PARTIAL** | T17 roadmap size gate 15→13 MB; T18 GA honesty gate added. Full props slim (BUG-100) still open |
-| 015/114 | **FIXED** (src) | `/notes/neet/` intro mentions Biology (Botany & Zoology) |
-| 003 | **FIXED** (docs) | AGENTS-SR runtime pin 2026.4.21 |
-| 100 | OPEN | `/roadmap/` still ~12 MB — structural slim next |
-| 002 | OPEN | Uptime Kuma |
-| 016/090/091 | OPEN | Cloudflare robots/cache/ufw |
+| 001 | **FIXED** (auditor) | R6 commercial-intent regex + fixtures |
+| 060/063/035/065 | **LIVE** | GA honesty FAQs + CLAUDE.md + short homepage title |
+| 015/114 | **LIVE** | NEET notes hub mentions Biology (Botany & Zoology) |
+| 101 | **FIXED** | CWV H1 comment strip |
+| **100/105** | **LIVE + gated** | `/roadmap/` **~12.4 MB → ~501 KB**; per-exam `/data/roadmap/{id}.json` (125 files); T17 fail if >1 MB |
+| **002** | **FIXED** (ops) | Kuma DB re-init; admin + 4 HTTP monitors; healthy |
+| **091** | **FIXED** | ufw active; 80/443 CF IP only; SSH open |
+| 016 | OPEN (needs CF_API_TOKEN) | CF managed robots still Disallow ClaudeBot/Amazonbot before origin Allow |
+| 090 | OPEN (needs CF_API_TOKEN) | HTML often `cf-cache-status: DYNAMIC` |
+| 003 | **FIXED** (docs) | OpenClaw pin 2026.4.21 |
 
-**Live site** still serves 2026-07-22 build until deploy from `feature/openclaw-content-machine`.
+**Kuma:** container healthy; setup URL via Traefik host `uptime-kuma-ns90.srv1518653.hstgr.cloud`. Admin creds: `/root/.kuma-admin.env` (mode 600). Monitors: home, NEET, notes, roadmap.
 
-
+**Next:** Phase B content waves (thin spokes, ghosts, R6 rephrases); CF dashboard for robots/cache when token available; optional SERP tracker revive.

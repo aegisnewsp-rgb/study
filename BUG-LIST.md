@@ -836,7 +836,8 @@ bash /data/sr-sync-claw-skills.sh
 | note-rewrite wave4 | **Committed** `2cee1bf3` (8: WAEC phy-8/16, NECO phy/chem) + `835752ff` (11: CUET eng/math/phy/chem, LAT eng-2, NECO math-18/chem) — **LIVE** via manual deploy `74c146a4` @ 18:10Z |
 | Deploy unblock | **FIXED** `check-scope.sh`: allow `BUG-LIST.md` + `docs/` — uncommitted BUG-LIST had aborted every post-commit ship (scope fail after gauntlet pass) |
 | Ship proof | Live `74c146a4` Created=18:10Z; WAEC phy-8/16, NECO chem-9, CUET eng-001, NAT-I ar-6 all **noindex=0** HTTP 200 |
-| wave5 (hourly N=8) | In-flight after scope fix: **committed** `b230e568` (6: ACCAGL accoun-010, INI-CET pathol-004, LAT gk-7, NCEE math-8 + qr-8/12); npm/docker build → auto-deploy |
+| wave5 (hourly N=8) | **LIVE** `b230e568` @ container 18:51Z — 6 notes: ACCAGL accoun-010, INI-CET pathol-004, LAT gk-7, NCEE math-8 + qr-8/12; `deploy=ok live=200` (scope fix worked end-to-end) |
+| wave6 | N=10 started 18:51Z after wave5 ship; autonomous drain continues |
 | Claw health | All 4 gateways **UP**; heartbeat fails=0; qa-scout 10/10 (18:10Z) |
 | Pipeline harden | FOOTERFIX + **HEDGEFIX** (≤4 hedge/1k); selective unstage; flock; scope allowlist for ops docs |
 | Backlog | **~185 pending** note-rewrite; done 1751; abandoned ~972; failed ~285; top pending exams: hat-ug/tnpsc/lat/nat-i/ncee |

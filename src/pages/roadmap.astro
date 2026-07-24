@@ -131,24 +131,64 @@ const howToJsonLd = {
   ],
 };
 
-// RoadmapApp is client:only, so Astro serializes its props verbatim into the
-// HTML — passing ALL_EXAMS shipped a 24.5 MB page (24.09 MB props blob,
-// 2.74 MB gzipped; 2026-07-03 audit, P1). The component reads ONLY the fields
-// below (verified against every property access in RoadmapApp.tsx), so pass a
-// slim clone. Real fix — per-exam JSON fetched on selection — requires
-// RoadmapApp.tsx changes (locked file, patch prepared for user approval).
-const SLIM_EXAMS = ALL_EXAMS.filter((e: any) => e && e.examId).map((e: any) => ({
-  examId: e.examId,
-  examName: e.examName,
-  country: e.country,
-  subjects: (e.subjects || []).map((sub: any) => ({ id: sub.id, name: sub.name, color: sub.color })),
-  durations: Object.fromEntries(Object.entries(e.durations || {}).map(([k, d]: [string, any]) => [k, {
-    duration: k,
-    description: d.description,
-    totalDays: d.totalDays,
-    dailyTopics: (d.dailyTopics || []).map((t: any) => ({ id: t.id, name: t.name, subject: t.subject, weight: t.weight })),
-  }])),
-}));
+// RoadmapApp is client:only — Astro serializes props into HTML. Embedding full
+// duration/topic graphs produced a ~12–24 MB page (BUG-100). Catalog-only props
+// stay under ~100 KB; full exam payloads are written to /data/roadmap/{id}.json
+// and fetched client-side when the user selects an exam.
+import { mkdirSync, writeFileSync } from 'node:fs';
+import { join } from 'node:path';
+
+const ROADMAP_DATA_DIRS = [
+  join(process.cwd(), 'public', 'data', 'roadmap'),
+  join(process.cwd(), 'dist', 'data', 'roadmap'),
+];
+for (const dir of ROADMAP_DATA_DIRS) {
+  try { mkdirSync(dir, { recursive: true }); } catch { /* dist may not exist yet in dev */ }
+}
+
+function slimDurationPayload(e: any) {
+  return {
+    examId: e.examId,
+    examName: e.examName,
+    country: e.country,
+    subjects: (e.subjects || []).map((sub: any) => ({ id: sub.id, name: sub.name, color: sub.color })),
+    durations: Object.fromEntries(Object.entries(e.durations || {}).map(([k, d]: [string, any]) => [k, {
+      duration: k,
+      description: d.description,
+      totalDays: d.totalDays,
+      dailyTopics: (d.dailyTopics || []).map((t: any) => ({
+        id: t.id, name: t.name, subject: t.subject, weight: t.weight,
+      })),
+    }])),
+  };
+}
+
+const CATALOG_EXAMS = ALL_EXAMS.filter((e: any) => e && e.examId).map((e: any) => {
+  const payload = slimDurationPayload(e);
+  const json = JSON.stringify(payload);
+  for (const dir of ROADMAP_DATA_DIRS) {
+    try { writeFileSync(join(dir, `${e.examId}.json`), json); } catch { /* ignore */ }
+  }
+  return {
+    examId: e.examId,
+    examName: e.examName,
+    country: e.country,
+    subjects: payload.subjects,
+    // empty durations in props — RoadmapApp fetches full payload on select
+    durations: {} as Record<string, never>,
+  };
+});
+
+try {
+  const catalogJson = JSON.stringify(CATALOG_EXAMS.map(({ examId, examName, country, subjects }) => ({
+    examId, examName, country, subjects,
+  })));
+  for (const dir of ROADMAP_DATA_DIRS) {
+    try { writeFileSync(join(dir, 'catalog.json'), catalogJson); } catch { /* ignore */ }
+  }
+} catch { /* ignore */ }
+
+const SLIM_EXAMS = CATALOG_EXAMS;
 
 ---
 

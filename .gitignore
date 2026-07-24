@@ -33,3 +33,6 @@ test-results/
 __pycache__/
 *.pyc
 *.tar.gz
+
+# Generated at build (BUG-100 per-exam roadmap payloads)
+public/data/roadmap/

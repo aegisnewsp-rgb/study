@@ -324,6 +324,10 @@ export default function RoadmapApp({ exams }: Props) {
   const [copied, setCopied] = useState(false);
   const [completedTopics, setCompletedTopics] = useState<Set<string>>(new Set());
   const [showPrintView, setShowPrintView] = useState(false);
+  // Full exam payloads (with durations) loaded on demand — keeps island props tiny (BUG-100)
+  const [examCache, setExamCache] = useState<Record<string, ExamTemplate>>({});
+  const [examLoadError, setExamLoadError] = useState<string | null>(null);
+  const [examLoading, setExamLoading] = useState(false);
 
   // Pre-populate from URL params (e.g. /roadmap?exam=neet&duration=3mo)
   useEffect(() => {
@@ -333,6 +337,44 @@ export default function RoadmapApp({ exams }: Props) {
     if (examParam) setSelectedExam(examParam);
     if (durationParam) setSelectedDuration(durationParam);
   }, []);
+
+  // Fetch full exam graph when selected (catalog props omit durations)
+  useEffect(() => {
+    if (!selectedExam) {
+      setExamLoadError(null);
+      return;
+    }
+    const fromProps = exams.find(e => e.examId === selectedExam);
+    if (fromProps?.durations && Object.keys(fromProps.durations).length > 0) {
+      setExamCache(prev => (prev[selectedExam] ? prev : { ...prev, [selectedExam]: fromProps }));
+      setExamLoadError(null);
+      return;
+    }
+    if (examCache[selectedExam]) {
+      setExamLoadError(null);
+      return;
+    }
+    let cancelled = false;
+    setExamLoading(true);
+    setExamLoadError(null);
+    fetch(`/data/roadmap/${encodeURIComponent(selectedExam)}.json`)
+      .then(res => {
+        if (!res.ok) throw new Error(`Could not load exam data (${res.status})`);
+        return res.json() as Promise<ExamTemplate>;
+      })
+      .then(data => {
+        if (cancelled) return;
+        setExamCache(prev => ({ ...prev, [selectedExam]: data }));
+      })
+      .catch(err => {
+        if (cancelled) return;
+        setExamLoadError(err instanceof Error ? err.message : 'Failed to load exam data');
+      })
+      .finally(() => {
+        if (!cancelled) setExamLoading(false);
+      });
+    return () => { cancelled = true; };
+  }, [selectedExam, exams, examCache]);
 
   // Load progress from localStorage on mount / when exam+duration change
   useEffect(() => {
@@ -353,15 +395,17 @@ export default function RoadmapApp({ exams }: Props) {
     }
   }, [completedTopics, selectedExam, selectedDuration]);
 
+  const selectedExamData = useMemo(
+    () => examCache[selectedExam] ?? exams.find(e => e.examId === selectedExam) ?? null,
+    [selectedExam, exams, examCache],
+  );
+
   const roadmap = useMemo<RoadmapTemplate | null>(() => {
     if (!selectedExam || !selectedDuration) return null;
-    return exams.find(e => e.examId === selectedExam)?.durations[selectedDuration] ?? null;
-  }, [selectedExam, selectedDuration, exams]);
-
-  const selectedExamData = useMemo(
-    () => exams.find(e => e.examId === selectedExam) ?? null,
-    [selectedExam, exams],
-  );
+    const full = examCache[selectedExam];
+    if (full?.durations?.[selectedDuration]) return full.durations[selectedDuration];
+    return exams.find(e => e.examId === selectedExam)?.durations?.[selectedDuration] ?? null;
+  }, [selectedExam, selectedDuration, exams, examCache]);
 
   const groupedExams = useMemo(() => {
     const primaryCountries = ['india', 'pakistan', 'nigeria'];
@@ -527,11 +571,17 @@ export default function RoadmapApp({ exams }: Props) {
 
           {(selectedExam || selectedDuration) && (
             <button
-              onClick={() => { setSelectedExam(''); setSelectedDuration(''); setOpenSubjects(new Set()); }}
+              onClick={() => { setSelectedExam(''); setSelectedDuration(''); setOpenSubjects(new Set()); setExamLoadError(null); }}
               className="text-xs text-surface-500 hover:text-surface-700 dark:hover:text-surface-300 transition-colors underline"
             >
               Clear selection
             </button>
+          )}
+          {examLoading && selectedExam && (
+            <p className="text-xs text-surface-500 text-center" role="status">Loading study plan data…</p>
+          )}
+          {examLoadError && selectedExam && (
+            <p className="text-xs text-red-600 dark:text-red-400 text-center" role="alert">{examLoadError}</p>
           )}
         </div>
       </section>

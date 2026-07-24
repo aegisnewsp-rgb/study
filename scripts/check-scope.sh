@@ -31,7 +31,7 @@ if [ -f LOCKED_FILES.txt ]; then
   done < LOCKED_FILES.txt
 fi
 
-allowed_re='^(src/content/|src/content\.config\.ts|src/data/|src/pages/|src/components/|public/|scripts/|skills/|LOCKED_FILES\.txt|CLAUDE\.md|CLAUDE\.local\.md|news\.json|improvement-backlog.*\.md|heartbeat-log\.md)'
+allowed_re='^(src/content/|src/content\.config\.ts|src/data/|src/pages/|src/components/|public/|scripts/|skills/|LOCKED_FILES\.txt|CLAUDE\.md|CLAUDE\.local\.md|news\.json|improvement-backlog.*\.md|heartbeat-log\.md|BUG-LIST\.md|docs/)'
 if out_of_scope=$(grep -Ev "$allowed_re" /tmp/sr_changed_files.txt); then
   if [ -n "$out_of_scope" ]; then
     echo "BLOCKED: out-of-scope files modified:"

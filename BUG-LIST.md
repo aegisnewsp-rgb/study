@@ -831,13 +831,15 @@ bash /data/sr-sync-claw-skills.sh
 | Item | Status |
 |------|--------|
 | note-rewrite | **LIVE** at `45bbe954` — 9 notes: CLAT ca-002 + JEE chem-016/017/020 + phy-026 + NEET ic-005/oc-004 + MDCAT lr-6 + UPSC gs1-007/010 |
-| note-rewrite wave2 | **LIVE** at `dc22ea1d` + `24138100` — oc-003, communications, CLAT en-004/006, JAMB phy-7, NEET phy-012, MDCAT lr-7, SSC rs-005, WAEC eng-9/16 (src); container started 2026-07-24T14:25Z |
-| note-rewrite wave3+restore | **LIVE** at `802428d3` (container ~15:52Z) — 11 notes: NECO math-9/2/11 + eng-5/10/11 + bio-11; CUET chem-005/021; ACCA financ-007; CS-Exec econom-007. Wave3 was wiped by T11 hard-reset; restored from WORK + HEDGEFIX |
-| Claw health | All 4 gateways **UP**; heartbeat fails=0; qa-scout 10/10; last30days-official on all claws; quota shouldRun true (~87%) |
-| Skills | vqzo gained last30days-official + adsense-compliance (+ docker-ops, github-explorer); skill-snippets synced |
-| Pipeline harden | FOOTERFIX + **HEDGEFIX** (≤4 hedge/1k before T11); batch **selective unstage** instead of full hard-reset; flock single-flight |
-| Backlog | ~218 pending real thin files; 259 ghost/missing-target rows abandoned; 22 major-exam rows score=620; ~225 thin under 4k on disk |
-| Page tests | NECO/CUET/WAEC eng-9/NEET phy-012 all **indexable** live (noindex=0, Continue your study=1, filler=0) |
-| Dual-batch race | Hourly N=8 killed mid-host-build overlapping docker compose; flock prevents recurrence |
-| wave4 | N=10 running (WAEC phy-8 DONE first); continues autonomous drain |
+| note-rewrite wave2 | **LIVE** at `dc22ea1d` + `24138100` — oc-003, communications, CLAT en-004/006, JAMB phy-7, NEET phy-012, MDCAT lr-7, SSC rs-005, WAEC eng-9/16 (src) |
+| note-rewrite wave3+restore | **LIVE** at `802428d3` — 11 notes: NECO math-9/2/11 + eng-5/10/11 + bio-11; CUET chem-005/021; ACCA financ-007; CS-Exec econom-007. Restored from WORK + HEDGEFIX after T11 wipe |
+| note-rewrite wave4 | **Committed** `2cee1bf3` (8: WAEC phy-8/16, NECO phy/chem) + `835752ff` (11: CUET eng/math/phy/chem, LAT eng-2, NECO math-18/chem) — **LIVE** via manual deploy `74c146a4` @ 18:10Z |
+| Deploy unblock | **FIXED** `check-scope.sh`: allow `BUG-LIST.md` + `docs/` — uncommitted BUG-LIST had aborted every post-commit ship (scope fail after gauntlet pass) |
+| Ship proof | Live `74c146a4` Created=18:10Z; WAEC phy-8/16, NECO chem-9, CUET eng-001, NAT-I ar-6 all **noindex=0** HTTP 200 |
+| wave5 (hourly N=8) | In-flight after scope fix: **committed** `b230e568` (6: ACCAGL accoun-010, INI-CET pathol-004, LAT gk-7, NCEE math-8 + qr-8/12); npm/docker build → auto-deploy |
+| Claw health | All 4 gateways **UP**; heartbeat fails=0; qa-scout 10/10 (18:10Z) |
+| Pipeline harden | FOOTERFIX + **HEDGEFIX** (≤4 hedge/1k); selective unstage; flock; scope allowlist for ops docs |
+| Backlog | **~185 pending** note-rewrite; done 1751; abandoned ~972; failed ~285; top pending exams: hat-ug/tnpsc/lat/nat-i/ncee |
+| Page tests | Rewritten notes rejoin index once container ships; smoke after 18:10 deploy green |
+| Dual-batch race | flock prevents concurrent batch; wave5 N=10 skipped lock-busy while hourly N=8 builds |
 

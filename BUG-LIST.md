@@ -826,4 +826,17 @@ bash /data/sr-sync-claw-skills.sh
 
 **Kuma:** container healthy; setup URL via Traefik host `uptime-kuma-ns90.srv1518653.hstgr.cloud`. Admin creds: `/root/.kuma-admin.env` (mode 600). Monitors: home, NEET, notes, roadmap.
 
-**Next:** Phase B content waves (thin spokes, ghosts, R6 rephrases); CF dashboard for robots/cache when token available; optional SERP tracker revive.
+### Phase B wave (2026-07-24 continue) — LIVE
+
+| Item | Status |
+|------|--------|
+| note-rewrite | **LIVE** at `45bbe954` — 9 notes: CLAT ca-002 + JEE chem-016/017/020 + phy-026 + NEET ic-005/oc-004 + MDCAT lr-6 + UPSC gs1-007/010 |
+| Deploy | docker image rebuilt + container recreated ~13:37Z; home/neet 200 |
+| Live `/roadmap/` | **~513 KB**, 125 `/data/roadmap/*.json` |
+| Gate prompt | hardened table/list requirement → pass rate recovered (chem-016/017 etc.) |
+| Pending real notes | **6** (oc-003, phy-012, jamb phy-7, clat en-004/006, neet communications) |
+| Hub backlog junk | abandoned 40 hub-only slugs |
+| Quota | ~52% interval remaining post-wave |
+| CF 016/090 | still need `CF_API_TOKEN` |
+
+**Next:** rewrite remaining 6 thin → CF when token; optional SERP revive.

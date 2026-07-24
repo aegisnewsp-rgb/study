@@ -8,49 +8,86 @@ topicName: Quadratic Equations
 weight: 3
 country: india
 generated: "2026-03-29T05:06:11"
-lastUpdated: 2026-03-29
+lastUpdated: "2026-07-24"
 ---
+
 # Quadratic Equations
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision.
+> Rapid summary for last-minute revision before your exam.
 
-**Quadratic Equations** — Key Facts for CUET
-• **Discriminant Formula:** For ax² + bx + c = 0, discriminant D = b² - 4ac determines nature of roots
-• **Most tested CUET concept:** Relationship between coefficients and roots (α + β = -b/a, αβ = c/a)
-• **Common mistake students make:** Forgetting that 'a' cannot be zero; confusing signs when applying the quadratic formula
-• **Key technique or method to solve quickly:** Use factorization when numbers are nice; use Shridharacharya formula when factorization is difficult
-• **Important exception or special case:** When b = 0, equation becomes ax² + c = 0; roots are ±√(-c/a) (imaginary if c/a > 0)
-• **Most frequent question type in CUET:** Forming quadratic equation from given roots, and word problems involving area/perimeter
-⚡ **Exam tip:** In multiple choice questions, if options are numbers, substitute the options into the equation to quickly verify which satisfies it — saves time during CUET
+A **quadratic equation** in one variable has the standard form **ax² + bx + c = 0**, where a, b, c are real constants and **a ≠ 0**. The two roots are the values of x that satisfy the equation.
 
----
+- **Roots via quadratic formula:** x = (−b ± √(b² − 4ac)) / 2a
+- **Discriminant D = b² − 4ac** decides root count: D > 0 → two distinct real roots, D = 0 → equal real roots, D < 0 → complex conjugate roots.
+- **Vieta's relations:** sum α + β = −b/a, product αβ = c/a.
+- **Factored form:** a(x − α)(x − β) = 0.
+
+| Method | Best used when |
+| --- | --- |
+| Factorisation | Coefficients are small integers and roots are rational |
+| Quadratic formula | Coefficients are messy, decimals, or non-factorable |
+| Completing the square | Question asks for vertex form or completing-the-square identity |
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Quadratic Equations** — CUET Study Guide
+#### Standard form and degree check
 
-A **quadratic equation** in one variable is of the standard form ax² + bx + c = 0, where a ≠ 0. The **roots** of this equation are given by the quadratic formula: x = (-b ± √(b² - 4ac)) / 2a. The expression D = b² - 4ac is called the **discriminant** and determines the nature of roots. If D > 0, roots are real and unequal; if D = 0, roots are real and equal; if D < 0, roots are **complex conjugates**.
+Every quadratic must be rewritten in **ax² + bx + c = 0** before applying any method. The leading coefficient **a ≠ 0** is non-negotiable; an equation that drops to degree 1 after simplification is linear, not quadratic. Watch for hidden quadratics such as equations in x² (treat u = x²) or in √x (treat u = √x).
 
-The **Sum and Product of roots** (Vieta's formulas) are fundamental: α + β = -b/a and αβ = c/a. These allow quick formation of equations when roots are known: x² - (sum)x + (product) = 0. Common traps include misapplying signs and forgetting the 'a' coefficient in the denominator.
+#### Solving by three equivalent routes
 
-**Solved Examples:**
+Factorisation rewrites the polynomial as a(x − α)(x − β) = 0 so each root is read off. The quadratic formula handles every case in one stroke, including messy coefficients. Completing the square converts ax² + bx + c into a(x + b/(2a))² + (4ac − b²)/(4a), exposing the vertex **(h, k) = (−b/(2a), (4ac − b²)/(4a))** and the axis of symmetry x = −b/(2a).
 
-1. **Find roots of x² - 5x + 6 = 0** → Factor: (x-2)(x-3) = 0, so x = 2, 3. Using formula: D = 25-24 = 1, roots = (5±1)/2 = 2, 3.
+#### Discriminant and nature of roots
 
-2. **If roots are 3 and -2, form equation** → Sum = 1, Product = -6. Equation: x² - x - 6 = 0.
+The single quantity **D = b² − 4ac** classifies the roots without computing them. If D is a perfect square, the roots are rational; if D > 0 but not a perfect square, the roots are irrational real numbers; if D < 0, the roots are complex conjugates **α, ᾱ** with non-zero imaginary part.
 
-Word problems typically involve consecutive integers, area calculations, or speed-distance-time relationships leading to quadratic setups.
+#### Vieta's formulas and root construction
 
----
+For roots α and β of ax² + bx + c = 0, Vieta's formulas give **S = α + β = −b/a** and **P = αβ = c/a**. Given any two numbers α, β, the monic quadratic with those roots is **x² − (α + β)x + αβ = 0**. Symmetric expressions in α, β (such as α² + β² = S² − 2P, 1/α + 1/β = S/P) reduce to S and P without solving for individual roots.
+
+| Mistake | Why it costs marks |
+| --- | --- |
+| Writing sum = b/a | Sign error — correct value is −b/a |
+| Reporting one root from the formula | The ± produces two roots unless D = 0 |
+| Treating D ≥ 0 as "equal roots" | D = 0 alone gives equal roots; D > 0 gives distinct |
+| Squaring a √x equation | Extraneous roots enter; verify each candidate |
+
+- CUET UG context: 3% weight, usually **1–2 MCQs** per paper.
+- Typical items: nature of roots, discriminant comparison, sum/product of roots, forming a quadratic from given roots.
+- Reject impossible roots in word problems (negative ages, non-integer counts).
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer timeline.
+> Comprehensive coverage for students on a longer study timeline.
 
-**Quadratic Equations** — Comprehensive CUET Notes
+#### Discriminant as a comparative tool
 
-**Theory and Proofs:** A quadratic equation ax² + bx + c = 0 (a ≠ 0) represents a **parabola** when graphed. The vertex form is a(x - h)² + k, where h = -b/2a gives the axis of symmetry. The **Maximum or Minimum value** occurs at x = -b/2a, with value = -D/4a. For real roots, the parabola must intersect the x-axis, requiring D ≥ 0.
+When comparing two quadratics or locating a parameter k for a desired root property, treat D as a function of k. For real roots, require D(k) ≥ 0; for equal roots, D(k) = 0; for roots of opposite sign, require P = c/a < 0. For a common root between a₁x² + b₁x + c₁ = 0 and a₂x² + b₂x + c₂ = 0, the condition is **(a₁b₂ − a₂b₁)² = (a₁c₂ − a₂c₁)(b₁c₂ − b₂c₁)**, useful in CUET assertion-reason items.
 
-**Relationship Between Coefficients and Roots:** Given roots α, β, we derive: α + β = -b/a and αβ = c/a by expanding a(x - α)(x - β) = ax² - a(α+β)x + aαβ. When roots are given as α, β, the quadratic is: ax² - a(α+β)x + aα
-*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+#### Worked micro-example
+
+For x² − 5x + 6 = 0: D = 25 − 24 = 1 > 0, so two distinct real roots; roots = (5 ± 1)/2, giving 3 and 2. Vieta check: sum = 5 = −(−5)/1 ✓, product = 6 = 6/1 ✓. Forming the quadratic with roots 3 and 7: x² − 10x + 21 = 0.
+
+#### Higher-degree reductions
+
+Quadratic techniques extend beyond degree 2. Equations like x⁴ − 5x² + 4 = 0 become u² − 5u + 4 = 0 under u = x², yielding u = 1 or 4 and so x = ±1, ±2. Equations with √x terms become quadratics in √x after substitution, but every candidate must be back-substituted and rejected if it makes the original radicand negative.
+
+#### Links to adjacent CUET topics
+
+The parabola y = ax² + bx + c shares its vertex and axis with the quadratic's maximum/minimum problem, feeding directly into Calculus and Coordinate Geometry. Vieta's S and P appear again in Sequences and Series for sum of roots of polynomial equations.
+
+| Practice prompt | Skill tested |
+| --- | --- |
+| If α, β are roots of 2x² − 3x + 5 = 0, find α² + β² and 1/α + 1/β | Vieta's formulas, symmetric expressions |
+| Find k so that x² + (k−1)x + 9 = 0 has equal roots | Discriminant condition D = 0 |
+
+## Continue your study
+
+- **[View this topic in your CUET UG roadmap](/roadmap/?exam=cuet&duration=1mo)** — see where "Quadratic Equations" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=cuet&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[CUET UG exam overview](/exams/cuet/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/cuet/mathematics/)** — browse sibling topics in this subject
+
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

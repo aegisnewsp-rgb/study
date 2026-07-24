@@ -8,41 +8,68 @@ topicName: Continuity
 weight: 3
 country: india
 generated: "2026-03-29T05:06:05"
-lastUpdated: 2026-03-29
+lastUpdated: "2026-07-24"
 ---
----
+
 # Continuity
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision.
+> Rapid summary for last-minute revision before your exam.
 
-**Continuity** — Key Facts for CUET
-• **Essential Formula:** $\lim_{x \to a} f(x) = f(a)$ (function must equal its limit at the point)
-• **Most Tested Concept:** Checking continuity at a point using the three-condition test (left limit = right limit = function value)
-• **Common Mistake:** Students forget that continuity requires the function to be **defined** at the point, not just have matching limits
-• **Key Technique:** For piecewise functions, always check continuity at the boundary point by evaluating both pieces
-• **Important Exception:** Rational functions are continuous everywhere except where denominator = 0 (very frequent CUET trap!)
-• **Frequent Question Type:** Find 'k' so that function is continuous at x = a (parameter finding problems)
-⚡ **Exam Tip:** When asked to find continuity of composite functions at corners, ALWAYS check the inner function's behavior first, then apply the definition to the outer function.
+A function $f$ is **continuous at $x = a$** when three conditions all hold: $f(a)$ is defined, $\lim_{x \to a} f(x)$ exists as a finite real number, and $\lim_{x \to a} f(x) = f(a)$. Equivalently, the left-hand limit equals the right-hand limit, and both equal $f(a)$. The function is continuous on $[a,b]$ when it is continuous at every interior point and one-sided continuous at the endpoints.
 
----
+- **Polynomials, $\sin x$, $\cos x$, $e^x$, $\log x$** are continuous on their natural domains.
+- **Algebra rule:** sum, difference, product, and quotient (where denominator ≠ 0) of continuous functions are continuous.
+- **Composition rule:** if $g$ is continuous at $a$ and $f$ continuous at $g(a)$, then $f \circ g$ is continuous at $a$.
+- **Jump, infinite, and removable** are the three discontinuity types to recognise in CUET MCQs.
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Continuity** — CUET Study Guide
+#### Three-Condition Definition
+At a point $a$, continuity demands $\lim_{x \to a^-} f(x) = \lim_{x \to a^+} f(x) = f(a)$, with all three quantities finite. Failure of any single condition produces a discontinuity. Many students check only the central limit, but the CUET paper routinely tests whether $f(a)$ is defined separately.
 
-A function **f(x)** is continuous at **x = a** if and only if three conditions hold simultaneously: $\lim_{x \to a} f(x)$ **exists**, $f(a)$ **exists**, and $\lim_{x \to a} f(x) = f(a)$. This three-part test is the foundation for all continuity problems in CUET. Understanding this definition helps avoid the most common error—checking only limits without verifying the function's value at the point.
+#### Types of Discontinuities
 
-**Standard Forms:** Polynomials are continuous everywhere. Rational functions $\frac{p(x)}{q(x)}$ are continuous where $q(x) \neq 0$. Trigonometric functions like sin(x) and cos(x) are continuous on their domains, while tan(x) and sec(x) have discontinuities where cos(x) = 0.
+| Type | Behaviour at $x = a$ | Example |
+| --- | --- | --- |
+| Removable | Limit exists but $\neq f(a)$ or $f(a)$ undefined | $f(x) = \frac{x^2 - 1}{x - 1}$ at $x = 1$ |
+| Jump | One-sided limits finite but unequal | $f(x) = \begin{cases} x, & x < 0 \\ x+1, & x \ge 0 \end{cases}$ at $x = 0$ |
+| Infinite | $\lim_{x \to a} f(x) = \pm\infty$ | $f(x) = \frac{1}{x}$ at $x = 0$ |
 
-**Typical CUET Patterns:** (1) Finding the value of a constant to make a piecewise function continuous, (2) Determining points of discontinuity for rational/trigonometric functions, (3) Using continuity to evaluate limits by direct substitution.
+#### Algebra and Composition of Continuous Functions
+- If $f$ and $g$ are continuous at $a$, then $f \pm g$, $f \cdot g$, and $f/g$ (with $g(a) \neq 0$) are continuous at $a$.
+- If $g$ is continuous at $a$ and $f$ continuous at $g(a)$, then $(f \circ g)(x) = f(g(x))$ is continuous at $a$.
+- Inverse trigonometric functions like $\sin^{-1}x$, $\cos^{-1}x$, $\tan^{-1}x$ are continuous on their principal restricted domains.
 
-**Common Traps:** Students often forget to check if the function is defined at the point. Also, when dealing with modulus functions $|f(x)|$, remember that continuity depends on $f(x)$ being continuous.
+#### Intermediate Value Theorem (IVT)
+If $f$ is continuous on $[a,b]$ and $k$ lies between $f(a)$ and $f(b)$, then there exists $c \in (a,b)$ with $f(c) = k$. IVT is the standard tool for proving roots of polynomial or transcendental equations lie in a given interval.
 
-**Example 1:** Find k if $f(x) = \begin{cases} kx + 3 & x < 2 \\ x^2 - 1 & x \geq 2 \end{cases}$ is continuous at x = 2.
-**Solution:** For continuity at x = 2: $\lim_{x \to 2^-} (kx + 3) = 2k + 3$ must equal $f(2) = 4 - 1 = 3$. Thus $2k + 3 = 3$, giving $k = 0$.
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-**Example 2:** Discuss continuity of $f(x) = \frac{x^2 - 4}{x - 2}$ at x = 2.
-**Solution:** Simplify: $\frac{(x-2)(x+2)}{x-2} = x + 2
-*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+#### Continuity vs Differentiability
+Differentiability at a point **implies** continuity at that point, but the converse is false. The classic counter-example is $f(x) = |x|$ at $x = 0$: it is continuous there, yet the left derivative is $-1$ and the right derivative is $+1$, so $f$ is not differentiable at $0$. In CUET composite questions, a continuity confirmation often precedes a differentiability check — examine both.
+
+#### Worked Example: IVT Application
+Consider $f(x) = x^3 + x - 1$ on $[0,1]$. We have $f(0) = -1$ and $f(1) = 1$. Since $f$ is a polynomial (continuous everywhere) and $0$ lies between $-1$ and $1$, by IVT there exists $c \in (0,1)$ with $f(c) = 0$. Bisection between $0.5$ and $1$ would locate $c$ numerically, but existence is guaranteed by IVT alone.
+
+#### Common Traps in CUET MCQs
+
+1. Writing $\lim_{x \to a} f(x) = f(a)$ without separately confirming that $f(a)$ is defined.
+2. Treating $0/0$ forms as automatic discontinuities — they may simplify to a finite limit (removable case).
+3. Applying IVT on a non-continuous function on $[a,b]$; the theorem requires continuity throughout the closed interval.
+
+#### Practice Prompts
+1. Determine the type of discontinuity of $f(x) = \frac{\sin x}{x}$ at $x = 0$ after defining $f(0) = 1$.
+2. Use IVT to show the equation $x^5 - 4x - 2 = 0$ has a real root between $1$ and $2$.
+
+## Continue your study
+
+- **[View this topic in your CUET UG roadmap](/roadmap/?exam=cuet&duration=1mo)** — see where "Continuity" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=cuet&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[CUET UG exam overview](/exams/cuet/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/cuet/mathematics/)** — browse sibling topics in this subject
+
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

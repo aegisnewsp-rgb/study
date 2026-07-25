@@ -4,14 +4,14 @@ examName: UPCAT (Philippines)
 subject: science
 subjectName: Science
 topic: scienc-007
-topicName: Topic 7
+topicName: Mendel's Two Laws
 weight: 3
 country: philippines
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-04"
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 7
+# Mendel's Two Laws
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

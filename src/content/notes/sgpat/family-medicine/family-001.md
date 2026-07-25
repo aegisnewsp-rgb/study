@@ -4,14 +4,14 @@ examName: Saudi GP Board
 subject: family-medicine
 subjectName: Family Medicine
 topic: family-001
-topicName: Topic 1
+topicName: The SCFHS Training Pathway
 weight: 3
 country: saudi
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-04"
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 1
+# The SCFHS Training Pathway
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

@@ -4,14 +4,14 @@ examName: UNDANA Admission (Indonesia)
 subject: science
 subjectName: "Science (Saintek)"
 topic: scienc-004
-topicName: Topic 4
+topicName: Kinetic and Potential Energy
 weight: 3
 country: indonesia
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-06-16"
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 4
+# Kinetic and Potential Energy
 
 ### 🟢 Lite — Quick Review (1h–1d)
 

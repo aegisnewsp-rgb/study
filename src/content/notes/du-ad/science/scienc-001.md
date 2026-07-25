@@ -4,14 +4,14 @@ examName: DU Admission (Bangladesh)
 subject: science
 subjectName: Science
 topic: scienc-001
-topicName: Topic 1
+topicName: Objects on Horizontal Surfaces
 weight: 3
 country: bangladesh
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 1
+# Objects on Horizontal Surfaces
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

@@ -4,14 +4,14 @@ examName: "RBI Grade B"
 subject: finance
 subjectName: "Finance"
 topic: financ-005
-topicName: "Topic 5"
+topicName: Ratio Analysis
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 5
+# Ratio Analysis
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
@@ -38,9 +38,9 @@ Ratio analysis is a foundational tool in financial statement analysis, and RBI G
 Liquidity ratios measure a firm's ability to meet short-term obligations.
 
 **Current Ratio** = Current Assets / Current Liabilities
-- A ratio above 1.5 is generally considered healthy, though ideal levels vary by industry
+- A ratio above 1.5 is in most cases considered healthy, though ideal levels vary by industry
 - **Quick Ratio (Acid-Test)** = (Current Assets − Inventory) / Current Liabilities
-- More conservative than current ratio; removes inventory which may not be readily convertible
+- More conservative than current ratio; removes inventory which can not be readily convertible
 
 **Cash Ratio** = (Cash + Marketable Securities) / Current Liabilities
 - Most stringent liquidity measure; focuses only on the most liquid assets
@@ -121,7 +121,7 @@ Z > 2.99: Safe Zone | 1.81–2.99: Grey Zone | Z < 1.81: Distress Zone
 ## Advanced Applications and Exam Strategy
 
 ## Cross-Sectional and Time-Series Analysis
-RBI exam questions often require comparing ratios across multiple years or against industry peers. Always:
+RBI exam questions in many papers require comparing ratios across multiple years or against industry peers. Always:
 1. Calculate the ratio for each year/company
 2. Identify the trend (improving or deteriorating)
 3. Relate the trend to the qualitative context in the case study
@@ -133,12 +133,12 @@ RBI exam questions often require comparing ratios across multiple years or again
 - Industry-specific norms make cross-industry comparisons unreliable
 
 ## Ratio Analysis in RBI's Financial Stability Context
-RBI's Financial Stability Reports often use aggregate ratio analysis to assess:
+RBI's Financial Stability Reports in many papers use aggregate ratio analysis to assess:
 - Banking sector's exposure to leveraged corporates
 - Debt-Service Coverage ratios for specific sectors
 - Asset Quality indicators ( GNPA, NNPA trends)
 
-**Key Takeaway for Exam:** Always link ratio calculations to the broader economic context mentioned in the case. A "good" ratio in an industry downturn may still signal distress.
+**Key Takeaway for Exam:** Always link ratio calculations to the broader economic context mentioned in the case. A "good" ratio in an industry downturn can still signal distress.
 
 ## Practice Tip
 Solve previous RBI Grade B Phase 2 Finance papers. Each year includes a 30-mark case study with a financial statement requiring ratio calculations. Practice setting up a systematic worksheet with all key ratios pre-calculated to save time during the exam.

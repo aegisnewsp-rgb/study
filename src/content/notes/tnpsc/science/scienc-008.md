@@ -4,14 +4,14 @@ examName: TNPSC Group 1
 subject: science
 subjectName: Science
 topic: scienc-008
-topicName: Topic 8
+topicName: Reflection and Refraction Basics
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-18"
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 8
+# Reflection and Refraction Basics
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

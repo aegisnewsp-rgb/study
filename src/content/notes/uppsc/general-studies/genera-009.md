@@ -4,14 +4,14 @@ examName: UPPSC RO/ARO
 subject: general-studies
 subjectName: "General-Studies"
 topic: genera-009
-topicName: Topic 9
+topicName: Why the label "Topic 9" is itself
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-11"
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 9
+# Why the label "Topic 9" is itself
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

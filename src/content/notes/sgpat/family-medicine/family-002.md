@@ -4,14 +4,14 @@ examName: Saudi GP Board
 subject: family-medicine
 subjectName: Family Medicine
 topic: family-002
-topicName: Topic 2
+topicName: The four PHC principles in the Saudi
 weight: 3
 country: saudi
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-10"
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 2
+# The four PHC principles in the Saudi
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

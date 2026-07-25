@@ -4,14 +4,14 @@ examName: Saudi GP Board
 subject: medicine
 subjectName: Medicine
 topic: medici-002
-topicName: Topic 2
+topicName: PHC Framework and Saudi Context
 weight: 3
 country: saudi
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-17"
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 2
+# PHC Framework and Saudi Context
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

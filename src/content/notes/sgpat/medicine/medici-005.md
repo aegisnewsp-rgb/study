@@ -4,14 +4,14 @@ examName: Saudi GP Board
 subject: medicine
 subjectName: Medicine
 topic: medici-005
-topicName: Topic 5
+topicName: BLS Chain of Survival
 weight: 3
 country: saudi
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-06-07"
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 5
+# BLS Chain of Survival
 
 ### 🟢 Lite — Quick Review (1h–1d)
 

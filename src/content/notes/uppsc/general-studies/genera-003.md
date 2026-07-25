@@ -4,11 +4,11 @@ examName: UPPSC RO/ARO
 subject: general-studies
 subjectName: "General-Studies"
 topic: genera-003
-topicName: Topic 3
+topicName: Indian Polity and Governance
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-11"
+lastUpdated: "2026-07-25"
 ---
 
 # Topic 3 — Indian Polity and Governance

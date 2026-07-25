@@ -4,14 +4,14 @@ examName: TNPSC Group 1
 subject: geography
 subjectName: "Geography"
 topic: geogra-009
-topicName: Topic 9
+topicName: Key Demographic Indicators
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-06-10"
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 9
+# Key Demographic Indicators
 
 ### 🟢 Lite — Quick Review (1h–1d)
 

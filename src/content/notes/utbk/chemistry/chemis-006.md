@@ -4,14 +4,14 @@ examName: UTBK/SNPMTN (Indonesia)
 subject: chemistry
 subjectName: "Chemistry"
 topic: chemis-006
-topicName: Topic 6
+topicName: Defining Enthalpy Change
 weight: 3
 country: indonesia
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-06-18"
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 6
+# Defining Enthalpy Change
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

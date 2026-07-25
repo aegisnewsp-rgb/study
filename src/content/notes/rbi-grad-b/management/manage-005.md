@@ -4,14 +4,14 @@ examName: "RBI Grade B"
 subject: management
 subjectName: "Management"
 topic: manage-005
-topicName: "Topic 5"
+topicName: Departmentalisation
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 5
+# Departmentalisation
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

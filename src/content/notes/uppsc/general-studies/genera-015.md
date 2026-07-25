@@ -4,14 +4,14 @@ examName: UPPSC RO/ARO
 subject: general-studies
 subjectName: "General-Studies"
 topic: genera-015
-topicName: Topic 15
+topicName: Salient Features of the Constitution (2)
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-06-18"
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 15
+# Salient Features of the Constitution (2)
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

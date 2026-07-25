@@ -4,14 +4,14 @@ examName: Saudi GP Board
 subject: family-medicine
 subjectName: Family Medicine
 topic: family-003
-topicName: Topic 3
+topicName: The PICO Framework
 weight: 3
 country: saudi
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-04"
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 3
+# The PICO Framework
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
@@ -37,7 +37,7 @@ A good clinical question has four parts: **P**atient/problem, **I**ntervention (
 From strongest to weakest: **systematic reviews/meta-analyses of RCTs → individual RCTs → cohort studies → case-control studies → case series/reports → expert opinion**. Within the Saudi MoH Clinical Practice Guideline pathway, recommendations are graded A (RCT-derived) through D (expert consensus). Match study design to the question: therapy → RCT; prognosis → inception cohort; diagnosis → cross-sectional comparison against a gold standard.
 
 #### Diagnostic Test Appraisal
-Validity questions: was the **spectrum** of patients representative (spectrum bias)? Did every patient receive the **gold standard** regardless of the index test result (verification bias)? Was the reader **blinded**? Once valid, compute sensitivity, specificity, and likelihood ratios, then apply them using pre-test probability (often local disease prevalence from Saudi registries). A **Fagan nomogram** converts pre-test probability to post-test probability once you know the LR.
+Validity questions: was the **spectrum** of patients representative (spectrum bias)? Did every patient receive the **gold standard** regardless of the index test result (verification bias)? Was the reader **blinded**? Once valid, compute sensitivity, specificity, and likelihood ratios, then apply them using pre-test probability (in many papers local disease prevalence from Saudi registries). A **Fagan nomogram** converts pre-test probability to post-test probability once you know the LR.
 
 #### Therapy and Prognosis Trial Appraisal
 Check **randomization with allocation concealment**, **blinding** (patient, provider, outcome assessor), **intention-to-treat analysis**, and **loss to follow-up <20%**. For prognosis, look for an **inception cohort** followed long enough for clinically relevant events and reported as a **hazard ratio** with 95% **confidence interval (CI)**.
@@ -51,11 +51,11 @@ ARR and NNT translate trial results into bedside language. If a statin trial rep
 > Comprehensive coverage for students on a longer study timeline.
 
 #### Edge Cases and Bayesian Reasoning
-A common trap is the **positive predictive value paradox**: at low prevalence, even a test with 95% sensitivity and 95% specificity yields many false positives. In a Saudi primary-care screening scenario such as universal vitamin D screening in young adults (low pre-test probability of severe deficiency), a "positive" result often requires confirmatory testing or a higher LR+ threshold. Always anchor PPV to **local prevalence**, not textbook figures from Western populations. Screening in the Kingdom's ministry primary-care centres frequently relies on prevalence-adjusted PPV before initiating referrals.
+A common trap is the **positive predictive value paradox**: at low prevalence, even a test with 95% sensitivity and 95% specificity yields many false positives. In a Saudi primary-care screening scenario such as universal vitamin D screening in young adults (low pre-test probability of severe deficiency), a "positive" result in many papers requires confirmatory testing or a higher LR+ threshold. Always anchor PPV to **local prevalence**, not textbook figures from Western populations. Screening in the Kingdom's ministry primary-care centres frequently relies on prevalence-adjusted PPV before initiating referrals.
 
 #### Common Mistakes to Avoid
 - **Conflating sensitivity with PPV**: sensitivity describes diseased patients; PPV describes positive-test patients and depends on prevalence.
-- **Quoting relative risk reduction** (RRR) to patients instead of NNT — a 50% RRR may correspond to ARR of 0.5% and NNT of 200, which sounds very different in shared decision-making.
+- **Quoting relative risk reduction** (RRR) to patients instead of NNT — a 50% RRR can correspond to ARR of 0.5% and NNT of 200, which sounds very different in shared decision-making.
 - **Ignoring the 95% CI** of an RR or HR; a result that crosses 1.0 is not statistically significant.
 - **Forgetting to round NNT appropriately** — always round **up**, because NNT must be a whole treated patient.
 - Using **odds ratios** as if they were relative risks when the outcome is common (>10%).

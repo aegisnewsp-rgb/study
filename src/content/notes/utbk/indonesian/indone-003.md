@@ -4,19 +4,19 @@ examName: UTBK/SNPMTN (Indonesia)
 subject: indonesian
 subjectName: "Indonesian Language (Literasi Bahasa Indonesia)"
 topic: indone-003
-topicName: Topic 3
+topicName: Core Operations Tested (2)
 weight: 3
 country: indonesia
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-06-18"
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 3
+# Core Operations Tested (2)
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Topic 3** of Literasi Bahasa Indonesia (UTBK/SNPMTN) tests your ability to read, understand, and reason about a 300–500 word passage — usually **argumentative**, **expository**, or a short narrative. You must be able to locate the **ide pokok** (main idea) of each paragraph, trace **koherensi** (idea-level unity) and **kohesi** (sentence-level connectors) across the passage, and pull out **inferensi** (implied conclusions) anchored in textual evidence. Three high-yield pointers: (1) paraphrase — never copy a full sentence as the main idea; condense it into a noun phrase that captures the *gist*. (2) Distinguish **fakta** (verifiable claim) from **opini** (author's judgment); UTBK questions often ask which sentence is an opinion. (3) Read the **tujuan komunikatif** stem carefully — *tujuan penulis* (purpose), *sikap penulis* (stance), and *makna kata* (word meaning) require different evidence.
+**Topic 3** of Literasi Bahasa Indonesia (UTBK/SNPMTN) tests your ability to read, understand, and reason about a 300–500 word passage — in most keys **argumentative**, **expository**, or a short narrative. You must be able to locate the **ide pokok** (main idea) of each paragraph, trace **koherensi** (idea-level unity) and **kohesi** (sentence-level connectors) across the passage, and pull out **inferensi** (implied conclusions) anchored in textual evidence. Three high-yield pointers: (1) paraphrase — never copy a full sentence as the main idea; condense it into a noun phrase that captures the *gist*. (2) Distinguish **fakta** (verifiable claim) from **opini** (author's judgment); UTBK questions in many papers ask which sentence is an opinion. (3) Read the **tujuan komunikatif** stem carefully — *tujuan penulis* (purpose), *sikap penulis* (stance), and *makna kata* (word meaning) require different evidence.
 
 ---
 
@@ -25,15 +25,15 @@ lastUpdated: "2026-06-18"
 
 #### Core Operations Tested
 
-UTBK's Literasi subtes on this topic asks you to perform seven reading operations on a single passage. The first is **ide pokok identification**: locate the sentence — usually the first or last — that the rest of the paragraph supports, then restate it in your own words. The second is **struktur teks** recognition: identify whether the passage follows *deduktif* (general→specific), *induktif* (specific→general), or *campuran* (mixed) logic, since question stems often test paragraph order or omitted sentences. The third is **kohesi analysis**: map explicit connectors (*oleh karena itu, akan tetapi, dengan demikian, selain itu*) and implicit logical bridges (cause-effect, contrast, addition).
+UTBK's Literasi subtes on this topic asks you to perform seven reading operations on a single passage. The first is **ide pokok identification**: locate the sentence — in most keys the first or last — that the rest of the paragraph supports, then restate it in your own words. The second is **struktur teks** recognition: identify whether the passage follows *deduktif* (general→specific), *induktif* (specific→general), or *campuran* (mixed) logic, since question stems in many papers test paragraph order or omitted sentences. The third is **kohesi analysis**: map explicit connectors (*oleh karena itu, akan tetapi, dengan demikian, selain itu*) and implicit logical bridges (cause-effect, contrast, addition).
 
 #### Inferensi and Koherensi
 
-A passage is *koheren* when every sentence advances the same controlling idea. To test this, ask: "If I delete this sentence, does the paragraph's point change?" If not, the sentence is supporting detail. **Inferensi** is the conclusion the author leads you to without stating directly. To validate an inference, locate *at least two textual cues*; a one-evidence inference is usually a trap. The standard UTBK trap here is the *plausible-but-unsupported* option — it sounds reasonable but cannot be traced back to the passage.
+A passage is *koheren* when every sentence advances the same controlling idea. To test this, ask: "If I delete this sentence, does the paragraph's point change?" If not, the sentence is supporting detail. **Inferensi** is the conclusion the author leads you to without stating directly. To validate an inference, locate *at least two textual cues*; a one-evidence inference is in most keys a trap. The standard UTBK trap here is the *plausible-but-unsupported* option — it sounds reasonable but cannot be traced back to the passage.
 
 #### Membandingkan Dua Teks
 
-A frequent question type presents two short passages on related topics and asks for *persamaan*, *perbedaan*, or *sikap penulis* comparison. Build a simple two-column T-chart: controlling idea, supporting evidence, and tone. Tone signals (*sayangnya, ironisnya, patut dicermati*) often determine the *sikap* answer.
+A frequent question type presents two short passages on related topics and asks for *persamaan*, *perbedaan*, or *sikap penulis* comparison. Build a simple two-column T-chart: controlling idea, supporting evidence, and tone. Tone signals (*sayangnya, ironisnya, patut dicermati*) in many papers determine the *sikap* answer.
 
 #### Common Question Stems
 
@@ -52,7 +52,7 @@ A frequent question type presents two short passages on related topics and asks 
 
 #### Edge Cases and Advanced Traps
 
-The hardest UTBK items on this topic exploit four patterns. **Trap 1 — the long opener**: a paragraph may begin with a two-sentence anecdote; the *ide pokok* is in sentence three, not sentence one. Train yourself to read the *full* paragraph before choosing. **Trap 2 — lexical ambiguity**: words like *bisa* (capable vs. permission vs. possibility) and *cuma* (only vs. just) shift meaning by context. Always substitute the dictionary meaning back into the sentence — if it sounds wrong, choose the contextual sense. **Trap 3 — inference vs. assumption**: an inference is *text-anchored*; an assumption is *text-required but unstated*. UTBK will sometimes swap these labels to test your discrimination. **Trap 4 — purpose vs. stance**: *tujuan penulis* describes what the author is *doing* (explaining, persuading, criticizing), while *sikap penulis* describes how the author *feels* about the subject (skeptical, supportive, cautious). A passage can explain a topic neutrally (purpose = menjelaskan) while the author is privately skeptical (stance = meragukan).
+The hardest UTBK items on this topic exploit four patterns. **Trap 1 — the long opener**: a paragraph can begin with a two-sentence anecdote; the *ide pokok* is in sentence three, not sentence one. Train yourself to read the *full* paragraph before choosing. **Trap 2 — lexical ambiguity**: words like *bisa* (capable vs. permission vs. possibility) and *cuma* (only vs. just) shift meaning by context. Always substitute the dictionary meaning back into the sentence — if it sounds wrong, choose the contextual sense. **Trap 3 — inference vs. assumption**: an inference is *text-anchored*; an assumption is *text-required but unstated*. UTBK will sometimes swap these labels to test your discrimination. **Trap 4 — purpose vs. stance**: *tujuan penulis* describes what the author is *doing* (explaining, persuading, criticizing), while *sikap penulis* describes how the author *feels* about the subject (skeptical, supportive, cautious). A passage can explain a topic neutrally (purpose = menjelaskan) while the author is privately skeptical (stance = meragukan).
 
 #### Connection to Adjacent Skills
 

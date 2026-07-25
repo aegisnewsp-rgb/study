@@ -4,14 +4,14 @@ examName: Saudi GP Board
 subject: medicine
 subjectName: Medicine
 topic: medici-007
-topicName: Topic 7
+topicName: Cardiac Output Determinants
 weight: 3
 country: saudi
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-06-07"
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 7
+# Cardiac Output Determinants
 
 ### 🟢 Lite — Quick Review (1h–1d)
 

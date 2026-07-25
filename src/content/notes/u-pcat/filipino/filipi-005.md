@@ -4,14 +4,14 @@ examName: UPCAT (Philippines)
 subject: filipino
 subjectName: Filipino
 topic: filipi-005
-topicName: Topic 5
+topicName: Defining the Pangungusap
 weight: 3
 country: philippines
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-06-12"
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 5
+# Defining the Pangungusap
 
 ### 🟢 Lite — Quick Review (1h–1d)
 

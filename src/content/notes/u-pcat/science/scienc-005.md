@@ -4,14 +4,14 @@ examName: UPCAT (Philippines)
 subject: science
 subjectName: Science
 topic: scienc-005
-topicName: Topic 5
+topicName: Work-Energy Theorem
 weight: 3
 country: philippines
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-06-13"
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 5
+# Work-Energy Theorem
 
 ### 🟢 Lite — Quick Review (1h–1d)
 

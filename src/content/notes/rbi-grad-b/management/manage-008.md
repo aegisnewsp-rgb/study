@@ -4,14 +4,14 @@ examName: "RBI Grade B"
 subject: management
 subjectName: "Management"
 topic: manage-008
-topicName: "Topic 8"
+topicName: SWOT Analysis
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 8
+# SWOT Analysis
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
@@ -49,7 +49,7 @@ SWOT is the foundational tool for situational analysis.
 
 ### External Analysis:
 **Opportunities**: Favorable external conditions the organisation can exploit
-**Threats**: External conditions that could cause trouble or damage
+**Threats**: External conditions that can cause trouble or damage
 
 **SWOT Matrix and Strategies:**
 | | **Helpful** | **Harmful** |
@@ -104,16 +104,16 @@ Porter identified three fundamental strategies for achieving competitive advanta
 - Creating a unique product or service valued by customers
 - Achieved through brand, technology, features, service quality
 - **Example**: Apple in smartphones; HDFC Bank in Indian banking (service quality reputation)
-- **Risks**: May be too differentiated for the market; may be imitated
+- **Risks**: May be too differentiated for the market; can be imitated
 
 ### 3. Focus (Niche)
 - Concentrating on a narrow market segment (geographic, product, or buyer)
 - Within the focus, can pursue cost leadership or differentiation
 - **Example**: AMUL in ghee and butter (focus on Indian dairy); small banks focusing on regional rural markets
-- **Risks**: Segment may shrink; broader competitors may enter niche
+- **Risks**: Segment can shrink; broader competitors can enter niche
 
 **The "Stuck in the Middle" Problem:**
-Firms that try to simultaneously pursue all three strategies typically achieve none. They lack the cost structure of a cost leader, the unique differentiation of a differentiator, or the focused market knowledge of a focus strategy.
+Firms that try to simultaneously pursue all three strategies in standard papers achieve none. They lack the cost structure of a cost leader, the unique differentiation of a differentiator, or the focused market knowledge of a focus strategy.
 
 ## BCG Matrix (Boston Consulting Group)
 
@@ -188,7 +188,7 @@ Unlike BCG, considers more than just market share and growth — incorporates mu
 
 ## Strategic Intent (Hamel & Prahalad)
 
-Strategic intent goes beyond strategic objectives — it articulates where the organisation wants to go in bold, inspirational terms, often ahead of current capabilities.
+Strategic intent goes beyond strategic objectives — it articulates where the organisation wants to go in bold, inspirational terms, in many papers ahead of current capabilities.
 
 **Characteristics of Strategic Intent:**
 - **Focus**: What the organisation will NOT do is as important as what it will

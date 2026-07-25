@@ -4,14 +4,14 @@ examName: SPSC (Sindh)
 subject: sindh-studies
 subjectName: Sindh Studies
 topic: sindh--001
-topicName: Topic 1
+topicName: Historical Timeline and Dynastic Sequence
 weight: 3
 country: pakistan
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-19"
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 1
+# Historical Timeline and Dynastic Sequence
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

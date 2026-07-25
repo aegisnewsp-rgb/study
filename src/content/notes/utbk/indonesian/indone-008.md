@@ -4,14 +4,14 @@ examName: UTBK/SNPMTN (Indonesia)
 subject: indonesian
 subjectName: "Indonesian Language (Literasi Bahasa Indonesia)"
 topic: indone-008
-topicName: Topic 8
+topicName: Intrinsic vs. Extrinsic Elements
 weight: 3
 country: indonesia
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-06-18"
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 8
+# Intrinsic vs. Extrinsic Elements
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

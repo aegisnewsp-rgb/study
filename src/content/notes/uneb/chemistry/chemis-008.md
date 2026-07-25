@@ -4,14 +4,14 @@ examName: UNEB UACE (Uganda)
 subject: chemistry
 subjectName: "Chemistry"
 topic: chemis-008
-topicName: Topic 8
+topicName: Laboratory vs industrial preparation of ammonia
 weight: 3
 country: uganda
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-18"
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 8
+# Laboratory vs industrial preparation of ammonia
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

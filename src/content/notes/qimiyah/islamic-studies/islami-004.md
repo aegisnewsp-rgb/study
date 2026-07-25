@@ -4,14 +4,14 @@ examName: Qimiyah Exam (Saudi)
 subject: islamic-studies
 subjectName: General Studies
 topic: islami-004
-topicName: Topic 4
+topicName: Percentage, Ratio, and Proportion
 weight: 3
 country: saudi
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-04"
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 4
+# Percentage, Ratio, and Proportion
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

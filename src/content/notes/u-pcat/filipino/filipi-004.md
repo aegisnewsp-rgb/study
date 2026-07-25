@@ -4,14 +4,14 @@ examName: UPCAT (Philippines)
 subject: filipino
 subjectName: Filipino
 topic: filipi-004
-topicName: Topic 4
+topicName: Mga Elemento ng Maikling Kwento
 weight: 3
 country: philippines
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-05"
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 4
+# Mga Elemento ng Maikling Kwento
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

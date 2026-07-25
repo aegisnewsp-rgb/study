@@ -4,14 +4,14 @@ examName: TNPSC Group 1
 subject: geography
 subjectName: "Geography"
 topic: geogra-008
-topicName: Topic 8
+topicName: Types of Map Scales
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-06-10"
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 8
+# Types of Map Scales
 
 ### 🟢 Lite — Quick Review (1h–1d)
 

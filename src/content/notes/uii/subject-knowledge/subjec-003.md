@@ -4,14 +4,14 @@ examName: UI Entrance (Indonesia)
 subject: subject-knowledge
 subjectName: Subject Knowledge
 topic: subjec-003
-topicName: Topic 3
+topicName: Himpunan and Set Operations
 weight: 3
 country: indonesia
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-10"
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 3
+# Himpunan and Set Operations
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

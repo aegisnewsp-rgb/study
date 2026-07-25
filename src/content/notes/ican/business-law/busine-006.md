@@ -4,14 +4,14 @@ examName: ICAN (Nigeria)
 subject: business-law
 subjectName: "Business Law"
 topic: busine-006
-topicName: Topic 6
+topicName: Forms of Business Organisation
 weight: 3
 country: nigeria
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 6
+# Forms of Business Organisation
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
@@ -47,8 +47,8 @@ A partnership is "the relation which subsists between persons carrying on a busi
 
 **Tests for Partnership:**
 The Partnership Act Section 2 provides rules for determining whether a partnership exists:
-- **Sharing of gross returns** is not conclusive of partnership (may be rent, wages, etc.)
-- **Sharing of net returns** is not conclusive (may be annuity, debt service)
+- **Sharing of gross returns** is not conclusive of partnership (can be rent, wages, etc.)
+- **Sharing of net returns** is not conclusive (can be annuity, debt service)
 - **Community of profit** is strong evidence but not conclusive
 - **Joint and several liability for debts** is strong evidence
 - **Mutual agency:** The most important test — partners are each other's agents
@@ -58,9 +58,9 @@ The Partnership Act Section 2 provides rules for determining whether a partnersh
 The partnership agreement (partnership deed) governs the relationship between partners. In the absence of express agreement, the Partnership Act 1890 applies by default:
 - Profits and losses are shared equally (Section 24(1))
 - No partner is entitled to interest on capital before profits are divided
-- Every partner may take part in the management of the firm
-- No partner may be introduced as a partner without the consent of all existing partners
-- Differences arising from ordinary matters may be decided by a majority; no changes can be made to the fundamental nature of the business without unanimity
+- Every partner can take part in the management of the firm
+- No partner can be introduced as a partner without the consent of all existing partners
+- Differences arising from ordinary matters can be decided by a majority; no changes can be made to the fundamental nature of the business without unanimity
 
 **Rights and Duties of Partners:**
 
@@ -105,7 +105,7 @@ A partnership is dissolved:
 7. By court order (* decree of court*)
 
 **Court Order Dissolution:**
-A court may order dissolution on the application of a partner if:
+A court can order dissolution on the application of a partner if:
 - A partner is of unsound mind or permanently incapacitated
 - A partner other than the applicant is guilty of conduct prejudicial to the business
 - The business can only be carried on at a loss
@@ -150,7 +150,7 @@ CAMA 2020 introduced the Limited Liability Partnership (LLP) as a new form of bu
 - However, partners remain liable for their own wrongful acts (e.g., fraud)
 
 **Conversion of a Partnership to a LLP:**
-Under CAMA 2020, an existing partnership firm may convert to an LLP by registering with the CAC (Corporate Affairs Commission). This preserves the continuity of the business while limiting partners' liability.
+Under CAMA 2020, an existing partnership firm can convert to an LLP by registering with the CAC (Corporate Affairs Commission). This preserves the continuity of the business while limiting partners' liability.
 
 **Winding Up of a Partnership:**
 
@@ -180,7 +180,7 @@ A joint venture is similar to a partnership but more limited in scope — it is 
 
 **Dispute Resolution in Partnerships:**
 
-Partnership disputes may be referred to arbitration if the partnership agreement contains an arbitration clause. Disputes between partners regarding the accounts of the firm may be referred to an accountant as an expert, whose decision is binding on the parties.
+Partnership disputes can be referred to arbitration if the partnership agreement contains an arbitration clause. Disputes between partners regarding the accounts of the firm can be referred to an accountant as an expert, whose decision is binding on the parties.
 
 **ICAN Practical Focus:**
 Accountants frequently encounter partnerships in practice — particularly in audit and assurance engagements. Understanding the liability of partners, the rules on dissolution, and the priority of payment of partnership debts is essential for advising clients who are partners or considering forming a partnership.

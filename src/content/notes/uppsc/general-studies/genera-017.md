@@ -4,11 +4,11 @@ examName: UPPSC RO/ARO
 subject: general-studies
 subjectName: "General-Studies"
 topic: genera-017
-topicName: Topic 17
+topicName: Indian Economy (UPPSC RO/ARO General Studies)
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-11"
+lastUpdated: "2026-07-25"
 ---
 
 # Topic 17 — Indian Economy (UPPSC RO/ARO General Studies)

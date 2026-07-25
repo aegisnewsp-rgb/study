@@ -4,14 +4,14 @@ examName: "RBI Grade B"
 subject: finance
 subjectName: "Finance"
 topic: financ-006
-topicName: "Topic 6"
+topicName: Cash Flow Statement
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 6
+# Cash Flow Statement
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
@@ -21,7 +21,7 @@ lastUpdated: 2026-03-25
 - Indirect method starts with net income and adjusts for non-cash items and working capital changes
 - Free Cash Flow (FCF) = Operating Cash Flow − Capital Expenditure
 - Positive OCF alone doesn't guarantee financial health — examine all three sections together
-- ⚡ A company with high net profit but negative OCF often signals aggressive accrual accounting
+- ⚡ A company with high net profit but negative OCF in many papers signals aggressive accrual accounting
 
 ---
 
@@ -34,7 +34,7 @@ The Cash Flow Statement (CFS) bridges the gap between accrual-based income state
 
 ## Why Cash Flow Matters More Than Profit
 
-A company can show accounting profits but still fail if it runs out of cash. The Enron scandal and numerous corporate failures illustrate this — companies reporting profits while secretly bleeding cash. RBI's own examination of non-performing assets (NPAs) often involves analyzing whether banks' borrowers had genuine cash generation ability or were merely profitable on paper.
+A company can show accounting profits but still fail if it runs out of cash. The Enron scandal and numerous corporate failures illustrate this — companies reporting profits while secretly bleeding cash. RBI's own examination of non-performing assets (NPAs) in many papers involves analyzing whether banks' borrowers had genuine cash generation ability or were merely profitable on paper.
 
 ## Structure of Cash Flow Statement
 
@@ -80,7 +80,7 @@ Investing activities relate to the acquisition and disposal of long-term assets.
 - Maturity of fixed deposits
 - Interest and dividends received
 
-**Reading CFI:** Consistently high negative CFI in a manufacturing company is normal (ongoing capex). But a service company with very high capex may be expanding or diversifying.
+**Reading CFI:** Consistently high negative CFI in a manufacturing company is normal (ongoing capex). But a service company with very high capex can be expanding or diversifying.
 
 ### Section 3: Cash Flow from Financing Activities (CFF)
 
@@ -160,7 +160,7 @@ DSCR = 500 / (200 + 100) = 500/300 = 1.67 → Comfortable
 
 ## Cash Flow Statement in RBI Phase 2 Questions
 
-RBI Grade B Finance questions typically:
+RBI Grade B Finance questions in standard papers:
 1. Present a multi-year balance sheet and P&L
 2. Ask you to compute CFO, CFI, CFF
 3. Then ask interpretation — which company has better cash flow health and why

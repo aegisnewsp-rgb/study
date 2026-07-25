@@ -4,14 +4,14 @@ examName: "RBI Grade B"
 subject: finance
 subjectName: "Finance"
 topic: financ-009
-topicName: "Topic 9"
+topicName: Risk-Return Tradeoff
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 9
+# Risk-Return Tradeoff
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

@@ -4,20 +4,20 @@ examName: UNDANA Admission (Indonesia)
 subject: language
 subjectName: "Language (Indonesian/English)"
 topic: langua-010
-topicName: Topic 10
+topicName: Core Concepts
 weight: 3
 country: indonesia
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-06-16"
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 10
+# Core Concepts
 
 ### 🟢 Lite — Quick Review (1h–1d)
 
-Language exams at UNDANA test four core skills: **vocabulary in context**, **grammar accuracy**, **reading comprehension**, and **paragraph organization**. For a last-minute pass, memorize these three rules: (1) In Indonesian cloze tests, the correct answer always obeys PUEBI punctuation standards — a comma never precedes "dan" or "atau" in a compound clause. (2) In English reading passages, the main idea is found in the **topic sentence**, usually the first or last sentence of a paragraph. (3) Underline keywords in the question stem before scanning the passage — "according to the passage" and "the author implies" demand different answer strategies.
+Language exams at UNDANA test four core skills: **vocabulary in context**, **grammar accuracy**, **reading comprehension**, and **paragraph organization**. For a last-minute pass, memorize these three rules: (1) In Indonesian cloze tests, the correct answer always obeys PUEBI punctuation standards — a comma never precedes "dan" or "atau" in a compound clause. (2) In English reading passages, the main idea is found in the **topic sentence**, in most keys the first or last sentence of a paragraph. (3) Underline keywords in the question stem before scanning the passage — "according to the passage" and "the author implies" demand different answer strategies.
 
-**High-yield pointers:** Prefix and suffix patterns in English (e.g., -tion, un-, dis-) are recurring JIEDA language test items. Indonesian idiom questions typically use the phrase "makna ungkapan" — translate the idiom literally, then match to the closest option. Time allocation: spend no more than 90 seconds per vocabulary MCQ.
+**High-yield pointers:** Prefix and suffix patterns in English (e.g., -tion, un-, dis-) are recurring JIEDA language test items. Indonesian idiom questions in standard papers use the phrase "makna ungkapan" — translate the idiom literally, then match to the closest option. Time allocation: spend no more than 90 seconds per vocabulary MCQ.
 
 ---
 
@@ -25,11 +25,11 @@ Language exams at UNDANA test four core skills: **vocabulary in context**, **gra
 
 #### Core Concepts
 
-**Vocabulary in Context (Bahasa Indonesia):** Indonesian language questions often present an unfamiliar word within a sentence and ask for its meaning. The strategy is **contextual inference** — examine the surrounding clause for semantic clues. For example: "Kebijaksanaan руководитель-that-runs-the-program" signals that the missing word carries a meaning of wise judgment. Common lexical domains tested include prefixes (me-, di-, ber-, ter-) and their effect on word class and meaning.
+**Vocabulary in Context (Bahasa Indonesia):** Indonesian language questions in many papers present an unfamiliar word within a sentence and ask for its meaning. The strategy is **contextual inference** — examine the surrounding clause for semantic clues. For example: "Kebijaksanaan руководитель-that-runs-the-program" signals that the missing word carries a meaning of wise judgment. Common lexical domains tested include prefixes (me-, di-, ber-, ter-) and their effect on word class and meaning.
 
 **Grammar Accuracy (Bahasa Inggris):** English sections test tenses, subject-verb agreement, and conditionals. The four sentence types — simple, continuous, perfect, perfect continuous — must be distinguishable in structure. In conditional sentences, the **zero conditional** (if + present simple → present simple) describes scientific facts; the **first conditional** (if + present → will + base verb) describes real future possibilities; the **second conditional** (if + past → would + base verb) describes hypothetical or imaginary situations.
 
-**Reading Comprehension:** A passage-based question set typically includes: (a) main idea identification, (b) supporting detail location, (c) vocabulary inference from context, (d) tone or purpose recognition, and (e) inference or implication questions. The correct answer for (a) is a **broad statement** that encompasses the entire passage; it is never a specific detail from one paragraph.
+**Reading Comprehension:** A passage-based question set in standard papers includes: (a) main idea identification, (b) supporting detail location, (c) vocabulary inference from context, (d) tone or purpose recognition, and (e) inference or implication questions. The correct answer for (a) is a **broad statement** that encompasses the entire passage; it is never a specific detail from one paragraph.
 
 #### Typical Exam Patterns
 
@@ -40,7 +40,7 @@ Language exams at UNDANA test four core skills: **vocabulary in context**, **gra
 | Reading (EN) | 150–250 word passage + 4 MCQs | Read title → questions → passage → answers |
 | Paragraph Order (ID) | Arrange 5 shuffled sentences | Identify the topic sentence first (most general), then the chronological or logical chain |
 
-Common trap: Indonesian paragraph questions often list options where sentences 1 and 5 are fixed — students must arrange only the middle three. Verify the opening sentence contains the **theme introduction**, not a supporting detail.
+Common trap: Indonesian paragraph questions in many papers list options where sentences 1 and 5 are fixed — students must arrange only the middle three. Verify the opening sentence contains the **theme introduction**, not a supporting detail.
 
 ---
 
@@ -52,7 +52,7 @@ Common trap: Indonesian paragraph questions often list options where sentences 1
 
 **English Inference Questions:** The distinction between "stated explicitly" and "implied" is the most frequently exploited trap. If a passage says "The project was delayed by three weeks, which increased costs significantly," the implied answer is that cost increased due to delay — but a question asking "What was the cause of increased costs?" must be answered with the **specific word "delay"** or its synonym, not a vague restatement.
 
-**Prefix/Suffix Exceptions in Indonesian:** While me- typically marks active voice, the prefixes **me-**, **di-**, **ber-**, and **ter-** have semantic subclasses. The prefix **ter-** can indicate: (a) superlative ("terbesar" = biggest), (b) passive voice ("tertulis" = was written), or (c) spontaneous action ("terjatuh" = accidentally fell). Context determines which meaning applies — another reason contextual inference matters.
+**Prefix/Suffix Exceptions in Indonesian:** While me- in standard papers marks active voice, the prefixes **me-**, **di-**, **ber-**, and **ter-** have semantic subclasses. The prefix **ter-** can indicate: (a) superlative ("terbesar" = biggest), (b) passive voice ("tertulis" = was written), or (c) spontaneous action ("terjatuh" = accidentally fell). Context determines which meaning applies — another reason contextual inference matters.
 
 #### Common Mistakes
 
@@ -64,6 +64,6 @@ Common trap: Indonesian paragraph questions often list options where sentences 1
 
 1. **Indonesian:** Arrange the following five sentences into a coherent paragraph: *(a) Upaya pelestarian lingkungan hidup memerlukan peran aktif seluruh masyarakat.* *(b) Tanpa kesadaran kolektif, program daur ulang tidak akan berjalan efektif.* *(c) Bank sampah merupakan salah satu inovasi yang terbukti berhasil di beberapa kota.* *(d)Partisipasi warga meningkat signifikan setelah sosialisasi door-to-door.* *(e) Oleh karena itu, diperlukan kerja sama antara pemerintah dan komunitas lokal.*
 
-2. **English:** A passage states: "Although renewable energy sources have expanded rapidly, fossil fuels still account for 80% of global energy consumption." Identify the correct answer to: "What can be inferred about the future of renewable energy?" *(a) It will completely replace fossil fuels within a decade.* *(b) Its growth may not be sufficient to meet climate targets.* *(c) It is the cheapest energy source available.* *(d) Governments have stopped investing in fossil fuels.*
+2. **English:** A passage states: "Although renewable energy sources have expanded rapidly, fossil fuels still account for 80% of global energy consumption." Identify the correct answer to: "What can be inferred about the future of renewable energy?" *(a) It will completely replace fossil fuels within a decade.* *(b) Its growth can not be sufficient to meet climate targets.* *(c) It is the cheapest energy source available.* *(d) Governments have stopped investing in fossil fuels.*
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

@@ -4,14 +4,14 @@ examName: Saudi GP Board
 subject: medicine
 subjectName: Medicine
 topic: medici-011
-topicName: Topic 11
+topicName: Pharmacokinetics (ADME)
 weight: 3
 country: saudi
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-07"
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 11
+# Pharmacokinetics (ADME)
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

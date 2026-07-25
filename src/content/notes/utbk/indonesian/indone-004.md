@@ -4,14 +4,14 @@ examName: UTBK/SNPMTN (Indonesia)
 subject: indonesian
 subjectName: "Indonesian Language (Literasi Bahasa Indonesia)"
 topic: indone-004
-topicName: Topic 4
+topicName: Reading the passage architecture
 weight: 3
 country: indonesia
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-11"
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 4
+# Reading the passage architecture
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

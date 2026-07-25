@@ -4,14 +4,14 @@ examName: UTBK/SNPMTN (Indonesia)
 subject: chemistry
 subjectName: "Chemistry"
 topic: chemis-005
-topicName: Topic 5
+topicName: Core Variables and Sign Convention
 weight: 3
 country: indonesia
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-06-18"
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 5
+# Core Variables and Sign Convention
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

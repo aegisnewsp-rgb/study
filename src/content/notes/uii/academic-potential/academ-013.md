@@ -4,14 +4,14 @@ examName: UI Entrance (Indonesia)
 subject: academic-potential
 subjectName: Academic Potential
 topic: academ-013
-topicName: Topic 13
+topicName: What "figural pattern" items actually test
 weight: 3
 country: indonesia
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-10"
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 13
+# What "figural pattern" items actually test
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

@@ -4,14 +4,14 @@ examName: Saudi GP Board
 subject: surgery
 subjectName: Surgery
 topic: surger-009
-topicName: Topic 9
+topicName: AMPLE History Sequence
 weight: 3
 country: saudi
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-06-09"
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 9
+# AMPLE History Sequence
 
 ### 🟢 Lite — Quick Review (1h–1d)
 

@@ -4,14 +4,14 @@ examName: UPPSC RO/ARO
 subject: general-studies
 subjectName: "General-Studies"
 topic: genera-011
-topicName: Topic 11
+topicName: National Income Identities
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-06-17"
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 11
+# National Income Identities
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

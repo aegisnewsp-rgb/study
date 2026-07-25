@@ -4,14 +4,14 @@ examName: Makerere University (Uganda)
 subject: chemistry
 subjectName: "Chemistry"
 topic: chemis-009
-topicName: Topic 9
+topicName: Electrochemistry
 weight: 3
 country: uganda
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-05-27"
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 9
+# Electrochemistry
 
 ### 🟢 Lite — Quick Review (1h–1d)
 

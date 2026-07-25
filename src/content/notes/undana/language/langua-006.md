@@ -4,14 +4,14 @@ examName: UNDANA Admission (Indonesia)
 subject: language
 subjectName: "Language (Indonesian/English)"
 topic: langua-006
-topicName: Topic 6
+topicName: Paragraf
 weight: 3
 country: indonesia
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-06-16"
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 6
+# Paragraf
 
 ### 🟢 Lite — Quick Review (1h–1d)
 
@@ -29,8 +29,8 @@ A paragraph (**paragraf**) is a unit of thought containing one **topic sentence*
 
 | Type | Structure | Common Signal |
 |------|-----------|---------------|
-| **Deduktif** | Topic sentence first, then supporting details | *Pada dasarnya, ...* |
-| **Induktif** | Supporting details first, topic sentence as conclusion | *Jadi, ... / Dengan demikian, ...* |
+| **Deduktif** | Topic sentence first, then supporting details | *Pada dasarnya,...* |
+| **Induktif** | Supporting details first, topic sentence as conclusion | *Jadi,... / Dengan demikian,...* |
 | **Campuran** | Topic sentence appears at both beginning and end | — |
 
 ## Classification by Purpose
@@ -45,7 +45,7 @@ A paragraph (**paragraf**) is a unit of thought containing one **topic sentence*
 
 A good paragraph is **koheren** (logically ordered ideas) and **kohesif** (connected by appropriate transitional words). Transitional markers — *selain itu, sebaliknya, oleh karena itu, lebih lanjut* — signal relationships between sentences. Failing to use them creates a choppy, disorganized paragraph.
 
-**Exam pattern:** UNDANA entrance questions typically present a paragraph and ask students to identify the main idea, the topic sentence, or the paragraph type. The key is to locate the sentence that can stand alone as a summary — the other sentences exist only to support it.
+**Exam pattern:** UNDANA entrance questions in standard papers present a paragraph and ask students to identify the main idea, the topic sentence, or the paragraph type. The key is to locate the sentence that can stand alone as a summary — the other sentences exist only to support it.
 
 ---
 
@@ -53,13 +53,13 @@ A good paragraph is **koheren** (logically ordered ideas) and **kohesif** (conne
 
 ## Identifying the Topic Sentence in Mixed Paragraphs
 
-Some paragraphs open with a topic sentence, develop it through several supporting sentences, then restate the main idea in different words at the end (campuran). In such cases, the closing sentence is not merely decorative — it reinforces the controlling idea. Students often mistakenly treat the closing sentence as a new main idea, creating false duplication.
+Some paragraphs open with a topic sentence, develop it through several supporting sentences, then restate the main idea in different words at the end (campuran). In such cases, the closing sentence is not merely decorative — it reinforces the controlling idea. Students in many papers mistakenly treat the closing sentence as a new main idea, creating false duplication.
 
 ## Common Mistakes to Avoid
 
-1. **Treating an opinion statement as a supporting sentence.** A sentence expressing personal judgment (*"Menurut saya, kebijakan ini merugikan"*) is typically the topic sentence, not a supporting detail, because it controls the paragraph's direction.
+1. **Treating an opinion statement as a supporting sentence.** A sentence expressing personal judgment (*"Menurut saya, kebijakan ini merugikan"*) is in standard papers the topic sentence, not a supporting detail, because it controls the paragraph's direction.
 2. **Confusing narasi with deskripsi.** Narasi requires a sequence of events and a time dimension; deskripsi arranges details spatially or through sensory description. A paragraph describing a beach at sunset without event progression is deskripsi, not narasi.
-3. **Over-relying on keyword matching.** The topic sentence may not contain the most frequent words from the paragraph. Instead, test by asking: *"Can this sentence stand as a standalone summary?"* If not, it is supporting.
+3. **Over-relying on keyword matching.** The topic sentence can not contain the most frequent words from the paragraph. Instead, test by asking: *"Can this sentence stand as a standalone summary?"* If not, it is supporting.
 
 ## Edge Case: Paragraphs Without an Explicit Topic Sentence
 

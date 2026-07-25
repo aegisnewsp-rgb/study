@@ -4,14 +4,14 @@ examName: TNPSC Group 1
 subject: politics
 subjectName: Politics
 topic: politi-007
-topicName: Topic 7
+topicName: Six Fundamental Rights in Detail
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-10"
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 7
+# Six Fundamental Rights in Detail
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

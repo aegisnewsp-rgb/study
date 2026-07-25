@@ -4,14 +4,14 @@ examName: UAE University CAT
 subject: science
 subjectName: Science
 topic: scienc-007
-topicName: Topic 7
+topicName: The Scientific Method Framework
 weight: 3
 country: uae
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-17"
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 7
+# The Scientific Method Framework
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

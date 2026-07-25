@@ -4,14 +4,14 @@ examName: TNPSC Group 1
 subject: politics
 subjectName: Politics
 topic: politi-002
-topicName: Topic 2
+topicName: Must-Know Snapshot
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-18"
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 2
+# Must-Know Snapshot
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your TNPSC Group 1 prelims or main written exam.

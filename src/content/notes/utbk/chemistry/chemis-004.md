@@ -4,14 +4,14 @@ examName: UTBK/SNPMTN (Indonesia)
 subject: chemistry
 subjectName: "Chemistry"
 topic: chemis-004
-topicName: Topic 4
+topicName: Colligative Properties
 weight: 3
 country: indonesia
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-11"
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 4
+# Colligative Properties
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your UTBK/SNPMTN Chemistry paper.

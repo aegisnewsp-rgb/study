@@ -4,14 +4,14 @@ examName: Qimiyah Exam (Saudi)
 subject: islamic-studies
 subjectName: General Studies
 topic: islami-005
-topicName: Topic 5
+topicName: Core concept families
 weight: 3
 country: saudi
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-10"
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 5
+# Core concept families
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

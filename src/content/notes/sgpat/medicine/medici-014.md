@@ -4,14 +4,14 @@ examName: Saudi GP Board
 subject: medicine
 subjectName: Medicine
 topic: medici-014
-topicName: Topic 14
+topicName: Purpose of the SFDA classification framework
 weight: 3
 country: saudi
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-18"
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 14
+# Purpose of the SFDA classification framework
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

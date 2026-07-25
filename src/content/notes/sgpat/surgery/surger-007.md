@@ -4,14 +4,14 @@ examName: Saudi GP Board
 subject: surgery
 subjectName: Surgery
 topic: surger-007
-topicName: Topic 7
+topicName: Preoperative risk stratification
 weight: 3
 country: saudi
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-17"
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 7
+# Preoperative risk stratification
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

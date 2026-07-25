@@ -4,14 +4,14 @@ examName: Saudi GP Board
 subject: surgery
 subjectName: Surgery
 topic: surger-004
-topicName: Topic 4
+topicName: Wound Classification and SSI Risk
 weight: 3
 country: saudi
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-10"
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 4
+# Wound Classification and SSI Risk
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your Saudi GP Board Surgery paper.

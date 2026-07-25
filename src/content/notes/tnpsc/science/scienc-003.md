@@ -4,14 +4,14 @@ examName: TNPSC Group 1
 subject: science
 subjectName: Science
 topic: scienc-003
-topicName: Topic 3
+topicName: Key Relationships
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-06-11"
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 3
+# Key Relationships
 
 ### 🟢 Lite — Quick Review (1h–1d)
 

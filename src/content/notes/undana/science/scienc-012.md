@@ -4,14 +4,14 @@ examName: UNDANA Admission (Indonesia)
 subject: science
 subjectName: "Science (Saintek)"
 topic: scienc-012
-topicName: Topic 12
+topicName: Nervous and Endocrine Coordination
 weight: 3
 country: indonesia
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-06-17"
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 12
+# Nervous and Endocrine Coordination
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

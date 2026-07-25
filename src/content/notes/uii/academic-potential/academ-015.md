@@ -4,14 +4,14 @@ examName: UI Entrance (Indonesia)
 subject: academic-potential
 subjectName: Academic Potential
 topic: academ-015
-topicName: Topic 15
+topicName: Premise and Conclusion Structure
 weight: 3
 country: indonesia
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-06-14"
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 15
+# Premise and Conclusion Structure
 
 ### 🟢 Lite — Quick Review (1h–1d)
 
@@ -39,7 +39,7 @@ Two events occurring together (correlation) does not prove one causes the other 
 
 #### Common Exam Patterns
 
-Questions typically ask: "What conclusion follows from the premises?", "Which assumption is required for this argument?", or "Which statement most weakens/strengthens the argument?" In UI entrance tests, these appear as critical reasoning items testing analytical ability rather than learned knowledge.
+Questions in standard papers ask: "What conclusion follows from the premises?", "Which assumption is required for this argument?", or "Which statement most weakens/strengthens the argument?" In UI entrance tests, these appear as critical reasoning items testing analytical ability rather than learned knowledge.
 
 ---
 
@@ -55,7 +55,7 @@ Syllogisms involve two premises leading to a conclusion. Three valid patterns ex
 
 #### Causal Reasoning and Confounding Variables
 
-Causal reasoning requires eliminating alternative explanations. If researchers find that people who exercise daily have better health, exercise might cause better health—or healthier people might be more likely to exercise. The confounding variable (initial health status) undermines the causal claim. Questions often ask you to identify what additional information would strengthen or weaken a causal argument.
+Causal reasoning requires eliminating alternative explanations. If researchers find that people who exercise daily have better health, exercise can cause better health—or healthier people can be more likely to exercise. The confounding variable (initial health status) undermines the causal claim. Questions in many papers ask you to identify what additional information would strengthen or weaken a causal argument.
 
 #### Data Sufficiency Questions
 

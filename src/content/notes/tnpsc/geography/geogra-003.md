@@ -4,14 +4,14 @@ examName: TNPSC Group 1
 subject: geography
 subjectName: "Geography"
 topic: geogra-003
-topicName: Topic 3
+topicName: Himalayas: Three Parallel Ranges
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-06-10"
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 3
+# Himalayas: Three Parallel Ranges
 
 ### 🟢 Lite — Quick Review (1h–1d)
 

@@ -4,14 +4,14 @@ examName: FMGE
 subject: pharmacology
 subjectName: "Pharmacology"
 topic: pharma-004
-topicName: Topic 4
+topicName: Plant Kingdom
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-05-27"
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 4
+# Plant Kingdom
 
 ### 🟢 Lite — Quick Review (1h–1d)
 

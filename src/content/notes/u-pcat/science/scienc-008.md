@@ -4,18 +4,18 @@ examName: UPCAT (Philippines)
 subject: science
 subjectName: Science
 topic: scienc-008
-topicName: Topic 8
+topicName: Electric Charge and Current
 weight: 3
 country: philippines
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-06-13"
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 8
+# Electric Charge and Current
 
 ### 🟢 Lite — Quick Review (1h–1d)
 
-**Electricity and Magnetism** describes the flow of electric charge through conductors and the forces exerted by magnetic fields on charges. The two core formulas for UPCAT are **Ohm's Law (V = IR)** and **Power (P = IV)**, where V is voltage in volts, I is current in amperes, and R is resistance in ohms. For series circuits, total resistance is the arithmetic sum; for parallel circuits, the reciprocal sum equals the sum of individual reciprocals. **Magnetic force** on a moving charge follows **F = qvB sinθ**, with the force perpendicular to both velocity and field. **Electromagnetic induction** uses **ε = −N(dΦ/dt)**, where the induced EMF opposes the change in flux (Lenz's Law). UPCAT typically tests these as direct substitution or circuit analysis MCQs—watch for units (convert mA to A) and direction conventions (conventional current vs. electron flow).
+**Electricity and Magnetism** describes the flow of electric charge through conductors and the forces exerted by magnetic fields on charges. The two core formulas for UPCAT are **Ohm's Law (V = IR)** and **Power (P = IV)**, where V is voltage in volts, I is current in amperes, and R is resistance in ohms. For series circuits, total resistance is the arithmetic sum; for parallel circuits, the reciprocal sum equals the sum of individual reciprocals. **Magnetic force** on a moving charge follows **F = qvB sinθ**, with the force perpendicular to both velocity and field. **Electromagnetic induction** uses **ε = −N(dΦ/dt)**, where the induced EMF opposes the change in flux (Lenz's Law). UPCAT in standard papers tests these as direct substitution or circuit analysis MCQs—watch for units (convert mA to A) and direction conventions (conventional current vs. electron flow).
 
 ---
 
@@ -23,7 +23,7 @@ lastUpdated: "2026-06-13"
 
 #### Electric Charge and Current
 
-Electric charge exists in two forms: **positive** (protons) and **negative** (electrons). Like charges repel; opposite charges attract. **Current (I)** is the rate at which charge flows past a point, measured in amperes (A): **I = Q/t**, where Q is charge in coulombs and t is time in seconds. Conventional current is defined as the direction positive charges would move—from the positive terminal to the negative terminal of a battery. **Electron flow**, however, travels in the opposite direction. UPCAT often tests whether you know this distinction.
+Electric charge exists in two forms: **positive** (protons) and **negative** (electrons). Like charges repel; opposite charges attract. **Current (I)** is the rate at which charge flows past a point, measured in amperes (A): **I = Q/t**, where Q is charge in coulombs and t is time in seconds. Conventional current is defined as the direction positive charges would move—from the positive terminal to the negative terminal of a battery. **Electron flow**, however, travels in the opposite direction. UPCAT in many papers tests whether you know this distinction.
 
 #### Voltage, Resistance, and Ohm's Law
 
@@ -33,7 +33,7 @@ Electric charge exists in two forms: **positive** (protons) and **negative** (el
 
 | Circuit Type | Current | Voltage | Total Resistance |
 |---|---|---|---|
-| **Series** | Same through all components | Splits across components | R₁ + R₂ + ... |
+| **Series** | Same through all components | Splits across components | R₁ + R₂ +... |
 | **Parallel** | Splits across branches | Same across all branches | 1/R₁ + 1/R₂ = 1/R_total |
 
 In UPCAT circuit problems, identify whether components share the same current path (series) or branch paths (parallel) first—this determines which formula to apply.
@@ -48,11 +48,11 @@ A charge moving through a magnetic field experiences a force given by **F = qvB 
 
 #### Circuit Analysis: Kirchhoff's Laws and Complex Configurations
 
-Beyond simple series and parallel networks, UPCAT may present mixed configurations requiring **Kirchhoff's Current Law** (KCL: current into a junction equals current out) and **Kirchhoff's Voltage Law** (KVL: sum of voltage drops around any closed loop equals zero). For complex parallel branches, use the **current divider rule**: current through a branch equals the total current multiplied by the ratio of the opposite branch's total resistance to the sum of branch resistances. Combined with Ohm's Law, these tools solve multi-loop circuits systematically.
+Beyond simple series and parallel networks, UPCAT can present mixed configurations requiring **Kirchhoff's Current Law** (KCL: current into a junction equals current out) and **Kirchhoff's Voltage Law** (KVL: sum of voltage drops around any closed loop equals zero). For complex parallel branches, use the **current divider rule**: current through a branch equals the total current multiplied by the ratio of the opposite branch's total resistance to the sum of branch resistances. Combined with Ohm's Law, these tools solve multi-loop circuits systematically.
 
 #### Electromagnetic Induction: Motional EMF and Applications
 
-A conductor moving through a magnetic field experiences an induced EMF even without a complete circuit: **ε = BLv sinθ**, where L is the conductor's length within the field and v is its velocity. This **motional EMF** principle underlies electric generators—mechanical energy (rotating a coil) converts to electrical energy as flux changes continuously. For a rotating coil in a uniform field, the induced EMF varies sinusoidally: **ε = ε₀ sin(ωt)**, where ω is the angular frequency. The Philippines' grid operates at 60 Hz, so UPCAT may test your understanding of frequency and period relationships.
+A conductor moving through a magnetic field experiences an induced EMF even without a complete circuit: **ε = BLv sinθ**, where L is the conductor's length within the field and v is its velocity. This **motional EMF** principle underlies electric generators—mechanical energy (rotating a coil) converts to electrical energy as flux changes continuously. For a rotating coil in a uniform field, the induced EMF varies sinusoidally: **ε = ε₀ sin(ωt)**, where ω is the angular frequency. The Philippines' grid operates at 60 Hz, so UPCAT can test your understanding of frequency and period relationships.
 
 #### Common Mistakes to Avoid
 

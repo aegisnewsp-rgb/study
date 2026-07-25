@@ -4,14 +4,14 @@ examName: TNPSC Group 1
 subject: politics
 subjectName: Politics
 topic: politi-008
-topicName: Topic 8
+topicName: National Emergency (Article 352)
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-06-11"
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 8
+# National Emergency (Article 352)
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
@@ -35,7 +35,7 @@ lastUpdated: "2026-06-11"
 
 #### National Emergency (Article 352)
 
-The President may proclaim National Emergency when satisfied that a **grave emergency** exists whereby the security of India is threatened by war, external aggression, or armed rebellion. The term "armed rebellion" was substituted for "internal disturbance" by the 44th Constitutional Amendment Act, 1978 — this is a frequent TNPSC trap.
+The President can proclaim National Emergency when satisfied that a **grave emergency** exists whereby the security of India is threatened by war, external aggression, or armed rebellion. The term "armed rebellion" was substituted for "internal disturbance" by the 44th Constitutional Amendment Act, 1978 — this is a frequent TNPSC trap.
 
 A Cabinet recommendation is mandatory — the President cannot act on the advice of a single minister. The proclamation must be laid before **both Houses of Parliament** within one month and continues for six months unless approved earlier. Subsequent renewals require parliamentary approval every six months, allowing indefinite extension.
 
@@ -43,17 +43,17 @@ During National Emergency, Article 19 is automatically suspended via the **44th 
 
 #### President's Rule (Article 356)
 
-Imposed when the President is satisfied that state governance cannot be carried on according to constitutional provisions. Parliamentary approval via both Houses within **two months** is required — this 2-month window is often tested. Renewable every 6 months; the 44th CAA caps the total period at **3 years**.
+Imposed when the President is satisfied that state governance cannot be carried on according to constitutional provisions. Parliamentary approval via both Houses within **two months** is required — this 2-month window is in many papers tested. Renewable every 6 months; the 44th CAA caps the total period at **3 years**.
 
-The Governor acts as the President's representative in the state. The state legislature may be dissolved or suspended during the period. Note that **Article 19 is NOT suspended during President's Rule** — only during National Emergency — a common error candidates make.
+The Governor acts as the President's representative in the state. The state legislature can be dissolved or suspended during the period. Note that **Article 19 is NOT suspended during President's Rule** — only during National Emergency — a common error candidates make.
 
 #### Financial Emergency (Article 360)
 
-Proclaimed if the President is satisfied that the financial stability or credit of India is threatened. Requires laying before both Houses within 2 months. Presidential approval becomes necessary for all executive financial orders. Salaries of government officials, including Supreme Court and High Court judges, may be reduced. **Article 360 has never been invoked** in Indian history — this fact alone is TNPSC-preferred.
+Proclaimed if the President is satisfied that the financial stability or credit of India is threatened. Requires laying before both Houses within 2 months. Presidential approval becomes necessary for all executive financial orders. Salaries of government officials, including Supreme Court and High Court judges, can be reduced. **Article 360 has never been invoked** in Indian history — this fact alone is TNPSC-preferred.
 
 #### Suspension of Fundamental Rights (Article 359)
 
-When an emergency is declared, the President may, by order, suspend the enforcement of Fundamental Rights (except Articles 20 and 21) under Part III. Such orders are subject to **judicial review** for procedural correctness, not for substantive satisfaction of the President.
+When an emergency is declared, the President can, by order, suspend the enforcement of Fundamental Rights (except Articles 20 and 21) under Part III. Such orders are subject to **judicial review** for procedural correctness, not for substantive satisfaction of the President.
 
 | Provision | Trigger | Parliamentary Timeline | Key Effect |
 |---|---|---|---|

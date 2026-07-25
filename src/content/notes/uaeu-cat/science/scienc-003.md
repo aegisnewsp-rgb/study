@@ -4,14 +4,14 @@ examName: UAE University CAT
 subject: science
 subjectName: Science
 topic: scienc-003
-topicName: Topic 3
+topicName: The Scientific Method in Practice
 weight: 3
 country: uae
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-04"
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 3
+# The Scientific Method in Practice
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

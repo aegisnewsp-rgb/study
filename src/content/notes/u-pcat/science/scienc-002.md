@@ -4,14 +4,14 @@ examName: UPCAT (Philippines)
 subject: science
 subjectName: Science
 topic: scienc-002
-topicName: Topic 2
+topicName: Energy Flow vs. Matter Cycling
 weight: 3
 country: philippines
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-04"
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 2
+# Energy Flow vs. Matter Cycling
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

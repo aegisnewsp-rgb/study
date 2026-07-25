@@ -4,14 +4,14 @@ examName: UTBK/SNPMTN (Indonesia)
 subject: chemistry
 subjectName: "Chemistry"
 topic: chemis-010
-topicName: Topic 10
+topicName: Forces Between Particles
 weight: 3
 country: indonesia
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-11"
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 10
+# Forces Between Particles
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

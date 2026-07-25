@@ -4,14 +4,14 @@ examName: UPCAT (Philippines)
 subject: science
 subjectName: Science
 topic: scienc-001
-topicName: Topic 1
+topicName: What the UPCAT Science subtest actually measures
 weight: 3
 country: philippines
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-19"
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 1
+# What the UPCAT Science subtest actually measures
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your UPCAT Science subtest.

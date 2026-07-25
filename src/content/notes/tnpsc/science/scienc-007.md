@@ -4,15 +4,14 @@ examName: TNPSC Group 1
 subject: science
 subjectName: Science
 topic: scienc-007
-topicName: Topic 7
+topicName: Newton's First Law and Inertia
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-06-12"
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 7
-
+# Newton's First Law and Inertia
 ### 🟢 Lite — Quick Review (1h–1d)
 
 - **Newton's First Law (Law of Inertia):** A body continues in its state of rest or uniform motion unless an external force acts on it. Inertia is the resistance of any physical object to a change in its state of motion.

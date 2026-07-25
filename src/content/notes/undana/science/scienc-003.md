@@ -4,14 +4,14 @@ examName: UNDANA Admission (Indonesia)
 subject: science
 subjectName: "Science (Saintek)"
 topic: scienc-003
-topicName: Topic 3
+topicName: Besaran Pokok and Turunan
 weight: 3
 country: indonesia
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-10"
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 3
+# Besaran Pokok and Turunan
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

@@ -4,14 +4,14 @@ examName: UPCAT (Philippines)
 subject: science
 subjectName: Science
 topic: scienc-010
-topicName: Topic 10
+topicName: Defining the Variables
 weight: 3
 country: philippines
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-06-13"
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 10
+# Defining the Variables
 
 ### 🟢 Lite — Quick Review (1h–1d)
 **Gas Laws** govern how pressure (P), volume (V), temperature (T), and moles (n) interact in gases. The master formula is **PV = nRT**, where R = 0.0821 L·atm/mol·K. Always convert temperature to **Kelvin** (K = °C + 273) — this single step prevents the most common errors. Key proportional laws: Boyle's (P₁V₁ = P₂V₂ at constant T,n), Charles's (V₁/T₁ = V₂/T₂ at constant P,n), Gay-Lussac's (P₁/T₁ = P₂/T₂ at constant V,n). **Dalton's Law**: Ptotal = Σ partial pressures. STP = 273 K and 1 atm. Unit checklist: 1 atm = 760 mmHg = 101.325 kPa. Convert mL → L, g → kg before substituting. UPCAT tip: ~15–25% of physical science questions test gas calculations; expect one PV = nRT problem and one proportional law problem per paper.

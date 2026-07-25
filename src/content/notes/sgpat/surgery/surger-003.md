@@ -4,14 +4,14 @@ examName: Saudi GP Board
 subject: surgery
 subjectName: Surgery
 topic: surger-003
-topicName: Topic 3
+topicName: Preoperative Assessment and ASA Grading
 weight: 3
 country: saudi
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-10"
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 3
+# Preoperative Assessment and ASA Grading
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

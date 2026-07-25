@@ -4,19 +4,19 @@ examName: UTBK/SNPMTN (Indonesia)
 subject: indonesian
 subjectName: "Indonesian Language (Literasi Bahasa Indonesia)"
 topic: indone-007
-topicName: Topic 7
+topicName: Core Text Types and Their Skeletons
 weight: 3
 country: indonesia
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-06-18"
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 7
+# Core Text Types and Their Skeletons
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-Topic 7 of **Literasi Bahasa Indonesia** UTBK/SNPMTN trains the skill of reading long, often multimodal texts and extracting meaning at three levels: literal, inferential, and evaluative. The four text families you must recognise are **teks prosedur kompleks** (goal-oriented steps with markers such as *langkah-langkah, selanjutnya*), **teks eksposisi** (thesis–arguments–reinforcement, signalled by *karena, oleh karena itu, dengan demikian*), **teks negosiasi** (opening–offer–agreement/rejection–deal–closing), and **teks sastra** (puisi/prosa rich in **majas** and **diksi**). High-yield moves: locate the **gagasan utama** of each paragraph, distinguish **fakta** from **opini**, and follow **konjungsi** plus **rujukan** (kata ganti *ia, mereka, hal itu*) to preserve **kohesi** and **koherensi**. When a question asks for the *tujuan komunikatif*, look at the communicative context, not just the topic sentence.
+Topic 7 of **Literasi Bahasa Indonesia** UTBK/SNPMTN trains the skill of reading long, in many papers multimodal texts and extracting meaning at three levels: literal, inferential, and evaluative. The four text families you must recognise are **teks prosedur kompleks** (goal-oriented steps with markers such as *langkah-langkah, selanjutnya*), **teks eksposisi** (thesis–arguments–reinforcement, signalled by *karena, oleh karena itu, dengan demikian*), **teks negosiasi** (opening–offer–agreement/rejection–deal–closing), and **teks sastra** (puisi/prosa rich in **majas** and **diksi**). High-yield moves: locate the **gagasan utama** of each paragraph, distinguish **fakta** from **opini**, and follow **konjungsi** plus **rujukan** (kata ganti *ia, mereka, hal itu*) to preserve **kohesi** and **koherensi**. When a question asks for the *tujuan komunikatif*, look at the communicative context, not just the topic sentence.
 
 ---
 
@@ -27,7 +27,7 @@ Topic 7 of **Literasi Bahasa Indonesia** UTBK/SNPMTN trains the skill of reading
 - **Teks prosedur kompleks** describes a sequenced method to achieve a specific outcome. Its linguistic markers are imperative verbs, *pertama, kedua, kemudian, akhirnya*, and conditional clauses *jika… maka…*. The main idea lies in the stated **tujuan** of the procedure.
 - **Teks eksposisi** aims to persuade by presenting an argument. Its structure is **tesis → argumentasi → penegasan ulang**. Tesis is the writer's stand, argumentasi supplies the reasoning/data, and the penutup reinforces the stand. Conjunctions *karena, sebab, oleh karena itu, dengan demikian, justru* are the structural glue.
 - **Teks negosiasi** records a bargaining exchange. It contains the parties' positions, offers, and concessions. The communicative purpose is reaching a **kesepakatan**, so any question about purpose should be answered in terms of the deal, not the conflict.
-- **Teks sastra** (puisi/prosa) foregrounds **majas** (e.g., metafora, personifikasi, hiperbola), **diksi**, and imagery. Meaning is often implicit, so you must infer rather than paraphrase.
+- **Teks sastra** (puisi/prosa) foregrounds **majas** (e.g., metafora, personifikasi, hiperbola), **diksi**, and imagery. Meaning is in many papers implicit, so you must infer rather than paraphrase.
 
 #### Reading Strategy for UTBK
 1. **Skim** to identify text type from its opening signals.
@@ -48,7 +48,7 @@ Topic 7 of **Literasi Bahasa Indonesia** UTBK/SNPMTN trains the skill of reading
 > Comprehensive coverage for students on a longer study timeline.
 
 #### Edge Cases and Multimodal Traps
-UTBK frequently pairs a long expository passage with a **table, infographic, or footnote**. The information needed may live in the visual, not the prose. Always scan captions, axis labels, and source notes before answering. In paired-text questions, you must **compare** two authors' positions: identify where they agree, where they diverge, and which argument carries stronger evidence. For poetry, **majas** is rarely decorative — personification encodes the speaker's attitude toward an abstract concept (e.g., calling *kemerdekaan* a *burung yang terbang* suggests aspiration, not captivity).
+UTBK frequently pairs a long expository passage with a **table, infographic, or footnote**. The information needed can live in the visual, not the prose. Always scan captions, axis labels, and source notes before answering. In paired-text questions, you must **compare** two authors' positions: identify where they agree, where they diverge, and which argument carries stronger evidence. For poetry, **majas** is rarely decorative — personification encodes the speaker's attitude toward an abstract concept (e.g., calling *kemerdekaan* a *burung yang terbang* suggests aspiration, not captivity).
 
 #### Common Mistakes
 - Treating the **tesis** as an argument; the tesis is the claim, arguments are the reasons.

@@ -4,14 +4,14 @@ examName: MUET (Malaysia)
 subject: speaking
 subjectName: "Speaking (Paper 3)"
 topic: speaki-008
-topicName: Topic 8
+topicName: Key functions to master
 weight: 3
 country: malaysia
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-05-27"
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 8
+# Key functions to master
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
@@ -64,7 +64,7 @@ Extended turns collapse without organization. Use:
 
 ## Common Mistakes
 
-Candidates often stop after one or two sentences in Task 3, earning a maximum Band 3. Others over-rely on "and" and "but" as the only connectives, showing limited marker repertoire. Straying off-prompt or failing to signal the end of a turn are also frequent penalizable errors.
+Candidates in many papers stop after one or two sentences in Task 3, earning a maximum Band 3. Others over-rely on "and" and "but" as the only connectives, showing limited marker repertoire. Straying off-prompt or failing to signal the end of a turn are also frequent penalizable errors.
 
 ---
 
@@ -89,11 +89,11 @@ A two-point PEEL response gives you approximately 2 minutes of material with nat
 
 ## Hedging and Register
 
-High-band responses use **hedging** appropriately — "it could be argued that," "this may suggest" — to convey nuance rather than overstatement. Avoid absolute claims like "this is always the case" in evaluative tasks.
+High-band responses use **hedging** appropriately — "it can be argued that," "this can suggest" — to convey nuance rather than overstatement. Avoid absolute claims like "this is always the case" in evaluative tasks.
 
 ## Interactive Strategies
 
-Turn-taking signals show engagement: acknowledging the interlocutor's prompt ("that's a good question"), seeking clarification ("could you elaborate?"), and signaling readiness ("I'd like to begin by addressing...").
+Turn-taking signals show engagement: acknowledging the interlocutor's prompt ("that's a good question"), seeking clarification ("can you elaborate?"), and signaling readiness ("I'd like to begin by addressing...").
 
 **Practice prompt 1:** Describe a graph showing trends and then evaluate the implications for urban planning in Malaysia. Use at least four discourse markers and two functional exponents (suggest and evaluate).
 

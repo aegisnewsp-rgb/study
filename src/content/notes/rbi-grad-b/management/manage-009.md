@@ -4,14 +4,14 @@ examName: "RBI Grade B"
 subject: management
 subjectName: "Management"
 topic: manage-009
-topicName: "Topic 9"
+topicName: HR Planning
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 9
+# HR Planning
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

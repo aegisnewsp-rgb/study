@@ -4,14 +4,14 @@ examName: Saudi GP Board
 subject: surgery
 subjectName: Surgery
 topic: surger-001
-topicName: Topic 1
+topicName: Peri-operative assessment and ASA grading
 weight: 3
 country: saudi
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-10"
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 1
+# Peri-operative assessment and ASA grading
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your Saudi GP Board exam.

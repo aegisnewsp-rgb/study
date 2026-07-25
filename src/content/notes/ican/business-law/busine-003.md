@@ -4,14 +4,14 @@ examName: ICAN (Nigeria)
 subject: business-law
 subjectName: "Business Law"
 topic: busine-003
-topicName: Topic 3
+topicName: Methods of Discharge
 weight: 3
 country: nigeria
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 3
+# Methods of Discharge
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
@@ -35,11 +35,11 @@ lastUpdated: 2026-03-25
 **Discharge by Performance:**
 
 Performance must be:
-- **Exact and complete** — the "entirety doctrine" means each party's obligation to perform is dependent on the other's performance (*Cutter v. Powell* [1795] — sailor engaged for a voyage; died before voyage completed; his widow could not recover wages because the entire voyage was not completed; no apportionment)
+- **Exact and complete** — the "entirety doctrine" means each party's obligation to perform is dependent on the other's performance (*Cutter v. Powell* [1795] — sailor engaged for a voyage; died before voyage completed; his widow can not recover wages because the entire voyage was not completed; no apportionment)
 - **In the manner agreed** — substituted performance is not discharge unless accepted
 
 **Divisible Contracts:**
-Where a contract is divided into distinct parts with a separate price for each part (e.g., a monthly salary), performance of each part can be treated separately. A party who has substantially performed their part may sue for the price of that part (the other party cannot retain money for incomplete performance of their own obligations).
+Where a contract is divided into distinct parts with a separate price for each part (e.g., a monthly salary), performance of each part can be treated separately. A party who has substantially performed their part can sue for the price of that part (the other party cannot retain money for incomplete performance of their own obligations).
 
 **Time of Performance:**
 - If no time is stated, performance is within a reasonable time
@@ -48,7 +48,7 @@ Where a contract is divided into distinct parts with a separate price for each p
 
 **Discharge by Agreement:**
 
-Parties may discharge their obligations by mutual agreement:
+Parties can discharge their obligations by mutual agreement:
 - **Mutual release:** Both parties agree to abandon the contract
 - **Accord and satisfaction:** One party agrees to accept different performance in full settlement; the new agreement must have consideration to be binding
 - **Novation:** The original contract is replaced by a new contract with different parties or terms (*Waugh v. H.B. Clifford Commerce* [1982])
@@ -75,17 +75,17 @@ Frustration occurs when, after the contract is made, an event occurs that:
 
 **Discharge by Breach:**
 
-Breach occurs when one party fails to perform their obligations without a lawful excuse. Breach may be:
-- **Minor (partial):** Non-fundamental term broken; the other party may claim damages but must continue performance
-- **Fundamental (repudiation):** A fundamental term is broken; the other party may terminate (rescind) and sue for damages
+Breach occurs when one party fails to perform their obligations without a lawful excuse. Breach can be:
+- **Minor (partial):** Non-fundamental term broken; the other party can claim damages but must continue performance
+- **Fundamental (repudiation):** A fundamental term is broken; the other party can terminate (rescind) and sue for damages
 
 **Anticipatory Breach:**
-A party may anticipatorily repudiate before performance is due — the other party may immediately sue for breach without waiting for the performance date (*Hochster v. De La Tour* [1853]).
+A party can anticipatorily repudiate before performance is due — the other party can immediately sue for breach without waiting for the performance date (*Hochster v. De La Tour* [1853]).
 
 **Limitation Periods (Nigeria):**
 - Simple contracts: 6 years from the date of breach
 - Specialty contracts (deeds): 12 years
-- For fraud or concealed fraud: 6 years from when the plaintiff discovered or could have discovered the fraud
+- For fraud or concealed fraud: 6 years from when the plaintiff discovered or can have discovered the fraud
 
 ---
 
@@ -130,7 +130,7 @@ Damages are recoverable if they:
 1. **Arise naturally** from the breach in the usual course of things (direct losses — foreseeable at the time of contracting)
 2. **Were in the reasonable contemplation of both parties** at the time of contracting as the probable result of breach
 
-*Hadley v. Baxendale:* A mill shaft broke; carrier delivered it late for repair; mill owner claimed lost profits from the mill being closed. Held: The carrier did not know the mill would be completely shut down; he could not have foreseen the loss; therefore damages were limited to the difference in value of the shaft at the two delivery dates.
+*Hadley v. Baxendale:* A mill shaft broke; carrier delivered it late for repair; mill owner claimed lost profits from the mill being closed. Held: The carrier did not know the mill would be completely shut down; he can not have foreseen the loss; therefore damages were limited to the difference in value of the shaft at the two delivery dates.
 
 **Specific Performance:**
 
@@ -148,7 +148,7 @@ It IS available for:
 
 **Injunction:**
 
-An injunction is a court order restraining a party from doing something (prohibitory injunction) or requiring them to do something (mandatory injunction). It may be:
+An injunction is a court order restraining a party from doing something (prohibitory injunction) or requiring them to do something (mandatory injunction). It can be:
 - **Interlocutory:** Temporary; pending trial — requires a serious question to be tried and balance of convenience
 - **Permanent:** After trial; final remedy
 

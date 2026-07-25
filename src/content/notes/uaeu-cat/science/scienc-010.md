@@ -4,14 +4,14 @@ examName: UAE University CAT
 subject: science
 subjectName: Science
 topic: scienc-010
-topicName: Topic 10
+topicName: High-yield pointers
 weight: 3
 country: uae
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-10"
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 10
+# High-yield pointers
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

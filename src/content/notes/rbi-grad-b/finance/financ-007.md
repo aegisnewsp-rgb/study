@@ -4,14 +4,14 @@ examName: "RBI Grade B"
 subject: finance
 subjectName: "Finance"
 topic: financ-007
-topicName: "Topic 7"
+topicName: Time Value of Money (TVM)
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 7
+# Time Value of Money (TVM)
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

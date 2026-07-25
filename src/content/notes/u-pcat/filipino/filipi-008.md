@@ -4,14 +4,14 @@ examName: UPCAT (Philippines)
 subject: filipino
 subjectName: Filipino
 topic: filipi-008
-topicName: Topic 8
+topicName: Three Core Reading Techniques
 weight: 3
 country: philippines
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-06-13"
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 8
+# Three Core Reading Techniques
 
 ### 🟢 Lite — Quick Review (1h–1d)
 

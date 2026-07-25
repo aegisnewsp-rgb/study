@@ -4,14 +4,14 @@ examName: UNEB UACE (Uganda)
 subject: chemistry
 subjectName: "Chemistry"
 topic: chemis-006
-topicName: Topic 6
+topicName: Group V trends and bonding
 weight: 3
 country: uganda
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-10"
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 6
+# Group V trends and bonding
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

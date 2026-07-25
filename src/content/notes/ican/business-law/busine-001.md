@@ -4,14 +4,14 @@ examName: ICAN (Nigeria)
 subject: business-law
 subjectName: "Business Law"
 topic: busine-001
-topicName: Topic 1
+topicName: Key Facts for ICAN (Nigeria)
 weight: 3
 country: nigeria
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 1
+# Key Facts for ICAN (Nigeria)
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

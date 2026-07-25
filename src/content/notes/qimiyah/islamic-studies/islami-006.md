@@ -4,14 +4,14 @@ examName: Qimiyah Exam (Saudi)
 subject: islamic-studies
 subjectName: General Studies
 topic: islami-006
-topicName: Topic 6
+topicName: Measures of Central Tendency
 weight: 3
 country: saudi
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-06-05"
+lastUpdated: "2026-07-25"
 ---
 
-# Topic 6
+# Measures of Central Tendency
 
 ### 🟢 Lite — Quick Review (1h–1d)
 
@@ -57,7 +57,7 @@ The **range** (المدى) is the simplest dispersion measure: Range = Maximum v
 
 #### Exam Pattern
 
-Qimiyah General Studies typically includes 2–3 questions testing: (1) mean/median/mode calculation from a data set, (2) probability of compound events, and (3) graph and table interpretation. Questions are MCQ format with four options. Time pressure is significant — practice mental arithmetic for mean calculations.
+Qimiyah General Studies in standard papers includes 2–3 questions testing: (1) mean/median/mode calculation from a data set, (2) probability of compound events, and (3) graph and table interpretation. Questions are MCQ format with four options. Time pressure is significant — practice mental arithmetic for mean calculations.
 
 ---
 
@@ -65,7 +65,7 @@ Qimiyah General Studies typically includes 2–3 questions testing: (1) mean/med
 
 #### Mechanism: Why the Mean, Median, and Mode Differ
 
-The mean (average) sums all values and divides by the count, making it sensitive to every data point. A single extreme outlier inflates or deflates the mean dramatically. The median splits the ordered data set exactly in half — it is resistant to outliers. The mode captures the most typical value but may not exist or may be multimodal. For exam purposes, when a data set includes an outlier, the median often better represents the "typical" performance.
+The mean (average) sums all values and divides by the count, making it sensitive to every data point. A single extreme outlier inflates or deflates the mean dramatically. The median splits the ordered data set exactly in half — it is resistant to outliers. The mode captures the most typical value but can not exist or can be multimodal. For exam purposes, when a data set includes an outlier, the median in many papers better represents the "typical" performance.
 
 #### Probability: Independent vs. Mutually Exclusive
 
@@ -81,7 +81,7 @@ Data set: 4, 8, 6, 5, 7. Mean = (4+8+6+5+7) ÷ 5 = 30 ÷ 5 = 6. Deviations: −2
 
 - **Forgetting to subtract** the intersection term when applying P(A or B) for non-mutually exclusive events.
 - **Using permutation** when the problem explicitly states order does not matter (choose, select, form a committee).
-- **Misreading graph scales** — axis increments may not start at zero, distorting visual impression of differences.
+- **Misreading graph scales** — axis increments can not start at zero, distorting visual impression of differences.
 - **Assuming independence** when events share outcomes, violating the multiplication rule's condition.
 
 #### Practice Prompts

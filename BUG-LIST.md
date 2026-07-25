@@ -3,8 +3,8 @@
 **Audit date:** 2026-07-24 (full stack + GA/SEO/ranking/CF/rendering/links deep pass)  
 **Auditor:** Grok  
 **Site:** https://studyroadmap.in  
-**Repo branch:** `feature/openclaw-content-machine` (ahead of origin by **592** commits)  
-**Live deploy freshness:** last-modified ~2026-07-22  
+**Repo branch:** `feature/openclaw-content-machine` (ahead of origin by **619+** commits)  
+**Live deploy freshness:** continuous hourly note-rewrite deploys through 2026-07-25 05:55Z  
 **OpenClaw:** all 4 on **2026.4.21 (f788c88)** after uc5t rollback  
 
 ---
@@ -836,11 +836,16 @@ bash /data/sr-sync-claw-skills.sh
 | Claw health | All 4 gateways **UP**; heartbeat fails=0; qa-scout 10/10; last30days-official on all claws; quota shouldRun true (~33% interval / 100% weekly) |
 | Skills | vqzo gained last30days-official + adsense-compliance (+ docker-ops, github-explorer); skill-snippets synced |
 | Pipeline harden | FOOTERFIX + **HEDGEFIX** (≤4 hedge/1k before T11); batch **selective unstage** instead of full hard-reset; flock single-flight; `check-scope` allowlist + `BUG-LIST.md`/`docs/` |
-| Backlog | **207 pending** (hat-ug 19, tnpsc 17, lat 16, nat-i 14…); done 1851; failed 600 (mostly historical gate/curate-veto); abandoned 1058 |
+| Backlog | **102 pending** (2026-07-25); done 1862; failed 613; abandoned 1130 |
 | Page tests | Wave5 live: WAEC phy-8, CUET eng-001, NAT-I ar-6, NCEE math-8, INI-CET pathol-004 all **noindex=0** + Continue your study |
 | Dual-batch race | Hourly N=8 killed mid-host-build overlapping docker compose; flock prevents recurrence |
 | wave4 | **LIVE** `74c146a4` (scope fix + ar-6) — WAEC/CUET/etc stack shipped ~18:10Z |
 | wave5 | **LIVE** `b230e568` — 6 notes; container Created=2026-07-24T18:51:02Z |
 | wave6 | **LIVE** `ec185ee3` (10 notes) deploy=ok live=200 @ 19:47Z; container Created=2026-07-24T19:47:24Z. All 10 smoke **noindex=0 cont=1**: ncee/ns-11, hat-ug/sk-13+qr-14, ca-found/accoun-010, ecat/chem-18, nat-i/ar-7+qr-4, ini-cet/pathol-006, nabteb/eng-14, law-ent-tz/gk-008 |
-| wave7 | **STARTED** after wave6 LIVE — N=10 continue drain (~207 pending pre-wave6) |
+| wave7 | **LIVE** (partial N=5 + auto-deploy overnight) — eng-10, gk-001, accoun-007, qr-12, eng-14; 1 curate-veto; quota stop |
+| wave8–16 | **LIVE overnight 2026-07-24 20:37Z → 2026-07-25 05:55Z** — **~92 rewrites** across 13 deploy batches, all `deploy=ok live=200` |
+| 06:00Z batch | **IN FLIGHT** N=12 aggressive tier — surger-005/006, econom-005/008, cma/accoun-010… |
+| Backlog 2026-07-25 06:10Z | pending **102** (note-rewrite 79 + syllabus-audit 23…); done **1862**; failed 613; abandoned 1130; dispatched 19 |
+| topicName gate | **SHIPPING 2026-07-25** — bulk commit repaired **202** notes (placeholder Topic N → real titles); pipeline metadata-repair live in `/data/sr-note-rewrite.sh`; batch hardened to stash unstaged notes before gauntlet (prevents hard-reset wipe). Dual build after 830511f5 recovery deploy. |
+| 06:00 recover | **LIVE** `830511f5` — 11 notes recovered after T11 hard-reset; deploy live=200 @ 07:08Z |
 

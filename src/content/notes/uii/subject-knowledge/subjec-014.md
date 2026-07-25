@@ -4,7 +4,7 @@ examName: UI Entrance (Indonesia)
 subject: subject-knowledge
 subjectName: Subject Knowledge
 topic: subjec-014
-topicName: Probability & Counting Principles
+topicName: "Probability & Counting Principles"
 weight: 3
 country: indonesia
 generated: "2026-03-25T17:00:00"

@@ -4,7 +4,7 @@ examName: ECAT (Engineering College Admission Test)
 subject: mathematics
 subjectName: Mathematics
 topic: math-2
-topicName: Sequences, Series and Arithmetic Progression
+topicName: "Sequences, Series and Arithmetic Progression"
 weight: 4
 country: pakistan
 generated: "2026-03-24T08:32:08.064240"

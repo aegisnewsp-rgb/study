@@ -4,7 +4,7 @@ examName: MAT
 subject: mathematical-skills
 subjectName: "Mathematical-Skills"
 topic: mathem-007
-topicName: Simple & Compound Interest
+topicName: "Simple & Compound Interest"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"

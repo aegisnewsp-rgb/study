@@ -4,7 +4,7 @@ examName: MAT (Management Aptitude Test)
 subject: data-analysis
 subjectName: "Data-Analysis"
 topic: data-a-001
-topicName: Tables & Caselets
+topicName: "Tables & Caselets"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"

@@ -7,7 +7,7 @@ examName: NECO SSCE
 subject: chemistry
 subjectName: Chemistry
 topic: chem-14
-topicName: Amines, Amino Acids and Proteins
+topicName: "Amines, Amino Acids and Proteins"
 weight: 3
 country: nigeria
 generated: "2026-03-24T08:32:07.690700"

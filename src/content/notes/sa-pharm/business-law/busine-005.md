@@ -4,7 +4,7 @@ examName: SAPC (South Africa)
 subject: business-law
 subjectName: Business Law
 topic: busine-005
-topicName: Companies Act & Corporate Governance
+topicName: "Companies Act & Corporate Governance"
 weight: 3
 country: southafrica
 generated: "2026-03-25T17:00:00"

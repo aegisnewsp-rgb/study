@@ -4,7 +4,7 @@ examName: TNPSC Group 1
 subject: politics
 subjectName: Politics
 topic: politi-005
-topicName: Politics: Meaning, Approaches and Scope
+topicName: "Politics: Meaning, Approaches and Scope"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"

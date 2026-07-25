@@ -4,7 +4,7 @@ examName: LSAT India
 subject: reading-comp
 subjectName: "Reading-Comp"
 topic: readin-005
-topicName: Tone, Attitude & Style Questions
+topicName: "Tone, Attitude & Style Questions"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"

@@ -4,7 +4,7 @@ examName: SAPC (South Africa)
 subject: chemistry
 subjectName: "Chemistry"
 topic: chemis-009
-topicName: Carboxylic Acids, Acid Derivatives, and Claisen Condensation
+topicName: "Carboxylic Acids, Acid Derivatives, and Claisen Condensation"
 weight: 3
 country: southafrica
 generated: "2026-03-25T17:00:00"

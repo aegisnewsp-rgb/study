@@ -7,7 +7,7 @@ examName: HAT-UG (HEC Aptitude Test - Undergraduate)
 subject: quantitative-reasoning
 subjectName: Quantitative Reasoning
 topic: qr-2
-topicName: Fractions, Decimals and Percentages
+topicName: "Fractions, Decimals and Percentages"
 weight: 4
 country: pakistan
 generated: "2026-03-24T08:32:08.005473"

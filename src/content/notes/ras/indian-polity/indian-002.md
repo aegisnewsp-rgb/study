@@ -4,7 +4,7 @@ examName: RPSC RAS
 subject: indian-polity
 subjectName: Indian Polity
 topic: indian-002
-topicName: Preamble, Fundamental Rights and DPSP
+topicName: "Preamble, Fundamental Rights and DPSP"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"

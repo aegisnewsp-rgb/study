@@ -4,7 +4,7 @@ examName: UNEB UACE (Uganda)
 subject: chemistry
 subjectName: "Chemistry"
 topic: chemis-004
-topicName: What makes a transition element?
+topicName: "What makes a transition element?"
 weight: 3
 country: uganda
 generated: "2026-03-25T17:00:00"

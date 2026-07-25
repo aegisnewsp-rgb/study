@@ -4,7 +4,7 @@ examName: NEET PG
 subject: microbiology
 subjectName: Microbiology
 topic: microb-005
-topicName: Bacteremia, Septicemia & Endocarditis
+topicName: "Bacteremia, Septicemia & Endocarditis"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"

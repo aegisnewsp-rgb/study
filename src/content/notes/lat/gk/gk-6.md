@@ -7,7 +7,7 @@ examName: LAT (Law Admission Test)
 subject: gk
 subjectName: General Knowledge
 topic: gk-6
-topicName: International Organizations (UN, WTO, etc.)
+topicName: "International Organizations (UN, WTO, etc.)"
 weight: 3
 country: pakistan
 generated: "2026-03-24T08:32:08.031653"

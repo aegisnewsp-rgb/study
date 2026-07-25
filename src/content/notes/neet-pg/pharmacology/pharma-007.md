@@ -4,7 +4,7 @@ examName: NEET PG
 subject: pharmacology
 subjectName: Pharmacology
 topic: pharma-007
-topicName: Antimicrobial & Chemotherapy
+topicName: "Antimicrobial & Chemotherapy"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"

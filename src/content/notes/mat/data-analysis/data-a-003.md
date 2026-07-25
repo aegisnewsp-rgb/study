@@ -4,7 +4,7 @@ examName: MAT (Management Aptitude Test)
 subject: data-analysis
 subjectName: "Data-Analysis"
 topic: data-a-003
-topicName: Pie Charts & Circle Diagrams
+topicName: "Pie Charts & Circle Diagrams"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"

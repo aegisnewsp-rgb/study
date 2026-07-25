@@ -4,7 +4,7 @@ examName: CMA Foundation
 subject: business-law
 subjectName: "Business Law"
 topic: busine-001
-topicName: The Indian Contract Act, 1872
+topicName: "The Indian Contract Act, 1872"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"

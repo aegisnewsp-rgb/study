@@ -4,7 +4,7 @@ examName: ACCA/CA Pakistan
 subject: taxation
 subjectName: "Taxation"
 topic: taxati-008
-topicName: International Taxation & Transfer Pricing
+topicName: "International Taxation & Transfer Pricing"
 weight: 3
 country: pakistan
 generated: "2026-03-25T17:00:00"

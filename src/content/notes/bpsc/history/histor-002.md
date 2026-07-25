@@ -4,7 +4,7 @@ examName: BPSC
 subject: history
 subjectName: "History"
 topic: histor-002
-topicName: Mauryan & Gupta Empire
+topicName: "Mauryan & Gupta Empire"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"

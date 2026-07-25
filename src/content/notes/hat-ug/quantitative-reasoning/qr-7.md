@@ -7,7 +7,7 @@ examName: HAT-UG (HEC Aptitude Test - Undergraduate)
 subject: quantitative-reasoning
 subjectName: Quantitative Reasoning
 topic: qr-7
-topicName: Time, Distance and Work
+topicName: "Time, Distance and Work"
 weight: 4
 country: pakistan
 generated: "2026-03-24T08:32:08.007420"

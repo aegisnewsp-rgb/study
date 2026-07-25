@@ -4,7 +4,7 @@ examName: MDCAT
 subject: chemistry
 subjectName: Chemistry
 topic: chem-14
-topicName: Alcohols, Phenols and Ethers
+topicName: "Alcohols, Phenols and Ethers"
 weight: 4
 country: pakistan
 generated: "2026-03-24T08:32:08.100227"

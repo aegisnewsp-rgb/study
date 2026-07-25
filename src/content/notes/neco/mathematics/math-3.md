@@ -7,7 +7,7 @@ examName: NECO SSCE
 subject: mathematics
 subjectName: Mathematics
 topic: math-3
-topicName: Indices, Logarithms and Surds
+topicName: "Indices, Logarithms and Surds"
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.663833"

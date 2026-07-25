@@ -4,7 +4,7 @@ examName: UPPSC RO/ARO
 subject: general-studies
 subjectName: "General-Studies"
 topic: genera-007
-topicName: Sectoral Structure & National Income
+topicName: "Sectoral Structure & National Income"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"

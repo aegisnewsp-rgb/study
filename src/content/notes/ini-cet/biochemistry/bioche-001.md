@@ -4,7 +4,7 @@ examName: INI CET (AIIMS PG)
 subject: biochemistry
 subjectName: Biochemistry
 topic: bioche-001
-topicName: Biomolecules — Carbohydrates, Proteins, Lipids, and Nucleotides
+topicName: "Biomolecules — Carbohydrates, Proteins, Lipids, and Nucleotides"
 weight: 3
 country: india
 generated: 2026-03-25

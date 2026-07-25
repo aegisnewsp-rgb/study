@@ -4,7 +4,7 @@ examName: ECAT (Engineering College Admission Test)
 subject: chemistry
 subjectName: Chemistry
 topic: chem-7
-topicName: Acids, Bases and Ionic Equilibrium
+topicName: "Acids, Bases and Ionic Equilibrium"
 weight: 4
 country: pakistan
 generated: "2026-03-24T08:32:08.057340"

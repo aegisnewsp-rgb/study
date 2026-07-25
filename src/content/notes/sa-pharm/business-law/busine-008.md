@@ -4,7 +4,7 @@ examName: SAPC (South Africa)
 subject: business-law
 subjectName: Business Law
 topic: busine-008
-topicName: Medicines & Related Substances Act (Act 101 of 1965)
+topicName: "Medicines & Related Substances Act (Act 101 of 1965)"
 weight: 3
 country: southafrica
 generated: "2026-03-25T17:00:00"

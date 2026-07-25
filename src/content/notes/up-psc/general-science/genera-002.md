@@ -4,7 +4,7 @@ examName: UPPSC PCS
 subject: general-science
 subjectName: "General Science"
 topic: genera-002
-topicName: Chemical Reactions — Acids, Bases and Salts
+topicName: "Chemical Reactions — Acids, Bases and Salts"
 weight: 3
 country: india
 lastUpdated: "2026-07-11"

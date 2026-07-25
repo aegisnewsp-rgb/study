@@ -4,7 +4,7 @@ examName: SAPC (South Africa)
 subject: chemistry
 subjectName: "Chemistry"
 topic: chemis-008
-topicName: Aldehydes, Ketones, and Carbonyl Group Chemistry
+topicName: "Aldehydes, Ketones, and Carbonyl Group Chemistry"
 weight: 3
 country: southafrica
 generated: "2026-03-25T17:00:00"

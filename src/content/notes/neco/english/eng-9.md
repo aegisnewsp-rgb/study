@@ -7,7 +7,7 @@ examName: NECO SSCE
 subject: english
 subjectName: English Language
 topic: eng-9
-topicName: Idioms, Proverbs and Figurative Language
+topicName: "Idioms, Proverbs and Figurative Language"
 weight: 3
 country: nigeria
 generated: "2026-03-24T08:32:07.658633"

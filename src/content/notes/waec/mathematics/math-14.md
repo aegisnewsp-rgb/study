@@ -4,7 +4,7 @@ examName: WAEC WASSCE
 subject: mathematics
 subjectName: Mathematics
 topic: math-14
-topicName: Applications of Calculus (Rates, Max/Min)
+topicName: "Applications of Calculus (Rates, Max/Min)"
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.624090"

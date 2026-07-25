@@ -4,7 +4,7 @@ examName: WAEC WASSCE
 subject: chemistry
 subjectName: Chemistry
 topic: chem-7
-topicName: Acids, Bases and Buffers
+topicName: "Acids, Bases and Buffers"
 weight: 5
 country: nigeria
 generated: "2026-03-24T08:32:07.642920"

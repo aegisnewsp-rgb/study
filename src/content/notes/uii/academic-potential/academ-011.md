@@ -4,7 +4,7 @@ examName: UI Entrance (Indonesia)
 subject: academic-potential
 subjectName: Academic Potential
 topic: academ-011
-topicName: Permutations, Combinations, and Counting
+topicName: "Permutations, Combinations, and Counting"
 weight: 3
 country: indonesia
 generated: "2026-03-25T17:00:00"

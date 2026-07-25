@@ -4,7 +4,7 @@ examName: ECAT (Engineering College Admission Test)
 subject: chemistry
 subjectName: Chemistry
 topic: chem-14
-topicName: Alkanes, Alkenes and Alkynes
+topicName: "Alkanes, Alkenes and Alkynes"
 weight: 4
 country: pakistan
 generated: "2026-03-24T08:32:08.061218"

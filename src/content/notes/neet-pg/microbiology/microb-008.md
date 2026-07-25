@@ -4,7 +4,7 @@ examName: NEET PG
 subject: microbiology
 subjectName: Microbiology
 topic: microb-008
-topicName: Parasitology — Malaria, Intestinal Parasites & Filariasis
+topicName: "Parasitology — Malaria, Intestinal Parasites & Filariasis"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"

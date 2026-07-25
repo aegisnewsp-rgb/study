@@ -4,7 +4,7 @@ examName: ECAT (Engineering College Admission Test)
 subject: mathematics
 subjectName: Mathematics
 topic: math-7
-topicName: Circle, Parabola, Ellipse and Hyperbola
+topicName: "Circle, Parabola, Ellipse and Hyperbola"
 weight: 4
 country: pakistan
 generated: "2026-03-24T08:32:08.067276"

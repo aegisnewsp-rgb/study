@@ -4,7 +4,7 @@ examName: BPSC
 subject: history
 subjectName: "History"
 topic: histor-005
-topicName: 1857 Revolt & Early Nationalist Movement
+topicName: "1857 Revolt & Early Nationalist Movement"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"

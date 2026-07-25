@@ -7,7 +7,7 @@ examName: WAEC WASSCE
 subject: chemistry
 subjectName: Chemistry
 topic: chem-13
-topicName: Amines, Esters and Fats/Oils
+topicName: "Amines, Esters and Fats/Oils"
 weight: 3
 country: nigeria
 generated: "2026-03-24T08:32:07.645261"

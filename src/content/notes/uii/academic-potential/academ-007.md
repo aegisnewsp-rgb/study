@@ -4,7 +4,7 @@ examName: UI Entrance (Indonesia)
 subject: academic-potential
 subjectName: Academic Potential
 topic: academ-007
-topicName: Time, Speed, and Distance
+topicName: "Time, Speed, and Distance"
 weight: 3
 country: indonesia
 generated: "2026-03-25T17:00:00"

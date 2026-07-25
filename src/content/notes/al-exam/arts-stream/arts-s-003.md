@@ -4,7 +4,7 @@ examName: A/L Examination (Sri Lanka)
 subject: arts-stream
 subjectName: "Arts-Stream"
 topic: arts-s-003
-topicName: 17th Century Literature & Romantic Revival
+topicName: "17th Century Literature & Romantic Revival"
 weight: 3
 country: srilanka
 generated: "2026-03-25T17:00:00"

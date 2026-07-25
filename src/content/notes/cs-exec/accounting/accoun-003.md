@@ -4,7 +4,7 @@ examName: CS Executive
 subject: accounting
 subjectName: Accounting
 topic: accoun-003
-topicName: Journal Entries & Ledgers
+topicName: "Journal Entries & Ledgers"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"

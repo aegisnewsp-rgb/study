@@ -4,7 +4,7 @@ examName: SPSC (Sindh)
 subject: sindh-studies
 subjectName: Sindh Studies
 topic: sindh--002
-topicName: History of Sindh (Ancient & Medieval)
+topicName: "History of Sindh (Ancient & Medieval)"
 weight: 3
 country: pakistan
 generated: "2026-03-25T17:00:00"

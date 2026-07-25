@@ -4,7 +4,7 @@ examName: SAPC (South Africa)
 subject: business-law
 subjectName: Business Law
 topic: busine-001
-topicName: Introduction to Law & Legal System of South Africa
+topicName: "Introduction to Law & Legal System of South Africa"
 weight: 3
 country: southafrica
 generated: "2026-03-25T17:00:00"

@@ -7,7 +7,7 @@ examName: NECO SSCE
 subject: mathematics
 subjectName: Mathematics
 topic: math-2
-topicName: Fractions, Decimals and Approximations
+topicName: "Fractions, Decimals and Approximations"
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.663225"

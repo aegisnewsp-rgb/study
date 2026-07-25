@@ -4,7 +4,7 @@ examName: BPSC
 subject: history
 subjectName: "History"
 topic: histor-004
-topicName: Coming of the British & Revenue Settlements
+topicName: "Coming of the British & Revenue Settlements"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"

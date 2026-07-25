@@ -4,7 +4,7 @@ examName: UNDANA Admission (Indonesia)
 subject: science
 subjectName: "Science (Saintek)"
 topic: scienc-006
-topicName: Force, Work, and Energy Mechanics
+topicName: "Force, Work, and Energy Mechanics"
 weight: 3
 country: indonesia
 generated: "2026-03-25T17:00:00"

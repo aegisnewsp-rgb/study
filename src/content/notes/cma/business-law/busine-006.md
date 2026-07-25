@@ -4,7 +4,7 @@ examName: CMA Foundation
 subject: business-law
 subjectName: "Business Law"
 topic: busine-006
-topicName: Indian Contract Act — Offer, Acceptance, and Consideration
+topicName: "Indian Contract Act — Offer, Acceptance, and Consideration"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"

@@ -4,7 +4,7 @@ examName: ACCA/CA Pakistan
 subject: taxation
 subjectName: "Taxation"
 topic: taxati-003
-topicName: Income from Property & Business
+topicName: "Income from Property & Business"
 weight: 3
 country: pakistan
 generated: "2026-03-25T17:00:00"

@@ -7,7 +7,7 @@ examName: NECO SSCE
 subject: mathematics
 subjectName: Mathematics
 topic: math-1
-topicName: Number and Bases (Binary, etc.)
+topicName: "Number and Bases (Binary, etc.)"
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.662562"

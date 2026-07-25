@@ -4,7 +4,7 @@ examName: NEET PG
 subject: pathology
 subjectName: Pathology
 topic: pathol-003
-topicName: Hemodynamic Disorders — Edema, Thrombosis, Embolism & Infarction
+topicName: "Hemodynamic Disorders — Edema, Thrombosis, Embolism & Infarction"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"

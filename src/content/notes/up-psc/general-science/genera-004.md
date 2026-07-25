@@ -4,7 +4,7 @@ examName: UPPSC PCS
 subject: general-science
 subjectName: "General Science"
 topic: genera-004
-topicName: Indian Economy & Union Budget
+topicName: "Indian Economy & Union Budget"
 weight: 3
 country: india
 lastUpdated: "2026-04-14"

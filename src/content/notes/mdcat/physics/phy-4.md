@@ -7,7 +7,7 @@ examName: MDCAT
 subject: physics
 subjectName: Physics
 topic: phy-4
-topicName: Work, Energy and Power
+topicName: "Work, Energy and Power"
 weight: 4
 country: pakistan
 generated: "2026-03-24T08:32:08.081528"

@@ -4,7 +4,7 @@ examName: LSAT India
 subject: reading-comp
 subjectName: "Reading-Comp"
 topic: readin-002
-topicName: Main Point & Primary Purpose Questions
+topicName: "Main Point & Primary Purpose Questions"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"

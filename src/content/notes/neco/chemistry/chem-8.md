@@ -7,7 +7,7 @@ examName: NECO SSCE
 subject: chemistry
 subjectName: Chemistry
 topic: chem-8
-topicName: Acids, Bases, Salts and pH
+topicName: "Acids, Bases, Salts and pH"
 weight: 5
 country: nigeria
 generated: "2026-03-24T08:32:07.688063"

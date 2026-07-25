@@ -4,7 +4,7 @@ examName: NABTEB
 subject: chemistry
 subjectName: Chemistry
 topic: chem-7
-topicName: Acids, Bases and Salts
+topicName: "Acids, Bases and Salts"
 weight: 5
 country: nigeria
 generated: "2026-03-24T08:32:07.568847"

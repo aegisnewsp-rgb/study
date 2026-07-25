@@ -4,7 +4,7 @@ examName: NEET PG
 subject: pathology
 subjectName: Pathology
 topic: pathol-005
-topicName: Immunopathology — Hypersensitivity, Immunodeficiency & Autoimmunity
+topicName: "Immunopathology — Hypersensitivity, Immunodeficiency & Autoimmunity"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"

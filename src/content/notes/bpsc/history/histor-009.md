@@ -4,7 +4,7 @@ examName: BPSC
 subject: history
 subjectName: "History"
 topic: histor-009
-topicName: Indian Art, Culture & Architecture
+topicName: "Indian Art, Culture & Architecture"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"

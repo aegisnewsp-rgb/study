@@ -4,7 +4,7 @@ examName: SAPC (South Africa)
 subject: business-law
 subjectName: Business Law
 topic: busine-007
-topicName: Intellectual Property Law & Patents
+topicName: "Intellectual Property Law & Patents"
 weight: 3
 country: southafrica
 generated: "2026-03-25T17:00:00"

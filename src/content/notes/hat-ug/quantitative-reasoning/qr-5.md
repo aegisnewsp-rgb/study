@@ -7,7 +7,7 @@ examName: HAT-UG (HEC Aptitude Test - Undergraduate)
 subject: quantitative-reasoning
 subjectName: Quantitative Reasoning
 topic: qr-5
-topicName: Profit, Loss and Discount
+topicName: "Profit, Loss and Discount"
 weight: 4
 country: pakistan
 generated: "2026-03-24T08:32:08.006639"

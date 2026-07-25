@@ -7,7 +7,7 @@ examName: NECO SSCE
 subject: physics
 subjectName: Physics
 topic: phy-5
-topicName: Work, Energy, Power and Conservation Laws
+topicName: "Work, Energy, Power and Conservation Laws"
 weight: 5
 country: nigeria
 generated: "2026-03-24T08:32:07.676055"

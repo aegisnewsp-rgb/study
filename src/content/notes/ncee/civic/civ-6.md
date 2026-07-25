@@ -7,7 +7,7 @@ examName: NCEE (National Common Entrance Examination)
 subject: civic
 subjectName: Civic Education
 topic: civ-6
-topicName: The Executive, Legislature and Judiciary
+topicName: "The Executive, Legislature and Judiciary"
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.602128"

@@ -7,7 +7,7 @@ examName: JAMB UTME
 subject: chemistry
 subjectName: Chemistry
 topic: chem-12
-topicName: Aldehydes, Ketones and Carboxylic Acids
+topicName: "Aldehydes, Ketones and Carboxylic Acids"
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.726490"

@@ -4,7 +4,7 @@ examName: NEET PG
 subject: pathology
 subjectName: Pathology
 topic: pathol-007
-topicName: Cell Injury, Adaptation and Necrosis
+topicName: "Cell Injury, Adaptation and Necrosis"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"

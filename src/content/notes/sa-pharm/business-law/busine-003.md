@@ -4,7 +4,7 @@ examName: SAPC (South Africa)
 subject: business-law
 subjectName: Business Law
 topic: busine-003
-topicName: Sale of Goods Act & Supply Chain
+topicName: "Sale of Goods Act & Supply Chain"
 weight: 3
 country: southafrica
 generated: "2026-03-25T17:00:00"

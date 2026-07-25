@@ -4,7 +4,7 @@ examName: SLMC Medical (Sri Lanka)
 subject: chemistry
 subjectName: Chemistry
 topic: chemis-011
-topicName: Amines & Amides
+topicName: "Amines & Amides"
 weight: 3
 country: srilanka
 generated: "2026-03-25T17:00:00"

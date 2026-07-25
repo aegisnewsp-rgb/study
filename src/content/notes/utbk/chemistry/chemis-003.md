@@ -4,7 +4,7 @@ examName: UTBK/SNPMTN (Indonesia)
 subject: chemistry
 subjectName: "Chemistry"
 topic: chemis-003
-topicName: Foundations: The Four Laws
+topicName: "Foundations: The Four Laws"
 weight: 3
 country: indonesia
 generated: "2026-03-25T17:00:00"

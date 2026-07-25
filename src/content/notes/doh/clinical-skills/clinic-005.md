@@ -4,7 +4,7 @@ examName: DOH (UAE)
 subject: clinical-skills
 subjectName: "Clinical-Skills"
 topic: clinic-005
-topicName: Wound Assessment, Care, and Dressing Techniques
+topicName: "Wound Assessment, Care, and Dressing Techniques"
 weight: 3
 country: uae
 generated: "2026-03-25T17:00:00"

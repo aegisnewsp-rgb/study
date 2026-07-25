@@ -4,7 +4,7 @@ examName: MAT
 subject: mathematical-skills
 subjectName: "Mathematical-Skills"
 topic: mathem-009
-topicName: Ratio, Proportion & Partnership
+topicName: "Ratio, Proportion & Partnership"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"

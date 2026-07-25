@@ -4,7 +4,7 @@ examName: WAEC WASSCE
 subject: mathematics
 subjectName: Mathematics
 topic: math-2
-topicName: Fractions, Decimals and Percentages
+topicName: "Fractions, Decimals and Percentages"
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.617067"

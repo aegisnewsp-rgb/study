@@ -4,7 +4,7 @@ examName: UI Entrance (Indonesia)
 subject: subject-knowledge
 subjectName: Subject Knowledge
 topic: subjec-011
-topicName: Statistics & Data Interpretation
+topicName: "Statistics & Data Interpretation"
 weight: 3
 country: indonesia
 generated: "2026-03-25T17:00:00"

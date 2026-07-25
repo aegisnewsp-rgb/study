@@ -4,7 +4,7 @@ examName: NEET PG
 subject: pharmacology
 subjectName: Pharmacology
 topic: pharma-006
-topicName: CNS Pharmacology — Sedative-Hypnotics, Antiepileptics, and Antipsychotics
+topicName: "CNS Pharmacology — Sedative-Hypnotics, Antiepileptics, and Antipsychotics"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"

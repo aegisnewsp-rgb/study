@@ -4,7 +4,7 @@ examName: BPSC
 subject: history
 subjectName: "History"
 topic: histor-001
-topicName: Indus Valley Civilization & Vedic Period
+topicName: "Indus Valley Civilization & Vedic Period"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"

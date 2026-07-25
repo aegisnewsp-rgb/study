@@ -4,7 +4,7 @@ examName: CTET
 subject: science
 subjectName: Science
 topic: scienc-007
-topicName: Light, Sound, and Heat
+topicName: "Light, Sound, and Heat"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"

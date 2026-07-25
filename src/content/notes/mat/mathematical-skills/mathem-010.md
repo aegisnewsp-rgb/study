@@ -4,7 +4,7 @@ examName: MAT
 subject: mathematical-skills
 subjectName: "Mathematical-Skills"
 topic: mathem-010
-topicName: HCF, LCM, Average, Age Problems & Chain Rule
+topicName: "HCF, LCM, Average, Age Problems & Chain Rule"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"

@@ -4,7 +4,7 @@ examName: NEET PG
 subject: pathology
 subjectName: Pathology
 topic: pathol-006
-topicName: Neoplasia — Classification, Grading, Staging & Tumor Biology
+topicName: "Neoplasia — Classification, Grading, Staging & Tumor Biology"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"

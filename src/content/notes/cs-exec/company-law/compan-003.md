@@ -4,7 +4,7 @@ examName: CS Executive
 subject: company-law
 subjectName: Company Law
 topic: compan-003
-topicName: Meetings & Proceedings
+topicName: "Meetings & Proceedings"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"

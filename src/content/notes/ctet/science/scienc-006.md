@@ -4,7 +4,7 @@ examName: CTET
 subject: science
 subjectName: Science
 topic: scienc-006
-topicName: Matter, Motion, and Force
+topicName: "Matter, Motion, and Force"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"

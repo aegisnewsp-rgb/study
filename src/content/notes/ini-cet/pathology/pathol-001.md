@@ -4,7 +4,7 @@ examName: INI CET (AIIMS PG)
 subject: pathology
 subjectName: "Pathology"
 topic: pathol-001
-topicName: Cell Injury, Death and Adaptation
+topicName: "Cell Injury, Death and Adaptation"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"

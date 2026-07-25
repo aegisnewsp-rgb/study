@@ -7,7 +7,7 @@ examName: NECO SSCE
 subject: physics
 subjectName: Physics
 topic: phy-17
-topicName: Electrons, Photons and the Photoelectric Effect
+topicName: "Electrons, Photons and the Photoelectric Effect"
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.684103"

@@ -4,7 +4,7 @@ examName: CS Executive
 subject: company-law
 subjectName: Company Law
 topic: compan-006
-topicName: Company Management & Administration
+topicName: "Company Management & Administration"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"

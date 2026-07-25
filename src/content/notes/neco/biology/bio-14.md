@@ -7,7 +7,7 @@ examName: NECO SSCE
 subject: biology
 subjectName: Biology
 topic: bio-14
-topicName: DNA, RNA and Protein Synthesis
+topicName: "DNA, RNA and Protein Synthesis"
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.698679"

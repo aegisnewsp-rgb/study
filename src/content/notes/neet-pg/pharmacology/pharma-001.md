@@ -4,7 +4,7 @@ examName: NEET PG
 subject: pharmacology
 subjectName: Pharmacology
 topic: pharma-001
-topicName: Pharmacokinetics (PK) — Absorption, Distribution, Metabolism, Excretion
+topicName: "Pharmacokinetics (PK) — Absorption, Distribution, Metabolism, Excretion"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"

@@ -4,7 +4,7 @@ examName: SAPC (South Africa)
 subject: business-law
 subjectName: Business Law
 topic: busine-002
-topicName: Contract Law & Pharmaceutical Agreements
+topicName: "Contract Law & Pharmaceutical Agreements"
 weight: 3
 country: southafrica
 generated: "2026-03-25T17:00:00"

@@ -7,7 +7,7 @@ examName: ECAT (Engineering College Admission Test)
 subject: physics
 subjectName: Physics
 topic: phy-9
-topicName: Heat, Temperature and Thermodynamics
+topicName: "Heat, Temperature and Thermodynamics"
 weight: 4
 country: pakistan
 generated: "2026-03-24T08:32:08.044784"

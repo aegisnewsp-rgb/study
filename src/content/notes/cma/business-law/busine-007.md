@@ -4,7 +4,7 @@ examName: CMA Foundation
 subject: business-law
 subjectName: "Business Law"
 topic: busine-007
-topicName: Indian Contract Act — Consent, Legality, and Performance
+topicName: "Indian Contract Act — Consent, Legality, and Performance"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"

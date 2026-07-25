@@ -4,7 +4,7 @@ examName: UPTET
 subject: child-pedagogy
 subjectName: "Child Development and Pedagogy"
 topic: child--005
-topicName: Principles of Learning — Motivation, Attention, Retention & Reinforcement
+topicName: "Principles of Learning — Motivation, Attention, Retention & Reinforcement"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"

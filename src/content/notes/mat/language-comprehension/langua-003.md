@@ -4,7 +4,7 @@ examName: MAT
 subject: language-comprehension
 subjectName: "Language-Comprehension"
 topic: langua-003
-topicName: Inference & Conclusion in RC
+topicName: "Inference & Conclusion in RC"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"

@@ -4,7 +4,7 @@ examName: UPPSC RO/ARO
 subject: general-studies
 subjectName: "General-Studies"
 topic: genera-014
-topicName: Hardware & the CPU
+topicName: "Hardware & the CPU"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"

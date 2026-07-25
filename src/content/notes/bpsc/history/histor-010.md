@@ -4,7 +4,7 @@ examName: BPSC
 subject: history
 subjectName: "History"
 topic: histor-010
-topicName: Post-Independence India & Bihar
+topicName: "Post-Independence India & Bihar"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"

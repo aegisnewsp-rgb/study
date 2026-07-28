@@ -204,7 +204,7 @@ const collectionPageJsonLd = {
         </p>
 
         <div class="flex flex-wrap gap-3">
-          <a href={`/roadmap/?exam=${exam}`} class="group inline-flex items-center gap-2 bg-gradient-to-r from-brand-600 to-brand-500 hover:from-brand-700 hover:to-brand-600 text-white font-bold px-6 py-3 rounded-xl transition-all shadow-lg shadow-brand-500/20 hover:shadow-xl hover:shadow-brand-500/30">
+          <a id="sr-notes-hub-roadmap" href={`/roadmap/?exam=${exam}`} class="group inline-flex items-center gap-2 bg-gradient-to-r from-brand-600 to-brand-500 hover:from-brand-700 hover:to-brand-600 text-white font-bold px-6 py-3 rounded-xl transition-all shadow-lg shadow-brand-500/20 hover:shadow-xl hover:shadow-brand-500/30">
             Generate {examName} Roadmap
             <span class="transition-transform group-hover:translate-x-0.5">→</span>
           </a>
@@ -213,6 +213,12 @@ const collectionPageJsonLd = {
           </a>
           <a href={`/exams/${exam}/`} class="inline-flex items-center gap-2 bg-white dark:bg-surface-800 text-surface-700 dark:text-surface-200 font-semibold px-6 py-3 rounded-xl transition-colors border border-surface-200 dark:border-surface-700 hover:border-brand-300 dark:hover:border-brand-700">
             ← {examName} Overview
+          </a>
+        </div>
+        <div id="sr-notes-progress" class="hidden max-w-xl mt-4" role="status" data-exam={exam}>
+          <a id="sr-notes-continue" href={`/roadmap/?exam=${exam}`} class="flex items-center justify-between gap-3 rounded-xl border border-brand-500/40 bg-brand-500/10 px-4 py-3 text-sm text-brand-800 dark:text-brand-100 hover:bg-brand-500/20 transition-colors">
+            <span id="sr-notes-progress-label" class="font-medium truncate">Your progress on this hub</span>
+            <span class="shrink-0 font-semibold">Continue →</span>
           </a>
         </div>
       </div>
@@ -320,11 +326,16 @@ const collectionPageJsonLd = {
               .map(note => (
               <a
                 href={`/notes/${note.id}/`}
-                class="group block bg-surface-50 dark:bg-surface-900 border border-surface-200 dark:border-surface-700 rounded-lg p-4 hover:border-brand-300 dark:hover:border-brand-700 transition-all"
+                class="sr-note-card group block bg-surface-50 dark:bg-surface-900 border border-surface-200 dark:border-surface-700 rounded-lg p-4 hover:border-brand-300 dark:hover:border-brand-700 transition-all"
+                data-topic-id={note.data.topic}
+                data-topic-path={note.id}
               >
                 <div class="flex items-center justify-between mb-1">
                   <span class="text-xs font-mono text-surface-400">{note.data.topic}</span>
-                  <span class="text-xs text-brand-600 dark:text-brand-400">{note.data.weight}%</span>
+                  <span class="text-xs text-brand-600 dark:text-brand-400">
+                    <span class="sr-done-badge hidden text-emerald-600 dark:text-emerald-400 font-semibold mr-1">✓</span>
+                    {note.data.weight}%
+                  </span>
                 </div>
                 <p class="text-sm font-medium text-surface-800 dark:text-surface-200 group-hover:text-brand-600 dark:group-hover:text-brand-400">
                   {note.data.topicName}
@@ -361,5 +372,93 @@ const collectionPageJsonLd = {
 
     <FaqSection faqs={NOTES_FAQS} heading={`Frequently asked questions about ${examName} notes`} />
   </main>
+  <script is:inline define:vars={{ exam, examName, totalTopics: examNotes.length }}>
+    (function () {
+      try {
+        var EXAM = exam;
+        var last = null;
+        try { last = JSON.parse(localStorage.getItem('sr_last_plan') || 'null'); } catch (e) {}
+        var dur = null;
+        if (last && last.exam === EXAM && last.duration) dur = last.duration;
+        else {
+          try {
+            var q = new URLSearchParams(location.search).get('duration');
+            if (q) dur = q;
+          } catch (e) {}
+        }
+        var done = new Set();
+        if (dur) {
+          try {
+            var raw = localStorage.getItem('sr-progress-' + EXAM + '-' + dur);
+            var arr = raw ? JSON.parse(raw) : [];
+            if (Array.isArray(arr)) {
+              arr.forEach(function (id) {
+                done.add(String(id));
+                var parts = String(id).split('/');
+                done.add(parts[parts.length - 1]);
+              });
+            }
+          } catch (e) {}
+        }
+        var cards = document.querySelectorAll('.sr-note-card');
+        var doneOnHub = 0;
+        var firstIncomplete = null;
+        cards.forEach(function (card) {
+          var tid = card.getAttribute('data-topic-id') || '';
+          var path = card.getAttribute('data-topic-path') || '';
+          var isDone = done.has(tid) || done.has(path) || done.has(EXAM + '/' + path);
+          if (isDone) {
+            doneOnHub++;
+            card.classList.add('ring-1', 'ring-emerald-400/50');
+            var badge = card.querySelector('.sr-done-badge');
+            if (badge) badge.classList.remove('hidden');
+          } else if (!firstIncomplete && path) {
+            firstIncomplete = path;
+          }
+        });
+        // Also resolve first incomplete from last plan topic if cards are only a slice
+        var box = document.getElementById('sr-notes-progress');
+        var link = document.getElementById('sr-notes-continue');
+        var lab = document.getElementById('sr-notes-progress-label');
+        var rm = document.getElementById('sr-notes-hub-roadmap');
+        if (dur && rm) {
+          rm.href = '/roadmap/?exam=' + encodeURIComponent(EXAM) + '&duration=' + encodeURIComponent(dur);
+        }
+        if (done.size > 0 || (last && last.exam === EXAM && last.topicKey)) {
+          var href = '/roadmap/?exam=' + encodeURIComponent(EXAM);
+          if (dur) href += '&duration=' + encodeURIComponent(dur);
+          if (firstIncomplete) {
+            href = '/notes/' + firstIncomplete + '/';
+            if (dur) href += '?duration=' + encodeURIComponent(dur);
+          } else if (last && last.exam === EXAM && last.topicKey) {
+            href = '/notes/' + String(last.topicKey).replace(/^\/+|\/+$/g, '') + '/';
+            if (dur) href += '?duration=' + encodeURIComponent(dur);
+          }
+          var parts = [examName + ' progress'];
+          if (done.size > 0) parts.push(done.size + ' marked done');
+          if (doneOnHub > 0) parts.push(doneOnHub + ' on this page');
+          try {
+            var s = JSON.parse(localStorage.getItem('sr_streak') || 'null');
+            if (s && s.count > 0) parts.push('🔥 ' + s.count + '-day');
+          } catch (e) {}
+          if (box && link && lab) {
+            link.href = href;
+            lab.textContent = parts.join(' · ');
+            box.classList.remove('hidden');
+          }
+          // Stamp duration on visible topic cards
+          if (dur) {
+            cards.forEach(function (card) {
+              try {
+                var u = new URL(card.href, location.origin);
+                if (!u.searchParams.get('duration')) u.searchParams.set('duration', dur);
+                card.href = u.pathname + u.search;
+              } catch (e) {}
+            });
+          }
+        }
+      } catch (e) {}
+    })();
+  </script>
   <Footer />
 </Layout>

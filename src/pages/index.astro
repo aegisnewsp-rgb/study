@@ -716,14 +716,51 @@ const howToSteps = [
     .then(data => { if (data?.length) renderNews(data); })
     .catch(() => { /* news unavailable — section stays hidden */ });
 
-  // Resume last plan (localStorage — no signup)
+  // Resume last plan (localStorage — no signup). Prefer last note deep-link + live %.
   try {
     const raw = localStorage.getItem('sr_last_plan');
     if (raw) {
-      const plan = JSON.parse(raw) as { exam?: string; duration?: string; examName?: string; ts?: number };
-      if (plan?.exam && plan?.duration) {
-        const href = `/roadmap/?exam=${encodeURIComponent(plan.exam)}&duration=${encodeURIComponent(plan.duration)}`;
-        const label = `Continue ${plan.examName || plan.exam.toUpperCase()} · ${plan.duration}`;
+      const plan = JSON.parse(raw) as {
+        exam?: string; duration?: string; examName?: string; ts?: number;
+        topicKey?: string; pct?: number; completed?: number; streak?: number;
+      };
+      if (plan?.exam) {
+        let href = `/roadmap/?exam=${encodeURIComponent(plan.exam)}`;
+        if (plan.duration) href += `&duration=${encodeURIComponent(plan.duration)}`;
+        // Deep-link to last opened note when available
+        if (plan.topicKey && typeof plan.topicKey === 'string') {
+          const path = plan.topicKey.replace(/^\/+|\/+$/g, '');
+          href = `/notes/${path}/`;
+          if (plan.duration) href += `?duration=${encodeURIComponent(plan.duration)}`;
+        }
+        // Live % from progress key when possible
+        let pct = typeof plan.pct === 'number' ? plan.pct : undefined;
+        if (plan.duration && (pct === undefined || pct === null)) {
+          try {
+            const prog = localStorage.getItem(`sr-progress-${plan.exam}-${plan.duration}`);
+            if (prog) {
+              const arr = JSON.parse(prog);
+              if (Array.isArray(arr) && arr.length > 0 && typeof plan.completed === 'number') {
+                /* keep plan.pct if set */
+              }
+              if (Array.isArray(arr) && arr.length > 0) {
+                // Without total topics we show completed count instead of fake %
+              }
+            }
+          } catch { /* ignore */ }
+        }
+        let streak = plan.streak;
+        try {
+          const s = JSON.parse(localStorage.getItem('sr_streak') || 'null');
+          if (s && typeof s.count === 'number') streak = s.count;
+        } catch { /* ignore */ }
+        const name = plan.examName || plan.exam.toUpperCase();
+        const parts = [`Continue ${name}`];
+        if (plan.duration) parts.push(String(plan.duration));
+        if (typeof pct === 'number' && pct > 0) parts.push(`${pct}%`);
+        else if (typeof plan.completed === 'number' && plan.completed > 0) parts.push(`${plan.completed} done`);
+        if (typeof streak === 'number' && streak > 0) parts.push(`🔥 ${streak}-day`);
+        const label = parts.join(' · ');
         const banner = document.getElementById('sr-resume-banner');
         const link = document.getElementById('sr-resume-link') as HTMLAnchorElement | null;
         const lab = document.getElementById('sr-resume-label');
@@ -736,13 +773,13 @@ const howToSteps = [
         const secondary = document.getElementById('sr-hero-secondary') as HTMLAnchorElement | null;
         if (primary) {
           primary.href = href;
-          primary.childNodes[0] && (primary.childNodes[0].textContent = 'Resume Your Plan ');
-          // Keep SVG; replace leading text node more carefully
-          primary.innerHTML = `Resume Your Plan <svg aria-hidden="true" focusable="false" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" /></svg>`;
+          primary.innerHTML = `Continue studying <svg aria-hidden="true" focusable="false" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" /></svg>`;
         }
         if (secondary) {
-          secondary.href = '/roadmap/';
-          secondary.textContent = 'New Roadmap';
+          secondary.href = plan.duration
+            ? `/roadmap/?exam=${encodeURIComponent(plan.exam)}&duration=${encodeURIComponent(plan.duration)}`
+            : '/roadmap/';
+          secondary.textContent = 'Open full plan';
         }
       }
     }

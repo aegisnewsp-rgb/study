@@ -18,6 +18,10 @@ export interface ExamTemplate {
   description?: string;
   examPattern?: string;
   eligibility?: string;
+  /** Longer hub essay: how to prepare, phase plan, resource approach (indexable unique prose). */
+  prepOverview?: string;
+  /** Short bullet mistakes students commonly make for this exam. */
+  commonMistakes?: string[];
   subjects: Subject[];
   durations: Record<string, RoadmapTemplate>;
   rescueMode?: RescueTemplate;

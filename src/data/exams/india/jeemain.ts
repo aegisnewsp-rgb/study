@@ -144,13 +144,25 @@ const exam: ExamTemplate = {
   examId: 'jeemain',
   examName: 'JEE Main',
   country: 'india',
-  description: `JEE\ Main\ is\ the\ first\-stage\ entrance\ exam\ for\ admission\ to\ NITs,\ IIITs,\ and\ other\ Centrally\ Funded\ Technical\ Institutions\.\ Also\ used\ for\ JEE\ Advanced\ eligibility\.\ Conducted\ by\ NTA\ in\ multiple\ sessions\.`,
-  examPattern: "75 questions (25 per subject — Physics, Chemistry, Mathematics), 3 hours, 300 marks. Each subject has Section A (20 MCQs) and Section B (5 numerical-value questions), all compulsory. Correct answer +4; 1 mark deducted for a wrong answer in both sections — since 2025 the Section B numericals are compulsory and carry the same -1 negative marking.",
-  eligibility: "Class 12 PCM stream with minimum 75% aggregate for general category (65% for SC/ST/OBC). Subject-wise minimum of 60% in each of Physics, Chemistry, and Mathematics.",
+  description:
+    "JEE Main is the national computer-based entrance exam for B.E./B.Tech (and B.Arch/B.Planning papers) at NITs, IIITs, GFTIs and many state/private colleges. The National Testing Agency (NTA) usually runs multiple sessions each admission year; the best NTA score is used for ranking. Qualifying JEE Main within the published cutoff is also the gate to JEE Advanced for IIT admission. Paper 1 (B.E./B.Tech) tests Physics, Chemistry and Mathematics from the Class 11–12 PCM syllabus. Use this page for pattern, eligibility, topic weightage and free study roadmaps — confirm session dates, application fees and city options only on the official JEE Main NTA site.",
+  examPattern:
+    "Paper 1 (B.E./B.Tech): 3 hours, CBT, 300 marks, 75 questions — 25 each in Physics, Chemistry and Mathematics. Per subject: Section A has 20 MCQs; Section B has 5 numerical-value questions, all compulsory. Marking: +4 correct, −1 wrong in both sections (numericals also carry −1 from the 2025 pattern onward — verify the year's information bulletin). Unattempted items score 0. Separate papers exist for B.Arch and B.Planning with their own structure. Percentile normalisation across sessions produces the NTA score and All India Rank; tie-breaks follow NTA rules. Train with full 3-hour mixed mocks, not single-subject only.",
+  eligibility:
+    "Passed Class 12 (or appearing) with Physics and Mathematics plus Chemistry/Biology/Biotechnology/Technical Vocational subject as required for the paper you choose. For NITs/IIITs/GFTIs admission, institutes generally require 75% aggregate in Class 12 for General/OBC-NCL (65% SC/ST) or a top-20 percentile in the board — check JoSAA/CSAB and the current year rules. There is no upper attempt limit under recent NTA policy for JEE Main itself, but age and attempt rules for JEE Advanced differ. Foreign nationals and state quota rules vary by institute. Always re-read the information bulletin for photo, category certificate and Aadhaar/ID requirements before each session.",
+  prepOverview:
+    "JEE Main rewards speed + accuracy on standard PCM patterns more than ultra-rare olympiad depth. Build NCERT-level clarity first (especially Chemistry), then climb through chapter PYQs and mixed sectional tests. Mathematics needs daily problem volume; Physics needs concept → numerical translation; Chemistry splits into physical (numerical), organic (mechanisms + named reactions) and inorganic (NCERT facts). Calendar: concept pass → timed chapter tests → full mocks every weekend once the syllabus is ~70% done. Analyse every mock for time sinks and repeated wrong concepts. Use a free StudyRoadmap plan to sequence high-weight topics for the weeks you have left, and keep one error notebook you actually re-solve weekly.",
+  commonMistakes: [
+    'Collecting too many books and never finishing one coherent Physics/Maths problem set.',
+    'Skipping Section B numerical practice after the pattern made them compulsory with negative marking.',
+    'Ignoring Inorganic Chemistry NCERT tables until the last fortnight.',
+    'Taking mocks without a fixed rough-work and question-selection strategy for the 3-hour CBT.',
+    'Treating JEE Main and JEE Advanced as the same exam and over-indexing on Advanced-only difficulty too early.',
+  ],
   subjects,
   durations,
   rescueMode,
-  lastUpdated: '2026-04-06',
+  lastUpdated: '2026-07-28',
   officialSource: 'https://jeemain.ntaonline.in',
 };
 export default exam;

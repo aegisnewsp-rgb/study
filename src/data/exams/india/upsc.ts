@@ -85,13 +85,25 @@ const exam: ExamTemplate = {
   examId: 'upsc',
   examName: 'UPSC Civil Services',
   country: 'india',
-  description: "The Union Public Service Commission (UPSC) Civil Services Examination is India's most prestigious competitive exam for recruiting officers for the Indian Administrative Service (IAS), Indian Police Service (IPS), Indian Foreign Service (IFS), and other central services. Conducted in three stages: Preliminary (objective MCQs), Main (nine descriptive papers), and Interview. Over 10 lakh candidates appear annually for ~1,000 vacancies.",
-  examPattern: "Preliminary: 2 papers (GS I + CSAT), 200 marks each, 2 hours each. Main: 9 papers (Essay, GS I-IV, Optional I-II, Language), 250-300 marks each, 3 hours each. Interview: 275 marks.",
-  eligibility: "Indian citizen, age 21-32 (relaxation for OBC/SC/ST), minimum educational qualification: bachelor's degree in any discipline.",
+  description:
+    "The UPSC Civil Services Examination (CSE) recruits officers for the IAS, IPS, IFS and other Group A/B central services. The Union Public Service Commission runs a three-stage process each year: Preliminary (screening MCQs), Main (nine descriptive papers) and Personality Test (interview). Roughly ten lakh candidates fill the Prelims form for about one thousand final vacancies, so competition is extreme at every filter. Success depends on syllabus coverage, answer writing, optional-subject depth and consistent current-affairs linkage — not on last-minute compilation PDFs. This hub maps subjects, weightage and free study roadmaps; notification dates, fees and vacancy counts must be verified on upsc.gov.in.",
+  examPattern:
+    "Prelims: two papers on one day, 2 hours each, 200 marks each. GS Paper I (100 MCQs) counts for merit cut-off; CSAT Paper II (80 MCQs) is qualifying at 33%. Negative marking applies (usually one-third of the marks assigned to a question — confirm the year's notification). Mains: nine papers — two language papers (qualifying), Essay, GS I–IV, and Optional Papers I–II; most merit papers are 250 marks and 3 hours. Personality Test: 275 marks. Final rank uses Mains (written) + interview marks only; Prelims is screening. Build separate skills for MCQ elimination and for 150–250 word structured answers.",
+  eligibility:
+    "Nationality rules differ slightly by service (IAS/IPS generally require Indian citizenship; other services allow specified categories — read the notification). Age: typically 21–32 years for General on the cut-off date in the notification, with relaxations for OBC, SC/ST, PwBD and certain other categories. Attempts: usually 6 (General), 9 (OBC), unlimited within age for SC/ST — confirm the current rules. Educational qualification: a bachelor's degree from a recognised university (final-year students may apply provisionally as per notification). Number of attempts includes every Prelims appearance where you are admitted to the exam. Always match your category certificates and photo ID to UPSC specifications before applying.",
+  prepOverview:
+    "Structure CSE prep in layers. Foundation: NCERTs + one standard book per GS pillar (polity, economy, modern history, geography, environment). Daily: newspaper or a reliable current-affairs note tied back to the syllabus, not random scrolling. Prelims phase: PYQs by theme, elimination practice, CSAT weekly if quant/reasoning is weak. Mains phase: outline-first answer writing (introduction–body–way forward), optional subject mastery, and essay practice under time. Interview: DAF-based self-awareness and honest opinion practice. Use a free StudyRoadmap sequence to keep GS topics rotating instead of living only in one optional rabbit hole. Revisit the official syllabus PDF monthly — most wasted effort is off-syllabus content.",
+  commonMistakes: [
+    'Reading endless current-affairs compilations without linking them to GS syllabus headings.',
+    'Delaying answer writing until after "finishing the whole syllabus" once.',
+    'Ignoring CSAT until a failed qualifying score ends the attempt.',
+    'Choosing an optional based on trends instead of background, interest and available mentorship.',
+    'Skipping the official UPSC syllabus and previous-year papers in favour of random telegram channels.',
+  ],
   subjects,
   durations,
   rescueMode,
-  lastUpdated: '2026-04-06',
+  lastUpdated: '2026-07-28',
   officialSource: 'https://upsc.gov.in',
 };
 export default exam;

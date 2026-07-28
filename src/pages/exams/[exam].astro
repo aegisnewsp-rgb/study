@@ -89,6 +89,13 @@ const fullEligibility = exam.eligibility
   ? exam.eligibility.replace(/\\n/g, ' ').replace(/\\/g, '').replace(/"/g, '')
   : '';
 
+const prepOverview = (exam as any).prepOverview
+  ? String((exam as any).prepOverview).replace(/\\n/g, ' ').replace(/\\/g, '').replace(/"/g, '')
+  : '';
+const commonMistakes: string[] = Array.isArray((exam as any).commonMistakes)
+  ? ((exam as any).commonMistakes as string[]).map((m) => String(m).trim()).filter(Boolean)
+  : [];
+
 const currentYear = new Date().getUTCFullYear();
 // Stable site content-revision date — fallback for the ~4 exams without a
 // per-exam lastUpdated. Never new Date(): build-time dates fake freshness.
@@ -468,6 +475,7 @@ const discontinuedNotice = DISCONTINUED_EXAMS[exam.examId];
           <a
             href={`${SITE_URL}/roadmap/?exam=${exam.examId}`}
             class="group inline-flex items-center gap-2 bg-gradient-to-r from-brand-600 to-brand-500 hover:from-brand-700 hover:to-brand-600 text-white font-bold px-6 py-3 rounded-xl transition-all shadow-lg shadow-brand-500/20 hover:shadow-xl hover:shadow-brand-500/30"
+            id="sr-exam-primary-cta"
           >
             <svg aria-hidden="true" focusable="false" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/></svg>
             Generate Free Roadmap
@@ -481,6 +489,13 @@ const discontinuedNotice = DISCONTINUED_EXAMS[exam.examId];
               Browse Study Notes →
             </a>
           )}
+        </div>
+        <!-- Resume this exam (localStorage) — progressive enhancement -->
+        <div id="sr-exam-resume" class="hidden max-w-xl mt-4" role="status" data-exam-id={exam.examId}>
+          <a id="sr-exam-resume-link" href={`/roadmap/?exam=${exam.examId}`} class="flex items-center justify-between gap-3 rounded-xl border border-brand-500/40 bg-brand-500/10 px-4 py-3 text-sm text-brand-800 dark:text-brand-100 hover:bg-brand-500/20 transition-colors">
+            <span id="sr-exam-resume-label" class="font-medium truncate">Continue your {examName} plan</span>
+            <span class="shrink-0 font-semibold">Resume →</span>
+          </a>
         </div>
       </div>
     </section>
@@ -502,6 +517,31 @@ const discontinuedNotice = DISCONTINUED_EXAMS[exam.examId];
               <span class="text-xl">✅</span> Eligibility Criteria
             </h2>
             <p class="text-surface-600 dark:text-surface-300 leading-relaxed text-sm">{fullEligibility}</p>
+          </div>
+        )}
+      </section>
+    )}
+
+    <!-- Prep overview + common mistakes (optional thick unique prose) -->
+    {(prepOverview || commonMistakes.length > 0) && (
+      <section class="container-page py-6 pb-10 space-y-8">
+        {prepOverview && (
+          <div class="max-w-3xl">
+            <h2 class="text-2xl font-bold text-surface-900 dark:text-white mb-3">How to prepare for {examName}</h2>
+            <p class="text-surface-600 dark:text-surface-300 leading-relaxed text-sm sm:text-base">{prepOverview}</p>
+            <p class="mt-3 text-sm">
+              <a href={`${SITE_URL}/roadmap/?exam=${exam.examId}`} class="text-brand-600 dark:text-brand-400 hover:underline font-medium">Generate a free day-by-day {examName} roadmap →</a>
+            </p>
+          </div>
+        )}
+        {commonMistakes.length > 0 && (
+          <div class="max-w-3xl">
+            <h2 class="text-xl font-bold text-surface-900 dark:text-white mb-3">Common {examName} preparation mistakes</h2>
+            <ul class="list-disc pl-5 space-y-2 text-sm sm:text-base text-surface-600 dark:text-surface-300">
+              {commonMistakes.map((m) => (
+                <li class="leading-relaxed">{m}</li>
+              ))}
+            </ul>
           </div>
         )}
       </section>
@@ -798,6 +838,43 @@ const discontinuedNotice = DISCONTINUED_EXAMS[exam.examId];
     )}
 
   </main>
+
+  <script is:inline define:vars={{ examId: exam.examId, examName }}>
+    (function () {
+      try {
+        var raw = localStorage.getItem('sr_last_plan');
+        if (!raw) return;
+        var plan = JSON.parse(raw);
+        if (!plan || plan.exam !== examId) return;
+        var href = '/roadmap/?exam=' + encodeURIComponent(examId);
+        if (plan.duration) href += '&duration=' + encodeURIComponent(plan.duration);
+        if (plan.topicKey) {
+          href = '/notes/' + String(plan.topicKey).replace(/^\/+|\/+$/g, '') + '/';
+          if (plan.duration) href += '?duration=' + encodeURIComponent(plan.duration);
+        }
+        var parts = ['Continue ' + (plan.examName || examName)];
+        if (plan.duration) parts.push(String(plan.duration));
+        if (typeof plan.pct === 'number' && plan.pct > 0) parts.push(plan.pct + '%');
+        else if (typeof plan.completed === 'number' && plan.completed > 0) parts.push(plan.completed + ' done');
+        try {
+          var s = JSON.parse(localStorage.getItem('sr_streak') || 'null');
+          if (s && s.count > 0) parts.push('🔥 ' + s.count + '-day');
+        } catch (e) {}
+        var box = document.getElementById('sr-exam-resume');
+        var link = document.getElementById('sr-exam-resume-link');
+        var lab = document.getElementById('sr-exam-resume-label');
+        if (box && link && lab) {
+          link.href = href;
+          lab.textContent = parts.join(' · ');
+          box.classList.remove('hidden');
+        }
+        var primary = document.getElementById('sr-exam-primary-cta');
+        if (primary && plan.duration) {
+          primary.setAttribute('href', '/roadmap/?exam=' + encodeURIComponent(examId) + '&duration=' + encodeURIComponent(plan.duration));
+        }
+      } catch (e) {}
+    })();
+  </script>
 
   <Footer />
 

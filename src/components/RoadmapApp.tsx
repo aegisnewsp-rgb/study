@@ -1,5 +1,31 @@
-import { useState, useMemo, useEffect } from 'react';
+import { useState, useMemo, useEffect, useRef } from 'react';
 import type { ExamTemplate, DailyTopicItem, RoadmapTemplate } from '../data/exams';
+
+/** Canonical progress IDs are topic slugs (e.g. phy-001), never full paths. */
+function normalizeTopicId(id: string): string {
+  if (!id) return '';
+  const parts = String(id).split('/').filter(Boolean);
+  return parts[parts.length - 1] || '';
+}
+
+function loadProgressSet(exam: string, duration: string): Set<string> {
+  try {
+    const raw = localStorage.getItem(`sr-progress-${exam}-${duration}`);
+    if (!raw) return new Set();
+    const arr = JSON.parse(raw) as unknown;
+    if (!Array.isArray(arr)) return new Set();
+    return new Set(
+      arr.map((x) => normalizeTopicId(String(x))).filter(Boolean),
+    );
+  } catch {
+    return new Set();
+  }
+}
+
+function topicDone(set: Set<string>, id: string): boolean {
+  const n = normalizeTopicId(id);
+  return set.has(id) || (n !== '' && set.has(n));
+}
 
 // Exams without a dedicated notes directory get a "Notes coming soon" badge
 const NOTES_PENDING_EXAMS = new Set([
@@ -156,7 +182,7 @@ function SubjectAccordion({
 }) {
   const sorted = useMemo(() => [...topics].sort((a, b) => b.weight - a.weight), [topics]);
   const highPriority = sorted.filter(t => t.weight >= 7).length;
-  const completedCount = topics.filter(t => completedTopics.has(t.id)).length;
+  const completedCount = topics.filter(t => topicDone(completedTopics, t.id)).length;
 
   return (
     <div className="border border-surface-200 dark:border-surface-700 rounded-xl overflow-hidden">
@@ -197,7 +223,7 @@ function SubjectAccordion({
       >
         <div className="p-3 grid gap-2 grid-cols-1 sm:grid-cols-2">
           {sorted.map((topic, i) => {
-            const isDone = completedTopics.has(topic.id);
+            const isDone = topicDone(completedTopics, topic.id);
             return (
             <div
               key={topic.id}
@@ -274,7 +300,7 @@ function ProgressOverview({
 }) {
   const total = roadmap.dailyTopics.length;
   const completed = useMemo(
-    () => roadmap.dailyTopics.filter(t => completedTopics.has(t.id)).length,
+    () => roadmap.dailyTopics.filter(t => topicDone(completedTopics, t.id)).length,
     [roadmap, completedTopics],
   );
   const pct = total > 0 ? Math.round((completed / total) * 100) : 0;
@@ -284,10 +310,23 @@ function ProgressOverview({
     for (const topic of roadmap.dailyTopics) {
       if (!stats[topic.subject]) stats[topic.subject] = { total: 0, done: 0 };
       stats[topic.subject].total++;
-      if (completedTopics.has(topic.id)) stats[topic.subject].done++;
+      if (topicDone(completedTopics, topic.id)) stats[topic.subject].done++;
     }
     return Object.entries(stats).sort((a, b) => b[1].total - a[1].total);
   }, [roadmap, completedTopics]);
+
+  const streakLabel = useMemo(() => {
+    try {
+      const s = JSON.parse(localStorage.getItem('sr_streak') || 'null') as { count?: number; lastDay?: string } | null;
+      if (!s?.count) return null;
+      const d = new Date();
+      const today = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+      const y = new Date(d); y.setDate(y.getDate() - 1);
+      const yest = `${y.getFullYear()}-${String(y.getMonth() + 1).padStart(2, '0')}-${String(y.getDate()).padStart(2, '0')}`;
+      if (s.lastDay === today || s.lastDay === yest) return `${s.count}-day streak`;
+    } catch { /* ignore */ }
+    return null;
+  }, [completedTopics]);
 
   return (
     <div className="card p-5">
@@ -298,6 +337,7 @@ function ProgressOverview({
         <div className="flex items-center justify-between mb-1.5">
           <span className="text-xs font-medium text-surface-700 dark:text-surface-300">
             {completed} / {total} topics · {pct}%
+            {streakLabel ? ` · 🔥 ${streakLabel}` : ''}
           </span>
         </div>
         <div className="h-2 bg-surface-100 dark:bg-surface-800 rounded-full overflow-hidden">
@@ -343,6 +383,9 @@ export default function RoadmapApp({ exams }: Props) {
   const [examLoading, setExamLoading] = useState(false);
   // Client-only last plan for empty-state resume
   const [lastPlan, setLastPlan] = useState<{ exam: string; duration: string; examName: string } | null>(null);
+  // Gate saves until progress is loaded for the current exam+duration key (avoids race wipe)
+  const [progressReady, setProgressReady] = useState(false);
+  const progressKeyRef = useRef('');
 
   // Pre-populate from URL params (e.g. /roadmap?exam=neet&duration=3mo)
   useEffect(() => {
@@ -393,27 +436,32 @@ export default function RoadmapApp({ exams }: Props) {
 
   // Load progress from localStorage on mount / when exam+duration change
   useEffect(() => {
-    if (!selectedExam || !selectedDuration) return;
-    try {
-      const saved = localStorage.getItem("sr-progress-" + selectedExam + "-" + selectedDuration);
-      if (saved) setCompletedTopics(new Set(JSON.parse(saved)));
-      else setCompletedTopics(new Set());
-    } catch(e) {}
+    if (!selectedExam || !selectedDuration) {
+      setProgressReady(false);
+      return;
+    }
+    const key = `${selectedExam}-${selectedDuration}`;
+    progressKeyRef.current = key;
+    setProgressReady(false);
+    setCompletedTopics(loadProgressSet(selectedExam, selectedDuration));
+    setProgressReady(true);
   }, [selectedExam, selectedDuration]);
 
-  // Save progress to localStorage on change
+  // Save progress to localStorage on change (only after hydrate for this key)
   useEffect(() => {
-    if (!selectedExam || !selectedDuration) return;
+    if (!selectedExam || !selectedDuration || !progressReady) return;
+    if (progressKeyRef.current !== `${selectedExam}-${selectedDuration}`) return;
     try {
-      const key = "sr-progress-" + selectedExam + "-" + selectedDuration;
-      if (completedTopics.size > 0) {
-        localStorage.setItem(key, JSON.stringify([...completedTopics]));
+      const key = `sr-progress-${selectedExam}-${selectedDuration}`;
+      const normalized = [...completedTopics].map(normalizeTopicId).filter(Boolean);
+      if (normalized.length > 0) {
+        localStorage.setItem(key, JSON.stringify(normalized));
       } else {
         // Clear stale progress when user unchecks the last topic
         localStorage.removeItem(key);
       }
-    } catch(e) {}
-  }, [completedTopics, selectedExam, selectedDuration]);
+    } catch (e) {}
+  }, [completedTopics, selectedExam, selectedDuration, progressReady]);
 
   // Hydrate last plan for empty-state resume
   useEffect(() => {
@@ -436,21 +484,39 @@ export default function RoadmapApp({ exams }: Props) {
     [selectedExam, exams, examCache],
   );
 
-  // Persist last plan when a roadmap is generated
+  // Persist last plan when a roadmap is generated (merge pct + keep topicKey if same exam)
   useEffect(() => {
-    if (!selectedExam || !selectedDuration) return;
+    if (!selectedExam || !selectedDuration || !progressReady) return;
     const examName =
       selectedExamData?.examName ??
       exams.find(e => e.examId === selectedExam)?.examName ??
       selectedExam;
     try {
-      localStorage.setItem(
-        'sr_last_plan',
-        JSON.stringify({ exam: selectedExam, duration: selectedDuration, examName, ts: Date.now() }),
-      );
+      let prev: Record<string, unknown> = {};
+      try {
+        prev = JSON.parse(localStorage.getItem('sr_last_plan') || '{}') || {};
+      } catch { prev = {}; }
+      const total = selectedExamData?.durations?.[selectedDuration]?.dailyTopics?.length
+        ?? exams.find(e => e.examId === selectedExam)?.durations?.[selectedDuration]?.dailyTopics?.length
+        ?? 0;
+      const done = completedTopics.size;
+      const pct = total > 0 ? Math.round((100 * Math.min(done, total)) / total) : undefined;
+      const payload: Record<string, unknown> = {
+        exam: selectedExam,
+        duration: selectedDuration,
+        examName,
+        ts: Date.now(),
+      };
+      if (typeof pct === 'number') payload.pct = pct;
+      if (done > 0) payload.completed = done;
+      // Keep last note deep-link when still on the same exam
+      if (prev.exam === selectedExam && typeof prev.topicKey === 'string') {
+        payload.topicKey = prev.topicKey;
+      }
+      localStorage.setItem('sr_last_plan', JSON.stringify(payload));
       setLastPlan({ exam: selectedExam, duration: selectedDuration, examName });
     } catch (e) {}
-  }, [selectedExam, selectedDuration, selectedExamData, exams]);
+  }, [selectedExam, selectedDuration, selectedExamData, exams, completedTopics, progressReady]);
 
   const roadmap = useMemo<RoadmapTemplate | null>(() => {
     if (!selectedExam || !selectedDuration) return null;
@@ -562,10 +628,18 @@ export default function RoadmapApp({ exams }: Props) {
   };
 
   const onToggleComplete = (topicId: string) => {
+    const id = normalizeTopicId(topicId) || topicId;
     setCompletedTopics(prev => {
       const next = new Set(prev);
-      if (next.has(topicId)) next.delete(topicId);
-      else next.add(topicId);
+      if (topicDone(next, id)) {
+        next.delete(id);
+        // also strip any legacy path form that ends with this slug
+        for (const k of [...next]) {
+          if (normalizeTopicId(k) === id) next.delete(k);
+        }
+      } else {
+        next.add(id);
+      }
       return next;
     });
   };
@@ -573,7 +647,7 @@ export default function RoadmapApp({ exams }: Props) {
   const studyNextIncomplete = () => {
     if (!roadmap || !selectedExam) return;
     const incomplete = roadmap.dailyTopics
-      .filter(t => !completedTopics.has(t.id))
+      .filter(t => !topicDone(completedTopics, t.id))
       .sort((a, b) => b.weight - a.weight);
     const topic = incomplete[0];
     if (!topic) return;

@@ -180,13 +180,25 @@ const exam: ExamTemplate = {
   examId: 'neet',
   examName: 'NEET UG',
   country: 'india',
-  description: `NEET\ UG\ is\ India's\ single\-window\ entrance\ exam\ for\ admission\ to\ MBBS,\ BDS,\ AYUSH\ and\ other\ medical\ courses\ in\ government\ and\ private\ colleges\.\ Conducted\ by\ NTA,\ it\ tests\ Physics,\ Chemistry,\ and\ Biology\ from\ the\ NCERT\ syllabus\.`,
-  examPattern: "180 compulsory questions — Physics (45), Chemistry (45), Biology (90: Botany 45 + Zoology 45), 3 hours, 720 marks total. 4 marks per correct answer, 1 mark deducted for wrong answer. The optional Section B buffer used during 2021–2024 was discontinued from 2025.",
-  eligibility: "Class 12 PCB (Physics, Chemistry, Biology) with minimum 50% aggregate for general category (40% for SC/ST/OBC). Lower age limit 17 years as of December 31 of admission year.",
+  description:
+    "NEET UG is India's single national entrance exam for MBBS, BDS, AYUSH (BAMS/BHMS/BUMS), BVSc and related undergraduate seats in government and private colleges. The National Testing Agency (NTA) conducts one offline OMR paper each year, usually in May, testing Class 11–12 Physics, Chemistry and Biology with NCERT as the primary syllabus backbone. More than 20 lakh candidates typically appear for roughly one lakh medical and allied seats, so cut-offs for government colleges stay high. State counselling (MCC AIQ + state quotas) follows the All India Rank. Use this hub for pattern, eligibility, subject weightage and a free day-by-day roadmap — then verify fees, dates and application windows only on the official NTA NEET portal.",
+  examPattern:
+    "Single offline paper, 3 hours 20 minutes, 180 compulsory MCQs for 720 marks: Physics 45, Chemistry 45, Biology 90 (Botany 45 + Zoology 45). Marking: +4 correct, −1 wrong, 0 unattempted. All questions are compulsory — the older Section A/B optional buffer (2021–2024) was removed from 2025. Medium options include English, Hindi and several regional languages where notified. Rank is based on total score with NTA tie-break rules (Biology → Chemistry → Physics → age → application number). Plan mock timing for the full 200-minute window, not a 3-hour school paper.",
+  eligibility:
+    "Indian nationals, NRIs, OCIs, PIOs and foreign nationals as per the year's NTA information bulletin. Minimum age 17 years on or before 31 December of the admission year; upper-age rules follow the latest NMC/NTA notification (confirm on the official bulletin each cycle). Must have passed Class 12 (or equivalent) with Physics, Chemistry, Biology/Biotechnology and English. Aggregate in PCB: 50% General, 40% SC/ST/OBC-NCL, 45% PwD General — subject to the current bulletin. Unlimited attempts under present policy, but seat allotment still requires counselling eligibility and document verification. Always re-check category certificates, photo ID and domicile rules before applying.",
+  prepOverview:
+    "Treat NEET as an NCERT-first, high-volume MCQ exam. Phase 1 (foundation): finish Class 11–12 NCERT line-by-line for Biology and theory blocks for Physics/Chemistry, with daily formula sheets. Phase 2 (application): chapter-wise PYQs and timed 45–90 minute subject drills; log every wrong option with the exact NCERT line or concept that failed. Phase 3 (simulation): full-length mocks every 7–10 days, then every 3–4 days in the last month — review for 2× the mock duration. Weight your calendar toward Biology (half the paper) without starving Physics numericals and Physical Chemistry, which swing ranks. Use StudyRoadmap notes for concept refreshers and generate a free roadmap matched to weeks left; pair with official sample papers and your own PYQ bank. Do not chase ten reference books — one theory source + one question bank per subject beats shallow multi-book coverage.",
+  commonMistakes: [
+    'Skipping NCERT diagrams, summary tables and in-text examples in Biology while collecting coaching PDFs.',
+    'Practising only untimed topic quizzes and never sitting a full 200-minute OMR-style mock.',
+    'Ignoring weak Physics chapters (modern physics, semiconductors, optics) until the last month.',
+    'Changing strategy every week instead of fixing an error log and re-testing the same mistakes.',
+    'Assuming application dates, fees or language options from last year without opening the current NTA bulletin.',
+  ],
   subjects,
   durations,
   rescueMode,
-  lastUpdated: '2026-04-06',
+  lastUpdated: '2026-07-28',
   officialSource: 'https://neet.ntaonline.in',
 };
 export default exam;

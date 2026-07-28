@@ -736,14 +736,37 @@ const articleJsonLd = {
   </div>
   <div class="h-16" aria-hidden="true"></div>
 
-  <script is:inline define:vars={{ exam, topic, subject }}>
+  <script is:inline define:vars={{ exam, topic, subject, examName }}>
     (function () {
       var EXAM = exam;
+      var EXAM_NAME = examName || exam;
       var TOPIC_KEY = exam + '/' + subject + '/' + topic;
       var TOPIC_ID = topic;
 
       function progressKey(dur) {
         return 'sr-progress-' + EXAM + '-' + dur;
+      }
+
+      function localDay() {
+        var d = new Date();
+        return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0');
+      }
+
+      function bumpStreak() {
+        try {
+          var today = localDay();
+          var s = {};
+          try { s = JSON.parse(localStorage.getItem('sr_streak') || '{}') || {}; } catch (e) { s = {}; }
+          if (s.lastDay === today) return s;
+          var y = new Date(); y.setDate(y.getDate() - 1);
+          var yest = y.getFullYear() + '-' + String(y.getMonth() + 1).padStart(2, '0') + '-' + String(y.getDate()).padStart(2, '0');
+          var count = s.lastDay === yest ? (s.count || 0) + 1 : 1;
+          var next = { count: count, lastDay: today, longest: Math.max(s.longest || 0, count) };
+          localStorage.setItem('sr_streak', JSON.stringify(next));
+          return next;
+        } catch (e) {
+          return null;
+        }
       }
 
       function resolveDuration() {
@@ -753,30 +776,66 @@ const articleJsonLd = {
           var last = JSON.parse(localStorage.getItem('sr_last_plan') || 'null');
           if (last && last.exam === EXAM && last.duration) return last.duration;
         } catch (e) {}
-        return '1mo';
+        // No silent 1mo invent: only write progress under a known plan
+        return null;
       }
 
       function loadSet(dur) {
+        if (!dur) return new Set();
         try {
           var raw = localStorage.getItem(progressKey(dur));
-          return new Set(raw ? JSON.parse(raw) : []);
+          var arr = raw ? JSON.parse(raw) : [];
+          return new Set(Array.isArray(arr) ? arr : []);
         } catch (e) {
           return new Set();
         }
       }
 
-      function saveSet(dur, set) {
+      function saveSet(dur, set, opts) {
+        if (!dur) return;
+        opts = opts || {};
         try {
-          localStorage.setItem(progressKey(dur), JSON.stringify(Array.from(set)));
-          // Keep resume pointer warm so homepage/nav can offer "Continue"
-          var name = document.querySelector('h1') ? document.querySelector('h1').textContent : EXAM;
-          localStorage.setItem('sr_last_plan', JSON.stringify({
+          // Canonical IDs: topic slug (+ keep path for legacy readers)
+          var list = Array.from(set);
+          localStorage.setItem(progressKey(dur), JSON.stringify(list));
+          var streak = opts.bump ? bumpStreak() : null;
+          var payload = {
             exam: EXAM,
             duration: dur,
-            examName: EXAM,
+            examName: EXAM_NAME,
+            topicKey: TOPIC_KEY,
+            completed: list.length,
+            ts: Date.now()
+          };
+          if (streak && streak.count) payload.streak = streak.count;
+          localStorage.setItem('sr_last_plan', JSON.stringify(payload));
+        } catch (e) {}
+      }
+
+      function touchResume(dur) {
+        // Warm resume pointer on page view without inventing a default duration
+        try {
+          var payload = {
+            exam: EXAM,
+            examName: EXAM_NAME,
             topicKey: TOPIC_KEY,
             ts: Date.now()
-          }));
+          };
+          if (dur) {
+            payload.duration = dur;
+            var set = loadSet(dur);
+            payload.completed = set.size;
+          } else {
+            var last = null;
+            try { last = JSON.parse(localStorage.getItem('sr_last_plan') || 'null'); } catch (e) {}
+            if (last && last.exam === EXAM && last.duration) payload.duration = last.duration;
+          }
+          // Merge streak if present
+          try {
+            var s = JSON.parse(localStorage.getItem('sr_streak') || 'null');
+            if (s && s.count) payload.streak = s.count;
+          } catch (e) {}
+          localStorage.setItem('sr_last_plan', JSON.stringify(payload));
         } catch (e) {}
       }
 
@@ -799,27 +858,42 @@ const articleJsonLd = {
         });
       }
 
-      function toggle() {
+      function ensureDuration() {
         var dur = resolveDuration();
+        if (dur) return dur;
+        // First mark-done without a plan: default 1mo only when user acts
+        return '1mo';
+      }
+
+      function toggle() {
+        var dur = ensureDuration();
         var set = loadSet(dur);
-        if (isDone(set)) {
+        var wasDone = isDone(set);
+        if (wasDone) {
           set.delete(TOPIC_KEY);
           set.delete(TOPIC_ID);
         } else {
-          set.add(TOPIC_KEY);
           set.add(TOPIC_ID);
+          set.add(TOPIC_KEY);
         }
-        saveSet(dur, set);
+        saveSet(dur, set, { bump: !wasDone });
         paint(isDone(set));
       }
 
-      function wire() {
-        var dur = resolveDuration();
-        // Stamp duration on next/roadmap links so progress keys stay consistent
-        var nextPath = document.getElementById('sr-study-bar')
-          ? document.getElementById('sr-study-bar').getAttribute('data-next')
-          : '';
-        ['sr-bar-next', 'sr-next-topic'].forEach(function (id) {
+      function stampDurationLinks(dur) {
+        if (!dur) return;
+        var ids = ['sr-bar-next', 'sr-next-topic'];
+        // Prev topic card(s)
+        document.querySelectorAll('[data-sr-prev], #sr-prev-topic').forEach(function (a) {
+          ids.push(null);
+          try {
+            var u = new URL(a.href, location.origin);
+            if (!u.searchParams.get('duration')) u.searchParams.set('duration', dur);
+            a.href = u.pathname + u.search + u.hash;
+          } catch (e) {}
+        });
+        ids.forEach(function (id) {
+          if (!id) return;
           var a = document.getElementById(id);
           if (!a) return;
           try {
@@ -832,8 +906,14 @@ const articleJsonLd = {
         if (rm) rm.href = '/roadmap/?exam=' + encodeURIComponent(EXAM) + '&duration=' + encodeURIComponent(dur);
         var sideRm = document.getElementById('sr-sidebar-roadmap');
         if (sideRm) sideRm.href = '/roadmap/?exam=' + encodeURIComponent(EXAM) + '&duration=' + encodeURIComponent(dur);
+      }
 
-        paint(isDone(loadSet(dur)));
+      function wire() {
+        var dur = resolveDuration();
+        stampDurationLinks(dur);
+        touchResume(dur);
+        if (dur) paint(isDone(loadSet(dur)));
+        else paint(false);
         ['sr-mark-done', 'sr-mark-done-side'].forEach(function (id) {
           var el = document.getElementById(id);
           if (el) el.addEventListener('click', toggle);

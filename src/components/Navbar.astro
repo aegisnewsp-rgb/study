@@ -126,14 +126,28 @@ const navLinks = [
         }
     });
 
-    // Resume CTA from last plan (localStorage)
+    // Resume CTA from last plan (localStorage) — deep-link to last note when available
     try {
         const raw = localStorage.getItem('sr_last_plan');
         if (raw) {
-            const plan = JSON.parse(raw) as { exam?: string; duration?: string; examName?: string };
-            if (plan?.exam && plan?.duration) {
-                const href = `/roadmap/?exam=${encodeURIComponent(plan.exam)}&duration=${encodeURIComponent(plan.duration)}`;
-                const label = `Resume ${plan.examName || plan.exam}`;
+            const plan = JSON.parse(raw) as {
+                exam?: string; duration?: string; examName?: string;
+                topicKey?: string; pct?: number; streak?: number;
+            };
+            if (plan?.exam) {
+                let href = `/roadmap/?exam=${encodeURIComponent(plan.exam)}`;
+                if (plan.duration) href += `&duration=${encodeURIComponent(plan.duration)}`;
+                if (plan.topicKey && typeof plan.topicKey === 'string') {
+                    const path = plan.topicKey.replace(/^\/+|\/+$/g, '');
+                    href = `/notes/${path}/`;
+                    if (plan.duration) href += `?duration=${encodeURIComponent(plan.duration)}`;
+                }
+                const name = plan.examName || plan.exam;
+                const bits = [`Resume ${name}`];
+                if (typeof plan.pct === 'number' && plan.pct > 0) bits.push(`${plan.pct}%`);
+                else if (plan.duration) bits[0] = `Resume ${name}`;
+                if (typeof plan.streak === 'number' && plan.streak > 1) bits.push(`🔥${plan.streak}`);
+                const label = bits.join(' · ');
                 const desk = document.getElementById('sr-nav-cta') as HTMLAnchorElement | null;
                 const mob = document.getElementById('sr-nav-cta-mobile') as HTMLAnchorElement | null;
                 if (desk) { desk.href = href; desk.textContent = label; }

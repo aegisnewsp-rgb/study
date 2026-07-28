@@ -94,13 +94,25 @@ const exam: ExamTemplate = {
   examId: 'cat',
   examName: 'CAT',
   country: 'india',
-  description: "The Common Admission Test (CAT) is India's most competitive management entrance exam, conducted by IIMs for admission to MBA/PGP programmes at 20+ IIMs and 100+ B-schools nationwide. The exam tests quantitative ability, verbal ability, data interpretation, and logical reasoning. Over 2.5 lakh candidates appear annually for ~5,000 seats.",
-  examPattern: "3 sections (VA-RC, DILR, QA), 66 questions total, 2 hours, scaled score out of 300. Each correct answer gets 3 marks, 1 mark deducted for wrong answer.",
-  eligibility: "Bachelor's degree with minimum 50% aggregate (45% for SC/ST/PwD) from a recognised university. Final year students eligible to apply.",
+  description:
+    "The Common Admission Test (CAT) is India's flagship MBA/PGP entrance exam, conducted annually by one of the Indian Institutes of Management on a rotating basis. A CAT score is accepted by 20+ IIMs and 100+ non-IIM B-schools for flagship two-year programmes. The computer-based test measures Verbal Ability & Reading Comprehension (VARC), Data Interpretation & Logical Reasoning (DILR), and Quantitative Ability (QA) under strict sectional time limits. Roughly 2.5–3 lakh candidates sit each year for a few thousand top IIM seats, so percentile cut-offs for BLACKI and other top IIMs stay high. Use this hub for pattern, eligibility, section weightage and free day-by-day roadmaps — then confirm registration windows, fees and slot rules only on the official iimcat.ac.in portal for the current cycle.",
+  examPattern:
+    "Three timed sections in fixed order — VARC, DILR, QA — typically ~66 questions and 120 minutes total (about 40 minutes per section; exact count and minutes are set in that year's information bulletin). Scoring is usually +3 for a correct MCQ, −1 for a wrong MCQ, and 0 for unattempted; non-MCQ (TITA) items generally have no negative marking when offered. Sectional time is locked: you cannot jump sections or carry unused minutes. Scaled scores and percentiles are released after normalisation across slots. Plan mocks with the same three-block timer and practice leaving hard DILR sets early so you still attempt high-confidence QA/VARC items.",
+  eligibility:
+    "Bachelor's degree (or equivalent) with at least 50% aggregate marks (45% for SC/ST/PwD) from a recognised university or institute, as stated in the CAT information bulletin. Final-year students may apply if they complete degree requirements by the date IIMs notify. There is no upper age limit under the usual CAT rules. Individual IIMs and other B-schools apply their own shortlisting criteria (CAT cut-offs, academics, work experience, diversity) after the exam — a valid CAT score does not guarantee a call. Always re-check category certificates, photo ID and academic mark-sheet rules on the official site before fee payment.",
+  prepOverview:
+    "Treat CAT as a three-section, accuracy-plus-selection exam — not a full-syllabus school test. Phase 1 (foundation): rebuild arithmetic, algebra, geometry and modern maths basics for QA; daily RC of 2–3 dense passages for VARC; and 1–2 standard LRDI set types (tables, games-tournaments, seating) until set-up is automatic. Phase 2 (selection skill): timed sectionals every 2–3 days; log which question types you skip vs solve in under 2–3 minutes; build a personal 'attempt order' for each section. Phase 3 (simulation): full 120-minute mocks weekly, then twice weekly in the last 6–8 weeks — review for 1.5–2× mock duration focusing on wrong attempts and unforced misses. Weight calendar toward your weakest section without abandoning daily RC. Use StudyRoadmap topic notes for concept refreshers and a free roadmap matched to weeks left; pair with official sample questions and a serious mock series. One structured QA source + one LRDI set bank + daily RC beats collecting ten coaching PDFs.",
+  commonMistakes: [
+    'Grinding all of QA theory while never timing full VARC or DILR sections under the real 40-minute lock.',
+    'Forcing every DILR set instead of abandoning a stuck set within 5–7 minutes and protecting overall percentile.',
+    'Treating RC as vocabulary drills and skipping inference-heavy and multi-paragraph critical reasoning practice.',
+    'Taking mocks without a written error log (wrong type, silly arithmetic, panic skip) and re-testing the same mistakes.',
+    'Assuming last year\'s question count, TITA mix or IIM shortlist cut-offs without opening the current CAT bulletin and each IIM\'s admission policy.',
+  ],
   subjects,
   durations,
   rescueMode,
-  lastUpdated: '2026-04-06',
+  lastUpdated: '2026-07-28',
   officialSource: 'https://iimcat.ac.in',
 };
 export default exam;

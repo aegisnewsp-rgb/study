@@ -120,13 +120,25 @@ const exam: ExamTemplate = {
   examId: 'ssc-cgl',
   examName: 'SSC CGL',
   country: 'india',
-  description: "The Staff Selection Commission Combined Graduate Level (SSC CGL) exam recruits for Group B and C posts in various ministries/departments of the Government of India. Popular posts include Income Tax Inspector, Assistant Section Officer, Sub-Inspector in CBI, and Statistical Investigator. Since the 2022 cycle it is conducted in two stages: Tier-I (objective screening) and Tier-II (objective Mains, with a Data Entry Speed Test where applicable). The earlier Tier-III (descriptive) and Tier-IV were discontinued.",
-  examPattern: "Tier-I: 100 MCQs, 60 minutes, 200 marks (General Awareness, Quantitative Aptitude, Reasoning, English) with 0.5 negative marking. Tier-II: computer-based Mains — Paper-I (compulsory for all posts) plus Paper-II/III for specific posts, with module-wise sections, a qualifying Computer-Knowledge module, and a Data Entry Speed Test (DEST) where required. 1 mark negative per wrong answer in Tier-II.",
-  eligibility: "Bachelor's degree in any discipline from a recognised university. Age 18-32 for most posts (relaxation for reserved categories).",
+  description:
+    "The Staff Selection Commission Combined Graduate Level (SSC CGL) exam is a national recruitment test for Group B and C posts across central ministries and departments — including Income Tax Inspector, Assistant Section Officer, Assistant Audit/Accounts Officer, Sub-Inspector (CBI and other agencies), Statistical Investigator and many more. Since the 2022 restructuring it is mainly a two-tier computer-based process: Tier-I (objective screening) and Tier-II (objective Mains with post-specific papers, a qualifying computer module and Data Entry Speed Test where required). The older Tier-III descriptive paper and separate Tier-IV skill tests were folded or discontinued under the new scheme. Hundreds of thousands of graduates compete each cycle; final selection depends on Tier-II performance, post preference, category and document verification. Use this hub for pattern, eligibility, section weightage and free day-by-day roadmaps — confirm vacancies, dates, fees and post codes only on ssc.nic.in for the live notification.",
+  examPattern:
+    "Tier-I: 100 objective questions in 60 minutes for 200 marks across General Intelligence & Reasoning, General Awareness, Quantitative Aptitude and English Comprehension (25 questions each section in the usual pattern), with 0.50 negative mark per wrong answer. Tier-II: computer-based Mains — Paper-I is compulsory for most posts (maths, reasoning, English, general awareness modules with sectional structure as notified), plus Paper-II/III for Statistical Investigator / JSO and AAO-type posts when advertised. Tier-II typically uses 1 mark negative per wrong answer in scored modules; a Computer Knowledge module is qualifying for many posts, and DEST (data entry) applies where the notice requires it. Exact module marks and time limits are fixed in each year's official notice — plan Tier-I for speed (about 36 seconds per question) and Tier-II for accuracy under longer multi-module sittings.",
+  eligibility:
+    "Bachelor's degree in any discipline from a recognised university or equivalent as on the date specified in the notice (some posts require specific subjects such as Statistics or Economics — check post-wise essential qualifications). Age limits are post-specific, commonly in the 18–27, 18–30 or 18–32 bands with relaxations for SC/ST/OBC/PwBD/Ex-Servicemen and other categories under government rules. Nationality, character and medical standards follow the SSC notice. There is no fixed attempt limit beyond age and educational eligibility. Always re-verify category certificates, photo ID and educational documents against the current SSC CGL notification before applying.",
+  prepOverview:
+    "Treat SSC CGL as a high-speed Tier-I filter plus a deeper Tier-II score exam. Phase 1 (foundation): finish arithmetic (percentages, ratio, time-work, SI-CI, mensuration) and core algebra/geometry for Quant; standard reasoning sets (series, coding, seating, syllogism, blood relations); and English grammar + daily RC/error spotting. Build a rolling GA notebook: static (history, polity, geography, economy basics) plus last 6–12 months of current affairs mapped to SSC style. Phase 2 (speed): daily 25–30 minute sectional drills; aim for 80+ safe attempts in Tier-I mocks with accuracy above 85% on attempted questions. Phase 3 (Tier-II readiness): full Paper-I style practice under multi-module timing; revise advanced maths and English comprehension depth; complete computer basics and DEST practice if your target posts need them. Use StudyRoadmap notes for concept refreshers and a free roadmap matched to weeks left; pair with official previous papers from ssc.nic.in archives. One standard Quant book + one Reasoning book + PYQ bank beats ten shallow apps.",
+  commonMistakes: [
+    'Spending months on advanced Quant while ignoring General Awareness, which can swing Tier-I cut-offs with low time cost.',
+    'Practising only untimed topic quizzes and never sitting a full 60-minute Tier-I mock with negative marking discipline.',
+    'Skipping Computer Knowledge and DEST until after Tier-I, then failing qualifying modules for preferred posts.',
+    'Memorising random current-affairs dumps without revising static GA and previous-year SSC question patterns.',
+    'Relying on last year\'s post list, age limits or exam scheme instead of the current SSC CGL official notification.',
+  ],
   subjects,
   durations,
   rescueMode,
-  lastUpdated: '2026-04-06',
+  lastUpdated: '2026-07-28',
   officialSource: 'https://ssc.nic.in',
 };
 export default exam;

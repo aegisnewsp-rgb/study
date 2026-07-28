@@ -187,7 +187,7 @@ const notesSubjectSet = new Set(examGoodNotes.map((n) => n.id.split('/')[1]).fil
         </p>
 
         <div class="mt-7 flex flex-wrap gap-3">
-          <a href={`/roadmap/?exam=${exam.examId}`} class="inline-flex items-center gap-2 bg-gradient-to-r from-brand-600 to-brand-500 hover:from-brand-700 hover:to-brand-600 text-white font-bold px-6 py-3 rounded-xl shadow-lg shadow-brand-500/20 transition-all">
+          <a id="sr-sp-primary-cta" href={`/roadmap/?exam=${exam.examId}`} class="inline-flex items-center gap-2 bg-gradient-to-r from-brand-600 to-brand-500 hover:from-brand-700 hover:to-brand-600 text-white font-bold px-6 py-3 rounded-xl shadow-lg shadow-brand-500/20 transition-all">
             Generate My Personalised Plan →
           </a>
           {hasNotes && (
@@ -197,6 +197,13 @@ const notesSubjectSet = new Set(examGoodNotes.map((n) => n.id.split('/')[1]).fil
           )}
           <a href={`/exams/${exam.examId}/`} class="inline-flex items-center gap-2 bg-white dark:bg-surface-800 text-surface-700 dark:text-surface-200 font-semibold px-6 py-3 rounded-xl border border-surface-200 dark:border-surface-700 hover:border-brand-300 transition-colors">
             ← {examName} Overview
+          </a>
+        </div>
+        <!-- Resume this exam plan (localStorage) — progressive enhancement -->
+        <div id="sr-sp-resume" class="hidden max-w-xl mt-4" role="status" data-exam-id={exam.examId}>
+          <a id="sr-sp-resume-link" href={`/roadmap/?exam=${exam.examId}`} class="flex items-center justify-between gap-3 rounded-xl border border-brand-500/40 bg-brand-500/10 px-4 py-3 text-sm text-brand-800 dark:text-brand-100 hover:bg-brand-500/20 transition-colors">
+            <span id="sr-sp-resume-label" class="font-medium truncate">Continue your {examName} plan</span>
+            <span class="shrink-0 font-semibold">Resume →</span>
           </a>
         </div>
       </div>
@@ -294,5 +301,61 @@ const notesSubjectSet = new Set(examGoodNotes.map((n) => n.id.split('/')[1]).fil
     </section>
 
   </main>
+
+  <script is:inline define:vars={{ examId: exam.examId, examName }}>
+    (function () {
+      try {
+        var raw = localStorage.getItem('sr_last_plan');
+        if (!raw) return;
+        var plan = JSON.parse(raw);
+        if (!plan || plan.exam !== examId) return;
+        var href = '/roadmap/?exam=' + encodeURIComponent(examId);
+        if (plan.duration) href += '&duration=' + encodeURIComponent(plan.duration);
+        if (plan.topicKey) {
+          href = '/notes/' + String(plan.topicKey).replace(/^\/+|\/+$/g, '') + '/';
+          if (plan.duration) href += '?duration=' + encodeURIComponent(plan.duration);
+        }
+        var parts = ['Continue ' + (plan.examName || examName)];
+        if (plan.duration) parts.push(String(plan.duration));
+        if (typeof plan.pct === 'number' && plan.pct > 0) parts.push(plan.pct + '%');
+        else if (typeof plan.completed === 'number' && plan.completed > 0) parts.push(plan.completed + ' done');
+        try {
+          var s = JSON.parse(localStorage.getItem('sr_streak') || 'null');
+          if (s && s.count > 0) parts.push('🔥 ' + s.count + '-day');
+        } catch (e) {}
+        var box = document.getElementById('sr-sp-resume');
+        var link = document.getElementById('sr-sp-resume-link');
+        var lab = document.getElementById('sr-sp-resume-label');
+        if (box && link && lab) {
+          link.href = href;
+          lab.textContent = parts.join(' · ');
+          box.classList.remove('hidden');
+        }
+        var primary = document.getElementById('sr-sp-primary-cta');
+        if (primary && plan.duration) {
+          primary.setAttribute('href', '/roadmap/?exam=' + encodeURIComponent(examId) + '&duration=' + encodeURIComponent(plan.duration));
+          primary.textContent = 'Resume Personalised Plan →';
+        }
+        // Highlight matching duration card with progress when available
+        if (plan.duration) {
+          var cards = document.querySelectorAll('a[href*="/study-plan/' + examId + '/"]');
+          for (var i = 0; i < cards.length; i++) {
+            var a = cards[i];
+            var h = a.getAttribute('href') || '';
+            if (h.indexOf('/' + plan.duration + '/') === -1) continue;
+            a.classList.add('ring-2', 'ring-brand-500');
+            if (typeof plan.pct === 'number' && plan.pct > 0) {
+              var badge = document.createElement('div');
+              badge.className = 'mt-2 text-xs font-bold text-brand-600 dark:text-brand-400';
+              badge.textContent = plan.pct + '% complete · continue this plan';
+              a.appendChild(badge);
+            }
+            break;
+          }
+        }
+      } catch (e) {}
+    })();
+  </script>
+
   <Footer />
 </Layout>

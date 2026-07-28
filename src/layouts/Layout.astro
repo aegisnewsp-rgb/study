@@ -240,9 +240,11 @@ const currentYear = new Date().getFullYear();
         </script>
 
         <!-- Large page-specific JSON-LD (FAQ/HowTo/Person/Breadcrumb) is rendered
-             at end of <body> so #main-content + LCP <h1> stay inside the first
+             at end of body so #main-content + LCP heading stay inside the first
              14KB first-paint budget (AdSense/CWV scorecard). WebSite + Organization
-             stay in <head> (small, used for sitelinks). -->
+             stay in head (small, used for sitelinks).
+             NOTE: never put raw angle-bracket tags in this comment — naive H1
+             scrapers match them and swallow the real page heading (BUG-LIST). -->
     </head>
 
     <body class="min-h-screen flex flex-col bg-white dark:bg-surface-950 text-surface-900 dark:text-surface-100 transition-colors duration-200">

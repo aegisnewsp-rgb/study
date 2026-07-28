@@ -77,7 +77,9 @@ const planCards = sortedKeys.map((k) => {
 });
 const featuredPlans = planCards.filter((p) => p.indexed);
 
-const title = `${examName} Study Plan ${currentYear}: Free Roadmaps for Every Timeline | StudyRoadmap™`;
+// Keep titles ≤60 chars for SERP display (brand was pushing NEET/JEE hubs to 73+).
+const _titleRaw = `${examName} Study Plan ${currentYear} — Free Timelines`;
+const title = _titleRaw.length > 60 ? `${examName} Study Plan ${currentYear}` : _titleRaw;
 const _desc = `Free ${examName} study plans for ${currentYear} — from a last-week sprint to a full-year foundation build. ${topicCount} weight-prioritised topics across ${subjectCount} subjects, day-by-day, no signup.`;
 const description = _desc.length > 160 ? _desc.slice(0, 157) + '...' : _desc;
 

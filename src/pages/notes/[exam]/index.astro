@@ -61,6 +61,11 @@ for (const note of examNotes) {
 const subjectNames = Object.values(bySubject)
   .map((notes) => notes[0]?.data.subjectName)
   .filter((n): n is string => Boolean(n));
+const subjectSlugs = Object.keys(bySubject);
+// NEET-style medical hubs split Biology into Botany + Zoology directories.
+// Surface the official paper name so students (and QA) find "Biology".
+const hasBioSplit =
+  subjectSlugs.includes('botany') && subjectSlugs.includes('zoology');
 const subjectList =
   subjectNames.length === 0
     ? 'all subjects'
@@ -197,6 +202,15 @@ const collectionPageJsonLd = {
           {subjectNames.length ? ` (${subjectList})` : ''}.
           Each topic card shows approximate paper weightage so you can schedule high-impact chapters first.
         </p>
+        {hasBioSplit ? (
+          <p class="text-base text-surface-600 dark:text-surface-400 max-w-2xl mb-4 leading-relaxed">
+            <strong class="text-surface-800 dark:text-surface-100">Biology</strong> on the {examName} paper is organised here as
+            <a href={`/notes/${exam}/botany/`} class="text-brand-600 dark:text-brand-400 hover:underline">Botany</a>
+            {' '}+{' '}
+            <a href={`/notes/${exam}/zoology/`} class="text-brand-600 dark:text-brand-400 hover:underline">Zoology</a>
+            {' '}— the same NCERT life-sciences split most coaching schedules use. Start with high-weight Botany and Zoology chapters, then drill Physics and Chemistry.
+          </p>
+        ) : null}
         <p class="text-base text-surface-600 dark:text-surface-400 max-w-2xl mb-6 leading-relaxed">
           Pair these notes with a personalised <a href={`/roadmap/?exam=${exam}`} class="text-brand-600 dark:text-brand-400 hover:underline">{examName} roadmap</a>
           and the <a href={`/exams/${exam}/`} class="text-brand-600 dark:text-brand-400 hover:underline">{examName} exam overview</a>
@@ -231,7 +245,11 @@ const collectionPageJsonLd = {
           Treat this page as your {examName} syllabus map across
           <strong class="text-surface-900 dark:text-surface-100">{examNotes.length} topics</strong> in
           <strong class="text-surface-900 dark:text-surface-100">{subjectCount} subjects</strong>
-          ({subjectList}) — not a dump of random PDFs. Open one subject hub at a time, sort cards by the weight % on each card,
+          ({subjectList})
+          {hasBioSplit
+            ? ' — including Biology (Botany + Zoology) plus Physics and Chemistry'
+            : ''}
+          {' '}— not a dump of random PDFs. Open one subject hub at a time, sort cards by the weight % on each card,
           and finish a Standard note before the next chapter. After every note, write three recall points from memory and attempt
           a few past-style questions from your own practice set. When accuracy stalls on a high-weight chapter, open Deep for that
           topic only; switch to Quick notes in the last fortnight before {examName} for formula and trap drills.

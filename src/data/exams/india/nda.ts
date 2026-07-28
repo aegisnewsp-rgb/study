@@ -79,13 +79,25 @@ const exam: ExamTemplate = {
   examId: 'nda',
   examName: 'NDA',
   country: 'india',
-  description: "The National Defence Academy (NDA) exam, conducted by UPSC twice a year, is the gateway for admission to the Indian Army, Navy, and Air Force wings of NDA. Selected candidates undergo 3 years of training at NDA Pune followed by training at respective service academies. The exam tests mathematics and general ability, followed by SSB interview.",
-  examPattern: "Paper I Mathematics (300 marks, 2.5 hours), Paper II General Ability Test (600 marks, 2.5 hours). Total: 900 marks. SSB interview: 900 marks.",
-  eligibility: "Class 12 passed with Physics and Mathematics for Army/Navy/Air Force. Age 16.5-19.5 years. Only unmarried male and female candidates.",
+  description:
+    "The National Defence Academy (NDA) written exam, conducted by UPSC twice a year (typically April and September notifications), is the main gateway for 10+2 entry into the Army, Navy and Air Force wings of NDA Pune. Candidates who clear the written paper face the Services Selection Board (SSB) interview; final merit combines written and SSB marks, with medical and document checks after. Training is about three years at NDA followed by service-academy commissioning training. This hub covers pattern, eligibility, high-yield maths and GAT topics, and free day-by-day roadmaps — always confirm dates, fees, vacancies and form rules on the current UPSC NDA notice.",
+  examPattern:
+    "Written exam: two objective papers on the same day. Paper I Mathematics — 300 marks, 2½ hours (typically 120 questions; +2.5/−0.83 style negative marking as per the live notice). Paper II General Ability Test (GAT) — 600 marks, 2½ hours (English + General Knowledge covering Physics, Chemistry, General Science, History, Geography, Current Affairs). Written total 900 marks; SSB interview another 900 marks. Maths is Class 11–12 level (algebra, trigonometry, analytical geometry, calculus, vectors, probability). GAT English tests grammar, vocabulary and comprehension; GK rewards Class 10–12 science plus school-level history/geography and recent defence-related current affairs. Plan full-length timed papers with the official OMR/negative-marking discipline stated in that cycle's notification.",
+  eligibility:
+    "Unmarried male and female candidates who have passed or are appearing in Class 12 (or equivalent). For Army wing: 10+2 in any stream as per the notice; for Air Force and Naval wings: 10+2 with Physics and Mathematics is usually required (re-check the cycle bulletin). Age band is typically 16½–19½ years as on the dates UPSC fixes — do not rely on last year's cut-off dates. Nationality, marital status, and physical standards follow the official UPSC and service medical guidelines. Always re-verify educational certificates, age proof and category documents against the current NDA & NA Examination notice before applying.",
+  prepOverview:
+    "Treat NDA as two equal halves: a high-speed Maths paper and a breadth-heavy GAT paper, then a multi-day SSB that rewards communication and officer-like qualities more than rote GK. Phase 1 (foundation): finish Class 11–12 algebra, trigonometry, coordinate geometry and calculus formulas with daily 40–60 minute problem sets; for GAT, one newspaper/editorial habit plus a short defence-and-national-affairs notebook beats random app quizzes. Phase 2 (section skill): alternate-day full Maths sectionals under 150 minutes; for GAT, timed English passages and mixed science-history-geography sets; log careless errors separately from concept gaps. Phase 3 (simulation): at least one full written mock per week (both papers), then twice weekly in the last month — review wrong Maths attempts for formula slips and GAT for overthinking vs under-reading. Keep SSB basics (PIQ, narration practice, outdoor fitness) running in parallel once you are inside a realistic written score band. Use StudyRoadmap topic notes and a free NDA roadmap for remaining weeks; pair with UPSC previous papers and one serious mock series. Confirm exam dates and centres only on upsc.gov.in.",
+  commonMistakes: [
+    'Over-preparing only Mathematics and walking into GAT with weak English comprehension and zero current-affairs habit.',
+    'Ignoring official negative marking and attempting every question in mocks, then seeing written rank collapse on exam day.',
+    'Memorising last year\'s age cut-off and stream rules instead of the current UPSC NDA & NA notification.',
+    'Treating SSB as an afterthought until written results — PIQ, speaking practice and fitness need months, not a weekend crash.',
+    'Solving untimed chapter quizzes only and never sitting back-to-back 2½-hour papers with fatigue management.',
+  ],
   subjects,
   durations,
   rescueMode,
-  lastUpdated: '2026-04-06',
+  lastUpdated: '2026-07-28',
   officialSource: 'https://upsc.gov.in',
 };
 export default exam;

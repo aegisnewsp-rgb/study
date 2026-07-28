@@ -23,9 +23,21 @@ const exam: ExamTemplate = {
   examId: 'neet-pg',
   examName: 'NEET PG',
   country: 'india',
-  description: `The National Eligibility cum Entrance Test for Postgraduate (NEET PG) is the sole entrance examination for admission to various postgraduate medical programmes (MD, MS, PG Diploma) in India. Conducted by the National Board of Examinations (NBE), NEET PG is mandatory for all medical graduates seeking admission to government, private, and deemed medical colleges across India. The examination is considered one of the most competitive postgraduate medical entrance exams in the world, with over 2 lakh candidates appearing annually for approximately 50,000 MD/MS seats. NEET PG scores are also used for NBEMS recruitment and state quota counselling.`,
-  examPattern: `NEET PG consists of 200 multiple-choice questions to be completed in 3 hours 30 minutes (210 minutes). The question paper covers all subjects taught during the MBBS programme. The distribution includes Pre-clinical subjects (Anatomy - 17 questions, Physiology - 17 questions, Biochemistry - 16 questions), Para-clinical subjects (Pathology - 25 questions, Pharmacology - 20 questions, Microbiology - 13 questions, Forensic Medicine - 10 questions, Community Medicine - 25 questions), and Clinical subjects (Medicine and its allied - 37 questions, Surgery and its allied - 25 questions, Obstetrics and Gynecology - 25 questions, Pediatrics - 15 questions). Each correct answer scores 4 marks, with 1 mark deducted for each wrong answer. The exam is conducted online (CBT) in English only.`,
-  eligibility: `Candidates must have completed their MBBS degree or a provisional MBBS pass certificate recognized by the National Medical Commission (NMC) and must have completed their compulsory rotating internship on or before the prescribed date. Candidates must be registered with the NMC or State Medical Council. The maximum number of attempts for NEET PG is 4. There is no minimum marks requirement at MBBS level for appearing in NEET PG, though for admission to postgraduate courses, the eligibility criteria are set by the participating universities and counselling authorities. Foreign medical graduates must also qualify NEET PG and fulfill NMC's criteria for practicing in India.`,
+  description:
+    "NEET PG (National Eligibility cum Entrance Test for Postgraduate) is the national entrance exam for MD, MS and PG Diploma seats in India, conducted under the National Board of Examinations in Medical Sciences (NBEMS). Scores feed All-India and state counselling for government, private and deemed colleges; competition is extreme relative to clinical seats. This hub covers the broad MBBS-wide pattern, eligibility, high-yield subject weights and free study roadmaps. Always confirm registration windows, fees, internship cut-off dates, attempt rules and seat matrix on the current NBEMS / counselling authority notices — rules change by cycle.",
+  examPattern:
+    "Typical recent pattern: about 200 multiple-choice questions in 3 hours 30 minutes (210 minutes), computer-based, English only. Coverage spans the full MBBS map — pre-clinical (Anatomy, Physiology, Biochemistry), para-clinical (Pathology, Pharmacology, Microbiology, Forensic Medicine, Community Medicine / PSM) and clinical (Medicine & allied, Surgery & allied, Obstetrics & Gynaecology, Paediatrics, plus other clinical allotments as notified). Approximate historical question shares often cited in prep circles: Pathology and Community Medicine among the heavier para-clinical blocks; Medicine among the heavier clinical blocks — treat published shares as planning aids, not guarantees. Scoring is commonly +4 / −1 (confirm in the live information bulletin). Build stamina with full 210-minute mocks and a review system that separates knowledge gaps from silly negative-marking losses.",
+  eligibility:
+    "MBBS (or provisional pass certificate) from an NMC-recognised college, plus completion of compulsory rotating internship by the date NBEMS states for that cycle. Registration with NMC or a State Medical Council is required as per the bulletin. Attempt limits and other candidature rules have changed over years — do not rely on older blogs; read the current NEET-PG information bulletin. Foreign medical graduates must meet NMC eligibility for Indian practice and the exam notice requirements. Final seat allotment also depends on counselling authorities (MCC / state) and category documents. Verify every date and certificate rule on official portals before fee payment.",
+  prepOverview:
+    "NEET PG rewards integrated MBBS revision under negative marking, not first-year nostalgia or last-minute app marathons. Phase 1 (map): one full pass of high-yield notes for Pathology, Pharmacology, Microbiology, PSM, Medicine, Surgery, OBG and Paediatrics — these usually decide rank bands — while keeping Anatomy/Physiology/Biochemistry as rapid revision, not deep re-learning. Phase 2 (Q-bank): daily timed blocks (50–100 Qs) with written error logs tagged by subject and mistake type (concept / recall / misread / guess). Phase 3 (simulation): full-length 200-Q mocks weekly, then twice weekly in the last 6–8 weeks; review only until you can teach the correct approach without reopening the explanation first. Protect sleep and one light revision subject the day before mocks so exam-day fatigue is familiar. Use StudyRoadmap subject notes and a free roadmap for remaining weeks; pair with standard PG Q-banks and previous-style papers. Confirm pattern and schedule only on natboard.edu.in / the live NBEMS bulletin.",
+  commonMistakes: [
+    'Re-reading entire first-year textbooks instead of high-yield integrated notes plus timed Q-banks under +4/−1 discipline.',
+    'Ignoring Pathology, PSM and clinical subjects while over-investing in low-return pre-clinical minutiae.',
+    'Taking untimed topic quizzes only and never sitting full 210-minute mocks with negative-marking review.',
+    'Trusting outdated attempt-limit, internship cut-off or seat-matrix posts instead of the current NBEMS bulletin.',
+    'Skipping error-log analysis — repeating the same misread and guess patterns across hundreds of questions.',
+  ],
   subjects,
     durations: {
     '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for NEET PG — 1 Hour'),
@@ -57,7 +69,7 @@ const exam: ExamTemplate = {
     })),
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
-  lastUpdated: '2026-05-30',
+  lastUpdated: '2026-07-28',
   officialSource: 'https://natboard.edu.in/viewnbeexam?exam=neetpg',
 };
 

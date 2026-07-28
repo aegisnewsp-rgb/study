@@ -49,7 +49,16 @@ const exam: ExamTemplate = {
     })),
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
-  lastUpdated: '2026-05-30',
+  prepOverview:
+    'MHT-CET is Maharashtra\'s state CET for engineering/pharmacy, largely aligned with HSC (Class 12) PCM/PCB. Phase 1: complete HSC textbooks with weight-tagged chapters; Phase 2: chapter tests then full papers; Phase 3: previous MHT-CET papers under official timing. Maths/Biology choice follows your stream. Confirm group (PCM/PCB), dates and marking on cetcell.mahacet.org.',
+  commonMistakes: [
+    'Studying only JEE materials and ignoring Maharashtra HSC-specific emphasis.',
+    'Skipping full-length CET papers under the official time limit.',
+    'Ignoring chemistry organic/physical weight typical of CET-style papers.',
+    'No error log for calculation vs concept mistakes.',
+    'Relying on unofficial answer keys over textbook-aligned concepts.'
+  ],
+  lastUpdated: '2026-07-28',
   officialSource: 'https://cetcell.mahacet.org/',
 };
 

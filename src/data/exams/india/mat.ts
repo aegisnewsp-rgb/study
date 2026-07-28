@@ -53,7 +53,16 @@ const exam: ExamTemplate = {
     })),
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
-  lastUpdated: '2026-05-30',
+  prepOverview:
+    'MAT (AIMA) is a multi-mode MBA entrance (CBT/PBT/IBT variants) testing Language, Math, Data Analysis, Intelligence & Critical Reasoning, and Indian & Global Environment. Phase 1: arithmetic + DI tables + RC daily; Phase 2: full sectional mix; Phase 3: mode-specific timed mocks. GA (Indian & Global Environment) often decides percentile ties — keep a short weekly current-affairs log. Verify mode, fees and dates on the official AIMA MAT portal for your session.',
+  commonMistakes: [
+    'Neglecting Indian & Global Environment while over-preparing only quant.',
+    'Practising only one test mode (paper) then appearing in another without timed simulation.',
+    'Ignoring negative marking and attempt limits stated in the live brochure.',
+    'No error log — repeating the same DI misreads.',
+    'Using outdated MAT pattern length from old PDFs.'
+  ],
+  lastUpdated: '2026-07-28',
   officialSource: 'https://mat.aima.in/',
 };
 

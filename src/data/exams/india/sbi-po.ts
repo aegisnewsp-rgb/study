@@ -51,7 +51,16 @@ const exam: ExamTemplate = {
     })),
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
-  lastUpdated: '2026-05-30',
+  prepOverview:
+    'SBI PO: Prelims → Mains (objective + descriptive) → Group Exercise & Interview. Phase 1: Prelims speed trinity (Reasoning, Quant, English) with sectional timers. Phase 2: Mains DI-heavy sets, banking/economy awareness, computer aptitude and descriptive letter/essay practice. Phase 3: alternate Prelims and Mains mocks; keep an error log and a weekly banking news digest. Confirm stages and marking on sbi.co.in careers; pair with StudyRoadmap roadmaps.',
+  commonMistakes: [
+    'Treating SBI PO like a pure speed test and under-preparing Mains descriptive writing.',
+    'Neglecting banking and economy awareness until the last fortnight.',
+    'No GE/interview communication practice after written stages.',
+    'Ignoring negative marking and over-attempting weak sections.',
+    'Relying on outdated Mains pattern PDFs instead of the live SBI notice.'
+  ],
+  lastUpdated: '2026-07-28',
   officialSource: 'https://sbi.co.in/web/careers',
 };
 

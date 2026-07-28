@@ -53,7 +53,16 @@ const exam: ExamTemplate = {
     })),
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
-  lastUpdated: '2026-05-30',
+  prepOverview:
+    'VITEEE is VIT\'s engineering entrance (PCM/PCB + English/Aptitude components as notified). Build NCERT-level accuracy then speed; take official-pattern mocks. Confirm mode, syllabus and dates on the official VIT admissions site.',
+  commonMistakes: [
+    'Over-preparing advanced JEE topics while missing VITEEE speed practice.',
+    'Ignoring English/Aptitude if present in the live pattern.',
+    'No full-length mocks.',
+    'Guessing without understanding marking rules in the brochure.',
+    'Using outdated pattern claims from forums.'
+  ],
+  lastUpdated: '2026-07-28',
   officialSource: 'https://viteee.vit.ac.in/',
 };
 

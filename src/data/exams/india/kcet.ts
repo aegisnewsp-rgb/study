@@ -51,7 +51,16 @@ const exam: ExamTemplate = {
     })),
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
-  lastUpdated: '2026-05-30',
+  prepOverview:
+    'KCET (Karnataka) is a state entrance for professional courses with Physics, Chemistry and Mathematics/Biology aligned largely to PUC syllabus. Finish state textbooks first; then timed full papers. Confirm eligibility, paper schedule and marking on the official KEA portal for the live year.',
+  commonMistakes: [
+    'Ignoring Karnataka PUC textbooks in favour of only national-level materials.',
+    'No full-length timed practice before exam week.',
+    'Weak chemistry organic practice.',
+    'No document/eligibility checklist against the official notification.',
+    'Using last year\'s cut-offs as guarantees.'
+  ],
+  lastUpdated: '2026-07-28',
   officialSource: 'https://cetonline.karnataka.gov.in/kea/',
 };
 

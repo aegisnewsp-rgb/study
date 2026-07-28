@@ -53,7 +53,16 @@ const exam: ExamTemplate = {
     })),
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
-  lastUpdated: '2026-04-06',
+  prepOverview:
+    'TNPSC Group exams emphasise Tamil Nadu history, geography, polity, aptitude and general studies as per the group notification. Use state board + standard GS materials; practise previous TNPSC papers under timed conditions. Confirm group syllabus and dates on tnpsc.gov.in.',
+  commonMistakes: [
+    'Ignoring Tamil Nadu-specific units.',
+    'No full previous-paper timed practice.',
+    'Weak aptitude speed.',
+    'Outdated group syllabus PDFs.',
+    'Application document errors.'
+  ],
+  lastUpdated: '2026-07-28',
   officialSource: 'https://www.tnpsc.gov.in',
 };
 

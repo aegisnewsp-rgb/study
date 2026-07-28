@@ -51,7 +51,16 @@ const exam: ExamTemplate = {
     })),
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
-  lastUpdated: '2026-05-30',
+  prepOverview:
+    'SNAP is a short, high-speed SIU MBA entrance (typically ~60 minutes with English, Quant and Reasoning — confirm live). Phase 1: speed foundations — arithmetic, algebra basics, grammar and short LR sets. Phase 2: timed 15–20 minute sectional sprints daily; track accuracy vs attempts. Phase 3: full SNAP-length mocks every 3–4 days; practise skipping traps fast. GK/current affairs weight varies by year — check the current SNAP brochure. Use StudyRoadmap roadmaps for remaining weeks.',
+  commonMistakes: [
+    'Preparing with 2-hour CAT mocks only and never practising 60-minute high-speed papers.',
+    'Attempting every question and burning time on one DI set.',
+    'Ignoring official negative marking and attempt strategy from the live notice.',
+    'Under-practising verbal speed (fillers, grammar, short RC).',
+    'Memorising outdated SNAP pattern lengths from older blogs.'
+  ],
+  lastUpdated: '2026-07-28',
   officialSource: 'https://www.snaptest.org/',
 };
 

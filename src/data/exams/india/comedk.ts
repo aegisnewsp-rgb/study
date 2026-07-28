@@ -49,7 +49,16 @@ const exam: ExamTemplate = {
     })),
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
-  lastUpdated: '2026-05-30',
+  prepOverview:
+    'COMEDK UGET is for private engineering colleges in Karnataka (PCM). Treat it as a Class 11–12 accuracy + speed exam; finish NCERT then timed mocks. Confirm syllabus, marking and dates on the official COMEDK portal.',
+  commonMistakes: [
+    'Ignoring official mock/pattern updates.',
+    'Weak organic chemistry and modern physics practice.',
+    'No full-length timed papers.',
+    'Random guessing under negative marking if applicable.',
+    'Confusing COMEDK with KCET counselling rules.'
+  ],
+  lastUpdated: '2026-07-28',
   officialSource: 'https://www.comedk.org/',
 };
 

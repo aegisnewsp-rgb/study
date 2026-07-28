@@ -53,7 +53,16 @@ const exam: ExamTemplate = {
     })),
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
-  lastUpdated: '2026-04-06',
+  prepOverview:
+    'CTET (CBSE) tests Child Development & Pedagogy, languages, and subject content for Paper I (I–V) and/or Paper II (VI–VIII). Phase 1: CDP theories (Piaget, Vygotsky, Kohlberg, inclusive education) with classroom examples. Phase 2: pedagogy of languages and Maths/EVS or Maths/Science/Social Science as per paper choice. Phase 3: previous-year and full mocks; review wrong pedagogy items carefully — they are high-weight. Confirm paper choice, dates and validity on ctet.nic.in; use StudyRoadmap roadmaps for remaining weeks.',
+  commonMistakes: [
+    'Rote-memorising psychologist names without applying them to classroom scenarios.',
+    'Ignoring language pedagogy while over-reading content-only subject books.',
+    'Preparing the wrong paper (I vs II) relative to the classes you will teach.',
+    'Skipping full-length timed papers and only doing topic quizzes.',
+    'Trusting unofficial answer keys over NCERT-aligned pedagogy concepts.'
+  ],
+  lastUpdated: '2026-07-28',
   officialSource: 'https://ctet.nic.in',
 };
 

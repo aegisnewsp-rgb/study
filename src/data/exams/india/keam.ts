@@ -49,7 +49,16 @@ const exam: ExamTemplate = {
     })),
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
-  lastUpdated: '2026-05-30',
+  prepOverview:
+    'KEAM (Kerala) engineering entrance emphasises Physics, Chemistry and Mathematics with state-specific pattern rules. Build Class 11–12 strength; practise previous KEAM papers; confirm paper structure and normalisation notes on the official CEE Kerala site for the live year.',
+  commonMistakes: [
+    'Ignoring official paper structure changes announced by CEE Kerala.',
+    'No full-length timed practice.',
+    'Weak calculus and coordinate geometry drills.',
+    'Application/eligibility checklist failures.',
+    'Using unofficial rank predictors as guarantees.'
+  ],
+  lastUpdated: '2026-07-28',
   officialSource: 'https://cee.kerala.gov.in/',
 };
 

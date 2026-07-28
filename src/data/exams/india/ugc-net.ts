@@ -76,7 +76,16 @@ const exam: ExamTemplate = {
   subjects,
   durations,
   rescueMode,
-  lastUpdated: '2026-04-06',
+  prepOverview:
+    'UGC NET is two papers: Paper 1 (teaching/research aptitude, common) and Paper 2 (your subject). Phase 1: finish Paper 1 units with short daily drills (Teaching, Research, DI, Reasoning, ICT, Higher Education). Phase 2: subject syllabus map + previous-year clustering for high-frequency units. Phase 3: full mocks matching NTA timing; review wrong Paper 1 items as free marks lost. Do not neglect Research Aptitude and DI — they are predictable scorers. Confirm subjects, pattern and qualifying rules on the live NTA UGC NET notice; use StudyRoadmap roadmaps for week-by-week sequencing.',
+  commonMistakes: [
+    'Over-studying Paper 2 theory while under-practising Paper 1 DI, reasoning and teaching-aptitude items.',
+    'Ignoring previous-year topic frequency and reading textbooks cover-to-cover without timed sets.',
+    'Memorising random current affairs instead of higher-education structure, ICT and research ethics units.',
+    'Taking untimed quizzes only and never sitting full NTA-length mocks with negative-marking discipline where applicable.',
+    'Trusting outdated JRF cut-off posts instead of the current NTA information bulletin.'
+  ],
+  lastUpdated: '2026-07-28',
   officialSource: 'https://ugcnet.nta.nic.in',
 };
 export default exam;

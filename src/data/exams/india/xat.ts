@@ -51,7 +51,16 @@ const exam: ExamTemplate = {
     })),
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
-  lastUpdated: '2026-05-30',
+  prepOverview:
+    'XAT (XLRI) rewards decision quality under time pressure: Verbal & Logical Ability, Decision Making, Quantitative Ability & DI, plus GK and a descriptive essay in recent cycles (confirm live pattern). Phase 1: daily RC + critical reasoning; Decision Making case sets with written justification. Phase 2: QA/DI accuracy before speed; build a decision log of ethical vs business trade-offs. Phase 3: full XAT mocks with the official section order and time limits; review Decision Making first. Pair StudyRoadmap topic notes with XLRI sample patterns; verify dates and marking on the official XAT site.',
+  commonMistakes: [
+    'Treating Decision Making like CAT LRDI puzzles and guessing without a consistent stakeholder framework.',
+    'Skipping mocks that include the essay/GK components present in the current notification.',
+    'Over-focusing on obscure quant while under-practising long RC and critical reasoning.',
+    'Ignoring negative marking strategy and random-attempting every item.',
+    'Using last year\'s section timings instead of the live XAT bulletin.'
+  ],
+  lastUpdated: '2026-07-28',
   officialSource: 'https://xatonline.in/',
 };
 

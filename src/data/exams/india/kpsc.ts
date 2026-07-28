@@ -51,7 +51,16 @@ const exam: ExamTemplate = {
     })),
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
-  lastUpdated: '2026-05-30',
+  prepOverview:
+    'KPSC KAS is a multi-stage Karnataka state civil service exam (Prelims, Mains, Interview as notified). Build national GS plus Karnataka history, geography, economy and schemes; practise previous KPSC papers and answer writing. Confirm syllabus and stages on kpsc.kar.nic.in for the live advert.',
+  commonMistakes: [
+    'Ignoring Karnataka-specific GS units.',
+    'No mains answer-writing practice.',
+    'Weak prelims MCQ timing and negative-marking strategy.',
+    'Outdated syllabus PDFs.',
+    'Application document and eligibility checklist failures.'
+  ],
+  lastUpdated: '2026-07-28',
   officialSource: 'https://kpsc.kar.nic.in/',
 };
 

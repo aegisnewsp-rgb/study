@@ -51,7 +51,16 @@ const exam: ExamTemplate = {
     })),
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
-  lastUpdated: '2026-05-30',
+  prepOverview:
+    'SBI Clerk (Junior Associate): Prelims and Mains with sectional timing and negative marking as notified. Build daily speed in Numerical Ability, Reasoning and English; add Computer/GA depth for Mains. Weekly full Prelims mock; track accuracy > attempts. Local language requirements may apply for some states — read the live SBI Clerk notice carefully. Use StudyRoadmap plans for day-level sequencing.',
+  commonMistakes: [
+    'Ignoring sectional cut-offs and only watching overall score in mocks.',
+    'Under-practising English RC and grammar under time pressure.',
+    'Skipping computer awareness for Mains.',
+    'No local-language or document checklist against the official notice.',
+    'Random guessing with 0.25 negative marking and no attempt strategy.'
+  ],
+  lastUpdated: '2026-07-28',
   officialSource: 'https://sbi.bank.in/web/careers/current-openings',
 };
 

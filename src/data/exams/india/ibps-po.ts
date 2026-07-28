@@ -51,7 +51,16 @@ const exam: ExamTemplate = {
     })),
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
-  lastUpdated: '2026-05-30',
+  prepOverview:
+    'IBPS PO is Prelims → Mains → Interview for public-sector bank PO roles. Phase 1: speed accuracy in Quant, Reasoning and English for Prelims sectional timing. Phase 2: Mains-level DI, puzzle sets, GA/banking awareness and descriptive English. Phase 3: full Prelims mocks every 2–3 days, then Mains mocks; maintain a banking-current-affairs notebook. Confirm vacancies, pattern and dates on ibps.in; use StudyRoadmap roadmaps for weeks left.',
+  commonMistakes: [
+    'Clearing Prelims speed drills but never practising Mains DI and descriptive English.',
+    'Ignoring banking awareness until after Prelims results.',
+    'Random guessing under negative marking without an attempt plan.',
+    'Solving untimed puzzles only — failing sectional cut-offs in mocks.',
+    'Trusting unofficial vacancy rumours instead of the IBPS CRP notice.'
+  ],
+  lastUpdated: '2026-07-28',
   officialSource: 'https://www.ibps.in/',
 };
 

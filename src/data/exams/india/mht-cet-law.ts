@@ -49,7 +49,16 @@ const exam: ExamTemplate = {
     })),
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
-  lastUpdated: '2026-05-30',
+  prepOverview:
+    'MHCET Law is Maharashtra\'s law CET for 3-year and 5-year LLB programmes. Focus on legal aptitude/legal reasoning, logical reasoning, English and GK as per the live CET Cell pattern. Daily principle-to-fact drills and timed full papers; confirm dates and syllabus on cetcell.mahacet.org.',
+  commonMistakes: [
+    'Memorising bare acts instead of principle-application practice.',
+    'Ignoring English and logical reasoning sections.',
+    'No full-length timed CET papers.',
+    'Confusing 3-year vs 5-year eligibility and application forms.',
+    'Using outdated pattern blogs instead of the live CET Cell notice.'
+  ],
+  lastUpdated: '2026-07-28',
   officialSource: 'https://cetcell.mahacet.org/',
 };
 

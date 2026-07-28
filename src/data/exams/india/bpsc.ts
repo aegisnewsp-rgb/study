@@ -51,7 +51,16 @@ const exam: ExamTemplate = {
     })),
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
-  lastUpdated: '2026-05-30',
+  prepOverview:
+    'BPSC Combined exams test GS and optional/state-specific papers depending on the notification. Build NCERT + Bihar special (history, geography, polity, current) foundations; answer-writing practice for mains if applicable. Confirm exam stages and syllabus on the official BPSC website for the live advert.',
+  commonMistakes: [
+    'Ignoring Bihar-specific GS while only reading national materials.',
+    'No answer-writing practice for descriptive stages.',
+    'Outdated syllabus PDFs.',
+    'Skipping current affairs notebooks.',
+    'Treating prelims cut-offs as fixed guarantees.'
+  ],
+  lastUpdated: '2026-07-28',
   officialSource: 'https://bpsc.bihar.gov.in/',
 };
 

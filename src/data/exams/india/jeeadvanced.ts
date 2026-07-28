@@ -154,7 +154,16 @@ const exam: ExamTemplate = {
   subjects,
   durations,
   rescueMode,
-  lastUpdated: '2026-04-06',
+  prepOverview:
+    'JEE Advanced is a multi-format conceptual exam (Paper 1 + Paper 2), not a speed race like JEE Main. Phase 1: lock Class 11–12 PCM fundamentals with multi-concept problems, not formula lists. Phase 2: drill integer-answer, multi-correct and paragraph sets under timed sections; log which format costs marks. Phase 3: full two-paper mocks weekly, then twice weekly near the exam — review wrong attempts for multi-topic linkage failures. Weight calendar toward Electrostatics, Rotational Motion, Organic mechanisms, Coordinate Geometry and Calculus. Use StudyRoadmap notes + free roadmap for remaining weeks; confirm eligibility, pattern and marking only on jeeadv.ac.in for the live cycle.',
+  commonMistakes: [
+    'Preparing only JEE Main-style single-correct speed tests and never practising multi-correct or integer formats.',
+    'Memorising solutions without rebuilding free-body diagrams, reaction mechanisms or proof-style steps from scratch.',
+    'Ignoring Paper 2 stamina and always stopping after one paper in mocks.',
+    'Relying on last year\'s marking scheme or eligibility cut-offs instead of the current JEE Advanced brochure.',
+    'Skipping error logs — repeating the same multi-concept trap across mocks.'
+  ],
+  lastUpdated: '2026-07-28',
   officialSource: 'https://jeeadv.ac.in',
 };
 export default exam;

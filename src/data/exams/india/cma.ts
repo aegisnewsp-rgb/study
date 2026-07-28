@@ -51,7 +51,16 @@ const exam: ExamTemplate = {
     })),
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
-  lastUpdated: '2026-05-30',
+  prepOverview:
+    'CMA Foundation (ICMAI) is the entry stage for the cost and management accounting path. Phase 1: ICMAI study material cover-to-cover; Phase 2: MTPs/RTPs and chapter tests; Phase 3: full papers under exam timing. Confirm paper names and exam windows on icmai.in for your term.',
+  commonMistakes: [
+    'Ignoring official ICMAI material in favour of only third-party notes.',
+    'No practice with MTP/RTP-style papers.',
+    'Weak fundamentals of accounting and law papers.',
+    'Skipping quantitative/economics practice if in the foundation mix.',
+    'Using outdated scheme/paper names after institute updates.'
+  ],
+  lastUpdated: '2026-07-28',
   officialSource: 'https://icmai.in/ClntStudents/Overview',
 };
 

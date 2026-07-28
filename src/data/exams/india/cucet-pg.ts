@@ -49,7 +49,16 @@ const exam: ExamTemplate = {
     })),
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
-  lastUpdated: '2026-05-30',
+  prepOverview:
+    'CUET PG (NTA) is the common PG entrance for many central and participating universities. Phase 1: map your domain paper code from the live NTA bulletin; Phase 2: syllabus-aligned MCQ practice; Phase 3: full mocks matching official duration and marking. Confirm paper codes, dates and participating universities on exams.nta.nic.in/cuet-pg/.',
+  commonMistakes: [
+    'Studying the wrong domain paper code relative to target university programmes.',
+    'Ignoring the official NTA syllabus PDF for your paper.',
+    'No full-length timed mocks.',
+    'Assuming every central university still uses the same old CUCET branding/rules.',
+    'Missing application and correction-window deadlines.'
+  ],
+  lastUpdated: '2026-07-28',
   officialSource: 'https://exams.nta.nic.in/cuet-pg/',
 };
 

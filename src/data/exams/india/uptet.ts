@@ -53,7 +53,16 @@ const exam: ExamTemplate = {
     })),
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
-  lastUpdated: '2026-05-30',
+  prepOverview:
+    'UPTET is Uttar Pradesh\'s teacher eligibility test with Paper 1 (primary) and/or Paper 2 (upper primary), heavy on Child Development & Pedagogy plus language and subject content. Study CDP with NCERT-aligned examples; practise UP-specific previous papers for difficulty calibration. Confirm notifications, fees and paper structure on the official UP exam body site for the live cycle.',
+  commonMistakes: [
+    'Using only CTET materials without checking UPTET paper structure differences.',
+    'Ignoring pedagogy and treating it as a pure content exam.',
+    'No timed full papers before exam day.',
+    'Preparing both papers shallowly instead of mastering the paper you will take.',
+    'Relying on outdated vacancy-linked myths — TET is eligibility, not a job guarantee.'
+  ],
+  lastUpdated: '2026-07-28',
   officialSource: 'https://updeled.gov.in/',
 };
 

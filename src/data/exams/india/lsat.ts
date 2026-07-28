@@ -51,7 +51,16 @@ const exam: ExamTemplate = {
     })),
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
-  lastUpdated: '2026-05-30',
+  prepOverview:
+    'LSAT—India style law admission tests emphasise reading comprehension, analytical and logical reasoning (confirm the current LSAT—India / Pearson pattern for your cycle). Daily untimed-to-timed LR and RC drills; full practice tests weekly. Verify registration and score use with target law schools and the official test provider.',
+  commonMistakes: [
+    'Memorising legal facts instead of practising reasoning sections.',
+    'No full-length timed practice tests.',
+    'Ignoring official section order and timing.',
+    'Random guessing without process of elimination discipline.',
+    'Using outdated pattern claims.'
+  ],
+  lastUpdated: '2026-07-28',
   officialSource: 'https://www.lsac.org/blog/tag/lsat-india',
 };
 

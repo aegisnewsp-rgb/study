@@ -49,7 +49,16 @@ const exam: ExamTemplate = {
     })),
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
-  lastUpdated: '2026-05-30',
+  prepOverview:
+    'AP EAPCET (Andhra Pradesh) is the state professional entrance for engineering/agriculture/pharmacy streams. Finish Intermediate textbooks, then previous AP EAPCET papers under timed conditions. Confirm stream codes, dates and syllabus on the official APSCHE / AP EAPCET portal.',
+  commonMistakes: [
+    'Ignoring Intermediate weightage patterns.',
+    'No timed full papers.',
+    'Weak chemistry practice.',
+    'Application document mistakes.',
+    'Confusing AP and TS portals/notices.'
+  ],
+  lastUpdated: '2026-07-28',
   officialSource: 'https://cets.apsche.ap.gov.in/EAPCET/',
 };
 

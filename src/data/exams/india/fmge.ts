@@ -59,7 +59,16 @@ const exam: ExamTemplate = {
     })),
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
-  lastUpdated: '2026-05-30',
+  prepOverview:
+    'FMGE (NBEMS) is the screening test for foreign medical graduates seeking registration in India. Coverage spans the full MBBS map with high weight on Medicine, Surgery, OBG, PSM, Pathology and Pharma. Phase 1: subject-wise high-yield notes; Phase 2: large-volume MCQs with negative-marking discipline if applicable; Phase 3: full mocks. Confirm eligibility, attempts and pattern on the official NBEMS FMGE notice.',
+  commonMistakes: [
+    'Studying only pre-clinical subjects and under-preparing clinical and PSM blocks.',
+    'No timed full papers before the exam window.',
+    'Ignoring official eligibility and internship documentation rules.',
+    'Using outdated pattern claims from forums.',
+    'Skipping systematic revision of high-yield image/clinical vignette styles if present in recent papers.'
+  ],
+  lastUpdated: '2026-07-28',
   officialSource: 'https://natboard.edu.in/viewnbeexam?exam=fmge',
 };
 

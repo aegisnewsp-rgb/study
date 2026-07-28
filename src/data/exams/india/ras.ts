@@ -53,7 +53,16 @@ const exam: ExamTemplate = {
     })),
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
-  lastUpdated: '2026-05-30',
+  prepOverview:
+    'Rajasthan RAS (RPSC) typically has Prelims and Mains with strong Rajasthan GS weight. Build national GS + Rajasthan history, geography, economy and current schemes; practise answer writing for mains. Confirm pattern on rpsc.rajasthan.gov.in for the live advert.',
+  commonMistakes: [
+    'Ignoring Rajasthan-specific GS.',
+    'No mains answer-writing practice.',
+    'Weak prelims MCQ timing.',
+    'Outdated syllabus PDFs.',
+    'Unstructured current affairs.'
+  ],
+  lastUpdated: '2026-07-28',
   officialSource: 'https://rpsc.rajasthan.gov.in/',
 };
 

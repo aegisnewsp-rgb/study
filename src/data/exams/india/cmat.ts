@@ -51,7 +51,16 @@ const exam: ExamTemplate = {
     })),
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
-  lastUpdated: '2026-05-30',
+  prepOverview:
+    'CMAT (NTA) is a national MBA entrance with Quant, Logical Reasoning, Language Comprehension and General Awareness (plus Innovation & Entrepreneurship in recent cycles — confirm bulletin). Phase 1: Class 10 quant + standard LR + RC habits; daily 20-minute GA notebook (economy, awards, business). Phase 2: mixed sectional tests; log weak GA themes separately from quant errors. Phase 3: full CBT-style mocks weekly; review GA wrong answers as permanent flashcards. Confirm pattern and dates on cmat.nta.nic.in; use StudyRoadmap free roadmaps for day-level sequencing.',
+  commonMistakes: [
+    'Ignoring General Awareness until the last week while only drilling quant.',
+    'Treating CMAT like CAT VARC depth instead of balanced four-section scoring.',
+    'Skipping Innovation & Entrepreneurship preparation if the live paper includes it.',
+    'Taking untimed topic quizzes only without full NTA-length mocks.',
+    'Relying on last year\'s section weights instead of the current NTA notice.'
+  ],
+  lastUpdated: '2026-07-28',
   officialSource: 'https://cmat.nta.nic.in/',
 };
 

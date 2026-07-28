@@ -49,7 +49,16 @@ const exam: ExamTemplate = {
     })),
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
-  lastUpdated: '2026-05-30',
+  prepOverview:
+    'WBJEE tests PCM for West Bengal engineering/pharmacy admissions, typically with Paper I (Maths) and Paper II (Physics + Chemistry) in category-based marking (confirm live). Phase 1: Class 11–12 fundamentals; Phase 2: category-wise practice if applicable; Phase 3: full previous papers. Confirm pattern and dates on wbjeeb.nic.in.',
+  commonMistakes: [
+    'Ignoring category-based marking strategy from the official brochure.',
+    'Under-practising Mathematics Paper I relative to its rank impact.',
+    'No full two-paper simulation on the same day.',
+    'Using only JEE Advanced problems without WBJEE-style speed sets.',
+    'Trusting outdated syllabus PDFs instead of the live WBJEEB notice.'
+  ],
+  lastUpdated: '2026-07-28',
   officialSource: 'https://wbjeeb.nic.in/wbjee/',
 };
 

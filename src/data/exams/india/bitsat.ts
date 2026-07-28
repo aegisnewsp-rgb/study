@@ -53,7 +53,16 @@ const exam: ExamTemplate = {
     })),
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
-  lastUpdated: '2026-05-30',
+  prepOverview:
+    'BITSAT is a computer-based, high-speed entrance for BITS campuses covering Physics, Chemistry, Mathematics/Biology, English and Logical Reasoning (confirm live composition). Phase 1: NCERT-level PCM accuracy; Phase 2: speed drills + English/LR daily; Phase 3: full BITSAT-length mocks with bonus questions strategy as per the notice. Verify dates on bitsadmission.com / official BITSAT page.',
+  commonMistakes: [
+    'Preparing only JEE Advanced depth and never practising BITSAT-speed papers.',
+    'Ignoring English and Logical Reasoning sections.',
+    'No strategy for bonus questions if offered in the live pattern.',
+    'Random guessing without understanding negative marking rules in the bulletin.',
+    'Using outdated syllabus PDFs instead of the current BITSAT brochure.'
+  ],
+  lastUpdated: '2026-07-28',
   officialSource: 'https://www.bits-pilani.ac.in/bitsat/',
 };
 

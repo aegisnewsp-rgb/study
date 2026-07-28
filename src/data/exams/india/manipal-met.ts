@@ -46,7 +46,16 @@ const exam: ExamTemplate = {
     })),
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
-  lastUpdated: '2026-04-01',
+  prepOverview:
+    'Manipal MET is the entrance for Manipal Academy programmes (engineering and others as notified). Focus on PCM accuracy and speed plus English/aptitude if included. Full official-pattern mocks. Confirm syllabus and dates on the official Manipal admissions site.',
+  commonMistakes: [
+    'Only JEE Advanced prep without MET-speed practice.',
+    'Ignoring English/aptitude components if present.',
+    'No full-length mocks.',
+    'Outdated syllabus PDFs.',
+    'Application deadline misses.'
+  ],
+  lastUpdated: '2026-07-28',
   officialSource: 'https://manipal.edu/mu-met',
 };
 

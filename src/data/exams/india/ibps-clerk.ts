@@ -51,7 +51,16 @@ const exam: ExamTemplate = {
     })),
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
-  lastUpdated: '2026-05-30',
+  prepOverview:
+    'IBPS Clerk is Prelims + Mains for clerical cadre in participating banks. Focus on high accuracy under sectional time: Reasoning, Quant/Numerical Ability and English in Prelims; Mains adds Computer/GA depth depending on the live notice. Daily: 1 speed quant set, 1 puzzle set, 1 RC/grammar set; weekly full Prelims mock. Confirm pattern on ibps.in; keep StudyRoadmap free plans for remaining days.',
+  commonMistakes: [
+    'Chasing hard puzzles only and failing easy quant accuracy under time.',
+    'Skipping English altogether hoping other sections compensate for sectional cut-offs.',
+    'No full-length Prelims mocks before the exam week.',
+    'Ignoring computer/GA topics listed in the current Mains syllabus.',
+    'Using last year\'s cut-off as a guarantee rather than a planning benchmark.'
+  ],
+  lastUpdated: '2026-07-28',
   officialSource: 'https://www.ibps.in/index.php/clerical-cadre/',
 };
 

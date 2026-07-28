@@ -49,7 +49,16 @@ const exam: ExamTemplate = {
     })),
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
-  lastUpdated: '2026-05-30',
+  prepOverview:
+    'TS EAMCET (Telangana) covers Engineering/Agriculture & Medical streams with PCM or PCB as applicable. Align prep to Intermediate syllabus; practise previous TS EAMCET papers under official timing. Confirm stream, dates and marking on the official TG EAPCET / TS EAMCET portal for the live cycle.',
+  commonMistakes: [
+    'Studying only national JEE papers without state-board-aligned practice.',
+    'No full-length timed mocks.',
+    'Ignoring botany/zoology weight for biPC streams.',
+    'Document errors at application time.',
+    'Using outdated exam name/portal links.'
+  ],
+  lastUpdated: '2026-07-28',
   officialSource: 'https://eapcet.tgche.ac.in/',
 };
 

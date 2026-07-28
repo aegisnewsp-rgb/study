@@ -196,7 +196,16 @@ const exam: ExamTemplate = {
     })),
     strategy: 'Focus on high-weight chapters, bare Acts, and ICSI past papers / suggested answers.',
   },
-  lastUpdated: '2026-05-30',
+  prepOverview:
+    'CS Executive (ICSI New Syllabus) is a two-group professional stage after CSEET/Foundation. Phase 1: ICSI study material + bare Acts for company law, securities and tax papers. Phase 2: chapter-wise past papers and suggested answers; Phase 3: full group mocks under exam timing. Prioritise corporate law and accounts/FM as rank-critical. Confirm paper list and exemptions on icsi.edu for your enrolment session.',
+  commonMistakes: [
+    'Reading only summary notes without ICSI study material and bare Act practice.',
+    'Skipping suggested answers and past paper writing practice.',
+    'Preparing both groups shallowly instead of securing one group thoroughly first if attempting split.',
+    'Ignoring amendments notified by ICSI for the attempt.',
+    'No timed full-paper practice before the exam window.'
+  ],
+  lastUpdated: '2026-07-28',
   officialSource: 'https://www.icsi.edu/academic-portal/new-syllabus-2022/executive-programme/',
 };
 

@@ -51,7 +51,16 @@ const exam: ExamTemplate = {
     })),
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
-  lastUpdated: '2026-05-30',
+  prepOverview:
+    'AILET (NLU Delhi) is a law entrance with English, Current Affairs & GK, Legal Reasoning, Logical Reasoning and Quantitative Techniques (confirm live section weights). Build daily reading + principle-to-fact legal reasoning drills; keep a legal-current-affairs notebook. Full timed mocks weekly. Confirm pattern and dates on the official NLU Delhi AILET portal.',
+  commonMistakes: [
+    'Memorising bare acts instead of practising principle-application passages.',
+    'Ignoring GK/current affairs with legal themes.',
+    'No full-length timed mocks with the official section mix.',
+    'Over-investing in quant relative to its live weight.',
+    'Using last year\'s question count instead of the current brochure.'
+  ],
+  lastUpdated: '2026-07-28',
   officialSource: 'https://nludelhi.ac.in/admission/ailet/',
 };
 

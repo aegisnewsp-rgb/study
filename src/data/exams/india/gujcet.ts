@@ -49,7 +49,16 @@ const exam: ExamTemplate = {
     })),
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
-  lastUpdated: '2026-05-30',
+  prepOverview:
+    'GUJCET is Gujarat\'s state entrance aligned closely to GSHSEB Class 12 PCM/PCB. Complete Gujarat board textbooks first; then timed GUJCET papers. Confirm dates and pattern on the official GSEB / GUJCET portal.',
+  commonMistakes: [
+    'Using only CBSE materials without Gujarat board emphasis.',
+    'No full-length timed mocks.',
+    'Ignoring chemistry board-weight chapters.',
+    'Application form errors.',
+    'Outdated pattern PDFs.'
+  ],
+  lastUpdated: '2026-07-28',
   officialSource: 'https://gujcet.gseb.org/',
 };
 

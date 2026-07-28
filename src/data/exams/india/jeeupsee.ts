@@ -49,7 +49,16 @@ const exam: ExamTemplate = {
     })),
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
-  lastUpdated: '2026-05-30',
+  prepOverview:
+    'UP technical admissions have largely shifted toward national scores (for example JEE Main) and university-notified processes. Treat this hub as a planning map for AKTU-affiliated pathways: strengthen PCM fundamentals, take timed full papers, and always confirm the current admission route, counselling body and eligibility on aktu.ac.in and the live state counselling portal — do not assume older UPSEE-only rules still apply.',
+  commonMistakes: [
+    'Preparing for a discontinued standalone UPSEE pattern without checking the current AKTU/state counselling notice.',
+    'Ignoring JEE Main (or other accepted scores) if the live admission cycle requires them.',
+    'No full-length PCM timed practice.',
+    'Document and domicile checklist failures at counselling.',
+    'Trusting outdated college cut-off PDFs as guarantees.'
+  ],
+  lastUpdated: '2026-07-28',
   officialSource: 'https://aktu.ac.in/',
 };
 

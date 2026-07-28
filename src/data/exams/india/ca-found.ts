@@ -51,7 +51,16 @@ const exam: ExamTemplate = {
     })),
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
-  lastUpdated: '2026-05-30',
+  prepOverview:
+    'CA Foundation (ICAI) tests Accounting, Business Laws, Quant/Stats/Logical Reasoning and Business Economics (paper names as per the live ICAI scheme). Phase 1: ICAI study material cover-to-cover; Phase 2: RTPs/MTPs; Phase 3: full papers under exam timing. Confirm syllabus and exam windows on icai.org.',
+  commonMistakes: [
+    'Ignoring ICAI study material in favour of only third-party notes.',
+    'No practice with ICAI RTP/MTP papers.',
+    'Weak law section writing/MCQ practice as applicable.',
+    'Skipping quantitative practice.',
+    'Using outdated scheme/paper names after ICAI updates.'
+  ],
+  lastUpdated: '2026-07-28',
   officialSource: 'https://www.icai.org/category/examination-students',
 };
 

@@ -53,7 +53,16 @@ const exam: ExamTemplate = {
     })),
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
-  lastUpdated: '2026-05-30',
+  prepOverview:
+    'INI CET is the PG medical entrance for AIIMS and other Institutes of National Importance. Phase 1: high-yield integrated notes across pre/para/clinical subjects (Pathology, Pharma, Medicine, Surgery, OBG, PSM). Phase 2: daily timed Q-bank with error logs; Phase 3: full-length mocks matching the live duration and marking. Do not restart first-year textbooks cover-to-cover. Confirm dates and pattern on aiimsexams.ac.in; use StudyRoadmap subject notes and free roadmaps for remaining weeks.',
+  commonMistakes: [
+    'Re-reading entire first-year books instead of high-yield Q-bank cycles.',
+    'Ignoring clinical subjects while over-investing in low-yield minutiae.',
+    'No full-length mocks under exam-day fatigue conditions.',
+    'Skipping error-log analysis and repeating the same misread patterns.',
+    'Trusting unofficial seat matrices instead of official counselling notices.'
+  ],
+  lastUpdated: '2026-07-28',
   officialSource: 'https://www.aiimsexams.ac.in/',
 };
 

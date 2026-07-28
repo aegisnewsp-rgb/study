@@ -53,7 +53,16 @@ const exam: ExamTemplate = {
     })),
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
-  lastUpdated: '2026-05-30',
+  prepOverview:
+    'RBI Grade B is a multi-phase officer exam (Phase I objective, Phase II papers, interview — confirm live). Phase I: speed in GA, Reasoning, English, Quant. Phase II: Economic & Social Issues, Finance/Management, English descriptive. Build a serious economics/finance reading habit; weekly full Phase I mocks; structured Phase II answer writing. Confirm pattern on rbi.org.in notifications.',
+  commonMistakes: [
+    'Clearing Phase I speed tests but never practising Phase II descriptive economics/finance answers.',
+    'Ignoring RBI reports, budget and monetary-policy basics.',
+    'No current-affairs depth for ESI.',
+    'Untimed practice only.',
+    'Using outdated Phase II paper structure.'
+  ],
+  lastUpdated: '2026-07-28',
   officialSource: 'https://opportunities.rbi.org.in/',
 };
 

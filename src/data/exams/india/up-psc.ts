@@ -53,7 +53,16 @@ const exam: ExamTemplate = {
     })),
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
-  lastUpdated: '2026-05-30',
+  prepOverview:
+    'UPPSC PCS-style exams typically run Prelims → Mains → Interview with heavy Uttar Pradesh GS weight. Phase 1: NCERT + standard GS; Phase 2: UP special (history, geography, schemes, polity); Phase 3: answer writing and full mocks. Confirm paper structure and CSAT rules on uppsc.up.nic.in for the live notification. Use StudyRoadmap roadmaps for remaining weeks.',
+  commonMistakes: [
+    'Ignoring Uttar Pradesh-specific GS while only reading national materials.',
+    'No timed CSAT practice when the notice makes Paper II qualifying or scoring.',
+    'Weak mains answer structure and word-limit discipline.',
+    'Outdated optional/GS lists from old advertisements.',
+    'Unstructured current affairs without monthly revision notes.'
+  ],
+  lastUpdated: '2026-07-28',
   officialSource: 'https://uppsc.up.nic.in/',
 };
 

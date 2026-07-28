@@ -51,7 +51,16 @@ const exam: ExamTemplate = {
     })),
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
-  lastUpdated: '2026-05-30',
+  prepOverview:
+    'JIPMER MBBS seats are filled through the national NEET UG process under current rules (confirm live MCC counselling notices). Prepare as for NEET UG with strong NCERT Biology and timed mocks. Verify eligibility and counselling on official portals only.',
+  commonMistakes: [
+    'Preparing for a separate JIPMER MBBS written exam that is no longer the primary route.',
+    'Weak NCERT Biology coverage.',
+    'No NEET-length mocks.',
+    'Ignoring official counselling timelines.',
+    'Unofficial cut-off guarantees.'
+  ],
+  lastUpdated: '2026-07-28',
   officialSource: 'https://jipmer.edu.in/announcement/entrance-examinations-admissions',
 };
 

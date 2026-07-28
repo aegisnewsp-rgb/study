@@ -4,7 +4,7 @@ examName: TNPSC Group 1
 subject: geography
 subjectName: "Geography"
 topic: geogra-002
-topicName: Topic 2: Geography of Regional Concept
+topicName: "Topic 2: Geography of Regional Concept"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"

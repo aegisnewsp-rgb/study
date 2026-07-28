@@ -4,14 +4,14 @@ examName: INI CET (AIIMS PG)
 subject: pharmacology
 subjectName: "Pharmacology"
 topic: pharma-001
-topicName: Topic 1 — Pharmacokinetics: Absorption, Distribution, Metabolism & Excretion (AD
+topicName: "Pharmacokinetics (ADME)"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
 lastUpdated: "2026-07-28"
 ---
 
-# Topic 1 — Pharmacokinetics: Absorption, Distribution, Metabolism & Excretion (ADME)
+# Pharmacokinetics (ADME)
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your INI CET (AIIMS PG) exam.

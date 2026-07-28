@@ -241,7 +241,16 @@ const exam: ExamTemplate = {
   subjects,
   durations,
   rescueMode,
-  lastUpdated: '2026-04-06',
+  prepOverview:
+    'NECO SSCE is a senior secondary exit exam parallel to WAEC pathways. Finish syllabus subject-by-subject, then drill NECO past papers under timed conditions. Confirm registration windows and subjects on the official NECO portal; pair with StudyRoadmap free plans for remaining weeks.',
+  commonMistakes: [
+    'Preparing only WAEC papers without NECO-style past questions.',
+    'No timed full papers per subject.',
+    'Weak English and mathematics fundamentals.',
+    'Practical/subject-specific requirements ignored.',
+    'Registration and photo/document errors.'
+  ],
+  lastUpdated: '2026-07-28',
   officialSource: 'https://www.negov.org',
 };
 

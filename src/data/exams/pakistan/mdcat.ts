@@ -184,7 +184,16 @@ const exam: ExamTemplate = {
   subjects,
   durations,
   rescueMode,
-  lastUpdated: '2026-04-06',
+  prepOverview:
+    'MDCAT is Pakistan\'s medical/dental college entry route (PMC/provincial authorities — confirm the live body for your province/year). Phase 1: FSc/A-level Biology first (highest weight), then Chemistry and Physics with formula fluency. Phase 2: unit-wise timed MCQs with negative-marking discipline if applicable; Phase 3: full MDCAT-length mocks weekly. Use StudyRoadmap notes and free roadmaps; verify registration, syllabus and paper rules only on the official notice for your cycle.',
+  commonMistakes: [
+    'Under-weighting Biology relative to its typical share of the paper.',
+    'Memorising without timed full-length mocks under exam fatigue.',
+    'Ignoring provincial or federal notice differences for the live year.',
+    'No error log — repeating the same calculation and concept traps.',
+    'Trusting unofficial cut-off guarantees instead of official merit lists.'
+  ],
+  lastUpdated: '2026-07-28',
   officialSource: 'https://www.pmc.gov.pk',
 };
 

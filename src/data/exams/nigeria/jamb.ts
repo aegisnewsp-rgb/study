@@ -147,7 +147,16 @@ const exam: ExamTemplate = {
   subjects,
   durations,
   rescueMode,
-  lastUpdated: '2026-04-02',
+  prepOverview:
+    'JAMB UTME is Nigeria\'s unified tertiary matriculation exam. Phase 1: master your four UTME subjects (including Use of English) from the official syllabus; Phase 2: CBT-style timed sets; Phase 3: full mocks matching the live item count and duration. Confirm subject combinations, CBT rules and registration on jamb.gov.ng; use StudyRoadmap roadmaps for remaining weeks.',
+  commonMistakes: [
+    'Choosing subject combinations that do not match target course requirements.',
+    'Practising only phone quizzes without full CBT-timed mocks.',
+    'Ignoring Use of English while over-focusing on one science subject.',
+    'Relying on expo rumours instead of syllabus-aligned practice.',
+    'Missing official registration and mock-CBT windows.'
+  ],
+  lastUpdated: '2026-07-28',
   officialSource: 'https://www.jamb.gov.ng',
 };
 

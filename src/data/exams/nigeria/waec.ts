@@ -263,7 +263,16 @@ const exam: ExamTemplate = {
   subjects,
   durations,
   rescueMode,
-  lastUpdated: '2026-04-06',
+  prepOverview:
+    'WASSCE (WAEC) rewards consistent SS-level subject mastery, not last-week cramming. Phase 1: finish syllabus topics per subject with notes and past-question tagging; Phase 2: timed past papers under WAEC exam conditions; Phase 3: weak-topic repair weeks. Confirm registration, subjects and paper dates on the official WAEC portal for your country centre.',
+  commonMistakes: [
+    'Skipping practical/oral components where required for the subject.',
+    'Memorising answers without understanding marking-scheme keywords.',
+    'No timed full past papers before the exam diet.',
+    'Ignoring English Language practice despite its gatekeeper role for many admissions.',
+    'Using leaked-paper myths instead of official syllabus coverage.'
+  ],
+  lastUpdated: '2026-07-28',
   officialSource: 'https://www.waeconline.org.ng',
 };
 

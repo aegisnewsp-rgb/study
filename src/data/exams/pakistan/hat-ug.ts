@@ -132,7 +132,16 @@ const exam: ExamTemplate = {
   subjects,
   durations,
   rescueMode,
-  lastUpdated: '2026-04-02',
+  prepOverview:
+    'HAT / undergraduate aptitude pathways in Pakistan test English, analytical and quantitative skills as notified by HEC or the conducting body. Daily verbal + quant drills; weekly full timed tests; confirm the live HAT notice for pattern and score use by universities.',
+  commonMistakes: [
+    'Ignoring analytical reasoning while only cramming vocabulary lists.',
+    'No full-length timed practice tests.',
+    'Outdated pattern claims.',
+    'Weak quantitative speed.',
+    'Missing score-reporting deadlines for target universities.'
+  ],
+  lastUpdated: '2026-07-28',
   officialSource: 'https://www.hec.edu.pk',
 };
 

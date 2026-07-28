@@ -127,7 +127,16 @@ const exam: ExamTemplate = {
   subjects,
   durations,
   rescueMode,
-  lastUpdated: '2026-04-06',
+  prepOverview:
+    'NAT (NTS) style tests are used by many Pakistani universities for undergraduate admission. Build English, analytical and subject/module skills as per your NAT type; take timed full NTS-style papers. Confirm which NAT version your university accepts on the official NTS and university portals.',
+  commonMistakes: [
+    'Preparing the wrong NAT type for the target university.',
+    'No timed full practice tests.',
+    'Ignoring English comprehension weight.',
+    'Outdated module lists.',
+    'Score validity window mistakes.'
+  ],
+  lastUpdated: '2026-07-28',
   officialSource: 'https://www.nts.org.pk',
 };
 

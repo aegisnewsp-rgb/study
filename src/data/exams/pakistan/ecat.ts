@@ -140,7 +140,16 @@ const exam: ExamTemplate = {
   subjects,
   durations,
   rescueMode,
-  lastUpdated: '2026-04-02',
+  prepOverview:
+    'ECAT is engineering college admission testing in Pakistan (UET and related pathways — confirm the live conducting body). Phase 1: intermediate Mathematics and Physics depth; Phase 2: Chemistry + English as required by the notice; Phase 3: full timed papers. Confirm pattern and dates on the official ECAT / UET portal for your session.',
+  commonMistakes: [
+    'Ignoring Mathematics weight and over-preparing only Physics theory.',
+    'No full-length timed ECAT mocks.',
+    'Using outdated syllabus PDFs after board/exam updates.',
+    'Weak English/comprehension practice if scored in the live paper.',
+    'Application and equivalence document mistakes.'
+  ],
+  lastUpdated: '2026-07-28',
   officialSource: 'https://www.ecat.gov.pk',
 };
 

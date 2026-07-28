@@ -139,7 +139,16 @@ const exam: ExamTemplate = {
   subjects,
   durations,
   rescueMode,
-  lastUpdated: '2026-04-02',
+  prepOverview:
+    'LAT (Law Admission Test) pathways in Pakistan assess English, GK, Islamic studies/Pakistan studies and analytical skills as notified. Build daily reading + MCQ speed; keep a current-affairs notebook; sit full timed papers. Confirm the live HEC/provincial LAT notice for pattern and eligibility.',
+  commonMistakes: [
+    'Ignoring analytical/English sections while only cramming GK lists.',
+    'No full-length timed practice.',
+    'Outdated pattern blogs.',
+    'Weak Pakistan studies coverage.',
+    'Missing registration deadlines.'
+  ],
+  lastUpdated: '2026-07-28',
   officialSource: 'https://www.lat.gov.pk',
 };
 

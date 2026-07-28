@@ -57,8 +57,8 @@ const navLinks = [
                 </svg>
             </button>
 
-            <!-- CTA Button -->
-            <a href="/roadmap/" class="btn-primary text-sm px-4 py-2 hidden sm:inline-flex">
+            <!-- CTA Button (becomes Resume when sr_last_plan exists) -->
+            <a id="sr-nav-cta" href="/roadmap/" class="btn-primary text-sm px-4 py-2 hidden sm:inline-flex">
                 Get Roadmap
             </a>
 
@@ -94,7 +94,7 @@ const navLinks = [
                     {link.label}
                 </a>
             ))}
-            <a href="/roadmap/" class="block mt-2 btn-primary text-sm px-4 py-3 text-center rounded-lg">
+            <a id="sr-nav-cta-mobile" href="/roadmap/" class="block mt-2 btn-primary text-sm px-4 py-3 text-center rounded-lg">
                 Get Your Roadmap
             </a>
         </div>
@@ -125,4 +125,20 @@ const navLinks = [
             mobileBtn?.focus();
         }
     });
+
+    // Resume CTA from last plan (localStorage)
+    try {
+        const raw = localStorage.getItem('sr_last_plan');
+        if (raw) {
+            const plan = JSON.parse(raw) as { exam?: string; duration?: string; examName?: string };
+            if (plan?.exam && plan?.duration) {
+                const href = `/roadmap/?exam=${encodeURIComponent(plan.exam)}&duration=${encodeURIComponent(plan.duration)}`;
+                const label = `Resume ${plan.examName || plan.exam}`;
+                const desk = document.getElementById('sr-nav-cta') as HTMLAnchorElement | null;
+                const mob = document.getElementById('sr-nav-cta-mobile') as HTMLAnchorElement | null;
+                if (desk) { desk.href = href; desk.textContent = label; }
+                if (mob) { mob.href = href; mob.textContent = label; }
+            }
+        }
+    } catch { /* ignore */ }
 </script>

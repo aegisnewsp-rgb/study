@@ -210,15 +210,22 @@ const howToSteps = [
           <br class="hidden sm:block" />No signup. No fees. Just results.
         </p>
 
-        <div class="flex flex-col sm:flex-row items-center justify-center gap-3 mb-8">
-          <a href="/roadmap/" class="btn-primary text-base px-7 py-3 shadow-lg shadow-brand-600/25 w-full sm:w-auto justify-center">
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-3 mb-4">
+          <a id="sr-hero-primary" href="/roadmap/" class="btn-primary text-base px-7 py-3 shadow-lg shadow-brand-600/25 w-full sm:w-auto justify-center">
             Generate Your Roadmap
             <svg aria-hidden="true" focusable="false" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
             </svg>
           </a>
-          <a href="#exams" class="btn-secondary text-base px-7 py-3 w-full sm:w-auto justify-center border-surface-600">
+          <a id="sr-hero-secondary" href="#exams" class="btn-secondary text-base px-7 py-3 w-full sm:w-auto justify-center border-surface-600">
             Browse Exams
+          </a>
+        </div>
+        <!-- Resume last plan (localStorage) — hidden until client finds sr_last_plan -->
+        <div id="sr-resume-banner" class="hidden max-w-xl mx-auto mb-6" role="status">
+          <a id="sr-resume-link" href="/roadmap/" class="flex items-center justify-between gap-3 rounded-xl border border-brand-500/40 bg-brand-500/10 px-4 py-3 text-sm text-brand-100 hover:bg-brand-500/20 transition-colors">
+            <span id="sr-resume-label" class="font-medium truncate">Continue where you left off</span>
+            <span class="shrink-0 font-semibold">Resume →</span>
           </a>
         </div>
 
@@ -260,6 +267,24 @@ const howToSteps = [
       <div class="container-page">
         <p class="section-label text-center mb-3">Start Here</p>
         <h2 class="heading-2 text-white text-center mb-8">Popular Exams</h2>
+        <!-- Fast paths: roadmap · notes · 1-month plan for top exams (session depth) -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-2 mb-8">
+          {[
+            { id: 'neet', name: 'NEET', flag: '🇮🇳' },
+            { id: 'jeemain', name: 'JEE Main', flag: '🇮🇳' },
+            { id: 'upsc', name: 'UPSC', flag: '🇮🇳' },
+            { id: 'mdcat', name: 'MDCAT', flag: '🇵🇰' },
+          ].map((e) => (
+            <div class="rounded-xl border border-surface-700 bg-surface-800/60 p-3 flex flex-col gap-2">
+              <span class="text-sm font-semibold text-white">{e.flag} {e.name}</span>
+              <div class="flex flex-wrap gap-1.5">
+                <a href={`/roadmap/?exam=${e.id}`} class="text-[11px] font-medium px-2 py-1 rounded-md bg-brand-600/90 text-white hover:bg-brand-500 transition-colors">Roadmap</a>
+                <a href={`/notes/${e.id}/`} class="text-[11px] font-medium px-2 py-1 rounded-md bg-surface-700 text-surface-200 hover:bg-surface-600 transition-colors">Notes</a>
+                <a href={`/study-plan/${e.id}/1mo/`} class="text-[11px] font-medium px-2 py-1 rounded-md bg-surface-700 text-surface-200 hover:bg-surface-600 transition-colors">1‑mo plan</a>
+              </div>
+            </div>
+          ))}
+        </div>
         <div class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-3">
           <a href="/exams/neet/" class="card card-hover flex flex-col gap-2 p-4 group">
             <span class="text-2xl">🇮🇳</span>
@@ -690,4 +715,36 @@ const howToSteps = [
     .then(r => r.ok ? r.json() : null)
     .then(data => { if (data?.length) renderNews(data); })
     .catch(() => { /* news unavailable — section stays hidden */ });
+
+  // Resume last plan (localStorage — no signup)
+  try {
+    const raw = localStorage.getItem('sr_last_plan');
+    if (raw) {
+      const plan = JSON.parse(raw) as { exam?: string; duration?: string; examName?: string; ts?: number };
+      if (plan?.exam && plan?.duration) {
+        const href = `/roadmap/?exam=${encodeURIComponent(plan.exam)}&duration=${encodeURIComponent(plan.duration)}`;
+        const label = `Continue ${plan.examName || plan.exam.toUpperCase()} · ${plan.duration}`;
+        const banner = document.getElementById('sr-resume-banner');
+        const link = document.getElementById('sr-resume-link') as HTMLAnchorElement | null;
+        const lab = document.getElementById('sr-resume-label');
+        if (banner && link && lab) {
+          link.href = href;
+          lab.textContent = label;
+          banner.classList.remove('hidden');
+        }
+        const primary = document.getElementById('sr-hero-primary') as HTMLAnchorElement | null;
+        const secondary = document.getElementById('sr-hero-secondary') as HTMLAnchorElement | null;
+        if (primary) {
+          primary.href = href;
+          primary.childNodes[0] && (primary.childNodes[0].textContent = 'Resume Your Plan ');
+          // Keep SVG; replace leading text node more carefully
+          primary.innerHTML = `Resume Your Plan <svg aria-hidden="true" focusable="false" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" /></svg>`;
+        }
+        if (secondary) {
+          secondary.href = '/roadmap/';
+          secondary.textContent = 'New Roadmap';
+        }
+      }
+    }
+  } catch { /* first-time visitor */ }
 </script>

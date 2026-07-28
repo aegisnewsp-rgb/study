@@ -119,6 +119,16 @@ function WeightStars({ weight }: { weight: number }) {
   );
 }
 
+function setSrTier(selectedDuration: string) {
+  if (!selectedDuration) return;
+  const tierMap: Record<string, string> = {
+    '1h': 'lite', '2h': 'lite', '3h': 'lite', '5h': 'lite', '12h': 'lite', '1d': 'lite',
+    '2d': 'standard', '3d': 'standard', '5d': 'standard', '7d': 'standard', '10d': 'standard', '2w': 'standard', '1mo': 'standard',
+    '2mo': 'extended', '3mo': 'extended', '6mo': 'extended', '1yr': 'extended', '2yr': 'extended',
+  };
+  try { localStorage.setItem('sr_tier', tierMap[selectedDuration] || 'standard'); } catch (e) {}
+}
+
 function SubjectAccordion({
   subjectName,
   subjectId,
@@ -129,6 +139,8 @@ function SubjectAccordion({
   index,
   examId,
   selectedDuration,
+  completedTopics,
+  onToggleComplete,
 }: {
   subjectName: string;
   subjectId: string;
@@ -139,9 +151,12 @@ function SubjectAccordion({
   index: number;
   examId: string;
   selectedDuration: string;
+  completedTopics: Set<string>;
+  onToggleComplete: (topicId: string) => void;
 }) {
   const sorted = useMemo(() => [...topics].sort((a, b) => b.weight - a.weight), [topics]);
   const highPriority = sorted.filter(t => t.weight >= 7).length;
+  const completedCount = topics.filter(t => completedTopics.has(t.id)).length;
 
   return (
     <div className="border border-surface-200 dark:border-surface-700 rounded-xl overflow-hidden">
@@ -156,7 +171,7 @@ function SubjectAccordion({
             {subjectName}
           </span>
           <span className="text-xs text-surface-400 bg-surface-100 dark:bg-surface-700 px-2 py-0.5 rounded-full">
-            {topics.length} topics
+            {completedCount}/{topics.length} topics
           </span>
         </div>
         <div className="flex items-center gap-2">
@@ -181,16 +196,29 @@ function SubjectAccordion({
         }`}
       >
         <div className="p-3 grid gap-2 grid-cols-1 sm:grid-cols-2">
-          {sorted.map((topic, i) => (
+          {sorted.map((topic, i) => {
+            const isDone = completedTopics.has(topic.id);
+            return (
             <div
               key={topic.id}
-              className="flex items-start gap-2.5 p-2.5 bg-white dark:bg-surface-900 rounded-lg border border-surface-100 dark:border-surface-800 hover:border-brand-200 dark:hover:border-brand-800 transition-colors"
+              className={`flex items-start gap-2.5 p-2.5 bg-white dark:bg-surface-900 rounded-lg border border-surface-100 dark:border-surface-800 hover:border-brand-200 dark:hover:border-brand-800 transition-colors ${
+                isDone ? 'opacity-60' : ''
+              }`}
             >
+              <input
+                type="checkbox"
+                checked={isDone}
+                onChange={() => onToggleComplete(topic.id)}
+                aria-label={`Mark ${topic.name} complete`}
+                className="mt-0.5 shrink-0 w-3.5 h-3.5 rounded border-surface-300 dark:border-surface-600 text-brand-600 focus:ring-brand-500 cursor-pointer"
+              />
               <span className="text-xs text-surface-400 dark:text-surface-600 font-mono mt-0.5 shrink-0 w-5">
                 {i + 1}.
               </span>
               <div className="flex-1 min-w-0">
-                <p className="text-xs font-medium text-surface-800 dark:text-surface-200 leading-snug">
+                <p className={`text-xs font-medium text-surface-800 dark:text-surface-200 leading-snug ${
+                  isDone ? 'line-through' : ''
+                }`}>
                   {topic.name}
                 </p>
                 <span className="text-xs text-surface-400">{topic.subject}</span>
@@ -198,21 +226,10 @@ function SubjectAccordion({
               {hasNotes(examId) ? (
                 <a
                 href={`/notes/${examId}/${subjectId}/${topic.id}/?duration=${selectedDuration}`}
-                target="_blank"
-                rel="noopener noreferrer"
                 className="shrink-0 text-brand-600 dark:text-brand-400 hover:text-brand-500 dark:hover:text-brand-300 transition-colors"
-                aria-label={`Open notes for ${topic.name} in new tab`}
+                aria-label={`Open notes for ${topic.name}`}
                 title="Open notes"
-                onClick={() => {
-                  if (selectedDuration) {
-                    const tierMap: Record<string, string> = {
-                      '1h':'lite','2h':'lite','3h':'lite','5h':'lite','12h':'lite','1d':'lite',
-                      '2d':'standard','3d':'standard','5d':'standard','7d':'standard','10d':'standard','2w':'standard','1mo':'standard',
-                      '2mo':'extended','3mo':'extended','6mo':'extended','1yr':'extended','2yr':'extended',
-                    };
-                    try { localStorage.setItem('sr_tier', tierMap[selectedDuration] || 'standard'); } catch(e) {}
-                  }
-                }}
+                onClick={() => setSrTier(selectedDuration)}
               >
                 <svg aria-hidden="true" focusable={false} className="w-4 h-4" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
@@ -223,21 +240,10 @@ function SubjectAccordion({
                 return pool ? (
                   <a
                     href={`/notes/${pool.exam}/${pool.subject}/${topic.id}/?duration=${selectedDuration}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
                     className="shrink-0 text-brand-600 dark:text-brand-400 hover:text-brand-500 dark:hover:text-brand-300 transition-colors"
-                    aria-label={`Open ${pool.exam} ${pool.subject} notes for ${topic.name} (routed from ${examId})`}
+                    aria-label={`Open notes for ${topic.name}`}
                     title={`View ${pool.exam} ${pool.subject} notes`}
-                    onClick={() => {
-                      if (selectedDuration) {
-                        const tierMap: Record<string, string> = {
-                          '1h':'lite','2h':'lite','3h':'lite','5h':'lite','12h':'lite','1d':'lite',
-                          '2d':'standard','3d':'standard','5d':'standard','7d':'standard','10d':'standard','2w':'standard','1mo':'standard',
-                          '2mo':'extended','3mo':'extended','6mo':'extended','1yr':'extended','2yr':'extended',
-                        };
-                        try { localStorage.setItem('sr_tier', tierMap[selectedDuration] || 'standard'); } catch(e) {}
-                      }
-                    }}
+                    onClick={() => setSrTier(selectedDuration)}
                   >
                     <svg aria-hidden="true" focusable={false} className="w-4 h-4" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
@@ -249,7 +255,8 @@ function SubjectAccordion({
               })()}
               <WeightStars weight={topic.weight} />
             </div>
-          ))}
+            );
+          })}
         </div>
       </div>
     </div>
@@ -259,59 +266,65 @@ function SubjectAccordion({
 function ProgressOverview({
   examName,
   roadmap,
+  completedTopics,
 }: {
   examName: string;
   roadmap: RoadmapTemplate;
+  completedTopics: Set<string>;
 }) {
-  const subjectCounts = useMemo(() => {
-    const counts: Record<string, { count: number; avgWeight: number }> = {};
-    for (const topic of roadmap.dailyTopics) {
-      if (!counts[topic.subject]) counts[topic.subject] = { count: 0, avgWeight: 0 };
-      counts[topic.subject].count++;
-      counts[topic.subject].avgWeight += topic.weight;
-    }
-    for (const s of Object.keys(counts)) {
-      counts[s].avgWeight = Math.round(counts[s].avgWeight / counts[s].count);
-    }
-    return counts;
-  }, [roadmap]);
+  const total = roadmap.dailyTopics.length;
+  const completed = useMemo(
+    () => roadmap.dailyTopics.filter(t => completedTopics.has(t.id)).length,
+    [roadmap, completedTopics],
+  );
+  const pct = total > 0 ? Math.round((completed / total) * 100) : 0;
 
-  const subjects = Object.entries(subjectCounts).sort((a, b) => b[1].count - a[1].count);
+  const subjectStats = useMemo(() => {
+    const stats: Record<string, { total: number; done: number }> = {};
+    for (const topic of roadmap.dailyTopics) {
+      if (!stats[topic.subject]) stats[topic.subject] = { total: 0, done: 0 };
+      stats[topic.subject].total++;
+      if (completedTopics.has(topic.id)) stats[topic.subject].done++;
+    }
+    return Object.entries(stats).sort((a, b) => b[1].total - a[1].total);
+  }, [roadmap, completedTopics]);
 
   return (
     <div className="card p-5">
       <h3 className="text-sm font-semibold text-surface-700 dark:text-surface-300 mb-3">
         Progress Overview — {examName}
       </h3>
+      <div className="mb-4">
+        <div className="flex items-center justify-between mb-1.5">
+          <span className="text-xs font-medium text-surface-700 dark:text-surface-300">
+            {completed} / {total} topics · {pct}%
+          </span>
+        </div>
+        <div className="h-2 bg-surface-100 dark:bg-surface-800 rounded-full overflow-hidden">
+          <div
+            className="h-full rounded-full bg-brand-500 transition-all duration-500"
+            style={{ width: `${pct}%` }}
+          />
+        </div>
+      </div>
       <div className="space-y-2">
-        {subjects.map(([subject, data]) => {
-          const barWidth = Math.round((data.count / roadmap.dailyTopics.length) * 100);
-          const barColor = data.avgWeight >= 7
-            ? 'bg-red-400'
-            : data.avgWeight >= 4
-            ? 'bg-amber-400'
-            : 'bg-surface-300';
+        {subjectStats.map(([subject, data]) => {
+          const barWidth = data.total > 0 ? Math.round((data.done / data.total) * 100) : 0;
           return (
             <div key={subject}>
               <div className="flex items-center justify-between mb-1">
                 <span className="text-xs font-medium text-surface-700 dark:text-surface-300">{subject}</span>
-                <span className="text-xs text-surface-500">{data.count} topics</span>
+                <span className="text-xs text-surface-500">{data.done}/{data.total}</span>
               </div>
               <div className="h-1.5 bg-surface-100 dark:bg-surface-800 rounded-full overflow-hidden">
                 <div
-                  className={`h-full rounded-full ${barColor} transition-all duration-500`}
+                  className="h-full rounded-full bg-brand-400 transition-all duration-500"
                   style={{ width: `${barWidth}%` }}
                 />
               </div>
             </div>
           );
         })}
-      </div>
-      <div className="mt-3 pt-3 border-t border-surface-100 dark:border-surface-800 flex items-center justify-between">
-        <span className="text-xs text-surface-500">Total topics</span>
-        <span className="text-xs font-semibold text-surface-700 dark:text-surface-300">
-          {roadmap.dailyTopics.length}
-        </span>
       </div>
     </div>
   );
@@ -328,6 +341,8 @@ export default function RoadmapApp({ exams }: Props) {
   const [examCache, setExamCache] = useState<Record<string, ExamTemplate>>({});
   const [examLoadError, setExamLoadError] = useState<string | null>(null);
   const [examLoading, setExamLoading] = useState(false);
+  // Client-only last plan for empty-state resume
+  const [lastPlan, setLastPlan] = useState<{ exam: string; duration: string; examName: string } | null>(null);
 
   // Pre-populate from URL params (e.g. /roadmap?exam=neet&duration=3mo)
   useEffect(() => {
@@ -388,17 +403,54 @@ export default function RoadmapApp({ exams }: Props) {
 
   // Save progress to localStorage on change
   useEffect(() => {
-    if (completedTopics.size > 0 && selectedExam && selectedDuration) {
-      try {
-        localStorage.setItem("sr-progress-" + selectedExam + "-" + selectedDuration, JSON.stringify([...completedTopics]));
-      } catch(e) {}
-    }
+    if (!selectedExam || !selectedDuration) return;
+    try {
+      const key = "sr-progress-" + selectedExam + "-" + selectedDuration;
+      if (completedTopics.size > 0) {
+        localStorage.setItem(key, JSON.stringify([...completedTopics]));
+      } else {
+        // Clear stale progress when user unchecks the last topic
+        localStorage.removeItem(key);
+      }
+    } catch(e) {}
   }, [completedTopics, selectedExam, selectedDuration]);
+
+  // Hydrate last plan for empty-state resume
+  useEffect(() => {
+    try {
+      const raw = localStorage.getItem('sr_last_plan');
+      if (!raw) return;
+      const parsed = JSON.parse(raw) as { exam?: string; duration?: string; examName?: string };
+      if (parsed.exam && parsed.duration) {
+        setLastPlan({
+          exam: parsed.exam,
+          duration: parsed.duration,
+          examName: parsed.examName || parsed.exam,
+        });
+      }
+    } catch (e) {}
+  }, []);
 
   const selectedExamData = useMemo(
     () => examCache[selectedExam] ?? exams.find(e => e.examId === selectedExam) ?? null,
     [selectedExam, exams, examCache],
   );
+
+  // Persist last plan when a roadmap is generated
+  useEffect(() => {
+    if (!selectedExam || !selectedDuration) return;
+    const examName =
+      selectedExamData?.examName ??
+      exams.find(e => e.examId === selectedExam)?.examName ??
+      selectedExam;
+    try {
+      localStorage.setItem(
+        'sr_last_plan',
+        JSON.stringify({ exam: selectedExam, duration: selectedDuration, examName, ts: Date.now() }),
+      );
+      setLastPlan({ exam: selectedExam, duration: selectedDuration, examName });
+    } catch (e) {}
+  }, [selectedExam, selectedDuration, selectedExamData, exams]);
 
   const roadmap = useMemo<RoadmapTemplate | null>(() => {
     if (!selectedExam || !selectedDuration) return null;
@@ -507,6 +559,43 @@ export default function RoadmapApp({ exams }: Props) {
 
   const collapseAllSubjects = () => {
     setOpenSubjects(new Set());
+  };
+
+  const onToggleComplete = (topicId: string) => {
+    setCompletedTopics(prev => {
+      const next = new Set(prev);
+      if (next.has(topicId)) next.delete(topicId);
+      else next.add(topicId);
+      return next;
+    });
+  };
+
+  const studyNextIncomplete = () => {
+    if (!roadmap || !selectedExam) return;
+    const incomplete = roadmap.dailyTopics
+      .filter(t => !completedTopics.has(t.id))
+      .sort((a, b) => b.weight - a.weight);
+    const topic = incomplete[0];
+    if (!topic) return;
+
+    // DailyTopicItem.subject is the display name; map to subject id
+    const subjectMeta =
+      examSubjects.find(s => s.name === topic.subject) ??
+      selectedExamData?.subjects?.find(s => s.name === topic.subject || s.id === topic.subject);
+    const subjectId = subjectMeta?.id;
+    if (!subjectId) return;
+
+    let notesExam = selectedExam;
+    let notesSubject = subjectId;
+    if (!hasNotes(selectedExam)) {
+      const pool = getPcmNotesPool(selectedExam, subjectId);
+      if (!pool) return;
+      notesExam = pool.exam;
+      notesSubject = pool.subject;
+    }
+
+    setSrTier(selectedDuration);
+    window.location.href = `/notes/${notesExam}/${notesSubject}/${topic.id}/?duration=${selectedDuration}`;
   };
 
   const durationLabel = DURATION_OPTIONS.find(d => d.value === roadmap?.duration)?.label ?? roadmap?.duration ?? '';
@@ -649,15 +738,26 @@ export default function RoadmapApp({ exams }: Props) {
           </div>
 
           {/* Progress overview */}
-          <ProgressOverview examName={selectedExamData.examName} roadmap={roadmap} />
+          <ProgressOverview
+            examName={selectedExamData.examName}
+            roadmap={roadmap}
+            completedTopics={completedTopics}
+          />
 
           {/* Subject accordions */}
           <div className="space-y-2">
-            <div className="flex items-center justify-between px-1">
+            <div className="flex items-center justify-between px-1 gap-2 flex-wrap">
               <h3 className="text-xs font-semibold uppercase tracking-widest text-surface-500">
                 Subject Breakdown
               </h3>
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-2 flex-wrap">
+                <button
+                  type="button"
+                  onClick={studyNextIncomplete}
+                  className="text-xs text-brand-600 dark:text-brand-400 hover:text-brand-500 transition-colors font-medium px-2 py-1 rounded-lg bg-brand-50 dark:bg-brand-900/30 border border-brand-200 dark:border-brand-800"
+                >
+                  Study next incomplete
+                </button>
                 <button
                   onClick={openSubjects.size === examSubjects.length ? collapseAllSubjects : expandAllSubjects}
                   className="text-xs text-brand-600 dark:text-brand-400 hover:text-brand-500 transition-colors font-medium"
@@ -691,6 +791,8 @@ export default function RoadmapApp({ exams }: Props) {
                   index={idx}
                   examId={selectedExam}
                   selectedDuration={selectedDuration}
+                  completedTopics={completedTopics}
+                  onToggleComplete={onToggleComplete}
                 />
               );
             })}
@@ -731,6 +833,14 @@ export default function RoadmapApp({ exams }: Props) {
             <p className="text-sm text-surface-500 max-w-xs mx-auto">
               Choose your exam from the dropdown, pick a study timeline, and get your personalised roadmap instantly.
             </p>
+            {lastPlan && (
+              <a
+                href={`/roadmap/?exam=${encodeURIComponent(lastPlan.exam)}&duration=${encodeURIComponent(lastPlan.duration)}`}
+                className="mt-5 inline-flex items-center gap-1.5 text-sm font-medium px-4 py-2 rounded-xl bg-brand-50 dark:bg-brand-900/30 border border-brand-200 dark:border-brand-800 text-brand-600 dark:text-brand-400 hover:bg-brand-100 dark:hover:bg-brand-900/50 transition-colors"
+              >
+                Resume {lastPlan.examName} · {DURATION_OPTIONS.find(d => d.value === lastPlan.duration)?.label ?? lastPlan.duration}
+              </a>
+            )}
           </div>
         </section>
       )}

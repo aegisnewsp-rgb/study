@@ -85,27 +85,31 @@ const highWeightTopics = examNotes
   .filter((n) => (n.data.weight || 0) >= 5)
   .sort((a, b) => (b.data.weight || 0) - (a.data.weight || 0))
   .slice(0, 8);
+// First-week anchors for the how-to “7-day starter” copy (linked topic names).
+const starterTop = highWeightTopics.slice(0, 2);
+const starterNext = highWeightTopics.slice(2, 4);
+const firstSubjectLabel = subjectNames[0] || 'your strongest subject';
 
 const NOTES_FAQS = [
   {
     question: `How do I use these ${examName} study notes effectively?`,
-    answer: `Start with a free ${examName} roadmap on StudyRoadmap so every week has a topic sequence. Open the matching subject hub below, then read Standard notes first for core concepts. Mark weightage percentages on each card and prioritise topics at or above 5% early. In the final 2–3 weeks before ${examName}, switch to Quick notes for rapid recall and re-work only the weak areas you flagged during practice.`,
+    answer: `Open the free ${examName} roadmap first so your remaining weeks map onto a topic order. On this hub you have ${examNotes.length} indexable topics in ${subjectCount} subjects (${subjectList}) — sort each subject by the weight % on the card and clear ≥5% chapters before medium ones. Read Standard notes for first-pass learning; log three recall points after every note. In the last 2–3 weeks before ${examName}, swap to Quick notes for formula/definition drills and re-open only topics your mock scores flag as weak.`,
   },
   {
     question: `What's the difference between Quick, Standard, and Deep ${examName} notes?`,
-    answer: `Quick notes are short revision sheets for last-minute recall of definitions, formulas, and traps. Standard notes are the daily study default: explanations, worked ideas, and exam-style framing. Deep notes expand into edge cases and multi-step reasoning when a high-weight ${examName} topic still feels shaky after one Standard pass. Use Deep selectively so you do not burn calendar time on low-weight chapters.`,
+    answer: `For ${examName}, treat Standard as the default daily read (concepts + exam-style framing). Quick notes are compressed revision sheets for the final fortnight — definitions, formulas, and common traps. Deep notes are for high-weight ${examName} chapters that still break after one Standard pass; use them sparingly so low-weight topics do not consume your calendar. A simple rule: Standard → practice → Deep only if accuracy stalls → Quick in the last stretch.`,
   },
   {
     question: `Are these ${examName} notes aligned with the official syllabus?`,
-    answer: `Notes are organised by subject and topic labels that track the public ${examName} syllabus structure used on our exam page. Each topic shows an approximate weightage so you can schedule effort. Always cross-check dates, paper pattern, and official notifications on the exam board site before you register or sit ${examName}. StudyRoadmap is an independent free tool, not the exam board.`,
+    answer: `Topics are grouped under the same subject structure we use on the ${examName} exam overview page, with approximate weightage on each card so you can schedule effort. Weight tags are planning aids, not official marks. Always confirm paper pattern, registration windows, and fees on the board’s official site before you apply or sit ${examName}. StudyRoadmap is independent educational content, not the exam authority.`,
   },
   {
     question: `How many ${examName} topics and subjects are covered here?`,
-    answer: `This hub currently lists ${examNotes.length} indexable topics across ${subjectCount} subjects (${subjectList}). Subject pages group every topic card for that paper area. If a subject is still thin after quality review, it may not appear until notes pass the content gate — empty shells are not published.`,
+    answer: `This ${examName} hub lists ${examNotes.length} quality-gated topics across ${subjectCount} subjects (${subjectList}). Each subject row shows the top weighted cards first; open “View all” for the full set. Thin subjects stay off the public index until notes clear the quality floor — empty placeholder hubs are not published.`,
   },
   {
     question: `Can I study ${examName} notes on mobile without signup?`,
-    answer: `Yes. Every ${examName} note is free, responsive, and readable on phone or laptop with no account, app, or payment wall. Bookmark high-weight topics, pair them with a generated study plan, and revise offline after loading the page once. Report factual errors via Contact with the page URL and an official source when you can.`,
+    answer: `Yes. All ${examNotes.length} ${examName} notes open free on phone or laptop with no account or paywall. Bookmark the ≥5% weight topics, generate a ${examName} study plan for day-level sequencing, and re-open Quick notes for offline-style revision after the first load. Send factual corrections via Contact with the page URL and an official source when possible.`,
   },
 ];
 
@@ -218,16 +222,60 @@ const collectionPageJsonLd = {
       <div class="max-w-3xl space-y-4 text-sm sm:text-base text-surface-700 dark:text-surface-300 leading-relaxed">
         <h2 class="heading-3 text-surface-900 dark:text-surface-50">How to study {examName} with these notes</h2>
         <p>
-          Treat this page as your {examName} syllabus map, not a dump of random PDFs. Pick one subject hub,
-          open topics in weight order when possible, and finish a Standard note before jumping to the next chapter.
-          After each note, write three recall points from memory and attempt a few past-style questions from your own practice set.
-          When accuracy stalls, open the Deep tier for that topic only, then return to Quick notes in the last fortnight before {examName}.
+          Treat this page as your {examName} syllabus map across
+          <strong class="text-surface-900 dark:text-surface-100">{examNotes.length} topics</strong> in
+          <strong class="text-surface-900 dark:text-surface-100">{subjectCount} subjects</strong>
+          ({subjectList}) — not a dump of random PDFs. Open one subject hub at a time, sort cards by the weight % on each card,
+          and finish a Standard note before the next chapter. After every note, write three recall points from memory and attempt
+          a few past-style questions from your own practice set. When accuracy stalls on a high-weight chapter, open Deep for that
+          topic only; switch to Quick notes in the last fortnight before {examName} for formula and trap drills.
         </p>
         <p>
-          A practical weekly rhythm: 60–70% of study blocks on topics weighted 5% or higher, 20–30% on medium-weight chapters,
-          and a short daily buffer for error-log revision. Use the free roadmap generator if you need a day-by-day sequence tied to your remaining weeks until {examName}.
-          Always verify registration dates, fees, and paper pattern on the official board site — StudyRoadmap is independent educational planning content.
+          A practical weekly rhythm for {examName}: 60–70% of study blocks on topics weighted 5% or higher, 20–30% on medium-weight
+          chapters, and a short daily buffer for error-log revision. Generate a free
+          <a href={`/roadmap/?exam=${exam}`} class="text-brand-600 dark:text-brand-400 hover:underline">{examName} roadmap</a>
+          if you need a day-by-day sequence for your remaining weeks, or browse ready-made
+          <a href={`/study-plan/${exam}/`} class="text-brand-600 dark:text-brand-400 hover:underline">{examName} study plans</a>.
+          Always verify registration windows, fees, and paper pattern on the official board site — StudyRoadmap is independent educational planning content.
         </p>
+        {highWeightTopics.length > 0 ? (
+          <p>
+            <strong class="text-surface-900 dark:text-surface-100">7-day starter sequence:</strong>{' '}
+            Days 1–2 — Standard notes for{' '}
+            {starterTop.map((n, i) => (
+              <>
+                {i === 0 ? '' : starterTop.length === 2 && i === 1 ? ' and ' : ', '}
+                <a href={`/notes/${n.id}/`} class="text-brand-600 dark:text-brand-400 hover:underline">{n.data.topicName}</a>
+              </>
+            ))}
+            {' '}(highest weight on this hub). Days 3–4 —{' '}
+            {starterNext.length > 0 ? (
+              <>
+                next priority topics (
+                {starterNext.map((n, i) => (
+                  <>
+                    {i > 0 ? ', ' : ''}
+                    <a href={`/notes/${n.id}/`} class="text-brand-600 dark:text-brand-400 hover:underline">{n.data.topicName}</a>
+                  </>
+                ))}
+                ) plus mixed practice from your own set.
+              </>
+            ) : (
+              <>mixed practice from your own set on the same high-weight chapters.</>
+            )}
+            {' '}Day 5 — subject-hub deep-dive under {firstSubjectLabel} or your weakest paper area.
+            Day 6 — Quick-note pass on everything covered so far. Day 7 — timed mock slice and error-log only (re-open Deep solely where accuracy broke).
+            After week one, rotate the remaining high-weight list and keep the same Standard → practice → Quick loop.
+          </p>
+        ) : (
+          <p>
+            <strong class="text-surface-900 dark:text-surface-100">7-day starter sequence:</strong>{' '}
+            Days 1–2 — pick your first subject under {subjectList} and finish two Standard notes end-to-end with recall points.
+            Days 3–4 — second subject, same depth, plus a short mixed practice set. Day 5 — rework the weakest topic with Deep if needed.
+            Day 6 — Quick notes only for everything logged this week. Day 7 — timed practice and error-log revision.
+            Then expand coverage across the remaining {Math.max(subjectCount - 2, 1)} subject area{subjectCount - 2 === 1 ? '' : 's'} using weight order on each card.
+          </p>
+        )}
         {highWeightTopics.length > 0 && (
           <div>
             <h3 class="font-semibold text-surface-900 dark:text-surface-100 mb-2">High-weightage {examName} topics to prioritise</h3>
@@ -243,8 +291,8 @@ const collectionPageJsonLd = {
         )}
         <p>
           Subject coverage on this hub: <strong class="text-surface-900 dark:text-surface-100">{subjectList}</strong>.
-          Open a subject row below for the full topic list, or jump straight into any card. Notes that fail our quality floor
-          are held back from the index so AdSense reviewers and students never land on empty placeholders.
+          Open a subject row below for the full topic list sorted by weight, or jump straight into any card. Notes that fail our quality floor
+          are held back from the index so empty placeholders never ship.
         </p>
       </div>
     </section>
@@ -266,7 +314,10 @@ const collectionPageJsonLd = {
             )}
           </div>
           <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
-            {notes.sort((a,b) => a.data.topic.localeCompare(b.data.topic)).slice(0, 6).map(note => (
+            {[...notes]
+              .sort((a, b) => (b.data.weight || 0) - (a.data.weight || 0) || a.data.topic.localeCompare(b.data.topic))
+              .slice(0, 6)
+              .map(note => (
               <a
                 href={`/notes/${note.id}/`}
                 class="group block bg-surface-50 dark:bg-surface-900 border border-surface-200 dark:border-surface-700 rounded-lg p-4 hover:border-brand-300 dark:hover:border-brand-700 transition-all"

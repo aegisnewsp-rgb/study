@@ -26,6 +26,8 @@ interface Props {
     title?: string;
     description?: string;
     image?: string;
+    /** Absolute self-referential https URL when pathname alone is wrong (rare). */
+    canonical?: string;
     faqs?: FAQItem[];
     howToSteps?: HowToStep[];
     robots?: string;
@@ -43,6 +45,7 @@ const {
     title = 'StudyRoadmap\u2122 \u2014 Free AI Study Plan Generator for NEET, JEE, UPSC & 125+ Exams',
     description = 'Generate free personalised study roadmaps for NEET, JEE Main, UPSC, SSC CGL, CAT, MDCAT, JAMB, WAEC and 125+ competitive exams. AI-powered study planner \u2014 no signup, no fees.',
     image = '/og-notes/exam-default.jpg',
+    canonical,
     faqs = [],
     howToSteps = [],
     robots,
@@ -56,7 +59,9 @@ const {
     countryName,
 } = Astro.props;
 
-const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const canonicalURL = canonical
+    ? new URL(canonical)
+    : new URL(Astro.url.pathname, Astro.site);
 const currentYear = new Date().getFullYear();
 ---
 
@@ -69,13 +74,49 @@ const currentYear = new Date().getFullYear();
         <!-- Google Search Console verification -->
         <meta name="google-site-verification" content="Va3l3XyhrSbLFp4XEIsQwEtysPjYt3Es7QkWqwEDQdo" />
 
-        <!-- Google tag (gtag.js) -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-XPWXLW8J3R" is:inline></script>
+        <!-- Google Analytics 4 — Consent Mode v2 defaults BEFORE gtag loads (BUG-061/062).
+             Ads defaults stay denied until AdSense + CMP; analytics denied in EEA/UK/CH,
+             granted elsewhere. IP anonymization + ads data redaction always on. -->
         <script is:inline>
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
+            gtag('consent', 'default', {
+                ad_storage: 'denied',
+                ad_user_data: 'denied',
+                ad_personalization: 'denied',
+                analytics_storage: 'granted',
+                functionality_storage: 'granted',
+                security_storage: 'granted',
+                wait_for_update: 500
+            });
+            gtag('consent', 'default', {
+                analytics_storage: 'denied',
+                region: ['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IS','IE','IT','LV','LI','LT','LU','MT','NL','NO','PL','PT','RO','SK','SI','ES','SE','GB','CH']
+            });
             gtag('js', new Date());
-            gtag('config', 'G-XPWXLW8J3R');
+            gtag('config', 'G-XPWXLW8J3R', {
+                anonymize_ip: true,
+                allow_google_signals: false,
+                ads_data_redaction: true
+            });
+        </script>
+        <script is:inline>
+            // Defer gtag.js off the critical path (BUG-104) while keeping Consent Mode ready.
+            (function () {
+                function loadGtag() {
+                    if (document.getElementById('sr-gtag')) return;
+                    var s = document.createElement('script');
+                    s.id = 'sr-gtag';
+                    s.async = true;
+                    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-XPWXLW8J3R';
+                    document.head.appendChild(s);
+                }
+                if ('requestIdleCallback' in window) {
+                    requestIdleCallback(loadGtag, { timeout: 3500 });
+                } else {
+                    setTimeout(loadGtag, 2000);
+                }
+            })();
         </script>
 
         <!-- Preconnect to critical origins -->

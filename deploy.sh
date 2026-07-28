@@ -102,6 +102,12 @@ else
     die "Container failed to start. Check: docker compose logs $CONTAINER_NAME"
 fi
 
+# ── Purge Cloudflare edge cache (needs CF_API_TOKEN) ─────────────────────────
+if [ -x /data/sr-cloudflare-purge.sh ]; then
+    log "Purging Cloudflare cache..."
+    bash /data/sr-cloudflare-purge.sh || warn "CF purge skipped/failed (set CF_API_TOKEN to enable)"
+fi
+
 # ── Done ───────────────────────────────────────────────────────────────────────
 COMMIT=$(git rev-parse --short HEAD)
 log "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"

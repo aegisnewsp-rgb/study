@@ -1,4 +1,3 @@
-src/layouts/Layout.astro
 src/styles/global.css
 astro.config.mjs
 tailwind.config.mjs

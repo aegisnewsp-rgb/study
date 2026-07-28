@@ -5,6 +5,8 @@ import Footer from '../../../components/Footer.astro';
 import { ALL_EXAMS, getCountryFlag } from '../../../data/exams';
 import { isNoindexExam } from '../../../data/suppressed-exams';
 import { isPlaceholderExamTopic, placeholderSyllabusStats } from '../../../data/note-quality';
+import { getCollection } from 'astro:content';
+import { isGoodNote, isIndexableExamHub } from '../../../data/note-quality';
 
 export async function getStaticPaths() {
   const SPOKES = ['dates','eligibility','syllabus','pattern','strategy'];
@@ -21,9 +23,21 @@ export async function getStaticPaths() {
 const { exam, spoke } = Astro.props;
 import { SITE_URL } from '@data/site';
 const year = new Date().getUTCFullYear();
-const CONTENT_REV = '2026-05-28'; // stable fallback; never build-time
+const CONTENT_REV = '2026-07-26'; // stable content-revision marker for spokes
 const flag = getCountryFlag(exam.country) || '🌍';
 const examName = exam.examName || exam.examId;
+const countryLabel = exam.country === 'india' ? 'India' : exam.country === 'pakistan' ? 'Pakistan' : exam.country === 'nigeria' ? 'Nigeria' : String(exam.country || 'your country');
+
+// Notes hub only when indexable good notes exist (no ghost /notes/{id}/ 404s).
+const goodNotesByExam = new Map<string, number>();
+for (const n of await getCollection('notes')) {
+  const examId = n.id.split('/')[0];
+  if (isGoodNote(n)) goodNotesByExam.set(examId, (goodNotesByExam.get(examId) || 0) + 1);
+}
+const hasNotesHub = (() => {
+  const good = goodNotesByExam.get(exam.examId) || 0;
+  return good > 0 && isIndexableExamHub(good, exam.examId);
+})();
 
 const SPOKE_META: Record<string, { h1: (n: string) => string; title: (n: string) => string; desc: (n: string) => string }> = {
   dates: {
@@ -73,116 +87,328 @@ const breadcrumbJsonLd = {
 // Content body varies per spoke — uses existing exam data where available.
 // Literal "Topic N" rows are corrupt placeholder module data, not content:
 // strip them from every rendered list, and noindex the syllabus spoke when the
-// module is majority-placeholder (32 indexed syllabus spokes shipped raw
-// "Topic 1..Topic 15" tables until 2026-07-03). Self-heals after backfill.
-// Predicate shared via note-quality.ts so the hub's SPOKE-NAV agrees with
-// this page's own noindex gate (22 indexed hubs follow-linked their
-// noindexed syllabus spokes until 2026-07-04).
+// module is majority-placeholder.
 const rawSubjects = exam.subjects || [];
-const subjects = rawSubjects.map((s: any) => ({ ...s, topics: (s.topics || []).filter((t: any) => !isPlaceholderExamTopic(t)) }));
+const subjects = rawSubjects.map((s: any) => ({
+  ...s,
+  topics: (s.topics || []).filter((t: any) => !isPlaceholderExamTopic(t)),
+}));
 const totalTopics = subjects.reduce((n: number, s: any) => n + (s.topics?.length || 0), 0);
 const { isPlaceholderSyllabus } = placeholderSyllabusStats(rawSubjects);
 
+// High-weight topics for prioritisation sections (unique per exam)
+const allTopics = subjects.flatMap((s: any) =>
+  (s.topics || []).map((t: any) => ({ ...t, subjectName: s.name, subjectId: s.id }))
+);
+const highWeight = [...allTopics]
+  .sort((a: any, b: any) => (b.weight || 0) - (a.weight || 0))
+  .slice(0, 12);
+const durationKeys = Object.keys(exam.durations || {});
+const eligibilityText = (exam.eligibility || '').trim();
+const patternText = (exam.examPattern || '').trim();
+const hasRichEligibility = eligibilityText.length >= 80;
+const hasRichPattern = patternText.length >= 80;
+const hasSubstantialSyllabus = totalTopics >= 8 && subjects.length >= 1 && !isPlaceholderSyllabus;
+
 const SIBLINGS = ['dates','eligibility','syllabus','pattern','strategy'].filter(s => s !== spoke);
-// `dates` and `strategy` render an identical body for every exam — no per-exam
-// data exists to differentiate them, so 105 near-duplicate URLs each would trip
-// Google's scaled-content / thin-content review (AdSense approval blocker,
-// flagged 2026-07-04). Keep them reachable for users (follow) but out of the
-// index until they carry genuinely per-exam content; the substantive spokes
-// (eligibility / pattern / syllabus, which pull real exam data) stay indexed.
+
+// Index policy (BUG-010 / BUG-084):
+// - dates / strategy: near-duplicate across exams → noindex, follow
+// - eligibility / pattern: index only when we have rich official fields OR thick structured syllabus to differentiate
+// - syllabus: index only when non-placeholder topic graph exists
+// - suppressed exams: always noindex
 const spokeRobots = (isNoindexExam(exam.examId)
-    || (spoke === 'syllabus' && isPlaceholderSyllabus)
     || spoke === 'dates'
-    || spoke === 'strategy')
+    || spoke === 'strategy'
+    || (spoke === 'syllabus' && !hasSubstantialSyllabus)
+    || (spoke === 'eligibility' && !hasRichEligibility && !hasSubstantialSyllabus)
+    || (spoke === 'pattern' && !hasRichPattern && !hasSubstantialSyllabus))
   ? 'noindex, follow' : undefined;
+
+const officialLine = exam.officialSource
+  ? `Official source for ${examName}: ${exam.officialSource}. Always re-check the latest notification before you apply or sit the paper.`
+  : `${examName} rules are published by the official examining body for ${countryLabel}. Always re-check the latest notification before you apply or sit the paper. StudyRoadmap is not affiliated with any exam board.`;
+
+const overviewBlurb = (exam.description || '').trim()
+  || `${examName} is a competitive examination taken by students in ${countryLabel}. This page focuses on the ${spoke} details you need to plan applications and preparation without fluff.`;
 ---
 
-<Layout title={title} description={description} canonical={canonicalUrl} robots={spokeRobots}>
+<Layout title={title} description={description} robots={spokeRobots}>
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
   <Navbar />
   <main id="main-content" class="flex-1">
     <section class="bg-surface-50 dark:bg-surface-950 border-b border-surface-200 dark:border-surface-800">
       <div class="container-page py-10">
         <nav class="text-sm text-surface-500 mb-4">
-          <a href="/">Home</a> › <a href="/exams/">Exams</a> › <a href={`/exams/${exam.examId}/`}>{flag} {examName}</a> › <span>{spoke}</span>
+          <a href="/">Home</a> › <a href="/exams/">Exams</a> › <a href={`/exams/${exam.examId}/`}>{flag} {examName}</a> › <span class="capitalize">{spoke}</span>
         </nav>
         <h1 class="text-3xl md:text-4xl font-black mb-3">{h1}</h1>
         <p class="text-lg text-surface-600 dark:text-surface-300 max-w-3xl">{description}</p>
         <blockquote class="border-l-4 border-brand-500 bg-brand-50 dark:bg-brand-900/10 text-sm mt-4 p-3 rounded max-w-3xl">
           <strong>Reviewed by</strong>: StudyRoadmap Editorial · <strong>Last verified</strong>: {exam.lastUpdated || CONTENT_REV}
+          · <strong>Country</strong>: {countryLabel}
         </blockquote>
       </div>
     </section>
 
-    <section class="container-page py-8">
+    <section class="container-page py-8 prose dark:prose-invert max-w-none">
+      {/* Shared intro — unique via examName + country + structured stats */}
+      <p class="text-surface-700 dark:text-surface-300 leading-relaxed">{overviewBlurb}</p>
+      <p class="text-surface-700 dark:text-surface-300 leading-relaxed">
+        {examName} currently maps to <strong>{subjects.length} subject{subjects.length === 1 ? '' : 's'}</strong> and
+        <strong> {totalTopics} prioritised topic{totalTopics === 1 ? '' : 's'}</strong> in our syllabus model
+        {durationKeys.length > 0 ? <> across <strong>{durationKeys.length}</strong> free study-plan lengths ({durationKeys.slice(0, 6).join(', ')}{durationKeys.length > 6 ? '…' : ''})</> : null}.
+        Use this {spoke} guide with the <a href={`/exams/${exam.examId}/`} class="text-brand-600 underline">full {examName} hub</a>
+        {hasNotesHub ? <> and free <a href={`/notes/${exam.examId}/`} class="text-brand-600 underline">{examName} notes</a></> : null}.
+      </p>
+      <p class="text-sm text-surface-500 not-prose">{officialLine}</p>
+
       {spoke === 'syllabus' && (
         <div>
           <h2 class="text-2xl font-bold mb-4">{examName} syllabus overview — {subjects.length} subjects, {totalTopics} topics</h2>
-          <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {subjects.map((s: any) => (
-              <div class="p-4 rounded-lg border border-surface-200 dark:border-surface-700">
-                <h3 class="font-bold mb-2">{s.name}</h3>
-                <ul class="text-sm space-y-1">{(s.topics || []).slice(0,8).map((t: any) => <li class="flex justify-between"><span>{t.name}</span><span class="text-xs text-surface-500">w{t.weight}</span></li>)}</ul>
-                {(s.topics || []).length > 8 && <div class="text-xs text-surface-500 mt-2">+ {(s.topics || []).length - 8} more</div>}
-              </div>
-            ))}
-          </div>
+          <p>
+            The {examName} syllabus below is organised by subject with weightage cues (1–5) so you know what to revise first.
+            Weightings are derived from how often topics appear in competitive practice patterns and official outlines —
+            they are a planning tool, not a guarantee of question counts in any single paper.
+          </p>
+          {subjects.length === 0 ? (
+            <p class="text-surface-600">Detailed topic lists for {examName} are being expanded. Start with the
+              <a href={`/exams/${exam.examId}/`} class="text-brand-600 underline"> exam overview</a> and a free duration-based plan meanwhile.</p>
+          ) : (
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 not-prose">
+              {subjects.map((s: any) => (
+                <div class="p-4 rounded-lg border border-surface-200 dark:border-surface-700">
+                  <h3 class="font-bold mb-2">{s.name}</h3>
+                  <p class="text-xs text-surface-500 mb-2">{(s.topics || []).length} topics</p>
+                  <ul class="text-sm space-y-1">
+                    {(s.topics || []).slice(0, 10).map((t: any) => (
+                      <li class="flex justify-between gap-2">
+                        <span>{t.name}</span>
+                        <span class="text-xs text-surface-500 shrink-0">w{t.weight}</span>
+                      </li>
+                    ))}
+                  </ul>
+                  {(s.topics || []).length > 10 && (
+                    <div class="text-xs text-surface-500 mt-2">+ {(s.topics || []).length - 10} more topics in this subject</div>
+                  )}
+                </div>
+              ))}
+            </div>
+          )}
+
+          {highWeight.length > 0 && (
+            <div class="mt-8">
+              <h3 class="text-xl font-bold mb-3">Highest-priority {examName} topics</h3>
+              <p>Start here if your remaining calendar is short. These are the highest weightage items in our {examName} model:</p>
+              <ol class="list-decimal ml-6 space-y-2">
+                {highWeight.map((t: any) => (
+                  <li>
+                    <strong>{t.name}</strong>
+                    <span class="text-surface-500"> ({t.subjectName}, weight {t.weight})</span>
+                    {t.description ? <span class="block text-sm text-surface-600 dark:text-surface-400 mt-0.5">{t.description}</span> : null}
+                  </li>
+                ))}
+              </ol>
+            </div>
+          )}
+
+          <h3 class="text-xl font-bold mt-8 mb-3">How to turn this syllabus into a weekly plan</h3>
+          <ol class="list-decimal ml-6 space-y-2">
+            <li>List every subject you still need for {examName} and mark weak chapters from past mocks or board scores.</li>
+            <li>Allocate ~40% of weekly hours to the highest-weight topics in weak subjects first.</li>
+            <li>Keep a mixed revision block every week so earlier subjects do not decay before {examName} day.</li>
+            <li>After you clear a topic once, move it to spaced revision (day 3 → day 7 → day 21) rather than re-reading from zero.</li>
+            <li>In the final 10–15% of time, drop new theory and only do previous-year style questions + error notebooks.</li>
+          </ol>
         </div>
       )}
 
       {spoke === 'pattern' && (
-        <div class="prose dark:prose-invert max-w-none">
+        <div>
           <h2 class="text-2xl font-bold mb-3">{examName} {year} exam pattern</h2>
-          <p class="text-surface-700 dark:text-surface-300">{exam.examPattern || `${examName} is a standardised competitive exam. See the official board notification for the exact number of questions and marks — we sync this from the official source.`}</p>
-          <h3 class="text-xl font-bold mt-6 mb-2">Subjects in this exam</h3>
-          <ul>{subjects.map((s: any) => <li><strong>{s.name}</strong>: {s.topics?.length || 0} topics</li>)}</ul>
+          <p class="text-surface-700 dark:text-surface-300">
+            {hasRichPattern
+              ? patternText
+              : `${examName} is a standardised competitive exam in ${countryLabel}. The exact number of questions, marks per item, sectional time limits, and negative marking (if any) are set in the official notification for each cycle. Treat the guidance below as a planning framework, then lock numbers from the board PDF when it is published.`}
+          </p>
+
+          <h3 class="text-xl font-bold mt-6 mb-2">Subject-wise structure in our {examName} model</h3>
+          {subjects.length > 0 ? (
+            <div class="overflow-x-auto not-prose">
+              <table class="w-full text-sm border border-surface-200 dark:border-surface-700">
+                <thead class="bg-surface-50 dark:bg-surface-900">
+                  <tr>
+                    <th class="p-2 text-left">Subject</th>
+                    <th class="p-2 text-left">Topics modelled</th>
+                    <th class="p-2 text-left">Top weight topics</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {subjects.map((s: any) => {
+                    const tops = [...(s.topics || [])].sort((a: any, b: any) => (b.weight || 0) - (a.weight || 0)).slice(0, 3);
+                    return (
+                      <tr class="border-t border-surface-200 dark:border-surface-700">
+                        <td class="p-2 font-medium">{s.name}</td>
+                        <td class="p-2">{(s.topics || []).length}</td>
+                        <td class="p-2 text-surface-600 dark:text-surface-400">{tops.map((t: any) => t.name).join(', ') || '—'}</td>
+                      </tr>
+                    );
+                  })}
+                </tbody>
+              </table>
+            </div>
+          ) : (
+            <p>Subject breakdown for {examName} is maintained on the <a href={`/exams/${exam.examId}/`} class="text-brand-600 underline">exam hub</a>.</p>
+          )}
+
+          <h3 class="text-xl font-bold mt-6 mb-2">Time and accuracy tactics that transfer across {examName} papers</h3>
+          <ul class="list-disc ml-6 space-y-2">
+            <li><strong>First pass, easy marks:</strong> sweep every section for questions you can finish in under a minute; mark harder ones for pass two.</li>
+            <li><strong>Negative marking discipline:</strong> if the official scheme subtracts marks for wrong answers, skip pure guesses unless you can eliminate at least two options.</li>
+            <li><strong>Sectional balance:</strong> do not over-invest early sections if later ones carry equal weight — practice full-length mocks with the real sectional order.</li>
+            <li><strong>Last 15 minutes:</strong> re-check bubbling/OMR or online review flags, not new long calculations, unless a high-value item is clearly unfinished.</li>
+            <li><strong>Mock frequency:</strong> once syllabus coverage passes ~60%, sit a timed mock every 7–10 days and log only recurring error types.</li>
+          </ul>
+
+          <h3 class="text-xl font-bold mt-6 mb-2">How pattern knowledge changes your study order</h3>
+          <p>
+            Knowing the {examName} pattern early lets you size daily goals realistically. If a subject appears with many short MCQs, drill speed + formula recall.
+            If the paper rewards multi-step reasoning, protect longer practice blocks. Generate a free plan that sequences high-weight topics first:
+          </p>
+          <div class="flex flex-wrap gap-2 not-prose mt-3">
+            {durationKeys.slice(0, 8).map((d: string) => (
+              <a href={`/study-plan/${exam.examId}/${d}/`} class="px-3 py-2 rounded-lg bg-surface-100 dark:bg-surface-800 hover:bg-brand-100 text-sm font-medium">{d} plan</a>
+            ))}
+            <a href={`/roadmap/?exam=${exam.examId}`} class="px-3 py-2 rounded-lg bg-brand-600 text-white hover:bg-brand-700 text-sm font-semibold">Open roadmap generator</a>
+          </div>
         </div>
       )}
 
       {spoke === 'eligibility' && (
-        <div class="prose dark:prose-invert max-w-none">
+        <div>
           <h2 class="text-2xl font-bold mb-3">{examName} {year} eligibility criteria</h2>
-          <p>{exam.eligibility || `${examName} eligibility is set each year by the official examining body. The usual criteria cover minimum age, educational qualification, and nationality — always verify on the official notification before applying.`}</p>
-          <h3 class="text-xl font-bold mt-6 mb-2">Before you apply</h3>
-          <ul>
-            <li>Confirm your Class 12 stream matches the required subject combination.</li>
-            <li>Check the maximum age limit on the application date (not the exam date).</li>
-            <li>Keep scans of photo ID, mark sheets, category certificate, and passport-size photo ready.</li>
+          <p>
+            {hasRichEligibility
+              ? eligibilityText
+              : `${examName} eligibility is set each year by the official examining body in ${countryLabel}. Typical gates include minimum and maximum age on a stated cut-off date, required educational qualification (and sometimes specific subject combinations), nationality or domicile rules, and attempt limits. The paragraphs below help you prepare documents and avoid last-day surprises — they do not replace the official notification PDF.`}
+          </p>
+
+          <h3 class="text-xl font-bold mt-6 mb-2">Eligibility checklist before you apply for {examName}</h3>
+          <ul class="list-disc ml-6 space-y-2">
+            <li>Confirm you meet the minimum qualification (for school-leaver exams, usually Class 12 or equivalent with required streams) by the date printed in the notification — not by exam day alone.</li>
+            <li>Check age limits against the official cut-off date; reservation or category-wise upper-age relaxations only apply if the board lists them.</li>
+            <li>Verify nationality, domicile, or passport rules if you are applying from outside the primary jurisdiction for {examName}.</li>
+            <li>Count previous attempts if the board caps attempts for {examName}; keep admit cards or result PDFs as proof.</li>
+            <li>Prepare digital scans: photo ID, mark sheets, category certificate (if claimed), recent passport-size photo, and signature as per pixel/size rules.</li>
+            <li>Read medical, disability, or scribe guidelines early if they apply — late requests are often rejected.</li>
+          </ul>
+
+          <h3 class="text-xl font-bold mt-6 mb-2">How eligibility connects to your {examName} prep calendar</h3>
+          <p>
+            Eligibility decides whether you should invest a multi-month plan. If you are one cycle early (for example still finishing the required qualification), use a longer duration plan and treat this year as full syllabus build-up.
+            If you already meet every gate, compress theory and start mocks sooner. {examName} currently has {totalTopics} modelled topics —
+            candidates who only have a few months left should prioritise the high-weight list rather than covering every low-weight chapter equally.
+          </p>
+          {highWeight.length > 0 && (
+            <div class="not-prose mt-4">
+              <h4 class="font-semibold mb-2">If time is short, prioritise these {examName} topics first</h4>
+              <ul class="grid sm:grid-cols-2 gap-2 text-sm">
+                {highWeight.slice(0, 8).map((t: any) => (
+                  <li class="p-2 rounded border border-surface-200 dark:border-surface-700">
+                    <span class="font-medium">{t.name}</span>
+                    <span class="text-surface-500"> · {t.subjectName} · w{t.weight}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+
+          <h3 class="text-xl font-bold mt-6 mb-2">Document & application hygiene (saves rejections)</h3>
+          <ol class="list-decimal ml-6 space-y-2">
+            <li>Create a single folder named “{examName}-{year}” with PDF and JPG copies of every document the form may request.</li>
+            <li>Use the same name spelling as on your Class 10 / government ID across every field.</li>
+            <li>Submit the form days before the deadline; payment gateways and CAPTCHA queues routinely fail on the last evening.</li>
+            <li>Download and print the confirmation page and fee receipt the same day.</li>
+            <li>When admit cards open, check centre, shift, and photo immediately — correction windows are short.</li>
+          </ol>
+
+          <h3 class="text-xl font-bold mt-6 mb-2">Next steps on StudyRoadmap</h3>
+          <ul class="list-disc ml-6 space-y-1">
+            <li><a href={`/exams/${exam.examId}/syllabus/`} class="text-brand-600 underline">{examName} syllabus & weightage</a></li>
+            <li><a href={`/exams/${exam.examId}/pattern/`} class="text-brand-600 underline">{examName} exam pattern</a></li>
+            {hasNotesHub && <li><a href={`/notes/${exam.examId}/`} class="text-brand-600 underline">Free {examName} topic notes</a></li>}
+            <li><a href={`/roadmap/?exam=${exam.examId}`} class="text-brand-600 underline">Generate a free {examName} roadmap</a></li>
           </ul>
         </div>
       )}
 
       {spoke === 'dates' && (
-        <div class="prose dark:prose-invert max-w-none">
+        <div>
           <h2 class="text-2xl font-bold mb-3">{examName} {year} official calendar</h2>
-          <p>{examName} {year} dates are set by the official examining body. This page explains the stages of the exam cycle — always confirm the exact notification, application, admit-card, exam and result dates on the official website before you rely on them.</p>
-          <table class="w-full text-sm border border-surface-200 dark:border-surface-700 mt-4">
-            <thead class="bg-surface-50 dark:bg-surface-900"><tr><th class="p-2 text-left">Stage</th><th class="p-2 text-left">Status</th><th class="p-2 text-left">Notes</th></tr></thead>
+          <p>
+            {examName} {year} dates are set by the official examining body in {countryLabel}. This page explains the stages of the exam cycle —
+            always confirm the exact notification, application, admit-card, exam and result dates on the official website before you rely on them for travel or leave.
+          </p>
+          <table class="w-full text-sm border border-surface-200 dark:border-surface-700 mt-4 not-prose">
+            <thead class="bg-surface-50 dark:bg-surface-900">
+              <tr>
+                <th class="p-2 text-left">Stage</th>
+                <th class="p-2 text-left">What to do</th>
+                <th class="p-2 text-left">Planning tip</th>
+              </tr>
+            </thead>
             <tbody>
-              <tr class="border-t"><td class="p-2">Notification</td><td class="p-2">Track official board</td><td class="p-2">Released ahead of application</td></tr>
-              <tr class="border-t"><td class="p-2">Application window</td><td class="p-2">Track official board</td><td class="p-2">Usually 3–4 weeks</td></tr>
-              <tr class="border-t"><td class="p-2">Admit card</td><td class="p-2">Track official board</td><td class="p-2">7–14 days before exam</td></tr>
-              <tr class="border-t"><td class="p-2">Exam</td><td class="p-2">Track official board</td><td class="p-2">Country + centre varies</td></tr>
-              <tr class="border-t"><td class="p-2">Result</td><td class="p-2">Track official board</td><td class="p-2">2–6 weeks after exam</td></tr>
+              <tr class="border-t"><td class="p-2 font-medium">Notification</td><td class="p-2">Read eligibility, fees, cities, and syllabus notes</td><td class="p-2">Screenshot or save the PDF; rules rarely stay only on social media posts</td></tr>
+              <tr class="border-t"><td class="p-2 font-medium">Application window</td><td class="p-2">Register, upload docs, pay fee</td><td class="p-2">Usually 2–4 weeks — apply in the first half</td></tr>
+              <tr class="border-t"><td class="p-2 font-medium">Correction window</td><td class="p-2">Fix photo, category, or centre errors if offered</td><td class="p-2">Often only a few days; set a calendar alert</td></tr>
+              <tr class="border-t"><td class="p-2 font-medium">Admit card</td><td class="p-2">Download, print, check shift &amp; centre</td><td class="p-2">Commonly 7–14 days before the paper</td></tr>
+              <tr class="border-t"><td class="p-2 font-medium">Exam day(s)</td><td class="p-2">Reach centre early with ID + admit card</td><td class="p-2">Pack transparent pouch the night before</td></tr>
+              <tr class="border-t"><td class="p-2 font-medium">Answer key / objections</td><td class="p-2">Match responses; raise challenges with proof</td><td class="p-2">Windows are short — keep rough work if allowed</td></tr>
+              <tr class="border-t"><td class="p-2 font-medium">Result</td><td class="p-2">Download scorecard; note counselling dates</td><td class="p-2">Often 2–6 weeks after the last paper</td></tr>
             </tbody>
           </table>
+          <h3 class="text-xl font-bold mt-6 mb-2">Build prep around the calendar, not rumours</h3>
+          <p>
+            Until the board freezes dates, plan {examName} prep in relative time (12 weeks / 6 months) rather than guessing a day.
+            When the notification lands, reverse-plan mocks so your last full-length sits 5–7 days before the paper, not the night before.
+          </p>
         </div>
       )}
 
       {spoke === 'strategy' && (
         <div>
           <h2 class="text-2xl font-bold mb-4">{examName} {year} — how to plan your prep</h2>
+          <p>
+            A durable {examName} strategy is simple: cover high-weight topics early, interleave subjects so nothing goes cold, and convert theory into timed practice.
+            With {totalTopics} topics across {subjects.length} subjects in our model, the bottleneck is almost always prioritisation — not finding more PDFs.
+          </p>
           <ol class="list-decimal ml-6 space-y-2 text-surface-700 dark:text-surface-200">
-            <li>Audit your remaining days until {examName} {year}. Use the duration that matches.</li>
-            <li>Open your <a href={`/study-plan/${exam.examId}/3mo/`} class="text-brand-600 underline">3-month plan</a> or the closest longer plan as a baseline.</li>
-            <li>Tag 3 weak subjects (from past board marks). Spend the first 40% of your time there.</li>
-            <li>From day ~40%, shift to mixed-subject revision + full-length mocks every 7 days.</li>
-            <li>Last 10% of time: only previous-year papers + weak-topic quick notes.</li>
+            <li>Audit remaining days until your target {examName} attempt. Pick the StudyRoadmap duration that matches (or is slightly shorter for urgency).</li>
+            <li>Open your <a href={`/study-plan/${exam.examId}/3mo/`} class="text-brand-600 underline">3-month plan</a> (or the closest longer plan) as a baseline sequence.</li>
+            <li>Tag 2–3 weak subjects from past board or mock scores. Spend the first ~40% of calendar time there, still touching one strong subject daily for confidence.</li>
+            <li>From the middle third, shift to mixed-subject revision + a full-length mock every 7–10 days. Log only recurring error types.</li>
+            <li>Last ~10–15% of time: previous-year style papers, formula sheets, and weak-topic drills only — no brand-new theory chapters.</li>
           </ol>
-          <div class="mt-6 flex flex-wrap gap-3">
-            {Object.keys(exam.durations || {}).slice(0, 6).map((d: string) => (
+
+          {highWeight.length > 0 && (
+            <div class="mt-6 not-prose">
+              <h3 class="text-lg font-bold mb-2">Week-1 focus list for {examName}</h3>
+              <ul class="space-y-1 text-sm">
+                {highWeight.slice(0, 6).map((t: any) => (
+                  <li class="flex justify-between gap-2 border-b border-surface-100 dark:border-surface-800 py-1">
+                    <span>{t.name} <span class="text-surface-500">({t.subjectName})</span></span>
+                    <span class="text-xs text-surface-500">w{t.weight}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+
+          <div class="mt-6 flex flex-wrap gap-3 not-prose">
+            {durationKeys.slice(0, 8).map((d: string) => (
               <a href={`/study-plan/${exam.examId}/${d}/`} class="px-3 py-2 rounded-lg bg-surface-100 dark:bg-surface-800 hover:bg-brand-100 text-sm font-medium">{d} plan</a>
             ))}
+            <a href={`/roadmap/?exam=${exam.examId}`} class="px-3 py-2 rounded-lg bg-brand-600 text-white hover:bg-brand-700 text-sm font-semibold">Custom roadmap →</a>
           </div>
         </div>
       )}
@@ -191,9 +417,18 @@ const spokeRobots = (isNoindexExam(exam.examId)
     <section class="container-page py-8 border-t border-surface-200 dark:border-surface-700">
       <h2 class="text-xl font-bold mb-3">More about {examName}</h2>
       <div class="flex flex-wrap gap-2">
-        {SIBLINGS.map((s: string) => <a href={`/exams/${exam.examId}/${s}/`} class="px-3 py-2 rounded-lg bg-surface-100 dark:bg-surface-800 hover:bg-brand-100 text-sm font-medium capitalize">{s}</a>)}
+        {SIBLINGS.map((s: string) => (
+          <a href={`/exams/${exam.examId}/${s}/`} class="px-3 py-2 rounded-lg bg-surface-100 dark:bg-surface-800 hover:bg-brand-100 text-sm font-medium capitalize">{s}</a>
+        ))}
         <a href={`/exams/${exam.examId}/`} class="px-3 py-2 rounded-lg bg-brand-600 text-white hover:bg-brand-700 text-sm font-semibold">Full overview →</a>
+        {hasNotesHub && (
+          <a href={`/notes/${exam.examId}/`} class="px-3 py-2 rounded-lg border border-brand-300 text-brand-700 dark:text-brand-300 text-sm font-medium">Notes hub →</a>
+        )}
       </div>
+      <p class="text-xs text-surface-500 mt-4 max-w-3xl">
+        StudyRoadmap provides free study planning tools and educational summaries. We are not affiliated with the official {examName} board.
+        Confirm every date, fee, and eligibility rule on the official notification before acting.
+      </p>
     </section>
   </main>
   <Footer />

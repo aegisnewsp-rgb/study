@@ -1,12 +1,40 @@
 # StudyRoadmap — robots.txt
 # https://studyroadmap.in
-# Last updated: 2026-04-08
+# Last updated: 2026-07-28
+#
+# AdSense / indexing rules (strict):
+# - Mediapartners-Google + AdsBot-Google MUST remain fully allowed (ad review crawl).
+# - Googlebot fully allowed; no login wall; sitemap referenced below.
+# - Thin/low-value notes are noindexed at page level (robots meta), not here.
+
+# ── GOOGLE ADSENSE FIRST (must not be blocked by any later rule) ────────────
+User-agent: Mediapartners-Google
+Allow: /
+
+User-agent: AdsBot-Google
+Allow: /
+
+User-agent: AdsBot-Google-Mobile
+Allow: /
+
+User-agent: Google-Site-Verification
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Googlebot-News
+Allow: /
 
 # ── DEFAULT — ALLOW ALL ─────────────────────────────────────────────────────
 User-agent: *
 Allow: /
 Disallow: /api/
 Disallow: /_astro/
+# Crawl-delay is ignored by Google; keep only for polite third-party bots
 Crawl-delay: 1
 
 # Sitemaps
@@ -16,24 +44,7 @@ Sitemap: https://studyroadmap.in/sitemap-0.xml
 # Host directive (Yandex)
 Host: https://studyroadmap.in
 
-# ── GOOGLE ADSENSE — EXPLICIT ALLOW (required for ad serving) ──────────────
-# Google's AdSense crawler must be allowed to fetch every page where ads will
-# render so it can verify content policy before serving impressions.
-User-agent: Mediapartners-Google
-Allow: /
-
-# AdsBot for landing-page experience checks
-User-agent: AdsBot-Google
-Allow: /
-
-# Google Site Verification (Search Console + AdSense)
-User-agent: Google-Site-Verification
-Allow: /
-
 # ── SEARCH ENGINE CRAWLERS — ALLOW ──────────────────────────────────────────
-User-agent: Googlebot
-Allow: /
-
 User-agent: Bingbot
 Allow: /
 

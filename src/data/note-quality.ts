@@ -50,19 +50,14 @@ export function isLowValueNote(
     typeof topicName === 'string' &&
     /^(Topic|Chapter|Unit|Section)\s+\d+/i.test(topicName.trim());
   const text = body ?? '';
-  // Body char floor: 3500 (~500 body words). AdSense 2026 reviewer rubric
-  // (eastondev / pubfuture / genieegroup 2026 corpora) treats <800 words as
-  // thin; on our content the chars-to-words ratio is ~7 so 3500 catches the
-  // <500-word FAIL tier and the worst of the THIN tier. Raised from the
-  // original 2500 char floor on 2026-05-28 evening after a 150-URL sample
-  // showed ~9% of indexed pages falling in the THIN/FAIL tier. NB: H2/H3
-  // structural-emptiness was considered but would have noindexed 1800+ notes
-  // that use bold-as-heading rather than markdown `## `. The real fix is at the
-  // authoring source — the rewrite prompt + pipeline gate now ban standalone
-  // bold-as-label and require `#### ` sub-headings; a one-time backfill of the
-  // legacy corpus is tracked separately. (There is NO render-time bold→h2
-  // promotion — an earlier comment here claimed one that never existed.)
-  const isThinBody = text.length < 3500;
+  // Body char floor: 4000 (~550–600 body words). AdSense 2026 reviewer rubric
+  // treats sub-~800-word pages as thin when the whole site looks templated.
+  // chars-to-words ratio on our corpus is ~7; 4000 catches FAIL + worst THIN
+  // tiers while only noindexing ~4% of notes. Raised 2500→3500 (2026-05-28)
+  // then 3500→4000 (2026-07-28) for stricter application review. NB: H2/H3
+  // structural-emptiness would noindex 1800+ notes that use bold-as-heading;
+  // rewrite pipeline requires `#### ` sub-headings instead.
+  const isThinBody = text.length < 4000;
   const isTemplatedFiller = FILLER_PATTERNS.some((re) => re.test(text));
   return isPlaceholderTopic || isThinBody || isTemplatedFiller || hasCjkContamination(text);
 }

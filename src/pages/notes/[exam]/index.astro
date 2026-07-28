@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 import Layout from '@layouts/Layout.astro';
 import Navbar from '@components/Navbar.astro';
 import Footer from '@components/Footer.astro';
+import FaqSection from '@components/FaqSection.astro';
 import { isGoodNote, isIndexableExamHub, isIndexableSubjectHub } from '@data/note-quality';
 import { EXAM_EQUIVALENTS } from '@data/exam-equivalents';
 
@@ -67,14 +68,46 @@ const subjectList =
       ? subjectNames.join(', ')
       : `${subjectNames.slice(0, 3).join(', ')}, and more`;
 
-const title = `${examName} Study Notes — All Subjects | StudyRoadmap™`;
-const description = `Free ${examName} study notes for all subjects. ${examNotes.length} topics — ${subjectList}. No signup required.`;
+// Title ≤65 chars for SERP (avoid ™ suffix and long exam names)
+const titleBase = `${examName} Free Study Notes — All Subjects`;
+const title = titleBase.length <= 65 ? titleBase : `${examName} Study Notes`.slice(0, 65);
+const description =
+  `Free ${examName} study notes: ${examNotes.length} topics across ${Object.keys(bySubject).length} subjects (${subjectList}). Weight-tagged, syllabus-aligned, no signup.`.slice(0, 160);
 const canonicalUrl = `https://studyroadmap.in/notes/${exam}/`;
 const siteUrl = 'https://studyroadmap.in';
 const authorObj = { name: "StudyRoadmap Editorial Team", jobTitle: "Curriculum Editors", affiliation: "StudyRoadmap", url: "https://studyroadmap.in/about/" };
 // Only 20 of 125+ exams have custom OG images — fall back to default for rest
 const EXAM_OG_IMAGES = ['cat','clat','cuet','ecat','hat-ug','jamb','jeeadvanced','jeemain','lat','mdcat','nabteb','nat-i','ncee','nda','neco','neet','ssc-cgl','ugc-net','upsc','waec'];
 const ogImage = EXAM_OG_IMAGES.includes(exam) ? `/og-notes/exam-${exam}.jpg` : '/og-image.jpg';
+
+const subjectCount = Object.keys(bySubject).length;
+const highWeightTopics = examNotes
+  .filter((n) => (n.data.weight || 0) >= 5)
+  .sort((a, b) => (b.data.weight || 0) - (a.data.weight || 0))
+  .slice(0, 8);
+
+const NOTES_FAQS = [
+  {
+    question: `How do I use these ${examName} study notes effectively?`,
+    answer: `Start with a free ${examName} roadmap on StudyRoadmap so every week has a topic sequence. Open the matching subject hub below, then read Standard notes first for core concepts. Mark weightage percentages on each card and prioritise topics at or above 5% early. In the final 2–3 weeks before ${examName}, switch to Quick notes for rapid recall and re-work only the weak areas you flagged during practice.`,
+  },
+  {
+    question: `What's the difference between Quick, Standard, and Deep ${examName} notes?`,
+    answer: `Quick notes are short revision sheets for last-minute recall of definitions, formulas, and traps. Standard notes are the daily study default: explanations, worked ideas, and exam-style framing. Deep notes expand into edge cases and multi-step reasoning when a high-weight ${examName} topic still feels shaky after one Standard pass. Use Deep selectively so you do not burn calendar time on low-weight chapters.`,
+  },
+  {
+    question: `Are these ${examName} notes aligned with the official syllabus?`,
+    answer: `Notes are organised by subject and topic labels that track the public ${examName} syllabus structure used on our exam page. Each topic shows an approximate weightage so you can schedule effort. Always cross-check dates, paper pattern, and official notifications on the exam board site before you register or sit ${examName}. StudyRoadmap is an independent free tool, not the exam board.`,
+  },
+  {
+    question: `How many ${examName} topics and subjects are covered here?`,
+    answer: `This hub currently lists ${examNotes.length} indexable topics across ${subjectCount} subjects (${subjectList}). Subject pages group every topic card for that paper area. If a subject is still thin after quality review, it may not appear until notes pass the content gate — empty shells are not published.`,
+  },
+  {
+    question: `Can I study ${examName} notes on mobile without signup?`,
+    answer: `Yes. Every ${examName} note is free, responsive, and readable on phone or laptop with no account, app, or payment wall. Bookmark high-weight topics, pair them with a generated study plan, and revise offline after loading the page once. Report factual errors via Contact with the page URL and an official source when you can.`,
+  },
+];
 
 const breadcrumbJsonLd = {
   '@context': 'https://schema.org',
@@ -108,55 +141,9 @@ const collectionPageJsonLd = {
   },
 };
 
-const faqJsonLd = {
-  '@context': 'https://schema.org',
-  '@type': 'FAQPage',
-  mainEntity: [
-    {
-      '@type': 'Question',
-      name: `How do I use these ${examName} study notes effectively?`,
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: `Start with the roadmap generator to get a personalised study plan, then use the notes to cover each topic systematically. Focus on high-weightage topics first, and use the Quick tier for rapid revision before exams.`,
-      },
-    },
-    {
-      '@type': 'Question',
-      name: `What's the difference between Quick, Standard, and Deep study notes?`,
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: `Quick notes provide concise bullet-point summaries ideal for last-minute revision. Standard notes include key concepts, formulas, and examples for regular study. Deep notes offer comprehensive explanations with diagrams and practice questions for thorough understanding.`,
-      },
-    },
-    {
-      '@type': 'Question',
-      name: `Are these ${examName} notes aligned with the official syllabus?`,
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: `Yes. All notes are organised by subject and topic to match the latest official ${examName} syllabus. Each topic also shows its weightage percentage to help you prioritise.`,
-      },
-    },
-    {
-      '@type': 'Question',
-      name: `Can I access ${examName} study notes on my phone?`,
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: `Absolutely. All notes are fully responsive and work on any device — desktop, tablet, or mobile. No app download or signup is required; just open the page and start studying.`,
-      },
-    },
-    {
-      '@type': 'Question',
-      name: `Are these ${examName} notes really free?`,
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: `Yes. Every note on StudyRoadmap is completely free to access — no paywall, no signup, no limits. We believe quality education resources should be available to everyone.`,
-      },
-    },
-  ],
-};
 ---
 
-<Layout title={title} description={description} canonical={canonicalUrl} image={ogImage} author={authorObj} robots={examHubRobots}>
+<Layout title={title} description={description} canonical={canonicalUrl} image={ogImage} author={authorObj} robots={examHubRobots} faqs={NOTES_FAQS}>
   <style is:global>
     :root {
       --color-brand-50:  #ecf2ee; --color-brand-100: #d4e2d8; --color-brand-200: #a9c4b1;
@@ -175,7 +162,6 @@ const faqJsonLd = {
   </style>
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
   <script type="application/ld+json" set:html={JSON.stringify(collectionPageJsonLd)} />
-  <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
   <Navbar />
   <main id="main-content" class="flex-1">
     <section class="relative overflow-hidden bg-gradient-to-br from-brand-50 via-white to-surface-50 dark:from-brand-950/30 dark:via-surface-950 dark:to-surface-900 border-b border-surface-200 dark:border-surface-800">
@@ -200,10 +186,17 @@ const faqJsonLd = {
           <span class="text-brand-600 dark:text-brand-300">{examName}</span>
           <span class="block text-xl md:text-2xl font-normal italic text-surface-600 dark:text-surface-300 mt-2">Study Notes</span>
         </h1>
-        <p class="text-lg text-surface-600 dark:text-surface-300 max-w-2xl mb-6 leading-relaxed">
-          Concept-first notes for every topic — written for fast revision. Organised by subject
-          {exam === 'neet' ? ' (Physics, Chemistry, Biology — Botany & Zoology)' : subjectNames.length ? ` (${subjectList})` : ''},
-          weight-tagged, completely free.
+        <p class="text-lg text-surface-600 dark:text-surface-300 max-w-2xl mb-4 leading-relaxed">
+          Free, concept-first {examName} study notes for revision and first-pass learning.
+          This hub lists <strong class="text-surface-800 dark:text-surface-100">{examNotes.length} topics</strong> across
+          <strong class="text-surface-800 dark:text-surface-100">{subjectCount} subjects</strong>
+          {subjectNames.length ? ` (${subjectList})` : ''}.
+          Each topic card shows approximate paper weightage so you can schedule high-impact chapters first.
+        </p>
+        <p class="text-base text-surface-600 dark:text-surface-400 max-w-2xl mb-6 leading-relaxed">
+          Pair these notes with a personalised <a href={`/roadmap/?exam=${exam}`} class="text-brand-600 dark:text-brand-400 hover:underline">{examName} roadmap</a>
+          and the <a href={`/exams/${exam}/`} class="text-brand-600 dark:text-brand-400 hover:underline">{examName} exam overview</a>
+          for pattern, eligibility, and official source links. No signup, no paywall — open any topic and study.
         </p>
 
         <div class="flex flex-wrap gap-3">
@@ -221,7 +214,43 @@ const faqJsonLd = {
       </div>
     </section>
 
+    <section class="container-page py-10 border-b border-surface-200 dark:border-surface-800">
+      <div class="max-w-3xl space-y-4 text-sm sm:text-base text-surface-700 dark:text-surface-300 leading-relaxed">
+        <h2 class="heading-3 text-surface-900 dark:text-surface-50">How to study {examName} with these notes</h2>
+        <p>
+          Treat this page as your {examName} syllabus map, not a dump of random PDFs. Pick one subject hub,
+          open topics in weight order when possible, and finish a Standard note before jumping to the next chapter.
+          After each note, write three recall points from memory and attempt a few past-style questions from your own practice set.
+          When accuracy stalls, open the Deep tier for that topic only, then return to Quick notes in the last fortnight before {examName}.
+        </p>
+        <p>
+          A practical weekly rhythm: 60–70% of study blocks on topics weighted 5% or higher, 20–30% on medium-weight chapters,
+          and a short daily buffer for error-log revision. Use the free roadmap generator if you need a day-by-day sequence tied to your remaining weeks until {examName}.
+          Always verify registration dates, fees, and paper pattern on the official board site — StudyRoadmap is independent educational planning content.
+        </p>
+        {highWeightTopics.length > 0 && (
+          <div>
+            <h3 class="font-semibold text-surface-900 dark:text-surface-100 mb-2">High-weightage {examName} topics to prioritise</h3>
+            <ul class="list-disc pl-5 space-y-1">
+              {highWeightTopics.map((n) => (
+                <li>
+                  <a href={`/notes/${n.id}/`} class="text-brand-600 dark:text-brand-400 hover:underline">{n.data.topicName}</a>
+                  <span class="text-surface-500"> ({n.data.subjectName} · {n.data.weight}%)</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+        <p>
+          Subject coverage on this hub: <strong class="text-surface-900 dark:text-surface-100">{subjectList}</strong>.
+          Open a subject row below for the full topic list, or jump straight into any card. Notes that fail our quality floor
+          are held back from the index so AdSense reviewers and students never land on empty placeholders.
+        </p>
+      </div>
+    </section>
+
     <section class="container-page py-12 space-y-10">
+      <h2 class="heading-3 text-surface-900 dark:text-surface-50">Browse {examName} notes by subject</h2>
       {Object.entries(bySubject).map(([subject, notes]) => (
         <div>
           <div class="flex items-center justify-between mb-4">
@@ -261,9 +290,10 @@ const faqJsonLd = {
       ))}
     {relatedExams.length > 0 && (
       <section class="border-t border-surface-200 dark:border-surface-700 pt-10 mt-10">
-        <h2 class="heading-3 text-surface-800 dark:text-surface-100 mb-4">🌍 Related Exams in Other Countries</h2>
+        <h2 class="heading-3 text-surface-800 dark:text-surface-100 mb-4">Related exams in other countries</h2>
         <p class="text-surface-600 dark:text-surface-400 text-sm mb-5">
-          Similar exams accepted for admissions in {examName}'s equivalent programs abroad.
+          Students comparing {examName} with similar admissions exams abroad can open these note hubs next.
+          Syllabi differ by country — use each hub’s weight tags and official board links, not a one-to-one topic map.
         </p>
         <div class="flex flex-wrap gap-3">
           {relatedExams.map(rel => (
@@ -277,6 +307,8 @@ const faqJsonLd = {
       </section>
     )}
     </section>
+
+    <FaqSection faqs={NOTES_FAQS} heading={`Frequently asked questions about ${examName} notes`} />
   </main>
   <Footer />
 </Layout>

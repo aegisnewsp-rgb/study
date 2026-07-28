@@ -8,7 +8,7 @@ topicName: "General Awareness — Topic 10"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-07"
+lastUpdated: "2026-07-28"
 ---
 
 # General Awareness — Topic 10
@@ -16,54 +16,84 @@ lastUpdated: "2026-07-07"
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-This topic aggregates four question buckets in SBI PO: **banking awareness**, **static GK**, **financial awareness**, and **current affairs** spanning the last ~6 months. The minimum viable recall set is: **RBI's six traditional functions**, the **LAF corridor** (Repo ↔ MSF), **CRR vs SLR definitions**, the difference between **Fiscal Deficit and Primary Deficit**, the full form of CPSS bodies (**SEBI, IRDAI, PFRDA, RBI**), and key scheme acronyms (**PMJDY, MUDRA, APY, PM-KISAN, SSY**). Memory trick — every percentage RBI controls is computed on **NDTL (Net Demand and Time Liabilities)**, not deposits alone. Memorise Repo Rate, Reverse Repo, MSF, Bank Rate and CRR as a 5-line ladder.
+Banking & Financial Awareness tests a Probationary Officer's working knowledge of RBI policy, bank types, lending norms, digital payments, and current fiscal events. The RBI, established 1 April 1935 under the RBI Act 1934 and nationalised in 1969, sets the Repo Rate — the rate at which it lends short-term funds to banks against government securities. Cash Reserve Ratio (CRR) is the share of demand and time liabilities banks must park with the RBI; Statutory Liquidity Ratio (SLR) covers gold, cash, and government securities held by banks themselves.
+
+- **Repo Rate** → RBI's short-term lending rate to banks (LAF corridor anchor since April 2020).
+- **CRR / SLR** → mandatory reserves with RBI and own holdings; absorb liquidity.
+- **NPA** → interest overdue >90 days; governs provisioning under IRAC norms.
+- **UPI / IMPS / NEFT / RTGS** → NPCI-operated retail payment rails.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-#### Indian Banking Structure
-The **Reserve Bank of India (RBI)**, established under the RBI Act 1934 and nationalised in 1949, sits at the apex. Below it: **12 Public Sector Banks** post the 2019 amalgamation (e.g., SBI, PNB, Bank of Baroda), **Private Sector Banks** (HDFC, ICICI, Kotak), **Foreign Banks** (Citi, Standard Chartered), **56 Regional Rural Banks (RRBs)**, **Cooperative Banks** (Urban + State), and **Small Finance Banks + Payment Banks** licensed since 2015. RBI's six statutory functions: monetary authority, issuer of currency, regulator of banking, manager of foreign exchange, developmental role, and banker to the government.
+#### Monetary Policy Tools of the RBI
 
-#### Monetary Policy Toolkit
-All ratios are computed on **NDTL** (Net Demand and Time Liabilities):
+Repo Rate is the policy rate at which the RBI auctions funds to commercial banks under the Liquidity Adjustment Facility. Reverse Repo Rate is the rate at which the RBI absorbs surplus funds from banks. Bank Rate, aligned to Repo Rate since April 2020, applies to long-term refinance. The Marginal Standing Facility (MSF) lets banks borrow overnight against SLR securities beyond the LAF window, signalling penalty-rate stress funding.
 
-| Tool | What it does | Direction |
-|---|---|---|
-| **Repo Rate** | Rate at which RBI lends to banks overnight against securities | Main policy signal |
-| **Reverse Repo** | Rate RBI pays on bank deposits with it | Floor of LAF corridor |
-| **MSF** (Marginal Standing Facility) | Banks borrow from RBI by dipping into SLR (penal rate = Repo + 2%) | Ceiling of corridor |
-| **Bank Rate** | Long-term RBI lending rate | Sticky legacy rate |
-| **CRR** | Cash parked with RBI (currently 4%) | No interest paid |
-| **SLR** | Gold + G-Secs + cash maintained by banks (currently 18%) | Earns interest |
+| Tool | Direction | Effect on liquidity | Current relevance |
+| --- | --- --- | --- | --- |
+| Repo Rate | RBI lends to banks | Inject | MPC decides bi-monthly |
+| Reverse Repo | RBI borrows from banks | Absorb | Corridor's lower bound |
+| MSF | Overnight against SLR | Inject (penalty) | Above Repo by 25 bps |
+| OMO | RBI buys/sells G-Secs | Inject / absorb | Open Market Operations |
+| CRR | Required reserve with RBI | Absorb | Set as % of DTL |
 
-#### Fiscal Concepts
-**Fiscal Deficit = Total Expenditure − Total Receipts (excluding borrowings)**. **Primary Deficit = Fiscal Deficit − Interest Payments**, showing the government's borrowing need for fresh spending. **Effective Revenue Deficit = Revenue Expenditure − Revenue Receipts (excluding grants for capital assets)**. The **FRBM Act, 2003** (amended 2018) anchors fiscal targets.
+#### Types of Banks and Licensing
 
-#### Government Schemes Snapshot
-**PMJDY** (Aug 2014) targets financial inclusion with zero-balance RuPay cards and a ₹10,000 overdraft for active accounts. **MUDRA Yojana** lends under three slabs — Shishu (≤₹50,000), Kishore (₹50,000–5 lakh), Tarun (₹5–10 lakh). **Stand-Up India** facilitates loans of ₹10 lakh–₹1 crore to SC/ST and women entrepreneurs. **APY** is a pension scheme for the unorganised sector (age 18–40; ₹1,000–₹5,000 monthly pension). **SSY** is a girl-child savings account with Section 80C tax benefit.
+Scheduled Commercial Banks include Public Sector Banks (PSBs), Private Sector Banks, and Foreign Banks. The RBI licenses niche formats: Small Finance Banks (minimum capital ₹200 crore, can lend), Payment Banks (minimum capital ₹100 crore, deposit cap removed, cannot lend), and Universal Banks. Regional Rural Banks are sponsored by a sponsor PSU bank.
 
-#### Regulatory Architecture
-**SEBI** regulates securities markets; **IRDAI** insurance; **PFRDA** pensions (NPS, APY); **RBI** banking + payments. **DICGC** insures each depositor up to ₹5 lakh per bank. **CIBIL (TransUnion CIBIL)** maintains the credit bureau database.
+#### Priority Sector & NPA Framework
+
+Banks must lend 40% of ANBC or CEOBE to Priority Sectors — Agriculture (18%), Micro Enterprises (7.5%), and weaker sections (sub-target 10%, with SC/ST revised to 9.5% under EASE 4.0 reforms). An account becomes an NPA after 90 days of overdue interest/installment; sub-standard, doubtful, and loss assets follow IRAC classification with prescribed provisioning.
+
+- **MSME sub-targets** differentiate micro from small enterprises.
+- **IRAC** = Income Recognition and Asset Classification.
+- **Secured debt ₹1 lakh+** under SARFAESI enables possession without court.
+- **IBC timeline** allows 180 + 90 days, max 330 including litigation.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-#### Exam Strategy by Section
-**SBI PO Prelims** dedicates GA to a 25-question, 20-mark qualifying section where sectional cut-off applies only in Mains. The Mains **General/Financial Awareness** is tier-2 (50 Qs, 50 marks, 35 min) and is the tiebreaker between candidates with equal descriptive scores. Roughly 60% of questions test the preceding 6 months' current affairs (RBI policy rates, GDP prints, Union Budget, census/survey releases), 25% static banking, and 15% financial markets/economy fundamentals.
+#### Digital Payments Stack & Credit Infrastructure
 
-#### Edge Cases & Classic Traps
-**MSF vs Repo**: Many answer keys trap candidates by calling MSF the penalty rate — it is Repo + 2% only since 2014, and banks may dip into SLR up to 2% below the prescribed level to access MSF. **CRR is maintained in cash only** (cash + current account with RBI), while SLR includes gold and government securities. Reverse Repo rate changes don't always move in lockstep with Repo. **NBFC** deposit-taking NBFCs are registered under Companies Act and not deposits insured by DICGC. **NPA classification**: an account becomes NPA if interest/installment is overdue for 90 days (90 DPD rule), but for **agriculture** the threshold is two crop seasons (short) or one season (long). **Basel III** requires Capital Conservation Buffer of 2.5% on top of minimum 8% CAR. **ETF** in the Indian context refers to **Equity Tracker Funds** tracking Nifty/BSE indices, used for government disinvestment (CPSE ETF, Bharat 22). **SWIFT** is a messaging network, not a fund transfer system; **UPI** by NPCI is built on IMPS rails.
+NPCI's UPI enables real-time inter-bank P2P and P2M transfers via mobile; IMPS runs 24/7 up to ₹5 lakh; NEFT settles in half-hourly batches; RTGS handles high-value (₹2 lakh minimum) real-time gross settlement. The Account Aggregator (AA) framework permits consent-based financial data sharing between FIPUs and FIUs, powering digital lending. CBDC (₹e) pilot runs in retail and wholesale segments; e-Rupi is a purpose-specific digital voucher.
 
-#### Cross-Links with Tier-1
-Quantitative Aptitude's **SI/Compound interest** questions sometimes use Repo/CPI data. Reasoning Data Sufficiency sets occasionally embed schemes (APY contribution eligibility). Keep GA ready because **it's the quickest scoring tier in Mains** if revision is current.
+#### Regulatory & Recovery Architecture
 
-#### Practice Prompts:
-1. If RBI raises Repo Rate by 25 bps, citing NDTL changes and pre-existing SLR, will CRR in absolute terms change? Why or why not?
-2. A 28-year-old self-employed woman from an SC family seeks ₹15 lakh working capital. Name the scheme, upper loan limit, and sponsoring agency.
+The Banking Regulation Act 1949 (Sections 22, 35A) gives the RBI licensing and emergency powers. SARFAESI (2002) allows secured creditors to enforce collateral after a 60-day demand notice on NPA accounts. IBC (2016) institutionalises time-bound resolution through a Committee of Creditors voting at 66%. Debt Recovery Tribunals (DRTs) handle recovery suits above ₹20 lakh. The DICGC insures deposits up to ₹5 lakh per depositor per bank.
+
+#### Numericals SBI PO Loves
+
+Two recurring calculation types appear in Mains: interest arithmetic and ratios. Worked example: P = ₹1,00,000, R = 8% p.a., T = 2 years compound annually → CI = 1,00,000 × (1.08)² − 1,00,000 = ₹16,640. Money Multiplier with CRR = 4% gives m = 1 / 0.04 = 25, meaning every ₹1 of base money creates ₹25 of broad money.
+
+| Ratio | Formula | RBI benchmark |
+| --- | --- | --- |
+| CRAR | (Tier 1 + Tier 2) / RWA | ≥ 11.5% (Basel III + CCB) |
+| Net NPA | (Gross NPA − Provisions) / Net Advances | PSB target ≤ 2% |
+| LCR | HQLA / Net cash outflows over 30 days | 100% |
+| CIBIL | 300–900 scale, payment history weight 35% | 750+ preferred |
+
+#### Common Traps
+
+- Confusing Bank Rate with Repo Rate after the April 2020 alignment.
+- Forgetting the PMJDY overdraft facility of ₹10,000 for one account per household.
+- Mixing Payment Bank lending restrictions with Small Finance Bank permissions.
+- Misreading SARFAESI threshold (₹1 lakh) with IBC filing threshold.
+
+**Practice prompts:** (1) If CRR rises from 4% to 4.5%, what is the new money multiplier? (2) A bank's Tier 1 capital is ₹600 cr and RWA is ₹5,000 cr; does it meet the 11.5% CRAR benchmark?
+
+---
+
+## Continue your study
+
+- **[View this topic in your SBI PO roadmap](/roadmap/?exam=sbi-po&duration=1mo)** — see where "General Awareness — Topic 10" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=sbi-po&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[SBI PO exam overview](/exams/sbi-po/)** — pattern, eligibility, and syllabus
+- **[All General Awareness notes](/notes/sbi-po/general-awareness/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

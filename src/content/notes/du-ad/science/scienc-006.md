@@ -15,7 +15,7 @@ lastUpdated: "2026-07-25"
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Topic 6** — Key Facts for DU Admission (Bangladesh)
+**Key facts** — DU Admission (Bangladesh)
 Core concept: Genetics and Heredity — the foundation of biological inheritance
 High-yield point: Mendel's Laws, Punnett squares, and human genetic disorders
 ⚡ Exam tip: One or two genetics problems appear every year in DU admission test
@@ -25,7 +25,7 @@ High-yield point: Mendel's Laws, Punnett squares, and human genetic disorders
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Topic 6** — Genetics and Heredity Study Guide
+**Study guide** — Genetics and Heredity
 Overview: Genetics is one of the most scoring chapters in the biology section
 Core principles: Mendel's Laws of Inheritance, chromosome theory, DNA as genetic material
 Key points: Dominant/recessive alleles, genotype/phenotype, monohybrid and dihybrid crosses

@@ -16,7 +16,7 @@ lastUpdated: "2026-07-25"
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Topic 8** — Key Facts for DU Admission (Bangladesh)
+**Key facts** — DU Admission (Bangladesh)
 Core concept: Organic Chemistry — structure, naming, and reactions of organic compounds
 High-yield point: IUPAC nomenclature, functional groups, and named reactions
 ⚡ Exam tip: Questions on organic reactions and nomenclature appear every year — focus on homologues and isomers
@@ -26,7 +26,7 @@ High-yield point: IUPAC nomenclature, functional groups, and named reactions
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Topic 8** — DU Admission (Bangladesh) Study Guide
+**Study guide** — DU Admission (Bangladesh)
 Overview: Organic Chemistry covers carbon compounds, functional groups, and their reactions
 Core principles: Covalent bonding, hybridization, IUPAC naming
 Key points: Homologous series, isomerism, reaction mechanisms

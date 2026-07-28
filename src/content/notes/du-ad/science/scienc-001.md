@@ -16,7 +16,7 @@ lastUpdated: "2026-07-25"
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Topic 1** — Key Facts for DU Admission (Bangladesh)
+**Key facts** — DU Admission (Bangladesh)
 Core concept: Newton's Laws of Motion — the bedrock of classical mechanics that explains how forces change the state of motion of material bodies
 High-yield point: F = ma is the most frequently tested formula; action-reaction pairs act on different bodies
 ⚡ Exam tip: Draw free body diagrams for every numerical problem; at least one question from Newton's laws appears annually in DU admission tests
@@ -26,7 +26,7 @@ High-yield point: F = ma is the most frequently tested formula; action-reaction 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Topic 1** — DU Admission (Bangladesh) Study Guide
+**Study guide** — DU Admission (Bangladesh)
 Overview: Newton's laws of motion form the dynamical foundation of physics, connecting forces acting on bodies to their acceleration, momentum, and equilibrium states
 Core principles: Three laws of motion, conservation of linear momentum, impulse-momentum relationship
 Key points: Inertia and mass relationship, free body diagram construction, pulley systems, friction behavior, centripetal force as causative agent

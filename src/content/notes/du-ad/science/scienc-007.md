@@ -15,7 +15,7 @@ lastUpdated: "2026-07-25"
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Topic 7** — Key Facts for DU Admission (Bangladesh)
+**Key facts** — DU Admission (Bangladesh)
 Core concept: Waves and Sound — properties of wave motion and acoustic phenomena
 High-yield point: Wave equation, resonance, Doppler effect formulas
 ⚡ Exam tip: At least one numerical problem from wave equation or Doppler effect appears in every DU admission test
@@ -25,7 +25,7 @@ High-yield point: Wave equation, resonance, Doppler effect formulas
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Topic 7** — DU Admission (Bangladesh) Study Guide
+**Study guide** — DU Admission (Bangladesh)
 Overview: Waves and Sound is a high-scoring physics topic requiring conceptual clarity
 Core principles: Wave properties, sound propagation, acoustic phenomena
 Key points: Wave equation v = fλ, Doppler effect, resonance frequency

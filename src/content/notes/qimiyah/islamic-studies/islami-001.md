@@ -16,7 +16,7 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Topic 1** — Key Facts for Qimiyah Exam (Saudi)
+**Key facts** — Qimiyah Exam (Saudi)
 Core concept: Topic 1 is an important topic in General Studies for Qimiyah Exam (Saudi)
 High-yield point: Understand the fundamental principles and their applications
 ⚡ Exam tip: Questions from Topic 1 appear regularly in Qimiyah Exam (Saudi)
@@ -26,7 +26,7 @@ High-yield point: Understand the fundamental principles and their applications
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Topic 1** — Qimiyah Exam (Saudi) Study Guide
+**Study guide** — Qimiyah Exam (Saudi)
 Overview: Topic 1 is a key General Studies topic for Qimiyah Exam (Saudi)
 Core principles: Build a solid understanding of fundamentals
 Key points: Definitions, applications, and typical exam question patterns
@@ -37,7 +37,7 @@ Study strategy: Theory first, then practice problems
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-**Topic 1** — Comprehensive Qimiyah Exam (Saudi) Notes
+**Deep notes** — Qimiyah Exam (Saudi) Notes
 Full coverage: Topic 1 in General Studies for Qimiyah Exam (Saudi) preparation
 Detailed theory and concept explanations
 Problem-solving strategies and common mistakes to avoid

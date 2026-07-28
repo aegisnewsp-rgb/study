@@ -16,7 +16,7 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Topic 12** — Key Facts for Saudi GP Board
+**Key facts** — Saudi GP Board
 Core concept: Topic 12 is an important topic in Medicine for Saudi GP Board
 High-yield point: Understand the fundamental principles and their applications
 ⚡ Exam tip: Questions from Topic 12 appear regularly in Saudi GP Board
@@ -26,7 +26,7 @@ High-yield point: Understand the fundamental principles and their applications
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Topic 12** — Saudi GP Board Study Guide
+**Study guide** — Saudi GP Board
 Overview: Topic 12 is a key Medicine topic for Saudi GP Board
 Core principles: Build a solid understanding of fundamentals
 Key points: Definitions, applications, and typical exam question patterns
@@ -37,7 +37,7 @@ Study strategy: Theory first, then practice problems
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-**Topic 12** — Comprehensive Saudi GP Board Notes
+**Deep notes** — Saudi GP Board Notes
 Full coverage: Topic 12 in Medicine for Saudi GP Board preparation
 Detailed theory and concept explanations
 Problem-solving strategies and common mistakes to avoid

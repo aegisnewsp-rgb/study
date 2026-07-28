@@ -16,7 +16,7 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Topic 5** — Key Facts for UI Entrance (Indonesia)
+**Key facts** — UI Entrance (Indonesia)
 Core concept: Topic 5 is an important topic in Subject Knowledge for UI Entrance (Indonesia)
 High-yield point: Understand the fundamental principles and their applications
 ⚡ Exam tip: Questions from Topic 5 appear regularly in UI Entrance (Indonesia)
@@ -26,7 +26,7 @@ High-yield point: Understand the fundamental principles and their applications
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Topic 5** — UI Entrance (Indonesia) Study Guide
+**Study guide** — UI Entrance (Indonesia)
 Overview: Topic 5 is a key Subject Knowledge topic for UI Entrance (Indonesia)
 Core principles: Build a solid understanding of fundamentals
 Key points: Definitions, applications, and typical exam question patterns
@@ -37,7 +37,7 @@ Study strategy: Theory first, then practice problems
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-**Topic 5** — Comprehensive UI Entrance (Indonesia) Notes
+**Deep notes** — UI Entrance (Indonesia) Notes
 Full coverage: Topic 5 in Subject Knowledge for UI Entrance (Indonesia) preparation
 Detailed theory and concept explanations
 Problem-solving strategies and common mistakes to avoid

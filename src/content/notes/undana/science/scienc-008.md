@@ -16,7 +16,7 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Topic 8** — Key Facts for UNDANA Admission (Indonesia)
+**Key facts** — UNDANA Admission (Indonesia)
 Core concept: Topic 8 is an important topic in Science for UNDANA Admission (Indonesia)
 High-yield point: Understand the fundamental principles and their applications
 ⚡ Exam tip: Questions from Topic 8 appear regularly in UNDANA Admission (Indonesia)
@@ -26,7 +26,7 @@ High-yield point: Understand the fundamental principles and their applications
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Topic 8** — UNDANA Admission (Indonesia) Study Guide
+**Study guide** — UNDANA Admission (Indonesia)
 Overview: Topic 8 is a key Science topic for UNDANA Admission (Indonesia)
 Core principles: Build a solid understanding of fundamentals
 Key points: Definitions, applications, and typical exam question patterns
@@ -37,7 +37,7 @@ Study strategy: Theory first, then practice problems
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-**Topic 8** — Comprehensive UNDANA Admission (Indonesia) Notes
+**Deep notes** — UNDANA Admission (Indonesia) Notes
 Full coverage: Topic 8 in Science for UNDANA Admission (Indonesia) preparation
 Detailed theory and concept explanations
 Problem-solving strategies and common mistakes to avoid

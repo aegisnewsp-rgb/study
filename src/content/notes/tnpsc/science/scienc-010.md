@@ -16,7 +16,7 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Topic 10** — Key Facts for TNPSC Group 1
+**Key facts** — TNPSC Group 1
 Core concept: Topic 10 is an important topic in Science for TNPSC Group 1
 High-yield point: Understand the fundamental principles and their applications
 ⚡ Exam tip: Questions from Topic 10 appear regularly in TNPSC Group 1
@@ -26,7 +26,7 @@ High-yield point: Understand the fundamental principles and their applications
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Topic 10** — TNPSC Group 1 Study Guide
+**Study guide** — TNPSC Group 1
 Overview: Topic 10 is a key Science topic for TNPSC Group 1
 Core principles: Build a solid understanding of fundamentals
 Key points: Definitions, applications, and typical exam question patterns
@@ -37,7 +37,7 @@ Study strategy: Theory first, then practice problems
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-**Topic 10** — Comprehensive TNPSC Group 1 Notes
+**Deep notes** — TNPSC Group 1 Notes
 Full coverage: Topic 10 in Science for TNPSC Group 1 preparation
 Detailed theory and concept explanations
 Problem-solving strategies and common mistakes to avoid

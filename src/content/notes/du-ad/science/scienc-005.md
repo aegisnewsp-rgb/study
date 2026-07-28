@@ -16,7 +16,7 @@ lastUpdated: "2026-07-25"
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Topic 5** — Key Facts for DU Admission (Bangladesh)
+**Key facts** — DU Admission (Bangladesh)
 Core concept: Chemical Bonding and Molecular Structure — how atoms combine to form molecules, ions, and crystals; structure determines properties
 High-yield point: Distinguishing ionic from covalent bonds, Lewis structures, VSEPR molecular geometries, hybridization of atomic orbitals
 ⚡ Exam tip: Draw Lewis structures for every molecule; know bond angle predictions for each molecular geometry; hybridization questions appear in every chemistry paper
@@ -26,7 +26,7 @@ High-yield point: Distinguishing ionic from covalent bonds, Lewis structures, VS
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Topic 5** — DU Admission (Bangladesh) Study Guide
+**Study guide** — DU Admission (Bangladesh)
 Overview: Chemical bonding theory explains the formation, structure, and properties of chemical substances; it is the theoretical core of chemistry
 Core principles: The octet rule, electronegativity differences determining bond type, orbital hybridization, molecular geometry prediction
 Key points: Ionic, covalent, and metallic bonding; Lewis dot structures; VSEPR theory for geometry prediction; σ and π bonding; dipole moment

@@ -16,7 +16,7 @@ lastUpdated: "2026-07-25"
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Topic 2** — Key Facts for DU Admission (Bangladesh)
+**Key facts** — DU Admission (Bangladesh)
 Core concept: Atomic Structure and the Periodic Table — arrangement of electrons determines chemical behavior
 High-yield point: Electronic configuration following Aufbau principle, quantum numbers, periodic trends in atomic properties
 ⚡ Exam tip: Aufbau diagram sequence, Hund's rule, and periodic trend explanations are frequently tested in multiple-choice and short-answer questions
@@ -26,7 +26,7 @@ High-yield point: Electronic configuration following Aufbau principle, quantum n
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Topic 2** — DU Admission (Bangladesh) Study Guide
+**Study guide** — DU Admission (Bangladesh)
 Overview: Understanding atomic structure illuminates why elements behave as they do and how the periodic table organizes chemical knowledge
 Core principles: Subatomic particle properties, evolution of atomic models, quantum mechanical description of electrons, periodic law
 Key points: Electronic configuration using Aufbau principle, four quantum numbers, orbital shapes and energies, periodic property trends across groups and periods

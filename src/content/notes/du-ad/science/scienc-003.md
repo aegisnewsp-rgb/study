@@ -16,7 +16,7 @@ lastUpdated: "2026-07-25"
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Topic 3** — Key Facts for DU Admission (Bangladesh)
+**Key facts** — DU Admission (Bangladesh)
 Core concept: Cell Biology — the cell is the fundamental unit of all living organisms; structure and function are intimately linked
 High-yield point: Differences between prokaryotes and eukaryotes, plant versus animal cell organelles, fluid mosaic model, cell membrane transport mechanisms
 ⚡ Exam tip: Diagram-based questions on cell structure appear almost every year; memorize organelle functions and the plant/animal cell comparison table
@@ -26,7 +26,7 @@ High-yield point: Differences between prokaryotes and eukaryotes, plant versus a
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Topic 3** — DU Admission (Bangladesh) Study Guide
+**Study guide** — DU Admission (Bangladesh)
 Overview: Cell biology provides the foundational framework for understanding all biological sciences from biochemistry to ecology
 Core principles: Cell theory, organelle structure-function relationships, cell membrane dynamics, cell division mechanisms
 Key points: Prokaryotic versus eukaryotic cell architecture, comparison of plant and animal cells, cytoplasmic streaming, mitosis and meiosis stages, fluid mosaic model

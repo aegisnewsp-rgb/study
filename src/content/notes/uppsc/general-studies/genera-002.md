@@ -16,7 +16,7 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Topic 2** — Key Facts for UPPSC RO/ARO
+**Key facts** — UPPSC RO/ARO
 Core concept: Topic 2 is an important topic in General Studies for UPPSC RO/ARO
 High-yield point: Understand the fundamental principles and their applications
 ⚡ Exam tip: Questions from Topic 2 appear regularly in UPPSC RO/ARO
@@ -26,7 +26,7 @@ High-yield point: Understand the fundamental principles and their applications
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Topic 2** — UPPSC RO/ARO Study Guide
+**Study guide** — UPPSC RO/ARO
 Overview: Topic 2 is a key General Studies topic for UPPSC RO/ARO
 Core principles: Build a solid understanding of fundamentals
 Key points: Definitions, applications, and typical exam question patterns
@@ -37,7 +37,7 @@ Study strategy: Theory first, then practice problems
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-**Topic 2** — Comprehensive UPPSC RO/ARO Notes
+**Deep notes** — UPPSC RO/ARO Notes
 Full coverage: Topic 2 in General Studies for UPPSC RO/ARO preparation
 Detailed theory and concept explanations
 Problem-solving strategies and common mistakes to avoid

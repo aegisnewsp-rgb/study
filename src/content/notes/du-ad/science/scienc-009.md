@@ -15,7 +15,7 @@ lastUpdated: "2026-07-25"
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Topic 9** — Key Facts for DU Admission (Bangladesh)
+**Key facts** — DU Admission (Bangladesh)
 Core concept: Human Digestive and Respiratory Systems — structure, function, and physiology
 High-yield point: Mechanism of breathing, gas exchange, enzyme action in digestion
 ⚡ Exam tip: Diagrams are frequently asked — practice labeling alimentary canal and respiratory tract
@@ -25,7 +25,7 @@ High-yield point: Mechanism of breathing, gas exchange, enzyme action in digesti
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Topic 9** — DU Admission (Bangladesh) Study Guide
+**Study guide** — DU Admission (Bangladesh)
 Overview: Human physiology is a major component of DU admission biology
 Core principles: Organs, functions, and integrated system working
 Key points: Peristalsis, lung volumes, enzyme specificity

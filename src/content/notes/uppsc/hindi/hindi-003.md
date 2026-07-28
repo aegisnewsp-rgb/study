@@ -16,7 +16,7 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Topic 3** — Key Facts for UPPSC RO/ARO
+**Key facts** — UPPSC RO/ARO
 Core concept: Topic 3 is an important topic in Hindi for UPPSC RO/ARO
 High-yield point: Understand the fundamental principles and their applications
 ⚡ Exam tip: Questions from Topic 3 appear regularly in UPPSC RO/ARO
@@ -26,7 +26,7 @@ High-yield point: Understand the fundamental principles and their applications
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Topic 3** — UPPSC RO/ARO Study Guide
+**Study guide** — UPPSC RO/ARO
 Overview: Topic 3 is a key Hindi topic for UPPSC RO/ARO
 Core principles: Build a solid understanding of fundamentals
 Key points: Definitions, applications, and typical exam question patterns
@@ -37,7 +37,7 @@ Study strategy: Theory first, then practice problems
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-**Topic 3** — Comprehensive UPPSC RO/ARO Notes
+**Deep notes** — UPPSC RO/ARO Notes
 Full coverage: Topic 3 in Hindi for UPPSC RO/ARO preparation
 Detailed theory and concept explanations
 Problem-solving strategies and common mistakes to avoid

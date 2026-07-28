@@ -16,7 +16,7 @@ lastUpdated: "2026-07-25"
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Topic 4** — Key Facts for DU Admission (Bangladesh)
+**Key facts** — DU Admission (Bangladesh)
 Core concept: Work, Energy, and Power — forms of energy, energy transformations, and the rate at which energy is transferred or work is done
 High-yield point: Work-energy theorem, conservation of mechanical energy, kinetic and potential energy calculations
 ⚡ Exam tip: Numerical problems combining work-energy theorem with conservation of energy appear in nearly every DU admission physics paper; practice the formula W = Fd cosθ thoroughly
@@ -26,7 +26,7 @@ High-yield point: Work-energy theorem, conservation of mechanical energy, kineti
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Topic 4** — DU Admission (Bangladesh) Study Guide
+**Study guide** — DU Admission (Bangladesh)
 Overview: Work, energy, and power form the conceptual bridge between force and motion, introducing energy as a scalar quantity that simplifies problem solving
 Core principles: Work-energy theorem, conservation of mechanical energy, different forms of energy and their interconversion
 Key points: Kinetic energy and gravitational potential energy formulas, spring potential energy, power definitions and efficiency calculations

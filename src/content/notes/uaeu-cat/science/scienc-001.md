@@ -16,7 +16,7 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Topic 1** — Key Facts for UAE University CAT
+**Key facts** — UAE University CAT
 Core concept: Topic 1 is an important topic in Science for UAE University CAT
 High-yield point: Understand the fundamental principles and their applications
 ⚡ Exam tip: Questions from Topic 1 appear regularly in UAE University CAT
@@ -26,7 +26,7 @@ High-yield point: Understand the fundamental principles and their applications
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Topic 1** — UAE University CAT Study Guide
+**Study guide** — UAE University CAT
 Overview: Topic 1 is a key Science topic for UAE University CAT
 Core principles: Build a solid understanding of fundamentals
 Key points: Definitions, applications, and typical exam question patterns
@@ -37,7 +37,7 @@ Study strategy: Theory first, then practice problems
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-**Topic 1** — Comprehensive UAE University CAT Notes
+**Deep notes** — UAE University CAT Notes
 Full coverage: Topic 1 in Science for UAE University CAT preparation
 Detailed theory and concept explanations
 Problem-solving strategies and common mistakes to avoid

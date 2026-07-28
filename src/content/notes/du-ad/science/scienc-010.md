@@ -16,7 +16,7 @@ lastUpdated: "2026-07-25"
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Topic 10** — Key Facts for DU Admission (Bangladesh)
+**Key facts** — DU Admission (Bangladesh)
 Core concept: Electricity and Magnetism — fundamental laws and applications
 High-yield point: Ohm's Law, Kirchhoff's Laws, magnetic effects of current
 ⚡ Exam tip: Numerical problems from Ohm's Law, resistance combinations, and electromagnetic induction appear frequently
@@ -26,7 +26,7 @@ High-yield point: Ohm's Law, Kirchhoff's Laws, magnetic effects of current
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Topic 10** — DU Admission (Bangladesh) Study Guide
+**Study guide** — DU Admission (Bangladesh)
 Overview: Electricity and Magnetism covers electric circuits, magnetic fields, and electromagnetic induction
 Core principles: Ohm's Law, Kirchhoff's Laws, Faraday's Laws, Lorentz force
 Key points: Series/parallel circuits, magnetic field around conductor, AC/DC generators

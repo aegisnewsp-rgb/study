@@ -100,13 +100,25 @@ const exam: ExamTemplate = {
   examId: 'clat',
   examName: 'CLAT',
   country: 'india',
-  description: "The Common Law Admission Test (CLAT) is the national-level entrance exam for admission to 22 National Law Universities (NLUs) offering 5-year integrated BA LLB and 1-year LLM programmes. It tests legal reasoning, logical ability, English comprehension, elementary mathematics, and general knowledge.",
-  examPattern: "150 MCQs, 2 hours, 150 marks — sections: English (30), GK (25), Legal Reasoning (50), Logical Reasoning (30), Math (15).",
-  eligibility: "Class 12 with minimum 45% aggregate (40% for SC/ST). For LLM: LLB degree with 50% aggregate.",
+  description:
+    "The Common Law Admission Test (CLAT) is India's flagship law entrance exam, conducted by the Consortium of National Law Universities for admission to 5-year integrated BA LLB (and related) programmes and 1-year LLM programmes at participating NLUs. A strong CLAT rank is the main gateway to National Law Universities and is also accepted by many private law schools for their flagship programmes. The undergraduate paper is a timed, passage-heavy objective test of English, current affairs including GK, legal reasoning, logical reasoning and quantitative techniques — not a test of prior law-school knowledge. Competition is intense relative to seats at top NLUs, so sectional balance and reading speed matter as much as raw accuracy. Use this hub for pattern, eligibility, section weightage and free day-by-day roadmaps — then confirm registration windows, fees, exam dates and seat matrix only on the official Consortium portal for the current cycle.",
+  examPattern:
+    "Undergraduate CLAT is typically a 2-hour computer-based test with about 120 multiple-choice questions (exact count is fixed in that year's notification; older cycles used 150). Questions are organised in five areas: English Language, Current Affairs including General Knowledge, Legal Reasoning, Logical Reasoning, and Quantitative Techniques. Scoring is usually +1 for a correct answer and −0.25 for a wrong answer (confirm in the live bulletin). Most items are passage-based: you read a short text, then answer linked questions rather than isolated one-liners. Legal Reasoning tests application of given principles to facts — you are not expected to memorise statutes beforehand. Quantitative Techniques stay at Class 10 arithmetic and data interpretation. Plan mocks with full 120-minute timers and practice finishing long passages without rereading every sentence.",
+  eligibility:
+    "For the 5-year integrated LLB programmes: Class 12 (or equivalent) from a recognised board with the minimum aggregate percentage stated in the Consortium notice — commonly 45% for General/OBC/PwD and 40% for SC/ST categories (re-verify each year). There is usually no upper age limit under current Consortium rules for UG. For LLM: an LLB or equivalent degree with the aggregate percentage notified for that cycle (often 50% General and 45% reserved categories). Final-year students may apply provisionally if they meet documentary rules by the date the Consortium sets. Nationality, photo ID and certificate rules follow the official brochure. Always re-check category certificates and educational documents against the current CLAT notification before fee payment.",
+  prepOverview:
+    "Treat CLAT UG as a reading-speed and principle-application exam, not a GK dump or law-memory test. Phase 1 (foundation): daily long-form reading (editorials, judgments summaries, quality news) for English and Current Affairs; Class 10 arithmetic (percentages, ratio, averages, time-work, DI tables) for QT; and basic argument structure for Logical Reasoning. Build a rolling legal-current-affairs notebook (major Supreme Court and High Court themes, new bills, constitutional basics) without trying to memorise bare acts. Phase 2 (section skill): timed passage sets every 2–3 days for Legal and Logical Reasoning; log which passage types cost you time; practise mapping principles to facts in under a minute per question once the principle is clear. Phase 3 (simulation): full-length mocks weekly, then twice weekly in the last 6–8 weeks — review wrong attempts for misread facts, over-legalising, and panic skips. Weight calendar toward your weakest section without dropping daily reading. Use StudyRoadmap topic notes for concept refreshers and a free roadmap matched to weeks left; pair with Consortium sample papers and a serious mock series. One consistent newspaper/editorial habit + one mock series beats ten shallow current-affairs apps.",
+  commonMistakes: [
+    'Memorising legal maxims and bare acts while under-practising passage-based principle-to-fact application under time pressure.',
+    'Treating Current Affairs as random one-liners and ignoring legal news, constitutional themes and quality editorial reading.',
+    'Spending disproportionate hours on Quantitative Techniques when Legal and Logical Reasoning carry far more questions and decide rank.',
+    'Taking untimed topic quizzes only and never sitting full 2-hour mocks with negative-marking discipline and passage fatigue.',
+    'Relying on last year\'s question count, marking scheme or NLU seat matrix instead of the current Consortium of NLUs notification.',
+  ],
   subjects,
   durations,
   rescueMode,
-  lastUpdated: '2026-04-06',
+  lastUpdated: '2026-07-28',
   officialSource: 'https://consortiumofnlus.ac.in/clat',
 };
 export default exam;

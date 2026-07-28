@@ -187,13 +187,25 @@ const exam: ExamTemplate = {
   examId: 'cuet',
   examName: 'CUET UG',
   country: 'india',
-  description: "The Common University Entrance Test (CUET) is India's central exam for undergraduate admission to 200+ central, deemed, and private universities including DU, BHU, AMU, and JNU. Introduced in 2022, it is a mandatory requirement for students seeking admission to these universities. Tests domain knowledge, general awareness, and language proficiency.",
-  examPattern: "Section IA: Language (25 questions), Section IB: Another Language (25 questions), Section II: Domain-specific subjects (25-50 questions per subject), Section III: General Test (25 questions). 3 hours maximum. Each question carries 5 marks, 1 mark deducted for wrong answer.",
-  eligibility: "Class 12 passed from a recognised board. Specific subject requirements vary by university and programme. No minimum percentage requirement at national level (individual universities may set their own cut-offs).",
+  description:
+    "The Common University Entrance Test (CUET UG) is India's central undergraduate admissions exam for participating central, state, deemed and private universities — including major campuses such as University of Delhi, BHU, AMU, JNU and many more that list CUET scores in their admission policies. Conducted by the National Testing Agency (NTA), CUET replaced a patchwork of university-specific entrances for many programmes from 2022 onward. The paper is modular: language tests, domain subjects aligned to Class 12 curricula, and an optional General Test, so you choose subject combinations that match target university programme codes rather than sitting one fixed national syllabus. Cut-offs and seat allocation remain university- and programme-specific after NTA scores are out. Use this hub for pattern, eligibility, subject map and free day-by-day roadmaps — then confirm registration windows, fees, exam cities and programme mapping only on the official NTA CUET (Samarth) portal for the current cycle.",
+  examPattern:
+    "CUET UG is a computer-based test with modular sections. Language papers (Section I): typically objective questions testing reading comprehension, vocabulary and grammar in the chosen language(s). Domain subjects (Section II): Class 12–aligned papers; you pick subjects required by your target programmes (exact question counts and duration per paper are set in that year's information bulletin — often on the order of ~40–50 questions per domain paper with a fixed time block). General Test (Section III): optional for many programmes — general knowledge, current affairs, numerical ability, logical and analytical reasoning. Marking is usually +5 for a correct answer and −1 for a wrong answer when negative marking applies (confirm in the live bulletin). You do not need every section: map university programme codes first, then book only the papers those codes require. Multiple shifts may use normalisation; treat official NTA scorecards and university counselling calendars as the source of truth after results.",
+  eligibility:
+    "Candidates who have passed or are appearing in Class 12 (or equivalent) from a recognised board may apply, subject to the age and qualification rules in the current NTA CUET UG information bulletin. There is no single national minimum percentage for appearing in CUET itself — but individual universities and programmes set their own eligibility (subjects studied in Class 12, minimum marks, category rules) for admission after the exam. Subject mapping is critical: a CUET score in the wrong domain paper will not help a programme that requires a different subject combination. Reserved-category relaxations, PwBD provisions and documentary requirements follow NTA and the admitting university. Always re-verify programme-wise subject requirements on both the NTA portal and the university admission brochure before fee payment.",
+  prepOverview:
+    "Treat CUET as a mapped-subject exam: programme codes first, syllabus second. Phase 1 (mapping): list 5–10 target programmes, note required language/domain/General Test papers, and drop subjects you will not use. Phase 2 (foundation): finish NCERT Class 12 (and Class 11 where the bulletin or university requires it) for each booked domain subject; for language papers, daily comprehension + grammar error spotting; for General Test (if needed), rolling current affairs plus Class 10–level quant and reasoning drills. Phase 3 (exam skill): timed full papers in the same subject order you will sit; practise accuracy under negative marking (+5/−1 style) rather than endless untimed MCQ banks. Last 4–6 weeks: 2–3 full mocks per booked paper weekly and a short error log (concept miss vs silly vs time pressure). Use StudyRoadmap notes for topic refreshers and a free roadmap matched to weeks left; pair with official NTA sample questions and previous-year style papers. One NCERT-complete pass per domain + official mocks beats collecting ten coaching PDFs for subjects you never booked.",
+  commonMistakes: [
+    'Booking every possible domain paper "just in case" and spreading revision so thin that no subject reaches CUET accuracy.',
+    'Ignoring university programme subject maps and discovering after results that scores do not match the required combination.',
+    'Skipping NCERT Class 12 domain textbooks for shortcut MCQ apps, then failing application-style and assertion-type items.',
+    'Practising only untimed chapter quizzes and never sitting full timed language/domain papers with negative-marking discipline.',
+    'Relying on last year\'s paper list, marking scheme or university cut-offs instead of the current NTA CUET bulletin and each university\'s admission notice.',
+  ],
   subjects,
   durations,
   rescueMode,
-  lastUpdated: '2026-04-06',
+  lastUpdated: '2026-07-28',
   officialSource: 'https://cuet.samarth.ac.in',
 };
 export default exam;

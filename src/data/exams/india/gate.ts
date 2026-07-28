@@ -15,11 +15,23 @@ const exam: ExamTemplate = {
   examId: 'gate',
   examName: 'GATE',
   country: 'india',
-  description: `The Graduate Aptitude Test in Engineering (GATE) is an all-India entrance examination conducted jointly by the Indian Institute of Technology (IIT) and the Indian Institute of Science (IISc) on behalf of the National Coordination Board. GATE scores are used for admission to postgraduate programmes (M.E., M.Tech., Ph.D.) in premier engineering and technology institutions across India, including IITs, NITs, and IISc. It also serves as a screening test for recruitment by several public sector undertakings (PSUs) such as ONGC, NTPC, and IOCL. GATE is conducted annually in online computer-based format across multiple disciplines of engineering and sciences.`,
-  examPattern: `GATE examination consists of 65 questions carrying a total of 100 marks. The question paper is divided into three sections: General Aptitude (15 marks, 10 questions), Mathematics (13-15 marks depending on the paper), and Subject-Specific Section (remaining marks). Questions are of two types: Multiple Choice Questions (MCQs) carrying 1 or 2 marks each, and Numerical Answer Type (NAT) questions carrying 1 or 2 marks each. There is negative marking for MCQs (1/3 mark for 1-mark questions, 2/3 mark for 2-mark questions) but no negative marking for NAT questions. The exam duration is 3 hours.`,
-  eligibility: `Candidates with a bachelor's degree in engineering, technology, or science (B.E./B.Tech./B.Pharm.) from a recognized university are eligible to appear for GATE. Candidates in the final year of such programmes may also apply provisionally. Holders of a Master's degree in mathematics, statistics, science, or equivalent are eligible. Candidates belonging to Scheduled Castes, Scheduled Tribes, and Persons with Disabilities (PwD) categories are eligible for concession in eligibility norms. There is no age limit for GATE. Candidates with qualifications obtained through distance education or from open universities are also eligible provided the programme is recognized by the respective regulatory bodies.`,
+  description:
+    "The Graduate Aptitude Test in Engineering (GATE) is India's national postgraduate engineering and science entrance exam, organised each year by one of the IITs or IISc on behalf of the National Coordination Board – GATE. A GATE score is used for M.E./M.Tech./Ph.D. admissions at IITs, IISc, NITs and many other institutes, and as a shortlisting filter for recruitment and trainee roles in several Public Sector Undertakings (PSUs) such as ONGC, NTPC, IOCL and others that advertise GATE-based hiring. Candidates choose one (or, where allowed, two) paper codes matching their discipline — Computer Science, Electrical, Mechanical, Civil, Electronics, and many science and interdisciplinary papers. The test is fully computer-based and runs over multiple days and sessions. Use this hub for pattern, eligibility, subject weightage and free day-by-day roadmaps — then confirm paper codes, dates, fees and two-paper rules only on the official GATE organising institute site for the current year.",
+  examPattern:
+    "GATE is typically a 3-hour computer-based test of 65 questions for 100 marks. The usual structure is General Aptitude (about 15 marks), Engineering Mathematics where applicable (often ~13 marks depending on paper), and the core subject section for the remaining marks. Question types include Multiple Choice Questions (MCQs) with negative marking, Multiple Select Questions (MSQs) in many papers (no partial credit unless the bulletin says otherwise), and Numerical Answer Type (NAT) items where you enter a number (usually no negative marking). Classic MCQ negative marking is often 1/3 mark for a wrong 1-mark MCQ and 2/3 for a wrong 2-mark MCQ — always re-check the live information brochure. There is no sectional time lock inside the 3 hours, so you must self-pace aptitude, maths and core. Marks are normalised across multi-session papers; admissions and PSU shortlists use score/percentile cut-offs that change every year.",
+  eligibility:
+    "Candidates currently in the third year or higher of an undergraduate degree programme in Engineering/Technology/Architecture/Science/Commerce/Arts/Humanities, or who have already completed a government-recognised Bachelor's degree in a relevant discipline, are typically eligible as per the current GATE brochure (exact programme lists and two-paper combinations are paper-code specific). There is no upper age limit under the usual GATE rules. Final-year students may appear provisionally. Category-based fee concessions and PwD provisions follow the organising institute's notice. GATE eligibility for the exam is not the same as eligibility for a particular IIT/NIT programme or PSU post — those bodies set their own degree, GATE paper and score requirements after results. Always re-verify paper codes, two-paper options and documentary rules on the official GATE website before fee payment.",
+  prepOverview:
+    "Treat GATE as a single-paper depth exam: core engineering/science strength first, aptitude and maths as score stabilisers. Phase 1 (foundation): finish standard undergraduate textbooks for high-weight topics in your paper code; maintain a formula sheet for maths and core; do General Aptitude (verbal + numerical) weekly so 15 marks are not left to chance. Phase 2 (problem skill): topic-wise previous-year questions (PYQs) under timed slices; log weak topics and revisit theory only when error patterns show concept gaps, not just calculation slips. Practise NAT accuracy (units, decimal places, ranges) and MSQ all-correct selection where your paper uses them. Phase 3 (simulation): full 3-hour mocks every 1–2 weeks, then weekly in the last 2–3 months — review for 1.5–2× mock duration focusing on wrong MCQs (negative risk), unattempted high-weight topics and time sinks. Weight calendar toward your paper's highest-weight units without abandoning aptitude. Use StudyRoadmap notes for concept refreshers and a free roadmap matched to weeks left; pair with official GATE previous papers and a serious mock series. One standard textbook set + full PYQ bank beats ten shallow topic apps.",
+  commonMistakes: [
+    'Collecting coaching material for every minor topic while never finishing high-weight core units and full-length 3-hour mocks.',
+    'Ignoring General Aptitude and Engineering Mathematics until the last month, then leaving easy marks on the table.',
+    'Attempting every MCQ under time pressure and bleeding marks to negative marking instead of selective accuracy on NAT/MSQ/MCQ mix.',
+    'Practising only untimed chapter quizzes and never training NAT entry precision or multi-session stamina.',
+    'Assuming last year\'s paper code list, two-paper rules or PSU cut-offs without opening the current official GATE brochure and each institute/PSU notice.',
+  ],
   subjects,
-    durations: {
+  durations: {
     '1h': makeRoadmap(subjects, '1h', 1, 'Study plan for GATE — 1 Hour'),
     '2h': makeRoadmap(subjects, '2h', 1, 'Study plan for GATE — 2 Hours'),
     '3h': makeRoadmap(subjects, '3h', 1, 'Study plan for GATE — 3 Hours'),
@@ -47,9 +59,9 @@ const exam: ExamTemplate = {
       subject: s.name,
       topics: s.topics.slice(0, 5).map(t => t.name),
     })),
-    strategy: 'Focus on high-weight topics and previous year questions.',
+    strategy: 'Focus on high-weight topics and previous year questions. Protect General Aptitude marks and avoid negative-marking traps on low-confidence MCQs.',
   },
-  lastUpdated: '2026-05-30',
+  lastUpdated: '2026-07-28',
   officialSource: 'https://gate2026.iitg.ac.in/',
 };
 

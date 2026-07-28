@@ -51,7 +51,16 @@ const exam: ExamTemplate = {
     })),
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
-  lastUpdated: '2026-04-06',
+  prepOverview:
+    'Prepare for MUET (Malaysia) in three phases: map the live syllabus and pattern from the official notice, finish high-weight topics with timed practice and an error log, then run full-length mocks matching official duration and marking. Pair with StudyRoadmap free roadmaps for remaining weeks. Confirm registration, fees, eligibility and paper rules only on https://www.mpm.edu.my for the current malaysia cycle.',
+  commonMistakes: [
+    'Relying on outdated MUET (Malaysia) materials instead of the live official notice.',
+    'Skipping full-length timed mocks until the final days.',
+    'Over-studying low-yield topics while high-weight sections stay weak.',
+    'No error log for repeated mistake patterns.',
+    'Treating unofficial cut-offs as guaranteed outcomes.'
+  ],
+  lastUpdated: '2026-07-28',
   officialSource: 'https://www.mpm.edu.my',
 };
 

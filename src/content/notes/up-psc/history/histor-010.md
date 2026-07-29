@@ -8,7 +8,7 @@ topicName: Post-Independence India (1947–2000)
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-07-29"
 ---
 
 # Post-Independence India (1947–2000)
@@ -16,80 +16,75 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Post-Independence India** — Key Facts for UPPSC PCS
-Core concept: Major political events, constitutional developments, and consolidation of the Indian nation after 1947
-High-yield point: The integration of princely states, linguistic reorganization, and the formation of states Reorganization Act 1956
+Post-Independence India (1947–2000) traces India's journey from the **Indian Independence Act 1947** and the **Partition** along the **Radcliffe Line** to the **1991 LPG reforms** and the **Pokhran-II** nuclear tests of 1998. The Constituent Assembly adopted the Constitution on **26 November 1949**, and it commenced on **26 January 1950** — a date UPSC and UPPSC regularly test.
 
----
+Key political milestones include **Patel–Menon** integration of **565+ princely states** via **Instrument of Accession**, the **States Reorganisation Act 1956** (linguistic basis), the **Emergency (25 June 1975 – 21 March 1977)** under **Article 352**, and the **42nd Amendment** that inserted **"Socialist", "Secular"** and **"Integrity"** into the Preamble.
+
+- **Nehruvian era:** mixed economy, Five Year Plans, NAM (1961), Panchsheel (1954).
+- **1977 shift:** Janata Party — first non-Congress government under Morarji Desai.
+- **1991 reforms:** Manmohan Singh's LPG under PM P.V. Narasimha Rao, triggered by BoP crisis.
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Post-Independence India** — UPPSC PCS Study Guide
+#### Constitution-Making and Integration
 
-**Overview:**
-Post-independence India witnessed the transformation from British rule to a sovereign democratic republic. Key challenges included the partition riots, rehabilitation of refugees, integration of princely states, framing of the Constitution, and nation-building.
+The **Constituent Assembly** formed under the **Cabinet Mission Plan 1946** was chaired first by **Sachchidananda Sinha** (temporary), then **Rajendra Prasad**. The **Mountbatten Plan (3 June 1947)** accepted partition; the **Indian Independence Act 1947** operationalised it. The **Radcliffe Line** drew the India–Pakistan border. Meanwhile, **Sardar Vallabhbhai Patel** and **V.P. Menon** integrated princely states using **Instrument of Accession**, with notable cases of **Junagadh** (plebiscite), **Hyderabad** (Operation Polo, Sep 1948), and **Kashmir** (Instrument signed, accession contested — leading to **Article 370**).
 
-**Core Principles:**
-- **Constitutional Development:** Adoption of the Constitution on 26 Jan 1950; DPSPs, Fundamental Rights, and duties
-- **Integration of Princely States:** Sardar Vallabhbhai Patel's leadership; Instrument of Accession; merger of Hyderabad and Jammu & Kashmir
-- **Linguistic Reorganization:** States Reorganization Act 1956; formation of linguistic states (Andhra Pradesh, Karnataka, Maharashtra, Gujarat)
-- **Land Reforms:** Zamindari abolition, ceiling on land holdings, cooperative farming
-- **Five-Year Plans:** Planning Commission; emphasis on mixed economy; Green Revolution
+#### Nehruvian Economic and Foreign Policy
 
-**Key Points:**
-- The Constitution declared India a "Sovereign Socialist Secular Democratic Republic"
-- Emergency declared in 1975 (Indira Gandhi); 42nd Amendment added "Socialist" and "Secular" to the Preamble
-- Panchayati Raj institutions established by 73rd Amendment (1992)
+India adopted a **socialist mixed economy**; the **1st Five Year Plan (1951–56)** prioritised agriculture and the **2nd (1956–61)** heavy industries. Foreign policy was anchored by **Panchsheel (1954)**, **Bandung (1955)**, and the founding of **NAM at Belgrade (1961)** with Nehru, Nasser, Tito, Sukarno and Nkrumah. Wars with China (**1962**) and Pakistan (**1965**, **1971** culminating in Bangladesh's liberation) shaped defence posture.
 
-**Study Strategy:** Focus on the constitutional provisions, major commissions, and events between 1947–1964 (Nehru era) as high-weightage for UPPSC.
+#### Critical Junctures
 
----
+| Event | Year | Key Figure/Outcome |
+| --- | --- | --- |
+| Bank Nationalisation | 19 July 1969 | Indira Gandhi; 14 banks |
+| Privy Purse Abolition | 1971 | 26th Amendment |
+| Simla Agreement | 1972 | Indira–Bhutto |
+| Emergency | 25 Jun 1975 – 21 Mar 1977 | Article 352 |
+| 42nd Amendment | 1976 | Added Socialist/Secular/Integrity |
+| Janata Government | 1977–79 | Morarji Desai |
+| Mandal Implementation | 1990 | V.P. Singh |
+| LPG Reforms | 1991 | Manmohan Singh |
+| Pokhran-II | 11 & 13 May 1998 | Vajpayee |
+| Kargil War | 1999 | Vajpayee |
+
+#### Exam Patterns and Traps
+
+- **MCQ traps:** confuse adoption (26 Nov 1949) vs commencement (26 Jan 1950).
+- **Mains focus:** assess Emergency's impact on Indian democracy; explain 1991 BoP crisis as trigger for liberalisation.
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-**Post-Independence India** — Comprehensive UPPSC PCS Notes
+#### Economic Architecture and the 1991 Pivot
 
-**Full Coverage:**
+The **Bombay Plan (1944–45)** by J.R.D. Tata and others influenced the early dirigiste model. The **Green Revolution** (mid-1960s, **M.S. Swaminathan**) raised wheat yields using HYV seeds and fertilisers, while **Operation Flood (1970 onwards, Verghese Kurien)** made India the world's largest milk producer. The **1991 BoP crisis** — foreign reserves barely covered two weeks of imports — forced **rupee devaluation on 1–3 July 1991** and **partial convertibility**. **P.V. Narasimha Rao** as PM entrusted Finance Minister **Manmohan Singh** with dismantling the **Licence Raj**, ending the **Monopolies and Restrictive Trade Practices Act (MRTP)**'s control regime, and opening to FDI.
 
-**1. Partition and Its Aftermath (1947–48)**
-- Radcliffe Award; refugee rehabilitation; displaced persons' camps
-- Nehru-Liaquat Pact 1950; minority rights guarantees
+#### Political Recasting: Emergency to Coalition Era
 
-**2. Integration of Princely States**
-- 562 princely states; strategic importance of Junagadh, Hyderabad, and Kashmir
-- Police action in Hyderabad (1948); Sardar Patel's diplomacy
+The **Allahabad High Court verdict (12 June 1975)** invalidated Indira Gandhi's 1971 election, prompting the Emergency declaration. The **42nd Amendment (1976)** — passed during Emergency — added **"Socialist", "Secular", "Integrity"** to the Preamble and inserted **Fundamental Duties**. The **Janata Party**'s 1977 victory ended Congress's uninterrupted rule. The late 1980s saw **Mandal (1990)** and **Mandir** politics reshape vote banks, birthing coalition politics. **Vajpayee**'s brief 1996 stint preceded his full **1998–2004** term featuring **Pokhran-II**, the **Lahore Bus Yatra (Feb 1999)**, and the **Kargil War (1999)**.
 
-**3. Constitution Making**
-- Drafting Committee chaired by Dr. B.R. Ambedkar
-- Objective Resolution by Jawaharlal Nehru
-- Key features: secularism, federalism, parliamentary democracy, judicial independence
+#### Common Mistakes in Answers
 
-**4. Linguistic State Formation**
-- SRC (States Reorganization Commission) 1953
-- Andhra Pradesh (Telugu-speaking), Maharashtra (Marathi), Gujarat (Gujarati) in 1957
-- Punjabi Suba movement; formation of Punjab (1966)
+| Mistake | Correction |
+| --- | --- |
+| Adoption date = 26 Jan 1950 | Adopted 26 Nov 1949; came into force 26 Jan 1950 |
+| 1991 reforms = Narasimha Rao alone | Rao as PM enabled; Manmohan Singh was the architect |
+| Pokhran-I = Pokhran-II | 1974 (Indira) vs 1998 (Vajpayee) |
+| 42nd Amendment added only two words | Added three: Socialist, Secular, Integrity |
 
-**5. Foreign Policy under Nehru**
-- Non-Aligned Movement (NAM); Bandung Conference 1955
-- Panchsheel Agreement with China (1954)
-- Indo-Pak wars: 1947–48 (Kashmir), 1965
+#### Practice Prompts
 
-**6. Economic Development**
-- Industrial Policy 1956 (Socialist Pattern)
-- License Raj; PSU creation
-- Green Revolution: M.S. Swaminathan; Punjab and Haryana as vanguard states
+1. "The Emergency was a constitutional crisis, not merely a political one." Discuss with reference to Articles 352 and the 42nd Amendment.
+2. Examine the 1991 economic reforms as a response to internal exhaustion of the dirigiste model rather than purely external pressure.
 
-**7. Land Reforms**
-- Zamindari abolition acts in various states (1950s)
-- Ceiling laws; cooperative farming experiments
+## Continue your study
 
-**Problem-Solving Strategies:**
-- For essay-type: emphasize "nation-building" and "consolidation of democracy" as themes
-- For MCQ: focus on years, persons, and landmark provisions
+- **[View this topic in your UPPSC PCS roadmap](/roadmap/?exam=up-psc&duration=1mo)** — see where "Post-Independence India (1947–2000)" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=up-psc&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UPPSC PCS exam overview](/exams/up-psc/)** — pattern, eligibility, and syllabus
+- **[All History notes](/notes/up-psc/history/)** — browse sibling topics in this subject
 
-**Practice:** Attempt previous 10-year UPPSC Prelims and Mains questions on post-independence topics.
-
----
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

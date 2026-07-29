@@ -8,7 +8,7 @@ topicName: Elasticity of Demand
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-07-29"
 ---
 
 # Elasticity of Demand
@@ -16,92 +16,84 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Elasticity of Demand** — Key Facts for RPSC RAS
-- **Definition**: Measures how responsive quantity demanded is to a change in price
-- **Formula**: PED = (% Change in Quantity Demanded) / (% Change in Price)
-- **Interpretation**:
-  - PED > 1 → Elastic (demand responds sharply to price changes)
-  - PED = 1 → Unitary
-  - PED < 1 → Inelastic (demand barely changes with price)
-  - PED = 0 → Perfectly Inelastic (vertical demand curve)
-  - PED = ∞ → Perfectly Elastic (horizontal demand curve)
-- **RPSC High-Yield**: Numericals on PED formula; classification of goods; factors affecting elasticity
+Elasticity of demand quantifies how quantity demanded reacts to a change in price, income, or the price of a related good. The central formula uses **percentage changes**, making the measure unit-free and comparable across products and price ranges.
 
----
+| Formula | Expression |
+| --- | --- |
+| Price Elasticity (Ep) | Ep = (%ΔQ) / (%ΔP) = (ΔQ/ΔP) × (P/Q) |
+| Income Elasticity (Ey) | Ey = (%ΔQ) / (%ΔY) |
+| Cross Elasticity (Exy) | Exy = (%ΔQx) / (%ΔPy) |
+
+- **Ep > 1** → relatively elastic (responsive); **Ep < 1** → inelastic (necessities); **Ep = 1** → unit elastic.
+- **Ey > 0** normal good; **Ey < 0** inferior good; **Ey > 1** luxury.
+- **Exy > 0** substitutes; **Exy < 0** complements.
+- The **Total Revenue Test** identifies elasticity without computation: if price falls and TR rises, demand is elastic; if TR falls, demand is inelastic.
 
 ### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-## 1. Types of Price Elasticity of Demand
+#### Defining and Measuring Price Elasticity
+Point elasticity uses the derivative of the demand function: **Ep = (dQ/dP) × (P/Q)**. It applies to infinitesimally small price changes at a specific point on the curve. For a finite price change between two observed points, the **arc method (mid-point formula)** is used:
 
-| Type | PED Value | Meaning |
-|------|-----------|---------|
-| Perfectly Elastic | ∞ | Any price rise kills all demand |
-| Elastic | > 1 | Large quantity change for small price change |
-| Unitary | = 1 | Quantity % change = Price % change |
-| Inelastic | < 1 | Small quantity change for price change |
-| Perfectly Inelastic | 0 | Quantity unchanged regardless of price |
+#### Ep = [(Q1 − Q2)/(Q1 + Q2)] ÷ [(P1 − P2)/(P1 + P2)]
 
-## 2. Midpoint Formula (RPSC Favourite)
+Arc elasticity averages the bases, avoiding the bias of choosing which point serves as the denominator. RPSC RAS numericals frequently give two price–quantity pairs and ask for arc Ep, so practising both numerator and denominator signs is essential.
 
-$$PED = \frac{(Q_2 - Q_1) / \text{Midpoint of } Q}{(P_2 - P_1) / \text{Midpoint of } P}$$
+#### Reading the Five Elasticity Zones
+Demand is classified into five zones that examiners expect you to label correctly:
 
-**Example**: If price falls from ₹10→₹8, demand rises 50→60 units:
-- Midpoint Q = 55, Midpoint P = 9
-- PED = (10/55) / (2/9) = 0.182 / 0.222 = **0.82 (Inelastic)**
+| Range of Ep | Classification | Example |
+| --- | --- | --- |
+| Ep = ∞ | Perfectly elastic | Homogeneous commodities under perfect competition |
+| Ep > 1 | Relatively elastic | Luxuries, branded goods with substitutes |
+| Ep = 1 | Unit elastic | Mid-point of a straight-line demand curve |
+| 0 < Ep < 1 | Relatively inelastic | Salt, kerosene, matchboxes |
+| Ep = 0 | Perfectly inelastic | Life-saving drugs with no alternative |
 
-## 3. Factors Affecting Elasticity
+#### Determinants and the Total Revenue Test
+- **Substitutes available** → higher elasticity.
+- **Necessity vs luxury** → necessities are inelastic, luxuries elastic.
+- **Proportion of income spent** → high spend → elastic.
+- **Time horizon** → longer run allows adjustment, raising elasticity.
+- **Number of uses** → multi-use goods are more elastic.
 
-1. **Availability of substitutes** → More substitutes = more elastic
-2. **Necessity vs Luxury** → Necessities (salt, medicine) = inelastic; Luxury goods = elastic
-3. **Proportion of income** → Higher income share = more elastic
-4. **Time period** → Long run = more elastic (consumers can adjust)
-5. **Habit-forming goods** → Cigarettes, tea = relatively inelastic
-
-## 4. Elasticity and Tax Incidence
-
-- **Inelastic demand** → Consumers bear most of the tax burden (e.g., petrol, cigarettes)
-- **Elastic demand** → Producers bear most of the tax burden
-
-## 5. RPSC RAS Previous Year Pattern
-
-- 1-2 questions from elasticity (3-5 marks)
-- Common question: "If PED = 0.5, what does it signify? Explain with diagram"
-- Numerical problems: Calculate PED using midpoint formula
-
-⚡ **Exam Tip**: Draw a demand curve showing elastic vs inelastic. Label axes. This scores full marks.
-
----
+> **Scoring tip:** Apply the TR test — when P falls, TR rises ⇒ elastic; TR falls ⇒ inelastic; TR unchanged ⇒ unit elastic. This single rule eliminates calculation errors in 2-mark MCQs.
 
 ### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-## Income Elasticity of Demand (YED)
+#### Worked Numerical
+A shop sells 600 units at ₹40 and 400 units at ₹50. Compute arc elasticity.
 
-$$YED = \frac{\%\Delta Q_d}{\%\Delta Y}$$
+Numerator: (600 − 400) / (600 + 400) = 200/1000 = 0.20
+Denominator: (40 − 50) / (40 + 50) = −10/90 ≈ −0.1111
+**Ep = 0.20 / (−0.1111) = −1.8 ⇒ |Ep| = 1.8**, so demand is **relatively elastic**. The negative sign is dropped by convention because elasticity of demand is reported as an absolute value.
 
-- **Normal goods**: YED > 0 (necessaries: 0<YED<1; luxuries: YED>1)
-- **Inferior goods**: YED < 0
+#### Edge Cases and Common Traps
+A straight-line downward-sloping demand curve does **not** have constant elasticity. Point elasticity slides from ∞ at the price-axis intercept to 0 at the quantity-axis intercept, passing through 1 at the midpoint. Candidates often assume constant Ep along a line — examiners exploit this misconception.
 
-## Cross Elasticity of Demand (XED)
+| Misconception | Correction |
+| --- | --- |
+| Slope = elasticity | Slope is absolute; elasticity depends on P/Q ratio |
+| Inelastic = no change in Q | Inelastic means %ΔQ < %ΔP, not zero change |
+| Cross elasticity is always negative | Negative only for complements; positive for substitutes |
+| Arc and point methods give same answer | They differ for finite changes; arc uses averaged bases |
 
-$$XED = \frac{\%\Delta Q_d \text{ of Good A}}{\%\Delta P \text{ of Good B}}$$
+#### Application and Exam Strategy
+Elasticity links directly to **tax incidence** (the more inelastic side bears the tax burden) and **pricing policy** under monopoly. In RPSC RAS Economics (3% weightage), expect a 4–5 mark numerical on arc/point elasticity or a conceptual question on the TR test.
 
-- **Substitutes** (tea/coffee): XED > 0
-- **Complements** (tea/sugar): XED < 0
-- **Independent goods**: XED = 0
+> **Strategy:** Memorise the five elasticity zones and the TR rule; they cover roughly 60% of Prelims MCQs on this topic.
 
-##ARC Elasticity
+Practice prompts:
+1. If price rises from ₹20 to ₹25 and quantity falls from 100 to 80 units, compute arc Ep and state the elasticity range.
+2. Given TR = ₹10,000 at P = ₹50 and TR = ₹12,000 at P = ₹40, identify elasticity type using the TR test and justify.
 
-Used when price changes are large — same as midpoint formula above.
+## Continue your study
 
-## Relationship Between Elasticity and Revenue
-
-| Type | Price ↓ Revenue | Price ↑ Revenue |
-|------|-----------------|-----------------|
-| Elastic (E>1) | Revenue ↑ | Revenue ↓ |
-| Unitary (E=1) | Revenue constant | Revenue constant |
-| Inelastic (E<1) | Revenue ↓ | Revenue ↑ |
-
-📌 **Remember**: For monopoly pricing — MR = AR(1 - 1/|E|). Higher elasticity means lower MR.
+- **[View this topic in your RPSC RAS roadmap](/roadmap/?exam=ras&duration=1mo)** — see where "Elasticity of Demand" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ras&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[RPSC RAS exam overview](/exams/ras/)** — pattern, eligibility, and syllabus
+- **[All Economics notes](/notes/ras/economics/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

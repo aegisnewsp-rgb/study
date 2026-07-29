@@ -41,22 +41,22 @@ const hasNotesHub = (() => {
 
 const SPOKE_META: Record<string, { h1: (n: string) => string; title: (n: string) => string; desc: (n: string) => string }> = {
   dates: {
-    h1:    n => `${n} ${year} Exam Dates: Notification, Application, Admit Card & Result`,
-    title: n => `${n} ${year} Exam Dates — Notification & Admit Card`,
+    h1:    n => `${n} ${year} Exam Dates: Notification, Application, Admit Card and Result`,
+    title: n => `${n} ${year} Exam Dates — Notification and Admit Card`,
     desc:  n => `Full ${n} ${year} calendar — official notification date, application window, admit card release, exam dates, answer key and result schedule. Sourced from the official board only.`,
   },
   eligibility: {
-    h1:    n => `${n} ${year} Eligibility: Age, Qualification, Nationality & Attempt Limits`,
+    h1:    n => `${n} ${year} Eligibility: Age, Qualification, Nationality and Attempt Limits`,
     title: n => `${n} ${year} Eligibility — Age, Qualification, Attempts`,
     desc:  n => `${n} ${year} eligibility explained — minimum age, maximum age, educational qualification, nationality rules, attempt limits, reservation categories. Based on the latest official notification.`,
   },
   syllabus: {
-    h1:    n => `${n} ${year} Syllabus: Subjects, Topics & Weightage`,
+    h1:    n => `${n} ${year} Syllabus: Subjects, Topics and Weightage`,
     title: n => `${n} ${year} Syllabus — Subjects, Topics, Weightage`,
     desc:  n => `Complete ${n} ${year} syllabus — every subject, every topic, weightage derived from last 5 years of papers. Build a study plan prioritised by what actually appears.`,
   },
   pattern: {
-    h1:    n => `${n} ${year} Exam Pattern: Questions, Marks, Duration & Negative Marking`,
+    h1:    n => `${n} ${year} Exam Pattern: Questions, Marks, Duration and Negative Marking`,
     title: n => `${n} ${year} Exam Pattern — Structure, Marks, Timing`,
     desc:  n => `${n} ${year} exam pattern — number of questions, marks per question, duration, negative marking scheme, section-wise split, and tips to maximise your score within the time limit.`,
   },
@@ -68,8 +68,10 @@ const SPOKE_META: Record<string, { h1: (n: string) => string; title: (n: string)
 };
 
 const meta = SPOKE_META[spoke as keyof typeof SPOKE_META];
-const title = meta.title(examName);
-const description = meta.desc(examName);
+const _titleRaw = meta.title(examName);
+const title = _titleRaw.length > 60 ? _titleRaw.slice(0, 57) + '...' : _titleRaw;
+const _descRaw = meta.desc(examName);
+const description = _descRaw.length > 160 ? _descRaw.slice(0, 157) + '...' : _descRaw;
 const h1 = meta.h1(examName);
 const canonicalUrl = `${SITE_URL}/exams/${exam.examId}/${spoke}/`;
 

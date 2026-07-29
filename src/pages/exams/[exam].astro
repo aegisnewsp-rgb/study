@@ -102,7 +102,12 @@ const currentYear = new Date().getUTCFullYear();
 const CONTENT_REV = '2026-05-28';
 const heroHeadline = (exam as any).heroHeadline
   || `${examName} ${currentYear}: Exam Pattern, Eligibility & Study Plan`;
-const title = `${examName} ${currentYear} — Pattern, Syllabus and Roadmap`;
+const _titleRaw = `${examName} ${currentYear} — Pattern, Syllabus and Roadmap`;
+const title = _titleRaw.length > 60
+  ? (`${examName} ${currentYear} — Exam Guide`.length <= 60
+      ? `${examName} ${currentYear} — Exam Guide`
+      : `${examName} ${currentYear}`.slice(0, 60))
+  : _titleRaw;
 const description = `Full ${examName} ${currentYear} guide — exam pattern, eligibility, syllabus weightage, FAQs, and a free AI study roadmap built in minutes.`;
 const canonicalUrl = `${SITE_URL}/exams/${exam.examId}/`;
 

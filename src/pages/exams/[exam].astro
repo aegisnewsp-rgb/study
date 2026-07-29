@@ -103,11 +103,15 @@ const CONTENT_REV = '2026-05-28';
 const heroHeadline = (exam as any).heroHeadline
   || `${examName} ${currentYear}: Exam Pattern, Eligibility & Study Plan`;
 const _titleRaw = `${examName} ${currentYear} — Pattern, Syllabus and Roadmap`;
-const title = _titleRaw.length > 60
-  ? (`${examName} ${currentYear} — Exam Guide`.length <= 60
-      ? `${examName} ${currentYear} — Exam Guide`
-      : `${examName} ${currentYear}`.slice(0, 60))
-  : _titleRaw;
+const title = (() => {
+  if (_titleRaw.length <= 60) return _titleRaw;
+  const mid = `${examName} ${currentYear} — Exam Guide`;
+  if (mid.length <= 60) return mid;
+  // Never mid-word truncate the year: prefer short name + year, else name only.
+  const short = `${examName} ${currentYear}`;
+  if (short.length <= 60) return short;
+  return examName.length <= 60 ? examName : examName.slice(0, 57) + '...';
+})();
 const description = `Full ${examName} ${currentYear} guide — exam pattern, eligibility, syllabus weightage, FAQs, and a free AI study roadmap built in minutes.`;
 const canonicalUrl = `${SITE_URL}/exams/${exam.examId}/`;
 

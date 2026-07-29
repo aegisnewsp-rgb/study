@@ -44,9 +44,14 @@ const robotsDirective = (shouldNoindex || isNoindexExam(exam)) ? 'noindex,follow
 // Handle malformed subjectName (None / undefined) — derive from subject slug
 const subjectDisplay = (subjectName && subjectName !== 'None' && subjectName !== 'null') ? subjectName : (subject.charAt(0).toUpperCase() + subject.slice(1).replace(/-/g, ' '));
 
-const title = `${topicName} — ${subjectDisplay} | ${examName} Study Notes`;
+// SERP title ≤60: prefer "Topic — Exam notes"; drop subject when needed.
+const _titleFull = `${topicName} — ${examName} Notes`;
+const _titleMid = `${topicName} — ${examName}`;
+const title = _titleFull.length <= 60 ? _titleFull
+  : _titleMid.length <= 60 ? _titleMid
+  : topicName.length <= 60 ? topicName
+  : topicName.slice(0, 57) + '...';
 // Keep description ≤160 chars even for the longest topicName/examName combos.
-// Pattern: "Topic — Exam study notes (W% weight). Free Quick / Standard / Deep tiers."
 const _descRaw = `${topicName} — ${examName} study notes (${weight}% weight). Free Quick / Standard / Deep tiers, no signup.`;
 const description = _descRaw.length > 160 ? _descRaw.slice(0, 157) + '...' : _descRaw;
 const canonicalUrl = `https://studyroadmap.in/notes/${note.id}/`;

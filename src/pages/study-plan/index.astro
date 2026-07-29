@@ -31,8 +31,11 @@ const plans = ALL_EXAMS
 
 const totalPlans = plans.reduce((acc, p) => acc + p.durations.length, 0);
 
-const title = `Free Study Plans ${currentYear}: ${plans.length}+ Exams, ${totalPlans}+ Roadmaps | StudyRoadmap™`;
-const description = `Browse ${totalPlans}+ free, AI-curated study plans across ${plans.length}+ competitive exams (NEET, JEE, UPSC, SSC, MDCAT, JAMB & more). Pick your exam and duration — no signup needed.`;
+// SERP-safe: keep title ≤60 and description ≤160 (brand suffix was pushing 65+/167).
+const _titleRaw = `Free Study Plans ${currentYear} — ${plans.length}+ Exams`;
+const title = _titleRaw.length > 60 ? `Free Study Plans ${currentYear}` : _titleRaw;
+const _desc = `Browse ${totalPlans}+ free study plans across ${plans.length}+ exams (NEET, JEE, UPSC, SSC, MDCAT, JAMB and more). Pick exam and duration — no signup.`;
+const description = _desc.length > 160 ? _desc.slice(0, 157) + '...' : _desc;
 
 const breadcrumbJsonLd = {
   '@context': 'https://schema.org',

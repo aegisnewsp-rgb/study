@@ -46,8 +46,12 @@ const onlyB = [...subjectsB].filter(x => !subjectsA.has(x));
 const totalTopicsA = (examA.subjects || []).reduce((n: number, s: any) => n + (s.topics?.length || 0), 0);
 const totalTopicsB = (examB.subjects || []).reduce((n: number, s: any) => n + (s.topics?.length || 0), 0);
 
-const title = `${examA.examName} vs ${examB.examName} ${year}: Which Exam is Right for You? | StudyRoadmap™`;
-const description = `Side-by-side comparison of ${examA.examName} and ${examB.examName} — eligibility, syllabus overlap (${shared.length}/${Math.max(subjectsA.size, subjectsB.size)} shared subjects), exam pattern, difficulty, career outcomes. Free AI-powered study plans for either.`;
+const _titleRaw = `${examA.examName} vs ${examB.examName} ${year} — Which to Pick?`;
+const title = _titleRaw.length > 60
+  ? `${examA.examName} vs ${examB.examName} ${year}`.slice(0, 60)
+  : _titleRaw;
+const _descRaw = `Side-by-side comparison of ${examA.examName} and ${examB.examName} — eligibility, syllabus overlap (${shared.length}/${Math.max(subjectsA.size, subjectsB.size)} shared subjects), pattern, difficulty, careers. Free study plans for either.`;
+const description = _descRaw.length > 160 ? _descRaw.slice(0, 157) + '...' : _descRaw;
 const canonicalUrl = `${SITE_URL}/compare/${examA.examId}-vs-${examB.examId}/`;
 
 const breadcrumbJsonLd = {

@@ -75,8 +75,11 @@ const STREAM_META: Record<string, { label: string; h1: string; description: stri
 const meta = STREAM_META[stream] || STREAM_META['engineering'];
 const streamExams = ALL_EXAMS.filter((e: any) => meta.keywordIds.includes(e.examId) && e.subjects);
 
-const title = `${meta.label} Exams After 12th ${year}: Compare & Pick | StudyRoadmap™`;
-const description = meta.description;
+const _titleRaw = `${meta.label} Exams After 12th ${year} — Compare and Pick`;
+const title = _titleRaw.length > 60 ? `${meta.label} Exams After 12th ${year}`.slice(0, 60) : _titleRaw;
+const description = (meta.description || '').length > 160
+  ? (meta.description || '').slice(0, 157) + '...'
+  : (meta.description || '');
 const canonicalUrl = `${SITE_URL}/after-12th/${stream}/`;
 
 const itemListJsonLd = {

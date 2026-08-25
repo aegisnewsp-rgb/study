@@ -52,13 +52,13 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Prepare for MUET (Malaysia) in three phases: map the live syllabus and pattern from the official notice, finish high-weight topics with timed practice and an error log, then run full-length mocks matching official duration and marking. Pair with StudyRoadmap free roadmaps for remaining weeks. Confirm registration, fees, eligibility and paper rules only on https://www.mpm.edu.my for the current malaysia cycle.',
+    'Malaysian University English Test (MUET) is a compulsory English proficiency test for admission to Malaysian public universities. Scored on a band scale 1-6, with most programmes requiring Band 4 minimum. For MUET (Malaysia), match the exam medium for MUET (Malaysia) to whatever https://www.mpm.edu.my states — do not assume English for MUET (Malaysia).',
   commonMistakes: [
-    'Relying on outdated MUET (Malaysia) materials instead of the live official notice.',
-    'Skipping full-length timed mocks until the final days.',
-    'Over-studying low-yield topics while high-weight sections stay weak.',
-    'No error log for repeated mistake patterns.',
-    'Treating unofficial cut-offs as guaranteed outcomes.'
+    'Mirrors of MUET (Malaysia) \'syllabus 2019\' are a common trap; start from https://www.mpm.edu.my.',
+    'Doing only favourite MUET (Malaysia) chapters leaves the clock as the real examiner.',
+    'Do not assume MUET (Malaysia) is open to every degree title until https://www.mpm.edu.my says so.',
+    'Treat \'sure selection\' MUET (Malaysia) ads as marketing; the board does not endorse them.',
+    'Who the board describes as eligible for MUET (Malaysia): Malaysian secondary or pre-university students. Required for UPU and university admission alongside… Re-read it on https://www.mpm.edu.my the week you apply.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.mpm.edu.my',

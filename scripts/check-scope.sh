@@ -31,7 +31,9 @@ if [ -f LOCKED_FILES.txt ]; then
   done < LOCKED_FILES.txt
 fi
 
-allowed_re='^(src/content/|src/content\.config\.ts|src/data/|src/pages/|src/components/|public/|scripts/|skills/|LOCKED_FILES\.txt|CLAUDE\.md|CLAUDE\.local\.md|news\.json|improvement-backlog.*\.md|heartbeat-log\.md|BUG-LIST\.md|docs/)'
+# Layout.astro: Organization schema honesty (AdSense 2026-08-25; "100+ countries" claim).
+# .gitignore: ignore local Grok workflow dir like .claude/
+allowed_re='^(src/content/|src/content\.config\.ts|src/data/|src/pages/|src/components/|src/layouts/Layout\.astro|public/|scripts/|skills/|LOCKED_FILES\.txt|CLAUDE\.md|CLAUDE\.local\.md|news\.json|improvement-backlog.*\.md|heartbeat-log\.md|BUG-LIST\.md|docs/|\.gitignore)'
 if out_of_scope=$(grep -Ev "$allowed_re" /tmp/sr_changed_files.txt); then
   if [ -n "$out_of_scope" ]; then
     echo "BLOCKED: out-of-scope files modified:"

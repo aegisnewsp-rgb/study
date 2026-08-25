@@ -50,13 +50,13 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Prepare for CMAT Nepal (MBA Entrance) in three phases: map the live syllabus and pattern from the official notice, finish high-weight topics with timed practice and an error log, then run full-length mocks matching official duration and marking. Pair with StudyRoadmap free roadmaps for remaining weeks. Confirm registration, fees, eligibility and paper rules only on https://cmat.edu.np for the current nepal cycle.',
+    'Common Management Admission Test (CMAT) Nepal — entrance exam for MBA and management programmes at various universities in Nepal. For CMAT Nepal (MBA Entrance), save the CMAT Nepal (MBA Entrance) syllabus PDF from https://cmat.edu.np and ignore unofficial CMAT Nepal (MBA Entrance) must-do lists that omit that file.',
   commonMistakes: [
-    'Relying on outdated CMAT Nepal (MBA Entrance) materials instead of the live official notice.',
-    'Skipping full-length timed mocks until the final days.',
-    'Over-studying low-yield topics while high-weight sections stay weak.',
-    'No error log for repeated mistake patterns.',
-    'Treating unofficial cut-offs as guaranteed outcomes.'
+    'If your CMAT Nepal (MBA Entrance) brochure has no date, throw it out and open https://cmat.edu.np.',
+    'Section timing for CMAT Nepal (MBA Entrance) only counts if it matches the live duration.',
+    'Some CMAT Nepal (MBA Entrance) programmes add extra subject prerequisites after you pay — check https://cmat.edu.np.',
+    'Nobody on this site can guarantee a CMAT Nepal (MBA Entrance) rank, percentile, or admission.',
+    'Pattern note for CMAT Nepal (MBA Entrance): 100 MCQs covering: Quantitative Techniques (25), Logical Reasoning (25), Language Comprehension (25)… Confirm that wording on https://cmat.edu.np before you lock a timetable.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://cmat.edu.np',

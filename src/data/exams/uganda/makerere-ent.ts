@@ -50,13 +50,13 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Prepare for Makerere University (Uganda) in three phases: map the live syllabus and pattern from the official notice, finish high-weight topics with timed practice and an error log, then run full-length mocks matching official duration and marking. Pair with StudyRoadmap free roadmaps for remaining weeks. Confirm registration, fees, eligibility and paper rules only on https://mak.ac.ug for the current uganda cycle.',
+    'Makerere University direct admission test — an entrance examination for students who did not meet the direct entry requirements for Makerere University\'s various undergraduate programmes. Makerere University is Uganda\'s oldest and most prestigious university, and admission to many programmes is highly competitive. For Makerere University (Uganda), if two blogs disagree on Makerere University (Uganda) marking, https://mak.ac.ug wins; this page only sequences Makerere University (Uganda) study.',
   commonMistakes: [
-    'Relying on outdated Makerere University (Uganda) materials instead of the live official notice.',
-    'Skipping full-length timed mocks until the final days.',
-    'Over-studying low-yield topics while high-weight sections stay weak.',
-    'No error log for repeated mistake patterns.',
-    'Treating unofficial cut-offs as guaranteed outcomes.'
+    'An outdated Makerere University (Uganda) PDF is not a substitute for the current notice at https://mak.ac.ug.',
+    'Skipping full Makerere University (Uganda) papers until the final weekend is how scores stall.',
+    'Do not assume Makerere University (Uganda) is open to every degree title until https://mak.ac.ug says so.',
+    'Nobody on this site can guarantee a Makerere University (Uganda) rank, percentile, or admission.',
+    'Eligibility snippet we store for Makerere University (Uganda): UACE or equivalent with required subject passes. Age limit may apply for some programmes. Candidates must… Boards edit this; https://mak.ac.ug wins.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://mak.ac.ug',

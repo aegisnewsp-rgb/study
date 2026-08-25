@@ -46,13 +46,13 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Prepare for IJMB (Interim Joint Matriculation Board) in three phases: map the live syllabus and pattern from the official notice, finish high-weight topics with timed practice and an error log, then run full-length mocks matching official duration and marking. Pair with StudyRoadmap free roadmaps for remaining weeks. Confirm registration, fees, eligibility and paper rules only on https://abu.edu.ng/ijmb for the current nigeria cycle.',
+    'The Interim Joint Matriculation Board (IJMB) is an alternative pathway to JAMB for admission into Nigerian universities. Managed and conducted by Ahmadu Bello University (ABU), Zaria, IJMB is a two-year programme that results in an IJMB certificate accepted by all Nigerian universities for direct entry into 200 level (second year). For IJMB (Interim Joint Matriculation Board), use this IJMB (Interim Joint Matriculation Board) hub to see what IJMB (Interim Joint Matriculation Board) topics to study; use https://abu.edu.ng/ijmb to see when you may register.',
   commonMistakes: [
-    'Relying on outdated IJMB (Interim Joint Matriculation Board) materials instead of the live official notice.',
-    'Skipping full-length timed mocks until the final days.',
-    'Over-studying low-yield topics while high-weight sections stay weak.',
-    'No error log for repeated mistake patterns.',
-    'Treating unofficial cut-offs as guaranteed outcomes.'
+    'An outdated IJMB (Interim Joint Matriculation Board) PDF is not a substitute for the current notice at https://abu.edu.ng/ijmb.',
+    'Section timing for IJMB (Interim Joint Matriculation Board) only counts if it matches the live duration.',
+    'Some IJMB (Interim Joint Matriculation Board) programmes add extra subject prerequisites after you pay — check https://abu.edu.ng/ijmb.',
+    'If a page promises you will \'crack IJMB (Interim Joint Matriculation Board)\' with this plan, it is not this site.',
+    'Use 3-4 subjects depending on programme choice, each paper 3 hours duration. Conducted by Ahmadu Bello… only as a memory aid for IJMB (Interim Joint Matriculation Board), then match the live paper on https://abu.edu.ng/ijmb.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://abu.edu.ng/ijmb',

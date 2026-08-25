@@ -12,7 +12,10 @@ import { isNoindexExam } from '@data/suppressed-exams';
 
 export async function getStaticPaths() {
   const allNotes = await getCollection('notes');
-  return allNotes.map(note => ({
+  // Do not emit HTTP 200 shells for thin / Topic-N / filler notes. AdsBot still
+  // fetches noindex URLs; a 404 is safer for AdSense review than a placeholder
+  // body. Rewritten notes that pass isGoodNote rejoin the build automatically.
+  return allNotes.filter(isGoodNote).map(note => ({
     params: {
       exam: note.id.split('/')[0],
       subject: note.id.split('/')[1],

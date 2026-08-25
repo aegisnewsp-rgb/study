@@ -52,13 +52,13 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Prepare for SLMC Medical (Sri Lanka) in three phases: map the live syllabus and pattern from the official notice, finish high-weight topics with timed practice and an error log, then run full-length mocks matching official duration and marking. Pair with StudyRoadmap free roadmaps for remaining weeks. Confirm registration, fees, eligibility and paper rules only on https://slmedcouncil.lk for the current srilanka cycle.',
+    'Sri Lanka Medical Council exam — required for foreign medical graduates seeking registration to practice medicine in Sri Lanka. The SLMC examination is mandated under the Medical Ordinance to ensure that doctors who obtained their primary medical qualification outside Sri Lanka meet the required standards of medical knowledge, clinical competence, and ethical practice before being granted a license to practice in the country. For SLMC Medical (Sri Lanka), use this SLMC Medical (Sri Lanka) hub to see what SLMC Medical (Sri Lanka) topics to study; use https://slmedcouncil.lk to see when you may register.',
   commonMistakes: [
-    'Relying on outdated SLMC Medical (Sri Lanka) materials instead of the live official notice.',
-    'Skipping full-length timed mocks until the final days.',
-    'Over-studying low-yield topics while high-weight sections stay weak.',
-    'No error log for repeated mistake patterns.',
-    'Treating unofficial cut-offs as guaranteed outcomes.'
+    'An outdated SLMC Medical (Sri Lanka) PDF is not a substitute for the current notice at https://slmedcouncil.lk.',
+    'Untimed SLMC Medical (Sri Lanka) practice hides whether you can finish the published paper.',
+    'A friend who sat SLMC Medical (Sri Lanka) two years ago is not your eligibility officer; https://slmedcouncil.lk is.',
+    'Cut-off rumours are not SLMC Medical (Sri Lanka) offers of admission.',
+    'The published SLMC Medical (Sri Lanka) shape in our files is: Multiple choice and clinical examination components. Tests medical knowledge, clinical skills, and ethical… If https://slmedcouncil.lk differs, follow https://slmedcouncil.lk.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://slmedcouncil.lk',

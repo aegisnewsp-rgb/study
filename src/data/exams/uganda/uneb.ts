@@ -50,13 +50,13 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Prepare for UNEB UACE (Uganda) in three phases: map the live syllabus and pattern from the official notice, finish high-weight topics with timed practice and an error log, then run full-length mocks matching official duration and marking. Pair with StudyRoadmap free roadmaps for remaining weeks. Confirm registration, fees, eligibility and paper rules only on https://www.uneb.ac.ug for the current uganda cycle.',
+    'Uganda National Examinations Board (UNEB) UACE (Uganda Advanced Certificate of Education) is the national A-Level equivalent exam for university entrance in Uganda. The UACE is taken after two years of advanced secondary education (S.5 and S.6) and is the primary criterion for admission to Ugandan universities. For UNEB UACE (Uganda), keep UNEB UACE (Uganda) application admin (photo specs, IDs) off your UNEB UACE (Uganda) study clock by checking https://www.uneb.ac.ug early.',
   commonMistakes: [
-    'Relying on outdated UNEB UACE (Uganda) materials instead of the live official notice.',
-    'Skipping full-length timed mocks until the final days.',
-    'Over-studying low-yield topics while high-weight sections stay weak.',
-    'No error log for repeated mistake patterns.',
-    'Treating unofficial cut-offs as guaranteed outcomes.'
+    'Coaching blogs that skip https://www.uneb.ac.ug often recycle a retired UNEB UACE (Uganda) pattern.',
+    'Section timing for UNEB UACE (Uganda) only counts if it matches the live duration.',
+    'Photo, ID, and attempt-limit rules for UNEB UACE (Uganda) live on https://www.uneb.ac.ug, not on WhatsApp.',
+    'StudyRoadmap will not promise a UNEB UACE (Uganda) outcome — only a study order.',
+    'Who the board describes as eligible for UNEB UACE (Uganda): UCE (Form IV) certificate with minimum passes. Subject combinations must meet university course… Re-read it on https://www.uneb.ac.ug the week you apply.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.uneb.ac.ug',

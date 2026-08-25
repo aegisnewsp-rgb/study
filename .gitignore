@@ -27,6 +27,7 @@ pnpm-debug.log*
 _bmad/
 _bmad-output/
 .claude/
+.grok/
 test-results/
 
 # build/compiled artifacts that must never be tracked (leaked previously)

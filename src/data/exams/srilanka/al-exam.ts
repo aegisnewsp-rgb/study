@@ -50,13 +50,13 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Prepare for A/L Examination (Sri Lanka) in three phases: map the live syllabus and pattern from the official notice, finish high-weight topics with timed practice and an error log, then run full-length mocks matching official duration and marking. Pair with StudyRoadmap free roadmaps for remaining weeks. Confirm registration, fees, eligibility and paper rules only on https://doenets.lk for the current srilanka cycle.',
+    'Sri Lanka GCE Advanced Level (A-Level) examination is the national university entrance exam. Students choose a stream (Science, Commerce, Arts) and sit exams in 3-4 subjects. For A/L Examination (Sri Lanka), if two blogs disagree on A/L Examination (Sri Lanka) marking, https://doenets.lk wins; this page only sequences A/L Examination (Sri Lanka) study.',
   commonMistakes: [
-    'Relying on outdated A/L Examination (Sri Lanka) materials instead of the live official notice.',
-    'Skipping full-length timed mocks until the final days.',
-    'Over-studying low-yield topics while high-weight sections stay weak.',
-    'No error log for repeated mistake patterns.',
-    'Treating unofficial cut-offs as guaranteed outcomes.'
+    'An outdated A/L Examination (Sri Lanka) PDF is not a substitute for the current notice at https://doenets.lk.',
+    'Section timing for A/L Examination (Sri Lanka) only counts if it matches the live duration.',
+    'A friend who sat A/L Examination (Sri Lanka) two years ago is not your eligibility officer; https://doenets.lk is.',
+    'StudyRoadmap will not promise a A/L Examination (Sri Lanka) outcome — only a study order.',
+    'Who the board describes as eligible for A/L Examination (Sri Lanka): GCE O-Level with minimum 6 credits including English. GCE A-Level stream selection based on O-Level results… Re-read it on https://doenets.lk the week you apply.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://doenets.lk',

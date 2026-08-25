@@ -50,13 +50,13 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Prepare for RUET Admission Test in three phases: map the live syllabus and pattern from the official notice, finish high-weight topics with timed practice and an error log, then run full-length mocks matching official duration and marking. Pair with StudyRoadmap free roadmaps for remaining weeks. Confirm registration, fees, eligibility and paper rules only on https://ruet.ac.bd for the current bangladesh cycle.',
+    'Rajshahi University of Engineering and Technology (RUET) admission test is the entrance examination for undergraduate engineering programmes at RUET, located in Rajshahi, Bangladesh. RUET is one of the premier public engineering universities in the country, offering degrees in Civil, Electrical, Mechanical, Computer Science, and Textile Engineering. For RUET Admission Test, a crash week for RUET Admission Test only works after you have the live RUET Admission Test paper map from https://ruet.ac.bd.',
   commonMistakes: [
-    'Relying on outdated RUET Admission Test materials instead of the live official notice.',
-    'Skipping full-length timed mocks until the final days.',
-    'Over-studying low-yield topics while high-weight sections stay weak.',
-    'No error log for repeated mistake patterns.',
-    'Treating unofficial cut-offs as guaranteed outcomes.'
+    'Screenshot cut-offs from last cycle do not bind RUET Admission Test this year — https://ruet.ac.bd does.',
+    'Doing only favourite RUET Admission Test chapters leaves the clock as the real examiner.',
+    'Some RUET Admission Test programmes add extra subject prerequisites after you pay — check https://ruet.ac.bd.',
+    'StudyRoadmap will not promise a RUET Admission Test outcome — only a study order.',
+    'Who the board describes as eligible for RUET Admission Test: HSC or equivalent with a minimum GPA of 4.0 in Physics, Chemistry, and Mathematics (combined). Science group… Re-read it on https://ruet.ac.bd the week you apply.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://ruet.ac.bd',

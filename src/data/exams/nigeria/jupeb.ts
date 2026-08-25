@@ -46,13 +46,13 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Prepare for JUPEB (Joint Universities Preliminary Examinations Board) in three phases: map the live syllabus and pattern from the official notice, finish high-weight topics with timed practice and an error log, then run full-length mocks matching official duration and marking. Pair with StudyRoadmap free roadmaps for remaining weeks. Confirm registration, fees, eligibility and paper rules only on https://jupeb.edu.ng for the current nigeria cycle.',
+    'The Joint Universities Preliminary Examinations Board (JUPEB) is a national direct entry programme accepted by all Nigerian universities. Candidates study 3-4 subjects for one academic year at accredited JUPEB centres and use the resulting certificate for 200-level (second year) admission. Register only through https://jupeb.edu.ng, and use this hub to pace the one-year A-level subject load for Direct Entry.',
   commonMistakes: [
-    'Relying on outdated JUPEB (Joint Universities Preliminary Examinations Board) materials instead of the live official notice.',
-    'Skipping full-length timed mocks until the final days.',
-    'Over-studying low-yield topics while high-weight sections stay weak.',
-    'No error log for repeated mistake patterns.',
-    'Treating unofficial cut-offs as guaranteed outcomes.'
+    'Mirrors of JUPEB (Joint Universities Preliminary Examinations Board) \'syllabus 2019\' are a common trap; start from https://jupeb.edu.ng.',
+    'Section timing for JUPEB (Joint Universities Preliminary Examinations Board) only counts if it matches the live duration.',
+    'Paying JUPEB (Joint Universities Preliminary Examinations Board) fees before re-reading eligibility on https://jupeb.edu.ng is a frequent waste.',
+    'StudyRoadmap will not promise a JUPEB (Joint Universities Preliminary Examinations Board) outcome — only a study order.',
+    'The published JUPEB (Joint Universities Preliminary Examinations Board) shape in our files is: 3 subjects (depending on desired university course), each with 2-3 papers per subject plus a general paper… If https://jupeb.edu.ng differs, follow https://jupeb.edu.ng.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://jupeb.edu.ng',

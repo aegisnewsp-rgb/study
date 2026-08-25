@@ -16,18 +16,18 @@ const FEEDBACK_FAQS = [
     answer: "If you have detailed study notes for any topic that would help other students, share them! We can't accept copyrighted material from paid courses, but original notes from your own preparation are welcome. Include your name if you'd like to be credited.",
   },
   {
-    question: "Why are some exam notes marked as 'Coming soon'?",
-    answer: 'We are actively expanding coverage. PCM engineering exam topics (BITSAT, VITEEE, KCET, etc.) currently route to NEET/JEE study notes — these are the same physics, chemistry, and mathematics topics covered in those exams. Medical and UPSC exam notes have the deepest coverage.',
+    question: "Why are some exam topics missing from the notes library?",
+    answer: 'Thin or unfinished topic pages are unpublished until they pass the editorial quality gate (length, originality, and official-syllabus checks). Some engineering exams share Physics, Chemistry, and Mathematics with JEE or NEET, so we point you to those notes instead of duplicating the same chapter. Medical, JEE, and UPSC libraries currently have the deepest coverage. Request a missing topic via the form on this page.',
   },
 ];
 ---
 
 <Layout title={ogTitle} description={ogDescription} faqs={FEEDBACK_FAQS} robots="index, follow"
   author={{
-    name: "StudyRoadmap Editorial Team",
-    jobTitle: "Curriculum Editors",
+    name: "Pushkar Saini",
+    jobTitle: "Founder & Editor",
     affiliation: "StudyRoadmap",
-    url: "https://studyroadmap.in/about/",
+    url: "https://studyroadmap.in/author/pushkar-saini/",
   }}
 >
   <Navbar />
@@ -194,13 +194,13 @@ const FEEDBACK_FAQS = [
         </details>
         <details class="group">
           <summary class="flex items-center justify-between cursor-pointer text-surface-700 dark:text-surface-300 font-medium">
-            Why are some exam notes marked as "Coming soon"?
+            Why are some exam topics missing from the notes library?
             <svg aria-hidden="true" focusable="false" class="w-4 h-4 text-surface-400 group-open:rotate-180 transition-transform" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
             </svg>
           </summary>
           <p class="mt-2 text-surface-600 dark:text-surface-400 text-sm leading-relaxed">
-            We are actively expanding coverage. PCM engineering exam topics (BITSAT, VITEEE, KCET, etc.) currently route to NEET/JEE study notes — these are the same physics, chemistry, and mathematics topics covered in those exams. Medical and UPSC exam notes have the deepest coverage.
+            Thin or unfinished topic pages stay unpublished until they pass the editorial quality gate. Some engineering exams share Physics, Chemistry, and Mathematics with JEE or NEET, so we point you to those notes instead of duplicating the same chapter. Medical, JEE, and UPSC libraries currently have the deepest coverage.
           </p>
         </details>
       </div>

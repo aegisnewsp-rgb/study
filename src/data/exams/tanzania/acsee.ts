@@ -50,13 +50,13 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Prepare for ACSEE (Tanzania) in three phases: map the live syllabus and pattern from the official notice, finish high-weight topics with timed practice and an error log, then run full-length mocks matching official duration and marking. Pair with StudyRoadmap free roadmaps for remaining weeks. Confirm registration, fees, eligibility and paper rules only on https://www.necta.go.tz for the current tanzania cycle.',
+    'Tanzania Advanced Certificate of Secondary Education (ACSEE) is the national examination for post-secondary selection. Equivalent to A-Levels, it determines university admission in Tanzania. NECTA publishes ACSEE sitting rules at https://www.necta.go.tz; this hub only orders Form VI subjects for university selection.',
   commonMistakes: [
-    'Relying on outdated ACSEE (Tanzania) materials instead of the live official notice.',
-    'Skipping full-length timed mocks until the final days.',
-    'Over-studying low-yield topics while high-weight sections stay weak.',
-    'No error log for repeated mistake patterns.',
-    'Treating unofficial cut-offs as guaranteed outcomes.'
+    'If your ACSEE (Tanzania) brochure has no date, throw it out and open https://www.necta.go.tz.',
+    'A ACSEE (Tanzania) mock with a different number of items trains the wrong stamina.',
+    'A friend who sat ACSEE (Tanzania) two years ago is not your eligibility officer; https://www.necta.go.tz is.',
+    'StudyRoadmap will not promise a ACSEE (Tanzania) outcome — only a study order.',
+    'Use 6-7 papers including compulsory General Studies plus 3 elective subjects. Essay, short answer, and MCQ… only as a memory aid for ACSEE (Tanzania), then match the live paper on https://www.necta.go.tz.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.necta.go.tz',

@@ -50,13 +50,13 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Prepare for GMAT in three phases: map the live syllabus and pattern from the official notice, finish high-weight topics with timed practice and an error log, then run full-length mocks matching official duration and marking. Pair with StudyRoadmap free roadmaps for remaining weeks. Confirm registration, fees, eligibility and paper rules only on https://www.gmac.com for the current ghana cycle.',
+    'Graduate Management Admission Test (GMAT) — the global entrance exam for MBA and Master\'s in Finance programmes worldwide, including Ghana\'s top business schools. The GMAT is a computer-adaptive test (CAT) developed by the Graduate Management Admission Council (GMAC). GMAC sets GMAT appointments and the 16-day retake gap at https://www.gmac.com; this Ghana-facing hub only orders Quant/Verbal/IR practice.',
   commonMistakes: [
-    'Relying on outdated GMAT materials instead of the live official notice.',
-    'Skipping full-length timed mocks until the final days.',
-    'Over-studying low-yield topics while high-weight sections stay weak.',
-    'No error log for repeated mistake patterns.',
-    'Treating unofficial cut-offs as guaranteed outcomes.'
+    'Mirrors of GMAT \'syllabus 2019\' are a common trap; start from https://www.gmac.com.',
+    'Doing only favourite GMAT chapters leaves the clock as the real examiner.',
+    'Some GMAT programmes add extra subject prerequisites after you pay — check https://www.gmac.com.',
+    'Nobody on this site can guarantee a GMAT rank, percentile, or admission.',
+    'The published GMAT shape in our files is: Analytical Writing Assessment (30min), Integrated Reasoning (30min), Quantitative (62min), Verbal (65min)… If https://www.gmac.com differs, follow https://www.gmac.com.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.gmac.com',

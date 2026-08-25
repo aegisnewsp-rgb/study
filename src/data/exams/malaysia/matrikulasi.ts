@@ -52,13 +52,13 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Prepare for Matriculation (Malaysia) in three phases: map the live syllabus and pattern from the official notice, finish high-weight topics with timed practice and an error log, then run full-length mocks matching official duration and marking. Pair with StudyRoadmap free roadmaps for remaining weeks. Confirm registration, fees, eligibility and paper rules only on https://mohe.gov.my for the current malaysia cycle.',
+    'Malaysian Matriculation Programme (Matrikulasi) is a one-year pre-university programme at Malaysian public universities, particularly for students who did not achieve the required STPM grades. For Matriculation (Malaysia), a crash week for Matriculation (Malaysia) only works after you have the live Matriculation (Malaysia) paper map from https://mohe.gov.my.',
   commonMistakes: [
-    'Relying on outdated Matriculation (Malaysia) materials instead of the live official notice.',
-    'Skipping full-length timed mocks until the final days.',
-    'Over-studying low-yield topics while high-weight sections stay weak.',
-    'No error log for repeated mistake patterns.',
-    'Treating unofficial cut-offs as guaranteed outcomes.'
+    'Mirrors of Matriculation (Malaysia) \'syllabus 2019\' are a common trap; start from https://mohe.gov.my.',
+    'A Matriculation (Malaysia) mock with a different number of items trains the wrong stamina.',
+    'Paying Matriculation (Malaysia) fees before re-reading eligibility on https://mohe.gov.my is a frequent waste.',
+    'Treat \'sure selection\' Matriculation (Malaysia) ads as marketing; the board does not endorse them.',
+    'Pattern note for Matriculation (Malaysia): Module assessments throughout the year plus final exam. Subjects: Biology, Chemistry, Physics, Mathematics… Confirm that wording on https://mohe.gov.my before you lock a timetable.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://mohe.gov.my',

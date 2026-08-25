@@ -48,13 +48,13 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Prepare for UII Entrance (Indonesia) in three phases: map the live syllabus and pattern from the official notice, finish high-weight topics with timed practice and an error log, then run full-length mocks matching official duration and marking. Pair with StudyRoadmap free roadmaps for remaining weeks. Confirm registration, fees, eligibility and paper rules only on https://uii.ac.id for the current indonesia cycle.',
+    'Universitas Islam Indonesia (UII) entrance examination — one of Indonesia\'s oldest private universities, known for Islamic studies, engineering, and business programmes. For UII Entrance (Indonesia), keep UII Entrance (Indonesia) application admin (photo specs, IDs) off your UII Entrance (Indonesia) study clock by checking https://uii.ac.id early.',
   commonMistakes: [
-    'Relying on outdated UII Entrance (Indonesia) materials instead of the live official notice.',
-    'Skipping full-length timed mocks until the final days.',
-    'Over-studying low-yield topics while high-weight sections stay weak.',
-    'No error log for repeated mistake patterns.',
-    'Treating unofficial cut-offs as guaranteed outcomes.'
+    'If your UII Entrance (Indonesia) brochure has no date, throw it out and open https://uii.ac.id.',
+    'Section timing for UII Entrance (Indonesia) only counts if it matches the live duration.',
+    'Some UII Entrance (Indonesia) programmes add extra subject prerequisites after you pay — check https://uii.ac.id.',
+    'Cut-off rumours are not UII Entrance (Indonesia) offers of admission.',
+    'Eligibility snippet we store for UII Entrance (Indonesia): High school/SMA graduate (SMA or equivalent). Must have valid UTBK score from LTMPT. Boards edit this; https://uii.ac.id wins.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://uii.ac.id',

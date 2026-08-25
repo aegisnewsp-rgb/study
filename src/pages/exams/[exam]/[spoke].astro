@@ -114,17 +114,18 @@ const hasSubstantialSyllabus = totalTopics >= 8 && subjects.length >= 1 && !isPl
 
 const SIBLINGS = ['dates','eligibility','syllabus','pattern','strategy'].filter(s => s !== spoke);
 
-// Index policy (BUG-010 / BUG-084):
-// - dates / strategy: near-duplicate across exams → noindex, follow
-// - eligibility / pattern: index only when we have rich official fields OR thick structured syllabus to differentiate
-// - syllabus: index only when non-placeholder topic graph exists
+// Index policy (BUG-010 / BUG-084 / AdSense 2026-08-25):
+// - dates / strategy / eligibility / pattern: near-duplicate chrome across exams
+//   (shared checklists + name-swap). Hub pages already carry the unique official
+//   fields. Indexing 200+ spoke clones is a scaled-content reject.
+// - syllabus: index only when a non-placeholder topic graph exists
 // - suppressed exams: always noindex
 const spokeRobots = (isNoindexExam(exam.examId)
     || spoke === 'dates'
     || spoke === 'strategy'
-    || (spoke === 'syllabus' && !hasSubstantialSyllabus)
-    || (spoke === 'eligibility' && !hasRichEligibility && !hasSubstantialSyllabus)
-    || (spoke === 'pattern' && !hasRichPattern && !hasSubstantialSyllabus))
+    || spoke === 'eligibility'
+    || spoke === 'pattern'
+    || (spoke === 'syllabus' && !hasSubstantialSyllabus))
   ? 'noindex, follow' : undefined;
 
 const officialLine = exam.officialSource

@@ -50,13 +50,13 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Prepare for EMU Entrance (Ethiopia) in three phases: map the live syllabus and pattern from the official notice, finish high-weight topics with timed practice and an error log, then run full-length mocks matching official duration and marking. Pair with StudyRoadmap free roadmaps for remaining weeks. Confirm registration, fees, eligibility and paper rules only on https://eaes.et/ for the current ethiopia cycle.',
+    'Entry examination for Ethiopian universities under the EMU (Ethiopian Media University) or general Ethiopian university placement system. For EMU Entrance (Ethiopia), save the EMU Entrance (Ethiopia) syllabus PDF from https://eaes.et/ and ignore unofficial EMU Entrance (Ethiopia) must-do lists that omit that file.',
   commonMistakes: [
-    'Relying on outdated EMU Entrance (Ethiopia) materials instead of the live official notice.',
-    'Skipping full-length timed mocks until the final days.',
-    'Over-studying low-yield topics while high-weight sections stay weak.',
-    'No error log for repeated mistake patterns.',
-    'Treating unofficial cut-offs as guaranteed outcomes.'
+    'Screenshot cut-offs from last cycle do not bind EMU Entrance (Ethiopia) this year — https://eaes.et/ does.',
+    'A EMU Entrance (Ethiopia) mock with a different number of items trains the wrong stamina.',
+    'Paying EMU Entrance (Ethiopia) fees before re-reading eligibility on https://eaes.et/ is a frequent waste.',
+    'Nobody on this site can guarantee a EMU Entrance (Ethiopia) rank, percentile, or admission.',
+    'Use Standard Ethiopian university entrance format — aptitude test plus subject-specific paper. only as a memory aid for EMU Entrance (Ethiopia), then match the live paper on https://eaes.et/.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://eaes.et/',

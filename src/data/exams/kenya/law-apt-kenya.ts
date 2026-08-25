@@ -50,13 +50,13 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Prepare for Kenya Law Aptitude in three phases: map the live syllabus and pattern from the official notice, finish high-weight topics with timed practice and an error log, then run full-length mocks matching official duration and marking. Pair with StudyRoadmap free roadmaps for remaining weeks. Confirm registration, fees, eligibility and paper rules only on https://ksl.ac.ke for the current kenya cycle.',
+    'The Kenya Law Aptitude Test (LAT) is an entrance examination for admission to law programmes at Kenyan universities, primarily the Kenya School of Law which trains advocates. The test assesses candidates on logical reasoning, legal awareness, English language proficiency, and general knowledge — skills essential for legal study. For Kenya Law Aptitude, hold Kenya Law Aptitude ID-photo and fee rules against https://ksl.ac.ke in the same week as your first Kenya Law Aptitude mock.',
   commonMistakes: [
-    'Relying on outdated Kenya Law Aptitude materials instead of the live official notice.',
-    'Skipping full-length timed mocks until the final days.',
-    'Over-studying low-yield topics while high-weight sections stay weak.',
-    'No error log for repeated mistake patterns.',
-    'Treating unofficial cut-offs as guaranteed outcomes.'
+    'Mirrors of Kenya Law Aptitude \'syllabus 2019\' are a common trap; start from https://ksl.ac.ke.',
+    'Skipping full Kenya Law Aptitude papers until the final weekend is how scores stall.',
+    'Some Kenya Law Aptitude programmes add extra subject prerequisites after you pay — check https://ksl.ac.ke.',
+    'Cut-off rumours are not Kenya Law Aptitude offers of admission.',
+    'The published Kenya Law Aptitude shape in our files is: Typically consists of two papers: Paper 1 covers English (comprehension, grammar, vocabulary) and General… If https://ksl.ac.ke differs, follow https://ksl.ac.ke.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://ksl.ac.ke',

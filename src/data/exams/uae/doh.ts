@@ -50,13 +50,13 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Prepare for DOH (UAE) in three phases: map the live syllabus and pattern from the official notice, finish high-weight topics with timed practice and an error log, then run full-length mocks matching official duration and marking. Pair with StudyRoadmap free roadmaps for remaining weeks. Confirm registration, fees, eligibility and paper rules only on https://www.doh.gov.ae for the current uae cycle.',
+    'Dubai Health Authority (DOH) exam — a licensing examination for healthcare professionals seeking to practice in Dubai\'s health facilities. The DOH is the regulatory and licensing authority for all healthcare professionals and facilities operating in the Emirate of Dubai. For DOH (UAE), match the exam medium for DOH (UAE) to whatever https://www.doh.gov.ae states — do not assume English for DOH (UAE).',
   commonMistakes: [
-    'Relying on outdated DOH (UAE) materials instead of the live official notice.',
-    'Skipping full-length timed mocks until the final days.',
-    'Over-studying low-yield topics while high-weight sections stay weak.',
-    'No error log for repeated mistake patterns.',
-    'Treating unofficial cut-offs as guaranteed outcomes.'
+    'Screenshot cut-offs from last cycle do not bind DOH (UAE) this year — https://www.doh.gov.ae does.',
+    'A DOH (UAE) mock with a different number of items trains the wrong stamina.',
+    'Do not assume DOH (UAE) is open to every degree title until https://www.doh.gov.ae says so.',
+    'Treat \'sure selection\' DOH (UAE) ads as marketing; the board does not endorse them.',
+    'Eligibility snippet we store for DOH (UAE): Recognised primary medical qualification. Post-graduate experience may be required for specialists. All… Boards edit this; https://www.doh.gov.ae wins.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.doh.gov.ae',

@@ -52,13 +52,13 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Prepare for BUET Admission Test in three phases: map the live syllabus and pattern from the official notice, finish high-weight topics with timed practice and an error log, then run full-length mocks matching official duration and marking. Pair with StudyRoadmap free roadmaps for remaining weeks. Confirm registration, fees, eligibility and paper rules only on https://buet.ac.bd for the current bangladesh cycle.',
+    'BUET Admission Test is the extremely competitive entrance exam for Bangladesh University of Engineering and Technology — the premier engineering university in Bangladesh. Only top ~1% of applicants are admitted. Print the current BUET Admission Test circular from https://buet.ac.bd and mark finished engineering topics on this hub.',
   commonMistakes: [
-    'Relying on outdated BUET Admission Test materials instead of the live official notice.',
-    'Skipping full-length timed mocks until the final days.',
-    'Over-studying low-yield topics while high-weight sections stay weak.',
-    'No error log for repeated mistake patterns.',
-    'Treating unofficial cut-offs as guaranteed outcomes.'
+    'An outdated BUET Admission Test PDF is not a substitute for the current notice at https://buet.ac.bd.',
+    'Section timing for BUET Admission Test only counts if it matches the live duration.',
+    'Photo, ID, and attempt-limit rules for BUET Admission Test live on https://buet.ac.bd, not on WhatsApp.',
+    'Nobody on this site can guarantee a BUET Admission Test rank, percentile, or admission.',
+    'Who the board describes as eligible for BUET Admission Test: HSC or equivalent with GPA 4.0+ in Physics, Chemistry, and Mathematics (combined minimum 13.5 in these three… Re-read it on https://buet.ac.bd the week you apply.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://buet.ac.bd',

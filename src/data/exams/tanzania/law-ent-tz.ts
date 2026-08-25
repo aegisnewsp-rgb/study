@@ -50,13 +50,13 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Prepare for Tanzania Law School in three phases: map the live syllabus and pattern from the official notice, finish high-weight topics with timed practice and an error log, then run full-length mocks matching official duration and marking. Pair with StudyRoadmap free roadmaps for remaining weeks. Confirm registration, fees, eligibility and paper rules only on https://udsm.ac.tz for the current tanzania cycle.',
+    'The Tanzania Law School entrance examination is the mandatory entry test for admission to the postgraduate Diploma in Law programme offered by the Tanzania School of Law (the law faculty at the University of Dar es Salaam and other accredited institutions). The programme is a prerequisite for being called to the bar and practicing law in Tanzania. For Tanzania Law School, hold Tanzania Law School ID-photo and fee rules against https://udsm.ac.tz in the same week as your first Tanzania Law School mock.',
   commonMistakes: [
-    'Relying on outdated Tanzania Law School materials instead of the live official notice.',
-    'Skipping full-length timed mocks until the final days.',
-    'Over-studying low-yield topics while high-weight sections stay weak.',
-    'No error log for repeated mistake patterns.',
-    'Treating unofficial cut-offs as guaranteed outcomes.'
+    'Screenshot cut-offs from last cycle do not bind Tanzania Law School this year — https://udsm.ac.tz does.',
+    'Skipping full Tanzania Law School papers until the final weekend is how scores stall.',
+    'A friend who sat Tanzania Law School two years ago is not your eligibility officer; https://udsm.ac.tz is.',
+    'If a page promises you will \'crack Tanzania Law School\' with this plan, it is not this site.',
+    'Use Typically consists of multiple papers covering English (comprehension and legal writing), General Knowledge… only as a memory aid for Tanzania Law School, then match the live paper on https://udsm.ac.tz.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://udsm.ac.tz',

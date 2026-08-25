@@ -50,13 +50,13 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Prepare for LOE Nepal (Bachelor Entrance) in three phases: map the live syllabus and pattern from the official notice, finish high-weight topics with timed practice and an error log, then run full-length mocks matching official duration and marking. Pair with StudyRoadmap free roadmaps for remaining weeks. Confirm registration, fees, eligibility and paper rules only on https://psc.gov.np for the current nepal cycle.',
+    'Nepal\'s Bachelor-level entrance examinations for various programmes at Tribhuvan University and other universities. For LOE Nepal (Bachelor Entrance), if two blogs disagree on LOE Nepal (Bachelor Entrance) marking, https://psc.gov.np wins; this page only sequences LOE Nepal (Bachelor Entrance) study.',
   commonMistakes: [
-    'Relying on outdated LOE Nepal (Bachelor Entrance) materials instead of the live official notice.',
-    'Skipping full-length timed mocks until the final days.',
-    'Over-studying low-yield topics while high-weight sections stay weak.',
-    'No error log for repeated mistake patterns.',
-    'Treating unofficial cut-offs as guaranteed outcomes.'
+    'If your LOE Nepal (Bachelor Entrance) brochure has no date, throw it out and open https://psc.gov.np.',
+    'A LOE Nepal (Bachelor Entrance) mock with a different number of items trains the wrong stamina.',
+    'Some LOE Nepal (Bachelor Entrance) programmes add extra subject prerequisites after you pay — check https://psc.gov.np.',
+    'StudyRoadmap will not promise a LOE Nepal (Bachelor Entrance) outcome — only a study order.',
+    'Who the board describes as eligible for LOE Nepal (Bachelor Entrance): +2 (Higher Secondary Education Board) completion or equivalent. Minimum percentage requirements vary by… Re-read it on https://psc.gov.np the week you apply.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://psc.gov.np',

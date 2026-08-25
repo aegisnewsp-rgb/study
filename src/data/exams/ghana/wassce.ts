@@ -52,13 +52,13 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Prepare for WASSCE (Ghana) in three phases: map the live syllabus and pattern from the official notice, finish high-weight topics with timed practice and an error log, then run full-length mocks matching official duration and marking. Pair with StudyRoadmap free roadmaps for remaining weeks. Confirm registration, fees, eligibility and paper rules only on https://www.waecgh.org for the current ghana cycle.',
+    'West African Senior School Certificate Examination (WASSCE) for Ghana — Ghana\'s national secondary school leaving exam, equivalent to the Nigerian WAEC exam. Required for university admission in Ghana. For WASSCE (Ghana), if two blogs disagree on WASSCE (Ghana) marking, https://www.waecgh.org wins; this page only sequences WASSCE (Ghana) study.',
   commonMistakes: [
-    'Relying on outdated WASSCE (Ghana) materials instead of the live official notice.',
-    'Skipping full-length timed mocks until the final days.',
-    'Over-studying low-yield topics while high-weight sections stay weak.',
-    'No error log for repeated mistake patterns.',
-    'Treating unofficial cut-offs as guaranteed outcomes.'
+    'Mirrors of WASSCE (Ghana) \'syllabus 2019\' are a common trap; start from https://www.waecgh.org.',
+    'Doing only favourite WASSCE (Ghana) chapters leaves the clock as the real examiner.',
+    'A friend who sat WASSCE (Ghana) two years ago is not your eligibility officer; https://www.waecgh.org is.',
+    'Nobody on this site can guarantee a WASSCE (Ghana) rank, percentile, or admission.',
+    'The published WASSCE (Ghana) shape in our files is: Core: English, Mathematics, Integrated Science. Electives: Physics, Chemistry, Biology, Economics… If https://www.waecgh.org differs, follow https://www.waecgh.org.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.waecgh.org',

@@ -27,7 +27,7 @@ function topicDone(set: Set<string>, id: string): boolean {
   return set.has(id) || (n !== '' && set.has(n));
 }
 
-// Exams without a dedicated notes directory get a "Notes coming soon" badge
+// Exams without a dedicated notes directory get a compact "Soon" badge (not a page-level promise).
 const NOTES_PENDING_EXAMS = new Set([
   'bitsat','viteee','mht-cet','kcet','wbjee','comedk','keam','gujcet','upsee',
   'ap-eapcet','ts-eapcet','aimer','aims','aiims-mbbs','aiims-bds',
@@ -276,7 +276,7 @@ function SubjectAccordion({
                     </svg>
                   </a>
                 ) : (
-                  <span className="shrink-0 text-xs text-surface-400 dark:text-surface-600" title="Notes coming soon">Soon</span>
+                  <span className="sr-only">No published notes for this topic</span>
                 );
               })()}
               <WeightStars weight={topic.weight} />

@@ -44,11 +44,12 @@ export const EXAM_EQUIVALENTS: Record<string, Array<{id: string; name: string; f
   'llb-ent':    [{id:'clat', name:'CLAT (India)', flag:'🇮🇳'}, {id:'lat', name:'LAT (Pakistan)', flag:'🇵🇰'}],
 
   // ── MBA / Management ─────────────────────────────────────
-  'cat':        [{id:'mat', name:'MAT (India)', flag:'🇮🇳'}, {id:'nmat', name:'NMAT (India)', flag:'🇮🇳'}, {id:'xat', name:'XAT (India)', flag:'🇮🇳'}, {id:'gmat', name:'GMAT (Global)', flag:'🌍'}],
-  'mat':        [{id:'cat', name:'CAT (India)', flag:'🇮🇳'}, {id:'nmat', name:'NMAT (India)', flag:'🇮🇳'}, {id:'xat', name:'XAT (India)', flag:'🇮🇳'}],
-  'nmat':       [{id:'cat', name:'CAT (India)', flag:'🇮🇳'}, {id:'mat', name:'MAT (India)', flag:'🇮🇳'}, {id:'snap', name:'SNAP (India)', flag:'🇮🇳'}],
+  'cat':        [{id:'mat', name:'MAT (India)', flag:'🇮🇳'}, {id:'xat', name:'XAT (India)', flag:'🇮🇳'}, {id:'gmat', name:'GMAT (Global)', flag:'🌍'}],
+  'mat':        [{id:'cat', name:'CAT (India)', flag:'🇮🇳'}, {id:'xat', name:'XAT (India)', flag:'🇮🇳'}],
+  // examId `nmat` is Philippines CEM/APMC medical NMAT, not GMAC NMAT-by-GMAC (India MBA).
+  'nmat':       [{id:'slmc', name:'SLMC (Sri Lanka)', flag:'🇱🇰'}, {id:'sa-pharm', name:'SAPC (South Africa)', flag:'🇿🇦'}],
   'xat':        [{id:'cat', name:'CAT (India)', flag:'🇮🇳'}, {id:'mat', name:'MAT (India)', flag:'🇮🇳'}, {id:'snap', name:'SNAP (India)', flag:'🇮🇳'}],
-  'snap':       [{id:'cat', name:'CAT (India)', flag:'🇮🇳'}, {id:'nmat', name:'NMAT (India)', flag:'🇮🇳'}, {id:'xat', name:'XAT (India)', flag:'🇮🇳'}],
+  'snap':       [{id:'cat', name:'CAT (India)', flag:'🇮🇳'}, {id:'xat', name:'XAT (India)', flag:'🇮🇳'}],
   'cmat':       [{id:'mat', name:'MAT (India)', flag:'🇮🇳'}, {id:'cat', name:'CAT (India)', flag:'🇮🇳'}],
 
   // ── Common University / Central Exams ─────────────────────

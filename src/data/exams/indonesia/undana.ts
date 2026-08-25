@@ -52,13 +52,13 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Prepare for UNDANA Admission (Indonesia) in three phases: map the live syllabus and pattern from the official notice, finish high-weight topics with timed practice and an error log, then run full-length mocks matching official duration and marking. Pair with StudyRoadmap free roadmaps for remaining weeks. Confirm registration, fees, eligibility and paper rules only on https://undana.ac.id for the current indonesia cycle.',
+    'Universitas Nusa Cendana (Undana) admission test — public university in East Nusa Tenggara, Indonesia. For UNDANA Admission (Indonesia), use this UNDANA Admission (Indonesia) hub to see what UNDANA Admission (Indonesia) topics to study; use https://undana.ac.id to see when you may register.',
   commonMistakes: [
-    'Relying on outdated UNDANA Admission (Indonesia) materials instead of the live official notice.',
-    'Skipping full-length timed mocks until the final days.',
-    'Over-studying low-yield topics while high-weight sections stay weak.',
-    'No error log for repeated mistake patterns.',
-    'Treating unofficial cut-offs as guaranteed outcomes.'
+    'Mirrors of UNDANA Admission (Indonesia) \'syllabus 2019\' are a common trap; start from https://undana.ac.id.',
+    'Section timing for UNDANA Admission (Indonesia) only counts if it matches the live duration.',
+    'Do not assume UNDANA Admission (Indonesia) is open to every degree title until https://undana.ac.id says so.',
+    'Treat \'sure selection\' UNDANA Admission (Indonesia) ads as marketing; the board does not endorse them.',
+    'Who the board describes as eligible for UNDANA Admission (Indonesia): SMA graduate or equivalent. For domestic students primarily. Re-read it on https://undana.ac.id the week you apply.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://undana.ac.id',

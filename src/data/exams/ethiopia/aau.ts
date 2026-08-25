@@ -50,13 +50,13 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Prepare for AAU Admission (Ethiopia) in three phases: map the live syllabus and pattern from the official notice, finish high-weight topics with timed practice and an error log, then run full-length mocks matching official duration and marking. Pair with StudyRoadmap free roadmaps for remaining weeks. Confirm registration, fees, eligibility and paper rules only on https://www.aau.edu.et/admission for the current ethiopia cycle.',
+    'Addis Ababa University (AAU) entrance examination is Ethiopia\'s most competitive university admission test. AAU is Ethiopia\'s largest and oldest university, and entrance is based on Ethiopian University Entrance Examination (EUEE) results. AAU placement follows the Ethiopian EUEE path listed on https://www.aau.edu.et/admission — do not treat this hub as the placement office.',
   commonMistakes: [
-    'Relying on outdated AAU Admission (Ethiopia) materials instead of the live official notice.',
-    'Skipping full-length timed mocks until the final days.',
-    'Over-studying low-yield topics while high-weight sections stay weak.',
-    'No error log for repeated mistake patterns.',
-    'Treating unofficial cut-offs as guaranteed outcomes.'
+    'Screenshot cut-offs from last cycle do not bind AAU Admission (Ethiopia) this year — https://www.aau.edu.et/admission does.',
+    'Doing only favourite AAU Admission (Ethiopia) chapters leaves the clock as the real examiner.',
+    'A friend who sat AAU Admission (Ethiopia) two years ago is not your eligibility officer; https://www.aau.edu.et/admission is.',
+    'Treat \'sure selection\' AAU Admission (Ethiopia) ads as marketing; the board does not endorse them.',
+    'Use Ethiopian University Entrance Examination (EUEE) — 2 papers: General Aptitude Test (GAT: verbal… only as a memory aid for AAU Admission (Ethiopia), then match the live paper on https://www.aau.edu.et/admission.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.aau.edu.et/admission',

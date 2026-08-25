@@ -50,13 +50,13 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Prepare for IOE Entrance (Nepal) in three phases: map the live syllabus and pattern from the official notice, finish high-weight topics with timed practice and an error log, then run full-length mocks matching official duration and marking. Pair with StudyRoadmap free roadmaps for remaining weeks. Confirm registration, fees, eligibility and paper rules only on https://ioe.edu.np for the current nepal cycle.',
+    'Engineering entrance examination for admission to Nepal\'s engineering colleges, particularly under Tribhuvan University Institute of Engineering. For IOE Entrance (Nepal), revisit weak IOE Entrance (Nepal) units the day after a timed IOE Entrance (Nepal) set, and do not pay until https://ioe.edu.np shows an open window.',
   commonMistakes: [
-    'Relying on outdated IOE Entrance (Nepal) materials instead of the live official notice.',
-    'Skipping full-length timed mocks until the final days.',
-    'Over-studying low-yield topics while high-weight sections stay weak.',
-    'No error log for repeated mistake patterns.',
-    'Treating unofficial cut-offs as guaranteed outcomes.'
+    'Mirrors of IOE Entrance (Nepal) \'syllabus 2019\' are a common trap; start from https://ioe.edu.np.',
+    'Skipping full IOE Entrance (Nepal) papers until the final weekend is how scores stall.',
+    'Photo, ID, and attempt-limit rules for IOE Entrance (Nepal) live on https://ioe.edu.np, not on WhatsApp.',
+    'StudyRoadmap will not promise a IOE Entrance (Nepal) outcome — only a study order.',
+    'Who the board describes as eligible for IOE Entrance (Nepal): +2 Science with Physics, Chemistry, Mathematics. Minimum 45% in PCM. Re-read it on https://ioe.edu.np the week you apply.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://ioe.edu.np',

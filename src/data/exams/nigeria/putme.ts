@@ -48,13 +48,13 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Prepare for Post-UTME (Nigeria) in three phases: map the live syllabus and pattern from the official notice, finish high-weight topics with timed practice and an error log, then run full-length mocks matching official duration and marking. Pair with StudyRoadmap free roadmaps for remaining weeks. Confirm registration, fees, eligibility and paper rules only on https://www.jamb.gov.ng for the current nigeria cycle.',
+    'Post-UTME is the screening examination conducted by individual Nigerian universities after the JAMB UTME. Each university designs its own Post-UTME test, which evaluates candidates on subject-specific knowledge relevant to their chosen course. For Post-UTME (Nigeria), hold Post-UTME (Nigeria) ID-photo and fee rules against https://www.jamb.gov.ng in the same week as your first Post-UTME (Nigeria) mock.',
   commonMistakes: [
-    'Relying on outdated Post-UTME (Nigeria) materials instead of the live official notice.',
-    'Skipping full-length timed mocks until the final days.',
-    'Over-studying low-yield topics while high-weight sections stay weak.',
-    'No error log for repeated mistake patterns.',
-    'Treating unofficial cut-offs as guaranteed outcomes.'
+    'If your Post-UTME (Nigeria) brochure has no date, throw it out and open https://www.jamb.gov.ng.',
+    'Doing only favourite Post-UTME (Nigeria) chapters leaves the clock as the real examiner.',
+    'A friend who sat Post-UTME (Nigeria) two years ago is not your eligibility officer; https://www.jamb.gov.ng is.',
+    'Treat \'sure selection\' Post-UTME (Nigeria) ads as marketing; the board does not endorse them.',
+    'Pattern note for Post-UTME (Nigeria): Format varies by university — typically 40-100 MCQs in relevant subjects, 1-2 hours duration. Most… Confirm that wording on https://www.jamb.gov.ng before you lock a timetable.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.jamb.gov.ng',

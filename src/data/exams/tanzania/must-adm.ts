@@ -50,13 +50,13 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Prepare for MUST Admission (Tanzania) in three phases: map the live syllabus and pattern from the official notice, finish high-weight topics with timed practice and an error log, then run full-length mocks matching official duration and marking. Pair with StudyRoadmap free roadmaps for remaining weeks. Confirm registration, fees, eligibility and paper rules only on https://must.ac.tz for the current tanzania cycle.',
+    'Mzumbe University of Tanzania (MUST) admission test is the entrance examination for undergraduate programmes at Mzumbe University, one of Tanzania\'s leading public universities. Mzumbe University is particularly known for its programmes in law, public administration, business, and economics. For MUST Admission (Tanzania), a crash week for MUST Admission (Tanzania) only works after you have the live MUST Admission (Tanzania) paper map from https://must.ac.tz.',
   commonMistakes: [
-    'Relying on outdated MUST Admission (Tanzania) materials instead of the live official notice.',
-    'Skipping full-length timed mocks until the final days.',
-    'Over-studying low-yield topics while high-weight sections stay weak.',
-    'No error log for repeated mistake patterns.',
-    'Treating unofficial cut-offs as guaranteed outcomes.'
+    'Coaching blogs that skip https://must.ac.tz often recycle a retired MUST Admission (Tanzania) pattern.',
+    'Untimed MUST Admission (Tanzania) practice hides whether you can finish the published paper.',
+    'Do not assume MUST Admission (Tanzania) is open to every degree title until https://must.ac.tz says so.',
+    'StudyRoadmap will not promise a MUST Admission (Tanzania) outcome — only a study order.',
+    'Use Varies by programme applied for — typically tests relevant subjects at CSEE or ACSEE level depending on the… only as a memory aid for MUST Admission (Tanzania), then match the live paper on https://must.ac.tz.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://must.ac.tz',

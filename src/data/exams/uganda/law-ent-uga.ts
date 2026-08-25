@@ -50,13 +50,13 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Prepare for Uganda Law Admission in three phases: map the live syllabus and pattern from the official notice, finish high-weight topics with timed practice and an error log, then run full-length mocks matching official duration and marking. Pair with StudyRoadmap free roadmaps for remaining weeks. Confirm registration, fees, eligibility and paper rules only on https://ldc.ac.ug for the current uganda cycle.',
+    'Uganda law school entrance examination — the admission test for the Law Development Centre (LDC) Diploma in Law programme, which is the mandatory professional qualification for lawyers in Uganda. The LDC programme is the gateway to the Uganda Bar. For Uganda Law Admission, revisit weak Uganda Law Admission units the day after a timed Uganda Law Admission set, and do not pay until https://ldc.ac.ug shows an open window.',
   commonMistakes: [
-    'Relying on outdated Uganda Law Admission materials instead of the live official notice.',
-    'Skipping full-length timed mocks until the final days.',
-    'Over-studying low-yield topics while high-weight sections stay weak.',
-    'No error log for repeated mistake patterns.',
-    'Treating unofficial cut-offs as guaranteed outcomes.'
+    'If your Uganda Law Admission brochure has no date, throw it out and open https://ldc.ac.ug.',
+    'A Uganda Law Admission mock with a different number of items trains the wrong stamina.',
+    'Some Uganda Law Admission programmes add extra subject prerequisites after you pay — check https://ldc.ac.ug.',
+    'Treat \'sure selection\' Uganda Law Admission ads as marketing; the board does not endorse them.',
+    'Use Typically covers English Language (comprehension, grammar, essay writing), General Paper (current affairs… only as a memory aid for Uganda Law Admission, then match the live paper on https://ldc.ac.ug.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://ldc.ac.ug',

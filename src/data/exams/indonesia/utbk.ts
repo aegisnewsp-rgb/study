@@ -54,13 +54,13 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Prepare for UTBK/SNPMTN (Indonesia) in three phases: map the live syllabus and pattern from the official notice, finish high-weight topics with timed practice and an error log, then run full-length mocks matching official duration and marking. Pair with StudyRoadmap free roadmaps for remaining weeks. Confirm registration, fees, eligibility and paper rules only on https://portal.snpmb.id for the current indonesia cycle.',
+    'UTBK (Ujian Tulis Berbasis Komputer) is Indonesia\'s national computer-based university entrance exam, required for admission to most public universities through the SNPMB system. Download the SNPMB/UTBK guide from https://portal.snpmb.id, then sequence TPA/TPS topics here rather than mixing random bank questions.',
   commonMistakes: [
-    'Relying on outdated UTBK/SNPMTN (Indonesia) materials instead of the live official notice.',
-    'Skipping full-length timed mocks until the final days.',
-    'Over-studying low-yield topics while high-weight sections stay weak.',
-    'No error log for repeated mistake patterns.',
-    'Treating unofficial cut-offs as guaranteed outcomes.'
+    'Mirrors of UTBK/SNPMTN (Indonesia) \'syllabus 2019\' are a common trap; start from https://portal.snpmb.id.',
+    'Skipping full UTBK/SNPMTN (Indonesia) papers until the final weekend is how scores stall.',
+    'Some UTBK/SNPMTN (Indonesia) programmes add extra subject prerequisites after you pay — check https://portal.snpmb.id.',
+    'StudyRoadmap will not promise a UTBK/SNPMTN (Indonesia) outcome — only a study order.',
+    'Use TPA (verbal, numerical, figural reasoning) + TPS (Academic Potential Test) + subject-specific tests. 195… only as a memory aid for UTBK/SNPMTN (Indonesia), then match the live paper on https://portal.snpmb.id.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://portal.snpmb.id',

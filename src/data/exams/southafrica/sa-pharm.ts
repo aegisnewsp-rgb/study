@@ -52,13 +52,13 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Prepare for SAPC (South Africa) in three phases: map the live syllabus and pattern from the official notice, finish high-weight topics with timed practice and an error log, then run full-length mocks matching official duration and marking. Pair with StudyRoadmap free roadmaps for remaining weeks. Confirm registration, fees, eligibility and paper rules only on https://www.sapc.za.org for the current southafrica cycle.',
+    'South African Pharmacy Council (SAPC) examination — the licensing examination for pharmacists trained outside South Africa who wish to register and practice as pharmacists in South Africa. The SAPC is the statutory body that regulates the pharmacy profession in South Africa. SAPC registration exams are governed at https://www.sapc.za.org; use these notes for foreign-graduate pharmacy revision, not as a licence.',
   commonMistakes: [
-    'Relying on outdated SAPC (South Africa) materials instead of the live official notice.',
-    'Skipping full-length timed mocks until the final days.',
-    'Over-studying low-yield topics while high-weight sections stay weak.',
-    'No error log for repeated mistake patterns.',
-    'Treating unofficial cut-offs as guaranteed outcomes.'
+    'If your SAPC (South Africa) brochure has no date, throw it out and open https://www.sapc.za.org.',
+    'Skipping full SAPC (South Africa) papers until the final weekend is how scores stall.',
+    'Some SAPC (South Africa) programmes add extra subject prerequisites after you pay — check https://www.sapc.za.org.',
+    'If a page promises you will \'crack SAPC (South Africa)\' with this plan, it is not this site.',
+    'The published SAPC (South Africa) shape in our files is: The examination covers Pharmaceutical Chemistry, Pharmacology, Pharmaceutics, Clinical Pharmacy, and… If https://www.sapc.za.org differs, follow https://www.sapc.za.org.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.sapc.za.org',

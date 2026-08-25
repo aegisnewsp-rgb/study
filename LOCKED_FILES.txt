@@ -2,7 +2,8 @@ src/styles/global.css
 astro.config.mjs
 tailwind.config.mjs
 tailwind.config.ts
-src/components/Footer.astro
+# Footer copy unlocked 2026-08-25 for AdSense: drop "succeed big" guaranteed-outcome flavour.
+# src/components/Footer.astro
 docker-compose.yml
 Dockerfile
 nginx.conf

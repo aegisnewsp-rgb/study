@@ -50,13 +50,13 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Prepare for Saudi University Admission (Qimiyah) in three phases: map the live syllabus and pattern from the official notice, finish high-weight topics with timed practice and an error log, then run full-length mocks matching official duration and marking. Pair with StudyRoadmap free roadmaps for remaining weeks. Confirm registration, fees, eligibility and paper rules only on https://etec.gov.sa/en/centers/qiyas for the current saudi cycle.',
+    'القبول في الجامعات السعودية (University Admission) — Saudi university admission through the unified admission system. High school GPA plus standardized test scores determine placement. Saudi unified admission (Qiyas + GPA) is described on https://etec.gov.sa/en/centers/qiyas; this hub sequences revision, not the national seat offer.',
   commonMistakes: [
-    'Relying on outdated Saudi University Admission (Qimiyah) materials instead of the live official notice.',
-    'Skipping full-length timed mocks until the final days.',
-    'Over-studying low-yield topics while high-weight sections stay weak.',
-    'No error log for repeated mistake patterns.',
-    'Treating unofficial cut-offs as guaranteed outcomes.'
+    'Screenshot cut-offs from last cycle do not bind Saudi University Admission (Qimiyah) this year — https://etec.gov.sa/en/centers/qiyas does.',
+    'Section timing for Saudi University Admission (Qimiyah) only counts if it matches the live duration.',
+    'Some Saudi University Admission (Qimiyah) programmes add extra subject prerequisites after you pay — check https://etec.gov.sa/en/centers/qiyas.',
+    'If a page promises you will \'crack Saudi University Admission (Qimiyah)\' with this plan, it is not this site.',
+    'The published Saudi University Admission (Qimiyah) shape in our files is: Standardized admission based on: High School GPA (30%), General Aptitude Test/Qiyas (30%), Achievement Test… If https://etec.gov.sa/en/centers/qiyas differs, follow https://etec.gov.sa/en/centers/qiyas.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://etec.gov.sa/en/centers/qiyas',

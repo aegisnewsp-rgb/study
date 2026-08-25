@@ -50,13 +50,13 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Prepare for PCAT (Philippines) in three phases: map the live syllabus and pattern from the official notice, finish high-weight topics with timed practice and an error log, then run full-length mocks matching official duration and marking. Pair with StudyRoadmap free roadmaps for remaining weeks. Confirm registration, fees, eligibility and paper rules only on https://www.cem-inc.org for the current philippines cycle.',
+    'Philippine College Admission Test (PCAT) — used by several Philippine universities as part of their admission process for various undergraduate programmes. The PCAT is a standardised entrance examination developed by the Center for Educational Measurement (CEM) and is used by multiple universities to supplement their internal admission criteria. For PCAT (Philippines), a crash week for PCAT (Philippines) only works after you have the live PCAT (Philippines) paper map from https://www.cem-inc.org.',
   commonMistakes: [
-    'Relying on outdated PCAT (Philippines) materials instead of the live official notice.',
-    'Skipping full-length timed mocks until the final days.',
-    'Over-studying low-yield topics while high-weight sections stay weak.',
-    'No error log for repeated mistake patterns.',
-    'Treating unofficial cut-offs as guaranteed outcomes.'
+    'Screenshot cut-offs from last cycle do not bind PCAT (Philippines) this year — https://www.cem-inc.org does.',
+    'Skipping full PCAT (Philippines) papers until the final weekend is how scores stall.',
+    'A friend who sat PCAT (Philippines) two years ago is not your eligibility officer; https://www.cem-inc.org is.',
+    'Treat \'sure selection\' PCAT (Philippines) ads as marketing; the board does not endorse them.',
+    'The published PCAT (Philippines) shape in our files is: Verbal ability, Quantitative ability, Science (Biology, Chemistry, Physics), and General Information. MCQ… If https://www.cem-inc.org differs, follow https://www.cem-inc.org.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.cem-inc.org',

@@ -50,13 +50,13 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Prepare for Gaokao (China National College Entrance) in three phases: map the live syllabus and pattern from the official notice, finish high-weight topics with timed practice and an error log, then run full-length mocks matching official duration and marking. Pair with StudyRoadmap free roadmaps for remaining weeks. Confirm registration, fees, eligibility and paper rules only on https://www.neea.edu.cn for the current china cycle.',
+    'Gaokao is China\'s national university entrance examination — one of the largest and most consequential exams in the world. Over 13 million students appear annually. For Gaokao (China National College Entrance), match the exam medium for Gaokao (China National College Entrance) to whatever https://www.neea.edu.cn states — do not assume English for Gaokao (China National College Entrance).',
   commonMistakes: [
-    'Relying on outdated Gaokao (China National College Entrance) materials instead of the live official notice.',
-    'Skipping full-length timed mocks until the final days.',
-    'Over-studying low-yield topics while high-weight sections stay weak.',
-    'No error log for repeated mistake patterns.',
-    'Treating unofficial cut-offs as guaranteed outcomes.'
+    'Coaching blogs that skip https://www.neea.edu.cn often recycle a retired Gaokao (China National College Entrance) pattern.',
+    'Untimed Gaokao (China National College Entrance) practice hides whether you can finish the published paper.',
+    'Photo, ID, and attempt-limit rules for Gaokao (China National College Entrance) live on https://www.neea.edu.cn, not on WhatsApp.',
+    'Treat \'sure selection\' Gaokao (China National College Entrance) ads as marketing; the board does not endorse them.',
+    'Pattern note for Gaokao (China National College Entrance): 3 mandatory subjects + 1 elective: Chinese Language(150 marks, 150 minutes), Mathematics(150 marks, 150… Confirm that wording on https://www.neea.edu.cn before you lock a timetable.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.neea.edu.cn',

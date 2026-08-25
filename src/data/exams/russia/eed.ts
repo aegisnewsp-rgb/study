@@ -52,13 +52,13 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Prepare for EGE (Russia) in three phases: map the live syllabus and pattern from the official notice, finish high-weight topics with timed practice and an error log, then run full-length mocks matching official duration and marking. Pair with StudyRoadmap free roadmaps for remaining weeks. Confirm registration, fees, eligibility and paper rules only on https://fipi.ru/ege for the current russia cycle.',
+    'ЕГЭ (Yediniy Gosudarstvenniy Ekzamen, Unified State Exam) is Russia\'s national university entrance examination. One of the largest standardized tests in the world — required for admission to all Russian universities. For EGE (Russia), match the exam medium for EGE (Russia) to whatever https://fipi.ru/ege states — do not assume English for EGE (Russia).',
   commonMistakes: [
-    'Relying on outdated EGE (Russia) materials instead of the live official notice.',
-    'Skipping full-length timed mocks until the final days.',
-    'Over-studying low-yield topics while high-weight sections stay weak.',
-    'No error log for repeated mistake patterns.',
-    'Treating unofficial cut-offs as guaranteed outcomes.'
+    'Coaching blogs that skip https://fipi.ru/ege often recycle a retired EGE (Russia) pattern.',
+    'A EGE (Russia) mock with a different number of items trains the wrong stamina.',
+    'A friend who sat EGE (Russia) two years ago is not your eligibility officer; https://fipi.ru/ege is.',
+    'StudyRoadmap will not promise a EGE (Russia) outcome — only a study order.',
+    'The published EGE (Russia) shape in our files is: 2 mandatory exams: Russian Language (100 points), Mathematics (100 points base or 100 points profile). Plus… If https://fipi.ru/ege differs, follow https://fipi.ru/ege.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://fipi.ru/ege',

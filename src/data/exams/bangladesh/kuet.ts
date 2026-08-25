@@ -50,13 +50,13 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Prepare for KUET Admission Test in three phases: map the live syllabus and pattern from the official notice, finish high-weight topics with timed practice and an error log, then run full-length mocks matching official duration and marking. Pair with StudyRoadmap free roadmaps for remaining weeks. Confirm registration, fees, eligibility and paper rules only on https://kuet.ac.bd for the current bangladesh cycle.',
+    'Khulna University of Engineering and Technology (KUET) admission test is a highly competitive exam for undergraduate engineering programmes in southern Bangladesh. KUET is one of the nine public engineering universities in Bangladesh and focuses on engineering, technology, and applied sciences. For KUET Admission Test, hold KUET Admission Test ID-photo and fee rules against https://kuet.ac.bd in the same week as your first KUET Admission Test mock.',
   commonMistakes: [
-    'Relying on outdated KUET Admission Test materials instead of the live official notice.',
-    'Skipping full-length timed mocks until the final days.',
-    'Over-studying low-yield topics while high-weight sections stay weak.',
-    'No error log for repeated mistake patterns.',
-    'Treating unofficial cut-offs as guaranteed outcomes.'
+    'Screenshot cut-offs from last cycle do not bind KUET Admission Test this year — https://kuet.ac.bd does.',
+    'A KUET Admission Test mock with a different number of items trains the wrong stamina.',
+    'A friend who sat KUET Admission Test two years ago is not your eligibility officer; https://kuet.ac.bd is.',
+    'If a page promises you will \'crack KUET Admission Test\' with this plan, it is not this site.',
+    'Use 100 MCQs: Mathematics(40 questions), Physics(30 questions), Chemistry(20 questions), plus 10 questions from… only as a memory aid for KUET Admission Test, then match the live paper on https://kuet.ac.bd.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://kuet.ac.bd',

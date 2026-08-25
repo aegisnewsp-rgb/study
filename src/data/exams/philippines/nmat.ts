@@ -52,13 +52,13 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Prepare for NMAT (Philippines) in three phases: map the live syllabus and pattern from the official notice, finish high-weight topics with timed practice and an error log, then run full-length mocks matching official duration and marking. Pair with StudyRoadmap free roadmaps for remaining weeks. Confirm registration, fees, eligibility and paper rules only on https://www.cem-inc.org for the current philippines cycle.',
+    'Philippines NMAT is a two-part CEM/APMC medical-school aptitude test, not the GMAC MBA exam used in India. Spend early weeks on Part I (verbal, inductive, quantitative, perceptual speed) because that block is timing-heavy, then rebuild undergraduate Physics, Chemistry, Biology, and Social Sciences for Part II. Aim your mocks at percentile reporting and the two-year score validity window. Confirm the live bulletin, fees, and centre list only at https://www.cem-inc.org before you register.',
   commonMistakes: [
-    'Relying on outdated NMAT (Philippines) materials instead of the live official notice.',
-    'Skipping full-length timed mocks until the final days.',
-    'Over-studying low-yield topics while high-weight sections stay weak.',
-    'No error log for repeated mistake patterns.',
-    'Treating unofficial cut-offs as guaranteed outcomes.'
+    'Confusing this NMAT with GMAC NMAT by GMAC used for Indian MBA programmes.',
+    'Drilling only Part II sciences and ignoring Part I speed tests.',
+    'Treating a 40th-percentile floor as enough for UP Manila, Ateneo, or De La Salle.',
+    'Letting a score expire (typical validity is two years) and applying with a lapsed percentile.',
+    'Using unofficial Facebook cut-offs instead of the current CEM bulletin and school prospectus.',
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.cem-inc.org',

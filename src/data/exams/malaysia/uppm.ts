@@ -52,13 +52,13 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Prepare for UPPM/UNIMAP Admission (Malaysia) in three phases: map the live syllabus and pattern from the official notice, finish high-weight topics with timed practice and an error log, then run full-length mocks matching official duration and marking. Pair with StudyRoadmap free roadmaps for remaining weeks. Confirm registration, fees, eligibility and paper rules only on https://admission.unimap.edu.my/ for the current malaysia cycle.',
+    'Universiti Malaysia Perlis (UNIMAP) admission test — entry requirements for engineering and technology programmes at this northern Malaysian university. UNIMAP/UPPM intake rules live on https://admission.unimap.edu.my/; use this page only to order engineering subjects before you apply.',
   commonMistakes: [
-    'Relying on outdated UPPM/UNIMAP Admission (Malaysia) materials instead of the live official notice.',
-    'Skipping full-length timed mocks until the final days.',
-    'Over-studying low-yield topics while high-weight sections stay weak.',
-    'No error log for repeated mistake patterns.',
-    'Treating unofficial cut-offs as guaranteed outcomes.'
+    'Screenshot cut-offs from last cycle do not bind UPPM/UNIMAP Admission (Malaysia) this year — https://admission.unimap.edu.my/ does.',
+    'Doing only favourite UPPM/UNIMAP Admission (Malaysia) chapters leaves the clock as the real examiner.',
+    'Do not assume UPPM/UNIMAP Admission (Malaysia) is open to every degree title until https://admission.unimap.edu.my/ says so.',
+    'Cut-off rumours are not UPPM/UNIMAP Admission (Malaysia) offers of admission.',
+    'Eligibility snippet we store for UPPM/UNIMAP Admission (Malaysia): STPM/Matriculation with minimum CGPA requirements. Relevant subject prerequisites. Boards edit this; https://admission.unimap.edu.my/ wins.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://admission.unimap.edu.my/',

@@ -50,13 +50,13 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Prepare for Sri Lanka Law Aptitude in three phases: map the live syllabus and pattern from the official notice, finish high-weight topics with timed practice and an error log, then run full-length mocks matching official duration and marking. Pair with StudyRoadmap free roadmaps for remaining weeks. Confirm registration, fees, eligibility and paper rules only on https://www.sllc.ac.lk for the current srilanka cycle.',
+    'Sri Lanka Law College admission test for the Certificate in Law programme — the first step toward becoming an attorney-at-law in Sri Lanka. The test is conducted by the Sri Lanka Law College under the supervision of the Supreme Court of Sri Lanka. For Sri Lanka Law Aptitude, keep Sri Lanka Law Aptitude application admin (photo specs, IDs) off your Sri Lanka Law Aptitude study clock by checking https://www.sllc.ac.lk early.',
   commonMistakes: [
-    'Relying on outdated Sri Lanka Law Aptitude materials instead of the live official notice.',
-    'Skipping full-length timed mocks until the final days.',
-    'Over-studying low-yield topics while high-weight sections stay weak.',
-    'No error log for repeated mistake patterns.',
-    'Treating unofficial cut-offs as guaranteed outcomes.'
+    'An outdated Sri Lanka Law Aptitude PDF is not a substitute for the current notice at https://www.sllc.ac.lk.',
+    'Doing only favourite Sri Lanka Law Aptitude chapters leaves the clock as the real examiner.',
+    'A friend who sat Sri Lanka Law Aptitude two years ago is not your eligibility officer; https://www.sllc.ac.lk is.',
+    'If a page promises you will \'crack Sri Lanka Law Aptitude\' with this plan, it is not this site.',
+    'Pattern note for Sri Lanka Law Aptitude: Tests English, General Knowledge, Logic and Reasoning, and Legal Awareness. Structured as MCQs and short… Confirm that wording on https://www.sllc.ac.lk before you lock a timetable.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.sllc.ac.lk',

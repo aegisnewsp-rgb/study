@@ -52,13 +52,13 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Prepare for ICAN (Institute of Chartered Accountants of Nigeria) in three phases: map the live syllabus and pattern from the official notice, finish high-weight topics with timed practice and an error log, then run full-length mocks matching official duration and marking. Pair with StudyRoadmap free roadmaps for remaining weeks. Confirm registration, fees, eligibility and paper rules only on https://www.ican.org.ng for the current nigeria cycle.',
+    'The Institute of Chartered Accountants of Nigeria (ICAN) examinations test accounting, auditing, taxation, and business knowledge across multiple levels: Foundation, Intermediate, and Final. ICAN is the professional body for accountants in Nigeria and its qualification is recognized across the West African sub-region and internationally. For ICAN (Institute of Chartered Accountants of Nigeria), keep ICAN (Institute of Chartered Accountants of Nigeria) application admin (photo specs, IDs) off your ICAN (Institute of Chartered Accountants of Nigeria) study clock by checking https://www.ican.org.ng early.',
   commonMistakes: [
-    'Relying on outdated ICAN (Institute of Chartered Accountants of Nigeria) materials instead of the live official notice.',
-    'Skipping full-length timed mocks until the final days.',
-    'Over-studying low-yield topics while high-weight sections stay weak.',
-    'No error log for repeated mistake patterns.',
-    'Treating unofficial cut-offs as guaranteed outcomes.'
+    'An outdated ICAN (Institute of Chartered Accountants of Nigeria) PDF is not a substitute for the current notice at https://www.ican.org.ng.',
+    'Doing only favourite ICAN (Institute of Chartered Accountants of Nigeria) chapters leaves the clock as the real examiner.',
+    'A friend who sat ICAN (Institute of Chartered Accountants of Nigeria) two years ago is not your eligibility officer; https://www.ican.org.ng is.',
+    'Treat \'sure selection\' ICAN (Institute of Chartered Accountants of Nigeria) ads as marketing; the board does not endorse them.',
+    'Pattern note for ICAN (Institute of Chartered Accountants of Nigeria): Multiple papers per diet (June and December): Financial Accounting and Reporting, Auditing and Assurance… Confirm that wording on https://www.ican.org.ng before you lock a timetable.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.ican.org.ng',

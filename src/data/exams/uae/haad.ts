@@ -52,13 +52,13 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Prepare for HAAD (UAE) in three phases: map the live syllabus and pattern from the official notice, finish high-weight topics with timed practice and an error log, then run full-length mocks matching official duration and marking. Pair with StudyRoadmap free roadmaps for remaining weeks. Confirm registration, fees, eligibility and paper rules only on https://www.doh.gov.ae for the current uae cycle.',
+    'Health Authority of Abu Dhabi (HAAD) examination for healthcare professionals — a licensing exam for physicians, nurses, and allied health professionals seeking to practice in Abu Dhabi. HAAD (now integrated under DOH — Department of Health Abu Dhabi) was the regulatory body for healthcare in the Emirate of Abu Dhabi. HAAD/DOH licensing steps are on https://www.doh.gov.ae. Study clinical topics here; book the professional exam only on that portal.',
   commonMistakes: [
-    'Relying on outdated HAAD (UAE) materials instead of the live official notice.',
-    'Skipping full-length timed mocks until the final days.',
-    'Over-studying low-yield topics while high-weight sections stay weak.',
-    'No error log for repeated mistake patterns.',
-    'Treating unofficial cut-offs as guaranteed outcomes.'
+    'Screenshot cut-offs from last cycle do not bind HAAD (UAE) this year — https://www.doh.gov.ae does.',
+    'Section timing for HAAD (UAE) only counts if it matches the live duration.',
+    'Some HAAD (UAE) programmes add extra subject prerequisites after you pay — check https://www.doh.gov.ae.',
+    'Nobody on this site can guarantee a HAAD (UAE) rank, percentile, or admission.',
+    'Pattern note for HAAD (UAE): Computer-based exam with MCQs relevant to the professional\'s scope of practice. Number of questions varies… Confirm that wording on https://www.doh.gov.ae before you lock a timetable.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.doh.gov.ae',

@@ -52,13 +52,13 @@ const exam: ExamTemplate = {
     strategy: 'Focus on high-weight topics and previous year questions.',
   },
   prepOverview:
-    'Prepare for UAE University CAT in three phases: map the live syllabus and pattern from the official notice, finish high-weight topics with timed practice and an error log, then run full-length mocks matching official duration and marking. Pair with StudyRoadmap free roadmaps for remaining weeks. Confirm registration, fees, eligibility and paper rules only on https://www.uaeu.ac.ae for the current uae cycle.',
+    'United Arab Emirates University (UAEU) College Admission Test — a standardised admissions test for undergraduate admission to UAEU\'s various colleges. UAEU is the UAE\'s flagship national university, located in Al Ain. For UAE University CAT, save the UAE University CAT syllabus PDF from https://www.uaeu.ac.ae and ignore unofficial UAE University CAT must-do lists that omit that file.',
   commonMistakes: [
-    'Relying on outdated UAE University CAT materials instead of the live official notice.',
-    'Skipping full-length timed mocks until the final days.',
-    'Over-studying low-yield topics while high-weight sections stay weak.',
-    'No error log for repeated mistake patterns.',
-    'Treating unofficial cut-offs as guaranteed outcomes.'
+    'Mirrors of UAE University CAT \'syllabus 2019\' are a common trap; start from https://www.uaeu.ac.ae.',
+    'Untimed UAE University CAT practice hides whether you can finish the published paper.',
+    'Some UAE University CAT programmes add extra subject prerequisites after you pay — check https://www.uaeu.ac.ae.',
+    'Cut-off rumours are not UAE University CAT offers of admission.',
+    'Pattern note for UAE University CAT: Tests English, Mathematics, and analytical skills. Computer-based adaptive format. The English section… Confirm that wording on https://www.uaeu.ac.ae before you lock a timetable.'
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.uaeu.ac.ae',

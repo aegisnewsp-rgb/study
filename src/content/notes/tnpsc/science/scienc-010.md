@@ -4,14 +4,14 @@ examName: TNPSC Group 1
 subject: science
 subjectName: Science
 topic: scienc-010
-topicName: Topic 10 of TNPSC Group 1 Science
+topicName: "Mechanics: Work, Energy, and Power"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
 lastUpdated: "2026-07-28"
 ---
 
-# Topic 10 of TNPSC Group 1 Science
+# Mechanics: Work, Energy, and Power
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

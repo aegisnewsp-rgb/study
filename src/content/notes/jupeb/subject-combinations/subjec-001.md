@@ -4,7 +4,7 @@ examName: JUPEB (Nigeria)
 subject: subject-combinations
 subjectName: "Subject-Combinations"
 topic: subjec-001
-topicName: Topic 1
+topicName: "JUPEB Science Combination (PCM)"
 weight: 3
 country: nigeria
 generated: "2026-03-25T17:00:00"
@@ -15,7 +15,7 @@ The Joint Universities Preliminary Examinations Board (JUPEB) is a national exam
 
 ## Understanding JUPEB Structure
 
-The JUPEB programme is typically taken after completing Secondary School (SSCE/WAEC/NECO) but before university. It serves as an alternative pathway for students who:
+The JUPEB programme is taken after completing Secondary School (SSCE/WAEC/NECO) but before university. It serves as an alternative pathway for students who:
 - Did not meet the cut-off mark for their preferred university in UTME
 - Desire direct entry into professional programmes (Medicine, Law, Engineering)
 - Want to shorten their university duration (2 years after JUPEB instead of 4 years through UTME)
@@ -34,7 +34,7 @@ Your JUPEB subject combination determines:
 
 ## Available JUPEB Subject Groups
 
-JUPEB typically offers the following subject groups:
+JUPEB curriculum provides the following subject groups:
 - **Science**: Physics, Chemistry, Biology, Mathematics, Further Mathematics
 - **Commercial**: Economics, Government, Commerce, Accounting, Geography, Literature
 - **Arts**: Literature, Government, History, Christian Religious Studies, Islamic Studies, Yoruba, French
@@ -43,9 +43,9 @@ JUPEB typically offers the following subject groups:
 ## JUPEB Grading and University Admission
 
 Nigerian universities have varying pass requirements:
-- Medicine: Usually requires A in all three science subjects (A-B-C minimum)
+- Medicine: Requires an A in all three science subjects (A-B-C minimum)
 - Engineering: B-C-C or better in relevant subjects
-- Law: Usually B-C-C or better including Literature
+- Law: Requires B-C-C or better including Literature
 - Arts/Social Sciences: C-D-D or better
 
 ⚡ **Exam Tip**: Some universities give bonus points for JUPEB grades in their Post-UTME screening. A Distinction (A) in all three subjects gives the strongest profile for competitive courses.

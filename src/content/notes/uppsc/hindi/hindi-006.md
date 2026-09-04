@@ -4,14 +4,14 @@ examName: UPPSC RO/ARO
 subject: hindi
 subjectName: Hindi
 topic: hindi-006
-topicName: Topic 6
+topicName: "Hindi Literature: Prose and Poetry"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
 lastUpdated: 2026-03-25
 ---
 
-# Topic 6
+# Hindi Literature: Prose and Poetry
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

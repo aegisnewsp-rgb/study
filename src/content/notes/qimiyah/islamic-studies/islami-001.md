@@ -4,14 +4,14 @@ examName: Qimiyah Exam (Saudi)
 subject: islamic-studies
 subjectName: General Studies
 topic: islami-001
-topicName: Topic 1
+topicName: Basic Beliefs of Islam
 weight: 3
 country: saudi
 generated: "2026-03-25T17:00:00"
 lastUpdated: 2026-03-25
 ---
 
-# Topic 1
+# Basic Beliefs of Islam
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

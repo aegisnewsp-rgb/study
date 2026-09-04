@@ -149,7 +149,7 @@ const exam: ExamTemplate = {
     'Missing registration deadlines.'
   ],
   lastUpdated: '2026-07-28',
-  officialSource: 'https://www.lat.gov.pk',
+  officialSource: 'https://etc.hec.gov.pk',
 };
 
 export default exam;

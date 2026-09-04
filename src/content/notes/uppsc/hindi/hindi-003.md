@@ -4,14 +4,14 @@ examName: UPPSC RO/ARO
 subject: hindi
 subjectName: Hindi
 topic: hindi-003
-topicName: Topic 3
+topicName: "Hindi Grammar: Kriya and Visheshan"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
 lastUpdated: 2026-03-25
 ---
 
-# Topic 3
+# Hindi Grammar: Kriya and Visheshan
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

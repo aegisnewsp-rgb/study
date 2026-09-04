@@ -4,14 +4,14 @@ examName: UTBK/SNPMTN (Indonesia)
 subject: indonesian
 subjectName: "Indonesian Language (Literasi Bahasa Indonesia)"
 topic: indone-006
-topicName: Topic 6
+topicName: Grammar and Language Usage
 weight: 3
 country: indonesia
 generated: "2026-03-25T17:00:00"
 lastUpdated: 2026-03-25
 ---
 
-# Topic 6
+# Grammar and Language Usage
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

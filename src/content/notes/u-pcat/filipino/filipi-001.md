@@ -4,14 +4,14 @@ examName: UPCAT (Philippines)
 subject: filipino
 subjectName: Filipino
 topic: filipi-001
-topicName: Topic 1
+topicName: "Wastong Gamit ng mga Salita (Correct Word Usage)"
 weight: 3
 country: philippines
 generated: "2026-03-25T17:00:00"
 lastUpdated: 2026-03-25
 ---
 
-# Topic 1
+# Wastong Gamit ng mga Salita (Correct Word Usage)
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

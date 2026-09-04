@@ -4,7 +4,7 @@ examName: JUPEB (Nigeria)
 subject: subject-combinations
 subjectName: "Subject-Combinations"
 topic: subjec-003
-topicName: Topic 3
+topicName: "JUPEB Science Combination (PMB)"
 weight: 3
 country: nigeria
 generated: "2026-03-25T17:00:00"

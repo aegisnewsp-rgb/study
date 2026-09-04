@@ -251,7 +251,7 @@ const exam: ExamTemplate = {
     'Registration and photo/document errors.'
   ],
   lastUpdated: '2026-07-28',
-  officialSource: 'https://www.negov.org',
+  officialSource: 'https://neco.gov.ng',
 };
 
 export default exam;

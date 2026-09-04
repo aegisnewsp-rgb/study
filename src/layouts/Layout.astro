@@ -59,14 +59,15 @@ const {
     countryName,
 } = Astro.props;
 
+const cleanPath = Astro.url.pathname.endsWith('/') ? Astro.url.pathname : `${Astro.url.pathname}/`;
 const canonicalURL = canonical
-    ? new URL(canonical)
-    : new URL(Astro.url.pathname, Astro.site);
+    ? new URL(canonical, Astro.site)
+    : new URL(cleanPath, Astro.site);
 const currentYear = new Date().getFullYear();
 ---
 
 <!doctype html>
-<html lang={hreflang ? `en-${geoRegion?.toLowerCase()}` : 'en'} class="scroll-smooth">
+<html lang={hreflang || (geoRegion ? `en-${geoRegion.toLowerCase()}` : 'en')} class="scroll-smooth">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -120,7 +121,7 @@ const currentYear = new Date().getFullYear();
         </script>
 
         <!-- Preconnect to critical origins -->
-        <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
         <!-- DNS prefetch for analytics/external resources -->
@@ -163,7 +164,7 @@ const currentYear = new Date().getFullYear();
         <meta property="og:image:alt" content={title} />
         <meta property="og:site_name" content="StudyRoadmap" />
         <meta property="og:locale" content={geoRegion ? `en_${geoRegion}` : 'en_US'} />
-        <meta property="og:locale:alternate" content="en_US" />
+        {geoRegion && <meta property="og:locale:alternate" content="en_US" />}
 
         <!-- Twitter -->
         <meta name="twitter:card" content="summary_large_image" />

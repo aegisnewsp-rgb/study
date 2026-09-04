@@ -1,6 +1,6 @@
 export interface Topic { id: string; name: string; weight: 1|2|3|4|5; description?: string; }
 export interface Subject { id: string; name: string; topics: Topic[]; color: string; }
-export interface DailyTopicItem extends Topic { subject: string; }
+export interface DailyTopicItem extends Topic { subject: string; hasNote?: boolean; notePath?: string | null; }
 export interface Phase { name: string; weeks: number; focus: string; deliverables: string[]; }
 export interface RoadmapTemplate { duration: string; totalDays: number; dailyTopics: DailyTopicItem[]; description: string; phases?: Phase[]; }
 export interface RescueFocusArea { subject: string; topics: string[]; }

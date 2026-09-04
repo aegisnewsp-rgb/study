@@ -4,14 +4,14 @@ examName: UNDANA Admission (Indonesia)
 subject: language
 subjectName: "Language (Indonesian/English)"
 topic: langua-001
-topicName: Topic 1
+topicName: Indonesian Language Proficiency
 weight: 3
 country: indonesia
 generated: "2026-03-25T17:00:00"
 lastUpdated: 2026-03-25
 ---
 
-# Topic 1
+# Indonesian Language Proficiency
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

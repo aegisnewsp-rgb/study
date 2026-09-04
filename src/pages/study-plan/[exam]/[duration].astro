@@ -30,8 +30,8 @@ const flag = getCountryFlag(exam.country) || '🌍';
 const examName = exam.examName || exam.examId;
 
 const DURATION_LABEL: Record<string, string> = {
-  '1h': '1-Hour Cram', '2h': '2-Hour Sprint', '3h': '3-Hour Burst', '12h': '12-Hour Crash',
-  '1d': '1-Day Intensive', '2d': '2-Day Rescue', '3d': '3-Day Push', '5d': '5-Day Block',
+  '1h': '1-Hour Cram', '2h': '2-Hour Sprint', '3h': '3-Hour Burst', '5h': '5-Hour Block', '12h': '12-Hour Crash',
+  '1d': '1-Day Intensive', '2d': '2-Day Rescue', '3d': '3-Day Push', '5d': '5-Day Block', '7d': '1-Week Plan',
   '10d': '10-Day Plan', '2w': '2-Week Plan', '1mo': '1-Month Plan', '2mo': '2-Month Plan',
   '3mo': '3-Month Plan', '6mo': '6-Month Plan', '1yr': '1-Year Plan', '2yr': '2-Year Plan',
 };
@@ -135,7 +135,7 @@ const howToJsonLd = {
   '@type': 'HowTo',
   name: `${examName} ${durationLabel}`,
   description,
-  totalTime: `PT${totalDays}D`,
+  totalTime: totalDays > 0 ? `P${totalDays}D` : `PT${durationKey.toUpperCase()}`,
   tool: { '@type': 'HowToTool', name: 'StudyRoadmap AI roadmap generator' },
   step: dailyTopics.slice(0, 12).map((t: any, i: number) => ({
     '@type': 'HowToStep',
@@ -162,7 +162,7 @@ const courseJsonLd = {
   hasCourseInstance: {
     '@type': 'CourseInstance',
     courseMode: 'Online',
-    courseWorkload: `PT${totalDays}D`,
+    courseWorkload: totalDays > 0 ? `P${totalDays}D` : `PT${durationKey.toUpperCase()}`,
     instructor: { '@type': 'Organization', name: 'StudyRoadmap', url: SITE_URL },
   },
   isPartOf: { '@type': 'Course', '@id': `${SITE_URL}/exams/${exam.examId}/#course`, name: `${examName} Study Roadmap`, url: `${SITE_URL}/exams/${exam.examId}/` },
@@ -286,7 +286,7 @@ const siblingDurations = Object.keys(exam.durations || {})
         </dl>
 
         <div class="flex flex-wrap gap-3">
-          <a href={`${SITE_URL}/roadmap/?exam=${exam.examId}&duration=${durationKey}`} class="group inline-flex items-center gap-2 bg-gradient-to-r from-brand-600 to-brand-500 hover:from-brand-700 hover:to-brand-600 text-white font-bold px-6 py-3 rounded-xl shadow-lg shadow-brand-500/20 hover:shadow-xl hover:shadow-brand-500/30 transition-all">
+          <a href={`/roadmap/?exam=${exam.examId}&duration=${durationKey}`} class="group inline-flex items-center gap-2 bg-gradient-to-r from-brand-600 to-brand-500 hover:from-brand-700 hover:to-brand-600 text-white font-bold px-6 py-3 rounded-xl shadow-lg shadow-brand-500/20 hover:shadow-xl hover:shadow-brand-500/30 transition-all">
             Generate My Personalised Plan
             <span class="transition-transform group-hover:translate-x-0.5">→</span>
           </a>
@@ -511,7 +511,7 @@ const siblingDurations = Object.keys(exam.durations || {})
           <details class="group py-4">
             <summary class="flex cursor-pointer items-center justify-between gap-3 font-semibold text-surface-900 dark:text-white list-none">
               <span>{f.q}</span>
-              <span class="text-brand-500 transition-transform group-open:rotate-45 text-xl leading-none">+</span>
+              <span aria-hidden="true" class="text-brand-500 transition-transform group-open:rotate-45 text-xl leading-none">+</span>
             </summary>
             <p class="mt-3 text-sm text-surface-700 dark:text-surface-300 leading-relaxed">{f.a}</p>
           </details>
@@ -539,7 +539,7 @@ const siblingDurations = Object.keys(exam.durations || {})
       <div class="rounded-xl bg-brand-600 text-white p-8 text-center">
         <h2 class="text-2xl font-bold mb-3">Already know the pattern? Generate a topic-by-topic plan.</h2>
         <p class="mb-5 text-brand-100">The full personalised roadmap covers weak topics first, tracks completion, and adapts as you mark topics done.</p>
-        <a href={`${SITE_URL}/roadmap/?exam=${exam.examId}&duration=${durationKey}`} class="inline-flex items-center gap-2 bg-white text-brand-600 font-bold px-6 py-3 rounded-xl">Generate Personalised Plan →</a>
+        <a href={`/roadmap/?exam=${exam.examId}&duration=${durationKey}`} class="inline-flex items-center gap-2 bg-white text-brand-600 font-bold px-6 py-3 rounded-xl">Generate Personalised Plan →</a>
       </div>
     </section>
 

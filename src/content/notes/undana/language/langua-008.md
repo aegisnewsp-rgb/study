@@ -4,14 +4,14 @@ examName: UNDANA Admission (Indonesia)
 subject: language
 subjectName: "Language (Indonesian/English)"
 topic: langua-008
-topicName: Topic 8
+topicName: PUEBI and Language Mechanics
 weight: 3
 country: indonesia
 generated: "2026-03-25T17:00:00"
 lastUpdated: 2026-03-25
 ---
 
-# Topic 8
+# PUEBI and Language Mechanics
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

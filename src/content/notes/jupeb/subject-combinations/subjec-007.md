@@ -4,7 +4,7 @@ examName: JUPEB (Nigeria)
 subject: subject-combinations
 subjectName: "Subject-Combinations"
 topic: subjec-007
-topicName: Topic 7
+topicName: JUPEB Commercial Combination
 weight: 3
 country: nigeria
 generated: "2026-03-25T17:00:00"

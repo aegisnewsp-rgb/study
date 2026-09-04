@@ -64,7 +64,7 @@ const FEEDBACK_FAQS = [
           type="url"
           id="page_url"
           name="page_url"
-          placeholder="https://studyroadmap.in/roadmap/?exam=neet"
+          placeholder="https://studyroadmap.in/exams/neet/"
           required
           class="w-full rounded-lg border border-surface-300 dark:border-surface-700 bg-white dark:bg-surface-900 px-4 py-2.5 text-surface-900 dark:text-white placeholder-surface-400 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent transition-colors"
         />
@@ -212,7 +212,7 @@ const FEEDBACK_FAQS = [
 </Layout>
 
 <script>
-  // Handle URL param to show success state
+  // Handle URL param to show success state or client-side submit
   if (typeof window !== 'undefined') {
     const params = new URLSearchParams(window.location.search);
     if (params.get('sent') === '1') {
@@ -224,6 +224,21 @@ const FEEDBACK_FAQS = [
     const pageUrlInput = document.getElementById('page_url') as HTMLInputElement;
     if (pageUrlInput && !pageUrlInput.value) {
       pageUrlInput.value = document.referrer || '';
+    }
+
+    const form = document.getElementById('feedback-form') as HTMLFormElement;
+    if (form) {
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        const v = function (id: string) {
+          const el = form.querySelector('#' + id) as HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement;
+          return el ? el.value : '';
+        };
+        const body = 'Page URL: ' + v('page_url') + '\nType: ' + v('feedback_type') + '\nExam/Subject: ' + v('exam_subject') + '\nFrom: ' + (v('email') || 'Anonymous') + '\n\n' + v('description');
+        window.location.href = 'mailto:pushkersaini@gmail.com?subject=' + encodeURIComponent('[StudyRoadmap Feedback] ' + (v('feedback_type') || 'General')) + '&body=' + encodeURIComponent(body);
+        form.classList.add('hidden');
+        document.getElementById('feedback-success')?.classList.remove('hidden');
+      });
     }
   }
 </script>

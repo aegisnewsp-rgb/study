@@ -150,7 +150,7 @@ const exam: ExamTemplate = {
     'Application and equivalence document mistakes.'
   ],
   lastUpdated: '2026-07-28',
-  officialSource: 'https://www.ecat.gov.pk',
+  officialSource: 'https://ecat.uet.edu.pk/',
 };
 
 export default exam;

@@ -76,7 +76,7 @@ StudyRoadmap (https://studyroadmap.in) is a free, no-signup-required AI study pl
 Physics, Chemistry, Biology (Botany & Zoology), Mathematics, English, General Awareness, Quantitative Aptitude, Logical Reasoning, Legal Reasoning, Current Affairs, History, Geography, Indian Polity, Economics, Accountancy, Business Law, Computer Science, and more.
 
 ## Unique Value Propositions
-1. **Completely Free**: No signup, no fees, no premium tier, no ads
+1. **Completely Free**: No signup, no fees, no premium tier, free educational access
 2. **Instant Results**: Study plan generated in under 1 second
 3. **Privacy-First**: Everything runs in the browser, no data sent to servers
 4. **Official Syllabi**: Roadmaps based on NTA, JAMB, PMDC, WAEC official syllabi

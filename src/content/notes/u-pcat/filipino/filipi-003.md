@@ -4,14 +4,14 @@ examName: UPCAT (Philippines)
 subject: filipino
 subjectName: Filipino
 topic: filipi-003
-topicName: Topic 3
+topicName: "Kayarian ng mga Salita (Word Formation)"
 weight: 3
 country: philippines
 generated: "2026-03-25T17:00:00"
 lastUpdated: 2026-03-25
 ---
 
-# Topic 3
+# Kayarian ng mga Salita (Word Formation)
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

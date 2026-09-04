@@ -4,14 +4,14 @@ examName: UPCAT (Philippines)
 subject: filipino
 subjectName: Filipino
 topic: filipi-006
-topicName: In UPCAT Filipino, Topic 6
+topicName: Kayarian ng Pangungusap at Tayutay
 weight: 3
 country: philippines
 generated: "2026-03-25T17:00:00"
 lastUpdated: "2026-07-28"
 ---
 
-# In UPCAT Filipino, Topic 6
+# Kayarian ng Pangungusap at Tayutay
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your UPCAT Filipino subtest.

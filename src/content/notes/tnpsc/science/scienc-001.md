@@ -4,14 +4,14 @@ examName: TNPSC Group 1
 subject: science
 subjectName: Science
 topic: scienc-001
-topicName: Topic 1
+topicName: Living World and Cell Biology
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
 lastUpdated: 2026-03-25
 ---
 
-# Topic 1
+# Living World and Cell Biology
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

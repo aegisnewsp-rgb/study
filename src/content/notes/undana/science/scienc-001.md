@@ -4,14 +4,14 @@ examName: UNDANA Admission (Indonesia)
 subject: science
 subjectName: "Science (Saintek)"
 topic: scienc-001
-topicName: Topic 1
+topicName: Physics Fundamentals
 weight: 3
 country: indonesia
 generated: "2026-03-25T17:00:00"
 lastUpdated: 2026-03-25
 ---
 
-# Topic 1
+# Physics Fundamentals
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

@@ -12,8 +12,10 @@ import { isGoodNote, isIndexableExamHub } from '../data/note-quality';
 // Only show the "notes →" shortcut for exams whose notes hub both exists
 // (≥1 good note — all-bad hubs 404) and is indexable — linking noindexed
 // hubs from this indexed page would leak follow-links (2026-07-04 audit).
+const allNotesList = await getCollection('notes');
+const validNoteIdSet = new Set(allNotesList.filter(isGoodNote).map(n => n.id));
 const goodNotesByExam = new Map<string, number>();
-for (const n of await getCollection('notes')) {
+for (const n of allNotesList) {
   const examId = n.id.split('/')[0];
   if (isGoodNote(n)) goodNotesByExam.set(examId, (goodNotesByExam.get(examId) || 0) + 1);
 }
@@ -147,6 +149,10 @@ for (const dir of ROADMAP_DATA_DIRS) {
 }
 
 function slimDurationPayload(e: any) {
+  const subjectIdByName: Record<string, string> = {};
+  for (const s of (e.subjects || [])) {
+    if (s?.name && s?.id) subjectIdByName[s.name] = s.id;
+  }
   return {
     examId: e.examId,
     examName: e.examName,
@@ -156,9 +162,22 @@ function slimDurationPayload(e: any) {
       duration: k,
       description: d.description,
       totalDays: d.totalDays,
-      dailyTopics: (d.dailyTopics || []).map((t: any) => ({
-        id: t.id, name: t.name, subject: t.subject, weight: t.weight,
-      })),
+      dailyTopics: (d.dailyTopics || []).map((t: any) => {
+        const sid = subjectIdByName[t.subject] || String(t.subject || '').toLowerCase().replace(/\s+/g, '-');
+        let notePath: string | null = null;
+        const directId = `${e.examId}/${sid}/${t.id}`;
+        if (validNoteIdSet.has(directId)) {
+          notePath = `/notes/${directId}/`;
+        }
+        return {
+          id: t.id,
+          name: t.name,
+          subject: t.subject,
+          weight: t.weight,
+          hasNote: Boolean(notePath),
+          notePath,
+        };
+      }),
     }])),
   };
 }
@@ -350,7 +369,14 @@ const SLIM_EXAMS = CATALOG_EXAMS;
 
           var summary = document.createElement('summary');
           summary.className = 'flex items-center justify-between gap-4 px-5 py-4 cursor-pointer list-none font-medium text-surface-800 dark:text-surface-100 hover:bg-surface-100 dark:hover:bg-surface-800 transition-colors';
-          summary.innerHTML = '<span>' + faq.question + '</span><span class="text-surface-400 group-open:rotate-45 transition-transform">+</span>';
+          var qSpan = document.createElement('span');
+          qSpan.textContent = faq.question;
+          var plusSpan = document.createElement('span');
+          plusSpan.setAttribute('aria-hidden', 'true');
+          plusSpan.className = 'text-surface-400 group-open:rotate-45 transition-transform';
+          plusSpan.textContent = '+';
+          summary.appendChild(qSpan);
+          summary.appendChild(plusSpan);
 
           var answer = document.createElement('div');
           answer.className = 'px-5 pb-4 text-sm text-surface-600 dark:text-surface-300 leading-relaxed border-t border-surface-100 dark:border-surface-800 pt-3';

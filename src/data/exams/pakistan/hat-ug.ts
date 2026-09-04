@@ -142,7 +142,7 @@ const exam: ExamTemplate = {
     'Missing score-reporting deadlines for target universities.'
   ],
   lastUpdated: '2026-07-28',
-  officialSource: 'https://www.hec.edu.pk',
+  officialSource: 'https://hec.gov.pk',
 };
 
 export default exam;

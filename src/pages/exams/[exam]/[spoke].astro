@@ -136,7 +136,7 @@ const overviewBlurb = (exam.description || '').trim()
   || `${examName} is a competitive examination taken by students in ${countryLabel}. This page focuses on the ${spoke} details you need to plan applications and preparation without fluff.`;
 ---
 
-<Layout title={title} description={description} robots={spokeRobots}>
+<Layout title={title} description={description} canonical={canonicalUrl} robots={spokeRobots}>
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
   <Navbar />
   <main id="main-content" class="flex-1">

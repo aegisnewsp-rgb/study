@@ -139,6 +139,6 @@ const exam: ExamTemplate = {
   durations,
   rescueMode,
   lastUpdated: '2026-07-28',
-  officialSource: 'https://ssc.nic.in',
+  officialSource: 'https://ssc.gov.in',
 };
 export default exam;

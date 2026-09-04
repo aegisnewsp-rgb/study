@@ -186,7 +186,17 @@ const articleJsonLd = {
 };
 ---
 
-<Layout title={title} description={description} canonical={canonicalUrl} image={ogImage} author={authorObj} robots={robotsDirective}>
+<Layout
+  title={title}
+  description={description}
+  canonical={canonicalUrl}
+  image={ogImage}
+  author={authorObj}
+  robots={robotsDirective}
+  pageType="article"
+  publishedDate={datePublishedISO}
+  modifiedDate={lastModifiedISO}
+>
   <script type="application/ld+json" set:html={JSON.stringify(articleJsonLd)} />
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
 
@@ -251,14 +261,14 @@ const articleJsonLd = {
             <span>{weight}% exam weight</span>
           </div>
           <!-- Tier selector -->
-          <div class="not-prose mb-6 p-1 bg-surface-100 dark:bg-surface-800 rounded-xl inline-flex gap-0.5 min-w-[28rem] max-w-full" id="tier-selector" role="group" aria-label="Study depth selector">
-            <button id="btn-lite" onclick="switchTier('lite')" class="tier-btn px-4 py-2 text-sm font-medium rounded-lg transition-all duration-200" data-tier="lite">
+          <div class="not-prose mb-6 p-1 bg-surface-100 dark:bg-surface-800 rounded-xl flex sm:inline-flex flex-wrap sm:flex-nowrap gap-0.5 w-full sm:w-auto" id="tier-selector" role="tablist" aria-label="Study depth selector">
+            <button type="button" role="tab" id="btn-lite" onclick="switchTier('lite')" class="tier-btn flex-1 sm:flex-initial px-3 sm:px-4 py-2 text-xs sm:text-sm font-medium rounded-lg transition-all duration-200" data-tier="lite" aria-selected="false">
               🟢 Quick (1h–1d)
             </button>
-            <button id="btn-standard" onclick="switchTier('standard')" class="tier-btn px-4 py-2 text-sm font-medium rounded-lg transition-all duration-200" data-tier="standard">
+            <button type="button" role="tab" id="btn-standard" onclick="switchTier('standard')" class="tier-btn flex-1 sm:flex-initial px-3 sm:px-4 py-2 text-xs sm:text-sm font-medium rounded-lg transition-all duration-200" data-tier="standard" aria-selected="false">
               🟡 Standard (2d–2mo)
             </button>
-            <button id="btn-extended" onclick="switchTier('extended')" class="tier-btn px-4 py-2 text-sm font-medium rounded-lg transition-all duration-200" data-tier="extended">
+            <button type="button" role="tab" id="btn-extended" onclick="switchTier('extended')" class="tier-btn flex-1 sm:flex-initial px-3 sm:px-4 py-2 text-xs sm:text-sm font-medium rounded-lg transition-all duration-200" data-tier="extended" aria-selected="false">
               🔴 Deep (3mo+)
             </button>
           </div>
@@ -272,8 +282,8 @@ const articleJsonLd = {
               prose-pre:bg-surface-100 dark:prose-pre:bg-surface-900
               prose-table:text-sm
               prose-th:bg-surface-100 dark:prose-th:bg-surface-800
-              prose-tr:border-surface-200 dark:prose-tr:border-surface-700"
-              id="note-content" class="tier-pending">
+              prose-tr:border-surface-200 dark:prose-tr:border-surface-700 tier-pending"
+              id="note-content">
             <Content />
             <!-- Synchronous tier hide — runs before first paint to prevent CLS
                  when initTier later collapses non-selected tier sections. -->
@@ -463,9 +473,13 @@ const articleJsonLd = {
               // Update active button to the tier actually being shown
               document.querySelectorAll('.tier-btn').forEach(function(btn) {
                 btn.classList.remove('active');
+                btn.setAttribute('aria-selected', 'false');
               });
               var activeBtn = document.getElementById('btn-' + tier);
-              if (activeBtn) activeBtn.classList.add('active');
+              if (activeBtn) {
+                activeBtn.classList.add('active');
+                activeBtn.setAttribute('aria-selected', 'true');
+              }
 
               // Show selected, hide others
               for (var s = 0; s < sections.length; s++) {

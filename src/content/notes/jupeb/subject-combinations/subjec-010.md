@@ -4,7 +4,7 @@ examName: JUPEB (Nigeria)
 subject: subject-combinations
 subjectName: "Subject-Combinations"
 topic: subjec-010
-topicName: Topic 10
+topicName: Direct Entry Requirements by University
 weight: 3
 country: nigeria
 generated: "2026-03-25T17:00:00"
@@ -28,21 +28,21 @@ Choosing the right JUPEB subject combination is one of the most consequential ac
 - Which subjects do you enjoy studying?
 
 ### Step 3: Research University Requirements
-Different universities have different requirements even for the same programme:
-- **Federal Universities**: Usually have stricter and more uniform requirements
-- **State Universities**: May have state-focused quotas and varying requirements
-- **Private Universities**: Often more flexible but more expensive
+Different universities enforce distinct requirements even for the same programme:
+- **Federal Universities**: Enforce strict and uniform requirements
+- **State Universities**: Maintain state-focused quotas and specific departmental criteria
+- **Private Universities**: Provide flexible admissions criteria alongside set tuition structures
 
 ## Common Mistakes to Avoid
 
 ### Mistake 1: Choosing Based on Peer Pressure
-Many students choose combinations their friends are taking without considering their own strengths and goals.
+Many students choose combinations their friends take without considering their own strengths and goals.
 
 ### Mistake 2: Ignoring University Requirements
-Some combinations that are valid for one university may not be accepted by another. Always verify requirements at your specific target university.
+Some combinations valid at one university are not accepted by another. Always verify requirements at your target university.
 
 ### Mistake 3: Prioritizing "Easier" Combinations
-Some combinations appear easier but may limit your options. A challenging combination (like PCM for Engineering) opens more doors than an easier one that limits your choices.
+Some combinations appear easier but restrict degree options. A challenging combination (like PCM for Engineering) opens more doors than a restricted set.
 
 ### Mistake 4: Not Having a Backup Plan
 If your first-choice combination doesn't get you admitted, what is your alternative? Consider flexible combinations that allow multiple pathways.

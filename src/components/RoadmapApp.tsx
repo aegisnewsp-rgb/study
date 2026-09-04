@@ -187,6 +187,8 @@ function SubjectAccordion({
   return (
     <div className="border border-surface-200 dark:border-surface-700 rounded-xl overflow-hidden">
       <button
+        id={`subject-btn-${subjectId}`}
+        aria-controls={`subject-panel-${subjectId}`}
         onClick={onToggle}
         className="w-full flex items-center justify-between px-4 py-3 bg-surface-50 dark:bg-surface-800/60 hover:bg-surface-100 dark:hover:bg-surface-800 transition-colors text-left"
         aria-expanded={isOpen}
@@ -217,8 +219,11 @@ function SubjectAccordion({
       </button>
 
       <div
+        id={`subject-panel-${subjectId}`}
+        role="region"
+        aria-labelledby={`subject-btn-${subjectId}`}
         className={`overflow-hidden transition-all duration-300 ease-in-out ${
-          isOpen ? 'max-h-[2000px] opacity-100' : 'max-h-0 opacity-0'
+          isOpen ? 'max-h-[2000px] opacity-100' : 'max-h-0 opacity-0 invisible'
         }`}
       >
         <div className="p-3 grid gap-2 grid-cols-1 sm:grid-cols-2">
@@ -249,35 +254,54 @@ function SubjectAccordion({
                 </p>
                 <span className="text-xs text-surface-400">{topic.subject}</span>
               </div>
-              {hasNotes(examId) ? (
+              {topic.notePath ? (
                 <a
-                href={`/notes/${examId}/${subjectId}/${topic.id}/?duration=${selectedDuration}`}
-                className="shrink-0 text-brand-600 dark:text-brand-400 hover:text-brand-500 dark:hover:text-brand-300 transition-colors"
-                aria-label={`Open notes for ${topic.name}`}
-                title="Open notes"
-                onClick={() => setSrTier(selectedDuration)}
-              >
-                <svg aria-hidden="true" focusable={false} className="w-4 h-4" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
-                </svg>
-              </a>
+                  href={`${topic.notePath}?duration=${selectedDuration}`}
+                  className="shrink-0 text-brand-600 dark:text-brand-400 hover:text-brand-500 dark:hover:text-brand-300 transition-colors"
+                  aria-label={`Open notes for ${topic.name}`}
+                  title="Open notes"
+                  onClick={() => setSrTier(selectedDuration)}
+                >
+                  <svg aria-hidden="true" focusable={false} className="w-4 h-4" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
+                  </svg>
+                </a>
               ) : (() => {
-                const pool = getPcmNotesPool(examId, subjectId);
-                return pool ? (
-                  <a
-                    href={`/notes/${pool.exam}/${pool.subject}/${topic.id}/?duration=${selectedDuration}`}
-                    className="shrink-0 text-brand-600 dark:text-brand-400 hover:text-brand-500 dark:hover:text-brand-300 transition-colors"
-                    aria-label={`Open notes for ${topic.name}`}
-                    title={`View ${pool.exam} ${pool.subject} notes`}
-                    onClick={() => setSrTier(selectedDuration)}
-                  >
-                    <svg aria-hidden="true" focusable={false} className="w-4 h-4" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
-                    </svg>
-                  </a>
-                ) : (
-                  <span className="sr-only">No published notes for this topic</span>
-                );
+                const pool = !hasNotes(examId) ? getPcmNotesPool(examId, subjectId) : null;
+                if (pool) {
+                  return (
+                    <a
+                      href={`/notes/${pool.exam}/${pool.subject}/${topic.id}/?duration=${selectedDuration}`}
+                      className="shrink-0 text-brand-600 dark:text-brand-400 hover:text-brand-500 dark:hover:text-brand-300 transition-colors"
+                      aria-label={`Open notes for ${topic.name}`}
+                      title={`View ${pool.exam} ${pool.subject} notes`}
+                      onClick={() => setSrTier(selectedDuration)}
+                    >
+                      <svg aria-hidden="true" focusable={false} className="w-4 h-4" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
+                      </svg>
+                    </a>
+                  );
+                }
+                if (topic.hasNote === false) {
+                  return <span className="sr-only">No published notes for this topic</span>;
+                }
+                if (hasNotes(examId)) {
+                  return (
+                    <a
+                      href={`/notes/${examId}/${subjectId}/${topic.id}/?duration=${selectedDuration}`}
+                      className="shrink-0 text-brand-600 dark:text-brand-400 hover:text-brand-500 dark:hover:text-brand-300 transition-colors"
+                      aria-label={`Open notes for ${topic.name}`}
+                      title="Open notes"
+                      onClick={() => setSrTier(selectedDuration)}
+                    >
+                      <svg aria-hidden="true" focusable={false} className="w-4 h-4" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+                        <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
+                      </svg>
+                    </a>
+                  );
+                }
+                return <span className="sr-only">No published notes for this topic</span>;
               })()}
               <WeightStars weight={topic.weight} />
             </div>
@@ -652,6 +676,13 @@ export default function RoadmapApp({ exams }: Props) {
     const topic = incomplete[0];
     if (!topic) return;
 
+    if (topic.notePath) {
+      setSrTier(selectedDuration);
+      window.location.href = `${topic.notePath}?duration=${selectedDuration}`;
+      return;
+    }
+    if (topic.hasNote === false) return;
+
     // DailyTopicItem.subject is the display name; map to subject id
     const subjectMeta =
       examSubjects.find(s => s.name === topic.subject) ??
@@ -786,12 +817,21 @@ export default function RoadmapApp({ exams }: Props) {
                 </div>
                 {/* Share button */}
                 <button
+                  type="button"
                   onClick={() => {
                     const shareUrl = `${window.location.origin}${window.location.pathname}?exam=${selectedExam}&duration=${selectedDuration}`;
-                    navigator.clipboard.writeText(shareUrl).then(() => {
-                      setCopied(true);
-                      setTimeout(() => setCopied(false), 2000);
-                    });
+                    if (navigator.clipboard && navigator.clipboard.writeText) {
+                      navigator.clipboard.writeText(shareUrl)
+                        .then(() => {
+                          setCopied(true);
+                          setTimeout(() => setCopied(false), 2000);
+                        })
+                        .catch(() => {
+                          prompt('Copy your roadmap link:', shareUrl);
+                        });
+                    } else {
+                      prompt('Copy your roadmap link:', shareUrl);
+                    }
                   }}
                   className="mt-3 inline-flex items-center gap-1.5 text-xs font-medium px-3 py-1.5 rounded-lg bg-brand-50 dark:bg-brand-900/30 border border-brand-200 dark:border-brand-800 text-brand-600 dark:text-brand-400 hover:bg-brand-100 dark:hover:bg-brand-900/50 transition-colors"
                 >

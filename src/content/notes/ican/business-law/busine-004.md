@@ -4,19 +4,19 @@ examName: ICAN (Nigeria)
 subject: business-law
 subjectName: "Business Law"
 topic: busine-004
-topicName: Key Definitions
+topicName: "Law of Agency: Authority, Duties, and Rights"
 weight: 3
 country: nigeria
 generated: "2026-03-25T17:00:00"
 lastUpdated: "2026-07-25"
 ---
 
-# Key Definitions
+# Law of Agency: Authority, Duties, and Rights
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Topic 4** covers the law of agency in Nigeria. Agency is a relationship that allows one person (the agent) to create legal relations between another person (the principal) and third parties. Agency is commercially vital — every company director, employee, agent, and broker acts as an agent. Understanding agency is essential for accountants advising on who is liable in commercial transactions.
+**The Law of Agency** in Nigeria governs the relationship between principal, agent, and third parties in commercial transactions. Agency allows one person (the agent) to create binding legal relations between another person (the principal) and third parties. Agency is commercially vital — every company director, employee, agent, and broker acts as an agent. Understanding agency is essential for accountants advising on commercial liabilities.
 
 **Key Definitions:**
 - **Agent:** A person authorised to act on behalf of another

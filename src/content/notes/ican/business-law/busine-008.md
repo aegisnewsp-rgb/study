@@ -16,7 +16,7 @@ lastUpdated: "2026-07-25"
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Topic 8** covers insurance law and the law of banking as applied in Nigeria. These two areas of commercial law are critically important for accountants — insurance protects businesses against risk, and banking provides the payment systems and credit facilities that underpin commercial activity. Understanding the rights and obligations of insurers, insured parties, banks, and customers is essential for professional practice.
+**Insurance Law and Banking** in Nigeria cover two critically important commercial domains for accountants — insurance protects enterprises against insurable risks, while banking provides payment systems and credit facilities that underpin commercial activity. Understanding the rights and obligations of insurers, insured parties, banks, and customers is essential for professional ICAN practice.
 
 **Insurance Law — Key Principles:**
 

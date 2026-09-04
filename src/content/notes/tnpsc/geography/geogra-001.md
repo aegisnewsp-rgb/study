@@ -16,7 +16,7 @@ lastUpdated: "2026-07-25"
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-- **Physical Geography** covers four spheres: **lithosphere** (solid Earth), **hydrosphere** (water), **atmosphere** (air), and **biosphere** (life).
+- **Earth's Interior and the Lithosphere** in physical geography encompasses four primary planetary spheres: the solid **lithosphere**, the **hydrosphere** (water), the **atmosphere** (air), and the **biosphere** (living organisms).
 - Earth's surface area **A = 4πR² ≈ 510.1 million km²**, where land covers ~29.2% and water ~70.8%.
 - **Solar constant S ≈ 1361 W/m²** — mean insolation at the top of the atmosphere, perpendicular to the solar beam.
 - **Coriolis acceleration a = 2Ωv sin(φ)** (Ω = 7.292×10⁻⁵ rad/s) deflects winds **right in the Northern Hemisphere** and **left in the Southern Hemisphere**.

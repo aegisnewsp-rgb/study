@@ -4,19 +4,19 @@ examName: UPPSC RO/ARO
 subject: general-studies
 subjectName: "General-Studies"
 topic: genera-015
-topicName: Salient Features of the Constitution (2)
+topicName: "Indian Polity and Governance: Constitutional Architecture"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
 lastUpdated: "2026-07-25"
 ---
 
-# Salient Features of the Constitution (2)
+# Indian Polity and Governance: Constitutional Architecture
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Topic 15** covers the **Indian Polity and Governance** portion of UPPSC RO/ARO General Studies: the constitutional architecture under which a Reviewing Officer (RO) or Assistant Reviewing Officer (ARO) actually functions. The constitutional kernel sits in **Parts III** (Fundamental Rights, **Articles 12–35**), **Part IV** (Directive Principles, **Articles 36–51**), and **Part IVA** (Fundamental Duties, **Article 51A**, inserted by the **42nd Amendment, 1976**). Federalism rests on the **7th Schedule** with its Union, State and Concurrent Lists. Key institutions to memorise with article numbers: **CAG (148)**, **UPSC (315)**, **Election Commission (324)**, **Finance Commission (280)**, and the **NITI Aayog** (which replaced the Planning Commission on **1 January 2015**). Two doctrines are repeatedly tested: the **basic structure doctrine** in **Kesavananda Bharati v. State of Kerala (1973)** and the **anti-defection law** in the **10th Schedule (52nd Amendment, 1985)**. Writs — **Habeas Corpus, Mandamus, Prohibition, Certiorari, Quo Warranto** — under **Article 32/226** are frequent one-liners.
+**Indian Polity and Governance** in UPPSC RO/ARO General Studies covers the core constitutional architecture under which a Reviewing Officer (RO) or Assistant Reviewing Officer (ARO) functions. The constitutional kernel sits in **Parts III** (Fundamental Rights, **Articles 12–35**), **Part IV** (Directive Principles, **Articles 36–51**), and **Part IVA** (Fundamental Duties, **Article 51A**, inserted by the **42nd Amendment, 1976**). Federalism rests on the **7th Schedule** with its Union, State and Concurrent Lists. Key institutions to memorise with article numbers: **CAG (148)**, **UPSC (315)**, **Election Commission (324)**, **Finance Commission (280)**, and the **NITI Aayog** (which replaced the Planning Commission on **1 January 2015**). Two doctrines are repeatedly tested: the **basic structure doctrine** in **Kesavananda Bharati v. State of Kerala (1973)** and the **anti-defection law** in the **10th Schedule (52nd Amendment, 1985)**. Writs — **Habeas Corpus, Mandamus, Prohibition, Certiorari, Quo Warranto** — under **Article 32/226** are frequent one-liners.
 
 ---
 

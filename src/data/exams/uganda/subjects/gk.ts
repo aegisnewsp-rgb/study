@@ -1,8 +1,8 @@
 export const gk: Subject = {
   id: 'gk', name: 'Gk', color: '#6b7280',
   topics: [
-    { id: 'gk-001', name: 'Topic 1', weight: 3 as const },
-    { id: 'gk-002', name: 'Topic 2', weight: 3 as const },
+    { id: 'gk-001', name: 'Constitutional Supremacy and Sources of Law', weight: 3 as const },
+    { id: 'gk-002', name: 'Constitutional History of Uganda', weight: 3 as const },
     { id: 'gk-003', name: 'The Constitution of Uganda (1995)', weight: 3 as const },
     { id: 'gk-004', name: 'The Republic of Uganda', weight: 3 as const },
     { id: 'gk-005', name: 'Uganda\'s Legal System and Court Structure', weight: 3 as const },

@@ -10,6 +10,6 @@ export const science: Subject = {
     { id: 'scienc-007', name: 'Light, Sound, and Heat', weight: 3 as const, description: 'Biology — Human Body Systems: Circulatory, respiratory, digestive, nervous, skeletal-muscular, and excretory systems — anatomy and physiology for upper primary science.' },
     { id: 'scienc-008', name: 'Natural Resources and Environment', weight: 3 as const, description: 'Biology — Health and Disease: Communicable and non-communicable diseases, immunity, nutrition, hygiene, and government health programs — health education component.' },
     { id: 'scienc-009', name: 'Topic 9', weight: 3 as const, description: 'Biology — Environment and Ecology: Ecosystems, food chains and webs, biodiversity, conservation, pollution, and environmental degradation — increasingly important in science curriculum.' },
-    { id: 'scienc-010', name: 'Topic 10', weight: 3 as const, description: 'Science Pedagogy: Constructivist approach to science teaching, activity-based learning, misconceptions in science, and evaluation methods — pedagogical understanding for science teachers.' }
+    { id: 'scienc-010', name: 'Topic 10 of TNPSC Group 1 Science', weight: 3 as const, description: 'Science Pedagogy: Constructivist approach to science teaching, activity-based learning, misconceptions in science, and evaluation methods — pedagogical understanding for science teachers.' }
   ]
 };

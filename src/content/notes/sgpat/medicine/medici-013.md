@@ -16,7 +16,7 @@ lastUpdated: "2026-07-25"
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Topic 13** covers clinical documentation and medical terminology for Saudi primary care: the **SOAP note** (Subjective, Objective, Assessment, Plan), **ICD-10 morbidity coding** required by the Saudi Health Council, and standard **medical term construction** (prefix + root + suffix ± combining vowel).
+**SOAP Note Structure and Documentation** in Saudi primary care covers clinical documentation and medical terminology: the **SOAP note** (Subjective, Objective, Assessment, Plan), **ICD-10 morbidity coding** required by the Saudi Health Council, and standard **medical term construction** (prefix + root + suffix ± combining vowel).
 
 - **SOAP order** is fixed: patient's words → measured findings → prioritized differential → actionable plan.
 - **Signs** belong in Objective; **symptoms** belong in Subjective — never swap them.

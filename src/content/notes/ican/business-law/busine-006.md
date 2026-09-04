@@ -16,7 +16,7 @@ lastUpdated: "2026-07-25"
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Topic 6** covers partnership law under the Partnership Act 1890 (as applicable in Nigeria) and the key provisions of CAMA 2020 governing business organisations. Understanding the distinction between different business structures — sole proprietorship, partnership, and company — is fundamental for advising clients on the appropriate form of business organisation.
+**Forms of Business Organisation** in Nigerian commercial practice cover partnership law under the Partnership Act 1890 (as applicable in Nigeria) and key corporate provisions of CAMA 2020. Understanding the distinction between different business structures — sole proprietorship, partnership, and company — is fundamental for advising clients on the appropriate form of business organisation.
 
 **Forms of Business Organisation:**
 

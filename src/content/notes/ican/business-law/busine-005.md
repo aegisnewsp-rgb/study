@@ -4,19 +4,19 @@ examName: ICAN (Nigeria)
 subject: business-law
 subjectName: "Business Law"
 topic: busine-005
-topicName: Key Definitions (2)
+topicName: "Law of Sale of Goods: Formation, Terms, and Remedies"
 weight: 3
 country: nigeria
 generated: "2026-03-25T17:00:00"
 lastUpdated: "2026-07-25"
 ---
 
-# Key Definitions (2)
+# Law of Sale of Goods: Formation, Terms, and Remedies
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Topic 5** covers the law of sale of goods in Nigeria. The Sale of Goods Act 1893 (as amended) governs contracts for the sale of goods. The seller transfers or agrees to transfer ownership of goods to the buyer for a money consideration called the price. The Act provides implied terms, rules on transfer of title, and remedies for breach — all essential for commercial practice.
+**The Law of Sale of Goods** in Nigeria is governed by the Sale of Goods Act 1893 (as amended) and regulates commercial contracts for the transfer of property in goods. The seller transfers or agrees to transfer ownership of goods to the buyer for a money consideration called the price. The Act provides implied terms, rules on transfer of title, and remedies for breach — all essential for commercial practice.
 
 **Key Definitions:**
 - **Goods:** All chattels personal (movable property), including things attached to or forming part of the land only if severed under a contract of sale

@@ -4,19 +4,19 @@ examName: ICAN (Nigeria)
 subject: business-law
 subjectName: "Business Law"
 topic: busine-007
-topicName: Key Definitions (3)
+topicName: "Law of Negotiable Instruments: Bills, Notes, and Cheques"
 weight: 3
 country: nigeria
 generated: "2026-03-25T17:00:00"
 lastUpdated: "2026-07-25"
 ---
 
-# Key Definitions (3)
+# Law of Negotiable Instruments: Bills, Notes, and Cheques
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Topic 7** covers the law of negotiable instruments — bills of exchange, promissory notes, and cheques — which are essential instruments of commerce that facilitate credit and payment transactions. Nigerian law on negotiable instruments derives from the Bills of Exchange Act 1877 (as amended) and the Cheques Act 1965, which apply the English common law principles to Nigeria.
+**The Law of Negotiable Instruments** in Nigeria governs bills of exchange, promissory notes, and cheques — essential instruments of commerce that facilitate credit and payment transactions. Nigerian law on negotiable instruments derives from the Bills of Exchange Act 1877 (as amended) and the Cheques Act 1965, which apply English common law commercial principles to Nigeria.
 
 **Key Definitions:**
 - **Bill of Exchange:** An unconditional order in writing addressed by one person to another, signed by the person giving it, requiring the person to whom it is addressed to pay on demand or at a fixed or determinable future time a sum certain in money to or to the order of a specified person, or to bearer

@@ -4,14 +4,14 @@ examName: UI Entrance (Indonesia)
 subject: subject-knowledge
 subjectName: Subject Knowledge
 topic: subjec-013
-topicName: What Topic 13 actually measures
+topicName: "Pengetahuan Bidang Studi (Subject Knowledge Clusters)"
 weight: 3
 country: indonesia
 generated: "2026-03-25T17:00:00"
 lastUpdated: "2026-07-25"
 ---
 
-# What Topic 13 actually measures
+# Pengetahuan Bidang Studi (Subject Knowledge Clusters)
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

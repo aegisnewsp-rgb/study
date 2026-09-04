@@ -1,5 +1,6 @@
 import { useState, useMemo, useEffect, useRef } from 'react';
 import type { ExamTemplate, DailyTopicItem, RoadmapTemplate } from '../data/exams';
+import { getPcmNotesPool } from '../data/notes-pool';
 
 /** Canonical progress IDs are topic slugs (e.g. phy-001), never full paths. */
 function normalizeTopicId(id: string): string {
@@ -38,35 +39,6 @@ const NOTES_PENDING_EXAMS = new Set([
 
 function hasNotes(examId: string): boolean {
   return !NOTES_PENDING_EXAMS.has(examId.toLowerCase());
-}
-
-// PCM exam → existing notes pool routing
-// Maps PCM exam ID → subject ID → notes pool (exam ID) to use
-const PCM_EXAM_SUBJECT_ROUTING: Record<string, Record<string, string>> = {
-  bitsat:    { physics: 'neet', mathematics: 'jeeadvanced', chemistry: 'jeemain' },
-  viteee:    { physics: 'neet', mathematics: 'jeeadvanced', chemistry: 'jeemain' },
-  'mht-cet': { physics: 'neet', mathematics: 'jeeadvanced', chemistry: 'jeemain' },
-  kcet:      { physics: 'neet', mathematics: 'jeeadvanced', chemistry: 'jeemain', biology: 'neet' },
-  wbjee:     { physics: 'neet', mathematics: 'jeeadvanced', chemistry: 'jeemain', biology: 'neet' },
-  comedk:    { physics: 'neet', mathematics: 'jeeadvanced', chemistry: 'jeemain' },
-  keam:      { physics: 'neet', mathematics: 'jeeadvanced', chemistry: 'jeemain' },
-  gujcet:    { physics: 'neet', mathematics: 'jeeadvanced', chemistry: 'jeemain' },
-  upsee:     { physics: 'neet', mathematics: 'jeeadvanced', chemistry: 'jeemain' },
-  'ap-eapcet': { physics: 'neet', mathematics: 'jeeadvanced', chemistry: 'jeemain' },
-  'ts-eapcet': { physics: 'neet', mathematics: 'jeeadvanced', chemistry: 'jeemain' },
-  aimer:     { physics: 'neet', biology: 'neet', chemistry: 'jeemain' },
-  aims:      { physics: 'neet', biology: 'neet', chemistry: 'jeemain' },
-  'aiims-mbbs': { physics: 'neet', biology: 'neet', chemistry: 'jeemain' },
-  'aiims-bds':  { physics: 'neet', biology: 'neet', chemistry: 'jeemain' },
-};
-
-// Returns {notesExamId, notesSubjectId} for a PCM exam topic, or null if not routable
-function getPcmNotesPool(examId: string, subjectId: string): { exam: string; subject: string } | null {
-  const examRouting = PCM_EXAM_SUBJECT_ROUTING[examId.toLowerCase()];
-  if (!examRouting) return null;
-  const pool = examRouting[subjectId.toLowerCase()];
-  if (!pool) return null;
-  return { exam: pool, subject: subjectId };
 }
 
 interface Props {
@@ -187,6 +159,7 @@ function SubjectAccordion({
   return (
     <div className="border border-surface-200 dark:border-surface-700 rounded-xl overflow-hidden">
       <button
+        type="button"
         id={`subject-btn-${subjectId}`}
         aria-controls={`subject-panel-${subjectId}`}
         onClick={onToggle}
@@ -254,54 +227,30 @@ function SubjectAccordion({
                 </p>
                 <span className="text-xs text-surface-400">{topic.subject}</span>
               </div>
-              {topic.notePath ? (
-                <a
-                  href={`${topic.notePath}?duration=${selectedDuration}`}
-                  className="shrink-0 text-brand-600 dark:text-brand-400 hover:text-brand-500 dark:hover:text-brand-300 transition-colors"
-                  aria-label={`Open notes for ${topic.name}`}
-                  title="Open notes"
-                  onClick={() => setSrTier(selectedDuration)}
-                >
-                  <svg aria-hidden="true" focusable={false} className="w-4 h-4" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
-                  </svg>
-                </a>
-              ) : (() => {
-                const pool = !hasNotes(examId) ? getPcmNotesPool(examId, subjectId) : null;
-                if (pool) {
-                  return (
-                    <a
-                      href={`/notes/${pool.exam}/${pool.subject}/${topic.id}/?duration=${selectedDuration}`}
-                      className="shrink-0 text-brand-600 dark:text-brand-400 hover:text-brand-500 dark:hover:text-brand-300 transition-colors"
-                      aria-label={`Open notes for ${topic.name}`}
-                      title={`View ${pool.exam} ${pool.subject} notes`}
-                      onClick={() => setSrTier(selectedDuration)}
-                    >
-                      <svg aria-hidden="true" focusable={false} className="w-4 h-4" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
-                      </svg>
-                    </a>
-                  );
+              {(() => {
+                let noteUrl = topic.notePath;
+                if (!noteUrl) {
+                  const pool = getPcmNotesPool(examId, subjectId);
+                  if (pool) {
+                    noteUrl = `/notes/${pool.exam}/${pool.subject}/${topic.id}/`;
+                  }
                 }
-                if (topic.hasNote === false) {
+                if (!noteUrl) {
                   return <span className="sr-only">No published notes for this topic</span>;
                 }
-                if (hasNotes(examId)) {
-                  return (
-                    <a
-                      href={`/notes/${examId}/${subjectId}/${topic.id}/?duration=${selectedDuration}`}
-                      className="shrink-0 text-brand-600 dark:text-brand-400 hover:text-brand-500 dark:hover:text-brand-300 transition-colors"
-                      aria-label={`Open notes for ${topic.name}`}
-                      title="Open notes"
-                      onClick={() => setSrTier(selectedDuration)}
-                    >
-                      <svg aria-hidden="true" focusable={false} className="w-4 h-4" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
-                      </svg>
-                    </a>
-                  );
-                }
-                return <span className="sr-only">No published notes for this topic</span>;
+                return (
+                  <a
+                    href={`${noteUrl}?duration=${selectedDuration}`}
+                    className="shrink-0 text-brand-600 dark:text-brand-400 hover:text-brand-500 dark:hover:text-brand-300 transition-colors"
+                    aria-label={`Open notes for ${topic.name}`}
+                    title="Open notes"
+                    onClick={() => setSrTier(selectedDuration)}
+                  >
+                    <svg aria-hidden="true" focusable={false} className="w-4 h-4" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
+                    </svg>
+                  </a>
+                );
               })()}
               <WeightStars weight={topic.weight} />
             </div>
@@ -670,37 +619,31 @@ export default function RoadmapApp({ exams }: Props) {
 
   const studyNextIncomplete = () => {
     if (!roadmap || !selectedExam) return;
-    const incomplete = roadmap.dailyTopics
+    const candidates = roadmap.dailyTopics
       .filter(t => !topicDone(completedTopics, t.id))
       .sort((a, b) => b.weight - a.weight);
-    const topic = incomplete[0];
-    if (!topic) return;
 
-    if (topic.notePath) {
-      setSrTier(selectedDuration);
-      window.location.href = `${topic.notePath}?duration=${selectedDuration}`;
-      return;
-    }
-    if (topic.hasNote === false) return;
+    for (const topic of candidates) {
+      if (topic.notePath) {
+        setSrTier(selectedDuration);
+        window.location.href = `${topic.notePath}?duration=${selectedDuration}`;
+        return;
+      }
+      if (topic.hasNote === false) continue;
 
-    // DailyTopicItem.subject is the display name; map to subject id
-    const subjectMeta =
-      examSubjects.find(s => s.name === topic.subject) ??
-      selectedExamData?.subjects?.find(s => s.name === topic.subject || s.id === topic.subject);
-    const subjectId = subjectMeta?.id;
-    if (!subjectId) return;
+      const subjectMeta =
+        examSubjects.find(s => s.name === topic.subject) ??
+        selectedExamData?.subjects?.find(s => s.name === topic.subject || s.id === topic.subject);
+      const subjectId = subjectMeta?.id;
+      if (!subjectId) continue;
 
-    let notesExam = selectedExam;
-    let notesSubject = subjectId;
-    if (!hasNotes(selectedExam)) {
       const pool = getPcmNotesPool(selectedExam, subjectId);
-      if (!pool) return;
-      notesExam = pool.exam;
-      notesSubject = pool.subject;
+      if (pool) {
+        setSrTier(selectedDuration);
+        window.location.href = `/notes/${pool.exam}/${pool.subject}/${topic.id}/?duration=${selectedDuration}`;
+        return;
+      }
     }
-
-    setSrTier(selectedDuration);
-    window.location.href = `/notes/${notesExam}/${notesSubject}/${topic.id}/?duration=${selectedDuration}`;
   };
 
   const durationLabel = DURATION_OPTIONS.find(d => d.value === roadmap?.duration)?.label ?? roadmap?.duration ?? '';
@@ -873,12 +816,14 @@ export default function RoadmapApp({ exams }: Props) {
                   Study next incomplete
                 </button>
                 <button
+                  type="button"
                   onClick={openSubjects.size === examSubjects.length ? collapseAllSubjects : expandAllSubjects}
                   className="text-xs text-brand-600 dark:text-brand-400 hover:text-brand-500 transition-colors font-medium"
                 >
                   {openSubjects.size === examSubjects.length ? 'Collapse All' : 'Expand All'}
                 </button>
                 <button
+                  type="button"
                   onClick={() => window.print()}
                   className="text-xs text-surface-500 hover:text-surface-700 dark:hover:text-surface-300 transition-colors font-medium flex items-center gap-1"
                   title="Print your roadmap"

@@ -8,6 +8,7 @@ import { getCollection } from 'astro:content';
 import { ALL_EXAMS } from '../data/exams';
 import { EXAM_FAQS } from '../data/exam-faqs';
 import { isGoodNote, isIndexableExamHub } from '../data/note-quality';
+import { getPcmNotesPool } from '../data/notes-pool';
 
 // Only show the "notes →" shortcut for exams whose notes hub both exists
 // (≥1 good note — all-bad hubs 404) and is indexable — linking noindexed
@@ -157,6 +158,7 @@ function slimDurationPayload(e: any) {
     examId: e.examId,
     examName: e.examName,
     country: e.country,
+    faqs: EXAM_FAQS[e.examId] || [],
     subjects: (e.subjects || []).map((sub: any) => ({ id: sub.id, name: sub.name, color: sub.color })),
     durations: Object.fromEntries(Object.entries(e.durations || {}).map(([k, d]: [string, any]) => [k, {
       duration: k,
@@ -168,6 +170,14 @@ function slimDurationPayload(e: any) {
         const directId = `${e.examId}/${sid}/${t.id}`;
         if (validNoteIdSet.has(directId)) {
           notePath = `/notes/${directId}/`;
+        } else {
+          const pool = getPcmNotesPool(e.examId, sid);
+          if (pool) {
+            const poolId = `${pool.exam}/${pool.subject}/${t.id}`;
+            if (validNoteIdSet.has(poolId)) {
+              notePath = `/notes/${poolId}/`;
+            }
+          }
         }
         return {
           id: t.id,
@@ -279,7 +289,7 @@ const SLIM_EXAMS = CATALOG_EXAMS;
                 {exams.map(exam => (
                   <li class="flex items-center justify-between gap-2">
                     <a
-                      href={`/roadmap/?exam=${exam.examId}`}
+                      href={`/exams/${exam.examId}/`}
                       class="text-sm text-surface-600 dark:text-surface-300 hover:text-brand-600 dark:hover:text-brand-400 hover:underline flex items-center gap-1.5"
                     >
                       <span class="text-surface-400">→</span>
@@ -310,7 +320,7 @@ const SLIM_EXAMS = CATALOG_EXAMS;
         <div class="flex flex-wrap gap-2">
           {ALL_EXAMS.map(exam => (
             <a
-              href={`/roadmap/?exam=${exam.examId}`}
+              href={`/exams/${exam.examId}/`}
               class="text-sm px-3 py-1.5 bg-surface-100 dark:bg-surface-800 text-surface-700 dark:text-surface-300 rounded-full hover:bg-brand-50 dark:hover:bg-brand-950 hover:text-brand-700 dark:hover:text-brand-300 border border-surface-200 dark:border-surface-700 transition-colors"
             >
               {exam.examName}
@@ -325,117 +335,92 @@ const SLIM_EXAMS = CATALOG_EXAMS;
 
   <Footer />
 
-  <!-- Dynamic exam-specific FAQ injection -->
-  <script is:inline define:vars={{ EXAM_FAQS }}>
+  <!-- Dynamic exam-specific FAQ injection (loads on-demand from /data/roadmap/{exam}.json) -->
+  <script is:inline>
     (function () {
-      const examFaqSection = document.getElementById('exam-faq-section');
-      const examFaqList = document.getElementById('exam-faq-list');
-      const examFaqHeading = document.getElementById('exam-faq-heading');
-      let currentExam = null;
+      var examFaqSection = document.getElementById('exam-faq-section');
+      var examFaqList = document.getElementById('exam-faq-list');
+      var examFaqHeading = document.getElementById('exam-faq-heading');
+      var currentExam = null;
 
       function getExamFromUrl() {
-        const params = new URLSearchParams(window.location.search);
+        var params = new URLSearchParams(window.location.search);
         return params.get('exam') || null;
       }
 
-      function slugify(str) {
-        return str.toLowerCase().replace(/-/g, '');
-      }
-
-      function findExamKey(urlKey) {
-        if (!urlKey) return null;
-        const normalized = slugify(urlKey);
-        for (const key of Object.keys(EXAM_FAQS)) {
-          if (slugify(key) === normalized || key === urlKey) return key;
-        }
-        return null;
-      }
-
-      function renderFaqs(examKey) {
-        if (!examKey || !EXAM_FAQS[examKey]) {
-          examFaqSection.classList.add('hidden');
+      function renderFaqs(faqs, examKey) {
+        if (!faqs || !Array.isArray(faqs) || faqs.length === 0) {
+          if (examFaqSection) examFaqSection.classList.add('hidden');
           currentExam = null;
           return;
         }
 
-        const faqs = EXAM_FAQS[examKey];
-        const examName = examKey.toUpperCase();
-        examFaqHeading.textContent = '📋 ' + examName + ' FAQs';
-        examFaqList.innerHTML = '';
+        if (examFaqHeading) examFaqHeading.textContent = '📋 ' + examKey.toUpperCase() + ' FAQs';
+        if (examFaqList) {
+          examFaqList.innerHTML = '';
+          faqs.forEach(function (faq) {
+            var item = document.createElement('details');
+            item.className = 'group bg-surface-50 dark:bg-surface-900 border border-surface-200 dark:border-surface-700 rounded-lg overflow-hidden';
 
-        faqs.forEach(function (faq) {
-          var item = document.createElement('details');
-          item.className = 'group bg-surface-50 dark:bg-surface-900 border border-surface-200 dark:border-surface-700 rounded-lg overflow-hidden';
+            var summary = document.createElement('summary');
+            summary.className = 'flex items-center justify-between gap-4 px-5 py-4 cursor-pointer list-none font-medium text-surface-800 dark:text-surface-100 hover:bg-surface-100 dark:hover:bg-surface-800 transition-colors';
+            var qSpan = document.createElement('span');
+            qSpan.textContent = faq.question;
+            var plusSpan = document.createElement('span');
+            plusSpan.setAttribute('aria-hidden', 'true');
+            plusSpan.className = 'text-surface-400 group-open:rotate-45 transition-transform';
+            plusSpan.textContent = '+';
+            summary.appendChild(qSpan);
+            summary.appendChild(plusSpan);
 
-          var summary = document.createElement('summary');
-          summary.className = 'flex items-center justify-between gap-4 px-5 py-4 cursor-pointer list-none font-medium text-surface-800 dark:text-surface-100 hover:bg-surface-100 dark:hover:bg-surface-800 transition-colors';
-          var qSpan = document.createElement('span');
-          qSpan.textContent = faq.question;
-          var plusSpan = document.createElement('span');
-          plusSpan.setAttribute('aria-hidden', 'true');
-          plusSpan.className = 'text-surface-400 group-open:rotate-45 transition-transform';
-          plusSpan.textContent = '+';
-          summary.appendChild(qSpan);
-          summary.appendChild(plusSpan);
+            var answer = document.createElement('div');
+            answer.className = 'px-5 pb-4 text-sm text-surface-600 dark:text-surface-300 leading-relaxed border-t border-surface-100 dark:border-surface-800 pt-3';
+            answer.textContent = faq.answer;
 
-          var answer = document.createElement('div');
-          answer.className = 'px-5 pb-4 text-sm text-surface-600 dark:text-surface-300 leading-relaxed border-t border-surface-100 dark:border-surface-800 pt-3';
-          answer.textContent = faq.answer;
+            item.appendChild(summary);
+            item.appendChild(answer);
+            examFaqList.appendChild(item);
+          });
+        }
 
-          item.appendChild(summary);
-          item.appendChild(answer);
-          examFaqList.appendChild(item);
-        });
-
-        examFaqSection.classList.remove('hidden');
+        if (examFaqSection) examFaqSection.classList.remove('hidden');
         currentExam = examKey;
       }
 
-      function updateJsonLd(examKey) {
-        // Remove existing exam-specific FAQPage JSON-LD
-        var existing = document.getElementById('exam-specific-faq-jsonld');
-        if (existing) existing.remove();
-
-        if (!examKey || !EXAM_FAQS[examKey]) return;
-
-        var script = document.createElement('script');
-        script.id = 'exam-specific-faq-jsonld';
-        script.type = 'application/ld+json';
-        script.textContent = JSON.stringify({
-          '@context': 'https://schema.org',
-          '@type': 'FAQPage',
-          mainEntity: EXAM_FAQS[examKey].map(function (f) {
-            return {
-              '@type': 'Question',
-              name: f.question,
-              acceptedAnswer: { '@type': 'Answer', text: f.answer },
-            };
-          }),
-        });
-        document.head.appendChild(script);
-      }
-
       function onExamChange() {
-        var examKey = findExamKey(getExamFromUrl());
-        if (examKey !== currentExam) {
-          renderFaqs(examKey);
-          updateJsonLd(examKey);
+        var examKey = getExamFromUrl();
+        if (!examKey) {
+          if (examFaqSection) examFaqSection.classList.add('hidden');
+          currentExam = null;
+          return;
+        }
+        var normalizedKey = examKey.toLowerCase().trim();
+        if (normalizedKey !== currentExam) {
+          fetch('/data/roadmap/' + encodeURIComponent(normalizedKey) + '.json')
+            .then(function (res) { return res.ok ? res.json() : null; })
+            .then(function (data) {
+              if (data && data.faqs && data.faqs.length > 0) {
+                renderFaqs(data.faqs, normalizedKey);
+              } else if (examFaqSection) {
+                examFaqSection.classList.add('hidden');
+              }
+            })
+            .catch(function () {
+              if (examFaqSection) examFaqSection.classList.add('hidden');
+            });
         }
       }
 
-      // Initial load
       onExamChange();
 
-      // React router may update URL without page reload
       var lastUrl = window.location.href;
-      var pollInterval = setInterval(function () {
+      setInterval(function () {
         if (window.location.href !== lastUrl) {
           lastUrl = window.location.href;
           onExamChange();
         }
       }, 500);
 
-      // Also handle browser back/forward
       window.addEventListener('popstate', function () {
         lastUrl = window.location.href;
         onExamChange();

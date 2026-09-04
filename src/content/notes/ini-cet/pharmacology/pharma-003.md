@@ -4,14 +4,14 @@ examName: INI CET (AIIMS PG)
 subject: pharmacology
 subjectName: "Pharmacology"
 topic: pharma-003
-topicName: Pharmacology Topic 3
+topicName: "Pharmacodynamics and Receptor Mechanisms"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
 lastUpdated: "2026-07-25"
 ---
 
-# Pharmacology Topic 3
+# Pharmacodynamics and Receptor Mechanisms
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

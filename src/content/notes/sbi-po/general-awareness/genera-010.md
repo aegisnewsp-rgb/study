@@ -4,14 +4,14 @@ examName: SBI PO
 subject: general-awareness
 subjectName: "General Awareness"
 topic: genera-010
-topicName: "General Awareness — Topic 10"
+topicName: "Banking and Financial Awareness"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
 lastUpdated: "2026-07-28"
 ---
 
-# General Awareness — Topic 10
+# Banking and Financial Awareness
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.

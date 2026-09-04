@@ -541,6 +541,16 @@ const discontinuedNotice = DISCONTINUED_EXAMS[exam.examId];
             <p class="mt-3 text-sm">
               <a href={`/roadmap/?exam=${exam.examId}`} class="text-brand-600 dark:text-brand-400 hover:underline font-medium">Generate a free day-by-day {examName} roadmap →</a>
             </p>
+            {exam.examId === 'jeemain' && (
+              <p class="mt-2 text-sm">
+                <a href="/exams/jeemain/dropper-roadmap/" class="text-brand-600 dark:text-brand-400 hover:underline font-medium">Read the dedicated JEE Main Dropper Preparation Roadmap →</a>
+              </p>
+            )}
+            {exam.examId === 'neet' && (
+              <p class="mt-2 text-sm">
+                <a href="/exams/neet-strategy/" class="text-brand-600 dark:text-brand-400 hover:underline font-medium">Read the full NEET Preparation Strategy &amp; Topic Weightage Guide →</a>
+              </p>
+            )}
           </div>
         )}
         {commonMistakes.length > 0 && (

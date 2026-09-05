@@ -165,5 +165,14 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://jeeadv.ac.in',
+  historicalCutoffs: [
+    { year: 2024, categoryOrStream: 'Common Rank List (CRL) Minimum Aggregate', scoreOrRank: '109 / 360 (30.34%)', remarks: 'IIT Madras official results cutoff' },
+    { year: 2024, categoryOrStream: 'OBC-NCL / Gen-EWS Minimum Aggregate', scoreOrRank: '98 / 360 (27.22%)', remarks: 'IIT Madras official results cutoff' },
+    { year: 2024, categoryOrStream: 'SC / ST Minimum Aggregate', scoreOrRank: '54 / 360 (15.00%)', remarks: 'IIT Madras official results cutoff' },
+    { year: 2024, categoryOrStream: 'IIT Bombay Computer Science & Eng (B.Tech)', scoreOrRank: 'Closing Rank: AIR 68', remarks: 'JoSAA Round 5 Open Seat Allocation' },
+    { year: 2024, categoryOrStream: 'IIT Delhi Computer Science & Eng (B.Tech)', scoreOrRank: 'Closing Rank: AIR 116', remarks: 'JoSAA Round 5 Open Seat Allocation' },
+    { year: 2023, categoryOrStream: 'Common Rank List (CRL) Minimum Aggregate', scoreOrRank: '86 / 360 (23.89%)', remarks: 'IIT Guwahati official results cutoff' },
+    { year: 2023, categoryOrStream: 'OBC-NCL / Gen-EWS Minimum Aggregate', scoreOrRank: '77 / 360 (21.39%)', remarks: 'IIT Guwahati official results cutoff' },
+  ],
 };
 export default exam;

@@ -249,8 +249,29 @@ const SLIM_EXAMS = CATALOG_EXAMS;
       </div>
     </section>
 
-    <!-- React island: all interactivity lives here -->
-    <RoadmapApp exams={SLIM_EXAMS as any} client:only="react" />
+    <!-- React island: wrapped with reserved min-height and fallback skeleton to eliminate Cumulative Layout Shift (CLS) -->
+    <div class="min-h-[260px] sm:min-h-[290px]">
+      <RoadmapApp exams={SLIM_EXAMS as any} client:only="react">
+        <div slot="fallback" class="container-page py-8 sm:py-12">
+          <div class="card p-5 sm:p-6 max-w-2xl mx-auto space-y-4">
+            <div class="grid gap-4 sm:grid-cols-2">
+              <div class="space-y-1.5">
+                <span class="block text-xs font-semibold uppercase tracking-widest text-surface-500">
+                  Select Exam
+                </span>
+                <div class="w-full bg-surface-100 dark:bg-surface-800 border border-surface-200 dark:border-surface-700 rounded-xl h-10 animate-pulse"></div>
+              </div>
+              <div class="space-y-1.5">
+                <span class="block text-xs font-semibold uppercase tracking-widest text-surface-500">
+                  Study Duration
+                </span>
+                <div class="w-full bg-surface-100 dark:bg-surface-800 border border-surface-200 dark:border-surface-700 rounded-xl h-10 animate-pulse"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </RoadmapApp>
+    </div>
 
     <!-- Exam-specific FAQ section (populated by JS when exam is selected) -->
     <section id="exam-faq-section" class="hidden border-t border-surface-200 dark:border-surface-800">

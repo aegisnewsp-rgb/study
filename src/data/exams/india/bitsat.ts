@@ -64,6 +64,13 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.bits-pilani.ac.in/bitsat/',
+  historicalCutoffs: [
+    { year: 2024, categoryOrStream: 'BITS Pilani Campus — Computer Science (B.E.)', scoreOrRank: '325–330 / 390', remarks: 'Iteration 6 closing score' },
+    { year: 2024, categoryOrStream: 'BITS Goa Campus — Computer Science (B.E.)', scoreOrRank: '298–302 / 390', remarks: 'Iteration 6 closing score' },
+    { year: 2024, categoryOrStream: 'BITS Hyderabad Campus — Computer Science (B.E.)', scoreOrRank: '292–296 / 390', remarks: 'Iteration 6 closing score' },
+    { year: 2023, categoryOrStream: 'BITS Pilani Campus — Computer Science (B.E.)', scoreOrRank: '331 / 390', remarks: 'Official iteration cutoff' },
+    { year: 2023, categoryOrStream: 'BITS Pilani Campus — Electrical & Electronics', scoreOrRank: '272 / 390', remarks: 'Official iteration cutoff' },
+  ],
 };
 
 export default exam;

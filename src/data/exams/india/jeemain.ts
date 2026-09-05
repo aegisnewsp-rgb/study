@@ -173,5 +173,15 @@ const exam: ExamTemplate = {
     examDates: 'Session 1: Late January / Session 2: Early April',
     resultDate: 'February (Session 1) / Late April (Session 2)',
   },
+  historicalCutoffs: [
+    { year: 2024, categoryOrStream: 'General (UR) Qualifying for JEE Adv', scoreOrRank: '93.236 Percentile', remarks: 'NTA official qualifying cutoff' },
+    { year: 2024, categoryOrStream: 'Gen-EWS Qualifying for JEE Adv', scoreOrRank: '81.326 Percentile', remarks: 'NTA official qualifying cutoff' },
+    { year: 2024, categoryOrStream: 'OBC-NCL Qualifying for JEE Adv', scoreOrRank: '79.284 Percentile', remarks: 'NTA official qualifying cutoff' },
+    { year: 2024, categoryOrStream: 'SC Qualifying for JEE Adv', scoreOrRank: '60.092 Percentile', remarks: 'NTA official qualifying cutoff' },
+    { year: 2024, categoryOrStream: 'ST Qualifying for JEE Adv', scoreOrRank: '46.697 Percentile', remarks: 'NTA official qualifying cutoff' },
+    { year: 2024, categoryOrStream: 'Top NITs CSE (Trichy/Surathkal/Warangal)', scoreOrRank: '99.5–99.85+ Percentile', remarks: 'JoSAA Round 6 Closing Ranks (<2,000 AIR)' },
+    { year: 2023, categoryOrStream: 'General (UR) Qualifying for JEE Adv', scoreOrRank: '90.778 Percentile', remarks: 'NTA official qualifying cutoff' },
+    { year: 2023, categoryOrStream: 'OBC-NCL Qualifying for JEE Adv', scoreOrRank: '73.611 Percentile', remarks: 'NTA official qualifying cutoff' },
+  ],
 };
 export default exam;

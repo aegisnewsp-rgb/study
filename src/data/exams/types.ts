@@ -11,6 +11,13 @@ export interface RescueTemplate {
   focusAreas: RescueFocusArea[];
   strategy: string;
 }
+export interface HistoricalCutoff {
+  year: number;
+  categoryOrStream: string;
+  scoreOrRank: string;
+  remarks?: string;
+}
+
 export interface ExamTemplate {
   examId: string;
   examName: string;
@@ -36,4 +43,5 @@ export interface ExamTemplate {
     examDates?: string;
     resultDate?: string;
   };
+  historicalCutoffs?: HistoricalCutoff[];
 }

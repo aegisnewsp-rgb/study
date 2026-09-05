@@ -273,6 +273,37 @@ const overviewBlurb = (exam.description || '').trim()
             <li><strong>Mock frequency:</strong> once syllabus coverage passes ~60%, sit a timed mock every 7–10 days and log only recurring error types.</li>
           </ul>
 
+          {exam.historicalCutoffs && exam.historicalCutoffs.length > 0 && (
+            <div class="mt-8">
+              <h3 class="text-xl font-bold mb-3">{examName} Historical Cutoff Trends & Score Targets</h3>
+              <p class="text-surface-700 dark:text-surface-300 mb-4">
+                Reviewing recent qualifying percentiles, marks, and closing ranks helps set realistic score targets for your preparation. Sourced from official counselling authorities:
+              </p>
+              <div class="overflow-x-auto not-prose">
+                <table class="w-full text-sm border border-surface-200 dark:border-surface-700">
+                  <thead class="bg-surface-50 dark:bg-surface-900">
+                    <tr>
+                      <th class="p-2.5 text-left font-semibold">Year</th>
+                      <th class="p-2.5 text-left font-semibold">Category / Stream</th>
+                      <th class="p-2.5 text-left font-semibold">Qualifying Score / Closing Rank</th>
+                      <th class="p-2.5 text-left font-semibold">Authority Benchmark</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {exam.historicalCutoffs.map((item: any) => (
+                      <tr class="border-t border-surface-200 dark:border-surface-700">
+                        <td class="p-2.5 font-medium">{item.year}</td>
+                        <td class="p-2.5">{item.categoryOrStream}</td>
+                        <td class="p-2.5 font-semibold text-brand-700 dark:text-brand-300">{item.scoreOrRank}</td>
+                        <td class="p-2.5 text-surface-600 dark:text-surface-400">{item.remarks || 'Official notification'}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          )}
+
           <h3 class="text-xl font-bold mt-6 mb-2">How pattern knowledge changes your study order</h3>
           <p>
             Knowing the {examName} pattern early lets you size daily goals realistically. If a subject appears with many short MCQs, drill speed + formula recall.

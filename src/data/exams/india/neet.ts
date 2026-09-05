@@ -209,5 +209,15 @@ const exam: ExamTemplate = {
     examDates: 'First Sunday of May',
     resultDate: 'June',
   },
+  historicalCutoffs: [
+    { year: 2025, categoryOrStream: 'General / EWS (50th Percentile)', scoreOrRank: '164–167 / 720', remarks: 'NTA qualifying cutoff range' },
+    { year: 2025, categoryOrStream: 'OBC / SC / ST (40th Percentile)', scoreOrRank: '129–135 / 720', remarks: 'Statutory qualifying threshold' },
+    { year: 2025, categoryOrStream: 'AIQ 15% MBBS General Closing', scoreOrRank: 'AIR ~22,500 (~655+ marks)', remarks: 'Government Medical College seat allotment' },
+    { year: 2024, categoryOrStream: 'General / EWS (50th Percentile)', scoreOrRank: '164 / 720', remarks: 'Official NTA results declaration' },
+    { year: 2024, categoryOrStream: 'OBC / SC / ST (40th Percentile)', scoreOrRank: '129 / 720', remarks: 'Official NTA results declaration' },
+    { year: 2024, categoryOrStream: 'AIQ 15% MBBS General Closing', scoreOrRank: 'AIR ~24,000 (~658 marks)', remarks: 'Round 3 MCC All-India counselling' },
+    { year: 2023, categoryOrStream: 'General / EWS (50th Percentile)', scoreOrRank: '137 / 720', remarks: 'Official NTA results declaration' },
+    { year: 2023, categoryOrStream: 'AIQ 15% MBBS General Closing', scoreOrRank: 'AIR ~23,000 (~610 marks)', remarks: 'MCC Round 2 closing benchmark' },
+  ],
 };
 export default exam;

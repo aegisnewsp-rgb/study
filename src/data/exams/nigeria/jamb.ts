@@ -142,7 +142,7 @@ const exam: ExamTemplate = {
   examName: 'JAMB UTME',
   country: 'nigeria',
   description: 'JAMB UTME is Nigeria\'s unified tertiary matriculation exam, mandatory for university admission. Covers English and three subject combinations based on candidate\'s intended course.',
-  examPattern: '180 MCQs, 2 hours, 400 marks total. Four subjects (Language + 3 UTAS subjects based on programme choice). 45 minutes per subject. 1 mark per correct answer.',
+  examPattern: '180 MCQs, 2 hours (120 minutes), 400 marks total. Computer-Based Test (CBT) covering Use of English (60 questions including comprehension, lexis, structure, and prescribed literary text) plus three subject combinations (40 questions each = 120 questions). No negative marking applies.',
   eligibility: 'UTME: Class 12 graduate or final-year student, age 16+. Direct Entry: ND/NCE/A-Level or equivalent, minimum 5 credits in WASSCE or NECO including English and Mathematics.',
   subjects,
   durations,
@@ -158,6 +158,13 @@ const exam: ExamTemplate = {
   ],
   lastUpdated: '2026-07-28',
   officialSource: 'https://www.jamb.gov.ng',
+  historicalCutoffs: [
+    { year: 2024, categoryOrStream: 'Federal Universities Minimum Cut-Off Mark', scoreOrRank: '140 / 400 Marks', remarks: 'JAMB official minimum benchmark' },
+    { year: 2024, categoryOrStream: 'State Universities Minimum Cut-Off Mark', scoreOrRank: '140 / 400 Marks', remarks: 'JAMB official minimum benchmark' },
+    { year: 2024, categoryOrStream: 'Polytechnics & Monotechnics Minimum Cut-Off', scoreOrRank: '100 / 400 Marks', remarks: 'JAMB official minimum benchmark' },
+    { year: 2024, categoryOrStream: 'Competitive Courses (Medicine/Law/Engineering at UNILAG/UI/OAU)', scoreOrRank: 'Target 250–280+ / 400 Marks', remarks: 'Institutional Post-UTME merit cutoff range' },
+    { year: 2023, categoryOrStream: 'Federal Universities Minimum Cut-Off Mark', scoreOrRank: '140 / 400 Marks', remarks: 'JAMB official minimum benchmark' },
+  ],
 };
 
 export default exam;

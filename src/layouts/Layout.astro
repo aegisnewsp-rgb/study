@@ -133,9 +133,9 @@ const is404Page = cleanPath === '/404/' || (typeof title === 'string' && title.i
         <!-- DNS prefetch for analytics/external resources -->
         <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
 
-        <!-- Preload Google Font for faster rendering -->
-        <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" onload="this.onload=null;this.rel='stylesheet'" />
-        <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" /></noscript>
+        <!-- Preload Google Font for faster rendering (display=optional eliminates font-swap CLS) -->
+        <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=optional" onload="this.onload=null;this.rel='stylesheet'" />
+        <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=optional" /></noscript>
 
         <!-- Primary Meta Tags -->
         <title>{title}</title>
@@ -189,55 +189,6 @@ const is404Page = cleanPath === '/404/' || (typeof title === 'string' && title.i
         <meta name="generator" content={Astro.generator} />
         <meta name="format-detection" content="telephone=no" />
 
-        <!-- WebSite Structured Data (sitelinks search box) -->
-        <script type="application/ld+json" set:html={JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "WebSite",
-            "name": "StudyRoadmap",
-            "url": "https://studyroadmap.in/",
-            "description": "Free AI-powered study plan generator for 125+ competitive exams worldwide",
-            "potentialAction": {
-                "@type": "SearchAction",
-                "target": {
-                    "@type": "EntryPoint",
-                    "urlTemplate": "https://studyroadmap.in/exams/?q={search_term_string}"
-                },
-                "query-input": "required name=search_term_string"
-            }
-        })} />
-
-        <!-- Organization Structured Data -->
-        <script type="application/ld+json" set:html={JSON.stringify({
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "name": "StudyRoadmap",
-            "url": "https://studyroadmap.in/",
-            "logo": new URL('/favicon.svg', Astro.site).href,
-            "description": "Free AI-powered study roadmap generator for competitive exams in India, Pakistan, Nigeria, and other markets we list on the exams directory.",
-            "foundingDate": "2024",
-            "founder": {
-                "@type": "Person",
-                "name": "Pushkar Saini",
-                "url": "https://studyroadmap.in/author/pushkar-saini/",
-                "sameAs": [
-                    "mailto:pushkersaini@gmail.com"
-                ],
-                "email": "pushkersaini@gmail.com"
-            },
-            "address": {
-                "@type": "PostalAddress",
-                "addressCountry": "IN",
-                "addressRegion": "Delhi",
-                "description": "StudyRoadmap, Delhi, India"
-            },
-            "contactPoint": {
-                "@type": "ContactPoint",
-                "contactType": "customer support",
-                "email": "pushkersaini@gmail.com",
-                "availableLanguage": ["en", "ur", "hi"]
-            }
-        })} />
-
         <!-- Dark mode: prevent FOUC -->
         <script is:inline>
             (function () {
@@ -248,13 +199,6 @@ const is404Page = cleanPath === '/404/' || (typeof title === 'string' && title.i
                 }
             })();
         </script>
-
-        <!-- Large page-specific JSON-LD (FAQ/HowTo/Person/Breadcrumb) is rendered
-             at end of body so #main-content + LCP heading stay inside the first
-             14KB first-paint budget (AdSense/CWV scorecard). WebSite + Organization
-             stay in head (small, used for sitelinks).
-             NOTE: never put raw angle-bracket tags in this comment — naive H1
-             scrapers match them and swallow the real page heading (BUG-LIST). -->
     </head>
 
     <body class="min-h-screen flex flex-col bg-white dark:bg-surface-950 text-surface-900 dark:text-surface-100 transition-colors duration-200">
@@ -352,5 +296,54 @@ const is404Page = cleanPath === '/404/' || (typeof title === 'string' && title.i
                 })),
             })} />
         )}
+
+        <!-- WebSite Structured Data (sitelinks search box) -->
+        <script type="application/ld+json" set:html={JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "name": "StudyRoadmap",
+            "url": "https://studyroadmap.in/",
+            "description": "Free AI-powered study plan generator for 125+ competitive exams worldwide",
+            "potentialAction": {
+                "@type": "SearchAction",
+                "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://studyroadmap.in/exams/?q={search_term_string}"
+                },
+                "query-input": "required name=search_term_string"
+            }
+        })} />
+
+        <!-- Organization Structured Data -->
+        <script type="application/ld+json" set:html={JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "name": "StudyRoadmap",
+            "url": "https://studyroadmap.in/",
+            "logo": new URL('/favicon.svg', Astro.site).href,
+            "description": "Free AI-powered study roadmap generator for competitive exams in India, Pakistan, Nigeria, and other markets we list on the exams directory.",
+            "foundingDate": "2024",
+            "founder": {
+                "@type": "Person",
+                "name": "Pushkar Saini",
+                "url": "https://studyroadmap.in/author/pushkar-saini/",
+                "sameAs": [
+                    "mailto:pushkersaini@gmail.com"
+                ],
+                "email": "pushkersaini@gmail.com"
+            },
+            "address": {
+                "@type": "PostalAddress",
+                "addressCountry": "IN",
+                "addressRegion": "Delhi",
+                "description": "StudyRoadmap, Delhi, India"
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "contactType": "customer support",
+                "email": "pushkersaini@gmail.com",
+                "availableLanguage": ["en", "ur", "hi"]
+            }
+        })} />
     </body>
 </html>

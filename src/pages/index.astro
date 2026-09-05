@@ -279,7 +279,7 @@ const howToSteps = [
             <div class="rounded-xl border border-surface-700 bg-surface-800/60 p-3 flex flex-col gap-2">
               <span class="text-sm font-semibold text-white">{e.flag} {e.name}</span>
               <div class="flex flex-wrap gap-1.5">
-                <a href={`/roadmap/?exam=${e.id}`} class="text-[11px] font-medium px-2 py-1 rounded-md bg-brand-600/90 text-white hover:bg-brand-500 transition-colors">Roadmap</a>
+                <a href={`/roadmap/?exam=${e.id}&duration=1mo`} class="text-[11px] font-medium px-2 py-1 rounded-md bg-brand-600/90 text-white hover:bg-brand-500 transition-colors">Roadmap</a>
                 <a href={`/notes/${e.id}/`} class="text-[11px] font-medium px-2 py-1 rounded-md bg-surface-700 text-surface-200 hover:bg-surface-600 transition-colors">Notes</a>
                 <a href={`/study-plan/${e.id}/1mo/`} class="text-[11px] font-medium px-2 py-1 rounded-md bg-surface-700 text-surface-200 hover:bg-surface-600 transition-colors">1‑mo plan</a>
               </div>

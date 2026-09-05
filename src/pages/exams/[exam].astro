@@ -207,6 +207,7 @@ const faqJsonLd = examSpecificFAQs ? {
 const courseJsonLd = DISCONTINUED_EXAMS[exam.examId] ? null : {
   '@context': 'https://schema.org',
   '@type': 'Course',
+  '@id': `${canonicalUrl}#course`,
   'name': `${examName} Study Roadmap`,
   'description': `Comprehensive ${examName} preparation course covering syllabus, exam pattern, eligibility, and topic-wise study plan.`,
   'provider': {

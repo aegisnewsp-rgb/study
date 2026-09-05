@@ -15,7 +15,7 @@ lastUpdated: 2026-03-25
 
 ## Introduction
 
-The medieval history of Karnataka is a tapestry of powerful dynasties, religious movements, art, and architecture that left an indelible mark on South Indian history. Beginning with the establishment of the **Kalachakra dynasty** (also called the **Kalyani Chalukyas**) to the golden era of the **Hoysalas** and the grandeur of the **Vijayanagara Empire**, Karnataka emerged as a dominant political and cultural force in the Deccan.
+Medieval Karnataka saw the rise of major dynasties, religious developments, and architectural traditions across South India. From the **Kalachakra dynasty** (the **Kalyani Chalukyas**) through the **Hoysalas** and the **Vijayanagara Empire**, the region remained a central political and cultural power in the Deccan.
 
 ## The Kalachakra Dynasty (Chalukyas of Kalyani) — c. 973–1189 CE
 

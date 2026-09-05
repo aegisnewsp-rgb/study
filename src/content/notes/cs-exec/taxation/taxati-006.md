@@ -266,7 +266,7 @@ The exemption is limited to the **amount invested** in equity shares of the star
 
 ### 7.1 Capital Structure Planning — Debt vs Equity
 
-The capital structure decision involves choosing between **debt** and **equity** financing. Tax planning plays a crucial role because:
+The capital structure decision involves choosing between **debt** and **equity** financing. Tax considerations directly influence the effective cost of capital:
 
 **Interest on Debt:**
 - Deduction allowed under Section 36(1)(iii) as business expense

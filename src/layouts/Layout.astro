@@ -245,6 +245,72 @@ const is404Page = cleanPath === '/404/' || (typeof title === 'string' && title.i
             })();
         </script>
 
+        <script>
+            // Theme toggle with accessible dynamic state
+            const btn = document.getElementById('theme-toggle');
+            const updateThemeAria = (isDark: boolean) => {
+                btn?.setAttribute('aria-pressed', isDark ? 'true' : 'false');
+                btn?.setAttribute('aria-label', isDark ? 'Switch to light mode' : 'Switch to dark mode');
+                btn?.setAttribute('title', isDark ? 'Switch to light mode' : 'Switch to dark mode');
+            };
+            if (btn) {
+                const initialDark = document.documentElement.classList.contains('dark');
+                updateThemeAria(initialDark);
+                btn.addEventListener('click', () => {
+                    const isDark = document.documentElement.classList.toggle('dark');
+                    localStorage.setItem('theme', isDark ? 'dark' : 'light');
+                    updateThemeAria(isDark);
+                });
+            }
+
+            // Mobile menu with improved accessibility
+            const mobileBtn = document.getElementById('mobile-menu-btn');
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileBtn?.addEventListener('click', () => {
+                const isHidden = mobileMenu?.classList.toggle('hidden');
+                mobileBtn.setAttribute('aria-expanded', isHidden ? 'false' : 'true');
+            });
+
+            // Close mobile menu on escape key
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape' && mobileMenu && !mobileMenu.classList.contains('hidden')) {
+                    mobileMenu.classList.add('hidden');
+                    mobileBtn?.setAttribute('aria-expanded', 'false');
+                    mobileBtn?.focus();
+                }
+            });
+
+            // Resume CTA from last plan (localStorage) — deep-link to last note when available
+            try {
+                const raw = localStorage.getItem('sr_last_plan');
+                if (raw) {
+                    const plan = JSON.parse(raw) as {
+                        exam?: string; duration?: string; examName?: string;
+                        topicKey?: string; pct?: number; streak?: number;
+                    };
+                    if (plan?.exam) {
+                        let href = `/roadmap/?exam=${encodeURIComponent(plan.exam)}`;
+                        if (plan.duration) href += `&duration=${encodeURIComponent(plan.duration)}`;
+                        if (plan.topicKey && typeof plan.topicKey === 'string') {
+                            const path = plan.topicKey.replace(/^\/+|\/+$/g, '');
+                            href = `/notes/${path}/`;
+                            if (plan.duration) href += `?duration=${encodeURIComponent(plan.duration)}`;
+                        }
+                        const name = plan.examName || plan.exam;
+                        const bits = [`Resume ${name}`];
+                        if (typeof plan.pct === 'number' && plan.pct > 0) bits.push(`${plan.pct}%`);
+                        else if (plan.duration) bits[0] = `Resume ${name}`;
+                        if (typeof plan.streak === 'number' && plan.streak > 1) bits.push(`🔥${plan.streak}`);
+                        const label = bits.join(' · ');
+                        const desk = document.getElementById('sr-nav-cta') as HTMLAnchorElement | null;
+                        const mob = document.getElementById('sr-nav-cta-mobile') as HTMLAnchorElement | null;
+                        if (desk) { desk.href = href; desk.textContent = label; }
+                        if (mob) { mob.href = href; mob.textContent = label; }
+                    }
+                }
+            } catch { /* ignore */ }
+        </script>
+
         <!-- Deferred structured data (moved from <head> for first-14KB LCP budget) -->
         {breadcrumbs.length > 0 && (
             <script type="application/ld+json" set:html={JSON.stringify({

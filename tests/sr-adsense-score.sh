@@ -133,7 +133,10 @@ html = open('$TMP/note.html').read()
 blocks = re.findall(r'<script[^>]+application/ld\+json[^>]*>(.*?)</script>', html, re.S)
 types = []
 for b in blocks:
-  try: types.append(json.loads(b.strip()).get('@type',''))
+  try:
+    t = json.loads(b.strip()).get('@type','')
+    if isinstance(t, list): types.extend(t)
+    elif t: types.append(t)
   except: pass
 print(','.join(types))" 2>/dev/null)
 echo "$NTYPES" | grep -q Article && AR=1 || AR=0

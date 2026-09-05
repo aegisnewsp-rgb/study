@@ -152,7 +152,7 @@ const breadcrumbJsonLd = {
 
 const articleJsonLd = {
   '@context': 'https://schema.org',
-  '@type': 'Article',
+  '@type': ['Article', 'LearningResource'],
   headline: `${topicName} — ${subjectDisplay} Study Notes`,
   description: description,
   author: { '@type': 'Person', name: authorObj.name, url: authorObj.url, jobTitle: authorObj.jobTitle },
@@ -178,8 +178,8 @@ const articleJsonLd = {
     url: `${siteUrl}/exams/${exam}/`,
     provider: { '@type': 'Organization', name: 'StudyRoadmap™', url: siteUrl },
   },
-  educationalLevel: country === 'pakistan' ? 'Higher Secondary (Pakistan)' : country === 'nigeria' ? 'Senior Secondary (Nigeria)' : 'Higher Secondary',
-  educationalUse: 'Self-study exam preparation',
+  educationalLevel: country === 'pakistan' ? 'Higher Secondary / College' : country === 'nigeria' ? 'Senior Secondary (SSCE)' : country === 'india' ? 'Senior Secondary (Class 11-12) / Graduate Entrance' : 'Higher Secondary',
+  educationalUse: 'Exam Preparation & Revision',
   learningResourceType: 'Study Notes',
   keywords: `${topicName}, ${subjectDisplay}, ${examName} notes, study notes, exam preparation, ${country}`,
   url: canonicalUrl,

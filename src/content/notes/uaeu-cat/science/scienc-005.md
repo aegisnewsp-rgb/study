@@ -4,19 +4,19 @@ examName: UAE University CAT
 subject: science
 subjectName: Science
 topic: scienc-005
-topicName: Topic in the UAEU CAT Science Section Measures
+topicName: "Scientific Literacy & Core Physical Measurements"
 weight: 3
 country: uae
 generated: "2026-03-25T17:00:00"
 lastUpdated: "2026-07-28"
 ---
 
-# Topic in the UAEU CAT Science Section Measures
+# Scientific Literacy & Core Physical Measurements
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-Topic 5 in the UAEU CAT Science section measures **scientific literacy** at a senior-secondary general level, blending physics, chemistry, biology, and data-reading in roughly 3% of the composite score. The fastest-scoring items rely on the formulas in the table below plus disciplined graph reading.
+**Scientific Literacy & Core Physical Measurements** in the UAEU CAT Science section measures core scientific competence at a senior-secondary general level, blending physics, chemistry, biology, and data-reading in roughly 3% of the composite score. The fastest-scoring items rely on the formulas in the table below plus disciplined graph reading.
 
 - **Master the core formulas**: `v = d/t`, `F = ma`, `W = mg`, `KE = ½mv²`, `ρ = m/V`, `pH = −log₁₀[H⁺]`, and `PV = nRT`.
 - **Apply the scientific method**: hypothesis → independent/dependent/control variables → evidence-based conclusion.

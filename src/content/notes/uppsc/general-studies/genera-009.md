@@ -8,80 +8,148 @@ topicName: "Uttar Pradesh Specific GK"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-25"
+lastUpdated: "2026-09-05"
+diagramPrompt: "Map of Uttar Pradesh highlighting 18 administrative divisions, major rivers Ganga and Yamuna, industrial corridors, and key historical landmarks, clean textbook style"
 ---
 
 # Uttar Pradesh Specific GK
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+> Rapid summary for last-minute revision before your UPPSC RO/ARO exam.
 
-**Topic 9** is the General Studies slot numbered nine on the UPPSC RO/ARO Preliminary Examination syllabus, contributing roughly **3%** of paper weightage. Questions drawn from this slot appear in the **objective (MCQ)** section of Paper I (General Studies), commonly at the rate of two to three questions per cycle. The safest revision strategy treats the slot as a placeholder until you cross-check the **latest UPPSC notification PDF** on the official portal.
+Uttar Pradesh Specific General Knowledge accounts for 15–20 questions across General Studies Paper I in the UPPSC RO/ARO Preliminary Examination. Questions test administrative structure, state geography, census statistics, major agricultural ranks, and cultural heritage.
 
-- **Verify the title**: download the RO/ARO advertisement (e.g., Advt. No. A-1/E-1/SO/2024 or the current cycle's equivalent) from `uppsc.up.nic.in/Notifications`.
-- **Confirm the RO vs ARO split** — Review Officer and Assistant Review Officer syllabi occasionally diverge on this slot.
-- **Practise one previous-year question** from this slot to lock the MCQ pattern.
+- **Administrative divisions**: 75 districts grouped into 18 divisions. Largest district by area is **Lakhimpur Kheri** (7,680 sq km); smallest is **Hapur** (660 sq km).
+- **Geographic extremes**: Northernmost district is **Saharanpur** (borders HP, Uttarakhand, Haryana); southernmost is **Sonbhadra** (borders 4 states: MP, Chhattisgarh, Jharkhand, Bihar); easternmost is **Ballia**; westernmost is **Shamli**.
+- **Census 2011 benchmarks**: Total population 19.98 crore (16.51% of India). Sex ratio is **912** females per 1,000 males (child sex ratio 0–6 yrs is **902**). Overall literacy rate is **67.68%** (male 77.28%, female 57.18%).
+- **Economic ranks**: UP ranks **#1 nationally** in sugarcane production, total foodgrain yield, wheat, potato, and dairy milk output.
+- **Protected habitats**: Single national park — **Dudhwa National Park** (Lakhimpur Kheri). Four Tiger Reserves: Dudhwa, Pilibhit (TX2 Award winner), Amangarh (buffer zone of Corbett), and Ranipur Tiger Reserve (Chitrakoot, 53rd in India).
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+> Standard content for candidates preparing over weeks to months.
 
-#### Why the label "Topic 9" is itself a study task
+#### 1. Physical Geography & River Systems
 
-UPPSC does not always publish the General Studies paper as a numbered checklist; rather, the syllabus is a list of broad areas (History, Polity, Economy, Geography, General Science, Current Affairs, etc.). Coaching institutes and aggregator sites impose sequential numbering such as "Topic 1 … Topic 9 …" on that list, which means the same numerical label can shift between **consecutive RO/ARO advertisements**. Treat the numeral as a *reference index*, not an *absolute fact*.
+Uttar Pradesh spans 240,928 sq km (7.33% of India's geographic area) across three distinct geomorphic zones:
 
-#### Standard verification checklist
+1. **Bhabhar & Terai Belt**: Narrow northern foothills tract. Bhabhar consists of coarse gravel where Himalayan streams sink underground; Terai immediately south features dense marshy silt, high humidity, and intensive sugarcane/paddy cultivation.
+2. **Gangetic Plain**: Deep alluvial basin between the Himalayas and Vindhyan plateau, subdivided into Upper, Middle, and Eastern plains. Highly fertile *Khadar* (new alluvium) along riverbanks vs *Bhangar* (older alluvium) in uplands.
+3. **Southern Plateau (Bundelkhand & Baghelkhand)**: Ancient crystalline rocks with undulating topography, red and black soils (*regur* / *karail*), and seasonal water stress across 7 districts (Jhansi, Jalaun, Lalitpur, Hamirpur, Mahoba, Banda, Chitrakoot).
 
-| Step | Source | Action |
-|------|--------|--------|
-| 1 | `uppsc.up.nic.in/Notifications` | Locate the latest RO/ARO advertisement PDF |
-| 2 | `uppsc.up.nic.in/Syllabus` | Cross-check the General Studies slot list |
-| 3 | Previous-year RO/ARO papers | Tag questions under "Topic 9" header |
-| 4 | UPPSC press notes / corrigenda | Confirm renumbering, if any |
+| River | Source | Confluence / Key UP Cities |
+|---|---|---|
+| **Ganga** | Gangotri Glacier (Uttarakhand) | Enters UP at Bijnor; flows past Kanpur, Prayagraj, Varanasi; exits at Ballia |
+| **Yamuna** | Yamunotri (Bandarpunch) | Enters at Saharanpur; flows through Mathura, Agra, Etawah; meets Ganga at Prayagraj (Sangam) |
+| **Gomti** | Gomat Taal / Fulhar Lake (Pilibhit) | Plain-origin river flowing past Lucknow, Sultanpur, Jaunpur; meets Ganga near Saidpur (Ghazipur) |
+| **Betwa** | Vindhya Range (MP) | Flows past Lalitpur, Jhansi, Hamirpur (meets Yamuna); Rajghat and Matatila dams |
+| **Ken** | Kaimur Hills (MP) | Enters Banda; links with Betwa in the Ken-Betwa River Link Project |
+| **Sarayu (Ghaghara)** | Mapchachungo Glacier (Tibet) | Flows past Ayodhya; joins Ganga at Revelganj (Bihar border) |
 
-#### Typical exam question patterns
+#### 2. Cultural Heritage, Fairs & Art Traditions
 
-Most questions in the 3% band are **one-mark MCQs**, each with four options and a single correct answer. Negative marking of **1/3rd** per wrong response applies, so an unverified guess on a slot you have not confirmed can cost more than leaving the bubble blank. When in doubt, verify against the syllabus booklet **before** the day of the exam.
+- **Classical Dance**: UP is the sole home of **Kathak**, developed under royal patronage of Wajid Ali Shah (5th Nawab of Awadh) with prominent Lucknow and Banaras Gharanas.
+- **Folk Theatres & Music**: *Nautanki* (Hathras and Kanpur styles), *Raslila* (Braj region), *Ramlila* (Varanasi/Ramnagar tradition, UNESCO Intangible Cultural Heritage), *Kajri* (Mirzapur rainy season song), *Birha* (Bhojpuri ballad), *Rasiya* (Braj).
+- **Major Fairs**: 
+  - **Maha Kumbh / Purna Kumbh**: Every 12 years at Prayagraj Sangam (UNESCO Intangible Cultural Heritage).
+  - **Magh Mela**: Annual pilgrimage gathering at Prayagraj.
+  - **Shakumbhari Devi Mela**: Saharanpur.
+  - **Nauchandi Mela**: Meerut (symbol of communal harmony).
+  - **Deva Sharif Mela**: Barabanki (shrine of Sufi saint Waris Ali Shah).
+  - **Bateshwar Fair**: Agra (annual livestock and camel trading fair on Yamuna banks).
 
-> Tip: bookmark `uppsc.up.nic.in/Syllabus` and revisit it once every fortnight — UPPSC occasionally issues corrigenda that shift topic labels between cycles.
+#### 3. One District One Product (ODOP) Core Mapping
+
+The ODOP scheme promotes indigenous craft clusters across all 75 districts. High-frequency UPPSC question matches:
+
+| District | Signature Product | Speciality |
+|---|---|---|
+| **Bhadohi** | Handmade Carpets | GI-tagged export cluster ("Carpet City") |
+| **Kannauj** | Natural Attar / Perfume | Steam-distilled floral essential oils |
+| **Firozabad** | Glassware & Bangles | Glass handicrafts industrial center |
+| **Moradabad** | Brassware | Brass and metal craft exports ("Peetal Nagari") |
+| **Saharanpur** | Wooden Carving | Sheesham wood inlay and furniture |
+| **Lucknow** | Chikankari & Zardozi | Hand embroidery needlework |
+| **Varanasi** | Banarasi Silk Sarees & Wooden Toys | GI-tagged textile and wooden craft |
+| **Aligarh** | Locks & Hardware | Precision security hardware |
+| **Gorakhpur** | Terracotta | Clay pottery and horse/elephant sculptures |
+| **Khurja (Bulandshahr)** | Ceramic Pottery | Glazed ceramic tableware |
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
+> Comprehensive analysis for high-percentile scoring and Mains GS Paper 5 & 6 alignment.
 
-#### Edge cases that derail candidates
+#### 1. Demographic Deep-Dive (Census 2011 Exam Matrix)
 
-The biggest trap with a numbered slot is **silent renumbering**. UPPSC has, in past cycles, reorganised the General Studies list when moving between RO and ARO recruitments, or when merging sub-topics. Candidates who memorised a coaching-shop's "Topic 9 = Indian Economy" caption from a previous cycle have been known to answer against the wrong sub-topic in the live paper.
+UPPSC regularly sets comparative questions contrasting top and bottom districts:
 
-#### Mechanics of the 3% weightage
+- **Population**:
+  - Highest: Prayagraj (59.54 lakh) > Moradabad > Ghaziabad.
+  - Lowest: Mahoba (8.75 lakh) < Chitrakoot < Hamirpur.
+- **Population Density**: State average is **829 persons/sq km** (national: 382).
+  - Highest: Ghaziabad (3,971/sq km) > Varanasi > Lucknow.
+  - Lowest: Lalitpur (242/sq km) < Sonbhadra < Hamirpur.
+- **Sex Ratio**:
+  - Highest: Jaunpur (**1,024**) > Azamgarh (1,019) > Deoria (1,017).
+  - Lowest: Gautam Buddha Nagar (**851**) < Hamirpur / Baghpat (861).
+- **Literacy Rate**:
+  - Highest overall: Gautam Buddha Nagar (**80.12%**) > Kanpur Nagar > Auraiya.
+  - Lowest overall: Shravasti (**46.74%**) < Bahraich < Balrampur.
+  - Female literacy lowest: Shravasti (34.78%); highest: Kanpur Nagar (75.05%).
+- **Scheduled Castes & Tribes**:
+  - Highest SC population: Sitapur; highest SC percentage: Kaushambi (34.7%).
+  - Highest ST population & percentage: Sonbhadra (20.7%); lowest ST: Baghpat.
 
-A 150-question General Studies paper carrying 150 marks allocates approximately **4–5 marks** to this slot. Practically, this means two to three standalone MCQs, occasionally bundled with a statement-reasoning or match-the-following question. Because the count is low, an aspirant who *misses* this slot entirely can still clear cutoff, but the inverse — answering five confidently incorrect MCQs — can drop your score by **2–3 raw marks** after negative marking.
+#### 2. Infrastructure, Energy & Economic Corridors
 
-#### Connections to adjacent topics
+UP leads India in operational expressway mileage, making infrastructure a recurring source for current affairs questions:
 
-The slot sits inside General Studies Paper I, so it shares the same **two-hour duration**, the same negative-marking rule, and the same bilingual option (Hindi/English) as every other topic on the paper. Time budgeting matters: with only ~2 minutes per MCQ, spending 10 minutes on an unverified "Topic 9" caption is a poor trade.
+1. **Purvanchal Expressway**: 340.8 km (Lucknow to Ghazipur), includes a 3.2 km emergency airstrip at Kurebhar (Sultanpur).
+2. **Bundelkhand Expressway**: 296 km (Chitrakoot to Kudrail, Etawah, connecting with Agra-Lucknow Expressway).
+3. **Ganga Expressway**: 594 km (under phased delivery connecting Meerut to Prayagraj via 12 districts).
+4. **Agra-Lucknow Expressway**: 302 km, equipped with an emergency fighter-jet runway in Unnao.
+5. **Defence Industrial Corridor**: 6 strategic nodes across UP — Lucknow, Kanpur, Agra, Aligarh, Chitrakoot, and Jhansi.
+6. **Airports**: 5 international hubs — Lucknow (Chaudhary Charan Singh), Varanasi (Lal Bahadur Shastri), Kushinagar, Ayodhya (Maharishi Valmiki), and Noida International Airport at Jewar.
 
-#### Common mistakes
+#### 3. Ramsar Wetland Sites in Uttar Pradesh
 
-- Reading from a **pirated PDF** circulating on Telegram channels instead of the official UPPSC notification.
-- Confusing **RO** (Review Officer) and **ARO** (Assistant Review Officer) syllabus annexures, which list overlapping but non-identical slots.
-- Skipping the **corrigendum page** of the latest advertisement.
+Uttar Pradesh hosts 10 Ramsar sites (wetlands of international importance):
+- **Upper Ganga River** (Brijghat to Narora stretch — earliest declared in 2005)
+- **Sur Sarovar (Keetham Lake)** (Agra)
+- **Nawabganj Bird Sanctuary** (Unnao, renamed Shahid Chandra Shekhar Azad Bird Sanctuary)
+- **Sandi Bird Sanctuary** (Hardoi)
+- **Samaspur Bird Sanctuary** (Rae Bareli)
+- **Saman Bird Sanctuary** (Mainpuri)
+- **Parvati Arga Bird Sanctuary** (Gonda)
+- **Sarsai Nawar Jheel** (Etawah)
+- **Haiderpur Wetland** (Hastinapur Wildlife Sanctuary, Muzaffarnagar/Bijnor)
+- **Bakhira Wildlife Sanctuary** (Sant Kabir Nagar)
 
-#### Practice prompts
+---
 
-1. Open the UPPSC RO/ARO latest notification PDF and write down the exact title UPPSC assigns to "Topic 9" in the General Studies list of the current cycle.
-2. Solve three previous-year questions tagged to this slot; classify each as factual, conceptual, or current-affairs-linked, and revise only the weakest category.
+## High-Yield Practice Prompts
+
+1. **Assertion-Reason Question**:
+   - *Assertion (A)*: Sonbhadra is the only district in India bordering four distinct states.
+   - *Reason (R)*: It lies at the tri-junction of the Vindhyan plateau and Chota Nagpur plateau with extensive mineral reserves.
+   - *Verdict*: Both (A) and (R) are true, and (R) correctly explains the geographical position that enables borders with MP, Chhattisgarh, Jharkhand, and Bihar.
+
+2. **Match the Following**:
+   - Pair the UP research institute with its city:
+     - Central Drug Research Institute (CDRI) → **Lucknow**
+     - Indian Institute of Pulses Research (IIPR) → **Kanpur**
+     - Indian Institute of Sugarcane Research (IISR) → **Lucknow**
+     - National Sugar Institute (NSI) → **Kanpur**
+     - Indian Grassland and Fodder Research Institute (IGFRI) → **Jhansi**
+     - Harish-Chandra Research Institute (HRI) → **Prayagraj**
 
 ---
 
 ## Continue your study
 
-- **[View this topic in your UPPSC RO/ARO roadmap](/roadmap/?exam=uppsc&duration=1mo)** — see where "Topic 9" fits in your personalised plan
-- **[Build a quick revision plan](/roadmap/?exam=uppsc&duration=1d)** — 1-day sprint covering highest-weight topics
-- **[UPPSC RO/ARO exam overview](/exams/uppsc/)** — pattern, eligibility, and syllabus
-- **[All General-Studies notes](/notes/uppsc/general-studies/)** — browse sibling topics in this subject
-
----
-*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+- **[View this topic in your UPPSC RO/ARO roadmap](/roadmap/?exam=uppsc&duration=1mo)** — see how UP GK integrates into your preparation timeline
+- **[Build a quick revision plan](/roadmap/?exam=uppsc&duration=1d)** — 1-day sprint covering high-weightage topics
+- **[UPPSC RO/ARO exam overview](/exams/uppsc/)** — exam pattern, negative marking scheme, and eligibility
+- **[All General-Studies notes](/notes/uppsc/general-studies/)** — review companion topics in the UPPSC syllabus

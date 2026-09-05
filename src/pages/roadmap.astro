@@ -249,8 +249,9 @@ const SLIM_EXAMS = CATALOG_EXAMS;
       </div>
     </section>
 
-    <!-- React island: wrapped with reserved min-height and fallback skeleton to eliminate Cumulative Layout Shift (CLS) -->
-    <div class="min-h-[260px] sm:min-h-[290px]">
+    <!-- React island: wrapped with reserved min-height and fallback skeleton to eliminate Cumulative Layout Shift (CLS).
+         google-anno-skip prevents Google Auto Ads from inserting ad units inside interactive planning tool. -->
+    <div class="min-h-[260px] sm:min-h-[290px] google-anno-skip">
       <RoadmapApp exams={SLIM_EXAMS as any} client:only="react">
         <div slot="fallback" class="container-page py-8 sm:py-12">
           <div class="card p-5 sm:p-6 max-w-2xl mx-auto space-y-4">

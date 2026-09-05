@@ -125,5 +125,6 @@ pushkersaini@gmail.com
 `;
 
 fs.writeFileSync(path.join(DIST, 'llm.txt'), short);
+fs.writeFileSync(path.join(DIST, 'llms.txt'), short);
 fs.writeFileSync(path.join(DIST, 'llms-full.txt'), full);
-console.log(`gen-llms: wrote llm.txt (${short.length} bytes) and llms-full.txt (${full.length} bytes) covering ${totalCount} URLs, ${examCount} exams, ${notesCount} notes`);
+console.log(`gen-llms: wrote llm.txt, llms.txt (${short.length} bytes) and llms-full.txt (${full.length} bytes) covering ${totalCount} URLs, ${examCount} exams, ${notesCount} notes`);

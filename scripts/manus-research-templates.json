@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema#",
+  "version": "1.0.0",
+  "description": "Manus Deep Research prompt templates for competitive exam syllabus intelligence, pattern detection, and eligibility audit (StudyRoadmap Task T81).",
+  "templates": {
+    "syllabus_revision_audit": {
+      "name": "2026-2027 Competitive Exam Syllabus Revision Audit",
+      "target_exams": ["neet", "jeemain", "jeeadv", "upsc", "gate", "cat", "clat", "mdcat", "jamb", "waec"],
+      "prompt_template": "Perform an exhaustive academic audit of official syllabus revisions for {exam_name} {academic_year} announced by {conducting_body}. Compare the current notification against previous years.\n\nRequired deliverables:\n1. Exact list of newly added topics, deleted topics, and modified weightages across all subjects ({subjects}).\n2. Question paper structural changes (e.g., optional sections, numerical value questions, negative marking ratio).\n3. Official primary source citations (PDF links on {official_domains}).\n4. Pedagogical impact assessment: which topics carry high scoring leverage vs high time-investment traps.\n5. Output formatted as JSON-compatible subject topic tree with weightage percentages."
+    },
+    "eligibility_and_age_limit_audit": {
+      "name": "State PSC & National Exam Eligibility & Age Criteria",
+      "target_exams": ["upsc", "uppsc", "bpsc", "tnpsc", "mppsc", "kpsc", "rbi-grad-b", "ssc-cgl"],
+      "prompt_template": "Conduct an in-depth regulatory audit on eligibility criteria, domicile rules, and age limits for {exam_name} {academic_year} conducted by {conducting_body}.\n\nRequired deliverables:\n1. Minimum and maximum age limits for General/UR, OBC, SC/ST, EWS, and PwD categories as of the cutoff date.\n2. Permissible number of attempts per category.\n3. Educational qualification prerequisites (degrees, minimum marks, final year eligibility).\n4. Domicile and regional language proficiency requirements (especially for state public service commissions).\n5. Direct links and verbatim excerpts from official gazette notifications ({official_domains})."
+    },
+    "exam_date_and_timeline_synchronization": {
+      "name": "Official Exam Schedule and Critical Timeline Tracking",
+      "target_exams": ["neet", "jeemain", "upsc", "cuet", "nda", "cds", "ssc-cgl", "mdcat", "jamb"],
+      "prompt_template": "Trace and verify the complete official schedule for {exam_name} {academic_year} released by {conducting_body}.\n\nRequired deliverables:\n1. Registration window opening and closing dates (including fee payment deadline).\n2. Application correction window dates.\n3. Admit card / hall ticket issuance expected date.\n4. Examination dates and shift schedules (morning/afternoon timings).\n5. Answer key objection timeline and tentative result announcement dates.\n6. Primary official notifications published on {official_domains}."
+    },
+    "international_entrance_curriculum_audit": {
+      "name": "African and Asian Regional Exam Syllabus Benchmark",
+      "target_exams": ["jamb", "waec", "neco", "mdcat", "ecat", "nust", "du-ad"],
+      "prompt_template": "Analyze the official secondary and tertiary entrance examination curriculum for {exam_name} in {country}.\n\nRequired deliverables:\n1. Subject syllabus boundaries prescribed by {conducting_body} ({official_domains}).\n2. Prescribed textbooks, literature texts, and reading lists for the {academic_year} exam cycle.\n3. Scoring metrics, negative marking rules, and university admission cutoff percentiles.\n4. Detailed breakdown of core vs elective subjects.\n5. Structured comparison against standard British GCSE/A-Levels or US SAT/ACT standards."
+    }
+  }
+}

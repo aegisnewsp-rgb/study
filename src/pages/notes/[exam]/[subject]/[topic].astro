@@ -205,7 +205,7 @@ const articleJsonLd = {
     <!-- Breadcrumb -->
     <div class="bg-surface-50 dark:bg-surface-950 border-b border-surface-200 dark:border-surface-800">
       <div class="container-page py-3">
-        <nav class="flex items-center gap-2 text-sm text-surface-500 dark:text-surface-400" aria-label="Breadcrumb">
+        <nav class="flex flex-wrap items-center gap-2 text-sm text-surface-500 dark:text-surface-400" aria-label="Breadcrumb">
           <a href="/" class="hover:text-brand-600 dark:hover:text-brand-400">Home</a>
           <span>›</span>
           <a href="/exams/" class="hover:text-brand-600 dark:hover:text-brand-400">Exams</a>
@@ -251,7 +251,7 @@ const articleJsonLd = {
     <section class="container-page py-12">
       <div class="grid lg:grid-cols-3 gap-10">
         <!-- Main content -->
-        <article class="lg:col-span-2">
+        <article class="lg:col-span-2 min-w-0">
           <!-- Editor + last-reviewed E-E-A-T strip -->
           <div class="not-prose mb-6 flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-surface-500 dark:text-surface-400">
             <span>By <a href="/author/pushkar-saini/" class="text-brand-600 dark:text-brand-400 hover:underline" rel="author">Pushkar Saini</a></span>
@@ -581,11 +581,11 @@ const articleJsonLd = {
 
         <!-- Prev / Next Topic Navigation (weight-ordered study path) -->
         {(prevTopic || nextTopic) && (
-          <nav class="mt-6 flex items-stretch gap-3" aria-label="Topic navigation">
+          <nav class="mt-6 flex flex-col sm:flex-row items-stretch gap-3 lg:col-span-2 min-w-0" aria-label="Topic navigation">
             {prevTopic ? (
               <a
                 href={`/notes/${prevTopic.id}/`}
-                class="flex-1 group flex flex-col items-start p-4 rounded-xl border border-surface-200 dark:border-surface-700 hover:border-brand-300 dark:hover:border-brand-700 hover:bg-brand-50 dark:hover:bg-brand-950 transition-all"
+                class="flex-1 min-w-0 group flex flex-col items-start p-4 rounded-xl border border-surface-200 dark:border-surface-700 hover:border-brand-300 dark:hover:border-brand-700 hover:bg-brand-50 dark:hover:bg-brand-950 transition-all"
                 data-sr-prev
               >
                 <span class="text-xs text-surface-400 mb-1 flex items-center gap-1">
@@ -600,7 +600,7 @@ const articleJsonLd = {
             {nextTopic ? (
               <a
                 href={`/notes/${nextTopic.id}/`}
-                class="flex-1 group flex flex-col items-end p-4 rounded-xl border border-surface-200 dark:border-surface-700 hover:border-brand-300 dark:hover:border-brand-700 hover:bg-brand-50 dark:hover:bg-brand-950 transition-all text-right"
+                class="flex-1 min-w-0 group flex flex-col items-end p-4 rounded-xl border border-surface-200 dark:border-surface-700 hover:border-brand-300 dark:hover:border-brand-700 hover:bg-brand-50 dark:hover:bg-brand-950 transition-all text-right"
                 data-sr-next
                 id="sr-next-topic"
               >
@@ -617,7 +617,7 @@ const articleJsonLd = {
         )}
 
         <!-- Sidebar -->
-        <aside class="space-y-6">
+        <aside class="space-y-6 min-w-0">
           <!-- Note metadata -->
           <div class="bg-surface-50 dark:bg-surface-900 border border-surface-200 dark:border-surface-700 rounded-xl p-5">
             <h3 class="text-sm font-semibold text-surface-700 dark:text-surface-300 mb-4">Note Details</h3>
@@ -673,10 +673,10 @@ const articleJsonLd = {
                   <li>
                     <a
                       href={`/notes/${n.id}/`}
-                      class="text-sm text-surface-600 dark:text-surface-400 hover:text-brand-600 dark:hover:text-brand-400 flex items-center gap-1.5"
+                      class="text-sm text-surface-600 dark:text-surface-400 hover:text-brand-600 dark:hover:text-brand-400 flex items-center gap-1.5 min-w-0"
                     >
                       <span class="text-surface-400 shrink-0">{n.data.weight || 0}%</span>
-                      <span class="truncate">{n.data.topicName}</span>
+                      <span class="truncate min-w-0">{n.data.topicName}</span>
                     </a>
                   </li>
                 ))}
@@ -697,11 +697,11 @@ const articleJsonLd = {
                   <li>
                     <a
                       href={`/notes/${rel.id}/`}
-                      class="text-sm text-surface-600 dark:text-surface-400 hover:text-brand-600 dark:hover:text-brand-400 flex items-center gap-1.5"
+                      class="text-sm text-surface-600 dark:text-surface-400 hover:text-brand-600 dark:hover:text-brand-400 flex items-center gap-1.5 min-w-0"
                     >
                       <span>{rel.flag}</span>
-                      {rel.name}
-                      <span class="text-surface-400 ml-auto">→</span>
+                      <span class="truncate min-w-0">{rel.name}</span>
+                      <span class="text-surface-400 ml-auto shrink-0">→</span>
                     </a>
                   </li>
                 ))}

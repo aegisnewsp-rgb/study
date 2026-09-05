@@ -511,21 +511,21 @@ const discontinuedNotice = DISCONTINUED_EXAMS[exam.examId];
 
     <!-- Exam Details -->
     {(fullExamPattern || fullEligibility) && (
-      <section class="container-page py-10 grid md:grid-cols-2 gap-8">
+      <section class="container-page py-10 grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
         {fullExamPattern && (
-          <div class="bg-surface-50 dark:bg-surface-900 rounded-2xl border border-surface-200 dark:border-surface-800 p-6">
+          <div class="bg-surface-50 dark:bg-surface-900 rounded-2xl border border-surface-200 dark:border-surface-800 p-5 sm:p-6 min-w-0">
             <h2 class="text-lg font-bold text-surface-900 dark:text-white mb-3 flex items-center gap-2">
               <span class="text-xl">📋</span> Exam Pattern
             </h2>
-            <p class="text-surface-600 dark:text-surface-300 leading-relaxed text-sm">{fullExamPattern}</p>
+            <p class="text-surface-600 dark:text-surface-300 leading-relaxed text-sm [overflow-wrap:anywhere]">{fullExamPattern}</p>
           </div>
         )}
         {fullEligibility && (
-          <div class="bg-surface-50 dark:bg-surface-900 rounded-2xl border border-surface-200 dark:border-surface-800 p-6">
+          <div class="bg-surface-50 dark:bg-surface-900 rounded-2xl border border-surface-200 dark:border-surface-800 p-5 sm:p-6 min-w-0">
             <h2 class="text-lg font-bold text-surface-900 dark:text-white mb-3 flex items-center gap-2">
               <span class="text-xl">✅</span> Eligibility Criteria
             </h2>
-            <p class="text-surface-600 dark:text-surface-300 leading-relaxed text-sm">{fullEligibility}</p>
+            <p class="text-surface-600 dark:text-surface-300 leading-relaxed text-sm [overflow-wrap:anywhere]">{fullEligibility}</p>
           </div>
         )}
       </section>
@@ -781,12 +781,12 @@ const discontinuedNotice = DISCONTINUED_EXAMS[exam.examId];
 
     <!-- Exam Info Table -->
     <section class="container-page pb-12">
-      <div class="bg-surface-50 dark:bg-surface-900 rounded-2xl border border-surface-200 dark:border-surface-800 overflow-hidden">
-        <table class="w-full text-sm">
+      <div class="bg-surface-50 dark:bg-surface-900 rounded-2xl border border-surface-200 dark:border-surface-800 overflow-x-auto">
+        <table class="w-full text-sm min-w-[280px]">
           <tbody>
             <tr class="border-b border-surface-200 dark:border-surface-800">
-              <td class="px-5 py-3 font-semibold text-surface-700 dark:text-surface-300 w-40">Exam Name</td>
-              <td class="px-5 py-3 text-surface-900 dark:text-surface-100">{examName}</td>
+              <td class="px-4 sm:px-5 py-3 font-semibold text-surface-700 dark:text-surface-300 w-32 sm:w-40 shrink-0">Exam Name</td>
+              <td class="px-4 sm:px-5 py-3 text-surface-900 dark:text-surface-100">{examName}</td>
             </tr>
             <tr class="border-b border-surface-200 dark:border-surface-800">
               <td class="px-5 py-3 font-semibold text-surface-700 dark:text-surface-300">Country</td>

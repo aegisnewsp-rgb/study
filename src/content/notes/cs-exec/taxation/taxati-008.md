@@ -315,7 +315,7 @@ Under **Section 139(5)**, a belated return is subject to an **additional fee** (
 
 2. **No interest on refund**: If a refund is due, interest under Section 244A will be paid only from the date of filing the belated return (not from the original due date).
 
-3. **Additional fee**: The additional fee as mentioned above is mandatory.
+3. **Additional fee**: The statutory late-filing fee under Section 234F is mandatory.
 
 4. **Processing**: The return will be processed under Section 143(1), but any loss claim will not be allowed.
 

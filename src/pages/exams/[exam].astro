@@ -220,6 +220,11 @@ const courseJsonLd = DISCONTINUED_EXAMS[exam.examId] ? null : {
     '@type': 'Audience',
     'audienceType': `Students preparing for ${examName} in ${countryName}`,
   },
+  'educationalCredentialAwarded': {
+    '@type': 'EducationalOccupationalCredential',
+    'name': `${examName} Syllabus Preparation & Mastery`,
+    'credentialCategory': 'Competitive Examination Preparation',
+  },
   'offers': {
     '@type': 'Offer',
     'category': 'Free',

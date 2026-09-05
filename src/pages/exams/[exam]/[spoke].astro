@@ -352,24 +352,62 @@ const overviewBlurb = (exam.description || '').trim()
             {examName} {year} dates are set by the official examining body in {countryLabel}. This page explains the stages of the exam cycle —
             always confirm the exact notification, application, admit-card, exam and result dates on the official website before you rely on them for travel or leave.
           </p>
-          <table class="w-full text-sm border border-surface-200 dark:border-surface-700 mt-4 not-prose">
-            <thead class="bg-surface-50 dark:bg-surface-900">
-              <tr>
-                <th class="p-2 text-left">Stage</th>
-                <th class="p-2 text-left">What to do</th>
-                <th class="p-2 text-left">Planning tip</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr class="border-t"><td class="p-2 font-medium">Notification</td><td class="p-2">Read eligibility, fees, cities, and syllabus notes</td><td class="p-2">Screenshot or save the PDF; rules rarely stay only on social media posts</td></tr>
-              <tr class="border-t"><td class="p-2 font-medium">Application window</td><td class="p-2">Register, upload docs, pay fee</td><td class="p-2">Usually 2–4 weeks — apply in the first half</td></tr>
-              <tr class="border-t"><td class="p-2 font-medium">Correction window</td><td class="p-2">Fix photo, category, or centre errors if offered</td><td class="p-2">Often only a few days; set a calendar alert</td></tr>
-              <tr class="border-t"><td class="p-2 font-medium">Admit card</td><td class="p-2">Download, print, check shift &amp; centre</td><td class="p-2">Commonly 7–14 days before the paper</td></tr>
-              <tr class="border-t"><td class="p-2 font-medium">Exam day(s)</td><td class="p-2">Reach centre early with ID + admit card</td><td class="p-2">Pack transparent pouch the night before</td></tr>
-              <tr class="border-t"><td class="p-2 font-medium">Answer key / objections</td><td class="p-2">Match responses; raise challenges with proof</td><td class="p-2">Windows are short — keep rough work if allowed</td></tr>
-              <tr class="border-t"><td class="p-2 font-medium">Result</td><td class="p-2">Download scorecard; note counselling dates</td><td class="p-2">Often 2–6 weeks after the last paper</td></tr>
-            </tbody>
-          </table>
+          <div class="overflow-x-auto not-prose mt-4">
+            <table class="w-full text-sm border border-surface-200 dark:border-surface-700">
+              <thead class="bg-surface-50 dark:bg-surface-900">
+                <tr>
+                  <th class="p-2 text-left">Stage</th>
+                  {exam.calendarDates && <th class="p-2 text-left">Target Window</th>}
+                  <th class="p-2 text-left">What to do</th>
+                  <th class="p-2 text-left">Planning tip</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="border-t">
+                  <td class="p-2 font-medium">Notification</td>
+                  {exam.calendarDates && <td class="p-2 text-brand-600 dark:text-brand-400 font-semibold">{exam.calendarDates.notification || 'Annual Notification'}</td>}
+                  <td class="p-2">Read eligibility, fees, cities, and syllabus notes</td>
+                  <td class="p-2">Screenshot or save the PDF; rules rarely stay only on social media posts</td>
+                </tr>
+                <tr class="border-t">
+                  <td class="p-2 font-medium">Application window</td>
+                  {exam.calendarDates && <td class="p-2 text-brand-600 dark:text-brand-400 font-semibold">{exam.calendarDates.applicationStart ? `${exam.calendarDates.applicationStart} – ${exam.calendarDates.applicationEnd}` : (exam.calendarDates.applicationEnd || '2–4 weeks')}</td>}
+                  <td class="p-2">Register, upload docs, pay fee</td>
+                  <td class="p-2">Usually 2–4 weeks — apply in the first half</td>
+                </tr>
+                <tr class="border-t">
+                  <td class="p-2 font-medium">Correction window</td>
+                  {exam.calendarDates && <td class="p-2 text-surface-600 dark:text-surface-400">{exam.calendarDates.correctionWindow || 'Post-Registration'}</td>}
+                  <td class="p-2">Fix photo, category, or centre errors if offered</td>
+                  <td class="p-2">Often only a few days; set a calendar alert</td>
+                </tr>
+                <tr class="border-t">
+                  <td class="p-2 font-medium">Admit card</td>
+                  {exam.calendarDates && <td class="p-2 text-surface-600 dark:text-surface-400">{exam.calendarDates.admitCard || '1–2 weeks before'}</td>}
+                  <td class="p-2">Download, print, check shift &amp; centre</td>
+                  <td class="p-2">Commonly 7–14 days before the paper</td>
+                </tr>
+                <tr class="border-t">
+                  <td class="p-2 font-medium">Exam day(s)</td>
+                  {exam.calendarDates && <td class="p-2 text-brand-600 dark:text-brand-400 font-semibold">{exam.calendarDates.examDates || 'Scheduled Dates'}</td>}
+                  <td class="p-2">Reach centre early with ID + admit card</td>
+                  <td class="p-2">Pack transparent pouch the night before</td>
+                </tr>
+                <tr class="border-t">
+                  <td class="p-2 font-medium">Answer key / objections</td>
+                  {exam.calendarDates && <td class="p-2 text-surface-600 dark:text-surface-400">Post-Exam</td>}
+                  <td class="p-2">Match responses; raise challenges with proof</td>
+                  <td class="p-2">Windows are short — keep rough work if allowed</td>
+                </tr>
+                <tr class="border-t">
+                  <td class="p-2 font-medium">Result</td>
+                  {exam.calendarDates && <td class="p-2 text-brand-600 dark:text-brand-400 font-semibold">{exam.calendarDates.resultDate || 'Post-Key Finalization'}</td>}
+                  <td class="p-2">Download scorecard; note counselling dates</td>
+                  <td class="p-2">Often 2–6 weeks after the last paper</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
           <h3 class="text-xl font-bold mt-6 mb-2">Build prep around the calendar, not rumours</h3>
           <p>
             Until the board freezes dates, plan {examName} prep in relative time (12 weeks / 6 months) rather than guessing a day.

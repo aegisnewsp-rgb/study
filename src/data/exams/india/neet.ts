@@ -200,5 +200,14 @@ const exam: ExamTemplate = {
   rescueMode,
   lastUpdated: '2026-07-28',
   officialSource: 'https://neet.ntaonline.in',
+  calendarDates: {
+    notification: 'February',
+    applicationStart: 'February',
+    applicationEnd: 'March',
+    correctionWindow: 'March / April',
+    admitCard: 'Late April / Early May',
+    examDates: 'First Sunday of May',
+    resultDate: 'June',
+  },
 };
 export default exam;

@@ -27,4 +27,13 @@ export interface ExamTemplate {
   rescueMode?: RescueTemplate;
   lastUpdated?: string;
   officialSource?: string;
+  calendarDates?: {
+    notification?: string;
+    applicationStart?: string;
+    applicationEnd?: string;
+    correctionWindow?: string;
+    admitCard?: string;
+    examDates?: string;
+    resultDate?: string;
+  };
 }

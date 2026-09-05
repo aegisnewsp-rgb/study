@@ -164,5 +164,14 @@ const exam: ExamTemplate = {
   rescueMode,
   lastUpdated: '2026-07-28',
   officialSource: 'https://jeemain.ntaonline.in',
+  calendarDates: {
+    notification: 'November',
+    applicationStart: 'November (Session 1) / February (Session 2)',
+    applicationEnd: 'December (Session 1) / March (Session 2)',
+    correctionWindow: 'December / March',
+    admitCard: '3 days prior to exam session',
+    examDates: 'Session 1: Late January / Session 2: Early April',
+    resultDate: 'February (Session 1) / Late April (Session 2)',
+  },
 };
 export default exam;

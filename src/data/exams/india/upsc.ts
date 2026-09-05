@@ -105,5 +105,14 @@ const exam: ExamTemplate = {
   rescueMode,
   lastUpdated: '2026-07-28',
   officialSource: 'https://upsc.gov.in',
+  calendarDates: {
+    notification: 'February',
+    applicationStart: 'February',
+    applicationEnd: 'Early March',
+    correctionWindow: 'March (7-day window)',
+    admitCard: 'May (2-3 weeks before Prelims)',
+    examDates: 'May (Prelims) / September (Mains)',
+    resultDate: 'June (Prelims) / April (Final)',
+  },
 };
 export default exam;

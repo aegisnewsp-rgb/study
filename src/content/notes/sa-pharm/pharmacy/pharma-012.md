@@ -13,7 +13,7 @@ lastUpdated: 2026-04-09
 
 # Cardiovascular Drugs
 
-Cardiovascular diseases (CVDs) are the leading cause of death globally, and South Africa faces a high and growing burden of hypertension, ischaemic heart disease, heart failure, and stroke. The pharmacist's role in cardiovascular pharmacotherapy is multifaceted: ensuring appropriate drug selection and dosing, monitoring for efficacy and adverse effects, managing drug interactions, providing adherence counselling, and contributing to therapeutic drug monitoring. For the SAPC examination, candidates must demonstrate a thorough understanding of the major cardiovascular drug classes — antihypertensives, anticoagulants, antiplatelets, lipid-lowering agents, and antiarrhythmics — and the South African clinical and regulatory context.
+Cardiovascular diseases (CVDs) are the leading cause of death globally, and South Africa faces a high and growing burden of hypertension, ischaemic heart disease, heart failure, and stroke. In cardiovascular pharmacotherapy, clinical pharmacists oversee drug selection and dosage titration, screen for drug interactions, counsel patients on adherence, and manage therapeutic drug monitoring. For the SAPC examination, candidates must demonstrate a thorough understanding of the major cardiovascular drug classes — antihypertensives, anticoagulants, antiplatelets, lipid-lowering agents, and antiarrhythmics — and the South African clinical and regulatory context.
 
 This topic builds on pharmacodynamics (pharma-006), pharmacokinetics (pharma-003 through pharma-007), and drug interactions (pharma-008).
 

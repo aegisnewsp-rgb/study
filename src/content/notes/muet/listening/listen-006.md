@@ -33,7 +33,7 @@ lastUpdated: 2026-03-25
 | Emphasis | importantly, the key point is, remember that |
 | Illustration | for example, such as, for instance, like |
 
-**Exam Tip:** The first sentence of a talk segment often states the main idea. If you miss it, the answer is usually in the last sentence too — speakers summarize before moving on.
+**Exam Tip:** The opening sentence of a talk segment states the main idea. If missed, check the concluding sentence — speakers summarize before moving on.
 
 ---
 
@@ -43,11 +43,11 @@ lastUpdated: 2026-03-25
 
 ## Why Note-Taking Matters in MUET Listening
 
-The MUET Listening paper requires you to process extended spoken discourse — typically university-style lectures or formal talks lasting 3–5 minutes per item. You cannot rely on short-term memory alone. Effective note-taking bridges comprehension and answering, especially for questions that ask you to identify main points, sequence events, or summarize the speaker's argument.
+The MUET Listening paper requires you to process extended spoken discourse — university-style lectures or formal talks lasting 3–5 minutes per item. You cannot rely on short-term memory alone. Effective note-taking bridges comprehension and answering, especially for questions that ask you to identify main points, sequence events, or summarize the speaker's argument.
 
 ## Identifying Key Points vs. Supporting Details
 
-**Key points** are the speaker's central claims — what the talk is *about* and why it matters. They are often:
+**Key points** are the speaker's central claims — what the talk is *about* and why it matters. They are:
 - Stated explicitly in introduction or conclusion
 - Signalled by emphatic language: *"the most important finding," "the main reason," "what I want to emphasize is..."*
 - Repeated or rephrased across the talk
@@ -61,7 +61,7 @@ The MUET Listening paper requires you to process extended spoken discourse — t
 
 **Exam example:** A speaker says: *"Urbanization is accelerating globally. By 2050, the UN projects 68% of the world's population will live in cities. In Malaysia specifically, the Klang Valley area has seen a 2.3% annual growth rate over the past decade."*
 
-A MUET question might ask: *What does the speaker say about urbanization?* The key point is that urbanization is accelerating globally; the supporting details are the 68% projection and the Klang Valley statistics.
+A MUET question asks: *What does the speaker say about urbanization?* The key point is that urbanization is accelerating globally; the supporting details are the 68% projection and the Klang Valley statistics.
 
 ## Transitional Phrases Speakers Use to Organize Ideas
 
@@ -116,12 +116,12 @@ Academic lectures follow predictable structural patterns. Recognizing these patt
 
 2. **Body** (80–85% of time)
    - Each section follows a mini-pattern: point → elaboration → example → transition
-   - New terms are often defined before use
-   - Numerical data typically appears during elaboration of a main point
+   - Speakers define technical terms upon introduction
+   - Numerical data illustrates and substantiates main points
 
 3. **Conclusion** (5–10% of time)
    - Restatement of thesis
-   - Summary of key points (often in the same order as introduced)
+   - Summary of key points matching the order introduced
    - Possible forward-looking statement: *"Next lecture we'll..."* or *"In practice, this means..."*
 
 ## Advanced Transitional Signals
@@ -136,7 +136,7 @@ Beyond basic discourse markers, skilled speakers use more sophisticated transiti
 *"Take Malaysia's 2022 budget allocation — specifically, 40% toward digital infrastructure."*
 
 **To qualify or narrow a claim:**
-*"While this is generally true, it is important to note that..."*
+*"While this principle holds broadly, a notable exception is..."*
 *"However, this applies mainly to...rather than..."*
 
 **To signal a shift in direction:**
@@ -168,7 +168,7 @@ Develop a personal shorthand system:
 
 Summarizing requires you to:
 1. Identify the **gist** (what is the overall message?)
-2. Select the **most important** points (usually 2–4 per segment)
+2. Select the **most important** points (2–4 per segment)
 3. Reject **trivial details** (specific names or minor examples unless named in the question)
 4. Organize in **logical sequence** (matching the lecture's order)
 5. Express in your **own words** (paraphrase, don't copy phrases from memory)

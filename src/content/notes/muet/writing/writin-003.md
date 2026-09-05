@@ -32,7 +32,7 @@ In MUET Task 2, your introduction should be brief but purposeful. Aim for approx
 Start with a broad, general statement that shows you understand the topic at a societal or global level. This grounds the reader in the subject without diving into specifics too early.
 
 > **Example (on the topic of social media):**
-> "In today's digital age, social media platforms have become an integral part of daily life for millions of people worldwide."
+> "Online communication platforms now mediate daily news consumption, workplace collaboration, and peer interactions across Southeast Asia."
 
 ### Step 2: Narrowing Down
 

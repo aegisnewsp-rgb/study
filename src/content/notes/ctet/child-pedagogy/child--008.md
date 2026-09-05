@@ -125,7 +125,7 @@ McClelland's research found that individuals with high need for achievement:
 - **Goal-setting:** Help students set challenging but achievable goals
 - **Feedback:** Provide immediate, specific feedback on performance
 - **Attribution training:** Teach students to attribute success to effort (internal), not just ability (fixed)
-- **Fostering a growth mindset:** Carol Dweck's research shows that students who believe intelligence can grow (growth mindset) persist longer than those who believe intelligence is fixed
+- **Developing a growth mindset:** Carol Dweck's research shows that students who view intelligence as malleable persist longer on challenging tasks than those who view ability as static
 
 **Attribution Theory (Weiner):** How students explain their successes and failures affects future motivation:
 - **Internal vs External:** Did I succeed because of my effort (internal) or because of luck (external)?

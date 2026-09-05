@@ -42,7 +42,7 @@ Prophet Muhammad ﷺ was born in Makkah al-Mukarramah in the Year of the Elephan
 
 ### The Title "Al-Sadiq" and "Al-Amin" (The Truthful and The Trustworthy)
 
-Even before his prophethood, Muhammad ﷺ was known among the Quraysh by the titles **Al-Sadiq** (The Truthful) and **Al-Amin** (The Trustworthy). He was called upon to arbitrate disputes and was entrusted with the belongings of others — a testament to his exceptional integrity even before receiving revelation.
+Even before his prophethood, Muhammad ﷺ was known among the Quraysh by the titles **Al-Sadiq** (The Truthful) and **Al-Amin** (The Trustworthy). He was called upon to arbitrate disputes and was entrusted with the belongings of others due to his established reputation for integrity prior to receiving revelation.
 
 **The story of the Hil al-Fudul:** A gathering of Quraysh tribesmen formed a pact to protect the oppressed in Makkah. The young Muhammad ﷺ participated and later said: *"I would not exchange my participation in it even for the finest camels."* This demonstrated his commitment to justice from an early age.
 

@@ -156,7 +156,7 @@ Conclusion:
 **Cohesive Devices Deep Dive:**
 
 Poor: "Technology is important. Many students use it. It helps learning."
-Better: "Technology plays a crucial role in modern education. For instance, many Nigerian students now access free online resources through platforms like Khan Academy and YouTube. Consequently, learning has become more accessible beyond the traditional classroom."
+Better: "Digital tools expand learning access across Nigeria. For instance, secondary school students now stream tutorial videos and access past UTME papers through online platforms. Consequently, study resources are no longer limited to physical classrooms."
 
 **JAMB Essay Word Count and Timing:**
 - Word count target: 500-800 words

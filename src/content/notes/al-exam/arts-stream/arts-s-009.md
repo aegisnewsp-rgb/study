@@ -254,7 +254,7 @@ Conclusion:
 - "Some people believe..."
 - "On the other hand..."
 - "However, this view fails to consider..."
-- "While it is true that..., it is important to remember..."
+- "While it is true that..., one must balance this against..."
 
 #### Descriptive Writing Techniques
 

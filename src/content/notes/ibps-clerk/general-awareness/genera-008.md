@@ -13,7 +13,7 @@ lastUpdated: 2026-03-25
 
 # International Financial Institutions
 
-International Financial Institutions (IFIs) play a crucial role in the global economy by providing financing, technical expertise, policy advice, and risk management to countries, businesses, and projects around the world. For Indian banks, their relationship with IFIs is significant — they borrow from these institutions, participate in their programmes, and facilitate credit flows to Indian businesses and governments. For IBPS Clerk candidates, knowledge of IFIs — particularly the World Bank, IMF, Asian Development Bank (ADB), and New Development Bank (NDB) — is important because these institutions frequently appear in General Awareness questions and are central to understanding India's position in the global financial system.
+International Financial Institutions (IFIs) provide development loans, policy advice, technical expertise, and emergency financing to member governments and private enterprises. For Indian commercial banks, relationships with IFIs are significant — domestic lenders borrow through multilateral credit lines, participate in co-financing arrangements, and facilitate trade credit flows. For IBPS Clerk candidates, knowledge of IFIs — particularly the World Bank, IMF, Asian Development Bank (ADB), and New Development Bank (NDB) — is tested frequently in the General Awareness section and provides context for India's external debt and international finance architecture.
 
 ## Bretton Woods Institutions
 

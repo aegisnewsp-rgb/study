@@ -159,7 +159,7 @@ Or alternatively:
 
 Example using PEE applied to the topic *"Why regular practice is essential in learning a language"*:
 
-> *Point:* Regular practice is the cornerstone of language acquisition. *Example:* Research by linguist Stephen Krashen demonstrates that students who engage in daily speaking and writing activities progress at nearly twice the rate of those who study grammar rules in isolation. *Explanation:* This is because active practice trains the brain to process language automatically, reducing the conscious effort required to form sentences and allowing learners to focus on nuance and expression rather than mechanics.
+> *Point:* Consistent daily application strengthens language acquisition. *Example:* Research by linguist Stephen Krashen demonstrates that students who engage in daily speaking and writing activities progress at nearly twice the rate of those who study grammar rules in isolation. *Explanation:* This is because active practice trains the brain to process language automatically, reducing the conscious effort required to form sentences and allowing learners to focus on nuance and expression rather than mechanics.
 
 **Special Considerations for WAEC Essay Marking:**
 

@@ -104,7 +104,7 @@ The **Karnataka State** has several minority institutions — both religious (Ch
 
 ### Right to Constitutional Remedies (Article 32)
 
-**Article 32** is the cornerstone of the Fundamental Rights framework. It gives every citizen the right to approach the Supreme Court for the enforcement of Fundamental Rights. Dr. B.R. Ambedkar, who drafted this article, called it the "most important" provision of the Constitution — without it, all other Fundamental Rights would be mere declarations without any mechanism of enforcement.
+**Article 32** provides the primary judicial enforcement mechanism for Part III rights, conferring the constitutional remedy to petition the Supreme Court directly via prerogative writs (*habeas corpus*, *mandamus*, *prohibition*, *certiorari*, and *quo warranto*). Dr. B.R. Ambedkar described Article 32 as the "heart and soul" of the Constitution, noting that rights without direct judicial remedies remain ineffective.
 
 The Supreme Court's jurisdiction under Article 32 is original jurisdiction — a person does not need to go through a High Court first. However, the Supreme Court can refuse to hear a petition if it is frivolous or if alternative remedies are available. Article 32 is enforceable only for Fundamental Rights, not for other constitutional rights — but in practice, the Court has used Article 32 to address a wide range of injustices.
 

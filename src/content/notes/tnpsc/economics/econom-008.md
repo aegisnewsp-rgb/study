@@ -56,7 +56,7 @@ Two competing explanations dominate TNPSC questions. The **Loanable Funds Theory
 
 #### Product Exhaustion and Distribution
 
-Walras' product exhaustion theorem states that under perfect competition, paying each factor its marginal product exactly uses up total output — there is no residual. This is the cornerstone of the **Marginal Productivity Theory of Distribution**, first formalised by J.B. Clark and later extended by Hicks and Samuelson. It cleanly separates **functional distribution** (how output is split between factors) from **personal distribution** (how that income ends up across households after taxes, transfers and ownership of factors).
+Walras' product exhaustion theorem states that under perfect competition with constant returns to scale (Euler's theorem), compensating each factor according to its marginal physical product fully accounts for total output without economic residual. This principle underpins the **Marginal Productivity Theory of Distribution**, formulated by J.B. Clark and expanded by J.R. Hicks and Paul Samuelson, distinguishing **functional distribution** (rewards to land, labour, and capital) from **personal distribution** (disposable income across households).
 
 #### Edge Cases and Examiner Traps
 

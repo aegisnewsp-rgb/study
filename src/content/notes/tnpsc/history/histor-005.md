@@ -54,7 +54,7 @@ Both religions emerged in the **Mahajanapadas** era — particularly in the king
 
 ### Additional Principles
 
-- **Anekantavada (Principle of Non-Absolutism):** Truth has multiple aspects — a cornerstone of Jain epistemological philosophy
+- **Anekantavada (Principle of Non-Absolutism):** Epistemological doctrine asserting that reality is complex and multifaceted, requiring multiple viewpoints (*nayavada*) for comprehension
 - **Syadvada (Conditioned View):** Sevenfold logical predication of any statement
 - **Karma theory:** Accumulation of karmic matter (pudgala) binds the soul; proper conduct and austerity can burn off karma
 

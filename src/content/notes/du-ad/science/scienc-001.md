@@ -41,7 +41,7 @@ Study strategy: Master free body diagrams before attempting numerical problems; 
 
 ### Foundational Concepts in Dynamics
 
-Classical mechanics splits naturally into two intellectual domains. Kinematics concerns itself with the mathematical description of motion — position, velocity, acceleration — without inquiry into what produces or changes that motion. Dynamics, by contrast, asks why motion changes, identifying forces as the causal agents. Newton's three laws, published in *Philosophiæ Naturalis Principia Mathematica* in 1687, codify the relationship between force and motion and remain the cornerstone of engineering, astronomy, and physics education worldwide. For the DU admission examination, a thorough grasp of these laws and their applications determines success in a significant portion of the physics paper.
+Classical mechanics splits naturally into two intellectual domains. Kinematics concerns itself with the mathematical description of motion — position, velocity, acceleration — without inquiry into what produces or changes that motion. Dynamics, by contrast, asks why motion changes, identifying forces as the causal agents. Newton's three laws, published in *Philosophiæ Naturalis Principia Mathematica* in 1687, codify the quantitative relationship between force and momentum change. For University of Dhaka science admission candidates, mastering these relationships alongside free-body diagrams and constraint equations is critical for mechanics problems.
 
 ### Newton's First Law: The Law of Inertia
 

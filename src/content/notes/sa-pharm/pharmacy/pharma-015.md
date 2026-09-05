@@ -104,7 +104,7 @@ Toxicokinetics describes the absorption, distribution, metabolism, and eliminati
 
 ### Supportive Care
 
-This is the cornerstone of poisoning management — specific antidotes are the exception rather than the rule.
+In acute clinical toxicology, supportive stabilization takes immediate priority over antidote administration, as specific antidotes exist for only a small fraction of ingestions.
 
 | Parameter | Monitoring | Intervention |
 |-----------|-----------|--------------|
@@ -481,7 +481,7 @@ South Africa has several venomous snakes: puff adder, Mozambique spitting cobra,
 ## Summary of Key Concepts
 
 - Toxicology management follows ABCDE approach; decontamination methods (activated charcoal preferred) and enhanced elimination (haemodialysis for specific poisons) are adjunctive
-- Supportive care is the cornerstone of poisoning management — antidotes are the exception
+- Airway maintenance, hemodynamic support, and supportive care take precedence in acute clinical toxicology; specific antidotes are available for only a limited subset of ingestions
 - Paracetamol poisoning: NAPQI mechanism; NAC antidote within 8 hours; monitor transaminases and INR
 - Opioid poisoning: naloxone reversal; CNS/respiratory/miosis triad; consider longer-acting opioids
 - Methanol and ethylene glycol: fomepizole inhibits alcohol dehydrogenase; haemodialysis for severe cases

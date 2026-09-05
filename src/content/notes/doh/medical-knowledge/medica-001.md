@@ -13,7 +13,7 @@ lastUpdated: 2026-03-25
 
 # Infection Control and Prevention
 
-Infection control is a cornerstone of safe healthcare practice in the UAE and one of the most heavily examined topics in the DOH (UAE) licensure examination. The UAE healthcare system treats a diverse population from regions with varying endemic infectious diseases, making robust infection prevention and control (IPC) practices absolutely critical. Healthcare-associated infections (HAIs) affect 5–15% of hospitalised patients globally, and the UAE has made HAI surveillance and prevention a national health priority under the Ministry of Health and Prevention (MOHAP) and Dubai Health Authority (DHA) frameworks.
+Infection prevention and control (IPC) is a heavily weighted domain in the Department of Health (DOH UAE) licensure examination. Because the UAE healthcare sector serves a multinational patient population, clinical staff must strictly adhere to transmission-based precautions, central line-associated bloodstream infection (CLABSI) bundles, surgical site infection (SSI) reduction protocols, and national surveillance guidelines mandated by the Ministry of Health and Prevention (MOHAP) and Dubai Health Authority (DHA).
 
 ---
 

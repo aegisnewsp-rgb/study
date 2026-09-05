@@ -15,7 +15,7 @@ lastUpdated: 2026-03-25
 
 **CS Executive Taxation | taxati-003**
 
-Welcome to the second comprehensive module on **GST Input Tax Credit & Compliance**, a critical area of GST law that directly impacts the operational cost structure of every business. Input Tax Credit (ITC) is the cornerstone of the GST mechanism — it is the mechanism by which the tax burden is passed through the supply chain, ultimately borne by the final consumer. Understanding ITC eligibility, distribution, blocked credits, and compliance requirements is **essential for every CS Executive examination candidate**.
+Input Tax Credit (ITC) forms the core operating mechanism of the GST framework, ensuring that tax is levied only on value addition across each stage of the supply chain rather than cascading through double taxation. For CS Executive candidates, mastering ITC eligibility conditions under Section 16, apportionment rules under Sections 17(1)–(2), and blocked credits under Section 17(5) is critical for computational problems and compliance drafting questions.
 
 This module covers the detailed provisions of ITC under Sections 16-20 of the CGST Act, the composition scheme under Section 10, e-way bill rules, invoicing requirements, refund mechanisms, demand and recovery provisions, appeals, and anti-evasion measures.
 

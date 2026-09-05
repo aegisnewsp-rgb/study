@@ -13,7 +13,7 @@ lastUpdated: 2026-03-25
 
 # Charyapada and Early Bengali Literature
 
-The Charyapada (চারিয়াপদা) stands as the oldest known specimen of Bengali literature, dating from approximately 8th to 12th century CE. These are Buddhist devotional songs (caryā or caryāgitika) composed by a group of 23 poets known as the Siddhas (সিদ্ধ), who were Vajrayana Buddhist practitioners. The Charyapada represents the foundation upon which the Bengali language and literary tradition were built, making it an essential topic for the DU Admission examination.
+The Charyapada (চারিয়াপদা) is the oldest known specimen of Bengali literature, dating from approximately the 8th to 12th century CE. These are Buddhist devotional songs (caryā or caryāgitika) composed by a group of 23 poets known as the Siddhas (সিদ্ধ), who were Vajrayana Buddhist practitioners. The collection marks the earliest recorded stage of Old Bengali (proto-Bengali) and remains a recurring subject in the University of Dhaka Bengali literature syllabus.
 
 ---
 

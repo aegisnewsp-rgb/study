@@ -57,7 +57,7 @@ Granted in 1960 and revised in 1971, the Coat of Arms is a black shield charged 
 - **National Motto** — *Unity and Faith, Peace and Progress*, the binding creed printed on the Coat of Arms.
 
 #### Why they matter in Civic Education
-National symbols encourage **patriotism**, foster a sense of belonging across Nigeria's ethnic groups, and remind citizens of the sacrifices made for independence. NCEE questions usually test **colour symbolism**, the **motto**, and the correct **identification** of flag stripes versus shield markings.
+National symbols promote civic unity across Nigeria's diverse ethnic groups and commemorate the country's transition to independence in 1960. NCEE questions usually test **colour symbolism**, the **motto**, and the correct **identification** of flag stripes versus shield markings.
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.

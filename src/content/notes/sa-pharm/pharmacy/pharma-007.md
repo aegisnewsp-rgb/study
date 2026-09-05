@@ -611,7 +611,7 @@ Renal impairment affects the elimination of drugs that are primarily renally exc
 
 **Special considerations in South Africa:**
 
-**HIV and renal impairment:** Tenofovir disoproxil fumarate (TDF) is a cornerstone of antiretroviral therapy in South Africa and is associated with nephrotoxicity (Fanconi syndrome, acute tubular necrosis). Patients on TDF-containing regimens require regular monitoring of renal function. Alternative formulations (tenofovir alafenamide, TAF) have improved renal safety profiles.
+**HIV and renal impairment:** Tenofovir disoproxil fumarate (TDF) forms the primary nucleotide reverse transcriptase inhibitor (NRTI) backbone in South African first-line adult antiretroviral regimens, but requires clinical vigilance due to risks of nephrotoxicity (proximal renal tubular dysfunction / Fanconi syndrome and acute tubular necrosis). Patients on TDF-containing regimens require regular monitoring of estimated glomerular filtration rate (eGFR) and urinalysis for proteinuria. Alternative formulations, such as tenofovir alafenamide (TAF), offer an improved renal safety profile.
 
 **Tuberculosis and renal impairment:** Isoniazid, rifampicin, and pyrazinamide are all used in TB treatment. Rifampicin is primarily hepatically eliminated and does not require renal dose adjustment. Isoniazid is hepatically metabolised (N-acetyltransferase) but the parent drug is partially excreted renally; dose adjustment is not routinely required in mild-to-moderate renal impairment. Pyrazinamide is renally eliminated; dose reduction is required in severe renal impairment.
 

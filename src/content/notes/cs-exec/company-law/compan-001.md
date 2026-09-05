@@ -621,7 +621,7 @@ Company is a separate legal person. Members are not owners of company property â
 1. **Salomon v. Salomon & Co. [1897] AC 22 (HL):**
    - Facts: Salomon incorporated his business as a company; he, his wife, and 4 children were subscribers; company had 20,007 shares; Salomon held 20,001 shares; company went into liquidation; unsecured creditors claimed Salomon should pay because he was the "real" owner
    - Held: Company is a distinct legal person; Salomon as shareholder was not liable for company's debts
-   - **Importance:** Established separate legal entity as cornerstone of company law
+   - **Importance:** Established the doctrine of corporate personality and separate legal entity in common law
 
 2. **Lee v. Lee's Air Farming Ltd [1961] AC 12 (PC):**
    - Facts: Lee was sole governing director (shareholder + managing director) of an airline; died in a plane crash while working for the company; his estate claimed workers' compensation

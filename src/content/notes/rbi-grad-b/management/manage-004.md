@@ -30,7 +30,7 @@ lastUpdated: "2026-07-25"
 
 ## Planning and Decision Making
 
-Planning is the cornerstone of all management functions. It provides direction, reduces uncertainty, minimises waste, and establishes standards for controlling. Without planning, organising, leading, and controlling have no purpose or benchmark.
+Planning serves as the primary preparatory phase in Fayol's administrative management cycle. It defines organizational objectives, evaluates environmental uncertainties, allocates resources, and establishes qualitative and quantitative benchmarks against which control functions measure performance.
 
 ## Nature and Importance of Planning
 

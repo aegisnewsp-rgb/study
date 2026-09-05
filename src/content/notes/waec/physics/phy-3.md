@@ -51,7 +51,7 @@ A projectile is any object launched into the air that is acted upon only by grav
 
 **Understanding Projectile Motion**
 
-Projectile motion is a cornerstone of WAEC Physics. It combines two straight-line motions — horizontal (constant velocity) and vertical (uniform acceleration) — into one elegant framework. The object moves freely through the air after being projected, with only gravitational force acting upon it.
+Projectile motion is a recurring topic in WAEC Physics Paper 2 (Theory) and Paper 1 (Objectives). It models two-dimensional motion under constant gravitational acceleration ($g \approx 9.8\text{ m/s}^2$ or $10\text{ m/s}^2$ as specified), separating kinematics into independent horizontal motion ($a_x = 0$) and vertical motion under gravity ($a_y = -g$).
 
 **The Two-Component Approach**
 

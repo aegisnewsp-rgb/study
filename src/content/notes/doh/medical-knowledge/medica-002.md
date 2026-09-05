@@ -13,7 +13,7 @@ lastUpdated: 2026-03-25
 
 # Vital Signs and Physiological Parameters
 
-Vital signs are the cornerstone of patient assessment and the most frequently performed nursing activity in any UAE healthcare facility. They provide objective, measurable data about a patient's physiological status and serve as the primary indicators of clinical deterioration or improvement. The DOH (UAE) examination tests your ability to accurately measure, interpret, and respond to vital sign abnormalities, with particular emphasis on recognising the significance of trends and deviations from normal. In the UAE's high-acuity hospital environment, early recognition of vital sign abnormalities is critical for timely medical intervention.
+Vital sign monitoring is fundamental to clinical triage, ongoing inpatient evaluation, and early identification of hemodynamic instability across UAE healthcare facilities. The DOH (UAE) licensing examination assesses candidate proficiency in recognizing early warning scores (such as NEWS2 or MEWS), detecting abnormal trends, calculating mean arterial pressure (MAP), and prioritizing interventions for hypovolemic, cardiogenic, or septic deterioration.
 
 ---
 

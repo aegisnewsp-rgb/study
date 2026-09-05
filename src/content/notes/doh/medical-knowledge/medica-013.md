@@ -86,7 +86,7 @@ Health promotion and patient education are fundamental components of nursing pra
 
 #### 3. Diabetes Education
 
-Diabetes education is the cornerstone of diabetes management in the UAE, where patient education programmes (DEPs) are established in all major hospitals.
+Structured self-management education forms a central component of diabetes care in UAE clinical practice, supported by dedicated patient education programmes (DEPs) across primary health centres and tertiary hospitals.
 
 **Key Topics for Diabetes Education:**
 - Understanding diabetes (type, causes, complications)

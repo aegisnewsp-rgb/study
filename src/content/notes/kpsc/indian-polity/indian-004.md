@@ -52,7 +52,7 @@ The DPSPs are classified into three broad categories based on the philosophical 
 
 ### DPSPs vs Fundamental Rights — Key Differences
 
-The distinction between Fundamental Rights and DPSPs is a cornerstone of Indian constitutional law. **Fundamental Rights** (Part III) are negative obligations — they tell the state what it must not do (discriminate, suppress speech, deny liberty). **DPSPs** (Part IV) are positive obligations — they tell the state what it should do for its citizens (provide education, ensure health, protect the environment).
+The operational distinction between Fundamental Rights and Directive Principles of State Policy (DPSPs) shapes Indian constitutional adjudication. **Fundamental Rights** (Part III, Articles 12–35) act primarily as justiciable negative obligations constraining state action against individual liberties. **DPSPs** (Part IV, Articles 36–51) represent non-justiciable socio-economic goals guiding legislative and executive policy.
 
 **Enforceability:** Fundamental Rights are enforceable in courts; DPSPs are not. However, in **Madhavi Singh v. State of Bihar (2005)**, the Supreme Court held that DPSPs are not entirely non-justiciable — courts can use them as standards to assess whether the state has fulfilled its obligations. In **Cases involving the right to education** — after the 86th Amendment (2002) made education a Fundamental Right under Article 21A — the Court has increasingly linked DPSP obligations to FR enforcement.
 

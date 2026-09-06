@@ -11,133 +11,103 @@ topicName: Reading Comprehension
 weight: 5
 country: pakistan
 generated: "2026-03-24T08:32:08.125154"
-lastUpdated: 2026-03-24
+lastUpdated: "2026-09-06"
 diagramPrompt: "Educational diagram illustrating Reading Comprehension with clear labels, white background, exam-style illustration"
 
 
 
 
 ---
+
 # Reading Comprehension
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your NAT-I/NTS exam.
+> Rapid summary for last-minute revision before your exam.
 
-**What is Reading Comprehension?**
-Reading Comprehension tests your ability to understand, analyse, and interpret written passages. In the NAT-I exam, you must answer questions based on passages of approximately 400–600 words.
+Reading Comprehension in NAT-I Verbal Reasoning tests how accurately you extract meaning from a 200–400 word English passage. The paper draws one or two passages with 4–5 MCQs each, in most keys framed around the **main idea**, **supporting detail**, **inference**, **vocabulary in context**, and **author's tone**.
 
-**Types of Questions:**
+- **Main Idea** = the single sentence the whole paragraph is built around; locate it in the topic sentence (in many papers paragraph one or the final paragraph).
+- **Inference** = combining two explicit clues to reach a conclusion the author only implies; never pick the extreme option ("always", "never", "completely").
+- **Vocabulary in Context** = swap each option into the sentence; keep the choice that preserves the author's logic, not the synonym you already know.
 
-1. **Literal questions:** Direct answers found in the passage
-2. **Inferential questions:** You must deduce the answer from what is implied, not stated
-3. **Vocabulary questions:** Meaning of words/phrases as used in the passage
-4. **Tone/purpose questions:** The author's attitude or intent
-
-**Answering Strategy:**
-1. Skim the passage once to understand the main idea
-2. Read the questions carefully
-3. Re-read the relevant section of the passage
-4. Answer based on evidence in the passage, not your own opinions
-
-⚡ **NTS Tip:** In NAT-I, passages often come from diverse topics: science, social issues, literature, current affairs. Focus on the central argument rather than individual details when reading for the main idea.
-
----
+Read the question stem **before** the passage, underline negation words (NOT, EXCEPT, LEAST), and ignore outside knowledge — NTS passages are self-contained.
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for NAT-I Verbal Reasoning students with a few days to months.
+> Standard content for students with a few days to months.
 
-**Question Types and Strategies:**
+#### How NTS Frames the Questions
 
-**1. Main Idea Questions:**
-"What is the passage primarily about?" or "Which of the following best summarises the passage?"
-- Find the main claim the author makes
-- Eliminate options that describe only a supporting detail
-- Watch for answers that overstate the author's claim
+Each Reading Comprehension cluster in NAT-I gives you a short expository or argumentative passage followed by four-option MCQs. Five question types recur: main idea, detail, inference, vocabulary-in-context, and tone/purpose. The stem in most keys points to a paragraph number ("According to paragraph 2…") or uses a negation ("Which of the following is NOT stated…").
 
-**2. Vocabulary-in-Context Questions:**
-"The word 'X' in the passage most nearly means..."
-- Test each option in the sentence from the passage
-- Choose the option that makes the sentence grammatically and logically coherent
+#### Identifying the Central Theme
 
-**3. Inference Questions:**
-"It can be inferred from the passage that..." or "The author implies that..."
-- The answer is not directly stated but is supported by the passage
-- Look for logical consequences of the author's statements
-- Eliminate options that are too broad, too narrow, or unsupported
+Scan for repetition. The word or idea that appears in several sentences — in most keys reinforced by pronouns like *this*, *such*, *these* — is the topic. The topic sentence in many papers sits first or last; in argumentative passages it can appear as the concluding sentence after the evidence is laid out.
 
-**4. Tone and Purpose:**
-"What is the author's tone?" / "What is the purpose of this passage?"
-- Tone options: objective, critical, satirical, persuasive, informative, nostalgic
-- Purpose options: to inform, to persuade, to entertain, to describe, to argue
+#### Distinguishing Fact From Opinion
 
-**5. Critical Reasoning Questions:**
-"Which of the following would most weaken/strengthen the argument?"
-- Identify the conclusion and evidence in the passage
-- An answer weakens the argument if it attacks the evidence or introduces a counterexample
+| Signal in the passage | Type of statement |
+| --- | --- |
+| Verifiable date, number, or named study | Fact |
+| Adjectives like *remarkable*, *disastrous*, *unfair* | Opinion |
+| Modal verbs *should*, *must*, *ought to* | Opinion / recommendation |
+| Past-tense reporting of events | Fact |
 
-**Common Distractors:**
-- An answer that is true in general but not supported by this specific passage
-- An answer that is stated in the passage but does not answer the question asked
-- An answer that uses the same key words as the passage but in a different context
+NTS rewards students who catch evaluative adjectives hidden inside otherwise factual sentences.
 
-⚡ **NTS Common Mistakes:**
-- Answering based on prior knowledge rather than what the passage actually says
-- Choosing an answer that is too broad or too narrow
-- Misreading the question (e.g., choosing an answer that strengthens when asked to find one that weakens)
+#### Solving Vocabulary-in-Context
 
----
+- Read the full sentence; ignore your prior knowledge of the word.
+- Substitute each option in place of the target word.
+- Keep the option that keeps the sentence logical and grammatically smooth.
+
+Common traps place a dictionary synonym that **does not fit the surrounding logic** — the right answer is the one that fits *this* sentence, not the one that matches a generic definition.
+
+#### Drawing Safe Inferences
+
+An inference must be **supported by at least two explicit clues**. Reject choices that add outside information, exaggerate, or contradict a stated fact. Moderate language ("likely", "tends to", "can") is preferred over absolute language ("definitely", "all", "none").
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for NAT-I Verbal Reasoning preparation.
+> Comprehensive coverage for students on a longer study timeline.
 
-**Text Structure Recognition:**
+#### Passage Organisation Patterns
 
-Writers structure their arguments in predictable patterns. Recognising these helps you navigate the passage:
+NTS passages favour five structures. Recognising the skeleton tells you where to look for the main idea and how details relate.
 
-- **Sequence:** Steps in a process, chronological events
-- **Cause and Effect:** Presents a problem followed by its causes or consequences
-- **Compare and Contrast:** Highlights similarities and differences between two or more things
-- **Definition and Example:** Introduces a concept then illustrates with examples
-- **Generalisation and Evidence:** Makes a claim and supports it with facts or statistics
+1. **Cause–Effect** — signal words: *because, therefore, as a result, consequently*. The effect in most keys sits in the final paragraph.
+2. **Compare–Contrast** — signal words: *however, unlike, similarly, on the other hand*. The author's lean is in many papers in the last sentence.
+3. **Problem–Solution** — signal words: *issue, propose, address, remedy*. The solution paragraph carries the main idea.
+4. **Chronological** — dates and sequence words (*later, subsequently, by 1990*). Main idea = the overall trend across the timeline.
+5. **Descriptive** — no transitions; main idea is the repeated sensory or thematic word.
 
-**Analysing Arguments:**
+#### High-Yield Traps in NAT-I
 
-Every argument has:
-- **Premise(s):** The evidence or starting assumptions
-- **Conclusion:** The claim that follows from the premises
-- **Hidden assumptions:** Unstated beliefs that connect premises to conclusion
+- **Negation flip** — "Which is NOT true" reverses the rule; underline the operator before scanning.
+- **Detail-as-main-idea** — a specific statistic is a supporting detail, not the central theme.
+- **Tone mismatch** — sarcasm or irony signals a tone opposite to the literal words ("What a brilliant policy" in a critical passage = negative).
+- **Extreme language** — answers containing *always, never, completely, only* are in most keys wrong on inference questions.
 
-*Example:* "All humans are mortal. Socrates is human. Therefore, Socrates is mortal."
-- Premise 1: All humans are mortal
-- Premise 2: Socrates is human
-- Conclusion: Socrates is mortal
+#### Worked Micro-Example
 
-**Fact vs Opinion:**
-- **Fact:** Can be verified through evidence or observation
-- **Opinion:** A personal judgment that cannot be proven true or false
+> *Passage excerpt:* "Urban gardens have spread across Karachi in the last decade. Residents cite fresher produce and lower grocery bills as the main benefits. However, water scarcity and soil contamination remain serious concerns for many growers."
 
-**Evaluating Evidence Quality:**
+Question: *What can be inferred about urban gardening in Karachi?*
+A) It has eliminated grocery costs for all residents.
+B) It faces practical challenges despite its popularity.
+C) It is unsupported by the government.
+D) It is the most profitable form of agriculture.
 
-Strong evidence is: specific, from credible sources, relevant to the claim, and not based on circular reasoning.
+Two clues — "spread across Karachi" (popularity) and "water scarcity and soil contamination remain serious concerns" (challenges) — combine into **B**. Option A adds an absolute ("all, eliminate") unsupported by the text; C and D introduce outside information.
 
-Weak evidence includes: anecdotal evidence (one person's story), overgeneralisation (making broad claims from limited examples), and appeals to authority (citing someone famous who isn't an expert in the field).
+#### Practice Prompts
 
-**Speed-Reading Techniques for the NTS:**
+1. Take any NAT-I past paper passage and write a one-line main idea before checking the official answer; this trains topic-sentence detection.
+2. Circle every evaluative adjective in the next passage you read and decide whether it signals fact or opinion; this sharpens tone questions.
 
-1. **Pre-read:** Read the first and last paragraph first — this often gives the main idea
-2. **Active reading:** Ask yourself "What is the author trying to convince me of?" as you read
-3. **Note signal words:** "However," "Therefore," "In contrast," "For example," "In conclusion"
-4. **Mark key sentences:** The first sentence of each paragraph often (but not always) contains the main point
+## Continue your study
 
-**Vocabulary Building for NTS:**
+- **[View this topic in your NAT-I (NTS) roadmap](/roadmap/?exam=nat-i&duration=1mo)** — see where "Reading Comprehension" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=nat-i&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NAT-I (NTS) exam overview](/exams/nat-i/)** — pattern, eligibility, and syllabus
+- **[All Verbal Reasoning notes](/notes/nat-i/verbal-reasoning/)** — browse sibling topics in this subject
 
-Build a habit of learning new words from context. Common NTS-level vocabulary words frequently tested include: ambiguous, substantiate, pragmatic, mitigate, exacerbate, corroborate, refute, inherent, superficial, plausible.
-
-**NTS/NAT-I Patterns:**
-- NAT-I Verbal Reasoning typically has 20 questions on reading comprehension
-- Passages are drawn from: essays, newspaper articles, scientific writing, and literary excerpts
-- Questions often test inference and critical reasoning more than recall
-- Time management: spend approximately 2 minutes per passage (including reading and answering)
-
----
-*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

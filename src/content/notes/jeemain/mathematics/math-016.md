@@ -25,7 +25,7 @@ diagramPrompt: "Clean educational diagram showing Straight Lines coordinate geom
 > Rapid summary for last-minute revision before your exam.
 
 **Straight Lines** — Key Facts for JEE Main
-Equation forms: Slope-intercept y = mx + c; Point-slope y − y₁ = m(x − x₁); Two-point (y − y₁) = [(y₂ − y₁)/(x₂ − x₁)](x − x₁)
+Equation forms: Slope-intercept $y = mx + c$; Point-slope $y - y_1 = m(x - x_1)$; Two-point $y - y_1 = \left(\frac{y_2 - y_1}{x_2 - x_1}\right)(x - x_1)$
 General form: Ax + By + C = 0; slope = −A/B (when B ≠ 0)
 Distance from point (x₁, y₁) to line Ax + By + C = 0: |Ax₁ + By₁ + C|/√(A² + B²)
 Angle between two lines: tan θ = |m₁ − m₂|/(1 + m₁m₂)|

@@ -25,9 +25,9 @@ diagramPrompt: "Clean educational diagram showing Statistics data distribution w
 > Rapid summary for last-minute revision before your exam.
 
 **Statistics** — Key Facts for JEE Main
-Mean: average of data; for grouped data: ∑f_ix_i/∑f_i
-Median: middle value when data is sorted; for grouped: L + [h/f](n/2 − c)
-Mode: most frequent value; for grouped: L + [h/f](f₁ − f₀)/(2f₁ − f₀ − f₂)
+Mean: average of data; for grouped data: $\sum f_i x_i / \sum f_i$
+Median: middle value when data is sorted; for grouped: $L + \left(\frac{h}{f}\right)\left(\frac{n}{2} - c\right)$
+Mode: most frequent value; for grouped: $L + \left(\frac{h}{f}\right)\left(\frac{f_1 - f_0}{2f_1 - f_0 - f_2}\right)$
 Variance: σ² = ∑(x_i − x̄)²/n or ∑f_i(x_i − x̄)²/∑f_i for grouped
 Standard deviation: σ = √variance
 ⚡ Exam tip: For grouped data mean, remember to multiply frequency by class mark (midpoint), not class boundaries!
@@ -51,10 +51,10 @@ Standard deviation: σ = √variance
 - Step deviation method: x̄ = A + h·∑f_i u_i/∑f_i where u_i = (x_i − A)/h
 
 **Median of grouped data:**
-Median = L + [h/f](n/2 − c) where L = lower limit of median class, h = class width, f = frequency of median class, c = cumulative frequency before median class
+Median = $L + \left(\frac{h}{f}\right)\left(\frac{n}{2} - c\right)$ where $L$ = lower limit of median class, $h$ = class width, $f$ = frequency of median class, $c$ = cumulative frequency before median class
 
 **Mode of grouped data:**
-Mode = L + [h/f](f₁ − f₀)/(2f₁ − f₀ − f₂) where L = lower limit of modal class, f₁ = frequency of modal class, f₀ = frequency before modal class, f₂ = frequency after modal class
+Mode = $L + \left(\frac{h}{f}\right)\left(\frac{f_1 - f_0}{2f_1 - f_0 - f_2}\right)$ where $L$ = lower limit of modal class, $f_1$ = frequency of modal class, $f_0$ = frequency before modal class, $f_2$ = frequency after modal class
 
 **Variance:**
 - Population variance: σ² = ∑(x_i − x̄)²/n

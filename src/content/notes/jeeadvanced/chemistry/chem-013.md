@@ -11,7 +11,7 @@ topicName: Colloidal
 weight: 3
 country: india
 generated: "2026-03-24T08:32:07.926323"
-lastUpdated: "2026-06-19"
+lastUpdated: "2026-09-06"
 diagramPrompt: "Clear scientific diagram of Colloidal with atom labels, molecular structure, reaction arrows, white background, color-coded bonds and groups, exam textbook style"
 
 
@@ -25,57 +25,76 @@ diagramPrompt: "Clear scientific diagram of Colloidal with atom labels, molecula
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-A **colloid** is a heterogeneous, two-phase system in which the **dispersed phase** (particles 1–1000 nm) is distributed uniformly through a **dispersion medium**. Size sits between true solutions (<1 nm) and suspensions (>1000 nm). The three diagnostic properties every JEE Advanced question hinges on are: **Tyndall effect** (scattering of light when particle diameter exceeds ~10⁻⁷ m), **Brownian motion** (zig-zag jitter of particles that prevents sedimentation), and **charge stabilization** (a zeta potential of ±30 mV or more keeps lyophobic sols from coagulating). **Lyophilic sols** (e.g. gum, starch, protein in water) are solvent-loving and self-stabilized; **lyophobic sols** (e.g. metals, metal sulfides) need a charge or protective colloid. The **Hardy–Schulze rule** is the single highest-yield fact: coagulation power of an electrolyte rises with the **sixth power of the valency** of the *counter-ion* (the ion of charge opposite to that on the sol). **CMC** (Critical Micelle Concentration) and **Kraft temperature** define when surfactant monomers assemble into **micelles** — a hot JEE topic.
+A **colloid** is a heterogeneous two-phase system where the dispersed phase (1 nm–1000 nm) is suspended in a dispersion medium. True solutions do not show the **Tyndall effect**; colloids do. The **Hardy-Schulze rule** states that the coagulating power of an electrolyte rises sharply with the valency of the counter-ion (ion of charge opposite to the sol).
 
----
+- **Dispersed phase size:** 1 nm to 1000 nm (typically cited up to 1 µm); below this → true solution; above → suspension.
+- **Hardy-Schulze order (for a negatively charged sol):** Al³⁺ > Ba²⁺ > Na⁺.
+- **Gold number:** mass (mg) of protective colloid that prevents coagulation of 10 mL standard red gold sol by 1 mL of 10 % NaCl. **Lower Gold number = higher protective power.**
+- **Common examples to memorise:** smoke (solid in gas), milk (O/W emulsion), fog (liquid in gas), jelly (gel).
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-#### Classification
-Based on the physical states of dispersed phase (DP) and dispersion medium (DM), eight colloidal types exist: **sol** (solid DP, liquid DM — e.g. gold sol), **gel** (liquid DP, solid DM — e.g. jelly), **emulsion** (liquid DP, liquid DM — e.g. milk, oil-in-water), **foam** (gas DP, liquid DM — e.g. whipped cream), **aerosol** (solid/liquid DP, gas DM — e.g. smoke, fog), and the three solid-medium counterparts. A second axis distinguishes **lyophilic** (reversible, viscosity-affecting) from **lyophobic** (irreversible, charge-stabilized) systems. A third axis — based on particle nature — splits colloids into **multimolecular** (e.g. S₈ aggregates in sulphur sol), **macromolecular** (e.g. proteins, polymers, where the molecule itself is colloidal), and **associated colloids/micelles** (surfactants that aggregate only above CMC).
+#### Classification and Phase Pairing
 
-#### Origin of Charge and Stability
-Lyophobic particles acquire charge by **preferential adsorption** of common ions from added electrolyte (e.g. AgI sol adsorbs I⁻ → negative sol; Ag⁺ → positive sol), by **ionization** of surface groups (e.g. –COOH on protein), or by **frictional electron transfer**. The adsorbed layer plus a diffuse layer of counter-ions form the **electrical double layer (Helmholtz/Stern/Gouy–Chapman model)**. The potential at the slipping plane is the **zeta potential (ζ)**; |ζ| ≥ ~30 mV gives kinetic stability.
+Colloids are first classified by **physical state of dispersed phase vs dispersion medium**. Sol = solid-in-liquid, aerosol = solid-in-gas (smoke) or liquid-in-gas (fog), emulsion = liquid-in-liquid, foam = gas-in-liquid, gel = liquid-in-solid network. They are also classified by **affinity**: lyophilic sols (e.g., starch, gum, protein) are self-stabilised and reversible; lyophobic sols (e.g., metals, metal sulphides) are irreversible and need stabilising electrolytes.
 
-#### Tyndall Effect and Brownian Motion
-A colloidal particle has diameter **d > wavelength of visible light**, so it scatters light (I ∝ 1/λ⁴ for d ≪ λ, Mie–Rayleigh regime). True solutions (ions, small molecules) show no Tyndall cone. **Brownian motion**, caused by uneven molecular bombardment from the DM, counteracts gravity; its kinetic energy equals (3/2)kT per particle. The sedimentation rate is given by **Stokes' law**: v = (2 r² (ρ − ρ₀) g) / 9η, showing why colloids do not settle appreciably.
+#### Stability and the Electrical Double Layer
 
-#### Coagulation and Protective Action
-According to **Hardy–Schulze**, coagulation power ∝ (valency of counter-ion)⁶. Coagulation *value* is the minimum mmol L⁻¹ of electrolyte that coagulates a sol in 2 h. **Gold number** (Zsigmondy) measures protective action: lower gold number = better protection. A protective colloid converts a lyophobic sol into a lyophilic one (e.g. gelatin protects a gold sol).
+Lyophobic particles carry a surface charge (often negative for metals like Au, Ag) acquired by preferential adsorption of ions from solution. This attracts counter-ions, forming the **electrical double layer**. The **zeta potential** (potential at the slipping plane) is the effective barrier to coagulation; values above ±30 mV usually keep the sol kinetically stable. Adding an electrolyte compresses the double layer and triggers coagulation.
 
-#### Emulsions, Gels, and Micelles
-**Emulsions** are lyophobic and need an **emulsifier** (surfactant) for stability — Bancroft's rule: the phase in which the emulsifier is more soluble becomes the continuous phase. **Micelles** form above **CMC** and above the **Kraft temperature**; the **aggregation number N = 4πr³/(3v₀)**, where v₀ is the volume of one hydrocarbon tail. Below CMC or below Kraft temperature, the surfactant is a true solution.
+#### Hardy-Schulze Rule and Coagulation Values
 
-#### Exam Pattern
-JEE Advanced asks 1–2 questions per year (≈3% weight). Frequent formats: match-the-column (colloid type ↔ example), single-correct MCQ (Tyndall / Brownian / Hardy–Schulze), and integer-type (CMC, gold number, valency power). Numericals often test the 6th-power rule, sedimentation velocity, or N from micelle geometry.
+Coagulating power ∝ (valency of counter-ion)⁶. The **coagulation value** (mmol L⁻¹) is the minimum electrolyte concentration causing coagulation in 2 hours; a lower coagulation value means stronger coagulating power.
 
----
+| Concept | Key point |
+| --- | --- |
+| Hardy-Schulze rule | Coagulating power rises with counter-ion valency⁶ |
+| Gold number | mg of protector preventing coagulation of 10 mL red gold sol with 1 mL 10 % NaCl |
+| Protective power | 1 / Gold number (mg⁻¹); gelatin ≈ 0.01, starch ≈ 5 |
+| Electrophoresis | Charged sol particles migrate to the oppositely charged electrode |
+| Mutual coagulation | Oppositely charged sols (e.g., Fe(OH)₃⁺ and As₂S₃⁻) precipitate each other |
+
+#### Preparation and Purification
+
+Chemical methods include reduction (Au sol by tannic acid), hydrolysis (Fe(OH)₃ sol from FeCl₃ + hot water), and double decomposition (As₂S₃ sol). **Bredig's arc method** prepares metal sols by striking an electric arc between metal electrodes immersed in cold water containing a stabiliser. **Peptization** converts a freshly prepared precipitate back into a colloidal sol by adding a small amount of suitable electrolyte. Excess electrolyte is removed by **dialysis** (semi-permeable membrane), electrodialysis, or **ultrafiltration**.
+
+- Tyndall effect: scattering of light; colloidal particles are comparable to wavelength of visible light.
+- Brownian motion: random zig-zag trajectory due to unbalanced molecular collisions; provides kinetic stability.
+- Coagulation by prolonged dialysis: removal of stabilising ions destabilises lyophobic sols.
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-#### Double Layer in Detail
-The Stern model places a fixed layer of specifically adsorbed counter-ions (Stern layer) at the particle surface, followed by a diffuse Gouy–Chapman layer. The total potential drop is ψ₀ (surface) → ψ_δ (Stern plane) → 0 (bulk). The **zeta potential ζ ≈ ψ_δ**. When an indifferent electrolyte is added, ζ falls, the double layer compresses (Debye length κ⁻¹ ∝ 1/√I), and coagulation occurs once ζ falls below the critical value (~25–30 mV). This explains Hardy–Schulze quantitatively: higher-valency counter-ions screen the surface charge far more effectively per unit concentration.
+#### Quantitative Worked Example
 
-#### Ostwald Ripening and Kinetic Stability
-In polydisperse sols, smaller particles have higher solubility (Kelvin equation), dissolve, and redeposit on larger ones, shifting particle size upward with time. This **Ostwald ripening** is a slow degradation mechanism distinct from coagulation. Brownian motion provides only kinetic (not thermodynamic) stability; given enough time, all lyophobic sols ultimately coagulate.
+A red gold sol is prepared with spherical Au particles of radius 10 nm and density 19.3 g cm⁻³. Specific surface area A = 3 / (r · ρ) = 3 / (10⁻⁸ m × 19.3 × 10³ kg m⁻³) ≈ 1.55 × 10⁴ m² kg⁻¹. Particle number concentration N = m / [(4/3) π r³ ρ]; for 1 g of Au, N ≈ 1 / [(4/3)π(10⁻⁸)³ × 19,300] ≈ 1.24 × 10¹⁸ particles. This huge N explains the intense Tyndall scattering and rapid coagulation kinetics observed in JEE Advanced problems on colloidal dosage.
 
-#### Purification Methods
-**Dialysis** uses a semipermeable membrane to remove soluble impurities from a colloid. **Ultrafiltration** uses a graded filter (e.g. collodion) — colloids are retained while small ions pass. **Electro-dialysis** accelerates dialysis using an applied field. Coagulation can be reversed by **peptization**: washing a freshly precipitated Fe(OH)₃ with a trace of FeCl₃ re-disperses it as a positive sol because the adsorbed Fe³⁺ ions recreate the double layer.
+#### Edge Cases and Traps
 
-#### Worked Numeric
-A gold sol particle has radius 50 nm, density 19.3 g cm⁻³ dispersed in water (η = 1.0 × 10⁻³ Pa·s, ρ₀ = 1.0 g cm⁻³). Sedimentation velocity: v = (2 × (50 × 10⁻⁹)² × (19.3 − 1.0) × 10³ × 9.8) / (9 × 1.0 × 10⁻³) = (2 × 2.5 × 10⁻¹⁵ × 18.3 × 10³ × 9.8) / (9 × 10⁻³) ≈ 9.97 × 10⁻⁸ m s⁻¹ ≈ 0.1 µm s⁻¹ — confirming why colloids do not settle under gravity.
+Lyophilic sols are nearly insensitive to added electrolytes at low concentrations — they require massive salt excess or a poor solvent to coagulate ("salting out"). Proteins can carry both positive and negative charges depending on pH (zwitterionic behaviour), so the direction of electrophoresis reverses at the isoelectric point. Emulsions demulsify on freezing, heating, or centrifuging; **emulsifiers** (surfactants like soap, Tween) lower interfacial tension by sitting at the oil–water interface.
 
-#### Connections and Common Mistakes
-- **Brownian motion vs. Tyndall**: both arise from the size range, but Tyndall is *optical*, Brownian is *mechanical*. JEE traps students by offering options that swap the two.
-- **Hardy–Schulze**: the power is **6** (not 3, not 2) and it is the **counter-ion** (not the co-ion). Mixing these up is the most common integer-type error.
-- **Lyophilic sols do coagulate** at high electrolyte concentration (salting out, e.g. protein precipitation by (NH₄)₂SO₄), but the mechanism is dehydration, not double-layer compression.
-- **Micelle questions**: only above **both** CMC and Kraft temperature will micelles form; below Kraft temperature, solubility is too low and surfactant crystallizes out.
+#### Connections and Applications
 
-#### Practice Prompts
-1. A negatively charged arsenious sulphide sol is coagulated by 0.04 M NaCl, 0.013 M BaCl₂, and 0.0007 M AlCl₃. Verify Hardy–Schulze and compute the relative coagulation values.
-2. A soap solution at CMC = 1.0 × 10⁻³ M forms spherical micelles of radius 2.0 nm with tail volume 3.0 × 10⁻²⁸ m³. Estimate the aggregation number N and the average molecular mass if the surfactant molar mass is 300 g mol⁻¹.
+Colloidal chemistry underpins **water purification by alum** (Al³⁺ coagulates negatively charged clay colloids), the **Cottrell precipitator** (high-voltage electrode collects smoke/dust particles), **photographic film** (AgBr sol in gelatin), and **medicines** (colloidal silver, milk of magnesia). Gels show **thixotropy** (set on standing, flow on shaking) and **syneresis** (spontaneous expulsion of liquid on ageing, e.g., gum arabic gel).
+
+| Mistake | Correction |
+| --- | --- |
+| "Higher Gold number means stronger protection" | False — Gold number is inversely related to protective power |
+| "Hardy-Schulze depends on the same-sign ion's valency" | Wrong — counter-ion (opposite sign) governs coagulation |
+| "Colloids are always negatively charged" | Wrong — metal oxides (Fe(OH)₃, Al(OH)₃) are positively charged |
+| "Emulsion = sol" | Wrong — sol is solid-in-liquid; emulsion is liquid-in-liquid |
+
+#### Practice prompts:
+1. A negatively charged sol coagulates fastest with AlCl₃, slower with BaCl₂, slowest with NaCl. Arrange coagulating power and explain using Hardy-Schulze.
+2. Why does prolonged dialysis of a freshly prepared Fe(OH)₃ sol cause coagulation while the same treatment leaves a starch sol intact?
+
+## Continue your study
+
+- **[View this topic in your JEE Advanced roadmap](/roadmap/?exam=jeeadvanced&duration=1mo)** — see where "Colloidal" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=jeeadvanced&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[JEE Advanced exam overview](/exams/jeeadvanced/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/jeeadvanced/chemistry/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

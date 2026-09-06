@@ -11,7 +11,7 @@ topicName: Fluid Dynamics
 weight: 3
 country: pakistan
 generated: "2026-03-24T08:32:08.083024"
-lastUpdated: 2026-03-24
+lastUpdated: "2026-09-06"
 diagramPrompt: "Clean educational diagram showing Fluid Dynamics with clear labels, white background, labeled arrows for forces/fields/vectors, color-coded components, exam-style illustration"
 
 
@@ -19,104 +19,83 @@ diagramPrompt: "Clean educational diagram showing Fluid Dynamics with clear labe
 
 
 ---
+
 # Fluid Dynamics
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your MDCAT exam.
+> Rapid summary for last-minute revision before your MDCAT Physics paper.
 
-**What is Fluid Dynamics?**
-Fluid dynamics studies fluids (liquids and gases) in motion. For MDCAT, the two core topics are **fluid flow** (continuity equation) and **fluid pressure** (Pascal's principle, Archimedes' principle, Bernoulli's theorem).
+Fluid dynamics studies how liquids and gases move and the forces acting on them. The MDCAT asks roughly one MCQ from this 3% weightage topic, almost always on the **continuity equation** or **Bernoulli's principle**.
 
-**Key Formulas:**
+- **Volume flow rate** $Q = A \cdot v$, where $A$ is cross-sectional area in m² and $v$ is fluid speed in m/s, giving $Q$ in m³/s.
+- **Continuity equation** for an incompressible fluid: $A_1 v_1 = A_2 v_2$ (product in m³/s).
+- **Bernoulli's equation**: $P + \tfrac{1}{2}\rho v^2 + \rho g h = \text{constant}$, where $P$ is pressure in Pa, $\rho$ is density in kg/m³, and $h$ is height in m.
+- In a horizontal pipe, higher speed means **lower** pressure — this is the Venturi effect.
+- Dynamic viscosity $\eta$ has SI units of **Pa·s**, not poise.
 
-**Density:** $\rho = m/V$ (kg/m³)
-
-**Pressure:** $P = F/A$ (Pa = N/m²)
-
-**Pressure in a fluid at depth:** $P = P_0 + \rho gh$
-
-**Archimedes' Principle:** Buoyant force $F_b = \rho_{fluid} \times V_{displaced} \times g$
-
-**Continuity Equation (Conservation of Mass):** $A_1v_1 = A_2v_2$ (for incompressible flow)
-
-**Bernoulli's Equation:** $P + \frac{1}{2}\rho v^2 + \rho gh = \text{constant}$
-
-⚡ **MDCAT Tip:** Bernoulli's equation is for **horizontal flow** (h constant) or when comparing points along a streamline. Common trap: students forget that Bernoulli's equation is NOT for highly viscous fluids or situations with significant height differences.
-
----
+> Exam tip: Convert everything to SI before plugging numbers. Mixing cm/s with m³/s is the fastest way to lose one mark.
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Pascal's Principle:**
-Pressure applied to an enclosed fluid is transmitted equally to every part of the fluid and the walls of the container. This is the working principle behind hydraulic presses and hydraulic brakes.
+#### Types of flow
+**Streamline (laminar) flow** has parallel, non-crossing streamlines and occurs at low Reynolds numbers ($Re \lessapprox 2300$ for pipes). **Turbulent flow** has chaotic eddies and dominates above $Re \gtrapprox 4000$. The Reynolds number $Re = \rho v L / \eta$ is dimensionless and uses a characteristic length $L$ (pipe diameter, in m).
 
-For a hydraulic press: $\frac{F_1}{A_1} = \frac{F_2}{A_2}$ → Mechanical advantage = $A_2/A_1$
+#### Continuity and flow rate
+For an incompressible fluid, mass entering a pipe per second equals mass leaving per second. With constant $\rho$, this reduces to $A_1 v_1 = A_2 v_2$. A nozzle (smaller $A$) therefore produces a faster jet — the principle behind perfume sprayers and Bunsen burners.
 
-If the large piston has 10× the area of the small piston, a 100 N force on the small piston can lift a 1000 N load on the large piston — but the small piston must move 10× further.
+#### Bernoulli's principle
+Bernoulli's equation combines a fluid's pressure energy, kinetic energy, and gravitational potential energy along a streamline. For a horizontal pipe the $\rho g h$ term cancels, and the equation simplifies to $P_1 + \tfrac{1}{2}\rho v_1^2 = P_2 + \tfrac{1}{2}\rho v_2^2$. Combine this with continuity to solve Venturi-meter problems.
 
-**Archimedes' Principle in Detail:**
-A body immersed in a fluid experiences an upward buoyant force equal to the weight of the fluid displaced.
+| Concept | Governing equation | SI units |
+| --- | --- | --- |
+| Volume flow rate | $Q = A v$ | m³/s |
+| Continuity | $A_1 v_1 = A_2 v_2$ | m³/s |
+| Bernoulli (full) | $P + \tfrac{1}{2}\rho v^2 + \rho g h = \text{const}$ | Pa |
+| Bernoulli (horizontal) | $P_1 + \tfrac{1}{2}\rho v_1^2 = P_2 + \tfrac{1}{2}\rho v_2^2$ | Pa |
+| Viscosity (Newton) | $\tau = \eta \, dv/dy$ | Pa·s |
 
-Three cases to remember for MDCAT:
-- **Floating body:** Density of body < Density of fluid. Fraction submerged = $\rho_{body}/\rho_{fluid}$
-- **Fully submerged body:** Buoyant force > Weight → body rises (floats up)
-- **Sinking body:** Density of body > Density of fluid. Weight > Buoyant force
+#### Viscosity and Poiseuille's law
+Shear stress $\tau$ in a real fluid is proportional to the velocity gradient $dv/dy$, with $\eta$ as the constant of proportionality. For laminar flow in a cylindrical tube of radius $r$ and length $L$, Poiseuille's law gives $Q \propto \Delta P \, r^4 / (\eta L)$ — halving the radius drops flow by a factor of 16.
 
-**MDCAT Worked Example:**
-A wooden block (density = 0.6 g/cm³) of volume 100 cm³ floats in water. What fraction is submerged?
-
-Solution: Fraction submerged = $\rho_{wood}/\rho_{water} = 0.6/1.0 = 0.6$ (60% submerged, 40% above water)
-
-**Viscosity and Stoke's Law:**
-Viscosity is a fluid's resistance to flow. For a sphere falling through a viscous fluid:
-$$F_b = 6\pi\eta rv$$
-
-At terminal velocity: $mg = F_b + \text{upthrust}$ → $mg = 6\pi\eta rv + \rho_{fluid}Vg$
-
-⚡ **MDCAT Tip:** Terminal velocity questions are common in MDCAT. Remember that at terminal velocity, net force = 0, so drag force equals the net downward weight minus buoyant force.
-
----
+- Always convert $v$ to m/s and $\rho$ to kg/m³ before substituting.
+- Bernoulli applies only to **ideal** (non-viscous, incompressible, steady) flow.
+- The Venturi effect runs opposite to intuition: faster fluid ⇒ lower pressure.
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-**Bernoulli's Equation — Deep Derivation:**
-From work-energy principle: Work done by pressure + Work done by gravity = Change in kinetic energy
+#### Worked numerical
+A horizontal pipe narrows from $A_1 = 0.04 \text{ m}^2$ to $A_2 = 0.01 \text{ m}^2$. Water ($\rho = 1000 \text{ kg/m}^3$) enters at $v_1 = 1 \text{ m/s}$ and $P_1 = 1.5 \times 10^5 \text{ Pa}$.
 
-For a fluid element moving through a pipe of varying cross-section:
-$$P_1 A_1 \Delta x_1 - P_2 A_2 \Delta x_2 = \frac{1}{2}mv_2^2 - \frac{1}{2}mv_1^2$$
+Step 1 — Continuity: $v_2 = A_1 v_1 / A_2 = (0.04 \times 1) / 0.01 = 4 \text{ m/s}$.
+Step 2 — Horizontal Bernoulli: $P_2 = P_1 + \tfrac{1}{2}\rho(v_1^2 - v_2^2) = 1.5\times10^5 + 500 \times (1 - 16) = 1.42 \times 10^5 \text{ Pa}$.
+Pressure **drops** by 8 kPa as the section narrows, matching the Venturi prediction.
 
-Since $A_1\Delta x_1 = A_2\Delta x_2 = V$ (volume of fluid element):
-$$P_1 V - P_2 V = \frac{1}{2}\rho V(v_2^2 - v_1^2)$$
-$$P_1 + \frac{1}{2}\rho v_1^2 = P_2 + \frac{1}{2}\rho v_2^2$$
+#### Edge cases and links
+- **Compressible gases:** continuity needs the full form $\rho_1 A_1 v_1 = \rho_2 A_2 v_2$; the simple $A v$ version breaks down near sonic speeds.
+- **Dynamic vs kinematic viscosity:** $\nu = \eta/\rho$ has units m²/s and appears in the Reynolds denominator when written as $Re = vL/\nu$.
+- **Connection to circulatory physiology:** the $r^4$ dependence of Poiseuille flow explains why even small arterial constrictions dramatically raise blood pressure — a frequent MCQ link in MDCAT Biology–Physics crossover questions.
 
-Including height: $P + \frac{1}{2}\rho v^2 + \rho gh = \text{constant}$
+| Common mistake | Correction |
+| --- | --- |
+| Using $A_1 v_1 = A_2 v_2$ for a compressible gas | Use $\rho_1 A_1 v_1 = \rho_2 A_2 v_2$ instead |
+| Writing "higher $v$ → higher $P$" | In horizontal flow, higher $v$ means lower $P$ |
+| Dropping $\rho g h$ in non-horizontal pipes | Keep the term whenever $h_1 \ne h_2$ |
+| Treating turbulent flow with Bernoulli | Bernoulli strictly requires streamline flow |
+| Mixing cgs and SI units | Convert $v$ to m/s and $\rho$ to kg/m³ first |
 
-**Applications of Bernoulli's Equation:**
+#### Practice prompts
+1. A pipe of cross-section 20 cm² carries oil at 3 m/s into a 5 cm² constriction. Find the exit speed using continuity, then the pressure drop using horizontal Bernoulli (take $\rho_{\text{oil}} = 860 \text{ kg/m}^3$).
+2. Explain in three lines why a chimney draws better on a windy day, identifying the Bernoulli or Venturi mechanism involved.
 
-**Venturimeter:** Used to measure flow rate in a pipe. The pressure difference $P_1 - P_2$ is measured using a manometer.
-$$v_1 = A_2\sqrt{\frac{2(P_1-P_2)}{\rho(A_1^2-A_2^2)}}$$
+> Exam strategy: With only ~1 MCQ from this 3% topic, spend 15 minutes max — nail the horizontal-pipe Bernoulli plus the $r^4$ Poiseuille fact and move on to higher-weight chapters.
 
-**Torricelli's Theorem:** Speed of efflux (liquid flowing out of a small hole at depth h below surface):
-$$v = \sqrt{2gh}$$
+## Continue your study
 
-**Surface Tension and Capillarity:**
-Surface tension $\gamma$ is the force per unit length acting parallel to the surface:
-$$\gamma = \frac{F}{L}$$
+- **[View this topic in your MDCAT roadmap](/roadmap/?exam=mdcat&duration=1mo)** — see where "Fluid Dynamics" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=mdcat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[MDCAT exam overview](/exams/mdcat/)** — pattern, eligibility, and syllabus
+- **[All Physics notes](/notes/mdcat/physics/)** — browse sibling topics in this subject
 
-Capillary rise: $h = \frac{2\gamma\cos\theta}{\rho g r}$
-- Water rises in glass (θ ≈ 0°, cosθ positive)
-- Mercury falls in glass (θ > 90°, cosθ negative)
-
-**MDCAT Common Mistakes:**
-1. Confusing pressure with force — pressure × area gives force
-2. Forgetting that buoyant force acts on the ENTIRE submerged portion, not just the bottom
-3. Using Bernoulli's equation for non-streamline flow or when viscosity is significant
-4. Mixing up gauge pressure and absolute pressure in fluid statics problems
-5. In continuity equation: $A_1v_1 = A_2v_2$ only holds for **incompressible** fluids
-
-**Priority Order for MDCAT:** Fluid pressure → Pascal's Principle → Archimedes' Principle → Continuity Equation → Bernoulli's Equation → Viscosity/Stoke's Law → Surface Tension
-
----
-*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

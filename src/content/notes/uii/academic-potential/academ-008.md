@@ -8,7 +8,7 @@ topicName: Geometry Basics
 weight: 3
 country: indonesia
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-06"
 ---
 
 # Geometry Basics
@@ -16,153 +16,85 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-Geometry deals with shapes, sizes, and the properties of space. In the UI entrance test, geometry questions test your understanding of angles, areas, perimeters, and the relationships between 2D shapes. Master the key angle rules and area/perimeter formulas.
+Geometry Basics for the UTUL UI Potensi Akademik section covers plane figures, circles, and standard solids at a multiple-choice level weighted around 3% of the overall score. The fastest-scoring formulas are the Pythagorean theorem for right triangles, the area formulas for triangles and rectangles, and the circle circumference and area formulas.
 
-**Essential Angle Rules:**
-- Angles on a straight line sum to 180°
-- Angles around a point sum to 360°
-- Vertically opposite angles are equal
-- In a triangle, angles sum to 180°; in a quadrilateral, to 360°
-- Parallel lines: corresponding angles are equal; alternate angles are equal; co-interior (allied) angles sum to 180°
-
-**Key Area and Perimeter Formulas:**
-- Rectangle: area = l × w; perimeter = 2(l + w)
-- Triangle: area = ½ × base × height
-- Circle: area = πr²; circumference = 2πr
-- Trapezium: area = ½(a + b)h, where a, b are parallel sides
-- Parallelogram: area = base × height
-
-**Pythagoras' Theorem:** In a right-angled triangle, a² + b² = c², where c is the hypotenuse.
-Common Pythagorean triples: (3,4,5), (5,12,13), (8,15,17), (7,24,25).
-
-⚡ **Exam Tip:** In a parallel-line geometry problem, look for F-shaped (corresponding), Z-shaped (alternate), or C-shaped (co-interior) angle configurations. For area problems with composite shapes, split the shape into rectangles, triangles, and circles, calculate each area separately, then add or subtract as appropriate.
-
----
+- **Right triangle:** $a^2 + b^2 = c^2$, with $c$ as the hypotenuse (longest side, opposite the 90° angle).
+- **Triangle area:** $A = \tfrac{1}{2} \cdot b \cdot h$, where $h$ must be perpendicular to base $b$.
+- **Circle:** $C = 2\pi r = \pi d$ and $A = \pi r^2$, where $r$ = radius and $d$ = diameter (both in m).
+- **Inscribed angle rule:** the inscribed angle equals **half** the central angle on the same arc; the inscribed angle in a semicircle is always 90°.
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Basic Angles**
+#### Core Definitions and Angle Properties
 
-*Angles on a straight line:* If one angle is 120°, the adjacent angle on the same line is 60°.
-*Vertically opposite angles:* When two lines intersect, opposite angles are equal. If one angle is 65°, the opposite angle is also 65°.
+A **point** has position only; a **line segment** has two endpoints; a **ray** has one endpoint and extends infinitely. When two lines meet they form an **angle**, classified as acute (<90°), right (=90°), obtuse (>90° and <180°), or straight (=180°).
 
-**Parallel Lines**
+The interior angles of a triangle sum to 180°, and those of any quadrilateral sum to 360°. When a transversal cuts two parallel lines, it creates **corresponding angles** (equal), **alternate interior angles** (equal), and **co-interior angles** (supplementary, summing to 180°). These angle relationships appear in UTUL UI items that hide a geometry fact inside an algebra-looking question.
 
-When a transversal crosses two parallel lines:
-- Corresponding angles (same position, e.g., top-left of each intersection) are equal: ∠ in top-left at first intersection = ∠ in top-left at second intersection
-- Alternate angles (on opposite sides of the transversal, inside the parallel lines) are equal
-- Co-interior/allied angles (same side of transversal, inside parallel lines) sum to 180°
+#### Plane Figures and Their Formulas
 
-**Triangles**
+| Figure | Perimeter / Circumference | Area |
+| --- | --- | --- |
+| Rectangle (sides $l$, $w$) | $P = 2(l + w)$ | $A = l \cdot w$ |
+| Triangle (base $b$, height $h$) | sum of the three sides | $A = \tfrac{1}{2} \cdot b \cdot h$ |
+| Parallelogram (base $b$, height $h$) | $2(b + \text{slant side})$ | $A = b \cdot h$ |
+| Trapezoid (parallel sides $a$, $b$, height $h$) | sum of the four sides | $A = \tfrac{1}{2}(a + b)h$ |
+| Circle (radius $r$) | $C = 2\pi r$ | $A = \pi r^2$ |
 
-*Angle sum:* All three interior angles sum to 180°.
-*Exterior angle:* An exterior angle equals the sum of the two opposite interior angles.
-*Isosceles triangle:* Two sides equal → two angles opposite those sides are equal.
-*Equilateral triangle:* All sides equal, all angles = 60°.
+In UTUL UI multiple-choice geometry items, the test-taker usually has to pick the correct formula and apply it with consistent units (cm vs m). The most common trick is providing one length in cm and another in m without a unit conversion.
 
-Example: In triangle ABC, ∠A = 50° and ∠B = 60°. Find ∠C. ∠C = 180° − 50° − 60° = 70°.
+#### Triangles: Congruence and Similarity
 
-**Pythagoras' Theorem**
+- **Congruence:** triangles are identical in shape and size. Criteria: **SSS**, **SAS**, **ASA**, **AAS**, and **RHS** (right-angle, hypotenuse, side).
+- **Similarity:** triangles share angles but differ in size by a **scale factor** $k$. Criteria: **AA**, **SSS** (proportional sides), **SAS** (proportional sides with equal included angle).
+- Under similarity, lengths scale by $k$, areas by $k^2$, and volumes by $k^3$.
 
-For right-angled triangles only: the square of the hypotenuse equals the sum of squares of the other two sides.
+#### Circles, Coordinates, and Solids
 
-Example: A ladder 5 m long leans against a wall, with its foot 3 m from the wall. How high does it reach?
-3² + h² = 5² → 9 + h² = 25 → h² = 16 → h = 4 m.
+A central angle and its inscribed angle on the same arc follow $\theta_{\text{inscribed}} = \tfrac{1}{2}\theta_{\text{central}}$. The midpoint of segment joining $(x_1, y_1)$ and $(x_2, y_2)$ is $\left(\tfrac{x_1+x_2}{2}, \tfrac{y_1+y_2}{2}\right)$, and the distance between them is $d = \sqrt{(x_2-x_1)^2 + (y_2-y_1)^2}$.
 
-**Quadrilaterals**
+| Solid | Volume formula | Variables |
+| --- | --- | --- |
+| Rectangular prism | $V = l \cdot w \cdot h$ | $l, w, h$ = edge lengths |
+| Cylinder | $V = \pi r^2 h$ | $r$ = base radius, $h$ = height |
+| Sphere | $V = \tfrac{4}{3}\pi r^3$ | $r$ = radius |
 
-*Parallelogram:* opposite sides parallel and equal; opposite angles equal; diagonals bisect each other. Area = base × height.
-*Rectangle:* parallelogram with all angles 90°. Diagonal d = √(l² + w²).
-*Rhombus:* all sides equal; opposite angles equal; diagonals are perpendicular bisectors.
-*Trapezium:* one pair of parallel sides. Area = ½(sum of parallel sides) × height.
-*Kite:* two pairs of adjacent sides equal; one pair of opposite angles equal; diagonals are perpendicular.
-
-**Circles**
-
-Circumference = 2πr = πd. Area = πr².
-Arc length = (θ/360) × 2πr. Sector area = (θ/360) × πr².
-Chord: a line segment connecting two points on the circle. Perpendicular bisector of a chord passes through the centre.
-
-**Similar Figures**
-
-Two shapes are similar if they have the same shape but different sizes (corresponding angles equal, corresponding sides in proportion).
-Scale factor = (length of side in image) / (corresponding side in original).
-Area scale factor = (scale factor)².
-Volume scale factor = (scale factor)³.
-
-**Problem-Solving Strategies:**
-- For complex composite shapes, draw the shape and label all known dimensions
-- In right-angled triangles, check whether Pythagorean triples apply before doing long calculations
-- For similar triangles, identify which sides correspond and set up a ratio equation
-- In circle problems, draw radii to vertices — this often creates isosceles triangles you can work with
-
-**Common Mistakes:**
-- Using Pythagoras' theorem on non-right-angled triangles — it only applies to right-angled triangles
-- Confusing diameter with radius in circle calculations
-- Forgetting that in an isosceles triangle, the altitude from the apex also bisects the base
-- In similar figure problems, mixing up the scale factor for area (square it!) or volume (cube it!)
-
----
-
-### 🔴 Extended — Deep Study (3m3+)
+### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-**Angle Chasing in Complex Diagrams**
+#### Worked Example: Triangle and Circle Combined
 
-Angle chasing involves using known angle relationships to find unknown angles step by step.
+A right triangle has legs of 6 m and 8 m. Find its area and the circumference of its circumcircle.
 
-Example: In triangle ABC, D lies on AC, and line CD is extended to E. If ∠DBC = 30° and ∠BCA = 50°, find ∠CDE.
-Because D is on AC, ∠BCD = ∠BCA = 50°. In triangle BCD, ∠CDE is the exterior angle at D, so it equals the sum of the two opposite interior angles: ∠CDE = ∠DBC + ∠BCD = 30° + 50° = 80°.
+The hypotenuse from the Pythagorean theorem is $c = \sqrt{6^2 + 8^2} = \sqrt{36 + 64} = \sqrt{100} = 10$ m. The triangle area is $A = \tfrac{1}{2} \cdot 6 \cdot 8 = 24 \text{ m}^2$. Because the triangle is right-angled, the hypotenuse is the diameter of the circumcircle (Thales' theorem), so $r = c/2 = 5$ m and $C = 2\pi r = 10\pi \approx 31.42$ m.
 
-**Proof: Sum of Interior Angles of a Polygon**
+#### Edge Cases and Adjacent Connections
 
-An n-sided polygon can be divided into (n − 2) triangles by drawing diagonals from one vertex. Each triangle has angles summing to 180°. So sum of interior angles = (n − 2) × 180°.
-Example: A hexagon (n=6): (6−2) × 180° = 4 × 180° = 720°.
-Exterior angles always sum to 360° regardless of the number of sides.
+- **Trapezoid diagonals** are equal **only** when the trapezoid is isosceles; a generic trapezoid has unequal diagonals.
+- **Parallel lines and ratios:** a line parallel to one side of a triangle divides the other two sides proportionally (Thales' theorem on a triangle), which feeds directly into similarity-scale-factor problems.
+- **Sphere volume vs surface area:** $V = \tfrac{4}{3}\pi r^3$ while surface area is $4\pi r^2$. UTUL UI items may swap these by asking for surface area while giving a volume-shaped expression.
+- **Sector of a circle:** area $= \tfrac{\theta}{360°} \cdot \pi r^2$ and arc length $= \tfrac{\theta}{360°} \cdot 2\pi r$, where $\theta$ is the central angle in degrees.
 
-**Circumcircle and Incircle of Triangles**
+#### Common Mistakes
 
-The circumcircle passes through all three vertices of a triangle. Its centre is the intersection of perpendicular bisectors of the sides. Radius R = abc / (4Δ), where Δ is the area of the triangle.
-The incircle is tangent to all three sides. Its centre is the intersection of angle bisectors. Radius r = Δ/s, where s = semi-perimeter = (a+b+c)/2.
+| Mistake | Correction |
+| --- | --- |
+| Inscribed angle = 2 × central angle | It is $\tfrac{1}{2}$ × central angle |
+| Pythagorean theorem on any triangle | Only valid for right triangles with $c$ as hypotenuse |
+| Any side used as triangle height | Height must be perpendicular to the chosen base |
+| Confusing circle area $A = \pi r^2$ with $A = 2\pi r$ | Always square the radius for area |
 
-**Properties of Circle Theorems**
+#### Practice Prompts
 
-Key theorems (assumed from standard geometry):
-1. Angle subtended by a diameter at the circumference = 90° (Thales' theorem).
-2. Angles in the same segment are equal.
-3. The angle at the centre is twice the angle at the circumference subtended by the same arc.
-4. Opposite angles of a cyclic quadrilateral sum to 180°.
-5. Tangent to a circle is perpendicular to the radius at the point of contact.
-6. Two tangents from an external point are equal in length.
+1. A rectangular field measures 80 m by 60 m. A circular fountain of radius 10 m sits at the centre. Find the unshaded grass area (hint: subtract $\pi r^2 = 100\pi$ from $4800$).
+2. Two similar triangles have a scale factor of $k = 3$. If the smaller triangle has area 12 m², what is the area of the larger? (Answer scales by $k^2 = 9$, so $108 \text{ m}^2$.)
 
-**Coordinate Geometry — Basics**
+## Continue your study
 
-Distance between two points (x₁, y₁) and (x₂, y₂): d = √((x₂−x₁)² + (y₂−y₁)²).
-Midpoint: ((x₁+x₂)/2, (y₁+y₂)/2).
-Gradient of line: m = (y₂−y₁)/(x₂−x₁).
-Equation of line through (x₁, y₁) with gradient m: y − y₁ = m(x − x₁).
-Parallel lines have equal gradients. Perpendicular lines have gradients m₁ × m₂ = −1.
+- **[View this topic in your UI Entrance (Indonesia) roadmap](/roadmap/?exam=uii&duration=1mo)** — see where "Geometry Basics" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=uii&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UI Entrance (Indonesia) exam overview](/exams/uii/)** — pattern, eligibility, and syllabus
+- **[All Academic Potential notes](/notes/uii/academic-potential/)** — browse sibling topics in this subject
 
-**Locus Problems**
-
-A locus is the set of all points satisfying a condition.
-- Points equidistant from two fixed points: perpendicular bisector of the segment joining them.
-- Points at fixed distance r from a fixed point: circle of radius r centred at that point.
-- Points equidistant from two intersecting lines: the angle bisectors (two lines at 90° to each other bisecting the angles).
-
-**UI Entrance Exam Patterns**
-
-Geometry questions in the UI Academic Potential test include:
-1. Angle calculation using basic rules
-2. Parallel line angle problems
-3. Triangle angle problems
-4. Pythagoras' theorem applications
-5. Perimeter and area calculations
-6. Similar figures
-7. Basic circle geometry
-
-⚡ **Exam Strategy:** When an angle seems impossible to find directly, look for an exterior angle relationship or a cyclic quadrilateral property. Adding an auxiliary line (e.g., extending a side, drawing a diagonal) often creates the triangle or parallel line configuration needed.
-
----
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

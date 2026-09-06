@@ -11,7 +11,7 @@ topicName: Electrochemistry
 weight: 4
 country: india
 generated: "2026-03-24T08:32:07.843903"
-lastUpdated: 2026-03-24
+lastUpdated: "2026-09-06"
 diagramPrompt: "Clear scientific diagram of Electrochemistry with atom labels, molecular structure, reaction arrows, white background, color-coded bonds and groups, exam textbook style"
 
 
@@ -19,88 +19,110 @@ diagramPrompt: "Clear scientific diagram of Electrochemistry with atom labels, m
 
 
 ---
+
 # Electrochemistry
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Electrochemistry** — Key Facts for CUET
-Galvanic cell: spontaneous redox reaction → electrical energy; $E_{\text{cell}} = E_{\text{cathode}} - E_{\text{anode}}$
-Nernst equation: $E = E° - \frac{0.0591}{n}\log Q$ at 298 K; $E = E° - \frac{RT}{nF}\ln Q$ (general form)
-Faraday's laws: mass deposited $m = \frac{Q \times M}{n \times F} = \frac{It \times M}{n \times F}$
-Standard hydrogen electrode (SHE): $E° = 0$ V; $F = 96,485$ C/mol
-Conductivity: $\kappa = \frac{G}{A}$; molar conductivity $\Lambda_m = \frac{\kappa \times 1000}{c}$ (S cm² mol⁻¹)
-⚡ Exam tip: In a galvanic cell, oxidation occurs at anode (negative electrode) and reduction at cathode (positive electrode); electrons flow from anode to cathode externally
+Electrochemistry studies the interconversion of chemical and electrical energy through redox reactions at electrode–electrolyte interfaces. In galvanic (voltaic) cells the reaction is spontaneous (ΔG° < 0, E°_cell > 0), while in electrolytic cells an external power source drives a non-spontaneous reaction. Oxidation always occurs at the **anode** and reduction at the **cathode**; the sign of these electrodes flips between cell types.
+
+- **Nernst equation (298 K):** E_cell = E°_cell − (0.0591 / n) log Q, where n = electrons transferred per mole of reaction.
+- **Faraday's First Law:** m = (M · I · t) / (n · F), with F = 96485 C·mol⁻¹.
+- **Standard Hydrogen Electrode (SHE):** assigned E° = 0.00 V; all other standard reduction potentials are measured relative to it.
+- **Molar conductivity:** Λ_m = κ / c; for weak electrolytes, degree of dissociation α = Λ_m / Λ°_m.
+
+| Quantity | Formula | Unit |
+| --- | --- | --- |
+| EMF–Gibbs link | ΔG° = −nFE°_cell | J·mol⁻¹ |
+| Cell constant | G = l / A | cm⁻¹ |
+| Kohlrausch | Λ°_m = ν₊λ°₊ + ν₋λ°₋ | S·cm²·mol⁻¹ |
+
+CUET UG typically asks 2–4 MCQs from this unit — focus on Nernst numericals and Faraday's law calculations.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> For students who want genuine understanding of electrochemical cells and conductivity.
+> Standard content for students with a few days to months.
 
-**Electrochemistry** — CUET Chemistry Study Guide
+#### Cell types and sign convention
 
-Electrochemistry deals with interconversion of chemical and electrical energy. Two main types: galvanic (voltaic) cells that generate electricity from spontaneous chemical reactions, and electrolytic cells that use electricity to drive non-spontaneous reactions.
+A **galvanic cell** converts chemical energy into electricity (e.g., Daniell cell: Zn|Zn²⁺||Cu²⁺|Cu). The anode is negative because electrons leave it through the external wire; the cathode is positive. An **electrolytic cell** does the opposite — a battery forces electrons in, so the anode becomes positive (connected to the + terminal of the source) and the cathode negative. Confusing these signs is the single most common error in CUET MCQs.
 
-**Galvanic Cell:** Consists of two half-cells, each with an electrode immersed in an electrolyte. The Zn-Cu cell (Daniell cell): Zn electrode (anode, oxidation: Zn → Zn²⁺ + 2e⁻) and Cu electrode (cathode, reduction: Cu²⁺ + 2e⁻ → Cu). Electrons flow from Zn to Cu through external wire; salt bridge maintains electrical neutrality. Cell notation: Zn(s) | Zn²⁺(aq) || Cu²⁺(aq) | Cu(s).
+#### Nernst equation and Gibbs free energy
 
-**Electrode Potential:** The tendency of an electrode to lose or gain electrons in solution. Absolute potentials cannot be measured directly — only differences. Standard electrode potential $E°$ is measured under standard conditions (1 M, 1 atm, 298 K) relative to SHE. More positive $E°$ = stronger oxidising agent (better at accepting electrons).
+The Nernst equation generalises the cell potential away from standard conditions:
 
-**Standard Reduction Potentials (selected):**
-- F₂/F⁻: +2.87 V (strongest oxidising agent)
-- MnO₄⁻/Mn²⁺ (acidic): +1.51 V
-- Cl₂/Cl⁻: +1.36 V
-- O₂/H₂O: +1.23 V
-- Cu²⁺/Cu: +0.34 V
-- H⁺/H₂: 0.00 V (reference)
-- Fe²⁺/Fe: −0.44 V
-- Zn²⁺/Zn: −0.76 V
-- Na⁺/Na: −2.71 V
+E_cell = E°_cell − (RT / nF) ln Q
 
-**Cell EMF and Free Energy:** $\Delta G° = -nFE°_{\text{cell}}$. For a spontaneous reaction, $E°_{\text{cell}} > 0$ and $\Delta G° < 0$. The relationship $\Delta G° = -RT\ln K$ gives equilibrium constant: $K = 10^{nE°/0.0591}$ at 298 K.
+At 298 K, the 2.303RT/F factor collapses to 0.0591 V, giving the base-10 form used in most CUET numericals. Because ΔG° = −nFE°_cell, a positive E°_cell corresponds to a spontaneous reaction and is linked to the equilibrium constant via E°_cell = (0.0591 / n) log K_c at 25 °C.
 
-**Nernst Equation:** At non-standard conditions, $E = E° - \frac{RT}{nF}\ln Q$. At 298 K: $E = E° - \frac{0.0591}{n}\log_{10} Q$. For concentration cells, $E° = 0$, so $E = -\frac{0.0591}{n}\log\frac{[\text{reducing agent}]}{[\text{oxidising agent}]}$.
+#### Electrolysis and Faraday's laws
 
-**Electrolytic Cell:** Uses electrical energy to drive non-spontaneous redox reactions. In electrolysis of NaCl ( Downs cell): molten NaCl → Na (l) at cathode + Cl₂ (g) at anode. Overpotential (extra voltage needed) is often required for gas evolution.
+Faraday's First Law states that the mass deposited is directly proportional to the charge passed: m = ZIt, where Z = M / (nF) is the electrochemical equivalent. Faraday's Second Law compares masses liberated by the same charge: m₁/m₂ = (E₁ / E₂), where E = M/n is the equivalent weight.
 
-**Faraday's Laws of Electrolysis:**
-1. Mass deposited $m = \frac{QM}{nF} = \frac{ItM}{nF}$
-2. Same current through different electrolytes → mass deposited ∝ equivalent mass
+> **Trap:** for Al³⁺ reduction, use n = 3 (not 1) when substituting into m = MIt/nF.
 
-**Example:** Current of 3 A passed through CuSO₄ solution for 30 minutes. Find mass of Cu deposited.
-$Q = It = 3 \times 30 \times 60 = 5400$ C. For Cu²⁺ + 2e⁻ → Cu, $n = 2$, $M = 63.5$ g/mol.
-$m = \frac{5400 \times 63.5}{2 \times 96485} = \frac{342900}{192970} = 1.78$ g.
+#### Conductance of solutions
+
+Specific conductivity κ depends on the cell geometry and ion concentration; molar conductivity Λ_m = κ/c removes the concentration effect, allowing fair comparison between electrolytes. For **strong electrolytes**, Λ_m varies linearly with √c (Debye–Hückel–Onsager equation). For **weak electrolytes**, Λ_m rises sharply on dilution as the degree of dissociation α approaches 1.
+
+#### Kohlrausch's law
+
+Kohlrausch's law of independent migration of ions states Λ°_m = ν₊λ°₊ + ν₋λ°₋ at infinite dilution. This lets you calculate the limiting molar conductivity of a weak electrolyte (like acetic acid) indirectly, by adding tabulated λ° values of strong-electrolyte salts.
+
+| Concept | Key point |
+| --- | --- |
+| Galvanic cell | Spontaneous; anode (−), cathode (+) |
+| Electrolytic cell | Non-spontaneous; anode (+), cathode (−) |
+| Strong electrolyte | Λ_m vs √c is linear; fully dissociated |
+| Weak electrolyte | α = Λ_m / Λ°_m; dissociation rises on dilution |
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-**Electrochemistry** — Complete CUET Chemistry Notes
+#### Worked example — Nernst calculation
 
-**Fuel Cells:** Convert chemical energy of a fuel (H₂) directly to electricity. In PEM fuel cell: at anode, H₂ → 2H⁺ + 2e⁻; at cathode, ½O₂ + 2H⁺ + 2e⁻ → H₂O. Overall: H₂ + ½O₂ → H₂O. Efficiency ~60% (vs ~40% for internal combustion engines). Byproducts are water and heat. Used in spacecraft and increasingly in vehicles.
+Consider the cell Mg | Mg²⁺(0.01 M) || Ag⁺(0.1 M) | Ag at 298 K. Given E°_Mg²⁺/Mg = −2.37 V and E°_Ag⁺/Ag = +0.80 V, find E_cell.
 
-**Corrosion:** Electrochemical process of metal deterioration. For iron: anodic areas (Fe → Fe²⁺ + 2e⁻) and cathodic areas (O₂ + 2H₂O + 4e⁻ → 4OH⁻) form on the surface. Rust = Fe₂O₃·H₂O. Prevention: galvanising (Zn coating), cathodic protection (sacrificial anode), painting, or alloying (stainless steel).
+E°_cell = E°_cathode − E°_anode = 0.80 − (−2.37) = +3.17 V. Reaction: Mg + 2Ag⁺ → Mg²⁺ + 2Ag, so n = 2 and Q = [Mg²⁺]/[Ag⁺]² = 0.01 / (0.1)² = 1.
 
-**Batteries:**
-- Primary (non-rechargeable): Leclanche cell (dry cell) — Zn/MnO₂, $E = 1.5$ V; alkaline cell — better performance
-- Secondary (rechargeable): Lead-acid battery — Pb/PbO₂ in H₂SO₄, each cell = 2 V; 6 cells in series = 12 V. Nicke -cadmium (NiCd), Nickel-Metal Hydride (NiMH), Lithium-ion (Li-ion) — used in phones and laptops
+E_cell = 3.17 − (0.0591 / 2) log(1) = 3.17 V. The reaction stays strongly spontaneous because Q = 1 (a useful sanity check — non-zero Q would lower E_cell).
 
-**Conductivity of Electrolytes:** Molar conductivity $\Lambda_m = \frac{\kappa \times 1000}{c}$ where $c$ is molarity in mol/L. For strong electrolytes, $\Lambda_m$ increases slowly with dilution (decreased interionic attractions). For weak electrolytes, $\Lambda_m$ increases sharply near infinite dilution (degree of dissociation increases). Kohlrausch's law: $\Lambda_m° = \lambda°_{\text{cation}} + \lambda°_{\text{anion}}$.
+#### Products of electrolysis — discharge tendency
 
-**Battery Capacity:** Expressed in ampere-hours (Ah). A 100 Ah battery can deliver 5 A for 20 hours. For Li-ion, capacity depends on current — higher current → lower usable capacity (P = IV, heating losses).
+During electrolysis of mixed electrolytes (e.g., aqueous NaCl with inert electrodes), the species discharged at each electrode depends on **relative discharge potentials**, not just concentration. At the cathode, the order is generally: Al³⁺ > Mg²⁺ > Na⁺ (hydrogen discharge preferred over very negative metals). At the anode, easier oxidation wins: S²⁻ > I⁻ > Br⁻ > Cl⁻ > OH⁻ > F⁻ > SO₄²⁻. For **active electrodes** (Cu, Ag), the anode itself dissolves instead of discharging anions — this is the principle behind electrorefining.
 
-**Electroplating:** Electrolytic deposition of metal coating. To plate silver on an object: object is cathode, silver anode, silver nitrate electrolyte. Faraday's law determines thickness: $t = \frac{m}{\rho A}$. Factors affecting quality: current density, temperature, electrolyte concentration.
+#### Corrosion as an electrochemistry application
 
-**Concentration Cells:** Both electrodes are the same material but in different concentrations. Example: Cu(s) | Cu²⁺(0.01 M) || Cu²⁺(1 M) | Cu(s). $E° = 0$, so $E = -\frac{0.0591}{2}\log\frac{0.01}{1} = +0.0295$ V. The cell with more concentrated solution becomes the cathode (standard convention).
+Rusting of iron is essentially a microscopic galvanic cell: at anodic spots Fe → Fe²⁺ + 2e⁻, at cathodic spots O₂ + 2H₂O + 4e⁻ → 4OH⁻. The Fe(OH)₂ formed oxidises to hydrated Fe₂O₃ (rust). Cathodic protection — connecting iron to a more active metal like Zn or Mg — reverses the polarity and prevents corrosion.
 
-**CUET Exam Patterns (2022–2024):**
-- Nernst equation calculations are most frequent (2–3 marks)
-- Cell notation and identification of anode/cathode is very common
-- Faraday's law problems (mass deposited, current, time relationships) appear every year
-- Standard reduction potentials and reactivity series questions are common
-- Common mistakes: getting the sign wrong in Nernst equation; confusing galvanic and electrolytic cell direction
+#### Common mistakes and edge cases
 
-⚡ Key insight: In Nernst equation, $Q$ is the reaction quotient in the same form as the balanced cell reaction. For the cell Zn | Zn²⁺(1 M) || Cu²⁺(1 M) | Cu, the reaction is Zn + Cu²⁺ → Zn²⁺ + Cu, so $Q = \frac{[Zn^{2+}]}{[Cu^{2+}]}$. Remember to use $n$ = total electrons transferred (2 for this cell). For $\log_{10}$, use 0.0591; for $\ln$, use $\frac{RT}{F} = \frac{8.314 \times 298}{96485} = 0.0257$ V.
+| Mistake | Correct practice |
+| --- | --- |
+| Using oxidation potentials in E°_cell | Always use standard **reduction** potentials, then subtract (cathode − anode) |
+| Writing E = E° + (0.0591/n) log Q | The sign is **minus** in the Nernst equation |
+| Plugging mol·L⁻¹ directly into Λ_m = κ/c | Convert c to mol·cm⁻³ (divide mol·L⁻¹ by 1000) when κ is in S·cm⁻¹ |
+| Forgetting n in Faraday's law | Match n to the electrons in the half-reaction (Al³⁺ → n = 3) |
+| Applying Kohlrausch at finite concentration | Use it only for **limiting** (Λ°_m) values at infinite dilution |
+
+> **Exam tip:** in CUET UG, questions often pair a Nernst numerical with a sign-convention twist on galvanic vs electrolytic cells. Sketch the cell, label anode/cathode first, then substitute into the formula — you'll avoid two errors at once.
+
+#### Practice prompts
+1. A solution of CuSO₄ is electrolyzed for 40 minutes with a 2 A current. Find the mass of copper deposited (M_Cu = 63.5 g·mol⁻¹, n = 2). *(Answer: m = (63.5 × 2 × 2400) / (2 × 96485) ≈ 1.58 g.)*
+2. The molar conductivity of 0.05 M CH₃COOH is 35 S·cm²·mol⁻¹ and Λ°_m = 390 S·cm²·mol⁻¹. Calculate α and K_a. *(Answer: α = 35/390 ≈ 0.0898; K_a = α²c / (1−α) ≈ 4.4 × 10⁻⁴.)*
 
 ---
-*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+
+## Continue your study
+
+- **[View this topic in your CUET UG roadmap](/roadmap/?exam=cuet&duration=1mo)** — see where "Electrochemistry" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=cuet&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[CUET UG exam overview](/exams/cuet/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/cuet/chemistry/)** — browse sibling topics in this subject
+
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

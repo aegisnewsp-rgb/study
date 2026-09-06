@@ -8,211 +8,89 @@ topicName: NG Tube Insertion and Enteral Nutrition
 weight: 3
 country: uae
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-06"
 ---
 
 # NG Tube Insertion and Enteral Nutrition
 
-Nasogastric (NG) tube insertion is a common nursing procedure in UAE hospitals, performed for decompression of the stomach (in bowel obstruction, post-operative ileus, or upper GI bleeding) and for enteral feeding in patients who cannot meet their nutritional requirements orally. The DOH (UAE) examination tests your competence in NG tube insertion technique, confirming proper placement, managing enteral feeds, and preventing complications such as aspiration pneumonia and tube misplacement. In a region with a high prevalence of diabetes, stroke, and head/neck cancers (all conditions that may impair oral intake), enteral nutrition support is a critical nursing competency.
-
----
-
 ### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your DOH Clinical Skills paper.
 
-> Rapid summary for last-minute revision before your exam.
+A **nasogastric (NG) tube** is a flexible tube passed through the nostril, nasopharynx and oesophagus into the stomach for decompression, drainage, medication, or short-term **enteral feeding**. Tube length is estimated using the **NEX method**: nose-to-ear + ear-to-xiphoid (≈50–60 cm in adults).
 
-**NG Tube Placement Verification — ALWAYS Required Before Any Use:**
+Placement is confirmed by **gastric aspirate pH ≤ 5.5**; if pH is higher or no aspirate is obtained, an **abdominal X-ray** (gold standard, tip below the left hemidiaphragm) is required. The auscultation "whoosh test" is NOT accepted by DOH/NPSA standards.
 
-| Method | What It Tells You |
-|---|---|
-| **X-ray (gold standard)** | Confirms tip is below diaphragm, above pylorus |
-| **Aspirate pH** | pH ≤ 5.5 = gastric placement; pH ≥ 6 = intestinal/ respiratory placement |
-| **Capillary reflux** | Aspirate returns easily with gentle syringe pull |
-| **Patient assessment** | Can the patient speak? (if oral/nasal — they'd struggle to speak) |
-
-**NEVER rely on:** Bubbles in water, auscultation (whoosh sound), or colour of aspirate alone.
-
-**Key Formula — NG Feeding Rate:**
-**Volume (mL) ÷ Time (hours) × Drop factor (20 or 60) ÷ 60 = drops/min**
-*Example: 240 mL over 8 hours via gravity set (20 drops/mL): (240 ÷ 8) × 20 ÷ 60 = 10 drops/min*
-
-> **⚡ Exam Tip:** If a patient with an NG tube develops respiratory distress, coughing, or cyanosis during tube insertion — STOP immediately, remove the tube, and reassess. The tube may have entered the airway rather than the oesophagus.
-
----
+- Position the patient at **≥30–45° (high Fowler's)** for insertion and during every feed to cut aspiration risk.
+- Flush with **30–50 mL water** before and after feeds/meds; never crush enteric-coated or sustained-release tablets.
+- Energy needs: **25–35 kcal/kg/day** maintenance; **1.2–2.0 g protein/kg/day** in catabolic patients.
 
 ### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months before the exam.
 
-> Standard content for students with a few days to months.
+#### Indications and Contraindications
 
-#### 1. Types of NG Tubes
+NG tubes are inserted when oral intake is unsafe or insufficient: dysphagia post-stroke, decreased consciousness, head/neck surgery, ventilated ICU patients, gastric decompression in ileus or bowel obstruction, and administration of activated charcoal in select poisonings.
 
-| Tube Type | Use | Features |
-|---|---|---|
-| **Levine tube** | Gastric decompression; single-lumen | Most common; single use |
-| ** Salem sump** | Gastric decompression; double-lumen with vent | Preferred for decompression (sump action); blue vent port |
-| **Dobhoff tube** | Enteral feeding; small-bore | Weighted tip; radiopaque line; meant for feeding only |
-| **Feeding tube with stylet** | Difficult insertion | Stiffening wire inside for easier passage; MUST remove stylet before use |
+Absolute contraindications include **basal skull fracture** (intracranial passage risk), midface trauma, oesophageal stricture or perforation, recent upper GI surgery, and uncorrected severe coagulopathy.
 
-**Sizes:**
-- Large-bore tubes (14–18 Fr): For decompression; easier to insert; more uncomfortable
-- Small-bore tubes (8–12 Fr): For feeding; harder to place; more comfortable long-term
+#### Insertion Steps and NEX Measurement
 
-#### 2. NG Tube Insertion Procedure
+Explain the procedure, obtain consent, and position the patient upright with the neck slightly flexed. Estimate depth using **NEX (cm) = nose-to-ear + ear-to-xiphoid**, mark the tube, lubricate the tip, and advance gently along the floor of the nostril during swallowing of sips of water.
 
-**Equipment:**
-- NG tube (appropriate size; Dobhoff or levine)
-- Water-soluble lubricant
-- 50 mL catheter-tip syringe
-- pH paper (range 1–11)
-- Glass of water with straw (if patient can swallow safely)
-- tissues
-- drainage bag or cap
-- Tape to secure
-- Suction equipment (if for decompression)
-- Safety pin and elastic band for securing tube to gown
+| Step | Action | Rationale |
+| --- | --- | --- |
+| 1 | Measure NEX length | Ensures tip reaches gastric body |
+| 2 | Lubricate and advance during swallow | Reduces trauma, opens oesophagus |
+| 3 | Aspirate and test pH | pH ≤ 5.5 confirms gastric placement |
+| 4 | Secure with tape, note depth marking at nostril | Prevents migration/dislodgement |
+| 5 | X-ray if pH > 5.5 or no aspirate | Gold standard confirmation |
 
-**Procedure:**
-1. Explain procedure and obtain consent
-2. Assess nostril patency (ask patient to sniff; check each side)
-3. Measure tube length: Nose → Ear → Xiphoid process (NEX method) or NEX + 10 cm for post-pyloric placement
-4. Perform hand hygiene; don gloves
-5. Lubricate tube tip
-6. Insert tube along the floor of the nostril (not upward along the septum — follow the natural curve)
-7. Advance gently; when tip reaches posterior pharynx (15 cm), ask patient to swallow (if safe to do so) and advance during swallowing
-8. Continue advancing until measured mark is reached
-9. **Aspirate** — obtain gastric contents; check pH
-10. **X-ray confirmation** is the gold standard before first use (and after any episode of dislodgement)
-11. Secure tube to nose with tape (ventilator-dependent patients or long-term — use bridle if at risk of dislodgement)
-12. Position patient: Sit upright (Fowler's 30–45°) or left lateral decubitus to promote gastric emptying
-13. Cap the tube or connect to suction/drainage bag as ordered
-14. Document: Date/time, tube type and size, nostril used, length at nose, aspirate pH, patient tolerance
+#### Feeding Prescription
 
-#### 3. Verifying NG Tube Placement
+Use a **polymeric standard formula** (1 kcal/mL or 1.5 kcal/mL) for most patients; switch to **disease-specific formulas** for renal failure, diabetes, or malabsorption. Begin at **20–30 mL/hr** and titrate every 4–6 hours to the target rate, monitoring **gastric residual volume (GRV)**; withhold feed if GRV exceeds 250–500 mL on two checks.
 
-**X-ray is the GOLD STANDARD and the only definitive method:**
-- A chest X-ray showing the tube below the diaphragm and above the pylorus confirms gastric placement
-- The tube must be visible as a radiopaque line on X-ray
-- All UAE facilities require X-ray confirmation before initiating feeds
+Feeding rate is calculated as: **Rate (mL/hr) = Total daily volume (mL) ÷ 24 h**.
 
-**Aspiration pH Method (supplemental to X-ray):**
-- Aspirate 0.5–1 mL of fluid from the tube
-- Test with pH paper
-- pH ≤ 5.5 = gastric placement (acceptable to start feeding)
-- pH ≥ 6 = may be intestinal or respiratory placement (do NOT feed; recheck X-ray)
-- pH 7+ = probable respiratory placement (MUST remove tube)
-
-**Aspirate Appearance:**
-- Gastric: Green/yellow, off-white, brownish (bile, stomach acid)
-- Intestinal: Clear to yellow (more alkaline)
-- Respiratory: Thin, frothy, pale (pleural fluid)
-
-**Signs of Respiratory Placement (MUST remove immediately):**
-- Patient is coughing, choking, dyspnoeic
-- Unable to speak (hoarseness is an early sign)
-- Tube cannot be aspirated
-- Patient vomits
-- Cyanosis
-
-#### 4. NG Tube Feeding Management
-
-**A. Types of Enteral Feeds**
-
-| Feed Type | Indication |
-|---|---|
-| **Isotonic polymeric** (e.g., Ensure, Ensure Plus) | Standard feeding; normal GI function |
-| **High-protein** | Wound healing, trauma, burns |
-| **High-energy** (1.5–2 kcal/mL) | Fluid restriction, high requirements (e.g., critically ill) |
-| **Disease-specific** | Diabetes (lower glycaemic index), renal failure, hepatic failure |
-| **Elemental/semi-elemental** | Malabsorption, short bowel syndrome, pancreatic insufficiency |
-
-**B. Feeding Methods**
-
-**Bolus feeding:**
-- 200–300 mL delivered via syringe over 15–20 minutes, every 3–4 hours
-- Advantages: Simple; mimics normal meal pattern
-- Disadvantages: Risk of reflux, diarrhoea, nausea
-
-**Continuous infusion:**
-- Pump-controlled feeding over 16–24 hours
-- Advantages: Better tolerated; less reflux; more physiological for gut
-- Used for: Critically ill, poorly tolerating bolus, post-pyloric feeds
-
-**C. Administering NG Medications**
-- Use liquid formulations whenever possible
-- Crush only if tablet is safe to crush (NOT enteric-coated, NOT modified-release)
-- Dissolve in 15–30 mL warm water
-- Flush tube with 15–30 mL water before and after medication
-- Do NOT mix medications directly with enteral feed (can cause incompatibilities)
-- Never add medication to the feeding bag
-
----
+- Continuous feeds over 16–24 h suit ICU/ventilated patients; bolus feeds (200–400 mL over 15–20 min) suit stable, ambulatory patients.
+- Document volume delivered, GRV, bowel sounds, abdominal girth, and fluid balance every shift.
 
 ### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for long-term mastery and clinical reasoning.
 
-> Comprehensive coverage for students on a longer study timeline.
+#### Placement Verification: Why pH and X-ray, Not Auscultation
 
-#### 5. Complications of NG Tubes and Enteral Feeding
+The pH method works because gastric acid keeps aspirate pH at or below 5.5 in fasting patients; continuous feeding or PPIs raise gastric pH, making X-ray mandatory. Auscultation of air insufflation is unreliable because air injected into the lung, oesophagus, or small bowel can transmit similar sounds, leading to catastrophic bronchial feeds.
 
-**A. Aspiration Pneumonia (Most Serious)**
-- Occurs when gastric contents are regurgitated and aspirated into the lungs
-- Risk factors: Supine position, delayed gastric emptying, large bore tubes, high-volume bolus feeds
-- Prevention: Elevate head of bed 30–45°; use prokinetic agents (metoclopramide, erythromycin) if delayed gastric emptying; check residuals before each bolus feed
-- If suspected: Stop feeds immediately; notify physician; ABC assessment; O₂ support; suction if needed; chest X-ray
+| Method | Reliability | DOH/NPSA guidance |
+| --- | --- | --- |
+| pH ≤ 5.5 aspirate | Good in fasting | Acceptable first-line |
+| X-ray (tip below left hemidiaphragm) | Gold standard | Required when pH inconclusive |
+| Capnography (CO₂ detector) | Detects bronchial placement | Useful secondary check |
+| Auscultation ("whoosh") | Unreliable | Not accepted as primary check |
 
-**B. Tube Misplacement**
-- NG tubes can enter the trachea, bronchi, or pleural space (especially in confused or uncooperative patients, or those with swallowing difficulties)
-- This is a CRITICAL SAFETY ISSUE — death can result from pneumothorax
-- ALWAYS verify placement before use and after any episode of dislodgement or vomiting
-- If respiratory symptoms occur during insertion → REMOVE TUBE IMMEDIATELY
+#### Complications and Refeeding Syndrome
 
-**C. Gastrointestinal Complications**
-- **Nausea, vomiting, bloating:** Common; often due to high residual volumes, rapid infusion rate, cold feed, or lactose intolerance
-- **Diarrhoea:** Most common GI complication; causes include antibiotics (C. difficile), formula choice, contamination, rapid infusion, hypoalbuminaemia
-- **Constipation:** Fluid inadequate, fibre inadequate, immobility
-- **Clogged tube:** Common with small-bore tubes; prevention: flush with 30 mL water before and after feeds and medications; use crushed medications dissolved well
+Failure to verify placement has caused feeds delivered into the bronchial tree, producing **aspiration pneumonia** and death. Always re-verify position after vomiting, coughing, or tube displacement.
 
-**D. Metabolic Complications**
-- **Refeeding syndrome** (in severely malnourished patients): Hypophosphataemia, hypokalaemia, hypomagnesaemia, fluid overload; occurs when feeding is started too aggressively
-- **Hyperglycaemia:** Common in critically ill, diabetic patients; monitor blood glucose; may need insulin
-- **Dehydration/hypernatremia:** Inadequate free water flushes
+**Refeeding syndrome** appears in malnourished, low-BMI, or chronically starved patients within 24–72 h of re-feeding. Insulin surge drives phosphate, potassium and magnesium into cells, producing **hypophosphataemia, hypokalaemia, hypomagnesaemia**, thiamine depletion, and fluid overload.
 
-#### 6. Gastric Residual Volume (GRV) — Current Evidence
+- Start feeds at **≤50% of estimated needs**, advance slowly over 4–7 days.
+- Supplement **thiamine 200–300 mg IV/PO daily** before and during the first 10 days.
+- Check phosphate, magnesium, potassium at baseline and **every 24 h for the first 3 days**.
 
-**What it is:** The volume of fluid remaining in the stomach after a period without feeding.
+#### Exam Strategy and Practice Prompts
 
-**Traditional practice:** Hold feeds if GRV > 200–500 mL (varies by facility).
+The DOH Clinical Skills paper (≈3% weight) commonly tests calculation, scenario recognition, and safety priorities. Time allocation: ≈1–1.5 minutes per MCQ; budget extra time for numerical rate calculations.
 
-**Current evidence (and UAE practice is evolving):**
-- GRV alone is NOT a reliable predictor of aspiration risk
-- Routine GRV measurement is being questioned by evidence
-- Some UAE facilities have updated protocols: Check GRV only if patient shows signs of intolerance (vomiting, distension, discomfort)
-- Clinical assessment remains critical
+1. **Calculation prompt:** A 70 kg post-stroke patient needs 30 kcal/kg/day using a 1 kcal/mL formula. What is the mL/hr rate? (Answer: 2100 mL ÷ 24 = 87.5 mL/hr.)
+2. **Recognition prompt:** A malnourished patient develops confusion, weakness, and phosphate 0.6 mmol/L on day 2 of NG feeds. Identify the syndrome and the first electrolyte to replace.
+3. **Safety prompt:** A patient coughs violently after tube insertion. Outline the immediate verification steps before re-starting feed.
 
-**If your facility still uses GRV monitoring:**
-- Use a 50–60 mL syringe; aspirate gently
-- If GRV is high (per your protocol): Notify physician; consider prokinetic; hold or slow feeds
+## Continue your study
 
-#### 7. Specific Patient Populations
+- **[View this topic in your DOH (UAE) roadmap](/roadmap/?exam=doh&duration=1mo)** — see where "NG Tube Insertion and Enteral Nutrition" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=doh&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[DOH (UAE) exam overview](/exams/doh/)** — pattern, eligibility, and syllabus
+- **[All Clinical-Skills notes](/notes/doh/clinical-skills/)** — browse sibling topics in this subject
 
-**A. Stroke Patients (High Incidence in UAE)**
-- Dysphagia (swallowing difficulty) is common post-stroke
-- NG tube feeding is often required for the first 2–4 weeks post-stroke
-- Consider early speech and language therapy assessment for swallowing
-- Most stroke patients who recover swallowing function will transition to oral intake
-- Long-term dysphagia → consider PEG tube (percutaneous endoscopic gastrostomy)
-
-**B. Head and Neck Cancer Patients**
-- Often have NG tubes or PEG tubes due to tumour location, surgery, or chemoradiation
-- Require meticulous oral care (mucositis is common)
-- May have high nutritional requirements due to catabolic state
-
-**C. Critically Ill Patients**
-- Early enteral nutrition (within 24–48 hours of ICU admission) is recommended if oral intake is not possible
-- Target: 25–30 kcal/kg/day; 1.2–2 g protein/kg/day
-- Hypocaloric feeding in early phase (first week) may be appropriate
-- Gastric feeding is first-line; post-pyloric if gastric residual volumes are persistently high
-
-> **Exam Watch:** The DOH exam frequently tests the scenario of an NG tube that has been inadvertently removed or dislodged. The nurse must NOT reconnect the tube to feeds or suction until placement is re-verified by X-ray. Another common question involves a patient who develops aspiration pneumonia — the priority nursing action is to place the patient in a lateral position, suction the airway, administer oxygen, and notify the physician immediately.
-
----
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

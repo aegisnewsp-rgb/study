@@ -8,7 +8,7 @@ topicName: Cost Accounting Basics
 weight: 3
 country: ghana
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-06-24"
+lastUpdated: "2026-09-06"
 ---
 
 # Cost Accounting Basics
@@ -16,56 +16,109 @@ lastUpdated: "2026-06-24"
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Cost accounting** is the systematic process of recording, classifying, analysing, summarising and allocating the costs of producing goods or services, with the goal of knowing the exact cost of a product, controlling expenditure and helping managers make pricing and production decisions. In WASSCE Accounting (Paper 2, Section C) it carries roughly 3% weight and appears as a structured essay or a manufacturing account problem worth 10–15 marks.
+**Cost accounting** records, classifies, allocates, analyses and controls business costs. It helps management set prices, prepare budgets, control expenditure and decide whether to make or buy a product.
 
-Must-know building blocks:
+| Cost term | Meaning |
+| --- | --- |
+| Direct cost | Cost traced directly to a product, job or service |
+| Indirect cost | Cost shared by several products, jobs or services |
+| Cost centre | Location, function or activity for which costs are collected |
+| Cost unit | Unit of product or service for which cost is calculated |
 
-- **Cost centre** — a location, department or function where costs are incurred (e.g. the Cutting Department of a garment factory in Tema).
-- **Cost unit** — a unit of product or service for which costs are ascertained (e.g. one bag of cement, one hour of crane hire).
-- **Prime cost** = **Direct Materials + Direct Labour + Direct Expenses**.
-- **Total cost** = **Prime cost + Overheads** (Factory, Administrative, Selling & Distribution).
-- **Selling price** = **Total cost + Profit**.
-- **Variable cost per unit** = Total variable cost ÷ Units produced; **Fixed cost per unit** = Total fixed cost ÷ Units produced.
+- **Prime Cost = Direct Materials + Direct Labour + Direct Expenses**
+- **Total Production Cost = Prime Cost + Factory Overheads**
+- **Total Cost = Total Production Cost + Administrative Overheads + Selling and Distribution Overheads**
+- **Cost of Goods Sold = Opening Finished Goods + Cost of Production − Closing Finished Goods**
+- **Selling Price = Total Cost + Profit Margin**
 
-High-yield pointers: master the manufacturing account layout, separate semi-variable costs using the high-low method, and know when marginal costing differs from absorption costing in valuing closing stock.
+WASSCE questions commonly test cost-sheet preparation, classification and short calculations. Include opening and closing work-in-progress where the question provides them.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-#### Classification of Costs
-Costs are sorted in three ways for WASSCE questions. **By nature/traceability:** *direct* (traceable to a single cost unit, e.g. leather used to make one pair of sandals) and *indirect* (shared by many units, e.g. factory rent). **By behaviour:** *fixed* (rent, salaries, depreciation — total stays constant, per-unit falls as output rises), *variable* (raw materials, direct labour hours — total rises with output, per-unit constant) and *semi-variable* (a mixed element such as a telephone bill with a fixed line rental plus call charges — split using the high-low method). **By function:** production, administration, selling and distribution.
+#### Cost Elements and Behaviour
 
-#### Prime Cost and Conversion Cost
-**Prime cost** is the total of all direct, identifiable production expenditure: raw materials consumed, direct (productive) wages, and direct expenses such as hire of a special machine. **Conversion cost** = Direct Labour + Factory Overhead — it shows the extra cost needed to convert raw materials into finished goods.
+A cost statement groups expenditure into **materials, labour and expenses**. Materials and labour become prime cost only when they are **direct**. Factory indirect materials and indirect labour form part of factory overheads.
 
-#### Overheads: Allocation and Apportionment
-**Cost allocation** charges an entire overhead to a single cost centre that caused it (e.g. the supervisor's salary to the Assembly Department). **Cost apportionment** shares an overhead across several cost centres using a fair basis — floor area for rent, machine hours for power, number of employees for canteen. Apportioned amounts are then re-apportioned (often by the step or reciprocal method) to remove service-department costs.
+| Behaviour | Meaning | Example |
+| --- | --- | --- |
+| Fixed | Changes little with output within a relevant range | Factory rent |
+| Variable | Changes directly with production | Timber used per chair |
+| Semi-variable | Contains fixed and variable elements | Electricity bill plus usage charge |
 
-#### Manufacturing Account
-A manufacturing account is a vertical statement debited with opening stock of raw materials, purchases less purchase returns, carriage inwards, direct labour, direct expenses, and factory overhead. From this total, closing raw materials stock and closing work-in-progress are deducted to arrive at the **cost of goods manufactured**, which is then transferred to the Trading Account.
+A **cost centre** is a location or function whose costs are accumulated, such as the cutting department. A **cost unit** is the finished unit for which cost is computed, such as one chair.
 
-#### Marginal vs Absorption Costing
-Under **absorption costing**, fixed factory overhead is absorbed into unit cost; closing stock therefore carries a portion of fixed overhead. Under **marginal costing**, only variable cost is charged to units; fixed overhead is treated as a period cost. Profit under the two methods will differ whenever the volume of closing stock changes.
+#### Building a Cost Statement
+
+1. Add direct materials, direct labour and direct expenses to obtain **prime cost**.
+2. Add factory overheads to obtain **total production cost**.
+3. Adjust for opening and closing work-in-progress to find **cost of completed production**.
+4. Add administrative and selling and distribution overheads to obtain **total cost**.
+5. Adjust finished-goods stocks to calculate **cost of goods sold**.
+6. Add the required profit margin to calculate selling price.
+
+Factory overheads relate to production, while administrative overheads relate to running the business. Selling and distribution overheads include advertising and delivery costs.
+
+> A direct expense is included in prime cost, but an indirect production expense is treated as overhead.
+
+#### Source Documents
+
+Stores requisitions support material issues, job cards record labour on individual jobs, invoices support expenses, and payroll records support wages. These documents provide the evidence used to collect and verify costs.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-#### Edge Cases and Exam Traps
-WASSCE markers consistently test three traps. **First,** students double-count factory overhead — once in computing factory cost inside the Manufacturing Account, and again as a separate line in the Income Statement. Correct treatment: factory overhead appears *only* in the Manufacturing Account; Administrative, and Selling & Distribution overheads are debited in the Income Statement. **Second,** opening and closing work-in-progress (WIP) is ignored. The Manufacturing Account must show: Opening WIP added to total production cost, and Closing WIP deducted to reach cost of goods manufactured. **Third,** material issues are sometimes valued at selling price instead of cost — use **FIFO, LIFO or AVCO** on cost, not on retail. A bonus trap: charging *factory* overhead to the *administrative* cost centre during apportionment, which inflates cost of sales and depresses reported profit.
+#### Allocation, Apportionment and Absorption
 
-#### Mechanism of the High-Low Method
-To split a semi-variable cost, take the cost at the highest and lowest activity levels, compute the **variable cost per unit = (High cost − Low cost) ÷ (High units − Low units)**, then derive the fixed element as Total cost − (Variable rate × Units). This figure is then used in marginal-costing computations and flexible budgeting.
+Overheads cannot always be traced to one product. **Allocation** assigns an entire overhead to one cost centre. **Apportionment** divides shared overheads among cost centres using a suitable base, such as floor area or machine hours.
 
-#### Links to Adjacent Topics
-Cost accounting connects directly to **budgetary control** (comparing standard with actual cost), **standard costing** (variance analysis for materials and labour) and **management decision-making** (make-or-buy, special-order pricing, break-even analysis). For service businesses in Ghana — banks, hospitals, haulage firms — the cost unit is typically a time measure (an hour, a patient-day, a kilometre) rather than a physical product.
+**Absorption** charges overheads to cost units using a predetermined or computed rate:
+
+\[
+\text{Overhead absorption rate} =
+\frac{\text{Overhead for the period}}{\text{Basis of absorption}}
+\]
+
+The basis could be direct labour hours, machine hours or direct labour cost. A rate based on machine hours suits a machine-intensive business; direct labour cost may be less suitable where machines dominate production.
+
+#### Work-in-Progress and Cost of Sales
+
+Work-in-progress includes partly completed units. Use:
+
+\[
+\text{Cost of production completed} =
+\text{Total production cost} +
+\text{Opening work-in-progress} -
+\text{Closing work-in-progress}
+\]
+
+Finished goods adjustment then gives cost of goods sold. Omitting either stock figure transfers cost between accounting periods and distorts profit.
+
+#### Control, Reduction and Decisions
+
+**Cost control** compares actual costs with standards or budgets and corrects excessive spending. **Cost reduction** seeks a lasting decrease in cost while maintaining the product’s required quality and function.
+
+Common mistakes include classifying factory supervisors’ wages as direct labour, leaving out direct expenses, and calling total production cost total cost. For WASSCE, label every stage of the cost statement and show each adjustment as a separate line.
+
+> Check whether each item is direct, then ask which functional overhead it supports before placing it in the statement.
 
 #### Practice Prompts
-1. A Kumasi bakery produced 8,000 loaves in March and 10,000 in April. Total factory overhead was GH¢24,000 and GH¢28,000 respectively. Using the high-low method, calculate the variable overhead per loaf and the fixed overhead, then state the total overhead expected at a production level of 11,000 loaves.
-2. Given opening raw materials GH¢12,000, purchases GH¢58,000, closing raw materials GH¢9,000, carriage inwards GH¢3,500, direct wages GH¢40,000, factory overhead GH¢22,000, opening WIP GH¢6,000, closing WIP GH¢7,500, prepare the Manufacturing Account and state the cost of goods manufactured transferred to Trading.
+
+1. Direct materials cost GH¢18,000, direct labour GH¢12,000, direct expenses GH¢2,000, and factory overheads GH¢7,500. Calculate prime cost and total production cost.
+2. Finished goods are GH¢4,000 at the start and GH¢6,000 at the end. If cost of production is GH¢31,000, calculate cost of goods sold.
+
+---
+
+## Continue your study
+
+- **[View this topic in your WASSCE (Ghana) roadmap](/roadmap/?exam=wassce&duration=1mo)** — see where "Cost Accounting Basics" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=wassce&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[WASSCE (Ghana) exam overview](/exams/wassce/)** — pattern, eligibility, and syllabus
+- **[All Accounting notes](/notes/wassce/accounting/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

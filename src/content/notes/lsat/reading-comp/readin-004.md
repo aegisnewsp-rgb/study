@@ -8,7 +8,7 @@ topicName: Structure Questions
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-06"
 ---
 
 # Structure Questions
@@ -16,142 +16,80 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Structure Questions** — Key Facts for LSAT India
-Core concept: These questions ask how a passage is organized — its architecture, not its content
-High-yield point: Structure questions often ask why a specific sentence or paragraph exists in the passage
-⚡ Exam tip: Focus on the FUNCTION of each section — what job does it do in the overall argument?
+Structure Questions in LSAT India Reading Comprehension ask *how* a passage is built, not *what* it argues. You must identify the macro-framework (compare-contrast, cause-effect, problem-solution, chronological, general-to-specific) and the function of each paragraph, sentence, or bracketed phrase within that framework. The LSAC tests this as one of eight RC question types, typically 1–3 per passage.
 
----
+- **Macro-structure first, content second** — skim for transitions and topic sentences before reading answer choices.
+- **Paragraph-function mapping** — match the paragraph to one of four role descriptions (background, counterpoint, evidence, synthesis).
+- **Avoid the main-point trap** — correct answers describe organisational role, not topical content.
+
+| Element | What to scan for |
+| --- | --- |
+| Transitions | however, therefore, similarly, conversely, for instance |
+| Paragraph 1 | Thesis or framing device |
+| Middle paragraphs | Evidence, examples, counterargument |
+| Final paragraph | Synthesis, conclusion, or open question |
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Structure Questions** — LSAT India Study Guide
+#### What a Structure Question Asks
 
-## What Are Structure Questions?
+A Structure Question targets the author's *architecture*: the passage's overall pattern, the role each paragraph plays, the transitions linking sections, and the function of highlighted phrases. It differs from a Main Idea question because the correct answer names a structural role — "introduces a counterargument," "summarises the debate," "provides historical context" — rather than restating the topic.
 
-Structure questions ask about the passage's organization, logic, and internal architecture — not about its subject matter. While most other RC questions ask "what does the passage say?", structure questions ask "how does the passage work?"
+#### Common Organisational Patterns
 
-These questions test your ability to step back from the content and see the passage as a constructed argument with specific parts that serve specific functions. They require you to understand the author's rhetorical strategy, not just the ideas being communicated.
+LSAT RC passages cluster around six recognisable scaffolds. Recognising the pattern in the first 30 seconds of reading is the single highest-leverage move.
 
-## Types of Structure Questions
+| Pattern | Signal words | Typical use |
+| --- | --- | --- |
+| Compare-contrast | however, by contrast, on the other hand | Law, policy, theory debates |
+| Cause-effect | because, as a result, consequently | Scientific or historical explanations |
+| Problem-solution | the problem, one approach, ultimately | Social-science or legal-policy passages |
+| Chronological | later, subsequently, by the 1990s | History, biography, narrative |
+| General-to-specific | specifically, for example, in particular | Argumentative or expository essays |
+| Theory-and-application | in practice, this suggests, applied to | Humanities, philosophy, economics |
 
-### 1. Passage-Level Structure
+#### The ROAD Method
 
-These ask about the overall organization of the passage:
+A widely used LSAT strategy is the ROAD approach (Read the structure Only And Details):
 
-- "Which of the following best describes the overall structure of the passage?"
-- "The passage can be best characterized as which of the following?"
-- "The author organizes the passage primarily by..."
+- **R**ead the first sentence of each paragraph to map the skeleton.
+- **O**rganise paragraphs by function (intro, body, conclusion).
+- **A**nnotate transitions between paragraphs.
+- **D**rill into detail content only after the skeleton is locked.
 
-Typical structural patterns include:
+#### Common Traps
 
-- **Statement of a view → critique → conclusion**: The author presents a common position, identifies its flaws, and advances an alternative
-- **Phenomenon → explanation → evidence → implications**: The author describes something, offers a theory to explain it, presents supporting evidence, and discusses what follows
-- **Comparison and contrast**: The author systematically compares two theories, authors, historical periods, or approaches
-- **Chronological narrative**: The passage moves through time, tracing the development of an idea, institution, or technology
-- **Problem → proposed solutions → evaluation**: The author presents a problem and evaluates one or more proposed solutions
+- **Content-true but structurally wrong** — the answer states a fact in the passage but mislabels it as a conclusion when it is evidence.
+- **Over-generalisation** — calling every passage "a discussion" instead of "a compare-contrast discussion."
+- **First/last paragraph misreads** — treating the introduction as the thesis or the conclusion as a new argument.
 
-### 2. Paragraph-Level Structure
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-These ask about the function of a specific paragraph or section:
+#### Edge Cases in Structure Questions
 
-- "The function of the second paragraph (lines 12–20) is most likely to..."
-- "The author's mention of the Trolley Problem (lines 28–34) serves primarily to..."
-- "The primary purpose of the third paragraph is to..."
+Three subtler variants appear across LSAT India sittings and reward deeper mapping.
 
-When answering paragraph-level questions, isolate the specific paragraph and ask: "What does this paragraph contribute to the passage as a whole?" Common functions include:
+1. **Phrase-level structure** — the question highlights a bracketed phrase or single sentence and asks its function (e.g., "serves as a concession," "introduces the author's own view"). The correct answer is usually a transition role, not a content restatement.
+2. **Comparative-reading structure** — one of the four RC passages pairs two shorter texts. Structure questions here ask how the two passages relate: whether Passage B extends, challenges, or reframes Passage A's argument.
+3. **Function-of-the-whole-passage** — these ask for the passage's primary structural mode rather than its main idea. "The passage is best described as" with answer choices such as "a refutation of a prevailing view" or "an exposition of competing theories."
 
-- Providing evidence or examples for a claim made elsewhere
-- Introducing a counterargument or alternative perspective
-- Defining a key term or concept
-- Conceding a point before rebutting it
-- Drawing a conclusion or summarizing an argument
-- Transitioning between sections
+#### Exam Mechanics for LSAT India
 
-### 3. Sentence-Level Structure
+Reading Comprehension accounts for roughly 3% of the LSAT India score, distributed across four passages (one comparative) and 26–27 questions. Structure questions appear 1–3 times per passage, making them a reliable 4–10 question haul across the section. They are disproportionately time-expensive because they require whole-passage awareness, so practice should focus on speed of structural mapping rather than content recall.
 
-These ask about the function of a specific sentence:
+#### Practice Prompts
 
-- "The function of the sentence 'However, this interpretation has been challenged...' is to..."
-- "The sentence 'Such measures, while politically popular, are economically counterproductive' primarily serves to..."
+1. **Passage mapping drill (10 minutes)** — take any RC passage, mask the content, and write the structural skeleton in three lines: intro function, body pattern, closing function.
+2. **Trap diagnosis (15 minutes)** — review your last five structure-question misses and label each as *content-true-but-structurally-wrong*, *over-generalisation*, or *paragraph-role misread*.
 
-Sentence-level functions typically include: introducing contrast, providing support, signaling a concession, marking a transition, or indicating a conclusion.
+## Continue your study
 
-## A Worked Example
+- **[View this topic in your LSAT India roadmap](/roadmap/?exam=lsat&duration=1mo)** — see where "Structure Questions" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=lsat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[LSAT India exam overview](/exams/lsat/)** — pattern, eligibility, and syllabus
+- **[All Reading-Comp notes](/notes/lsat/reading-comp/)** — browse sibling topics in this subject
 
-**Passage excerpt:**
-> "[1] The Romantic movement in literature is typically characterized as a reaction against the rationalism of the Enlightenment. [2] According to this view, Romantic poets and writers rejected the emphasis on logic, order, and universal principles in favor of emotion, individualism, and the sublime power of nature. [3] Recently, however, literary historians have begun to challenge this binary framing. [4] These scholars argue that many prominent Romantic writers were deeply versed in Enlightenment philosophy and that their 'rejection' of reason was more rhetorical than substantive. [5] Rather than a clean break from the Enlightenment, these historians contend that Romanticism represents a complex transformation of Enlightenment ideas rather than their wholesale rejection."
-
-**Question:** "The function of sentences [3] through [5] is most likely to:"
-
-**(A)** Present evidence supporting the traditional characterization of Romanticism
-**(B)** Introduce a contrasting scholarly perspective on Romanticism
-**(C)** Define the key terms used in the passage
-**(D)** Summarize the author's main argument
-
-**Analysis:**
-
-- Sentence 1 establishes the "traditional characterization"
-- Sentence 2 elaborates on it
-- Sentence 3 begins with "Recently, however" — a clear contrast signal
-- Sentence 4 explains what the new scholars argue
-- Sentence 5 draws a conclusion from this new perspective
-
-The function of sentences 3–5 is to introduce and elaborate a contrasting scholarly perspective. The correct answer is **(B)**.
-
-Answer (A) is wrong because the new perspective challenges, not supports, the traditional view. Answer (C) is wrong because the passage does not define terms in this section. Answer (D) is wrong because the passage as a whole has not yet been fully presented — the author is still developing their argument.
-
-## The Structure Question Mindset
-
-To answer structure questions well, you must read with a dual awareness:
-
-1. **Content awareness**: What is the passage saying?
-2. **Architectural awareness**: Why is the passage saying it this way? What function does each section serve?
-
-Develop this awareness by asking structure questions as you read every passage, even during practice:
-
-- "What is the author trying to do in this paragraph?"
-- "Why did the author bring up this example?"
-- "What would be missing if this paragraph were removed?"
-- "Is this paragraph providing support, introducing a challenge, or transitioning?"
-
-Over time, this habit becomes automatic and your structural reading improves dramatically.
-
-## Key Signal Words for Structure
-
-Certain words and phrases are structural indicators. When you encounter them, pay attention to the function they signal:
-
-- **"However," "but," "although," "in contrast"**: Introduce a contrast or counterargument
-- **"Furthermore," "moreover," "in addition," "likewise"**: Add supporting information
-- **"For example," "for instance," "such as"**: Introduce an illustrative example
-- **"Therefore," "thus," "consequently," "it follows that"**: Signal a conclusion
-- **"Some argue," "critics maintain," "it has been suggested"**: Introduce a perspective the author is reporting (not necessarily endorsing)
-- **"The author uses X in order to..."**: Direct structural signal in question stem
-
-## Common Wrong Answer Patterns
-
-- **Describing content rather than function**: "The passage discusses the history of labor unions" describes the passage's subject, not its structure. Structure questions ask why something is included, not what it contains.
-- **Attributing the wrong function**: If a paragraph is actually providing evidence for a claim, calling it a "rebuttal" of that claim is incorrect.
-- **Confusing the passage's structure with its conclusion**: The passage's structure and its main point are related but distinct. A paragraph that concludes the argument is not the same as the argument's conclusion itself.
-
-## Structural Mapping: A Practical Technique
-
-When you encounter a passage, develop a quick structural map. You can do this in the margin or on your scratch paper. A simple template:
-
-```
-[Paragraph 1]: Thesis statement — introduces the author's main claim
-[Paragraph 2]: Evidence / supporting examples for the thesis
-[Paragraph 3]: Counterargument and author's rebuttal
-[Paragraph 4]: Implications or final conclusions
-```
-
-This map does not need to be elaborate. Two to three words per paragraph is sufficient. The goal is to give yourself a quick reference guide when structure questions ask about specific sections.
-
-## Why Structure Questions Matter
-
-Structure questions are among the most reliable indicators of deep reading comprehension. If you can accurately identify why an author included a particular paragraph, you understand the argument at a level that goes beyond surface content. This skill transfers to every other question type: understanding structure helps you identify the main point, evaluate an argument's strength, and distinguish necessary from unnecessary information.
-
-On LSAT India RC, aim to complete a structural map of each passage within your first read. By the time you encounter the questions, you should already know where to find the answer to any paragraph-level or sentence-level structure question.
-
+---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

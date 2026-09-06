@@ -8,7 +8,7 @@ topicName: Constitutional Framework
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-25"
+lastUpdated: "2026-09-06"
 ---
 
 # Constitutional Framework
@@ -16,55 +16,63 @@ lastUpdated: "2026-07-25"
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Panchayati Raj** is India's three-tier system of rural local self-government established under the **73rd Constitutional Amendment Act, 1992**, which inserted **Part IX** (Articles 243–243O) and the **11th Schedule** (29 subjects) into the Constitution. The tiers are **Gram Panchayat** (village), **Panchayat Samiti** (block), and **Zila Parishad** (district), with the **Gram Sabha** serving as the electoral college of all registered voters in a village. Seats are reserved for SC/ST in proportion to population, and **one-third of seats and chairperson posts are reserved for women**. Each Panchayat has a **five-year term**, and the **State Election Commission** conducts elections while the **State Finance Commission** reviews Panchayat finances every five years. For UPPSC, focus on the 73rd Amendment provisions, the 11th Schedule, and UP's own **Kshetra Panchayat and Zila Panchayat Adhiniyam**.
+The Constitutional Framework of India rests on the Constitution adopted on 26 November 1949 and operational from 26 January 1950. It establishes India as a sovereign, socialist, secular, democratic republic under the **Preamble** and structures governance through **Parliament**, the **State legislatures**, and an independent **judiciary**.
 
----
+- **Three lists** in the Seventh Schedule divide legislative power: Union, State, and Concurrent.
+- **Fundamental Rights (Part III)** are enforceable in court; **Directive Principles (Part IV)** guide policy; **Fundamental Duties (Article 51A)** bind every citizen.
+- **Article 368** governs constitutional amendment, limited by the **basic structure doctrine** (Kesavananda Bharati, 1973).
+- The **Supreme Court** is the apex court; the **President** acts on aid and advice of the Council of Ministers.
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-#### Constitutional Framework
-The 73rd Amendment gave Panchayats constitutional status, ending their dependence on state executive goodwill. Part IX is mandatory for all states with population above 20 lakh, though states with smaller populations (like Mizoram, Goa, Arunachal Pradesh) can also adopt it voluntarily. The **11th Schedule** lists 29 functional subjects transferred to Panchayats, including agriculture, minor irrigation, drinking water, rural roads, and primary education. Note the distinction: the 12th Schedule (Municipalities) contains 18 subjects — a common trap.
+#### Sources and Structure
+The framers drew from the Government of India Act 1935 (the structural blueprint), the US Constitution (judicial review and federalism), the British Parliament (cabinet and bicameralism), the Irish Constitution (Directive Principles), and lists from the Canadian model. The Supreme Court has original, appellate, and advisory jurisdiction; its collegium-led appointments to higher judiciary are read into Article 142.
 
-#### Three-Tier Structure
-- **Gram Panchayat**: elected directly; headed by **Sarpanch** (Pradhan in UP).
-- **Panchayat Samiti**: block level; members elected indirectly from Gram Panchayats.
-- **Zila Parishad**: district level; chairperson elected indirectly from Panchayat Samiti members.
+#### Distribution of Legislative Power
+The Seventh Schedule allocates subjects across three lists, and the Centre has residuary power under Article 248.
 
-The **Gram Sabha** is the foundational body — every registered voter in a village panchayat is a member. It approves the annual budget, development plans, and social audit reports.
+| List | Entry examples | Power to legislate |
+| --- | --- | --- |
+| Union List (97 subjects) | Defence, Atomic energy, Railways, Foreign affairs, War | Parliament only |
+| State List (66 subjects) | Police, Public order, Land, Local government, Agriculture | State Legislature, normally |
+| Concurrent List (47 subjects) | Criminal law, Marriage, Electricity, Drugs, Newspapers | Both; Centre prevails on conflict |
 
-#### Reservations and Elections
-Seats are reserved for **Scheduled Castes and Scheduled Tribes** in proportion to their population, and **one-third of total seats** (including chairperson offices) are reserved for **women** on a rotation basis. Elections are conducted by the **State Election Commission** (Article 243K), an independent body. If a Panchayat is dissolved, fresh elections must occur within **six months**; otherwise, re-election within that period is mandatory.
-
-#### District and Finance Commissions
-Under **Article 243ZD**, every district must constitute a **District Planning Committee (DPC)** to consolidate plans of Panchayats and Municipalities. The **State Finance Commission** (Article 243-I) reviews the financial position of Panchayats every five years and recommends the principles for revenue distribution — modelled on the Union Finance Commission.
-
-#### Exam Patterns
-UPPSC Prelims typically tests: number of subjects in the 11th Schedule, the article dealing with State Finance Commission (243-I), and the distinction between DPC and Metropolitan Planning Committee (243ZE).
-
----
+#### Rights, Duties, and Principles
+- **Fundamental Rights** (Articles 12–35) are justiciable through writs under Article 32 (Supreme Court) and Article 226 (High Courts).
+- **Directive Principles (Article 36–51)** are non-justiciable but fundamental in governance under Article 37.
+- **Fundamental Duties (Article 51A)** are moral obligations; six of ten original duties were added by the 42nd Amendment, 1976.
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-#### Historical Evolution
-The **Balwant Rai Mehta Committee (1957)** laid the foundation by recommending democratic decentralisation and a three-tier structure; this led to the Andhra Pradesh and Rajasthan experiments. The **Ashok Mehta Committee (1977)** criticised the three-tier model and suggested a **two-tier structure** (district and mandal), but its recommendations were not implemented nationally. The failure of states to hold regular Panchayat elections (many Panchayats were superseded repeatedly) prompted the Rajiv Gandhi government to push the 73rd Amendment, making local democracy part of the basic structure.
+#### Federalism and the Union
+India is a "federation with a strong Union." Articles 245–263 create a dual polity; emergency provisions (Articles 352, 356, 360) centralise power. The **Governor**, appointed under Article 155, holds discretionary space in hung assemblies and during breakdown scenarios (Bommai v. Union of India, 1994). The **President** is bound by Council of Ministers' advice except on limited grounds under Article 74.
 
-#### PESA and Scheduled Areas
-The **Panchayats (Extension to Scheduled Areas) Act, 1996 (PESA)** applies only to **Scheduled Areas under the Fifth Schedule** (not all tribal areas). PESA grants **Gram Sabhas** in these areas enhanced powers: they must be consulted on land acquisition, minor forest produce ownership, and grant of mining leases. States were required to amend their Panchayat laws to conform to PESA within one year — a provision Uttar Pradesh had to follow for its Sonbhadra, Mirzapur, and other Scheduled Areas.
+#### Amendment Procedure
+Article 368 governs amendment. Most require a special majority of Parliament; ratification by half the states is mandatory for changes affecting federal balance (Schedule VII transfer, representation in Council of States, Supreme Court/High Court jurisdiction, Articles 54/55).
 
-#### UP-Specific Framework
-Uttar Pradesh's Panchayats operate under the **Uttar Pradesh Kshetra Panchayat and Zila Panchayat Adhiniyam, 1947**, substantially amended after 1994 and again in 2020. The 2020 reforms introduced **digital audits**, mandatory disclosure of assets, and stronger Gram Sabha oversight of MGNREGA and PMAY-G funds. UPPSC Mains questions often ask about the relationship between the state law and the central constitutional framework — a high-value comparison.
+| Amendment type | Procedure | Example |
+| --- | --- | --- |
+| By special majority in Parliament | Each House: majority of total membership + two-thirds present and voting | 42nd CAA, 1976 |
+| Special majority + State ratification | Plus ratification by ≥50% States by resolution | 7th (abolition of privy purse) |
+| Simple majority | Ordinary law on constitutional matters | 104th Amendment (Delhi NCERT seat) |
 
-#### Common Mistakes
-1. Confusing **Gram Sabha** (all voters) with **Gram Panchayat** (elected executive).
-2. Believing PESA applies universally to tribal areas — it applies only to Fifth Schedule Scheduled Areas.
-3. Mixing up the 11th Schedule (29 subjects, Panchayats) and 12th Schedule (18 subjects, Municipalities).
-4. Assuming the District Planning Committee applies to all districts — metropolitan areas have a separate **Metropolitan Planning Committee** under Article 243ZE.
+#### Common UPPSC Traps
+1. Confusing the Sarkaria Commission's role with the Punchhi Commission's 2010 recommendations on Centre-State relations.
+2. Assuming DPSP override Fundamental Rights (rights prevail on direct conflict, per Minerva Mills, 1980).
+3. Treating "basic structure" as a textual provision — it is a judicially evolved doctrine.
 
-#### Practice Prompts
-- "Discuss the constitutional status of Panchayats before and after the 73rd Amendment." (Mains-style, 250 words)
-- "The 11th Schedule and 12th Schedule are often confused. Differentiate with reference to subjects and constitutional articles." (Prelims-style MCQ framing)
+#### Worked Recall
+Question prompt: "Explain why the 42nd Amendment is called 'mini-Constitution' and list two features later neutralised by the Supreme Court."
 
----
+Practice prompts: (a) Outline writ jurisdiction under Article 32 vs 226. (b) Trace the 73rd and 74th Constitutional Amendments to Panchayati Raj and Municipal governance.
+
+## Continue your study
+
+- **[View this topic in your UPPSC RO/ARO roadmap](/roadmap/?exam=uppsc&duration=1mo)** — see where "Constitutional Framework" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=uppsc&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UPPSC RO/ARO exam overview](/exams/uppsc/)** — pattern, eligibility, and syllabus
+- **[All General-Studies notes](/notes/uppsc/general-studies/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

@@ -11,7 +11,7 @@ topicName: Classification
 weight: 3
 country: india
 generated: "2026-03-24T08:32:07.837268"
-lastUpdated: "2026-06-19"
+lastUpdated: "2026-09-06"
 diagramPrompt: "Clear scientific diagram of Classification with atom labels, molecular structure, reaction arrows, white background, color-coded bonds and groups, exam textbook style"
 
 
@@ -25,69 +25,98 @@ diagramPrompt: "Clear scientific diagram of Classification with atom labels, mol
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Classification** in chemistry groups the 118 known elements into a structured **periodic table** (7 periods × 18 groups) and sorts substances and reactions into predictable families. **Mendeleev's periodic law** (1869) arranged elements by atomic weight; the **Modern periodic law** (Moseley, 1913) corrected this to atomic number, fixing inversions like Co–Ni and Ar–K. Blocks — **s, p, d, f** — reflect which subshell the valence electron enters. Group 1 = **alkali metals** (Li→Fr, soft, +1 oxidation state), Group 2 = **alkaline earth metals**, Group 17 = **halogens**, Group 18 = **noble gases** (inert, complete octet). Across a period, **atomic radius decreases, ionization enthalpy increases, electronegativity increases**; down a group the trends reverse. Substances split into **elements, compounds, mixtures**; reactions split into **combination, decomposition, displacement, double displacement, redox, acid–base**. CUET MCQs often test trend direction and reaction-type identification.
+Classification in CUET UG Chemistry means sorting elements, compounds, and reactions into categories based on shared electronic structure, functional groups, or chemical behaviour. Three domains dominate the syllabus: **periodic block classification** (s, p, d, f), **organic functional-group classification** with IUPAC suffixes, and **acid-base classification** (Arrhenius, Brønsted-Lowry, Lewis).
 
----
+| Domain | Key category | Defining feature |
+| --- | --- | --- |
+| Elements | s / p / d / f block | Valence shell being filled: s, p, (n−1)d, (n−2)f |
+| Organic | Functional groups | –OH, –CHO, –CO–, –COOH, –NH₂, –X |
+| Acids/bases | Arrhenius / Brønsted / Lewis | H⁺ or OH⁻ release; proton transfer; electron-pair sharing |
+
+- Ionisation enthalpy rises across a period but **dips at Group 2** (filled 2s) and **Group 15** (half-filled 2p).
+- Zn, Cd, Hg are d-block but **not** transition metals — their d-subshell is fully filled.
+- Phenols have –OH bonded directly to an aromatic ring; alcohols have –OH on an sp³ carbon.
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-#### Historical Classification
-**Dobereiner's triads** (1829) clustered three elements with similar chemistry and a middle element whose atomic weight was roughly the mean of the other two (Cl, Br, I; Li, Na, K). **Newlands' Law of Octaves** (1865) noted that every eighth element resembled the first when arranged by atomic weight, but it failed for heavier elements. **Mendeleev's periodic law** stated that *physical and chemical properties are a periodic function of atomic weight*; he left gaps for undiscovered elements (Sc, Ga, Ge). **Modern periodic law (Moseley)** corrected it: properties are a periodic function of **atomic number Z** = number of protons. The result is the **18-column, 7-period long form**, in which each period begins with the filling of a new principal quantum shell.
+#### Periodic Block Classification
 
-#### Blocks and Groups
-- **s-block** (Groups 1–2): outermost electron in ns; highly reactive metals.
-- **p-block** (Groups 13–18): outermost electron in np; contains metals, non-metals, and **metalloids** (Si, Ge, As, Sb, Te, At).
-- **d-block** (Groups 3–12): **transition elements**; outermost in (n−1)d; exhibit variable oxidation states and form coloured ions.
-- **f-block** (Lanthanoids, Actinoids): outermost in (n−2)f; placed separately to preserve table width.
+Elements are grouped by the subshell that receives the differentiating electron. **s-block** contains Groups 1 and 2, with valence configuration ns¹ or ns²; these are soft, highly reactive metals with fixed +1 or +2 oxidation states. **p-block** (Groups 13–18) shows the widest diversity — metals, non-metals, metalloids — and supports multiple oxidation states differing by two units. **d-block** elements (Groups 3–12) fill the (n−1)d subshell, giving variable oxidation states and the formation of coloured ions and complex compounds. **f-block** holds the lanthanoids (4f) and actinoids (5f), where the inner f-subshell fills and the elements show very similar chemistry within each series.
 
-#### Periodic Trends (Effective Nuclear Charge)
-Effective nuclear charge **Z_eff = Z − σ**, where σ is the shielding constant. As Z_eff rises left→right, valence electrons are pulled closer: **atomic radius decreases, ionization enthalpy increases, electronegativity rises, electron gain enthalpy becomes more negative**. Down a group, an extra shell outweighs rising Z, so trends reverse.
+#### Periodic Trends Driven by Z_eff
 
-#### Classification of Matter and Reactions
-**Pure substances** (fixed composition) split into **elements** and **compounds**; **mixtures** split into **homogeneous** (single phase, e.g. salt solution) and **heterogeneous** (visible phases, e.g. sand + water). Six reaction types: **combination** (A + B → AB), **decomposition** (AB → A + B), **displacement** (A + BC → AC + B), **double displacement** (AB + CD → AD + CB), **redox** (electron transfer), **acid–base neutralization**. In redox, **oxidation = loss of electrons (OIL)**, **reduction = gain of electrons (RIG)**; oxidation number of the element rises on oxidation, falls on reduction. The **sum of oxidation numbers in a neutral species = 0**; in an ion it equals the charge.
+Effective nuclear charge (Z_eff) increases left-to-right across a period because shielding stays roughly constant while protons accumulate. The consequences:
 
-#### Key Equations
-- Atomic number: **Z = number of protons**
-- Acidic strength: **pH = −log[H⁺]**; basic: **pOH = −log[OH⁻]**; **pH + pOH = 14 at 298 K**
+| Property | Trend across period | Trend down group |
+| --- | --- | --- |
+| Atomic radius | Decreases | Increases |
+| Ionisation enthalpy | Generally increases (with dips) | Decreases |
+| Electronegativity | Increases | Decreases |
+| Metallic character | Decreases | Increases |
 
-#### CUET Question Patterns
-Expect: identifying block/group from electron configuration, stating trend direction with reasoning, balancing redox by oxidation-number method, and naming the reaction type from a given equation.
+#### Organic Functional-Group Classification
 
----
+Every homologous series is identified by its functional group, which determines both reactivity and the IUPAC suffix. Recognising the group lets you predict the suffix instantly:
+
+- **–OH** on alkyl carbon → alcohol, suffix **-ol** (e.g. ethanol).
+- **–OH** on aromatic ring → phenol, suffix **-ol** but named as hydroxybenzene derivatives (e.g. phenol, catechol).
+- **–CHO** → aldehyde, suffix **-al** (e.g. ethanal).
+- **–CO–** between two carbons → ketone, suffix **-one** (e.g. propanone).
+- **–COOH** → carboxylic acid, suffix **-oic acid** (e.g. ethanoic acid).
+- **–NH₂** → amine, suffix **-amine** (e.g. methanamine).
+- **–X** (F, Cl, Br, I) → haloalkane or haloarene.
+
+Alcohols are further divided as **primary (1°)**, **secondary (2°)** or **tertiary (3°)** based on the count of carbon atoms attached to the carbon bearing the –OH group — not the number of –OH groups.
+
+#### Acid-Base Classification
+
+Three frameworks operate simultaneously. Arrhenius defines acids as H⁺ producers and bases as OH⁻ producers in water. Brønsted-Lowry extends this to proton donors and acceptors in any solvent. Lewis goes further still: an acid is an electron-pair acceptor and a base is an electron-pair donor. CUET questions often test whether you can recognise a substance acting as a Lewis acid without releasing protons — examples include BF₃ and AlCl₃.
+
+#### Common Traps
+
+- Confusing **block** with **group** — group is the vertical column, block depends on the subshell filled.
+- Forgetting that **Zn, Cd, Hg** are d-block yet non-transition.
+- Treating all –OH compounds as alcohols and ignoring the **aromatic ring** test for phenols.
+- Naming ethers as –OH compounds; ethers contain **C–O–C**, never –OH.
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-#### Anomalies and Edge Cases
-- **Inert pair effect** (p-block, heavy elements): the ns² pair resists participation, so Pb prefers +2, Bi prefers +3.
-- **First ionization enthalpy** anomaly at N→O and Be→B: half-filled (np³) and fully filled (ns²) subshells are extra stable, so IE of N > O and Be > B.
-- **Electron gain enthalpy** of Cl is *more negative* than F because F's 2p electrons repel the incoming electron; this is the only case where a lighter halogen is less reactive.
-- **d-block contraction** and **lanthanoid contraction** pull atomic radii of 4d/5d elements almost equal, making Zr–Hf, Nb–Ta nearly indistinguishable.
+#### Edge Cases in Block Placement
 
-#### Oxidation-Number Method (Worked)
-Balance: **MnO₂ + HCl → MnCl₂ + H₂O + Cl₂**
-1. Oxidation states: Mn +4 → +2 (gain 2 e⁻, reduced); Cl −1 → 0 (lose 1 e⁻, oxidised).
-2. Multiply Cl half by 2: 2 Cl⁻ → Cl₂ + 2 e⁻.
-3. Combine: MnO₂ + 4HCl → MnCl₂ + 2H₂O + Cl₂. The 4 HCl = 2 (reducing, oxidised) + 2 (acid, form MnCl₂).
+A handful of elements break the naïve block pattern. Hydrogen sits in s-block by electron configuration yet is usually studied separately because it is a non-metal. Helium has a 1s² configuration (s-block) but is placed in Group 18 because of its closed-shell noble-gas behaviour. Lanthanoids and actinoids are written below the main table, but lanthanum (La, Z=57) and actinium (Ac, Z=89) are technically d-block because they have no f-electrons in the ground state; their f-electrons appear only in the following elements. CUET sometimes asks the position of La, Ac, Lu, and Lr — these are the **bridge elements** between d- and f-blocks.
 
-#### Salts and Acid–Base Logic
-A **salt** is the ionic product of a cation from a base and an anion from an acid: e.g. H₂SO₄ + 2NaOH → Na₂SO₄ + 2H₂O. Strong acid + strong base → neutral salt (pH 7); strong acid + weak base → acidic salt (NH₄Cl); weak acid + strong base → basic salt (CH₃COONa).
+#### Worked Naming Example
 
-#### Common Mistakes
-- Confusing **group number** with **valence electrons** in d-block (Group 3 = 3 valence electrons only in early 4d/5d series; period-4 d-block elements show this inconsistently).
-- Assuming all **Group 1** metals form only +1 ions — they do, but their compounds (peroxides, superoxides) require care.
-- Forgetting that **hydrogen** has no fixed group position (placed in Group 1 or 17 depending on property discussed).
-- Writing oxidation numbers as superscripts; convention requires them written as **+2**, not ²⁺.
+Take the structure CH₃–CH(OH)–CH₂–CH₃. The longest carbon chain containing the –OH has four carbons (butane). Numbering from the end nearer the –OH gives the suffix position as **2-ol**, giving **butan-2-ol**. Because the carbon bearing –OH is attached to two other carbons (CH₃ on one side, CH₂CH₃ on the other), this is a **secondary alcohol**. A common error is to call it a ketone; remember that –OH on a carbon between two alkyl groups is still an alcohol, never a ketone.
 
-#### Adjacent Topics
-- **Chemical bonding** relies on group position to predict ionic vs covalent character (ΔEN rule).
-- **Coordination compounds** (Class 12) build directly on d-block variable oxidation states.
-- **Environmental chemistry** uses redox classification to explain corrosion and combustion.
+#### Connections to Adjacent Topics
+
+- **Periodic trends** depend on classification — without placing elements in blocks, you cannot explain ionisation enthalpy dips.
+- **IUPAC nomenclature** of organic compounds flows directly from functional-group identification; mixing it up cascades into errors in named reactions.
+- **Solid classification** (ionic, covalent network, molecular, metallic) reuses electronegativity and oxidation-state concepts from block chemistry: ionic solids form between metal and non-metal; covalent network solids involve p-block non-metals; metallic solids arise from s- and d-block metals.
+
+#### Common Mistakes — Expanded
+
+| Mistake | Why it is wrong |
+| --- | --- |
+| Treating Zn as a transition metal | Zn has a filled 3d¹⁰ subshell in Zn²⁺, so it shows no partly-filled d-states and is not a transition metal. |
+| Saying ionisation enthalpy always rises across a period | Filled (ns²) and half-filled (np³) configurations stabilise the atom, lowering IE relative to the trend. |
+| Calling diethyl ether an alcohol | Diethyl ether (C₂H₅–O–C₂H₅) has no –OH group; it is an ether, suffix -oxy-. |
+| Naming phenols with the alcohol suffix | Phenol is retained as the IUPAC name; substituted phenols use *hydroxybenzene* parent, not *benzenol*. |
 
 #### Practice Prompts
-1. An element X has electron configuration [Ar] 3d⁵ 4s². Identify its block, group, period, and the most stable oxidation state.
-2. Using oxidation numbers, balance: **Cr₂O₇²⁻ + Fe²⁺ + H⁺ → Cr³⁺ + Fe³⁺ + H₂O** and state what is oxidised, what is reduced, and the oxidising agent.
+
+1. Identify the block of element 46 (Pd). State whether it qualifies as a transition metal and justify your answer with its electron configuration.
+2. A compound has molecular formula C₃H₆O and gives a positive Tollens' test. Name it using IUPAC rules and state the class (primary/secondary/tertiary) if it is an alcohol — or explain why the class label does not apply.
+
+## Continue your study
+
+- **[View this topic in your CUET UG roadmap](/roadmap/?exam=cuet&duration=1mo)** — see where "Classification" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=cuet&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[CUET UG exam overview](/exams/cuet/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/cuet/chemistry/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

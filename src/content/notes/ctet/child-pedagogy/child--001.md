@@ -19,7 +19,7 @@ Child development refers to the biological, cognitive, emotional, and social cha
 
 ## Growth vs Development — The Core Distinction
 
-These two terms are often used interchangeably but have distinct meanings that CTET examiners frequently test:
+These two terms are used interchangeably in casual speech but have distinct meanings that CTET examiners frequently test:
 
 **Growth** refers to quantitative, physical changes — an increase in height, weight, muscle mass, or neural connections. It is measurable and largely biological. A child growing taller is a growth change.
 
@@ -27,7 +27,7 @@ These two terms are often used interchangeably but have distinct meanings that C
 
 Key difference: Growth is about *becoming bigger*; development is about *becoming better* (functionally).
 
-In CTET questions, you may encounter statements like: "The child can now write sentences" — this reflects development, not just growth.
+In CTET questions, exam items present statements like: "The child can now write sentences" — this reflects development, not just growth.
 
 ## Stages of Development
 
@@ -64,7 +64,7 @@ Also called the **concrete operational stage** (Piaget). Characteristics include
 - Industry vs inferiority (Erikson's key conflict)
 - Formal schooling begins — academic, social, and cognitive skills accelerate
 
-**CTET Focus:** This is the core age group for CTET Paper I. Teachers must design lessons that build confidence, provide structured challenges, and foster collaborative learning.
+**CTET Focus:** This is the core age group for CTET Paper I. Teachers must design lessons that build confidence, provide structured challenges, and encourage collaborative learning.
 
 ### 4. Adolescence (12 to 18/19 Years)
 
@@ -89,19 +89,19 @@ Development proceeds from **head to tail** — the head and brain develop before
 Development proceeds from the **center of the body outward** — the torso develops before the extremities. Children gain control of their core (trunk) muscles before their fingers. This is why a toddler can swing their arms but struggles with precise finger grip.
 
 ### 3. Principle of Interdependence
-Development is holistic — physical, cognitive, emotional, and social development are interconnected. A physically malnourished child may show reduced cognitive performance. Similarly, emotional stress can affect physical growth.
+Development is holistic — physical, cognitive, emotional, and social development are interconnected. A physically malnourished child shows reduced cognitive performance. Similarly, emotional stress directly affects physical growth.
 
 ### 4. Principle of Continuity vs Discontinuity
 Some aspects of development are continuous (gradual, incremental changes) while others are discontinuous (qualitative shifts through stages). Piaget's stage theory emphasizes discontinuity; Vygotsky's theory emphasizes continuous social interaction.
 
 ### 5. Principle of Continuity
-Development is a **continuous process** — it does not happen in leaps. Every stage builds upon the previous one. A child who did not develop trust in infancy may struggle with social relationships in later years.
+Development is a **continuous process** — it does not happen in leaps. Every stage builds upon the previous one. A child who did not develop trust in infancy struggles with social relationships in later years.
 
 ### 6. Principle of Predictability
-While every child is unique, development generally follows a predictable pattern. This allows teachers to anticipate what children of a given age group can typically do, while also respecting individual variation.
+While every child is unique, development follows a predictable sequence. This allows teachers to anticipate what children of a given age group can do, while also respecting individual variation.
 
 ### 7. Principle of Multidirectionalism
-Different aspects of development proceed at different rates. A child may be advanced cognitively but behind physically, or vice versa.
+Different aspects of development proceed at different rates. A child can be advanced cognitively while developing at a standard pace physically, or vice versa.
 
 ## Factors Influencing Development
 

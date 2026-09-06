@@ -99,7 +99,7 @@ F = 60 – 15 = 45
 
 ### Concept Deep Dive
 
-Age problems are deceptively simple — the math is basic algebra, but the wording and structure can make them surprisingly tricky. Let's build a robust framework for tackling any age problem, including the ones with multiple people, multiple time shifts, and "never will be" conditions.
+Age problems reduce to two linear relationships: the fixed age difference and the shifting age ratio across time. Setting up equations requires identifying which variables change over time and which remain invariant.
 
 **The Invariance Principle:**
 

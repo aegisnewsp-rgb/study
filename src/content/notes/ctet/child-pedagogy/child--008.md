@@ -95,7 +95,7 @@ Motivation that comes from **external** factors — rewards, praise, grades, avo
 
 ### Maintaining Intrinsic Motivation in the Classroom
 
-1. **Foster curiosity** — pose questions that spark interest
+1. **Stimulate curiosity** — pose questions that spark interest
 2. **Provide choices** — allow students to choose topics or methods
 3. **Challenge appropriately** — tasks should be neither too easy nor too hard (this connects to Csikszentmihalyi's Flow state)
 4. **Minimize external rewards** for activities students already enjoy

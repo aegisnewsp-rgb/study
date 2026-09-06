@@ -8,145 +8,121 @@ topicName: Depreciation
 weight: 3
 country: nigeria
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-06"
 ---
 
 # Depreciation
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+> Rapid summary for last-minute revision before your ICAN exam.
 
-**Depreciation** is the systematic allocation of the depreciable amount of a tangible non-current asset over its **useful economic life**. It is not a fund or money set aside — it is an accounting entry that reduces the book value of an asset and is charged as an expense in the income statement. Depreciation reflects the **wearing out, consumption, or loss of value** of an asset, not its market value.
+Depreciation represents the systematic allocation of the depreciable amount of a tangible property, plant and equipment (PPE) asset over its estimated useful economic life under **IAS 16 (Property, Plant and Equipment)**. Depreciation constitutes a non-cash cost-allocation mechanism to match revenue with asset utilization, not a valuation process reflecting changing open market values. The depreciable base strictly equals **historical acquisition cost (or revalued carrying amount) minus estimated residual value**.
 
-The **depreciable amount** is the cost of the asset minus its estimated residual value (scrap value) at the end of its useful life. **Useful life** is the period over which the asset is expected to be available for use by the entity.
-
-**Three Principal Methods of Depreciation**:
-
-**1. Straight-Line Method** (also called Fixed Installment Method):
-$$\text{Annual Depreciation} = \frac{\text{Cost} - \text{Residual Value}}{\text{Useful Life}}$$
-
-For example, a machine costs ₦550,000, residual value ₦50,000, useful life 5 years:
-$$\text{Annual Depreciation} = \frac{550{,}000 - 50{,}000}{5} = ₦100{,}000\text{ per year}$$
-
-**2. Reducing Balance Method** (also called Diminishing Balance or Written-Down Value):
-$$\text{Depreciation} = \text{Rate} \times \text{Reducing Book Value}$$
-
-Using a rate of 40%: Year 1: 40% × ₦550,000 = ₦220,000; Year 2: 40% × ₦330,000 = ₦132,000
-
-**3. Sum-of-Digits Method** (accelerated method):
-If useful life = 5 years, sum of digits = 5+4+3+2+1 = 15. Year 1 depreciation = 5/15 × (Cost − Residual value)
-
-⚡ **Exam Tip**: ICAN consistently asks candidates to compare straight-line and reducing balance methods — straight-line gives equal annual charges, while reducing balance gives higher charges in early years and lower later. Reducing balance is appropriate for assets that lose value faster initially (computers, motor vehicles).
+| Standard Depreciation Metric | Mathematical Formulation | Direct Accounting Application | High-Frequency ICAN Trap |
+|---|---|---|---|
+| **Depreciable Amount** | $\text{Depreciable Base} = \text{Cost} - \text{Residual Value}$ | Base sum amortized over asset lifespan | Omitting residual value subtraction in Straight-Line calculations |
+| **Straight-Line Method (SLM)** | $\text{Annual Charge} = \frac{\text{Cost} - \text{Residual Value}}{n}$ | Uniform economic benefit consumption | Applying SLM percentage to reducing carrying value |
+| **Reducing Balance Method (RBM)** | $\text{Charge}_t = \text{Carrying Amount}_{t-1} \times r$ | Front-loaded depreciation for rapid early wear | Using $1/n$ instead of $r = 1 - \sqrt[n]{\frac{\text{Residual}}{\text{Cost}}}$ |
+| **Units of Production** | $\text{Charge} = (\text{Cost} - \text{RV}) \times \frac{\text{Units Output}}{\text{Total Capacity}}$ | Direct mechanical output wear matching | Using machine operating hours when units produced are specified |
+| **Derecognition Rule** | Stops at earlier of disposal or IFRS 5 Held for Sale | No depreciation once classified as held for sale | Charging depreciation during active asset marketing post-IFRS 5 classification |
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+> Standard content for students with a few days to months before ICAN.
 
-**Depreciation** — ICAN (Nigeria) Study Guide
+#### 1. Scope, Asset Recognition, and Cost Components
 
-**IAS 16 — Property, Plant and Equipment**
+Under IAS 16, an item of PPE is recognized as an asset if future economic benefits will flow to the entity and the asset cost can be reliably measured. Cost includes purchase price (less trade discounts), import duties, non-refundable taxes, site preparation, delivery, installation, professional architectural/legal fees, and estimated future dismantling and site restoration obligations (IAS 37).
 
-Under IAS 16, an entity must choose either the **cost model** or the **revaluation model** as its accounting policy for property, plant and equipment after initial recognition. Under the cost model, the asset is carried at cost less accumulated depreciation and impairment. Under the revaluation model, the asset is carried at a revalued amount (fair value at date of revaluation) less subsequent accumulated depreciation.
+Subsequent expenditures are capitalized only if they extend asset useful life, increase operating capacity, or represent substantial component replacements. Regular repairs, day-to-day servicing, and maintenance expenses are recognized immediately in profit or loss.
 
-When an asset is revalued, the entire class of assets to which that asset belongs must be revalued. Revaluation gains are usually credited to **revaluation surplus** (under equity), except to the extent that the gain reverses a revaluation loss previously recognised in profit or loss.
+| Accounting Treatment Dimension | Straight-Line Method (SLM) | Reducing Balance Method (RBM) | Units of Production Method |
+|---|---|---|---|
+| **Annual Depreciation Charge** | Constant equal amount every accounting period | Decreasing charge; highest in Year 1, lowest in final year | Variable charge fluctuating directly with operational output |
+| **Carrying Amount Trajectory** | Linear descent to estimated residual value | Exponential asymptotic decay toward residual value | Non-linear decay tied to volume utilization |
+| **Total Carrying Cost (Depr + Repairs)** | Rising total cost (fixed depreciation + escalating repairs) | Stabilized total cost (falling depreciation offsets rising repairs) | Variable total cost proportional to activity level |
+| **Best-Suited Asset Classes** | Office buildings, leaseholds, office furniture | Heavy motor vehicles, computer servers, industrial machinery | Commercial transport aircraft (flight cycles), mining haulers |
 
-**Journal Entries for Depreciation**:
+#### 2. Four-Year Comparative Depreciation Schedule
 
-At the end of each year:
-- Dr. Depreciation Expense a/c (income statement) [amount]
-- Cr. Accumulated Depreciation a/c (balance sheet — contra asset)
+Consider an industrial generator purchased on 1 January 2026 for $₦10,000,000$ with an estimated useful life of $4$ years and a residual scrap value of $₦1,000,000$.
 
-**Asset Disposal**
+Under Straight-Line:
+$$\text{Annual Depreciation} = \frac{₦10,000,000 - ₦1,000,000}{4} = ₦2,250,000 \text{ per annum}$$
 
-When an asset is sold:
-1. Calculate depreciation to date of sale
-2. Calculate book value (Cost − Accumulated Depreciation)
-3. Compare proceeds with book value:
-   - Proceeds > Book Value = **Profit on disposal** (credit P&L)
-   - Proceeds < Book Value = **Loss on disposal** (debit P&L)
+Under Reducing Balance (using $r = 43.77\%$ to reach $₦1,000,000$ at year 4):
 
-*Example*: Machine cost ₦200,000, accumulated depreciation ₦160,000, sold for ₦50,000:
-- Book value = ₦200,000 − ₦160,000 = ₦40,000
-- Proceeds (₦50,000) > Book value (₦40,000) = Profit of ₦10,000
+| Accounting Year | Opening Carrying Amount | SLM Depreciation Charge | SLM Net Book Value | RBM Depreciation Charge ($43.77\%$) | RBM Net Book Value |
+|---|---|---|---|---|---|
+| **Year 1 (2026)** | $₦10,000,000$ | $₦2,250,000$ | $₦7,750,000$ | $₦4,377,000$ | $₦5,623,000$ |
+| **Year 2 (2027)** | $₦7,750,000$ (SLM) / $₦5,623,000$ (RBM) | $₦2,250,000$ | $₦5,500,000$ | $₦2,461,187$ | $₦3,161,813$ |
+| **Year 3 (2028)** | $₦5,500,000$ (SLM) / $₦3,161,813$ (RBM) | $₦2,250,000$ | $₦3,250,000$ | $₦1,383,926$ | $₦1,777,887$ |
+| **Year 4 (2029)** | $₦3,250,000$ (SLM) / $₦1,777,887$ (RBM) | $₦2,250,000$ | $₦1,000,000$ | $₦777,887$ | $₦1,000,000$ |
 
-Journal entries:
-- Dr. Bank ₦50,000
-- Dr. Accumulated Depreciation ₦160,000
-- Cr. Machine a/c ₦200,000
-- Cr. Profit on Disposal ₦10,000
+#### 3. Component Depreciation and Changes in Accounting Estimates
 
-**Depreciation and the Financial Statements**:
+IAS 16 mandates separate depreciation for each asset part with a cost significant to total asset cost. For example, in an industrial facility, the boiler, turbine, and building structure constitute separate components with 10-year, 25-year, and 50-year useful lives respectively.
 
-In the balance sheet: **Accumulated Depreciation** is deducted from the asset's cost (same line item or as a separate contra asset). In the income statement: **Depreciation expense** appears as an operating expense.
-
-⚡ **Common Mistakes**: Forgetting to provide for depreciation in the year of disposal (depreciation should be charged for the portion of the year the asset was used), and confusing residual value with scrap value — they are the same concept.
+Under IAS 8, reviews of residual value, useful life, and depreciation methods occur at every financial year-end. Adjustments represent changes in accounting estimates applied **prospectively** over remaining useful life, never retrospectively.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-**Depreciation** — Comprehensive ICAN (Nigeria) Notes
+#### Financial Accounting Depreciation vs. Tax Capital Allowances
 
-**Conceptual Foundations of Depreciation**
+In Nigerian professional accounting practice, financial statement depreciation is disallowed for company tax computation under the Companies Income Tax Act (CITA) and the Industrial Development (Income Tax Relief) Act. Entities calculate **Capital Allowances** according to Federal Inland Revenue Service (FIRS) statutory rates.
 
-Depreciation is one of the most frequently misunderstood topics in accounting. It is fundamentally an **allocation** concept, not a **valuation** concept. The depreciable amount must be allocated on a **systematic basis** over the asset's useful life. The method chosen should reflect the pattern in which the asset's economic benefits are consumed.
+| Comparative Dimension | Accounting Depreciation (IAS 16) | Tax Capital Allowances (CITA / FIRS) |
+|---|---|---|
+| **Governing Standard** | International Accounting Standard 16 | Companies Income Tax Act (CITA 2004 as amended) |
+| **Statutory Rates** | Entity-determined based on economic reality | Prescribed statutory Initial Allowances and Annual Allowances |
+| **Residual Value Treatment** | Deducted prior to applying depreciation rates | Ignored; allowance computed on qualifying capital expenditure |
+| **Balancing Adjustments** | Profit or loss on disposal ($P/L = \text{Proceeds} - \text{NBV}$) | Balancing Allowance (tax relief) or Balancing Charge (taxable income) |
+| **Deferred Tax Impact** | Creates temporary timing differences under IAS 12 | Generates deferred tax liabilities or assets |
 
-**Straight-Line Method — Detailed Analysis**:
+#### Worked ICAN Examination Problem: Component Revaluation & Disposal
 
-Produces the same depreciation charge each year. Best suited for assets whose economic benefits are consumed evenly over time (e.g., leasehold buildings, some types of equipment). The formula is straightforward, but candidates must be careful to:
-1. Use residual value in the denominator, not full cost
-2. Calculate partial-year depreciation on a pro-rata basis when an asset is acquired or disposed of mid-year
+*Problem:* On 1 January 2024, Lagos Petrochemicals Ltd acquired a chemical processing plant for $₦60,000,000$. The plant comprises two components:
+1. Core Reactor ($₦40,000,000$, useful life $10$ years, nil residual value).
+2. Specialized Catalyst Lining ($₦20,000,000$, useful life $4$ years, nil residual value).
+Depreciation is charged on the straight-line basis. On 31 December 2025, the catalyst lining was replaced at a cost of $₦28,000,000$. The old lining was scrapped with zero proceeds. Calculate total depreciation charged for the year ended 31 December 2026.
 
-*Pro-rata example*: Asset purchased 1 April 20X1, financial year ends 31 December. Depreciation ₦90,000 per year.
-- Year 1: 9/12 × ₦90,000 = ₦67,500 (April to December)
-- Year 2–4: Full years = ₦90,000 each
-- Year 5: 3/12 × ₦90,000 = ₦22,500
+*Step-by-Step Accounting Solution:*
+1. Calculate annual depreciation for 2024 and 2025:
+   - Core Reactor: $\frac{₦40,000,000}{10} = ₦4,000,000$ per year.
+   - Old Catalyst Lining: $\frac{₦20,000,000}{4} = ₦5,000,000$ per year.
+   - Total annual depreciation (2024, 2025) $= ₦4,000,000 + ₦5,000,000 = ₦9,000,000$.
+2. Derecognition of replaced component at 31 December 2025:
+   - Carrying amount of old lining $= ₦20,000,000 - (2 \times ₦5,000,000) = ₦10,000,000$.
+   - Derecognition loss charged to Profit or Loss $= ₦10,000,000$.
+3. Capitalize new replacement component:
+   - Add new catalyst lining to PPE at $₦28,000,000$ with new 4-year useful life starting 1 January 2026.
+4. Calculate 2026 depreciation charge:
+   - Core Reactor (Year 3): $₦4,000,000$.
+   - New Catalyst Lining (Year 1): $\frac{₦28,000,000}{4} = ₦7,000,000$.
+   - Total 2026 Depreciation Charge $= ₦4,000,000 + ₦7,000,000 = ₦11,000,000$.
+*Final Answer:* Total depreciation charged in 2026 is **$₦11,000,000$**, with an additional derecognition loss of **$₦10,000,000$** recognized in 2025.
 
-**Reducing Balance Method — Detailed Analysis**:
+#### Common Traps and Examiner Checkpoints
 
-The rate is typically applied to the **opening book value** (cost less accumulated depreciation to date). The method produces a declining charge — higher in early years when the asset is more productive, lower later. This is particularly appropriate for assets that generate more economic benefits early in their life (e.g., computers, mobile phones, motor vehicles).
-
-The rate can be derived from the formula:
-$$(1 - \sqrt[n]{\frac{\text{Residual Value}}{\text{Cost}}}) \times 100$$
-
-where n = useful life in years. For a 4-year life with residual = 10% of cost: Rate = (1 − ∜0.10) × 100 ≈ 37.8%.
-
-**Sum-of-Digits Method — Detailed Analysis**:
-
-An accelerated method where the fraction of depreciable cost recognised each year decreases over time. For a 5-year asset:
-- Total digits = 1+2+3+4+5 = 15
-- Year 1: 5/15 × depreciable cost
-- Year 2: 4/15 × depreciable cost
-- Year 3: 3/15 × depreciable cost
-- Year 4: 2/15 × depreciable cost
-- Year 5: 1/15 × depreciable cost
-
-**Units of Production Method**:
-
-For assets whose wear and tear is better measured by output than time:
-$$\text{Depreciation per unit} = \frac{\text{Cost} - \text{Residual Value}}{\text{Total Estimated Units of Production}}$$
-
-Example: Machine cost ₦300,000, residual ₦30,000, estimated production 90,000 units over 5 years. Depreciation per unit = ₦3 per unit. If Year 1 production = 25,000 units → depreciation = ₦75,000.
-
-**Revaluation Method**:
-
-Under the revaluation model, when an asset is revalued upward:
-- Dr. Asset a/c (increase in value)
-- Cr. Revaluation Surplus a/c (equity — unless reversing a prior downward revaluation loss taken to P&L)
-
-If an upward revaluation reverses a previously recognised impairment loss on the same asset: Dr. Asset a/c, Cr. P&L (other income — impairment gain).
-
-**Component Depreciation (IAS 16 Amendment)**:
-
-When significant parts of a non-current asset have different useful lives, each part must be depreciated separately. For example, an aircraft may be depreciated over 20 years, but its engines depreciated over 8 years each. When an engine is replaced, the new engine is capitalised as a separate component.
-
-**Disclosure Requirements under IAS 16**:
-
-The financial statements must disclose for each class of PPE: the measurement basis, depreciation methods used, useful lives or depreciation rates, gross carrying amount and accumulated depreciation, and reconciliation of carrying amount at beginning and end of period.
-
-⚡ **ICAN Exam Pattern**: Depreciation questions frequently combine the calculation of depreciation (straight-line, reducing balance, or sum-of-digits) with asset disposal, revaluation, and inclusion in financial statements. Always attempt partial-year depreciation questions in the year of acquisition and year of disposal — ICAN examiners penalise the omission of these adjustments. A 15-mark question typically involves: calculating depreciation under two methods (6 marks), preparing ledger accounts for accumulated depreciation and asset disposal (5 marks), and showing extracts from financial statements (4 marks).
+- **Depreciation Commencing Date**: Depreciation starts when the asset is in the location and condition necessary for it to operate in the intended manner, not when commercial production begins. Idle assets continue to be depreciated unless units-of-production method is adopted.
+- **Land and Buildings**: Land and buildings are separable assets and must be accounted for separately, even when acquired together. Land has an infinite useful life and is not depreciated, whereas buildings possess a finite useful life.
+- **Subsequent Revaluation Surplus**: When an asset is revalued, any depreciation subsequently charged is based on the revalued amount. Entities may transfer the difference between depreciation on revalued amount and depreciation on historical cost directly from Revaluation Surplus to Retained Earnings.
 
 ---
-*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*
+
+### Practice Prompts
+
+1. An item of plant costing $₦8,000,000$ with an estimated residual value of $₦800,000$ has been depreciated under the straight-line method over an 8-year life for 3 years. At the start of year 4, the remaining useful life is revised to 3 additional years, and residual value is revised to $₦500,000$. Calculate the revised depreciation charge for year 4.
+2. Outline the accounting entries required under IAS 16 when an enterprise derecognizes an asset with an original cost of $₦15,000,000$, accumulated depreciation of $₦9,000,000$, and sale proceeds of $₦7,500,000$.
+
+---
+
+## Continue your study
+
+- **[ICAN Exam Hub](/exams/ican/)** — complete syllabus outline, examination diet structure, and student resources
+- **[All ICAN Accounting Notes](/notes/ican/accounting/)** — financial accounting, management information, taxation, and audit
+- **[ICAN Examination Preparation Roadmap](/exams/ican/#roadmap)** — high-yield topic distribution and diet study planner

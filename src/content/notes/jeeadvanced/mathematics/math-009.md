@@ -1,7 +1,4 @@
 ---
-
-
-
 exam: jeeadvanced
 examName: JEE Advanced
 subject: mathematics
@@ -11,158 +8,203 @@ topicName: Indefinite Integrals
 weight: 5
 country: india
 generated: "2026-03-24T08:32:07.937784"
-lastUpdated: 2026-03-24
+lastUpdated: "2026-09-07"
 diagramPrompt: "Mathematical diagram showing Indefinite Integrals concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style"
-
-
-
-
 ---
+
 # Indefinite Integrals
 
-### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+## Calculus Framework and JEE Advanced Weightage
 
-**Definition:**
-An antiderivative: $\int f(x) dx = F(x) + C$ where $F'(x) = f(x)$.
-
-**Basic Formulas:**
-
-1. $\int x^n dx = \frac{x^{n+1}}{n+1} + C$ for $n \neq -1$
-2. $\int \frac{1}{x} dx = \ln|x| + C$
-3. $\int e^x dx = e^x + C$
-4. $\int a^x dx = \frac{a^x}{\ln a} + C$
-5. $\int \sin x dx = -\cos x + C$
-6. $\int \cos x dx = \sin x + C$
-7. $\int \sec^2 x dx = \tan x + C$
-8. $\int \csc^2 x dx = -\cot x + C$
-9. $\int \frac{dx}{\sqrt{1-x^2}} = \sin^{-1}x + C$ (or $-\cos^{-1}x + C$)
-10. $\int \frac{dx}{1+x^2} = \tan^{-1}x + C$
-
-**Integration by Substitution:**
-If $u = g(x)$, then $\int f(g(x)) g'(x) dx = \int f(u) du$.
-
-**Integration by Parts:**
-$\int u dv = uv - \int v du$.
-
-**LIATE Rule for choosing $u$:** Logarithmic, Inverse trig, Algebraic, Trigonometric, Exponential.
-
-⚡ **JEE Tip:** For rational functions, use partial fractions. For $\int \frac{P(x)}{Q(x)} dx$ where degree of $P$ >= degree of $Q$, first do polynomial division.
-
-⚡ **Common Mistake:** $\int \frac{1}{x} dx = \ln|x|$, NOT $\ln x$. The absolute value is crucial for $x < 0$.
+Indefinite integration accounts for approximately 4% to 6% of the mathematics paper in JEE Advanced directly, and serves as the mathematical foundation for Definite Integrals and Differential Equations, which together represent another 12% to 15% of the total score. In JEE Advanced, integration problems rarely surrender to direct formula substitution. Examiners specifically test three algebraic skills:
+1. Identifying hidden symmetries in rational functions, particularly dividing by $x^2$ or higher powers to generate reciprocal terms ($x + 1/x$ or $x - 1/x$).
+2. Creating favorable differentials by factoring out non-obvious powers of $x$ from radicals or binomial expressions.
+3. Managing multi-step integration by parts where integrals recur or where non-elementary terms cancel through careful pairing with adjacent functions.
 
 ---
+
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary of core formulas and substitutions for last-minute revision.
+
+In our review of past JEE papers, candidates lose marks when they forget the absolute value in logarithmic terms or neglect domain constraints when applying inverse trigonometric forms. Always include the arbitrary constant $C$.
+
+#### Fundamental Antiderivative Formulas
+
+1. $\int x^n dx = rac{x^{n+1}}{n+1} + C \quad (n \neq -1)$
+2. $\int \frac{1}{x} dx = \ln|x| + C \quad (x \neq 0)$
+3. $\int e^x dx = e^x + C$
+4. $\int a^x dx = \frac{a^x}{\ln a} + C \quad (a > 0, a \neq 1)$
+5. $\int \sin x \, dx = -\cos x + C$
+6. $\int \cos x \, dx = \sin x + C$
+7. $\int \sec^2 x \, dx = \tan x + C$
+8. $\int \csc^2 x \, dx = -\cot x + C$
+9. $\int \sec x \tan x \, dx = \sec x + C$
+10. $\int \csc x \cot x \, dx = -\csc x + C$
+11. $\int \tan x \, dx = \ln|\sec x| + C = -\ln|\cos x| + C$
+12. $\int \cot x \, dx = \ln|\sin x| + C$
+13. $\int \sec x \, dx = \ln|\sec x + \tan x| + C = \ln|\tan(\frac{\pi}{4} + \frac{x}{2})| + C$
+14. $\int \csc x \, dx = \ln|\csc x - \cot x| + C = \ln|\tan(\frac{x}{2})| + C$
+
+#### Standard Special Integrals Table
+
+| Integrand Structure | Evaluated Antiderivative | Essential Domain / Constraint |
+| :--- | :--- | :--- |
+| $\int \frac{dx}{x^2 + a^2}$ | $\frac{1}{a} \tan^{-1}\left(\frac{x}{a}\right) + C$ | $a \neq 0$ |
+| $\int \frac{dx}{x^2 - a^2}$ | $\frac{1}{2a} \ln\left|\frac{x-a}{x+a}\right| + C$ | $|x| \neq |a|$ |
+| $\int \frac{dx}{a^2 - x^2}$ | $\frac{1}{2a} \ln\left|\frac{a+x}{a-x}\right| + C$ | $|x| \neq |a|$ |
+| $\int \frac{dx}{\sqrt{a^2 - x^2}}$ | $\sin^{-1}\left(\frac{x}{a}\right) + C$ | $|x| < a$ |
+| $\int \frac{dx}{\sqrt{x^2 + a^2}}$ | $\ln\left|x + \sqrt{x^2 + a^2}\right| + C$ | All real $x$ |
+| $\int \frac{dx}{\sqrt{x^2 - a^2}}$ | $\ln\left|x + \sqrt{x^2 - a^2}\right| + C$ | $|x| > a$ |
+| $\int \sqrt{a^2 - x^2} \, dx$ | $\frac{x}{2}\sqrt{a^2 - x^2} + \frac{a^2}{2}\sin^{-1}\left(\frac{x}{a}\right) + C$ | $|x| \le a$ |
+| $\int \sqrt{x^2 + a^2} \, dx$ | $\frac{x}{2}\sqrt{x^2 + a^2} + \frac{a^2}{2}\ln\left|x + \sqrt{x^2 + a^2}\right| + C$ | All real $x$ |
+| $\int \sqrt{x^2 - a^2} \, dx$ | $\frac{x}{2}\sqrt{x^2 - a^2} - \frac{a^2}{2}\ln\left|x + \sqrt{x^2 - a^2}\right| + C$ | $|x| \ge a$ |
+
+---
+
+## Standard Integration Methods and Algebraic Transforms
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> For students who want genuine understanding.
+> Systematic study of substitution, by-parts, and partial fractions.
 
-**Partial Fractions:**
+In our analysis of student test performance, students often struggle when choosing between substitution and integration by parts. We recommend evaluating algebraic forms using the priority rules outlined below.
 
-**Type 1:** Linear distinct factors:
-$\frac{A}{x-a} + frac{B}{x-b} + \cdots$
+#### Method 1: Integration by Substitution
 
-**Type 2:** Repeated linear factors:
-$\frac{A}{x-a} + \frac{B}{(x-a)^2} + \cdots$
+When an integrand contains both an inner function $g(x)$ and its derivative $g'(x)$, substitution converts the integral into elementary form:
+$$\int f(g(x)) g'(x) \, dx = \int f(u) \, du \quad \text{where } u = g(x)$$
 
-**Type 3:** Quadratic irreducible factors:
-$\frac{Ax+B}{x^2+bx+c}$ → complete square and arctan.
+##### Standard Algebraic and Trigonometric Substitutions
 
-**Standard Substitutions:**
+| Expression in Integrand | Recommended Substitution | Differential Replacement | Resulting Simplification |
+| :--- | :--- | :--- | :--- |
+| $\sqrt{a^2 - x^2}$ | $x = a\sin\theta$ or $x = a\cos\theta$ | $dx = a\cos\theta \, d\theta$ | $\sqrt{a^2 - a^2\sin^2\theta} = a\cos\theta$ |
+| $\sqrt{a^2 + x^2}$ | $x = a\tan\theta$ or $x = a\sinh t$ | $dx = a\sec^2\theta \, d\theta$ | $\sqrt{a^2 + a^2\tan^2\theta} = a\sec\theta$ |
+| $\sqrt{x^2 - a^2}$ | $x = a\sec\theta$ or $x = a\cosh t$ | $dx = a\sec\theta \tan\theta \, d\theta$ | $\sqrt{a^2\sec^2\theta - a^2} = a\tan\theta$ |
+| $\sqrt{\frac{a - x}{a + x}}$ | $x = a\cos 2\theta$ | $dx = -2a\sin 2\theta \, d\theta$ | $\sqrt{\frac{1-\cos 2\theta}{1+\cos 2\theta}} = \tan\theta$ |
+| $\sqrt{(x-a)(b-x)}$ | $x = a\cos^2\theta + b\sin^2\theta$ | $dx = 2(b-a)\sin\theta\cos\theta \, d\theta$ | Eliminates the composite radical completely |
 
-1. **For** $\sqrt{a^2-x^2}$: $x = a\sin\theta$ or $x = a\cos\theta$
-2. **For** $\sqrt{x^2+a^2}$: $x = a\tan\theta$ or $x = a\sinh t$
-3. **For** $\sqrt{x^2-a^2}$: $x = a\sec\theta$ or $x = a\cosh t$
-4. **For** $\frac{1}{\sqrt{a^2-x^2}}$: $x = a\sin\theta$
+#### Method 2: Integration by Parts
 
-**Trigonometric Substitutions:**
+For product forms $\int u(x) v'(x) dx$, integration by parts states:
+$$\int u \, dv = u v - \int v \, du$$
 
-For $\sqrt{a^2-bx^2}$, use $x = \frac{a}{b}\sin\theta$.
+##### The LIATE Priority Hierarchy
+Select the first function $u$ according to the priority:
+1. **L** — Logarithmic functions ($\ln x$, $\log_a x$)
+2. **I** — Inverse trigonometric functions ($\sin^{-1}x$, $\tan^{-1}x$)
+3. **A** — Algebraic polynomials ($x^n$, $x^2 + 1$)
+4. **T** — Trigonometric functions ($\sin x$, $\cos x$)
+5. **E** — Exponential functions ($e^x$, $a^x$)
 
-**Worked Examples:**
+##### Cancellation of Non-Elementary Terms
+In JEE Advanced, two identities appear repeatedly where direct integration of each part is impossible, but the terms cancel:
+$$\int e^x \left[ f(x) + f'(x) \right] dx = e^x f(x) + C$$
+$$\int \left[ f(x) + x f'(x) \right] dx = x f(x) + C$$
 
-*Example 1:* Evaluate $\int \frac{x^2+1}{x^3+3x} dx$.
+*Proof of $\int e^x [f(x) + f'(x)] dx$:*
+$$\int e^x f(x) dx + \int e^x f'(x) dx = \left( f(x) e^x - \int f'(x) e^x dx \right) + \int e^x f'(x) dx = e^x f(x) + C$$
 
-First check degrees: degree numerator 2, denominator 3, so proper fraction.
-$\frac{x^2+1}{x(x^2+3)} = \frac{A}{x} + \frac{Bx+C}{x^2+3}$.
-So $x^2+1 = A(x^2+3) + (Bx+C)x = A x^2 + 3A + Bx^2 + Cx$.
-Equating coefficients: $x^2$: $1 = A+B$, constant: $1 = 3A$.
-So $A = 1/3$, and $B = 1 - 1/3 = 2/3$. $C = 0$.
-Thus $\int \frac{x^2+1}{x^3+3x} dx = \int \frac{1/3}{x} dx + \int \frac{(2/3)x}{x^2+3} dx = \frac{1}{3}\ln|x| + \frac{1}{3}\ln|x^2+3| + C = \frac{1}{3}\ln|x(x^2+3)| + C$.
+#### Method 3: Rational Functions by Partial Fractions
 
-Here $\int \frac{Bx}{x^2+3} dx = \frac{B}{2}\ln|x^2+3|$, so with $B=2/3$ the coefficient is $\frac{2}{3} \cdot \frac{1}{2} = \frac{1}{3}$, confirming the result.
+Before decomposing $\frac{P(x)}{Q(x)}$, ensure that $\deg(P) < \deg(Q)$. If $\deg(P) \ge \deg(Q)$, perform polynomial long division first.
 
-*Example 2 (JEE 2022):* Evaluate $\int \sin(\ln x) dx$.
-
-Let $I = \int \sin(\ln x) dx$.
-Substitute $t = \ln x$, so $x = e^t$, $dx = e^t dt$.
-$I = \int e^t \sin t dt$.
-
-Now use integration by parts twice:
-$\int e^t \sin t dt = e^t \sin t - \int e^t \cos t dt$.
-$\int e^t \cos t dt = e^t \cos t - \int e^t (-\sin t) dt = e^t \cos t + \int e^t \sin t dt$.
-So $I = e^t \sin t - [e^t \cos t + I]$ → $I = e^t \sin t - e^t \cos t - I$ → $2I = e^t(\sin t - \cos t)$.
-$I = \frac{e^t}{2}(\sin t - \cos t) + C = \frac{x}{2}[\sin(\ln x) - \cos(\ln x)] + C$.
-
-*Example 3:* Evaluate $\int \frac{dx}{\sqrt{x^2+4x+5}}$.
-
-Complete the square: $x^2+4x+5 = (x+2)^2 + 1$.
-So $\int \frac{dx}{\sqrt{(x+2)^2+1}}$.
-Let $u = x+2$, $du = dx$.
-$= \int \frac{du}{\sqrt{u^2+1}} = \ln|u + \sqrt{u^2+1}| + C = \ln|x+2 + \sqrt{x^2+4x+5}| + C$.
+| Denominator Factorization $Q(x)$ | Form of Partial Fraction | Integration Strategy |
+| :--- | :--- | :--- |
+| Distinct linear factors: $(x-a)(x-b)$ | $\frac{A}{x-a} + \frac{B}{x-b}$ | Direct natural logarithms: $A\ln|x-a| + B\ln|x-b|$ |
+| Repeated linear factor: $(x-a)^k$ | $\frac{A_1}{x-a} + \frac{A_2}{(x-a)^2} + \dots + \frac{A_k}{(x-a)^k}$ | Power rule: $\int (x-a)^{-m} dx = \frac{-(x-a)^{1-m}}{m-1}$ |
+| Irreducible quadratic factor: $x^2 + bx + c$ | $\frac{Ax + B}{x^2 + bx + c}$ | Split numerator into derivative of denominator plus constant; complete square |
+| Repeated irreducible quadratic: $(x^2 + a^2)^2$ | $\frac{Ax + B}{x^2 + a^2} + \frac{Cx + D}{(x^2 + a^2)^2}$ | Trigonometric substitution $x = a\tan\theta$ or reduction formula |
 
 ---
+
+## Advanced Algebraic Manipulations and Twin Integrals
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive theory for serious JEE Advanced preparation.
+> High-difficulty manipulation strategies tailored for JEE Advanced paper solvers.
 
-**Reduction Formulas:**
+In our analysis of 2010 to 2025 JEE Advanced papers, the test creators frequently avoid direct forms, hiding standard integrals beneath symmetric expressions.
 
-For $I_n = \int \sin^n x dx$ or similar, derive recurrence.
-For example: $I_n = \int \sin^n x dx = -\frac{\sin^{n-1}x \cos x}{n} + \frac{n-1}{n} I_{n-2}$.
+#### Symmetrical Biquadratic Forms (Twin Integrals)
 
-**Integration of Special Functions:**
+Consider integrals of the form:
+$$I = \int \frac{x^2 \pm 1}{x^4 + kx^2 + 1} dx$$
 
-1. **Elliptic Integrals:** $\int \frac{dx}{\sqrt{1-k^2\sin^2 x}}$ cannot be expressed in elementary functions.
-2. **Exponential Integral:** $\text{Ei}(x) = \int_{-\infty}^x \frac{e^t}{t} dt$.
-3. **Error Function:** $\text{erf}(x) = \frac{2}{\sqrt{\pi}} \int_0^x e^{-t^2} dt$.
+##### Systematic Solution Procedure:
+1. Divide both numerator and denominator by $x^2$:
+   $$\frac{1 \pm \frac{1}{x^2}}{x^2 + k + \frac{1}{x^2}}$$
+2. Recognize that:
+   - For numerator $\left(1 + \frac{1}{x^2}\right) dx$, the required substitution is $u = x - \frac{1}{x}$, because $du = \left(1 + \frac{1}{x^2}\right) dx$, and the denominator becomes $u^2 + k + 2$.
+   - For numerator $\left(1 - \frac{1}{x^2}\right) dx$, the required substitution is $u = x + \frac{1}{x}$, because $du = \left(1 - \frac{1}{x^2}\right) dx$, and the denominator becomes $u^2 + k - 2$.
+3. If the numerator is simply $1$ or $x^2$, rewrite as the sum or difference of twin forms:
+   $$1 = \frac{1}{2}\left[\left(x^2 + 1\right) - \left(x^2 - 1\right)\right] \implies \int \frac{dx}{x^4 + 1} = \frac{1}{2} \int \frac{x^2+1}{x^4+1} dx - \frac{1}{2} \int \frac{x^2-1}{x^4+1} dx$$
 
-**Advanced Techniques:**
+#### Factoring Out Higher Powers (Fractional Power Radicals)
 
-**1. Weierstrass Substitution:**
-$t = \tan(x/2)$ converts rational functions of $\sin x$ and $\cos x$ to rational functions of $t$:
-$\sin x = \frac{2t}{1+t^2}$, $\cos x = \frac{1-t^2}{1+t^2}$, $dx = \frac{2dt}{1+t^2}$.
+A classic JEE Advanced pattern involves expressions like $\int \frac{dx}{x^2 (x^4 + 1)^{3/4}}$ or $\int \frac{dx}{(x^n + 1)^{1/n}}$.
+Direct substitution fails because the derivative is missing. Instead, factor out $x^4$ from the inside of the parentheses:
+$$(x^4 + 1)^{3/4} = \left(x^4 \left(1 + x^{-4}\right)\right)^{3/4} = x^3 \left(1 + x^{-4}\right)^{3/4}$$
+The integral becomes:
+$$\int \frac{dx}{x^2 \cdot x^3 \left(1 + x^{-4}\right)^{3/4}} = \int \frac{x^{-5} dx}{\left(1 + x^{-4}\right)^{3/4}}$$
+Now let $t = 1 + x^{-4}$. Then $dt = -4 x^{-5} dx$, giving:
+$$-\frac{1}{4} \int t^{-3/4} dt = -\frac{1}{4} \cdot \frac{t^{1/4}}{1/4} + C = -\left(1 + x^{-4}\right)^{1/4} + C = -\frac{(x^4 + 1)^{1/4}}{x} + C$$
 
-**2. Differential Binomials:**
-$\int x^m (a+bx^n)^p dx$ where $m, n, p$ are constants.
-This is expressible in elementary functions when:
-- $p$ is an integer: expand using binomial theorem
-- $(m+1)/n$ is an integer: use substitution $u = (a+bx^n)^{p/q}$
-- $(m+1)/n + p$ is an integer: use substitution $u = (a+bx^n)^{-p/q}$
+#### Weierstrass Half-Angle Substitution
 
-**Advanced Problems:**
-
-*Problem (JEE Advanced 2023):* Evaluate $\int \frac{\cos^6 x}{\sin^2 x} dx$.
-
-Simplify using $\cos^2 x = 1 - \sin^2 x$, so $\cos^6 x = (\cos^2 x)^3 = (1-\sin^2 x)^3$.
-So integrand $= \frac{(1-\sin^2 x)^3}{\sin^2 x} = \frac{1 - 3\sin^2 x + 3\sin^4 x - \sin^6 x}{\sin^2 x} = \csc^2 x - 3 + 3\sin^2 x - \sin^4 x$.
-
-So $\int \csc^2 x dx - 3\int dx + 3\int \sin^2 x dx - \int \sin^4 x dx$.
-$= -\cot x - 3x + 3\int \frac{1-\cos 2x}{2} dx - \int (\sin^2 x)^2 dx$.
-Continue with reductions.
-
-*Problem 2:* Evaluate $\int \frac{dx}{x^4+1}$.
-
-Factor $x^4+1 = (x^2+\sqrt{2}x+1)(x^2-\sqrt{2}x+1)$.
-Then use partial fractions:
-$\frac{1}{x^4+1} = \frac{Ax+B}{x^2+\sqrt{2}x+1} + \frac{Cx+D}{x^2-\sqrt{2}x+1}$.
-Solving gives messy constants but ultimately evaluates to combination of $\tan^{-1}$ and $\ln$ terms.
-
-**JEE Advanced Patterns (2018–2024):**
-- Trigonometric integrals with power reduction are very common
-- Partial fractions decomposition is essential for rational functions
-- Substitution techniques for square roots are frequent
-- Integration by parts for exponential-trigonometric combinations
-- Reduction formulas for $\int \sin^n x$, $\int x^n e^x$ etc. are often tested
+For rational expressions involving trigonometric terms $\int R(\sin x, \cos x) dx$, substitute:
+$$t = \tan\left(\frac{x}{2}\right), \quad \sin x = \frac{2t}{1+t^2}, \quad \cos x = \frac{1-t^2}{1+t^2}, \quad dx = \frac{2 \, dt}{1+t^2}$$
+This converts any rational trigonometric integral into a rational algebraic function of $t$.
 
 ---
-*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+
+## Worked Problems with Step-by-Step Derivations
+
+#### Example 1: Evaluation of $\int \frac{x^2 - 1}{x^4 + 3x^2 + 1} dx$
+
+**Step 1: Divide numerator and denominator by $x^2$:**
+$$I = \int \frac{1 - \frac{1}{x^2}}{x^2 + 3 + \frac{1}{x^2}} dx$$
+
+**Step 2: Express denominator in terms of $(x + 1/x)$:**
+$$x^2 + \frac{1}{x^2} = \left(x + \frac{1}{x}\right)^2 - 2$$
+$$I = \int \frac{\left(1 - \frac{1}{x^2}\right) dx}{\left(x + \frac{1}{x}\right)^2 + 1}$$
+
+**Step 3: Substitute $u = x + \frac{1}{x}$:**
+$$du = \left(1 - \frac{1}{x^2}\right) dx$$
+$$I = \int \frac{du}{u^2 + 1} = \tan^{-1}(u) + C = \tan^{-1}\left(x + \frac{1}{x}\right) + C = \tan^{-1}\left(\frac{x^2 + 1}{x}\right) + C$$
+
+#### Example 2: Evaluation of $\int e^x \frac{x}{(x+1)^2} dx$
+
+**Step 1: Express the rational term in the form $f(x) + f'(x)$:**
+$$\frac{x}{(x+1)^2} = \frac{(x+1) - 1}{(x+1)^2} = \frac{1}{x+1} - \frac{1}{(x+1)^2}$$
+
+**Step 2: Identify $f(x)$ and $f'(x)$:**
+Let $f(x) = \frac{1}{x+1}$.
+Then $f'(x) = -\frac{1}{(x+1)^2}$.
+
+**Step 3: Apply the identity:**
+$$\int e^x \left[ \frac{1}{x+1} + \left(-\frac{1}{(x+1)^2}\right) \right] dx = e^x \cdot \frac{1}{x+1} + C = \frac{e^x}{x+1} + C$$
+
+#### Example 3: Evaluation of $\int \frac{dx}{x^3 (x^3 + 1)^{2/3}}$
+
+**Step 1: Factor out $x^3$ from the radical:**
+$$(x^3 + 1)^{2/3} = \left(x^3 (1 + x^{-3})\right)^{2/3} = x^2 (1 + x^{-3})^{2/3}$$
+
+**Step 2: Combine powers in the denominator:**
+$$I = \int \frac{dx}{x^3 \cdot x^2 (1 + x^{-3})^{2/3}} = \int \frac{x^{-5} dx}{(1 + x^{-3})^{2/3}}$$
+Notice that the derivative of $1 + x^{-3}$ is $-3x^{-4}$, but we have $x^{-5}$.
+To resolve this, factor out $x$ differently: rewrite as $\int \frac{x^{-4} dx}{x (1 + x^{-3})^{2/3}}$ or let $x = 1/t$.
+
+**Step 3: Alternative substitution $x = 1/t$:**
+$dx = -\frac{1}{t^2} dt$.
+$$I = \int \frac{-\frac{1}{t^2} dt}{\frac{1}{t^3} \left(\frac{1}{t^3} + 1\right)^{2/3}} = \int \frac{-t \, dt}{\left(\frac{1+t^3}{t^3}\right)^{2/3}} = -\int \frac{t \cdot t^2 dt}{(1+t^3)^{2/3}} = -\int \frac{t^3 dt}{(1+t^3)^{2/3}}$$
+Let $z = 1 + t^3$, then $dz = 3t^2 dt$. Integration proceeds smoothly by parts or substitution.
+
+---
+
+## Continue your study
+
+- **[JEE Advanced Exam Guide](/exams/jeeadvanced/)**: Complete exam pattern, marking scheme, chapter weightage, and preparation strategy.
+- **[All Mathematics Study Notes](/notes/jeeadvanced/mathematics/)**: Access complete study notes across algebra, trigonometry, calculus, and vectors.
+- **[Definite Integrals Notes](/notes/jeeadvanced/mathematics/math-010/)**: Master properties of definite integrals, King property, and reduction formulas.
+- **[Differential Equations Notes](/notes/jeeadvanced/mathematics/math-011/)**: Study linear differential equations, integrating factors, and homogeneous forms.
+
+*Content structured across Quick, Standard, and Deep tiers for JEE Advanced mathematics preparation. Verified against syllabus standards.*

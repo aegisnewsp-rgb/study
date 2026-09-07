@@ -8,156 +8,117 @@ topicName: Methods of Discharge
 weight: 3
 country: nigeria
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-25"
+lastUpdated: "2026-09-07"
 ---
 
 # Methods of Discharge
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+> Rapid summary for last-minute revision before your ICAN Business Law paper.
 
-**Topic 3** addresses the discharge of contracts and the remedies available when a contract is breached. A contract is discharged when the obligations between parties come to an end. Understanding how contracts are discharged and what remedies flow from breach is essential for any practising accountant advising clients on commercial arrangements.
+**Discharge of contract** is the termination of the legal duties the parties owe each other under a binding agreement. Seven modes are recognised under Nigerian contract law, drawn from English common law and Nigerian statutes (Bankruptcy Act, Limitation Act).
 
-**Methods of Discharge:**
-1. **Performance** — parties fulfil their obligations completely and exactly
-2. **Agreement** — mutual release, novation, or substitution of a new contract
-3. **Breach** — one party fails to perform their obligations
-4. **Frustration** — an unforeseen event makes performance impossible or radically different
-5. **Operation of law** — merger, alteration of contract, rescission
+#### Modes of discharge at a glance:
 
-**⚡ Exam tip:** Frustration is frequently examined in ICAN — students must distinguish between mere inconvenience and true legal frustration (the event must not have been foreseen or provided for by the contract).
+- **Performance** — actual carrying out of contractual duties (exact in sale of goods, substantial in others); *tender* is an offer to perform.
+- **Mutual agreement** — release, rescission, variation, novation, accord and satisfaction.
+- **Frustration** — supervening event without fault that makes performance impossible or radically different (Davis Contractors test).
+- **Impossibility** — pre-existing fact the parties did not know about.
+- **Breach** — anticipatory (Hochster v De La Tour) or actual; entitles the innocent party to terminate.
+- **Operation of law** — merger, bankruptcy, death (personal service), limitation.
+- **Remission / waiver** — creditor accepts less than full performance.
 
----
+**Effect:** future obligations end; accrued rights survive unless released.
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+> Standard content for students working through Business Law across weeks.
 
-**Discharge by Performance:**
+#### Performance and Tender
 
-Performance must be:
-- **Exact and complete** — the "entirety doctrine" means each party's obligation to perform is dependent on the other's performance (*Cutter v. Powell* [1795] — sailor engaged for a voyage; died before voyage completed; his widow can not recover wages because the entire voyage was not completed; no apportionment)
-- **In the manner agreed** — substituted performance is not discharge unless accepted
+Discharge by performance ends the contract when each party executes exactly what was promised. For **sale of specific goods under the Sale of Goods Act**, performance must be exact. For non-goods contracts, **substantial performance** is in most cases sufficient; the innocent party can sue for damages for the minor shortfall.
 
-**Divisible Contracts:**
-Where a contract is divided into distinct parts with a separate price for each part (e.g., a monthly salary), performance of each part can be treated separately. A party who has substantially performed their part can sue for the price of that part (the other party cannot retain money for incomplete performance of their own obligations).
+*Tender of performance* is a conditional offer to perform; if the other side wrongfully refuses, the tendering party is discharged from further duty.
 
-**Time of Performance:**
-- If no time is stated, performance is within a reasonable time
-- If time is "of the essence" (material), late performance is a breach allowing rescission
-- If time is not of the essence, late performance is a breach giving rise to damages but not rescission
+#### Discharge by Agreement
 
-**Discharge by Agreement:**
+The parties themselves can end the contract in several ways:
 
-Parties can discharge their obligations by mutual agreement:
-- **Mutual release:** Both parties agree to abandon the contract
-- **Accord and satisfaction:** One party agrees to accept different performance in full settlement; the new agreement must have consideration to be binding
-- **Novation:** The original contract is replaced by a new contract with different parties or terms (*Waugh v. H.B. Clifford Commerce* [1982])
-- **Rescission by agreement:** May be by express agreement or by mutual abandonment
+| Mode | Effect |
+| --- | --- |
+| Release / Rescission | Mutual abandonment of obligations under the original contract |
+| Variation | Substitution of new terms; requires consideration or a deed under Nigerian law |
+| Accord and satisfaction | Agreement to accept a substituted performance in full settlement |
+| Novation | A new contract or new party replaces the old one; requires consent of all parties |
 
-**Discharge by Frustration:**
+Distinguish **rescission** (ending the old contract without a new one) from **novation** (a new contract replaces the old). Variation requires fresh consideration unless executed as a deed under the **Statute of Frauds / Minors Act**.
 
-Frustration occurs when, after the contract is made, an event occurs that:
-1. Is not caused by the fault of either party
-2. Was not foreseen by either party at the time of contracting
-3. Makes performance impossible or radically different from what was agreed
+#### Frustration and Impossibility
 
-**Cases on Frustration:**
-- *Paradine v. Jane* (1647) — tenant remained liable for rent even though a German Prince occupied the land (military occupation was not frustration — the event was not truly impossible)
-- *Taylor v. Caldwell* (1863) — music hall burnt down before the concert date — contract was frustrated; neither party liable
-- *Herne Bay Steamboat v. Hutton* [1903] — coronation naval review case; the King's illness frustrated the contract (or did it? — some courts say no because seeing the review was not the sole purpose)
-- *Krell v. Henry* [1903] — coronation procession route 2; procession did not take place — frustrating event; deposit recoverable
+A contract is frustrated when, after formation, an unforeseen event makes performance impossible, illegal, or fundamentally different from what was contemplated.
 
-**Effects of Frustration:**
-- Both parties are discharged from future obligations
-- Money paid before frustration is recoverable (*Fibula SpA v. FinancialXD*)
-- Money due but not yet paid is not payable
-- Expenses incurred before frustration are dealt with under the Law Reform (Frustrated Contracts) Act 1943 (UK; applied in Nigeria as common law)
+| Doctrine | Trigger | Authority |
+| --- | --- | --- |
+| Frustration | Supervening event (destruction of subject matter, supervening illegality, outbreak of war) | Davis Contractors Ltd v Fareham UDC; National Carriers Ltd v Panalpina |
+| Impossibility | Pre-existing fact unknown to both parties at formation | Nigerian common law |
+| Codification | Sums paid can be recoverable; reliance losses recognised | Law Reform (Frustrated Contracts) Act 1976 (Persuasive in Nigeria) |
 
-**Discharge by Breach:**
+**Common trap:** a mere increase in expense (e.g. 300% rise in cost of materials) is **not** frustration — the performance must be radically different.
 
-Breach occurs when one party fails to perform their obligations without a lawful excuse. Breach can be:
-- **Minor (partial):** Non-fundamental term broken; the other party can claim damages but must continue performance
-- **Fundamental (repudiation):** A fundamental term is broken; the other party can terminate (rescind) and sue for damages
+#### Breach
 
-**Anticipatory Breach:**
-A party can anticipatorily repudiate before performance is due — the other party can immediately sue for breach without waiting for the performance date (*Hochster v. De La Tour* [1853]).
+- **Anticipatory breach (Hochster v De La Tour):** one party renounces the contract before performance is due. The innocent party can sue immediately *or* hold the contract alive.
+- **Actual breach:** failure to perform on the due date; the innocent party can terminate and claim damages.
 
-**Limitation Periods (Nigeria):**
-- Simple contracts: 6 years from the date of breach
-- Specialty contracts (deeds): 12 years
-- For fraud or concealed fraud: 6 years from when the plaintiff discovered or can have discovered the fraud
+#### Operation of Law
+
+Discharge occurs automatically where statute or judicial event closes the obligation — **merger** (judgment recovered on a contract debt extinguishes the underlying contract), **bankruptcy** under the Bankruptcy Act (CAP B3 LFN 2004), **death** where personal service is required, and **limitation of actions** under the Limitation Act (CAP L5 LFN 2004) barring the remedy (not the debt).
+
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students building mastery over a full syllabus cycle.
+
+#### Distinguishing the Doctrines
+
+Candidates lose marks by treating frustration, impossibility, and breach as interchangeable. The test lies in **timing** and **fault**:
+
+- **Impossibility** is pre-contractual and unknown.
+- **Frustration** is post-contractual and without the contractor's fault.
+- **Breach** involves fault; the innocent party chooses whether to affirm or terminate.
+
+#### Adjacent Topics to Link
+
+1. **Remedies for breach** — damages, specific performance, injunctions (covered in Remedies).
+2. **Doctrine of frustration and the Law Reform (Frustrated Contracts) Act 1976** — recovery of sums paid and reliance losses.
+3. **Conditions precedent and subsequent** — a failure of a condition precedent prevents the contract from binding; failure of a condition subsequent discharges a contract once formed.
+4. **Winding-up under CAMA 2020** — corporate counterpart of bankruptcy discharge.
+
+#### Worked Reasoning Frame
+
+> A supplier agrees to deliver 10,000 bags of cement to Lagos. Before delivery, the Federal Government bans cement imports. The contract is **frustrated by supervening illegality** — performance has become unlawful through no fault of either party. The buyer is no longer bound to accept; the seller's duties are discharged, and any advance payment is recoverable under the Frustrated Contracts Act principles.
+
+#### Common Mistakes
+
+- Treating waiver as a complete defence to **all** future breaches — waiver of one breach is not waiver of all.
+- Forgetting that **limitation** bars the *remedy*, not the *debt*; the obligation subsists until discharged another way.
+- Confusing **novation** (new contract replacing old) with **variation** (modification of existing terms).
+- Believing bankruptcy wipes out every contract — only **provable debts** are released; secured obligations continue.
+
+#### Exam Strategy
+
+The 3% Business Law weight in standard papers surfaces as **part-question 20–25 marks** on a multi-issue scenario. Always: (1) state the *mode* pleaded, (2) cite the *authority* (case or statute), (3) apply to *facts*, (4) state the *effect* on obligations.
+
+#### Practice Prompts
+
+1. Distinguish **anticipatory breach** from **frustration** using a fact pattern involving a 12-month supply contract cut short by export prohibition.
+2. Explain why **tender of performance** did not automatically discharge the contractor in *Startup v Coker* where the employer wrongfully refused.
 
 ---
 
-### 🔴 Extended — Deep Dive (exam-level mastery)
-> For students preparing for top-rank selection.
+## Continue your study
 
-**The Rule in Cutter v. Powell:**
+- **[View this topic in your ICAN (Nigeria) roadmap](/roadmap/?exam=ican&duration=1mo)** — see where "Methods of Discharge" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ican&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[ICAN (Nigeria) exam overview](/exams/ican/)** — pattern, eligibility, and syllabus
+- **[All Business Law notes](/notes/ican/business-law/)** — browse sibling topics in this subject
 
-The rule in *Cutter v. Powell* (1795) established that where a contract provides for entire performance (no installment provision), failure to complete the performance discharges the other party's obligations. This is harsh in some cases, and courts have developed exceptions:
-
-1. **Divisible contracts:** Where the contract price is apportioned to specific parts, each part is treated separately (*Morrison v. Smith* [1954])
-2. **Substantial performance:** Where the promisor has substantially performed (with minor deviations), they can recover the contract price less the cost of completion (*Hoons v. Rimbault*; *Dakin v. Oxley* [1864])
-3. **Prevention by the other party:** If the other party prevents performance, the first party is discharged (*Placer Development Corp v. Cnergy*)
-
-**Self-Induced Frustration:**
-
-If the frustrating event was caused by the fault of one party, that party cannot rely on frustration. This includes:
-- Refusal to cooperate in a condition precedent
-- Failure to take reasonable steps to fulfil a condition
-- Strikes or lockouts caused by the employer's conduct
-
-**The Basis of the Frustration Doctrine:**
-
-Two theories exist:
-1. **The implied term theory:** The court implies a term into the contract that it would be suspended or discharged upon the occurrence of the frustrating event
-2. **The construction theory (preferred):** The court construes the contract in light of the supervening event — the change is so fundamental that the original contract no longer governs
-
-**Damages — The General Principle:**
-
-The general measure of damages for breach of contract is **expectation loss** (the "benefit of the bargain"): the plaintiff should be put in the position they would have been in had the contract been performed (*Robinson v. Harman* [1799]).
-
-**Types of Damages:**
-1. **Expectation damages:** Put the plaintiff in the position as if the contract had been performed (loss of profit + expenses wasted)
-2. **Reliance damages:** Put the plaintiff in the position as if the contract had never been made (used when profit is too speculative)
-3. **Consequential/indirect losses:** Losses flowing from the breach (lost profits from a sub-contract, etc.) — recoverable if not too remote
-4. **Liquidated damages:** Pre-agreed sum specified in the contract (enforceable if genuine estimate of loss; a penalty clause is unenforceable)
-
-**The Test for Consequential Losses — Remoteness:**
-
-**The Rule in Hadley v. Baxendale [1854]:**
-Damages are recoverable if they:
-1. **Arise naturally** from the breach in the usual course of things (direct losses — foreseeable at the time of contracting)
-2. **Were in the reasonable contemplation of both parties** at the time of contracting as the probable result of breach
-
-*Hadley v. Baxendale:* A mill shaft broke; carrier delivered it late for repair; mill owner claimed lost profits from the mill being closed. Held: The carrier did not know the mill would be completely shut down; he can not have foreseen the loss; therefore damages were limited to the difference in value of the shaft at the two delivery dates.
-
-**Specific Performance:**
-
-Specific performance is an equitable remedy ordering a party to perform their contractual obligations. It is available at the court's discretion when damages are inadequate. It is NOT available for:
-- Contracts of personal service (*Whitwood Chemical v. Hardman* [1891])
-- Contracts where damages are an adequate remedy (e.g., sale of generic goods)
-- Contracts requiring constant supervision
-- Contracts that are uncertain
-- Contracts of part performance of a larger contract
-
-It IS available for:
-- Sale of unique land (every piece of land is unique)
-- Sale of unique goods (a painting by a specific artist)
-- Share sales (in some cases)
-
-**Injunction:**
-
-An injunction is a court order restraining a party from doing something (prohibitory injunction) or requiring them to do something (mandatory injunction). It can be:
-- **Interlocutory:** Temporary; pending trial — requires a serious question to be tried and balance of convenience
-- **Permanent:** After trial; final remedy
-
-**Rectification:**
-
-Rectification is an equitable remedy correcting a written contract that fails to reflect the parties' true agreement. The test is whether both parties had a common intention at the time of contracting that was not accurately recorded in the document. Unilateral mistake is insufficient unless the other party knew or ought to have known of the mistake.
-
-**⚡ Common ICAN Question Patterns:**
-- The rule in *Cutter v. Powell* and substantial performance
-- Distinguishing frustration from mere inconvenience or increased cost
-- The test for foreseeability in *Hadley v. Baxendale*
-- Specific performance vs damages
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

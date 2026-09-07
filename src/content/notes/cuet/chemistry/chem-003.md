@@ -11,7 +11,7 @@ topicName: Chemical Bonding
 weight: 5
 country: india
 generated: "2026-03-24T08:32:07.836885"
-lastUpdated: 2026-03-24
+lastUpdated: "2026-09-07"
 diagramPrompt: "Clear scientific diagram of Chemical Bonding with atom labels, molecular structure, reaction arrows, white background, color-coded bonds and groups, exam textbook style"
 
 
@@ -19,105 +19,77 @@ diagramPrompt: "Clear scientific diagram of Chemical Bonding with atom labels, m
 
 
 ---
+
 # Chemical Bonding
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Chemical Bonding** — Key Facts for CUET
+**Chemical bonding** is the force holding atoms, ions, or molecules together in a stable aggregate, driven by valence-electron rearrangement toward a lower-energy octet (ns²np⁶) or duplet (1s²) state. CUET UG asks 4–6 questions from this unit, almost always MCQs.
 
-**Ionic Bonding:**
-Formed by complete transfer of electrons from metal to non-metal. Cations: $Na^+, Mg^{2+}, Al^{3+}$; Anions: $Cl^-, O^{2-}$. Lattice energy (energy released when gaseous ions form solid lattice) follows Born-Lande equation: $U = -\frac{N_AMz^+z^-e^2}{4\pi\epsilon_0 r_0}\left(1-\frac{1}{n}\right)$ where $n$ = Born exponent (4 for NaCl-type).
+- **Ionic bond** — electron transfer; favoured by large ΔEN, high lattice enthalpy.
+- **Covalent bond** — electron sharing; σ (head-on) and π (lateral) overlap types.
+- **Coordinate (dative) bond** — both electrons from one atom (e.g., NH₄⁺, H₃O⁺).
+- **Bond order** = (N_b − N_a) / 2; predicts stability and length (e.g., N₂ = 3, O₂ = 2).
 
-**Covalent Bonding:**
-Formed by sharing of electron pairs between atoms. Bond order = (number of bonding electrons - number of antibonding electrons)/2. A higher bond order means a stronger, shorter bond. $H_2$: bond order 1, bond length 74 pm. $O_2$: bond order 2. $N_2$: bond order 3, bond length 110 pm (triple bond).
+> **Tip:** O₂ is paramagnetic — MO theory shows two unpaired electrons in π* orbitals. A Lewis structure alone cannot explain this.
 
-**VSEPR Theory:**
-Shape predicted by steric number (SN = number of bond pairs + number of lone pairs):
-- SN=2: Linear (180°) — e.g., $CO_2$, $BeCl_2$
-- SN=3: Trigonal planar (120°) if no lone pairs, bent (<120°) if 1 lone pair — e.g., $BF_3$, $SO_2$
-- SN=4: Tetrahedral (109.5°) if no lone pairs, trigonal pyramidal (<109.5°) if 1 lone pair, bent if 2 lone pairs — e.g., $CH_4$, $NH_3$, $H_2O$
-
-⚡ **Exam tip:** For dipole moment, a molecule with polar bonds is NOT necessarily polar. $CO_2$ has two C=O bonds (each polar, μ = 2.35 D for isolated bond) but is LINEAR, so net dipole = 0. Compare: $H_2O$ has μ = 1.85 D (bent, not cancelled).
-
----
+| Quick comparison | Ionic | Covalent |
+| --- | --- | --- |
+| Electron behaviour | Transferred | Shared |
+| Melting point | High | Lower |
+| Conducts electricity | Molten/solution | Mostly no |
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Chemical Bonding** — Chemistry Study Guide
+#### Octet Rule and Its Real Exceptions
 
-**Lewis Structures:**
-Octet rule (with exceptions): H shares 2 electrons, B stabilises with 6, P and S can expand octet.
-- $PCl_5$: P has 10 electrons around it (expanded octet)
-- $SF_6$: S has 12 electrons (6 bonds)
-- $ClO_4^-$: Cl has 12 electrons
-- $BH_3$: B has only 6 electrons (electron deficient, acts as Lewis acid)
+Atoms gain, lose, or share electrons to reach 8 valence electrons (2 for H, He). Three exception classes appear in CUET MCQs: **incomplete octet** (BH₃, BeCl₂), **odd-electron species** (NO, NO₂), and **expanded octet** (PCl₅, SF₆, XeF₂ — allowed for period-3+ elements using accessible d-orbitals).
 
-**Formal Charge:** $FC = V - N - B/2$ where $V$ = valence electrons, $N$ = nonbonding electrons, $B$ = bonding electrons. For the best Lewis structure, formal charges should be minimised and negative charges on more electronegative atoms.
+#### Lewis Structures and Resonance
 
-**Hybridisation:**
-- $sp^3$: 4 equivalent orbitals from s + three p — tetrahedral geometry, e.g., $CH_4$, $C_2H_6$
-- $sp^2$: 3 equivalent orbitals — trigonal planar, e.g., $C_2H_4$ (each C), $BF_3$, $C_2H_4$ has a $\pi$ bond in addition to the $\sigma$ framework
-- $sp$: 2 equivalent orbitals — linear, e.g., $C_2H_2$, $BeCl_2$
-- $dsp^2$: square planar, e.g., $[Ni(CN)_4]^{2-}$
-- $d^2sp^3$: octahedral, e.g., $[Fe(CN)_6]^{3-}$
+Draw valence electrons as dots, satisfy octets, then compute **formal charge** = V − N − ½B (V = free-atom valence, N = lone-pair electrons, B = bonding electrons). The best Lewis structure has formal charges closest to zero and negative charge on the more electronegative atom. When more than one valid structure exists (ozone, benzene, CO₃²⁻), the molecule is a single **resonance hybrid**, not an interconversion.
 
-**Molecular Orbital Theory:**
-Bonding molecular orbitals (BMO) are lower in energy than atomic orbitals; antibonding (ABMO) are higher. Electrons fill from lowest to highest energy (Aufbau principle). Examples:
-- $H_2$: $(σ1s)^2$, bond order = 1
-- $He_2$: $(σ1s)^2(σ^*1s)^2$, bond order = 0 (does not exist)
-- $O_2$: $(σ2s)^2(σ^*2s)^2(σ2p_z)^2(π2p_x)^2(π2p_y)^2(π^*2p_x)^1(π^*2p_y)^1$, bond order = 2 (has 2 unpaired electrons — explains paramagnetism)
-- $N_2$: $(σ2s)^2(σ^*2s)^2(π2p_x)^2(π2p_y)^2(σ2p_z)^2$, bond order = 3
+#### VSEPR Geometry and Hybridisation
 
-**Intermolecular Forces:**
-1. **London dispersion forces:** Instantaneous dipole-induced dipole; strength ∝ molecular mass; the ONLY force between nonpolar molecules. Present in ALL molecules.
-2. **Dipole-dipole forces:** Between polar molecules with permanent dipoles; e.g., HCl, SO₂.
-3. **Hydrogen bonding:** Special dipole-dipole when H is bonded to F, O, or N (F-H, O-H, N-H); e.g., $H_2O$, $NH_3$, $HF$. H-bond in water: ~20 kJ/mol (vs. ~0.1 kJ/mol for London force).
+Electron-pair repulsion decides shape. Lone pairs occupy more space than bond pairs, compressing angles (CH₄ = 109.5°, NH₃ = 107°, H₂O = 104.5°).
 
-**Fajans' Rule (for ionic vs covalent character):**
-- Covalent character increases with: small cation, large anion, high charge on cation
-- $LiI$ is more covalent than $LiF$ (large anion wins)
-- $AlCl_3$ is covalent (small, highly charged $Al^{3+}$)
+- sp → linear, 180° (BeCl₂, CO₂, C₂H₂ terminal C)
+- sp² → trigonal planar, 120° (BF₃, C₂H₄)
+- sp³ → tetrahedral, 109.5° (CH₄, NH₃, H₂O)
+- sp³d → trigonal bipyramidal, 90°/120° (PCl₅)
+- sp³d² → octahedral, 90° (SF₆)
 
----
+> **Trap:** H₂O and NH₃ are sp³, not sp² or sp — count lone pairs on the *central atom* only.
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-**Chemical Bonding** — Comprehensive Chemistry Notes
+#### Molecular Orbital Theory
 
-**Valence Bond Theory (VBT) vs MOT:**
-VBT describes bond formation as overlap of atomic orbitals with spin pairing. Types of orbital overlap:
-- **Sigma ($\sigma$) bond:** Head-on overlap along the internuclear axis; maximum overlap. e.g., s-s overlap in $H_2$, s-p overlap in HCl, p-p ($\sigma$) overlap in $Cl_2$
-- **Pi ($\pi$) bond:** Sideways overlap above and below the internuclear axis; involves two lobes of one p orbital overlapping with two lobes of another. e.g., $C_2H_4$ has one $\pi$ bond (from sideways p-p overlap); $N_2$ has two $\pi$ bonds (from two perpendicular p-p overlaps)
+MO theory combines atomic orbitals across the whole molecule. For O₂, F₂, and beyond, σ2p lies *above* π2p, while for N₂ and earlier the order is reversed. Electron filling gives O₂ two unpaired electrons in π* — the textbook paramagnetism result no Lewis picture can produce. Bond order = (N_b − N_a)/2 lets you predict length (higher BO → shorter bond) and dissociation energy.
 
-**Resonance:**
-When more than one valid Lewis structure can be drawn for a molecule, the actual structure is a resonance hybrid. Examples:
-- $O_3$: two equivalent resonance structures with one single and one double O-O bond; actual bond lengths are intermediate (~128 pm vs. 121 pm for O=O and 148 pm for O-O single)
-- $CO_3^{2-}$: three equivalent resonance structures; all C-O bonds are equal (141 pm)
-- $C_6H_6$ (benzene): two equivalent Kekulé structures; all C-C bonds are 140 pm (intermediate between single 154 pm and double 134 pm)
+#### Polarity and Dipole Moment
 
-**Bond Parameters:**
-- **Bond length:** Measured by X-ray diffraction or rotational spectroscopy. Generally: triple bond < double bond < single bond. C-C: 154 pm, C=C: 134 pm, C≡C: 120 pm.
-- **Bond enthalpy:** Energy to break 1 mole of bonds in gaseous molecules. C-H: 414 kJ/mol, C-C: 347 kJ/mol, C=C: 620 kJ/mol, C≡C: 839 kJ/mol, O-H: 463 kJ/mol.
-- **Bond angle:** Determined by hybridisation and lone pair repulsion. Lone pair–lone pair repulsion > lone pair–bond pair > bond pair–bond pair repulsion. This is why $H_2O$ (104.5°) has a smaller angle than $CH_4$ (109.5°).
-- **Dipole moment:** $\mu = Q \times r$ in Debye (D); 1 D = $3.335 \times 10^{-30}$ C·m. For CO₂: μ = 0 (linear); for H₂O: μ = 1.85 D (bent, 104.5°); for NH₃: μ = 1.47 D (trigonal pyramidal, 107°).
+A polar bond needs ΔEN > ~0.4 on the Pauling scale, but a molecule only carries a net dipole if geometry fails to cancel bond vectors. **Dipole moment μ = q × d**, in C·m or Debye (1 D = 3.33564 × 10⁻³⁰ C·m). CO₂ (μ = 0), CCl₄ (μ = 0), BF₃ (μ = 0) — symmetric cancellations; H₂O (μ = 1.85 D), NH₃ (μ = 1.47 D) — net dipoles.
 
-**Motivation of Hybridisation:**
-Hybrid orbitals explain the geometry observed by spectroscopy. However, orbitals themselves are mathematical constructs — the physical reality is better described by MO theory. $CH_4$ forms four $sp^3$ orbitals because this gives maximum separation (109.5°) and minimum repulsion.
+#### Hydrogen Bonding and Fajans' Rules
 
-**Coordinate Bond (Dative Bond):**
-Both electrons come from one atom. Examples: $CO$ (C→O coordinate bond from C to O), $NH_4^+$, $H_3O^+$, $NO_2^+$, $BF_3$·$NH_3$. Once formed, a coordinate bond is indistinguishable from a covalent bond.
+Intermolecular H-bonding explains HF, H₂O, NH₃ anomalously high boiling points versus their group hydrides. Intramolecular H-bonding (o-nitrophenol) lowers boiling point versus the para isomer. **Fajans' rules** predict covalent character: a small, highly charged cation polarising a large, highly charged anion favours covalent bonding (AlCl₃ vs NaCl).
 
-**Metallic Bond:**
-Explained by: (1) Electron sea model — delocalised electrons in a lattice of positive ions; (2) Band theory — overlapping atomic orbitals form energy bands. Conductors have partially filled bands; insulators have a large gap between valence and conduction bands; semiconductors have a small gap.
+> **Strategy:** Expect 1 MCQ on MO paramagnetism, 1 on VSEPR shape, 1 on hybridisation, 1 on resonance/exception — practise O₂, SF₆, and H₂O.
 
-**Born-Haber Cycle for Lattice Energy:**
-For NaCl: $\Delta_f H^\circ = \Delta_{atom}H(Na) + \frac{1}{2}\Delta_{bond}H(Cl_2) + IEA(Na) + EA(Cl) + \Delta_{lattice}H$. With values: $107 + 122 + 496 + (-349) + \Delta_{lattice}H = -411$. $\Delta_{lattice}H = +787$ kJ/mol. This large positive lattice energy makes NaCl stable.
-
-**CUET Exam Trends:**
-Questions frequently test: (1) VSEPR shape prediction from formula, (2) Formal charge calculation on Lewis structures, (3) MO theory bond order for $O_2$, $N_2$, $He_2$, (4) H-bonding in water/alcohols and its effects on boiling point, (5) Fajans' rule for comparing ionic character. JEE 2022 asked: "Which molecule has the highest dipole moment among CH₄, NH₃, H₂O, CO₂?" The dipole moments are H₂O = 1.85 D, NH₃ = 1.47 D, while both CH₄ (tetrahedral) and CO₂ (linear) have μ = 0 because their bond dipoles cancel by symmetry. The order is therefore H₂O > NH₃ > CH₄ = CO₂ = 0, so the answer is H₂O (1.85 D). A common trap is to pick NH₃; remember that water's bent geometry combined with two highly polar O-H bonds gives it the larger net dipole.
+**Practice prompts:** (1) Predict geometry, hybridisation, and dipole of XeF₄. (2) Sketch the MO diagram of CO and state its bond order and magnetic behaviour.
 
 ---
-*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+
+## Continue your study
+
+- **[View this topic in your CUET UG roadmap](/roadmap/?exam=cuet&duration=1mo)** — see where "Chemical Bonding" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=cuet&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[CUET UG exam overview](/exams/cuet/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/cuet/chemistry/)** — browse sibling topics in this subject
+
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

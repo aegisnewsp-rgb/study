@@ -11,7 +11,7 @@ topicName: Thermodynamics
 weight: 5
 country: india
 generated: "2026-03-24T08:32:07.838225"
-lastUpdated: 2026-03-24
+lastUpdated: "2026-09-07"
 diagramPrompt: "Clear scientific diagram of Thermodynamics with atom labels, molecular structure, reaction arrows, white background, color-coded bonds and groups, exam textbook style"
 
 
@@ -19,126 +19,97 @@ diagramPrompt: "Clear scientific diagram of Thermodynamics with atom labels, mol
 
 
 ---
+
 # Thermodynamics
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Thermodynamics** — Key Facts for CUET
+Thermodynamics links heat, work, and energy in chemical and physical change. The First Law states ΔU = Q − W (chemistry convention: Q absorbed and W done *by* the system are positive). The Second Law says ΔS_universe > 0 for any spontaneous process. The Third Law fixes S = 0 for a perfect crystal at 0 K.
 
-**Key Definitions:**
-- System: The part of the universe being studied
-- Surroundings: Everything else outside the system
-- Open system: exchanges both matter and energy
-- Closed system: exchanges only energy (no matter)
-- Isolated system: exchanges neither matter nor energy
-- State functions: Properties that depend only on initial and final states (not path) — examples: $U$, $H$, $S$, $G$
-
-**First Law of Thermodynamics:**
-$\Delta U = q + w$; energy cannot be created or destroyed. For a cyclic process, $\Delta U = 0$ and $q = -w$. Sign convention: heat absorbed by system is $+q$; work done by system is $+w$.
-
-**Enthalpy:**
-$H = U + PV$. For a process at constant pressure, $\Delta H = q_p$ (heat absorbed at constant pressure). Endothermic reactions have $\Delta H > 0$; exothermic reactions have $\Delta H < 0$.
-
-** Hess's Law:** $\Delta H$ for a reaction is independent of the path taken — it is the same whether the reaction occurs in one step or several steps.
-
-⚡ **Exam tip:** Always check state ($q_p$ vs $q_v$). $\Delta H = \Delta U + \Delta n_g \cdot RT$. For reactions where gas moles decrease, $|\Delta H| > |\Delta U|$.
-
----
+- **Spontaneity rule** — ΔG = ΔH − TΔS; spontaneous when ΔG < 0 (constant T, P).
+- **State functions** (U, H, S, G) depend only on state; **path functions** (Q, W) depend on the route.
+- **Carnot efficiency** — η = (T_h − T_c)/T_h; always use Kelvin.
+- **Hess's Law** — ΔH_rxn = Σ ΔH_f°(products) − Σ ΔH_f°(reactants).
+- **High-yield CUET tip** — Numerical problems on Carnot efficiency and Hess's law appear almost every session.
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Thermodynamics** — Chemistry Study Guide
+#### System, Surroundings, and State vs Path Functions
 
-**Thermochemical Equations:**
-When writing thermochemical equations, include:
-- Balanced equation with physical states
-- $\Delta H$ value with sign
-- Stoichiometric coefficients (moles, not molecules)
+A **system** is the part of the universe under study; **surroundings** is everything else. Systems are *open* (exchange matter and energy), *closed* (only energy), or *isolated* (neither). Thermodynamic quantities split into **state functions** (U, H, S, G) — path-independent — and **path functions** (Q, W) — path-dependent.
 
-Example: $2H_2(g) + O_2(g) \rightarrow 2H_2O(l); \Delta H = -572$ kJ/mol
-This means 572 kJ is released when 2 moles of $H_2$ react with 1 mole of $O_2$ to form 2 moles of liquid water.
+#### First Law and Enthalpy
 
-**Bond Enthalpies:**
-Bond dissociation energy is the energy required to break one mole of bonds in a gaseous molecule. $\Delta H_{reaction} = \sum \Delta H_{bonds\ broken} - \sum \Delta H_{bonds\ formed}$.
+The First Law, ΔU = Q − W, expresses energy conservation. Enthalpy H = U + PV links heat released at constant pressure to internal energy: ΔH = ΔU + Δ(n_g)RT for ideal gases. Hence ΔH and ΔU differ by Δn_g RT whenever the mole count of gas changes.
 
-Example: For $CH_4(g) \rightarrow C(g) + 4H(g)$: $\Delta H = 4 \times 414 = 1656$ kJ/mol (4 C–H bonds)
+#### Second Law, Entropy, and Gibbs Energy
 
-**Enthalpy of Formation:**
-Standard enthalpy of formation $\Delta_f H^\circ$ is the enthalpy change when 1 mole of compound forms from its constituent elements in their standard states. By definition, $\Delta_f H^\circ$ of an element in its standard state = 0.
+Entropy S (J K⁻¹ mol⁻¹) measures energy dispersal; ΔS = Q_rev/T. The Second Law requires ΔS_universe = ΔS_system + ΔS_surroundings > 0 for spontaneous change. Gibbs free energy ΔG = ΔH − TΔS combines both factors and predicts spontaneity at constant T, P.
 
-Standard enthalpy of reaction: $\Delta H^\circ = \sum n_p \Delta_f H^\circ(\text{products}) - \sum n_r \Delta_f H^\circ(\text{reactants})$
+#### Hess's Law and Calorimetry
 
-**Entropy:**
-Entropy $S$ is a measure of disorder or randomness. Second law: $\Delta S_{universe} = \Delta S_{system} + \Delta S_{surroundings} > 0$ for a spontaneous process.
+Because enthalpy is a state function, ΔH_rxn = Σ ΔH_f°(products) − Σ ΔH_f°(reactants). Calorimetry (q = mcΔT with c = specific heat) gives ΔH experimentally for neutralisation, combustion, and solution.
 
-Standard entropy: $S^\circ$ (in J mol⁻¹ K⁻¹). For a reaction: $\Delta S^\circ = \sum n_p S^\circ(\text{products}) - \sum n_r S^\circ(\text{reactants})$.
+| Quantity | Symbol | Definition / Formula |
+| --- | --- | --- |
+| Internal energy change | ΔU | ΔU = Q − W (J mol⁻¹) |
+| Enthalpy | H | H = U + PV; ΔH = ΔU + Δn_g RT |
+| Gibbs energy | G | G = H − TS; ΔG = ΔH − TΔS |
+| Entropy change | ΔS | ΔS = Q_rev / T (J K⁻¹) |
+| Carnot efficiency | η | η = 1 − T_c / T_h (T in K) |
 
-**Gibbs Free Energy:**
-$G = H - TS$. For a process at constant $T$ and $P$: $\Delta G = \Delta H - T\Delta S$. If $\Delta G < 0$, the process is spontaneous; if $\Delta G > 0$, non-spontaneous; if $\Delta G = 0$, equilibrium.
+> **Mnemonic** — *"Hot minus cold over hot"* gives Carnot efficiency in Kelvin.
 
-Effect of temperature on spontaneity:
-- $\Delta H < 0, \Delta S > 0$: Always spontaneous (all $T$)
-- $\Delta H > 0, \Delta S < 0$: Never spontaneous (all $T$)
-- $\Delta H < 0, \Delta S < 0$: Spontaneous at low $T$ only
-- $\Delta H > 0, \Delta S > 0$: Spontaneous at high $T$ only
-
-**Relationship:** $\Delta G^\circ = -RT \ln K_{eq}$; also $\Delta G^\circ = -nFE^\circ_{cell}$ for electrochemical cells.
-
----
+- **Spontaneity checklist** — sign of ΔH, sign of ΔS, and temperature jointly decide ΔG.
+- **Trap** — Using Celsius in η = 1 − T_c / T_h silently halves the efficiency.
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-**Thermodynamics** — Comprehensive Chemistry Notes
+#### Sign Conventions Across Disciplines
 
-**First Law — Deeper Analysis:**
+Chemistry uses ΔU = Q − W (W by system positive); physics uses ΔU = Q + W (W *on* system positive). Mixing them is a guaranteed half-mark loss on CUET MCQs. Stick with the chemistry convention unless the question states otherwise.
 
-The first law is a statement of conservation of energy. For a finite change: $\Delta U = q + w$. Work $w$ has two components in chemistry:
-- Pressure-volume work: $w = -P_{\text{ext}}\Delta V$ (for expansion, $\Delta V > 0$, so $w < 0$, system does work on surroundings)
-- Non-PV work: $w_{\text{non-PV}}$ (electrical work, surface work, etc.)
+#### Worked Example — Hess's Law
 
-For an isothermal reversible process of an ideal gas: $\Delta U = 0$, so $q = -w = nRT \ln(V_2/V_1) = nRT \ln(P_1/P_2)$. The work done BY the system is $w = -nRT \ln(V_2/V_1)$.
+Find ΔH_rxn for: C(graphite) + ½ O₂ → CO, given C + O₂ → CO₂, ΔH₁ = −393.5 kJ; CO + ½ O₂ → CO₂, ΔH₂ = −283.0 kJ. Reverse step 2 (ΔH = +283.0 kJ) and add to step 1: ΔH = −393.5 + 283.0 = −110.5 kJ mol⁻¹.
 
-For an adiabatic reversible process ($q = 0$): $\Delta U = w$. For ideal gas: $w = C_V\Delta T$. For monatomic ideal gas, $C_V = (3/2)R$.
+#### Temperature-Dependent Spontaneity
 
-**Heat Capacity:**
-- Molar heat capacity at constant volume: $C_V = (\partial U/\partial T)_V = (f/2)R$ where $f$ = degrees of freedom
-- Molar heat capacity at constant pressure: $C_P = C_V + R = ((f/2) + 1)R$
-- For monatomic gas ($f=3$): $C_V = 3R/2$, $C_P = 5R/2$, $\gamma = C_P/C_V = 5/3 = 1.67$
-- For diatomic gas ($f=5$ at room temp): $C_V = 5R/2$, $C_P = 7R/2$, $\gamma = 7/5 = 1.4$
+When ΔH and ΔS have the *same* sign, ΔG cannot change sign with T. When they have *opposite* signs, there is a threshold T = ΔH/ΔS above or below which the reaction becomes spontaneous — a favourite CUET assertion-reason question.
 
-**Kirchhoff's Equation:**
-$\left(\frac{\partial \Delta H}{\partial T}\right)_P = \Delta C_P$ and $\left(\frac{\partial \Delta S}{\partial T}\right)_P = \Delta C_P/T$. This allows calculation of $\Delta H$ at any temperature from $\Delta H^\circ_{298}$ and heat capacities.
+#### Edge Cases and Common Traps
 
-**Born-Haber Cycle (Lattice Enthalpy):**
-Lattice enthalpy $\Delta_{lattice}H$ is the energy required to separate one mole of an ionic solid into gaseous ions. It cannot be measured directly. Born-Haber cycle applies Hess's law:
+1. Confusing ΔH with ΔU for gas-changing reactions — apply ΔH = ΔU + Δn_g RT.
+2. Assuming every exothermic reaction is spontaneous — counter-example: freezing of water below 273 K has ΔH < 0 but ΔS < 0, so ΔG > 0 at sufficiently low T.
+3. Treating entropy as a property of *only* the system — ΔS_surr = −ΔH/T must be added.
+4. Forgetting stoichiometric multipliers when applying Hess's law to balanced equations.
 
-$\Delta_f H^\circ = \Delta_{\text{atom}}H^\circ + \Delta_{\text{ion}}H^\circ + \Delta_{\text{ea}}H^\circ + \Delta_{\text{lattice}}H^\circ$
+| Spontaneity Case | ΔH sign | ΔS sign | Behaviour |
+| --- | --- | --- | --- |
+| 1 | − | + | Always spontaneous |
+| 2 | + | − | Never spontaneous |
+| 3 | − | − | Spontaneous only at low T |
+| 4 | + | + | Spontaneous only at high T |
 
-For NaCl: $\Delta_f H^\circ = 107 + 496 + (-349) + \Delta_{\text{lattice}}H$. Since $\Delta_f H^\circ = -411$ kJ/mol, $\Delta_{\text{lattice}}H = +787$ kJ/mol.
+> **Exam tip** — For ΔG° = −RT ln K, a CUET numerical may give K and T and ask for ΔG°; convert R = 8.314 J mol⁻¹ K⁻¹ and watch the sign.
 
-**Third Law of Thermodynamics:**
-At absolute zero (0 K), a perfect crystalline substance has $S = 0$ J mol⁻¹ K⁻¹. This allows absolute entropies to be calculated: $S^\circ = \int_{0}^{298} (C_P/T)dT$ (accounting for phase transitions). Standard molar entropies at 298 K: $S^\circ(H_2,g) = 131$ J/mol·K; $S^\circ(CO_2,g) = 214$ J/mol·K; $S^\circ(H_2O,l) = 70$ J/mol·K.
+#### Practice 1
+A Carnot engine operates between 600 K and 300 K. Calculate η and the work output when Q_h = 2000 J is absorbed.
 
-**Spontaneity — Free Energy Criteria:**
-
-The combined first and second law for a reversible process in a closed system is $dU = TdS - PdV$. Starting from the definition $G = H - TS$, the differential is $dG = dH - TdS - SdT$. At constant temperature and pressure ($dT = 0$, $dP = 0$), this reduces to $dG = dH - TdS = (dU + PdV) - TdS$. Substituting $dU = TdS - PdV$ (the reversible-path value) gives $dG = (TdS - PdV) + PdV - TdS = 0$, which is the equilibrium condition.
-
-For a general (possibly irreversible) process at constant $T$ and $P$, the second law requires $TdS \geq dq$, which leads to the working criterion $dG \leq 0$: the process is spontaneous when $dG < 0$ and at equilibrium when $dG = 0$. This is why Gibbs free energy is the natural spontaneity indicator at constant $T$ and $P$.
-
-**Thermodynamic Equilibrium:**
-At equilibrium, $\Delta G = 0$ and $K_{eq} = e^{-\Delta G^\circ/RT}$. van't Hoff equation: $\ln K_{eq} = -\Delta H^\circ/(RT) + \Delta S^\circ/R$. This gives $K$ at any temperature if $\Delta H^\circ$ and $\Delta S^\circ$ are known (assumed temperature-independent).
-
-**Enthalpy of Solution:**
-$\Delta_{solution}H = \Delta_{lattice}H + \Delta_{hydration}H$. For NaCl: $\Delta_{lattice}H = +787$ kJ/mol, $\Delta_{hydration}H = -784$ kJ/mol, so $\Delta_{solution}H = +3$ kJ/mol (slightly endothermic — why NaCl dissolves with slight cooling).
-
-**Energy Resources:**
-Standard enthalpy of combustion $\Delta_c H$: methane $-890$ kJ/mol, ethanol $-1367$ kJ/mol, glucose $-2800$ kJ/mol. The efficiency of energy conversion: $\eta = W/q_H = 1 - T_C/T_H$ (Carnot efficiency).
-
-**CUET Exam Trends:**
-Questions frequently ask: (1) Calculate $\Delta H$ using bond enthalpies, (2) Predict spontaneity using $\Delta G = \Delta H - T\Delta S$, (3) Hess's law problems from given thermochemical equations, (4) Relationship between $\Delta H$ and $\Delta U$ using $\Delta n_g$. Common mistake: forgetting the sign convention for $w$ and $q$.
+#### Practice 2
+For a reaction with ΔH = +50 kJ mol⁻¹ and ΔS = +100 J K⁻¹ mol⁻¹, find the minimum temperature at which it becomes spontaneous.
 
 ---
-*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+
+## Continue your study
+
+- **[View this topic in your CUET UG roadmap](/roadmap/?exam=cuet&duration=1mo)** — see where "Thermodynamics" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=cuet&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[CUET UG exam overview](/exams/cuet/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/cuet/chemistry/)** — browse sibling topics in this subject
+
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

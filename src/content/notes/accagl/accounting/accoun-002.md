@@ -8,133 +8,88 @@ topicName: Journal Entries
 weight: 3
 country: pakistan
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-05-23"
+lastUpdated: "2026-09-07"
 ---
 
 # Journal Entries
 
 ### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
 
-**Journal entry** = formal written record of a financial transaction using the double-entry system, where **total debits = total credits**.
+A **journal entry** is the first written record of a business transaction, made in the **general journal** before any posting to ledger accounts. It obeys the **dual aspect (double-entry)** rule: every transaction produces at least one debit and one equal credit, expressed through the accounting equation Assets = Liabilities + Capital.
 
-**Golden Rules:**
-| Account Type | Increase | Decrease |
-|---|---|---|
-| Asset / Expense | **Debit** | Credit |
-| Liability / Capital / Revenue | Credit | **Debit** |
+- **Debit** increases assets, expenses and drawings; it decreases liabilities, capital and revenue.
+- **Credit** increases liabilities, capital and revenue; it decreases assets, expenses and drawings.
+- Every entry needs a **date, debit account, credit account, narration and folio/reference**.
+- Sales tax (Pakistan GST) is split: output tax goes to a liability, input tax to a recoverable asset.
 
-**Format:** Date | Account (Dr) | Amount | Account (Cr) | Amount | Narration
-
-**Exam pointers (ACCA F3/CA Pakistan):**
-- **Always write a narration** — "Various entries" earns zero; state what happened.
-- **Suspense account** appears when trial balance doesn't agree; the difference goes to suspense, then corrigimus via journal entry.
-- **Adjusting entries** (accruals, prepayments, depreciation, bad debts) are tested in every sitting — master the four types before exam day.
-- **Compound entries** combine multiple Dr/Cr for one transaction — still must balance.
-- Source document evidence (invoice, receipt) must exist before posting.
-
----
+| Rule | Debit side | Credit side |
+| --- | --- | --- |
+| Assets / Expenses / Drawings | Increase | Decrease |
+| Liabilities / Capital / Revenue | Decrease | Increase |
 
 ### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-## What is a Journal Entry?
+#### The Dual-Aspect Foundation
 
-A journal entry is the **book of original entry** where every financial transaction is first recorded in chronological order, applying the **double-entry system**. Under this system, every transaction affects at least two accounts and the accounting equation holds: **Assets = Liabilities + Capital**. Total debits must always equal total credits.
+Double-entry bookkeeping rests on **dual aspect**: every transaction has two sides of equal value. The equation **Assets = Liabilities + Capital** must always balance, so each entry holds total debits equal to total credits (in Rs). In expanded form, the equation becomes Assets = Liabilities + Capital + Revenue − Expenses − Drawings, which clarifies why revenue is credited (it increases capital) and expenses are debited (they reduce capital).
 
-## The Double-Entry Principle
+#### Anatomy of a Correct Entry
 
-For every debit entry made, a corresponding credit entry of equal value must be made. This maintains the fundamental accounting equation and ensures the trial balance balances.
+A complete journal entry in the general journal contains: the **date** of the transaction, the **name of the account to be debited** with the amount in the debit column, the **name of the account to be credited** with the amount in the credit column, a brief **narration** explaining the transaction, and a **folio (LF)** that links to the ledger page where the entry will be posted. A narration such as *"Cash received from A. Khan in settlement of invoice #45"* is specific and traceable to its **source document** — invoice, receipt, cheque counterfoil, credit note or debit note.
 
-**Practical Rules (Standard Approach):**
+#### Common Entry Types and Treatment
 
-| Account Type | Debit when... | Credit when... |
-|---|---|---|
-| Asset | ↑ Increase | ↓ Decrease |
-| Expense | ↑ Increase | ↓ Decrease |
-| Liability | ↓ Decrease | ↑ Increase |
-| Capital | ↓ Decrease | ↑ Increase |
-| Revenue | ↓ Decrease | ↑ Increase |
+- **Compound journal entry**: combines several debits or credits arising from one transaction, saving repetition.
+- **Contra entry**: a transaction affecting only cash and bank, marked "C" in the journal.
+- **Adjusting entry**: records accrued or prepaid items at period-end.
+- **Closing entry**: transfers nominal accounts (revenue and expenses) to the income summary.
 
-## Structure of a Journal Entry
+For Pakistan GST, purchases of Rs 110,000 inclusive of 10% sales tax are recorded as Purchases Rs 100,000 Dr and Input Sales Tax Rs 10,000 Dr, with Cash/Bank/Payable Rs 110,000 Cr.
 
-1. **Date** of transaction
-2. **Account(s) to be debited** with amount(s)
-3. **Account(s) to be credited** with amount(s)
-4. **Narration** — clear explanation of the transaction (mandatory in exams)
-
-## Common Journal Entry Types
-
-- **Simple entry** — one debit, one credit
-- **Compound entry** — multiple debits and/or credits in one entry (still balances)
-- **Adjusting entries** — accruals, prepayments, depreciation, bad debts at period-end
-- **Correcting entries** — rectify errors after detection
-- **Closing entries** — transfer temporary account balances (expenses/revenues) to income statement
-
-## Exam Question Pattern
-
-ACCA F3 and CA Pakistan Financial Accounting typically test journal entries through narrative transactions requiring identification of affected accounts, correct Dr/Cr application, and proper narration. Common scenarios: asset purchases, credit sales/purchases, expense accruals, depreciation, bad debts.
-
----
+| Account class | Effect of Debit | Effect of Credit |
+| --- | --- | --- |
+| Assets (Cash, Stock, Debtors) | Increase | Decrease |
+| Liabilities (Creditors, Loans) | Decrease | Increase |
+| Capital & Revenue | Decrease | Increase |
+| Expenses & Drawings | Increase | Decrease |
 
 ### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-## The Mechanics in Detail
+#### Edge Cases and Exam Traps
 
-### Source Document Requirement
-Every journal entry must be supported by a **source document** (invoice, receipt, bank statement). In ACCA/CA exams, transactions are presented as narrative — you must infer the accounts and amounts from the description. Entries made without a valid basis are considered unauthorized and will not receive marks.
+- **Drawings vs expenses**: withdrawing stock for personal use is *Drawings* Dr and *Purchases (or Stock)* Cr — never treat drawings as a profit-and-loss expense, as it would distort net income.
+- **Sales tax on gross vs net**: examiners expect the net purchase figure in the trading account and a separate recoverable/liability account for sales tax; recording Rs 110,000 wholly as Purchases is a frequent error.
+- **Depreciation**: recorded as Depreciation Expense Dr and Accumulated Depreciation Cr (not the asset account Cr) so that gross asset cost is preserved.
+- **Bad debts and provisions**: a write-off debits Bad Debts and credits Debtors; a provision debits P&L and credits Provision for Doubtful Debts.
 
-### Narration: The Non-Negotiable
-A narration must explain **what** happened and **why**. Examples:
-- ✅ "Goods sold on credit to Hassan & Co., Invoice #412"
-- ❌ "Various" or " Sundries" — earns zero marks in ACCA grading.
+#### Worked Micro-Example
 
-### Compound Journal Entries
-A single journal entry may record multiple debits and/or credits:
-- Dr Purchases A/c 50,000 | Dr Input VAT A/c 7,500
-  - Cr ABC Suppliers 57,500
-  *(Being goods purchased on credit)*
+On 5 March 2026, a business buys inventory for Rs 50,000 plus 10% sales tax, paying half by cheque and the rest on credit.
 
-Still maintains Dr = Cr total.
+1. Purchases A/c Dr 50,000
+2. Input Sales Tax A/c Dr 5,000
+3. To Bank A/c 27,500
+4. To Creditors A/c 27,500
+Narration: *"Inventory purchased from M/s Tariq Bros.; half paid by cheque, half on credit."*
 
-### Adjusting Entries (Critical for Exam)
+Total debits (55,000) equal total credits (55,000), confirming the dual aspect.
 
-1. **Accruals:** Expense incurred but not yet paid
-   - Dr Rent Expense A/c | Cr Rent Payable A/c
+#### Practice Prompts
 
-2. **Prepayments:** Payment made in advance
-   - Dr Prepaid Insurance A/c | Cr Insurance Expense A/c
-
-3. **Depreciation:** Allocation of asset cost over useful life
-   - Dr Depreciation Expense A/c | Cr Accumulated Depreciation A/c
-
-4. **Bad Debts:** Uncollectible receivables
-   - Dr Bad Debts Expense A/c | Cr Trade Receivables A/c
-
-### Suspense Account
-When a trial balance fails to agree, the difference is temporarily placed in a **Suspense Account** (asset if Dr > Cr, liability if Cr > Dr). Later, when the error is identified, a correcting journal entry transfers the amount out of suspense to the correct account.
-
-### Closing Entries
-Temporary accounts (revenues, expenses, drawings) are closed at period-end:
-- Dr Revenue accounts | Cr Income Summary
-- Dr Income Summary | Cr Expense accounts
-- Dr Capital ( drawings) | Cr Drawings account
-
-## Common Mistakes to Avoid
-
-| Mistake | Consequence |
-|---|---|
-| Reversing Dr and Cr | Trial balance fails to agree |
-| No narration | Zero marks in ACCA marking |
-| Posting to wrong side | Accounting equation disturbed |
-| Ignoring net vs gross (VAT) | Incorrect GST/VAT calculations |
-| Treating drawings as expense | Capital understated |
-| Forgetting adjusting entries | Assets/expenses understated |
-
-## Practice Prompts
-
-**1.** On 1 April 2025, Bright Co. purchased machinery for Rs 500,000 paying by cheque. Depreciation is charged at 10% p.a. straight-line with no residual value. Prepare: (a) the acquisition journal entry, (b) year-end adjusting entry for depreciation, (c) show how the NBV appears in the statement of financial position at 31 March 2026.
-
-**2.** A trial balance shows a suspense account debit balance of Rs 15,000. Subsequent investigation reveals: (a) a credit sale of Rs 8,000 was recorded only in the sales account, (b) rent paid of Rs 7,000 was debited to rent receivable account. Prepare correcting journal entries and show how the suspense account is cleared.
+1. From a given list of transactions, prepare compound journal entries and identify which are contra entries.
+2. Rectify an entry where sales tax was merged with purchases, and show the corrected ledger posting.
 
 ---
 
+## Continue your study
+
+- **[View this topic in your ACCA/CA Pakistan roadmap](/roadmap/?exam=accagl&duration=1mo)** — see where "Journal Entries" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=accagl&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[ACCA/CA Pakistan exam overview](/exams/accagl/)** — pattern, eligibility, and syllabus
+- **[All Accounting notes](/notes/accagl/accounting/)** — browse sibling topics in this subject
+
+---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

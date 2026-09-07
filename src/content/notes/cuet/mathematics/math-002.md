@@ -8,73 +8,90 @@ topicName: Trigonometry
 weight: 3
 country: india
 generated: "2026-03-29T05:04:43"
-lastUpdated: 2026-03-29
+lastUpdated: "2026-09-07"
 ---
 
 # Trigonometry
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision.
+> Rapid summary for last-minute revision before your exam.
 
-**Trigonometry** — Key Facts for CUET
-• **Essential formula**: **Pythagorean identity** — sin²θ + cos²θ = 1 (valid for all θ; all other trig identities derive from it)
-• **Most tested CUET concept**: Evaluating sin, cos, tan of standard angles (0°, 30°, 45°, 60°, 90°) using the unit circle or special triangles — a frequent MCQ type.
-• **Common mistake**: Forgetting quadrant sign rules when solving trig equations — e.g., sinθ = ½ gives θ = 30° or 150° in the 1st and 2nd quadrants respectively; missing the second solution means losing half the marks.
-• **Key technique**: Use **complementary angle identities** (sinθ = cos(90°−θ), tanθ = sinθ/cosθ) to convert unfamiliar angles into standard ones before evaluating.
-• **Important exception**: At θ = 90°, cosθ = 0, so tanθ and secθ are **undefined** — many CUET options trap you with a finite value for tan 90°.
-• **Most frequent question type**: Simplifying or evaluating an expression involving sin 15°, cos 75°, tan 15°, etc., using half-angle or sum/difference formulas.
-⚡ Exam tip: For any MCQ involving sin(θ ± φ) or cos(θ ± φ), always expand using the sum/difference formula first — do not substitute numeric values before expanding, or you risk applying the wrong sign convention.
+**Trigonometry** links angles to side ratios in a right triangle. For an acute angle θ in a right triangle: sin θ = opposite/hypotenuse, cos θ = adjacent/hypotenuse, tan θ = opposite/adjacent. The reciprocals csc, sec, cot flip these fractions. The **unit circle** extends these to all real angles using the point (cos θ, sin θ) on a circle of radius 1.
 
----
+Must-know identity: **sin²θ + cos²θ = 1**, which generates 1 + tan²θ = sec²θ and 1 + cot²θ = csc²θ. The **ASTC rule** fixes the sign of each ratio across the four quadrants. Keep π rad = 180° in mind when converting.
+
+- **Angle of elevation** is measured upward from the horizontal; **angle of depression** is measured downward.
+- Period of sin x and cos x is **2π**; period of tan x is **π** with vertical asymptotes at odd multiples of π/2.
+- Standard values (0°, 30°, 45°, 60°, 90°) appear in roughly half of CUET MCQs on this topic.
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Trigonometry** — CUET Study Guide
+#### Six Ratios and the Unit Circle
 
-**Trigonometric ratios** — sin, cos, tan and their reciprocals (cosec, sec, cot) — relate the angles of a right triangle to the ratios of its sides. For an acute angle θ: sinθ = opposite/hypotenuse, cosθ = adjacent/hypotenuse, tanθ = opposite/adjacent. These extend to all real angles via the **unit circle**: a point (cosθ, sinθ) on the circle of radius 1.
+For any point P(x, y) on the unit circle centred at the origin, the angle θ measured from the positive x-axis satisfies cos θ = x, sin θ = y, and tan θ = y/x (when x ≠ 0). The reciprocal identities are csc θ = 1/sin θ, sec θ = 1/cos θ, cot θ = 1/tan θ. These definitions remove the right-triangle restriction and let θ be any real number, positive or negative.
 
-**Fundamental identities**:
-- Pythagorean: **sin²θ + cos²θ = 1**
-- Quotient: tanθ = sinθ/cosθ
-- Reciprocal: cosecθ = 1/sinθ, secθ = 1/cosθ, cotθ = 1/tanθ
+#### Signs by Quadrant (ASTC)
 
-**Sum and difference formulas** (frequently tested in MCQs):
-- sin(A ± B) = sinA cosB ± cosA sinB
-- cos(A ± B) = cosA cosB ∓ sinA sinB
-- tan(A ± B) = (tanA ± tanB)/(1 ∓ tanA tanB)
+| Quadrant | Angle range | sin | cos | tan |
+| --- | --- | --- | --- | --- |
+| I | 0° to 90° | + | + | + |
+| II | 90° to 180° | + | − | − |
+| III | 180° to 270° | − | − | + |
+| IV | 270° to 360° | − | + | − |
 
-**Double-angle and half-angle**:
-- sin2θ = 2sinθ cosθ
-- cos2θ = cos²θ − sin²θ = 2cos²θ − 1 = 1 − 2sin²θ
-- sin(θ/2) = ±√((1−cosθ)/2); cos(θ/2) = ±√((1+cosθ)/2) — sign determined by quadrant of θ/2.
+Remember: only sin is positive in QII, only tan in QIII, only cos in QIV.
 
-**Solved Example 1**: Evaluate sin 15° without a calculator.
-- sin15° = sin(45°−30°) = sin45°cos30° − cos45°sin30° = (√2/2)(√3/2) − (√2/2)(1/2) = (√6 − √2)/4 ≈ **(√6 − √2)/4**
+#### Core Identities
 
-**Solved Example 2**: Solve for θ (0° ≤ θ < 360°): 2cos²θ − 1 = 0.
-- Using cos2θ identity: 2cos²θ − 1 = cos2θ = 0 → 2θ = 90° or 270° → θ = 45° or 135°. But also cos²θ = ½ → cosθ = ±1/√2 → θ = 45°, 135°, 225°, 315°. ✓ Both methods confirm four solutions in 0–360°.
+The Pythagorean identity sin²θ + cos²θ = 1 holds for every real θ. Dividing by cos²θ gives 1 + tan²θ = sec²θ; dividing by sin²θ gives cot²θ + 1 = csc²θ.
+
+#### Sum, Difference and Double-Angle
+
+- sin(A + B) = sin A cos B + cos A sin B
+- cos(A + B) = cos A cos B − sin A sin B
+- tan(A + B) = (tan A + tan B) / (1 − tan A tan B)
+- sin 2θ = 2 sin θ cos θ
+- cos 2θ = cos²θ − sin²θ = 1 − 2 sin²θ = 2 cos²θ − 1
+
+#### Heights and Distances
+
+From a point on level ground, tan(angle of elevation) = height / horizontal distance. From the top of a building, tan(angle of depression) = height / horizontal distance to the object. Both angles share the same numerical value when observer and object are on opposite sides of a horizontal line.
+
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
+
+#### Allied Angles and Graph Behaviour
+
+**Allied angles** are angles of the form −θ, 90° ± θ, 180° ± θ, 270° ± θ, 360° ± θ. Their trig values reduce to θ's values with a sign flip controlled by ASTC. For instance, sin(180° − θ) = sin θ, while sin(180° + θ) = −sin θ. The function y = a sin(bx + c) + d has amplitude |a|, period 2π/|b|, phase shift −c/b, and vertical shift d.
+
+#### General Solutions and Common Pitfalls
+
+Equations like sin x = k have infinitely many solutions: x = (−1)ⁿ arcsin(k) + nπ, n ∈ ℤ. The **principal value** branch (arcsin in [−π/2, π/2], arccos in [0, π]) is used when only one answer is asked.
+
+| Mistake | Why it fails | Fix |
+| --- | --- | --- |
+| tan 90° treated as 0 or ∞ | tan 90° is undefined (cos 90° = 0 in denominator) | Write "does not exist"; same for sec 90°, csc 0°, cot 0° |
+| sin(A + B) used for sin(A − B) | Sign of cross terms is flipped | Memorise: sin(A − B) drops the plus to minus in one cross term |
+| Skipping ± in √(1 − cos 2θ) | √ gives only non-negative root | Write ± sin θ when solving sin²θ from a square root |
+| Mixing elevation and depression angles | Triangle is drawn inverted | Set horizontal as the common base; both angles measured from it |
+
+#### Worked Mini-Example
+
+A tower casts a 40 m shadow when the angle of elevation of the sun is 30°. Height h = 40 × tan 30° = 40/√3 ≈ 23.09 m. This single-line problem tests tan definition and shadow geometry.
+
+#### Practice Prompts
+
+1. If sin θ = 3/5 and θ lies in QII, find cos θ, tan θ, and sin 2θ without a calculator.
+2. Solve 2 cos²x − 3 cos x + 1 = 0 for x in [0, 2π] and state the general solution.
 
 ---
 
-### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer timeline.
+## Continue your study
 
-**Trigonometry** — Comprehensive CUET Notes
+- **[View this topic in your CUET UG roadmap](/roadmap/?exam=cuet&duration=1mo)** — see where "Trigonometry" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=cuet&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[CUET UG exam overview](/exams/cuet/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/cuet/mathematics/)** — browse sibling topics in this subject
 
-**Extension to all real angles**: By placing a ray rotating from the positive x-axis, any real angle θ maps to a point (cosθ, sinθ) on the unit circle. This extends trigonometry beyond acute triangles to all real numbers. The functions become periodic: sin(θ + 2π) = sinθ, cos(θ + 2π) = cosθ, tan(θ + π) = tanθ. This periodicity underpins Fourier analysis and wave modelling.
-
-**Inverse trigonometric functions** — arcsin, arccos, arctan — map from [−1, 1] (or R for arctan) back to their principal value ranges: arcsin: [−π/2, π/2], arccos: [0, π], arctan: (−π/2, π/2). Key identities include **arcsin(sinθ) ≠ θ** unless θ lies in [−π/2, π/2]; similarly for arccos and arctan. These range restrictions are a common trap in CUET inverse trig problems.
-
-**Transformation identities** (product-to-sum and sum-to-product):
-- sinA cosB = ½[sin(A+B) + sin(A−B)]
-- cosA cosB = ½[cos(A−B) + cos(A+B)]
-- sinA + sinB = 2sin((A+B)/2) cos((A−B)/2)
-
-**Solving general trig equations**: For equations of the form sin nθ = k (|k| ≤ 1), the general solution is nθ = arcsin(k) + 2πm or nθ = π − arcsin(k) + 2πm, giving θ = [arcsin(k) + 2πm]/n and [π − arcsin(k) + 2πm]/n. Always check the domain restriction specified in the question.
-
-**Advanced solved example**: Solve tan³θ + 3tanθ = 0 for θ in (0°, 90°).
-- tanθ(tan²θ + 3) = 0 → tanθ = 0 or tan²θ = −3 (impossible for real θ)
-- tanθ = 0 → θ = 0°, 180° … → in (0°, 90°), only **θ = 0°**? But 0° is at the boundary. Actually tanθ = 0 also gives θ = 0° (excluded) and θ = 180° etc. So in (0°, 90°), there is **no solution** — this is the subtlety of open intervals. However many textbooks include 0° as a trivial solution; verify domain: if (0°, 90°) strictly, then tanθ = 0 gives no solution. Check alternatives: Could factor tanθ(tanθ + √3)(tanθ − √3) = 0, giving tanθ = 0, ±√3. tanθ = √3 → θ = 60° ✓. tanθ = −√3 is negative, not in (0°, 90°). So the answer is **θ = 60°**.
-
-*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

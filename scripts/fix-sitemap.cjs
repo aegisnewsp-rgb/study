@@ -352,3 +352,6 @@ console.log(`Added <lastmod> to all URL entries`);
 // Chain: generate llm.txt + llms-full.txt from dist URL inventory
 try { require('./gen-llms.cjs'); } catch (e) { console.error('gen-llms.cjs failed:', e.message); }
 
+// Chain: update site revision metadata
+try { require('./update-revision.cjs'); } catch (e) { console.error('update-revision.cjs failed:', e.message); }
+

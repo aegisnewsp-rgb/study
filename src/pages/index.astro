@@ -5,8 +5,11 @@ import Footer from '../components/Footer.astro';
 import FaqSection from '../components/FaqSection.astro';
 import { ALL_EXAMS, getCountryFlag } from '../data/exams';
 import { isNoindexExam } from '../data/suppressed-exams';
+import { getSiteRevision } from '../data/site-revision';
 import { readFileSync } from 'fs';
 import { join } from 'path';
+
+const siteRevision = getSiteRevision();
 
 // Exclude noindexed/suppressed exams (fabricated/discontinued) from every
 // homepage link surface — the /exams/ ItemList already filters them, but the
@@ -667,9 +670,19 @@ const howToSteps = [
 
       <FaqSection faqs={FAQS} heading="Frequently asked questions" />
 
+      <!-- Homepage revision & freshness badge -->
+      <div class="py-8 text-center" aria-label="Site revision status">
+        <span class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full text-xs bg-surface-100 dark:bg-surface-800/80 text-surface-600 dark:text-surface-400 border border-surface-200 dark:border-surface-700/60 shadow-xs">
+          <span class="inline-block w-2 h-2 rounded-full bg-emerald-500" aria-hidden="true"></span>
+          <span>Last revised: <time datetime={siteRevision.iso} class="font-medium text-surface-800 dark:text-surface-200">{siteRevision.display}</time></span>
+          <span class="text-surface-300 dark:text-surface-600">&middot;</span>
+          <span class="font-mono text-[11px] text-surface-400 dark:text-surface-500">rev {siteRevision.commit}</span>
+        </span>
+      </div>
+
   </main>
 
-  <Footer />
+  <Footer lastRevision={siteRevision.display} lastRevisionIso={siteRevision.iso} />
 </Layout>
 
 <script>

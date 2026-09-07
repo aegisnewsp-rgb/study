@@ -11,7 +11,7 @@ topicName: Ores and Metallurgy
 weight: 3
 country: nigeria
 generated: "2026-03-24T08:32:07.647109"
-lastUpdated: "2026-06-25"
+lastUpdated: "2026-09-07"
 diagramPrompt: "Clear scientific diagram of Ores and Metallurgy with atom labels, molecular structure, reaction arrows, white background, color-coded bonds and groups, exam textbook style"
 
 
@@ -25,88 +25,85 @@ diagramPrompt: "Clear scientific diagram of Ores and Metallurgy with atom labels
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-An **ore** is a naturally occurring rock or mineral from which a metal can be profitably extracted. The worthless rocky material mixed with the ore is called **gangue**. **Metallurgy** covers the full sequence: finding the ore, **dressing** (concentrating) it, converting it to a metal oxide, **reducing** that oxide to the free metal, and **refining** the crude metal.
+An **ore** is a naturally occurring mineral from which a metal is extracted profitably; the unwanted earthy material mixed with the ore is called **gangue**. **Metallurgy** covers the steps that turn an ore into a usable metal: concentration of the ore, conversion to the oxide, reduction to the free metal, and refining.
 
-Key facts WAEC loves to test:
-- **Calcination** = heating carbonate ores in the **absence** of air (e.g. CaCO₃ → CaO + CO₂).
-- **Roasting** = heating sulphide ores in the **presence** of air (produces SO₂).
-- **Flux + gangue → slag**; basic flux (CaO) for acidic gangue (SiO₂), acidic flux (SiO₂) for basic gangue.
-- Iron is extracted in the **blast furnace** using **haematite (Fe₂O₃)**, **coke** as fuel/reductant, and **limestone (CaCO₃)** as flux.
-- **Steel** is iron alloyed with controlled carbon (≈0.2–2%) plus other metals.
+- **Concentration methods**: gravity separation, magnetic separation, froth flotation (for sulphides like ZnS), and leaching.
+- **Conversion step**: **roasting** for sulphides (e.g. 2ZnS + 3O₂ → 2ZnO + 2SO₂); **calcination** for carbonates/hydroxides (e.g. CaCO₃ → CaO + CO₂).
+- **Reduction**: carbon or CO reduces oxides of moderately reactive metals (Zn, Fe, Sn, Pb); fused-salt electrolysis is used for highly reactive metals (Na, Mg, Al).
+
+Remember: **iron is reduced by CO, not by coke directly**, and cryolite lowers the melting point of alumina in aluminium extraction.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-#### Sources of Metals
-Metals occur either **native** (Au, Ag, Pt in uncombined form) or as combined ores classified by the anion: **oxides** (haematite Fe₂O₃, magnetite Fe₃O₄, bauxite Al₂O₃·2H₂O), **sulphides** (galena PbS, zinc blende ZnS), **carbonates** (calcite CaCO₃, cerrusite PbCO₃) and **halides/ chlorides** (rock salt NaCl, carnallite KCl·MgCl₂·6H₂O). For a deposit to qualify as an ore, the metal concentration must make mining economically worthwhile.
+#### Ore vs Mineral
 
-#### Concentration (Dressing) Methods
-The goal is to remove gangue before chemical treatment:
-- **Hydraulic washing / levigation** – gravity separation for heavy oxide ores.
-- **Magnetic separation** – used when ore is magnetic (magnetite) but gangue is not.
-- **Froth flotation** – preferred for **sulphide ores**; ore particles cling to air bubbles coated with pine oil, while gangue sinks.
-- **Leaching** – dissolving the ore in a suitable reagent (e.g. bauxite in NaOH to form sodium aluminate).
+A mineral is any naturally occurring inorganic solid with a definite composition; an **ore** is a mineral (or rock) from which one or more metals can be extracted economically. Bauxite is an ore of aluminium; ordinary clay, although it contains aluminium, is not an ore because extraction is uneconomical.
 
-#### Conversion to Oxide
-- **Calcination** (no air): for carbonate/hydrated ores; releases CO₂ or water.
-- **Roasting** (excess air): for sulphide ores; converts sulphide → oxide + SO₂ gas. Example: 2ZnS + 3O₂ → 2ZnO + 2SO₂.
+#### Stages of Extraction
 
-#### Reduction to Metal
-Choice of reductant depends on the metal's position in the **activity/reactivity series**:
-- **C, CO, H₂** reduce the oxides of moderately reactive metals (Zn, Fe, Sn, Pb).
-- **Electrolysis** of fused oxides/ores is required for very reactive metals (Na, Mg, Al) because carbon cannot reduce them.
-- **Thermite reaction** uses Al powder to reduce oxides of less reactive metals (Cr₂O₃, MnO₂): 2Al + Fe₂O₃ → 2Fe + Al₂O₃ + heat.
+1. **Concentration (ore dressing)** removes gangue using gravity, magnetic, or froth-flotation methods.
+2. **Conversion to oxide**: sulphide ores are roasted; carbonate/hydroxide ores are calcined.
+3. **Reduction**: ZnO + C → Zn + CO for zinc; Fe₂O₃ + 3CO → 2Fe + 3CO₂ for iron.
+4. **Refining**: electrolytic refining (Cu), zone refining (Si, Ge), van Arkel (Ti, Zr), and the Mond process (Ni).
+5. **Alloying** to tune mechanical and chemical properties.
 
-#### The Blast Furnace (Iron)
-Charge from the top: haematite + coke + limestone. Hot air ("blast") is blown in through tuyères at the base. Reactions proceed in zones:
-1. C + O₂ → CO₂
-2. CO₂ + C → 2CO (main reductant)
-3. Fe₂O₃ + 3CO → 2Fe + 3CO₂
-4. CaCO₃ → CaO + CO₂, then CaO + SiO₂ → CaSiO₃ (slag, floats on molten iron).
+#### The Blast Furnace for Iron
 
-#### Refining
-Crude metal is purified by **distillation** (Zn, Hg), **electrolytic refining** (Cu, Al — impure metal as anode, pure as cathode), or **zone refining** (semiconductors like Si, Ge).
+The charge is haematite (Fe₂O₃), coke (C), and limestone (CaCO₃) with hot air blasted in at the tuyère zone. Coke burns to CO₂, then CO₂ + C → 2CO. The CO reduces Fe₂O₃ in three stages (Fe₂O₃ → Fe₃O₄ → FeO → Fe). Limestone decomposes to CaO, which combines with the acidic gangue SiO₂ to form slag CaSiO₃.
 
-#### Exam Patterns
-WAEC WASSCE frequently asks: name a method of concentration for a named ore, distinguish calcination from roasting, write blast-furnace equations, or explain slag formation. Memorise the chemical formulae of haematite, bauxite, galena and limestone — they appear almost every year.
+| Step in blast furnace | Equation | Role |
+| --- | --- | --- |
+| Coke combustion | C + O₂ → CO₂ | Heat source |
+| CO generation | CO₂ + C → 2CO | Reductant producer |
+| Iron reduction | Fe₂O₃ + 3CO → 2Fe + 3CO₂ | Metal liberation |
+| Slag formation | CaO + SiO₂ → CaSiO₃ | Gangue removal |
+
+#### Aluminium by Electrolysis
+
+In the **Hall–Héroult process**, purified alumina (Al₂O₃) is dissolved in molten cryolite (Na₃AlF₆) at about 950 °C. Carbon anodes are consumed (forming CO₂), and molten aluminium collects at the carbon-lined cathode.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-#### Alloys of Iron — Carbon Content Matters
-- **Pig iron** from the blast furnace contains ~4% C plus Si, Mn, P, S; brittle, used for castings.
-- **Cast iron** = remelted pig iron, 2–4% C; brittle but strong in compression.
-- **Wrought iron** = <0.1% C, obtained by **puddling**; malleable, used for chains, anchors.
-- **Steel** = 0.2–2% C with controlled Mn, Cr, Ni etc.; properties vary sharply with carbon content and heat treatment.
+#### Choosing a Reduction Method
 
-#### Acidic vs Basic Flux — A Common Trap
-Examiners often rephrase the rule. The rule is "**flux is the OPPOSITE chemical character of the gangue**":
-- If gangue is **basic** (e.g. FeO, CaO) → add **acidic flux** SiO₂.
-- If gangue is **acidic** (e.g. SiO₂) → add **basic flux** CaO from limestone.
-The product (CaSiO₃ or FeSiO₃) is **slag**, which is skimmed off because it is fusible and less dense than the molten metal.
+The position of a metal in the activity series dictates the extraction route. Highly reactive metals (K, Ca, Na, Mg, Al) form oxides/salts so stable that carbon cannot reduce them, so fused-salt electrolysis is used. Metals of intermediate reactivity (Fe, Zn, Sn, Pb) are reduced by carbon or CO. Least reactive metals (Cu, Ag, Au, Hg) often occur native or are obtained by roasting followed by simple reduction.
 
-#### Thermite and Aluminothermic Welding
-The thermite reaction (2Al + Fe₂O₃ → 2Fe + Al₂O₃, ΔH ≈ −850 kJ mol⁻¹) is so exothermic that the iron produced is molten. WAEC may ask why Al is used despite being more reactive than Fe — because Al has a *stronger* affinity for oxygen (more negative ΔGf of Al₂O₃) and the reaction is self-sustaining once ignited by a magnesium ribbon.
+#### Common Alloys You Must Know
 
-#### Refining Nuances
-- **Electrolytic refining of copper**: anode = impure blister copper, cathode = pure copper strip, electrolyte = acidified CuSO₄; **impurities below Cu (Ag, Au)** fall as **anode mud**, while Zn, Fe go into solution.
-- **Zone refining**: a molten zone is moved slowly along a rod; impurities stay dissolved in the melt and are swept to one end, yielding ultra-pure crystals for semiconductors.
+| Alloy | Composition | Typical use |
+| --- | --- | --- |
+| Brass | Cu + Zn | Fittings, ornaments |
+| Bronze | Cu + Sn | Bearings, statues |
+| Solder | Pb + Sn | Joining metals |
+| Stainless steel | Fe + Cr + Ni | Cutlery, surgical tools |
+| Duralumin | Al + Cu + Mg + Mn | Aircraft frames |
 
-#### Connections to Other Topics
-Ores link directly to **acids, bases and salts** (acidic gangue vs basic gangue), **electrochemistry** (electrolytic extraction and refining), **air and combustion** (roasting, blast-furnace oxygen), and **extraction of specific metals** (Al from bauxite via the Bayer–Hall process).
+#### Common Mistakes and Exam Traps
 
-#### Common Mistakes
-- Confusing **roasting** (sulphide → oxide, air present) with **calcination** (carbonate → oxide, air absent).
-- Writing limestone (CaCO₃) instead of its decomposition product CaO as the actual flux.
-- Saying carbon "directly" reduces Fe₂O₃ — in practice **CO is the principal gaseous reductant** at furnace temperatures.
-- Forgetting SO₂ from roasting causes **acid rain**, a frequent environmental question.
+- Calling limestone a "reducing agent" in the blast furnace. Limestone is the **flux**; CO is the reductant.
+- Writing Fe₂O₃ + C → Fe + CO₂ as the iron reduction equation. The actual reduction is by CO, not by solid carbon.
+- Confusing **roasting** (sulphide + excess air) with **calcination** (carbonate/hydroxide + limited air).
+- Forgetting that cryolite is not the ore but a **flux/solvent** that lowers alumina's melting point from ~2050 °C to ~950 °C.
 
 #### Practice Prompts
-1. A student roasted 200 g of ZnS (RFM = 97 g mol⁻¹). Calculate the volume of SO₂ produced at s.t.p., and the mass of ZnO formed.
-2. Explain why aluminium is extracted by electrolysis while iron is extracted in the blast furnace using carbon, referring to the reactivity series and the energetics of oxide formation.
 
+1. State two reasons why cryolite is used in the electrolytic extraction of aluminium, and write the overall anode reaction.
+2. A 5.00 g sample of haematite ore yields 2.80 g of iron on complete reduction. Calculate the mass percentage of iron in the ore. (Answer: 56.0 %)
+
+---
+
+## Continue your study
+
+- **[View this topic in your WAEC WASSCE roadmap](/roadmap/?exam=waec&duration=1mo)** — see where "Ores and Metallurgy" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=waec&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[WAEC WASSCE exam overview](/exams/waec/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/waec/chemistry/)** — browse sibling topics in this subject
+
+---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

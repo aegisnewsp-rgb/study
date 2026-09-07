@@ -8,211 +8,93 @@ topicName: "Indian Contract Act — Consent, Legality, and Performance"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-07"
 ---
 
-# Indian Contract Act, 1872 — Part 2
+# Indian Contract Act — Consent, Legality, and Performance
 
-## Free Consent (Sections 13–22)
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
 
-Consent means two or more persons agreeing upon the same thing in the same sense. For a contract to be valid, consent must be **free** — not obtained through:
+Under the **Indian Contract Act, 1872**, a contract is enforceable only when **free consent** (Sections 13–22), a **lawful object/consideration** (Sections 23–24), and **due performance or tender** (Sections 37–67) are all present. Vitiating factors that destroy free consent are **coercion, undue influence, fraud, misrepresentation, and mistake of fact** — each renders the agreement **voidable at the option of the aggrieved party** under Section 19, except bilateral mistake of fact which makes it **void** (Section 20).
 
-1. **Coercion** (Section 15)
-2. **Undue influence** (Section 16)
-3. **Misrepresentation** (Section 18)
-4. **Fraud** (Section 17)
-5. **Mistake** (Sections 20–22)
+#### Two-minute recall list:
 
-If consent is obtained by any of these, the contract is **voidable** (not automatically void) at the option of the party whose consent was obtained by improper means.
+- **Coercion (Sec. 15)** = threat of illegal act or unlawful detention of property; works across all contracts, even with strangers.
+- **Undue influence (Sec. 16)** = dominance of will between parties in a fiduciary or unequal-bargaining relationship.
+- **Fraud (Sec. 17)** requires *intent* to deceive and unlocks damages; **misrepresentation (Sec. 18)** is innocent and usually limited to rescission.
+- **Section 23** lists five legality filters: opposed to law, defeating law, fraudulent, immoral, or opposed to public policy.
+- **Tender of performance (Sec. 38)** by a willing promisor discharges liability if the promisee wrongly refuses.
 
-### Coercion (Section 15)
+| Vitiating factor | Section | Effect |
+| --- | --- --- | --- |
+| Coercion | 15 | Voidable |
+| Fraud | 17 | Voidable + damages |
+| Bilateral mistake of fact | 20 | Void |
+| Mistake of Indian law | 21 | Not a ground |
 
-**Definition**: Committing or threatening to commit any act forbidden by the Indian Penal Code (IPC) — or using force or threats — that causes the victim to sign a contract.
+---
 
-**Examples**:
-- Threatening to file a criminal case unless the other party signs a contract
-- Threatening to destroy property unless contract is signed
-- A person threatening to commit suicide unless another signs a contract
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-**Key case**: Bhagwandas v. Girdhari Lal (1967) — SC held that threat to commit suicide can constitute coercion.
+#### Free consent and its vitiating factors
+Section 14 defines **free consent** as agreement brought about without coercion, undue influence, fraud, misrepresentation, or mistake. The distinctions matter because they decide whether the contract is void, voidable, or valid, and they determine the **remedy available** — rescission alone versus rescission plus damages.
 
-**Essentials**:
-- The act or threat must be forbidden by IPC
-- It must cause the consent
-- The person threatened may be the promisee or any other person
+| Factor | Element | Section |
+| --- | --- | --- |
+| Coercion | Threat of IPC offence or unlawful detention of property | 15 |
+| Undue influence | Dominance of will (fiduciary, parent-child, master-servant, mental distress, unequal bargaining) | 16 |
+| Fraud | Active concealment, promise without intent to perform, deceitful act | 17 |
+| Misrepresentation | Innocent misstatement, breach of duty without deceit, induced mistake | 18 |
+| Mistake of fact | Bilateral, matter essential to agreement | 20 |
 
-### Undue Influence (Section 16)
+#### Legality under Sections 23–24
+Consideration or object is **lawful** unless it (i) opposes any law, (ii) defeats provisions of any law, (iii) is fraudulent, (iv) is immoral, or (v) opposes public policy. Classic illustrations: **wagering agreements are void** (Section 30 separately), **agreements in restraint of marriage** of minors are void, and **trading with an enemy** after declaration of war is opposed to public policy.
 
-**Definition**: When a person takes improper advantage of their position relative to another person — such that the other person cannot act freely.
+#### Performance, tender, and reciprocal promises
+A contract is discharged when the promisor **performs** (Sec. 37) or **tenders performance** in the precise manner promised (Sec. 38). Wrongful refusal by the promisee discharges the promisor and may ground a claim for breach. Under **Section 43**, where promises are reciprocal and to be performed simultaneously, no party can sue without first showing readiness and willingness.
 
-**Two scenarios**:
-1. **Position to dominate**: A person is in a position to dominate the will of another (e.g., doctor-patient, teacher-student, parent-child, employer-employee, creditor-debtor)
-2. **Improper use of position**: The person uses this position to obtain an unfair advantage
+#### Common traps examiners set
 
-**Examples**:
-- A spiritual guru inducing a devotee to donate all property to the ashram
-- A bank manager influencing a customer to take a loan with unfavorable terms
-- A wealthy relative influencing a poor person to sign away property
+- Confusing **fraud with misrepresentation** — both voidable, but only fraud supports a tort damages claim.
+- Assuming **silence equals fraud**; under Sec. 17 silence is fraud only when duty to speak exists or the relation of trust makes silence deceptive.
+- Treating **mistake of law** as a ground; Section 21 expressly bars it.
+- Forgetting that **coercion** can come from a *stranger* to the contract, while undue influence cannot.
 
-**Presumption of undue influence**: When a person is in a fiduciary relationship (doctor, solicitor, spiritual guide) and obtains a benefit — the court presumes undue influence (the burden of proof shifts to the dominant party to prove no undue influence).
+---
 
-**Key case**: Lakshmana v. Murugesa (1889) — A borrower under a mortgage was in a position to be dominated by the lender; contract set aside.
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-### Misrepresentation (Section 18)
+#### Mechanism of voidable vs void
+When consent is vitiated by coercion, undue influence, fraud, or misrepresentation, Section 19 keeps the contract alive until the **aggrieved party elects** to avoid it; until that election, the other party can enforce performance. In contrast, **bilateral mistake of fact essential to the agreement** (Sec. 20) destroys the agreement from inception — there is no consent to begin with, so the contract is **void ab initio**. This is the only consent-based ground that does not give the aggrieved party a window to affirm.
 
-**Definition**: An innocent but incorrect statement of fact made without reasonable care, which induces the other party to enter the contract.
+#### Appropriation of payments (Sections 59–61)
+When a debtor owes several debts to the same creditor, the *appropriation hierarchy* is tested almost every paper:
 
-**Three types of misrepresentation**:
-1. **Positive assertion of a fact** (without belief in its truth)
-2. **Breach of duty** to be careful (careless statement that turns out to be false)
-3. **Causing another to believe a fact to be true** when the speaker knows it to be false
+1. **Express appropriation by the debtor** at the time of payment (Sec. 59).
+2. **Express appropriation by the creditor** with notice to the debtor (Sec. 60).
+3. **Implied appropriation by law** (Sec. 61) — applied in this order: first to a debt that is **due and enforceable**, then to one that carries **security**, failing both to the **earlier** debt.
 
-**Key distinction from fraud**: Misrepresentation is innocent (no intention to deceive). Fraud involves intentional deception.
+#### Worked micro-example
+A owes B ₹10,000 on a loan dated 1 Jan (unsecured) and ₹15,000 on a mortgage loan dated 1 March. On 1 June A pays ₹8,000 without saying which debt. B notifies A that the sum is applied to the secured loan. Under Sec. 60 this is valid; under Sec. 61 if no notice existed, ₹8,000 would first go to the secured debt because it carries security to the creditor.
 
-**Effect**: Contract is **voidable** — the misled party can rescind (cancel) the contract.
+#### Exam strategy for CMA Foundation (3% weight)
+Expect 3–5 MCQs. Highest yield topics: the **coercion-vs-undue-influence** distinction, **Section 23 five-fold test**, and the **appropriation hierarchy**. Memorise the phrase *"opposed to public policy"* wording verbatim — many questions ask whether a fact pattern satisfies one of the five limbs.
 
-### Fraud (Section 17)
+#### Self-test
+1. A threatens to file a false criminal case unless B signs a contract. Identify the vitiating factor and its section.
+2. A and B, both residents of India, mistakenly believe a contract is legal when the relevant statute was repealed last year. Is the agreement void?
 
-**Definition**: Any of the following acts done with the intention to deceive:
-1. Suggestion of a fact as true when the speaker knows it to be false
-2. Active concealment of a fact
-3. Promise made without any intention of performing it
-4. Any other act fitted to deceive
-5. Intentionally causing another to sign a document they do not understand
+---
 
-**Fraud vitiates consent more severely than misrepresentation** — the contract is voidable AND the party guilty of fraud may be liable in damages.
+## Continue your study
 
-**Key cases**:
-- Derry v. Peek (1889) — Fraud requires intention to deceive (not just negligent misstatement)
-- Arvind Kumar v. Zee Media (2019) — False representation made deliberately
-
-**Effect of fraud**:
-- Contract is **voidable**
-- Damages can be claimed for losses suffered
-- Rescission can be sought
-
-### Mistake (Sections 20–22)
-
-**Types of Mistake**:
-
-1. **Mutual Mistake as to a fact (Section 20)**: Both parties are mistaken about a material fact. The contract is **void**.
-
-**Key case**: Cooper v. Phibbs (1867) — Both parties mistakenly believed there was a partnership; contract was void.
-
-2. **Unilateral Mistake (Section 22)**: Only one party is mistaken about a material fact. The contract is generally **valid** — except when the other party knows of the mistake and exploits it.
-
-**Exceptions where unilateral mistake makes contract void**:
-- Mistake as to the nature of the transaction (signed without understanding — e.g., signing a bond thinking it was a receipt)
-- Mistake as to the identity of the other party
-- Mistake as to a fundamental term
-
-**Key case**: Phillips v. Brooks Ltd (1921) — A swindler posed as someone else; the seller delivered goods to the wrong person; seller could recover goods because there was no consensus ad idem.
-
-**Note**: Mistake of law (not fact) is not a valid defense in India — ignorance of law is no excuse.
-
-## Legality of Object (Sections 23–30)
-
-### What makes an Object Unlawful? (Section 23)
-
-An agreement is void if its object or consideration is:
-1. Opposed to public policy
-2. Of such a nature that if permitted it would defeat a provision of any law
-3. Fraudulent
-4. Involves or implies injury to the person or property of another
-5. The court regards it as immoral or opposed to public policy
-
-### Agreements Opposed to Public Policy
-
-**Agreements in restraint of marriage** (Section 26): Agrees not to marry at all, or not to marry a specific person — void.
-
-**Agreements in restraint of trade** (Section 27): An agreement restricting a person's ability to carry on their trade or profession is generally void — unless it falls within recognized exceptions.
-
-**Exceptions** (restraint of trade):
-- **Partnership**: Restriction on a partner after dissolution (reasonable)
-- **Sale of goodwill**: Seller of goodwill can be restrained from competing (reasonable)
-- **Employment**: Employee can be restrained from competing with former employer within reasonable limits
-
-**Key case**: Nordenfelt v. Maxim Nordenfelt (1894) — Reasonable restraint of trade is enforceable; unreasonable is void.
-
-### Void Agreements (Sections 29–30)
-
-**Section 29** (Agreements uncertain): Agreements whose meaning is uncertain or vague are void.
-
-**Section 30** (Wagering agreements): A wager is a promise to pay money on the determination of an uncertain event. Wagering agreements are void.
-
-**Essentials of a wager**:
-- Each party must stand to win or lose
-- There must be no control over the outcome (pure chance)
-- Nothing but the event determines who wins
-
-**Distinction from insurance**: Insurance is not a wager — the insured has an insurable interest (must suffer loss if event occurs). The event does not purely depend on chance.
-
-### Contingent Contracts (Section 31)
-
-A **contingent contract** is one where a party promises to do something (or refrain from doing) only if a certain event occurs — which is uncertain at the time of making the contract.
-
-**Rules for enforcement**:
-- If the event becomes impossible (due to fault of the promisor): The contract becomes void
-- If the event becomes illegal (due to fault of the promisor): The contract becomes void
-- If the event doesn't happen: The contract is not enforceable (but no damages if it was genuinely uncertain)
-
-**Examples**: Insurance contracts, betting contracts (void as wagers), contracts dependent on contingencies.
-
-## Performance of Contract (Sections 37–67)
-
-### Who Must Perform?
-
-1. **Promisor must perform**: The party who made the promise must fulfill it
-2. **Legal representatives**: On death of promisor, the legal representative must perform (if the obligation is of a personal nature, it dies with the person)
-3. **Third party**: A stranger cannot be forced to perform unless they have undertaken the obligation
-
-### Types of Performance
-
-**Actual performance**: When the promisor does exactly what they promised.
-
-**Attempted performance (tender of performance)**: When the party willing to perform offers to do so but the other party refuses — the performing party is discharged from liability (Section 46). The performing party can sue for breach.
-
-### Exceptions to Performance
-
-| Situation | Effect |
-|---|---|
-| **Destruction of subject matter** (Section 56) | Contract becomes void |
-| **Impossibility at inception** | Void ab initio |
-| **Subsequent impossibility** | Contract becomes void — e.g., destruction of specific goods |
-| **Death or personal incapacity** (Section 35, 56) | Contracts of personal nature terminate on death/incapacity |
-| **Non-availability of performance** | If performance becomes impossible, the obligation is discharged |
-
-**Section 56**: An agreement to do an impossible act is void. If performance becomes impossible after the contract is made, the contract becomes void.
-
-**Key case**: Krell v. Henry (1903) — Room overlooking coronation route; coronation postponed; contract frustrated → no damages.
-
-### Doctrine of Frustration
-
-When a contract becomes impossible to perform due to an unforeseen event beyond the control of parties, the contract is discharged. This is the **doctrine of frustration** — embedded in Section 56.
-
-**Situations of frustration**:
-- Destruction of subject matter
-- Change in law making performance illegal
-- Death or incapacitation of a party in personal service contracts
-- Principal source of benefit is destroyed
-
-### Assignment of Contracts
-
-**Rights of promisee**: A promisee can assign their rights to a third party (novation — with consent of the promisor).
-
-**Liabilities**: A promisee cannot assign their liabilities without the consent of the promisor.
-
-## CTET Exam Focus
-
-- **Coercion (Section 15)**: IPC-prohibited act, suicide threat can be coercion; contract voidable
-- **Undue influence (Section 16)**: Position to dominate will; fiduciary relationship; presumption
-- **Misrepresentation (Section 18)**: Innocent false statement; voidable contract
-- **Fraud (Section 17)**: Intentional deception; voidable + damages
-- **Mistake (Section 20)**: Mutual mistake → void; unilateral mistake → generally valid
-- **Void agreements (Section 27)**: Restraint of trade — generally void; exceptions (goodwill sale, partnership)
-- **Wagering agreements (Section 30)**: Void; insurance is not a wager
-- **Contingent contracts (Section 31)**: Enforceable if event happens; void if event becomes impossible
-- **Performance (Section 37+)**: Promisor must perform; frustration (Section 56) — impossibility discharges contract; doctrine of frustration (Krell v. Henry)
+- **[View this topic in your CMA Foundation roadmap](/roadmap/?exam=cma&duration=1mo)** — see where "Indian Contract Act — Consent, Legality, and Performance" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=cma&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[CMA Foundation exam overview](/exams/cma/)** — pattern, eligibility, and syllabus
+- **[All Business Law notes](/notes/cma/business-law/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

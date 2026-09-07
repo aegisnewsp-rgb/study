@@ -8,7 +8,7 @@ topicName: "Sale of Goods Act & Supply Chain"
 weight: 3
 country: southafrica
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-07"
 ---
 
 # Sale of Goods Act & Supply Chain
@@ -16,86 +16,76 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Sale of Goods Act & Supply Chain** — Key Facts for SAPC (South Africa)
-Core concept: The sale of goods in South Africa is governed by the common law of contract and the Consumer Protection Act 68 of 2008, with the Supply Chain Management Policy Framework guiding procurement in the public sector. The key legal principles involve the passing of ownership and risk, warranties implied by law, and the rights of buyers and sellers in the pharmaceutical supply chain.
-High-yield point: In the pharmaceutical supply chain, the wholesaler warrants that medicines are of proper quality, fit for their intended purpose, and comply with SAHPRA registration requirements. A pharmacy that discovers a defective or expired medicine supplied by a wholesaler has rights against the wholesaler under the implied warranties, the CPA, and potentially in delict.
-⚡ Exam tip: When examining a scenario involving a medicines supply dispute, always consider: (1) Does the medicine comply with the SAHPRA registration requirement? (2) Who bears the risk of loss or damage during transit? (3) Is the implied warranty of fitness for purpose satisfied? (4) Does the CPA provide additional buyer protections?
+The Sale of Goods Act governs contracts where a **seller transfers ownership of movable goods to a buyer for a money price**, overlaying South African common law of contract. In supply chain contexts, the Act determines when property (ownership) and risk move from one party to the next, and what implied warranties travel with the goods.
 
----
+- A **contract of sale** requires a money consideration — barter is excluded.
+- **Implied conditions**: right to sell, correspondence with description/sample, merchantable quality, fitness for any communicated purpose.
+- **Property and risk pass together** on transfer of ownership, not on physical delivery.
+
+| Trigger | Effect on property & risk |
+| --- | --- |
+| Specific, ascertained, unconditional goods in a deliverable state | Pass immediately on contract |
+| Goods needing an act to put in deliverable state | Pass once that act is done and buyer has notice |
+| Retention-of-title clause present | Property stays with seller until paid; risk still passes |
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Sale of Goods Act & Supply Chain** — SAPC (South Africa) Study Guide
-Overview: The pharmaceutical supply chain in South Africa is a complex network involving manufacturers, SAHPRA-licensed wholesalers, distributors, importing agents, retail and hospital pharmacies, and ultimately patients. The sale and supply of medicines within this chain is governed by the common law of sale (derived from Roman-Dutch law), the Consumer Protection Act 68 of 2008 (CPA), the Medicines and Related Substances Act 101 of 1965, the Hazardous Substances Act 15 of 1973 (for certain substances), and the National Health Act 61 of 2003. Understanding the legal relationships between parties in the supply chain, the passing of ownership and risk, implied warranties, and the rights and obligations of each party is essential for pharmacy practice and examination success.
-Core principles: A contract of sale is a contract in which the seller transfers ownership of specific goods to the buyer for a price. Ownership transfers when agreed between the parties — in the absence of agreement, ownership passes when the goods are delivered. Risk generally passes with ownership — if the goods are lost or damaged after risk has passed, the buyer bears the loss even though ownership may not yet have passed. The seller is impliedly warranted that the goods are free from hidden defects, of merchantable quality, and fit for their particular purpose where that purpose is made known to the seller. The CPA supplements these implied warranties with statutory rights that cannot be excluded.
-Key points:
-- **The nature of the contract of sale**: The Sale of Goods Act (as a named statute) is a UK statute that does not apply in South Africa. Instead, the common law of sale as developed in South Africa from Roman-Dutch origins governs. The common law of sale is supplemented by the CPA for consumer sales. Key distinctions include that sale involves transfer of ownership for a price, while a donation involves transfer without price. A contract for the supply of medicines combined with a professional dispensing service is a mixed contract — both a sale and a service — to which both sale and service rules apply.
-- **Ownership (dominium) and risk (periculum)**: Under South African law, ownership passes when the parties intend it to pass. In the absence of contrary agreement, ownership passes upon delivery of the goods. Until ownership passes, the seller retains the risk of loss or damage — though this principle can be modified by agreement. In pharmaceutical supply, this means that if a consignment of temperature-sensitive medicines is damaged in transit before delivery to the pharmacy, the wholesaler bears the risk even if the goods were already invoiced. Delivery is typically defined by the agreed Incoterm or delivery term in the supply contract.
-- **Implied warranties under common law**: Three key implied warranties attach to a contract of sale in South African common law: (a) the seller has the right to sell the goods (warranty of quiet possession — the buyer will not be disturbed in their possession by a third party with a better claim); (b) the goods are free from hidden defects (latent defects warranty — if a hidden defect exists that renders the goods unsafe or unfit for their purpose, the buyer may have a claim against the seller even if the seller did not know of the defect); and (c) the goods are of merchantable quality and fit for their particular purpose. These warranties cannot always be excluded, particularly in consumer sales.
-- **The CPA and buyer protections**: Section 20 of the CPA creates an implied warranty that goods are safe and free from defects. Section 54 creates the right to demand goods that are reasonably suitable for the purpose for which they are acquired. Section 61 creates joint and several liability for harm caused by goods that are unsafe or defective — this liability extends to the manufacturer, importer, distributor, and retailer at every point in the supply chain. In practice, this means that if a patient is harmed by a defective medicine supplied by a pharmacy, the pharmacy may be liable to the patient under the CPA alongside the manufacturer, even if the pharmacy was unaware of the defect.
-- **Pharmaceutical supply chain compliance**: The supply chain for medicines is subject to additional regulatory controls beyond ordinary sale of goods. Medicines must be sourced only from SAHPRA-licensed importers and wholesalers. The wholesaler must hold a valid license under the Medicines Act. Pharmacy owners must maintain records of all medicines sourced, including batch numbers and expiry dates. Medicines must be stored and transported within specified temperature ranges. Controlled substances require additional documentation and security measures. Any break in the supply chain compliance chain may compromise the legality of the pharmacy's stock and expose the pharmacy to criminal liability.
-- **Public sector procurement**: The procurement of medicines in the public health sector is governed by the Public Finance Management Act 1 of 1999, the Treasury Regulations, and the Supply Chain Management Policy Framework issued under Section 76 of the Public Finance Management Act. Public sector procurement must be competitive, transparent, and fair. Procurement from a single source without proper justification may constitute an irregular expenditure. Hospital pharmacists working in the public sector must understand these frameworks as they affect the availability of medicines in public health facilities.
-Study strategy: Focus on the interaction between common law sale principles and the CPA in pharmacy contexts. Practise applying the CPA's implied warranties to scenarios involving defective medicines, and trace the chain of liability from manufacturer to pharmacy. Understand the difference between a sale of goods and a mixed contract (sale plus service) and how this affects which legal regime applies.
+#### Defining a contract of sale
 
----
+A contract of sale is a bilateral agreement under which the seller transfers, or agrees to transfer, the property in goods to the buyer for a **money consideration called the price**. Three elements must coexist: goods (movable, tangible), a price in money, and consent to transfer ownership. If the consideration is services or another good, the contract falls outside the Act and into the common law of contract or a contract for work and materials (e.g. custom manufacture, shipbuilding).
+
+#### Implied conditions in the seller’s title and goods
+
+Four implied conditions anchor B2B and B2C supply transactions. First, the seller must have the **right to sell**. Second, goods must correspond with **description** and any **sample**. Third, goods of a description ordinarily supplied for a particular purpose are of **merchantable quality**. Fourth, where the buyer relies on the seller’s skill or judgment for a stated purpose, the goods must be **fit for that purpose**. In commercial dealings these conditions are freely excludable by clear agreement; in B2C the Consumer Protection Act 68 of 2008 limits such exclusion.
+
+#### Passing of property and the rule in sections 19–21
+
+The Act uses four rules in priority order: (1) **unconditional contract for specific ascertained goods** in a deliverable state — property passes when the contract is made; (2) where an act is required to put goods into a deliverable state — property passes when that act is done and the buyer has notice; (3) where the price is to be ascertained by weighing, measuring, or testing — property passes when that act is done; (4) **undivided share in a mass / fructus industriales** — passes in proportion once separated.
+
+#### Supply chain consequences
+
+Risk passes with property, not with physical delivery. A **retention-of-title clause** postpones property until payment while still shifting risk to the buyer on dispatch, leaving the unpaid seller exposed to loss. The buyer must inspect within a **reasonable time** after delivery or lose the right to reject for visible defects.
+
+| Concept | Key point |
+| --- | --- |
+| Caveat emptor | Buyer bears risk of defects visible on reasonable inspection |
+| Voidable title | Bona fide buyer from a seller with voidable title obtains good title once seller’s voidable title is confirmed |
+| Mercantile agent exception | Buyer in good faith from a mercantile agent acting in the ordinary course of business gets good title |
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-**Sale of Goods Act & Supply Chain** — Comprehensive SAPC (South Africa) Notes
-Full coverage: This topic covers the law of sale of goods as it applies to the pharmaceutical supply chain in South Africa, including the common law of sale, the Consumer Protection Act 2008, the National Health Act, SAHPRA licensing requirements, public sector procurement, and the specific rules governing the storage and transportation of pharmaceutical products. Understanding the supply chain legal framework is essential for both community and hospital pharmacists, as it determines where liability attaches when medicines are defective, where responsibility lies when goods are lost in transit, and how procurement decisions must be made to comply with applicable law.
+#### Edge cases examiners exploit
 
-**1. The Common Law of Sale in South Africa**
+Specific goods that **perish before risk passes** discharge the contract without liability; the same goods perishing after risk passes leave the buyer to bear the loss. The Act treats **future goods** (goods to be manufactured or acquired) and **contingent goods** (depending on an event) as capable of sale, but property cannot pass until the goods become ascertained.
 
-South African sale law is rooted in Roman-Dutch law, developed through the writings of Grotius and others, and refined by South African courts over centuries. It is not codified in a single statute called a "Sale of Goods Act" (as exists in the United Kingdom), but is rather a body of common law supplemented by consumer protection legislation. The contract of sale is defined as a contract in which the seller undertakes to transfer ownership of specific goods to the buyer for a price (the purchase price). The essential elements are the same as for any contract: offer, acceptance, intention to create legal relations, capacity, and consideration. The law of sale additionally requires that the goods be ascertained (specific goods identified at the time of contracting) or ascertainable (future goods to be manufactured or acquired after contracting). A contract for the sale of an unascertained future medicine — for example, a specific formulation not yet manufactured — is valid if the goods are ascertainable at the time of delivery. Where the contract is for the sale of a generic medicine identified by registration number rather than by a specific batch, the goods become ascertained when the wholesaler selects and allocates stock to fulfil the order.
+#### Retention of title in insolvency
 
-**2. The Passing of Ownership (Transfer of Dominium)**
+A retention-of-title clause shifts effective ownership timing in **supply chain finance and insolvency**. The unpaid seller’s claim to recover goods is treated as a real right against the insolvent buyer’s liquidator, subject to registration where security interests are perfected under the UCC-style reform debate. Drafters often add **proceeds clauses** and **all-monies clauses** to extend the seller’s reach to resale proceeds and cross-debted accounts.
 
-Ownership (dominium) in South African law is transferred by agreement between the parties. The common law principle, confirmed by the South African courts, is that ownership passes when the parties intend it to pass. In the absence of an expressed intention, ownership passes upon delivery of the goods (deliverance), although courts may infer intention from the terms of the contract, the conduct of the parties, and surrounding circumstances. This rule can create practical difficulties in pharmaceutical supply chains where goods are ordered, invoiced, and dispatched before physical delivery. If a wholesaler dispatches a batch of medicines to a pharmacy and the goods are damaged in transit before delivery, the question of who bears the loss depends on whether ownership had passed before the damage occurred. If the contract provided that ownership passes on delivery (typical in pharmaceutical supply), the wholesaler retains ownership and bears the risk. If the contract provided that ownership passes when payment is made, the wholesaler retains ownership until payment and likewise bears the risk of transit loss.
+#### Worked micro-example
 
-The Prescription and Prescription of Debt Act 68 of 1969 (though it deals primarily with debt prescription) underscores that ownership disputes are resolved by reference to the parties' agreement and the principles of the common law. In practice, pharmaceutical supply contracts frequently use standard terms such as "ownership passes on delivery" or "risk and title pass on delivery" — meaning that until the goods are physically delivered to the pharmacy, the wholesaler is exposed to the risk of loss. Pharmacy owners should ensure their contracts with wholesalers clearly address these points.
+A Cape Town distributor buys 500 cases of bottled water from a Stellenbosch supplier, FOB Stellenbosch. Under rule 1, property and risk pass **on contract** because the goods are specific and ascertained in a deliverable state. If a truck overturns en route, the **distributor bears the loss** despite the supplier still holding physical possession. Adding a retention-of-title clause would postpone property until payment, yet risk would still pass on dispatch — leaving the supplier unprotected unless the clause expressly **shifts risk back**.
 
-**3. The Passing of Risk (Periculum)**
+#### Common mistakes in exam answers
 
-The general rule is that risk follows ownership — whoever owns the goods bears the risk of their loss or destruction. However, this principle can be modified by agreement. In pharmaceutical supply, the risk of loss is particularly significant for temperature-sensitive products (cold chain medicines). If a cold chain medicine is damaged by temperature excursion in transit, the party who bears the risk will be responsible for replacing the goods and will bear the financial loss. The pharmacy's standard terms of trade with wholesalers typically address risk allocation. The CPA requires that any such term be brought to the consumer's attention before the transaction is concluded. A clause buried in fine print that transfers risk of transit damage to the pharmacy without adequate disclosure may be challenged as an unfair contract term under Section 48 of the CPA.
+- Treating **delivery** as the trigger for transfer of property.
+- Forgetting that **risk follows property**, not possession.
+- Assuming a custom-built item is always a contract of sale.
+- Overlooking **reasonable-time inspection** in rejection scenarios.
 
-**4. Implied Warranties and the Rights of Buyers**
+#### Practice prompts
 
-South African common law implies certain warranties into every contract of sale, unless excluded by agreement. These warranties exist alongside and are supplemented by the statutory warranties created by the CPA.
+1. A Gauteng retailer contracts for 1 000 pre-printed crates held in the seller’s warehouse. Who bears loss when 200 are destroyed by fire before payment?
+2. Draft one sentence of a retention-of-title clause that **also** retains risk with the seller until full payment.
 
-**Warranty of right to sell**: The seller warrants that it has the right to sell the goods and that the buyer will enjoy quiet possession of the goods. If a third party establishes a better claim to the goods (for example, if the goods were stolen or subject to a lien), the seller is in breach of this warranty. In the pharmaceutical context, this warranty is relevant where a wholesaler supplies medicines that are subject to a retention title agreement with a manufacturer — the wholesaler's right to sell may be subject to the manufacturer retaining ownership until full payment is received. A pharmacy that accepts goods subject to such an arrangement may have its ownership questioned if the manufacturer's security interest is enforced.
+## Continue your study
 
-**Warranty against latent defects**: The seller warrants that the goods are free from latent defects — hidden defects that existed at the time of sale and that were not discoverable by the buyer upon reasonable inspection. Where a latent defect renders the goods unsafe or unfit for their purpose, the buyer may: cancel the contract and reclaim the purchase price; or retain the goods and claim damages for the difference in value between what was delivered and what was contracted for. Importantly, where the seller was aware of the defect and failed to disclose it, the buyer may additionally claim damages for the harm caused by the defect. In pharmaceutical practice, a latent defect in a medicine — such as contamination that is not detectable by visual inspection alone — may give rise to claims against the seller if the defect existed at the time of delivery. The time limits for bringing latent defect claims are governed by the common law and, for CPA purposes, by Section 11 of the CPA.
-
-**Warranty of merchantable quality and fitness for purpose**: Under the common law and the CPA, the goods must be of merchantable quality — meaning they must be of a quality that is acceptable for goods of that description and fit for the ordinary purposes for which such goods are used. Additionally, if the buyer makes known the particular purpose for which the goods are required, the seller impliedly warrants that the goods are reasonably fit for that purpose, even if that purpose is not the ordinary one. In pharmacy, when a pharmacist dispenses a specific medicine for a specific patient's condition, the medicine must be fit for that particular patient's purpose. The CPA's Section 54 creates an express right to goods that are reasonably suitable for the purpose for which they are acquired.
-
-**5. The Consumer Protection Act 68 of 2008 in the Supply Chain**
-
-The CPA applies to all consumer transactions in South Africa, and the pharmaceutical supply chain involves multiple consumer transactions. Each time a pharmacy supplies a medicine to a patient in the ordinary course of its business, a consumer transaction occurs. Section 61 of the CPA creates joint and several liability along the supply chain — the manufacturer, importer, distributor, and retailer may all be held liable for harm caused to a consumer by unsafe or defective goods. This is significant in pharmacy practice because a patient harmed by a defective or inappropriately labelled medicine may have a claim against the pharmacy even if the pharmacy was not negligent in handling the medicine. The pharmacy's best defence is to demonstrate that it sourced the goods from a properly licensed supplier and maintained required storage conditions.
-
-The CPA also establishes the principle of producer liability — a producer is liable for harm caused by goods that were unsafe at the time of supply, regardless of whether the producer was negligent. This strict liability applies to manufacturers and importers, but not directly to retailers (pharmacies) unless they also function as importers or have in some way contributed to the unsafe condition of the goods. However, the CPA's Section 61(4) provides that a supplier is liable if the manufacturer cannot be identified or is insolvent, or if the goods were supplied under the supplier's brand name. A pharmacy that sells medicines under its own private label may be treated as a producer for these purposes.
-
-**6. The Pharmaceutical Supply Chain: Regulatory Requirements**
-
-The supply of medicines in South Africa is governed by the Medicines and Related Substances Act 101 of 1965, as amended, and the regulations made thereunder. SAHPRA (the South African Health Products Regulatory Authority, established in terms of the Medicines and Related Substances Act as amended) is the regulatory body responsible for the registration of medicines, licensing of manufacturers, wholesalers, and importing agents, and enforcement of compliance with Good Manufacturing Practice (GMP) and Good Distribution Practice (GDP) standards.
-
-**Sourcing of medicines**: A pharmacy may only source medicines from a wholesaler or manufacturer who holds a valid licence issued by SAHPRA under the Medicines Act. It is a criminal offence under the Medicines Act to obtain medicines from an unlicensed supplier. The pharmacy must verify and retain evidence of the supplier's SAHPRA licence at the time of each supply.
-
-**Record-keeping**: Regulations under the Medicines Act require pharmacies to maintain detailed records of all medicines received, dispensed, and in stock, including batch numbers, supplier details, dates of receipt and dispensing, and expiry dates. These records must be retained for a minimum period (typically five years) and must be available for inspection by SAHPRA inspectors. Failure to maintain adequate records is a criminal offence.
-
-**Storage and cold chain**: Temperature-sensitive medicines (those requiring storage between 2°C and 8°C) must be stored in certified cold chain storage facilities within the pharmacy. Temperature monitoring records must be maintained. If a cold chain breach is discovered, the affected stock must be quarantined, the supplier notified, and SAHPRA informed if the breach may affect product quality. Supplying medicines that have been stored outside required temperature parameters may constitute a criminal offence and a breach of the implied warranty of fitness for purpose.
-
-**Controlled substances**: Medicines in Schedules 5, 6, 7, and 8 (as classified under the Medicines Act) are subject to additional supply chain controls, including special recording requirements, secure storage, and prescribed ordering procedures. A pharmacy that fails to maintain the required records for Schedule 5 and above substances may lose its licence to hold those substances and may face criminal prosecution.
-
-**7. Public Sector Procurement**
-
-The public health sector in South Africa procures medicines through a centralized supply chain system managed by the National Department of Health, with provinces responsible for procurement within their budgets. The regulatory framework for public procurement includes: the Public Finance Management Act 1 of 1999 (PFMA); Treasury Regulations issued under the PFMA; the Preferential Procurement Policy Framework Act 5 of 2000; and the Supply Chain Management Policy Framework. These require that public procurement be competitive, transparent, fair, and cost-effective. Single-source procurement (procurement without inviting competing quotes) requires specific written justification and is subject to audit by the Auditor-General. Hospital pharmacists working in the public sector must understand these procurement rules, as non-compliant procurement may constitute an irregular expenditure that the responsible official personally bears liability for. The National Health Insurance (NHI) Bill, as it progresses through legislation, is expected to significantly restructure the public sector pharmaceutical procurement framework in future.
-
-**8. Problem-Solving Strategies and Common Mistakes**
-
-In examination questions involving sale of goods and the pharmaceutical supply chain, apply the following framework. First, identify whether the transaction involves a sale of goods, a service, or a mixed contract. Second, apply the common law of sale: has ownership passed? Who bears the risk? Does an implied warranty apply? Third, apply the CPA: does the CPA apply (is the buyer a consumer)? What statutory rights arise? Fourth, apply the Medicines Act: is the supplier licensed? Are the goods SAHPRA-registered? Are the storage and record-keeping requirements met? Fifth, consider liability: who is liable to the patient for any harm caused? The chain of liability under Section 61 of the CPA runs from manufacturer through distributor to pharmacy. Common mistakes include: conflating ownership with risk — these are distinct concepts that can be severed by agreement; ignoring the CPA's supplementary protections by focusing only on common law; failing to consider that a pharmacy that dispenses a defective medicine may face both CPA liability and a professional misconduct complaint before the SAPC; and overlooking the criminal dimensions of supply chain non-compliance (licensing, record-keeping) by focusing exclusively on civil liability.
-Practice: Work through past SAPC examination questions involving the pharmaceutical supply chain. Pay particular attention to scenarios involving cold chain failures, expired medicines supplied to patients, and disputes between pharmacies and medical schemes regarding reimbursement for medicines not in stock. For each scenario, map the legal relationships, identify the applicable legal framework, and analyse the liability of each party.
+- **[View this topic in your SAPC (South Africa) roadmap](/roadmap/?exam=sa-pharm&duration=1mo)** — see where "Sale of Goods Act & Supply Chain" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=sa-pharm&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[SAPC (South Africa) exam overview](/exams/sa-pharm/)** — pattern, eligibility, and syllabus
+- **[All Business Law notes](/notes/sa-pharm/business-law/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

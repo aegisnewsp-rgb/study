@@ -8,91 +8,113 @@ topicName: "Forensic Toxicology — Classification of Poisons, Common Poisonings
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-06-03
+lastUpdated: "2026-09-07"
 ---
 
 # Forensic Toxicology — Classification of Poisons, Common Poisonings, Medicolegal Autopsy & Management
 
-## Introduction to Forensic Toxicology
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your FMGE paper.
 
-Toxicology is the study of poisons — their source, properties, mode of action, symptoms, fatal dose and period, treatment, and medicolegal aspects. **Forensic (medicolegal) toxicology** applies this knowledge to questions of law: was a death due to poisoning, was it suicidal, homicidal, or accidental, and what evidence will stand in court. A **poison** is any substance which, when administered into or applied to the body in a small quantity, produces ill health or death by its chemical action. For FMGE, the high-yield areas are the classification of poisons, the features of poisons common in India (organophosphates, aluminium phosphide, corrosives, arsenic, opioids, and datura), the correct preservation of viscera, and the principles of management.
+Forensic toxicology detects and quantifies **poisons** in biological samples (blood, urine, viscera, hair) to establish cause, manner, and time of death. A **poison** is any substance that, in a relatively small dose, can harm or kill when ingested, inhaled, injected, or absorbed percutaneously. The **median lethal dose (LD50)** is the dose killing 50% of a test population (mg/kg); the **Therapeutic Index (TD50/ED50)** predicts clinical safety.
 
-## Relevant Law
+- **Stages of poisoning**: absorption (GI symptoms) → CNS effects → paralysis/coma → death.
+- **Routes**: ingestion (most common), inhalation, injection, percutaneous.
+- **High-yield antidotes**: organophosphorus → **atropine + pralidoxime (PAM)**; opium → **naloxone**; paracetamol → **N-acetylcysteine (NAC)** within 8–10 h; arsenic → **BAL (dimercaprol)**; lead → **EDTA/DMSA**; CO → 100% oxygen; cyanide → **amyl/sodium nitrite + sodium thiosulphate**.
+- **Autopsy must-do**: collect stomach with contents + 30 cm duodenum, 500 g liver, one kidney, brain, 10 mL blood, 30 mL urine; preserve in **saturated NaCl solution** (not rectified spirit — it destroys alcohol). Seal, label, and forward with **Form 13** to the Chemical Examiner.
 
-A doctor's handling of a suspected poisoning case is governed by statute. The **Poisons Act, 1919** regulates the import, possession, and sale of poisons, and the **Drugs and Cosmetics Act, 1940** controls the manufacture and sale of drugs. Under the Indian Penal Code, **Section 328 IPC** punishes causing hurt by means of poison or any stupefying, intoxicating, or unwholesome substance with intent to commit an offence, and **Section 284 IPC** punishes negligent conduct with respect to a poisonous substance. Deaths from poisoning with criminal intent are dealt with under the general homicide provisions (Sections 299 and 300 IPC). A case of suspected homicidal or suicidal poisoning is a **medicolegal case**, and the treating doctor must inform the police.
+---
 
-## Classification of Poisons
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students working through the FMGE Forensic syllabus over weeks.
 
-Poisons are classified by their predominant mode of action.
+#### Classification of Poisons
+Poisons are grouped by dominant action, which also dictates the autopsy sign you look for.
 
-### Corrosives
-Substances that produce local destruction (chemical burns) of tissue on contact:
-- **Strong acids:** sulphuric acid (oil of vitriol), nitric acid (aqua fortis), hydrochloric acid. Acids produce **coagulative necrosis** with a dry, leathery eschar.
-- **Strong alkalis:** sodium and potassium hydroxide. Alkalis produce **liquefactive (colliquative) necrosis** with a soft, soapy, translucent slough — deeper penetration than acids.
-- **Organic/weaker corrosives:** oxalic acid, carbolic acid (phenol).
+| Class | Examples | Hallmark autopsy / clinical sign |
+| --- | --- | --- |
+| Corrosive — strong acids | H₂SO₄, HCl, HNO₃ | Charred-black stomach wall, brownish-black eschar |
+| Corrosive — strong alkalis | NaOH, KOH | Softened, saponified, soapy translucent stomach |
+| Irritant — agricultural | Organophosphates (OPC), organochlorines, pyrethrins | Pinpoint pupils, salivation, bronchorrhoea (OPC); fishy smell |
+| Irritant — mineral | Arsenic, lead, mercury, phosphorus | Rice-water stool (As), Mees lines (As), waxy luminous mucosa (P) |
+| Irritant — vegetable | Castor, croton, abrus, Semecarpus | Severe GI haemorrhage, mucosal blistering |
+| Systemic — CNS depressant | Opium, barbiturates, alcohol | Froth at mouth, pinpoint pupils, smell of opium |
+| Systemic — deliriant | Datura, cannabis | Dilated pupils, dry mouth (Datura); brown mouth staining (cannabis) |
+| Systemic — spinal | Strychnine | Convulsions, risus sardonicus, no mucosal corrosion |
+| Systemic — cardiac | Digitalis, oleander, aconite | Empty contracted heart, early post-mortem rigidity |
+| Asphyxiant | CO, H₂S, cyanide | Cherry-red livor (CO); almond smell + pink mucosa (CN) |
 
-### Irritants
-Produce inflammation and irritation of the tissues:
-- **Inorganic — non-metallic:** phosphorus, chlorine, bromine, iodine.
-- **Inorganic — metallic:** arsenic, mercury, lead, copper, antimony, thallium.
-- **Inorganic — mechanical:** powdered glass, diamond dust.
-- **Organic — vegetable:** castor (ricin), croton, *Abrus precatorius* (jequirity/rosary pea), calotropis.
-- **Organic — animal:** snake venom, cantharides (Spanish fly), insect and scorpion stings.
+#### Medicolegal Autopsy in Suspected Poisoning
+- Visit the scene; photograph the body, vomitus, and any bottles before moving the corpse.
+- Strip and examine for **stains, corrosion marks around the mouth, injection puncture sites**, and smell.
+- Open the abdomen first. Inspect stomach mucosa for colour, haemorrhage, perforation, and odour before incising viscera.
+- **Stomach wash fluid** must be preserved separately in a clean glass container.
+- Collect and dispatch with proper **chain of custody** (sealed, labelled, signed, Form 13 attached).
 
-### Neurotics (acting chiefly on the nervous system)
-- **Cerebral:** somniferous (opium and its alkaloid morphine); inebriants (ethyl alcohol, ether, chloroform); deliriants (datura, cannabis, cocaine, belladonna/atropine).
-- **Spinal:** excitant — strychnine (from *nux vomica*); depressant — gelsemium.
-- **Peripheral:** curare, conium (hemlock).
+#### Common Indian Poisonings — Antidotes and Traps
+- **Organophosphorus compounds (OPC):** give **atropine** to dry secretions (target: clear lungs) and **pralidoxime (PAM)** before ageing (>24–48 h) renders the enzyme un-reactivatable. Avoid succinylcholine and morphine.
+- **Phosphorus (rodenticides, firecrackers):** **no specific antidote**; gastric lavage with **KMnO₄**; do not use rectified spirit as preservative.
+- **Arsenic:** acute — rice-water stool, hyperaemic stomach; chronic — **Mees lines** on nails, hyperkeratosis, peripheral neuropathy. Antidote: **BAL** then DMSA.
+- **Opium:** triad of pinpoint pupils + respiratory depression + coma → **naloxone 0.4–2 mg IV**, repeated every 2–3 min.
+- **Datura:** anticholinergic — **do NOT give atropine** (worsens the toxidrome); physostigmine is the rationale antidote.
+- **Kerosene / petroleum:** **never** induce emesis or perform gastric lavage — risk of aspiration pneumonitis.
+- **Paracetamol:** **N-acetylcysteine (NAC)** within 8–10 h to replenish glutathione; treat late-presenters with the Rumack–Matthew nomogram.
+- **Alcohol (acute):** supportive care, **thiamine** before glucose to prevent Wernicke encephalopathy.
 
-### Cardiac Poisons
-Aconite (the most rapidly fatal vegetable poison), digitalis, oleander (yellow and white), nicotine, and tobacco.
+> **FMGE trap:** Preserving viscera in rectified spirit in suspected alcohol or phosphorus poisoning destroys the analyte — use **saturated NaCl** for non-volatile poisons and **sodium fluoride** for blood in alcohol cases.
 
-### Asphyxiants (irrespirable gases)
-Carbon monoxide, carbon dioxide, hydrogen sulphide, and war/irritant gases.
+---
 
-### Miscellaneous (agricultural and household)
-Organophosphates and carbamates, organochlorines, aluminium phosphide, and kerosene/hydrocarbons.
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for slow, mastery-level preparation with edge cases and clinical reasoning.
 
-## Factors Modifying the Action of a Poison
+#### Dose–Response and Quantitative Estimation
+- **LD50** is population-level; clinical poisoning deals with individual variation due to age, sex, tolerance, route, and co-ingestants.
+- **Fatal dose (mg)** ≈ blood concentration (mg/L) × **volume of distribution** (L/kg) × body weight (kg). Use this to back-calculate expected tissue burden.
+- **Widmark formula for alcohol:** A (g) = BAC (%) × body weight (kg) × r, where r = 0.68 (male) or 0.55 (female). Useful in drink-driving opinions and consent/alcohol-related offence interpretation.
+- **Therapeutic Index (TD50/ED50):** digoxin ≈ 3 (narrow), diazepam ≈ 100 (wide); explains why chronic medication, not street drugs, often causes toxicity in the elderly.
 
-The clinical and fatal effect of a poison depends on the **dose**, the **physical form** (gas > liquid > powder > solid; a poison must dissolve to act), the **concentration**, and the **route of administration** (inhalation and intravenous routes act fastest, followed by intramuscular, subcutaneous, oral, and dermal). Patient factors also matter: **age** (children and the elderly are more susceptible), **state of health**, **sleep** (slows absorption), **idiosyncrasy and hypersensitivity**, **tolerance** (as seen with chronic opioid use), and **cumulative effect** (slowly excreted poisons such as arsenic and lead).
+#### Stepwise Management Algorithm
+1. **Resuscitate (ABC):** secure airway, support ventilation (100% O₂ for CO; intubate for opioid coma), control seizures (diazepam for strychnine).
+2. **Prevent absorption:** emesis within 1 h for ingestions (avoid in corrosives, kerosene, coma); gastric lavage with wide-bore tube; activated charcoal 1 g/kg for most oral poisons (NOT for acids, alkalis, iron, lithium, alcohols).
+3. **Specific antidotes** — only a handful exist; misuse delays supportive care.
+4. **Enhance elimination:** alkaline diuresis (long-acting barbiturates), haemodialysis (methanol, ethylene glycol, lithium, salicylate).
+5. **Supportive care:** monitor temperature, electrolytes, urine output; treat rhabdomyolysis, hepatic/renal failure.
 
-## Ideal Homicidal vs. Suicidal Poison
+#### Preservative Selection and Sample Integrity
 
-An **ideal homicidal poison** is cheap, easily available, colourless, odourless, and tasteless (so it can be mixed with food), produces symptoms resembling a natural disease, and leaves no characteristic post-mortem appearance — classic examples are **arsenic, aconite, and thallium**. An **ideal suicidal poison** is one that is easily available, cheap, capable of causing painless death with certainty, and acts reliably — examples in India include **organophosphates, aluminium phosphide, opium, and barbiturates**.
+| Sample | Preservative | Purpose |
+| --- | --- | --- |
+| Stomach + 30 cm duodenum, contents | Saturated common salt (NaCl) | Non-volatile poisons (preferred over rectified spirit) |
+| Liver (500 g), one kidney, brain | Saturated NaCl | Heavy metals, OPC, alkaloids |
+| Blood (10 mL) | Sodium fluoride + potassium oxalate | Alcohol, CO, methanol |
+| Urine (30 mL) | Sodium fluoride / thymol | Drug screens |
+| Long bone (femur) | Plain, dried | Arsenic, lead (chronic) |
+| Hair, nails | Plain, dried | Chronic arsenic, thallium |
 
-## Common Poisonings in India (High-Yield)
+Each bottle is sealed, labelled with preservative, date, and identifying officer's signature, and forwarded to the **Chemical Examiner** under sealed cover with **Form 13**.
 
-### Organophosphorus Compounds
-Insecticides such as malathion and parathion. They **irreversibly inhibit acetylcholinesterase**, causing accumulation of acetylcholine. Features are **muscarinic** (the SLUDGE complex — salivation, lacrimation, urination, defaecation, gastrointestinal cramps, emesis; plus bradycardia, bronchorrhoea, and miosis), **nicotinic** (muscle fasciculations, weakness, paralysis), and **CNS** (confusion, convulsions, coma). The breath may smell of garlic. **Management: atropine** (to reverse muscarinic effects, titrated to drying of secretions) **plus pralidoxime / 2-PAM** (a cholinesterase reactivator, most useful early before "ageing" of the enzyme).
+#### Common Mistakes and Exam Pearls
+1. **Gastric lavage in kerosene or corrosive poisoning** — perforation and aspiration kill more than the poison.
+2. **PAM after ageing** (>24–48 h) is pharmacologically useless; give early.
+3. **Confusing cholera with arsenic rice-water stool** — both look identical, but arsenic shows Mees lines and hyperaemic gastric mucosa on autopsy.
+4. **Datura treated with atropine** — anticholinergic toxidrome gets worse; physostigmine (Tertiary anticholinesterase) crosses the BBB and is the rational antidote.
+5. **Naloxone vs flumazenil** — naloxone reverses opioids; flumazenil reverses benzodiazepines. The latter is risky in chronic users (seizures).
+6. **Under-sampling viscera** — <500 g liver or missing a kidney leads to false-negative reports; the Chemical Examiner rejects incomplete kits.
+7. **Skipping scene visit and photography** — destroys circumstantial evidence that often clinches the poison (bottles, vomitus colour, suicide note).
 
-### Aluminium Phosphide (Celphos, "rice tablet")
-A very common fatal poisoning in agricultural India. On contact with moisture and gastric acid it liberates **phosphine gas**, which blocks cellular respiration. It causes profound, refractory **circulatory shock and metabolic acidosis**; the breath and gastric contents smell of garlic/decaying fish. There is **no specific antidote** — management is supportive, with airway protection, correction of acidosis and shock, and gastric lavage (some use potassium permanganate or coconut oil to retard phosphine release).
+#### Two Practice Prompts (FMGE-style)
+1. A 35-year-old farmer is brought with pinpoint pupils, sweating, salivation, fasciculations, and bronchorrhoea after spraying insecticide without gloves. Outline the priority management and the autopsy findings you would expect if he dies.
+2. A 22-year-old presents 12 hours after ingesting 20 tablets of paracetamol 500 mg. What is the antidote, the biochemical rationale, and the time-window advantage of giving it within 8 hours versus 24 hours?
 
-### Arsenic
-The classic homicidal poison. **Acute** poisoning produces severe vomiting and "**rice-water stools**" with a garlic odour, mimicking cholera or gastroenteritis. **Chronic** poisoning produces "**raindrop**" skin pigmentation, hyperkeratosis, **Mee's lines** (transverse white bands on the nails), and peripheral neuropathy. Arsenic is deposited in hair and nails and can be detected **long after death** (the **Reinsch and Marsh tests** are classic detection methods). **Antidote: BAL (dimercaprol)**, or oral DMSA/DMPS.
+---
 
-### Corrosive Poisoning
-Acids and alkalis produce chemical burns of the lips, mouth, oesophagus, and stomach with intense pain, dysphagia, and risk of perforation; late complications include oesophageal and pyloric stricture. **Gastric lavage and emetics are contraindicated** (risk of re-exposing tissues and perforation); management is dilution, airway protection, and supportive care.
+## Continue your study
 
-### Opioids (Opium / Morphine / Heroin)
-The classic triad is **pinpoint (miotic) pupils, respiratory depression, and coma**. **Antidote: naloxone**, a competitive opioid antagonist.
+- **[View this topic in your FMGE roadmap](/roadmap/?exam=fmge&duration=1mo)** — see where "Forensic Toxicology — Classification of Poisons, Common Poisonings, Medicolegal Autopsy & Management" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=fmge&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[FMGE exam overview](/exams/fmge/)** — pattern, eligibility, and syllabus
+- **[All Forensic notes](/notes/fmge/forensic/)** — browse sibling topics in this subject
 
-### Datura (Dhatura)
-Known as the "**poison of highway robbers**" for its use in stupefying victims. Its alkaloids (atropine, hyoscine) are **anticholinergic**, producing the classic picture: "**blind as a bat** (mydriasis, blurred vision), **dry as a bone** (dry mouth and skin), **red as a beet** (flushing), **hot as a hare** (hyperthermia), and **mad as a hatter** (delirium, hallucinations)." Management is supportive; **physostigmine** may be used in severe anticholinergic toxicity.
-
-### Carbon Monoxide
-A colourless, odourless gas with about **240 times the affinity of oxygen for haemoglobin**, forming carboxyhaemoglobin and causing tissue hypoxia. The characteristic post-mortem finding is **cherry-red** discoloration of the skin, lividity, and blood. Treatment is **100% oxygen** (hyperbaric oxygen in severe cases).
-
-### Snake Bite
-**Neurotoxic** venom (cobra, krait) causes ptosis, bulbar palsy, and respiratory paralysis; **vasculotoxic/haemotoxic** venom (vipers) causes local swelling, bleeding, and coagulopathy. Treatment is **polyvalent anti-snake venom (ASV)** with supportive care.
-
-## Medicolegal Autopsy and Preservation of Viscera
-
-In a suspected poisoning death, the autopsy surgeon must **preserve viscera** for chemical analysis at the Forensic Science Laboratory. The routine samples are: the **stomach and its contents**, the **upper part of the small intestine** with contents, about **500 g of liver**, **half of each kidney**, and samples of **blood and urine**. In suspected metallic poisoning, also preserve hair, nails, skin, and bone.
-
-The standard preservative is **saturated saline (common salt) solution**. Two important exceptions: for suspected **alcohol** or **carbon monoxide** poisoning, the preservative is **sodium fluoride with potassium oxalate** (fluoride prevents fermentation/neoformation or destruction of alcohol). **Formalin must never be used** as a preservative for toxicological samples, as it interferes with chemical analysis (and itself destroys or alters many poisons). Each container is sealed, labelled, and dispatched with a sample of the preservative as a control, maintaining an unbroken chain of custody.
-
-## Principles of Management of Poisoning
-
-Management follows a logical sequence: (1) **stabilise** the airway, breathing, and circulation; (2) **remove unabsorbed poison** — gastric lavage (contraindicated in corrosive and convulsant poisoning and in unprotected airway) and **activated charcoal**, the "universal antidote," which adsorbs most organic poisons but is **ineffective for metals, corrosives, alcohols, and hydrocarbons**; (3) **administer antidotes** where available — physical, chemical, or physiological/pharmacological (for example atropine and pralidoxime for organophosphates, naloxone for opioids, BAL for arsenic); (4) **enhance elimination** by forced alkaline diuresis, haemodialysis, or haemoperfusion in selected poisonings; and (5) provide **supportive and symptomatic care** throughout.
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

@@ -8,7 +8,7 @@ topicName: Depreciation
 weight: 3
 country: pakistan
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-07"
+lastUpdated: "2026-09-07"
 ---
 
 # Depreciation
@@ -16,75 +16,76 @@ lastUpdated: "2026-07-07"
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Depreciation** is the **systematic allocation** of the **depreciable amount** of a tangible fixed asset over its **useful economic life**, matching the asset's cost against the revenue it generates (IAS 16, IAS 1 accruals concept). The **depreciable amount** equals **Cost − Residual value**, and the asset's **carrying amount** equals Cost − Accumulated depreciation − Accumulated impairment (IAS 36). Depreciation begins when the asset is available for use in the manner intended and stops at the earlier of derecognition or classification as held for sale (IFRS 5). **Land** is normally not depreciated because it has an unlimited useful life. For ACCA/CA Pakistan: tax depreciation under the Sixth Schedule of the Income Tax Ordinance 2001 frequently differs from accounting depreciation, generating a temporary difference and deferred tax under IAS 12.
+**Depreciation** under IAS 16 *Property, Plant and Equipment* is the systematic allocation of an asset's depreciable amount over its useful life. The depreciable amount equals cost minus residual value, so the charge matches the periods that benefit from the asset's use.
 
----
+Two formulas dominate the exam:
+
+- Straight-line: annual charge = (Cost − Residual value) ÷ Useful life (years).
+- Reducing balance: charge in year *n* = opening carrying amount × rate %, where rate = 1 − (RV ÷ Cost)^(1/n).
+
+Depreciation is a non-cash allocation, not a valuation. Land is not depreciated unless depleted. Start charging when the asset is available for intended use; stop at derecognition or when reclassified as held for sale.
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-#### Core Definition and Recognition
+#### Definition and Scope
 
-Under **IAS 16 – Property, Plant and Equipment**, depreciation is the systematic allocation of the depreciable amount of an asset over its useful economic life. Recognition as PPE requires that future economic benefits are probable and the cost can be measured reliably. Each significant **component** must be depreciated separately; for example, an aircraft frame, engines, and cabin interior each have different useful lives and residual values.
+IAS 16 defines depreciation as the systematic allocation of the **depreciable amount** of a tangible non-current asset over its **estimated useful life**, using a method that reflects the pattern in which the asset's economic benefits are consumed. The standard treats depreciation as a cost-allocation mechanism, not a market valuation exercise.
 
-#### The Cost Formula
+#### Three Core Methods
 
-Every depreciation problem starts with:
+| Method | Formula | Best used when |
+| --- | --- | --- |
+| Straight-line | (Cost − RV) ÷ Useful life | Asset delivers benefits evenly across its life |
+| Reducing balance | Opening CV × Rate %; Rate = 1 − (RV ÷ Cost)^(1/n) | Benefits decline in earlier years |
+| Units of production | (Cost − RV) ÷ Total expected output × Units produced | Usage drives benefit consumption |
 
-#### Depreciable amount = Cost − Residual value
+#### Key Exam Mechanics
 
-#### Carrying amount = Cost − Accumulated depreciation − Accumulated impairment losses
+- **Commencement and cessation**: depreciation begins when the PPE is available for use in the manner intended by management, and ceases at the earlier of derecognition or classification as held for sale under IFRS 5.
+- **Component approach**: significant parts of an asset with different useful lives or consumption patterns (for example, an aircraft's airframe, engines, and cabin interior) must be depreciated separately.
+- **Revisions**: residual value and useful life are reviewed at each reporting date. Any change is applied **prospectively** under IAS 16.61 — never retrospectively.
+- **Land**: has an unlimited useful life and is not depreciated, except where it is being depleted, such as a quarry site.
 
-Where:
-- **Cost** = purchase price plus directly attributable costs (delivery, installation, site preparation, professional fees).
-- **Residual value** = estimated amount the entity would receive today if the asset were already of the age and condition expected at end of its useful life.
-- **Useful economic life** = the period over which the asset is expected to be used by the entity (not its total physical life).
-
-#### Common Methods
-
-**Straight-line:** `Annual depreciation = (Cost − Residual value) / Useful life`. Produces a constant charge; the straight-line rate = 100% ÷ Useful life. Best for assets that generate benefits evenly (e.g. office buildings, furniture).
-
-**Reducing balance:** `Rate = 1 − (Residual value ÷ Cost)^(1/n)` where n = useful life in years. `Depreciation expense = Carrying amount at start of year × Rate`. The charge is higher in early years and falls as the asset ages; used when benefits decline over time (e.g. vehicles, IT equipment).
-
-**Units of production:** `Depreciation per unit = (Cost − Residual value) / Total estimated units`. Charge = units used in the period × per-unit rate. Suitable where usage varies widely between periods.
-
-#### Exam Patterns (ACCA / CA Pakistan)
-
-Paper F7/F8/FA/FR style questions typically (i) compute the depreciation charge using a chosen method, (ii) show the PPE note split between **cost**, **accumulated depreciation** and **carrying amount**, and (iii) handle a **change in estimate** (useful life or residual value revised) — accounted for **prospectively** under IAS 8, with no restatement.
-
----
+Common traps include treating depreciation as a cash flow, calculating reducing balance on cost instead of carrying amount, and stopping depreciation on a building simply because its market value rose.
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-#### Choice of Method and Pattern of Benefits
+#### Component Accounting and Revaluation
 
-IAS 16 requires the method chosen to **reflect the pattern in which the asset's future economic benefits are consumed**. Straight-line is appropriate for steady use; diminishing balance fits assets more productive early on. Switches between methods are only allowed if the pattern of benefits has genuinely changed; such a switch is treated as a **change in accounting estimate** (IAS 8), applied **prospectively** — not retrospectively.
+When an asset includes components with materially different lives, each part is depreciated independently. On revaluation under IAS 16, accumulated depreciation may be eliminated against the gross carrying amount so that the carrying amount equals the revalued figure; both gross and accumulated depreciation are usually restated in the disclosure note.
 
-#### Revaluation vs Cost Model
+#### Capitalisation vs Expense
 
-Under IAS 16, an entity selects either the **cost model** (carrying amount = cost − accumulated depreciation − impairment) or the **revaluation model** (fair value at revaluation date, less subsequent depreciation and impairment). Under the revaluation model, accumulated depreciation is **eliminated against the gross carrying amount** of the asset, so the asset is shown at a single net revalued amount. Revaluation surplus is credited to OCI and accumulated in equity under **revaluation surplus**, transferred to retained earnings only when the asset is derecognised or used.
+Depreciation is normally charged to profit or loss. However, when PPE is used in constructing another asset, the depreciation on those support assets is capitalised into the cost of the new asset, then depreciated once it is available for use.
 
-#### Land, Components and Held-for-Sale
+#### Worked Example
 
-**Land** normally has an unlimited useful life and is **not depreciated**; only the building is. If an item of PPE is **reclassified as held for sale** under IFRS 5, depreciation **ceases immediately**.
+An item of equipment costs PKR 1,200,000, residual value PKR 200,000, useful life 5 years.
 
-#### Tax vs Accounting Depreciation (Pakistan)
-
-Pakistani tax depreciation falls under the **Sixth Schedule** of the Income Tax Ordinance, 2001, using **block-based** rules and rates that typically differ from the accounting rate. The difference creates a **temporary difference** → recognise a **deferred tax liability or asset** (IAS 12), reversing over the asset's useful life.
+- Straight-line annual charge = (1,200,000 − 200,000) ÷ 5 = PKR 200,000.
+- Reducing balance rate = 1 − (200,000 ÷ 1,200,000)^(1/5) = 1 − (0.1667)^0.2 ≈ 30.6%.
+- Year 1 charge = 1,200,000 × 30.6% = PKR 367,200; carrying amount at year-end = PKR 832,800.
 
 #### Common Mistakes
 
-1. Depreciating land (unless depleted by extraction).
-2. Forgetting to separate components — IAS 16 requires it.
-3. Treating a method change as a prior-period adjustment (it is prospective).
-4. Continuing depreciation on assets classified as held for sale.
-5. Adding depreciation back in the **cash flow statement** (IAS 7 indirect method) — it is a non-cash expense.
+1. Treating depreciation as a cash outflow in cash flow statements.
+2. Calculating reducing balance on cost instead of on the opening carrying amount.
+3. Continuing to depreciate land, or stopping depreciation because market value rose.
+4. Restating changes in useful life or residual value retrospectively rather than prospectively.
 
 #### Practice Prompts
 
-1. A machine cost Rs. 1,200,000, residual value Rs. 200,000, useful life 5 years. Compute annual straight-line depreciation, then the 3rd-year reducing-balance depreciation at a 31.5% rate, and reconcile the carrying amount.
-2. An asset originally estimated life 10 years is reassessed at year-end 4 to 8 years total, residual unchanged. Show the revised depreciation charge going forward under IAS 8.
+1. Calculate the depreciation charge and carrying amount at the end of year 3 using both straight-line and reducing balance methods, given cost PKR 900,000, RV PKR 100,000, life 6 years.
+2. Explain how the component approach changes the depreciation profile of a delivery vehicle whose engine has a 4-year life and whose body has an 8-year life.
+
+## Continue your study
+
+- **[View this topic in your ACCA/CA Pakistan roadmap](/roadmap/?exam=accagl&duration=1mo)** — see where "Depreciation" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=accagl&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[ACCA/CA Pakistan exam overview](/exams/accagl/)** — pattern, eligibility, and syllabus
+- **[All Accounting notes](/notes/accagl/accounting/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

@@ -11,145 +11,87 @@ topicName: Vector Algebra
 weight: 5
 country: india
 generated: "2026-03-24T08:32:07.939326"
-lastUpdated: 2026-03-24
+lastUpdated: "2026-09-07"
 diagramPrompt: "Mathematical diagram showing Vector Algebra concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style"
 
 
 
 
 ---
+
 # Vector Algebra
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Key Definitions:**
-A vector $\vec{v}$ has both magnitude (length) and direction. Unit vector in direction of $\vec{a}$ is $\hat{a} = \frac{\vec{a}}{|\vec{a}|}$. Zero vector $\vec{0}$ has no specific direction.
+A **vector** is a directed quantity carrying both magnitude (length) and direction in 2D or 3D space, distinct from a scalar which has only magnitude. JEE Advanced tests the two product operations above all else.
 
-**Essential Formulas:**
+- **Dot product**: a·b = |a||b|cosθ — gives a scalar; equals 0 when a ⊥ b.
+- **Cross product**: a×b = |a||b|sinθ n̂ — gives a vector whose magnitude is the parallelogram area; direction obeys the right-hand rule.
+- **Scalar triple product** [a b c] = a·(b×c) — equals the signed volume of the parallelepiped; vanishes iff the three vectors are coplanar.
+- **Direction cosines** (l, m, n) satisfy l² + m² + n² = 1; (l, m, n) itself is a unit vector along the same line.
 
-- **Magnitude:** $|\vec{a}| = \sqrt{a_1^2 + a_2^2 + a_3^2}$ for $\vec{a} = a_1\hat{i} + a_2\hat{j} + a_3\hat{k}$
-- **Addition:** Triangle law or parallelogram law
-- **Scalar multiplication:** $k\vec{a}$ scales magnitude by $|k|$, reverses direction if $k < 0$
-- **Dot product:** $\vec{a} \cdot \vec{b} = |\vec{a}||\vec{b}|\cos\theta = a_1b_1 + a_2b_2 + a_3b_3$
-- **Cross product:** $|\vec{a} \times \vec{b}| = |\vec{a}||\vec{b}|\sin\theta$, direction given by right-hand rule
-
-**Scalar Triple Product:** $[\vec{a}\ \vec{b}\ \vec{c}] = \vec{a} \cdot (\vec{b} \times \vec{c}) = \begin{vmatrix} a_1 & a_2 & a_3 \\ b_1 & b_2 & b_3 \\ c_1 & c_2 & c_3 \end{vmatrix}$
-
-⚡ **JEE Tip:** For dot product questions, check if vectors are perpendicular ($\vec{a} \cdot \vec{b} = 0$) or parallel ($\vec{a} \times \vec{b} = \vec{0}$). Cross product magnitude equals area of parallelogram.
-
-⚡ **Common Mistake:** Direction of cross product $\vec{a} \times \vec{b}$ is perpendicular to both — don't confuse with $\vec{b} \times \vec{a}$ (opposite direction).
-
----
+| Operation | Result type | Geometric meaning |
+| --- | --- | --- |
+| a + b | vector | Diagonal of parallelogram |
+| a·b | scalar | |a||b|cosθ, projection test |
+| a×b | vector | Area = |a||b|sinθ, perpendicular by right-hand rule |
+| [a b c] | scalar | Signed volume of parallelepiped |
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> For students who want genuine understanding.
+> Standard content for students with a few days to months.
 
-**Vector Components and Direction Ratios:**
+#### Vectors, Scalars, and Position Representation
 
-A vector $\vec{r} = x\hat{i} + y\hat{j} + z\hat{k}$ has components $x, y, z$ along axes. Direction cosines $l, m, n$ satisfy $l^2 + m^2 + n^2 = 1$ where $l = \frac{x}{|\vec{r}|}$, etc.
+A **position vector** r = (x, y, z) locates a point relative to the origin, with magnitude |r| = √(x² + y² + z²). Its **direction cosines** l = cosα, m = cosβ, n = cosγ are the cosines of the angles r makes with the x-, y-, z-axes, satisfying l² + m² + n² = 1. A **unit vector** has magnitude 1; r̂ = r/|r| converts any vector to its direction.
 
-**Angle Between Two Vectors:**
-$$\cos\theta = \frac{\vec{a} \cdot \vec{b}}{|\vec{a}||\vec{b}|}$$
+#### Addition, Subtraction, and Section Formula
 
-**Projection of One Vector on Another:**
-Projection of $\vec{a}$ on $\vec{b}$ is $\frac{\vec{a} \cdot \vec{b}}{|\vec{b}|}$. The vector projection is $\left(\frac{\vec{a} \cdot \vec{b}}{|\vec{b}|^2}\right)\vec{b}$.
+Vectors add by the **triangle law** (head-to-tail) or **parallelogram law**; subtraction a − b = a + (−b) reverses b first. For points A and B with position vectors a and b, the point dividing AB internally in ratio m:n is r = (mb + na)/(m+n); the external division uses m − n in the denominator and demands m ≠ n.
 
-**Properties of Cross Product:**
+#### Dot and Cross Products
 
-- $\vec{a} \times \vec{b} = -\vec{b} \times \vec{a}$ (anti-commutative)
-- $\vec{a} \times (\vec{b} + \vec{c}) = \vec{a} \times \vec{b} + \vec{a} \times \vec{c}$
-- $|\vec{a} \times \vec{b}|^2 = |\vec{a}|^2|\vec{b}|^2 - (\vec{a} \cdot \vec{b})^2$ (Lagrange's identity)
+The **dot product** is commutative and distributive, with a·a = |a|². It detects perpendicularity (a·b = 0 for non-zero vectors) and gives the scalar projection (a·b̂). The **cross product** is anti-commutative (a×b = −b×a) and distributive over addition. The vector a×b is perpendicular to the plane of a and b; its magnitude equals the parallelogram area.
 
-**Scalar Triple Product Properties:**
-- $[\vec{a}\ \vec{b}\ \vec{c}] = [\vec{b}\ \vec{c}\ \vec{a}] = [\vec{c}\ \vec{a}\ \vec{b}]$ (cyclic permutation)
-- $[\vec{a}\ \vec{b}\ \vec{c}] = -[\vec{b}\ \vec{a}\ \vec{c}]$
-- $|\vec{a}\ \vec{b}\ \vec{c}|$ = volume of parallelepiped with edges $\vec{a}, \vec{b}, \vec{c}$
-- Vectors are coplanar iff $[\vec{a}\ \vec{b}\ \vec{c}] = 0$
+#### Scalar Triple Product and Coplanarity
 
-**Worked Examples:**
+The **scalar triple product** [a b c] = a·(b×c) is the determinant of the 3×3 matrix whose rows (or columns) are a, b, c. It is invariant under cyclic permutation but changes sign on a single swap. Three vectors are **coplanar** iff [a b c] = 0.
 
-*Example 1:* If $|\vec{a}| = 3, |\vec{b}| = 4$ and $\vec{a} \cdot \vec{b} = 6$, find $|\vec{a} \times \vec{b}|$.
+#### Typical JEE Advanced Patterns
 
-Using Lagrange's identity: $|\vec{a} \times \vec{b}|^2 = 9 \times 16 - 36 = 144 - 36 = 108$.
-So $|\vec{a} \times \vec{b}| = \sqrt{108} = 6\sqrt{3}$.
-
-*Example 2:* Find projection of $\vec{a} = \hat{i} + 2\hat{j} + 3\hat{k}$ on $\vec{b} = 4\hat{i} + 4\hat{j} - 7\hat{k}$.
-
-$\vec{a} \cdot \vec{b} = 4 + 8 - 21 = -9$.
-$|\vec{b}| = \sqrt{16 + 16 + 49} = \sqrt{81} = 9$.
-Projection = $-9/9 = -1$.
-
-*Example 3 (JEE 2021):* Find the unit vector perpendicular to $\vec{a} = 2\hat{i} + \hat{j} - \hat{k}$ and $\vec{b} = \hat{i} - \hat{j} + \hat{k}$.
-
-$\vec{a} \times \vec{b} = \begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \\ 2 & 1 & -1 \\ 1 & -1 & 1 \end{vmatrix} = \hat{i}(1-1) - \hat{j}(2+1) + \hat{k}(-2-1) = -3\hat{j} - 3\hat{k} = -3(\hat{j} + \hat{k})$.
-
-$|\vec{a} \times \vec{b}| = 3\sqrt{2}$.
-Unit vector: $\pm \frac{-3(\hat{j} + \hat{k})}{3\sqrt{2}} = \pm \frac{-\hat{j} - \hat{k}}{\sqrt{2}}$.
-
----
+- One **integer-type** question evaluating [a b c] for given vectors.
+- One **MCQ** on perpendicularity or area using dot/cross product properties.
+- Frequent combination with **3D Geometry** lines and planes, or with Physics (work = F·d, torque = r×F).
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive theory for serious JEE Advanced preparation.
+> Comprehensive coverage for students on a longer study timeline.
 
-**Vector Identities:**
+#### Lagrange's Identity and the BAC–CAB Rule
 
-1. $\vec{a} \times (\vec{b} \times \vec{c}) = (\vec{a} \cdot \vec{c})\vec{b} - (\vec{a} \cdot \vec{b})\vec{c}$ (Vector triple product)
-2. $(\vec{a} \times \vec{b}) \cdot (\vec{c} \times \vec{d}) = (\vec{a} \cdot \vec{c})(\vec{b} \cdot \vec{d}) - (\vec{a} \cdot \vec{d})(\vec{b} \cdot \vec{c})$
-3. $(\vec{a} \times \vec{b}) \times \vec{c} = (\vec{b} \cdot \vec{c})\vec{a} - (\vec{a} \cdot \vec{c})\vec{b}$
+**Lagrange's identity** |a×b|² + (a·b)² = |a|²|b|² lets you recover either product from the other and the magnitudes — a quick consistency check. The **vector triple product expansion** (BAC–CAB) states a×(b×c) = b(a·c) − c(a·b), valid only when the parentheses are in this exact order; the outer vector must multiply a cross product. JEE occasionally asks you to simplify nested cross products using this rule.
 
-**Geometrical Applications:**
+#### Worked Micro-Example
 
-- **Area of triangle:** $\frac{1}{2}|\vec{AB} \times \vec{AC}|$
-- **Area of parallelogram:** $|\vec{AB} \times \vec{AC}|$
-- **Volume of tetrahedron:** $\frac{1}{6}|[\vec{AB}\ \vec{AC}\ \vec{AD}]|$
-- **Coplanarity test:** $[\vec{AB}\ \vec{AC}\ \vec{AD}] = 0$
+Let a = (1, 2, 3), b = (0, 1, −1), c = (2, 0, 1). Then a·b = 0 + 2 − 3 = −1, so the angle satisfies cosθ = −1/(√14 · √2) = −1/√28. The cross product b×c = (1·1 − (−1)·0, (−1)·2 − 0·1, 0·0 − 1·2) = (1, −2, −2), giving [a b c] = 1·1 + 2·(−2) + 3·(−2) = −9, so the parallelepiped volume is 9 cubic units.
 
-**Lines and Planes in Vector Form:**
+#### Common Mistakes and Exam Traps
 
-- **Line through** $\vec{a}$ parallel to $\vec{b}$: $\vec{r} = \vec{a} + \lambda\vec{b}$
-- **Plane through** $\vec{a}$ normal to $\vec{n}$: $(\vec{r} - \vec{a}) \cdot \vec{n} = 0$
-- **Distance from point** $\vec{p}$ to line $\vec{r} = \vec{a} + \lambda\vec{b}$: $\frac{|(\vec{p} - \vec{a}) \times \vec{b}|}{|\vec{b}|}$
-- **Angle between lines:** $\sin\theta = \frac{|\vec{b}_1 \times \vec{b}_2|}{|\vec{b}_1||\vec{b}_2|}$ or $\cos\theta = \frac{\vec{b}_1 \cdot \vec{b}_2}{|\vec{b}_1||\vec{b}_2|}$
+- Confusing sinθ with cosθ between dot and cross products — a single sign error flips the answer.
+- Dropping the right-hand orientation, so a×b and b×a are treated identically.
+- Using [a b c] without checking the sign convention; a single vector swap negates the determinant.
+- Treating direction cosines as three independent numbers instead of enforcing l² + m² + n² = 1.
+- Applying BAC–CAB to the wrong bracket order — (a×b)×c requires a different identity.
 
-**Advanced Problem:**
+#### Practice Prompts
 
-*JEE Advanced 2023:* If $\vec{a}, \vec{b}, \vec{c}$ are non-coplanar vectors and $\vec{p} = \frac{\vec{b} \times \vec{c}}{[\vec{a}\ \vec{b}\ \vec{c}]}$, $\vec{q} = \frac{\vec{c} \times \vec{a}}{[\vec{a}\ \vec{b}\ \vec{c}]}$, $\vec{r} = \frac{\vec{a} \times \vec{b}}{[\vec{a}\ \vec{b}\ \vec{c}]}$, prove that:
-$$\vec{a} \cdot \vec{p} = \vec{b} \cdot \vec{q} = \vec{c} \cdot \vec{r} = 1$$
-and
-$$\vec{a} \times \vec{p} = \vec{b} \times \vec{q} = \vec{c} \times \vec{r} = \vec{0}$$
+1. If |a| = 3, |b| = 4, and a·b = 6, find |a×b| and the angle between them.
+2. Show that the four points with position vectors (1, 0, 2), (3, 1, 4), (0, 2, 1), (2, 3, 3) are coplanar, using the scalar triple product.
 
-*Solution:* Since $[\vec{a}\ \vec{b}\ \vec{c}] \neq 0$, the scalar triple product is non-zero.
+## Continue your study
 
-$\vec{a} \cdot \vec{p} = \vec{a} \cdot \frac{\vec{b} \times \vec{c}}{[\vec{a}\ \vec{b}\ \vec{c}]} = \frac{[\vec{a}\ \vec{b}\ \vec{c}]}{[\vec{a}\ \vec{b}\ \vec{c}]} = 1$.
+- **[View this topic in your JEE Advanced roadmap](/roadmap/?exam=jeeadvanced&duration=1mo)** — see where "Vector Algebra" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=jeeadvanced&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[JEE Advanced exam overview](/exams/jeeadvanced/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/jeeadvanced/mathematics/)** — browse sibling topics in this subject
 
-Similarly $\vec{b} \cdot \vec{q} = 1$ and $\vec{c} \cdot \vec{r} = 1$.
-
-Also $\vec{a} \times \vec{p} = \vec{a} \times \frac{\vec{b} \times \vec{c}}{[\vec{a}\ \vec{b}\ \vec{c}]} = \frac{(\vec{a} \cdot \vec{c})\vec{b} - (\vec{a} \cdot \vec{b})\vec{c}}{[\vec{a}\ \vec{b}\ \vec{c}]}$.
-
-But this requires using the vector triple product expansion.
-
-Note that $\vec{p}$ is defined as $\vec{b} \times \vec{c} / [\vec{a}\ \vec{b}\ \vec{c}]$, which is a reciprocal vector. These three vectors $\vec{p}, \vec{q}, \vec{r}$ form the reciprocal system to $\vec{a}, \vec{b}, \vec{c}$. One can verify directly that $\vec{a} \times \vec{p} = \vec{0}$ would imply $\vec{a}$ and $\vec{p}$ are parallel, but $\vec{p}$ is perpendicular to $\vec{b}$ and $\vec{c}$, while $\vec{a}$ need not be parallel to that direction generally, so this seems to be a trick statement to check.
-
-Actually, by definition of reciprocal vectors: $\vec{a} \cdot \vec{p} = 1$ and $\vec{a} \times \vec{p}$ is perpendicular to $\vec{a}$, but the problem statement is asking us to prove it equals zero, which is only true for the specific construction.
-
-Looking more carefully: If $\vec{p} = \frac{\vec{b} \times \vec{c}}{[\vec{a}\ \vec{b}\ \vec{c}]}$, then $\vec{a} \times \vec{p} = \frac{\vec{a} \times (\vec{b} \times \vec{c})}{[\vec{a}\ \vec{b}\ \vec{c}]}$.
-Using the BAC-CAB rule: $\vec{a} \times (\vec{b} \times \vec{c}) = \vec{b}(\vec{a} \cdot \vec{c}) - \vec{c}(\vec{a} \cdot \vec{b})$.
-
-So $\vec{a} \times \vec{p} = \frac{\vec{b}(\vec{a} \cdot \vec{c}) - \vec{c}(\vec{a} \cdot \vec{b})}{[\vec{a}\ \vec{b}\ \vec{c}]}$.
-
-This is not zero in general. The problem likely meant $\vec{b} \times \vec{q} = \vec{c} \times \vec{r} = \vec{0}$ or there may be a specific condition on $\vec{a}, \vec{b}, \vec{c}$.
-
-For general non-coplanar vectors, these reciprocal relations hold:
-$\vec{a} \cdot \vec{p} = 1$, $\vec{b} \cdot \vec{q} = 1$, $\vec{c} \cdot \vec{r} = 1$ (proved above).
-But also $\vec{a} \cdot \vec{q} = \vec{a} \cdot \vec{r} = 0$, $\vec{b} \cdot \vec{p} = \vec{b} \cdot \vec{r} = 0$, $\vec{c} \cdot \vec{p} = \vec{c} \cdot \vec{q} = 0$.
-
-**JEE Advanced Patterns (2018–2024):**
-- Questions combining vector algebra with 3D geometry are extremely common
-- Reciprocal system of vectors appears periodically
-- Min/max problems using scalar triple product come up in 2022, 2024
-- Line-plane and plane-plane angle questions use dot/cross product formulas
-- Vector moment problems (torque) often tested with cross product
-
----
-*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

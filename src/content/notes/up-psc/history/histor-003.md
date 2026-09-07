@@ -8,7 +8,7 @@ topicName: Modern Indian History
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-07"
 ---
 
 # Modern Indian History
@@ -16,72 +16,69 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Modern Indian History** — Key Facts for UPPSC PCS
-Core concept: Modern India (1857–1947) covers the British Raj, freedom movement, and the path to independence — a high-weightage area in UPPSC PCS Prelims and Mains (GS Paper I/II).
-High-yield point: Lord Curzon's partition of Bengal (1905), Gandhi's movements (Non-Cooperation 1920, Civil Disobedience 1930, Quit India 1942), and the Cabinet Mission Plan are most frequently asked. Role of Raja Ram Mohan Roy, Bal Gangadhar Tilak, Lala Lajpat Rai, and Subhas Chandra Bose also repeatedly appear.
+Modern Indian History for UPPSC PCS begins with the decline of the Mughal Empire after Aurangzeb (1707) and the rise of regional successor states like Hyderabad, Awadh, and the Marathas. British ascendancy follows through three stages: East India Company's trading foothold (1612–1757), territorial conquest (Plassey 1757, Buxar 1764), and Crown Rule after 1858. The 1857 Revolt is the watershed that ends Company rule and starts the British Raj under a Viceroy.
+
+- **Gandhian movements** to memorise in sequence: **Non-Cooperation (1920–22)** → **Civil Disobedience / Dandi March (1930)** → **Quit India (8 August 1942)**.
+- **Three land revenue systems**: Permanent Settlement (1793, Cornwallis), Ryotwari (Munro), Mahalwari (Holt Mackenzie).
+- **High-yield dates**: Partition of Bengal 1905 (Curzon) / annulled 1911 (Hardinge); Jallianwala Bagh 13 April 1919; Lahore Session 1929 (Purna Swaraj); INA Red Fort Trials 1945–46; Mountbatten Plan 3 June 1947.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Modern Indian History** — UPPSC PCS Study Guide
-Overview: Modern Indian History for UPPSC PCS focuses on the British period in India, anti-colonial movements, socio-religious reform, and the independence struggle with special emphasis on Uttar Pradesh's role.
-Core principles:
-- **British Policies:** Revenue settlements (Permanent, Ryotwari, Mahalwari), 1857 Revolt, Queen's Proclamation 1858
-- **Reform Movements:** Brahmo Samaj, Arya Samaj, Ramakrishna Mission, Aligarh Movement — founders, year, and contributions
-- **Freedom Movement Phases:** Moderate phase (1885–1905), Extremist phase (1905–1920), Gandhian era (1920–1947)
-- **Key Events:** Champaran Satyagraha 1917, Jallianwala Bagh 1919, Simon Commission 1927, Round Table Conferences, Poona Pact 1932, Cripps Mission 1942
-- **Leaders:** Gandhi, Nehru, Patel, Bose, Azad, Bhagat Singh, Rajendra Prasad — their roles and ideologies
-- **UP Connection:** Lucknow Session 1916 (Lucknow Pact), Rae Bareli's association with Indira Gandhi, Gorakhpur's freedom fighters
+#### British Conquest and Land Revenue
+The British East India Company used **Subsidiary Alliance** (Wellesley, 1798 onward) to subordinate Indian rulers without direct warfare, and the **Doctrine of Lapse** (Dalhousie, 1848–56) to annex states like Satara, Jhansi, and Nagpur on grounds of "lapsed" adoption. Dadabhai Naoroji quantified exploitation through the **Drain of Wealth** theory in *Poverty and Un-British Rule in India* (1876).
 
-Key points: Distinguish between the approaches of Moderates (constitutional methods) and Extremists (direct action). Remember causes and consequences of each movement. Focus on UP-specific freedom fighters and events.
-Study strategy: Use Bipan Chandra's *India's Struggle for Independence* for theory. Complement with Spectrum's *A Brief History of Modern India* for quick revision. Practice UPPSC previous year questions from this section.
+#### Key Governor-Generals and Reforms
+
+| Governor-General | Tenure | Landmark Reform |
+| --- | --- | --- |
+| Lord Cornwallis | 1786–93, 1805 | Permanent Settlement 1793; codified criminal law |
+| Lord Bentinck | 1828–35 | Abolition of Sati (1829), Widow Remarriage Act 1856 |
+| Lord Dalhousie | 1848–56 | Railways, telegraph, postal, Doctrine of Lapse |
+| Lord Curzon | 1899–1905 | Partition of Bengal 1905; Archaeological Survey |
+| Lord Hardinge | 1910–16 | annulment of Bengal Partition 1911 |
+
+#### Phases of the Indian National Congress
+1. **Moderates (1885–1905)**: constitutional methods; leaders Naoroji, Gokhale, W.C. Bonnerjee (first president).
+2. **Extremists (1905–1918)**: Swadeshi & Boycott; Tilak, Bipin Chandra Pal, Lala Lajpat Rai ("Lal-Bal-Pal"); Surat Split 1907.
+3. **Gandhian (1919–1947)**: mass movements, Salt March 12 March 1930, Quit India 8 August 1942 (Bombay session, President Maulana Abul Kalam Azad).
+4. **Revolutionaries**: Khudi Ram Bose, Bhagat Singh, Surya Sen, Rash Behari Bose.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-**Modern Indian History** — Comprehensive UPPSC PCS Notes
-Full coverage: Detailed chronological and thematic study of Modern India (1857–1947)
+#### Acts and Constitutional Benchmarks
+UPPSC regularly tests the Charter Acts and Government of India Acts. The 1858 Act transferred power from Company to Crown and created the office of Viceroy (first: Lord Canning). The Morley-Minto Reforms 1909 introduced separate electorates for Muslims, institutionalising communal politics that culminated in the **Lahore Resolution (23 March 1940)** by the Muslim League demanding Pakistan.
 
-**Section 1: British Rule and Administration**
-- 1857 Revolt: causes, leaders (Mangal Pandey, Begum Hazrat Mahal, Bahadur Shah Zafar), nature, consequences
-- Crown rule: 1858–1947, changes from Company rule
-- Viceroys: Canning, Lytton, Ripon, Curzon, Minto, Hardinge, Wavell, Mountbatten — significant actions
+| Act / Event | Year | Key Feature |
+| --- | --- | --- |
+| Regulating Act | 1773 | First step to centralise EIC administration |
+| Pitt's India Act | 1784 | Dual control — Board of Control + Court of Directors |
+| Government of India Act | 1919 | Dyarchy at provinces |
+| Communal Award | 1932 | Separate electorates for Depressed Classes (Ramsay Macdonald) |
+| Poona Pact | 1932 | Ambedkar–Gandhi agreement; reserved seats, joint electorate |
+| Cabinet Mission | 1946 | Three-tier federal plan; rejected by Jinnah |
+| Indian Independence Act | 1947 | 18 July 1947; created India and Pakistan |
 
-**Section 2: Socio-Religious Reform (19th Century)**
-- Raja Ram Mohan Roy (Brahmo Samaj), Dayananda Saraswati (Arya Samaj), Swami Vivekananda (Ramakrishna Mission)
-- Sir Syed Ahmed Khan (Aligarh Movement) — Muhammadan Educational Conference 1886
--Jyotirao Phule (Satanic Society), Naamdar Telugu
+#### Partition Sequence and INA
+The Cabinet Mission (March 1946) proposed a united India with provincial grouping; Jinnah's withdrawal and **Direct Action Day (16 August 1946)** triggered the Great Calcutta Killing. Mountbatten replaced Wavell in March 1947 and announced the **3 June 1947 Plan**, advancing the date. The Indian National Army under **Subhas Chandra Bose**, formed from POWs in Singapore (Feb 1942), reached Imphal in 1944; the **Red Fort Trials (Nov 1945–May 1946)** of Shah Nawaz, Prem Kumar, and Gurbaksh Singh electrified Indian opinion and accelerated British withdrawal.
 
-**Section 3: Nationalist Movement**
-- Indian National Congress: founded 1885, first session Bombay, W.C. Banerjee
-- Moderates (1885–1905): Retrenchment, economic critique, political education — Gopal Krishna Gokhale
-- Extremists (1905–1920): Swadeshi, Boycott, Self-reliance — Lala Lajpat Rai, Bal Gangadhar Tilak, Bipin Chandra Pal
-- Gandhi's methods: Satyagraha, Non-Violence, Truth — Champaran, Kheda, Ahmedabad
+#### Practice Prompts
+1. Distinguish Subsidiary Alliance (Wellesley) from Doctrine of Lapse (Dalhousie) with two annexed states for each.
+2. Explain why the Cabinet Mission Plan failed despite initial Congress–League acceptance.
 
-**Section 4: Gandhi-Era Movements**
-- Non-Cooperation Movement 1920: boycott of schools, courts, foreign goods; Chauri Chaura incident 1922
-- Civil Disobedience Movement 1930: Dandi March, Salt Satyagraha, various provincial movements
-- Round Table Conferences 1930–32: London; Poona Pact — communal electorate revised
-- Quit India Movement 1942: 'Do or Die' — arrests, Bhima Ambedkar, Aruna Asaf Ali
-- INA and Subhas Chandra Bose: Azad Hind Fauj, INA trials 1945–46
+---
 
-**Section 5: Partition and Independence**
-- Muslim League demand: Lahore Resolution 1940, direct action day 1946
-- Interim Government 1946: Jawaharlal Nehru as Vice-President
-- Mountbatten Plan 1947: June 3 Plan, Partition, Independence August 15, 1947
-- Constitution making: Objective Resolution by Nehru, Constituent Assembly
+## Continue your study
 
-Problem-solving strategies and common mistakes to avoid:
-- Avoid confusingModerate and Extremist methods — UPPSC frequently tests this distinction
-- Don't neglect UP-specific freedom fighters and local events (e.g., double cremation case, UP's role in 1857)
-- Remembering Viceroys in order: focus on their landmark actions, not just names
-- Don't confuse the years of movements — dates like 1919 (Jallianwala Bagh), 1942 (Quit India), 1947 (Independence) are high-yield
-
-Practice: Attempt previous year UPPSC PCS Prelims and Mains questions on Modern Indian History. Revise through mind-maps of the freedom movement timeline.
+- **[View this topic in your UPPSC PCS roadmap](/roadmap/?exam=up-psc&duration=1mo)** — see where "Modern Indian History" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=up-psc&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UPPSC PCS exam overview](/exams/up-psc/)** — pattern, eligibility, and syllabus
+- **[All History notes](/notes/up-psc/history/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

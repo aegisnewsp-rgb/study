@@ -8,7 +8,7 @@ topicName: "Acids, Bases and Ionic Equilibrium"
 weight: 4
 country: pakistan
 generated: "2026-03-24T08:32:08.057340"
-lastUpdated: 2026-03-24
+lastUpdated: "2026-09-07"
 diagramPrompt: "Clear scientific diagram of Acids, Bases and Ionic Equilibrium with atom labels, molecular structure, reaction arrows, white background, color-coded bonds and groups, exam textbook style"
 
 
@@ -18,106 +18,91 @@ diagramPrompt: "Clear scientific diagram of Acids, Bases and Ionic Equilibrium w
 # Acids, Bases and Ionic Equilibrium
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your ECAT exam.
+> Rapid summary for last-minute revision before your exam.
 
-Acids and bases are fundamental to chemistry and appear frequently in the ECAT. The **Arrhenius theory** defines an acid as a substance that produces H⁺ ions in aqueous solution, while a base produces OH⁻ ions. However, the more broadly applicable **Brønsted–Lowry theory** describes an acid as a proton (H⁺) donor and a base as a proton acceptor. Conjugate acid–base pairs are related by the transfer of a single proton: for example, HCl donates a proton to become Cl⁻, where HCl/Cl⁻ is a conjugate pair.
+- **Arrhenius:** acids release H⁺, bases release OH⁻ in water.
+- **Brønsted–Lowry:** acids donate H⁺, bases accept H⁺; each pair is a *conjugate pair*.
+- **Lewis:** acids accept an electron pair, bases donate one (covers non-proton systems).
+- **Strong vs weak:** strong electrolytes dissociate fully (α ≈ 1); weak electrolytes partially, governed by **Ka** or **Kb**.
+- **Water autoprotolysis:** Kw = [H⁺][OH⁻] = 1.0 × 10⁻¹⁴ at 25 °C.
+- **pH scale:** pH = –log[H⁺]; pH + pOH = 14 at 25 °C; acidic < 7, neutral = 7, basic > 7.
+- **Ostwald dilution law:** for a weak acid, α = √(Ka/C) when α ≪ 1.
 
-The **strength of an acid** is measured by its acid dissociation constant, Kₐ. For the general reaction:
+| Quantity | Formula | Units |
+| --- | --- | --- |
+| Kw | [H⁺][OH⁻] | mol²/L² |
+| pH | –log[H⁺] | dimensionless |
+| α (weak acid) | √(Ka/C) | dimensionless |
 
-$$\text{HA} \rightleftharpoons \text{H}^+ + \text{A}^-$$
-
-$$K_a = \frac{[\text{H}^+][\text{A}^-]}{[\text{HA}]}$$
-
-Stronger acids have larger Kₐ values. pKₐ = −log₁₀(Kₐ). For weak acids like acetic acid (CH₃COOH), Kₐ ≈ 1.8 × 10⁻⁵ at 25 °C. The **pH** of a solution is defined as pH = −log₁₀[H⁺], and is central to ECAT calculations.
-
-**Key formulas to memorise:**
-- pH + pOH = 14 (at 25 °C)
-- pH = pKₐ + log₁₀([A⁻]/[HA]) — Henderson–Hasselbalch equation
-- Kₐ × Kᵦ = Kᵥ (for conjugate acid–base pairs in water)
-- [H⁺] = √(Kₐ × C) for a weak acid of concentration C
-
-**⚡ ECAT exam tips:**
-- Questions on pH calculations are extremely common — practise [H⁺] from Kₐ and vice versa
-- The Henderson–Hasselbalch equation appears almost every year; memorise it in the ratio form
-- For buffer problems, identify the conjugate pair and apply the ratio formula
-- Common mistake: confusing Kₐ with K_b — remember they multiply to 10⁻¹⁴ only for conjugate pairs in water
-- A buffer resists pH change; its capacity is highest when [acid] = [conjugate base], i.e., pH = pKₐ
+**High-yield for ECAT:** master pH from Ka/C, the Henderson–Hasselbalch buffer pH, and salt hydrolysis direction — three MCQs almost every paper.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> For ECAT students who want genuine understanding of acid–base chemistry.
+> Standard content for students with a few days to months.
 
-**The Brønsted–Lowry Framework**
+#### Acid–Base Definitions in Depth
 
-Beyond Arrhenius, the Brønsted–Lowry definition encompasses reactions in non-aqueous solvents and even gas-phase acid–base behaviour. When ammonia (NH₃) dissolves in water, it accepts a proton from water, forming NH₄⁺ and OH⁻. Water itself is **amphiprotic** — it can act as both an acid and a base depending on the partner.
+Arrhenius restricts acids and bases to aqueous H⁺ and OH⁻ producers. Brønsted–Lowry generalises this to proton transfer: HA + B ⇌ A⁻ + BH⁺, where HA/A⁻ and B/BH⁺ are two conjugate pairs. Lewis goes further, defining acids as electron-pair acceptors (e.g., BF₃, AlCl₃) and bases as donors (NH₃, H₂O). ECAT MCQs often ask you to identify conjugate pairs in a written reaction or pick the Lewis acid from a list.
 
-Strength in acids follows a clear periodic trend: electronegativity increases across a period, making the H–X bond more polar and the hydrogen more acidic. Down a group, the bond becomes longer and weaker, also increasing acidity. Hence HI > HBr > HCl > HF despite fluorine being most electronegative — bond dissociation energy dominates here.
+#### Dissociation Constants and pH of Weak Acids
 
-**Ionic Equilibrium of Weak Acids and Bases**
+For HA ⇌ H⁺ + A⁻, Ka = [H⁺][A⁻]/[HA]. A larger Ka means a stronger acid. When α is small, [H⁺] ≈ Cα and [HA] ≈ C, so Ka ≈ Cα², giving the working expression α = √(Ka/C) and [H⁺] = √(Ka·C). ECAT numericals give Ka and C; you solve for pH in three lines. The same pattern holds for weak bases using Kb and [OH⁻].
 
-For a weak base B reacting with water:
+| Scenario | Working equation | Resulting pH form |
+| --- | --- | --- |
+| Strong acid, conc. C | [H⁺] = C | pH = –log C |
+| Weak acid, conc. C | [H⁺] = √(Ka·C) | pH = ½(pKa – log C) |
+| Strong base, conc. C | [OH⁻] = C | pH = 14 + log C |
+| Weak base, conc. C | [OH⁻] = √(Kb·C) | pH = 14 – ½(pKb – log C) |
 
-$$\text{B} + \text{H}_2\text{O} \rightleftharpoons \text{BH}^+ + \text{OH}^-$$
+#### Buffers and the Henderson–Hasselbalch Equation
 
-$$K_b = \frac{[\text{BH}^+][\text{OH}^-]}{[\text{B}]}$$
+A buffer pairs a weak acid with its conjugate base (or weak base with conjugate acid). Its pH is pH = pKa + log([A⁻]/[HA]). The equation stays accurate when the ratio [A⁻]/[HA] lies between 0.1 and 10; outside that window, the buffer capacity collapses. ECAT frequently tests buffer preparation: choose the weak acid whose pKa is closest to the desired pH.
 
-The **degree of ionisation (α)** relates to Kₐ/K_b and concentration. For a weak acid: α = √(Kₐ/C). This approximation holds when C/Kₐ > 100 (i.e., the acid is sufficiently dilute or weak enough).
-
-**Salt Hydrolysis**
-Salts of weak acids and strong bases produce basic solutions. For sodium acetate (CH₃COONa): CH₃COO⁻ + H₂O ⇌ CH₃COOH + OH⁻. The pH is given by:
-
-$$[\text{OH}^-] = \sqrt{\frac{K_w \cdot C}{K_a}}$$
-
-Salts of strong acids and weak bases (e.g., NH₄Cl) produce acidic solutions. Salts of both strong acids and bases (e.g., NaCl) are neutral.
-
-**Common Student Mistakes:**
-1. Using Kₐ directly when the acid is too strong (strong acids fully dissociate; Kₐ is irrelevant)
-2. Forgetting that dilution shifts the pH toward 7 (pure water) — a 10× dilution of a weak acid does not halve [H⁺]
-3. Applying the weak acid approximation α = √(Kₐ/C) when C is too high or Kₐ too large
+- **Common ion effect:** adding a salt that shares an ion (e.g., NaA to HA) suppresses α of the weak electrolyte.
+- **Hydrolysis of salts:** salt of weak acid + strong base → basic; weak base + strong acid → acidic; strong + strong → neutral.
+- **Kh = Kw/Ka** (acidic salt) or **Kw/Kb** (basic salt) gives the hydrolysis constant.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for ECAT and beyond — build complete mastery.
+> Comprehensive coverage for students on a longer study timeline.
 
-**Polyprotic Acids**
+#### Solubility Product and Precipitation
 
-Polyprotic acids (e.g., H₂SO₄, H₃PO₄, H₂CO₃) can donate more than one proton. For H₂SO₄, the first proton dissociates completely (strong acid, Kₐ₁ ≈ 10³), but the second is moderately weak (Kₐ₂ ≈ 1.2 × 10⁻²). In calculations, the first dissociation usually dominates [H⁺]. For phosphoric acid (H₃PO₄): Kₐ₁ = 7.5 × 10⁻³, Kₐ₂ = 6.2 × 10⁻⁸, Kₐ₃ = 4.8 × 10⁻¹³ — each successive Kₐ is roughly 10⁻⁵ times smaller.
+For a sparingly soluble salt like AgCl ⇌ Ag⁺ + Cl⁻, Ksp = [Ag⁺][Cl⁻]. For CaF₂ ⇌ Ca²⁺ + 2F⁻, Ksp = [Ca²⁺][F⁻]² = 4s³ (where s is molar solubility in mol/L). Compare the ionic product Q with Ksp: Q > Ksp precipitates, Q = Ksp saturated, Q < Ksp unsaturated. Stoichiometry matters — never write Ksp = s² for a non-1:1 salt.
 
-**Buffer Systems in Detail**
+#### Worked Example: Buffer pH
 
-Buffers are critical in biological and industrial chemistry. The Henderson–Hasselbalch equation gives exact buffer pH (no approximation) when concentrations are not too low. Buffer capacity — the amount of strong acid or base the buffer can neutralise — is maximised when [acid] = [conjugate base] and increases with total concentration.
+Prepare 0.20 M acetic acid (Ka = 1.8 × 10⁻⁵) with 0.30 M sodium acetate. pKa = –log(1.8 × 10⁻⁵) = 4.74. Apply Henderson–Hasselbalch:
+pH = 4.74 + log(0.30 / 0.20) = 4.74 + log 1.5 = 4.74 + 0.18 = 4.92.
+On adding 0.01 mol HCl to 1 L, [HA] rises by ≈0.01 and [A⁻] falls by ≈0.01, so pH ≈ 4.74 + log(0.29/0.21) = 4.74 + 0.14 = 4.88. The pH moved only 0.04 units — buffer resistance in action.
 
-Real-world buffers relevant to ECAT: the carbonate buffer (HCO₃⁻/H₂CO₃) maintains blood pH at ~7.4. Phosphate buffers (H₂PO₄⁻/HPO₄²⁻) are common in biochemistry. The acetate buffer (CH₃COOH/CH₃COO⁻) is frequently used in laboratory preparations.
+#### Edge Cases and Examiner Traps
 
-**Solubility Equilibrium**
+- **Temperature shifts Kw:** at 50 °C, Kw ≈ 5.5 × 10⁻¹⁴, so neutral pH ≈ 6.63, not 7.
+- **Ka × Kb = Kw** for a conjugate pair, not Ka = Kb.
+- **Indicator choice:** phenolphthalein (range 8.2–10) suits weak acid–strong base; methyl orange (3.1–4.4) suits strong acid–weak base.
+- **Dilution paradox:** diluting a weak acid raises α but lowers [H⁺], so pH rises toward 7.
+- **Kohlrausch’s law:** molar conductivity of a weak electrolyte rises steeply with dilution; strong electrolytes show a linear trend.
 
-For a sparingly soluble salt like AgCl:
+| Common ECAT trap | Correction |
+| --- | --- |
+| Ksp = s² for CaF₂ | Ksp = 4s³ |
+| pH + pOH = 14 at all T | Only at 25 °C |
+| NaCl hydrolyses | It does not — neutral salt |
+| [H⁺] = C for 10⁻⁸ M HCl | Include water auto-ionisation |
 
-$$\text{AgCl (s)} \rightleftharpoons \text{Ag}^+ + \text{Cl}^-$$
+#### Practice prompts:
+1. A 0.050 M weak acid has Ka = 4.0 × 10⁻⁶. Find pH and α.
+2. Will a precipitate form when 200 mL of 0.010 M AgNO₃ is mixed with 300 mL of 0.0050 M NaCl? (Ksp AgCl = 1.8 × 10⁻¹⁰.)
 
-$$K_{sp} = [\text{Ag}^+][\text{Cl}^-] = 1.8 \times 10^{-10} \text{ at } 25^\circ\text{C}$$
+## Continue your study
 
-The **common ion effect** suppresses solubility — adding AgNO₃ (which shares Ag⁺) dramatically reduces the solubility of AgCl. This principle is used in qualitative analysis to separate and identify ions.
+- **[View this topic in your ECAT (Engineering College Admission Test) roadmap](/roadmap/?exam=ecat&duration=1mo)** — see where "Acids, Bases and Ionic Equilibrium" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ecat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[ECAT (Engineering College Admission Test) exam overview](/exams/ecat/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/ecat/chemistry/)** — browse sibling topics in this subject
 
-**Neutralisation Titrations**
-
-In a strong acid–strong base titration, pH changes sharply near the equivalence point (pH = 7). With weak acid–strong base, the equivalence point is above 7 (because the conjugate base hydrolyses). The reverse (weak base–strong acid) gives equivalence below 7. ECAT often asks you to sketch or interpret a titration curve — know the shape and the pH at equivalence for each combination.
-
-**Step-by-step: Solving a buffer problem**
-1. Identify the conjugate acid–base pair
-2. Determine which is the acid (donates H⁺) and which is the base
-3. Write the Henderson–Hasselbalch equation
-4. Convert pKₐ to Kₐ if needed: Kₐ = 10^(-pKₐ)
-5. Substitute concentrations (use initial concentrations; equilibrium shifts are small in buffers)
-6. Solve for [H⁺] or pH
-
-**ECAT Previous Year Patterns:**
-- Calculation of pH from [H⁺] and vice versa: almost every year
-- Henderson–Hasselbalch applications: every 2–3 years
-- Salt hydrolysis and buffer pH: every 2 years
-- Solubility and common ion effect: periodically tested
-- Titration curves (shape, equivalence point pH): frequently tested in JEE Advanced, occasionally in ECAT
-
-*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

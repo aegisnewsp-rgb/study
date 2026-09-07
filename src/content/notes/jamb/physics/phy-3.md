@@ -11,78 +11,101 @@ generated: "2026-04-05T12:00:00.000000"
 diagramPrompt: "Clean educational diagram showing Scalars and Vectors with clear labels, white background, labeled arrows for forces/fields/vectors, color-coded components, exam-style illustration"
 
 
-lastUpdated: "2026-05-26"
+lastUpdated: "2026-09-07"
 ---
 
 # Scalars and Vectors
 
 ### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
 
-- A **scalar** has magnitude only — e.g., mass (5 kg), temperature (30 °C), speed (72 km/h).
-- A **vector** has both magnitude AND direction — e.g., velocity (20 m/s east), force (10 N downward), displacement (8 m at 45°).
-- **Speed is scalar; velocity is vector.** JAMB commonly tests this distinction.
-- **Resultant vector** replaces multiple vectors with one equivalent vector producing the same effect.
-- Key formulas: **Ax = A cos θ** (horizontal component), **Ay = A sin θ** (vertical component), **R = √(Ax² + Ay²)** (resultant magnitude), **tan θ = Ay/Ax** (resultant direction).
-- **Component resolution** splits one vector into two perpendicular parts; this is essential for projectile motion questions.
-- **Parallelogram method** and **head-to-tail method** are the two graphical addition techniques JAMB expects.
-- For equilibrium, **resultant = 0**, meaning all force vectors cancel out completely.
-- JAMB tip: Identify whether a quantity has direction — if yes, it is a vector; if no, it is scalar.
+A **scalar** has magnitude (and a unit) only; a **vector** has magnitude, unit, AND direction. Mass (kg), time (s), speed (m/s), distance (m), work (J), and temperature (K) are scalars. Displacement (m), velocity (m/s), acceleration (m/s²), force (N), momentum (kg·m/s), and electric field (N/C) are vectors.
+
+The **resultant** of two vectors of magnitudes $A$ and $B$ at angle $\theta$:
+
+$$R = \sqrt{A^2 + B^2 + 2AB\cos\theta}$$
+
+Direction: $\tan\alpha = \dfrac{B\sin\theta}{A + B\cos\theta}$, where $\alpha$ is the angle $R$ makes with $A$.
+
+- **Speed vs velocity**: speed is scalar path rate; velocity is vector (direction matters).
+- **Distance vs displacement**: distance is the total path (scalar); displacement is the straight-line start-to-end vector.
+- **Equilibrium**: a body is in equilibrium when the vector sum of all forces acting on it is zero.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-## Scalar vs Vector Quantities
+#### Defining Scalar and Vector Quantities
 
-A scalar quantity is fully described by a numerical value and its unit. Examples include mass, time, temperature, energy, and speed. No spatial orientation is needed to specify a scalar. A vector quantity, by contrast, requires both magnitude and a specified direction — velocity, force, displacement, acceleration, and momentum are all vectors. The arrow notation (**v⃗**) indicates a vector; absence of the arrow indicates a scalar.
+A scalar is fully described by a single number with a unit — mass = 5 kg, time = 30 s, temperature = 300 K. A vector requires three pieces of information: magnitude, unit, and direction. A velocity of "5 m/s" alone is incomplete; you must also state where it points (north, 30° above horizontal, etc.).
 
-## Representation and Addition
+JAMB commonly asks students to classify quantities. Conventional current is a frequent trap: although textbooks draw arrows along a wire, current is a **scalar**, not a vector. Weight (a force due to gravity) is a vector pointing toward Earth's centre.
 
-Vectors are drawn as arrows where the length is proportional to magnitude and the arrowhead points in the direction. Adding vectors requires accounting for direction, not just size. The **parallelogram method** places both vectors tail-to-tail, completing a parallelogram — the diagonal from the junction of tails to the opposite corner gives the resultant. The **head-to-tail method** places the tail of the second vector at the head of the first; the resultant runs from the first tail to the final head. Neither method involves simply adding magnitudes unless vectors are collinear and in the same direction.
+#### Laws of Vector Addition
 
-## Vector Resolution
+Two vectors can be added by the **parallelogram law** (complete the parallelogram, draw the diagonal from the common tail) or the **triangle law** (head-to-tail placement; the closing side is the resultant). For more than two vectors, use the **polygon of vectors**: arrange them head-to-tail in any order and draw the closing vector.
 
-Any vector can be resolved into **horizontal (Ax = A cos θ)** and **vertical (Ay = A sin θ)** components, where θ is measured from the horizontal reference axis. These components are independent and perpendicular. This is the foundation for analyzing projectile motion — the horizontal and vertical components of initial velocity behave separately under gravity.
+#### Resolving Vectors into Components
 
-## Resultant Calculation
+Any vector $A$ making angle $\theta$ with the x-axis splits into perpendicular components:
 
-For perpendicular components: **R = √(Ax² + Ay²)** and **θ = tan⁻¹(Ay/Ax)**. For two vectors at angle θ between them: **R = √(a² + b² + 2ab cos θ)** — this is the law of cosines applied to vector addition.
+$$A_x = A\cos\theta, \qquad A_y = A\sin\theta$$
 
-## Equilibrium
+The magnitude is recovered via $A = \sqrt{A_x^2 + A_y^2}$.
 
-A body in equilibrium has a **zero resultant force**: all force vectors sum to zero. This means opposing forces are equal in magnitude and opposite in direction.
+#### Multiplication of Vectors
+
+| Operation | Formula | Result type | Geometric meaning |
+| --- | --- | --- | --- |
+| Scalar × vector | $k\vec{A}$ | vector | scales magnitude by $\|k\|$; flips direction if $k<0$ |
+| Dot (scalar) product | $\vec{A}\cdot\vec{B}=AB\cos\theta$ | scalar | one vector projected onto the other |
+| Cross (vector) product | $\|\vec{A}\times\vec{B}\|=AB\sin\theta$ | vector | perpendicular to plane of $\vec{A},\vec{B}$ by right-hand rule |
+
+#### Typical JAMB Question Types
+
+- Identify whether a given quantity is scalar or vector.
+- Compute the resultant of two vectors at $30°$, $60°$, $90°$, or $180°$.
+- Resolve a vector along horizontal and vertical axes.
+- State the condition for equilibrium of three coplanar forces.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-## Unit Vectors and Vector Notation
+#### Edge Cases in Resultant Magnitude
 
-A **unit vector** (symbol **î, ĵ, k̂**) has magnitude of exactly 1 and points along a coordinate axis. Any vector **A** can be expressed as **A = Axi + Ayj + Azk**, where Ax, Ay, Az are its scalar components. Unit vectors allow vector algebra to be performed using ordinary scalar arithmetic on each component separately — a powerful simplification JAMB problems often exploit.
+The parallelogram formula gives $R = A + B$ when $\theta = 0°$ (vectors parallel, same direction) and $R = |A - B|$ when $\theta = 180°$ (anti-parallel). Students often assume $R \ge A + B$ is impossible; it is not — the resultant lies in the range $|A-B| \le R \le A+B$. For perpendicular vectors, $R = \sqrt{A^2 + B^2}$, which is the Pythagorean result.
 
-## Angle Conventions and Component Traps
+#### Worked Example
 
-The angle θ in Ax = A cos θ and Ay = A sin θ must be measured from the **horizontal axis** (the reference direction). If the given angle is measured from the vertical, you must convert before applying formulas — using the wrong reference is the most common trigonometric error in vector problems. For a vector in the second quadrant (pointing left and up), cos θ gives a negative horizontal component and sin θ gives a positive vertical component; the signs must be preserved.
+Two forces act on a particle: $\vec{F}_1 = 8\text{ N}$ east, $\vec{F}_2 = 6\text{ N}$ at $60°$ north of east. Find the resultant magnitude and its direction.
 
-## Direction of the Resultant
+Take east as x-axis. Components: $F_{1x}=8$, $F_{1y}=0$; $F_{2x}=6\cos60°=3$, $F_{2y}=6\sin60°=5.196$.
 
-The formula tan θ = Ay/Ax gives the angle the resultant makes with the horizontal, but this angle alone is ambiguous across quadrants. Always check the signs of both Ax and Ay to determine the correct quadrant: if Ax < 0 and Ay > 0, the vector points northwest — θ from the positive x-axis is 180° − tan⁻¹(|Ay/Ax|).
+Resultant components: $R_x = 11\text{ N}$, $R_y = 5.196\text{ N}$. Magnitude: $R = \sqrt{11^2 + 5.196^2} = \sqrt{121 + 27} \approx 12.12\text{ N}$. Direction: $\alpha = \tan^{-1}(5.196/11) \approx 25.3°$ north of east.
 
-## Equality and Equivalence
+#### Common Mistakes and Traps
 
-Two vectors are equal only when they share **identical magnitude AND identical direction**. Parallel vectors with the same magnitude but opposite directions are not equal — they are negatives of each other. This matters when setting up equilibrium equations: a force of 10 N east and a force of 10 N west have a zero resultant only when both are included.
+- Treating current, work, or potential difference as vectors because diagrams show arrows.
+- Forgetting to convert degrees to radians in $\sin/\cos$ — the calculator must be in DEG mode for JAMB numericals, since $\theta$ is given in degrees.
+- Adding scalar components of vectors algebraically without resolving first.
+- Confusing distance with displacement when a body moves in a curve or returns to its starting point (distance > 0; displacement = 0).
 
-## Common Mistakes to Avoid
+#### Practice Prompts
 
-JAMB examiners frequently trap students by presenting speed (scalar) where velocity (vector) is required, or by giving two forces at 90° to each other and expecting the candidate to calculate the resultant using Pythagoras rather than simple addition. Another trap: when a problem asks for the "resultant" of three or more vectors, students sometimes add them sequentially using the wrong angle for intermediate steps. Always resolve all vectors into perpendicular components first, sum all horizontal components and all vertical components separately, then find the single resultant.
+1. A force of 10 N points along the +x axis and another of 7 N points at 120° from it. Find the magnitude and direction of the resultant.
+2. Two vectors $\vec{A} = (3, 4)$ and $\vec{B} = (5, -2)$. Compute $\vec{A}\cdot\vec{B}$ and interpret its sign geometrically.
 
-## Connections to Adjacent Topics
+---
 
-Vector addition underlies **kinematics** (combining velocity components in projectile motion), **dynamics** (net force from multiple forces), and **circular motion** (centripetal force direction is always perpendicular to velocity). In **work and energy**, only the component of force parallel to displacement does work — a direct vector projection concept. Understanding vectors now prevents repeated confusion across these JAMB topics.
+## Continue your study
 
-## Practice Prompts
+- **[View this topic in your JAMB UTME roadmap](/roadmap/?exam=jamb&duration=1mo)** — see where "Scalars and Vectors" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=jamb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[JAMB UTME exam overview](/exams/jamb/)** — pattern, eligibility, and syllabus
+- **[All Physics notes](/notes/jamb/physics/)** — browse sibling topics in this subject
 
-1. Two forces of 6 N and 8 N act on a body at right angles. Calculate the magnitude and direction of the resultant. *(Answer: R = 10 N at tan⁻¹(8/6) ≈ 53.1° from the 6 N force.)*
-2. A projectile is launched at 40 m/s at 37° to the horizontal. Find its horizontal and vertical velocity components. *(Answer: Vx = 40 cos 37° = 32 m/s; Vy = 40 sin 37° = 24 m/s.)*
-
+---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

@@ -8,156 +8,105 @@ topicName: "Ratio, Proportion and Mixtures"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-07"
 ---
 
 # Ratio, Proportion and Mixtures
 
-Ratios and proportions appear in GATE's General Aptitude as standalone questions or as embedded concepts within data interpretation and quantitative comparison problems. The alligation method for mixtures is a high-yield technique that solves problems in seconds.
-
----
-
 ### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
 
-> **Core formulas:**
-> - **Ratio a:b** means a/b. To compare ratios, cross-multiply: a/b vs c/d → compare a×d vs b×c.
-> - **Direct proportion:** As A increases, B increases (a/b = c/d).
-> - **Inverse proportion:** As A increases, B decreases (a × b = constant).
-> - **Alligation (mixture):** Mean price = (Cₐ × Qₐ + C_b × Q_b) / (Qₐ + Q_b)
-> - **Alligation shortcut:** Ratio of quantities = |D − M| : |M − C| where D = dearer price, C = cheaper price, M = mean price.
+A **ratio** compares two same-kind quantities by division (a : b, also written a/b). A **proportion** equates two ratios: a : b = c : d equivalently gives ad = bc. A **mixture** combines ingredients with known quantities or prices, and the mean price P̄ = (Σ pᵢqᵢ) / Σqᵢ.
 
-**⚡ GATE exam tip:** When two solutions of concentrations c₁% and c₂% are mixed, the concentration of the mixture always lies BETWEEN c₁ and c₂. Use this to eliminate impossible answer choices in multiple choice questions.
+The **alligation rule** is the fastest two-component shortcut. Given cheap price p_c, dear price p_d, and mean price P̄, mix in the ratio
 
-**⚡ Quick trick:** If A:B = 2:3 and B:C = 4:5, then A:B:C = 8:12:15 (make B equal: LCM of 3 and 4 = 12).
+> **cheap : dear = (p_d − P̄) : (P̄ − p_c)**
 
-**⚡ Common trap:** In ratio problems, make sure you're comparing the SAME thing. "The ratio of boys to girls is 3:2" and "the ratio of students to teachers is 10:1" involve different units — don't combine them naively.
+For a repeated refill problem, replacement fractions multiply: after n steps with replacement fractions r₁, r₂, …, rₙ, the fraction of original substance left is (1 − r₁)(1 − r₂)…(1 − rₙ).
+
+- **Direct proportion** ↗ quantities rise together (y = kx); **inverse proportion** ↘ product is constant (xy = k).
+- **Componendo–dividendo:** if a/b = c/d, then (a+b)/(a−b) = (c+d)/(c−d).
+- GATE tests this topic through 1-mark MCQs and 2-mark NATs on alligation and successive mixtures, usually solvable in under 3 minutes.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-#### Ratio and Proportion Basics
+#### Core definitions and the proportion theorem
 
-**Ratio a:b** represents the relationship where a = k×a' and b = k×b' for some constant k.
+Two quantities a and b of the same unit form ratio a : b = a/b, a dimensionless number. Equality of two ratios, a : b = c : d, is a proportion; cross-multiplying yields ad = bc. This identity lets you find any one unknown if the other three are given. Ratios scale freely: 3 : 5 = 6 : 10 = 0.6, because dividing a and b by the same number preserves the ratio.
 
-**Key properties:**
-- a:b = na:nb (multiply both terms by same non-zero number)
-- a:b = a/n : b/n (divide both terms by same non-zero number)
-- a:b :: c:d means a/b = c/d (proportion)
+#### Direct, inverse, and compound ratios
 
-**Compound ratio (a:b) × (c:d) = (a×c) : (b×d)**
+In **direct proportion**, y = kx, so doubling x doubles y. In **inverse proportion**, xy = k, so doubling x halves y. Word-problem cues: "more workers, less time" signals inverse; "more speed, more distance (in fixed time)" signals direct. A **compound ratio** of a : b and c : d is ac : bd; the **duplicate ratio** of a : b is a² : b².
 
-**Continued proportion:** a, b, c are in continued proportion if a/b = b/c → b² = ac. Then a:b = b:c.
+| Relation | Formula | Typical cue |
+| --- | --- | --- |
+| Direct | y = kx | "increases with" |
+| Inverse | xy = k | "decreases as … increases" |
+| Compound of a:b, c:d | ac : bd | two effects combined |
+| Componendo–dividendo | (a+b)/(a−b) = (c+d)/(c−d) | given a/b = c/d |
 
-#### Direct and Inverse Proportion
+#### Mean price and the alligation shortcut
 
-**Direct:** x ∝ y → x/y = k (constant). If x₁/y₁ = x₂/y₂.
+When q₁ kg at ₹p₁/kg and q₂ kg at ₹p₂/kg are mixed, the mean price per kg is
 
-**Inverse:** x ∝ 1/y → xy = k (constant). If x₁y₁ = x₂y₂.
+> **P̄ = (p₁q₁ + p₂q₂) / (q₁ + q₂)** (₹/kg)
 
-**GATE Example:** If 12 workers can complete a job in 18 days, how many days will 6 workers take?
-> This is inverse proportion (more workers = fewer days). 12 × 18 = 6 × x → x = **36 days**.
+Alligation rewrites the same weighted mean as a ratio of the two quantities. With p_c < P̄ < p_d, draw a cross and read the diagonals as quantity ratios:
 
-#### Alligation Method (Mixture Rule)
+> **q_c : q_d = (p_d − P̄) : (P̄ − p_c)**
 
-When mixing two ingredients at different prices:
+#### Successive replacement (refill) problems
 
-**Alligation formula:**
-```
-Cheaper price (C) -------- Mean price (M) -------- Dearer price (D)
-Ratio of quantities = (D − M) : (M − C)
-```
+A vessel holds V litres of liquid; a fraction r₁ is drawn out and replaced by another liquid. The fraction of the **original** liquid remaining after one step is (1 − r₁). After n steps with replacement fractions r₁, r₂, …, rₙ, the fraction left is (1 − r₁)(1 − r₂)…(1 − rₙ). Quantities multiply, not add — a common GATE trap.
 
-**Important:** This formula only works when mixing exactly TWO components.
-
-**GATE Example (2020, 1 mark):** In what ratio must a shopkeeper mix rice costing ₹30/kg with rice costing ₹45/kg to get a mixture costing ₹36/kg?
-> Solution: C = 30, D = 45, M = 36.
-> Ratio = (45 − 36) : (36 − 30) = 9 : 6 = **3 : 2**.
-
-#### Mixture Problems with Replacement
-
-When a container has an initial quantity Q of liquid. If you remove x liters and add x liters of water (replacing the removed liquid), after n such operations:
-
-**Remaining liquid** = Q × (1 − x/Q)^n
-
-**GATE Example:** A container has 60 liters of milk. 10 liters are removed and replaced by water. This is done 3 times. How much milk remains?
-> Solution: After 1st: 60 × (50/60) = 50L. After 2nd: 50 × (50/60) = 41.67L. After 3rd: 41.67 × (50/60) = **34.72L** (approx).
-
-#### Proportional Division
-
-If a quantity needs to be divided in ratio a:b:c:
-- First part = Total × a/(a+b+c)
-- Second part = Total × b/(a+b+c)
-- Third part = Total × c/(a+b+c)
-
-#### Age Ratio Problems
-
-Age ratio problems are popular in GATE. Key: **difference of ages remains constant**.
-
-If ages are in ratio a:b now, and after T years the ratio becomes c:d:
-- Let current ages be ax and bx
-- (ax + T)/(bx + T) = c/d → solve for x
-
-**GATE Example:** The ratio of ages of A and B is 3:5. After 8 years, it becomes 5:7. Find their current ages.
-> Solution: (3x+8)/(5x+8) = 5/7 → 7(3x+8) = 5(5x+8) → 21x+56 = 25x+40 → 4x = 16 → x = 4. Ages: **12 and 20**.
+Common slip-ups:
+- Mixing unit prices (₹/kg with ₹/L) without converting to a common denominator.
+- Treating ratio a : b as the fraction a/(a+b) instead of a/b.
+- Adding replacement fractions instead of multiplying them.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-#### Weighted Average (More Than Two Groups)
+#### Mechanism behind alligation
 
-When mixing more than two groups:
-**Mean = (Σ wᵢ × xᵢ) / Σ wᵢ**
+Alligation is a graphical weighted-mean construction. If p_c and p_d are the two prices, any mixture with mean P̄ between them must satisfy P̄ = (p_c q_c + p_d q_d)/(q_c + q_d). Solving for the ratio q_c : q_d gives the cross-diagonal rule. Extend to three or more ingredients by repeated pairing: combine two ingredients via alligation to get a virtual mean, then alligate that virtual mean with the third. Always keep p_c < P̄ < p_d; otherwise the problem is infeasible or the mean lies outside the range.
 
-Where wᵢ = weight/quantity of group i, xᵢ = value/concentration of group i.
+#### Successive mixture — the multiplicative law
 
-**GATE Advanced Example:** Three qualities of wheat costing ₹20, ₹28, and ₹35 per kg are mixed in the ratio 2:3:5. Find the price of the mixture per kg.
-> Solution: (2×20 + 3×28 + 5×35) / (2+3+5) = (40 + 84 + 175) / 10 = 299/10 = **₹29.90/kg**.
+For a vessel of initial volume V₀ and original concentration C₀, after one replacement of fraction r₁ the original-substance amount is V₀ C₀ (1 − r₁). After n independent replacements the original-substance fraction is
 
-#### Alligation with Three or More Components
+> **f_n = (1 − r₁)(1 − r₂) ⋯ (1 − rₙ)**
 
-For three components, pair up strategically or use weighted average directly:
-1. Find the overall mean
-2. Check if it lies between the extreme values
-3. For three concentrations c₁, c₂, c₃ and quantities q₁, q₂, q₃, the overall concentration = weighted average
+A 40-litre vessel, 80% acid, replaces 25% thrice. Original acid left = 40 × 0.8 × (0.75)³ = 40 × 0.8 × 0.421875 = **13.5 L**. Successive fractions multiply even when r₁ = r₂ = r₃; three equal replacements of 25% are not "75% replaced" but (0.75)³ ≈ 42.2% remaining.
 
-#### Equation of Proportion
+#### Worked example (GATE-style NAT)
 
-If a/b = c/d = e/f = k, then:
-- a + c + e = k(b + d + f)
-- (a − c)/(b − d) = k (provided denominators non-zero)
+Mix 12 kg of rice at ₹40/kg with 8 kg at ₹55/kg. Find the mean price. Mean = (12·40 + 8·55)/(12 + 8) = (480 + 440)/20 = 920/20 = **₹46/kg**. Cross-check via alligation: cheap : dear = (55 − 46) : (46 − 40) = 9 : 6 = 3 : 2, matching the given 12 : 8.
 
-This is useful in GATE problems involving proportional division with unknowns.
+| Concept | Key check |
+| --- | --- |
+| Alligation sign | cheap share ∝ (p_d − P̄) |
+| Refill law | remaining = product of (1 − rᵢ) |
+| Componendo | (a+b) : (a−b) given a/b = c/d |
 
-#### Work and Time via Proportion
+> Exam tip: in NAT questions, enter the mean price to two decimals unless the paper specifies otherwise; double-check that p_c < P̄ < p_d before writing the alligation ratio.
 
-If A can do a work in x days, and B can do it in y days, working together they complete 1/x + 1/y of work per day → time = xy/(x+y) days.
-
-This is mathematically equivalent to parallel resistance in circuits — an interesting cross-subject connection for GATE.
-
-#### Compound Proportions
-
-If A:B = p:q and B:C = r:s, then A:C = (p×r) : (q×s). But **for combining ratios, you need B to be the same first**.
-
-**GATE Example:** If P:Q = 2:3, Q:R = 4:5, and R:S = 6:7, find P:S.
-> Solution: Make Q consistent first. P:Q = 2:3 = 8:12 and Q:R = 4:5 = 12:15, so P:Q:R = 8:12:15. Now bring in R:S = 6:7 by making R consistent: scale P:Q:R by 2 to get 16:24:30, and scale R:S = 6:7 to R = 30, i.e. 30:35. Therefore P:Q:R:S = 16:24:30:35, giving **P:S = 16:35**.
-
-#### Percentage from Ratio
-
-Converting ratio to percentage: a:b means a/(a+b) × 100% and b/(a+b) × 100%.
-
-**GATE Example:** In a class, the ratio of boys to girls is 7:5. What percentage of the class are girls?
-> Total parts = 12. Girls = 5/12 × 100 = **41.67%**.
-
-#### Pipes and Cisterns (Rate-based Proportion)
-
-This topic bridges ratios and time-work:
-- Pipe A fills in x hours → rate = 1/x per hour
-- Pipe B fills in y hours → rate = 1/y per hour
-- Together: 1/x + 1/y per hour → time = xy/(x+y)
-
-If a leak exists (emptying at z hours): net rate = 1/x + 1/y − 1/z.
+Practice prompts:
+1. A 60-litre solution is 40% alcohol. 15 L is drawn out and replaced by water twice. Find the final alcohol percentage.
+2. Tea costing ₹280/kg and ₹320/kg are mixed in ratio 3 : 2. At what price must the mixture be sold for a 20% profit?
 
 ---
+
+## Continue your study
+
+- **[View this topic in your GATE roadmap](/roadmap/?exam=gate&duration=1mo)** — see where "Ratio, Proportion and Mixtures" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=gate&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[GATE exam overview](/exams/gate/)** — pattern, eligibility, and syllabus
+- **[All General Aptitude notes](/notes/gate/general-aptitude/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

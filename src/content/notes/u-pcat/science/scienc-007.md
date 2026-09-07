@@ -8,62 +8,73 @@ topicName: Mendel's Two Laws
 weight: 3
 country: philippines
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-25"
+lastUpdated: "2026-09-07"
 ---
 
 # Mendel's Two Laws
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+> Rapid summary for last-minute revision before your UPCAT Science subtest.
 
-**Heredity** is the passing of traits from parents to offspring through **genes**, which are segments of **DNA** located on **chromosomes**. Each gene has two forms called **alleles** — one inherited from each parent. A **dominant** allele (written with a capital letter, e.g., *A*) masks a **recessive** allele (lowercase, *a*). The **genotype** is the genetic makeup (*AA*, *Aa*, *aa*); the **phenotype** is the observable trait. **Homozygous** individuals carry two identical alleles (*AA* or *aa*); **heterozygous** individuals carry two different alleles (*Aa*). Sex-linked traits sit on the **X chromosome**, so they appear more often in males (XY) than females (XX). Memorize: incomplete dominance blends traits (red × white → pink), while **codominance** shows both traits at once (AB blood type).
+Gregor Mendel's pea plant (*Pisum sativum*) experiments gave genetics its two foundational rules. The **Law of Segregation** states that the two alleles of a gene separate during meiosis, so each gamete carries only one allele. The **Law of Independent Assortment** states that genes on different chromosomes are distributed to gametes independently of each other.
 
----
+- **Monohybrid F2 cross** (Aa × Aa): phenotype ratio **3:1**, genotype ratio **1:2:1** (AA : Aa : aa).
+- **Dihybrid F2 cross** (AaBb × AaBb): phenotype ratio **9:3:3:1** when the two genes assort independently.
+- **Test cross** with a homozygous recessive (aa) reveals whether a dominant-phenotype parent is AA or Aa.
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+> Standard content for students with a few days to months of preparation.
 
-#### Mendel's Two Laws
-Gregor Mendel established two foundational principles still used today. The **Law of Segregation** states that during meiosis, the two alleles for a trait separate so that each gamete (sperm or egg) carries only one allele. The **Law of Independent Assortment** states that alleles of different genes are distributed to gametes independently of one another — which is why a Punnett square for two traits (dihybrid cross) yields the classic **9:3:3:1** phenotypic ratio.
+#### Definitions You Must Know
 
-#### Dominance Patterns
-Three patterns govern how alleles express:
-- **Complete dominance**: the dominant allele fully masks the recessive one. A *Tt* (heterozygous) tall pea plant looks identical to a *TT* plant.
-- **Incomplete dominance**: heterozygotes show a blended intermediate phenotype — crossing a red (*RR*) snapdragon with a white (*WW*) one gives pink (*RW*) offspring.
-- **Codominance**: both alleles are fully and simultaneously expressed in the heterozygote, as in the **ABO blood group system** where *I^A I^B* produces type AB blood with both A and B antigens on red blood cells.
+An **allele** is an alternative form of a gene. A **homozygous** individual carries two identical alleles (AA or aa); a **heterozygous** individual carries two different alleles (Aa). The **genotype** is the allele combination, while the **phenotype** is the observable trait. **Dominant** alleles mask **recessive** ones in heterozygotes, but both alleles remain physically intact and segregate unchanged into gametes — this is called *particulate inheritance*.
 
-#### DNA, RNA, and Gene Expression
-**DNA** (deoxyribonucleic acid) is the double-helix molecule that stores genetic information using four bases: **adenine (A)**, **thymine (T)**, **guanine (G)**, and **cytosine (C)**. A pairs with T; G pairs with C. **RNA** is single-stranded and uses **uracil (U)** instead of thymine. Protein synthesis occurs in two stages: **transcription** (DNA is copied into messenger RNA in the nucleus) and **translation** (the mRNA is read at the ribosome to assemble amino acids into a protein using transfer RNA).
+#### How the Laws Work Mechanistically
 
-#### Sex-Linked Inheritance
-Traits carried on the X chromosome — such as **hemophilia** and **red-green color blindness** — are called sex-linked. Because males have only one X chromosome (XY), a single recessive allele on it will be expressed. Females (XX) need two recessive copies to show the trait, which is why these conditions predominantly affect males. Punnett squares for sex-linked crosses must track X and Y chromosomes separately.
+During **meiosis I**, homologous chromosomes separate, pulling paired alleles apart so each gamete ends up with one allele per gene. When two genes sit on different chromosomes, their homologues line up independently at metaphase I, so the inheritance of one gene does not influence the inheritance of the other. This is the cellular basis of independent assortment.
 
-#### Mutations
-A **mutation** is any change in the DNA sequence. Mutations in **germ cells** (sperm/egg) can be inherited by offspring; mutations in **somatic cells** affect only the individual. Outcomes vary — some mutations are harmful (e.g., sickle-cell anemia), some neutral, and rarely beneficial.
+#### Ratios in the Two Standard Crosses
 
----
+| Cross type | Parental genotypes | F2 phenotype ratio | F2 genotype ratio |
+| --- | --- | --- | --- |
+| Monohybrid | Aa × Aa | 3 dominant : 1 recessive | 1 AA : 2 Aa : 1 aa |
+| Dihybrid | AaBb × AaBb | 9 : 3 : 3 : 1 | 9 A_B_ : 3 A_bb : 3 aaB_ : 1 aabb |
+| Test cross | Aa × aa | 1 dominant : 1 recessive | 1 Aa : 1 aa |
+
+#### Probability Rules Used in Genetics
+
+- **Multiplication rule:** for two independent events, multiply individual probabilities (e.g., probability of Aa from one parent AND Bb from another = 1/2 × 1/2 = 1/4).
+- **Addition rule:** for two mutually exclusive outcomes, add their probabilities (e.g., probability of AA *or* Aa in offspring of Aa × Aa = 1/4 + 1/2 = 3/4).
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-#### Worked Mini-Example: Monohybrid Cross
-Cross a homozygous tall pea plant (*TT*) with a homozygous short one (*tt*). All F₁ offspring are *Tt* — phenotypically tall but heterozygous. Self-pollinating the F₁ (*Tt × Tt*) gives the F₂ generation: 1 *TT* : 2 *Tt* : 1 *tt*, producing a **3:1 phenotypic ratio** (tall : short) and a **1:2:1 genotypic ratio**. This is the classic Mendelian outcome when complete dominance applies.
+#### Edge Cases and Limitations
 
-#### Dihybrid Cross Tip
-For a cross involving two genes on different chromosomes (e.g., seed shape *Rr* and seed color *Yy*), the F₂ phenotypic ratio from a dihybrid cross of double heterozygotes *RrYy × RrYy* is **9:3:3:1** — 9 showing both dominants, 3 each for the two single-dominant classes, and 1 showing both recessives.
+Independent assortment only holds when genes lie on **different chromosomes** or are **far apart on the same chromosome** (≥50 cM apart, producing recombination frequency near 50%). Genes that sit close together on one chromosome are **linked** and travel together into the same gamete most of the time, violating the 9:3:3:1 ratio. Real-world exceptions also include **incomplete dominance** (e.g., red × white snapdragons → pink F1) and **codominance** (e.g., ABO blood groups), where heterozygotes display a blended or combined phenotype rather than strict dominant-recessive behaviour.
 
-#### Common Traps in UPCAT
-1. **Genotype vs. phenotype confusion**: Two plants with the same phenotype (both tall) can have different genotypes (*TT* or *Tt*) — the Punnett square reveals this.
-2. **Dominance ≠ commonness**: A dominant allele is not necessarily more frequent in the population; it simply masks recessive alleles when present.
-3. **Incomplete dominance vs. codominance**: Blending (pink) is *not* the same as both traits appearing fully (AB blood type).
-4. **Sex-linked squares**: Always label gametes as X or Y and remember that an X-linked recessive allele in a male is automatically expressed.
+#### Worked Micro-Example
 
-#### Connection to Other Science Topics
-Heredity links directly to **cell division** (mitosis and meiosis determine how alleles segregate) and **molecular biology** (DNA replication errors cause mutations). Understanding the **Central Dogma** (DNA → RNA → protein) prepares you for biotechnology and genetics-engineering questions that occasionally surface in UPCAT.
+Cross two pea plants heterozygous for both seed shape (R = round, r = wrinkled) and seed colour (Y = yellow, y = green): RrYy × RrYy. Each parent produces four gamete types — **RY, Ry, rY, ry** — each at probability 1/4. Using the multiplication rule, the probability of round *and* yellow offspring (R_Y_) is 3/4 × 3/4 = **9/16**, matching the 9 portion of the dihybrid ratio. The probability of wrinkled green offspring (rryy) is 1/4 × 1/4 = **1/16**.
+
+#### Common Mistakes on the UPCAT
+
+- Treating the **3:1** phenotype ratio as a guaranteed split in small families of three or four children.
+- Confusing the **1:2:1 genotype ratio** with the **3:1 phenotype ratio** because AA and Aa look identical.
+- Forgetting that dominance is determined experimentally, not by which trait is more common in nature.
+- Applying independent assortment to **linked genes** on the same chromosome.
 
 #### Practice Prompts
-1. A man with hemophilia (X-linked recessive) has children with a non-carrier woman. What fraction of their sons will have the disease? (*Answer: zero — sons receive the Y from the father; daughters become carriers.*)
-2. In snapdragons, red (*RR*) crossed with white (*WW*) yields 100% pink. Two pinks are crossed — what phenotypic ratio is expected? (*Answer: 1 red : 2 pink : 1 white.*)
+
+1. In peas, tall (T) is dominant over short (t) and yellow seeds (Y) are dominant over green (y). A TtYy plant is crossed with a ttyy plant. List the gametes each parent can produce and predict the phenotype ratio of the offspring.
+2. A plant with purple flowers is crossed with a white-flowered plant (white is recessive). Half the offspring have white flowers. What is the genotype of the purple parent, and which law of Mendel does this cross illustrate?
+
+#### Continue your study
+
+- **[View this topic in your UPCAT (Philippines) roadmap](/roadmap/?exam=u-pcat&duration=1mo)** — see where "Mendel's Two Laws" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=u-pcat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UPCAT (Philippines) exam overview](/exams/u-pcat/)** — pattern, eligibility, and syllabus
+- **[All Science notes](/notes/u-pcat/science/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

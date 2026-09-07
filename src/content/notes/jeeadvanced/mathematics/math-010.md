@@ -11,145 +11,97 @@ topicName: Definite Integrals
 weight: 5
 country: india
 generated: "2026-03-24T08:32:07.938261"
-lastUpdated: 2026-03-24
+lastUpdated: "2026-09-07"
 diagramPrompt: "Mathematical diagram showing Definite Integrals concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style"
 
 
 
 
 ---
+
 # Definite Integrals
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Definition:**
-$\int_a^b f(x) \, dx = F(b) - F(a)$ where $F'(x) = f(x)$ (Fundamental Theorem of Calculus).
+A **definite integral** $\int_a^b f(x)\,dx$ is the signed area under $y=f(x)$ above the x-axis on $[a,b]$, defined as the limit of Riemann sums. The **Newton–Leibniz formula** evaluates it as $\int_a^b f(x)\,dx = F(b) - F(a)$, where $F$ is any antiderivative of $f$.
 
-**Key Properties:**
+- **Limits $a$ and $b$ are fixed numbers**, unlike the indefinite integral $\int f(x)\,dx = F(x) + C$.
+- **Sign matters**: positive area above the x-axis, negative below; splitting at zeros gives actual area.
+- **Even/odd shortcuts**: $\int_{-a}^{a} f = 2\int_0^a f$ if $f$ is even; $= 0$ if $f$ is odd.
+- **King's property**: $\int_0^{nT} f(x)\,dx = n\int_0^T f(x)\,dx$ for any periodic $f$ with period $T$.
 
-1. $\int_a^a f(x) \, dx = 0$
-2. $\int_a^b f(x) \, dx = -\int_b^a f(x) \, dx$
-3. $\int_a^b [f(x) \pm g(x)] \, dx = \int_a^b f(x) \, dx \pm \int_a^b g(x) \, dx$
-4. $\int_a^b cf(x) \, dx = c \int_a^b f(x) \, dx$
-5. $\int_a^b f(x) \, dx = \int_a^c f(x) \, dx + \int_c^b f(x) \, dx$ (additivity)
-
-**Even and Odd Functions:**
-
-- If $f$ is even ($f(-x) = f(x)$): $\int_{-a}^a f(x) \, dx = 2 \int_0^a f(x) \, dx$
-- If $f$ is odd ($f(-x) = -f(x)$): $\int_{-a}^a f(x) \, dx = 0$
-
-**Limits as Bounds:**
-
-If limits equal, integral is 0 regardless of function. Watch for $\int_0^a 0 \, dx = 0$.
-
-⚡ **JEE Tip:** For definite integrals with symmetric limits, always check if the integrand is even or odd before integrating. This can save significant work.
-
-⚡ **Common Mistake:** $\int_a^b f(x) \, dx$ is a NUMBER, not a function of anything. It depends only on $a, b$ and $f$, not on the variable (can use any dummy variable): $\int_a^b f(x) dx = \int_a^b f(t) dt$.
-
----
+| Must-remember fact | Statement |
+| --- | --- |
+| Newton–Leibniz | $\int_a^b f(x)\,dx = F(b)-F(a)$ |
+| Sign reversal | $\int_a^b = -\int_b^a$ |
+| Even function | $\int_{-a}^a f(x)\,dx = 2\int_0^a f(x)\,dx$ |
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> For students who want genuine understanding.
+> Standard content for students with a few days to months.
 
-**Substitution in Definite Integrals:**
+#### Definition and the Fundamental Theorem
 
-If $x = g(t)$, then $\int_{x=a}^{x=b} f(x) dx = \int_{t=g^{-1}(a)}^{t=g^{-1}(b)} f(g(t)) g'(t) dt$.
+A Riemann sum partitions $[a,b]$ into $n$ subintervals of width $\Delta x = (b-a)/n$, picks a sample point $x_r^*$ in each, and forms $\sum_{r=1}^n f(x_r^*)\,\Delta x$. The **definite integral** is the limit of this sum as $n \to \infty$, provided the limit exists. For continuous $f$ on $[a,b]$, the **Fundamental Theorem of Calculus** guarantees existence and gives the Newton–Leibniz evaluation $F(b)-F(a)$.
 
-**Integration by Parts:**
-$\int_a^b u \, dv = [uv]_a^b - \int_a^b v \, du$.
+#### Core properties
 
-**Wallis Formulae:**
-$$\int_0^{\pi/2} \sin^n x \, dx = \int_0^{\pi/2} \cos^n x \, dx = \begin{cases} \frac{(n-1)!!}{n!!} \cdot \frac{\pi}{2} & n \text{ even} \\ \frac{(n-1)!!}{n!!} & n \text{ odd} \end{cases}$$
+Linearity, additivity $\int_a^b = \int_a^c + \int_c^b$ for $a<c<b$, and sign reversal are the workhorses of JEE Advanced manipulation. When you substitute $x = \phi(t)$, you must change both the integrand and the limits; forgetting the limit change is the single most common mark-losing error.
 
-where double factorial: $n!! = n \cdot (n-2) \cdot (n-4) \cdots$.
+#### Standard problem types
 
-**Definite Integral as Area:**
+- Reduction of $\sum_{r=1}^n f(r)$ to a definite integral (limit of sums).
+- Substitution-driven evaluation, e.g. $\int_0^1 x(1-x)^5\,dx$ via $u = 1-x$.
+- Periodic integrands on $[0, nT]$ using King's property.
+- Even/odd symmetry after a suitable shift, e.g. $\int_0^{2\pi} \cos^n x\,dx$.
 
-$\int_a^b f(x) dx$ represents the signed area between $y=f(x)$, the x-axis, and lines $x=a$ and $x=b$.
+| Property | Formula | When to use |
+| --- | --- | --- |
+| Newton–Leibniz | $F(b)-F(a)$ | $f$ continuous, antiderivative $F$ known |
+| Substitution | Change $x$ and both limits | Composite integrand |
+| King's rule | $\int_0^{nT} f = n\int_0^T f$ | $f$ has period $T$ |
+| Even/odd | $\int_{-a}^a f = 2\int_0^a f$ or $0$ | Symmetric interval |
 
-**Worked Examples:**
-
-*Example 1:* Evaluate $\int_0^1 x e^x \, dx$.
-
-Using integration by parts:
-Let $u = x, dv = e^x dx$. Then $du = dx, v = e^x$.
-$\int x e^x dx = x e^x - \int e^x dx = x e^x - e^x + C = e^x(x-1) + C$.
-
-So $\int_0^1 x e^x dx = [e^x(x-1)]_0^1 = e^1(0) - e^0(-1) = 0 + 1 = 1$.
-
-*Example 2 (JEE 2022):* Evaluate $\int_0^{\pi/2} \sin^4 x \, dx$.
-
-Using Wallis formula with $n=4$ (even):
-$\int_0^{\pi/2} \sin^4 x \, dx = \frac{(4-1)!!}{4!!} \cdot \frac{\pi}{2} = \frac{3!!}{4!!} \cdot \frac{\pi}{2}$.
-$3!! = 3 \cdot 1 = 3$.
-$4!! = 4 \cdot 2 = 8$.
-So integral $= \frac{3}{8} \cdot \frac{\pi}{2} = \frac{3\pi}{16}$.
-
-Alternatively using power-reduction: $\sin^4 x = \frac{3 - 4\cos 2x + \cos 4x}{8}$.
-$\int_0^{\pi/2} \sin^4 x dx = \frac{1}{8}[3x - 2\sin 2x + \frac{1}{4}\sin 4x]_0^{\pi/2} = \frac{1}{8}[3 \cdot \frac{\pi}{2} - 0] = \frac{3\pi}{16}$.
-
-*Example 3:* Evaluate $\int_{-1}^1 \frac{x^3 + x^2}{1+x^2} dx$.
-
-Split: $\int_{-1}^1 \frac{x^3}{1+x^2} dx + \int_{-1}^1 \frac{x^2}{1+x^2} dx$.
-First term: $f(x) = \frac{x^3}{1+x^2}$. Note $f(-x) = \frac{-x^3}{1+x^2} = -f(x)$, odd function.
-So $\int_{-1}^1 f(x) dx = 0$.
-Second term: $g(x) = \frac{x^2}{1+x^2}$. Note $g(-x) = g(x)$, even function.
-So $\int_{-1}^1 g(x) dx = 2\int_0^1 \frac{x^2}{1+x^2} dx = 2\int_0^1 \frac{x^2+1-1}{1+x^2} dx = 2\int_0^1 (1 - \frac{1}{1+x^2}) dx = 2[x - \tan^{-1}x]_0^1 = 2(1 - \pi/4) = 2 - \pi/2$.
-
----
+- Always check continuity on $(a,b)$ before applying Newton–Leibniz directly.
+- Split at every root of $f(x)$ before computing area, not signed value.
+- Keep limits in the same variable after substitution; never leave $x$ in $u$-form.
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive theory for serious JEE Advanced preparation.
+> Comprehensive coverage for students on a longer study timeline.
 
-**Leibniz Rule for Differentiation under Integral Sign:**
-If $I(\alpha) = \int_{a(\alpha)}^{b(\alpha)} f(x,\alpha) dx$, then:
-$$I'(\alpha) = \int_{a}^{b} \frac{\partial f}{\partial \alpha} dx + f(b,\alpha) b'(\alpha) - f(a,\alpha) a'(\alpha)$$
+#### Improper integrals and discontinuities
 
-**Gamma and Beta Functions:**
+When $f$ blows up at an interior point $c \in (a,b)$ or the upper limit is $\infty$, split the integral at the offending point and take a limit. For $\int_0^1 x^{-1/2} e^x\,dx$, $f$ stays bounded so the standard antiderivative works; for $\int_0^1 x^{-1}\,dx$, you must write $\lim_{\varepsilon\to 0^+}\int_\varepsilon^1 x^{-1}\,dx$ and recognise the divergent logarithm.
 
-- $\Gamma(n) = \int_0^{\infty} x^{n-1} e^{-x} dx = (n-1)!$ for positive integer $n$
-- $\Gamma(s) = 2\int_0^{\infty} t^{2s-1} e^{-t^2} dt$
-- $\int_0^{\pi/2} \sin^{m-1} x \cos^{n-1} x dx = \frac{1}{2} B\left(\frac{m}{2}, \frac{n}{2}\right) = \frac{\Gamma(m/2)\Gamma(n/2)}{2\Gamma((m+n)/2)}$
+#### Leibniz rule and the Beta–Gamma link
 
-**Special Definite Integrals:**
+Differentiation under the integral sign gives $\dfrac{d}{db}\int_a^{g(b)} f(x)\,dx = f(g(b))\cdot g'(b)$. Forgetting the $g'(b)$ factor is a recurring JEE Advanced trap. On the larger canvas, definite integrals produce the Beta function $B(m,n)=\int_0^1 x^{m-1}(1-x)^{n-1}\,dx$ and Gamma function $\Gamma(n)=\int_0^\infty x^{n-1}e^{-x}\,dx$, which appear inside multi-step sums and probability questions.
 
-1. $\int_0^{\infty} e^{-x^2} dx = \frac{\sqrt{\pi}}{2}$ (Gaussian)
-2. $\int_0^1 \frac{\ln(1+x)}{x} dx = \frac{\pi^2}{6}$
-3. $\int_0^{\pi} \frac{x \sin x}{1+\cos^2 x} dx = \frac{\pi^2}{4}$
+#### Worked micro-example
 
-**Advanced Problems:**
+Evaluate $\int_0^{\pi} x\sin x\,dx$. Integration by parts with $u=x$, $dv=\sin x\,dx$ gives $-x\cos x + \int \cos x\,dx = -x\cos x + \sin x$. Apply limits: $[-x\cos x + \sin x]_0^{\pi} = -(-\pi)(-1) + 0 - 0 = -\pi$. The sign comes from $\cos\pi=-1$; the answer is negative, which is correct since $x\sin x > 0$ on $(0,\pi)$ but the standard antiderivative introduces the sign.
 
-*Problem (JEE Advanced 2021):* Evaluate $\int_0^{\pi/2} \frac{dx}{1 + \tan^3 x}$.
+#### Practice prompts
 
-Let $I = \int_0^{\pi/2} \frac{dx}{1 + \tan^3 x}$.
-Use substitution $x \to \pi/2 - x$: $\tan(\pi/2 - x) = \cot x = 1/\tan x$.
-$I = \int_0^{\pi/2} \frac{dx}{1 + \cot^3 x} = \int_0^{\pi/2} \frac{\tan^3 x}{1 + \tan^3 x} dx$.
+1. Compute $\int_0^{2\pi} \dfrac{1}{1+\sin^2 x}\,dx$ using King's property with $T=\pi$.
+2. Evaluate $\sum_{r=1}^{n}\dfrac{r}{n^2+r^2}$ as a Riemann sum, then find $\lim_{n\to\infty}$ of the sum.
 
-Adding: $2I = \int_0^{\pi/2} \left(\frac{1}{1+\tan^3 x} + \frac{\tan^3 x}{1+\tan^3 x}\right) dx = \int_0^{\pi/2} 1 dx = \frac{\pi}{2}$.
-So $I = \frac{\pi}{4}$.
+| Edge case | Correct handling |
+| --- | --- |
+| Discontinuity at $c\in(a,b)$ | Split at $c$, take one-sided limits |
+| Upper limit is function $g(b)$ | Multiply by $g'(b)$ after differentiating |
+| Periodic $f$, non-integer $nT$ | Use King's property with $nT = \text{quotient}\cdot T + \text{remainder}$ |
+| Even integrand, asymmetric limits | Shift first: $u = x - c$ to centre at origin |
 
-*Problem 2:* Evaluate $\int_0^1 \frac{\ln(1+x)}{1+x^2} dx$.
+- In Paper 2, definite integrals frequently combine with area and differential-equation contexts.
+- Allocate roughly 3–4 minutes per definite-integral item during the three-hour window.
 
-Let $I = \int_0^1 \frac{\ln(1+x)}{1+x^2} dx$.
-Use $x = \tan\theta$ substitution: $dx = \sec^2\theta d\theta$, $1+x^2 = \sec^2\theta$.
-When $x=0$, $\theta=0$. When $x=1$, $\theta=\pi/4$.
-$I = \int_0^{\pi/4} \frac{\ln(1+\tan\theta)}{\sec^2\theta} \cdot \sec^2\theta d\theta = \int_0^{\pi/4} \ln(1+\tan\theta) d\theta$.
+## Continue your study
 
-Now use property $\int_0^a f(x) dx = \int_0^a f(a-x) dx$:
-$I = \int_0^{\pi/4} \ln(1+\tan(\pi/4-\theta)) d\theta = \int_0^{\pi/4} \ln(1+\frac{1-\tan\theta}{1+\tan\theta}) d\theta = \int_0^{\pi/4} \ln\left(\frac{1+\tan\theta}{1+\tan\theta}\right) d\theta$... wait.
-$\tan(\pi/4 - \theta) = \frac{1 - \tan\theta}{1 + \tan\theta}$.
-So $1 + \tan(\pi/4 - \theta) = 1 + \frac{1-\tan\theta}{1+\tan\theta} = \frac{2}{1+\tan\theta}$.
-Thus $\ln(1+\tan(\pi/4-\theta)) = \ln 2 - \ln(1+\tan\theta)$.
-So $I = \int_0^{\pi/4} [\ln 2 - \ln(1+\tan\theta)] d\theta = \frac{\pi}{4}\ln 2 - I$.
-Thus $2I = \frac{\pi}{4}\ln 2$ → $I = \frac{\pi}{8}\ln 2$.
-
-**JEE Advanced Patterns (2018–2024):**
-- Properties of definite integrals (even/odd, periodicity) are frequently tested
-- Wallis formulas for $\int \sin^n x$ and $\int \cos^n x$ are essential
-- Leibniz rule for differentiation under integral sign appeared in 2020, 2023
-- Reduction formulas are common for higher powers of trig functions
-- Special integrals (Gaussian, logarithmic) appear in advanced problems
+- **[View this topic in your JEE Advanced roadmap](/roadmap/?exam=jeeadvanced&duration=1mo)** — see where "Definite Integrals" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=jeeadvanced&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[JEE Advanced exam overview](/exams/jeeadvanced/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/jeeadvanced/mathematics/)** — browse sibling topics in this subject
 
 ---
-*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

@@ -17,75 +17,77 @@ diagramPrompt: "Mathematical diagram showing Probability and Permutations concep
 # Probability and Permutations
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+> Rapid summary for last-minute revision before your ECAT Mathematics paper.
 
-Probability quantifies how likely an event is, calculated as **P(A) = n(A)/n(S)**, where n(A) is the number of favorable outcomes and n(S) is the total number of equally likely outcomes in the sample space. The value always sits between 0 and 1, where 0 means impossible and 1 means certain.
+Probability quantifies how likely an event is, on a scale from 0 to 1. A permutation counts ordered arrangements, while a combination counts unordered selections. ECAT typically asks 1–2 MCQs from this 4%-weighted topic.
 
-A **permutation** counts ordered arrangements of *r* distinct objects chosen from *n*, given by **P(n, r) = n!/(n − r)!**. Order matters in permutations, unlike combinations where it does not. ECAT tests 1–2 MCQs from this 4%-weighted area, so mastering the two formulas above plus the complement rule **P(A′) = 1 − P(A)** covers most marks.
+- **Classical probability:** P(A) = n(A) / n(S), where n(A) is favourable outcomes and n(S) is total equally likely outcomes.
+- **Permutation formula:** P(n,r) = n! / (n−r)!, where r distinct objects are chosen in order from n.
+- **Complement rule:** P(A') = 1 − P(A).
+- **Addition rule:** P(A ∪ B) = P(A) + P(B) − P(A ∩ B).
+- **Independence:** P(A ∩ B) = P(A) · P(B) when A and B are independent.
+- **Conditional probability:** P(A|B) = P(A ∩ B) / P(B), valid only when P(B) > 0.
 
-- **Multiplication principle:** if task 1 can be done in *m* ways and task 2 in *n* ways, both together can be done in *m · n* ways.
-- **Complement trick:** for "at least one" problems, compute P(none) and subtract from 1.
-- **Order test:** if the wording says "arrange" or "rank", use permutation; if it says "select" or "choose", suspect combination.
+#### Key exam pointers:
+- Check whether the wording says "arrange" (use permutation) or "select/group" (use combination).
+- For "at least one" problems, compute 1 − P(none) to avoid casework.
+- Watch for the trap where P(A|B) ≠ P(B|A).
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+> Standard content for students with a few days to months before the test.
 
-#### Definitions and Sample Spaces
+#### Counting Principle and Sample Spaces
 
-The **sample space S** is the set of every possible outcome of a random experiment. An **event A** is any subset of S. When every outcome in S is equally likely, classical probability applies: P(A) = n(A)/n(S). For example, rolling a fair die gives S = {1,2,3,4,5,6} with n(S) = 6, so P(rolling an even number) = 3/6 = 0.5.
+Every probability problem begins by identifying the sample space S, the set of all equally likely outcomes. The fundamental counting principle states that if task 1 has m ways and task 2 has n ways, both together have m·n ways. Tree diagrams extend this to three or more stages. For ECAT, candidates must translate worded conditions ("a digit is chosen, then a letter") into a product of independent counts.
 
-#### Permutation Formula and Counting Principle
+#### Permutations vs. Combinations
 
-A **permutation** P(n, r) counts the number of ways to arrange *r* objects selected from *n* distinct objects, where the sequence matters. The formula P(n, r) = n!/(n − r)! comes from filling *r* slots with *n* choices for the first, *n − 1* for the second, and so on. The **multiplication principle** generalises this: if independent choices yield *n₁, n₂, …, nₖ* options, the total arrangements equal their product.
+The factorial n! = n × (n−1) × … × 1 underpins both counting tools. A permutation P(n,r) = n!/(n−r)! preserves the order of the r chosen objects, so arranging 3 letters from A,B,C,D gives 4·3·2 = 24 sequences. A combination C(n,r) = n!/[r!(n−r)!] ignores order, so the same 3-letter selection yields 4 groups. The decisive question is whether the problem's wording treats ABC and CBA as the same outcome.
 
-#### Addition, Multiplication, and Conditional Rules
+#### Probability Axioms and Rules
 
-| Rule | When to apply | Formula |
-| --- | --- | --- |
-| Complement | "Not A" or "at least one" problems | P(A′) = 1 − P(A) |
-| Addition | A or B occurring | P(A ∪ B) = P(A) + P(B) − P(A ∩ B) |
-| Multiplication | Independent A and B | P(A ∩ B) = P(A) · P(B) |
-| Conditional | Probability of A given B has happened | P(A \| B) = P(A ∩ B)/P(B) |
+| Concept | Key point |
+| --- | --- |
+| Classical definition | P(A) = favourable / total, only valid when every outcome is equally likely |
+| Complement | P(A') = 1 − P(A); useful for "at least one" problems |
+| Addition | P(A ∪ B) = P(A) + P(B) − P(A ∩ B); reduce to P(A)+P(B) if mutually exclusive |
+| Multiplication | P(A ∩ B) = P(A)·P(B) only for independent events |
+| Conditional | P(A\|B) = P(A ∩ B) / P(B), defined when P(B) > 0 |
+| Bayes | P(A\|B) = P(B\|A)·P(A) / P(B), used to reverse conditions |
 
-#### Worked Example
+#### Common Traps
 
-A bag holds 5 red and 3 blue balls. Two balls are drawn without replacement. Find the probability both are red. P(1st red) = 5/8, P(2nd red \| 1st red) = 4/7, so P(both red) = (5/8)(4/7) = 20/56 = **5/14**.
-
-- **Permutation vs combination:** "In how many ways can 3 students sit on 3 chairs from a class of 10?" → P(10,3) = 720.
-- **Factorial growth:** 5! = 120, 6! = 720 — watch the denominator n − r when r is small.
-- **ECAT trap:** the question stem often hides "without replacement" — violating independence drops marks immediately.
+- Treating dependent events as independent and multiplying probabilities directly.
+- Forgetting to subtract the overlap term P(A ∩ B) when A and B are not mutually exclusive.
+- Computing P(n,r) as n! rather than n!/(n−r)!, which overcounts by a factor of (n−r)!.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-#### Bayes' Theorem and Two-Stage Experiments
+#### Worked Numeric Example
 
-Bayes' theorem reverses conditional probability: **P(A|B) = P(B|A) · P(A)/P(B)**. ECAT occasionally frames a two-stage draw (e.g., defective bulbs from two machines) where the prior probability P(A) feeds into the posterior P(A|B). Compute the total P(B) using the **law of total probability**: P(B) = P(B|A)·P(A) + P(B|A′)·P(A′).
+A bag contains 5 red and 3 blue balls. Two balls are drawn without replacement. Find the probability that both are red.
 
-#### Mutually Exclusive vs Independent Events
+Total outcomes = C(8,2) = 28. Favourable outcomes = C(5,2) = 10. So P(both red) = 10/28 = 5/14.
 
-These terms are not synonyms. **Mutually exclusive** events cannot occur together, so P(A ∩ B) = 0. **Independent** events satisfy P(A ∩ B) = P(A)·P(B). Two mutually exclusive events with non-zero probability are *never* independent. ECAT tests this distinction directly through negation traps.
+Using conditional multiplication instead: P(1st red) = 5/8, then P(2nd red \| 1st red) = 4/7. Product = 20/56 = 5/14. Both routes converge, confirming the independence of method.
+
+#### Edge Cases and Connections
+
+When events are mutually exclusive, P(A ∩ B) = 0, so the addition rule collapses to P(A) + P(B). When they are exhaustive (cover the entire sample space), P(A) + P(B) = 1. Bayes' theorem extends conditional probability to inverse reasoning, useful in medical-test-style questions where you know the probability of a positive result given disease status and must infer the probability of disease given a positive result. Permutations also connect to binomial coefficients through C(n,r) = P(n,r)/r!.
 
 #### Practice Prompts
 
-1. A 4-digit PIN is formed using digits 0–9 with no repetition. How many PINs are even and greater than 5000? *(Hint: fix the thousands digit first, then count using P(9,3) with parity constraint.)*
-2. Two cards are drawn from a standard 52-card deck without replacement. What is the probability the second card is a king given the first was a king? *(Answer: 3/51.)*
+1. From 7 distinct books, in how many ways can 4 be arranged on a shelf if two specific books must occupy the ends? Answer: 2 · P(5,2) = 2 · 20 = 40.
+2. A die is rolled twice. Find P(sum ≥ 10). Total outcomes = 36; favourable = (4,6),(5,5),(6,4),(5,6),(6,5),(6,6) = 6, so P = 6/36 = 1/6.
 
-#### Common Mistakes
+#### Exam Strategy
 
-| Mistake | Correction |
-| --- | --- |
-| Using C(n,r) where P(n,r) is required | Check whether order matters in the wording |
-| Dropping the n! term | P(n,r) needs numerator n!, not just (n−r)! |
-| Forgetting the overlap term in addition rule | Always subtract P(A ∩ B) unless events are mutually exclusive |
-| Computing P(A\|B) as P(B\|A) | Bayes' theorem converts the direction explicitly |
-
-- **Strategic note:** probability + permutations is a 4% slice, so budget 4–5 minutes per MCQ; skip and return if stuck.
-- **Formula sheet habit:** write P(n,r) = n!/(n−r)! at the top of your rough work before reading the question.
+ECAT Mathematics allots 4% to Probability and Permutations, typically yielding 1–2 MCQs worth 2–4 marks. Budget about 90 seconds per item. Memorise the five core formulas and practise translating "at least one" and "given that" phrases into the complement and conditional rules respectively.
 
 ---
 

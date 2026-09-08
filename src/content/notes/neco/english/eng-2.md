@@ -11,7 +11,7 @@ topicName: Summary Writing and Notes
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.656099"
-lastUpdated: "2026-06-21"
+lastUpdated: "2026-09-07"
 diagramPrompt: "Educational diagram illustrating Summary Writing and Notes with clear labels, white background, exam-style illustration"
 
 
@@ -24,56 +24,114 @@ diagramPrompt: "Educational diagram illustrating Summary Writing and Notes with 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-A **summary** is a shortened version of a passage that keeps only the **main ideas** and drops examples, illustrations, statistics, quotations and repetitions. The NECO SSCE rule of thumb: condense a 250–300-word passage into roughly **80–100 words** — about **one-third** of the original length. Always **paraphrase**; copying whole sentences loses marks for *expression*. Preserve the **author's tone**, **point of view** and the **logical order** of ideas. Read the passage **twice** first, underline the **topic sentence** of each paragraph, then write in continuous prose. **Note-taking** uses abbreviations, symbols, bullet points, headings and numbering to capture key facts fast from notices, advertisements and announcements.
+- **Summary writing** reduces a passage to its **gist**, main ideas, and essential supporting points.
+- Read the passage at least twice before writing. First read for the overall message; second read for structure.
+- Mark the **topic sentence** in each paragraph. These sentences in most keys provide the framework for the final summary.
+- **Paraphrase** the author’s meaning in your own words. Do not copy complete sentences.
+- Remove anecdotes, examples, repetitions, quotations, rhetorical questions, and descriptive details.
+- Keep the original **sequence of ideas**, emphasis, and meaning. A short summary is not a random collection of facts.
+- Write continuous prose, normally in the **third person and present tense**, unless the passage requires another tense.
+- Count every word. In NECO, failure to follow the stated limit can reduce content marks.
+
+| Feature | Summary | Note-taking |
+| --- | --- | --- |
+| Main purpose | Condense a passage | Record information for later use |
+| Best format | Continuous prose | Headings, abbreviations, and indented points |
+| Language | Complete paraphrased sentences | Short phrases and symbols |
+| Word limit | Strictly observed | Set by the listener or note-maker |
+
+> **Last-minute rule:** identify one central idea per paragraph, combine the points, then count the words.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-#### Purpose and Scope
-Summary writing tests whether you can identify what *matters* in a passage and re-state it economically. NECO examiners mark three things: **Content** (did you capture the main ideas?), **Expression** (is your English accurate?) and **Relevance** (did you drop the unnecessary material?). A summary that copies the original phrasing — even correctly — is penalised because it shows no paraphrasing skill.
+#### How to Build a Summary
 
-#### Step-by-Step Method
-1. **Read once** for the overall message and the writer's purpose.
-2. **Read again**, numbering each paragraph and underlining the **topic sentence** (usually the first or last sentence) that carries the paragraph's main idea.
-3. **Jot** the gist of each paragraph in 4–8 words at the margin.
-4. **Draft** one continuous paragraph, linking your gists with connectives such as *however, in addition, consequently, on the other hand*.
-5. **Count words**, then **edit** to land within the 80–100-word target.
+A summary must reproduce the passage’s argument without reproducing its wording. Begin by reading the passage carefully and identifying its subject, purpose, and development. A first reading reveals the general **gist**; a second reading shows how the paragraphs support that central message.
 
-#### The One-Third Rule
-NECO consistently sets passages of roughly 250–300 words for an 80–100-word answer. Going below 70 words signals missing ideas; going above 120 words means you have copied too much. The middle band — 80–100 — is the safe target.
+| Stage | What to do | What to leave out |
+| --- | --- | --- |
+| First reading | Find the central subject and purpose | Unnecessary background |
+| Second reading | Underline topic sentences and key evidence | Repeated wording and weak details |
+| Planning | Select points that explain the argument | Examples that do not advance the meaning |
+| Drafting | Join the points with linking words | Verbatim sentences from the source |
+| Checking | Compare meaning, order, and word count | Added opinions or new information |
 
-#### Note-Taking in Paper II
-NECO also tests **note-taking** through short-answer or objective items on notices, advertisements, schedules, letters and announcements. The skill differs: you record **specific facts** (dates, venues, fees, times, contact details) using **abbreviations** (e.g. *Jan*, *govt*, *info*), **symbols** (₦, %, &, @) and **bullet points** or numbered lists. Notes are not written in full sentences and never use the writer's own opinions.
+Most paragraphs contain a topic sentence, but do not assume that it is always the first sentence. Sometimes the main point appears after an example, contrast, or explanatory opening. Read the complete paragraph before selecting its central idea.
 
-#### Common Traps
-- Lifting long phrases from the passage verbatim.
-- Including the **examples** the writer used to explain a point.
-- Introducing your own opinion or outside knowledge.
-- Losing the chronological or cause-effect order of the original.
+#### Language and Organisation
+
+Paraphrase each selected idea using different words and a suitable sentence structure. Preserve the order in which the author presents information. This prevents a summary from becoming distorted even when every individual sentence is accurate.
+
+Use objective reporting:
+
+- Write **“The report states that…”** rather than **“I think the passage says…”**.
+- Use the present tense when the passage describes general facts.
+- Retain past tenses when reporting events that happened at a specific time.
+- Use linking devices such as *firstly, however, therefore,* and *finally* when they clarify the relationship between ideas.
+
+The final answer should normally form one paragraph. Count words carefully, including headings, numbers, and abbreviations. When NECO requires a summary of a specified length, meeting the limit is part of the task.
+
+#### Notes-taking
+
+Notes are shorter than summaries and are designed for personal reference. Record the main idea as a heading, then place evidence, causes, effects, or explanations beneath it. Abbreviations should remain understandable when reviewed later.
+
+- Use headings for distinct sections.
+- Indent supporting points below each heading.
+- Use arrows for cause and effect, such as `cause → result`.
+- Keep examples only when they explain an important point.
+- Review and expand unclear notes soon after making them.
+
+> **Scoring tip:** accurate paraphrasing earns more credit than copying long extracts that merely reduce the word count.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-#### Paraphrasing Mechanics
-Effective paraphrasing rests on three moves: **change the word class** (verb → noun: *to destroy* → *the destruction of*), **swap synonyms** (e.g. *significant → considerable, harmful → detrimental*), and **restructure the clause** (active to passive, or merge two short sentences into one). The goal is lexical and grammatical change, not just replacing one word. Test yourself: cover the original — can you still write the same idea differently? If not, you have memorised rather than understood.
+#### Edge Cases and Accuracy
 
-#### Tone, Voice and Sequence
-A summary is a **third-person** rewrite of *someone else's* argument. Keep pronouns and tense consistent with the source. If the passage moves from *cause → effect → recommendation*, your summary must follow that same arc; rearranging the order confuses the reader and costs content marks.
+A passage can place its central claim near the end, repeat an idea for emphasis, or use examples that carry more importance than they first appear. Do not select sentences solely because they are short. Test each candidate point by asking whether removing it would change the passage’s meaning, weaken its explanation, or conceal a major contrast.
 
-#### Worked Micro-Example
-*Original (38 words):* "The federal government has announced that fuel subsidies will be removed by mid-2024. Minister A explained that the savings would be channelled into healthcare and education. Critics, however, warn that transport costs will rise sharply."
-*Acceptable summary (31 words):* "The government plans to scrap fuel subsidies by mid-2024, redirecting the savings to healthcare and education. Critics, however, warn of a sharp rise in transport costs." — main ideas kept, examples dropped, paraphrased, tone preserved, order maintained.
+Inferences should be included only when they are firmly supported by the text. Avoid introducing motives, causes, or conclusions that the author never states. Similarly, do not turn a reported opinion into a fact; retain the original qualification or attitude where it affects meaning.
 
-#### Adjacent Skills
-Summary writing feeds directly into **comprehension**, **précis** and **report writing** in later papers. Strong summarisers read faster because they automatically separate **gist from detail** — the same skill needed for note-taking and for answering *attitudinal* comprehension questions (e.g. "Why did the author…?").
+| Mistake | Consequence | Correction |
+| --- | --- | --- |
+| Copying whole sentences | Weak evidence of paraphrasing | Change wording and sentence structure |
+| Listing unrelated facts | The author’s argument becomes unclear | Connect points in their original order |
+| Exceeding the limit | Excess wording can be penalised | Remove examples and repeat the word count |
+| Falling below the limit | Important content can be missing | Add a necessary supporting point |
+| Using first person | The summary sounds subjective | Report the passage objectively |
 
-#### Practice Prompts
-1. Take any NECO past-paper passage of ~280 words, underline five topic sentences, and write a 90-word summary in 12 minutes.
-2. Convert a 150-word school notice into **bullet-point notes** using at least four abbreviations and two symbols, then re-read the notice to confirm no fact is lost.
+#### Exam Practice Prompts
+
+**Prompt 1:** A 400-word passage explains three reasons for rural migration. Summarise it in not more than 90 words.
+
+- Identify the passage’s overall claim.
+- Select one point for each reason.
+- Join them with clear linking words.
+- Remove statistics, personal stories, and repeated explanations.
+- Write one paragraph of 90 words or fewer.
+
+**Prompt 2:** Listen to a short talk about renewable energy. Produce notes with three headings: benefits, limitations, and proposed solutions.
+
+- Write the central idea beneath each heading.
+- Add indented sub-points for causes or evidence.
+- Use brief, private abbreviations.
+- Expand the notes into full sentences later so their meaning remains clear.
+
+> **Exam strategy:** spend about 10–12 minutes reading, planning, drafting, and checking. Secure the central ideas before polishing vocabulary.
+
+---
+
+## Continue your study
+
+- **[View this topic in your NECO SSCE roadmap](/roadmap/?exam=neco&duration=1mo)** — see where "Summary Writing and Notes" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=neco&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NECO SSCE exam overview](/exams/neco/)** — pattern, eligibility, and syllabus
+- **[All English Language notes](/notes/neco/english/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

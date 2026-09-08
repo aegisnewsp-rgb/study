@@ -11,149 +11,110 @@ topicName: Comprehension Passages
 weight: 5
 country: nigeria
 generated: "2026-03-24T08:32:07.655732"
-lastUpdated: 2026-03-24
+lastUpdated: "2026-09-08"
 diagramPrompt: "Educational diagram illustrating Comprehension Passages with clear labels, white background, exam-style illustration"
 
 
 
 
 ---
+
 # Comprehension Passages
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your NECO exam.
+> Rapid summary for last-minute revision before your NECO SSCE English paper.
 
-**What is Comprehension?**
-Comprehension means understanding a written passage and being able to answer questions about it. NECO English Paper 1 (Objective) and Paper 2 (Essay) both test comprehension.
+Comprehension Passages test how accurately you read an unseen prose extract and respond to questions on its **literal meaning**, **inferred meaning**, **vocabulary in context**, and **summary**. NECO SSCE Paper III (Test of Practical Knowledge) carries the passage component, and the section contributes roughly 5% of the overall English grade that tertiary admission screening depends on.
 
-**Types of Comprehension Questions in NECO:**
+- **Read twice** — first pass for gist, second pass for details, evidence, and attitudinal cues.
+- **Tie every answer to the text** — underline the justifying phrase before writing.
+- **Paraphrase, never copy** — summaries must be in your own continuous prose, around 120 words for NECO.
 
-1. **Literal questions:** What does the passage explicitly say? Find facts directly stated.
-2. **Inferential questions:** What does the passage imply or suggest without stating directly?
-3. **Vocabulary in context:** What does a particular word or phrase mean as used in the passage?
-4. **Evaluative questions:** What is the writer's purpose, attitude, or tone?
-
-**How to Answer:**
-- Read the passage once quickly to get the general meaning
-- Read the questions before re-reading the passage
-- Go back to the relevant section to find the answer
-- Use your own words where possible
-
-⚡ **NECO Tip:** In NECO English Paper 2, you are often asked to summarise in 50 words or write in a specific register. Watch the word limit carefully — NECO penalises going significantly over or under. In multiple-choice questions, eliminate clearly wrong options first.
+| Question type | What the examiner expects |
+| --- | --- |
+| Literal | A fact stated directly in a line |
+| Inferential | A conclusion drawn from textual clues |
+| Vocabulary | The meaning the word carries *in that sentence* |
+| Summary | One merged idea per paragraph, in your own words |
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for NECO English students with a few days to months.
+> Standard content for students with a few days to months.
 
-**Question Types and How to Tackle Them**
+#### Question types you will meet
 
-**1. Factual/Literal Questions:**
-These require you to locate specific information in the passage.
-*Example question:* "According to the passage, what two factors contribute to rural-urban migration?"
-*Strategy:* Scan the passage for key terms like "rural-urban migration" and read the surrounding sentences.
+NECO SSCE comprehension combines direct recall with higher-order reading. **Literal comprehension** asks you to retrieve a stated fact (a date, name, cause). **Inferential comprehension** asks what the writer implies — you must read between the lines using adjectives, adverbs, and discourse markers. **Vocabulary-in-context** tests the meaning a word carries inside that specific passage, which often differs from the dictionary entry. A **summary** item asks you to compress the passage into continuous prose.
 
-**2. Vocabulary in Context:**
-The word or phrase is used in a specific way in the passage — you must identify that meaning, not the dictionary definition.
-*Example:* "The word 'acute' in line 5 most nearly means..." — the passage may use it to mean "severe" or "sharp," not "cute."
-*Strategy:* Substitute the options into the sentence and see which makes sense.
+#### How to approach the passage
 
-**3. Inferential Questions:**
-These require reading between the lines. The answer is not directly stated — you must deduce it from what is written.
-*Example question:* "It can be inferred from the passage that the author believes..."
-*Strategy:* Look at the evidence in the passage and determine what conclusion naturally follows.
+Read the stem questions before the passage so your eyes scan for relevant evidence. On the second read, mark key nouns, verbs, and evaluative adjectives such as "tragic," "ironically," "brazen." These are the attitudinal cues that signal **tone** (the writer's attitude) and **mood** (the feeling created for the reader).
 
-**4. Purpose and Tone Questions:**
-- **Purpose:** Is the writer informing, persuading, entertaining, or describing?
-- **Tone:** Is the writer's attitude formal, sarcastic, sympathetic, objective?
+- Underline the exact phrase that supports a literal answer.
+- For inference items, write one full sentence that names the writer's stance.
+- Replace any copied phrase of more than four words with a synonym.
+- Keep tone answers tied to textual evidence, not personal opinion.
 
-**5. Lexical/Structural Questions:**
-Questions about word formation (prefixes, suffixes), synonyms, antonyms, and sentence construction.
+#### Summary strategy
 
-**Key NECO English Paper 2 Format:**
-- Section A: Comprehension (one passage, multiple questions, 25 marks)
-- Section B: Summary (summarise in 50 words, 15 marks)
-- Section C: Vocabulary and Structure (synonyms, antonyms, word formation, 20 marks)
+NECO summary tasks usually target around 120 words in continuous prose. Reduce each paragraph to a single idea, merge ideas that repeat, and discard examples. Begin with a topic sentence that names the writer's main argument, then present supporting points in logical order.
 
-⚡ **NECO Common Mistakes:**
-- Answering what they think rather than what the passage says on literal questions
-- Giving very short or very long summary answers — count your words
-- Not reading the question carefully (e.g., "What is the main idea?" vs "What is the writer's attitude?")
-- Confusing the tone of a passage with the topic it discusses
+| Step | Action |
+| --- | --- |
+| 1 | Number the paragraphs of the passage |
+| 2 | Write one phrase per paragraph capturing its core idea |
+| 3 | Drop illustrations, statistics, and quotations |
+| 4 | Draft in paragraphs, not bullet points |
+| 5 | Count words and trim to the requested length |
+
+#### Common traps
+
+- Choosing the dictionary meaning for a contextually loaded word.
+- Quoting more than four consecutive words in summary — NECO penalises verbatim lifting.
+- Missing the **NOT** or **EXCEPT** in multiple-choice stems.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for NECO English Language preparation.
+> Comprehensive coverage for students on a longer study timeline.
 
-**Advanced Comprehension Strategies**
+#### Reading between the lines
 
-**1. Text Structure Analysis:**
-Writers organise ideas in predictable ways. Recognising the structure helps you locate answers quickly:
-- **Chronological:** Events in time order (narratives, histories)
-- **Cause and effect:** A problem is presented followed by solutions/results
-- **Comparison and contrast:** Two or more things are compared (e.g., rural vs urban)
-- **Definition and example:** A concept is defined and then illustrated
-- **Generalisation and evidence:** A claim is made and supported with examples
+Inference questions reward candidates who notice **cohesive devices** (however, therefore, although, consequently) because those markers signal logical relations the writer assumes the reader will reconstruct. A sentence like "The committee, *albeit reluctantly*, approved the proposal" carries two layers: the literal approval and the attitudinal reservation. Strong NECO candidates write answers that name both layers.
 
-**2. Identifying the Main Idea:**
-The main idea is the central point the writer is making. It is NOT the topic (what the passage is about) but the specific claim or argument about that topic.
+#### Tone, mood, and register
 
-*How to find it:* Ask "What is the writer trying to tell me about this topic?"
-The main idea is often found in the first or last paragraph of expository writing.
+Tone is the writer's attitude toward the subject — sarcastic, indignant, nostalgic, admiring, objective. Mood is the emotional atmosphere the passage creates for the reader. Register refers to the formality level (formal academic, journalistic, conversational). Examiners ask you to identify and justify these with specific lexical evidence: intensifiers ("utterly," "absolutely"), evaluative adjectives ("courageous," "reckless"), irony markers, and punctuation such as the rhetorical question.
 
-**3. Making Inferences — The Logic Chain:**
+#### Worked micro-example
 
-Inference follows a logical pattern:
-```
-Evidence in passage + Background knowledge = Inference
-```
-*Example:*
-- Evidence: "Many students arrived late to the examination hall, some without their calculators."
-- Inference: "The examination was poorly organised" OR "Students were not adequately informed about timing."
+Passage line: "*The governor, in his infinite wisdom, assured the villagers that the new road would arrive 'soon.*'"
+1. **Tone:** sarcastic / critical.
+2. **Evidence:** the phrase *in his infinite wisdom* and the scare-quoted "soon."
+3. **Mood:** weary or cynical.
+4. **Register:** journalistic, mildly formal.
+A weak answer says "the writer is happy." A strong answer says "the writer is critical, shown by the sarcastic phrase *in his infinite wisdom*."
 
-Both are valid inferences if supported by the passage.
+#### Practice prompts
 
-**4. Register and Audience Awareness:**
+1. Read any NECO past comprehension passage and write a 120-word summary in continuous prose, eliminating all direct quotation.
+2. List five cohesive devices from the passage and state the logical relation each one signals (contrast, cause, addition, concession, result).
 
-The writer's register (formal/informal) and intended audience affect word choice:
-- An academic passage uses formal vocabulary and complex sentence structures
-- A newspaper editorial balances formality with accessibility
-- A personal essay may use informal language and first-person narrative
-
-**5. Literary Devices in Prose:**
-
-Skilled writers use literary devices. Recognising these deepens comprehension:
-- **Metaphor:** Direct comparison without "like" or "as" (e.g., "Time is a thief")
-- **Simile:** Comparison using "like" or "as" (e.g., "fast as lightning")
-- **Personification:** Giving human qualities to non-human things
-- **Hyperbole:** Exaggeration for effect ("I've told you a thousand times!")
-- **Irony:** Saying the opposite of what is meant
-- **Alliteration:** Repetition of initial consonant sounds ("dead dark night")
-
-**6. Summary Writing (NECO Paper 2):**
-
-To summarise effectively:
-1. Identify the main points (usually one per paragraph in expository writing)
-2. Exclude examples, anecdotes, and elaborations
-3. Use your own words — paraphrase, don't copy
-4. Stay within the word limit (typically 50 words)
-5. Write in a single paragraph
-
-*Format:* Begin with a reporting clause: "According to the passage..." or "The passage reveals that..."
-
-**7. Vocabulary Building for NECO:**
-
-Common NECO vocabulary items tested include:
-- Words with multiple meanings: "bank" (river bank vs financial institution)
-- Prefix-suffix combinations: "unprecedented" (un- = not, pre- = before, -ed = past)
-- Collocations: "make progress" (not "do progress"), "heavy rain" (not "strong rain")
-
-**NECO Patterns:**
-- NECO Paper 1 (Objective): 50 multiple-choice questions, including comprehension sections
-- Paper 2: One long passage (600–800 words) with 4–5 questions testing literal understanding, inference, vocabulary, and summary
-- Common topics: environmental issues, technology, health, social issues, education
-- Summary answers must be concise — avoid filler words and repetition
+| Mistake | Correction |
+| --- | --- |
+| Answering from general knowledge | Quote or paraphrase the exact textual cue |
+| Copying a sentence verbatim into summary | Replace with a synonym while preserving meaning |
+| Writing summary as bullet points | Use full connected sentences in one paragraph |
+| Ignoring the question directive | Re-read the stem for NOT, EXCEPT, or stated word limits |
 
 ---
-*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+
+## Continue your study
+
+- **[View this topic in your NECO SSCE roadmap](/roadmap/?exam=neco&duration=1mo)** — see where "Comprehension Passages" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=neco&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NECO SSCE exam overview](/exams/neco/)** — pattern, eligibility, and syllabus
+- **[All English Language notes](/notes/neco/english/)** — browse sibling topics in this subject
+
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

@@ -8,7 +8,7 @@ topicName: "Bonds and Debentures"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-08"
 ---
 
 # Bonds and Debentures
@@ -16,306 +16,104 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Bonds and debentures** are debt instruments that allow issuers (governments, corporations, municipalities) to borrow money from investors. Understanding these instruments — their pricing, yields, risk profiles, and tax treatments — is critical for the RBI Grade B examination, especially for the Finance and Economic & Social Issues sections.
+A **bond** is a debt instrument obligating the issuer to pay periodic **coupon interest** on a stated **face value (par)** and to repay the principal at maturity. A **debenture** is an *unsecured* corporate bond backed only by the issuer's general creditworthiness, governed in India by the Companies Act, 2013 (Sections 71–73) and the SEBI (Debenture Trustees) Regulations, 1993.
 
-**Key Facts for RBI Grade B:**
-- A **bond** is a fixed-income instrument with a face value (typically ₹1,000), a coupon rate (interest), and a maturity date.
-- The **yield** is the effective return on a bond — influenced by the coupon rate, purchase price, and time to maturity.
-- **Government Securities (G-Secs)** are the safest bonds in India — backed by the government.
-- **Corporate bonds** carry credit risk — rated by agencies (CRISIL, ICRA, CARE).
-- The **Yield Curve** plots bond yields against maturities — an important tool for predicting economic conditions.
-- **YTM (Yield to Maturity)** is the total return anticipated if a bond is held until it matures.
+The single most-tested formula is the **price-yield** relationship:
 
-**⚡ Exam tip:** Bond pricing, YTM calculations, yield curve concepts, and the distinction between different types of bonds are frequently asked in RBI Grade B.
+$$P = \sum_{t=1}^{n} \frac{C_t}{(1+y)^t} + \frac{F}{(1+y)^n}$$
 
----
+where $C_t$ = periodic coupon (₹), $y$ = periodic YTM, $F$ = face value (₹), $n$ = periods to maturity.
+
+- **Premium** if coupon > YTM; **par** if equal; **discount** if coupon < YTM.
+- **YTM** = IRR of all coupon + principal cash flows to maturity.
+- **Dirty price** = Clean price + accrued interest (use this when settling trades).
+- **Perpetual NCDs** issued by banks qualify as **Basel III Tier-1 (AT1) capital**.
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-## Bond Fundamentals
+#### Bond vs Debenture vs Equity
 
-### Definition and Key Terms
+Bonds sit *senior* to preference share and equity in liquidation but pay a *contractual* return, not a residual one. Within bonds, **secured debentures** carry a charge on specific assets, while **unsecured (naked) debentures** rely only on general credit. Convertible debentures (CCDs) give the holder an option to swap into equity at a predetermined ratio.
 
-A **bond** is a debt security where an investor lends money to a borrower (issuer) for a specified period at a predetermined interest rate (coupon):
+#### Yield Measures
 
-**Key Terms:**
+Three yields appear in numerical questions:
 
-| Term | Definition |
-|---|---|
-| **Face Value (Par Value)** | The nominal value of the bond, typically ₹1,000 — returned at maturity |
-| **Coupon Rate** | Annual interest rate paid on the bond (e.g., 7% of face value) |
-| **Maturity Date** | Date when the bond expires and face value is repaid |
-| **Current Price** | Market price of the bond — may be above or below par |
-| **Yield** | The effective return on the bond, expressed as a percentage |
-| **Tenure** | Time remaining until maturity |
+| Yield | Formula | Used for |
+| --- | --- | --- |
+| Current Yield | $CY = C / P_0$ | Quick income comparison across market prices |
+| Yield to Maturity (YTM) | IRR of all coupons + principal | Total return if held to maturity |
+| Yield to Call (YTC) | IRR to first call date | Callable bonds; YTC < YTM = call risk priced in |
 
-### Types of Bonds
+C = annual coupon (₹); P₀ = current market price (₹).
 
-#### By Issuer
+#### Price-Yield Mechanics
 
-**1. Government Securities (G-Secs):**
-- Issued by the **Central Government** (Gilt-edged securities) or **State Governments** (SDLs — State Development Loans)
-- Risk: **Zero default risk** — backed by the government
-- Tenure: 1 year to 30+ years
-- **Taxation:** Interest taxable; capital gains taxable
-- **Tradable** on NSE and BSE
+The bond price curve is **convex**: a fall in yield produces a larger percentage price gain than the loss from an equal yield rise — this is *convexity*, exploited by long-duration portfolio managers.
 
-**2. Corporate Bonds:**
-- Issued by **private companies, PSUs, banks**
-- Risk: **Credit risk** — possibility of default
-- Rated by **CRISIL, ICRA, CARE, Fitch, Brickwork**
-- Higher yields than G-Secs to compensate for higher risk
+- When $y$ falls 100 bps, price rises; when $y$ rises 100 bps, price falls.
+- Modified Duration $\approx -\%$ price change per 100 bps yield move (a first-order linear approximation).
+- Reinvestment risk grows as YTM rises because coupons reinvest at higher rates.
 
-**3. Public Sector Undertakings (PSU) Bonds:**
-- Issued by government-owned corporations
-- Backed (implicitly) by the government
-- Considered nearly risk-free
+#### Indian Market Structure
 
-#### By Coupon Type
+Government of India securities (G-Secs) trade on the RBI's NDS-OM platform; corporate bonds and NCDs trade on BSE/NSE wholesale debt segments and largely settle through CCIL. Public issues follow SEBI (Issue and Listing of Non-Convertible Securities) Regulations, 2021; private placements route through QIBs with demat-only settlement.
 
-**1. Fixed Rate Bonds:**
-- Coupon rate remains **constant** throughout the bond's life
-- Most common type
+#### Typical RBI Grade B Question Types
 
-**2. Floating Rate Bonds:**
-- Coupon rate **changes** with a reference rate (e.g., linked to repo rate or Treasury bill rate)
-- Advantage: Investor benefits if rates rise
-
-**3. Zero Coupon Bonds:**
-- **No periodic interest payments**
-- Issued at a **deep discount** to face value
-- Face value paid at maturity
-- Example: **T-Bills** are zero coupon instruments
-
-#### By Security
-
-**1. Secured Bonds:**
-- Backed by **collateral** — specific assets
-- In case of default, bondholders can claim the collateral
-
-**2. Unsecured Bonds (Debentures):**
-- **Not backed by collateral**
-- Relies on the issuer's **creditworthiness**
-- Higher risk than secured bonds
-
-### Bond Pricing — Core Concept
-
-**Bond Price = PV of Coupon Payments + PV of Face Value**
-
-The **Present Value (PV)** is calculated by discounting at the **yield (YTM):**
-
-```
-Bond Price = Σ [Coupon / (1+YTM)^t] + [Face Value / (1+YTM)^n]
-```
-
-Where:
-- t = year (1, 2, 3... n)
-- n = number of years to maturity
-- YTM = Yield to Maturity
-
-**Example:**
-- Face Value: ₹1,000
-- Coupon Rate: 7% (annual coupon = ₹70)
-- Maturity: 5 years
-- YTM: 8%
-
-Bond Price = ₹70/(1.08)¹ + ₹70/(1.08)² + ₹70/(1.08)³ + ₹70/(1.08)⁴ + ₹70/(1.08)⁵ + ₹1,000/(1.08)⁵
-
-Bond Price = ₹64.81 + ₹60.01 + ₹55.57 + ₹51.45 + ₹47.64 + ₹680.58 = **₹960.06**
-
-This bond trades **at a discount** because YTM (8%) > Coupon Rate (7%).
-
-**Rule:** When YTM > Coupon Rate → Bond trades at **discount**
-When YTM < Coupon Rate → Bond trades at **premium**
-When YTM = Coupon Rate → Bond trades at **par**
-
----
-
-## YTM (Yield to Maturity) — Detailed
-
-### Definition
-
-**YTM** is the total return anticipated on a bond if held until maturity, assuming all payments are made on time.
-
-### YTM Formula (Approximation)
-
-```
-YTM ≈ [Annual Coupon + (Face Value - Current Price)/Years to Maturity] / [(Face Value + Current Price)/2]
-```
-
-**Example:**
-- Face Value: ₹1,000
-- Current Price: ₹960
-- Annual Coupon: ₹70
-- Years to Maturity: 5
-
-YTM ≈ [70 + (1,000 - 960)/5] / [(1,000 + 960)/2]
-YTM ≈ [70 + 8] / 980
-YTM ≈ 78 / 980 = **7.96%**
-
-### Determinants of Bond Yields
-
-1. **Interest Rate Environment:** Rising rates → bond prices fall → yields rise
-2. **Credit Quality:** Lower rated bonds → higher yields to compensate
-3. **Time to Maturity:** Longer tenure → typically higher yield (normal yield curve)
-4. **Liquidity:** Less liquid bonds → higher yields
-
----
-
-## The Yield Curve
-
-### Definition
-
-The **Yield Curve** plots the yields (interest rates) of bonds against their maturities:
-
-```
-Yield (%)
-    │                          ████
-    │                    ████████
-    │               ████████
-    │          ████████
-    │     ████████
-    │████████████████
-    └─────────────────────────────
-        1yr  3yr  5yr  10yr  20yr
-```
-
-### Types of Yield Curves
-
-**1. Normal (Upward Sloping):**
-- Short-term yields < Long-term yields
-- Most common — reflects normal economic conditions
-- **Interpretation:** Investors demand higher returns for longer commitment
-
-**2. Inverted (Downward Sloping):**
-- Short-term yields > Long-term yields
-- **Interpretation:** Often a **predictor of recession** — markets expect future rate cuts
-
-**3. Flat:**
-- Short-term and long-term yields are similar
-- **Interpretation:** Transition between normal and inverted
-
-### What the Yield Curve Signals
-
-**Normal Curve → Economic expansion**
-**Inverted Curve → Recession ahead**
-**Steepening Curve → Recovery beginning**
-
-### The RBI and the Yield Curve
-
-The RBI's **Monetary Policy Committee (MPC)** uses the yield curve to assess:
-- Inflation expectations
-- Economic growth prospects
-- Market interest rate expectations
-
----
-
-## Debentures — Distinction from Bonds
-
-| Feature | Debenture | Bond |
-|---|---|---|
-| **Issuer** | Usually corporations | Usually government or PSUs |
-| **Security** | Generally unsecured | Usually secured by assets |
-| **Registration** | Not always mandatorily registered | Usually registered |
-| **Trust Deed** | Mandatorily issued with trust deed | Required for bonds |
-
-### Types of Debentures
-
-**1. Non-Convertible Debentures (NCDs):**
-- Cannot be converted into equity shares
-- Pay fixed interest — popular investment option
-
-**2. Partly Convertible Debentures (PCDs):**
-- Part converts into equity; part remains as debt
-
-**3. Fully Convertible Debentures (FCDs):**
-- Entire debenture converts into equity at a predetermined ratio
-
-**4. Zero Interest Debentures:**
-- No coupon — issued at deep discount
-- Face value paid at maturity
-
----
+1. Compute current yield or price from coupon, YTM, maturity.
+2. Identify whether a bond trades at premium/par/discount.
+3. State whether a perpetual NCD qualifies as AT1 capital (yes, for banks).
+4. Name the trustee or regulator (SEBI's Debenture Trustee Regulations, 1993).
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-## Duration and Modified Duration
+#### Worked Numerical — Bond Price
 
-### Duration
+A 5-year bond, face value ₹1,000, annual coupon 10% (₹100/yr), YTM 8%.
 
-**Duration** measures a bond's **sensitivity to interest rate changes** — expressed in years:
+- $P = \frac{100}{1.08} + \frac{100}{1.08^2} + \frac{100}{1.08^3} + \frac{100}{1.08^4} + \frac{1100}{1.08^5}$
+- $P ≈ 92.59 + 85.73 + 79.38 + 73.50 + 680.58 ≈ 1,011.78$
 
-**Macaulay Duration:**
-- Weighted average time to receive all cash flows (coupons and principal)
-- Higher duration → Higher sensitivity to rate changes
+The bond trades at a **premium** (coupon 10% > YTM 8%). Approximate YTM check using $[C + (F-P)/n]/[(F+P)/2] = [100 + (1000-1011.78)/5]/[(1000+1011.78)/2] ≈ 9.86%$.
 
-**Modified Duration:**
-- Modified Duration = Macaulay Duration / (1 + YTM/n)
-- Measures the % change in bond price for a 1% change in yield
+#### Approximate YTM — Exam Shortcut
 
-**Example:**
-- Modified Duration = 5 years
-- If yields rise by 1% → Bond price falls by approximately **5%**
-- If yields fall by 1% → Bond price rises by approximately **5%**
+For non-calculator MCQs, the shortcut formula suffices:
 
-### Why Duration Matters
+$$YTM \approx \frac{C + \frac{F-P}{n}}{\frac{F+P}{2}} \times 100$$
 
-For **RBI Grade B**, understanding duration is crucial because:
-- When RBI raises repo rates, bond prices fall
-- The extent of price change depends on duration
-- Portfolio managers use duration to manage **interest rate risk**
+Accuracy improves when price is near par and maturity is short.
 
-**Practical application:**
-- If you expect RBI to **raise rates**, invest in **short-duration bonds** (lower duration)
-- If you expect RBI to **cut rates**, invest in **long-duration bonds** (higher duration) — prices will rise more
+#### Edge Cases and Traps
 
-### Credit Rating Agencies
+1. **Accrued interest**: a buyer settling 90 days into a 180-day coupon period pays clean price + 50% of the coupon.
+2. **Indexation** is *not* available on listed NCD interest — only capital-gains indexation applies on sale. Many students wrongly apply it to interest income.
+3. **Perpetual AT1 bonds** carry a Basel III *coupon discretion* clause: the bank may skip coupons without triggering default, and the instrument is written down if the issuer hits a trigger event.
+4. **Zero-coupon bonds** price at a deep discount because all reinvestment risk is concentrated at maturity.
 
-In India, **credit rating agencies** assess bond credit quality:
+#### Adjacent Topics to Link
 
-| Agency | Rating Symbol |
-|---|---|
-| **CRISIL** | CRISIL AAA, AA, A, BBB |
-| **ICRA** | ICRA AAA, AA, A, BBB |
-| **CARE** | CARE AAA, AA, A, BBB |
-| **India Ratings** | IND AAA, AA, A, BBB |
+- **Term structure of interest rates** (yield curve shapes).
+- **Credit risk and rating migration** (CRAs: CRISIL, ICRA, CARE, India Ratings).
+- **Securitisation and SARFAESI** for NBFC/HFC bond portfolios.
+- **Basel III capital adequacy** — where AT1 perpetual NCDs slot in.
 
-**Rating meanings:**
-- **AAA (or highest):** Extremely strong capacity to pay interest and principal — virtually no default risk
-- **AA:** Very strong capacity — slightly higher risk than AAA
-- **A:** Strong capacity — susceptible to adverse changes
-- **BBB:** Adequate capacity — but adverse conditions could impair it
-- **Below BBB:** Junk status — speculative
+#### Practice Prompts
 
-### Taxation of Bonds
+1. A 3-year bond of face value ₹500 pays 9% annual coupon. YTM is 11%. Compute the price and state whether it trades at premium, par or discount.
+2. Explain in 4 lines why a callable bond's YTC is generally lower than its YTM, and what this implies for the investor's reinvestment option.
 
-| Bond Type | Interest/Tax | Capital Gains Tax |
-|---|---|---|
-| **G-Secs** | Taxable at slab rate | Capital gains taxable |
-| **Corporate Bonds** | Taxable at slab rate | Capital gains taxable |
-| **Capital Gains Bonds (54EC)** | Tax-free | Locked; 54EC bonds |
-| **Infrastructure Bonds** | Section 80CCF eligible | — |
+---
 
-**Capital Gains Bonds (54EC):**
-- Exempt from capital gains tax if proceeds reinvested
-- Lock-in: 5 years
-- Available for: NHAI, REC, PFC bonds
+## Continue your study
 
-### Practice Questions for RBI Grade B
-
-1. A bond with face value ₹1,000, coupon rate 8%, maturity in 5 years, is trading at ₹950. Calculate its approximate YTM.
-2. What is the difference between a bond trading at par, at a discount, and at a premium?
-3. What does an inverted yield curve indicate about the economy?
-4. What is the difference between a debenture and a bond? Which is generally safer?
-5. If the repo rate rises, what happens to bond prices? Explain with reference to duration.
-
-### Common Mistakes to Avoid
-
-- **Confusing coupon rate with yield** — coupon rate is fixed; yield changes with bond price.
-- **Forgetting that bond prices and yields move in opposite directions** — when yields rise, bond prices fall.
-- **Confusing duration with maturity** — they are related but different; duration is a measure of interest rate sensitivity.
+- **[View this topic in your RBI Grade B roadmap](/roadmap/?exam=rbi-grad-b&duration=1mo)** — see where "Bonds and Debentures" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=rbi-grad-b&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[RBI Grade B exam overview](/exams/rbi-grad-b/)** — pattern, eligibility, and syllabus
+- **[All Finance notes](/notes/rbi-grad-b/finance/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

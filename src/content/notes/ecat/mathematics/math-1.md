@@ -8,7 +8,7 @@ topicName: Quadratic Equations and Inequalities
 weight: 4
 country: pakistan
 generated: "2026-03-24T08:32:08.063541"
-lastUpdated: 2026-03-24
+lastUpdated: "2026-09-08"
 diagramPrompt: "Mathematical diagram showing Quadratic Equations and Inequalities concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style"
 
 
@@ -17,139 +17,80 @@ diagramPrompt: "Mathematical diagram showing Quadratic Equations and Inequalitie
 # Quadratic Equations and Inequalities
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your ECAT exam.
+> Rapid summary for last-minute revision before your exam.
 
-A **quadratic equation** has the form $ax^2 + bx + c = 0$ where $a \neq 0$.
+A **quadratic equation** in $x$ has the standard form $ax^2 + bx + c = 0$ with $a, b, c \in \mathbb{R}$ and $a \neq 0$. Its solutions are found from the **quadratic formula** $x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a}$, where $D = b^2 - 4ac$ is the **discriminant**. The roots satisfy **Vieta's relations**: sum $= -b/a$ and product $= c/a$.
 
-**Quadratic Formula:**
-$$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
-
-The **discriminant** $D = b^2 - 4ac$ determines the nature of roots:
-- $D > 0$: two distinct real roots
-- $D = 0$: two equal (one repeated) real roots
-- $D < 0$: two complex conjugate roots
-
-**Sum and Product of Roots:**
-If $\alpha$ and $\beta$ are roots:
-$$\alpha + \beta = -\frac{b}{a} \quad \text{(sum of roots)}$$
-$$\alpha \beta = \frac{c}{a} \quad \text{(product of roots)}$$
-
-**Nature of Roots — Quick Tests:**
-- $\alpha + \beta > 0$ and $\alpha \beta > 0$: both roots are positive
-- $\alpha + \beta < 0$ and $\alpha \beta > 0$: both roots are negative
-- $\alpha \beta < 0$: roots have opposite signs
-
-**⚡ ECAT exam tips:**
-- To form a quadratic from given roots: $x^2 - (\text{sum})x + \text{product} = 0$
-- If one root is $\sqrt{2}$, the other is $-\sqrt{2}$ (irrational roots occur in conjugate pairs)
-- For equal roots: $b^2 = 4ac$; this is the condition for the quadratic to have a repeated root
+- $D > 0$: two distinct real roots; $D = 0$: one repeated root; $D < 0$: complex conjugate roots (no real solutions).
+- Quadratic inequalities $ax^2 + bx + c \gtrless 0$ are solved by plotting the roots on a number line and reading the sign of the parabola between them (sign chart method).
+- Vertex of $y = ax^2 + bx + c$ sits at $x = -b/(2a)$, $y = -D/(4a)$ — useful for maxima/minima and for finding the range of a quadratic expression.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> For ECAT students who want genuine understanding.
+> Standard content for students with a few days to months.
 
-**Solving Quadratic Inequalities:**
+#### Standard Form and the Three Solution Methods
 
-**Method:** First solve the equation $ax^2 + bx + c = 0$ to find critical points. Then test intervals.
+Every quadratic is written as $ax^2 + bx + c = 0$, with $a \neq 0$. ECAT expects fluency in three routes to the roots: **factorization** (split the middle term when the discriminant is a perfect square), **completing the square** ($x = \left(x + \dfrac{b}{2a}\right)^2 - \dfrac{D}{4a^2}$), and the **quadratic formula**. Always verify $a \neq 0$ first — a missing $x^2$ term converts the equation into a linear one.
 
-**Example:** Solve $x^2 - 5x + 6 < 0$.
-Factor: $(x-2)(x-3) < 0$.
-Critical points: $x = 2, 3$. Test: for $x < 2$: both factors negative → product positive. For $2 < x < 3$: $(x-2) > 0$, $(x-3) < 0$ → product negative. For $x > 3$: both positive → product positive.
-Solution: $2 < x < 3$.
+#### Discriminant and Nature of Roots
 
-**Key inequality result:** For a quadratic $ax^2 + bx + c$:
-- If $a > 0$ and $D < 0$: $ax^2 + bx + c > 0$ for all real $x$ (always positive)
-- If $a < 0$ and $D < 0$: $ax^2 + bx + c < 0$ for all real $x$ (always negative)
+The discriminant $D = b^2 - 4ac$ decides the root structure without solving explicitly. This is heavily tested because ECAT questions frequently ask *"for what value of $k$ do the roots…?"* and the answer comes straight from an inequality on $D$.
 
-**Maximum and Minimum Values:**
-For $y = ax^2 + bx + c$ with $a > 0$: minimum at $x = -b/(2a)$, minimum value = $\frac{4ac - b^2}{4a}$.
-For $a < 0$: maximum at $x = -b/(2a)$, maximum value = $\frac{4ac - b^2}{4a}$.
+| Case | Condition on $D$ | Nature of roots |
+| --- | --- | --- |
+| Two distinct real | $D > 0$ | $x_1 \neq x_2 \in \mathbb{R}$ |
+| One repeated real | $D = 0$ | $x_1 = x_2 = -b/(2a)$ |
+| No real roots | $D < 0$ | Complex conjugate pair $x = \alpha \pm i\beta$ |
 
-**Transformation of Equations:**
+#### Vieta's Formulas and Sign of Roots
 
-If $\alpha, \beta$ are roots of $ax^2 + bx + c = 0$:
-- Sum of roots squared: $\alpha^2 + \beta^2 = (\alpha+\beta)^2 - 2\alpha\beta = \frac{b^2}{a^2} - \frac{2c}{a}$
-- Product of roots cubed: $\alpha^3 \cdot \beta^3 = (\alpha\beta)^3 = \frac{c^3}{a^3}$
-- Reciprocal roots equation: $cx^2 + bx + a = 0$
+For roots $x_1, x_2$: $x_1 + x_2 = -b/a$ and $x_1 x_2 = c/a$. These let you build a quadratic from its roots as $x^2 - (sum)x + (product) = 0$, and decide sign behaviour: if $D \geq 0$ and $c/a > 0$, both roots share the sign of $-b/a$.
 
-**⚡ Common student mistakes:**
-1. Forgetting that $a \neq 0$ in a quadratic — if $a = 0$, it's linear, not quadratic
-2. Not checking whether roots are real before applying certain conditions
-3. Solving inequalities by dividing by a variable without considering sign changes
-4. Confusing the sign in the quadratic formula: $x = (-b \pm \sqrt{D})/(2a)$
+#### Quadratic Inequalities (Sign Chart Method)
+
+For $ax^2 + bx + c > 0$ or $< 0$, factor or find roots, then mark them on a number line. Because the parabola has at most two sign changes, the sign alternates between intervals. A positive leading coefficient $a > 0$ means the expression is positive outside the roots and negative between them; for $a < 0$, the pattern flips. Always write the answer in **interval notation** such as $(-\infty, x_1) \cup (x_2, \infty)$.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for ECAT mastery of quadratic equations.
+> Comprehensive coverage for students on a longer study timeline.
 
-**The Discriminant — Geometric Interpretation:**
+#### Worked Example — Combined Discriminant + Vieta Question
 
-The discriminant $D = b^2 - 4ac$ is actually $(2a \cdot \text{vertex } x\text{-coordinate} + b)^2$ in a shifted form. In vertex form $a(x-h)^2 + k = 0$, the discriminant equals $4a^2$ times the difference between the vertex $y$-value and zero.
+> ECAT trick: when asked for two conditions simultaneously (e.g., *real roots AND both positive*), use $D \geq 0$ plus $sum > 0$ plus $product > 0$.
 
-**Condition for Common Roots:**
+#### Find $k$ so that $x^2 - 4x + (k-1) = 0$ has two distinct positive roots.
+Here $a = 1$, $b = -4$, $c = k-1$. Two distinct real roots require $D = 16 - 4(k-1) > 0 \Rightarrow k < 5$. Both positive requires sum $= 4 > 0$ (auto-satisfied) and product $= k - 1 > 0 \Rightarrow k > 1$. Intersection: $1 < k < 5$.
 
-If two quadratics $a_1x^2 + b_1x + c_1 = 0$ and $a_2x^2 + b_2x + c_2 = 0$ share a common root:
-$$\frac{a_1}{a_2} = \frac{b_1}{b_2} = \frac{c_1}{c_2}$$
-Or equivalently, using the resultant:
-$$a_1b_2 - a_2b_1 + b_1c_2 - b_2c_1 + c_1a_2 - c_2a_1 = 0$$
-This is the condition for the two equations to have a common root.
+#### Edge Cases and Common Mistakes
 
-**Location of Roots:**
+- Dividing an inequality by a negative number without flipping the $<$ or $>$ sign is the single most common error in inequality MCQs.
+- Confusing the **vertex** $x$-coordinate $-b/(2a)$ with a root — the vertex is the turning point, not a zero of the polynomial.
+- Treating $D < 0$ as "no solution" rather than "no **real** solution"; complex roots still satisfy the equation.
 
-Let $f(x) = ax^2 + bx + c$:
-- Both roots greater than $\alpha$: $f(\alpha) > 0$ and $-b/(2a) > \alpha$ (vertex to the right of $\alpha$)
-- Both roots less than $\alpha$: $f(\alpha) > 0$ and $-b/(2a) < \alpha$
-- One root less than $\alpha$ and one greater: $f(\alpha) < 0$
-- Both roots between $\alpha$ and $\beta$ (where $\alpha < \beta$): $f(\alpha) > 0$, $f(\beta) > 0$, and vertex between $\alpha$ and $\beta$
+#### Adjacent-Topic Links
 
-**Descartes' Rule of Signs (for positive roots):**
+| Connected topic | Why it matters here |
+| --- | --- |
+| Complex numbers | $D < 0$ roots are written $\alpha \pm i\beta$ with modulus $\sqrt{\alpha^2 + \beta^2}$ |
+| Coordinate geometry | The parabola $y = ax^2 + bx + c$ links to circle/line intersection problems |
+| Sequences & series | Roots of $x^2 - Sx + P = 0$ generate AP/GP problems via Vieta's |
+| Maxima/minima | Vertex $y = -D/(4a)$ gives the range of any quadratic expression |
 
-The number of positive real roots of $f(x) = 0$ is at most the number of sign changes in $f(x)$, and differs from it by an even number.
-For $f(x) = x^3 - 6x^2 + 11x - 6 = 0$: sign changes: $+ \to - \to + \to -$: 3 changes → 3 or 1 positive roots. Indeed: roots are 1, 2, 3.
+#### Practice Prompts
 
-**Irrational Roots:**
+1. Solve $2x^2 - 7x + 3 \leq 0$ and express the solution set in interval notation.
+2. If $\alpha, \beta$ are roots of $x^2 - 5x + 6 = 0$, form the quadratic whose roots are $\alpha^2$ and $\beta^2$ using Vieta's formulas.
 
-Irrational roots of a quadratic with rational coefficients occur in conjugate pairs. If $\sqrt{p}$ is a root (where $p$ is not a perfect square), then $-\sqrt{p}$ is also a root.
+---
 
-**Vieta's Formulas for Higher Degree:**
+## Continue your study
 
-For a cubic $ax^3 + bx^2 + cx + d = 0$ with roots $\alpha, \beta, \gamma$:
-- $\alpha + \beta + \gamma = -b/a$
-- $\alpha\beta + \beta\gamma + \gamma\alpha = c/a$
-- $\alpha\beta\gamma = -d/a$
+- **[View this topic in your ECAT (Engineering College Admission Test) roadmap](/roadmap/?exam=ecat&duration=1mo)** — see where "Quadratic Equations and Inequalities" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ecat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[ECAT (Engineering College Admission Test) exam overview](/exams/ecat/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/ecat/mathematics/)** — browse sibling topics in this subject
 
-**Quadratic Inequalities — Interval Testing:**
-
-For $ax^2 + bx + c > 0$:
-- If $a > 0$ and $D \leq 0$: always true (or never zero)
-- If $a > 0$ and $D > 0$: $x < x_1$ or $x > x_2$ (where $x_1 < x_2$ are roots)
-- If $a < 0$ and $D > 0$: $x_1 < x < x_2$
-
-For $ax^2 + bx + c < 0$:
-- Reverse the inequalities above
-
-**Problem Type — Worked Example:**
-
-**Find the range of $k$ for which $x^2 - (k-2)x + (k^2 - 4) = 0$ has both roots positive.**
-
-Conditions:
-1. $D \geq 0$: $(k-2)^2 - 4(k^2-4) \geq 0 \Rightarrow k^2 - 4k + 4 - 4k^2 + 16 \geq 0 \Rightarrow -3k^2 - 4k + 20 \geq 0 \Rightarrow 3k^2 + 4k - 20 \leq 0$.
-   Roots of $3k^2 + 4k - 20 = 0$: $k = \frac{-4 \pm \sqrt{16 + 240}}{6} = \frac{-4 \pm 16}{6}$. So $k = 2$ or $k = -10/3$. Between them: $-10/3 \leq k \leq 2$.
-
-2. Sum of roots $> 0$: $(k-2) > 0 \Rightarrow k > 2$.
-
-3. Product of roots $> 0$: $k^2 - 4 > 0 \Rightarrow k > 2$ or $k < -2$.
-
-Combining: $k > 2$ (from sum) AND $k > 2$ OR $k < -2$ (from product) → $k > 2$. Combined with $k \leq 2$: no solution! So there is no value of $k$ for which both roots are strictly positive. Check endpoint $k=2$: $x^2 - 0x + 0 = 0 \Rightarrow x = 0$ (repeated root, not strictly positive). So answer: no real $k$ satisfies all three conditions.
-
-**ECAT Previous Year Patterns:**
-- Quadratic formula: very common
-- Discriminant and nature of roots: very common
-- Sum and product of roots: common
-- Forming equations from roots: common
-- Quadratic inequalities: common
-- Maximum/minimum values: periodic
-
-*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

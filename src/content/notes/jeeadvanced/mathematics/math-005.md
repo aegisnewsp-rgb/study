@@ -11,152 +11,88 @@ topicName: Continuity
 weight: 5
 country: india
 generated: "2026-03-24T08:32:07.935678"
-lastUpdated: 2026-03-24
+lastUpdated: "2026-09-08"
 diagramPrompt: "Mathematical diagram showing Continuity concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style"
 
 
 
 
 ---
+
 # Continuity
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Definition:**
-A function $f$ is continuous at $x = a$ if:
-$$\lim_{x \to a} f(x) = f(a)$$
+A function **f(x)** is **continuous at x = a** when three conditions hold together: **f(a)** is defined, **lim(x→a) f(x)** exists as a finite value, and that limit equals **f(a)**. Polync, sin, cos, and exponentials are continuous on all of **ℝ**, so direct substitution works at every real point.
 
-Equivalently: $\lim_{x \to a^-} f(x) = \lim_{x \to a^+} f(x) = f(a)$.
+| Condition | Check |
+| --- | --- |
+| f(a) defined | Value must be finite |
+| lim(x→a) f(x) exists | Left and right limits equal |
+| Limit = f(a) | Substitution valid |
 
-**Types of Discontinuity:**
-
-1. **Removable:** Limit exists but not equal to $f(a)$ (or $f(a)$ undefined)
-   - Example: $f(x) = \frac{x^2-1}{x-1}$ at $x=1$ (limit is 2, but define $f(1)=3$ removes it)
-2. **Jump (Finite discontinuity):** Left and right limits exist but are different
-   - Example: signum function $\text{sgn}(x)$
-3. **Infinite discontinuity:** One or both one-sided limits diverge to $\infty$ or $-\infty$
-   - Example: $1/x$ at $x=0$
-
-**Standard Continuous Functions:**
-- Polynomials: continuous everywhere
-- Rational functions: continuous wherever denominator $\neq 0$
-- $\sin x, \cos x$: continuous everywhere
-- $e^x, \ln x$: continuous on their domains
-
-⚡ **JEE Tip:** To check continuity of $f(x) = \frac{g(x)}{h(x)}$ at $x=a$ where $h(a) = 0$, first check if $g(a) = 0$. If both are zero, factor and cancel, or use limit.
-
-⚡ **Common Mistake:** Continuity does not imply differentiability. A function can be continuous at a point yet fail to be differentiable there. The standard example is $f(x) = |x|$, which is continuous at $0$ but has no derivative at $0$ (the left-hand and right-hand slopes are $-1$ and $+1$). Other examples of continuous-but-not-differentiable functions include $f(x) = x^{1/3}$ at $0$ (vertical tangent) and the Weierstrass function, which is continuous everywhere but differentiable nowhere.
-
----
+- **Differentiability ⇒ continuity**, but continuity does **not** imply differentiability (counter-example: f(x)=|x| at 0).
+- Discontinuities are classified as **removable**, **jump**, or **infinite** — JEE Advanced often asks for the type.
+- Use the **Intermediate Value Theorem (IVT)** on [a, b] to prove a root exists when f is continuous and f(a)·f(b) < 0.
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> For students who want genuine understanding.
+> Standard content for students with a few days to months.
 
-**Continuity on an Interval:**
+#### The ε–δ form
 
-- $f$ is continuous on $(a,b)$ if continuous at every point in $(a,b)$
-- $f$ is continuous on $[a,b]$ if continuous on $(a,b)$ and $\lim_{x \to a^+} f(x) = f(a)$ and $\lim_{x \to b^-} f(x) = f(b)$
+The textbook condition $\lim_{x \to a} f(x) = f(a)$ can be rewritten: for every ε > 0, there exists δ > 0 such that $|x - a| < \delta$ implies $|f(x) - f(a)| < \varepsilon$. This equivalence lets you test continuity numerically and is the form used in proof-based JEE Advanced questions.
 
-**Intermediate Value Theorem (IVT):**
-If $f$ is continuous on $[a,b]$ and $k$ is between $f(a)$ and $f(b)$, then there exists $c \in [a,b]$ such that $f(c) = k$.
+#### Continuity of combinations
 
-**Properties:**
+If **f** and **g** are both continuous at x = a, then **f + g**, **f · g**, and (where g(a) ≠ 0) **f / g** are continuous at a. For composition: if **g** is continuous at a and **f** is continuous at g(a), then **f ∘ g** is continuous at a. Inverse trigonometric functions inherit continuity on their principal domains (e.g. arctan on ℝ, arcsin on [−1, 1]).
 
-If $f$ and $g$ are continuous at $a$, then:
-- $f+g$ is continuous at $a$
-- $f \cdot g$ is continuous at $a$
-- $\frac{f}{g}$ is continuous at $a$ if $g(a) \neq 0$
+#### Discontinuity classification
 
-**Composite Function:**
-If $f$ is continuous at $a$ and $g$ is continuous at $f(a)$, then $g \circ f$ is continuous at $a$.
+| Type | Limit behaviour | Typical example |
+| --- | --- | --- |
+| Removable | Two-sided limit exists but ≠ f(a) or f(a) undefined | f(x) = sin(x)/x at x = 0 |
+| Jump | Left and right limits finite but unequal | f(x) = sign(x) at x = 0 |
+| Infinite | Limit tends to ±∞ | f(x) = 1/(x − a) at x = a |
 
-**Uniform Continuity:**
-
-$f$ is uniformly continuous on $I$ if $\forall \epsilon > 0, \exists \delta > 0$ such that $|x-y| < delta$ implies $|f(x)-f(y)| < \epsilon$.
-
-Key distinction: $\delta$ depends only on $\epsilon$ (not on $x$). Uniform continuity on a closed bounded interval implies continuity.
-
-**Worked Examples:**
-
-*Example 1:* Check continuity of $f(x) = \begin{cases} x^2 & x < 2 \\ 3x-2 & x \geq 2 \end{cases}$ at $x=2$.
-
-$\lim_{x \to 2^-} f(x) = 2^2 = 4$.
-$\lim_{x \to 2^+} f(x) = 3(2)-2 = 4$.
-$f(2) = 3(2)-2 = 4$.
-Since all three are 4, $f$ is continuous at $x=2$.
-
-*Example 2 (JEE 2021):* For what value of $k$ is $f(x) = \begin{cases} \frac{\sin 3x}{x} & x \neq 0 \\ k & x = 0 \end{cases}$ continuous at $x=0$?
-
-We need $\lim_{x \to 0} \frac{\sin 3x}{x} = f(0) = k$.
-$\lim_{x \to 0} \frac{\sin 3x}{x} = 3 \cdot \frac{\sin 3x}{3x} \to 3 \cdot 1 = 3$.
-So $k = 3$.
-
-*Example 3:* Show that $f(x) = \frac{1}{x}$ is not uniformly continuous on $(0,1)$.
-
-Take $\epsilon = 1$.
-For any $\delta > 0$, choose $n$ large so $1/n < \delta$.
-Let $x = 1/(2n), y = 1/n$.
-Then $|x-y| = 1/(2n) < \delta$ for large $n$.
-$|f(x)-f(y)| = |2n - n| = n \geq 1$.
-Since $\delta$ can be made arbitrarily small, this violates uniform continuity.
-
-Note: $f(x) = 1/x$ IS continuous on $(0,1)$ but NOT uniformly continuous.
-
----
+- Always check **all three** conditions at the suspect point before declaring continuity.
+- **IVT**: if f is continuous on [a, b] and k lies strictly between f(a) and f(b), then some c in (a, b) satisfies f(c) = k. Standard use: locating roots when sign changes.
+- A function continuous on a closed interval is **bounded** and attains its maximum and minimum (Extreme Value Theorem).
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive theory for serious JEE Advanced preparation.
+> Comprehensive coverage for students on a longer study timeline.
 
-**Continuity and Differentiability:**
+#### Continuity vs differentiability
 
-If $f$ is differentiable at $a$, then $f$ is continuous at $a$.
-Converse is false: $f(x) = |x|$ is continuous at $0$ but not differentiable at $0$.
+The implication runs one way: **differentiability at a point forces continuity there**, because $\lim_{x \to a}[f(x) - f(a)] = \lim_{x \to a} \frac{f(x)-f(a)}{x-a} \cdot (x-a) = f'(a) \cdot 0 = 0$. The converse fails — f(x) = |x| and f(x) = x sin(1/x) (with f(0)=0) are continuous at 0 but have no derivative there. JEE Advanced exploits this asymmetry in assertion–reason items.
 
-**Types of Discontinuities in Classification:**
+#### Worked micro-example
 
-1. **Limitable discontinuities** (both one-sided limits exist):
-   - Removable (limit = finite value)
-   - Jump (finite but unequal one-sided limits)
-   
-2. **Non-limitable discontinuities** (at least one one-sided limit is infinite):
-   - Infinite discontinuity
-   - Oscillatory discontinuity (e.g., $\sin(1/x)$ at $0$)
+Let $f(x) = \dfrac{x^2 - 4}{x - 2}$ for x ≠ 2, and let f(2) = 5. Test continuity at x = 2.
 
-**Special Limits and Continuity:**
+1. f(2) = 5 is defined.
+2. $\lim_{x \to 2} \dfrac{x^2 - 4}{x - 2} = \lim_{x \to 2} (x + 2) = 4$.
+3. Since 4 ≠ 5, the limit exists but differs from f(2). The discontinuity is **removable**; redefining f(2) = 4 makes it continuous.
 
-$f(x) = \sin(1/x)$ for $x \neq 0$ and $f(0) = 0$:
-- One-sided limits do not exist (oscillatory)
-- Not removable
-- The limit $\lim_{x \to 0} \sin(1/x)$ does not exist (oscillates between -1 and 1)
+#### Common mistakes and exam traps
 
-**Weierstrass Function:**
-$f(x) = \sum_{n=0}^{\infty} a^n \cos(b^n \pi x)$ with $0 < a < 1$ and $b$ odd integer $> 1/a$.
-This function is continuous everywhere but differentiable nowhere.
+| Mistake | Why it costs marks |
+| --- | --- |
+| Skipping the "f(a) defined" check | A piece-wise function with a hole is not continuous at the hole |
+| Calling every undefined point "infinite" | sin(x)/x at 0 has a finite limit — it is removable, not infinite |
+| Applying IVT on (a, b) or with a discontinuous f | Conclusion is invalid; IVT needs a closed interval and full continuity |
+| Forgetting the g(a) ≠ 0 condition for f/g | A zero denominator makes the quotient discontinuous even if f is continuous |
 
-**Advanced Problems:**
-
-*Problem (JEE Advanced 2023):* Let $f: \mathbb{R} \to \mathbb{R}$ be continuous and $f(f(x)) = x$ for all $x \in \mathbb{R}$. Prove that there exists $c \in \mathbb{R}$ such that $f(c) = c$.
-
-We know $f$ is continuous and involutive ($f = f^{-1}$).
-Consider $g(x) = f(x) - x$. If $g(x) > 0$ for all $x$, then $f(x) > x$ for all $x$.
-But then $f(f(x)) > f(x) > x$, contradicting $f(f(x)) = x$.
-Similarly $g(x) < 0$ for all $x$ gives contradiction.
-So by IVT (since $g$ is continuous), there exists $c$ with $g(c) = 0$, i.e., $f(c) = c$.
-
-*Problem:* Prove that every polynomial of odd degree has at least one real root.
-
-Let $P(x)$ be polynomial of odd degree $n$.
-As $x \to \infty$, $P(x) \sim a_n x^n$ where $a_n > 0$ (or $< 0$ depending).
-So $\lim_{x \to \infty} P(x) = \infty$ and $\lim_{x \to -\infty} P(x) = -\infty$ (for $a_n > 0$).
-Since $P$ is continuous (polynomial), by IVT there exists $c$ with $P(c) = 0$.
-
-**JEE Advanced Patterns (2018–2024):**
-- IVT applications are very common in proving existence of roots
-- Continuity of composite functions tested in 2020
-- Continuity with parameters (finding $k$ for continuity) is frequent
-- Uniform continuity questions are rare but appear in tough sets
-- Discontinuity classification appeared in 2019, 2022
+- Use the **Sandwich theorem** with continuous bounding functions (e.g. −|x sin(1/x)| ≤ f(x) ≤ |x sin(1/x)|) to establish continuity where direct substitution fails.
+- **Exam strategy**: Continuity is roughly 5% of JEE Advanced Mathematics, usually one MCQ or numerical in Paper 1 or 2. Pair it with Limits practice; questions on discontinuity type and IVT-based root existence appear almost every year.
 
 ---
-*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+
+## Continue your study
+
+- **[View this topic in your JEE Advanced roadmap](/roadmap/?exam=jeeadvanced&duration=1mo)** — see where "Continuity" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=jeeadvanced&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[JEE Advanced exam overview](/exams/jeeadvanced/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/jeeadvanced/mathematics/)** — browse sibling topics in this subject
+
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

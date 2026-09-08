@@ -8,7 +8,7 @@ topicName: Lipid Metabolism
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-06-23"
+lastUpdated: "2026-09-08"
 ---
 
 # Lipid Metabolism
@@ -16,58 +16,93 @@ lastUpdated: "2026-06-23"
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Lipid metabolism** covers the breakdown (β-oxidation, lipolysis), synthesis (lipogenesis), and transport of fatty acids, triacylglycerols, phospholipids, cholesterol, and ketone bodies. **β-oxidation** occurs in the mitochondrial matrix, removes 2-carbon units as **acetyl-CoA** per cycle, and requires the **carnitine shuttle** (carnitine acyltransferase I, inhibited by **malonyl-CoA**) for long-chain fatty acyl-CoAs. **Lipogenesis** begins with **acetyl-CoA carboxylase** (rate-limiting; acetyl-CoA → **malonyl-CoA**) followed by fatty acid synthase, yielding **palmitate (C16)**. **Ketogenesis** (HMG-CoA reductase-regulated indirectly) produces acetoacetate, β-hydroxybutyrate, and acetone in liver mitochondria during prolonged fasting. Quick formulas: ATP per palmitate = **106 ATP**; β-oxidation cycles for C16 = **8**; acetyl-CoA formed = **n/2**. RQ for fats = **0.7**. Saponification number = (mL KOH × N × 56)/weight. **High-yield FMGE pointers**: odd-chain FA gives **propionyl-CoA → succinyl-CoA**; lipase enzymes (lipoprotein lipase, hormone-sensitive lipase); essential fatty acids = **linoleic (ω-6)**, **α-linolenic (ω-3)**; VLDL transports endogenous TG, LDL carries cholesterol, HDL is anti-atherogenic.
+Lipid metabolism covers the synthesis and breakdown of fatty acids, triacylglycerols, phospholipids, cholesterol, and ketone bodies, yielding ~9 kcal/g — the densest energy currency in the body. The two anchor pathways are mitochondrial **β-oxidation** (breakdown) and cytosolic **lipogenesis** (synthesis), linked through **acetyl-CoA** shuttled as citrate.
+
+- **β-oxidation cycle (per 2-C round):** Acyl-CoA (Cₙ) → Acyl-CoA (Cₙ₋₂) + 1 FADH₂ + 1 NADH + 1 Acetyl-CoA
+- **ATP yield for palmitate (C16:0):** **106 ATP** (after subtracting 2 ATP activation cost)
+- **Rate-limiting enzymes:** **CPT-I** (carnitine shuttle entry), **HMG-CoA reductase** (cholesterol synthesis), **acetyl-CoA carboxylase** (fatty acid synthesis)
+- **FMGE favourites:** ATP-counting MCQs, ketone body identification, statin mechanism, dyslipidemia cutoffs
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-#### Pathways of Fatty Acid Catabolism
-**β-oxidation** spirals inside the mitochondrial matrix, requiring four recurring enzymatic steps: (1) acyl-CoA dehydrogenase yields **FADH₂**, (2) enoyl-CoA hydratase adds water, (3) 3-hydroxyacyl-CoA dehydrogenase yields **NADH**, (4) thiolase cleaves off **acetyl-CoA**. A 16-carbon palmitate undergoes **8 cycles**, generating 8 FADH₂, 8 NADH, and 8 acetyl-CoA, with 2 ATP consumed for activation, giving the standard **106 ATP** yield. Very long-chain fatty acids (>20 C) undergo **peroxisomal β-oxidation** (no ATP, H₂O₂ produced); **ω-oxidation** at the methyl end produces dicarboxylic acids when mitochondrial oxidation is defective.
+#### Digestion, Activation, and Transport
 
-#### Carnitine Shuttle
-Long-chain acyl-CoAs cannot cross the inner mitochondrial membrane directly. **Carnitine acyltransferase I (CPT-I)** transfers the acyl group to carnitine on the outer membrane; **CPT-II** regenerates acyl-CoA on the inner face. **Malonyl-CoA** allosterically inhibits CPT-I, preventing simultaneous synthesis and oxidation.
+Dietary triacylglycerols are emulsified by **bile salts** and hydrolysed by **pancreatic lipase** into 2-monoacylglycerol plus free fatty acids, which form micelles absorbed by enterocytes. Long-chain fatty acids (≥C12) are re-esterified, packaged into **chylomicrons**, and enter lymph. **Medium-chain fatty acids** bypass this and diffuse directly into the portal blood — a fact the FMGE exploits.
 
-#### Fatty Acid Synthesis
-Cytosolic **lipogenesis** uses acetyl-CoA derived from citrate (citrate shuttle). The committed, **rate-limiting step** is **acetyl-CoA carboxylase** (biotin-dependent): Acetyl-CoA + CO₂ + ATP → **Malonyl-CoA** + ADP + Pi. **Fatty acid synthase** then uses 1 acetyl-CoA + 7 malonyl-CoA + 14 NADPH to release **palmitate (C16:0)**. Stearate (C18) and oleate (C18:1) are made by elongases and desaturases. Polyunsaturated fatty acids (**arachidonic acid, C20:4 ω-6**) are precursors of **eicosanoids** (prostaglandins, leukotrienes, thromboxanes).
+Before β-oxidation, fatty acids are activated to **acyl-CoA** by acyl-CoA synthetase (cost: 2 ATP equivalents). Carnitine palmitoyltransferase I (**CPT-I**), on the outer mitochondrial membrane, transfers the acyl group to carnitine; **CPT-II** regenerates acyl-CoA inside the matrix. **Malonyl-CoA** (from acetyl-CoA carboxylase) inhibits CPT-I, blocking oxidation during fatty acid synthesis.
 
-#### Transport and Lipoproteins
-Dietary TG is packaged in intestinal epithelial cells into **chylomicrons** (apoB-48), cleared by **lipoprotein lipase** (insulin-activated) into FFAs. Hepatic TG is exported as **VLDL**, progressively converted to **IDL** and **LDL** (apoB-100), with **LDL** delivering cholesterol to peripheral tissues. **HDL** mediates reverse cholesterol transport via **LCAT (lecithin-cholesterol acyltransferase)**, cholesteryl esters shuttled by **CETP** to VLDL/LDL.
+#### β-Oxidation Cycle
 
-#### Ketogenesis and Cholesterol
-During fasting/high-fat state, accumulated acetyl-CoA in liver mitochondria is shunted into **ketone bodies**: acetoacetate, β-hydroxybutyrate, and acetone (detectable in urine/breath). **HMG-CoA reductase** (endoplasmic reticulum; rate-limiting) catalyses HMG-CoA → mevalonate using **2 NADPH**; this is the target of **statins**. Cholesterol is degraded to bile acids via **cholesterol 7α-hydroxylase**.
+Each round cleaves two carbons as acetyl-CoA, producing **1 FADH₂** (→ ~1.5 ATP) and **1 NADH** (→ ~2.5 ATP). Palmitate (C16) undergoes 7 cycles → 8 acetyl-CoA, 7 FADH₂, 7 NADH = 106 ATP.
 
-#### Exam Patterns
-FMGE tests ATP calculations (palmitate vs. glucose), identification of rate-limiting enzymes, and clinical correlates (medium-chain acyl-CoA dehydrogenase deficiency, Refsum disease, Zellweger syndrome, diabetic ketoacidosis, familial hypercholesteroolaemia type IIa).
+| Concept | Key point |
+| --- | --- |
+| Activation cost | 2 ATP equivalents before any oxidation |
+| FADH₂ yield | 1 per cycle → 1.5 ATP via ETC |
+| NADH yield | 1 per cycle → 2.5 ATP via ETC |
+| Very-long-chain FA | Require peroxisomal β-oxidation first |
+
+#### Lipogenesis and Cholesterol
+
+Fatty acid synthesis uses **acetyl-CoA carboxylase** to form **malonyl-CoA**, extended by **fatty acid synthase** (a single multifunctional homodimer in mammals) using NADPH. **Cholesterol biosynthesis** proceeds via the HMG-CoA reductase pathway; statins competitively inhibit this enzyme, lowering LDL.
+
+#### Ketogenesis
+
+During prolonged fasting or uncontrolled diabetes, hepatic mitochondria condense acetyl-CoA into **acetoacetate**, which equilibrates with **β-hydroxybutyrate** (the predominant species, ~3:1 ratio) and spontaneously decarboxylates to **acetone** (exhaled, giving fruity breath).
+
+#### Lipoprotein Functions
+
+| Lipoprotein | Origin → Destination | Main cargo |
+| --- | --- | --- |
+| Chylomicron | Intestine → tissues | Dietary TG |
+| VLDL | Liver → tissues | Hepatic TG |
+| LDL | Circulation → tissues | Cholesterol |
+| HDL | Tissues → liver | Reverse cholesterol transport |
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-#### Odd-Chain and Branched-Chain Edge Cases
-Odd-chain fatty acids yield a final **propionyl-CoA** instead of acetyl-CoA. Propionyl-CoA is carboxylated by **biotin-dependent propionyl-CoA carboxylase** to D-methylmalonyl-CoA, then rearranged by **methylmalonyl-CoA mutase** (requires **vitamin B12/cobalamin**) to succinyl-CoA, a TCA intermediate. Defects cause **methylmalonic acidaemia**; vitamin B12 deficiency produces elevated methylmalonic acid and homocysteine. Phytanic acid (a branched-chain FA from dairy/ruminant fat) cannot undergo β-oxidation due to a 3-methyl group and requires **peroxisomal α-oxidation** (Refsum disease = phytanoyl-CoA hydroxylase defect).
+#### Clinical Correlations FMGE Tests Repeatedly
 
-#### Regulation, Hormones, and Clinical Correlates
-**Acetyl-CoA carboxylase** is activated by **citrate** and **insulin** (dephosphorylated) and inhibited by **palmitoyl-CoA, epinephrine, and glucagon** (PKA-mediated phosphorylation). **Hormone-sensitive lipase** is phosphorylated by PKA in fasting state, releasing free fatty acids. **Carnitine deficiency** (primary or secondary to chronic valproate, pivalate-conjugated antibiotics) impairs oxidation, producing hypoketotic hypoglycaemia. **MCAD (medium-chain acyl-CoA dehydrogenase) deficiency** presents as sudden infant death with dicarboxylic aciduria. **Reye syndrome** impairs β-oxidation after aspirin exposure in children. **Niemann-Pick C1** mutation traps LDL-derived cholesterol in lysosomes.
+**Diabetic ketoacidosis (DKA):** Insulin deficiency + glucagon excess → unrestrained lipolysis in adipose tissue, flooding the liver with fatty acids. Hepatic acetyl-CoA overwhelms the TCA cycle (due to depleted oxaloacetate from gluconeogenesis), diverting flux into ketogenesis. The resulting **β-hydroxybutyrate : acetoacetate ≈ 3:1** ratio explains why bedside ketone strips (which detect acetoacetate) can underestimate severity.
 
-#### Lipid Chemistry Markers
-**Saponification number** reflects average chain length (lower = longer chains). **Iodine number** measures unsaturation: high in linseed/polyunsaturated oils. **Acid number** indicates free fatty acid content (rancidity). **Acetyl number** quantifies hydroxyl-bearing lipids.
+**Fatty liver (NAFLD/MASLD):** Excessive hepatic TG accumulation from increased lipogenesis, impaired VLDL export, or insulin resistance. The esterification pathway uses glycerol-3-phosphate (from glycolysis or DHAP), not free glycerol.
 
-#### Connections
-β-oxidation links to TCA via acetyl-CoA, to gluconeogenesis (odd-chain → succinyl-CoA → oxaloacetate → PEP), and to ketogenesis in the same mitochondrial compartment. Cholesterol links to steroid hormones, vitamin D, and **bile acids**; the mevalonate pathway also yields **isoprenoids** (dolichol, ubiquinone, farnesyl pyrophosphate). Eicosanoids connect to inflammation and platelet function (aspirin irreversibly inhibits COX-1/COX-2).
+#### Common Traps in MCQs
 
-#### Common Mistakes
-- Counting ATP for β-oxidation of odd-chain FA using the palmitate formula — subtract acetyl-CoA contribution and add propionyl-CoA succinate entry.
-- Confusing CPT-I (outer membrane) with CPT-II (inner membrane).
-- Marking HMG-CoA reductase as cytosolic — it is ER-bound.
-- Forgetting that ketone bodies are synthesized in liver mitochondria but used (ketolysis) in extrahepatic tissues; HMG-CoA lyase is the mitochondrial ketogenic enzyme, not the same as the cytosolic reductase.
-- Mixing up **apoB-48** (intestine, chylomicron) with **apoB-100** (liver, VLDL/LDL).
+1. Confusing **HMG-CoA reductase** (cholesterol synthesis, smooth ER) with **HMG-CoA lyase** (ketogenesis, mitochondria).
+2. Forgetting that odd-chain fatty acids yield **propionyl-CoA**, requiring biotin-dependent propionyl-CoA carboxylase and vitamin B12-dependent methylmalonyl-CoA mutase.
+3. Believing unsaturated fatty acids yield the same ATP as saturated ones — each double bond removes one FADH₂ step.
+4. Marking **lipoprotein lipase** as hepatic — it sits on capillary endothelium of muscle and adipose tissue.
+
+#### Worked Micro-Example
+
+Palmitate (C16:0) oxidation:
+- Activation: **−2 ATP**
+- 7 cycles → 8 acetyl-CoA (= 8 × 12 = 96 ATP), 7 FADH₂ (= 10.5 ATP), 7 NADH (= 17.5 ATP)
+- Total: 96 + 10.5 + 17.5 − 2 = **106 ATP**
+
+#### Exam Strategy
+
+Expect ~2–3 questions on lipid metabolism. Quick wins: recall rate-limiting enzymes, the 106-ATP figure, ketone body ratios in DKA, and NCEP ATP III cutoffs (LDL <100 mg/dL, TG <150 mg/dL, HDL >40 mg/dL, total cholesterol <200 mg/dL).
 
 #### Practice Prompts
-1. Calculate ATP yield from complete oxidation of **arachidonic acid (C20:4, fully saturated for the calculation)** and identify the propionyl-CoA route.
-2. A neonate with hypoketotic hypoglycaemia and elevated dodecanoyl-carnitine (C12) most likely has a defect in which enzyme, and what is the immediate biochemical consequence?
+
+1. A diabetic patient presents with Kussmaul breathing and serum β-hydroxybutyrate of 8 mmol/L. Why does nitroprusside underestimate severity here?
+2. Calculate net ATP from complete oxidation of lauric acid (C12:0) and identify where the two ATP-equivalent activation cost is incurred.
 
 ---
+
+## Continue your study
+
+- **[View this topic in your FMGE roadmap](/roadmap/?exam=fmge&duration=1mo)** — see where "Lipid Metabolism" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=fmge&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[FMGE exam overview](/exams/fmge/)** — pattern, eligibility, and syllabus
+- **[All Biochemistry notes](/notes/fmge/biochemistry/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

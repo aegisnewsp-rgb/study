@@ -8,50 +8,94 @@ topicName: Ellipse
 weight: 3
 country: india
 generated: "2026-03-29T05:05:06"
-lastUpdated: 2026-03-29
+lastUpdated: "2026-09-08"
 ---
-*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
 
 # Ellipse
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision.
+> Rapid summary for last-minute revision before your exam.
 
-**Ellipse** — Key Facts for CUET
-• Standard equation: x²/a² + y²/b² = 1 (horizontal major axis if a > b, vertical if b > a)
-• Relationship: c² = a² - b², where c is the focal distance from center
-• Eccentricity: e = c/a (always between 0 and 1 for an ellipse)
-• Foci are at (±c, 0) for horizontal major axis, (0, ±c) for vertical major axis
-• Latus rectum length = 2b²/a—the chord through focus perpendicular to major axis
-• Directrices: x = ±a/e for horizontal axis, y = ±a/e for vertical axis
-⚡ Exam tip: Remember—the sum of distances from any point on the ellipse to the two foci equals 2a
+An **ellipse** is the set of all points P in a plane whose distances from two fixed **foci** add up to a constant 2a, which must exceed the distance between the foci. In standard form centred at the origin with major axis along the x-axis, the equation is **x²/a² + y²/b² = 1**, where a > b > 0.
 
----
+The **focal distance** c satisfies **c² = a² − b²**, and **eccentricity e = c/a** with 0 ≤ e < 1. As e → 0 the ellipse approaches a circle; as e → 1 it flattens toward a parabola. The **latus rectum** has length **2b²/a**, and the **parametric coordinates** of any point on the ellipse are x = a cos θ, y = b sin θ.
+
+- **Vertices** sit on the major axis at (±a, 0); **co-vertices** sit on the minor axis at (0, ±b).
+- **Foci** lie at (±c, 0); **directrices** are the lines x = ±a/e.
+- The **director circle** x² + y² = a² + b² is the locus where perpendicular tangents meet.
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Ellipse** — CUET Study Guide
+#### Standard Equation and Key Constants
 
-An ellipse is the locus of points where the sum of distances from any point on the curve to two fixed points (foci) is constant and equals 2a, where a is the semi-major axis. The standard equation of an ellipse centered at origin with horizontal major axis is x²/a² + y²/b² = 1, where a > b. The semi-major axis length is a, semi-minor axis length is b. The relationship between a, b, and c (distance from center to each focus) is c² = a² - b². Eccentricity e = c/a measures the ellipse's elongation; e = 0 is a circle, e → 1 is highly elongated.
+Take the ellipse **x²/a² + y²/b² = 1** with a > b > 0 and centre at the origin. The major axis lies along the x-axis with length 2a; the minor axis lies along the y-axis with length 2b. The foci are at (±c, 0), where the focal distance c is fixed by the relation **c² = a² − b²** — this minus sign is what separates an ellipse from a hyperbola (which uses a plus sign).
 
-The endpoints of the major axis are the vertices at (±a, 0), and the endpoints of the minor axis are (0, ±b). The latus rectum is the chord through a focus perpendicular to the major axis; its length is 2b²/a. Equations of directrices are x = ±a/e for horizontal major axis, helping define the ellipse using the focus-directrix property (distance to focus = e × distance to directrix).
+#### Eccentricity and Directrices
 
-Common CUET patterns: find equation given foci and sum of distances; find focus, eccentricity, and lengths given equation; convert between general and standard forms.
+Eccentricity **e = c/a** is dimensionless and lies strictly between 0 and 1 for any genuine ellipse. It measures how stretched the ellipse is. The two **directrices** are the vertical lines **x = ±a/e**; every point P on the ellipse satisfies PF = e · PM, where M is the foot of the perpendicular from P to the nearer directrix.
 
-Example 1: Find equation of ellipse with foci (±4, 0) and major axis length 10. Solution: 2a = 10 → a = 5. c = 4 → b² = a² - c² = 25 - 16 = 9 → b = 3. Equation: x²/25 + y²/9 = 1.
+#### Parametric Form and Eccentric Angle
 
-Example 2: Find eccentricity and latus rectum of x²/36 + y²/16 = 1. Here a² = 36, b² = 16 → a = 6, b = 4. c² = 36 - 16 = 20 → c = √20 = 2√5. e = c/a = (2√5)/6 = √5/3. Latus rectum = 2b²/a = 2(16)/6 = 16/3.
+Any point on the ellipse can be written as **(a cos θ, b sin θ)** for some θ ∈ [0, 2π). The angle θ is the **eccentric angle**, not the polar angle measured from the origin. For a point (x, y) on the ellipse, cos θ = x/a and sin θ = y/b, so tan θ = (by)/(ax) — not y/x as it would be for a circle.
+
+#### Must-Know Lengths
+
+| Element | Formula | Length (a > b) |
+| --- | --- | --- |
+| Major axis | 2a | 2a |
+| Minor axis | 2b | 2b |
+| Focal distance | c | √(a² − b²) |
+| Latus rectum | 2b²/a | 2b²/a |
+| Director circle radius | √(a² + b²) | √(a² + b²) |
+
+- In CUET UG, expect 1–2 MCQs that hand you an equation in expanded form and ask for a, b, c, or e.
+- Shifted ellipse with centre (h, k): write it as **(x − h)²/a² + (y − k)²/b² = 1** — students often forget to subtract h and k inside the squared terms.
+- Focal-chord slope product: if a chord through a focus has slopes m₁ and m₂, then **m₁m₂ = −b²/a²**.
+
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
+
+#### Tangent, Normal, and Focal Chord Properties
+
+The tangent to **x²/a² + y²/b² = 1** at the point (x₁, y₁) is **xx₁/a² + yy₁/b² = 1**. In parametric form, at θ it becomes **(x cos θ)/a + (y sin θ)/b = 1**. The normal at the same point has slope **−(b²x₁)/(a²y₁)** (when y₁ ≠ 0).
+
+A chord through a focus is a **focal chord**. If the two endpoints correspond to eccentric angles θ₁ and θ₂ on the same focal chord, then **tan(θ₁/2) · tan(θ₂/2) = −b²/a²**. The latus rectum is the focal chord perpendicular to the major axis, with endpoints **(±ae, ±b²/a)**.
+
+#### Worked Example
+
+Find the eccentricity, latus rectum length, and foci of the ellipse **9x² + 25y² = 225**.
+
+Divide by 225: **x²/25 + y²/9 = 1**, so a² = 25, b² = 9, giving a = 5, b = 3.
+
+- **c² = a² − b² = 25 − 9 = 16**, so c = 4.
+- **e = c/a = 4/5 = 0.8**.
+- **Latus rectum = 2b²/a = 2(9)/5 = 18/5 = 3.6** units.
+- **Foci at (±4, 0)**; directrices at x = ±a/e = ±5/(4/5) = ±25/4 = ±6.25.
+
+#### Common Mistakes and Adjacent Links
+
+| Trap | Correction |
+| --- | --- |
+| c² = a² + b² | Ellipse uses a² − b²; the plus sign belongs to a hyperbola |
+| Directrix at x = ±c | Directrix is x = ±a/e, not ±c |
+| tan θ = y/x on the ellipse | The angle is eccentric: tan θ = (by)/(ax) |
+| Latus rectum = 2a | It equals 2b²/a |
+
+Ellipse sits inside the broader conic-sections family; pairing it with the **parabola** (e = 1) and **hyperbola** (e > 1, c² = a² + b²) is the most common CUET discriminator. The **auxiliary circle** x² + y² = a² is a helpful auxiliary when converting eccentric-angle problems into circle problems.
+
+#### Practice prompts:
+1. For the ellipse 4x² + 9y² = 36, find a, b, c, e, the latus rectum, and the directrices.
+2. A tangent at point (3, 8/5) on an ellipse meets the y-axis. Use the director circle to find where the perpendicular tangent meets the x-axis.
 
 ---
 
-### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer timeline.
+## Continue your study
 
-**Ellipse** — Comprehensive CUET Notes
+- **[View this topic in your CUET UG roadmap](/roadmap/?exam=cuet&duration=1mo)** — see where "Ellipse" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=cuet&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[CUET UG exam overview](/exams/cuet/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/cuet/mathematics/)** — browse sibling topics in this subject
 
-Advanced ellipse theory requires understanding auxiliary circles, director circles, and parametric representations. The auxiliary circle is the circle with radius a (for horizontal major axis)—its equation is x² + y² = a². The director circle is the locus of the intersection of perpendicular tangents to the ellipse; its equation is x² + y² = a² + b². When the ellipse is shifted with center (h, k), replace x with (x-h) and y with (y-k) in the standard equation.
-
-Parametric equations: for x²/a² + y²/b² = 1, any point can be expressed as (a cosθ, b sinθ), where θ is the eccentric anomaly. The tangent at point (a cosθ₁, b sinθ₁) has equation (x cosθ₁)/a + (y sinθ₁)/b = 1. The normal at this point has equation a x secθ₁ - b y cosecθ₁ = (a² - b²). These forms frequently appear in advanced CUET problems involving chord equations, locus of intersection, and normals.
-
-Cross-topic connections: Ellipses appear in planetary orbits (Kepler's first law), architectural acoustics (whispering galleries), and engineering (optical reflectors). Connection with conic sections: ellipses, hyperbolas, and parabolas are all conics with different eccentricities. In coordinate geometry, transformation of axes can simplify ellipse equations. Challenge problems may ask for the equation of the chord of contact, chord bisected at a given point, or prove properties of conjugate diameters. Practice deriving equations of tangents in slope form: y = mx ± √(a²m² + b²) is tangent when m²a² > b².
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

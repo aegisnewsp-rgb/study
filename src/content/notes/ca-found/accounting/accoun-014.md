@@ -8,74 +8,93 @@ topicName: Ratio Analysis
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-07"
+lastUpdated: "2026-09-08"
 ---
 
 # Ratio Analysis
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+> Rapid summary for last-minute revision before your CA Foundation Paper 1.
 
-**Ratio Analysis** expresses the relationship between two accounting figures (numerator / denominator) drawn from the *Balance Sheet* and *Statement of Profit and Loss* to judge a firm's liquidity, solvency, activity and profitability. A standalone ratio carries no meaning — comparison is compulsory, against prior-year trend, an inter-firm industry average, or a pre-set ideal.
+Ratio Analysis expresses a **meaningful mathematical relationship** between two figures from the Balance Sheet and Statement of Profit and Loss, expressed as a proportion, percentage, or rate, to judge a firm's liquidity, solvency, activity, and profitability. Ratios are not useful in isolation; they require comparison with prior-year figures, industry averages, or peer firms**.** ICAI tests it in Paper 1 (Accounting) for roughly **3% weightage**, usually as a 5–10 mark computation question based on summarised Balance Sheet and P&L data.
 
-#### Must-know formulas:
-
-- **Current Ratio** = Current Assets ÷ Current Liabilities (ideal 2 : 1)
-- **Quick (Acid-Test) Ratio** = (Current Assets − Inventory − Prepaid Expenses) ÷ Current Liabilities (ideal 1 : 1)
-- **Debt-Equity Ratio** = Long-term Debt ÷ Shareholders' Funds
-- **Gross Profit Ratio** = (Gross Profit ÷ Net Sales) × 100
-- **Net Profit Ratio** = (Net Profit after Tax ÷ Net Sales) × 100
-- **Return on Investment** = (NP before Interest & Tax ÷ Capital Employed) × 100
-
-**High-yield pointers:** (i) Quick Ratio excludes stock and prepaid items — useful when inventory is slow-moving. (ii) Always include *Preference Share Capital* inside Shareholders' Funds for Debt-Equity. (iii) Two marks per ratio computation, three marks for interpretation — the verb matters.
+- **Liquidity:** Current Ratio = Current Assets ÷ Current Liabilities (ideal **2:1**); Quick Ratio = (Current Assets − Inventory − Prepaid Expenses) ÷ Current Liabilities (ideal **1:1**).
+- **Solvency:** Debt-Equity = Long-term Debt ÷ Shareholders' Funds (acceptable ≤ **2:1**).
+- **Activity & Profitability:** Inventory Turnover = COGS ÷ Average Inventory; ROI = PBIT × 100 ÷ Capital Employed.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-#### Purpose and Classification
-Ratios condense bulky financial statements into comparable indicators. The ICAI study material groups them into four families: **Liquidity** (short-term paying capacity), **Solvency / Leverage** (long-term debt servicing), **Activity / Turnover** (efficiency of asset use), and **Profitability** (margin and return). Every ratio is a pure number or percentage — dimensionless — which is why cross-firm comparison is feasible after size adjustment.
+#### Classification of Ratios
 
-#### Liquidity Ratios
-**Current Ratio** uses *all* current assets. A reading of 2 : 1 is the textbook ideal, but for a retail grocer with daily cash turnover 1.2 : 1 may be healthy, while an electronics dealer needs more. **Quick Ratio** strips Inventory and Prepaid Expenses out because they are least liquid; the remaining Quick Assets are Cash, Bank, Debtors and Marketable Securities.
+ICAI organises accounting ratios into four functional groups used in both the study material and RTP questions. Liquidity ratios test short-term paying capacity. Solvency (or Leverage) ratios test long-term debt absorption. Activity or Turnover ratios test how efficiently assets generate sales. Profitability ratios test the firm's ability to earn from operations and capital employed.
 
-#### Solvency and Profitability Ratios
-**Debt-Equity Ratio** measures the margin of safety for lenders; lower is safer. Long-term debt means debentures and long-term loans, *not* bank overdraft. **Gross Profit Ratio** is the gross margin before operating expenses; **Net Profit Ratio** is what finally belongs to owners per rupee of sale. Both depend on *Net Sales*, i.e., Sales minus Sales Returns and Trade Discount.
+#### Core Formulas and Variables
 
-#### Standard Exam Question Patterns
-CA Foundation routinely asks: (a) compute four to six ratios from a given trial balance (6–8 marks), (b) comment on the trend given two years' data (2 marks), (c) state the ideal ratio with formula (1 mark). Marks are awarded for the *correct denominator*, the right *format* (e.g., "2.05 : 1", not "2.05"), and a one-line interpretation in business language.
+| Ratio | Formula | Ideal Benchmark |
+| --- | --- | --- |
+| Current Ratio | Current Assets ÷ Current Liabilities | 2 : 1 |
+| Quick (Acid Test) Ratio | (Current Assets − Inventory − Prepaid Expenses) ÷ Current Liabilities | 1 : 1 |
+| Debt-Equity Ratio | Long-term Debt ÷ Shareholders' Funds | ≤ 2 : 1 |
+| Inventory Turnover Ratio | Cost of Goods Sold ÷ Average Inventory | 6–8 times (industry dependent) |
+| Trade Receivables Turnover | Net Credit Sales ÷ Average Trade Receivables | Higher is better |
+| Return on Investment (ROI) | PBIT × 100 ÷ Capital Employed | Higher than borrowing cost |
+
+Capital Employed = Fixed Assets + Working Capital, which also equals Total Assets − Current Liabilities, or Shareholders' Funds + Long-term Debt. **Average Inventory** = (Opening Inventory + Closing Inventory) ÷ 2.
+
+#### PBIT vs Net Profit in ROI
+
+ROI uses **Profit Before Interest and Tax (PBIT)** instead of Net Profit so the result reflects operating efficiency, not the financing mix. Using Net Profit after tax conflates operating performance with leverage, which is why ICAI's prescribed formula explicitly takes PBIT.
+
+#### Typical Exam Patterns
+
+- 5–10 mark question giving a summarised Balance Sheet and P&L; ask for 3–4 specific ratios.
+- One-line interpretation asking whether the ratio is satisfactory, adverse, or improving.
+- Comparison of two firms using the same ratio set.
+
+> **Trap:** ICAI frequently tests whether you compute **Average Inventory** using opening and closing figures — using only closing inventory loses one mark even when the arithmetic is correct.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-#### Edge Cases and Interpretation Traps
-**Current Ratio can mislead.** Adding a long-term loan to the bank and parking it as idle cash lifts the ratio without improving real liquidity. Conversely, paying a long-term creditor with cash depresses the current ratio sharply even though long-term solvency improved. Hence ratio *composition* (quality of current assets, ageing of debtors) matters more than the headline number.
+#### Edge Cases and Mechanistic Detail
 
-**Debt-Equity nuances.** Preference Share Capital is part of Shareholders' Funds but is *not* equity in the ordinary-share sense — some analysts present a separate **Debt-Total Funds Ratio** = Total External Liabilities ÷ Total Funds. Interest Coverage Ratio (Times Interest Earned) complements Debt-Equity by showing whether profits cover interest obligations.
+The Quick Ratio requires three adjustments to Current Assets: subtract Inventory (the least liquid current asset because it depends on future sales), subtract Prepaid Expenses (not yet realised as cash), and optionally subtract Closing Bills Receivable if collection uncertainty exists. Failure to remove these is the single most-tested error in CA Foundation papers.
 
-#### Limits of the Technique
-Ratios are **historical**; they ignore price-level changes unless the statements are inflation-adjusted. They reflect one accounting policy — change the depreciation method and every profitability ratio shifts. **Window dressing** (window-dressing of closing balances on the last day of the year) can inflate liquidity ratios. Two firms of unequal size must be compared using *common-size statements* before ratios are computed.
+For Inventory Turnover, when only the closing balance is given in a question, many candidates wrongly use it directly. ICAI's accepted fallback is: **Average Inventory = Closing Inventory − ¼ (Opening + Closing difference)**, or simply use closing when opening data is unavailable, with disclosure of the limitation.
 
-#### Connection to Adjacent Topics
-Ratio Analysis feeds directly into **Cash Flow Analysis** (liquidity ratios predict cash stress) and **Fund Flow** (solvency ratios explain long-term financing). In **Auditing**, ratio comparison is a mandatory analytical procedure under SA 520. In **Strategic Financial Management**, the DuPont decomposition (Net Profit Margin × Asset Turnover × Equity Multiplier) extends these ratios into ROE drivers.
+ROI's denominator (Capital Employed) admits two equivalent expressions. If the question gives only Total Assets and Current Liabilities, compute CE = Total Assets − Current Liabilities. If both equity and long-term debt lines are visible, use CE = Shareholders' Funds + Long-term Debt. Examiners accept either, provided the candidate picks one consistently.
 
-#### Worked Micro-Example
-Given: Current Assets ₹5,00,000; Inventory ₹1,80,000; Prepaid Expenses ₹20,000; Current Liabilities ₹2,50,000.
-Quick Assets = 5,00,000 − 1,80,000 − 20,000 = **₹3,00,000**.
-Quick Ratio = 3,00,000 ÷ 2,50,000 = **1.2 : 1** — adequate, signalling that even without selling stock, current obligations are covered 1.2 times.
+#### Common Mistakes Observed in ICAI Papers
 
-#### Common Mistakes
-- Treating Provision for Doubtful Debts as a Current Liability (it is a deduction from debtors).
-- Using *Total Sales* instead of *Net Sales* in profit ratios.
-- Forgetting to multiply by 100 in percentage ratios.
-- Comparing a manufacturing firm with a service firm without adjustment.
+1. Using **total debt** (including short-term borrowings) instead of only long-term debt in Debt-Equity Ratio.
+2. Computing ROI with **Net Profit after tax** instead of PBIT, which double-counts the financing decision.
+3. Drawing conclusions without a benchmark — a 1.5 current ratio means nothing without last year's 1.2 or the industry's 1.8.
+4. Treating **window-dressed** year-end Balance Sheet figures as representative; ICAI notes that ratios inherit the limitations of historical-cost accounting.
+
+#### Connections to Adjacent Topics
+
+Ratio Analysis feeds directly into **Cash Flow Statement (Indirect Method)** because profitability ratios reconcile operating profit to cash from operations. It also links to **Accounting Standards** because ratios assume consistency in valuation (e.g., AS-10 on PPE, AS-2 on Inventory); a change in method invalidates year-on-year comparison.
 
 #### Practice Prompts
-1. From the given Balance Sheet and P&L, compute Current Ratio, Quick Ratio, Debt-Equity Ratio and Net Profit Ratio for FY 2024-25 and comment on the change from FY 2023-24.
-2. The Current Ratio is 2.8 : 1 and the Quick Ratio is 0.6 : 1. Diagnose the liquidity position and suggest one corrective action.
+
+1. From a given Balance Sheet (Current Assets ₹5,00,000 including Inventory ₹2,00,000 and Prepaid Expenses ₹50,000; Current Liabilities ₹2,00,000), compute Current and Quick Ratios and comment on short-term solvency.
+2. Given COGS ₹12,00,000, Opening Inventory ₹1,50,000, Closing Inventory ₹2,50,000, PBIT ₹4,00,000, Capital Employed ₹20,00,000 — compute Inventory Turnover and ROI, and interpret whether the firm uses inventory efficiently and earns above its cost of capital.
+
+> **Scoring tip:** ICAI awards one mark for stating the formula, one for substitution, one for the numeric answer, and one for interpretation — so always show all four steps even on a 4-mark sub-question.
+
+---
+
+## Continue your study
+
+- **[View this topic in your CA Foundation roadmap](/roadmap/?exam=ca-found&duration=1mo)** — see where "Ratio Analysis" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ca-found&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[CA Foundation exam overview](/exams/ca-found/)** — pattern, eligibility, and syllabus
+- **[All Accounting notes](/notes/ca-found/accounting/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

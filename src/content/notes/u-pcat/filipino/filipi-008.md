@@ -8,68 +8,84 @@ topicName: Three Core Reading Techniques
 weight: 3
 country: philippines
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-25"
+lastUpdated: "2026-09-08"
 ---
 
 # Three Core Reading Techniques
 
 ### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your UPCAT Filipino items.
 
-**Skimming** means reading quickly to grasp the overall message — your eyes catch the first and last sentences of each paragraph, plus headings. **Scanning** is the opposite: you hunt for a specific detail (a date, a name, a definition) by moving your gaze straight to it. **Close Reading** demands slowing down to interrogate every word, noting tone, word choice, and the author's angle. The **pangunahing kaisipan** is the single central idea the entire passage communicates; the **pantulong na kaisipan** are the supporting details that flesh it out. When analyzing sentences, identify the pokus (focus), aspekto (aspect), and perspektibo (perspective) of the verb. Two traps that cost UPCAT points: answering from memory instead of the text, and confusing the main idea with a supporting detail. Always read the question stem *before* the passage to know which technique to deploy.
+Three reading techniques dominate UPCAT Filipino reading items: **skimming**, **scanning**, and **close (detail) reading**. Each solves a different purpose, so choose before you read.
 
----
+- **Skimming** — quick read for the **pangunahing ideya** (main idea). Glance at title, first sentence of each paragraph, subheadings, and final sentence.
+- **Scanning** — targeted search for a specific word, name, date, or figure. Eyes move fast; ignore everything else.
+- **Close reading** — careful, repeated read for exact meaning, tone, sequence, cause-effect, or argument structure.
+
+| Technique | Purpose | Where to look |
+| --- | --- | --- |
+| Skimming | Main idea, gist | Title, opening/last lines, subheads |
+| Scanning | Specific detail | Names, dates, numbers, keywords |
+| Close reading | Deep meaning | Full sentence and paragraph context |
 
 ### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-#### Three Core Reading Techniques
+#### What each technique actually does
 
-**Skimming** is a rapid surface pass. You read the pam pam pam title, subheadings, the opening sentence, and the closing paragraph of each section. In 30–60 seconds a skilled skimmer knows whether the passage is about the history of Filipino literature or the effects of volcanic ash on agriculture. This technique answers "What is this mostly about?" in under a minute.
+**Skimming** moves the eye across a text at high speed without pronouncing every word. The goal is the **pangkalahatang ideya** (general idea) plus the text's structure. In practice, you read the **pamagat** (title), the **unang pangungusap** (first sentence) of each paragraph, bold or italic cues, and the **huling pangungusap** (closing sentence). UPCAT often asks, "Ano ang pangunahang mensahe ng teksto?" — skimming answers this in under a minute.
 
-**Scanning** activates when you know the *question* first. Need the year Jose Rizal was born? You scan for "1871" — your eyes do not read sequentially, they jump. Scanning relies on visual pattern recognition: numbers, capitalized names, words in bold or italics, and repeated terms. Practice this by timing yourself finding five named details in a 300-word passage.
+**Scanning** is the opposite motion: the eyes pause only when they hit a target pattern. You hunt for a proper noun, a year, a statistic, or a Filipino cue word such as *una, ikalawa, samakatuwid, ayon sa*. The rest of the paragraph is skipped on purpose.
 
-**Close Reading** is deliberate, slow, and analytical. You parse the text word by word, noting the author's tono (tone) — kritisismo, pag-asa, pagtatakang — and estilo (style). You use kontekstong pangungusap (sentence context) to infer the meaning of unfamiliar words rather than guessing. Close Reading answers questions about the author's purpose, the implied meaning, and the rhetorical effect of specific word choices.
+**Close reading** requires rereading. You slow down to trace **diin** (emphasis), connotation, transitions, and logical chain. This is the technique for items asking *bakit*, *paano*, or *ano ang ipinapahiwatig*.
 
-#### Identifying Main and Supporting Ideas
+| Goal in the question | Correct technique | Speed |
+| --- | --- | --- |
+| Main idea / gist | Skimming | Fast |
+| Specific fact / detail | Scanning | Fast |
+| Inference / tone / argument | Close reading | Slow |
 
-The **pangunahing kaisipan** answers: *"What single idea does the author build everything else around?"* It is never a detail, a date, or an example — it is the overarching claim. The **pantulong na kaisipan** answers: *"What evidence or elaboration does the author use to reinforce the main idea?"* Supporting ideas include statistics, anecdotes, definitions, and comparisons.
+#### Choosing the right technique
 
-In a passage about climate change, the main idea might be: *"Ang pagbabago ng klima ay nakakaapekto sa agrikultura ng Pilipinas."* A supporting detail might be: *"Noong 2020, bumaba ng 15% ang produksyon ng bigas sa Ilocos region dahil sa matagal na tagtuyot."*
+Match the verb in the item to the technique. "*Ayon sa teksto*" and "*tukoy na detalye*" → scanning. "*Pangunahing ideya*" and "*layunin ng may-akda*" → skimming, then verify with close reading. "*Ipinapahiwatig*" or "*bakit*" → close reading from the start. UPCAT Filipino items rarely mix these goals, so reading the stem carefully saves minutes.
 
-#### Common UPCAT Traps
+- Read the stem first; identify whether it asks for **pangkalahatang ideya**, **tiyak na impormasyon**, or **malalim na pag-unawa**.
+- Skim before scanning — the general structure tells you *where* to scan.
+- Mark transition words (*subalit, dahil, kung gayon*) during close reading to catch argument shifts.
 
-1. **Confusing main and supporting ideas** — if an answer option sounds plausible but is too specific, it is likely a supporting detail, not the main idea.
-2. **Relying on prior knowledge** — the text is the sole authority on the exam. A statement true in real life but not stated in the passage is incorrect.
-3. **Skipping the question stem** — reading the passage before the questions wastes time; reading questions first tells you which technique to use.
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
+
+#### Mechanics of each technique
+
+**Skimming** works because informative Filipino paragraphs typically follow **baliktad na tatsulok** (inverted-pyramid) logic: the topic sentence states the main claim, and supporting details follow. By reading only topic sentences, you reconstruct the author's argument chain. A common UPCAT trap presents two plausible-sounding options; only the topic sentence — not a vivid example — is the true main idea.
+
+**Scanning** relies on visual pattern matching. For Filipino texts, watch for date formats ("noong 1942," "ika-21 ng Marso"), ordinal markers (*una, pangalawa, sa huli*), and quotation marks around proper nouns. Sweep in an L-shape — left margin to mid-line — then drop down. Do not read full sentences; the moment the target phrase lands, read only the surrounding clause for context.
+
+**Close reading** is iterative. First pass: literal comprehension. Second pass: identify the **diin** through repeated words, contrastive pairs (*hindi… kundi*), and rhetorical questions. Third pass: map the **pagkakasunod-sunod** (sequence) — cause-effect, problem-solution, claim-counterclaim. UPCAT inference items test exactly this layered reading.
+
+#### Common mistakes and how to avoid them
+
+| Mistake | Why it costs marks | Fix |
+| --- | --- | --- |
+| Reading the entire text on every item | Wastes 3–5 min per passage | Skim first; re-read only the needed lines |
+| Picking a familiar-sounding word out of context | Ignores connotation | Reread the full sentence before answering |
+| Confusing example with main idea | Examples *support*, not *equal* | Return to the topic sentence |
+| Scanning with linear eye motion | Slows the hunt | Sweep in columns; stop only on target shape |
+
+#### Practice prompts
+
+1. Read a 12-line Filipino paragraph in 30 seconds; write the **pangunahing ideya** in one sentence using only topic sentences.
+2. Given a 20-line passage, locate the exact year, the author's name, and the word *samakatuwid** in under 40 seconds using scanning only.
 
 ---
 
-### 🔴 Extended — Deep Study (3mo+)
+## Continue your study
 
-#### Clause Analysis (Pagsusuri ng mga Sugnay)
+- **[View this topic in your UPCAT (Philippines) roadmap](/roadmap/?exam=u-pcat&duration=1mo)** — see where "Three Core Reading Techniques" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=u-pcat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UPCAT (Philippines) exam overview](/exams/u-pcat/)** — pattern, eligibility, and syllabus
+- **[All Filipino notes](/notes/u-pcat/filipino/)** — browse sibling topics in this subject
 
-UPCAT Filipino questions frequently test your ability to analyze the grammatical structure of sentences within the passage. Each sugnay (clause) contains a pandiwa (verb) that carries information about **pokus** (who or what the action is performed on), **aspekto** (whether the action is completed, ongoing, or habitual), and **perspektibo** (the speaker's point of view: realis or irrealis).
-
-For example, in the clause *"Ang mga mag-aaral ay nagsasagawa ng masusing pag-aaral,"* the pandiwa **nagsasagawa** is in the kontemplatibong aspekto (contemplated/ongoing), the pokus is **mga mag-aaral**, and the perspektibo is realis (the action is presented as real). If the passage asks about the author's tone, the verb aspect often clues you in: habitual actions suggest neutrality, completed actions suggest certainty, and contemplated actions suggest uncertainty or planning.
-
-#### Tono at Estilo ng May-akda
-
-The author's tono (tone) shapes how you interpret claims. Common tones in UPCAT passages: *mapagkunwari* (sarcastic), *malumanay* (gentle), *mapanghusga* (critical), *mapag-alsa* (revolutionary). The estilo (style) includes the use of imagery, repetition, and code-switching between Filipino and English or Spanish — each stylistic choice carries meaning. A passage peppered with Spanish loanwords (*tiempo*, *razon*, *komo*) signals a colonial-era or traditional Filipino voice. Recognizing this helps you answer interpretation questions more accurately.
-
-#### Worked Example
-
-**Passage excerpt:** *"Ang pagtatag ng bagong republika noong 1899 ay hindi nagtagal. Sa loob ng dalawang taon, nasakop ng Estados Unidos ang halos buong kapuluan. Ang mga manlalaban ay napilitang umurong sa kabundukan."*
-
-**Question:** Ano ang pangunahing kaisipan ng talataan?
-A. Ang pagtatag ng bagong republika noong 1899
-B. Ang mabilis na pagbagsak ng republika sa kamay ng Amerika
-C. Ang paglaban ng mga Pilipino sa kabundukan
-D. Ang kolonyal na patakaran ng Estados Unidos
-
-**Answer: B.** Option A names an event but does not capture the passage's central argument. Option C describes only the final detail. Option D names a theme but is too broad — the passage specifically argues that the republic fell *quickly*. B synthesizes the temporal marker (*"sa loob ng dalawang taon"*) with the action (*"nasakop"*) to state the central claim.
-
-#### Practice Prompts
-
-1. Read a 400-word Filipino editorial. Skim in 45 seconds to state the main idea in one sentence. Then scan for three specific dates or names. Finally, close-read the final paragraph and identify the tono and perspektibo of the pandiwa used.
-2. Given five answer options for a main-idea question, classify each as pangunahing kaisipan, pantulong na kaisipan, or di-katangian (irrelevant). Time yourself — aim for under 90 seconds per question.
-
+---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

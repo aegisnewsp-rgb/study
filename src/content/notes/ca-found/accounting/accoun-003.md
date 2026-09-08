@@ -8,7 +8,7 @@ topicName: Ledger Posting
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-07"
+lastUpdated: "2026-09-08"
 ---
 
 # Ledger Posting
@@ -16,101 +16,78 @@ lastUpdated: "2026-07-07"
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Ledger Posting** is the process of transferring debit and credit entries from the **Journal** (or subsidiary books) into the respective **Ledger Accounts**, where each account is maintained on a separate page to capture the cumulative effect of transactions on that head. Each ledger account has two sides: **Debit (Dr.) on the left** and **Credit (Cr.) on the right**, governed by the double entry system. The account debited in the journal is posted on the **debit side** of that ledger, and the account credited goes to the **credit side**. Folio (F) cross-references — J/F on the ledger side, L/F on the journal side — link the two primary books. Periodic balancing gives the **Closing Balance** by formula:
+Ledger posting is the act of transferring debits and credits from the Journal (and subsidiary books) into individual **Ledger Accounts** so each account shows its own running position. The golden rule: a debit in the journal goes to the **debit side** of the named account, and the credit goes to the **credit side** of the other named account, with the opposite account written as **"To ..."** on the debit side and **"By ..."** on the credit side. Cash Book acts as its own ledger for Cash and Bank, so no separate posting is needed except for **contra** and transfer entries.
 
-#### Balance = Total of larger side − Total of smaller side
-
-Personal and Real accounts normally carry **debit balances**; Nominal accounts are transferred to **Trading / P&L A/c**. Under CA Foundation Accounting (≈3% weightage), this topic typically shows up as a 5-mark practical question on posting and balancing a given set of journal entries.
-
----
+- **LF (Ledger Folio):** in the Journal, write the ledger page number where the entry was posted.
+- **JF (Journal Folio):** in the Ledger, write the source journal page number.
+- **Balancing:** put **"By balance c/d"** on the smaller side and **"To balance b/d"** on the larger side to start the next period.
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-#### Definition and Purpose
+#### Core Posting Rule
 
-A **Ledger** is the principal book of account containing all ledger accounts classified under Personal, Real and Nominal categories. **Posting** is the act of transferring each debit and credit from the Journal into its corresponding ledger account in **date-wise chronological order**. The objective is to consolidate, at one place, every transaction affecting a particular account, so that the closing balance and the trial balance can be prepared.
+Every journal entry names at least two accounts; the debit account receives the amount on its **debit side** with the word **"To"** followed by the credit account, while the credit account receives the same amount on its **credit side** with **"By"** followed by the debit account. This "To/By" narration preserves the cross-reference so a reader can trace any ledger entry back to the originating journal line.
 
-#### Format of a Ledger Account
+#### Posting from Subsidiary Books
 
-```
-Dr.            Particulars Account              Cr.
-──────────────────────────────────────────────────────
-Date | Particulars | J/F | ₹     | Date | Particulars | J/F | ₹
-──────────────────────────────────────────────────────
-```
+The Cash Book replaces a separate Cash and Bank ledger, so only **contra entries** (cash deposited into bank, cash withdrawn from bank) need double posting inside Cash and Bank accounts. Other subsidiary books feed specific ledger accounts through their monthly totals.
 
-The `J/F` (Journal Folio) column is mandatory on both sides — it records the journal page number from which the entry was posted, and acts as the **cross-reference** back to the journal.
+| Subsidiary Book | Posted to Ledger | Side |
+| --- | --- | --- |
+| Purchases Book | Purchases A/c | Credit (monthly total) |
+| Sales Book | Sales A/c | Credit (monthly total) |
+| Purchases Returns Book | Returns Outward A/c (or supplier) | Debit |
+| Sales Returns Book | Returns Inward A/c (or customer) | Debit |
+| Cash Book (non-contra) | Other related accounts only | Per transaction |
 
-#### Steps of Posting
+#### Compound and Opening Entries
 
-1. Identify the account to be debited and the account to be credited in each journal entry.
-2. Open ledger accounts for each distinct head.
-3. Post the debit on the **left (Dr.)** side with narration `To <credit account>` and write J/F.
-4. Post the credit on the **right (Cr.)** side with narration `By <debit account>` and write J/F.
-5. After one month (or chosen period), total both sides, balance the account, and carry down the balance as `To balance c/d` (Dr. side) or `By balance c/d` (Cr. side), then `By balance b/d` / `To balance b/d` in the next period.
+A **compound entry** involving three or more accounts is split line-by-line and each affected account is posted individually. **Opening entries** at the start of a new accounting year carry forward closing balances of assets, liabilities and capital, opening fresh ledger pages with **"To balance b/d"** on assets/expenses and **"By balance b/d"** on liabilities/capital/income.
 
-#### Balancing Rule
+#### Balancing Direction
 
-**Closing Balance = Total of larger side − Total of smaller side.** A debit-side excess yields a **Debit Balance** (assets/expenses/receivables); a credit-side excess yields a **Credit Balance** (liabilities/income/payables). The matched pair `c/d` and `b/d` keeps the account perpetually tallied.
-
-#### Special Cases
-
-- **Contra entry** (e.g., Cash deposited into Bank): posted on both sides — debit Bank A/c, credit Cash A/c — using the marking *`To Cash / By Cash` (Contra)*.
-- **Compound journal entry** (one journal with multiple debits/credits): split and post each debit/credit into its respective ledger account individually, never the gross total.
-
-#### Common Errors in Exam Scripts
-
-- Writing `To Cash` on the credit side or `By Purchases` on the debit side (narration-side swap).
-- Omitting the J/F cross-reference column.
-- Forgetting `c/d` and `b/d` entries while balancing.
-- Confusing Real account Personal account debit-credit rules when posting.
-
-#### Exam Pattern
-
-CA Foundation typically tests this as a 5–10 mark problem: given a set of journal entries, post them into ledger accounts and balance them to extract figures for the Trial Balance.
-
----
+Accounts for assets, expenses and losses normally close with a **debit balance**; accounts for liabilities, capital, income and gains close with a **credit balance**. Always close with **"By balance c/d"** on the shorter side and carry the same figure as **"To balance b/d"** on the opposite, longer side for the next period.
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-#### Mechanics of Posting from Subsidiary Books
+#### Edge Cases in Posting
 
-When subsidiary books like **Purchases Book**, **Sales Book**, **Purchases Returns Book**, **Sales Returns Book**, **Cash Book** and **Journal Proper** are maintained, posting is not done from a single journal but from each subsidiary source. The Cash Book itself acts as both a journal (for cash/bank receipts and payments) and a part of the ledger (it serves as the Cash and Bank accounts). At month-end, totals from the Purchases/Sales day books are posted as a **single monthly total** to the respective ledger accounts on the credit or debit side, leaving individual transaction-level postings only into the personal accounts of creditors/debtors.
+**Contra entries** between Cash and Bank appear simultaneously on both sides of the two ledger accounts, so Cash A/c is never balanced in such transactions — the figures wash out. With **compound entries**, skipping even one account breaks the double-entry and the Trial Balance will not tally. **Purchases Returns** and **Sales Returns** must NOT be netted against Purchases or Sales A/c; they belong in separate Returns Outward and Returns Inward A/c, otherwise the gross figure shown in the Trading Account becomes understated.
 
-#### Balancing — Worked Illustration
+#### Cross-Referencing Mechanics
 
-Suppose Purchases A/c shows: Dr. total = ₹1,20,000; Cr. total (Purchase Returns) = ₹20,000. The credit side is smaller, so:
+The LF column in the Journal and the JF column in the Ledger form a reciprocal audit trail. ICAI examiners often test whether the student knows that LF is written in the **Journal** (showing the ledger page) while JF is written in the **Ledger** (showing the journal page) — confusing the two is a frequent short-answer trap.
 
-#### Closing Balance = ₹1,20,000 − ₹20,000 = ₹1,00,000 (Debit Balance)
+#### Common Mistakes
 
-The entry on the credit side becomes `By Balance c/d 1,00,000`, and the next period opens with `To Balance b/d 1,00,000` on the debit side.
+- Writing **"To"** on the credit side or **"By"** on the debit side, which inverts the entry.
+- Posting Cash Book transactions twice into a "Cash Ledger" instead of treating the Cash Book itself as the ledger.
+- Omitting **"To balance b/d"** on the larger side, causing the account to not tally.
+- Treating compound entries as a single posting instead of splitting into multiple lines.
 
-#### Edge Cases and Subtleties
+#### Worked Micro-Example
 
-- **Balanced account**: When both sides total equally (e.g., an expense fully transferred to P&L), no balance is carried down; the entry `To P&L A/c` completes the closure.
-- **Nominal accounts** are never balanced directly — they migrate to Trading A/c (direct expenses, purchases) or P&L A/c (indirect expenses, incomes). Only Personal and Real accounts generate standing debit or credit balances for the Trial Balance.
-- **Opening entries** in a new accounting period: only `b/d` figures continue from the previous period; fresh transactions begin below the `b/d` line.
-- **Error of principle** during posting (e.g., debiting the wrong asset account) is invisible without the J/F cross-reference — a reason examiners reward correct folio notation.
+Journal entry: *Purchased goods from Ram ₹5,000 and paid wages ₹1,000.* Ledger postings:
 
-#### Connections to Adjacent Topics
-
-- **Trial Balance**: Aggregate of all ledger closing balances (debits in one column, credits in another).
-- **Bank Reconciliation Statement**: starts from the Cash Book (Bank column) balance as posted in the ledger.
-- **Rectification of Errors**: locating a misposted entry requires the J/F link between journal and ledger.
-
-#### Common Mistakes (Recap)
-
-1. Posting the gross total of a compound entry instead of splitting it.
-2. Missing the `Contra` annotation on contra entries.
-3. Calculating balance by deducting the wrong side (smaller from larger — direction is fixed).
-4. Using `To` and `By` narrations inversely.
+| Account | Debit (₹) | Credit (₹) |
+| --- | --- | --- |
+| Purchases A/c — To Ram | 5,000 | — |
+| Wages A/c — To Cash | 1,000 | — |
+| Ram A/c — By Purchases | — | 5,000 |
+| Cash A/c — By Wages | — | 1,000 |
 
 #### Practice Prompts
 
-1. Journal Entry given: *Purchased goods from Ram ₹50,000 and goods from Shyam ₹30,000 paid by cheque.* Post into the three affected ledger accounts and balance Shyam's A/c assuming a ₹10,000 return.
-2. Given a Cash Book with contra entries, post Bank A/c only, prepare the Bank ledger balance, and identify the *Contra* marking required.
+1. Explain the rule for posting contra entries from the Cash Book and state why the Cash A/c is not balanced in such cases.
+2. A compound entry of three accounts was posted to only two ledger accounts; show the rectification needed before the Trial Balance is prepared.
 
----
+## Continue your study
+
+- **[View this topic in your CA Foundation roadmap](/roadmap/?exam=ca-found&duration=1mo)** — see where "Ledger Posting" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ca-found&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[CA Foundation exam overview](/exams/ca-found/)** — pattern, eligibility, and syllabus
+- **[All Accounting notes](/notes/ca-found/accounting/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

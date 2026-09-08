@@ -8,7 +8,7 @@ topicName: "IJMB Registration, Examination Process and University Admission Stra
 weight: 3
 country: nigeria
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-08"
 ---
 
 # IJMB Registration, Examination Process and University Admission Strategy
@@ -16,197 +16,86 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-Understanding the IJMB process — from registration through to university admission — is as important as passing the examination. Many well-qualified candidates lose admission opportunities because they miss deadlines, fail to choose the right subject combination, or don't understand how JAMB CAPS works for Direct Entry.
+IJMB (Interim Joint Matriculation Board) is the **NUC-approved A'Level programme** that grants Direct Entry (DE) admission into **200-level** of Nigerian universities after a one-year course of study.
 
-**Key dates to remember:**
-- **Registration opens:** October (annually)
-- **Registration closes:** January (usually mid-January)
-- **Examination period:** May to July (3-4 weeks)
-- **Results released:** September-October
-- **JAMB CAPS opens for DE:** October-November
+- **Eligibility**: Minimum of **five (5) O'Level credit passes** (WAEC/NECO/NABTEB) including English Language and Mathematics, in **not more than two sittings**.
+- **Core steps**: Register on the IJMB portal → buy scratch card/PIN → pick three subjects aligned with your desired degree → sit exams (~March/April) → buy JAMB DE form → upload transcript to chosen university.
+- **Grade scale**: A=9, B=8, C=6, D=4, E=2; E-below or absence = 0.
 
-⚡ **Exam tip:** Register for JAMB as a Direct Entry candidate IMMEDIATELY after your IJMB examination — even before results are released. JAMB's CAPS portal is competitive, and some programmes fill up quickly.
-
----
+| Concept | Fact |
+| --- | --- |
+| Programme length | One academic year (≈9–12 months) |
+| Entry level | 200-level via Direct Entry |
+| Required exams | IJMB written papers **plus** JAMB DE UTME |
+| Average benchmark | ≥ upper-credit across three principal subjects |
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Understanding the IJMB Examination Structure:**
+#### Eligibility and Subject Combinations
 
-The IJMB examination is set and administered by Ahmadu Bello University (ABU), Zaria. It is conducted annually across multiple examination centres in Nigeria and some diaspora locations.
+IJMB accepts candidates with **five O'Level credits in ≤2 sittings**, including English and Mathematics. You must select **three IJMB subjects** that align with your target faculty: Physics, Chemistry, Biology for Medicine; Economics, Government, History for Law or Political Science; Mathematics, Physics, Chemistry for Engineering. **Principal subjects must match the chosen course**, otherwise DE screening rejects the application regardless of grade.
 
-**Examination Format:**
-- Each subject is examined through a combination of:
-  - **Written examination:** Essay-type and objective questions
-  - **Practical examination:** For science subjects (Biology, Chemistry, Physics) — laboratory practicals
-- Duration: Most papers are 2-3 hours
-- Grading: A, B, C, D, E, F (points: 8, 7, 6, 5, 4, 0)
+#### Registration Workflow
 
-**Science Practical Examinations:**
-- Biology Practicals: dissection, microscopy, biological drawing, identification of specimens
-- Chemistry Practicals: titrations, qualitative analysis, salt analysis, organic preparation
-- Physics Practicals: measurement, circuit experiments, optics experiments, mechanics
+Registration is online through the **IJMB portal (ijmb.com.ng)**. The candidate purchases a scratch card (PIN), fills bio-data, O'Level details and subject choices, uploads a passport photograph, prints the registration slip, and presents it at the **affiliated study centre**. Late registration or unaccredited centres mean the candidate cannot sit the examinations.
 
-**Grading and Points System:**
-| Grade | Points | Description |
-|---|---|---|
-| A | 8 | Distinction — excellent performance |
-| B | 7 | Credit — very good performance |
-| C | 6 | Credit — good performance |
-| D | 5 | Pass — satisfactory |
-| E | 4 | Pass — acceptable |
-| F | 0 | Fail — does not meet minimum |
+#### Examination Process
 
-**Minimum Requirements for Admission:**
-Most universities require a minimum of 5 points (grade D) in at least 3 relevant IJMB subjects. However, competitive courses (Medicine, Law, Engineering) require significantly higher points.
+Exams run at designated IJMB centres after the academic session, in standard papers **March–April**, using the **approved IJMB syllabus**. Each paper is graded on the NUC scale: **A=9, B=8, C=6, D=4, E=2**. Aggregate score is calculated as:
 
-**The JAMB Direct Entry Process:**
+#### IJMB Score = (Grade Points ÷ Maximum Points) × 100
 
-Step 1: After completing IJMB, register for JAMB (if not already done) and select "Direct Entry" as your programme type.
+#### Admission Strategy
 
-Step 2: Choose your preferred universities and courses through the JAMB CAPS portal (Central Admissions Processing System).
+After IJMB releases results, the candidate must **also buy and sit the JAMB DE form**, choosing IJMB as the A'Level qualification and listing 1st/2nd/3rd university choices. Most universities then compute:
 
-Step 3: Each university will screen your IJMB results and O'Level certificates. Some universities conduct post-screening tests or interviews.
+#### Aggregate = (IJMB Score × 0.60) + (JAMB DE Score × 0.40)
 
-Step 4: If you are admitted, accept the admission on JAMB CAPS. Then proceed to your university's admissions office for registration.
-
-**JAMB Subject Combination for DE:**
-For Direct Entry, JAMB requires you to sit the UTME exam even as a DE candidate — in effect, your JAMB score still matters for DE screening at some universities. The JAMB score cutoffs for DE candidates are generally lower than for UTME candidates (around 100-150 marks for some universities).
-
----
+| Step | What to do | Why it matters |
+| --- | --- | --- |
+| 1 | Verify O'Level credits | Disqualifies candidates without 5 credits ≤2 sittings |
+| 2 | Match subjects to degree | Wrong combination = ineligible for DE |
+| 3 | Register at affiliated centre | Unaccredited centres void results |
+| 4 | Target A's in principals | Drives IJMB Score and Aggregate |
+| 5 | Buy JAMB DE form | No university admits DE without JAMB DE registration |
+| 6 | Upload transcript to school | Closes the DE admission loop |
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-**Comprehensive Guide to the IJMB Process:**
+#### Edge Cases and Recognition Limits
 
-#### Phase 1 — Registration (October to January)
+IJMB is accepted by **federal, state and most private universities**, but **not all institutions honour it**: some private universities, military institutions, and professional programmes (e.g., Nursing in certain teaching hospitals) restrict DE to specific A'Level bodies. Always confirm on the institution's DE requirements page before committing a session. Per IJMB rules, candidates who fall short of the cut-off can **re-sit at the next session**, but only a **limited number of attempts** is permitted.
 
-**Who is eligible to register for IJMB?**
-- Candidates who have completed their Secondary School Certificate (SSCE/WAEC/NECO) with at least 5 credits in relevant subjects
-- Candidates who did not gain admission through JAMB UTME or who prefer the Direct Entry route
-- Candidates who want to enter 200 Level (not 100 Level) at university
-- There is NO age limit for IJMB registration
+#### Common Mistakes
 
-**Where to register:**
-- IJMB registration is done online through the ABU Zaria portal (www.abu.edu.ng)
-- Visit any ABU Zaria designated registration centre across Nigeria
-- Some private CBT centres are authorised as IJMB registration points
+- Picking **Art subjects for Engineering/Medicine** → automatic DE ineligibility.
+- Registering **after the deadline** or with an unverified agent → missed exams or blacklisting.
+- Treating IJMB as a substitute for JAMB DE → **no DE admission is possible without JAMB DE registration**.
+- Confusing IJMB with **JUPEB or Cambridge A'Level** → each programme has its own portal, syllabus, and result channel.
 
-**Registration fees:**
-- IJMB registration fee is set by ABU annually (approximately ₦15,000-₦25,000 depending on the year)
-- Additional fees for scanning and documentation
-- Late registration attracts an additional fee
+#### Worked Example
 
-**Documents required for registration:**
-- O'Level result (WAEC/NECO/NABTEB) — statement of result or certificate
-- Birth certificate or age declaration
-- Two passport photographs
-- JAMB registration slip (if already registered for JAMB)
-- State of Origin certificate
-- NIN (National Identity Number) — now required for many government examinations
+A candidate scores **A (9) in Physics, B (8) in Chemistry, C (6) in Mathematics**, and JAMB DE = **70/100**. Compute: Grade Points = 9+8+6 = **23**; Maximum Points = 9+9+9 = **27**; IJMB Score = (23/27) × 100 = **85.19**; Aggregate = (85.19 × 0.60) + (70 × 0.40) = **51.11 + 28.00 = 79.11**. This 79.11 is then compared to the university's DE cut-off.
 
-**How to choose your IJMB subject combination:**
-- The combination should match your intended university course
-- Check the university and course requirements before registering
-- You cannot change your subject combination after registration closes
-- Most students register for 3-4 subjects
+#### Practice Prompts
 
-**Subject registration examples by intended course:**
-- MBBS (Medicine): Physics, Chemistry, Biology (and optionally Further Mathematics as 4th)
-- Law: Literature-in-English, Government, History (and optionally Economics or CRS as 4th)
-- Engineering: Physics, Chemistry, Mathematics (and optionally Further Mathematics or Geography)
-- Computer Science: Mathematics, Physics, Chemistry
-- Accounting: Mathematics, Economics, Government (and optionally Geography or Business Studies)
+1. Calculate the Aggregate for a candidate with grades B, C, A and a JAMB DE score of 65.
+2. List three reasons a candidate can sit IJMB successfully but still fail to secure DE admission.
 
-#### Phase 2 — The IJMB Programme (January to May)
+| Risk | Prevention |
+| --- | --- |
+| Wrong subject combination | Cross-check NUC DE brochure before choosing |
+| Fake agents | Verify centre via official IJMB office only |
+| Missing JAMB DE form | Treat IJMB + JAMB DE as a single process |
+| Transcript delay | Request transcript release immediately results publish |
 
-After registration, you will receive your examination centre details and your IJMB examination time table. You will also receive study materials and may attend preparatory classes (optional, organized by your study centre).
+## Continue your study
 
-**How to prepare for IJMB:**
-- Past questions from previous IJMB examinations are the most important study resource
-- ABU provides a syllabus for each IJMB subject — obtain this from your registration centre
-- Focus on the A-Level portion of the syllabus — IJMB is set at a level between WAEC and university first year
-- Join a reputable IJMB tutorial centre — the quality of your centre affects your preparation
+- **[View this topic in your IJMB (Nigeria) roadmap](/roadmap/?exam=ijmb&duration=1mo)** — see where "IJMB Registration, Examination Process and University Admission Strategy" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ijmb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[IJMB (Nigeria) exam overview](/exams/ijmb/)** — pattern, eligibility, and syllabus
+- **[All Subject-Combinations notes](/notes/ijmb/subject-combinations/)** — browse sibling topics in this subject
 
-**What happens at the examination:**
-- You go to your assigned examination centre with your registration slip and a valid ID
-- Each paper is supervised by ABU-appointed invigilators
-- Malpractice is treated severely — candidates caught with materials face disqualification
-- Results of candidates caught malpracticing are cancelled and may affect future JAMB applications
-
-#### Phase 3 — Examination (May to July)
-
-The IJMB examinations are conducted over several weeks in May, June, and July. Results are released in September-October each year.
-
-**Receiving your IJMB results:**
-- Results are released through the ABU portal
-- You will receive a physical IJMB result slip by post (for candidates who attended at ABU-registered centres)
-- Your IJMB certificate will be sent to you — this is the official document you use for university admission
-
-**Understanding your IJMB certificate:**
-- The certificate shows your grades in each subject
-- It is accompanied by a statement of results showing marks/points
-- Universities require the ORIGINAL IJMB certificate (not a photocopy) for admission processing
-
-#### Phase 4 — University Admission Through JAMB CAPS
-
-**How JAMB CAPS works for Direct Entry:**
-JAMB's Central Admissions Processing System (CAPS) is the platform through which all admissions (UTME and Direct Entry) are processed in Nigeria.
-
-Step-by-step process:
-1. **JAMB opens the CAPS portal** for Direct Entry — usually in October/November after IJMB results are released
-2. **You log into CAPS** and select your preferred universities and courses (you can select up to the number of choices allowed — typically 4)
-3. **Universities receive your application** through CAPS along with your IJMB results, O'Level results, and JAMB DE registration
-4. **Each university screens candidates** — some use aggregate scores (IJMB points + JAMB score), some conduct additional tests
-5. **Universities make admission decisions** — "Admitted," "Conditional," or "Not Qualified"
-6. **You accept or decline the admission offer** through CAPS
-
-**Why some candidates are not admitted despite good IJMB results:**
-- **O'Level requirements not satisfied:** If you don't have 5 credits including English and Mathematics, many universities will reject you
-- **Cutoff points exceeded:** Even with good IJMB scores, if the university received many applications with higher points, you may not make the cut
-- **Course capacity:** Some courses admit only a limited number of students
-- **Not completing JAMB registration correctly:** JAMB's DE registration must be properly completed, including uploading your IJMB result
-- **Not accepting the admission offer on CAPS:** Some candidates miss this critical step and lose their admission
-
-**How universities calculate admission scores for DE:**
-Each university has its own formula. Some examples:
-- UI: IJMB points (out of 24 for 3 subjects) + JAMB score (out of 400)
-- UNILAG: IJMB points + JAMB score + post-screening test score
-- ABU: IJMB points only (no JAMB score weighting for some programmes)
-
-**Handling multiple admission offers:**
-If you receive multiple admission offers (e.g., from two universities), you can only accept ONE. Once you accept an offer on CAPS, your other offers are automatically declined.
-
-**What to do if you are not admitted:**
-- Check your CAPS portal regularly — some universities admit in batches
-- Consider applying to universities with lower cutoffs
-- If admission is not received by December, check with your preferred university's admissions office
-- You can register for the next year's IJMB if all options are exhausted
-
-**Nigerian Universities That Accept IJMB (2024):**
-All federal universities, most state universities, and many private universities accept IJMB results for Direct Entry. Key ones:
-- University of Ibadan (UI)
-- University of Lagos (UNILAG)
-- Ahmadu Bello University (ABU) — administering body
-- University of Nigeria, Nsukka (UNN)
-- University of Benin (UNIBEN)
-- University of Ilorin (UNILORIN)
-- Federal University of Technology, Owerri (FUTO)
-- Covenant University (private)
-- Babcock University (private)
-- Lagos State University (LASU)
-
-**Final Checklist Before IJMB Examination:**
-- [ ] O'Level result is ready (original certificate or certified true copy)
-- [ ] Birth certificate or age declaration obtained
-- [ ] JAMB registration completed (if not already done)
-- [ ] NIN obtained
-- [ ] Passport photographs (multiple copies)
-- [ ] State of Origin certificate
-- [ ] Subject combination confirmed with target university
-- [ ] Past questions obtained and studied
-- [ ] Examination centre noted
-- [ ] Transport/logistics to examination centre arranged in advance
-- [ ] All fees paid
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

@@ -8,7 +8,7 @@ topicName: Probability and Permutations
 weight: 4
 country: pakistan
 generated: "2026-03-24T08:32:08.070666"
-lastUpdated: 2026-03-24
+lastUpdated: "2026-09-08"
 diagramPrompt: "Mathematical diagram showing Probability and Permutations concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style"
 
 
@@ -17,144 +17,84 @@ diagramPrompt: "Mathematical diagram showing Probability and Permutations concep
 # Probability and Permutations
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your ECAT exam.
+> Rapid summary for last-minute revision before your exam.
 
-**Probability Fundamentals:**
+Probability quantifies how likely an event is, calculated as **P(A) = n(A)/n(S)**, where n(A) is the number of favorable outcomes and n(S) is the total number of equally likely outcomes in the sample space. The value always sits between 0 and 1, where 0 means impossible and 1 means certain.
 
-Probability measures how likely an event is to occur, on a scale from 0 (impossible) to 1 (certain). For equally likely outcomes:
+A **permutation** counts ordered arrangements of *r* distinct objects chosen from *n*, given by **P(n, r) = n!/(n − r)!**. Order matters in permutations, unlike combinations where it does not. ECAT tests 1–2 MCQs from this 4%-weighted area, so mastering the two formulas above plus the complement rule **P(A′) = 1 − P(A)** covers most marks.
 
-$$P(A) = \frac{\text{Number of favourable outcomes}}{\text{Total number of possible outcomes}}$$
-
-**Key concepts:**
-- **Sample space (S)**: the set of all possible outcomes
-- **Event (E)**: a subset of the sample space
-- **Complement**: $P(\bar{A}) = 1 - P(A)$
-- **Mutually exclusive events**: $P(A \cup B) = P(A) + P(B)$
-- **Non-mutually exclusive events**: $P(A \cup B) = P(A) + P(B) - P(A \cap B)$
-- **Conditional probability**: $P(A|B) = P(A \cap B)/P(B)$
-- **Independent events**: $P(A \cap B) = P(A) \cdot P(B)$
-
-**Permutations and Combinations — The Foundation:**
-
-**Permutation (order matters):** $\_nP_r = \frac{n!}{(n-r)!}$
-- When all $n$ objects are arranged: $n!$
-- When $r$ objects are selected from $n$ and arranged: $\nP_r = n(n-1)(n-2)...(n-r+1)$
-
-**Combination (order doesn't matter):** $\binom{n}{r} = \frac{n!}{r!(n-r)!}$
-- Selecting $r$ objects from $n$ without regard to order: $\binom{n}{r}$
-
-**⚡ ECAT exam tips:**
-- Use permutations when the arrangement matters (e.g., seating arrangements, words formed)
-- Use combinations when only the selection matters (e.g., choosing a committee)
-- $\binom{n}{r} = \binom{n}{n-r}$ — symmetric property
-- $n!$ grows extremely fast: $10! = 3,628,800$; $12! = 479,001,600$
+- **Multiplication principle:** if task 1 can be done in *m* ways and task 2 in *n* ways, both together can be done in *m · n* ways.
+- **Complement trick:** for "at least one" problems, compute P(none) and subtract from 1.
+- **Order test:** if the wording says "arrange" or "rank", use permutation; if it says "select" or "choose", suspect combination.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> For ECAT students who want genuine understanding.
+> Standard content for students with a few days to months.
 
-**Permutation — Worked Examples:**
+#### Definitions and Sample Spaces
 
-**Example 1:** How many 4-digit numbers can be formed from digits 1, 2, 3, 4, 5, 6 if digits cannot repeat?
-$\nP_4 = 6 \times 5 \times 4 \times 3 = 360$.
+The **sample space S** is the set of every possible outcome of a random experiment. An **event A** is any subset of S. When every outcome in S is equally likely, classical probability applies: P(A) = n(A)/n(S). For example, rolling a fair die gives S = {1,2,3,4,5,6} with n(S) = 6, so P(rolling an even number) = 3/6 = 0.5.
 
-**Example 2:** How many of these start with 2?
-Fix first digit = 2. Remaining 3 positions from remaining 5 digits: $\nP_3 = 5 \times 4 \times 3 = 60$.
+#### Permutation Formula and Counting Principle
 
-**Example 3:** How many arrangements of the word "ENGINEER" are possible?
-The word ENGINEER has 8 letters: E×3, N×2, G×1, I×1, R×1.
-Total arrangements: $\frac{8!}{3! \cdot 2!} = \frac{40320}{12} = 3360$.
+A **permutation** P(n, r) counts the number of ways to arrange *r* objects selected from *n* distinct objects, where the sequence matters. The formula P(n, r) = n!/(n − r)! comes from filling *r* slots with *n* choices for the first, *n − 1* for the second, and so on. The **multiplication principle** generalises this: if independent choices yield *n₁, n₂, …, nₖ* options, the total arrangements equal their product.
 
-**Combination — Worked Examples:**
+#### Addition, Multiplication, and Conditional Rules
 
-**Example 1:** Choose 3 students from 12 for a debate team. In how many ways?
-$\binom{12}{3} = \frac{12!}{3!9!} = \frac{12 \times 11 \times 10}{6} = 220$.
+| Rule | When to apply | Formula |
+| --- | --- | --- |
+| Complement | "Not A" or "at least one" problems | P(A′) = 1 − P(A) |
+| Addition | A or B occurring | P(A ∪ B) = P(A) + P(B) − P(A ∩ B) |
+| Multiplication | Independent A and B | P(A ∩ B) = P(A) · P(B) |
+| Conditional | Probability of A given B has happened | P(A \| B) = P(A ∩ B)/P(B) |
 
-**Example 2:** A committee of 5 must be chosen from 6 men and 4 women. How many committees contain exactly 2 women?
-Choose 2 women from 4: $\binom{4}{2} = 6$. Choose 3 men from 6: $\binom{6}{3} = 20$. Total: $6 \times 20 = 120$.
+#### Worked Example
 
-**Probability — Worked Examples:**
+A bag holds 5 red and 3 blue balls. Two balls are drawn without replacement. Find the probability both are red. P(1st red) = 5/8, P(2nd red \| 1st red) = 4/7, so P(both red) = (5/8)(4/7) = 20/56 = **5/14**.
 
-**Example 1:** A bag contains 5 red and 4 white balls. Two balls are drawn without replacement. Find P(both red).
-$P(\text{first red}) = 5/9$. $P(\text{second red | first red}) = 4/8 = 1/2$.
-By multiplication rule: $P(\text{both red}) = 5/9 \times 1/2 = 5/18$.
-
-**Example 2:** In the same bag, find P(exactly one red).
-$P(\text{first red, second white}) + P(\text{first white, second red})$
-$= (5/9 \times 4/8) + (4/9 \times 5/8) = (20/72) + (20/72) = 40/72 = 5/9$.
-
-**Example 3:** A die is thrown twice. Find P(at least one 6).
-It's easier to find P(no 6 in two throws) = $(5/6)^2 = 25/36$.
-Then $P(\text{at least one 6}) = 1 - 25/36 = 11/36$.
-
-**⚡ Common student mistakes:**
-1. Confusing permutations with combinations — ask: does order matter?
-2. In probability without replacement, not adjusting the denominator after the first draw
-3. Forgetting that $P(A) + P(\bar{A}) = 1$ and using it to simplify "at least one" problems
-4. Not simplifying $\frac{n!}{r!(n-r)!}$ correctly — especially with large factorials
+- **Permutation vs combination:** "In how many ways can 3 students sit on 3 chairs from a class of 10?" → P(10,3) = 720.
+- **Factorial growth:** 5! = 120, 6! = 720 — watch the denominator n − r when r is small.
+- **ECAT trap:** the question stem often hides "without replacement" — violating independence drops marks immediately.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for ECAT mastery of probability.
+> Comprehensive coverage for students on a longer study timeline.
 
-**Conditional Probability and Bayes' Theorem:**
+#### Bayes' Theorem and Two-Stage Experiments
 
-$$P(A|B) = \frac{P(A \cap B)}{P(B)}$$
+Bayes' theorem reverses conditional probability: **P(A|B) = P(B|A) · P(A)/P(B)**. ECAT occasionally frames a two-stage draw (e.g., defective bulbs from two machines) where the prior probability P(A) feeds into the posterior P(A|B). Compute the total P(B) using the **law of total probability**: P(B) = P(B|A)·P(A) + P(B|A′)·P(A′).
 
-**Example:** Urn 1 has 3 white and 2 black balls. Urn 2 has 2 white and 3 black. An urn is chosen at random and a ball is drawn. It is white. What is the probability it came from Urn 1?
+#### Mutually Exclusive vs Independent Events
 
-$P(\text{Urn 1}) = P(\text{Urn 2}) = 1/2$.
-$P(W|\text{Urn 1}) = 3/5$, $P(W|\text{Urn 2}) = 2/5$.
-$P(W) = P(\text{Urn 1})P(W|\text{Urn 1}) + P(\text{Urn 2})P(W|\text{Urn 2}) = (1/2)(3/5) + (1/2)(2/5) = 3/10 + 2/10 = 1/2$.
-By Bayes' theorem:
-$$P(\text{Urn 1}|W) = \frac{P(\text{Urn 1})P(W|\text{Urn 1})}{P(W)} = \frac{(1/2)(3/5)}{1/2} = \frac{3}{5}$$
+These terms are not synonyms. **Mutually exclusive** events cannot occur together, so P(A ∩ B) = 0. **Independent** events satisfy P(A ∩ B) = P(A)·P(B). Two mutually exclusive events with non-zero probability are *never* independent. ECAT tests this distinction directly through negation traps.
 
-**Bayes' Theorem (General Form):**
-$$P(A_i|B) = \frac{P(A_i)P(B|A_i)}{\sum_j P(A_j)P(B|A_j)}$$
+#### Practice Prompts
 
-**The Multiplication Principle — Counting:**
+1. A 4-digit PIN is formed using digits 0–9 with no repetition. How many PINs are even and greater than 5000? *(Hint: fix the thousands digit first, then count using P(9,3) with parity constraint.)*
+2. Two cards are drawn from a standard 52-card deck without replacement. What is the probability the second card is a king given the first was a king? *(Answer: 3/51.)*
 
-If task 1 can be done in $m$ ways and task 2 in $n$ ways (independently), both tasks can be done in $m \times n$ ways.
+#### Common Mistakes
 
-**Circular Permutations:**
-- $n$ distinct objects around a circle: $(n-1)!$
-- If reflections are considered identical (necklaces): $(n-1)!/2$
-- $n$ objects with some identical around a circle: $(n-1)!/(q_1! q_2!...)$ where $q_i$ are the multiplicities of identical objects
+| Mistake | Correction |
+| --- | --- |
+| Using C(n,r) where P(n,r) is required | Check whether order matters in the wording |
+| Dropping the n! term | P(n,r) needs numerator n!, not just (n−r)! |
+| Forgetting the overlap term in addition rule | Always subtract P(A ∩ B) unless events are mutually exclusive |
+| Computing P(A\|B) as P(B\|A) | Bayes' theorem converts the direction explicitly |
 
-**Derangements (Subtle Point):**
-The number of ways that $n$ objects can be arranged so that no object is in its original position (derangement problem):
-$$D_n = n!\left(1 - \frac{1}{1!} + \frac{1}{2!} - \frac{1}{3!} + ... + \frac{(-1)^n}{n!}\right)$$
-For $n=3$: $D_3 = 3!(1 - 1 + 1/2 - 1/6) = 6(1/3) = 2$.
+- **Strategic note:** probability + permutations is a 4% slice, so budget 4–5 minutes per MCQ; skip and return if stuck.
+- **Formula sheet habit:** write P(n,r) = n!/(n−r)! at the top of your rough work before reading the question.
 
-**Probability Distribution — Expected Value:**
+---
 
-If a random variable $X$ takes values $x_1, x_2, ...$ with probabilities $p_1, p_2, ...$:
-$$E(X) = \sum x_i p_i$$
-Variance: $\text{Var}(X) = E(X^2) - [E(X)]^2$
+## Continue your study
 
-**Binomial Probability:**
-When $n$ independent trials, each with probability $p$ of success:
-$$P(X=r) = \binom{n}{r} p^r (1-p)^{n-r}$$
+- **[View this topic in your ECAT (Engineering College Admission Test) roadmap](/roadmap/?exam=ecat&duration=1mo)** — see where "Probability and Permutations" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ecat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[ECAT (Engineering College Admission Test) exam overview](/exams/ecat/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/ecat/mathematics/)** — browse sibling topics in this subject
 
-**Example:** A coin is tossed 5 times. Find P(exactly 3 heads).
-$n=5$, $r=3$, $p=1/2$.
-$P = \binom{5}{3} (1/2)^3 (1/2)^2 = 10/32 = 5/16$.
-
-**Inclusion-Exclusion Principle (Counting):**
-
-For any two sets:
-$$|A \cup B| = |A| + |B| - |A \cap B|$$
-
-For three sets:
-$$|A \cup B \cup C| = |A| + |B| + |C| - |A \cap B| - |B \cap C| - |C \cap A| + |A \cap B \cap C|$$
-
-**ECAT Previous Year Patterns:**
-- Permutations with restrictions: common
-- Combinations with conditions: very common
-- Probability of compound events: very common
-- "At least one" problems: frequently tested
-- Bayes' theorem / conditional probability: occasionally tested
-
-*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

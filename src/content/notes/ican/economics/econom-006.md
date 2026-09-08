@@ -8,36 +8,60 @@ topicName: Cost Theory
 weight: 3
 country: nigeria
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-04"
+lastUpdated: "2026-09-08"
 ---
 
 # Cost Theory
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+> Rapid summary for last-minute revision before your ICAN exam.
 
-**Cost** in economics is the monetary value of resources sacrificed to produce a good or service. The accounting view records only **explicit costs** (wages, rent, materials paid in cash), while the economist adds **implicit costs** — the **opportunity cost** of owner-owned inputs (own labour, own capital) — to obtain **economic cost**. The core six formulas carry every ICAN numerical: **TC = FC + VC**, **AC = TC/Q**, **AFC = FC/Q**, **AVC = VC/Q**, **MC = ΔTC/ΔQ**, and **Break-even (units) = FC ÷ (Price − AVC)**. Three points to lock down: (1) MC intersects AC and AVC at their **minimum points**, not their maximum; (2) **short run** = at least one fixed factor (commonly capital), NOT a calendar period; (3) a loss-making firm continues in the short run if **Price ≥ AVC**, otherwise it shuts down.
+Cost Theory explains how a firm's expenses behave as output (Q) changes, split into the **short run** (at least one fixed input) and the **long run** (all inputs variable). In the short run, costs split into **Total Fixed Cost (TFC)** — independent of output — and **Total Variable Cost (TVC)**, which rises with output. Adding them gives **Total Cost (TC = TFC + TVC)**.
+
+The per-unit measures are **AFC = TFC/Q**, **AVC = TVC/Q**, and **AC = TC/Q**. The change in TC from one extra unit is **Marginal Cost (MC = ΔTC/ΔQ)**. Because TFC stays constant while Q rises, AFC continuously falls and approaches zero. AVC and AC are typically **U-shaped**, and **MC cuts both AVC and AC at their minimum points**.
+
+> **Exam tip:** Remember the identity AC = AFC + AVC — examiners test it directly.
+
+- **MC = MR** gives the profit-maximising output; the firm earns supernormal profit only when **P ≥ AC**.
+- **Break-even output**: Q* = TFC / (P − AVC); **shut-down rule**: continue in the short run if **P ≥ AVC**, exit if **P < AVC**.
+- Distinguish **accounting profit** (explicit costs only) from **economic profit** (explicit + implicit + opportunity costs).
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+> Standard content for students with a few days to months to prepare.
 
-#### Cost Categories and Components
+#### Short-Run Cost Structure
 
-Economists split total cost into **fixed cost (FC)** — outlays that do not vary with output (rent, insurance, salaries of permanent staff, depreciation of plant) — and **variable cost (VC)**, which rises and falls with the quantity produced (raw materials, piece-rate wages, electricity for machines). Total cost is the simple identity **TC = FC + VC**. Fixed costs exist even when output is zero, so TC starts above the origin on a graph; VC starts at zero. Economic cost goes further: it equals **accounting cost (explicit) + implicit cost**, where implicit cost is the value of foregone alternatives, e.g. an entrepreneur's own time that could earn a salary elsewhere, or own capital that could earn interest.
+In the short run, at least one factor (typically capital) is fixed. TFC — rent, insurance, salaried staff — is paid even when Q = 0. TVC — raw materials, direct labour, power — rises with output. TC = TFC + TVC, and because TFC is constant, the shape of TC is dictated by TVC.
 
-#### Per-Unit Cost Curves
+Dividing through by Q gives the average curves: **AFC = TFC/Q** (a downward-sloping rectangular hyperbola), **AVC = TVC/Q**, and **AC = AFC + AVC**. Because AFC falls continuously, the gap between AC and AVC narrows as Q grows.
 
-Dividing totals by quantity gives average measures: **AC = TC/Q**, **AFC = FC/Q**, **AVC = VC/Q**. Because AFC falls continuously as Q rises (a fixed sum spread over more units), the gap between AC and AVC narrows with output but never closes. The **marginal cost MC = ΔTC/ΔQ** is the extra cost of producing one more unit. ICAN frequently tests the geometric rule that the **MC curve cuts both AVC and AC at their respective minima**: when MC < AC, AC is falling; when MC > AC, AC is rising; AC is stationary exactly where MC = AC.
+#### Marginal Cost and Curve Geometry
 
-#### Short-Run Behaviour and the Law of Variable Proportions
+MC = ΔTC/ΔQ measures the addition to total cost from producing one more unit. Geometrically, MC is the slope of the TC curve. The MC curve is U-shaped because of the law of variable proportions — initially increasing returns from specialisation, then diminishing returns as fixed factors get stretched.
 
-In the short run at least one factor (capital) is fixed, so adding more of the variable factor (labour) first yields **increasing marginal returns** (specialisation, better use of the fixed capital), then **diminishing marginal returns** once the fixed factor becomes overstretched. This produces the characteristic **U-shape of MC, AVC and AC**: MC dips, reaches a minimum, then rises sharply; AVC and AC lag behind MC and share the U-shape at a flatter level.
+| Curve | Shape | Reason |
+| --- | --- | --- |
+| AFC | Continuously falling, approaches 0 | TFC constant, Q rising |
+| AVC | U-shaped | Initially falling (specialisation), then rising (diminishing returns) |
+| AC | U-shaped, lies above AVC | AC = AFC + falling-then-rising AVC |
+| MC | U-shaped, cuts AVC and AC at their minima | MC equals each average at that average's lowest point |
 
-#### Typical ICAN Question Patterns
+#### Profit Maximisation and Break-Even
 
-Candidates should expect MCQ items on (a) identifying which cost is fixed, (b) computing AC/MC from a cost schedule, and (c) interpreting a diagram where MC crosses AVC and AC. Numerical questions frequently supply a table of TC and Q and ask for AC, AVC, AFC and the profit-maximising output where MC equals a given price.
+A competitive firm maximises profit where **MC = MR**, provided **P ≥ AVC**. The break-even point — where total revenue just covers total cost (zero economic profit) — occurs algebraically at **Q* = TFC / (P − AVC)**, and graphically where the total-revenue and total-cost curves intersect.
+
+> **Common trap:** A loss-making firm should shut down only when P < AVC. Below AVC but above zero, the firm still covers all variable costs and contributes something toward TFC, so it should keep producing in the short run.
+
+#### Cost Curves and Output Decisions
+
+| Condition | Implication |
+| --- | --- |
+| P > AC | Supernormal profit — produce where MC = MR |
+| P = AC | Normal profit (break-even) |
+| AVC ≤ P < AC | Loss, but continue short-run operation |
+| P < AVC | Shut down (covers neither variable cost fully) |
 
 ---
 
@@ -46,24 +70,40 @@ Candidates should expect MCQ items on (a) identifying which cost is fixed, (b) c
 
 #### Long-Run Cost Curves and Returns to Scale
 
-In the long run **all factors are variable**, so the firm can vary plant size. The **long-run average cost (LAC)** curve is the **envelope** of all possible short-run average cost (SAC) curves — each SAC corresponds to a different plant size, and LAC touches but never crosses any SAC. The U-shape of LAC reflects first **economies of scale** (bulk buying, specialisation, indivisibilities, financial discounts, marketing spreads) and later **diseconomies of scale** (managerial inefficiency, coordination failure, principal–agent problems, input bottlenecks) as the firm grows too large. **Returns to scale** (long run) is distinct from **diminishing returns** (short run): the former describes scaling all inputs together, the latter describes holding one input fixed.
+The **Long-Run Average Cost (LRAC)** is the envelope of all possible Short-Run Average Cost (SRAC) curves, because in the long run every input — including plant size — is variable. Each point on LRAC is tangent to the SRAC built for that particular scale.
 
-#### The Dual Relationship with Production
+Three regions describe the LRAC:
 
-A precise microeconomic link ties cost theory to production theory. If w is the price of the variable input (labour) and **MPP** its marginal physical product, then **MC of output = w ÷ MPP**. As MPP first rises (specialisation) and then falls (diminishing returns), MC first falls and then rises — confirming why the short-run MC curve is U-shaped. The minimum of MC occurs exactly at the maximum of MPP.
+1. **Economies of scale** — falling LRAC from internal factors: technical (indivisibilities, mass production), managerial (specialisation of supervision), financial (cheaper borrowing), and marketing (spread advertising over more units). External economies arise outside the firm (skilled labour pool, infrastructure).
+2. **Constant returns to scale** — flat LRAC, where proportionate input increases yield proportionate output increases.
+3. **Diseconomies of scale** — rising LRAC from coordination failure, bureaucracy, communication bottlenecks, and principal–agent problems that outweigh scale benefits.
 
-#### Shut-Down, Break-Even and Exit Rules
+#### Explicit, Implicit, Sunk and Opportunity Costs
 
-The **shut-down point** is the minimum of AVC: below this price the firm cannot even cover its variable costs and should cease production in the short run, even though FC remains unpaid. The **break-even point** is where **Price = AC**, the firm earning only normal profit (zero economic profit). If price falls persistently below AC, the firm **exits in the long run**, recovering nothing of its avoidable fixed cost; if price stays between AVC and AC, it **operates at a loss in the short run** but covers variable cost and part of fixed cost — preferable to shutting down and losing all of FC.
+| Cost type | Definition | Example |
+| --- | --- | --- |
+| Explicit | Actual cash payment to outsiders | Wages, rent paid |
+| Implicit | Value of owner-supplied resources | Owner's forgone salary |
+| Sunk | Irrecoverable historical outlay | Failed R&D spend |
+| Opportunity | Next-best alternative foregone | Wages given up to study ICAN |
 
-#### Common Mistakes
-
-Students routinely (1) treat the "short run" as 6 or 12 months instead of defining it by fixity of a factor; (2) confuse AC with MC and so wrongly state that AC is rising whenever MC is rising; (3) ignore implicit cost when computing profit, double-counting owner's salary as both expense and income; (4) claim a loss-making firm must shut down, forgetting the AVC test.
+**Accounting profit** subtracts only explicit costs; **economic profit** subtracts all four categories. Economic profit is the true ICAN-relevant measure of competitive advantage.
 
 #### Practice Prompts
 
-1. A firm has FC = ₦200,000, AVC = ₦150 at Q = 1,000 units, and price = ₦180. Should it operate in the short run? Calculate the break-even output.
-2. Explain, with reference to the envelope curve, why a firm's LAC is lower than the highest of its SACs but tangent to the minimum of each chosen SAC.
+1. A firm has TFC = ₦200,000, TVC = ₦50Q, and price P = ₦70. Compute AFC, AVC, MC, break-even output, and state whether the firm should produce or shut down if P falls to ₦45.
+2. Explain why LRAC is described as an "envelope" of SRACs, and distinguish returns to scale from economies of scale in your answer.
+
+> **Examiner cue:** When a question asks "should the firm shut down?", never answer on the basis of loss alone — apply the **P vs AVC** rule first, then check **P vs AC** for profit status.
+
+---
+
+## Continue your study
+
+- **[View this topic in your ICAN (Nigeria) roadmap](/roadmap/?exam=ican&duration=1mo)** — see where "Cost Theory" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ican&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[ICAN (Nigeria) exam overview](/exams/ican/)** — pattern, eligibility, and syllabus
+- **[All Economics notes](/notes/ican/economics/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

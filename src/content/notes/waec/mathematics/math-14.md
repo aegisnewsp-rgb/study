@@ -8,7 +8,7 @@ topicName: "Applications of Calculus (Rates, Max/Min)"
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.624090"
-lastUpdated: 2026-03-24
+lastUpdated: "2026-09-08"
 diagramPrompt: "Mathematical diagram showing Applications of Calculus (Rates, Max/Min) concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style"
 
 ---
@@ -16,212 +16,74 @@ diagramPrompt: "Mathematical diagram showing Applications of Calculus (Rates, Ma
 # Applications of Calculus (Rates, Max/Min)
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+> Rapid summary for last-minute revision before your WAEC WASSCE Paper 2.
 
-**Calculus** is the mathematics of change. **Differentiation** finds the rate at which quantities change. **Integration** is its inverse — finding quantities from their rates of change.
+Differentiation gives the **instantaneous rate of change**: dy/dx is the gradient of y against x at a point, not the average change across an interval. Setting f'(x) = 0 yields **stationary points**; classify each with the second derivative f''(x) — positive means a **minimum**, negative means a **maximum**.
 
-**Differentiation — Basic Rules:**
+- **Differentiation rule:** if y = ax^n then dy/dx = nax^(n−1).
+- **Classification rule:** f''(x) > 0 → minimum point; f''(x) < 0 → maximum point.
+- **Exam hit-rate:** ~4% of WAEC Paper 2 marks (usually 1 structured 10–15 mark question).
 
-If $y = x^n$, then:
-$$\frac{dy}{dx} = nx^{n-1}$$
-
-**Common derivatives:**
-$$\frac{d}{dx}(x^n) = nx^{n-1}$$
-$$\frac{d}{dx}(\sin x) = \cos x$$
-$$\frac{d}{dx}(\cos x) = -\sin x$$
-$$\frac{d}{dx}(e^x) = e^x$$
-$$\frac{d}{dx}(\ln x) = \frac{1}{x}$$
-
-**Product Rule:**
-If $y = uv$, then:
-$$\frac{dy}{dx} = u\frac{dv}{dx} + v\frac{du}{dx}$$
-
-**Quotient Rule:**
-If $y = \frac{u}{v}$, then:
-$$\frac{dy}{dx} = \frac{v\frac{du}{dx} - u\frac{dv}{dx}}{v^2}$$
-
-**Chain Rule:**
-If $y = f(g(x))$, then:
-$$\frac{dy}{dx} = f'(g(x)) \cdot g'(x)$$
-
-⚡ **WAEC Tip:** When finding maximum or minimum, set $\frac{dy}{dx} = 0$ and solve. Then check the second derivative: if $\frac{d^2y}{dx^2} > 0$, it's a minimum; if $< 0$, it's a maximum.
-
----
+| Task | Action |
+| --- | --- |
+| Find turning point | Differentiate, set f'(x) = 0, solve for x |
+| Classify turning point | Evaluate f''(x) at that x, read the sign |
+| Word problem on rates | Translate English to dy/dx, then substitute the given instant |
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> For students who want genuine understanding.
+> Standard content for students with a few days to months before WASSCE.
 
-**Rates of Change:**
+#### Definition of rate of change
+The derivative dy/dx equals the limit as h→0 of [f(x+h) − f(x)] / h. Geometrically it is the slope of the tangent to y = f(x) at x. Numerically, for small Δx, Δy ≈ (dy/dx)·Δx — useful when WAEC asks "by how much will y change when x increases by 0.2?".
 
-$\frac{dy}{dx}$ represents the rate of change of $y$ with respect to $x$.
+#### Locating turning points
+Solve f'(x) = 0. Each solution is a candidate maximum, minimum, or point of inflexion. Apply the second derivative test: a positive f''(x) curves the graph upward (valley), a negative f''(x) curves it downward (peak). If f''(x) = 0, fall back on the sign-change method — track f'(x) just before and just after the critical value.
 
-*Problem*: A stone is dropped from a height. Its height $h$ metres after $t$ seconds is $h = 100 - 5t^2$. Find the velocity after 3 seconds.
+#### Worked pattern: polynomial extremum
+For y = 3x² − 12x + 5, dy/dx = 6x − 12. Setting 6x − 12 = 0 gives x = 2. Then d²y/dx² = 6 > 0, so x = 2 is a minimum with y = 3(4) − 12(2) + 5 = −7. This two-line structure (differentiate, set to zero, classify) is the WAEC template.
 
-Velocity = $\frac{dh}{dt} = -10t$
-At $t = 3$: velocity $= -10 \times 3 = -30$ m/s (negative means falling)
+| Symbol | Meaning | Unit |
+| --- | --- | --- |
+| dy/dx | Instantaneous rate of change of y with respect to x | unit(y) per unit(x) |
+| f'(x) = 0 | Stationary / critical point | unit(x) |
+| f''(x) > 0 | Concave up — local minimum | unit(y) per unit(x)² |
+| f''(x) < 0 | Concave down — local maximum | unit(y) per unit(x)² |
 
-*Problem*: A circle's radius increases at 2 cm/s. Find how fast the area is increasing when radius = 10 cm.
-
-$$A = \pi r^2$$
-$$\frac{dA}{dr} = 2\pi r$$
-$$\frac{dA}{dt} = \frac{dA}{dr} \cdot \frac{dr}{dt} = 2\pi r \cdot 2 = 4\pi r$$
-At $r = 10$: $\frac{dA}{dt} = 4\pi \times 10 = 40\pi \approx 125.7$ cm²/s
-
-**Maximum and Minimum:**
-
-*Problem*: Find the maximum value of $y = 12x - x^2$.
-
-$$\frac{dy}{dx} = 12 - 2x$$
-Set equal to 0:
-$$12 - 2x = 0 \Rightarrow x = 6$$
-$$\frac{d^2y}{dx^2} = -2 < 0 \quad \text{(concave down, so maximum)}$$
-
-At $x = 6$: $y = 12(6) - 36 = 72 - 36 = 36$
-
-Maximum value = 36
-
-*Problem*: A rectangle has perimeter 40 cm. Find its maximum area.
-
-Let $x$ = length, $y$ = width.
-$$2x + 2y = 40 \Rightarrow x + y = 20 \Rightarrow y = 20 - x$$
-$$A = xy = x(20-x) = 20x - x^2$$
-$$\frac{dA}{dx} = 20 - 2x = 0 \Rightarrow x = 10$$
-$$\frac{d^2A}{dx^2} = -2 < 0 \Rightarrow \text{maximum}$$
-
-Maximum area when $x = 10$, $y = 10$:
-$$A = 10 \times 10 = 100 \text{ cm}^2$$
-
-⚡ **Common Student Mistakes:** Forgetting to use the chain rule for composite functions. Not checking the second derivative to confirm max/min. Forgetting that at max/min, the derivative equals zero (stationary points).
-
----
+- Always state the x-value **and** the corresponding y-value of the turning point.
+- Verify the answer makes physical sense — reject negative lengths, zero radii, or values outside the domain.
+- Differentiate before substituting known values, not after, to avoid arithmetic traps.
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive theory for thorough preparation.
+> Comprehensive coverage for students on a longer study timeline.
 
-**Turning Points and Nature:**
+#### Related rates and implicit differentiation
+Some WAEC questions link two changing quantities through an equation such as V = (4/3)πr³ or A = πr². Differentiate both sides with respect to time t, then solve for the unknown rate. The chain rule (dr/dt appears as a factor) is the recurring mechanism — expect a problem where dV/dt and dr/dt must be connected, or where dA/dt and dr/dt must be connected.
 
-A function has stationary points where $\frac{dy}{dx} = 0$.
+#### Optimisation under a constraint
+Real WASSCE questions ask: "Find two positive numbers whose sum is 20 and whose product is maximum" or "A closed cylinder has volume 1000 cm³ — find dimensions that minimise surface area". The procedure is: rewrite the objective in one variable using the constraint, differentiate, set to zero, then confirm with f''(x) or the context (cost minimised, not maximised).
 
-To determine the nature:
-1. Find $\frac{dy}{dx} = 0$ → find $x$ coordinate(s)
-2. Find $\frac{d^2y}{dx^2}$ at each stationary point
-   - If $\frac{d^2y}{dx^2} > 0$: Local minimum
-   - If $\frac{d^2y}{dx^2} < 0$: Local maximum
-   - If $\frac{d^2y}{dx^2} = 0$: Test higher derivatives or use first derivative test
+#### Common mistakes
+- Quoting x = 2 as "a maximum" without checking f''(x) — sometimes it is a minimum.
+- Forgetting the chain rule when differentiating r² or r³ inside a related-rates equation, leading to a factor of 2 or 3 error.
+- Treating dy/dx as the **average** rate of change (it is the instantaneous rate at a single x).
+- Confusing a point of inflexion (f'(x) = 0 but no extremum) with a turning point.
 
-*Problem*: Find and classify stationary points of $y = x^3 - 3x^2 - 9x + 10$.
+| Mistake | Correction |
+| --- | --- |
+| Writing dV/dt = 4πr² | Correct form is dV/dt = 4πr² · (dr/dt) |
+| Reporting x = 2 with no y-value | Always pair x with f(x) at the turning point |
+| Accepting negative radius | State domain restriction x > 0 before solving |
 
-$$\frac{dy}{dx} = 3x^2 - 6x - 9 = 0$$
-$$3(x^2 - 2x - 3) = 0$$
-$$3(x-3)(x+1) = 0$$
-$$x = 3 \text{ or } x = -1$$
+#### Practice prompts:
+1. A spherical balloon's volume grows at 8 cm³/s. Find dr/dt when r = 5 cm, given V = (4/3)πr³.
+2. A rectangular garden has perimeter 60 m. Express the area A in terms of one side x, then find x that maximises A and state the maximum area.
 
-$$\frac{d^2y}{dx^2} = 6x - 6$$
+## Continue your study
 
-At $x = 3$: $\frac{d^2y}{dx^2} = 12 > 0 \Rightarrow$ minimum
-At $x = -1$: $\frac{d^2y}{dx^2} = -12 < 0 \Rightarrow$ maximum
+- **[View this topic in your WAEC WASSCE roadmap](/roadmap/?exam=waec&duration=1mo)** — see where "Applications of Calculus (Rates, Max/Min)" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=waec&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[WAEC WASSCE exam overview](/exams/waec/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/waec/mathematics/)** — browse sibling topics in this subject
 
-Points: $(3, -17)$ minimum, $(-1, 15)$ maximum
-
-**First Derivative Test:**
-Check sign of $\frac{dy}{dx}$ on either side of the stationary point:
-- If changes from positive to negative: Maximum
-- If changes from negative to positive: Minimum
-- If same sign both sides: Point of inflection
-
-**Points of Inflection:**
-Where concavity changes. Occurs when $\frac{d^2y}{dx^2} = 0$ and changes sign.
-
-*Problem*: Find point of inflection of $y = x^3 - 6x^2 + 12x - 4$.
-$$\frac{dy}{dx} = 3x^2 - 12x + 12 = 3(x^2 - 4x + 4) = 3(x-2)^2$$
-$$\frac{d^2y}{dx^2} = 6x - 12$$
-
-$\frac{d^2y}{dx^2} = 0 \Rightarrow x = 2$
-At $x = 2$: $\frac{d^2y}{dx^2}$ changes from negative to positive, so point of inflection.
-
-Point: $(2, 0)$
-
-**Kinematics:**
-
-For an object with position $s(t)$:
-- Velocity: $v = \frac{ds}{dt}$
-- Acceleration: $a = \frac{dv}{dt} = \frac{d^2s}{dt^2}$
-
-*Problem*: A particle moves so that $s = t^3 - 6t^2 + 9t + 2$. Find:
-(a) Velocity when acceleration = 0
-(b) Total distance in first 5 seconds
-
-(a) $v = \frac{ds}{dt} = 3t^2 - 12t + 9$
-$a = \frac{dv}{dt} = 6t - 12$
-$a = 0 \Rightarrow t = 2$
-At $t = 2$: $v = 3(4) - 12(2) + 9 = 12 - 24 + 9 = -3$ m/s
-
-(b) To find distance, find where velocity changes sign:
-$$3t^2 - 12t + 9 = 3(t^2 - 4t + 3) = 3(t-1)(t-3) = 0$$
-$t = 1$ or $t = 3$
-
-For $0 \leq t \leq 5$:
-- At $t = 0$: $s = 2$
-- At $t = 1$: $s = 1 - 6 + 9 + 2 = 6$
-- At $t = 3$: $s = 27 - 54 + 27 + 2 = 2$
-- At $t = 5$: $s = 125 - 150 + 45 + 2 = 22$
-
-Since velocity is positive on $(0,1)$, negative on $(1,3)$, positive on $(3,5)$:
-Distance = $|6-2| + |2-6| + |22-2| = 4 + 4 + 20 = 28$ m
-
-**Optimization Problems:**
-
-*Problem*: A cylindrical tin is to hold 500 cm³. Find dimensions that minimize surface area.
-
-Let $r$ = radius, $h$ = height.
-$$V = \pi r^2 h = 500 \Rightarrow h = \frac{500}{\pi r^2}$$
-
-Surface area (with lid): $S = 2\pi r^2 + 2\pi r h = 2\pi r^2 + 2\pi r \cdot \frac{500}{\pi r^2} = 2\pi r^2 + \frac{1000}{r}$
-
-$$\frac{dS}{dr} = 4\pi r - \frac{1000}{r^2} = 0$$
-$$4\pi r^3 = 1000$$
-$$r^3 = \frac{250}{\pi}$$
-$$r = \sqrt[3]{\frac{250}{\pi}} \approx 4.3 \text{ cm}$$
-
-$$h = \frac{500}{\pi (4.3)^2} \approx 8.6 \text{ cm}$$
-
-So the most economical tin has $h = 2r$ (height equals diameter).
-
-**Related Rates:**
-
-*Problem*: Water is poured into a cone at 8 cm³/s. The cone has height 12 cm and radius 4 cm (pointing down). How fast is the water level rising when the water is 6 cm deep?
-
-Similar triangles: $\frac{r}{h} = \frac{4}{12} = \frac{1}{3} \Rightarrow r = \frac{h}{3}$
-
-Volume of water in cone: $V = \frac{1}{3}\pi r^2 h = \frac{1}{3}\pi \left(\frac{h}{3}\right)^2 h = \frac{\pi h^3}{27}$
-
-$$\frac{dV}{dt} = \frac{\pi}{27} \cdot 3h^2 \frac{dh}{dt} = \frac{\pi h^2}{9} \frac{dh}{dt}$$
-$$8 = \frac{\pi (6)^2}{9} \frac{dh}{dt} = \frac{36\pi}{9} \frac{dh}{dt} = 4\pi \frac{dh}{dt}$$
-$$\frac{dh}{dt} = \frac{8}{4\pi} = \frac{2}{\pi} \approx 0.64 \text{ cm/s}$$
-
-**Integration — Basic:**
-
-$$\int x^n \, dx = \frac{x^{n+1}}{n+1} + C \quad (n \neq -1)$$
-$$\int e^x \, dx = e^x + C$$
-$$\int \frac{1}{x} \, dx = \ln|x| + C$$
-$$\int \sin x \, dx = -\cos x + C$$
-$$\int \cos x \, dx = \sin x + C$$
-
-**Definite Integrals:**
-$$\int_a^b f(x) \, dx = [F(x)]_a^b = F(b) - F(a)$$
-
-*Problem*: Find area under $y = x^2$ from $x = 1$ to $x = 3$.
-$$\int_1^3 x^2 \, dx = \left[\frac{x^3}{3}\right]_1^3 = \frac{27}{3} - \frac{1}{3} = \frac{26}{3} \approx 8.67$$
-
-**Area Between Curves:**
-$$A = \int_a^b (f(x) - g(x)) \, dx \quad \text{where } f(x) \geq g(x)$$
-
-*Problem*: Find area between $y = x^2$ and $y = x + 2$.
-
-Find intersections: $x^2 = x + 2 \Rightarrow x^2 - x - 2 = 0 \Rightarrow (x-2)(x+1) = 0 \Rightarrow x = -1, 2$
-
-$$A = \int_{-1}^2 [(x+2) - x^2] \, dx = \left[\frac{x^2}{2} + 2x - \frac{x^3}{3}\right]_{-1}^2$$
-$$= \left(2 + 4 - \frac{8}{3}\right) - \left(\frac{1}{2} - 2 + \frac{1}{3}\right)$$
-$$= \left(6 - \frac{8}{3}\right) - \left(\frac{1}{2} - \frac{5}{3}\right) = \frac{10}{3} - \left(-\frac{7}{6}\right) = \frac{10}{3} + \frac{7}{6} = \frac{27}{6} = \frac{9}{2}$$
-
-⚡ **WAEC Examination Patterns:** Differentiate polynomial and trigonometric functions. Apply product, quotient, and chain rules. Find maximum and minimum values. Solve optimization problems. Find rates of change in related rates problems. Use calculus in kinematics (position, velocity, acceleration). Evaluate definite integrals. Find areas under curves and between curves.
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

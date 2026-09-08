@@ -8,7 +8,7 @@ topicName: Vital Signs and Patient Assessment
 weight: 3
 country: uae
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-05-28"
+lastUpdated: "2026-09-08"
 ---
 
 # Vital Signs and Patient Assessment
@@ -16,93 +16,85 @@ lastUpdated: "2026-05-28"
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Definition:** Vital signs are objective measurements (temperature, pulse, respiration, BP, SpO₂) reflecting physiological status. Patient assessment is the systematic head-to-toe evaluation identifying health problems and guiding decisions.
+Vital signs are six objective, measurable physiological indicators — **temperature, pulse rate, respiratory rate, blood pressure, oxygen saturation (SpO₂), and pain score** — that establish a patient's baseline and flag early clinical deterioration. They are collected at every encounter and form the first half of any structured patient assessment, followed by the primary survey (ABCDE) and a focused history.
 
-**Must-Know Formulas:**
-- **MAP** = [(2 × diastolic) + systolic] / 3
-- **Pulse Pressure** = systolic − diastolic
-- **BMI** = weight (kg) / [height (m)]²
-
-**Normal Adult Ranges:** HR 60–100 bpm | RR 12–20/min | BP <120/80 mmHg | Temp 36.5–37.5°C | SpO₂ ≥95%
-
-**High-Yield Exam Points:**
-- **MAP <65 mmHg** indicates inadequate tissue perfusion → requires immediate intervention
-- **BP cuff size matters**: bladder width = 40% of arm circumference; bladder length = 80%
-- Allow **5-minute rest** before BP measurement
-- Primary survey follows **ABCDE**: Airway, Breathing, Circulation, Disability, Exposure
-- **Vital sign trends** matter more than single isolated readings
-
----
+- **Primary survey order (ABCDE):** Airway → Breathing → Circulation → Disability → Exposure.
+- **MAP formula:** MAP (mmHg) = [Systolic BP + 2 × Diastolic BP] / 3 — reflects perfusion pressure.
+- **SpO₂ target:** ≥94% in healthy adults; ≥92% in known COPD on room air.
+- **Trend > single value:** a deteriorating pattern across 30–60 minutes is more clinically urgent than one abnormal number.
+- **Pain is the 5th vital sign** and must be re-scored after every analgesic dose within the prescribed interval.
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-## Vital Signs: Measurement Details
+#### The six vital signs and adult reference ranges
 
-**Temperature:** Core range 36.5–37.5°C (97.7–99.5°F). Methods vary in accuracy: oral reads 0.3–0.5°C lower than tympanic; rectal reads 0.5–0.8°C higher. Hypothermia <35°C; fever >38°C.
+| Vital sign | Normal adult range | Unit | Key technique point |
+| --- | --- | --- | --- |
+| Oral temperature | 36.5 – 37.5 | °C | Wait 15–30 min after hot/cold fluids |
+| Pulse rate (HR) | 60 – 100 | bpm | Count 30 s × 2; full 60 s if rhythm is irregular |
+| Respiratory rate | 12 – 20 | breaths/min | Count without telling the patient (avoid conscious slowing) |
+| Blood pressure | 90/60 – 120/80 | mmHg | Cuff bladder width ≈ 40 % of arm circumference |
+| SpO₂ | ≥ 95 on room air | % | Sensor on warm finger; wait for stable waveform |
+| Pain (NRS 0–10) | 0 – 3 acceptable | score | Use same scale pre- and post-intervention |
 
-**Pulse Assessment:** Count rate (60–100 bpm normal), evaluate rhythm and quality. Tachycardia >100 bpm may indicate pain, hypoxia, hemorrhage, or infection. Bradycardia <60 bpm suggests beta-blocker use, hypothyroidism, or raised ICP. Always assess bilateral symmetry—absent pedal pulse with strong femoral pulse signals peripheral vascular disease.
+#### Formulas you must calculate correctly
 
-**Respiratory Rate:** Count for minimum 30 seconds unobtrusively. Bradypnea <12/min and tachypnea >20/min are both clinically significant. Observe chest wall symmetry and accessory muscle use. True apnea episodes require urgent review.
+- **MAP (mmHg)** = [SBP + 2 × DBP] ÷ 3 — diastolic is weighted twice because diastole occupies two-thirds of the cardiac cycle.
+- **Pulse pressure (mmHg)** = SBP − DBP; widened PP (>60 mmHg) suggests aortic regurgitation or arteriosclerosis.
+- **BMI (kg/m²)** = weight ÷ height²; underweight <18.5, normal 18.5–24.9, overweight 25–29.9, obese ≥30.
+- **°F to °C** (and reverse): °F = (°C × 9/5) + 32 — required because UAE facilities and imported devices mix scales.
 
-**Blood Pressure Interpretation:** Systolic reflects ventricular contraction; diastolic reflects ventricular relaxation. Calculate **MAP** = [(2 × DBP) + SBP] ÷ 3. MAP <65 mmHg signals shock requiring intervention. **Pulse pressure** (systolic minus diastolic) >40 mmHg indicates aortic regurgitation or hyperthyroidism; <20 mmHg suggests severe aortic stenosis or heart failure.
+#### Temperature measurement routes
 
-**Oxygen Saturation:** SpO₂ ≥95% is normal. Values 90–94% require supplemental O₂. Below 90% is critical and demands immediate intervention. Always verify with waveform quality—low perfusion states produce unreliable readings.
+| Route | Normal range | Site-specific pitfall |
+| --- | --- | --- |
+| Oral | 36.5 – 37.5 °C | Falsely low if patient just drank cold water |
+| Axillary | 36.0 – 37.0 °C | Adding 0.5 °C before comparing to oral range |
+| Tympanic | 36.5 – 37.5 °C | Poor seal in small ear canals (paediatric) |
+| Rectal | 36.6 – 37.9 °C | Contraindicated in neutropenia or rectal surgery |
 
-## Patient Assessment Framework
+#### Levels of consciousness
 
-**Primary Survey (ABCDE):**
-- **A**irway with C-spine protection
-- **B**reathing and adequate oxygenation
-- **C**irculation and hemorrhage control
-- **D**isability (GCS, pupils, blood glucose)
-- **E**xposure with environmental control
-
-**Secondary Survey:** Complete head-to-toe examination establishing all injuries and baseline data.
-
-**SAMPLE History:** Symptoms, Allergies, Medications, Past medical history, Last oral intake, Events preceding incident.
-
-**OPQRST:** Onset, Provocation/palliation, Quality, Radiation, Severity, Timing.
-
-**Four Assessment Techniques:** Inspection (visual), palpation (touch for tenderness/masses), percussion (tapping for sound differences), auscultation (stethoscope listening—perform after percussion for accuracy).
-
-## DOH Exam Strategy
-
-DOH UAE tests: normal ranges by age, MAP calculations, hypotension/hypertension management, proper cuff selection, and primary vs secondary survey objectives. Scenario-based questions require clinical interpretation of patterns.
-
----
+- **AVPU** for rapid triage: **A**lert, responds to **V**oice, responds only to **P**ain, **U**nresponsive.
+- **GCS** (3–15) for serial tracking: Eye (1–4) + Verbal (1–5) + Motor (1–6). A drop of ≥2 points triggers escalation.
+- **qSOFA screen for sepsis:** RR ≥22, SBP ≤100 mmHg, altered mental status — ≥2 criteria = high risk, escalate per DOH escalation policy.
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-## Measurement Technique Errors
+#### Primary vs secondary survey — DOH OSCE blueprint
 
-**BP Cuff Errors:** Using cuff too small (bladder <40% arm circumference) produces falsely elevated readings by 10–40 mmHg. Using cuff too large underestimates by 5–10 mmHg. Always measure mid-arm circumference before selecting cuff. Wrap cuff 2–3 cm above antecubital fossa; stethoscope placed over brachial artery.
+The DOH Clinical Skills OSCE dedicates one station to a structured patient assessment, typically 8–12 minutes. The candidate must verbalise and demonstrate **ABCDE in order**, because reversible threats are addressed first: an obstructed airway kills faster than hypotension. After ABCDE stabilises the patient, the **secondary survey** (head-to-toe inspection, focused history using SAMPLE — Symptoms, Allergies, Medications, Past history, Last oral intake, Events) completes the picture. Examiners score **sequence**, not just the final findings; missing "C" before "D" loses marks even when both are technically correct.
 
-**Temperature Measurement:** Eating/drinking falsifies oral readings if <15 minutes elapsed. Tympanic thermometers require correct probe angle—pull ear backward in adults. Rectal measurements contraindicated in immunocompromised patients or those with rectal pathology.
+#### Common mistakes examiners reward with deductions
 
-**Respiratory Rate:** Counting while patient is aware often produces artificial decrease. Observe without announcing the action—combine with pulse assessment for stealth timing.
+1. Recording axillary temperature (36.0–37.0 °C) against oral normal range and labelling 36.4 °C as "hypothermic".
+2. Calculating MAP by averaging SBP and DBP equally — forgetting the ×2 weighting on DBP.
+3. Counting irregular pulse for 15 s × 4 — apical auscultation for a full 60 s is mandatory in atrial fibrillation.
+4. Applying the BP cuff over clothing or using a bladder that is too narrow, inflating the reading by 10–30 mmHg.
+5. Failing to document SpO₂ **before** supplemental O₂ is started, leaving no baseline for trend monitoring.
 
-## Advanced Assessment Concepts
+#### Worked micro-example
 
-**Glasgow Coma Scale (GCS):** Eye (1–4) + Verbal (1–5) + Motor (1–6) = 3–15. GCS ≤8 indicates coma requiring airway protection. Document individual components, not just total score. Pupil size and reactivity assessed simultaneously—unequal pupils >1 mm suggest mass effect or herniation.
+A 58-year-old male, post-op day 1, has BP 108/72, HR 96, RR 22, SpO₂ 93 % on 2 L nasal cannula, T 38.4 °C, GCS 14 (confused).
+- **MAP** = [108 + 2 × 72] ÷ 3 = (108 + 144) ÷ 3 = **84 mmHg** (adequate perfusion).
+- **qSOFA criteria met:** RR 22 ✓, SBP ≤100 ✗, altered mental status ✓ → **2 of 3**, high sepsis risk.
+- **Action:** escalate per DOH early-warning policy, draw blood cultures, lactate, start sepsis bundle within 1 hour, and reassess vital signs every 15 minutes.
 
-**Age-Specific Ranges:** Elderly patients may have elevated baseline BP; treat trends rather than absolute values. Pediatric respiratory rates vary: infant 30–60/min, toddler 24–40/min, school-age 18–30/min.
+#### Adjacent topics and exam strategy
 
-**Factors Affecting Readings:** Acute pain raises HR, RR, and BP. Anxiety produces tachycardia and tachypnea. Beta-blockers blunt heart rate response. Thyroid disorders affect temperature regulation and HR. Environmental temperature influences peripheral vasoconstriction.
+Vital signs connect directly to **MEWS (Modified Early Warning Score)** interpretation, **ECG rhythm recognition**, and **oxygen-delivery device selection** (nasal cannula → simple mask → non-rebreather). The DOH paper typically yields 1–2 MCQs and one OSCE station from this topic (3 % of the Clinical Skills weight); expect numeric calculation of MAP and a short vignette asking for escalation priority. Allocate ≤90 seconds per MCQ and ≤10 minutes for the OSCE station.
 
-## Common Exam Traps
+#### Practice prompts:
+1. Calculate MAP and PP for BP 156/94 mmHg, and state one clinical implication of the PP value.
+2. A patient on room air has SpO₂ 89 %, RR 26, HR 112, BP 102/68. Apply qSOFA and state your next three escalation actions.
 
-- Assuming single reading is diagnostic—correlate with patient condition
-- Forgetting to recheck abnormal values with alternative method before escalating
-- Missing compensatory tachycardia—BP may remain normal while HR is elevated
-- Documenting without noting position (supine/sitting/standing) or technique used
-- Confusing primary survey (immediate life threats) with secondary survey (comprehensive injury identification)
+## Continue your study
 
-## Practice Prompts
-
-1. A 58-year-old patient has BP 88/56 mmHg, HR 112 bpm. Calculate MAP and state the intervention threshold. Explain two possible etiologies and your first nursing action.
-
-2. You assess a patient complaining of chest pain. Using OPQRST, detail your subjective history questions. Then outline your primary survey sequence (ABCDE), noting what each component screens for and one finding that would trigger immediate escalation.
+- **[View this topic in your DOH (UAE) roadmap](/roadmap/?exam=doh&duration=1mo)** — see where "Vital Signs and Patient Assessment" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=doh&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[DOH (UAE) exam overview](/exams/doh/)** — pattern, eligibility, and syllabus
+- **[All Clinical-Skills notes](/notes/doh/clinical-skills/)** — browse sibling topics in this subject
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

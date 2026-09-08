@@ -11,7 +11,7 @@ topicName: Gravitation
 weight: 3
 country: pakistan
 generated: "2026-03-24T08:32:08.093634"
-lastUpdated: "2026-06-25"
+lastUpdated: "2026-09-08"
 diagramPrompt: "Clean educational diagram showing Gravitation with clear labels, white background, labeled arrows for forces/fields/vectors, color-coded components, exam-style illustration"
 
 
@@ -23,66 +23,85 @@ diagramPrompt: "Clean educational diagram showing Gravitation with clear labels,
 # Gravitation
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+> Rapid summary for last-minute revision before your MDCAT Physics paper.
 
-- **Newton's law of universal gravitation**: every two point masses attract each other with force **F = G m₁ m₂ / r²**, where G = 6.674 × 10⁻¹¹ N·m²/kg² and r is the centre-to-centre distance.
-- **Gravitational field strength** at distance r from mass M: **g = GM / r²**. At Earth's surface g₀ ≈ 9.8 m/s².
-- **Escape velocity** vₑ = √(2GM/r); **orbital velocity** v₀ = √(GM/r). Escape is exactly √2 times orbital at the same radius.
-- **Kepler's third law**: T² = (4π² / GM) a³ — period squared scales with semi-major axis cubed.
-- MDCAT traps: sign of gravitational PE (**U = −GmM/r**, always negative for bound systems), and substituting (R + h) instead of r when a satellite is at altitude h.
+Gravitation is the universal attractive force between any two masses, described by **Newton's law of universal gravitation**: every point mass pulls every other point mass with a force that scales as the product of their masses and the inverse square of their separation. On MDCAT this single chapter covers Kepler's three laws, the gravitational field, gravitational potential, the variation of *g* with altitude and depth, orbital and escape velocity, and satellite motion.
+
+| Quantity | Formula | Meaning |
+| --- | --- | --- |
+| Gravitational force | $F = \dfrac{G m_1 m_2}{r^2}$ | Attraction between two masses separated by distance $r$ |
+| Surface field | $g = \dfrac{GM}{R^2}$ | Acceleration due to gravity at the planet's surface |
+
+- **G** = 6.674 × 10⁻¹¹ N·m²/kg² is a universal constant; **g** ≈ 9.8 m/s² is a local field.
+- Escape velocity $v_e = \sqrt{2GM/R}$ is $\sqrt{2}$ times the circular orbital speed at the surface.
+- Kepler's third law: $T^2 \propto a^3$, where $a$ is the semi-major axis of the orbit.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+> Standard content for students with a few days to months before the MDCAT.
 
-#### Newton's Law and the Gravitational Constant
-Two masses m₁ and m₂ separated by centre-to-centre distance r pull on each other with **F = G m₁ m₂ / r²**, directed along the line joining their centres. **G** is universal — the same on Earth, on Mars, or between galaxies — and has been measured by the Cavendish torsion-balance experiment. Because the force obeys an inverse-square law, doubling r quarters the force; tripling r reduces it to one-ninth.
+#### Newton's Law and the Gravitational Field
 
-#### Field Strength, Potential, and Potential Energy
-**Gravitational field strength** g at a point is force per unit test mass, g = GM/r². Near Earth's surface this gives g₀ = GM/R² ≈ 9.8 m/s². **Gravitational potential** V = −GM/r is the work done per unit mass to bring a test mass from infinity to point r; potential is always **negative** and approaches 0 at infinity. The associated **potential energy** for a two-body system is U = −Gm₁m₂/r.
+Newton's law gives the magnitude of attraction between two point masses as $F = G m_1 m_2 / r^2$, where $r$ is measured centre-to-centre. Dividing by a test mass gives the **gravitational field strength** $\mathbf{g} = \mathbf{F}/m = G M / r^2$, directed toward the source mass. Field is a vector; **gravitational potential** $V = -G M / r$ is the scalar work-per-unit-mass needed to bring a test mass from infinity to distance $r$. The negative sign reflects that gravity is attractive — moving inward releases energy.
 
-#### Orbits, Escape, and Kepler's Laws
-A satellite in circular orbit of radius r around mass M has **orbital velocity** v₀ = √(GM/r) and centripetal acceleration v²/r = GM/r² = g(r). **Escape velocity** is derived by setting total energy to zero at infinity: ½mvₑ² − GMm/r = 0 → vₑ = √(2GM/r) = √2 · v₀.
+#### Variation of *g* with Height and Depth
 
-**Kepler's third law** T² = (4π²/GM)a³ follows by combining v = 2πa/T with v² = GM/a. The constant (4π²/GM) depends on the central body, so it differs for Sun–planet vs Earth–satellite systems.
+Above the surface, $r = R + h$, so $g_h = g \left(\dfrac{R}{R+h}\right)^2$. At small $h \ll R$ this is often linearised to $g_h \approx g(1 - 2h/R)$. Below the surface, only the mass enclosed by a sphere of radius $R-d$ contributes, giving the linear fall $g_d = g\left(1 - \dfrac{d}{R}\right)$, which drops to **zero at the Earth's centre**.
 
-#### Variation of g with Height and Depth
-Above the surface: **g(h) = g₀ [R/(R+h)]²**. Below the surface, only the inner sphere of radius (R − d) contributes, giving **g(d) = g₀ (1 − d/R)** — g falls **linearly** with depth and is zero at Earth's centre.
+#### Kepler's Laws in Exam Form
 
-#### Typical MDCAT Question Patterns
-- Numerical: find orbital period of a geostationary satellite (T = 24 h → a ≈ 42,164 km from Earth's centre).
-- Comparison: ratio of escape velocities from two planets of known mass and radius.
-- Conceptual: why gravitational PE is negative, or why g decreases with depth but not as 1/r².
+1. Orbits are ellipses with the central body at one focus.
+2. The areal velocity $dA/dt$ is constant (equal areas in equal times).
+3. $T^2 / a^3 = \dfrac{4\pi^2}{GM}$, the same constant for all satellites of one central body.
+
+For a circular orbit, replace $a$ with the orbital radius $r$.
+
+#### Common Mistakes in MCQs
+
+- Swapping $R$ and $R+h$ when applying $v_o = \sqrt{GM/r}$ to a satellite at altitude $h$.
+- Assuming $v_e$ depends on the escaping body's mass; it depends only on the planet.
+- Treating weightlessness in orbit as "zero gravity"; both satellite and astronaut accelerate at the same $g$.
+
+| Concept | Formula | Exam Tip |
+| --- | --- | --- |
+| Orbital velocity | $v_o = \sqrt{GM/r}$ | Use radius from planet's centre, not altitude |
+| Escape velocity | $v_e = \sqrt{2GM/R}$ | Independent of the escaping mass |
+| Binding energy | $E = -\dfrac{GMm}{2r}$ | Negative; equals half the orbital kinetic energy |
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-#### Inertial vs Gravitational Mass
-**Inertial mass** (from F = ma) measures resistance to acceleration; **gravitational mass** (from F = GMm/r²) measures how strongly a body feels gravity. Experiments show they are equivalent to better than 1 part in 10¹⁵ — this **equivalence principle** is the foundation of Einstein's general relativity, which replaces Newton's instantaneous action with spacetime curvature.
+#### Energy Bookkeeping in Orbits
 
-#### Energy in Orbit and Bound Systems
-Total mechanical energy of a circular orbit: **E = −GMm/(2r)**, exactly half the potential energy. This is why binding energy equals −E. An elliptical orbit has the same form with a replaced by the semi-major axis: E = −GMm/(2a) — a deep result used to find a comet's orbit from a single observation of r and v.
+For a circular orbit, kinetic energy $K = \tfrac{1}{2} m v_o^2 = GMm/(2r)$ and potential energy $U = -GMm/r$, giving total mechanical energy $E = K + U = -GMm/(2r)$. The minus sign encodes binding: $|E|$ is the energy needed to escape to infinity. A satellite moved from radius $r_1$ to $r_2 > r_1$ requires positive work against gravity; this is why geostationary transfer orbits are elliptical and require an apogee burn.
 
-#### Geostationary and Polar Orbits
-A **geostationary satellite** orbits in the equatorial plane with T = 24 h, so it appears fixed above one point on Earth. From Kepler's law, a ≈ 42,164 km from Earth's centre (≈ 35,786 km altitude). MDCAT sometimes asks why the orbit radius uses R + h, not just R.
+#### Geostationary and Polar Satellites
 
-#### Common Mistakes in MDCAT
-- Writing U = +GmM/r — sign error; potential energy for a bound system is always negative.
-- Using g = 9.8 m/s² for a satellite at altitude h; must use g = g₀[R/(R+h)]².
-- Mixing orbital and escape velocity: remember the √2 ratio.
-- Treating G and g as the same symbol; G is universal, g is local.
+A **geostationary satellite** has $T = 24$ h and orbits in the equatorial plane with $r \approx 42{,}164$ km from Earth's centre. Setting $T^2 = 4\pi^2 r^3/(GM)$ with $T = 86400$ s fixes this radius. **Polar satellites** used for remote sensing have lower orbits (a few hundred km) and shorter periods; they sweep the whole Earth because the planet rotates beneath them.
 
-#### Worked Micro-Example
-Find the orbital speed of a satellite 500 km above Earth (R = 6.4 × 10⁶ m, M = 5.97 × 10²⁴ kg, G = 6.67 × 10⁻¹¹).
-r = R + h = 6.9 × 10⁶ m.
-v₀ = √(GM/r) = √[(6.67×10⁻¹¹)(5.97×10²⁴)/(6.9×10⁶)] ≈ **7.6 km/s**.
+#### Edge Cases and Traps
 
-#### Practice Prompts
-1. A planet has twice Earth's mass and half Earth's radius. Find its escape velocity relative to Earth's (≈ 2.83 vₑ,Earth).
-2. At what depth inside Earth does g equal g₀/2? (Answer: d = R/2.)
+1. Inside a uniform sphere, $g$ is linear in depth; outside, $g$ is inverse-square. Never mix the two regimes.
+2. The orbital period depends on the **central mass**, not the satellite mass — Galileo-style "heavy objects fall faster" ideas are wrong in orbital mechanics too.
+3. Apparent weight in a satellite is zero, but the gravitational field is not — only the normal force vanishes in free fall.
+
+> **Strategy:** In MDCAT, expect 1–2 MCQs from this 3%-weight chapter. Practise numerical substitution with $G = 6.674 \times 10^{-11}$ and $g = 9.8$ m/s², and memorise the $v_e/v_o = \sqrt{2}$ ratio.
+
+#### Practice prompts:
+1. A satellite orbits Earth at $r = 2R$. Find $T$ using $T^2 = 4\pi^2 r^3/(GM)$.
+2. A meteorite is at depth $d = R/2$ inside Earth. Compute $g_d$ and explain why it is half of surface $g$.
+
+---
+
+## Continue your study
+
+- **[View this topic in your MDCAT roadmap](/roadmap/?exam=mdcat&duration=1mo)** — see where "Gravitation" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=mdcat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[MDCAT exam overview](/exams/mdcat/)** — pattern, eligibility, and syllabus
+- **[All Physics notes](/notes/mdcat/physics/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

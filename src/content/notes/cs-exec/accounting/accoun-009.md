@@ -8,175 +8,113 @@ topicName: Debentures
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-08"
 ---
 
 # Debentures
 
-**Debentures** are one of the most important topics in the CS Executive accounting syllabus — not only because they carry significant weightage (typically 8–12 marks in the exam), but because they introduce you to the fundamental accounting distinction between equity capital and debt capital. Where equity shareholders are owners who bear the risk of the business, debenture holders are creditors who lend money to the company at a fixed rate of interest, regardless of whether the company makes a profit or a loss. This distinction — between fixed-charge debt instruments and residual-claim equity — is the conceptual backbone of corporate capital structure, and the CS Executive examiner tests it thoroughly.
-
-In the context of the Companies Act, 2013, debentures are governed by Sections 71–74 and the relevant Rules. A debenture is defined as a document (either a certificate or a acknowledgment of debt) that creates or acknowledges a debt. Debentures may be issued at par (at face value), at a discount, or at a premium, and may be redeemable (due for repayment on a fixed date) or irredeemable (perpetual). The key accounting challenge for the CS Executive student is mastering the journal entries at each stage — issue, interest calculation, and redemption — and understanding how the Companies Act restricts the raising of debentures as loan capital.
-
----
-
 ### 🟢 Lite — Quick Review (1h–1d)
-
 > Rapid summary for last-minute revision before your exam.
 
-**Key Points on Debentures:**
+A **debenture** is written evidence of a company’s long-term debt to its debentureholder. It in most keys carries a fixed coupon rate and a fixed or determinable repayment date. A debentureholder is a creditor, not an owner, and has no general voting right.
 
-- Debenture = loan certificate — the holder is a creditor, not an owner
-- Debenture interest is a business expense (tax-deductible under Section 36(1)(iii) of the Income Tax Act, 1961)
-- Debentures are usually issued with a fixed redemption date
-- Interest is calculated on the nominal/face value of the debenture, not the issue price
+| Item | Must-know treatment |
+| --- | --- |
+| Issue price per debenture | Face value + premium on issue − discount on issue |
+| Annual interest | Number of debentures × face value × coupon rate |
+| Secured debenture | Protected by a charge on specified company assets |
+| Unsecured debenture | Not backed by a specific company asset |
 
-**Issue Price Journal Entries:**
-
-| Scenario | Journal Entry |
-|---|---|
-| Issue at Par | Debenture A/c Dr. (face value) → To Debentureholders A/c |
-| Issue at Discount | Debenture A/c Dr. (face value) / Discount on Issue Dr. → To Debentureholders A/c |
-| Issue at Premium | Debenture A/c Dr. (face value) → To Securities Premium A/c |
-
-**Redemption Journal Entry (at maturity):**
-```
-Debentureholders A/c    Dr.    [Face value]
-   To Bank A/c                     [Amount paid]
-```
-
-**High-Yield Point:** Interest on debentures is calculated at a percentage of the nominal value — e.g., 12% p.a. on ₹100 face value = ₹12 per year per debenture. Most CS Executive questions have you calculate interest for a fraction of the year (e.g., "from 1st April to 30th September" = 6/12 of the year).
-
-**⚡ Exam Tip:** Debentures often appear in combined questions with company final accounts. In the Balance Sheet, debentures appear as a liability under "Secured Loans" or "Long-term Borrowings." The discount on issue is written off over the life of the debentures as a financial expense. For redemption out of profits, the entry is: `Profits Available for Dividend A/c Dr. → To Debenture Redemption Reserve A/c` — note that DRR is a capital reserve and cannot be used for dividends.
+- Interest is calculated on **face value**, not the amount received by the company.
+- Redeemable debentures can be repaid by payment, purchase, conversion, or a sinking fund arrangement.
+- Issue discount, loss on issue, and premium on redemption are in most cases written off over the debentures’ life.
+- For CS Executive Accounting, this topic carries about **3% weightage** and can yield 5–10 marks through one complete question.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-
 > Standard content for students with a few days to months.
 
-**Types of Debentures:**
+#### Nature and Classification
 
-| Type | Feature |
-|---|---|
-| **Redeemable** | Repaid on a fixed/pre-determined date |
-| **Irredeemable (Perpetual)** | Never repaid during the company's lifetime |
-| **Convertible** | Optionally or mandatorily convertible into equity shares |
-| **Non-Convertible** | Pure debt — cannot be converted to equity |
-| **Secured** | Backed by a charge on company assets (fixed/floating) |
-| **Unsecured** | No charge on assets — backed only by company's creditworthiness |
+A debenture acknowledges a debt under the company’s common seal. It can be secured or unsecured, registered or bearer, redeemable or irredeemable, and convertible or non-convertible. A secured debenture is backed by a charge, while an unsecured or naked debenture has no specific asset security.
 
-**Legal Provisions — Companies Act, 2013:**
+| Basis | Main categories | Distinction |
+| --- | --- | --- |
+| Security | Secured; unsecured | Charge is created only for secured debentures |
+| Registration | Registered; bearer | Ownership transfer differs between the two |
+| Redemption | Redeemable; irredeemable | Repayment date is fixed only for redeemable debentures |
+| Conversion | Convertible; non-convertible | Convertible debentures can be exchanged for shares |
 
-- **Section 71(1):** A company may issue debentures with or without security
-- **Section 71(2):** Debentures cannot be issued at a discount (unless they are convertible debentures reissued within one year of acquisition)
-- **Section 71(3):** No debenture can be issued unless the company hasArticles of Association that authorise it
-- **Section 73:** Companies cannot issue debentures to more than 49 persons (for public companies) — this is a restriction on the number of debentureholders to prevent mobilisation of deposits
+#### Issue and Interest
 
-**Issue of Debentures — Accounting Treatment:**
+Debentures can be issued at par, discount, or premium. When a ₹1,000 debenture is issued at ₹980 with interest at 9%, annual coupon interest remains ₹90 because coupons use face value.
 
-*1. Issue at Par (Face Value):*
-```
-Debenture A/c          Dr.    [Nominal value]
-   To Debentureholders A/c           [Issue price received]
-```
-*On receipt of money:* Bank A/c Dr. → To Debenture A/c
+\[
+\text{Annual interest}=N\times F\times r
+\]
 
-*2. Issue at Discount:*
-```
-Debenture A/c          Dr.    [Nominal value]
-   To Discount on Issue of Debentures A/c    [Discount amount]
-   To Debentureholders A/c                  [Amount received]
-```
-The Discount on Issue is a capital loss — it must be written off over the life of the debentures. Annual write-off = Total Discount ÷ Life of Debentures.
+Here, \(N\) is the number of debentures, \(F\) is face value in rupees, and \(r\) is the annual coupon rate expressed as a decimal. For ₹500 debentures, annual interest is ₹500 × 9% = ₹45.
 
-*3. Issue at Premium:*
-```
-Debenture A/c          Dr.    [Nominal value]
-   To Securities Premium A/c     [Premium amount]
-   To Debentureholders A/c       [Amount received]
-```
+- Journal entry for cash issued at par: debit Bank and credit Debentures.
+- At discount: debit Bank by cash received and debit Discount on Issue by the difference, then credit Debentures at face value.
+- At premium: debit Bank by cash received and credit Securities Premium and Debentures for their respective amounts.
+- Interest accrues from the issue date and is recognised as a finance or borrowing cost.
 
-**Interest on Debentures:**
+#### Redemption and Reserves
 
-Debenture interest is always calculated on the face/nominal value. The entry:
-```
-Debenture Interest A/c    Dr.    [Interest amount]
-   To Debentureholders A/c          [Amount due]
-   To TDS Payable A/c               [TDS deducted @ 10% if interest exceeds ₹5,000 per annum per holder]
-```
-*On payment:* Debentureholders A/c Dr. → To Bank A/c
+Redeemable debentures can be repaid at maturity, through drawings, open-market purchase, or conversion. Premium on redemption is debited to the Statement of Profit and Loss, except where a sinking fund provides the amount.
 
-*Important:* TDS is deducted at 10% under Section 193 of the Income Tax Act if the debenture holder is an individual/Hindu Undivided Family, and at 20% for other category holders. If pan is not furnished, TDS is deducted at the rate of 20% plus surcharge.
-
-**Redemption of Debentures:**
-
-Companies typically redeem debentures by: (a) issuing new debentures (refinancing), (b) creating a sinking fund and investing in outside securities, (c) open market purchase, or (d) conversion into equity. The most common CS Executive scenario is redemption out of profits (sinking fund method):
-
-*Redemption out of profits (when not specifically provided in Articles):*
-```
-Profits & Gains Appropriation A/c    Dr.    [Amount set aside]
-   To Debenture Redemption Reserve A/c        [Amount set aside]
-```
-*Annual investment in Sinking Fund Investment:* Bank A/c Dr. → To Bank (separate) A/c, then Sinking Fund Investment A/c Dr. → To Bank A/c
-
-*On redemption:* Debentureholders A/c Dr. → To Bank A/c
-
-**⚡ Study Strategy:** The most common CS Executive numerical problem structure: (a) Issue debentures at par/discount/premium → (b) Calculate and record interest (half-yearly, with TDS) → (c) Provide for redemption reserve (out of profits) → (d) Record redemption. Practise this full cycle at least 5 times.
+A Debenture Redemption Reserve is created from divisible profits when legally required. It does not itself repay debentureholders; it separates profits available for distribution. A sinking fund invests equal annual amounts, and investment income is reinvested to build the redemption sum.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-
 > Comprehensive coverage for students on a longer study timeline.
 
-**Section 71 — Deep Dive:**
+#### Loss on Issue and Effective Cost
 
-Section 71 of the Companies Act, 2013, is the primary provision governing debenture issuance. The section provides:
-- A company may issue debentures with or without creating a charge on the assets
-- An issuedebenture does not require a private placement offer document for public companies — however, if the debentures are issued to more than 49 persons, the company must comply with the deposit-taking provisions (which are now largely prohibited for public companies)
-- Debentures must be issued within 12 months of the date of the prospectus or offer document
+The loss associated with debentures can include issue discount and premium on redemption. When these amounts cannot be charged through another permitted account, they are written off over the debentures’ life.
 
-**Creating a Charge — Fixed vs. Floating:**
+\[
+\text{Annual loss written off}
+=
+\frac{\text{Issue discount + redemption premium − issue premium}}
+{\text{Number of years of life}}
+\]
 
-A debenture with a fixed charge (or specific charge) is secured against a specific asset — e.g., a factory building or plant and machinery. If the company defaults, the debenture holder can repossess that specific asset. A floating charge covers all the company's current assets — inventory, receivables, cash — and "crystallises" (becomes fixed) on the occurrence of a default event or winding up.
+This produces a relatively even charge, although companies can adopt a permitted policy under the applicable accounting framework. YTM is different from coupon rate: it equates the issue proceeds with the present value of coupons and redemption cash flows. Thus, a discount can raise YTM above the coupon rate, while a premium can lower it.
 
-*Why this matters for CS Executive:* In a winding up, fixed charge holders are paid before floating charge holders. This is a common question in the winding-up section of the syllabus. Also note that creating a charge requires filing Form CHG-7 (for registration of charges) with the Registrar of Companies within 30 days of creation — failure to register renders the charge void against the company's liquidator and other creditors.
+#### Special Transactions
 
-**Discount on Issue of Debentures — Detailed Write-Off:**
+| Transaction | Required distinction |
+| --- | --- |
+| Collateral security | Record the nominal amount pledged through Debenture Suspense Account |
+| Debentures issued for non-cash consideration | Measure the consideration using the applicable recognition guidance |
+| Forfeiture and reissue | Restore the proportionate discount through Loss on Issue of Debentures |
+| Drawings | Apply cum- or ex-interest terms when repayment occurs between coupon dates |
 
-When debentures are issued at a discount, the discount is a capital loss and is not a revenue expense. It must be written off over the life of the debentures (or earlier if the articles or the terms of issue permit).
+When debentures are issued as collateral security, the lender receives additional protection, but the debentures are not necessarily issued for immediate cash. Therefore, the pledged nominal amount is shown separately and later adjusted when the liability is discharged.
 
-*Example:* 1,000 debentures of ₹100 each issued at 10% discount, repayable at par after 5 years:
-- Total discount = 1,000 × ₹10 = ₹10,000
-- Annual write-off = ₹10,000 ÷ 5 = ₹2,000 per year
-- Journal entry for write-off: `Discount on Issue of Debentures A/c Dr. 2,000 → To Profit & Loss A/c 2,000` (or appropriate P&L appropriation account)
+Interest bought with a purchased debenture is accumulated income. The buyer pays accumulated interest to the seller and later receives the full coupon; therefore, only the net interest income is recognised. This distinction also matters for tax deduction at source under section 193 of the Income-tax Act, 1961.
 
-**Sinking Fund Method — Step by Step:**
+#### Exam Strategy and Practice
 
-This is the most common redemption method tested in CS Executive:
+For a 5–10 mark problem, first record the face value, issue proceeds, and redemption price. Then prepare entries for cash, discount or premium, interest, yearly write-off, reserve, investment, and repayment in that order.
 
-1. At the end of Year 1, transfer to DRR: `Profit & Loss A/c Dr. → To Debenture Redemption Reserve A/c` (an amount such that the fund grows to the redemption amount in the life of the debentures)
-2. Invest the DRR amount in outside securities: `Sinking Fund Investment A/c Dr. → To Bank A/c`
-3. Receive interest on investments: `Bank A/c Dr. → To Sinking Fund Investment A/c` (this is added to the investment so the fund grows)
-4. Repeat until redemption year
-5. On redemption: Sell investments, receive bank, pay debenture holders, transfer DRR to General Reserve
+1. ₹2,00,000 of 8% debentures are issued at 95 and redeemed at 103 after five years. Calculate annual coupon interest and the annual loss written off, assuming no issue premium.
+2. ₹1,00,000 of debentures are secured by an asset valued at ₹1,60,000. Record the collateral-security treatment and explain why the excess asset value is not added to the debenture account.
 
-**Capital Reserve vs. Revenue Reserve:**
-The Debenture Redemption Reserve (DRR) is a capital reserve — it cannot be used for dividend distribution. Under the Companies (Share Capital and Debenture) Rules, 2014, every company that issues debentures must create a DRR of at least 50% of the debenture value before redemption (for redemption out of profits). This is a regulatory requirement to protect debenture holders.
+Common errors include charging interest on issue proceeds, crediting premium to interest, and treating all debenture discounts as permanent assets. Under the CS Executive pattern, direct MCQs commonly test classification, DRR treatment, interest dates, and collateral security.
 
-**Conversion of Debentures:**
+---
 
-Optionally convertible debentures (OCDs) and mandatorily convertible debentures (MCDs) are equity-linked debt instruments. When converted, the journal entry:
-```
-Debenture A/c                  Dr.    [Nominal value]
-   To Equity Share Capital A/c          [Face value of shares issued]
-   To Securities Premium A/c            [Premium, if any]
-```
-For compulsorily convertible debentures, the entire debt is converted to equity — no gain or loss arises.
+## Continue your study
 
-**Common CS Executive Examiner Traps:**
-1. Calculating interest on issue price instead of face value
-2. Forgetting TDS deduction on debenture interest when interest exceeds ₹5,000 per holder per annum
-3. Treating Discount on Issue as a revenue expense (it is a capital loss)
-4. Confusing DRR creation with the transfer to General Reserve on redemption — DRR is created before redemption, General Reserve is used after
-5. Missing the requirement to register charges with the Registrar of Companies
+- **[View this topic in your CS Executive roadmap](/roadmap/?exam=cs-exec&duration=1mo)** — see where "Debentures" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=cs-exec&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[CS Executive exam overview](/exams/cs-exec/)** — pattern, eligibility, and syllabus
+- **[All Accounting notes](/notes/cs-exec/accounting/)** — browse sibling topics in this subject
+
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

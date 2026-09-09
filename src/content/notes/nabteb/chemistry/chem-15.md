@@ -11,7 +11,7 @@ topicName: Environmental Chemistry
 weight: 3
 country: nigeria
 generated: "2026-03-24T08:32:07.572192"
-lastUpdated: "2026-06-22"
+lastUpdated: "2026-09-09"
 diagramPrompt: "Clear scientific diagram of Environmental Chemistry with atom labels, molecular structure, reaction arrows, white background, color-coded bonds and groups, exam textbook style"
 
 
@@ -23,44 +23,70 @@ diagramPrompt: "Clear scientific diagram of Environmental Chemistry with atom la
 # Environmental Chemistry
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+> Rapid summary for last-minute revision before your NABTEB Chemistry paper.
 
-**Environmental Chemistry** studies chemical changes in air, water, and soil caused by natural processes and human activity. Three pollutant families dominate the syllabus: **SOx/NOx** (acid rain precursors), **CO2/CH4/CFCs** (radiatively active greenhouse gases), and **non-biodegradable organics** like DDT (bioaccumulative). Acid rain forms when **2SO2 + O2 → 2SO3** then **SO3 + H2O → H2SO4**, with **3NO2 + H2O → 2HNO3 + NO** contributing nitric acid. Water quality is measured by **BOD** (oxygen microbes consume in 5 days, mg/L) and **COD** (oxygen consumed by chemical oxidation, mg/L) — high BOD means oxygen-starved, lifeless water. The **greenhouse effect** traps outgoing IR via C=O and C–F vibrational modes; the **ozone hole** arises when UV photolyses CFCs into Cl• radicals that catalytically destroy stratospheric O3. NABTEB tests short reactions, definitions, and one or two structured questions on sewage treatment.
+Environmental Chemistry studies chemical reactions in air, water, and soil, and the damage caused by human activities such as burning fossil fuels, dumping effluent, and releasing refrigerants. For NABTEB (about 3% weight), the highest-yield areas are **water hardness**, **BOD**, **greenhouse effect**, and **ozone depletion**.
 
----
+| Concept | Quick fact |
+| --- | --- |
+| pH | pH = −log[H⁺]; below 7 = acidic, above 7 = basic |
+| BOD | BOD = DO_initial − DO_final (mg/L); high BOD means polluted water |
+| Hard water | Contains Ca²⁺ and Mg²⁺; boiled to remove temporary hardness only |
+
+- **Temporary hardness** comes from Ca(HCO₃)₂ and Mg(HCO₃)₂; boiling precipitates them as carbonates.
+- **Permanent hardness** comes from CaSO₄ and MgSO₄; boiling cannot remove it — use Na₂CO₃ or ion exchange.
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+> Standard content for students with a few days to months before the exam.
 
 #### Air Pollution
-Primary gaseous pollutants include **CO** (incomplete combustion, binds haemoglobin as carboxyhaemoglobin), **SO2** (sulphur in coal/oil, irritates lungs), **NO2** (from vehicle engines, brown gas), and **CO2** (greenhouse). Particulates (PM10, PM2.5) carry adsorbed heavy metals deep into alveoli. **Photochemical smog** forms when NO2 photolyses to NO + O, the O reacts with O2 to give O3, and ozone + hydrocarbons produce peroxyacetyl nitrate (PAN) and aldehydes — visible as a brown haze over cities like Lagos in dry season.
+Major atmospheric pollutants include carbon monoxide (CO) from incomplete combustion, sulphur dioxide (SO₂) from coal and petroleum burning, and nitrogen oxides (NOₓ) from vehicle engines. SO₂ and NOₓ dissolve in rainwater to form **acid rain** (H₂SO₃, H₂SO₄, HNO₃). Particulate matter and hydrocarbons react under sunlight to produce **photochemical smog**, which contains ozone at ground level — harmful to the lungs.
 
-#### Water and Soil Pollution
-Water pollutants fall into **domestic** (sewage, detergents), **industrial** (heavy metals, cyanide, phenols), and **agricultural** (nitrates, phosphates, pesticides) categories. Excess nitrates and phosphates trigger **eutrophication**: algal bloom → light blockage → plant death → bacterial decomposition → dissolved O2 crash → fish kill. Persistent pollutants such as **DDT, mercury, and lead** undergo **bioaccumulation** (build-up in one organism) and **biomagnification** (concentration rising up food chains) — DDT at the top of an aquatic food chain can be 10⁶× the water concentration.
+#### Water Treatment and Hardness
+Sewage passes through three stages: **primary** (screening and settling to remove solids), **secondary** (biological digestion by aerobic bacteria, which lowers BOD), and **tertiary** (chemical disinfection with chlorine or ozone). Drinking water follows a similar path: coagulation → sedimentation → filtration → chlorination.
 
-#### Sewage Treatment
-Treatment is staged. **Primary (physical):** screening, grit removal, sedimentation of suspended solids. **Secondary (biological):** aerobic bacteria in activated sludge or trickling filters oxidise dissolved organics, lowering BOD by 80–90%. **Tertiary (chemical):** chlorination, ozone, ion exchange, or reverse osmosis to remove residual nutrients, pathogens, and heavy metals before discharge.
+| Hardness type | Causing salts | Removal method |
+| --- | --- | --- |
+| Temporary | Ca(HCO₃)₂, Mg(HCO₃)₂ | Boiling, or Clark's method with Ca(OH)₂ |
+| Permanent | CaSO₄, MgCl₂, MgSO₄ | Add Na₂CO₃, ion-exchange resin, or distillation |
 
-#### Green Chemistry
-The 12 principles (Anastas & Warner) prioritise waste prevention, atom economy, safer solvents, renewable feedstocks, and design for degradation — replacing stoichiometric reagents with catalytic ones to cut downstream pollution.
+Hardness is reported as mg/L CaCO₃ equivalent using the formula: 2.5 × Ca²⁺(mg/L) + 4.12 × Mg²⁺(mg/L).
 
----
+#### Greenhouse Effect and Ozone
+CO₂, CH₄, N₂O, and CFCs trap infrared radiation in the troposphere, warming the surface. Only CFCs and similar halocarbons reach the stratosphere and break down by UV light, releasing Cl• radicals that destroy ozone. This is why CFCs cause **ozone depletion** but CO₂ does not.
+
+- Eutrophication = excess nitrates/phosphates trigger algal blooms that deplete dissolved oxygen.
+- Green chemistry emphasises prevention, atom economy, safer solvents, and biodegradable products.
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
+> Comprehensive coverage for long-term mastery and tricky NABTEB questions.
 
-#### Stratospheric Chemistry of Ozone Depletion
-Ozone (O3) is generated by **O2 + hv (λ < 240 nm) → 2O•** followed by **O• + O2 → O3**. Destruction in the Antarctic spring is driven by CFC-11 (CFCl3) and CFC-12 (CF2Cl2), which are stable in the troposphere but photolyse in the stratosphere: **CFCl3 + hv → CFCl2• + Cl•**. A single Cl• catalytically destroys ~10⁵ O3 molecules via **Cl• + O3 → ClO• + O2** then **ClO• + O → Cl• + O2**, regenerating the radical. The 1987 **Montreal Protocol** phased out CFCs, replaced now by HFCs (zero ODP) and HCFCs (intermediate ODP). Note: tropospheric O3 is a pollutant; stratospheric O3 is protective — the same molecule, opposite roles.
+#### Common Mistakes to Avoid
+Examiners frequently test the difference between **BOD** (oxygen used by microbes in 5 days at 20 °C) and **COD** (oxygen used by chemical oxidants like KMnO₄ in 2 hours). BOD is the standard for biodegradable organic load in rivers. Students also confuse ozone's two roles: it is a **pollutant** at ground level (in smog) but **protective** in the stratosphere (absorbing UV-B).
 
-#### BOD vs COD — The Classic Confusion
-BOD measures **biodegradable** organic load: the dissolved oxygen consumed by aerobic microbes over 5 days at 20 °C. COD measures **total** oxidisable matter, determined by refluxing with K2Cr2O7/H2SO4 (silver sulphate catalyst) and titrating excess dichromate with Fe(NH4)2(SO4)2. COD is always ≥ BOD; if COD ≫ BOD, the water contains a large fraction of non-biodegradable toxins (e.g., phenolic effluent) that microbes cannot attack.
+#### Worked Micro-Example
+A water sample contains 80 mg/L Ca²⁺ and 24 mg/L Mg²⁺. Calculate hardness as CaCO₃ equivalent.
+Hardness = (2.5 × 80) + (4.12 × 24) = 200 + 98.88 ≈ **298.9 mg/L CaCO₃**. This exceeds 180 mg/L, classifying the water as **very hard**.
 
-#### Exam Strategy and Common Traps
-NABTEB questions usually test (i) balancing acid-rain equations including the NO recycle step, (ii) labelling the greenhouse vs ozone-depletion gases correctly, and (iii) sequencing sewage-treatment stages. **Pitfalls:** writing acid rain as H2SO4 only (forget HNO3); stating that ozone depletion causes global warming (separate mechanisms, separate layers); saying primary treatment uses chlorine (it does not — chlorination is tertiary); and confusing bioaccumulation (within one organism) with biomagnification (across trophic levels).
+| Exam trap | Correction |
+| --- | --- |
+| "CO₂ causes acid rain" | Acid rain is from SO₂ and NOₓ; CO₂ gives only weak carbonic acid |
+| "Boiling removes all hardness" | Boiling removes only temporary (bicarbonate) hardness |
+| "Greenhouse gases deplete ozone" | Only CFCs and halocarbons deplete ozone |
 
-#### Practice Prompts
-1. Write balanced equations showing how NO2 contributes to acid rain, identifying the gas recycled in the process.
-2. A factory discharges effluent with BOD 850 mg/L and COD 1800 mg/L. Comment on its biodegradability and the likely class of pollutant responsible.
+#### NABTEB Strategy
+Questions usually appear as 2- or 4-mark structured items in Section B. Memorise the balanced equations: S + O₂ → SO₂; 2SO₂ + O₂ → 2SO₃; SO₃ + H₂O → H₂SO₄. Know the three sewage stages and the three Rs (reduce, reuse, recycle).
+
+#### Practice prompts:
+1. Outline the secondary stage of sewage treatment and explain why it lowers BOD.
+2. Describe how CFCs reach the ozone layer and write the catalytic cycle for ozone destruction.
+
+## Continue your study
+
+- **[View this topic in your NABTEB roadmap](/roadmap/?exam=nabteb&duration=1mo)** — see where "Environmental Chemistry" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=nabteb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NABTEB exam overview](/exams/nabteb/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/nabteb/chemistry/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

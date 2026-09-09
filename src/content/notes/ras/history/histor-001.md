@@ -8,7 +8,7 @@ topicName: Ancient India — Indus Valley Civilisation
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-09"
 ---
 
 # Ancient India — Indus Valley Civilisation
@@ -16,241 +16,78 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-The **Indus Valley Civilisation (IVC)** — also called the **Harappan Civilisation** — was one of the world's earliest and most sophisticated urban civilisations (c. 3300–1300 BCE), contemporaneous with ancient Egypt and Mesopotamia. It covered an area larger than ancient Egypt and Mesopotamia combined.
+The Indus Valley (Harappan) Civilisation was a Bronze Age urban culture of the Indus-Ghaggar-Hakra basins, mature phase **c. 2600–1900 BCE**. It stretched across present-day Pakistan and north-west India, with sites like **Mohenjo-daro**, **Harappa**, **Lothal**, **Dholavira**, **Kalibangan** and **Rakhigarhi** linked by a uniform brick ratio (4:2:1), a 16-unit weight system, grid planning and drainage.
 
-**Key Facts for RPSC RAS:**
-- The IVC flourished in the **Indus-Ghaggar-Hakra river system** — which some scholars identify with the **Saraswati River** of the Vedas.
-- Major sites: **Harappa** (Punjab, Pakistan), **Mohenjo-daro** (Sindh, Pakistan), **Dholavira** (Gujarat, India), **Rakhigarhi** (Haryana, India), **Lothal** (Gujarat, India).
-- The IVC had **planned cities** with grid-pattern streets, sophisticated drainage systems, standardised weights and measures, and apparent script.
-- The **Indus Script** remains undeciphered — one of the great unsolved puzzles of archaeology.
-- Decline theories: **Climate change** (monsoon failure), **Aryan invasion** (now largely discredited), **river course change** (Saraswati drying up).
+- **Script:** ~400 signs, undeciphered, longest inscription ~17 signs.
+- **Iconography:** Pashupati seal, unicorn seal, mother-goddess terracottas.
+- **Decline:** multi-causal — monsoon weakening, drying Ghaggar-Hakra, river-course shift, collapse of Mesopotamian trade.
 
-**⚡ Exam tip:** Major sites, town planning features, trade connections, and the undeciphered script are frequently asked.
+RPSC RAS Prelims regularly tests **site-to-river matching** (Lothal–Bhogavo, Dholavira–Mansar, Kalibangan–Ghaggar) and the literacy status of the Indus script.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-## Overview and Chronology
+#### Chronology and Geography
 
-### Three Phases of the IVC
+The civilisation spans roughly **3300–1300 BCE** in three sub-phases: Early (~3300–2600 BCE), Mature (~2600–1900 BCE) and Late (~1900–1300 BCE). It occupied the Indus (Sindh, Punjab), Ravi, Beas, and the now-seasonal **Ghaggar-Hakra** systems, extending east to Alamgirpur (UP) and north to Manda (Jammu). Rakhigarhi in Haryana is the largest Indian site.
 
-**1. Early Harappan (Early Phase):** c. 3300–2600 BCE
-- Rural settlements in the Indus-Ghaggar-Hakra region
-- Beginning of urbanisation
-- Evidence of trade with Mesopotamia (Sumer)
+#### Urban Planning and Standardisation
 
-**2. Mature Harappan (Peak Phase):** c. 2600–1900 BCE
-- Full urban civilisation — grid-pattern cities, drainage, standardised bricks
-- Trade with Mesopotamia, Dilmun (Bahrain), Magan (Oman)
-- Greatest extent and sophistication
+Harappan cities used **uniform baked bricks** in a 4:2:1 ratio (length:width:thickness), with grid streets, a raised **citadel** and a lower town, covered drains and manhole covers. Mohenjo-daro had an estimated density of ~200 persons/ha over ~200 ha, implying a population near 40,000.
 
-**3. Late Harappan (Decline Phase):** c. 1900–1300 BCE
-- Gradual abandonment of major cities
-- Spread of Harappan culture to peripheral areas
-- Possible integration with post-Harappan cultures
+#### Craft, Trade and Agriculture
 
----
+Specialisation shows in **carnelian bead-making** (Khambhat, Chanhudaro), copper-bronze metallurgy (Gungeria), and terracotta figurines. Weights follow a 16-unit series with a base of ~13.7 g. Agriculture combined wheat, barley, millet and dates; rice appears at Lothal and cotton at Mehrgarh/Dholavira. Long-distance exchange with Mesopotamia is documented by Harappan **cylinder seals** found at Ur.
 
-## Major Sites
+| Site | Modern state/region | River | Distinguishing feature |
+| --- | --- | --- | --- |
+| Mohenjo-daro | Sindh (Pakistan) | Indus | Great Bath, granary, citadel |
+| Harappa | Punjab (Pakistan) | Ravi | Six granaries, Cemetery H |
+| Lothal | Gujarat (India) | Bhogavo | Tidal dockyard, bead factory |
+| Dholavira | Gujarat (India) | Mansar | 16-reservoir water system |
+| Kalibangan | Rajasthan (India) | Ghaggar | Ploughed field, fire altars |
+| Rakhigarhi | Haryana (India) | Saraswati/Ghaggar | Largest Indian Harappan site |
 
-### Harappa (Punjab, Pakistan)
-
-**Discovery:** First excavated by Sir John Marshall (1921)
-**Location:** On the banks of the Ravi River, Punjab, Pakistan
-**Significance:** Gave the civilisation its name — "Harappan Civilisation"
-
-**Key features:**
-- **Citadel mound** (elevated area) with administrative buildings
-- **Lower town** — residential area with grid-pattern streets
-- **Granaries** — large brick structures for grain storage (disputed purpose)
-- **Cemetery** (R37) — systematic burial practices
-
-### Mohenjo-daro (Sindh, Pakistan)
-
-**Discovery:** R.D. Banerji (1922)
-**Location:** On the banks of the Indus River, Sindh, Pakistan
-**Significance:** Most well-preserved Harappan city — called the "Mound of the Dead"
-
-**Key features:**
-- **Great Bath** (12m x 7m) — most famous structure; may have been used for ritual bathing
-- **Citadel mound** — elevated platform with major public buildings
-- **Assembly hall** — possibly a council chamber
-- **Drainage system** — most sophisticated of any ancient civilisation; covered drains beneath every street
-- **Standardised brick sizes** — uniform 1:2:4 ratio
-
-### Dholavira (Gujarat, India)
-
-**Excavation:** R.S. Bist and later ASI team (2015-2022)
-**Location:** Rann of Kutch, Gujarat
-**Significance:** One of the largest IVC sites in India
-
-**Key features:**
-- **Multistorey buildings** — indicates sophisticated construction
-- **Stadium** — unique to Dholavira; purpose unknown
-- **Water reservoirs** — sophisticated rainwater harvesting and storage system
-- **Bailey walls** — step-well-like construction technique
-- **Unique name board** — stone letters spelling "DA" found at the site
-
-### Rakhigarhi (Haryana, India)
-
-**Location:** Hisar district, Haryana — on the Ghaggar-Hakra River
-**Significance:** Largest IVC site in India; predates Mohenjo-daro in some phases
-
-**Discovery:** Excavated by Vashisht and team (1963 onward)
-**Key findings:**
-- Possible evidence of a **differential burial practice** — some bodies may have been secondarily buried (coffin)
-- Rural-urban continuum observed
-
-### Lothal (Gujarat, India)
-
-**Excavation:** R.S. Bist (1954-1961)
-**Location:** Near Bhaskar river, Gujarat — coastal site
-**Significance:** Major port of the IVC; evidence of maritime trade
-
-**Key features:**
-- **Dockyard** — world's oldest dock; could handle ships of 60-70 tonnes
-- **Embankment** — river embankment to control flooding
-- **Bead-making factory** — semi-precious stone (agate, carnelian) bead manufacturing
-- **Bath** — similar to Mohenjo-daro's Great Bath
-
----
-
-## Town Planning
-
-### Urban Design — The Harappan Standard
-
-The IVC shows remarkable **standardisation of urban planning:**
-
-1. **Grid Pattern:** Streets at right angles — most cities follow a north-south, east-west grid
-2. **Standardised Bricks:** Uniform brick dimensions (1:2:4 ratio) throughout the civilisation — regardless of location
-3. **Drainage System:** Covered underground drains beneath every street; inspection chambers at regular intervals
-4. **Well-planned Houses:** Rectangular rooms, often with their own bathing area and latrine
-5. **Citadel and Lower Town:** Distinction between the raised administrative/citadel area and the residential lower town
-
----
-
-## Economy and Trade
-
-### Trade
-
-**Domestic Trade:**
-- Agricultural surplus → stored in granaries → exchanged through trade
-- Major goods: Grains, cotton textiles, pottery, beads
-
-**Foreign Trade:**
-- **Mesopotamia:** Cuneiform tablets from Ur and Uruk mention trade with "Meluhha" — likely the IVC. Goods: Carnelian beads, copper, timber
-- **Dilmun (Bahrain):** Transit point for trade
-- **Magan (Oman):** Source of copper and timber
-- **Trade goods exported:** Carnelian beads, cotton textiles, copper items, terracotta toys
-- **Trade goods imported:** Lapis lazuli (from Afghanistan), carnelian (from Gujarat), tin, gold
-
-### Weights and Measures
-
-- **Standardised weights:** Binary and decimal system — 1, 2, 4, 8, 16... up to 12,800 units
-- **Ruler/Measuring rod:** Shell and copper graduated scales found at Mohenjo-daro
-- This standardisation suggests a sophisticated system of trade and administration
+- Lothal's dockyard served coastal/inland craft, not ocean liners — avoid the common "port city" trap.
+- The Great Bath's ritual function is inferred from its bitumen seal and adjoining fire altars, not from any inscription.
+- Cemetery H (Harappa) is a distinct post-urban ceramic tradition, co-existing with late Harappan phases.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-## The Indus Script
+#### Disintegration: Multi-causal Model
 
-### Characteristics
+RPSC Mains answers (15-mark) should integrate climate, hydrology and trade evidence rather than rely on the discredited Aryan-invasion theory. Pollen and isotopic data from **Lunkaransar** lake and the Thar margin indicate **monsoon weakening c. 2200 BCE**, paralleled by desiccation of the Ghaggar-Hakra channel. Tectonic uplift near Mohenjo-daro may have diverted the Indus eastward, weakening its flood regime.
 
-- **Approximately 400+ signs** — not a purely alphabetic script
-- Written **boustrophedon** (alternating direction, like an ox ploughing a field)
-- Found on **seals** (most common), tablets, and copper plates
-- Average inscription: **5 signs** — extremely short texts
+Simultaneously, the **collapse of Mesopotamian trade** after the Akkadian decline (~2200 BCE) reduced demand for Harappan carnelian and shell. Over-exploitation of catchments and loss of administrative cohesion plausibly followed.
 
-### Attempts to Decipher
+#### Script and Iconography — Contested Claims
 
-- **Sir John Marshall** (1920s): Guessed phonetic values
-- **Iravatham Mahadevan** (1970s): Tried to link to Tamil; identified 22 signs
-- **Asko Parpola** (Finnish scholar): Links to Proto-Dravidian; most accepted but not proven
-- **Team of Rajesh Rao** (2010s): Used computational analysis — supports a linguistic hypothesis
+The Indus script has ~400 signs with ~67 statistically frequent ones, suggesting linguistic encoding rather than pure pictograms. Asko Parpola's **Dravidian hypothesis** and others (Indo-Aryan, Munda) remain unverified. The **Pashupati seal** ("proto-Shiva" reading by John Marshall) is contested; only the **central seated figure with horned headdress, surrounded by animals**, is secure.
 
-### Current Consensus
+#### Common Exam Traps
 
-The script is almost certainly a **logosyllabic script** (like Sumerian cuneiform or Egyptian hieroglyphs) but has not been deciphered. The failure to decipher is partly because the script is short, there is no bilingual inscription (like the Rosetta Stone), and the language family it belongs to is disputed.
+- Treating 3300 BCE as the start of urban Harappan phase — it marks the Early/Early-Mature transition.
+- Assuming the Pashupati seal = Shiva as fact.
+- Confusing Harappa's location — it is in Pakistan, not in Indian Punjab.
 
----
+#### Practice Prompts
 
-## Society, Religion, and Art
-
-### Was There a Ruler?
-
-Evidence suggests **no clear monarchical structure:**
-- No palaces comparable to Mesopotamia or Egypt
-- No large royal tombs
-- **Possible governance by a council of merchants** or elected leaders
-- The uniformity of town planning suggests a **centralised administrative system** — possibly a theocratic or mercantile oligarchy
-
-### Art and Craft
-
-- **Terracotta figurines:** Female figurines (possibly mother goddess); male figurines (worshippers or deities)
-- **Seals:** Square or rectangular — depicting animals (unicorn is most common), deity, or script
-- **Bronze statues:** The **Dancing Girl of Mohenjo-daro** (bronze, 4,500 years old) — world's oldest bronze sculpture
-- **Stone sculptures:** Very rare — the **Priest-King** torso from Mohenjo-daro
-
-### Religion
-
-- **Mother Goddess worship** — prevalent; terracotta goddess figurines
-- **Pashupati Mahadeva** — seal from Mohenjo-daro depicts a figure in a yogic posture surrounded by animals — possibly Proto-Shiva (Pasupati = Lord of Animals)
-- **Phallic worship** (lingam) — some scholars suggest proto-Shaivism
-- **Tree worship** — pipal tree motifs
-- **Bull** (zebu) — most commonly depicted animal on seals
-
-### Decline — Theories
-
-**1. Climate Change (Most Accepted):**
-- Monsoon failure (~4,000 years ago) caused agricultural collapse
-- Evidence from paleoclimate data in Rajasthan
-- Saraswati River drying up (as rivers shifted)
-
-**2. Aryan Invasion (Discredited):**
-- Old theory — suggested Aryans invaded and destroyed the civilisation
-- Archaeological evidence: No weapons, no destruction layers, no mass killings
-- The decline was gradual, not sudden
-
-**3. River Course Change:**
-- The Ghaggar-Hakra (possibly Saraswati) shifted or dried
-- Loss of water sources led to abandonment
-
-**4. Disease/Epidemic:**
-- Some scholars propose disease caused the decline
+1. "Examine the role of climate change in the decline of the Harappan civilisation." (Mains, 15 marks — bring Lunkaransar, monsoon data, Ghaggar drying.)
+2. "Match the following Harappan sites with their rivers: Lothal, Dholavira, Kalibangan, Rakhigarhi, Harappa." (Prelims MCQ format.)
 
 ---
 
-## Sites in India — Special Focus
+## Continue your study
 
-| Site | State | Significance |
-|---|---|---|
-| **Rakhigarhi** | Haryana | Largest IVC site in India |
-| **Dholavira** | Gujarat | Best water management system |
-| **Lothal** | Gujarat | World's oldest dock |
-| **Kalibangan** | Rajasthan | On Ghaggar-Hakra; first to show flooded fields |
-| **Banawali** | Haryana | On Ghaggar-Hakra; early Harappan |
-| **Baror** | Rajasthan | In northern Rajasthan; major late Harappan site |
-
----
-
-## Practice Questions for RPSC RAS
-
-1. Name the major sites of the Indus Valley Civilisation. Where are they located?
-2. Describe the town planning of a Harappan city.
-3. What evidence suggests the Indus Valley Civilisation had sophisticated trade networks?
-4. Why is the Indus script undeciphered? What are the main theories about its meaning?
-5. What are the main theories for the decline of the Indus Valley Civilisation?
-
-### Common Mistakes to Avoid
-
-- **Thinking the Indus script has been deciphered** — it remains one of the great undeciphered scripts.
-- **Confusing Lothal with other sites** — Lothal had the dockyard; not just a city.
-- **Overemphasising the "Aryan invasion"** — it is largely discredited and not supported by archaeological evidence.
+- **[View this topic in your RPSC RAS roadmap](/roadmap/?exam=ras&duration=1mo)** — see where "Ancient India — Indus Valley Civilisation" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ras&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[RPSC RAS exam overview](/exams/ras/)** — pattern, eligibility, and syllabus
+- **[All History notes](/notes/ras/history/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

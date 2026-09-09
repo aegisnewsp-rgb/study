@@ -8,7 +8,7 @@ topicName: "Alkanes, Alkenes and Alkynes"
 weight: 4
 country: pakistan
 generated: "2026-03-24T08:32:08.061218"
-lastUpdated: 2026-03-24
+lastUpdated: "2026-09-09"
 diagramPrompt: "Clear scientific diagram of Alkanes, Alkenes and Alkynes with atom labels, molecular structure, reaction arrows, white background, color-coded bonds and groups, exam textbook style"
 
 
@@ -17,67 +17,107 @@ diagramPrompt: "Clear scientific diagram of Alkanes, Alkenes and Alkynes with at
 # Alkanes, Alkenes and Alkynes
 
 ### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your ECAT exam.
 
-> Rapid summary for last-minute revision before your exam.
-
-**Alkanes — Saturated Hydrocarbons (C_nH_{2n+2}):**
-
-Alkanes contain only C-C and C-H single bonds (σ bonds only). They are chemically inert — the C-C bond is strong (347 kJ/mol) and non-polar, so alkanes don't react with acids, bases, or most reagents under normal conditions. Their major reactions are combustion and free radical halogenation.
-
-Structural isomerism: butane C₄H₁₀ has two isomers (n-butane and isobutane). Pentane C₅H₁₂ has three isomers. Branching lowers boiling point: n-pentane (36°C) > isopentane (28°C) > neopentane (9.5°C) because branching reduces surface area and hence London dispersion forces.
-
-**Alkenes — Unsaturated with C=C (C_nH_{2n}):**
-
-Alkenes contain at least one carbon-carbon double bond. The double bond consists of one strong σ bond and one weaker π bond (total bond energy less than two σ bonds). The double bond is the site of reactivity — addition reactions.
-
-E/Z (geometric) isomerism: occurs when each carbon of the C=C has two different substituents. E (entgegen, German for "opposite") = higher priority groups on opposite sides. Z (zusammen, "together") = higher priority groups on same side. Example: 2-butene has E and Z isomers. This is not the same as cis/trans (which is a special case for identical substituents).
-
-**⚡ ECAT Tip:** Markovnikov's rule for addition to alkenes: in HX addition, the hydrogen attaches to the carbon with more hydrogens already (the less substituted carbon), and X attaches to the more substituted carbon. For HCl + propene: H adds to the terminal CH₂ (it has 2 H vs the middle carbon's 1 H), giving 2-chloropropane (CH₃-CHCl-CH₃) as the major product. Anti-Markovnikov addition requires peroxides (HBr only, not HF, HCl, HI).
+- **Alkanes** are saturated hydrocarbons with only C–C and C–H **σ bonds**. Acyclic alkanes follow $\mathrm{C_nH_{2n+2}}$.
+- **Alkenes** contain at least one C=C bond, made from one σ bond and one **π bond**. Acyclic alkenes follow $\mathrm{C_nH_{2n}}$.
+- **Alkynes** contain at least one C≡C bond, made from one σ bond and two π bonds. Acyclic alkynes follow $\mathrm{C_nH_{2n-2}}$.
+- Carbon hybridization changes across the series: alkanes use **sp³** with tetrahedral geometry, alkenes use **sp²** with trigonal-planar geometry, and alkynes use **sp** with linear geometry.
+- The main reaction distinction is **free-radical substitution** in alkanes versus **electrophilic addition** in alkenes and alkynes.
+- In addition of HX to an unsymmetrical alkene, **Markovnikov’s rule** places H on the carbon with more hydrogen atoms.
+- For an alkene, each doubly bonded carbon must have two different groups for **cis–trans isomerism** to occur.
+- ECAT commonly tests formulas, hybridization, degree of unsaturation, and Markovnikov addition through short MCQs.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-
 > Standard content for students with a few days to months.
 
-**Hybridisation — Bonding Geometry:**
+#### Bonding and classification
 
-- sp³ (alkanes): tetrahedral geometry, 109.5° bond angles, four σ bonds from carbon
-- sp² (alkenes): trigonal planar geometry, 120° bond angles, three σ bonds + one π bond from each doubly bonded carbon
-- sp (alkynes): linear geometry, 180° bond angles, two σ bonds + two π bonds from the triple-bonded carbons
+The three hydrocarbon families differ in the number of carbon–carbon bonds. Alkanes have only single bonds, while alkenes and alkynes contain π bonds. A π bond forms by sideways overlap of p orbitals and is more exposed to attacking reagents than a σ bond.
 
-This orbital picture explains why alkynes are linear (the R-C≡C-R' angle is 180°), why alkenes are planar (all atoms connected to the double bond lie in one plane), and why alkanes adopt tetrahedral geometry around each carbon.
+| Family | Acyclic formula | Bonding | Carbon geometry |
+| --- | --- | --- | --- |
+| Alkane | $\mathrm{C_nH_{2n+2}}$ | C–C and C–H σ bonds | sp³, tetrahedral, 109.5° |
+| Alkene | $\mathrm{C_nH_{2n}}$ | One C=C bond: one σ + one π | sp², trigonal planar, 120° |
+| Alkyne | $\mathrm{C_nH_{2n-2}}$ | One C≡C bond: one σ + two π | sp, linear, 180° |
 
-**Addition Reactions of Alkenes:**
+#### Degree of unsaturation
 
-*Catalytic hydrogenation:* H₂ + alkene → alkane, catalysed by Pt, Pd, or Ni. Heat is released (exothermic: ~-120 kJ/mol). Vegetable oil (liquid, unsaturated) + H₂ → margarine (solid, saturated, more stable).
+The **degree of unsaturation (DoU)** counts rings and π bonds. For a hydrocarbon, the shortcut is:
 
-*Bromine addition:* Br₂ (red-brown) + alkene → dibromide (colourless). This is the classic test for unsaturation — if a compound decolourises bromine water, it contains a C=C. The mechanism involves a cyclic bromonium ion intermediate (Br⁺ attacks the π electrons, forming a 3-membered ring with the C=C carbons, then Br⁻ attacks from the back — anti addition).
+$$
+\mathrm{DoU}=\frac{2C+2-H}{2}
+$$
 
-*Hydration:* H₂O + alkene (acid-catalysed, H⁺) → alcohol. Markovnikov addition: H to the less substituted carbon, OH to the more substituted carbon. Alternative: oxymercuration-demethylation (Hg(OAc)₂ + H₂O, then NaBH₄) gives Markovnikov addition without rearrangement.
+Here, $C$ is the number of carbon atoms and $H$ is the number of hydrogen atoms. For example, $\mathrm{C_4H_8}$ has:
 
-**⚡ ECAT Tip:** Polymerisation — alkenes undergo addition polymerisation where the double bond opens and links together. Polyethene (PE): n CH₂=CH₂ → [-CH₂-CH₂-]ₙ. Polypropene (PP): n CH₂=CH-CH₃ → [-CH₂-CH(CH₃)-]ₙ. Teflon: PTFE from tetrafluoroethene CF₂=CF₂. PVC (polyvinyl chloride) from chloroethene CH₂=CHCl. These are all addition polymers — no small molecules are eliminated.
+$$
+\mathrm{DoU}=\frac{2(4)+2-8}{2}=1
+$$
+
+This result indicates one double bond or one ring. If the formula had three degrees, it can represent three double bonds, one triple bond plus one ring, or another equivalent combination.
+
+#### Typical reaction patterns
+
+Alkanes commonly undergo **free-radical substitution**, such as chlorination with $\mathrm{Cl_2}$ under ultraviolet light. Their σ bonds are strong, so substitution needs heat or light to generate radicals. In contrast, the π electrons of alkenes and alkynes attract electrophiles, producing addition reactions with $\mathrm{H_2}$, $\mathrm{X_2}$, HX, or $\mathrm{H_2O}$.
+
+For an unsymmetrical alkene, apply **Markovnikov’s rule** by placing H on the carbon that already carries more hydrogens. A common example is propene plus HBr, which mainly produces 2-bromopropane rather than 1-bromopropane.
+
+- **Preparation of alkanes:** Wurtz reaction, decarboxylation of sodium carboxylate salts, or hydrogenation of alkenes.
+- **Preparation of alkenes:** dehydration of alcohols or dehydrohalogenation of alkyl halides.
+- **Preparation of alkynes:** dehydrohalogenation of vicinal or geminal dihalides.
+- **Cis–trans test:** an alkene shows geometric isomerism only when both double-bonded carbons have two different substituents.
+
+> **ECAT trap:** Do not interchange alkene and alkyne formulas. Alkenes use $\mathrm{C_nH_{2n}}$; alkynes use $\mathrm{C_nH_{2n-2}}$.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-
 > Comprehensive coverage for students on a longer study timeline.
 
-**Free Radical Halogenation of Alkanes — Selectivity:**
+#### Mechanisms and selectivity
 
-Free radical halogenation proceeds in three stages: Initiation (Cl₂ → 2Cl• under UV), Propagation (Cl• + RH → HCl + R•, then R• + Cl₂ → RCl + Cl•), Termination (any two radicals combine).
+Electrophilic addition begins when the π electrons attack an electrophile. During HX addition, a carbocation intermediate forms, and the more substituted carbocation is in most cases more stable: $3^\circ>2^\circ>1^\circ>\text{methyl}$. This stability explains Markovnikov orientation. Rearrangement can occur when a more stable carbocation can form through a hydride or alkyl shift.
 
-Selectivity: For propane (CH₃-CH₂-CH₃), there are 6 equivalent primary H's and 2 equivalent secondary H's. Relative reactivity: secondary H is ~3.5× more reactive than primary H toward chlorination. Toward bromination, secondary H is ~80× more reactive than primary H. This means bromination is far more selective — it almost exclusively substitutes the most substituted available hydrogen.
+Hydrogenation adds $\mathrm{H_2}$ across a multiple bond using catalysts such as nickel, palladium, or platinum. For a generic alkene:
 
-This is because the C-H bond dissociation energies differ: primary BDE ~410 kJ/mol, secondary ~397 kJ/mol, tertiary ~389 kJ/mol. Weaker bonds form radicals more easily, and the resulting radicals are more stable (tertiary > secondary > primary). Radical stability follows the same order as carbocation stability in electrophilic additions.
+$$
+\mathrm{C_nH_{2n}+H_2\rightarrow C_nH_{2n+2}}
+$$
 
-**Alkyne Chemistry — Linear and Acidic:**
+The reaction is exothermic, with a typical enthalpy change near $-120\ \mathrm{kJ\,mol^{-1}}$ for alkene hydrogenation. The heat released varies with substitution and alkene stability, so treat this as an approximate value.
 
-Alkynes have sp-hybridised carbons with two C≡C π bonds. Terminal alkynes (R-C≡CH) are uniquely acidic for hydrocarbons: pKa ~25 (ethane pKa ~51, ethene pKa ~44). This is because the negative charge in the acetylide anion (R-C≡C:⁻) is on an sp-hybridised carbon with 50% s-character (more s = more stable anion). This acidity allows terminal alkynes to be deprotonated by strong bases (Na, NaNH₂) to form acetylide salts, which are useful nucleophiles for forming new C-C bonds.
+#### Geometric and structural edge cases
 
-**Conjugation and Dienes:**
+A double bond restricts rotation because turning one carbon relative to the other would disrupt the π overlap. Restricted rotation produces distinct cis and trans arrangements when each alkene carbon has two different groups. If either carbon bears two identical groups, geometric isomerism is impossible.
 
-Conjugated dienes (alternating double and single bonds: CH₂=CH-CH=CH₂) have special stability due to delocalisation of π electrons (resonance). 1,3-butadiene is the simplest conjugated diene. Electrophilic addition to conjugated dienes can give 1,2-addition (across the first double bond) or 1,4-addition (across the conjugated system, which leaves a double bond in the middle — giving a more substituted alkene). The major product depends on conditions: at low temperature, kinetic 1,2-addition dominates; at high temperature, thermodynamic 1,4-addition dominates.
+Terminal alkynes contain an sp-hybridized carbon bonded to hydrogen. Their C–H bond is more acidic than the C–H bonds in alkenes or alkanes, with a pKa near 25. Strong bases such as sodium amide can form an acetylide ion, while ammoniacal silver ions identify terminal alkynes through precipitate formation.
 
-**⚡ ECAT Pattern:** ECAT frequently tests: (1) orbital hybridisation and geometry (sp³, sp², sp) and bond angles; (2) Markovnikov's rule with actual compound names; (3) distinguishing alkanes from alkenes using bromine water test; (4) naming geometric isomers (E/Z) for alkenes; (5) the fact that acetylene (ethyne) burns with a sooty flame (high carbon content, incomplete combustion: 2C₂H₂ + 5O₂ → 4CO₂ + 2H₂O, but the flame temperature causes partial pyrolysis). A common ECAT question: "Write the product(s) of 2-methylpropene + HBr in the presence of peroxides." Answer: In peroxides, the mechanism is anti-Markovnikov (bromine adds to the less substituted carbon via radical addition). Peroxides oxidise HBr to Br• which initiates radical chain. The H adds to the terminal carbon (less substituted, more H's), Br adds to the internal carbon (more substituted): product is 1-bromo-2-methylpropane.
+| Mistake | Correction |
+| --- | --- |
+| Adding H to the more substituted carbon | H goes to the carbon with more hydrogen atoms. |
+| Treating every $\mathrm{C_nH_{2n-6}}$ formula as an alkene formula | Benzene also fits that pattern, but its aromatic bonding differs. |
+| Saying alkynes always react faster than alkenes | Alkenes in most keys react faster in electrophilic addition because vinyl carbocations are less stable. |
+| Assigning one degree of unsaturation without checking | Count every ring and every π bond separately. |
+
+> **Exam strategy:** Write the molecular formula first, calculate DoU, identify the functional bond, then choose the reaction rule. In ECAT’s 4% Chemistry section, this topic in most keys appears as one to three concise MCQs; spend about 30–45 seconds per item.
+
+#### Practice prompts
+
+1. Calculate the DoU of $\mathrm{C_6H_{10}}$ and identify one possible structural feature.
+2. Predict the major product when 1-butene reacts with HBr and name the intermediate class.
+3. Explain why cis–trans isomerism occurs in 2-butene but not in 1-butene.
+
+---
+
+## Continue your study
+
+- **[View this topic in your ECAT (Engineering College Admission Test) roadmap](/roadmap/?exam=ecat&duration=1mo)** — see where "Alkanes, Alkenes and Alkynes" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ecat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[ECAT (Engineering College Admission Test) exam overview](/exams/ecat/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/ecat/chemistry/)** — browse sibling topics in this subject
+
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

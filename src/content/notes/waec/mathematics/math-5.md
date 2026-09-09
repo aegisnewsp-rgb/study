@@ -8,7 +8,7 @@ topicName: Simple Equations and Inequalities
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.618840"
-lastUpdated: 2026-03-24
+lastUpdated: "2026-09-09"
 diagramPrompt: "Mathematical diagram showing Simple Equations and Inequalities concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style"
 
 ---
@@ -18,229 +18,94 @@ diagramPrompt: "Mathematical diagram showing Simple Equations and Inequalities c
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**An equation** is a mathematical statement that two expressions are equal. An **inequality** shows that two expressions are not equal — one is greater or less than the other.
+A **simple equation** is a statement that two algebraic expressions are equal, with the unknown appearing to the first power (linear) or squared (quadratic). An **inequality** compares two expressions using `<`, `≤`, `>`, or `≥` and produces a range of values rather than a single number.
 
-**Equations:**
-- **Linear equation**: Highest power of unknown is 1 (e.g., 2x + 3 = 7)
-- **Quadratic equation**: Highest power is 2 (e.g., x² − 5x + 6 = 0)
-- **Simultaneous equations**: Two or more equations with two or more unknowns
+- A linear equation `ax + b = 0` solves to `x = -b/a` (provided `a ≠ 0`).
+- A quadratic `ax² + bx + c = 0` solves using `x = [-b ± √(b² - 4ac)] / 2a`.
+- Multiplying or dividing an inequality by a **negative number flips the sign**: `-2x < 6` becomes `x > -3`.
+- On a number line, `<` and `>` use **open circles**; `≤` and `≥` use **closed (filled) circles**.
 
-**Solving Linear Equations:**
-$$2x + 5 = 13$$
-$$2x = 13 - 5 \quad \text{(subtract 5 from both sides)}$$
-$$2x = 8$$
-$$x = \frac{8}{2} = 4$$
-
-**Inequality Symbols:**
-- $>$ : Greater than
-- $<$ : Less than
-- $\geq$ : Greater than or equal to
-- $\leq$ : Less than or equal to
-- $\neq$ : Not equal to
-
-**Solving Inequalities:**
-$$3x - 4 > 5$$
-$$3x > 9$$
-$$x > 3$$
-
-⚡ **WAEC Tip:** When multiplying or dividing an inequality by a NEGATIVE number, you must REVERSE the inequality sign. Example: −2x > 6 → dividing by −2 → x < −3 (sign reversed!).
+WAEC WASSCE tests this topic in both Paper 1 (Objective) and Paper 2 (Essay), typically contributing about **4% of total marks**. The most common question asks you to solve an equation or inequality and draw the solution on a number line. Practice transposition of terms carefully — sign errors account for more lost marks than any other slip here.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> For students who want genuine understanding.
+> Standard content for students with a few days to months.
 
-**Linear Equations in One Variable:**
+#### Linear Equations
 
-**General form**: $ax + b = 0$, where $a \neq 0$
+A linear equation in one variable has the form `ax + b = cx + d`, where the highest power of `x` is 1. Solve by collecting like terms on one side and constants on the other. For `3x + 5 = 2x + 11`, subtract `2x` from both sides to get `x + 5 = 11`, then subtract `5` to obtain `x = 6`.
 
-**Steps to solve**:
-1. Simplify both sides (expand brackets, combine like terms)
-2. Collect all terms with x on one side, numbers on the other
-3. Divide by the coefficient of x
+**Simultaneous linear equations** in two variables (`x`, `y`) are solved by **substitution** (express one variable from one equation, substitute into the other) or **elimination** (multiply equations so coefficients match, then add or subtract to cancel one variable).
 
-**Example with brackets**:
-$$3(2x - 1) - 2(x + 4) = 7$$
-$$6x - 3 - 2x - 8 = 7$$
-$$4x - 11 = 7$$
-$$4x = 18$$
-$$x = \frac{18}{4} = \frac{9}{2} = 4.5$$
+#### Quadratic Equations
 
-**Equations with Fractions:**
+Quadratics have the form `ax² + bx + c = 0` with `a ≠ 0`. Three methods work:
 
-Multiply both sides by the LCM of denominators:
+| Method | When to use | Key step |
+| --- | --- | --- |
+| Factorisation | Discriminant is a perfect square | Find two numbers whose sum is `b/a` and product is `c/a` |
+| Quadratic formula | Always works | Compute discriminant `Δ = b² - 4ac` first |
+| Completing the square | When asked to rewrite in `(x + p)² = q` form | Halve the coefficient of `x`, then square it |
 
-$$\frac{x}{3} + \frac{x}{4} = 7$$
-$$\frac{4x + 3x}{12} = 7$$
-$$\frac{7x}{12} = 7$$
-$$7x = 84$$
-$$x = 12$$
+If `Δ > 0`, two distinct real roots; if `Δ = 0`, one repeated root; if `Δ < 0`, no real roots (complex pair).
 
-**Word Problems:**
+#### Inequalities
 
-*Problem*: The sum of three consecutive integers is 72. Find the integers.
+Solve inequalities the same way as equations, but **reverse the sign** when multiplying or dividing by a negative number. Express the solution set using interval notation such as `(-∞, 4]` or on a number line.
 
-Let integers be: $n$, $n+1$, $n+2$
-$$n + (n+1) + (n+2) = 72$$
-$$3n + 3 = 72$$
-$$3n = 69$$
-$$n = 23$$
+#### Worked Example
 
-Integers: 23, 24, 25
+Solve `2(x - 3) ≤ 4x + 1`.
 
-**Linear Inequalities:**
+- Expand: `2x - 6 ≤ 4x + 1`
+- Subtract `2x`: `-6 ≤ 2x + 1`
+- Subtract `1`: `-7 ≤ 2x`
+- Divide by `2` (positive, sign unchanged): `-7/2 ≤ x`
 
-*Problem*: Solve and illustrate on a number line: $2x + 3 \leq 11$
-
-$$2x \leq 8$$
-$$x \leq 4$$
-
-Number line: closed circle at 4, shading leftwards ←●────→
-
-**Quadratic Equations:**
-
-General form: $ax^2 + bx + c = 0$
-
-**Solution by factorisation**:
-$$x^2 - 5x + 6 = 0$$
-$$(x - 2)(x - 3) = 0$$
-$$x = 2 \text{ or } x = 3$$
-
-**Solution by formula**:
-$$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
-
-*Problem*: Solve $2x^2 + 5x - 3 = 0$
-$$x = \frac{-5 \pm \sqrt{25 - 4(2)(-3)}}{2(2)} = \frac{-5 \pm \sqrt{25 + 24}}{4} = \frac{-5 \pm \sqrt{49}}{4} = \frac{-5 \pm 7}{4}$$
-$$x = \frac{2}{4} = \frac{1}{2} \quad \text{or} \quad x = \frac{-12}{4} = -3$$
-
-**Discriminant ($b^2 - 4ac$)**:
-- If $> 0$: Two distinct real roots
-- If $= 0$: Two equal real roots
-- If $< 0$: No real roots (complex roots)
-
-⚡ **Common Student Mistakes:** Forgetting to reverse the inequality sign when multiplying/dividing by negative. Losing negative signs when expanding brackets. Not writing the final answer clearly.
+Solution set: `x ∈ [-7/2, ∞)`.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive theory for thorough preparation.
+> Comprehensive coverage for students on a longer study timeline.
 
-**Simultaneous Equations:**
+#### Edge Cases and Extraneous Solutions
 
-Two equations with two unknowns.
+When you square both sides of an equation (e.g., `√(x + 2) = x - 1`), you must check every candidate root in the original statement. Squaring can introduce solutions that do not satisfy the original equation because the square function is not one-to-one over the reals.
 
-**Method 1: Substitution**
-$$2x + y = 7 \quad \text{...(1)}$$
-$$x - y = 2 \quad \text{...(2)}$$
+In rational equations where both sides are multiplied by a denominator, also reject any value that makes that denominator zero. For example, solving `(x + 1)/(x - 2) = 3` by cross-multiplication gives `x = 7`, which is valid because `7 ≠ 2`.
 
-From (2): $x = y + 2$
-Substitute into (1):
-$$2(y + 2) + y = 7$$
-$$2y + 4 + y = 7$$
-$$3y = 3$$
-$$y = 1$$
+#### Common Mistakes and How to Avoid Them
 
-Then $x = 1 + 2 = 3$
+| Mistake | Fix |
+| --- | --- |
+| Forgetting to flip `<` to `>` when dividing by `-2` | Write "negative → flip" beside every multiplication step |
+| Using a closed circle for `x < 5` on a number line | Strict inequality `<` or `>` always uses an open circle |
+| Mixing up `a`, `b`, `c` in the quadratic formula | Label them clearly: `a` is with `x²`, `b` with `x`, `c` is the constant |
+| Losing a root by dividing by a factor that could be zero | Only divide when you have confirmed the factor is non-zero |
 
-**Method 2: Elimination**
-$$2x + y = 7 \quad \text{...(1)}$$
-$$x - y = 2 \quad \text{...(2)}$$
+#### Connections to Other Topics
 
-Add (1) and (2):
-$$3x = 9$$
-$$x = 3$$
+Mastery here unlocks later WAEC topics: **coordinate geometry** uses linear equations to find the equation of a line; **sequences and series** use quadratic patterns in the `n`-th term formula; **functions** depend on solving `f(x) = 0` for roots and `f(x) ≥ 0` for domain restrictions.
 
-Substitute back: $2(3) + y = 7$, so $y = 1$
+#### Exam Strategy
 
-**Simultaneous Equations with Quadratics:**
+WAEC sets roughly two to three questions per paper on this cluster. Spend under three minutes per objective item and up to eight minutes on a Paper 2 inequality drawing. Always **re-state the final solution set** in interval form for full marks.
 
-*Problem*:
-$$x + y = 5 \quad \text{...(1)}$$
-$$x^2 + y^2 = 13 \quad \text{...(2)}$$
+#### Practice Prompts
 
-From (1): $y = 5 - x$
-Substitute into (2):
-$$x^2 + (5-x)^2 = 13$$
-$$x^2 + 25 - 10x + x^2 = 13$$
-$$2x^2 - 10x + 25 = 13$$
-$$2x^2 - 10x + 12 = 0$$
-$$x^2 - 5x + 6 = 0$$
-$$(x-2)(x-3) = 0$$
-$$x = 2 \text{ or } x = 3$$
+1. Solve `5 - 2x ≥ 11` and represent the solution on a number line.
+2. Use the quadratic formula to find the roots of `2x² + 3x - 5 = 0`, then state the discriminant.
 
-When $x = 2$, $y = 3$; When $x = 3$, $y = 2$
+---
 
-**Quadratic Inequalities:**
+## Continue your study
 
-*Problem*: Solve $x^2 - x - 6 > 0$
+- **[View this topic in your WAEC WASSCE roadmap](/roadmap/?exam=waec&duration=1mo)** — see where "Simple Equations and Inequalities" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=waec&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[WAEC WASSCE exam overview](/exams/waec/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/waec/mathematics/)** — browse sibling topics in this subject
 
-Factor: $(x - 3)(x + 2) > 0$
-
-Critical points: $x = 3$ and $x = -2$
-
-Test intervals:
-- $x < -2$: $(negative)(negative) > 0$ ✓
-- $-2 < x < 3$: $(negative)(positive) < 0$ ✗
-- $x > 3$: $(positive)(positive) > 0$ ✓
-
-Solution: $x < -2$ or $x > 3$
-
-**Absolute Value Inequalities:**
-
-$$|x - 3| < 5$$ means $-5 < x - 3 < 5$
-$$-2 < x < 8$$
-
-$$|2x + 1| \geq 7$$ means $2x + 1 \leq -7$ or $2x + 1 \geq 7$
-$$x \leq -4 \text{ or } x \geq 3$$
-
-**Application Problems:**
-
-*Problem*: A rectangular garden is 10 m longer than it is wide. Its area is 144 m². Find its dimensions.
-
-Let width = $w$, length = $w + 10$
-$$w(w + 10) = 144$$
-$$w^2 + 10w - 144 = 0$$
-$$(w + 18)(w - 8) = 0$$
-$$w = 8 \text{ m (rejecting } w = -18 \text{)}$$
-
-Width = 8 m, Length = 18 m
-
-*Problem*: Two numbers differ by 5. Their product is 84. Find the numbers.
-
-Let $x$ and $y$ with $x - y = 5$ and $xy = 84$
-$$x = y + 5$$
-$$(y + 5)y = 84$$
-$$y^2 + 5y - 84 = 0$$
-$$(y + 12)(y - 7) = 0$$
-$$y = 7 \text{ or } y = -12$$
-
-Numbers: 12 and 7, or −7 and −12
-
-**Simultaneous Inequalities:**
-
-Find the range of values satisfying both:
-$$2x + 3 < 11 \quad \Rightarrow \quad x < 4$$
-$$3x - 2 > 1 \quad \Rightarrow \quad x > 1$$
-
-Solution: $1 < x < 4$
-
-**Indicial/Exponential Equations:**
-
-*Problem*: Solve $2^{x+1} = 16$
-$$2^{x+1} = 2^4$$
-$$x + 1 = 4$$
-$$x = 3$$
-
-*Problem*: Solve $3^{2x} = 27$
-$$3^{2x} = 3^3$$
-$$2x = 3$$
-$$x = \frac{3}{2}$$
-
-**Logarithmic Equations:**
-
-*Problem*: Solve $\log_2(x + 3) = 5$
-$$x + 3 = 2^5$$
-$$x + 3 = 32$$
-$$x = 29$$
-
-⚡ **WAEC Examination Patterns:** Solve linear equations (including with brackets and fractions). Solve quadratic equations by formula and factorisation. Solve simultaneous linear equations. Set up and solve equations from word problems. Solve quadratic inequalities. Use the discriminant to determine the nature of roots.
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

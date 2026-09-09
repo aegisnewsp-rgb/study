@@ -16,142 +16,102 @@ diagramPrompt: "Mathematical diagram showing Area and Perimeter of Plane Figures
 
 
 
-lastUpdated: "2026-05-25"
+lastUpdated: "2026-09-09"
 ---
 
 # Area and Perimeter of Plane Figures
 
 ### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your JAMB UTME Mathematics paper.
 
-**Area** = space inside a shape (measured in **square units**). **Perimeter** = total boundary length (measured in **linear units**).
+**Area** measures the surface enclosed by a closed plane figure (in cm² or m²), while **perimeter** is the total length around its boundary (in cm or m). JAMB questions on this topic almost always test whether you pick the right formula and convert units correctly.
 
-**Must-know formulas:**
-| Shape | Area | Perimeter |
-|-------|------|-----------|
-| Triangle | A = ½bh | P = a + b + c |
-| Rectangle | A = l × w | P = 2(l + w) |
-| Square | A = s² | P = 4s |
-| Circle | A = πr² | C = 2πr |
-| Trapezium | A = ½(a+b)h | P = sum of 4 sides |
+- **Triangle**: A = ½ × b × h; P = a + b + c
+- **Rectangle**: A = l × w; P = 2(l + w)
+- **Circle**: A = πr²; circumference C = 2πr
+- **Trapezium**: A = ½(a + b)h, where a and b are the parallel sides
 
-**JAMB high-yield pointers:**
-- In triangle area, **b** is the base and **h** must be the **perpendicular** height (not the slanted side).
-- For circles, use **radius r** in A = πr² — not diameter. C = 2πr.
-- A semi-circle's perimeter = πr + 2r (curved part + diameter).
-- Always convert all measurements to **the same unit** before calculating.
-- JAMB often tests composite figures: **split into standard shapes first**.
+> Tip: Always check whether the question gives the **radius (r)** or **diameter (d = 2r)** before plugging into πr².
 
----
+| Shape | Area Formula | Perimeter Formula |
+| --- | --- | --- |
+| Square | s² | 4s |
+| Parallelogram | b × h | 2(b + s) |
+| Sector of circle | (θ/360) × πr² | arc length = (θ/360) × 2πr |
 
 ### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months before JAMB UTME.
 
-#### Area vs. Perimeter Defined
+#### Core Definitions
 
-**Area** quantifies the two-dimensional surface enclosed by a closed boundary. It answers "how much space does this shape cover?" and is always expressed in **square units** (cm², m², km²).
+A **plane figure** is any two-dimensional closed shape lying on a flat surface. Its **perimeter (P)** is the sum of the lengths of all its sides, measured in linear units such as centimetres or metres. The **area (A)** is the size of the region enclosed by the figure, measured in square units (cm², m²). The conversion 1 m² = 10,000 cm² catches many candidates who forget that squaring the length conversion also squares the number.
 
-**Perimeter** is the sum of all boundary segments of a plane figure. It answers "how long is the path around this shape?" and is expressed in **linear units** (cm, m, km).
+#### Standard Formulas
 
-#### Triangle
+The triangle formula A = ½ × b × h requires the **perpendicular height**, not the slant side. When only the three side lengths a, b, c are given, use **Heron's formula**: A = √[s(s − a)(s − b)(s − c)], where s = (a + b + c)/2. For a circle, JAMB accepts π = 22/7 or 3.142; the choice depends on whether r or d divides cleanly by 7.
 
-For a triangle with base *b*, corresponding perpendicular height *h*, and sides *a*, *b*, *c*:
-- **Area:** A = ½ × b × h
-- **Perimeter:** P = a + b + c
+#### Common Question Types in JAMB
 
-*Common trap:* The height *h* must be perpendicular to the base. Using a slanted side as the height gives the wrong answer.
+- Compute the area or perimeter of a single named shape with given dimensions.
+- Find the area of a **shaded region** in a composite figure (a rectangle minus a circle, an L-shape, a frame).
+- Apply Heron's formula to a triangle when no height is supplied.
+- Use the sector formula with θ in degrees for pie-chart or arc-length problems.
 
-#### Rectangle and Square
+| Shape | Area | Perimeter / Circumference |
+| --- | --- | --- |
+| Triangle (sides a, b, c) | ½ × b × h or √[s(s−a)(s−b)(s−c)] | a + b + c |
+| Rectangle (l, w) | l × w | 2(l + w) |
+| Parallelogram (b, h, slant s) | b × h | 2(b + s) |
+| Trapezium (parallel sides a, b, height h) | ½(a + b)h | a + b + c + d |
+| Circle (radius r, diameter d) | πr² | 2πr or πd |
 
-A rectangle with length *l* and width *w*:
-- **Area:** A = l × w
-- **Perimeter:** P = 2(l + w)
-
-A square with side *s* (all sides equal):
-- **Area:** A = s²
-- **Perimeter:** P = 4s
-
-#### Parallelogram and Trapezium
-
-A parallelogram with base *b*, height *h*, and slant side *s*:
-- **Area:** A = b × h
-- **Perimeter:** P = 2(b + s)
-
-A trapezium with parallel sides *a* and *b*, height *h*:
-- **Area:** A = ½(a + b) × h
-- **Perimeter:** P = a + b + c + d (sum of all four sides)
-
-#### Circle
-
-Given radius *r* (or diameter *d = 2r*):
-- **Area:** A = πr²
-- **Circumference:** C = 2πr
-
-Use π ≈ 3.142 or 22/7 unless specified otherwise.
-
-#### Semi-Circle and Sector
-
-A semi-circle (half a circle):
-- **Area:** A = ½πr²
-- **Perimeter:** P = πr + 2r (curved edge + diameter)
-
-A sector with central angle θ (in degrees) and radius *r*:
-- **Area:** A = (θ/360) × πr²
-
-#### Unit Consistency
-
-Before calculating, convert all dimensions to the same unit. For example, if one side is 2 m and another is 50 cm, convert both to cm or both to m. Mixing units produces incorrect results.
-
-#### JAMB Question Patterns
-
-JAMB typically sets 1–2 questions on this topic. Common formats include:
-1. Finding a missing dimension given the area (e.g., find height given base and area)
-2. Word problems involving land measurement (farms, rooms, gardens)
-3. Combined/composite figures requiring division into standard shapes
-4. Circle geometry with semi-circles or sectors
-
----
+> Tip: When the answer must be in m² but the dimensions are in cm, divide the cm² result by 10,000 — this conversion alone has shifted many borderline scores.
 
 ### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students building long-term mastery of JAMB UTME Mathematics mensuration.
 
-#### Composite Figures
+#### Heron's Formula in Practice
 
-When a shape is composed of two or more standard figures, **divide first, calculate each part, then combine**. For combined areas, add the parts. For subtracted areas (e.g., a shape with a circular hole), subtract the smaller area.
+Heron's formula is most useful for **scalene triangles** where no altitude is given. For example, a triangle with sides 7 cm, 9 cm, and 10 cm has s = (7 + 9 + 10)/2 = 13 cm, giving A = √[13 × 6 × 4 × 3] = √936 ≈ 30.6 cm². JAMB sometimes disguises this as a "find the area of the triangular plot" word problem where the third side must first be inferred from a given perimeter.
 
-**Example:** A rectangle 10 cm × 6 cm with a semi-circle of radius 3 cm attached to one 10 cm side.
-- Rectangle area = 60 cm²
-- Semi-circle area = ½ × π × 3² = ½ × 3.142 × 9 ≈ 14.14 cm²
-- Total area ≈ 74.14 cm²
+#### Composite Figures and the Shaded-Region Trap
 
-#### Deriving the Trapezium Formula
+A composite figure is built by joining or removing simple shapes. The strategy is: **(1) compute the total enclosing area, (2) subtract the cut-out area**. A circular garden inside a square lawn of side 14 m with a circular fountain of radius 3 m in the middle has shaded (plantable) area = 14² − π(3)² = 196 − 9π ≈ 167.7 m². Candidates who subtract the fountain from the lawn correctly often lose marks by writing the answer in cm² instead of m².
 
-Place two identical trapeziums together to form a parallelogram. The parallelogram has base (a + b) and height h, giving area = (a + b) × h. Since this equals 2 trapeziums, one trapezium's area = ½(a + b)h.
+#### Trapezium Edge Cases
 
-#### Deriving the Sector Formula
+A trapezium with parallel sides 8 cm and 14 cm and perpendicular height 5 cm gives A = ½(8 + 14) × 5 = 55 cm². The perimeter requires the two **non-parallel slanted sides**, which cannot be derived from the parallel sides alone — they must be given or obtainable via Pythagoras if the trapezium is right-angled. Adding both parallel sides twice is a classic error.
 
-A full circle's area is πr². A sector is θ/360 of the full circle (since a full circle has 360°). Therefore: A_sector = (θ/360) × πr². The arc length of a sector is (θ/360) × 2πr.
+#### Links to Adjacent Topics
 
-#### Converting Between Units
+- **Coordinate geometry**: the area of a triangle with vertices (x₁, y₁), (x₂, y₂), (x₃, y₃) equals ½|x₁(y₂ − y₃) + x₂(y₃ − y₁) + x₃(y₁ − y₂)| — a direct extension.
+- **Volume and surface area of solids**: uses the plane-figure formulas as building blocks for prisms, cylinders, and pyramids.
+- **Bearings and distances**: perimeter calculations feed into closed-travelling problems.
 
-1 hectare = 10,000 m² = 0.01 km². When converting area units, square the conversion factor for linear units. For instance, 1 m = 100 cm, so 1 m² = 100² = 10,000 cm².
+| Mistake | Why It Loses Marks | Correct Approach |
+| --- | --- | --- |
+| A = 2πr for a circle | That is circumference, not area | Use A = πr² |
+| Diameter plugged into πr² | Inflates area by factor of 4 | Halve diameter to get radius first |
+| Slant side used as height | Over-estimates area for triangle/trapezium | Use only the perpendicular altitude |
+| Mixed cm and m in one expression | Dimensional inconsistency | Convert all to one unit before computing |
+| Arc length treated as sector area | Different formulas entirely | Sector area needs πr² factor; arc length needs 2πr |
 
-#### Common Mistakes to Avoid
+#### Exam Strategy for JAMB UTME
 
-| Error | Correction |
-|-------|------------|
-| Using slanted side as triangle height | Use perpendicular height to the base |
-| Using diameter in A = πr² | Square the radius, not the diameter |
-| Forgetting to halve when finding semi-circle area | A_semi = ½πr² |
-| Adding all four sides for trapezium perimeter | Use actual lengths c and d, not just the formula |
-| Forgetting π in circumference | C = 2πr, always include π |
-| Mixing units (e.g., cm with m) | Convert everything to one unit first |
+Mensuration plane-figure questions carry roughly **3% of the Mathematics paper**, usually 1–2 questions. Allocate under 2 minutes per question. Read each diagram carefully: confirm whether the value given is r or d, and whether the height in a triangle is the altitude or a slanted edge. When a shaded region appears, sketch arrows showing what is being added and what is being subtracted.
 
-#### Connections to Adjacent Topics
+> Tip: Carry 22/7 in your head for radius multiples of 7, and 3.142 for clean decimals — choosing the wrong π value wastes calculation time and often produces an ugly fraction that does not match any option.
 
-Area and perimeter underpin **volume calculations** (3D shapes), where base area × height often gives volume. It also connects to **coordinate geometry**, where shoelace formulas can calculate polygon areas without explicit heights. In **word problems**, algebraic manipulation of area/perimeter formulas (solving for unknown dimensions) is frequently tested.
+#### Practice prompts
 
-#### Practice Prompts
+1. A trapezium has parallel sides 12 cm and 20 cm, perpendicular height 8 cm, and non-parallel sides 10 cm and 10 cm. Find its area and perimeter.
+2. A circular sector has radius 14 cm and angle 90°. Calculate its area, arc length, and the perimeter of the sector.
 
-1. A trapezium has parallel sides 8 cm and 14 cm, and height 5 cm. Its area equals that of a square. If the square's perimeter is 40 cm, find the trapezium's area. *(Answer: Square side = 10 cm, so area = 100 cm². Trapezium area = ½(8+14)×5 = 55 cm² — these do not match, so the problem setup requires adjustment: find which dimension makes them equal.)*
+## Continue your study
 
-2. A circle has circumference 44 cm. A semi-circle is cut from it. Find the area of the remaining shape. *(Given C = 44 = 2πr, so r = 44/(2×3.142) ≈ 7 cm. Original area = πr² ≈ 154 cm². Semi-circle removed = ½πr² ≈ 77 cm². Remaining ≈ 77 cm².)*
+- **[View this topic in your JAMB UTME roadmap](/roadmap/?exam=jamb&duration=1mo)** — see where "Area and Perimeter of Plane Figures" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=jamb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[JAMB UTME exam overview](/exams/jamb/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/jamb/mathematics/)** — browse sibling topics in this subject
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

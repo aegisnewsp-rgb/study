@@ -11,147 +11,105 @@ topicName: Summary and Inference from Passages
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.705849"
-lastUpdated: 2026-03-24
+lastUpdated: "2026-09-09"
 diagramPrompt: "Educational diagram illustrating Summary and Inference from Passages with clear labels, white background, exam-style illustration"
 
 
 
 
 ---
+
 # Summary and Inference from Passages
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+> Rapid summary for last-minute revision before your JAMB UTME paper.
 
-**Summary and Inference from Passages** — Quick Facts
-Main idea: the central point or argument the author is making (usually found in topic sentence, often first or last sentence of paragraph)
-Supporting details: facts, examples, statistics, or quotes that support the main idea
-Inference: conclusion drawn from evidence + reasoning (NOT explicitly stated in the text — must be implied)
-Explicit statement: directly stated in text
-⚡ Exam tip: If the answer is not in the text at all, it may be wrong; if it contradicts the text, it is definitely wrong
+A **summary** reduces a passage to its **central idea**: the most important message the writer communicates. A **topic** names the subject, while the central idea explains what the passage says about it.
+
+- Read the passage before the questions to identify its topic, purpose, and structure.
+- Separate the **topic sentence** from examples, repetitions, statistics, and minor incidents.
+- For **explicit questions**, choose information stated directly in the passage.
+- For **inferential questions**, combine stated facts with tone, context, cause, and consequence.
+- A useful summary contains the topic, the writer’s main claim, and any essential contrast.
+- Do not treat a real-world fact as the correct answer when the passage does not support it.
+- Avoid options with extreme words such as **always**, **never**, or **entirely** when the text indicates only a tendency.
+
+| Question type | What the answer requires |
+| --- | --- |
+| Explicit or factual | Information directly stated in the passage |
+| Inferential | A conclusion supported by textual evidence and context clues |
+
+> **Scoring rule:** If an option introduces a fact absent from the passage, eliminate it even when that fact sounds familiar.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+> Standard content for students with a few days or months before the examination.
 
-**Summary and Inference from Passages** — JAMB English Study Guide
+#### Identifying the Central Idea
 
-**Types of comprehension questions:**
-1. **Direct questions**: Answer is explicitly stated in text — find the relevant sentence and quote it.
-2. **Vocabulary in context**: Determine meaning of word/phrase from surrounding context — don't assume dictionary meaning.
-3. **Inference questions**: Must combine information from text with logical reasoning; not directly stated.
-4. **Main idea/purpose questions**: What is the passage mainly about? What is the author's purpose?
-5. **Tone/attitude questions**: Is the author critical, supportive, neutral, humorous?
-6. **Text structure questions**: How is the passage organised? (chronological, cause-effect, compare-contrast, problem-solution)
+A **topic sentence** in most keys expresses the main proposition, although it can appear at the beginning, middle, or end. Supporting sentences can explain, illustrate, compare, or provide evidence for that proposition.
 
-**How to approach a comprehension passage:**
-1. Read the passage quickly — get the general idea
-2. Read the questions — know what to look for
-3. Read again more carefully — underlining key points
-4. Answer questions — quote evidence from text when possible
-5. Eliminate wrong options — look for what text directly or indirectly supports
+When the passage contains several paragraphs, ask which idea links them. A strong central idea is broad enough to cover the passage but narrow enough to reflect its exact subject. For example, a passage can discuss school farming, but its central idea can be that practical agriculture helps students develop responsibility and useful skills.
 
-**Signal words for text structure:**
-- Cause-effect: therefore, consequently, as a result, thus, because, so
-- Compare-contrast: however, on the other hand, although, but, whereas, unlike, similarly
-- Sequence: first, then, next, finally, meanwhile, subsequently
-- Addition: moreover, furthermore, in addition, also, besides
+| Passage feature | Revision action |
+| --- | --- |
+| Repeated nouns or ideas | Check whether they reveal the main subject |
+| Contrast markers | Note what the writer accepts or rejects |
+| Examples and statistics | Treat them as support, not the central claim |
+| Concluding sentence | Check whether it restates or sharpens the passage’s message |
 
-**Types of inference:**
-- Character inference: "She smiled and said nothing" → she is probably embarrassed or shy
-- Setting inference: "He reached for his umbrella" → it is probably rainy or cloudy
-- Tone inference: heavy use of exaggeration → sarcastic tone
+#### Explicit and Implicit Information
 
-Common JAMB pitfalls: choosing the answer that sounds most reasonable but isn't supported by text; confusing explicit with implicit; not reading surrounding context for vocabulary questions.
+A **factual** or **explicit** answer reproduces information found in the passage. An **inferential** answer requires reasoning from evidence such as actions, consequences, comparisons, and the writer’s choice of words.
+
+Suppose the passage says that a library introduced evening classes and recorded increased attendance. An inference that the classes attracted more learners is supported, but a claim that every reader benefited would be too broad.
+
+1. Underline the sentence containing the relevant clue.
+2. Identify the relationship: cause, effect, contrast, example, or consequence.
+3. Choose only the conclusion that the evidence can reasonably support.
+4. Compare each option with the passage’s tone and scope.
+
+> **Common trap:** A in most cases true answer is wrong when the passage supplies no evidence for it.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
+> Deeper practice for distinguishing a passage’s message from details and unsupported guesses.
 
-**Summary and Inference from Passages** — Comprehensive Notes
+#### Tone, Attitude, and Logical Support
 
-**Distinguishing facts from opinions:**
-Fact: can be verified true or false (e.g., "Water boils at 100°C at sea level")
-Opinion: personal judgment that cannot be proven true/false (e.g., "Water is the most important substance on Earth")
-⚡ Exam tip: Words like "all", "never", "always", "must", "should", "best", "worst", "greatest" often indicate opinions.
+**Tone** describes the writer’s emotional colouring, such as sarcastic, sympathetic, critical, or formal. **Attitude** is the writer’s position toward the subject. Words like “unfortunately,” “remarkable,” or “foolish” can reveal that attitude without stating it directly.
 
-**Author's purpose types:**
-- To inform: present factual information neutrally
-- To persuade: convince reader to believe something; uses emotional/logical appeals
-- To entertain: amuse the reader; may use humour, stories
-- To express: share feelings, ideas, creativity
-- To explain: how something works (expository)
+Inferences should remain within the passage’s scope. If a community begins separating waste after a public campaign, the reasonable inference is increased environmental awareness. It is not justified to conclude that the campaign was the sole cause unless the passage says so.
 
-**Summary writing skills:**
-A good summary:
-- Includes main ideas only (not supporting details unless essential)
-- Uses your own words (paraphrase)
-- Does not include your opinions
-- Does not add information not in the text
-- Is shorter than the original (typically 1/3 to 1/4 the length)
+| Mistake | Better approach |
+| --- | --- |
+| Confusing topic with central idea | State what the passage says about its subject |
+| Choosing a familiar fact | Match the option to the passage’s evidence |
+| Ignoring emotional wording | Examine connotations, not only dictionary meanings |
+| Overgeneralising | Accept conclusions that the passage suggests rather than proves absolutely |
 
-**Strategies for summary questions:**
-1. Identify topic sentence of each paragraph
-2. Identify overall main idea (often thesis statement in introduction)
-3. Remove repetition, examples, and illustrations
-4. Combine and rephrase in your own words
+#### JAMB Practice Prompts
 
-**JAMB passage types and characteristics:**
-- Narrative: tells a story (who, what, when, where, why, how)
-- Descriptive: paints a picture (sensory details)
-- Expository: explains or informs (facts, definitions, examples)
-- Persuasive/argumentative: tries to convince (opinion, evidence, rhetoric)
+**Prompt 1:** A writer describes repeated delays and says reforms are “long overdue.” What can be inferred about the writer’s attitude? 
+**Response:** The writer is critical of the delays and favours immediate reform.
 
-**Deductive vs inductive reasoning:**
-Deductive: general principle → specific application (If A=B and B=C, then A=C)
-Inductive: specific observations → general conclusion (gathering specific examples to form general rule)
-⚡ Exam tip: Inferences are typically inductive — you work from text evidence to probable conclusion.
+**Prompt 2:** Summarise a passage arguing that local markets create jobs, provide affordable goods, and strengthen community relationships. 
+**Response:** Local markets support livelihoods while promoting affordability and social ties.
 
-**JAMB exam patterns:**
-- 2023 JAMB: The main purpose of the passage is to...
-- 2022 JAMB: Which statement is an inference, not a direct statement from the passage?
-- 2021 JAMB: The author's tone can best be described as...
-- 2020 JAMB: According to the passage, which of the following is TRUE?
+For JAMB Use of English, comprehension and summary questions form a major part of the paper, so reserve about 20–25 seconds for ordinary items and up to 40 seconds for a difficult inference. First eliminate options that contradict the text, then reject unsupported generalisations. Finally, select the conclusion that explains the greatest amount of relevant evidence without adding a new fact.
+
+> **Exam tip:** For a summary, one accurate sentence is safer than several loosely related details.
 
 ---
 
+## Continue your study
+
+- **[View this topic in your JAMB UTME roadmap](/roadmap/?exam=jamb&duration=1mo)** — see where "Summary and Inference from Passages" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=jamb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[JAMB UTME exam overview](/exams/jamb/)** — pattern, eligibility, and syllabus
+- **[All English Language notes](/notes/jamb/english/)** — browse sibling topics in this subject
 
 ---
-## 📊 JAMB Exam Essentials
-
-| Detail | Value |
-|---|---|
-| Questions | 180 MCQs (UTME) |
-| Subjects | 4 subjects (language + 3 for course) |
-| Time | 2 hours |
-| Marking | +1 per correct answer |
-| Score | 400 max (used for university admission) |
-| Registration | January – February each year |
-
-### 🎯 High-Yield Topics for JAMB
-- Use of English (Grammar + Comprehension) — 60 marks
-- Biology for Science students — 40 marks
-- Chemistry (Organic + Physical) — 40 marks
-- Physics (Mechanics + Optics) — 35 marks
-- Mathematics (Algebra + Geometry) — 40 marks
-
-### 📝 Previous Year Question Patterns
-- Q: "The process of photosynthesis requires..." [2024 Biology]
-- Q: "The electronic configuration of Fe is..." [2024 Chemistry]
-- Q: "Find the value of x if 2x + 5 = 15..." [2024 Mathematics]
-
-### 💡 Pro Tips
-- Use of English carries the most weight — master grammar rules and comprehension strategies
-- JAMB syllabus is your Bible — questions come directly from it. Download and use it.
-- Past questions are highly predictive — repeat patterns appear every year
-- For Science students, Biology and Chemistry are high-scoring if you study NCERT-level content
-
-### 🔗 Official Resources
-- [JAMB Official](https://www.jamb.gov.ng/)
-- [JAMB Syllabus](https://www.jamb.gov.ng/syllabus)
-
----
-
-*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

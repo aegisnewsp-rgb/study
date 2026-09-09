@@ -8,187 +8,105 @@ topicName: India in World Affairs
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-09"
 ---
 
 # India in World Affairs
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision.
+> Rapid summary for last-minute revision before your exam.
 
-**India in World Affairs** — Key Facts for KPSC KAS
-• **Non-Aligned Movement (NAM)**: Founded 1961 in Belgrade; **Nehru, Nasser, Tito** as founders; India was founding member; 120+ member countries; based on Panchsheel principles.
-• **Indo-Pak Wars**: **1965** (Rann of Kutch,Operation Retribution,September attacks in Kashmir); **1971** (Bangladesh Liberation War — Mukti Bahini, Indian Army, defeat of Pakistan, surrender at Dhaka); **1971 Treaty** with Soviet Union vs US-Pakistan-China axis.
-• **Sino-Indian War (1962)**: Aksai Chin dispute; NEFA (Arunachal Pradesh) dispute; Chinese attack in October; humiliating defeat; **Nehru's "Hindi-Chini bhai-bhai"** slogan shattered; 13 battalions engaged; ended November 1962 ceasefire.
-• **Look East Policy**: **P.V. Narasimha Rao (1991)** initiated; aimed at deepening engagement with Southeast Asia; counter-weight to China; evolved into **Act East Policy (Narendra Modi, 2014)**.
-• **Karnataka's external connections**: **Mangalore port trade** with Gulf countries; **Karnataka's diaspora** in USA, UK, Middle East; **Udupi cuisine** and Kannada diaspora across globe.
+**India in World Affairs** is the study of India's external relations and strategic posture since Independence (1947). For KAS, it sits at the intersection of modern History, Polity and General Studies-II (International Relations), with a 3% weight that rises sharply when current affairs are layered in.
 
-⚡ **Exam tip**: KPSC KAS frequently asks about **Indo-Pak wars, NAM, and foreign policy evolution**. Questions on **1971 Bangladesh war, the Sino-Indian war, and Act East Policy** are common.
+- **Non-Alignment (1947–early 1960s):** Nehru's policy of refusing Cold War blocs; institutionalised at Belgrade (1961) as NAM.
+- **Panchsheel (1954):** Five Principles of Peaceful Coexistence signed with China; framework still invoked in India–Bangladesh (2015 LBA) context.
+- **Nuclear:** Pokhran-I (1974, "Smiling Buddha"), Pokhran-II (May 1998, five tests). Doctrine — **No First Use**, credible minimum deterrence, assured second strike under NCA (2003).
+- **Post-1991 shifts:** Liberalisation → economic diplomacy; Vajpayee's **Look East (1992)**; Manmohan Singh's US civil nuclear deal; Modi's **Act East (2014)**, **Neighbourhood First**, **SAGAR**, **Indo-Pacific**.
+- **Multilateral:** Founding UN member; G4 for UNSC reform; BRICS (since 2009), SCO (full member 2017), G20 (presidency 2023, New Delhi).
+- **High-yield traps:** Treaty dates, PM attributions, NPT/CTBT status (India has signed CTBT but not ratified; rejects NPT).
+
+| Policy | PM / Era | Key Year |
+| --- | --- | --- |
+| Non-Alignment | Nehru | 1947–64 |
+| Look East | Vajpayee | 1992 |
+| Civil Nuclear (123 Agreement) | Manmohan Singh | 2008 |
+| Act East / SAGAR | Narendra Modi | 2014–15 |
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content.
+> Standard content for students with a few days to months.
 
-**India in World Affairs** — KPSC KAS Study Guide
+#### Evolution of Indian Foreign Policy
+Foreign policy reflects domestic ideology. Nehru's **Non-Alignment 2.0** original doctrine kept India equidistant from the US-led Western bloc and USSR during the Cold War. Indira Gandhi signed the **Indo-Soviet Treaty of Peace, Friendship and Cooperation (9 August 1971)** just before the Bangladesh Liberation War, formalising a strategic tilt. The Janata interlude (1977–80) briefly tilted back to Washington. Post-1991 liberalisation under PV Narasimha Rao opened economic diplomacy; Vajpayee added **Look East (1992)**, converting to **Act East (2014)** under Modi to deepen ASEAN, Japan and East Asia links.
 
-## India's Foreign Policy: Evolution and Challenges
+#### Nuclear Policy and Security Doctrine
+Pokhran-I (18 May 1974) was termed a "Peaceful Nuclear Explosion". Pokhran-II conducted **11 and 13 May 1998** comprised five tests including a thermonuclear device. The **Draft Nuclear Doctrine (1999)** and operative doctrine (2003) commit to **No First Use**, **credible minimum deterrence** and an **assured second strike**, command vested in the **Nuclear Command Authority** with civilian control and the **Strategic Forces Command** handling weapons.
 
-### Nehru Era and NAM (1947-1964)
+#### India and the Neighbourhood
+The 1960 **Indus Waters Treaty** (World Bank-brokered) governs water-sharing with Pakistan. **Simla Agreement (1972)** defined the LoC and bilaterally bound India–Pakistan disputes. The **China** relationship oscillates between Panchsheel (1954), the 1962 war, the 2020 Galwan clash, and ongoing LAC talks at Wuhan (2018), Mamallapuram (2019) and Kazan. With **Bangladesh**, India signed the **Land Boundary Agreement (2015)**. **SAARC, BIMSTEC** and **Vaccine Maitri (2021 onwards, 65+ countries)** anchor subcontinental reach.
 
-**Panchsheel (1954)**:
-- Sino-Indian agreement on principles of coexistence
-- **Five principles**: Mutual respect for sovereignty; non-aggression; non-interference; equality; peaceful coexistence
-- Used as basis for NAM principles
+#### Multilateral Forums
+India is a founding UN member and leads the **G4** (with Brazil, Germany, Japan) pushing for permanent UNSC seat. It joined **BRICS** at the 2009 Yekaterinburg summit, became a full **SCO** member in 2017, chaired **G20** in 2023 inducting the African Union, and ratified the **Paris Agreement** in 2016.
 
-**NAM Foundation**:
-- **1961 Belgrade Conference**: India, Egypt, Yugoslavia — founders; 120+ member countries
-- **Nehru's vision**: Independent path between US and Soviet blocs; sovereignty and non-interference principles
-- **At Bandung (1955)**: Nehru participated; Afro-Asian solidarity; supported independence of colonies
+#### Exam Patterns in KAS
+- Prelims MCQs: treaty year, signatory status, organisation membership.
+- Mains: short notes on Neighbourhood First or Nuclear Doctrine; essays on Indo-Pacific or multilateralism.
+- Always pair with current affairs — bilateral visits, summits, defence deals.
 
-**Limitations of Nehru's Policy**:
-- **Idealistic**: Assumed goodwill could resolve disputes; reality was power politics
-- **Sino-Indian War (1962)**: China attacked; Nehru refused to accept threat; unprepared military
-- **Military unpreparedness**: Defense spending kept low; Himalayan frontier vulnerable
+> **Trap:** Quad is a strategic dialogue forum, not a military alliance. It is often misquoted as "Asian NATO".
 
-### Indo-Pak Wars and Their Consequences
-
-**1965 War**:
-- **Rann of Kutch (April 1965)**: Border skirmish in Gujarat; Pakistan claimed territory
-- **Operation Gibraltar (August 1965)**: Pakistan sent infiltrators into Kashmir; Operation Grand Slam (Jammu)
-- **In Indian response**: Indian Army crossed international border; battles at Akhnoor, Chhamb; Lahore front
-- **Tashkent Agreement (January 1966)**: Ayub Khan and Shastri signed; status quo ante bellum; ceasefire
-
-**1971 War — Bangladesh Liberation**:
-- **Background**: Pakistan's 1970 elections; Awami League under Sheikh Mujibur Rahman won majority; Pakistan Army refused to transfer power; launched **Operation Searchlight (March 25, 1971)**; genocide of Bengali population
-- **Indian involvement**: 10 million refugees in India; training for **Mukti Bahini** (Bangladesh Liberation Army); **Indian Army** crossed border December 3, 1971
-- **Fall of Dhaka (December 16, 1971)**: Pakistan Army surrendered; 93,000 prisoners of war; **Lt. Gen. Jagjit Singh Arora** commanded Indian forces
-- **Bangladesh created**: Sheikh Mujibur Rahman became first Prime Minister
-
-**1971 Treaty and Geopolitics**:
-- **Indo-Soviet Treaty (August 1971)**: 20-year treaty of peace and cooperation; strategic counter to US-Pakistan-China axis
-- **US tilt toward Pakistan**: Nixon and Kissinger supported Pakistan despite genocide; **USS Enterprise** sent to Bay of Bengal
-- **China**: Quiet during 1971 war; border negotiations suspended; recognized Bangladesh in 1975
-
-### Sino-Indian War (1962)
-
-**Background**:
-- **McMahon Line**: Drawn by British at Simla Conference (1913-1914); Arunachal Pradesh and Aksai Chin disputed
-- **China's position**: Did not accept McMahon Line; disputed Arunachal Pradesh (South Tibet)
-- **India's position**: Accepted McMahon Line as international border; Tibet was buffer
-
-**War Timeline**:
-- **October 20, 1962**: Chinese forces crossed McMahon Line in NEFA and Aksai Chin simultaneously
-- **November 19, 1962**: Ceasefire; Chinese forces advanced up to Tawang in Arunachal Pradesh (then withdrew)
-- **Impact**: 1,383 Indian soldiers killed; major humiliation; China's message of strength delivered
-
-**Aftermath**:
-- **Establishment of Mountain Divisions**: Indian Army restructured; mountain warfare capability developed
-- **Himalayan Security concerns**: China's strategic advantage in border areas
-- **Shelved negotiations**: Sino-Indian talks suspended for decades
+| Treaty / Pact | Year | Parties | Substance |
+| --- | --- | --- | --- |
+| Panchsheel | 1954 | India–China | Five Principles of Peaceful Coexistence |
+| Indus Waters Treaty | 1960 | India–Pakistan | World Bank-mediated water-sharing |
+| Indo-Soviet Treaty | 1971 | India–USSR | Peace, Friendship & Cooperation |
+| Simla Agreement | 1972 | India–Pakistan | LoC, bilateral resolution |
+| 123 Agreement | 2008 | India–USA | Civil nuclear cooperation |
+| Land Boundary Agreement | 2015 | India–Bangladesh | Exchange of enclaves |
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage.
+> Comprehensive coverage for students on a longer study timeline.
 
-**India in World Affairs** — Comprehensive KPSC KAS Notes
+#### Economic and Connectivity Diplomacy
+India's foreign policy today blends hard and soft power with commerce. **Chabahar port (Iran)** bypasses Pakistan; **INSTC** links Mumbai to St Petersburg via Iran; **IMEC** (India–Middle East–Europe Corridor, proposed 2023) extends to Europe. **Bilateral CEPA / FTA** with **UAE (2022)** and **Australia (2022)**, plus **rupee-trade settlements** with Russia and the UAE, mark de-dollarisation experiments. **Foreign exchange reserves exceeding USD 600 billion** support stabilisation.
 
-## Modern Foreign Policy: From Look East to Act East
+#### Indo-Pacific and Maritime Strategy
+**SAGAR (2015)** and the **Indo-Pacific Oceans Initiative (IPOI, 2019)** articulate maritime priorities. India chairs **IORA (2019–21)** and runs the **Information Fusion Centre – Indian Ocean Region (IFC-IOR)** for maritime domain awareness. **Malabar exercises** (with USA, Japan, Australia; now broadened) signal interoperability without treaty obligation.
 
-### Look East Policy to Act East Policy
+#### Soft Power and Cultural Outreach
+- 21 June declared **International Day of Yoga** by the UN (2015).
+- **ITEC** trains 14,000+ officials from 160 countries annually.
+- **Vaccine Maitri** shipped Covishield/Covaxin to 65+ nations (2021–22).
+- **Diaspora policy**: PIO card scrapped in favour of **OCI (2015)**.
+- **Buddhism diplomacy**: relics presented to Mongolia, Sri Lanka.
 
-**Look East Policy (1991)**:
-- **PV Narasimha Rao** launched; deepen engagement with Association of Southeast Asian Nations (ASEAN)
-- **Objectives**: Economic integration; counter Pakistani and Chinese influence; access to Pacific markets
-- **Significance**: Shift from NAM idealism to pragmatic engagement
-- **India's ASEAN Summit**: Started 2012; upgraded to strategic partnership
+#### Connections to Adjacent KAS Topics
+- **Indian Polity:** External Affairs Minister under Article 53(2); treaties under Article 253.
+- **Modern History:** Nehru-era Bandung (1955), Commonwealth, Non-Aligned.
+- **Current Affairs:** Qatar, Sri Lanka crisis interventions; Afghan aid (post-2021); Israel ties (full 1992).
 
-**Act East Policy (2014)**:
-- **Narendra Modi** announced at ASEAN Summit (2014); evolved from Look East to Act East
-- **Broader scope**: East Asia + Pacific; includes Japan, South Korea, Australia, Pacific Island nations
-- **Key components**: Trade and investment; connectivity; cultural links; defense cooperation
+#### Common Mistakes (exam traps)
+1. Signing the **CTBT** but not **ratifying**; rejecting **NPT** as discriminatory — confusing "signatory" with "ratified" loses marks.
+2. Attributing **Look East** to UPA or **Act East** to Vajpayee.
+3. Citing BRICS origin as 2009 (Goldman Sachs coined the acronym in 2001; first summit was 16 June 2009 in Yekaterinburg).
+4. Treating **Pokhran-II (1998)** as a thermonuclear detonation under Vajpayee in 1996.
 
-**India-China Relations**:
-- **Border standoff (2020)**: LAC tensions; Galwan valley clash (June 2020) — 20 Indian soldiers killed; Chinese casualties unknown
-- **Trade imbalance**: $130 billion trade deficit with China (2022); heavily imbalanced
-- **Economic dependence on Chinese investments**: Manufacturing sector concerns
-- **Quad formation**: India, USA, Japan, Australia — strategic grouping in Indo-Pacific
+> **Strategy note:** In Mains, always conclude IR essays by tying back to **strategic autonomy** — the through-line from Nehru's Non-Alignment to Modi's **multi-alignment**.
 
-### India's Strategic Partnerships
-
-**United States**:
-- **Civil nuclear deal (2008)**: Historic agreement; NSG waiver; civil nuclear cooperation
-- **Strategic partnership**: Major defense partner; $20+ billion in defense purchases (C-130J, P-8I, Apache, Chinook)
-- **Trade**: $128 billion bilateral trade (2022); disputes over tariffs
-- **Diaspora**: 4 million Indian-Americans; strong political influence
-
-**Russia**:
-- **Soviet legacy**: 70% of Indian military hardware from Russia/Soviet Union; MiG, Sukhoi, T-72 tanks
-- **S-400 missile defense system**: $5.4 billion purchase; ongoing despite US CAATSA sanctions
-- **Energy**: Rosneft etc.; oil imports from Russia (increased after Ukraine war)
-
-**Israel**:
-- **Defense cooperation**: Major arms supplier; Barak missiles, UAVs, surveillance equipment
-- **Agricultural technology**: Israel cooperation in agriculture; water management
-- **Diplomatic caution**: Maintaining balance with Arab world; Palestinian issue
-
-### India-Pakistan Relations
-
-**Kashmir Dispute**:
-- **Disputed territory**: Since 1947; three wars; multiple UN Resolutions calling for plebiscite
-- **Article 370 abrogation (August 2019)**: India revoked J&K's special status; bifurcated into two Union Territories; Pakistan downgraded diplomatic ties
-- **Current tensions**: Cross-border terrorism; LOC firing; India's surgical strikes (2016); Balakot airstrike (2019)
-
-**Trade Relations**:
-- **MFN status**: India granted Most Favored Nation status to Pakistan in 1996; Pakistan never reciprocated
-- **Trade through third countries**: Informal trade continues despite no official trade relations
-- **Pulwama-Balakot (2019)**: JeM terrorist attack on CRPF convoy; India responded with Balakot airstrike
-
-### India's Global Leadership
-
-**International Organizations**:
-- **UN Security Council**: Permanent seat aspirant; G4 coalition (India, Germany, Japan, Brazil) seeking reform; **Veto power** with P5 members
-- **WTO**: Active participant; defending trade interests; disputes with US, EU
-- **World Bank/IMF**: India's stake in these institutions growing; key voice for developing nations
-
-**Climate and Environment Leadership**:
-- **Paris Agreement (2015)**: India's INDC: 40% non-fossil fuel energy by 2030; 45% emission intensity reduction
-- **Net Zero by 2070**: Announced at COP26 (Glasgow, 2021)
-- **International Solar Alliance (ISA)**: India and France launched 2015; 121 member countries; solar energy cooperation
-
-**Karnataka's Role in External Affairs**:
-- **Mangalore Port**: Trading with Middle East, Europe; gateway to Arabian Sea
-- **Diaspora**: Kannadigas in USA, UK, Middle East; remittances flow to Karnataka
-- **Udupi cuisine's global spread**: Udupi restaurants worldwide; Karnataka's soft power
-
-### India-Bangladesh Relations
-
-**1971 War and Bangladesh's Creation**:
-- India played decisive role in Bangladesh's liberation (as described above)
-- Bangladesh's first Prime Minister Sheikh Mujibur Rahman expressed gratitude
-
-**Post-Liberation Development**:
-- **Boundary settlement (2015)**: Land boundary agreement resolved enclaves and adverse possessions; ratified parliaments
-- **Cooperation**: Water sharing (Ganga water treaty 1996; successful); economic ties; connectivity
-- **Trade**: $10+ billion bilateral trade; Bangladesh as India's largest trade partner in South Asia
+1. "Discuss the evolution of India's nuclear doctrine from Pokhran-II to the 2003 operative framework." *(Hints: No First Use, credible minimum deterrence, NCA, civilian control, assured second strike.)*
+2. "Examine India's Neighbourhood First policy with reference to Bangladesh, Sri Lanka and Nepal." *(Hints: 2015 LBA, ETCA talks, 2015 blockade, Vaccine Maitri, BIMSTEC.)*
 
 ---
 
-### Examination Strategy
+## Continue your study
 
-**KPSC KAS commonly asks**:
-1. Explain the evolution of India's foreign policy from NAM to Act East
-2. Analyse the causes and consequences of the 1971 Indo-Pak war
-3. Discuss the Sino-Indian war and its aftermath
-4. Evaluate India's strategic partnerships (USA, Russia, Israel)
-5. Examine India's role in international organizations
-
-**Key distinctions**:
-- NAM (idealistic, non-aligned) vs Look East/Act East (pragmatic, strategic)
-- 1965 war (limited conflict) vs 1971 war (comprehensive liberation)
-- Indo-Soviet treaty vs Indo-US strategic partnership (different eras, different strategic contexts)
-- Article 370 (internal matter) vs Kashmir dispute (international dimension)
+- **[View this topic in your KPSC KAS roadmap](/roadmap/?exam=kpsc&duration=1mo)** — see where "India in World Affairs" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=kpsc&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[KPSC KAS exam overview](/exams/kpsc/)** — pattern, eligibility, and syllabus
+- **[All History notes](/notes/kpsc/history/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

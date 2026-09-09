@@ -8,7 +8,7 @@ topicName: "Bacteremia, Septicemia & Endocarditis"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-09"
 ---
 
 # Bacteremia, Septicemia & Endocarditis
@@ -16,147 +16,94 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Bacteremia** = presence of bacteria in blood; **Septicemia** = clinical illness from bacteria/toxins in blood. These are not synonymous.
+**Bacteremia** is the presence of viable bacteria in the bloodstream (a microbiological finding). **Septicemia** is the systemic host response — sepsis triggered by a documented bloodstream infection. **Infective endocarditis (IE)** is microbial infection of the endocardial surface, classically forming vegetations of fibrin, platelets, and organisms on heart valves.
 
-**Key pathogens for NEET PG:**
-- **Staphylococcus aureus** — #1 cause of acute infective endocarditis (native valves, IV drug users)
-- **Viridans streptococci** (S. mutans, S. mitis) — #1 cause of subacute bacterial endocarditis on damaged valves
-- **Enterococci** — UTIs, biliary, GI procedures
-- **HACEK group** (Haemophilus, Aggregatibacter, Cardiobacterium, Eikenella, Kingella) — culture-negative endocarditis, slow-growing
-- **S. epidermidis** — prosthetic valve endocarditis (early, within 60 days)
-- **Pseudomonas aeruginosa** — IV drug users, healthcare-associated
-- **Culture-negative causes**: Bartonella, Coxiella burnetii (Q fever), Chlamydia, Brucella
+- **Subacute IE** (post-dental): *Streptococcus viridans* on previously damaged valves.
+- **Acute IE** (IV drug users, prosthetic): *Staphylococcus aureus*, often tricuspid in IVDU.
+- **Culture-negative IE**: HACEK group, *Coxiella burnetii*, *Bartonella*.
 
-**Duke Criteria** (major): Positive blood cultures ×2–3 sets; echocardiogram showing vegetations. **Minor**: Fever >38°C, vascular phenomena, immunologic phenomena, single positive blood culture.
+> **Exam pointer:** Modified Duke criteria use 2 majors + 5 minors; ≥2 majors, or 1 major + 3 minors, or 5 minors = definite IE.
 
-⚡ **Exam tip**: "New murmur + IV drug user" = S. aureus. "Subacute, damaged valve, oral flora" = Viridans strep.
+| Term | Defining Feature |
+| --- | --- |
+| Bacteremia | Bacteria in blood (lab finding) |
+| Septicemia | SIRS + documented bloodstream infection |
+| Sepsis | SIRS driven by suspected/documented infection |
+| IE | Vegetations on valve/endocardium |
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-## Bacteremia vs Septicemia
+#### Definitions and the SIRS-to-Sepsis Continuum
 
-| Feature | Bacteremia | Septicemia |
-|---|---|---|
-| Definition | Bacteria present in blood | Clinical illness from bacteria in blood |
-| Symptoms | Often asymptomatic | Fever, chills, hypotension, DIC |
-| Source | Often from mucosal breach | Usually from focal infection |
+Bacteremia and septicemia are not interchangeable. Bacteremia describes the **microbiological event** — viable organisms circulating in blood. Septicemia (now subsumed under "sepsis") describes the **host inflammatory event**: ≥2 SIRS criteria (T >38 °C or <36 °C, HR >90, RR >20 or PaCO₂ <32 mmHg, WBC >12 000 or <4 000) **plus** suspected or documented infection. Septic shock is sepsis with hypotension refractory to fluid resuscitation requiring vasopressors to keep MAP ≥65 mmHg.
 
-## Acute Bacterial Endocarditis (ABE)
+#### Infective Endocarditis — Organisms by Setting
 
-- **Causative organisms**: S. aureus (#1 overall, 40–50%), S. aureus from IV drug use (right-sided, tricuspid valve)
-- **Clinical**: Fever, new murmur, rapid destruction of valves, systemic embolization
-- **Outcome**: Death in days to weeks if untreated; vegetations are large and friable
-- **Complications**: Acute heart failure (valve regurgitation), septic emboli to lungs (right-sided) or brain/kidney/spleen (left-sided), mycotic aneurysms
+The organism on the valve changes with the clinical scenario, and examiners love this matching exercise.
 
-## Subacute Bacterial Endocarditis (SBE)
+| Setting / Valve | Most Likely Organism |
+| --- | --- |
+| Subacute, post-dental, damaged valve | *Streptococcus viridans* |
+| Acute, IV drug user (tricuspid) | *Staphylococcus aureus* |
+| Prosthetic valve, early (<60 days) | *Staphylococcus epidermidis* (CoNS) |
+| Prosthetic valve, late (>60 days) | Resembles native-valve profile |
+| Post-GI/GU instrumentation | *Enterococcus faecalis* |
+| Culture-negative | HACEK (*Haemophilus*, *Aggregatibacter*, *Cardiobacterium*, *Eikenella*, *Kingella*) |
 
-- **Causative organisms**: Viridans streptococci (alpha-hemolytic, part of oral flora), Enterococcus faecalis, HACEK group
-- **Clinical**: Low-grade fever, night sweats, weight loss over weeks–months; often pre-existing valvular disease (rheumatic/calcific/degenerative)
-- **Vegetations**: Smaller, less friable than ABE
-- **Immune complex deposition**: Osler nodes (painful, digital), Janeway lesions (painless, palmar), Roth spots (retinal hemorrhages), splenomegaly
+#### Diagnosis and the Duke Criteria
 
-## Native Valve vs Prosthetic Valve Endocarditis
+Diagnosis relies on the **Modified Duke Criteria**, which combine microbiological, echocardiographic, and clinical features.
 
-| | Native Valve | Prosthetic Valve (Early <60d) | Prosthetic Valve (Late >60d) |
-|---|---|---|---|
-| #1 organism | S. aureus | S. epidermidis | Viridans strep / S. aureus |
-| Enterococci | Common | Less common | — |
+- **Major criteria (2):** (1) Typical organism in ≥2 separate blood cultures, or persistently positive culture; (2) evidence of endocardial involvement on echocardiogram (vegetation, abscess, new dehiscence).
+- **Minor criteria (5):** predisposing heart disease/IVDU, fever ≥38 °C, vascular phenomena (septic emboli, Janeway lesions, mycotic aneurysm), immunologic phenomena (Osler nodes, Roth spots, glomerulonephritis), microbiological evidence not meeting a major.
 
-## Diagnosis
+#### Blood Culture — When and How
 
-- **Blood cultures**: 3 sets from different sites before antibiotics; incubate 5–7 days (HACEK needs extended incubation)
-- **Echocardiography**: TTE for native valves, TEE for prosthetic valves and aortic root
-- **Vegetations**: Oscillating masses on valve leaflets or supporting structures
-- **Lab**: Anemia of chronic disease, raised ESR/CRP, proteinuria (kidney involvement)
+The cornerstone is drawing **≥2 sets from separate venepuncture sites BEFORE the first antibiotic dose**. Automated continuous-monitoring systems (BacT/ALERT, BACTEC) flag positive bottles; Gram stain from the bottle provides presumptive ID within hours — Gram-positive cocci in clusters → *Staphylococcus*; in chains/pairs → *Streptococcus/Enterococcus*.
 
-## Treatment
+> **Trap:** A single *coagulase-negative staphylococcus* isolate is usually a skin contaminant — require ≥2 sets before labelling true bacteremia.
 
-| Organism | Antibiotic of Choice |
-|---|---|
-| Viridans strep | Penicillin G + Gentamicin (4–6 weeks) |
-| S. aureus (MSSA) | Flucloxacillin/Nafcillin |
-| S. aureus (MRSA) | Vancomycin |
-| Enterococci | Ampicillin + Gentamicin |
-| HACEK | Ceftriaxone or Ampicillin-Sulbactam |
+#### Peripheral Signs of IE
 
-**Surgical indications**: Acute severe valve regurgitation, uncontrolled infection (abscess, fistula), resistant organisms, recurrent emboli despite antibiotics.
+- **Janeway lesions:** painless erythematous macules on palms/soles — septic emboli.
+- **Osler nodes:** painful, tender nodules on finger/toe pads — immune complex deposition.
+- **Roth spots:** retinal hemorrhages with pale centre.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-## Pathophysiology of Vegetation Formation
+#### Pathogenesis and Complications of Vegetations
 
-Endothelial damage → platelet-fibrin deposition → bacterial colonization → vegetations enlarge. Damaged valves (from rheumatic heart disease, calcific degeneration, congenital lesions like bicuspid aortic valve) are prerequisite for SBE. Normal valves can be seeded in ABE/S aureus.
+Vegetations form when damaged endothelium exposes subendothelial collagen, prompting fibrin and platelet deposition. Circulating bacteria colonise this matrix; once embedded they are shielded from neutrophils and antibodies, allowing sustained bacteremia. Local destruction causes **valve perforation, chordae rupture, ring abscess, and conduction blocks** (especially aortic-root abscess extending toward the AV node). Embolisation produces **septic emboli, mycotic aneurysms, and immune-complex glomerulonephritis**.
 
-## Right-Sided Endocarditis
+#### Prosthetic Valve and Culture-Negative Nuance
 
-- **Setting**: IV drug users (HIV hepatitis B/C), central venous catheters, pacemaker leads
-- **Tricuspid valve** most commonly affected (90%)
-- **Clinical**: Pulmonary septic emboli (pneumonia, lung abscess, septic pulmonary emboli on CT)
-- **Organisms**: S. aureus >> Pseudomonas, Candida
-- **Prognosis**: Better than left-sided; fatality ~10–15%
+Early prosthetic IE (<60 days post-op) is dominated by **coagulase-negative staphylococci** introduced perioperatively; late prosthetic IE (>12 months) reverts to the native-valve profile. Culture-negative IE (~10%) includes the **HACEK fastidious Gram-negatives** plus intracellular organisms — *Coxiella burnetii* (phase I IgG titre ≥1:800), *Bartonella* (associated with homelessness/cat-scratch), and *Tropheryma whipplei* (whipple disease with arthralgia, weight loss, diarrhoea).
 
-## Culture-Negative Endocarditis
+#### Sepsis Bundles and Antibiotic Stewardship
 
-**Causes** ( mnemonic: "BOCHAPS"):
-- **B**artonella (50% of culture-negative)
-- **C**oxiella burnetii (Q fever, farm animal exposure)
-- **H**ACEK organisms
-- **A**spergillus (fungal)
-- **P**hysical: prior antibiotic therapy (most common reason for negative culture!)
+The Surviving Sepsis 1-hour bundle demands: **measure lactate, draw cultures before antibiotics, give broad-spectrum antibiotics within 1 hour, give 30 mL/kg crystalloid if hypotensive or lactate ≥4 mmol/L, start vasopressors if MAP <65 mmHg after fluids**. Antibiotic choice matters mechanistically — *mecA*-positive staphylococci should be reported as **cefazolin/cloxacillin resistant** regardless of oxacillin disc results, because the cefazolin-inoculum effect produces clinical failure even when MIC appears susceptible.
 
-**Diagnosis**: Serology (Bartonella, Coxiella), PCR of blood, TEE
+> **Mnemonic for IE signs:** **FROM JANE** — **F**ever, **R**oth spots, **O**sler nodes, **M**urmur, **J**aneway lesions, **A**nemia, **N**ail (splinter hemorrhages), **E**mboli.
 
-## Infective Endocarditis in Special Populations
+| Practice Prompt | Focus |
+| --- | --- |
+| 1. A 55-year-old has fever, new murmur, and three blood cultures growing *S. gallolyticus* — next step? | Colonoscopy — *S. gallolyticus* (bovis) links to colorectal malignancy |
+| 2. IV drug user with fever, pleuritic chest pain, septic pulmonary emboli on CT — organism and valve? | *S. aureus* on the **tricuspid** valve |
 
-### Rheumatic Heart Disease
-- Recurrent streptococcal pharyngitis → autoimmune carditis → valvular scarring
-- Mitral valve most commonly affected (stenosis > regurgitation); aortic valve second
-- Patients with RHD are the classic substrate for SBE with viridans streptococci
-- Jones Criteria (revised) for rheumatic fever: 2 major OR 1 major + 2 minor + evidence of preceding strep infection
+---
 
-### Congenital Heart Disease
-- VSD, PDA, bicuspid aortic valve, coarctation — all increase risk
-- Cyanotic CHD has highest risk (unrepaired, Eisenmenger physiology)
+## Continue your study
 
-### Fungal Endocarditis
-- **Candida, Aspergillus** — IV drug users, prolonged ICU stay, central lines
-- Large vegetations; emboli to major vessels (e.g., large artery occlusion)
-- Treatment: Amphotericin B + surgical valve replacement
-
-## Complications of Infective Endocarditis
-
-**Cardiac**: Heart failure (most common cause of death), perivalvular abscess, conduction abnormalities (from septal abscesses), valve perforation or fistula
-
-**Embolic**: Stroke (cerebral infarct, mycotic aneurysm rupture → SAH), splenic infarct/abscess, renal infarct, limb ischemia (septic emboli)
-
-**Immunologic**: Glomerulonephritis (immune complex, often focal), Osler nodes, Janeway lesions, Roth spots, arthritis
-
-## Prevention (NVE prophylaxis — 2007 AHA guidelines)
-
-**No longer recommended for**: Routine dental procedures, TEE, colonoscopy. **Still recommended for**:
-- Prosthetic cardiac valves
-- Previous infective endocarditis
-- Unrepaired cyanotic CHD, repaired CHD (first 6 months)
-- Cardiac transplant recipients with valve regurgitation
-
-**Regimens**: Amoxicillin 2g PO 30–60 min before procedure; clindamycin 600mg if penicillin-allergic.
-
-## Key NEET PG Pearls
-
-1. **S. aureus** = most common cause of acute bacterial endocarditis in both native and IV drug use-associated endocarditis
-2. **Viridans streptococci** = #1 cause of subacute endocarditis on previously damaged valves
-3. **Culture-negative endocarditis**: Bartonella and Coxiella are most common causes; always ask about animal contact (cats = Bartonella henselae; farm animals = Coxiella)
-4. **Osler nodes** = painful (immunologic, immune complex); **Janeway lesions** = painless (vascular, septic emboli)
-5. **Duke criteria**: Need 2 major OR 1 major + 3 minor OR 5 minor for definite diagnosis
-6. **Prosthetic valve early** (<60 days) → S. epidermidis; **late** (>60 days) → similar to native valve
-7. **Right-sided endocarditis** + IV drug user = think S. aureus, tricuspid valve, pulmonary emboli
-8. Echocardiogram (TEE more sensitive than TTE) is essential for diagnosis and assessing complications
+- **[View this topic in your NEET PG roadmap](/roadmap/?exam=neet-pg&duration=1mo)** — see where "Bacteremia, Septicemia & Endocarditis" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=neet-pg&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NEET PG exam overview](/exams/neet-pg/)** — pattern, eligibility, and syllabus
+- **[All Microbiology notes](/notes/neet-pg/microbiology/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

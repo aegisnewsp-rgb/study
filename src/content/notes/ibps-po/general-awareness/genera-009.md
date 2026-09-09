@@ -8,7 +8,7 @@ topicName: "Important Days, Dates & Current Affairs for Bank Exams"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-09"
 ---
 
 # Important Days, Dates & Current Affairs for Bank Exams
@@ -16,182 +16,86 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Current Affairs** and important days are high-scoring areas in IBPS PO — these questions require regular reading and revision. Focus on major international days observed by UN/global bodies, Indian government schemes, and recent appointments.
+The General Awareness section of IBPS PO Main carries 3% weight, and roughly 4–6 questions every paper come from Important Days, Dates & Current Affairs. These are recall-based MCQs, so a static list of dates plus a six-month current-affairs capsule is enough to clear them in under five minutes. Four elements get asked most often: the date of observance, the founder or host organisation, the theme of the year, and the edition number of summit-style days.
 
-**High-Yield Dates:**
-- **January:** National Youth Day (12 Jan — Swami Vivekananda), Republic Day (26 Jan)
-- **February:** National Science Day (28 Feb — Raman effect discovered)
-- **March:** World Water Day (22 Mar), World Forestry Day (21 Mar)
-- **April:** Ambedkar Jayanti (14 Apr), Earth Day (22 Apr)
-- **May:** Labour Day (1 May), Anti-Terrorism Day (21 May)
-- **June:** World Environment Day (5 Jun), International Yoga Day (21 Jun)
-- **July:** Kargil Vijay Diwas (26 Jul)
-- **August:** Independence Day (15 Aug), Hiroshima Day (6 Aug)
-- **September:** Hindi Diwas (14 Sep), Teacher's Day (5 Sep)
-- **October:** Gandhi Jayanti (2 Oct), Wildlife Week (1-7 Oct)
-- **November:** Children's Day (14 Nov), National Unity Day (31 Oct)
-- **December:** World AIDS Day (1 Dec), Human Rights Day (10 Dec)
+- **Static GK layer:** UN International Days, national observances, regulator foundation days (RBI, SEBI, NABARD).
+- **Dynamic GK layer:** Union Budget, Economic Survey, RBI Monetary Policy, repo rate, GST collections, UPI milestones.
+- **High-yield dates:** 26 Jan (Republic Day), 15 Aug (Independence Day), 1 April (RBI Foundation Day), 7 April (World Health Day), 31 Oct (World Savings Day), 9 Dec (International Day of Banks).
 
-⚡ **Exam tip:** IBPS PO asks specific questions like "Who is the current Attorney General of India?" or "What is the theme of the 2024 G20 Summit?" Read newspapers daily and note important appointments and themes.
-
----
+| Date | Day | Founder / Observer |
+| --- | --- | --- |
+| 1 April | RBI Foundation Day | Reserve Bank of India (1935) |
+| 7 April | World Health Day | World Health Organization |
+| 12 April | SEBI Foundation Day | Securities & Exchange Board of India (1992) |
+| 31 October | World Savings Day | First observed 1924, promoted by WSF |
+| 9 December | International Day of Banks | United Nations |
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Important Days & Their Significance:**
+#### Classification of Days Asked
 
-#### January
-- **12 Jan — National Youth Day:** Birthday of Swami Vivekananda (1863); observed as Youth Day since 1985
-- **26 Jan — Republic Day:** India became a Republic in 1950; Constitution came into effect; 2024 Republic Day chief guest: UAE President
-- **24 Jan — National Girl Child Day:** Awareness for girl child welfare
+Bank PO papers group Important Days into four buckets, and you should revise them as four separate lists. International days are declared by UN General Assembly resolutions and each carries an annual theme. National days are Government of India notifications, including commemorative birth and death anniversaries of national leaders. Banking and economic days are tied to regulators such as RBI, SEBI, NABARD, and multilateral bodies like the World Bank and IMF. Commemorative days mark the founding or contribution of a specific person or organisation.
 
-#### February
-- **28 Feb — National Science Day:** Commemorates discovery of Raman effect by C.V. Raman (1928); theme changes each year
-- **14 Feb — Valentine's Day:** Not a government holiday but frequently asked in GK
-- **24 Feb — Central Excise Day:** Commemorates service tax enactment
+#### Theme of the Year — The Most-Tested Variable
 
-#### March
-- **8 Mar — International Women's Day:** Theme-based observance; UN's theme for 2024: "Invest in women"
-- **22 Mar — World Water Day:** Water conservation awareness
-- **21 Mar — World Forestry Day:** Forest conservation
-- **15 Mar — Consumer Rights Day:** Enactment of Consumer Protection Act 1986
+For every UN International Day, the General Assembly (or WHO, UNESCO, ILO) publishes an annual theme, and IBPS PO MCQs routinely quote the theme two to four months after release. The rule is straightforward: the theme changes every January, and quoting last year's theme costs one mark per question. Track the theme of the year for World Environment Day (5 June), World Health Day (7 April), World Press Freedom Day (3 May), International Day of Education (24 January), and International Women's Day (8 March).
 
-#### April
-- **14 Apr — Ambedkar Jayanti:** Birthday of Dr. B.R. Ambedkar (1891)
-- **22 Apr — Earth Day:** Environmental awareness
-- **5 Apr — National Maritime Day:** Indian shipping industry awareness (1964)
-- **11 Apr — National Startup Day:** 2023 onwards
+#### Static Indian Observances
 
-#### May
-- **1 May — International Labour Day / May Day:** Workers' rights
-- **8 May — World Red Cross Day:** Commemorates birthday of Henry Dunant (founder of Red Cross)
-- **21 May — Anti-Terrorism Day:** Commemorates the death of former PM Rajiv Gandhi (1991)
-- **31 May — World No Tobacco Day:** WHO observance
+| Day | Date | Significance |
+| --- | --- | --- |
+| Republic Day | 26 January 1950 | Constitution of India adopted |
+| Independence Day | 15 August 1947 | End of British colonial rule |
+| Gandhi Jayanti | 2 October | Birth anniversary of Mahatma Gandhi |
+| Teacher's Day | 5 September | Birth anniversary of Dr. S. Radhakrishnan |
+| Rashtriya Ekta Diwas | 31 October | Birth anniversary of Sardar Vallabhbhai Patel |
+| National Education Day | 11 November | Birth anniversary of Maulana Abul Kalam Azad |
 
-#### June
-- **5 Jun — World Environment Day:** Host country rotates annually; India hosted 2018 (Chandigarh theme: plastic-free)
-- **21 Jun — International Yoga Day:** PM Modi proposed in UN 2014; first observed 2015; theme 2024: "Yoga for Kinnkar (self-care)"
-- **14 June — World Blood Donor Day**
+#### Current Affairs Capsule — Last Six Months
 
-#### July
-- **1 July — GST Day:** GST implementation anniversary (1 July 2017)
-- **26 Jul — Kargil Vijay Diwas:** Commemorates 1999 Kargil war victory
-- **11 July — World Population Day:** UN awareness day
+The dynamic layer must cover the Union Budget, Economic Survey highlights, RBI Monetary Policy Committee decisions (repo rate, stance, MSF rate), monthly GST collections, CPI and WPI inflation prints, and major scheme updates such as PMJDY, MUDRA, Jan Dhan, and UPI milestones released by NPCI.
 
-#### August
-- **6 Aug — Hiroshima Day:** Commemorates 1945 atomic bombing
-- **15 Aug — Independence Day:** Quit India movement 1942; freedom 1947
-- **29 Aug — National Sports Day:** Birthday of Dhyan Chand (born 1905)
-
-#### September
-- **5 Sep — Teacher's Day:** Dr. Sarvepalli Radhakrishnan's birthday (1888); students celebrate
-- **14 Sep — Hindi Diwas:** Hindi declared official language in 1949 (Constituent Assembly decision); also International Day of Sign Language (same date)
-- **15 Sep — International Day of Democracy**
-- **21 Sep — International Day of Peace**
-- **27 Sep — World Tourism Day**
-
-#### October
-- **2 Oct — Gandhi Jayanti:** Birthday of Mahatma Gandhi (1869); also International Non-Violence Day
-- **8 Oct — Indian Air Force Day:** Air power display
-- **10 Oct — World Mental Health Day**
-- **24 Oct — UN Day:** Commemorates 1945 founding of UN
-- **31 Oct — National Unity Day:** Birth anniversary of Sardar Vallabhbhai Patel (1875)
-
-#### November
-- **14 Nov — Children's Day:** Birthday of Jawaharlal Nehru (1889)
-- **14 Nov — World Diabetes Day**
-- **26 Nov — Constitution Day:** Constitution of India was adopted in 1950 (but 26 November is observed as Constitution Day since 2015)
-- **7 Nov — National Cancer Awareness Day**
-
-#### December
-- **1 Dec — World AIDS Day:** HIV/AIDS awareness
-- **10 Dec — Human Rights Day:** UN adopted Universal Declaration of Human Rights in 1948
-- **22 Dec — National Mathematics Day:** Birthday of Srinivasa Ramanujan (1887)
-- **25 Dec — Christmas / Good Governance Day**
-
-**Major International Observances (UN Days):**
-
-| Date | Day |
-|---|---|
-| 20 Feb | World Social Justice Day |
-| 21 Mar | Elimination of Racial Discrimination Day |
-| 2 Apr | World Autism Awareness Day |
-| 7 Apr | World Health Day |
-| 23 Apr | World Book and Copyright Day |
-| 12 May | International Day of Nurses |
-| 18 May | World Museum Day |
-| 28 May | International Day of Action for Women's Health |
-| 5 Jun | World Environment Day |
-| 17 Jun | World Day to Combat Desertification |
-| 30 Jul | World Day Against Trafficking |
-| 12 Aug | International Youth Day |
-| 19 Aug | World Humanitarian Day |
-| 21 Sep | International Day of Peace |
-| 16 Oct | World Food Day |
-| 17 Oct | International Poverty Day |
-
----
+- Track summits India hosted or attended (G20, BRICS, SCO, ASEAN) along with host city and presidency year.
+- Note new RBI master directions and SEBI circulars issued in the preceding quarter.
+- Record Nobel Prize winners, RBI award winners, and Padma awardees announced in January each year.
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-**Current Affairs — Major Events & Headlines (2024-2025):**
+#### Edge Cases and Sifting Traps
 
-#### Major International Events
-- **G20 Summit 2024 (Rio de Janeiro, Brazil):** India held the G20 Presidency in 2023 (New Delhi Summit — "One Earth, One Family, One Future"). Brazil took over for 2024.
-- **BRICS Expansion (2024):** Egypt, Ethiopia, Iran, and UAE officially joined BRICS as new members effective January 2024. This is a major geopolitical shift.
-- **COP28 (Dubai, 2023):** First Global Stocktake; "Transitioning away from fossil fuels" language agreed
-- **COP29 (Baku, Azerbaijan, 2024):** Climate finance was the key agenda item; $300 billion annual climate finance goal for developed nations
-- **Ukraine-Russia conflict:** Ongoing since 2022; major humanitarian crisis; sanctions on Russia
-- **Israel-Gaza conflict (2023-2024):** Major humanitarian crisis in Gaza; ICJ case initiated
+The exam exploits two recurring confusions. First, it swaps the unit of observance: World Press Freedom Day (3 May) is sometimes asked as a "week" or "month" to mislead. Second, it tests the observer versus the founder — WHO declares World Health Day, the UN General Assembly declares the International Day of Peace, and the UNESCO Director-General announces World Book and Copyright Day themes. Mark these as separate entities in your notes.
 
-#### Major Indian Appointments (2024-2025)
-- **President of India:** Droupadi Murmu (since July 2022)
-- **Vice President:** Jagdeep Dhankhar (since August 2022)
-- **Prime Minister:** Narendra Modi (since 2014, 3rd term 2024)
-- **Finance Minister:** Nirmala Sitharaman (2024-2025)
-- **RBI Governor:** Sanjay Malhotra (appointed January 2025 — replaced Shaktikanta Das)
-- **Chief Justice of India:** Sanjiv Khanna (since May 2024; succeeded D.Y. Chandrachud)
-- **Attorney General of India:** R. Venkataramani (since October 2022)
-- **SEBI Chairperson:** Madhabi Puri Buch (since February 2022)
-- **CAG (Comptroller & Auditor General):** G. C. Murmu (since August 2020)
+#### Bretton Woods Institutions vs Observance Days
 
-#### Important International Bodies & Summits
-- **Shanghai Cooperation Organisation (SCO):** India joined 2017; 2024 summit in Islamabad/Pakistan (postponed)
-- **Commonwealth of Nations:** India remains a member; not a founding member (joined 1949)
-- **SAARC:** South Asian Association for Regional Cooperation; India-Pakistan tension has stalled activities
-- **BIMSTEC:** Bay of Bengal Initiative; India is active; BIMSTEC Summit 2023 held in Bangkok
-- **QUAD:** Australia, India, Japan, USA; maritime cooperation; 2024 summit in USA
+Candidates often conflate the founding date of an institution with an observance day. The Bretton Woods Conference was held in July 1944, the IMF and World Bank Articles of Agreement were signed in 1944 and 1945, and operations began in 1947. None of these dates coincide with the days these bodies actually celebrate; the IMF for instance observes 27 October as the World Development Information Day in partnership with the UN. Memorise the founding timeline separately from the observance date.
 
-#### Indian Awards & Honours
-- **Padma Vibhushan, Padma Bhushan, Padma Shri:** India's civilian awards (in descending order of prestige)
-- **Bharat Ratna:** Highest civilian award; 2024 recipients: Karikur Venkata Raman; Pd. Shiv Kumar Sharma; Ustad Zakir Hussain
-- **Rajiv Gandhi Khel Ratna:** Highest sporting honour; renamed to Major Dhyan Chand Khel Ratna (2021)
-- **Arjuna Award, Dronacharya Award, Dhyan Chand Award:** Sports and coaching awards
+#### Common Mistakes That Cost Marks
 
-#### Major Government Initiatives (Recent)
-- **Digital India 2.0:** Expanded broadband connectivity, 5G rollout (2023 onwards)
-- **PM Gati Shakti:** Multi-modal connectivity; ₹100 lakh crore plan for infrastructure
-- **National Infrastructure Pipeline (NIP):** ₹111 lakh crore infrastructure investment (FY 2020-2025)
-- **PLI Scheme (Production Linked Incentive):** ₹1.97 lakh crore for 13 sectors (electronics, pharma, food processing, etc.)
-- **PM Awas Yojana Urban 2.0:** Enhanced credit-linked subsidy for affordable housing
-- **NIRYAT (Nivesh) Portal:** One-stop portal for investors (developed by DPIIT)
-- **ULEMA Platform:** For tech startup policy implementation
+1. Writing 1 December for World AIDS Day correctly but marking World Health Day on the same date.
+2. Confusing RBI Foundation Day (1 April) with SEBI Foundation Day (12 April) — both are April, different regulators.
+3. Assuming the theme of a UN day is permanent — it is revised annually and any stale answer is wrong.
+4. Swapping G20, G7, BRICS, SCO, and ASEAN presidencies or membership without verifying the current year.
+5. Over-focusing on UN days while ignoring static banking awareness — the GA section tests both equally.
 
-#### Major Indices & Reports to Remember
-- **Global Innovation Index (GII) 2024:** India ranked 39th (improved from 81st in 2015)
-- **Ease of Doing Business:** Discontinued by World Bank (replaced by B-READY)
-- **World Happiness Report 2024:** India ranked 126th
-- **Global Hunger Index 2023:** India ranked 111th out of 125 countries
-- **Human Development Index:** India's rank 134/189 (2021 data; UNDP)
-- **World Economic Forum (WEF):** Davos summit — annual; India at WEF 2024 Davos
-- **IMF World Economic Outlook:** India projected to be 3rd largest economy by 2030 (PPP basis) or ~2030 nominal GDP
+#### Worked Example
 
-#### Sports News (Important for GK)
-- **Cricket:** India won ICC T20 World Cup 2024? (Check latest); India won ICC Cricket World Cup 2023 (lost to Australia in 2023 final in Ahmedabad); BCCI President: Roger Binny; ICC Chairman: Jay Shah (2024)
-- **Chess:** Pragya in news for World Cup (D Gukesh won 2024 FIDE World Chess Championship)
-- **Olympics 2024 (Paris):** India won 6 medals (5 bronze, 1 silver — Neeraj Chopra silver in javelin); best ever Olympics for India
-- **Asian Games 2023 (Hangzhou):** India finished 4th with 107 medals
-- **Thomas Cup:** India won 2022 Thomas Cup in badminton; back-to-back Uber Cup losses
-- **Indian Premier League (IPL):** Franchise-based T20 league; 10 teams as of 2024; IPL 2024 champion: Kolkata Knight Riders (defeated Sunrisers Hyderabad in final)
+> A 2024 IBPS PO shift asked: "International Day of Banks is observed on which date?" Answer: 9 December, established by the UN General Assembly in 2019 to recognise the role of banks in sustainable development.
+
+#### Practice Prompts
+
+1. List the theme, date, and observer for World Environment Day (5 June), World AIDS Day (1 December), and International Day of Yoga (21 June).
+2. State the founding year, headquarters, and current governor of the RBI; pair each with its foundation day (1 April 1935) and the latest repo rate decision from the RBI Monetary Policy Committee.
+
+---
+
+## Continue your study
+
+- **[View this topic in your IBPS PO roadmap](/roadmap/?exam=ibps-po&duration=1mo)** — see where "Important Days, Dates & Current Affairs for Bank Exams" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ibps-po&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[IBPS PO exam overview](/exams/ibps-po/)** — pattern, eligibility, and syllabus
+- **[All General Awareness notes](/notes/ibps-po/general-awareness/)** — browse sibling topics in this subject
+
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

@@ -8,7 +8,7 @@ topicName: "Endocrine Physiology"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-09"
 ---
 
 # Endocrine Physiology
@@ -16,216 +16,66 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Endocrine Physiology** — Key Facts for FMGE
-Core concept: Hormones act as chemical messengers; they can be steroid (lipid-soluble) or peptide (water-soluble); the hypothalamic-pituitary axis controls most endocrine systems
-High-yield point: Steroid hormones use intracellular receptors and affect gene transcription; peptide hormones use cell surface receptors and second messengers like cAMP
-⚡ Exam tip: The HPA axis is central to understanding endocrine disease - ACTH drives cortisol, TSH drives thyroid hormone, FSH/LH drive gonadal function
+Endocrine physiology covers **ductless glands** that secrete **hormones** directly into blood, acting on distant target cells via specific receptors. Hormones fall into three classes: **peptides** (membrane receptors, GPCR/tyrosine kinase, second messengers cAMP, IP3, DAG, Ca²⁺), **steroids** (intracellular nuclear receptors, alter transcription), and **amines** (catecholamines + thyroid hormones). The **hypothalamic-pituitary axis** is the master regulator — hypothalamic releasing hormones drive anterior pituitary tropic hormones (GH, ACTH, TSH, FSH, LH, prolactin), which stimulate peripheral glands whose final hormones feed back negatively.
 
----
+- **Insulin ↓ glucose** (glycogenesis); **glucagon ↑ glucose** (glycogenolysis, gluconeogenesis).
+- **PTH ↑ Ca²⁺**, **calcitonin ↓ Ca²⁺**; vitamin D ↑ intestinal Ca²⁺ absorption.
+- **Cortisol has permissive action** — needed for full catecholamine vasopressor effect.
+- **T3** (~15–20% of daily thyroid output) is the biologically active form; **T4** is a pro-hormone converted by **5′-deiodinase**.
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Endocrine Physiology** — FMGE Study Guide
+#### Hormone classes and signalling
+Peptide/protein hormones are hydrophilic, bind **G-protein coupled receptors (GPCRs)** or **receptor tyrosine kinases** at the cell surface, and signal through **second messengers**. The **Gs pathway** raises cAMP (e.g., glucagon, ACTH, β-adrenergic); the **Gq pathway** raises IP3/DAG and intracellular Ca²⁺ (e.g., α1-adrenergic, TRH, GnRH via PLCβ). Steroid hormones (cortisol, aldosterone, testosterone, oestradiol, vitamin D) and thyroid hormones diffuse across the membrane and bind **intracellular nuclear receptors**, modulating gene transcription over hours.
 
-## Hormone Classification
+#### The hypothalamic-pituitary axis
+The hypothalamus secretes releasing/inhibiting hormones into the hypophyseal portal system. The **anterior pituitary** then releases **tropic hormones**: TSH → thyroid (T3/T4); ACTH → adrenal cortex (cortisol); FSH/LH → gonads; GH → liver (IGF-1); prolactin → mammary gland. The **posterior pituitary** stores and releases **ADH (vasopressin)** and **oxytocin**, both synthesised in hypothalamic supraoptic and paraventricular nuclei.
 
-### Peptide/Protein Hormones
-- **Water-soluble**; stored in vesicles; released by exocytosis
-- **Cannot cross membrane**; must use surface receptors
-- **Half-life**: Short (minutes to hours)
-- **Examples**: Insulin, glucagon, GH, prolactin, TSH, FSH, LH, ACTH, ADH, oxytocin, parathyroid hormone (PTH)
+#### Glucose and calcium regulators
+Insulin is secreted by pancreatic **β-cells** in response to rising plasma glucose; glucagon from **α-cells** responds to falling glucose. **PTH** raises plasma Ca²⁺ through bone resorption, renal Ca²⁺ reabsorption, and renal 1α-hydroxylation of 25-OH vitamin D. **Calcitonin** from thyroid C-cells has a minor physiological role in humans.
 
-### Steroid Hormones
-- **Lipid-soluble** (from cholesterol); synthesized on demand
-- **Cross cell membranes**; use intracellular receptors
-- **Half-life**: Long (hours to days)
-- **Examples**: Cortisol, aldosterone, estrogen, progesterone, testosterone, 1,25-dihydroxyvitamin D (calcitriol)
+| Concept | Key point |
+| --- | --- |
+| Gs-cAMP pathway | Glucagon, ACTH, TSH, PTH, β-agonists — activate adenylyl cyclase → ↑cAMP → PKA |
+| Gq-IP3/DAG pathway | α1-adrenergic, M1/M3 muscarinic, TRH, GnRH, angiotensin II — raise intracellular Ca²⁺ |
+| Steroid mechanism | Cytoplasmic/nuclear receptor → hormone-receptor complex binds HRE → ↑mRNA transcription |
+| Negative feedback | T3/T4 on TRH/TSH; cortisol on CRH/ACTH; target hormones suppress hypothalamic + pituitary drive |
+| Cortisol permissive action | Required for catecholamines to exert full vascular and bronchial tone effects |
 
-### Amine Hormones
-- **Modified amino acids**; some are water-soluble (catecholamines), some are lipid-soluble (thyroid hormones)
-- **Catecholamines** (epinephrine, norepinephrine): Adrenal medulla, sympathetic neurons
-- **Thyroid hormones** (T3, T4): Derived from tyrosine; cross membranes; bind intracellular receptors
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-## Hormone Mechanisms
+#### Receptor occupancy and dose-response
+Hormone action follows the **receptor occupancy principle**: Effect = Emax × [H] / (Kd + [H]). Half-maximal response occurs when free hormone [H] equals Kd. **Free (unbound) hormone is biologically active** — for steroids, only ~1–5% circulates free, the rest bound to CBG/SHBG/albumin. Free concentration rises when binding-protein synthesis falls (liver disease, nephrotic syndrome), altering physiology without changing total hormone.
 
-### Peptide Hormone Signaling (Second Messengers)
+#### Clinical integration for FMGE
+Most MCQs on this topic test **hormone identification along the axis**, **mechanism of action (peptide vs steroid)**, or a **clinical correlation**. Common scenarios:
 
-**cAMP-PKA pathway (Gs)**:
-- Hormone → receptor → Gs protein → adenylyl cyclase → ↑cAMP → PKA
-- **Examples**: Glucagon, ADH (V2), TSH, LH, FSH, ACTH, CRH, β-adrenergic agonists
-- **Amplification**: 1 hormone → many Gs proteins → many cAMP molecules → many phosphorylations
+1. **SIADH vs Diabetes Insipidus** — both involve ADH but SIADH = excess ADH (euvolaemic hyponatraemia, concentrated urine >300 mOsm/kg); central/neurogenic DI = ADH deficiency; nephrogenic DI = renal V2-receptor resistance (polyuria, dilute urine <300 mOsm/kg despite high plasma osmolality).
+2. **Cushing syndrome** — excess cortisol; loss of diurnal rhythm, central obesity, striae, hyperglycaemia, neutrophilia; suppressed ACTH if adrenal/ectopic, raised ACTH if pituitary (Cushing disease).
+3. **Primary hypothyroidism** — low T3/T4 with **raised TSH** (loss of negative feedback on pituitary); opposite pattern in primary hyperthyroidism (Graves disease).
 
-**IP3/DAG pathway (Gq)**:
-- Hormone → receptor → Gq → phospholipase C → IP₃ + DAG → ↑[Ca²⁺] + PKC
-- **Examples**: TRH, GnRH, ADH (V1), α-adrenergic agonists, angiotensin II
+#### Common traps in the exam
+- Posterior pituitary hormones (ADH, oxytocin) are **made in the hypothalamus**, only released from the posterior lobe — do not confuse with anterior lobe tropic hormones.
+- **PTH is the dominant acute Ca²⁺ regulator**; calcitonin plays a minor physiological role in adults (more important in pregnancy and childhood).
+- GH deficiency in **children** = short stature (pituitary dwarfism); in **adults** = ↑ visceral fat, ↓ lean mass, dyslipidaemia — not growth failure.
+- Adrenal cortex zones: **glomerulosa** → aldosterone (regulated by RAAS, not ACTH); **fasciculata** → cortisol (ACTH); **reticularis** → DHEA/androgens (ACTH).
 
-**Tyrosine kinase pathway**:
-- Receptor has intrinsic tyrosine kinase activity
-- **Examples**: Insulin, IGF-1, growth factors
-- Receptor autophosphorylation → intracellular signaling cascades
+> High-yield mnemonic: **"Salt, Sugar, Sex — GFR"** → Zona Glomerulosa (aldosterone), Fasciculata (cortisol), Reticularis (androgens). Medulla = catecholamines.
 
-### Steroid Hormone Signaling
-- Hormone enters cell → binds intracellular receptor → hormone-receptor complex → enters nucleus → binds DNA → alters transcription
-- **Examples**: Cortisol, aldosterone, estrogen, progesterone, testosterone, thyroid hormone
+#### Practice prompts:
+1. A patient has hyponatraemia (Na⁺ 122 mmol/L), low plasma osmolality (260 mOsm/kg), and inappropriately concentrated urine (450 mOsm/kg). Identify the diagnosis and the underlying hormone abnormality.
+2. Map the hypothalamic-pituitary-thyroid axis and predict TSH, free T4, and TRH levels in a patient with primary autoimmune hypothyroidism versus a patient with a TSH-secreting pituitary adenoma.
 
-## Hypothalamic-Pituitary Axis
+---
 
-### Anterior Pituitary (Adenohypophysis)
-- **Releases**: FSH, LH, TSH, ACTH, GH, Prolactin
-- **Regulation**: Hypothalamic releasing/inhibiting hormones (hypophysiotropic hormones) reach via portal system
+## Continue your study
 
-### Hypothalamic Releasing Hormones
-- **GnRH**: Stimulates LH and FSH release
-- **TRH**: Stimulates TSH and prolactin release
-- **CRH**: Stimulates ACTH release
-- **GHRH/GHIH (somatostatin)**: Stimulates/inhibits GH release
-- **Dopamine**: Inhibits prolactin release (tonic inhibition)
-
-### Posterior Pituitary (Neurohypophysis)
-- **Stores and releases** ADH (vasopressin) and oxytocin
-- **ADH**: From supraoptic nucleus; regulates water balance
-- **Oxytocin**: From paraventricular nucleus; stimulates uterine contraction, milk letdown
-
-### Feedback Loops
-- **Negative feedback**: Primary mechanism maintaining hormone levels
-  - High cortisol → ↓CRH + ↓ACTH (short loop, long loop)
-  - High T4/T3 → ↓TRH + ↓TSH
-- **Positive feedback**: Limited (e.g., estrogen → ↑LH before ovulation)
-
-## Specific Endocrine Axes
-
-### Hypothalamic-Pituitary-Adrenal (HPA) Axis
-- **CRH** → **ACTH** → **Cortisol** (from adrenal cortex zona fasciculata)
-- **Functions of cortisol**: Gluconeogenesis, anti-inflammatory, stress response, ↑BP, ↓immune function
-- **Cushing syndrome**: Excess cortisol (iatrogenic, pituitary adenoma, ectopic ACTH)
-- **Addison disease**: Deficient cortisol (autoimmune, infection, hemorrhage)
-
-### Hypothalamic-Pituitary-Thyroid (HPT) Axis
-- **TRH** → **TSH** → **T4/T3** (from thyroid follicular cells)
-- **T4**: More abundant, less active; converted to T3 peripherally
-- **Functions**: ↑metabolic rate, ↑O₂ consumption, ↑heat production, development (CNS, bone)
-- **Hyperthyroidism**: ↑T4/T3, ↓TSH (negative feedback); Graves disease (autoantibody stimulates TSH receptor)
-- **Hypothyroidism**: ↓T4/T3, ↑TSH; Hashimoto (autoimmune destruction, most common cause in developed countries)
-
-### Hypothalamic-Pituitary-Gonadal (HPG) Axis
-- **GnRH** (pulsatile) → **LH/FSH** → **Gonads** (testosterone/estrogen)
-- **Male**: LH → Leydig cells → testosterone; FSH → Sertoli cells → spermatogenesis
-- **Female**: Follicular development, ovulation, menstrual cycle
-- **Estrogen**: Feedback on FSH/LH (negative at high levels, positive just before ovulation)
-- **Testosterone**: Negative feedback on LH (no direct effect on FSH, but inhibin B inhibits FSH)
-
-### Growth Hormone Axis
-- **GHRH** → **GH** → Liver (IGF-1 production) → Growth effects
-- **GH functions**: ↑linear bone growth, ↑muscle, ↓fat; diabetogenic (↑blood glucose)
-- **Gigantism/Acromegaly**: Excess GH (pituitary tumor)
-- **Dwarfism**: GH deficiency (pituitary dysfunction in childhood)
-
-### Prolactin
-- **Dopamine inhibits** (tonic); ↑TRH, ↓dopamine → ↑prolactin
-- **Functions**: Breast development, milk production
-- **Hyperprolactinemia**: Galactorrhea, amenorrhea, infertility, hypogonadism
-
-## Adrenal Glands
-
-### Adrenal Cortex
-
-**Zona Glomerulosa**: Aldosterone (mineralocorticoid)
-- **Regulated by**: Renin-angiotensin-aldosterone system (RAAS) + K⁺ levels
-- **Functions**: Na⁺ retention, K⁺ excretion, water balance
-
-**Zona Fasciculata**: Cortisol (glucocorticoid)
-- **Regulated by**: ACTH (HPA axis)
-- **Functions**: Gluconeogenesis, stress response, anti-inflammatory
-
-**Zona Reticularis**: Androgens (DHEA, androstenedione)
-- Precursors to sex steroids
-
-### Adrenal Medulla
-- **Chromaffin cells** (modified sympathetic neurons)
-- **Catecholamines**: Epinephrine (80%), Norepinephrine (20%)
-- **Functions**: Fight or flight response; ↑HR, ↑BP, ↑blood glucose, bronchodilation
-
-## Pancreatic Islets
-
-### Cell Types
-
-**α cells**: Glucagon (↑blood glucose)
-- Secreted in response to: Low glucose, sympathetic stimulation, ACh
-- **Actions**: Glycogenolysis, gluconeogenesis, ↓insulin secretion
-
-**β cells**: Insulin (↓blood glucose)
-- Secreted in response to: High glucose, amino acids, fatty acids, parasympathetic
-- **Actions**: ↑glucose uptake, ↑glycogenesis, ↑lipogenesis, ↓gluconeogenesis
-
-**δ cells**: Somatostatin (inhibits GI and pancreatic secretions)
-
-### Insulin and Glucagon Effects
-
-**Insulin (anabolic)**:
-- ↑GLUT4 translocation (muscle, fat)
-- ↑glycogen synthesis
-- ↑lipogenesis
-- ↑protein synthesis
-- ↓gluconeogenesis
-- ↓glycogenolysis
-
-**Glucagon (catabolic)**:
-- ↑glycogenolysis
-- ↑gluconeogenesis
-- ↑ketogenesis
-- ↑lipolysis
-
-### Diabetes Mellitus
-- **Type 1**: Autoimmune β cell destruction → absolute insulin deficiency
-- **Type 2**: Insulin resistance + relative insulin deficiency
-- **Diagnostic**: Fasting glucose ≥126, 2hr post-prandial ≥200, HbA1c ≥6.5%
-- **Complications**: Retinopathy, nephropathy, neuropathy, cardiovascular disease
-
-## Calcium Metabolism
-
-### PTH (Parathyroid Hormone)
-- **Secreted by**: Chief cells of parathyroid glands
-- **Regulated by**: Serum Ca²⁺ (low Ca → ↑PTH)
-- **Actions**:
-  - ↑bone resorption → ↑Ca²⁺ release
-  - ↑renal Ca²⁺ reabsorption
-  - ↓renal phosphate reabsorption
-  - ↑1-alpha-hydroxylase → ↑active vitamin D (1,25(OH)₂D)
-
-### Vitamin D (Calcitriol)
-- **Sources**: Skin (sunlight converts 7-dehydrocholesterol to cholecalciferol), diet (fatty fish)
-- **Activation**: Liver (25-OH) → Kidney (1-alpha-hydroxylase → 1,25(OH)₂D)
-- **Actions**: ↑intestinal Ca²⁺ absorption, ↑bone mineralization, ↑renal Ca²⁺ reabsorption
-
-### Calcitonin
-- **Secreted by**: C cells of thyroid
-- **Actions**: ↓bone resorption, ↓renal Ca²⁺ reabsorption
-- **Role in humans**: Minor compared to PTH and vitamin D
-
-### Calcium Balance
-- **Total Ca**: 8.5-10.5 mg/dL
-- **Ionized Ca**: 4.5-5.5 mg/dL (active form)
-- **Hypocalcemia**: Tetany, seizures, cardiac arrhythmias (prolonged QT)
-- **Hypercalcemia**: "Stones, bones, groans, psychiatric overtones" (kidney stones, bone pain, abdominal pain, confusion)
-
-## Thyroid and Parathyroid
-
-### Thyroid Hormones
-- **T4 (thyroxine)**: Major secretory product; converted to T3 in tissues
-- **T3 (triiodothyronine)**: More potent; binds nuclear receptors
-- **Storage**: In colloid (thyroglobulin); very large reserve
-- **Iodine**: Essential for hormone synthesis; concentrated by thyroid
-
-### Thyroid Tests
-- **TSH**: Most sensitive for primary thyroid disease; elevated in primary hypothyroidism, low in primary hyperthyroidism
-- **Free T4/T3**: Direct measurement of active hormone
-- **Thyroid antibodies**: Anti-TPO, anti-thyroglobulin (Hashimoto); TSI (Graves)
-- **Radioactive iodine uptake (RAIU)**: High in Graves (diffuse uptake), low in thyroiditis (damage causes "leaky" hormone release)
-
-### Parathyroid Hormone
-- **Functions**: ↑serum calcium, ↓serum phosphate
-- **PTH-related peptide (PTHrP)**: Mimics PTH; secreted by some cancers → hypercalcemia of malignancy
+- **[View this topic in your FMGE roadmap](/roadmap/?exam=fmge&duration=1mo)** — see where "Endocrine Physiology" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=fmge&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[FMGE exam overview](/exams/fmge/)** — pattern, eligibility, and syllabus
+- **[All Physiology notes](/notes/fmge/physiology/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

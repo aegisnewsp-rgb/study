@@ -8,84 +8,77 @@ topicName: Combinations
 weight: 3
 country: india
 generated: "2026-03-29T05:05:11"
-lastUpdated: 2026-03-29
+lastUpdated: "2026-09-09"
 ---
+
 # Combinations
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision.
+> Rapid summary for last-minute revision before your exam.
 
-**Combinations** — Key Facts for CUET
-• **Core formula:** C(n, r) = n! / (r! (n−r)!) — the number of ways to choose r items from n distinct items without regard to order.
-• **Most tested concept:** Applying C(n, r) when "selection" or "committee" or "group" is mentioned — remember C(n, r) = C(n, n−r) (symmetry identity).
-• **Common mistake:** Confusing combinations with permutations — use C(n, r) when order does NOT matter, use P(n, r) = n!/(n−r)! when order matters.
-• **Key technique:** Use the **complement principle**: count total selections, subtract those that violate the condition. For "at least one" problems, compute 2ⁿ − 1.
-• **Important exception:** Selecting all items C(n, n) = 1; selecting none C(n, 0) = 1. These look trivial but are frequent sources of off-by-one errors.
-• **Most frequent question type:** "In how many ways can a committee of 3 be formed from 8 people?" → C(8, 3) = 56.
-⚡ **Exam tip:** When the problem includes constraints like "two particular persons must be together," treat them as a single unit or subtract the forbidden selections — always verify whether order matters.
+**Combinations** count how many ways you can pick r objects out of n distinct objects when **order does not matter**. It is denoted nCr or C(n,r), read as "n choose r," and forms the bedrock of probability, the Binomial Theorem, and most selection problems in CUET UG Mathematics.
 
----
+- **Core formula:** nCr = n! / [r! · (n−r)!], where n, r are non-negative integers with 0 ≤ r ≤ n.
+- **Boundary values:** C(n,0) = C(n,n) = 1, and C(n,1) = C(n,n−1) = n.
+- **Symmetry shortcut:** nCr = nC(n−r) — use this when r > n/2 to save time.
+- **Conversion from permutations:** C(n,r) = P(n,r) / r!.
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Combinations** — CUET Study Guide
+#### Definition and Formula
+A combination counts the unordered selections of r objects from a set of n distinct objects. Because order is irrelevant, every group of r items is counted once. The standard closed form is nCr = n! / [r! (n−r)!], and the result is always a dimensionless integer. The convention 0! = 1 makes the formula consistent for r = 0.
 
-**Combinations** count the ways to select items when order is irrelevant. The **binomial coefficient** C(n, r) is central to combinatorics and appears in the **binomial theorem**: (a + b)ⁿ = Σ C(n, r) aⁿ⁻ʳ bʳ. The symmetry identity **C(n, r) = C(n, n−r)** is the fastest shortcut for many problems — always look for the complementary pair.
+#### Why Division by r! Removes Order
+P(n,r) = n! / (n−r)! counts arrangements. Each combination of r items can be rearranged in r! ways, so dividing P(n,r) by r! collapses those ordered arrangements back into a single unordered selection. This gives C(n,r) = P(n,r) / r!.
 
-**Key identities to master:**
-- **Pascal's Rule:** C(n, r) = C(n−1, r) + C(n−1, r−1) — useful for building Pascal's triangle and proving recursive relations.
-- **Sum Identity:** Σ_{r=0}^{n} C(n, r) = 2ⁿ — the total number of subsets of an n-element set.
-- **Subset sum:** Σ_{r=0}^{k} C(n, r) has no simple closed form; use complement for "at most k" problems: total − Σ_{r=k+1}^{n} C(n, r).
+#### Symmetry and Pascal's Identity
+Two identities are tested repeatedly in CUET UG MCQs. Symmetry says nCr = nC(n−r), which flips a hard computation like 100C97 into 100C3. Pascal's identity, C(n,r) = C(n−1,r−1) + C(n−1,r), is the rule that builds Pascal's triangle row by row and lets you split a selection into cases.
 
-**Typical CUET patterns:**
-- Problems often combine selection with **distribution** (identical vs distinct objects). When distributing identical objects into distinct boxes, use stars-and-bars: number of solutions to x₁ + x₂ + … + x_k = n is C(n + k − 1, k − 1).
-- **Committee with restrictions**: treat mandatory members as already chosen, reduce the pool, then apply C(n, r).
+#### Selection with Restrictions
+- "Always include p specific items": choose r−p more from the remaining n−p items → C(n−p, r−p).
+- "Always exclude q specific items": choose r from the remaining n−q items → C(n−q, r).
 
-**Common traps:**
-- Treating selections as ordered (applying P instead of C).
-- Overlooking the condition "at least one" — answer is C(n, k) − C(n, 0) for selecting at least k, not C(n, k) alone.
-- Ignoring whether objects are distinct or identical.
-
-**Solved Example 1:** In how many ways can a team of 4 be selected from 7 boys and 5 girls, if the team must contain at least 2 girls?
-- Count total teams of 4 from 12: C(12, 4) = 495.
-- Subtract teams with 0 or 1 girl: C(7, 4) + C(7, 3)C(5, 1) = 35 + 35×5 = 210.
-- Valid teams = 495 − 210 = 285.
-
-**Solved Example 2:** A committee of 5 is to be formed from 10 teachers and 8 students, with exactly 2 teachers. Find the number of ways.
-- Choose 2 teachers from 10: C(10, 2) = 45.
-- Choose 3 students from 8: C(8, 3) = 56.
-- Total ways = 45 × 56 = 2,520.
-
----
+| Identity / Rule | Statement | Typical Use |
+| --- | --- | --- |
+| Boundary | C(n,0) = C(n,n) = 1; C(n,1) = n | Edge values, sanity check |
+| Symmetry | nCr = nC(n−r) | r > n/2 simplification |
+| Pascal | C(n,r) = C(n−1,r−1) + C(n−1,r) | Triangle construction, case-split |
+| Power sum | Σ C(n,r) = 2ⁿ | Total subsets, Binomial Theorem |
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer timeline.
+> Comprehensive coverage for students on a longer study timeline.
 
-**Combinations** — Comprehensive CUET Notes
+#### Identities That Link to the Binomial Theorem
+The Binomial Theorem writes (a+b)ⁿ = Σ C(n,r) aⁿ⁻ʳ bʳ for integer n ≥ 0. Two summation identities follow directly and are tested as standalone MCQs: Σᵣ₌₀ⁿ C(n,r) = 2ⁿ (sum of all binomial coefficients in row n of Pascal's triangle) and Σᵣ₌₀ⁿ r·C(n,r) = n·2ⁿ⁻¹ (each element of an n-element set appears in exactly half of its 2ⁿ subsets).
 
-**Deeper theory and proof:**
+#### Grouping and Division of Objects
+When n distinct objects are split into k **labelled** groups of sizes n₁, n₂, …, nₖ (with n₁+n₂+…+nₖ = n, each nᵢ ≥ 1), the number of ways is n! / (n₁! n₂! … nₖ!). If the groups are **unlabelled** (identical boxes), further divide by k! when sizes are equal.
 
-*The combinatorial proof of C(n, r) = n!/(r!(n−r)!):* Consider n distinct objects laid out in a row. To choose r of them, arrange all n objects in any order (n! ways) and then draw the first r as the selected group. Within the selected group, the r! possible orders are irrelevant; within the remaining n−r objects, (n−r)! orders are also irrelevant. Hence each distinct selection corresponds to r!(n−r)! arrangements, giving C(n, r) = n!/(r!(n−r)!).
+#### Common Mistakes and Traps
+- Applying P(n,r) when the question asks for selection without order — always check wording like "team," "committee," or "group."
+- Ignoring the r! factor when converting a stated permutation into a combination.
+- Computing C(n,r) directly for r > n/2 instead of using the symmetry identity nCr = nC(n−r).
+- Double-counting "at least one of A or B" cases — split into "exactly one" and "both" rather than adding C(includes A) + C(includes B).
 
-*The inclusion–exclusion principle for combinations:* For selecting from multiple categories with overlaps, |A ∪ B| = |A| + |B| − |A ∩ B|. When selecting objects that belong to at least one of two categories, subtract the overlap. Example: selecting at least one from either of two sets of sizes m and n with k common elements: total = 2ⁿ + 2ᵐ − 2ᵏ − 1 (exclude empty set counted twice).
+#### Worked Micro-Example
+A class of 10 students forms a 4-member committee where two particular students, Anu and Bala, must **not** both be selected. Count the valid committees.
+- Total committees without restriction: C(10,4) = 210.
+- Committees containing both Anu and Bala: pick 2 more from the remaining 8 → C(8,2) = 28.
+- Valid committees: 210 − 28 = 182.
 
-*Derangements and combinatorial restrictions:* The number of ways to select r objects from n with no two adjacent is C(n−r+1, r) (combinatorial "no-adjacent" theorem). For circular arrangements with no adjacency, the formula is (n−r)/n × C(n−r, r). These arise in CUET problems about seating arrangements or placing objects with separation constraints.
+> Exam tip: in CUET UG Section II, expect 1–2 MCQs on combinations per paper; when an option looks huge, check whether the symmetry identity nCr = nC(n−r) shrinks it instantly.
 
-*Pascal's triangle and generating functions:* The entries of Pascal's triangle are the binomial coefficients C(n, r). The generating function (1 + x)ⁿ = Σ C(n, r) xʳ encodes all binomial coefficients as the coefficients of powers of x. Differentiating and evaluating at x = 1 yields sum of squares Σ C(n, r)² = C(2n, n). This result appears in advanced CUET problems.
+Practice prompts:
+1. Find the number of ways to form a 5-letter "word" (real or nonsense) using the letters of MISSISSIPPI without repeating any letter's frequency count.
+2. If C(15, r) = C(15, r−1), find r. (Answer: r = 8, since symmetry forces r = n−r+1.)
 
-*Cross-topic connection — probability:* The **hypergeometric distribution** counts the probability of k successes in n draws without replacement from a population with K successes and N−K failures: P(X = k) = [C(K, k) C(N−K, n−k)] / C(N, n). This connects combinations directly to probability, a frequent crossover topic.
+## Continue your study
 
-*Challenging solved example:* A basket contains 5 red, 4 blue, and 3 green balls. In how many ways can 4 balls be drawn such that at least one of each colour is drawn?
-- Count selections with at least one red, one blue, one green. Use inclusion–exclusion.
-- Total ways to choose 4 balls from 12: C(12, 4) = 495.
-- Subtract selections missing at least one colour:
-  - Missing red: C(7, 4) = 35.
-  - Missing blue: C(8, 4) = 70.
-  - Missing green: C(9, 4) = 126.
-- Add back selections missing two colours:
-  - Missing red & blue: C(3, 4) = 0 (impossible).
-  - Missing red & green: C(4, 4) = 1.
-  - Missing blue & green: C(5, 4) = 5.
-- Missing all three colours: impossible.
-- Valid selections = 495 − (35 + 70 + 126) + (0 + 1 + 5) − 0 = 270.
+- **[View this topic in your CUET UG roadmap](/roadmap/?exam=cuet&duration=1mo)** — see where "Combinations" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=cuet&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[CUET UG exam overview](/exams/cuet/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/cuet/mathematics/)** — browse sibling topics in this subject
+
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

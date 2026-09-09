@@ -8,7 +8,7 @@ topicName: Marginal Costing
 weight: 3
 country: pakistan
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-05-24"
+lastUpdated: "2026-09-09"
 ---
 
 # Marginal Costing
@@ -16,105 +16,69 @@ lastUpdated: "2026-05-24"
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Marginal Costing** treats only **variable costs** as product costs; **fixed costs** are written off as period expenses. The core metric is **Contribution** = Sales − Variable Cost.
+Marginal costing charges **variable costs** to each unit and writes off **fixed costs** in full against contribution for the period. The surplus of sales over variable cost is **contribution**, the building block of CVP analysis.
 
-**Must-know formulas:**
+- Contribution = Sales − Variable cost (Rs.)
+- Contribution per unit = Selling price − Variable cost per unit (Rs.)
+- Break-even (units) = Fixed costs ÷ Contribution per unit
+- C/S ratio = Contribution ÷ Sales × 100; BEP (Rs.) = Fixed costs ÷ C/S ratio
+- Margin of safety = Budgeted sales − Break-even sales
 
-- **Contribution per Unit** = Selling Price − Variable Cost per Unit
-- **BEP (Units)** = Total Fixed Costs ÷ Contribution per Unit
-- **P/V Ratio** = (Contribution ÷ Sales) × 100
-- **Margin of Safety** = Actual Sales − BEP Sales
-
-**Exam pointers for ACCA/CA Pakistan:** BEP calculations appear in Section C (10 marks). P/V ratio questions test decision-making scenarios (make-or-buy, special orders). Always identify the **key factor** when multiple resources are constrained. Closing inventory is **lower** under marginal costing than absorption costing—state this when asked to compare.
-
----
+**Exam pointers:** F5/PM and ICAP CAF questions usually test break-even, target profit volume, and the reconciliation with absorption costing profit when inventory changes.
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-## Definition and Core Principle
+#### Core Cost Behaviour
 
-Marginal Costing is a costing technique that assigns only **variable costs** (marginal costs) to products. Fixed costs are treated as **period costs** and charged directly to the profit and loss account, regardless of output volume. This approach separates costs by behaviour—fixed costs remain constant within the relevant range, while variable costs change proportionally with activity.
+Costs are first split by behaviour, not by function. **Variable cost** changes in total with activity but stays constant per unit; **fixed cost** is constant in total but changes per unit as activity rises; **semi-variable cost** carries a fixed standing charge plus a variable usage element (split it via the high-low method).
 
-## Contribution and Its Significance
+#### Contribution and CVP Logic
 
-**Contribution** is the excess of sales revenue over variable/marginal costs. It represents the amount available to cover fixed costs and generate profit.
+Contribution measures what each rupee of sales contributes towards fixed costs and profit. The **C/S ratio** converts contribution into a percentage of sales so that break-even and target profit can be read in revenue terms as well as units.
 
-| Item | Formula |
-|------|---------|
-| Contribution per unit | SP − VC per unit |
-| Total Contribution | Sales − Total Variable Costs |
-| P/V Ratio | (Contribution ÷ Sales) × 100 |
+#### Decision Uses
 
-The **P/V Ratio** indicates contribution generated per rupee of sales. A higher ratio means more contribution per unit of revenue, improving profitability.
+Short-term decisions (special orders, make-or-buy, drop a product) follow marginal costing logic because fixed costs are sunk in the short run. Only **avoidable** costs are relevant.
 
-## Break-Even Analysis
+| Formula | Working |
+| --- | --- |
+| Contribution per unit (Rs.) | Selling price − Variable cost per unit |
+| BEP (units) | Fixed costs ÷ Contribution per unit |
+| Target units | (Fixed costs + Target profit) ÷ Contribution per unit |
+| Margin of safety ratio | (Budgeted sales − BEP sales) ÷ Budgeted sales × 100 |
 
-**Break-Even Point (BEP)** is the sales level where total contribution equals fixed costs, resulting in zero profit or loss.
-
-- BEP (units) = Fixed Costs ÷ Contribution per Unit
-- BEP (rupees) = Fixed Costs ÷ P/V Ratio
-
-**Margin of Safety** measures how far actual sales exceed BEP. A larger margin indicates lower risk.
-
-- Margin of Safety = Actual Sales − BEP Sales
-- Margin of Safety % = (Margin of Safety ÷ Actual Sales) × 100
-
-## Decision Applications
-
-1. **Special order decisions:** Accept if order price > variable cost (contribution is positive)
-2. **Make-or-buy decisions:** Buy externally if the supplier's price < marginal cost of making
-3. **Limiting factor decisions:** Maximise contribution per unit of the scarce resource
-4. **Shut-down analysis:** Continue operations if contribution > unavoidable fixed costs
-
-## Exam Pattern
-
-ACCA/CA Pakistan typically sets marginal costing in Section B or C as a 10-mark calculation question requiring BEP computation, P/V ratio derivation, and margin of safety analysis. Assertion-reason questions may test understanding of why contribution-based decisions differ from absorption costing approaches.
-
----
+- Rank products by **contribution per limiting factor** (labour hour, machine hour, kg), not by contribution per unit alone.
+- **Operating gearing** = Contribution ÷ Profit; high gearing magnifies profit swings.
+- CVP assumes linear cost/revenue lines, constant sales mix, no step changes within the range.
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-## Semi-Variable Cost Separation
+#### Reconciliation With Absorption Costing
 
-A common complication arises when costs contain **semi-variable elements**—part fixed, part variable. The **high-low method** isolates the variable element:
+When fixed overhead is absorbed into inventory under absorption costing, profit differs from marginal costing profit by **change in inventory (units) × fixed overhead absorption rate per unit**. Production exceeding sales → absorption profit is higher; sales exceeding production → marginal profit is higher. A reconciliation statement starts from one profit and adjusts by the fixed overhead in opening vs closing inventory.
 
-1. Identify highest and lowest activity periods
-2. Variable cost per unit = (Cost difference) ÷ (Volume difference)
-3. Fixed cost = Total cost at either point − (Variable cost per unit × Volume)
+#### Worked Micro-Example
 
-Analysts must exercise caution: high-low uses only two data points and may distort costs if those periods are unrepresentative. Regression analysis provides greater accuracy but is rarely required at this level.
+Selling price Rs. 40, variable cost Rs. 24, fixed cost Rs. 80,000, budgeted sales 6,000 units. Contribution per unit = Rs. 16; C/S ratio = 40%; BEP = 80,000 ÷ 16 = 5,000 units (or Rs. 200,000 in revenue); target profit Rs. 32,000 needs (80,000 + 32,000) ÷ 16 = 7,000 units.
 
-## Key Factor Analysis in Multi-Product Scenarios
+#### Common Traps and Edge Cases
 
-When multiple products compete for limited resources (a **key factor** or **limiting factor**), contribution per unit of key factor determines prioritisation:
+| Mistake | Correct treatment |
+| --- | --- |
+| BEP = Fixed cost ÷ Selling price | BEP = Fixed cost ÷ Contribution per unit |
+| Using absorption cost for special-order price | Price must cover at least variable cost + any avoidable fixed cost |
+| Forgetting step-fixed costs break CVP linearity | Re-define the relevant range or use multi-step break-even |
 
-- Contribution per unit of key factor = Contribution per unit ÷ Key factor usage per unit
+- **Practice prompts:** (1) Prepare a marginal vs absorption reconciliation given opening and closing inventory units and a fixed overhead rate. (2) Rank three products under a labour-hour limiting factor and compute the production plan that maximises contribution.
 
-Example: Two products use 2 and 4 machine-hours respectively. Product A yields ₹80 contribution; Product B yields ₹120. Though B has higher absolute contribution, A generates ₹40 per machine-hour versus B's ₹30. Under machine-hour scarcity, produce A first.
+## Continue your study
 
-## Shut-Down Point
+- **[View this topic in your ACCA/CA Pakistan roadmap](/roadmap/?exam=accagl&duration=1mo)** — see where "Marginal Costing" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=accagl&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[ACCA/CA Pakistan exam overview](/exams/accagl/)** — pattern, eligibility, and syllabus
+- **[All Accounting notes](/notes/accagl/accounting/)** — browse sibling topics in this subject
 
-The **shut-down point** answers whether temporary closure is preferable to continuing operations:
-
-Shut-Down Point = Fixed Costs − Salvage Value of Semi-Variable Costs
-
-Operations should continue if the shut-down loss exceeds the continuing-loss contribution. This analysis separates **avoidable fixed costs** (saved on closure) from **unavoidable costs** (still incurred).
-
-## Common Mistakes to Avoid
-
-| Error | Consequence |
-|-------|-------------|
-| Treating fixed costs as product costs | Overstates product cost when volume falls |
-| Confusing margin of safety with profit | M/S measures buffer above BEP, not earnings |
-| Ignoring key factor constraints | Wrong product prioritisation under scarcity |
-| Using total contribution for BEP instead of per-unit | Incorrect unit calculation |
-
-## Practice Prompts
-
-1. **A company has fixed costs of ₹200,000, selling price ₹50 per unit, and variable cost ₹30 per unit. Calculate BEP in units and rupees. If actual sales are 15,000 units, find the margin of safety percentage.**
-
-2. **Product X yields contribution of ₹25 per unit using 5 labour-hours; Product Y yields ₹40 per unit using 8 labour-hours. With only 400 labour-hours available, which product should be prioritised and why?**
-
+---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

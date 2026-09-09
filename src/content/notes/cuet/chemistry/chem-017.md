@@ -11,7 +11,7 @@ topicName: p-Block Elements
 weight: 4
 country: india
 generated: "2026-03-24T08:32:07.844403"
-lastUpdated: 2026-03-24
+lastUpdated: "2026-09-09"
 diagramPrompt: "Clear scientific diagram of p-Block Elements with atom labels, molecular structure, reaction arrows, white background, color-coded bonds and groups, exam textbook style"
 
 
@@ -19,89 +19,82 @@ diagramPrompt: "Clear scientific diagram of p-Block Elements with atom labels, m
 
 
 ---
+
 # p-Block Elements
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**p-Block Elements** — Key Facts for CUET
-Group 13 (Boron family): $ns^2 np^1$; Al → amphoteric oxide; In and Tl show +1 oxidation state (inert pair effect)
-Group 14 (Carbon family): $ns^2 np^2$; Sn and Pb form +2 and +4 states; Pb(IV) is oxidising (PbO₂)
-Group 15 (Nitrogen family): $ns^2 np^3$; anomalous properties of N; allotropes: N₂ (triple bond, inert), P (white/red), As, Sb
-Group 16 (Oxygen family): $ns^2 np^4$; O₂ is paramagnetic (triplet); ozone O₃; allotropes of S: S₈ (crown), plastic S
-Group 17 (Halogens): $ns^2 np^5$; most electronegative group; F₂ is strongest oxidising agent; HF is weak acid
-Group 18 (Noble gases): $ns^2 np^6$; He = 0.0005% of atmosphere; Xe forms compounds (XeF₂, XeF₄, XeF₆, XeO₃)
-⚡ Exam tip: Inert pair effect increases down the group — heavier elements prefer lower oxidation state (+2 for Sn, Pb; +1 for Tl)
+**p-block elements** occupy Groups 13–18, with valence configuration **ns² np¹⁻⁶**. In CUET UG Chemistry this unit contributes roughly 3–5 questions from the four-odd groups (13, 15, 17) plus carbon/silicon trends in Group 14.
 
----
+- **Configuration at a glance**: Group 13 → ns² np¹; Group 14 → ns² np²; Group 15 → ns² np³; Group 16 → ns² np⁴; Group 17 → ns² np⁵; Group 18 → ns² np⁶.
+- **Inert-pair effect** stabilises the lower oxidation state in heavy congeners: Tl⁺, Pb²⁺, Bi³⁺ dominate over Tl³⁺/Pb⁴⁺/Bi⁵⁺.
+- **Anomalous first elements** (B, C, N, O, F) show small size, high charge density, no d-orbitals, and strong pπ–pπ bonding (C=C, N≡N, O=O).
+- **Oxidising power of halogens**: F₂ > Cl₂ > Br₂ > I₂, matching decreasing electronegativity (Pauling χ: F 3.98 > O 3.44 > Cl 3.16).
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> For students who want genuine understanding of p-block chemistry trends.
+> Standard content for students with a few days to months.
 
-**p-Block Elements** — CUET Chemistry Study Guide
+#### Electronic Configuration & Periodic Trends
 
-The p-block spans groups 13–18, containing a remarkable diversity of elements from metals (Sn, Pb, Bi) to non-metals (C, N, O, F, Ne) to metalloids (B, Si, Ge, As, Sb, Te). The general electronic configuration is $ns^2np^{1-6}$.
+Across a period from Group 13 to 17, **atomic radius decreases**, **ionisation enthalpy increases** (with the classic anomaly N > O because of the half-filled 2p³ stability of nitrogen), and **electronegativity rises** to a maximum at fluorine. Down any group, radii grow, ionisation enthalpy and electronegativity fall, and **metallic character increases** — so Group 13 shifts from non-metal B to metal Al to poor metal Tl, while Group 17 moves from F (non-metal) toward At (metalloid/radioactive).
 
-**Group 13 — Boron Family:**
-- Boron (B): $1s^2 2s^2 2p^1$, $sp^2$ hybridised, forms covalent compounds (BX₃). Boric acid B(OH)₃ is a weak monobasic acid (Lewis acid: accepts OH⁻).
-- Aluminium (Al): most abundant metal in Earth's crust (8.3%). Amphoteric — reacts with acids AND bases: $2Al + 6HCl → 2AlCl₃ + 3H₂$; $2Al + 2NaOH + 6H₂O → 2Na[Al(OH)₄] + 3H₂$.
-- Inert pair effect: reluctance of $s$-electrons to participate in bonding, increasing down the group (B < Al < Ga < In < Tl). This makes lower oxidation states increasingly stable down the group.
+#### Group-Wise Chemistry
 
-**Group 14 — Carbon Family:**
-- Carbon (C): unique due to catenation, forms $sp$, $sp^2$, $sp^3$ hybridisation. Allotropes: diamond ($sp^3$, tetrahedral, hard), graphite ($sp^2$, layered, lubricating), fullerenes ($sp^2$, spherical C₆₀).
-- Silicon (Si): second most abundant element in Earth's crust. $sp^3$ hybridised, forms covalent network solids. SiO₂ (quartz, sand) — each Si tetrahedrally bonded to 4 O atoms.
-- Tin (Sn): two allotropes — grey Sn (diamond structure, $<13.2°$C) and white Sn (metallic, $>13.2°$C). Sn forms SnCl₂ (reducing agent) and SnCl₄ (Lewis acid).
-- Lead (Pb): final stable element. Pb(II) is more stable than Pb(IV). PbO₂ is a strong oxidising agent (in lead-acid battery).
+The table below maps the testable structures and properties most frequently asked:
 
-**Group 15 — Nitrogen Family:**
-- Nitrogen: N₂ has triple bond (bond energy 945 kJ/mol), making it chemically inert at room temperature. High electronegativity (3.0). Forms hydrides (NH₃, pKₐ 9.25), oxides (NO, NO₂, N₂O₃, N₂O₄, N₂O₅), oxyacids (HNO₂, HNO₃).
-- Phosphorus: Allotropes — white P (P₄, tetrahedral, reactive, toxic, glows in dark) and red P (polymeric, more stable). PCl₃ and PCl₅ are important compounds.
-- Oxoacids of phosphorus: Hypophosphorous (H₃PO₂ — one ionisable H), Phosphorous (H₃PO₃ — two ionisable H), Phosphoric (H₃PO₄ — three ionisable H, tribasic).
+| Group | Key species | Hybridisation / Geometry | Exam highlight |
+| --- | --- | --- | --- |
+| 13 | BF₃, B₂H₆ | sp² trigonal planar; 3c–2e bridge bonds | Boron is electron-deficient |
+| 14 | Diamond, graphite, C₆₀ | sp³ / sp² / sp² | Allotropy of carbon |
+| 15 | NH₃, PCl₃, PCl₅ | sp³ pyramidal; sp³d trigonal bipyramidal | Don't confuse PCl₅ with SF₆ |
+| 16 | H₂O, SF₄, SF₆ | sp³ bent; sp³d see-saw; sp³d² octahedral | Contact process for H₂SO₄ |
+| 17 | HF, HCl, interhalogens (ClF₃, IF₇) | sp³d T-shape; sp³d² pentagonal bipyramidal | HF is weak, others strong |
+| 18 | XeF₂, XeF₄, XeF₆ | sp³d linear; sp³d² square planar; sp³d³ distorted | Noble gases are NOT inert |
 
-**Group 16 — Oxygen Family:**
-- Oxygen: O₂ is paramagnetic (triplet diradical, 2 unpaired electrons). Ozone O₃ is an allotrope — bent molecule, stronger oxidising than O₂.
-- Sulphur: Allotropes — S₈ crown-shaped (most stable at room temperature), plastic S (amorphous, quenched from melt). SO₂ (pyramidal) and SO₃ (planar in gas, cyclic trimer in solid).
+#### Common Traps CUET Tests
 
-**Example:** Why is BF₃ a Lewis acid but NH₃ is a Lewis base?
-BF₃ has an incomplete octet (B is $sp^2$, only 6 electrons around B) — it can accept an electron pair from a donor like NH₃. NH₃ has a lone pair on N that can be donated. The reaction BF₃ + NH₃ → H₃N-BF₃ forms an adduct.
-
----
+- Writing **Pb as only +4** — Pb²⁺ is more stable (inert-pair effect).
+- Calling **HF the strongest hydrohalic acid** — its H–F bond enthalpy is unusually high, so dilute HF is weak.
+- Claiming **all Group 18 elements are inert** — Kr and Xe form real compounds (Bartlett's Xe[PtF₆], 1962).
+- Forgetting **F shows only −1** oxidation state (no d-orbitals, cannot expand octet), while Cl/Br/I exhibit −1, +1, +3, +5, +7.
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-**p-Block Elements** — Complete CUET Chemistry Notes
+#### Inert-Pair Effect & Oxidation States
 
-**Allotropes of Carbon — Deep Dive:**
-- Diamond: $sp^3$ hybridised, tetrahedral network, C-C bond length 154 pm, bond energy 347 kJ/mol. Hardest natural substance. Band gap 5.5 eV (insulator).
-- Graphite: $sp^2$ hybridised, layered structure (hexagonal sheets), layers held by van der Waals forces (weak). Electrons delocalised in π system → conducts electricity. Used as lubricant and electrode.
-- Graphene: single layer of graphite, $sp^2$ carbons in hexagonal lattice. Extraordinary properties: Young's modulus ~1 TPa, electron mobility 200,000 cm²/Vs. Used in flexible electronics, composites.
-- Fullerenes (C₆₀, C₇₀): truncated icosahedron. C₆₀ has 12 pentagons + 20 hexagons. Endohedral fullerenes (atoms inside cage) used in drug delivery.
-- Carbon nanotubes: rolled-up graphene sheets. Single-walled (SWNT) and multi-walled (MWNT). Remarkable tensile strength, used in nanotechnology.
+The ns² pair becomes progressively less willing to participate in bonding as you descend Groups 13–15 because **relativistic contraction** and poor ns–np overlap favour leaving the pair as a "spectator". Consequently, **+1 in Tl, +2 in Pb, +3 in Bi** are the thermodynamically stable states, while the group number (+3, +4, +5) dominates for lighter members. CuET questions often pair this with a stoichiometric calculation: e.g., 2PbO₂ → 2PbO + O₂ shows Pb(IV) reducing to Pb(II) on heating.
 
-**Interhalogen Compounds:** Formed between halogens (XX'). Types: XY (ClF, BrF, ICl), XY₃ (ClF₃, BrF₃, ICl₃), XY₅ (IF₅, BrF₅), XY₇ (IF₇, largest interhalogen). More electronegative halogen is central atom. Used as fluorinating agents.
+#### Hybridisation–Geometry Mapping
 
-**Pseudohalogens:** Groups that behave like halogens: CN⁻ (cyanide), SCN⁻ (thiocyanate). (CN)₂ is cyanogen — toxic gas. Thionyl chloride SOCl₂ — used to convert alcohols to chlorides.
+Use the lone-pair count plus bonded-atom count to fix geometry. A worked mapping:
 
-**Noble Gas Compounds:**
-- XeF₂: linear, $sp^3d$ hybridised (bheteronuclear), oxidising agent
-- XeF₄: square planar, $sp^3d^2$ hybridised
-- XeF₆: distorted octahedral, $sp^3d^3$ hybridised
-- XeO₃: xenon trioxide, explosive, trigonal pyramidal
-- Clathrates: noble gases trapped in host crystal lattices (used to separate Kr from Xe in air)
+1. **BF₃**: 3 bond pairs, 0 lone pairs → sp², 120°.
+2. **PCl₃**: 3 bp + 1 lp → sp³, pyramidal (≈107°).
+3. **PCl₅**: 5 bp → sp³d, trigonal bipyramidal (axial bonds longer than equatorial).
+4. **SF₆**: 6 bp → sp³d², octahedral (all bonds equal).
+5. **XeF₄**: 4 bp + 2 lp → sp³d², **square planar** (lone pairs occupy axial positions).
+6. **IF₇**: 7 bp → sp³d³, pentagonal bipyramidal.
 
-**Heterocyclic Silicon Chemistry:** Unlike carbon, silicon rarely forms stable double bonds (pπ-pπ bonds are weak). However, compounds with Si=Si double bonds (disilenes) can be isolated if bulky groups prevent polymerisation. Silicones: (R₂SiO)ₙ — alternating Si-O backbone, organic groups on Si. Used as sealants, lubricants.
+> Exam tip: Memorise PCl₅ vs SF₆ as the canonical (sp³d) vs (sp³d²) pair — mixing them is the single most common mark-losing error.
 
-**Boron Hydrides and Wade's Rules:** Boron forms electron-deficient cluster compounds. BH₃ (monomer) doesn't exist as stable — dimerises to B₂H₆ (diborane). Structure: bridging H atoms held by 3c-2e bonds. Wade's rules: closo (BₙHₙ²⁻), nido (BₙHₙ₊₄), arachno (BₙHₙ₊₆) cluster structures based on skeletal electron pairs.
+#### Cross-Topic Connections
 
-**CUET Exam Patterns (2022–2024):**
-- Properties of p-block elements and trends down the group are most frequently tested
-- Allotropes of phosphorus (white/red) and carbon (diamond/graphite) are common MCQs
-- Inert pair effect and variable oxidation states appear every year
-- Interhalogen and noble gas compounds occasionally tested
-- Common mistakes: confusing oxidation states; not remembering amphoteric nature of Al and Zn; forgetting that F is always -1 in compounds (except with O)
+- **Chemical bonding**: VSEPR predicts the geometries above; back-link to sp³d/sp³d² only when central atom has d-orbitals (n ≥ 3) — so Si/P/S/Cl can, but B/C/N/O/F cannot.
+- **Thermodynamics**: N≡N bond enthalpy of **941.4 kJ mol⁻¹** explains N₂'s kinetic inertness and why ammonia synthesis (Haber process) needs an iron catalyst at 700 K.
+- **Environmental chemistry**: Acid rain (H₂SO₄, HNO₃) and ozone depletion (CFC-derived Cl•) both originate in p-block element chemistry.
 
-⚡ Key insight: In p-block, electronegativity and oxidation state are key. Elements become less electronegative down the group (F is most electronegative element ever). The inert pair effect makes +2 oxidation state more stable down group 14 (Sn(II) ≠ unstable like C(IV); Pb(II) more stable than Pb(IV)). Remember that the most electronegative elements (F, O) always have negative oxidation states in compounds.
+#### Practice Prompts
 
----
-*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+1. Arrange F, Cl, Br, I in increasing order of bond enthalpy of the X–X bond and justify using atomic size.
+2. Explain why Bi³⁺ is more stable than Bi⁵⁺ in aqueous solution, while PCl₅ exists but BiCl₅ does not.
+
+## Continue your study
+
+- **[View this topic in your CUET UG roadmap](/roadmap/?exam=cuet&duration=1mo)** — see where "p-Block Elements" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=cuet&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[CUET UG exam overview](/exams/cuet/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/cuet/chemistry/)** — browse sibling topics in this subject
+
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

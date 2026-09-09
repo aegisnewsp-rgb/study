@@ -12,7 +12,7 @@ topicName: "Algebra: Expressions and Equations"
 weight: 4
 country: pakistan
 generated: "2026-03-24T08:32:08.007813"
-lastUpdated: "2026-06-20"
+lastUpdated: "2026-09-09"
 diagramPrompt: "Educational diagram illustrating Algebra: Expressions and Equations with clear labels, white background, exam-style illustration"
 
 
@@ -25,66 +25,68 @@ diagramPrompt: "Educational diagram illustrating Algebra: Expressions and Equati
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-An **algebraic expression** combines numbers, variables, and operations without an equals sign (e.g., `3x² + 5x − 7`); the moment you write an `=` sign you have an **equation**. A **linear equation** `ax + b = 0` solves to `x = −b/a`. A **quadratic equation** `ax² + bx + c = 0` (a ≠ 0) solves via the quadratic formula `x = [−b ± √(b² − 4ac)] / 2a`, where the **discriminant** `D = b² − 4ac` decides root count. **Key facts to memorise:** sum of roots `α + β = −b/a`, product `αβ = c/a`, and the identity `(a + b)² = a² + 2ab + b²` — NOT `a² + b²`. Transposition across `=` flips the sign. For HAT-UG, expect 3–5 direct MCQs: solving a linear equation, finding roots of a quadratic, or applying an exponent rule.
+An **algebraic expression** is a combination of constants, variables, and operators with no equals sign (e.g., 3x² − 5x + 2), while an **equation** sets two expressions equal (e.g., 3x² − 5x + 2 = 0). For HAT-UG, you must solve **linear equations** (one variable, form ax + b = 0), **quadratic equations** (form ax² + bx + c = 0), and **simultaneous linear systems** in two variables. The quadratic formula x = (−b ± √Δ) / 2a, with **Δ = b² − 4ac**, gives all real or complex roots and is the single most-tested tool. Factorisation and the laws of exponents also appear frequently.
 
----
+- **Linear:** x = −b/a (one root, always real).
+- **Quadratic discriminant:** Δ > 0 (two real roots), Δ = 0 (one repeated root), Δ < 0 (no real roots).
+- **Vieta's shortcut:** sum of roots α + β = −b/a, product α·β = c/a.
+
+| Type | Standard form | Solution method |
+| --- | --- | --- |
+| Linear | ax + b = 0 | x = −b/a |
+| Quadratic | ax² + bx + c = 0 | Factorisation, completing the square, or formula |
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-#### Expressions vs. Equations
-An **expression** such as `5x − 3(x + 2)` evaluates to a value once `x` is known but contains no `=`. An **equation** asserts two expressions are equal and is solved by finding the variable values that satisfy it. A **polynomial of degree n** has the form `aₙxⁿ + aₙ₋₁xⁿ⁻¹ + … + a₀` with `aₙ ≠ 0`; degree 1 is linear, degree 2 is quadratic.
+#### Expressions vs. equations
+A **term** is a product of a numerical **coefficient** and variable powers; an **expression** combines terms with +, −, ×, ÷. An **equation** appears when you write "expression = expression". Recognising this difference prevents wasted work — you only solve equations, but you simplify, expand, or factorise expressions.
 
-#### Solving Linear Equations
-Isolate the variable by adding, subtracting, multiplying, or dividing both sides. Example: `4(x − 1) = 2x + 6` → `4x − 4 = 2x + 6` → `2x = 10` → `x = 5`. Every term crossing `=` changes sign (transposition).
+#### Linear equations and inequalities
+To solve ax + b = 0, transpose b to the right (sign flips) and divide by a. The same logic governs **inequalities** (>, <, ≥, ≤), with one extra rule: multiplying or dividing both sides by a negative number **reverses** the inequality arrow. Watch for this in MCQs that contain the trap −2x > 6.
 
-#### Quadratic Equations
-For `ax² + bx + c = 0`, the quadratic formula gives the roots. The **discriminant** `D = b² − 4ac` tells you:
-- `D > 0` → two distinct real roots
-- `D = 0` → one repeated real root (`x = −b/2a`)
-- `D < 0` → no real roots
+#### Quadratic equations
+Three solution routes exist: factorisation (fastest for integer roots), completing the square (builds the vertex form), and the quadratic formula (always works). For ax² + bx + c = 0, identify a, b, c carefully — sign errors on b or c are the #1 reason students get the wrong roots. **Vieta's formulas** let you reconstruct a quadratic from its roots without solving: x² − (α+β)x + αβ = 0.
 
-Vieta's formulas connect roots to coefficients: `α + β = −b/a`, `αβ = c/a`, useful for forming a quadratic when its roots are known.
+#### Systems of equations
+Two linear equations in two variables can be solved by **substitution** (solve one for x or y, plug into the other) or **elimination** (multiply to cancel a variable and add equations). Choose elimination when coefficients align cleanly.
 
-#### Factorisation Techniques
-Common techniques: pulling out a **common factor**, grouping terms, **difference of squares** `a² − b² = (a + b)(a − b)`, and trinomial factoring `x² + (p+q)x + pq = (x + p)(x + q)`. Factorising before applying the quadratic formula often reduces arithmetic.
-
-#### Laws of Exponents
-`aᵐ · aⁿ = aᵐ⁺ⁿ`, `(aᵐ)ⁿ = aᵐⁿ`, `a⁰ = 1` (for `a ≠ 0`), and `a⁻ⁿ = 1/aⁿ`. Note `(a + b)² ≠ a² + b²`; the expansion always includes the `2ab` cross-term.
-
-#### Common Question Types in HAT-UG
-- Find the value of `x` in a linear equation.
-- Solve a quadratic and state the nature of roots from `D`.
-- Simplify an expression using exponent laws or factorisation.
-- Set up an equation from a word problem (ages, profit, work-rate).
-
----
+- **Distributive trap:** −(a − b) = −a + b, never −a − b.
+- **Cancelling trap:** never divide by x assuming it is non-zero; rearranging x(x−1) = x gives x² − 2x = 0, not x − 1 = 1.
+- **Word-problem check:** reject any solution that is negative when counting items, or fractional when counting people.
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-#### Simultaneous Linear Equations in Two Variables
-A pair like `2x + 3y = 12` and `x − y = 1` is solved by **substitution** (express one variable, plug into the other) or **elimination** (multiply to cancel one variable). A unique solution exists when the coefficient ratios differ; parallel lines give no solution, coincident lines give infinitely many.
+#### Edge cases and the discriminant in depth
+The **discriminant** Δ = b² − 4ac fully characterises a quadratic's real behaviour without computing roots. A repeated root (Δ = 0) means the parabola touches the x-axis at exactly one point, so factorisation produces a perfect square: ax² + bx + c = a(x − r)². When Δ < 0, the roots are complex conjugates; HAT-UG MCQs may test whether you can identify this without computing them. **Inequalities** with quadratics often require a sign chart using the roots as boundary points.
 
-#### Inequalities
-Replace `=` with `<`, `>`, `≤`, or `≥`. Solve exactly like linear equations, but **multiplying or dividing by a negative number reverses the inequality sign** — a frequent trap. Example: `−3x < 9` → `x > −3`.
+#### Connections to other topics
+Linear and quadratic models appear in **ratio and percentage word problems**, **coordinate geometry** (line slope = coefficient of x, parabola vertex from completing the square), and **number sequences** (arithmetic = linear recurrence, geometric = exponential, both use algebraic expressions). Exponent manipulation also feeds into financial mathematics (compound interest formulas) and scientific notation.
 
-#### Edge Cases and Common Mistakes
-- Dividing both sides by an expression that could be zero — you may discard the valid solution `x = 0`. Always factor first when possible.
-- Forgetting to reverse the sign on `−2(x − 4) > 10` type problems.
-- Treating an expression like `3x + 5` as if it equals zero without justification.
-- Misapplying `(a + b)²` as `a² + b²`, a classic conceptual error tested on HAT-UG.
-- Sign slip inside the quadratic formula: using `+b` instead of `−b`, or mis-handling `−b ± √D`.
+#### Common mistakes examiners exploit
 
-#### Connections to Other Topics
-Algebra feeds directly into **functions and graphs** (the quadratic's parabola opens up if `a > 0`), **sequences** (roots of `x² − x − 1 = 0` generate the golden ratio), and **word problems** in profit–loss, time–distance, and mixture questions that populate the Quantitative Reasoning section.
+| Mistake | Wrong result | Correct move |
+| --- | --- | --- |
+| Dropping sign in −(a − b) | −a − b | −a + b |
+| Cancelling x without checking x ≠ 0 | Lose the root x = 0 | Bring all terms to one side first |
+| Wrong sign on b when identifying coefficients | Off-by-sign discriminant | Write equation as ax² + bx + c = 0 before plugging |
+| Forgetting to flip inequality when multiplying by −1 | Reversed solution set | Flip the inequality arrow |
 
-#### Worked Example
-Solve `2x² − 7x + 3 = 0`. Discriminant: `D = 49 − 24 = 25`. Roots: `x = [7 ± 5] / 4`, giving `x = 3` or `x = 1/2`. Verification: `α + β = 7/2 = −b/a` ✓, `αβ = 3/2 = c/a` ✓.
+#### Worked micro-example
+Solve 2x² − 5x − 3 = 0. Here a = 2, b = −5, c = −3, so Δ = 25 − 4(2)(−3) = 25 + 24 = 49. x = (5 ± 7) / 4, giving x = 3 or x = −0.5. Check via Vieta's: sum = 2.5 = −b/a ✓, product = −1.5 = c/a ✓.
 
-#### Practice Prompts
-1. If `x² − 5x + k = 0` has equal roots, find `k` using the discriminant condition `D = 0`.
-2. Simplify `(3x²y⁻¹)² / (9xy⁻³)` and state the value of the exponent of `y`.
+#### Practice prompts
+1. Solve 3x² + 11x − 4 = 0 and verify with Vieta's formulas.
+2. Find k so that x² + kx + 9 = 0 has exactly one real root (use Δ = 0 → k = ±6).
 
 ---
+
+## Continue your study
+
+- **[View this topic in your HAT-UG (HEC Aptitude Test - Undergraduate) roadmap](/roadmap/?exam=hat-ug&duration=1mo)** — see where "Algebra: Expressions and Equations" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=hat-ug&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[HAT-UG (HEC Aptitude Test - Undergraduate) exam overview](/exams/hat-ug/)** — pattern, eligibility, and syllabus
+- **[All Quantitative Reasoning notes](/notes/hat-ug/quantitative-reasoning/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

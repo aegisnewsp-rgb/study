@@ -8,196 +8,83 @@ topicName: Drug Nomenclature and Classification
 weight: 3
 country: southafrica
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-09"
 ---
 
 # Drug Nomenclature and Classification
 
-Understanding how drugs are named and classified is fundamental to pharmaceutical science and pharmacy practice. For the SAPC examination, you must be comfortable with the various naming systems, the ATC classification framework, and the rationale behind pharmaceutical nomenclature of salts, esters, and derivatives.
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
+
+Drug nomenclature is the naming framework pharmacists use to identify a medicine precisely across clinical, regulatory, and commercial settings. Every dispensed medicine carries three names: the **chemical name** (full IUPAC structural descriptor, e.g., (S)-2-(6-methoxynaphthyl)propionic acid for naproxen), the **International Nonproprietary Name (INN)** assigned by the WHO to the active pharmaceutical ingredient (naproxen), and the **proprietary (brand) name** chosen by the manufacturer (Naprorex, Aleve).
+
+Drugs are classified by **therapeutic use** (what they treat), **pharmacological action** (how they act), **chemical structure** (the molecular scaffold), and the **Anatomical Therapeutic Chemical (ATC)** system maintained by the WHO. South Africa additionally schedules medicines S0–S8 under the Medicines and Related Substances Act, where higher schedule numbers impose tighter dispensing controls.
+
+- **INN** = global generic identifier (WHO).
+- **Proprietary name** = registered trademark; SAHPRA-approved.
+- **Schedule** governs where and by whom a medicine can be supplied.
 
 ---
 
-## Drug Naming Systems
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-Drugs can be identified by several different names. Mastery of all naming systems is required for safe dispensing and for answering SAPC examination questions on pharmaceutical chemistry.
+#### The Three-Tier Naming System
 
-### Chemical Name
+The WHO INN programme issues unique, globally recognisable generic names so that prescribers, regulators, and patients can identify the active substance without ambiguity. The chemical name describes molecular architecture and is rarely used in practice; the INN is the working clinical name; the proprietary name is brand-specific and protected by trademark. South African regulations require the INN on the dispensed label alongside strength and dosage form, even when the patient receives a branded product.
 
-The chemical name describes the exact molecular structure of the drug substance. It is precise but often impractical for everyday use.
+| Name type | Assigned by | Example (naproxen) | Clinical use |
+| --- | --- | --- | --- |
+| Chemical (IUPAC) | IUPAC nomenclature rules | (S)-2-(6-methoxynaphthyl)propionic acid | Research, regulatory dossiers |
+| INN (generic) | WHO INN programme | Naproxen | Prescribing, dispensing labels, ADR reports |
+| Proprietary (brand) | Manufacturer, registered with SAHPRA | Naprosyn, Aleve | Marketing, prescription by trade |
 
-- **Generated using IUPAC rules** — follows systematic nomenclature
-- **Example:** N-(4-hydroxyphenyl)acetamide = paracetamol (acetaminophen)
-- **Example:** 2-(4-isobutylphenyl)propanoic acid = ibuprofen
+#### Classification Approaches
 
-Chemical names are used in pharmaceutical analysis, quality control, and regulatory documentation. In the SAPC context, you may encounter questions requiring you to interpret or name drug structures using IUPAC principles.
+Medicines are sorted into overlapping categories. Therapeutic class groups drugs by indication (antihypertensive, antidiabetic). Pharmacological class groups them by mechanism (beta-blocker, ACE inhibitor, calcium channel blocker). Chemical class groups them by shared scaffold (sulfonamides, statins, benzodiazepines). The ATC system layers all three into a 14-group, five-level alphanumeric hierarchy (A–V at level 1) and is the basis for the SAHPRA Single Exit Price (SEP) reference pricing.
 
-### Generic (INN) Name
+- **ATC level 1:** anatomical main group (e.g., C = cardiovascular).
+- **ATC level 2:** therapeutic subgroup (e.g., C09 = agents acting on the renin-angiotensin system).
+- **ATC level 3–4:** pharmacological subgroup.
+- **ATC level 5:** chemical substance (the individual INN).
 
-The International Nonproprietary Name (INN) is assigned by the World Health Organization (WHO) and provides a unique, universally accepted name for a drug substance.
+#### Scheduling and Substitution
 
-- **Goal:** One INN per drug substance worldwide
-- **Format:** Often reflects the pharmacologically important part of the molecule
-- **Examples:** paracetamol, ibuprofen, metformin, amlodipine
-- **In South Africa:** Generic names are used in the pharmacy setting; the Medicines and Related Substances Act (Act 101 of 1965, as amended) promotes generic substitution
-
-**Stem patterns in INNs:**
-| Stem | Meaning | Example |
-|------|---------|---------|
-| -lol | beta-blocker | atenolol, metoprolol |
-| -pril | ACE inhibitor | enalapril, lisinopril |
-| -sartan | ARB | losartan, valsartan |
-| -statin | HMG-CoA reductase inhibitor | simvastatin, atorvastatin |
-| -caine | local anesthetic | lignocaine, bupivacaine |
-| -cillin | penicillin antibiotic | amoxicillin, piperacillin |
-| -mycin | aminoglycoside/macrolide | gentamicin, erythromycin |
-| -pril | ACE inhibitor | enalapril, lisinopril |
-| -mazole | antifungal (azoles) | fluconazole, miconazole |
-
-### Brand (Trade) Name
-
-The brand name (proprietary or trademark name) is assigned by the pharmaceutical company and protected as intellectual property.
-
-- **Company-assigned** — varies by manufacturer
-- **Example:** "Panado" (Aspen) contains paracetamol; "Adco-Paracetamol" also contains paracetamol
-- **Format:** Often chosen for marketing appeal, ease of recall, or therapeutic connotation
-- **In South Africa:** Multiple brands may contain the same active ingredient — pharmacists must be able to identify equivalents
-
-**Important:** Different brands containing the same active ingredient are considered generically equivalent unless a clinical difference is documented (e.g., modified-release formulations, poorly soluble drugs with bioequivalence concerns).
+The Medicines and Related Substances Act, 1965 (Act 101 of 1965) classifies medicines from S0 (general sale) up to S8 (destined-dependence-producing substances). Generic substitution is permitted only when the generic has demonstrated pharmaceutical equivalence and bioequivalence — in standard papers AUC and Cmax within 80–125% of the innovator — and is registered with SAHPRA as interchangeable.
 
 ---
 
-## The ATC Classification System
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-The Anatomical Therapeutic Chemical (ATC) classification system is the gold standard for drug classification internationally and is used extensively in pharmaceutical science and clinical practice. SAPC expects you to understand its structure and application.
+#### Edge Cases in Nomenclature
 
-### Structure of ATC Codes
+Salt forms, esters, and prodrugs complicate naming. The INN refers to the active moiety, not necessarily the salt; for example, "metformin" is the INN even when dispensed as metformin hydrochloride. Combination products receive paired INNs (co-amoxiclav = amoxicillin + clavulanic acid). **Biosimilars** are not generic copies — they are biological medicines whose comparability to the reference product must be demonstrated stepwise in quality, non-clinical, and clinical studies under SAHPRA's biosimilar guideline.
 
-An ATC code has 7 characters organized in a hierarchical system:
+#### Exam-Level Traps and Practice
 
-```
-Level 1: Anatomical main group (1 letter)
-Level 2: Therapeutic main group (2 digits)
-Level 3: Therapeutic/pharmacological subgroup (1 letter)
-Level 4: Chemical/therapeutic/pharmacological subgroup (2 digits)
-Level 5: Chemical substance (2 digits)
-```
+| Trap | Why students fail | Correct approach |
+| --- | --- | --- |
+| Writing only a brand name on a prescription | SAPC requires INN identification | Add the INN, or write both |
+| Assuming all generics are interchangeable | Bioequivalence must be proven | Check SAHPRA registration status |
+| Treating Schedule 2 as prescription-only | S2 is pharmacist-initiated, not Rx | Recognise S1–S2 vs S3–S4 boundary |
+| Confusing chemical and INN names | Chemical describes structure | Use INN in clinical context |
 
-**Example — Metformin:** A10BA02
-| Position | Level | Meaning |
-|----------|-------|---------|
-| A | 1st level | Alimentary tract and metabolism |
-| 10 | 2nd level | Antidiabetic therapy |
-| B | 3rd level | Blood glucose lowering drugs |
-| A | 4th level | Biguanides |
-| 02 | 5th level | Metformin (sequential numbering of substances within the group) |
+#### Worked Scenario
 
-### Anatomical Main Groups
+A patient presents a prescription for "Adalat XL 30 mg, daily." The pharmacist must label the dispensed product with the INN **nifedipine**, the strength (30 mg), and the dosage form (modified-release tablet). Because nifedipine is a vasodilating antihypertensive (ATC C08CA05), the pharmacist can offer a registered generic nifedipine 30 mg MR tablet if the prescriber has not marked "no substitution," and must record the batch number for pharmacovigilance reporting through SAHPRA's VigiFlow portal.
 
-| Code | Anatomical Group |
-|------|-----------------|
-| A | Alimentary tract and metabolism |
-| B | Blood and blood forming organs |
-| C | Cardiovascular system |
-| D | Dermatologicals |
-| G | Genito-urinary system and sex hormones |
-| H | Systemic hormonal preparations (excl. sex hormones) |
-| J | Anti-infectives for systemic use |
-| L | Antineoplastic and immunomodulating agents |
-| M | Musculoskeletal system |
-| N | Nervous system |
-| P | Antiparasitic products, insecticides, and repellents |
-| R | Respiratory system |
-| S | Sensory organs |
-| V | Various |
-
-### SAPC Examination Note
-
-Questions on ATC classification may ask you to identify the therapeutic group of a drug given its code, or to determine whether two drugs with similar names belong to the same pharmacological class.
+#### Practice prompts:
+1. Identify the pharmacological class of amoxicillin and its ATC level-5 code.
+2. State the SA schedule that governs codeine-containing analgesics and the record-keeping required on dispensing.
 
 ---
 
-## Pharmaceutical Nomenclature of Salts and Esters
+## Continue your study
 
-Many drug substances are formulated as salts or esters to improve their physicochemical properties — solubility, stability, bioavailability, or taste.
+- **[View this topic in your SAPC (South Africa) roadmap](/roadmap/?exam=sa-pharm&duration=1mo)** — see where "Drug Nomenclature and Classification" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=sa-pharm&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[SAPC (South Africa) exam overview](/exams/sa-pharm/)** — pattern, eligibility, and syllabus
+- **[All Pharmacy notes](/notes/sa-pharm/pharmacy/)** — browse sibling topics in this subject
 
-### Salt Naming
-
-The general format is: **Active moiety + salt form**
-
-| Salt type | Naming convention | Example |
-|-----------|------------------|---------|
-| Hydrochloride | - hydrochloride | metformin hydrochloride |
-| Sulphate | - sulphate | quinine sulphate |
-| Sodium | - sodium | amoxicillin sodium |
-| Potassium | - potassium | furosemide potassium |
-| Calcium | - calcium | cefotaxime calcium |
-| Mesilate (methanesulphonate) | - mesilate | haloperidol mesilate |
-
-**Key points for pharmacy practice:**
-- The salt form can affect bioavailability — e.g., doxycycline hyclate vs doxycycline base
-- In dispensing, the salt form must be specified on the prescription
-- Different salts may have different storage requirements
-
-### Ester Naming
-
-Esters are named using the acyl group followed by the parent alcohol: e.g., **acetyl-salicylic acid** (aspirin), **benzyl penicillin** (penicillin G).
-
-**Ester prodrugs** are inactive compounds that are metabolically converted to the active drug. The ester designation in the name (e.g., -pril → fosphenytoin is not a prodrug but a phosphate ester of phenytoin) gives a clue to the metabolic activation step.
-
-### SAPC Examination Note
-
-Questions frequently test the relationship between a drug's chemical name, its salt form, and its therapeutic use. Be sure you can identify:
-1. The pharmacologically active moiety
-2. The salt or ester component
-3. Why the salt/ester form was chosen
-
----
-
-## Drug Classification by Legal Status
-
-For the SAPC examination, you must know South Africa's scheduling system:
-
-| Schedule | Description | Examples |
-|----------|-------------|----------|
-| **Schedule 0** | General sale — no prescription needed | Certain multivitamins, basic analgesics |
-| **Schedule 1** | Prescription medicine — pharmacist-initiated | Some antihypertensives, oral hypoglycemics |
-| **Schedule 2** | Pharmacist-only medicine | Chlorpheniramine, certain NSAIDs |
-| **Schedule 3** | Prescription only — controlled dispensing | Benzodiazepines, certain opioids |
-| **Schedule 4** | Prescription only medicine | Most prescription drugs |
-| **Schedule 5** | Controlled substances — permit required | Cocaine, amphetamine derivatives |
-| **Schedule 6** | Dangerous drugs — custody of practitioner | Opium, cannabis |
-| **Schedule 7** | Unlawful possession — prohibitted | Heroin, methaqualone |
-| **Schedule 8** | Abuse potential — registers maintained | Methylphenidate, certain opioids |
-
-**Critical distinction for pharmacy practice:** The schedule determines what can be dispensed without a prescription and whether record-keeping requirements apply. Schedule 5 and above require permits; Schedule 8 drugs require a register.
-
----
-
-## Drug Classification by Pharmacological Action
-
-### Classification by Mechanism of Action
-
-| Class | Mechanism | Example |
-|-------|-----------|---------|
-| Agonist | Activates receptor | Morphine (μ-opioid agonist) |
-| Antagonist | Blocks receptor | Naloxone (opioid antagonist) |
-| Partial agonist | Submaximal activation | Buprenorphine (partial μ agonist) |
-| Inverse agonist | Negative constitutive activity | Hydroxyzine (H1 inverse agonist) |
-| Enzyme inhibitor | Blocks enzyme activity | Captopril (ACE inhibitor) |
-| Channel blocker | Blocks ion channels | Verapamil (Ca²⁺ channel blocker) |
-| Reuptake inhibitor | Blocks neurotransmitter reuptake | Fluoxetine (SSRI) |
-
----
-
-## SAPC Examination Tips
-
-1. **INN vs brand names** — SAPC questions often present a scenario where a patient brings a brand name and you must identify the generic drug. Practice converting between brand and generic names for common medications on the South African market.
-2. **ATC codes** — Be able to decode an ATC code to determine the anatomical system and therapeutic group. In practice, this helps with drug information retrieval and identifying interactions.
-3. **Scheduling** — Know the scheduling system thoroughly. Questions frequently involve determining whether a particular drug requires a prescription or can be dispensed OTC.
-4. **Salt forms** — Always check the salt when identifying drugs — " Atenolol" and "atenolol 100mg tablets" may need to be distinguished from "atenololchlorthalidone" combination products.
-5. **Stem recognition** — Learning pharmacological stems (-olol, -pril, -statin, -caine, etc.) will help you identify drug classes rapidly in the exam and in practice.
-6. **Generic substitution** — Understand the legal and scientific basis for generic substitution in South Africa. Know when a generic may or may not be substituted (e.g., narrow therapeutic index drugs, modified-release products).
-
-### Common Examination Trap
-
-Students frequently confuse trade/brand names with generic names. The SAPC consistently uses generic nomenclature in pharmaceutical science questions. Always practice answering questions using the INN or chemical name, not the brand name. For example, Panado® is NOT a drug name — paracetamol is the correct drug name.
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

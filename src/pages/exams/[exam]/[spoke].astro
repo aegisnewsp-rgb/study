@@ -125,7 +125,7 @@ const spokeRobots = (isNoindexExam(exam.examId)
     || spoke === 'strategy'
     || spoke === 'eligibility'
     || spoke === 'pattern'
-    || (spoke === 'syllabus' && !hasSubstantialSyllabus))
+    || (spoke === 'syllabus' && (!hasSubstantialSyllabus || !hasNotesHub)))
   ? 'noindex, follow' : undefined;
 
 const officialLine = exam.officialSource

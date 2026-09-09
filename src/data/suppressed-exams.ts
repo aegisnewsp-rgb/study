@@ -20,9 +20,13 @@ export const NOINDEX_EXAMS = new Set<string>([
   //   - haad: renamed to DOH in 2017-2019; /exams/doh/ is the canonical page
   //     (also in DISCONTINUED_EXAMS below with a renamed notice).
   'loe', 'nlt', 'pcat', 'toafa', 'haad',
+  // AdSense review 2026-09-09: discontinued or merged exams still titled as
+  // live "2026" hubs with no notes corpus — misleading + thin URL graph.
+  'aiims-mbbs', 'jipmer', 'lsat',
 ]);
 
 export const DISCONTINUED_EXAMS: Record<string, string> = {
+  'aiims-mbbs': 'AIIMS no longer conducts a separate MBBS entrance exam — from 2020 onwards, AIIMS MBBS seats are filled through NEET UG (NTA). This page is retained for reference only — prepare for NEET UG instead.',
   lsat: 'LSAT—India was discontinued by the Law School Admission Council (LSAC) from the 2025 admission cycle and is no longer conducted. This page is retained for reference only — verify current options with the official body before relying on the details below.',
   jipmer: 'JIPMER no longer conducts a separate MBBS entrance exam — from 2020 onwards, admission to JIPMER MBBS is solely through NEET UG, and postgraduate (MD/MS) admission is through INI-CET conducted by AIIMS New Delhi. This page is retained for reference only — prepare for NEET UG (or INI-CET for PG) instead.',
   haad: 'The HAAD exam was renamed when the Health Authority Abu Dhabi became the Department of Health (DOH) Abu Dhabi — it is now conducted as the DOH exam. See the DOH (UAE) page for current details.',

@@ -65,6 +65,7 @@ const canonicalURL = canonical
     : new URL(cleanPath, Astro.site);
 const currentYear = new Date().getFullYear();
 const is404Page = cleanPath === '/404/' || (typeof title === 'string' && title.includes('404'));
+const allowAutoAds = !is404Page && !(typeof robots === 'string' && /noindex/i.test(robots));
 ---
 
 <!doctype html>
@@ -77,7 +78,7 @@ const is404Page = cleanPath === '/404/' || (typeof title === 'string' && title.i
         <meta name="google-site-verification" content="Va3l3XyhrSbLFp4XEIsQwEtysPjYt3Es7QkWqwEDQdo" />
         <!-- Google AdSense Account Verification (Site meta always present; Auto ad script excluded on 404 per AdSense Policy) -->
         <meta name="google-adsense-account" content="ca-pub-4545403370367988" />
-        {!is404Page && (
+        {allowAutoAds && (
             <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4545403370367988" crossorigin="anonymous"></script>
         )}
 

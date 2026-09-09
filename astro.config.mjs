@@ -35,6 +35,13 @@ try {
 } catch (e) {
   console.warn('Could not load exams.json for sitemap:', e.message);
 }
+const NOINDEX_SITEMAP = new Set([
+  'aau', 'cmat-nepal', 'eed', 'emu-entrance', 'engineering-ent', 'gaokao-cn',
+  'hepc', 'kuet', 'law-apt', 'matrikulasi', 'medical-adm', 'must-adm', 'ruet', 'uppm',
+  'loe', 'nlt', 'pcat', 'toafa', 'haad',
+  'aiims-mbbs', 'jipmer', 'lsat',
+]);
+examSlugs = examSlugs.filter((s) => !NOINDEX_SITEMAP.has(s));
 
 // AdSense 2026: bulk-publish flag fix.
 // Pre-build a URL→lastmod map from note frontmatter `lastUpdated` (preferred)
@@ -99,6 +106,16 @@ export default defineConfig({
       ],
       changefreq: 'weekly',
       priority: 0.7,
+      filter(page) {
+        try {
+          const u = new URL(page);
+          const parts = u.pathname.split('/').filter(Boolean);
+          if (parts[0] === 'exams' && parts[1] && NOINDEX_SITEMAP.has(parts[1])) return false;
+          if (parts[0] === 'notes' && parts[1] && NOINDEX_SITEMAP.has(parts[1])) return false;
+          if (parts[0] === 'study-plan' && parts[1] && NOINDEX_SITEMAP.has(parts[1])) return false;
+        } catch {}
+        return true;
+      },
       serialize(item) {
         const m = noteLastMod.get(item.url);
         if (m) item.lastmod = m.toISOString();

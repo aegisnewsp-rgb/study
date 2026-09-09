@@ -1,5 +1,5 @@
 import { useState, useMemo, useEffect, useRef } from 'react';
-import type { ExamTemplate, DailyTopicItem, RoadmapTemplate } from '../data/exams';
+import type { ExamTemplate, DailyTopicItem, RoadmapTemplate, Phase } from '../data/exams';
 import { getPcmNotesPool } from '../data/notes-pool';
 
 /** Canonical progress IDs are topic slugs (e.g. phy-001), never full paths. */
@@ -117,6 +117,111 @@ function WeightStars({ weight }: { weight: number }) {
   );
 }
 
+function noteUrlFor(topic: DailyTopicItem, examId: string, subjectId?: string): string | null {
+  if (topic.notePath) return topic.notePath;
+  if (!subjectId) return null;
+  const pool = getPcmNotesPool(examId, subjectId);
+  return pool ? `/notes/${pool.exam}/${pool.subject}/${topic.id}/` : null;
+}
+
+function StartHere({
+  topics,
+  durationLabel,
+  examId,
+  selectedDuration,
+  subjectIds,
+  completedTopics,
+  trimmed,
+  syllabusCount,
+}: {
+  topics: DailyTopicItem[];
+  durationLabel: string;
+  examId: string;
+  selectedDuration: string;
+  subjectIds: Record<string, string>;
+  completedTopics: Set<string>;
+  trimmed: boolean;
+  syllabusCount: number;
+}) {
+  const ranked = useMemo(
+    () => [...topics].sort((a, b) => b.weight - a.weight).slice(0, 8),
+    [topics],
+  );
+  if (ranked.length === 0) return null;
+  return (
+    <div className="card p-5 sm:p-6">
+      <h3 className="text-sm font-semibold text-surface-900 dark:text-surface-50 mb-1">
+        Start here — highest yield for {durationLabel}
+      </h3>
+      <p className="text-xs text-surface-500 mb-4 leading-relaxed">
+        {trimmed
+          ? `This timeline cannot cover all ${syllabusCount} syllabus topics. These ${topics.length} are the highest-weight ones that fit. Work top-down.`
+          : `Your timeline covers the full syllabus (${topics.length} topics). Still start with the heaviest ones — they carry more marks.`}
+      </p>
+      <ol className="space-y-2">
+        {ranked.map((topic, i) => {
+          const href = noteUrlFor(topic, examId, subjectIds[topic.subject]);
+          const done = topicDone(completedTopics, topic.id);
+          const nameClass = `text-sm font-medium ${done ? 'line-through' : ''} ${
+            href ? 'text-brand-700 dark:text-brand-300 hover:underline' : 'text-surface-800 dark:text-surface-200'
+          }`;
+          return (
+            <li key={topic.id} className={`flex items-start gap-3 ${done ? 'opacity-60' : ''}`}>
+              <span className="text-xs font-mono text-brand-600 dark:text-brand-400 w-5 shrink-0 mt-0.5" aria-hidden="true">
+                {i + 1}
+              </span>
+              <div className="flex-1 min-w-0">
+                {href ? (
+                  <a
+                    href={`${href}?duration=${selectedDuration}`}
+                    className={nameClass}
+                    onClick={() => setSrTier(selectedDuration)}
+                  >
+                    {topic.name}
+                  </a>
+                ) : (
+                  <p className={nameClass}>{topic.name}</p>
+                )}
+                <p className="text-xs text-surface-400">{topic.subject}</p>
+              </div>
+              <WeightStars weight={topic.weight} />
+            </li>
+          );
+        })}
+      </ol>
+    </div>
+  );
+}
+
+function PhasePlan({ phases }: { phases: Phase[] }) {
+  if (!phases.length) return null;
+  return (
+    <div className="card p-5 sm:p-6">
+      <h3 className="text-sm font-semibold text-surface-900 dark:text-surface-50 mb-1">
+        Phase plan
+      </h3>
+      <p className="text-xs text-surface-500 mb-4 leading-relaxed">
+        How to sequence this timeline: foundation, then practice, then mocks.
+      </p>
+      <ol className="space-y-3">
+        {phases.map((p, i) => (
+          <li key={p.name} className="flex gap-3">
+            <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-brand-100 dark:bg-brand-900/40 text-xs font-bold text-brand-700 dark:text-brand-300">
+              {i + 1}
+            </span>
+            <div>
+              <p className="text-sm font-medium text-surface-800 dark:text-surface-200">
+                {p.name} · {p.weeks} {p.weeks === 1 ? 'week' : 'weeks'}
+              </p>
+              <p className="text-xs text-surface-500 leading-relaxed">{p.focus}</p>
+            </div>
+          </li>
+        ))}
+      </ol>
+    </div>
+  );
+}
+
 function setSrTier(selectedDuration: string) {
   if (!selectedDuration) return;
   const tierMap: Record<string, string> = {
@@ -216,7 +321,7 @@ function SubjectAccordion({
                 aria-label={`Mark ${topic.name} complete`}
                 className="mt-0.5 shrink-0 w-3.5 h-3.5 rounded border-surface-300 dark:border-surface-600 text-brand-600 focus:ring-brand-500 cursor-pointer"
               />
-              <span className="text-xs text-surface-400 dark:text-surface-600 font-mono mt-0.5 shrink-0 w-5">
+              <span className="text-xs text-surface-400 dark:text-surface-600 font-mono mt-0.5 shrink-0 w-5" title="Priority in this subject (highest weight first)">
                 {i + 1}.
               </span>
               <div className="flex-1 min-w-0">
@@ -648,6 +753,17 @@ export default function RoadmapApp({ exams }: Props) {
 
   const durationLabel = DURATION_OPTIONS.find(d => d.value === roadmap?.duration)?.label ?? roadmap?.duration ?? '';
 
+  const syllabusCount = useMemo(
+    () => (selectedExamData?.subjects ?? []).reduce((n, s) => n + (s.topics?.length ?? 0), 0),
+    [selectedExamData],
+  );
+  const subjectIds = useMemo(() => {
+    const map: Record<string, string> = {};
+    for (const s of examSubjects) map[s.name] = s.id;
+    return map;
+  }, [examSubjects]);
+  const trimmed = !!roadmap && syllabusCount > 0 && roadmap.dailyTopics.length < syllabusCount;
+
   return (
     <div className="min-h-screen">
       {/* Selector */}
@@ -755,7 +871,8 @@ export default function RoadmapApp({ exams }: Props) {
                     📅 {roadmap.totalDays} {roadmap.totalDays === 1 ? 'day' : 'days'}
                   </span>
                   <span className="inline-flex items-center gap-1.5 text-xs font-medium px-2.5 py-1 bg-surface-100 dark:bg-surface-800 text-surface-600 dark:text-surface-400 rounded-full">
-                    📚 {roadmap.dailyTopics.length} topics
+                    📚 {roadmap.dailyTopics.length} highest-weight topics
+                    {trimmed ? ` of ${syllabusCount}` : ''}
                   </span>
                 </div>
                 {/* Share button */}
@@ -794,6 +911,17 @@ export default function RoadmapApp({ exams }: Props) {
             </div>
           </div>
 
+          <StartHere
+            topics={roadmap.dailyTopics}
+            durationLabel={durationLabel}
+            examId={selectedExam}
+            selectedDuration={selectedDuration}
+            subjectIds={subjectIds}
+            completedTopics={completedTopics}
+            trimmed={trimmed}
+            syllabusCount={syllabusCount}
+          />
+
           {/* Progress overview */}
           <ProgressOverview
             examName={selectedExamData.examName}
@@ -801,11 +929,13 @@ export default function RoadmapApp({ exams }: Props) {
             completedTopics={completedTopics}
           />
 
+          {roadmap.phases && roadmap.phases.length > 0 ? <PhasePlan phases={roadmap.phases} /> : null}
+
           {/* Subject accordions */}
           <div className="space-y-2">
             <div className="flex items-center justify-between px-1 gap-2 flex-wrap">
               <h3 className="text-xs font-semibold uppercase tracking-widest text-surface-500">
-                Subject Breakdown
+                By subject — heaviest topics first
               </h3>
               <div className="flex items-center gap-2 flex-wrap">
                 <button
@@ -890,7 +1020,7 @@ export default function RoadmapApp({ exams }: Props) {
               Select an Exam & Duration
             </h3>
             <p className="text-sm text-surface-500 max-w-xs mx-auto">
-              Choose your exam from the dropdown, pick a study timeline, and get your personalised roadmap instantly.
+              Choose your exam and how long you have. Shorter timelines keep only the highest-weight topics.
             </p>
             {lastPlan && (
               <a

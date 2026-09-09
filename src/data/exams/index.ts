@@ -436,4 +436,4 @@ export function getCountryFlag(country: string): string {
 }
 
 // Re-export types
-export type { ExamTemplate, Subject, Topic, DailyTopicItem, RoadmapTemplate, RescueTemplate } from './types';
+export type { ExamTemplate, Subject, Topic, DailyTopicItem, RoadmapTemplate, RescueTemplate, Phase } from './types';

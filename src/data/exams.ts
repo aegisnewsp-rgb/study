@@ -15,4 +15,5 @@ export {
   type RescueTemplate,
   type Subject,
   type Topic,
+  type Phase,
 } from './exams/index';

@@ -48,6 +48,17 @@ describe('roadmap invariants', () => {
       }
     });
 
+    it('1-hour plan is a strict subset of the 1-month plan (timeline trims to highest yield)', () => {
+      const short = exam.durations['1h']?.dailyTopics ?? [];
+      const month = exam.durations['1mo']?.dailyTopics ?? [];
+      expect(short.length).toBeGreaterThanOrEqual(1);
+      expect(month.length).toBeGreaterThanOrEqual(short.length);
+      const monthIds = new Set(month.map((t: { id: string }) => t.id));
+      for (const t of short) {
+        expect(monthIds.has(t.id), `${exam.examId} 1h topic ${t.id} missing from 1mo`).toBe(true);
+      }
+    });
+
     it('weight-sorts the top topic for short durations (weight >= 3)', () => {
       for (const d of SHORT_DURATIONS) {
         const first = exam.durations[d].dailyTopics[0];

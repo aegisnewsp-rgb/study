@@ -16,99 +16,71 @@ lastUpdated: "2026-09-10"
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-Health promotion enables individuals and communities to control determinants of health and adopt evidence-based preventive behaviours. Patient education is the one-to-one clinical process of teaching diagnosis, medication, and self-management skills during consultations. Together they form a DOH-mandated component of every licensed clinician's scope.
+Health promotion is the socio-behavioural and policy effort to enable people to gain control over health determinants, whereas patient education is the one-to-one clinical teaching of an individual about their condition, medication, or self-care. Both are scored under DOH Medical-Knowledge (~3% weight).
 
-#### Core constructs to memorise:
-
-- **Levels of prevention:** primary (before disease — vaccination, smoking cessation), secondary (early detection — screening), tertiary (limiting complications — diabetic foot care).
-- **Patient-education cycle:** assess needs → set objectives → plan → deliver (verbal + written + demonstration) → evaluate with **teach-back**.
-- **Counselling frameworks:** **Transtheoretical model** (precontemplation → contemplation → preparation → action → maintenance) and **motivational interviewing** (OARS: Open questions, Affirmations, Reflections, Summaries).
-
-> **High-yield:** Always match the **learning domain** (Bloom's cognitive / affective / psychomotor) to the clinical goal — insulin technique is psychomotor, not cognitive.
-
-| Concept | One-line answer |
-| --- | --- |
-| Health promotion | Broad socio-behavioural strategy (Ottawa Charter, 1986) |
-| Patient education | Individual teaching episode within clinical care |
-| Teach-back | Patient restates instructions in their own words |
-| Weqaya / FitforLife | UAE national prevention programmes |
-
----
+- **Three prevention levels:** primary = before disease (vaccination, smoking cessation), secondary = early detection (screening, mammography), tertiary = reducing complications (cardiac rehab, diabetic foot care).
+- **Patient-education cycle:** assess → set objectives → plan → deliver (verbal, written, demo, teach-back) → evaluate.
+- **Counselling toolkit:** motivational interviewing (OARS) and the **Transtheoretical Model** (precontemplation → maintenance).
+- **UAE focus areas:** diabetes, obesity, tobacco, mental health, vaccine uptake under Weqaya and FitforLife.
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
 #### Definitions and Scope
 
-Health promotion is the public-health process of enabling people to increase control over determinants of health (WHO Ottawa Charter, 1986). Patient education is the clinical, one-to-one teaching delivered during consultations to support adherence, self-management, and informed consent. In DOH-licensed facilities both activities must be documented in the medical record under clinical-governance standards.
+Health promotion is the WHO-endorsed process of enabling individuals, families, and communities to increase control over the determinants of health. Patient education is the clinician-delivered component: structured teaching during the consultation about diagnosis, medication, lifestyle, or self-monitoring.
 
 #### Levels of Prevention
 
-The framework distinguishes three tiers, frequently tested as scenario MCQs. Primary prevention acts before disease onset — examples include HPV vaccination, tobacco cessation counselling, and FitforLife physical-activity campaigns. Secondary prevention detects disease early in asymptomatic people — examples include HbA1c screening, mammography, and FIT stool testing. Tertiary prevention reduces complications in established disease — examples include cardiac rehabilitation post-MI, diabetic foot surveillance, and asthma action plans.
+| Level | Aim | Example |
+| --- | --- | --- |
+| Primary | Stop disease before it starts | HPV vaccination, tobacco cessation |
+| Secondary | Detect disease early | HbA1c screening, mammography, FIT test |
+| Tertiary | Limit complications in established disease | Cardiac rehab post-MI, diabetic foot care |
+
+Misclassifying tertiary care as "primary" is a common DOH MCQ trap, e.g. insulin education for a known diabetic is tertiary, not primary.
 
 #### The Patient-Education Process
 
-A structured five-step cycle underpins DOH-compliant education: (1) assess learning needs and health literacy; (2) set SMART learning objectives mapped to Bloom's domain; (3) plan method — verbal, written, demonstration, video; (4) deliver using plain language and culturally appropriate material; (5) evaluate with **teach-back**, not a yes/no "do you understand?" prompt.
+- **Assess** learning needs, literacy, language, and cultural background.
+- **Set objectives** across Bloom's domains — cognitive (knowledge), affective (attitude), psychomotor (skill).
+- **Plan** content, format, and media (verbal, written, pictogram, video).
+- **Deliver** using adult-learning principles (Knowles' andragogy: relevance, autonomy, prior experience).
+- **Evaluate** with the **teach-back method** — DOH standards require documented verification of comprehension.
 
 #### Behaviour-Change Counselling
 
-Motivational interviewing (Miller & Rollnick) uses OARS to resolve ambivalence. The Transtheoretical (stages of change) model guides which intervention fits the patient: precontemplation needs reflective listening; action phase needs concrete planning; maintenance needs relapse-prevention support.
-
-#### UAE-Specific Priorities
-
-DOH/MOHAP public-health priorities include tobacco cessation, Type 2 diabetes and obesity prevention, mental-health awareness, maternal-child health, and vaccine uptake. Education materials must accommodate multilingual populations (Arabic, English, Hindi, Urdu, Tagalog, Malayalam).
-
-| Concept | Key point |
-| --- | --- |
-| Primary prevention | Vaccination, lifestyle counselling before disease |
-| Secondary prevention | Screening in asymptomatic at-risk groups |
-| Tertiary prevention | Rehab and complication prevention in established disease |
-| Bloom's cognitive | Knowledge, comprehension — facts about disease |
-| Bloom's affective | Attitudes, beliefs — adherence motivation |
-| Bloom's psychomotor | Skills — inhaler, insulin, wound dressing technique |
-
-- Match every patient-education intervention to the **correct level of prevention** in MCQs.
-- Use **teach-back** as the verification step; "do you understand?" is non-compliant.
-- Reference the **Ottawa Charter** (1986) when asked about health-promotion pillars.
-- Apply **OARS** and stages-of-change in lifestyle-disease OSCE stations.
-
----
+- **Motivational interviewing** uses OARS (Open questions, Affirmations, Reflections, Summaries) to resolve ambivalence.
+- **Stages of change** (precontemplation, contemplation, preparation, action, maintenance) must guide intervention matching.
+- Match the strategy to the stage — pushing "action" advice on a patient in precontemplation fails.
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-#### Ottawa Charter Pillars (1986)
+#### Ottawa Charter and Health-Promotion Framework
 
-The five action areas are: build healthy public policy; create supportive environments; strengthen community action; develop personal skills; reorient health services toward prevention. Exam stems often ask which pillar a programme represents — a workplace smoking ban is "healthy public policy," while a diabetes self-management course is "develop personal skills."
+The 1986 Ottawa Charter defines five action areas: build healthy public policy, create supportive environments, strengthen community action, develop personal skills, and reorient health services. UAE programmes such as Weqaya (cardiovascular screening for Emiratis) and FitforLife (community physical-activity) operationalise these action areas at the national level.
 
-#### Domains of Learning in Practice
+#### Domains of Learning and Health Literacy
 
-A patient newly started on basal-bolus insulin requires **psychomotor** learning (injection sites, rotation, priming the pen), **cognitive** learning (hypoglycaemia recognition, sick-day rules), and **affective** learning (acceptance of lifelong therapy). Targeting only the cognitive domain is a classic exam trap.
-
-#### Edge Cases and Traps
-
-Cultural and health-literacy factors dominate DOH exam scenarios. A senior Emirati patient with limited English, or a South-Asian domestic worker with low literacy, requires pictograms, interpreter support, and confirmation through teach-back. Religious considerations (Ramadan fasting and diabetes medication adjustment) are frequent scenario modifiers.
+Patient-education objectives should target the correct Bloom's domain. Teaching inhaler technique is a **psychomotor** objective, not cognitive; "explain the role of β2-agonists" is cognitive; "accept long-term controller use" is affective. Plain language, avoidance of jargon, and culturally adapted materials are mandatory in multilingual UAE settings (Arabic, English, Hindi, Urdu, Tagalog, Malayalam).
 
 #### Common Mistakes
 
-- Confusing health education (information transfer) with health promotion (broader socio-behavioural strategy).
-- Mislabelling tertiary prevention as primary — e.g. calling cardiac rehab after MI a "prevention programme" without specifying the level.
-- Skipping teach-back because the patient nodded.
-- Treating patient education as informal; the DOH requires documented evidence of delivery and comprehension.
-- Choosing a leaflet-only intervention when the objective is psychomotor.
+1. Confusing health education (information transfer) with health promotion (policy + environment + community action).
+2. Treating "handed the patient a leaflet" as completed patient education — teach-back is required.
+3. Ignoring documentation in the medical record, which the DOH clinical-governance framework audits.
+4. Recommending action-stage tasks for precontemplation-stage patients.
+5. Using English-only materials for non-English-speaking patients.
 
-| Scenario | Correct classification |
-| --- | --- |
-| HPV vaccine in 12-year-old girls | Primary prevention |
-| Annual HbA1c in obese adult | Secondary prevention |
-| Foot exam in diabetic neuropathy | Tertiary prevention |
-| Smoking ban in hospital grounds | Healthy public policy (Ottawa) |
-| Teach-back confirmation of inhaler use | Evaluation step of patient-education cycle |
+#### Worked MCQ Logic
 
-#### Practice prompts:
+Scenario: A 52-year-old with type 2 diabetes and peripheral neuropathy is taught daily foot inspection. Level = tertiary prevention; objective domain = psychomotor; documentation of teach-back required.
 
-1. A 54-year-old male with HbA1c 7.8% attends a structured diabetes programme. Name the prevention level and write two SMART objectives covering different Bloom's domains.
-2. A precontemplative smoker with COPD is referred to you. Outline the OARS-based motivational-interviewing steps you would use in the next 10 minutes, and document the entry required in the medical record per DOH standards.
+#### Practice Prompts
+
+1. A smoker in **contemplation** stage visits the clinic — apply OARS and propose a stage-matched intervention.
+2. An asthma patient receives a written action plan only — identify the missing element per DOH standards and the appropriate Bloom's domain for correct inhaler technique.
 
 ---
 

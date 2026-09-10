@@ -16,61 +16,72 @@ lastUpdated: "2026-09-10"
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-The **cardiovascular system** is a closed circulatory loop: a four-chambered muscular heart pumps blood through arteries → arterioles → capillaries → venules → veins. The heart wall has three layers — **endocardium** (inner), **myocardium** (middle, thickest), **epicardium** (outer = visceral serous pericardium). The fibrous pericardium encloses the heart and the roots of the great vessels.
+The cardiovascular system is a closed circuit: a four-chambered muscular pump (heart) plus arteries, capillaries, and veins that carry blood, gases, hormones, and wastes. The right heart handles deoxygenated blood, the left heart handles oxygenated blood, and unidirectional flow is guaranteed by two AV valves (tricuspid, mitral) and two semilunar valves (pulmonary, aortic).
 
-- **Cardiac Output (CO)** = SV × HR; at rest ≈ 5 L/min.
-- **Ejection Fraction** = (SV / EDV) × 100; normal ≈ 55–70%.
-- **Conducting system order**: SA node → AV node → Bundle of His → bundle branches → **Purkinje fibres**.
-- **Coronary dominance** is right-sided in ~70–80% of people; RCA supplies SA and AV nodes.
-- **Auscultation sites** do NOT match anatomical valve positions: aortic at right 2nd ICS, pulmonary at left 2nd, mitral at apex (5th ICS midclavicular), tricuspid at lower left sternal border.
+- **Cardiac Output** = Stroke Volume × Heart Rate (mL/min); normal ≈ 5 L/min at rest.
+- **Ejection Fraction** = SV / EDV × 100; normal range 55–70 %.
+- **MAP** = Diastolic BP + ⅓(Systolic − Diastolic BP); normal ≈ 70–100 mmHg.
+- **Conducting order**: SA node → AV node → Bundle of His → bundle branches → Purkinje fibres.
+- **Fetal shunts**: foramen ovale (interatrial), ductus arteriosus (PA → aortic arch), ductus venosus (umbilical vein → IVC).
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-#### Chamber and Valve Anatomy
+#### Heart Wall and Chambers
 
-The right atrium receives the **SVC, IVC**, and coronary sinus. The left atrium receives four pulmonary veins (two right, two left). The **interventricular septum** has a small membranous part (just below the aortic valve) and a thick muscular part. AV valves — **tricuspid** (right) and **bicuspid/mitral** (left) — are anchored by **chordae tendineae** to **papillary muscles**; semilunar valves (aortic, pulmonary) have **no chordae**.
+The heart wall has three layers: **endocardium** (innermost, lines chambers), **myocardium** (cardiac muscle, thickest in the left ventricle), and **epicardium** (visceral layer of serous pericardium). The right atrium receives the SVC, IVC, and coronary sinus; the left atrium receives four pulmonary veins. The interventricular septum has a small **membranous** part (just below the aortic valve, common site of VSDs) and a large **muscular** part.
 
-#### Conducting System and Innervation
+#### Valves and Their Supports
 
-The **SA node** (in the upper right atrium near the SVC opening) sets the rate at 70–75/min. The **AV node** introduces a ~0.1 s delay to let atria empty before ventricular contraction. The **Bundle of His** splits into right and left bundle branches that run along the septum and end in **Purkinje fibres** beneath the endocardium. Sympathetic fibres from **T1–T5** accelerate the heart; the **vagus (CN X)** slows the SA node. Cardiac pain refers along T1–T5 dermatomes — classically the left arm in MI.
+The atrioventricular valves (**tricuspid** right, **mitral** left) are anchored by **chordae tendineae** to **papillary muscles**, preventing prolapse during systole. The semilunar valves (aortic, pulmonary) have no chordae and close passively when ventricular pressure falls. Each valve is auscultated away from its anatomical site.
 
-#### Coronary Circulation and Fetal Shunts
-
-| Vessel / Shunt | Connects | Functional fate |
+| Valve | Anatomical location | Auscultation site |
 | --- | --- | --- |
-| Left coronary artery | LAD + circumflex → left atrium, LV, anterior 2/3 septum | None — permanent |
-| Right coronary artery | RA, RV, posterior 1/3 septum; SA & AV nodes | None — permanent |
-| Foramen ovale | Right atrium → left atrium | Closes at birth; fossa ovalis |
-| Ductus arteriosus | Pulmonary trunk → aortic arch | Closes → ligamentum arteriosum |
-| Ductus venosus | Umbilical vein → IVC | Closes → ligamentum venosum |
+| Aortic | Left 3rd intercostal space, behind sternum | Right 2nd ICS, sternal border |
+| Pulmonary | Left 2nd ICS, behind sternum | Left 2nd ICS, sternal border |
+| Tricuspid | Right AV orifice | Lower left sternal border, 4th–5th ICS |
+| Mitral | Left AV orifice | Apex, 5th ICS mid-clavicular line |
+
+#### Coronary Circulation
+
+The **left coronary artery** (LCA) divides into LAD (anterior 2/3 of septum, anterior LV) and circumflex (left atrium, lateral LV). The **right coronary artery** (RCA) supplies the right atrium, right ventricle, posterior 1/3 septum, and in ~70–80 % of people the SA node (60 % supply) and AV node (80 % supply). **Right dominance** is defined by the RCA giving the posterior interventricular artery.
+
+- Image-based MCQs commonly ask which artery is occluded given an infarct territory.
+- RCA occlusion → inferior MI, often with bradycardia (AV nodal ischaemia).
+- LAD occlusion → anterior MI, the most dangerous territory.
+
+#### Pericardium and Pericardial Sinuses
+
+The fibrous pericardium is tough and inelastic; the serous pericardium has parietal and visceral (epicardium) layers. The **transverse pericardial sinus** lies between the aorta/pulmonary trunk anteriorly and the SVC/atria posteriorly, used by surgeons to clamp both great vessels during cardiac surgery. The **oblique sinus** lies behind the left atrium.
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-#### Pericardial Sinuses and Surgical Landmarks
+#### Conducting System in Detail
 
-The pericardium has a tough outer **fibrous layer** and an inner **serous layer** split into parietal (lines the fibrous pericardium) and visceral (= epicardium) layers. Two sinuses form during development and are surgical landmarks: the **transverse pericardial sinus** lies between the aorta/pulmonary trunk anteriorly and the SVC/atria posteriorly — surgeons pass a clamp through it to occlude both great vessels during coronary surgery. The **oblique sinus** lies behind the left atrium, bounded by the pulmonary veins.
+The SA node (~1 % of cardiac cells) sets the rate at 60–100 bpm. The AV node delays the impulse ~0.1 s (often quoted as 0.3 s in textbooks) so atria empty before ventricular contraction. The **Bundle of His** divides into right and left bundle branches running beneath the endocardium; **Purkinje fibres** are modified cardiomyocytes (not nerves) that spread depolarisation rapidly across both ventricles from apex towards the base.
 
-#### Common Mistakes
+#### Fetal Circulation and Postnatal Closure
 
-- Treating Purkinje fibres as nerves — they are **modified cardiac muscle cells**, not neural tissue.
-- Saying chordae attach to semilunar valves — they attach **only** to AV valves.
-- Confusing the **epicardium** (a heart-wall layer) with the pericardium (the sac around the heart).
-- Mixing auscultation sites with anatomy: the aortic valve is anatomically on the left but heard on the right 2nd intercostal space; mitral valve is on the left but heard at the apex.
+In utero, oxygenated blood from the placenta reaches the IVC via the **ductus venosus**, largely bypasses the liver, and shunts right-to-left across the **foramen ovale** into the left atrium. The remaining deoxygenated blood in the pulmonary trunk is diverted to the aorta by the **ductus arteriosus**. After birth, increased PaO₂ and falling prostaglandins close the ductus; the foramen ovale seals functionally within days and anatomically within months.
 
-#### Micro-Worked Example
+| Shunt | Connects | Functional closure |
+| --- | --- | --- |
+| Foramen ovale | Right atrium → left atrium | Within hours of birth |
+| Ductus arteriosus | Pulmonary trunk → aortic arch | 10–15 hours, anatomical 2–3 weeks |
+| Ductus venosus | Umbilical vein → IVC | Minutes after cord clamping |
 
-A patient has HR = 75 beats/min and SV = 70 mL/beat.
-CO = 70 × 75 = **5,250 mL/min ≈ 5.25 L/min**.
-If EDV = 120 mL and ESV = 50 mL, then SV = 120 − 50 = 70 mL (consistent), and EF = (70/120) × 100 ≈ **58%** — within normal range.
+#### Common Mistakes and Clinical Correlates
 
-> Exam tip: image-based NEET PG questions often show a valve cross-section — count the cusps (tricuspid = 3, bicuspid = 2, aortic/pulmonary = 3 semilunar) and the presence of chordae to identify the valve.
+- Confusing anatomical location with auscultation site for the aortic valve (heard on the right but lies on the left).
+- Treating Purkinje fibres as nerves; they are modified cardiac muscle.
+- Forgetting that referred cardiac pain follows T1–T5 sympathetic afferents, classically to the left arm and jaw in MI.
+- Missing the **transverse pericardial sinus** as a surgical landmark.
 
 #### Practice Prompts
 
-1. A newborn fails to thrive with a continuous murmur; which fetal shunt most likely remained patent?
-2. During angiography, occlusion of which artery is most likely to cause posterior septal infarction and AV-nodal block?
+1. A 55-year-old man has an inferior wall MI with bradycardia and first-degree AV block. Which coronary artery is most likely occluded, and why does the block occur?
+2. A neonate becomes cyanotic 24 hours after birth; a machinery murmur is heard. Name the persistent fetal structure, the normal direction of flow through it, and the drug used to keep it patent in duct-dependent congenital heart disease.
 
 ## Continue your study
 

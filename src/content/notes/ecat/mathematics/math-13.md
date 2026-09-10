@@ -19,91 +19,72 @@ diagramPrompt: "Mathematical diagram showing Probability and Permutations concep
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your ECAT Mathematics paper.
 
-Probability measures how likely an event is, written **P(A) = n(A)/n(S)**, where **n(A)** is the number of favorable outcomes and **n(S)** is the size of the sample space. The value always sits between **0** (impossible) and **1** (certain). A permutation counts **ordered** arrangements of **r** objects drawn from **n** distinct objects using **P(n, r) = n! / (n − r)!**, where **!** denotes factorial (e.g. 5! = 5 × 4 × 3 × 2 × 1 = 120).
+Probability quantifies how likely an event is, where **P(A) = favourable outcomes ÷ total equally likely outcomes**, always sitting between 0 and 1. A permutation counts **ordered** arrangements of r objects drawn from n distinct items: **P(n, r) = n! / (n − r)!**.
 
-| Concept | Quick formula |
-| --- | --- |
-| Classical probability | P(A) = n(A) / n(S) |
-| Permutation | P(n, r) = n! / (n − r)! |
-| Complement | P(A′) = 1 − P(A) |
-| Independent events | P(A ∩ B) = P(A) · P(B) |
-
-- For ECAT, expect **1–2 MCQs** out of the 4% Mathematics quota — usually a counting problem and one probability identity.
-- Read the wording: "arrange" or "rank" implies permutation; "select" or "form a group" implies combination.
-- Always check whether two events are **mutually exclusive** before adding their probabilities.
+- **Classic probability** uses the sample space S: P(A) = n(A)/n(S).
+- **Permutation vs combination**: order matters for arrangements, not for groups.
+- **Independent events**: P(A ∩ B) = P(A) · P(B); use addition rule P(A ∪ B) = P(A) + P(B) − P(A ∩ B) for general cases.
+- **ECAT tip**: expect 1–2 MCQs testing factorial manipulation and the complement rule P(A′) = 1 − P(A).
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months before ECAT.
 
-#### Core Definitions
+#### Core definitions
 
-The **sample space S** is the set of every possible outcome of a random experiment, and each outcome is assumed **equally likely** in classical (a priori) probability. When outcomes are not equally likely, probabilities come from frequency data instead. A **permutation** is an ordered selection, so picking {A, B} and {B, A} counts as two different arrangements.
+Probability assigns a numerical value between 0 (impossible) and 1 (certain) to an event in a sample space S. When outcomes are equally likely, P(A) = n(A)/n(S). A permutation is an **ordered** selection, while a combination is an unordered selection — the difference is whether rearranging the chosen items produces a new outcome.
 
-#### Counting Principle and Factorials
+#### Key formulas
 
-If task 1 can be done in **m** ways and task 2 in **n** ways, both can be done in **m × n** ways. Factorials grow fast: 7! = 5040 and 10! = 3 628 800. The permutation formula **P(n, r) = n! / (n − r)!** already embeds this multiplication, since the numerator's first **r** factors collapse onto the ordered positions.
-
-#### The Three Probability Rules
-
-| Rule | Statement | When it applies |
+| Formula | Meaning | When to use |
 | --- | --- | --- |
-| Addition (general) | P(A ∪ B) = P(A) + P(B) − P(A ∩ B) | Any two events A, B |
-| Addition (mutually exclusive) | P(A ∪ B) = P(A) + P(B) | A ∩ B = ∅ |
-| Multiplication (independent) | P(A ∩ B) = P(A) · P(B) | Events do not affect each other |
+| P(A) = n(A)/n(S) | Classical probability | Equally likely outcomes |
+| P(A ∪ B) = P(A) + P(B) − P(A ∩ B) | Addition rule | Two events, possibly overlapping |
+| P(A ∩ B) = P(A)·P(B) | Multiplication rule | Independent events only |
+| P(A\|B) = P(A ∩ B)/P(B) | Conditional probability | Event B has already occurred |
+| P(n, r) = n!/(n − r)! | Permutation of r from n | Ordered arrangements |
 
-#### Conditional Probability
+#### Counting principle
 
-The symbol **P(A | B)** reads "probability of A given B" and is computed as **P(A ∩ B) / P(B)**, provided P(B) > 0. ECAT questions often hide a two-stage draw (with or without replacement) inside this idea — without replacement means dependent; with replacement means independent.
+If task 1 can be done in m ways and task 2 in n ways, both together can be done in m · n ways. This underpins permutation derivations and tree-diagram enumeration of compound experiments.
 
-- Always draw a small tree diagram for two-stage experiments to avoid double-counting branches.
-- Remember the **complement rule** P(A′) = 1 − P(A): it is faster to compute "at least one" by subtracting "none" from 1.
-- Watch the wording "and" versus "or" — they map onto intersection (∩) and union (∪) respectively.
+- Treat "arrange", "queue", "rank" or "first–second–third" as permutation cues.
+- Treat "select", "choose", "form a committee" as combination cues.
+- When in doubt, count small cases (e.g. choosing 2 from {A, B, C}) to test whether order changes the answer.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline before ECAT.
+> Comprehensive coverage for students on a longer study timeline.
 
-#### Bayes' Theorem and Reversing the Condition
+#### Edge cases and traps
 
-Bayes' theorem, **P(A | B) = P(B | A) · P(A) / P(B)**, lets you invert a conditional probability. ECAT rarely asks a full Bayes derivation, but it does test the intuition: **P(A | B)** is **not** the same as **P(B | A)**. A classic trap presents a medical-test style scenario where the student must compute the probability of having a condition *given* a positive test, not the probability of a positive test *given* the condition.
+The most common ECAT error is swapping P(A|B) with P(B|A). They are equal only when P(A) = P(B); otherwise Bayes' theorem P(A|B) = P(B|A)·P(A)/P(B) is required. A second trap appears when students apply the independent-events multiplication rule to conditional problems — check independence before using P(A ∩ B) = P(A)·P(B).
 
-#### Permutation Edge Cases
+#### Worked micro-example
 
-| Variant | Formula | Example |
-| --- | --- | --- |
-| All n objects, no repetition | n! | Arrange 5 books on a shelf = 120 |
-| r from n, no repetition | n! / (n − r)! | Top 3 finishers from 10 runners = 720 |
-| With repeated objects | n! / (a! b! c!) | Letters of "MATHEMATICS" = 11! / (2! 3! 2!) |
-| Circular arrangement | (n − 1)! | Seating 8 around a round table = 5040 |
+How many 3-letter "words" (real words not required) can be formed from the 5 distinct letters {A, B, C, D, E} if no letter repeats?
 
-For the repeated-objects case, divide by the factorial of each block of identical items to avoid counting indistinguishable swaps.
+- Apply P(5, 3) = 5!/(5 − 3)! = 120/2 = **60 arrangements**.
 
-#### Worked Micro-Example
+A bag contains 4 red and 6 blue marbles. One marble is drawn, replaced, then another is drawn. Find P(both red).
 
-A bag holds 4 red and 6 blue balls. Two balls are drawn **without** replacement. Find the probability that both are red.
-- Total ordered pairs = 10 × 9 = 90. Favorable = 4 × 3 = 12. So **P = 12 / 90 = 2 / 15 ≈ 0.1333**.
-- Cross-check via combination: P = C(4,2)/C(10,2) = 6/45 = 2/15. ✓
+- Events are independent due to replacement, so P = (4/10)·(4/10) = **0.16**.
 
-#### Common Mistakes and Traps
+#### Common mistakes table
 
-- Treating "arrange" as a combination, giving an answer that is **r!** times too small.
-- Adding probabilities for non-mutually-exclusive events and forgetting to subtract P(A ∩ B).
-- Using **n!** in place of **(n − r)!** in the permutation denominator, inflating the result by a factor of r!.
-- Computing the joint probability of two conditional events by multiplying instead of using the chain rule.
+| Mistake | Correction |
+| --- | --- |
+| Using n! instead of (n − r)! in denominator | Permutation formula has (n − r)!; double factorial carefully |
+| Treating "arrange" as combination | Order matters in arrangements |
+| Forgetting overlap term P(A ∩ B) in addition rule | Subtract the joint probability when events overlap |
+| Confusing conditional directions | P(A\|B) ≠ P(B\|A) in general |
 
-#### Practice Prompts
+#### Practice prompts
 
-1. Five engineers sit in a row. In how many ways can they be arranged if the youngest must sit in the middle? (Answer: 4! = 24.)
-2. A die is rolled twice. What is the probability that the sum is 7 **or** both rolls show an even number? (Answer: P(sum 7) = 6/36; P(both even) = 9/36; P(both even and sum 7) = 0; total = 15/36 = 5/12.)
-
-#### Exam Strategy for ECAT
-
-- Budget about **45 seconds** per MCQ; probability and permutations items are short so they are good targets for quick points.
-- Memorize the four formulas in the Standard tier table; the distractors in MCQs usually hinge on one wrong sign or wrong factorial term.
-- If a counting answer runs into the millions, re-read the question — you likely missed a restriction (e.g. "letters must not repeat" or "the two specific people must sit together").
+1. Compute P(8, 4) and interpret it as ordered arrangements.
+2. Two dice are rolled. Find P(sum = 7 or sum = 11) using the addition rule.
 
 ---
 

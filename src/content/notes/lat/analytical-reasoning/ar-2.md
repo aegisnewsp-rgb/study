@@ -24,74 +24,83 @@ diagramPrompt: "Educational diagram illustrating Statement and Assumptions with 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-A **statement** is a given fact, claim, or opinion. An **assumption** is the unstated premise the speaker treats as true for the statement to hold. In LAT Analytical Reasoning, you pick the assumption whose negation collapses the statement.
+A **Statement** is a declared fact or opinion. An **Assumption** is an unstated belief the speaker relies on for that statement to hold. On the LAT, you must pick the option whose truth is **necessarily** taken for granted, not merely likely.
 
-- An assumption is *necessary*, not merely *possible* — test by negating it.
-- Trigger words that signal a hidden assumption: **should, must, ought to, let us, assuming that**.
-- Distinguish assumption from **conclusion** (what is drawn) and **course of action** (what should be done).
+- Pick assumptions that are **suppressed**, not conclusions, not courses of action.
+- Apply the **negation test**: if the opposite of an option collapses the statement, it is the assumption.
+- Watch trigger words like **should, must, ought to, let us** — they flag hidden value judgments.
 
-| Term | What it is |
+| Concept | Quick cue |
 | --- | --- |
-| Statement | The stated claim or fact |
-| Assumption | Hidden belief that *must* be true for the statement to stand |
-| Conclusion | What logically follows once the assumption is granted |
+| Assumption | Hidden premise, must be true |
+| Conclusion | What follows from the assumption |
+| Course of action | Prescriptive "what to do" |
+
+---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-#### Definition and Logical Role
+#### Anatomy of the Question
 
-An assumption is a **suppressed premise** — a proposition the author takes for granted but never voices. It sits between the stated fact and the inference. If you remove the assumption, the statement loses its persuasive force. LAT questions present one statement and four to five candidate assumptions; you must mark the one that is *necessarily* relied upon.
+Each LAT item gives a short statement (policy claim, advertisement, appeal, or instruction) and lists three to five candidate assumptions. The candidate whose falsehood would **undermine** the statement is the correct answer. Anything merely *possible*, *desirable*, or *useful* is rejected.
 
-#### The Necessity Test (Negation Method)
+#### Necessary vs Merely Possible
 
-Apply this three-step test whenever you evaluate an option:
+A **necessary assumption** is a precondition without which the statement loses force. A possible assumption may still be true while the statement stands independently. LAT examiners reward the first kind and penalise the second.
 
-1. Identify the candidate assumption P.
-2. Temporarily assume **not-P** is true.
-3. Check whether the original statement becomes invalid, false, or meaningless.
+#### Core Triggers to Spot
 
-If not-P destroys the statement, P is a **necessary assumption** and is the correct answer. If the statement survives without P, then P is merely a *possible* or *strengthening* assumption — reject it.
-
-#### Trigger Words and Hidden Value Judgments
-
-Words such as **should, must, ought, let us** introduce an unspoken value judgment. For example, "The government should ban single-use plastic" hides the assumption that plastic harms the environment. A candidate answer that simply restates the ban is not an assumption — it is a course of action.
-
-#### Common Distractors in LAT Options
-
-| Option type | Why it is wrong |
+| Trigger in statement | What it hides |
 | --- | --- |
-| Restatement of the statement | Adds no hidden premise |
-| Course of action | Prescribes behaviour, not a belief |
-| Conclusion drawn from the statement | Follows the statement, does not support it |
-| Plausible but not necessary | Could be true without the statement depending on it |
+| "should / must / ought to" | A value judgment assumed to be shared |
+| "let us" | An invitation resting on a shared goal |
+| "if … then …" | A causal or conditional link assumed valid |
+| "best / only / never" | A superlative claim presupposing a comparison set |
+
+#### Distinctions Examiners Exploit
+
+- Assumption vs **Conclusion**: a conclusion is drawn *from* the assumption, never the reverse.
+- Assumption vs **Course of Action**: a course tells people what to do; an assumption describes what is believed.
+- Assumption vs **Inference**: an inference is a deduced fact; an assumption is presupposed before deduction.
+
+Apply the **negation test** (assume the option is false, then check whether the statement still makes sense) before confirming any answer.
+
+---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-#### Worked Mechanism — Negating the Assumption
+#### The Negation Test in Practice
 
-Statement: *"Private schools should reduce fees because online learning costs less."*
-Candidate: *"Online learning is more affordable than classroom learning."*
+Read the statement: *"Schools should ban mobile phones to improve concentration."* Consider an option: *"Mobile phones distract students."* Negate it: phones do **not** distract students. The recommendation collapses, so the option is a necessary assumption. A second option, *"Students want better grades,"* is plausible but not required — phones could be banned for discipline, not grades — so it fails.
 
-Negate the candidate: *Online learning is not more affordable than classroom learning.* The justification "because online learning costs less" now has no factual anchor, so the recommendation loses its basis. The candidate is therefore a **necessary assumption** and is correct.
+#### Hidden Cultural and Social Presuppositions
 
-#### Edge Cases LAT Tests
+Many LAT statements lean on unexamined norms: parental authority is respected, hard work guarantees success, governments act in public interest, or experts are unbiased. Strong candidates mirror these presuppositions without restating the surface claim.
 
-- **Necessary vs sufficient assumptions:** LAT only tests necessary ones. A sufficient assumption would guarantee the conclusion but is rarely required.
-- **Suppressor assumptions:** hidden cultural or social presuppositions (e.g., parental authority, rule of law, merit-based reward). These appear in 2–3 options to test whether you spot unstated background beliefs.
-- **Compound statements:** when the statement has two clauses joined by "and/because", the valid assumption must support the *combined* claim, not just one half.
+#### Common Mistakes
 
-#### High-Yield Mistakes
+1. Selecting a **paraphrase** of the statement as the assumption.
+2. Choosing a **course of action** disguised as an assumption ("ban phones" is action, not premise).
+3. Marking an **inference** that the statement itself implies.
+4. Picking a **morally desirable** outcome rather than a logically required one.
 
-1. Choosing an inference phrased as "therefore…" — that is a conclusion, not an assumption.
-2. Confusing "the speaker believes X" (assumption) with "the listener should do X" (course of action).
-3. Marking an option that is true in real life but **not logically required** by the statement.
+#### Worked Example with Numbers
 
-#### Practice Prompts
+Statement: *"The university should increase the fee by 10% to fund 200 new scholarships."* Options include:
+- (A) Scholarships improve enrolment.
+- (B) Fee hikes do not reduce admissions.
+- (C) Students prefer scholarships to lower fees.
+- (D) Donors will match the new funds.
 
-1. Statement: *"All citizens must vote in national elections."* Identify the necessary assumption from: (a) voting is a right, (b) voting leads to better governance, (c) voting is a civic duty, (d) elections are held annually.
-2. Statement: *"The company ought to reward its longest-serving employees."* Which option is an assumption and which is a course of action? Justify using the negation test.
+Negating (B): if fee hikes reduce admissions, the policy fails even if scholarships work — so **(B)** is the necessary assumption. (A), (C), (D) are supportive but not required.
+
+#### Exam Strategy for LAT
+
+The Analytical Reasoning section contributes about **4%** of the LAT paper, with roughly **1–3 questions** on assumptions. Spend under 90 seconds per item: skim the statement, underline trigger words, run the negation test on each option, then eliminate anything that smells like a course of action or a conclusion.
+
+---
 
 ## Continue your study
 

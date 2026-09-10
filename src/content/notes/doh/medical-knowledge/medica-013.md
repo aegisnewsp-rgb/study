@@ -16,62 +16,64 @@ lastUpdated: "2026-09-10"
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-Health promotion is the broad process of enabling people and communities to gain control over health determinants. Patient education is the one-to-one clinical teaching that supports self-management during consultations. Both are mandatory, documented activities under DOH clinical-governance standards in the UAE.
+**Health promotion** enables people to gain control over the determinants of their health; **patient education** is the one-to-one clinical teaching that translates that goal into consultation practice. Both sit inside DOH (UAE) licensing expectations and must be documented in the medical record.
 
-- **Levels of prevention:** primary stops disease before it starts (vaccination, smoking cessation), secondary detects it early (mammography, HbA1c screening), tertiary limits complications once disease exists (diabetic foot care, post-MI rehab).
-- **Patient-education process:** assess needs → set objectives → plan method → deliver → evaluate with **teach-back**.
-- **Counselling tools to name:** motivational interviewing (OARS) and the **transtheoretical model** of stages of change.
+- Three levels of prevention: **primary** (vaccination, smoking cessation), **secondary** (HbA1c screening, mammography), **tertiary** (foot care in diabetic neuropathy, post-MI rehab).
+- **Bloom's domains** must all be addressed: cognitive (knowledge), affective (attitudes), psychomotor (inhaler or insulin technique).
+- The five action areas of the **Ottawa Charter (1986)**: healthy public policy, supportive environments, community action, personal skills, reorienting services.
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-#### Definitions and Scope
-Health promotion is a public-health concept formalised in the WHO **Ottawa Charter (1986)**, with five action areas: build healthy public policy, create supportive environments, strengthen community action, develop personal skills, and reorient health services. Patient education is the clinical subset delivered at the bedside or in clinic, where the clinician teaches a specific patient about a specific condition, treatment, or behaviour.
+#### Defining the two terms
 
-#### Levels of Prevention
+**Health promotion** is broader than education. It uses the Ottawa Charter framework to act on policy, environment and community action alongside individual behaviour. **Patient education** is the bedside process of teaching a named patient about their condition, treatment or self-care. DOH (UAE) clinical-governance standards treat education as a *delivered and documented* clinical activity, not an informal chat.
 
-| Level | Goal | Example in UAE practice |
-| --- | --- | --- |
-| Primary | Prevent disease onset | HPV and seasonal influenza vaccination; tobacco cessation under Weqaya |
-| Secondary | Early detection | BRCA-linked breast screening, NHANES-style diabetes screening, premarital screening |
-| Tertiary | Reduce complications | Insulin-pump training, cardiac rehab post-MI, foot care in diabetic neuropathy |
+#### Levels of prevention applied
 
-#### Patient-Education Process and Andragogy
-Effective teaching follows adult-learning principles (Knowles): relevance to the patient's life, autonomy in goal-setting, use of prior experience, problem-centred content, and internal motivation. Objectives should target one or more of **Bloom's domains** — cognitive (knowledge), affective (attitude), or psychomotor (skill) — and every session must close with **teach-back**, where the patient restates the plan in their own words.
+- **Primary prevention** stops disease before it starts — Weqaya cardiovascular screening uptake, HPV and influenza vaccines, tobacco cessation.
+- **Secondary prevention** finds disease early — breast and colorectal screening, antenatal serology, hypertension case-finding at primary care.
+- **Tertiary prevention** limits complications in established disease — diabetic foot inspection, asthma action plans, cardiac rehabilitation post-MI.
 
-#### Behaviour-Change Counselling
-Motivational interviewing uses **OARS** (Open questions, Affirmations, Reflections, Summaries) to resolve ambivalence. The **transtheoretical model** stages (precontemplation, contemplation, preparation, action, maintenance, relapse) guide which intervention a clinician chooses at each visit.
+#### Behaviour-change counselling
 
-- Match the intervention to the patient's stage rather than pushing action prematurely.
-- Document every education encounter; it is a DOH clinical-governance requirement, not an informal chat.
+Motivational interviewing uses the **OARS** sequence — Open questions, Affirmations, Reflections, Summaries — and is matched to the patient's **stage of change** (precontemplation → contemplation → preparation → action → maintenance). UAE priorities target tobacco, diabetes, obesity and mental-health awareness, often through FitforLife-style community campaigns.
+
+| Concept | Key point |
+| --- | --- |
+| Health literacy | Plain language, pictograms, avoid jargon; confirm with teach-back. |
+| Adult learning (Knowles) | Relevance, autonomy, prior experience, problem-centred, motivation. |
+| Bloom's taxonomy | Cognitive / affective / psychomotor — insulin teaching needs all three. |
+| Documentation | Education episode must be recorded in the patient file for DOH audit. |
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-#### Ottawa Charter Applied to UAE Practice
-The five Charter pillars translate into concrete UAE interventions: healthy public policy appears as sugar-sweetened beverage taxation and tobacco excise; supportive environments include municipal walkways and workplace wellness; community action is seen in FitforLife school programmes; personal skills development is delivered through chronic-disease clinics; reorientation of services shows in DOH-mandated preventive-health packages.
+#### Process of patient education
 
-#### Health Literacy and Cultural Adaptation
-UAE clinics serve Arabic, English, Hindi, Urdu, Tagalog, and Malayalam speakers. Materials must use plain language at a Grade 5–6 reading level, pictograms for medication timing, and professional interpreters when needed. The CDC plain-language framework and teach-back verification are the practical tools clinicians cite on exam day.
+A structured episode follows five steps: **assess** learning needs and health literacy, **set objectives** mapped to Bloom's domain, **plan** the method (verbal, written, demonstration, digital), **deliver** with teach-back confirmation, and **evaluate** adherence at follow-up. Skipping teach-back is a recurrent DOH audit finding because comprehension cannot otherwise be verified.
 
-#### Counselling Models Compared
+#### Cultural and linguistic tailoring
 
-| Model | Best use | Key feature |
+The UAE population is multilingual — Arabic, English, Hindi, Urdu, Tagalog, Malayalam. Standardised English handouts are often inadequate; translated or pictogram-based material plus a family member as informal interpreter is common, though professional interpreters are preferred for consent discussions.
+
+#### High-yield traps
+
+- Diabetic foot-care programme → **tertiary**, not primary.
+- Giving a leaflet without teach-back → does **not** meet DOH patient-education standards.
+- Insulin-injection objective written as "patient knows how to inject" → cognitive only; reframe as a **psychomotor** objective with return demonstration.
+- Ignoring **social determinants** (housing, food security, occupation) when asked about adherence failure.
+
+#### Practice prompts
+
+1. A 54-year-old with newly diagnosed Type 2 diabetes and an HbA1c of 9.2% — design a primary-care education session naming domain, method and documentation entry.
+2. A smoker in **contemplation** — outline the OARS sequence you would use and the stage-matched goal you would set.
+
+| Domain | Example objective | Method |
 | --- | --- | --- |
-| Motivational interviewing | Lifestyle change (smoking, diet, adherence) | OARS technique, resolves ambivalence |
-| Transtheoretical model | Stage-matched intervention | Six stages of change |
-| Shared decision-making | Treatment choice between options | Patient values + clinician evidence |
-| Therapeutic patient education (TPE) | Chronic disease self-management | Structured curriculum, multidisciplinary |
-
-#### Common Exam Traps
-- Labelling diabetic foot-care education as **primary** prevention when it is clearly **tertiary**.
-- Choosing a **cognitive** objective when the clinical task is **psychomotor** (e.g. correct insulin injection technique).
-- Treating a leaflet handover as completing patient education without **teach-back**.
-- Forgetting that documentation of education is mandatory under DOH licensing standards.
-
-#### Practice Prompts
-1. A 52-year-old smoker with pre-diabetes asks about "general wellness." Classify each intervention you propose by prevention level and stage of change.
-2. Design a teach-back session for a newly diagnosed asthma patient prescribed a metered-dose inhaler; specify the Bloom's domain targeted and how you will document it.
+| Cognitive | States target fasting glucose range | Verbal + written |
+| Affective | Expresses confidence in self-monitoring | Counselling, OARS |
+| Psychomotor | Demonstrates correct insulin technique | Return demonstration, teach-back |
 
 ## Continue your study
 
@@ -80,5 +82,4 @@ UAE clinics serve Arabic, English, Hindi, Urdu, Tagalog, and Malayalam speakers.
 - **[DOH (UAE) exam overview](/exams/doh/)** — pattern, eligibility, and syllabus
 - **[All Medical-Knowledge notes](/notes/doh/medical-knowledge/)** — browse sibling topics in this subject
 
----
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

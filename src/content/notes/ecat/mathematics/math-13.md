@@ -17,85 +17,71 @@ diagramPrompt: "Mathematical diagram showing Probability and Permutations concep
 # Probability and Permutations
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your ECAT Mathematics paper.
+> Rapid summary for last-minute revision before your exam.
 
-Probability quantifies how likely an event is on a 0–1 scale. A permutation counts **ordered** arrangements of distinct objects.
+**Probability** measures how likely an event is, written as P(A) = favourable outcomes ÷ total equally likely outcomes, with the value locked between 0 and 1. A **permutation** counts the ordered arrangements of *r* objects chosen from *n*, given by P(n,r) = n! / (n−r)!. Two rules save time on most ECAT items: P(A′) = 1 − P(A) for complement questions, and P(A ∩ B) = P(A) · P(B) only when A and B are **independent**. Order matters in permutations; it does not in combinations, so read the wording — "arrange" versus "select" — before choosing a formula.
 
-- Probability: $P(A) = \dfrac{n(A)}{n(S)}$, where $n(A)$ is the number of favorable outcomes and $n(S)$ is the total number of equally likely outcomes in the sample space; result is dimensionless and satisfies $0 \le P(A) \le 1$.
-- Permutation: $P(n,r) = \dfrac{n!}{(n-r)!}$, the number of ways to arrange $r$ objects chosen from $n$ distinct objects.
-- Complement rule: $P(A') = 1 - P(A)$.
-
-| Quick formula | When to use it |
-| --- | --- |
-| $P(A) = n(A)/n(S)$ | All outcomes equally likely |
-| $P(n,r) = n!/(n-r)!$ | Order matters (rankings, codes, line-ups) |
-| $P(A') = 1 - P(A)$ | Easier to count "not A" than A |
-
-**High-yield pointers:** ECAT typically asks 1–2 MCQs from this 4%-weightage slot, usually on conditional probability or a counting problem; identify whether order matters before picking permutation vs. combination; remember $0!=1$.
+- **P(A) = n(A) / n(S)**, where n(A) is favourable outcomes and n(S) is the sample-space size.
+- **P(n,r) = n! / (n−r)!**, the count of ordered selections.
+- **P(A ∪ B) = P(A) + P(B) − P(A ∩ B)**, dropping the last term only if events are mutually exclusive.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-#### Definitions and the probability scale
+#### Core Probability Axioms
 
-A random experiment produces a **sample space** $S$ listing every possible outcome. An event $A$ is any subset of $S$. Probability assigns each event a number between 0 (impossible) and 1 (certain) such that $P(S)=1$. Two events are **mutually exclusive** when they cannot occur together, giving $P(A \cap B)=0$, and **independent** when the occurrence of one does not change the other, giving $P(A \cap B)=P(A)\cdot P(B)$.
+Every ECAT probability question rests on three axioms: P(A) ≥ 0, P(S) = 1 for the full sample space, and additivity over **mutually exclusive** events. From these flow the complement rule P(A′) = 1 − P(A) and the general addition rule P(A ∪ B) = P(A) + P(B) − P(A ∩ B). The overlap term vanishes when A and B cannot occur together, but it must be kept whenever the events share outcomes.
 
-#### Addition and conditional probability
+#### Conditional Probability and Independence
 
-For any two events the addition rule is $P(A \cup B) = P(A) + P(B) - P(A \cap B)$. Subtracting the overlap is what students most often forget. The conditional probability formula $P(A|B) = \dfrac{P(A \cap B)}{P(B)}$, with $P(B)>0$, gives the revised chance of $A$ once $B$ is known to have happened. Bayes' theorem follows by substituting the multiplication rule: $P(A|B) = \dfrac{P(B|A)\cdot P(A)}{P(B)}$.
+**Conditional probability** answers "given B has occurred, what is the chance of A?" using P(A|B) = P(A ∩ B) / P(B), valid only when P(B) > 0. Events are **independent** precisely when P(A ∩ B) = P(A) · P(B), which is equivalent to P(A|B) = P(A). Confusing the two directions of conditioning — P(A|B) versus P(B|A) — is the most common error ECAT examiners exploit.
 
-#### Permutation formula in detail
+#### Permutations vs. Combinations
 
-Choose $r$ objects from $n$ distinct objects and arrange them in order. The first slot has $n$ choices, the second $n-1$, continuing down to $n-r+1$ for the last slot, yielding $n(n-1)(n-2)\cdots(n-r+1) = \dfrac{n!}{(n-r)!}$.
-
-#### Common ECAT traps
-
-- Treating a selection as a permutation, or vice versa, especially when the question says "arrange" vs "choose".
-- Forgetting $P(A \cap B)$ when adding non-exclusive events.
-- Computing $P(A|B)$ but writing the answer as $P(B|A)$.
-
-| Concept | Key point | Typical MCQ form |
+| Concept | Formula | When to use |
 | --- | --- | --- |
-| Independent events | $P(A \cap B) = P(A)\cdot P(B)$ | Two coins tossed, both heads |
-| Mutually exclusive | $P(A \cap B) = 0$ | Single die, even **and** odd |
-| Conditional | $P(A\|B) = P(A \cap B)/P(B)$ | Card drawn without replacement |
-| Permutation | $n!/(n-r)!$ | Code words, top-three finishers |
+| Permutation P(n,r) | n! / (n−r)! | Order matters (rankings, line-ups, codes) |
+| Combination C(n,r) | n! / [r! (n−r)!] | Order does not matter (committees, handshakes) |
+| Multiplication principle | m · n | Sequential independent choices |
+
+#### Multiplication Principle
+
+If task 1 has *m* ways and task 2 has *n* ways, both tasks together have m · n ways. This extends to *k* tasks: m₁ · m₂ · … · mₖ. A tree diagram is the cleanest way to enumerate the sample space for two-stage experiments like tossing two coins or drawing two cards without replacement.
+
+- Watch the wording: "how many arrangements" → permutation; "how many groups" → combination.
+- Check independence before multiplying probabilities; check mutual exclusivity before adding.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-#### Multiplication principle and tree diagrams
+#### Bayes' Theorem and Two-Stage Problems
 
-When a procedure has $k$ independent stages with $n_1, n_2, \ldots, n_k$ choices respectively, the total outcomes equal $n_1 \cdot n_2 \cdots n_k$. Tree diagrams enumerate these visually and are the standard tool for two-stage conditional-probability problems on ECAT-style papers.
+ECAT occasionally tests **Bayes' theorem**: P(A|B) = [P(B|A) · P(A)] / P(B). The denominator P(B) is usually expanded with the law of total probability, P(B) = P(B|A)·P(A) + P(B|A′)·P(A′). Use it for "reverse conditioning" questions such as defective items drawn from two machines.
 
-#### Worked example
+#### Counting Edge Cases
 
-A bag holds 5 red and 3 blue marbles. Two marbles are drawn **without replacement**. Find $P(\text{both red})$.
+Repetition matters: arranging the letters of "ALLAH" uses n! / (multiplicities of repeated letters) — 5! / 3! = 20 — not a plain P(n,r). Circular permutations of *n* distinct objects around a round table equal (n−1)!, since rotations are equivalent. For restricted permutations (objects that must stay apart), use inclusion–exclusion: total minus the arrangements where forbidden items sit together.
 
-$P(\text{1st red}) = 5/8$. Given that first is red, $P(\text{2nd red}) = 4/7$. By the multiplication rule for dependent events, $P(\text{both red}) = \dfrac{5}{8} \times \dfrac{4}{7} = \dfrac{20}{56} = \dfrac{5}{14}$.
+#### Common Mistakes ECAT Tests
 
-For the ordered arrangement version: the number of ways to pick and arrange 2 red marbles from 5 is $P(5,2) = \dfrac{5!}{3!} = 20$, and the total ordered pairs from 8 marbles is $P(8,2) = \dfrac{8!}{6!} = 56$, giving the same $20/56 = 5/14$ — a useful cross-check.
+1. **Permutation–combination swap**: choosing P(5,2) = 20 instead of C(5,2) = 10 for a committee of 2 from 5 people.
+2. **Adding without subtracting overlap** when events share outcomes, inflating the probability above 1.
+3. **Multiplying for dependent events**: drawing two cards without replacement violates independence, so the multiplication rule needs adjustment.
+4. **Factorial slip**: writing (n+r)! instead of (n−r)! in the denominator when r items are placed in order.
+5. **Ignoring the "at least one" wording**: complement rule converts "at least one" into 1 − P(none), which is almost always faster than direct counting.
 
-#### Edge cases and adjacent links
+#### Worked Example
 
-- $0! = 1$ by definition, so $P(n,n) = n!$ covers arranging all $n$ objects.
-- Conditional probability connects directly to Bayes' theorem in Statistics and to set operations (De Morgan's laws) in Venn-diagram questions.
-- "At least one" problems are almost always solved via the complement: $P(\text{at least one}) = 1 - P(\text{none})$.
+A bag has 4 red and 6 blue balls. Two balls are drawn without replacement. Find P(both red). P(1st red) = 4/10, P(2nd red | 1st red) = 3/9. So P = (4/10) × (3/9) = 12/90 = 2/15. Note the second denominator shrinks — a clear sign the events are dependent.
 
-#### Practice prompts
+#### Practice Prompts
 
-1. A 4-digit PIN uses distinct digits with no repetition. How many PINs are possible if the first digit cannot be 0?
-2. Two cards are drawn from a standard 52-card deck without replacement. What is the probability that both are aces?
-
-| Pitfall | Correct handling |
-| --- | --- |
-| Using $n!$ instead of $n!/(n-r)!$ | Subtract $r$ from $n$ before the factorial |
-| Assuming independence after sampling | Reduce the denominator by 1 each draw |
-| Treating order as irrelevant | Use permutation only when the wording demands an order |
+1. In how many ways can the letters of "MISSISSIPPI" be arranged? Answer uses 11! / (4! · 4! · 2!) = 34,650.
+2. A die is rolled twice. Find P(sum ≥ 10) using the complement P(sum ≤ 9) = 1 − 6/36 = 30/36 = 5/6.
 
 ---
 

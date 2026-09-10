@@ -11,7 +11,7 @@ topicName: Perimeter and Area of Plane Shapes
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.583932"
-lastUpdated: "2026-06-24"
+lastUpdated: "2026-09-10"
 diagramPrompt: "Mathematical diagram showing Perimeter and Area of Plane Shapes concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style"
 
 
@@ -22,81 +22,102 @@ diagramPrompt: "Mathematical diagram showing Perimeter and Area of Plane Shapes 
 # Perimeter and Area of Plane Shapes
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+> Rapid summary for last-minute revision before your NCEE paper.
 
-**Perimeter** is the total length around the boundary of a plane shape (a linear measurement in cm, m, etc.), while **area** is the size of the surface enclosed by that shape (a two-dimensional measurement in cm², m², etc.). For NCEE, the six shapes you must master are the **rectangle**, **square**, **triangle**, **parallelogram**, **trapezium**, and **circle**.
+**Perimeter** is the total length around the boundary of a plane shape (linear units, e.g. cm). **Area** is the size of the region enclosed by that boundary (square units, e.g. cm²). The NCEE Mathematics paper tests both, usually inside Section B word problems on fencing, plots, and tiling.
 
-Must-know formulas:
-- Rectangle: P = 2(l + w), A = l × w
+Key formulas to memorise:
+
 - Square: P = 4s, A = s²
-- Triangle: A = ½ × b × h
-- Parallelogram: A = b × h
-- Trapezium: A = ½(a + b)h
-- Circle: C = 2πr, A = πr² (use π = 22/7)
+- Rectangle: P = 2(l + w), A = l × w
+- Triangle: P = a + b + c, A = ½ × b × h
+- Circle: C = 2πr, A = πr²
 
-High-yield pointers: (1) All lengths must be in the **same unit** before calculating. (2) Always write area with **squared** units. (3) The **perpendicular height**, not the slant side, is used in triangle and parallelogram area formulas.
+Exam pointers:
 
----
+- Write area in cm² or m², never cm.
+- Use the perpendicular (vertical) height, not the slant side.
+- Convert cm² to m² by dividing by 10 000.
+
+| Shape | Perimeter formula | Area formula |
+| --- | --- | --- |
+| Square | 4s | s² |
+| Rectangle | 2(l + w) | l × w |
+| Triangle | a + b + c | ½ × b × h |
+| Circle | 2πr | πr² |
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-#### Definitions
-**Perimeter (P)** is the sum of the lengths of all sides of a closed plane figure. Because it measures only length, it is expressed in linear units: mm, cm, m, or km. **Area (A)** is the quantity of surface enclosed by the figure, expressed in square units (mm², cm², m², km²).
+#### Core Concepts
 
-#### Rectangles and Squares
-A rectangle with length *l* and width *w* has P = 2(l + w) and A = l × w. A square is a special rectangle where all four sides are equal (s), giving P = 4s and A = s². For example, a square with s = 6 cm has P = 24 cm and A = 36 cm².
+Perimeter sums the lengths of all outer sides. Area measures the flat surface a shape covers, which is why the units are always squared. Mixing units — for example writing area in cm — is one of the fastest ways to lose a mark in NCEE graded answers.
 
-#### Triangles and Parallelograms
-The area of any triangle is A = ½ × b × h, where *b* is the base and *h* is the **perpendicular** height (not the slant length). A parallelogram's area is A = b × h — the same product as a rectangle, which is why a parallelogram can be re-arranged into a rectangle of equal area. Both require perpendicular height, never the slanted side.
+#### The Must-Know Formulas
 
-#### Trapezium
-A trapezium has one pair of parallel sides *a* and *b*, plus perpendicular height *h*. Its area is the average of the parallel sides multiplied by the height: A = ½(a + b)h. The perimeter is the sum of all four sides.
+For triangles, the height must drop at right angles to the chosen base; the slant side is irrelevant for area. For parallelograms, the formula A = b × h uses perpendicular height, not the slanted edge. For a trapezium, only the two parallel sides (commonly called a and b) appear inside the bracket of the area formula.
 
-#### Circles
-The distance around a circle is the **circumference**, C = 2πr = πd, where *r* is the radius and *d* is the diameter (d = 2r). The area enclosed is A = πr². In NCEE, use π = 22/7 whenever the radius or diameter is a multiple of 7; otherwise use π = 3.142.
+| Shape | Perimeter | Area (with units) |
+| --- | --- | --- |
+| Square (s) | 4s metres | s² m² |
+| Rectangle (l, w) | 2(l + w) metres | l × w m² |
+| Triangle (a, b, c; base b, height h) | a + b + c metres | ½ × b × h m² |
+| Parallelogram (sides a, b; height h) | 2(a + b) metres | b × h m² |
+| Trapezium (sides a, b, c, d; parallel sides a, b; height h) | a + b + c + d metres | ½(a + b)h m² |
+| Circle (radius r) | C = 2πr metres | πr² m² |
 
-#### Unit Conversions
-1 m = 100 cm, so 1 m² = 10,000 cm². Always convert before substituting into formulas.
+#### Working With Circles
 
-#### Typical NCEE Question Patterns
-- Compute perimeter or area given side lengths.
-- Find a missing side given the total perimeter or area.
-- Convert between cm² and m².
-- Apply 22/7 for circle problems.
+The distance from the centre to the edge is the radius r. The diameter equals 2r, so substituting a diameter into πr² will give an answer four times too large. NCEE questions often give the diameter in the diagram, expecting you to halve it first.
 
----
+#### Typical NCEE Patterns
+
+- A rectangular plot of farmland: compute fencing length (perimeter) and the seed area (area).
+- A circular flower bed: find the metal edging (circumference) and planting area (πr²).
+- Composite figures: split into a rectangle plus a semicircle, then add the two areas.
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-#### Composite Figures
-NCEE often combines two or more basic shapes into one figure (an L-shape, a rectangle with a semicircle removed, a square with a triangle on top). To solve these, **decompose** the figure into rectangles, triangles, trapeziums, or sectors, then add (or subtract) the individual areas. Sketch and label every part before substituting values.
+#### Edge Cases and Composite Figures
 
-#### Same Perimeter, Different Areas — A Key Insight
-Among rectangles with a fixed perimeter, the **square** encloses the largest area. For example, perimeter 24 cm can form a 6×6 square (A = 36 cm²) or a 9×3 rectangle (A = 27 cm²). This inverse relationship between regularity and area is tested as a conceptual MCQ in NCEE.
+Real NCEE items rarely hand you a single tidy shape. A "rectangle with a semicircle on one end" is decomposed into A = l × w + ½πr², while an "L-shaped room" is split into two rectangles and the areas summed. If a smaller shape is removed (e.g. a circular lawn inside a square courtyard), subtract the inner area from the outer: A = s² − πr². Failing to subtract the overlap is the single most common mark-losing mistake.
 
-#### Edge Cases in Circles
-Watch for these traps: (i) the question gives the **diameter**, but the formula needs the radius — divide by 2 first; (ii) a semicircle's perimeter is πr + 2r (curved part + diameter), not πr; (iii) a quarter-circle's perimeter is πr/2 + 2r. A circular ring's area is π(R² − r²).
+#### Unit Conversion Trap
 
-#### Common Mistakes
-- Writing area units as cm instead of cm².
-- Using diameter in πr².
-- Mixing cm and m without conversion (causes a 10,000× error in area).
-- Computing only three sides for a quadrilateral's perimeter.
-- Using the slant side instead of the perpendicular height for triangles and parallelograms.
-- Substituting 22/7 for π when 3.142 is more accurate (or vice versa).
+Length conversions follow the linear factor (1 m = 100 cm). Area conversions follow the squared factor (1 m² = 10 000 cm²). A question stating "the floor is 3 m by 4 m" and asking for area in cm² expects 3 × 4 = 12 m², then 12 × 10 000 = 120 000 cm².
+
+#### Common Mistakes to Avoid
+
+1. Using slant height instead of perpendicular height for triangles and parallelograms.
+2. Substituting the diameter directly into πr² instead of halving it.
+3. Adding areas of two touching shapes but forgetting the shared overlap.
+4. Writing the final area in cm or m without the squared superscript.
+
+| Mistake | Correct approach |
+| --- | --- |
+| A = b × s (uses slant side) | A = b × h (perpendicular height) |
+| A = π × d² (uses diameter) | A = π × (d/2)² |
+| Area reported as "12 cm" | Area reported as "12 cm²" |
+| Composite shape added only | Composite shape: outer area − inner area |
 
 #### Worked Mini-Example
-Find the area of a trapezium with parallel sides 8 cm and 12 cm and perpendicular height 5 cm.
-A = ½(a + b)h = ½(8 + 12)(5) = ½ × 20 × 5 = 50 cm².
+
+A rectangular garden measures 8 m by 5 m, with a circular pond of radius 2 m dug out from one corner. Remaining area = (8 × 5) − (π × 2²) = 40 − 4π ≈ 40 − 12.57 = 27.43 m². Perimeter of the garden stays at 2(8 + 5) = 26 m because the pond's edge lies inside.
 
 #### Practice Prompts
-1. A rectangular field is 45 m long and 30 m wide. Find its perimeter and the cost of fencing it at ₦2,500 per metre.
-2. A circular garden has radius 14 m. Using π = 22/7, find (a) its circumference and (b) the area. Then convert the area into cm².
 
-#### Exam Strategy for NCEE
-Perimeter and area carry roughly 4% of the NCEE Mathematics paper — usually 1–2 objective questions. Budget about 90 seconds per question. Memorise the six formulas, the π values, and the unit conversions; the rest is careful substitution.
+1. Find the area in cm² of a trapezium with parallel sides 14 cm and 10 cm, and perpendicular height 6 cm.
+2. A circular track has diameter 70 m. How many metres of fencing are needed for its outer boundary, to the nearest whole number?
+
+---
+
+## Continue your study
+
+- **[View this topic in your NCEE (National Common Entrance Examination) roadmap](/roadmap/?exam=ncee&duration=1mo)** — see where "Perimeter and Area of Plane Shapes" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ncee&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NCEE (National Common Entrance Examination) exam overview](/exams/ncee/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/ncee/mathematics/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

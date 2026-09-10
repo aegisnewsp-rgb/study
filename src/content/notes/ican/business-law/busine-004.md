@@ -8,7 +8,7 @@ topicName: "Law of Agency: Authority, Duties, and Rights"
 weight: 3
 country: nigeria
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-25"
+lastUpdated: "2026-09-10"
 ---
 
 # Law of Agency: Authority, Duties, and Rights
@@ -16,158 +16,101 @@ lastUpdated: "2026-07-25"
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**The Law of Agency** in Nigeria governs the relationship between principal, agent, and third parties in commercial transactions. Agency allows one person (the agent) to create binding legal relations between another person (the principal) and third parties. Agency is commercially vital — every company director, employee, agent, and broker acts as an agent. Understanding agency is essential for accountants advising on commercial liabilities.
+- **Agency** is a fiduciary relationship in which an **agent** acts for a **principal** in dealings with a third party.
+- The principal is bound by the agent’s acts when performed within **actual authority** or **apparent authority**.
+- Actual authority can be **express** or **implied**. Implied authority covers acts reasonably necessary to carry out express instructions.
+- **Apparent authority** arises when the principal’s words or conduct lead a third party reasonably to believe that the agent has authority.
+- An agent must obey lawful instructions, exercise reasonable care, avoid conflicts, account for money, and make no secret profit.
+- The principal must pay remuneration due and indemnify the agent for lawful authorised acts.
+- A disclosed principal normally carries the contract liability; an undisclosed principal can leave the agent personally liable.
+- Ratification adopts a prior unauthorised act, but it must relate to a subsisting act and occur before the third party withdraws.
+- Agency of necessity applies only during a genuine emergency involving the principal’s property.
 
-**Key Definitions:**
-- **Agent:** A person authorised to act on behalf of another
-- **Principal:** The person on whose behalf the agent acts
-- **Third party:** The external party with whom the agent contracts
-- **Authority:** The agent's power to bind the principal — may be actual (express or implied) or apparent/ostensible
-
-**Creation of Agency:**
-Agency may be created by:
-1. **Express agreement** (oral or written; some must be written under statute)
-2. **Implication** (arising from the conduct or relationship of the parties)
-3. **Ratification** (principal adopts and confirms an unauthorised act)
-4. **Estoppel** (by conduct, where a principal is precluded from denying the agent's authority)
-5. **Necessity** (in emergencies, where a person acts to preserve another's property)
-
-**⚡ Exam tip:** Ratification is a common ICAN topic — the agent must have contracted on behalf of a principal who was in existence at the time of the act, and the principal must have been identified (disclosed or identifiable).
+> **High-yield rule:** Actual authority comes from instructions; apparent authority comes from the principal’s representation to a third party.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Types of Authority:**
+#### How Authority Arises
 
-**Actual Authority:**
-- **Express:** Clearly stated in words (oral or written)
-- **Implied:** Inferred from the conduct of the parties, the nature of the business, and the position of the agent (*Hely-Hutchinson v. Brayhead* [1968])
+Agency can arise by **express agreement**, where the principal grants authority orally or in writing. It can also arise by **implied agreement** from conduct, the parties’ relationship, or the performance of duties that suggest authority.
 
-**Apparent (Ostensible) Authority:**
-Where a principal creates the appearance of authority in an agent, the principal is bound even if the agent exceeded their actual authority — provided the third party reasonably believed the agent had authority (*Rama Corporation v. Proved Tin* [1952]).
+An agent’s actual authority includes express instructions and incidental powers. An agent authorised to sell goods can ordinarily take the steps reasonably necessary to complete a sale, but cannot expand the authority beyond its commercial purpose.
 
-This is based on the principle of **estoppel**: the principal is precluded from denying what they have allowed the agent to appear to possess.
+| Authority | Source | Effect on principal |
+| --- | --- | --- |
+| Express actual authority | Clear words or written instructions | Agent’s authorised act binds the principal |
+| Implied actual authority | Conduct and incidental necessity | Principal is bound by reasonably necessary acts |
+| Apparent authority | Principal’s representation to a third party | Principal can be estopped from denying authority |
+| Agency of necessity | Genuine emergency concerning property | Agent can act to prevent loss |
 
-**Ratification:**
+Under **Freeman & Lockyer v Buckley**, apparent authority can exist even where the agent has no actual authority, if the principal’s representations justify the third party’s reasonable belief. The principal’s conduct must have created the appearance of authority.
 
-Ratification occurs when a principal adopts and confirms an unauthorised act, making it retrospectively valid.
+#### Ratification
 
-**Requirements for Valid Ratification:**
-1. The agent must have acted as agent (not as principal)
-2. The principal must have been in existence at the time of the act
-3. The principal must have been identified (disclosed or identifiable)
-4. The principal must have had contractual capacity at the time of ratification
-5. The act must be ratifiable (not void ab initio — a void contract cannot be ratified)
-6. Ratification must be communicated to the third party
-7. Ratification must occur within the time limit allowed (before the contract is discharged)
+Ratification is the principal’s adoption of an act performed by an unauthorised agent. The act must be capable of ratification, relate to a subsisting transaction, and be adopted with full knowledge of the material facts.
 
-**Effects of Ratification:**
-- The contract becomes binding on the principal as if it had been authorised from the start
-- The agent is relieved from personal liability
-- The third party's rights and obligations are confirmed
+- The principal must intend to adopt the act.
+- Ratification must occur before the third party withdraws.
+- The agent must have acted as an agent, rather than for a personal interest.
+- Ratification relates back to the time when the agent acted.
 
-**The Agent's Duties to the Principal:**
+> **Exam trap:** Ratification cannot validate an act after the third party has withdrawn from the transaction.
 
-1. **Skill and care:** An agent must perform their duties with reasonable skill and care
-2. **Obedience:** An agent must follow the principal's lawful instructions
-3. **Personal performance:** An agent must personally perform — they cannot delegate unless authorised (delegation = sub-agent)
-4. **Duty not to disclose confidential information**
-5. **Duty to account:** Agent must keep proper accounts and render them to the principal
-6. **Duty not to make a secret profit:** Any profit made in the course of agency belongs to the principal
-7. **Conflict of interest:** An agent must not put themselves in a position where their interests conflict with the principal's
+#### Duties and Rights
 
-**Secret Profits and Bribes:**
-A bribe received by an agent belongs to the principal. The principal can:
-- Sue the agent for the bribe
-- Sue the third party for the bribe
-- Dismiss the agent without notice
-- Refuse to pay the agent any commission
+An agent owes fiduciary duties, including obedience to lawful instructions, reasonable care, good faith, confidentiality, and avoidance of unauthorised profit. A paid agent is expected to exercise the skill reasonably required by the agreed work, while a gratuitous agent’s standard depends on the skill actually possessed.
 
-**The Agent's Authority in Specific Situations:**
-
-**Auctioneer:** Has implied authority to sell goods and sign the memorandum of sale; authority to receive payment on delivery of goods; cannot receive payment before the sale is complete.
-
-**Estate Agent:** Has authority to find a purchaser/tenant; has no authority to sign contracts on behalf of the vendor/landlord.
-
-**Company Directors:** Directors have actual authority to bind the company in contracts within their board's authority; and apparent authority to bind the company in contracts within the company's normal course of business (as understood by third parties).
-
-**Del Credere Agent:** An agent who guarantees the performance of the third party (e.g., a factor who guarantees payment by customers). The del credere commission compensates for this guarantee.
-
-**Commercial Agents (Nigeria):**
-Under the Commercial Agents Registration Act and regulations, commercial agents (who introduce customers and solicit orders) have rights to:
-- Written terms of engagement
-- Commission on sales
-- Compensation upon termination (after 5+ years)
+| Party | Main duty or right |
+| --- | --- |
+| Agent | Obey, account, avoid conflicts, and exercise care |
+| Principal | Pay remuneration and indemnify lawful expenditure |
+| Agent | Retain goods or money under a lawful lien and claim agreed remuneration |
+| Principal | Hold the agent accountable for secret profits and misconduct |
 
 ---
 
-### 🔴 Extended — Deep Dive (exam-level mastery)
-> For students preparing for top-rank selection.
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-**The Doctrine of Identified Principal:**
+#### Principal, Agent, and Third Party
 
-The rule is that for ratification to be valid, the principal must have been identified at the time of the act — not necessarily named, but identifiable (*Keighley Maxsted v. Durant* [1901]; applied in Nigeria). If the agent intended to act for an unidentified group or a company not yet incorporated, ratification is not possible (a company cannot ratify a contract made before its incorporation — *Cotronic v. Dezonie*).
+The relationship depends on authority and the principal’s disclosure. A **disclosed principal** is identified or identifiable; the agent is in most cases not personally liable when the contract clearly shows that the agent signs only as representative. An **undisclosed principal** remains behind the agent, so the agent can become personally liable to the third party.
 
-**Undisclosed Principal:**
+Where the agent is partly disclosed, liability depends on the wording of the contract, local authority, and the intention of the parties. A term stating “signed as agent for and on behalf of the disclosed principal” supports principal liability, not a personal promise.
 
-An undisclosed principal is one whose existence is not revealed to the third party. The general rule is that the undisclosed principal can intervene and sue or be sued on the contract (*Sims v. Bond* [1833]; applied in Nigeria).
+#### Rights, Remedies, and Termination
 
-**Rights of Undisclosed Principal:**
-- Can sue the third party on the contract
-- Can be sued by the third party (subject to the defence that the third party had a personal defence against the agent — e.g., set-off)
+An agent can claim remuneration under an express or implied agreement. The agent can also exercise a **lien** over goods or money lawfully received for the principal, provided the lien is consistent with the transaction and has not been excluded.
 
-**The Third Party's Rights:**
-The third party can sue the undisclosed principal if the principal intervenes. However, if the third party obtained judgment against the agent, they cannot then sue the undisclosed principal.
+A principal can seek an **account of profits** for a secret profit and equitable compensation for loss caused by breach. An agent’s commission can be forfeited where the breach justifies that result, even when the principal proves no direct loss.
 
-**Estoppel and the Third Principle:**
+Authority coupled with an interest is different from ordinary authority. For example, an agent who holds goods as security for a debt has an interest in the subject matter. The principal cannot ordinarily revoke that authority before the interest is discharged.
 
-Where a principal's conduct (or omission) leads a third party to reasonably believe that an agent has authority, the principal is bound — even if the agent actually had no authority (*Freeman & Lockyer v. Buckhurst Park Properties* [1964]; applied in Nigeria).
+| Issue | Correct approach |
+| --- | --- |
+| Secret profit | Disgorge the profit; commission can be forfeited |
+| Emergency agency | Show necessity, impossibility of communication, and action protecting property |
+| Irrevocable authority | Identify the agent’s subsisting interest before assuming revocation is lawful |
+| Contract liability | Examine whether the principal was disclosed or undisclosed |
 
-**Elements:**
-1. A representation that the agent has authority
-2. The representation was made by or attributable to the principal
-3. The third party relied on the representation
-4. The third party suffered loss
+Agency can terminate by agreement, lapse of time, completion of purpose, revocation, renunciation, death or insanity, bankruptcy, frustration, or impossibility. Notice to the agent and relevant third parties prevents later dealings from relying on the agency.
 
-**Watt v. Information Exchange Corp [2010]:** An agent who exceeds their actual authority but acts within apparent authority binds the principal.
+> **Strategy:** In a 10–20 mark scenario, identify the principal, agent, third party, source of authority, breach, and remedy. Spend about 12–15 minutes on one structured agency question.
 
-**Personal Liability of the Agent:**
+#### Practice Prompts
 
-An agent is personally liable on contracts they enter:
-1. When they act for an undisclosed or unnamed principal
-2. When they act for a principal who lacks capacity
-3. When the agent signs a negotiable instrument in their own name
-4. When the agent acts outside their authority and the principal does not ratify
-5. When the agent guarantees performance (del credere)
+1. A principal permits a salesman to collect deposits although the written contract forbids it. Explain whether a third party can enforce the collection arrangement.
+2. An agent sells goods to a buyer without authority during a commercial emergency. Analyse the requirements for ratification or agency of necessity, then state the agent’s potential liability.
 
-**The Agent's Warrant of Authority:**
-An agent who exceeds their actual authority may be liable in the tort of "warrant of authority" — the agent warrants that they have the authority they purport to have (*Yonge v. Toynbee* [1910]). This is implied in every agency contract.
+## Continue your study
 
-**Termination of Agency:**
+- **[View this topic in your ICAN (Nigeria) roadmap](/roadmap/?exam=ican&duration=1mo)** — see where "Law of Agency: Authority, Duties, and Rights" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ican&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[ICAN (Nigeria) exam overview](/exams/ican/)** — pattern, eligibility, and syllabus
+- **[All Business Law notes](/notes/ican/business-law/)** — browse sibling topics in this subject
 
-Agency terminates by:
-1. **Agreement** — parties agree to end the agency
-2. **Revocation** — principal revokes the agent's authority (subject to the agent's rights to compensation)
-3. **Renunciation** — agent gives notice of unwillingness to continue
-4. **Completion of the task**
-5. **Expiry of the time period**
-6. **Death or insanity** of either party (this operates as automatic termination; not merely a right to terminate)
-7. **Destruction of the subject matter**
-8. **Dissolution of a company** (agent principal)
-
-**Effects of Termination:**
-- Actual authority terminates immediately
-- Apparent authority may continue if the third party does not know of the termination — until notice is given
-
-**Notice to Third Parties:**
-If the agency is terminated, the principal must give notice to third parties who dealt with the agent. Failure to notify third parties means the principal remains bound by apparent authority.
-
-**Mercantile Agent (Factors Act 1889):**
-A mercantile agent (a factor) has possession of goods with the owner's consent for sale. Under the Factors Acts (applied in Nigeria), a mercantile agent can pass good title to a third party even if the owner did not authorise the sale — provided:
-1. The agent was acting in the ordinary course of business
-2. The third party acted in good faith
-3. The third party did not know the agent had no authority
-
-This is the exception to *nemo dat quod non habet* (you cannot give what you don't have) — an owner's title prevails except in certain protected situations.
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

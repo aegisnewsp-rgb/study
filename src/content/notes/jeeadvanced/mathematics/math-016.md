@@ -11,133 +11,105 @@ topicName: Binomial
 weight: 5
 country: india
 generated: "2026-03-24T08:32:07.941384"
-lastUpdated: 2026-03-24
+lastUpdated: "2026-09-10"
 diagramPrompt: "Mathematical diagram showing Binomial concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style"
 
 
 
 
 ---
+
 # Binomial
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Binomial Theorem:**
-$$(a+b)^n = \sum_{k=0}^{n} \binom{n}{k} a^{n-k} b^k = a^n + \binom{n}{1}a^{n-1}b + \binom{n}{2}a^{n-2}b^2 + \cdots + b^n$$
+The **Binomial Theorem** states that for any non-negative integer n,
+$(x + y)^n = \sum_{r=0}^{n} \binom{n}{r} x^{n-r} y^r$, where $\binom{n}{r} = \dfrac{n!}{r!(n-r)!}$ is the **binomial coefficient**.
 
-where $\binom{n}{k} = \frac{n!}{k!(n-k)!}$ (binomial coefficient).
+- The expansion produces **n + 1 terms**, indexed r = 0, 1, …, n.
+- The **general term** is $T_{r+1} = \binom{n}{r} x^{n-r} y^r$ — note the off-by-one: term number equals r + 1.
+- Sum of all coefficients (put x = y = 1) equals **2ⁿ**; alternating sum with y = −1 equals **0** for n ≥ 1.
+- **Greatest coefficient** $\binom{n}{r}$ lies at $r = \lfloor n/2 \rfloor$.
 
-**Special Cases:**
-
-- $(1+x)^n = 1 + \binom{n}{1}x + \binom{n}{2}x^2 + \cdots + x^n$
-- $(x-1)^n = \sum_{k=0}^{n} \binom{n}{k} (-1)^k x^{n-k}$
-
-**Properties of Binomial Coefficients:**
-
-- $\binom{n}{k} = \binom{n}{n-k}$ (symmetry)
-- $\binom{n}{k} + \binom{n}{k+1} = \binom{n+1}{k+1}$ (Pascal's identity)
-- $\sum_{k=0}^{n} \binom{n}{k} = 2^n$
-- $\sum_{k=0}^{n} (-1)^k \binom{n}{k} = 0$ for $n \geq 1$
-
-**General Term:**
-$T_{k+1} = \binom{n}{k} a^{n-k} b^k$ for $k = 0, 1, 2, \ldots, n$.
-
-⚡ **JEE Tip:** For middle terms in $(a+b)^n$, when $n$ is even, the middle term is $T_{\frac{n}{2}+1}$. When $n$ is odd, two middle terms are $T_{\frac{n+1}{2}}$ and $T_{\frac{n+1}{2}+1}$.
-
-⚡ **Common Mistake:** For $(1-x)^n$, the signs alternate: $T_{k+1} = \binom{n}{k}(-x)^k = (-1)^k \binom{n}{k} x^k$. Don't forget the $(-1)^k$.
+| Identity | Value |
+| --- | --- |
+| $\sum \binom{n}{r}$ | $2^n$ |
+| $\sum (-1)^r \binom{n}{r}$ | 0 (n ≥ 1) |
+| Expansion length | n + 1 terms |
+| Middle term (n even) | $T_{n/2 + 1}$ |
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> For students who want genuine understanding.
+> Standard content for students with a few days to months.
 
-**Multinomial Theorem:**
-$(x_1 + x_2 + \cdots + x_m)^n = \sum \frac{n!}{a_1! a_2! \cdots a_m!} x_1^{a_1} x_2^{a_2} \cdots x_m^{a_m}$
-where sum is over all non-negative integers $a_1, a_2, \ldots, a_m$ with $a_1 + a_2 + \cdots + a_m = n$.
+#### General Term and Indexing
+The r-th term (counting from 0) of $(x+y)^n$ is $\binom{n}{r} x^{n-r} y^r$. In JEE Advanced questions, you will often be asked to "find the term independent of x" or "find the term containing $x^k$" — equate the exponent of x to the required power and solve for r. Remember that r must be a non-negative integer; otherwise the required term does not exist.
 
-**Binomial Coefficient Identities:**
+#### Pascal's Identity and Symmetry
+Two properties carry most coefficient problems:
+- **Symmetry:** $\binom{n}{r} = \binom{n}{n-r}$.
+- **Pascal's rule:** $\binom{n}{r} + \binom{n}{r-1} = \binom{n+1}{r}$.
 
-1. $\sum_{k=0}^{n} \binom{r+k}{k} = \binom{r+n+1}{n}$ ( Hockey-stick)
-2. $\sum_{k=0}^{n} k \binom{n}{k} = n \cdot 2^{n-1}$
-3. $\sum_{k=0}^{n} k^2 \binom{n}{k} = (n + n^2) 2^{n-2}$
-4. $\sum_{k=0}^{n} \binom{n}{k}^2 = \binom{2n}{n}$ (special identity)
+These let you reduce any coefficient to a form suitable for evaluation or for use in divisibility arguments.
 
-**Binomial for Any Index:**
-For any real $n$:
-$$(1+x)^n = 1 + nx + \frac{n(n-1)}{2!}x^2 + \frac{n(n-1)(n-2)}{3!}x^3 + \cdots$$
+#### Middle Term and Greatest Coefficient
+The greatest binomial coefficient occurs at $r = \lfloor n/2 \rfloor$.
+- **n even:** single middle term at $T_{n/2 + 1}$.
+- **n odd:** two middle terms, $T_{(n+1)/2}$ and $T_{(n+3)/2}$.
 
-When $n$ is not a non-negative integer, the series is infinite and converges for $|x| < 1$.
+| n parity | Middle term(s) | Position |
+| --- | --- | --- |
+| Even | $T_{n/2+1}$ | Single |
+| Odd | $T_{(n+1)/2}$, $T_{(n+3)/2}$ | Pair |
 
-**Worked Examples:**
+#### Coefficient Sums
+- Total sum → substitute x = 1, y = 1 → $2^n$.
+- Odd-indexed sum → substitute x = 1, y = −1 and split: sum of coefficients of even-indexed terms minus odd-indexed terms equals $2^n$ if n is even, 0 if n is odd.
 
-*Example 1 (JEE 2022):* Find the coefficient of $x^{15}$ in $(1-x^2)^{-3}$.
-
-Using general binomial: $(1+x)^n = \sum \binom{n}{k} x^k$ with $n = -3$.
-$(1-x^2)^{-3} = \sum_{k=0}^{\infty} \binom{-3}{k}(-x^2)^k = \sum_{k=0}^{\infty} \binom{-3}{k}(-1)^k x^{2k}$.
-
-General binomial coefficient: $\binom{-3}{k} = \frac{(-3)(-4)(-5)\cdots(-3-k+1)}{k!} = \frac{(-1)^k \cdot 3 \cdot 4 \cdot 5 \cdots (k+2)}{k!} = \frac{(-1)^k (k+2)!}{2! \cdot k!} = \frac{(-1)^k (k+2)(k+1)}{2}$.
-
-So $\binom{-3}{k}(-1)^k = \frac{(k+2)(k+1)}{2}$.
-Thus coefficient of $x^{2k}$ is $\frac{(k+2)(k+1)}{2}$.
-
-We want $x^{15}$, but $x$ appears only with even powers $2k$. So coefficient of $x^{15}$ is 0.
-
-*Example 2:* Find $n$ if the 3rd term in $(1+x)^n$ is 220.
-
-The 3rd term corresponds to $k=2$: $T_3 = \binom{n}{2} x^2 \cdot 1^{n-2} = \frac{n(n-1)}{2} x^2$.
-Given coefficient is 220: $\frac{n(n-1)}{2} = 220$ → $n(n-1) = 440$.
-$n^2 - n - 440 = 0$.
-$(n-21)(n+20) = 0$.
-So $n = 21$ (positive integer).
-
-*Example 3:* Find $\sum_{k=0}^{n} \binom{n}{k} 2^k$.
-
-$(1+2)^n = 3^n = \sum_{k=0}^{n} \binom{n}{k} 1^{n-k} 2^k = \sum_{k=0}^{n} \binom{n}{k} 2^k$.
-So sum $= 3^n$.
+#### General Binomial Series
+When n is **not** a positive integer, use $\binom{n}{r} = \dfrac{n(n-1)\cdots(n-r+1)}{r!}$ and the infinite series converges only when $|x| < 1$ in $(1+x)^n$.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive theory for serious JEE Advanced preparation.
+> Comprehensive coverage for students on a longer study timeline.
 
-**Generalised Binomial Coefficient:**
-$$\binom{n}{k} = \frac{n(n-1)(n-2)\cdots(n-k+1)}{k!}$$
-works for any real $n$ and non-negative integer $k$.
+#### Worked Example — Finding a Specific Term
+Find the term independent of x in the expansion of $\left(x^2 + \dfrac{1}{x}\right)^{12}$.
 
-**Exponential Generating Function:**
-The EGF for binomial expansions is related to $(1+x)^n$.
+General term: $T_{r+1} = \binom{12}{r} (x^2)^{12-r} \left(\dfrac{1}{x}\right)^r = \binom{12}{r} x^{24-3r}$.
 
-**Applications in Probability:**
-For binomial distribution: $(p+q)^n = \sum \binom{n}{k} p^k q^{n-k}$ where $p+q=1$.
+For independence of x, set 24 − 3r = 0 → r = 8. The required term is $\binom{12}{8} = \binom{12}{4} = 495$.
 
-**Advanced Problems:**
+#### Multinomial Generalisation
+For $(x_1 + x_2 + \cdots + x_k)^n$, the coefficient of $x_1^{r_1} x_2^{r_2} \cdots x_k^{r_k}$ with $r_1 + r_2 + \cdots + r_k = n$ is $\dfrac{n!}{r_1! \, r_2! \cdots r_k!}$.
 
-*Problem (JEE Advanced 2023):* Find the sum $\sum_{k=0}^{n} (-1)^k \binom{n}{k}^2$.
+#### Common Mistakes
+1. Writing $T_r$ instead of $T_{r+1}$ — causes off-by-one in exponents.
+2. Applying $n/2 + 1$ for non-integer n — invalid; the middle-term formula needs integer n.
+3. Using $\binom{n}{r} = n!/(r!(n-r)!)$ for general (non-integer, negative) n — must use $n(n-1)\cdots(n-r+1)/r!$ and respect $|x| < 1$.
+4. Forgetting that the expansion has **n + 1** terms, not n.
+5. For odd n, listing only one middle term instead of two.
 
-The result is:
-$\sum_{k=0}^{n} (-1)^k \binom{n}{k}^2 = \begin{cases} (-1)^{n/2} \binom{n}{n/2} & n \text{ even} \\ 0 & n \text{ odd} \end{cases}$.
+#### Divisibility and Approximation
+- To show $(1+x)^n - 1$ is divisible by x, expand and observe the first term cancels.
+- For integer n, all coefficients except 1 are divisible by n when n is prime (used in $(a+b)^p \equiv a^p + b^p \pmod p$).
+- Binomial series with first three non-zero terms gives rapid approximation: $(1+x)^n \approx 1 + nx + \dfrac{n(n-1)}{2}x^2$ for small x.
 
-Proof: Use $\binom{n}{k} = \binom{n}{n-k}$ together with the generating-function identity $(1+x)^n (1-x)^n = (1-x^2)^n$.
-
-Coefficient of $x^n$ on the left: $\sum_{k=0}^n (-1)^{n-k} \binom{n}{k} \binom{n}{n-k} = \sum_{k=0}^n (-1)^{n-k} \binom{n}{k}^2$. For even $n$ this equals $\sum_{k=0}^n (-1)^k \binom{n}{k}^2$ (since $(-1)^{n-k} = (-1)^k$), and for odd $n$ it equals zero.
-
-Coefficient of $x^n$ on the right: from $(1-x^2)^n = \sum_{j=0}^n \binom{n}{j} (-1)^j x^{2j}$, only even powers of $x$ occur. For odd $n$ there is no $x^n$ term, so the coefficient is 0. For even $n = 2m$, take $2j = n$, i.e. $j = m$, giving coefficient $(-1)^m \binom{n}{m}$.
-
-Hence $\sum_{k=0}^{n} (-1)^k \binom{n}{k}^2 = (-1)^m \binom{2m}{m}$ when $n = 2m$, and $0$ when $n$ is odd.
-
-*Problem 2:* Find the coefficient of $x^{10}$ in $(1-x)^{10} (1+x)^{10}$.
-
-$(1-x)^{10}(1+x)^{10} = ((1-x)(1+x))^{10} = (1-x^2)^{10} = \sum_{k=0}^{10} \binom{10}{k} (-1)^k x^{2k}$.
-Coefficient of $x^{10}$: since 10 is even, set $2k = 10$, i.e. $k = 5$.
-Coefficient: $\binom{10}{5} (-1)^5 = -\binom{10}{5} = -252$.
-
-**JEE Advanced Patterns (2018–2024):**
-- General term and coefficient problems are very common
-- Binomial for non-integer exponents (infinite series) appeared in 2020, 2022
-- Summation of binomial coefficients with specific patterns is frequent
-- Identities involving $\sum \binom{n}{k}^2$ and similar are advanced but appear
-- Multinomial expansion for more than two terms is less common but tested
+#### Practice Prompts
+1. Find the coefficient of $x^5$ in the expansion of $(x^2 + 3x + 1)^7$ using the multinomial theorem.
+2. Approximate $\sqrt{1.02}$ using the binomial series up to two terms, and estimate the error.
 
 ---
-*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+
+## Continue your study
+
+- **[View this topic in your JEE Advanced roadmap](/roadmap/?exam=jeeadvanced&duration=1mo)** — see where "Binomial" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=jeeadvanced&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[JEE Advanced exam overview](/exams/jeeadvanced/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/jeeadvanced/mathematics/)** — browse sibling topics in this subject
+
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

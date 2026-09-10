@@ -11,7 +11,7 @@ topicName: Modern Physics
 weight: 4
 country: pakistan
 generated: "2026-03-24T08:32:08.090695"
-lastUpdated: "2026-06-25"
+lastUpdated: "2026-09-10"
 diagramPrompt: "Clean educational diagram showing Modern Physics with clear labels, white background, labeled arrows for forces/fields/vectors, color-coded components, exam-style illustration"
 
 
@@ -23,58 +23,113 @@ diagramPrompt: "Clean educational diagram showing Modern Physics with clear labe
 # Modern Physics
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+> Rapid summary for last-minute revision before your MDCAT Physics paper.
 
-Modern Physics covers atomic-scale phenomena and high-velocity regimes that Newtonian mechanics cannot explain. The **photoelectric effect** establishes the photon model: light delivers energy in quanta of **E = hf**, and electrons escape a metal only when frequency exceeds the **threshold frequency f₀**, satisfying **KE_max = hf − W = h(f − f₀)**, where **W = hf₀** is the **work function**. **Wave–particle duality** extends to matter via the **de Broglie wavelength λ = h/mv**. The **Bohr model** quantizes electron orbits with angular momentum mvr = nh/2π, giving radii rₙ = 0.529 n² Å and energies Eₙ = −13.6/n² eV. **X-rays** from a Coolidge tube obey the Duane–Hunt limit λ_min = hc/eV. **Radioactive decay** follows N = N₀e^(−λt) with half-life T₁/₂ = 0.693/λ; α-emission drops A by 4, Z by 2; β-emission raises Z by 1. **Mass–energy equivalence** E = Δmc² governs fission and fusion energy release.
+Modern Physics covers phenomena 19th-century physics cannot explain: the **photoelectric effect**, **wave–particle duality**, **Bohr's atomic model**, **special relativity**, and **nuclear physics** (radioactivity, fission, fusion). Light comes in quanta called **photons**, each carrying energy $E = h\nu = hc/\lambda$, where $h = 6.626 \times 10^{-34}\ \text{J·s}$ is Planck's constant.
+
+Einstein's photoelectric equation is $KE_{\max} = h\nu - \phi = eV_s$, where $\phi$ is the work function and $V_s$ is the stopping potential. Electrons only eject when $\nu \ge \nu_0$ (threshold frequency); below this, intensity does nothing. de Broglie extended the wave idea to matter: $\lambda = h/(mv)$. Bohr quantised orbits with $mvr = nh/(2\pi)$, giving $r_n = n^2 a_0/Z$ and $E_n = -13.6\ \text{eV} \cdot Z^2/n^2$.
+
+| Sub-topic | Must-know fact |
+| --- | --- |
+| Photon energy | $E = h\nu$, $h = 6.626 \times 10^{-34}\ \text{J·s}$ |
+| Photoelectric equation | $KE_{\max} = h\nu - \phi$ (no electron if $h\nu < \phi$) |
+| de Broglie wavelength | $\lambda = h/(mv)$ |
+| Mass–energy | $E = mc^2$, $c = 3 \times 10^8\ \text{m·s}^{-1}$ |
+| Half-life | $T_{1/2} = \ln 2 / \lambda \approx 0.693/\lambda$ |
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+> Standard content for students with a few days to months before MDCAT.
 
-#### Photoelectric Effect
-Einstein explained Hertz's observation by treating light as photons. A surface emits electrons only when **f > f₀**; below f₀, no electron escapes regardless of intensity. Maximum kinetic energy: **KE_max = hf − W**, where W is the work function characteristic of the metal. Stopping potential V_s depends on frequency alone, while saturation current scales with intensity. The slope of a KE_max vs f graph equals **Planck's constant h ≈ 6.626 × 10⁻³⁴ J·s**, while its x-intercept gives f₀.
+#### Photons and the Photoelectric Effect
 
-#### Wave–Particle Duality
-de Broglie (1924) assigned wavelength **λ = h/p = h/mv** to any particle with momentum. Electrons accelerated through 150 V have λ ≈ 0.1 nm, suitable for crystal diffraction. Davisson–Germer confirmed this experimentally. Light, in turn, shows particle behaviour via the photoelectric and **Compton effects** (Δλ = h/(mₑc)(1 − cos θ)).
+Light delivers energy in discrete packets $E = h\nu$. When photons strike a metal surface, each photon ejects **one** electron; the kinetic energy of the most energetic electron is $KE_{\max} = h\nu - \phi$. Below the threshold frequency $\nu_0 = \phi/h$, no electron is emitted no matter how intense the beam. Intensity controls the *number* of photoelectrons, not their energy. PMC past MDCAT papers (2021–2024) routinely test $\phi$ in eV (remember $1\ \text{eV} = 1.602 \times 10^{-19}\ \text{J}$) and stopping-potential conversion $eV_s = KE_{\max}$.
 
-#### Bohr Model of Hydrogen
-Electrons occupy stationary orbits of quantized angular momentum **L = mvr = nh/2π**. Allowed radii scale as **rₙ = n²a₀** (a₀ = 0.529 Å), and energies as **Eₙ = −13.6/n² eV**. A photon of energy **hf = E_i − E_f** is emitted on transition. The model successfully predicts hydrogen and hydrogen-like ion spectra but fails for multi-electron atoms.
+#### Wave–Particle Duality and Uncertainty
 
-#### X-Rays
-Produced when high-speed electrons strike a tungsten target. Bremsstrahlung yields a continuous spectrum with a sharp cutoff at **λ_min = hc/eV**. Characteristic K-series lines appear when inner-shell vacancies are filled. MDCAT rarely demands numerical X-ray problems but frequently tests the inverse relationship between λ_min and accelerating voltage.
+de Broglie proposed every moving particle has wavelength $\lambda = h/(mv)$. A 1 eV electron has $\lambda \approx 1.23\ \text{nm}$, comparable to atomic spacing — which is why electron microscopes resolve atoms. Heisenberg's principle $\Delta x \cdot \Delta p \ge h/(4\pi)$ sets the floor on simultaneous position–momentum knowledge; it is not an instrumental flaw but a property of nature.
 
-#### Radioactivity
-Unstable nuclei decay spontaneously. **α-decay** (⁴₂He nucleus): A → A−4, Z → Z−2. **β⁻-decay** (electron + antineutrino): A unchanged, Z → Z+1. **γ-decay**: neither A nor Z changes, only nuclear energy drops. Activity A = λN follows first-order kinetics with T₁/₂ = 0.693/λ. Average life τ = 1/λ.
+#### Bohr Model and Hydrogen Spectrum
 
-#### Nuclear Reactions
-**Fission** splits heavy nuclei (²³⁵U, ²³⁹Pu) into fragments plus neutrons, releasing ~200 MeV per event. **Fusion** combines light nuclei (D + T → ⁴He + n), releasing 17.6 MeV, but requires ~10⁸ K plasmas. Both obey **E = Δmc²**.
+Bohr imposed angular-momentum quantisation $mvr = nh/(2\pi)$, yielding $r_n = n^2 a_0/Z$ (with $a_0 = 5.29 \times 10^{-11}\ \text{m}$) and $E_n = -13.6\ \text{eV} \cdot Z^2/n^2$. Transitions release photons with $h\nu = E_{\text{high}} - E_{\text{low}}$, producing the Lyman, Balmer, and Paschen series.
 
-#### Lasers
-Three requirements: population inversion, metastable state, and resonant cavity. Output is **coherent, monochromatic, and collimated** — distinguishing laser light from ordinary sources.
+| Concept | Formula / Value |
+| --- | --- |
+| Bohr radius | $r_n = n^2 a_0 / Z$ |
+| Hydrogen energy | $E_n = -13.6\ \text{eV}/n^2$ |
+| Photon emitted | $h\nu = E_i - E_f$ |
+| de Broglie | $\lambda = h/(mv)$ |
+| Uncertainty | $\Delta x \cdot \Delta p \ge h/(4\pi)$ |
+
+- The work function $\phi$ is material-specific; frequency must exceed $\nu_0$, not intensity.
+- Photoelectric $KE_{\max}$ depends only on $\nu - \nu_0$, never on beam brightness.
+
+#### Nuclear Physics and Radioactivity
+
+The nucleus holds $Z$ protons and $A-Z$ neutrons; isotopes share $Z$ but differ in neutron count. The mass defect $\Delta m$ between separated nucleons and the bound nucleus releases binding energy $BE = \Delta m c^2$. Radioactive decay is exponential: $N(t) = N_0 e^{-\lambda t}$, with $T_{1/2} = \ln 2 / \lambda$ and activity $A = \lambda N$ in becquerels.
+
+| Decay type | Emitted particle | Change in $Z$ | Change in $A$ |
+| --- | --- | --- | --- |
+| $\alpha$ | $^4_2\text{He}$ nucleus | $-2$ | $-4$ |
+| $\beta^-$ | electron + antineutrino | $+1$ | $0$ |
+| $\gamma$ | high-energy photon | $0$ | $0$ |
+
+#### Special Relativity
+
+Einstein's postulates (laws of physics invariant in inertial frames; $c$ constant) give $E = mc^2$, time dilation $\Delta t = \gamma \Delta t_0$, and length contraction $L = L_0/\gamma$, where $\gamma = 1/\sqrt{1 - v^2/c^2}$.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-#### Worked Example
-Light of wavelength 400 nm falls on a metal with W = 2.0 eV. Photon energy E = hc/λ = (1240 eV·nm)/400 nm = 3.10 eV. Maximum KE = 3.10 − 2.0 = 1.10 eV. Stopping potential V_s = 1.10 V. Threshold wavelength λ₀ = hc/W = 1240/2.0 = 620 nm — below 620 nm the surface emits electrons, above it the photoelectric current is zero. This problem appears in roughly 1 of every 6 MDCAT Physics MCQs from this unit.
+#### Photoelectric Mechanism in Detail
 
-#### Edge Cases & Common Mistakes
-- **Current vs. energy confusion**: Increasing intensity raises the *number* of emitted electrons (higher current) but does **not** raise their maximum kinetic energy. Examiners pair "double the intensity" with the wrong answer choice.
-- **Bohr model limits**: It violates the Heisenberg uncertainty principle because it assigns definite r and v simultaneously. Use it only for hydrogen and H-like ions (He⁺, Li²⁺), where the nucleus is a point charge and screening is absent.
-- **Decay constant units**: λ has units s⁻¹, not seconds. Mixing up λ with T₁/₂ is a frequent error; remember T₁/₂ = 0.693/λ.
-- **α vs. β vs. γ penetrance**: α stopped by paper, β by ~5 mm aluminium, γ needs thick lead — a common matching-column item.
-- **Compton shift sign**: Δλ is *positive* (wavelength increases) after scattering, an asymmetry Compton's classical wave theory could not explain.
-- **Stopping potential independence from intensity** is the single most-tested fact in MDCAT's photoelectric block.
+A photon's energy transfers to a single bound electron. If $h\nu > \phi$, the electron escapes with $KE_{\max} = h\nu - \phi$; if $h\nu \le \phi$, the energy is re-emitted or converted to lattice vibrations. Millikan's stopping-potential experiment (1916) confirmed $eV_s$ vs $\nu$ is a straight line of slope $h$ and intercept $-\phi$ — direct evidence of photon quantisation and the way to measure $h$ experimentally.
 
-#### Connections
-Modern Physics unifies with **Waves & Optics** through interference patterns of electrons, with **Electromagnetism** via the photoelectric work-function concept, and with **Kinetic Theory** through mass-defect energy release in fission reactors and stellar cores.
+#### Worked Example: Stopping Potential
 
-#### Practice Prompts
-1. A radioactive sample has N₀ = 10⁶ nuclei and λ = 0.02 s⁻¹. Find the activity at t = 50 s and the time for 90% decay.
-2. An electron is accelerated from rest through 100 V. Calculate its de Broglie wavelength and the smallest orbit it could occupy if captured by a proton.
+Light of wavelength $300\ \text{nm}$ hits a metal with $\phi = 2.0\ \text{eV}$. Find $V_s$.
+
+1. Photon energy: $E = hc/\lambda = (6.626 \times 10^{-34})(3 \times 10^8)/(300 \times 10^{-9}) = 6.626 \times 10^{-19}\ \text{J} \approx 4.14\ \text{eV}$.
+2. $KE_{\max} = 4.14 - 2.0 = 2.14\ \text{eV}$.
+3. $V_s = KE_{\max}/e = 2.14\ \text{V}$.
+
+#### Worked Example: Half-Life
+
+A 16 g sample of a $\beta$-emitter has $T_{1/2} = 4$ days. Mass remaining after 12 days?
+
+12 days = 3 half-lives, so $m = 16 \times (1/2)^3 = 2\ \text{g}$.
+
+#### Edge Cases and Adjacent Links
+
+- X-rays (Bremsstrahlung + characteristic $K_\alpha$, $K_\beta$ lines) bridge Modern Physics with electromagnetism; their cutoff wavelength follows $\lambda_{\min} = hc/eV$.
+- Pair production ($\gamma \to e^+ + e^-$, threshold $2m_e c^2 = 1.022\ \text{MeV}$) and annihilation back to $2\gamma$ tie relativity to nuclear physics.
+- Binding energy per nucleon peaks at $^ {56}\text{Fe}$ (~8.8 MeV), explaining why both fission of heavy nuclei and fusion of light nuclei release energy.
+
+#### Common Mistakes
+
+| Mistake | Correction |
+| --- | --- |
+| Using intensity to explain $KE_{\max}$ | Intensity changes electron *count*, not energy |
+| $T_{1/2} = \lambda/\ln 2$ | Correct form: $\lambda = \ln 2 / T_{1/2}$ |
+| $\Delta m$ signed wrongly | $\Delta m = $ (separated nucleons) − (nucleus) > 0 |
+| Confusing $\alpha$ and $\beta$ particles | $\alpha$ = $^4_2\text{He}$ nucleus; $\beta$ = nuclear electron |
+| Treating Bohr orbits as real paths | They are stationary states; only transitions are observable |
+
+#### Exam Strategy
+
+MDCAT typically asks 1–2 Modern Physics MCQs (≈4% of Physics). Highest-yield topics: photoelectric $V_s$ calculation, de Broglie $\lambda$ of an electron, Bohr $E_n$ or $r_n$, $E = mc^2$ from a given mass defect, and identifying the emitted particle in a decay equation. Skip lengthy derivations — practice stopping-potential and half-life numericals under 60 seconds each.
+
+---
+
+## Continue your study
+
+- **[View this topic in your MDCAT roadmap](/roadmap/?exam=mdcat&duration=1mo)** — see where "Modern Physics" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=mdcat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[MDCAT exam overview](/exams/mdcat/)** — pattern, eligibility, and syllabus
+- **[All Physics notes](/notes/mdcat/physics/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

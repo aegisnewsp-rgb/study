@@ -11,156 +11,107 @@ topicName: Matrices
 weight: 5
 country: india
 generated: "2026-03-24T08:32:07.942402"
-lastUpdated: 2026-03-24
+lastUpdated: "2026-09-10"
 diagramPrompt: "Mathematical diagram showing Matrices concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style"
 
 
 
 
 ---
+
 # Matrices
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Types of Matrices:**
+A **matrix** is a rectangular array of numbers arranged in *m* rows and *n* columns, written $A = [a_{ij}]_{m \times n}$ where $a_{ij}$ is the entry in row *i*, column *j*. Two matrices are equal only when their orders match and corresponding entries are identical; **square** matrices (m = n) admit determinant, inverse, transpose, adjoint, and trace operations.
 
-- **Row/Column:** $1 \times n$ or $n \times 1$ matrix
-- **Square:** $n \times n$ (same rows and columns)
-- **Zero matrix:** All entries are 0
-- **Identity:** Diagonal entries 1, others 0; denoted $I_n$
-- **Diagonal:** Non-diagonal entries are 0
-- **Symmetric:** $A^T = A$
-- **Skew-symmetric:** $A^T = -A$
+Key formulas every JEE Advanced candidate must recall:
 
-**Operations:**
+- **Inverse:** $A^{-1} = \dfrac{1}{\det A}\,\text{adj}\,A$, valid only when $\det A \neq 0$.
+- **2×2 determinant:** for $A = \begin{pmatrix} a & b \\ c & d \end{pmatrix}$, $\det A = ad - bc$.
+- **Cramer's rule:** $x_k = \Delta_k / \Delta$, applicable when $\Delta = \det[\text{coefficient matrix}] \neq 0$.
 
-- **Addition:** Same-size matrices, element-wise
-- **Scalar multiplication:** Multiply each element by scalar
-- **Multiplication:** $C_{ij} = \sum_k A_{ik} B_{kj}$; number of columns of $A$ must equal number of rows of $B$
-- **Transpose:** Swap rows and columns
+Exam pointers:
 
-**Determinant (for $2 \times 2$):**
-$$|A| = \begin{vmatrix} a & b \\ c & d \end{vmatrix} = ad - bc$$
-
-⚡ **JEE Tip:** Matrix multiplication is NOT commutative: $AB \neq BA$ in general. Always check order when multiplying matrices.
-
-⚡ **Common Mistake:** $|A+B| \neq |A| + |B|$. Determinant is multiplicative: $|AB| = |A||B|$, but not additive.
+- Matrices carry **≈ 5% weightage** in JEE Advanced Mathematics — usually 4–8 marks per paper.
+- Watch for questions on **rank**, **Cayley–Hamilton**, and **system consistency** (AX = B solvable iff ρ(A) = ρ([A|B])).
+- The **trace** satisfies $\sum \lambda_i = \text{tr}\,A$ and $\prod \lambda_i = \det A$.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> For students who want genuine understanding.
+> Standard content for students with a few days to months.
 
-**Properties of Determinants:**
+#### Matrix algebra and special types
 
-1. $|A^T| = |A|$
-2. $|AB| = |A||B|$
-3. $|A^{-1}| = 1/|A|$ (if $A$ is invertible)
-4. Swapping two rows changes sign
-5. Multiplying a row by scalar $k$: $|kA| = k^n|A|$ for $n \times n$
-6. Adding multiple of one row to another: determinant unchanged
+Matrix addition requires matching orders; scalar multiplication scales every entry. Multiplication **AB** is defined only when *columns of A = rows of B*, and is generally **non-commutative**. The **identity matrix** $I_n$ acts as the multiplicative identity, while the **zero (null) matrix** is the additive identity.
 
-**Adjoint and Inverse:**
+A matrix is **symmetric** when $a_{ij} = a_{ji}$ (so $A^T = A$) and **skew-symmetric** when $a_{ij} = -a_{ji}$, which forces every diagonal entry to be zero. Any square matrix $A$ can be written as $A = \tfrac{1}{2}(A + A^T) + \tfrac{1}{2}(A - A^T)$, separating its symmetric and skew-symmetric parts.
 
-For a square matrix $A$:
-- **Adjoint:** $\text{adj}(A) = C^T$ where $C_{ij} = (-1)^{i+j}M_{ij}$ (cofactor matrix, transposed)
-- **Inverse:** $A^{-1} = \frac{\text{adj}(A)}{|A|}$ (provided $|A| \neq 0$)
+#### Determinant, adjoint, and inverse
 
-$A$ is **invertible** (non-singular) iff $|A| \neq 0$.
+For an n×n matrix, the **determinant** $\det A$ is a scalar that encodes volume-scaling. The **adjoint** $\text{adj}\,A$ is the transpose of the cofactor matrix. A matrix is **singular** when $\det A = 0$ (no inverse exists) and **non-singular** when $\det A \neq 0$. The defining identity $A \cdot \text{adj}\,A = \text{adj}\,A \cdot A = (\det A)\,I$ yields the inverse formula given above.
 
-**Rank of Matrix:**
+| Operation | Formula | Condition |
+| --- | --- | --- |
+| Transpose | $(A^T)_{ij} = a_{ji}$ | Any matrix |
+| Trace | $\text{tr}\,A = \sum_i a_{ii}$ | Square |
+| Inverse | $A^{-1} = \text{adj}\,A / \det A$ | $\det A \neq 0$ |
+| Reversal | $(AB)^{-1} = B^{-1}A^{-1}$ | Both invertible |
 
-The rank $r(A)$ is the number of non-zero rows in its row echelon form.
-- Maximum rank is $\min(m,n)$ for $m \times n$ matrix
-- $r(A) = r$ means there exists at least one $r \times r$ minor with non-zero determinant, and all $(r+1) \times (r+1)$ minors are zero
+#### Rank and systems of linear equations
 
-**Worked Examples:**
+The **rank** $\rho(A)$ is the maximum number of linearly independent rows (equivalently columns). Elementary row/column operations preserve rank. For the system $AX = B$ with *m* equations and *n* unknowns, $\rho(A) = \rho([A|B]) = r$ gives consistency with $n - r$ free variables; $AX = 0$ has non-trivial solutions iff $\rho(A) < n$.
 
-*Example 1:* If $A = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}$, find $A^{-1}$.
+- A **homogeneous** system always has the zero solution; non-zero solutions require $\det A = 0$ for square *A*.
+- **Cramer's rule** solves n×n systems directly but breaks down the moment $\Delta = 0$.
 
-$|A| = 1 \cdot 4 - 2 \cdot 3 = 4 - 6 = -2$.
+#### Eigenvalues and Cayley–Hamilton
 
-Compute the cofactors $C_{ij} = (-1)^{i+j}M_{ij}$: $C_{11} = 4$, $C_{12} = -3$ (since $(-1)^{1+2} \cdot 3$), $C_{21} = -2$ (since $(-1)^{2+1} \cdot 2$), $C_{22} = 1$.
-So the cofactor matrix $C = \begin{pmatrix} 4 & -3 \\ -2 & 1 \end{pmatrix}$.
-$\text{adj}(A) = C^T = \begin{pmatrix} 4 & -2 \\ -3 & 1 \end{pmatrix}$.
-
-$A^{-1} = \frac{1}{-2} \begin{pmatrix} 4 & -2 \\ -3 & 1 \end{pmatrix} = \begin{pmatrix} -2 & 1 \\ 3/2 & -1/2 \end{pmatrix}$.
-
-*Example 2 (JEE 2021):* Find rank of $A = \begin{pmatrix} 1 & 2 & 3 \\ 2 & 4 & 6 \\ 3 & 6 & 9 \end{pmatrix}$.
-
-Note that row 2 = 2(row 1) and row 3 = 3(row 1). So rank is at most 1.
-Check: is there a non-zero element? Yes, $A_{11} = 1 \neq 0$.
-So rank = 1.
-
-*Example 3:* Solve system using matrix method:
-$2x + y = 5$
-$x + 2y = 4$
-
-Matrix form: $\begin{pmatrix} 2 & 1 \\ 1 & 2 \end{pmatrix} \begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} 5 \\ 4 \end{pmatrix}$.
-$|A| = 4 - 1 = 3 \neq 0$.
-$A^{-1} = \frac{1}{3}\begin{pmatrix} 2 & -1 \\ -1 & 2 \end{pmatrix}$.
-$\begin{pmatrix} x \\ y \end{pmatrix} = A^{-1} \begin{pmatrix} 5 \\ 4 \end{pmatrix} = \frac{1}{3}\begin{pmatrix} 2 & -1 \\ -1 & 2 \end{pmatrix}\begin{pmatrix} 5 \\ 4 \end{pmatrix} = \frac{1}{3}\begin{pmatrix} 10 - 4 \\ -5 + 8 \end{pmatrix} = \frac{1}{3}\begin{pmatrix} 6 \\ 3 \end{pmatrix} = \begin{pmatrix} 2 \\ 1 \end{pmatrix}$.
+Eigenvalues $\lambda$ satisfy $\det(A - \lambda I) = 0$. Real symmetric matrices have real eigenvalues; skew-symmetric real matrices have purely imaginary (or zero) eigenvalues. **Cayley–Hamilton** states that every n×n matrix satisfies its own characteristic polynomial $p(A) = 0$, letting you compute $A^{-1}$ by replacing $\lambda^0 = 1$ with $-A^{-1}\det A$.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive theory for serious JEE Advanced preparation.
+> Comprehensive coverage for students on a longer study timeline.
 
-**Eigenvalues and Eigenvectors:**
+#### Edge cases and traps examiners exploit
 
-For square matrix $A$, if $A\mathbf{v} = \lambda \mathbf{v}$ for non-zero vector $\mathbf{v}$, then $\lambda$ is an eigenvalue and $\mathbf{v}$ is an eigenvector.
+Three traps appear repeatedly. First, students write $(A+B)^2 = A^2 + 2AB + B^2$; the correct expansion is $A^2 + AB + BA + B^2$, with the cross term $AB + BA$ collapsing to $2AB$ only when $A$ and $B$ commute. Second, the inverse of a product reverses order — $(AB)^{-1} = B^{-1}A^{-1}$ — a fact that costs marks in chain-matrix problems. Third, **Cramer's rule** silently fails when $\Delta = 0$; the rule gives no answer and the system must instead be analysed by rank.
 
-**Characteristic Equation:**
-$$|A - \lambda I| = 0$$
+| Trap | Wrong assumption | Correct statement |
+| --- | --- | --- |
+| Commutativity | $AB = BA$ | Generally false |
+| Inverse of product | $(AB)^{-1} = A^{-1}B^{-1}$ | $(AB)^{-1} = B^{-1}A^{-1}$ |
+| Skew-symmetric eigenvalues | All zero | Purely imaginary (or zero) |
+| Diagonalisability over ℝ | Always possible | Requires real eigenvalues |
 
-This gives a polynomial of degree $n$ in $\lambda$. Sum of eigenvalues (trace) $= \text{tr}(A) = \sum A_{ii}$. Product of eigenvalues $= |A|$.
+#### Diagonalisability criterion
 
-**Properties:**
-- Sum of eigenvalues = trace
-- Product of eigenvalues = determinant
-- For symmetric matrix, all eigenvalues are real
-- For skew-symmetric matrix, eigenvalues are purely imaginary or zero
+An n×n matrix *A* is **diagonalisable** over a field iff it possesses *n* linearly independent eigenvectors. A sufficient (not necessary) condition: *n* distinct eigenvalues. Real matrices with complex conjugate eigenvalue pairs cannot be diagonalised over ℝ but can be brought to real block-diagonal (Jordan) form. **Cayley–Hamilton** powers this result by giving a polynomial identity $a_0 I + a_1 A + \cdots + a_n A^n = 0$ that lets you reduce $A^k$ for large *k* into a linear combination of $I, A, \dots, A^{n-1}$, a technique JEE Advanced tests in integer-type questions.
 
-**Cayley-Hamilton Theorem:**
-Every square matrix satisfies its own characteristic equation:
-$p(\lambda) = |\lambda I - A| = \lambda^n + c_1\lambda^{n-1} + \cdots + c_n$.
-Then $p(A) = A^n + c_1 A^{n-1} + \cdots + c_n I = 0$.
+#### Worked micro-example
 
-This allows computing powers of matrices efficiently.
+Let $A = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix}$. Then $\det A = 1\cdot4 - 2\cdot3 = -2 \neq 0$, so $A$ is invertible. Compute $\text{adj}\,A = \begin{pmatrix} 4 & -2 \\ -3 & 1 \end{pmatrix}$ (cofactors transposed). Therefore $A^{-1} = \tfrac{1}{-2}\begin{pmatrix} 4 & -2 \\ -3 & 1 \end{pmatrix} = \begin{pmatrix} -2 & 1 \\ 3/2 & -1/2 \end{pmatrix}$. The characteristic polynomial is $\lambda^2 - 5\lambda - 2 = 0$ (trace 5, determinant -2), confirming Cayley–Hamilton: $A^2 - 5A - 2I = 0$.
 
-**Diagonalisation:**
+#### Practice prompts
 
-$A = PDP^{-1}$ where $D$ is diagonal with eigenvalues.
-$A^n = PD^nP^{-1}$.
+1. If $A$ is a 3×3 skew-symmetric real matrix, prove that $\det A = 0$ and find one non-trivial eigenvector form.
+2. For $A = \begin{pmatrix} 2 & 1 \\ 1 & 2 \end{pmatrix}$, compute eigenvalues, verify Cayley–Hamilton, and use it to find $A^{10}$ as a linear combination of *I* and *A*.
 
-**Worked Example:**
+#### Exam strategy
 
-*JEE Advanced 2019:* If $A = \begin{pmatrix} 2 & 1 \\ 1 & 2 \end{pmatrix}$, find $A^n$.
-
-Find eigenvalues: $|A - \lambda I| = \begin{vmatrix} 2-\lambda & 1 \\ 1 & 2-\lambda \end{vmatrix} = (2-\lambda)^2 - 1 = \lambda^2 - 4\lambda + 3 = (\lambda-1)(\lambda-3) = 0$.
-So $\lambda_1 = 1, \lambda_2 = 3$.
-
-For $\lambda_1 = 1$: $(A-I)\mathbf{v} = 0$ → $\begin{pmatrix} 1 & 1 \\ 1 & 1 \end{pmatrix}\mathbf{v} = 0$ → $v_1 + v_2 = 0$.
-Eigenvector $\mathbf{v}_1 = \begin{pmatrix} 1 \\ -1 \end{pmatrix}$.
-
-For $\lambda_2 = 3$: $(A-3I)\mathbf{v} = 0$ → $\begin{pmatrix} -1 & 1 \\ 1 & -1 \end{pmatrix}\mathbf{v} = 0$ → $-v_1 + v_2 = 0$.
-Eigenvector $\mathbf{v}_2 = \begin{pmatrix} 1 \\ 1 \end{pmatrix}$.
-
-$P = \begin{pmatrix} 1 & 1 \\ -1 & 1 \end{pmatrix}$, $D = \begin{pmatrix} 1 & 0 \\ 0 & 3 \end{pmatrix}$.
-$P^{-1} = \frac{1}{2}\begin{pmatrix} 1 & -1 \\ 1 & 1 \end{pmatrix}$.
-
-$A^n = P D^n P^{-1} = \frac{1}{2}\begin{pmatrix} 1 & 1 \\ -1 & 1 \end{pmatrix}\begin{pmatrix} 1 & 0 \\ 0 & 3^n \end{pmatrix}\begin{pmatrix} 1 & -1 \\ 1 & 1 \end{pmatrix}$.
-$= \frac{1}{2}\begin{pmatrix} 1 & 3^n \\ -1 & 3^n \end{pmatrix}\begin{pmatrix} 1 & -1 \\ 1 & 1 \end{pmatrix} = \frac{1}{2}\begin{pmatrix} 1+3^n & -1+3^n \\ -1+3^n & 1+3^n \end{pmatrix}$.
-
-So $A^n = \frac{1}{2}\begin{pmatrix} 3^n+1 & 3^n-1 \\ 3^n-1 & 3^n+1 \end{pmatrix}$.
-
-**JEE Advanced Patterns (2018–2024):**
-- Solving systems using matrices and Cramer's rule is common
-- Eigenvalue problems appeared in 2019, 2021, 2023
-- Cayley-Hamilton theorem is frequently tested (to compute $A^n$)
-- Rank and consistency of linear equations are common
-- Orthogonal and unitary matrices appear in advanced sets
+Expect one **single-correct MCQ** on rank/inverse and one **integer-type** or **multi-correct** question on eigenvalues, Cayley–Hamilton, or system consistency. Allocate ~2 minutes per matrix problem after you have revised 2×2 and 3×3 determinant expansions, the adjoint formula, and the rank inequalities $\rho(AB) \leq \min(\rho A, \rho B)$.
 
 ---
-*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+
+## Continue your study
+
+- **[View this topic in your JEE Advanced roadmap](/roadmap/?exam=jeeadvanced&duration=1mo)** — see where "Matrices" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=jeeadvanced&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[JEE Advanced exam overview](/exams/jeeadvanced/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/jeeadvanced/mathematics/)** — browse sibling topics in this subject
+
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

@@ -8,7 +8,7 @@ topicName: Federalism
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-10"
 ---
 
 # Federalism
@@ -16,119 +16,73 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Federalism** — Key Facts for UPPSC PCS
-- India is a quasi-federal state (Strong centre, as held in **SRC vs Union of India, 1963**)
-- Features: Supremacy of Constitution, Three-fold distribution of powers, Independence of judiciary
-- Types: Symmetrical (equal powers to all states) vs Asymmetrical (special provisions for some states)
-- Important articles: Art. 1 (India is a Union of States), Art. 256-263 (Centre-State financial relations)
-- Sarkaria Commission (1983) and Punchhi Commission (2007) examined Centre-State relations
+Federalism divides sovereign power between the **Union** and **states** under a written, supreme Constitution. The Indian model is **quasi-federal** — federal in substance, unitary in form — labelled by K.C. Wheare as "semi-federal" and by Granville Austin as "federal with a unitary bias." Article 1 describes India as a "**Union of States**," not a federation of sovereign states.
 
-⚡ Exam tip: UPPSC frequently asks about Centre-State disputes, all-India services, and Governor's role
-
----
+- **Three Lists (Seventh Schedule):** Union (97 subjects), State (66), Concurrent (47). Central law prevails on Concurrent subjects under Article 254.
+- **Residuary powers** lie with the **Union** (Article 248), not the states — unlike the US, Canada, or Australia.
+- **Key federal tilt features:** Governor appointed by the President, single citizenship, integrated judiciary, Article 3 (state reorganisation without state consent), emergency provisions, and Rajya Sabha equal representation.
+- **Cooperative bodies:** Finance Commission (Art. 280, every 5 years) and Inter-State Council (Art. 263).
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Federalism** — UPPSC PCS Study Guide
+#### Federal Features vs. Unitary Features
 
-**Nature of Indian Federalism**
-- Unlike typical federations (USA), India has a strong Centre
-- Supreme Court in **State of West Bengal vs Union of India (1963)**: "Indian federation is not the result of an agreement"
-- Features borrowed from Government of India Act 1935
+India's Constitution deliberately blends both. The balance is critical for UPPSC PCS Paper II — examiners commonly ask candidates to *classify* provisions into one column or the other.
 
-**Three Lists (7th Schedule)**
-- Union List (100 subjects): Defence, Foreign Affairs, Currency, Railways, Posts
-- State List (61 subjects): Police, Agriculture, Health, Local govt, Land
-- Concurrent List (52 subjects): Education, Forests, Marriage, Bankruptcy
+| Federal Features | Unitary Features |
+| --- | --- |
+| Division of powers via three Lists | Strong Centre with residuary powers (Art. 248) |
+| Independent judiciary with Supreme Court at apex | Single citizenship, single integrated judiciary |
+| Bicameral legislature; equal RS representation | Governor appointed by President (Art. 155) |
+| Written, rigid Constitution | Article 3 allows reorganisation without state consent |
+| State legislatures for State List subjects | Emergency (Arts. 352, 356, 360) makes system unitary |
 
-**Centre-State Relations**
-- Administrative: Art. 356 (President's Rule), Art. 365 (failure of constitutional machinery)
-- Financial: Art. 268-293, Finance Commission recommendations, Grants-in-aid
-- Legislative: Art. 245 (territorial extent), Art. 249 (Parliament's power on state list for national interest)
-- Intergovernmental mechanisms: Zonal Councils (Art. 263), Inter-State Council
+#### Distribution of Legislative Power
 
-**Recent Trends**
-- GST implementation (101st Amendment, 2016) changed indirect tax federalism
-- NITI Aayog replaced Planning Commission (2015) — less central control over state plans
-- States demanding more fiscal autonomy
+The Seventh Schedule distributes law-making power. Parliament enjoys overriding authority on Concurrent subjects (Art. 254) and can legislate on State List items under Articles 249 (national interest, 2/3 RS majority), 250 (emergency), and 252 (state consent for international agreements).
 
-**Key Cases**: Kesavananda Bharati (1973), Minerva Mills (1980), SP Gupta (1982), Ram Jung (1975)
+- **Union List (97):** Defence, Railways, Foreign Affairs, Atomic Energy, Interstate Trade (Art. 301–307).
+- **State List (66):** Police, Public Health, Agriculture, Land, Prisons, Local Government.
+- **Concurrent List (47):** Criminal Law (IPC), Education, Electricity, Drugs, Newspapers, Marriage.
 
----
+#### Centre-State Administrative Ties
+
+**All-India Services (IAS, IPS, IFS)** under Article 312 place senior officers under dual control, ensuring administrative uniformity. The **Inter-State Council** (Art. 263) advises on inter-state disputes and common policies, while the **Finance Commission** (Art. 280) recommends revenue-sharing — 41% of the divisible pool currently goes to states per the 15th Finance Commission.
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-**Federalism** — Comprehensive UPPSC PCS Notes
+#### Asymmetric and Cooperative Federalism
 
-**Constitutional Provisions for Federal Balance**
+Asymmetric federalism appears in Article 370 (J&K, now largely inoperative post the 2019 Reorganisation Act), the Fifth Schedule (tribal areas), and Article 371 special provisions for Nagaland, Assam, Manipur, Andhra Pradesh, Sikkim, Mizoram, Arunachal Pradesh, and Goa. These create differentiated arrangements rather than uniform Centre-State relations.
 
-*Historical Context*
-- 1935 Act: Provincial autonomy introduced, but Governor had overriding powers
-- 1946 Cabinet Mission Plan: Proposed grouping of provinces
-- Constituent Assembly debates: Strong Centre vs State sovereignty debate
+> **Tip:** For UPPSC PCS, link "cooperative federalism" to **NITI Aayog** (replacing the Planning Commission in 2015), the **GST Council** (Art. 279A), and the **Inter-State Council** — these recur as 10-mark questions.
 
-*Structural Features*
-- Preamble declares India a "SOVEREIGN SOCIALIST SECULAR DEMOCRATIC REPUBLIC"
-- Federal structure is "Union of States" not "Federation of States"
-- Inherent flexibility: Single Constitution, single citizenship, integrated judiciary
+#### Common Examiner Traps
 
-*Emergency Provisions (Part XVIII)*
-- Art. 352: National Emergency (war/armed rebellion) — Centre takes over state subjects
-- Art. 356: President's Rule (state govt suspended) — 44 times invoked
-- Art. 360: Financial Emergency (rare, never invoked)
+Candidates lose marks on these recurring traps:
 
-*All-India Services*
-- Indian Administrative Service (IAS), Indian Police Service (IPS)
-- Joint cadres, controlled by Centre though stationed in states
-- Ashok Chanda's classification: Federal, Unitary, and Plasmodial federalism
+1. Assuming Rajya Sabha reflects population — it gives **equal** weight to each state (except small UTs).
+2. Citing Article 370 as fully active — it was effectively **abrogated on 5 August 2019**.
+3. Treating the Finance Commission as permanent — it is **constituted every five years**.
+4. Believing Article 3 needs state consent — only a **Presidential reference** is required.
+5. Confusing the Concurrent List with State autonomy — Central law **prevails** in conflict.
 
-*Sarkaria Commission Recommendations (1983)*
-- Centre should consult states before deploying central forces
-- Inter-State Council to resolve disputes
-- Finance Commission to be more state-friendly
-- Regional councils for specific regions
+#### Worked Example: Concurrent List Conflict
 
-*Punchhi Commission (2007)*
-- Division of services: Subjects divided not just between Centre and states but also between panchayats and municipalities
-- Recommendations on Governor's role and removal
-- Symmetric federalism recommended for better Centre-State relations
+Suppose the UP state legislature enacts a stricter law on drug control (Concurrent subject). Parliament later passes a Central Act on the same subject. Under **Article 254**, the Central Act prevails unless the state law received Presidential assent. This illustrates why India tilts toward the Centre despite formal federal structures.
 
-*NITI Aayog vs Planning Commission*
-- Planning Commission: Plan funds allocated to states from Centre
-- NITI Aayog: Cooperative federalism, states as partners
-- Varied geometry approach for different state categories
+#### Practice Prompts
 
-*GST Council (Art. 279A)*
-- 101st Amendment inserted Art. 279A
-- Chairman: Vice President of India (who is also Chairman of Rajya Sabha)
-- Composition: Centre + all states representatives
-- Decisions require 3/4 of weighted votes (75%) of present and voting + 50% of total states
-- Model GST Acts are recommended to states
+1. Compare Indian federalism with the US and Canadian models — list two similarities and three differences regarding residuary powers, judiciary, and state reorganisation.
+2. Discuss how Article 356 (President's Rule) and Article 352 (National Emergency) reshape the federal balance. Cite at least two real instances where federal features were suspended.
 
-*Issues and Challenges*
-- Pendulum of power swings between Centre and states
-- One-party dominance at Centre affects federalism
-- Interstate water disputes (Kaveri, Krishna, Indus waters)
-- Border disputes between states
-- Language policy and cultural federalism
+## Continue your study
 
-**Pyarelal Bhargava's Classification of Federalism in India**
-- Category A states: Full federal autonomy
-- Category B states: Special provisions (NE states, J&K)
-- Category C states: Standard federal arrangement
+- **[View this topic in your UPPSC PCS roadmap](/roadmap/?exam=up-psc&duration=1mo)** — see where "Federalism" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=up-psc&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UPPSC PCS exam overview](/exams/up-psc/)** — pattern, eligibility, and syllabus
+- **[All Indian Polity notes](/notes/up-psc/indian-polity/)** — browse sibling topics in this subject
 
-**Recent Judgments on Federalism**
-- 2017: SC upheld 100% OBC reservation in NEBC (affects cooperative federalism)
-- 2020: Agriculture laws controversy — Centre vs states on subjects in List II
-- 2023: Supreme Court's election amendments affecting state autonomy debates
-
-**Answer Writing Tips for UPPSC**
-- Differentiate between "Federal" and "Unitary" features of Indian Constitution
-- Link federalism with Governor's role and President in states
-- Mention 73rd/74th Amendments as vertical federalism (Centre-States-Local bodies)
-- Current affairs connection: GST Council disputes, water sharing
-
----
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

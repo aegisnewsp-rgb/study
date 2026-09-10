@@ -8,171 +8,119 @@ topicName: Human Genetics
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-10"
 ---
 
-# Human Genetics — Chromosomes, Inheritance Patterns and Genetic Disorders
+# Human Genetics
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-Human genetics is a high-yield topic in INI CET, frequently appearing in clinical scenarios and problem-based questions. Focus on Mendelian inheritance patterns, chromosomal abnormalities, and the difference between autosomal and sex-linked disorders.
+**Human genetics** examines inheritance, genetic variation, mutation, and their relationship to human disease. It connects pedigree interpretation with molecular, cytogenetic, and population-based analysis.
 
-**High-Yield Facts for INI CET:**
-- Human diploid number: 46 chromosomes (23 pairs); haploid: 23
-- Karyotype: 22 autosomal pairs + XX (female) or XY (male)
-- Autosomal dominant:achondroplasia, Huntington's disease; Autosomal recessive: cystic fibrosis, sickle cell anaemia, phenylketonuria
-- X-linked recessive: Haemophilia A, Duchenne muscular dystrophy, red-green colour blindness
+| Core concept | Must-know fact |
+| --- | --- |
+| Autosomal dominant | Vertical transmission, male-to-male transmission, affected heterozygotes |
+| Autosomal recessive | Skips generations; equal sex distribution; consanguinity can occur |
+| X-linked recessive | Mainly affected males; no male-to-male transmission |
+| Mitochondrial | Affected mothers transmit to all children; affected fathers transmit to none |
 
-⚡ **Exam tip:** For inheritance pattern questions, always check whether both sexes are affected equally (autosomal) or if males are predominantly affected (X-linked recessive). Remember that X-linked recessive disorders almost never affect females unless they are homozygous or have Turner syndrome.
-
----
+- **Hardy–Weinberg equilibrium:** $p^2 + 2pq + q^2 = 1$, with $p+q=1$; $q^2$ is affected frequency and $2pq$ is carrier frequency in an autosomal recessive condition.
+- **Chromosomal syndromes:** Down syndrome is trisomy 21, Edwards syndrome trisomy 18, Patau syndrome trisomy 13, and Turner syndrome is monosomy X.
+- **Lyonisation:** One X chromosome is randomly inactivated in each somatic cell of an early female embryo, producing a **Barr body**.
+- **Imprinting:** Loss of paternal 15q11–13 expression causes Prader-Willi syndrome, whereas loss of maternal **UBE3A** expression causes Angelman syndrome.
+- **INI CET focus:** Expect pedigree interpretation, karyotype recognition, inheritance questions, and one numerical population-genetics calculation.
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Chromosomes and the Human Karyotype:**
+#### Inheritance Patterns and Pedigrees
 
-#### Normal Human Karyotype
-- **Total: 46 chromosomes** — 22 pairs of autosomes + 1 pair of sex chromosomes
-- **Female: 46, XX** — one X inherited from mother, one X from father
-- **Male: 46, XY** — X from mother, Y from father
-- Chromosomes are numbered 1-22 by decreasing size (chromosome 1 is largest)
-- Chromosome banding (G-banding, Q-banding) is used to identify and characterise chromosomes
+A **pedigree** records affected relatives, sex, generations, and mating relationships. Autosomal traits affect both sexes, whereas X-linked traits show a characteristic sex bias. A male-to-male transmission excludes X linkage because a father gives his Y chromosome, not his X chromosome, to his son.
 
-**Chromosome Structure:**
-- Each chromosome consists of two chromatids joined at the centromere
-- Centromere position determines chromosome type:
-  - **Metacentric:** Centromere at centre (chromosomes 1, 3, 16, 19, 20)
-  - **Submetacentric:** Centromere off-centre (most autosomes)
-  - **Acrocentric:** Centromere near one end (chromosomes 13, 14, 15, 21, 22 — satellite chromosomes with stalks and satellites)
-- Short arm = p arm; Long arm = q arm
+Autosomal dominant disorders in many papers show **vertical transmission** through several generations. Achondroplasia and Huntington disease are examples. Autosomal recessive disorders can appear in siblings of one generation, giving a horizontal pattern, and affected individuals are commonly homozygous. Sickle cell disease and thalassaemia follow this pattern.
 
-**Chromosomal Nomenclature:**
-- Short arm = p; Long arm = q
-- Location written as: chromosome number + arm + region + band
-- Example: 5p15.2 = short arm of chromosome 5, region 1, band 5, sub-band 2
+X-linked recessive disorders, including haemophilia A and Duchenne muscular dystrophy, mainly affect males. An affected male transmits his mutant X chromosome to all daughters, making them obligate carriers if the mother supplies a normal allele. X-linked dominant disorders can affect either sex, but affected fathers do not transmit the trait to sons.
 
-#### The Cell Cycle and Meiosis
+Mitochondrial inheritance is maternal. An affected woman can transmit the mutation to all children, while an affected man transmits it to none. This pattern applies to Leber hereditary optic neuropathy and MELAS.
 
-**Mitosis:** Somatic cell division — produces two genetically identical diploid daughter cells
-**Meiosis:** Germ cell division — produces four genetically unique haploid gametes
-- **Meiosis I:** Prophase I (crossing over/recombination at chiasmata), Metaphase I (homologous pairs align), Anaphase I (homologues separate), Telophase I
-- **Meiosis II:** Like mitosis — sister chromatids separate
+#### Alleles, Phenotypes, and Modifiers
 
-**Crossing Over:** Exchange of genetic material between non-sister chromatids of homologous chromosomes during Prophase I — creates genetic diversity.
+An **allele** is one version of a gene; **genotype** describes the alleles present, while **phenotype** describes the observable trait. Homozygous individuals carry two identical alleles, and heterozygous individuals carry two different alleles. Males with a single X chromosome are **hemizygous** for X-linked genes.
 
-**Mendelian Inheritance Patterns:**
+**Penetrance** is the proportion of genotype carriers who express the phenotype. **Expressivity** describes the severity among affected individuals. Pleiotropy occurs when one gene affects several body systems, as in Marfan syndrome. Epistasis occurs when one gene masks or modifies expression of another gene.
 
-#### Autosomal Dominant
-- Affected individual has at least one mutant allele
-- Every affected person has at least one affected parent (unless due to new mutation)
-- Affected male/female transmit to male/female equally
-- Examples: Achondroplasia, Huntington's disease, Marfan syndrome, familial hypercholesterolaemia, hereditary spherocytosis
+#### Cytogenetics and Dosage Compensation
 
-**Achondroplasia:** Dwarfism (short limbs, normal torso); heterozygous dominant (aa = lethal, Aa = affected); 80% of cases are new mutations; father age > 40 associated with increased mutation rate.
+A normal human karyotype has 46 chromosomes: 44 autosomes and two sex chromosomes. **Aneuploidy** involves gain or loss of individual chromosomes, such as trisomy or monosomy. **Euploidy** includes complete chromosome sets, while polyploidy involves extra complete sets.
 
-#### Autosomal Recessive
-- Affected individual must be homozygous (aa)
-- Both carrier parents are unaffected (Aa × Aa)
-- 25% chance of affected child, 50% chance carrier, 25% chance normal
-- Examples: Cystic fibrosis, sickle cell anaemia, phenylketonuria, Tay-Sachs disease, galactosemia, thalassaemia
+| Abnormality | Clinical association |
+| --- | --- |
+| 47,XXY | Klinefelter syndrome |
+| 45,X | Turner syndrome |
+| 47,XXX | Triple-X syndrome |
+| Deletion 5p | Cri-du-chat syndrome |
+| Robertsonian translocation | Familial Down syndrome risk |
 
-**Cystic Fibrosis:** Autosomal recessive; mutation in CFTR gene on chromosome 7; thick mucus in lungs (recurrent infections), pancreas (malabsorption), sweat (elevated Cl⁻); most common lethal genetic disease in Caucasians; carrier frequency ~1/25 in Europeans; diagnosed by sweat chloride test.
+During Lyonisation, one X chromosome becomes largely inactive in each somatic cell of a female. The inactive X forms a Barr body and appears as a drumstick appendage in some neutrophils. The choice is in most cases random, not determined by whether the X came from the father or mother.
 
-#### X-Linked Recessive
-- Mutant allele on X chromosome; no corresponding locus on Y
-- Males (XY) are affected if they have one mutant X (XᴬY)
-- Females (XX) are affected only if homozygous (XᴬXᴬ)
-- Carrier females (XᴬX) are usually unaffected
-- Males transmit to all daughters (who become carriers) but to no sons
-- Affected males cannot transmit to sons (they give Y to sons)
-- Examples: Haemophilia A (Factor VIII deficiency), Duchenne muscular dystrophy, red-green colour blindness, G6PD deficiency
+#### Population Genetics
 
-**Haemophilia A:** X-linked recessive; deficiency of Factor VIII; prolonged bleeding, haemarthrosis (joint bleeds), muscle haematomas; diagnosed by PTT (activated partial thromboplastin time) prolonged, Factor VIII assay low; treated with recombinant Factor VIII; royal families (Queen Victoria lineage) — affected males in European royal families.
-
-#### X-Linked Dominant
-- Both males and females affected; but more females (some affected males die in utero)
-- Affected male transmits to all daughters (no sons)
-- Example: Vitamin D-resistant rickets (X-linked hypophosphataemia), Rett syndrome
-
-#### Mitochondrial Inheritance
-- Mitochondrial DNA is inherited exclusively from mother (maternal inheritance)
-- All children of affected mother are affected; no transmission from father
-- mtDNA codes for: 13 proteins (all part of electron transport chain), 2 rRNAs, 22 tRNAs
-- Mutations cause: Leber hereditary optic neuropathy (LHON), mitochondrial encephalomyopathy, lactic acidosis, stroke-like episodes (MELAS)
-
----
+Hardy–Weinberg proportions apply to a large, randomly mating population without mutation, migration, selection, or genetic drift. They estimate allele and genotype frequencies, but do not predict an individual’s genotype. If an autosomal recessive disease has frequency $q^2=1/10,000$, then $q=0.01$ and $p=0.99$; carrier frequency is $2pq \approx 0.0198$, or about 2%.
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-**Chromosomal Abnormalities:**
+#### Chromosomal Mechanisms
 
-#### Trisomies (Autosomal)
-- **Down syndrome (Trisomy 21):** 47, XY+21 or 47, XX+21; extra chromosome 21; risk increases with maternal age; features: flat facies, epicanthal folds, single palmar crease, hypotonia, intellectual disability, congenital heart defects (AV canal defect), increased risk of leukaemia, early Alzheimer disease; karyotype confirms diagnosis
+Numerical abnormalities in most keys arise through **nondisjunction**, in which homologous chromosomes or sister chromatids fail to separate. Meiotic nondisjunction can place both homologues in one gamete. Mosaicism results when nondisjunction occurs after fertilisation, producing two or more genetically different cell lines. A chimera, by contrast, develops from fusion of two genetically distinct zygotes.
 
-- **Edwards syndrome (Trisomy 18):** 47, XY+18 or 47, XX+18; features: micrognathia, clenched fists, rocker-bottom feet, severe intellectual disability, congenital heart defects; most die within first year; less common than Down syndrome
+Structural rearrangements include deletion, duplication, inversion, and translocation. A **balanced translocation** can leave the carrier healthy but create miscarriage or congenital-disorder risk in offspring. An isochromosome contains two copies of one arm and loses the other arm; a ring chromosome forms after breaks and fusion of terminal regions.
 
-- **Patau syndrome (Trisomy 13):** 47, XY+13 or 47, XX+13; features: holoprosencephaly, cleft lip/palate, polydactyly, severe intellectual disability, congenital heart defects; most die within first year
+| Syndrome or finding | Genetic basis |
+| --- | --- |
+| Down syndrome | Trisomy 21 or Robertsonian translocation involving 21 |
+| Patau syndrome | Trisomy 13 |
+| Edwards syndrome | Trisomy 18 |
+| Cri-du-chat syndrome | 5p deletion |
+| Fragile X syndrome | FMR1 expansion at Xq27.3 |
+| Turner syndrome | Monosomy X, with mosaicism possible |
 
-#### Sex Chromosome Abnormalities
-- **Klinefelter syndrome:** 47, XXY (or 48, XXXY); tall male, small firm testes, azoospermia (infertile), gynaecomastia, reduced testosterone; most common male hypogonadism; often diagnosed in adulthood for infertility; some mosaic forms (46, XY/47, XXY) exist
+#### Imprinting and Anticipation
 
-- **Turner syndrome:** 45, XO (or variants 46, Xi(Xq), 45, X/46, XX mosaicism); short stature female, streak gonads (non-functional), coarctation of aorta, webbed neck, shield chest, lymphoedema; primary amenorrhoea, infertility; intelligence usually normal; some cases diagnosed in infancy (webbed neck, lymphoedema), others at adolescence (delayed puberty)
+Genomic imprinting produces parent-of-origin-specific expression. In Prader-Willi syndrome, paternal expression at 15q11–13 is absent, commonly through paternal deletion or maternal uniparental disomy. Angelman syndrome results from absent maternal **UBE3A** function, commonly through maternal deletion, paternal uniparental disomy, or imprinting-centre defects.
 
-- **XYY syndrome:** 47, XYY; tall male, may have learning difficulties; normal fertility; historically associated with criminal behaviour (misunderstood/stigmatised association — not accurate)
+**Anticipation** describes increasing disease severity or earlier onset in successive generations. It is classically associated with trinucleotide repeat expansion, including Huntington disease and myotonic dystrophy. The mechanism is expansion of unstable repeat length during meiosis, especially paternal transmission in Huntington disease.
 
-- **Triple X syndrome:** 47, XXX; female; often normal phenotype, may have tall stature, mild learning difficulties; fertile
+#### Linkage and Clinical Testing
 
-#### Structural Chromosomal Abnormalities
-- **Translocations:** Robertsonian translocation (most common) — two acrocentric chromosomes fuse at centromere; common in ~1/900 births; balanced carriers are phenotypically normal but at risk of producing offspring with unbalanced translocations (e.g., familial Down syndrome via t(14;21))
-- **Deletions:** 5p deletion (cri du chat syndrome — deletion of short arm of chromosome 5; features: microcephaly, cat-like cry, intellectual disability)
-- **Duplications, inversions (inversions usually phenotypically normal unless involve genes), ring chromosomes**
+Genetic linkage describes inheritance of loci located close together on the same chromosome. Crossing over separates linked loci, so the recombination fraction estimates their distance. A **LOD score** evaluates whether a marker cosegregates with a disease; a score of 3 or more traditionally supports linkage.
 
-**Pedigree Analysis:**
+Testing methods answer different questions:
 
-**Key symbols:**
-- Square = male; Circle = female
-- Filled = affected; Unfilled = unaffected
-- Half-filled = carrier (for autosomal dominant where heterozygous is affected, half-filled may denote carrier for recessive)
+1. Karyotyping detects large numerical and structural chromosome changes.
+2. FISH identifies a specific DNA region using a fluorescent probe.
+3. PCR amplifies a selected sequence for mutation or deletion testing.
+4. NIPT screens cell-free fetal DNA in maternal blood, mainly for common aneuploidies.
 
-**Reading a pedigree:**
-- Determine inheritance pattern: autosomal vs X-linked, dominant vs recessive
-- Autosomal dominant: vertical transmission (parent to child), both sexes affected
-- Autosomal recessive: horizontal transmission (affected siblings with unaffected parents), affected may be absent in one generation
-- X-linked recessive: predominantly affected males; no male-to-male transmission; carrier females
-- X-linked dominant: affected males transmit to all daughters; affected females transmit to both sexes
+> Exam trap: use $q^2$ for affected autosomal recessive individuals and $2pq$ for carriers; do not confuse them with the recessive allele frequency $q$.
 
-**DNA Structure and Replication:**
+#### Common Errors and Practice Prompts
 
-**DNA Double Helix:**
-- Discovered by Watson and Crick (1953) — based on X-ray crystallography by Rosalind Franklin
-- Sugar-phosphate backbone (covalent bonds); nitrogenous bases face inward (hydrogen bonds)
-- Base pairing: A=T (2 hydrogen bonds); G≡C (3 hydrogen bonds)
-- Antiparallel strands: 5'→3' direction on one strand vs 3'→5' on complementary strand
-- Major groove and minor groove — regulatory proteins bind to major groove
+- Confusing Klinefelter syndrome with Turner syndrome: XXY produces male phenotype with hypogonadism, while XO produces female phenotype with short stature and streak ovaries.
+- Assuming a mutant mitochondrial allele passes from an affected father; mitochondrial DNA is transmitted through the ovum.
+- Treating all enlarged Q-arm regions as fragile sites; the clinically important fragile site is Xq27.3 in **FMR1**.
 
-**DNA Replication:**
-- Semi-conservative (each new DNA molecule has one old strand, one new strand)
-- **Origins of replication:** Multiple origins in eukaryotes; replication forks move bidirectional
-- **Enzymes:** Helicase (unwinds DNA), Primase (synthesises RNA primer), DNA Polymerase III (synthesises new strand in 5'→3' direction), DNA Polymerase I (removes RNA primer, fills gaps), DNA Ligase (joins Okazaki fragments)
-- **Leading strand:** Synthesised continuously (toward replication fork)
-- **Lagging strand:** Synthesised discontinuously in short Okazaki fragments (away from replication fork); larger fragments needed because polymerase can only add nucleotides 5'→3'
-- Telomeres: Repetitive sequences (TTAGGG in humans) at chromosome ends; telomerase (reverse transcriptase with RNA template) adds repeats; somatic cells lack telomerase → telomeres shorten with age → replicative senescence
+**Practice prompt 1:** An unaffected couple has three sons with an X-linked recessive disorder and no affected daughters. Determine the likely carrier status of the mother and the probability that the next child is affected.
 
-**The Genetic Code:**
-- Codon: 3 nucleotide sequence specifying one amino acid
-- 64 codons (4³); 61 code for amino acids; 3 are stop codons (UAA, UAG, UGA); AUG is start codon (also codes for methionine)
-- Degenerate/redundant: Multiple codons can code for the same amino acid (e.g., leucine has 6 codons)
-- Non-overlapping and universal (almost — mitochondria use slight variations)
+**Practice prompt 2:** A disease has autosomal recessive frequency $q^2=0.0025$. Calculate $q$, $p$, and the carrier frequency $2pq$.
 
-**Gene Expression:**
-- **Transcription:** DNA → mRNA (in nucleus); RNA polymerase II transcribes structural genes; promoter (TATA box), enhancer elements; splicing removes introns; 5' cap (7-methylguanosine) and 3' poly-A tail added
-- **Translation:** mRNA → protein (in cytoplasm at ribosome); tRNA carries amino acids; ribosome has A, P, E sites; initiation factors, elongation factors, release factors; stop codon enters A site → release factor binds → polypeptide released
+## Continue your study
 
-**Epigenetics:**
-- DNA methylation (CpG islands in promoters → gene silencing)
-- Histone modifications (acetylation → open chromatin → transcription; methylation → closed chromatin)
-- Genomic imprinting (parent-of-origin-specific gene expression — e.g., IGF2, H19)
-- X-chromosome inactivation (in females, one X is inactivated early in development — forms Barr body)
+- **[View this topic in your INI CET (AIIMS PG) roadmap](/roadmap/?exam=ini-cet&duration=1mo)** — see where "Human Genetics" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ini-cet&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[INI CET (AIIMS PG) exam overview](/exams/ini-cet/)** — pattern, eligibility, and syllabus
+- **[All Anatomy notes](/notes/ini-cet/anatomy/)** — browse sibling topics in this subject
+
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

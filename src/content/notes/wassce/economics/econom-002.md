@@ -8,7 +8,7 @@ topicName: Demand and Supply
 weight: 3
 country: ghana
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-04"
+lastUpdated: "2026-09-10"
 ---
 
 # Demand and Supply
@@ -16,51 +16,75 @@ lastUpdated: "2026-07-04"
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Demand** is the quantity of a commodity consumers are **willing and able** to buy at each possible price during a specific period, all else equal. The **Law of Demand** states that, ceteris paribus, as price falls quantity demanded rises, giving a downward-sloping **demand curve** traced from a **demand schedule**. **Supply** is the quantity producers are willing and able to offer at each price; the **Law of Supply** says price and quantity supplied move in the same direction, giving an upward-sloping curve. **Market equilibrium** occurs where **Qd = Qs**, fixing the **equilibrium price (Pe)** and **equilibrium quantity (Qe)**. A shortfall of supply at the going price causes **excess demand**, pushing price upward; a surplus causes **excess supply**, pulling price down. Must-know formula: **Ed = (%ΔQd) / (%ΔP)**. WASSCE focus: drawing schedules, plotting curves, finding Pe and Qe, and explaining shifts vs movements.
+Demand is the quantity of a good consumers are **willing and able** to buy at each possible price, ceteris paribus. Supply is the quantity producers are **willing and able** to offer at each price, ceteris paribus. The **Law of Demand** states an inverse relationship between price and quantity demanded; the **Law of Supply** states a direct relationship between price and quantity supplied.
+
+- **Equilibrium price (Pe)** is set where Qd = Qs. Above Pe → surplus; below Pe → shortage.
+- **PED = (%ΔQd) / (%ΔP)**; PED > 1 = elastic, PED < 1 = inelastic, PED = 1 = unitary.
+- Diagram convention: **price on vertical axis, quantity on horizontal axis**, label E, Pe and Qe.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-#### Definitions and Laws
-**Demand** is a flow concept — quantity desired per unit of time — not a one-off want. Willingness without ability (income) does not constitute demand. The **Law of Demand** rests on the income effect, substitution effect, and the law of diminishing marginal utility. Its principal exception is the **Giffen good**, where a price rise paradoxically increases quantity demanded (typically very cheap staple foods among poor households). The **Law of Supply** reflects producers' profit motive; supply curves slope upward because higher prices justify higher marginal costs of production.
+#### Definitions and the Laws
+Demand refers to the quantity of a commodity that consumers are willing **and able** to purchase at various prices during a specified time, ceteris paribus. The "able to" clause excludes wishes that consumers cannot back with purchasing power. The **Law of Demand** states that, all else equal, as the price of a good falls, the quantity demanded rises (and vice versa). The **Law of Supply** states that, all else equal, as price rises, quantity supplied rises.
 
-#### Shifts vs Movements
-A **change in quantity demanded** is a **movement along** a fixed demand curve caused only by the good's own price. A **change in demand** is a **shift** of the whole curve caused by non-price determinants: consumer income, tastes, prices of **substitutes** and **complements**, expectations, and number of buyers. For **normal goods**, income ↑ shifts demand right; for **inferior goods**, income ↑ shifts it left. The same logic applies to supply: price changes move along the curve, while input costs, technology, taxes, subsidies, and seller numbers shift it.
+#### Determinants vs. Movement Along the Curve
+A change in the **own price** of a good causes a *movement along* the demand or supply curve. A change in any **non-price determinant** causes the *entire curve to shift*. For demand, non-price determinants include income, tastes, prices of related goods, expectations and the number of buyers. For supply, they include input prices, technology, taxes/subsidies, expectations, number of sellers and prices of related goods in production.
 
-#### Equilibrium and Disequilibrium
-Equilibrium satisfies **Qd = Qs** simultaneously. Linear examples use **Qd = a − bP** and **Qs = c + dP**; setting them equal yields **Pe = (a − c)/(b + d)**. Below Pe, excess demand pushes price up; above Pe, excess supply pushes it down.
+| Non-price determinant | Effect on demand curve |
+| --- | --- |
+| Rise in consumer income (normal good) | Shifts right |
+| Rise in income (inferior good) | Shifts left |
+| Rise in price of a substitute | Shifts right |
+| Rise in price of a complement | Shifts left |
+| Favourable change in taste | Shifts right |
 
-#### Elasticity
-**Price elasticity of demand: Ed = (%ΔQd)/(%ΔP)**, with point-form **Ed = (ΔQd/ΔP) × (P/Q)**. Categories: |Ed| > 1 elastic, = 1 unit elastic, < 1 inelastic, ∞ perfectly elastic, 0 perfectly inelastic. Determinants include availability of substitutes, necessity vs luxury, income share, and time horizon.
+#### Equilibrium, Surplus and Shortage
+Market equilibrium occurs where Qd = Qs, giving equilibrium price (Pe) and quantity (Qe). At a price **below** Pe, quantity demanded exceeds quantity supplied → **shortage** (excess demand), which pushes price upward. At a price **above** Pe, quantity supplied exceeds quantity demanded → **surplus** (excess supply), which pushes price downward. WAEC essay questions frequently test diagram-based restoration of equilibrium after a shift in either curve.
 
-#### WASSCE Question Patterns
-Expect (i) constructing schedules and sketching labelled diagrams, (ii) identifying Pe and Qe graphically, (iii) explaining shifts caused by named events, and (iv) short computations of Ed using percentages. Common trap: drawing a price change as a shift instead of a movement.
+- A shift in **both** curves changes both Pe and Qe; the direction of Pe depends on the relative magnitudes.
+- Indirect taxes (e.g. excise duty) shift the supply curve left, raising Pe and lowering Qe.
+- Price ceilings (max prices) below Pe create persistent shortages; price floors (min prices) above Pe create persistent surpluses.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-#### Market Intervention and Welfare
-A **specific tax** of *t* per unit shifts the supply curve vertically upward by *t*. The new equilibrium features a higher price paid by buyers, a lower price received by sellers, and a lower quantity traded. The tax revenue equals *t × Qnew*, while the deadweight loss is the triangle between the two curves over the quantity reduction. A **subsidy** has the mirror effect, shifting supply down and enlarging Qe at the cost of government expenditure. A **price ceiling** set below Pe creates persistent excess demand (e.g. rent controls, Ghana's fuel pricing debates); a **price floor** above Pe creates excess supply (e.g. agricultural producer-price guarantees by Cocobod for cocoa).
+#### Elasticity and Total Revenue
+Price elasticity of demand measures responsiveness of quantity demanded to a change in price. The midpoint (arc) formula is preferred for accuracy between two points: PED = [(Q₂−Q₁)/((Q₂+Q₁)/2)] ÷ [(P₂−P₁)/((P₂+P₁)/2)]. When PED > 1, demand is elastic and a price cut raises total revenue (TR = P × Q). When PED < 1, demand is inelastic and a price rise raises TR. Unitary elasticity (PED = 1) maximises TR.
 
-#### Cross and Income Elasticity
-**Cross elasticity of demand: Exy = (%ΔQx)/(%ΔPy)**: positive for substitutes (rice and yam), negative for complements (cars and petrol). **Income elasticity: Ey = (%ΔQ)/(%ΔY)** distinguishes normal (Ey > 0) from inferior (Ey < 0) goods and gauges whether a good is a necessity (<1) or a luxury (>1).
-
-#### Consumer and Producer Surplus
-**Consumer surplus** is the triangular area between the demand curve and the equilibrium price line; **producer surplus** lies between the equilibrium price and the supply curve. A tax shrinks both surpluses, with part of the loss becoming government revenue and the rest becoming deadweight loss — a favourite Paper 2 essay prompt.
+| Elasticity type | Formula | Use |
+| --- | --- | --- |
+| Price (PED) | %ΔQd ÷ %ΔP | Pricing decisions, effect of taxes |
+| Income (YED) | %ΔQd ÷ %ΔY | Classify normal vs inferior goods |
+| Cross (XED) | %ΔQd of A ÷ %ΔP of B | Identify substitutes (XED > 0) vs complements (XED < 0) |
 
 #### Worked Example
-Demand: Qd = 100 − 2P; Supply: Qs = 20 + 3P. Setting equal: 100 − 2P = 20 + 3P → **Pe = GH₵16**, **Qe = 68 units**. Imposing a GH₵2 specific tax gives Qs = 18 + 3P; new equilibrium: **Pbuyer = GH₵18.80**, **Qseller = GH₵16.80**, **Qnew = 62.4 units**, revenue = GH₵124.80.
+Suppose price falls from GH₵20 to GH₵16 and quantity demanded rises from 50 units to 70 units. Using the arc method: %ΔQ = 20/60 ≈ 33.3%; %ΔP = −4/18 ≈ −22.2%; PED = 33.3 ÷ 22.2 ≈ 1.5. Demand is **elastic**, so the price cut raises total revenue (TR rises from GH₵1,000 to GH₵1,120).
 
-#### Common Mistakes
-Confusing a shift (whole curve moves) with a movement along the curve; treating "change in demand" and "change in quantity demanded" as interchangeable; assuming supply curves slope downward; misapplying the midpoint vs simple-percentage elasticity formula; ignoring the time period when stating quantity demanded.
+#### Common Mistakes and Exceptions
+1. Drawing diagrams with price on the horizontal axis (always vertical).
+2. Stating the Law of Demand without the ceteris paribus condition or the time period.
+3. Confusing a movement along the curve with a shift of the curve.
+4. Forgetting to label equilibrium (E), Pe and Qe on diagrams.
+5. Treating PED as a signed value; report its absolute magnitude.
+6. Assuming every good obeys the Law of Demand. **Giffen goods** (cheap staple inferior goods) and **Veblen/prestige goods** show upward-sloping demand curves.
 
 #### Practice Prompts
-1. With Qd = 80 − P and Qs = 10 + 2P, find Pe and Qe, and state what happens if price is fixed at GH₵15.
-2. Using a clearly labelled diagram, show how a GH₵3 subsidy on rice affects equilibrium price, quantity, and government spending.
+1. Using a labelled diagram, explain the effect of a subsidy to producers on equilibrium price and quantity.
+2. The price of petrol rises by 20% and the quantity demanded of cars falls by 10%. Calculate XED and interpret the sign.
+
+---
+
+## Continue your study
+
+- **[View this topic in your WASSCE (Ghana) roadmap](/roadmap/?exam=wassce&duration=1mo)** — see where "Demand and Supply" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=wassce&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[WASSCE (Ghana) exam overview](/exams/wassce/)** — pattern, eligibility, and syllabus
+- **[All Economics notes](/notes/wassce/economics/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

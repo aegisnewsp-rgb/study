@@ -8,99 +8,80 @@ topicName: Funds Flow Statement
 weight: 3
 country: pakistan
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-05-24"
+lastUpdated: "2026-09-10"
 ---
 
 # Funds Flow Statement
 
 ### 🟢 Lite — Quick Review (1h–1d)
-
 > Rapid summary for last-minute revision before your exam.
 
-**Funds Flow Statement** (Statement of Changes in Financial Position) reconciles opening and closing **working capital** (Current Assets − Current Liabilities) by listing **sources** (funds obtained) and **applications** (funds spent) during the period.
+The Funds Flow Statement (Statement of Sources and Applications of Funds) analyses how a business's **net working capital** changed between two balance sheet dates. Funds here mean Current Assets minus Current Liabilities, not cash.
 
-**Key formula:**
-- **FFO = Net Profit + Depreciation + Loss on Asset Sale − Gain on Asset Sale**
-
-**Sources of Funds:** Share issues, debenture issues, long-term borrowings, disposal of non-current assets, Funds from Operations (FFO).
-
-**Applications of Funds:** Dividend paid, tax paid, purchase of non-current assets, loan repayment, share buyback.
-
-**High-yield exam pointers:**
-1. Depreciation is **added back** to PAT because it's a non-cash charge — never a cash source.
-2. Current asset increases and current liability decreases are **applications** (funds used).
-3. The statement must **balance** — any difference appears as a bank/overdraft reconciling item.
-
----
+- **Funds from Operations** = Net Profit + Non-cash charges (depreciation, amortisation, goodwill written off, provisions) + Non-operating expenses − Non-operating incomes (profit on sale of fixed assets).
+- **Increase in Working Capital** = Closing Net Working Capital − Opening Net Working Capital; a rise is an **Application**, a fall is a **Source**.
+- Sources must equal Applications. Under IAS 7 the legacy funds statement has been replaced by the Cash Flow Statement, but examiners still test it.
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-
 > Standard content for students with a few days to months.
 
-## What is a Funds Flow Statement?
+#### Definition and Scope
+A Funds Flow Statement reconciles the opening and closing balance sheets by showing **Sources of Funds** and **Applications (Uses) of Funds**. It explains *why* working capital moved, transaction by transaction, rather than only reporting the net change.
 
-The Funds Flow Statement explains how working capital moved between the beginning and end of an accounting period. It identifies where funds came **from** (sources) and where they went **to** (applications). The fundamental equation is:
+#### Schedule of Changes in Working Capital
+Before drafting the statement, build a schedule listing each current asset and current liability with its opening balance, closing balance, and the resulting Increase or Decrease. Each item's movement is computed as Closing − Opening for assets and Opening − Closing for liabilities (sign reversed so increases appear positively).
 
-**Sources = Applications**
+| Item | Opening (Rs.) | Closing (Rs.) | Effect on Working Capital |
+| --- | --- | --- | --- |
+| Current Assets | X | Y | Δ = Y − X |
+| Current Liabilities | A | B | Δ = A − B |
+| Net Working Capital | X − A | Y − B | Change = (Y − B) − (X − A) |
 
-## Working Capital
+#### Sources and Applications
+Common **Sources**: issue of share capital or debentures, long-term loans raised, sale of fixed assets, Funds from Operations, decrease in working capital. Common **Applications**: purchase of fixed assets, redemption of preference share capital, repayment of loans, dividends and tax paid, loss from operations, increase in working capital.
 
-Working Capital = Current Assets − Current Liabilities. An **increase** in working capital is an application (funds tied up); a **decrease** is a source (funds released).
+#### Standard Workflow
+1. Compute Funds from Operations using the formula in Lite.
+2. Build the Schedule of Changes in Working Capital.
+3. List all non-current transactions to identify further Sources and Applications.
+4. Confirm Sources total = Applications total.
 
-## Deriving FFO (Funds from Operations)
-
-FFO converts the accounting profit into actual funds generated:
-
-| Item | Treatment |
-|------|-----------|
-| Profit After Tax (PAT) | Starting point |
-| Depreciation/Amortisation | Add back (non-cash) |
-| Loss on disposal of NCA | Add back |
-| Gain on disposal of NCA | Subtract |
-| Any other non-fund items | Adjust accordingly |
-
-## Format of the Statement
-
-1. **Schedule of Changes in Working Capital** — shows CA and CL movements.
-2. **Funds from Operations** — PAT ± non-fund adjustments.
-3. **Sources and Applications** — list items, total must balance.
-4. **Balancing figure** — typically bank/overdraft.
-
-## IAS 7 Cash Flow Statement Connection
-
-Under IAS 7, the indirect method mirrors FFO logic: start with PAT, adjust for non-cash items, then working capital movements. ACCA/CA Pakistan questions often test both formats — remember that dividend paid appears in financing activities (IAS 7) but as an application in FFO format.
-
----
+> **Tip:** Adjust *both* sides consistently. A non-cash charge raises profit but not cash, so it is added back inside Funds from Operations, never inside the Sources column twice.
 
 ### 🔴 Extended — Deep Study (3mo+)
-
 > Comprehensive coverage for students on a longer study timeline.
 
-## Sources vs Applications — Classification Table
+#### Reconciliation of P, Q, R (Profit, Quick Ratio, Reserve Movement)
+Before computing Funds from Operations, reconcile Net Profit with the movement on Reserves and Surplus. Subtract proposed and interim dividend, transfer to general reserve, and add back non-operating expenses (preliminary expenses, discount on issue of shares written off). Deduct non-operating incomes such as profit on sale of fixed assets and refund of discount on issue. The reconciled figure feeds Funds from Operations.
 
-| Source (Fund Provider) | Application (Fund User) |
-|------------------------|------------------------|
-| Issue of equity shares | Dividend paid |
-| Issue of debentures | Tax paid |
-| Long-term borrowing received | Purchase of non-current assets |
-| Disposal of non-current assets | Repayment of long-term loans |
-| Decrease in current assets | Increase in current assets |
-| Increase in current liabilities | Decrease in current liabilities |
+#### T-Account Method
+Where the schedule approach is cumbersome, open a T-account per current asset and current liability. Credit opening balance, debit closing balance, and treat the unknown cash flow as the balancing figure. This method is faster when only one or two items are missing.
 
-## Common Mistakes to Avoid
+#### Funds Flow vs Cash Flow (IAS 7)
 
-1. **Depreciation as a source:** Students incorrectly treat depreciation as cash received. It is merely a non-cash expense added back to compute FFO — no cash movement occurs.
-2. **Omitting tax and dividends:** Both are **applications** of funds even though they originate from the P&L. Tax paid and dividend paid must appear separately.
-3. **Classifying current items backwards:** A rise in debtors is an application (cash tied up); a rise in creditors is a source (more funding received). Reverse for decreases.
-4. **Confusing FFO with net cash:** FFO includes non-cash charges but excludes working capital movements — net cash from operations (IAS 7) incorporates all working capital changes.
+| Aspect | Funds Flow | Cash Flow Statement (IAS 7) |
+| --- | --- | --- |
+| Fund definition | Net working capital | Cash and cash equivalents |
+| Basis | Accrual | Cash movements only |
+| Sections | Sources / Applications | Operating / Investing / Financing |
+| Standard status | Legacy, retained in syllabus | Mandatory under IAS 7 |
 
-## Link to IAS 7 Cash Flow Statement
+#### Common Mistakes
+- Treating proposed dividend as a non-fund item rather than an Application once declared.
+- Adding back depreciation on a fixed asset *sold* without also removing its accumulated depreciation from the asset side.
+- Forgetting the balancing entry "Increase/Decrease in Working Capital" so the totals fail to agree.
 
-The Cash Flow Statement (IAS 7) is the modern successor to the Funds Flow Statement. Under the indirect method: Operating Cash Flow = PAT + Depreciation ± Gains/Losses ± Working Capital changes. The direct method shows: Cash from Customers − Cash to Suppliers − Cash to Employees. Financing activities only include **equity dividends paid**, not corporation tax.
+> **Exam strategy:** A 10–15 mark question typically gives two balance sheets plus a profit figure. Spend 4 minutes on Funds from Operations, 5 minutes on the working capital schedule, and 3 minutes on residual Sources and Applications — leave 3 minutes for verification.
 
-## Practice Prompts
+#### Practice prompts:
+1. From given balance sheets, prepare the Funds Flow Statement and identify whether the firm financed expansion through long-term borrowings or working capital erosion.
+2. Given a Cash Flow Statement, restate key figures on a working-capital (Funds Flow) basis and comment on liquidity implications.
 
-1. A company has PAT of Rs 500,000, depreciation Rs 80,000, gain on sale of machinery Rs 20,000, tax paid Rs 60,000, dividend paid Rs 40,000. Prepare the FFO calculation and the sources-and-applications format.
-2. Explain why depreciation is added back to PAT in the FFO calculation but does not represent a source of cash.
+## Continue your study
+
+- **[View this topic in your ACCA/CA Pakistan roadmap](/roadmap/?exam=accagl&duration=1mo)** — see where "Funds Flow Statement" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=accagl&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[ACCA/CA Pakistan exam overview](/exams/accagl/)** — pattern, eligibility, and syllabus
+- **[All Accounting notes](/notes/accagl/accounting/)** — browse sibling topics in this subject
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

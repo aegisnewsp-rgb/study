@@ -8,133 +8,100 @@ topicName: RBI and Monetary Policy
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-10"
 ---
 
 # RBI and Monetary Policy
 
-The Reserve Bank of India (RBI) is the backbone of India's financial system, serving as the central bank responsible for formulating and implementing monetary policy, regulating the banking sector, managing foreign exchange, and overseeing the payment and settlement systems. For IBPS Clerk candidates, a detailed understanding of the RBI's functions, its monetary policy framework, the tools it uses to control inflation and manage the economy, and the broader financial system is indispensable. Questions on the RBI and monetary policy appear frequently in the General Awareness section, and a thorough grasp of these concepts is also necessary for the descriptive English and reasoning sections where economic context may be required.
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
 
-## The Reserve Bank of India: Establishment and Organization
+The **Reserve Bank of India (RBI)**, constituted under the RBI Act, 1934, is India's central bank and the monetary authority. It issues currency (except the ₹1 note/coin), acts as banker to the government and to banks, regulates commercial banks and NBFCs, and manages foreign exchange reserves.
 
-The **Reserve Bank of India (RBI)** was established on **April 1, 1935**, under the provisions of the **Reserve Bank of India Act, 1934**. It was set up based on the recommendations of the **Hilton Young Commission** (Royal Commission on Indian Currency and Finance, 1926).
+**Monetary policy** is the RBI's macroeconomic tool for controlling money supply and interest rates. Since 2016, decisions are taken by the **Monetary Policy Committee (MPC)** — six members (3 RBI + 3 external), chaired by the Governor, with a casting vote on ties. The MPC targets **CPI inflation of 4% with ±2% tolerance**, failing which it must report to the Central Government.
 
-The RBI is governed by a **Central Board of Directors** appointed by the Government of India. The Board includes:
-- **Governor:** The chief executive (currently 5-year term, eligible for re-appointment)
-- **Deputy Governors:** Four (each overseeing specific functions — Monetary Policy, Financial Markets, Financial Stability, Internal Administration)
-- **Directors:** Representatives from various regional fields, the Finance Ministry, and other nominated members
+Key policy rates (current corridor): **SDF (floor) = Repo − 25 bps**, **Repo Rate (mid)**, **MSF (ceiling) = Repo + 25 bps**. The **Bank Rate is aligned with MSF** since April 2022.
 
-The RBI's headquarters is in **Mumbai**, with regional offices in major cities across India.
+- **CRR** = 4% (cash with RBI, no interest); **SLR** = 18% (g-sec, gold, cash).
+- Repo Rate is the rate at which RBI lends to banks under LAF.
+- OMO purchases inject liquidity; OMO sales drain it.
 
-## Functions of the RBI
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-### 1. Monetary Policy
+#### How the LAF corridor works
 
-The RBI's primary function is to formulate and implement **monetary policy** — the use of interest rates, money supply, and credit availability to achieve macroeconomic objectives. India's monetary policy operates under a **flexible inflation targeting (FIT) framework** formally adopted in 2016, with the **Monetary Policy Committee (MPC)** responsible for setting the policy repo rate.
+The Liquidity Adjustment Facility (LAF) is the RBI's daily liquidity window. Banks facing a cash shortfall borrow at the **Repo Rate** against government securities. Banks with surplus funds park it at the **Standing Deposit Facility (SDF)** without collateral — this is the corridor's floor since April 2022, replacing the older fixed reverse repo. The **Marginal Standing Facility (MSF)** is the penalty ceiling (Repo + 25 bps) where banks can borrow overnight even dipping into SLR.
 
-**Monetary Policy Committee (MPC):**
-- Constituted in 2016 under the RBI Act, 1934
-- Meets **6 times a year** (approximately every two months)
-- Composed of **6 members**: RBI Governor (Chair), Deputy Governor in charge of monetary policy, one other RBI official, and **3 external members nominated by the Government of India**
-- Decisions are taken by **majority vote** (each member has one vote; Governor has a casting vote in case of a tie)
-- The inflation target is set by the Government of India at **4% with a tolerance band of ±2%** (i.e., 2% to 6%)
-- The MPC is responsible for maintaining price stability while considering the objective of growth
+#### Monetary Policy Committee (MPC)
 
-### 2. Issue and Management of Currency
+The MPC, constituted under the RBI Act (amended 2016), has **six members**: the RBI Governor (Chair), RBI Deputy Chair nominee, one RBI officer, and **three external experts** appointed by the Central Government. Decisions are by majority vote; the Governor has a **casting vote** on ties. The committee meets **at least four times a year**, and each meeting publishes minutes with votes of members.
 
-The RBI has the sole authority to issue banknotes in India (except one-rupee notes, which are issued by the Finance Ministry). Currency notes are issued in denominations of ₹1, ₹2, ₹5, ₹10, ₹20, ₹50, ₹100, ₹200, ₹500, and ₹2,000. The design, material, and security features of Indian currency are determined by the RBI in consultation with the Government.
+#### Quantitative vs qualitative instruments
 
-Currency management involves:
-- **Note issuance and distribution** through designated bank branches and currency chests
-- **Currency verification and sorting** — soiled notes are withdrawn and destroyed
-- **Currency authentication** — detection and removal of counterfeit notes
-- **Storage and security** of notes and coins
+| Instrument | Type | Mechanism |
+| --- | --- | --- |
+| CRR | Quantitative | Banks park % of deposits as cash with RBI — reduces lendable funds |
+| SLR | Quantitative | Banks hold % of NDTL in liquid assets — affects credit multiplier |
+| OMO | Quantitative | RBI buys/sells g-sec in secondary market to inject/drain liquidity |
+| Repo/MSF/SDF | Quantitative | LAF corridor rates for daily liquidity management |
+| Moral suasion, priority-sector norms | Qualitative | Verbal guidance and directed credit targets |
 
-The **Mahatma Gandhi Series** of banknotes was introduced in 1996, replacing the older Ashoka Pillar series. In 2016, the **Mahatma Gandhi New Series** was introduced, featuring enhanced security features and new designs. The ₹500 note (with the Swachh Bharat logo) and ₹2,000 note were part of this new series following demonetization.
+#### Flexible Inflation Targeting
 
-### 3. Banker to the Government
+The **Monetary Policy Framework Agreement (2016)** between the RBI and the Government fixed the CPI-combined inflation target at **4% with ±2% tolerance**. If inflation stays outside the band for **three consecutive quarters**, the RBI must submit a corrective report. The **Fisher relation r_real ≈ r_nominal − π** explains why the MPC watches real rates.
 
-The RBI acts as the **banker, agent, and fiscal agent** to both the Central Government and State Governments. Specific functions include:
-- Maintaining the **Government's bank accounts** — receiving tax payments, government receipts, and making government payments
-- Managing **public debt** — issuance, servicing, and redemption of government securities (G-secs)
-- Managing the **Ways and Means Advances (WMA)** — temporary overdraft facility to the government when there are temporary mismatches in receipts and payments
-- Acting as a **custodian of foreign exchange reserves**
+- The **Money Multiplier m = 1/CRR**: at CRR 4%, m = 25 — the theoretical maximum expansion of deposits per ₹1 of base money.
+- **External benchmark linkage** (Oct 2019): new floating-rate retail and MSME loans must link to Repo, T-Bill yield, or FCNB benchmark, improving rate transmission.
+- Exam trap: do **not** treat SDF as obsolete — it has replaced the fixed Reverse Repo Rate as the corridor floor since April 2022.
 
-### 4. Banker to Banks (Lender of Last Resort)
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-The RBI maintains **reserve accounts** for all scheduled commercial banks. Banks are required to maintain a portion of their deposits as reserves with the RBI (see CRR below). The RBI acts as the **lender of last resort** — providing emergency liquidity to banks facing temporary liquidity shortages through the **Marginal Standing Facility (MSF)** and through repo operations.
+#### Transmission mechanism and lending-rate linkage
 
-### 5. Regulation and Supervision of Banks
+A repo rate hike does not instantly raise your loan EMI. Transmission flows: **Repo → MCLR (Marginal Cost of Funds based Lending Rate, mandatory since April 2016) → bank lending rate → borrower EMI**. Since October 2019, all new floating-rate loans to MSME and retail borrowers are linked to an **external benchmark** — Repo, 3-month T-Bill, or any FCNB benchmark published by an approved agency. External benchmarking gave faster transmission, but studies (RBI Bulletin, 2022) showed only about 35–40% pass-through within a year, the rest absorbed by banks.
 
-The RBI regulates and supervises banks through multiple mechanisms:
-- **Licensing** of new banks and expansion of branch networks
-- **On-site inspection** (annual financial inspection for major banks; risk-based supervision for others)
-- **Off-site surveillance** through periodic reporting
-- **Prompt Corrective Action (PCA)** framework for banks that breach certain thresholds (capital adequacy, NPA levels, profitability)
-- **Risk-based supervision** framework introduced in recent years
+#### Edge cases and recent shifts
 
-### 6. Foreign Exchange Management
+- The **LAF corridor today**: SDF = Reverse Repo Rate = Repo − 25 bps; Repo at mid; MSF = Bank Rate = Repo + 25 bps.
+- **CRR is interest-free** (0% since 2022 was discussed but rejected); **SLR holdings earn coupon** on the g-secs but tie up funds.
+- **OMO**: When RBI buys g-sec from banks, it credits their current accounts → reserves rise → liquidity expands. Sales do the opposite.
+- **Cautious vs hawkish stance**: The MPC declares a stance (accommodative / neutral / hawkish) alongside rate action. Withdrawals happen through OMO sales or VRR (Variable Rate Reverse Repo) auctions, not necessarily rate hikes.
 
-Under the **Foreign Exchange Management Act (FEMA), 1999** (which replaced the older FERA, 1973), the RBI regulates India's foreign exchange market to ensure orderly conditions and prevent speculative activity. The RBI also manages India's **foreign exchange reserves** — the largest in the world after China and Japan — which serve as a buffer against external shocks and provide confidence in the rupee.
+#### Common mistakes examiners exploit
 
-## Monetary Policy Instruments
+| Mistake | Correct fact |
+| --- | --- |
+| Reverse Repo = Repo − 25 bps still used as floor | SDF replaced it in April 2022 |
+| Bank Rate obsolete | Statutorily used for penal provisions; aligned with MSF |
+| MPC unilaterally sets policy | Since 2016, MPC decides; RBI handles day-to-day LAF/OMO |
+| WPI is the inflation target | CPI-combined (NSO/MoSPI) since 2014 |
+| MSF is below Repo | MSF is the corridor ceiling, above Repo |
 
-The RBI uses several instruments to implement monetary policy:
+#### IBPS Clerk exam strategy
 
-### Quantitative Instruments (affect the quantity of money/credit)
+Banking Awareness contributes about **3%** to the IBPS Clerk prelims and mains, but RBI & Monetary Policy is **the highest-yield sub-topic** — expect **2–4 questions per paper**, usually one MCQ each on: latest MPC rate decision, CRR/SLR percentages, difference between SDF and Reverse Repo, MPC composition, or the inflation target band.
 
-**1. Repo Rate:**
-The rate at which the RBI lends to commercial banks against government securities. When the RBI raises the repo rate, borrowing from the RBI becomes more expensive → banks raise their lending rates → credit becomes costlier → consumption and investment slow → inflation falls. **Repo rate is the dominant policy rate** under the current framework.
+**Worked example (SI/CI quick-check):** Find simple interest on ₹50,000 at 6% p.a. for 2 years.
+SI = (50,000 × 6 × 2) / 100 = **₹6,000**. For compound interest: A = 50,000 (1 + 6/100)² = ₹56,180; CI = ₹6,180. Such numericals appear in the Quant section when tagged to monetary policy.
 
-**2. Reverse Repo Rate:**
-The rate at which the RBI borrows from commercial banks (placing excess reserves with the RBI). The reverse repo rate acts as a floor for the overnight call money rate.
+- Memorise: Repo, SDF, MSF, Bank Rate, CRR (4%), SLR (18%), MPC inflation target (4% ± 2%).
+- Revise the last **three MPC rate decisions** with their stances.
+- Practice distinguishing CRR (cash, RBI, no interest) vs SLR (g-sec + gold + cash, in own vaults).
 
-**3. Cash Reserve Ratio (CRR):**
-The percentage of a bank's **Net Demand and Time Liabilities (NDTL)** that it must maintain as cash with the RBI (in the form of deposits with the RBI). Currently 4.50%. When CRR is increased, banks have less money to lend → credit supply contracts.
+#### Practice prompts:
+1. If Repo is 6.50%, what are SDF and MSF rates under the current corridor?
+2. CRR rises from 4% to 5% — how does the money multiplier change (from 25 to 20)?
 
-**4. Statutory Liquidity Ratio (SLR):**
-The percentage of NDTL that banks must maintain in **liquid assets** — cash, gold, or **government securities (G-secs)**. Currently 18.00%. SLR serves both as a prudential requirement (ensures banks have sufficient government securities to meet unexpected needs) and as a monetary policy tool (when the RBI buys G-secs, it injects liquidity).
+---
 
-**5. Open Market Operations (OMO):**
-The RBI buys or sells government securities in the open market to inject or absorb liquidity. When the RBI **buys G-secs**, it pays the sellers (injecting money into the system), thereby increasing liquidity. When it **sells G-secs**, it absorbs liquidity.
+## Continue your study
 
-### Qualitative Instruments (affect the allocation and flow of credit)
-
-**1. Priority Sector Lending (PSL) Targets:**
-As described in the previous chapter, banks must direct a minimum percentage of their lending to priority sectors.
-
-**2. Moral Suasion:**
-The RBI uses communication, persuasion, and guidance to influence bank behavior — for example, advisories to banks to restrict lending to certain sectors (e.g., consumer loans, credit card outstanding) during periods of excess credit growth.
-
-**3. Directed Credit:**
-The RBI mandates that banks allocate a portion of their credit to specific sectors (agriculture, export credit, SSI) through directed credit programmes.
-
-## Understanding Inflation Targeting
-
-India adopted **Flexible Inflation Targeting (FIT)** as its monetary policy framework in 2016, following an agreement between the RBI and the Government of India. Under FIT:
-
-- **Target:** CPI (Consumer Price Index) inflation of **4%** with a tolerance band of **±2%** (i.e., the band is 2% to 6%)
-- **Duty of RBI:** Maintain inflation within the target band using monetary policy tools
-- **Failure to meet target:** If inflation is outside the band for three consecutive quarters, the RBI must explain to the Government why it failed and the remedial action it proposes to take
-
-**Real Repo Rate:** The real repo rate = Nominal Repo Rate − Expected Inflation. A higher real repo rate means tighter monetary policy. India's real repo rate has been a key variable in monetary policy discussions.
-
-**Transmission:** When the RBI changes the repo rate, this should ideally transmit to:
-- Banks' **Base Rate / MCLR** (the minimum lending rate)
-- **Deposit rates** (affecting household savings behavior)
-- **Lending rates** (affecting borrower decisions)
-- **Demand for goods and services** (affecting inflation)
-
-However, transmission in India has historically been **incomplete and slow** — changes in the repo rate do not immediately or fully translate into changes in bank lending rates, particularly when banks have high levels of NPAs or when deposit growth is sluggish.
-
-## Current Account Deficit (CAD) and Rupee Management
-
-The RBI also plays a role in managing the **current account deficit** and the **exchange rate of the Indian rupee** (although India operates a **floating exchange rate** regime, the RBI intervenes in the foreign exchange market to prevent excessive volatility).
-
-When there is excessive demand for foreign currency (rupee depreciating sharply), the RBI sells dollars from its reserves to supply foreign exchange. When there is excess supply of foreign exchange (rupee appreciating sharply), the RBI buys foreign exchange to accumulate reserves.
-
-**⚡ Exam tip:** The RBI's monetary policy is set by the MPC, which meets 6 times a year. The inflation target is 4% ± 2% (CPI). Repo rate is the rate at which RBI lends to banks — it is the main policy rate. When the RBI wants to fight inflation, it raises the repo rate. CRR is currently 4.50% and SLR is 18.00%. The Governor of RBI is the chief executive; there are 4 Deputy Governors. The RBI was established in 1935 under the RBI Act, 1934.
-
+- **[View this topic in your IBPS Clerk roadmap](/roadmap/?exam=ibps-clerk&duration=1mo)** — see where "RBI and Monetary Policy" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ibps-clerk&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[IBPS Clerk exam overview](/exams/ibps-clerk/)** — pattern, eligibility, and syllabus
+- **[All General Awareness notes](/notes/ibps-clerk/general-awareness/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

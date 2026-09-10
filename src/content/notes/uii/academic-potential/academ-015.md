@@ -8,63 +8,95 @@ topicName: Premise and Conclusion Structure
 weight: 3
 country: indonesia
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-25"
+lastUpdated: "2026-09-10"
 ---
 
 # Premise and Conclusion Structure
 
 ### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
 
-Critical reasoning tests your ability to evaluate arguments using **logic**, not personal opinion. **Premises** are given facts; the **conclusion** is what follows from them. An **assumption** is an unstated premise the argument requires to hold. Master three structures: **syllogism** (if P→Q and P, then Q), **conditional** (if P then Q), and **contrapositive** (if not Q then not P, which is logically equivalent). Watch for **logical fallacies** like confusing correlation with causation. In UI entrance exams, these questions comprise 15–25% of the academic potential section — practice identifying conclusions from premises and spotting hidden assumptions.
+A **premise** is a statement offered as evidence; a **conclusion** is the claim that the premises are meant to support. In a UI Entrance (UII) Academic Potential item, the conclusion is the single sentence the author wants you to accept, while every other sentence pushes toward it.
+
+The conclusion is almost always signalled by **indicator words**: *therefore, thus, hence, so, consequently, karena, sehingga, dengan demikian, oleh karena itu, jadi*. Premises can be implicit, so the exam in many papers hides one and asks you to spot the gap.
+
+- **Conclusion** = the proposition that needs defending (target of the argument).
+- **Premise** = every statement that supplies reason or evidence for the conclusion.
+- **Validity** ≠ truth: an argument is *valid* when the conclusion must follow if the premises are true, regardless of whether the premises are actually true.
+
+In the UII verbal-logical cluster (≈3% of the paper), expect 3–5 option MCQs asking you to name the conclusion, supply a missing premise, or reject a non-sequitur conclusion.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-#### Premise and Conclusion Structure
+#### Anatomy of a Single Argument
 
-A logical argument begins with one or more premises—statements presented as evidence or support. The conclusion is the claim that follows from these premises. For example: "All students who study consistently perform well. Siti studies consistently. Therefore, Siti will perform well." The first two sentences are premises; the last is the conclusion. In exam questions, identifying which statement serves as the conclusion is essential.
+An argument is a set of sentences in which at least one sentence (the **conclusion**) is claimed to follow from one or more others (the **premises**). The conclusion is the "destination"; the premises are the "roads." If no sentence is being supported, you are reading exposition, not an argument.
 
-#### Conditional Statements and Contrapositive
+A **categorical syllogism** layers three statements: a **major premise** (general rule), a **minor premise** (specific case), and the **conclusion** (deduced fact). The classic form `All A are B. X is A. Therefore X is B.` shows how the minor premise places a specific instance under the major premise, yielding the conclusion by necessity.
 
-The statement "If P then Q" (P → Q) means whenever P is true, Q must be true. The contrapositive "If not Q then not P" (¬Q → ¬P) is logically equivalent—if Q is false, P must be false. However, the inverse ("If not P then not Q") and converse ("If Q then P") are NOT logically equivalent to the original statement. This distinction frequently appears in exam traps.
+#### Indicator Words
 
-#### Assumption Identification
+| Direction | Common indicators (English) | Common indicators (Bahasa) |
+| --- | --- | --- |
+| Conclusion | therefore, thus, hence, so, consequently, accordingly, we can conclude | karena, sehingga, dengan demikian, oleh karena itu, jadi, maka, kesimpulannya |
+| Premise | because, since, as, for, given that, owing to | sebab, karena, mengingat, oleh karena |
 
-An assumption is a hidden premise the argument needs to function. If someone argues, "You're a good student because you scored well," the hidden assumption is "Scoring well means someone is a good student." Arguments are strong when all necessary assumptions are plausible and stated premises genuinely support the conclusion.
+#### Validity vs Soundness
 
-#### Cause-Effect Reasoning
+| Property | Definition | Test |
+| --- | --- | --- |
+| Valid | If all premises are true, the conclusion cannot be false | Form of the argument |
+| Sound | Valid argument **and** every premise is actually true | Form + factual content |
+| Invalid | Premises can be true while the conclusion is false | Logical form breaks |
 
-Two events occurring together (correlation) does not prove one causes the other (causation). Recognizing this distinction is vital for data sufficiency and argument evaluation questions.
+#### Standard Question Types in UII
 
-#### Common Exam Patterns
-
-Questions in standard papers ask: "What conclusion follows from the premises?", "Which assumption is required for this argument?", or "Which statement most weakens/strengthens the argument?" In UI entrance tests, these appear as critical reasoning items testing analytical ability rather than learned knowledge.
+- **Identify the conclusion**: choose the single sentence the other sentences support.
+- **Strengthen / weaken**: pick the premise that, if added, makes the conclusion more (or less) likely.
+- **Hidden assumption**: supply a premise that must be true for the conclusion to follow.
+- **Logical flaw**: detect *affirming the consequent*, *denying the antecedent*, *undistributed middle*, or *hasty generalisation*.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-#### Distinguishing Necessary from Sufficient Conditions
+#### How to Locate the Conclusion Reliably
 
-A sufficient condition guarantees an outcome—P being true makes Q true without requiring it. A necessary condition must be present for an outcome to occur—without P, Q cannot occur. If P is sufficient for Q, then P → Q. If P is necessary for Q, then Q → P. Mixing these up is a common error. For instance, "Being breathing" is necessary for "being alive" but not sufficient—many other factors matter.
+Three cues work together: **placement** (conclusion is in most keys first or last), **grammar** (conclusion reads as a claim or judgment rather than a reason), and **indicators** (the marker words in the table above). When all three disagree, indicator words win. A useful shortcut is to ask, *"Can the author drop this sentence without losing any reason for the other claims?"* If yes, it is the conclusion; if no, it is a premise.
 
-#### Syllogistic Reasoning Patterns
+#### Edge Cases and Hidden Premises
 
-Syllogisms involve two premises leading to a conclusion. Three valid patterns exist: affirming the antecedent (modus ponens), denying the consequent (modus tollens), and chained conditionals. Recognizing which pattern applies helps predict whether a conclusion is valid. A conclusion that doesn't follow valid form is invalid regardless of its content.
+Arguments in many papers omit a premise the author assumes you share. For example: *"He smoked for thirty years, so he likely has lung issues."* The hidden premise is *long-term smoking in most keys damages the lungs*. UII items exploit this by asking which unstated assumption the argument depends on. Master the move of restating the argument as a syllogism and asking what middle term is missing.
 
-#### Causal Reasoning and Confounding Variables
+Another edge: **necessary vs sufficient conditions**. *"Being a mammal is necessary for being a whale."* Confusing these flips the direction of inference and produces the classic *affirming the consequent* error — `P → Q; Q; therefore P`.
 
-Causal reasoning requires eliminating alternative explanations. If researchers find that people who exercise daily have better health, exercise can cause better health—or healthier people can be more likely to exercise. The confounding variable (initial health status) undermines the causal claim. Questions in many papers ask you to identify what additional information would strengthen or weaken a causal argument.
+#### Common Logical Flaws to Recognise
 
-#### Data Sufficiency Questions
-
-Data sufficiency problems present a question followed by two statements. You must determine whether the information given is enough to answer. This tests whether you can identify what facts are necessary versus what is extraneous.
+| Flaw | Form | Why it fails |
+| --- | --- | --- |
+| Affirming the consequent | If P then Q; Q; ∴ P | Many things other than P can cause Q |
+| Denying the antecedent | If P then Q; not P; ∴ not Q | Q can still occur without P |
+| Undistributed middle | All A are B; all C are B; ∴ all A are C | B tells us nothing about the A–C link |
+| Hasty generalisation | Few cases → universal rule | Sample is too small or unrepresentative |
+| False dilemma | Only A or B is possible | Ignores other viable options |
 
 #### Practice Prompts
 
-1. Given: "If the library is closed, students cannot study. The library is closed." What must be true? (Answer: Students cannot study—this is modus ponens.)
+1. *Read this passage: "All UI Entrance verbal items test deductive reasoning. This item asks you to classify a syllogism. Therefore, this item tests deductive reasoning." Name the major premise, the minor premise, and the conclusion, and state whether the argument is valid.*
+2. *Spot the flaw: "If a student studies with StudyRoadmap, the student improves. This student improved. Therefore, the student used StudyRoadmap." Identify which premises are missing and which fallacy is committed.*
 
-2. Evaluate: "More ice cream is sold in summer. More people drown in summer. Therefore, ice cream sales cause drowning." What is the flaw? (Answer: Confounding variable—summer heat causes both ice cream sales and increased swimming, not one causing the other.)
+---
 
+## Continue your study
+
+- **[View this topic in your UI Entrance (Indonesia) roadmap](/roadmap/?exam=uii&duration=1mo)** — see where "Premise and Conclusion Structure" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=uii&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UI Entrance (Indonesia) exam overview](/exams/uii/)** — pattern, eligibility, and syllabus
+- **[All Academic Potential notes](/notes/uii/academic-potential/)** — browse sibling topics in this subject
+
+---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

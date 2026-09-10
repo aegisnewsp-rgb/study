@@ -11,7 +11,7 @@ topicName: Science and Technology
 weight: 3
 country: pakistan
 generated: "2026-03-24T08:32:08.032029"
-lastUpdated: "2026-07-24"
+lastUpdated: "2026-09-10"
 diagramPrompt: "Educational diagram illustrating Science and Technology with clear labels, white background, exam-style illustration"
 
 
@@ -22,75 +22,75 @@ diagramPrompt: "Educational diagram illustrating Science and Technology with cle
 # Science and Technology
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+> Rapid summary for last-minute revision before your LAT MCQ paper.
 
-Science and Technology in LAT General Knowledge tests **factual recall** at the Matric/Inter level — definitions, inventor–invention pairs, basic formulas, SI units, and awareness of Pakistani scientific bodies. The section carries ~3% weight (≈2–3 MCQs out of 75), so spend time on high-yield recall items rather than derivations.
+The LAT (Pakistan — HEC) General Knowledge paper carries **Science and Technology at roughly 3% weight**, assessed through single-best-answer MCQs inside the 75-question, 100-minute test. Questions are factual, not numerical, so revision centres on memorising pairs (instrument ↔ what it measures, inventor ↔ invention) and a handful of conversion facts.
 
-| Must-Know Formula | Variables & Units |
-| --- | --- |
-| **F = m × a** | Force [N] = mass [kg] × acceleration [m/s²] |
-| **V = I × R** | Voltage [V] = current [A] × resistance [Ω] (Ohm's Law) |
-| **E = mc²** | Energy [J] = mass [kg] × (speed of light)² |
-| **KE = ½ m v²** | Kinetic energy [J] = ½ × mass × velocity² |
-
-- **Telephone** → Alexander Graham Bell; **Penicillin** → Alexander Fleming (1928); **World Wide Web** → Tim Berners-Lee (1989); **Pakistan's nuclear programme** → PAEC; **space agency** → SUPARCO.
-- **Pakistan's first nuclear power plant** is **KANUPP** (Karachi, 1971–72); CHASNUPP came online in 2000.
-- **Nobel laureate Abdus Salam** won Physics (1979) for electroweak unification theory.
+- **Discoveries vs inventions**: penicillin (Fleming, 1928) is a *discovery*; the telephone (Bell, 1876) is an *invention*.
+- **SI base units** most asked: length = metre (m), mass = kilogram (kg), time = second (s), temperature = kelvin (K), current = ampere (A).
+- **Instruments**: barometer → pressure; thermometer → temperature; ammeter → current; voltmeter → potential difference; sphygmomanometer → blood pressure; seismograph → earthquakes.
+- **Distance conversions**: 1 light-year ≈ 9.46 × 10¹² km; 1 AU ≈ 1.496 × 10⁸ km.
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+> Standard content for students working through LAT General Knowledge over weeks.
 
-#### Core Physics and Chemistry Anchors
+#### Core scope of the section
+LAT examiners treat Science and Technology as civic-literacy GK, not as Physics or Biology. The items test whether you recognise a name, a unit, an instrument, or a recent technology headline. The four dominant item types are: inventor–invention pairs, instrument–quantity pairs, SI-unit recall, and awareness of emerging technologies (AI, CRISPR, blockchain, renewable energy, quantum computing).
 
-LAT questions rarely go beyond recalling what each law **states**, not deriving it. Newton's three laws cover inertia, F = ma, and action–reaction pairs. In electricity, Ohm's Law (V = IR) defines the relationship between voltage, current, and resistance; power is P = VI, measured in watts. Chemistry basics rest on **atomic structure**: protons and neutrons in the nucleus, electrons in shells, isotopes of the same element differing only in neutron count.
+#### Static GK that recurs in LAT
 
-#### Biology and Genetics
+| Pair | Correct attribution |
+| --- | --- |
+| Telephone | Alexander Graham Bell (1876) |
+| Practical electric bulb | Thomas Edison (1879) |
+| Penicillin | Alexander Fleming (1928) |
+| Radio (long-distance signalling) | Guglielmo Marconi (1895) |
+| World Wide Web | Tim Berners-Lee (1989–1991) |
+| Printing press | Johannes Gutenberg (c. 1440) |
 
-Cell theory states that all living organisms are made of cells, the basic unit of life. **Photosynthesis** converts CO₂ + H₂O into glucose using sunlight; **respiration** is its reverse. DNA carries the genetic code and is double-stranded; **RNA is single-stranded and contains uracil instead of thymine** — a frequent MCQ trap.
+| Instrument | What it measures |
+| --- | --- |
+| Barometer | Atmospheric pressure |
+| Thermometer | Temperature |
+| Ammeter | Electric current (A) |
+| Voltmeter | Potential difference (V) |
+| Sphygmomanometer | Blood pressure |
+| Seismograph | Earthquake/seismic waves |
+| Galvanometer | Small/deflection current |
 
-#### Information Technology and Emerging Tech
-
-LAT MCQs increasingly test terminology: **Artificial Intelligence (AI)** simulates human decision-making, **Machine Learning (ML)** is a subset where systems learn from data, and the **Internet of Things (IoT)** connects everyday devices to the internet. **Cyber security** protects networks from unauthorised access.
-
-#### Pakistani Scientific Institutions
-
-| Institution | Full Name | Mandate |
-| --- | --- --- | --- |
-| **PAEC** | Pakistan Atomic Energy Commission | Nuclear energy, cancer hospitals, agriculture |
-| **SUPARCO** | Space and Upper Atmosphere Research Commission | Satellites, space research |
-| **PCSIR** | Pakistan Council of Scientific and Industrial Research | Applied industrial research |
-| **NUST** | National University of Sciences and Technology | Engineering & science education |
-| **COMSATS** | Commission on Science and Technology for Sustainable Development | Research coordination |
+#### Units and conversions asked repeatedly
+- **1 light-year** = distance light travels in one year ≈ 9.46 × 10¹² km (≈ 9.46 × 10¹⁵ m). It is a *distance* unit, not time.
+- **1 AU** (Astronomical Unit) ≈ 1.496 × 10⁸ km, the mean Earth–Sun distance.
+- **1 nanometre** = 10⁻⁹ m; used routinely in nanotechnology questions.
+- **Mass is measured in kg**; weight is a force measured in **newtons (N)**. Conflating the two is a frequent trap.
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
+> Comprehensive coverage for students with months to refine edge cases.
 
-#### Fission Versus Fusion — A Classic Trap
+#### Distinction traps examiners exploit
+LAT items deliberately blur *discovery* (finding something that already existed in nature) and *invention* (creating a new device or process). Penicillin, X-rays (Röntgen, 1895), radioactivity (Becquerel, 1896) and the law of gravity are discoveries. The telephone, bulb, printing press, and World Wide Web are inventions. Watch for distractors that swap the inventor — e.g. options crediting Edison with the telephone or Bell with the bulb.
 
-**Nuclear fission** splits a heavy nucleus (e.g., uranium-235) into smaller fragments, releasing energy; this is what powers **KANUPP, CHASNUPP, and current reactors worldwide**. **Nuclear fusion** merges light nuclei (hydrogen isotopes) into helium and is the reaction that powers the Sun — it is **not yet commercially harnessed** on Earth, though ITER is researching it. Examiners exploit this confusion in options.
+#### Emerging-tech awareness (concept-only)
+- **Artificial Intelligence (AI)**: machine-based decision-making from data; subfields include machine learning and natural language processing.
+- **CRISPR-Cas9**: gene-editing tool derived from a bacterial immune mechanism (Doudna & Charpentier, 2020 Nobel in Chemistry).
+- **Blockchain**: distributed, append-only ledger underlying cryptocurrencies.
+- **Renewable energy**: solar PV, wind, hydroelectric, and green hydrogen replacing fossil-fuel generation.
+- **Quantum computing**: uses qubits exploiting superposition and entanglement; not faster for every task.
 
-#### Energy and Environment
+#### Pakistan-relevant milestones often asked
+- **Nuclear programme**: Pakistan became a declared nuclear state in 1998; Dr A.Q. Khan is associated with the enrichment programme.
+- **Satellite programmes**: Badr-1 (1990) was Pakistan's first indigenously developed satellite; PakSat-1A operates as a geostationary communications satellite.
+- **Supercomputing**: regional centres operate systems used for climate, seismology, and bioinformatics research.
 
-Renewable sources — solar, wind, hydro, geothermal — replenish naturally; fossil fuels (coal, oil, gas) are non-renewable and drive **greenhouse gas (GHG)** emissions. Climate change refers to long-term shifts in temperature and weather patterns, largely from CO₂ and methane buildup. Pakistan's alternate-energy projects include the **Quaid-e-Azam Solar Park (Bahawalpur, 1000 MW)**.
+#### Common mistakes to eliminate
+- Treating **weight as mass** (newtons vs kilograms).
+- Calling the **light-year a unit of time**.
+- Confusing **barometer with thermometer**, or **ammeter with voltmeter**.
+- Forgetting **Pakistan-specific contributions**, which recur across LAT cycles alongside global names.
 
-#### Modern Frontiers to Recognise
-
-- **CRISPR-Cas9** — gene-editing tool derived from bacterial immune systems.
-- **mRNA vaccines** — used in COVID-19 immunisation (Pfizer, Moderna).
-- **Blockchain** — distributed ledger underpinning cryptocurrencies.
-- **Semiconductors** — materials (silicon, germanium) with conductivity between conductors and insulators; basis of modern electronics.
-
-#### Common Mistakes in LAT Science MCQs
-
-1. Crediting Edison for the telephone (it was Bell) or Bell for the light bulb (it was Edison/Tesla).
-2. Treating the newton as an SI **base** unit — it is **derived** from kg·m/s².
-3. Confusing SUPARCO (space) with PAEC (atomic energy).
-4. Saying CHASNUPP was Pakistan's first reactor — KANUPP was.
-
-#### Practice Prompts
-
-1. If a 2 kg object accelerates at 3 m/s², what force acts on it? *(Answer: F = 6 N.)*
-2. Which Pakistani body launched the country's first communications satellite, PAKSAT-1? *(Answer: SUPARCO.)*
+#### Practice prompts
+1. Which instrument measures atmospheric pressure — thermometer, barometer, hygrometer, or ammeter?
+2. State one reason the light-year is classified as a unit of distance, and convert 4 light-years into kilometres.
 
 ## Continue your study
 

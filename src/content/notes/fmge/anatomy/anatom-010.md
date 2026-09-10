@@ -8,180 +8,76 @@ topicName: "Lower Limb — Leg, Ankle, Foot & Surface Anatomy"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-10"
 ---
 
 # Lower Limb — Leg, Ankle, Foot & Surface Anatomy
 
 ### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
 
-**Compartments of Leg (Crus)**
-- Divided by interosseous membrane and deep fascia into 3 compartments:
+The **leg** spans knee-to-ankle and contains the **tibia** (medial, weight-bearing, transmits ~90% of load) and **fibula** (lateral, muscle-attachment), bound by the **interosseous membrane**. The **ankle (talocrural) joint** is a uniaxial hinge between the tibial plafond, both malleoli, and the trochlea of the **talus**, allowing dorsiflexion (15–20°) and plantarflexion (30–50°).
 
-**Anterior compartment:**
-- Muscles (all dorsiflexors): tibialis anterior, extensor hallucis longus, extensor digitorum longus, peroneus tertius
-- Supplied by deep peroneal nerve (L4–L5)
-- **Clinical:** Foot drop (deep peroneal nerve injury) — cannot dorsiflex or evert foot → high-stepping gait; anterior compartment syndrome — painful passive plantarflexion
+The **foot** has 26 bones divided into hindfoot (talus, calcaneus), midfoot (navicular, cuboid, 3 cuneiforms), and forefoot (5 metatarsals, 14 phalanges), braced by three arches.
 
-**Lateral compartment:**
-- Muscles (evertors): peroneus longus and brevis
-- Supplied by superficial peroneal nerve
-- **Clinical:** Eversion weakness; lateral compartment syndrome
-
-**Posterior compartment (superficial):**
-- Muscles: gastrocnemius (2 heads), soleus (deep to gastrocnemius), plantaris (rudimentary)
-- All supplied by tibial nerve
-- Achilles tendon — strongest tendon in body; inserts on calcaneus; for plantarflexion
-- **Clinical:** Achilles tendinitis; rupture — palpable gap, positive Thompson squeeze test; gastrocnemius strain (tennis leg)
-
-**Posterior Compartment (Deep):**
-- Muscles: tibialis posterior (most medial), flexor hallucis longus (most lateral), flexor digitorum longus (middle)
-- All share the tarsal tunnel (behind medial malleolus)
-- **Tarsal tunnel:** bounded by flexor retinaculum (roof), medial malleolus, calcaneus, navicular (floor); contains tibial nerve, posterior tibial artery, tibialis posterior tendon, flexor digitorum longus, flexor hallucis longus
-- **Clinical:** Tarsal tunnel syndrome — tibial nerve compression → numbness/tingling in sole, weakness of toe flexion
-
-**Ankle Joint**
-- Hinge joint between tibia, fibula, and talus
-- **Articular surfaces:** tibial plafond (socket), medial malleolus (talus), lateral malleolus (talus), superior talar dome
-- **Ligaments:** lateral collateral (ATFL — anterior talofibular, CF — calcaneofibular, PTFL — posterior talofibular), deltoid ligament (medial — fan-shaped, strong)
-- **Clinical:** Ankle sprains — most common is lateral (ATFL) from inversion injury; syndesmosis injury (high ankle sprain) — Maisonneuve fracture; deltoid ligament injury indicates significant eversion force
-
----
+- **Ankle joint** = hinge; **subtalar joint** = inversion/eversion — they are separate joints.
+- Lateral malleolus tip lies ~1 cm **distal and posterior** to the medial malleolus (Pott's fracture).
+- Achilles reflex tests **S1–S2**; tendon inserts on calcaneal tuberosity.
 
 ### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-**Bones of Foot**
+#### Bones of the leg and ankle mortise
+The **tibia** is the second-largest bone in the body and carries ~90% of transmitted load through its shaft to the tibial plafond. The **fibula** is slender, non-weight-bearing in the classic sense, but its distal 8–10 cm is critical because the **lateral malleolus** forms the lateral wall of the ankle mortise. The **interosseous membrane** is a fibrous sheet with fibres directed inferomedially, transmitting compressive load from fibula to tibia and giving attachment to deep flexors and extensors.
 
-**Tarsal Bones (7):**
-- **Talus:** superior articular surface (dome), head (anterior), neck; transmits body weight; no muscle attachments
-- **Calcaneus:** largest tarsal bone; sustentaculum tali (medial shelf), Achilles tendon insertion, peroneal tubercle (lateral)
-- **Navicular:** medial cuneiform, intermediate cuneiform, lateral cuneiform, cuboid
+#### Joints of the ankle and foot
+The **talocrural joint** is a synovial hinge; the **subtalar (talocalcaneal) joint** allows inversion and eversion around an oblique axis. Together they produce triplanar motion. The **Chopart joint** (talonavicular + calcaneocuboid) and **Lisfranc joint** (tarsometatarsal) are clinically critical transition lines — Lisfranc injuries are easily missed on plain X-ray.
 
-**Metatarsals & Phalanges:**
-- 5 metatarsals; 1st is shortest and thickest (bears most weight)
-- **Phalanges:** proximal, middle, distal; hallux has 2 phalanges; others have 3
-- **Clinical:** March fractures (stress fractures of 2nd metatarsal); Jones fracture (5th metatarsal base — avascular zone); Freiberg disease (avascular necrosis of 2nd metatarsal head)
+| Joint | Type | Movement | Stability structure |
+| --- | --- | --- | --- |
+| Talocrural | Hinge synovial | Dorsiflexion / plantarflexion | Medial (deltoid) and lateral collateral ligaments |
+| Subtalar | Plane synovial | Inversion / eversion | Cervical and interosseous talocalcaneal ligaments |
+| Chopart (transverse tarsal) | Compound | Pivot of forefoot | Bifurcate ligament |
+| Lisfranc (tarsometatarsal) | Plane | Minimal glide | Lisfranc ligament (medial cuneiform → 2nd MT base) |
 
-**Arches of Foot**
-- **Medial longitudinal arch:** higher; calcaneus, navicular, cuneiforms, metatarsals 1–3; maintained by tibialis posterior, flexor hallucis longus, spring ligament
-- **Lateral longitudinal arch:** lower; calcaneus, cuboid, metatarsals 4–5; maintained by peroneus longus/brevis, plantar fascia
-- **Transverse arch:** metatarsal heads; maintained by peroneus longus (acts as bowstring)
-- **Clinical:** Flat feet (fallen arches — pes planus); cavus foot (high arch — pes cavus); plantar fasciitis (pain at calcaneal insertion, worst with first steps in morning)
+#### Surface anatomy landmarks
+- **Medial malleolus** — distal tibia; **lateral malleolus** — distal fibula, ~1 cm inferior and posterior.
+- **Dorsalis pedis pulse** — felt lateral to extensor hallucis longus between bases of 1st–2nd metatarsals; continuation of anterior tibial artery.
+- **Posterior tibial pulse** — palpable midway between medial malleolus and Achilles tendon; used in diabetic-foot assessment.
+- **Tendo Achilleus** — conjoined gastrocnemius + soleus tendon, palpable above calcaneal tuberosity; positive Thompson test indicates rupture.
 
-**Foot — Intrinsic Muscles**
-
-**Dorsal layer:** extensor digitorum brevis, extensor hallucis brevis (innervated by deep peroneal nerve)
-
-**Plantar layer (4 layers from superficial to deep):**
-
-**1st layer (most superficial):** abductor hallucis, flexor digitorum brevis, abductor digiti minimi
-
-**2nd layer:** quadratus plantae (assists flexor digitorum longus), lumbricals (4 — flex MCP, extend IP joints), flexor digitorum longus tendon, flexor hallucis longus tendon
-
-**3rd layer:** flexor hallucis brevis, adductor hallucis (oblique + transverse heads), flexor digiti minimi brevis
-
-**4th layer (deepest):** plantar interossei (3 — adduct digits 3–5), dorsal interossei (4 — abduct digits 2–4)
-
-**All intrinsic foot muscles supplied by medial and lateral plantar nerves (L4–S3)**
-
-**Clinical:** Hammer toe (MTP flexion, PIP extension, DIP flexion); claw toe (MTP extension, PIP and DIP flexion); Morton neuroma (interdigital nerve compression between 3rd and 4th metatarsal heads → burning pain)
-
-**Ankle & Foot — Blood Supply**
-- **Anterior tibial artery** → dorsalis pedis (foot) → lateral tarsal, arcuate, dorsal metatarsal, dorsal digital
-- **Posterior tibial artery** → medial and lateral plantar arteries (via medial and lateral plantar arteries)
-- **Fibular (peroneal) artery** → perforating branch anastomoses with dorsalis pedis
-- **Clinical:** Peripheral arterial disease (PAD) — absent dorsalis pedis pulse; Buerger's disease (segmental thrombosing vasculitis in smokers); diabetic foot ulcers (neuropathy + ischemia)
-
-**Nerve Supply of Leg & Foot**
-- **Common peroneal nerve** (L4–S2): wraps around fibular neck — very superficial and vulnerable
-  - Deep peroneal: anterior compartment (foot drop, sensory loss between 1st-2nd toes)
-  - Superficial peroneal: lateral compartment (eversion weakness, dorsum sensory loss)
-  - **Clinical:** Common peroneal palsy — foot drop + sensory loss over dorsum; injury at fibular neck
-- **Tibial nerve (L4–S3):** posterior compartment → tarsal tunnel → medial and lateral plantar nerves
-  - **Clinical:** Sensory loss on sole; weakness of toe flexion; positive Tinel's sign at tarsal tunnel
-- **Sural nerve:** formed from tibial + common peroneal; sensory to lateral foot and ankle
-- **Saphenous nerve:** terminal branch of femoral; sensory to medial leg and foot
-
----
+#### Tarsal tunnel and saphenous opening
+The **tarsal tunnel** on the medial ankle, roofed by the flexor retinaculum, contains (anterior to posterior): tibialis posterior, flexor digitorum longus, posterior tibial artery and vein, and tibial nerve — mnemonic **"Tom, Dick, And Very Nervous Harry"**. Compression produces tarsal tunnel syndrome. The **saphenous opening (fossa ovalis)** in the fascia lata, ~3 cm inferolateral to the pubic tubercle, transmits the great saphenous vein into the femoral vein.
 
 ### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-**Ankle & Foot — Surgical & Clinical Anatomy**
+#### Arches of the foot and gait biomechanics
+The **medial longitudinal arch** is the highest and most elastic (calcaneus, talus, navicular, medial cuneiform, 1st metatarsal); the **lateral longitudinal arch** is flatter and weight-bearing at heel strike; the **transverse arch** runs across the cuneiforms and cuboid. Arches are maintained by bony shape, ligaments (spring/plantar calcaneonavicular, long and short plantar), the plantar aponeurosis (windlass mechanism), and intrinsic muscles. During gait the arches flatten slightly to absorb impact, then recoil — storing elastic energy that assists push-off.
 
-**Ankle Ligament Complex — Detailed:**
+#### Common mistakes and exam traps
 
-**Lateral ligament (ATFL, CFL, PTFL):**
-- **Anterior talofibular ligament (ATFL):** most commonly injured; resists plantarflexion and inversion; runs from anterior malleolus to talar neck
-- **Calcaneofibular ligament (CFL):** resists inversion when foot is plantarflexed; runs from fibular tip to calcaneus
-- **Posterior talofibular ligament (PTFL):** strongest of the three; rarely injured; runs horizontally from fibular tip to posterior talus
-- **Clinical grading:** Grade I (stretching), Grade II (partial tear), Grade III (complete tear); talar tilt test for CFL
+1. Conflating **tibiotalar** (hinge) with **subtalar** (inversion/eversion) motion — FMGE MCQs often test this distinction.
+2. Claiming the **fibula** is weight-bearing — it transmits a small fraction of load laterally but the tibia bears the majority.
+3. Missing that the **Lisfranc ligament** runs from the **medial cuneiform to the base of the 2nd metatarsal** — its rupture defines a Lisfranc injury.
+4. Forgetting that **dorsalis pedis is a branch of the anterior tibial artery**, while posterior tibial arises from the popliteal artery in the calf.
 
-**Medial ligament (Deltoid):**
-- Strong triangular ligament; superficial and deep components
-- **Superficial:** tibionavicular, tibiocalcaneal, tibiospring, posterior tibiotalar
-- **Deep:** anterior and posterior tibiotalar
-- **Clinical:** Deltoid ligament injuries uncommon in isolation; associated with syndesmotic injuries and fibular fractures
+| Clinical sign | Anatomical basis |
+| --- | --- |
+| Positive Thompson test | Squeezing the calf does not plantarflex the foot — Achilles (S1–S2) rupture |
+| Tinel sign at medial ankle | Tingling on tapping over tarsal tunnel → tibial nerve compression |
+| Pott's fracture | Bimalleolar fracture from forced eversion; lateral malleolus tip ~1 cm distal |
+| Flat foot (pes planus) | Collapse of medial longitudinal arch; loss of spring ligament support |
 
-**Syndesmosis:**
-- Tibiofibular ligament complex (anterior, posterior, inferior tibiofibular ligament)
-- Maintains tibial plafond relationship with talus
-- **Clinical:** High ankle sprain — mechanism: external rotation + dorsiflexion; squeeze test (pain on squeezing tibia and fibula together); fibular fracture above ankle (Maisonneuve fracture — proximal fibular fracture + interosseous membrane injury)
-- **Imaging:** X-ray — tibial clear space, medial clear space, tibiofibular overlap; CT for subtle injuries
+#### Practice prompts
+- A 45-year-old diabetic has an ulcer under the 1st metatarsal head. Name the artery most likely involved and the surface landmark used to palpate it.
+- During an inversion injury, which ligament of the lateral ankle complex tears first, and what joint does it belong to?
 
-**Tendon Sheaths Around Ankle:**
-- **Anterior:** tibialis anterior, extensor hallucis longus, extensor digitorum longus (all share common sheath)
-- **Posteromedial:** tibialis posterior (most anterior), flexor digitorum longus (middle), flexor hallucis longus (most posterior)
-- **Posterolateral:** peroneus longus and brevis (share common sheath until divergent)
-- **Clinical:** Tenosynovitis — stenosing (de Quervain's in hand — abductor pollicis longus + extensor pollicis brevis); flexor hallucis longus ("trigger toe" in dancers)
+## Continue your study
 
-**Foot — Gait Cycle & Biomechanics**
+- **[View this topic in your FMGE roadmap](/roadmap/?exam=fmge&duration=1mo)** — see where "Lower Limb — Leg, Ankle, Foot & Surface Anatomy" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=fmge&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[FMGE exam overview](/exams/fmge/)** — pattern, eligibility, and syllabus
+- **[All Anatomy notes](/notes/fmge/anatomy/)** — browse sibling topics in this subject
 
-**Stance phase (60% of cycle):** heel strike → foot flat → midstance → heel off → toe off
-**Swing phase (40%):** initial swing → midswing → terminal swing
-
-**Muscle activity during gait:**
-- **Heel strike:** tibialis anterior (eccentric dorsiflexion), quadriceps
-- **Foot flat:** gastrocnemius/soleus (controlled plantarflexion), tibialis posterior
-- **Midstance:** gluteus medius/minimus (hip abduction)
-- **Heel off:** plantarflexors (calf muscles) — propulsive phase
-- **Toe off:** intrinsic foot muscles stabilize the foot
-
-**Clinical gait abnormalities:**
-- **Foot drop:** steppage gait (high-stepping); common peroneal nerve palsy
-- **Trendelenburg gait:** hip abductor weakness; compensated by leaning to affected side
-- **Cavus foot gait:** overcorrection at ankle; high arches
-- **Ankle equinus:** insufficient dorsiflexion → vaulting
-
-**Heel Pain — Differential Diagnosis:**
-- **Plantar fasciitis:** most common cause; pain at calcaneal insertion of plantar fascia; worst with first morning steps; risk factors: obesity, pes planus, runners
-- **Calcaneal stress fracture:** gradual onset; pain with repetitive loading
-- **Tarsal tunnel syndrome:** burning, numbness in sole
-- **Baxter's nerve entrapment:** first branch of lateral plantar nerve; pain inferior to heel
-- **Retrocalcaneal bursitis:** pain posterior to heel; associated with Haglund's deformity
-
-**Important Surface Anatomy of Lower Limb**
-- **Patella:** ballotable; patellar ligament attaches to tibial tuberosity
-- **Tibial tuberosity:** palpable 2–3 cm below patella
-- **Fibula head:** palpable lateral to tibia just below knee joint; common peroneal nerve winds around neck of fibula here
-- **Medial malleolus:** medial ankle end of tibia
-- **Lateral malleolus:** lateral ankle end of fibula (more distal than medial)
-- **Sole of foot:** plantar fascia (central thickening — important for arch support); first metatarsal head = ball of foot medially; 5th metatarsal head = ball of foot laterally
-- **Achilles tendon:** most prominent tendon; no tendon sheath (paratendon only); rupture at 2–6 cm from calcaneal insertion
-- **Femoral pulse:** in femoral triangle, below inguinal ligament at midpoint
-- **Popliteal pulse:** deepest pulse to palpate; behind knee with leg slightly flexed
-- **Dorsalis pedis pulse:** between extensor hallucis longus and extensor digitorum longus tendons; absent in ~5% of population
-- **Posterior tibial pulse:** behind medial malleolus, midway between malleolus and Achilles tendon
-
-**Venous Drainage of Lower Limb:**
-- **Superficial:** great saphenous (medial — opens into femoral vein at saphenofemoral junction after receiving small saphenous at popliteal fossa) and small saphenous (lateral — opens into popliteal vein)
-- **Deep:** follow arteries
-- **Clinical:** DVT (deep vein thrombosis — Virchow's triad: stasis, endothelial injury, hypercoagulability); saphenous vein harvest for coronary artery bypass; varicose veins (incompetent valves → reflux → tortuous dilation)
-
-**Lymphatic Drainage of Lower Limb:**
-- **Superficial:** along great saphenous (medial) and small saphenous (lateral) veins
-- **Deep:** along deep arteries
-- **Drain to:** inguinal lymph nodes (superficial + deep) → external iliac → lumbar (para-aortic)
-- **Clinical:** Lymphedema (blockage → non-pitting edema); filariasis (Wuchereria bancrofti — mosquito-borne parasite → lymphatic obstruction → massive edema of scrotum/limb — elephantiasis)
-
----
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

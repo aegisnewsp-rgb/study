@@ -8,164 +8,81 @@ topicName: Cell Biology
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-10"
 ---
 
-# Cell Biology — The Fundamental Unit of Life
+# Cell Biology
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-Cell biology is a foundational topic for INI CET — questions appear regularly and a thorough understanding of cell structure and function is essential for all medical specialities. Focus on the differences between prokaryotic and eukaryotic cells, cell organelles, and the fluid mosaic model of the plasma membrane.
+A **cell** is the smallest structural and functional unit of life, bounded by a **plasma membrane** and divided into three regions: plasma membrane, cytoplasm, and (in eukaryotes) a **nucleus**. Membrane transport, organelle identification, and cell cycle regulation account for most INI CET image-based MCQs.
 
-**High-Yield Facts for INI CET:**
-- Mitochondria: Double membrane, ATP production via oxidative phosphorylation; own DNA (maternal inheritance)
-- Endoplasmic reticulum: Rough (ribosome-studded, protein synthesis) vs Smooth (lipid synthesis, detoxification)
-- Golgi apparatus: Modification, packaging, and transport of proteins
-- Nucleus: Contains genetic material (DNA), nucleolus (rRNA synthesis), nuclear envelope with pores
-
-⚡ **Exam tip:** INI CET frequently asks about the fluid mosaic model of membrane structure — be ready to identify which components are amphipathic (hydrophilic heads + hydrophobic tails). Also know the differences between cell organelles found in prokaryotes vs eukaryotes.
+- The **fluid mosaic model** describes the phospholipid bilayer with embedded cholesterol and integral/peripheral proteins.
+- **SA:V = 4πr² / (4/3)πr³** sets the upper size limit; larger cells cannot exchange nutrients fast enough.
+- Mitochondria carry 16.5 kb circular mtDNA and 70S ribosomes; lysosomal hydrolases require pH ≈ 4.5.
+- High-yield: RER in plasma cells and pancreatic acinar cells; centriole microtubule patterns (9+2 axoneme vs 9+0 basal body).
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**The Cell — Structure and Function:**
+#### Three Cell Regions and Their Roles
+The **plasma membrane** is a 5–10 nm phospholipid bilayer with cholesterol modulating fluidity and proteins handling transport and signalling. **Cytoplasm** contains cytosol, organelles, and the cytoskeleton (microfilaments, microtubules, intermediate filaments). The **nucleus** stores DNA as chromatin, houses the nucleolus for rRNA synthesis, and is enclosed by a double nuclear envelope continuous with the RER.
 
-#### Prokaryotes vs Eukaryotes
+#### Organelle Function Map
+| Organelle | Marker enzyme / molecule | Primary role |
+| --- | --- | --- |
+| Rough ER | Ribophorin, ribosomes | Protein synthesis and folding |
+| Smooth ER | Glucose-6-phosphatase | Lipid synthesis, detoxification, Ca²⁺ storage |
+| Golgi apparatus | Galactosyltransferase | Glycosylation, sorting, packaging |
+| Lysosome | Acid phosphatase, cathepsins | Autophagy, phagocytosis at pH ~4.5 |
+| Mitochondrion | Citrate synthase, mtDNA | Oxidative phosphorylation, ATP generation |
+| Peroxisome | Catalase, urate oxidase | β-oxidation of VLCFAs, ROS detoxification |
 
-**Prokaryotic cells** (bacteria, archaea):
-- No membrane-bound nucleus — genetic material in nucleoid region (circular DNA)
-- No membrane-bound organelles
-- Smaller (0.2-2 μm diameter)
-- 70S ribosomes (30S + 50S subunits)
-- Cell wall present (peptidoglycan in bacteria)
-- Binary fission for reproduction
+#### Membrane Transport at a Glance
+- **Passive diffusion**: small non-polar molecules (O₂, CO₂) cross without energy.
+- **Facilitated diffusion**: carriers or channels move glucose and ions down the gradient.
+- **Active transport**: Na⁺/K⁺-ATPase consumes 1 ATP per cycle, pumping 3 Na⁺ out and 2 K⁺ in.
+- **Bulk transport**: endocytosis (phagocytosis for solids, pinocytosis for fluids) and exocytosis for vesicle release.
 
-**Eukaryotic cells** (animals, plants, fungi, protists):
-- Membrane-bound nucleus containing DNA
-- Membrane-bound organelles (mitochondria, ER, Golgi, lysosomes, peroxisomes)
-- Larger (10-100 μm diameter)
-- 80S ribosomes in cytoplasm (70S in organelles — mitochondria and chloroplasts have their own)
-- May have cell wall (plants, fungi)
-
-#### The Plasma Membrane
-
-**Fluid Mosaic Model** (Singer & Nicolson, 1972):
-- The membrane is a dynamic structure — phospholipid bilayer with proteins embedded or attached
-- **Phospholipids:** Amphipathic molecules — hydrophilic (water-loving) phosphate heads face outward, hydrophobic (water-fearing) fatty acid tails face inward
-- **Cholesterol:** Inserts between phospholipids — increases rigidity at high temperatures, prevents excessive fluidity at low temperatures
-- **Proteins:** Integral proteins span the membrane; peripheral proteins attach to surface. Functions: receptors, transporters, enzymes, cell adhesion
-
-**Membrane Transport:**
-- **Simple diffusion:** Non-polar molecules (O₂, CO₂) cross without assistance
-- **Facilitated diffusion:** Channel proteins or carrier proteins allow polar molecules (glucose, ions) to cross; no energy required
-- **Active transport:** Pumps (e.g., Na⁺/K⁺ ATPase) use ATP to move substances against concentration gradient
-- **Vesicular transport:** Exocytosis (secretion out) and endocytosis (phagocytosis, pinocytosis — substances enter cell)
-
-**Cell Junctions:**
-- **Tight junctions:** Seal adjacent cells — prevent paracellular movement (e.g., intestinal epithelial cells)
-- **Desmosomes:** Spot welds — provide mechanical strength (e.g., cardiac muscle)
-- **Gap junctions:** Allow direct cytoplasmic communication between cells (connexins form channels)
-
-#### Key Organelles
-
-**Nucleus:**
-- Nuclear envelope: Double membrane with nuclear pores
-- Nucleoplasm: Gel-like matrix containing chromatin
-- Chromatin: DNA + histone proteins (forms chromosomes when condensed)
-- Nucleolus: Site of rRNA synthesis; disappears during cell division
-
-**Mitochondria:**
-- Double membrane: Outer smooth membrane, inner folded into cristae (increases surface area)
-- Matrix: Contains mitochondrial DNA (circular), ribosomes (70S), Krebs cycle enzymes
-- Cristae: Site of electron transport chain and oxidative phosphorylation
-- Function: ATP production — "powerhouse of the cell"
-- Maternal inheritance (mtDNA transmitted from mother)
-
-**Endoplasmic Reticulum (ER):**
-- **Rough ER:** Ribosome-studded; protein synthesis and modification; continuous with nuclear envelope
-- **Smooth ER:** No ribosomes; lipid synthesis, steroid hormone synthesis, Ca²⁺ storage, detoxification (liver cells)
-- Protein synthesis → rough ER → modification → Golgi apparatus → secretion
-
-**Golgi Apparatus:**
-- Stack of flattened membrane sacs (cisternae)
-- Receives proteins from ER at cis face (forming face)
-- Modifies, sorts, and packages proteins at trans face (maturing face)
-- Forms lysosomes, secretory vesicles, and transport vesicles
-
-**Lysosomes:**
-- Membrane-bound vesicles containing hydrolytic enzymes (acid hydrolases)
-- pH ~5 inside (acidic)
-- Functions: Intracellular digestion (phagocytosis, autophagy), macromolecule recycling
-
-**Cytoskeleton:**
-- **Microfilaments (actin):** 7 nm diameter; cell movement, muscle contraction, cell shape
-- **Intermediate filaments:** 10 nm diameter; mechanical strength (keratin, vimentin, desmin)
-- **Microtubules:** 25 nm diameter; hollow tubes of tubulin; cell division (spindle fibres), intracellular transport (via motor proteins dynein and kinesin)
+#### Cell Cycle Checkpoints
+Cyclin–CDK complexes drive G1 → S (cyclin D/E–CDK2), S progression (cyclin A–CDK2), and G2 → M (cyclin B–CDK1). Checkpoints at **G1/S** (restriction point, Rb phosphorylation), **G2/M** (DNA damage), and **metaphase–anaphase** (spindle attachment) halt division when errors are detected.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-**Detailed Cell Biology for INI CET:**
+#### Ultrastructure Pitfalls in Image-Based MCQs
+Examiner favourites include distinguishing **microvilli** (actin core, brush border on enterocytes) from **stereocilia** (actin, epididymis) and **cilia** (9+2 microtubule axoneme with dynein arms, respiratory epithelium). Centrioles show a **9+0 triplet** pattern; basal bodies anchor cilia; the axoneme itself is 9+2. Mitochondrial cristae house the electron transport chain, while the matrix contains TCA enzymes and its own translational machinery, supporting the endosymbiotic theory.
 
-#### The Cell Membrane — Beyond the Basics
+#### Linking Cell Biology to Pathology
+- **Lysosomal storage diseases**: Tay-Sachs (hexosaminidase A), Gaucher (glucocerebrosidase), Pompe (acid α-glucosidase).
+- **Mitochondrial disorders**: MELAS, Leber hereditary optic neuropathy — inherited via maternal mtDNA.
+- **Cancer**: loss of G1/S checkpoint (p53, Rb) and overexpression of cyclin D permit unchecked proliferation.
+- **Stem cell potency**: totipotent (zygote, morula) → pluripotent (inner cell mass, ESCs) → multipotent (HSCs) → oligopotent (myeloid) → unipotent (spermatogonia).
 
-**Membrane Protein Functions:**
-1. **Transport proteins:** Channels (ion channels, aquaporins for water), carriers (facilitated diffusion or active transport)
-2. **Enzymatic activity:** Membrane-bound enzymes (e.g., peptidases in brush border)
-3. **Receptors:** Bind signalling molecules (hormones, neurotransmitters) — triggers intracellular response
-4. **Cell adhesion:** CAMs (cell adhesion molecules) — selectins, integrins, Ig superfamily
-5. **Identity markers:** Glycoproteins and glycolipids on cell surface (glycocalyx) — important for immune recognition
+#### Quantitative Cell Physiology
+The **Nernst equation** gives the equilibrium potential: E = (RT/zF) ln([ion]_out/[ion]_in). At 37 °C, RT/F ≈ 26.7 mV, so E ≈ 61.5/z · log([ion]_out/[ion]_in) mV. **Van 't Hoff osmotic pressure** π = iMRT predicts water shift in isotonic, hypotonic, and hypertonic solutions, and explains crenation and haemolysis.
 
-**Types of Membrane Transport:**
-- **Osmosis:** Diffusion of water across a semipermeable membrane
-- **Tonicity:** Isotonic (equal solute concentration), hypertonic (higher solute), hypotonic (lower solute)
-  - Animal cells in hypertonic solution → crenation (shrinkage)
-  - Plant cells in hypertonic solution → plasmolysis (cell membrane pulls away from cell wall)
-  - Plant cells in hypotonic solution → turgidity (full rigidity); animal cells in hypotonic → lysis
-- **Bulk transport:** Vesicle-mediated — endocytosis (phagocytosis, pinocytosis, receptor-mediated) and exocytosis
+#### Common Mistakes
+- Calling the nuclear envelope "single-membrane" — it is a double membrane perforated by **nuclear pore complexes**.
+- Assuming the Golgi synthesises proteins — it modifies and packages them.
+- Confusing heterochromatin (condensed, inactive) with euchromatin (dispersed, active).
+- Forgetting that lysosomal enzymes require V-type H⁺-ATPase–maintained acidity.
 
-#### The Cytoskeleton in Detail
+#### Practice Prompts
+1. A plasma cell shows abundant parallel membranes studded with ribosomes. Identify the organelle, name one secretory product, and state the destination pathway.
+2. An image shows a centriole in cross-section surrounded by microtubules radiating to the cell cortex. Name the arrangement and one functional consequence of its disruption.
 
-**Motor Proteins:**
-- **Dynein:** Moves cargo toward minus end of microtubules (retrograde transport); also forms axonemal dynein in cilia/flagella
-- **Kinesin:** Moves cargo toward plus end of microtubules (anterograde transport)
-- **Myosin:** Works with actin filaments; muscle contraction (thick filament); also involved in cytokinesis and cell migration
+## Continue your study
 
-**Centrosome and Centrioles:**
-- Centrosome: Main microtubule-organising centre (MTOC) in animal cells; contains pair of centrioles
-- Centrioles: Barrel-shaped structures; form basal bodies of cilia and flagella; participate in organisation of spindle apparatus during cell division
+- **[View this topic in your INI CET (AIIMS PG) roadmap](/roadmap/?exam=ini-cet&duration=1mo)** — see where "Cell Biology" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ini-cet&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[INI CET (AIIMS PG) exam overview](/exams/ini-cet/)** — pattern, eligibility, and syllabus
+- **[All Anatomy notes](/notes/ini-cet/anatomy/)** — browse sibling topics in this subject
 
-**Cell Division:**
-- **Mitosis:** Somatic cell division — produces two identical daughter cells
-  - Stages: Prophase → Metaphase → Anaphase → Telophase → Cytokinesis
-  - Chromosomes align at metaphase plate during metaphase
-  - Separated sister chromatids move to opposite poles during anaphase
-- **Meiosis:** Germ cell division — produces four genetically unique haploid gametes
-  - Two rounds of division: Meiosis I (homologous chromosome pairs separate) + Meiosis II (sister chromatids separate)
-
-**Apoptosis vs Necrosis:**
-- **Apoptosis:** Programmed cell death — energy-dependent, cell shrinks, nuclear condensation, membrane blebbing, phagocytosis (no inflammation)
-  - Triggered by: DNA damage, growth factor withdrawal, Fas ligand, mitochondrial pathway (cytochrome c release)
-  - Caspase cascade (cysteine-aspartic proteases) — initiator caspases (8, 9) → executioner caspases (3, 6, 7)
-- **Necrosis:** Uncontrolled cell death — energy-independent, cell swells, membrane rupture, inflammation
-
-**Cell Cycle Checkpoints:**
-- G1 checkpoint (Restriction point): Checks cell size, nutrients, DNA integrity before S phase
-- G2/M checkpoint: Ensures DNA replication is complete before mitosis
-- Spindle assembly checkpoint: Ensures all chromosomes are properly attached to spindle before anaphase
-
-**Cancer and Cell Cycle:**
-- Carcinogenesis involves loss of cell cycle control
-- Oncogenes (e.g., RAS, MYC) — promote cell proliferation when activated
-- Tumour suppressor genes (e.g., p53, RB) — normally inhibit proliferation; loss of function leads to uncontrolled growth
-- p53: "Guardian of the genome" — arrests cell cycle at G1/S checkpoint, promotes DNA repair, triggers apoptosis if DNA damage is irreparable
-
-**Special Cell Types:**
-- **Stem cells:** Self-renewal + differentiation potential; totipotent (zygote), pluripotent (ESC), multipotent (adult stem cells)
-- **Neurons:** Highly specialised; amitotic (cannot divide in adults); longest cells can be up to 1 metre
-- **Red blood cells:** Enucleated (no nucleus); biconcave disc shape; contain haemoglobin; survive ~120 days; produced in bone marrow
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

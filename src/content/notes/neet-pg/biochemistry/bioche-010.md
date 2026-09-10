@@ -8,7 +8,7 @@ topicName: Nucleic Acid Structure
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-04"
+lastUpdated: "2026-09-10"
 ---
 
 # Nucleic Acid Structure
@@ -16,68 +16,90 @@ lastUpdated: "2026-07-04"
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-- **Nucleic acids** are polymers of **nucleotides** joined by **3′-5′ phosphodiester bonds**. Each nucleotide = nitrogenous **base** + **pentose sugar** (deoxyribose in DNA, ribose in RNA) + **phosphate** at the 5′-carbon.
-- DNA stores genetic information as a **right-handed B-form double helix** with **antiparallel**, **complementary** strands. RNA is usually **single-stranded** and folds into hairpins, stem-loops, and cloverleaves.
-- **Watson–Crick base pairing**: **A=T (2 H-bonds)** and **G≡C (3 H-bonds)**. In RNA, **U replaces T** and pairs with A.
-- **Chargaff's rule**: %A = %T and %G = %C; total purines = total pyrimidines.
-- **Tm** (DNA melting temperature) **increases** with higher GC content and longer strand length.
-- **A260/A280 ≈ 1.8** for pure DNA, **≈ 2.0** for pure RNA — a key purity check.
-- NEET PG hot points: **nucleosome composition** (octamer of H2A, H2B, H3, H4 + ~147 bp DNA), **A/B/Z-DNA conformations**, and the **hyperchromic effect** at 260 nm on denaturation.
+**Nucleic acids** are linear polymers of **nucleotides** — each made of a **pentose sugar** (β-D-deoxyribose in DNA, β-D-ribose in RNA), a **nitrogenous base**, and a **5′-phosphate** group joined by **3′→5′ phosphodiester bonds**. A **nucleoside** lacks the phosphate (base + sugar only). Two strands wind into the **Watson–Crick B-form double helix**: right-handed, **antiparallel**, **~10.5 bp per turn**, **3.4 Å rise/bp**, **~20 Å diameter**.
 
----
+- **A=T** (2 H-bonds), **G≡C** (3 H-bonds) — explains Chargaff's rule (A=T, G=C).
+- DNA quantitation: **A260 of 1.0 = 50 µg/mL (dsDNA)**, 40 µg/mL (RNA), 33 µg/mL (ssDNA).
+- Tm formula (Wallace–Marmur): **Tm = 69.3 + 0.41·(%G+C) − 650/length(bp)** — higher GC = higher Tm.
+
+| Parameter | Value |
+| --- | --- |
+| B-DNA bp/turn | 10.5 |
+| Rise/bp | 3.4 Å |
+| Helix diameter | 20 Å |
+| H-bonds in G≡C | 3 |
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-#### Nucleotide Architecture
-A nucleotide has three covalently linked components: a **nitrogenous base** (purine — A, G; or pyrimidine — C, T, U), a **pentose sugar** (β-D-deoxyribose in DNA, β-D-ribose in RNA — the 2′-OH of ribose is the single chemical difference), and one or more **phosphate groups** esterified to the 5′-CH₂OH of the sugar. The **N-glycosidic bond** joins C1′ of the sugar to N9 (purines) or N1 (pyrimidines).
+#### Building blocks: nucleotide vs nucleoside
 
-#### The Phosphodiester Backbone
-Successive nucleotides are joined between the **3′-OH of one sugar and the 5′-phosphate of the next**, forming a **3′→5′ phosphodiester bond**. This gives every nucleic acid a **directionality** with distinct 5′-phosphate and 3′-hydroxyl termini — the basis for polymerase template reading (3′→5′ template, 5′→3′ synthesis).
+A **nucleoside** = base + N-glycosidic bond to **C1′** of the pentose. Adding a **phosphate at C5′** (or C3′) makes it a **nucleotide**. **Purines** (adenine, guanine) have a fused pyrimidine–imidazole ring; **pyrimidines** (cytosine, thymine, uracil) have one ring. The sugar determines identity: 2′-deoxyribose → DNA; ribose (2′-OH) → RNA.
 
-#### DNA Double Helix
-Native DNA adopts the **B-form**: right-handed, ~10.5 bp per turn, ~3.4 Å rise per bp, antiparallel strands, and **Watson–Crick hydrogen bonds** (A=T: 2 H-bonds between N6-H of A and O4 of T, plus N1 of A and N3 of T; G≡C: 3 H-bonds). The helix shows a **major groove** (wide, information-rich; recognized by proteins) and a **minor groove** (narrow). **Chargaff's rules** (%A=%T, %G=%C) were the empirical clue Watson and Crick used to deduce complementarity.
+#### DNA vs RNA at a glance
 
-#### RNA Variants
-RNA is typically single-stranded but folds via intra-strand base pairing into **hairpins**, **bulges**, **internal loops**, and **pseudoknots**. Functional shapes include the **tRNA cloverleaf** (L-shaped tertiary structure with anticodon loop, D-loop, TΨC loop, acceptor stem) and the **rRNA** components of the ribosome.
+| Feature | DNA | RNA |
+| --- | --- | --- |
+| Sugar | 2′-deoxyribose | Ribose (2′-OH) |
+| Bases | A, G, C, T | A, G, C, U |
+| Strands | Double, antiparallel | Usually single |
+| Helix form | B-DNA (physiological) | A-form helices in duplexes |
+| Stability | Alkali-resistant | Hydrolyses in alkali (2′-OH attack) |
 
-#### Helical Forms and Chromatin
-A-DNA (dehydrated, right-handed, 11 bp/turn) and **Z-DNA** (left-handed, zig-zag backbone, alternating syn-anti glycosidic bonds at GC repeats) are alternative conformations. In eukaryotes, ~**147 bp of DNA wraps 1.65 turns around a histone octamer (H2A, H2B, H3, H4)₂** forming the **nucleosome core particle**; **H1** binds **linker DNA** (20–80 bp) to compact chromatin.
+#### Polarity and the phosphodiester backbone
 
-#### Melting and Quantification
-Heating dsDNA disrupts base stacking and pairing → **hyperchromic shift** at **260 nm** (absorbance rises ~30–40%). **Tm** is the temperature at which 50% is denatured. Approximation: **Tm (°C) = 69.3 + (41 × GCₙ/n) − (650/L)**, where n = total bases, L = length of shortest strand. Purity is checked by **A260/A280 ≈ 1.8 (DNA)** or **≈ 2.0 (RNA)**; protein contamination lowers the ratio.
+Nucleic acids are synthesised and read **5′→3′**. Each new nucleotide adds its **5′-α-phosphate** to the **3′-OH** of the previous sugar, releasing pyrophosphate. The two antiparallel strands of DNA run one **5′→3′** and the other **3′→5′**, producing the **major groove (wide, info-rich)** and **minor groove (narrow)** that proteins read.
 
-#### Common Exam Traps
-- A=T has **2 H-bonds**, G≡C has **3 H-bonds** (often swapped in options).
-- **Chargaff's rule is for dsDNA**; ssRNA and ssDNA violate it.
-- **Directionality**: template is read 3′→5′, new strand synthesized 5′→3′.
-- The **2′-OH** distinguishes RNA from DNA and makes RNA susceptible to alkaline hydrolysis.
+#### Forces stabilising the double helix
 
----
+- **Watson–Crick H-bonds** between complementary bases.
+- **Base stacking** (van der Waals + hydrophobic) — contributes ~⅔ of helix stability.
+- **Electrostatic shielding** of the polyanionic backbone by **Mg²⁺** and polyamines (spermine, spermidine).
+
+#### RNA folds
+
+Single-stranded RNA folds back on itself into **hairpins, internal loops, bulges, and cloverleaves** (e.g., tRNA). It can form **A-form duplexes**, **triple-base interactions**, and **Hoogsteen pairs** (e.g., G·U wobble in codon–anticodon pairing).
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-#### Non-Canonical Pairing and Topology
-Beyond Watson–Crick, **Hoogsteen base pairing** (N7 and C6=O of purine pair with N3 of pyrimidine) forms **triplex DNA** (H-DNA) at mirror-repeat sequences and is exploited in **anticodon–codon recognition** in some tRNA–mRNA interactions. **Palindromic sequences** (e.g., GAATTC for EcoRI) read the same 5′→3′ on both strands and are the recognition sites of restriction endonucleases. **Supercoiling** — introduced by **topoisomerases** (Type I: single-strand nick; Type II/gyrase: double-strand pass) — compacts DNA and regulates access for replication and transcription.
+#### Helix geometries and the Tm formula
 
-#### Chromatin Hierarchy and Epigenetic Cues
-The nucleosome octamer — **(H2A, H2B, H3, H4)₂** — is assembled with the help of **chaperones** (CAF-1, ASF1). Nucleosomes fold into **30 nm fibers** (solenoid or zigzag model), loops of **~50–200 kb** tethered by **SMC complexes (cohesin, condensin)**, and ultimately mitotic chromosomes. **Histone modifications** (acetylation of H3/H4 lysines, H3K4/H3K9 methylation, phosphorylation of H2A.X at DNA damage) modulate accessibility and form the basis of the **histone code**.
+Three biologically meaningful helices exist. **A-DNA** (dehydrated, right-handed, 11 bp/turn, 2.6 Å rise) appears in RNA·RNA and RNA·DNA duplexes; **Z-DNA** (left-handed, zig-zag phosphate backbone, 12 bp/turn) forms in alternating purine–pyrimidine sequences with cytosine methylation. The Wallace–Marmur equation estimates the **melting temperature (Tm)** at which half the DNA denatures:
 
-#### Worked Micro-Example (Tm)
-A 20-bp oligonucleotide has 8 G·C pairs and 12 A·T pairs. GCₙ = 8, n = 20, L = 20.
-**Tm ≈ 69.3 + (41 × 8/20) − (650/20) = 69.3 + 16.4 − 32.5 = 53.2 °C**.
-Increasing GC content to 14 (only 6 A·T): **Tm ≈ 69.3 + 28.7 − 32.5 = 65.5 °C** — illustrates the dominant effect of GC triplets on helix stability.
+- **Tm (°C) = 69.3 + 0.41·(%G+C) − 650/length(bp)**
 
-#### Quantification Math
-Using **Beer–Lambert: A = εcl**, with ε₂₆₀ for dsDNA ≈ 50 µg/mL per 1.0 A₂₆₀ unit, a sample reading A₂₆₀ = 0.40 contains **20 µg/mL dsDNA**. A₂₆₀/A₂₈₀ < 1.8 indicates **protein/phenol contamination**; > 2.0 for DNA suggests **RNA carryover**.
+Each additional **1% GC** raises Tm by ≈ 0.41 °C because G≡C carries **3 H-bonds** versus 2 in A=T. Denaturation is monitored by the **hyperchromic effect** — unstacking of bases raises **A260** by 30–40%; renaturation follows **Cot curve** kinetics, where **Cot½** is proportional to genome complexity.
 
-#### NEET PG Strategy
-Nucleic acid structure carries ~**3% weightage** in Biochemistry, with at least 1–2 MCQs every year. Favourite themes: nucleosome composition, A/B/Z-DNA distinguishing features, Tm dependence on GC content, Chargaff's rules with numeric application, and Beer–Lambert-based quantification. High-yield adjacent links: **DNA replication** (topoisomerases, Okazaki fragments), **transcription** (promoter grooves recognized by σ factors), and **nucleic acid therapeutics** (antisense oligonucleotides targeting mRNA).
+#### Worked micro-example
 
-#### Practice Prompts
-1. A researcher measures A₂₆₀ = 0.25, A₂₈₀ = 0.14 for a DNA sample. Calculate concentration (µg/mL) and comment on purity.
-2. Compare B-DNA, A-DNA, and Z-DNA on handedness, bp/turn, groove geometry, and physiological context.
+A 1000 bp plasmid has **45% GC**. Apply the formula: **Tm = 69.3 + (0.41 × 45) − (650/1000) = 69.3 + 18.45 − 0.65 ≈ 87.1 °C**. Increasing GC to 60% (with same length): **Tm = 69.3 + 24.6 − 0.65 = 93.3 °C** — a 6 °C jump from GC alone, which is why GC-rich promoters and PCR primers are selected for high-fidelity amplification.
+
+#### Clinical and exam integration
+
+- **Nucleoside analogues** as antivirals/antimetabolites: **azidothymidine (AZT)** — chain terminator in HIV reverse transcriptase; **acyclovir** — phosphorylated by viral thymidine kinase, inhibits HSV DNA polymerase; **5-fluorouracil** — converted to 5-FdUMP, blocks thymidylate synthase.
+- **Chromatin packaging**: nucleosome core = **(H2A, H2B, H3, H4)₂ octamer + 147 bp DNA**; linker DNA (~20–80 bp) plus **H1** forms the 30 nm fibre; higher-order loops anchor to the **nuclear scaffold**.
+- **Genome metrics**: human diploid cell ≈ **6.6 pg DNA**, haploid genome ≈ **3 × 10⁹ bp**; 1 bp of dsDNA ≈ **660 Da** (2 × 330 Da per strand).
+
+#### Common mistakes
+
+- Calling the RNA sugar "deoxyribose" or writing thymine in RNA.
+- Swapping G≡C H-bond number to 2, or assigning 3 to A=T.
+- Reporting B-DNA as 12 bp/turn with 2 nm rise.
+- Using the wrong **A260 extinction coefficient** (dsDNA 50, RNA 40, ssDNA 33 µg·mL⁻¹·cm⁻¹).
+
+#### Practice prompts
+
+1. A 500 bp PCR product has 50% GC. Calculate its predicted Tm and explain why a primer with 70% GC needs a higher annealing temperature.
+2. A patient sample gives A260 = 0.80 in a 1 cm cuvette. Compute the dsDNA concentration and justify why an A260/A280 ≈ 1.8 is required before downstream PCR.
 
 ---
+
+## Continue your study
+
+- **[View this topic in your NEET PG roadmap](/roadmap/?exam=neet-pg&duration=1mo)** — see where "Nucleic Acid Structure" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=neet-pg&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NEET PG exam overview](/exams/neet-pg/)** — pattern, eligibility, and syllabus
+- **[All Biochemistry notes](/notes/neet-pg/biochemistry/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

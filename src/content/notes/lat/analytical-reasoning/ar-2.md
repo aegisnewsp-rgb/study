@@ -24,88 +24,74 @@ diagramPrompt: "Educational diagram illustrating Statement and Assumptions with 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-A **Statement** is a given fact or opinion; an **Assumption** is the unstated premise the speaker takes for granted. In LAT, you pick the option whose falsity would break the statement. The standard test: negate the option, and the statement should collapse. If it does, that option is the **necessary assumption**.
+A **statement** is a given fact, claim, or opinion. An **assumption** is the unstated premise the speaker treats as true for the statement to hold. In LAT Analytical Reasoning, you pick the assumption whose negation collapses the statement.
 
-- The assumption is *hidden*, not spoken — it sits behind words like **should**, **must**, **ought to**, **let us**.
-- An assumption is **descriptive** (what is believed), not **prescriptive** (what to do).
-- Do not confuse it with a *conclusion* (follows from assumption) or a *course of action* (tells you what to do).
-- LAT Analytical Reasoning carries 4% weight; Statement–Assumption items appear as 1–3 MCQs each paper.
+- An assumption is *necessary*, not merely *possible* — test by negating it.
+- Trigger words that signal a hidden assumption: **should, must, ought to, let us, assuming that**.
+- Distinguish assumption from **conclusion** (what is drawn) and **course of action** (what should be done).
 
-| Quick trigger | What it hides |
+| Term | What it is |
 | --- | --- |
-| "should / must / ought to" | A value judgment taken as given |
-| "let us…" | A goal the speaker presumes the reader shares |
-| "if… then…" | A conditional premise assumed true |
-
----
+| Statement | The stated claim or fact |
+| Assumption | Hidden belief that *must* be true for the statement to stand |
+| Conclusion | What logically follows once the assumption is granted |
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-#### Definition and Structure
+#### Definition and Logical Role
 
-A Statement is a sentence expressing a fact, opinion, or proposal. An Assumption is a belief or premise that must hold true for that statement to make sense. The logical chain runs **Statement → Assumption(s) → Conclusion/Inference**. The assumption is never the conclusion; it is the bridge that lets the conclusion be drawn.
+An assumption is a **suppressed premise** — a proposition the author takes for granted but never voices. It sits between the stated fact and the inference. If you remove the assumption, the statement loses its persuasive force. LAT questions present one statement and four to five candidate assumptions; you must mark the one that is *necessarily* relied upon.
 
-#### Necessary vs Possible Assumption
+#### The Necessity Test (Negation Method)
 
-LAT requires the *necessary* assumption — the one without which the statement fails. A merely *possible* assumption may be true but does not have to be. Apply the **negation test**: assume the option is false; if the statement falls apart, the option is necessary.
+Apply this three-step test whenever you evaluate an option:
 
-#### Common Triggers and Hidden Beliefs
+1. Identify the candidate assumption P.
+2. Temporarily assume **not-P** is true.
+3. Check whether the original statement becomes invalid, false, or meaningless.
 
-Look for modal verbs (**should, must, ought to, let us**) and conditionals (**if… then**). These markers reveal an unstated value, goal, or fact the speaker presumes the audience accepts.
+If not-P destroys the statement, P is a **necessary assumption** and is the correct answer. If the statement survives without P, then P is merely a *possible* or *strengthening* assumption — reject it.
 
-#### Distinguishing Assumption from Cousins
+#### Trigger Words and Hidden Value Judgments
 
-- **Assumption vs Conclusion**: conclusions are *drawn*; assumptions are *taken for granted*.
-- **Assumption vs Course of Action**: actions prescribe behaviour; assumptions describe belief.
-- **Assumption vs Inference**: inferences are deduced *after* the assumption; assumptions exist *before* reasoning starts.
+Words such as **should, must, ought, let us** introduce an unspoken value judgment. For example, "The government should ban single-use plastic" hides the assumption that plastic harms the environment. A candidate answer that simply restates the ban is not an assumption — it is a course of action.
 
-#### Exam Pattern in LAT
+#### Common Distractors in LAT Options
 
-| Feature | LAT Specification |
+| Option type | Why it is wrong |
 | --- | --- |
-| Section | Analytical Reasoning (4% of paper) |
-| Item type | MCQ — pick the valid assumption |
-| Options per item | 3–5 |
-| Items per paper | 1–3 on this sub-type |
-| Marking | Single best answer; no negative marking |
-
-- Read the statement twice; circle trigger words before scanning options.
-- Apply the negation test mentally to each option in turn.
-- Eliminate options that recommend action or restate the statement.
-
----
+| Restatement of the statement | Adds no hidden premise |
+| Course of action | Prescribes behaviour, not a belief |
+| Conclusion drawn from the statement | Follows the statement, does not support it |
+| Plausible but not necessary | Could be true without the statement depending on it |
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-#### The Negation Test in Practice
+#### Worked Mechanism — Negating the Assumption
 
-Take the statement: *"Private schools ought to reduce fees because education is a right, not a privilege."* Hidden assumption: *education is genuinely treated as a right in society.* Negate it — *education is treated as a privilege* — and the word "ought to" loses force. The assumption is necessary.
+Statement: *"Private schools should reduce fees because online learning costs less."*
+Candidate: *"Online learning is more affordable than classroom learning."*
 
-#### Edge Cases and Traps
+Negate the candidate: *Online learning is not more affordable than classroom learning.* The justification "because online learning costs less" now has no factual anchor, so the recommendation loses its basis. The candidate is therefore a **necessary assumption** and is correct.
 
-- **Paraphrase trap**: an option that merely rewords the statement is not an assumption.
-- **Action trap**: any option beginning with verbs like *introduce, ban, appoint, set up* is a course of action, not an assumption.
-- **Cultural presupposition**: statements about family, religion, or authority often embed social norms as hidden premises.
-- **Strong vs weak modal**: *must* signals a near-factual assumption; *should* signals a value-based one. Both count, but they need different justifications.
+#### Edge Cases LAT Tests
 
-#### Connection to Adjacent Topics
+- **Necessary vs sufficient assumptions:** LAT only tests necessary ones. A sufficient assumption would guarantee the conclusion but is rarely required.
+- **Suppressor assumptions:** hidden cultural or social presuppositions (e.g., parental authority, rule of law, merit-based reward). These appear in 2–3 options to test whether you spot unstated background beliefs.
+- **Compound statements:** when the statement has two clauses joined by "and/because", the valid assumption must support the *combined* claim, not just one half.
 
-Statement–Assumption shares DNA with **Statement–Conclusion** (test what follows) and **Statement–Argument** (test the logical strength). Mastering the negation test across all three lifts your Logical Reasoning score as a whole.
+#### High-Yield Mistakes
 
-#### Common Mistakes
-
-1. Picking a "reasonable" option that is not logically required.
-2. Confusing the speaker's *conclusion* with the *premise* they are relying on.
-3. Selecting a *course of action* disguised with words like "should be done" — that is action, not belief.
+1. Choosing an inference phrased as "therefore…" — that is a conclusion, not an assumption.
+2. Confusing "the speaker believes X" (assumption) with "the listener should do X" (course of action).
+3. Marking an option that is true in real life but **not logically required** by the statement.
 
 #### Practice Prompts
 
-1. *"Let us plant a tree on every birthday."* Identify the assumption and justify it using the negation test.
-2. *"Companies must disclose carbon emissions."* Distinguish the necessary assumption from a possible course of action hidden in the options.
-
----
+1. Statement: *"All citizens must vote in national elections."* Identify the necessary assumption from: (a) voting is a right, (b) voting leads to better governance, (c) voting is a civic duty, (d) elections are held annually.
+2. Statement: *"The company ought to reward its longest-serving employees."* Which option is an assumption and which is a course of action? Justify using the negation test.
 
 ## Continue your study
 

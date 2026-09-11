@@ -24,75 +24,95 @@ diagramPrompt: "Educational diagram illustrating Statement and Assumptions with 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-An **assumption** is the unstated belief that *must* hold true for the given statement to make sense. It is not a conclusion, not an inference, and not a course of action. In LAT Analytical Reasoning, roughly 1–3 MCQs from the 4% weighted section ask you to pick the assumption the speaker is taking for granted.
+In LAT Analytical Reasoning, a **Statement and Assumption** item gives you a short factual or opinionated statement, then asks which unstated premise the speaker *must* believe for that statement to hold. The assumption is hidden — never written — and its falsity would collapse the argument.
 
-**Necessary assumption test:** mentally negate the option. If the statement collapses or becomes baseless, that option is a valid assumption.
+- **Definition:** An assumption is an implicit, taken-for-granted belief that supports the statement; it is **not** a conclusion, inference, or course of action.
+- **Necessary-assumption test:** Mentally negate the option. If the statement breaks down, the option is a valid assumption.
+- **Trigger words** in the statement that signal hidden assumptions: *should, must, ought to, let us, if…then, assuming that*.
+- LAT format: typically 1–3 MCQs, each with 3–5 options, asking you to pick the *necessarily* assumed premise (within the 4% Analytical Reasoning weight).
 
-- An **assumption** is presupposed *before* a conclusion is drawn.
-- An **inference** is deduced *after* an assumption is held.
-- A **course of action** prescribes what *should* be done — descriptive vs prescriptive.
-- Trigger words like *should, must, ought to, let us* flag a hidden value judgment.
+| Term | One-line meaning |
+| --- | --- |
+| Statement | The given fact or opinion |
+| Assumption | Unstated belief required for the statement to hold |
+| Inference | A deduced conclusion drawn *after* the assumption |
+| Course of Action | A prescriptive step — not an assumption |
+
+---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-#### Defining the Trio
+#### Definition and Logical Position
 
-A **statement** carries an explicit claim or opinion. An **assumption** is the silent scaffolding the speaker relies on — remove it and the claim loses its footing. An **inference** is what logically follows once the assumption is accepted.
+An assumption is the **bridge premise** between a statement and any conclusion drawn from it. It is *presupposed* before the listener reasons further. In LAT items, the statement is presented as fact, advice, warning, or recommendation; the assumption is what the speaker takes for granted so that the recommendation makes sense.
 
-#### The Negative Assumption Test
+For example, the statement *"Students should reduce screen time before exams"* hides the assumption that *excess screen time harms exam performance*. Remove that assumption and the advice becomes unmotivated.
 
-To verify an assumption, apply the logical test: assume the opposite of the candidate is true. If negating the option destroys the statement's validity, that option is a necessary assumption. If the statement still stands, the option is merely plausible — and plausible does not qualify.
+#### The Necessary Assumption Test
 
-#### Distinguishing Assumption from Near-Relatives
+Apply the **negation test**: assume the option is false, then check whether the statement still holds. If negating the option makes the statement collapse, the option is a *necessary* assumption.
 
-| Concept | Direction | Example trigger | Test |
-| --- | --- | --- | --- |
-| Assumption | Supports the claim | "Education must improve" → assumes education is currently poor | Negate it; claim must collapse |
-| Conclusion | Follows from claim | "Therefore, results will rise" | Does it follow logically? |
-| Course of Action | Prescribes remedy | "The ministry should raise salaries" | Does it suggest doing something? |
-| Inference | Deduced outcome | "So fewer dropouts will occur" | Does it extend beyond the claim? |
+- Step 1: Read the statement and identify any recommendation, evaluation, or claim.
+- Step 2: List candidate assumptions in your head.
+- Step 3: Negate each candidate. If the statement loses meaning, the candidate is the answer.
+- Step 4: Reject options that are merely *possible*, *likely*, or *restated* versions of the statement.
 
-#### Common LAT Traps
+#### Distinguishing Assumption from Look-Alikes
 
-- Marking a *restatement* (paraphrase) of the original as an assumption.
-- Choosing an option that is merely *possible* rather than *necessarily* true.
-- Reading a recommendation ("the government should...") as an assumption instead of a course of action.
-- Ignoring cultural or social presuppositions baked into statements about authority, fairness, or tradition.
+| Look-alike | Why it is NOT an assumption |
+| --- | --- |
+| Conclusion | Follows from the assumption, not the source |
+| Inference | Deduced *after* reasoning; assumption precedes reasoning |
+| Course of Action | Prescribes what *should be done*; assumption describes what *is believed* |
+| Paraphrase | Restates the statement without adding a hidden premise |
+
+#### High-Yield Triggers on LAT
+
+Watch for these markers in the statement, because they almost always carry a hidden value judgment:
+- *should, must, ought to, need to* — recommend a norm, implying a goal.
+- *if…then, assuming that, provided that* — frame a conditional, implying a cause-effect belief.
+- *let us, why don't we* — propose collective action, implying shared benefit.
+
+---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-#### The Logical Pipeline
+#### Edge Cases and Suppressor Assumptions
 
-Statements flow in one direction: **Premise → Assumption → Inference → Conclusion**. The assumption sits between what is said and what is drawn out — it is the load-bearing belief the speaker never articulates. In LAT MCQs, the correct answer is always the *load-bearing* belief, not the conclusion resting on it.
+Some valid assumptions are **negative suppressors** — they block alternative explanations rather than directly supporting the conclusion. Example: *"Use X-brand filters to purify water"* assumes that *X-brand filters actually purify water*. A suppressor of this type is rarely obvious; the negation test catches it because denying the assumption invalidates the advice.
 
-#### Edge Cases Examiners Exploit
+Another edge case is the **value assumption**, common in policy statements: *"The university should subsidise hostels"* assumes that *subsidised hostels serve a legitimate educational goal*. Such items test whether you recognise an unstated value, not just a factual premise.
 
-| Edge case | What happens | How to spot it |
-| --- | --- | --- |
-| Suppressor assumption | Hides an alternative explanation | Statement reads strong, but option masks a competing cause |
-| Negative-trigger assumption | Triggered by "should not" / "must not" | Negation flips the moral direction |
-| Cultural presupposition | Relies on shared social norm | Statement about "parents", "elders", "national interest" hides a value premise |
-| Paraphrase disguised as premise | Option merely rewrites the statement | Substitute option into the statement — meaning unchanged |
+#### Common Traps on LAT
 
-#### Worked Mechanism
+1. Choosing an option that is *plausible* but not *necessary* — examiners plant attractive distractors that sound reasonable but are not forced by the statement.
+2. Treating a recommendation as an assumption — recommendations are courses of action, not presuppositions.
+3. Selecting an option that *adds new information* beyond what the speaker must believe.
+4. Ignoring cultural presuppositions, e.g., assuming parental authority is accepted in a statement about family discipline.
+5. Confusing assumption with inference when the statement explicitly draws a conclusion.
 
-Statement: *"Private schools should be banned because they widen the inequality gap."*
+#### Adjacent Topics Worth Linking
 
-Possible options:
-1. Inequality is undesirable. *(assumption — must hold)*
-2. Banning will reduce inequality. *(assumption — also load-bearing)*
-3. Public schools perform better. *(assumption — implicit)*
-4. Parents will prefer public schools. *(not necessary)*
-5. The government should fund education more. *(course of action)*
+- **Statement and Conclusion** — assumes you have already separated hidden premises from drawn conclusions.
+- **Statement and Course of Action** — assumes you can detect prescriptive verbs (*should, must*) versus descriptive claims.
+- **Argument Validity** — depends on correctly identifying whether an assumption is *necessary* or merely *sufficient*.
 
-Apply the negation test: if inequality is *not* undesirable, the call to ban collapses. Option 1 is necessary. Option 2 is also necessary — without it, the remedy is unmotivated. Both can appear across different LAT items.
+#### Worked Micro-Example
+
+Statement: *"Employees should be allowed flexible hours to improve productivity."*
+
+- Candidate A: *Flexible hours increase productivity.* — Negate it → the advice loses its rationale. **Valid assumption.**
+- Candidate B: *Employees prefer flexible hours.* — Negate it → the advice can still stand (employers may impose it). Not necessary.
+- Candidate C: *Productivity matters to the company.* — Negate it → advice becomes meaningless. Also valid; choose the *most directly* required one (A).
 
 #### Practice Prompts
 
-1. Identify the assumption: *"Morning walks should be encouraged as they reduce heart disease."* — Options should test whether walking's health benefit is presupposed and whether the authority recommending it is trusted.
-2. Spot the trap: a statement concludes with a recommendation — reject any option phrased as another recommendation (course of action), and select the unstated belief supporting the original recommendation.
+1. Statement: *"The city should ban plastic bags to reduce pollution."* Identify the necessary assumption and one strong distractor.
+2. Statement: *"If students attend coaching, they will pass the LAT."* Spot the hidden causal assumption and explain why "Coaching is affordable" is *not* necessary.
+
+---
 
 ## Continue your study
 

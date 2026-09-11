@@ -8,7 +8,7 @@ topicName: "IJMB Registration, Examination Process and University Admission Stra
 weight: 3
 country: nigeria
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-09-10"
+lastUpdated: "2026-09-11"
 ---
 
 # IJMB Registration, Examination Process and University Admission Strategy
@@ -16,82 +16,84 @@ lastUpdated: "2026-09-10"
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-IJMB (Interim Joint Matriculation Board) is a one-year A'Level programme approved by the **National Universities Commission (NUC)** that lets candidates enter Nigerian universities at **200-level via Direct Entry (DE)**. You need five O'Level credits (including English and Mathematics) in not more than two sittings, then register on the IJMB portal with a scratch card PIN, pick three subjects that match your target faculty, sit the examinations (in most keys March/April), and finally combine your IJMB score with a **JAMB DE score** in the standard **60/40 aggregation**.
+IJMB (Interim Joint Matriculation Board) is a one-year advanced-level programme approved by the NUC as a Direct Entry route into 200-level of Nigerian universities. To qualify, a candidate needs five O'Level credits (including English and Mathematics) in at most two sittings, registers online via the IJMB portal with a scratch card PIN, studies three principal subjects aligned with the target degree, sits the IJMB examinations (in most keys March/April), and also purchases the JAMB Direct Entry (DE) form.
 
-- **Required O'Level credits:** 5, including English + Maths, max 2 sittings (WAEC/NECO/NABTEB).
-- **Grade-to-point scale:** A=9, B=8, C=6, D=4, E=2 (points below E = 0).
-- **Aggregate formula:** (IJMB Score × 0.60) + (JAMB DE Score × 0.40).
-- **IJMB alone is not enough:** without the JAMB DE form, no DE admission is possible.
+| Step | Action |
+| --- | --- |
+| 1 | Confirm O'Level eligibility (5 credits incl. English + Maths, ≤2 sittings) |
+| 2 | Pick 3 IJMB subjects matching target faculty |
+| 3 | Register on ijmb.com.ng, upload passport, print slip |
+| 4 | Write IJMB exams at an accredited centre |
+| 5 | Buy JAMB DE form, select IJMB as A'Level, choose university |
+
+**Key fact:** Most universities aggregate IJMB and JAMB DE as **Aggregate = (IJMB × 0.60) + (JAMB DE × 0.40)**, so both scores matter.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-#### Eligibility and O'Level Baseline
+#### Eligibility and Subject Combination
 
-Every IJMB candidate must hold **five O'Level credit passes** in WAEC, NECO, or NABTEB — including **English Language and Mathematics** — obtained in **not more than two sittings**. Candidates who are deficient in any required credit are disqualified at screening even if they ace the IJMB papers.
-
-#### Subject Combination Logic
-
-You choose **three IJMB subjects** that must align with the intended degree. Medicine requires Physics, Chemistry, and Biology; Law accepts Government, History, and either Literature or Economics; Engineering needs Mathematics, Physics, and Chemistry. The NUC publishes a **list of restricted combinations** that cannot be taken together (for example, Economics with Government and History simultaneously is barred in some sessions).
-
-#### Registration Procedure
-
-Registration is online at **ijmb.com.ng**. You purchase a scratch card PIN, fill in bio-data and O'Level details, upload a passport photograph, select three subjects and an **affiliated study centre**, then print a registration slip. Centres must be IJMB-accredited; unaccredited centres will not produce a valid transcript.
+IJMB accepts candidates with five O'Level credit passes (WAEC, NECO, or NABTEB), including English Language and Mathematics, obtained in no more than two sittings. The candidate then selects three IJMB principal subjects that must align with the intended university course. Common pairings are Physics, Chemistry, and Biology for Medicine; Economics, Government, and History for Law or Political Science; and Mathematics, Physics, and Chemistry for Engineering.
 
 #### Grade-to-Point Conversion
 
-| Letter Grade | Point Value |
+IJMB uses a fixed letter-grade scale for scoring. The conversions below are used both for individual subject reporting and for the percentage aggregation formula.
+
+| Letter Grade | Points |
 | --- | --- |
 | A | 9 |
 | B | 8 |
 | C | 6 |
 | D | 4 |
 | E | 2 |
-| Below E / Absent | 0 |
+| F / Absent | 0 |
 
-#### Examination and DE Linkage
+The percentage IJMB score is computed as **IJMB Score = (Total Grade Points ÷ Maximum Possible Points) × 100**, with the maximum being 27 points across three subjects (9 × 3).
 
-Written papers run at designated **IJMB centres** (in standard papers March/April). After results are released, you **must** buy and sit the **JAMB DE form**, selecting IJMB as your A'Level qualification, then list first, second, and third university choices on the JAMB portal. Universities compute the final DE score using the 60/40 weighting.
+#### Registration Procedure
 
-- Aim for A's in all three principal subjects to clear competitive cut-offs.
-- Apply early through JAMB CAPS — late uploads in many papers miss first-batch admissions.
-- Request your **transcript** from the affiliated IJMB centre promptly after release.
+- Buy an IJMB scratch card PIN from an authorised vendor or the portal.
+- Create an account on ijmb.com.ng and complete bio-data plus O'Level details.
+- Select the three IJMB subjects and an affiliated study centre.
+- Upload a passport photograph and print the registration slip.
+- Report physically to the affiliated study centre for clearance.
+
+#### Examination and Admission Linkage
+
+Examinations are held at IJMB-designated centres, in standard papers March or April of the academic session. After results are released, candidates must separately purchase and sit the JAMB Direct Entry form, listing IJMB as the A'Level qualification and naming first, second, and third-choice universities. Most federal and state universities then compute a final score using **Aggregate = (IJMB Score × 0.60) + (JAMB DE Score × 0.40)** and compare it to their DE cut-off.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-#### Score Aggregation Mechanics
+#### Worked Aggregation Example
 
-The final admission score used by most federal and state universities is:
+Suppose a candidate scores A (9), B (8), and C (6) in three IJMB subjects, and obtains 250 out of 400 on JAMB DE (62.5%). 
 
-#### Aggregate = (IJMB Score × 0.60) + (JAMB DE Score × 0.40)
+| Variable | Value | Calculation |
+| --- | --- | --- |
+| IJMB points | 23 / 27 | 9 + 8 + 6 |
+| IJMB Score (%) | 85.19 | (23 ÷ 27) × 100 |
+| JAMB DE Score (%) | 62.50 | (250 ÷ 400) × 100 |
+| Aggregate | 76.11 | (85.19 × 0.60) + (62.50 × 0.40) |
 
-IJMB Score itself is computed as **(Grade Points ÷ Maximum Points) × 100**, where Grade Points = Σ points per subject and Maximum Points = 9 × 3 = 27 if you score A in three subjects. A candidate with grades A (9), B (8), A (9) earns 26/27 × 100 ≈ 96.3, then combined with a JAMB DE of 70 gives 96.3 × 0.6 + 70 × 0.4 = 85.78.
+An aggregate of 76.11 in standard papers clears competitive DE cut-offs in faculties like Engineering, Medicine, and Law at most federal universities.
 
-#### Edge Cases and Traps
+#### Common Mistakes and Edge Cases
 
-| Scenario | Consequence |
-| --- | --- |
-| Subject combination mismatches target faculty | DE application rejected at screening |
-| Only two sittings but missing a credit | Ineligible until O'Level is rebuilt |
-| IJMB passed but JAMB DE not purchased | No admission possible — IJMB result is dormant |
-| Registering with a non-accredited "coordinator" | Transcript invalid, possible blacklist |
-| Re-sitting after a fail | Limited attempts permitted per IJMB regulations |
-| Applying to a private/professional programme | Some institutions (e.g., military, certain professional faculties) do not accept IJMB |
+1. Picking Art subjects while applying for Engineering or Medicine, which invalidates DE eligibility regardless of grade.
+2. Registering through an unaccredited "coordinator" rather than an IJMB-affiliated study centre, leading to disqualification.
+3. Skipping the JAMB DE form on the assumption that IJMB alone secures admission — no Nigerian university can offer DE without JAMB DE registration.
+4. Confusing IJMB with JUPEB or Cambridge A'Levels; each A'Level framework has its own portal, syllabus, and result processing.
+5. Missing transcript procurement deadlines after admission, which can cause admissions to be withdrawn at clearance.
+6. Ignoring the two-sitting rule: a candidate with five credits spread across three sittings does not meet IJMB's O'Level baseline.
 
-#### Strategic Workflow
+#### Strategy and Re-sit Policy
 
-1. **Verify acceptance** of IJMB on the chosen university's DE requirements page before paying the application fee.
-2. **Lock the subject trio** that mirrors the JAMB UTME subject pattern for your course.
-3. **Prepare transcripts early** — IJMB release dates and university screening dates rarely align perfectly.
-4. **Forecast admission probability** by computing your expected aggregate against the previous year's departmental cut-off.
-5. **Re-sit only when necessary**; each re-sit consumes a full academic session.
-
-> High-yield trap: candidates frequently assume IJMB replaces JAMB. It does not — JAMB DE is mandatory, and skipping it voids your IJMB result.
+Target straight A's in all three principal subjects, since the IJMB component carries 60% weight in the aggregate. Apply early through the JAMB CAPS portal once IJMB results are out, and confirm each chosen university's DE cut-off from its official admissions page. Candidates who fall short can re-sit at the next IJMB session, subject to the limited re-sit window set by IJMB regulations. Always verify affiliated study centres and current registration deadlines directly on ijmb.com.ng before committing fees.
 
 ---
 
@@ -102,4 +104,5 @@ IJMB Score itself is computed as **(Grade Points ÷ Maximum Points) × 100**, wh
 - **[IJMB (Nigeria) exam overview](/exams/ijmb/)** — pattern, eligibility, and syllabus
 - **[All Subject-Combinations notes](/notes/ijmb/subject-combinations/)** — browse sibling topics in this subject
 
+---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

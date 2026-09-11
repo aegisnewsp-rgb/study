@@ -8,78 +8,82 @@ topicName: Consumer Behaviour
 weight: 3
 country: nigeria
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-07"
+lastUpdated: "2026-09-11"
 ---
 
 # Consumer Behaviour
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+> Rapid summary for last-minute revision before your ICAN Economics paper.
 
-**Consumer behaviour** is the study of how individuals, groups, or organisations select, buy, use, and dispose of goods, services, or experiences to satisfy **needs** (biological) and **wants** (psychological). The foundation rests on **utility** — the satisfaction derived from consumption.
+Consumer behaviour explains how households choose what to buy given limited income, and the psychological, social, and economic forces shaping those choices. The cardinal approach rests on **utility** (satisfaction from a good) and the **law of diminishing marginal utility**: each extra unit consumed gives less added satisfaction than the previous one.
 
-- **Total Utility (TU)** = ΣMU; **Marginal Utility (MU)** = TU_n − TU_(n−1).
-- **Consumer equilibrium**: MU_x / P_x = MU_y / P_y (and MU of money constant).
-- **Law of Diminishing Marginal Utility**: as more units of a good are consumed, MU falls — the basis of the downward-sloping demand curve.
-- **Indifference curve** shows combinations yielding equal satisfaction; the **budget line** shows affordability: P_x·X + P_y·Y = M.
-- **ICAN must-knows**: equi-marginal condition, MRS = MU_x / MU_y, and the substitution vs income effect split.
-- High-yield traps: confusing Giffen with inferior goods, and treating MU as negative once it merely starts declining.
+**Consumer equilibrium** under cardinal utility requires MUx/Px = MUy/Py, while the ordinal approach requires the marginal rate of substitution (MRSxy) to equal the price ratio Px/Py at the tangency between an indifference curve and the budget line M = Px·X + Py·Y.
+
+- **Cardinal equilibrium:** MUx/Px = MUy/Py (equal last naira spent per good)
+- **Ordinal equilibrium:** MRSxy = Px/Py with convex indifference curves
+- **Demand curve** is derived from the price-consumption curve traced by budget-line pivots
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+> Standard content for students with a few days to months before the exam.
 
-#### Cardinal (Utility) Approach
-Utility is treated as **measurable** in utils. A rational consumer maximises satisfaction subject to income. The decision rule is the **Law of Equi-Marginal Utility**: a consumer is in equilibrium when the **last naira spent on each good yields the same marginal utility**, i.e. MU_x / P_x = MU_y / P_y = MU_z / P_z. If MU_x/P_x > MU_y/P_y, the consumer shifts spending from Y to X until equality holds.
+#### Cardinal vs Ordinal Utility
 
-#### Ordinal (Indifference Curve) Approach
-Utility is **ranked, not measured**. An **indifference curve (IC)** plots bundles giving equal satisfaction; an **indifference map** is a family of such curves. Standard assumptions yield four properties: (1) downward-sloping, (2) convex to the origin (diminishing MRS), (3) higher curves = higher utility, (4) curves never intersect. The **Marginal Rate of Substitution (MRS)** = MU_x / MU_y = slope of the IC.
+The **cardinal** approach assumes utility is measurable in utils, and equilibrium holds where the last naira spent on every good yields equal marginal utility. The **ordinal** approach only requires ranking of preferences through four axioms: completeness, transitivity, non-satiation (more is better), and convexity (preference for balanced bundles). Violating any axiom produces diagrams examiners love to mark wrong.
 
-#### Consumer Equilibrium (IC Approach)
-Equilibrium occurs where the **budget line is tangent to the highest attainable indifference curve**, so:
-MRS_xy = P_x / P_y, equivalently MU_x / P_y = MU_y / P_x.
+#### Equilibrium and the Demand Curve
 
-#### Income and Substitution Effects
-A price fall increases real income and changes relative prices. **Substitution effect** = pure change in quantity due to relative price change (always opposite to price change). **Income effect** = change due to higher real purchasing power (negative for inferior goods, positive for normal goods). **Giffen goods** are a *subset* of inferior goods where the income effect is large enough to outweigh the substitution effect, making demand slope **upward**.
+Holding income and other prices constant, rotating the budget line around its intercept traces the **price-consumption curve**, whose price-quantity pairs map out the ordinary (Marshallian) demand curve. This derivation is a frequent 10-mark question in the ICAN Economics paper because it links two chapters into one diagram.
 
-#### Typical ICAN Question Patterns
-- Compute equilibrium from a utility table.
-- Sketch IC, budget line, and show tangency.
-- Decompose a price change into income + substitution effects (Hicks or Slutsky).
-- State and apply **Engel's Law** and **Engel's Coefficient** (food share of expenditure falls as income rises).
+#### Determinants Beyond Price
+
+Kotler's 4-factor framework groups influences into **cultural** (culture, subculture, social class), **social** (reference groups, family, roles), **personal** (age, lifestyle, occupation), and **psychological** (motivation, perception, learning, attitudes) categories. Engel's law states that as income rises, the proportion spent on food falls while the share spent on superior goods rises.
+
+| Concept | Key point |
+| --- | --- |
+| Marginal utility (MU) | Extra satisfaction from one more unit; falls as consumption rises |
+| Indifference curve | Combinations giving equal total utility; downward sloping, convex, never crossing |
+| Budget line | M = Px·X + Py·Y; slope = –Px/Py |
+| Consumer surplus | Area between demand curve and price line, measured in naira (₦) |
+| Income effect | Change in quantity demanded due to a change in real income |
+
+- **Exam pointer:** always draw indifference curves convex to the origin, label both axes, and shade the consumer surplus triangle.
+- **Trap:** stating Engel's law as "expenditure on food falls" rather than "the *proportion* of income spent on food falls".
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-#### Edge Cases and Refinements
-- **Hicks vs Slutsky decomposition**: Hicks holds *real income* (utility) constant; Slutsky holds the *original bundle* affordable. For exam answers, name the method explicitly.
-- **Giffen paradox**: empirically rare (classically, the Irish potato famine); requires the good to be a large share of a poor consumer's budget and strongly inferior.
-- **Revealed Preference Theory (Samuelson)**: consumers' choices *reveal* preferences — if bundle A is chosen over B when both are affordable, A is preferred to B.
-- **Consumer Surplus** = area between the demand curve and the price line, up to the quantity bought — used in cost-benefit analysis and welfare statements.
+#### The Consumer Decision Process
 
-#### Connections to Adjacent Topics
-- Consumer theory is the micro-foundation of the **demand curve**; shift in preferences shifts the curve, movement along reflects price change.
-- Links to **market structures** (monopolist's price discrimination depends on differing elasticities from consumer heterogeneity).
-- **Tax incidence** and **subsidy incidence** on consumers depend on price elasticity of demand, derived from consumer choice.
+Kotler's five-stage model moves from **need recognition** through **information search**, **evaluation of alternatives**, **purchase decision**, and **post-purchase behaviour**. Cognitive dissonance often appears at stage five and drives repeat-purchase intentions, an angle examiners use to test understanding of attitudes versus action.
 
-#### Common Mistakes
-- Equating **MRS = P_x/P_y** (slope of budget line) — true only at the tangency point, not everywhere.
-- Drawing ICs that **intersect** (violates transitivity) or are **concave** (violates diminishing MRS assumption).
-- Treating diminishing MU as automatically yielding **negative** MU — it merely means MU is falling, not yet negative.
-- Confusing **movement along** a demand curve (price change) with a **shift** (taste/income change).
+#### Hicks vs Slutsky Decomposition
 
-#### Worked Mini-Example
-A consumer has MU_x = 20 − X, MU_y = 30 − 2Y, P_x = ₦4, P_y = ₦5, income M = ₦40.
-At equilibrium: (20 − X)/4 = (30 − 2Y)/5 = λ.
-From tangency: 5(20 − X) = 4(30 − 2Y) → 100 − 5X = 120 − 8Y → 8Y − 5X = 20.
-Budget: 4X + 5Y = 40. Solving: X = 4, Y = 4.8. Plug back: MU_x/4 = 4 → MU_x = 16; MU_y/5 = 4 → MU_y = 20. Check: 4(4) + 5(4.8) = 16 + 24 = ₦40 ✓.
+A price fall produces an **income effect** (movement to a higher indifference curve at unchanged relative prices) and a **substitution effect** (movement along the original indifference curve to a flatter tangency). **Hicks** holds utility constant; **Slutsky** holds the original bundle affordable. Mixing these up is the classic ICAN marker trap, and the difference matters when a good is Giffen or inferior.
 
 #### Practice Prompts
-1. With a utility schedule for two goods, derive the consumer's equilibrium bundle given P_x, P_y, and M, and verify the equi-marginal condition.
-2. Using a labelled diagram, decompose a fall in the price of good X into substitution and income effects, and identify whether X is normal, inferior, or Giffen.
+
+1. A consumer spends ₦6,000 monthly. Px = ₦200, Py = ₦300. MUx = 40 utils at X = 10 and MUy = 30 utils at Y = 10. Show that the consumer is not in equilibrium and indicate the direction of adjustment.
+2. Using a clearly labelled indifference map and price-consumption curve, derive the Marshallian demand curve for good X when its price falls from ₦400 to ₦200.
+
+| Common mistake | Correction |
+| --- | --- |
+| Upward-sloping indifference curves | Violates non-satiation; redraw convex to origin |
+| MRSxy = Px/Py stated without units | Express as MUx/MUy = Px/Py with utils and naira |
+| Treating Giffen logic as universal | Only applies when income effect dominates substitution effect |
+
+---
+
+## Continue your study
+
+- **[View this topic in your ICAN (Nigeria) roadmap](/roadmap/?exam=ican&duration=1mo)** — see where "Consumer Behaviour" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ican&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[ICAN (Nigeria) exam overview](/exams/ican/)** — pattern, eligibility, and syllabus
+- **[All Economics notes](/notes/ican/economics/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

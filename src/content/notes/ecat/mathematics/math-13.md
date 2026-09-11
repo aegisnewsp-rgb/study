@@ -17,81 +17,68 @@ diagramPrompt: "Mathematical diagram showing Probability and Permutations concep
 # Probability and Permutations
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your ECAT Mathematics paper.
+> Rapid summary for last-minute revision before your ECAT Mathematics section.
 
-Probability quantifies how likely an event is, on a scale from 0 (impossible) to 1 (certain). For equally likely outcomes, **P(A) = favourable outcomes ÷ total outcomes in the sample space**. A permutation counts ordered arrangements of *r* objects chosen from *n* distinct objects using **P(n,r) = n! / (n−r)!**.
+Probability measures how likely an event is, calculated as **P(A) = n(A)/n(S)**, where n(A) counts favourable outcomes and n(S) counts every equally likely outcome in the sample space. The result always lies between 0 and 1, with 0 meaning impossible and 1 meaning certain. A permutation counts **ordered** arrangements and uses **P(n, r) = n!/(n−r)!**, which collapses to n! when r = n.
 
-- Classical probability range: **0 ≤ P(A) ≤ 1**, with P(A) + P(A′) = 1
-- Permutation formula: **P(n,r) = n! / (n−r)!**, where order matters
-- For mutually exclusive events: **P(A ∪ B) = P(A) + P(B)**
-- For independent events: **P(A ∩ B) = P(A) · P(B)**
-- ECAT tip: expect 1–2 MCQs, in most keys a counting question plus one probability computation
+ECAT tests this topic in roughly 1–2 MCQs from the 4% Mathematics weight, so precision with one formula is worth more than breadth. Remember that combinations ignore order while permutations lock it in.
 
----
+- **Classic formulas:** P(A) = favourable / total; P(A ∪ B) = P(A) + P(B) − P(A ∩ B)
+- **Conditional / independent:** P(A|B) = P(A ∩ B)/P(B); for independent events, P(A ∩ B) = P(A)·P(B)
+- **Complement shortcut:** P(A′) = 1 − P(A), useful when counting "at least one" or "none"
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months before ECAT.
+> Standard content for students with a few days to months before the test.
 
-#### Definitions and the Sample Space
+#### Definitions and the Counting Foundation
 
-The sample space **S** is the set of every possible outcome of a random experiment. An event **A** is any subset of **S**. Classical probability applies only when each elementary outcome is equally likely — a common ECAT trap is a question worded as if outcomes were equally likely when they are not (e.g. biased coins, loaded dice).
+A **sample space S** is the set of all possible outcomes of an experiment. If every outcome in S is equally likely, the classical probability formula **P(A) = n(A)/n(S)** applies directly. The **multiplication principle** states that if task 1 has m methods and task 2 has n methods, both together can be done in m·n ways — this is the engine behind permutation counting.
 
-#### The Permutation Formula
+A **permutation P(n, r)** arranges r distinct objects chosen from n distinct objects, with order fixed. The formula is:
 
-A permutation is an ordered selection. The number of ways to arrange *r* distinct objects from a set of *n* is given by **P(n,r) = n! / (n−r)!**, where **n!** denotes n factorial = n × (n−1) × … × 1, and **0! = 1** by definition.
+> **P(n, r) = n! / (n − r)!**, where 0 ≤ r ≤ n and n! = n × (n−1) × … × 1.
 
-> **Mnemonic:** "Permutation = Position matters". If the question says "in how many orders" or "first, second, third", reach for P(n,r), not C(n,r).
-
-#### Probability Rules to Memorise
+#### Core Rules at a Glance
 
 | Rule | Formula | When to use |
 | --- | --- | --- |
-| Complement | P(A′) = 1 − P(A) | "at least one" problems |
-| Addition (general) | P(A ∪ B) = P(A) + P(B) − P(A ∩ B) | Events not mutually exclusive |
-| Addition (mutually exclusive) | P(A ∪ B) = P(A) + P(B) | Events cannot occur together |
-| Multiplication (independent) | P(A ∩ B) = P(A) · P(B) | One outcome does not affect the other |
-| Conditional | P(A\|B) = P(A ∩ B) / P(B), with P(B) > 0 | Given that B has occurred |
+| Complement | P(A′) = 1 − P(A) | Easier to count failures than successes |
+| Addition | P(A ∪ B) = P(A) + P(B) − P(A ∩ B) | Events that can occur together |
+| Multiplication | P(A ∩ B) = P(A)·P(B) | Only for independent events |
+| Conditional | P(A\|B) = P(A ∩ B)/P(B), P(B) > 0 | "Given that B has happened" |
 
-#### Typical ECAT Patterns
+#### Order Matters: Permutation vs Combination
 
-- Counting principle: if task 1 has *m* ways and task 2 has *n* ways, both can be done in **m · n** ways. Extend to *k* tasks as a product.
-- "How many ways to arrange/distribute/line up" → permutation.
-- Drawing cards with or without replacement changes whether events are independent.
-- Two-stage problems (e.g. drawing a ball then another) in many papers need conditional probability or a tree diagram.
-
----
+- "How many ways can 3 students sit on 3 chairs?" → **P(3, 3) = 3! = 6**
+- "How many ways can we pick a team of 3 from 10?" → **C(10, 3) = 10!/(7!·3!) = 120**
+- Trap: swapping "arrange" and "select" flips the answer by a factor of up to r!.
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
+> Comprehensive coverage for students building mastery across the syllabus.
 
-#### Edge Cases and Subtle Distinctions
+#### Worked Example: Two Dice and Conditional Probability
 
-Conditional probability is the most heavily tested and most in many papers misapplied idea. **P(A|B) ≠ P(B|A)** in general — confusing the two is the classic ECAT trap. Bayes' theorem reverses the conditioning: **P(A|B) = P(B|A) · P(A) / P(B)**.
+Two fair dice are rolled. Find P(sum = 7) and P(sum = 7 \| first die is 4).
 
-Permutations on objects with repetition behave differently. The number of arrangements of *n* objects where some are identical equals **n! / (n₁! · n₂! · … · nₖ!)** — useful for word-arrangement problems.
+Sample space size: n(S) = 6 × 6 = 36. Favourable pairs for sum 7: {(1,6),(2,5),(3,4),(4,3),(5,2),(6,1)} = 6. So **P(sum = 7) = 6/36 = 1/6**.
 
-#### Common Mistakes
+Given the first die is 4, the second die must be 3, giving exactly 1 outcome out of 6 possibilities for die 2. **P(sum = 7 \| die 1 = 4) = 1/6**. Note that these events are independent — the conditional equals the marginal because each die's value does not influence the other.
 
-| Mistake | Correction |
-| --- | --- |
-| Using n! instead of n!/(n−r)! | Subtract r from n before dividing |
-| Treating "selection" as "arrangement" | Permutations order, combinations do not |
-| Adding probabilities without subtracting P(A ∩ B) | Use general addition rule for overlapping events |
-| Calling events independent when they share a sample | Check P(A ∩ B) = P(A)·P(B) explicitly |
+#### Edge Cases and ECAT Traps
 
-#### Worked Micro-Example
+| Scenario | Correct move | Why students slip |
+| --- | --- | --- |
+| "At least one head in 3 tosses" | Use 1 − P(no heads) = 1 − (1/2)³ | Counting overlaps in addition rule |
+| P(A ∪ B) with overlapping events | Subtract P(A ∩ B) | Treating events as mutually exclusive |
+| Bayes' two-stage problem | Apply P(A\|B) = P(A ∩ B)/P(B) | Confusing numerator and denominator |
+| Restricted permutation with repetition | Divide by repeated-factorial terms | Ignoring identical objects |
 
-How many 4-digit PINs can be formed using digits 0–9 if no digit repeats?
-Answer uses permutations: **P(10,4) = 10! / 6! = 10 × 9 × 8 × 7 = 5040**.
+#### Connections and Practice Prompts
 
-If a bag contains 3 red and 2 blue balls, the probability of drawing 2 red balls without replacement is **P = (3/5) × (2/4) = 3/10**.
+Permutations feed directly into **binomial probability**: P(X = k) = C(n, k) p^k (1−p)^(n−k). Conditional probability connects to **Bayes' theorem**, useful when UET Lahore frames reverse-conditioning MCQs.
 
-#### Practice Prompts
-
-1. A box has 5 white and 4 black balls. Two balls are drawn without replacement. Find P(both white) and P(at least one black).
-2. In how many ways can the letters of the word "KARACHI" be arranged so that vowels occupy the even positions?
-
----
+1. A bag has 5 red and 3 blue balls. Two are drawn without replacement. Compute P(both red).
+2. How many 4-digit PINs from digits 0–9 contain no repeated digit? (Answer uses P(10, 4) = 5040.)
 
 ## Continue your study
 
@@ -100,4 +87,5 @@ If a bag contains 3 red and 2 blue balls, the probability of drawing 2 red balls
 - **[ECAT (Engineering College Admission Test) exam overview](/exams/ecat/)** — pattern, eligibility, and syllabus
 - **[All Mathematics notes](/notes/ecat/mathematics/)** — browse sibling topics in this subject
 
+---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

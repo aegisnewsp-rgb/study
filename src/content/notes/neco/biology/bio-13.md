@@ -11,149 +11,96 @@ topicName: Mendelian Genetics and Probability
 weight: 5
 country: nigeria
 generated: "2026-03-24T08:32:07.698259"
-lastUpdated: 2026-03-24
+lastUpdated: "2026-09-11"
 diagramPrompt: "Detailed biological diagram of Mendelian Genetics and Probability with labeled parts, accurate proportions, white background, color-coded tissues/organs, textbook quality"
 
 
 
 
 ---
+
 # Mendelian Genetics and Probability
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your NECO exam.
+> Rapid summary for last-minute revision before your exam.
 
-**Mendel's Two Laws:**
+**Mendelian genetics** describes how traits pass from parents to offspring through discrete hereditary units called **genes**, which exist in alternative forms called **alleles**. Gregor Mendel established three laws from pea-plant experiments: **Dominance**, **Segregation**, and **Independent Assortment**.
 
-1. **Law of Segregation:** Each organism has two alleles for each trait. During gamete formation, these alleles separate so each gamete receives only one allele. During fertilisation, the offspring receives one allele from each parent.
+- **Monohybrid F2 ratio:** phenotype 3 : 1; genotype 1 : 2 : 1
+- **Dihybrid F2 ratio:** phenotype 9 : 3 : 3 : 1 (assumes genes on different chromosomes)
+- **Test cross:** cross unknown dominant (AA or Aa) with homozygous recessive (aa) to expose the genotype
 
-2. **Law of Independent Assortment:** Alleles for different traits segregate independently of each other during gamete formation (true for genes on different chromosomes).
-
-**Key Vocabulary:**
-- **Gene:** A section of DNA that codes for a specific trait
-- **Alleles:** Different versions of a gene (e.g., $Y$ and $y$ for seed colour)
-- **Dominant:** An allele that expresses its phenotype even when heterozygous (capital letter, e.g., $Y$)
-- **Recessive:** An allele that only expresses in homozygous condition (lowercase, e.g., $y$)
-- **Genotype:** Genetic makeup (e.g., $Yy$, $YY$, $yy$)
-- **Phenotype:** Physical appearance (e.g., yellow seeds, green seeds)
-- **Homozygous:** Both alleles the same ($YY$ or $yy$)
-- **Heterozygous:** Different alleles ($Yy$)
-
-**Monohybrid Cross Example (One Trait):**
-
-Cross: Yellow seeds ($YY$) × Green seeds ($yy$)
-
-P generation: $YY$ × $yy$
-Gametes: $Y$ and $Y$ from first plant; $y$ and $y$ from second
-F₁ generation: All $Yy$ (yellow — $Y$ is dominant)
-F₁ × F₁ cross: $Yy$ × $Yy$
-F₂ generation: $YY : Yy : yy = 1 : 2 : 1$
-Phenotypic ratio: 3 yellow : 1 green
-
-⚡ **NECO Tip:** When a question says "a plant self-pollinates" or "is crossed with itself," both parents have the same genotype. When crossing two heterozygotes ($Yy$ × $Yy$), the genotypic ratio is always $1 YY : 2 Yy : 1 yy$ and phenotypic ratio is $3 : 1$ (if dominant).
-
----
+Probability in genetics uses the **product rule** (P[A and B] = P[A] × P[B]) for independent events and the **sum rule** (P[A or B] = P[A] + P[B]) for mutually exclusive outcomes. NECO SSCE Paper II commonly asks you to construct a **Punnett square**, then state the genotypic and phenotypic ratios of the F2 generation.
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for NECO Biology students with a few days to months.
+> Standard content for students with a few days to months.
 
-**Test Cross:**
-To determine if a dominant phenotype is homozygous ($YY$) or heterozygous ($Yy$), cross it with the recessive homozygote ($yy$).
-- If all offspring show dominant phenotype → the unknown parent was homozygous dominant
-- If offspring are 50% dominant and 50% recessive → the unknown parent was heterozygous
+#### Mendel's Three Laws
 
-**Dihybrid Cross (Two Traits):**
+**Law of Dominance** states that one allele (dominant) masks the expression of another (recessive) in a heterozygote. **Law of Segregation** states that the two alleles for a trait separate during gamete formation, so each gamete carries only one allele. **Law of Independent Assortment** states that alleles of different genes assort independently into gametes, provided the genes are on separate chromosomes (or far apart on the same chromosome).
 
-Cross: $RRYY$ (round, yellow) × $rryy$ (wrinkled, green)
+#### Punnett Squares and Ratios
 
-F₁: All $RrYy$ (round, yellow)
-F₁ × F₁: $RrYy$ × $RrYy$
+A 2×2 Punnett square models a monohybrid cross between two heterozygotes (Aa × Aa). It produces four boxes giving the classic 1 AA : 2 Aa : 1 aa genotypic split, which collapses into a 3 dominant : 1 recessive phenotypic split.
 
-For each gene pair: $3 : 1$ phenotypic ratio. Combined phenotypic ratio for dihybrid cross:
-**9 round yellow : 3 round green : 3 wrinkled yellow : 1 wrinkled green** (9:3:3:1)
+A 4×4 Punnett square models a dihybrid cross (AaBb × AaBb) and yields 16 boxes grouping into 9 : 3 : 3 : 1. The forked-line method is faster: multiply monohybrid probabilities (3/4 × 3/4, 3/4 × 1/4, etc.) to derive each phenotype's frequency.
 
-**Probability Rules:**
+#### Worked Example: Probability in Successive Crosses
 
-1. **Product rule:** Probability of two independent events both occurring = $P(A) \times P(B)$
-2. **Sum rule:** Probability of either of two mutually exclusive events occurring = $P(A) + P(B)$
+Two pea plants heterozygous for height (Tt × Tt) are crossed. What is the probability that three F2 offspring are all tall?
 
-*Example:* Probability of getting two boys in two children:
-- $P(\text{boy}) = \frac{1}{2}$
-- $P(\text{boy and boy}) = \frac{1}{2} \times \frac{1}{2} = \frac{1}{4}$
+- P(single F2 tall) = 3/4
+- P(all three tall) = 3/4 × 3/4 × 3/4 = 27/64
 
-**Incomplete Dominance:**
-Neither allele is fully dominant. Heterozygotes show an intermediate phenotype.
-*Example:* Snapdragon flowers — $R$ = red, $R'$ = white. $RR'$ = pink.
-Cross $RR$ × $R'R'$ → All $RR'$ (pink)
+| Cross type | Punnett size | Phenotypic ratio | Genotypic ratio |
+| --- | --- | --- | --- |
+| Monohybrid F2 | 2 × 2 | 3 : 1 | 1 : 2 : 1 |
+| Dihybrid F2 | 4 × 4 | 9 : 3 : 3 : 1 | 1 : 2 : 1 : 2 : 4 : 2 : 1 : 2 : 1 |
+| Test cross | 2 × 2 | 1 : 1 (if unknown is Aa) | 1 : 1 |
 
-**Codominance:**
-Both alleles are fully expressed in heterozygotes.
-*Example:* MN blood group — $L^M L^M$ = M antigen; $L^N L^N$ = N antigen; $L^M L^N$ = MN (both antigens present).
+#### Typical NECO SSCE Question Types
 
-**Multiple Alleles (Polyallelic):**
-More than two alleles exist in the population, but each individual has only two.
-*Example:* ABO blood groups — three alleles: $I^A$, $I^B$, $i$.
-- $I^A I^A$ or $I^A i$ → Type A
-- $I^B I^B$ or $I^B i$ → Type B
-- $I^A I^B$ → Type AB
-- $ii$ → Type O
-
-⚡ **NECO Common Mistakes:**
-- Mixing up genotype and phenotype
-- Forgetting that recessive alleles can be passed to children without showing in parents
-- Confusing incomplete dominance with codominance
-- In dihybrid crosses, forgetting that each trait independently segregates
-
----
+- Draw a Punnett square and state the F2 phenotypic ratio.
+- Calculate the probability of a specific genotype among N offspring.
+- Explain why a test cross is used to determine an unknown genotype.
+- Apply the product rule to combined probability across successive crosses.
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for NECO and JAMB Biology preparation.
+> Comprehensive coverage for students on a longer study timeline.
 
-**Linkage:**
+#### Exceptions to Simple Mendelian Ratios
 
-Genes located on the same chromosome tend to be inherited together — they are linked. The degree of linkage depends on how close the genes are on the chromosome.
+**Incomplete dominance** produces a blended phenotype in heterozygotes. Crossing two red-flowered snapdragons (RR × RR') yields RR (red) : RR' (pink) : R'R' (white) — a 1 : 2 : 1 ratio. **Codominance** shows both alleles fully, as in ABO blood groups where I^A and I^B are both expressed in the AB phenotype.
 
-**Sex Determination (XX/XY System):**
-- Human females: $XX$ (homogametic — all eggs carry $X$)
-- Human males: $XY$ (heterogametic — sperm carry either $X$ or $Y$)
-- Sex is determined by the father: $X$ from mother + $X$ from father = female; $X$ from mother + $Y$ from father = male
-- Ratio of male:female offspring ≈ 1:1
+**Sex-linked traits** sit on the X chromosome. A male has only one X, so a recessive X-linked allele is phenotypically expressed in males (X^a Y) but masked in carrier females (X^A X^a). Haemophilia and red-green colour blindness are classic NECO SSCE examples. Affected males cannot pass the trait to sons; all daughters of an affected male become carriers.
 
-**Sex-Linked Inheritance:**
+#### Common Mistakes and Traps
 
-Genes located on sex chromosomes (usually X chromosome) show different inheritance patterns in males and females because males have only one X chromosome (hemizygous).
+1. Confusing 3 : 1 (phenotype) with 1 : 2 : 1 (genotype) in monohybrid F2.
+2. Treating incomplete dominance as 3 : 1 — the correct ratio is 1 : 2 : 1.
+3. Multiplying fractions incorrectly: 1/2 × 1/2 = 1/4, not 1/2.
+4. Applying the 9 : 3 : 3 : 1 ratio to **linked genes** on the same chromosome, where independent assortment breaks down and a 3 : 1 ratio reappears.
 
-**X-linked Recessive Examples (Colour Blindness):**
-- $X^b$ = colour blind allele, $X^B$ = normal vision allele
-- Carrier female: $X^B X^b$ — phenotypically normal
-- Affected male: $X^b Y$
-- Affected female: $X^b X^b$ (rare — father must be colour blind, mother must be carrier or affected)
+#### Practice Prompts
 
-Cross: Normal male ($X^B Y$) × Carrier female ($X^B X^b$)
-Offspring: $X^B X^B$ (normal female), $X^B X^b$ (carrier female), $X^B Y$ (normal male), $X^b Y$ (affected male)
-Expected: 1 normal female : 1 carrier female : 1 normal male : 1 colour blind male
+- A man with haemophilia marries a carrier woman. Draw the Punnett square and state the probability that their first son is affected.
+- In peas, yellow (Y) is dominant over green (y) and round (R) is dominant over wrinkled (r). Two YyRr plants are crossed. What fraction of F2 offspring are green and wrinkled?
 
-**Pedigree Analysis:**
-
-A pedigree chart shows the inheritance of a trait across generations:
-- Autosomal recessive traits: often skip generations, affected individuals usually have unaffected parents
-- Autosomal dominant traits: appear in every generation, affected individual has at least one affected parent
-- X-linked recessive: affected males inherit the allele from their carrier mother; affected females have an affected father
-
-**Mutation:**
-
-- **Gene mutation:** Change in DNA sequence. Point mutation (substitution — e.g., sickle cell anaemia where GAG → GTG in the beta-globin gene, causing glutamic acid → valine substitution)
-- **Chromosomal mutation:** Change in chromosome structure (deletion, duplication, inversion, translocation) or number (aneuploidy — e.g., Down syndrome: trisomy 21)
-- **Karyotype:** The complete set of chromosomes of an individual, arranged by size
-
-**Sickle Cell Anaemia:**
-
-Caused by a point mutation: codon GAG → GTG (one nucleotide substitution). This changes the 6th amino acid of haemoglobin from glutamic acid (hydrophilic) to valine (hydrophobic), causing haemoglobin molecules to polymerise under low oxygen conditions and distort red blood cells into a sickle shape.
-
-Inheritance: Autosomal recessive. Heterozygotes ($Hb^A Hb^S$) have sickle cell trait — generally asymptomatic, but may experience problems under extreme conditions.
-
-⚡ **NECO/JAMB Patterns:**
-- NECO frequently asks: work out monohybrid and dihybrid crosses; interpret pedigree charts; explain the difference between gene and chromosome; describe sex-linked inheritance with specific crosses; calculate probability of offspring having specific genotypes
+| Deviation pattern | F2 ratio | Example trait |
+| --- | --- | --- |
+| Complete dominance | 3 : 1 | Tall vs dwarf peas |
+| Incomplete dominance | 1 : 2 : 1 | Snapdragon flower colour |
+| Codominance | 1 : 2 : 1 (three phenotypes) | ABO blood groups |
+| Sex-linked recessive | ♂ 1 affected : 1 unaffected; ♀ 1 carrier : 1 non-carrier | Haemophilia |
 
 ---
-*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+
+## Continue your study
+
+- **[View this topic in your NECO SSCE roadmap](/roadmap/?exam=neco&duration=1mo)** — see where "Mendelian Genetics and Probability" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=neco&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NECO SSCE exam overview](/exams/neco/)** — pattern, eligibility, and syllabus
+- **[All Biology notes](/notes/neco/biology/)** — browse sibling topics in this subject
+
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

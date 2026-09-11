@@ -8,7 +8,7 @@ topicName: "Intellectual Property Law & Patents"
 weight: 3
 country: southafrica
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-11"
 ---
 
 # Intellectual Property Law & Patents
@@ -16,99 +16,71 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Intellectual Property Law & Patents** — Key Facts for SAPC (South Africa)
-Core concept: Intellectual property (IP) law in South Africa protects creators and inventors by granting them exclusive rights to their creations and inventions. The three IP systems most relevant to pharmacy are: patents (which protect inventions — including active pharmaceutical ingredients and drug delivery systems); trademarks (which protect brand names and logos — including medicine brand names); and copyright (which protects written and creative works — including patient information leaflets and software). South African pharmacy law intersects with IP law in the areas of generic substitution, parallel importation, and the regulation of medicine trademarks by SAHPRA.
-High-yield point: A patent grants its holder the exclusive right to make, use, sell, or import the patented invention for a limited period (generally 20 years from the filing date). In South Africa, patent registration is governed by the Patents Act 57 of 1978. When a patent expires, the invention enters the public domain and any person may manufacture, sell, or use it without the patent holder's consent. This is the legal foundation for generic medicines — once a patent on an original medicine expires, generic manufacturers may produce and sell generic versions of that medicine, subject to SAHPRA registration requirements.
-⚡ Exam tip: In examination questions involving generic substitution, the legal question is not simply "can the pharmacist substitute?" — the SAPC Rules on generic substitution are a starting point — but rather "does a valid patent still exist on the original medicine, and does the pharmacy have the right to dispense the generic version?" Understanding the patent expiry concept is essential for answering generic medicines questions accurately.
+A **patent** in South Africa is a statutory right granted under the **Patents Act 57 of 1978** that lets the patentee **exclude** others from making, using, exercising, disposing of, or importing the patented invention for a **maximum of 20 years** from the filing date of the complete specification.
 
----
+- **Governing body:** the **CIPC** (Companies and Intellectual Property Commission) under the Department of Trade, Industry and Competition (the dtic).
+- **Three patentability criteria:** (1) **novelty**, (2) **inventive step** (non-obvious to a person skilled in the art), and (3) **industrial applicability** (s 25 of the Act).
+- **Expressly excluded** under s 25(2): discoveries, scientific theories, mathematical methods, business methods, **computer programs as such**, and literary/artistic works.
+- **Term and renewal:** 20 years from filing the complete specification; **annual renewal fees are payable from year 3**—lapse leaves the patent vulnerable to removal.
+- **Remedy:** civil action under s 56—**interdict, damages, delivery-up and costs**; criminal relief is available in limited counterfeit cases.
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Intellectual Property Law & Patents** — SAPC (South Africa) Study Guide
-Overview: Intellectual property (IP) is a legal system that grants creators and innovators exclusive rights over their creations and inventions for limited periods, allowing them to benefit commercially from their innovation before the knowledge enters the public domain. For pharmacy students, IP law is significant in several areas: the patent system determines when generic medicines can legally be produced and sold; trademark law affects how medicines are named, branded, and differentiated in the market; copyright law protects educational and informational materials; and the intersection between IP law and health policy raises questions about access to essential medicines. Understanding these areas is essential for navigating the pharmaceutical landscape in South Africa and for answering SAPC examination questions on IP-related topics.
-Core principles: Intellectual property rights in South Africa are administered by the Companies and Intellectual Property Commission (CIPC). The three primary forms of IP protection relevant to pharmacy are: (1) patents — granted for new inventions (including pharmaceutical compounds, drug delivery systems, and manufacturing processes) that meet the criteria of novelty, inventive step, and industrial application; (2) trademarks — granted for distinctive signs (including medicine brand names, logos, and packaging designs) that distinguish goods or services in the market; and (3) copyright — arising automatically upon creation of an original work (including patient information leaflets, software, and educational materials). Patents are granted by CIPC upon application; trademarks are registered with CIPC; copyright arises automatically without registration.
-Key points:
-- **The patent system**: A patent is a statutory right granted by the state that gives the patent holder the exclusive right to exploit the patented invention for a defined period. To be patentable, an invention must be new (novel), involve an inventive step (not obvious to a person skilled in the relevant field), and be capable of industrial application. In South Africa, pharmaceutical substances and processes are patentable, though there are limitations on the patentability of certain types of biological materials and traditional knowledge. A patent lasts for 20 years from the filing date, renewable upon payment of annual renewal fees. When a patent expires, the invention enters the public domain.
-- **Generic medicines and patent expiry**: The most direct intersection between patent law and pharmacy practice is the generic medicines market. When a pharmaceutical company develops a new medicine, it applies for a patent on the active pharmaceutical ingredient, the formulation, the manufacturing process, or the method of treatment. While the patent is in force, only the patent holder (or licensees) may manufacture, sell, or import the patented medicine. When the patent expires, the technology enters the public domain and generic manufacturers may produce and sell equivalent medicines. The availability of generic equivalents typically causes significant price reductions in the affected medicine, as multiple generic manufacturers compete in the market. The South African government actively promotes the use of generic medicines as a cost-containment measure in both the public and private health sectors.
-- **Generic substitution by pharmacists**: SAPC Rules Relating to Pharmacy permit pharmacists to substitute a generic equivalent for a branded medicine prescribed by a medical practitioner, subject to certain conditions. The pharmacist must inform the patient of the substitution, must ensure the substituted medicine is generically equivalent and therapeutically interchangeable, and must not substitute where the prescriber has written "DAW" (dispense as written) or where the prescription specifies a particular brand for clinical reasons. Generic substitution raises IP issues: the generic manufacturer must ensure its product does not itself infringe any valid patent (including process patents or formulation patents that may survive the expiry of the substance patent).
-- **Trademarks in pharmacy**: A trademark is a sign, design, or expression that identifies and distinguishes the goods or services of one trader from those of others. In pharmacy, medicine brand names are registered trademarks. Registration gives the trademark holder the exclusive right to use the mark in relation to those goods. Trademark infringement occurs when a third party uses an identical or confusingly similar mark in relation to the same goods. Trademark law is relevant to pharmacy in the context of look-alike sound-alike (LASA) medicine names, where similar names on different medicines can cause dispensing errors. The SAPC's scheduling and naming rules interact with trademark law to require that registered medicines have distinct names to avoid confusion.
-- **Parallel importation**: Parallel importation refers to the importation and sale of genuine trade-marked goods (including medicines) that have been placed on the market in another country by the trademark holder or with the holder's consent. The trademark holder's rights are exhausted once the goods have been placed on the market with their consent, and they cannot prevent the parallel importation and resale of those goods in South Africa. This principle (known as the exhaustion of rights doctrine) is relevant in South African pharmacy because it may permit the importation of cheaper genuine medicines from other countries, subject to compliance with SAHPRA registration requirements.
-- **Copyright in pharmacy**: Copyright arises automatically upon creation of an original work. In pharmacy, relevant copyright works include: patient information leaflets (PILs); software used in dispensing and pharmacy management systems; continuing professional development (CPD) materials; and written patient counselling materials. The pharmacy that creates or commissions these works owns the copyright in them (or acquires a licence to use them). Using these materials without permission (for example, photocopying patient information leaflets) may constitute copyright infringement.
-Study strategy: Focus on the patent-generic medicines nexus, as this is the area most commonly examined in pharmacy law. Understand the sequence: patent application → patent granted → patent in force (exclusive rights) → patent expiry → generic entry permitted. Also understand the generic substitution rules under SAPC Rules and how they relate to patent expiry. Practise applying the patent expiry concept to specific medicines to determine whether a generic version may legally be dispensed.
+#### Sources of Patent Law
+South African patent protection is **statutory**, not common-law. The Patents Act 57 of 1978 (as amended) is administered by the **CIPC**. International pathways exist via the **Paris Convention** and the **PCT** (Patent Cooperation Treaty), but these do not by themselves produce a South African patent—**national phase entry** and substantive examination by CIPC are still required.
 
----
+#### Patentable Subject Matter
+Section 25(1) defines a patentable invention as one that is **new**, involves an **inventive step**, and is **capable of being used or applied in trade, industry or agriculture**. Section 25(2)–(4) then lists what is excluded: discoveries, scientific theories, mathematical methods, schemes, rules or methods for performing mental acts, methods of doing business, **computer programs as such**, and aesthetic creations. A computer program is only patentable when claimed as part of a **technical contribution** to the prior art—a frequent trap in exam answers.
+
+#### Application Procedure
+A typical filing follows a two-step route:
+
+1. File a **provisional specification** to establish a priority date.
+2. File a **complete specification** within **12 months** (extendable by request to **18 months**) of the provisional date.
+3. CIPC examines, **accepts**, and **advertises** the patent in the *Patent Journal*, then **seals** it on payment of the prescribed fee.
+
+#### Rights Conferred and Defences
+Section 45 confers a **negative right**: the patentee can **exclude** others from making, using, exercising, disposing of or importing the invention—it is **not** a positive right to use. Infringement is actionable under s 56, while **revocation** under s 61 is available on grounds such as lack of novelty, lack of inventive step, or non-patentability.
+
+| Concept | Key point |
+| --- | --- |
+| Patentability test (s 25) | Novelty + inventive step + industrial applicability |
+| Statutory exclusions | Computer programs as such, business methods, discoveries |
+| Term (s 46) | 20 years from filing of complete specification |
+| Renewal | Annual fees from year 3 onward; lapsing = removal |
+| Nature of right | Negative right to **exclude**, not a positive right to use |
+| Infringement remedy | s 56 civil action: interdict, damages, delivery-up |
+
+- **First-to-file** is the rule—do not write "first-to-invent".
+- Patent protects **function**; **copyright** protects **expression** automatically; **trademarks** protect **signs** distinguishing goods/services.
+- Section 39 of the Counterfeit Goods Act 37 of 1997 can add **additional damages** where applicable.
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-**Intellectual Property Law & Patents** — Comprehensive SAPC (South Africa) Notes
-Full coverage: This topic provides comprehensive coverage of intellectual property law as it applies to pharmacy practice in South Africa, with particular emphasis on the patent system and its impact on the availability and pricing of medicines, the trademark system and its role in medicine naming and dispensing safety, copyright and its application to pharmacy materials, and the legal framework for parallel importation and generic substitution. The interaction between IP law, pharmaceutical regulation by SAHPRA, and health policy is explored in depth.
+#### Distinguishing the IP Regimes
+Many exam scripts collapse three distinct rights into one. Patents protect **new functional inventions** for up to 20 years and require registration. **Copyright** under the Copyright Act 98 of 1978 arises **automatically** on creation of qualifying works (literary, musical, artistic) and protects expression, not ideas. **Trademarks** under the Trade Marks Act 194 of 1993 protect distinctive **signs** used in trade. **Trade secrets** are protected only at common law (breach of confidence) and are not registrable. Confusing these attracts heavy marking penalties in an SAPC short question.
 
-**1. The Nature and Rationale of Intellectual Property Rights**
+#### Edge Cases and Common Traps
+- The 20-year term runs from the **filing date of the complete specification**, not the grant or priority date—students in many papers misstate this.
+- A **provisional specification** establishes priority but confers **no enforceable right**; protection crystallises only on acceptance of the complete specification.
+- Renewal **annuities** begin in **year 3**; a missed payment causes lapse and exposure to removal from the register.
+- PCT or Paris Convention priority does **not** auto-grant a South African patent; **national phase entry** with the prescribed translation, fees, and examination at CIPC is mandatory.
+- Patents give a **negative right**; using the invention can still breach the **Medicines and Related Substances Act** (medicines), **competition law**, or **environmental law**.
 
-Intellectual property law is designed to create a legal framework within which creators and inventors can benefit from their creative and innovative efforts. The rationale is that without such protection, creators and inventors would have little incentive to invest the substantial time, resources, and risk capital required to develop new products, medicines, and processes, because once a product is launched, competitors could immediately copy it without bearing the development costs. IP law solves this problem by granting temporary exclusive rights, allowing the rights holder to recoup investment and earn a return before the knowledge enters the public domain.
+#### Worked Micro-Example
+A Cape Town start-up develops a novel solar inverter. It files a **provisional specification** on 1 March 2025 (priority date). Within 12 months it files the **complete specification**, CIPC accepts and advertises it, and the patent is sealed. Term: 20 years from the **complete specification filing date** in 2026, with **annual renewal fees due from 2028**. Competitors making, importing or disposing of the inverter without licence can be sued under **s 56** for an interdict and damages.
 
-The South African IP system is administered by the Companies and Intellectual Property Commission (CIPC), which handles patent applications, trademark registrations, and the enforcement of IP rights. The enforcement of IP rights (particularly patents and trademarks) is done primarily through the courts, which can grant interdictory relief (injunctions), award damages, and in some cases order the destruction of infringing goods. SAHPRA also plays a role in IP enforcement in the pharmaceutical context by ensuring that medicines placed on the South African market comply with both IP law (genuine products) and safety, quality, and efficacy standards.
+#### Practice Prompts
+1. Explain why a computer program marketed as a stand-alone app is **not** patentable under s 25(2)(e), but how the same algorithm **can** become patentable when claimed as part of a technical inverter-control system.
+2. Draft a short opinion advising a client on the **consequences** of missing the third-year renewal annuity and the difference between **revocation under s 61** and **lapse by non-payment of fees**.
 
-**2. The Patent System in South Africa**
+## Continue your study
 
-A patent is a statutory right granted by the state that gives the patent holder the exclusive right to exploit the patented invention for a defined period. The legal framework for patents in South Africa is the Patents Act 57 of 1978. A patent is obtained by filing an application with CIPC, which examines the application for compliance with the patentability requirements. South Africa follows a pre-grant opposition system — after publication of the patent application, interested parties may oppose the grant of the patent before it is formally granted.
+- **[View this topic in your SAPC (South Africa) roadmap](/roadmap/?exam=sa-pharm&duration=1mo)** — see where "Intellectual Property Law & Patents" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=sa-pharm&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[SAPC (South Africa) exam overview](/exams/sa-pharm/)** — pattern, eligibility, and syllabus
+- **[All Business Law notes](/notes/sa-pharm/business-law/)** — browse sibling topics in this subject
 
-The requirements for patentability are: **novelty** — the invention must be new, meaning it has not been previously disclosed anywhere in the world in any form (published, used, or described in a prior patent application); **inventive step** — the invention must not be obvious to a person skilled in the relevant art, having regard to the prior art; and **industrial application** — the invention must be capable of being made or used in any kind of industry, including pharmacy.
-
-In the pharmaceutical context, the following types of subject matter may be patentable: the active pharmaceutical ingredient (API) itself (a new chemical entity); a new formulation of a known API; a new manufacturing process for a known API; a new use for a known API (a second medical use); a new drug delivery system; and a new combination of known substances. Methods of treatment are generally not patentable in South Africa (unlike in some jurisdictions), which limits the scope of second-medical-use patents.
-
-**The life of a South African patent**: A South African patent lasts for 20 years from the filing date, calculated from the date of the original application (not the grant date). Annual renewal fees must be paid to keep the patent in force. Failure to pay renewal fees results in the patent lapsing. Upon expiry, the invention enters the public domain and may be freely exploited by any person.
-
-**3. Pharmaceutical Patents and the Generic Medicines Industry**
-
-The pharmaceutical industry is one of the most patent-intensive industries in the world. Pharmaceutical companies invest substantial resources in researching and developing new medicines, and patents are the primary mechanism through which they protect and monetise those investments. A single new medicine may require R2–R10 billion in research and development investment over a 10–15 year development period, and the company will seek to recoup that investment during the period of patent protection. The patent system therefore has a direct impact on medicine pricing — while a patent is in force, the patent holder can price the medicine without competition, recovering development costs and generating profits. When the patent expires, generic manufacturers can enter the market, typically at prices 30–80% lower than the original branded medicine, due to the absence of development cost recovery requirements.
-
-South Africa has a well-developed generic medicines industry, supplying both the public and private health sectors with affordable generic equivalents of off-patent medicines. The generic medicines industry relies on the expiry of patents on original branded medicines as the trigger for the legal permissibility of generic production. Generic medicines must be registered with SAHPRA and must demonstrate bioequivalence to the original branded medicine before they can be marketed and dispensed.
-
-The intersection between patent law and pharmaceutical regulation is complex. A generic medicine manufacturer must navigate the patent landscape carefully to ensure that its generic product does not infringe any valid patent. In some cases, original manufacturers file multiple patents on different aspects of the same medicine (a practice known as "patent evergreening" or "product life cycle management") — for example, patents on the API, the formulation, the manufacturing process, the crystal form, and the method of treatment — to extend the effective period of market exclusivity beyond the original patent term. While the legitimacy of evergreening is debated and subject to challenge in some jurisdictions, these strategies are permitted under South African patent law as long as each patent meets the patentability requirements.
-
-**4. Generic Substitution Under SAPC Rules**
-
-The SAPC's Rules Relating to Pharmacy (specifically Rule 21) permit a pharmacist to substitute a generic equivalent for a prescribed branded medicine, provided certain conditions are met. The key conditions are: the pharmacist must have informed the patient of the substitution and the implications for the patient's therapy; the substituted medicine must be generically equivalent and therapeutically interchangeable with the prescribed medicine; the prescriber must not have indicated that the specific brand must be dispensed (by writing "DAW" or "dispense as written"); the substitution must be recorded in the patient medication record; and the pharmacist must not substitute where doing so is clinically inappropriate.
-
-From an IP law perspective, generic substitution by pharmacists raises the question of whether the generic manufacturer has the legal right to produce and sell the generic product in South Africa. The generic manufacturer relies on the expiry of the original patent (or a valid defence to patent infringement) to produce the generic medicine. If the generic medicine is being sold while a valid patent is still in force, both the generic manufacturer and the pharmacy dispensing it could potentially be liable for patent infringement. In practice, generic manufacturers conduct patent clearance searches before launching generic products and rely on expired patents or the absence of relevant South African patents to proceed. A pharmacist who is aware that a generic medicine being dispensed may infringe a valid patent should seek advice before dispensing.
-
-**5. Trademarks in Pharmacy**
-
-A trademark is a sign, design, or expression that identifies and distinguishes the goods or services of one trader from those of others. Trademark protection in South Africa is governed by the Trade Marks Act 194 of 1993. A trademark is registered with CIPC and registration gives the holder the exclusive right to use the mark in relation to the goods or services for which it is registered. The registration is valid for ten years and is renewable indefinitely.
-
-Trademark infringement occurs when a third party uses an identical or confusingly similar mark in relation to the same or similar goods or services, such that it is likely to cause confusion or deceive the public. In pharmacy, medicine brand names are registered trademarks. The Trade Marks Act prohibits the registration of marks that are deceptive, that are contrary to public policy or morality, or that are identical to or confusingly similar to marks already registered for the same goods.
-
-Trademark law is relevant to pharmacy in several practical ways. The prohibition on confusingly similar marks is the legal basis for SAHPRA's requirement that registered medicines have distinct names to prevent dispensing errors arising from look-alike sound-alike (LASA) names. SAHPRA will not register a medicine if its name is identical or confusingly similar to an existing registered medicine's name. Pharmacists must be vigilant when dispensing medicines with similar names — a dispensing error arising from similar names may constitute professional misconduct before the SAPC and may also engage liability under the CPA for harm caused to the patient.
-
-Trademark law also intersects with parallel importation. The principle of international exhaustion of rights means that a trademark holder cannot prevent the importation of genuine trademarked goods that have been placed on the market in another country by or with the consent of the trademark holder. This means that parallel importation of genuine medicines from countries where they are sold more cheaply is legally permissible (subject to compliance with SAHPRA's registration requirements), and such importation may be used as a mechanism for reducing medicine prices in South Africa.
-
-**6. Copyright in Pharmacy**
-
-Copyright in South Africa is governed by the Copyright Act 98 of 1987. Copyright arises automatically upon creation of an original work that is reduced to material form — no registration is required. Copyright protects original literary works (including patient information leaflets, software, and written materials), musical works, artistic works, cinematograph films, sound recordings, broadcasts, and published editions.
-
-Relevant copyright works in pharmacy include: patient information leaflets (PILs) that accompany dispensed medicines; software used in dispensing systems, patient management systems, and stock management systems; continuing professional development (CPD) programmes and their materials; pharmacy website content; training materials for pharmacy staff; and written patient counselling protocols. The pharmacy or pharmacy group that commissions the creation of these works generally owns the copyright in them (as the person who caused the work to be created) or has a licence to use them (where the copyright vests in an external developer or author).
-
-Copyright infringement occurs when a person exercises any of the exclusive rights reserved to the copyright holder without the consent of the copyright holder. This includes copying, reproducing, distributing, performing, and adapting the work. In pharmacy, this is relevant when a pharmacy copies patient information leaflets for distribution to patients, or when a pharmacy reproduces training materials or pharmacy software without a proper licence. Using open-source software or free-to-use materials in pharmacy systems requires compliance with the relevant open-source or free-use licence terms.
-
-**7. Access to Medicines and the IP Policy Debate**
-
-The intersection between IP law and access to essential medicines is one of the most contested areas of pharmaceutical policy globally. The tension is between two competing interests: on the one hand, the IP system incentivises pharmaceutical innovation by allowing companies to recoup their development investment and earn a return during the period of patent protection; on the other hand, strong IP protection can result in high medicine prices that put essential medicines beyond the reach of patients in low- and middle-income countries such as South Africa.
-
-South Africa's IP policy framework attempts to balance these competing interests through several mechanisms. First, South Africa recognises the flexibilities built into the TRIPS Agreement (the WTO Agreement on Trade-Related Aspects of Intellectual Property Rights) and the Doha Declaration on TRIPS and Public Health, which permit countries to take measures to protect public health and to promote access to medicines for all, including through the issuance of compulsory licences (licences granted by the state to third parties to exploit a patented invention without the patent holder's consent) and the parallel importation of medicines. Second, the South African government actively promotes the use of generic medicines as a cost-containment measure and maintains a public sector essential medicines programme that procures generic medicines in bulk. Third, the Medicines and Related Substances Act and SAHPRA's registration requirements create a regulatory pathway for generic medicines to enter the market upon patent expiry.
-
-The National Health Insurance (NHI) Bill and the related reforms to health technology assessment (HTA) processes are expected to further address the affordability of medicines in South Africa. The IP policy debate is therefore an evolving area of law and policy that pharmacy students should be aware of, even though it may not be directly examined in the SAPC examination.
-
-**8. Problem-Solving Strategies and Common Mistakes**
-
-When answering IP-related examination questions in pharmacy, the key is to correctly identify the IP right in question and apply its specific requirements. Do not conflate patents with trademarks — they are distinct IP rights with different requirements, different durations, and different enforcement mechanisms. When a question involves generic substitution, the primary legal question is whether the original medicine's patent has expired — if it has, the generic is lawful; if it has not, the generic may be infringing a valid patent. When a question involves the supply chain for medicines, consider whether parallel importation is relevant and whether the goods comply with SAHPRA registration requirements.
-
-Common mistakes to avoid: confusing the patent application date with the grant date (the patent term runs from the application date, not the grant date); assuming that a generic medicine is always legally interchangeable with the branded original (generic substitution is governed by SAPC Rules and the pharmacist's professional judgment, not merely by the existence of a generic equivalent on the market); conflating trademark infringement with patent infringement (these are distinct causes of action with different requirements and remedies); and overlooking the fact that parallel importation requires compliance with SAHPRA registration requirements even if it is permissible under trademark law.
-
-Practice: Analyse past SAPC examination questions involving generic substitution, medicine naming, parallel importation, and patient information materials. For each, identify the applicable IP right, apply the relevant legal test, and formulate a legally sound conclusion.
-
----
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

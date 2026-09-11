@@ -8,7 +8,7 @@ topicName: "Indian Constitution — Parts, Articles, Schedules and Amendments"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-11"
 ---
 
 # Indian Constitution — Parts, Articles, Schedules and Amendments
@@ -16,202 +16,83 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-- **Indian Constitution** adopted on January 26, 1950; longest written constitution in the world with 448 articles originally (after many amendments)
-- **Parts of Constitution**: 22 parts, 12 schedules; covers Fundamental Rights, Directive Principles, Union/State Governments, Judiciary, Elections, etc.
-- **Fundamental Rights** (Part III): Right to Equality, Freedom, Against Exploitation, Cultural/Educational Rights, Constitutional Remedies
-- **Directive Principles** (Part IV): Non-justiciable; guide the state in policymaking; include Gandhian, Liberal Intellectual, and Socialistic directives
-- **Parliament**: Supreme legislative body; Lok Sabha + Rajya Sabha + President
-- ⚡ "Basic Structure Doctrine" (Kesavananda Bharati, 1973): Certain features of the Constitution are so basic they cannot be amended — this limits parliamentary power to amend the Constitution
+The Indian Constitution is the **supreme law of India**, adopted on 26 November 1949 and enforced on 26 January 1950. It is the longest written constitution for any sovereign nation and is built from four structural units: **Parts**, **Articles**, **Schedules**, and **Amendments**.
 
----
+- **Parts:** 25 (originally 22; Part 4A and Part 9A added by later amendments)
+- **Articles:** 448 (originally 395; numbers grew through renumbering and insertions)
+- **Schedules:** 12 (originally 8)
+- **Amendments:** 105 enacted; the 106th (Women's Reservation, 2023) awaits notification
+
+Must-know landmarks: **Article 368** governs the amending procedure, the **42nd Amendment (1976)** is called the "Mini-Constitution", and the **44th Amendment (1978)** reversed its excesses.
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-## Indian Constitution and Political System
+#### Structural Architecture
 
-The Indian Constitution is the foundational legal document of the country. Understanding its key features and the political system is essential for any well-informed citizen, especially a bank officer who must understand the regulatory and legal environment.
+The Constitution is divided into thematic Parts. Each Part groups related Articles. Schedules are annexed lists (territories, oaths, lists of subjects, languages), and Amendments modify the text using the procedure under Article 368, passed by a special majority of Parliament and ratified by at least half the state legislatures where federal restructuring is involved.
 
-## The Constitution of India
+#### Key Parts and Their Article Range
 
-### Background
-- **Constituent Assembly**: Drafted between 1946-1949; first session on December 9, 1946
-- **Chairman**: Dr. Rajendra Prasad (later first President)
-- **Drafting Committee Chairman**: Dr. B.R. Ambedkar
-- **Adopted**: November 26, 1949
-- **Effective**: January 26, 1950 (Republic Day)
+| Part | Subject | Article Range |
+| --- | --- | --- |
+| III | Fundamental Rights | 12–35 |
+| IV | Directive Principles of State Policy | 36–51 |
+| IV-A | Fundamental Duties | 51-A |
+| V | The Union (Executive, Legislature, Judiciary) | 52–151 |
+| VI | The States | 152–237 |
+| XI | Relations between Union and States | 245–263 |
+| XIV | Services under the Union and States | 308–323 |
 
-### Key Features
-1. **Longest Written Constitution**: Originally 448 articles in 22 parts, 8 schedules
-2. **Sovereign, Socialist, Secular, Democratic Republic**: The Preamble was amended in 1976 to add Socialist, Secular, and Integrity
-3. **Quasi-federal**: Union of States; strong central government with defined state powers
-4. **Parliamentary System**: Government responsible to Parliament
-5. **Integrated and Independent Judiciary**: Single judiciary system
-6. **Fundamental Rights and Directive Principles**: Unique combination of rights and guiding principles
-7. **Adult Suffrage**: Universal adult franchise from the beginning
+#### Landmark Amendments You Cannot Skip
 
-## Parts and Schedules
-
-**Important Parts:**
-- Part I: The Union and its Territory
-- Part III: Fundamental Rights (Articles 12-35)
-- Part IV: Directive Principles of State Policy (Articles 36-51)
-- Part IVA: Fundamental Duties (Article 51A)
-- Part V: The Union
-- Part VI: The States
-- Part XI: Relations between Union and States
-
-**Important Schedules:**
-- 1st: States and Union Territories
-- 2nd: Governor, CM, Minister salaries
-- 3rd: Forms of oaths
-- 7th: Union List, State List, Concurrent List (subjects of legislation)
-
-## Fundamental Rights (Part III)
-
-These are justiciable (enforceable in courts). There are **6 Fundamental Rights**:
-
-### 1. Right to Equality (Articles 14-18)
-- **Article 14**: Equality before law; equal protection of law
-- **Article 15**: Prohibition of discrimination on grounds of religion, race, caste, sex, place of birth
-- **Article 16**: Equality of opportunity in public employment
-- **Article 17**: Abolition of Untouchability
-- **Article 18**: Abolition of titles (except military/academic)
-
-### 2. Right to Freedom (Articles 19-22)
-- **Article 19**: Six freedoms (now 7 after 44th Amendment):
-  - Freedom of speech and expression
-  - Freedom to assemble peacefully
-  - Freedom to form associations
-  - Freedom to move freely throughout India
-  - Freedom to reside and settle in any part of India
-  - Freedom to practice any profession
-  - (New) Freedom to profess, practice and propagate any religion
-- **Article 20**: Protection in respect of conviction for offences
-- **Article 21**: Protection of life and personal liberty — **broadest and most important right**
-- **Article 21A**: Right to education (added 2002)
-- **Article 22**: Protection against arrest and detention
-
-### 3. Right Against Exploitation (Articles 23-24)
-- **Article 23**: Prohibition of traffic in human beings, begar
-- **Article 24**: Prohibition of employment of children below 14 in factories
-
-### 4. Right to Freedom of Religion (Articles 25-28)
-- Freedom of conscience and free profession of religion
-- Freedom to manage religious affairs
-- Freedom from payment of taxes for religious purposes
-- Freedom from religious instruction in certain institutions
-
-### 5. Cultural and Educational Rights (Articles 29-30)
-- Rights of minorities to protect their language/script/culture
-- Right of minorities to establish educational institutions
-
-### 6. Right to Constitutional Remedies (Article 32)
-- Right to move Supreme Court for enforcement of Fundamental Rights
-- Dr. Ambedkar called this the "heart and soul" of the Constitution
-
-## Directive Principles of State Policy (Part IV)
-
-These are **non-justiciable** (cannot be enforced in court) but are fundamental in governance.
-
-**Three Categories:**
-
-**Gandhian Principles** (Articles 40, 43, 43B, 47):
-- Village Panchayats, cottage industries, cooperative farming, prohibition
-
-**Liberal Intellectual Principles** (Articles 44, 45, 48, 51):
-- Uniform civil code, free and compulsory education, agriculture and animal husbandry, environment protection
-
-**Socialistic Principles** (Articles 38, 39, 41, 42, 43, 43A):
-- Social justice, equal means of livelihood, equal justice, right to work, living wage
-
-## Union Executive
-
-### President of India
-- Head of State; Supreme Commander of Armed Forces
-- **Elected**: By elected members of Parliament and State Legislative Assemblies (proportional representation)
-- **Term**: 5 years; eligible for re-election
-- **Real Power**: Limited — acts on advice of Council of Ministers
-- **Emergency Powers**: Under Article 352 (National Emergency), Article 356 (President's Rule)
-
-### Vice President
-- **Elected**: By members of Parliament (both houses)
-- **Serves as**: Ex-officio Chairman of Rajya Sabha
-- **Term**: 5 years
-
-### Prime Minister
-- Head of Government; real executive power
-- **Appointed by**: President (usually leader of majority in Lok Sabha)
-- **Council of Ministers**: PM + Cabinet Ministers + Ministers of State + Deputy Ministers
-
-## Parliament
-
-### Lok Sabha (House of the People)
-- Lower House; directly elected by people
-- **Maximum 552 members** (530 states, 20 UTs, 2 Anglo-Indian nominated)
-- **Term**: 5 years (unless dissolved early)
-- **Money Bill**: Originated only in Lok Sabha; Rajya Sabha cannot amend; can only recommend
-
-### Rajya Sabha (Council of States)
-- Upper House; **indirectly elected** by elected MLAs of state assemblies
-- **Maximum 250 members** (233 elected + 12 nominated)
-- **Term**: 6 years; 1/3 retire every 2 years
-- Cannot be dissolved
-- Has equal say in ordinary bills; lesser role in Money bills
-
-## Supreme Court
-
-- **Composition**: Chief Justice of India (CJI) + 33 other judges
-- **Appointed by**: President (after consultation with judges)
-- **Jurisdiction**:
-  - Original jurisdiction in disputes between Union and States
-  - Appellate jurisdiction in constitutional, civil, criminal matters
-  - Writ jurisdiction under Article 32 (enforcement of Fundamental Rights)
-  - Advisory jurisdiction on questions of public importance
-- **Landmark Cases**: Kesavananda Bharati (1973) — Basic Structure Doctrine; Menaka Gandhi (1978) — Right to Privacy
-
----
+- **42nd Amendment (1976):** Added 59 words, 3 Articles, 3 Schedules; called the "Mini-Constitution"; added words "Socialist", "Secular", "Integrity" to the Preamble.
+- **44th Amendment (1978):** Restored many pre-emergency provisions diluted by the 42nd.
+- **73rd & 74th Amendments (1992):** Gave constitutional status to **Panchayats (11th Schedule)** and **Municipalities (12th Schedule)**.
+- **101st Amendment (2016):** Introduced **GST**.
+- **103rd Amendment (2019):** 10% **EWS reservation** in education and government jobs.
+- **106th Amendment (2023):** **Nari Shakti** — 1/3 seats reserved for women in Lok Sabha and State Assemblies.
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-## Amendments to the Constitution
+#### The Twelve Schedules at a Glance
 
-**Key Amendments**:
-- **1st Amendment (1951)**: Added 9th Schedule to protect certain laws from judicial review; amended Article 15
-- **42nd Amendment (1976)**: Added Socialist, Secular, Integrity to Preamble; added many DPSPs
-- **44th Amendment (1978)**: Restored democracy after Emergency; added 7th freedom under Article 19
-- **73rd Amendment (1992)**: Panchayati Raj institutions given constitutional status
-- **74th Amendment (1992)**: Municipalities given constitutional status
-- **101st Amendment (2016)**: GST amendment; created GST Council
+| Schedule | What it contains |
+| --- | --- |
+| 1st | List of States and Union Territories with territories |
+| 2nd | Salaries, allowances, privileges of President, Governors, Speaker, Judges, CAG |
+| 3rd | Forms of Oaths and Affirmations |
+| 4th | Allocation of seats in Rajya Sabha to States and UTs |
+| 5th | Administration and control of Scheduled Areas and Scheduled Tribes |
+| 6th | Administration of tribal areas in Assam, Meghalaya, Tripura, Mizoram |
+| 7th | **Union, State, and Concurrent Lists** (subjects of legislation) |
+| 8th | List of recognised languages (originally 14; now 22 by 92nd Amendment) |
+| 9th | Acts shielded from judicial review; narrowed by **I.R. Coelho v. State of Tamil Nadu (2007)** |
+| 10th | **Anti-Defection Law** provisions (added by 52nd Amendment) |
+| 11th | Powers of Panchayats (73rd Amendment) |
+| 12th | Powers of Municipalities (74th Amendment) |
 
-## Emergency Provisions
+#### Common Traps in SBI Clerk Questions
 
-**National Emergency (Article 352)**:
-- Declared when President is satisfied that security is threatened by war, external aggression, armed rebellion
-- Emergency declared in 1971 (war with Pakistan); 1975-77 (Internal Emergency — Indira Gandhi)
-- During Emergency: Fundamental Rights under Article 19 suspended; President can amend fundamental rights
+1. Confusing **adoption date (26 Nov 1949)** with **enforcement date (26 Jan 1950)** — Republic Day is the latter.
+2. Writing 395 Articles — the current figure is 448 after renumbering.
+3. Saying 8 Schedules — the correct count is **12**.
+4. Treating the 42nd Amendment as a removal of Fundamental Rights; it only added DPSP primacy during emergency, reversed by the 44th.
 
-**President's Rule (Article 356)**:
-- When a state cannot be run according to constitutional provisions
-- State government dismissed; Governor rules on behalf of President
+#### Practice Prompts
 
-## State Government
+1. Which Schedule contains the Anti-Defection Law, and which amendment inserted it? *(Answer: 10th Schedule, 52nd Amendment, 1985)*
+2. The 106th Amendment relates to which policy, and has it been notified? *(Answer: Women's Reservation in Lok Sabha and State Assemblies; passed in 2023, awaiting notification)*
 
-### Chief Minister
-- Head of State Government
-- Appointed by Governor (usually majority party leader)
-- Council of Ministers responsible to Legislative Assembly
+---
 
-### Legislative Assembly (Vidhan Sabha)
-- Directly elected; one or more per state
-- Maximum 500, minimum 60 members
-- Can make laws on State List and Concurrent List
+## Continue your study
 
-### Legislative Council (Vidhan Parishad)
-- Upper House of some states; indirect election
-- Not all states have it (e.g., UP, Maharashtra, Karnataka have it)
-- Can delay bills but not block them indefinitely
+- **[View this topic in your SBI Clerk roadmap](/roadmap/?exam=sbi-clerk&duration=1mo)** — see where "Indian Constitution — Parts, Articles, Schedules and Amendments" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=sbi-clerk&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[SBI Clerk exam overview](/exams/sbi-clerk/)** — pattern, eligibility, and syllabus
+- **[All General Awareness notes](/notes/sbi-clerk/general-awareness/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

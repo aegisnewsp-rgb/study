@@ -8,169 +8,76 @@ topicName: The Six Essential Elements of a Valid
 weight: 3
 country: nigeria
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-25"
+lastUpdated: "2026-09-11"
 ---
 
 # The Six Essential Elements of a Valid
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+> Rapid summary for last-minute revision before your ICAN Business Law paper.
 
-**Topic 2** in the ICAN legal reasoning syllabus covers the essential elements of a valid contract. Nigerian contract law is derived from the English common law of contract as received into Nigeria, supplemented by Nigerian statutes such as the Contracts (Principles of the Law of Contract) Act. Understanding these elements is fundamental to all commercial transactions that ICAN candidates will encounter in practice.
+A contract is a legally binding agreement. Under Nigerian/English law applied in ICAN exams, six elements must coexist for enforceability: **offer**, **acceptance**, **intention to create legal relations**, **consideration**, **capacity**, and **legality with required form**. An **offer** is a definite promise to be bound on stated terms, distinct from an invitation to treat (Gibson v Storer). **Acceptance** must mirror the offer exactly (Hyde v Wrench) and be communicated, subject to the Postal Rule. **Intention** is presumed in commercial dealings and presumed absent in social/domestic arrangements (Balfour v Balfour).
 
-**The Six Essential Elements of a Valid Contract:**
-1. **Offer** — a clear, definite proposal to contract
-2. **Acceptance** — unqualified agreement to the terms of the offer
-3. **Consideration** — something of value exchanged between parties
-4. **Intention to create legal relations** — parties must intend the agreement to be binding
-5. **Capacity** — parties must have legal capacity to contract
-6. **Free consent** — consent must not be obtained by coercion, undue influence, fraud, misrepresentation, or mistake
-
-**⚡ Exam tip:** For ICAN, the most frequently examined elements are offer/acceptance (communication and revocation), consideration (the rule in *Currie v. Misa*), and capacity of minors and companies.
-
----
+- **Consideration** = something of legal value moving from the promisee (Currie v Misa).
+- **Capacity** covers minors (voidable), persons of unsound mind, and corporations acting via agents.
+- **Legality** bars contracts to commit crimes, defraud revenue, or violate public policy; statutory formalities (Land Use Act, Statute of Frauds via state laws) must also be met.
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+> Standard content for students with weeks of revision runway.
 
-**Offer:**
+#### Offer vs Invitation to Treat
+An offer shows a present intent to contract on specific terms once accepted. Goods on a shop shelf, advertisements, and tender invitations are invitations to treat (Pharmaceutical Society of Great Britain v Boots Cash Chemists; Partridge v Crittenden). Revocation of an offer is ineffective until actually communicated to the offeree (Byrne v Van Tienhoven).
 
-An offer is a promise to be bound on specific terms. It must be:
-- **Clear and definite** — the terms must be certain and complete (*Scammell v. Ouston* [1941] AC 251)
-- **Communicated to the offeree** — an offer must be communicated; an uncommunicated intention is not an offer (*Fisher v. Bell* [1961])
-- **Distinguished from an invitation to treat** — advertisements, display of goods, auction invitations are invitations to treat, not offers
+#### Acceptance Rules
+Acceptance must be absolute and communicated, matching the offer term-for-term. A purported acceptance that adds conditions is a counter-offer that destroys the original (Hyde v Wrench). Where the offeror specifies a mode, deviation can be ineffective; under the Postal Rule, properly stamped and addressed acceptance takes effect on dispatch, but the rule is confined to postal modes and does not extend automatically to email or telex in ICAN answers.
 
-**Invitations to treat vs offers:**
-- Goods displayed in a shop window with a price tag = invitation to treat (*Fisher v. Bell*)
-- Auction without reserve = offer to accept highest bid (but the bid itself is an offer) (*Payne v. Cave* [1789])
-- A unilateral contract where the offeror promises to pay upon completion of an act = offer (inviting performance = acceptance)
+#### Intention and Presumptions
+Commercial agreements carry a rebuttable presumption of intention (Esso Petroleum v Customs). Domestic and social arrangements are presumed not intended to bind, unless the parties clearly show otherwise (Merritt v Merritt).
 
-**Termination of Offer:**
-An offer terminates upon:
-1. **Rejection** — offeree rejects the offer; any new communication is a new offer (counter-offer)
-2. **Lapse of time** — if a time limit was specified; or after a reasonable time
-3. **Revocation** — offeror withdraws the offer before acceptance (but if a unilateral contract, the offeror may be bound to keep the offer open for the time stated)
-4. **Death** — death of the offeror terminates the offer unless it is a guarantee or the offeree has already performed
-5. **Failure of condition** — subject to a condition precedent that fails
+#### Consideration in Practice
+Consideration must be sufficient but need not be adequate (Thomas v Thomas). Executory and executed consideration are both valid. A pre-existing contractual duty in most cases yields no fresh consideration (Stilk v Myrick), though practical benefit can support modification (Williams v Roffey). Promissory estoppel operates only as a shield, not a sword (Central London Property Trust v High Trees House).
 
-**Acceptance:**
+| Element | Key Case/Rule | Exam Test |
+| --- | --- | --- |
+| Offer | Gibson v Storer / Partridge v Crittenden | Is the statement definite and intended to bind on acceptance? |
+| Acceptance | Hyde v Wrench / Postal Rule | Mirror image, communicated before revocation |
+| Intention | Balfour v Balfour / Merritt v Merritt | Commercial vs domestic presumption |
+| Consideration | Currie v Misa / Williams v Roffey | Value in the eyes of law, sufficiency not adequacy |
+| Capacity | Nash v Inman / CAMA 2020 s.99 | Minor: voidable; necessaries: binding |
+| Legality & Form | Land Use Act s.21 / Statute of Frauds | Lawful object + statutory writing where required |
 
-Acceptance must be:
-- **Absolute and unconditional** — any variation = counter-offer (*Hyde v. Wrench* [1840])
-- **Communicated** — silence is not acceptance (*Felthouse v. Bindley* [1862])
-- **Mirror image of the offer** — the "mirror image rule"
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for advanced ICAN candidates preparing months in advance.
 
-**Communication of Acceptance:**
-In bilateral contracts (exchange of promises), acceptance must be communicated to the offeror. In unilateral contracts (performance in exchange for a promise), performance is acceptance and no communication is required — but the offeror must be made aware of performance (the "unilateral contract" rule).
+#### Capacity Edge Cases
+Contracts with minors are **voidable at the minor's option**, not automatically void. The minor can enforce beneficial contracts of service (Roberts v Gray) and must pay a reasonable price for necessaries (Nash v Inman). Drunkenness and unsoundness render contracts voidable only if the party lacked capacity to understand and the other knew of it. Companies contract through authorised agents per CAMA 2020 ss.99–117; the ultra vires doctrine no longer defeats third-party dealings.
 
-**The Postal Acceptance Rule:**
-When acceptance is properly sent by post, it is effective when posted (dispatch theory), not when received (*Adams v. Lindsell* [1818]; applied in Nigerian courts). This rule applies only when post is a reasonable means of communication.
+#### Legality and Statutory Form
+Illegality voids a contract where its object is to commit a crime, defraud revenue, or restrain trade or marriage unreasonably. Several ICAN scenarios turn on the Statute of Frauds 1677 as received into Nigerian law: a **contract of guarantee** not in writing is unenforceable, not void. Land dispositions under **Land Use Act 1978 ss.21–26** require the Governor's consent; without it, the transaction is void.
 
-**Consideration:**
+#### Worked Micro-Example
+Ada advertises a car for ₦3m. Bala reads it, phones, and says "I'll take it but only if you fix the brakes." Ada replies "Agreed." Here, Bala's phone call is an offer (the advert is an invitation to treat), Ada's "Agreed" is acceptance because it matched without varying a material term — fixing brakes is a minor warranty, not a counter-offer. Consideration exists (₦3m for the car). Intention is presumed commercial. Both have capacity. The object is lawful. Result: valid contract.
 
-Consideration is something of value exchanged between parties. It must be:
-- **Real** (not illusory): must have some value in the eyes of the law
-- **Moving from the promisee**: only the person who provides consideration can enforce the contract (*Tweddle v. Atkinson* [1861])
-- **Executory or executed**: must be present or future; something already done is past consideration and is not valid
+> Exam tip: Identify the precise moment of offer first, then trace whether revocation reached the offeree before acceptance was dispatched or received.
 
-**The Rule in Currie v. Misa (1875):**
-Consideration is "some right, interest, profit, or benefit accruing to one party, or some forbearance, detriment, loss, or responsibility given, suffered, or undertaken by the other."
+#### Common Exam Traps
+- Treating catalogues, shop displays, or price lists as offers.
+- Applying the Postal Rule to email or telephone acceptances.
+- Confusing **void** (no effect from start) with **voidable** (valid until rescinded by the innocent party).
+- Forgetting that consideration must move from the promisee, not merely to them.
 
-**Types of Consideration:**
-- **Executory consideration:** A promise in exchange for a promise
-- **Executed consideration:** Performance in exchange for a promise
-- **Past consideration:** Something done before the promise was made — not valid consideration (except for moral obligation with a subsequent promise)
-
-**Exceptions to the Consideration Requirement:**
-- **Contracts under seal** (deed): consideration not required
-- **Bankruptcy:** A voluntary composition with creditors does not require consideration
-- **Statutory modifications:** e.g., bills of exchange and promissory notes
-
-**Intention to Create Legal Relations:**
-
-In commercial agreements, there is a presumption of intention to create legal relations. This presumption can be rebutted by express agreement (e.g., "This agreement is not intended to be legally binding"). Social and domestic agreements are presumed NOT to have legal intention, but this can be rebutted (*Balfour v. Balfour* [1919] — presumption applies; *Jones v. Padavatton* [1969] — presumption can be rebutted).
-
-**Capacity:**
-
-**Minors (persons under 18 in Nigeria):**
-- Contracts entered by minors are voidable at the minor's election — they can enforce the contract against the adult but the adult cannot enforce it against the minor (with some exceptions)
-- **Necessaries:** A minor must pay a reasonable price for necessaries (food, clothing, shelter, education)
-- **Beneficial contracts of service:** A contract of service that benefits the minor is enforceable
-- **Contracts for the repayment of money lent:** Generally void
-
-**Persons of Unsound Mind:**
-- Contracts with persons of unsound mind are voidable at the instance of the incapacitated party if the other party knew of the disability
-
-**Corporations:**
-- Companies have capacity to enter contracts within their memorandum of association (objects clause)
-- A contract outside the objects clause is ultra vires and void
-- CAMA 2020 Section 91 — acts outside the objects clause are voidable; the company can ratify
-
-**⚡ Common Mistakes:**
-- Confusing a counter-offer with an inquiry or request for information ("Is the price negotiable?" is not a counter-offer)
-- Thinking consideration must be adequate — it only needs to be sufficient (adequate consideration is a matter for the parties)
-- Forgetting that a minor's contract for necessaries is enforceable — the minor must pay, but on modified terms
+#### Practice prompts:
+1. Distinguish invitation to treat from offer in three ICAN-style scenarios.
+2. Advise whether a guarantee to repay a friend's debt is enforceable when made orally in Lagos.
 
 ---
 
-### 🔴 Extended — Deep Dive (exam-level mastery)
-> For students preparing for top-rank selection.
+## Continue your study
 
-**The Doctrine of Privity of Contract:**
+- **[View this topic in your ICAN (Nigeria) roadmap](/roadmap/?exam=ican&duration=1mo)** — see where "The Six Essential Elements of a Valid" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ican&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[ICAN (Nigeria) exam overview](/exams/ican/)** — pattern, eligibility, and syllabus
+- **[All Business Law notes](/notes/ican/business-law/)** — browse sibling topics in this subject
 
-The doctrine of privity of contract holds that only parties to a contract can sue or be sued on it. A third party who would benefit from the contract (a donee beneficiary or creditor beneficiary) cannot enforce it.
-
-**Exceptions to Privity:**
-1. **Trust of a contractual right:** If a party holds a contractual right on trust for a third party, the third party can enforce through the trustee
-2. **Statutory exceptions:** e.g., the Third Parties (Rights against Insurers) Act, or provisions in CAMA 2020
-3. **Agency:** If the third party acted as agent for a disclosed principal, the principal can sue
-4. **Collaterality:** If the contract contains a stipulation that purports to confer a benefit on a third party, the third party may enforce if the circumstances indicate that the parties intended to create a trust in their favour
-
-**Contracts (Rights of Third Parties) Act 1999 (England):**
-This UK statute allows third parties to enforce contractual terms in certain circumstances. Nigerian law does not have an equivalent statute — privity remains a doctrine in Nigerian contract law.
-
-**Undue Influence:**
-
-Undue influence is an equitable doctrine where one party uses their position of trust or dominance over another to obtain consent to a contract. Unlike coercion (which involves physical force), undue influence involves psychological pressure.
-
-**Three Categories:**
-1. **Actual undue influence:** The claimant must prove that pressure was applied
-2. **Presumed undue influence:** A relationship of trust and confidence is presumed to give rise to influence; once the relationship is established, the claimant only needs to prove the transaction was manifestly disadvantageous
-3. **Erb's palsy:** Special categories (solicitor-client, doctor-patient, parent-child, religious adviser-penitent)
-
-**Cases:**
-- *Lloyds Bank v. Bundy* [1975] QB 326 — bank-customer relationship; wife guaranteed husband's business debts; transaction set aside
-- *Royal Bank of Scotland v. Etridge* [2001] — extended the categories; independent legal advice is relevant
-
-**Fraud and Misrepresentation:**
-
-**Fraud (deceit):** A false statement made knowingly, without belief in its truth, or recklessly (carelessly whether it is true or false) — *Derry v. Peek* [1889]. Elements: (1) false statement (2) of fact (3) made knowingly or recklessly (4) with intent that the plaintiff should act upon it (5) plaintiff suffers damage.
-
-**Innocent misrepresentation:** False statement made without fraud — remedies are only rescission and damages for actual loss (not the tort of deceit damages).
-
-**Rescission:** The contract is set aside and parties restored to their pre-contractual position. Available for fraud, innocent misrepresentation, duress, undue influence, and mistake.
-
-**Damages for Fraud:** Tort of deceit allows damages for all losses flowing from the fraud (consequential losses), not just out-of-pocket expenses.
-
-**Contracts by Deed:**
-
-A deed (formerly called a "specialty") is a written document signed, sealed, and delivered by the parties. Under Nigerian law:
-- No consideration is required for a deed to be binding
-- Deeds take effect from the date of delivery (when physically handed over)
-- Deeds have a longer limitation period (12 years vs 6 years for simple contracts)
-- Examples: conveyances of land, mortgages, leases over 3 years
-
-**Exemption Clauses and Their Control:**
-
-Exemption clauses (clauses limiting or excluding liability for breach) are construed contra proferentem (against the party seeking to rely on them). They must be incorporated into the contract and cover the loss/damage that occurred.
-
-**Incorporation:**
-- By signature (unless the plaintiff did not know of the clause — *L'Estrange v. Graucob* [1934])
-- By notice (reasonable steps to bring to plaintiff's attention — *Parker v. South Eastern Railway* [1877])
-- By previous course of dealing (*Hollandia Cement v. Berghuys*)
-
-**Coverage:**
-The clause must cover the type of loss that occurred and be clear enough. For negligence claims, the clause must expressly cover negligence unless it is wide enough to do so (*Canada Steamship Lines v. The King* [1952]).
-
-**U CTA 1977 (UK — persuasive in Nigeria):**
-Unreasonable exemption clauses may be void under the Unfair Contract Terms Act 1977. Nigerian law has no equivalent statute, but equitable doctrines can void unconscionable clauses.
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

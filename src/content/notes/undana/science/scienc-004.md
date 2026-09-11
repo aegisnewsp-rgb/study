@@ -8,64 +8,119 @@ topicName: Kinetic and Potential Energy
 weight: 3
 country: indonesia
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-25"
+lastUpdated: "2026-09-11"
 ---
 
 # Kinetic and Potential Energy
 
 ### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
 
-**Work** is energy transferred when a force causes displacement in its direction: **W = F·d·cos θ** (F in newtons, d in metres, θ = angle between F and d). **Kinetic energy**: **Eₖ = ½mv²**. **Gravitational potential energy**: **Eₚ = mgh** (h measured from chosen reference point). **Spring potential energy**: **Eₚ = ½kx²**. **Power**: **P = W/t = F·v** (watts). **Efficiency**: **η = (W_out/W_in) × 100%**. High-yield SNBT pointers: (1) When θ = 90° → W = 0 (force perpendicular to motion does no work). (2) cos θ determines sign: positive if θ < 90°, negative if θ > 90°. (3) Mechanical energy **Eₘ = Eₖ + Eₚ** is conserved only when non-conservative forces (friction, drag) are absent.
+**Kinetic energy** (K) is the energy a moving body carries by virtue of its speed; **potential energy** (U) is stored energy tied to position or configuration. Both are measured in joules (J) in the SI system.
+
+- **Translational kinetic energy:** K = ½ m v², with m in kg and v in m s⁻¹.
+- **Gravitational potential energy:** U_g = m g h, with g ≈ 9.8 m s⁻² and h measured above the chosen zero level.
+- **Elastic (spring) potential energy:** U_s = ½ k x², where k is the spring constant in N m⁻¹ and x is the displacement from equilibrium in metres.
+- **Work–energy theorem:** ΔK = W_net, so the net work done on an object equals its change in kinetic energy.
+- **Mechanical energy:** E = K + U; in the absence of non-conservative forces, K_i + U_i = K_f + U_f.
+
+| Symbol | Meaning | SI unit |
+| --- | --- | --- |
+| K | Kinetic energy | J |
+| U | Potential energy (gravitational or elastic) | J |
+| m | Mass | kg |
+| v | Speed | m s⁻¹ |
+| h | Height above reference level | m |
+
+#### Exam pointers:
+1. Square the speed — doubling v quadruples K.
+2. Treat U_g as a *change* unless the question fixes a reference level.
+3. State energy conservation only when friction and air resistance are negligible.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-#### Definition of Work
+#### Defining the two forms of energy
 
-Work done by a constant force is defined as the scalar product W = **F** · **d** = Fd cos θ. A force does **positive work** when its component acts in the direction of displacement (θ < 90°), **negative work** when it opposes motion (θ > 90°), and **zero work** when perpendicular (θ = 90°). This scalar nature means direction matters only through the angle — unlike force, work has no component perpendicular to displacement.
+Kinetic energy belongs to anything with mass moving at a non-zero speed. Potential energy describes *capacity* to do work because of where an object sits or how it is deformed. Near Earth's surface, the gravitational form dominates: U_g = m g h. A stretched or compressed spring stores elastic energy: U_s = ½ k x². Both U_g and U_s reference a chosen zero; only differences in U are physically meaningful.
 
-#### Kinetic and Potential Energy
+#### The work–energy connection
 
-**Kinetic energy** Eₖ = ½mv² depends on mass and the **square of velocity** — doubling speed quadruples kinetic energy. **Gravitational potential energy** Eₚ = mgh depends on height h relative to a chosen zero level; changing the reference point changes the numerical value but not physical results in a consistent system. **Elastic potential energy** stored in a compressed or stretched spring follows Eₚ = ½kx², where k is the spring constant.
+The work–energy theorem links forces to motion: ΔK = W_net. When a force is **conservative** (gravity, ideal spring), its work equals −ΔU. Combining the two gives the conservation statement K_i + U_i = K_f + U_f, valid whenever friction, air drag, and other non-conservative forces do no net work.
 
-#### Conservation and the Work-Energy Theorem
+#### Standard problem types
 
-The **Work-Energy Theorem** states: net work done on an object equals its change in kinetic energy: W_net = ΔEₖ = Eₖ(final) − Eₖ(initial). In a closed system with only **conservative forces** (gravity, spring force), total mechanical energy Eₘ = Eₖ + Eₚ remains constant: Eₘ₁ = Eₘ₂. Friction converts mechanical energy into thermal energy, breaking conservation of Eₘ.
+UNDANA Saintek questions on this 3 % slice typically ask for:
 
-#### Power
+- A single-object kinetic energy at a given speed.
+- The height change needed to convert K entirely into U_g (vertical-throw problems).
+- Spring problems requiring ½ k x² together with Hooke's law F = −k x.
+- One-step energy-conservation balances with two of {K, U_g, U_s}.
 
-**Power** P = W/t measures how fast work is done or energy is transferred. The alternate form P = Fv applies when force and velocity are parallel — useful for engine or motor ratings. Efficiency η compares useful output work to input work.
+#### Unit and reference-level traps
 
-#### Common Exam Patterns
+- Convert grams → kilograms and cm s⁻² → m s⁻² *before* computing joules.
+- Keep the reference level (h = 0) consistent across initial and final states.
 
-SNBT Saintek combines work-energy analysis with projectile motion and inclined planes. Expect questions asking for speed at a certain height, minimum work to reach a point, or power output given force and velocity data. Always verify whether non-conservative forces are present before applying energy conservation.
+| Formula | Variables defined | Typical use |
+| --- | --- | --- |
+| K = ½ m v² | m (kg), v (m s⁻¹) | Energy of a moving object |
+| U_g = m g h | m (kg), g (m s⁻²), h (m) | Lifting/lowering near Earth |
+| U_s = ½ k x² | k (N m⁻¹), x (m) | Stretched/compressed spring |
+| ΔK = W_net | ΔK (J), W_net (J) | Net-work → speed change |
+| K_i + U_i = K_f + U_f | All energies in J | Closed-system mechanics |
+
+- Watch the squared term: v², not v.
+- h is a *difference* unless an absolute zero is given.
+- Mechanical energy stays constant only if no friction, drag, or impact loss is present.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-#### Reference Point Dependence in Potential Energy
+#### Conservative vs non-conservative forces
 
-Gravitational potential energy Eₚ = mgh is **reference-dependent** — setting h = 0 at ground versus at the launch point yields different numerical values. However, **differences in potential energy** ΔEₚ = mgΔh remain reference-independent, making physically meaningful results independent of your choice. Spring potential energy ½kx² similarly depends on the equilibrium position as its natural zero.
+A **conservative force** lets you define a potential energy so that the work it does between two points depends only on the endpoints. Gravity and the ideal spring satisfy this. Friction, air resistance, and most contact dissipative forces do not — for them, mechanical energy drops by an amount equal to the work they do against motion. This is why "energy is always conserved" is wrong: the *total* energy (including heat, sound, deformation) is conserved, but mechanical energy alone is not.
 
-#### Variable Forces and Non-Conservative Systems
+#### Mass vs speed in kinetic energy
 
-When force varies with position, work equals the area under the F-vs-displacement graph. For non-conservative forces (friction, air resistance), use W_net = ΔEₖ directly, or include the work done by friction: W_total = ΔEₖ + W_friction. Energy is still conserved in the broader sense (friction energy becomes heat), but **mechanical energy is not conserved**.
+Because K scales with v² but only linearly with m, doubling the mass doubles K while doubling the speed quadruples it. A 2 kg object moving at 3 m s⁻¹ has K = 9 J; the same object at 6 m s⁻¹ has K = 36 J. Exam items frequently exploit this by varying speed to test whether students square it.
 
-#### Worked Micro-Example
+#### Edge cases and adjacent links
 
-A 2 kg block slides down a frictionless 30° incline from height h = 5 m. Initial Eₘ = Eₚ = mgh = 2 × 10 × 5 = 100 J at top. At bottom, Eₚ = 0, so Eₖ = 100 J. Solving ½mv² = 100 gives v = √(100) = **10 m/s**. If kinetic friction coefficient μₖ = 0.2 acts over the 10 m incline length: W_friction = −μₖmg cos 30° × 10 ≈ −34.6 J. Then Eₖ(bottom) = 100 − 34.6 = 65.4 J, giving v = √(65.4) ≈ **8.1 m/s**.
+- Variable mass systems (rockets, chains): the ½ m v² form applies only to the instantaneous mass; treat ejection separately.
+- Reference level for U_g can be chosen anywhere; what matters is ΔU_g = m g Δh.
+- Springs in series or parallel change the effective k before applying U_s = ½ k x².
+- This topic feeds directly into **work**, **power**, and **simple harmonic motion** in the UNDANA Saintek syllabus.
 
-#### Common Mistakes to Avoid
+#### Worked micro-example
 
-- Using the angle between force and the **horizontal** instead of between force and **displacement vector**.
-- Assuming energy conservation when friction or applied external forces are present.
-- Forgetting that Eₖ depends on v² — a common trap in multi-object problems.
+A 0.40 kg ball is thrown straight up at 5.0 m s⁻¹. Ignoring air resistance, find its maximum height.
+K₀ = ½ (0.40)(5.0)² = 5.0 J. At the top, v = 0 so K = 0; the energy becomes U_g = m g h. Setting K₀ = m g h → h = 5.0 / (0.40 × 9.8) ≈ 1.28 m. The same method handles spring launches by swapping U_g for ½ k x².
 
-#### Practice Prompts
+#### Common mistakes
 
-1. A 3 kg object is thrown upward at 20 m/s. Using energy conservation (no air resistance), find the maximum height reached. *Answer: h = (20²)/(2×10) = 20 m.*
-2. A motor lifts a 500 kg load at constant speed 2 m/s. If efficiency is 80%, what input power is required? *Hint: Output P = mgv = 500 × 10 × 2 = 10,000 W; input = 10,000/0.80 = **12,500 W**.*
+- Forgetting to square v in K = ½ m v².
+- Mixing units: g with cm, mass in grams, height in cm.
+- Treating U_g as absolute; only ΔU_g is invariant under reference-level shifts.
+- Invoking conservation when friction or air drag is explicitly mentioned.
 
+#### Practice prompts
+
+1. A 1.5 kg cart rolls at 2.0 m s⁻¹, then climbs a frictionless 0.50 m ramp. Find its speed at the top using energy conservation.
+2. A spring with k = 200 N m⁻¹ is compressed 0.10 m and launches a 0.20 kg ball. Predict the launch speed, then check using ½ k x² = ½ m v².
+
+---
+
+## Continue your study
+
+- **[View this topic in your UNDANA Admission (Indonesia) roadmap](/roadmap/?exam=undana&duration=1mo)** — see where "Kinetic and Potential Energy" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=undana&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UNDANA Admission (Indonesia) exam overview](/exams/undana/)** — pattern, eligibility, and syllabus
+- **[All Science (Saintek) notes](/notes/undana/science/)** — browse sibling topics in this subject
+
+---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

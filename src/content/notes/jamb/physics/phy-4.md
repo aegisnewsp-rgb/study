@@ -8,7 +8,7 @@ topicName: "Work, Energy and Power"
 weight: 5
 country: nigeria
 generated: "2026-03-24T08:32:07.708290"
-lastUpdated: 2026-03-24
+lastUpdated: "2026-09-11"
 diagramPrompt: "Clean educational diagram showing Work, Energy and Power with clear labels, white background, labeled arrows for forces/fields/vectors, color-coded components, exam-style illustration"
 
 
@@ -17,73 +17,87 @@ diagramPrompt: "Clean educational diagram showing Work, Energy and Power with cl
 # Work, Energy and Power
 
 ### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your JAMB UTME Physics paper.
 
-> Rapid summary for last-minute revision before your exam.
+**Work** is done only when a force produces displacement along its line of action. The defining equation is **W = Fd cos θ**, where θ is the angle between force (N) and displacement (m), giving work in **joules (J)**. When θ = 90°, work is zero; when θ = 0° or 180°, work is maximum positive or maximum negative.
 
-**Work — Force Acting Through Distance:**
+**Energy** is the capacity to do work. The two mechanical forms tested most are kinetic energy **KE = ½mv²** (J) and gravitational potential energy **PE = mgh** (J, with g ≈ 10 m/s² for JAMB). Mechanical energy is conserved when no friction or air drag acts.
 
-Work is done when a force causes displacement in the direction of the force. W = F × d × cosθ, where F is the force, d is the displacement, and θ is the angle between the force and the direction of displacement. SI unit is the Joule (J). When θ = 0° (force and displacement in the same direction), W = Fd (maximum). When θ = 90° (force perpendicular to displacement), W = 0. When θ > 90° (force has a component opposing displacement), W is negative.
+**Power** is the rate of doing work: **P = W/t** (watts, 1 W = 1 J/s) and, for moving bodies, **P = Fv**. Efficiency η = (useful output / input) × 100%, always ≤ 100%.
 
-Examples from everyday life: lifting a bucket vertically upward at constant speed — work done against gravity = mgh. Dragging a sledge along level ground — work done against friction = μmg × d.
-
-**Kinetic Energy — Energy of Motion:**
-
-KE = ½mv². This is always positive. If you double the mass, kinetic energy doubles. If you double the speed, kinetic energy quadruples (because v² becomes 4 times larger). This is why car accidents at high speed cause disproportionately more damage. SI unit: Joule.
-
-**Potential Energy — Energy of Position:**
-
-Gravitational PE = mgh (weight × height above a reference level). This depends on where you set zero — any convenient level can be chosen. The change in gravitational PE between two heights depends only on the height difference, not the path taken. Spring PE = ½kx², where k is the spring constant (N/m) and x is the displacement from natural length.
-
-**⚡ JAMB Tip:** In JAMB, the most common error is using the wrong angle in W = Fd cosθ. Only use cosθ when F and d are explicitly given separately. If the force is parallel to displacement, cosθ = 1. If force is at 30° to the horizontal and you drag an object along the horizontal, the work done = F × d × cos30°.
+- Expect **1–2 JAMB questions** on this topic, usually one numerical on KE or P = Fv and one scenario on W = Fd cos θ.
+- Remember the **Work–Energy Theorem**: W_net = ΔKE.
+- Watch the **cos θ trap** in lawnmower, pulling-at-an-angle, and inclined-plane problems.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-
 > Standard content for students with a few days to months.
 
-**Power — Rate of Doing Work:**
+#### Core Definitions in JAMB Context
 
-Power = Work done / Time taken = Energy transformed / Time. SI unit: Watt (W). 1 Watt = 1 Joule per second. Other units: 1 kilowatt (kW) = 1000 W, 1 horsepower (hp) ≈ 746 W (used for motors and engines).
+A force **F** does **work** on a body when its point of application moves through a displacement **d**. Work is a scalar: positive when force and displacement share a direction, negative when they oppose. Energy is the stored or kinetic capacity to do work; **power** measures how quickly that work is delivered. JAMB expects you to distinguish these from their everyday meanings.
 
-Instantaneous power = Force × Instantaneous velocity = Fv. For a car climbing a hill at constant speed, power = total resistive force (weight component along slope + friction + air resistance) × velocity. The maximum speed on a level road is reached when engine power equals the total dissipative forces.
+#### Formulas You Must Know by Heart
 
-**Conservation of Mechanical Energy:**
+| Quantity | Formula | Variables & Units |
+| --- | --- | --- |
+| Work | W = Fd cos θ | F in N, d in m, θ in degrees, W in J |
+| Kinetic Energy | KE = ½mv² | m in kg, v in m/s, KE in J |
+| Gravitational PE | PE = mgh | m in kg, g ≈ 10 m/s², h in m, PE in J |
+| Elastic PE (spring) | PE = ½kx² | k in N/m, x in m (extension), PE in J |
+| Average Power | P = W/t | W in J, t in s, P in W |
+| Instantaneous Power | P = Fv cos θ | F in N, v in m/s, P in W |
+| Efficiency | η = (useful E out / E in) × 100% | dimensionless, expressed as % |
 
-In the absence of non-conservative forces (friction, air resistance), total mechanical energy (KE + PE) is conserved. For a pendulum: at the bottom (maximum speed, minimum height), KE is maximum, PE is minimum. At the extremes ( momentarily at rest, maximum height), KE = 0, PE is maximum. Between these points, energy transforms continuously between kinetic and potential forms.
+#### How the Equations Connect
 
-For a roller coaster car descending a height h from rest: v = √(2gh) at the bottom, regardless of the slope angle or path. This is a powerful shortcut — it avoids calculating acceleration along the track.
+The **Work–Energy Theorem** states W_net = ΔKE = ½m(v_f² − v_i²). When a body falls freely through height h, gravity does work mgh on it, raising its KE by exactly mgh — that is **conservation of mechanical energy**, valid only with no friction. Power and velocity relate through P = Fv, useful when an engine's pull force is known.
 
-**Efficiency:**
-
-Efficiency (%) = (Useful output energy / Input energy) × 100%. No real machine is 100% efficient because some energy is always lost to friction, heat, or sound. For a machine doing work against friction: Efficiency = (Work output / Work input) × 100% = (Work output / (Work output + Energy lost to friction)) × 100%.
-
-**⚡ JAMB Tip:** The work-energy theorem states: Net work done = Change in kinetic energy = ½mv² - ½mu². This is particularly useful when forces act over known distances but time is unknown. For a block sliding down a rough inclined plane: net work = mgsinθ × d - μmgcosθ × d = change in KE = ½mv² - 0 (starting from rest).
+- **Identify the angle θ first** before computing work; many JAMB options reverse the sign of cos θ.
+- A body moving at **constant velocity** has ΔKE = 0, so net work = 0 — but engine force still does positive work against friction.
+- Treat PE as **relative to a chosen reference level**; JAMB questions often specify "above the ground" or "from the lowest point".
+- Efficiency must be written as a **percentage** and cannot exceed 100%.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-
 > Comprehensive coverage for students on a longer study timeline.
 
-**Collisions — Elastic and Inelastic:**
+#### Edge Cases and Subtle Traps
 
-In a perfectly elastic head-on collision between mass m₁ (velocity u₁) and mass m₂ (velocity u₂ = 0):
-- v₁ = ((m₁ - m₂)/(m₁ + m₂)) × u₁
-- v₂ = (2m₁/(m₁ + m₂)) × u₁
+When a force is applied at an angle, only the component along the displacement does work. Pushing a lawnmower with force F at angle θ below horizontal gives W = Fd cos θ, not Fd. Centripetal force does **zero work** because it remains perpendicular to the tangential motion, even though it produces acceleration.
 
-These equations satisfy both conservation of momentum AND conservation of kinetic energy.
+For springs, PE = ½kx² uses **extension from natural length**, not the absolute length, and k depends on the spring — JAMB sometimes gives two springs with different constants.
 
-In a perfectly inelastic collision (objects stick together and move as one):
-- Combined velocity v = (m₁u₁ + m₂u₂)/(m₁ + m₂)
-- Kinetic energy is NOT conserved — some KE is lost to deformation, heat, sound
+#### Worked Mini-Example
 
-The coefficient of restitution e = (velocity of separation after collision)/(velocity of approach before collision). For perfectly elastic: e = 1. For perfectly inelastic: e = 0.
+A 2 kg block is pulled 5 m across a smooth horizontal floor by a 10 N force acting at 60° above the horizontal. Compute work done, final KE (starting from rest), and the average power if the pull lasted 4 s.
 
-**Energy Dissipation in Real Systems:**
+| Step | Calculation | Result |
+| --- | --- | --- |
+| Work | W = 10 × 5 × cos 60° = 50 × 0.5 | **25 J** |
+| KE (final) | KE = ½ × 2 × v² — but W_net = ΔKE | use v² = 2W/m = 2(25)/2 = 25, so v = 5 m/s; KE = 25 J |
+| Power | P = W/t = 25 / 4 | **6.25 W** |
 
-When friction acts over a distance, the work done by friction = μmg × d (for horizontal surface) is converted to heat (not lost — heat is energy, just not mechanical). This is why rubbing your hands together on a cold morning warms them up. The mechanical work done against friction appears as thermal energy.
+This exercise combines cos θ, the work–energy theorem, and average power in a single chain — exactly the multi-step style JAMB sets.
 
-For a block sliding down a rough incline from height h: v_bottom = √(2gh - 2μmgcosθ × d/m), where d is the distance along the incline (d = h/sinθ). Simplifying: v² = 2gh - 2μgh cotθ. The term 2μgh cotθ represents energy lost to friction.
+#### Connections to Adjacent Topics
 
-**⚡ JAMB Pattern:** JAMB questions on work, energy, and power typically test three things: (1) identifying the correct angle in W = Fd cosθ (a common trick: give you the force at 60° to horizontal and ask for work done while the object moves horizontally — the answer uses cos60°, not cos0°), (2) using energy conservation to find speed at different heights, and (3) calculating power from work/time or F × v. A typical JAMB question: "A body of mass 5 kg falls from a height of 20 m. What is its kinetic energy just before hitting the ground?" Answer: KE = mgh = 5 × 10 × 20 = 1000 J. The velocity would be v = √(2gh) = √(400) = 20 m/s.
+Work, Energy and Power links to **projectile motion** (PE ↔ KE swap at launch and apex), **simple machines** (M.A., velocity ratio, and η = M.A./V.R.), **circular motion** (centripetal work = 0), and **thermodynamics** (first law). Examiners frequently fuse this topic with Newton’s laws or inclined planes, so practise combined questions.
+
+1. Always resolve forces along the displacement direction before applying W = Fd cos θ.
+2. For free-fall and pendulum problems, default to energy conservation unless friction is stated.
+3. Use P = Fv for vehicles and engines; use P = W/t for machines with a stated time interval.
+4. When efficiency is asked, **subtract losses** (heat, sound) from input energy before dividing.
+
+---
+
+## Continue your study
+
+- **[View this topic in your JAMB UTME roadmap](/roadmap/?exam=jamb&duration=1mo)** — see where "Work, Energy and Power" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=jamb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[JAMB UTME exam overview](/exams/jamb/)** — pattern, eligibility, and syllabus
+- **[All Physics notes](/notes/jamb/physics/)** — browse sibling topics in this subject
+
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

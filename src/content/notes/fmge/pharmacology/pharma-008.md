@@ -8,186 +8,82 @@ topicName: "Gastrointestinal and Endocrine Pharmacology"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-11"
 ---
 
 # Gastrointestinal and Endocrine Pharmacology
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+> Rapid summary for last-minute revision before your FMGE Pharmacology recall.
 
-**Gastrointestinal and Endocrine Pharmacology** — Key Facts for FMGE
-Core concept: Acid-suppressing drugs (PPIs, H2 blockers, antacids) work by different mechanisms; antidiabetic drugs include insulin and oral hypoglycemics
-High-yield point: PPIs (omeprazole) are most effective for GERD and peptic ulcers; metformin is first-line for type 2 diabetes
-⚡ Exam tip: Remember the ABCDE of acid suppression: Antacids (quick relief), H2 blockers, Cytoprotectives (sucralfate, misoprostol), PPIs (most potent), Triple therapy (H. pylori eradication)
+**Gastrointestinal and Endocrine Pharmacology** covers the drugs used to manipulate acid secretion, motility, emesis, and bowel function, alongside the hormonal agents that replace, suppress, or mimic endogenous insulin, thyroid, adrenal, and gonadal hormones. FMGE in standard papers asks 4–6 MCQs from this combined area, in many papers as a one-line mechanism or adverse-effect stem.
 
----
+- **Acid suppression ladder**: antacids → **H2 blockers (famotidine)** → **PPIs (omeprazole)**; PPIs irreversibly block H⁺/K⁺ ATPase and must be taken 30–60 minutes before breakfast.
+- **Diabetes cornerstone**: **metformin** (biguanide, AMPK activation, no hypoglycaemia, lactic-acidosis risk in renal failure) plus **sulfonylureas** (close β-cell KATP, cause hypoglycaemia) and **SGLT2 inhibitors** (glucosuria, DKA risk).
+- **Thyroid pairing**: **levothyroxine** for hypothyroidism; **PTU first trimester**, **methimazole thereafter** (teratogenic: aplasia cutis, choanal atresia).
+- **Antiemetic receptor map**: 5-HT3 (ondansetron), D2 (metoclopramide), NK1 (aprepitant), H1/muscarinic (doxylamine + B6 in pregnancy).
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+> Standard content for students with a few days to months before FMGE.
 
-**Gastrointestinal and Endocrine Pharmacology** — FMGE Study Guide
+#### Acid-peptic and H. pylori therapy
 
-## Acid-Related Disorders
+PPIs (**omeprazole, pantoprazole, esomeprazole**) are prodrugs activated in acidic canaliculi that covalently bind the proton pump; their effect lasts until new pumps are inserted, hence the pre-meal dosing rule. **H2 blockers** (famotidine is the surviving modern choice; ranitidine was withdrawn for NDMA contamination) competitively and reversibly inhibit H2 receptors. Triple therapy for *H. pylori* uses a PPI plus **clarithromycin + amoxicillin** (or metronidazole if resistant).
 
-### Antacids
-- **Neutralize gastric acid** (increase pH from 1-2 to 3-4)
-- **Components**: Aluminum hydroxide (constipating), magnesium hydroxide (diarrheal), calcium carbonate (can cause rebound acid secretion), sodium bicarbonate
-- **Onset**: Rapid (minutes); short duration
-- **Interactions**: Decrease absorption of other drugs (give 2 hours apart)
-- **Uses**: Dyspepsia, GERD (symptom relief), peptic ulcer (adjunct)
+#### Emesis and bowel drugs
 
-### H2 Receptor Antagonists
-- **Examples**: Cimetidine, ranitidine, famotidine, nizatidine
-- **Mechanism**: Block H2 receptors on parietal cells → ↓acid secretion
-- **Effect**: Reduce daytime, meal-stimulated, and nocturnal acid secretion
-- **Onset**: 1-3 hours; duration 6-10 hours
-- **Cimetidine**: Inhibits CYP450 → many drug interactions; also has anti-androgen effects (gynecomastia)
-- **Uses**: GERD, peptic ulcer, prevention of stress ulcers
+The CTZ in the area postrema expresses 5-HT3, D2, NK1, H1, and muscarinic receptors; blocking them prevents vagal output to the vomiting centre. **Loperamide** is a peripherally restricted μ-opioid agonist (no CNS euphoria at therapeutic doses). **Racecadotril** is an enkephalinase inhibitor that reduces intestinal hypersecretion in acute watery diarrhoea.
 
-### Proton Pump Inhibitors (PPIs)
-- **Examples**: Omeprazole, esomeprazole, lansoprazole, pantoprazole, rabeprazole
-- **Mechanism**: Irreversibly inhibit H-K-ATPase (proton pump) on parietal cells
-- **Effect**: Most potent acid suppression; inhibit both basal and stimulated acid secretion
-- **Onset**: 1-3 days for full effect; duration 3-4 days after stopping
-- **Administration**: Take 30-60 minutes before first meal (before pumps activate)
-- **Uses**: GERD, peptic ulcer, H. pylori eradication, NSAID-induced ulcer prevention, Zollinger-Ellison syndrome
-- **Side effects**: Hypomagnesemia, B12 deficiency (long-term), C. difficile infection, increased fracture risk
-- **Note**: C. difficile risk is higher with any acid suppression, not just PPIs
+#### Antidiabetic agents
 
-### Cytoprotective Agents
+| Class | Prototype | Mechanism | Key adverse effect |
+| --- | --- | --- | --- |
+| Biguanide | Metformin | ↓ Hepatic gluconeogenesis via AMPK | Lactic acidosis in renal impairment |
+| Sulfonylurea | Glimepiride | Closes β-cell KATP → insulin release | Hypoglycaemia, weight gain |
+| Thiazolidinedione | Pioglitazone | PPAR-γ agonist ↑ insulin sensitivity | Fluid retention, fractures |
+| α-Glucosidase inhibitor | Acarbose | Delays carbohydrate absorption | Flatulence, diarrhoea |
+| GLP-1 agonist | Liraglutide | Incretin mimetic, slows gastric emptying | Nausea, pancreatitis |
+| DPP-4 inhibitor | Sitagliptin | Prevents GLP-1 breakdown | In most cases weight-neutral |
+| SGLT2 inhibitor | Empagliflozin | Renal glucose reabsorption block | Euglycaemic DKA, UTIs |
 
-**Sucralfate**:
-- Aluminum hydroxide sulfated sucrose → forms protective barrier over ulcer base
-- Requires acidic environment to polymerize
-- **Side effects**: Constipation, bezoar formation (in patients with gastric outlet obstruction)
+#### Common FMGE traps
 
-**Misoprostol**:
-- PGE1 analog → ↑mucus and bicarbonate secretion, ↓acid secretion
-- **Uses**: Prevention of NSAID-induced gastric ulcers (especially in high-risk patients on NSAIDs for chronic conditions)
-- **Side effects**: Diarrhea, abdominal cramps, contraindicated in pregnancy (abortifacient)
+- Believing metformin causes hypoglycaemia — it does not.
+- Forgetting bisphosphonates need an empty stomach, plain water, and 30–60 min upright posture to prevent oesophageal ulceration.
+- Using ondansetron as first-line in pregnancy — doxylamine + pyridoxine (B6) is preferred; ondansetron carries QT prolongation risk.
 
-**Bismuth compounds** (Pepto-Bismol, colloidal bismuth subcitrate):
-- Coats ulcer base, stimulates prostaglandin synthesis
-- Also has antimicrobial effect against H. pylori
-- **Side effects**: Black stools, black tongue
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for FMGE candidates with a longer study horizon.
 
-### H. pylori Eradication
+#### Insulin pharmacokinetics and mixing
 
-**Triple therapy** (7-14 days):
-- **PPI + Clarithromycin + Amoxicillin (or Metronidazole)**
-- Or **Bismuth + Metronidazole + Tetracycline + PPI** (quadruple therapy for resistant cases)
-- **Follow-up**: Urea breath test or stool antigen test to confirm eradication
+Human insulin analogues divide by duration: **rapid (lispro, aspart, glulisine)**, **short (regular soluble)**, **intermediate (NPH)**, and **long-acting (glargine, detemir, degludec)**. Only **regular insulin** can be given IV in emergencies such as DKA or hyperkalaemia. When mixing NPH with regular, draw regular (clear) before NPH (cloudy) into the syringe to avoid protamine contamination of the short-acting vial.
 
-## Anti-Emetics
+#### Thyroid pharmacology in detail
 
-- **5-HT3 antagonists** (ondansetron, granisetron): Post-operative, chemo-induced nausea
-- **D2 antagonists** (metoclopramide, prochlorperazine, promethazine): Gastric emptying, vestibular causes; side effects: EPS, hyperprolactinemia
-- **H1 antagonists** (meclizine, dimenhydrinate): Motion sickness
-- **NK1 antagonists** (aprepitant): Chemo-induced nausea
-- **Corticosteroids** (dexamethasone): Adjunct for chemo-induced nausea
+**Levothyroxine (T4)** is the standard replacement; T4 → T3 conversion occurs peripherally. **Propylthiouracil (PTU)** and **methimazole** inhibit thyroid peroxidase, blocking organification and coupling; PTU additionally blocks peripheral 5'-deiodinase, making it the choice in **thyrotoxic storm** and in **first-trimester pregnancy** (methimazole is teratogenic — aplasia cutis, choanal/esophageal atresia). Methimazole is preferred from the second trimester onwards because of PTU's hepatotoxicity.
 
-## Laxatives
+#### Glucocorticoid spectrum and HPA suppression
 
-**Bulk-forming** (psyllium, methylcellulose): Increase stool bulk; safe for chronic use
-**Osmotic** (lactulose, sorbitol, magnesium hydroxide, polyethylene glycol): Draw water into lumen; lactulose also for hepatic encephalopathy (↓ammonia)
-**Stimulant** (bisacodyl, senna): Direct colonic stimulation; cause cramping
-**Surfactant/stool softener** (docusate sodium): Soften stool; less effective
+Glucocorticoid potency and mineralocorticoid activity differ markedly across agents, a frequent FMGE comparison:
 
-## Antidiabetic Drugs
+1. Hydrocortisone — equivalence 1, both glucocorticoid and mineralocorticoid activity (physiological replacement).
+2. Prednisolone — equivalence 4, mainly glucocorticoid.
+3. Dexamethasone — equivalence 25–30, **no mineralocorticoid activity**, crosses BBB (used in cerebral oedema and antenatal foetal lung maturation).
+4. Withdrawal after >2–3 weeks of therapy requires tapering to avoid iatrogenic Addisonian crisis from HPA suppression.
 
-### Insulin
+#### Practice prompts
 
-**Types**:
-- **Rapid-acting** (insulin lispro, aspart, glulisine): Onset 5-15 min, peak 1-2h, duration 3-4h
-- **Short-acting** (regular insulin): Onset 30min, peak 2-4h, duration 6-8h
-- **Intermediate-acting** (NPH): Onset 1-2h, peak 4-8h, duration 12-18h
-- **Long-acting** (glargine, detemir, degludec): Minimal peak; basal coverage; onset 1-2h, duration 24+ hours
+1. A 55-year-old man on rifampicin for tuberculosis develops bone pain and a low vitamin D level. **Explain the mechanism** and the drug class most likely to prevent the osteomalacia (bisphosphonate plus cholecalciferol; rifampicin induces CYP450 → ↑ vitamin D catabolism).
+2. A pregnant woman in her 8th week presents with Graves' disease. **Choose between PTU and methimazole**, justify the choice, and name one teratogenicity concern avoided.
 
-**Side effects**:
-- **Hypoglycemia** (most common and dangerous)
-- Hypokalemia (insulin drives K into cells)
-- Lipodystrophy at injection site (rotate injection sites)
-- Weight gain
+> **High-yield mnemonic**: "**P**TU first, **M**ethimazole later, watch the **liver** with PTU and the **baby** with methimazole."
 
-### Oral Hypoglycemics
+## Continue your study
 
-**Biguanides - Metformin** (First-line for Type 2 DM):
-- **Mechanism**: Activates AMP-kinase → ↓hepatic gluconeogenesis, ↑insulin sensitivity, ↓intestinal glucose absorption
-- **Effects**: ↓fasting glucose, ↓HbA1c (1-1.5%), ↓weight, improves lipid profile
-- **Side effects**: Lactic acidosis (rare but serious - contraindicated in renal failure, liver disease, sepsis), GI upset, vitamin B12 deficiency
-- **No hypoglycemia** when used alone (does not stimulate insulin secretion)
+- **[View this topic in your FMGE roadmap](/roadmap/?exam=fmge&duration=1mo)** — see where "Gastrointestinal and Endocrine Pharmacology" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=fmge&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[FMGE exam overview](/exams/fmge/)** — pattern, eligibility, and syllabus
+- **[All Pharmacology notes](/notes/fmge/pharmacology/)** — browse sibling topics in this subject
 
-**Sulfonylureas** (Glipizide, Glyburide, Glimepride):
-- **Mechanism**: Close ATP-sensitive K+ channels on pancreatic beta cells → depolarization → insulin release
-- **Side effects**: Hypoglycemia (especially long-acting: glyburide), weight gain
-- **Note**: Glyburide has highest hypoglycemia risk among sulfonylureas
-
-**Thiazolidinediones (TZDs)** (Pioglitazone, Rosiglitazone):
-- **Mechanism**: PPARγ agonist → ↑insulin sensitivity, ↑adipocyte differentiation
-- **Side effects**: Weight gain, fluid retention (edema), heart failure exacerbation, hepatotoxicity (troglitazone withdrawn), bone fractures
-- **Pioglitazone**: May protect against atherosclerosis
-
-**SGLT2 Inhibitors** (Dapagliflozin, Empagliflozin, Canagliflozin):
-- **Mechanism**: Block glucose reabsorption in proximal tubule → glycosuria
-- **Effects**: ↓HbA1c, ↓weight, ↓BP (mild diuresis)
-- **Side effects**: Genital yeast infections, UTIs, dehydration, euglycemic diabetic ketoacidosis
-- **Cardiovascular benefit**: Empagliflozin and dapagliflozin shown to reduce HF hospitalizations and CV death in diabetic patients (and now used for HF even without diabetes)
-
-**DPP-4 Inhibitors** (Sitagliptin, Saxagliptin, Linagliptin):
-- **Mechanism**: Inhibit dipeptidyl peptidase-4 → ↑GLP-1 levels → ↑glucose-dependent insulin secretion, ↓glucagon
-- **Effects**: Modest HbA1c reduction (0.5-0.8%)
-- **Side effects**: Pancreatitis (debated), heart failure (saxagliptin - FDA warning)
-- **Weight neutral**
-
-**GLP-1 Agonists** (Exenatide, Liraglutide, Semaglutide, Dulaglutide):
-- **Mechanism**: Stimulate GLP-1 receptor → ↑glucose-dependent insulin secretion, ↓glucagon, ↓gastric emptying, ↑satiety
-- **Effects**: ↓HbA1c, ↓weight (significant), ↓cardiovascular events (liraglutide, semaglutide)
-- **Side effects**: Nausea/vomiting, pancreatitis, thyroid C-cell tumors (in rodents - contraindicated with family history of medullary thyroid carcinoma)
-- **Note**: Semaglutide also available as oral formulation
-
-**Alpha-glucosidase inhibitors** (Acarbose, Miglitol):
-- **Mechanism**: Inhibit brush border α-glucosidases → delay carbohydrate digestion → ↓postprandial glucose
-- **Side effects**: Flatulence, abdominal discomfort, diarrhea (bacterial fermentation of undigested carbs)
-
-## Thyroid and Antithyroid Drugs
-
-### Thyroid Hormones
-
-**Levothyroxine (T4)**:
-- Drug of choice for hypothyroidism
-- Half-life 7 days; take in morning on empty stomach
-- Start low in elderly/cardiac patients; titrate slowly
-- Monitor TSH (goal: normal TSH in younger, slightly higher in elderly)
-
-### Antithyroid Drugs
-
-**Thionamides**:
-- **Propylthiouracil (PTU)**: Blocks thyroid peroxidase and peripheral T4→T3 conversion; used in first trimester pregnancy, thyroid storm
-- **Methimazole**: Blocks thyroid peroxidase; most commonly used; teratogenic (associated with aplasia cutis in first trimester - use PTU instead in T1)
-- **Side effects**: Agranulocytosis (fever, sore throat - must check WBC), hepatotoxicity (PTU - severe), rash
-
-**Iodine (KI/Lugol's solution)**:
-- Blocks thyroid hormone release and synthesis (Wolff-Chaikoff effect)
-- Used for thyroid storm, preoperative thyroidectomy preparation
-- **Note**: "Escape" from Wolff-Chaikoff after 10-14 days → continued synthesis
-
-**Radioactive iodine (I-131)**:
-- Ablative therapy for hyperthyroidism and thyroid cancer
-- Contraindicated in pregnancy
-
-**Beta-blockers** (propranolol):
-- Symptomatic relief (↓HR, ↓tremor) + inhibit peripheral T4→T3 conversion
-- Used in thyroid storm while definitive therapy takes effect
-
-## Corticosteroids
-
-**Glucocorticoids** (hydrocortisone, prednisone, dexamethasone):
-- **Uses**: Inflammation, autoimmune diseases, asthma, adrenal insufficiency, shock
-- **Side effects** (chronic use): Cushing syndrome (moon face, buffalo hump, striae), osteoporosis, immunosuppression, hyperglycemia, adrenal suppression, cataracts, glaucoma
-
-**Mineralocorticoids** (fludrocortisone):
-- Used in adrenal insufficiency (addison's disease) with glucocorticoids
-
----
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

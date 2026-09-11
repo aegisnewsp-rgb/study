@@ -8,105 +8,115 @@ topicName: National Income
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-05-26"
+lastUpdated: "2026-09-11"
 ---
 
 # National Income
 
 ### 🟢 Lite — Quick Review (1h–1d)
-
 > Rapid summary for last-minute revision before your exam.
 
-**National Income (NI)** = aggregate of all factor incomes (wages, rent, interest, profit) earned by residents of a country in one year.
+**National Income (NI)** is the total monetary value of all final goods and services produced within a country during a financial year, normally measured at **Factor Cost (FC)** after adjusting for depreciation and net factor income from abroad (NFIA).
 
-**Key Formulas (MUST MEMORISE):**
+- **NI = NNP at FC** = GDP at MP − Depreciation + NFIA − Net Indirect Taxes (NIT).
+- **GDP** measures output produced inside **domestic territory**; **GNP** measures output by **normal residents** anywhere in the world.
+- Convert with: **FC = MP − NIT**, where **NIT = Indirect Taxes − Subsidies**.
+- Exclude **intermediate goods**, **second-hand sales**, and **transfer payments** to avoid double counting.
+- **Per Capita Income = NI ÷ Population** is the welfare comparator ICAI tests across countries.
 
-| Aggregate | Formula |
-|---|---|
-| GDP | C + I + G + (X − M) |
-| GNP | GDP + NFIA |
-| NNPmp | GNP − Depreciation |
-| NIatfc | NNPmp − Indirect Taxes + Subsidies |
-| PI | NIatfc − Corporate Taxes − Retained Earnings + Transfer Payments |
-| DI | PI − Direct Taxes |
-
-**Exam pointers:**
-- **NFIA** = Income received from abroad − Income paid abroad (add to GDP for GNP)
-- **Depreciation** deducted only once — adding it back is a common trap
-- **Transfer payments** excluded — no production occurs
-- **Intermediate goods** excluded — count only final goods in GDP
+| Aggregate | Formula | Valuation |
+| --- | --- | --- |
+| GDP at MP | Value of final output within territory | Current prices |
+| NDP at MP | GDP at MP − Depreciation | Current prices |
+| NNP at MP | NDP at MP + NFIA | Current prices |
+| NI (NNP at FC) | NNP at MP − NIT | Factor cost |
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-
 > Standard content for students with a few days to months.
 
-## Defining National Income
+#### Defining the Aggregates
 
-National Income represents the total value of all goods and services produced by a country's residents over a specific period, typically one year. It captures the aggregate flow of factor incomes — wages from labour, rent from land, interest from capital, and profit to entrepreneurs — earned through participation in production.
+The seven national income aggregates follow a single conversion ladder. Start with **GDP at MP**, subtract depreciation to reach **NDP at MP**, add **NFIA** for **NNP at MP**, then strip out **Net Indirect Taxes (NIT = Indirect Taxes − Subsidies)** to arrive at **National Income (NNP at FC)**. Each step answers a different economic question: territory vs. residency, gross vs. net, market valuation vs. factor payment.
 
-## The Three Computation Methods
+#### Domestic Territory vs. Normal Residents
 
-**1. Product/Value Added Method**
-Sum the Gross Value Added at Market Price (GVAMP) across all sectors of the economy. Value added at each stage = Output − Intermediate inputs. The sum of all value added equals GDP at market prices. This avoids double-counting intermediate goods.
+**Domestic territory** includes the geographic boundary plus territorial enclaves, embassies, and ships/aircraft operated by residents. **Normal residents** are individuals/institutions whose centre of economic interest lies in the country for at least one year. GDP attaches to the territory; GNP attaches to residents, hence **GNP at MP = GDP at MP + NFIA**.
 
-**2. Income Method**
-Add up all factor incomes: Compensation of Employees (wages/salaries) + Rent + Interest + Profit + Mixed Income of Self-Employed. This yields **National Income at Factor Cost (NIatfc)** directly.
+#### Circular Flow and the Three Methods
 
-**3. Expenditure Method**
-GDP = Consumer expenditure (C) + Investment (I) + Government expenditure (G) + Net Exports (X − M). All four components must be domestic — the "GNP" label applies when residents' overseas production is included via NFIA.
+The product, income, and expenditure methods are three windows onto the same circular flow. **Value Added (Product) method** sums (Output − Intermediate consumption) at each stage; the **Income method** sums compensation of employees, operating surplus, and mixed income; the **Expenditure method** sums consumption, investment, government spending, and net exports. ICAI expects students to identify which method suits a given dataset, not just recite names.
 
-## Converting Market Price to Factor Cost
+#### From National to Personal to Disposable Income
 
-**Factor Cost = Market Price − Indirect Taxes + Subsidies.** For example, if GDPmp = ₹100 crore, indirect taxes = ₹8 crore, subsidies = ₹3 crore, then GDPfc = ₹95 crore.
+National Income passes through corporate retentions and direct taxes before reaching households. **PI = NI − Undistributed Profits − Corporate Taxes − Social Security Contributions + Transfer Payments**. **Disposable Income = PI − Personal Direct Taxes**, the amount households actually spend or save.
 
-## NFIA: The Domestic vs National Bridge
+| Adjustment | Direction | Reason |
+| --- | --- | --- |
+| Depreciation | Subtract from GDP → NDP | Capital consumed in production |
+| NFIA | Add to NDP → NNP | Income earned abroad by residents |
+| NIT (IT − Subsidies) | Subtract to convert MP → FC | Remove indirect tax wedge |
+| Retained corporate profits | Subtract from NI → PI | Not paid to households |
+| Personal direct taxes | Subtract from PI → DI | Income available to spend |
 
-NFIA = Factor income received from abroad by residents − Factor income paid to abroad. When NFIA > 0, GNP > GDP. For India, NFIA is typically modest but must be added to convert GDP to GNP.
-
-## Common Error Pattern
-
-Students often forget that **depreciation is subtracted once** from GNP to get NNPmp — they mistakenly add it back. Similarly, PI excludes retained earnings (a business saving) but includes transfer payments (government redistributions without production).
+- Always state the valuation basis (**MP** or **FC**) when writing any aggregate.
+- Watch the **NFIA sign**: a negative NFIA (more factor income paid abroad than earned) reduces GNP below GDP.
+- Per Capita Income uses **mid-year population**, not census year, in ICAI numericals.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-
 > Comprehensive coverage for students on a longer study timeline.
 
-## Depth: Net vs Gross, Market Price vs Factor Cost
+#### Edge Cases ICAI Tests
 
-The distinction between gross and net measures hinges on **Capital Consumption Allowance (Depreciation)**. When an economy's capital stock depreciates during the year (machinery wears out, buildings age), the gross output overstates true net addition to wealth. NNP therefore captures sustainable economic welfare more accurately than GNP.
+- **Imputed rent of owner-occupied houses** is included in national income even though no cash transaction occurs, because housing services are genuinely produced and consumed.
+- **Self-consumption of farm output** by farmer households is part of final output valued at prevailing market prices.
+- **Purchase of a second-hand car** is excluded from current GDP; only the broker's commission counts as a service produced this year.
+- **Intermediate goods** like flour sold to a bakery must be excluded from final output to prevent double counting — value-added method handles this automatically.
 
-The market-price-to-factor-cost conversion works because **indirect taxes** inflate final goods prices without representing a factor payment, while **subsidies** artificially lower prices below actual factor costs. Both distort factor cost measurement. The identity: GDPfc = GDPmp − Indirect Taxes + Subsidies. Extending this, NIatfc = NNPmp − Indirect Taxes + Subsidies.
+#### Real vs. Nominal, and Base-Year Mechanics
 
-## Per Capita Income: The Limitation
+**Nominal GDP** uses current-year prices; **Real GDP** fixes prices at a base year. The ratio defines the **GDP Deflator**. ICAI asks: Real GDP = (Nominal GDP ÷ Price Index) × 100. Comparing 2025 and 2026 figures without deflating overstates growth when inflation runs above 5%.
 
-Per Capita Income = National Income / Population. This is a **level indicator**, not a welfare measure — a country can have high per capita income with extreme inequality. CA Foundation tests often ask students to calculate this and comment on its limitations.
+#### Adjacent Connections
 
-## Nominal vs Real GDP
+National Income links to **Balance of Payments** through NFIA, to **Public Finance** through direct and indirect taxes, and to **Index Numbers** through deflators. The same FC/MP framework reappears in **Input–Output accounting** and in **National Accounts Statistics** released by the Ministry of Statistics (MoSPI), which ICAI cites as the standard Indian data source.
 
-Nominal GDP values output at current prices, so inflation can make it rise even if physical output is unchanged. **Real GDP = Nominal GDP / GDP Deflator × 100.** The deflator reflects the price change from a base year. Students must distinguish which measure is appropriate for growth comparisons.
+#### Common Mistakes
 
-## Common Mistakes to Avoid
+1. Adding NFIA when moving from GNP to GDP (wrong direction; NFIA is added to GDP to get GNP).
+2. Treating **corporate dividends** as the only deduction from NI to reach PI — also deduct **undistributed profits** and **corporate tax liability**.
+3. Forgetting **subsidies** while converting MP to FC, leading to an overstatement of factor cost by the full indirect-tax amount.
+4. Including **government transfer payments** (old-age pension, MGNREGS wages are factor income, but old-age pension is a transfer) directly in national income.
 
-1. **GDP ≠ GNP** — always apply NFIA adjustment; a positive NFIA increases GNP above GDP.
-2. **Transfer payments** (pensions, scholarships) are excluded from NI — they involve no production.
-3. **Double-counting** arises when intermediate goods are mistakenly included — only final goods enter GDP.
-4. **Adding depreciation when already subtracted** — once NNPmp is derived from GNP by subtracting depreciation, adding it back to get NNPmp is wrong.
+#### Worked Numerical
 
-## Worked Example
+Given: GDP at MP = ₹1,200 crore; Depreciation = ₹100 crore; NFIA = −₹20 crore; Indirect Taxes = ₹150 crore; Subsidies = ₹30 crore.
 
-Given: GDP = ₹12,000 crore; NFIA received = ₹300 crore; NFIA paid = ₹150 crore; Depreciation = ₹400 crore; Indirect Taxes = ₹600 crore; Subsidies = ₹100 crore.
+**Step 1:** NDP at MP = 1,200 − 100 = **₹1,100 crore**
+**Step 2:** NNP at MP = 1,100 + (−20) = **₹1,080 crore**
+**Step 3:** NIT = 150 − 30 = ₹120 crore
+**Step 4:** NNP at FC (NI) = 1,080 − 120 = **₹960 crore**
 
-Step 1: GNP = 12,000 + (300 − 150) = ₹12,150 crore.
-Step 2: NNPmp = 12,150 − 400 = ₹11,750 crore.
-Step 3: NIatfc = 11,750 − 600 + 100 = ₹11,250 crore.
+#### Practice Prompts
 
-## Practice Prompts
+1. If GDP at MP is ₹500 crore, depreciation ₹40 crore, NFIA ₹15 crore, indirect taxes ₹60 crore, subsidies ₹10 crore, compute National Income.
+2. State whether each item belongs in GDP: (a) wheat bought by a flour mill, (b) bread bought by a household, (c) sale of a 2018 Maruti car in 2026.
 
-1. Calculate GDP, GNP, NNPmp, and NIatfc from a fully-tabulated dataset of factor incomes, indirect taxes, subsidies, and NFIA figures.
-2. Explain why a rise in nominal GDP with no change in real GDP indicates inflation, and compute the implied GDP deflator.
+#### Exam Strategy
 
+The 3% Economics weight yields 1–2 MCQs and one numerical per attempt. Memorise the **FC = MP − NIT** conversion and the **GDP → GNP → NI** ladder; examiners reward students who label every figure with its valuation basis.
+
+---
+
+## Continue your study
+
+- **[View this topic in your CA Foundation roadmap](/roadmap/?exam=ca-found&duration=1mo)** — see where "National Income" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ca-found&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[CA Foundation exam overview](/exams/ca-found/)** — pattern, eligibility, and syllabus
+- **[All Economics notes](/notes/ca-found/economics/)** — browse sibling topics in this subject
+
+---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

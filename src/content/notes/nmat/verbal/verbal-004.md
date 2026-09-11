@@ -8,226 +8,98 @@ topicName: Reading Comprehension Strategies
 weight: 3
 country: philippines
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-11"
 ---
 
 # Reading Comprehension Strategies
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your NMAT exam.
+> Rapid summary for last-minute revision before your exam.
 
-## Reading Comprehension — Key Facts
+Reading Comprehension (RC) on the NMAT (Philippines) Verbal subtest measures how accurately you read short passages (about 200–500 words) drawn from humanities, social science, science, and opinion writing. Every RC item belongs to one of seven question families: main idea, supporting detail, inference, tone, author's purpose, vocabulary-in-context, and passage structure. The fastest way to lift your Verbal percentile is to lock in a fixed order of operations on every passage.
 
-### Question Types
-1. **Main Idea**: What is the passage primarily about?
-2. **Supporting Details**: Specific information from the passage
-3. **Inference**: What can you conclude that is NOT directly stated?
-4. **Vocabulary in Context**: Meaning of word/phrase in the passage
-5. **Tone/Attitude**: What is the author's tone or attitude?
-6. **Purpose**: What is the purpose of the passage?
-7. **Text Structure**: How is the passage organized?
+- **Read the stem first** so you enter the passage hunting for a specific target (a line, an attitude, a shift word).
+- **Locate, don't memorise.** Re-find the cited sentence before selecting; RC traps use true-but-wrong statements.
+- **Inference rule:** if the passage does not force a claim, the claim is outside scope. Skip absolute words like *always* and *never*.
 
-### Speed Reading Techniques
-- **Skim**: Read quickly for main idea (titles, first/last paragraphs, topic sentences)
-- **Scan**: Look for specific information (keywords)
-- **Close reading**: Read slowly and carefully for detail
+| Question family | What it asks | High-yield cue |
+| --- | --- | --- |
+| Main idea | What the author is saying about the topic | Topic + author's claim |
+| Inference | What must be true given the text | Stay inside passage logic |
+| Tone | Author's attitude (critical, neutral, sarcastic) | Loaded vs. neutral diction |
+| Vocab-in-context | Meaning shaped by nearby syntax | Contrast signals, collocation |
 
-⚡ **NMAT High-Yield**: Don't read questions BEFORE reading passage — you may get biased. Read passage first, then answer questions.
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
+
+#### The seven question families and what they test
+
+NMAT Verbal RC items rotate through seven families, and the examiner writes distractors that exploit a different family. A detail question's wrong choices in many papers paraphrase a sentence the passage actually contains but that answers a different stem. Main-idea items, by contrast, want a sentence the author would write at the top of an outline, not a fact lifted from paragraph three.
+
+| Family | Correct-answer shape | Most common trap |
+| --- | --- | --- |
+| Main idea | Author's claim about the topic | True detail from the passage |
+| Supporting detail | Restated sentence from the text | Adjacent true fact that misses the cited line |
+| Inference | Must be true, no outside info | Plausible outside-knowledge claim |
+| Tone / attitude | Adjective describing the author's diction | Mood word about readers or characters |
+| Author's purpose | Inform / persuade / entertain / critique | Mismatch with the evidence type used |
+| Vocab-in-context | Meaning shaped by syntax and contrast | Standalone dictionary sense |
+| Structure / logical pattern | Where claim, shift, or conclusion sits | Missing the transition word |
+
+#### A reusable four-step method
+
+Use this sequence on every NMAT RC passage to avoid answer-by-mood guessing.
+
+1. **Skim the stem and the lead sentence** to set a target: main idea, detail, inference, or attitude.
+2. **Read once, lightly marking transition words** — *however, in contrast, therefore, for example* — because they locate argument pivots.
+3. **Re-find the cited line** for detail and "EXCEPT" stems before locking the answer.
+4. **Eliminate absolutes** (always, never, completely) on inference and tone items; NMAT diction is calibrated to soft qualifiers like *in many papers, can, tend to*.
+
+#### Topic versus main idea
+
+Topic names *what* the passage is about (a single noun phrase: "urban heat islands"). Main idea names *what the author says about the topic* (a full clause: "urban heat islands worsen night-time asthma ER visits in dense cities"). Wrong-detail choices on main-idea stems are in most keys topic-level statements or true facts that don't carry the author's claim.
+
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
+
+#### Tone versus mood, and why the distinction matters
+
+Tone describes the *author's attitude*, decoded from diction: word choice, hedging, and loaded adjectives. Mood describes the *emotional atmosphere* a reader can feel. NMAT tone items present attitude adjectives — *skeptical, measured, ambivalent, polemical* — and reject emotion words like "sad" or "tense" when those describe the subject matter rather than the writer. Practice by labelling each passage's diction: neutral, cautious, or evaluative, then matching an adjective to that label.
+
+#### Author's purpose hierarchy and the diction test
+
+Purpose is inferred, not declared. Three diction signals are diagnostic:
+
+- **Loaded adjectives** (devastating, reckless, misguided) point to persuade or critique.
+- **Hedged verbs** (suggests, can, appears to) point to inform with caution.
+- **Narrative scene-setting with rising action** points to entertain.
+
+If the passage offers evidence, statistics, or counterargument, the purpose is rarely pure entertainment.
+
+#### Inference discipline: the "must be true" gate
+
+For every inference choice, run the gate: *Is this forced by the passage?* If the choice needs even one fact the author did not write, it is outside scope. Reject choices with absolute words (*always, never, every*) when the passage uses *in many papers, can, some*. Prefer choices that restate a sentence using a synonym or cause-effect marker.
+
+#### Common examiner traps
+
+- True-detail misplacement on main-idea stems.
+- Outside-knowledge injection on inference items.
+- Standalone dictionary meaning on vocabulary-in-context items.
+- Skipping the re-check of the cited line on "EXCEPT" questions.
+
+#### Two short practice prompts
+
+1. *Mini-passage:* "While some coastal cities have adopted sea walls, others favour mangrove restoration because the trees absorb wave energy at a fraction of the cost." Identify the transition word, the author's apparent preference, and one inference that is forced by the text.
+2. *Tone drill:* Read any 200-word opinion column and label the diction as *neutral, cautious, or evaluative*. Pick one adjective that matches. Check whether a "mood" word from the same column would be a wrong answer.
 
 ---
 
-### 🟡 Standard — Regular Study (2d–2mo)
+## Continue your study
 
-## Chapter: Reading Comprehension Strategies
+- **[View this topic in your NMAT (Philippines) roadmap](/roadmap/?exam=nmat&duration=1mo)** — see where "Reading Comprehension Strategies" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=nmat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NMAT (Philippines) exam overview](/exams/nmat/)** — pattern, eligibility, and syllabus
+- **[All Verbal notes](/notes/nmat/verbal/)** — browse sibling topics in this subject
 
-### 1.1 Understanding Passages
-
-#### Types of Passages
-1. **Expository**: Informative, factual (most common on NMAT)
-2. **Narrative**: Storytelling (events, experiences)
-3. **Descriptive**: Detailed description of a person/place/thing
-4. **Argumentative/Persuasive**: Takes a position, argues for or against
-5. **Literary**: Fiction or creative nonfiction
-
-#### Common NMAT Topics
-- Science and technology
-- Health and medicine
-- Social issues
-- Education
-- Environment
-- Business and economics
-
-### 1.2 Speed Reading Techniques
-
-#### Skimming
-**Purpose**: Get the main idea without reading every word
-
-**Technique**:
-1. Read the title
-2. Read the first paragraph (usually contains thesis/main idea)
-3. Read the first sentence of each paragraph
-4. Read the last paragraph (usually contains conclusion)
-
-**When to use**: When you have limited time or want overview first
-
-#### Scanning
-**Purpose**: Find specific information quickly
-
-**Technique**:
-1. Know what information you need
-2. Look for keywords (names, numbers, specific terms)
-3. Move eyes quickly down the page
-
-**When to use**: When looking for specific facts to answer detail questions
-
-#### Close Reading
-**Purpose**: Full understanding of passage for inference and analysis questions
-
-**Technique**:
-1. Read passage carefully
-2. Underline key points
-3. Note transitions (however, therefore, moreover)
-4. Identify author's argument and supporting points
-
-### 1.3 Question Types and Strategies
-
-#### 1. Main Idea Question
-**Common stems**:
-- "The main point of the passage is..."
-- "The primary purpose of this passage is..."
-- "Which statement best summarizes the passage?"
-
-**Strategy**:
-- The main idea is usually found in the first or last paragraph
-- Look for the most comprehensive statement
-- Avoid too narrow or too broad answers
-- Avoid answers that are only supporting details
-
-**Example**:
-"Which of the following best describes the main idea of the passage?"
-- (A) Carbon dioxide levels have increased recently
-- (B) Global climate change is caused by human activities ✓
-- (C) Many countries signed the Paris Agreement
-- (D) Renewable energy is better than fossil fuels
-
-#### 2. Supporting Detail Question
-**Common stems**:
-- "According to the passage..."
-- "The author states that..."
-- "Which of the following is mentioned as..."
-
-**Strategy**:
-- Go back to the passage and locate the specific information
-- Don't rely on memory — re-read
-- The answer is usually directly stated in the passage
-
-#### 3. Inference Question
-**Common stems**:
-- "It can be inferred from the passage that..."
-- "The author implies that..."
-- "Which conclusion is best supported by the passage?"
-
-**Strategy**:
-- The answer is NOT directly stated but must be logically derived
-- Don't go beyond what the passage says
-- Eliminate extreme answers
-- Look for the "best" inference, not a possible one
-
-**Example**:
-"It can be inferred that the author believes..."
-- Answer choices must be reasonable conclusions, not wild guesses
-
-#### 4. Vocabulary in Context
-**Common stems**:
-- "The word 'X' in the passage most nearly means..."
-- "As used in the passage, the word 'X' means..."
-
-**Strategy**:
-- Find the word in the passage
-- Read the sentence and surrounding sentences
-- Determine meaning from context
-- Don't choose the dictionary definition — choose contextually appropriate meaning
-
-#### 5. Tone/Attitude Question
-**Common stems**:
-- "The tone of the passage is..."
-- "The author's attitude toward the topic can be described as..."
-- "How does the author feel about..."
-
-**Common Tone/Attitude Words**:
-- Positive: enthusiastic, supportive, admiring
-- Negative: critical, dismissive, pessimistic
-- Neutral: objective, factual, unbiased
-- Other: humorous, satirical, nostalgic, urgent
-
-**Strategy**:
-- Look at word choice (diction)
-- Look at sentence structure
-- Consider the purpose
-
-#### 6. Purpose Question
-**Common stems**:
-- "What is the purpose of this passage?"
-- "The author wrote this passage primarily to..."
-- "This passage is primarily intended to..."
-
-**Strategy**:
-- Consider the intended audience
-- Consider the overall message
-- Similar to main idea but focuses on author intent
-
-#### 7. Text Structure Question
-**Common stems**:
-- "How is the passage organized?"
-- "The author develops the argument by..."
-
-**Answer types**:
-- Chronological order
-- Compare and contrast
-- Cause and effect
-- Problem and solution
-- Example/illustration
-- Definition and elaboration
-
-### 1.4 Avoiding Common Mistakes
-
-#### Mistake 1: Reading Questions First
-Don't read questions before the passage — you'll look for specific things and miss the overall meaning. Read the passage first, then answer questions.
-
-#### Mistake 2: Choosing "Not Answered"
-If "None of the above" is not an option and you think none of the answers fit, re-read — you're probably missing something.
-
-#### Mistake 3: Over-relying on Prior Knowledge
-Use your knowledge to help, but answer based on what the passage SAYS, not what you know.
-
-#### Mistake 4: Selecting First Impressions
-Always check your answer against the passage. Don't just go with your gut feeling.
-
-#### Mistake 5: Getting Stuck on Difficult Questions
-Mark and move on. Return if time permits.
-
-### 1.5 Timing Strategy
-
-#### Per Passage
-- Spend 4-5 minutes per passage
-- 2-3 minutes reading
-- 2 minutes answering
-
-#### If Running Out of Time
-- Read first/last paragraph for main idea
-- Answer main idea and vocabulary questions
-- Guess on detail questions
-
-### 1.6 NMAT High-Yield Points
-
-⚡ **Commonly Asked**:
-1. **Main idea**: Usually in first or last paragraph
-2. **Inference**: NOT directly stated, must be logically derived
-3. **Vocabulary in context**: Use surrounding sentences for clues
-4. **Tone words**: Know positive, negative, neutral descriptors
-5. **Don't read questions first**: Read passage entirely first
-6. **Supporting details**: Answer is usually directly stated
-7. **Skim for main idea**: Read title, first/last paragraphs, topic sentences
-8. **Transition words**: However, therefore, moreover (signal relationships)
-9. **Purpose vs main idea**: Purpose = author's intent; Main idea = central message
-10. **Text structure**: Know chronological, compare/contrast, cause/effect, problem/solution
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

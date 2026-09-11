@@ -17,68 +17,61 @@ diagramPrompt: "Mathematical diagram showing Probability and Permutations concep
 # Probability and Permutations
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your ECAT Mathematics section.
+> Rapid summary for last-minute revision before your ECAT Mathematics paper.
 
-Probability measures how likely an event is, calculated as **P(A) = n(A)/n(S)**, where n(A) counts favourable outcomes and n(S) counts every equally likely outcome in the sample space. The result always lies between 0 and 1, with 0 meaning impossible and 1 meaning certain. A permutation counts **ordered** arrangements and uses **P(n, r) = n!/(n−r)!**, which collapses to n! when r = n.
+Probability quantifies how likely an event is: **P(A) = n(A)/n(S)**, where n(A) counts favourable outcomes and n(S) counts all equally likely outcomes in the sample space. The value always lies in [0, 1]. A **permutation** counts ordered arrangements of r distinct items chosen from n: **P(n,r) = n!/(n−r)!**. ECAT usually tests one or two MCQs from this 4%-weightage block, almost always as a counting-versus-ordering trap.
 
-ECAT tests this topic in roughly 1–2 MCQs from the 4% Mathematics weight, so precision with one formula is worth more than breadth. Remember that combinations ignore order while permutations lock it in.
-
-- **Classic formulas:** P(A) = favourable / total; P(A ∪ B) = P(A) + P(B) − P(A ∩ B)
-- **Conditional / independent:** P(A|B) = P(A ∩ B)/P(B); for independent events, P(A ∩ B) = P(A)·P(B)
-- **Complement shortcut:** P(A′) = 1 − P(A), useful when counting "at least one" or "none"
+- **Order matters** → use the permutation formula; **order irrelevant** → use combinations C(n,r) = n!/[r!(n−r)!].
+- Independent events multiply: **P(A ∩ B) = P(A) · P(B)**.
+- Complement shortcut: **P(A′) = 1 − P(A)**.
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months before the test.
+> Standard content for students with a few days to months.
 
-#### Definitions and the Counting Foundation
+#### Core Probability Rules
+The classical definition assumes every outcome in the sample space S is equally likely. From it follow the addition rule **P(A ∪ B) = P(A) + P(B) − P(A ∩ B)**, which collapses to **P(A) + P(B)** when A and B are mutually exclusive (no overlap), and the conditional rule **P(A|B) = P(A ∩ B)/P(B)**, valid only when P(B) > 0. Bayes' theorem — **P(A|B) = P(B|A)·P(A)/P(B)** — reverses a conditional probability and appears in two-stage experiments such as drawing without replacement.
 
-A **sample space S** is the set of all possible outcomes of an experiment. If every outcome in S is equally likely, the classical probability formula **P(A) = n(A)/n(S)** applies directly. The **multiplication principle** states that if task 1 has m methods and task 2 has n methods, both together can be done in m·n ways — this is the engine behind permutation counting.
+#### Permutation Mechanics
+For distinct objects, **P(n,r) = n·(n−1)·(n−2)·…·(n−r+1)**. A circular permutation of n distinct objects around a fixed table equals **(n−1)!**, because rotations are treated as identical. When objects repeat, the formula becomes **n!/(n₁!·n₂!·…)**, used for arranging the letters of words like "MISSISSIPPI".
 
-A **permutation P(n, r)** arranges r distinct objects chosen from n distinct objects, with order fixed. The formula is:
+#### Counting Principle
+If task 1 has m ways and task 2 has n ways, both together have **m·n** ways. This underpins tree diagrams for coin‑dice products (e.g. two coins → 4 branches, three coins → 8 branches).
 
-> **P(n, r) = n! / (n − r)!**, where 0 ≤ r ≤ n and n! = n × (n−1) × … × 1.
-
-#### Core Rules at a Glance
-
-| Rule | Formula | When to use |
+| Concept | Formula | When to use |
 | --- | --- | --- |
-| Complement | P(A′) = 1 − P(A) | Easier to count failures than successes |
-| Addition | P(A ∪ B) = P(A) + P(B) − P(A ∩ B) | Events that can occur together |
-| Multiplication | P(A ∩ B) = P(A)·P(B) | Only for independent events |
-| Conditional | P(A\|B) = P(A ∩ B)/P(B), P(B) > 0 | "Given that B has happened" |
+| Classical probability | P(A) = n(A)/n(S) | Equally likely outcomes |
+| Permutation | P(n,r) = n!/(n−r)! | Order matters |
+| Combination | C(n,r) = n!/[r!(n−r)!] | Order irrelevant |
+| Addition rule | P(A ∪ B) = P(A)+P(B)−P(A∩B) | Any two events |
+| Complement | P(A′) = 1 − P(A) | "At least one" questions |
 
-#### Order Matters: Permutation vs Combination
-
-- "How many ways can 3 students sit on 3 chairs?" → **P(3, 3) = 3! = 6**
-- "How many ways can we pick a team of 3 from 10?" → **C(10, 3) = 10!/(7!·3!) = 120**
-- Trap: swapping "arrange" and "select" flips the answer by a factor of up to r!.
+- Mutually exclusive ⇒ P(A ∩ B) = 0; rule simplifies to sum.
+- Independent ⇒ P(A ∩ B) = P(A)·P(B); check wording for "with replacement".
+- Conditional problems: write the joint, then divide by the given.
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students building mastery across the syllabus.
+> Comprehensive coverage for students on a longer study timeline.
 
-#### Worked Example: Two Dice and Conditional Probability
+#### Worked Example
+A bag holds 5 red and 3 blue balls. Two balls are drawn **without** replacement. Find P(both red).
 
-Two fair dice are rolled. Find P(sum = 7) and P(sum = 7 \| first die is 4).
+Method: P(R₁) = 5/8. After removal, P(R₂ | R₁) = 4/7. Joint probability = (5/8)(4/7) = **20/56 = 5/14 ≈ 0.357**. If replacement were allowed, P = (5/8)² = 25/64 — a classic ECAT trap where the wording "without replacement" changes everything.
 
-Sample space size: n(S) = 6 × 6 = 36. Favourable pairs for sum 7: {(1,6),(2,5),(3,4),(4,3),(5,2),(6,1)} = 6. So **P(sum = 7) = 6/36 = 1/6**.
+#### Edge Cases and Connections
+- **P(A|B) ≠ P(B|A).** Medical-test questions often swap these; only Bayes' theorem converts one to the other.
+- **Inclusion–exclusion** for three events: P(A ∪ B ∪ C) = ΣP(A) − ΣP(A∩B) + P(A∩B∩C).
+- **Permutation with repetition** of the word "LEVEL" uses 5!/(2!·2!) = 30.
+- This topic bridges **Sets and Functions** (sample-space notation), **Sequences and Series** (factorial growth), and **Statistics** (empirical probability limits).
 
-Given the first die is 4, the second die must be 3, giving exactly 1 outcome out of 6 possibilities for die 2. **P(sum = 7 \| die 1 = 4) = 1/6**. Note that these events are independent — the conditional equals the marginal because each die's value does not influence the other.
+#### Common Mistakes
+1. Dividing by 7 instead of 8 in without-replacement draws.
+2. Forgetting that circular permutations divide by n to remove rotational duplicates.
+3. Treating "at least one" as a single event rather than computing 1 − P(none).
+4. Using n!/(n−r)! when the question actually asks for a selection, not an arrangement.
 
-#### Edge Cases and ECAT Traps
-
-| Scenario | Correct move | Why students slip |
-| --- | --- | --- |
-| "At least one head in 3 tosses" | Use 1 − P(no heads) = 1 − (1/2)³ | Counting overlaps in addition rule |
-| P(A ∪ B) with overlapping events | Subtract P(A ∩ B) | Treating events as mutually exclusive |
-| Bayes' two-stage problem | Apply P(A\|B) = P(A ∩ B)/P(B) | Confusing numerator and denominator |
-| Restricted permutation with repetition | Divide by repeated-factorial terms | Ignoring identical objects |
-
-#### Connections and Practice Prompts
-
-Permutations feed directly into **binomial probability**: P(X = k) = C(n, k) p^k (1−p)^(n−k). Conditional probability connects to **Bayes' theorem**, useful when UET Lahore frames reverse-conditioning MCQs.
-
-1. A bag has 5 red and 3 blue balls. Two are drawn without replacement. Compute P(both red).
-2. How many 4-digit PINs from digits 0–9 contain no repeated digit? (Answer uses P(10, 4) = 5040.)
+#### Practice Prompts
+1. From 7 men and 4 women, a committee of 5 with exactly 3 men is formed. Find the number of committees and the probability that the chair is a woman.
+2. Two dice are rolled. Compute P(sum = 7 OR both dice even) using the addition rule directly.
 
 ## Continue your study
 
@@ -87,5 +80,4 @@ Permutations feed directly into **binomial probability**: P(X = k) = C(n, k) p^k
 - **[ECAT (Engineering College Admission Test) exam overview](/exams/ecat/)** — pattern, eligibility, and syllabus
 - **[All Mathematics notes](/notes/ecat/mathematics/)** — browse sibling topics in this subject
 
----
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

@@ -21,60 +21,117 @@ diagramPrompt: "Clear scientific diagram of Metallurgy with atom labels, molecul
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Metallurgy** is the sequence of operations that converts an ore into a usable, pure metal: **concentration → extraction (reduction) → refining**, with optional alloying at the end. In JEE Advanced, marks hinge on three areas — the **Ellingham diagram**, **specific extraction flowsheets** (Fe, Cu, Al, Zn, Ag, Au), and **refining methods**.
+Metallurgy is the sequence of operations that converts an ore into a usable, pure metal: **concentration → conversion to oxide → reduction → refining**. The first two physical steps separate the ore from gangue and convert sulphides/carbonates into oxides, after which a reductant is chosen based on the **Ellingham diagram** (ΔG° vs T plot of oxide formation).
 
-- **Steps:** ore dressing → calcination (carbonates, no S) or roasting (sulphides, evolves SO₂) → reduction → refining.
-- **Ellingham rule:** a metal oxide whose ΔG° line sits *lower* on the ΔG° vs T plot is more stable; a reductant whose line sits *higher* can reduce it. C/CO line has **positive slope**, C/CO₂ has **negative slope** — they cross most metal-oxide lines at high T, making **carbon a stronger reductant above the crossover**.
-- **Hall-Héroult cell:** 2Al₂O₃ + 3C → 4Al + 3CO₂; cryolite (Na₃AlF₆) lowers the melt from ~2050 °C to ~950 °C.
-- **Refining picks:** electrolytic for Cu/Zn, **Mond** (Ni(CO)₄) for Ni, **van Arkel** (volatile Iodide) for Ti/Zr/Hf, **zone** for Si/Ge.
-- **Faraday's law:** m = (I·t·M)/(n·F); remember n = 2 for Cu²⁺, 3 for Al³⁺, 1 for Ag⁺.
+- **Calcination** heats carbonate/hydrate ores in limited air (CaCO₃ → CaO + CO₂); **roasting** heats sulphide ores in excess air (ZnS + 3O₂ → 2ZnO + 2SO₂).
+- Carbon reduces most metal oxides only **above** its C/CO crossover; below it, **Al or Mg** are stronger (thermite: Cr₂O₃ + 2Al → Al₂O₃ + 2Cr).
+- **Aluminium** comes from bauxite via **Bayer → Hall-Héroult**; cryolite (Na₃AlF₆) lowers the melt from ~2050 °C to ~950 °C.
+- Mass deposited in electrolytic refining: **m = (I·t·M)/(n·F)**, F = 96485 C·mol⁻¹.
+
+| Step | Typical reagent | Purpose |
+| --- | --- | --- |
+| Calcination | Heat, limited air | Convert carbonate to oxide |
+| Roasting | O₂, excess air | Convert sulphide to oxide + SO₂ |
+| Reduction | C, CO, Al, electrolysis | Obtain crude metal |
+| Refining | Electrolysis / zone / vapour | Achieve 99.9%+ purity |
+
+---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-#### Concentration and Conversion to Oxide
-The first job is separating **ore mineral** from **gangue** (worthless matrix). Hydraulic washing uses gravity; magnetic separation lifts magnetite (Fe₃O₄); froth flotation uses a pine-oil froth that carries sulphide particles (Cu, Zn, Pb) upward. Leaching dissolves the valuable component chemically — **bauxite with NaOH (Bayer)** and **Au/Ag with NaCN (cyanide)** are the JEE favourites. The concentrated ore is then converted to its oxide: **calcination** for carbonates and hydroxides (e.g., CaCO₃ → CaO + CO₂) and **roasting** for sulphides (e.g., 2ZnS + 3O₂ → 2ZnO + 2SO₂).
+#### Concentration of Ore
 
-#### Ellingham Diagram and Choice of Reductant
-For the oxide-formation reaction 2M + O₂ → 2MO, plotting ΔG° = ΔH° − TΔS° versus T gives a nearly straight line whose slope is −ΔS°. A line lower on the diagram means a more stable oxide. A reductant R is feasible only if its R-oxide line lies **above** the M-oxide line so that the coupled reaction is ΔG° < 0. The **C/CO line slopes upward** (ΔS > 0, gas moles 1 → 2) and the **C/CO₂ line slopes downward** (ΔS < 0, 2 → 1); they intersect most metal-oxide lines, so carbon becomes a stronger reductant at high T.
+Gangue is removed by **hydraulic washing** (gravity, for oxide ores like haematite Fe₂O₃), **magnetic separation** (chromite FeCr₂O₄, magnetite Fe₃O₄), and **froth flotation** (sulphide ores whose particles are water-repellent and attach to air bubbles). For native Au and Ag, **amalgamation** with Hg dissolves the metal, which is then distilled off.
 
-| Reduction route | Best reductant | Typical ore → metal |
+#### Calcination vs Roasting
+
+Calcination drives off CO₂ or H₂O from carbonates, hydroxides and hydrated oxides in the absence/limited supply of air. Roasting oxidises sulphide ores in excess air, producing SO₂ and converting the metal to its oxide. The Ellingham diagram tells you the **thermodynamic favourability** of oxide formation as a function of temperature.
+
+#### The Ellingham Diagram
+
+The plot of **ΔG° vs T** for 2M + O₂ → 2MO gives a line whose slope equals −ΔS° of the reaction. For most metal oxides, gas moles do not change, so the slope is nearly zero or slightly positive.
+
+The **C/CO line** has a positive slope because the reaction 2C + O₂ → 2CO increases gas moles (ΔS > 0). The **C/CO₂ line** has a negative slope (2C + O₂ → 2CO₂, gas moles unchanged at first, then effectively decreasing as T rises). The C/CO line crosses nearly every metal-oxide line at a characteristic temperature — above that crossover, **carbon is the strongest practical reductant**.
+
+#### Reduction and Refining
+
+Once the oxide is obtained, reduction by coke, CO, Al, Mg, H₂ or electrolysis gives the crude metal. The crude metal is then refined to 99.99% purity by one of these methods:
+
+| Refining method | Mechanism | Used for |
 | --- | --- | --- |
-| Carbon reduction | Coke above crossover T | ZnO → Zn, Fe₂O₃ → Fe (blast furnace) |
-| Self-reduction | Sulphide itself | Cu₂S + Cu₂O → 6Cu + SO₂ |
-| Electrolytic | Electricity | Al₂O₃ → Al (Hall-Héroult), NaCl → Na |
-| Displacement | Zn, Fe, Mg | 2Na[Au(CN)₂] + Zn → 2Au |
+| Electrolytic | Anode dissolves, cathode deposits | Cu, Zn, Al, Ag |
+| Zone refining | Impurity swept by molten zone | Si, Ge, Ga (semiconductors) |
+| Van Arkel–de Boer | Volatile iodide decomposed on W wire | Ti, Zr, Hf |
+| Mond process | Ni + 4CO → Ni(CO)₄ at 330 K, decomposes at 450 K | Nickel |
+| Liquation | Low-melting metal flows out | Sn, Pb |
+| Distillation | Metal vaporised and condensed | Zn, Hg |
 
-#### Refining Methods
-Refining choices are dictated by what purity is needed and the metal's chemistry. **Electrolytic refining** of copper uses impure blister Cu as anode and a pure Cu strip as cathode in acidified CuSO₄, giving 99.99% purity. **Vapour-phase refining** converts the metal to a volatile compound and back: van Arkel (Ti + 2I₂ ⇌ TiI₄ at 500 K → decomposed on a 1700 K W filament) and Mond process (Ni + 4CO ⇌ Ni(CO)₄ at 330 K → decomposed at 450 K). **Zone refining** sweeps a molten zone along a rod; impurities stay in the liquid because of their higher solubility there, yielding ultra-pure Si, Ge, and Ga used in semiconductors.
+#### Worked Example — Hall-Héroult Process
 
-> Tip: Mond works only for nickel because Ni(CO)₄ is the only common metal carbonyl that forms easily and decomposes cleanly — examiners ask this as a direct single-correct MCQ.
+Bauxite (Al₂O₃·2H₂O + Fe₂O₃ + SiO₂ impurities) is digested with NaOH (Bayer process) — Fe₂O₃ and SiO₂ stay insoluble, NaAlO₂ goes into solution, then CO₂ precipitates pure Al(OH)₃, which on calcination gives pure Al₂O₃.
+
+In the **Hall-Héroult cell**, pure Al₂O₃ is dissolved in molten cryolite (Na₃AlF₆) with a little fluorspar (CaF₂) at ~950 °C. The graphite anode is consumed by the evolved O₂; overall:
+
+> **2Al₂O₃ + 3C → 4Al + 3CO₂**
+
+Molten Al (ρ ≈ 2.70 g·cm⁻³) collects at the carbon-lined cathode; CO₂ bubbles off at the anode.
+
+#### Common Exam Pitfalls
+
+- Reversing anode/cathode in electrolytic Cu refining (impure blister Cu is the **anode**, pure Cu strip is the **cathode**, electrolyte is acidified CuSO₄).
+- Wrong valency **n** in Faraday's law: Al³⁺ uses n = 3, Cu²⁺ uses n = 2.
+
+---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-#### Blast Furnace and the Iron Flowsheet
-The integrated iron process layers coke, ore (Fe₂O₃/haematite), and limestone (CaCO₃) from the top of a tall shaft. Hot air injected at the tuyeres combusts coke to CO, and the rising CO reduces the descending ore in stages: Fe₂O₃ → Fe₃O₄ → FeO → Fe. CaCO₃ decomposes to CaO, which joins SiO₂ gangue as **CaSiO₃ slag** that floats above molten **pig iron**. The overall reduction is Fe₂O₃ + 3CO → 2Fe + 3CO₂, with the Ellingham diagram justifying why CO works at ~900–1500 K but not below.
+#### Thermodynamics of Coupled Reductions
 
-#### Worked Faraday Example
-Calculate the mass of Cu deposited in 2 hours by a 5.0 A current through acidified CuSO₄. Using m = (I·t·M)/(n·F) = (5.0 × 7200 × 63.5)/(2 × 96485) = 11.85 g. Trap: students plug n = 1 and overshoot the answer by a factor of two — for CuSO₄ the discharging ion is Cu²⁺, so n = 2.
+A metal oxide MO is reduced by a reductant R when the **combined** ΔG° of oxidation of R plus reduction of MO is negative:
 
-| Refining method | Purity | Mechanism | Used for |
-| --- | --- | --- | --- |
-| Electrolytic | 99.99% | Anode dissolves, cathode plates | Cu, Zn, Ag |
-| Zone refining | 99.9999% | Segregation of impurity in molten zone | Si, Ge, B, Ga |
-| Vapour phase (van Arkel) | 99.9%+ | Volatile iodide decomposed on hot W wire | Ti, Zr, Hf |
-| Mond | 99.9%+ | Volatile Ni(CO)₄ formed then decomposed | Ni only |
-| Liquation | crude | Metal melts and drains from impurities | Sn, Pb |
+> **ΔG°(overall) = ΔG°(R → RO) + ΔG°(MO → M)**
 
-#### Connections and Common Traps
-1. **Cryolite is not the ore** — it only lowers Al₂O₃'s melting point and boosts conductivity; the actual carbon anode is consumed (C + O²⁻ → CO/CO₂ + electrons), so its mass decreases each run.
-2. **Zone refining vs van Arkel** — the former is a physical solubility partition with no chemistry; the latter is a reversible chemical-transport cycle (M + 2I₂ ⇌ MI₄). Examiners pair them to test whether you understand *why* ultra-pure Ti and Si need different routes.
-3. **Thermite vs carbon reduction** — Cr₂O₃ + 2Al → Al₂O₃ + 2Cr works because Al's ΔG° line is below Cr₂O₃'s at room temperature; carbon cannot reduce Cr₂O₃ economically.
+On the Ellingham diagram this means drawing a vertical at the operating temperature and noting which line lies **lower**. A line below another means that oxide is more stable, so the upper oxide will be reduced by the lower metal. This is why **Al reduces Fe₂O₃, Cr₂O₃ and Mn₃O₄** even though carbon can do so at blast-furnace temperatures.
 
-#### Practice prompts:
-- Sketch the Ellingham diagram and predict whether Mg can reduce SiO₂ at 1500 K — justify using line positions.
-- 10.0 A is passed through molten Al₂O₃ for 5.0 hours. Compute the Al collected (n = 3, M = 27 g·mol⁻¹).
+#### Iron Extraction in the Blast Furnace
+
+Fe₂O₃, coke and limestone (CaCO₃) are charged from the top; preheated air is blown in at the tuyère zone.
+
+- At the top, ~500 K, Fe₂O₃ + 3CO → 2Fe + 3CO₂ (indirect reduction).
+- Lower down, ~900–1500 K, coke burns: C + O₂ → CO₂; CO₂ + C → 2CO.
+- CaCO₃ → CaO + CO₂ near 1100 K; CaO + SiO₂ → CaSiO₃ (slag, tapped separately).
+- Pig iron (≈ 4% C) collects at the bottom; slag floats above it.
+
+#### Silver and Gold — Cyanide Process
+
+Native or roasted ore is leached with dilute NaCN solution in the presence of air:
+
+> **4Au + 8NaCN + O₂ + 2H₂O → 4Na[Au(CN)₂] + 4NaOH**
+
+Zinc shavings then displace Au from the soluble dicyanoaurate(I) complex:
+
+> **2Na[Au(CN)₂] + Zn → Na₂[Zn(CN)₄] + 2Au**
+
+The gold sludge is washed, dried and fused with borax to give metallic gold.
+
+#### Zone Refining vs Van Arkel — A Subtle Distinction
+
+Both produce ultra-pure metals, but the physics differs. **Zone refining** repeatedly sweeps a molten zone along a bar; impurities partition preferentially into the liquid and are carried to one end (no chemistry). **Van Arkel–de Boer** is a chemical vapour transport:
+
+> **Ti + 2I₂ → TiI₄** (at ~500 K) → **TiI₄ → Ti + 2I₂** (at ~1700 K on a tungsten filament).
+
+The first exploits solubility partitioning, the second exploits volatility of a transient compound.
+
+#### Practice Prompts
+
+1. At 1500 K, the Ellingham line for 2Mg + O₂ → 2MgO sits below that for 2C + O₂ → 2CO. Predict whether coke can reduce MgO at this temperature, and write the net reaction if not.
+2. An electrolytic refining cell uses 1500 A for 1 hour to deposit copper from CuSO₄. Using n = 2 and M = 63.5 g·mol⁻¹, calculate the mass of copper deposited at the cathode (F = 96485 C·mol⁻¹).
+
+#### Exam-Specific Strategy
+
+In JEE Advanced, metallurgy contributes roughly 1 integer-type or 1–2 MCQ items per paper, usually linked to the Ellingham diagram or to a refining method. **Drawing the Ellingham diagram quickly and reading crossovers correctly** is the single highest-yield skill in this chapter.
 
 ## Continue your study
 

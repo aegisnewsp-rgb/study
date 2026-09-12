@@ -11,7 +11,7 @@ topicName: United Nations and International Relations
 weight: 3
 country: pakistan
 generated: "2026-03-24T08:32:08.035436"
-lastUpdated: "2026-06-23"
+lastUpdated: "2026-09-12"
 diagramPrompt: "Educational diagram illustrating United Nations and International Relations with clear labels, white background, exam-style illustration"
 
 
@@ -24,55 +24,84 @@ diagramPrompt: "Educational diagram illustrating United Nations and Internationa
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-The **United Nations (UN)** is an intergovernmental organisation founded on **24 October 1945** under the **UN Charter**, signed in San Francisco. **International Relations (IR)** is the study of interactions among states and non-state actors across diplomacy, conflict, law, and global governance. The UN has **six principal organs**: General Assembly (GA), Security Council (SC), Economic and Social Council (ECOSOC), Trusteeship Council (suspended 1994), International Court of Justice (ICJ), and Secretariat. The **SC has 15 members: 5 permanent (P5: China, France, Russia, UK, USA) with veto power, and 10 non-permanent members elected for 2-year terms**. Substantive resolutions need **9 affirmative votes including all P5** (Article 27). **Article 38(1)** of the ICJ Statute lists four sources of international law: treaties, custom, general principles, and judicial/scholarly writings as subsidiary means. LAT frequently tests SC veto, ICJ jurisdiction, and UN organs' powers.
+The **United Nations (UN)** is a 193-member intergovernmental body founded on **24 October 1945** through the **UN Charter**, charged with maintaining peace, promoting human rights, and developing international law. **International Relations (IR)** analyses how states, IGOs, and transnational actors interact, chiefly through the **Realism, Liberalism, and Constructivism** paradigms.
+
+- **Six principal UN organs:** General Assembly, Security Council, ECOSOC, Trusteeship Council (suspended 1994), ICJ, Secretariat.
+- **Security Council** has **15 members**: 5 permanent (China, France, Russia, UK, US) with **veto power** plus 10 non-permanent elected for **2-year terms**.
+- **Article 2(4)** bans the threat or use of force; **Article 51** preserves the right of self-defence until the Security Council acts.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-#### Six Principal Organs and Their Functions
+#### Charter Foundations
 
-The UN Charter (Chapter III, Articles 7–22) creates six principal organs. The **General Assembly** is a deliberative body where all 193 member states have one vote each; it adopts resolutions on peace, security, budget (via the Fifth Committee), and elects non-permanent SC members, the ICJ judges, and the Secretary-General on SC recommendation. The **Security Council** bears *primary* responsibility for international peace and security (Article 24); only it can mandate binding enforcement under **Chapter VII** — sanctions, arms embargoes, or collective military action.
+The UN Charter is the organisation's constitutional instrument. **Article 2(4)** prohibits member states from threatening or using force against the territorial integrity or political independence of any state. **Article 51** carves out the **inherent right of individual or collective self-defence** if an armed attack occurs, exercisable until the Security Council takes necessary measures. Together, these articles frame the post-1945 prohibition on aggression, subject to narrow self-defence exceptions.
 
-#### The Veto and Voting Rule
+#### UN Principal Organs and Functions
 
-Substantive matters require **9 affirmative votes including the concurring votes of all five permanent members**. Abstention by a P5 is not a veto, but absence is. The veto has been used over 290 times, predominantly by the USSR/Russia and the USA. Procedural matters (e.g., agenda items) need 9 affirmative votes with no veto.
+| Organ | Composition | Key function |
+| --- | --- | --- |
+| General Assembly | All 193 member states | Deliberative body; resolutions on substantive issues are non-binding |
+| Security Council | 15 (5 P5 + 10 elected) | Peace and security; binding decisions under Chapter VII |
+| ECOSOC | 54 members | Coordinates economic, social, and environmental work |
+| Trusteeship Council | Suspended since 1994 | Originally supervised trust territories |
+| ICJ | 15 judges | Settles legal disputes between states; advisory opinions |
+| Secretariat | Secretary-General + staff | Administrative and executive functions |
 
-#### ICJ and Sources of International Law
+The **P5 veto** extends to any substantive matter; even procedural decisions require **9 affirmative votes** with no P5 dissent.
 
-The **International Court of Justice** settles legal disputes between states (contentious cases) and gives advisory opinions to UN organs. Only states may be parties; jurisdiction rests on consent — through compromise, treaty clause, or **forum prorogatum**. **Article 38(1)** codifies sources: (a) international conventions, (b) international custom (state practice + *opinio juris*), (c) general principles of civilised nations, (d) judicial decisions and teachings as subsidiary means.
+#### Sources of International Law
 
-#### IR Theories
+**Article 38(1) of the ICJ Statute** lists, in order: international conventions, international custom, general principles of law, and (as subsidiary means) judicial decisions and the teachings of highly qualified publicists. **Customary international law** arises from consistent **usages** accompanied by **opinio juris** — the belief that such practice is legally required.
 
-**Realism** treats states as unitary rational actors pursuing power in an anarchic system; **Liberalism** emphasises institutions, trade, and cooperation (Keohane, Ikenberry); **Constructivism** focuses on shared norms and identity shaping state behaviour (Wendt).
+#### Treaty Law Under the Vienna Convention 1969
 
-#### Exam Pattern for LAT
+A treaty moves from **signature** (intent, binds the state not to defeat the object and purpose) to **ratification** (consent to be bound) to **entry into force**. The principle of **pacta sunt servanda** requires good-faith performance.
 
-LAT Current Affairs (3% weightage) typically asks 1–2 MCQs on UN organs, veto counts, or ICJ jurisdiction. A common trap: confusing GA resolutions (recommendatory) with SC resolutions under Chapter VII (binding).
+- Treaties are binding on parties only after ratification or accession.
+- **Reservations** must be compatible with the treaty's object and purpose.
+- Pakistan is a party to the Geneva Conventions, the ICCPR, and the Vienna Convention itself.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-#### Edge Cases and Modern Developments
+#### Collective Security and Chapter VII
 
-The **Trusteeship Council** suspended operations in 1994 after Palau's independence, leaving it formally inactive. **Peacekeeping operations (UNPKO)** under Chapter VI½ are consent-based, distinguishing them from enforcement under Chapter VII; classic examples are UNEF-I (Suez 1956) and MONUSCO (DRC). The **Responsibility to Protect (RtoP)**, endorsed at the 2005 World Summit, attempts to reconcile sovereignty with humanitarian intervention but has not overridden SC deadlock (e.g., Syria 2011–).
+Chapter VII authorises the Security Council, after determining the existence of any **threat to the peace, breach of the peace, or act of aggression**, to impose **non-military sanctions** (Article 41) or authorise **armed action** (Article 42). Peacekeeping operations (consent-based, lightly armed, blue helmets) are legally distinct from peace enforcement under Chapter VII, which does not require host-state consent.
 
-#### Connections to Adjacent Topics
+#### Theoretical Paradigms in IR
 
-Link UN studies to the **Bretton Woods twins** (IMF, World Bank) created 1944, the **WTO** (1995 Marrakesh Agreement), and the **Geneva Conventions 1949 + Additional Protocols** that codify international humanitarian law. The **Vienna Convention on the Law of Treaties (1969)** governs treaty interpretation, with Articles 31–32 forming the standard LAT reference for treaty construction. The **Universal Declaration of Human Rights (1948)** is declaratory, not binding — binding force arises through the **ICCPR** and **ICESCR** (1966).
+| Paradigm | Core claim | Key concept |
+| --- | --- | --- |
+| Realism | States act to maximise power in an anarchic system | Balance of power, deterrence |
+| Liberalism | Institutions and interdependence reduce conflict | Cooperation, multilateral diplomacy |
+| Constructivism | Norms and identity shape state behaviour | Socialisation, normative change |
 
-#### Common Mistakes
+#### Common Distinctions Tested in LAT
 
-(1) Saying the GA can *bind* states — it recommends. (2) Assuming ICJ judgments are automatically enforceable — they bind only parties, with SC enforcement under Article 94. (3) Confusing the **League of Nations** (1920–1946) with the UN.
+1. **ICJ vs ICC:** the **ICJ** settles **state-to-state** disputes; the **ICC** prosecutes **individuals** for genocide, war crimes, and crimes against humanity under the Rome Statute — they are separate institutions.
+2. **GA resolutions** carry political/moral weight but are legally non-binding on substantive matters; **SC resolutions** under Chapter VII are binding.
+3. **Signature** does not bind a state; only **ratification** creates legal obligations under the Vienna Convention 1969.
+4. **Peacekeeping** is consent-based; **peace enforcement** under Chapter VII is not.
+5. **Pakistan is NOT a P5 member**, but contributes one of the largest contingents of peacekeepers globally.
 
 #### Practice Prompts
 
-**Q1.** A SC resolution on peace and security is opposed by one P5 but supported by all others. What is the outcome? *(Answer: vetoed; fails Article 27(3).)*
+1. Distinguish between the **ICJ** and the **ICC** in terms of jurisdiction, parties, and legal basis.
+2. Explain how **Article 2(4)** and **Article 51** of the UN Charter together regulate the use of force, citing one limitation of the self-defence exception.
 
-**Q2.** State X accepts ICJ jurisdiction only via compromissory clauses in treaties. Can X be sued for an unrelated customary-law claim? *(Answer: No — jurisdiction requires consent; customary law is a substantive source, not a jurisdictional basis.)*
+---
+
+## Continue your study
+
+- **[View this topic in your LAT (Law Admission Test) roadmap](/roadmap/?exam=lat&duration=1mo)** — see where "United Nations and International Relations" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=lat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[LAT (Law Admission Test) exam overview](/exams/lat/)** — pattern, eligibility, and syllabus
+- **[All Current Affairs notes](/notes/lat/current-affairs/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

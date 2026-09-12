@@ -19,62 +19,83 @@ diagramPrompt: "Mathematical diagram showing Probability and Permutations concep
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-Probability quantifies how likely an event is, using **P(A) = n(A)/n(S)**, where n(A) is the count of favourable outcomes and n(S) is the total count of equally likely outcomes in the sample space. The value always satisfies **0 ≤ P(A) ≤ 1**. A permutation counts ordered arrangements of r distinct objects taken from n distinct objects: **P(n,r) = n!/(n−r)!**.
+Probability quantifies how likely an event is, with **P(A) = favourable outcomes / total equally likely outcomes**, bounded between 0 and 1. A **permutation** counts ordered arrangements of r distinct objects chosen from n, computed as **P(n,r) = n! / (n−r)!**. In ECAT, this cluster contributes about 4% of the Mathematics paper, usually appearing as 1–2 standalone MCQs rather than a sub-part of a longer question.
 
-- **Order matters** for permutations; ignore it for combinations (nCr = n!/(r!(n−r)!), not asked directly but often the trap).
-- **Independent events** multiply: P(A ∩ B) = P(A)·P(B).
-- **Mutually exclusive events** add with no overlap: P(A ∪ B) = P(A) + P(B).
-- **Complement rule**: P(A') = 1 − P(A) — fastest shortcut for "at least one" problems.
+- **Sample space** n(S) lists every possible outcome of the experiment.
+- **Mutually exclusive events** share no outcome, so P(A ∩ B) = 0.
+- **Complement rule**: P(A′) = 1 − P(A), useful for "at least one" problems.
+
+| Concept | Quick formula |
+| --- | --- |
+| Classical probability | P(A) = n(A) / n(S) |
+| Permutation (ordered) | P(n,r) = n! / (n−r)! |
+| Independent events | P(A ∩ B) = P(A) · P(B) |
+
+---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-#### Core Probability Rules
+#### Core Definitions
 
-ECAT asks you to apply axioms, not derive them. Memorise the four operational formulas and recognise which one a question triggers by its wording.
+A **random experiment** produces outcomes that cannot be predicted individually but follow a known long-run pattern. The set of all possible outcomes is the **sample space** S, and any subset of S is an **event**. When every outcome in S is equally likely, the classical probability formula P(A) = n(A)/n(S) applies directly. A **permutation** is an ordered selection; a **combination** is an unordered selection. The factorial n! = n × (n−1) × … × 1 grows fast, which is why ECAT questions often test small values of n and r.
 
-| Rule | Formula | When to use |
+#### The Three Counting Rules You Must Memorise
+
+The **multiplication principle** says that if task 1 has m outcomes and task 2 has n outcomes, the combined task has m·n outcomes. The **addition principle** is invoked when disjoint alternatives exist. For permutations, nPr = n! / (n−r)! counts arrangements where order matters — for example, the first, second, and third finishers in a race of 10 runners is P(10,3) = 720.
+
+#### Worked Relationship: Addition Rule
+
+For two events that can occur together, **P(A ∪ B) = P(A) + P(B) − P(A ∩ B)**. The subtracted term prevents double-counting the overlap. When A and B are mutually exclusive, P(A ∩ B) = 0 and the rule simplifies to a plain sum.
+
+- **Conditional probability** P(A|B) = P(A ∩ B) / P(B) requires P(B) > 0.
+- **Independent events** satisfy P(A ∩ B) = P(A) · P(B); equivalently, P(A|B) = P(A).
+- **Complement trick**: "at least one" problems collapse to 1 − P(none).
+
+| Rule | When to apply | Formula |
 | --- | --- | --- |
-| Classical | P(A) = n(A)/n(S) | Finite sample space, equally likely outcomes |
-| Addition | P(A ∪ B) = P(A) + P(B) − P(A ∩ B) | "A or B" — subtract the overlap unless mutually exclusive |
-| Multiplication | P(A ∩ B) = P(A)·P(B) | Independent events only |
-| Conditional | P(A\|B) = P(A ∩ B)/P(B) | "A given that B has occurred", P(B) > 0 |
+| Multiplication | Sequential independent choices | Total = m × n |
+| Addition (general) | Overlapping events allowed | P(A) + P(B) − P(A ∩ B) |
+| Addition (disjoint) | Mutually exclusive events | P(A) + P(B) |
+| Permutation | Order matters | n! / (n−r)! |
 
-#### Permutations vs Counting Principle
-
-The factorial n! grows fast (5! = 120, 6! = 720), so permutation values explode quickly. For P(n,r), cancel n! against (n−r)! before multiplying to avoid overflow errors on paper.
-
-#### Typical ECAT Patterns
-
-- "How many ways can 5 people sit on 3 chairs?" → P(5,3) = 60.
-- "Probability of getting at least one head in 3 coin tosses?" → 1 − P(all tails) = 1 − (1/2)³ = 7/8.
-- "Two cards drawn without replacement — probability second is a king?" → Conditional, P(K₂\|K₁) = 3/51.
-
-ECAT tests these as 1–2 MCQs in the Mathematics section, usually as short numeric answers (integer or simplified fraction).
+---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-#### Edge Cases and Bayes' Theorem
+#### Bayes' Theorem and Two-Stage Experiments
 
-When P(A\|B) is asked but only P(B\|A), P(A), and P(B) are given, use **Bayes' theorem**: P(A\|B) = P(B\|A)·P(A) / P(B). ECAT rarely tests Bayes directly, but conditional probability appears in "without replacement" card or ball problems.
+When an event B partitions the sample space into stages, **Bayes' theorem** updates the probability of a cause A given that B has occurred:
 
-| Mistake | Why it costs marks | Fix |
+**P(A|B) = [P(B|A) · P(A)] / P(B)**, where P(B) = P(B|A)P(A) + P(B|A′)P(A′).
+
+ECAT rarely asks the full formula, but a 2-stage tree problem (drawing a card then a ball) is fair game. Build a tree diagram, fill in branch probabilities, and multiply along the path you want.
+
+#### Edge Cases and Counting Traps
+
+The expression "arrangements of the word KARACHI" hides repeated letters; using P(7,7) = 5040 overcounts because the two A's are interchangeable, giving 5040/2! = 2520 distinct arrangements. Another common trap is treating "select a team of 3 from 11" as P(11,3) = 990 instead of the combination C(11,3) = 165 — order does not matter in a team.
+
+#### Common Mistakes (ECAT-Specific)
+
+- Substituting P(B|A) for P(A|B) in conditional questions.
+- Multiplying probabilities when events are mutually exclusive instead of adding.
+- Forgetting to subtract r! when arranging objects with identical elements.
+- Writing n! in the denominator of P(n,r) instead of (n−r)!.
+
+| Scenario | Use this | Not this |
 | --- | --- | --- |
-| Using P(A\|B) = P(B\|A) | Different denominators | Write the conditional formula explicitly first |
-| Treating "with replacement" as "without" | Denominator changes (52 vs 51) | Re-read the stem for the word "replacement" |
-| Adding instead of multiplying for "and" | Wording traps | "And" → multiply (independent); "Or" → add (with overlap) |
-| Computing C(n,r) when P(n,r) is asked | Order ignored wrongly | Check whether arrangement or selection is asked |
+| Top 3 ranks from 20 | P(20,3) | C(20,3) |
+| Committee of 4 from 12 | C(12,4) | P(12,4) |
+| Letters of "LEVEL" | 5! / 2!2! | 5! |
+| "At least one" success | 1 − P(none) | Direct enumeration |
 
-#### Worked Micro-Example
+#### Practice Prompts
 
-A bag has 4 red and 6 blue balls. Three balls are drawn without replacement. Find P(exactly 2 red).
+1. A bag holds 4 red and 6 blue balls. Two balls are drawn without replacement. Find P(both red) and P(at least one red).
+2. How many 4-digit PINs from digits 0–9 contain no repeated digit? Answer using P(10,4) = 5040, then subtract cases starting with 0.
 
-> Counting the favourable draws: C(4,2)·C(6,1) = 6·6 = 36; total draws: C(10,3) = 120; so P = 36/120 = 3/10.
-
-#### Exam Strategy
-
-ECAT's 4% weight means one MCQ on average — practise 15–20 past-paper items on probability and P(n,r) formulas to lock in the pattern recognition.
+---
 
 ## Continue your study
 
@@ -83,5 +104,4 @@ ECAT's 4% weight means one MCQ on average — practise 15–20 past-paper items 
 - **[ECAT (Engineering College Admission Test) exam overview](/exams/ecat/)** — pattern, eligibility, and syllabus
 - **[All Mathematics notes](/notes/ecat/mathematics/)** — browse sibling topics in this subject
 
----
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

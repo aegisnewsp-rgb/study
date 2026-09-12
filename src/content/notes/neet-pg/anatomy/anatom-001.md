@@ -8,7 +8,7 @@ topicName: "Cell Structure and General Anatomy"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-12"
 ---
 
 # Cell Structure and General Anatomy
@@ -16,273 +16,88 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Cell Structure** — Key Facts for NEET PG
-- **Cell**: Basic unit of life — all cells arise from pre-existing cells
-- **Plasma Membrane**: Fluid Mosaic Model — phospholipid bilayer with embedded proteins
-- **Nucleus**: Contains DNA, controls cell activities; nuclear envelope with pores
-- **Mitochondria**: Powerhouse — ATP synthesis via oxidative phosphorylation
-- ⚡ **Exam tip**: Mitochondria have their own DNA and ribosomes (evidence for endosymbiotic theory)
+The human cell is a membrane-bound unit (~10–100 µm) whose organelles execute specialised biochemical roles, and four tissue types (epithelial, connective, muscular, nervous) build organs. The plasma membrane follows the **fluid mosaic model** — a phospholipid bilayer with embedded integral proteins, peripheral proteins, cholesterol, and a glycocalyx coat.
 
----
+- **Plasma membrane**: phospholipid bilayer + cholesterol; selective permeability; transport via diffusion, facilitated diffusion, active transport, and vesicular pathways.
+- **Nucleus**: houses chromatin and nucleolus; DNA wraps around histone octamers (H2A, H2B, H3, H4) into nucleosomes.
+- **Mitochondria**: double membrane with cristae; matrix hosts TCA cycle; own 37-gene circular mtDNA; **80S cytoplasmic vs 70S mitochondrial** ribosome trap.
+- **RER vs SER**: RER = protein synthesis + N-glycosylation; SER = lipid/steroid synthesis + cytochrome P450 detoxification.
+- **Cytoskeleton**: actin (~7 nm), intermediate filaments (~10 nm), microtubules (~25 nm); mitotic spindle and organelle trafficking via kinesin/dynein.
+- **Tissue types**: epithelial (avascular, polarised), connective (vascular, ECM-rich), muscle, nervous.
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-## Cell Structure and General Anatomy — NEET PG Study Guide
+#### Membrane Structure and Transport
 
-### Cell Theory
+The phospholipid bilayer arranges hydrophilic heads outward and hydrophobic tails inward, producing selective permeability. Integral proteins (transmembrane) mediate transport and signalling; peripheral proteins anchor the cytoskeleton. **Cholesterol** stiffens the membrane at 37 °C and prevents tight packing below the transition temperature. Glycolipids and glycoproteins project only from the **extracellular leaflet**, a key asymmetry tested in MCQs.
 
-1. All living organisms are composed of cells
-2. Cell is the basic unit of life
-3. All cells arise from pre-existing cells (Rudolf Virchow, 1855)
+Transport mechanisms:
 
-**Exceptions to Cell Theory**: Viruses — acellular, but living entities
+- **Passive diffusion**: O₂, CO₂, steroid hormones down the gradient.
+- **Facilitated diffusion**: GLUT transporters for glucose, ion channels for Na⁺/K⁺.
+- **Active transport**: Na⁺/K⁺-ATPase (basolateral in epithelia) using ATP.
+- **Bulk transport**: endocytosis (phagocytosis, pinocytosis, receptor-mediated) and exocytosis.
 
-### Types of Cells
+#### Organelles and the Endomembrane System
 
-**Prokaryotic Cells**:
-- No membrane-bound nucleus (nucleoid region)
-- No membrane-bound organelles
-- Examples: Bacteria, Archaea
-- Size: 0.2-2 μm diameter
+The **nuclear envelope** has nuclear pores (~125 MDa complex) regulating macromolecular traffic. The **nucleolus** is the site of rRNA transcription and ribosomal subunit assembly.
 
-**Eukaryotic Cells**:
-- Membrane-bound nucleus
-- Membrane-bound organelles
-- Examples: Plant, Animal, Fungal cells
-- Size: 10-100 μm diameter
+| Organelle | Function | Identifying feature |
+| --- | --- | --- |
+| RER | Protein synthesis, N-glycosylation | Ribosomes on cytosolic face |
+| SER | Lipid/steroid synthesis, detoxification | Tubular network, no ribosomes |
+| Golgi apparatus | Cis receives, medial modifies, trans sorts | Stacked cisternae, trans-Golgi network |
+| Lysosome | Hydrolytic digestion (pH ~4.5) | Primary, secondary, residual body forms |
+| Peroxisome | β-oxidation of VLCFAs, H₂O₂ breakdown by catalase | Single membrane, dense matrix |
 
-### Plasma Membrane
+#### Cytoskeleton
 
-**Structure — Fluid Mosaic Model (Singer and Nicolson, 1972)**:
-- Phospholipid bilayer (hydrophilic heads outward, hydrophobic tails inward)
-- Proteins embedded or attached:
-  - **Integral proteins**: Span the membrane
-  - **Peripheral proteins**: Attached to surface
-- Cholesterol (in animal cells) — stabilizes membrane
-- Carbohydrates: Glycoproteins and glycolipids (cell recognition)
+Three filament systems form the cytoskeleton. **Microfilaments (actin, ~7 nm)** drive cell motility and cytokinesis; **intermediate filaments (~10 nm)** include cytokeratins (epithelia), vimentin (mesenchymal cells), desmin (muscle), and neurofilaments (neurons); **microtubules (~25 nm)** form the mitotic spindle and serve as kinesin/dynein tracks for organelle transport.
 
-**Functions**:
-- Selective permeability
-- Transport (channels, carriers, pumps)
-- Cell signaling
-- Cell adhesion
-- Cytoplasmic membrane framework
+#### Tissues and Polarity
 
-### Cell Organelles
-
-**Nucleus**:
-- Nuclear envelope: Double membrane with nuclear pores
-- Nucleolus: Site of rRNA synthesis
-- Chromatin: DNA + histones (forming chromosomes)
-- Nucleoplasm: Gel-like matrix
-
-**Mitochondria**:
-- Double membrane: Outer smooth, inner with cristae
-- Matrix: Contains mitochondrial DNA, ribosomes, Krebs cycle enzymes
-- ATP synthesis: 36 ATP per glucose (eukaryotes)
-- Semi-autonomous organelle
-
-**Endoplasmic Reticulum (ER)**:
-- **Rough ER**: Ribosomes attached, protein synthesis
-- **Smooth ER**: No ribosomes, lipid synthesis, detoxification
-
-**Golgi Apparatus**:
-- Cis face (receiving) and trans face (shipping)
-- Modifies, packages, and routes proteins
-
-**Lysosomes**:
-- Contain hydrolytic enzymes
-- Acidic interior (pH 4.5-5)
-- Autophagy, cell digestion
-
-**Ribosomes**:
-- rRNA + proteins
-- 70S (prokaryotes) / 80S (eukaryotes)
-- Site of protein synthesis (translation)
-
-### NCE Exam Pattern
-
-Common question types:
-1. Cell organelle functions
-2. Membrane structure and transport
-3. Differences between prokaryotic and eukaryotic cells
-4. Cell cycle and division
-5. DNA structure and replication
-
----
+Histology orientation rests on three surfaces — **apical** (free), **lateral** (cell-cell), and **basal** (basement membrane/connective tissue). Na⁺/K⁺-ATPase localises to the basolateral membrane in epithelia, a frequent assertion-reason MCQ trap.
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-## Cell Structure and General Anatomy — Comprehensive NEET PG Notes
+#### Surface-to-Volume Constraint and Cell Size
 
-### Detailed Theory
+The surface-area-to-volume ratio SA:V = 3/r (units m⁻¹) explains why cells cannot grow indefinitely. As radius r increases, the membrane area becomes inadequate to sustain metabolic exchange. This biophysical ceiling is why neurons extend axons rather than enlarge their somas, and why oocytes remain large only by accumulating inert yolk reserves.
 
-#### 1. Plasma Membrane Transport
+The Nernst equation gives the equilibrium potential for an ion across the membrane:
 
-**Passive Transport** (no energy required):
-- **Simple diffusion**: Small non-polar molecules (O₂, CO₂)
-- **Facilitated diffusion**: Via channels or carriers (ions, glucose)
-- **Osmosis**: Water across semipermeable membrane
+$$E = \frac{61.5}{z} \cdot \log_{10}\left(\frac{[\text{ion}]_\text{outside}}{[\text{ion}]_\text{inside}}\right) \text{ mV}$$
 
-**Active Transport** (energy required):
-- **Primary active transport**: Direct ATP hydrolysis (Na⁺/K⁺ ATPase)
-- **Secondary active transport**: Coupled transport (SGLT — sodium-glucose cotransporter)
-- Vesicular transport: Endocytosis (phagocytosis, pinocytosis, receptor-mediated)
+where z is the ion valence (+1 for Na⁺/K⁺, −1 for Cl⁻, +2 for Ca²⁺). Plugging typical values yields E_K ≈ −90 mV, E_Na ≈ +60 mV, which set the resting and action potentials tested in Physiology.
 
-**Sodium-Potassium Pump**:
-- 3 Na⁺ out, 2 K⁺ in per cycle
-- Maintains resting membrane potential (-70mV)
-- ATP-dependent
+#### Mitochondrial Architecture and Inheritance
 
-#### 2. Cytoskeleton
+Mitochondria are double-membrane, semi-autonomous organelles. The inner membrane folds into **cristae** that house the electron transport chain (Complexes I–IV) and ATP synthase; the matrix contains mtDNA (16,569 bp, 37 genes) and TCA-cycle enzymes. Inheritance is **maternal** in humans because paternal mitochondria are tagged with ubiquitin and degraded post-fertilisation.
 
-**Microfilaments (Actin)**:
-- 7nm diameter
-- Muscle contraction, cell movement, cytokinesis
-- G-actin monomers → F-actin filaments
+#### Tissue Classification Pitfalls
 
-**Intermediate Filaments**:
-- 10nm diameter
-- Mechanical strength
-- Types: Keratins (epithelial), Vimentin (mesenchymal), Neurofilaments (neurons)
+| Tissue type | Origin | Vascularity | Polarity | ECM abundance |
+| --- | --- | --- | --- | --- |
+| Epithelial | Ecto/endo/mesoderm | Avascular | Polarised with basement membrane | Minimal |
+| Connective | Mesoderm | Vascularised | Non-polarised | Abundant (collagen, ground substance) |
+| Muscle | Mesoderm | Vascular | Apical-basal in epithelia, none in muscle | Sparse |
+| Nervous | Ectoderm | Vascular (BBB limits) | Axo-dendritic | Minimal |
 
-**Microtubules**:
-- 25nm diameter
-- Hollow tubes of tubulin dimers
-- Form centrioles, cilia, flagella
-- Intracellular transport (kinesin, dynein)
+#### Practice Prompts
 
-**Centrosome**:
-- Microtubule organizing center
-- Contains centrioles (9+0 triplet pattern)
-- Important in cell division
+1. A histology image shows columnar cells with apical cilia and goblet cells where every cell contacts the basement membrane. Identify the tissue and explain why "stratified" is wrong.
+2. An electron micrograph shows an organelle with cristae and matrix granules in hepatocytes. List three enzymes in the matrix and explain why 70S ribosomes are present.
 
-#### 3. Cell Adhesion Molecules
+> **High-yield tip**: For tissue MCQs, check basement-membrane contact first — pseudostratified epithelia look multilayered but every cell touches the basal lamina.
 
-**Selectins**: Bind carbohydrates on other cells (leukocyte rolling)
+## Continue your study
 
-**Integrins**: Connect cytoskeleton to extracellular matrix
-
-**Cadherins**: Calcium-dependent cell-cell adhesion
-
-**Tight Junctions**: Seal epithelial cells (paracellular barrier)
-
-**Gap Junctions**: Allow direct cell-cell communication (connexons)
-
-#### 4. Cell Cycle
-
-**Interphase** (90% of cell cycle):
-- G1: Cell growth, protein synthesis
-- S: DNA replication (each chromosome becomes two chromatids)
-- G2: Further growth, preparation for division
-
-**M Phase (Mitosis + Cytokinesis)**:
-- Prophase: Chromatin condenses, nuclear envelope breaks
-- Metaphase: Chromosomes align at equator (metaphase plate)
-- Anaphase: Sister chromatids separate, move to poles
-- Telophase: Nuclear envelopes reform, chromosomes decondense
-- Cytokinesis: Cytoplasm divides (cleavage furrow in animals, cell plate in plants)
-
-**Checkpoints**:
-- G1 checkpoint: Restriction point — commits to division
-- G2 checkpoint: Ensures complete DNA replication
-- M checkpoint: Ensures proper chromosome attachment
-
-**Regulation — Cyclins and CDKs**:
-- Cyclins: Regulatory subunits (levels rise and fall)
-- CDKs: Catalytic subunits (always present)
-- Complex → Phosphorylates target proteins → Cell cycle progression
-
-#### 5. Apoptosis vs. Necrosis
-
-**Apoptosis** (Programmed Cell Death):
-- Physiological and pathological
-- Cell shrinkage, chromatin condensation
-- Membrane blebbing, apoptotic bodies
-- Phagocytosis by macrophages
-- No inflammation
-
-**Necrosis** (Pathological Cell Death):
-- Due to injury, toxins, ischemia
-- Cell swelling, membrane rupture
-- Release of cellular contents
-- Inflammation
-
-**Extrinsic Pathway**: Fas-FasL, TNF receptors
-**Intrinsic Pathway**: Mitochondrial (cytochrome c release), Bcl-2 family
-
-#### 6. Stem Cells
-
-**Totipotent**: Can form entire organism (zygote)
-**Pluripotent**: Can form any tissue (embryonic stem cells)
-**Multipotent**: Can form multiple related tissues (adult stem cells)
-
-**Therapeutic Applications**: Regenerative medicine, hematopoietic stem cell transplantation
-
-#### 7. Cell Signaling
-
-**Types of Signaling**:
-- **Autocrine**: Self-signaling
-- **Paracrine**: Local signaling
-- **Endocrine**: Hormone signaling (long distance)
-- **Neurotransmitter**: Synaptic signaling
-
-**Receptor Types**:
-- **Membrane receptors**: Peptide hormones, catecholamines
-- **Intracellular receptors**: Steroid hormones, thyroid hormone
-
-**Second Messengers**:
-- cAMP (G-protein coupled receptors)
-- IP₃/DAG pathway
-- Calcium signaling
-
-#### 8. Extracellular Matrix
-
-**Components**:
-- **Collagen**: Tensile strength (most abundant protein in body)
-- **Elastin**: Elasticity
-- **Proteoglycans**: Hydration, resistance to compression
-- **Fibronectin**: Cell adhesion
-- **Laminin**: Basement membrane component
-
-**Functions**:
-- Structural support
-- Cell adhesion
-- Migration
-- Tissue repair
-
-#### 9. Specializations for Cell Functions
-
-**Cell Types with High Mitochondria**: Hepatocytes, cardiac muscle, proximal tubule cells
-
-**Cells with High Ribosome Content**: Pancreatic acinar cells (protein secretion), plasma cells (antibody production)
-
-**Cells with Abundant Lysosomes**: Macrophages, neutrophils (phagocytosis)
-
-**Cells with Well-Developed Golgi**: Secretary cells (mucous cells, plasma cells)
-
-#### 10. Clinical Correlations
-
-**Cancer**:
-- Loss of cell cycle control
-- Defects in apoptosis (p53 mutation)
-- Telomerase activation
-- Metastatic potential
-
-**Genetic Disorders**:
-- Cystic fibrosis: CFTR chloride channel defect
-- Muscular dystrophy: Dystrophin protein defect
-- Mitochondrial disorders: Mitochondrial DNA mutations
-
-### Practice Questions for NEET PG
-
-1. Which organelle is the major site of ATP synthesis in a cell?
-2. Describe the structure of the fluid mosaic model of the plasma membrane.
-3. Explain the stages of mitosis.
-4. What is the difference between apoptosis and necrosis?
-5. Discuss the role of the cytoskeleton in cell function.
+- **[View this topic in your NEET PG roadmap](/roadmap/?exam=neet-pg&duration=1mo)** — see where "Cell Structure and General Anatomy" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=neet-pg&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NEET PG exam overview](/exams/neet-pg/)** — pattern, eligibility, and syllabus
+- **[All Anatomy notes](/notes/neet-pg/anatomy/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

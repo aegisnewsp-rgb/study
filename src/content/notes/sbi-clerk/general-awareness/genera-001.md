@@ -8,7 +8,7 @@ topicName: "RBI and Banking System"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-12"
 ---
 
 # RBI and Banking System
@@ -16,167 +16,82 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-- **RBI (Reserve Bank of India)** is India's central bank; established 1935 under RBI Act 1934; Governor heads it
-- **Commercial Banks**: Scheduled Commercial Banks (SCBs) + Unscheduled Banks
-- **Scheduled Commercial Banks**: PSU Banks (SBI + 11 associates), Private Sector Banks (old + new), Foreign Banks, Regional Rural Banks (RRBs)
-- **Key institutions**: NABARD (agriculture credit), SIDBI (MSME credit), EXIM Bank (exports/imports), NHB (housing)
-- **Cooperative banks**: Primary Agricultural Credit Societies (PACS) → District Central Cooperative Banks → State Cooperative Banks
-- ⚡ RRBs were created to serve rural areas; they are jointly owned by GOI and State Governments — important for financial inclusion
+The Reserve Bank of India (RBI), established on 1 April 1935 under the RBI Act 1934 and nationalised on 1 January 1949, is the central bank of India. It regulates banks, issues currency, manages foreign exchange under FEMA 1999, and acts as banker to the central and state governments. The Monetary Policy Committee (MPC), constituted in 2016 under the RBI Act (amended 2016), decides the policy repo rate six times a year; the current policy corridor is set by Repo, Standing Deposit Facility (SDF), and Marginal Standing Facility (MSF).
 
----
+- **RBI headquarters:** Mumbai; 27 regional offices across India.
+- **Four statutory objectives:** monetary policy, currency issue, financial supervision, foreign exchange management.
+- **Must-know rates:** Repo Rate (the anchor), SDF (floor), MSF (ceiling), Bank Rate = MSF, CRR (cash reserves), SLR (statutory liquidity).
+- **Recent landmark:** RBI launched the Digital Rupee (e₹) pilot on 1 December 2022; retail pilot began 8 December 2023.
+
+| Function | Instrument |
+| --- | --- |
+| Monetary policy | Repo, SDF, MSF, CRR, OMO, LAF |
+| Currency | Banknotes, coins, currency chests, small coin depots |
+| Regulation | Banking Regulation Act 1949, Master Directions, PCA framework |
+| Forex | FEMA 1999, FX reserves (FCA, gold, SDR, IMF reserve tranche) |
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-## Indian Banking System and Structure
+#### Structure of the RBI
 
-The Indian banking system is one of the largest and most complex in the world, with a deep reach into urban, semi-urban, and rural areas. Understanding its structure is fundamental for any banking exam aspirant.
+The RBI is governed by a Central Board of Directors with a Governor and up to four Deputy Governors. Departments like DFS (Department of Financial Services), Department of Banking Regulation, and Financial Markets Regulation handle policy execution. The RBI reports to the Finance Ministry through the RBI Act and is audited by external auditors appointed by the Central Government.
 
-## Reserve Bank of India (RBI)
+#### Monetary policy and the policy corridor
 
-### Genesis
-- Established on April 1, 1935, under the Reserve Bank of India Act, 1934
-- Nationalised on January 1, 1949 (post-independence)
-- Its preamble commits it to: "to regulate the issue of bank notes and the supply of credit to the economy"
+The RBI conducts monetary policy through the Liquidity Adjustment Facility (LAF) anchored on the repo rate. The corridor operates as follows:
 
-### Management Structure
-- **Governor**: Head of RBI; appointed by GOI (currently Sanjay Malhotra as of December 2024)
-- **Deputy Governors**: Four; each responsible for specific functions (Monetary Policy, Financial Markets, Regulatory, and Corporate Services)
-- **Central Board**: Directors from various fields; meets six times a year
-- **Local Boards**: For regional oversight
+| Rate | Role | Spread over Repo |
+| --- | --- | --- |
+| Standing Deposit Facility (SDF) | Uncollateralised deposit (floor) | −0.25% |
+| Repo Rate | Main policy rate | 0.00% |
+| Marginal Standing Facility (MSF) | Emergency overnight borrowing (ceiling) | +0.25% |
+| Bank Rate | Penal rate = MSF | +0.25% |
 
-### Key Functions of RBI
-1. **Monetary Authority**: Formulates and implements monetary policy (repo rate, reverse repo, CRR, SLR)
-2. **Issuer of Currency**: Issues and manages all Indian currency notes (except ₹1 coin, issued by GOI)
-3. **Banker to Banks**: Acts as banker to all scheduled commercial banks; maintains their accounts
-4. **Banker to Government**: Acts as banker and fiscal agent to the Central and State Governments
-5. **Regulator and Supervisor**: Regulates and supervises banks and financial institutions
-6. **Foreign Exchange Manager**: Manages India's foreign exchange reserves; administers FEMA
-7. **Developmental Role**: Promotes financial inclusion, digital payments, financial literacy
+CRR (currently 4%–4.50% band) is the share of demand and time liabilities banks keep as cash with the RBI; SLR (~18%) is the share held as government securities and gold.
 
-## Structure of Commercial Banks in India
+#### Regulation and supervision
 
-### Scheduled vs Unscheduled Banks
+The RBI licenses banks under the Banking Regulation Act 1949, classifies them (Scheduled/Non-Scheduled, PSU/Private/RRB/Co-operative/SFB/Payment Bank), and supervises them using the CAMELS rating. Prompt Corrective Action (PCA) is triggered when capital, NPA, or ROA thresholds breach limits.
 
-**Scheduled Commercial Banks (SCBs)** are those listed in the Second Schedule of the RBI Act, 1934. They must have a minimum paid-up capital of ₹5 lakhs.
+#### Typical SBI Clerk questions
 
-**Unscheduled Banks** are those not listed in the Second Schedule — they cannot avail of RBI's credit facilities.
-
-### SCBs are divided into:
-
-#### 1. Public Sector Banks (PSBs)
-Majority ownership (more than 50%) held by the Government of India.
-
-**State Bank of India (SBI) Group:**
-- SBI (largest bank in India; market leader)
-- 11 Associate Banks (now merged into SBI or privatised — e.g., SBI's erstwhile associates like SBP, SBM, SBT have been merged)
-- Total dominance of the Indian banking market (~23% of all bank assets)
-
-**Nationalised Banks** (11 as of recent mergers):
-- Punjab National Bank (merged with OBC and UNITED bank to form PNB)
-- Bank of Baroda (merged with Dena Bank and Vijaya Bank)
-- Canara Bank (merged with Syndicate Bank)
-- Union Bank of India (merged with Andhra Bank and Corporation Bank)
-- Bank of India, Central Bank of India, Indian Bank, Indian Overseas Bank, UCO Bank, Punjab & Sind Bank
-
-**Note**: As of 2024, there were talks of further consolidation of PSBs.
-
-#### 2. Private Sector Banks
-
-**Old Private Sector Banks** (established pre-independence):
-- HDFC Bank (largest private sector bank)
-- ICICI Bank
-- Axis Bank
-- Kotak Mahindra Bank
-- IDBI Bank (partly private, partly government)
-- Yes Bank (reconstructed in 2020 after RBI put it under moratorium)
-
-**New Private Sector Banks / Small Finance Banks / Payments Banks**:
-- Post-2016 RBI licensing: IDFC First Bank, AU Small Finance Bank, Equitas Small Finance Bank, Jana Small Finance Bank
-- Paytm Payments Bank, India Post Payments Bank (payments bank category)
-
-#### 3. Foreign Banks
-Operating in India through subsidiaries or branches:
-HSBC, Citibank, Standard Chartered, Deutsche Bank, etc. They operate under RBI's regulatory framework and have restricted branch expansion.
-
-#### 4. Regional Rural Banks (RRBs)
-- Established in 1975 under RRB Act 1976
-- **Ownership**: 50% by GOI, 35% by State Government, 15% by Sponsor Bank
-- **Purpose**: Serve rural agriculturalists, small farmers, artisans, and rural entrepreneurs
-- **Example**: Pragati Bank, Karnataka Gramin Bank, Andhra Pradesh Gramin Bank
-- Currently undergoing consolidation — several RRBs have been merged
-
-## Development Financial Institutions (DFIs)
-
-### NABARD (National Bank for Agriculture and Rural Development)
-- Established 1982; apex institution for agricultural credit
-- Refinances cooperative banks and RRBs
-- Implements government schemes: KCC, PM-KISAN
-- Supervises Cooperative banks and RRBs
-
-### SIDBI (Small Industries Development Bank of India)
-- Apex institution for MSME sector
-- Refinances and provides direct credit to MSMEs
-- Works with Mudra loans, startup India
-
-### EXIM Bank (Export-Import Bank of India)
-- Provides export credit and development finance
-- Supports India's foreign trade
-
-### NHB (National Housing Bank)
-- Apex institution for housing finance
-- Regulates and refinances housing finance companies
-
-## Cooperative Banking Structure
-
-### Short-Term Cooperative Credit Structure:
-**3-tier system**:
-1. **Primary Agricultural Credit Societies (PACS)**: Village level; direct lending to farmers
-2. **District Central Cooperative Banks (DCCBs)**: District level; finance PACS
-3. **State Cooperative Banks (SCBs)**: State level; refinance DCCBs
-
-### Urban Cooperative Banks (UCBs):
-- Cater to urban and semi-urban populations
-- Regulated and supervised by RBI
-- Include well-known banks like Saraswat Bank, Cosmos Bank, MS Co-op Bank
-
----
+- One- or two-mark MCQs on: headquarters, establishment year, current Governor, MPC decisions, repo rate, CRR/SLR, functions of RBI.
+- Match-the-following on committees and reports (FSR, Annual Report, Trend and Progress of Banking in India).
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-## Types of Bank Accounts
+#### Edge cases and connections
 
-### Based on Deposit Type:
-- **Current Account**: Demand deposits; no interest paid; unlimited transactions; used by businesses
-- **Savings Bank Account**: Interest-bearing; restrictions on withdrawals (post-III withdrawal rules removed)
-- **Fixed Deposit (Term Deposit)**: Deposit for fixed period; higher interest; premature withdrawal penalty
-- **Recurring Deposit**: Fixed monthly deposit for a fixed period; used for regular savers
+- **Scheduled vs Non-Scheduled banks:** A Scheduled Bank must have paid-up capital ≥ ₹5 lakh and a branch network meeting RBI criteria; it is eligible for borrowings from the RBI. Non-scheduled banks operate under banking licence but are excluded from this borrowing facility.
+- **PCA framework:** Triggered on capital (CET1 ≤ 8%), profitability (ROA ≤ 0% two years), or asset quality (NPA ≥ 10–12%). Restrictions include dividend bans, branch expansion freeze, and management compensation curbs.
+- **NARCL (National Asset Reconstruction Company):** Government-backed ARC aggregating stressed PSB assets above ₹500 crore; IDRCL provides resolution support.
+- **CBDC architecture:** RBI's e₹ is a direct liability of the central bank, unlike wallet balances held by commercial banks; pilots cover wholesale (call money market) and retail segments.
 
-### Based on Ownership:
-- **Single Account**: One individual
-- **Joint Account**: Two or more individuals; can be either-or-survivor or jointly operated
+#### Common mistakes
 
-## Basic Banking Terminology for Clerk Exam
+- Confusing Bank Rate with MSF: the Bank Rate is equal to MSF since the SDF was introduced in April 2022, but many older questions still treat Bank Rate as a distinct policy rate.
+- Treating Repo Rate as the rate at which banks lend to customers; it is the rate at which banks borrow overnight from the RBI against government securities collateral.
+- Assuming RBI prints the rupee; the Government of India prints notes via the Finance Ministry, while the RBI issues them and regulates currency chests.
 
-- **Cash Reserve Ratio (CRR)**: Percentage of NDTL that banks must maintain with RBI (no interest)
-- **Statutory Liquidity Ratio (SLR)**: Percentage of NDTL that banks must maintain in liquid assets (cash, gold, government securities)
-- **Repo Rate**: Rate at which RBI lends to banks (short-term borrowing)
-- **Reverse Repo Rate**: Rate at which RBI borrows from banks (excess liquidity absorption)
-- **Bank Rate**: Long-term rate at which RBI provides loans to banks (now largely historical, replaced by MSF)
-- **Marginal Standing Facility (MSF)**: Rate at which banks can borrow from RBI overnight against government securities (above SLR)
+#### Exam strategy and weight
 
-## Recent Banking Reforms and Changes
+For SBI Clerk Prelims, General Awareness has 50 questions of 1 mark each with 0.25 negative marking. Static banking awareness is a quick-scoring section if you revise rates, headquarters, and acronyms.
 
-1. **PSL (Priority Sector Lending) Guidelines**: Banks must lend 40% of ADV to priority sectors (agriculture, MSMEs, education, housing, etc.)
+#### Practice prompts
 
-2. **KYC/AML Norms**: Know Your Customer and Anti-Money Laundering guidelines mandatory for all accounts
+1. If CRR is raised from 4.50% to 5.50%, what happens to bank credit and why?
+2. The SDF replaced the fixed reverse repo overnight window. Identify two operational differences and their impact on the policy corridor.
 
-3. **Digital Banking**: UPI becoming dominant payment mode; branch banking vs digital banking shift
+---
 
-4. **Bank Mergers**: Major consolidation of PSBs announced — aimed at creating stronger, globally competitive banks
+## Continue your study
 
-5. **Prompt Corrective Action (PCA)**: RBI can place banks under PCA for breaching capital, NPA, or profitability thresholds
+- **[View this topic in your SBI Clerk roadmap](/roadmap/?exam=sbi-clerk&duration=1mo)** — see where "RBI and Banking System" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=sbi-clerk&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[SBI Clerk exam overview](/exams/sbi-clerk/)** — pattern, eligibility, and syllabus
+- **[All General Awareness notes](/notes/sbi-clerk/general-awareness/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

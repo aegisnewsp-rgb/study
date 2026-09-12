@@ -24,85 +24,78 @@ diagramPrompt: "Educational diagram illustrating Statement and Assumptions with 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-In LAT Analytical Reasoning, a **Statement** is a given fact or opinion, and an **Assumption** is an unstated premise that *must* be true for the statement to hold. The task is to pick the assumption the speaker is **necessarily** taking for granted, not what is merely possible.
+**Statement and Assumptions** questions test whether you can identify the *unstated premise* that a speaker takes for granted when making a claim. An assumption is **not** a conclusion, an inference, or a course of action — it is the hidden belief that must be true for the statement to make sense. If the assumption is false, the statement collapses.
 
-- A valid assumption: its **negation collapses** the statement.
-- Trigger words that hide assumptions: *should, must, ought to, let us, assuming that, if…then*.
-- Assumptions are **descriptive beliefs**, while courses of action are **prescriptive** steps.
+- **Necessary assumption test:** negate the candidate assumption. If the statement becomes invalid or meaningless, the candidate is a valid assumption.
+- **Trigger words that signal an assumption:** *should, must, ought to, let us, assuming that, if…then*. These flag hidden value judgments.
+- **Common LAT trap:** selecting an answer that is merely *possible* or *likely* instead of one that is *necessarily* taken for granted by the speaker.
 
-| Element | Role in argument |
+| Element | Role in the argument |
 | --- | --- |
-| Statement | The declared fact/opinion |
-| Assumption | Hidden belief that **must** be true |
-| Conclusion | What follows if the assumption holds |
-| Course of Action | What **should be done** (not an assumption) |
-
-Test the negation — if "NOT P" makes the statement absurd, P is the correct assumption.
+| Statement | The spoken or written assertion |
+| Assumption | Unstated premise required for the statement to hold |
+| Inference | Deduced conclusion drawn from the statement |
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-#### Definition and Core Idea
+#### Definition and Logical Role
 
-An assumption is an **implicit premise** that the author presupposes before drawing any inference. In LAT MCQs, you receive one short statement and four to five candidate assumptions. Only one of them is something whose falsity would **invalidate the statement itself**.
+An assumption is an implicit premise that the author presupposes without stating. It underpins the statement: remove the assumption and the statement loses its logical force. In LAT Analytical Reasoning, you are usually given one statement and three to five candidate assumptions, and must pick the one *necessarily* implied. HEC's LAT syllabus places this sub-type inside Logical Reasoning, which together with Analytical Reasoning forms part of the test's 4% weightage band.
 
-The logical chain is simple: **Assumption → Statement → Conclusion/Inference**. Many candidates reverse the chain by selecting the conclusion instead of the assumption. Always ask: "Without this candidate premise, would the given statement still make sense?" If yes, it is not a *necessary* assumption.
+#### How to Apply the Negation Test
 
-#### Necessary vs Merely Possible
+To verify a candidate assumption:
 
-A *necessary* assumption is one that **must** hold; a *possible* assumption is one that *may* hold. LAT only credits necessary assumptions. Apply the **Negation Test**: substitute the opposite of the candidate into the statement and see whether the statement collapses, becomes absurd, or loses its point.
+1. State the candidate as a positive claim P.
+2. Replace P with its negation, NOT-P.
+3. Check whether the original statement still holds.
 
-#### Trigger Words and Hiding Spots
+If NOT-P destroys the statement's validity, then P is a necessary assumption. If the statement survives the negation, the candidate is too weak — it is merely plausible, not required.
 
-Watch for value-laden verbs (*should, ought to, must, need to*) and conditional structures (*if…then, provided that, assuming*). Each signals a hidden value judgment or factual presupposition. Statements containing *let us* or *it is high time* embed an assumption about the current state being problematic.
+#### Distinguishing Assumptions from Look-Alikes
 
-#### Distinguishing Assumptions from Cousins
-
-| Looks similar to assumption | Why it is not an assumption |
+| Look-alike | Why it is **not** an assumption |
 | --- | --- |
-| Conclusion/Inference | Follows *from* assumptions; cannot itself be presupposed |
-| Course of Action | Tells what to do; assumptions describe what is believed |
-| Restatement/Paraphrase | Repeats the statement; adds no hidden premise |
-| Strong opinion | Expresses feeling, not a presupposed fact |
+| Conclusion | A conclusion *follows from* the assumption; it is the output, not the input. |
+| Course of action | Prescriptive ("we should…"); assumptions are descriptive ("we believe…"). |
+| Inference | A deduced belief; an assumption is presupposed *before* the inference is drawn. |
+| Paraphrase of the statement | Repeats the claim in other words rather than revealing the hidden premise. |
 
-- Always apply the **Negation Test** before selecting.
-- Scan for *should, must, ought, if…then* as assumption signals.
-- Reject options that are **actions**, **conclusions**, or **paraphrases**.
+#### Exam Patterns in LAT
+
+- Usually 1–3 MCQs per LAT paper on this sub-type.
+- Options often include a course of action to catch students who misread "should/must" as action prompts.
+- Cultural presuppositions (e.g., parental authority, institutional trust) frequently hide inside the statement.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-#### The Suppressor Assumption
+#### Mechanism Behind Assumption Questions
 
-Some statements hide a **suppressor assumption** — a premise that rules out alternative explanations. For example: *"Since the factory closed last year, river pollution has dropped."* The hidden assumption is that no other significant source of pollution existed. Negate it (other sources did exist) and the causal claim collapses. This pattern appears regularly in LAT Analytical Reasoning items worth 1–2 marks each.
+Every argument has a three-layer architecture: **Statement → Assumption(s) → Inference/Conclusion**. The assumption sits invisibly between layer one and layer three. LAT examiners exploit this invisibility by writing options that *sound* like assumptions but fail the negation test. A robust assumption must be (a) unstated in the original passage, (b) believed by the speaker, and (c) logically indispensable.
 
-#### Mechanism of the Negation Test
+#### Worked Mini-Example
 
-Take candidate P and substitute **¬P** into the author's reasoning. If the statement becomes false, irrelevant, or self-contradictory, P is a **necessary assumption**. If ¬P still leaves the statement coherent, P is at best a *sufficient* or *likely* assumption — both are wrong answers in LAT.
+> **Statement:** "The university *should* install CCTV cameras in every hostel corridor."
+> **Candidate A:** "CCTV cameras deter theft." — Negation: cameras do **not** deter theft. The recommendation can still stand (deterrence is just one possible reason). **Not necessary.**
+> **Candidate B:** "There is a problem in the corridors that requires monitoring." — Negation: there is **no** such problem. The "should" recommendation becomes groundless. **Valid assumption.**
 
-#### Common Traps Examiners Set
+#### Common Mistakes and Edge Cases
 
-- **Paraphrase trap:** wording mirrors the statement but adds no new premise.
-- **Action trap:** option begins with *the government should…* — that is a course of action.
-- **Reversal trap:** option inverts cause and effect, treating the conclusion as the assumption.
-- **Possible-but-not-necessary trap:** option is plausible but survives negation, so it is not credited.
+1. **Marking a "should" sentence as a course of action** — the *speaker's* "should" reveals an assumption, but the option "Set up a committee to install CCTV" is action, not premise.
+2. **Ignoring suppressors** — a *suppressor assumption* blocks an alternative explanation; without it the statement's conclusion is unprotected.
+3. **Confusing necessity with sufficiency** — a sufficient assumption would make the conclusion *certain*; LAT requires only necessity.
+4. **Reading personal morality into the statement** — choose what the author *must believe*, not what *you* believe.
 
-#### Worked Micro-Example
+#### Practice Prompts
 
-*Statement:* "Private schools should switch to online exams because internet access has become affordable."
-*Candidate:* "Online exams are a valid form of assessment."
-- Negate it: online exams are *not* a valid form of assessment → the recommendation to switch loses force.
-- Hence the candidate is a **necessary assumption** and the correct answer.
-
-#### Exam Strategy and Connections
-
-- LAT carries roughly 1–3 Statement-and-Assumptions MCQs per paper, contributing to the 4% Analytical Reasoning weight in the HEC LAT syllabus.
-- Allocate about 45–60 seconds per item; the Negation Test should take under 15 seconds.
-- This topic overlaps closely with **Statement and Conclusions**, **Arguments**, and **Course of Action** — practising assumption items improves all four sub-types.
+1. "Private schools *must* reduce fees during the pandemic." Identify one necessary assumption and explain why a candidate about "schools losing revenue" fails the negation test.
+2. "Let us ban junk food in school canteens." Distinguish the assumption from the course of action and from the conclusion.
 
 ---
 

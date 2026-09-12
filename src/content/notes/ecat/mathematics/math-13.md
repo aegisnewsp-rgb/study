@@ -17,79 +17,64 @@ diagramPrompt: "Mathematical diagram showing Probability and Permutations concep
 # Probability and Permutations
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your ECAT Mathematics attempt.
+> Rapid summary for last-minute revision before your exam.
 
-Probability quantifies how likely an event is, computed as **P(A) = n(A) / n(S)**, where n(A) is the count of favourable outcomes and n(S) is the total count of equally likely outcomes in the sample space. The value always satisfies **0 ≤ P(A) ≤ 1**, and the complement rule gives **P(A′) = 1 − P(A)**.
+Probability quantifies how likely an event is, using **P(A) = n(A)/n(S)**, where n(A) is the count of favourable outcomes and n(S) is the total count of equally likely outcomes in the sample space. The value always satisfies **0 ≤ P(A) ≤ 1**. A permutation counts ordered arrangements of r distinct objects taken from n distinct objects: **P(n,r) = n!/(n−r)!**.
 
-A permutation counts **ordered** selections of r distinct objects from n, given by **P(n, r) = n! / (n − r)!**. A combination, by contrast, ignores order and is C(n, r) = n! / [r!(n − r)!].
-
-- ECAT tests 1–2 MCQs from this 4%-weighted topic, usually a counting problem or a single-stage probability.
-- Memorise P(A ∪ B) = P(A) + P(B) − P(A ∩ B); drop the intersection term only when events are mutually exclusive.
-- Conditional probability P(A | B) = P(A ∩ B) / P(B) is the formula most often twisted by ECAT distractors.
+- **Order matters** for permutations; ignore it for combinations (nCr = n!/(r!(n−r)!), not asked directly but often the trap).
+- **Independent events** multiply: P(A ∩ B) = P(A)·P(B).
+- **Mutually exclusive events** add with no overlap: P(A ∪ B) = P(A) + P(B).
+- **Complement rule**: P(A') = 1 − P(A) — fastest shortcut for "at least one" problems.
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months before the test.
+> Standard content for students with a few days to months.
 
-#### Core formulas and when to use them
+#### Core Probability Rules
 
-Each formula maps to a specific ECAT-style scenario. The classical definition handles single experiments like drawing one ball from a bag. The addition rule handles "either-or" wording. The multiplication rule for independent events handles "both-and" wording without overlap.
+ECAT asks you to apply axioms, not derive them. Memorise the four operational formulas and recognise which one a question triggers by its wording.
 
-| Concept | Formula | When ECAT uses it |
+| Rule | Formula | When to use |
 | --- | --- | --- |
-| Classical probability | P(A) = n(A) / n(S) | Coin, die, card-draw problems |
-| Complement rule | P(A′) = 1 − P(A) | "At least one" type questions |
-| Addition rule | P(A ∪ B) = P(A) + P(B) − P(A ∩ B) | Overlapping or mutually exclusive events |
-| Independent events | P(A ∩ B) = P(A) · P(B) | Drawing with replacement, separate coins |
-| Conditional probability | P(A \| B) = P(A ∩ B) / P(B) | "Given that B has occurred" |
-| Permutation | P(n, r) = n! / (n − r)! | Arrangements, rankings, seating orders |
+| Classical | P(A) = n(A)/n(S) | Finite sample space, equally likely outcomes |
+| Addition | P(A ∪ B) = P(A) + P(B) − P(A ∩ B) | "A or B" — subtract the overlap unless mutually exclusive |
+| Multiplication | P(A ∩ B) = P(A)·P(B) | Independent events only |
+| Conditional | P(A\|B) = P(A ∩ B)/P(B) | "A given that B has occurred", P(B) > 0 |
 
-#### Counting strategy you can apply
+#### Permutations vs Counting Principle
 
-- **Multiplication principle**: if task 1 has m ways and task 2 has n ways, both together have m × n ways; extend to three or more tasks the same way.
-- **Permutation** is the right choice when the question says "arrange", "rank", "seat in a row", or "form a password in order".
-- **Combination** fits "select", "choose", or "form a committee" — order does not change the group.
-- **Tree diagrams** are the safest tool when the sample space is small (≤ 36 outcomes), such as two coin tosses plus a die roll.
+The factorial n! grows fast (5! = 120, 6! = 720), so permutation values explode quickly. For P(n,r), cancel n! against (n−r)! before multiplying to avoid overflow errors on paper.
 
-#### Typical ECAT traps
+#### Typical ECAT Patterns
 
-- Distractors swap P(A | B) with P(B | A); only the denominator P(B) is fixed, never assume symmetry.
-- "At least one" is faster solved via the complement: P(at least one) = 1 − P(none).
-- A permutation denominator is (n − r)!, not just r!; many students drop the factorial argument incorrectly.
+- "How many ways can 5 people sit on 3 chairs?" → P(5,3) = 60.
+- "Probability of getting at least one head in 3 coin tosses?" → 1 − P(all tails) = 1 − (1/2)³ = 7/8.
+- "Two cards drawn without replacement — probability second is a king?" → Conditional, P(K₂\|K₁) = 3/51.
+
+ECAT tests these as 1–2 MCQs in the Mathematics section, usually as short numeric answers (integer or simplified fraction).
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline who want full command of the topic.
+> Comprehensive coverage for students on a longer study timeline.
 
-#### Mechanism behind conditional probability and Bayes' theorem
+#### Edge Cases and Bayes' Theorem
 
-Conditional probability **P(A | B) = P(A ∩ B) / P(B)** restricts the sample space to outcomes where B has already happened. Rewriting the joint probability as P(B) · P(A | B) and summing over partitions of the sample space produces **Bayes' theorem: P(A | B) = P(B | A) · P(A) / P(B)**. ECAT occasionally tests this in a two-stage experiment, such as drawing a ball then drawing another without replacement.
+When P(A\|B) is asked but only P(B\|A), P(A), and P(B) are given, use **Bayes' theorem**: P(A\|B) = P(B\|A)·P(A) / P(B). ECAT rarely tests Bayes directly, but conditional probability appears in "without replacement" card or ball problems.
 
-#### Worked micro-example with numbers
+| Mistake | Why it costs marks | Fix |
+| --- | --- | --- |
+| Using P(A\|B) = P(B\|A) | Different denominators | Write the conditional formula explicitly first |
+| Treating "with replacement" as "without" | Denominator changes (52 vs 51) | Re-read the stem for the word "replacement" |
+| Adding instead of multiplying for "and" | Wording traps | "And" → multiply (independent); "Or" → add (with overlap) |
+| Computing C(n,r) when P(n,r) is asked | Order ignored wrongly | Check whether arrangement or selection is asked |
 
-A bag holds 4 red and 6 blue balls. Two balls are drawn without replacement. Find the probability both are red.
+#### Worked Micro-Example
 
-Step 1 — first draw red: P(R₁) = 4 / 10 = 2 / 5.
-Step 2 — second draw red given first was red: P(R₂ | R₁) = 3 / 9 = 1 / 3.
-Step 3 — multiply because dependent: P(both red) = (2 / 5) × (1 / 3) = 2 / 15 ≈ 0.1333.
+A bag has 4 red and 6 blue balls. Three balls are drawn without replacement. Find P(exactly 2 red).
 
-#### Edge cases that trip up high scorers
+> Counting the favourable draws: C(4,2)·C(6,1) = 6·6 = 36; total draws: C(10,3) = 120; so P = 36/120 = 3/10.
 
-- Sampling **with** replacement keeps draws independent; **without** replacement forces conditional probability.
-- P(n, r) requires r ≤ n and r, n non-negative integers; 0! = 1 by definition.
-- Two events can be mutually exclusive yet not exhaustive; ECAT may phrase a question that conflates the two.
+#### Exam Strategy
 
-| Mistake | Correct approach |
-| --- | --- |
-| Using C(n,r) where the question asks for order | Switch to P(n,r) = n!/(n−r)! |
-| Writing P(A\|B) = P(B\|A) | Always divide joint P(A∩B) by P(B), not P(A) |
-| Treating dependent draws as independent | Update the denominator after each draw when sampling without replacement |
-| Forgetting the (n−r)! in P(n,r) | The factorial argument is (n − r), not r |
-
-#### Practice prompts
-
-1. How many 4-digit PINs can be formed using the digits 1–9 if no digit repeats? *(Answer uses P(9,4) = 3024.)*
-2. A die is rolled twice. What is the probability that the sum is at least 10? *(Use the complement: 1 − P(sum ≤ 9) over 36 equally likely ordered pairs.)*
-
----
+ECAT's 4% weight means one MCQ on average — practise 15–20 past-paper items on probability and P(n,r) formulas to lock in the pattern recognition.
 
 ## Continue your study
 
@@ -98,4 +83,5 @@ Step 3 — multiply because dependent: P(both red) = (2 / 5) × (1 / 3) = 2 / 15
 - **[ECAT (Engineering College Admission Test) exam overview](/exams/ecat/)** — pattern, eligibility, and syllabus
 - **[All Mathematics notes](/notes/ecat/mathematics/)** — browse sibling topics in this subject
 
+---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

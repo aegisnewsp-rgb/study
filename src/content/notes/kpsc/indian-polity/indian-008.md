@@ -8,171 +8,92 @@ topicName: Parliament and State Legislatures
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-12"
 ---
 
 # Parliament and State Legislatures
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision.
+> Rapid summary for last-minute revision before your exam.
 
-**Parliament and State Legislatures** — Key Facts for KPSC KAS
-• **Bicameral Parliament**: **Lok Sabha** (House of the People — 543 seats; directly elected; 5-year term; power over money bills); **Rajya Sabha** (Council of States — 245 seats; 233 elected by MLAs; 12 nominated by President; 6-year terms, 1/3 rotate every 2 years).
-• **Parliament's Powers**: **Legislative** — passes laws; **Financial** — controls finances, Money Bill certification; **Constitutional** — can amend constitution (2/3rd majority); **Elective** — elects President, Vice President; **Judicial** — can impeach President (for violations).
-• **Rajya Sabha special powers**: **Art. 249** — can pass resolution enabling Parliament to legislate on state subjects if in national interest (1 year at a time); **Art. 312** — can create new All-India Services (IAS, IPS); **Art. 67(b)** — election of Vice President.
-• **State Legislatures**: **Unicameral** (most states — single house); **Bicameral** (UP, Bihar, Maharashtra, Karnataka, Andhra Pradesh — have Legislative Councils); **Karnataka Legislative Council** (75 seats).
-• **Speaker of Lok Sabha**: Presides over Lok Sabha; **Ganesh Prasad (first, 1952)**; **Om Birla (current)**; **loksabha.nic.in**.
+Parliament of India consists of the **President**, the **Lok Sabha** (House of the People), and the **Rajya Sabha** (Council of States), established under Articles 79–122. State Legislatures comprise the **Governor**, the **Vidhan Sabha** (Legislative Assembly), and, where created, the **Vidhan Parishad** (Legislative Council), under Articles 168–212.
 
-⚡ **Exam tip**: KPSC KAS frequently asks about **Parliamentary procedures, money bill vs ordinary bill**, and **legislative powers**. Questions on **Rajya Sabha's special powers, legislative process**, and **Karnataka Legislative Council** are common.
+The effective strength of Lok Sabha is **545** (530 from states + 20 from UTs; the Anglo-Indian seat was abolished by the 104th Amendment, 2019). Rajya Sabha has a maximum of **250** members (238 elected + 12 nominated) and is a **permanent body**, with one-third retiring every two years. The Lok Sabha has a normal life of **5 years**, extendable by one year at a time during an Emergency.
 
----
+A **Money Bill** (Article 110) can originate only in Lok Sabha, and Rajya Sabha can only recommend amendments within 14 days. The Anti-Defection Law under the **Xth Schedule** (52nd Amendment, 1985, amended in 2003) is adjudicated by the Speaker/Chairman.
+
+- **Money Bill** vs **Finance Bill**: Money Bill is certified by the Speaker under Article 117(3); Finance Bill deals with tax rates but is not certified.
+- **Quorum** = 1/10th of total members for both Houses (Article 100(3)).
+- **Joint Sitting** under Article 108 is available only at the Union level, not for State Legislatures.
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content.
+> Standard content for students with a few days to months.
 
-**Parliament and State Legislatures** — KPSC KAS Study Guide
+#### Composition and Tenure
 
-## Parliament — Structure and Powers
+The Indian Parliament is bicameral and obligatorily so at the Centre. State Legislatures may be unicameral or bicameral depending on population thresholds and legislative decision. Lok Sabha members are directly elected by territorial constituencies, while Rajya Sabha members are elected by the elected members of State Legislative Assemblies through proportional representation with the single transferable vote.
 
-### Lok Sabha — House of the People
+| House | Maximum Strength | Effective / Current | Tenure |
+| --- | --- | --- | --- |
+| Lok Sabha | 552 | 545 (post 104th Amendment) | 5 years; dissolvable earlier; extendable during Emergency |
+| Rajya Sabha | 250 | 245 (238 elected + 12 nominated) | Permanent; 1/3rd retire biennially |
+| Vidhan Sabha | 500 (min 60) | Varies by state | 5 years; dissolvable earlier |
+| Vidhan Parishad | 1/3rd of Assembly (min 40) | Varies by state | Permanent; 1/3rd retire biennially |
 
-**Composition**:
-- **543 seats** (after 2024 delimitation); directly elected by adult franchise
-- **5-year term**; dissolved early if PM loses majority or in emergency
-- **Qualification (Art. 82)**: 25+ years old; Indian citizen; not holding office of profit; sane
+#### Law-Making and Financial Procedure
 
-**Powers**:
-- **Financial control**: Money Bill originates here; voting on demands for grants
-- **Executive accountability**: Lok Sabha can pass no-confidence motion (only Lok Sabha can bring)
-- **Election of President**: Votes counted with Rajya Sabha votes (UT MPs added)
+A Money Bill under Article 110 deals with imposition, abolition, remission or alteration of taxation; borrowing of money; custody of the Consolidated Fund; appropriation of money from that Fund; declaring expenditure as charged on the Consolidated Fund; or any matter incidental to these. Once the Speaker certifies a bill as a Money Bill, Rajya Sabha's role is restricted to recommendations within 14 days; Lok Sabha may accept or reject.
 
-**Current Lok Sabha (17th)**: NDA majority (BJP-led); Om Birla as Speaker; session at New Parliament Building (2023)
+- A **Finance Bill** containing tax rates is **not** a Money Bill and follows the ordinary legislative route.
+- An **Ordinance** under Article 123 lapses at six weeks from the reassembly of Parliament, not six months from promulgation.
+- The President exercises **Absolute, Suspensive, and Pocket Veto** on ordinary bills, but has no veto on Money Bills.
 
-### Rajya Sabha — Council of States
+#### Anti-Defection and Privileges
 
-**Composition**:
-- **245 seats** (233 elected + 12 nominated)
-- **Elected by MLAs**: Single transferable vote; each MLA gives 1 vote (value varies by state population)
-- **12 nominated by President**: For expertise in literature, art, science, social service
-- **6-year terms**; 1/3 retire every 2 years (rotation)
+The Xth Schedule (originally added by the 52nd Amendment, 1985, and substantially amended by the 91st Amendment, 2003) disqualifies a member for voluntarily giving up party membership, voting contrary to the party whip (after a split or merger exception), or joining another party. The Speaker of the House (or Chairman of Rajya Sabha) is the adjudicator of disqualification under paragraph 6.
 
-**Special Powers (unique to Rajya Sabha)**:
-- **Art. 249**: Can pass resolution (by 2/3rd majority) allowing Parliament to legislate on state subjects for 1 year (national interest)
-- **Art. 312**: Can pass resolution to create new All-India Services (IAS, IPS model)
-- **Art. 67(b)**: Elects Vice President (by single transferable vote)
-
-**Ordinary Rajya Sabha powers**:
-- Cannot reject money bills (can only suggest recommendations within 14 days)
-- Cannot bring no-confidence motion
-- More deliberative than legislative
-
-### Legislative Process
-
-**Ordinary Bill**:
-- Drafting → Introduction → First Reading (read title) → Second Reading (general discussion) → Committee Stage → Report Stage → Third Reading → Lok Sabha votes → Rajya Sabha passes → President Assent → Law
-
-**Money Bill (Art. 110)**:
-- **Certificate by Speaker**: Speaker certifies as Money Bill; final determination by Speaker
-- **Lok Sabha only**: Originate only in Lok Sabha; Rajya Sabha can only recommend within 14 days
-- **Not amendable by Rajya Sabha**: Must accept Lok Sabha's version or reject with recommendations
-- **Examples**: Finance Bill, Appropriation Bill, Tax Bill
-
-**President's Assent**:
-- President can **withhold assent** (return bill for reconsideration — once)
-- If passed again, President must give assent
-- **Ordinary bills**: President can also send for Constitutional review (after K.M. Kaishiv. case)
-
----
+Parliamentary privileges under Article 105 (Parliament) and Article 194 (State Legislatures) remain uncodified but include freedom of speech, right to publish proceedings, and the power to punish for breach of privilege.
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage.
+> Comprehensive coverage for students on a longer study timeline.
 
-**Parliament and State Legislatures** — Comprehensive KPSC KAS Notes
+#### Joint Sittings, Veto, and Ordinance Mechanics
 
-## Parliamentary Committees, Procedures, and State Legislatures
+Article 108 permits the President to summon a joint sitting of both Houses when a bill is rejected by one House, or when the Houses disagree on amendments, or when more than six months lapse without final disposal. The Speaker of Lok Sabha presides and the bill is passed by a simple majority of members present and voting. Money Bills cannot go to a joint sitting.
 
-### Standing and Select Committees
+The three veto categories are:
+1. **Absolute veto** — withholding assent to a private member bill.
+2. **Suspensive veto** — returning a bill (except Money Bill) for reconsideration; Parliament repasses it and President must assent.
+3. **Pocket veto** — indefinite withholding without return.
 
-**Financial Committees**:
-- **Public Accounts Committee (PAC)**: Examine govt. accounts; 22 members (15 from Lok Sabha by proportional representation, 7 from Rajya Sabha); opposition chair traditionally
-- **Estimates Committee**: Examine budget estimates; 30 members; report on efficiency
-- **Committee on Public Undertakings**: Examine PSU performance
+Ordinance-making under Article 123 carries three preconditions: circumstances making immediate action necessary; Parliament not in session; satisfaction of the President. The ordinance must be laid before Parliament and ceases to operate six weeks from reassembly unless replaced by an Act.
 
-**Standing Committees**:
-- **Committee on Law and Justice**: Examines legal affairs
-- **Committee on Petitions**: Examines public petitions
+#### Edge Cases and Common Mistakes
 
-**Departmentally Related Standing Committees (DRSC)**:
-- 24 standing committees (one for each ministry); examine bills, budgets
+| Concept | Mistake to Avoid | Correct Position |
+| --- | --- | --- |
+| Money Bill certification | Treating it as judicially reviewable on merits | Limited review only against mala fides (Indra Sawhney line) |
+| Vidhan Parishad powers | Believing it can block legislation | Can only delay ordinary bills 3 months + 1 month (Article 197) |
+| Joint Sitting | Assuming it applies to States | No joint sitting for State Legislatures |
+| Anglo-Indian seat | Treating it as still existing | Abolished by 104th Amendment, 2019 |
+| Rajya Sabha | Calling it dissolvable | It is permanent; only 1/3rd members retire biennially |
 
-### Parliament's Control over Executive
+#### KAS-Specific Karnataka Focus
 
-**Question Hour**:
-- First hour of each sitting; MPs ask questions; Minister must answer
-- **Starred Question**: Answered orally; supplementary questions possible
-- **Unstarred Question**: Answered in writing (no supplementary)
-- **Short Notice Question**: At short notice on urgent matters
+Karnataka has a unicameral legislature with the Vidhan Sabha. The Governor summons, prorogues, and dissolves the Assembly on the aid and advice of the Chief Minister. The annual budget is presented in Belagavi during the legislature session. Comparisons with Parliament — particularly on Money Bill route, anti-defection adjudication by the Speaker, and Ordinance-making by the Governor under Article 213 — are frequently tested in Prelims and Mains.
 
-**Zero Hour**:
-- After Question Hour; raising of matters of public importance
-- Since 1962 tradition; not in Rules of Procedure
-
-**Adjournment Motion**:
-- Motion to adjourn House to discuss definite matter of urgent public importance
-- Debate on motion; if passed, Lok Sabha discusses for 2.5 hours
-- **Only in Lok Sabha**; used sparingly
-
-**Censures and No-Confidence Motions**:
-- **Censure motion**: Expresses disapproval of government policy; PM can be censured
-- **No-confidence motion**: States Lok Sabha has no confidence in government; if passed, PM must resign
-
-### Karnataka Legislative Council
-
-**Karnataka Legislative Council (Upper House)**:
-- **75 seats** (as per Karnataka Legislative Council Act 1984)
-- **Composition**: 25 elected by MLAs; 7 by graduates constituency; 7 by teachers constituency; 1 by Governor; 2 nominated by Governor; remaining 23 by local authorities' constituency
-- **Terms**: 6 years; 1/3rd rotates every 2 years
-- **Functions**: Deliberative; can delay money bills (1 month); can return bills with recommendations
-
-**Karnataka Legislative Assembly**:
-- **224 seats** (largest legislative assembly in South India)
-- **Speaker**: K.G. BEML? (current — various)
-- **Sessions**: Winter session (Belgaum — traditional); monsoon session; first session (Bangalore)
-
-**Bicameral justification**:
-- **For**: Provides check on populist legislation; represents local government and professional voices
-- **Against**: Delays legislation; expensive; undemocratic (not directly elected)
-- **Karnataka context**: Council seen as unnecessary by many; demands for abolition
-
-### Parliamentary Privileges
-
-**Art. 105 — Powers of Parliament**:
-- **Freedom of speech**: MPs cannot be questioned outside Parliament for speech inside
-- **Right to publish proceedings**: Cannot be subject to court proceedings
-- **Disqualification**: Parliament can disqualify member for moral turpitude (Art. 102)
-- **Contempt**: Parliament can punish for contempt
-
-**Karnataka Legislature Privileges**:
-- Similar to Parliament under Art. 194
-- Karnataka Legislative Assembly has privilege to punish contempt
-- **Speaker's powers**: Decision on disqualification cases (under 10th Schedule)
+#### Practice prompts:
+1. Explain the Money Bill certification process and assess whether the Speaker's decision is judicially reviewable.
+2. Compare the legislative powers of Rajya Sabha and Vidhan Parishad with reference to constitutional provisions.
 
 ---
 
-### Examination Strategy
+## Continue your study
 
-**KPSC KAS commonly asks**:
-1. Distinguish between Lok Sabha and Rajya Sabha powers
-2. Explain the legislative process and types of bills
-3. Analyse parliamentary control over the executive
-4. Discuss Karnataka's bicameral legislature
-5. Evaluate parliamentary privileges
-
-**Key distinctions**:
-- Money Bill vs Financial Bill vs Ordinary Bill (certificate, amendment rights, origination)
-- Rajya Sabha special powers (Art. 249, 312) vs ordinary powers (delaying)
-- Lok Sabha (popular chamber) vs Rajya Sabha (representative chamber — states, expertise)
-- Motion of Thanks vs Adjournment Motion vs No-Confidence Motion
+- **[View this topic in your KPSC KAS roadmap](/roadmap/?exam=kpsc&duration=1mo)** — see where "Parliament and State Legislatures" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=kpsc&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[KPSC KAS exam overview](/exams/kpsc/)** — pattern, eligibility, and syllabus
+- **[All Indian Polity notes](/notes/kpsc/indian-polity/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

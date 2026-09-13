@@ -448,6 +448,16 @@ function ProgressOverview({
   );
 }
 
+function trackGA4Event(eventName: string, params?: Record<string, unknown>) {
+  if (typeof window !== 'undefined' && typeof (window as any).gtag === 'function') {
+    try {
+      (window as any).gtag('event', eventName, params);
+    } catch {
+      // safe fallback if gtag blocked or consent restricted
+    }
+  }
+}
+
 export default function RoadmapApp({ exams }: Props) {
   const [selectedExam, setSelectedExam] = useState<string>('');
   const [selectedDuration, setSelectedDuration] = useState<string>('');
@@ -523,6 +533,10 @@ export default function RoadmapApp({ exams }: Props) {
     setProgressReady(false);
     setCompletedTopics(loadProgressSet(selectedExam, selectedDuration));
     setProgressReady(true);
+    trackGA4Event('generate_study_plan', {
+      exam_id: selectedExam,
+      duration: selectedDuration,
+    });
   }, [selectedExam, selectedDuration]);
 
   // Save progress to localStorage on change (only after hydrate for this key)
@@ -709,7 +723,8 @@ export default function RoadmapApp({ exams }: Props) {
     const id = normalizeTopicId(topicId) || topicId;
     setCompletedTopics(prev => {
       const next = new Set(prev);
-      if (topicDone(next, id)) {
+      const isDone = topicDone(next, id);
+      if (isDone) {
         next.delete(id);
         // also strip any legacy path form that ends with this slug
         for (const k of [...next]) {
@@ -718,6 +733,11 @@ export default function RoadmapApp({ exams }: Props) {
       } else {
         next.add(id);
       }
+      trackGA4Event('toggle_topic_progress', {
+        exam_id: selectedExam,
+        topic_id: id,
+        action: isDone ? 'uncomplete' : 'complete',
+      });
       return next;
     });
   };
@@ -730,6 +750,11 @@ export default function RoadmapApp({ exams }: Props) {
 
     for (const topic of candidates) {
       if (topic.notePath) {
+        trackGA4Event('study_next_topic', {
+          exam_id: selectedExam,
+          topic_id: topic.id,
+          duration: selectedDuration,
+        });
         setSrTier(selectedDuration);
         window.location.href = `${topic.notePath}?duration=${selectedDuration}`;
         return;
@@ -880,6 +905,10 @@ export default function RoadmapApp({ exams }: Props) {
                   type="button"
                   onClick={() => {
                     const shareUrl = `${window.location.origin}${window.location.pathname}?exam=${selectedExam}&duration=${selectedDuration}`;
+                    trackGA4Event('share_study_plan', {
+                      exam_id: selectedExam,
+                      duration: selectedDuration,
+                    });
                     if (navigator.clipboard && navigator.clipboard.writeText) {
                       navigator.clipboard.writeText(shareUrl)
                         .then(() => {

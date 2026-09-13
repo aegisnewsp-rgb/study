@@ -33,7 +33,6 @@ Allow: /
 User-agent: *
 Allow: /
 Disallow: /api/
-Disallow: /_astro/
 # Crawl-delay is ignored by Google; keep only for polite third-party bots
 Crawl-delay: 1
 

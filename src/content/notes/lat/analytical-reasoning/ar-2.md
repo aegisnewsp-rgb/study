@@ -24,84 +24,78 @@ diagramPrompt: "Educational diagram illustrating Statement and Assumptions with 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-A **Statement and Assumptions** question in LAT Analytical Reasoning gives you a short statement (fact or opinion) followed by two to five proposed **assumptions**. Your job is to pick the assumption that is *necessarily* taken for granted by the speaker. An assumption is an **unstated premise** whose falsity would weaken or destroy the statement's logic.
+A **Statement** is a stated fact or opinion; an **Assumption** is the unstated premise the speaker treats as true. In LAT Analytical Reasoning (4% weight), you must pick the option whose negation would collapse the statement. The fastest test: assume the option is FALSE and see if the statement still holds — if it does, that option is not the assumption.
 
-- **Definition:** An assumption is a hidden belief that must be true for the statement to hold.
-- **Necessary Assumption Test:** Negate the candidate. If the statement collapses, the candidate is the correct assumption.
-- **Trigger phrases** that signal a hidden assumption: *should, must, ought to, let us, if…then*.
-- **Common trap:** choosing a conclusion, an inference, or a course of action — these are not assumptions.
+- **Trigger words** in the statement: *should, must, ought to, let us, assuming that, if…then* — each hides an unstated belief.
+- **Necessary vs possible**: an assumption is *necessarily* taken for granted, not merely *likely* or *useful*.
+- **LAT format**: usually 1–3 MCQs with 3–5 options; pick the single option that must be true for the statement to survive.
 
-| Distinguish | Assumption | Look-alike |
-| --- | --- | --- |
-| Assumption vs Conclusion | Presupposed before reasoning | Drawn after reasoning |
-| Assumption vs Course of Action | Descriptive (what is believed) | Prescriptive (what to do) |
-| Assumption vs Inference | Hidden starting point | Deduced endpoint |
+---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-#### Core Definition
+#### Definition and Logical Role
 
-In LAT Analytical Reasoning, a **statement** is an expressed fact or opinion, and an **assumption** is the unstated belief that the speaker must already accept for that statement to make sense. The assumption sits *behind* the statement; it is not argued, merely presupposed.
+An assumption is a **hidden belief** that underwrites a statement. The speaker has not spelled it out, but without it the statement would not stand. Formally, an assumption is a *necessary condition* for the conclusion drawn from the statement. If you negate the assumption, the argument loses its force.
 
-#### How to Test an Assumption
+#### Distinguishing Assumptions from Look-Alikes
 
-Apply the **negation test**: take the proposed assumption, reverse it, and ask whether the original statement still holds. If negating the assumption makes the statement absurd, false, or meaningless, the assumption is *necessarily* taken for granted and therefore the right answer. If the statement survives the negation, the option is merely possible — and "possible" options are wrong.
+The most common trap in LAT items is mis-classifying the option. Use the table below to separate the four categories examiners exploit.
 
-#### Common Trigger Words
-
-Words of recommendation or policy — *should, must, ought to, let us, it is high time* — almost always carry an embedded assumption about value, priority, or feasibility. A statement like "The government should raise teacher salaries" hides the assumption that "teacher salaries are currently inadequate" or that "raising salaries will improve education quality."
-
-#### Typical LAT Pattern
-
-Each LAT Analytical Reasoning item presents a one- to three-sentence statement followed by options labelled (A)–(E). The examiner asks: "Which of the following is an assumption underlying the statement?" You must select **one** option. In many papers only one option passes the negation test; the rest fail because they are conclusions, restatements, or courses of action.
-
-| Step | Action | Reason |
+| Option type | What it does | Example for statement "We must install CCTV in schools" |
 | --- | --- | --- |
-| 1 | Read statement carefully | Identify any "should/must" triggers |
-| 2 | Strip the conclusion | Find what must be true first |
-| 3 | Apply negation test | Reverse each option, see if statement breaks |
-| 4 | Eliminate look-alikes | Remove conclusion / action / inference |
-| 5 | Pick the surviving option | Only the necessary assumption remains |
+| Assumption | Presupposed belief that must hold | "Safety in schools is currently inadequate." |
+| Conclusion | Deduced outcome drawn from the statement | "Parents will feel more confident about school security." |
+| Course of Action | Prescriptive step the speaker recommends | "Buy cameras from the government-approved vendor." |
+| Restatement | Paraphrase of the statement itself | "Installing CCTV in schools is a wise move." |
 
-#### Common Mistakes LAT Test-Takers Make
+Only the **Assumption** row is the correct answer; the other three are classic distractors.
 
-- Picking a **possible** belief rather than a **necessary** one.
-- Confusing a **course of action** ("the government should…") with the assumption that justifies it.
-- Marking a **paraphrase** of the statement itself as the answer.
+#### The Negation Test (Working Method)
+
+1. Read the statement and underline any value-loaded verb (*should, must, ought*).
+2. For each option, mentally prepend "It is NOT true that…" and re-read the statement.
+3. If the statement now sounds absurd, illogical, or unsupported, that option **is** the necessary assumption.
+4. If the statement survives the negation, the option is a possible belief, a conclusion, or a course of action — reject it.
+
+---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-#### The Logical Structure
+#### Edge Cases and Sub-Types
 
-Every Statement-and-Assumptions item has three layers: the **surface statement**, the **assumption(s)** underneath, and the **implied conclusion** or action that follows. LAT items in most keys hide only one operative assumption, but skilled authors can stack two, where one is a *suppressor assumption* that prevents alternative explanations.
+- **Suppressor assumption**: an assumption that *blocks* an alternative reading of the statement. Negating it admits a competing interpretation that makes the original conclusion unnecessary.
+- **Cultural/social presupposition**: statements about family, authority, or morality often embed assumptions the examiner expects you to surface (e.g., "Parents should monitor screen time" assumes parents have authority over children’s devices).
+- **Bivalent "if…then" statements**: the hidden assumption is that the *if*-clause is achievable; otherwise the *then*-clause is moot.
 
-#### Negation Test in Practice
+#### Common Mistakes (Trap Catalogue)
 
-Consider the statement: *"Private schools should be banned because they promote elitism."*
+1. Picking the **most appealing** option rather than the most *necessary* one.
+2. Treating a **course of action** as an assumption — recommendations are forward-looking, not presupposed.
+3. Selecting an option that **strengthens** the statement but is not **required** by it.
+4. Misreading *should/must* as a conclusion trigger when it is actually an assumption trigger.
 
-A proposed assumption: *"Public schools are accessible to all economic groups."*
+#### Worked Mini-Example
 
-Negation: *"Public schools are NOT accessible to all economic groups."* The statement loses force because banning private schools would not eliminate elitism if public schools also exclude the poor. The negation collapses the argument — so the assumption is **necessary**.
+> *Statement*: "The university should ban phones in lecture halls."
+> *Option A*: "Phones distract students during lectures." — **Assumption** (negate it → no reason to ban).
+> *Option B*: "Banning phones will improve exam scores." — **Conclusion** (derived, not presupposed).
+> *Option C*: "Install phone-free zones with lockers." — **Course of action**.
+>
+> Answer: **A**.
 
-#### Edge Cases and Exam Traps
+#### Exam Strategy for LAT
 
-- **Cultural presuppositions**: Statements about family, religion, or authority in many papers hide assumptions specific to a society's norms; examine these as candidate assumptions.
-- **Necessary vs sufficient**: A sufficient assumption would *prove* the conclusion by itself; LAT asks only for what is *required*, not what is *enough*.
-- **Quantitative hides**: Statements with words like *most, many, few* hide assumptions about comparative baselines.
-- **Two-step assumptions**: Some items first require identifying the hidden cause, then its effect — practise multi-step negation.
-
-#### Connections to Adjacent LAT Topics
-
-Statement and Assumptions overlaps with **Statement and Conclusions** (where you identify drawn inferences), **Statement and Arguments** (where you weigh strength), and **Course of Action** (prescriptive responses). A solid grasp of assumption logic directly improves performance on all four.
+- Spend under 90 seconds per question; the negation test is decisive.
+- Eliminate **restatements** first, then **courses of action**, then **conclusions** — what remains is the assumption.
+- Expect 1–3 items in the 4% Analytical Reasoning slice, usually clustered with *Statement & Conclusion* and *Argument Evaluation* items.
 
 #### Practice Prompts
 
-1. Statement: *"All employees should undergo annual medical check-ups."* Which of the following is a necessary assumption — (a) Check-ups improve health outcomes; (b) Some employees are currently unwell; (c) Employers should fund the check-ups; (d) Health is a corporate priority.
-2. Statement: *"The university must increase its library budget."* Apply the negation test to the option: *"Students' academic performance depends on library resources."* Does negating this break the statement?
-
-> **Scoring tip:** On LAT, expect 1–3 Statement-and-Assumptions MCQs. Spend no more than 90 seconds per item — apply the negation test first, eliminate look-alikes second, only then commit.
+1. Statement — "Only engineers should be hired for this construction project." Identify the assumption from: (a) Engineers are available for hire. (b) Engineers build better than non-engineers. (c) Hire qualified staff.
+2. Statement — "Let us reduce sugar in school canteens." Which option is the hidden assumption: (a) Sugar causes health issues in children. (b) Canteens can change menus. (c) Children buy from canteens.
 
 ---
 

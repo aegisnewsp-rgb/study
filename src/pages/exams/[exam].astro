@@ -2,6 +2,7 @@
 import Layout from '../../layouts/Layout.astro';
 import Navbar from '../../components/Navbar.astro';
 import Footer from '../../components/Footer.astro';
+import ExamReadinessIsland from '../../components/ExamReadinessIsland';
 import { ALL_EXAMS, getCountryFlag } from '../../data/exams';
 import { EXAM_FAQS } from '../../data/exam-faqs';
 import { getCollection } from 'astro:content';
@@ -571,6 +572,24 @@ const discontinuedNotice = DISCONTINUED_EXAMS[exam.examId];
         )}
       </section>
     )}
+
+    <!-- Exam Readiness Command Center (Magic Patterns UI Integration) -->
+    <div class="container-page">
+      <ExamReadinessIsland
+        client:idle
+        examId={exam.examId}
+        examName={examName}
+        subjects={subjectList.map((s: any) => ({
+          id: s.id || s.name.toLowerCase().replace(/[^a-z0-9]+/g, '-'),
+          name: s.name,
+          topics: (s.topics || []).map((t: any, idx: number) => ({
+            id: t.id || `${s.id || 'sub'}-${idx}`,
+            name: typeof t === 'string' ? t : (t.name || t.topicName || `Topic ${idx + 1}`),
+            weight: typeof t === 'object' ? t.weight : undefined,
+          })),
+        }))}
+      />
+    </div>
 
     <!-- Subject Cards -->
     {subjectList.length > 0 && (

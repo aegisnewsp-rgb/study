@@ -11,7 +11,7 @@ topicName: Legal Terminology
 weight: 3
 country: pakistan
 generated: "2026-03-24T08:32:08.020223"
-lastUpdated: "2026-06-23"
+lastUpdated: "2026-09-13"
 diagramPrompt: "Educational diagram illustrating Legal Terminology with clear labels, white background, exam-style illustration"
 
 
@@ -24,68 +24,68 @@ diagramPrompt: "Educational diagram illustrating Legal Terminology with clear la
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Legal Terminology** is the controlled vocabulary used in statutes, court judgments, contracts, and legal commentary, where everyday words (party, consideration, issue, serve) carry precise technical meanings distinct from colloquial usage. LAT tests this vocabulary through reading-comprehension passages set in legal contexts and standalone MCQs on word meaning, synonyms, and analogies.
+**Legal terminology** is the working vocabulary of courts, lawyers, and statutes — special words whose meaning in law differs sharply from their everyday use. LAT English tests recognition of these terms inside comprehension passages and analogy items, not memorisation of case law.
 
-Key high-yield items:
-- **Plaintiff** — person who files the suit; **Defendant** — person against whom the suit is filed.
-- **Consideration** — something of value exchanged to make a contract enforceable; not "kindness."
-- **Void** — no legal effect from inception; **Voidable** — valid until rescinded by one party.
-- **Mens Rea** (guilty mind) + **Actus Reus** (guilty act) — twin elements of most criminal liability.
-- **Habeas Corpus**, **Prima Facie**, **Pro Bono**, **Voir Dire**, **Res Judicata** — frequently tested Latin maxims.
-
-Trap to avoid: never read a legal sentence using the lay meaning of its words.
-
----
+- **Parties:** *plaintiff/petitioner* initiates; *defendant/respondent* opposes; *appellant* challenges a lower decision on appeal.
+- **Offences (CrPC, Pakistan):** split as *cognisable* (police may arrest without warrant) vs *non-cognisable*; and *bailable* vs *non-bailable* — these are independent axes, not the same classification.
+- **Latin maxims:** *habeas corpus*, *prima facie*, *mens rea*, *actus reus*, *pro bono*, *in re*, *ipso facto*, *per se* — read each as legal shorthand, never literally.
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-#### Sources of Legal Vocabulary
-Legal English draws from three reservoirs. **Old English / Anglo-Saxon** supplies courtroom-procedure words such as *bail*, *warrant*, *hearing*, *verdict*, *sworn statement*, *cross-examination*, *deposition*, and *injunction*. **Latin** contributes doctrinal terms including *mens rea*, *actus reus*, *habeas corpus*, *prima facie*, *amicus curiae*, *ex parte*, *ad hoc*, *res judicata*, *audi alteram partem*, and *stare decisis*. **French / Norman** terms inherited after 1066 include *plaintiff*, *defendant*, *tort*, *statute*, *suit*, *verdict*, *attorney*, and *counsel* — these entered English law through medieval French and never reverted to plain English.
+#### Parties and Roles
+The English section expects correct pairing of party labels with the stage of litigation. A *plaintiff* files a civil suit; a *petitioner* files a writ under Article 199 of the Constitution of Pakistan. On appeal the loser becomes the *appellant* and the winner the *respondent*. A *litigant* is the generic label for any party actively contesting.
 
-#### Words Whose Legal Meaning Differs from Ordinary Use
-A trap in LAT comprehension is assuming standard dictionary meanings. **Consideration** is *not* "politeness"; it is the bargained-for something of value (money, a promise, forbearance) that supports a contract. **Party** means a person or entity to a legal proceeding, not a celebration. **Issue** in succession law means lineal descendants, not a question. **Serve** means formal legal delivery of notice or process. **Minor** denotes a person below the age of majority (18 in India), not "lesser." **Suit** is a civil lawsuit, not a *suite* of rooms. **Testimony** is a subset of **evidence** — oral statement by a witness under oath, while evidence also includes documents, exhibits, and objects.
+#### Substantive vs Procedural Terms
+**Substantive terms** name rights and duties: *tort*, *contract*, *easement*, *lien*, *mortgage*, *lease*, *negligence*, *liability*. **Procedural terms** name what the court does: *bail*, *remand*, *acquittal*, *conviction*, *stay*, *injunction*, *revision*, *review*.
 
-#### Subdomains You Must Recognise
-- **Procedural:** *subpoena*, *summons*, *writ*, *affidavit*, *injunction*, *bail*, *parole*, *voir dire*, *arraignment*.
-- **Contract:** *offer*, *acceptance*, *consideration*, *breach*, *indemnity*, *lessor*, *lessee*, *void*, *voidable*, *ratification*.
-- **Constitutional / statutory:** *quorum*, *repeal*, *amendment*, *ordinance*, *enactment*, *preamble*.
-- **Criminal law:** *mens rea*, *actus reus*, *alibi*, *accomplice*, *attempt*, *conspiracy*, *negligence*.
-- **Remedies & doctrine:** *damages*, *restitution*, *specific performance*, *res judicata*, *stare decisis*, *jurisprudence*.
+| Axis of classification | Pair 1 | Pair 2 |
+| --- | --- | --- |
+| Offence type (CrPC) | Cognisable | Non-cognisable |
+| Arrest liberty | Bailable | Non-bailable |
+| Outcome for accused | Acquittal | Discharge |
+| Appeal route | Appeal | Revision |
+| Source of law | Statute | Precedent |
 
-#### Exam Patterns
-LAT typically frames a short legal passage (100–150 words) and asks the meaning of an underlined word, the legal equivalent of a phrase, or the correct synonym/antonym. Analogy items test whether you can map *plaintiff : defendant :: prosecution : ?*. A 3% weight means about 2–3 direct questions, but legal vocabulary also helps in RC passages on rights, FIRs, and constitutional matters.
+#### Latin Maxims in Context
+LAT passages use maxims as shorthand for legal reasoning. *Prima facie* means "on its face appearing true" — enough evidence to proceed but not to convict. *Mens rea* (guilty mind) and *actus reus* (guilty act) together form criminal liability. *Habeas corpus* ("you shall have the body") compels production of a detained person before a court. *Pro bono* marks free legal service; *ipso facto* signals automatic consequence; *per se* means "by itself"; *in re* addresses the matter itself, not named parties.
 
----
+#### Common Traps
+- Mixing *acquittal* (final not-guilty finding, double-jeopardy bar applies) with *discharge* (case not proceeded with, retrial possible).
+- Treating *jurisdiction* as one idea — pecuniary (value), territorial (geography), and subject-matter (type of case) are tested separately.
+- Reading *appeal* as a fresh trial — appellate courts review the lower record, they do not re-hear witnesses as of right.
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-#### Latin and French Maxims — Mechanism
-Maxims are not decorative; each encodes a rule of substantive law or procedure.
-- **Audi alteram partem** — "hear the other side." Foundation of natural justice; bars decisions without giving the affected person a chance to be heard.
-- **Res judicata** — "a matter judged." A finally decided issue cannot be re-litigated between the same parties; promotes judicial economy and finality.
-- **Stare decisis** — "to stand by things decided." Doctrine of binding precedent; lower courts follow the ratio decidendi of higher courts.
-- **Prima facie** — "at first sight." Evidence sufficient on its face to establish the claim unless rebutted.
-- **Habeas corpus** — "you shall have the body." Writ requiring the state to justify a person's detention.
-- **Actus reus + mens rea** — coincidence of the physical act and the culpable mental state is generally required for criminal liability, except in strict-liability offences.
+#### Edge Cases and Near-Synonyms
+The hardest LAT items exploit pairs that look alike. *Warrant* authorises arrest or search and is issued by a magistrate; *summons* merely requires appearance. *Affidavit* is a sworn written statement; *deposition* is sworn oral testimony. *Stay* halts proceedings; *injunction* orders a party to act or refrain. Recognising these distinctions in a comprehension passage is what the 3% weight is testing.
 
-#### The Void vs. Voidable Distinction — Mechanism
-A **void** contract is a *nullity* — as if it never existed (e.g., agreement with a minor for non-necessaries, contracts of wager under the Indian Contract Act, agreements in restraint of marriage). No party need approach court to set it aside. A **voidable** contract is *valid* until annulled by the aggrieved party (e.g., contracts induced by coercion, undue influence, fraud, or misrepresentation under Sections 19 and 19A of the Indian Contract Act, 1872). The innocent party may affirm or rescind.
+#### Worked Practice Prompts
+1. *A petitioner under Article 199 is the same as a plaintiff in a civil suit.* — False. Article 199 confers original jurisdiction on the High Court against the state; a plaintiff sues in civil court for private relief.
+2. *A cognisable offence is always non-bailable.* — False. Cognisable refers to arrest power (Schedule II, CrPC), bailable refers to entitlement to release on bond (Schedule I). The two lists intersect but are independently defined.
 
-#### Adjacent Connections
-Legal terminology overlaps with **Legal Reasoning** (maxim-based reasoning), **Passage Comprehension** (RC passages often describe FIRs, bail hearings, PILs, constitutional articles), and **Logical Reasoning** (syllogisms about parties, jurisdiction, and rights). Studying these maxims in their doctrinal context — not as dictionary flashcards — improves retention.
+| Maxim | Literal words | Legal sense |
+| --- | --- | --- |
+| Habeas corpus | You shall have the body | Order to produce detainee; test of lawful custody |
+| Prima facie | At first sight | Evidence sufficient to proceed, not to convict |
+| Mens rea | Guilty mind | Intent or recklessness element of crime |
+| Actus reus | Guilty act | Physical element of crime |
+| Pro bono | For the public good | Free legal representation |
+| Ipso facto | By the fact itself | Automatic legal consequence |
+| In re | In the matter | Case name where no adversary, e.g. In re: a missing person |
 
-#### Common Mistakes
-- Treating *consideration* as moral kindness rather than legal value.
-- Assuming *alibi* automatically acquits; the accused must prove it on preponderance of probabilities.
-- Confusing *testimony* with *evidence*; testimony is one form of evidence.
-- Swapping *plaintiff* and *defendant*; civil suits are framed as *Plaintiff v. Defendant*, criminal ones as *State v. Accused*.
-- Reading *issue* as a question when it means children/heirs.
+#### Exam Strategy
+Legal vocabulary appears inside RC passages drawn from reported judgments and constitutional articles, not as a standalone list. Read the surrounding sentence before choosing between near-synonyms; LAT answer keys reward contextual fit, not dictionary recall.
 
-#### Practice Prompts
-**Prompt 1:** A contract between A (a minor) and B for a motorcycle is *void* — identify the correct legal status and explain whether B can enforce it.
-**Prompt 2:** A higher court ruling on a point of law binds subordinate courts under the doctrine of ______; fill in the blank and state one exception where the binding effect may not apply.
+---
+
+## Continue your study
+
+- **[View this topic in your LAT (Law Admission Test) roadmap](/roadmap/?exam=lat&duration=1mo)** — see where "Legal Terminology" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=lat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[LAT (Law Admission Test) exam overview](/exams/lat/)** — pattern, eligibility, and syllabus
+- **[All English notes](/notes/lat/english/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

@@ -21,55 +21,111 @@ diagramPrompt: "Clear scientific diagram of Metallurgy with atom labels, molecul
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Metallurgy** covers the four-step sequence used to convert a mineral into a usable metal: **concentration of ore**, **extraction (reduction)**, **refining**, and **alloying**. The decisive tool in JEE Advanced is the **Ellingham diagram** (ΔG° of oxide formation vs T): whichever line sits lower at a given temperature is the thermodynamically stronger reductant. The **C → CO line slopes upward** (ΔS > 0, gas moles go 1 → 2) and crosses most metal-oxide lines between ~700–1000 K, making carbon the universal reductant above that crossover. Refining choices depend on the metal: **electrolytic** for Cu/Zn, **Mond** for Ni (via Ni(CO)₄), **van Arkel** for Ti/Zr/Hf (via volatile MI₄), **zone refining** for Si/Ge/B/Ga.
+Metallurgy is the science of extracting a metal from its **ore** (a mineral from which the metal is commercially extracted) and converting it into a usable form. The four mandatory stages are **concentration of ore**, **extraction** (reduction of oxide to metal), **refining** (purification), and **alloying**.
 
-- **Calcination** → carbonate/hydrate ores, no SO₂ released.
-- **Roasting** → sulphide ores, SO₂ released.
-- **Faraday's law**: m = (I·t·M)/(n·F), F = 96485 C·mol⁻¹.
+- **Concentration methods** depend on ore type: hydraulic washing (oxide ores, density difference), magnetic separation (magnetite, Fe₃O₄), froth flotation (sulphide ores, pine oil collectors), leaching (bauxite with NaOH; Au/Ag with NaCN).
+- **Calcination vs roasting**: calcination = carbonate/hydrate ores, no SO₂ released (e.g. CaCO₃ → CaO + CO₂); roasting = sulphide ores, SO₂ released (e.g. 2ZnS + 3O₂ → 2ZnO + 2SO₂).
+- **Reduction** is chosen from the **Ellingham diagram** (ΔG° vs T plot for oxide formation): a metal oxide line lying above the reductant's oxide line means the reductant can take the oxygen away.
+- **Refining flashcards**: electrolytic (Cu, Zn), zone (Si, Ge, Ga — semiconductors), van Arkel (Ti, Zr, Hf via iodide), Mond (Ni via Ni(CO)₄), distillation (Zn, Hg), liquation (Sn, Pb), poling (Cu).
+- **Hall–Héroult** uses cryolite (Na₃AlF₆) to dissolve Al₂O₃ near 950 °C; carbon anode is consumed: 2Al₂O₃ + 3C → 4Al + 3CO₂.
+- **Faraday's law** for electrolytic mass: m = (I·t·M)/(n·F), with F = 96485 C·mol⁻¹; n = 3 for Al, 2 for Cu, 1 for Ag.
+
+---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-#### Steps of Extraction
+#### The Four-Stage Flow
 
-Every metallurgical flow follows the same backbone, though the chemistry differs per metal. **Concentration** removes gangue using hydraulic washing, magnetic separation, froth flotation (sulphides), or leaching (bauxite in NaOH; gold in NaCN). **Calcination** heats carbonate/hydrate ores below their melting point in limited air (CaCO₃ → CaO + CO₂). **Roasting** heats sulphide ores in excess air (2ZnS + 3O₂ → 2ZnO + 2SO₂). **Reduction** converts oxide to metal, and **refining** removes the last impurities.
+Every metallurgical process — from bauxite to aluminium, or from chalcopyrite to copper — moves through the same four stages. Recognising which stage a question targets saves marks, because JEE Advanced often tests one stage in isolation (e.g. "which refining method?" or "which concentration method for a sulphide ore?").
 
-#### Ellingham Diagram Logic
+#### Concentration of Ore
 
-The diagram plots ΔG° of oxide formation against temperature. The slope equals −ΔS°. For metals forming solid oxides the slope is near-zero or slightly negative; for the **C/CO line** it is strongly positive (1 mole CO vs 1 mole C + ½O₂ → 2 moles gas); for **C/CO₂** it is negative (1 → 1 mole gas, ΔS slightly negative). A metal **M** is reduced by a reductant **R** when the line for **R_xO_y** lies *below* that of **M_xO_y**. This is why Al reduces Cr₂O₃ (thermite) and Mg reduces TiCl₄, even though carbon is cheaper — Al and Mg have lower ΔG° lines throughout the operating temperature.
+The gangue (worthless matrix) is removed before reduction, since feeding gangue into the furnace wastes energy and flux.
 
-#### Refining Methods at a Glance
-
-| Method | Metals | Principle |
+| Method | Ore type | Key reagent / principle |
 | --- | --- | --- |
-| Electrolytic refining | Cu, Zn | Anode = impure metal, cathode = pure strip, electrolyte = salt solution |
-| Zone refining | Si, Ge, B, Ga | Impurity prefers liquid → swept along molten zone |
-| Van Arkel–de Boer | Ti, Zr, Hf | Crude metal + I₂ → volatile MI₄ → decomposes on hot W filament |
-| Mond process | Ni | Ni + 4CO ⇌ Ni(CO)₄ at 330 K; decomposes at 450 K |
-| Liquation / Distillation | Sn, Pb / Zn, Hg | Melting-point or volatility difference |
-| Poling | Cu (oxide removal) | Green-wood poles reduce Cu₂O to Cu |
+| Hydraulic washing | Oxide ores (tin, haematite) | Gravity separation in water stream |
+| Magnetic separation | Magnetite (Fe₃O₄) | Ferrous ore attracted to magnet |
+| Froth flotation | Sulphide ores (CuFeS₂, ZnS, PbS) | Pine oil + air bubbles; gangue wets, ore floats |
+| Leaching | Bauxite (NaOH), Au/Ag (NaCN) | Chemical dissolution of the metal |
+
+#### Calcination and Roasting
+
+Both convert the concentrated ore into a metal oxide (or free metal for roasting of certain sulphides). The delimiter is sulphur content, not temperature.
+
+- **Calcination** (absence of air, or limited air): CaCO₃ → CaO + CO₂; ZnCO₃ → ZnO + CO₂. Used when the ore carries carbonates, hydroxides, or hydrated oxides.
+- **Roasting** (excess hot air): 2Cu₂S + 3O₂ → 2Cu₂O + 2SO₂; 2ZnS + 3O₂ → 2ZnO + 2SO₂. The SO₂ produced is the source of sulphuric acid in smelters — a frequent assertion-reason trap.
+
+#### Reduction and the Ellingham Diagram
+
+The Ellingham diagram plots ΔG° of oxide formation versus T for various metals. A metal-oxide line that sits **higher** than the reductant-oxide line means the reductant can pull the oxygen. The lines for C → CO and C → CO₂ cross most metal-oxide lines at high temperature, which is why coke becomes the universal reductant above ~1000 K.
+
+| C–O line | Slope sign | Reason |
+| --- | --- | --- |
+| 2C + O₂ → 2CO | Positive (line rises) | Gas moles increase: 1 → 2 |
+| C + O₂ → CO₂ | Negative (line falls) | Gas moles decrease: 2 → 1 |
+
+**Worked check**: For Al reduction of Cr₂O₃ (thermite), the Al₂O₃ line sits below Cr₂O₃ at all temperatures, so the coupled reaction Cr₂O₃ + 2Al → Al₂O₃ + 2Cr has ΔG° < 0 throughout — Al wins.
+
+#### Refining at a Glance
+
+| Refining | Examples | Mechanism |
+| --- | --- | --- |
+| Electrolytic | Cu, Zn | Anode = impure metal; cathode = pure strip; electrolyte = metal sulphate |
+| Zone refining | Si, Ge, Ga, B | Impurity soluble in melt, swept along rod |
+| Van Arkel | Ti, Zr, Hf | Metal + I₂ → MI₄ (volatile) → decomposes on hot W filament |
+| Mond | Ni | Ni + 4CO → Ni(CO)₄ at 330 K; decomposes at 450 K |
+| Distillation | Zn, Hg, | Boiling-point gap |
+| Liquation | Sn, Pb | Low-melting metal drains out |
+
+---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
+#### Edge Cases and Thermodynamic Traps
+
+The Ellingham diagram hides three traps the examiner exploits:
+
+1. **Crossover reversals.** Mg and Al are *better* reductants than carbon *below* their crossover temperatures. Industrial Al extraction cannot use carbon — it needs electrolysis (Hall–Héroult). Above the crossover, carbon wins. The exam loves asking which is the stronger reductant at a stated temperature.
+2. **Coupled reactions.** When you couple two Ellingham lines, ΔG°_overall = Σ ΔG°_products − Σ ΔG°_reactants. For Cr₂O₃ + 2Al → Al₂O₃ + 2Cr, the negative slope of Al₂O₃ dominates and ΔG° stays negative across all T.
+3. **ΔS sign.** Slope = −ΔS°. A positive slope means ΔS < 0 on the *forward* oxide-formation direction; for 2C + O₂ → 2CO the entropy rises (more gas moles), so the oxidation of C to CO is favoured as T increases.
+
 #### Hall–Héroult and Faraday's Law
 
-Aluminium is produced by electrolysing **Al₂O₃ dissolved in cryolite (Na₃AlF₆) with fluorspar (CaF₂)**. The melt point drops from ~2050 °C to ~950–1000 °C, and conductivity rises. The graphite anode is *consumed*: C + O²⁻ → CO + 2e⁻, so the overall cell reaction is **2Al₂O₃ + 3C → 4Al + 3CO₂**. To find mass deposited, apply m = (I·t·M)/(n·F). For Al, **n = 3** (Al³⁺); for Cu refining, **n = 2** (Cu²⁺); for Ag electrorefining, **n = 1** (Ag⁺). Using the wrong n is the single most common numerical trap.
+In electrolytic refining of Cu, the **impure blister copper** is the **anode** (it dissolves as Cu²⁺); a thin strip of **pure copper** is the **cathode** (Cu²⁺ deposits). Electrolyte is acidified CuSO₄. Reversing anode and cathode is the most common error.
 
-#### Common Mistakes and Worked Trap
+For mass deposited:
 
-| Trap | Why students fall for it | Correct idea |
-| --- | --- | --- |
-| Calcination vs roasting | Both involve heating ores | Calcination → no S, no SO₂; roasting → sulphide → SO₂ |
-| Anode vs cathode in Cu refining | Assumption that "impure" goes to cathode | Anode dissolves (impure blister Cu); cathode plate is pure Cu |
-| C/CO and C/CO₂ slope signs | Both lines look similar | C/CO slope +ve (1 → 2 gas); C/CO₂ slope −ve (2 → 1 gas) |
-| Cryolite's role | "Cryolite is the ore" | Cryolite is a flux/solvent, not a reactant or reductant |
+```
+m = (I · t · M) / (n · F)
+```
 
-**Worked check:** 19300 C passed through molten Al₂O₃ (n = 3 for Al) deposits m = (19300 × 27)/(3 × 96485) ≈ **1.80 g of Al**. Always check that the *total charge per mole of metal* equals nF, not 2nF or F/2.
+where I in amperes, t in seconds, M in g·mol⁻¹, n = valency (1 for Ag, 2 for Cu, 3 for Al), F = 96485 C·mol⁻¹. **Worked example**: a current of 5 A passes through acidified CuSO₄ for 40 minutes. Mass of Cu deposited = (5 × 2400 × 63.5) / (2 × 96485) ≈ 3.95 g.
 
-#### Practice prompts:
-1. Predict, using Ellingham ΔG° values at 1500 K, whether C can reduce MgO. Cite the relative line positions.
-2. For electrolytic refining of blister Cu (impurities: Fe, Ni, Ag), state which impurities pass into solution and which settle as **anode mud**, and justify using standard reduction potentials.
+#### Cyanide Process — Two-Step, Not One
+
+Silver and gold are extracted by **leaching first**, then **displacement**:
+
+1. **Leaching**: 4Au + 8NaCN + O₂ + 2H₂O → 4Na[Au(CN)₂] + 4NaOH
+2. **Zinc displacement**: 2Na[Au(CN)₂] + Zn → Na₂[Zn(CN)₄] + 2Au
+
+Writing Zn directly as "Au + Zn → …" loses the complex-formation step that examiners award marks for.
+
+#### Practice Prompts
+
+1. An ore contains both ZnS and Ag₂S. Outline, with equations, the route to pure Zn (metal) and pure Ag (metal). Identify the concentration method for each and justify the choice of reductant using the Ellingham diagram (crossover ~1273 K).
+2. Predict, with reasoning, whether carbon or magnesium is the better reductant for TiO₂ at 800 K. Given that industrial Ti uses the Kroll process (Mg reduction of TiCl₄), explain why TiO₂ is not directly reduced by Mg in practice.
+
+#### Common Mistakes
+
+- Treating cryolite as the ore; it is only a flux that lowers the melt from ~2050 °C to ~950 °C and raises conductivity.
+- Forgetting that the Hall–Héroult **graphite anode is consumed** (forms CO/CO₂); it is not inert.
+- Applying zone refining to metals like Cu — zone refining is for **semiconductors** whose host impurity is soluble in the melt but not in the solid.
+- Confusing **van Arkel** (chemical vapour transport, metal + I₂) with **zone refining** (physical segregation, no reaction). Both give ultra-pure product but the mechanism is different.
+
+---
 
 ## Continue your study
 

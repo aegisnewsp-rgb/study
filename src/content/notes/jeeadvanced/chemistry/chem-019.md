@@ -21,86 +21,55 @@ diagramPrompt: "Clear scientific diagram of Metallurgy with atom labels, molecul
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-Metallurgy converts an ore into a usable metal through four stages: **concentration of ore**, **extraction (reduction)** of the crude metal, **refining**, and **alloying**. The driving question at every stage is thermodynamic: which reductant pulls ΔG° most negative for the target oxide at the operating temperature?
+**Metallurgy** covers the four-step sequence used to convert a mineral into a usable metal: **concentration of ore**, **extraction (reduction)**, **refining**, and **alloying**. The decisive tool in JEE Advanced is the **Ellingham diagram** (ΔG° of oxide formation vs T): whichever line sits lower at a given temperature is the thermodynamically stronger reductant. The **C → CO line slopes upward** (ΔS > 0, gas moles go 1 → 2) and crosses most metal-oxide lines between ~700–1000 K, making carbon the universal reductant above that crossover. Refining choices depend on the metal: **electrolytic** for Cu/Zn, **Mond** for Ni (via Ni(CO)₄), **van Arkel** for Ti/Zr/Hf (via volatile MI₄), **zone refining** for Si/Ge/B/Ga.
 
-For JEE Advanced, the Ellingham diagram (ΔG° vs T plot of oxide formation) decides the choice of reductant. A line lying lower means stronger oxide formation, hence a stronger reducing agent above any crossover temperature. Carbon's C→CO line has positive slope (gas moles 1→2), so it overtakes many metal oxides above ~1000 K and dominates Fe, Zn, Sn reduction.
-
-- **Must-know formula:** Faraday's law of electrolysis — m = (I × t × M) / (n × F), where F = 96485 C·mol⁻¹; use n = 2 for Cu²⁺, n = 3 for Al³⁺.
-- **High-yield fact:** Hall–Héroult uses cryolite (Na₃AlF₆) only as a flux to drop Al₂O₃ melting point from ~2050 °C to ~950 °C; the graphite anode is consumed.
-- **High-yield fact:** Mond process purifies Ni via volatile Ni(CO)₄ (formed at ~330 K, decomposed at ~450 K).
-
----
+- **Calcination** → carbonate/hydrate ores, no SO₂ released.
+- **Roasting** → sulphide ores, SO₂ released.
+- **Faraday's law**: m = (I·t·M)/(n·F), F = 96485 C·mol⁻¹.
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-#### Concentration and Conversion Steps
+#### Steps of Extraction
 
-Ore dressing removes **gangue** (matrix) using hydraulic washing, magnetic separation, **froth flotation** (sulphide ores), and leaching. Leaching is chemical: bauxite dissolves in NaOH (Bayer process), while Au/Ag dissolve in aerated NaCN (cyanide process). Calcination suits carbonate/hydrate ores with no sulphur (CaCO₃ → CaO + CO₂). Roasting suits sulphide ores (ZnS + O₂ → ZnO + SO₂). Confusing the two is a routine MCQ trap.
+Every metallurgical flow follows the same backbone, though the chemistry differs per metal. **Concentration** removes gangue using hydraulic washing, magnetic separation, froth flotation (sulphides), or leaching (bauxite in NaOH; gold in NaCN). **Calcination** heats carbonate/hydrate ores below their melting point in limited air (CaCO₃ → CaO + CO₂). **Roasting** heats sulphide ores in excess air (2ZnS + 3O₂ → 2ZnO + 2SO₂). **Reduction** converts oxide to metal, and **refining** removes the last impurities.
 
-#### Reduction and the Ellingham Diagram
+#### Ellingham Diagram Logic
 
-Choose the reductant whose ΔG° line sits below the metal oxide line at the operating temperature. The Gibbs–Helmholtz equation ΔG° = ΔH° − TΔS° governs the slope.
+The diagram plots ΔG° of oxide formation against temperature. The slope equals −ΔS°. For metals forming solid oxides the slope is near-zero or slightly negative; for the **C/CO line** it is strongly positive (1 mole CO vs 1 mole C + ½O₂ → 2 moles gas); for **C/CO₂** it is negative (1 → 1 mole gas, ΔS slightly negative). A metal **M** is reduced by a reductant **R** when the line for **R_xO_y** lies *below* that of **M_xO_y**. This is why Al reduces Cr₂O₃ (thermite) and Mg reduces TiCl₄, even though carbon is cheaper — Al and Mg have lower ΔG° lines throughout the operating temperature.
 
-| Reductant oxide line | Slope sign | Reason (gas moles) | Crossover behaviour |
-| --- | --- | --- | --- |
-| 2C + O₂ → 2CO | Positive (+ΔS) | 0 → 2 moles of gas | Crosses most metal oxides upward at high T |
-| C + O₂ → CO₂ | Negative (−ΔS) | 1 → 0 moles of gas | Stays low only at low T |
-| 2Mg + O₂ → 2MgO | Nearly flat | Solid oxide, solid metal | Strong below crossover, weak above |
+#### Refining Methods at a Glance
 
-#### Worked Relationships for Specific Metals
-
-- **Fe** in the blast furnace: Fe₂O₃ → Fe₃O₄ → FeO → Fe using CO at 900–1500 K; CaCO₃ → CaO + CO₂, then CaO + SiO₂ → CaSiO₃ slag.
-- **Cu** from chalcopyrite CuFeS₂: partial roasting then self-reduction by remaining FeS; blister Cu is finally electrorefined.
-- **Al** from bauxite: Bayer converts ore to pure Al₂O₃, then Hall–Héroult electrolyses it in molten cryolite (overall 2Al₂O₃ + 3C → 4Al + 3CO₂).
-
-#### Refining Method Selection
-
-| Method | Principle | Typical metal |
+| Method | Metals | Principle |
 | --- | --- | --- |
-| Electrolytic | Anode dissolves, pure metal plates cathode | Cu, Zn |
-| Zone refining | Impurity stays in molten zone (segregation) | Si, Ge, Ga |
-| Van Arkel | Metal + I₂ → volatile MI₄ → decomposes on W filament | Ti, Zr, Hf |
-| Mond | Ni + 4CO → Ni(CO)₄ (volatile) | Ni |
-| Liquation / distillation | Lower-melting metal drains or boils off | Sn, Zn, Hg |
-
-- **Exam tip:** Match the refining method to the property exploited — volatility for Mond, distillation; solubility difference for zone refining; electrochemical series for electrorefining.
-
----
+| Electrolytic refining | Cu, Zn | Anode = impure metal, cathode = pure strip, electrolyte = salt solution |
+| Zone refining | Si, Ge, B, Ga | Impurity prefers liquid → swept along molten zone |
+| Van Arkel–de Boer | Ti, Zr, Hf | Crude metal + I₂ → volatile MI₄ → decomposes on hot W filament |
+| Mond process | Ni | Ni + 4CO ⇌ Ni(CO)₄ at 330 K; decomposes at 450 K |
+| Liquation / Distillation | Sn, Pb / Zn, Hg | Melting-point or volatility difference |
+| Poling | Cu (oxide removal) | Green-wood poles reduce Cu₂O to Cu |
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-#### Edge Cases and Mechanism Depth
+#### Hall–Héroult and Faraday's Law
 
-The Ellingham diagram assumes oxide formation only. When two reactions are coupled (e.g., thermite: 2Al + Cr₂O₃ → Al₂O₃ + 2Cr), ΔG°_overall = Σ ΔG°_products − Σ ΔG°_reactants. Aluminium's oxide line sits far below Cr₂O₃'s at all temperatures, so ΔG°_overall stays strongly negative and the reaction is self-sustaining once ignited.
+Aluminium is produced by electrolysing **Al₂O₃ dissolved in cryolite (Na₃AlF₆) with fluorspar (CaF₂)**. The melt point drops from ~2050 °C to ~950–1000 °C, and conductivity rises. The graphite anode is *consumed*: C + O²⁻ → CO + 2e⁻, so the overall cell reaction is **2Al₂O₃ + 3C → 4Al + 3CO₂**. To find mass deposited, apply m = (I·t·M)/(n·F). For Al, **n = 3** (Al³⁺); for Cu refining, **n = 2** (Cu²⁺); for Ag electrorefining, **n = 1** (Ag⁺). Using the wrong n is the single most common numerical trap.
 
-In Hall–Héroult, current efficiency is below 100% because some current liberates Na from cryolite. The graphite anode is consumed: C + O²⁻ → CO + 2e⁻ (later CO₂), so the cell needs periodic anode replacement. Cryolite is neither ore nor reductant — it is a solvent that lowers the melt from ~2050 °C to ~950 °C and raises conductivity.
+#### Common Mistakes and Worked Trap
 
-#### Common Mistakes to Avoid
+| Trap | Why students fall for it | Correct idea |
+| --- | --- | --- |
+| Calcination vs roasting | Both involve heating ores | Calcination → no S, no SO₂; roasting → sulphide → SO₂ |
+| Anode vs cathode in Cu refining | Assumption that "impure" goes to cathode | Anode dissolves (impure blister Cu); cathode plate is pure Cu |
+| C/CO and C/CO₂ slope signs | Both lines look similar | C/CO slope +ve (1 → 2 gas); C/CO₂ slope −ve (2 → 1 gas) |
+| Cryolite's role | "Cryolite is the ore" | Cryolite is a flux/solvent, not a reactant or reductant |
 
-| Mistake | Correction |
-| --- | --- |
-| Anode = pure Cu in electrorefining | Anode = impure blister Cu; cathode = thin pure Cu strip |
-| n = 1 for Cu²⁺ in Faraday law | n = 2 for Cu²⁺, n = 3 for Al³⁺, n = 1 for Ag⁺ |
-| Zone refining = van Arkel | Zone refining is physical (no reaction); van Arkel uses I₂ chemistry |
-| Cryolite is the ore in Hall–Héroult | Cryolite is a flux; ore is pure Al₂O₃ from Bayer process |
-| C/CO and C/CO₂ lines both rise with T | C/CO rises; C/CO₂ falls (1→0 gas moles) |
+**Worked check:** 19300 C passed through molten Al₂O₃ (n = 3 for Al) deposits m = (19300 × 27)/(3 × 96485) ≈ **1.80 g of Al**. Always check that the *total charge per mole of metal* equals nF, not 2nF or F/2.
 
-#### Worked Numeric Example
-
-**Q:** In electrolytic refining of copper, 0.50 A passes through acidified CuSO₄ for 45 minutes. How much pure Cu plates the cathode? (M_Cu = 63.5 g·mol⁻¹, n = 2, F = 96485 C·mol⁻¹)
-
-**Solution:** Q = I × t = 0.50 × 2700 = 1350 C. Then m = (Q × M) / (n × F) = (1350 × 63.5) / (2 × 96485) = 85725 / 192970 ≈ 0.444 g of Cu.
-
-#### Exam Strategy and Practice Prompts
-
-JEE Advanced carries ~5% weight from this chapter, usually 1–2 questions per paper — one MCQ on Ellingham slopes and one numerical on Faraday's law or process identification. Memorising oxide-formula to metal mapping (haematite Fe₂O₃, chromite FeCr₂O₄, bauxite AlO(OH)) saves disambiguation time.
-
-1. **Practice prompt 1:** For each metal oxide listed (MgO, Al₂O₃, ZnO, FeO), identify at what temperature range carbon becomes a better reductant than the metal itself, using Ellingham crossover points.
-2. **Practice prompt 2:** Compute the mass of aluminium deposited in a Hall–Héroult cell operating at 20,000 A for 8 hours assuming n = 3, M_Al = 27 g·mol⁻¹, and 90% current efficiency.
-
----
+#### Practice prompts:
+1. Predict, using Ellingham ΔG° values at 1500 K, whether C can reduce MgO. Cite the relative line positions.
+2. For electrolytic refining of blister Cu (impurities: Fe, Ni, Ag), state which impurities pass into solution and which settle as **anode mud**, and justify using standard reduction potentials.
 
 ## Continue your study
 

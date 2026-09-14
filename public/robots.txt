@@ -1,6 +1,6 @@
 # StudyRoadmap — robots.txt
 # https://studyroadmap.in
-# Last updated: 2026-07-28
+# Last updated: 2026-09-13
 #
 # AdSense / indexing rules (strict):
 # - Mediapartners-Google + AdsBot-Google MUST remain fully allowed (ad review crawl).
@@ -210,4 +210,4 @@ Disallow: /
 User-agent: Cohere-User
 Allow: /
 
-# Last updated: 2026-04-23
+# Last updated: 2026-09-13

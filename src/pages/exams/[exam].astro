@@ -114,7 +114,71 @@ const title = (() => {
   const room = Math.max(10, 60 - BRAND_SUFFIX.length - 3);
   return `${examName.slice(0, room).trim()}...${BRAND_SUFFIX}`;
 })();
-const description = `Full ${examName} ${currentYear} guide — exam pattern, eligibility, syllabus weightage, FAQs, and a free AI study roadmap built in minutes.`;
+// Unique, data-driven meta description. A single templated sentence repeated across 125+
+// exam pages gives Google nothing to differentiate them in the SERP and wastes the CTR
+// value of the real pattern/eligibility facts already sitting in the data files. Lead with
+// this exam's own numbers; only fall back to boilerplate when the data file is empty.
+const description = (() => {
+  const squash = (s: string) => s.replace(/\s+/g, ' ').trim();
+  // First real sentence, ignoring periods inside decimals/abbreviations ("3.5 hours").
+  const firstSentence = (s: string) => {
+    const t = squash(s);
+    const m = t.match(/^.{20,}?[.!?](?=\s|$)/);
+    return (m ? m[0] : t).trim();
+  };
+  const pattern = exam.examPattern ? firstSentence(fullExamPattern) : '';
+  const elig = exam.eligibility ? firstSentence(fullEligibility) : '';
+
+  let base = pattern
+    ? `${examName} ${currentYear}: ${pattern}`
+    : (fullDescription ? `${examName} ${currentYear}: ${firstSentence(fullDescription)}` : '');
+
+  // Some data sentences open by naming the exam themselves ("CUET UG is a computer-based
+  // test…"), which would read as "CUET UG 2026: CUET UG is a…". Fold the year into that
+  // existing mention instead of printing the name twice. Parenthetical parts of the name
+  // ("CUCET (PG)") are treated as optional so they match the data's "CUCET PG" form.
+  if (pattern) {
+    const esc = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const parts: { opt: boolean; text: string }[] = [];
+    const re = /\(([^)]*)\)|([^()]+)/g;
+    let m: RegExpExecArray | null;
+    while ((m = re.exec(examName)) !== null) {
+      if (m[1] !== undefined) {
+        const t = m[1].trim();
+        if (t) parts.push({ opt: true, text: t });
+      } else {
+        const t = m[2].trim();
+        if (t) parts.push({ opt: false, text: t });
+      }
+    }
+    const nameRe = parts
+      .map((p) => {
+        const body = esc(p.text).replace(/\s+/g, '\\s+');
+        return p.opt ? `(?:\\s*\\(?\\s*${body}\\s*\\)?)?` : body;
+      })
+      .join('\\s*');
+    const coreRe = nameRe ? new RegExp(`^${nameRe}`, 'i') : null;
+    if (coreRe && coreRe.test(pattern)) {
+      base = pattern
+        .replace(coreRe, () => `${examName} ${currentYear} `)
+        .replace(/\s+/g, ' ')
+        .trim();
+    }
+  }
+
+  // Only append eligibility when the pattern line leaves room for it.
+  if (base && elig && base.length < 105) base = `${base} Eligibility: ${elig}`;
+  if (!base) base = `Full ${examName} ${currentYear} guide — exam pattern, eligibility, syllabus weightage, FAQs, and a free AI study roadmap built in minutes.`;
+
+  // Fit the ~158-char SERP window without cutting a word in half.
+  const MAX = 158;
+  if (base.length > MAX) {
+    const cut = base.slice(0, MAX);
+    const sp = cut.lastIndexOf(' ');
+    base = `${cut.slice(0, sp > 100 ? sp : MAX).replace(/[\s,;:.\-—]+$/, '')}…`;
+  }
+  return base;
+})();
 const canonicalUrl = `${SITE_URL}/exams/${exam.examId}/`;
 
 const authorObj = {

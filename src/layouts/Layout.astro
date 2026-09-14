@@ -66,8 +66,12 @@ const canonicalURL = canonical
 const currentYear = new Date().getFullYear();
 const is404Page = cleanPath === '/404/' || (typeof title === 'string' && title.includes('404'));
 const isPolicyOrToolPage = ['/roadmap/', '/privacy/', '/terms/', '/disclaimer/', '/contact/', '/editorial-process/'].includes(cleanPath);
-const allowAutoAds = !is404Page && !(typeof robots === 'string' && /noindex/i.test(robots));
-const allowMonetag = allowAutoAds && !isPolicyOrToolPage;
+// Ad units must not load on 404, noindex, or policy/tool pages. Google's placement policy
+// discourages ads on non-content pages (privacy/terms/contact), and the repo's own
+// /data/sr-ad-safety-check.sh hard-requires 0 ad requests on those URLs. Monetag and AdSense
+// therefore share exactly the same eligibility surface.
+const allowAutoAds = !is404Page && !isPolicyOrToolPage && !(typeof robots === 'string' && /noindex/i.test(robots));
+const allowMonetag = allowAutoAds;
 ---
 
 <!doctype html>
@@ -78,7 +82,9 @@ const allowMonetag = allowAutoAds && !isPolicyOrToolPage;
 
         <!-- Google Search Console verification -->
         <meta name="google-site-verification" content="Va3l3XyhrSbLFp4XEIsQwEtysPjYt3Es7QkWqwEDQdo" />
-        <!-- Google AdSense Account Verification (Site meta always present; Auto ad script excluded on 404 per AdSense Policy) -->
+        <!-- Google AdSense Account Verification. The site meta tag stays on every page (it is the
+             ownership signal), but the Auto Ads script is withheld on 404, noindex, and
+             policy/tool pages per AdSense placement policy. -->
         <meta name="google-adsense-account" content="ca-pub-4545403370367988" />
         <!-- Monetag / PropellerAds site verification -->
         <meta name="monetag" content="dd2db0a07f698ebaba6882a4873ffe84" />

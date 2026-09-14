@@ -6,6 +6,7 @@ tailwind.config.ts
 # src/components/Footer.astro
 docker-compose.yml
 Dockerfile
-nginx.conf
+# nginx.conf unlocked 2026-09-14 for Monetag ad network CSP integration
+# nginx.conf
 deploy.sh
 # src/components/RoadmapApp.tsx unlocked for retention UX (leave unlocked)

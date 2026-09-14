@@ -83,6 +83,10 @@ const allowAutoAds = !is404Page && !(typeof robots === 'string' && /noindex/i.te
         {allowAutoAds && (
             <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4545403370367988" crossorigin="anonymous"></script>
         )}
+        <!-- Monetag Strategic Ads (Zone 280401) — non-intrusive, async, Cloudflare-compatible -->
+        {allowAutoAds && (
+            <script src="https://quge5.com/88/tag.min.js" data-zone="280401" async data-cfasync="false"></script>
+        )}
 
         <!-- Google Analytics 4 — Consent Mode v2 defaults BEFORE gtag loads (BUG-061/062).
              Ads defaults stay denied until AdSense + CMP; analytics denied in EEA/UK/CH,

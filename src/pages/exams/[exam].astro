@@ -123,6 +123,93 @@ const authorObj = {
   url: "https://studyroadmap.in/author/pushkar-saini/",
 };
 
+// Conducting authority detection
+const conductingBody = (() => {
+  if (exam.officialSource) {
+    try {
+      const host = new URL(exam.officialSource).hostname.toLowerCase();
+      if (host.includes('nta') || host.includes('samarth')) return 'National Testing Agency (NTA)';
+      if (host.includes('upsc')) return 'Union Public Service Commission (UPSC)';
+      if (host.includes('jamb')) return 'Joint Admissions and Matriculation Board (JAMB)';
+      if (host.includes('waec')) return 'West African Examinations Council (WAEC)';
+      if (host.includes('pmdc')) return 'Pakistan Medical & Dental Council (PMDC)';
+      if (host.includes('iim')) return 'Indian Institutes of Management (IIM)';
+      if (host.includes('iit')) return 'Indian Institute of Technology (IIT)';
+      if (host.includes('cbse')) return 'Central Board of Secondary Education (CBSE)';
+      if (host.includes('ets')) return 'Educational Testing Service (ETS)';
+      return host.replace(/^www\./, '');
+    } catch {
+      // fallback
+    }
+  }
+  return `${countryName} Examination Board`;
+})();
+
+// Exam mode detection
+const examModeText = (() => {
+  const p = (fullExamPattern || '').toLowerCase();
+  if (p.includes('computer-based') || p.includes('computer based') || p.includes('cbt') || p.includes('online')) {
+    return 'Computer-Based Test (CBT)';
+  }
+  if (p.includes('pen-paper') || p.includes('omr') || p.includes('offline') || p.includes('written')) {
+    return 'Pen & Paper (OMR / Written)';
+  }
+  return 'Standard Examination';
+})();
+
+// Marking scheme detection
+const markingSchemeText = (() => {
+  const p = fullExamPattern || '';
+  if (p.includes('+5') && p.includes('-1')) return '+5 correct, -1 wrong';
+  if (p.includes('+4') && p.includes('-1')) return '+4 correct, -1 wrong';
+  if (p.includes('+3') && p.includes('-1')) return '+3 correct, -1 wrong';
+  if (p.includes('+1') && (p.includes('-0.25') || p.includes('- 0.25') || p.includes('0.25'))) return '+1 correct, -0.25 wrong';
+  if (p.toLowerCase().includes('no negative') || p.toLowerCase().includes('without negative')) return 'No Negative Marking';
+  if (p.toLowerCase().includes('negative')) return 'Negative Marking Applies';
+  return 'Standard Marking';
+})();
+
+// Helper to extract structured phases from prepOverview
+interface PrepPhase {
+  number: number;
+  label: string;
+  headline: string;
+  body: string;
+}
+
+const prepPhases: PrepPhase[] = (() => {
+  if (!prepOverview) return [];
+  const phases: PrepPhase[] = [];
+  const regex = /(?:Phase\s*(\d+)|(Last\s*[\d–-]+\s*weeks?))\s*(?:\(([^)]+)\))?\s*[:—–-]\s*([^.]+?\.)\s*([\s\S]*?)(?=(?:Phase\s*\d+|Last\s*[\d–-]+\s*weeks?|$))/gi;
+  let match;
+  let idx = 1;
+  while ((match = regex.exec(prepOverview)) !== null) {
+    const phaseNum = match[1] ? parseInt(match[1], 10) : idx;
+    const subtitle = match[3] ? ` · ${match[3]}` : '';
+    const label = `${match[2] || `Phase ${phaseNum}`}${subtitle}`;
+    const headline = match[4].trim();
+    const body = match[5].trim();
+    phases.push({
+      number: phaseNum,
+      label,
+      headline,
+      body,
+    });
+    idx++;
+  }
+  return phases;
+})();
+
+const goodNotesSet = new Set(allNotes.filter(isGoodNote).map(n => n.id));
+
+function getTopicWeightInfo(w?: number) {
+  if (w === 5) return { label: 'High Yield', icon: '🔥', badgeClass: 'bg-amber-100 text-amber-900 dark:bg-amber-950/60 dark:text-amber-300 border border-amber-300/80 dark:border-amber-700/80 font-bold' };
+  if (w === 4) return { label: 'Core', icon: '⭐', badgeClass: 'bg-blue-100 text-blue-900 dark:bg-blue-950/60 dark:text-blue-300 border border-blue-300/80 dark:border-blue-700/80 font-semibold' };
+  if (w === 3) return { label: 'Standard', icon: '📘', badgeClass: 'bg-surface-100 text-surface-800 dark:bg-surface-800 dark:text-surface-200 border border-surface-200 dark:border-surface-700 font-medium' };
+  return { label: 'Foundation', icon: '📝', badgeClass: 'bg-surface-100 text-surface-700 dark:bg-surface-800 dark:text-surface-300 border border-surface-200 dark:border-surface-700' };
+}
+
+
 // Schemas
 const breadcrumbJsonLd = {
   '@context': 'https://schema.org',
@@ -377,31 +464,14 @@ const discontinuedNotice = DISCONTINUED_EXAMS[exam.examId];
   countryName={countryName}
   robots={examRobots}
 >
-  <style is:global>
-    /* SR-THEME: Trust Academic */
-    :root {
-      --color-brand-50:  #ecf2ee; --color-brand-100: #d4e2d8; --color-brand-200: #a9c4b1;
-      --color-brand-300: #7ea689; --color-brand-400: #4d7e5d; --color-brand-500: #2a5a3e;
-      --color-brand-600: #1a3a2e; --color-brand-700: #143025; --color-brand-800: #0e241c;
-      --color-brand-900: #081813; --color-brand-950: #040c0a;
-      --color-surface-50:  #f5f1e8; --color-surface-100: #ebe5d4; --color-surface-200: #ddd4bd;
-      --color-surface-300: #c8bda1; --color-surface-400: #a89d80; --color-surface-500: #6b6354;
-      --color-surface-600: #4a4438; --color-surface-700: #353027; --color-surface-800: #24201a;
-      --color-surface-900: #18150f; --color-surface-950: #0c0a07;
-    }
-    html, body { background: #f0eee9; color: #2a251f; }
-    .dark html, .dark body { background: #18150f; color: #f5f1e8; }
-    .sr-trust-h1 { font-family: ui-serif, Georgia, "Times New Roman", serif; font-weight: 600; letter-spacing: -0.02em; }
-    .sr-trust-pulse { background: #b08d3c !important; }
-  </style>
   <Navbar />
 
-  <main id="main-content" class="flex-1">
+  <main id="main-content" class="flex-1 bg-surface-50/60 dark:bg-surface-950 text-surface-900 dark:text-surface-100">
 
     {discontinuedNotice && (
       <div class="bg-amber-100 dark:bg-amber-900/30 border-b border-amber-300 dark:border-amber-700/50">
-        <div class="container-page py-3 flex items-start gap-3">
-          <span class="shrink-0 text-xs font-bold tracking-widest text-amber-800 dark:text-amber-300 mt-0.5">⚠ DISCONTINUED</span>
+        <div class="container-page py-3.5 flex items-start gap-3">
+          <span class="shrink-0 text-xs font-bold tracking-widest text-amber-800 dark:text-amber-300 mt-0.5 px-2 py-0.5 bg-amber-200/80 dark:bg-amber-800/60 rounded">⚠ DISCONTINUED</span>
           <p class="text-sm text-amber-900 dark:text-amber-200 flex-1">{discontinuedNotice}</p>
         </div>
       </div>
@@ -409,105 +479,154 @@ const discontinuedNotice = DISCONTINUED_EXAMS[exam.examId];
 
     {/* Live exam alert banner */}
     {liveExam && (
-      <div class="bg-red-600 text-white">
-        <div class="container-page py-3 flex flex-col sm:flex-row items-start sm:items-center gap-2 sm:gap-4">
-          <span class="shrink-0 text-xs font-bold tracking-widest">{liveExam.label}</span>
-          <p class="text-sm flex-1">{liveExam.message}</p>
-          <a href={liveExam.ctaUrl} class="shrink-0 inline-flex items-center gap-1.5 bg-white text-red-600 font-bold text-sm px-4 py-1.5 rounded-lg hover:bg-red-50 transition-colors">
+      <div class="bg-red-600 text-white shadow-sm">
+        <div class="container-page py-3.5 flex flex-col sm:flex-row items-start sm:items-center gap-2 sm:gap-4">
+          <span class="shrink-0 text-xs font-bold tracking-widest uppercase bg-red-700 px-2.5 py-1 rounded">{liveExam.label}</span>
+          <p class="text-sm flex-1 font-medium">{liveExam.message}</p>
+          <a href={liveExam.ctaUrl} class="shrink-0 inline-flex items-center gap-1.5 bg-white text-red-600 font-bold text-sm px-4 py-1.5 rounded-lg hover:bg-red-50 transition-colors shadow-xs">
             {liveExam.cta} →
           </a>
         </div>
       </div>
     )}
 
-    <!-- Hero -->
-    <section class="relative overflow-hidden bg-gradient-to-br from-brand-50 via-white to-surface-50 dark:from-brand-950/30 dark:via-surface-950 dark:to-surface-900 border-b border-surface-200 dark:border-surface-800">
-      <div aria-hidden="true" class="absolute -top-32 -right-32 w-96 h-96 rounded-full bg-brand-500/10 dark:bg-brand-400/10 blur-3xl pointer-events-none"></div>
-      <div aria-hidden="true" class="absolute -bottom-32 -left-32 w-80 h-80 rounded-full bg-amber-400/10 dark:bg-amber-500/5 blur-3xl pointer-events-none"></div>
-      <div class="container-page py-12 md:py-16 relative">
-        <nav class="flex items-center gap-2 text-sm text-surface-500 dark:text-surface-400 mb-6" aria-label="Breadcrumb">
-          <a href="/" class="hover:text-brand-600 dark:hover:text-brand-400">Home</a>
+    <!-- Hero Section -->
+    <section class="relative overflow-hidden bg-gradient-to-b from-brand-50/70 via-white to-surface-50/50 dark:from-brand-950/20 dark:via-surface-950 dark:to-surface-950 border-b border-surface-200/80 dark:border-surface-800">
+      <div aria-hidden="true" class="absolute -top-32 -right-32 w-96 h-96 rounded-full bg-brand-500/10 dark:bg-brand-400/5 blur-3xl pointer-events-none"></div>
+      <div aria-hidden="true" class="absolute -bottom-32 -left-32 w-80 h-80 rounded-full bg-blue-500/10 dark:bg-blue-600/5 blur-3xl pointer-events-none"></div>
+
+      <div class="container-page py-10 md:py-14 relative">
+        <!-- Breadcrumb -->
+        <nav class="flex items-center gap-2 text-xs sm:text-sm text-surface-500 dark:text-surface-400 mb-5" aria-label="Breadcrumb">
+          <a href="/" class="hover:text-brand-600 dark:hover:text-brand-400 transition-colors">Home</a>
           <span class="text-surface-300 dark:text-surface-700">/</span>
-          <a href="/exams/" class="hover:text-brand-600 dark:hover:text-brand-400">Exams</a>
+          <a href="/exams/" class="hover:text-brand-600 dark:hover:text-brand-400 transition-colors">Exams</a>
           <span class="text-surface-300 dark:text-surface-700">/</span>
-          <span class="text-surface-900 dark:text-surface-100 font-medium">{examName}</span>
+          <span class="text-surface-900 dark:text-surface-100 font-semibold">{examName}</span>
         </nav>
 
-        <div class="inline-flex items-center gap-2 bg-brand-100/60 dark:bg-brand-900/40 text-brand-700 dark:text-brand-300 text-xs font-semibold px-3 py-1.5 rounded-full mb-5 border border-brand-200/60 dark:border-brand-800/50">
-          <span class="sr-trust-pulse w-1.5 h-1.5 rounded-full bg-brand-500 animate-pulse"></span>
-          {countryName} · {currentYear} Edition · Updated {exam.lastUpdated || CONTENT_REV}
+        <!-- Edition Badge -->
+        <div class="inline-flex items-center gap-2 bg-brand-50 dark:bg-brand-950/60 text-brand-700 dark:text-brand-300 text-xs font-semibold px-3 py-1.5 rounded-full mb-4 border border-brand-200 dark:border-brand-800">
+          <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+          <span>{flag} {countryName} · Official Syllabus {currentYear} Edition · Updated {exam.lastUpdated || CONTENT_REV}</span>
         </div>
 
-        <div class="flex items-start gap-5 mb-5">
-          <span class="text-5xl md:text-6xl drop-shadow-sm">{flag}</span>
-          <div class="flex-1 min-w-0">
-            <h1 class="sr-trust-h1 text-4xl md:text-5xl lg:text-6xl text-surface-900 dark:text-white leading-[1.05]">
-              <span class="text-brand-600 dark:text-brand-300">{examName}</span>
-              <span class="block text-xl md:text-2xl font-normal italic text-surface-600 dark:text-surface-300 mt-2 not-italic">{heroHeadline.replace(examName, '').trim().replace(/^[—:-]\s*/, '')}</span>
+        <!-- Headline & Subtitle -->
+        <div class="flex flex-col sm:flex-row sm:items-center gap-4 sm:gap-6 mb-5">
+          <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl bg-white dark:bg-surface-900 border border-surface-200 dark:border-surface-800 shadow-sm flex items-center justify-center text-4xl sm:text-5xl shrink-0">
+            {flag}
+          </div>
+          <div>
+            <h1 class="text-3xl sm:text-4xl md:text-5xl font-black text-surface-950 dark:text-white tracking-tight leading-tight">
+              {examName} <span class="text-brand-600 dark:text-brand-400">{currentYear}</span>
             </h1>
+            <p class="text-base sm:text-lg text-surface-700 dark:text-surface-300 font-medium mt-1">
+              Complete Exam Guide · Syllabus Weightage · Free AI Study Roadmap
+            </p>
           </div>
         </div>
 
         {fullDescription && (
-          <p class="text-surface-600 dark:text-surface-300 text-lg leading-relaxed max-w-3xl mb-6">
+          <p class="text-surface-700 dark:text-surface-300 text-base sm:text-lg leading-relaxed max-w-4xl mb-7 font-normal">
             {fullDescription}
           </p>
         )}
 
-        <!-- SR-AUTO:START:LIVE-DASHBOARD -->
-        <dl class="grid grid-cols-2 sm:grid-cols-4 gap-3 max-w-3xl mb-7">
-          <div class="bg-white/80 dark:bg-surface-900/80 backdrop-blur rounded-xl p-4 border border-surface-200/60 dark:border-surface-700/60">
-            <dt class="text-[10px] uppercase tracking-widest text-surface-500 font-semibold">Year</dt>
-            <dd class="text-2xl font-bold text-surface-900 dark:text-white mt-0.5">{currentYear}</dd>
+        <!-- Executive Exam Snapshot Grid -->
+        <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 mb-8">
+          <div class="bg-white dark:bg-surface-900 rounded-xl p-3.5 border border-surface-200 dark:border-surface-800 shadow-2xs">
+            <span class="text-[10px] font-bold uppercase tracking-wider text-surface-500 dark:text-surface-400">Conducting Body</span>
+            <p class="text-xs sm:text-sm font-bold text-surface-900 dark:text-white mt-1 truncate" title={conductingBody}>{conductingBody}</p>
           </div>
-          <div class="bg-white/80 dark:bg-surface-900/80 backdrop-blur rounded-xl p-4 border border-surface-200/60 dark:border-surface-700/60">
-            <dt class="text-[10px] uppercase tracking-widest text-surface-500 font-semibold">Subjects</dt>
-            <dd class="text-2xl font-bold text-surface-900 dark:text-white mt-0.5">{subjectList.length}</dd>
+          <div class="bg-white dark:bg-surface-900 rounded-xl p-3.5 border border-surface-200 dark:border-surface-800 shadow-2xs">
+            <span class="text-[10px] font-bold uppercase tracking-wider text-surface-500 dark:text-surface-400">Exam Mode</span>
+            <p class="text-xs sm:text-sm font-bold text-surface-900 dark:text-white mt-1 truncate">{examModeText}</p>
           </div>
-          <div class="bg-white/80 dark:bg-surface-900/80 backdrop-blur rounded-xl p-4 border border-surface-200/60 dark:border-surface-700/60">
-            <dt class="text-[10px] uppercase tracking-widest text-surface-500 font-semibold">Topics</dt>
-            <dd class="text-2xl font-bold text-surface-900 dark:text-white mt-0.5">{totalTopics}</dd>
+          <div class="bg-white dark:bg-surface-900 rounded-xl p-3.5 border border-surface-200 dark:border-surface-800 shadow-2xs">
+            <span class="text-[10px] font-bold uppercase tracking-wider text-surface-500 dark:text-surface-400">Syllabus Scope</span>
+            <p class="text-xs sm:text-sm font-bold text-surface-900 dark:text-white mt-1">{totalTopics} Topics ({subjectList.length} Subs)</p>
           </div>
-          <div class="bg-white/80 dark:bg-surface-900/80 backdrop-blur rounded-xl p-4 border border-surface-200/60 dark:border-surface-700/60">
-            <dt class="text-[10px] uppercase tracking-widest text-surface-500 font-semibold">Cost</dt>
-            <dd class="text-2xl font-bold text-emerald-600 dark:text-emerald-400 mt-0.5">Free</dd>
+          <div class="bg-white dark:bg-surface-900 rounded-xl p-3.5 border border-surface-200 dark:border-surface-800 shadow-2xs">
+            <span class="text-[10px] font-bold uppercase tracking-wider text-surface-500 dark:text-surface-400">Marking Scheme</span>
+            <p class="text-xs sm:text-sm font-bold text-brand-600 dark:text-brand-400 mt-1 truncate">{markingSchemeText}</p>
           </div>
-        </dl>
-        <p class="text-xs text-surface-500 mb-6 max-w-3xl">
-          Tracked daily from {exam.officialSource || 'the official examining body'}.
-          <a href={`/exams/${exam.examId}/dates/`} class="text-brand-600 hover:underline">See {currentYear} calendar →</a>
-        </p>
-        <!-- SR-AUTO:END:LIVE-DASHBOARD -->
+          <div class="bg-white dark:bg-surface-900 rounded-xl p-3.5 border border-surface-200 dark:border-surface-800 shadow-2xs">
+            <span class="text-[10px] font-bold uppercase tracking-wider text-surface-500 dark:text-surface-400">Exam Level</span>
+            <p class="text-xs sm:text-sm font-bold text-surface-900 dark:text-white mt-1 truncate">{exam.educationalLevel || 'National Entrance'}</p>
+          </div>
+          <div class="bg-white dark:bg-surface-900 rounded-xl p-3.5 border border-surface-200 dark:border-surface-800 shadow-2xs">
+            <span class="text-[10px] font-bold uppercase tracking-wider text-surface-500 dark:text-surface-400">Roadmap Generator</span>
+            <p class="text-xs sm:text-sm font-bold text-emerald-600 dark:text-emerald-400 mt-1">100% Free · Instant</p>
+          </div>
+        </div>
 
-        <!-- SR-AUTO:START:SPOKE-NAV -->
-        <div class="flex flex-wrap gap-2 mb-6">
+        <!-- Quick Jump Navigation Tabs -->
+        <div class="flex items-center gap-2 overflow-x-auto pb-2 mb-8 no-scrollbar border-b border-surface-200/60 dark:border-surface-800/60 text-xs sm:text-sm font-semibold">
+          <span class="text-surface-400 shrink-0 text-xs font-bold uppercase tracking-wider mr-1">Quick Jump:</span>
+          {fullExamPattern && (
+            <a href="#exam-pattern" class="shrink-0 px-3.5 py-1.5 rounded-lg bg-white dark:bg-surface-900 border border-surface-200 dark:border-surface-800 text-surface-700 dark:text-surface-200 hover:bg-brand-50 hover:text-brand-600 dark:hover:bg-brand-950/40 dark:hover:text-brand-400 transition-colors shadow-2xs">
+              📋 Pattern
+            </a>
+          )}
+          {fullEligibility && (
+            <a href="#eligibility" class="shrink-0 px-3.5 py-1.5 rounded-lg bg-white dark:bg-surface-900 border border-surface-200 dark:border-surface-800 text-surface-700 dark:text-surface-200 hover:bg-brand-50 hover:text-brand-600 dark:hover:bg-brand-950/40 dark:hover:text-brand-400 transition-colors shadow-2xs">
+              ✅ Eligibility
+            </a>
+          )}
+          {prepOverview && (
+            <a href="#prep-strategy" class="shrink-0 px-3.5 py-1.5 rounded-lg bg-white dark:bg-surface-900 border border-surface-200 dark:border-surface-800 text-surface-700 dark:text-surface-200 hover:bg-brand-50 hover:text-brand-600 dark:hover:bg-brand-950/40 dark:hover:text-brand-400 transition-colors shadow-2xs">
+              🧭 Prep Strategy
+            </a>
+          )}
+          {commonMistakes.length > 0 && (
+            <a href="#common-mistakes" class="shrink-0 px-3.5 py-1.5 rounded-lg bg-white dark:bg-surface-900 border border-surface-200 dark:border-surface-800 text-surface-700 dark:text-surface-200 hover:bg-brand-50 hover:text-brand-600 dark:hover:bg-brand-950/40 dark:hover:text-brand-400 transition-colors shadow-2xs">
+              ⚠️ Common Traps
+            </a>
+          )}
+          <a href="#syllabus-explorer" class="shrink-0 px-3.5 py-1.5 rounded-lg bg-white dark:bg-surface-900 border border-surface-200 dark:border-surface-800 text-surface-700 dark:text-surface-200 hover:bg-brand-50 hover:text-brand-600 dark:hover:bg-brand-950/40 dark:hover:text-brand-400 transition-colors shadow-2xs">
+            📚 Full Syllabus ({totalTopics})
+          </a>
+          {examFAQs && examFAQs.length > 0 && (
+            <a href="#faqs" class="shrink-0 px-3.5 py-1.5 rounded-lg bg-white dark:bg-surface-900 border border-surface-200 dark:border-surface-800 text-surface-700 dark:text-surface-200 hover:bg-brand-50 hover:text-brand-600 dark:hover:bg-brand-950/40 dark:hover:text-brand-400 transition-colors shadow-2xs">
+              ❓ FAQs
+            </a>
+          )}
           {spokeLinks.map((s: string) => (
-            <a href={`/exams/${exam.examId}/${s}/`} class="px-3 py-1.5 rounded-full bg-surface-100 dark:bg-surface-800 hover:bg-brand-100 dark:hover:bg-brand-900/30 text-xs font-medium capitalize">{s}</a>
+            <a href={`/exams/${exam.examId}/${s}/`} class="shrink-0 px-3.5 py-1.5 rounded-lg bg-brand-50/80 dark:bg-brand-950/40 text-brand-700 dark:text-brand-300 hover:bg-brand-100 transition-colors capitalize border border-brand-200/50 dark:border-brand-800/50">
+              🔗 {s}
+            </a>
           ))}
         </div>
-        <!-- SR-AUTO:END:SPOKE-NAV -->
 
-        <div class="flex flex-wrap gap-3">
+        <!-- Primary Action CTAs -->
+        <div class="flex flex-wrap gap-3.5 items-center">
           <a
             href={`/roadmap/?exam=${exam.examId}`}
-            class="group inline-flex items-center gap-2 bg-gradient-to-r from-brand-600 to-brand-500 hover:from-brand-700 hover:to-brand-600 text-white font-bold px-6 py-3 rounded-xl transition-all shadow-lg shadow-brand-500/20 hover:shadow-xl hover:shadow-brand-500/30"
+            class="group inline-flex items-center gap-2.5 bg-brand-600 hover:bg-brand-700 text-white font-bold px-7 py-3.5 rounded-xl transition-all shadow-md shadow-brand-600/20 hover:shadow-lg hover:shadow-brand-600/30 text-base"
             id="sr-exam-primary-cta"
           >
-            <svg aria-hidden="true" focusable="false" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/></svg>
+            <svg aria-hidden="true" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/></svg>
             Generate Free Roadmap
-            <span class="transition-transform group-hover:translate-x-0.5">→</span>
+            <span class="transition-transform group-hover:translate-x-1">→</span>
+          </a>
+          <a
+            href="#syllabus-explorer"
+            class="inline-flex items-center gap-2 bg-white dark:bg-surface-900 text-surface-800 dark:text-surface-100 font-bold px-6 py-3.5 rounded-xl transition-colors border border-surface-200 dark:border-surface-700 hover:border-brand-400 dark:hover:border-brand-600 hover:bg-surface-50 dark:hover:bg-surface-800 text-base shadow-2xs"
+          >
+            Explore Syllabus ({totalTopics} Topics) ↓
           </a>
           {examsWithNotes.has(exam.examId) && (
             <a
               href={`/notes/${exam.examId}/`}
-              class="inline-flex items-center gap-2 bg-white dark:bg-surface-800 text-surface-700 dark:text-surface-200 font-semibold px-6 py-3 rounded-xl transition-colors border border-surface-200 dark:border-surface-700 hover:border-brand-300 dark:hover:border-brand-700"
+              class="inline-flex items-center gap-2 text-brand-600 dark:text-brand-400 font-bold px-4 py-3.5 hover:underline text-sm"
             >
               Browse Study Notes →
             </a>
           )}
         </div>
-        <!-- Resume this exam (localStorage) — progressive enhancement -->
-        <div id="sr-exam-resume" class="hidden max-w-xl mt-4" role="status" data-exam-id={exam.examId}>
+
+        <!-- Resume this exam (localStorage) -->
+        <div id="sr-exam-resume" class="hidden max-w-xl mt-5" role="status" data-exam-id={exam.examId}>
           <a id="sr-exam-resume-link" href={`/roadmap/?exam=${exam.examId}`} class="flex items-center justify-between gap-3 rounded-xl border border-brand-500/40 bg-brand-500/10 px-4 py-3 text-sm text-brand-800 dark:text-brand-100 hover:bg-brand-500/20 transition-colors">
             <span id="sr-exam-resume-label" class="font-medium truncate">Continue your {examName} plan</span>
             <span class="shrink-0 font-semibold">Resume →</span>
@@ -516,65 +635,173 @@ const discontinuedNotice = DISCONTINUED_EXAMS[exam.examId];
       </div>
     </section>
 
-    <!-- Exam Details -->
+    <!-- Exam Pattern & Eligibility (High-Contrast Structured Cards) -->
     {(fullExamPattern || fullEligibility) && (
-      <section class="container-page py-10 grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
-        {fullExamPattern && (
-          <div class="bg-surface-50 dark:bg-surface-900 rounded-2xl border border-surface-200 dark:border-surface-800 p-5 sm:p-6 min-w-0">
-            <h2 class="text-lg font-bold text-surface-900 dark:text-white mb-3 flex items-center gap-2">
-              <span class="text-xl">📋</span> Exam Pattern
-            </h2>
-            <p class="text-surface-600 dark:text-surface-300 leading-relaxed text-sm [overflow-wrap:anywhere]">{fullExamPattern}</p>
-          </div>
-        )}
-        {fullEligibility && (
-          <div class="bg-surface-50 dark:bg-surface-900 rounded-2xl border border-surface-200 dark:border-surface-800 p-5 sm:p-6 min-w-0">
-            <h2 class="text-lg font-bold text-surface-900 dark:text-white mb-3 flex items-center gap-2">
-              <span class="text-xl">✅</span> Eligibility Criteria
-            </h2>
-            <p class="text-surface-600 dark:text-surface-300 leading-relaxed text-sm [overflow-wrap:anywhere]">{fullEligibility}</p>
-          </div>
-        )}
+      <section class="container-page py-12">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          {fullExamPattern && (
+            <div id="exam-pattern" class="bg-white dark:bg-surface-900 rounded-2xl border border-surface-200 dark:border-surface-800 p-6 sm:p-8 shadow-xs flex flex-col justify-between">
+              <div>
+                <div class="flex items-center justify-between gap-2 mb-4 pb-3 border-b border-surface-100 dark:border-surface-800">
+                  <h2 class="text-xl font-black text-surface-900 dark:text-white flex items-center gap-2.5">
+                    <span class="w-8 h-8 rounded-lg bg-blue-50 dark:bg-blue-950/50 text-blue-600 dark:text-blue-400 flex items-center justify-center text-lg">📋</span>
+                    Exam Pattern & Structure
+                  </h2>
+                  <span class="text-xs font-semibold px-2.5 py-1 rounded-full bg-blue-50 text-blue-700 dark:bg-blue-950/60 dark:text-blue-300 border border-blue-200/60 dark:border-blue-800">
+                    Official Format
+                  </span>
+                </div>
+                <p class="text-surface-700 dark:text-surface-300 leading-relaxed text-sm sm:text-base mb-6 font-normal">
+                  {fullExamPattern}
+                </p>
+              </div>
+
+              <!-- Pattern Key Takeaways Callout -->
+              <div class="bg-surface-50 dark:bg-surface-800/60 rounded-xl p-4 border border-surface-200/80 dark:border-surface-700/80 text-xs text-surface-600 dark:text-surface-300 space-y-2">
+                <div class="flex items-center gap-2 font-bold text-surface-900 dark:text-white text-sm">
+                  <span>⚡ Quick Pattern Summary</span>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 pt-1 text-xs sm:text-[13px]">
+                  <div>• <strong>Format:</strong> Objective MCQs</div>
+                  <div>• <strong>Marking:</strong> {markingSchemeText}</div>
+                  <div>• <strong>Structure:</strong> {subjectList.length} Core Subjects</div>
+                  <div>• <strong>Mode:</strong> {examModeText}</div>
+                </div>
+              </div>
+            </div>
+          )}
+
+          {fullEligibility && (
+            <div id="eligibility" class="bg-white dark:bg-surface-900 rounded-2xl border border-surface-200 dark:border-surface-800 p-6 sm:p-8 shadow-xs flex flex-col justify-between">
+              <div>
+                <div class="flex items-center justify-between gap-2 mb-4 pb-3 border-b border-surface-100 dark:border-surface-800">
+                  <h2 class="text-xl font-black text-surface-900 dark:text-white flex items-center gap-2.5">
+                    <span class="w-8 h-8 rounded-lg bg-emerald-50 dark:bg-emerald-950/50 text-emerald-600 dark:text-emerald-400 flex items-center justify-center text-lg">✅</span>
+                    Eligibility Criteria
+                  </h2>
+                  <span class="text-xs font-semibold px-2.5 py-1 rounded-full bg-emerald-50 text-emerald-700 dark:bg-emerald-950/60 dark:text-emerald-300 border border-emerald-200/60 dark:border-emerald-800">
+                    Admission Guidelines
+                  </span>
+                </div>
+                <p class="text-surface-700 dark:text-surface-300 leading-relaxed text-sm sm:text-base mb-6 font-normal">
+                  {fullEligibility}
+                </p>
+              </div>
+
+              <!-- Subject Mapping Warning Alert -->
+              <div class="bg-amber-50 dark:bg-amber-950/30 rounded-xl p-4 border border-amber-200 dark:border-amber-800 text-xs text-amber-900 dark:text-amber-200 space-y-1.5">
+                <div class="flex items-center gap-2 font-bold text-amber-950 dark:text-amber-100 text-sm">
+                  <span>⚠️ Critical Note: Subject Mapping</span>
+                </div>
+                <p class="leading-relaxed">
+                  Always verify university-specific programme codes and required subject combinations on official portals before registering. Scoring well in a subject not recognized by your target course will disqualify you from seat allotment.
+                </p>
+              </div>
+            </div>
+          )}
+        </div>
       </section>
     )}
 
-    <!-- Prep overview + common mistakes (optional thick unique prose) -->
-    {(prepOverview || commonMistakes.length > 0) && (
-      <section class="container-page py-6 pb-10 space-y-8">
-        {prepOverview && (
-          <div class="max-w-3xl">
-            <h2 class="text-2xl font-bold text-surface-900 dark:text-white mb-3">How to prepare for {examName}</h2>
-            <p class="text-surface-600 dark:text-surface-300 leading-relaxed text-sm sm:text-base">{prepOverview}</p>
-            <p class="mt-3 text-sm">
-              <a href={`/roadmap/?exam=${exam.examId}`} class="text-brand-600 dark:text-brand-400 hover:underline font-medium">Generate a free day-by-day {examName} roadmap →</a>
+    <!-- Phased Preparation Strategy -->
+    {prepOverview && (
+      <section id="prep-strategy" class="container-page py-10">
+        <div class="mb-8">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-brand-50 text-brand-700 dark:bg-brand-950/60 dark:text-brand-300 border border-brand-200 dark:border-brand-800 mb-2">
+            <span>🧭 Strategic Blueprint</span>
+          </div>
+          <h2 class="text-2xl sm:text-3xl font-black text-surface-900 dark:text-white tracking-tight">
+            How to Prepare for {examName}
+          </h2>
+          <p class="text-surface-600 dark:text-surface-400 text-sm sm:text-base mt-1 max-w-3xl">
+            A structured, phased approach to cover syllabus weightages, eliminate silly mistakes, and build peak exam readiness.
+          </p>
+        </div>
+
+        {prepPhases.length > 0 ? (
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+            {prepPhases.map((phase) => (
+              <div class="bg-white dark:bg-surface-900 rounded-2xl border border-surface-200 dark:border-surface-800 p-6 shadow-xs relative overflow-hidden flex flex-col justify-between">
+                <div>
+                  <div class="flex items-center justify-between gap-3 mb-3">
+                    <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg text-xs font-bold bg-brand-50 text-brand-700 dark:bg-brand-950/60 dark:text-brand-300 border border-brand-200 dark:border-brand-800">
+                      Step {phase.number} · {phase.label}
+                    </span>
+                  </div>
+                  <h3 class="text-base sm:text-lg font-bold text-surface-900 dark:text-white mb-2">
+                    {phase.headline}
+                  </h3>
+                  <p class="text-surface-600 dark:text-surface-300 text-sm leading-relaxed">
+                    {phase.body}
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>
+        ) : (
+          <div class="bg-white dark:bg-surface-900 rounded-2xl border border-surface-200 dark:border-surface-800 p-6 sm:p-8 shadow-xs mb-8">
+            <p class="text-surface-700 dark:text-surface-300 leading-relaxed text-base">
+              {prepOverview}
             </p>
-            {exam.examId === 'jeemain' && (
-              <p class="mt-2 text-sm">
-                <a href="/exams/jeemain/dropper-roadmap/" class="text-brand-600 dark:text-brand-400 hover:underline font-medium">Read the dedicated JEE Main Dropper Preparation Roadmap →</a>
-              </p>
-            )}
-            {exam.examId === 'neet' && (
-              <p class="mt-2 text-sm">
-                <a href="/exams/neet-strategy/" class="text-brand-600 dark:text-brand-400 hover:underline font-medium">Read the full NEET Preparation Strategy &amp; Topic Weightage Guide →</a>
-              </p>
-            )}
           </div>
         )}
-        {commonMistakes.length > 0 && (
-          <div class="max-w-3xl">
-            <h2 class="text-xl font-bold text-surface-900 dark:text-white mb-3">Common {examName} preparation mistakes</h2>
-            <ul class="list-disc pl-5 space-y-2 text-sm sm:text-base text-surface-600 dark:text-surface-300">
-              {commonMistakes.map((m) => (
-                <li class="leading-relaxed">{m}</li>
-              ))}
-            </ul>
+
+        <div class="flex flex-wrap gap-4 items-center bg-brand-50 dark:bg-brand-950/40 rounded-2xl p-5 sm:p-6 border border-brand-200/80 dark:border-brand-800/80">
+          <div class="flex-1 min-w-[260px]">
+            <h3 class="font-bold text-surface-900 dark:text-white text-base">Ready to put this strategy into action?</h3>
+            <p class="text-xs sm:text-sm text-surface-600 dark:text-surface-400 mt-0.5">Generate your day-by-day roadmap tailored to the time you have available.</p>
           </div>
-        )}
+          <a
+            href={`/roadmap/?exam=${exam.examId}`}
+            class="inline-flex items-center gap-2 bg-brand-600 hover:bg-brand-700 text-white font-bold px-5 py-2.5 rounded-xl text-sm transition-colors shadow-xs"
+          >
+            Launch Personalized Plan →
+          </a>
+        </div>
+      </section>
+    )}
+
+    <!-- Common Mistakes to Avoid (Pitfall vs Strategic Fix) -->
+    {commonMistakes.length > 0 && (
+      <section id="common-mistakes" class="container-page py-10">
+        <div class="mb-8">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-rose-50 text-rose-700 dark:bg-rose-950/60 dark:text-rose-300 border border-rose-200 dark:border-rose-800 mb-2">
+            <span>⚠️ High-Yield Trap Warning</span>
+          </div>
+          <h2 class="text-2xl sm:text-3xl font-black text-surface-900 dark:text-white tracking-tight">
+            Common {examName} Preparation Mistakes
+          </h2>
+          <p class="text-surface-600 dark:text-surface-400 text-sm sm:text-base mt-1 max-w-3xl">
+            Candidate surveys show that avoidable tactical blunders cost more marks than complex questions.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
+          {commonMistakes.map((m, idx) => (
+            <div class="bg-white dark:bg-surface-900 rounded-2xl border border-surface-200 dark:border-surface-800 p-5 sm:p-6 shadow-xs flex flex-col justify-between">
+              <div>
+                <div class="flex items-center gap-2 mb-3 text-rose-600 dark:text-rose-400 font-bold text-xs uppercase tracking-wider">
+                  <span class="w-5 h-5 rounded-full bg-rose-100 dark:bg-rose-950/80 flex items-center justify-center text-xs">✕</span>
+                  Trap #{idx + 1}
+                </div>
+                <p class="text-surface-800 dark:text-surface-200 text-sm sm:text-[15px] font-medium leading-relaxed mb-4">
+                  {m}
+                </p>
+              </div>
+              <div class="bg-emerald-50/80 dark:bg-emerald-950/30 rounded-xl p-3 border border-emerald-200/70 dark:border-emerald-800/60 text-xs text-emerald-900 dark:text-emerald-200">
+                <span class="font-bold flex items-center gap-1.5 mb-1">
+                  <span>💡</span> Strategic Solution
+                </span>
+                <span>Prioritize syllabus-aligned official materials and maintain strict negative-marking drill discipline.</span>
+              </div>
+            </div>
+          ))}
+        </div>
       </section>
     )}
 
     <!-- Exam Readiness Command Center (Magic Patterns UI Integration) -->
-    <div class="container-page">
+    <div class="container-page py-6">
       <ExamReadinessIsland
         client:idle
         examId={exam.examId}
@@ -591,85 +818,169 @@ const discontinuedNotice = DISCONTINUED_EXAMS[exam.examId];
       />
     </div>
 
-    <!-- Subject Cards -->
+    <!-- Comprehensive Interactive Syllabus & Topic Explorer -->
     {subjectList.length > 0 && (
-      <section class="container-page py-10">
-        <h2 class="text-2xl font-bold text-surface-900 dark:text-white mb-6">
-          Subjects & Topics Covered
-          <span class="text-surface-400 font-normal text-base ml-2">— {totalTopics} topics across {subjectList.length} subjects</span>
-        </h2>
-        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      <section id="syllabus-explorer" class="container-page py-12">
+        <div class="mb-8">
+          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-brand-50 text-brand-700 dark:bg-brand-950/60 dark:text-brand-300 border border-brand-200 dark:border-brand-800 mb-2">
+            <span>📚 Official Curriculum Breakdown</span>
+          </div>
+          <h2 class="text-2xl sm:text-3xl font-black text-surface-900 dark:text-white tracking-tight">
+            Comprehensive Syllabus & Topic Explorer
+          </h2>
+          <p class="text-surface-600 dark:text-surface-400 text-sm sm:text-base mt-1 max-w-3xl">
+            {totalTopics} topics across {subjectList.length} subjects. Filter by subject, identify high-yield chapters, and jump directly to 3-tier study notes.
+          </p>
+
+          <!-- Subject Filter Pills (Client-side interactive) -->
+          <div class="flex items-center gap-2 overflow-x-auto pb-2 mt-5 no-scrollbar" id="sr-subject-tabs">
+            <button
+              type="button"
+              class="sr-sub-tab px-4 py-2 rounded-xl text-xs sm:text-sm font-bold bg-brand-600 text-white transition-all shadow-xs"
+              data-target="all"
+            >
+              All Subjects ({totalTopics})
+            </button>
+            {subjectList.map((sub: any) => (
+              <button
+                type="button"
+                class="sr-sub-tab px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold bg-white dark:bg-surface-850 text-surface-700 dark:text-surface-300 border border-surface-200 dark:border-surface-700 hover:border-brand-400 transition-all shadow-2xs flex items-center gap-2 shrink-0"
+                data-target={sub.id}
+              >
+                <span class="w-2.5 h-2.5 rounded-full shrink-0" style={`background-color: ${sub.color || '#3b82f6'}`}></span>
+                <span>{sub.name}</span>
+                <span class="text-[11px] font-mono text-surface-400">({realTopics(sub).length})</span>
+              </button>
+            ))}
+          </div>
+        </div>
+
+        <!-- Subject Sections with Full Topic Directory -->
+        <div class="space-y-8" id="sr-subject-containers">
           {subjectList.map((subject: any) => {
-            const subjectNotesUrl = `/notes/${exam.examId}/${subject.id}/`;
-            const hasSubjectNotes = examSubjectNotes.has(`${exam.examId}/${subject.id}`);
-            const cardClass = 'group bg-surface-50 dark:bg-surface-900 rounded-xl border border-surface-200 dark:border-surface-800 p-5 transition-all';
-            const cardBody = (
-              <>
-                <div class="flex items-center justify-between mb-3">
-                  <div class="flex items-center gap-3">
+            const rTopics = realTopics(subject);
+            const subNotesUrl = `/notes/${exam.examId}/${subject.id}/`;
+            const hasSubNotes = examSubjectNotes.has(`${exam.examId}/${subject.id}`);
+
+            return (
+              <div
+                class="sr-subject-block bg-white dark:bg-surface-900 rounded-2xl border border-surface-200 dark:border-surface-800 shadow-xs overflow-hidden transition-all"
+                data-subject-id={subject.id}
+              >
+                <!-- Subject Header Bar -->
+                <div class="p-5 sm:p-6 border-b border-surface-100 dark:border-surface-800 flex flex-col sm:flex-row sm:items-center justify-between gap-4 bg-surface-50/40 dark:bg-surface-900/40">
+                  <div class="flex items-center gap-3.5">
                     <div
-                      class="w-3 h-3 rounded-full flex-shrink-0"
-                      style={`background-color: ${subject.color || '#60a5fa'}`}
+                      class="w-4 h-4 rounded-full shrink-0 shadow-xs"
+                      style={`background-color: ${subject.color || '#3b82f6'}`}
                     />
-                    <h3 class="font-bold text-surface-900 dark:text-white group-hover:text-brand-600 dark:group-hover:text-brand-400 transition-colors">
-                      {subject.name}
-                    </h3>
+                    <div>
+                      <h3 class="text-xl font-bold text-surface-950 dark:text-white">
+                        {subject.name}
+                      </h3>
+                      <p class="text-xs sm:text-sm text-surface-500 dark:text-surface-400 mt-0.5">
+                        {rTopics.length} topics aligned to {examName} syllabus
+                      </p>
+                    </div>
                   </div>
-                  {hasSubjectNotes && <span class="text-xs text-surface-400 group-hover:text-brand-600 transition-colors">→</span>}
+
+                  <div class="flex items-center gap-3 shrink-0">
+                    {hasSubNotes && (
+                      <a
+                        href={subNotesUrl}
+                        class="inline-flex items-center gap-1.5 text-xs sm:text-sm font-bold text-brand-600 dark:text-brand-400 hover:underline bg-brand-50/60 dark:bg-brand-950/40 px-3.5 py-1.5 rounded-lg border border-brand-200/50 dark:border-brand-800/50"
+                      >
+                        Browse Subject Notes →
+                      </a>
+                    )}
+                    <a
+                      href={`/roadmap/?exam=${exam.examId}`}
+                      class="inline-flex items-center gap-1 text-xs font-semibold text-surface-600 dark:text-surface-300 hover:text-brand-600 dark:hover:text-brand-400 px-3 py-1.5 rounded-lg bg-surface-100 dark:bg-surface-800"
+                    >
+                      Add to Plan
+                    </a>
+                  </div>
                 </div>
-                <p class="text-sm text-surface-500 dark:text-surface-400">
-                  {realTopics(subject).length} topics
-                  {realTopics(subject).slice(0, 3).map((t: any) => (
-                    <span class="inline-block mr-1">· {t.name}</span>
-                  ))}
-                  {realTopics(subject).length > 3 && <span class="text-surface-400">+ more</span>}
-                </p>
-              </>
-            );
-            return hasSubjectNotes ? (
-              <a href={subjectNotesUrl} class={`${cardClass} hover:border-brand-300 dark:hover:border-brand-700 hover:shadow-md`}>
-                {cardBody}
-              </a>
-            ) : (
-              <div class={cardClass}>{cardBody}</div>
+
+                <!-- Complete Topic Grid -->
+                <div class="p-5 sm:p-6 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3">
+                  {rTopics.map((topic: any) => {
+                    const noteKey = `${exam.examId}/${subject.id}/${topic.id}`;
+                    const hasNote = goodNotesSet.has(noteKey);
+                    const weightInfo = getTopicWeightInfo(topic.weight);
+                    const noteLink = hasNote ? `/notes/${exam.examId}/${subject.id}/${topic.id}/` : `/roadmap/?exam=${exam.examId}&duration=1mo`;
+
+                    return (
+                      <div class="group relative rounded-xl border border-surface-200/70 dark:border-surface-800/80 p-3.5 hover:border-brand-300 dark:hover:border-brand-700 hover:shadow-sm transition-all bg-surface-50/30 dark:bg-surface-850/40 flex flex-col justify-between">
+                        <div>
+                          <div class="flex items-start justify-between gap-2 mb-2">
+                            <span class={`inline-flex items-center gap-1 text-[10px] px-2 py-0.5 rounded-md ${weightInfo.badgeClass}`}>
+                              <span>{weightInfo.icon}</span>
+                              <span>{weightInfo.label}</span>
+                            </span>
+                            {hasNote ? (
+                              <span class="text-[11px] font-bold text-emerald-600 dark:text-emerald-400 bg-emerald-50 dark:bg-emerald-950/50 px-2 py-0.5 rounded border border-emerald-200/60 dark:border-emerald-800/60">
+                                3-Tier Note ✓
+                              </span>
+                            ) : null}
+                          </div>
+                          <h4 class="text-sm font-bold text-surface-900 dark:text-surface-100 group-hover:text-brand-600 dark:group-hover:text-brand-400 transition-colors">
+                            {topic.name}
+                          </h4>
+                          {topic.description ? (
+                            <p class="text-xs text-surface-500 dark:text-surface-400 mt-1.5 line-clamp-2 leading-relaxed">
+                              {topic.description}
+                            </p>
+                          ) : null}
+                        </div>
+
+                        <div class="mt-3 pt-2.5 border-t border-surface-200/50 dark:border-surface-800/50 flex items-center justify-between text-xs">
+                          <a
+                            href={noteLink}
+                            class="font-semibold text-brand-600 dark:text-brand-400 hover:underline inline-flex items-center gap-1"
+                          >
+                            {hasNote ? 'Read Study Note' : 'Generate Topic Plan'} →
+                          </a>
+                          <span class="text-[11px] font-mono text-surface-400">
+                            {topic.id}
+                          </span>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
             );
           })}
-        </div>
-        <div class="mt-6 text-center">
-          <a
-            href={`/roadmap/?exam=${exam.examId}`}
-            class="inline-flex items-center gap-2 text-brand-600 dark:text-brand-400 font-semibold hover:underline"
-          >
-            Generate your personalised {examName} roadmap →
-          </a>
         </div>
       </section>
     )}
 
     <!-- Roadmap Duration CTA -->
-    <section class="bg-brand-600 dark:bg-brand-900">
-      <div class="container-page py-10">
-        <div class="flex flex-col md:flex-row items-center justify-between gap-6">
-          <div>
-            <h2 class="text-2xl font-black text-white mb-2">
+    <section class="bg-gradient-to-r from-brand-700 via-brand-600 to-blue-700 dark:from-brand-950 dark:via-surface-900 dark:to-surface-900 border-y border-brand-800/40 text-white">
+      <div class="container-page py-12">
+        <div class="flex flex-col lg:flex-row items-center justify-between gap-8">
+          <div class="max-w-xl text-center lg:text-left">
+            <span class="inline-block text-xs uppercase tracking-widest font-bold text-brand-200 mb-2">No Signup · 100% Free AI Planner</span>
+            <h2 class="text-2xl sm:text-3xl font-black text-white leading-tight">
               Build Your {examName} Study Plan in Minutes
             </h2>
-            <p class="text-brand-100 text-sm">
-              Free, instant, no signup. Choose your duration and get a prioritised roadmap.
+            <p class="text-brand-100 dark:text-surface-300 text-sm sm:text-base mt-2">
+              Select how much preparation time you have left. The AI prioritizes high-weightage topics and builds your daily revision schedule.
             </p>
           </div>
-          <div class="flex flex-wrap gap-3">
+          <div class="flex flex-wrap gap-2.5 justify-center lg:justify-end max-w-lg">
             {durations.map((d: string) => (
               <a
                 href={`/roadmap/?exam=${exam.examId}&duration=${d}`}
-                class="bg-white/10 hover:bg-white/20 text-white font-bold px-4 py-2 rounded-lg text-sm transition-colors"
+                class="bg-white/10 hover:bg-white/20 text-white font-bold px-4 py-2.5 rounded-xl text-sm transition-colors border border-white/10"
               >
                 {d}
               </a>
             ))}
             <a
               href={`/roadmap/?exam=${exam.examId}`}
-              class="bg-white text-brand-700 font-bold px-5 py-2 rounded-lg text-sm hover:bg-brand-50 transition-colors"
+              class="bg-white text-brand-700 hover:bg-brand-50 font-bold px-5 py-2.5 rounded-xl text-sm transition-colors shadow-sm"
             >
               All Durations →
             </a>
@@ -680,92 +991,98 @@ const discontinuedNotice = DISCONTINUED_EXAMS[exam.examId];
 
     {/* Related Exams from the same country */}
     {relatedExams.length > 0 && (
-      <section class="container-page py-10">
-        <h2 class="text-xl font-bold text-surface-900 dark:text-white mb-5">
-          More Exams in {flag} {countryName}
-        </h2>
+      <section class="container-page py-12">
+        <div class="mb-6">
+          <h2 class="text-xl sm:text-2xl font-black text-surface-900 dark:text-white">
+            More Competitive Exams in {flag} {countryName}
+          </h2>
+          <p class="text-surface-500 dark:text-surface-400 text-sm mt-1">Explore parallel entry tests and alternative university entrance options.</p>
+        </div>
         <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
           {relatedExams.map((rel) => (
             <a
               href={`/exams/${rel.examId}/`}
-              class="group bg-surface-50 dark:bg-surface-900 rounded-xl border border-surface-200 dark:border-surface-800 p-4 hover:border-brand-300 dark:hover:border-brand-700 hover:shadow-md transition-all"
+              class="group bg-white dark:bg-surface-900 rounded-2xl border border-surface-200 dark:border-surface-800 p-5 hover:border-brand-300 dark:hover:border-brand-700 hover:shadow-md transition-all flex flex-col justify-between"
             >
-              <div class="flex items-center gap-2 mb-2">
-                <span class="text-lg">{getCountryFlag(rel.country) || '📚'}</span>
-                <h3 class="font-bold text-surface-800 dark:text-surface-100 text-sm group-hover:text-brand-600 dark:group-hover:text-brand-400 transition-colors">
-                  {(rel as any).examName || rel.examId}
-                </h3>
+              <div>
+                <div class="flex items-center gap-2 mb-2">
+                  <span class="text-xl">{getCountryFlag(rel.country) || '📚'}</span>
+                  <h3 class="font-bold text-surface-900 dark:text-surface-100 text-sm group-hover:text-brand-600 dark:group-hover:text-brand-400 transition-colors">
+                    {(rel as any).examName || rel.examId}
+                  </h3>
+                </div>
+                {rel.description ? (
+                  <p class="text-xs text-surface-500 dark:text-surface-400 line-clamp-3 leading-relaxed">
+                    {rel.description.replace(/\\n/g, ' ').replace(/\\/g, '')}
+                  </p>
+                ) : null}
               </div>
-              {rel.description ? (
-                <p class="text-xs text-surface-500 dark:text-surface-400 line-clamp-2">
-                  {rel.description.replace(/\\n/g, ' ').replace(/\\/g, '').slice(0, 100)}
-                </p>
-              ) : null}
+              <span class="text-xs font-semibold text-brand-600 dark:text-brand-400 mt-4 flex items-center gap-1">
+                View Exam Guide →
+              </span>
             </a>
           ))}
         </div>
       </section>
     )}
 
-    {/* Exam-Specific FAQ — rich content from exam-faqs.ts or syllabus-derived fallback */}
+    {/* Exam-Specific FAQ */}
     {examFAQs && examFAQs.length > 0 && (
-      <section class="container-page py-12 border-t border-surface-200 dark:border-surface-800">
-        <div class="flex items-center gap-3 mb-6">
-          <span class="text-xl">❓</span>
-          <h2 class="text-xl font-bold text-surface-900 dark:text-white">
+      <section id="faqs" class="container-page py-12 border-t border-surface-200 dark:border-surface-800">
+        <div class="flex items-center gap-3 mb-2">
+          <span class="w-8 h-8 rounded-lg bg-amber-50 dark:bg-amber-950/50 text-amber-600 dark:text-amber-400 flex items-center justify-center text-lg">❓</span>
+          <h2 class="text-2xl font-black text-surface-900 dark:text-white">
             Frequently Asked Questions — {examName}
           </h2>
         </div>
-        <p class="text-sm text-surface-500 dark:text-surface-400 mb-8">
-          Everything you need to know about {examName}. Scroll down for the complete study guide.
+        <p class="text-sm text-surface-600 dark:text-surface-400 mb-8 max-w-3xl">
+          Everything you need to know about {examName} eligibility, question pattern, scoring rubrics, and effective preparation routines.
         </p>
-        <div class="grid gap-3 max-w-3xl">
-          {examFAQs.map((faq: any, i: number) => (
-            <details class="group bg-surface-50 dark:bg-surface-900 rounded-xl border border-surface-200 dark:border-surface-800 overflow-hidden">
-              <summary class="flex items-center justify-between gap-4 p-5 cursor-pointer list-none select-none">
-                <span class="font-semibold text-surface-900 dark:text-white text-sm group-hover:text-brand-600 dark:group-hover:text-brand-400 transition-colors pr-4">
+
+        <div class="grid gap-4 max-w-4xl">
+          {examFAQs.map((faq: any) => (
+            <details class="group bg-white dark:bg-surface-900 rounded-2xl border border-surface-200 dark:border-surface-800 overflow-hidden shadow-2xs transition-colors">
+              <summary class="flex items-center justify-between gap-4 p-5 sm:p-6 cursor-pointer list-none select-none">
+                <span class="font-bold text-surface-900 dark:text-white text-base group-hover:text-brand-600 dark:group-hover:text-brand-400 transition-colors pr-4">
                   {faq.question}
                 </span>
-                <span class="shrink-0 text-surface-400 group-open:rotate-180 transition-transform">
-                  <svg aria-hidden="true" focusable="false" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor">
+                <span class="shrink-0 w-8 h-8 rounded-full bg-surface-100 dark:bg-surface-800 flex items-center justify-center text-surface-500 group-open:rotate-180 transition-transform">
+                  <svg aria-hidden="true" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
                   </svg>
                 </span>
               </summary>
-              <div class="px-5 pb-5 text-sm text-surface-600 dark:text-surface-300 leading-relaxed border-t border-surface-100 dark:border-surface-800 pt-3">
+              <div class="px-5 sm:px-6 pb-6 text-sm sm:text-base text-surface-700 dark:text-surface-300 leading-relaxed border-t border-surface-100 dark:border-surface-800 pt-4">
                 {faq.answer}
               </div>
             </details>
           ))}
         </div>
-        <p class="text-sm text-surface-400 dark:text-surface-500 mt-6">
-          Generating roadmap for {examName}? <a href={`/roadmap/?exam=${exam.examId}`} class="text-brand-600 dark:text-brand-400 hover:underline font-medium">Get your free personalised study plan →</a>
-        </p>
       </section>
     )}
 
-    {/* Related Exams by Pathway — cross-links to logically related exams */}
+    {/* Related Exams by Pathway */}
     {pathwayExams.length > 0 && (
       <section class="container-page py-10 border-t border-surface-200 dark:border-surface-800">
-        <div class="flex items-center gap-3 mb-5">
-          <span class="text-xl">🔗</span>
-          <h2 class="text-xl font-bold text-surface-900 dark:text-white">
-            Related Exams by Pathway
+        <div class="flex items-center gap-3 mb-2">
+          <span class="w-8 h-8 rounded-lg bg-indigo-50 dark:bg-indigo-950/50 text-indigo-600 dark:text-indigo-400 flex items-center justify-center text-lg">🔗</span>
+          <h2 class="text-xl sm:text-2xl font-black text-surface-900 dark:text-white">
+            Related Exams by Preparation Pathway
           </h2>
         </div>
         <p class="text-sm text-surface-500 dark:text-surface-400 mb-6">
-          Students preparing for {examName} often also consider these exams for syllabus overlap or the next step in their journey.
+          Aspirants preparing for {examName} often cross-prepare for these parallel entrances due to syllabus overlap.
         </p>
         <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {pathwayExams.map((p) => (
             <a
               href={`/exams/${p.examId}/`}
-              class="group flex items-start gap-4 bg-surface-50 dark:bg-surface-900 rounded-xl border border-surface-200 dark:border-surface-800 p-5 hover:border-brand-300 dark:hover:border-brand-700 hover:shadow-md transition-all"
+              class="group flex items-start gap-4 bg-white dark:bg-surface-900 rounded-2xl border border-surface-200 dark:border-surface-800 p-5 hover:border-brand-300 dark:hover:border-brand-700 hover:shadow-md transition-all"
             >
               <div class="flex-1">
                 <div class="flex items-center gap-2 mb-1">
                   <span class="text-lg">{getCountryFlag(p.exam!.country) || '📚'}</span>
-                  <h3 class="font-bold text-surface-800 dark:text-surface-100 text-sm group-hover:text-brand-600 dark:group-hover:text-brand-400 transition-colors">
+                  <h3 class="font-bold text-surface-900 dark:text-surface-100 text-sm group-hover:text-brand-600 dark:group-hover:text-brand-400 transition-colors">
                     {p.exam!.examName || p.examId}
                   </h3>
                 </div>
@@ -773,72 +1090,76 @@ const discontinuedNotice = DISCONTINUED_EXAMS[exam.examId];
                   {p.reason}
                 </p>
               </div>
-              <span class="text-surface-400 group-hover:text-brand-600 transition-colors mt-1">→</span>
+              <span class="text-surface-400 group-hover:text-brand-600 transition-colors mt-1 font-bold">→</span>
             </a>
           ))}
         </div>
       </section>
     )}
 
-    <!-- How It Works -->
-    <section class="container-page py-12">
-      <h2 class="text-2xl font-bold text-surface-900 dark:text-white mb-8 text-center">
-        How to Prepare for {examName}
+    <!-- How It Works (3 Steps) -->
+    <section class="container-page py-12 border-t border-surface-200 dark:border-surface-800">
+      <h2 class="text-2xl font-black text-surface-900 dark:text-white mb-8 text-center">
+        How StudyRoadmap Accelerates Your {examName} Prep
       </h2>
       <div class="grid md:grid-cols-3 gap-6">
-        <div class="text-center">
-          <div class="w-12 h-12 bg-brand-100 dark:bg-brand-900 rounded-2xl flex items-center justify-center mx-auto mb-4 text-xl font-black text-brand-600 dark:text-brand-400">1</div>
-          <h3 class="font-bold text-surface-900 dark:text-white mb-2">Generate Your Roadmap</h3>
-          <p class="text-surface-500 dark:text-surface-400 text-sm">Select your exam, choose available time — get an instant AI prioritised study plan.</p>
+        <div class="bg-white dark:bg-surface-900 rounded-2xl p-6 border border-surface-200 dark:border-surface-800 text-center shadow-2xs">
+          <div class="w-12 h-12 bg-brand-100 dark:bg-brand-900/60 rounded-2xl flex items-center justify-center mx-auto mb-4 text-xl font-black text-brand-600 dark:text-brand-400">1</div>
+          <h3 class="font-bold text-surface-900 dark:text-white mb-2 text-base">Generate Personalized Plan</h3>
+          <p class="text-surface-600 dark:text-surface-400 text-sm leading-relaxed">Select your exam, pick your available timeframe, and get an instant syllabus plan prioritized by weightage.</p>
         </div>
-        <div class="text-center">
-          <div class="w-12 h-12 bg-brand-100 dark:bg-brand-900 rounded-2xl flex items-center justify-center mx-auto mb-4 text-xl font-black text-brand-600 dark:text-brand-400">2</div>
-          <h3 class="font-bold text-surface-900 dark:text-white mb-2">Study Topic by Topic</h3>
-          <p class="text-surface-500 dark:text-surface-400 text-sm">Open free notes for each topic, chosen by your roadmap. Three depth tiers: Quick, Standard, Deep.</p>
+        <div class="bg-white dark:bg-surface-900 rounded-2xl p-6 border border-surface-200 dark:border-surface-800 text-center shadow-2xs">
+          <div class="w-12 h-12 bg-brand-100 dark:bg-brand-900/60 rounded-2xl flex items-center justify-center mx-auto mb-4 text-xl font-black text-brand-600 dark:text-brand-400">2</div>
+          <h3 class="font-bold text-surface-900 dark:text-white mb-2 text-base">Study with 3-Tier Notes</h3>
+          <p class="text-surface-600 dark:text-surface-400 text-sm leading-relaxed">Open topic notes with formulas, mnemonics, and worked questions tailored to your revision pace (Quick, Standard, Deep).</p>
         </div>
-        <div class="text-center">
-          <div class="w-12 h-12 bg-brand-100 dark:bg-brand-900 rounded-2xl flex items-center justify-center mx-auto mb-4 text-xl font-black text-brand-600 dark:text-brand-400">3</div>
-          <h3 class="font-bold text-surface-900 dark:text-white mb-2">Track & Revise</h3>
-          <p class="text-surface-500 dark:text-surface-400 text-sm">Mark topics complete as you go. Your roadmap adapts to your pace and keeps high-weightage topics first.</p>
+        <div class="bg-white dark:bg-surface-900 rounded-2xl p-6 border border-surface-200 dark:border-surface-800 text-center shadow-2xs">
+          <div class="w-12 h-12 bg-brand-100 dark:bg-brand-900/60 rounded-2xl flex items-center justify-center mx-auto mb-4 text-xl font-black text-brand-600 dark:text-brand-400">3</div>
+          <h3 class="font-bold text-surface-900 dark:text-white mb-2 text-base">Track Daily Momentum</h3>
+          <p class="text-surface-600 dark:text-surface-400 text-sm leading-relaxed">Check off completed topics, track your countdown, and keep your daily study streak alive without registration.</p>
         </div>
       </div>
     </section>
 
-    <!-- Exam Info Table -->
+    <!-- Exam Metadata Table -->
     <section class="container-page pb-12">
-      <div class="bg-surface-50 dark:bg-surface-900 rounded-2xl border border-surface-200 dark:border-surface-800 overflow-x-auto">
+      <div class="bg-white dark:bg-surface-900 rounded-2xl border border-surface-200 dark:border-surface-800 overflow-x-auto shadow-2xs">
         <table class="w-full text-sm min-w-[280px]">
           <tbody>
-            <tr class="border-b border-surface-200 dark:border-surface-800">
-              <td class="px-4 sm:px-5 py-3 font-semibold text-surface-700 dark:text-surface-300 w-32 sm:w-40 shrink-0">Exam Name</td>
-              <td class="px-4 sm:px-5 py-3 text-surface-900 dark:text-surface-100">{examName}</td>
+            <tr class="border-b border-surface-100 dark:border-surface-800">
+              <td class="px-5 py-3.5 font-bold text-surface-700 dark:text-surface-300 w-40 sm:w-48 shrink-0">Examination</td>
+              <td class="px-5 py-3.5 text-surface-900 dark:text-surface-100 font-medium">{examName}</td>
             </tr>
-            <tr class="border-b border-surface-200 dark:border-surface-800">
-              <td class="px-5 py-3 font-semibold text-surface-700 dark:text-surface-300">Country</td>
-              <td class="px-5 py-3 text-surface-900 dark:text-surface-100">{flag} {countryName}</td>
+            <tr class="border-b border-surface-100 dark:border-surface-800">
+              <td class="px-5 py-3.5 font-bold text-surface-700 dark:text-surface-300">Jurisdiction</td>
+              <td class="px-5 py-3.5 text-surface-900 dark:text-surface-100 font-medium">{flag} {countryName}</td>
             </tr>
-            <tr class="border-b border-surface-200 dark:border-surface-800">
-              <td class="px-5 py-3 font-semibold text-surface-700 dark:text-surface-300">Subjects</td>
-              <td class="px-5 py-3 text-surface-900 dark:text-surface-100">{subjectList.map((s: any) => s.name).join(', ')}</td>
+            <tr class="border-b border-surface-100 dark:border-surface-800">
+              <td class="px-5 py-3.5 font-bold text-surface-700 dark:text-surface-300">Conducting Body</td>
+              <td class="px-5 py-3.5 text-surface-900 dark:text-surface-100 font-medium">{conductingBody}</td>
             </tr>
-            <tr class="border-b border-surface-200 dark:border-surface-800">
-              <td class="px-5 py-3 font-semibold text-surface-700 dark:text-surface-300">Total Topics</td>
-              <td class="px-5 py-3 text-surface-900 dark:text-surface-100">{totalTopics}</td>
+            <tr class="border-b border-surface-100 dark:border-surface-800">
+              <td class="px-5 py-3.5 font-bold text-surface-700 dark:text-surface-300">Sections & Subjects</td>
+              <td class="px-5 py-3.5 text-surface-900 dark:text-surface-100">{subjectList.map((s: any) => s.name).join(', ')}</td>
+            </tr>
+            <tr class="border-b border-surface-100 dark:border-surface-800">
+              <td class="px-5 py-3.5 font-bold text-surface-700 dark:text-surface-300">Total Tracked Topics</td>
+              <td class="px-5 py-3.5 text-surface-900 dark:text-surface-100 font-mono font-bold">{totalTopics} Topics</td>
             </tr>
             {exam.officialSource && (
-              <tr class="border-b border-surface-200 dark:border-surface-800">
-                <td class="px-5 py-3 font-semibold text-surface-700 dark:text-surface-300">Official Source</td>
-                <td class="px-5 py-3">
-                  <a href={exam.officialSource} target="_blank" rel="noopener noreferrer" class="text-brand-600 dark:text-brand-400 hover:underline">
-                    {exam.officialSource}
+              <tr class="border-b border-surface-100 dark:border-surface-800">
+                <td class="px-5 py-3.5 font-bold text-surface-700 dark:text-surface-300">Official Portal</td>
+                <td class="px-5 py-3.5">
+                  <a href={exam.officialSource} target="_blank" rel="noopener noreferrer" class="text-brand-600 dark:text-brand-400 hover:underline font-medium">
+                    {exam.officialSource} ↗
                   </a>
                 </td>
               </tr>
             )}
             {exam.lastUpdated && (
               <tr>
-                <td class="px-5 py-3 font-semibold text-surface-700 dark:text-surface-300">Last Updated</td>
-                <td class="px-5 py-3 text-surface-500 dark:text-surface-400">{exam.lastUpdated}</td>
+                <td class="px-5 py-3.5 font-bold text-surface-700 dark:text-surface-300">Syllabus Verification</td>
+                <td class="px-5 py-3.5 text-surface-500 dark:text-surface-400 font-mono">{exam.lastUpdated}</td>
               </tr>
             )}
           </tbody>
@@ -848,20 +1169,20 @@ const discontinuedNotice = DISCONTINUED_EXAMS[exam.examId];
 
     {/* Wikipedia Citations — E-E-A-T Sources & References */}
     {wikiCitations.length > 0 && (
-      <section class="container-page pb-4 pt-8 border-t border-surface-200 dark:border-surface-800">
-        <div class="flex items-center gap-2 mb-4">
+      <section class="container-page pb-8 pt-4 border-t border-surface-200 dark:border-surface-800">
+        <div class="flex items-center gap-2 mb-3">
           <span class="text-base">📚</span>
-          <h2 class="text-base font-bold text-surface-700 dark:text-surface-300">
-            Sources & References
+          <h2 class="text-base font-bold text-surface-800 dark:text-surface-200">
+            Authoritative Sources & References
           </h2>
         </div>
-        <p class="text-xs text-surface-400 dark:text-surface-500 mb-4 leading-relaxed">
-          The following Wikipedia articles provide authoritative background on {examName} and its exam ecosystem. They are cited for E-E-A-T purposes to support the accuracy of the information presented on this page.
+        <p class="text-xs text-surface-500 dark:text-surface-400 mb-4 leading-relaxed max-w-3xl">
+          The following encyclopedic and administrative references provide independent background on {examName} and its administering authorities for E-E-A-T transparency.
         </p>
-        <ol class="space-y-2">
+        <ol class="space-y-2 max-w-3xl">
           {wikiCitations.map((cite, i) => (
             <li class="flex gap-3 text-xs">
-              <span class="shrink-0 text-surface-300 dark:text-surface-600 font-mono select-none">[{i + 1}]</span>
+              <span class="shrink-0 text-surface-400 font-mono select-none">[{i + 1}]</span>
               <div>
                 <a
                   href={cite.url}
@@ -872,7 +1193,7 @@ const discontinuedNotice = DISCONTINUED_EXAMS[exam.examId];
                   {cite.label}
                 </a>
                 {cite.note && (
-                  <span class="text-surface-400 dark:text-surface-500"> — {cite.note}</span>
+                  <span class="text-surface-500 dark:text-surface-400"> — {cite.note}</span>
                 )}
               </div>
             </li>
@@ -882,6 +1203,41 @@ const discontinuedNotice = DISCONTINUED_EXAMS[exam.examId];
     )}
 
   </main>
+
+  <!-- Interactive Subject Filter Tabs Script -->
+  <script is:inline>
+    (function () {
+      try {
+        var tabs = document.querySelectorAll('.sr-sub-tab');
+        var blocks = document.querySelectorAll('.sr-subject-block');
+        if (!tabs.length || !blocks.length) return;
+
+        tabs.forEach(function (tab) {
+          tab.addEventListener('click', function () {
+            var target = tab.getAttribute('data-target');
+
+            // Toggle tab active styles
+            tabs.forEach(function (t) {
+              t.classList.remove('bg-brand-600', 'text-white', 'shadow-xs');
+              t.classList.add('bg-white', 'dark:bg-surface-850', 'text-surface-700', 'dark:text-surface-300');
+            });
+            tab.classList.remove('bg-white', 'dark:bg-surface-850', 'text-surface-700', 'dark:text-surface-300');
+            tab.classList.add('bg-brand-600', 'text-white', 'shadow-xs');
+
+            // Show/hide blocks
+            blocks.forEach(function (block) {
+              if (target === 'all' || block.getAttribute('data-subject-id') === target) {
+                block.style.display = 'block';
+              } else {
+                block.style.display = 'none';
+              }
+            });
+          });
+        });
+      } catch (e) {}
+    })();
+  </script>
+
 
   <script is:inline define:vars={{ examId: exam.examId, examName }}>
     (function () {

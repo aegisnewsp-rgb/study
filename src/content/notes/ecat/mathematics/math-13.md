@@ -19,78 +19,80 @@ diagramPrompt: "Mathematical diagram showing Probability and Permutations concep
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Probability** quantifies how likely an event is, calculated as P(A) = n(A)/n(S), where n(A) counts favorable outcomes and n(S) counts all equally likely outcomes in the sample space. Values sit between 0 (impossible) and 1 (certain). A **permutation** counts ordered arrangements of r objects chosen from n distinct items, given by P(n,r) = n!/(n−r)!. The key distinction: permutations care about order, combinations do not.
+Probability quantifies the chance of an event on a scale of **0 ≤ P(A) ≤ 1**, computed as **P(A) = n(A)/n(S)**, where *n(A)* is the count of favorable outcomes and *n(S)* is the total equally likely outcomes in the sample space. A **permutation** is an ordered selection of *r* objects from *n* distinct objects, given by **P(n,r) = n!/(n−r)!**.
 
-- **Counting principle**: if task 1 has m ways and task 2 has n ways, both together have m·n ways.
-- **Complement rule**: P(A′) = 1 − P(A) — fastest path to "at least one" problems.
-- **Independence**: P(A ∩ B) = P(A)·P(B) only when A and B do not influence each other.
+| Concept | Use When | Formula |
+|---|---|---|
+| Probability | Measuring likelihood | P(A) = n(A)/n(S) |
+| Permutation | Order matters | P(n,r) = n!/(n−r)! |
+| Complement | "Not A" event | P(A′) = 1 − P(A) |
+| Multiplication | Sequential choices | m × n ways |
 
-ECAT tests 1–2 MCQs here; expect a single-stage counting question plus one probability axiom application.
-
----
+> 💡 **High-Yield Memory Hook:** **"PERM = POSITIONS matter, COMB = CREW only"** — if rearranging changes the answer, you need P(n,r); if it doesn't, you need C(n,r). For ECAT, spot the word *"arrange"* (permutation) versus *"select/choose/group"* (combination).
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-#### Core Probability Rules
+Probability rules branch into three operational directions: classical counting using the sample space, conditional chains through Bayes-style reasoning, and the ordered arrangements handled by permutations. ECAT routinely tests these by asking students to recognize which counting model fits a one-line problem and then apply the right formula without algebraic slippage.
 
-Probability rests on three axioms due to Kolmogorov: P(A) ≥ 0, P(S) = 1, and additivity over disjoint events. From these flow the formulas you will use in ECAT. The **addition rule** handles "or" questions: P(A ∪ B) = P(A) + P(B) − P(A ∩ B). When A and B are mutually exclusive, P(A ∩ B) = 0 and the formula simplifies to a sum.
+#### Core Formulas and Variables
 
-The **multiplication rule** handles "and" questions. For independent events, P(A ∩ B) = P(A)·P(B). For dependent events, P(A ∩ B) = P(A)·P(B|A). The conditional probability P(A|B) = P(A ∩ B)/P(B) tells you the chance of A once B has occurred.
+| Formula | Meaning | Variables / SI |
+|---|---|---|
+| P(A) = n(A)/n(S) | Classical probability | n(A), n(S) are dimensionless counts |
+| P(A ∪ B) = P(A) + P(B) − P(A ∩ B) | Addition rule | dimensionless |
+| P(A ∩ B) = P(A)·P(B) | Independent events only | dimensionless |
+| P(A\|B) = P(A ∩ B)/P(B) | Conditional probability, P(B) > 0 | dimensionless |
+| P(n,r) = n!/(n−r)! | Ordered arrangements | n, r are integers, r ≤ n |
 
-#### Permutation Mechanics
+#### Key Principles
+1. **Sample space first:** list every equally likely outcome before counting favorable ones.
+2. **Multiplication principle:** if task 1 has *m* ways and task 2 has *n* ways, both together have *m·n* ways.
+3. **Order check:** "arrange/seat/rank" → permutation; "select/committee/group" → combination.
+4. **Independence check:** events are independent only if one does not influence the other.
 
-A permutation of r objects from n distinct objects is P(n,r) = n!/(n−r)!. The factorial n! = n × (n−1) × … × 1 grows fast: 5! = 120, 7! = 5040. Watch the denominator: it is (n−r)!, not r! — that swap signals a confusion with combinations C(n,r) = n!/[r!(n−r)!].
+#### Concept Comparison Matrix
 
-#### Typical Exam Patterns
+| Feature | Permutation P(n,r) | Combination C(n,r) |
+|---|---|---|
+| Order | Required | Not required |
+| Formula | n!/(n−r)! | n!/[r!(n−r)!] |
+| Example | 1st, 2nd, 3rd prize | Committee of 3 members |
+| ECAT keyword | "arrange", "rank", "seating" | "select", "choose", "group" |
+| Count growth | Larger than C(n,r) for r ≥ 2 | Smaller than P(n,r) for r ≥ 2 |
 
-| Pattern | Approach | Trap to avoid |
-| --- | --- | --- |
-| "In how many ways can…" | Identify if order matters → use P(n,r) | Mixing up r and n−r in factorial |
-| "Probability of A or B" | Apply addition rule | Forgetting to subtract P(A ∩ B) |
-| "At least one" success | Use complement: 1 − P(none) | Computing P(success) directly, which overcounts |
-| "Given that B occurred" | Switch to P(A\|B) | Using P(B\|A) by mistake |
+#### 🎯 Exam-Level Worked Problem
 
-- Treat each compound experiment with a tree diagram; branch probabilities multiply, leaf probabilities sum.
-- Convert "without replacement" wording into sequential dependent events.
-- ECAT MCQs usually sit at the FSc/Pre-Engineering level — three significant figures is enough precision.
+**Question:** A bag contains 5 red and 3 blue balls. Two balls are drawn in succession. What is the probability that both are red, if the first ball is *not* replaced?
 
----
+#### Solution:
+- Total balls: *n(S)* = 8.
+- P(1st red) = 5/8.
+- After one red is removed: 4 red remain out of 7 total, so P(2nd red | 1st red) = 4/7.
+- Joint probability: P(both red) = (5/8) × (4/7) = **20/56 = 5/14**.
+
+> ⚠️ **Examiner Trap:** Students often answer (5/8) × (5/8) = 25/64, forgetting that draws are **dependent** without replacement. ECAT variants test this with wording like *"without replacement"* versus *"with replacement"* — read carefully.
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-#### Bayes' Theorem and Conditional Probability
+The deeper layer of this topic merges **counting theory** with **axiomatic probability** (Kolmogorov's three axioms). ECAT problems at UET Lahore rarely go beyond two-stage conditional setups, but mastery lets you handle Bayes' theorem and inclusion–exclusion extensions.
 
-When you must reverse a conditional probability, apply **Bayes' theorem**: P(A|B) = [P(B|A)·P(A)] / P(B). ECAT rarely asks Bayes directly, but the same machinery underwrites conditional-probability MCQs. Two-stage experiments (draw two cards, toss two coins, inspect two components) almost always want either the joint probability or the conditional probability at the second stage, where the sample space has shrunk because of the first outcome.
+#### Advanced Traps and Edge Cases
 
-#### Edge Cases and Counting Principles
+| Trap | What Happens | Correct Approach |
+|---|---|---|
+| Treating conditional as reverse | Writes P(B\|A) when asked for P(A\|B) | Re-anchor: "given B" sets the new sample space |
+| Ignoring mutually exclusive overlap | Adds P(A) + P(B) directly | Subtract P(A ∩ B) when events can occur together |
+| Forgetting factorial base | Uses n! in numerator without (n−r)! in denominator | Permutation = n!/(n−r)! always |
+| Counting arrangements as selections | Picks C(n,r) for "arrange in a row" | Use P(n,r); order counts |
+| Misreading "at least one" | Computes single probability | Use complement: 1 − P(none) |
 
-Permutations over repeated objects use n!/(n₁!·n₂!·…), which arises in arranging letters of words like "MISSISSIPPI". Circular permutations, where rotations count as identical, use (n−1)!. When a problem says "arrangements of n people in a row", use n!; when it says "around a round table", use (n−1)!.
+#### 🔴 Advanced Practice Prompts
+1. **Three-digit codes from {0,1,2,3,4} with no repetition:** how many codes are odd and greater than 200? (Answer pathway: fix last digit to {1,3} → 2 choices, fix hundreds digit with constraint, then permute the middle.)
+2. **Two cards drawn from 52:** find P(ace on 2nd \| king on 1st) with replacement vs without replacement. Compare the two numerical answers (1/13 with replacement; 4/51 without).
 
-#### Worked Micro-Example
-
-A bag holds 5 red and 3 blue balls. Two balls are drawn without replacement. Find P(both red).
-
-- Total ways to draw 2 from 8: C(8,2) = 28.
-- Favorable ways: C(5,2) = 10.
-- P(both red) = 10/28 = 5/14 ≈ 0.357.
-
-Alternatively, sequential: P(1st red)·P(2nd red | 1st red) = (5/8)·(4/7) = 20/56 = 5/14. Same answer — confirming the multiplication rule for dependent events.
-
-#### Common Mistakes and Exam Strategy
-
-1. Treating "arrange" as a combination when order actually distinguishes seats, ranks, or positions.
-2. Writing P(A|B) when the question demands P(B|A) — the denominator changes.
-3. Assuming independence in without-replacement draws; the first draw shrinks the population.
-
-| Mistake | Correct approach |
-| --- | --- |
-| Using n! for permutations of r from n | Use n!/(n−r)! |
-| Adding probabilities without subtracting overlap | Subtract P(A ∩ B) unless events are mutually exclusive |
-| Computing (n−r)! in the numerator | Numerator stays n!; only denominator changes |
-
-**Practice prompts**: (1) How many 4-digit codes from digits 0–9 with no repetition? (Answer uses P(10,4) = 5040.) (2) P(at least one head in 3 fair tosses) = 1 − (1/2)³ = 7/8.
+> ⚠️ **Examiner Trap:** In multi-part problems, ECAT often lists "with replacement" and "without replacement" as separate MCQs in the same paper. Mixing the two yields off-by-one answers in the denominator (7 vs 8, 51 vs 52). Always restate the sample space *after* each draw.
 
 ---
 

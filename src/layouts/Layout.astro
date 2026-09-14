@@ -65,7 +65,9 @@ const canonicalURL = canonical
     : new URL(cleanPath, Astro.site);
 const currentYear = new Date().getFullYear();
 const is404Page = cleanPath === '/404/' || (typeof title === 'string' && title.includes('404'));
+const isPolicyOrToolPage = ['/roadmap/', '/privacy/', '/terms/', '/disclaimer/', '/contact/', '/editorial-process/'].includes(cleanPath);
 const allowAutoAds = !is404Page && !(typeof robots === 'string' && /noindex/i.test(robots));
+const allowMonetag = allowAutoAds && !isPolicyOrToolPage;
 ---
 
 <!doctype html>
@@ -83,9 +85,27 @@ const allowAutoAds = !is404Page && !(typeof robots === 'string' && /noindex/i.te
         {allowAutoAds && (
             <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4545403370367988" crossorigin="anonymous"></script>
         )}
-        <!-- Monetag Strategic Ads (Zone 280401) — non-intrusive, async, Cloudflare-compatible -->
-        {allowAutoAds && (
-            <script src="https://quge5.com/88/tag.min.js" data-zone="280401" async data-cfasync="false"></script>
+        <!-- Monetag Strategic Ads (Zone 280401) — non-intrusive, deferred to idle, user-friendly -->
+        {allowMonetag && (
+            <script is:inline>
+                (function() {
+                    function loadMonetag() {
+                        if (document.getElementById('sr-monetag')) return;
+                        var s = document.createElement('script');
+                        s.id = 'sr-monetag';
+                        s.src = 'https://quge5.com/88/tag.min.js';
+                        s.setAttribute('data-zone', '280401');
+                        s.setAttribute('data-cfasync', 'false');
+                        s.async = true;
+                        document.head.appendChild(s);
+                    }
+                    if ('requestIdleCallback' in window) {
+                        requestIdleCallback(loadMonetag, { timeout: 3500 });
+                    } else {
+                        setTimeout(loadMonetag, 2000);
+                    }
+                })();
+            </script>
         )}
 
         <!-- Google Analytics 4 — Consent Mode v2 defaults BEFORE gtag loads (BUG-061/062).
@@ -370,13 +390,27 @@ const allowAutoAds = !is404Page && !(typeof robots === 'string' && /noindex/i.te
             })} />
         )}
 
-        <!-- WebSite Structured Data (sitelinks search box) -->
+        <!-- WebSite Structured Data (sitelinks search box & brand entity recognition) -->
         <script type="application/ld+json" set:html={JSON.stringify({
             "@context": "https://schema.org",
             "@type": "WebSite",
             "name": "StudyRoadmap",
+            "alternateName": [
+                "StudyRoadmap",
+                "Study Roadmap",
+                "StudyRoadmap.in",
+                "studyroadmap.in",
+                "Study Roadmap AI",
+                "StudyRoadmap AI Planner"
+            ],
             "url": "https://studyroadmap.in/",
             "description": "Free AI-powered study plan generator for 125+ competitive exams worldwide",
+            "publisher": {
+                "@type": "EducationalOrganization",
+                "name": "StudyRoadmap",
+                "url": "https://studyroadmap.in/",
+                "logo": new URL('/favicon.svg', Astro.site).href
+            },
             "potentialAction": {
                 "@type": "SearchAction",
                 "target": {
@@ -390,11 +424,17 @@ const allowAutoAds = !is404Page && !(typeof robots === 'string' && /noindex/i.te
         <!-- Organization Structured Data -->
         <script type="application/ld+json" set:html={JSON.stringify({
             "@context": "https://schema.org",
-            "@type": "Organization",
+            "@type": ["Organization", "EducationalOrganization"],
             "name": "StudyRoadmap",
+            "alternateName": [
+                "StudyRoadmap",
+                "Study Roadmap",
+                "StudyRoadmap.in",
+                "studyroadmap.in"
+            ],
             "url": "https://studyroadmap.in/",
             "logo": new URL('/favicon.svg', Astro.site).href,
-            "description": "Free AI-powered study roadmap generator for competitive exams in India, Pakistan, Nigeria, and other markets we list on the exams directory.",
+            "description": "Free AI-powered study roadmap generator for competitive exams in India, Pakistan, Nigeria, and global admission testing.",
             "foundingDate": "2024",
             "founder": {
                 "@type": "Person",
@@ -404,6 +444,12 @@ const allowAutoAds = !is404Page && !(typeof robots === 'string' && /noindex/i.te
                     "mailto:pushkersaini@gmail.com"
                 ],
                 "email": "pushkersaini@gmail.com"
+            },
+            "brand": {
+                "@type": "Brand",
+                "name": "StudyRoadmap",
+                "alternateName": "Study Roadmap",
+                "logo": new URL('/favicon.svg', Astro.site).href
             },
             "address": {
                 "@type": "PostalAddress",

@@ -43,8 +43,11 @@ const examName = firstNote?.data.examName || exam;
 const subjectName = firstNote?.data.subjectName || subject;
 const flag = { india: '🇮🇳', pakistan: '🇵🇰', nigeria: '🇳🇬' }[firstNote?.data.country] || '🌍';
 
-const _titleRaw = `${subjectName} Study Notes — ${examName}`;
-const title = _titleRaw.length > 60 ? `${subjectName} Notes — ${examName}`.slice(0, 60) : _titleRaw;
+const BRAND_SUFFIX = ' | StudyRoadmap';
+const _tFull = `${subjectName} Notes — ${examName}${BRAND_SUFFIX}`;
+const title = _tFull.length <= 60 ? _tFull
+  : `${subjectName} Notes${BRAND_SUFFIX}`.length <= 60 ? `${subjectName} Notes${BRAND_SUFFIX}`
+  : `${subjectName.slice(0, 35)} Notes${BRAND_SUFFIX}`.slice(0, 60);
 const _descRaw = `Free ${subjectName} study notes for ${examName}. ${subjectNotes.length} topics across Quick, Standard, and Deep tiers — concepts, formulas, practice.`;
 const description = _descRaw.length > 160 ? _descRaw.slice(0, 157) + '...' : _descRaw;
 const canonicalUrl = `https://studyroadmap.in/notes/${exam}/${subject}/`;

@@ -37,3 +37,7 @@ __pycache__/
 
 # Generated at build (BUG-100 per-exam roadmap payloads)
 public/data/roadmap/
+
+# pi agent tooling (local, not part of the site) + project MCP config (contains secrets)
+.pi/
+.mcp.json

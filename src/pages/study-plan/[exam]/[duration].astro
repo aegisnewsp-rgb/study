@@ -110,11 +110,12 @@ if (totalDays >= 7 && dailyTopics.length) {
   }
 }
 
-// SERP-safe title: drop brand suffix (Layout does not append it) and keep ≤60.
-const _titleRaw = `${examName} ${durationLabel} (${totalDays}d) ${currentYear}`;
-const title = _titleRaw.length > 60
-  ? `${examName} ${durationLabel} ${currentYear}`.slice(0, 60)
-  : _titleRaw;
+const BRAND_SUFFIX = ' | StudyRoadmap';
+const _t1 = `${examName} ${durationLabel} ${currentYear}${BRAND_SUFFIX}`;
+const _t2 = `${examName} ${durationLabel}${BRAND_SUFFIX}`;
+const title = _t1.length <= 60 ? _t1
+  : _t2.length <= 60 ? _t2
+  : `${examName.slice(0, 25)} ${durationLabel}${BRAND_SUFFIX}`.slice(0, 60);
 const _descRaw = `Free ${durationLabel.toLowerCase()} for ${examName} ${currentYear} — ${totalDays}-day schedule, ${dailyTopics.length} weighted topics, day-by-day plan, no signup.`;
 const description = _descRaw.length > 160 ? _descRaw.slice(0, 157) + '...' : _descRaw;
 const canonicalUrl = `${SITE_URL}/study-plan/${exam.examId}/${durationKey}/`;

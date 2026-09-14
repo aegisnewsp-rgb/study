@@ -73,9 +73,11 @@ const subjectList =
       ? subjectNames.join(', ')
       : `${subjectNames.slice(0, 3).join(', ')}, and more`;
 
-// Title ≤60 chars for SERP (avoid ™ suffix and long exam names)
-const titleBase = `${examName} Free Study Notes — All Subjects`;
-const title = titleBase.length <= 60 ? titleBase : `${examName} Study Notes`.slice(0, 60);
+const BRAND_SUFFIX = ' | StudyRoadmap';
+const _tFull = `${examName} Study Notes${BRAND_SUFFIX}`;
+const title = _tFull.length <= 60 ? _tFull
+  : `${examName} Notes${BRAND_SUFFIX}`.length <= 60 ? `${examName} Notes${BRAND_SUFFIX}`
+  : `${examName.slice(0, 35)} Notes${BRAND_SUFFIX}`.slice(0, 60);
 const description =
   `Free ${examName} study notes: ${examNotes.length} topics across ${Object.keys(bySubject).length} subjects (${subjectList}). Weight-tagged, syllabus-aligned, no signup.`.slice(0, 160);
 const canonicalUrl = `https://studyroadmap.in/notes/${exam}/`;

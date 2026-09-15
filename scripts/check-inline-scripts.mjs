@@ -7,16 +7,21 @@
 // and killed the entire Monetag loader — see commit "fix(ads): repair
 // AdRouter inline regex literal that killed the ad loader".
 //
-// This script walks dist/**/*.html after `astro build` and runs `node --check`
-// against every inline JS body that has no `src=` attribute and whose type is
-// absent or a JS MIME type. The first syntax error fails the build (exit
-// non-zero) so the bug can never ship again.
+// This script walks dist/**/*.html after `astro build` and syntax-checks every
+// inline JS body that has no `src=` attribute and whose type is absent or a JS
+// MIME type. The first syntax error fails the build (exit non-zero) so the bug
+// can never ship again.
+//
+// The check runs in-process (node:vm) instead of spawning `node --check` once
+// per script. The site emits ~20k inline scripts across 6.4k pages, and one
+// process spawn each cost ~20 minutes of every deploy (measured 2026-09-15 —
+// it was the reason a full deploy took ~47 min). vm.Script uses the same
+// V8 parser and reports the same SyntaxError, in milliseconds.
 //
 // Idempotent and safe to re-run.
-import { spawnSync } from 'node:child_process';
-import { mkdtempSync, readdirSync, readFileSync, statSync, writeFileSync, rmSync } from 'node:fs';
-import { join, dirname, relative } from 'node:path';
-import { tmpdir } from 'node:os';
+import { readdirSync, readFileSync, statSync } from 'node:fs';
+import { join, relative } from 'node:path';
+import vm from 'node:vm';
 
 const DIST = process.env.SR_DIST || 'dist';
 const MIN_LEN = 20;
@@ -58,37 +63,43 @@ function isJsType(t) {
   return false;
 }
 
-const tmp = mkdtempSync(join(tmpdir(), 'sr-inline-check-'));
+// A browser treats an inline <script> as a classic script, and `node --check`
+// treats a .js file as CommonJS — both allow a top-level `return` (CJS via its
+// module wrapper). Wrapping preserves those semantics while still catching
+// every real syntax error. Line numbers in the parser error are offset by one.
+function checkSyntax(body, filename) {
+  try {
+    new vm.Script(`(function(){\n${body}\n})`, { filename });
+    return null;
+  } catch (e) {
+    return e;
+  }
+}
+
 let filesScanned = 0;
 let scriptsChecked = 0;
 let firstError = null;
 
-try {
-  for (const file of walk(DIST)) {
-    filesScanned += 1;
-    const html = readFileSync(file, 'utf8');
-    let m;
-    SCRIPT_RE.lastIndex = 0;
-    while ((m = SCRIPT_RE.exec(html))) {
-      const attrs = parseAttrs(m[1] || '');
-      if (attrs.src) continue;             // external script, not inline
-      if (!isJsType(attrs.type)) continue; // JSON-LD or non-JS data
-      const body = m[2];
-      if (body.trim().length < MIN_LEN) continue;
-      scriptsChecked += 1;
+for (const file of walk(DIST)) {
+  filesScanned += 1;
+  const html = readFileSync(file, 'utf8');
+  let m;
+  SCRIPT_RE.lastIndex = 0;
+  while ((m = SCRIPT_RE.exec(html))) {
+    const attrs = parseAttrs(m[1] || '');
+    if (attrs.src) continue;             // external script, not inline
+    if (!isJsType(attrs.type)) continue; // JSON-LD or non-JS data
+    const body = m[2];
+    if (body.trim().length < MIN_LEN) continue;
+    scriptsChecked += 1;
 
-      const tmpFile = join(tmp, `s${scriptsChecked}.js`);
-      writeFileSync(tmpFile, body);
-      const r = spawnSync(process.execPath, ['--check', tmpFile], { encoding: 'utf8' });
-      if (r.status !== 0) {
-        firstError = { file: relative('.', file), body, stderr: r.stderr || '', tmpFile };
-        break;
-      }
+    const err = checkSyntax(body, relative('.', file));
+    if (err) {
+      firstError = { file: relative('.', file), body, stderr: String((err && err.stack) || err) };
+      break;
     }
-    if (firstError) break;
   }
-} finally {
-  rmSync(tmp, { recursive: true, force: true });
+  if (firstError) break;
 }
 
 if (firstError) {
@@ -99,7 +110,7 @@ if (firstError) {
     .map((l, i) => `${String(i + 1).padStart(4)}: ${l}`)
     .join('\n');
   console.error(`check-inline-scripts: SYNTAX ERROR in ${e.file}`);
-  console.error('--- node --check stderr ---');
+  console.error('--- parser error ---');
   console.error(e.stderr.trim());
   console.error('--- first 12 lines of script body ---');
   console.error(snippet);

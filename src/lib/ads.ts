@@ -60,8 +60,24 @@ export const MONETAG_POPUNDER_ZONE = 11805678;
  */
 export const MONETAG_POPUNDER_DEDICATED_ENABLED = false;
 
-/** Popunder cooldown per visitor/browser: 12 hours. */
-export const POPUNDER_COOLDOWN_MS = 12 * 60 * 60 * 1000;
+/**
+ * Popunder cooldown per visitor/browser: 6 hours (was 12 h until 2026-09-15).
+ *
+ * Measured on the account's own zone report, the popunder is the highest-CPM
+ * format we have ($0.45 vs $0.02-$0.21 for the MultiTag formats), and the 12 h
+ * floor was generous enough that an engaged reader who returns twice in a day
+ * could only ever be served once. 6 h keeps "never more than once in a working
+ * session" while letting a genuinely returning reader be monetised again.
+ * The per-session cap below is the real UX guard; this is the backstop.
+ */
+export const POPUNDER_COOLDOWN_MS = 6 * 60 * 60 * 1000;
+
+/**
+ * sessionStorage flag marking that this tab session was already served a
+ * popunder. One per session, regardless of the cooldown: a reader who is
+ * actively working through notes must never meet a second one.
+ */
+export const POPUNDER_SESSION_KEY = 'sr:pu:session';
 
 /** localStorage key holding the last popunder timestamp. */
 export const POPUNDER_STORAGE_KEY = 'sr:pu:ts';

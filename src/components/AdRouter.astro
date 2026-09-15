@@ -28,6 +28,7 @@ import {
     MONETAG_POPUNDER_ZONE,
     MONETAG_POPUNDER_DEDICATED_ENABLED,
     POPUNDER_COOLDOWN_MS,
+    POPUNDER_SESSION_KEY,
     POPUNDER_STORAGE_KEY,
     VISITOR_GEO_STORAGE_KEY,
     CONSENT_RESTRICTED_GEOS,
@@ -53,6 +54,7 @@ const config = {
     popunderZoneEnabled: MONETAG_POPUNDER_DEDICATED_ENABLED,
     cooldownMs: POPUNDER_COOLDOWN_MS,
     pubKey: POPUNDER_STORAGE_KEY,
+    sessionKey: POPUNDER_SESSION_KEY,
     geoKey: VISITOR_GEO_STORAGE_KEY,
     pageGeo: String(pageGeo || '').toUpperCase(),
     restricted: CONSENT_RESTRICTED_GEOS,
@@ -94,8 +96,17 @@ const js = `
 
     // ---- invalid-traffic guard --------------------------------------------
     // Declared crawlers receive no ad loaders at all. See src/lib/ads.ts.
+    // WebDriver automation is refused too: a headless browser that runs JS looks
+    // like a human to the UA regex, but its impressions are worthless to the
+    // buyer and suppressed-quality traffic is what drags a zone's CPM down.
+    // Real users are unaffected - navigator.webdriver is only set under
+    // WebDriver/CDP automation (Selenium, Puppeteer, Playwright).
     if (new RegExp(cfg.crawlerSrc, cfg.crawlerFlags).test(navigator.userAgent || '')) {
         state.reason = 'crawler';
+        return;
+    }
+    if (navigator.webdriver === true) {
+        state.reason = 'automation';
         return;
     }
     state.reason = 'eligible';
@@ -226,20 +237,27 @@ const js = `
         gate();
     }
 
-    // ---- 3. PopUnder: 12 h cap, interactions first, consent-aware ---------
+    // ---- 3. PopUnder: 1 per session, 6 h floor, interactions first ---------
     var popTimer = null;
 
     function lastPopunder() {
         try { return parseInt(w.localStorage.getItem(cfg.pubKey) || '0', 10) || 0; } catch (e) { return 0; }
     }
+    // One popunder per tab session is the UX rule; the 6 h floor (cfg.cooldownMs)
+    // is the cross-session backstop. Both must pass.
+    function sessionHadPopunder() {
+        try { return w.sessionStorage.getItem(cfg.sessionKey) === '1'; } catch (e) { return false; }
+    }
     function markPopunder() {
         try { w.localStorage.setItem(cfg.pubKey, String(Date.now())); } catch (e) {}
+        try { w.sessionStorage.setItem(cfg.sessionKey, '1'); } catch (e) {}
     }
 
     function decidePopunder() {
         if (state.popunder || state.popunderSkipped === 'loaded') return;
         if (!cfg.allowPopunder) { state.popunderSkipped = 'disabled'; return; }
         if (!cfg.popunderZoneEnabled) { state.popunderSkipped = 'zone-not-serving'; return; }
+        if (sessionHadPopunder()) { state.popunderSkipped = 'session-cap'; return; }
         if (geoRestricted() && !(consentInfo().state === 'granted' && consentInfo().ads)) {
             // EEA/UK/CH without a granted decision: no intrusive format.
             state.popunderSkipped = 'consent-region';
@@ -263,6 +281,7 @@ const js = `
         if (popTimer) { clearTimeout(popTimer); popTimer = null; }
         if (state.popunder) return;
         if (!cfg.popunderZoneEnabled) { state.popunderSkipped = 'zone-not-serving'; return; }
+        if (sessionHadPopunder()) { state.popunderSkipped = 'session-cap'; return; }
         var elapsed = Date.now() - lastPopunder();
         if (elapsed < cfg.cooldownMs) {
             state.popunderSkipped = 'cooldown';

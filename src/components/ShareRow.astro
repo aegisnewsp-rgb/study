@@ -1,0 +1,125 @@
+---
+/**
+ * ShareRow — student-to-student distribution surface.
+ *
+ * Why this exists: the site had NO share affordance anywhere (2026-09-15), which
+ * is the whole of "social media optimisation" that is possible without accounts.
+ * Students revising together share links constantly, and WhatsApp is the dominant
+ * channel in all three of our main markets (IN, NG, PK), with Telegram close
+ * behind for exam prep specifically.
+ *
+ * Deliberate design constraints:
+ *  - No third-party scripts, no SDKs, no widgets. Plain anchors plus one small
+ *    delegated click handler for copy-link, so there is nothing to add to the CSP
+ *    and nothing to consent to. Sharing must not cost the reader privacy.
+ *  - No tracking parameters on outbound links. We do not need to know who shared
+ *    what, and adding utm tags would only clutter the recipient's view.
+ *  - Server-rendered hrefs, so it works with JS disabled and crawlers see real
+ *    links. JS only upgrades the copy button.
+ *  - Labels are plain and specific ("Share on WhatsApp"), never "Share it!".
+ */
+interface Props {
+    url: string;
+    title: string;
+    /** Short description used by the channel preview where the platform accepts one. */
+    summary?: string;
+}
+
+const { url, title, summary } = Astro.props as Props;
+
+const encoded = encodeURIComponent(url);
+const text = encodeURIComponent(summary ? `${title} — ${summary}` : title);
+
+const channels = [
+    {
+        id: 'whatsapp',
+        label: 'WhatsApp',
+        href: `https://wa.me/?text=${text}%20${encoded}`,
+        hint: 'Share on WhatsApp',
+    },
+    {
+        id: 'telegram',
+        label: 'Telegram',
+        href: `https://t.me/share/url?url=${encoded}&text=${text}`,
+        hint: 'Share on Telegram',
+    },
+    {
+        id: 'x',
+        label: 'X',
+        href: `https://twitter.com/intent/tweet?url=${encoded}&text=${text}`,
+        hint: 'Share on X',
+    },
+    {
+        id: 'facebook',
+        label: 'Facebook',
+        href: `https://www.facebook.com/sharer/sharer.php?u=${encoded}`,
+        hint: 'Share on Facebook',
+    },
+    {
+        id: 'linkedin',
+        label: 'LinkedIn',
+        href: `https://www.linkedin.com/sharing/share-offsite/?url=${encoded}`,
+        hint: 'Share on LinkedIn',
+    },
+];
+---
+
+<div class="share-row my-8 rounded-lg border border-surface-200 dark:border-surface-700 px-4 py-3" data-share-root>
+    <div class="flex flex-wrap items-center gap-x-3 gap-y-2">
+        <span class="text-sm font-medium text-surface-600 dark:text-surface-300">Share this page</span>
+        {channels.map((c) => (
+            <a
+                href={c.href}
+                class="share-link text-sm text-brand-600 dark:text-brand-400 hover:underline"
+                rel="nofollow noopener"
+                target="_blank"
+                data-share={c.id}
+                aria-label={c.hint}
+                title={c.hint}
+            >{c.label}</a>
+        ))}
+        <button
+            type="button"
+            class="share-copy text-sm text-surface-600 dark:text-surface-300 hover:underline"
+            data-share-url={url}
+            aria-label="Copy link to this page"
+        >Copy link</button>
+        <span class="share-status text-sm text-green-700 dark:text-green-400" role="status" aria-live="polite"></span>
+    </div>
+</div>
+
+<script>
+    // Progressive enhancement only: the anchors above already work. This runs once
+    // and delegates, so it survives any client-side navigation and cannot leak a
+    // listener per share row.
+    document.addEventListener('click', async (event) => {
+        const button = (event.target as HTMLElement | null)?.closest?.('.share-copy');
+        if (!button) return;
+        const value = button.getAttribute('data-share-url') || location.href;
+        const status = button.parentElement?.querySelector('.share-status');
+        try {
+            await navigator.clipboard.writeText(value);
+            if (status) status.textContent = 'Link copied';
+            window.setTimeout(() => {
+                if (status) status.textContent = '';
+            }, 2000);
+        } catch {
+            // Clipboard is unavailable on insecure origins and in some embedded
+            // webviews. Fall back to a selection the reader can copy by hand.
+            const input = document.createElement('input');
+            input.value = value;
+            document.body.appendChild(input);
+            input.select();
+            try {
+                document.execCommand('copy');
+                if (status) status.textContent = 'Link copied';
+            } catch {
+                if (status) status.textContent = 'Copy the address bar link';
+            }
+            input.remove();
+            window.setTimeout(() => {
+                if (status) status.textContent = '';
+            }, 2000);
+        }
+    });
+</script>

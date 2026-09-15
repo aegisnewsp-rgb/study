@@ -5,6 +5,7 @@ import path from 'node:path';
 import Layout from '@layouts/Layout.astro';
 import Navbar from '@components/Navbar.astro';
 import Footer from '@components/Footer.astro';
+import ShareRow from '@components/ShareRow.astro';
 import { isLowValueNote, isGoodNote, isIndexableExamHub, duplicateNoteIds } from '@data/note-quality';
 import { ALL_EXAMS, getCountryFlag } from '@data/exams';
 import { EXAM_EQUIVALENTS } from '@data/exam-equivalents';
@@ -295,6 +296,11 @@ const articleJsonLd = {
             <span aria-hidden="true">·</span>
             <span>⏱️ {readingTimeMinutes} min read ({wordCount} words)</span>
           </div>
+          <ShareRow
+            url={new URL(Astro.url.pathname, Astro.site).href}
+            title={`${topicName} — ${examMeta?.examName || exam.toUpperCase()} notes`}
+            summary={`${weight}% exam weight, ${readingTimeMinutes} min read on StudyRoadmap`}
+          />
           <!-- Tier selector -->
           <div class="not-prose mb-6 p-1 bg-surface-100 dark:bg-surface-800 rounded-xl flex sm:inline-flex flex-wrap sm:flex-nowrap gap-0.5 w-full sm:w-auto" id="tier-selector" role="tablist" aria-label="Study depth selector">
             <button type="button" role="tab" id="btn-lite" onclick="switchTier('lite')" class="tier-btn flex-1 sm:flex-initial px-3 sm:px-4 py-2 text-xs sm:text-sm font-medium rounded-lg transition-all duration-200" data-tier="lite" aria-selected="false">

@@ -2,6 +2,7 @@
 import Layout from '../../layouts/Layout.astro';
 import Navbar from '../../components/Navbar.astro';
 import Footer from '../../components/Footer.astro';
+import ShareRow from '../../components/ShareRow.astro';
 import ExamReadinessIsland from '../../components/ExamReadinessIsland';
 import { ALL_EXAMS, getCountryFlag } from '../../data/exams';
 import { EXAM_FAQS } from '../../data/exam-faqs';
@@ -616,6 +617,11 @@ const discontinuedNotice = DISCONTINUED_EXAMS[exam.examId];
             </p>
           </div>
         </div>
+        <ShareRow
+          url={new URL(Astro.url.pathname, Astro.site).href}
+          title={`${examName} ${currentYear} — complete exam guide`}
+          summary="Syllabus, weightage and a free study roadmap"
+        />
 
         {fullDescription && (
           <p class="text-surface-700 dark:text-surface-300 text-base sm:text-lg leading-relaxed max-w-4xl mb-7 font-normal">

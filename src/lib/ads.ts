@@ -42,7 +42,14 @@ export const MONETAG_TAG_SRC = 'https://quge5.com/88/tag.min.js';
  *                                                         never request, so its
  *                                                         zero impressions are
  *                                                         EXPECTED, not a fault
- *   11799057  Talented tag  Vignette Banner      standalone, not yet wired
+ *   11799057  Talented tag  Vignette Banner      standalone, DELIBERATELY NOT WIRED
+ *                                                          (2026-09-15): the
+ *                                                          container already
+ *                                                          serves a vignette
+ *                                                          (11798845), so one
+ *                                                          tag covers it and the
+ *                                                          extra request + CSP
+ *                                                          surface buys nothing
  *   11805678  standalone    OnClick (Popunder)   12 h cap
  */
 export const MONETAG_MULTITAG_ZONE = 280401;

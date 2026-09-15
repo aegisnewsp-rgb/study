@@ -1,6 +1,7 @@
 ---
 import '../styles/global.css';
 import AdRouter from '../components/AdRouter.astro';
+import ConsentManager from '../components/ConsentManager.astro';
 import { MONETAG_SITE_ID, adEligible } from '../lib/ads';
 
 interface FAQItem {
@@ -93,8 +94,19 @@ const pageGeo = (geoRegion || '').toUpperCase();
              on 2026-09-15. The site-verification meta tag stays on every page (ownership
              signal); every ad loader is withheld on 404, noindex, and policy/tool pages. -->
         <meta name="monetag" content={MONETAG_SITE_ID} />
-        <!-- Monetag: MultiTag everywhere + 12h-capped popunder, country-aware, crawler-guarded.
-             All decisions and constants live in src/lib/ads.ts + components/AdRouter.astro. -->
+        <!-- Consent first: ConsentManager publishes window.__SR_CONSENT, which
+             AdRouter reads to decide whether it may load anything at all in
+             EEA/UK/CH. Order matters — AdRouter must never run before the
+             consent decision exists.
+             It renders on every page, including the ad-excluded ones: consent is
+             a site-wide question (and /privacy/ must be able to reopen the
+             preferences modal), whereas only its ad consequence depends on
+             `adsAllowed`. The CMP payload is still fetched only in restricted
+             regions, so non-EEA visitors pay nothing for this. -->
+        <ConsentManager />
+        <!-- Monetag: MultiTag everywhere + 12h-capped popunder, country-aware, crawler-guarded,
+             consent-gated in EEA/UK/CH. All decisions and constants live in
+             src/lib/ads.ts + src/lib/consent.ts + components/AdRouter.astro. -->
         <AdRouter enabled={adsAllowed} pageGeo={pageGeo} popunder />
 
         <!-- Google Analytics 4 — Consent Mode v2 defaults BEFORE gtag loads (BUG-061/062).
@@ -139,6 +151,45 @@ const pageGeo = (geoRegion || '').toUpperCase();
                 } else {
                     setTimeout(loadGtag, 2000);
                 }
+            })();
+        </script>
+
+        <!-- Umami — self-hosted, cookieless, first-party analytics served from
+             our own origin (/u.js, same server as the site). It replaces nothing
+             but gives us a measurement source that is fully under our control —
+             which matters because GA4 is consent-limited in the EEA and ad-blocked
+             elsewhere. Loaded only once the consent decision allows analytics, so
+             a visitor who rejects is not measured at all; no cookies, no cross-site
+             identifiers, no third party. Idle-deferred like every other tag (BUG-104). -->
+        <script is:inline>
+            (function () {
+                var WEBSITE_ID = 'dd531acb-e228-4b9b-b99b-e044c0371e24';
+                function allowed() {
+                    var c = window.__SR_CONSENT;
+                    return !!(c && c.analytics);
+                }
+                function load() {
+                    if (!allowed() || document.getElementById('sr-umami')) return;
+                    var s = document.createElement('script');
+                    s.id = 'sr-umami';
+                    s.async = true;
+                    s.defer = true;
+                    s.src = '/u.js';
+                    s.setAttribute('data-website-id', WEBSITE_ID);
+                    s.setAttribute('data-do-not-track', 'true');
+                    s.setAttribute('data-performance', 'true');
+                    document.head.appendChild(s);
+                }
+                window.addEventListener('sr:consent', load, { passive: true });
+                function schedule() {
+                    if ('requestIdleCallback' in window) {
+                        requestIdleCallback(load, { timeout: 3500 });
+                    } else {
+                        setTimeout(load, 2500);
+                    }
+                }
+                if (document.readyState === 'complete') schedule();
+                else window.addEventListener('load', schedule, { once: true });
             })();
         </script>
 

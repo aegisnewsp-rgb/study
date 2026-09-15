@@ -1,0 +1,16 @@
+# Vendored third-party assets — self-hosted, no CDN at runtime.
+#
+# vanilla-cookieconsent 3.1.0 (MIT) — https://github.com/orestbida/cookieconsent
+# npm: vanilla-cookieconsent@3.1.0  (NOT the `cookieconsent` package: that name
+#       still points at the 2.x line, whose API has no `acceptedCategory`,
+#       `onFirstConsent` or opt-in `categories`. Fetching "3.1.1" from that name
+#       yields a 2.x bundle that silently never fires our callbacks — verified
+#       and corrected 2026-09-15.)
+#
+# Source URLs:
+#   https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3.1.0/dist/cookieconsent.umd.js
+#   https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3.1.0/dist/cookieconsent.css
+#
+# npm registry integrity (tarball): sha512-/McNRtm/3IXzb9dhqMIcbquoU45SzbN2VB+To4jxEPqMmp7uVniP6BhGLjU8MC7ZCDsNQVOp27fhQTM/ruIXAA==
+bc6e2f2e6381fc025b27a6b0afb5a0e1fc689c6f9fc40a78708adb2054ef4575  cookieconsent.umd.js
+ca046b8b1b1094107205988e7096a687b241c8ef5f3fefe5e543ed28d26646c1  cookieconsent.css

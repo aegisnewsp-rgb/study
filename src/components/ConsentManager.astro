@@ -1,0 +1,309 @@
+---
+/**
+ * ConsentManager — GDPR/ePrivacy consent collection for EEA/UK/CH visitors.
+ *
+ * Design notes (why this is not just "drop a CMP on every page"):
+ *
+ *  1. **Lazy by region.** The CMP's JS+CSS (~8 KB gzipped) is fetched only when
+ *     the visitor's country actually requires consent. Core markets (IN, PK,
+ *     NG, KE, …) never download it and see no banner — no UX cost, no CWV cost.
+ *  2. **Crawler-safe.** Declared crawlers get no banner and no CMP payload, so
+ *     Playwright journeys, the ad review and SEO audits stay deterministic.
+ *  3. **Fail-closed.** If the geo lookup or the CMP script fails, the decision
+ *     stays `unknown` and AdRouter loads nothing in a restricted region. A
+ *     failed consent system must never become an unconsented ad load.
+ *  4. **One decision contract.** The result is published on
+ *     `window.__SR_CONSENT`, persisted to localStorage, pushed into gtag
+ *     Consent Mode v2, and emitted as an `sr:consent` event — so the ad layer,
+ *     analytics and the QA jobs all read the same truth.
+ */
+import { CONSENT_RESTRICTED_GEOS, CRAWLER_UA_RE, VISITOR_GEO_STORAGE_KEY } from '../lib/ads';
+import {
+    CONSENT_CATEGORIES,
+    CONSENT_STORAGE_KEY,
+    CONSENT_VERSION,
+} from '../lib/consent';
+
+interface Props {
+    /** Build-time kill switch: matches the ad eligibility decision. */
+    enabled?: boolean;
+}
+
+const { enabled = true } = Astro.props;
+
+const config = {
+    version: CONSENT_VERSION,
+    storageKey: CONSENT_STORAGE_KEY,
+    geoKey: VISITOR_GEO_STORAGE_KEY,
+    categories: CONSENT_CATEGORIES,
+    restricted: CONSENT_RESTRICTED_GEOS,
+    cssHref: '/vendor/cookieconsent/cookieconsent.css',
+    jsSrc: '/vendor/cookieconsent/cookieconsent.umd.js',
+    crawlerSrc: CRAWLER_UA_RE.source,
+    crawlerFlags: CRAWLER_UA_RE.flags,
+};
+
+const js = `
+(function () {
+    var cfg = ${JSON.stringify(config)};
+    var d = document, w = window;
+
+    // ---- published decision contract (AdRouter + QA read this) -------------
+    var state = (w.__SR_CONSENT = {
+        state: 'unknown',
+        required: false,
+        ads: false,
+        analytics: false,
+        geo: '',
+        via: '',
+        version: cfg.version
+    });
+
+    function publish(level, data) {
+        state.state = level;
+        state.ads = !!data.ads;
+        state.analytics = !!data.analytics;
+        state.geo = data.geo || state.geo;
+        state.via = data.via || '';
+        try { d.documentElement.setAttribute('data-sr-consent', level); } catch (e) {}
+        try {
+            w.dispatchEvent(new CustomEvent('sr:consent', {
+                detail: { state: level, ads: state.ads, analytics: state.analytics, geo: state.geo, via: state.via }
+            }));
+        } catch (e) {}
+    }
+
+    function store(ads, analytics, geo, via) {
+        var rec = {
+            v: cfg.version,
+            level: ads && analytics ? 'granted' : (!ads && !analytics ? 'denied' : 'partial'),
+            ads: !!ads,
+            analytics: !!analytics,
+            ts: new Date().toISOString(),
+            geo: geo || '',
+            via: via || 'banner'
+        };
+        try { w.localStorage.setItem(cfg.storageKey, JSON.stringify(rec)); } catch (e) {}
+        return rec;
+    }
+
+    function readStored() {
+        try {
+            var raw = w.localStorage.getItem(cfg.storageKey);
+            if (!raw) return null;
+            var p = JSON.parse(raw);
+            if (!p || p.v !== cfg.version) return null;
+            return p;
+        } catch (e) { return null; }
+    }
+
+    // Only a decision the visitor actually made can be replayed. A record written
+    // outside a restricted region ('assumed-non-eu') is an inference, not consent:
+    // applying it to someone now in the EEA would be exactly the unconsented ad
+    // load this component exists to prevent - e.g. a traveller, or a VPN switch.
+    // (No backticks anywhere below: this whole body is a JS template literal, and
+    // one stray backtick in a comment silently ends the string - the same way an
+    // inline '//' once killed the Monetag loader.)
+    function isExplicit(rec) {
+        return !!rec && (rec.via === 'banner' || rec.via === 'opt-out');
+    }
+
+    // ---- opt-outs. Never show a banner to someone who opted out of ads. ----
+    try {
+        if (w.SR_ADS_OFF || w.localStorage.getItem('sr:ads:off') === '1') {
+            publish('denied', { ads: false, analytics: false, via: 'opt-out' });
+            return;
+        }
+    } catch (e) {}
+    if (w.location.search.indexOf('noads=1') !== -1) {
+        publish('denied', { ads: false, analytics: false, via: 'opt-out' });
+        return;
+    }
+
+    // ---- crawlers: no banner, no CMP payload ------------------------------
+    if (new RegExp(cfg.crawlerSrc, cfg.crawlerFlags).test(navigator.userAgent || '')) {
+        publish('denied', { ads: false, analytics: false, via: 'crawler' });
+        return;
+    }
+
+    // ---- gtag consent plumbing -------------------------------------------
+    function gtagConsent(ads, analytics) {
+        try {
+            var f = w.gtag;
+            if (typeof f !== 'function') return;
+            f('consent', 'update', {
+                ad_storage: ads ? 'granted' : 'denied',
+                ad_user_data: ads ? 'granted' : 'denied',
+                ad_personalization: ads ? 'granted' : 'denied',
+                analytics_storage: analytics ? 'granted' : 'denied'
+            });
+        } catch (e) {}
+    }
+
+    function apply(rec) {
+        publish(rec.level, rec);
+        gtagConsent(rec.ads, rec.analytics);
+    }
+
+    // ---- load the CMP only when a banner is actually needed ---------------
+    function loadCmp(cb) {
+        if (w.CookieConsent) return cb();
+        if (!d.getElementById('sr-cc-css')) {
+            var l = d.createElement('link');
+            l.id = 'sr-cc-css';
+            l.rel = 'stylesheet';
+            l.href = cfg.cssHref;
+            d.head.appendChild(l);
+        }
+        var s = d.createElement('script');
+        s.id = 'sr-cc-js';
+        s.async = true;
+        s.src = cfg.jsSrc;
+        s.onload = cb;
+        // Fail-closed: if the CMP cannot load we leave the decision at
+        // 'unknown', which keeps ads off in a restricted region.
+        s.onerror = function () { publish('unknown', { ads: false, analytics: false, via: 'cmp-load-failed' }); };
+        d.head.appendChild(s);
+    }
+
+    function showBanner(geo) {
+        loadCmp(function () {
+            var CC = w.CookieConsent;
+            if (!CC || typeof CC.run !== 'function') {
+                publish('unknown', { ads: false, analytics: false, via: 'cmp-missing' });
+                return;
+            }
+            CC.run({
+                mode: 'opt-in',
+                revision: cfg.version,
+                autoShow: true,
+                autoClearCookies: true,
+                disablePageInteraction: false,
+                guiOptions: {
+                    consentModal: {
+                        layout: 'box inline',
+                        position: 'bottom left',
+                        equalWeightButtons: false,
+                        flipButtons: false
+                    },
+                    preferencesModal: { layout: 'box', position: 'right' }
+                },
+                categories: {
+                    necessary: { enabled: true, readOnly: true },
+                    ads: { enabled: false, readOnly: false },
+                    analytics: { enabled: false, readOnly: false }
+                },
+                language: {
+                    default: 'en',
+                    translations: {
+                        en: {
+                            consentModal: {
+                                title: 'We use cookies',
+                                description: 'StudyRoadmap uses cookies for advertising and to understand which study pages help students most. You can accept, reject, or choose categories.',
+                                acceptAllBtn: 'Accept all',
+                                acceptNecessaryBtn: 'Reject all',
+                                showPreferencesBtn: 'Manage preferences'
+                            },
+                            preferencesModal: {
+                                title: 'Cookie preferences',
+                                acceptAllBtn: 'Accept all',
+                                acceptNecessaryBtn: 'Reject all',
+                                savePreferencesBtn: 'Save preferences',
+                                closeIconLabel: 'Close',
+                                sections: [
+                                    { title: 'Strictly necessary', description: 'Required for the site to work (theme preference and your cookie choice). These cannot be switched off.', linkedCategory: 'necessary' },
+                                    { title: 'Advertising', description: 'Used to show ads that fund the free study material, and to limit how often you see the same ad.', linkedCategory: 'ads' },
+                                    { title: 'Analytics', description: 'Aggregated, anonymous statistics about which exams and notes are most useful.', linkedCategory: 'analytics' }
+                                ]
+                            }
+                        }
+                    }
+                },
+                onFirstConsent: function (p) {
+                    var c = (p && p.cookie) || {};
+                    var rec = store(c.categories && c.categories.indexOf('ads') !== -1,
+                                    c.categories && c.categories.indexOf('analytics') !== -1,
+                                    geo, 'banner');
+                    apply(rec);
+                },
+                onChange: function () {
+                    var CC2 = w.CookieConsent;
+                    var ads = !!(CC2 && CC2.acceptedCategory && CC2.acceptedCategory('ads'));
+                    var an = !!(CC2 && CC2.acceptedCategory && CC2.acceptedCategory('analytics'));
+                    apply(store(ads, an, geo, 'banner'));
+                }
+            });
+        });
+    }
+
+    // ---- resolve visitor country, then decide ------------------------------
+    var settled = false;
+
+    function decide(cc) {
+        if (settled) return;
+        settled = true;
+        cc = (cc || '').toUpperCase();
+        if (/^[A-Z]{2}$/.test(cc)) state.geo = cc;
+
+        var stored = readStored();
+
+        // Cloudflare's /cdn-cgi/trace is the same first-party signal AdRouter
+        // already uses; no third-party lookup, nothing cached across sites.
+        if (!cc) {
+            // Geo unknown: fall back to an explicit stored decision if we have
+            // one, else fail closed (no ads) rather than assume the visitor is
+            // outside the EEA.
+            if (isExplicit(stored)) return apply(stored);
+            return publish('unknown', { ads: false, analytics: false, via: 'geo-unknown' });
+        }
+
+        var restricted = cfg.restricted.indexOf(cc) !== -1;
+        state.required = restricted;
+
+        if (!restricted) {
+            // Outside EEA/UK/CH: no consent obligation for this traffic, so
+            // behaviour is exactly as before this feature existed. An explicit
+            // earlier decision is still honoured (a visitor who rejected stays
+            // rejected wherever they browse from).
+            if (isExplicit(stored)) return apply(stored);
+            return apply(store(true, true, cc, 'assumed-non-eu'));
+        }
+
+        if (isExplicit(stored)) return apply(stored);
+        showBanner(cc);
+    }
+
+    // Allow the privacy page (and QA) to reopen preferences on demand.
+    w.srOpenConsent = function () {
+        loadCmp(function () {
+            if (w.CookieConsent && w.CookieConsent.showPreferences) w.CookieConsent.showPreferences();
+        });
+    };
+
+    var cached = '';
+    try { cached = w.sessionStorage.getItem(cfg.geoKey) || ''; } catch (e) {}
+    if (cached) decide(cached);
+
+    if (w.fetch) {
+        w.fetch('/cdn-cgi/trace', { credentials: 'omit' })
+            .then(function (r) { return r.text(); })
+            .then(function (t) {
+                var m = /(?:^|\\n)loc=([A-Za-z]{2})/.exec(t);
+                var cc = m ? m[1].toUpperCase() : '';
+                if (cc) { try { w.sessionStorage.setItem(cfg.geoKey, cc); } catch (e) {} }
+                decide(cc);
+            })
+            .catch(function () { decide(''); });
+    } else {
+        decide('');
+    }
+})();
+`;
+
+---
+
+{
+    enabled && (
+        <script is:inline set:html={js} />
+    )
+}

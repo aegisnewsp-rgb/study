@@ -33,7 +33,11 @@ fi
 
 # Layout.astro: Organization schema honesty (AdSense 2026-08-25; "100+ countries" claim).
 # .gitignore: ignore local Grok workflow dir like .claude/
-allowed_re='^(src/content/|src/content\.config\.ts|src/data/|src/pages/|src/components/|src/layouts/Layout\.astro|public/|scripts/|skills/|LOCKED_FILES\.txt|CLAUDE\.md|CLAUDE\.local\.md|news\.json|improvement-backlog.*\.md|heartbeat-log\.md|BUG-LIST\.md|docs/|\.gitignore|nginx\.conf)'
+# src/lib/: ad + consent POLICY modules (ads.ts, consent.ts) — the single source of
+#   truth for what loads for whom. Added 2026-09-15 with the EEA/UK/CH consent
+#   manager, because the guard's target is UI/layout/build-config drift, not the
+#   policy layer that Layout/AdRouter import. Reviewed in that same change set.
+allowed_re='^(src/content/|src/content\.config\.ts|src/data/|src/lib/|src/pages/|src/components/|src/layouts/Layout\.astro|public/|scripts/|skills/|LOCKED_FILES\.txt|CLAUDE\.md|CLAUDE\.local\.md|news\.json|improvement-backlog.*\.md|heartbeat-log\.md|BUG-LIST\.md|docs/|\.gitignore|nginx\.conf)'
 if out_of_scope=$(grep -Ev "$allowed_re" /tmp/sr_changed_files.txt); then
   if [ -n "$out_of_scope" ]; then
     echo "BLOCKED: out-of-scope files modified:"

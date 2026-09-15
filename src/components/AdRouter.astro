@@ -9,8 +9,12 @@
  *   4. Resolve visitor country from Cloudflare's first-party /cdn-cgi/trace
  *      and combine it with the page's own country (derived from exam data) to
  *      decide which formats are acceptable.
- *   5. Withhold the intrusive format in EEA/UK/CH, where gtag consent keeps
- *      `ad_personalization` denied.
+ *   5. In EEA/UK/CH, load nothing until the visitor grants consent through the
+ *      CMP (`window.__SR_CONSENT`). A *granted* decision now unlocks the full
+ *      surface including the popunder — previously that format was withheld
+ *      from every EU visitor, consenting or not, which cost revenue without
+ *      buying compliance (the MultiTag still loaded). A *denied* decision
+ *      loads nothing at all.
  *   6. Tag AI answer-engine referrals (a human who clicked a citation in
  *      ChatGPT/Perplexity/Copilot/Gemini/Claude) for attribution. AI *crawlers*
  *      are still refused in step 3 — only the referring human is monetized.
@@ -65,6 +69,7 @@ const js = `
         reason: 'init',
         pageGeo: cfg.pageGeo || '',
         visitorGeo: '',
+        consent: 'unknown',
         multitag: false,
         popunder: false,
         popunderSkipped: '',
@@ -135,22 +140,66 @@ const js = `
         d.head.appendChild(s);
     }
 
-    // ---- 1. MultiTag: every ad-eligible page, every country ---------------
-    idle(function () {
-        load('sr-monetag', cfg.multitag);
-        state.multitag = true;
-    }, 3500);
+    // ---- consent bridge ----------------------------------------------------
+    // ConsentManager publishes the decision on window.__SR_CONSENT and emits
+    // 'sr:consent'. Until it settles the value is 'unknown', which must NOT be
+    // treated as permission in a restricted region.
+    function consentInfo() {
+        var c = w.__SR_CONSENT;
+        return { state: (c && c.state) || 'unknown', ads: !!(c && c.ads) };
+    }
+
+    function geoRestricted() {
+        return !!(state.visitorGeo && cfg.restricted.indexOf(state.visitorGeo) !== -1);
+    }
+
+    var started = false;
+
+    // ---- 1. MultiTag: every ad-eligible page, subject to consent ----------
+    function startAds() {
+        if (started) return;
+        started = true;
+        state.reason = 'eligible';
+        idle(function () {
+            load('sr-monetag', cfg.multitag);
+            state.multitag = true;
+        }, 3500);
+        decidePopunder();
+    }
+
+    function gate() {
+        var ci = consentInfo();
+        state.consent = ci.state;
+
+        if (!state.visitorGeo) {
+            // Country unknown. Only an explicit grant is enough to proceed;
+            // otherwise stay pending rather than assume the visitor is outside
+            // the EEA (failing open here would be an unconsented load).
+            if (ci.state === 'granted' && ci.ads) return startAds();
+            state.reason = 'consent-pending';
+            return;
+        }
+        if (!geoRestricted()) return startAds();
+        if (ci.state === 'granted' && ci.ads) return startAds();
+        if (ci.state === 'denied') {
+            state.reason = 'consent-denied';
+            return;
+        }
+        state.reason = 'consent-pending';
+    }
+
+    try { w.addEventListener('sr:consent', gate, { passive: true }); } catch (e) {}
 
     // ---- 2. visitor country (first-party CDN trace, session-cached) -------
     function applyGeo(cc) {
         cc = (cc || '').toUpperCase();
-        if (!/^[A-Z]{2}$/.test(cc)) return;
+        if (!/^[A-Z]{2}$/.test(cc)) { gate(); return; }
         state.visitorGeo = cc;
         try { d.documentElement.setAttribute('data-sr-visitor-geo', cc); } catch (e) {}
         try {
             w.dispatchEvent(new CustomEvent('sr:geo', { detail: { visitor: cc, page: state.pageGeo } }));
         } catch (e) {}
-        decidePopunder();
+        gate();
     }
 
     try {
@@ -159,20 +208,20 @@ const js = `
     } catch (e) {}
 
     if (!state.visitorGeo && w.fetch) {
-        idle(function () {
-            if (state.visitorGeo) return;
-            w.fetch('/cdn-cgi/trace', { credentials: 'omit' })
-                .then(function (r) { return r.text(); })
-                .then(function (t) {
-                    var m = /(?:^|\\n)loc=([A-Za-z]{2})/.exec(t);
-                    var cc = m ? m[1].toUpperCase() : '';
-                    if (cc) {
-                        try { w.sessionStorage.setItem(cfg.geoKey, cc); } catch (e) {}
-                    }
-                    applyGeo(cc);
-                })
-                .catch(function () { decidePopunder(); });
-        }, 1200);
+        w.fetch('/cdn-cgi/trace', { credentials: 'omit' })
+            .then(function (r) { return r.text(); })
+            .then(function (t) {
+                if (state.visitorGeo) return;
+                var m = /(?:^|\\n)loc=([A-Za-z]{2})/.exec(t);
+                var cc = m ? m[1].toUpperCase() : '';
+                if (cc) {
+                    try { w.sessionStorage.setItem(cfg.geoKey, cc); } catch (e) {}
+                }
+                applyGeo(cc);
+            })
+            .catch(function () { gate(); });
+    } else if (!state.visitorGeo) {
+        gate();
     }
 
     // ---- 3. PopUnder: 12 h cap, interactions first, consent-aware ---------
@@ -188,8 +237,8 @@ const js = `
     function decidePopunder() {
         if (state.popunder || state.popunderSkipped === 'loaded') return;
         if (!cfg.allowPopunder) { state.popunderSkipped = 'disabled'; return; }
-        if (state.visitorGeo && cfg.restricted.indexOf(state.visitorGeo) !== -1) {
-            // EEA/UK/CH: ad_personalization stays denied, so no intrusive format.
+        if (geoRestricted() && !(consentInfo().state === 'granted' && consentInfo().ads)) {
+            // EEA/UK/CH without a granted decision: no intrusive format.
             state.popunderSkipped = 'consent-region';
             return;
         }
@@ -221,7 +270,7 @@ const js = `
         state.popunderSkipped = '';
     }
 
-    decidePopunder();
+    gate();
 })();
 `;
 

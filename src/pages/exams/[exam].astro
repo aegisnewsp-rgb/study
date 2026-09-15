@@ -35,6 +35,23 @@ const examSubjectNotes = new Set(
     .filter(([key, count]) => isIndexableSubjectHub(count, key.split('/')[0]))
     .map(([key]) => key),
 );
+// Display names for literal "Topic N" syllabus rows.
+//
+// 48 subject files still carry corrupt placeholder rows ({ id: 'mathem-001',
+// name: 'Topic 1' }) — real syllabus wording was never imported for them. Two
+// wrong options exist: render "Topic 1" (a placeholder leak straight into the
+// readiness tracker and the T17 index-hygiene gate) or drop the row (hides
+// genuinely authored notes). So resolve each placeholder against the note that
+// backs it: the note frontmatter already records the authoritative topicName.
+// Only when no note exists is the row dropped — at which point it has neither a
+// name nor content behind it.
+const noteTopicNames = new Map<string, string>();
+for (const n of allNotes) {
+  const d: any = n.data;
+  if (d?.exam && d?.subject && d?.topic && d?.topicName) {
+    noteTopicNames.set(`${d.exam}/${d.subject}/${d.topic}`, String(d.topicName));
+  }
+}
 
 export async function getStaticPaths() {
   return ALL_EXAMS
@@ -880,15 +897,28 @@ const discontinuedNotice = DISCONTINUED_EXAMS[exam.examId];
         client:idle
         examId={exam.examId}
         examName={examName}
-        subjects={subjectList.map((s: any) => ({
-          id: s.id || s.name.toLowerCase().replace(/[^a-z0-9]+/g, '-'),
-          name: s.name,
-          topics: (s.topics || []).map((t: any, idx: number) => ({
-            id: t.id || `${s.id || 'sub'}-${idx}`,
-            name: typeof t === 'string' ? t : (t.name || t.topicName || `Topic ${idx + 1}`),
-            weight: typeof t === 'object' ? t.weight : undefined,
-          })),
-        }))}
+        subjects={subjectList
+          .map((s: any) => {
+            const sid = s.id || s.name.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+            return {
+              id: sid,
+              name: s.name,
+              // Placeholders are renamed from their backing note, or dropped when
+              // nothing backs them — never rendered as "Topic N". See noteTopicNames.
+              topics: (s.topics || [])
+                .map((t: any, idx: number) => ({
+                  id: t.id || `${sid}-${idx}`,
+                  name: typeof t === 'string'
+                    ? t
+                    : isPlaceholderExamTopic(t)
+                      ? (noteTopicNames.get(`${exam.examId}/${sid}/${t.id}`) || '')
+                      : (t.name || t.topicName || ''),
+                  weight: typeof t === 'object' ? t.weight : undefined,
+                }))
+                .filter((t: any) => t.name),
+            };
+          })
+          .filter((s: any) => s.topics.length > 0)}
       />
     </div>
 

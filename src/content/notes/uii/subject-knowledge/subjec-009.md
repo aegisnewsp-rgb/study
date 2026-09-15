@@ -8,7 +8,7 @@ topicName: "Circles — Area, Circumference, Sectors"
 weight: 3
 country: indonesia
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-15"
 diagramPrompt: "Circle with radius r, showing centre O, diameter AB passing through O, chord CD not through centre, sector OAB with central angle theta, and arc AB"
 
 ---
@@ -18,108 +18,114 @@ diagramPrompt: "Circle with radius r, showing centre O, diameter AB passing thro
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Key Circle Vocabulary:**
-- Radius (r): distance from centre to any point on the circle
-- Diameter (d): 2r, passes through the centre
-- Circumference: the perimeter = 2πr = πd
-- Area: πr²
+A **circle** is the locus of points in a plane at a fixed distance *r* (the **radius**) from a **center** *O*. The **diameter** is *d = 2r*. Two results carry almost every UI Entrance numeric on this topic: the **circumference** (perimeter) and the **area enclosed**.
 
-**Sector of a circle:**
-- Arc length = (θ/360°) × 2πr (where θ is the central angle in degrees)
-- Sector area = (θ/360°) × πr²
-- If using radians: arc length = rθ, sector area = ½r²θ
+- **Circumference:** $C = 2\pi r$, where $r$ is the radius in metres (m); $C$ has dimension L (length).
+- **Area of circle:** $A = \pi r^{2}$, where $r$ is in m; $A$ has dimension L² (m²).
+- **Arc length** *s* with central angle *θ*: $s = r\theta$ when *θ* is in **radians**; $s = \dfrac{\theta}{360}\cdot 2\pi r$ when *θ* is in degrees.
+- **Sector area** with central angle *θ*: $A_{\text{sector}} = \tfrac{1}{2} r^{2}\theta$ (radians), or $A_{\text{sector}} = \dfrac{\theta}{360}\cdot \pi r^{2}$ (degrees).
 
-**Annulus (ring between two concentric circles):**
-- Area = π(R² − r²), where R is the outer radius and r is the inner radius
+> 💡 **High-Yield Memory Hook:** **"Two-Pi-R for the Rim, Pi-R-Squared for the Filling."** Rim (perimeter) → $2\pi r$ (linear). Filling (inside) → $\pi r^{2}$ (area). When the angle is in **radians**, arc length is just *r·θ* and sector area is *½ r²θ* — no fractions, no 360s.
 
-⚡ **Exam tip:** When asked for "the area of the shaded region," look for symmetry and complementary areas. Often the shaded region is the sector minus a triangle or circle.
-
-⚡ **Exam tip:** π ≈ 22/7 is useful for fraction-based questions; π ≈ 3.14 for decimal approximations. If the answer is left in terms of π, that's usually the expected form.
+| Quantity | Formula | SI unit | Dimension |
+|---|---|---|---|
+| Circumference | $C = 2\pi r$ | m | L |
+| Area (full disk) | $A = \pi r^{2}$ | m² | L² |
+| Arc length (rad) | $s = r\theta$ | m | L |
+| Sector area (rad) | $A = \tfrac{1}{2} r^{2}\theta$ | m² | L² |
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Arc Length and Sector Area — Working with Angles**
+#### Core definitions and notation
 
-The fraction of the circle a sector occupies equals θ/360°, where θ is the central angle. A 90° sector of a circle with radius 8 cm has area = (90/360) × π × 8² = (¼) × 64π = 16π cm² and arc length = (90/360) × 2π × 8 = 4π cm.
+Let *O* be the centre and let any point *P* on the circle satisfy $|OP| = r$. A **chord** is a straight line joining two points on the circle; a **diameter** is the longest chord through *O*; a **tangent** touches the circle at exactly one point and is perpendicular to the radius drawn to that point. An **arc** is the curved portion between two points, and a **sector** is the "pizza slice" bounded by two radii and the arc between them.
 
-For a semicircle (θ = 180°), area = ½πr² and arc length = πr (the curved part, not including diameter).
+#### Radian versus degree measure
 
-**Chords and the Perpendicular Bisector**
+Degrees measure a rotation as a fraction of one full turn; radians measure the same rotation as the ratio *arc length ÷ radius*. The conversion is:
 
-A chord's perpendicular bisector passes through the circle's centre. The distance d from the centre to a chord of length c is: d = √(r² − (c/2)²). A radius drawn to a chord's midpoint is perpendicular to the chord.
+$$\theta_{\text{rad}} = \theta_{\text{deg}}\cdot \dfrac{\pi}{180}, \qquad \theta_{\text{deg}} = \theta_{\text{rad}}\cdot \dfrac{180}{\pi}.$$
 
-If a circle has radius 10 cm and a chord is 12 cm long, the distance from centre to chord = √(100 − 36) = √64 = 8 cm.
+A full circle is $2\pi$ rad or 360°; a semicircle is $\pi$ rad or 180°; a quarter circle is $\tfrac{\pi}{2}$ rad or 90°. **Radian measure is dimensionless**, which is why $s = r\theta$ produces a length directly.
 
-**Tangent Properties**
+#### Formula derivation for the sector
 
-A tangent to a circle is perpendicular to the radius at the point of contact. Two tangents drawn from an external point to a circle are equal in length. If point P is outside a circle with centre O, and tangents PA and PB touch the circle at A and B, then PA = PB.
+A sector is a fraction $\tfrac{\theta}{2\pi}$ (rad) or $\tfrac{\theta}{360}$ (deg) of the whole disk. Multiplying this fraction by the total area $\pi r^{2}$ gives the sector area; multiplying by the total arc $2\pi r$ gives the arc length. This is why both formulas collapse to the clean radial forms $s = r\theta$ and $A = \tfrac{1}{2}r^{2}\theta$ in radians.
 
-**Segment of a Circle**
+#### Concept comparison matrix
 
-A segment is the region between a chord and its arc. Area of segment = sector area − triangle area (where the triangle has the chord as its base and the centre as its vertex).
+| Feature | Full circle | Sector (angle θ rad) | Segment (angle θ rad) |
+|---|---|---|---|
+| Boundary | one full arc | two radii + one arc | one chord + one arc |
+| Area formula | $\pi r^{2}$ | $\tfrac{1}{2}r^{2}\theta$ | $\tfrac{1}{2}r^{2}(\theta - \sin\theta)$ |
+| Perimeter formula | $2\pi r$ | $2r + r\theta$ | chord length + arc length |
+| Linear in θ? | n/a | yes (area) | yes (area) |
+| Requires subtracting triangle? | no | no | **yes** (isosceles triangle $A = \tfrac{1}{2}r^{2}\sin\theta$) |
 
-For a minor segment with chord length c subtending angle θ at centre:
-- Triangle area = ½r² sin θ
-- Segment area = ½r²(θ − sin θ) in radians, or using degrees: = (πr²θ/360) − (½r² sin(θ))
+#### Standard problem types in UI Entrance
 
-**Common Mistakes to Avoid:**
+1. Compute *C* or *A* given *r* (or vice versa); round to one decimal using $\pi = 22/7$ or $3.14$.
+2. Compute **arc length** given *r* and *θ* in degrees — convert to radians first if using $s = r\theta$.
+3. Compute **sector area** given *r* and *θ* in degrees — apply $A = \tfrac{\theta}{360}\cdot \pi r^{2}$.
+4. Find the **sector perimeter** = $2r + r\theta$ (rad) or $2r + \tfrac{\theta}{360}\cdot 2\pi r$ (deg).
+5. Identify the **segment** as the region between a chord and the minor arc, and subtract the triangle.
 
-| Mistake | Correct approach |
-|---------|-----------------|
-| Confusing arc length with sector area | Arc length is a length (units: cm); sector area is an area (units: cm²) |
-| Forgetting to convert angle to radians when required | Most circle formulae use degrees unless specified; check the formula |
-| Not drawing a radius to the point of tangency when solving tangent problems | The radius-to-tangent point is always perpendicular to the tangent |
-| Using diameter instead of radius in sector area formula | Area = πr², NOT πd²/4 (though they're mathematically equivalent, r² is simpler) |
+#### 🎯 Exam-Level Worked Problem
+
+**Question:** A circular sector has radius $r = 14$ cm and central angle $\theta = 60°$. Compute the **area of the sector** in cm² and the **perimeter of the sector** in cm. (Use $\pi = 22/7$.)
+
+#### Solution:
+
+- **Sector area** (degrees form): $A = \dfrac{\theta}{360}\cdot \pi r^{2} = \dfrac{60}{360}\cdot \dfrac{22}{7}\cdot (14)^{2}$.
+- Simplify: $\dfrac{60}{360} = \tfrac{1}{6}$; $(14)^{2} = 196$; $\tfrac{22}{7}\cdot 196 = 22\cdot 28 = 616$.
+- So $A = \tfrac{1}{6}\cdot 616 = \dfrac{308}{3} \approx 102.67$ cm².
+- **Arc length** (degrees form): $s = \dfrac{\theta}{360}\cdot 2\pi r = \tfrac{1}{6}\cdot 2\cdot \tfrac{22}{7}\cdot 14 = \tfrac{1}{6}\cdot 88 = \dfrac{44}{3} \approx 14.67$ cm.
+- **Sector perimeter** = two radii + arc length = $2r + s = 2(14) + \tfrac{44}{3} = 28 + \tfrac{44}{3} = \tfrac{84+44}{3} = \tfrac{128}{3} \approx 42.67$ cm.
+
+> ⚠️ **Examiner Trap:** A frequent error is treating the "perimeter of a sector" as the **arc length only**, forgetting that the two straight radii $r + r = 2r$ also bound the region. Students who answer $\tfrac{44}{3}$ cm lose the marks for the $28$ cm contribution from the radii.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-**The Equation of a Circle**
+#### Edge cases and limits
 
-In Cartesian coordinates, a circle with centre (a, b) and radius r has equation: (x − a)² + (y − b)² = r². The unit circle (centre at origin, radius 1) is x² + y² = 1.
+- **θ → 0:** The sector collapses to a thin sliver; $s \to 0$ and $A \to 0$. The chord and arc coincide, and the segment area $A = \tfrac{1}{2}r^{2}(\theta - \sin\theta) \to 0$ because $\sin\theta \approx \theta - \tfrac{\theta^{3}}{6}$.
+- **θ → 2π:** The sector becomes the whole disk, recovering $A = \pi r^{2}$ and $C = 2\pi r$.
+- **θ = π (semicircle):** Sector area = $\tfrac{1}{2}\pi r^{2}$; segment area = $\tfrac{1}{2}r^{2}(\pi - 0) = \tfrac{1}{2}\pi r^{2}$, since $\sin\pi = 0$. The bounding triangle vanishes.
+- **θ = π/2 (quarter circle):** Sector area = $\tfrac{1}{4}\pi r^{2}$; segment area = $\tfrac{1}{2}r^{2}\!\left(\tfrac{\pi}{2} - 1\right)$.
+- **Non-Euclidean context:** If a "circle" appears in a calculus setting (e.g., polar integration), the same formulas apply because $r$ is constant on the curve.
 
-From the general form x² + y² + 2gx + 2fy + c = 0, complete the square to find centre (−g, −f) and radius √(g² + f² − c).
+#### Connections to adjacent topics
 
-Example: x² + y² − 6x + 8y + 9 = 0 → (x² − 6x) + (y² + 8y) = −9 → (x − 3)² − 9 + (y + 4)² − 16 = −9 → (x − 3)² + (y + 4)² = 16. Centre (3, −4), radius = 4.
+- **Trigonometry:** The isosceles triangle inside a sector has equal sides $r$ and included angle $\theta$, so its area is $\tfrac{1}{2}r^{2}\sin\theta$ (SAS area). This is why the **segment** formula subtracts $\tfrac{1}{2}r^{2}\sin\theta$ from the sector.
+- **Coordinate geometry:** The equation $(x-h)^{2} + (y-k)^{2} = r^{2}$ is the algebraic counterpart; UI Entrance sometimes asks for the area enclosed by this curve given *h, k, r*.
+- **Mensuration packages:** Sector and segment problems combine with cylinder, cone, and sphere formulae; keep π exact until the final numeric step.
 
-**Angles in a Circle — Theorems**
+#### Advanced traps and how to dodge them
 
-The angle subtended by a chord at the circumference is half the angle subtended at the centre. If chord AB subtends 40° at the centre O, it subtends 20° at any point on the circumference.
+| Trap | What goes wrong | How to avoid |
+|---|---|---|
+| Mixing units | Plugging cm into $r$ but writing the answer in m² | Convert all lengths to one unit *before* squaring. |
+| Using degrees in $s = r\theta$ | Result is off by a factor of $57.3$ | If θ is in degrees, use $s = \tfrac{\theta}{360}\cdot 2\pi r$. |
+| Treating $\pi$ as having units | Writing "$\pi$ cm²" as if π were dimensional | π is dimensionless; cm² stays cm². |
+| Confusing segment vs sector | Subtracting the triangle from $\pi r^{2}$ instead of $\tfrac{1}{2}r^{2}\theta$ | Segment area = sector area − triangle area, not full disk − triangle. |
+| Wrong radius in chord length | Using $d$ instead of $r$ in $2r\sin(\theta/2)$ | Chord length $= 2r\sin(\theta/2)$ always uses the radius. |
 
-Angles in the same segment (on the same side of a chord) are equal. Angles in a semicircle are 90° (Thales' theorem).
+#### Advanced practice prompts
 
-Cyclic quadrilaterals: opposite angles sum to 180°. If angle A = 70° and angle C = 110°, they're supplementary. An exterior angle of a cyclic quadrilateral equals the opposite interior angle.
+1. A circular garden of radius 7 m has a straight path through its centre that is a chord of length 10 m. Find the **area of the smaller segment** cut off by the chord. (Hint: find $\theta$ from $\sin(\theta/2) = \tfrac{5}{7}$, then apply the segment formula.)
+2. Two sectors from circles of radii 6 cm and 10 cm have the same arc length 12 cm. Which has the larger area, and by how much? (Hint: equal $s$ means $r\theta$ is constant, so $A = \tfrac{1}{2}s\,r$ scales with *r* — the larger-radius sector wins.)
 
-**Two-Dimensional Packing Problems**
+## Continue your study
 
-The UI exam occasionally tests how many circles of a given radius fit inside a larger circle, or how many small circles fit in a sector. The approach is usually estimation based on area ratios, though exact answers may require geometric reasoning.
-
-**Mixed Area Problems**
-
-These are common and require decomposing the figure into standard shapes. Consider a figure consisting of a rectangle 10cm × 6cm with a semicircle of diameter 10cm attached to one short side. Total area = rectangle area + semicircle area = 60 + ½π(5)² = 60 + 12.5π ≈ 99.27 cm².
-
-**Compound Shapes Involving Circles**
-
-The classic "four mutually externally tangent circles" type: four circles of radius r are arranged so each touches two neighbours. The centres form a square of side 2r. The region in the centre (curvilinear quadrilateral) can be found by adding four sector areas and subtracting the square.
-
-For circles inscribed in sectors: if a circle of radius r is inscribed in a sector of radius R and angle θ (radians), the relationship is r = R sin(θ/2) / (1 + sin(θ/2)).
-
-**Historical Context**
-
-The ratio circumference/diameter (π) has been studied since antiquity. Archimedes (c. 250 BCE) bounded π between 3 10/71 and 3 1/7 using inscribed and circumscribed polygons. The Egyptian Rhind Papyrus (c. 1650 BCE) gives π ≈ 3.16. The symbol π was first used by William Jones in 1706 and popularised by Leonhard Euler in 1737.
-
-**Exam Pattern Analysis**
-
-UI circle questions commonly appear as:
-1. Calculate arc length, sector area, or segment area given radius and angle
-2. Find area of shaded region in composite figures (often involving quarter circles or semicircles)
-3. Apply tangent properties to find missing lengths
-4. Use angle theorems (subtended angles, cyclic quadrilaterals)
-5. Solve problems combining circles with other shapes
+- **[View this topic in your UI Entrance (Indonesia) roadmap](/roadmap/?exam=uii&duration=1mo)** — see where "Circles — Area, Circumference, Sectors" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=uii&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UI Entrance (Indonesia) exam overview](/exams/uii/)** — pattern, eligibility, and syllabus
+- **[All Subject Knowledge notes](/notes/uii/subject-knowledge/)** — browse sibling topics in this subject
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

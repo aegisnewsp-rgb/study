@@ -8,7 +8,7 @@ topicName: "Physics: Mechanics"
 weight: 4
 country: pakistan
 generated: "2026-03-24T08:32:08.010908"
-lastUpdated: 2026-03-24
+lastUpdated: "2026-09-15"
 diagramPrompt: "Educational diagram illustrating Physics: Mechanics with clear labels, white background, exam-style illustration"
 
 ---
@@ -18,129 +18,87 @@ diagramPrompt: "Educational diagram illustrating Physics: Mechanics with clear l
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-Mechanics is the branch of physics concerned with the motion of objects and the forces that cause or change that motion. It forms roughly 30–35% of the HAT-UG Physics syllabus. The core topics are **Kinematics** (describing motion) and **Dynamics** (explaining what causes motion).
+Mechanics is the branch of physics that studies **motion** (kinematics) and the **forces** producing or altering it (dynamics), along with equilibrium, energy, and rotation. In the HAT-UG Subject Knowledge paper (Physics carries 4% weight), roughly one out of every four MCQs from physics tests mechanics, so this topic is the single highest-yield area.
 
-**Essential Definitions:**
+- **Kinematics (1-D):** `v = u + at`, `s = ut + ½at²`, `v² = u² + 2as` — where `u` is initial velocity (m·s⁻¹), `v` is final velocity (m·s⁻¹), `a` is acceleration (m·s⁻²), `s` is displacement (m), `t` is time (s).
+- **Dynamics:** `F = ma` (Newton's 2nd law; F in newtons, m in kg).
+- **Energy & Work:** `W = F·d·cosθ` (J), `KE = ½mv²` (J), `PE = mgh` (J).
+- **Momentum:** `p = mv` (kg·m·s⁻¹); impulse `J = F·Δt` equals `Δp`.
+- **Rotation:** `τ = r × F` (N·m), `L = Iω` (angular momentum, kg·m²·s⁻¹).
 
-- **Displacement ($s$):** Change in position. A vector quantity (direction matters). Unit: metre (m)
-- **Velocity ($v$):** Rate of change of displacement. $v = \frac{\Delta s}{\Delta t}$. Unit: m/s
-- **Acceleration ($a$):** Rate of change of velocity. $a = \frac{\Delta v}{\Delta t}$. Unit: m/s²
-- **Speed:** Magnitude of velocity (scalar — no direction). Always positive.
-
-**The Five SUVAT Equations** (for constant acceleration):
-$$v = u + at$$
-$$s = ut + \frac{1}{2}at^2$$
-$$v^2 = u^2 + 2as$$
-$$s = \frac{(u+v)}{2}t$$
-$$s = vt - \frac{1}{2}at^2$$
-
-Where: $u$ = initial velocity, $v$ = final velocity, $a$ = acceleration, $s$ = displacement, $t$ = time.
-
-** Newton's Three Laws of Motion:**
-1. **First Law (Inertia):** An object remains at rest or in uniform motion unless acted upon by an external force.
-2. **Second Law:** $F = ma$ — Force equals mass times acceleration. 1 Newton = 1 kg·m/s².
-3. **Third Law:** For every action, there is an equal and opposite reaction.
-
-**Weight and Mass:**
-- Mass ($m$): Intrinsic property of matter. Measured in kg. Scalar.
-- Weight ($W$): Force due to gravity. $W = mg$. On Earth, $g = 9.8$ m/s² (often approximated as 10 m/s² in problems).
-
-**⚡ HAT-UG Exam Tip:** In free-fall problems, a dropped object has $u = 0$. An object thrown upward has $a = -g$ (negative because it acts downward while the initial motion is upward). Always draw a quick diagram before writing equations.
-
----
+> 💡 **High-Yield Memory Hook:** **"N-A-K-M-W-R"** — Newton's laws, Acceleration, Kinematics equations, Momentum conservation, Work-energy theorem, Rotational torque. Walk through this acronym while solving any mechanics MCQ and you will pick the right governing law every time.
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> For students who want genuine understanding and consistent scores.
+> Standard content for students with a few days to months.
 
-**Kinematics — Worked Examples:**
+#### Newton's Laws and Free-Body Diagrams
+A free-body diagram (FBD) isolates one body and shows every external force as a vector: weight (`W = mg`, downward), normal (`N`, perpendicular to surface), tension (`T`, along string), friction (`f`, opposing motion/tendency), and applied forces. Newton's second law `F_net = ma` is then applied along each axis. For a 5 kg block pulled horizontally by 20 N on a surface with `μ = 0.2`, the friction force is `f = μmg = 0.2 × 5 × 9.8 = 9.8 N`, giving `a = (20 − 9.8)/5 = 2.04 m·s⁻²`.
 
-**Example 1:** A car accelerates from rest at 2 m/s² for 5 seconds. Find the distance covered.
-- $u = 0$, $a = 2$ m/s², $t = 5$ s, $s = ?$
-- Using $s = ut + \frac{1}{2}at^2 = 0 + \frac{1}{2}(2)(5)^2 = \frac{1}{2}(2)(25) = 25$ m
+#### Concept Comparison Matrix
 
-**Example 2:** A ball is thrown vertically upward with velocity 20 m/s. Find the maximum height reached. ($g = 10$ m/s²)
-- At maximum height, $v = 0$.
-- Using $v^2 = u^2 + 2as$: $0 = (20)^2 + 2(-10)s$
-- $0 = 400 - 20s$ → $s = 20$ m
+| Pair | Quantity | Vector/Scalar | SI Unit | Key Formula |
+|------|----------|---------------|---------|-------------|
+| Distance vs Displacement | Path length vs shortest change in position | Scalar vs Vector | m, m | `s = ut + ½at²` vs `Δr` |
+| Mass vs Weight | Matter content vs gravitational pull | Scalar vs Vector | kg, N | `W = mg` (g ≈ 9.8 m·s⁻²) |
+| Speed vs Velocity | Rate of distance vs rate of displacement | Scalar vs Vector | m·s⁻¹, m·s⁻¹ | `v = d/t` vs `v = Δr/Δt` |
+| KE vs Momentum | Energy of motion vs quantity of motion | Scalar vs Vector | J, kg·m·s⁻¹ | `½mv²` vs `mv` |
+| Work vs Power | Energy transferred vs rate of transfer | Scalar vs Scalar | J, W | `W = Fd cosθ` vs `P = W/t` |
+| Torque vs Force | Rotational push vs linear push | Vector vs Vector | N·m, N | `τ = rF sinθ` vs `F = ma` |
 
-**Friction — The Drag Force Opposing Motion:**
-$$F_f = \mu R$$
-where $\mu$ is the coefficient of friction and $R$ is the normal reaction force.
+#### Work-Energy and Momentum Theorems
+The **work-energy theorem** states `W_net = ΔKE = ½mv_f² − ½mv_i²`. Use it when speed changes under a known net force. The **impulse-momentum theorem** states `F·Δt = Δp = m(v_f − v_i)` and is preferred for collision problems where the contact time is short.
 
-- **Static friction ($\mu_s$):** Prevents motion from starting. $F_f \leq \mu_s R$ (adjusts to match applied force up to a maximum)
-- **Kinetic friction ($\mu_k$):** Opposes motion already in progress. Always less than static friction for the same surfaces.
+- In **elastic collisions**, both momentum AND kinetic energy are conserved.
+- In **inelastic collisions**, momentum is conserved but KE drops; a perfectly inelastic collision sticks the bodies together.
 
-**Momentum — A Key Conservation Law:**
-$$p = mv$$
-Momentum is a vector quantity. The principle of conservation of linear momentum states that in a closed system with no external forces, total momentum is constant.
+#### Projectile Motion
+Resolve the launch velocity `u` at angle `θ` into `u_x = u cosθ` and `u_y = u sinθ`. Horizontal velocity stays constant; vertical motion is `y = u_y t − ½gt²`. Maximum height `H = u² sin²θ / (2g)`, range `R = u² sin 2θ / g`, time of flight `T = 2u sinθ / g`.
 
-**Impulse:** $J = F \Delta t = \Delta p$ (change in momentum). This is why airbags and crumple zones work — they increase the time of impact, reducing the average force on passengers.
+#### 🎯 Exam-Level Worked Problem
+**Question:** A 2 kg ball moving at 6 m·s⁻¹ collides head-on with a 4 kg ball moving at 3 m·s⁻¹ in the opposite direction. If the collision is perfectly elastic, find the final speed of the 2 kg ball.
 
-**Work, Energy, and Power:**
-- Work done: $W = Fs \cos\theta$ (where $\theta$ is angle between force and displacement). Unit: Joule (J)
-- Kinetic Energy: $KE = \frac{1}{2}mv^2$
-- Potential Energy (gravitational): $PE = mgh$
-- **Conservation of Mechanical Energy:** In the absence of non-conservative forces, $KE_i + PE_i = KE_f + PE_f$
-- Power: $P = \frac{W}{t} = Fv$ (rate of doing work). Unit: Watt (W)
+#### Solution:
+For a 1-D elastic collision with masses `m₁`, `m₂` and initial velocities `u₁`, `u₂`, the final velocity of `m₁` is:
+`v₁ = [(m₁ − m₂)u₁ + 2m₂u₂] / (m₁ + m₂)`
+Plug in `m₁ = 2 kg`, `u₁ = +6 m·s⁻¹`, `m₂ = 4 kg`, `u₂ = −3 m·s⁻¹`:
+`v₁ = [(2 − 4)(6) + 2(4)(−3)] / (2 + 4) = [(−2)(6) + (−24)] / 6 = (−12 − 24) / 6 = −36 / 6 = −6 m·s⁻¹`
+The 2 kg ball rebounds at **6 m·s⁻¹ in the opposite direction**.
 
-**⚡ Standard Study Tip:** Draw a free-body diagram for every dynamics problem. Label all forces: weight ($mg$ downward), normal reaction ($R$ upward/perpendicular to surface), applied force, friction. Then apply Newton's second law ($F_{net} = ma$) in the relevant direction. This systematic approach prevents missed forces.
-
----
+> ⚠️ **Examiner Trap:** Sign conventions. Always assign the initial direction of motion as positive; if the second ball moves opposite, its velocity enters the formula as a NEGATIVE number. Forgetting the sign is the single most common reason students get a positive `+6 m·s⁻¹` instead of `−6 m·s⁻¹`, which then collides with the kinetic-energy check.
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive theory with derivations, historical context, and exam patterns.
+> Comprehensive coverage for students on a longer study timeline.
 
-**Derivation of SUVAT Equations:**
+#### Circular and Rotational Motion Limits
+For uniform circular motion at radius `r` and speed `v`, the centripetal acceleration is `a_c = v² / r = ω²r`, directed toward the centre. The required centripetal force is `F_c = mv² / r`. On a banked curve without friction, the banking angle satisfies `tanθ = v² / (rg)`. Angular momentum `L = Iω` is conserved when no external torque acts — this is why spinning ice-skaters pull in their arms (`I` decreases, so `ω` increases).
 
-The SUVAT equations follow directly from the definitions of velocity and acceleration.
+#### Static Equilibrium Conditions
+A rigid body is in equilibrium when **both** ΣF = 0 (translational) AND Στ = 0 (rotational). For a uniform beam of weight `W` resting on two supports, the reactions are found by taking torques about one support to avoid solving simultaneous equations. This is the same machinery used to analyse HAT-UG questions on ladders against walls and metre-rule balance problems.
 
-From $a = \frac{\Delta v}{\Delta t} = \frac{v-u}{t}$ (for constant $a$), we get:
-$$v = u + at \quad \text{...(1)}$$
+#### Gravitation and Potential Energy
+Newton's universal law: `F = G·m₁·m₂ / r²`, where `G = 6.674 × 10⁻¹¹ N·m²·kg⁻²`. Gravitational PE near Earth's surface: `U = −G·M·m / r` (exact) simplifies to `U = mgh` only for `h << r_earth ≈ 6400 km`. Escape velocity from Earth's surface is `v_e = √(2gR) ≈ 11.2 km·s⁻¹`.
 
-Average velocity $\bar{v} = \frac{u+v}{2}$. Since $s = \bar{v} \cdot t$:
-$$s = \frac{u+v}{2} \cdot t \quad \text{...(2)}$$
+#### Advanced Practice Prompts
 
-Substituting equation (1) into (2) to eliminate $v$:
-$$s = \frac{u + (u+at)}{2} \cdot t = \frac{2u + at}{2} \cdot t = ut + \frac{1}{2}at^2 \quad \text{...(3)}$$
+1. **Satellite orbit problem:** A satellite orbits at altitude `h = 600 km` above Earth. Using `v = √(GM / r)` with `M_earth = 5.97 × 10²⁴ kg` and `r = R_earth + h`, compute orbital speed and period. **Trap:** students use `g = 9.8` instead of the orbital formula — only valid at the surface.
+2. **Rotational kinetic energy:** A solid disc (mass `M`, radius `R`) rolls without slipping at speed `v`. Total KE = `½Mv² + ½Iω²` = `½Mv² + ¼Mv²` = `¾Mv²` since `I = ½MR²` and `ω = v/R`. **Trap:** forgetting the rotational share halves the kinetic energy.
 
-Substituting $v = u + at$ into $v^2 = u^2 + 2a(ut + \frac{1}{2}at^2) - at \cdot u$ gives the algebraic derivation of $v^2 = u^2 + 2as$ (the fourth equation).
+#### Common Mistake Table
 
-**Projectile Motion — A Two-Dimensional Application:**
-
-A projectile launched at angle $\theta$ to the horizontal with speed $u$ has:
-- Horizontal component: $u_x = u \cos\theta$
-- Vertical component: $u_y = u \sin\theta$
-
-**Key results:**
-- Time of flight: $T = \frac{2u \sin\theta}{g}$
-- Maximum height: $H = \frac{u^2 \sin^2\theta}{2g}$
-- Range: $R = \frac{u^2 \sin 2\theta}{g}$
-
-**Derivation of maximum range:**
-Range $R = u \cos\theta \cdot T = u \cos\theta \cdot \frac{2u\sin\theta}{g} = \frac{u^2 \sin 2\theta}{g}$
-Maximum $\sin 2\theta = 1$ when $2\theta = 90° \Rightarrow \theta = 45°$.
-Maximum range on level ground = $\frac{u^2}{g}$ at $\theta = 45°$.
-
-**Circular Motion — Angular Quantities:**
-- Angular displacement: $\theta$ (radians)
-- Angular velocity: $\omega = \frac{\Delta\theta}{\Delta t}$ (rad/s)
-- Linear velocity: $v = \omega r$
-- Centripetal acceleration: $a_c = \frac{v^2}{r} = \omega^2 r$
-- Centripetal force: $F_c = \frac{mv^2}{r} = m\omega^2 r$
-
-**Newton's Law of Gravitation:**
-$$F = \frac{Gm_1 m_2}{r^2}$$
-where $G = 6.674 \times 10^{-11}$ N m²/kg².
-
-**HAT-UG Mechanics — Past Year Patterns (2019–2024):**
-- SUVAT equations: 2–3 questions per paper, usually as word problems
-- Projectile motion: 1 question, often about maximum height or range
-- Newton's laws and friction: 1–2 questions
-- Work-energy theorem: 1 question
-- Momentum conservation: 1 question (often collision-based)
-- Circular motion: 1 question (rare, usually for high-scorers)
-
-**⚡ HAT-UG Advanced Strategy:** Memorise the four most important derived equations: $s = ut + \frac{1}{2}at^2$, $v = u + at$, $v^2 = u^2 + 2as$, and $F = ma$. These cover 80% of mechanics questions. For projectile problems, always split into horizontal and vertical components — never try to solve 2D projectile motion as a scalar problem.
+| Mistake | Why It Hurts | Fix |
+|---------|--------------|-----|
+| Using `g = 10` and `g = 9.8` in the same paper | Loses 1–2 marks per numerical | Pick one convention per problem; HEC paper usually accepts either if consistent |
+| Writing `v = 0` at the top of projectile path | Ignores horizontal velocity still acting | Top of trajectory: `v_y = 0`, but `v_x = u cosθ ≠ 0` |
+| Confusing impulse with work | Impulse is vector (N·s), work is scalar (J) | Impulse changes momentum; work changes energy |
+| Treating friction as constant on inclines | Kinetic `f = μ_k N`; static `f ≤ μ_s N` and self-adjusts | Always compute `N` first, then apply the relevant coefficient |
 
 ---
-*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+
+## Continue your study
+
+- **[View this topic in your HAT-UG (HEC Aptitude Test - Undergraduate) roadmap](/roadmap/?exam=hat-ug&duration=1mo)** — see where "Physics: Mechanics" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=hat-ug&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[HAT-UG (HEC Aptitude Test - Undergraduate) exam overview](/exams/hat-ug/)** — pattern, eligibility, and syllabus
+- **[All Subject Knowledge notes](/notes/hat-ug/subject-knowledge/)** — browse sibling topics in this subject
+
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

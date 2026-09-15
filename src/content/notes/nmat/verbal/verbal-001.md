@@ -8,210 +8,123 @@ topicName: Parts of Speech and Sentence Structure
 weight: 3
 country: philippines
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-15"
 ---
 
 # Parts of Speech and Sentence Structure
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your NMAT exam.
+> Rapid summary for last-minute revision before your exam.
 
-## Parts of Speech — Key Facts
+**Parts of Speech and Sentence Structure** is the foundational grammar block of the NMAT (Philippines) Verbal section, administered by the Center for Educational Measurement (CEM). It checks whether you can label word classes correctly *in context* and assemble complete, logical sentences without fragments, agreement slips, or misplaced modifiers.
 
-### The 8 Parts of Speech
+#### Must-Know Word Classes
 
-| Part | Function | Examples |
-|------|----------|----------|
-| **Noun** | Names a person, place, thing, idea | book, Manila, freedom |
-| **Pronoun** | Replaces a noun | he, she, they, it |
-| **Verb** | Expresses action or state | run, think, is |
-| **Adjective** | Describes a noun | beautiful, tall, Filipino |
-| **Adverb** | Modifies verb, adjective, or another adverb | quickly, very, always |
-| **Preposition** | Shows relationship between noun and other words | in, on, at, through |
-| **Conjunction** | Connects words or clauses | and, but, because |
-| **Interjection** | Expresses emotion | Wow!, Ouch!, Ay! |
+- **Noun** — names a person, place, thing, or idea (countable/uncountable, common/proper).
+- **Pronoun** — replaces a noun (personal, reflexive, relative, demonstrative, indefinite).
+- **Verb** — expresses action or state; finite verb is required in every clause (transitive, intransitive, linking, auxiliary, modal).
+- **Adjective** — modifies a noun; answers *which one, how many, what kind*.
+- **Adverb** — modifies a verb, adjective, or another adverb; answers *how, when, where, to what extent*.
+- **Preposition** — shows the relationship of a noun to another word (in, on, at, between).
+- **Conjunction** — joins words, phrases, or clauses (coordinating, subordinating, correlative).
+- **Article / Determiner** — a, an, the, this, that, each, every.
 
-### Sentence Types
-- **Simple**: One independent clause
-- **Compound**: Two or more independent clauses (joined by conjunction)
-- **Complex**: One independent + one or more dependent clauses
-- **Compound-Complex**: Two or more independent + one or more dependent clauses
+#### Sentence Skeleton
 
-⚡ **NMAT High-Yield**: Identify the 8 parts of speech quickly. Focus on distinguishing verbs from nouns, and adjectives from adverbs.
+- **Subject + Finite Verb (+ Object/Complement)** = independent clause.
+- **Phrase** = group of words without a subject-verb pair.
+- **Clause** = group of words with a subject and finite verb (independent or dependent).
+
+> 💡 **High-Yield Memory Hook:** Think **"PAPA VAC"** to recall the eight classes — **P**ronoun, **A**djective, **P**reposition, **A**dverb, **V**erb, **A**rticle, **C**onjunction, **N**oun (reorder freely, but pair each Part with its job). For sentence shape, remember **"SV + OC"** — every working English sentence carries a **S**ubject and a finite **V**erb, optionally followed by an **O**bject or **C**omplement. No finite verb = fragment, every time.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-## Chapter: Parts of Speech and Sentence Structure
+#### Word Class Disambiguation in NMAT Items
 
-### 1.1 Nouns
+The CEM examiner does not test whether you *recognise* a word ending — the test traps you when one form wears two hats. The phrase **"Running water"** holds a participle (adjective use of -ing) modifying *water*, while **"Running is fun"** uses the same -ing word as a **gerund** (a noun). Recognition comes from function in the clause, not from the suffix.
 
-#### Types of Nouns
-1. **Common Noun**: General name (city, student)
-2. **Proper Noun**: Specific name (Manila, Juan)
-3. **Concrete Noun**: Can be perceived by senses (table, music)
-4. **Abstract Noun**: Cannot be perceived (love, justice)
-5. **Countable Noun**: Can be counted (apple, ideas)
-6. **Uncountable Noun**: Cannot be counted (water, information)
-7. **Collective Noun**: Group (team, class, faculty)
+A second classic split is between **gerund** and **present participle**, both written *-ing*. Use this rule: if the -ing word acts as the **subject, object, or complement of a sentence**, treat it as a gerund (noun). If it sits beside a noun to **describe that noun**, treat it as a participle (adjective).
 
-#### Noun Rules for NMAT
-- Countable nouns can have singular/plural forms
-- Uncountable nouns take singular verbs
-- Collective nouns: American English (team IS); British English (team ARE)
+#### Concept Comparison Matrix
 
-### 1.2 Pronouns
+| Feature | Phrase | Clause |
+|---|---|---|
+| Contains subject + finite verb | No | Yes |
+| Can stand alone as a sentence | No | Only if independent |
+| Examples | *in the morning*, *the tall doctor* | *when the bell rings*, *she runs daily* |
+| NMAT trap | Mistaken for a sentence (fragment) | Dependent clause mistaken for sentence (comma splice) |
 
-#### Types
-1. **Personal**: I, you, he, she, it, we, they
-2. **Possessive**: my, mine, your, yours, his, her, its, our, their
-3. **Reflexive**: myself, yourself, themselves
-4. **Demonstrative**: this, that, these, those
-5. **Interrogative**: who, whom, whose, which, what
-6. **Relative**: who, whom, whose, which, that
-7. **Indefinite**: someone, anyone, everyone, no one
+| Feature | Who | Whom |
+|---|---|---|
+| Case | Subject (nominative) | Object (objective) |
+| Test | Replace with *he / she / they* | Replace with *him / her / them* |
+| Example | *The student who called is here.* | *The student whom I called is here.* |
 
-#### Common Errors
-- **Its vs It's**: Its (possessive) vs It's (it is/it has)
-- **Their vs There vs They're**: Their (possessive), There (place), They're (they are)
-- **Who vs Whom**: Who (subject), Whom (object)
+| Feature | Active Voice | Passive Voice |
+|---|---|---|
+| Structure | Subject performs the verb | Subject receives the verb |
+| NMAT preference | Preferred for clarity | Acceptable when agent is unknown |
+| Example | *The nurse examined the patient.* | *The patient was examined by the nurse.* |
 
-### 1.3 Verbs
+| Indefinite Pronoun | Takes Singular Verb? | NMAT Trap |
+|---|---|---|
+| each, every, everybody, anyone, somebody, nobody | Yes | Students add *are/were* by habit |
+| several, many, few, both | No (plural) | Singular chosen by pattern-matching |
 
-#### Types
-1. **Action verbs**: Physical or mental action (run, think)
-2. **Linking verbs**: Connect subject to complement (be, seem, become)
-3. **Helping/Auxiliary verbs**: Help main verb (have, will, can)
+#### Core Rules the NMAT Repeatedly Tests
 
-#### Verb Tenses
-| Tense | Simple | Continuous | Perfect | Perfect Continuous |
-|-------|--------|------------|---------|-------------------|
-| Present | works | is working | has worked | has been working |
-| Past | worked | was working | had worked | had been working |
-| Future | will work | will be working | will have worked | will have been working |
+1. **Subject–verb agreement** — match number (singular/plural), not the nearest noun.
+2. **Pronoun–antecedent agreement** — match in number, gender, and person.
+3. **Tense consistency** — hold one logical time frame unless a shift is meaningful.
+4. **Modifier placement** — place the modifier next to the noun it modifies.
+5. **Parallelism** — items in a list or after a correlative pair must share grammatical form.
+6. **Voice choice** — active by default; passive when the action or receiver is the focus.
 
-#### Important Distinctions
-- **Lie vs Lay**: Lie (recline — no object), Lay (place — takes object)
-- **Sit vs Set**: Sit (no object), Set (object)
-- **Rise vs Raise**: Rise (no object), Raise (object)
-- **Teach vs Learn**: Teacher teaches; student learns
+#### 🎯 Exam-Level Worked Problem
 
-### 1.4 Adjectives
+**Question:** Choose the option that corrects the sentence without changing its meaning.
+*Each of the students in the biology lab were advised to bring their own microscope slides, and the instructor reminded them that running late to class will result in a deduction.*
 
-#### Types
-1. **Descriptive**: big, beautiful, kind
-2. **Quantitative**: one, few, many
-3. **Demonstrative**: this, that, these, those
-4. **Possessive**: my, his, their
-5. **Interrogative**: which, what
-6. **Proper**: Filipino, Christian, Asian
+#### Solution:
 
-#### Order of Adjectives (Royal Order)
-When multiple adjectives modify a noun, the order is:
-1. Opinion/evaluation
-2. Size
-3. Age
-4. Shape
-5. Color
-6. Origin
-7. Material
-8. Purpose
+1. **Subject–verb agreement.** The subject of the first clause is the singular indefinite pronoun *each*. Replace *were advised* with **was advised**. The prepositional phrase *of the students* is not the subject, so it does not control the verb.
+2. **Gerund as subject.** In the second clause, *running* functions as the subject (gerund), so the clause is grammatical. It remains *running late to class will result in…* — no change needed there.
+3. **Cleaned sentence:** *Each of the students in the biology lab **was** advised to bring their own microscope slides, and the instructor reminded them that running late to class will result in a deduction.*
 
-**Example**: "A beautiful small old round brown Filipino woven table mat"
+> ⚠️ **Examiner Trap:** Many test-takers edit *running* to *to run* or *runs*, treating the gerund as an error. In fact, a gerund is a perfectly valid subject in English. The real fault lies with *each…were*, not with *running*. Always locate the true grammatical subject before changing any verb.
 
-#### Comparison
-- **Positive**: tall
-- **Comparative**: taller (than)
-- **Superlative**: tallest (the)
-- **Irregular**: good/better/best, bad/worse/worst, many/more/most
+---
 
-### 1.5 Adverbs
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-#### Types
-1. **Manner**: quickly, slowly, well
-2. **Time**: yesterday, tomorrow, now
-3. **Place**: here, there, everywhere
-4. **Frequency**: always, often, never
-5. **Degree**: very, quite, too, almost
-6. **Reason**: therefore, consequently
+#### Edge Cases and Higher-Order Traps
 
-#### Key Distinction: Adjective vs Adverb
-- Adjective modifies NOUN: "She is **beautiful**"
-- Adverb modifies VERB/ADJECTIVE/ADVERB: "She sings **beautifully**"
+1. **Dangling modifiers.** A participial phrase at the start of a sentence must attach to the grammatical subject of the main clause. Rewrite: *Running quickly, the athlete crossed the finish line* — not *Running quickly, the finish line was crossed.*
+2. **Faulty predication.** Avoid *The reason is because…* — use *The reason is that…* or *…is because…* (without *the reason*).
+3. **Double negatives.** Standard formal English rejects pairing negatives such as *not* with *none, nothing, never*. NMAT items test this in error-spotting format.
+4. **Lie vs lay, rise vs raise.** *Lie* (to recline) and *rise* (to go up) are intransitive; *lay* and *raise* are transitive and need a direct object.
+5. **Correlative parallelism.** Pairs like *not only…but also*, *either…or*, *both…and* must connect matching forms: *to swim and to run* (not *to swim and running*).
+6. **Point-of-view shifts.** Stay in one person: avoid *One should keep your notes organized* — pick either *one…one's* or *you…your*, not both.
+7. **Subordinating conjunction fragments.** *Because it rained.* is a dependent clause with no independent clause — fragment. NMAT options may lure you into "completing" it with a comma instead of an independent clause.
 
-**Common confusion**:
-- "Good" (adj) vs "Well" (adv): "She is **good** at English" vs "She speaks **well**"
-- "Hard" can be both: "She works **hard**" (adv) vs "That is **hard** work" (adj)
+#### Advanced Practice Prompts
 
-### 1.6 Prepositions
+1. *Spot every error:* "The committee have issued their report, and each member are proud of the findings." — Identify subject–verb agreement slips with the collective noun and the indefinite pronoun.
+2. *Rewrite for parallelism:* "She enjoys reading, to swim, and bike riding." — Produce a single coordinate structure that matches in form.
 
-#### Common Prepositions
-- **Place**: in, on, at, by, between, among, under, over, above, below, inside, outside
-- **Time**: in (month/year), on (day), at (time)
-- **Movement**: to, from, through, across, along, into, out of
-- **Other**: with, without, about, for, against, despite
+> 📌 **Formula Check:** Grammar has no numeric formula, but every correct English sentence obeys three non-negotiable equations: **(Subject ↔ Verb in number)**, **(Pronoun ↔ Antecedent in number/person)**, and **(List items ↔ Shared grammatical form)**. Memorise these three equalities and most NMAT grammar items collapse into a single check.
 
-#### Prepositional Expressions
-- **In spite of / Despite**: + noun/gerund (despite the rain)
-- **Because of / Due to**: + noun (due to illness)
-- **In order to / So as to**: + verb (in order to succeed)
+---
 
-### 1.7 Conjunctions
+## Continue your study
 
-#### Coordinating Conjunctions (FANBOYS)
-For, And, Nor, But, Or, Yet, So
-- Join independent clauses: "She studied **and** she passed."
+- **[View this topic in your NMAT (Philippines) roadmap](/roadmap/?exam=nmat&duration=1mo)** — see where "Parts of Speech and Sentence Structure" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=nmat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NMAT (Philippines) exam overview](/exams/nmat/)** — pattern, eligibility, and syllabus
+- **[All Verbal notes](/notes/nmat/verbal/)** — browse sibling topics in this subject
 
-#### Subordinating Conjunctions
-- **Time**: when, while, before, after, since, until
-- **Cause/Effect**: because, since, as, so that
-- **Condition**: if, unless, provided that
-- **Contrast**: although, though, even though, whereas, while
-
-#### Correlative Conjunctions
-- Both...and, either...or, neither...nor, not only...but also
-
-### 1.8 Sentence Structure
-
-#### Independent vs Dependent Clauses
-- **Independent clause**: Can stand alone as sentence
-- **Dependent clause**: Cannot stand alone (needs independent clause)
-
-#### Simple Sentence
-"One independent clause"
-- "The NMAT measures academic aptitude."
-
-#### Compound Sentence
-"Two or more independent clauses joined by conjunction or semicolon"
-- "The NMAT is challenging, **but** it is passable."
-
-#### Complex Sentence
-"One independent + one or more dependent clauses"
-- "**Because** the NMAT is challenging, students should prepare thoroughly."
-
-#### Compound-Complex Sentence
-"Two or more independent + one or more dependent clauses"
-- "Students prepare **because** the NMAT is important, **and** they want to enter medical school."
-
-### 1.9 NMAT Grammar Tips
-
-1. **Subject-Verb Agreement**: Singular subject → singular verb
-2. **Parallel Structure**: In lists, all items should be grammatically parallel
-   - "She likes reading, writing, **and to revise**" ✗ → "reading, writing, **and revising**" ✓
-3. **Pronoun-Antecedent Agreement**: Pronoun must match its noun in number and gender
-4. **Tense Consistency**: Don't shift tenses unnecessarily within a paragraph
-
-### 1.10 NMAT High-Yield Points
-
-⚡ **Commonly Asked**:
-1. **8 Parts of Speech**: Noun, Pronoun, Verb, Adjective, Adverb, Preposition, Conjunction, Interjection
-2. **Adjective vs Adverb**: Adjective modifies noun; adverb modifies verb/adjective/adverb
-3. **Its vs It's**: Its (possessive), It's (it is/it has)
-4. **Who vs Whom**: Who (subject), Whom (object)
-5. **Sit vs Set**: Sit (no object), Set (takes object)
-6. **Lie vs Lay**: Lie (recline), Lay (place something)
-7. **Parallel structure**: All items in list must be grammatically parallel
-8. **Adjective order**: Opinion → Size → Age → Shape → Color → Origin
-9. **Compound sentence**: FANBOYS conjunctions
-10. **Complex sentence**: Independent + dependent clause
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

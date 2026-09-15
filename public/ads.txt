@@ -1,7 +1,15 @@
 # ads.txt — Authorized Digital Sellers
 # https://studyroadmap.in/ads.txt
-
-google.com, pub-4545403370367988, DIRECT, f08c47fec0942fa0
-
-# For other ad networks, add entries below following the IAB ads.txt spec:
+#
+# StudyRoadmap monetizes exclusively through Monetag (monetag.com), operated by
+# PropellerAds. Monetag is a direct advertising network: it does not resell
+# inventory through the IAB OpenRTB supply chain, so there are no programmatic
+# reseller entries to authorize here.
+#
+# No other company is authorized to sell advertising inventory on this domain.
+# Google AdSense was retired on 2026-09-15 and its authorization has been
+# removed; if you are a buyer seeing this domain via a Google/AdX path, that
+# inventory is unauthorized.
+#
+# If programmatic demand is added in future, add IAB ads.txt entries below:
 # https://iabtechlab.com/ads-txt/

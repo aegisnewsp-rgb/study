@@ -1,5 +1,8 @@
 ---
 import '../styles/global.css';
+import AdRouter from '../components/AdRouter.astro';
+import { MONETAG_SITE_ID, adEligible } from '../lib/ads';
+
 interface FAQItem {
     question: string;
     answer: string;
@@ -64,59 +67,39 @@ const canonicalURL = canonical
     ? new URL(canonical, Astro.site)
     : new URL(cleanPath, Astro.site);
 const currentYear = new Date().getFullYear();
-const is404Page = cleanPath === '/404/' || (typeof title === 'string' && title.includes('404'));
-const isPolicyOrToolPage = ['/roadmap/', '/privacy/', '/terms/', '/disclaimer/', '/contact/', '/editorial-process/'].includes(cleanPath);
-// Ad units must not load on 404, noindex, or policy/tool pages. Google's placement policy
+// Ad units must not load on 404, noindex, or policy/tool pages. Ad-network placement policy
 // discourages ads on non-content pages (privacy/terms/contact), and the repo's own
-// /data/sr-ad-safety-check.sh hard-requires 0 ad requests on those URLs. Monetag and AdSense
-// therefore share exactly the same eligibility surface.
-const allowAutoAds = !is404Page && !isPolicyOrToolPage && !(typeof robots === 'string' && /noindex/i.test(robots));
-const allowMonetag = allowAutoAds;
+// /data/sr-ad-safety-check.sh hard-requires 0 ad requests on those URLs. Monetag is the
+// only network — see src/lib/ads.ts for the single eligibility surface.
+const adsAllowed = adEligible(cleanPath, robots);
+/** Page's own target country, derived from the exam data behind this page. */
+const pageGeo = (geoRegion || '').toUpperCase();
 ---
 
 <!doctype html>
-<html lang={hreflang || (geoRegion ? `en-${geoRegion.toLowerCase()}` : 'en')} class="scroll-smooth">
+<html
+    lang={hreflang || (geoRegion ? `en-${geoRegion.toLowerCase()}` : 'en')}
+    class="scroll-smooth"
+    data-sr-geo={pageGeo || undefined}
+    data-sr-ads={adsAllowed ? 'eligible' : 'excluded'}
+>
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
         <!-- Google Search Console verification -->
         <meta name="google-site-verification" content="Va3l3XyhrSbLFp4XEIsQwEtysPjYt3Es7QkWqwEDQdo" />
-        <!-- Google AdSense Account Verification. The site meta tag stays on every page (it is the
-             ownership signal), but the Auto Ads script is withheld on 404, noindex, and
-             policy/tool pages per AdSense placement policy. -->
-        <meta name="google-adsense-account" content="ca-pub-4545403370367988" />
-        <!-- Monetag / PropellerAds site verification -->
-        <meta name="monetag" content="dd2db0a07f698ebaba6882a4873ffe84" />
-        {allowAutoAds && (
-            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4545403370367988" crossorigin="anonymous"></script>
-        )}
-        <!-- Monetag Strategic Ads (Zone 280401) — non-intrusive, deferred to idle, user-friendly -->
-        {allowMonetag && (
-            <script is:inline>
-                (function() {
-                    function loadMonetag() {
-                        if (document.getElementById('sr-monetag')) return;
-                        var s = document.createElement('script');
-                        s.id = 'sr-monetag';
-                        s.src = 'https://quge5.com/88/tag.min.js';
-                        s.setAttribute('data-zone', '280401');
-                        s.setAttribute('data-cfasync', 'false');
-                        s.async = true;
-                        document.head.appendChild(s);
-                    }
-                    if ('requestIdleCallback' in window) {
-                        requestIdleCallback(loadMonetag, { timeout: 3500 });
-                    } else {
-                        setTimeout(loadMonetag, 2000);
-                    }
-                })();
-            </script>
-        )}
+        <!-- Monetag (PropellerAds) is the only ad network on this site — AdSense was removed
+             on 2026-09-15. The site-verification meta tag stays on every page (ownership
+             signal); every ad loader is withheld on 404, noindex, and policy/tool pages. -->
+        <meta name="monetag" content={MONETAG_SITE_ID} />
+        <!-- Monetag: MultiTag everywhere + 12h-capped popunder, country-aware, crawler-guarded.
+             All decisions and constants live in src/lib/ads.ts + components/AdRouter.astro. -->
+        <AdRouter enabled={adsAllowed} pageGeo={pageGeo} popunder />
 
         <!-- Google Analytics 4 — Consent Mode v2 defaults BEFORE gtag loads (BUG-061/062).
-             Ads defaults stay denied until AdSense + CMP; analytics denied in EEA/UK/CH,
-             granted elsewhere. IP anonymization + ads data redaction always on. -->
+             These signals govern GA4 only; Monetag's own loaders are geo-gated in AdRouter.
+             Analytics denied in EEA/UK/CH, granted elsewhere. IP anonymization always on. -->
         <script is:inline>
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}

@@ -1,0 +1,234 @@
+---
+/**
+ * AdRouter — country-aware Monetag loader.
+ *
+ * Responsibilities (all client-side, all deferred off the critical path):
+ *   1. Load the MultiTag zone on every ad-eligible page.
+ *   2. Load the OnClick PopUnder zone at most once per visitor per 12 h.
+ *   3. Refuse to load anything for declared crawlers (invalid-traffic guard).
+ *   4. Resolve visitor country from Cloudflare's first-party /cdn-cgi/trace
+ *      and combine it with the page's own country (derived from exam data) to
+ *      decide which formats are acceptable.
+ *   5. Withhold the intrusive format in EEA/UK/CH, where gtag consent keeps
+ *      `ad_personalization` denied.
+ *   6. Tag AI answer-engine referrals (a human who clicked a citation in
+ *      ChatGPT/Perplexity/Copilot/Gemini/Claude) for attribution. AI *crawlers*
+ *      are still refused in step 3 — only the referring human is monetized.
+ *
+ * Everything is observable at runtime through `window.__SR_AD`, which the
+ * 30-minute review job and QA journeys assert against.
+ */
+import {
+    MONETAG_TAG_SRC,
+    MONETAG_MULTITAG_ZONE,
+    MONETAG_POPUNDER_ZONE,
+    POPUNDER_COOLDOWN_MS,
+    POPUNDER_STORAGE_KEY,
+    VISITOR_GEO_STORAGE_KEY,
+    CONSENT_RESTRICTED_GEOS,
+    CRAWLER_UA_RE,
+    AI_REFERRER_RE,
+} from '../lib/ads';
+
+interface Props {
+    /** ISO-3166-1 alpha-2 country derived from the page's own content. */
+    pageGeo?: string;
+    /** Build-time kill switch (used by tests / preview builds). */
+    enabled?: boolean;
+    /** Allow the popunder format at all. */
+    popunder?: boolean;
+}
+
+const { pageGeo = '', enabled = true, popunder = true } = Astro.props;
+
+const config = {
+    tag: MONETAG_TAG_SRC,
+    multitag: MONETAG_MULTITAG_ZONE,
+    popunder: MONETAG_POPUNDER_ZONE,
+    cooldownMs: POPUNDER_COOLDOWN_MS,
+    pubKey: POPUNDER_STORAGE_KEY,
+    geoKey: VISITOR_GEO_STORAGE_KEY,
+    pageGeo: String(pageGeo || '').toUpperCase(),
+    restricted: CONSENT_RESTRICTED_GEOS,
+    crawlerSrc: CRAWLER_UA_RE.source,
+    crawlerFlags: CRAWLER_UA_RE.flags,
+    aiRefSrc: AI_REFERRER_RE.source,
+    aiRefFlags: AI_REFERRER_RE.flags,
+    allowPopunder: Boolean(popunder),
+};
+
+const js = `
+(function () {
+    var cfg = ${JSON.stringify(config)};
+    var d = document, w = window;
+    var state = (w.__SR_AD = {
+        reason: 'init',
+        pageGeo: cfg.pageGeo || '',
+        visitorGeo: '',
+        multitag: false,
+        popunder: false,
+        popunderSkipped: '',
+        aiReferred: false,
+        aiSource: '',
+        refSource: 'none'
+    });
+
+    // ---- opt-outs (QA, operators, privacy-minded visitors) -----------------
+    try {
+        if (w.SR_ADS_OFF || w.localStorage.getItem('sr:ads:off') === '1') {
+            state.reason = 'opt-out';
+            return;
+        }
+    } catch (e) {}
+    if (w.location.search.indexOf('noads=1') !== -1) {
+        state.reason = 'opt-out';
+        return;
+    }
+
+    // ---- invalid-traffic guard --------------------------------------------
+    // Declared crawlers receive no ad loaders at all. See src/lib/ads.ts.
+    if (new RegExp(cfg.crawlerSrc, cfg.crawlerFlags).test(navigator.userAgent || '')) {
+        state.reason = 'crawler';
+        return;
+    }
+    state.reason = 'eligible';
+
+    // ---- AI answer-engine referral -----------------------------------------
+    // AI *crawlers* were already rejected above, so anything reaching this line
+    // with an AI referrer is a human who clicked a citation in ChatGPT,
+    // Perplexity, Copilot, Gemini or Claude — high-intent traffic worth
+    // attributing and, modestly, prioritising. The 12 h popunder cap and the
+    // EEA/UK/CH consent rules below still apply unchanged.
+    try {
+        var ref = d.referrer || '';
+        state.refSource = ref ? 'referral' : 'none';
+        var aiMatch = ref ? new RegExp(cfg.aiRefSrc, cfg.aiRefFlags).exec(ref) : null;
+        if (aiMatch) {
+            state.aiReferred = true;
+            state.aiSource = String(aiMatch[0])
+                .toLowerCase()
+                .replace(/^https?:\/\//, '')
+                .replace(/[\/?#].*$/, '');
+            try { d.documentElement.setAttribute('data-sr-ai-ref', state.aiSource); } catch (e) {}
+            try {
+                w.dispatchEvent(new CustomEvent('sr:ai-referral', { detail: { source: state.aiSource } }));
+            } catch (e) {}
+        }
+    } catch (e) {}
+
+    function idle(fn, ms) {
+        if ('requestIdleCallback' in w) {
+            w.requestIdleCallback(fn, { timeout: ms });
+        } else {
+            setTimeout(fn, ms);
+        }
+    }
+
+    function load(id, zone) {
+        if (d.getElementById(id)) return;
+        var s = d.createElement('script');
+        s.id = id;
+        s.src = cfg.tag;
+        s.async = true;
+        s.setAttribute('data-zone', String(zone));
+        s.setAttribute('data-cfasync', 'false');
+        d.head.appendChild(s);
+    }
+
+    // ---- 1. MultiTag: every ad-eligible page, every country ---------------
+    idle(function () {
+        load('sr-monetag', cfg.multitag);
+        state.multitag = true;
+    }, 3500);
+
+    // ---- 2. visitor country (first-party CDN trace, session-cached) -------
+    function applyGeo(cc) {
+        cc = (cc || '').toUpperCase();
+        if (!/^[A-Z]{2}$/.test(cc)) return;
+        state.visitorGeo = cc;
+        try { d.documentElement.setAttribute('data-sr-visitor-geo', cc); } catch (e) {}
+        try {
+            w.dispatchEvent(new CustomEvent('sr:geo', { detail: { visitor: cc, page: state.pageGeo } }));
+        } catch (e) {}
+        decidePopunder();
+    }
+
+    try {
+        var cachedGeo = w.sessionStorage.getItem(cfg.geoKey);
+        if (cachedGeo) applyGeo(cachedGeo);
+    } catch (e) {}
+
+    if (!state.visitorGeo && w.fetch) {
+        idle(function () {
+            if (state.visitorGeo) return;
+            w.fetch('/cdn-cgi/trace', { credentials: 'omit' })
+                .then(function (r) { return r.text(); })
+                .then(function (t) {
+                    var m = /(?:^|\\n)loc=([A-Za-z]{2})/.exec(t);
+                    var cc = m ? m[1].toUpperCase() : '';
+                    if (cc) {
+                        try { w.sessionStorage.setItem(cfg.geoKey, cc); } catch (e) {}
+                    }
+                    applyGeo(cc);
+                })
+                .catch(function () { decidePopunder(); });
+        }, 1200);
+    }
+
+    // ---- 3. PopUnder: 12 h cap, interactions first, consent-aware ---------
+    var popTimer = null;
+
+    function lastPopunder() {
+        try { return parseInt(w.localStorage.getItem(cfg.pubKey) || '0', 10) || 0; } catch (e) { return 0; }
+    }
+    function markPopunder() {
+        try { w.localStorage.setItem(cfg.pubKey, String(Date.now())); } catch (e) {}
+    }
+
+    function decidePopunder() {
+        if (state.popunder || state.popunderSkipped === 'loaded') return;
+        if (!cfg.allowPopunder) { state.popunderSkipped = 'disabled'; return; }
+        if (state.visitorGeo && cfg.restricted.indexOf(state.visitorGeo) !== -1) {
+            // EEA/UK/CH: ad_personalization stays denied, so no intrusive format.
+            state.popunderSkipped = 'consent-region';
+            return;
+        }
+        state.popunderSkipped = '';
+        if (popTimer) return;
+        // Fire on the first real interaction; fall back to a long idle timer so
+        // the clickunder is bound before a user clicks without hurting CWV.
+        // AI-referred readers are high-intent and get a shorter fallback.
+        var fire = function () { arm(); };
+        var opts = { once: true, passive: true };
+        d.addEventListener('scroll', fire, opts);
+        d.addEventListener('click', fire, opts);
+        d.addEventListener('touchstart', fire, opts);
+        d.addEventListener('keydown', fire, opts);
+        popTimer = setTimeout(fire, state.aiReferred ? 6000 : 12000);
+    }
+
+    function arm() {
+        if (popTimer) { clearTimeout(popTimer); popTimer = null; }
+        if (state.popunder) return;
+        var elapsed = Date.now() - lastPopunder();
+        if (elapsed < cfg.cooldownMs) {
+            state.popunderSkipped = 'cooldown';
+            return;
+        }
+        load('sr-monetag-popunder', cfg.popunder);
+        markPopunder();
+        state.popunder = true;
+        state.popunderSkipped = '';
+    }
+
+    decidePopunder();
+})();
+`;
+
+---
+
+{
+    enabled && (
+        <script is:inline set:html={js} />
+    )
+}

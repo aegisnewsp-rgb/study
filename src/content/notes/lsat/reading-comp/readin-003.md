@@ -8,7 +8,7 @@ topicName: Inference Questions
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-15"
 ---
 
 # Inference Questions
@@ -16,124 +16,98 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Inference Questions** — Key Facts for LSAT India
-Core concept: Inference questions ask what MUST be true, CAN be true, or CANNOT be true based solely on the passage
-High-yield point: You are NOT adding your own opinion — you are extracting what the passage logically entails
-⚡ Exam tip: Answers that require outside knowledge or go beyond what the passage supports are always wrong
+An Inference question asks you to pick the answer that **must be true** based solely on what the passage states — nothing more, nothing less. The right choice is logically compelled by the text; any reading of the passage must leave that statement standing.
+
+| Term | What it means on the test |
+|---|---|
+| **Must be true** | Guaranteed by every reasonable reading of the passage |
+| **Can be true** | Plausible but not required — a common distractor |
+| **Overreach** | Choice adds a stronger word (always, all, never) than the passage |
+| **Scope shift** | Choice widens or narrows the group/claim from the passage |
+
+> 💡 **High-Yield Memory Hook:** **"PIGS"** — **P**assage-bound, **I**t must hold, **G**ap-free (no outside knowledge), **S**ame qualifiers (preserve "can," "some," "in many papers"). If a choice violates any PIGS rule, eliminate it.
+
+Inference items in standard papers appear 1–3 times in an LSAT India RC section, and the same "must be true" logic quietly rescues you on Assumption, Strengthen, and Weaken questions in Logical Reasoning.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Inference Questions** — LSAT India Study Guide
+#### How an Inference Differs From Its Closest Cousins
+LSAT India RC question stems fall into four families. Conflating them is the single biggest reason test-takers pick a beautiful, plausible distractor. Use the matrix below to anchor each stem type to its decision rule.
 
-## What Is an LSAT Inference?
+| Question stem | What you must produce | Common trap |
+|---|---|---|
+| **Main Idea / Primary Purpose** | A one-sentence summary of the passage as a whole | Choosing a specific detail that is true but not central |
+| **Inference / Must Be True** | A deduction that **cannot** be contradicted by any reading of the text | Choosing something that *can* be true but is not forced |
+| **Assumption** | An unstated premise the author needs to reach the conclusion | Picking a stated premise instead of a missing one |
+| **Can Be True** | A statement the passage permits but does not guarantee | Treating it as a Must Be True and over-committing |
 
-An inference on the LSAT is not a guess, a personal opinion, or a logical leap. It is a statement that must be true if the passage is true. Think of it this way: if you accepted every claim in the passage as true, could you also accept this answer choice as true? If yes, it is a valid inference. If the answer choice adds new information, makes a stronger claim than the passage warrants, or requires outside knowledge, it is invalid.
+#### The Logic of "Must Be True"
+The correct answer is the **logical intersection** of every statement and reasonable implication in the passage. If you can construct a reading of the text — even a slightly stretched one — that knocks the choice down, the choice is not an inference.
 
-This distinction is crucial. LSAT inference questions test your ability to follow the logic of an argument to its necessary conclusion — not your ability to speculate creatively.
+- The passage must contain the idea **or** the building blocks for it.
+- Qualifiers travel with the claim ("can," "in many papers," "some researchers," "in many cases").
+- The choice can paraphrase, but it can not **add**, **swap**, or **broaden** a term.
+- If two answers both seem to follow, the **more conservative** one is almost always the inference; the bolder one is the trap.
 
-## Three Flavors of Inference Questions
+> 📌 **Formula Check:** Inference = (every stated fact) + (logical consequence of combining them). No outside knowledge allowed, even when real-world expertise "fills the gap."
 
-LSAT India tests three distinct types of inference questions. Each has its own logic and its own elimination rules.
+#### 🎯 Exam-Level Worked Problem
+**Question:** A passage describes how three historians — Rao, Mehta, and Singh — revised earlier assumptions about the decline of the Indus Valley cities. Rao argues that climate shifts reduced agricultural output; Mehta argues that trade-route disruptions cut off copper supply; Singh argues that both factors interacted. The passage notes that "Mehta's framework has been questioned by several archaeologists who prefer monocausal explanations."
+#### Which of the following can be properly inferred from the passage?
+(A) The Indus Valley cities declined primarily because of climate shifts.
+(B) At least some archaeologists disagree with Mehta's multi-causal explanation.
+(C) Singh's argument directly refutes Rao's argument.
+(D) Copper supply was the decisive factor in the cities' decline.
 
-### 1. Must Be True (Most Common)
+#### Solution:
+1. Option (A) asserts **"primarily"** — a stronger claim than the passage supports, which presents three competing accounts. Eliminate.
+2. Option (B) restates the passage's explicit claim that "several archaeologists … prefer monocausal explanations," which contradicts Mehta's multi-causal view. This is directly stated and survives any reasonable reading. **Keep.**
+3. Option (C) is unsupported — the passage does not say Singh addresses Rao. Eliminate.
+4. Option (D) imports a world-knowledge verdict ("decisive factor") that the passage never grants to any single theory. Eliminate.
+#### Answer: (B).
 
-These questions ask: "Which of the following must be true based on the passage?" The correct answer is the only choice that is guaranteed by the passage. If any other answer choice could be false without contradicting the passage, it is wrong.
+> ⚠️ **Examiner Trap:** Students in many papers pick (A) or (D) because they sound like a "smart" conclusion. Both commit the classic overreach — they convert three competing hypotheses into a single favoured one. The passage only licenses the weaker, qualified inference in (B).
 
-**Key test**: Could this answer be false while the passage remains completely true? If yes, it is not a must-be-true.
+---
 
-**Sample question stem:**
-- "If the information in the passage is correct, which of the following must be true?"
-- "It can be inferred from the passage that..."
-- "The passage most strongly supports which of the following conclusions?"
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-### 2. Most Strongly Supported
+#### Edge Cases and Boundary Conditions
+Inference logic has subtler failure modes that appear once in roughly every third LSAT India RC section. Each row below identifies a boundary case and the precise elimination rule.
 
-These questions are slightly softer than Must Be True. They ask for the answer choice that has the best support in the passage — even if it is not a logical certainty. When you see "most strongly supported," you have more room to work with, but the answer must still be grounded in the passage text.
+| Edge case | Why it looks tempting | How to eliminate it |
+|---|---|---|
+| **Partial-support trap** | Choice restates one sentence from the passage verbatim | Another passage sentence contradicts or qualifies it |
+| **Negation flip** | Choice reverses the polarity of a passage claim | Plug the passage's qualifier in front of the choice |
+| **Group swap** | Choice substitutes a broader/narrower group ("scientists" → "biologists") | Compare each noun to the passage's exact referent |
+| **Cause-effect overreach** | Choice upgrades correlation into causation | Passage only shows temporal co-occurrence |
+| **Numerical escalation** | Choice swaps "some" for "most" or "all" | Re-read every quantifier in the relevant sentence |
+| **Dual-passage inference** | Choice is true in Passage A but false in Passage B | Test the choice against **both** passages |
 
-**Key test**: Among all answer choices, which one has the most direct and compelling support from the passage?
+#### Common Mistakes Under Time Pressure
+1. Trusting your domain expertise. If the passage is silent on a fact you happen to know (e.g., real Indus Valley archaeology), you must leave that knowledge outside the test room.
+2. Choosing the most "interesting" answer. Inference rewards **boring precision**, not narrative flair.
+3. Skipping the qualifiers. Words like "can," "can," "in standard papers," and "in some cases" are load-bearing; removing them turns an inference into an overreach.
+4. Treating the last paragraph as decisive. Inference answers in many papers hinge on a mid-paragraph qualifying clause rather than the conclusion.
+5. Ignoring dual-passage interactions. On comparative RC sets, an inference must be compatible with **both** passages.
 
-**Sample question stem:**
-- "Which of the following is most strongly supported by the passage?"
-- "The passage provides the strongest support for which of the following?"
+#### Advanced Practice Prompts
+1. Take any official LSAT RC passage and write out every quantifier ("some," "many," "all," "none," "in many papers") in a margin list. For each answer choice, rewrite it substituting the passage's exact quantifier — any mismatch is a guaranteed elimination.
+2. After finishing a section, revisit every "Can Be True" you marked. Re-test each against the strict "must hold under every reading" rule. Roughly one in three will collapse into an inference with sharper phrasing.
 
-### 3. Cannot Be True (Least Common, Often Hardest)
+> ⚠️ **Examiner Trap:** Advanced test-takers fail inference questions not by missing easy inferences but by **over-reasoning** — importing a chain of three logical steps when the passage only supports two. Limit yourself to one inferential leap beyond the stated text.
 
-These questions ask: "Which of the following cannot possibly be true, given the passage?" You must eliminate every answer choice that could be true and find the one that definitively contradicts the passage.
+---
 
-**Key test**: Find the answer that conflicts with the passage — not the one that is merely unlikely or unestablished.
+## Continue your study
 
-**Sample question stem:**
-- "Which of the following cannot be true based on the passage?"
-- "Which of the following statements is most clearly contradicted by the passage?"
-
-## A Worked Example
-
-**Passage:**
-> "Historians of ancient Athens have traditionally argued that the practice of ostracism — the public exile of citizens deemed dangerous to the state — was a cornerstone of democratic governance. Under this view, ostracism served as a safety valve that prevented the accumulation of excessive political power. However, a revisionist school of thought contends that ostracism was rarely invoked for its stated democratic purpose. Examining the historical record, these scholars note that of the roughly 11,000 ostracism votes recorded between 487 and 417 BCE, only 19 resulted in actual exile. They argue that the procedure was more a ritualized display of democratic ideology than an effective institutional mechanism."
-
-**Question:** "It can be inferred from the passage that the author would most likely agree with which of the following statements?"
-
-**Evaluating answer choices:**
-
-**(A) "Ostracism was the most important democratic institution in ancient Athens."**
-No support. The passage never ranks institutions by importance.
-
-**(B) "The revisionist interpretation challenges the traditional view of ostracism."**
-Yes — this is directly supported. The passage explicitly contrasts the revisionist school with the traditional view, noting that the former challenges the latter.
-
-**(C) "The rarity of actual exile proves that ostracism had no political effect."**
-No — the passage does not go this far. It says the revisionists argue this, but the author presents it as a contested interpretation, not a settled conclusion.
-
-**(D) "All historians now accept the revisionist account."**
-No — the passage says "a revisionist school of thought contends," implying it is one school among others, not a consensus.
-
-## The Difference Between What the Passage Says and What It Implies
-
-Many test-takers struggle with inference questions because they do not distinguish between three levels of textual support:
-
-1. **Stated explicitly**: The passage directly says X. (This is too simple for inference questions but can be useful for elimination.)
-2. **Implied directly**: X is a necessary logical consequence of what the passage says. The passage does not state X directly, but X must be true if the passage is true. (This is what inference questions test.)
-3. **Suggested or plausible**: X is a reasonable speculation or conjecture that fits the passage but is not logically required. (This is NOT enough for LSAT inference questions.)
-
-The LSAT lives in category 2. You must be able to distinguish a necessary implication from a reasonable speculation.
-
-## Techniques for Inference Questions
-
-### Paraphrase the Passage's Logical Flow
-
-Before answering, ask yourself: "What must be true if this passage is true?" Write down or mentally note two or three things that necessarily follow from the passage. Then compare your list to the answer choices.
-
-### Use Answer Choice Negation
-
-For Must Be True questions, try negating each answer choice and asking: "If this were false, would the passage still be intact?" If the negation of an answer choice does not damage the passage, then the original answer is not a must-be-true.
-
-### Be Wary of Answer Choices with Absolute Language
-
-Words like "always," "never," "must," "certainly," and "proves" signal that an answer is making a stronger claim than the passage typically supports. LSAT passages are usually carefully qualified — their conclusions tend to be hedged with words like "suggests," "appears," "may," and "often." Answer choices that mirror this qualified language are more likely to be correct.
-
-### Eliminate Answers That Introduce New Information
-
-An inference must be grounded entirely in the passage. If an answer choice mentions a concept, person, or data point that the passage does not discuss, it is almost certainly wrong.
-
-## Common Trap: The "Reasonable But Unproven" Answer
-
-This is the most seductive wrong answer pattern on inference questions. The answer choice sounds plausible — it fits what you know about the topic, it feels like a natural extension of the passage. But it is not supported by the passage itself. 
-
-The LSAT exploits test-takers' tendency to choose answers that align with their worldview or prior knowledge rather than answers that are strictly supported by the text. On inference questions, discipline yourself to ask: "Is this answer *required* by the passage, or merely *compatible* with it?" If it is only compatible, it is wrong.
-
-## Distinguishing Inference from Assumption
-
-An assumption is something the passage relies on but does not state — a hidden premise that bridges the gap between evidence and conclusion. An inference, by contrast, is something that follows from what the passage explicitly says. This distinction matters: you cannot use an unstated assumption to support an inference answer.
-
-## Exam Strategy Summary
-
-- Must Be True: Find the answer that must be true; eliminate anything that could be false
-- Most Strongly Supported: Find the answer with the best textual support, even if not certain
-- Cannot Be True: Find the answer that contradicts the passage; eliminate everything that could be true
-- Always return to the passage as your single source of truth
-- Trust the logic, not your intuition about what seems likely
+- **[View this topic in your LSAT India roadmap](/roadmap/?exam=lsat&duration=1mo)** — see where "Inference Questions" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=lsat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[LSAT India exam overview](/exams/lsat/)** — pattern, eligibility, and syllabus
+- **[All Reading-Comp notes](/notes/lsat/reading-comp/)** — browse sibling topics in this subject
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

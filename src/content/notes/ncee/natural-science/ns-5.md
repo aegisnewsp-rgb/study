@@ -12,7 +12,7 @@ topicName: "Matter: States and Properties"
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.606501"
-lastUpdated: "2026-06-24"
+lastUpdated: "2026-09-15"
 diagramPrompt: "Educational diagram illustrating Matter: States and Properties with clear labels, white background, exam-style illustration"
 
 
@@ -25,57 +25,120 @@ diagramPrompt: "Educational diagram illustrating Matter: States and Properties w
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-- **Matter** is anything that has **mass** and occupies **space** (volume). It is made of tiny **particles** in constant motion.
-- Three common states: **solid**, **liquid**, **gas**. They differ in how strongly particles are held together and how freely they move.
-- **Density formula** you must memorise: **ρ = m / V**, where *ρ* (rho) is density in g/cm³, *m* is mass in grams, *V* is volume in cm³.
-- **State changes to know**: melting (solid → liquid), freezing (liquid → solid), boiling/evaporation (liquid → gas), condensation (gas → liquid), and **sublimation** (solid → gas directly, e.g. camphor, iodine).
-- High-yield NCEE pointers: (1) gases are the most easily **compressed**, solids the least; (2) **diffusion** is fastest in gases, slowest in solids; (3) change of state is a **physical change** — mass is conserved.
+Matter is anything that has **mass** (kg) and occupies **volume** (m³). It commonly exists as a **solid**, **liquid**, or **gas**, each distinguished by how tightly its particles are packed and how freely those particles move.
+
+- **Solid** — fixed shape, fixed volume. Particles vibrate in fixed positions.
+- **Liquid** — fixed volume, takes container's shape. Particles slide past one another.
+- **Gas** — no fixed shape, no fixed volume. Particles move randomly, widely spaced.
+- **Density formula:** ρ = m / V, where ρ is density (kg/m³), m is mass (kg), V is volume (m³). In g/cm³: 1 g/cm³ = 1000 kg/m³.
+- **Relative density** = ρ_substance ÷ ρ_water (no unit).
+
+> 💡 **High-Yield Memory Hook:** "**S**olid **S**tays, **L**iquid **L**evels, **G**as **G**oes" — Solids keep their Shape, Liquids keep their Level (volume), and Gas goes everywhere (fills any container).
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-#### Particle arrangement in each state
-In a **solid**, particles are packed tightly in a fixed, orderly pattern. They **vibrate** about fixed positions but cannot move from place to place, so a solid keeps a fixed shape and a fixed volume. In a **liquid**, particles are still close together but have enough energy to slide past one another. A liquid has a **fixed volume** but takes the **shape of its container**. In a **gas**, particles are far apart, move rapidly and randomly in all directions, and only attract each other weakly during collisions. A gas has neither fixed shape nor fixed volume — it fills any container and can be **compressed** easily.
+#### Core Definitions
 
-#### Changes of state
-Adding heat gives particles more kinetic energy, allowing them to overcome the forces holding them together. The main changes are:
+Matter is the physical substance of the universe, quantified by **mass** (a scalar measure of the amount of matter, in kilograms) and **volume** (the space it occupies, in cubic metres). The **kinetic theory of matter** states that all matter is made of tiny particles in constant motion; the amount of motion determines the state.
 
-| Change | From → To | Occurs at |
+#### The Three Classical States Compared
+
+| Property | Solid | Liquid | Gas |
+|---|---|---|---|
+| Particle arrangement | Tightly packed, orderly | Closely packed, disordered | Widely spaced, random |
+| Particle motion | Vibrate about fixed positions | Slide past one another | Move freely at high speed |
+| Shape | Fixed | Takes container's shape | Fills entire container |
+| Volume | Fixed | Fixed | Fills available volume |
+| Compressibility | Negligible | Very low | High |
+| Density (typical) | High | Moderate | Low |
+| Inter-particle forces | Very strong | Moderate | Negligible |
+
+#### Density and Relative Density
+
+Density (ρ) is mass per unit volume. The SI unit is **kg/m³**, though **g/cm³** is common in NCEE problems. Water at 4 °C has ρ = 1000 kg/m³ = 1 g/cm³, which is why **relative density** (also called **specific gravity**) of a substance is found by dividing its density by that of water — yielding a dimensionless number.
+
+| Quantity | Formula | SI Unit |
 |---|---|---|
-| Melting | solid → liquid | melting point |
-| Freezing | liquid → solid | same melting/freezing point |
-| Boiling | liquid → gas (throughout the liquid) | boiling point |
-| Evaporation | liquid → gas (at the surface, below boiling point) | any temperature |
-| Condensation | gas → liquid | boiling point |
-| Sublimation | solid → gas (e.g. camphor, iodine, ammonium chloride) | — |
+| Density | ρ = m ÷ V | kg/m³ |
+| Mass | m = ρ × V | kg |
+| Volume | V = m ÷ ρ | m³ |
+| Relative density | RD = ρ_substance ÷ ρ_water | dimensionless |
 
-During any change of state, the **temperature stays constant** while heat is being absorbed (melting, boiling) or released (freezing, condensation), because the energy goes into breaking or forming forces between particles, not into speeding them up.
+#### Changes of State
 
-#### Density and physical change
-**Density = mass ÷ volume (ρ = m / V)**. It is a physical property that identifies a substance. For the same substance, the solid is usually denser than the liquid, which is denser than the gas — a fact that explains why ice floats on water (water is unusual: it is densest at 4 °C). Changes of state do **not** create a new substance, so they are **physical changes**; the **mass is conserved**.
+A change of state is a **physical change** — mass is conserved because no matter is created or destroyed, only rearranged.
 
-#### Typical NCEE question patterns
-Expect MCQs that: (a) identify the state from a description of particle spacing; (b) pick the correct process name from a diagram of arrows between states; (c) ask which state diffuses fastest or is most compressible; (d) test the difference between evaporation and boiling.
+- **Melting:** solid → liquid (at melting point)
+- **Freezing:** liquid → solid
+- **Evaporation:** liquid → gas (surface only, any temperature)
+- **Boiling:** liquid → gas (throughout liquid, at boiling point)
+- **Condensation:** gas → liquid
+- **Sublimation:** solid → gas (e.g. mothballs, dry ice)
+- **Deposition:** gas → solid (e.g. frost forming on cold surfaces)
+
+#### Mass vs Weight
+
+**Mass** (kg) is constant everywhere; **weight** (N) is the gravitational force on a mass and varies with the local gravitational field. W = m × g, where g ≈ 9.8 m/s² on Earth.
+
+#### 🎯 Exam-Level Worked Problem
+
+**Question:** A metal block has a mass of 156 g and a volume of 20 cm³. Calculate (a) its density in g/cm³ and (b) its density in kg/m³. (c) If water has a density of 1 g/cm³, what is the relative density of the metal?
+
+#### Solution:
+
+(a) ρ = m ÷ V = 156 g ÷ 20 cm³ = **7.8 g/cm³**.
+
+(b) Convert: 7.8 g/cm³ × 1000 = **7800 kg/m³**.
+
+(c) Relative density = 7.8 ÷ 1 = **7.8** (dimensionless).
+
+> ⚠️ **Examiner Trap:** Students frequently write "7800 g/cm³" when converting, forgetting that 1 g/cm³ equals 1000 kg/m³, not the other way around. Always multiply g/cm³ by 1000 to get kg/m³.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-#### Why properties differ — the kinetic theory
-The differences between the three states come from two things: the **average kinetic energy** of the particles (linked to temperature) and the **strength of the forces** between them. In a solid, inter-particle forces are strong relative to kinetic energy, locking particles in position. In a liquid, forces are weaker, so particles can slide but still stay in contact. In a gas, kinetic energy dominates; particles are almost free, collide elastically with each other and the container walls, and the collisions with the walls produce **gas pressure**. This model also explains why heating a gas in a sealed container increases pressure (particles move faster and hit the walls harder and more often) — useful when NCEE questions link gases to pressure and temperature.
+#### Edge Cases and Exceptions
 
-#### Diffusion, evaporation and sublimation — common traps
-**Diffusion** is the net movement of particles from a region of higher concentration to one of lower concentration. Because it depends on particle motion, diffusion is fastest in gases, slower in liquids, and extremely slow in solids. A common wrong answer in NCEE is "diffusion does not occur in solids"; in reality, it is just very slow. **Evaporation** happens only at the surface of a liquid, at any temperature below the boiling point; **boiling** happens throughout the liquid, only at the boiling point. **Sublimation** is the direct solid-to-gas change with no liquid stage — the test usually offers a real example (camphor, naphthalene, dry ice, ammonium chloride) and asks for the process name.
+1. **Anomalous expansion of water:** Between 0 °C and 4 °C, water *expands* on cooling instead of contracting. Ice therefore floats on liquid water because its density (~0.92 g/cm³) is lower than that of water at 4 °C (~1.00 g/cm³).
+2. **Plasma as a fourth state:** At very high temperatures atoms ionise into charged particles — the Sun and lightning bolts are plasma. NCEE does not test plasma, but recognising its existence shows mastery.
+3. **Sublimation at atmospheric pressure:** Substances like iodine, naphthalene, and solid CO₂ (dry ice) skip the liquid phase entirely under normal pressure.
+4. **Evaporation vs boiling — the kinetic distinction:** Evaporation removes high-energy molecules from the surface only, so it occurs at any temperature and cools the remaining liquid. Boiling occurs throughout the bulk liquid once vapour pressure equals atmospheric pressure.
 
-#### Worked micro-example
-A metal block has mass 156 g. When placed in a measuring cylinder containing 50 cm³ of water, the water level rises to 68 cm³. Find the density. Volume of block = 68 − 50 = 18 cm³. Density = 156 ÷ 18 = **8.67 g/cm³** — a value close to iron (≈ 7.87 g/cm³), showing how density can identify a substance.
+#### Common Exam Traps
 
-#### Two practice prompts
-1. A student leaves a wet cloth in the sun. Name the process by which the water disappears, and explain why this happens only at the surface and at temperatures below 100 °C.
-2. A sealed syringe is half-filled with air and the plunger is pushed in. Use particle theory to explain why the air is harder to compress when the plunger is already pushed in deeply than at the start.
+| Misconception | Correct Fact |
+|---|---|
+| "Gases have no mass." | Gases have mass and exert pressure; a balloon weighs more when inflated. |
+| "Density = weight ÷ volume." | Density uses **mass**, not weight (units must be kg/m³ or g/cm³). |
+| "Boiling and evaporation are the same." | Boiling happens at a specific temperature throughout the liquid; evaporation happens only at the surface, at any temperature. |
+| "Heating always expands a substance." | Water between 0 °C and 4 °C contracts when warmed — an exception tested every few years. |
+| "Changes of state are chemical changes." | They are **physical**; the substance's chemical identity is preserved. |
+
+#### Connections to Adjacent Topics
+
+- **Heat and temperature:** Temperature rise increases particle kinetic energy, which causes melting, then boiling.
+- **Forces and pressure:** Gases exert pressure because particles collide with container walls; this links to the gas laws topic.
+- **Mixtures and separation:** Density differences let us separate immiscible liquids (e.g. oil and water) using a separating funnel.
+
+#### Advanced Practice Prompts
+
+1. A block of wood (ρ = 0.65 g/cm³) floats on water. A metal block of mass 312 g and volume 40 cm³ is tied to the wood so that both are fully submerged. Will the combined system sink? Justify with calculations.
+2. Explain, using the kinetic theory, why a smell from perfume reaches the far corner of a room within seconds, even though the bottle is several metres away.
+
+> 📌 **Formula Check:** Always carry units through every calculation. Mixing kg with cm³, or g with m³, is the single most common route to a wrong answer in NCEE density questions.
 
 ---
+
+## Continue your study
+
+- **[View this topic in your NCEE (National Common Entrance Examination) roadmap](/roadmap/?exam=ncee&duration=1mo)** — see where "Matter: States and Properties" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ncee&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NCEE (National Common Entrance Examination) exam overview](/exams/ncee/)** — pattern, eligibility, and syllabus
+- **[All Natural Science notes](/notes/ncee/natural-science/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

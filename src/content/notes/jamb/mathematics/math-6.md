@@ -11,161 +11,94 @@ topicName: "Trigonometry: Solutions of Triangles"
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.733877"
-lastUpdated: 2026-03-24
+lastUpdated: "2026-09-15"
 diagramPrompt: "Mathematical diagram showing Trigonometry: Solutions of Triangles concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style"
 
 
 
 
 ---
-# "Trigonometry: Solutions of Triangles"
+
+# Trigonometry: Solutions of Triangles
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Trigonometry: Solutions of Triangles** — Quick Facts
+**Solutions of Triangles** means finding the missing sides or angles of any triangle from the given data, using three rule families plus the angle sum $A + B + C = 180°$ ($\pi$ rad).
 
-**Sine Rule (Law of Sines):**
-$$\frac{a}{\sin A} = \frac{b}{\sin B} = \frac{c}{\sin C} = 2R$$
+- **Pick the rule by what is given:**
+  - Two angles + one side (AAS/ASA) or two sides + a non-included angle (SSA) → **Sine Rule**: $\dfrac{a}{\sin A} = \dfrac{b}{\sin B} = \dfrac{c}{\sin C} = 2R$.
+  - Three sides (SSS) or two sides + included angle (SAS) → **Cosine Rule**: $a^{2}=b^{2}+c^{2}-2bc\cos A$.
+  - Two sides + included angle → **Area**: $\text{Area} = \tfrac{1}{2}bc\sin A$ (m²).
+  - Three sides, no angle → **Heron's formula**: $\text{Area}=\sqrt{s(s-a)(s-b)(s-c)}$, where $s=\tfrac{a+b+c}{2}$.
 
-Where $R$ is the circumradius. Use when you know: 2 angles + 1 side, or 2 sides + 1 opposite angle.
-
-**Cosine Rule (Law of Cosines):**
-$$a^2 = b^2 + c^2 - 2bc\cos A$$
-$$b^2 = a^2 + c^2 - 2ac\cos B$$
-$$c^2 = a^2 + b^2 - 2ab\cos C$$
-
-Use when you know: 2 sides + included angle, or all three sides.
-
-**Area of Triangle:**
-$$K = \frac{1}{2}ab\sin C = \frac{1}{2}bc\sin A = \frac{1}{2}ac\sin B$$
-
-**Heron's Formula:**
-$$K = \sqrt{s(s-a)(s-b)(s-c)}$$
-
-where $s = \frac{a+b+c}{2}$ (semi-perimeter)
-
-**Sine Rule Ambiguous Case (SSA):**
-When given $a$, $b$, and angle $A$:
-- If $a < b\sin A$: no solution
-- If $a = b\sin A$: one solution (right triangle)
-- If $b < a < b\sin A$: two solutions (ambiguous case)
-- If $a \geq b$: one solution
-
-⚡ **JAMB Exam Tip:** Use Sine Rule when the question gives two angles. Use Cosine Rule when the question gives two sides and the included angle.
-
----
+> 💡 **High-Yield Memory Hook:** **"SSS or SAS → Cosine; AAS, ASA or SSA → Sine; Three sides only → Heron."** Use the angle that is *included* (between two known sides) as the trigger for Cosine; otherwise reach for Sine.
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> For students who want genuine understanding.
+> Standard content for students with a few days to months.
 
-**Trigonometry: Solutions of Triangles** — Study Guide
+#### Core Decision Framework
 
-**Sine Rule Worked Example:**
+The Sine Rule and Cosine Rule solve every standard JAMB triangle problem once you match the rule to the data type. The Sine Rule relates each side to the sine of its **opposite** angle; the Cosine Rule ties one side to the angle opposite it using the **two sides that include** that angle. The Law of Tangents, $\tan\!\left(\tfrac{A-B}{2}\right)=\dfrac{a-b}{a+b}\cot\!\tfrac{C}{2}$, is rarely tested directly but underlies half-angle identities.
 
-In triangle ABC, $A = 30°$, $B = 45°$, and $a = 10$ cm. Find $b$.
+| Given data | Best tool | Why it works |
+|---|---|---|
+| AAS or ASA | Sine Rule + angle sum | Two angles known ⇒ third is $180°-A-B$, then $\dfrac{a}{\sin A}=\dfrac{b}{\sin B}$. |
+| SSA (ambiguous) | Sine Rule + check | $\sin B = \dfrac{b\sin A}{a}$; if $0<\sin B<1$, **two** triangles may exist. |
+| SSS | Cosine Rule (find angle) then Sine Rule | $\cos A=\dfrac{b^{2}+c^{2}-a^{2}}{2bc}$ gives the largest angle safely. |
+| SAS | Cosine Rule directly | $a^{2}=b^{2}+c^{2}-2bc\cos A$. |
+| Three sides, area wanted | Heron's formula | $s=\tfrac{a+b+c}{2}$, area $=\sqrt{s(s-a)(s-b)(s-c)}$. |
 
-$\frac{a}{\sin A} = \frac{b}{\sin B}$
-$\frac{10}{\sin 30°} = \frac{b}{\sin 45°}$
-$\frac{10}{0.5} = \frac{b}{0.7071}$
-$20 = \frac{b}{0.7071}$
-$b = 14.14$ cm
+#### Half-Angle Identities (Standard Derivations)
 
-**Cosine Rule Worked Example:**
+Once the semi-perimeter $s$ is known, half-angle sines and cosines collapse the Cosine Rule work:
+$$\cos\!\tfrac{A}{2}=\sqrt{\dfrac{s(s-a)}{bc}}, \qquad \sin\!\tfrac{A}{2}=\sqrt{\dfrac{(s-b)(s-c)}{bc}}.$$
+Here $s$ is in metres (m), $a,b,c$ are in metres, and $A$ is the angle (rad or °) opposite side $a$.
 
-In triangle ABC, $a = 8$ cm, $b = 5$ cm, and $C = 60°$. Find $c$.
+#### 🎯 Exam-Level Worked Problem
 
-$c^2 = a^2 + b^2 - 2ab\cos C$
-$c^2 = 8^2 + 5^2 - 2(8)(5)\cos 60°$
-$c^2 = 64 + 25 - 80(0.5)$
-$c^2 = 89 - 40 = 49$
-$c = 7$ cm
+**Question:** In triangle $PQR$, $p=8$ cm, $q=5$ cm and $\angle R = 60°$. Find the area of the triangle and the length of side $r$ correct to one decimal place.
 
-**Ambiguous Case (SSA) Worked Example:**
+#### Solution:
+1. Area uses SAS: $\text{Area} = \tfrac{1}{2}pq\sin R = \tfrac{1}{2}(8)(5)\sin 60° = 20 \times \tfrac{\sqrt{3}}{2} = 10\sqrt{3} \approx 17.3 \text{ cm}^{2}$.
+2. Side $r$ (opposite the known included angle) needs the Cosine Rule:
+   $$r^{2}=p^{2}+q^{2}-2pq\cos R = 64+25-80\cos 60° = 89-80(0.5)=49.$$
+3. So $r = \sqrt{49}=7.0$ cm.
 
-Given $A = 30°$, $a = 5$ cm, $b = 8$ cm.
-
-$b\sin A = 8 \times 0.5 = 4$ cm
-
-Since $a = 5 > b\sin A = 4$, and $a < b = 8$, there are two possible triangles.
-
-$h = b\sin A = 4$ cm
-First solution: $\sin B = \frac{5\sin 30°}{8} = 0.3125$, $B_1 = 18.2°$
-Second solution: $B_2 = 180° - 18.2° = 161.8°$
-
-⚡ **Common Student Mistake:** In the ambiguous case, students forget the second possible angle. Always check if $\sin B < 1$ and if $A + B < 180°$.
-
----
+> ⚠️ **Examiner Trap:** Students often grab the Sine Rule here because they see $\sin 60°$. But $\angle R$ is *included* between $p$ and $q$, so the Cosine Rule — not the Sine Rule — gives $r$ directly and avoids an ambiguous second solution.
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-**Trigonometry: Solutions of Triangles** — Comprehensive Notes
+#### Ambiguous Case (SSA) — Boundary Conditions
 
-**Derivation: Sine Rule**
+When two sides $a, b$ and a non-included angle $A$ are known, set $h = b\sin A$. The number of valid triangles depends on $a$ relative to $h$ and $b$:
 
-Consider triangle ABC with area $K$.
+1. $a < h$: no triangle (side too short to reach the opposite side).
+2. $a = h$: exactly **one** right triangle ($\angle B = 90°$).
+3. $h < a < b$: **two** triangles (the "ambiguous case") — both $\angle B$ and $180°-\angle B$ are valid.
+4. $a \ge b$: **one** triangle ($\angle B$ is acute).
 
-$K = \frac{1}{2}bc\sin A = \frac{1}{2}ac\sin B = \frac{1}{2}ab\sin C$
+JAMB tests this by giving SSA data and asking for a side that has two possible values; picking only one costs the mark.
 
-Dividing by $\frac{1}{2}abc$:
-$$\frac{\sin A}{a} = \frac{\sin B}{b} = \frac{\sin C}{c}$$
+#### Advanced Traps and Edge Cases
 
-**Derivation: Cosine Rule**
+1. **Degree–radian conversion.** JAMB uses degrees. $\sin 30°=0.5$ but $\sin 30=−0.988$ (radians). Always work in degrees unless the stem specifies otherwise.
+2. **Early rounding.** Keep at least 4 decimal places in intermediate values; rounding $\sin 37°$ to $0.60$ at step 1 can shift a final answer by >1%.
+3. **Included-angle confusion.** In SAS, $\cos A$ uses the angle *between* $b$ and $c$. If you are given $\angle B$ but sides $a,c$, switch to the Sine Rule first.
+4. **Angle-sum sanity check.** After using the Sine Rule, verify $A+B+C=180°$ exactly; a sum of $181°$ means a mis-assigned side or a dropped sine-sign branch.
+5. **Heron over negative bracket.** Heron's formula needs $s>a, s>b, s>c$. If a side exceeds $s$, the "triangle" is invalid — a useful self-check.
 
-Place triangle ABC with side $a$ along the x-axis.
+#### Practice Prompts
 
-Using coordinates: $A = (0, 0)$, $B = (c, 0)$, $C = (b\cos A, b\sin A)$
+1. A triangle has $a=7$, $b=9$, $A=30°$. Show that two valid values of $\angle B$ exist, and compute both.
+2. Three sides $13$, $14$, $15$ (units m) are measured. Find the largest angle using the Cosine Rule, then the area using Heron's formula, and confirm they agree.
 
-$a^2 = (b\cos A - c)^2 + (b\sin A)^2$
-$a^2 = b^2\cos^2 A - 2bc\cos A + c^2 + b^2\sin^2 A$
-$a^2 = b^2(\cos^2 A + \sin^2 A) + c^2 - 2bc\cos A$
-$a^2 = b^2 + c^2 - 2bc\cos A$
+## Continue your study
 
-**Circumradius Derivation:**
+- **[View this topic in your JAMB UTME roadmap](/roadmap/?exam=jamb&duration=1mo)** — see where "Trigonometry: Solutions of Triangles" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=jamb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[JAMB UTME exam overview](/exams/jamb/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/jamb/mathematics/)** — browse sibling topics in this subject
 
-From the Sine Rule $\frac{a}{\sin A} = 2R$:
-
-Place triangle in a circle of radius $R$.
-Chord $a = 2R\sin A$, so $R = \frac{a}{2\sin A}$.
-
-**Half-Angle Formulas (for solving triangles):**
-
-$$\sin\frac{A}{2} = \sqrt{\frac{(s-b)(s-c)}{bc}}$$
-$$\cos\frac{A}{2} = \sqrt{\frac{s(s-a)}{bc}}$$
-
-These are useful when finding angles from given sides.
-
-**Napier's Analogies (for solving triangles):**
-$$\frac{\sin\frac{A-B}{2}}{\sin\frac{A+B}{2}} = \frac{a-b}{a+b}$$
-
-**Practical Applications:**
-
-**Surveying Problem:** From point P, the angle of elevation to the top of a tower is $30°$. Walking 50 m towards the tower, the angle becomes $45°$. Find the height.
-
-Solution: Let height = $h$.
-At first position: $\tan 30° = h/x$, so $x = h/\tan 30° = h\sqrt{3}$
-At second position: $\tan 45° = h/(x - 50)$, so $x - 50 = h$
-Substituting: $h\sqrt{3} - 50 = h$
-$h(\sqrt{3} - 1) = 50$
-$h = 50/(\sqrt{3} - 1) = 68.3$ m
-
-**Navigation Problem:** Ship A sails 20 km on a bearing of $030°$, then Ship B sails 15 km on a bearing of $120°$. Find distance between ships.
-
-Resolve into components:
-Ship A: East = $20\cos 30° = 17.32$ km North = $20\sin 30° = 10$ km
-Ship B: North component = $15\sin 60° = 12.99$ km East component = $15\cos 60° = 7.5$ km
-
-**JAMB Pattern Analysis (2016-2024):**
-- 2016: Sine rule with two angles given
-- 2018: Cosine rule with two sides and included angle
-- 2020: SSA ambiguous case (two solutions)
-- 2022: Area calculation using $\frac{1}{2}ab\sin C$
-- 2024: Heron's formula for area
-
-**Trigonometric Identities Useful in Triangle Problems:**
-- $\sin(A+B) = \sin A\cos B + \cos A\sin B$
-- $\cos(A+B) = \cos A\cos B - \sin A\sin B$
-- $A + B + C = 180°$ (angles in a triangle)
-
-⚡ **Exam Strategy:** Draw the triangle and label known values. Circle the known information and box what you need. Choose Sine Rule (SSB) or Cosine Rule (SAS or SSS). Check for ambiguous case when using SSA.
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

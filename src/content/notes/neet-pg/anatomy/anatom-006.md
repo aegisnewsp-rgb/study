@@ -8,7 +8,7 @@ topicName: "Cardiovascular System"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-09-14"
+lastUpdated: "2026-09-15"
 ---
 
 # Cardiovascular System
@@ -16,98 +16,93 @@ lastUpdated: "2026-09-14"
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-The **cardiovascular system** is a closed circulatory network: a four-chambered muscular pump (heart) connected to arteries, capillaries, and veins that move blood, gases, hormones, and wastes. NEET PG Anatomy tests structural anatomy, not physiology minutiae.
+The cardiovascular system is a **closed circulatory loop** built around a four-chambered muscular pump (the heart), a branching network of blood vessels, and the blood itself. It delivers oxygen and nutrients, removes carbon dioxide and metabolic waste, and sustains homeostasis through Starling forces across capillary walls.
 
-- **Chambers:** Right atrium (RA) ← SVC/IVC/coronary sinus; Left atrium (LA) ← 4 pulmonary veins; Right ventricle (RV) → pulmonary trunk; Left ventricle (LV) → aorta. Wall thickness ratio LV : RV ≈ 3 : 1.
-- **Valves:** Right AV = **tricuspid**; Left AV = **mitral (bicuspid)**; semilunar = **pulmonary** and **aortic**. Only AV valves have chordae tendineae and papillary muscles.
-- **Conducting system order:** SA node → AV node (0.3 s delay) → Bundle of His → right/left bundle branches → **Purkinje fibres**.
-- **Fetal shunts:** *foramen ovale* (RA→LA), *ductus arteriosus* (pulmonary trunk→aortic arch), *ductus venosus* (umbilical vein→IVC).
-- **Key formula:** CO = SV × HR; EF (%) = (SV / EDV) × 100; MAP = DBP + ⅓(SBP − DBP).
+- **Cardiac Output (CO)** = HR × SV, where HR (heart rate) is in beats/min and SV (stroke volume) in mL/beat; a normal adult at rest produces roughly 5 L/min.
+- **Mean Arterial Pressure (MAP)** = Diastolic BP + (1/3)(Systolic − Diastolic) BP, expressed in mmHg; this is the perfusion pressure that drives organ flow.
+- **Ejection Fraction (EF)** = (SV / EDV) × 100, normal ≈ 55–70%; values below 40% flag systolic dysfunction.
+- **Stroke Volume (SV)** = End-Diastolic Volume (EDV) − End-Systolic Volume (ESV), in mL.
 
-> 💡 **High-Yield Memory Hook:** "**SAL** pumps, then **PAB**" — **S**A node → **A**V node → **B**undle → **P**urkinje. Fetal shunts: "*Foramen ovale = Atria*, *Ductus arteriosus = Artery-to-Artery* (pulmonary trunk → arch), *Ductus venosus = Vein-to-Vein* (umbilical → IVC)."
+> 💡 **High-Yield Memory Hook:** "**2 Atria receive, 2 Ventricles throw**" — and the **left ventricle wall is 3× thicker** because it pumps against systemic (≈120 mmHg) pressure, while the right ventricle faces the low-resistance pulmonary circuit (≈25 mmHg).
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-#### Cardiac Wall and Pericardium
+#### Chambers, Walls and Valves
 
-The heart wall has three layers: **endocardium** (inner endothelium + subendocardial conduction tissue), **myocardium** (cardiac muscle, thickest in LV), and **epicardium** (visceral layer of serous pericardium). The pericardium has a tough outer **fibrous pericardium** and a double-layered **serous pericardium** (parietal + visceral/epicardium), separated by pericardial fluid. Two sinuses are surgically important: the **transverse sinus** (between aorta/pulmonary trunk anteriorly and SVC/atria posteriorly — used to cross-clamp the great vessels) and the **oblique sinus** (posterior to the left atrium, bounded by pulmonary veins).
+The heart sits in the **middle mediastinum**, two-thirds to the left of the midline, enclosed by the pericardium. The wall has three layers: **endocardium** (inner endothelial lining), **myocardium** (striated cardiac muscle, thickest in the left ventricle), and **epicardium** (visceral serous pericardium). The **fibrous pericardium** is the tough outer sac; the **serous pericardium** has parietal and visceral layers separated by 20–25 mL of serous fluid in the pericardial cavity.
 
-#### Valves and Skeleton
+Four valves enforce unidirectional flow. The **AV valves** (tricuspid on the right, mitral/bicuspid on the left) close during systole; the **semilunar valves** (pulmonary, aortic) close during diastole. Auscultation sites sit **downstream** of the actual valve, not directly over it — a classic exam trap.
 
-Atrioventricular valves (**tricuspid, mitral**) are anchored by **chordae tendineae** to **papillary muscles**, preventing prolapse. Semilunar valves (**aortic, pulmonary**) have no chordae. Valve auscultation sites differ from anatomical location — a classic exam trap.
+#### Conducting System Sequence
 
-| Valve | Anatomical Location | Auscultation Site |
+SA node (≈70–75 impulses/min, upper crista terminalis near SVC opening) → AV node (in interatrial septum near coronary sinus ostium, **0.1 s delay** for atrial emptying) → **Bundle of His** → right and left bundle branches → **Purkinje fibres** (subendocardial). The moderator band in the right ventricle carries the right bundle branch to the anterior papillary muscle.
+
+#### Coronary Circulation
+
+The right coronary artery (RCA) arises from the right aortic sinus; it supplies the **SA node in 60%** and **AV node in 80%** of people (right-dominant circulation, 60–70% of population). The left coronary artery divides into the **LAD** (anterior 2/3 of interventricular septum, anterior wall) and **circumflex** (left atrium, lateral wall). Cardiac veins drain into the **coronary sinus**, which empties into the **right atrium**.
+
+| Structure | Location | Function / Hallmark |
 |---|---|---|
-| Aortic | Left 3rd ICS, sternal border | Right 2nd ICS, sternal border |
-| Pulmonary | Left 3rd ICS, sternal border | Left 2nd ICS, sternal border |
-| Tricuspid | Right 4th–5th ICS, sternal border | Lower left sternal border (4th–5th ICS) |
-| Mitral | Left 5th ICS, midclavicular (apex) | Apex (5th ICS, midclavicular) |
+| Fossa ovalis | Right atrium (interatrial septum) | Remnant of foramen ovale |
+| Ligamentum arteriosum | Between aortic arch and pulmonary trunk | Remnant of ductus arteriosus |
+| Ligamentum venosum | Within the liver | Remnant of ductus venosus |
+| Moderator band | Right ventricle cavity | Carries right bundle branch |
+| Coronary sinus | Posterior right atrioventricular groove | Drains into right atrium |
 
-#### Conducting System and Coronary Supply
+#### Blood Flow Analogue
 
-The SA node (pacemaker, ~70 bpm) initiates the impulse; the AV node delays it 0.1–0.3 s to allow atrial emptying. The impulse then travels down the **Bundle of His**, splits into right and left bundle branches, and reaches ventricular myocardium via **Purkinje fibres** (modified cardiomyocytes — *not* nerves). Coronary supply: **LCA → LAD + circumflex** (left atrium, LV, anterior ⅔ of interventricular septum); **RCA** supplies RA, RV, posterior ⅓ of septum, SA node (~60%), and AV node (~80%).
-
-#### Fetal Circulation Shunts
-
-Placental oxygenated blood reaches the IVC via the **ductus venosus**, bypasses the liver, enters the RA, crosses the **foramen ovale** to LA, and goes to LV → aorta. From the pulmonary trunk, blood shunts via the **ductus arteriosus** to the aortic arch. After birth, raised O₂ closes the ductus arteriosus (functionally within days, anatomically weeks); foramen ovale closes as the septum primum fuses with septum secundum (fossa ovalis).
-
-1. Ductus arteriosus closure → ligamentum arteriosum.
-2. Ductus venosus closure → ligamentum venosum.
-3. Foramen ovale closure → fossa ovalis.
-4. Umbilical arteries → medial umbilical ligaments; umbilical vein → ligamentum teres hepatis.
+**Q = ΔP / R** mirrors Ohm's law; Q is flow (mL/min), ΔP the pressure gradient (mmHg), R the vascular resistance (mmHg·min/mL). This is why MAP matters more than systolic BP for tissue perfusion.
 
 #### 🎯 Exam-Level Worked Problem
 
-**Question:** A 55-year-old man has an acute anterior wall MI. Coronary angiography reveals 90% occlusion of the left anterior descending (LAD) artery just after the first septal branch. Which structure is most likely infarcted, and which valve auscultation site would be used to detect a resultant mitral regurgitation murmur?
+**Question:** A 58-year-old man has BP 110/70 mmHg and a heart rate of 70 bpm with stroke volume 70 mL. What is his mean arterial pressure (MAP), cardiac output (CO), and ejection fraction (EF) when EDV is 120 mL? Choose the closest set:
+(a) MAP 83 mmHg, CO 4.9 L/min, EF 58%
+(b) MAP 90 mmHg, CO 5.5 L/min, EF 70%
+(c) MAP 83 mmHg, CO 3.5 L/min, EF 45%
+(d) MAP 70 mmHg, CO 4.9 L/min, EF 58%
 
 #### Solution:
-- The LAD supplies the anterior ⅔ of the interventricular septum and the anterolateral LV wall, including the **anterolateral papillary muscle** (supplied partly by LAD and circumflex). Occlusion here causes anterolateral papillary muscle dysfunction → **mitral regurgitation**.
-- Mitral valve auscultation is at the **apex — 5th intercostal space, midclavicular line** (NOT the anatomical valve location at the 3rd ICS).
-- Heart rate 80 bpm → Cardiac Cycle Duration = 60/80 = **0.75 s** (atrial systole ~0.1 s, ventricular systole ~0.3 s, diastole ~0.35 s).
+1. **MAP** = Diastolic + (1/3)(Systolic − Diastolic) = 70 + (1/3)(110 − 70) = 70 + 13.33 = **83.3 mmHg**.
+2. **CO** = HR × SV = 70 × 70 = 4900 mL/min = **4.9 L/min**.
+3. **SV = EDV − ESV → ESV = 120 − 70 = 50 mL**, then EF = (70/120) × 100 = **58.3%**.
 
-> ⚠️ **Examiner Trap:** Students in many papers auscultate the mitral valve at its anatomical location. Remember: auscultation sites are **areas of sound transmission**, not valve positions. Similarly, the aortic valve is anatomically left-sided but heard at the **right 2nd ICS**.
+Answer: **(a)**.
+
+> ⚠️ **Examiner Trap:** Many students use (Systolic + Diastolic)/2 instead of giving diastole a one-third weight of the pulse pressure. NEET PG expects the **MAP = DBP + ⅓ PP** formula, which weighs diastolic more heavily because diastole lasts longer in the cardiac cycle.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-#### Coronary Dominance and Clinical Correlates
+#### Fetal Circulation and Remnants
 
-Coronary dominance is defined by which artery gives the **posterior interventricular artery (PIV)**: right-dominant (~70–80%, RCA supplies PIV), left-dominant (~10%, LCA supplies PIV), or co-dominant (~20%, both contribute). RCA occlusion in right-dominant individuals produces **inferior MI** with possible RV involvement and AV nodal block (AV node is RCA-dependent in 80%). LAD occlusion → anterior MI, in many papers with septal and apical involvement, risking ventricular septal rupture (new harsh holosystolic murmur) or papillary muscle rupture (acute mitral regurgitation, pulmonary edema).
+The fetal circuit uses three shunts to bypass the non-functional lungs: the **foramen ovale** (right atrium to left atrium), **ductus arteriosus** (pulmonary trunk to aortic arch), and **ductus venosus** (umbilical vein to IVC). After birth, closure leaves the **fossa ovalis**, **ligamentum arteriosum**, and **ligamentum venosum**. Failure of ductus arteriosus closure produces a **left-to-right shunt**; reversal causes Eisenmenger physiology.
 
-#### Cardiac Cycle Timing and Pressure Gradients
+#### Nerve Supply and Applied Anatomy
 
-At rest (HR = 75 bpm), one cycle = **60/75 = 0.8 s**. Isovolumetric contraction (~0.05 s) follows mitral/tricuspid closure (S1); ventricular ejection (~0.3 s) opens aortic/pulmonary valves; isovolumetric relaxation (~0.05 s) precedes semilunar closure (S2); ventricular filling (~0.4 s) follows AV valve opening. LV pressure peaks ~120 mmHg; RV ~25 mmHg — explaining the wall thickness ratio.
+The fibrous pericardium and the central tendon of the diaphragm share **phrenic nerve (C3–C5)** innervation — explaining referred shoulder pain in pericarditis. The heart itself is supplied by **vagus (parasympathetic, slows SA node)** and **sympathetic fibers from cervical and upper thoracic sympathetic ganglia (accelerator nerves)**. Pericardial effusion compresses the thin-walled right atrium first, reducing inflow.
 
-| Parameter | Formula | Normal Value | Units |
-|---|---|---|---|
-| Cardiac Output | CO = SV × HR | 5 | L/min |
-| Stroke Volume | SV = EDV − ESV | 70 | mL/beat |
-| Ejection Fraction | EF = (SV / EDV) × 100 | 55–70 | % |
-| MAP | DBP + ⅓(SBP − DBP) | 70–100 | mmHg |
+#### Edge-Case Traps and Image-Based Questions
 
-#### Autonomic Innervation and Referred Pain
+1. **Pulmonary veins carry oxygenated blood** — a frequent direct question. There are usually four, entering the left atrium.
+2. **Right ventricle forms most of the anterior (sternocostal) surface**, not the left ventricle.
+3. **Coronary sinus opens into the right atrium**, not the left atrium — easy to flip on a sectional image.
+4. **Auscultation areas**: aortic — 2nd right intercostal space; pulmonary — 2nd left; tricuspid — lower left sternal border; mitral — apex (5th left intercostal, mid-clavicular line).
+5. **MI territories**: LAD occlusion → anterior wall and anteroseptal; RCA → inferior wall and posterior septum (in right-dominant hearts).
+6. **Dominance pattern**: 60–70% right-dominant (PDA from RCA), 10% left-dominant (PDA from circumflex), rest co-dominant.
 
-Sympathetic supply via **T1–T5** (greater, lesser, least splanchnic nerves, plus direct cardiac accelerator fibres) increases HR and contractility. Parasympathetic supply via **vagus (CN X)** decreases SA node firing. Visceral afferents travel with sympathetic fibres back to T1–T5 dorsal root ganglia — explaining **referred cardiac pain** to the left arm (T1), jaw, or epigastrium during MI.
+#### Connection to Embryology
 
-#### Advanced Traps and Edge Cases
+The heart forms from the **cardiogenic field** at day 18–19, with looping by day 23. Septation defects trace to neural crest migration and endocardial cushion fusion; the aorticopulmonary septum spirals, which is why **transposition and tetralogy of Fallot** produce specific great-vessel relationships.
 
-1. **SA node blood supply** — in most keys RCA (~60%), but in left-dominant circulation it comes from the circumflex (~40%). Don't assume "always RCA."
-2. **Moderator band (septomarginal trabecula)** carries the right bundle branch to the anterior papillary muscle of the RV — its absence is associated with some congenital heart defects (e.g., Ebstein anomaly variant features).
-3. **Pulmonary veins carry oxygenated blood**; do not confuse them with pulmonary arteries carrying deoxygenated blood. LA has 4 pulmonary veins entering it.
-4. **Fossa ovalis vs foramen ovale** — after birth, the foramen closes and the remnant is the **fossa ovalis**; a probe-patent foramen ovale (PFO) persists in ~25% of adults and is a risk factor for paradoxical embolism.
-5. **Coarctation of aorta** in standard papers at the ligamentum arteriosum site; collateral intercostal artery enlargement causes **rib notching** on CXR.
-6. **Oblique sinus** is a blind pouch; the transverse sinus is a true tunnel — confusion leads to wrong surgical-plane answers.
-7. **Purkinje fibres are modified cardiomyocytes**, not neural tissue — they conduct fastest (~4 m/s) but only fire spontaneously if upstream pacemakers fail (subsidiary pacemakers).
+#### Advanced Practice Prompts
 
-#### Practice Prompts
-
-- **Prompt A:** Explain why a posterior MI (RCA occlusion in right-dominant patient) in many papers presents with bradycardia and AV block, while an anterior MI (LAD occlusion) in most keys presents with tachycardia.
-- **Prompt B:** Trace one RBC from the umbilical vein → IVC → … → fetal aorta, naming each chamber, valve, and shunt it crosses; then describe the adult remnant of each structure.
+1. A newborn has continuous machinery-like murmur and a bounding pulse — name the persistent fetal structure and the direction of flow after birth.
+2. During cardiac catheterization, the catheter tip lies in the coronary sinus. Trace the path back to the vena cavae and identify which valve the catheter would cross to reach the right ventricle.
 
 ---
 

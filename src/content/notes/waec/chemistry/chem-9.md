@@ -8,136 +8,145 @@ topicName: Chemical Kinetics and Rate of Reaction
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.643723"
-lastUpdated: 2026-03-24
+lastUpdated: "2026-09-15"
 diagramPrompt: "Clear scientific diagram of Chemical Kinetics and Rate of Reaction with atom labels, molecular structure, reaction arrows, white background, color-coded bonds and groups, exam textbook style"
 
 
 ---
+
 # Chemical Kinetics and Rate of Reaction
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Rate of Reaction:** Change in concentration of a reactant or product per unit time. Units: mol dm⁻³ s⁻¹.
+**Chemical kinetics** measures how fast reactants turn into products, expressed as the change in concentration per unit time (mol dm⁻³ s⁻¹). The **rate of reaction** can be written as:
 
-$$\text{Rate} = \frac{\Delta C}{\Delta t}$$
+- **Rate = -1/a × d[A]/dt = +1/b × d[B]/dt**
 
-**Five Factors Affecting Rate:**
-1. **Temperature** — higher temperature → faster rate
-2. **Concentration** — higher concentration → faster rate (for solution/gas reactions)
-3. **Surface area** — larger surface area → faster rate (for solid reactants)
-4. **Catalyst** — presence of a catalyst → faster rate (lower activation energy)
-5. **Light** — some reactions speed up in presence of light (photochemical reactions)
+where a and b are stoichiometric coefficients, [A] decreases, and [B] increases. The **rate law** takes the form **Rate = k[A]ᵐ[B]ⁿ**, where k is the rate constant and m, n are orders found experimentally (not from the balanced equation).
 
-**Rate Expression:** For $aA + bB \rightarrow products$, the rate law is:
-$$r = k[A]^m[B]^n$$
-where $k$ = rate constant, $m$ and $n$ = reaction orders with respect to A and B.
+| Term | Meaning | Typical unit |
+|------|---------|--------------|
+| Rate of reaction | Change in concentration per second | mol dm⁻³ s⁻¹ |
+| Rate constant (k) | Proportionality factor; depends only on T | varies with order |
+| Activation energy (Eₐ) | Minimum energy barrier for reaction | J mol⁻¹ |
+| Half-life (t₁/₂) | Time for concentration to halve | seconds |
 
-**Zero, First, and Second Order:**
-- Zero order: rate is constant, independent of concentration. Graph of [A] vs time is a straight line with negative gradient.
-- First order: rate is directly proportional to concentration of one reactant. Graph of $\ln[A]$ vs time is linear.
-- Half-life ($t_{1/2}$) for first order is constant: $t_{1/2} = \frac{\ln 2}{k} = \frac{0.693}{k}$
-
-⚡ **WAEC Exam Tip:** WAEC Paper 2 often asks you to deduce the order of reaction from experimental data. Use the **initial rates method**: if doubling [A] doubles the rate, the reaction is first order with respect to A. If doubling [A] quadruples the rate, it is second order with respect to A.
+> 💡 **High-Yield Memory Hook:** **CPSC-L** — **C**oncentration, **P**ressure/surface area, **S**urface area, **C**atalyst, **L**ight/Temperature. These five factors speed up any reaction. Also remember: **"Order is from the lab, molecularity is from the equation"** — order is experimental, molecularity is theoretical.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Collision Theory:**
-For a reaction to occur, particles must:
-1. **Collide** with each other
-2. Have sufficient **energy** (equal to or greater than the activation energy, $E_a$)
-3. Have the correct **orientation** upon collision
+#### Core Definitions
 
-Only a small fraction of collisions have energy ≥ $E_a$ and correct orientation — these are the **effective/successful collisions**.
+**Rate of reaction** is the measurable change in concentration of a reactant or product per unit time. **Rate constant (k)** is the proportionality factor in the rate law, dependent only on temperature and catalyst presence — not on concentration. **Order of reaction** with respect to a reactant is the power to which its concentration is raised in the rate law; **overall order** is the sum of individual orders.
 
-**Activation Energy ($E_a$):** The minimum energy that colliding particles must possess for a chemical reaction to occur. It is the energy barrier between reactants and products. A catalyst lowers $E_a$ by providing an alternative pathway.
+#### Collision Theory and Activation Energy
 
-**Arrhenius Equation:**
-$$k = Ae^{-E_a/RT}$$
-where $A$ = frequency factor, $R$ = gas constant (8.31 J mol⁻¹ K⁻¹), $T$ = temperature in Kelvin.
+Reacting particles must **collide** with energy ≥ Eₐ and with the **correct orientation**. Only "effective collisions" form the **activated complex** (transition state), which then breaks into products. Raising temperature increases both collision frequency and the fraction of molecules exceeding Eₐ.
 
-**Two-Point Arrhenius Calculation (WAEC focus):**
-$$\ln\frac{k_2}{k_1} = -\frac{E_a}{R}\left(\frac{1}{T_2} - \frac{1}{T_1}\right)$$
+#### The Arrhenius Equation
 
-Example: If $k_1 = 1.0 \times 10^{-3}$ s⁻¹ at $T_1 = 298$ K, and $k_2 = 3.0 \times 10^{-3}$ s⁻¹ at $T_2 = 308$ K:
-$$\ln\frac{3.0 \times 10^{-3}}{1.0 \times 10^{-3}} = \frac{E_a}{8.31}\left(\frac{1}{298} - \frac{1}{308}\right)$$
-$$\ln 3.0 = \frac{E_a}{8.31} \times 1.09 \times 10^{-4}$$
-$$E_a = \frac{1.099 \times 8.31}{1.09 \times 10^{-4}} = 83,800 \text{ J mol}^{-1} \approx 84 \text{ kJ mol}^{-1}$$
+The temperature dependence of k is given by:
 
-⚡ **WAEC Exam Tip:** When asked to calculate activation energy, ALWAYS convert temperature to Kelvin ($T_K = T_°C + 273$) and $E_a$ to J mol⁻¹ (not kJ mol⁻¹) before substituting into the Arrhenius equation. Using kJ in the equation without converting will give a wrong numerical answer.
+- **k = A·exp(-Eₐ/RT)**
 
-**Rate-Determining Step:** In a multi-step reaction mechanism, the slowest step determines the overall rate of reaction. The rate law is determined by the stoichiometry of this slow step.
+where A = frequency factor (s⁻¹), Eₐ = activation energy (J mol⁻¹), R = 8.314 J K⁻¹ mol⁻¹, and T = temperature in kelvin. A plot of **ln k against 1/T** yields a straight line with **slope = -Eₐ/R**, the most common WAEC graphical question.
 
-**Experimental Determination of Rate:**
-- Measure volume of gas evolved at regular time intervals (gas collection method)
-- Measure change in concentration of a coloured reagent spectrophotometrically
-- Titrate samples withdrawn at intervals against a standard solution
+#### Integrated Rate Laws and Half-Lives
+
+| Order | Integrated form | Linear graph | Half-life t₁/₂ | Unit of k |
+|-------|-----------------|--------------|----------------|-----------|
+| Zero | [A] = [A]₀ − kt | [A] vs t | [A]₀ / 2k | mol dm⁻³ s⁻¹ |
+| First | ln[A] = ln[A]₀ − kt | ln[A] vs t | 0.693 / k | s⁻¹ |
+| Second | 1/[A] = 1/[A]₀ + kt | 1/[A] vs t | 1 / (k[A]₀) | mol⁻¹ dm³ s⁻¹ |
+
+For a **first-order** reaction, t₁/₂ is constant and independent of [A]₀. For zero- and second-order reactions, t₁/₂ depends on [A]₀.
+
+#### Order vs Molecularity — Comparison Matrix
+
+| Feature | Order of reaction | Molecularity |
+|---------|-------------------|--------------|
+| Determined by | Experiment | Balanced equation of elementary step |
+| Values allowed | 0, 1, 2, 3, fractional | 1, 2, or 3 only |
+| Applies to | Overall reaction | Single elementary step |
+| Can change with conditions? | Yes | No |
+
+#### 🎯 Exam-Level Worked Problem
+
+**Question:** The decomposition of N₂O₅ follows first-order kinetics. If the initial concentration is 0.080 mol dm⁻³ and the rate constant is 3.0 × 10⁻³ s⁻¹, calculate (a) the concentration after 200 s, and (b) the half-life of the reaction.
+
+#### Solution:
+
+(a) Using **ln[A] = ln[A]₀ − kt** (first-order):
+
+- ln[A] = ln(0.080) − (3.0 × 10⁻³)(200)
+- ln[A] = −2.5257 − 0.600 = −3.1257
+- [A] = e⁻³·¹²⁵⁷ = **0.044 mol dm⁻³**
+
+(b) For first-order: **t₁/₂ = 0.693 / k**
+
+- t₁/₂ = 0.693 / (3.0 × 10⁻³ s⁻¹)
+- t₁/₂ = **231 s**
+
+> ⚠️ **Examiner Trap:** Students in many papers apply the second-order formula t₁/₂ = 1/(k[A]₀) to a first-order problem and obtain 4167 s — a huge numerical error. Always confirm the order from the rate law before reaching for t₁/₂.
+
+#### Factors Affecting Reaction Rate
+
+1. **Concentration** — higher [reactant] gives more collisions per second.
+2. **Temperature** — raises k via the Arrhenius relation (≈ doubles rate per 10 °C rise for many reactions).
+3. **Surface area** — powdered solids react faster than lumps.
+4. **Catalyst** — provides an alternative pathway, lowering Eₐ without being consumed.
+5. **Light** — supplies photons to break bonds (e.g., H₂ + Cl₂ in sunlight).
+
+A catalyst **does not shift equilibrium** nor change **ΔH**; it only shortens the time to reach equilibrium.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-**Order of Reaction — Detailed Interpretation:**
-The overall order of reaction is $m + n$. Some important cases:
-- Overall order 0: rate = $k$, rate is independent of concentration
-- Overall order 1: rate = $k[A]$, half-life is constant
-- Overall order 2: rate = $k[A]^2$ or $k[A][B]$, half-life depends on initial concentration
+#### The Rate-Determining Step
 
-**Reaction Order from Concentration-Time Data:**
-For a first-order reaction: $[A]_t = [A]_0 e^{-kt}$, so $\ln[A]_t = \ln[A]_0 - kt$.
-For a second-order reaction: $\frac{1}{[A]_t} = \frac{1}{[A]_0} + kt$.
-Plotting the appropriate function against time gives a straight line — the gradient gives $k$.
+In a multi-step mechanism, the **slowest step** controls the overall rate. The rate law contains only species that appear in or before the rate-determining step; intermediates that appear afterward do not appear in the rate law. WAEC sometimes offers a mechanism and asks for the rate law — write it directly from the slow step.
 
-**Temperature and Rate — The Rule of Thumb:**
-For many reactions, the rate approximately doubles for every 10°C rise in temperature. This is because:
-1. More molecules have energy ≥ $E_a$ (Boltzmann distribution)
-2. Molecules move faster, increasing collision frequency
+#### Common WAEC Traps and Edge Cases
 
-This rule is approximate — the Arrhenius equation gives the exact relationship.
+1. **Pseudo-order reactions:** When one reactant (in many papers water or a solvent) is in vast excess, its concentration is effectively constant, so a second-order reaction behaves as first-order overall. WAEC can describe such a system and ask for the apparent order.
+2. **Negative activation energy:** Genuine negative Eₐ values are physically meaningless — students sometimes see a wrongly drawn Arrhenius plot and panic. Always check that ln k vs 1/T has a **negative** slope (positive Eₐ).
+3. **Catalyst at equilibrium:** A catalyst added to a reversible reaction at equilibrium does **not** change Kc or the equilibrium composition — it only reduces the time needed to reach equilibrium.
+4. **Units of k:** Zero order → mol dm⁻³ s⁻¹; first order → s⁻¹; second order → mol⁻¹ dm³ s⁻¹; third order → mol⁻² dm⁶ s⁻¹. Memorise the pattern: **(mol dm⁻³)¹⁻ⁿ s⁻¹** for overall order n.
+5. **Heterogeneous catalysis:** Involves adsorption of reactants onto a solid surface (e.g., Fe in the Haber process). The mechanism differs from homogeneous catalysis but the principle — lowering Eₐ — is identical.
 
-**Catalysts — Enzyme Catalysts (Biological Relevance):**
-Enzymes are biological catalysts made of protein. They are:
-- **Specific:** Lock-and-key model — only substrates with the correct shape fit the active site
-- **Efficient:** Lower $E_a$ significantly, often by 100–1000 times compared to inorganic catalysts
-- **Not consumed:** The enzyme is regenerated after each catalytic cycle
+#### Worked Micro-Example (Arrhenius)
 
-**Order of Reaction in Multi-Step Mechanisms:**
-Consider the reaction: $2NO + O_2 \rightarrow 2NO_2$.
-Mechanism:
-Step 1 (slow): $2NO \rightarrow N_2O_2$
-Step 2 (fast): $N_2O_2 + O_2 \rightarrow 2NO_2$
+A reaction has k₁ = 2.5 × 10⁻⁴ s⁻¹ at 300 K and k₂ = 1.2 × 10⁻² s⁻¹ at 320 K. Estimate Eₐ using:
 
-The slow step is rate-determining. Rate = $k[NO]^2$ (second order in NO, zero order in $O_2$). This explains why doubling [NO] quadruples the rate, while doubling [$O_2$] has no effect.
+- **ln(k₂/k₁) = Eₐ/R × (1/T₁ − 1/T₂)**
+- ln(1.2 × 10⁻² / 2.5 × 10⁻⁴) = ln(48) = 3.871
+- (1/300 − 1/320) = (320 − 300)/(300 × 320) = 20/96000 = 2.083 × 10⁻⁴ K⁻¹
+- Eₐ = 3.871 × 8.314 / 2.083 × 10⁻⁴ = **1.54 × 10⁵ J mol⁻¹ ≈ 154 kJ mol⁻¹**
 
-⚡ **WAEC Exam Tip:** WAEC Paper 2 (Practical) questions on kinetics often involve a clock reaction where a visible change (colour, precipitate) occurs after a specific time. You may be asked to plot a graph of 1/time vs concentration to determine order. Remember: initial rate is proportional to 1/time in many clock reactions.
+#### Exam Strategy for WAEC WASSCE
 
-**Graphical Determination of Order:**
+- Topic weightage is **~4%** across Papers 1 and 2 — in standard papers 1–3 questions per year.
+- Paper 1 (Objective) in many papers tests definitions, factor identification, and unit recall.
+- Paper 2 (Essay) favours **half-life calculations**, **order determination from graphs**, and **Arrhenius plots**.
+- Always show working with units; an unlabelled numerical answer loses method marks even when correct.
 
-| Graph Type | Linear for which order? | Gradient = |
-|-----------|------------------------|-----------|
-| $[A]$ vs time | Zero order | $-k$ |
-| $\ln[A]$ vs time | First order | $-k$ |
-| $\frac{1}{[A]}$ vs time | Second order | $+k$ |
+#### Advanced Practice Prompts
 
-**Comparative Study — Effect of Temperature vs Catalyst:**
+1. A graph of ln[A] vs t for a reaction gives a straight line of slope −0.025 s⁻¹. Identify the order, the rate constant, and the time for [A] to fall to one-eighth of its initial value.
+2. The rate law for the reaction 2NO + O₂ → 2NO₂ is Rate = k[NO]²[O₂]. Propose a two-step mechanism whose rate-determining step is consistent with this law, identifying any intermediates.
 
-| Factor | Effect on Rate | How it Works |
-|--------|---------------|-------------|
-| Increase temperature | Rate increases | More molecules have $E \geq E_a$ |
-| Increase concentration | Rate increases | More effective collisions per second |
-| Add catalyst | Rate increases | Lowers $E_a$, more collisions succeed |
-| Increase surface area | Rate increases | More particles exposed for collision |
+## Continue your study
 
-**WAEC Past Question Patterns:**
-- Calculating rate from experimental data (volume of gas vs time)
-- Determining order using initial rates method
-- Calculating $E_a$ using two-point Arrhenius equation
-- Drawing and interpreting rate-concentration graphs
-- Explaining collision theory using Maxwell-Boltzmann distribution curves
-- Describing the effect of a catalyst on $E_a$ and reaction rate using a potential energy diagram
+- **[View this topic in your WAEC WASSCE roadmap](/roadmap/?exam=waec&duration=1mo)** — see where "Chemical Kinetics and Rate of Reaction" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=waec&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[WAEC WASSCE exam overview](/exams/waec/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/waec/chemistry/)** — browse sibling topics in this subject
 
-⚡ **WAEC Exam Tip:** On potential energy diagrams, be clear that a catalyst lowers the activation energy (both forward and reverse) equally — it does not change the enthalpy ($\Delta H$) of the reaction. The products and reactants are energetically the same; only the pathway is different.
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

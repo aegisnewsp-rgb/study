@@ -30,16 +30,17 @@ function makeEnv({ zoneEnabled = true, webdriver = false, sessionHad = false, la
   const scripts = []; const listeners = {};
   const cfg = {
     enabled: true, tag: 'https://quge5.com/88/tag.min.js', multitag: 280401,
-    popunder: 11805678, popunderZoneEnabled: zoneEnabled, cooldownMs: 21600000,
+    popunder: 11805678, popunderZoneEnabled: zoneEnabled, cooldownMs: 43200000,
+    popunderTag: 'https://al5sm.com/tag.min.js',
     pubKey: 'sr:pu:ts', sessionKey: 'sr:pu:session', geoKey: 'sr:geo', pageGeo: 'IN',
     restricted: ['DE', 'FR', 'GB', 'CH'], crawlerSrc, crawlerFlags,
     aiRefSrc: '$^', aiRefFlags: '', allowPopunder: true, allowMultitag: true, host: 'studyroadmap.in',
   };
   const mk = (init = {}) => { const m = new Map(Object.entries(init)); return { getItem: k => (m.has(k) ? m.get(k) : null), setItem: (k, v) => m.set(k, String(v)), removeItem: k => m.delete(k) }; };
-  const el = (t) => ({ tagName: t, id: '', src: '', setAttribute(k, v) { this[k] = v; }, remove() {}, getAttribute: () => null, dataset: {} });
+  const el = (t) => ({ tagName: t, id: '', src: '', dataset: {}, setAttribute(k, v) { this[k] = v; }, remove() {}, getAttribute(k) { return this[k] === undefined ? null : this[k]; } });
   const document = {
     documentElement: { setAttribute() {}, classList: { add() {}, remove() {} } },
-    head: { appendChild: n => scripts.push(n) }, body: { appendChild() {} },
+    head: { appendChild: n => scripts.push(n) }, body: { appendChild: n => scripts.push(n) },
     createElement: el, getElementById: id => scripts.find(s => s.id === id) || null,
     querySelectorAll: () => [], querySelector: () => null,
     addEventListener: (t, f) => { (listeners[t] = listeners[t] || []).push(f); },
@@ -60,17 +61,22 @@ function makeEnv({ zoneEnabled = true, webdriver = false, sessionHad = false, la
   win.window = win;
   const ctx = vm.createContext({ window: win, document, navigator: win.navigator, location: win.location, localStorage: win.localStorage, sessionStorage: win.sessionStorage, fetch: win.fetch, CustomEvent: win.CustomEvent, setTimeout: win.setTimeout, clearTimeout: win.clearTimeout, requestIdleCallback: win.requestIdleCallback, console, URL, RegExp, Date, Math, JSON });
   vm.runInContext(js.replace('__CFG__', JSON.stringify(cfg)), ctx);
-  return { ids: scripts.map(s => s.id).filter(Boolean), ad: win.__SR_AD };
+  return { ids: scripts.map(s => s.id).filter(Boolean), scripts, ad: win.__SR_AD };
 }
+
+const HOST = (env, id) => { const s = env.scripts.find(x => x.id === id); return s ? s.src : null; };
+const ZONE = (env, id) => { const s = env.scripts.find(x => x.id === id); return s ? s.dataset.zone : null; };
 
 const cases = [
   ['human, fresh session      ', {}, env => env.ids.includes('sr-monetag') && env.ids.includes('sr-monetag-popunder') && env.ad.popunder === true],
-  ['human, session already had', { sessionHad: true }, env => !env.ids.includes('sr-monetag-popunder') && env.ad.popunderSkipped === 'session-cap'],
-  ['human, inside 6h cooldown ', { lastPopunder: Date.now() - 3600_000 }, env => !env.ids.includes('sr-monetag-popunder') && env.ad.popunderSkipped === 'cooldown'],
-  ['human, past 6h cooldown   ', { lastPopunder: Date.now() - 7 * 3600_000 }, env => env.ids.includes('sr-monetag-popunder') && env.ad.popunder === true],
-  ['WebDriver automation      ', { webdriver: true }, env => env.ids.length === 0 && env.ad.reason === 'automation'],
-  ['declared crawler          ', { ua: 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)' }, env => env.ids.length === 0 && env.ad.reason === 'crawler'],
-  ['popunder switch off       ', { zoneEnabled: false }, env => env.ids.length === 1 && env.ad.popunderSkipped === 'zone-not-serving'],
+  ['popunder uses its own host', {}, env => HOST(env, 'sr-monetag-popunder') === 'https://al5sm.com/tag.min.js' && ZONE(env, 'sr-monetag-popunder') === '11805678'],
+  ['multitag uses shared host ', {}, env => HOST(env, 'sr-monetag') === 'https://quge5.com/88/tag.min.js' && env.scripts.find(x => x.id === 'sr-monetag').getAttribute('data-zone') === '280401'],
+  ['human, session already had ', { sessionHad: true }, env => !env.ids.includes('sr-monetag-popunder') && env.ad.popunderSkipped === 'session-cap'],
+  ['human, inside 12h cooldown ', { lastPopunder: Date.now() - 3600_000 }, env => !env.ids.includes('sr-monetag-popunder') && env.ad.popunderSkipped === 'cooldown'],
+  ['human, past 12h cooldown   ', { lastPopunder: Date.now() - 13 * 3600_000 }, env => env.ids.includes('sr-monetag-popunder') && env.ad.popunder === true],
+  ['WebDriver automation       ', { webdriver: true }, env => env.ids.length === 0 && env.ad.reason === 'automation'],
+  ['declared crawler           ', { ua: 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)' }, env => env.ids.length === 0 && env.ad.reason === 'crawler'],
+  ['popunder switch off        ', { zoneEnabled: false }, env => env.ids.length === 1 && env.ad.popunderSkipped === 'zone-not-serving'],
 ];
 let bad = 0;
 for (const [name, opts, check] of cases) {

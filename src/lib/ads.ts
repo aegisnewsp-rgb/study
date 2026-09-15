@@ -27,50 +27,63 @@ export const MONETAG_SITE_ID = 'dd2db0a07f698ebaba6882a4873ffe84';
 export const MONETAG_TAG_SRC = 'https://quge5.com/88/tag.min.js';
 
 /**
- * MultiTag ("Rich tag") zone — in-page push + vignette + clickunder fan-out.
- * One page view fans out to zones 11798844/11798845/11798846 on Monetag's side;
- * those are the ids that show up in reporting, not this one.
+ * MultiTag ("Rich tag") container zone. Served by the shared quge5.com host;
+ * Monetag fans it out server-side to the Rich-tag zones below, which is why
+ * those ids — not this one — appear in reporting.
+ *
+ * Zone map, corrected against the dashboard on 2026-09-15 (the earlier reading
+ * had two formats swapped):
+ *   11798843  Rich tag      OnClick (Popunder)   MULTI  <- where our popunder
+ *   11798844  Rich tag      In-Page Push         MULTI     impressions come from
+ *   11798845  Rich tag      Vignette Banner      MULTI
+ *   11798846  Rich tag      Push Notifications   MULTI  <- needs the browser
+ *                                                         notification
+ *                                                         permission, which we
+ *                                                         never request, so its
+ *                                                         zero impressions are
+ *                                                         EXPECTED, not a fault
+ *   11799057  Talented tag  Vignette Banner      standalone, not yet wired
+ *   11805678  standalone    OnClick (Popunder)   12 h cap
  */
 export const MONETAG_MULTITAG_ZONE = 280401;
 
 /**
- * Dedicated OnClick PopUnder zone (direction_id=1, multitag=false), created
- * 2026-09-15 via the Monetag MCP so popunder reporting is attributable and the
- * 12 h cap is not conflated with the MultiTag fan-out.
+ * Dedicated OnClick PopUnder zone (created 2026-09-15) so popunder reporting is
+ * attributable and the page-level cap is ours rather than the MultiTag's.
  */
 export const MONETAG_POPUNDER_ZONE = 11805678;
 
 /**
- * Whether to load the *dedicated* popunder zone above.
+ * Tag host for the standalone popunder zone, taken verbatim from the zone's
+ * "Get tag" snippet in the dashboard:
  *
- * Off since 2026-09-15, on measured evidence: the zone endpoint answers
- * HTTP 404 (text/plain, 7 bytes) on every page —
- * `https://6opo.com/88/11805678?dmn=quge5.com` — while every other zone of the
- * same tag returns JSON 200. A zone that is not yet serving cannot produce an
- * impression, so loading it only spends one request per ad-eligible pageview
- * and leaves a failed request in the console.
+ *   <script>(function(s){s.dataset.zone='11805678',s.src='https://al5sm.com/tag.min.js'})
+ *    ([document.documentElement, document.body].filter(Boolean).pop()
+ *     .appendChild(document.createElement('script')))</script>
  *
- * The popunder format itself is NOT lost: the MultiTag fan-out already
- * contains an OnClick zone (11798843, direction_id=1), and that is where the
- * popunder impressions are actually attributed — 36 impressions / $0.0162
- * over 2026-09-13..15, the best CPM ($0.45) of any zone on the account.
- *
- * Flip back to true once the dedicated zone is approved and its endpoint
- * returns JSON instead of 404.
+ * The host is per-zone. Loading the shared quge5.com MultiTag host with
+ * data-zone="11805678" — which is what this code did until 2026-09-15 — made the
+ * tag resolve that zone against 6opo.com and get a 404 on every page, so the
+ * popunder could never serve. That 404 is the standalone resolution path and is
+ * the evidence that the wrong host was in use; the same probe 404s for
+ * container sub-zones by design, so it is only meaningful for standalone zones.
  */
-export const MONETAG_POPUNDER_DEDICATED_ENABLED = false;
+export const MONETAG_POPUNDER_TAG_SRC = 'https://al5sm.com/tag.min.js';
 
 /**
- * Popunder cooldown per visitor/browser: 6 hours (was 12 h until 2026-09-15).
- *
- * Measured on the account's own zone report, the popunder is the highest-CPM
- * format we have ($0.45 vs $0.02-$0.21 for the MultiTag formats), and the 12 h
- * floor was generous enough that an engaged reader who returns twice in a day
- * could only ever be served once. 6 h keeps "never more than once in a working
- * session" while letting a genuinely returning reader be monetised again.
- * The per-session cap below is the real UX guard; this is the backstop.
+ * Whether to load the standalone popunder zone above. On, now that its real tag
+ * host is known: the previous "off" state was a workaround for the host
+ * mismatch, not for a zone that cannot serve.
  */
-export const POPUNDER_COOLDOWN_MS = 6 * 60 * 60 * 1000;
+export const MONETAG_POPUNDER_DEDICATED_ENABLED = true;
+
+/**
+ * Popunder cooldown per visitor/browser: 12 hours — the zone's own cap, kept as
+ * the cross-session floor. The per-session rule below is the real UX guard; this
+ * is the backstop. (A 6 h floor was trialled on 2026-09-15 and reverted to match
+ * the "12h-cap" zone definition.)
+ */
+export const POPUNDER_COOLDOWN_MS = 12 * 60 * 60 * 1000;
 
 /**
  * sessionStorage flag marking that this tab session was already served a

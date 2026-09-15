@@ -27,6 +27,7 @@ import {
     MONETAG_MULTITAG_ZONE,
     MONETAG_POPUNDER_ZONE,
     MONETAG_POPUNDER_DEDICATED_ENABLED,
+    MONETAG_POPUNDER_TAG_SRC,
     POPUNDER_COOLDOWN_MS,
     POPUNDER_SESSION_KEY,
     POPUNDER_STORAGE_KEY,
@@ -52,6 +53,7 @@ const config = {
     multitag: MONETAG_MULTITAG_ZONE,
     popunder: MONETAG_POPUNDER_ZONE,
     popunderZoneEnabled: MONETAG_POPUNDER_DEDICATED_ENABLED,
+    popunderTag: MONETAG_POPUNDER_TAG_SRC,
     cooldownMs: POPUNDER_COOLDOWN_MS,
     pubKey: POPUNDER_STORAGE_KEY,
     sessionKey: POPUNDER_SESSION_KEY,
@@ -142,6 +144,8 @@ const js = `
         }
     }
 
+    // MultiTag loader: the container zone (280401) is served by the shared
+    // quge5.com host and fans out to the Rich-tag zones on Monetag's side.
     function load(id, zone) {
         if (d.getElementById(id)) return;
         var s = d.createElement('script');
@@ -151,6 +155,27 @@ const js = `
         s.setAttribute('data-zone', String(zone));
         s.setAttribute('data-cfasync', 'false');
         d.head.appendChild(s);
+    }
+
+    // Standalone-zone loader.
+    //
+    // A zone created on its own in the Monetag dashboard does NOT live on the
+    // shared quge5.com host: its "Get tag" snippet names its own host and sets
+    // the zone on the element. Loading the MultiTag host with data-zone=11805678
+    // (what this code used to do) resolved the zone against 6opo.com and got a
+    // 404, so the popunder could never serve. This mirrors the official snippet
+    // exactly: element.dataset.zone + the zone's own src, appended after body.
+    function loadStandalone(id, zone, src) {
+        if (d.getElementById(id)) return;
+        var s = d.createElement('script');
+        s.id = id;
+        s.dataset.zone = String(zone);
+        s.src = src;
+        s.async = true;
+        s.setAttribute('data-cfasync', 'false');
+        var parent = d.body || d.documentElement;
+        if (parent) parent.appendChild(s);
+        else d.head.appendChild(s);
     }
 
     // ---- consent bridge ----------------------------------------------------
@@ -287,7 +312,7 @@ const js = `
             state.popunderSkipped = 'cooldown';
             return;
         }
-        load('sr-monetag-popunder', cfg.popunder);
+        loadStandalone('sr-monetag-popunder', cfg.popunder, cfg.popunderTag);
         markPopunder();
         state.popunder = true;
         state.popunderSkipped = '';

@@ -8,66 +8,107 @@ topicName: Burn Depth Classification
 weight: 3
 country: saudi
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-25"
+lastUpdated: "2026-09-15"
 ---
 
 # Burn Depth Classification
 
 ### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
 
-**Burns** are tissue injuries from heat, chemicals, electricity, radiation, or friction causing cellular damage and protein denaturation. **TBSA** (Total Body Surface Area) estimates extent using the **Rule of Nines**: each limb 9%, anterior trunk 18%, posterior trunk 18%, head 9%, perineum 1%. **Parkland Formula** calculates fluid: 4 × weight (kg) × %TBSA burned; give half in the first 8 hours.
+Burns are graded by the deepest anatomical layer destroyed, and the grade dictates whether the wound re-epithelialises spontaneously or mandates excision and skin grafting. Four depths are recognised (epidermal, superficial partial-thickness, deep partial-thickness, full-thickness), with a fifth "fourth-degree" category for injury into fascia, muscle or bone.
 
-**Burn depth classification:** Superficial (1st degree) heals in 3–7 days; partial-thickness (2nd degree) heals in 7–21 days; full-thickness (3rd degree) requires surgical excision and grafting. Suspect **inhalation injury** with facial burns, singed nasal hairs, or carbonaceous sputum — this dramatically increases mortality. **Circumferential full-thickness burns** need urgent **escharotomy** to prevent compartment syndrome.
+- **Epidermal (1st-degree):** erythema, blanches, no blisters, painful; heals in 3–6 days; **EXCLUDE** from %TBSA.
+- **Superficial partial-thickness:** upper (papillary) dermis; moist pink blisters, brisk capillary refill, severe pain; heals 7–14 days.
+- **Deep partial-thickness:** deep (reticular) dermis; mottled white/yellow base, sluggish blanching, reduced pinprick; heals ≥21 days or needs graft.
+- **Full-thickness (3rd-degree):** leathery white/charred eschar, no blanching, painless, thrombosed veins; always grafted.
+- **Fourth-degree:** into fascia/muscle/bone; black, mummified; reconstruction/amputation.
+
+> 💡 **High-Yield Memory Hook:** **"Sole-destroying ⇒ deeper."** **S**ensation loss → **S**low capillary refill → **S**lough/leathery eschar → **S**ubcutaneous fat visible = fourth-degree. Mnemonic for clinical sequence: **B – C – E – S** → **B**lister? → **C**apillary refill? → **E**schar? → **S**ensation? (intact = shallow, lost = deep).
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-#### Burn Depth Classification
+#### Depth Categories by Anatomical Layer
 
-Burns are classified by depth into four degrees. **Superficial (1st degree)** involves only the epidermis — presents with erythema, pain, and no blisters. Healing occurs spontaneously within 3–7 days without scarring. **Superficial partial-thickness (2nd degree)** extends into the dermis — produces blisters, intense pain, and blanching. These heal within 7–14 days with minimal scarring if infection is prevented. **Deep partial-thickness** burns damage hair follicles and sweat glands; they appear mottled, have reduced sensation, and may require 3–4 weeks to heal with significant scarring risk. **Full-thickness (3rd degree)** destroys all skin layers — the skin appears leathery, waxy, or charred, and is painless due to nerve destruction. **Fourth-degree** burns extend into subcutaneous tissue, muscle, or bone.
+| Depth (degree) | Tissue destroyed | Colour & surface | Blisters | Blanching / capillary refill | Pinprick sensation | Healing |
+|---|---|---|---|---|---|---|
+| Epidermal (1st) | Epidermis only | Pink, dry, erythematous | None | Brisk | Intact, painful | 3–6 days, no scar |
+| Superficial partial-thickness (superficial 2nd) | Papillary dermis | Moist, pink, weeping | Present (thin-walled) | Brisk (<2 s) | Intact, severe pain | 7–14 days, minimal scar |
+| Deep partial-thickness (deep 2nd) | Reticular dermis | Mottled white/yellow, sluggish | Often ruptured | Sluggish / absent | Reduced (deep pressure only) | ≥21 days; high contracture risk |
+| Full-thickness (3rd) | Entire dermis + subcutaneous fat | Dry, leathery, white/charred/brown | None | Absent | Absent | Will not re-epithelialise → graft |
+| Fourth-degree | Fascia / muscle / tendon / bone | Black, dry, mummified | None | Absent | Absent | Reconstruction / amputation |
 
-#### Estimating TBSA
+#### Parkland Formula — Variables and Units
 
-The **Rule of Nines** divides the adult body into 11 regions of 9% each plus the perineum at 1%. In children, the head accounts for 18% because it is proportionally larger; each lower limb is 13.5% and trunk percentages are adjusted accordingly. The **Lund-Browder chart** provides age-adjusted percentages and is preferred in pediatric patients. When calculating fluid requirements, do not include first-degree burns in %TBSA calculations.
+| Symbol | Meaning | SI unit | Dimension |
+|---|---|---|---|
+| V | Total crystalloid volume in first 24 h | mL (×10⁻³ L) | [L] |
+| W | Body weight | kg | [M] |
+| TBSA | % body surface area burned (partial + full thickness only) | % | dimensionless |
+| t_burn | Clock start for the 8-hour split | time | [T] |
 
-#### Fluid Resuscitation
+Adult: **V (mL) = 4 × W (kg) × TBSA (%)**. Give **half in the first 8 h from time of burn**, the rest over the next 16 h, using Lactated Ringer's. Child <30 kg: **V = 3 × W × TBSA** of LR over 24 h **plus** calculated maintenance fluids.
 
-The **Parkland Formula** is the standard: Volume (ml) = 4 × body weight (kg) × %TBSA burned. Administer half the total volume in the first 8 hours post-burn and the remaining half over the next 16 hours. This calculates crystalloid requirement for the first 24 hours; additional maintenance fluids should be provided. The formula is a starting point — titrate based on urine output (target: 0.5–1.0 ml/kg/hr in adults, 1.0–1.5 ml/kg/hr in children).
+#### 🎯 Exam-Level Worked Problem
 
-#### Inhalation Injury
+**Question:** A 35-year-old man weighing 70 kg sustains flame burns to his entire anterior trunk and both anterior thighs at 14:00. Assessment at 15:00 shows mottled white dermis with sluggish capillary refill on the anterior trunk, and on both thighs the skin is leathery, dry and painless with visible thrombosed veins. What is the depth classification of each area, the %TBSA burned, and the hourly fluid rate for the second 8-hour block?
 
-Suspect inhalation injury when the patient was trapped in an enclosed space fire, has facial burns, singed nasal hairs, singed eyebrows, carbonaceous sputum, hoarseness, or stridor. Bronchoscopy confirms the diagnosis. Inhalation injury increases mortality significantly and requires early airway securing, humidified oxygen, and bronchodilators.
+#### Solution:
 
-#### Surgical Considerations
+1. **Depth grading**
+   - Anterior trunk → **deep partial-thickness (deep 2nd-degree)**: mottled white, sluggish refill, dermis intact.
+   - Both anterior thighs → **full-thickness (3rd-degree)**: leathery, painless, thrombosed veins visible.
+2. **%TBSA (Rule of Nines, adult)**
+   - Anterior trunk = **18%**.
+   - Each entire lower limb = 18%, so **each anterior thigh ≈ 9%** → both thighs = **18%**.
+   - Total burned = 18 + 18 = **36% TBSA** (epidermal areas excluded).
+3. **Parkland volume** V = 4 × 70 × 36 = **10,080 mL in 24 h**.
+4. **8/16 split from time of burn (14:00)**
+   - First 8 h (14:00–22:00): 5,040 mL → 5,040 ÷ 8 = **630 mL/h**.
+   - Second 8 h block (22:00–06:00): 5,040 mL → 5,040 ÷ 8 = **630 mL/h**.
 
-Circumferential full-thickness burns form a rigid eschar that restricts chest expansion or causes limb compartment syndrome. **Escharotomy** (incision through eschar) or **fasciotomy** (release of fascial compartment) is performed emergently at the bedside under sedation. Early excision of dead tissue and skin grafting reduces infection risk and hospital stay. Infection remains the leading cause of mortality after successful initial resuscitation.
+> ⚠️ **Examiner Trap:** Candidates often count the **anterior thigh as 4.5%** instead of 9% (half of the lower limb) — the Rule of Nines assigns the whole limb, not isolated regions, unless you split by visible landmarks. The other common error is starting the 8-hour clock at **hospital admission** instead of **time of burn**; the formula clock always starts at the burn event.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-#### Chemical and Electrical Burns
+#### Conversion, Re-assessment, and Special Areas
 
-Chemical burns require immediate, prolonged irrigation with water or saline for 20–30 minutes. The specific agent matters: hydrofluoric acid requires calcium gluconate gel or injection; alkalis cause penetrating injuries that continue damaging tissue until neutralized. Do not attempt chemical neutralization reactions as they may generate heat and worsen injury. **Electrical burns** often appear deceptively minor on the skin surface while causing extensive deep tissue necrosis along the current path through muscle and nerves. These patients require cardiac monitoring (arrhythmias are common), serial CK measurements to detect rhabdomyolysis, and evaluation for visceral injuries. Tetanus prophylaxis and broad-spectrum antibiotics are indicated.
+A deep partial-thickness burn can convert to full-thickness over 48–72 hours as dermal capillaries thrombose progressively. Accurate depth grading is therefore performed on **day 3–5 after debridement**, not on day 1. Early aggressive excision of a wound that would have healed by day 21 is an avoidable iatrogenic error.
 
-#### Common Mistakes in Exam and Practice
+| Trap | What students do | Correct principle |
+|---|---|---|
+| Day-1 over-grading | Label mottled dermis as full-thickness at hour 6 and book grafting | Reassess at 48–72 h; blanching + deep-pressure sensation ⇒ deep partial-thickness |
+| Pain = shallow | Assume painful burn is superficial | Pain reflects remaining viable nerve endings; deep partial-thickness can still feel deep pressure |
+| Adult Rule of Nines on a child | Apply 9% head, 18% leg | Use **Lund-Browder** chart; head = 18% at birth → 9% adult; leg = 14% → 18% |
+| Counting 1st-degree in %TBSA | Include erythema without blisters | Exclude epidermal burns from TBSA and Parkland calculation |
+| Timing the 8-h block | Start clock at admission | Clock starts at time of burn, even if presentation is delayed |
+| Single fluid regimen | Give one rate for 24 h | Half of total in first 8 h from burn; remainder over 16 h, titrated to urine output 0.5 mL/kg/h (adult) |
 
-A frequent error is underestimating fluid requirements by using incorrect body weight or failing to subtract first-degree burns from the %TBSA figure. Students also confuse superficial and deep partial-thickness burns — the presence of blanching and pain sensation differentiates them clinically, and this distinction determines whether conservative management is appropriate or surgical intervention is needed. Another trap: calculating the Parkland formula but forgetting that the first 8-hour period starts from the time of burn injury, not from arrival at hospital — if the patient presents late, the bolus dose must be adjusted accordingly.
+#### Indications That Override Depth Considerations
 
-#### Exam Strategy
+- **Circumferential deep partial- or full-thickness burns** of limb or thorax → urgent **escharotomy** to prevent distal ischaemia or ventilatory restriction, regardless of whether grafting is eventual.
+- **Facial burns, singed nasal vibrissae, hoarseness, carbonaceous sputum** → anticipate **inhalation injury** and early airway compromise; intubate early.
+- **Perineal burns** → urinary catheterisation mandatory; high infection risk.
+- **Hand and joint burns** → splint in functional position; refer early to burns unit.
 
-For the Saudi GP Board, burns questions frequently test TBSA calculation using the Rule of Nines, Parkland formula application with correct timing of fluid administration, and recognition of inhalation injury indicators. Electrical burns appear in scenario-based questions emphasizing hidden deep tissue damage. Focus on distinguishing burn depths by clinical features — this consistently appears in clinical vignette questions.
+#### Advanced Practice Prompts
 
-#### Worked Example
-
-A 70-kg adult sustains burns to both anterior upper limbs, anterior trunk, and perineum. Calculate fluid requirement using Parkland Formula.
-
-- %TBSA: each upper limb 9% (18% total), anterior trunk 18%, perineum 1% = 37%
-- Total fluid = 4 × 70 × 37 = 10,360 ml in 24 hours
-- First 8 hours: 5,180 ml
-- Next 16 hours: 5,180 ml (2,590 ml per 8-hour block)
+1. A 6-year-old weighing 20 kg has scald burns to the entire face, right upper limb, and half the anterior chest. Using the Lund-Browder chart for a 6-year-old, calculate %TBSA, choose between the modified Parkland formula (3 mL/kg/%TBSA) versus standard Parkland, and justify the maintenance fluid addition. Specify the hourly rate of Lactated Ringer's for the first 8 h from time of burn.
+2. A patient with deep partial-thickness burns to both legs (36% TBSA, weight 80 kg) has received 5,760 mL of Lactated Ringer's in the first 8 h. On review, urine output is 0.3 mL/kg/h and heart rate is 118/min. Calculate the expected Parkland total, identify the resuscitation deficit/surplus, and propose the rate adjustment for the next 8 h while listing two clinical signs (other than urine output) that should drive further titration.
 
 ---
+
+## Continue your study
+
+- **[View this topic in your Saudi GP Board roadmap](/roadmap/?exam=sgpat&duration=1mo)** — see where "Burn Depth Classification" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=sgpat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Saudi GP Board exam overview](/exams/sgpat/)** — pattern, eligibility, and syllabus
+- **[All Surgery notes](/notes/sgpat/surgery/)** — browse sibling topics in this subject
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

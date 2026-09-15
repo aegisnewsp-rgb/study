@@ -8,154 +8,101 @@ topicName: Subject-Verb Agreement
 weight: 3
 country: philippines
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-15"
 ---
 
 # Subject-Verb Agreement
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your NMAT exam.
+> Rapid summary for last-minute revision before your exam.
 
-## Subject-Verb Agreement — Key Facts
+**Subject-Verb Agreement** is the grammar rule that the **subject** of a sentence and its **predicate verb** must match in **number** (singular ↔ singular, plural ↔ plural). NMAT Philippines Verbal items test this rule most often through *Error Identification* and *Sentence Correction*, so a single number-mismatch can flip the right answer.
 
-### Basic Rule
-A singular subject takes a singular verb. A plural subject takes a plural verb.
+| Subject type | Example | Required verb form |
+|---|---|---|
+| Singular noun phrase | *The box of chocolates* / *Each student* | **is, has, does** |
+| Plural noun phrase | *The boxes* / *Many students* | **are, have, do** |
+| Indefinite pronoun (singular) | *Everyone, each, neither, somebody* | singular verb |
+| Compound with **and** | *The doctor and the nurse* | plural verb |
 
-### Special Cases
-
-| Situation | Rule | Example |
-|-----------|------|---------|
-| **Neither...nor / Either...or** | Verb agrees with noun nearest to it | Neither the students nor the teacher **is** going |
-| **Collective noun (American)** | Singular verb | The team **is** winning |
-| **Indefinite pronouns** | Usually singular | Everyone **is** here |
-| **And** | Plural verb | Juan **and** Maria **are** students |
-| **Each / Every / Many a** | Singular verb | Each student **has** a book |
-| **Plural form, singular meaning** | Singular verb | Mathematics **is** difficult |
-
-⚡ **NMAT High-Yield**: Neither/nor and either/or — verb agrees with the nearer subject.
+> 💡 **High-Yield Memory Hook:** **SVA = Subject First, Verb Next.** Before you choose a verb, physically circle the **head noun** of the subject. Ignore every noun that sits inside an *of-phrase*, *along with*, or *together with* — those are decoys, not the subject.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-## Chapter: Subject-Verb Agreement
+#### Core Number-Concordance Rule
+A **singular subject** (one countable entity or a fixed-singular pronoun) takes a **singular verb**; a **plural subject** takes a **plural verb**. The verb form changes only with third-person-singular present tense (*He runs*, not *He run*) and with the auxiliary **be** (*is/was* vs *are/were*). NMAT items rarely test past-tense agreement — they target the present-tense mismatch because that is where distractors hide.
 
-### 1.1 Basic Principle
+#### Indefinite Pronouns — Fixed-Number Categories
+Indefinite pronouns carry built-in number. Memorising the categories removes half the distractor noise.
 
-**Rule**: The verb must agree with its subject in number (singular or plural).
+| Category | Pronouns | Verb number |
+|---|---|---|
+| Always singular | *each, every, either, neither, one, anyone, everybody, nobody, somebody, no one, anyone, anything, everything, nothing* | singular |
+| Always plural | *both, few, many, several* | plural |
+| Depends on the *of-phrase* | *all, any, none, some, most, more* | singular if *of-phrase* is singular, plural if plural |
 
-- ✓ "She **works** hard."
-- ✓ "They **work** hard."
+#### Compound Subjects and the Proximity Rule
+Two nouns joined by **and** form a **plural compound subject** → plural verb. Two nouns joined by **or** or **nor** trigger the **rule of proximity**: the verb agrees with the **nearest** subject alone. *Neither the teacher nor the students ARE present* is correct because *students* is nearest and plural.
 
-### 1.2 Special Cases
+#### Intervening Phrases Are Decoys
+When a singular head noun is separated from its verb by a prepositional phrase (commonly *of the …*, *along with …*, *together with …*, *as well as …*), the verb still agrees with the head noun, not the closest noun. *The box of chocolates **is** on the table* — *chocolates* does not control the verb.
 
-#### Compound Subjects with AND
-When two subjects are joined by **AND**, the verb is usually plural.
-- "Juan **and** Maria **are** married."
+#### 🎯 Exam-Level Worked Problem
+**Question:** *"A number of applicants ______ already submitted their transcripts, although the number of completed files ______ still low."*
+A. has … is
+B. have … are
+C. have … is
+D. has … are
 
-**Exception**: When the compound subject refers to a single person or thing, the verb is singular.
-- "The CEO **and** founder **has** arrived." (same person)
-- "The bread **and** butter **is** on the table." (single combination)
+#### Solution:
+1. Parse the first clause: *A number of applicants ___ already submitted.* The fixed phrase **"a number of"** functions as an indefinite quantifier meaning *several*; therefore *applicants* (plural head noun) takes a plural verb → **have**.
+2. Parse the second clause: *the number of completed files ___ still low.* The phrase **"the number of"** points to a specific quantity (singular concept); therefore **"is"** is correct.
+3. Combine: *have … is* → **Option C**.
 
-#### With OR or NOR
-When subjects are joined by **OR** or **NOR**, the verb agrees with the subject nearest to it.
+> ⚠️ **Examiner Trap:** Most test-takers pick **B** because *applicants* and *files* both look plural. The trap lies in the **fixed phrase**: *a number of* ≠ *the number of*. Mark the idiom first, the noun second.
 
-**Singular + Plural → Plural verb comes after plural:**
-- "Neither the students nor the teacher **is** going."
-- "Neither the teacher nor the students **are** going."
+---
 
-**Singular + Singular → Singular verb:**
-- "Either Juan or Maria **is** responsible."
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-#### Collective Nouns
-**American English**: Collective nouns usually take singular verbs
-- "The team **is** winning."
-- "The family **is** going on vacation."
+#### Advanced Traps and Edge Cases
 
-**British English**: Collective nouns can take plural verbs
-- "The team **are** playing well."
+| Construction | Naïve choice | Correct verb | Why |
+|---|---|---|---|
+| *The committee has decided.* | have | has | American-English NMAT style treats a unified collective as singular. |
+| *Fifty dollars is too much.* | are | is | Sums of money, distances, periods of time treated as one unit take singular verbs. |
+| *Here are the files you requested.* | is | are | Inverted sentences place the verb before the subject; identify the true subject after the verb. |
+| *Mathematics is my weakest subject.* | are | is | Titles of academic subjects and *-ics* nouns (mathematics, physics, news) are singular. |
+| *The teacher, along with the students, was present.* | were | was | *Along with*, *together with*, *as well as* are parenthetical — they do not alter number. |
+| *Each of the runners has finished.* | have | has | *Each* is always singular; the *of-phrase* does not flip its number. |
 
-**NMAT uses American English conventions.**
+#### Collective Nouns in NMAT Context
+NMAT items lean toward **American editorial style**, in which collective nouns default to singular when the group acts as one unit (*The jury **has** reached a verdict*) and shift to plural only when individual members are explicitly acting apart (*The jury **have** given their individual opinions*). British exam conventions, which pluralise collectives more liberally, are **not** the test's default — choose the singular reading unless the sentence forces individuality.
 
-#### Indefinite Pronouns
+#### Inverted Sentences and Existential *There*
+Sentences opening with *There is / There are*, *Here comes / Here come*, or fronted adverbials invert the normal order. The verb must agree with the **logical subject** that follows the verb, not with the introductory word. *There **are** several reasons* is correct because *reasons* (plural) follows *are*.
 
-**Always Singular**:
-- each, everyone, everybody, everything, someone, somebody, something, no one, nobody, nothing, anyone, anybody, anything, one
+#### Relative Pronouns as Connectors
+When *who, which,* or *that* introduces a relative clause, the verb agrees with the **antecedent** of the pronoun, not with the pronoun itself. *She is one of the doctors who **work** night shifts* — *who* refers to *doctors* (plural), so the verb is plural. The classic trap: students pick singular *works* because the surface noun closest to the verb is *one*.
 
-- "Everyone **is** here."
-- "Something **has** been done."
+#### Adjacent Topic Links
+Subject-Verb Agreement overlaps directly with **Pronoun-Antecedent Agreement** (singular *each* demands singular pronouns later in the sentence), **Tense Consistency** (present-tense subjects still need present-tense verbs after a past-tense narrative shift), and **Parallelism** in compound predicates. Strong NMAT scorers treat these three sub-skills as one cluster.
 
-**Always Plural**:
-- both, few, many, several, others
+#### Advanced Practice Prompts
+1. Identify and correct the agreement error: *"The quality of the imported goods have declined sharply since the new regulations took effect."*
+2. Choose the correct verb pair: *"Neither the principal nor the parents ______ consulted about the schedule change, and the list of concerns ______ growing longer."* — *have been / is* vs *has been / are* vs *have been / are* vs *has been / is*.
 
-- "Few **are** present."
-- "Both **were** absent."
+---
 
-**Can Be Singular or Plural**:
-- all, any, most, none, some
+## Continue your study
 
-- "Most of the cake **is** eaten." (uncountable cake)
-- "Most of the students **are** present." (countable students)
+- **[View this topic in your NMAT (Philippines) roadmap](/roadmap/?exam=nmat&duration=1mo)** — see where "Subject-Verb Agreement" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=nmat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NMAT (Philippines) exam overview](/exams/nmat/)** — pattern, eligibility, and syllabus
+- **[All Verbal notes](/notes/nmat/verbal/)** — browse sibling topics in this subject
 
-#### Every, Each, Many a
-These always take singular verbs even when joined by AND:
-- "Every student **has** an ID."
-- "Each of them **is** responsible."
-- "Many a student **has** failed this exam."
-
-### 1.3 Agreement with Intervening Phrases
-
-The verb agrees with the subject, NOT with words in prepositional phrases or other modifiers.
-
-- ✗ "The box of chocolates **are** on the table."
-- ✓ "The box of chocolates **is** on the table."
-
-- ✗ "One of my friends **are** from Manila."
-- ✓ "One of my friends **is** from Manila."
-
-### 1.4 Relative Pronouns
-
-The verb agrees with the ANTECEDENT of the relative pronoun.
-
-- "I, who **am** a student, study hard." (I = singular)
-- "You, who **are** a teacher, explain well." (You = singular)
-- "The students, who **are** preparing for the NMAT, study late." (students = plural)
-
-### 1.5 Plural Forms with Singular Meanings
-
-Some nouns end in -s but are grammatically singular:
-
-| Noun | Rule | Example |
-|------|------|---------|
-| Mathematics, Physics, News | Singular verb | Mathematics **is** interesting |
-| Countries, series, species | Can be singular or plural | This species **is** / These species **are** |
-| Trousers, scissors, glasses | Plural verb | My trousers **are** new |
-
-### 1.6 Number Words
-
-**A number of + plural noun → plural verb**
-- "A number of students **are** taking the exam."
-
-**The number of + plural noun → singular verb**
-- "The number of applicants **is** increasing."
-
-### 1.7 There/Here + Be
-
-The verb agrees with the subject that FOLLOWS it.
-- "There **is** one book on the table."
-- "There **are** many books on the table."
-- "Here **comes** the teacher." (teacher = singular)
-
-### 1.8 NMAT High-Yield Points
-
-⚡ **Commonly Asked**:
-1. **Neither...nor / Either...or**: Verb agrees with nearer subject
-2. **Collective nouns**: American English = singular verb (The team IS)
-3. **Indefinite pronouns**: Everyone, someone, no one = singular
-4. **And**: Usually plural (Juan and Maria ARE)
-5. **Each/Every**: Always singular
-6. **Prepositional phrases**: Verb agrees with subject, not object of preposition
-7. **A number of**: Plural verb (A number of students ARE)
-8. **The number of**: Singular verb (The number of students IS)
-9. **There/Here**: Verb agrees with subject following it
-10. **Relative pronouns**: Verb agrees with antecedent
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

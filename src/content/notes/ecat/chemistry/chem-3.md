@@ -11,7 +11,7 @@ topicName: "States of Matter (Gases, Liquids, Solids)"
 weight: 3
 country: pakistan
 generated: "2026-03-24T08:32:08.055244"
-lastUpdated: "2026-06-27"
+lastUpdated: "2026-09-15"
 diagramPrompt: "Clear scientific diagram of States of Matter (Gases, Liquids, Solids) with atom labels, molecular structure, reaction arrows, white background, color-coded bonds and groups, exam textbook style"
 
 
@@ -25,64 +25,132 @@ diagramPrompt: "Clear scientific diagram of States of Matter (Gases, Liquids, So
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Matter exists in four states** — solid, liquid, gas, and plasma — distinguished by the balance between **intermolecular forces** (cohesion) and the **kinetic energy** of particles (thermal motion). The **ideal gas law**, **PV = nRT**, combines Boyle's, Charles's, and Avogadro's laws and is tested almost every ECAT cycle, usually with a numerical twist. Always use **absolute temperature in Kelvin (T = °C + 273.15)** when plugging into PV = nRT or Charles's law. **Real gases** deviate from ideality at high pressure and low temperature, corrected by the **van der Waals equation**: (P + an²/V²)(V − nb) = nRT, where *a* accounts for attractions and *b* for the finite molecular volume.
+Matter exists in three classical forms — **solid**, **liquid**, and **gas** — determined by how strongly intermolecular forces (IMFs) hold particles together versus how much thermal kinetic energy those particles carry. Solids keep a fixed shape and volume because particles only vibrate about fixed lattice sites. Liquids keep a fixed volume but flow to match their container's shape because particles can slide past each other. Gases fill any container completely because particles move freely with negligible attraction between them.
+
+| Property | Solid | Liquid | Gas |
+|---|---|---|---|
+| Shape | Definite | Variable (container) | Variable (fills container) |
+| Volume | Definite | Definite | Variable |
+| Compressibility | Negligible | Very low | High |
+| Density | Highest | Moderate | Lowest |
+| Particle motion | Vibration only | Translation + vibration | Free translation |
+
+The single most-tested equation on ECAT Chemistry is the **ideal gas law**:
+
+$$PV = nRT$$
+
+where **P** = pressure (Pa), **V** = volume (m³), **n** = moles, **R** = 8.314 J·mol⁻¹·K⁻¹, and **T** = temperature (K). Always convert °C to K by adding 273.15.
+
+> 💡 **High-Yield Memory Hook:** **"S-V-L-G"** — "S**olid** keeps **S**hape & **V**olume, **L**iquid keeps **V**olume but not **S**hape, **G**as keeps neither." For gas-law units, remember **"K**ing **R**ules" — **K**elvin for temperature, **R** = 8.314 with Pa·m³·mol⁻¹·K⁻¹.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-#### Intermolecular Forces vs. Thermal Energy
-The physical state of a substance is decided by which factor dominates. **Solids** have the strongest effective cohesive forces — particles vibrate in fixed lattice positions, giving a definite shape and volume. **Liquids** retain a definite volume but flow into the container's shape; intermolecular forces are still significant, but kinetic energy lets particles slide past each other. **Gases** have negligible cohesive forces — particles move in rapid, random, straight-line trajectories, filling any container completely (no fixed shape or volume). **Plasma**, the fourth state, consists of ionised gas with free electrons and ions, formed at very high temperatures (e.g. stars, neon signs, lightning).
+#### Intermolecular Forces vs Kinetic Energy
 
-#### Gas Laws and the Kinetic Molecular Theory
-The **Kinetic Molecular Theory** idealises a gas as point-like particles in constant elastic collisions, with no intermolecular attraction and a kinetic energy proportional to absolute temperature: **KE_avg = (3/2)RT** per mole. From this, the combined gas law emerges:
+The state of any substance is a tug-of-war between **IMFs** (London dispersion, dipole-dipole, hydrogen bonding) pulling particles together, and **thermal kinetic energy** pulling them apart. Heating a solid increases vibrational amplitude until the lattice breaks (melting). Continued heating lets molecules escape the surface (evaporation/boiling). At still higher temperatures, molecules collide often enough to ionise, producing **plasma** — the fourth state introduced in modern curricula.
 
-> **P₁V₁/T₁ = P₂V₂/T₂**, with T in Kelvin.
+#### Gas Laws at a Glance
 
-For a fixed amount of gas this reduces to Boyle's law (P ∝ 1/V at constant T), Charles's law (V ∝ T at constant P), and Avogadro's law (V ∝ n at constant T, P). The master form **PV = nRT** lets you solve for any unknown when three are known.
+| Law | Relationship | Constant Held | Variable Quantities |
+|---|---|---|---|
+| Boyle's Law | P ∝ 1/V | T, n | P, V |
+| Charles's Law | V ∝ T | P, n | V, T |
+| Avogadro's Law | V ∝ n | T, P | V, n |
+| Gay-Lussac's Law | P ∝ T | V, n | P, T |
+| Combined | P₁V₁/T₁ = P₂V₂/T₂ | n | P, V, T |
 
-#### Real Gases and the van der Waals Equation
-At high P or low T, the ideal model breaks down because molecules attract each other and occupy real volume. The van der Waals correction is:
+The combined gas law merges the first three; it is the form examiners prefer when three variables change at once.
 
-> **(P + an²/V²)(V − nb) = nRT**
+#### Average Molecular Kinetic Energy
 
-Constant *a* reflects attractive forces (large for polar/ H-bonding molecules), constant *b* reflects excluded volume (larger for bigger molecules). ECAT MCQs frequently ask which gas deviates most from ideality — typically the most polarisable or most polar (e.g. CO₂, NH₃, H₂O).
+A direct consequence of the kinetic theory is:
 
-#### Phase Transitions and Phase Diagrams
-A **phase diagram** plots pressure against temperature, marking:
-- **Triple point**: solid, liquid, and gas coexist in equilibrium (unique P, T).
-- **Critical point**: end of the liquid–gas boundary; above this, the substance is a **supercritical fluid**.
-- **Boiling point**: temperature at which vapour pressure equals atmospheric pressure (760 mmHg at standard pressure).
-- **Sublimation**: solid → gas directly (e.g. dry ice, naphthalene). **Deposition**: gas → solid directly (e.g. frost formation).
+$$KE_{avg} = \tfrac{3}{2}k_BT$$
 
-#### Common ECAT Traps
-1. Forgetting to convert °C → K before substituting into PV = nRT or Charles's law.
-2. Inverting Graham's law — **r₁/r₂ = √(M₂/M₁)** means the lighter gas effuses *faster*.
-3. Treating boiling point and vapour pressure as unrelated — they are linked by definition.
+where **k_B** = Boltzmann constant = 1.38 × 10⁻²³ J·K⁻¹ and **T** is in kelvin. Note that **k_B = R/N_A**, so per mole the kinetic energy becomes (3/2)RT.
+
+#### Concept Comparison Matrix: Real vs Ideal Gas
+
+| Feature | Ideal Gas | Real Gas |
+|---|---|---|
+| Particle volume | Negligible | Finite (corrected by *b*) |
+| IMFs between particles | None | Present (corrected by *a*) |
+| Behaviour | PV = nRT exactly | Follows van der Waals: (P + an²/V²)(V − nb) = nRT |
+| Deviation largest | — | Near condensation or high pressure |
+| Kinetic energy | Depends only on T | Depends only on T |
+
+#### 🎯 Exam-Level Worked Problem
+
+**Question:** A 2.50 L container holds 0.800 mol of N₂ at 27.0 °C. Calculate (a) the pressure in atm, and (b) the average kinetic energy per molecule in joules.
+
+#### Solution:
+
+(a) Convert T to kelvin: T = 27.0 + 273.15 = 300.15 K ≈ 300 K.
+Use PV = nRT → P = nRT / V.
+P = (0.800 mol)(0.08206 L·atm·mol⁻¹·K⁻¹)(300 K) / 2.50 L
+P = (0.800 × 0.08206 × 300) / 2.50
+P = 19.694 / 2.50 ≈ **7.88 atm**
+
+(b) Average KE per molecule:
+KE = (3/2)k_BT = (1.5)(1.38 × 10⁻²³ J·K⁻¹)(300 K)
+KE = 6.21 × 10⁻²¹ J (≈ 38.7 × 10⁻²² J).
+
+> ⚠️ **Examiner Trap:** Many ECAT students plug 27.0 °C directly into PV = nRT instead of 300 K, producing an answer roughly 10% low. Other common slips: using R = 8.314 with L·atm units, or using molar mass (28 g/mol) where moles (0.800) are already given.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-#### Worked Example — Density Form of the Ideal Gas Law
-A frequent ECAT-style numerical uses **PM = dRT**, where M is molar mass (kg/mol) and d is gas density (kg/m³). Given 2.0 g of an unknown gas occupying 1.25 L at 300 K and 1.0 atm, compute the molar mass:
+#### Gas Density and Graham's Law
 
-- n = PV/RT = (1.0)(1.25)/(0.0821 × 300) ≈ 0.0507 mol
-- M = mass/n = 2.0 / 0.0507 ≈ 39.4 g/mol → candidate gas is **argon (Ar = 39.95 g/mol)**.
+The density of a gas follows from rearranging PV = nRT and n = m/M:
 
-This style links gas law numerics with stoichiometry, and examiners love cross-topic synthesis.
+$$\rho_{gas} = \frac{PM}{RT}$$
 
-#### Edge Cases and Mechanism Depth
-- **Compressibility factor Z = PV/nRT** quantifies non-ideality: Z < 1 means attractions dominate (common at moderate P); Z > 1 means repulsions dominate (very high P).
-- **Hydrogen bonding** explains water's anomalously high boiling point, surface tension, and viscosity compared with H₂S and H₂Se.
-- **Vapour pressure** depends only on the substance and temperature — not on the amount of liquid or the container size (a common ECAT misconception).
-- **Critical temperature**: the maximum temperature at which a gas can be liquefied by pressure alone. Above it, no amount of compression produces a liquid phase.
+where **ρ** is in kg·m⁻³, **P** in Pa, **M** = molar mass (kg·mol⁻¹), **R** = 8.314, **T** in K. Effusion rates obey Graham's law:
+
+$$\frac{r_1}{r_2} = \sqrt{\frac{M_2}{M_1}}$$
+
+Heavier molecules effuse more slowly because their rms speed $v_{rms}=\sqrt{3RT/M}$ scales as $1/\sqrt{M}$.
+
+#### Edge Cases and Limits
+
+1. **Absolute zero (-273.15 °C / 0 K):** Theoretical floor where translational kinetic energy vanishes; gases would exert zero pressure in the ideal limit.
+2. **Critical point:** Above the critical temperature **T_c**, no applied pressure can liquefy the gas — the substance becomes a supercritical fluid (used in CO₂ decaffeination).
+3. **Plasma and BEC:** Non-classical states. Plasma forms above ~10⁴ K when atoms ionise; Bose–Einstein condensates appear within nanokelvin ranges of 0 K when atoms collapse into one quantum ground state.
+4. **Compressibility factor Z = PV/nRT:** Z = 1 for ideal; Z < 1 at moderate T (IMFs dominate); Z > 1 at high P (excluded volume dominates).
+5. **Vapour pressure** rises exponentially with T per the Clausius–Clapeyron equation: ln P = −ΔH_vap/RT + C.
+
+#### Advanced Traps and Exceptions
+
+| Trap | Why It Happens | Correct Approach |
+|---|---|---|
+| Using °C in gas-law problems | Temperature must be absolute | Always add 273.15 |
+| Treating solids as kinetic-less | Vibration is kinetic energy | KE formula applies; only translation is frozen |
+| Assuming liquids incompressible | IMFs resist compression but not perfectly | Bulk modulus of water ≈ 2.2 GPa (real, finite) |
+| Confusing boiling with evaporation | Both involve liquid→vapour | Boiling requires vapour pressure = external P |
+| Forgetting stoichiometric gas ratios | Gases in reactions use mole ratios, not volumes directly | At same T and P, volume ratio = mole ratio (Avogadro) |
+
+#### Exam Strategy for ECAT
+
+States of Matter contributes roughly **3%** of ECAT Chemistry — about one MCQ per past paper. The questions cluster into three families: (i) numerical PV = nRT problems, (ii) combined-gas-law pressure/temperature changes, and (iii) qualitative ordering questions (which substance has the highest boiling point, etc.). Spend under 90 seconds per item; the calculation is short once units are locked in.
 
 #### Practice Prompts
-1. A 5.0 L flask at 27 °C contains 0.20 mol N₂ and 0.30 mol O₂. Find total pressure and the partial pressure of O₂. (Hint: P_total = n_totalRT/V; mole fraction × P_total.)
-2. Using Graham's law, calculate how many times faster H₂ effuses than CO₂ at the same temperature. (√(44/2) = √22 ≈ 4.7×.)
+
+1. A sample of O₂ occupies 4.00 L at 1.20 atm and 300 K. If it is compressed to 2.00 L and heated to 450 K, what is the new pressure?
+2. Methane (CH₄) effuses through a pinhole at 1.00 arbitrary unit. At what rate will sulphur dioxide (SO₂) effuse under identical conditions? (M_CH₄ = 16 g/mol, M_SO₂ = 64 g/mol.)
 
 ---
+
+## Continue your study
+
+- **[View this topic in your ECAT (Engineering College Admission Test) roadmap](/roadmap/?exam=ecat&duration=1mo)** — see where "States of Matter (Gases, Liquids, Solids)" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ecat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[ECAT (Engineering College Admission Test) exam overview](/exams/ecat/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/ecat/chemistry/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

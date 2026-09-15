@@ -11,7 +11,7 @@ topicName: Sentence Completion and Fill in the Blanks
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.587405"
-lastUpdated: "2026-06-24"
+lastUpdated: "2026-09-15"
 diagramPrompt: "Educational diagram illustrating Sentence Completion and Fill in the Blanks with clear labels, white background, exam-style illustration"
 
 
@@ -24,97 +24,100 @@ diagramPrompt: "Educational diagram illustrating Sentence Completion and Fill in
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Sentence completion** tests your ability to pick the word(s) that make a sentence grammatically correct and logically meaningful. In NCEE English, items appear as multiple-choice options with a numbered blank; only one option fits all four layers at once: **grammar**, **meaning**, **collocation**, and **spelling**.
+Sentence completion tests your ability to pick the single best word that makes a sentence grammatically correct, logically coherent, and idiomatic. Each item shows one blank with four options; only one option fits all three layers — grammar, meaning, and collocation.
 
-#### The Four-Fit Rule
-Every correct answer must satisfy all four checks:
+| Cue type | What to check | Example |
+|---|---|---|
+| Syntactic cue | Subject–verb agreement, tense, determiner | "The committee ___ its decision." (has, not *have*) |
+| Semantic cue | Meaning of nearby words, cause/effect, contrast | "Although he was tired, he kept ___" (working, not *resting*) |
+| Collocation | Fixed word partnerships | "make a mistake" (not *do a mistake*) |
+| Connective signal | however, because, since, although | Picks the logical relation demanded |
 
-1. **Grammar fit** — subject-verb agreement, tense, correct part of speech, correct verb form (gerund/infinitive).
-2. **Meaning fit** — the option carries the sense implied by the surrounding context.
-3. **Collocation fit** — the word pairs naturally with fixed neighbours (e.g., *make a decision*, not ~~do a decision~~).
-4. **Spelling/Usage fit** — no homophone confusion (*their/there/they're*, *your/you're*, *its/it's*).
-
-#### High-Yield Pointers
-- Read the **whole sentence first**, then the blank, then the options.
-- Watch for **negatives** (*not, never, hardly, scarcely*) — they flip the required meaning.
-- Watch for **time markers** (*yesterday, by next week, for two years*) — they lock the verb tense.
-- If two options seem possible, the **preposition or article** usually breaks the tie.
+> 💡 **High-Yield Memory Hook:** **GMS-C** — Grammar, Meaning, Spell/Shape, Collocation. Always test the option in this order; if it fails Grammar, drop it instantly.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-NCEE sentence-completion items typically present a short sentence with one numbered blank and four options (A–D). The question is graded on a single principle: **the correct option is the only one that leaves the sentence grammatical, logical, idiomatic, and correctly spelt.** Examine the same item from four angles and you will rarely be tricked.
+#### How the three cue layers interact
 
-#### Grammar Layer
-The blank almost always sits inside a specific grammatical slot. Confirm the slot before reading meaning.
+Every correct answer passes three filters at once. First, the **syntactic filter** confirms the word's part of speech matches the slot — singular noun, plural verb, comparative adjective, or appropriate preposition. Second, the **semantic filter** checks meaning against the surrounding context: cause markers (*because, since, due to*) demand a reason; contrast markers (*although, however, despite*) demand the opposite idea. Third, the **collocation filter** checks whether the word pairs naturally with its neighbour (e.g., *heavy rain*, not *strong rain*; *make progress*, not *do progress*).
 
-- **After a verb of motion/preference** (*enjoy, avoid, mind, finish, suggest*) expect a **gerund** (*-ing* form): *She avoided ____ the meeting.*
-- **After *want, decide, hope, plan, expect, agree*** expect a **to-infinitive**: *He decided ____ early.*
-- **Subject-verb agreement** survives intervening phrases: *The box of chocolates ____ on the shelf.* (singular *is*, because the head noun is *box*.)
-- **Tense lock**: *By next Friday, she ____ the project.* forces a future-perfect or present-perfect form (*will have completed* / *has completed*), never simple past.
+#### Concept comparison matrix
 
-#### Meaning Layer
-Use **context clues** to narrow the meaning required by the blank:
+| Distractor type | What it looks like | Why students fall for it | How to defeat it |
+|---|---|---|---|
+| Synonym trap | Option B means the same as the answer but is wrong | Students pick the "closest" word by sound or sense | Read the full sentence; the synonym breaks collocation or grammar |
+| Grammar-fit trap | Option fits grammatically but not semantically | Students stop after checking verb form | Re-check meaning before locking in |
+| Spelling twin | *affect/effect, their/there, principle/principal* | Looks right at a glance | Sound it out or test it in the sentence |
+| Contrast flip | First clause says X; blank needs NOT-X | Students echo the first clause | Underline contrast markers (*although, yet, however*) |
 
-| Clue type | Signal words | What it tells you |
-|---|---|---|
-| Definition / restatement | *that is, in other words, or* | blank = synonym of the clue |
-| Contrast | *but, however, although, yet* | blank = antonym of the clue |
-| Cause-effect | *because, so, therefore, as a result* | blank = cause or result of the clue |
-| Example | *for example, such as, like* | blank is a member of the clue's category |
+#### Key steps for solving any item
 
-#### Collocation & Usage Layer
-English has fixed pairings that cannot be reasoned out from meaning alone: *make a mistake* (not ~~do~~), *take a decision* (British) vs *make a decision* (also acceptable), *strong tea* (not ~~powerful tea~~), *heavy rain* (not ~~strong rain~~ in this meaning). NCEE items frequently test these.
+1. Read the whole sentence, then identify the blank's part of speech from grammar cues.
+2. Underline signal words: *because, although, however, despite, since, while*.
+3. Eliminate any option that breaks subject–verb agreement, tense, or determiner rules.
+4. Eliminate any option that means the opposite of what the context demands.
+5. Test the survivors for collocation — only one option will "sound native".
 
-#### Spelling & Homophone Layer
-Common confusions the paper exploits:
+#### 🎯 Exam-Level Worked Problem
 
-- *affect* (verb, to influence) vs *effect* (noun, a result)
-- *advice* (noun) vs *advise* (verb)
-- *complement* (to complete) vs *compliment* (praise)
-- *lose* (verb) vs *loose* (adjective)
-- *its* (possessive) vs *it's* (it is / it has)
+#### Question:
+*"Despite the heavy rainfall, the football match ___ as planned."*
+A. cancelled
+B. was cancelled
+C. cancelling
+D. has cancelled
 
-#### Standard Question Patterns
-1. **Single-word blank, four-option MCQ** — most common NCEE format.
-2. **Preposition-choice items** — *She is good ____ mathematics.* → *at*.
-3. **Article-choice items** — *____ honest man is respected.* → *An*.
-4. **Modal-auxiliary items** — *You ____ see a doctor.* → *should*.
+#### Solution:
+Step 1 — Identify the slot's grammar. The phrase *"the football match"* is the subject, and the sentence needs a past-tense passive verb to match the past context (*was planned*).
+Step 2 — Test each option:
+- A. *cancelled* — verb only; needs an auxiliary to fit a passive past. ✗
+- B. *was cancelled* — past tense passive, agrees with singular subject. ✓
+- C. *cancelling* — present participle; wrong tense and voice. ✗
+- D. *has cancelled* — present perfect active; match did not cancel itself. ✗
+Step 3 — Lock in **B**.
+
+> ⚠️ **Examiner Trap:** Students often pick **A** because the word *cancelled* "looks right". NCEE items deliberately drop the auxiliary to test whether you recognise the passive voice — always check whether the subject is the doer or the receiver of the action.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-#### Edge Cases That Catch Top Students
-Even strong candidates lose marks on items where the grammar and meaning both look correct but one subtle feature disqualifies the answer.
+#### Edge cases and high-band traps
 
-- **Negation transfer**: *He has ____ no friends since he moved.* Options: *A) many B) several C) any D) some.* The *no* before *friends* means the clause is negative, so only *any* survives — the others are positive-polarity items.
-- **Tense-shift traps**: *While she ____ dinner, the doorbell rang.* Only a **past continuous** (*was cooking*) fits, because two past-time actions happened simultaneously and one interrupted the other.
-- **Adverb vs adjective slot**: *The child behaved ____.* Options: *A) good B) well C) better D) best.* After the verb *behaved* (an action), the slot demands an **adverb**: *well*.
-- **Countable vs uncountable**: *He gave me ____ useful information.* Options: *A) many B) few C) several D) an.* *Information* is uncountable, so *an* (article + adjective) is the only grammatical fit; *many/few/several* all require a plural countable noun.
-- **Register mismatch**: A sentence written in formal English (*The committee deliberated upon the matter…*) will not accept a slang option, even if the meaning fits.
+- **Collective nouns**: *committee, team, family, government* take singular verbs in British/Nigerian formal English — *"The committee has decided"*, not *"have decided"*.
+- **Uncountable nouns**: *information, advice, luggage, equipment, news* never take *-s* or *a/an*. The trap option often pluralises them.
+- **Comparative/superlative consistency**: *more bigger* is a classic wrong option; only *bigger* or *much bigger* is acceptable.
+- **Double negatives**: *I don't know nothing* is wrong; the answer must drop *not* or *nothing*.
+- **Tense sequence**: a past-tense main clause forces a past-tense subordinate clause unless a universal truth is stated.
 
-#### How This Topic Connects to the Rest of NCEE English
-Sentence-completion skill is not siloed. The same four-layer reasoning (grammar, meaning, collocation, spelling) also unlocks:
+#### Common NCEE-specific mistakes
 
-- **Comprehension passages** — picking the right meaning of an unfamiliar word from context.
-- **Lexis and Structure** — choosing correct prepositions, articles, conjunctions.
-- **Oral English / vowel-consonant items** — distinguishing homophones like *sun/son, sea/see, flower/flour*.
-- **Summary writing** — selecting synonyms and avoiding repetition.
+1. Choosing an option that fits the **first** clause instead of reacting to the **connective** (*because/although*).
+2. Picking a noun that agrees in number but is the wrong semantic field entirely.
+3. Confusing *much* with *many*, *less* with *fewer*, *since* (time) with *since* (cause).
+4. Missing the determiner cue: *"a/an"* signals a singular countable noun; *"some"* allows plural or uncountable.
+5. Ignoring phrasal-verb particles — *put off* (postpone) vs *put up* (tolerate) vs *put on* (wear).
 
-Treat sentence completion as the **diagnostic layer** of your English: weakness here predicts weakness elsewhere.
+#### Advanced practice prompts
 
-#### Two Practice Prompts
-1. *The principal announced that all students ____ bring their identity cards tomorrow.* — Identify the modal that fits both formal register and future obligation.
-2. *Hardly ____ the door when the rain started.* — Choose the correct form to express an action that had just finished when another began (*had he opened / did he open / he had opened / he opened*).
+1. *"The principal announced that the school ___ by 2 p.m."* — Test subject–verb agreement with *principal* (head teacher, not *principle*) and a passive future-in-the-past.
+2. *"Hardly had the match started when it ___ to rain."* — Spot the inverted past perfect / past simple pattern; only *began* fits, not *begins* or *has begun*.
 
-#### Exam Strategy
-- Allow **30–45 seconds** per item; faster and you miss the negative or tense marker.
-- Always eliminate by **grammar first**, then **meaning**, then **collocation**.
-- NCEE English carries about **4% weight** in the overall paper, but every mark in English lifts aggregate rank because most candidates score average here.
+#### Exam strategy for NCEE English
+
+Sentence completion contributes roughly 5–10 items in the 40-question English paper (about 4% of the total NCEE score). Budget 30–45 seconds per item: read once, underline the connective, eliminate two options by grammar alone, then choose between the survivors using meaning and collocation. Skip and return only if both survivors seem plausible after a second read.
 
 ---
+
+## Continue your study
+
+- **[View this topic in your NCEE (National Common Entrance Examination) roadmap](/roadmap/?exam=ncee&duration=1mo)** — see where "Sentence Completion and Fill in the Blanks" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ncee&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NCEE (National Common Entrance Examination) exam overview](/exams/ncee/)** — pattern, eligibility, and syllabus
+- **[All English notes](/notes/ncee/english/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

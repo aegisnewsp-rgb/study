@@ -26,6 +26,7 @@ import {
     MONETAG_TAG_SRC,
     MONETAG_MULTITAG_ZONE,
     MONETAG_POPUNDER_ZONE,
+    MONETAG_POPUNDER_DEDICATED_ENABLED,
     POPUNDER_COOLDOWN_MS,
     POPUNDER_STORAGE_KEY,
     VISITOR_GEO_STORAGE_KEY,
@@ -49,6 +50,7 @@ const config = {
     tag: MONETAG_TAG_SRC,
     multitag: MONETAG_MULTITAG_ZONE,
     popunder: MONETAG_POPUNDER_ZONE,
+    popunderZoneEnabled: MONETAG_POPUNDER_DEDICATED_ENABLED,
     cooldownMs: POPUNDER_COOLDOWN_MS,
     pubKey: POPUNDER_STORAGE_KEY,
     geoKey: VISITOR_GEO_STORAGE_KEY,
@@ -237,6 +239,7 @@ const js = `
     function decidePopunder() {
         if (state.popunder || state.popunderSkipped === 'loaded') return;
         if (!cfg.allowPopunder) { state.popunderSkipped = 'disabled'; return; }
+        if (!cfg.popunderZoneEnabled) { state.popunderSkipped = 'zone-not-serving'; return; }
         if (geoRestricted() && !(consentInfo().state === 'granted' && consentInfo().ads)) {
             // EEA/UK/CH without a granted decision: no intrusive format.
             state.popunderSkipped = 'consent-region';
@@ -259,6 +262,7 @@ const js = `
     function arm() {
         if (popTimer) { clearTimeout(popTimer); popTimer = null; }
         if (state.popunder) return;
+        if (!cfg.popunderZoneEnabled) { state.popunderSkipped = 'zone-not-serving'; return; }
         var elapsed = Date.now() - lastPopunder();
         if (elapsed < cfg.cooldownMs) {
             state.popunderSkipped = 'cooldown';

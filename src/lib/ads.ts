@@ -40,6 +40,26 @@ export const MONETAG_MULTITAG_ZONE = 280401;
  */
 export const MONETAG_POPUNDER_ZONE = 11805678;
 
+/**
+ * Whether to load the *dedicated* popunder zone above.
+ *
+ * Off since 2026-09-15, on measured evidence: the zone endpoint answers
+ * HTTP 404 (text/plain, 7 bytes) on every page —
+ * `https://6opo.com/88/11805678?dmn=quge5.com` — while every other zone of the
+ * same tag returns JSON 200. A zone that is not yet serving cannot produce an
+ * impression, so loading it only spends one request per ad-eligible pageview
+ * and leaves a failed request in the console.
+ *
+ * The popunder format itself is NOT lost: the MultiTag fan-out already
+ * contains an OnClick zone (11798843, direction_id=1), and that is where the
+ * popunder impressions are actually attributed — 36 impressions / $0.0162
+ * over 2026-09-13..15, the best CPM ($0.45) of any zone on the account.
+ *
+ * Flip back to true once the dedicated zone is approved and its endpoint
+ * returns JSON instead of 404.
+ */
+export const MONETAG_POPUNDER_DEDICATED_ENABLED = false;
+
 /** Popunder cooldown per visitor/browser: 12 hours. */
 export const POPUNDER_COOLDOWN_MS = 12 * 60 * 60 * 1000;
 

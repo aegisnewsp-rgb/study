@@ -8,7 +8,7 @@ topicName: Active and Passive Voice
 weight: 3
 country: nigeria
 generated: "2026-03-24T08:32:07.702628"
-lastUpdated: 2026-03-24
+lastUpdated: "2026-09-15"
 diagramPrompt: "Educational diagram illustrating Active and Passive Voice with clear labels, white background, exam-style illustration"
 
 ---
@@ -18,103 +18,118 @@ diagramPrompt: "Educational diagram illustrating Active and Passive Voice with c
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Active vs. Passive Voice** — Quick Facts
-- **Active voice:** The subject performs the action. "The dog bit the man."
-- **Passive voice:** The subject receives the action. "The man was bitten by the dog."
-- In passive, the object of the active verb becomes the subject
+Voice describes the relationship between the **subject** and the **verb**. In **active voice**, the subject performs the action; in **passive voice**, the subject receives the action. JAMB tests this under sentence interpretation and oral English, typically 1–3 items per paper.
 
-**Passive Structure:** Subject + be verb (am/is/are/was/were/been/being) + past participle (+ by agent)
+- **Active pattern:** Subject + verb + Object. Example: *The gardener waters the flowers.*
+- **Passive pattern:** Object + be/get + past participle (V3) + by + agent. Example: *The flowers are watered by the gardener.*
+- **Conversion rule:** Move the active object to subject position, insert the correct form of **be** (or **get** informally), keep the past participle, and optionally add *by + doer*.
+- **Rule of thumb:** Only **transitive verbs** (those taking a direct object) can shift into passive. Intransitive verbs like *arrive, sleep, happen* have no passive form.
+- **Tense is preserved**, not changed. *Writes → is written; wrote → was/were written; has written → has been written; will write → will be written.*
 
-**Tense-wise Conversion (Present/Past)**
-| Active | Passive |
-|---|---|
-| He writes a letter. | A letter is written (by him). |
-| He wrote a letter. | A letter was written (by him). |
-| He has written a letter. | A letter has been written (by him). |
+> 💡 **High-Yield Memory Hook:** **"SVO → OPB"** — Subject-Verb-Object in active becomes **O**bject-**P**ast participle-**B**e-form in passive. Think **"Object promoted to subject, be-form inserted, past participle stays."**
 
-⚡ **Exam Tip:** JAMB frequently asks you to identify or transform sentences between active and passive. The key is getting the correct form of "be" + past participle. If you see "by + agent," the sentence is almost certainly passive.
+| Tense | Active | Passive |
+|---|---|---|
+| Present Simple | writes | is/am/are written |
+| Past Simple | wrote | was/were written |
+| Present Perfect | has written | has been written |
+| Future | will write | will be written |
+| Modal | can write | can be written |
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Full Tense Conversion Chart**
+#### Core Mechanism of Voice Shift
 
-| Tense | Active | Passive |
+Voice change is not a tense change — it is a **realignment of roles**. The grammatical subject moves to the object slot, and the original object climbs to the subject position. The verb that previously sat in active form now needs an **auxiliary be** that mirrors the original tense, paired with the **past participle (V3)** of the main verb. JAMB examiners test whether candidates know the correct be-form for each tense.
+
+#### Concept Comparison Matrix
+
+| Feature | Active Voice | Passive Voice |
 |---|---|---|
-| Present Simple | He writes | is written |
-| Present Continuous | He is writing | is being written |
-| Present Perfect | He has written | has been written |
-| Past Simple | He wrote | was written |
-| Past Continuous | He was writing | was being written |
-| Past Perfect | He had written | had been written |
-| Future Simple | He will write | will be written |
-| Future Perfect | He will have written | will have been written |
-| Present Infinitive | to write | to be written |
-| Past Infinitive | to have written | to have been written |
+| Subject role | Doer (agent) | Receiver (patient) |
+| Sentence focus | Who/what performs the action | What happens to the subject |
+| Verb form | Base / V1 / V2 (no auxiliary be) | be/get + V3 |
+| By-phrase | Not required | Optional (omitted when agent is unknown, obvious, or unimportant) |
+| Verb type required | Any verb | Only transitive verbs |
+| Emphasis style | Direct, concise | Formal, distancing, academic |
+| Example | *The chef cooked the soup.* | *The soup was cooked by the chef.* |
 
-**When to Prefer Passive Voice**
-1. The agent (doer) is unknown: "My wallet was stolen."
-2. The agent is irrelevant: "Smoking is prohibited here."
-3. The recipient is more important: "The president was assassinated."
-4. To be diplomatic/formal: "It is believed that..." rather than "People believe..."
-5. To emphasise the action rather than the actor
+#### Step-by-Step Conversion Procedure
 
-**Modal Verbs in Passive**
-Structure: Modal + be + past participle
-- can be done / could be done
-- may be done / might be done
-- must be done
-- should be done / ought to be done
-- will be done / would be done
+1. **Identify the active object** (the noun or pronoun receiving the action).
+2. **Move that object** to the front of the passive sentence as the new subject.
+3. **Insert the correct form of "be"** matching the original tense.
+4. **Attach the past participle (V3)** of the main verb.
+5. **Add "by + original subject"** if the agent must be named.
+6. **Carry over adverbs and prepositional complements** unchanged.
 
-Examples:
-- The assignment must be submitted by Friday.
-- The results could be released next week.
+#### 🎯 Exam-Level Worked Problem
 
-⚡ **JAMB Trap:** "The letter is writing by him" is wrong. In passive voice, you NEVER use "is writing" — you use "is written" (be + past participle). The verb after "be" is always the past participle, never the present participle.
+**Question:** Convert to passive voice: *"The students have written the letters to their parents."*
+
+#### Solution:
+- Step 1 — Original tense: **Present Perfect** (*have written*).
+- Step 2 — Identify object: **the letters**.
+- Step 3 — Promote *the letters* to subject position: *The letters…*
+- Step 4 — Select matching be-form: *have been* (perfect aspect requires *been*).
+- Step 5 — Add V3 of *write*: **written**.
+- Step 6 — Preserve the prepositional phrase *to their parents* and add optional agent: *by the students*.
+
+**Final answer:** *"The letters have been written to their parents by the students."*
+
+> ⚠️ **Examiner Trap:** Candidates frequently write *"The letters have written…"* — forgetting to insert **been**. The perfect passive is a three-word verb cluster (*have/has been written*). Dropping *been* collapses the structure into the active form, which costs full marks even when the meaning looks "almost right."
+
+#### Auxiliary Choices: Be vs. Get
+
+Standard formal English uses **be** as the passive auxiliary. Colloquial English and informal narratives often substitute **get**, producing the **get-passive** (*He got promoted, The window got broken*). JAMB expects **be** in formal contexts but accepts **get** in dialogue passages.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-**Impersonal Passive (It + Passive)**
-Used in formal English to report thoughts and sayings:
-- It is said that... = People say...
-- It is believed that... = People believe...
-- It is known that... = Everyone knows...
-- It is reported that... = Someone reports...
-- It has been proved that... = Someone has proved...
+#### Edge Cases and Advanced Patterns
 
-**Causative Have (Have/Get Something Done)**
-- Active causative: "She had the tailor make a dress." (she causes the tailor to act)
-- Passive causative: "She had a dress made (by the tailor)." (the dress is the object of the action)
+| Pattern | Example | Rule |
+|---|---|---|
+| Impersonal passive | *It is said that he is rich.* | No agent; focuses on the action itself |
+| Stative passive | *The window is broken.* | Describes a state/result, not an event |
+| Action passive | *The window was broken by the boy.* | Describes a completed event |
+| Causative have | *I had my hair cut.* | Subject causes action performed by someone else |
+| Causative get | *She got her car washed.* | Informal causative alternative |
+| Reporting passive | *The thief is believed to have escaped.* | Common in news/academic prose |
+| Modal passive | *The work must be finished today.* | Modal + be + V3 |
 
-**Special Passive Constructions**
-1. **Object + to be + past participle:** This form is always passive.
-   - I consider him to be honest. (him = object; to be honest = passive)
-   - We believed her to have left. (perfect infinitive passive)
+#### Common Advanced Traps
 
-2. **Some verbs that DON'T take passive:**
-   - Intransitive verbs: sleep, die, arrive, happen (no object to promote)
-   - "He died a hero." NOT "A hero was died by him."
+1. **Intransitive verb trap:** *The accident happened.* has no passive. Writing *"was happened"* is grammatically impossible.
+2. **Double-object trap:** *He gave me a book.* can produce two valid passives — *I was given a book (by him).* or *A book was given to me (by him).*
+3. **Reflexive pronoun trap:** *She hurt herself.* cannot become *"Herself was hurt."* Reflexive and reciprocal objects resist passivisation.
+4. **Stative vs. action ambiguity:** *The meat is cooked.* may describe a state (already cooked) or an ongoing process, depending on context.
+5. **Causative confusion:** In *I had my car repaired*, dropping *had* converts the sentence into an ordinary passive and destroys the causative meaning.
+6. **Prepositional verb trap:** *They looked after the children.* becomes *The children were looked after (by them).* — the preposition stays attached.
+7. **Reporting verb trap:** *People believe he lied.* → *He is believed to have lied.* — infinitive shifts, not just object promotion.
 
-**JAMB Active/Passive MCQ Patterns**
-1. Identify the passive form: "The man ___ the thieves." → Options include: was seen, was seeing, has seen → Answer: was seen (by the thieves)
-2. Transform to passive: "Someone has stolen my bicycle." → "My bicycle ___."
-3. Spot the error: "The meal was ate by me." → Should be "The meal was eaten by me."
-4. Modal passive: "You should submit the form." → "The form should ___."
-5. Tense identification: "By the time we arrived, the guests had been served." → This is which tense? → Past Perfect Passive
+#### Exam Strategy for JAMB UTME
 
-**Common JAMB Errors in Passive Voice**
-| Error | Correction |
-|---|---|
-| The letter is writing by him | The letter is written by him |
-| The work was did yesterday | The work was done yesterday |
-| She has be chosen captain | She has been chosen captain |
-| He was bore by the lecture | He was bored by the lecture |
-| The cake was ate quickly | The cake was eaten quickly |
+Voice questions appear mostly in **sentence interpretation** and **oral English** sections, carrying roughly **3% of total marks**. Read the active sentence first to fix the tense in your head, then locate the object — never try to convert by gut feel. When the active subject is *people* or *they*, the by-phrase is almost always omitted in the correct answer. For causative forms, watch for **have/get + object + V3**, a pattern JAMB has repeated across recent past papers.
 
-⚡ **Previous Year JAMB Focus:** Active and passive voice questions appear in 3-5 MCQs per Use of English paper. The most common format is identifying the correct passive transformation of a given active sentence. Students are also tested on modal passive ("should be done," "must be submitted") and tense-based passive forms, especially the present perfect and past perfect passive.
+#### Practice Prompts
+
+1. Convert to passive, preserving tense and adverbs: *"The messenger will deliver the package before noon."*
+2. Identify the error: *"The meeting was happened at 10 a.m."* — explain why no passive is possible and rewrite correctly.
+
+---
+
+## Continue your study
+
+- **[View this topic in your JAMB UTME roadmap](/roadmap/?exam=jamb&duration=1mo)** — see where "Active and Passive Voice" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=jamb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[JAMB UTME exam overview](/exams/jamb/)** — pattern, eligibility, and syllabus
+- **[All English Language notes](/notes/jamb/english/)** — browse sibling topics in this subject
+
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

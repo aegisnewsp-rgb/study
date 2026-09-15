@@ -11,7 +11,7 @@ topicName: Prepositions and Conjunctions
 weight: 3
 country: nigeria
 generated: "2026-03-24T08:32:07.543769"
-lastUpdated: "2026-06-22"
+lastUpdated: "2026-09-15"
 diagramPrompt: "Educational diagram illustrating Prepositions and Conjunctions with clear labels, white background, exam-style illustration"
 
 
@@ -22,114 +22,109 @@ diagramPrompt: "Educational diagram illustrating Prepositions and Conjunctions w
 # Prepositions and Conjunctions
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+> Rapid summary for last-minute revision before your NABTEB English exam.
 
-**Prepositions** are short words (often, but not always, one or two syllables) placed before a noun or pronoun — the **object of the preposition** — to express time, place, direction, manner or reason: *in Lagos, on Tuesday, at noon, with a knife, for him*. A **prepositional phrase** (preposition + object + modifiers) functions as an adjective or adverb: *the book on the shelf*, *arrived after midnight*.
+Prepositions are short function words that link a noun or pronoun (the **object of the preposition**) to another word in the sentence, expressing relations of place, time, direction, manner, or agency. Conjunctions are function words that join words, phrases, or clauses and decide whether a sentence becomes **compound** (coordinating), **complex** (subordinating), or **balanced** (correlative).
 
-**Conjunctions** are linkers. The three families are:
+| Term | Function | NABTEB Example |
+|---|---|---|
+| Preposition | Shows relationship (place/time/manner) | *The book is **on** the table.* |
+| Object of preposition | Noun/pronoun receiving the preposition | *interested **in** **mathematics*** |
+| Prepositional phrase | Preposition + object (modifies noun or verb) | *She walked **through the door**.* |
+| Coordinating conjunction | Joins two equal clauses (FANBOYS) | *He studied, **yet** he failed.* |
+| Subordinating conjunction | Joins a dependent clause to a main clause | *I will go **if** it rains.* |
+| Correlative conjunction | Paired words joining parallel structures | ***Either** you pay **or** you leave.* |
 
-- **Coordinating (FANBOYS):** *for, and, nor, but, or, yet, so* — link equal grammatical units.
-- **Subordinating:** *because, although, if, when, while, since, until* — attach a **dependent clause** to an **independent clause**.
-- **Correlative:** *either…or, neither…nor, both…and, not only…but also* — always used in matched pairs.
+- **Simple prepositions** are one word: *in, on, at, by, for, with, to, of, from, about*.
+- **Compound prepositions** combine two words: *into, onto, upon, within, without, between*.
+- **Participle prepositions** end in *-ing*: *concerning, regarding, during, including*.
 
-A word ending in *-ing* is not automatically a preposition: *regarding, considering, owing to* are; *during* is; but *during* takes no object in some uses, and *despite* (no *of*) is preferred to *despite of*. NABTEB Paper I regularly tests *since vs for*, *between vs among*, *because vs since*, and identifying the conjunction/preposition when a word plays both roles.
+> 💡 **High-Yield Memory Hook:** FANBOYS for the seven coordinating conjunctions — **F**or, **A**nd, **N**or, **B**ut, **O**r, **Y**et, **S**o. For subordinators, remember **"I SAW A WABUB"** — **I**f, **S**ince, **A**fter, **W**hen, **A**s, **B**efore, **U**ntil, **B**ecause. For time prepositions, picture a **clock** for *at*, a **calendar** for *on*, and a **century** for *in*.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-#### Prepositions by Function
+#### Classification by Function
 
-Prepositions fall into recognisable semantic groups, and NABTEB often asks candidates to match a preposition to its function.
+Prepositions do not describe; they **relate**. NABTEB Paper I commonly tests the difference between *since* (a fixed point in time) and *for* (a duration), and between *between* (two items) and *among* (more than two). Mastering these requires memorising fixed adjective + preposition **collocations** such as *good at*, *interested in*, *afraid of*, *depend on*, and *capable of* — these are not derived by rule but stored as vocabulary chunks.
 
-| Function | Common prepositions | Example |
+| Function | Common Prepositions | Sample Sentence |
 |---|---|---|
-| Time | *in, on, at, since, for, during, before, after* | *on Monday, in 2025, at 6 a.m.* |
-| Place | *in, on, at, between, among, under, above, beside* | *under the bridge, beside him* |
-| Direction | *to, from, into, onto, towards, across, through, along* | *across the road, into the room* |
-| Manner/Instrument | *with, by, in, on* | *with a pen, by bus* |
-| Reason | *because of, due to, owing to, for* | *owing to the rain* |
+| Place / Position | at, in, on, under, beside | *Lagos is **in** Nigeria.* |
+| Direction / Movement | to, from, into, onto, across, towards | *She walked **towards** the gate.* |
+| Time (point) | at, on, in | *The class begins **at** 8 a.m.* |
+| Time (duration) | for, since, during, until | *He has worked here **since** 2019.* |
+| Manner / Instrument | by, with, like | *She writes **with** a pen.* |
+| Agency | by | *The poem was written **by** Wole.* |
+| Purpose | for, to | *He saves money **for** a car.* |
 
-A **prepositional phrase** is "Preposition + Noun (the object) + modifiers" and behaves as a single unit. In *The girl in the red dress is my sister*, *in the red dress* modifies *girl* (adjectival); in *She arrived in the morning*, the same shape modifies *arrived* (adverbial).
+#### Conjunction Types and Sentence Shape
 
-#### Conjunctions: Three Families
+Coordinating conjunctions (FANBOYS) join two **independent clauses** of equal rank. Subordinating conjunctions attach a **dependent clause** to a main clause, signalling cause, contrast, condition, or time. Correlative conjunctions must always link **grammatically parallel** items — failing to keep the balance is one of the most common NABTEB errors.
 
-1. **Coordinating (FANBOYS)** join words, phrases or **independent clauses** of equal rank. When joining two independent clauses, place a comma before the conjunction: *I studied hard, **but** I still failed.*
-2. **Subordinating** conjunctions introduce a **dependent (subordinate) clause** that cannot stand alone: *Because he lied, he was punished.* Common ones NABTEB tests: *because/since/as* (cause), *although/though/even though* (contrast), *if/unless/provided that* (condition), *when/while/before/after/until/since* (time).
-3. **Correlative** conjunctions work in fixed pairs and require **parallel structure**: *Either you apologise, **or** you leave.* The verb, noun or gerund after each half must match: *She enjoys both reading **and** writing* (not *both reading **and** to write*).
+#### 🎯 Exam-Level Worked Problem
 
-#### Conjunctive Adverbs
+**Question:** Choose the option that best completes the sentence: *The teacher insisted that the students ____ their assignments before the closing date.*
 
-Words like *however, therefore, moreover, nevertheless, consequently, furthermore, otherwise* are **not conjunctions**. They join **independent clauses** but require a semicolon before them (or a period/comma + coordinating conjunction): *He was ill; **however**, he came to school.* NABTEB Paper I multiple-choice items often trap candidates by listing *however* as a conjunction.
+- (A) submits
+- (B) submitting
+- (C) submit
+- (D) have submitted
 
-#### Choosing the Right Preposition
+#### Solution:
+1. Identify the clause type. The verb *insisted* triggers the **subjunctive mood** in the *that*-clause, which signals a recommendation, demand, or suggestion.
+2. The subjunctive uses the **base form** of the verb regardless of subject — *He insisted that she **go***, not *goes*.
+3. The subject here is plural (*students*), but the subjunctive still requires the bare infinitive: *submit*.
+4. Therefore the correct answer is **(C) submit**.
 
-Many prepositions are governed by **collocation** — fixed pairings that must be memorised: *good **at**, interested **in**, depend **on**, fond **of**, arrive **at** (a place) but arrive **in** (a city/country), listen **to**, believe **in**.* Always learn the verb + preposition pair as one unit.
+> ⚠️ **Examiner Trap:** Students often pick (D) *have submitted* because the deadline implies a completed action. However, the construction *insisted that … have submitted* would describe a real past event, not the request itself. For requests, demands, and recommendations (verbs like *insist, suggest, demand, recommend*), always use the **base form**.
 
-#### Common NABTEB Question Types
+#### Concept Comparison Matrix
 
-- Fill-in-the-blank: "I have lived here ___ 2015." (*since*)
-- Sentence correction: "He is good in mathematics." → *good **at** mathematics*
-- Identification: "What is the function of *although* in the sentence?"
-- Joining sentences using a specified conjunction.
-- Choosing between *because, since, as* to express cause.
+| Feature | Coordinating | Subordinating | Correlative |
+|---|---|---|---|
+| Joins | Two equal clauses | Dependent + main clause | Parallel structures |
+| Comma rule | Comma before FANBOYS joining two full clauses | Comma after dependent clause when it leads | Comma only when needed for clarity |
+| NABTEB trap | Joining a fragment with *and* | Using *because* for time meaning *since* | Mixing pairs: *either … and* |
+| Example | *He came, **but** he left.* | *He left **because** he was tired.* | ***Both** Aisha **and** Bode passed.* |
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-#### Same Word, Different Role
+#### Edge Cases and Boundary Conditions
 
-Several English words double as both preposition and conjunction. The test of role is **whether a clause follows**:
+The same word can shift function depending on context. *After* is a subordinating conjunction when followed by a clause (*After he arrived, we ate*) but a preposition when followed by a noun phrase (*After dinner, we rested*). NABTEB error-detection items exploit this dual identity. Likewise, *since* can mean *from a point in time* or *because* — choosing between them depends on whether a temporal or causal reading makes sense.
 
-- *Before* as **preposition**: *before the meeting* (noun phrase as object).
-- *Before* as **conjunction**: *before the meeting started* (clause as object).
+Conjunctive adverbs (*however, therefore, moreover, nevertheless, consequently*) are **not** true conjunctions because they cannot join two independent clauses with just a comma. They require a semicolon or a full stop: *It rained; **therefore**, the match was postponed.* NABTEB tests this in sentence-combination items.
 
-The same applies to *after, since, until, as*. NABTEB essay and objective items exploit this by giving a sentence and asking, "What part of speech is the underlined word?" — check the object carefully.
+#### Advanced Traps and Exceptions
 
-#### Since vs For (Time)
+1. **Stranded prepositions** in formal writing — ending a sentence with a preposition is acceptable in modern English, but splitting a phrasal verb (*depend on*) apart incorrectly (*depend the outcome on*) is always wrong.
+2. **Objective case after prepositions** — *between you and **me*** (not *I*); the preposition governs the pronoun's case.
+3. **Double prepositions** are not idiomatic in English (*of of, in in*) even though they appear in some Nigerian languages.
+4. **Correlative parallelism** — *not only … but also* requires the same grammatical class after each half: *He is **not only** intelligent **but also** hardworking* (adjective + adjective), not *intelligent … a hard worker*.
+5. **Omission of conjunction in parallel lists** — *He likes reading, writing, and to paint* should read *reading, writing, and painting*.
 
-These are high-yield errors:
+#### Connection to Adjacent Topics
 
-- **For** + a **duration/period** (*for three years, for a long time*).
-- **Since** + a **point in time** (*since 2020, since Monday*).
-
-Both pair with the **present perfect** or **present perfect continuous**: *I have worked here **for** five years.* Saying *I have lived here **since** five years* is wrong on two counts — *since* marks a starting point, not a span.
-
-#### Between vs Among
-
-- **Between** = two items: *between you and me.*
-- **Among** = more than two, or vague/collective groups: *among the students, among friends.*
-
-The error *between you and I* is also common — the object of *between* is an objective pronoun: *between you and me.*
-
-#### Parallelism with Correlatives
-
-The rule: whatever grammatical form follows the first half **must** follow the second.
-
-- ✅ *She likes both singing **and** dancing.* (gerund + gerund)
-- ❌ *She likes both to sing **and** dancing.*
-- ✅ *He is not only intelligent **but also** hardworking.* (adjective + adjective)
-
-#### Joining Clauses: Three Methods
-
-1. **Independent + , + coordinating + independent:** *I was tired, **but** I kept reading.*
-2. **Subordinating + dependent, independent:** ***Although** I was tired, I kept reading.* (or reverse order with no comma if the dependent clause follows.)
-3. **Independent; conjunctive adverb, independent:** *I was tired; **however**, I kept reading.* (No semicolon is a common NABTEB mark-loser.)
-
-#### Common Mistakes Worth Drilling
-
-- *Different **from*** (not *than* in standard British/Nigerian English).
-- *Comprise **of*** is wrong — *comprise* takes no preposition, or use *consist **of***.
-- Omitting the second half of *either…or*: every *either* demands an *or*; every *not only* demands a *but also*.
-- Using *as* for simultaneous events and *since* for completed actions in past tenses — *As I was leaving, he called.* (not *Since I was leaving* for that meaning.)
+Prepositional phrases function as either **adjectival modifiers** (modifying a noun: *the man **with the hat***) or **adverbial modifiers** (modifying a verb, adjective, or clause: *She sang **in the morning***). NABTEB Paper II rewards essays that deliberately use varied conjunctions to mark cause (*because, as, since*), contrast (*although, however, whereas*), and result (*therefore, consequently*).
 
 #### Practice Prompts
 
-1. Rewrite, correcting only the preposition: "He is good in Mathematics and he depends on his brother for assistance since five years."
-2. Join the sentences using a **subordinating conjunction** of cause, then again using a **correlative pair**: "He is honest. He is also generous."
+1. Rewrite this passage, correcting every wrong preposition: *He is good in English, interested on history, and capable to pass the exam among his three brothers.*
+2. Combine the three short sentences below into one coherent paragraph using at least one coordinating, one subordinating, and one correlative conjunction: *The farmer harvested his crops. The rains came late. He still had a good yield.*
 
 ---
+
+## Continue your study
+
+- **[View this topic in your NABTEB roadmap](/roadmap/?exam=nabteb&duration=1mo)** — see where "Prepositions and Conjunctions" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=nabteb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NABTEB exam overview](/exams/nabteb/)** — pattern, eligibility, and syllabus
+- **[All English Language notes](/notes/nabteb/english/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

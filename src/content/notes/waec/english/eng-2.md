@@ -11,164 +11,130 @@ topicName: Summary Writing
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.609907"
-lastUpdated: 2026-03-24
+lastUpdated: "2026-09-15"
 diagramPrompt: "Educational diagram illustrating Summary Writing with clear labels, white background, exam-style illustration"
 
 
 
 
 ---
+
 # Summary Writing
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Summary Writing** — Quick Facts
+Summary Writing for WAEC WASSCE English Language Paper 1 (Section B) is the controlled condensation of a 250–400 word passage into a shorter connected paragraph of roughly one-third the original length, usually **80–120 words**, in your own words.
 
-**Summary Writing** requires you to read a passage, identify the main points, and restate them concisely in your own words — keeping within a specified word limit (usually 50–80 words for WAEC Paper 2).
+| Term | Meaning on the WAEC paper |
+|---|---|
+| Main idea | The central point every paragraph of the passage supports |
+| Paraphrase | Rewording using synonyms, changed syntax, and active/passive shifts |
+| Attribution | Opening sentence naming the title and author of the source |
+| Gist | The compressed essence left after cutting examples and repetitions |
+| Register | The author's tone (formal or informal) that you must preserve |
 
-**The Five-Step Method:**
-1. **Read** the passage twice — once for overall meaning, once for detail.
-2. **Identify** the main points (usually the first or last sentence of each paragraph).
-3. **Note** these points in your own words.
-4. **Draft** your summary, linking the points logically.
-5. **Check** the word count and ensure you haven't added your own opinions.
+#### Non-negotiable rules
 
-**Key Principles:**
-- Write in **your own words** — do not copy phrases from the passage.
-- Do **not include examples, illustrations, or repetitions**.
-- Write in **continuous prose** — no bullet points or numbered lists.
-- Keep to the **required word limit**.
-- Maintain the **present tense** unless the original passage uses past tense for historical events.
+- Open with the **title and author**, then state the main idea.
+- Use **third-person reporting style** ("The author explains…"), never "I" or "you".
+- Write **one continuous paragraph**; no bullets, no numbering.
+- Keep length between **80 and 120 words** as instructed.
 
-**⚡ WAEC Exam Tip:** In the WAEC Paper 2 Summary question, you are typically given 5–8 points and asked to summarise in about 50 words. Count your words as you write. If you exceed the limit, WAEC markers may penalise you. Begin with a lead-in phrase like "The passage is about..." or "The writer argues that..."
+> 💡 **High-Yield Memory Hook:** **TIPS-CP** — **T**itle + Author, **I**n third person, **P**araphrase only, **S**ingle paragraph, **C**ut examples, **P**reserve order.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Summary Writing** — Study Guide
+#### What WAEC Actually Tests
 
-**Understanding What a Summary Is**
+Paper 1 Section B carries about **4% of total marks** and appears almost every year. You are given a passage and told to "summarise" it in a specified number of words. Examiners mark on three bands: accurate identification of main ideas, quality of paraphrasing, and paragraph mechanics (length, coherence, grammar).
 
-A summary is a shortened version of a passage that captures the essential points. It is not:
-- A paraphrase (which restates the whole text in detail)
-- A commentary (which adds your opinions)
-- A list of points (which lacks cohesion)
+#### The Paraphrase Toolkit
 
-**How to Identify Main Points:**
-Main points are typically found in:
-- Topic sentences (usually the first sentence of a paragraph)
-- The introduction and conclusion of the passage
-- Repeated ideas or key arguments
-- Words that signal importance: "importantly," "the main reason," "primarily," "above all"
+You cannot swap every word with a thesaurus synonym and expect marks. WAEC rewards paraphrasing that genuinely re-expresses the source. Use this toolkit:
 
-**What to Exclude:**
-- Examples and illustrations ("for instance," "e.g.," "such as")
-- Repetitions (if a point is restated, keep only one version)
-- Background information and context that doesn't advance the argument
-- Your personal opinions or reactions
-- Direct speech or quotations (unless the quotation itself is a key point)
+1. **Synonym substitution** for content words (e.g. "children" → "young ones", when register matches).
+2. **Syntax change** — flip active to passive or rearrange clause order.
+3. **Clause combination** — merge two short source sentences into one longer one.
+4. **Generalisation** — replace specific examples with the broader point they illustrate.
+5. **Nominalisation** — convert verbs into noun phrases ("they decided" → "their decision").
 
-**Structuring Your Summary:**
+#### Concept Comparison Matrix
 
-**Opening:** Begin with a general statement that introduces the topic.
-- "The passage discusses..."
-- "According to the writer..."
-- "The writer argues that..."
+| Feature | Strong Summary | Weak Summary |
+|---|---|---|
+| Opening | Names title, author, then main point | Jumps straight into a detail |
+| Voice | Third-person reporting | First or second person |
+| Source wording | Fully rephrased | Whole phrases copied verbatim |
+| Content | Central ideas only | Examples, anecdotes, statistics kept |
+| Structure | One flowing paragraph | Bullets, numbering, or fragmented lines |
+| Length | Within the stated word range | Far under or over the limit |
 
-**Body:** State the main points in the order they appear, connected with linking words:
-- "Furthermore," "Moreover," "Additionally," "In addition," "Secondly"
-- "However," "On the other hand," "Conversely" (for contrasting points)
+#### Step-by-Step Procedure
 
-**Closing:** Optionally, a brief concluding sentence:
-- "The writer concludes that..."
-- "Overall, the passage emphasises..."
+1. Skim the passage to locate the **topic sentence** of each paragraph.
+2. Underline the **central thesis** and the 3–4 supporting points that recur.
+3. Cross out every example, illustration, quotation and statistic.
+4. Draft the opening sentence: "In *[Title]* by *[Author]*, …"
+5. Rewrite each retained point using the paraphrase toolkit.
+6. Count words; trim or expand to hit the **80–120 word band**.
+7. Proofread for tense consistency, pronoun agreement and spelling.
 
-**Example — Identifying Main Points in a Passage:**
-Passage excerpt: "Television has become a major influence on children's behaviour. Studies have shown that children who watch violent programmes tend to become more aggressive. Advertisers target young audiences with persuasive techniques. Parents should monitor what their children watch. Educational programmes can have positive effects on learning."
+#### 🎯 Exam-Level Worked Problem
 
-**Main points (extracted):**
-1. Television influences children's behaviour.
-2. Violent programmes increase aggression in children.
-3. Advertisers target young audiences.
-4. Parents should monitor children's viewing.
-5. Educational programmes can benefit learning.
+**Question:** Read the passage below and summarise it in **not more than 100 words**.
 
-**⚡ Common Mistakes to Avoid:**
-- Copying whole phrases from the passage instead of restating in your own words
-- Including too many details and exceeding the word limit
-- Adding personal opinions ("I think..." or "In my opinion...")
-- Using bullet points instead of continuous prose
-- Changing the meaning of the original passage
+*"The Reading Habit Among Nigerian Youths" by Dr. Ada Okafor reports that reading for pleasure has dropped sharply among teenagers in Lagos, Abuja and Port Harcourt. Surveys of 1,200 secondary school students showed that 68% prefer watching short videos to reading books, and that fewer than 20% finished a novel in the past year. Dr. Okafor blames the rise of social media, the high cost of books and the limited space in most homes. She argues that schools should set daily reading periods and parents should model the habit at home.*
+
+#### Solution:
+In *The Reading Habit Among Nigerian Youths*, Dr. Ada Okafor reports that recreational reading has declined sharply among teenagers in Lagos, Abuja and Port Harcourt. Surveys of 1,200 students reveal that most now prefer short videos to books, while fewer than one in five completed a novel in the past year. The author attributes the decline to social media, expensive books and crowded homes. She therefore recommends that schools introduce daily reading periods and that parents demonstrate the habit at home.
+
+> ⚠️ **Examiner Trap:** Candidates lose marks by keeping the **1,200 students** and **68%** figures, thinking statistics prove they understood the passage. WAEC treats these as auxiliary details; including them crowds out room for the actual main ideas and breaches the 100-word ceiling.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-**Summary Writing** — Comprehensive Notes
+#### Edge Cases and Boundary Conditions
 
-**Advanced Summary Writing Techniques**
+The 80–120 word range is a guide, not a free pass. Examiners penalise summaries that are mechanically word-counted but ignore logic, and also those that are conceptually correct but overflow by 30+ words. The safest practice is to draft long, then cut.
 
-**The Difference Between Summary, Paraphrase, and Synthesis:**
-- **Paraphrase:** Restating the entire passage in similar length, maintaining all details — used in research writing to give context.
-- **Summary:** Significantly shortened, capturing only the central ideas — used when the full detail is unnecessary.
-- **Synthesis:** Combining ideas from multiple sources to form a new argument — beyond WAEC level but worth understanding.
+- **Length traps:** Writing 70 words usually means a key idea is missing; writing 140 means examples were not deleted.
+- **Authorless passages:** Some WAEC prompts omit the author. In that case, open with the title and a neutral phrase such as "The passage explains that…".
+- **Dual-theme passages:** If the passage defends two equally weighted arguments, your summary must mention **both**, not just the louder one.
+- **Tone shifts:** A passage mixing formal analysis with quoted student voices must still be paraphrased in your neutral, third-person reporting voice.
 
-**Signal Phrases and Their Functions:**
+#### Advanced Traps Table
 
-| Function | Phrase |
-|----------|--------|
-| Introducing the topic | "The passage argues that..." / "The writer is concerned with..." |
-| Adding a point | "Furthermore, the writer points out that..." / "Additionally..." |
-| Contrasting a point | "However, the writer notes that..." / "Conversely..." |
-| Concluding | "In conclusion, the writer emphasises that..." / "Overall..." |
+| Trap | Why it Costs Marks | How to Avoid It |
+|---|---|---|
+| Copying a sentence and changing two words | Detected as near-verbatim; 0 paraphrase credit | Rebuild the sentence from a new clause order |
+| Bullet-list summary | Violates paragraph-format requirement | Force every point into connected sentences using linkers like "however", "in addition", "therefore" |
+| Personal opinion added ("I think…") | Breaks third-person reporting rule | Stick to "The author argues…" or "The passage shows…" |
+| Quotation marks left in | Suggests you did not absorb the source | Remove every quote and rephrase the speaker's view |
+| Tense drift (mixing past and present) | Reduces coherence score | Pick one tense — usually simple present for reporting |
+| Rearranged point order | Distorts the author's logical flow | Follow the source's sequence of arguments |
 
-**Tense Consistency in Summaries:**
-- Generally, summarise in the **present tense** ("the writer argues") even if the original was in the past tense ("the writer argued").
-- Exception: When summarising historical events or findings of past research that are permanently concluded, past tense is acceptable: "The study revealed that..."
-- For ongoing or current ideas, use present tense: "The writer maintains that..."
+#### Connection to Adjacent Topics
 
-**Handling Argumentative Passages:**
-When summarising a passage that presents an argument:
-1. Identify the **writer's thesis** (main claim).
-2. Identify the **supporting reasons** (usually 2–4 main points).
-3. Identify the **evidence** given (exclude the specific details, keep the type of evidence: "statistical evidence," "anecdotal support," etc.).
-4. Identify the **counter-arguments** (if any) and how the writer responds to them.
-5. Write a summary that presents the thesis and supporting reasons without evaluating them.
+Summary Writing feeds directly into **Comprehension** (Paper 1 Section A), since identifying main ideas there is the same skill compressed under time pressure. It also overlaps with **Essay Writing** in register control and paragraph unity. Mastery here lifts your register score across Paper 1 and Paper 2.
 
-**Example — Argumentative Passage Summary:**
+#### Practice Prompts
 
-**Original passage:** "Remote learning has gained popularity since the COVID-19 pandemic. It offers flexibility for students who live far from school. However, it requires reliable internet access, which many families lack. Some students also struggle with self-motivation in a home environment. Schools should therefore adopt a hybrid model that combines online and face-to-face teaching."
-
-**Summary (50 words):**
-The passage argues that remote learning has grown since the COVID-19 pandemic due to its flexibility, particularly for distant students. However, it notes that internet unavailability and lack of self-motivation limit its effectiveness. The writer concludes that schools should adopt a hybrid model combining online and in-person teaching.
-
-(58 words — slightly over; trim the "particularly for distant students" phrase to reach exactly 50 words.)
-
-**Word Limit Strategies:**
-- If over limit: remove modifiers, combine short sentences, eliminate examples.
-- If under limit: check if you've missed a main point, expand one or two key points with essential information.
-- If significantly under limit: you may have missed a main point — re-read the passage carefully.
-
-**WAEC Past Question Patterns:**
-- Passages are typically 400–600 words long, from which 4–6 main points are extracted
-- Word limits range from 50 to 80 words depending on the year
-- Topics are drawn from contemporary social, scientific, or economic issues
-- Some questions ask you to "summarise the points" (list format acceptable in those cases), but most require continuous prose
-- The summary carries marks for: content (relevance and completeness), organisation (logical flow), and expression (correct grammar and appropriate vocabulary)
-
-**⚡ WAEC-Specific Exam Tips:**
-1. Read the question instruction carefully — some WAEC questions ask for "six points" in which case bullet points are acceptable; others ask for a "summary in continuous prose."
-2. Underline key words in the question: "state," "explain," "describe," or "summarise" — each demands slightly different depth of response.
-3. Before writing, count the number of main points required and plan to allocate roughly the same number of words to each point.
-4. Write your first draft with fewer words than the limit, then expand slightly if needed — it is easier to add than to cut.
-5. Avoid introductory phrases like "In this passage" repeatedly; vary your lead-ins: "The writer contends that...", "According to the passage...", "The passage highlights..."
-6. After writing your summary, quickly check that you have not introduced any of your own opinions — every statement should be traceable back to the original passage.
-7. In the last 5 minutes of the exam, proof-read your summary for grammar errors, subject-verb agreement mistakes, and tense consistency.
+1. Summarise a 350-word passage on cashless policy in Nigeria in **no more than 110 words**, ensuring every retained sentence is syntactically different from the source.
+2. Take any WAEC past-question passage you have attempted before. Re-summarise it **in exactly 90 words**, then count and cut one example-bearing sentence without losing a main idea.
 
 ---
-*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
 
+## Continue your study
+
+- **[View this topic in your WAEC WASSCE roadmap](/roadmap/?exam=waec&duration=1mo)** — see where "Summary Writing" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=waec&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[WAEC WASSCE exam overview](/exams/waec/)** — pattern, eligibility, and syllabus
+- **[All English Language notes](/notes/waec/english/)** — browse sibling topics in this subject
+
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

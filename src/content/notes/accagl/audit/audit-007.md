@@ -8,237 +8,100 @@ topicName: "Completion & Final Review"
 weight: 3
 country: pakistan
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-15"
 ---
 
 # Completion & Final Review
 
 ### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
 
-**Completion & Final Review — Key Facts**
+The completion and final review stage is the audit's last phase. The auditor consolidates evidence, evaluates going concern, scans subsequent events, secures written representations, completes the EQCR, and forms the audit opinion. In ACCA AA and ICAP CFAP, this topic carries roughly 3% weightage and usually surfaces as a 10-mark scenario question.
 
-- **ISA 560** — Subsequent Events (between balance sheet date and auditor's report date)
-- **ISA 570** — Going Concern (assessing ability to continue as going concern)
-- **ISA 580** — Written Representations (management representations as audit evidence)
-- **ISA 520** — Analytical Procedures (evaluation of financial information through analysis)
-- **Subsequent Events Types:**
-  - Type 1: Adjusting events (affect FS — must adjust)
-  - Type 2: Non-adjusting events (don't affect FS — must disclose)
-- **Going Concern:** Entity may be unable to continue operations for foreseeable future (12 months from approval date)
-- **Written Representations:** Formal written statements from management — NOT a substitute for sufficient appropriate evidence
+- **ISA 220 (Quality Control)** — engagement quality control review (EQCR) must finish before the auditor's report is dated for listed entities.
+- **ISA 560 (Subsequent Events)** — window runs from the date of the financial statements to the date of the auditor's report.
+- **ISA 570 (Going Concern)** — assessment horizon is at least 12 months from the date of approval of the financial statements.
+- **ISA 580 (Written Representations)** — mandatory letters from management and TCWG on completeness, accuracy, and going concern.
+- **ISA 700 / 705 (Forming an Opinion)** — unmodified, qualified, adverse, or disclaimer opinion.
+- **Materiality rule** — aggregate uncorrected misstatements must remain below overall materiality for the financial statements as a whole.
+- **Pakistan overlay** — apply the Companies Act 2017, ICAP QCR-2014, and the IFAC Code of Ethics alongside the ISAs.
 
-**⚡ Exam Tip:** Going concern is HOT exam topic. Always check for: consecutive losses, loan covenant breaches, negative working capital, dependence on single customer/supplier, litigation.
-
----
+> 💡 **High-Yield Memory Hook:** **Q-G-S-W-O-E** — Quality control (EQCR), Going concern, Subsequent events, Written reps, Overall analytical procedures, EQCR/opinion. Walk the file left-to-right and you cannot forget a step.
 
 ### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-**Completion & Final Review — Detailed Content**
+#### What "Completion" Actually Covers
 
-**ISA 560 — Subsequent Events:**
+Completion is not a single checklist item. It is a structured wrap-up that converts component-level audit conclusions into one overall opinion on the financial statements. The auditor performs overall analytical procedures, evaluates the final materiality position, and documents the aggregate impact of uncorrected misstatements under ISA 450.
 
-**Definition:** Events occurring between the balance sheet date and the date of the auditor's report.
+#### Key ISAs at a Glance
 
-**Timeline:**
-```
-Balance Sheet Date ─────────────────── Auditor's Report Date
-        ↓                                       ↓
-   Year-end                        Report issued to shareholders
-        |←────── Subsequent Period ──────────────→|
-```
+| ISA | Subject | Critical Test Point |
+|---|---|---|
+| ISA 220 | Quality control | EQCR required for listed/PIE audits; report not dated until EQCR complete |
+| ISA 450 | Evaluation of misstatements | Aggregate uncorrected must not exceed overall materiality |
+| ISA 560 | Subsequent events | Adjusting events → correct FS; non-adjusting → disclose if material |
+| ISA 570 | Going concern | ≥12 months from FS approval date; dual responsibility on management + auditor |
+| ISA 580 | Written representations | Required on completeness, accuracy, going concern; do NOT replace other procedures |
+| ISA 700 | Forming an opinion | Unmodified opinion when FS give a true and fair view |
+| ISA 705 | Modifications | Qualified (material but not pervasive), adverse (material and pervasive), disclaimer (unable to form opinion) |
 
-**Two Types:**
+#### Common Modification Triggers
 
-**Type 1 — Adjusting Events:**
-Events that provide additional evidence of conditions existing at balance sheet date.
+1. Material departure from the applicable financial reporting framework (IFRS, IFRS for SMEs, or Companies Act 2017 in Pakistan).
+2. Scope limitation that is material but not pervasive → qualified; material and pervasive → disclaimer.
+3. Going concern doubt unresolved after mitigating evidence → "Emphasis of Matter" or modification depending on severity.
+4. Aggregate uncorrected misstatements that, although individually small, collectively exceed materiality.
 
-Examples:
-- Insolvency of a receivable (customer fails after year-end)
-- Sale of inventory at lower than cost (NRV evidence)
-- Resolution of a provision (confirms estimate)
-- Discovery of fraud or error
+#### 🎯 Exam-Level Worked Problem
 
-**Required Action:** Adjust the financial statements
+**Question:** Aurum Limited (Pakistan) is a listed entity. Its draft financial statements show profit after tax of PKR 450 million. The auditor has identified four uncorrected misstatements totalling PKR 38 million against a planning materiality of PKR 25 million and overall materiality of PKR 40 million. Management has refused to adjust any item. Subsequent to year-end but before the auditor's report is dated, a major customer filed for insolvency, representing 22% of trade receivables. Required: (i) state the type of audit opinion, (ii) state the appropriate ISA treatment for the subsequent event, and (iii) state whether EQCR applies.
 
-**Type 2 — Non-Adjusting Events:**
-Events that arise from conditions after balance sheet date (not existing at year-end).
+#### Solution:
+- (i) Aggregate misstatements of PKR 38m are **below** overall materiality of PKR 40m but exceed planning materiality of PKR 25m. The misstatements are not pervasive → **Qualified opinion** under ISA 705 (paragraphs 7–8), with the Basis for Opinion paragraph quantifying the effects.
+- (ii) The customer insolvency is a **non-adjusting subsequent event** under ISA 560 (condition arose after year-end; no FS adjustment required). However, because 22% of receivables is material, **disclosure** of the nature and estimated financial impact is required in the notes.
+- (iii) Aurum is a listed entity → **EQCR applies** under ISA 220. The reviewer must complete their independent evaluation before the auditor's report is dated and signed.
 
-Examples:
-- Mergers and acquisitions after year-end
-- Asset destruction by fire (occurred after year-end)
-- Changes in foreign exchange rates
-- Decline in market value of investments after year-end
-
-**Required Action:** Disclose in notes if material (non-adjusting but material = note disclosure with quantified impact)
-
-**Auditor's Procedures for Subsequent Events:**
-1. Inquire with management about events after balance sheet date
-2. Review board/management meeting minutes post year-end
-3. Review latest interim financial statements
-4. Review accounting records (journal entries, reconciliations)
-5. Consider need for events occurring after report date (reissue vs dual dating)
-
-**ISA 570 — Going Concern:**
-
-**Key Definitions:**
-- **Going Concern Assumption:** Entity will continue operations for foreseeable future (minimum 12 months from approval date)
-- **Material Uncertainty:** Doubt about entity's ability to continue — requires EOM (Emphasis of Matter) paragraph
-- **Substantial Doubt:** Significant doubt requiring going concern opinion modifications
-
-**Going Concern Assessment Process:**
-
-```
-Step 1: Perform risk assessment — identify going concern indicators
-Step 2: Evaluate management's assessment (forecast, assumptions)
-Step 3: Assess adequacy of management's plans
-Step 4: Consider mitigating factors (bank support, asset disposals)
-Step 5: Consider need for disclosure/EOM paragraph
-Step 6: Conclude on going concern assumption
-```
-
-**Going Concern Indicators (ISA 570):**
-- **Financial:** Net liability position, adverse key ratios, negative cash flows, loan covenant breaches, inability to pay creditors
-- **Operational:** Loss of key management, loss of major customer/supplier, labor disputes, legal proceedings
-- **Other:** Natural disasters, regulatory action, going concern qualification in prior year
-
-**⚡ Exam Tip:** Management override (ISA 240) is relevant here — management may manipulate forecasts to present overly optimistic going concern assessments.
-
-**ISA 580 — Written Representations:**
-
-**Purpose:** Provide evidence about specific matters that cannot be verified with third parties (e.g., management intentions, completeness of disclosures).
-
-**Key Points:**
-- Written representations ARE audit evidence (but not sufficient on their own)
-- Cannot substitute for other sufficient appropriate evidence
-- Should be obtained on the auditor's report date
-- If management refuses to provide → qualified/disclaimer of opinion
-
-**Contents of Management Representation Letter:**
-- Financial statements are properly prepared
-- All relevant information disclosed
-- All contingencies disclosed
-- No material misstatements
-- Management's assessment of going concern is valid
-- Completeness of transactions and records
-- Availability of all books and records
-
----
+> ⚠️ **Examiner Trap:** Students frequently argue for an adverse opinion whenever materiality is exceeded. Read ISA 705 carefully: **pervasiveness** is the test for adverse versus qualified. Here the misstatements are confined to specific line items rather than affecting the FS as a whole, so pervasiveness is absent and qualified is correct.
 
 ### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-**Comprehensive Completion & Final Review Notes**
+#### Edge Cases That Decide Marks
 
-**ISA 520 — Analytical Procedures at Completion:**
-
-Analytical procedures MUST be performed in the completion stage to:
-1. Assist in forming overall conclusion on financial statements
-2. Compare financial performance with prior periods
-3. Compare with industry benchmarks
-4. Investigate significant fluctuations and relationships
-
-**Types of Analytical Procedures:**
-
-| Type | Method | Reliability |
+| Edge case | Correct treatment | Frequent wrong answer |
 |---|---|---|
-| **Trend analysis** | Compare line items over time | Medium |
-| **Ratio analysis** | Calculate and compare key ratios | Depends on data quality |
-| **Reasonableness testing** | Compare actual vs expected | High if reliable data |
-| **Reasonableness of totals** | Reconcile control accounts | Medium |
+| Materiality revised downward at completion | Re-issue performance materiality; reassess aggregate uncorrected | Treating original planning materiality as final |
+| Going concern doubt + mitigating factor (loan waiver) | Test the mitigation; if sufficient → unmodified with Emphasis of Matter | Skipping to adverse without testing mitigations |
+| Written representation refused on one item | Possible qualified or disclaimer opinion under ISA 705 | Assuming a separate "management rep" opinion override applies |
+| Non-adjusting event with severe reputational impact | Disclose; consider EoM paragraph | Recording an FS adjustment (it is non-adjusting by definition) |
+| EQCR reviewer raises unresolved matters | Auditor cannot date report; ISA 220 violation if issued | Dating report and adding EQCR review later |
+| Management letter points | Operational deficiencies; not a basis to modify the audit opinion | Modifying the opinion because of an internal control finding |
 
-**Key Ratios to Calculate at Completion:**
-- Gross profit margin (compare to prior year and industry)
-- Net profit margin
-- Current ratio (liquidity)
-- Quick ratio (acid test)
-- Debtor collection period
-- Creditor payment period
-- Inventory turnover
-- Return on capital employed (ROCE)
+#### Pakistan-Specific Overlays
 
-**Overall Review — Final Sign-Off Checklist:**
+- The **Companies Act 2017** governs statutory duties, including the requirement for listed entities to rotate auditors after a prescribed tenure.
+- **ICAP QCR-2014** sets quality control standards for firms, sitting alongside IFAC's Code of Ethics.
+- Auditors of public interest entities must comply with IFAC's **International Code of Ethics** and, where local rules diverge, the stricter standard prevails.
+- The management letter (letter of weakness) is examinable content: cite its purpose as communicating internal control deficiencies to TCWG; it does **not** modify the audit opinion.
 
-```
-□ Obtain representation letter from management
-□ Perform analytical procedures on FS
-□ Review subsequent events (ISA 560)
-□ Evaluate going concern (ISA 570)
-□ Evaluate adequacy of disclosures
-□ Obtain updated lawyer's letter (contingencies)
-□ Review for subsequent discovered facts (ISA 560 post-report)
-□ Confirm no management bias in estimates
-□ Evaluate sufficiency and appropriateness of evidence
-□ Review working papers for completeness
-□ Discuss with TCWG (those charged with governance)
-□ Form audit opinion and draft report
-□ Partner review and sign-off
-```
+#### Two Advanced Practice Prompts
 
-**ISA 560 — Subsequent Discovered Facts (Post-Report):**
+1. A subsidiary's functional currency hyperinflated mid-year. The parent's management has not restated comparatives. Identify the misstatement, classify it under ISA 705, and draft the Basis for Opinion paragraph in two sentences.
+2. After year-end, fraud was discovered at a major supplier that sourced 35% of inventory. The fraud occurred before year-end. Walk through ISA 560, ISA 240, and ISA 570 implications, and recommend the opinion type.
 
-If auditor discovers facts after report date:
-1. **Facts existing at report date** → Consider whether FS need amendment; if yes, communicate to TCWG; if management refuses → take legal advice
-2. **Facts after report date** → No action required (unless they affect matters at balance sheet date)
+#### Strategic Exam Pointers
 
-**Going Concern — Modified Opinion Scenarios:**
+- Always anchor each conclusion to a specific **ISA paragraph** in open-ended ICAP questions — partial credit is awarded for correct citation.
+- Memorise the **ISA 705 decision tree** in order: material? → pervasive? → scope limitation or misstatement? → qualified, adverse, or disclaimer.
+- Going concern and subsequent events use **different time windows** — 12 months from FS approval versus FS date to report date. Confusing them costs marks on virtually every question where both topics appear.
 
-| Situation | Opinion Type |
-|---|---|
-| Material uncertainty, adequately disclosed | Unmodified + EOM paragraph |
-| Material uncertainty, inadequately disclosed | Qualified (Limitation) or Adverse |
-| Going concern basis inappropriate | Qualified or Adverse |
-| Significant doubt but not material | Unmodified + possibly EOM |
+## Continue your study
 
-**Written Representations — Specific Representations:**
+- **[View this topic in your ACCA/CA Pakistan roadmap](/roadmap/?exam=accagl&duration=1mo)** — see where "Completion & Final Review" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=accagl&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[ACCA/CA Pakistan exam overview](/exams/accagl/)** — pattern, eligibility, and syllabus
+- **[All Auditing notes](/notes/accagl/audit/)** — browse sibling topics in this subject
 
-The letter should include representations on:
-- Management's responsibility for FS
-- Fair presentation of FS
-- Completeness of information provided
-- Provision of all minutes of meetings
-- Transactions properly recorded and disclosed
-- Compliance with applicable laws and regulations
-- Identification of related parties and transactions
-- No undisclosed contingent liabilities
-- No events after balance sheet date requiring adjustment/disclosure
-- Management's assessment of going concern is appropriate
-- Provision for inventory NRV is adequate
-- Provision for bad debts is adequate
-
-**Common Exam Mistakes:**
-
-| Mistake | Correction |
-|---|---|
-| "Subsequent receipts = no issue with receivables" | Subsequent receipts prove EXISTENCE but not VALUATION (customer might have paid AFTER year-end but already be insolvent) |
-| "Going concern = unqualified always" | If material uncertainty exists and not adequately disclosed → modified opinion |
-| "Management letter = substitute for evidence" | Written representations are evidence, NOT a substitute for other evidence |
-| "All post-year-end events = adjusting" | Only adjust if they confirm conditions EXISTING at balance sheet date |
-
-**⚡ High-Yield Going Concern Formula:**
-
-```
-Working Capital = Current Assets − Current Liabilities
-
-If Current Assets < Current Liabilities → Net Current Liability Position
-                                      → Potential Going Concern Risk
-
-Indicators requiring immediate attention:
-□ Negative working capital
-□ Overdraft exceeding authorized limit
-□ Loan covenants breached (or about to be)
-□ Debts maturing within 12 months without refinancing
-□ Reliance on single customer (>50% revenue)
-```
-
-**⚡ Audit Final Review — Key Questions to Ask:**
-
-1. Have all material misstatements been corrected?
-2. Is the going concern assumption appropriate?
-3. Are subsequent events properly accounted for?
-4. Is the evidence sufficient and appropriate?
-5. Are disclosures complete and accurate?
-6. Does the FS present fairly in all material respects?
-7. Any unusual transactions requiring disclosure?
-8. Related party transactions properly disclosed?
-
----
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

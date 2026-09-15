@@ -8,7 +8,7 @@ topicName: Taharah (Purification)
 weight: 3
 country: saudi
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-15"
 ---
 
 # Taharah (Purification)
@@ -16,136 +16,116 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Taharah** is the Islamic concept of purification — both physical and spiritual. It is a prerequisite (Shart) for the validity of Salah (prayer). No Salah is accepted without Taharah.
+Taharah is the Islamic legal state of ritual purity required before valid salah, tawaf, or touching the Mushaf. It has two dimensions: removing **najasah** (impurity) from the body, clothing, and prayer place, and removing **hadath** (ritual nullification) through wudu, ghusl, or tayammum.
 
-**Key Facts for Qimiyah Exam (Saudi):**
-- Taharah removes Hadath (impurity): Hadath Akbar (major impurity = junub, hayd, nifas) requires ghusl; Hadath Asghar (minor impurity) requires wudu.
-- Water must be pure (mutlaq) and purest (tahur). Used water (musta'mal) is purified by returning it to a natural water source.
-- Touching the Quran requires wudu; reciting Quran from memory does not.
-- Tayammum (dry ablution) is permitted when water is unavailable, unsafe, or too expensive (exceeds 1/3 of travel provision).
-- Wiping over leather socks (khuffayn) is valid for 24 hours for residents, 72 hours for travellers.
+| Term | Meaning | Example |
+|---|---|---|
+| Najasah | Physical impurity on body/clothes/place | Blood, urine, dog saliva |
+| Hadath | Ritual state preventing prayer | Passing wind, junub, haid |
+| Wudu | Minor ablution (4+1 fard acts) | Before each salah |
+| Ghusl | Full-body bath | After janabah, haid, nifas |
+| Tayammum | Dry ablution with clean earth | When water is absent or harmful |
 
-**⚡ Exam tip:** Questions on the minimum water for wudu (approx. 1 litre), and the differences between valid and invalid water, appear frequently in the Qimiyah exam. Memorise the types of water and their rulings.
+> 💡 **High-Yield Memory Hook:** "**F.A.H.M.**" for the 4 fard acts of wudu — **F**ace, **A**rms to elbows, **H**ead (wipe), **M**ash over khuff/feet to ankles. The 5th (tartib / sequence) turns the rule into the phrase "**Fah-M in order**."
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-## Definition and Importance
+#### Two Pillars of Taharah
 
-Taharah (الطهارة) literally means "purity" and technically refers to the removal of Hadath — the state of ritual impurity that prevents the acceptance of worship. In Fiqh, Taharah is not merely physical cleaning; it is a spiritual preparation that brings the worshipper closer to Allah.
+Taharah rests on **tathir** (purifying the medium) and **al-istiqaamah** (correcting the ritual state). Najasah is removed by water; hadath is removed by one of the three prescribed acts based on circumstance.
 
-Taharah is classified into two categories:
+#### Wudu: Fard vs. Sunnah Acts
 
-1. **Taharah from Hadath Akbar (Major Impurity):** Requires Ghusl (full body washing).
-2. **Taharah from Hadath Asghar (Minor Impurity):** Requires Wudu (partial ablution).
-
-### Types of Water
-
-Understanding water is central to Taharah. Fiqh scholars classify water into:
-
-| Type | Definition | Purification Status |
+| Act | Fard (obligatory) | Sunnah (recommended) |
 |---|---|---|
-| **Mutlaq Water** | Pure, unpolluted natural water (rain, spring, sea, river) | Automatically purifying (mutatahhir) |
-| **Mudahhab Water** | Water mixed with pure additives (e.g., rose water) | Still pure if the additive doesn't dominate |
-| **Musta'mal Water** | Water previously used for wudu/ghusl | Pure but cannot be used for purification again |
-| **Mudaf Water** | Water mixed with impurities | Pure only if the impurity's colour, taste, or smell does not change |
-| **Ma'in (Ground Water)** | Underground water from wells | Purified by earth filtration; governed by special rules |
+| Intention (niyyah) | Required (Hanafi, Hanbali) | Recommended |
+| Washing face once | Fard | — |
+| Washing arms to elbows | Fard | — |
+| Wiping entire head | Fard | — |
+| Washing feet to ankles | Fard | — |
+| Sequence (tartib) | Fard | — |
+| Washing ears | Fard (Hanafi) / Sunnah (Maliki) | Debated |
+| Khuff wiping | Permitted (resident 24 h, traveler 72 h) | — |
+| Basmalah, brushing teeth, sequential dua | — | Sunnah |
 
-### Wudu (الوضوء) — The Minor Ablution
+#### Nullifiers of Wudu (Nawaqid)
 
-Wudu is the Islamic procedure for achieving ritual purity before prayer. Its components are:
+1. Excretion of urine, stool, or gas
+2. Deep sleep that relaxes the anus
+3. Sexual intercourse (requires ghusl, not just wudu)
+4. Menstruation (haid) and post-natal bleeding (nifas)
+5. Loss of consciousness or intoxication
+6. Touching the genitals per some scholars
 
-**Fard (obligatory) acts of Wudu:**
-1. Intention (Niyyah) — performed in the heart
-2. Washing the face completely (from hairline to chin, ear to ear)
-3. Washing both hands up to the elbows
-4. Wiping part of the head (1/4 of the head is sufficient)
-5. Washing both feet up to the ankles
-6. Observing the correct sequence (tartib)
+#### Categories of Najasah
 
-**Sunnahs of Wudu include:** saying Bismillah, washing hands first, rinsing the mouth and nose, wiping the ears, and wiping the neck.
+- **Mughallazah (heavy):** dog and pig — washed 7 times, one washing with soil (per hadith of Abu Hurairah)
+- **Mukhalafah (medium):** urine of halal animals not fully domesticated
+- **Mukhaffafah (light):** urine of an unweaned boy who has not eaten solid food — sprinkling suffices
 
-**Nullifiers of Wudu:** Natural excretion or gas, sleep beyond a light doze, eating camel meat, touching private parts without a barrier, and major bleeding.
+#### Tayammum Triggers
 
-### Ghusl (الاغتسال) — The Major Ablution
+Tayammum substitutes for wudu or ghusl when (a) no water is available, (b) water would cause illness or harm, (c) water is too cold to use without injury, or (d) one cannot reach water. Sequence: strike clean earth once, wipe the face, then wipe the back of both hands.
 
-Ghusl is obligatory for:
-- After sexual intercourse (janabah)
-- After ejaculation (mani) regardless of cause
-- After menstruation (hayd)
-- After postpartum bleeding (nifas)
-- Conversion to Islam (if previously in a state of major impurity)
+#### 🎯 Exam-Level Worked Problem
 
-**Obligatory acts of Ghusl:**
-1. Intention
-2. Water must reach all parts of the body, including hair, skin folds, and hidden areas
+**Question:** A traveler completed wudu and put on khuffs at 8:00 AM on day one. He later removed them at 6:00 PM on day four, then re-wore them after fresh wudu. How many total hours of khuff-wiping does he have remaining under the traveler's ruling?
 
-### Tayammum (التيمم) — Dry Ablution
+#### Solution:
+- First wiping session begins at 8:00 AM Day 1 with valid wudu before wearing.
+- Traveler's permitted duration = 72 hours from first wiping.
+- Wiping expires at 8:00 AM Day 4 (72 h elapsed).
+- Removing khuffs at 6:00 PM Day 4 (after expiry) means no further wiping credit.
+- Re-wearing after Day 4 requires fresh wudu; new 72 h countdown begins only if wudu is still valid at the moment of re-wearing.
+- **Remaining wiping time at moment of removal = 0 hours** (already expired 10 hours earlier).
 
-Tayammum is a valid alternative when:
-- No water is available within arm's reach
-- Water is unsafe to use (illness, injury preventing water contact)
-- Water is scarce during travel (less than approximately 750ml)
-- Cost of water exceeds reasonable means
-
-**Method:** Strike both hands on clean earth/sand twice — first strike to wipe the face, second strike to wipe both hands up to the wrists.
-
-### Wiping Over Bandages and Leather Socks
-
-**Khuff (leather socks):** One may wipe over khuffayn for up to 24 hours (resident) or 72 hours (traveller) without removing them. Conditions: they were worn during a valid wudu/ghusl and cover the area that would normally be washed.
-
-**Bandages (jarh):** Wiping over a bandage is permitted when washing the wound would cause harm or delay recovery. The water should not penetrate the bandage excessively.
+> ⚠️ **Examiner Trap:** Students frequently apply the **24-hour resident** period to travelers, giving a wrong answer of "48 hours remaining." The traveler is granted **72 hours**, not 24, from the moment of first valid wiping — not from re-wearing.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-## Detailed Fiqh of Purification — Advanced Topics
+#### Edge Cases and Boundary Conditions
 
-### Water as a Purifying Agent
+| Scenario | Correct Ruling | Common Mistake |
+|---|---|---|
+| Madhy (pre-seminal fluid) emitted | Nullifies wudu (majority) | Confusing with mani (which requires ghusl) |
+| Vomiting a full mouthful | Nullifies wudu (Hanbali view) | Treating like madhy mistakenly |
+| Washing a wound that bleeds again | Wudu remains valid if bleeding was not from impurity exiting | Invalidating wudu due to bleeding alone |
+| Tayammum for one prayer | Valid for that prayer only; new tayammum needed for next if state persists | Reusing one tayammum across multiple prayers without cause |
+| Musta'mal water (used for wudu) | Loses purifying status for new wudu; permitted for sunnah ghusl by some | Treating it like fresh water |
+| Istinja with stones only | Valid (3 clean stones) per hadith, but water is superior | Saying stones alone are invalid |
+| Doubt whether wudu broke | Assume wudu is intact (yaqeen cannot be removed by shakk) | Re-doing wudu out of doubt every time |
 
-The Shari'ah distinguishes between water that purifies and water that requires purification. The Quran states: *"And We sent down from the sky pure water"*(Surah Al-Anbiya 21:30). Pure water (ma mutlaq) is defined as water that remains in its natural state, regardless of whether it is salty or fresh.
+#### Adjacent Topic Links
 
-**Key Principle:** Water that has not mixed with an impurity retains its purifying property. If the impurity changes the water's colour, taste, or smell, the water becomes impure (mutanajjis).
+- **Salah:** valid salah requires both taharah from hadath (wudu/ghusl) and taharah from najasah (body, clothes, place).
+- **Hajj:** ihram requires ghusl; tawaf requires wudu; mawaqit relate to ihram state.
+- **Mushaf handling:** touching the Quran without wudu is prohibited per scholarly consensus; tayammum suffices if water is unavailable.
 
-**Sea Water:** The majority of scholars (Jumhur) hold that sea water is pure and purifying. The famous hadith *"The sea is water of purification, its dead (sea creatures) are halal"* (Abu Dawud, Tirmidhi) supports this.
+#### Advanced Practice Prompts
 
-### The Concept of Istijmadh (Absorption)
+1. **Prompt A:** A woman finishes her haid at sunrise on Friday and performs ghusl. Is her Friday ghusl considered ghusl al-janabah **and** ghusl al-jumuah with one bath, or must she make a separate niyyah? Justify using the principle of niyyah overlapping acts.
+2. **Prompt B:** A person has a cast on his foot after surgery. He performs tayammum for wudu. When he later removes the cast, does he wipe over the now-exposed skin once, or must he re-perform full wudu? Compare the Hanafi and Hanbali positions on wiping over the cast during tayammum.
 
-When water falls on the ground and is absorbed, it is considered purified by the earth (tahara by soil). This principle is applied in areas with contaminated water — natural soil acts as a purifying agent.
+#### Common Mistakes Exam Writers Exploit
 
-### Differences Between Mazahib on Taharah
+- Counting **wiping the ears** as a universally obligatory pillar — answer per the school's adopted fiqh (Hanbali: fard; Maliki: sunnah).
+- Treating **touching the opposite sex** as a nullifier — the majority say it does **not** nullify wudu unless accompanied by desire and emission.
+- Saying **one washing** removes dog saliva — the hadith specifies **seven washings, one with soil**.
 
-| Issue | Hanafi | Maliki | Shafi'i | Hanbali |
-|---|---|---|---|---|
-| **Washing feet** | Essential (fard) | Sunnah | Sunnah | Fard |
-| **Wiping ears** | Sunnah | Mustahab | Sunnah | Sunnah |
-| **Khuff wiping** | 24h/72h | Not permitted | 24h/72h | 24h/72h |
-| **Water classification** | More detailed | Strict on quality | Standard | Standard |
+---
 
-### The Spiritual Dimension of Taharah
+## Continue your study
 
-Beyond the physical, Taharah symbolises the internal purification of the heart from sin and malice. The Prophet ﷺ said: *"When a person performs wudu well and then stands to pray, his sins depart from his body, even from beneath his fingernails"* (Sunan Abu Dawud).
-
-Taharah is not just a prerequisite for Salah — it is a continuous act of worship that disciplines the Muslim to maintain purity in body and soul throughout the day.
-
-### Practice Questions for Qimiyah Exam
-
-1. A person has no access to water for 3 days while travelling. What is the ruling on their Salah?
-2. What is the minimum amount of water considered sufficient for Wudu in the Shafi'i school?
-3. Is water used for Ghusl considered Musta'mal? Explain.
-4. Can a person wipe over a plaster cast during Wudu? What are the conditions?
-5. Differentiate between Hadath Akbar and Hadath Asghar with examples.
-
-### Common Mistakes to Avoid
-
-- **Assuming all coloured water is impure:** If the colour change is from a pure substance (e.g., tea leaves), the water remains pure.
-- **Neglecting the sequence (tartib) of Wudu:** Out-of-order washing invalidates the Wudu.
-- **Forgetting the intention:** Without niyyah, Wudu is incomplete even if physically performed correctly.
-- **Rubbing instead of washing:** Simply rubbing the limbs without water flow may not satisfy the requirement.
+- **[View this topic in your Qimiyah Exam (Saudi) roadmap](/roadmap/?exam=qimiyah&duration=1mo)** — see where "Taharah (Purification)" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=qimiyah&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Qimiyah Exam (Saudi) exam overview](/exams/qimiyah/)** — pattern, eligibility, and syllabus
+- **[All General Studies notes](/notes/qimiyah/islamic-studies/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

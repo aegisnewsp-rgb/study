@@ -8,7 +8,7 @@ topicName: "Science Subject Combinations for IJMB — Which Courses They Unlock"
 weight: 3
 country: nigeria
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-15"
 ---
 
 # Science Subject Combinations for IJMB — Which Courses They Unlock
@@ -16,209 +16,114 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-The IJMB Science combination is one of the most sought-after pathways for students aiming for STEM courses in Nigerian universities. Choosing the right IJMB subject combination determines which university courses you can apply for through Direct Entry.
+IJMB (Interim Joint Matriculation Board) is a one-year Advanced-Level programme run by Ahmadu Bello University, Zaria. Candidates register for exactly **three (3) A-Level subjects**, and the trio they choose determines which university degree courses will accept them via Direct Entry (DE). Picking "any three sciences" is not an option — the combination must match the JAMB Subject Combination Policy of the target faculty.
 
-**Key combinations and what they unlock:**
-- **Physics, Chemistry, Biology (PCB):** Medicine, Pharmacy, Veterinary Medicine, Nursing, Anatomy, Physiology
-- **Physics, Chemistry, Mathematics (PCM):** Engineering (all branches), Computer Science, Physics, Architecture
-- **Chemistry, Biology, Physics (CBP):** Agricultural Sciences, Forestry, Environmental Science, Food Science
+| IJMB Combination | Subjects | Typical Degree Access |
+|---|---|---|
+| **PCM** | Physics, Chemistry, Mathematics | Engineering, Computer Science, Physics, Chemistry, Mathematics |
+| **PCB** | Physics, Chemistry, Biology | Medicine (MBBS), Dentistry, Pharmacy, Anatomy, Physiology, Biological Sciences |
+| **PMB** | Physics, Mathematics, Biology | Nursing, Physiology, Microbiology (where Chemistry is not compulsory) |
+| **CBm** | Chemistry, Biology, Mathematics | Biochemistry, Microbiology, Food Science, some Pharmacy routes |
+| **Pure Maths** trio | Mathematics, Economics/Further Maths, Statistics | Economics, Statistics, Actuarial Science, Accountancy |
 
-⚡ **Exam tip:** For Medicine and Surgery in most Nigerian universities, you need at least a B grade in Biology in IJMB — A grade is preferred by the most competitive schools.
+> 💡 **High-Yield Memory Hook:** **"P-C-M for the Machine, P-C-B for the Body, Maths trio for Money."** Think of PCM as the Engineering key (machines, structures), PCB as the Medical key (body, drugs), and Mathematics/Economics/Further Maths as the Finance key. Memorising one keyword per trio beats memorising course lists.
+
+Grading runs **A–F**, and two A/L passes (plus five O/L credits including English and Mathematics) usually qualify you for DE admission. A wasted third slot — say, Further Maths instead of Chemistry for a Pharmacy applicant — still costs the candidate the admission.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Understanding IJMB Science Combinations:**
+#### How IJMB Combinations Map to Nigerian Degree Courses
 
-The IJMB Science programme covers a broad range of subjects from the Faculty of Science at Ahmadu Bello University. Students must take a minimum of 3 subjects — and in practice, most students take 4 subjects to maximise their admission chances.
+IJMB sits between your O-Level (WAEC/NECO/NABTEB) results and your university admission. The board does not award a single diploma; it certifies A-Level competence in three subjects. Nigerian universities then use those three A-Level passes as the entry qualification for Direct Entry admission into 200 Level, provided your O-Level credits and the JAMB Subject Combination for the target course are satisfied.
 
-**Standard Science Combinations:**
+The IJMB board publishes the matrix of accepted triples; candidates are expected to align their choice with the destination faculty before registration. Because changing subjects mid-year requires re-enrolment, the first decision is the most expensive one.
 
-#### Combination 1: Physics, Chemistry, Biology (PCB)
-This is the classic pre-medical combination. It is accepted for all medical and life science courses in every Nigerian university.
+#### Standard Combinations and Their University Pathways
 
-**Universities that accept PCB for Medicine:**
-- University of Ibadan (UI) — MBBS cutoff: 8 points minimum
-- University of Lagos (UNILAG) — 10 points minimum
-- Ahmadu Bello University (ABU) — 9 points minimum
-- University of Nigeria, Nsukka (UNN) — 9 points
-- Lagos State University (LASU) — 8 points
-- University of Ilorin (UNILORIN) — 9 points
+| Combination | Core Subjects | Unlocks | Typical Faculty Demands Beyond IJMB |
+|---|---|---|---|
+| PCM | Physics, Chemistry, Mathematics | Engineering (all branches), Computer Science, Information Technology, Physics, Chemistry, Industrial Mathematics, Statistics (maths-heavy), Geology, Building, Quantity Surveying | O/L Maths (C6+), English, Physics; some schools require Further Maths at O/L |
+| PCB | Physics, Chemistry, Biology | Medicine & Surgery (MBBS), Dentistry, Pharmacy, Nursing, Anatomy, Physiology, Medical Laboratory Science, Zoology, Botany, Microbiology | O/L English, Maths, Biology, Chemistry, Physics at one sitting for most universities |
+| PMB | Physics, Mathematics, Biology | Physiology, some Nursing schools, Microbiology (where Chemistry is not compulsory), Biostatistics, Environmental Biology | O/L Maths, English; Biology compulsory; Chemistry sometimes waived |
+| CBm | Chemistry, Biology, Mathematics | Biochemistry, Microbiology, Food Science & Technology, Brewing Science, some Pharmacy routes, Nutrition & Dietetics | O/L Chemistry, Biology, Maths, English; Physics preferred but not always compulsory |
+| Pure Maths trio | Mathematics, Economics, Further Maths/Statistics | Economics, Statistics, Actuarial Science, Accountancy, Banking & Finance, Insurance | O/L Maths (C6+), English, Economics/Commerce at some schools |
 
-**Courses available with PCB:**
-- Medicine and Surgery (MBBS)
-- Dentistry (BDS)
-- Pharmacy
-- Veterinary Medicine
-- Nursing Science
-- Medical Laboratory Science
-- Anatomy
-- Physiology
-- Biochemistry
-- Optometry
-- Physiotherapy
-- Public Health
+#### Concepts Candidates Mix Up
 
-**What you need to score:**
-For competitive medical programmes, aim for:
-- Top tier universities (UI, UNILAG, ABU, UNN): 10-15 points (grades of A and B)
-- Mid-tier: 8-10 points
-- Foundation/affiliated programmes: 5-8 points
+| Looks Similar | Actually Different | Why It Matters |
+|---|---|---|
+| PCM vs PMB | PCM has Chemistry; PMB swaps it for Biology | PCM is for Engineering; PMB is for Biology-leaning sciences. Choosing PMB for Engineering disqualifies the candidate even with A-grades |
+| PCB vs CBm | PCB has Physics; CBm has Mathematics | Pharmacy and Medicine usually want PCB; Biochemistry/Food Science accept CBm more readily |
+| Further Mathematics vs Mathematics | Further Maths is a higher-level extension, not a substitute | Some faculties accept Further Maths in place of Maths, others refuse — always check the departmental list |
+| IJMB "General Science" | There is no general triple | The board insists on a named, course-aligned trio; random triples are registered but unusable for DE |
+| JAMB UTME vs IJMB DE combinations | UTME has four subjects; IJMB has three | JAMB UTME allows a fourth "elective"; IJMB caps you at three, so the JAMB rule must be compressed into three A-Level choices |
 
-#### Combination 2: Physics, Chemistry, Mathematics (PCM)
-This is the engineering and physical sciences combination. It opens doors to every engineering programme and the majority of physical science courses.
+> 📌 **Formula Check:** No numerical formula applies here — the operative rule is the **JAMB Subject Combination Policy**: *Degree course C requires IJMB subjects S₁ + S₂ + S₃ (in any order) PLUS five O/L credits including English and Mathematics at no more than two sittings.*
 
-**Engineering courses available with PCM:**
-- Electrical/Electronic Engineering
-- Mechanical Engineering
-- Civil Engineering
-- Chemical Engineering
-- Petroleum Engineering
-- Computer Engineering
-- Agricultural Engineering
-- Materials Engineering
-- Marine Engineering
-- Aerospace Engineering
+#### Standard Selection Procedure
 
-**Other courses with PCM:**
-- Computer Science
-- Physics
-- Mathematics
-- Statistics
-- Architecture
-- Urban and Regional Planning
-- Surveying and Geoinformatics
-- Geology/Mining
+1. Identify the target degree course and at least three Nigerian universities that accept IJMB for that course.
+2. Retrieve each university's Direct Entry IJMB subject requirement (faculty brochure, JAMB brochure, or the university's IJMB portal).
+3. Build the **intersection** — the subjects that satisfy ALL three universities, so you can switch institutions if one rejects you.
+4. Confirm O-Level prerequisites: English, Mathematics, plus the relevant science credits.
+5. Register the three IJMB subjects; any deviation from the intersection is at your own risk.
 
-**University examples for PCM:**
-- University of Benin (UNIBEN) — Engineering cutoff: 10 points
-- Federal University of Technology, Owerri (FUTO) — 12 points for engineering
-- University of Jos (UNIJOS) — 9 points
-- Covenant University (private) — 10 points
+#### 🎯 Exam-Level Worked Problem
 
-#### Combination 3: Chemistry, Biology, Mathematics (CBM)
-This is a bridge between life sciences and physical sciences. Less common but accepted in many universities for biological and agricultural sciences.
+**Question:** A candidate wants to study **Pharmacy** at a federal Nigerian university through IJMB Direct Entry. The candidate offers Physics, Chemistry, and Biology (PCB) at IJMB and has O/L credits in English, Mathematics, Physics, Chemistry, and Biology. Will this combination qualify the candidate for DE admission into Pharmacy?
 
-**Courses available with CBM:**
-- Agricultural Science and Education
-- Food Science and Technology
-- Environmental Science
-- Forestry
-- Zoology/Botany
-- Science Laboratory Technology
-- Agricultural Economics
+#### Solution:
+Step 1 — Confirm target course: Pharmacy is a health-science faculty regulated by the Pharmacists Council of Nigeria (PCN) and university senate rules.
+Step 2 — Consult the IJMB Subject Combination matrix: Pharmacy accepts **PCB** (Physics, Chemistry, Biology) as the standard trio. CBm is an alternative where departmental policy permits.
+Step 3 — Check O-Level prerequisites: five credits at one or two sittings, including English, Mathematics, Physics, Chemistry, and Biology — satisfied.
+Step 4 — Confirm A-Level depth: IJMB grades must reach at least the faculty's cut-off (typically B-grades in Chemistry and Biology, with Physics at C or better).
+Step 5 — Conclusion: Yes, PCB with the listed O-Level credits qualifies the candidate for DE admission into Pharmacy at federal universities that accept IJMB for the faculty.
 
-#### Combination 4: Physics, Mathematics, Further Mathematics
-This is an advanced combination accepted only at a few universities. It is specifically for students targeting very high-level physics or mathematics programmes.
-
-**Accepted at:**
-- University of Ibadan (Physics and Mathematics programmes)
-- University of Lagos (Engineering and Physical Sciences)
-- ABU Zaria (Physics and Engineering)
+> ⚠️ **Examiner Trap:** Many candidates assume "any science triple works for Pharmacy." Universities such as the University of Lagos (UNILAG) and Obafemi Awolowo University (OAU) reserve Pharmacy strictly for candidates who wrote **Chemistry at A-Level** — offering Physics, Mathematics, and Biology (PMB) instead of PCB disqualifies the candidate outright, even with A-grades in all three.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-**Detailed Course Requirements and University-Specific Policies:**
+#### Edge Cases and Restricted Combinations
 
-#### How Points Work for Science Combinations
+Some IJMB triples are formally accepted by the board but rejected by specific faculties. Treat the matrix below as a guard rail before committing to a registration.
 
-The IJMB grading system translates directly to university admission points. Each grade point is critical:
-
-| Grade | Points | Description |
+| Scenario | What the Candidate Tries | Why It Fails |
 |---|---|---|
-| A | 8 | Distinction |
-| B | 7 | Credit |
-| C | 6 | Credit |
-| D | 5 | Pass |
-| E | 4 | Pass |
-| F | 0 | Fail |
+| PCM for MBBS | Uses "strongest science" trio for Medicine | Most medical faculties require IJMB candidates to offer Biology; PCM alone is insufficient regardless of A-grades |
+| Further Maths replacing Maths | Further Maths + two sciences for Engineering | Some universities refuse Further Maths as a substitute for Mathematics at A-Level for Engineering; they require core Mathematics |
+| CRS/IRS for Law | Religious Studies plus two sciences for LL.B admission | Law faculties typically demand Government or History at A-Level; CRS/IRS does not substitute |
+| Mathematics + Arts for Economics | Maths, CRS, Economics hoping to switch into Accounting | Accountancy/Economics faculties now insist on Maths-heavy combos; arts electives trigger a departmental review and often a refusal |
+| Three "easy" sciences | Further Maths, Agricultural Science, Geography for Medicine | Random triples fail the faculty's departmental IJMB combination check; the candidate must re-register |
+| Inter-university transfer | PCM registered for UNILAG Engineering, then applied to a private university | Some private universities accept IJMB only for specific faculties; candidates must verify each institution's IJMB acceptance list before registering |
+| O-Level deficiency | Three A-grades in IJMB sciences but missing English or Mathematics O/L credit | DE admission requires five O/L credits including English and Mathematics; IJMB cannot substitute |
 
-For example, PCB with grades A, B, C = 8 + 7 + 6 = 21 points total across 3 subjects. Some universities calculate on best 3 subjects; others consider all 4 subjects taken. Always confirm with the specific university's admissions office.
+#### Connections to Adjacent Topics
 
-#### Medicine and Surgery — Detailed Requirements
+- **JAMB UTME Subject Combination Policy** — IJMB candidates must compress the four-subject UTME rule into three A-Level choices, so the compression step itself is tested in orientation interviews.
+- **Direct Entry vs UTME pathway** — IJMB qualifies you for DE; the alternative UTME route uses JAMB scores. Candidates comparing both routes must weight the IJMB subject lock-in against the broader UTME elective flexibility.
+- **O-Level (WAEC/NECO/NABTEB) requirements** — IJMB does not exempt you from five O-Level credits; this overlap makes O-Level registration a parallel workstream.
+- **Post-UTME and screening** — Some universities still run post-UTME screening even for DE candidates, so high IJMB grades do not bypass the screening exercise.
 
-Medicine is the most competitive programme in Nigerian universities. Most universities publish their IJMB cutoffs annually.
+#### Advanced Practice Prompts
 
-**University of Ibadan (UI) — Faculty of Clinical Sciences:**
-- IJMB minimum: 10 points in relevant subjects
-- Must include Biology at minimum B grade (some years require A)
-- Must include Chemistry and Physics
-- JAMB score: Minimum 280 in UTME for those using UTME route
-- Direct Entry candidates must also satisfy 5 O'Level credits including English, Mathematics, Biology, Chemistry, Physics
+1. A candidate wants to study **Computer Science** at a federal university. They plan to register for IJMB in Physics, Chemistry, and Mathematics (PCM). List the O-Level credits the candidate must possess, the minimum IJMB grade expectations, and one specific federal university whose Computer Science faculty accepts IJMB. Justify why Further Mathematics is not a safe substitute.
+2. A candidate with strong O-Level grades in English, Mathematics, Physics, Chemistry, and Biology wishes to study **Biochemistry**. Compare the suitability of two IJMB combinations — PCB versus CBm — for DE admission into Biochemistry at Nigerian federal universities. State which combination is broader and why.
 
-**University of Lagos (UNILAG) — Faculty of Clinical Sciences:**
-- IJMB minimum: 12 points (rising to 14 in some years)
-- Biology, Chemistry, Physics mandatory
-- JAMB Direct Entry screening includes written exam + interview
+> 💡 **High-Yield Revision Hook:** Before registration, always run the **"University × Faculty × O-Level" triple-check**: confirm the destination university's IJMB acceptance list, the faculty's departmental IJMB subject requirement, and your own O-Level credits. Missing any one of the three nullifies the strongest IJMB grade sheet.
 
-**Ahmadu Bello University (ABU) Zaria:**
-- IJMB minimum: 9 points
-- ABU conducts its own post-IJMB screening
-- MBBS cutoff depends on year but typically 10+ points
+---
 
-**Key advice for medical aspirants:**
-- Biology is the most heavily weighted subject in PCB for medical courses
-- Most medical schools now require a minimum of B grade (7 points) in Biology
-- Chemistry must be at least C grade (6 points)
-- Physics is often not heavily weighted but must be passed (minimum D)
+## Continue your study
 
-#### Engineering — Detailed Requirements
+- **[View this topic in your IJMB (Nigeria) roadmap](/roadmap/?exam=ijmb&duration=1mo)** — see where "Science Subject Combinations for IJMB — Which Courses They Unlock" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ijmb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[IJMB (Nigeria) exam overview](/exams/ijmb/)** — pattern, eligibility, and syllabus
+- **[All Subject-Combinations notes](/notes/ijmb/subject-combinations/)** — browse sibling topics in this subject
 
-Engineering is the second most popular IJMB route. Different engineering disciplines may require different subject weightings.
-
-**Electrical/Electronic Engineering requirements:**
-- Physics: Minimum B grade (7 points)
-- Mathematics: Minimum B grade (7 points)
-- Chemistry: Minimum C grade (6 points)
-- Most universities weight Physics and Mathematics more heavily
-
-**Mechanical Engineering:**
-- Physics: B grade minimum
-- Mathematics: B grade minimum
-- Chemistry or Further Mathematics: C grade
-
-**Petroleum Engineering (UPTH, FUTO, UNIBEN):**
-- Mathematics: A or B grade
-- Physics: B grade minimum
-- Chemistry: C grade minimum
-- Some universities require Geography as fourth subject
-
-**Computer Engineering:**
-- Mathematics: A grade strongly preferred
-- Physics: B grade minimum
-- Chemistry: C grade minimum
-
-#### The Role of O'Level Results in IJMB Admission
-
-Regardless of how well you perform in IJMB, you must satisfy the O'Level (SSCE/WAEC/NECO) requirements for Direct Entry. The standard requirements are:
-- 5 credits in O'Level including English Language and Mathematics (for most courses)
-- For Medicine: 5 credits including Biology, Chemistry, Physics, English, Mathematics
-- For Engineering: 5 credits including Physics, Chemistry, Mathematics, English
-
-Your IJMB results do NOT replace O'Level requirements — you need both.
-
-** NABTEB Advanced Technician Certificate (ATC):**
-- Holders of NABTEB A-level results can also apply for Direct Entry alongside IJMB candidates
-- IJMB is generally preferred for science-based courses because the ABU examination is more rigorous
-
-#### University-Specific Cutoffs for Science (2024 Data)
-
-| University | Course | Min IJMB Points | Key Subject Grade |
-|---|---|---|---|
-| UI | Medicine | 10 | Biology B+ |
-| UNILAG | Medicine | 12 | Biology A |
-| ABU | Medicine | 9 | Biology B |
-| UNIBEN | Medicine | 10 | Biology B |
-| UI | Engineering | 8 | Math B |
-| UNILAG | Engineering | 10 | Math B, Physics B |
-| FUTO | Engineering | 12 | Math B, Physics B |
-| UNIJOS | Engineering | 9 | Math C, Physics C |
-| UNILORIN | Pharmacy | 9 | Chemistry B |
-| UI | Pharmacy | 8 | Chemistry B, Biology B |
-| ABU | Computer Science | 9 | Math B |
-| UNILAG | Computer Science | 10 | Math A, Physics B |
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

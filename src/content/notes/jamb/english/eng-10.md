@@ -8,7 +8,7 @@ topicName: Pronouns and Agreement
 weight: 3
 country: nigeria
 generated: "2026-03-24T08:32:07.704060"
-lastUpdated: 2026-03-24
+lastUpdated: "2026-09-15"
 diagramPrompt: "Educational diagram illustrating Pronouns and Agreement with clear labels, white background, exam-style illustration"
 
 ---
@@ -18,102 +18,111 @@ diagramPrompt: "Educational diagram illustrating Pronouns and Agreement with cle
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Pronouns and Agreement** — Quick Facts
-A pronoun replaces a noun to avoid repetition. Subject-verb agreement means the verb form matches its subject in number and person.
+A **pronoun** replaces a **noun** (its **antecedent**) and must match it in **number**, **gender**, and **person**. JAMB UTME tests this in the Use of English paper through choices between subject vs. object forms, singular vs. plural references, and clear antecedents. The paper carries 60 Use-of-English questions, and pronoun questions cluster in Lexical/Grammatical Choice and Cloze items.
 
-**Types of Pronouns**
-- **Personal:** I, you, he, she, it, we, they
-- **Object:** me, you, him, her, it, us, them
-- **Possessive:** my/mine, your/yours, his, her/hers, its, our/ours, their/theirs
-- **Reflexive:** myself, yourself, himself, herself, itself, ourselves, themselves
-- **Demonstrative:** this, that, these, those
-- **Relative:** who, whom, whose, which, that
-- **Indefinite:** someone, anyone, everyone, nobody, each, every, either, neither
-- **Interrogative:** who, what, which, whose, whom
+- **Person set:** I/me/my (1st), you/your (2nd), he/him/his, she/her/hers, it/its, we/us/our, they/them/their (3rd).
+- **Case rule:** subject position → *I, you, he, she, we, they*; object position → *me, him, her, us, them*; after prepositions → object form (*between you and **me***).
+- **Singular indefinite pronouns** (*each, every, everyone, somebody, anything, neither, either*) take **singular** pronouns — *his or her / singular they*.
+- **Possessive vs. contraction:** *its* (possessive) ≠ *it's* (it is); *their* ≠ *they're* / *there*; *your* ≠ *you're*.
+- **Relative pronouns:** *who/whom* for persons, *which* for things, *that* for restrictive clauses.
 
-⚡ **Exam Tip:** JAMB commonly tests subject-verb agreement with collective nouns. "The team is" (viewed as unit) vs. "The team are" (viewed as individuals). In Nigerian English, both are acceptable — JAMB usually accepts either with collective nouns, but context determines.
-
----
+> 💡 **High-Yield Memory Hook:** **PAC** — **P**erson + **A**ntecedent + **C**ase must match before you tick any JAMB option. Quick test: drop the other noun in a compound (*"John and ___ went"* → must be **I**, not *me*).
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Subject-Verb Agreement Rules**
+#### Pronoun Categories at a Glance
 
-1. **Singular subject → singular verb**
-   The student is present. / She reads every day.
+| Type | Examples | Function | Agreement Trigger |
+|---|---|---|---|
+| Personal (subject) | I, you, he, she, it, we, they | Subject of verb | Matches antecedent in person, number, gender |
+| Personal (object) | me, you, him, her, it, us, them | Object of verb / preposition | Same as above |
+| Possessive determiner | my, your, his, her, its, our, their | Modifies a noun | Singular antecedent → singular possessive |
+| Possessive pronoun | mine, yours, his, hers, ours, theirs | Stands alone | Same matching rules |
+| Reflexive | myself, yourself, himself, herself, itself, ourselves, yourselves, themselves | Refers back to subject | Antecedent must exist in the same clause |
+| Relative | who, whom, whose, which, that | Links clauses | *who* (subject, person); *whom* (object, person); *which* (thing); *that* (restrictive) |
+| Indefinite | each, every, everyone, someone, anybody, nothing, either, neither | Refers to unspecified person/thing | **Always singular** in formal grammar |
 
-2. **Plural subject → plural verb**
-   The students are present. / They read every day.
+#### Case Decision Rules
 
-3. **Compound subjects joined by AND → plural verb**
-   Ada and Chidi are friends. (But: "The CEO and secretary is..." treated as one role)
+Use the **subject case** after a form of *to be* (*It is **I***) and as the subject of a finite verb (*She and **I** left*). Use the **object case** after prepositions (*between you and **me***), as a verb object (*The teacher called **him***), and as the object of an infinitive (*She wanted **him** to leave*). A reliable JAMB tactic: simplify the compound — *"Me and John went"* reduces to *"Me went"*, which is wrong, so the answer is *"John and **I** went."*
 
-4. **Subjects joined by OR/NOR → verb agrees with the nearest subject**
-   Either the teachers or the student is responsible. (student = singular → is)
-   Either the student or the teachers are responsible. (teachers = plural → are)
+#### Number and Gender Agreement Steps
 
-5. **Indefinite pronouns — Singular:** everyone, everybody, someone, somebody, each, either, neither, one → singular verb
-   Everyone is here. / Each of the boys is present.
+1. Locate the **antecedent** of the blank pronoun.
+2. Check whether the antecedent is **singular or plural**.
+3. Check the **gender** — masculine, feminine, or neuter (things, animals of unknown sex).
+4. Apply the **indefinite pronoun rule**: *each, every, either, neither* and the *-one/-body/-thing* words are grammatically singular.
+5. For collective nouns (*team, audience, government*), default to **singular** when the group acts as a unit.
 
-6. **Indefinite pronouns — Plural:** both, few, many, several, others → plural verb
-   Few were present. / Several have completed the form.
+> 📌 **Formula Check:** Pronoun agreement = f(number, gender, person). Change any one input and the pronoun form must change with it.
 
-7. **Indefinite pronouns — Variable:** all, any, most, none, some → verb agrees with the noun it refers to
-   Most of the water is gone. / Most of the students are ready.
+#### Concept Comparison Matrix: Tricky Pairs
 
-8. **Neither/Neither of/Neither...nor** → singular verb in formal English
-   Neither of them is attending. / Neither the teacher nor the students were... (informal)
+| Easily Confused | Form A | Form B | Diagnostic Question |
+|---|---|---|---|
+| Possessive vs. Contraction | its (possessive) | it's (it is) | Can you expand it to "it is"? If yes, use **it's**. |
+| Possessive vs. Contraction | your (possessive) | you're (you are) | Expand to "you are"? If yes, use **you're**. |
+| Possessive vs. Contraction | their (possessive) | they're / there | "they are" → **they're**; place → **there**. |
+| Subject vs. Object case | I / he / she / we / they | me / him / her / us / them | Drop the other noun in a compound — the surviving form tells you the case. |
+| Relative pronoun | who (subject) | whom (object) | Replace with he/him: "he spoke" (subject) vs. "to him" (object). |
+| Relative pronoun | which (thing) | who (person) | Is the antecedent human? Use **who/whom**. |
+| Indefinite pronoun | everyone, each, somebody | Singular | Always pair with singular verb + singular pronoun (*his or her*, *singular they*). |
+| Collective noun | team, class, family | Usually singular | Singular verb unless members act individually. |
 
-**Pronoun-Antecedent Agreement**
-A pronoun must agree with its antecedent (the noun it replaces) in:
-- **Number:** The boy lost his book. (singular → his) / The boys lost their books. (plural → their)
-- **Gender:** Ada brought her notebook. / Chidi brought his notebook.
-- **Person:** When using second-person, be consistent:
-  ✗ "When you have finished your homework, I should check it."
-  ✓ "When you have finished your homework, you should review it."
+#### 🎯 Exam-Level Worked Problem
 
-⚡ **JAMB Trap:** "Each of the students ___ a textbook." → Answer: "has" (each = singular even though of the students follows). Students often wrongly choose "have" because of "students."
+**Question:** *Each of the students must submit ___ assignment before Friday.*
+Options: (A) their (B) his or her (C) theirs (D) its (E) them
 
----
+#### Solution:
+1. Identify the antecedent: **"Each"** — a singular indefinite pronoun.
+2. Apply the rule: *each, every, everyone, everybody* → **singular agreement**.
+3. Eliminate plurals: (A) *their* (plural) and (E) *them* (object/plural) → **reject**.
+4. *Theres* (C) is a possessive pronoun that needs no following noun, but the sentence requires a **determiner** before *assignment* → **reject**.
+5. *Its* (D) refers to non-human antecedents, and *each of the students* is human → **reject**.
+6. *His or her* (B) supplies the required singular human possessive → **correct**.
+
+**Answer: B — his or her.** In contemporary formal English, *their* (singular they) is also acceptable, but JAMB traditionally keys (B).
+
+> ⚠️ **Examiner Trap:** Candidates pick (A) *their* because of modern usage. JAMB's keyed answer for singular indefinite antecedents remains the **singular** form, so read the options before defaulting to spoken English.
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-**Relative Pronouns — Who vs. Which vs. That**
-| Pronoun | Use for | Example |
-|---|---|---|
-| Who / Whom | People | The student who passed / The man whom I saw |
-| Which | Animals, things | The book which I read / The dog which barked |
-| That | People, animals, things (restrictive clauses) | The man that called / The book that was new |
+#### Advanced Traps and Exceptions
 
-Note: "Who" is preferred for people even when "that" is grammatically possible.
+1. **Singular they in formal writing:** Modern style guides (APA 7, Chicago 17) accept *they* as a gender-neutral singular. JAMB usually still treats it as a wrong option for *everyone / each / somebody*, so cross-check the option list.
+2. **Generic masculine:** Avoid *"Each student should bring **his** book"* alone — pair with *"his or her"* or rewrite to plural (*"Students should bring **their** books"*).
+3. **Person shift:** Do not mix *one* with *you* or *they* in the same sentence. *"When **one** drives, **you** should buckle **your** seatbelt"* mixes 3rd and 2nd person — rewrite to *"When **you** drive, **you** should buckle **your** seatbelt."*
+4. **Antecedents of different gender:** *"Neither the bride nor the groomsmen had **their** buttonhole"* fails because *neither* is singular and *bride* is feminine → *"her buttonhole."*
+5. **Collective noun drift:** *"The jury have given **their** verdict"* is acceptable in British English when members act individually; JAMB keys *has given **its** verdict* as the safer singular.
+6. **Who vs. Whom after prepositions:** *"To **who** did you speak?"* is wrong — the preposition *to* governs the object case → *"To **whom** did you speak?"* Substitute *him* to confirm.
+7. **Reflexive without antecedent:** *"Myself John"* is non-standard — use *"I, John, myself"* only when the subject is explicit.
+8. **Ambiguous this/which:** *"She left the bag on the table, which upset me"* — the antecedent of *which* is unclear. Rewrite: *"She left the bag on the table, a decision that upset me."*
 
-**Special Agreement Cases**
+#### Worked Micro-Example
 
-1. **Either...or / Neither...nor / Not only...but also** → verb agrees with the nearer subject
-   Neither the principal nor the teachers were informed. (teachers = plural → were)
-   Not only the manager but also his assistants is responsible. (manager = singular → is)
+**Sentence:** *"The committee announced that ___ decision was final."*
+**Diagnosis:** *Committee* is a singular collective noun acting as one body → singular neuter possessive → **its**.
+**Distractor likely tested:** *their* (plural), *there* (place), *they're* (contraction). All three fail the singular-neuter rule.
 
-2. **Units of measurement (treated as singular)**
-   Five thousand naira is too much. / Two weeks is enough time.
+#### Exam Strategy for JAMB UTME
 
-3. **Titles, names, countries (treated as singular)**
-   "The United Nations was founded in 1945." (one entity)
+- **Weightage:** Pronoun questions contribute roughly 2–3 questions per sitting across Lexical/Grammatical Choice, Sentence Interpretation, and Cloze passages.
+- **Time budget:** Spend ≤45 seconds per pronoun item. Run the PAC check (**P**erson, **A**ntecedent, **C**ase), then pick.
+- **Cloze tip:** When a cloze blank falls near a singular indefinite pronoun, scan ahead to confirm the verb form is singular before committing to a singular pronoun answer.
+- **Eliminate by category:** Strike out *it's / they're / you're* whenever the sentence already requires a possessive form — instant 50% reduction.
 
-4. **Gerund as subject → singular verb**
-   Swimming is good exercise. / Reading helps my vocabulary.
+> 💡 **High-Yield Revision Hook:** Before submitting any pronoun option, run **S-V-A-C**: **S**ingular antecedent? **V**erb number agrees? **A**ntecedent clear? **C**ase correct (subject/object)? Four yes-answers = safe tick.
 
-5. **"None"** — historically singular; modern English accepts both:
-   None of them was/were present. (JAMB accepts either)
+---
 
-**Pronoun Errors in JAMB**
-| Error | Correction |
-|---|---|
-| Between you and I | Between you and me (object of preposition) |
-| It is me | It is I (predicate nominative — formal) |
-| Whoever told him | Whomever told him (whoever = subject of "told") |
-| The team has finished their work | The team has finished its work (collective singular) |
-| Everyone should do their best | Everyone should do his/her best (singular) |
+## Continue your study
 
-⚡ **Previous Year JAMB Focus:** Pronoun-antecedent agreement and subject-verb agreement together account for 4-6 questions per Use of English paper. Key patterns: indefinite pronouns with singular verbs (everyone, someone, each), collective nouns, and compound subjects with OR/NOR. Questions also test pronoun case (I vs. me, who vs. whom) in formal writing contexts.
+- **[View this topic in your JAMB UTME roadmap](/roadmap/?exam=jamb&duration=1mo)** — see where "Pronouns and Agreement" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=jamb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[JAMB UTME exam overview](/exams/jamb/)** — pattern, eligibility, and syllabus
+- **[All English Language notes](/notes/jamb/english/)** — browse sibling topics in this subject
+
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

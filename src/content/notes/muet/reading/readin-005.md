@@ -8,7 +8,7 @@ topicName: "Text Structure and Cohesion"
 weight: 3
 country: malaysia
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-15"
 ---
 
 # Text Structure and Cohesion
@@ -16,222 +16,117 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**What is Text Structure?**
-Text structure is the **organisational framework** of a passage — how the author arranges ideas. Recognising the structure helps you predict where information will be located, making it faster to scan for answers.
+Text Structure and Cohesion in MUET Reading (Paper 2) covers two linked skills: recognising how a passage is **organised** (its macro structure) and tracking the **linguistic ties** (its micro cohesion) that hold sentences together.
 
-**What is Cohesion?**
-Cohesion refers to the **linguistic ties** that connect sentences and paragraphs — words and phrases that signal how ideas relate to each other. These connecting words are called **cohesive devices**.
+| Term | What it means in Paper 2 | Quick test |
+|---|---|---|
+| **Cohesion** | Visible grammatical/lexical links between sentences (pronouns, connectors, word repeats) | "Can I point to the word doing the linking?" |
+| **Coherence** | Logical unity the reader infers; the passage "makes sense" | "Does the argument flow logically?" |
+| **Reference** | Pronoun/demonstrative pointing to an antecedent (e.g. *this, they, such*) | Trace back to the noun |
+| **Lexical cohesion** | Word ties: repetition, synonym, antonym, collocation | Spot the word family chain |
+| **Text structure** | Macro pattern: cause–effect, problem–solution, compare–contrast, chronological, argument–counterargument | Check signal words |
 
-**The Big Three Structures in MUET Passages**
-1. **Problem-Solution**: Presents an issue, then discusses attempts to address it.
-2. **Cause-Effect**: Describes reasons and their consequences.
-3. **Comparison-Contrast**: Examines similarities and/or differences between two or more things.
-
-**⚡ Exam Tip**
-When a question asks "Which of the following comes next?" or "The author organises the passage by…?", it is testing your understanding of text structure.
+> 💡 **High-Yield Memory Hook:** **"R-C-C-L-S"** — **R**eference, **C**onjunction, **C**ollocation (lexical ties), and **L**ogical **S**tructure. When a cohesion item stumps you, scan for these five in order.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-## Recognising Common Text Structures
+#### Cohesion vs Coherence
 
-### 1. Introduction — Body — Conclusion
-This is the most common overall passage structure, especially in academic essays.
+Cohesion lives **on the page** — it is created by Halliday and Hasan's five cohesive devices: **reference, substitution, ellipsis, conjunction, and lexical cohesion**. Coherence lives in the **reader's mind** — it is the logical and thematic unity that emerges when cohesive devices, background knowledge, and text structure work together. MUET examiners test both: an item can ask you to identify a cohesive device (micro) or to judge whether two sentences "logically belong" in the passage (macro).
 
-| Section | Function | What to Look For |
+#### Types of Cohesive Devices
+
+| Device | Example | Function in passage |
 |---|---|---|
-| **Introduction** | Introduces the topic and states the thesis/main idea | General statements, background, the author's main claim |
-| **Body** | Develops the main idea through arguments, evidence, examples | Multiple paragraphs, each covering a sub-topic |
-| **Conclusion** | Summarises and/or extends the main idea | Restatement of thesis, implications, final comments |
+| **Anaphoric reference** | *The policy*… *It* failed. | Pronoun points **backward** to antecedent |
+| **Cataphoric reference** | *This* is what happened: the city flooded. | Pronoun points **forward** to later referent |
+| **Substitution** | *So* did Malaysia. | One word replaces another (avoid repetition) |
+| **Ellipsis** | Malaysia spent RM3 billion; Singapore, *∅* RM2 billion. | Omitted but understood item |
+| **Conjunction** | *However*, *therefore*, *because*, *then* | Signals additive, adversative, causal, or temporal relation |
+| **Lexical reiteration** | *child → kids → youngsters → offspring* | Repetition, synonym, hyponym, or collocation chain |
 
-### 2. Problem-Solution Structure
-The author presents a problem and then discusses one or more solutions.
+#### Text Structure Patterns
 
-> *"Freshwater scarcity is a growing concern in Sub-Saharan Africa. [Problem] To address this, several countries have invested in rainwater harvesting systems. [Solution 1] Others have turned to desalination technology, despite its high energy costs. [Solution 2] Yet critics argue that neither approach tackles the underlying issue of poor water governance. [Evaluation]"*
-
-Recognising this structure helps you locate answers: problems are stated explicitly, solutions are proposed, and evaluations/criticisms follow.
-
-### 3. Cause-Effect Structure
-The author describes reasons and outcomes. Watch for signal words.
-
-> *"Deforestation removes trees that normally absorb carbon dioxide. [Cause] As a result, atmospheric CO₂ levels rise. [Effect 1] This contributes to global warming. [Effect 2] Coastal communities then face increased flooding risk. [Effect 3]"*
-
-### 4. Comparison-Contrast Structure
-The author examines two or more subjects side by side.
-
-> *"Traditional classroom learning allows direct interaction between teachers and students. [Subject A] In contrast, online learning offers flexibility but lacks face-to-face engagement. [Subject B] While both approaches have merits, research suggests that a blended model produces the best outcomes. [Synthesis]"*
-
-Signal words for comparison: *similarly, likewise, in the same way, both, also*
-Signal words for contrast: *however, unlike, in contrast, on the other hand, whereas, but*
-
-## Essential Cohesive Devices in MUET Passages
-
-Cohesive devices are the "traffic signs" of a text. They tell you where the author is taking you logically.
-
-### Additive Cohesive Devices (Continue in the same direction)
-| Word/Phrase | Function | Example |
+| Pattern | Signal words | Typical question in MUET |
 |---|---|---|
-| **and** | adds information | "The study covered urban areas and rural regions." |
-| **also / too / furthermore / moreover** | adds supporting evidence | "The policy reduced emissions. Moreover, it created jobs." |
-| **in addition (to)** | introduces extra information | "In addition to regulating fisheries, the government launched an awareness campaign." |
+| **Cause–Effect** | because, due to, results in, consequently | "Why did X happen?" |
+| **Problem–Solution** | the issue is, one approach, this resolves | "What is proposed to fix X?" |
+| **Compare–Contrast** | whereas, on the other hand, similarly | "How do A and B differ?" |
+| **Chronological** | subsequently, years later, meanwhile | "What occurred before/after X?" |
+| **Argument–Counterargument** | critics argue, however, in contrast | "What is the writer's stance vs opposition?" |
 
-### Contrastive Cohesive Devices (Signal a turn or opposition)
-| Word/Phrase | Function | Example |
-|---|---|---|
-| **however / nevertheless / nonetheless** | introduces unexpected contrast | "The product is popular. However, it remains expensive." |
-| **but / yet** | introduces opposition | "The theory is elegant, but the evidence is weak." |
-| **although / even though / despite / in spite of** | introduces concession | "Despite heavy investment, outcomes did not improve." |
-| **in contrast / unlike / whereas** | highlights difference | "Whereas urban schools expanded, rural schools stagnated." |
-| **on the other hand** | presents the other side | "Proponents argue for expansion. On the other hand, opponents warn of environmental damage." |
+#### Key Steps to Answer Cohesion Items
 
-### Causal Cohesive Devices (Signal cause-effect relationships)
-| Word/Phrase | Function | Example |
-|---|---|---|
-| **therefore / consequently / as a result** | show the effect/result | "Temperatures rose; therefore, ice sheets melted." |
-| **because / since / as** | show the cause/reason | "Because of limited funding, the project stalled." |
-| **due to / owing to / thanks to** | attribute a cause | "The success was due to strong community support." |
-| **lead to / result in / give rise to** | describe a consequence | "The policy gave rise to unintended consequences." |
+1. Read the **two-sentence window** around the gap.
+2. Identify the **grammatical slot** the missing word must fill (subject? connector? verb?).
+3. Check for an **antecedent** if the gap is a pronoun.
+4. Match the **logical relation** (addition? contrast? cause?) to a connector family.
+5. Eliminate options that break grammar or shift meaning.
 
-### Sequential Cohesive Devices (Signal order or process)
-| Word/Phrase | Function | Example |
-|---|---|---|
-| **first(ly) / second(ly) / third(ly)** | enumerate steps | "First, the data was collected. Second, it was analysed." |
-| **then / next / subsequently** | show sequence | "The sample was prepared, then tested under laboratory conditions." |
-| **finally / eventually / in conclusion** | signal end or final step | "Finally, the results were published in a peer-reviewed journal." |
-| **before / after / prior to** | show time relationship | "Before the reform, attendance was lower." |
+#### 🎯 Exam-Level Worked Problem
 
-### Referencing Cohesive Devices (Point back or forward)
-| Word/Phrase | Function | Example |
-|---|---|---|
-| **this / these / such** | refer back to something mentioned | "Several species are endangered. These animals face habitat loss." |
-| **the former / the latter** | refer to specific items already named | "Urban and rural areas were surveyed. The former showed higher density." |
-| **it / they** | pronouns that refer back to nouns | "The report was published. It received widespread attention." |
+#### Question:
+*Malaysia has invested heavily in renewable energy over the past decade. ____, solar capacity has tripled since 2015, while wind power remains a minor contributor to the national grid.*
+Choose the option that best fills the blank:
+A. However
+B. For example
+C. As a result
+D. Nevertheless
 
-## How Cohesive Devices Help You in MUET
+#### Solution:
+Step 1 — Identify the relation. The first sentence states a general fact (heavy investment); the second offers **specific evidence** (solar tripled) supporting that investment. The relation is **illustration/example**, not contrast or consequence.
 
-1. **Predicting content**: If the author says "however," you know a contrasting point is coming. Prepare mentally for opposition.
-2. **Tracing arguments**: Words like "therefore" and "as a result" tell you which sentence is the conclusion of a preceding argument.
-3. **Eliminating wrong answers**: Some wrong answers contradict the logical flow signalled by a cohesive device.
+Step 2 — Test each connector:
+- **However / Nevertheless** = contrast. Wrong — the second sentence supports, not opposes, the first.
+- **As a result** = cause→effect. Wrong — solar growth is evidence of investment, not a result *caused by* the blank alone.
+- **For example** = illustration. Correct — introduces specific evidence for the general claim.
 
-### Example
-> *"Most doctors agree that regular exercise improves cardiovascular health. ___, some studies have found that excessive training may cause joint damage."*
+Step 3 — Confirm grammar: *For example, solar capacity has tripled…* reads naturally as a sentence adverb introducing supporting detail.
 
-If the blank requires a contrastive device, "However" fits. "Therefore" or "Moreover" would not — they would violate the logical structure.
+#### Answer: B. For example.
 
-## Paragraph Functions Within a Passage
-
-In academic passages, each paragraph does a specific job. Recognising the function of the paragraph you are reading helps you locate answers faster.
-
-| Function | What It Does | Where the Main Idea Lives |
-|---|---|---|
-| **Define** | Explains what a term or concept means | Usually in the defining sentence (often first) |
-| **Describe** | Provides characteristics, features, or data | Distributed across the paragraph |
-| **Explain** | Makes something clear by giving reasons or mechanisms | Usually the first sentence states what will be explained |
-| **Argue** | Takes a position and defends it | In the claim sentence (often first) |
-| **Compare/Contrast** | Shows similarities and/or differences | Topic sentence states the subjects being compared |
-| **Illustrate/Example** | Supports a point with a specific case | The point is made before or after the example |
-| **Summarise** | Recaps key points | Usually in the conclusion paragraph |
+> ⚠️ **Examiner Trap:** Students in many papers pick **C (As a result)** because "solar tripled" sounds like an outcome. But the first sentence is the **context**, not the cause of the second. In MUET items, an outcome that *illustrates* a general statement needs an illustrative connector, not a causal one.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-## Recognising Author's Argumentative Structure
+#### Theme–Rheme and Information Flow
 
-MUET argumentative passages often follow a recognisable pattern:
+In systemic-functional linguistics, every clause carries a **Theme** (what the writer puts first — the point of departure) and a **Rheme** (the new information about that theme). Cohesion is strengthened when the **Rheme of one sentence becomes the Theme of the next** — a pattern called **thematic progression**. Spotting this in MUET helps you predict what the next sentence will discuss, even before reading it.
 
-### The Classical Argument Structure
-1. **Introduction** — Establishes the issue and the author's thesis.
-2. **Background** — Provides context and background information.
-3. **Arguments FOR** — Presents the author's supporting evidence and reasoning.
-4. **Counter-Arguments** — Acknowledges the opposing view (sometimes dismissed, sometimes conceded).
-5. **Rebuttal** — The author responds to the counter-argument.
-6. **Conclusion** — Restates the thesis with stronger grounding.
-
-When MUET asks: "What is the author's conclusion?" — look in the final section. When they ask: "How does the author respond to those who disagree?" — look in the rebuttal section.
-
-### Spotting the Thesis Statement
-The thesis statement is the author's main claim or argument. It usually:
-- Appears at the end of the introduction.
-- Makes a specific, arguable claim (not a fact).
-- Sets up the structure of the essay (if you read the body paragraphs, each should address part of the thesis).
-
-> *"While electric vehicles offer environmental benefits, their high initial cost and limited charging infrastructure make them impractical for widespread adoption in Malaysia in the near term."*
-
-This thesis makes a specific claim, takes a position, and signals the structure: environmental benefits (conceded) vs. cost and infrastructure (argued against adoption).
-
-## How Cohesion Breakdown Causes Misreading
-
-Sometimes students misread a passage because they do not understand how cohesive devices connect ideas. Common errors:
-
-### Error 1: Confusing "However" with "Therefore"
-- **However** = contrast/surprise → the direction changes.
-- **Therefore** = conclusion/reason → the direction continues forward.
-> "The medicine reduced symptoms. However, it did not cure the disease." ≠ "The medicine reduced symptoms. Therefore, it cured the disease."
-
-### Error 2: Missing the Reference of "This" or "These"
-> "The government introduced three policies on housing. **These** measures have yet to show significant results."
-> "These" refers back to "three policies on housing" — not to any single policy. Misreading the referent leads to wrong answers.
-
-### Error 3: Ignoring "Although" and Its Position
-> "Although the programme was expensive, it delivered measurable results."
-> The main point is: it delivered measurable results. The fact that it was expensive is a concession. Students who focus on the expense miss the main point.
-
-## Signal Words and Question Types
-
-| Signal Word Pattern | Likely Question Type |
-|---|---|
-| "However, ... despite..." | Exception question ("All of the following are true EXCEPT...") |
-| "First... then... finally..." | Sequence question ("What was the second step...?") |
-| "Therefore / Consequently..." | Cause-effect question ("What was the result...?") |
-| "Unlike... whereas..." | Comparison question ("How does X differ from Y...?") |
-| "For example... such as..." | Detail question ("Which of the following is an example of...?") |
-| "It can be inferred / suggests..." | Inference question |
-
-## Identifying Unstated Logical Connections
-
-Authors often omit words like "because," "so," or "but" and rely on the reader to understand the implied connection between sentences.
-
-### Implicit Connections
-> "The forest cover has decreased by 30% since 2000. Logging companies have expanded operations significantly."
-
-The implied connection: The expansion of logging companies contributed to (or caused) the decrease in forest cover. No causal word is used, but the relationship is clear.
-
-In MUET questions: "What is the relationship between the two statements?" — The answer would be: logging expansion is linked to / may have caused / contributed to the forest loss.
-
-## Cross-Passage Cohesion
-
-In some MUET questions involving multiple short texts (e.g., matching questions), you must trace how the same topic, person, or concept is referred to across different sections. Watch for:
-- **Synonyms**: "floods" in one place, "water disaster" in another, "inundation" in a third.
-- **Pronouns**: "it," "they," "this," "such" referring back to earlier subjects.
-- **Ellipsis**: When a word is omitted because it is understood from context ("The first method was effective; the second, less so." — "so" = "was effective").
-
-## Text Structure in Different Subjects
-
-MUET passages cover diverse topics. Each subject area has characteristic structures:
-
-| Subject Area | Common Structure | Features |
+| Progression type | Pattern | MUET reading benefit |
 |---|---|---|
-| **Science/Technology** | Cause-effect, process | Technical terms, data, sequence |
-| **Social Issues** | Problem-solution, argument | Multiple perspectives, evidence |
-| **Economics/Business** | Compare-contrast, cause-effect | Statistics, trends, policy discussion |
-| **Health/Medicine** | Problem-cause-effect, study report | Research findings, percentages |
-| **Environment** | Cause-effect, problem-solution | Data, consequences, proposals |
-| **Education** | Argument, description, comparison | Theories, statistics, examples |
+| **Constant Theme** | T1–R1, T1–R2, T1–R3 | Predicts a paragraph drill-down on one topic |
+| **Linear (zig-zag)** | T1–R1 → T2 (from R1) – R2 | Predicts a cause→effect chain |
+| **Derived Theme** | T1–R1 → T2 (= part of R1) – R2 | Predicts a sub-category being introduced |
 
-Knowing the subject-area structure helps you predict where to look for specific information.
+#### Advanced Traps and Exceptions
 
-## Practical Exercise: Map a Passage
+1. **Cataphoric pronouns** mislead students who reflexively search backwards. *The following* and *This* at a paragraph's opening refer to what comes *next*, not before.
+2. **Distant antecedents** can sit 3–5 sentences back — never settle for the nearest noun when the gender/number mismatch is obvious.
+3. **Lexical cohesion via collocation** is invisible to students who scan only for synonyms. *Hospital–patient–treatment–ward* is a collocational chain, not synonymy.
+4. **Implicit connectors** (no signal word) still signal contrast or cause through punctuation: a colon in many papers indicates illustration; a semicolon links parallel ideas.
+5. **Cohesion errors in options** — distractors can be grammatically correct but semantically wrong (e.g. *Therefore* when the relation is contrast).
 
-1. Take a MUET passage and read it quickly (2 minutes).
-2. Write a one-line summary of each paragraph's purpose.
-3. Draw an arrow showing the logical flow between paragraphs.
-4. Identify the cohesive devices linking each paragraph to the next.
-5. Compare your map with the passage questions: Did the questions target the structural elements you identified?
+#### Two Advanced Practice Prompts
 
-This exercise trains your brain to see passage architecture automatically.
+1. Take any MUET-style passage of 350 words. Underline every **anaphoric pronoun** and trace its antecedent chain across paragraphs. If the chain breaks, the writer has a cohesion fault — useful both for answering items and for writing Paper 4.
+2. Re-label the structure of one passage as **problem–solution** and another as **argument–counterargument**. List three signal words you used as evidence, and explain how you would justify the structure to an examiner in 25 words or fewer.
+
+> 💡 **High-Yield Revision Hook:** When two cohesive options both seem correct, choose the one that **preserves the Theme of the surrounding paragraph** — thematic consistency is the tie-breaker MUET markers reward.
+
+---
+
+## Continue your study
+
+- **[View this topic in your MUET (Malaysia) roadmap](/roadmap/?exam=muet&duration=1mo)** — see where "Text Structure and Cohesion" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=muet&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[MUET (Malaysia) exam overview](/exams/muet/)** — pattern, eligibility, and syllabus
+- **[All Reading (Paper 2) notes](/notes/muet/reading/)** — browse sibling topics in this subject
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

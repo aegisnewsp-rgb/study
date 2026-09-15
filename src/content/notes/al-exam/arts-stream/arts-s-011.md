@@ -8,7 +8,7 @@ topicName: Critical Thinking and Logical Reasoning
 weight: 3
 country: srilanka
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-15"
 ---
 
 # Critical Thinking and Logical Reasoning
@@ -16,339 +16,116 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Critical Thinking and Logical Reasoning** — Key Facts for Sri Lanka A/L Examination
+Critical Thinking is the disciplined process of **analysing**, **evaluating**, and **constructing** arguments so that a conclusion is supported by sound reasons and evidence. An **argument** contains one or more **premises** (reasons) that support a **conclusion** (the claim being argued for). Reasoning divides into three modes: **deductive** (conclusion follows with necessity), **inductive** (conclusion follows with probability from evidence), and **analogical** (conclusion transfers from a known case to a similar one).
 
-**Core Critical Thinking Skills**:
-- **Analysis**: Breaking down complex information
-- **Evaluation**: Judging the value or quality of information
-- **Inference**: Drawing logical conclusions from evidence
-- **Argument identification**: Recognising reasoning patterns
-- **Assumption identification**: spotting unstated premises
+- **Validity** = formal correctness of the inference structure.
+- **Soundness** = a valid argument whose premises are all actually true.
+- **Cogent** = a strong inductive argument with true premises and a probable conclusion.
 
-**Key Logical Fallacies to Avoid**:
-- **Ad hominem**: Attacking the person instead of the argument
-- **False dilemma**: Presenting only two options when more exist
-- **Hasty generalisation**: Drawing broad conclusions from few examples
-- **Begging the question**: Using the conclusion as a premise
-- **Post hoc**: Assuming cause from mere sequence
+> 💡 **High-Yield Memory Hook:** **"V-T-S-C"** — **V**alidity asks about *form* (structure), **T**ruth asks about *facts* (premises), **S**oundness needs **V + T**, **C**ogent is the inductive twin of Sound (strong inductive form + true premises → probable conclusion). When the A/L paper asks "is the argument valid?", check the form, NOT whether you agree with the content.
 
-⚡ **A/L Exam Tip**: In any argument analysis question, identify whether the argument is DEDUCTIVE (conclusive conclusion) or INDUCTIVE (probable conclusion)!
+| Term | One-line meaning |
+|---|---|
+| Premise | A reason offered in support of a conclusion |
+| Conclusion | The claim that premises are meant to establish |
+| Assumption | An unstated premise required for the inference to hold |
+| Fallacy | An error in reasoning that weakens an argument |
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Critical Thinking and Logical Reasoning** — Detailed Study Guide
+#### Argument Structure and Modes of Reasoning
 
-#### The Nature of Arguments
+An argument is a set of statements, one of which (the conclusion) is claimed to follow from the others (the premises). Identifying the conclusion is the first move in any A/L argument-analysis item; signal words such as *"therefore"*, *"thus"*, *"hence"*, *"so"*, *"consequently"* mark the conclusion, while *"because"*, *"since"*, *"for"*, *"given that"* mark premises. Hidden premises — assumptions the author leaves unstated — must be surfaced before evaluation.
 
-**What is an Argument?**:
-- A set of statements (premises) intended to support another statement (conclusion)
-- Not fighting or disagreeing — but reasoning from evidence to conclusion
+Deductive reasoning aims at **necessity**: if the premises are true, the conclusion *must* be true (e.g. "All mammals have hearts; whales are mammals; therefore whales have hearts"). Inductive reasoning aims at **probability**: the premises make the conclusion *likely* but not certain (e.g. "Every swan I have seen is white; therefore all swans are white"). Reasoning by analogy transfers a feature from a familiar case to a similar one and is the weakest form, vulnerable to disanalogies.
 
-**Argument Components**:
-| Component | Description | Example |
-|-----------|-------------|---------|
-| Premise(s) | Evidence or reasons | "All Sri Lankan citizens who pass A/L can apply to university" |
-| Conclusion | Claim supported by premises | "Therefore, Rangi can apply to university" |
-| Inference | Logical connection between premises and conclusion | — |
-| Hidden assumption | Unstated premise required for argument to work | "Rangi is a Sri Lankan citizen" |
+#### Validity vs Truth vs Soundness
 
-**Types of Reasoning**:
+| Property | Question it answers | Applies to | Marked true when… |
+|---|---|---|---|
+| Validity | Does the conclusion follow from the premises by form? | Deductive arguments | No possible assignment of truth-values to premises makes the premises true and the conclusion false |
+| Truth | Are the premises factually correct? | Individual statements | The statement corresponds to reality |
+| Soundness | Is the argument valid AND all premises true? | Deductive arguments | Both validity and premise-truth hold |
+| Cogency | Is the inductive argument strong AND premises true? | Inductive arguments | Premises are true and the conclusion is highly probable |
 
-**Deductive Reasoning**:
-- General premise → Specific conclusion
-- If premises are true, conclusion MUST be true
-- Example:
-  - Premise 1: All mammals are warm-blooded
-  - Premise 2: Whales are mammals
-  - Conclusion: Whales are warm-blooded
+#### Concept Comparison Matrix — Fallacies Students Mix Up
 
-**Inductive Reasoning**:
-- Specific observations → General conclusion
-- Conclusion is probable, not certain
-- Example:
-  - Premise 1: The sun rose yesterday
-  - Premise 2: The sun rose today
-  - Conclusion (probable): The sun will rise tomorrow
+| Fallacy | Pattern | Often confused with |
+|---|---|---|
+| **Ad hominem** | Attacks the person making the claim instead of the claim itself | A legitimate criticism of a person's credentials |
+| **Straw man** | Distorts an opponent's view into a weaker version, then refutes that | Genuinely refuting the original position |
+| **False dilemma** | Presents only two options when more exist | A real binary situation |
+| **Slippery slope** | Claims one step will inevitably cause a chain of extreme outcomes | Cautious reasoning about consequences |
+| **Hasty generalisation** | Draws a universal rule from one or two cases | A representative sample-based induction |
+| **Appeal to authority** | Accepts a claim because an authority said so | Legitimate expert testimony in the relevant field |
+| **Appeal to emotion** | Uses pity, fear, or anger instead of evidence | Rhetorical emphasis that still rests on evidence |
 
-**Abductive Reasoning**:
-- Observations → Best explanation
-- Used in everyday reasoning and science
-- Example: "The road is wet; it probably rained"
+#### Syllogistic Forms and the Square of Opposition
 
-#### Argument Analysis
+Categorical syllogisms join two categorical premises to produce a categorical conclusion. The four classic valid forms tested in A/L Logic are:
 
-**Steps in Analysing an Argument**:
-1. Identify the conclusion (what the arguer wants you to believe)
-2. Identify the premises (reasons given to support conclusion)
-3. Determine the logical connection between them
-4. Check for hidden assumptions
-5. Evaluate the quality of the reasoning
+1. **AAA-1 (Barbara)** — All M are P; All S are M; therefore All S are P.
+2. **EAE-1 (Celarent)** — No M are P; All S are M; therefore No S are P.
+3. **AII-1 (Darii)** — All M are P; Some S are M; therefore Some S are P.
+4. **EAE-2 (Cesare)** — No P are M; All S are M; therefore No S are P.
 
-**Question Prompt Indicators**:
-| If question asks... | You need to... |
-|--------------------|----------------|
-| "What is the main conclusion?" | Identify the central claim |
-| "Which statement is an assumption?" | Find unstated premise |
-| "What evidence would strengthen?" | Identify missing support |
-| "What evidence would weaken?" | Find counter-considerations |
-| "What is the flaw in reasoning?" | Identify logical fallacy |
+The Square of Opposition governs relations between **A** (All S are P), **E** (No S are P), **I** (Some S are P), and **O** (Some S are not P). A and O are **contradictories** (cannot both be true), E and I are **contradictories**, A and E are **contraries** (cannot both be true but both can be false), I and O are **subcontraries** (cannot both be false).
 
-**Evaluating Premise Quality**:
-- **Strong premises**: Factual, verifiable, current, relevant
-- **Weak premises**: Unverified claims, outdated, biased, irrelevant
-- **Test each premise**: "Is this statement true? How do we know?"
+#### 🎯 Exam-Level Worked Problem
 
-#### Logical Fallacies
+**Question:** Evaluate the following argument: *"Animal testing is cruel. Therefore, the cosmetics company PawsCo, which tests on animals, must be shut down immediately."* Identify the conclusion, one hidden assumption, and the strongest informal-fallacy label that applies.
 
-**Fallacies of Relevance**:
+#### Solution:
 
-| Fallacy | Description | Example |
-|---------|-------------|---------|
-| Ad hominem | Attacking the person | "We shouldn't listen to him — he's been divorced twice" |
-| Appeal to authority | Using authority inappropriately | "A famous actor said this diet works" |
-| Appeal to emotion | Manipulating feelings | "Think of the children who will suffer" |
-| Appeal to tradition | "It's always been done this way" | "Arranged marriages have worked for centuries" |
-| Bandwagon | "Everyone does this" | "All my friends have the latest phone" |
-| Red herring | Irrelevant distraction | "Why worry about climate change when crime is rising?" |
-| Straw man | Misrepresenting opponent's position | "They want to eliminate all cars!" |
+1. **Locate the conclusion:** the claim that PawsCo must be shut down.
+2. **Surface the hidden assumption:** that the ethical wrong of animal testing automatically justifies *immediate shutdown* of every company that conducts it (the move from "wrong" to "shut down" is not justified).
+3. **Apply fallacy labels:** The move from a single feature (cruelty) to a sweeping remedy (shutdown of one firm) without weighing alternatives suggests **hasty generalisation** or **false dilemma** (only "shut down" or "do nothing" are presented). The strongest single label is **false dilemma**, because the argument ignores other proportionate responses (regulation, fines, reformulation, phase-out).
+4. **Verdict:** the argument is **unsound** even if the premise (cruelty) is true — the inference form is invalid because alternative responses are not considered.
 
-**Fallacies of Generalisation**:
-
-| Fallacy | Description | Example |
-|---------|-------------|---------|
-| Hasty generalisation | Few examples → broad conclusion | "My neighbour is unfriendly. All city people are unfriendly" |
-| Sweeping generalisation | Exception ignored | "Fish is good for you. I fed it to my cat and it died" |
-| False dilemma | Only two options presented | "You're either with us or against us" |
-
-**Fallacies of Assumption**:
-
-| Fallacy | Description | Example |
-|---------|-------------|---------|
-| Begging the question | Conclusion hidden in premise | "Murder is wrong because it's illegal" |
-| Circular reasoning | Conclusion proves itself | "The newspaper is trustworthy because it says so" |
-| False cause | Assuming cause from sequence | "The rooster crowed, then the sun rose" |
-
-**Fallacies of Ambiguity**:
-
-| Fallacy | Description | Example |
-|---------|-------------|---------|
-| Equivocation | Using word with multiple meanings | "Saving money is important. Banks save money. Banks are important" |
-| Amphiboly | Grammatical ambiguity | "I saw the man with the telescope" |
-
-⚡ **A/L Tip**: When you spot a fallacy, name it AND explain WHY it's a fallacy!
-
-#### Inference and Conclusion Recognition
-
-**Identifying Conclusions**:
-Conclusion indicator words:
-- Therefore, thus, hence, so, consequently
-- It follows that, this shows that, proves that
-- This means, we can conclude, the point is
-
-Premise indicator words:
-- Because, since, for, as, given that
-- First, second, moreover, furthermore
-- The reason is, in fact, evidence shows
-
-**Types of Conclusions**:
-1. **Factual conclusions**: Based on verifiable evidence
-2. **Evaluative conclusions**: Judgments about value or quality
-3. **Policy conclusions**: Recommendations for action
-4. **Explanatory conclusions**: Reasons for phenomena
-
-**Evaluating Conclusions**:
-- Is the conclusion supported by the evidence?
-- Are there alternative conclusions?
-- Is the reasoning valid (logically correct)?
-- Is the reasoning sound (valid AND premises are true)?
+> ⚠️ **Examiner Trap:** students frequently pick *"ad hominem"* here because the company is named. Ad hominem requires an attack on a *person*'s character, not an attack on a *company's* practice. Always check whether the target is the person or the action.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-**Critical Thinking and Logical Reasoning** — Complete Notes for A/L Sri Lanka
+#### Truth-Functional Logic and Venn Diagrams
 
-#### Advanced Logical Structures
+Beyond categorical syllogisms, the A/L Logic component tests **truth-functional connectives** and **Venn-style categorical relations**. Master the standard symbols: ¬ (NOT), ∧ (AND), ∨ (OR), → (IF…THEN), ↔ (IF AND ONLY IF). A conditional **P → Q** is false only when P is true and Q is false; it is true in every other combination, including when P is false. Students routinely mark *"If 5 is even, then Paris is in Asia"* as false — it is actually **true**, because the antecedent is false.
 
-**Conditional Statements**:
-| Structure | Meaning | Example |
-|----------|---------|---------|
-| If P, then Q | When P is true, Q is true | If you study, you will pass |
-| P only if Q | P implies Q; Q is necessary for P | You pass only if you study |
-| P if Q | Q is sufficient for P | You will pass if you study |
-| If P then Q / If not Q then not P | Contrapositive equivalent | If you don't study, you won't pass |
+Venn diagrams represent categorical statements using two overlapping circles for S and P. **All S are P** shades the part of S outside P; **No S are P** shades the overlap entirely; **Some S are P** places an × in the overlap; **Some S are not P** places an × in S outside P. A syllogism is valid when the diagram of the two premises already shades/marks the conclusion region.
 
-**Evaluating Conditional Arguments**:
-- **Modus ponens** (affirming): If P→Q, P is true, therefore Q is true
-- **Modus tollens** (denying): If P→Q, Q is false, therefore P is false
-- **Affirming consequent**: If P→Q, Q is true, therefore P is true (INVALID!)
-- **Denying antecedent**: If P→Q, P is false, therefore Q is false (INVALID!)
+#### Advanced Traps and Edge Cases
 
-**Categorical Syllogisms**:
-| Figure | Form | Example |
-|--------|------|---------|
-| Barbara (AAA-1) | All B are C; All A are B; ∴ All A are C | All tigers are mammals; All mammals are animals; ∴ All tigers are animals |
-| Celarent (EAE-1) | No B are C; All A are B; ∴ No A are C | No Sri Lankans are European; All Jaffna residents are Sri Lankans; ∴ No Jaffna residents are European |
-| Ferio (EIO-1) | No B are C; Some A are B; ∴ Some A are not C | No Buddhists are Christians; Some people are Buddhists; ∴ Some people are not Christians |
+1. **Equivocation trap:** a key term shifts meaning mid-argument (e.g. "law" meaning *legislation* in premise 1 and *natural regularity* in premise 2). Mark the argument invalid even if both premises sound true in isolation.
+2. **Begging the question:** the conclusion is restated as a premise in disguised form. Watch for circular phrasing like "Honest people tell the truth, so this honest witness must be telling the truth."
+3. **Red herring / smokescreen:** an irrelevant topic is introduced to distract from the main issue (e.g. debating a politician's hairstyle instead of policy).
+4. **Composition vs division:** assuming what is true of the parts is true of the whole, or vice versa. "Each player is excellent, therefore the team is excellent" is composition.
+5. **Affirming the consequent:** the form "If P then Q; Q; therefore P" is the most common deductive fallacy in A/L MCQs. Example: "If it rains, the ground is wet. The ground is wet. Therefore it rained." — invalid because sprinklers also wet the ground.
+6. **Denying the antecedent:** "If P then Q; not P; therefore not Q" is similarly invalid.
+7. **Statistical vs causal:** a correlation between two variables does not establish that one causes the other; confuse these and you fall into *post hoc ergo propter hoc*.
 
-**Analogical Reasoning**:
-- Comparing similar cases to draw conclusions
-- Structure: A and B share properties 1, 2, 3. A has property 4. Therefore, B probably has property 4.
-- Strength depends on relevance and number of shared properties
-- Example: "If Sri Lanka and Singapore can develop with good governance, other developing nations possibly can too"
+#### Connections to Adjacent A/L Topics
 
-**Causal Reasoning**:
-| Type | Description | Example |
-|------|-------------|---------|
-| Necessary cause | Must be present for effect | Oxygen is necessary for fire |
-| Sufficient cause | Guarantees the effect | Drowning is sufficient for death by water |
-| Contributing cause | One of several causes | Many factors contribute to poverty |
+Critical Thinking underpins the **Common General Test**, comprehension passages in **Sinhala/Tamil/English**, and source-evaluation questions in **Buddhist / Hindu / Christian / Islamic Civilization**. The **Scientific Method** component of Buddhist Civilization (hypothesis → observation → experimentation → conclusion) is a direct application of inductive reasoning. Essay writing in any Arts subject improves when premises, assumptions, and counter-arguments are surfaced explicitly.
 
-**Causal Fallacies**:
-- **Post hoc ergo propter hoc**: "After this, therefore because of this" — assuming causation from sequence
-- **Correlation confused with causation**: Two things happening together doesn't mean one causes the other
-- **Complex cause**: Oversimplifying multi-causal events
+#### Practice Prompts (Self-Test)
 
-#### Critical Reading
+1. A passage argues: "Since every student in section A passed the exam, every student in the school will pass." Identify the conclusion, the hidden assumption, and the fallacy. Justify your answer using a sample-size argument.
+2. Given the categorical statements "All philosophers are rational" (A) and "Some students are philosophers" (I), use a Venn diagram to determine the validity of the conclusion "Some students are rational" (I). State the syllogistic form (e.g. AII-1).
 
-**Steps for Critical Reading**:
-1. **Identify the genre and context**: What type of text is this? Who wrote it? When?
-2. **Identify the main thesis**: What is the writer's central claim?
-3. **Identify the structure**: How is the argument organised?
-4. **Identify the evidence**: What facts, examples, statistics support the argument?
-5. **Evaluate the evidence**: Is it sufficient? Accurate? Relevant? Current?
-6. **Identify assumptions**: What does the writer take for granted?
-7. **Identify fallacies**: Are there any flaws in reasoning?
-8. **Consider counterarguments**: What opposing views exist?
-9. **Form your own evaluation**: Do you agree? Why or why not?
-
-**Source Evaluation Checklist**:
-- Who is the author? What are their qualifications?
-- What is the publication? Is it reputable?
-- When was it published? Is the information current?
-- What is the purpose? To inform, persuade, entertain?
-- Is the evidence verifiable?
-- Are there any obvious biases?
-- Is the reasoning logical?
-
-**Bias Types to Watch For**:
-| Bias | Description |
-|------|-------------|
-| Confirmation bias | Seeking only information that confirms existing beliefs |
-| Anchoring bias | Relying too heavily on first information received |
-| Sunk cost fallacy | Continuing because of invested resources |
-| Bandwagon effect | Believing something because many believe it |
-| Authority bias | Accepting authority figures' opinions uncritically |
-| Availability heuristic | Judging probability by how easily examples come to mind |
-
-#### Problem-Solving with Critical Thinking
-
-**Problem-Solving Framework**:
-1. **Define the problem**: What exactly is the issue?
-2. **Gather information**: What are the relevant facts?
-3. **Identify possible causes**: What might lead to this problem?
-4. **Generate solutions**: What options exist?
-5. **Evaluate solutions**: What are the pros and cons of each?
-6. **Select the best solution**: Which addresses the problem most effectively?
-7. **Implement and review**: Put it into action, assess results
-
-**Decision-Making Framework**:
-1. State the decision to be made
-2. Identify alternatives
-3. Establish criteria for evaluation
-4. Assess each alternative against criteria
-5. Weigh criteria (some may be more important)
-6. Make decision
-7. Review and adjust
-
-**Brainstorming Techniques**:
-- **Free association**: Generate ideas without judgment
-- **SCAMPER**: Substitute, Combine, Adapt, Modify, Put to other use, Eliminate, Reverse
-- **Mind mapping**: Visual brainstorming
-- **SWOT**: Strengths, Weaknesses, Opportunities, Threats
-
-#### Critical Thinking in Sri Lankan Context
-
-**Applying Critical Thinking to Sri Lankan Issues**:
-
-**Education in Sri Lanka**:
-- Premise: Sri Lanka has high literacy rates
-- Premise: But unemployment among graduates remains high
-- Premise: Many graduates lack practical skills
-- Question: Does education equal economic opportunity?
-- Conclusion: Education reform must address skills development
-
-**Development Challenges**:
-- Premise: Sri Lanka achieved middle-income status
-- Premise: But inequality persists between regions
-- Premise: Urban areas attract resources
-- Question: Is development truly inclusive?
-- Counterargument: Development takes time; progress is measurable
-
-**Environmental Concerns**:
-- Premise: Sri Lanka has high biodiversity
-- Premise: But deforestation and coastal erosion continue
-- Premise: Economic development often prioritised over environment
-- Question: How to balance development and conservation?
-- Critical thinking: Consider alternative development models
-
-**Social Issues Analysis Framework**:
-```
-1. What is the problem?
-   - Define precisely
-
-2. Who is affected?
-   - Demographics, regions, social groups
-
-3. What are the causes?
-   - Immediate and underlying
-
-4. What solutions have been tried?
-   - Sri Lankan context, international comparisons
-
-5. What are the alternatives?
-   - Policy options, community approaches
-
-6. What are the trade-offs?
-   - Benefits vs. costs, winners vs. losers
-
-7. What criteria should guide the decision?
-   - Economic, social, environmental, equity
-
-8. What recommendation follows?
-   - Based on evidence and reasoning
-```
-
-#### Critical Thinking in Media and Information
-
-**Media Literacy**:
-- **Source attribution**: Where does this information come from?
-- **Fact vs. opinion**: Is this verifiable or subjective?
-- **Hidden agendas**: What interest does the author/publisher have?
-- **Representation**: Does this image/text accurately represent reality?
-- **Framing**: How has the information been presented to influence perception?
-
-**Evaluating News Sources**:
-| Source Type | Reliability | Verification |
-|-------------|-------------|--------------|
-| Established newspapers | Generally reliable | Cross-check with other sources |
-| Government statements | May reflect official position | Verify independently |
-| Social media | Variable reliability | Check original source |
-| Academic journals | High reliability | Peer review process |
-| Anonymous sources | Caution needed | Corroborate if possible |
-
-**Fact-Checking Skills**:
-1. Check the original source (author, publication, date)
-2. Cross-reference with reliable sources
-3. Check for date — old news may be recycled
-4. Look for evidence and citations
-5. Consider what perspectives may be missing
-
-⚡ **A/L Critical Thinking Question Format**: Questions often present an argument and ask you to identify the conclusion, a hidden assumption, a flaw in reasoning, or how to strengthen/weaken the argument. Practice with past papers!
+> 📌 **Formula Check:** Although this topic is non-quantitative, two structural "rules" act as formulas: **(1) Sound = Valid + True Premises** for deductive arguments; **(2) Cogent = Strong Inductive Form + True Premises** for inductive arguments. Master these two equations and half the paper's argument-evaluation items become routine.
 
 ---
+
+## Continue your study
+
+- **[View this topic in your A/L Examination (Sri Lanka) roadmap](/roadmap/?exam=al-exam&duration=1mo)** — see where "Critical Thinking and Logical Reasoning" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=al-exam&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[A/L Examination (Sri Lanka) exam overview](/exams/al-exam/)** — pattern, eligibility, and syllabus
+- **[All Arts-Stream notes](/notes/al-exam/arts-stream/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

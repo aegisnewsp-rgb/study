@@ -8,7 +8,7 @@ topicName: Basic Algebra and Equations
 weight: 3
 country: indonesia
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-15"
 ---
 
 # Basic Algebra and Equations
@@ -16,189 +16,120 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-Algebra uses letters to represent unknown values. An equation states that two expressions are equal, and solving it means finding the value(s) of the unknown that make the statement true. The fundamental principle: whatever you do to one side of an equation, you must do to the other.
+Basic algebra in the UI Entrance Akademik Potensi section tests your ability to translate words into symbols, then solve the resulting equations. Three equation families dominate: linear, quadratic, and simple rational forms. The discriminant of a quadratic (D = b² − 4ac) decides whether you get two real roots, one repeated root, or none — a fact you check before writing any answer.
 
-**Essential Skills:**
-- Simplify algebraic expressions by collecting like terms
-- Expand brackets: a(b + c) = ab + ac
-- Factorise by finding common factors or recognising patterns
-- Solve linear equations (unknown to power 1)
-- Solve quadratic equations (unknown to power 2)
-- Form and solve equations from word problems
+| Term | Meaning (this exam) |
+|---|---|
+| **Variabel** | Unknown quantity represented by a letter (x, y) |
+| **Konstanta** | Fixed number, does not change with the variable |
+| **Koefisien** | Multiplier attached to a variable term |
+| **Diskriminan (D)** | b² − 4ac, decides nature of quadratic roots |
+| **Pertidaksamaan** | Inequality using <, ≤, >, ≥ signs |
 
-**Key Formulas:**
-- Linear: ax + b = c → x = (c − b)/a
-- Quadratic: ax² + bx + c = 0 → x = (−b ± √(b² − 4ac)) / 2a
-- Difference of squares: a² − b² = (a+b)(a−b)
-- Perfect square: (a ± b)² = a² ± 2ab + b²
-
-**Linear Equation Solution:**
-3x + 7 = 16 → 3x = 9 → x = 3.
-
-**Quadratic Solution:**
-x² − 5x + 6 = 0 → (x−2)(x−3) = 0 → x = 2 or x = 3.
-
-⚡ **Exam Tip:** When a word problem gives you two conditions, form two equations in two unknowns. Solve using substitution or elimination. Always check your solutions in the original problem context (e.g., a negative length is not physically meaningful).
+> 💡 **High-Yield Memory Hook:** **"D ≥ 0 means Draw the curve; D < 0 means Don't."** Also remember **"DRS"** for Vieta: **D**iscriminant, **R**oots' **S**um = −b/a, **S**um-of-Products = c/a.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Simplifying Algebraic Expressions**
+#### Core Equation Forms
 
-Collect like terms — terms with the same variable raised to the same power.
+Linear: ax + b = 0, with a ≠ 0, gives x = −b/a. Two-variable linear systems (SPLDV) are solved by **substitusi** (express one variable from one equation and plug into the other) or **eliminasi** (add or subtract equations after multiplying to cancel one variable).
 
-Example: 3x² + 5x − 2x² + 4 − x = (3x² − 2x²) + (5x − x) + 4 = x² + 4x + 4.
+Quadratic: ax² + bx + c = 0 (a ≠ 0). Solve via factorisation, completing the square, or the **rumus abc**:
 
-**Expanding Brackets**
+$$x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
 
-Multiply every term inside the bracket by the term outside.
+#### Vieta's Rules for Quadratics
 
-Example: 3(2x − 5) = 6x − 15.
-Example: −2x(3x² − x + 4) = −6x³ + 2x² − 8x.
+If p and q are roots of ax² + bx + c = 0, then:
+- Sum: p + q = −b/a
+- Product: p · q = c/a
 
-For double brackets: (x + 3)(x − 2) = x² − 2x + 3x − 6 = x² + x − 6.
+These let you build a quadratic from its roots without solving: x² − (p+q)x + pq = 0.
 
-**Factorisation**
+#### Concept Comparison Matrix
 
-Factorisation is the reverse of expansion.
+| Concept | Linear ax + b = 0 | Quadratic ax² + bx + c = 0 | Pertidaksamaan |
+|---|---|---|---|
+| Maximum solutions | 1 | 2 (or 1 repeated, or 0) | Infinite (interval) |
+| Solving tool | Inverse of a | Formula abc or factorisation | Sign chart on number line |
+| Sign-flip rule | Not needed | Not needed | **Required** when multiplying/dividing by negative |
+| Typical UI item | SPLDV soal cerita | Bentuk pemfaktoran / rumus abc | Tanda <, >, ≤, ≥ pada garis bilangan |
 
-1. Common factor: 6x² + 9x = 3x(2x + 3).
-2. Difference of two squares: x² − 16 = (x+4)(x−4).
-3. Trinomial: x² + 5x + 6 = (x+2)(x+3) because 2+3=5 and 2×3=6.
-4. Grouping: ax + ay + bx + by = (a+b)(x+y).
+#### Key Solving Principles
 
-**Solving Linear Equations**
+1. **Isolate the variable** before applying any formula.
+2. **Factor first** (x − p)(x − q) before reaching for rumus abc.
+3. **Check the discriminant** before claiming two real roots.
+4. **Flip the inequality sign** when you multiply or divide both sides by a negative number.
+5. **Validate the answer** by substituting back into the original equation.
 
-A linear equation has the unknown to power 1.
+#### 🎯 Exam-Level Worked Problem
 
-Example: 4(x − 3) = 2x + 8
-→ 4x − 12 = 2x + 8
-→ 4x − 2x = 8 + 12
-→ 2x = 20
-→ x = 10.
+**Question:** If α and β are the roots of 2x² − 9x + 4 = 0, find the value of α² + β².
 
-**Solving Quadratic Equations**
+#### Solution:
+Step 1 — Read coefficients: a = 2, b = −9, c = 4.
 
-Three methods: factorisation, completing the square, or quadratic formula.
+Step 2 — Apply Vieta:
+- Sum: α + β = −b/a = −(−9)/2 = 9/2
+- Product: α · β = c/a = 4/2 = 2
 
-*Factorisation:* x² + 2x − 8 = 0 → (x+4)(x−2) = 0 → x = −4 or x = 2.
-*Quadratic formula:* Always works. For 2x² + 5x − 3 = 0:
-x = (−5 ± √(25 − 4(2)(−3))) / (2×2) = (−5 ± √(25+24)) / 4 = (−5 ± √49) / 4 = (−5 ± 7) / 4.
-So x = (−5+7)/4 = 2/4 = 0.5, or x = (−5−7)/4 = −12/4 = −3.
+Step 3 — Use the identity α² + β² = (α + β)² − 2αβ:
 
-**Simultaneous Equations — Two Variables**
+$$\alpha^2 + \beta^2 = \left(\frac{9}{2}\right)^2 - 2(2) = \frac{81}{4} - 4 = \frac{81 - 16}{4} = \frac{65}{4}$$
 
-Two equations, two unknowns.
+**Answer:** α² + β² = 65/4.
 
-*Substitution method:*
-Equation 1: y = 2x + 1
-Equation 2: 3x + y = 11
-Substitute: 3x + (2x+1) = 11 → 5x = 10 → x = 2. Then y = 2(2)+1 = 5.
-
-*Elimination method:*
-3x + 2y = 16 ... (1)
-2x − y = 3 ... (2)
-Multiply (2) by 2: 4x − 2y = 6 ... (3)
-Add (1)+(3): 7x = 22 → x = 22/7 ≈ 3.14.
-From (2): 2(22/7) − y = 3 → y = 44/7 − 3 = 23/7 ≈ 3.29.
-
-**Forming Equations from Word Problems**
-
-Example: "A rectangle is 4 cm longer than it is wide. Its perimeter is 28 cm. Find its dimensions."
-Let width = w cm. Length = w + 4.
-Perimeter = 2(length + width) = 2(w+4 + w) = 2(2w+4) = 4w + 8 = 28.
-4w = 20 → w = 5 cm. Length = 9 cm. Check: 2(9+5) = 28 ✓.
-
-**Algebraic Fractions**
-
-Simplify: (x² − 9)/(x² + 5x + 6) ÷ (x−3)/(x+2) = [(x+3)(x−3)]/[(x+2)(x+3)] × (x+2)/(x−3) = 1. Domain: x ≠ −3, −2, 3.
-
-**Problem-Solving Strategies:**
-- In simultaneous equation word problems, identify what two things are unknown and form two equations relating them
-- For quadratic word problems, form the equation, solve it, then check both solutions in context — sometimes one is extraneous (e.g., a negative age)
-- When the equation has a squared term, check whether both positive and negative roots make sense
-
-**Common Mistakes:**
-- Forgetting to multiply every term inside brackets when expanding
-- Making sign errors when moving terms across the equals sign
-- In simultaneous equations, forgetting to multiply the correct equation
-- Cancelling terms that are added rather than multiplied: (x+3)/(x+5) cannot cancel to 3/5
+> ⚠️ **Examiner Trap:** Students often compute (α + β)² alone and stop at 81/4, forgetting to subtract 2αβ. The trap tests whether you know the identity (α + β)² = α² + 2αβ + β², so the correct rearrangement is α² + β² = (α + β)² − 2αβ. A second trap: writing b = 9 instead of b = −9, which makes the sum −9/2 and produces the wrong final value.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-**Quadratic Formula — Derivation**
+#### Discriminant Decision Tree
 
-Starting from ax² + bx + c = 0 (a ≠ 0):
-1. ax² + bx = −c
-2. Divide by a: x² + (b/a)x = −c/a
-3. Complete square: x² + (b/a)x + (b/2a)² = −c/a + (b/2a)²
-4. Left = (x + b/2a)². Right = (b² − 4ac) / 4a²
-5. (x + b/2a) = ±√(b²−4ac) / 2a
-6. x = (−b ± √(b²−4ac)) / 2a ✓
+| Value of D = b² − 4ac | Nature of roots | Graph behaviour |
+|---|---|---|
+| D > 0 | Two distinct real roots | Parabola crosses x-axis twice |
+| D = 0 | One repeated real root (x = −b/2a) | Parabola touches x-axis at vertex |
+| D < 0 | No real roots (complex pair) | Parabola stays entirely above or below x-axis |
 
-**Nature of Quadratic Roots**
+For UI Entrance, the question "tentukan jenis akar" (determine the type of roots) is answerable from D alone — you do not need to compute x.
 
-The discriminant Δ = b² − 4ac determines the roots:
-- Δ > 0: two distinct real roots
-- Δ = 0: two equal real roots (repeated root)
-- Δ < 0: no real roots (complex conjugates)
+#### Advanced Traps and Exceptions
 
-This is useful for determining whether a quadratic equation is solvable without actually solving it.
+1. **Fraction coefficients.** Multiply through by the LCD before applying rumus abc; otherwise a, b, c become wrong.
+2. **Word-problem units.** "Jarak (km)" versus "waktu (jam)" must align before forming a single equation.
+3. **Negative discriminant phrasing.** Items may ask "akar nyata" (real roots) — only D ≥ 0 qualifies.
+4. **Inequality sign on reciprocals.** Flipping 1/x reverses the sign only on domains where x ≠ 0.
+5. **Hidden quadratics.** Expressions like x⁴ − 5x² + 4 = 0 become quadratic in u = x², so D = 25 − 16 = 9 still applies.
+6. **Exponent-law scope.** aᵐ · aⁿ = aᵐ⁺ⁿ holds for equal bases only; mixing bases 2³ · 3⁴ cannot combine.
 
-**Sum and Product of Roots**
+#### Adjacent Topics to Link
 
-For ax² + bx + c = 0 with roots α and β:
-α + β = −b/a
-αβ = c/a
+- **Logarithms** appear when soal cerita involve exponential growth (modal, peluruhan); use log rules to simplify first.
+- **Arithmetic sequences** (barisan aritmetika): Uₙ = a + (n−1)b and Sₙ = n/2 · (a + Uₙ) — both tested as algebraic pattern recognition.
+- **Geometry word problems** on SPLDV: "dua kali lebar sama dengan panjang dikurangi tiga" translates directly into 2L = P − 3.
 
-Example: Find the sum and product of roots of 2x² − 7x + 3 = 0.
-Sum = −(−7)/2 = 7/2 = 3.5. Product = 3/2 = 1.5.
-Check by solving: discriminant = 49 − 24 = 25. Roots = (7±5)/4 = 3 or 0.5. Sum = 3.5, product = 1.5 ✓.
+#### Advanced Practice Prompts
 
-**Word Problems Leading to Quadratic Equations**
+1. A quadratic 3x² − kx + 12 = 0 has equal roots. Find k.
+   - Hint: D = 0 → k² − 144 = 0 → k = ±12. Re-check which value keeps a = 3.
 
-Example: "A garden measuring 12 m by 5 m is surrounded by a path of uniform width. The area of the path is 24 m². Find the width of the path."
-Let path width = x metres.
-Outer dimensions: (12+2x) by (5+2x).
-Area of outer rectangle = (12+2x)(5+2x) = 60 + 24x + 10x + 4x² = 4x² + 34x + 60.
-Area of path = outer − inner = 4x² + 34x + 60 − 60 = 4x² + 34x = 24.
-4x² + 34x − 24 = 0 → 2x² + 17x − 12 = 0.
-x = (−17 ± √(289 + 96)) / 4 = (−17 ± √385) / 4 ≈ (−17 ± 19.62) / 4.
-Positive root: (2.62)/4 ≈ 0.655 m. Negative root: (−36.62)/4 ≈ −9.15 (reject).
-So path width ≈ 0.655 m ≈ 65.5 cm.
-
-**Functions — Basics**
-
-A function f maps each input to exactly one output. f(x) = 2x + 3.
-Domain: all valid inputs. Range: all valid outputs.
-Composite function: f(g(x)) means apply g first, then f.
-Inverse function f⁻¹: the function that undoes f. If y = 2x + 3, then x = (y − 3)/2, so f⁻¹(x) = (x − 3)/2.
-
-**Linear Inequalities**
-
-Solve 3x − 5 < 7: 3x < 12 → x < 4.
-For inequalities with negative coefficient of x, reverse the inequality when dividing.
-−2x > 8 → x < −4 (divide by −2, reverse > to <).
-
-For quadratic inequalities, find the roots and test intervals.
-x² − x − 6 < 0 → (x−3)(x+2) < 0. Roots at x = 3 and x = −2.
-Test x = 0: (0−3)(0+2) = (−3)(2) = −6 < 0 ✓. So solution is −2 < x < 3.
-
-**UI Entrance Exam Patterns**
-
-Algebra questions in the UI Academic Potential test typically include:
-1. Simplifying algebraic expressions
-2. Solving linear equations (including those arising from word problems)
-3. Solving quadratic equations by factorisation or formula
-4. Simultaneous equations
-5. Evaluating expressions by substitution
-
-⚡ **Exam Strategy:** When a quadratic equation looks difficult to factor, go straight to the quadratic formula. The discriminant calculation is straightforward and reliable. For word problems, write down what the variable represents before forming the equation.
+2. The sum of two numbers is 17 and their product is 60. Find both numbers.
+   - Hint: roots of t² − 17t + 60 = 0 factor as (t − 12)(t − 5) = 0, giving 12 and 5.
 
 ---
+
+## Continue your study
+
+- **[View this topic in your UI Entrance (Indonesia) roadmap](/roadmap/?exam=uii&duration=1mo)** — see where "Basic Algebra and Equations" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=uii&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UI Entrance (Indonesia) exam overview](/exams/uii/)** — pattern, eligibility, and syllabus
+- **[All Academic Potential notes](/notes/uii/academic-potential/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

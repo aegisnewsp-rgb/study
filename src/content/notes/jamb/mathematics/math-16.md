@@ -8,7 +8,7 @@ topicName: Vectors in Two Dimensions
 weight: 3
 country: nigeria
 generated: "2026-03-24T08:32:07.739451"
-lastUpdated: 2026-03-24
+lastUpdated: "2026-09-15"
 diagramPrompt: "Vector diagram in 2D showing vector components, magnitude and direction, angle with horizontal axis, head-to-tail addition method, clean black and white style"
 ---
 
@@ -17,275 +17,121 @@ diagramPrompt: "Vector diagram in 2D showing vector components, magnitude and di
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Vectors in Two Dimensions — Quick Facts**
+A **vector** in two dimensions is a directed line segment in the xy-plane described by a **magnitude** (length) and a **direction** (angle θ from the positive x-axis). It is written in **component form** as **v = ai + bj**, where **a** and **b** are the horizontal and vertical components (in metres or any length unit), and **i**, **j** are orthonormal unit vectors along the x- and y-axes.
 
-A **vector** is a quantity that has both **magnitude** (size/length) and **direction**. A **scalar** has only magnitude. Speed is scalar; velocity is vector.
+- **Magnitude:** |v| = √(a² + b²), SI unit: m
+- **Direction:** θ = arctan(b/a), quadrant-adjusted, SI unit: rad (or °)
+- **Unit vector:** û = v / |v|, dimensionless, points along v
+- **Dot product:** v · w = a₁a₂ + b₁b₂ = |v||w| cos θ, result in m²
+- **Parallel test:** v ∥ w ⟺ v = k w for some scalar k
+- **Perpendicular test:** v · w = 0
 
-**Key formulas to memorise right now:**
-- Magnitude: $|\\vec{a}| = \\sqrt{x^2 + y^2}$
-- Direction: $\\tan \\theta = \\frac{y}{x}$
-- Dot product: $\\vec{a} \\cdot \vec{b} = x_1x_2 + y_1y_2 = |\\vec{a}||\\vec{b}|\\cos\\theta$
-- Unit vectors: $\\⃗{i} = (1, 0)$ along x-axis, $\⃗{j} = (0, 1)$ along y-axis
-- Scalar multiplication: $k\\⃗{a}$ stretches by factor $k$, reverses direction if $k < 0$
-
-⚡ **Exam tip:** JAMB often asks you to find the angle between two vectors using the dot product formula. Memorise $\\cos\\theta = \\frac{\\⃗{a} \\cdot \⃗{b}}{|\\⃗{a}||\\⃗{b}|}$. Units vectors $\⃗{i}$ and $\⃗{j}$ are perpendicular — their dot product is zero.
+> 💡 **High-Yield Memory Hook:** **"MDC-PU"** — **M**agnitude (√(a²+b²)), **D**irection (arctan(b/a) with quadrant check), **C**omponents (a, b), **P**arallel (one is k times the other), **U**nit (divide by magnitude). For perpendicular vectors, remember **"Dot = 0 means 90°"**.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-## What Is a Vector?
+#### Core Concept and Representation
 
-A **vector** in two dimensions is a directed line segment — an arrow with a specific length (magnitude) and pointing in a specific direction. It lives in the 2D Cartesian plane and is written using notation like $\\⃗{a}$, $\\⃗{AB}$, or component form $(x, y)$.
+A 2-D vector is a quantity with both **magnitude** (how long) and **direction** (which way), unlike a **scalar** which carries only magnitude. In the xy-plane, every vector v can be written as **v = ai + bj**, where **a** is the horizontal component (positive right, negative left) and **b** is the vertical component (positive up, negative down). Two vectors are **equal** if and only if they have the same magnitude *and* the same direction — being drawn on parallel lines is not enough.
 
-A **scalar** is just a number — it has magnitude only, no direction. Mass, temperature, speed (not velocity), and time are scalars. Distance is scalar; displacement is vector.
+#### Magnitude, Direction, and Unit Vectors
 
-**Key distinction:** Two vectors are equal if they have the same magnitude **and** the same direction. They can start at different points and still be equal (free vectors). Position vectors, however, are anchored to the origin.
+The **magnitude** |v| is the Euclidean length: |v| = √(a² + b²). The **direction** is the angle θ measured anticlockwise from the positive x-axis: θ = arctan(b/a), with the result placed in the correct quadrant using the signs of a and b. A **unit vector** û is a dimensionless vector of length 1 pointing along v, obtained by **û = v / |v|**.
 
-## Vector Representation
+#### Addition, Subtraction, and Scalar Multiplication
 
-A vector $\\⃗{v}$ in the Cartesian plane is written as:
-$$\\⃗{v} = x\⃗{i} + y\⃗{j}$$
+Vectors add **head-to-tail** (triangle rule) or by the **parallelogram rule**; algebraically, add components: (a₁ + a₂)i + (b₁ + b₂)j. Subtraction **v − w** is the vector from the tip of w to the tip of v, equal to (a₁ − a₂)i + (b₁ − b₂)j. Multiplying by a scalar **k** scales the magnitude by |k| and flips direction if k < 0.
 
-where:
-- $x$ is the **x-component** (horizontal displacement)
-- $y$ is the **y-component** (vertical displacement)
-- $\⃗{i}$ is the unit vector along the x-axis: $\⃗{i} = (1, 0)$
-- $\⃗{j}$ is the unit vector along the y-axis: $\⃗{j} = (0, 1)$
+#### Dot Product and Angle Between Vectors
 
-The **magnitude** (length) of $\⃗{v}$ is:
-$$|\\vec{v}| = \\sqrt{x^2 + y^2}$$
+For v = a₁i + b₁j and w = a₂i + b₂j:
+**v · w = a₁a₂ + b₁b₂ = |v||w| cos θ**, where θ is the angle between them. The angle is recovered from cos θ = (v · w) / (|v| |w|). When **v · w = 0**, the vectors are **perpendicular**.
 
-The **direction** — the angle $\\⃗{v}$ makes with the positive x-axis — is:
-$$\\tan \\theta = \\frac{y}{x} \\quad \\Rightarrow \\quad \\theta = \\tan^{-1}\\left(\\frac{y}{x}\\right)$$
+#### Concept Comparison Matrix
 
-> **Important:** Always check which quadrant the vector is in. $\\ tan^{-1}$ gives an angle in the first quadrant; adjust by $\\pm 180°$ if the vector lies in QII, QIII, or QIV. JAMB MCQs often test this trap.
+| Feature | Vector | Scalar |
+|---|---|---|
+| Has magnitude | Yes | Yes |
+| Has direction | Yes | No |
+| Adds by | Component-wise (or head-to-tail) | Ordinary arithmetic |
+| Example | Force 5 N east | Mass 5 kg |
+| Dot product of two | Gives scalar (cos θ) | N/A |
+| Negative sign | Reverses direction | Sign only |
 
-**Notation reminders:**
-- $\\⃗{AB}$ means the vector from point A to point B
-- $|\\⃗{AB}|$ is the magnitude (length) of $\⃗{AB}$
-- $\\⃗{a} = \\vec{a}$
+| Test | Formula | Result |
+|---|---|---|
+| Parallel vectors | v = k w, k ∈ ℝ | k > 0 same direction; k < 0 opposite |
+| Perpendicular vectors | v · w = 0 | Angle = 90° |
+| Equal vectors | Same magnitude **and** direction | Position may differ |
+| Magnitude bound for resultant | |a − b| ≤ |v + w| ≤ a + b | Equality when parallel |
 
-## Types of Vectors
+#### 🎯 Exam-Level Worked Problem
 
-| Type | Description |
-|---|---|
-| **Equal vectors** | Same magnitude and same direction (even if at different positions) |
-| **Parallel vectors** | Point in the same or exactly opposite direction; $\⃗{a} = k\⃗{b}$ for some scalar $k > 0$ |
-| **Antiparallel vectors** | Point in exactly opposite directions; $\⃗{a} = k\⃗{b}$ with $k < 0$ |
-| **Zero vector** | $\⃗{0} = (0, 0)$; no magnitude, no direction — it's the identity for addition |
-| **Unit vector** | Magnitude equals 1; used to indicate direction. $\\⃗{i} = (1, 0)$ and $\⃗{j} = (0, 1)$ are the standard unit vectors |
+**Question:** Two forces act on a particle: **F₁ = 3i + 4j** N and **F₂ = 5i − 2j** N. Find (i) the magnitude and direction of the resultant **R = F₁ + F₂**, and (ii) the angle between F₁ and F₂ to the nearest degree.
 
-A **unit vector** in the direction of $\⃗{a}$ is:
-$$\\hat{\\vec{a}} = \\frac{\\⃗{a}}{|\\⃗{a}|}$$
+#### Solution:
 
-## Vector Addition
+(i) Component-wise addition:
+R = (3 + 5)i + (4 − 2)j = **8i + 2j** N.
 
-Vectors are added component-wise:
-$$\\⃗{a} + \⃗{b} = (a_x + b_x,\\ a_y + b_y)$$
+Magnitude: |R| = √(8² + 2²) = √(64 + 4) = √68 ≈ **8.246 N**.
 
-Two laws govern vector addition:
+Direction: θ = arctan(2 / 8) = arctan(0.25) ≈ **14.04°** above the positive x-axis (first quadrant, since both components are positive).
 
-**1. Triangle Law:** Place the tail of $\⃗{b}$ at the head of $\⃗{a}$. The resultant vector goes from the tail of $\⃗{a}$ to the head of $\⃗{b}$. The three vectors form a triangle.
+(ii) Components: F₁ = (3, 4), F₂ = (5, −2).
 
-**2. Parallelogram Law:** Place both vectors tail-to-tail (at the same origin). Complete the parallelogram. The resultant is the diagonal from the common tail to the opposite corner.
+|F₁| = √(9 + 16) = √25 = 5, |F₂| = √(25 + 4) = √29 ≈ 5.385.
 
-**Head-to-tail method** is the same idea as the triangle law — it's the most common method in JAMB questions. Draw $\⃗{a}$, then draw $\⃗{b}$ starting from the tip of $\⃗{a}$. The closing vector from the start of $\⃗{a}$ to the end of $\⃗{b}$ is $\⃗{a} + \⃗{b}$.
+Dot product: F₁ · F₂ = (3)(5) + (4)(−2) = 15 − 8 = **7 N²**.
 
-## Multiplication by a Scalar
+cos θ = (F₁ · F₂) / (|F₁||F₂|) = 7 / (5 × 5.385) = 7 / 26.925 ≈ 0.2600.
 
-Multiplying a vector by a scalar $k$:
-$$k\\⃗{a} = (ka_x,\\ ka_y)$$
+θ = arccos(0.2600) ≈ **74.93° ≈ 75°**.
 
-This scales the magnitude by $|k|$ and:
-- Leaves direction unchanged if $k > 0$
-- Reverses direction if $k < 0$
-
-For example, if $\⃗{a} = (3, 4)$, then $2\⃗{a} = (6, 8)$ and $-\\⃗{a} = (-3, -4)$.
-
-## Position Vectors
-
-A **position vector** of point $P(x, y)$ is the vector from the origin $O(0, 0)$ to $P$:
-$$\\⃗{OP} = x\\⃗{i} + y\\⃗{j} = (x, y)$$
-
-The position vector of point $A(x_1, y_1)$ to point $B(x_2, y_2)$ is:
-$$\\⃗{AB} = (x_2 - x_1)\\\⃗{i} + (y_2 - y_1)\\\⃗{j} = (x_2 - x_1,\\ y_2 - y_1)$$
-
-This is also the **displacement vector** from A to B. Note: $\⃗{AB} = -\\⃗{BA}$.
-
-## Dot Product (Scalar Product)
-
-The **dot product** (also called the scalar product) of two vectors produces a scalar, not a vector:
-$$\\⃗{a} \\cdot \⃗{b} = |\\⃗{a}||\\⃗{b}|\\cos\\theta = x_1x_2 + y_1y_2$$
-
-Where $\\theta$ is the angle between $\⃗{a}$ and $\⃗{b}$.
-
-**Key properties:**
-- If $\\⃗{a} \\cdot \\⃗{b} = 0$, the vectors are **perpendicular** (orthogonal)
-- If $\\⃗{a} \\cdot \\⃗{b} = |\\⃗{a}||\\⃗{b}|$, they are in the **same direction**
-- If $\\⃗{a} \\cdot \\⃗{b} = -|\\⃗{a}||\\⃗{b}|$, they are in **opposite directions**
-- $\\⃗{i} \\cdot \\⃗{i} = 1$, $\\⃗{j} \\cdot \\⃗{j} = 1$, $\\⃗{i} \\cdot \\⃗{j} = 0$ (very useful!)
-
-## Finding the Angle Between Two Vectors
-
-From the dot product formula:
-$$\\cos\\theta = \\frac{\\⃗{a} \\cdot \\⃗{b}}{|\\⃗{a}||\\⃗{b}|}$$
-
-Then find $\\theta = \\cos^{-1}\\left(\\frac{\\⃗{a} \\cdot \\⃗{b}}{|\\⃗{a}||\\⃗{b}|}\\right)$.
+> ⚠️ **Examiner Trap:** Students frequently compute arctan(2/8) and stop at 14° without checking the quadrant. Since both components of R are positive, R lies in the **first quadrant** — the answer is correct here, but if 8i − 2j had been given, the angle would be **−14°** (or 346°), not 14°. Always inspect the signs before reporting θ.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-## Detailed Vector Operations
+#### Edge Cases and Boundary Conditions
 
-### Component Form Deep Dive
+1. **Zero vector:** 0 = 0i + 0j has magnitude 0 and undefined direction; it is parallel to every vector by convention.
+2. **Resultant magnitude bound:** For any two vectors of magnitudes a and b, |a − b| ≤ |v + w| ≤ a + b. Equality on the right holds when vectors are **parallel and same-sense**; equality on the left holds when they are **anti-parallel**.
+3. **Position vectors:** The position vector of point P(x, y) from origin O is OP = xi + yj. The **midpoint** M of AB is (OA + OB)/2, and the section formula extends to internal/external division in ratio m:n.
+4. **Linear dependence in 2-D:** Two non-zero vectors are **linearly dependent** iff they are parallel (one is a scalar multiple of the other); otherwise they are **independent** and span the plane.
 
-When a vector $\⃗{v}$ makes an angle $\theta$ with the positive x-axis, its components are:
-$$x = |\\⃗{v}|\\cos\\theta, \\quad y = |\\⃗{v}|\\sin\\theta$$
+#### Advanced Traps and Exceptions
 
-Conversely:
-$$\\⃗{v} = (|\\⃗{v}|\\cos\\theta)\\⃗{i} + (|\\⃗{v}|\\sin\\theta)\\⃗{j}$$
+1. Drawing |v| from Pythagoras while assuming it equals a + b or a² + b² — the standard form is **√(a² + b²)**, not the sum or the sum of squares.
+2. Reporting θ = arctan(b/a) without **quadrant correction** when a < 0; add 180° for second/third quadrants.
+3. Treating **parallel lines** as proof of equal vectors — direction and magnitude must both match.
+4. Forgetting the **negative sign** when subtracting vectors: v − w ≠ w − v.
+5. Computing the angle between vectors with sin instead of cos, confusing **dot** (cos) with **cross** (sin) products.
 
-**JAMB frequently asks:** Given magnitude and direction, find components. Given components, find magnitude and direction.
+#### Connection to Adjacent Topics
 
-### Worked Example 1 — Finding Magnitude and Direction
+Vectors underpin **mechanics** (forces, velocity, displacement), **coordinate geometry** (slope, parallel/perpendicular lines), and **complex numbers** (z = x + iy behaves like a 2-D vector). The perpendicular condition v · w = 0 mirrors the slope rule m₁m₂ = −1 for lines.
 
-**Question:** Find the magnitude and direction of $\\⃗{a} = (3, 4)$.
+#### Quick Self-Test (advanced)
 
-**Solution:**
-- Magnitude: $|\\⃗{a}| = \\sqrt{3^2 + 4^2} = \\sqrt{9 + 16} = \\sqrt{25} = 5$
-- Direction: $\\tan\\theta = \\frac{4}{3} = 1.333...$
-- $\\theta = \\tan^{-1}(1.333...) = 53.13°$
-
-$\\⃗{a}$ lies in the first quadrant, so no adjustment needed. Answer: magnitude = 5, direction = 53.13°.
-
-### Worked Example 2 — Vector Addition
-
-**Question:** If $\\⃗{a} = (2, 3)$ and $\\⃗{b} = (-1, 5)$, find $\\⃗{a} + \\⃗{b}$.
-
-**Solution:**
-$$\\⃗{a} + \⃗{b} = (2 + (-1),\\ 3 + 5) = (1,\\ 8)$$
-
-Using the triangle law: draw $\\⃗{a}$, then draw $\\⃗{b}$ from its head. The closing vector is $(1, 8)$.
-
-### Worked Example 3 — Dot Product
-
-**Question:** Find $\\⃗{a} \\cdot \\⃗{b}$ where $\\⃗{a} = (4, -3)$ and $\\⃗{b} = (2, 5)$.
-
-**Solution:**
-$$\\⃗{a} \\cdot \\⃗{b} = (4)(2) + (-3)(5) = 8 - 15 = -7$$
-
-This negative dot product tells us the angle between them is obtuse (> 90°).
-
-### Worked Example 4 — Angle Between Two Vectors (JAMB Classic)
-
-**Question:** Find the angle between $\\⃗{a} = (1, 2)$ and $\\⃗{b} = (3, -1)$. (JAMB 2023 style)
-
-**Solution:**
-
-**Step 1:** Find the dot product.
-$$\\⃗{a} \\cdot \\⃗{b} = (1)(3) + (2)(-1) = 3 - 2 = 1$$
-
-**Step 2:** Find magnitudes.
-$$|\\⃗{a}| = \\sqrt{1^2 + 2^2} = \\sqrt{5}, \\quad |\\⃗{b}| = \\sqrt{3^2 + (-1)^2} = \\sqrt{10}$$
-
-**Step 3:** Apply the formula.
-$$\\cos\\theta = \\frac{\\⃗{a} \\cdot \\⃗{b}}{|\\⃗{a}||\\⃗{b}|} = \\frac{1}{\\sqrt{5} \\cdot \\sqrt{10}} = \\frac{1}{\\sqrt{50}} = \\frac{1}{5\\sqrt{2}}$$
-
-$$\\cos\\theta = \\frac{1}{5\\sqrt{2}} \\approx 0.1414$$
-
-$$\\theta = \\cos^{-1}(0.1414) \\approx 81.9°$$
-
-### Worked Example 5 — Position Vector
-
-**Question:** Find the position vector of point $B(5, -2)$ relative to point $A(1, 4)$.
-
-**Solution:**
-$$\\⃗{AB} = (5 - 1)\\⃗{i} + (-2 - 4)\\⃗{j} = 4\\⃗{i} - 6\\⃗{j} = (4, -6)$$
-
-The magnitude is $|\\⃗{AB}| = \\sqrt{4^2 + (-6)^2} = \\sqrt{16 + 36} = \\sqrt{52} = 2\\sqrt{13}$.
-
-### Worked Example 6 — Scalar Multiplication and Parallelism
-
-**Question:** Show that $\\⃗{a} = (6, 9)$ and $\\⃗{b} = (2, 3)$ are parallel.
-
-**Solution:**
-$$\\⃗{a} = k\\⃗{b} \\Rightarrow (6, 9) = k(2, 3)$$
-
-$6 = 2k \\Rightarrow k = 3$
-$9 = 3k \\Rightarrow k = 3$ ✓
-
-Since the same scalar $k = 3 > 0$ works, $\\⃗{a}$ and $\\⃗{b}$ are parallel and point in the same direction.
+1. If u = 2i − 3j and v = ki + 4j are perpendicular, find k.
+   *Answer:* u · v = 2k − 12 = 0 ⟹ k = 6.
+2. A particle moves from A(1, 2) to B(7, 10). Find the displacement vector and the unit vector in that direction.
+   *Answer:* AB = 6i + 8j; |AB| = 10; û = 0.6i + 0.8j.
 
 ---
 
-## 📊 JAMB Topic Weight & Exam Pattern
+## Continue your study
 
-| Detail | Value |
-|---|---|
-| Topic weight (Mathematics) | Medium-High |
-| Questions from Vectors (est.) | 2–3 per UTME |
-| Common question types | Find magnitude, find angle between vectors, dot product, components |
-| Trigonometric connection | $\\sin/\\cos$ values; always check quadrant for direction |
-
-Vectors connect closely with **trigonometry** (resolving into components) and **coordinate geometry** (position vectors). Questions sometimes combine all three topics in a single MCQ.
+- **[View this topic in your JAMB UTME roadmap](/roadmap/?exam=jamb&duration=1mo)** — see where "Vectors in Two Dimensions" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=jamb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[JAMB UTME exam overview](/exams/jamb/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/jamb/mathematics/)** — browse sibling topics in this subject
 
 ---
-
-## ⚠️ Common Mistakes to Avoid
-
-1. **Confusing speed (scalar) and velocity (vector)** — JAMB uses both in options to trap you. Read carefully.
-2. **Wrong quadrant for direction** — $\\tan^{-1}(y/x)$ always gives an acute angle. If the vector is in QII or QIII, add 180°. If in QIV, add 360° or report as a negative angle.
-3. **Forgetting the unit vectors in component form** — always express your answer as $x\\⃗{i} + y\\⃗{j}$ or $(x, y)$, not just $x$ and $y$.
-4. **Using the wrong dot product formula** — the component formula $x_1x_2 + y_1y_2$ and the geometric formula $|\\⃗{a}||\\⃗{b}|\\cos\\theta$ give the same result. Know both.
-5. **Sign errors in position vectors** — $\\⃗{AB} = (x_2 - x_1, y_2 - y_1)$. Swapping the order gives the negative vector.
-6. **Assuming perpendicular equals zero dot product is automatic** — verify: $x_1x_2 + y_1y_2 = 0$ confirms perpendicular.
-7. **Mixing up the triangle and parallelogram laws** — triangle law is far more commonly tested on JAMB.
-
----
-
-## 📝 Quick-Reference Formula Sheet
-
-$$\\text{Magnitude: } |\\⃗{v}| = \\sqrt{x^2 + y^2}$$
-$$\\text{Direction: } \\tan\\theta = \\frac{y}{x}$$
-$$\\text{Unit vector: } \\hat{\\⃗{v}} = \\frac{\\⃗{v}}{|\\⃗{v}|}$$
-$$\\text{Dot product: } \\⃗{a} \\cdot \\⃗{b} = x_1x_2 + y_1y_2 = |\\⃗{a}||\\⃗{b}|\\cos\\theta$$
-$$\\cos\\theta = \\frac{\\⃗{a} \\cdot \\⃗{b}}{|\\⃗{a}||\\⃗{b}|}$$
-$$\\⃗{AB} = (x_2 - x_1,\\ y_2 - y_1)$$
-$$\\⃗{i} \\cdot \\⃗{j} = 0 \\quad (perpendicular unit vectors)$$
-$$\\⃗{a} + \\⃗{b} = (a_x + b_x,\\ a_y + b_y)$$
-$$k\\⃗{a} = (ka_x,\\ ka_y)$$
-
----
-
-## 📋 Study Priority & Order
-
-**Recommended order for mastering this topic:**
-
-1. **First:** Scalar vs vector — get this distinction clear (it costs marks in JAMB if you slip)
-2. **Second:** Magnitude formula and unit vectors — foundation for everything else
-3. **Third:** Components in $\\⃗{i}$ and $\\⃗{j}$ form — very common in JAMB
-4. **Fourth:** Vector addition (triangle/head-to-tail) — graphical understanding helps
-5. **Fifth:** Position vectors — builds on components
-6. **Sixth:** Dot product — the most powerful tool; connects magnitude and angle
-7. **Seventh:** Angle between vectors — the formula to memorise last; it's the climax of the topic
-
-Spend the most time on dot product and angle calculations — they appear in nearly every JAMB paper for this topic.
-
----
-
-## 🔗 Related Topics
-
-| Topic | How it connects to Vectors |
-|---|---|
-| **math-17 — Statics of a Particle** | Vector addition in equilibrium problems |
-| **math-13 — Trigonometry** | Resolving vectors into $\\sin/\\cos$ components |
-| **math-10 — Coordinate Geometry** | Position vectors and the Cartesian plane |
-| **math-09 — Quadratic Equations** | Vector magnitude involves $\\sqrt{x^2 + y^2}$ — squaring and solving |
-
----
-
-*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

@@ -11,160 +11,128 @@ topicName: Comprehension Passages (Short)
 weight: 5
 country: nigeria
 generated: "2026-03-24T08:32:07.586999"
-lastUpdated: 2026-03-24
+lastUpdated: "2026-09-15"
 diagramPrompt: "Educational diagram illustrating Comprehension Passages (Short) with clear labels, white background, exam-style illustration"
 
 
 
 
 ---
+
 # Comprehension Passages (Short)
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-Comprehension passages are short texts followed by questions that test your understanding of what you read. In the NCEE, you need to read carefully, identify key information, understand the main idea, make inferences, and interpret vocabulary — all based on the passage alone.
+In NCEE English, a short comprehension passage is a 150–300 word prose text (narrative, descriptive, or expository) followed by 3–8 questions that test reading-for-meaning skills. The passage is compulsory under the English Language section and contributes about 5% of total paper marks, but closer to 15–20% of the English Language mark allocation. Each item carries one mark with no negative penalty, so accuracy plus reading speed decides your score.
 
-**How to Answer NCEE Comprehension Questions:**
+Two non-negotiable procedures raise your score: **skim first** to lock in the topic sentence and main idea, then **read the questions** before a second close pass so you know which clues to scan for.
 
-1. **Read the passage once** — get the general meaning, don't worry about every word
-2. **Read the questions** — know what to look for before re-reading
-3. **Re-read with questions in mind** — scan for specific information
-4. **Answer** — base your answer strictly on the passage
+| Term | Meaning in NCEE passages |
+| --- | --- |
+| **Explicit** | Answer is stated word-for-word in the text |
+| **Implicit / Inference** | Answer must be deduced; not directly written |
+| **Main idea** | The central message, in most keys in paragraph 1 or the final paragraph |
+| **Tone** | Writer's attitude (e.g. critical, humorous, sympathetic) |
+| **Purpose** | Why the writer wrote: to inform, persuade, entertain, describe, narrate |
+| **Context clue** | Surrounding words used to guess an unfamiliar word |
 
-**Types of Questions:**
-
-| Question Type | What It Asks | Example |
-|---|---|---|
-| **Literal** | What is stated in the passage? | "According to the passage, what did Ada do?" |
-| **Vocabulary** | What does a word/phrase mean here? | "In the passage, 'flood' most nearly means..." |
-| **Inference** | What can be concluded from the passage? | "It can be inferred from the passage that..." |
-| **Main Idea** | What is the passage mainly about? | "The passage is primarily about..." |
-| **Sequence** | What happened first/next/last? | "Which event happened FIRST in the story?" |
-| **Cause-Effect** | What caused what? | "What was the main cause of..." |
-
-**Keywords in Comprehension Questions:**
-
-- **According to the passage:** Answer must be in the passage
-- **It can be inferred that:** Answer is not directly stated but follows logically
-- **The main idea is:** Look for the overall purpose
-- **Which of the following:** Choose the best answer; eliminate wrong ones
-
-⚡ **Exam Tip (NCEE):** Your answer must be based ONLY on the passage. If you know something about the topic from outside the passage that contradicts or complicates the passage, ignore it. The passage is your complete authority. If the passage says X, and you know Y is also true from your own knowledge, but the passage doesn't mention Y, the answer based on the passage is X.
+> 💡 **High-Yield Memory Hook:** **"S-Q-C-E-I"** — **S**kim topic → **Q**uestions first → **C**ontext clues → **E**liminate absolutes (always/never) → **I**nfer only from the text. Use this 5-step loop for every short passage.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> For students who want genuine understanding of reading strategies.
+> Standard content for students with a few days to months.
 
-**The Four Levels of Comprehension:**
+#### The Five Skill Layers Tested
 
-**1. Literal Comprehension (Surface Meaning):**
-Directly stated facts — who, what, when, where. Answers can be found by locating the specific information in the passage.
+NCEE short comprehension targets five reading layers, ranked here by frequency in past papers:
 
-**2. Reorganisational Comprehension:**
-Reorganising information — comparing, contrasting, classifying information given in the passage.
+1. **Retrieval of explicit information** — locate a stated fact (e.g. name, date, place).
+2. **Inference** — read between lines to find what is *implied*, not stated.
+3. **Vocabulary in context** — deduce meaning of an underlined word using definition, synonym, antonym, example, or cause-effect clues.
+4. **Main idea / title selection** — pick the option that best summarises the whole passage.
+5. **Tone, mood, and purpose** — judge the writer's attitude and intent.
 
-**3. Inferential Comprehension (Reading Between the Lines):**
-Drawing conclusions not explicitly stated. The passage provides clues that lead logically to the answer, but the answer itself must be inferred.
+#### Context Clue Types
 
-**4. Evaluation Comprehension (Critical Reading):**
-Making judgments about the passage — what is true/false, right/wrong, fact/opinion.
+| Clue type | Signal words in passage | What it does |
+| --- | --- | --- |
+| Definition | "that is", "means", commas around a phrase | Restates the word |
+| Synonym | "also called", "similarly", "or" | Gives an equivalent word |
+| Antonym | "but", "however", "unlike", "rather than" | Gives the opposite |
+| Example | "for example", "such as", "like" | Shows the word in action |
+| Cause-effect | "because", "therefore", "as a result" | Links to a result |
 
-**The Main Idea:**
+#### Strategy for Paraphrase and "NOT/EXCEPT" Questions
 
-The main idea is the central point the author is making. Supporting details explain or prove the main idea.
+The correct paraphrase is rarely a verbatim sentence from the passage. Look for an option that **re-states** the original in different words while keeping the same scope. For "NOT" or "EXCEPT" items, your task flips: find the option that is **false** or **absent** from the passage.
 
-To find the main idea:
-- Ask: "What is the ONE thing the author wants me to understand?"
-- The main idea is usually in the first or last paragraph
-- It is NOT a single detail or example
+> 📌 **Formula Check:** Accuracy = (Correct items − Unattempted items). There is no negative marking in NCEE, so guess only after you have eliminated options containing absolute words (always, never, only) or vocabulary not found in the passage.
 
-**Making Inferences:**
+#### 🎯 Exam-Level Worked Problem
 
-An inference is a logical guess based on evidence in the passage.
+**Question:** Read the passage below and answer the questions that follow.
 
-To make an inference:
-1. Identify what the passage directly states
-2. Look for clues the author provides
-3. Use those clues to reach a reasonable conclusion
-4. Check: is this conclusion definitely supported?
+> *Adamu had always been afraid of the river that ran past his village. Every morning, his mother warned him not to go near it because the current was strong and many children had been swept away. One dry season, the river shrank to a thin stream, and Adamu, now older, waded in confidently. The water tugged at his legs harder than he expected. He struggled, gasping, until old Musa, the fisherman, pulled him out and walked him home in silence.*
 
-**Example Inference:**
-Passage: "By 8 o'clock, the streets were empty. The shops were closed, and the markets were quiet. People had retreated to their homes."
-Inference: It was nighttime or very early morning. (The clues: 8 o'clock, empty streets, closed shops, people at home — all suggest night.)
+**Q1.** Why was Adamu initially afraid of the river?
+**(A)** He had once seen a child drown there.
+**(B)** His mother repeatedly warned him about it.
+**(C)** He disliked the smell of the water.
+**(D)** The village elders had banned swimming.
 
-**Understanding New Words from Context:**
+**Q2.** "The water tugged at his legs" shows that the water was…
+**(A)** cold **(B)** gentle **(C)** forceful **(D)** still
 
-When you encounter an unfamiliar word:
-1. Look at the sentence it appears in
-2. Look at the surrounding sentences
-3. Check for clues: definition ("means"), contrast ("but," "however"), examples ("such as")
-4. Use these clues to guess the meaning
+**Q3.** The writer's main purpose is to…
+**(A)** entertain **(B)** inform **(C)** persuade **(D)** describe a river
 
-⚡ **Common NCEE Error:** Students confuse "main idea" with "topic." The topic is what the passage is about (one or two words). The main idea is what the author says about the topic (a complete thought/sentence). Example: Topic = "The Rain" — Main Idea = "The rain caused widespread flooding in Lagos."
+#### Solution:
+
+- **Q1 → (B).** The passage states *"his mother warned him not to go near it"*. Option A invents a memory not in the text. Option D adds an unstated ban. Option C is irrelevant. The correct answer is the *stated* cause.
+- **Q2 → (C).** "Tugged hard" signals force; "gentle" and "still" contradict the phrase. The answer is a *vocabulary-in-context* inference using the synonym clue "harder than he expected".
+- **Q3 → (A).** The passage tells a short story with characters, action, and resolution — classic narrative purpose, i.e. to entertain.
+
+> ⚠️ **Examiner Trap:** For Q1, students in many papers pick (A) because it *feels* true. NCEE rewards only what the passage states. Always re-read the lines about Adamu's fear and circle the exact trigger word ("warned"). Personal belief is irrelevant; the text is the only source.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-**Types of Passages You Will Encounter:**
+#### Edge Cases and Examiner Tricks
 
-**1. Narrative Passages (Stories):**
-- Focus on characters, events, sequence, cause-effect of events
-- Questions may ask about: plot, character traits, motivations, climax, resolution
+| Trap | What examiners do | How to respond |
+| --- | --- | --- |
+| True-but-irrelevant options | Insert a factually true statement from the passage that does not answer the question | Re-read the stem and match it to the option, not the option to the passage |
+| Author vs character voice | In narrative passages, attribute a character's view to the author | Identify whose mind the words come from; "the writer thinks" ≠ "the boy thinks" |
+| Extreme qualifiers | Use *always, never, only, completely* in the wrong options | Strike any absolute word when two qualifiers (*in many papers, sometimes, in most keys*) are available |
+| Synonym substitution | Replace a key word with a near-synonym that changes nuance | Check whether the substitution preserves scope, not just category |
+| "NOT/EXCEPT" flip | Negate a normal-looking stem | Underline NOT/EXCEPT before reading options; pick the one that breaks the pattern |
+| Outside-knowledge bias | Reward candidates who rely on general knowledge | Treat every inference as text-bound; if the idea is not hinted at, it is wrong |
 
-**2. Descriptive Passages (Descriptions):**
-- Focus on a person, place, thing, or phenomenon
-- Questions may ask about: features, characteristics, qualities
+#### Adjacent Topics and Cross-Skill Links
 
-**3. Expository Passages (Information):**
-- Explain or inform about a topic
-- Questions may ask about: facts, processes, definitions, categories
+- **Cloze / Gap-fill** uses the same context-clue logic as vocabulary questions; practice both together.
+- **Summary / title writing** shares the main-idea skill with comprehension; recycle your topic-sentence notes.
+- **Register and lexis** (another NCEE English topic) overlaps with tone and purpose identification.
+- **Idiomatic expressions** questions in many papers hide inside passages — link this with the Idioms note in the same subject folder.
 
-**4. Argumentative/Persuasive Passages:**
-- Present a point of view with supporting reasons
-- Questions may ask about: author's purpose, evidence, logical flaws
+#### Advanced Practice Prompts
 
-**Identifying Tone and Mood:**
+1. **Double-negative inference:** Find a passage where two negatives appear in different sentences. Write the question you would ask to test whether a candidate can follow the logic, then write the *only* correct option. Justify why each of the other three fails.
+2. **Tone-shift detector:** Choose a passage with a clear tone change (e.g. nostalgic to critical). Draft two questions — one on the earlier tone, one on the later tone — and design distractors that lure students into picking the wrong paragraph's mood.
 
-**Tone** (author's attitude toward the subject):
-- Serious, humorous, sympathetic, critical, sarcastic, objective, nostalgic, urgent
-
-**Mood** (the feeling the passage creates):
-- tense, peaceful, frightening, hopeful, sad, exciting
-
-To identify tone: Look at word choices — adjectives, adverbs, and descriptive language reveal the author's emotional stance.
-
-**Fact vs Opinion:**
-
-A **fact** can be proven true or false objectively.
-An **opinion** expresses a belief, judgment, or feeling that cannot be objectively proven.
-
-Example:
-- Fact: "Nigeria gained independence in 1960." (Can be verified)
-- Opinion: "Nigeria is the greatest country in Africa." (Judgment that cannot be proven)
-
-**Evaluating Arguments:**
-
-When evaluating a persuasive passage:
-1. What is the author's claim?
-2. What evidence does the author provide?
-3. Is the evidence sufficient and relevant?
-4. Are there any logical fallacies (false reasoning)?
-5. Does the author address counterarguments?
-
-**Answering "Which of the Following..." Questions:**
-
-When multiple choice options are given:
-1. Read the passage
-2. Read all options
-3. Eliminate options that are clearly wrong
-4. For remaining options, check if they are supported by the passage
-5. The correct answer is always supported; there is only one fully correct answer
-
-⚡ **Extended Tip — Reading Slowly and Carefully:** For NCEE comprehension, resist the urge to rush. Read the passage at a pace that allows you to understand the meaning of each sentence. Pay special attention to the first and last sentences of each paragraph — these usually contain the most important information. When you finish, ask yourself: "What did I just read? What was the key message?"
+> ⚠️ **Examiner Trap:** Inference questions are the most-skipped items in NCEE English because students feel unsure. Skipping costs marks you can have gained. Make an inference, eliminate the option containing outside knowledge, and pick the one *most supported* by the text — never leave inference items blank.
 
 ---
-*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+
+## Continue your study
+
+- **[View this topic in your NCEE (National Common Entrance Examination) roadmap](/roadmap/?exam=ncee&duration=1mo)** — see where "Comprehension Passages (Short)" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ncee&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NCEE (National Common Entrance Examination) exam overview](/exams/ncee/)** — pattern, eligibility, and syllabus
+- **[All English notes](/notes/ncee/english/)** — browse sibling topics in this subject
+
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

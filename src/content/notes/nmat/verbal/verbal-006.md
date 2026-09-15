@@ -8,283 +8,111 @@ topicName: Analogies
 weight: 3
 country: philippines
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-15"
 ---
 
 # Analogies
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your NMAT exam.
+> Rapid summary for last-minute revision before your exam.
 
-## Analogies — Key Facts
+An analogy item gives you a stem pair **A : B** and asks which response pair **C : D** mirrors the same relationship. The surface meaning of the words is secondary; the **relationship holding between** them decides the answer. NMAT Philippines Verbal items test relational reasoning, not vocabulary recall.
 
-### Basic Structure
-"WORD1 : WORD2 :: WORD3 : WORD4"
-This reads: "WORD1 is to WORD2 as WORD3 is to WORD4"
+| Relationship Type | Stem Example | Logic |
+|---|---|---|
+| Synonym | BRAVE : COURAGEOUS | Same meaning |
+| Antonym | HOT : COLD | Opposite meaning |
+| Part : Whole | PETAL : FLOWER | Component belongs to larger unit |
+| Cause : Effect | RAIN : FLOOD | A produces B |
+| Function / Tool : User | HAMMER : CARPENTER | Worker uses tool |
+| Degree / Intensity | WARM : HOT | Step on a scale |
+| Category : Member | MAMMAL : WHALE | Class includes instance |
+| Sequence | SEED : SPROUT : TREE | Ordered stages |
 
-### Common Relationship Types
+> 💡 **High-Yield Memory Hook:** **"Read the bridge, not the bricks."** The bridge is the relation *between* the words (synonym, cause-effect, part-whole, degree); the bricks are the words themselves. NMAT distractors reuse topically related words with the wrong bridge — your job is to match the bridge.
 
-| Relationship | Example |
-|-------------|---------|
-| Synonym | Happy : Joyful |
-| Antonym | Hot : Cold |
-| Part to Whole | Page : Book |
-| Whole to Part | Book : Library |
-| Cause and Effect | Fire : Smoke |
-| Tool and Use | Pen : Write |
-| Worker and Tool | Surgeon : Scalpel |
-| Degree | Warm : Hot |
-| Sequence | Monday : Tuesday |
-| Type/Kind | Dog : Animal |
-| Symbol to Thing | Dove : Peace |
-
-⚡ **NMAT High-Yield**: Find the relationship between the first pair, then look for the SAME relationship in the answer choices.
+Direction matters. A : B is rarely reversible, so a *part : whole* stem never accepts a *whole : part* answer.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-## Chapter: Analogies
+#### What an Analogy Actually Tests
+Analogical reasoning measures whether you can abstract a relation from one pair and re-instantiate it in a second pair. NMAT items rarely reward lexical knowledge alone; two candidates who both know the stem words will still diverge if one fails to identify the relation precisely. Common relation families include **synonym/antonym, part-whole, cause-effect, tool-user, function-object, degree, sequence, location, material, and category-member**.
 
-### 1.1 How to Solve Analogies
+#### Concept Comparison Matrix
+Many wrong answers share a *category* with the stem but invert or distort the relation. Train your eye with this side-by-side:
 
-#### Step-by-Step Approach
-1. **Identify the relationship** between the first pair
-2. **Eliminate answer choices** that don't match the same relationship
-3. **Select the best answer** — only one will have the correct relationship
+| Stem Pair | Correct Relation | Looks-Like Distractor | Why It Fails |
+|---|---|---|---|
+| PETAL : FLOWER | Part → Whole | FLOWER : PETAL | Reverses direction; whole is not part-of itself |
+| RAIN : FLOOD | Cause → Effect | FLOOD : RAIN | Effect cannot cause its cause here |
+| WARM : HOT | Degree (lower → higher) | COOL : COLD | Same direction (lower → higher), but COOL:COLD is wrong because it is lower→lower |
+| HAMMER : CARPENTER | Tool → User | WORKER : TOOL | Wrong direction — instrument-to-handler is not handler-to-instrument |
+| MAMMAL : WHALE | Category → Member | WHALE : MAMMAL | Member → Category, not Category → Member |
 
-#### Tips
-- If no clear answer, try a sentence with the words
-  - "A is B" → "C is D"
-  - "A uses B for C" → "D uses E for F"
-- Consider multiple meanings of words
-- Look for the most specific relationship
+#### Step-by-Step Method
+1. **Name the relation** in the stem aloud (synonym, antonym, part-whole, cause-effect, function, degree, sequence).
+2. **Check direction** — is A part of B, or B part of A? Does A cause B?
+3. **Strip the words** — replace A and B with generic placeholders (X : Y) and look for a choice that fits X : Y.
+4. **Test the choice** by reading both pairs forward; reject any pair that breaks the relation type or direction.
+5. **Watch for degree scales** — if the stem is scalar, the answer must move the same way along the scale.
 
-### 1.2 Relationship Types — Detailed
+#### 🎯 Exam-Level Worked Problem
+**Question:** HAND : GLOVE is to FOOT : ____
+(A) SOCK
+(B) SHOE
+(C) LEG
+(D) WALK
+(E) TOE
 
-#### 1. Synonym (Same Meaning)
-- "Abundant : Plentiful" = Both mean "more than enough"
-- "Hesitate : Pause" = Both mean temporary stop
+#### Solution:
+- Step 1: Identify the stem relation. A **hand** is covered/worn with a **glove** — this is a *body-part : covering* functional pair.
+- Step 2: Preserve direction. The covering (glove) follows the body part (hand).
+- Step 3: Map to the second pair. The body part is **foot**; the matching covering is a **sock** (or **shoe**, since both wrap the foot).
+- Step 4: Choose the most precise single-word answer. Among the options, **SOCK** is the standard direct covering for a foot in the same way a glove is for a hand.
+- Step 5: Eliminate distractors. **LEG** is body-part : body-part (wrong relation); **WALK** is body-part : action (function mismatch); **TOE** is body-part : body-part.
 
-#### 2. Antonym (Opposite Meaning)
-- "Ancient : Modern"
-- "Accept : Reject"
-- "Amateur : Professional"
+**Answer: (A) SOCK** — with **(B) SHOE** as a defensible runner-up if the test-writer intended "outer covering." Pick whichever matches the stem's level of formality (glove = outer garment → shoe).
 
-#### 3. Part to Whole
-- "Finger : Hand" (finger is part of hand)
-- "Chapter : Book"
-- "Element : Compound"
+> ⚠️ **Examiner Trap:** Students often pick **SHOE** because shoes feel "more analogous" to gloves, but on NMAT the tighter, single-layer covering (glove → sock) is preferred over the multi-layer outerwear (glove → shoe). When two answers fit, choose the one with the **same degree of coverage**, not the more familiar object.
 
-#### 4. Whole to Part
-- "Book : Chapter" (book contains chapters)
-- "Tree : Leaf"
+---
 
-#### 5. Cause and Effect
-- "Smoke : Fire" (smoke indicates fire)
-- "Rain : Flood"
-- "Effort : Success"
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-#### 6. Tool/Agent and Action
-- "Pen : Write" (pen is used to write)
-- "Knife : Cut"
-- "Needle : Sew"
+#### Edge Cases and Boundary Conditions
+- **Reversible antonym pairs** (HOT : COLD, TALL : SHORT) are symmetric — either word can stand in either slot. Do not assume all opposites reverse freely; **contextual antonyms** (BUY : SELL, TEACH : LEARN) only swap under role reversal.
+- **Degree analogies** follow an ordered scale. If the stem ascends (COOL → COLD), the answer must also ascend (WARM → HOT), not descend.
+- **Four-term proportional analogies** (A : B :: C : ?) require that the A-to-B transformation equal the C-to-D transformation in **kind** and **direction**, not just in topic overlap.
+- **Nested relations** — some stems carry two relations at once (e.g., WHALE : OCEAN is *category-inhabits-location*). Pick the choice that mirrors the **dominant** relation, not the secondary one.
+- **Symbol-meaning pairs** (DOVE : PEACE) test cultural literacy; learn the standard emblems (olive branch, scales, red cross, swastika in Hindu/Buddhist context).
 
-#### 7. Worker and Workplace/Product
-- "Author : Book" (author creates book)
-- "Painter : Painting"
-- "Composer : Symphony"
+#### Advanced Traps Table
 
-#### 8. Degree of Intensity
-- "Warm : Hot" (increasing intensity)
-- "Pleased : Ecstatic"
-- "Dislike : Hate"
+| Trap Pattern | How It Looks | Why Students Fall | How to Avoid |
+|---|---|---|---|
+| Topical echo | Stem: KEY : LOCK; choice: DOOR : HANDLE | Same "lock domain" feels right | Confirm relation, not topic |
+| Semantic synonym | Stem: ANGRY : FURIOUS; choice: SAD : MELANCHOLY | Picks synonym over antonym when stem is antonym | Re-check stem relation type first |
+| Reversed direction | Stem: NEEDLE : SEW; choice: SEW : NEEDLE | Direction swapped silently | Always read A → B forward |
+| Scale flip | Stem: TEPID : SCALDING; choice: LUKEWARM : COLD | Picks opposite end of scale | Match the *direction* of intensity change |
+| Category leak | Stem: NOVEL : CHAPTER; choice: NOVEL : BOOK | Chooses a hypernym instead of a part | Wholes stay constant; parts must differ |
 
-#### 9. Sequence/Order
-- "Egg : Larva : Butterfly" (life cycle)
-- "Morning : Afternoon : Evening"
-- "One : Two : Three"
+#### Practice Prompts
+1. **PAINTER : EASEL :: SURGEON : ?** — Identify the relation (worker : primary tool), then pick the tool that is *uniquely* associated with the surgeon's craft (scalpel). Reject "hospital" (location) and "patient" (object of work).
+2. **GRAIN : SILO :: WATER : ?** — Storage relation. The container matches the stored substance's typical bulk-storage vessel; "reservoir" or "tank" both qualify, but "pipe" fails because it transports, not stores.
 
-#### 10. Type/Kind (Category)
-- "Poodle : Dog : Mammal : Vertebrate" (specific to general)
-- "Rose : Flower : Plant"
-- "Satire : Literature"
+> 📌 **Formula Check:** There is no quantitative formula for analogies. The "formula" is procedural: *Name relation → Confirm direction → Strip words → Match choice → Verify with forward read*. Memorize the relation taxonomy (≈10 types) rather than word pairs.
 
-#### 11. Symbol and What It Represents
-- "Dove : Peace"
-- "Scales : Justice"
-- "Crown : Royalty"
+---
 
-#### 12. Material and Product
-- "Clay : Pottery"
-- "Flour : Bread"
-- "Wood : Furniture"
+## Continue your study
 
-#### 13. User and Object Used
-- "Surgeon : Scalpel"
-- "Barber : Scissors"
-- "Carpenter : Hammer"
+- **[View this topic in your NMAT (Philippines) roadmap](/roadmap/?exam=nmat&duration=1mo)** — see where "Analogies" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=nmat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NMAT (Philippines) exam overview](/exams/nmat/)** — pattern, eligibility, and syllabus
+- **[All Verbal notes](/notes/nmat/verbal/)** — browse sibling topics in this subject
 
-#### 14. Function/Purpose
-- "Nurse : Care"
-- "Teacher : Educate"
-- "Refrigerator : Preserve"
-
-### 1.3 Common NMAT Analogy Pairs
-
-#### Synonyms (High-Frequency)
-- Abundant : Plentiful
-- Ameliorate : Improve
-- Anxiety : Worry
-- Apathy : Indifference
-- Benevolent : Kind
-- Cease : Stop
-- Comply : Obey
-- Conceive : Imagine
-- Condemn : Criticize
-- Consequence : Result
-- Construct : Build
-- Contemplate : Consider
-- Corroborate : Confirm
-- Deceive : Mislead
-- Defect : Flaw
-- Deliberate : Intentional
-- Desperate : Hopeless
-- Devise : Invent
-- Devote : Dedicate
-- Diminish : Decrease
-- Disclose : Reveal
-- Diverse : Varied
-- Eliminate : Remove
-- Emphasize : Stress
-- Enormous : Huge
-- Essential : Necessary
-- Establish : Found
-- Estimate : Approximate
-- Evident : Clear
-- Exceed : Surpass
-- Facilitate : Help
-- Famine : Scarcity
-- Fatal : Deadly
-- Feasible : Possible
-- Fundamental : Basic
-- Gratitude : Thanks
-- Haphazard : Random
-- Hasten : Hurry
-- Hazard : Danger
-- Hierarchy : Ranking
-- Ignorance : Lack of Knowledge
-- Imminent : Approaching
-- Implicit : Implied
-- Impractical : Unrealistic
-- Inadequate : Insufficient
-- Inadvertent : Unintentional
-- Inaugurate : Begin
-- Incessant : Continuous
-- Incite : Provoke
-- Incompatibility : Conflict
-- Indicate : Show
-- Indifferent : Uncaring
-- Indispensable : Essential
-- Inevitable : Unavoidable
-- Inherent : Built-in
-- Initiate : Begin
-- Innocent : Not Guilty
-- Innovation : New Idea
-- Inquiry : Question
-- Insight : Understanding
-- Inspect : Examine
-- Instance : Example
-- Integrate : Combine
-- Integrity : Honesty
-- Intelligent : Smart
-- Intensive : Thorough
-- Intentional : Deliberate
-- Intermittent : Periodic
-- Internal : Inside
-- Invalidate : Cancel
-- Irrelevant : Unrelated
-- Isolate : Separate
-- Jurisdiction : Authority
-
-#### Antonyms (High-Frequency)
-- Ancient : Modern
-- Artificial : Natural
-- Beneficial : Harmful
-- Blunt : Sharp
-- Calm : Agitated
-- Capable : Incapable
-- Casual : Formal
-- Cease : Begin
-- Complacent : Concerned
-- Conceal : Reveal
-- Congenital : Acquired
-- Consent : Refuse
-- Conservative : Liberal
-- Construct : Demolish
-- Credible : Unbelievable
-- Cynical : Trusting
-- Deficient : Adequate
-- Deliberate : Accidental
-- Desperate : Hopeful
-- Detrimental : Beneficial
-- Diligent : Lazy
-- Discrete : Continuous
-- Dull : Sharp
-- Eccentric : Normal
-- Eliminate : Add
-- Emphasis : De-emphasis
-- Enormous : Tiny
-- Explicit : Implicit
-- Exposed : Hidden
-- Extensive : Limited
-- Fabrication : Truth
-- Feasible : Impossible
-- Fundamental : Trivial
-- Generous : Stingy
-- Genuine : Artificial
-- Grave : Trivial
-- Harsh : Gentle
-- Hesitate : Proceed
-- Hostile : Friendly
-- Hypothesis : Conclusion
-- Ignorance : Knowledge
-- Immediate : Delayed
-- Immunity : Susceptibility
-- Imperfect : Flawless
-- Implicit : Explicit
-- Impractical : Practical
-- Impure : Pure
-- Inaugural : Final
-- Incessant : Occasional
-- Incompatible : Harmonious
-- Indifferent : Concerned
-- Indispensable : Unnecessary
-- Indistinct : Clear
-- Inevitable : Avoidable
-- Inferior : Superior
-- Inherent : Acquired
-- Innocent : Guilty
-- Insightful : Ignorant
-- Insolent : Respectful
-- Intentional : Accidental
-- Internal : External
-- Intolerant : Tolerant
-- Introduce : Remove
-- Irrelevant : Relevant
-- Isolated : Connected
-- Juvenile : Adult
-
-### 1.4 NMAT High-Yield Points
-
-⚡ **Commonly Asked**:
-1. **Read analogy as**: "A is to B as C is to D"
-2. **First identify relationship** of first pair, then match
-3. **Synonym pairs**: Both words mean similar things
-4. **Antonym pairs**: Words have opposite meanings
-5. **Part-whole**: Finger:Hand, Page:Book
-6. **Tool-action**: Pen:Write, Knife:Cut
-7. **Worker-product**: Author:Book, Painter:Painting
-8. **Degree**: Warm:Hot, Dislike:Hate
-9. **Consider multiple meanings**: "bank" (river vs financial)
-10. **Eliminate wrong answers**: Only one pair has the exact relationship
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

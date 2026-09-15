@@ -107,8 +107,8 @@ const js = `
             state.aiReferred = true;
             state.aiSource = String(aiMatch[0])
                 .toLowerCase()
-                .replace(/^https?:\/\//, '')
-                .replace(/[\/?#].*$/, '');
+                .replace(/^https?:\\/\\//, '')
+                .replace(/[\\/?#].*$/, '');
             try { d.documentElement.setAttribute('data-sr-ai-ref', state.aiSource); } catch (e) {}
             try {
                 w.dispatchEvent(new CustomEvent('sr:ai-referral', { detail: { source: state.aiSource } }));

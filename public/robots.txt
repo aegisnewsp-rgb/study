@@ -2,12 +2,13 @@
 # https://studyroadmap.in
 # Last updated: 2026-09-13
 #
-# AdSense / indexing rules (strict):
-# - Mediapartners-Google + AdsBot-Google MUST remain fully allowed (ad review crawl).
-# - Googlebot fully allowed; no login wall; sitemap referenced below.
+# Ad / indexing rules (strict):
+# - Googlebot, Bingbot, Yandex, Baidu and the AI *citation* bots stay allowed.
 # - Thin/low-value notes are noindexed at page level (robots meta), not here.
+# - The Monetag site-verification file is a bare token, not content: crawl it
+#   never, so it cannot be indexed as an empty page.
 
-# ── GOOGLE ADSENSE FIRST (must not be blocked by any later rule) ────────────
+# ── GOOGLE FIRST (AdSense retired 2026-09-15; these stay allowed for Search) ─
 User-agent: Mediapartners-Google
 Allow: /
 
@@ -33,6 +34,7 @@ Allow: /
 User-agent: *
 Allow: /
 Disallow: /api/
+Disallow: /monetag_
 # Crawl-delay is ignored by Google; keep only for polite third-party bots
 Crawl-delay: 1
 

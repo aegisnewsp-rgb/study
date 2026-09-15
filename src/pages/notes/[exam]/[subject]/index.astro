@@ -44,10 +44,18 @@ const subjectName = firstNote?.data.subjectName || subject;
 const flag = { india: '🇮🇳', pakistan: '🇵🇰', nigeria: '🇳🇬' }[firstNote?.data.country] || '🌍';
 
 const BRAND_SUFFIX = ' | StudyRoadmap';
+// Same rule as the topic template: never drop the exam. The old fallback
+// produced duplicate hub titles ("English Notes | StudyRoadmap" for HAT-UG,
+// NCEE and ECAT) because the long exam label did not fit 60 chars.
+const _examCompact =
+  String(examName).replace(/\s*\([^)]*\)\s*/g, ' ').replace(/\s{2,}/g, ' ').trim() || exam;
 const _tFull = `${subjectName} Notes — ${examName}${BRAND_SUFFIX}`;
+const _tCompact = `${subjectName} Notes — ${_examCompact}${BRAND_SUFFIX}`;
+const _tTight = `${subjectName} — ${_examCompact}${BRAND_SUFFIX}`;
 const title = _tFull.length <= 60 ? _tFull
-  : `${subjectName} Notes${BRAND_SUFFIX}`.length <= 60 ? `${subjectName} Notes${BRAND_SUFFIX}`
-  : `${subjectName.slice(0, 35)} Notes${BRAND_SUFFIX}`.slice(0, 60);
+  : _tCompact.length <= 60 ? _tCompact
+  : _tTight.length <= 60 ? _tTight
+  : `${subjectName.slice(0, Math.max(10, 60 - BRAND_SUFFIX.length - ` — ${_examCompact}`.length)).trim()} — ${_examCompact}${BRAND_SUFFIX}`;
 const _descRaw = `Free ${subjectName} study notes for ${examName}. ${subjectNotes.length} topics across Quick, Standard, and Deep tiers — concepts, formulas, practice.`;
 const description = _descRaw.length > 160 ? _descRaw.slice(0, 157) + '...' : _descRaw;
 const canonicalUrl = `https://studyroadmap.in/notes/${exam}/${subject}/`;

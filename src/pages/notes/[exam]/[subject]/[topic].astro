@@ -49,20 +49,28 @@ const subjectDisplay = (subjectName && subjectName !== 'None' && subjectName !==
 
 // SERP title ≤60: prioritize topic + exam + brand " | StudyRoadmap" for branded search growth
 const BRAND_SUFFIX = ' | StudyRoadmap';
-const _withBrand = (base: string) => {
-  if (`${base}${BRAND_SUFFIX}`.length <= 60) return `${base}${BRAND_SUFFIX}`;
-  const room = Math.max(10, 60 - BRAND_SUFFIX.length - 3);
-  return `${base.slice(0, room).trim()}...${BRAND_SUFFIX}`;
-};
 
 const _titleFull = `${topicName} — ${examName} Notes`;
-const _titleMid = `${topicName} (${examName})`;
-const _titleShort = topicName;
+const _titleMid = `${topicName} — ${examName}`;
+// Exam labels in the data are often long ("ECAT (Engineering College Admission
+// Test)"). The old fallback dropped the exam entirely once the full title did
+// not fit 60 chars, which produced 60 groups of duplicate titles across exams
+// ("Synonyms and Antonyms | StudyRoadmap" for ECAT, HAT-UG, LAT and NCEE at
+// once) plus 36 titles under 30 chars that wasted SERP space. Always keep a
+// compact exam label and trim the topic instead.
+const _examCompact =
+  String(examName).replace(/\s*\([^)]*\)\s*/g, ' ').replace(/\s{2,}/g, ' ').trim() || exam;
+const _titleCompact = `${topicName} — ${_examCompact} Notes`;
+const _titleTight = `${topicName} — ${_examCompact}`;
 
 const title = (`${_titleFull}${BRAND_SUFFIX}`.length <= 60) ? `${_titleFull}${BRAND_SUFFIX}`
   : (`${_titleMid}${BRAND_SUFFIX}`.length <= 60) ? `${_titleMid}${BRAND_SUFFIX}`
-  : (`${_titleShort}${BRAND_SUFFIX}`.length <= 60) ? `${_titleShort}${BRAND_SUFFIX}`
-  : _withBrand(topicName);
+  : (`${_titleCompact}${BRAND_SUFFIX}`.length <= 60) ? `${_titleCompact}${BRAND_SUFFIX}`
+  : (`${_titleTight}${BRAND_SUFFIX}`.length <= 60) ? `${_titleTight}${BRAND_SUFFIX}`
+  : (() => {
+      const room = Math.max(10, 60 - BRAND_SUFFIX.length - ` — ${_examCompact}`.length);
+      return `${topicName.slice(0, room).trim()} — ${_examCompact}${BRAND_SUFFIX}`;
+    })();
 // Keep description ≤160 chars even for the longest topicName/examName combos.
 const _descRaw = `${topicName} — ${examName} study notes (${weight}% weight). Free Quick / Standard / Deep tiers, no signup.`;
 const description = _descRaw.length > 160 ? _descRaw.slice(0, 157) + '...' : _descRaw;

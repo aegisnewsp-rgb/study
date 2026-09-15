@@ -111,8 +111,17 @@ const title = (() => {
   if (mid.length <= 60) return mid;
   const short = `${examName}${BRAND_SUFFIX}`;
   if (short.length <= 60) return short;
-  const room = Math.max(10, 60 - BRAND_SUFFIX.length - 3);
-  return `${examName.slice(0, room).trim()}...${BRAND_SUFFIX}`;
+  // Both the full and bare exam names overflow 60 chars, so trim. Prefer the
+  // compact label ("JUPEB (Joint Universities…)" -> "JUPEB") over a mid-word
+  // cut, and never emit a literal "..." — 263 titles were shipping with one.
+  const compact = String(examName).replace(/\s*\([^)]*\)\s*/g, ' ').replace(/\s{2,}/g, ' ').trim() || examName;
+  const candidates = [`${compact} ${currentYear} Guide`, `${compact} ${currentYear}`, compact];
+  for (const c of candidates) {
+    if (`${c}${BRAND_SUFFIX}`.length <= 60) return `${c}${BRAND_SUFFIX}`;
+  }
+  const room = Math.max(10, 60 - BRAND_SUFFIX.length);
+  const cut = compact.slice(0, room).replace(/\s+\S*$/, '').trim() || compact.slice(0, room).trim();
+  return `${cut}${BRAND_SUFFIX}`;
 })();
 // Unique, data-driven meta description. A single templated sentence repeated across 125+
 // exam pages gives Google nothing to differentiate them in the SERP and wastes the CTR

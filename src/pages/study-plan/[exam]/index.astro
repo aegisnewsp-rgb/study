@@ -79,9 +79,26 @@ const featuredPlans = planCards.filter((p) => p.indexed);
 
 const BRAND_SUFFIX = ' | StudyRoadmap';
 const _titleFull = `${examName} Study Plan ${currentYear}${BRAND_SUFFIX}`;
-const title = _titleFull.length <= 60 ? _titleFull
-  : `${examName} Study Plan${BRAND_SUFFIX}`.length <= 60 ? `${examName} Study Plan${BRAND_SUFFIX}`
-  : `${examName.slice(0, 42)}...${BRAND_SUFFIX}`;
+// Never emit a literal "...". Prefer the compact exam label, then a word-boundary
+// cut — the old `${examName.slice(0, 42)}...` also collided with the /exams/{id}/
+// title, giving two different pages the same truncated title.
+const _examCompact =
+  String(examName).replace(/\s*\([^)]*\)\s*/g, ' ').replace(/\s{2,}/g, ' ').trim() || examName;
+const title = (() => {
+  const candidates = [
+    `${examName} Study Plan ${currentYear}`,
+    `${examName} Study Plan`,
+    `${_examCompact} Study Plan ${currentYear}`,
+    `${_examCompact} Study Plan`,
+    `${_examCompact} Plan`,
+  ];
+  for (const c of candidates) {
+    if (`${c}${BRAND_SUFFIX}`.length <= 60) return `${c}${BRAND_SUFFIX}`;
+  }
+  const room = Math.max(10, 60 - BRAND_SUFFIX.length);
+  const cut = _examCompact.slice(0, room).replace(/\s+\S*$/, '').trim() || _examCompact.slice(0, room).trim();
+  return `${cut}${BRAND_SUFFIX}`;
+})();
 const _desc = `Free ${examName} study plans for ${currentYear} — from a last-week sprint to a full-year foundation build. ${topicCount} weight-prioritised topics across ${subjectCount} subjects, day-by-day, no signup.`;
 const description = _desc.length > 160 ? _desc.slice(0, 157) + '...' : _desc;
 

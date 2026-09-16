@@ -229,7 +229,7 @@ const js = `
     //     gesture. Chromium suppresses that into a quiet prompt
     //     (kGestureGatedNotificationMessage) and Firefox/Safari need the gesture
     //     outright, so nobody subscribes — 1,502 prerequests, 0 subscriptions.
-    //   * the tag's `sw=` query parameter is its own bundle version and is
+    //   * the tag's sw= query parameter is its own bundle version and is
     //     present even when /sw.js 404s, so it is not a signal we can use.
     //
     // Hence: a reader-initiated opt-in. The worker registration and the

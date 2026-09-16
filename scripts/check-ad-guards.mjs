@@ -25,6 +25,27 @@ const crawlerFlags = args[1] || '';
 
 const src = readFileSync('src/components/AdRouter.astro', 'utf8');
 const body = src.match(/const js = `\n([\s\S]*?)\n`;/)[1].replace(/\\\\/g, '\\');
+
+// A stray backtick inside the template literal closes it early. The extraction
+// regex above then happily returns a TRUNCATED body that still runs, so every
+// guard case can pass while the real build fails with 'Expected ";" but found
+// ...' — which is exactly what happened on 2026-09-16 (a backtick in a comment).
+// Assert the body reaches its real end before trusting anything it says.
+const TERMINATOR = 'gate();\n})();';
+if (!body.trimEnd().endsWith(TERMINATOR)) {
+  console.error(
+    'FATAL AdRouter emitted body looks truncated — a backtick inside the `js` ' +
+      'template literal closes it early and breaks `astro build`.\n' +
+      `  expected it to end with: ${JSON.stringify(TERMINATOR)}\n` +
+      `  actual last 120 chars:   ${JSON.stringify(body.trimEnd().slice(-120))}`
+  );
+  process.exit(1);
+}
+const strayBackticks = (body.match(/`/g) || []).length;
+if (strayBackticks) {
+  console.error(`FATAL emitted body contains ${strayBackticks} backtick(s); these terminate the template literal.`);
+  process.exit(1);
+}
 const js = body.replace(/\$\{[^}]*\}/g, '__CFG__');
 
 function makeEnv({ zoneEnabled = true, webdriver = false, sessionHad = false, lastPopunder = 0, ua = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/128 Safari/537.36', geo = 'IN', consent = 'granted', adsOff = false, pushEnabled = true, pushPermission = 'default', pushDismissed = false, pushReloaded = false, permResult = 'granted' } = {}) {

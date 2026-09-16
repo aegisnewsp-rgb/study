@@ -47,6 +47,7 @@ import {
     MONETAG_PUSH_SW_PATH,
     MONETAG_PUSH_ENABLED,
     MONETAG_PUSH_DISMISS_KEY,
+    MONETAG_PUSH_OFFERED_KEY,
     MONETAG_PUSH_RELOADED_KEY,
     POPUNDER_COOLDOWN_MS,
     POPUNDER_SESSION_KEY,
@@ -75,6 +76,7 @@ const config = {
     pushSw: MONETAG_PUSH_SW_PATH,
     pushEnabled: MONETAG_PUSH_ENABLED,
     pushDismissKey: MONETAG_PUSH_DISMISS_KEY,
+    pushOfferedKey: MONETAG_PUSH_OFFERED_KEY,
     pushReloadKey: MONETAG_PUSH_RELOADED_KEY,
     popunder: MONETAG_POPUNDER_ZONE,
     popunderZoneEnabled: MONETAG_POPUNDER_DEDICATED_ENABLED,
@@ -248,6 +250,18 @@ const js = `
         try { return w.localStorage.getItem(cfg.pushDismissKey) === '1'; } catch (e) { return false; }
     }
 
+    // The offer is a one-off per tab session. A reader who answers neither button
+    // has not consented to being asked again on the next page — re-rendering it
+    // on every page load is the nag pattern. Session scope keeps a return visit
+    // eligible without turning browsing into a repeated prompt.
+    function pushAlreadyOffered() {
+        try { return w.sessionStorage.getItem(cfg.pushOfferedKey) === '1'; } catch (e) { return false; }
+    }
+
+    function markPushOffered() {
+        try { w.sessionStorage.setItem(cfg.pushOfferedKey, '1'); } catch (e) {}
+    }
+
     function removePushCard() {
         var el = d.getElementById(PUSH_ID);
         if (el && el.remove) el.remove();
@@ -325,6 +339,7 @@ const js = `
         if (!cfg.pushEnabled) { state.push = 'disabled'; return; }
         if (!pushSupported()) { state.push = 'unsupported'; return; }
         if (pushDismissed()) { state.push = 'dismissed'; return; }
+        if (pushAlreadyOffered()) { state.push = 'offered-once'; return; }
         if (state.push === 'offered' || d.getElementById(PUSH_ID)) {
             state.push = 'offered';
             return;
@@ -353,6 +368,7 @@ const js = `
         card.appendChild(text);
         card.appendChild(row);
         d.body.appendChild(card);
+        markPushOffered();
         state.push = 'offered';
     }
 
@@ -451,13 +467,13 @@ const js = `
         gate();
     }
 
-    // ---- 3. PopUnder: 1 per session, 6 h floor, interactions first ---------
+    // ---- 3. PopUnder: 1 per session, 12 h cross-session floor, interactions first ----
     var popTimer = null;
 
     function lastPopunder() {
         try { return parseInt(w.localStorage.getItem(cfg.pubKey) || '0', 10) || 0; } catch (e) { return 0; }
     }
-    // One popunder per tab session is the UX rule; the 6 h floor (cfg.cooldownMs)
+    // One popunder per tab session is the UX rule; the 12 h floor (cfg.cooldownMs)
     // is the cross-session backstop. Both must pass.
     function sessionHadPopunder() {
         try { return w.sessionStorage.getItem(cfg.sessionKey) === '1'; } catch (e) { return false; }

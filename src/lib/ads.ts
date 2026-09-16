@@ -129,6 +129,18 @@ export const MONETAG_PUSH_SW_PATH = '/sw.js';
 export const MONETAG_PUSH_ENABLED = true;
 
 /**
+ * Session flag marking that the offer was already shown in this tab session.
+ *
+ * Without it the offer re-renders on every page load for a reader who declines
+ * to answer (neither grant nor "Not now"), so a reader working through five
+ * notes meets the same bottom bar five times. That is exactly the nag pattern
+ * the opt-in exists to avoid. Session-scoped rather than permanent on purpose:
+ * a returning reader in a new session may reasonably be asked once more, which
+ * a permanent flag would forbid while a per-page-load flag would nag.
+ */
+export const MONETAG_PUSH_OFFERED_KEY = 'sr:push:offered';
+
+/**
  * Reader dismissed the notification offer. Once set we never ask again — an
  * opt-in that reappears is a nag, and the reader has given a clear answer.
  */

@@ -8,198 +8,115 @@ topicName: "Quadratic Equations"
 weight: 3
 country: ghana
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-16"
 ---
 
 # Quadratic Equations
 
 ### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
 
-A quadratic equation is an equation of the form ax² + bx + c = 0, where a, b, and c are constants and a ≠ 0. The highest power of the variable—the degree—is 2, making these equations fundamentally different from linear equations. A quadratic equation can have at most two solutions, known as roots. The discriminant, b² - 4ac, determines the nature of these roots: if b² - 4ac > 0, there are two distinct real roots; if b² - 4ac = 0, there is one repeated real root; if b² - 4ac < 0, the roots are complex conjugates and no real solutions exist.
+A **quadratic equation** in one variable has the standard form **ax² + bx + c = 0**, where a, b, and c are real constants and **a ≠ 0**. It is the algebraic form whose graph is a **parabola**, and the two solutions (called **roots**) come from the quadratic formula or from factorisation.
 
-The quadratic formula, x = (-b ± √(b² - 4ac)) / 2a, provides a universal method for solving any quadratic equation. This formula is derived from completing the square on the general form ax² + bx + c = 0, and it works for all values of a, b, and c provided a ≠ 0. Factoring—expressing the quadratic as a product of two linear factors—offers a faster alternative when the factors are integers or simple fractions, but the quadratic formula never fails.
+- **Standard form:** ax² + bx + c = 0; a ≠ 0 (unitless coefficients).
+- **Quadratic formula:** x = (−b ± √(b² − 4ac)) / (2a); roots are unitless.
+- **Discriminant D = b² − 4ac** decides root nature: D > 0 two distinct reals, D = 0 two equal reals, D < 0 no real roots.
+- **Sum of roots:** α + β = −b/a. **Product:** αβ = c/a.
+- **Vertex form:** y = a(x − h)² + k, with axis of symmetry x = h = −b/(2a).
 
-**Key Facts:**
-- Standard form: ax² + bx + c = 0, where a ≠ 0
-- Discriminant: Δ = b² - 4ac
-- Δ > 0: two distinct real roots; Δ = 0: one repeated root; Δ < 0: no real roots
-- Quadratic formula: x = (-b ± √Δ) / 2a
-- Sum of roots = -b/a (from Vieta's formulas)
-- Product of roots = c/a (from Vieta's formulas)
-- If one root is r, the other is c/r (since product = c/a)
-
-⚡ **Exam Tip:** Before attempting to factor a quadratic, calculate the discriminant. If it is not a perfect square, the quadratic cannot be factored over the integers—in such cases, use the quadratic formula directly.
+> 💡 **High-Yield Memory Hook:** **"ABC, D rules, SUM-PROD"** — first identify **A**=a, **B**=b, **C**=c, then check **D**=b²−4ac, then read **SUM**=−b/a and **PROD**=c/a. One glance at the coefficients answers four questions at once.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-**Solving by Factorisation**
+#### Three Solving Routes
 
-Solve: x² - 5x + 6 = 0
+Factorisation, completing the square, and the quadratic formula are the three legally recognised routes to the roots of ax² + bx + c = 0. Factorisation is fastest when you can spot two numbers whose **sum is −b/a** and **product is c/a**. When the numbers refuse to be nice, the formula x = (−b ± √(b² − 4ac)) / (2a) finishes the job mechanically. Completing the square is the route examiners love for derivation questions, because it exposes the vertex (−b/(2a), −D/(4a)) and proves the formula itself.
 
-Step 1 — Find two numbers multiplying to +6 and adding to -5: -2 and -3
-Step 2 — Write: (x - 2)(x - 3) = 0
-Step 3 — Apply zero-product property: x - 2 = 0 or x - 3 = 0
-Step 4 — **x = 2 or x = 3**
+#### Comparing the Three Methods
 
-**Solving by the Quadratic Formula**
+| Method | Best for | Output | Examiner tell-tale cue |
+|---|---|---|---|
+| Factorisation | Integer/half-integer roots | Roots in factor form | "Find two numbers whose sum and product…" |
+| Quadratic formula | Any coefficients | Exact or numeric roots | "Hence solve using the quadratic formula" |
+| Completing the square | Deriving vertex, sketching parabola | y = a(x − h)² + k | "Express in the form a(x − p)² + q" |
+| Discriminant test | Nature-of-roots questions only | Statement about roots | "Show that the equation has no real roots" |
 
-Solve: 2x² + 5x - 3 = 0
+#### Discriminant Decisions
 
-Identifying: a = 2, b = 5, c = -3
+| Discriminant D | Nature of roots | Parabola position |
+|---|---|---|
+| D > 0 | Two distinct real roots | Crosses x-axis twice |
+| D = 0 | Two equal real roots (a repeated root) | Touches x-axis at vertex |
+| D < 0 | No real roots (complex conjugate pair) | Lies entirely above or below x-axis |
 
-Δ = b² - 4ac = 25 - 4(2)(-3) = 25 + 24 = **49**
+#### Worked Steps to Solve x² − 5x + 6 = 0
 
-x = (-5 ± √49) / (2 × 2) = (-5 ± 7) / 4
+1. Identify a = 1, b = −5, c = 6.
+2. Compute D = (−5)² − 4(1)(6) = 25 − 24 = 1.
+3. Apply the formula: x = (5 ± √1) / 2 = (5 ± 1) / 2.
+4. Roots: x = 3 and x = 2; check: (3)(2) = 6 = c/a ✓, and 3 + 2 = 5 = −b/a ✓.
 
-x = (-5 + 7)/4 = 2/4 = **1/2** or x = (-5 - 7)/4 = -12/4 = **-3**
+> 📌 **Formula Check:** Every variable in x = (−b ± √D)/(2a) is unitless because x, a, b, c are pure numbers. The "√D" sits over the entire numerator branch — never divide √D by 2a alone.
 
-**Solving by Completing the Square**
+#### Forming Equations From Roots
 
-Solve: x² + 6x + 5 = 0
+Given roots α and β, build the equation using **x² − (α + β)x + αβ = 0**. The two minus signs are non-negotiable: drop one and you introduce a sign error that flips both root values.
 
-Step 1 — Move constant: x² + 6x = -5
-Step 2 — Add (b/2)² to both sides: (6/2)² = 9
-x² + 6x + 9 = -5 + 9
-(x + 3)² = 4
+#### 🎯 Exam-Level Worked Problem
 
-Step 3 — Take square root: x + 3 = ±2
-Step 4 — Solve: x = -3 + 2 = **-1** or x = -3 - 2 = **-5**
+**Question:** Solve 2x² − 3x − 5 = 0 using the quadratic formula, and state the nature of the roots.
 
-**Comparison Table: Solution Methods**
+#### Solution:
+- Coefficients: a = 2, b = −3, c = −5.
+- Discriminant: D = (−3)² − 4(2)(−5) = 9 + 40 = 49.
+- Since D = 49 > 0, the equation has **two distinct real roots**.
+- Apply formula: x = (−(−3) ± √49) / (2·2) = (3 ± 7) / 4.
+- x₁ = (3 + 7)/4 = 10/4 = **5/2**; x₂ = (3 − 7)/4 = −4/4 = **−1**.
+- Check product: (5/2)(−1) = −5/2 = c/a ✓.
 
-| Method | Best Used When | Limitation |
-|--------|---------------|------------|
-| Factorisation | a = 1, b and c are integers with small factors | Cannot use when discriminant is not a perfect square or factors are not integers |
-| Quadratic formula | Always works | Requires careful arithmetic |
-| Completing the square | When deriving vertex form or when coefficients are fractions | More steps, more opportunities for error |
-
-**Nature of Roots Using Discriminant**
-
-For equation 4x² - 12x + 9 = 0:
-Δ = (-12)² - 4(4)(9) = 144 - 144 = **0**
-
-Since Δ = 0, the equation has one repeated (double) root:
-x = -(-12)/(2×4) = 12/8 = **3/2**
-
-This means (x - 3/2)² = 0, and the graph touches the x-axis at one point.
-
-**Forming Equations from Given Roots**
-
-If the roots are 3 and -2, form the quadratic equation:
-
-Using sum and product:
-Sum of roots = 3 + (-2) = 1 = -b/a → b = -1
-Product of roots = 3 × (-2) = -6 = c/a → c = -6
-
-Since a = 1: x² - (sum)x + product = 0
-**x² - x - 6 = 0**
-
-**Common Mistakes to Avoid:**
-1. Forgetting to set the equation equal to zero before factorising
-2. Incorrectly calculating the discriminant (sign errors)
-3. Forgetting the ± when applying the quadratic formula
-4. Simplifying incorrectly (e.g., √49 = ±7, not just 7)
-5. Losing the negative sign on b in the formula x = (-b ± √Δ)/2a
-
-**Problem-Solving Strategy:**
-1. Write the equation in standard form ax² + bx + c = 0
-2. Calculate the discriminant to determine solution method
-3. If Δ is a perfect square and factors are simple, factorise
-4. Otherwise, use the quadratic formula
-5. Verify solutions by substitution
-6. For word problems, define the variable clearly and form the equation before solving
+> ⚠️ **Examiner Trap:** With c negative, students panic and change the sign of D or write b² + 4ac. D = b² − 4ac must keep the minus sign — the factor 4 multiplies whatever sign c carries, and a negative c makes D bigger, not smaller.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-**Derivation of the Quadratic Formula**
+#### Advanced Traps and Edge Cases
 
-Starting from ax² + bx + c = 0:
+1. **a = 0 collapse** — if the coefficient of x² is zero, the equation is linear, not quadratic. Examiners hide this by writing 3x² + 0x − 12 = 0 in disguise.
+2. **Repeated-root geometry** — D = 0 means the parabola just **kisses** the x-axis; the vertex equals the root, so x = −b/(2a) is the only solution.
+3. **Negative root rejection** — in word problems about ages, lengths, or speeds, the negative root is algebraically valid but contextually meaningless; always state which root is admissible.
+5. **Parameter quadratics** — equations like kx² + (k+1)x + 1 = 0 require using D ≥ 0 to find the range of k for real roots.
+6. **Simultaneous pair** — substituting y = mx + c into xy = 4 produces a quadratic in x alone; missing a factor when rearranging produces a "lost root".
 
-1. Divide by a (assuming a ≠ 0): x² + (b/a)x + c/a = 0
-2. Move constant term: x² + (b/a)x = -c/a
-3. Complete the square: add [(b/a)/2]² = (b/2a)² to both sides
-   x² + (b/a)x + (b/2a)² = -c/a + (b/2a)²
-4. Left side is now a perfect square:
-   (x + b/2a)² = (b² - 4ac) / 4a²
-5. Take square root: x + b/2a = ±√(b² - 4ac) / 2a
-6. Solve for x: **x = (-b ± √(b² - 4ac)) / 2a**
+| Scenario | What students typically do wrong | Correct discipline |
+|---|---|---|
+| a = 0 hidden as "0x²" | Apply the quadratic formula | First verify a ≠ 0 before any formula |
+| Forming equation from roots | Write x² + (sum)x + product = 0 | Use **minus** signs: x² − (sum)x + product = 0 |
+| D < 0 in a word problem | Declare "no solution" outright | State "no real solution" and check if context allows complex |
+| Factor of 2a missed | Write x = (−b ± √D)/a | Denominator is 2a, never just a |
+| Simultaneous substitution | Leave x and y mixed in one line | Eliminate one variable fully, then solve quadratic in the other |
 
-**Vieta's Formulas and Symmetric Functions**
+#### Connection to Adjacent Topics
 
-For quadratic ax² + bx + c = 0 with roots α and β:
-- Sum of roots: α + β = -b/a
-- Product of roots: αβ = c/a
+Quadratic equations feed **coordinate geometry** (parabola sketching), **inequalities** (sign chart of ax² + bx + c), **sequences and series** (solving for common ratio of a GP), and **calculus** (finding stationary points by setting derivative to zero, which produces a quadratic). Mastery here unlocks four other WASSCE topics at once.
 
-These relationships allow rapid calculation without finding individual roots:
-If roots are 4 and 1/2, the equation is:
-x² - (4 + 0.5)x + (4 × 0.5) = 0 → **x² - 4.5x + 2 = 0**
-(Or multiply by 2 to avoid fractions: 2x² - 9x + 4 = 0)
+#### Advanced Practice Prompts
 
-**Condition for Real Roots**
+- If α and β are roots of 3x² − 7x + 2 = 0, find an equation whose roots are α/β and β/α without solving the original.
+- A rectangle has area 84 m² and perimeter 38 m. Set up, then solve, the quadratic that gives its dimensions.
 
-For real roots, we require Δ ≥ 0:
-- Two distinct real roots: Δ > 0
-- One repeated real root: Δ = 0
-- No real roots: Δ < 0
+---
 
-This has practical applications:
-Find k such that x² + kx + 4 = 0 has real roots.
-Δ = k² - 16 ≥ 0
-k² ≥ 16
-|k| ≥ 4
-**k ≤ -4 or k ≥ 4**
+## Continue your study
 
-**Maximum and Minimum Values**
-
-The vertex of y = ax² + bx + c occurs at x = -b/2a.
-- If a > 0, this is a minimum point (parabola opens upward)
-- If a < 0, this is a maximum point (parabola opens downward)
-
-For y = -3x² + 12x - 5:
-x-coordinate of vertex: -12/(2 × -3) = -12/-6 = 2
-Maximum value: y = -3(4) + 12(2) - 5 = -12 + 24 - 5 = **7**
-
-**Word Problems Leading to Quadratic Equations**
-
-"The product of two consecutive integers is 272. Find the integers."
-
-Let integers be n and n + 1:
-n(n + 1) = 272
-n² + n - 272 = 0
-(n + 17)(n - 16) = 0
-n = 16 or n = -17
-
-Solutions: (16, 17) or (-17, -16)
-
-**Simultaneous Equations Involving Quadratics**
-
-Solve: x + y = 5 ... (1)
-xy = 6 ... (2)
-
-From (1): y = 5 - x
-Substitute into (2): x(5 - x) = 6
-5x - x² = 6
-x² - 5x + 6 = 0
-(x - 2)(x - 3) = 0
-x = 2 or x = 3
-
-Corresponding y values: y = 3 or y = 2
-Solutions: **(2, 3) and (3, 2)**
-
-**WASSCE Examination Patterns:**
-
-WASSCE quadratic equation questions commonly include:
-1. Solving by factorisation (Objective)
-2. Solving using the quadratic formula (Objective and Theory)
-3. Finding the discriminant and determining nature of roots (Objective)
-4. Forming equations from given roots (Theory)
-5. Word problems leading to quadratic equations (Theory)
-
-⚡ **Pro Exam Tip:** In the WASSCE, when using the quadratic formula, always simplify √(b² - 4ac) completely before proceeding. If the discriminant is a perfect square, the equation factorises neatly. For "show that" questions, express your answer in terms of the given coefficients rather than calculating numerical values.
+- **[View this topic in your Legon Admissions (Ghana) roadmap](/roadmap/?exam=legon-adm&duration=1mo)** — see where "Quadratic Equations" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=legon-adm&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Legon Admissions (Ghana) exam overview](/exams/legon-adm/)** — pattern, eligibility, and syllabus
+- **[All Wassce-Subjects notes](/notes/legon-adm/wassce-subjects/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

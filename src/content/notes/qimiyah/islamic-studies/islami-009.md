@@ -8,7 +8,7 @@ topicName: Zakat (Almsgiving)
 weight: 3
 country: saudi
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-16"
 ---
 
 # Zakat (Almsgiving)
@@ -16,181 +16,123 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Zakat** (زكاة) is the third pillar of Islam — a compulsory charitable levy of 2.5% on specific types of wealth held for one lunar year by a financially able Muslim.
+Zakat (Arabic: زكاة, "purification" and "growth") is the **third Pillar of Islam** — an obligatory annual almsgiving paid by every sane, adult, free Muslim who holds wealth above the **nisab** for one full **Hijri (lunar) year (hawl)**. It differs from voluntary *sadaqah* because it is *fard* (compulsory) on qualifying wealth and must reach the eight specified categories in Surah **at-Tawbah 9:60**.
 
-**Key Facts for Qimiyah Exam (Saudi):**
-- Zakat is **Fard** (obligatory) on four categories: gold/silver, commercial goods, agricultural produce, and livestock (nisa').
-- **Nisab thresholds:** Gold = 85 grams; Silver = 595 grams; Cash/commercial goods = equivalent value of 85g of gold.
-- Zakat year (Hawl) = 1 lunar year (approx. 354 days), not solar year.
-- Recipients (Mustahiq): 8 categories listed in Surah At-Tawbah 9:60 — the poor, the needy, Zakat collectors, new converts, captives, those in debt, Allah's cause, and the traveller.
-- **Zakat al-Fitr (Sadaqat al-Fitr):** Wheat, barley, dates, or raisins equivalent to approximately 3 kg per person; payable before Eid al-Fitr prayer. This is distinct from Zakat al-Mal.
+- **Zakat al-Mal rate:** 2.5% of net zakatable wealth held for one *hawl*.
+- **Nisab (minimum threshold):** 85 g of pure gold **OR** 595 g of pure silver (the lower monetary value is conventionally applied).
+- **Zakat al-Fitr:** a separate obligation, paid before Eid al-Fitr, typically one *Saa'* ≈ 2.5–3 kg of staple food (or its monetary equivalent) per household member.
+- **Buried treasure / rikaaz:** fixed at **20% (1/5)** — not 2.5%.
+- **Agricultural produce:** **10%** if rain/river-fed, **5%** if irrigated by well or mechanical system.
+- **Not zakatable:** personal residence, household furniture, personal car, clothing used personally.
 
-**⚡ Exam tip:** The Nisab threshold and the 2.5% rate for gold/silver/cash are among the most frequently asked questions. Also know the difference between Zakat al-Mal and Zakat al-Fitr.
+> 💡 **High-Yield Memory Hook:** **"2.5 – 85 – 595 – 20 – 10/5"** — these five numbers cover every Qimiyah Zakat calculation question. The first three = wealth rate, gold nisab, silver nisab; **20** = rikaaz; **10/5** = rain-fed vs. irrigated crops.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-## Definition and Legal Status
+#### Core Definition and Legal Status
 
-Zakat linguistically means "purification" and "growth." In Shari'ah, it refers to the specific portion of wealth that Allah has ordained to be given to designated recipients. The Quran describes it as accompanying prayer: *"And establish prayer and give Zakat"* (Surah Al-Baqarah 2:43).
+Zakat is *fard* (obligatory) on every Muslim who simultaneously meets **six conditions**: Islam, sanity (*aql*), puberty (*bulugh*), freedom (*hurriyyah*), full ownership (*milk tamm*), and possession of wealth above the nisab for one complete *hawl* (354 or 355 days). Wealth held for less than a full lunar year is exempt, except for **agricultural produce** (paid at every harvest) and **rikaaz** (paid on discovery).
 
-The giving of Zakat is a means of:
-1. **Purifying the soul** from greed and attachment to wealth
-2. **Purifying wealth** itself — wealth that is not shared stagnates
-3. **Redistributing wealth** to reduce economic inequality
-4. **Serving the poor** and community welfare
+#### Nisab and the Calculation Formula
 
-### Conditions (Shurut) of Zakat
+The nisab exists for both gold and silver, and the **lower of the two monetary equivalents is conventionally applied** so that more Muslims qualify as payers.
 
-Zakat becomes obligatory when ALL of the following are met:
+| Metal / Asset | Nisab Threshold | Rate | SI Equivalent (mass) |
+|---|---|---|---|
+| Gold (pure, 24 K) | 85 g | 2.5% | 0.085 kg |
+| Silver (pure) | 595 g | 2.5% | 0.595 kg |
+| Cash, bank balance, trade goods | Value equal to **silver nisab** | 2.5% | — |
+| Buried treasure (rikaaz) | Any amount found | 20% (1/5) | — |
+| Rain-fed / river crops | Any harvest | 10% ('ushr) | — |
+| Well / mechanically irrigated crops | Any harvest | 5% (half 'ushr) | — |
 
-1. **Islam** — Zakat is only obligatory on Muslims. Non-Muslims do not pay Zakat.
-2. **Freedom** — A slave is not required to pay Zakat (in classical fiqh).
-3. **Ownership (Milkiyyah)** — The wealth must be genuinely owned by the person.
-4. **Full ownership** — The wealth must be in the person's complete control without legal impediment.
-5. **Nisab** — The wealth must equal or exceed the minimum threshold (Nisab).
-6. **Hawl (Complete Lunar Year)** — The wealth must have been possessed for one full lunar year (for gold, silver, and cash). Agricultural Zakat is due immediately upon harvest.
-7. **Debts** — Debt owed to others reduces the net wealth subject to Zakat.
-8. **Ability (Istiqlal)** — The basic needs of the person and their family must be met.
+**Formula:** Zakat due = (Total zakatable wealth − short-term liabilities) × 2.5 / 100.
+Where wealth is measured in Saudi Riyals (SAR), grams of gold, or grams of silver, and liabilities are short-term debts due within the *hawl*.
 
-### Categories of Zakat
+#### Zakat al-Mal vs. Zakat al-Fitr
 
-#### 1. Zakat on Gold and Silver
-
-Any gold or silver jewellery, bullion, or currency (if backed by gold/silver) exceeding the Nisab threshold is subject to Zakat.
-
-- **Rate:** 2.5% (1/40) per lunar year
-- **Nisab (gold):** 85 grams of pure gold (or its cash equivalent)
-- **Nisab (silver):** 595 grams of pure silver (or its cash equivalent)
-
-**Example:** If a person owns 100g of gold for one full lunar year, and gold's market price is SAR 300/g, the Nisab is SAR 25,500. Zakat = 2.5% of the gold's value = SAR 750.
-
-#### 2. Zakat on Commercial Goods (Zakat al-Tijarah)
-
-Goods purchased for the purpose of resale (merchandise) are subject to Zakat at 2.5%, calculated on the current market value of all goods.
-
-**Method:** At the end of the Zakat year, take the total value of goods, add cash on hand, subtract debts owed, then calculate 2.5% of the remainder.
-
-#### 3. Zakat on Agriculture (Zakat al-Khubz wa al-Zara')
-
-- **Rate:** 10% if watered by rain/natural means; 5% if watered by artificial irrigation (wells, pumps).
-- **Nisab:** Approximately 653 kg of wheat (or equivalent value) — the amount that feeds a family of five for a year.
-- **Due:** Immediately upon harvest, without waiting for the Hawl.
-
-#### 4. Zakat on Livestock (Zakat al-Nisa')
-
-The classical category includes camels, cattle, and sheep/goats. This is less commonly examined in the Qimiyah context but remains part of the syllabus.
-
-| Animal | Nisab | Rate (per excess) |
+| Feature | Zakat al-Mal | Zakat al-Fitr |
 |---|---|---|
-| Sheep/Goats | 40 | 1 sheep/goat |
-| Cattle | 30 | 1 cow per 30 |
-| Camels | 5 | 1 camel per 5 |
+| Timing | Once per Hijri year, any month | Before Eid al-Fitr prayer |
+| Rate | 2.5% of qualifying wealth | One *Saa'* of staple food per person |
+| Subject | Wealth above nisab | Every Muslim (including children) |
+| Intention (niyyah) | Required | Required |
+| Recipient | Eight categories of *masarif al-zakat* | Same eight categories |
 
-#### 5. Zakat on Income and Salaries
+#### The Eight Recipients (Masarif al-Zakat)
 
-Contemporary scholars differ on whether annual income beyond basic needs is subject to Zakat. The majority of Saudi scholars (following Ibn Taymiyyah) hold that if savings from income reach the Nisab and complete a Hawl, Zakat is due on them at 2.5%.
+From Surah **at-Tawbah 9:60**: (1) the poor (*al-fuqara*), (2) the needy (*al-masakin*), (3) zakat administrators, (4) those whose hearts are to be reconciled, (5) those freeing captives / slaves, (6) debtors, (7) those in the cause of Allah (*fi sabilillah*), (8) travellers in need.
 
-### Recipients of Zakat (Mustahiq)
+> ⚠️ **Examiner Trap:** Wealthy relatives are **not** eligible. Paying Zakat to one's parents, grandparents, children, grandchildren, or spouse is invalid — they are your financial dependents. Likewise, donating to a mosque building fund or to "all Muslims" is **not** valid Zakat distribution.
 
-The Quran specifies **eight categories** in Surah At-Tawbah 9:60:
+#### 🎯 Exam-Level Worked Problem
 
-1. **Al-Fuqara (The Poor)** — Those whose wealth is below the Nisab
-2. **Al-Masakin (The Needy)** — Those in severe deprivation even if not technically below Nisab
-3. **Amil al-Zakat (Zakat Collectors)** — Officials appointed to collect and distribute Zakat
-4. **Muallafat al-Qulub (New Converts)** — To strengthen the faith of recent Muslims
-5. **Ar-Riqab (Captives/Slaves)** — To free those in bondage
-6. **Al-Gharimin (Those in Debt)** — Those who cannot repay legitimate debts
-7. **Fi Sabil Allah (In Allah's Cause)** — For Islamic causes: jihad, mosques, schools, infrastructure
-8. **Ibn al-Sabil (The Traveller)** — Those stranded during travel
+**Question:** A trader in Riyadh owns 120 g of gold jewellery (24 K), 5,000 SAR in cash, trade inventory worth 40,000 SAR, and a personal car worth 60,000 SAR. He owes 8,000 SAR in short-term supplier debt. Assuming the gold nisab value equals 5,000 SAR and the silver nisab value equals 3,500 SAR, calculate his annual Zakat al-Mal.
 
-**Forbidden recipients:** A wealthy person, a non-Muslim, the Prophet's family (Bani Hashim), and the dependent family members of a person who is himself a Mustahiq.
+#### Solution:
+
+1. Identify zakatable assets (exclude personal car): gold 120 g, cash 5,000 SAR, trade inventory 40,000 SAR.
+2. Total zakatable wealth = 5,000 + 5,000 + 40,000 = **50,000 SAR**.
+3. Deduct short-term liabilities: 50,000 − 8,000 = **42,000 SAR** net.
+4. Nisab threshold is the **lower** of gold (5,000) and silver (3,500) = **3,500 SAR**. Net wealth exceeds nisab ✓.
+5. Apply rate: 42,000 × 2.5 / 100 = **1,050 SAR** Zakat due.
+
+> ⚠️ **Examiner Trap:** Many students use the **gold** nisab (5,000 SAR) instead of the **silver** nisab (3,500 SAR). Because silver is lower, it correctly captures more payers — examiners deliberately test that you pick the **lower** value. Also, students frequently forget to deduct the 8,000 SAR supplier debt.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-## Advanced Zakat Calculations and Contemporary Issues
+#### Edge Cases and Boundary Conditions
 
-### Zakat Calculation Formula
+1. **Mixed metals and alloys:** Only the *pure* gold or silver weight counts toward nisab. An 18 K gold ring is 75% gold; therefore 100 g of the ring counts as 75 g pure gold — below the 85 g gold nisab.
+2. **Hawl interruption:** If wealth drops **below nisab** during the year, the *hawl* resets. If it stays above nisab continuously, the original starting date is retained.
+3. **Debt treatment:** Only **short-term, immediately due** debts are deducted. Long-term mortgages payable over 20 years are not deducted in full; typically the next 12-month instalment is subtracted.
+4. **Rental property:** Property held for **personal residence** is exempt; property held for **rental income** is zakatable on its market value plus accumulated rent receivable.
+5. **Stocks and shares:** Zakatable at **market value** if held for trading; long-term strategic investment in a company whose primary assets are zakat-compliant may follow the underlying assets' value.
+6. **Rikaaz:** Buried treasure or unowned found wealth is **20%** regardless of nisab and regardless of *hawl* — it is zakatable on discovery.
+7. **Zakat al-Fitr amount:** The classical measure is one *Saa'* ≈ 2.5–3 kg of dates, barley, wheat, or rice. The Hanbali school permits its monetary equivalent at the local staple-food price.
 
-```
-Net Zakatable Wealth = 
-  (Cash + Bank Balances + Investments + Gold/Silver Value + Market Value of Commercial Goods)
-  MINUS (Debts Owed to Others)
-  
-Zakat Due = Net Zakatable Wealth × 2.5%
-```
+#### Comparison Matrix — Frequently Confused Concepts
 
-**Worked Example:**
-A person has: SAR 50,000 in savings, 90g of gold jewellery, SAR 20,000 in business inventory value, and owes SAR 10,000 in a personal loan.
+| Concept | Zakat al-Mal | Zakat al-Fitr | Sadaqah | Sadaqah Wajibah |
+|---|---|---|---|---|
+| Obligation type | Fard | Fard | Voluntary | Vowed / required by circumstance |
+| Rate | 2.5% | Fixed amount per person | Any amount | Any amount |
+| Timing | Annual (Hijri) | Before Eid al-Fitr | Any time | Any time |
+| Niyyah required | Yes | Yes | No | Recommended |
+| Eligible recipients | 8 categories | 8 categories | Anyone, including relatives | Anyone in need |
+| Penalty for omission | Sin, wealth not purified | Sin, must be repaid | None | Must be fulfilled |
 
-- Gold value at Nisab: 90g × SAR 300 = SAR 27,000
-- Total wealth: SAR 50,000 + SAR 27,000 + SAR 20,000 = SAR 97,000
-- Minus debt: SAR 97,000 − SAR 10,000 = SAR 87,000
-- This exceeds the Nisab (85g × SAR 300 = SAR 25,500), so Zakat is due.
-- Zakat = SAR 87,000 × 2.5% = SAR 2,175
+#### Common Qimiyah Traps and How to Avoid Them
 
-### The Zakat Year (Hawl) — Critical Timing Rules
-
-The lunar year (Hawl) is strictly lunar, not solar. One lunar year = 12 lunar months ≈ 354 days.
-
-**Key points:**
-- If wealth falls below Nisab during the year but later rises above it, the Hawl resets from the date it reached Nisab.
-- When wealth is inherited, the new owner starts a new Hawl from the date of inheritance.
-- A person can choose any date as their Zakat year-end (e.g., the date of receiving salary), as long as it is consistently applied.
-
-### Zakat vs. Sadaqah — Key Distinctions
-
-| Feature | Zakat | Sadaqah (Voluntary Charity) |
+| Trap | Why Students Fall for It | Correct Answer |
 |---|---|---|
-| Obligation | Fard (compulsory) | Mustahab (recommended) |
-| Amount | Fixed (2.5% for wealth) | Any amount |
-| Recipients | 8 specified categories | Anyone in need |
-| Time | Annual (Hawl-based) | Anytime |
-| Penalty for non-payment | Sin + accountability | Only sin |
-| Collectibility | Can be enforced by state | Cannot be forced |
+| "Zakat is 2.5% on all wealth" | Over-generalising the rate | Personal-use items and residence are exempt |
+| "Eight recipients includes all Muslims" | Misreading 9:60 | Exactly 8 categories; rich dependents excluded |
+| "Gold nisab is used by default" | Memorising only one threshold | Use the **lower** of gold or silver nisab |
+| "Hawl applies to all Zakat" | Generalising the rule | Agricultural produce and rikaaz are exceptions |
+| "Zakat to a poor uncle is valid" | Confusing Zakat with family duty | Relatives you already support are not eligible recipients |
 
-### Zakat al-Fitr — Sadaqat al-Fitr
+#### Advanced Practice Prompts
 
-Often confused with Zakat al-Mal, Zakat al-Fitr is a completely separate obligation:
+1. **Numeric:** A farmer harvests 8 tonnes of wheat from a rain-fed field and 5 tonnes from a well-irrigated plot. What is his total Zakat in kilograms? (Answer: 800 + 250 = 1,050 kg).
+2. **Conceptual:** Explain in four lines why Zakat on a personal car is invalid, while Zakat on a taxi used commercially is obligatory, citing ownership purpose and Shariah reasoning.
 
-- **Amount:** Approximately 3 kg (or value equivalent) of staple food (wheat, barley, dates, raisins) per person, including dependants, servants, and even the unborn child.
-- **Time:** Payable from the night before Eid al-Fitr until the Eid prayer. It is SUNNAH to pay before going to the Eid prayer; it becomes Wajib if delayed.
-- **Purpose:** To purify the fasting person from idle talk and to ensure the poor have a dignified Eid.
-- **Recipient:** The same eight categories as Zakat al-Mal, though most scholars allow giving it to the poor specifically.
+> 💡 **High-Yield Revision Hook:** When a Qimiyah question asks "the rate payable on buried treasure" — the answer is **20%**, not 2.5%. When it asks "the rate on rain-fed crops" — the answer is **10%**. Memorising the five-number chain (**2.5 – 85 – 595 – 20 – 10/5**) covers every quantitative Zakat question in the paper.
 
-### Contemporary Issues in Zakat
+---
 
-**1. Cryptocurrency and Digital Assets:**
-The Saudi Zakat Authority (ZATCA) and other Islamic scholars have debated whether cryptocurrencies are subject to Zakat. The prevailing view is that if cryptocurrency is held as a currency or investment (like gold), Zakat at 2.5% applies. If it is merely a speculative asset, the ruling is still under discussion.
+## Continue your study
 
-**2. Stocks and Shares:**
-- **Trading stocks (for quick resale):** Treated as commercial goods (Zakat al-Tijarah) — 2.5% on market value.
-- **Long-term investment stocks:** Many scholars hold that only the dividend (not the principal) is subject to Zakat if it is distributed as cash savings.
-- The ZATCA in Saudi Arabia requires Zakat on the market value of shares held for trade.
-
-**3. Zakat on Retirement Savings (Pension/EPF):**
-Scholars disagree. If the savings are considered a debt owed to the person by the employer, some scholars apply Zakat at 2.5% on the accumulated amount; others exempt pension savings.
-
-### Practice Questions for Qimiyah Exam
-
-1. A person has owned 82g of gold for 10 months. After 2 more months, will Zakat be due? Calculate if gold is SAR 280/g and Nisab is 85g.
-2. What is the difference between Zakat al-Fitr and Zakat al-Mal in terms of: amount, time, obligation, and recipients?
-3. Can a person give their Zakat to a close relative who is poor? What is the scholarly opinion?
-4. A farmer harvested 1,000 kg of wheat using a tube well (artificial irrigation). How much Zakat is due?
-5. Who among the following can receive Zakat: (a) a millionaire's son, (b) a non-Muslim charity, (c) a person building a mosque, (d) a person in unmanageable debt?
-
-### Common Mistakes to Avoid
-
-- **Calculating Zakat on the original cost of goods rather than current market value** — for commercial goods, the current resale value is used.
-- **Forgetting to subtract debts from total wealth** — debts reduce the Zakatable amount.
-- **Confusing Nisab for gold (85g) with Nisab for silver (595g)** — the higher of the two that applies to one's wealth determines the threshold.
-- **Thinking Zakat al-Fitr can be paid in cash equivalent** — the preferred view is to give actual food; cash is permissible according to many scholars but not the most preferred.
-- **Neglecting the lunar calendar** — the Hawl is lunar, not solar. Using solar dates will result in incorrect timing.
+- **[View this topic in your Qimiyah Exam (Saudi) roadmap](/roadmap/?exam=qimiyah&duration=1mo)** — see where "Zakat (Almsgiving)" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=qimiyah&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Qimiyah Exam (Saudi) exam overview](/exams/qimiyah/)** — pattern, eligibility, and syllabus
+- **[All General Studies notes](/notes/qimiyah/islamic-studies/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

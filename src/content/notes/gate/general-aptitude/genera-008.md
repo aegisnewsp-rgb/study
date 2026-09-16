@@ -8,193 +8,117 @@ topicName: "Permutation, Combination and Probability"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-16"
 ---
 
 # Permutation, Combination and Probability
 
-These three topics are deeply connected: counting principles (P&C) feed directly into probability. GATE tests them with surprising variety — from simple arrangement counts to conditional probability with Bayes' theorem.
-
----
-
 ### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your GATE paper.
 
-> **Core formulas:**
-> - **Fundamental Counting Principle (FCP):** If task 1 has m ways and task 2 has n ways, both can be done in m × n ways.
-> - **Permutation (arrangement):** P(n,r) = n!/(n−r)! — ORDER matters
-> - **Combination (selection):** C(n,r) = n!/[r!(n−r)!] — ORDER doesn't matter
-> - **Probability of event E:** P(E) = Favorable outcomes / Total outcomes
-> - **P(A or B)** = P(A) + P(B) − P(A and B)
-> - **P(A and B)** = P(A) × P(B) (only if A and B are independent)
+Permutation, Combination and Probability is a General Aptitude unit (syllabus code TA1) carrying **3 marks** out of 100 — typically one 1-mark MCQ and one 2-mark MCQ or NAT — and is mandatory across every GATE paper (CS, EC, ME, CE, EE, and 25+ others). Counting (permutation/combination) feeds directly into the probability portion, since classical probability is built on counting favourable and total equally-likely outcomes.
 
-**⚡ GATE exam tip:** Remember: C(n,r) = C(n,n−r). This symmetry can halve your calculation work — if you know C(n,k), you immediately know C(n,n−k).
+#### Core Formulas at a Glance
 
-**⚡ Quick trick:** For arrangements of "MISSISSIPPI" type (repeated letters), formula = n!/[p!×q!×r!...] where p, q, r are frequencies of repeated letters.
+| Concept | Formula | Variables (SI/Units) | When to use |
+|---|---|---|---|
+| Permutation | P(n,r) = n!/(n−r)! | n = total distinct objects (integer, dimensionless); r = positions filled (integer) | **Order matters** ("arrange", "rank", "queue") |
+| Combination | C(n,r) = n!/[r!(n−r)!] | n = total; r = selected (both integer, dimensionless) | **Order does not matter** ("choose", "select", "team") |
+| Circular permutation | (n−1)! | n = distinct objects around a circle | Necklace / round-table arrangements |
+| Identical objects | n!/(n₁! n₂! … nₖ!) | n₁ + n₂ + … + nₖ = n | Letters with repeats (e.g., APPLE) |
+| Classical probability | P(E) = n(E)/n(S) | n(E), n(S) are outcome counts | Finite, equally-likely sample space |
+| Conditional / Bayes | P(A\|B) = P(A∩B)/P(B); P(Aᵢ\|B) = P(B\|Aᵢ)P(Aᵢ)/ΣⱼP(B\|Aⱼ)P(Aⱼ) | All terms are dimensionless ratios in [0,1] | Two-stage / "given that…" problems |
 
-**⚡ Common trap:** P(n,r) vs C(n,r) — if the question says "arrange" or "order" or "ways to seat" → permutation (order matters). If it says "select," "choose," "form a team" → combination (order doesn't matter).
+> 💡 **High-Yield Memory Hook:** **"Arrange → Permute, Pick → Combine"** — read the verb first. Also remember the link **P(n,r) = C(n,r) · r!** (every ordered r-tuple is an unordered r-set times r! orderings). For Bayes', use the weight **"Prior × Likelihood, normalised by Total"** — plug P(Aᵢ) and P(B|Aᵢ) into the numerator, then divide by Σ of the same product over all i.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for a few days to a few months of GATE prep.
 
-#### Fundamental Counting Principle (FCP)
+GATE tests two distinct skills under TA1: **counting** (how many ways something can happen) and **probability** (how likely, on a 0–1 scale, it happens). Misreading the verb in the question — "arrange" vs "choose" — flips the formula from P(n,r) to C(n,r) and is the single most common reason students lose the 2-mark question.
 
-The FCP is the backbone of all counting problems:
+#### Counting Principles and Permutations
 
-If a work can be done in **m** ways, and regardless of which way you choose for the first task, the second task can be done in **n** ways, then **both** can be done in **m × n** ways.
+The **Fundamental Principle of Counting (FPC)** splits a task into independent steps: if step 1 can be done in m ways and step 2 in n ways, the combined task has **m·n** ways. For mutually exclusive ways, the rule becomes **m + n**. **Inclusion–Exclusion** handles overlaps: |A ∪ B| = |A| + |B| − |A ∩ B|, generalising to three sets as |A ∪ B ∪ C| = Σ|Aᵢ| − Σ|Aᵢ ∩ Aⱼ| + |A ∩ B ∩ C|.
 
-**GATE Example:** From city X to Y there are 3 bus routes and 2 train routes. From Y to Z there are 4 bus routes and 1 train route. How many ways to travel X→Y→Z?
-> X→Y: 3+2 = 5 ways (but choose either bus OR train, so 3+2 = 5 not 3×2)
-> Actually: If taking bus X→Y (3 ways), then Y→Z bus (4 ways): 3×4 = 12 ways.
-> If taking train X→Y (2 ways), then Y→Z train (1 way): 2×1 = 2 ways.
-> Total = 12 + 2 = **14 ways**.
+A **permutation** P(n,r) = n!/(n−r)! counts ordered arrangements of r objects drawn from n distinct objects. When objects repeat, divide by the factorial of each repeated group's count: arrangements of "APPLE" = 5!/2! = 60, because the two P's are indistinguishable. **Circular permutation** of n distinct objects = (n−1)!; fix one object to remove rotational symmetry.
 
-#### Permutations
+#### Combinations and the Binomial Theorem
 
-**P(n,r) = n!/(n−r)!** — arrangements of r objects from n distinct objects.
+A **combination** C(n,r) = n!/[r!(n−r)!] counts unordered selections. The symmetry identity **C(n,r) = C(n, n−r)** lets you compute the smaller side when r > n/2. Pascal's identity **C(n,r) = C(n−1,r−1) + C(n−1,r)** is the recursion behind Pascal's Triangle and connects to the **binomial expansion** (a+b)ⁿ = Σₖ₌₀ⁿ C(n,k) aᵏ bⁿ⁻ᵏ — directly relevant to Binomial distribution probabilities.
 
-**Special cases:**
-- P(n,n) = n! (arrangements of all n objects)
-- P(n,0) = 1
-- P(n,1) = n
+#### Comparison Matrix: Permutation vs Combination vs Circular vs Identical
 
-**Circular permutations:**
-- n people around a round table: (n−1)! arrangements
-- If clockwise and anticlockwise arrangements are considered the same (i.e., no distinct "direction"), divide further by 2.
+| Feature | Permutation P(n,r) | Combination C(n,r) | Circular (n−1)! | Identical n!/(n₁!n₂!…) |
+|---|---|---|---|---|
+| Order matters? | Yes | No | Yes (cyclic) | Yes |
+| Divide by repeats? | No | No | No | Yes |
+| Typical verb in question | "arrange, rank, seat" | "select, choose, team, committee" | "round table, necklace" | "letters of WORD" |
+| Formula | n!/(n−r)! | n!/[r!(n−r)!] | (n−1)! | n!/(n₁!·n₂!·…·nₖ!) |
+| Example trigger | Rank top 3 of 100 | Pick 3 from 100 | Seat 8 around a table | Arrangements of BANANA = 6!/(3!·2!·1!) |
 
-**GATE Example (2019, 1 mark):** How many ways can the letters of the word "GATE" be arranged?
-> All 4 letters distinct → P(4,4) = 4! = **24 ways**.
+#### Probability Foundations
 
-**GATE Example:** In how many ways can 5 people be seated around a circular table?
-> (5−1)! = **24 ways**.
+Classical **probability** P(E) = n(E)/n(S) requires a finite sample space where every elementary outcome is equally likely. The **complement rule** P(E′) = 1 − P(E) turns "at least one" problems into tractable "none" calculations. **Conditional probability** P(A|B) = P(A∩B)/P(B) (with P(B) > 0) formalises "given B has occurred". Events are **independent** iff P(A∩B) = P(A)·P(B); mutually exclusive ≠ independent unless one event has probability 0.
 
-#### Combinations
+**Bayes' theorem** P(Aᵢ|B) = P(B|Aᵢ)P(Aᵢ) / Σⱼ P(B|Aⱼ)P(Aⱼ) is GATE's favourite two-stage problem: defective items from multiple suppliers, medical test accuracy, urn-with-replacement switches. The denominator Σⱼ P(B|Aⱼ)P(Aⱼ) is the **Total Probability**.
 
-**C(n,r) = n!/[r!(n−r)!]** — selection of r objects from n distinct objects without regard to order.
+#### Random Variables and the Binomial Distribution
 
-**Key properties:**
-- C(n,0) = C(n,n) = 1
-- C(n,r) = C(n,n−r) (symmetry)
-- C(n,r) + C(n,r+1) = C(n+1, r+1) (Pascal's identity)
-- C(n,r) is maximum when r = n/2 (for given n)
+A **random variable** X assigns a number to each outcome; its **expectation** E(X) = Σ xᵢP(xᵢ) is the long-run average, and **variance** Var(X) = E(X²) − [E(X)]² measures spread. Expectation is **linear**: E(aX+bY) = aE(X) + bE(Y), but variance scales quadratically: Var(aX+b) = a²·Var(X). A **Binomial B(n,p)** setting requires four conditions: fixed n, two outcomes, constant p, independence. Then P(X=k) = C(n,k)pᵏ(1−p)ⁿ⁻ᵏ, with E(X) = np and Var(X) = np(1−p).
 
-**GATE Example:** A committee of 3 is to be formed from 7 people. How many ways?
-> C(7,3) = 7!/(3!×4!) = (7×6×5)/(3×2×1) = **35 ways**.
+#### 🎯 Exam-Level Worked Problem
 
-#### Probability — Basics
+**Question:** A box contains 3 red and 5 blue balls. Two balls are drawn **without replacement**. What is the probability that the second ball drawn is red, **given that the first ball drawn is red**? (Answer in simplest form.)
 
-**P(E) = Number of favorable outcomes / Total number of equally likely outcomes**
+#### Solution:
 
-**Key axioms:**
-- 0 ≤ P(E) ≤ 1
-- P(S) = 1 (where S is the sample space)
-- P(∅) = 0
+Step 1 — Identify the conditional event: we need P(second red | first red) = P(A|B), where B = "first ball is red".
 
-**Odds in favor:** If P(E) = p/(p+q), then odds in favor = p:q.
-**Odds against:** q:p.
+Step 2 — Use the **without-replacement** logic directly (a faster route than Bayes'): after drawing one red, the box has **2 red and 5 blue = 7 balls total**.
 
-**GATE Example:** A die is thrown. Find the probability of getting a prime number.
-> Prime numbers on a die: 2, 3, 5 → 3 outcomes. Total outcomes = 6.
-> P = **3/6 = 1/2**.
+Step 3 — Compute: P(A|B) = favourable/total = 2/7.
 
-#### Probability — Compound Events
+StepSolution check via Bayes' theorem: P(B) = 3/8; P(A∩B) = P(both red) = (3/8)(2/7) = 6/56 = 3/28; P(A|B) = (3/28)/(3/8) = (3/28)·(8/3) = 8/28 = **2/7** ✓.
 
-**Mutually exclusive events (cannot happen together):**
-P(A or B) = P(A) + P(B)
-
-**Independent events:**
-P(A and B) = P(A) × P(B)
-
-**GATE Example:** Two dice are thrown. Find P(sum is 8 or both show 6).
-> P(sum=8): (2,6),(3,5),(4,4),(5,3),(6,2) → 5 outcomes.
-> P(both show 6): (6,6) → 1 outcome.
-> P(sum=8 AND both show 6): only (6,6) satisfies both → 1 outcome.
-> By inclusion-exclusion: P = (5+1−1)/36 = **5/36**.
-
-#### Conditional Probability
-
-P(A|B) = P(A and B) / P(B) — probability of A given that B has occurred.
-
-**GATE Example:** From a deck of 52 cards, one card is drawn. If it's a face card (J, Q, K), what's the probability it's a king?
-> P(K|Face) = P(K and Face)/P(Face) = (4/52)/(12/52) = 4/12 = **1/3**.
+> ⚠️ **Examiner Trap:** Students frequently write P(A∩B) = P(A)·P(B) = (3/8)·(3/8) = 9/64, treating draws as independent. They are **not** independent because the box composition changes after the first draw — the second draw's sample space shrinks from 8 to 7. Always check whether the problem says "with replacement" or "without replacement"; only the former preserves independence.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students with three or more months of prep time.
 
-#### Bayes' Theorem
+GATE occasionally stretches TA1 into multi-step composites — a Bayes' problem wrapped inside a binomial count, or a circular arrangement with a divisibility constraint. These "trap-heavy" items require you to verify four layers: (1) correct counting family, (2) correct repetition handling, (3) correct conditional/posterior identification, and (4) correct final simplification (fractions, not decimals).
 
-P(A|B) = [P(B|A) × P(A)] / P(B)
+#### Advanced Traps and Edge Cases
 
-**GATE Advanced Example (2021, 2 marks):** Box 1 has 5 red and 5 black balls. Box 2 has 4 red and 6 black balls. A box is chosen at random and a ball is drawn. It is red. What is the probability it came from Box 1?
-> P(Box1) = P(Box2) = 1/2.
-> P(Red|Box1) = 5/10 = 1/2. P(Red|Box2) = 4/10 = 2/5.
-> P(Red) = (1/2 × 1/2) + (1/2 × 2/5) = 1/4 + 1/5 = 9/20.
-> P(Box1|Red) = [P(Red|Box1) × P(Box1)] / P(Red) = (1/2 × 1/2) / (9/20) = (1/4) × (20/9) = **5/9**.
+1. **Circular arrangements with a fixed reference:** n people around a round table = (n−1)!. But if **one specific person must sit opposite another**, divide further by 2 (you fixed one rotation, then the opposite-seat constraint breaks the remaining symmetry) → total = (n−1)!/2.
+2. **"At least one" vs "exactly one":** P(at least one) = 1 − P(none) is cleaner. P(exactly one) requires summing or using the binomial: Σᵢ P(Aᵢ)·Πⱼ≠ᵢ P(A'ⱼ).
+3. **Independence vs pairwise disjoint:** Two events with P(A), P(B) > 0 cannot be both mutually exclusive AND independent — because disjoint forces P(A∩B) = 0, while independence would force P(A∩B) = P(A)P(B) > 0. This contradiction appears in MSQ questions.
+4. **Bayes' with more than two priors:** GATE sometimes uses 3 boxes (e.g., 30%/50%/20% prior, with different defective rates). You must compute **all three** numerator weights and the **full denominator** before dividing — skipping one prior = wrong answer.
+5. **Variance of a linear combination:** Var(X + Y) = Var(X) + Var(Y) + 2·Cov(X,Y); only equals Var(X) + Var(Y) when X, Y are independent. A common error is adding variances of non-independent indicators.
 
-#### Permutations with Repeated Elements
+#### Connections to Adjacent GATE Topics
 
-The number of distinct arrangements of n objects where some are identical:
-> n! / (n₁! × n₂! × ... × nₖ!)
+TA1 sits inside **Engineering Mathematics / General Aptitude** alongside TA2 (Sets, Relations, Graphs, Logic). Venn-diagram counting tasks (|A ∪ B ∪ C|) merge TA1 with TA2. The Binomial distribution also recurs in **Queuing models** (CS) and **reliability engineering** (ME/EE) — the same P(X=k) = C(n,k)pᵏ(1−p)ⁿ⁻ᵏ governs k-success-out-of-n trials. Conditional probability is reused in **hypothesis testing** under Statistics (optional in some papers).
 
-**GATE Example:** How many distinct arrangements of "STATISTICS" are possible?
-> S appears 3 times, T appears 3 times, I appears 2 times, A and C appear 1 time each.
-> Total = 10! / (3! × 3! × 2! × 1! × 1!) = **50,400 distinct arrangements**.
+#### Time Management and Weightage
 
-#### Arrangement with Specific Conditions
+The GA section gives you **15 minutes for 10 questions** (1-mark × 5 + 2-mark × 5). Allocate **~2 minutes per 1-mark** and **~4 minutes per 2-mark**. Counting problems typically take longer — sketch the FPC tree on scratch paper before computing. Probability word problems demand identifying "given that…" clauses first; circle them in the statement before plugging in.
 
-**GATE Example:** How many ways to arrange the letters of "PROBLEMS" so that vowels come together?
-> Treat vowels (O, E) as a single block: block + P, R, B, L, M, S = 6 items.
-> Arrangements of 6 = 6! = 720.
-> Within the block: 2! = 2.
-> Total = 720 × 2 = **1440**.
+#### Practice Prompts
 
-**When a person/element must NOT be together:** Arrange the others first, then place the restricted element in the gaps.
-
-#### derangements (Subfactorials)
-
-The number of ways to arrange n objects such that **no object appears in its original position**. Denoted !n or Dₙ.
-
-> Dₙ = n! × Σ(k=0 to n) [(-1)^k / k!]
-
-For small n:
-- D₁ = 0, D₂ = 1, D₃ = 2, D₄ = 9, D₅ = 44, D₆ = 265
-
-**GATE Example:** In how many ways can 4 letters be placed in 4 addressed envelopes so that NO letter goes into the correct envelope?
-> D₄ = **9 ways**.
-
-#### Distribution Problems (Stars and Bars)
-
-The number of ways to distribute n identical objects into k distinct boxes (allowing empty boxes):
-> C(n + k − 1, k − 1)
-
-**GATE Example:** In how many ways can 5 identical candies be given to 3 children?
-> C(5+3−1, 3−1) = C(7,2) = **21 ways**.
-
-#### Binomial Probability
-
-P(X = r) = C(n,r) × p^r × (1−p)^(n−r)
-
-Where n = number of trials, r = number of successes, p = probability of success.
-
-**GATE Example:** A coin is tossed 5 times. Find P(exactly 3 heads).
-> n=5, r=3, p=0.5.
-> P = C(5,3) × (0.5)³ × (0.5)² = 10 × 0.125 × 0.25 = **0.3125**.
-
-#### Expected Value
-
-E(X) = Σ xᵢ × P(xᵢ)
-
-**GATE Example:** A die is thrown. Player wins ₹10 for rolling a 6, ₹5 for rolling a 3, and loses ₹2 otherwise. Find expected winnings.
-> E = (1/6)×10 + (1/6)×5 + (4/6)×(−2) = 10/6 + 5/6 − 8/6 = 7/6 ≈ **₹1.17**.
-
-#### Principle of Inclusion and Exclusion
-
-For two sets: |A∪B| = |A| + |B| − |A∩B|
-For three sets: |A∪B∪C| = |A|+|B|+|C| − |A∩B|−|B∩C|−|C∩A| + |A∩B∩C|
-
-**GATE Example:** In a class of 50 students, 30 study Physics, 25 study Chemistry, and 15 study both. How many study at least one?
-> |P∪C| = 30+25−15 = **40 students**.
+1. **Counting + restriction:** How many 5-digit numbers using digits {0,1,2,3,4} are divisible by 3 and contain no repeated digits? (Hint: total = 5·4·3·2·1 minus those with restricted digits — or use the sum-of-digits rule for divisibility by 3.)
+2. **Bayes' with three priors:** Factory I makes 30% of chips with 2% defective rate, Factory II makes 50% with 3% defective, Factory III makes 20% with 5% defective. A randomly chosen chip is defective — what is the probability it came from Factory III? Apply P(Fᵢ|D) = P(D|Fᵢ)P(Fᵢ) / Σⱼ P(D|Fⱼ)P(Fⱼ) with i = III.
 
 ---
+
+## Continue your study
+
+- **[View this topic in your GATE roadmap](/roadmap/?exam=gate&duration=1mo)** — see where "Permutation, Combination and Probability" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=gate&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[GATE exam overview](/exams/gate/)** — pattern, eligibility, and syllabus
+- **[All General Aptitude notes](/notes/gate/general-aptitude/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

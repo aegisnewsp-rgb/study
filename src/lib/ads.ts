@@ -187,9 +187,22 @@ export const MONETAG_POPUNDER_DEDICATED_ENABLED = true;
 
 /**
  * Popunder cooldown per visitor/browser: 12 hours — the zone's own cap, kept as
- * the cross-session floor. The per-session rule below is the real UX guard; this
- * is the backstop. (A 6 h floor was trialled on 2026-09-15 and reverted to match
- * the "12h-cap" zone definition.)
+ * the cross-session floor. (A 6 h floor was trialled on 2026-09-15 and reverted
+ * to match the "12h-cap" zone definition.)
+ *
+ * THE EFFECTIVE RULE, stated once so the layers do not read as three competing
+ * policies (an adversarial review on 2026-09-16 flagged exactly that):
+ *
+ *   1. one per tab session      — the UX rule, strictest, enforced by
+ *                                 POPUNDER_SESSION_KEY. A reader working through
+ *                                 notes never meets a second popunder.
+ *   2. one per browser per 12 h — the cross-session backstop, this constant.
+ *   3. Monetag's server-side cap — an unknown third layer we do NOT rely on.
+ *                                 It only affects fill, not our own behaviour.
+ *
+ * So the contract is (2) applied only when (1) allows. Nothing here depends on
+ * the dashboard's frequency setting, and changing that setting changes fill, not
+ * our surface policy.
  */
 export const POPUNDER_COOLDOWN_MS = 12 * 60 * 60 * 1000;
 

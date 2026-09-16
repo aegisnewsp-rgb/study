@@ -11,7 +11,7 @@ topicName: Algebra
 weight: 5
 country: bangladesh
 generated: "2026-04-17T23:20:00.000000"
-lastUpdated: 2026-04-17
+lastUpdated: "2026-09-16"
 diagramPrompt: "Clean educational diagram showing Algebra concepts with clear labels, white background, exam-style illustration"
 
 
@@ -19,187 +19,116 @@ diagramPrompt: "Clean educational diagram showing Algebra concepts with clear la
 
 
 ---
+
 # Algebra
 
-### 🟢 Lite — Quick Review
+### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Algebra** — Key Facts for BUET
-Polynomial degree n has n roots (real or complex); sum of roots = −b/a, product = c/a
-Quadratic: ax² + bx + c = 0; roots = [−b ± √(b² − 4ac)]/2a
-For quadratic with real roots: discriminant D ≥ 0; if D = 0, roots are equal; if D < 0, complex conjugate roots
-Partial fractions: decompose rational functions to integrate or simplify
-⚡ Exam tip: BUET algebra problems often combine with complex numbers or matrices — mastering Vieta's formulas is essential!
+Algebra for BUET Admission tests your command of **polynomials**, **equations**, **progressions**, **counting**, and **matrices/determinants** at HSC level. The Mathematics section carries ~5% weight, and 1–2 MCQs almost always fall in this cluster. Focus on six formula families: quadratic roots, AP/GP sums, permutations, combinations, 2×2 determinants, and Cramer's rule.
+
+- **Quadratic formula:** $x = \dfrac{-b \pm \sqrt{b^2 - 4ac}}{2a}$; discriminant $D = b^2 - 4ac$ (dimensionless).
+- **AP sum:** $S_n = \dfrac{n}{2}[2a + (n-1)d]$; **GP sum:** $S_n = \dfrac{a(1-r^n)}{1-r}$ for $r \neq 1$.
+- **Permutation** $P(n,r) = \dfrac{n!}{(n-r)!}$; **Combination** $C(n,r) = \dfrac{n!}{r!(n-r)!}$.
+- **2×2 determinant:** $\det\begin{pmatrix}a & b\\ c & d\end{pmatrix} = ad - bc$.
+- **Cramer's rule:** $x = \dfrac{\det(A_x)}{\det(A)}$, $y = \dfrac{\det(A_y)}{\det(A)}$, valid only when $\det(A) \neq 0$.
+
+| Term | Formula | Variables (SI unit / dimension) |
+|---|---|---|
+| Discriminant | $D = b^2 - 4ac$ | $a, b, c$ — real coefficients (dimensionless) |
+| AP nth term | $t_n = a + (n-1)d$ | $a$ first term, $d$ common difference (dimensionless) |
+| GP nth term | $t_n = ar^{n-1}$ | $r$ common ratio (dimensionless) |
+| Determinant | $ad - bc$ | $a,b,c,d$ — matrix entries (dimensionless) |
+
+> 💡 **High-Yield Memory Hook:** **"PCO" — Permutation Counts Order, Combination Only chooses.** Ask yourself "does arrangement change the answer?" If yes → P; if no → C.
 
 ---
 
-### 🟡 Standard — Core Study
+### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Algebra** — BUET Study Guide
+#### Quadratic equations and root–coefficient relations
+For $ax^2 + bx + c = 0$ with $a \neq 0$, the discriminant $D = b^2 - 4ac$ decides the nature of roots: $D > 0$ gives two distinct real roots, $D = 0$ gives a repeated root, $D < 0$ gives complex conjugates. The sum of roots $\alpha + \beta = -\dfrac{b}{a}$ and the product $\alpha\beta = \dfrac{c}{a}$ let you rebuild the equation when roots are known.
 
-**Quadratic equations:**
-- Standard form: ax² + bx + c = 0
-- Sum of roots (α + β) = −b/a
-- Product of roots (αβ) = c/a
-- For equal roots: b² = 4ac (D = 0)
-- For real roots: b² ≥ 4ac (D ≥ 0)
+#### Progressions (AP and GP)
+In an AP, consecutive differences are constant ($d$). In a GP, consecutive terms share a constant ratio ($r$). Use $S_n = \dfrac{n}{2}[2a + (n-1)d]$ for AP, and for GP switch to $S_n = \dfrac{a(1-r^n)}{1-r}$ when $r \neq 1$, else $S_n = na$.
 
-**Nature of roots analysis:**
-- Both positive: D ≥ 0, α + β > 0, αβ > 0, f(0) > 0
-- Both negative: D ≥ 0, α + β < 0, αβ > 0, f(0) > 0
-- Opposite signs: αβ < 0 (sufficient)
-- Reciprocal: if one root is α, other is 1/α → c = a
-- Equal magnitude, opposite sign: b = 0
+#### Counting: permutations vs combinations
+$P(n,r)$ counts **ordered** selections; $C(n,r)$ counts **unordered** selections. With repetition allowed, the number of $r$-length strings from $n$ items is $n^r$. The identity $C(n,r) = C(n, n-r)$ speeds up symmetric cases.
 
-**Transformation of equations:**
-- Roots scaled by k: equation becomes a(x/k)² + b(x/k) + c = 0 → ak²x² + bkx + c = 0
-- Roots shifted by m: substitute x − m → a(x−m)² + b(x−m) + c = 0
-- Reciprocal roots: reverse coefficients → cx² + bx + a = 0
+#### Matrices and determinants
+A $2\times 2$ matrix $\begin{pmatrix}a & b\\ c & d\end{pmatrix}$ has $\det = ad - bc$. Singular when $\det = 0$. For a $3\times 3$ matrix, expand along a row or column using cofactors. Determinant properties: $\det(AB) = \det(A)\det(B)$, $\det(A^T) = \det(A)$, $\det(kA) = k^n \det(A)$ for an $n\times n$ matrix.
 
-**Partial fractions:**
-For proper fraction P(x)/Q(x) where degree of P < degree of Q:
-- Linear factors: A/(x−a), B/(x−b)
-- Repeated linear: A/(x−a) + B/(x−a)²
-- Quadratic factor: (Ax+B)/(x²+bx+c)
+#### Concept Comparison Matrix
 
-**Binomial expansion:**
-(a + b)^n = Σ C(n,r) a^{n−r} b^r
-- General term: T_{r+1} = C(n,r) a^{n−r} b^r
-- Sum of coefficients: put a = b = 1 → 2^n
-- Middle term(s): if n even, one middle term T_{(n/2)+1}; if n odd, two middle terms
+| Feature | Permutation $P(n,r)$ | Combination $C(n,r)$ |
+|---|---|---|
+| Order matters | Yes | No |
+| Formula | $\dfrac{n!}{(n-r)!}$ | $\dfrac{n!}{r!(n-r)!}$ |
+| Typical use | Rankings, passwords, arrangements | Teams, selections, subsets |
+| Reduction identity | $P(n,r) = r!\cdot C(n,r)$ | $C(n,r) = C(n,n-r)$ |
 
-**Arithmetic Progression:**
-- nth term: a_n = a + (n−1)d
-- Sum: S_n = n/2[2a + (n−1)d] = n(a + l)/2 where l is last term
+| Feature | AP | GP |
+|---|---|---|
+| Pattern | $a, a+d, a+2d, \dots$ | $a, ar, ar^2, \dots$ |
+| nth term | $a + (n-1)d$ | $ar^{n-1}$ |
+| Sum $S_n$ | $\dfrac{n}{2}[2a+(n-1)d]$ | $\dfrac{a(1-r^n)}{1-r}$ ($r\neq 1$) |
+| Mid-term | Average of equidistant terms | Geometric mean of equidistant terms |
 
-**Geometric Progression:**
-- nth term: a_n = ar^{n−1}
-- Sum of n terms: S_n = a(r^n − 1)/(r − 1), r ≠ 1
-- Infinite sum (|r| < 1): S_∞ = a/(1 − r)
+#### Standard problem types
+1. Find roots using the quadratic formula, then verify sum/product.
+2. Insert means between two numbers (AP mean vs GP mean — these differ).
+3. Solve counting problems distinguishing "arrange" vs "choose".
+4. Compute a $2\times 2$ determinant and test singularity.
+5. Apply Cramer's rule to a $2\times 2$ linear system.
 
-**Harmonic Progression:**
-- Terms are reciprocals of AP: if a, b, c are in HP, then 1/a, 1/b, 1/c are in AP
-- nth term: a_n = 1/[1/a + (n−1)d] where d is from the AP of reciprocals
+#### 🎯 Exam-Level Worked Problem
+**Question:** If $\alpha$ and $\beta$ are the roots of $2x^2 - 5x + 3 = 0$, find $\alpha^2 + \beta^2$.
 
-**Logarithms:**
-- log_a(xy) = log_a x + log_a y
-- log_a(x/y) = log_a x − log_a y
-- log_a(x^n) = n log_a x
-- Change of base: log_a x = log_b x / log_b a
+#### Solution:
+1. Identify coefficients: $a = 2$, $b = -5$, $c = 3$ (dimensionless).
+2. Use sum and product of roots: $\alpha + \beta = -\dfrac{b}{a} = \dfrac{5}{2}$.
+3. Product: $\alpha\beta = \dfrac{c}{a} = \dfrac{3}{2}$.
+4. Apply the identity $\alpha^2 + \beta^2 = (\alpha + \beta)^2 - 2\alpha\beta$.
+5. Substitute: $\left(\dfrac{5}{2}\right)^2 - 2\left(\dfrac{3}{2}\right) = \dfrac{25}{4} - 3 = \dfrac{25 - 12}{4} = \dfrac{13}{4}$.
 
-- **Key formula:** Sum of roots = −b/a, Product = c/a; (a+b)^n expansion; partial fraction decomposition rules
-- **Common trap:** For equation transformation, ensure leading coefficient doesn't become zero — if ak² = 0, the transformed equation becomes linear
-- **Exam weight:** 2–3 questions per exam (8–12 marks); very high weight
+> ⚠️ **Examiner Trap:** Many students compute $\alpha + \beta = \dfrac{b}{a}$ and forget the negative sign because $b = -5$. Always write $\alpha + \beta = -\dfrac{b}{a}$, then plug.
 
 ---
 
-### 🔴 Extended — Deep Dive
+### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-**Algebra** — Comprehensive BUET Notes
+#### Edge cases and boundary conditions
+The GP sum formula $S_n = \dfrac{a(1-r^n)}{1-r}$ breaks at $r = 1$, where every term equals $a$ and $S_n = na$. A GP with $|r| < 1$ has a convergent infinite sum $S_\infty = \dfrac{a}{1-r}$, but the BUET syllabus limits GPs to finite $n$. The discriminant $D = b^2 - 4ac$ in a quadratic assumes **real** coefficients; complex coefficients change the root-classification criteria entirely.
 
-**Condition for common roots:**
-Two quadratics a₁x² + b₁x + c₁ = 0 and a₂x² + b₂x + c₂ = 0:
-- One common root: (a₁b₂ − a₂b₁)(b₁c₂ − b₂c₁) = (a₁c₂ − a₂c₁)(c₁b₂ − c₂b₁)
-- Both common: a₁/a₂ = b₁/b₂ = c₁/c₂
+Determinants are **not** linear in the matrix sense: $\det(A + B) \neq \det(A) + \det(B)$ in general. Counter-example: $A = I$, $B = I$ gives $\det(A+B) = \det(2I) = 2^n$ while $\det(A) + \det(B) = 2$. Cramer's rule requires $\det(A) \neq 0$; otherwise the system has either no solution or infinitely many, depending on the consistency of augmented rows.
 
-**Maximum and minimum of quadratic:**
-For f(x) = ax² + bx + c:
-- Vertex at x = −b/2a
-- If a > 0: minimum value = −D/4a at x = −b/2a
-- If a < 0: maximum value = −D/4a at x = −b/2a
+#### Connections to adjacent topics
+- **Coordinate geometry:** roots of a quadratic locate where its parabola crosses the $x$-axis; the discriminant tells you if the intersection exists.
+- **Calculus:** derivative of a polynomial recovers roots-related quantities; integration sums of AP/GP series bridge discrete and continuous areas.
+- **Probability:** combinations feed directly into binomial and hypergeometric probability — $P(X=k) = \dfrac{C(n,k)C(N-n, K-k)}{C(N,K)}$.
 
-**Location of roots:**
-- Both roots in (m, n): D ≥ 0, f(m) > 0, f(n) > 0, −b/2a ∈ (m, n)
-- One root in (m, n), one outside: f(m)·f(n) < 0
-- Roots on either side of k: f(k) < 0
+#### Advanced traps and exceptions
+1. **Negative common difference in AP:** when $d < 0$, the sequence is decreasing; students mis-apply $(n-1)d$ by dropping the minus.
+2. **Permutation with identical objects:** divide by the factorial of repetitions, e.g. arrangements of MISSISSIPPI letters equal $\dfrac{11!}{4!\,4!\,2!\,1!}$.
+3. **Singular $3\times 3$ matrix:** always expand along the row/column with the most zeros after cofactor simplification to minimise arithmetic.
+4. **Cramer's rule sign:** $A_x$ replaces the **first** column of $A$ with the constants vector; replacing the wrong column flips both variables.
+5. **Binomial coefficient edge:** $C(n,0) = C(n,n) = 1$, and $C(n,1) = n$ — useful sanity checks before any calculation.
 
-**Summation of series:**
-- Sum of squares: 1² + 2² + ... + n² = n(n+1)(2n+1)/6
-- Sum of cubes: 1³ + 2³ + ... + n³ = [n(n+1)/2]²
-- Arithmetic-Geometric series: multiply by r and subtract
-- Telescoping series: express general term as difference of two terms
+#### Practice prompts
+1. If the 3rd and 7th terms of an AP are 9 and 29, find the 20th term and $S_{20}$.
+2. A $3\times 3$ matrix $M$ has $\det(M) = 4$. Find $\det(2M)$ and $\det(M^{-1})$.
 
-**Method of differences:**
-If T_n = f(n) − f(n+1), then Σ T_n from 1 to N = f(1) − f(N+1)
-Example: T_n = 1/[n(n+1)] = 1/n − 1/(n+1); S_n = 1 − 1/(n+1)
-
-**Exponential and logarithmic equations:**
-- a^{f(x)} = a^{g(x)} → f(x) = g(x) if a > 0 and a ≠ 1
-- If base differs, take log: f(x)^{g(x)} = h(x)^{g(x)} → if bases are unequal but exponents same...
-
-**Important inequalities:**
-- AM ≥ GM: (a + b)/2 ≥ √(ab)
-- For any real x: x² + 1 ≥ 2|x|
-- Cauchy-Schwarz: (Σ a_i²)(Σ b_i²) ≥ (Σ a_i b_i)²
-
-**De Moivre's theorem:**
-(cos θ + i sin θ)^n = cos(nθ) + i sin(nθ)
-This is used for evaluating expressions like (1 + i)^n
-
-**nth roots of unity:**
-For z^n = 1, solutions are z = e^{2πik/n} for k = 0, 1, ..., n−1
-Sum of all roots = 0
-
-**Factor theorem:**
-If f(a) = 0, then (x − a) is a factor of f(x)
-Remainder theorem: remainder when f(x) divided by (x − a) is f(a)
-
-**Symmetric functions of roots:**
-For polynomial with roots α, β, γ:
-- Elementary symmetric: s₁ = α+β+γ, s₂ = αβ+βγ+γα, s₃ = αβγ
-- Express symmetric sums in terms of coefficients
-
-**Partial fraction cases:**
-1. Distinct linear factors: A/(x−a) + B/(x−b)
-2. Repeated linear: A/(x−a) + B/(x−a)² + C/(x−a)³
-3. Irreducible quadratic: (Ax+B)/(x²+bx+c)
-
-**Logarithmic inequalities:**
-- If a > 1, log_a x > log_a y ↔ x > y
-- If 0 < a < 1, log_a x > log_a y ↔ x < y
-- domain of log: argument > 0
-
-- **Remember:** Quadratic: sum = −b/a, product = c/a; binomial: general term C(n,r)a^{n−r}b^r; sum of cubes = [n(n+1)/2]²; partial fractions: identify factor types first
-- **Previous years:** "Find range of k for which equation x² − kx + 4 = 0 has real roots" [2023 BUET]; "Sum of infinite GP is 3 and first term is 1, find ratio" [2024 BUET]; "Factorise x³ − 6x² + 11x − 6" [2024 BUET]
+> 📌 **Formula Check:** All quantities in this note are dimensionless (pure numbers) — algebra carries no SI units. Report fractions in lowest form; do not round intermediate results when the final answer is a fraction.
 
 ---
 
-## 📊 BUET Admission Exam Essentials
+## Continue your study
 
-| Detail | Value |
-|---|---|
-| Questions | Varies by year (~40-50 MCQ) |
-| Time | Usually 2–3 hours |
-| Marks | Varies by section |
-| Subjects | Mathematics (highest weight), Physics, Chemistry |
-| Negative | Usually no negative marking in BUET |
-| Mode | Written + MCQ depending on year |
+- **[View this topic in your BUET Admission roadmap](/roadmap/?exam=buet-adm&duration=1mo)** — see where "Algebra" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=buet-adm&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[BUET Admission exam overview](/exams/buet-adm/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/buet-adm/mathematics/)** — browse sibling topics in this subject
 
-### 🎯 High-Yield Topics for BUET Mathematics
-- Calculus (Differentiation + Integration) — highest weight
-- Algebra (Quadratics, AP/GP/HP) — very high weight
-- Coordinate Geometry (Circle, Conics) — high weight
-- Trigonometry — medium-high weight
-- Complex Numbers — medium weight
-
-### 📝 Previous Year Question Patterns
-- Algebra: 3–5 questions per exam, 12–20 marks
-- Common patterns: quadratic equations, progression problems, binomial expansion, partial fractions
-- Weight: very high — prioritise algebra mastery
-
-### 💡 Pro Tips
-- BUET mathematics is heavily calculus-based — ensure algebra foundations are solid
-- Partial fractions are essential for integration — practice decomposition
-- Vieta's formulas for quadratics appear in almost every algebra problem
-- For progression problems, identify AP/GP/HP first and use appropriate formulas
-- Logarithmic equations: always check domain (argument > 0, base > 0, base ≠ 1)
-
-### 🔗 Official Resources
-- [BUET Official](https://www.buet.ac.bd)
-- [BUET Admission Portal](https:// admission.buet.ac.bd)
-
----
-
-*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

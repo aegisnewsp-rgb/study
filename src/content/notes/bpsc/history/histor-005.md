@@ -8,7 +8,7 @@ topicName: "1857 Revolt & Early Nationalist Movement"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-16"
 ---
 
 # 1857 Revolt & Early Nationalist Movement
@@ -16,289 +16,107 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**1857 Revolt — Key Facts for BPSC**
+The **1857 Revolt** erupted on **10 May 1857 at Meerut** when sepoys (Indian soldiers in EIC service) refused the new Enfield rifle cartridges greased with cow and pig fat. Mangal Pandey's Barrackpur act (29 March 1857) was the warning shot. Major centers were **Delhi, Lucknow, Kanpur, Jhansi, and Bihar**, led by Bahadur Shah Zafar (nominal), Begum Hazrat Mahal, Nana Sahib, Tantia Tope, Rani Lakshmibai, and Kunwar Singh. The revolt collapsed by mid-1858, and power passed from the **East India Company to the British Crown** through the **Government of India Act 1858** and Queen Victoria's Proclamation.
 
-The **Indian Rebellion of 1857** (also called Sepoy Mutiny, First War of Indian Independence) was the most significant uprising against British rule before 1947.
+The **Early Nationalist Movement (1885–1905)** is the Moderate phase of the Indian National Congress, founded by **A.O. Hume** in Bombay on **28 December 1885**. Moderates (Dadabhai Naoroji, Gopal Krishna Gokhale, Surendranath Banerjee) used **petitions, prayers, and press** to seek reforms. The 1905 Partition of Bengal triggered the Extremist phase led by **Lal Bal Pal** (Lala Lajpat Rai, Bal Gangadhar Tilak, Bipin Chandra Pal).
 
-**Core Facts:**
-- **Trigger**: Introduction of the **Enfield Rifle** — its cartridges were greased with cow and pig fat (offensive to both Hindus and Muslims)
-- **Mangal Pandey** (29 March 1857, Barrackpore) — a Bihari sepoy in the 34th B.N.C. Regiment — fired at British officers; became the first act of open rebellion
-- **29 March 1857** is celebrated as **Sepoy Mutiny Day** (though debate exists on calling it a "war of independence")
-- Multiple centres: **Meerut, Delhi, Kanpur, Lucknow, Jhansi, Bareilly, Azamgarh**
-- **Bahadur Shah Zafar** (last Mughal emperor) was proclaimed the leader at Delhi
-- Suppressed by **November 1858**; major factor: **Havelock's campaign** through Oudh
+| Term | One-line meaning | Date / Person |
+|---|---|---|
+| Sepoy | Indian soldier under EIC | Pre-1857 |
+| Doctrine of Lapse | Annexation policy without natural heir | Lord Dalhousie, 1848–56 |
+| Subsidiary Alliance | Indian state forced to host British troops | Lord Wellesley |
+| INC Founded | Indian National Congress | 28 Dec 1885, A.O. Hume |
+| Surat Split | Moderates vs Extremists formal break | 1907 |
 
-⚡ **Exam tip:** BPSC frequently asks about the causes, spread, leaders (Mangal Pandey, Begum Hazrat Mahal, Bahadur Shah Zafar, Rani Lakshmibai), and the significance of the 1857 Revolt.
+> 💡 **High-Yield Memory Hook:** "**MANGAL PANDIT'S DDLK-B**" — **M**eerut (10 May), **D**elhi (Bahadur Shah Zafar), **L**ucknow (Begum Hazrat Mahal), **K**anpur (Nana Sahib), **B**ihar (Kunwar Singh). For Moderates recall "**3 Ps**: **P**etitions, **P**ress, **P**rayers"; for Extremists remember "**Lal-Bal-Pal** + Tilak".
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-## The 1857 Revolt
+#### Causes and Spark of 1857
+The revolt was the explosion of long-fused grievances. **Lord Dalhousie's** annexation drive (Doctrine of Lapse) swallowed Satara (1848), Jhansi (1853), and Awadh (1856), removing Indian ruling families and pensions. The **greased-cartridge controversy** at Meerut (rifle cartridges allegedly greased with **cow + pig fat**) threatened religious purity of both Hindu and Muslim sepoys. Subsidiary mistrust, the **General Service Enlistment Act (1856)**, missionary activity, and the prophecy of a centenary change made 1857 combustible. **Mangal Pandey** attacked his officers at Barrackpur on **29 March 1857** and was hanged on 8 April, galvanising Barrackpur and propagating the unrest to Meerut.
 
-### Background & Causes
+#### Centers, Leaders, and Suppression
+The revolt spread through a chain of cantonments. Real command rarely came from the proclaimed figureheads — military direction in Delhi was under **Bakht Khan**, while **Bahadur Shah Zafar** was only the symbolic head. The British exploited **Gorkha regiments'** loyalty and the absence of a common ideology (Hindu–Muslim cooperation was tactical). **Delhi** fell in September 1857, **Lucknow** in March 1858, and **Jhansi** on 3 April 1858. Tantia Tope was captured on 7 April 1859 and executed on 18 April 1859.
 
-#### Immediate Cause: The Cartridge Controversy
-- The **Enfield P-53 rifle** required cartridges that had to be bitten before loading
-- Rumours spread that the cartridges were greased with **cow fat (Hindus)** and **pig fat (Muslims)** — both religiously offensive
-- **Mangal Pandey** (a sepoy of the 34th Bengal Native Infantry at Barrackpore, Bengal) refused to use the cartridges and shot at British officers on **29 March 1857**
-- Mangal Pandey was arrested, tried, and executed on **8 April 1857** — his actions sparked widespread resentment
-- Even before Mangal Pandey, the ** greased cartridge incident** had caused unrest at several stations (Calcutta, Berhampur, Dum Dum)
+#### Aftermath: From Company to Crown
+The **Government of India Act 1858** transferred administration to the British Crown; **Queen Victoria's Proclamation (1 November 1858)** abolished the Doctrine of Lapse, guaranteed non-interference in religion, promised equal treatment, and announced a general amnesty (except those already convicted). The **Arms Act (1878)** and **Vernacular Press Act (1878)** followed as new restrictions.
 
-#### Political Causes
-- **Doctrine of Lapse**: Introduced by **Lord Dalhousie (1848–1856)** — if an Indian ruler died without a natural heir, his territory would lapse to the British. Affected **Satara (1843), Jhansi (1853), Nagpur (1853), Awadh (1856)**
-- **Abolition of kingdoms**: Satara, Nagpur, Jhansi annexed
-- **Awadh annexation (1856)**: Sir Henry Lawrence made Chief Commissioner; resentment among nobles and sepoys (many from Awadh)
+#### Birth and Methods of Early Nationalism
+The **Indian National Congress** was founded on **28 December 1885** in Bombay with **72 delegates**, under the initiative of retired British civil servant **Allan Octavian Hume**, with Lord Dufferin's tacit approval. Early leaders — **Dadabhai Naoroji** ("Grand Old Man"), **Gopal Krishna Gokhale**, **Surendranath Banerjee** — formed the Moderate school, which relied on constitutional methods inside British law. Their **economic critique** of the "**Drain of Wealth**" (formalised by Naoroji in *Poverty and Un-British Rule in India*, 1876) converted political demand into a budget argument. The **Ilbert Bill controversy (1883–84)** showed the limits of moderate success: Indian judges gained jurisdiction over Europeans but racist objections led to compromising amendments.
 
-#### Economic Causes
-- **Heavy land revenue** (especially under Permanent Settlement and Mahalwari)
-- **Deindustrialization**: British manufactured goods flooded India; Indian textiles lost export markets
-- **Peasant distress**: High revenue demands, frequent droughts, famines
-- Zamindars and talukdars were alienated by the British revenue system
+#### Moderate–Extremist Transition
+The **Partition of Bengal (16 October 1905)** by **Lord Curzon** on administrative grounds split a populous Bengali province, igniting the **Swadeshi Movement** (boycott of British goods, use of charkha, national education). Extremist leaders **Lala Lajpat Rai, Bal Gangadhar Tilak** (popularised the Ganpati festival for mass politics), and **Bipin Chandra Pal** demanded *Swaraj* and boycotts. The formal rupture came at the **Surat Session of 1907**, when Moderates and Extremists split the Congress.
 
-#### Social & Religious Causes
-- **Social reforms**: Widow remarriage (Hindu Widow Remarriage Act 1856), education of women
-- **Christian missionaries** active in India — perceived as a threat to Hinduism
-- **Destruction of temples and mosques** — British often ignored Hindu and Muslim religious sentiments
-- **Caste humiliation**: Introduction of **caste disabilities removal** (Act of 1850) — allowed Hindu converts to Christianity to inherit ancestral property
+#### Comparison Matrix: Moderate vs Extremist Phase
 
-#### Military Causes
-- Sepoys were paid low salaries but had to pay for their own equipment
-- **General Service Enlistment Act (1856)**: Required sepoys to serve overseas (including abroad) — against Indian custom (crossing the sea meant loss of caste)
-- Indian sepoys were treated poorly by British officers
-- **Two-thirds of the British army** in India was composed of Indian sepoys (this ratio changed dramatically after 1857)
+| Feature | Moderates (1885–1905) | Extremists (1905–1919) |
+|---|---|---|
+| Goal | Self-governance within Empire (*dominion status*) | Complete *Swaraj*; later *Purna Swaraj* |
+| Methods | Petitions, prayers, press, constitutional agitation | Boycott, Swadeshi, mass mobilisation, strikes |
+| Social base | Educated elite, zamindars, professionals | Students, peasantry, lower middle class |
+| Key leaders | Dadabhai Naoroji, Gokhale, Banerjee, W.C. Bonnerjee | Tilak, Lala Lajpat Rai, Bipin Chandra Pal, Aurobindo Ghosh |
+| Confidence in British | Believed in British justice | Lost faith after Partition, Arms Act, Vernacular Press Act |
+| Outcome | Some reforms; INC founded | Split at Surat 1907; later re-united under Lucknow Pact 1916 |
 
-### The Outbreak
+#### 🎯 Exam-Level Worked Problem
+**Question:** Consider the following statements about the 1857 Revolt and select the correct one:
+1. Mangal Pandey was hanged on 8 April 1857 at Barrackpur
+2. Bahadur Shah Zafar exercised real military command in Delhi
+3. The Doctrine of Lapse was abolished by the Charter Act of 1833
+4. The first session of the Indian National Congress was held in Calcutta in 1885
 
-**Meerut (10 May 1857) — The Spark:**
-- At **Meerut** (largest British cantonment in North India), 85 sepoys of the 3rd Light Cavalry refused the cartridge
-- They were court-martialled and sentenced to 10 years imprisonment
-- On **10 May 1857** (a Sunday, during a Hindu festival), the sepoys revolted
-- British officers killed; British residents attacked; the cantonment was in flames
-- The rebels march to **Delhi** overnight — reach Delhi on 11 May 1857
+**Solution:** Evaluate each option against verified facts.
 
-**Delhi — The Symbolic Centre:**
-- Proclaimed **Bahadur Shah Zafar** (the last Mughal Emperor) as the leader
-- Bahadur Shah was a pensioner (Rs. 15 per month) living in the Red Fort
-- Initially reluctant, he accepted the leadership — he was the symbol of all-India unity
-- Delhi became the rallying point; however, the rebels were poorly organized
-- British recaptured Delhi on **20 September 1857** after a six-month siege
-- Bahadur Shah was captured, tried, and exiled to **Rangoon (Yangon)** in 1858
-- His sons were killed before his eyes
+- **Statement 1 — Correct.** Mangal Pandey attacked Subedar-Major Bahadur Shah at Barrackpur on **29 March 1857**, was court-martialled, and hanged on **8 April 1857**. The Meerut outbreak of 10 May followed this event.
+- **Statement 2 — Incorrect.** Bahadur Shah Zafar was declared Emperor but was a **nominal/symbolic head**. Real military command in Delhi lay with **Bakht Khan**, a Rohilla Afghan.
+- **Statement 3 — Incorrect.** The Charter Act of 1833 renewed EIC's trading monopoly and centralised administration; **Doctrine of Lapse** was renounced by **Queen Victoria's Proclamation of 1 November 1858**, not by the Charter Act.
+- **Statement 4 — Incorrect.** The **first INC session** was held in **Bombay** on **28 December 1885** under W.C. Bonnerjee; the second session (1886) moved to Calcutta. The founder was **A.O. Hume**, not a nationalist leader.
 
-### Major Centres of Revolt
+#### Correct answer: Statement 1.
 
-| Centre | Leader | Notable Events |
-|--------|--------|----------------|
-| **Meerut** | — | First major outbreak; triggered Delhi |
-| **Delhi** | Bahadur Shah Zafar | Symbolic centre; recaptured by British |
-| **Kanpur** | Nana Sahib (Dhondu Pant) | Besieged British for 3 weeks; retreating British killed by both sides |
-| **Lucknow** | Begum Hazrat Mahal | Defence of the Residency; 14,000 British killed |
-| **Jhansi** | Rani Lakshmibai | Heroic defence; fought on horseback; died at Gwalior |
-| **Bareilly** | Khan Bahadur | Khan of Farrukhabad — organized resistance |
-| **Azamgarh** | Kunwar Singh (Bihat) | 82-year-old leader; defeated British at Azamgarh |
-| **Bihar** | Khan Singh / others | Bihar's own centres of rebellion |
-| **Bengal** | — | Mymensingh uprising (Bengal) |
-
-### Key Leaders
-
-**Mangal Pandey (1827–1857):**
-- Born in **Nimahi village, Ballia district, Bihar** (modern Uttar Pradesh)
-- A sepoy in the 34th Bengal Native Infantry (BNC)
-- His actions of 29 March 1857 at Barrackpore (Bengal) sparked the rebellion
-- Tried and executed on 8 April 1857 at Barrackpore
-- Celebrated as a **martyr** in modern India
-
-**Rani Lakshmibai (1828–1858):**
-- Born as **Manikarnika Tambe** in Varanasi; brought up in Jhansi
-- Married **Raja Gangadhar Rao** of Jhansi (no natural heir)
-- Refused to accept the **Doctrine of Lapse** — fought against the British
-- Famous for riding a horse and jumping across the fort wall at Gwalior
-- Died fighting on **17 June 1858** at Gwalior Fort
-- Her adopted son **Damodar Rao** was the nominal heir — she fought for him
-
-**Begum Hazrat Mahal (c. 1820–1879):**
-- Wife of **Nawab Wajid Ali Shah** of Awadh
-- After Awadh's annexation (1856), she organized resistance in Lucknow
-- Proclaimed her son **Birjis Qadr** as Nawab
-- Defended the **Lucknow Residency** for months
-- Later fled to Nepal; died in exile in 1879
-- Buried in **Kashmir Garden, Lucknow** (now a memorial site)
-
-**Nana Sahib (Dhondu Pant, 1824–1859):**
-- Born in the **Mahratta (Maratha)** community; claimed to be the adopted son of **Peshwa Baji Rao II**
-- British refused to recognize his claim to a pension and title
-- Led the Kanpur rebellion; proclaimed himself **Raja of Bithur**
-- Defeated by **Havelock**; escaped to Nepal; died in exile
-
-**Kunwar Singh (c. 1777–1858):**
-- Rajput leader from **Jagadishpur, Bihar** (now in Uttar Pradesh, near Ara)
-- At **82 years old**, led the rebellion in Bihar and Azamgarh
-- Won a major battle against the British at **Azamgarh**
-- Died of wounds on 26 April 1858 near Jagadishpur
-- His house was destroyed by the British; he remains a folk hero in Bihar
-
-### Suppression & Aftermath
-
-**Suppression:**
-- **Sir Colin Campbell** (later Lord Clyde) was sent to India; recaptured Kanpur, Lucknow
-- **James Havelock** led the initial campaign through Oudh
-- British forces were brutal — mass killings, destruction of villages
-- Prominent leaders were captured and executed or exiled
-
-**End of East India Company Rule:**
-- On **1 November 1858**, the **Queen's Proclamation** (drafted by Lord Canning) announced:
-  - End of EIC rule; **direct Crown rule** established
-  - **Queen Victoria** proclaimed as Sovereign of India
-  - Indian princes' rights and territories would be respected
-  - Religious tolerance guaranteed
-  - No more annexation (reversed the Doctrine of Lapse)
-  - **Jizya abolished**
-  - ** Indianization of administration** promised (but limited)
-
-### Why the Revolt Failed
-- **No unified command** — each centre acted independently
-- **No clear ideology** — largely feudal in character; lacked modern political program
-- **British military superiority** — superior artillery and disciplined troops
-- **No support from all classes** — many Zamindars and princes supported the British
-- **Limited spread** — did not reach South India, Bombay Presidency, or Bengal proper
-- **Lack of communications** — no coordination between different centres
-- **Modern weapons** — British had better firearms and cannons
-
-### Legacy & Significance
-- **Ended the East India Company** — direct British Crown rule began
-- **Changed British policy**: Abandoned the Doctrine of Lapse; respected Indian princes
-- **Indian soldiers (sepoys)** were removed from key positions
-- **Queen Victoria's Proclamation (1858)** — promised religious tolerance
-- **Created a sense of nationalism** — a precedent for future independence movements
-- **Martyrs of 1857** became symbols for the independence movement
-
----
-
-## Early Nationalist Movement (1885–1905)
-
-### Indian National Congress (INC) — Founded 1885
-
-**Founding:**
-- **A.O. Hume** (a retired British civil servant) and **Womesh Chandra Bonnerjee** were instrumental
-- First session at **Bombay (28 December 1885)** — attended by 72 delegates
-- Womesh Chandra Bonnerjee was the first President
-- Hume believed that a political body was needed to prevent a "cataclysmic revolution"
-
-### Early Phase (1885–1905) — The "Moderates"
-
-**Key Leaders:**
-- **Womesh Chandra Bonnerjee** (first President)
-- **Dadabhai Naoroji** (known as the "Grand Old Man of India"); three times President (1886, 1893, 1906); gave the "drain theory"
-- **Surendranath Banerjee** — organized the Indian Association (1877); promoted neutral politics
-- **Gopal Krishna Gokhale** — mentor to Gandhi; President 1905
-- **Dinshaw Wacha** — co-founder with Hume
-- **Willim Dilworth** — early leader
-
-**Methods of the Moderates:**
-- **Petition and prayers**: Submitted memorials to the British Parliament
-- **Debates and resolutions**: Passed resolutions in Congress sessions
-- **Press campaigns**: Used newspapers like *Amrita Bazar Patrika*, *The Hindu*
-- **Belief in constitutional methods**: Worked within the system
-
-**Program of the Moderates:**
-1. **Drain Theory** (Dadabhai Naoroji): British were draining India's wealth; India's poverty was due to British economic exploitation
-2. **Land Revenue Reform**: Reduction in revenue rates; permanent tenure for peasants
-3. **Civil Service Reform**: Indianization of civil services (through competitive exams in India)
-4. **Reduction of military expenditure**: Reduce the large army budget spent on British officers
-5. **Freedom of press**: Remove press restrictions
-
-**Weaknesses of the Moderates:**
-- **Limited social base** — mostly lawyers, intellectuals, zamindars
-- **Did not involve masses** — meetings attracted educated elite
-- **Accepted British leadership** — believed in gradual reforms, not independence
-- **No direct action** — purely constitutional methods
-- **No women's participation** in early years
-
-**Achievements of the Moderates:**
-- Exposed British economic exploitation
-- Created political awareness across India
-- **Ilbert Bill (1883)**: Initially to allow Indian judges to try British criminals — moderate leaders supported it; British opposition forced modifications
-- Press freedom improved somewhat
-- Planted the seeds of nationalism
-
-### The Partition of Bengal (1905)
-
-**Background:**
-- Lord Curzon (Viceroy, 1899–1905) decided to partition Bengal in 1905
-- Stated reasons: Administrative convenience (Bengal too large)
-- Actual reasons: **Divide Hindus and Muslims**, suppress nationalist movement
-
-**What Happened:**
-- Bengal was partitioned into **East Bengal & Assam** (Muslim-majority) and **West Bengal** (Hindu-majority)
-- Effect: Bengali Hindus and Muslims were forced into separate administrative units
-- This **galvanized nationalist sentiment**
-
-**Swadeshi Movement (1905):**
-- In response to partition, Bengalis launched **Swadeshi movement** (self-reliance)
-- Boycotted British goods; promoted Indian-made goods
-- **Aurobindo Ghosh** (born Aurobindo Ghose) emerged as a leader — from a completely Western background (Cambridge-educated) to a nationalist leader
-- **Rabindranath Tagore** wrote **"Amar Shonar Bangla"** (later Bangladesh's national anthem)
-- **Dussehra festival** was used to mass mobilize — huge bonfires of British goods
-
-⚡ **Study strategy:** Focus on causes of 1857 Revolt (especially the cartridge incident and Mangal Pandey), major leaders, why it failed, and the Moderate leaders' methods and achievements in the early nationalist phase.
+> ⚠️ **Examiner Trap:** BPSC candidates regularly mark Zafar as "military commander" because textbooks sometimes blur symbolic vs operational roles. Always attribute Delhi's field command to **Bakht Khan**. A second trap is the INC venue: **Bombay (1885)**, not Calcutta — Calcutta 1886 is the second session.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-## Mangal Pandey — Deeper Details
-- The 34th B.N.C. Regiment was largely composed of **Bihari sepoys** (Awadh — present-day Uttar Pradesh)
-- Mangal Pandey's exact birthplace is debated — Ballia district is most commonly cited (Uttar Pradesh, near Bihar border)
-- His trial record shows he deliberately fired at the British sergeant-major and a corporal
-- The cartridge controversy was not new — the greased cartridge issue had been raised at **Dum Dum Arsenal (Calcutta)** in January 1857, where the greasing was changed to beeswax and vegetable oil; but the change was not communicated to sepoys
+#### Interpretations of 1857 — Argument You Must Know
+Three historiographical positions dominate BPSC questions: (1) **V.D. Savarkar's *Indian War of Independence* (1909)** called it a planned nationalist uprising; (2) **S.N. Sen, R.C. Majumdar and the Marxist school** view it primarily as a **sepoy mutiny** with limited national character because there was no unified ideology, no Hindu–Muslim unity as a programme, and no coordinated leadership across regions; (3) **S.B. Chaudhuri and modern revisionists** see it as a combination of **military, peasant, and princely revolts** that overlapped without unifying into one national war. BPSC expects awareness that **calling it "First War of Independence" remains contested**, and that the official British view treated it as a mutiny.
 
-## Bihar's Role in the 1857 Revolt
-- Kunwar Singh (82-year-old Rajput from Jagadishpur, Bihar) — one of the most prominent leaders
-- Bihar itself saw significant uprising at **Buxar, Arrah, and other areas**
-- British forces led by **Vincent Eyre** suppressed the Bihar uprising
-- The rebellion in Bihar was notable because Kunwar Singh held out the longest after Delhi fell
+#### Edge Cases and Boundary Conditions
+- **Awadh's special position:** Annexed in 1856 under Dalhousie on grounds of "maladministration"; its talukdars, displaced soldiers, and peasants formed the densest cluster of rebels, centred on Lucknow.
+- **Chapati movement (1857):** Rumoured circulation of *chapatis* between village *chowkidars* before Meerut — debated as either a signalling network or post-event myth.
+- **Bahadur Shah Zafar trial:** Tried at **Khooni Dauraha (Ridge, Delhi)** in January 1858; exiled to **Rangoon**, where he died on 7 November 1862.
+- **Drain of Wealth formula (Naoroji):** Quantified as Indian payments to Britain minus British inputs to India ≈ **£3–4 crore annually in 1870s**, arguing India's per-capita income fell under EIC rule.
 
-## Bihar's Contribution to Early Nationalism
-- **Anandamohan Bose** (1847–1906): First Indian graduate from Cambridge; President of INC (1898); founded **Bihar Scientific Society**
-- **Syed Hasan** (1855–1939): Bihar's first Muslim graduate; worked with the INC
-- **Bihar's local press** (*Bharat Mitra*, *Hindustani*) spread nationalist ideas
-- Champaran was already a site of peasant unrest (connected to indigo planters)
+#### Advanced Practice Traps
 
-## Important Dates for BPSC
-| Date | Event |
-|------|-------|
-| 29 March 1857 | Mangal Pandey's action at Barrackpore |
-| 10 May 1857 | Meerut outbreak |
-| 10 May 1857 | Arrival at Delhi |
-| 20 September 1857 | Delhi recaptured |
-| 14 June 1857 | Kanpur siege begins |
-| 20 September 1857 | Delhi falls |
-| November 1857 | Lucknow relieved |
-| 1 November 1858 | Queen's Proclamation |
-| 28 December 1885 | INC founded |
-| 1905 | Partition of Bengal; Swadeshi Movement |
+| # | Common Trap | Correct Distinction |
+|---|---|---|
+| 1 | Attributing INC to Tilak / Gokhale | Founded by **A.O. Hume**, with W.C. Bonnerjee as first president |
+| 2 | Surat Split year = 1905 | Surat Split = **1907**; Partition of Bengal = **1905** |
+| 3 | Doctrine of Lapse abolished by Charter Act | Renounced by **Queen Victoria's Proclamation 1858** |
+| 4 | Ilbert Bill passed unchanged | Compromise: Europeans could claim jury trial by European assessors |
+| 5 | Mangal Pandey = Meerut leader | Pandey = **Barrackpur (29 March)**; Meerut outbreak = **10 May 1857** |
+| 6 | Bahadur Shah Zafar commanded Delhi's troops | He was nominal; **Bakht Khan** commanded troops |
+| 7 | "Lal Bal Pal" coined for Moderates | They were **Extremist** trio; Moderates = Naoroji, Gokhale, Banerjee |
+| 8 | Vernacular Press Act repealed in 1858 | Enacted **1878** by **Lord Lytton** |
 
-## BPSC Previous Year Pattern
-- Causes of the 1857 Revolt — especially political and economic factors
-- Mangal Pandey — birthplace, action, and significance
-- Rani Lakshmibai — Jhansi, her defiance, and death
-- Begum Hazrat Mahal — Lucknow, her role
-- Kunwar Singh — Bihar connection, age, military achievements
-- Queen's Proclamation of 1858 — significance
-- Formation of INC — founders, first session, moderate methods
-- Drain theory and economic exploitation
-- Partition of Bengal and Swadeshi Movement
-
-## Common Mistakes to Avoid
-- Don't say the 1857 was a purely "nationalist" movement — it was feudal in character
-- Mangal Pandey was from the **34th Bengal Native Infantry** — know the regiment name
-- Rani Lakshmibai died at **Gwalior**, not Jhansi
-- Bahadur Shah Zafar was exiled to **Rangoon**, not another Indian city
-- The Moderate phase was NOT a failure — it planted seeds of nationalism
-- The **Ilbert Bill controversy** was important for understanding how the British protected their own privileges
+#### Advanced Practice Prompts
+1. **15-mark mains short note:** "Was the 1857 Revolt the First War of Indian Independence? Discuss the historiographical debate with reference to V.D. Savarkar, S.N. Sen, and S.B. Chaudhuri." Use the three interpretations above plus evidence of regional coordination gaps and Hindu–Muslim tactical unity.
+2. **Prelims statement-based MCQ set:** Compare the **Arms Act 1878**, **Vernacular Press Act 1878**, and the **Ilbert Bill 1883** as instruments of either British control or Indian reform. Identify each as either restrictive or emancipatory, and name the governor-general/viceroy responsible.
 
 ---
+
+## Continue your study
+
+- **[View this topic in your BPSC roadmap](/roadmap/?exam=bpsc&duration=1mo)** — see where "1857 Revolt & Early Nationalist Movement" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=bpsc&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[BPSC exam overview](/exams/bpsc/)** — pattern, eligibility, and syllabus
+- **[All History notes](/notes/bpsc/history/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

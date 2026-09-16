@@ -8,7 +8,7 @@ topicName: "Must Be True & Cannot Be True Questions"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-16"
 ---
 
 # Must Be True & Cannot Be True Questions
@@ -16,145 +16,97 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Must Be True & Cannot Be True Questions** — Key Facts for LSAT India
-Core concept: Must Be True = what MUST be true if the passage is true; Cannot Be True = what CANNOT possibly be true given the passage
-High-yield point: For Cannot Be True questions, 4 of 5 answers will be possible — you only need to find the one that contradicts the passage
-⚡ Exam tip: Use the negation test — negate each answer and ask if the passage could still be true; if yes, it's not a Must Be True
+A **Must Be True** answer is a statement that the passage *logically compels*—it must hold in every reading of the text. A **Cannot Be True** answer is one the passage *definitively rules out*; it collides with an explicit or clearly implied claim. Both reward deductive certainty, not plausibility. The trap is choosing answers that *fit well*, *sound reasonable*, or *can be true*—those are inferences, not necessities.
+
+| Term | What it tests | One-line test |
+|---|---|---|
+| Must Be True | Compelled conclusion | Strip the passage to bare facts—does the answer still have to hold? |
+| Cannot Be True | Definite contradiction | Can you imagine *any* world where both the passage and the answer are true? If yes, discard. |
+| Hedge word | Softens a claim | "can / can / suggests / some / in many papers" → cannot anchor a Must Be True |
+| Scope | Subject/time/entity boundary | Answer must use only people, dates, and topics the passage names |
+
+> 💡 **High-Yield Memory Hook:** **"No Maybe, No Can, No Can."** Before selecting a Must Be True answer, scan the passage statement it rests on. If that statement contains a hedge, the answer is wrong. Before selecting a Cannot Be True answer, ask: *can I picture both being true at once?* If yes, it's not "cannot."
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Must Be True & Cannot Be True Questions** — LSAT India Study Guide
+#### Core Logic: Necessity vs. Sufficiency
 
-## The Precision of Must Be True Questions
+A Must Be True answer must be **necessary** given the passage: if you deny the answer, some passage claim becomes false. A choice that merely **suffices** to explain a passage (e.g., "this theory would account for the data") is *not* compelled—the passage can still be true under a different explanation. Always test by asking: *Does the passage break if this answer is false?* If not, discard.
 
-Must Be True questions are among the most common and most precisely logical question types on LSAT India RC. They require you to identify the answer choice that is most firmly supported by the passage — the one that must be true if every statement in the passage is accepted as true.
+#### Hedge Recognition and Scope Discipline
 
-The word "must" is critically important. This is not asking what is probably true, likely true, or often true. It is asking what is necessarily true — what you can state with logical certainty based on the passage alone.
+Hedged claims ("scientists suggest," "some studies show," "X can cause Y") leave the negation open by design. They cannot ground a Must Be True. Scope errors are equally fatal: an answer that imports a new actor, time period, or geographic setting is wrong even when plausible. Comparative words ("more than," "less than") require you to locate the explicit comparator in the text; absolute words ("all," "every," "none") demand the strongest claim the passage actually made.
 
-This precision makes Must Be True questions somewhat unique among RC types: they are closer to formal logic than to reading comprehension. You need to think in terms of logical necessity, not general plausibility.
+#### Concept Comparison Matrix
 
-## Identifying Must Be True Questions
+| Feature | Must Be True | Cannot Be True | Plausible Inference (wrong choice) |
+|---|---|---|---|
+| Logical status | Necessity (passage forces it) | Negation is impossible | Can fit but isn't forced |
+| Hedge words in source claim | Forbidden | N/A | In many papers present |
+| New entities/dates | Forbidden | Forbidden | Sometimes introduced |
+| Test before selecting | Deny answer → passage collapses | Imagine both true → fails | Sounds consistent → in many papers wrong |
+| Typical wrong answer style | Upgrades "some" to "all" | Contradicts only a hedge, not a hard claim | Thematically nice, logically loose |
 
-Watch for these question stems:
+#### 🎯 Exam-Level Worked Problem
 
-- "Which of the following must be true based on the passage?"
-- "It can be inferred from the passage that..."
-- "If the statements in the passage are true, which of the following must also be true?"
-- "The passage most strongly supports which of the following conclusions?"
-- "Which of the following is most completely supported by the passage?"
+**Question:** A passage on deep-sea bioluminescence states: *"Most anglerfish species use a bioluminescent lure to attract prey in the abyssal zone, though some ambush prey without one. Recent observations suggest the lure can also play a role in mate recognition."*
 
-Note: "It can be inferred" and "must be true" are functionally equivalent on the LSAT. Both ask for what necessarily follows from the passage.
+Which of the following **Must Be True**?
+- (A) The lure is used solely to attract prey.
+- (B) The lure is essential for mate recognition in anglerfish.
+- (C) All anglerfish that use lures do so to attract prey.
+- (D) At least some anglerfish species attract prey using a bioluminescent lure.
 
-## Identifying Cannot Be True Questions
+#### Solution:
+1. Locate the claim the answer rests on: *"Most anglerfish species use a bioluminescent lure to attract prey."*
+2. Apply the **necessity test**: deny (D) → "No anglerfish use a bioluminescent lure to attract prey" → contradicts "most."
+3. Deny (A) → the passage never claimed exclusivity, so the denial can still be true. Discard.
+4. Deny (B) → the passage says the lure "can" play a role, leaving the negation open. Discard.
+5. Deny (C) → "most" does not entail "all." Discard.
 
-Watch for these question stems:
+#### Correct answer: (D).
 
-- "Which of the following cannot be true based on the passage?"
-- "Which of the following statements is most clearly contradicted by the passage?"
-- "Each of the following could be true EXCEPT:"
-- "Which of the following is inconsistent with the passage?"
+> ⚠️ **Examiner Trap:** Options (A) and (C) weaponise quantifier-shifting ("solely," "all") against an unhedged "most." Option (B) is the hedge trap—students overlook "can" and recruit a tentative claim as a certainty. Always re-read the exact passage wording before locking your answer.
 
-On "EXCEPT" questions (formally called "Must Be True EXCEPT"), four of the five answer choices must be true based on the passage, and one cannot be true. You must identify the one that is NOT supported.
+---
 
-## The Logical Framework: Necessary vs. Sufficient
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-Understanding the distinction between necessary and sufficient conditions is essential for Must Be True questions:
+#### Edge Cases and Boundary Conditions
 
-**A sufficient condition**: If X is true, then Y is definitely true. X guarantees Y.
-- Example: If it is raining, then it is cloudy. Being rainy is sufficient for being cloudy.
+**Reverse-contrapositive traps** appear when the passage asserts only one direction of a conditional. If the text says "If P, then Q," the negation of P (not-P) does *not* force not-Q—the passage remains silent about non-P cases. Answers that flip the conditional (e.g., "Only organisms with lures attract prey") require an explicit "only" or "if and only if" in the passage.
 
-**A necessary condition**: If Y is true, then X must be true. Y cannot be true without X.
-- Example: Being alive is necessary for being human. Everything that is human is alive.
+**Sample-size generalisation** is the second advanced trap. One cited study, one named city, or one date cannot be inflated to "all studies," "every country," or "throughout history." Track each example back to its specific scope.
 
-In LSAT Must Be True questions, you are typically asked about necessary conditions — what must be the case given the passage. If the passage says "X is sufficient for Y," you can infer that "if X is true, Y is true" (must be true). But you cannot infer that "if Y is true, X is true" (that does not follow).
+**Cannot Be True subtlety:** an answer is wrong only if you can imagine a coherent world where the passage and the answer both hold. If the answer merely makes a passage claim *unlikely*, it is not ruled out and is therefore wrong as a Cannot Be True choice.
 
-Watch carefully for whether the passage describes a sufficient or a necessary condition — confusing them is one of the most common sources of errors on these questions.
+| Advanced Trap | Passage Pattern | Wrong Move | Correct Move |
+|---|---|---|---|
+| Reverse contrapositive | "If P, then Q" | Conclude "If not-P, then not-Q" | Hold the conditional as one-way only |
+| Sample inflation | "A 2019 study of X in city Y found…" | Extrapolate to all X everywhere | Restrict to the cited population |
+| Hedge contradiction | "X can cause Y" | Mark "X does not cause Y" as Cannot Be True | Hedge leaves negation open—both can coexist |
+| Comparator swap | "More than A" compared to "B" | Switch the entities being compared | Re-anchor to the exact A vs. B pair |
+| Scope creep | Passage covers 1990–2010 | Pick an answer about 2020 | Reject any time outside the window |
 
-## A Worked Must Be True Example
+#### Practice Prompts
 
-**Passage:**
-> "A recent study examined the relationship between sleep duration and academic performance among university students. The researchers found that students who slept less than six hours per night scored, on average, 12% lower on standardized exams than students who slept seven to eight hours. Students who slept more than nine hours per night also scored lower, though by a smaller margin. The researchers controlled for variables including prior academic achievement, course load, and socioeconomic status."
+1. **Drill:** Take any RC passage. List every hedge word. Write two Must Be True candidates—one built on a hedged claim, one on a hard claim. Predict which the official answer would reject and explain why.
+2. **Timed set:** Solve five Must Be True and five Cannot Be True questions in 12 minutes total. For each wrong answer, write a one-sentence diagnosis naming the specific trap (quantifier shift, contrapositive, hedge, scope, sample inflation).
 
-**Question:** "It can be inferred from the passage that the researchers would most likely agree with which of the following?"
+> 📌 **Formula Check:** There is no arithmetic formula here. The "formula" is procedural: **(1) Anchor** the answer to one passage sentence, **(2) Apply the necessity test** for Must Be True or the **impossibility test** for Cannot Be True, **(3) Check scope and quantifiers** before selecting.
 
-**Evaluating answer choices:**
+---
 
-**(A) "All students who sleep less than six hours will perform poorly on exams."**
-Cannot be inferred. The passage says students who slept less than six hours scored 12% lower *on average*. Averages do not apply to every individual. This overgeneralizes the data.
+## Continue your study
 
-**(B) "Sleep duration is an important factor in academic performance."**
-This is a reasonable inference. The researchers conducted a controlled study to examine the relationship, suggesting they believe sleep duration affects academic performance. While the passage does not use the word "important," the fact that they controlled for multiple variables and reported significant findings implies they consider sleep duration a meaningful factor.
+- **[View this topic in your LSAT India roadmap](/roadmap/?exam=lsat&duration=1mo)** — see where "Must Be True & Cannot Be True Questions" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=lsat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[LSAT India exam overview](/exams/lsat/)** — pattern, eligibility, and syllabus
+- **[All Reading-Comp notes](/notes/lsat/reading-comp/)** — browse sibling topics in this subject
 
-**(C) "Students who sleep between seven and eight hours perform better than students who sleep more than nine hours."**
-Cannot be inferred. The passage says students sleeping more than nine hours also scored lower, but it does not compare the seven-to-eight hour group directly to the more-than-nine-hour group.
-
-**(D) "If a student improves their sleep habits, their academic performance will necessarily improve."**
-Cannot be inferred. The study shows a correlation (association), not causation. We cannot conclude that changing sleep habits will cause improved performance.
-
-**Correct answer: (B)**
-
-## A Worked Cannot Be True Example
-
-**Passage:**
-> "The city council has proposed two measures to address traffic congestion. Measure A would expand the public transit system by adding three new subway lines. Measure B would implement congestion pricing — charging drivers a fee to enter the city's densest areas during peak hours. Transit experts estimate that Measure A would reduce vehicle traffic by 8–10%. Economic analysts project that Measure B would reduce traffic by 15–20%. Both measures would require significant public investment."
-
-**Question:** "Which of the following cannot be true based on the passage?"
-
-**(A) "Measure B would reduce traffic more than Measure A would."**
-This CAN be true — the passage explicitly says Measure B would reduce traffic by 15–20% while Measure A would reduce it by 8–10%. 15–20% is more than 8–10%. Cannot be eliminated.
-
-**(B) "Only one of the two measures would be implemented."**
-This CAN be true — the passage describes both measures as proposals, with no indication that both must be implemented simultaneously. It is possible that only one is adopted.
-
-**(C) "Both measures would require public investment."**
-This MUST be true — the passage explicitly states "Both measures would require significant public investment." Cannot be the answer (we need what CANNOT be true).
-
-**(D) "Measure A would reduce traffic by more than 20%."**
-This CANNOT be true. The passage says Measure A would reduce traffic by only 8–10%. More than 20% contradicts the passage directly. The correct answer is **(D)**.
-
-## The Negation Test for Must Be True
-
-The most powerful technique for Must Be True questions is the negation test. Here is how it works:
-
-For each answer choice, temporarily assume the negation of the statement. Then ask: "If I assume this negation, does the passage still make sense, or does the passage break down?"
-
-- If the passage can still be fully true with the negation assumed, the original statement is NOT a Must Be True.
-- If the passage cannot be fully true with the negation assumed, the original statement IS a Must Be True.
-
-**Example:**
-Passage: "All roses are flowers. Some flowers are red."
-
-Test answer: "Some roses are flowers."
-Negation: "No roses are flowers."
-Can the passage still be true? No — "All roses are flowers" would be contradicted. Therefore, "Some roses are flowers" must be true. It passes the negation test.
-
-Test answer: "Some roses are red."
-Negation: "No roses are red."
-Can the passage still be true? Yes — the passage says some flowers are red, but does not say any roses are red. Therefore, "Some roses are red" is not a Must Be True.
-
-## Common Must Be True Patterns
-
-- **Combining two premises**: If the passage says "All X are Y" and "All Y are Z," you can infer "All X are Z."
-- **Substituting definitions**: If the passage defines a term in a specific way, and then applies that term, you can infer the implications of that definition.
-- **Partial support for a broader claim**: If the passage provides evidence for a conclusion but also acknowledges limitations, you can infer the more modest claim that is fully supported.
-- **Tone-based inferences**: If the passage's language is critical, you can infer that the author does not endorse the position being described.
-
-## Common Cannot Be True Patterns
-
-- **Direct contradiction**: The answer choice states the opposite of what the passage explicitly says.
-- **Overgeneralization from a sample**: The passage describes a specific group, and the answer applies that group's characteristics to a broader population.
-- **Conflating correlation and causation**: The passage describes a correlation, and the answer treats it as a causal relationship.
-- **Inconsistent with passage-defined terms**: The answer attributes a property to something that the passage defines as not having that property.
-
-## Exam Strategy Summary
-
-- **Must Be True**: Use the negation test. Find the answer that, if negated, would make the passage impossible or incoherent.
-- **Cannot Be True**: Confirm that four answers CAN be true (are consistent with the passage) and one definitely CANNOT. Eliminate the four that are possible.
-- **Always work from the passage, never from outside knowledge**: If the passage does not state or imply it, it cannot be a Must Be True inference.
-- **Watch for answer choices that are too strong**: Words like "all," "always," "never," and "must" in answer choices often signal that the answer overstates what the passage supports.
-- **Distinguish inference from summarization**: A Must Be True answer is not just a restatement of what the passage says — it is something new that follows from what the passage says.
-
+---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

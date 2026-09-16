@@ -11,190 +11,101 @@ topicName: Simple Word Problems Involving Operations
 weight: 5
 country: nigeria
 generated: "2026-03-24T08:32:07.592018"
-lastUpdated: 2026-03-24
+lastUpdated: "2026-09-16"
 diagramPrompt: "Educational diagram illustrating Simple Word Problems Involving Operations with clear labels, white background, exam-style illustration"
 
 
 
 
 ---
+
 # Simple Word Problems Involving Operations
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-Word problems present mathematical situations in everyday language. Your task is to translate the words into mathematical operations (addition, subtraction, multiplication, division) and then solve. The key skill is identifying which operation to use.
+A simple word problem in the NCEE Quantitative Reasoning paper is a short everyday story (2–4 lines) that hides one or two arithmetic operations. Your job is to read the story, catch the **signal words**, and turn the sentence into a number sentence using **+, −, ×, ÷**.
 
-**Keywords That Signal Operations:**
+- **Addition keywords:** sum, total, combined, increased by, more than, altogether.
+- **Subtraction keywords:** difference, remaining, left, less than, decreased by, gave away, took away.
+- **Multiplication keywords:** product, times, of, twice, thrice, per (when cost/rate is given), groups of.
+- **Division keywords:** shared equally, split, each, per (when finding a unit rate), quotient, how many groups.
+- **Order of operations:** **B**rackets → **O**f → **D**ivision → **M**ultiplication → **A**ddition → **S**ubtraction.
 
-| Operation | Keywords to Look For |
-|---|---|
-| **Addition (+)** | sum, total, plus, add, combined, together, in all, how many altogether, increased by, more than |
-| **Subtraction (−)** | difference, minus, subtract, less, decreased by, remaining, left, how many more, how many fewer, lost, spent |
-| **Multiplication (×)** | product, multiply, times, groups of, each, repeated addition, at the same rate |
-| **Division (÷)** | quotient, divide, share equally, split, groups of, each gets, how many groups, average |
+> 💡 **High-Yield Memory Hook:** **"KOLA-SMD"** — signal words: **K**ept/Combined, **O**f/More than → + ; **L**eft/Less than → − ; **A**ll/Times/Twice → × ; **S**hared equally/Per → ÷ . Then run **BODMAS** before you answer.
 
-**Translating Words to Operations:**
-
-| Word Statement | Mathematical Operation |
-|---|---|
-| "The sum of 5 and 7" | $5 + 7$ |
-| "12 minus 5" | $12 - 5$ |
-| "4 multiplied by 6" | $4 \times 6$ |
-| "20 divided by 4" | $20 \div 4$ |
-| "5 more than a number" | $x + 5$ |
-| "A number decreased by 3" | $x - 3$ |
-| "Twice a number" | $2x$ |
-| "Half of a number" | $x/2$ |
-| "The product of 4 and a number" | $4x$ |
-
-**Basic Problem Types:**
-
-1. **Combine/Add:** Two or more quantities are put together
-   "Chidi has 12 apples and buys 8 more. How many does he have?"
-   $12 + 8 = 20$
-
-2. **Take Away/Subtract:** One quantity is removed from another
-   "Ada had 25 sweets and gave 9 to her friend. How many does she have left?"
-   $25 - 9 = 16$
-
-3. **Repeated Groups (Multiply):** Same quantity repeated
-   "There are 7 boxes with 5 pencils in each box. How many pencils altogether?"
-   $7 \times 5 = 35$
-
-4. **Share Equally (Divide):** Splitting into equal groups
-   "30 oranges are shared equally among 6 children. How many does each child get?"
-   $30 \div 6 = 5$
-
-⚡ **Exam Tip (NCEE):** The most common error is choosing the wrong operation. When you finish reading the problem, ask yourself: "Am I joining quantities together, taking one away from another, repeating groups of the same size, or splitting into equal parts?" If the answer is "joining" → add. "Taking away" → subtract. "Repeating" → multiply. "Splitting" → divide.
-
-⚡ **NCEE Strategy:** Read the problem twice. The first time, understand what is happening. The second time, identify the numbers and what is being asked. Write down the numbers and the operation before solving.
+| Operation | SI Unit Examples | Sample Signal Word |
+|---|---|---|
+| Addition (+), Subtraction (−) | metres (m), naira (₦), kilograms (kg) | "altogether", "left" |
+| Multiplication (×) | m² (area), ₦ (money), kg (mass) | "twice", "of", "product" |
+| Division (÷) | m/s, ₦/kg, ₦/unit | "per", "shared equally" |
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> For students who want genuine understanding of problem-solving.
+> Standard content for students with a few days to months.
 
-**Two-Step Word Problems:**
+#### 🎯 Exam-Level Worked Problem
+**Question:** A trader bought 8 bags of rice. Each bag contains 25 kg. She sold 73 kg and gave 12 kg to her sister. How many kilograms of rice does she have left?
 
-These problems require two operations to solve.
+#### Solution:
+- Bags bought = 8; mass per bag = 25 kg.
+- Total bought = 8 × 25 kg = 200 kg.
+- Sold = 73 kg; given to sister = 12 kg.
+- Total given out = 73 + 12 = 85 kg.
+- Left = 200 − 85 = **115 kg**.
 
-**Example:**
-"A farmer has 45 chickens. He buys 3 more cages with 8 chickens in each cage. How many chickens does he have now?"
+> ⚠️ **Examiner Trap:** Students often add 73 + 12 first, then forget to subtract from the total. Always carry the intermediate answer forward in multi-step problems.
 
-Step 1: Chickens from new cages: $3 \times 8 = 24$
-Step 2: Total chickens: $45 + 24 = 69$
+#### Signal-Word Comparison Matrix
 
-**Example:**
-"Tolu has 120 stickers. She gives 25 to her sister and then puts the remaining stickers into 5 equal piles. How many stickers in each pile?"
+| Phrase in Question | Correct Operation | Wrong Choice Students Pick | Result if Wrong |
+|---|---|---|---|
+| "twice 8" | 2 × 8 = 16 | 8 + 2 = 10 | Off by 6 |
+| "5 less than 12" | 12 − 5 = 7 | 5 − 12 = −7 | Negative, meaningless |
+| "6 apples for ₦300, cost of 4" | (300 ÷ 6) × 4 = ₦200 | 300 × 4 = ₦1200 | 6× too large |
+| "shared equally among 4" | total ÷ 4 | total × 4 | 16× too large |
+| "left after giving away 9" | total − 9 | total + 9 | Off by 18 |
 
-Step 1: Stickers remaining: $120 - 25 = 95$
-Step 2: Stickers per pile: $95 \div 5 = 19$
+#### Core Mechanism (translation to number sentence)
+1. Read the story twice — once for the narrative, once for **numbers and signal words**.
+2. Underline every number, every unit (kg, ₦, m, minutes), and every signal word.
+3. Write the number sentence in the order the story unfolds; do **not** compute left-to-right — respect **BODMAS**.
+4. Carry forward any intermediate result into the next step.
+5. Check the answer: same units as the question, positive magnitude, and a story that "makes sense".
 
-**Worked Examples:**
-
-**Example 1 — Buying items:**
-"Emeka buys 4 notebooks at ₦250 each and 3 pens at ₦80 each. How much change does he get from ₦2,000?"
-
-Step 1: Cost of notebooks: $4 \times 250 = ₦1,000$
-Step 2: Cost of pens: $3 \times 80 = ₦240$
-Step 3: Total cost: $1,000 + 240 = ₦1,240$
-Step 4: Change: $2,000 - 1,240 = ₦760$
-
-**Example 2 — Age problems:**
-"Tunde is 12 years old. His sister is 4 years younger. Their mother is 3 times Tunde's age. How old is their mother?"
-
-Tunde's age: 12 years
-Sister's age: $12 - 4 = 8$ years
-Mother's age: $3 \times 12 = 36$ years
-
-**Example 3 — Distance and sharing:**
-"A rope 48 metres long is cut into 6 equal pieces. 2 pieces are used for a project. How many metres of rope are left?"
-
-Step 1: Length of each piece: $48 \div 6 = 8$ metres
-Step 2: Used pieces: $2 \times 8 = 16$ metres
-Step 3: Remaining: $48 - 16 = 32$ metres
-
-**Units and Conversions:**
-
-Always keep track of units:
-- ₦ = Naira, k = kobo (100 kobo = ₦1)
-- kg = kilogram, g = gram (1000g = 1kg)
-- km = kilometre, m = metre (1000m = 1km)
-- litres: l, ml (1000ml = 1l)
-
-⚡ **Common NCEE Error:** Not writing the unit in the answer. A question asking "How many metres..." requires "metres" as part of the answer. Without the unit, the answer is incomplete and may lose marks.
+#### Key BODMAS Rule
+In an expression mixing +, −, ×, ÷, do **D**ivision and **M**ultiplication before **A**ddition and **S**ubtraction. Example: 2 + 3 × 4 = 2 + 12 = **14**, not (2+3)×4 = 20.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-**Multi-Step Word Problems:**
+#### Edge Cases and Common Traps
 
-When a problem has more than two operations:
+| Trap | Why It Hurts | Correct Handling |
+|---|---|---|
+| Reading "₦ per kg" as total cost | "₦500 per kg, 4 kg" becomes 500 × 4 = ₦2000 (correct), but "₦500 per kg, how many kg for ₦2000?" must be 2000 ÷ 500 = 4 kg | Always ask: am I finding the **total** or the **unit rate**? |
+| Remainder in sharing | 25 sweets shared by 4 children → 6 remainder 1, not 6.25, unless the question allows fractions | Re-read the question; if no decimals, give quotient + remainder |
+| "More than" vs "Times" | "₦50 more than ₦200" = ₦250; "twice ₦50" = ₦100 | "More than" is addition; "times/twice" is multiplication |
+| Mixed units | 2 m + 50 cm → 2 m + 0.5 m = 2.5 m, not 2 m 50 cm summed as 52 | Convert to a single SI unit before adding |
+| Perimeter vs Area | Rectangle 5 m by 3 m: perimeter = 2(5+3)=16 m; area = 5×3=15 m² | Perimeter uses **m**; area uses **m²** |
+| Rate-time-distance | Speed = distance ÷ time; distance = speed × time; time = distance ÷ speed | Pick the formula that matches the unknown |
 
-**Example:**
-"A school orders 8 cartons of exercise books. Each carton has 20 books. Each book has 50 pages. How many pages are there in all the books?"
+#### Advanced Practice Prompts
+1. A driver travels 60 km/h for 3 hours, then 40 km/h for 2 hours. Find (a) total distance and (b) average speed for the whole trip. *(Hint: average speed = total distance ÷ total time, not the mean of 60 and 40.)*
+2. A father is thrice as old as his son. In 12 years he will be twice as old. Find their present ages. *(Hint: set son's age = x, translate both sentences, solve the resulting equation.)*
 
-Step 1: Total books: $8 \times 20 = 160$ books
-Step 2: Total pages: $160 \times 50 = 8,000$ pages
-
-**Average Problems:**
-
-Average (Mean) = Sum of values ÷ Number of values
-
-**Example:**
-"The marks scored by Chidi in 5 subjects are: 72, 85, 60, 90, and 78. What is his average mark?"
-
-Average $= (72 + 85 + 60 + 90 + 78) \div 5 = 385 \div 5 = 77$
-
-**To find the sum when average is given:**
-Sum = Average × Number of items
-"If a student's average mark over 4 exams is 75, what was the total of his marks?"
-Total $= 75 \times 4 = 300$
-
-**Rate Problems:**
-
-**Example:**
-"A car travels 240 km in 4 hours. What is its average speed?"
-Speed = Distance ÷ Time = $240 \div 4 = 60$ km/h
-
-**Distance = Speed × Time** — "If a cyclist rides at 15 km/h for 3 hours, how far does he travel?"
-Distance $= 15 \times 3 = 45$ km
-
-**Time = Distance ÷ Speed** — "How long does it take to travel 180 km at 60 km/h?"
-Time $= 180 \div 60 = 3$ hours
-
-**Percentage Word Problems:**
-
-**Example:**
-"A jacket costs ₦4,000. It is sold at a discount of 15%. What is the sale price?"
-
-Discount amount: $15\%$ of $4,000 = (15/100) \times 4,000 = ₦600$
-Sale price: $4,000 - 600 = ₦3,400$
-
-OR: Sale price $= 4,000 \times (1 - 15/100) = 4,000 \times 0.85 = ₦3,400$
-
-**Profit and Loss:**
-
-**Example:**
-"A trader buys a basket of tomatoes for ₦5,000 and sells them for ₦6,500. What is the profit and profit percentage?"
-
-Profit = Selling Price - Cost Price = $6,500 - 5,000 = ₦1,500$
-Profit % = (Profit ÷ Cost Price) × 100 = $(1,500/5,000) \times 100 = 30\%$
-
-⚡ **Extended Tip — Using Variables in Word Problems:** When problems become complex, introduce variables:
-
-"The price of 3 books and 2 pens is ₦1,400. If a book costs ₦400, what is the cost of one pen?"
-
-Let $p$ = cost of one pen
-$3(400) + 2p = 1,400$
-$1,200 + 2p = 1,400$
-$2p = 200$
-$p = ₦100$
-
-This approach is particularly useful when the NCEE includes algebra-based word problems.
+> 💡 **High-Yield Memory Hook:** For rate problems, remember **"D-S-T"** — Distance = Speed × Time. Cover the letter you want to find: leave it alone, do what the other two say.
 
 ---
-*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+
+## Continue your study
+
+- **[View this topic in your NCEE (National Common Entrance Examination) roadmap](/roadmap/?exam=ncee&duration=1mo)** — see where "Simple Word Problems Involving Operations" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ncee&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NCEE (National Common Entrance Examination) exam overview](/exams/ncee/)** — pattern, eligibility, and syllabus
+- **[All Quantitative Reasoning notes](/notes/ncee/quant-reasoning/)** — browse sibling topics in this subject
+
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

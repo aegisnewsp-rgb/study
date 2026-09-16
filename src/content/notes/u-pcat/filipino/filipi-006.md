@@ -8,108 +8,162 @@ topicName: Kayarian ng Pangungusap at Tayutay
 weight: 3
 country: philippines
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-28"
+lastUpdated: "2026-09-16"
 ---
 
 # Kayarian ng Pangungusap at Tayutay
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your UPCAT Filipino subtest.
+> Rapid summary for last-minute revision before your exam.
 
-In UPCAT Filipino, Topic 6 covers three connected skills: identifying the **uri ng pangungusap** (sentence type), recognizing **tayutay** (figures of speech), and applying **wastong gramatika** (correct grammar) in short Reading Comprehension passages. Roughly 2–4 items out of the 3% Filipino weight test these skills, in many papers as "which figure of speech is used" or "what kind of sentence is this."
+**Kayarian ng Pangungusap** classifies sentences by clause structure, while **Tayutay** identifies figurative expressions that sharpen meaning through comparison, exaggeration, or substitution.
 
-- **Pangungusap ayon sa kayarian:** payak (one independent clause), tambalan (two independent clauses joined by *at/ngunit/kaya*), hugnayan (independent + dependent clause), langkapan (two or more independent clauses embedded with a dependent one).
-- **Pangungusap ayon sa gamit:** paturol (statement), patanong (question), pasiwalat (exclamation), paukol (command), pasalaysay (narration), pakiusap (request).
-- **Quick tayutay markers:** *tulad/parang/katulad* → simile; *tulad* with a hidden comparison → metapora; a non-human acting human → personipikasyon; exaggeration → hiperbole; opposite meaning meant → ironiya.
+- **Simuno (Subject)** — the doer or topic; answers *Sino?* or *Ano?*
+- **Panagano (Predicate)** — what is said about the simuno; answers *Gumagawa ng ano?* or *Ano ang katangian?*
+- **Tawag na Di-malaya (Predicate Nominative)** — renames the simuno via *ay* (e.g., *Magsasaka si Juan*)
+- **Laganap na Pantukoy (Predicate Adjective)** — describes the simuno via *ay* (e.g., *Masipag ang bata*)
+- **Di-tuwirang Layon (Indirect Object)** — receiver of the action (e.g., *kay Maria*)
 
-| Tayutay | Marker hint |
-| --- | --- |
-| Simile | tulad, parang, katulad, kawangis |
-| Metapora | direct comparison, no marker |
-| Personipikasyon | inanimate subject given human action |
-| Hiperbole | obvious exaggeration |
+The four structural types are **Payak** (one independent clause), **Tambalan** (two independent clauses joined by *at/o/ngunit*), **Hugnayan** (one independent + one dependent clause), and **Langkapan** (two or more independent + at least one dependent clause).
+
+> 💡 **High-Yield Memory Hook:** **"P-T-H-L"** for sentence types — **P**ayak, **T**ambalan, **H**ugnayan, **L**angkapan. Think **"Payak-Tambal-Hugnay-Langkap"** — each adds clauses: 1 → 2 independent → +dependent → 2 independent + dependent.
+
+| Uri | Clause Count | Marker Words |
+|---|---|---|
+| Payak | 1 independent | — |
+| Tambalan | 2 independent | at, o, ngunit, subalit, samantala |
+| Hugnayan | 1 indep. + 1 dep. | na, dahil, kung, bagama't, habang |
+| Langkapan | ≥2 indep. + ≥1 dep. | mix of the above |
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students reviewing Filipino grammar and rhetoric over several days.
+> Standard content for students with a few days to months.
 
-#### Sentence Classification by Structure (Kayarian)
+#### Mga Bahagi ng Pangungusap
 
-A **payak na pangungusap** has one subject and one predicate and expresses a complete thought without conjunctions. A **tambalang pangungusap** joins two payak clauses with *at, ngunit, subalit, kaya, o, sapagkat, dahil, kung kaya't*. A **hugnayang pangungusap** contains an independent clause plus a dependent clause introduced by *kapag, kung, habang, upang, para sa, sapagkat, dahil, kung kaya't*. A **langkapang pangungusap** combines two or more independent clauses with at least one dependent clause inside.
+A complete Filipino sentence has two structural pillars: **Simuno** (subject) and **Panagano** (predicate). The Simuno answers *Sino?* or *Ano?* while the Panagano answers *Ano ang ginagawa?* or *Ano ang katangian?*
 
-UPCAT items in many papers give a sentence with a comma and ask the type. The trap: a comma alone does not make a pangungusap tambalan — there must be a coordinating conjunction or two separate predicates with full subjects.
+When the predicate uses a **linking verb** like *ay, si, sina, ang, mga*, the complement takes a special form:
 
-#### Sentence Classification by Use (Gamit)
+- **Tawag na Di-malaya (Predicate Nominative)** renames the subject — *Mabait na guro si Aling Rosa.*
+- **Laganap na Pantukoy (Predicate Adjective)** describes the subject — *Maganda ang bulaklak.*
+- **Di-tuwirang Layon (Indirect Object)** receives the action indirectly — *Ibinigay ni Ana ang libro kay Maria.*
 
-| Gamit | Purpose | Punctuation ending |
-| --- | --- | --- |
-| Paturol | statement of fact | period (.) |
-| Patanong | asks a question | question mark (?) |
-| Pasiwalat | expresses emotion | exclamation mark (!) |
-| Paukol | command or order | period or ! |
-| Pakiusap | polite request | period or ? |
-| Pasalaysay | recounts events | period (.) |
+#### Apat na Kayarian ng Pangungusap
 
-#### Tayutay (Figures of Speech)
+The **P-T-H-L** hierarchy reflects clause complexity:
 
-The Filipino curriculum recognizes two broad groups: **mga tayutay na paghahambing** (comparison figures — simile, metapora, personipikasyon, alegoriya) and **mga tayutay na hindi paghahambing** (non-comparison — hiperbole, litotes, ironiya, sinekdoke, metonimiya, onomatopoeia, aliterasyon, simbolismo).
+1. **Payak** — one independent clause only. Example: *Umalis si Pedro.* (one simuno + one panagano)
+2. **Tambalan** — two independent clauses joined by a coordinating conjunction (*at, o, ngunit, subalit, datapwat, samantala, habang*). Example: *Nag-aral si Ana at naglaro siya.* Both clauses can stand alone.
+3. **Hugnayan** — one independent clause + one dependent clause (cannot stand alone). The dependent clause uses subordinating conjunctions: *na, dahil, kung, bagama't, sapagkat, habang, upang, para sa*.
+4. **Langkapan** — combination of Tambalan and Hugnayan: ≥2 independent clauses + ≥1 dependent clause. Example: *Dumating si Juan, umalis si Maria, ngunit hindi nila nakita ang sulat na ipinadala ni Pedro.*
 
-- A **simile** uses *tulad, parang, katulad, gaya, kawangis*; a **metapora** drops the marker and states the comparison directly.
-- **Hiperbole** is deliberate exaggeration for effect; **litotes** is understatement (saying *mabuti ang kalusugan* to mean *hindi masama*).
-- **Sinekdoke** swaps part for whole (*bubong* for *bahay*); **metonimiya** substitutes an associated term (*korona* for *hari*).
-- **Onomatopoeia** mimics sound (*kutok, kalabasa sumabog*); **aliterasyon** repeats initial consonant sounds.
+#### Concept Comparison Matrix: Tambalan vs. Hugnayan
 
-#### Wastong Gramatika
+This is the most confused pair in UPCAT Filipino.
 
-- **Pang-abay** modifies a verb, adjective, or another adverb; **pang-uri** modifies a noun. The classic trap: *magandang bata* — *maganda* is pang-uri because it describes *bata*, not the action.
-- Distinguish **ng (pang-ukol)** from **ng (pagmamay-ari)**: "*Ako ng bahay*" (possessive) versus "*Kumuha ng libro*" (object marker).
-- Watch for **diptonggo** (*siyá, liyó, suwáw*) and **klaster** (*isyu, ngiti, niyog*) — plural formation in many papers changes the vowel, tripping careless spellers.
+| Feature | Tambalan | Hugnayan |
+|---|---|---|
+| Independent clauses | 2 (both can stand alone) | 1 only |
+| Dependent clause | None | 1 (cannot stand alone) |
+| Joining word type | Coordinating conjunction | Subordinating conjunction |
+| Example marker | *at, o, ngunit, samantala* | *na, dahil, kung, bagama't* |
+| Sample | *Kumain kami at uminom kami.* | *Kumain kami *dahil* nagutom kami.* |
+
+#### Tatlong Pangunahing Uri ng Tayutay
+
+**Ayon sa kahulugan**, tayutay fall into three functional families:
+
+1. **Pagtutulad (Comparison)** — links two unlike things:
+   - *Simili* uses *parang, tulad, kawangis, maging, minsan ay*: *"Matapang siyang parang leon."*
+   - *Metapora* is direct without a connector: *"Ikaw ang aking bituin."*
+   - *Personipikasyon* gives human traits to non-humans: *"Ang dagat ay sumayaw sa buwan."*
+
+2. **Paglalahat (Overstatement/Understatement)**:
+   - *Hyperbole* exaggerates beyond belief: *"Namatay na ako sa pagod."*
+   - *Ironi (Pangungutya)* says the opposite of the literal meaning: *"Tunay na kaibigan ka talaga"* (after betrayal).
+
+3. **Pagpapalit-tawag (Substitution)**:
+   - *Metonymy (Panghalip na Patalakayan)* uses a related term: *"Malacañang ay nagpahayag"* = the President announced.
+   - *Sinekdoke* uses a part for the whole or vice versa: *"May dalawang bibig siyang nagsalita"* = relatives spoke.
+
+#### 🎯 Exam-Level Worked Problem
+
+**Question:** Tukuyin ang kayarian ng pangungusap: *"Dumating si Maria, umalis si Juan, ngunit hindi nila nakita ang regalo na ipinadala ni Pedro."*
+
+A. Payak  
+B. Tambalan  
+C. Hugnayan  
+D. Langkapan  
+
+#### Solution:
+
+Step 1 — Count the independent clauses (clauses that can stand alone as a sentence):
+- *Dumating si Maria* ✓ independent
+- *Umalis si Juan* ✓ independent
+- *Hindi nila nakita ang regalo* ✓ independent
+
+Three independent clauses present.
+
+Step 2 — Identify dependent clauses (cannot stand alone):
+- *na ipinadala ni Pedro* → dependent clause modifying *regalo* (contains subordinating marker *na* and a verb)
+
+Step 3 — Apply the P-T-H-L rule. A sentence with **≥2 independent clauses AND ≥1 dependent clause** is **Langkapan**.
+
+#### Answer: D. Langkapan
+
+> ⚠️ **Examiner Trap:** Students often choose **B (Tambalan)** because they spot *ngunit*, but the presence of the dependent clause *na ipinadala ni Pedro* pushes the sentence to **Langkapan**. Count the clauses, not just the conjunctions — *na* after a noun is a relative clause marker, not a coordinating conjunction.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students with months to master Filipino grammar and rhetoric.
+> Comprehensive coverage for students on a longer study timeline.
 
-#### Antas ng Wika at Rehistro
+#### Advanced Traps at Examiner Level
 
-Filipino operates on three levels: **lalawiganin** (provincial, dialectal), **pambansa** (national standard, used in DepEd materials and news), and **pampanitikan** (literary, found in poetry and fiction). UPCAT reading passages can shift registers — a sanaysay excerpt in many papers uses pampanitikan with archaic forms like *siya'y, nang, kung baga*, while a news item uses pambansa. Choosing the wrong register for a writing task (e.g., inserting *po* and *opo* into a formal editorial) signals weak language proficiency.
+| Trap | What Students Do | Correct Approach |
+|---|---|---|
+| Confusion of *na* (relative) vs. *na* (coordinator) | Mark *Hugnayan* for any sentence with *na* | Check if the *na*-clause can stand alone; if not, it's dependent |
+| Identifying Simuno in inverted sentences | Take the first noun as Simuno | Find what the predicate describes: in *Mahilig magbasa ang bata*, Simuno = *bata* |
+| Misclassifying Personipikasyon | Call it Metapora because it compares | Personipikasyon requires **human action or speech** by a non-human |
+| Missing Sinekdoke | Label every substitution as Metonymy | Sinekdoke uses **part-for-whole** or **whole-for-part** specifically |
+| Linking verb confusion | Treat *ay* as a verb | *Ay* is a **copula** linking subject to predicate nominative/adjective |
 
-#### Edge Cases and Examiner Traps
+#### Edge Cases and Disambiguation Rules
 
-1. **Ironiya vs. Hiperbole.** Ironiya says the opposite of what is meant (*Ang ganda ng buhay mo* after a tragedy); hiperbole quantifies exaggeration (*Nakalipad ako sa tuwa*). Some items highlight emotional context to test this distinction.
-2. **Tayutay sa Tula.** A single line can contain two tayutay — e.g., *"Ang buhay ko ay dagat na minsang tahimik, minsang alon"* carries metapora (buhay = dagat) and personipikasyon (dagat being "minsang tahimik"). Credit the dominant figure unless the item specifies "lahat ng tayutay."
-3. **Payak vs. Tambalan pitfall.** "*Umulan ng malakas at sumalampak ang bubong*" contains a compound predicate sharing one subject, so it remains payak. Adding a coordinating conjunction across two independent clauses (*at ang mga tao ay tumakbo*) elevates it to tambalan.
-4. **Pang-abay na pamanahon vs. Pang-ukol.** *Noong* and *nang* can look identical; *nang* as pang-abay answers *kailan* (*nang umalis siya*), while *nang* as pang-ukol marks the verb's complement (*Umalis siya nang maaga*).
+#### 1. The "na" test for Hugnayan.
+A dependent clause introduced by *na, dahil, kung, bagama't, sapagkat, habang* is the only valid mark of Hugnayan or Langkapan. If you remove the dependent clause and the remaining sentence is still grammatically complete, you have a Hugnayan or Langkapang base.
 
-#### Practice Prompts
+#### 2. Samantala as a structural pivot.
+*Samantala* functions like *ngunit* — it joins two independent clauses, so the sentence is at least Tambalan. However, *samantalang* (with the suffix *-ng*) can introduce a dependent clause (Hugnayan). Test: *Samantalang nag-aaral si Ana, naglaro si Pedro.* → Two clauses, second is dependent → **Hugnayan**.
 
-1. Classify the sentence: *"Kapag umaga ang sumapit, sisipat ang araw sa bintana, at mapupuno ang silid ng liwanag."* Identify its kayarian at gamit, and list at least one tayutay if present.
-2. Rewrite the cluttered sentence *"Napakaganda ng sinabi ng guro naming bagong pasok na palakaibigan at masipag"* into two clear sentences, and identify whether the original error stems from a misplaced pang-uri or a faulty tayutay.
+#### 3. Inverted sentences and predicate identification.
+Filipino frequently inverts subject-predicate order. In *Maganda ang araw*, the predicate adjective is *maganda* and the simuno is *araw*. The marker *ang* signals the simuno, not the panagano — even when the predicate comes first.
 
-#### Worked Mini-Example
+#### 4. Personipikasyon vs. Metapora hierarchy.
+Both are *Pagtutulad*, but Personipikasyon is more specific. If the non-human is described as **acting, speaking, or feeling**, it is Personipikasyon. If it is simply **compared** without action, it is Metapora.
 
-Sentence: *"Tulad ng isang tala, ang liham mo ay nagbigay-liwanay sa madilim kong gabi."*
+#### 5. Metonymy vs. Sinekdoke boundary.
+Metonymy substitutes an **associated concept** (e.g., *Malacañang* for President, *Korona* for monarchy). Sinekdoke substitutes a **part for the whole** (e.g., *Mga bisig* for workers, *bubong* for home). UPCAT tests this distinction in roughly 1 item every two cycles.
 
-- **Tayutay:** simile (marker: *tulad ng*).
-- **Kayarian:** payak (one subject *liham*, one predicate *nagbigay-liwanay*).
-- **Ggamit:** paturol (declarative statement).
-- **Antas ng wika:** pampanitikan (archaic pronoun *mo*, poetic diction).
+#### Connections to Adjacent UPCAT Topics
 
-#### Common Mistakes to Avoid
+- **Balarila at Gramatika** — sentence construction depends on identifying parts of speech correctly.
+- **Pagpapakahulugan at Paraan ng Pag-iisip** — Tayutay are tools of figurative reasoning tested in reading comprehension.
+- **Pagbasa at Pagsusuri ng Teksto** — most Tayutay questions appear inside passage-based items rather than standalone items.
 
-- Confusing literal versus figurative meaning when picking tayutay.
-- Treating every clause with a conjunction as tambalan without checking clause independence.
-- Misspelling *siyá* as *siya* and misusing *ng / nang* interchangeably.
-- Choosing *pasiwalat* for any sentence ending in an exclamation mark — *pasiwalat* requires strong emotion, not just punctuation.
+#### Two Advanced Practice Prompts
 
-Exam relevance: this topic contributes roughly 2–4 items, about 3% of UPCAT's total score. Pair it with Topic 5 (vocabulary and spelling) and Topic 7 (reading comprehension strategies) for the highest yield. Sources for deeper practice: the UPCAT reviewer PDFs on upcat.up.edu.ph and the DepEd K-12 Filipino grammar modules.
+1. **Structural analysis:** Identify all clauses and classify — *"Bagama't maulan ngayon, pupunta kami sa bayan, magsisimba, at kakain sa karnabal."* (Expected: Langkapan — one dependent clause + three independent clauses joined by commas and *at*.)
+
+2. **Tayutay disambiguation:** In the line *"Ang kanyang mga kamay, mga tungkod ng pag-asa, ay nanginginig na,"* classify *mga tungkod ng pag-asa* and explain whether it is Metapora, Metonymy, or Sinekdoke. (Expected: **Metapora** — direct comparison of hands to crutches without a connector like *parang*.)
 
 ---
 
 ## Continue your study
 
-- **[View this topic in your UPCAT (Philippines) roadmap](/roadmap/?exam=u-pcat&duration=1mo)** — see where "Topic 6" fits in your personalised plan
+- **[View this topic in your UPCAT (Philippines) roadmap](/roadmap/?exam=u-pcat&duration=1mo)** — see where "Kayarian ng Pangungusap at Tayutay" fits in your personalised plan
 - **[Build a quick revision plan](/roadmap/?exam=u-pcat&duration=1d)** — 1-day sprint covering highest-weight topics
 - **[UPCAT (Philippines) exam overview](/exams/u-pcat/)** — pattern, eligibility, and syllabus
 - **[All Filipino notes](/notes/u-pcat/filipino/)** — browse sibling topics in this subject

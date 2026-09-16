@@ -11,7 +11,7 @@ topicName: Prepositions and Conjunctions
 weight: 3
 country: nigeria
 generated: "2026-03-24T08:32:07.658994"
-lastUpdated: "2026-07-24"
+lastUpdated: "2026-09-16"
 diagramPrompt: "Educational diagram illustrating Prepositions and Conjunctions with clear labels, white background, exam-style illustration"
 
 
@@ -22,66 +22,114 @@ diagramPrompt: "Educational diagram illustrating Prepositions and Conjunctions w
 # Prepositions and Conjunctions
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+> Rapid summary for last-minute revision before your NECO SSCE English paper.
 
-**Prepositions** sit before a noun or pronoun (the *object of the preposition*) to show relationships of time, place, direction, manner, cause, and instrument. A **prepositional phrase** = preposition + object (e.g., *in the library*, *with care*, *after dinner*).
+A **preposition** is a function word placed before a noun or pronoun (its *object*) to show how that noun/pronoun relates to another word in the sentence — usually position, direction, time, manner, or cause. A **conjunction** is a function word that joins words, phrases, or clauses to express addition, contrast, cause, condition, or time. NECO tests both in *Lexis and Structure* and *Sentence Interpretation* under Paper I, and correct use of conjunctions shapes essay cohesion in Paper II.
 
-**Conjunctions** are linking words in three families: **coordinating** (FANBOYS: *for, and, nor, but, or, yet, so*), **correlative** (pairs like *both/and*, *either/or*, *neither/nor*, *not only/but also*), and **subordinating** (*because, although, when, if, while, since, unless*).
+- **Preposition types by function:** place (in, on, at, under, between); direction (to, from, into, onto); time (since, during, before, after); manner (by, with, like); cause (because of, due to).
+- **Conjunction types:** coordinating (FANBOYS — for, and, nor, but, or, yet, so); subordinating (although, because, since, when, if, unless, whereas); correlative (either…or, neither…nor, both…and, not only…but also).
+- **Time-preposition rule:** *since* marks a starting point (since 2020); *for* marks duration (for five years).
+- **Prepositional phrase = Preposition + Object**, e.g., *on the table*, *with him*. The object cannot be omitted.
 
-NECO SSCE usually tests these as gap-filling MCQs in Paper II. Watch these three traps:
+> 💡 **High-Yield Memory Hook:** **FANBOYS** for coordinating conjunctions (For, And, Nor, But, Or, Yet, So), and **A WHITE BUS** for common subordinators (**A**lthough, **W**hile, **H**owever is NOT one, **I**f, **T**hough, **E**ven though, **B**ecause, **U**nless, **S**ince) — minus "However," which is a conjunctive adverb.
 
-- **Adjective + preposition collocations** are fixed — *good at*, *interested in*, *afraid of*, *angry with*.
-- **Correlative pairs demand parallel structure** on both sides of the connector.
-- **For vs. since** — *for* takes a duration, *since* takes a starting point.
+---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+> Standard content for students working through the syllabus over weeks.
 
-#### Categories of Prepositions
+#### Core Categories and Their Grammatical Job
 
-Prepositions are classified by the relationship they express. Time markers (*at, on, in, during, since, for*) are the most tested in NECO Paper II. Place markers (*at, in, on, between, among*) frequently appear in cloze passages. Direction (*to, from, into, onto, towards*), manner (*by, with, in*), and instrument (*with, by*) round out the set.
+Prepositions and conjunctions are both *function words*: they have little lexical meaning on their own, but they control how surrounding words relate. A preposition governs a noun or pronoun to form a **prepositional phrase** (e.g., *in Lagos*, *after the match*). A conjunction links grammatical units — single words, phrases, or entire clauses — to express a logical relationship. Misclassifying them is the single biggest source of NECO *Lexis and Structure* errors.
 
-#### The Three Families of Conjunctions
+#### Comparison Matrix — Prepositions vs Conjunctions
 
-**Coordinating conjunctions** (FANBOYS) join grammatically equal items: two nouns, two phrases, or two independent clauses — typically separated by a comma before the conjunction. **Correlative conjunctions** work in balanced pairs and demand matching grammatical forms on both sides. **Subordinating conjunctions** introduce a dependent clause and signal cause, contrast, condition, time, or purpose.
+| Feature | Preposition | Conjunction |
+|---|---|---|
+| What it links | A noun/pronoun to another word | Words, phrases, or clauses |
+| Has an object? | Yes (object can be implied) | No |
+| Example | *on the desk* | *and*, *because*, *although* |
+| Can begin a clause? | No — needs a noun/pronoun after it | Yes (subordinator) or joins two clauses (coordinator) |
+| Test in NECO | Choose correct preposition in context | Identify conjunction type or function |
+| Function words carrying meaning of | Position, time, manner, cause, direction | Logic (addition, contrast, cause, condition) |
 
-#### Quick Reference Table
+#### Sub-Types of Conjunctions
 
-| Type | Function | Examples |
-| --- | --- | --- |
-| Time preposition | Marks when | *at noon, on Monday, in 2024, for two hours, since 2020* |
-| Place preposition | Marks where | *at the door, in Lagos, on the floor, between A and B* |
-| Coordinating conjunction | Joins equal items | *and, but, or, nor, yet, so, for* |
-| Correlative conjunction | Joins in balanced pairs | *both/and, either/or, neither/nor, not only/but also* |
-| Subordinating conjunction | Introduces dependent clause | *because, although, when, if, while, unless, since* |
+| Type | Role | Examples |
+|---|---|---|
+| Coordinating (FANBOYS) | Join two equal grammatical units | *and*, *but*, *or*, *so*, *yet* |
+| Subordinating | Introduce a dependent clause | *because*, *although*, *when*, *if*, *unless* |
+| Correlative | Work as paired sets | *either…or*, *neither…nor*, *both…and* |
+| Conjunctive adverb | Join independent clauses; set off by commas/semicolon | *however*, *therefore*, *moreover* |
 
-#### Fixed Collocations to Memorise
+> 📌 **Formula Check:** A *prepositional phrase* = **Preposition + Object (noun/pronoun) + Optional modifiers**. A *dependent clause* = **Subordinator + Subject + Verb**, e.g., *because he arrived late*. Without the subject and verb, it is a phrase, not a clause.
 
-Many NECO questions hinge on adjective–preposition or verb–preposition pairings that are not logical but idiomatic: *depend on*, *consist of*, *succeed in*, *famous for*, *good at*, *interested in*, *afraid of*, *angry with*.
+#### Key Rules Students Must Memorize
 
-- Memorise at least ten collocations before the exam — they appear almost yearly.
-- Read each option in the gap-filling MCQ as a phrase, not as an isolated word.
-- For correlative pairs, mentally erase the connector and check that the remaining structures match (parallel form).
+- *Because of* + noun phrase; *because* + full clause. *Because of the rain* (noun phrase) is correct; *because the rain was heavy* (clause) requires *because*, not *because of*.
+- *Like* is a preposition (introduces a noun: *like a lion*). *As* is a conjunction (introduces a clause: *as he said*).
+- *Since* and *for* are both time prepositions but signal different things — point of time vs duration.
+- A correlative pair must be *complete*: every *either* needs an *or*; every *neither* needs a *nor*.
+- *Although* and *since* (subordinating) cannot join two independent clauses alone — they must attach to a dependent clause.
+- *However* is a conjunctive adverb, not a coordinator. Use: *He was tired; however, he kept going.*
+
+#### 🎯 Exam-Level Worked Problem
+
+**Question:** Choose the option that correctly completes the sentence: *"The match has been postponed ____ the heavy rainfall."*
+A. because  
+B. because of  
+C. since  
+D. although
+
+**Solution:** Read the blank carefully. After the blank comes the noun phrase *the heavy rainfall* — there is **no subject + verb** following it, so the blank is part of a noun phrase, not a clause.
+
+1. *Because* (A) is a **subordinating conjunction** and requires a full clause (subject + verb). ✗ *Because the heavy rainfall* is incomplete.
+2. *Because of* (B) is a **preposition** that takes a noun phrase object. ✓ *Because of the heavy rainfall* is grammatical.
+3. *Since* (C) here is a subordinator requiring a clause; *since the heavy rainfall* alone is ungrammatical. ✗
+4. *Although* (D) introduces a concessive clause and needs subject + verb; it also shifts the meaning to contrast, not cause. ✗
+
+#### Correct answer: B — because of.
+
+> ⚠️ **Examiner Trap:** Students pick *because* (A) because the cause relation feels obvious. The trap is that *because* governs a clause, but the next word group is *the heavy rainfall* (no verb). Whenever a "because"-type blank is followed by a noun or -ing form only, the correct form is the **prepositional** *because of* / *due to* / *owing to*.
+
+---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
+> Comprehensive coverage for students building long-term mastery.
 
-#### Parallelism with Correlative Conjunctions
+#### Edge Cases and Examiner Favourites
 
-The hardest NECO trap is unbalanced parallelism. When the pair *either/or*, *neither/nor*, *both/and*, or *not only/but also* is used, the grammatical structure after the first half must mirror the structure after the second half. Compare: *Either you study hard OR you fail* (infinitive + clause — balanced) versus *Either you study hard OR failing* (infinitive + gerund — broken).
+| Edge Case | Correct Treatment | Common Error |
+|---|---|---|
+| Stranded preposition in formal writing | Avoid (*To whom are you talking?*) but accepted informally | Leaving it dangling in essays |
+| *Different from* vs *different than* | Use *different from* in NECO-standard English | Mixing *than* (comparison) with *from* |
+| *In/on/at* for time | *in* months/years; *on* days/dates; *at* clock time or festivals | Swapping *in* and *on* |
+| *Between* vs *among* | *between* = two parties; *among* = more than two | Using *between* for groups of three or more |
+| *Despite* vs *although* | *Despite* + noun; *Although* + clause | Writing *despite the rain was heavy* |
+| *As* (conjunction) vs *as* (preposition) | *as he ran* (clause) vs *as a teacher* (preposition, meaning "in the role of") | Treating them as interchangeable |
 
-#### Distinguishing Because vs. Because Of
+#### Advanced Traps and Exceptions
 
-*Because* is a **subordinating conjunction** followed by a clause containing a subject and verb (*because she was late*). *Because of* is a **complex preposition** followed by a noun phrase (*because of the rain*). Examiners exploit this by offering both forms as distractors.
+1. **Double prepositions** like *out of*, *into*, *within*, *upon* are single compound prepositions — do not insert extra words inside them.
+2. **Participle prepositions** (*regarding*, *concerning*, *considering*) can also act like prepositions, taking noun objects directly.
+3. **Conjunctive adverbs are not conjunctions.** A common NECO distractor pairs *however*, *therefore*, or *moreover* against *but*, *so*, or *and* — only the latter are true coordinators.
+4. **Omission of second correlative element** breaks parallelism: *He is both intelligent and hardworking* ✓ but *He is both intelligent* ✗.
+5. **Prepositional phrases at the end of clauses** must not be confused with adverbial clauses ending a sentence: *before the match* (prep phrase, no verb) vs *before the match started* (clause).
 
-#### For vs. Since for Time
+#### Connections to Adjacent Topics
 
-*For* + duration (*for five years, for two hours*). *Since* + starting point (*since 2020, since Monday, since morning*). A common NECO distractor swaps these: *I have lived here since five years* (wrong) vs *I have lived here for five years* (correct).
+- **Tenses and concord:** Wrong prepositions can shift tense context (*since 2020* vs *for 2020*).
+- **Lexis and Structure:** Most preposition/conjunction MCQs are cloze-style or gap-filling.
+- **Essay writing (Paper II):** Subordinators are the engine of complex sentences that score higher marks for sentence variety.
 
-#### Practice Prompts
+> 💡 **High-Yield Revision Hook:** When a blank is followed by a **noun or noun phrase with no verb**, choose a **preposition** (*because of*, *due to*, *despite*, *on*). When the blank is followed by a **subject + verb**, choose a **conjunction** (*because*, *although*, *since*, *when*).
 
-1. Rewrite with parallel structure: *She enjoys both to read books AND watching films.*
-2. Fill the gap correctly: *He has been working here \_\_\_\_ 2019.* (a) for (b) since (c) from (d) during
+#### Two Advanced Practice Prompts
+
+1. Identify and justify the conjunction type in: *"Although Ade studied hard, he failed the exam because he did not understand the questions."*
+2. Rewrite the faulty sentence correctly: *"The teacher insisted on that the students should submit their books."*
+
+---
 
 ## Continue your study
 

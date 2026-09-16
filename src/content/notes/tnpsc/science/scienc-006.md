@@ -8,98 +8,98 @@ topicName: "Matter, Motion, and Force"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-09-05
+lastUpdated: "2026-09-16"
 ---
 
 # Matter, Motion, and Force
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid review of classical kinematics, dynamics, friction, gravitation, and fluid statics for TNPSC Group 1 Preliminary examination.
+> Rapid summary for last-minute revision before your exam.
 
-**Physics Mechanics — High-Yield Essentials**
+**Matter** is anything with mass that occupies space. **Motion** is the change in position of an object with respect to time, measured against a reference frame. **Force** is an external push or pull that changes a body's state of rest, its uniform motion, or its shape. These three ideas form the bedrock of classical mechanics tested in TNPSC Group 1 Science.
 
-1. **Scalars vs Vectors:**
-   - **Scalars (Magnitude only):** Distance, speed, mass, time, temperature, work, energy, power, electric charge, pressure.
-   - **Vectors (Magnitude and Direction):** Displacement, velocity, acceleration, force, momentum, impulse, torque, gravitational field intensity.
-2. **Kinematic Equations of Uniformly Accelerated Motion:**
-   3328002v = u + at3328002
-   3328002s = ut + rac{1}{2}at^23328002
-   3328002v^2 = u^2 + 2as3328002
-   3328002s_n = u + rac{a}{2}(2n - 1) \quad 	ext{(distance in } n	ext{-th second)}3328002
-3. **Newton's Laws of Motion:**
-   - **First Law (Law of Inertia):** A body maintains its state of rest or uniform linear motion unless compelled by a net external unbalanced force. Inertia is directly proportional to the mass of the body.
-   - **Second Law (Momentum and Force):** The rate of change of linear momentum is directly proportional to the applied force:  = rac{dp}{dt} = m \cdot a$ (in SI units: 	ext{ N} = 1	ext{ kg}\cdot	ext{m/s}^2$).
-   - **Third Law (Action-Reaction):** For every action, there is an equal and opposite reaction acting on two mutually distinct interacting bodies.
-4. **Frictional Forces:**
-   - Static friction ( \le \mu_s N$) opposes impending motion; its maximum value is limiting friction.
-   - Kinetic friction ( = \mu_k N$) opposes ongoing relative sliding motion. In general, $\mu_s > \mu_k > \mu_r$ (rolling friction is the smallest, which is why ball bearings reduce mechanical wear).
+| Term | Meaning | SI Unit | Vector / Scalar |
+|---|---|---|---|
+| Mass | Quantity of matter in a body | kilogram (kg) | Scalar |
+| Weight | Gravitational pull on a body, W = m × g | newton (N) | Vector |
+| Velocity | Displacement per unit time, v = d / t | m/s | Vector |
+| Acceleration | Rate of change of velocity, a = (v − u) / t | m/s² | Vector |
 
-⚡ **TNPSC Group 1 Exam Trap:** Candidates often classify pressure as a vector quantity because force has direction. However, **pressure is a scalar quantity** ( = F_\perp / A$) because fluid pressure at any given depth acts uniformly in all directions.
+> 💡 **High-Yield Memory Hook:** **"M-W-V-A-F-D"** — Matter, Weight, Velocity, Acceleration, Force, Displacement. Remember: scalars (mass, distance, speed) lack direction; vectors (weight, velocity, acceleration, force, displacement) have both magnitude and direction.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Systematic physical science study guide aligned with Tamil Nadu Samacheer Kalvi Class 9, 10, and 11 Physics.
+> Standard content for students with a few days to months.
 
-## 1. Gravitation and Orbital Mechanics
+#### Newton's Three Laws of Motion
 
-Newton's Universal Law of Gravitation governs mutual gravitational attraction between any two particles of masses $ and $ separated by distance $:
-3328002F = G rac{m_1 m_2}{r^2}3328002
-where  = 6.674 	imes 10^{-11}	ext{ N}\cdot	ext{m}^2/	ext{kg}^2$ is the Universal Gravitational Constant, determined experimentally by Henry Cavendish.
+Newton's **First Law (Law of Inertia)** states that a body at rest stays at rest, and a body in uniform motion continues in that motion, unless acted upon by an external unbalanced force. This property of resisting change is called **inertia** — its measure is mass.
 
-### Acceleration Due to Gravity ($) and its Variations
-At Earth's surface:
-3328002g = rac{GM}{R^2} pprox 9.8	ext{ m/s}^23328002
-The value of $ is subject to four systemic variations tested in TNPSC exams:
-1. **Altitude ($ above surface):** ' = g \left(1 - rac{2h}{R}ight)$ for  \ll R$. Gravity decreases with increasing height.
-2. **Depth ($ below surface):** ' = g \left(1 - rac{d}{R}ight)$. Gravity decreases linearly with depth, reaching exactly **zero at the Earth's center**.
-3. **Latitude and Oblateness:** Earth is an oblate spheroid (equatorial radius exceeds polar radius by ~21 km). Hence, $ is **maximum at the poles** (~.83	ext{ m/s}^2$) and **minimum at the equator** (~.78	ext{ m/s}^2$).
-4. **Earth's Rotation:** Centrifugal effects reduce effective gravity at latitude $\lambda$: ' = g - R\omega^2 \cos^2\lambda$.
+Newton's **Second Law** quantifies the first law: the net force on a body equals the rate of change of its momentum. For constant mass, this simplifies to:
 
----
+> 📌 **Formula Check:** **F = m × a**, where F is net force in newtons (kg·m/s²), m is mass in kg, a is acceleration in m/s²; dimensions [M L T⁻²].
 
-## 2. Fluid Statics: Archimedes Principle and Pascal's Law
+Newton's **Third Law** says every action has an equal and opposite reaction. The action and reaction forces always act on **different bodies**, so they never cancel each other.
 
-| Principle / Law | Formal Statement | Practical Applications | TNPSC MCQ Focus |
-|---|---|---|---|
-| **Pascal's Law** | Pressure applied to an enclosed incompressible fluid is transmitted undiminished in all directions | Hydraulic brakes, hydraulic lift, hydraulic press | Mechanical advantage:  = F_1 	imes (A_2 / A_1)$ |
-| **Archimedes Principle** | A body submerged partially or fully in fluid experiences an upward buoyant force equal to the weight of displaced fluid | Hydrometers (measuring liquid density), lactometers (milk purity), submarine ballast tanks | Apparent weight = True weight minus buoyant force ({app} = W - Vho g$) |
-| **Law of Floatation** | A floating body displaces a volume of fluid whose weight equals the total weight of the floating body | Ships floating on water; iceberg submerged ratio | An iceberg floats with ~8/9th of its volume submerged in seawater |
-| **Bernoulli's Theorem** | For streamline flow of non-viscous fluid:  + rac{1}{2}ho v^2 + ho gh = 	ext{constant}$ | Dynamic aerodynamic lift of airplane wings, atomizer/spray gun, venturimeter | High velocity corresponds to reduced fluid pressure |
+#### Comparison Matrix — Commonly Confused Pairs
+
+| Concept A | Concept B | Key Distinction |
+|---|---|---|
+| Mass vs Weight | Mass is invariant; weight = mg varies with location | Measured in kg vs N |
+| Distance vs Displacement | Scalar path length vs vector shortest shift | Always equal in magnitude, displacement can be zero |
+| Speed vs Velocity | Speed = d/t (scalar); velocity has direction | Same numerical value for straight motion |
+| Static vs Kinetic friction | f_s ≤ μ_s N; f_k = μ_k N | Static friction is self-adjusting up to a limit |
+| Balanced vs Unbalanced forces | Net force = 0 vs net force ≠ 0 | Equilibrium vs acceleration |
+| Work vs Power | W = Fd cos θ (J); P = W/t (W) | Energy transferred vs rate of transfer |
+
+#### 🎯 Exam-Level Worked Problem
+
+**Question:** A 1500 kg car accelerates uniformly from 18 km/h to 54 km/h over 5 seconds. Find (a) the net force on the car, and (b) the impulse delivered. (g = 9.8 m/s²)
+
+#### Solution:
+Convert velocities: u = 18 km/h = 5 m/s; v = 54 km/h = 15 m/s.
+Acceleration: a = (v − u) / t = (15 − 5) / 5 = **2 m/s²**.
+Force: F = m × a = 1500 × 2 = **3000 N** (i.e., 3 × 10³ N, dimensions [M L T⁻²]).
+Impulse: J = F × Δt = 3000 × 5 = **15000 N·s**.
+Verify with momentum: Δp = m(v − u) = 1500 × 10 = 15000 kg·m/s ✓
+
+> ⚠️ **Examiner Trap:** Students frequently forget to convert km/h into m/s before applying F = m × a, getting answers off by a factor of 3.6. Always convert to SI units first.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Quantitative mechanics, micro-worked examples, and authentic TNPSC Group 1 PYQ set.
+> Comprehensive coverage for students on a longer study timeline.
 
-## 3. High-Yield Numerical Problem Solving
+#### Edge Cases and Boundary Conditions
 
-#### Worked Micro-Example: Kinematic Stopping Distance and Work-Energy
-A vehicle of mass  = 1200	ext{ kg}$ traveling at speed  = 20	ext{ m/s}$ (2	ext{ km/h}$) applies brakes and halts over distance  = 40	ext{ m}$. Calculate:
-1. The decelerating braking force exerted on the vehicle:
-   3328002v^2 = u^2 + 2as \implies 0 = 20^2 + 2a(40) \implies a = -rac{400}{80} = -5	ext{ m/s}^23328002
-   3328002F_{braking} = m \cdot |a| = 1200 	imes 5 = 6000	ext{ N}3328002
-2. The stopping distance if the vehicle initial speed is doubled to  = 40	ext{ m/s}$ under the same braking force:
-   3328002s \propto u^2 \implies s_2 = s_1 \left(rac{v_2}{v_1}ight)^2 = 40 	imes (2)^2 = 160	ext{ m}3328002
-   Doubling vehicular velocity quadruples the necessary stopping distance.
+1. **Free fall in vacuum:** All bodies, regardless of mass, fall with the same acceleration g ≈ 9.8 m/s² near Earth's surface, provided air resistance is negligible — Galileo's principle that disproves the heavier-falls-faster intuition.
+2. **Apparent weight in an elevator:** When a lift accelerates upward with acceleration a, apparent weight = m(g + a); when accelerating downward = m(g − a); in free fall = 0.
+3. **Universal gravitation:** F = G m₁ m₂ / r², where G = 6.674 × 10⁻¹¹ N·m²/kg²; the formula **does not** reduce to F = mg for two arbitrary point masses separated by r.
+4. **Conservation of momentum:** In an isolated system (no external force), Σp_initial = Σp_final — this is the principle behind rocket propulsion, where gas ejected backward produces forward thrust.
+5. **Work-energy theorem:** Net work done on a body equals the change in its kinetic energy, W_net = ½ m(v² − u²). Work is negative when force opposes displacement (e.g., friction).
 
-## 4. TNPSC Group 1 Previous Year Questions (PYQs)
+#### Common Mistakes and Exam Pointers
 
-**Question 1 (TNPSC Group 1 Prelims):** The acceleration due to gravity ($) at the center of the Earth is:  
-*(A) .8	ext{ m/s}^2$ (B) Zero (C) Infinite (D) Equal to surface gravity*  
-**Answer:** (B) Zero (Explanation: At the center of the Earth, the depth  = R$, making ' = g(1 - d/R) = g(1 - 1) = 0$).
+| Trap | Correct Approach |
+|---|---|
+| Writing weight in kg | Weight is a force; SI unit is newton (N) |
+| Using F = mg between two arbitrary masses | Universal law requires F = G m₁ m₂ / r² |
+| Cancelling action-reaction pair | They act on different bodies; cannot cancel |
+| Applying v = u + at to non-uniform motion | Equation valid only for constant acceleration |
+| Mixing scalar distance with vector displacement | Numerically same only for straight-line unidirectional motion |
 
-**Question 2 (TNPSC Group 1 Prelims):** When a milk cream separator operates, cream separates from milk due to:  
-*(A) Centripetal force (B) Centrifugal force (C) Gravitational force (D) Viscous force*  
-**Answer:** (B) Centrifugal force (Explanation: In a rotating centrifuge, the denser skimmed milk components experience greater inertia and move outward, while the less dense fat globules/cream concentrate toward the central rotational axis).
-
-**Question 3 (TNPSC Group 1 Prelims):** A coin and a feather dropped simultaneously in a complete vacuum from the same height will:  
-*(A) Hit the ground at the same time (B) The coin hits first (C) The feather hits first (D) Float indefinitely*  
-**Answer:** (A) Hit the ground at the same time (Explanation: In the absence of aerodynamic drag/air resistance, all objects undergo identical gravitational acceleration $, independent of their mass, as demonstrated by Galileo).
+#### Advanced Practice Prompts:
+1. A bullet of mass 20 g moving at 400 m/s embeds in a 4 kg wooden block resting on a smooth surface. Find the common velocity after impact. *(Hint: conservation of momentum; convert 20 g → 0.02 kg)*
+2. Two blocks of 3 kg and 5 kg connected by a string are pulled horizontally by a 32 N force on a frictionless surface. Find the tension in the string and the common acceleration. *(Answer: a = 4 m/s², T = 12 N on the 3 kg block)*
 
 ---
 
-## Sources & verification
-- Tamil Nadu State Board (Samacheer Kalvi) Class 9, 10 & 11 Physics, Department of School Education, Tamil Nadu.
-- TNPSC General Studies Group 1 Syllabus & Official Preliminary Keys.
-- Halliday, Resnick, and Walker Fundamentals of Physics, Wiley.
+## Continue your study
+
+- **[View this topic in your TNPSC Group 1 roadmap](/roadmap/?exam=tnpsc&duration=1mo)** — see where "Matter, Motion, and Force" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=tnpsc&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[TNPSC Group 1 exam overview](/exams/tnpsc/)** — pattern, eligibility, and syllabus
+- **[All Science notes](/notes/tnpsc/science/)** — browse sibling topics in this subject
+
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

@@ -16,106 +16,110 @@ lastUpdated: "2026-09-16"
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-Medieval Indian History for CTET covers roughly **750 CE – 1757 CE**, from the decline of the Gupta order to the eve of British control after the **Battle of Plassey (1757)**. The CTET Social Studies paper tests NCERT Class VI–VIII themes: *New Kings and Kingdoms*, *Delhi Sultans*, *Mughal Empire*, and *18th Century Political Formations*. Typical questions ask you to match dynasties, monuments, travellers, and reforms to the correct ruler.
+Medieval Indian History spans **c. 750 CE to 1757 CE**, beginning after the decline of the Gupta empire and ending with the Battle of Plassey. For CTET, the NCERT spine is *New Kings and Kingdoms* (Class VI), *Delhi Sultans* (Class VII), *Mughal Empire* (Class VII) and *18th Century Political Formations* (Class VIII).
 
-- **Period**: 8th–18th century CE; five major layers — Tripartite Struggle (Palas, Pratiharas, Rashtrakutas) → Delhi Sultanate → Mughal Empire → Maratha/Vijayanagara → 18th-century regional states.
-- **Delhi Sultanate (1206–1526)**: Slave (1206–1290) → Khilji (1290–1320) → Tughlaq (1320–1414) → Sayyid (1414–1451) → Lodi (1451–1526); administered through the **Iqta** system.
-- **Mughal Empire (1526–1707)**: Babur → Humayun → Akbar → Jahangir → Shah Jahan → Aurangzeb; **Mansabdari** ranking, **Zabt/Ain-i-Dahsala** revenue under Todar Mal, **Sulh-i-Kul** under Akbar.
-- **Movements**: Bhakti (Kabir, Mirabai, Tulsidas, Chaitanya, Basava, Ramanuja); Sufi orders — **Chishti, Suhrawardi, Naqshbandi**.
-- **Key travellers**: Ibn Battuta (Tughlaq era), **Vasco da Gama** reached Calicut in 1498, Bernier and Manucci in later Mughal times.
+- **Tripartite Struggle (8th–10th c.):** Palas (Bengal), Pratiharas (Kanauj), Rashtrakutas (Deccan) fought for Kanauj.
+- **Delhi Sultanate (1206–1526):** Slave (1206–1290) → Khilji (1290–1320) → Tughlaq (1320–1414) → Sayyid (1414–1451) → Lodi (1451–1526).
+- **Mughal Empire (1526–1707):** Babur → Humayun → Akbar → Jahangir → Shah Jahan → Aurangzeb.
+- **Post-Mughal:** Maratha Confederacy (Peshwa-led), Hyderabad, Awadh, Bengal, Mysore, Sikh Misls.
+- **Twin reform streams:** Bhakti saints (Kabir, Mirabai, Tulsidas, Chaitanya, Basava) and Sufi silsilas (Chishti, Suhrawardi, Naqshbandi).
 
-> 💡 **High-Yield Memory Hook:** "**S**ultans **K**ept **T**heir **S**trong **L**ineage" — **S**lave, **K**hilji, **T**ughlaq, **S**ayyid, **L**odi. For Mughal succession use **"Babur Hum Jaye, Aur Shah Jahan Aae"** (Babur, Humayun, Jahangir, Shah Jahan, Aurangzeb).
+> 💡 **High-Yield Memory Hook:** **"Some Kites Like Soft Ladoos"** → **S**lave, **K**hilji, **T**ughlaq, **S**ayyid, **L**odi — the five Delhi Sultanate dynasties in order.
 
-| Term | One-line meaning | Test-worthy detail |
-| --- | --- | --- |
-| Iqta | Revenue-grant fief assigned to nobles | Collected revenue, paid soldiers, retained surplus |
-| Mansabdari | Mughal ranking of officers (zat/sawar) | Fixed by emperor; revenue not hereditary |
-| Zabt | Survey-based land revenue | Formalised by Todar Mal under Akbar as Ain-i-Dahsala |
-| Jizya | Poll tax on non-Muslims | Reintroduced by Aurangzeb, abolished earlier by Akbar |
+---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-#### Chronological Architecture
+#### Sources of Medieval Indian History
 
-The medieval period is structured as overlapping political waves, not a single dynasty. Begin with the **Tripartite Struggle** (c. 750–985 CE) among the Palas (east), Pratiharas (north) and Rashtrakutas (Deccan) for Kanauj. Concurrent with this, **Muhammad bin Qasim** conquered Sindh in 711 CE, and **Mahmud of Ghazni** raided north India between 1000 and 1027 CE.
+CTET questions often ask "Which source tells us about…", so map sources to dynasties.
 
-The **Delhi Sultanate** follows in five dynastic blocks; the **Mughals** begin with Babur's victory at Panipat (1526) and end with Aurangzeb's death in 1707. The **18th century** belongs to regional polities — Maratha Confederacy, Hyderabad (Nizam), Awadh, Bengal (Murshidabad), Mysore, and the Sikh Misls.
+| Source type | Examples | What it reveals |
+|---|---|---|
+| Inscriptions & copper plates | Pala, Rashtrakuta grants | Land grants, ruler titles, Sanskrit patronage |
+| Persian chronicles (tarikh) | Tabaqat-i-Nasiri, Baburnama, Ain-i-Akbari | Sultanate/Mughal administration, court life |
+| Foreign traveller accounts | Al-Biruni, Ibn Battuta, Bernier, Manucci, Tavernier | Economy, cities, religion, Mughal court |
+| Coins (tanka, jital, rupee, dam) | Iltutmish's silver tanka, Sher Shah's rupee | Metallurgy, trade, currency reforms |
+| Monuments & archaeology | Qutub Minar, Taj Mahal, Vijayanagara ruins, Hoysala temples | Architecture, religious patronage |
 
-#### Comparison Matrix: Sultanate vs Mughal Administration
+#### Sultanate vs Mughal Administration
 
 | Feature | Delhi Sultanate | Mughal Empire |
-| --- | --- | --- |
-| Land grant | Iqta (revenue assignment) | Jagir (rank-linked, non-hereditary) |
-| Revenue system | Iqtadari estimates | Zabt/Ain-i-Dahsala — surveyed crop & area rates |
-| Central finance office | Diwan-i-Wazarat | Diwan-i-Kul (controlled by Wazir) |
-| Nobility rank | Mostly Turkish/Afghan | Mansabdari (zat numerical rank + sawar cavalry) |
-| Religious policy | Jizya retained; temple campaigns | Akbar's Sulh-i-Kul, Aurangzeb's jizya revival |
-| Standing force | Feudal contingent | Mansabdari cavalry + Ahadi household troops |
+|---|---|---|
+| Land grant unit | **Iqta** (assigned, non-heritable) | **Jagir** (conditional, subject to transfer) |
+| Revenue system | Quwwat-i-Islam experiments; **Ghiyasuddin Tughlaq's khalisa expansion** | **Zabt / Ain-i-Dahsala** under Todar Mal (1/3 of produce) |
+| Central finance | Diwan-i-Wazarat | **Diwan-i-Kul** supervised Mansabdari numbering |
+| Military ranking | Faujdar at iqta level | **Mansabdari system** — zat (personal) + sawar (cavalry) ranks, with **dagh** (branding) and **chehri** (descriptive roll) |
+| Religious policy | Jizya, periodic temple campaigns | Akbar's **Sulh-i-Kul** → Aurangzeb's re-imposition |
 
-#### Comparison Matrix: Bhakti vs Sufi Movements
+#### Key Dynastic Landmarks
 
-| Aspect | Bhakti | Sufi |
-| --- | --- | --- |
-| Origin | Sanskrit vernacular traditions, 6th–16th c. | Islam, entered India 11th–12th c. |
-| Core idea | Devotion to a personal god, often Vishnu or Shiva | Mystic union with Allah through love |
-| Key figures | Ramanuja, Basava, Kabir, Mirabai, Tulsidas, Chaitanya | Moinuddin Chishti, Nizamuddin Auliya, Gesu Daraz |
-| Practices | Kirtan, bhajan, temple pilgrimage | Sama (music), qawwali, ziyarat at dargahs |
-| Language | Hindi, Tamil, Marathi, Bengali | Persian, Urdu, Arabic |
+- **Muhammad bin Qasim (711 CE)** — Arab conquest of Sindh and Multan under the Umayyads.
+- **Mahmud of Ghazni (c. 1000–1027)** — 17 raids into India, looted Somnath temple (1025 CE).
+- **Iltutmish (1210–1236)** — consolidated Sultanate; issued the iconic silver **tanka**; got Iqtidar-ul-Mulk from Yelmish.
+- **Alauddin Khilji (1296–1316)** — market controls (rationing, price-fixing in Delhi), *Amir Khusrau* as court poet.
+- **Muhammad bin Tughlaq (1325–1351)** — token currency (1329), Qarachil expedition, shifting capital Daulatabad; visited by **Ibn Battuta**.
+- **Akbar (1556–1605)** — abolition of jizya (1564), Ibadat Khana debates, **Din-i-Ilahi (1582)** as a spiritual order (≈18 disciples), Rajput policy via matrimonial alliances (Jodha Bai / Harkha Bai).
+- **Shivaji (1627–1680)** — Raigad coronation 1674; titles *Chhatrapati*, *Hindavi Swarajya*.
+- **Peshwa Baji Rao I (1720–1740)** — Maratha expansion into Malwa, Gujarat, Bundelkhand; Maratha Confederacy era begins.
 
-#### Key Steps to Answer a Chronology MCQ
-1. Lock the dynasty range (e.g., Slave Sultanate ended 1290 CE).
-2. Match the named event (e.g., Alauddin Khalji's market reforms = early 14th c.).
-3. Eliminate options outside the range.
-4. Verify with a known date anchor — Panipat 1526, Plassey 1757, Buxar 1764.
+#### Religious-Cultural Currents
+
+- **Bhakti streams:** Saguna (Ramanuja, Basava's Virashaiva Lingayat, Chaitanya) and Nirguna (Kabir, Nanak); vernacular poetry in Hindi/Bengali.
+- **Sufi silsilas in India:** Chishti (Ajmer, Nizamuddin), Suhrawardi (Multan), Naqshbandi (later Akbar era), Qadiri.
+- **Architecture:** Indo-Islamic (Qutub Minar 1199, Alai Darwaza 1311); Mughal (Humayun's Tomb, Taj Mahal 1648, Red Fort 1648); regional styles (Hoysala Belur/Halebidu, Vijayanagara Hampi, Rajput forts, Mughal miniature painting, Kangra & Pahari schools).
 
 #### 🎯 Exam-Level Worked Problem
 
-**Question:** Which administrative measure was introduced by Sultan Alauddin Khalji to control grain prices in Delhi, and what revenue reform was later formalised by Raja Todar Mal under Akbar?
-(a) Iqta system; Ain-i-Dahsala
-(b) Market control reforms; Zabt (Ain-i-Dahsala)
-(c) Dagh-o-chehri; Jizya abolition
-(e) Mansabdari; Iqta
+**Question:** "Arrange the following dynasties of the Delhi Sultanate in chronological order: (A) Lodi (B) Sayyid (C) Tughlaq (D) Khilji."
+Options: (1) D–C–B–A (2) C–D–B–A (3) A–B–C–D (4) B–A–D–C
 
-**Solution:** Alauddin Khalji (r. 1296–1316) set up **shahna-i-mandi** officers in Delhi to fix grain prices, regulated supply chains, and cancelled cash gifts to nobles to curb hoarding — collectively called **market control reforms**. Akbar (r. 1556–1605) formalised the **Zabt** system of land revenue assessment: crops were measured, average productivity of land was calculated, and one-third of produce was charged. Raja **Todar Mal** carried out the survey; it is also called **Ain-i-Dahsala** because rates were fixed every ten years.
+#### Solution:
+1. Slave dynasty: 1206–1290.
+2. Khilji: 1290–1320 → **D** comes first.
+3. Tughlaq: 1320–1414 → **C** second.
+4. Sayyid: 1414–1451 → **B** third.
+5. Lodi: 1451–1526 → **A** last.
 
-> ⚠️ **Examiner Trap:** Option (a) reverses the order — Iqta is a Sultanate land system, while Ain-i-Dahsala is Mughal. Option (d) lists two Mughal terms unrelated to the question. The correct pairing is (b): *Market control reforms* (Khalji, 1290s) + *Zabt/Ain-i-Dahsala* (Todar Mal, Akbar's reign).
+So the correct order is **D → C → B → A**, i.e., Option **(1)**.
+
+> ⚠️ **Examiner Trap:** Students frequently place Sayyid before Tughlaq because of name confusion ("Sayyid" sounds earlier in the alphabet). Apply **"Some Kites Like Soft Ladoos"** and count decades, not surnames. Also beware: Iltutmish is the **last strong Slave ruler**, not the first — he did not found it, Qutb-ud-din Aibak did.
+
+---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-#### Sources and Historiography
+#### Edge Cases and Historiographical Traps
 
-CTET asks you to identify *how* we know medieval India. Four source families carry most marks: **archaeological** (monuments such as Qutub Minar, Alai Darwaza, Gol Gumbad, Taj Mahal; forts and stepwells), **literary** (Sanskrit prashastis, Persian chronicles such as *Tarikh-i-Firuz Shahi* and *Ain-i-Akbari*, vernacular bhakti poetry), **numismatic** (tanka, jital, rupee, dam — their mint names indicate trade routes), and **foreign traveller accounts** (Al-Biruni, Ibn Battuta, Abdur Razzaq, Duarte Barbosa, Bernier, Manucci, Tavernier).
+| Common confusion | Actual fact | Why CTET tests it |
+|---|---|---|
+| "Din-i-Ilahi was Akbar's state religion." | A small **spiritual order (tariqa)** with very few disciples, not a state religion. | Tests whether you read NCERT *Mughal Empire* Chapter 4 carefully. |
+| "Sher Shah Suri introduced zabt/Ain-i-Dahsala." | Sher Shah revived survey-based revenue (*raiyatwari-style*); **Akbar** formalised it through **Raja Todar Mal** in the 1580s. | The classical trap — both are credited for revenue reform. |
+| "Vasco da Gama reached India during Mughal rule." | Gama reached Calicut in **1498**, before Babur (1526). | Mughal era began 1526; Gama belongs to late Sultanate. |
+| "The Battle of Plassey (1757) ended the Mughal Empire instantly." | Mughal emperor continued till **Bahadur Shah Zafar's deposition (1857)**; Plassey initiated **European political control in Bengal**. | Tests nuance between political collapse vs. formal end. |
+| "Bhakti movement was anti-Muslim." | It criticised **ritualism and caste within Hinduism**; ran **parallel to Sufism** and shared vernacular idioms. | NCERT explicitly flags this false equivalence. |
+| "Shivaji founded the 18th-century Maratha Confederacy." | Shivaji founded the **Maratha kingdom**; the **Peshwa-led Confederacy** emerged after his death, peaking under **Baji Rao I & Nanasaheb**. | Easy mark-loss on 18th-century polity. |
+| "Aurangzeb destroyed temples everywhere." | Targeted mainly **specific political shrines** funding rebels (e.g., Kashi Vishwanath, Keshav Dev, Somnath) — not a blanket iconoclasm. | NCERT calls it "a controversial policy", not empire-wide. |
 
-| Source type | CTET-recognised example | Information it provides |
-| --- | --- | --- |
-| Archaeological | Qutub Minar complex | Slave-dynasty construction, religious patronage |
-| Inscription | Aihole inscription of Pulakeshin II | Rashtrakuta–Chola rivalry, early medieval polity |
-| Persian chronicle | Baburnama, Ain-i-Akbari | Mughal administration, revenue, society |
-| Numismatic | Tanka of Iltutmish | Currency standard, mint towns |
-| Traveller account | Rihla of Ibn Battuta (1350s) | Muhammad bin Tughlaq's token currency experiment |
+#### Advanced Traps and Exceptions
 
-#### Edge Cases and Frequently Confused Facts
+1. **Coins:** Iltutmish's **tanka** (silver) and jital (copper) became pan-Indian trade currency; Mughal **rupee** standardised by Sher Shah and adopted by Akbar at ~180 grains silver.
+2. **Maratha–Mughal chronology:** Treaties passed through Shahaji → Shivaji → Sambhaji → Rajaram → Tarabai → Peshwa ascendancy (Balaji Vishwanath, Baji Rao I, Balaji Baji Rao) → Third Battle of Panipat (1761) against Abdali.
+3. **Vijayanagara–Bahmani rivalry:** The **Battle of Talikota / Rakkasa-Tangadi (1565)** ended the Vijayanagara–Bukka line's dominance; the post-1565 rump states (Madurai, Mysore, Tanjore) are *not* the original empire.
+4. **Sikh Misls → Khalsa:** Panj Pyare (1699) under Guru Gobind Singh; Banda Singh Bahadur (1709–1716) led the first Sikh political rule before the Misl period.
 
-1. **Din-i-Ilahi is not a state religion.** Akbar's spiritual order (1582 CE) reportedly had 18 members — a courtly experiment, not a policy of conversion.
-2. **Sher Shah Suri vs Todar Mal on revenue.** Sher Shah revived **survey-based** land revenue and built the *Grand Trunk Road*; Todar Mal formalised it as **Ain-i-Dahsala** under Akbar. Both are often credited or blamed wrongly.
-3. **Shivaji (founder, 1674) ≠ Peshwa-led Confederacy (18th c.).** Shivaji founded a state; the **Maratha Confederacy** under Peshwas Baji Rao I, Balaji Baji Rao, and Madhav Rao controlled large parts of India in the 1700s.
-4. **Battle of Talikota (1565)** destroyed **Vijayanagara**; the city of Hampi remained but political power shifted to the Deccan successor states.
-5. **Vasco da Gama reached Calicut in 1498**, just before the medieval window closes — Azm's arrival is often misattributed to Babur's era.
-6. **Aurangzeb's Deccan campaigns (1681–1707)** drained the Mughal treasury and weakened control over the north, paving the way for 18th-century successor states.
+#### Practice Prompts
 
-#### Common Mistakes to Avoid
+- **Assertion-Reason:** "A: Akbar abolished jizya in 1564. R: He wanted to gain Rajput support for his empire." Decide whether both are true and R is the correct explanation.
+- **Source-based:** "Identify the chronicle that informs us about Alauddin Khilji's market controls and the rank of its author." Expected answer: *Tarikh-i-Firoz Shahi* by **Ziauddin Barani** (and parallel use of *Amir Khusrau's works*).
 
-- Calling **Ibn Battuta** a Mughal-era traveller; he was in Delhi during **Muhammad bin Tughlaq** (Sultanate period, 1334–1343 CE).
-- Treating the **Bhakti movement** as anti-Muslim; several saints (Kabir, Nanak) drew from both Hindu and Muslim vocabularies.
-- Confusing **jagir** (land assignment, non-herit­ary) with **iqta** (Sultanate equivalent).
-- Assuming **Shivaji** fought the Mughals throughout his life; he clashed with Aurangzeb's generals, while the **Peshwas** took on Ahmad Shah Abdali at Panipat III.
+#### Cross-Topic Linkages
 
-#### Advanced Practice Prompts
-
-1. Construct a 5-row comparison table between **Akbar's Sulh-i-Kul**, **Aurangzeb's religious measures**, and **Shivaji's policy toward religious institutions**. Which is closest to modern secularism, and why?
-2. Trace how the **Mansabdari** system's *dagh-o-chehri* (branding and descriptive roll) prevented hereditary nobility — and explain why this control weakened after Aurangzeb.
+- **Class VI–VIII NCERT ↔ CTET:** Match every question stem to a specific NCERT chapter before answering.
+- **Pre-medieval link:** Decline of centralised polity post-Guptas created the **regional kingdoms** stage that feeds directly into Sultanate-period India.
+- **Modern link:** 18th-century regional polities are the **causal bridge** between Mughal decline and British ascendancy.
 
 ---
 
@@ -126,4 +130,5 @@ CTET asks you to identify *how* we know medieval India. Four source families car
 - **[CTET exam overview](/exams/ctet/)** — pattern, eligibility, and syllabus
 - **[All Social Studies notes](/notes/ctet/social/)** — browse sibling topics in this subject
 
+---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

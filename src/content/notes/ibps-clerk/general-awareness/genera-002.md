@@ -8,7 +8,7 @@ topicName: RBI and Monetary Policy
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-09-10"
+lastUpdated: "2026-09-16"
 ---
 
 # RBI and Monetary Policy
@@ -16,83 +16,109 @@ lastUpdated: "2026-09-10"
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-The **Reserve Bank of India (RBI)**, constituted under the RBI Act, 1934, is India's central bank and the monetary authority. It issues currency (except the ₹1 note/coin), acts as banker to the government and to banks, regulates commercial banks and NBFCs, and manages foreign exchange reserves.
+The **Reserve Bank of India (RBI)** is India's central bank, set up under the RBI Act, 1934. It formulates **Monetary Policy** through the six-member **Monetary Policy Committee (MPC)** to keep CPI inflation at 4% with a ±2% tolerance band. The main lever is the **Repo Rate** — the rate at which RBI lends to commercial banks overnight under the **Liquidity Adjustment Facility (LAF)**.
 
-**Monetary policy** is the RBI's macroeconomic tool for controlling money supply and interest rates. Since 2016, decisions are taken by the **Monetary Policy Committee (MPC)** — six members (3 RBI + 3 external), chaired by the Governor, with a casting vote on ties. The MPC targets **CPI inflation of 4% with ±2% tolerance**, failing which it must report to the Central Government.
+- **Repo Rate** – RBI's short-term lending rate to banks (LAF).
+- **SDF Rate** – Floor of the corridor; 25 bps *below* Repo (introduced April 2022).
+- **MSF Rate** – Ceiling of the corridor; 25 bps *above* Repo for overnight borrowing.
+- **Bank Rate** – Aligned with MSF since April 2022; charged on long-term advances.
+- **CRR** – 4% of deposits kept as cash with RBI (no interest).
+- **SLR** – 18% of liabilities in government securities, gold, or cash.
+- **MPC** – 6 members; RBI Governor chairs and has the casting vote.
 
-Key policy rates (current corridor): **SDF (floor) = Repo − 25 bps**, **Repo Rate (mid)**, **MSF (ceiling) = Repo + 25 bps**. The **Bank Rate is aligned with MSF** since April 2022.
+> 💡 **High-Yield Memory Hook:** "**R-S-M-B**" for the LAF corridor — **R**epo (middle) → **S**DF (floor, −25 bps) → **M**SF (ceiling, +25 bps) → **B**ank Rate (= MSF). And **"C**ash with **C**entral bank = **CRR**; **S**ecurities with **S**elf = **SLR**."
 
-- **CRR** = 4% (cash with RBI, no interest); **SLR** = 18% (g-sec, gold, cash).
-- Repo Rate is the rate at which RBI lends to banks under LAF.
-- OMO purchases inject liquidity; OMO sales drain it.
+---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-#### How the LAF corridor works
+#### Monetary Policy Framework in India
 
-The Liquidity Adjustment Facility (LAF) is the RBI's daily liquidity window. Banks facing a cash shortfall borrow at the **Repo Rate** against government securities. Banks with surplus funds park it at the **Standing Deposit Facility (SDF)** without collateral — this is the corridor's floor since April 2022, replacing the older fixed reverse repo. The **Marginal Standing Facility (MSF)** is the penalty ceiling (Repo + 25 bps) where banks can borrow overnight even dipping into SLR.
+The MPC was constituted in 2016 under the **Monetary Policy Framework Agreement** between the Government and RBI, adopting **Flexible Inflation Targeting (FIT)** with **headline CPI (combined)** as the anchor. The target is 4% inflation with a ±2% band; if CPI breaches 6% (or falls below 2%) for **three consecutive quarters**, RBI must submit a report to the Central Government explaining corrective action.
 
-#### Monetary Policy Committee (MPC)
+#### LAF Corridor and Policy Rates
 
-The MPC, constituted under the RBI Act (amended 2016), has **six members**: the RBI Governor (Chair), RBI Deputy Chair nominee, one RBI officer, and **three external experts** appointed by the Central Government. Decisions are by majority vote; the Governor has a **casting vote** on ties. The committee meets **at least four times a year**, and each meeting publishes minutes with votes of members.
+The Liquidity Adjustment Facility corridor defines where the Repo Rate sits relative to other short-term rates:
 
-#### Quantitative vs qualitative instruments
+- **Repo Rate** – Mid-rate; RBI lends to banks against government securities.
+- **Reverse Repo Rate** – Now absorbed into the **Standing Deposit Facility (SDF)**, where banks park excess funds with RBI *without* collateral at 25 bps below Repo.
+- **MSF Rate** – Banks borrow overnight against SLR securities at 25 bps above Repo.
+- **Bank Rate** – Statutory rate for long-term advances; aligned with MSF since April 2022.
 
-| Instrument | Type | Mechanism |
-| --- | --- | --- |
-| CRR | Quantitative | Banks park % of deposits as cash with RBI — reduces lendable funds |
-| SLR | Quantitative | Banks hold % of NDTL in liquid assets — affects credit multiplier |
-| OMO | Quantitative | RBI buys/sells g-sec in secondary market to inject/drain liquidity |
-| Repo/MSF/SDF | Quantitative | LAF corridor rates for daily liquidity management |
-| Moral suasion, priority-sector norms | Qualitative | Verbal guidance and directed credit targets |
+#### Concept Comparison Matrix
 
-#### Flexible Inflation Targeting
+| Concept | Direction of Effect | Asset / Liability | Affects Loans? | Current Rate |
+|---|---|---|---|---|
+| Repo Rate | ↑ tightens liquidity | Government securities | Yes (transmitted via MCLR/External Benchmark) | 5.50% (illustrative) |
+| SDF Rate | ↑ tightens (floor) | No collateral | Indirectly | Repo − 25 bps |
+| MSF Rate | ↑ tightens (ceiling) | SLR securities | Indirectly | Repo + 25 bps |
+| CRR | ↑ tightens base money | Cash only | No direct link | 4% |
+| SLR | ↑ tightens bank funds | G-Sec, gold, cash | Indirectly | 18% |
+| OMO Purchase | ↑ liquidity injection | G-Sec bought | Yes (rate ↓) | — |
+| OMO Sale | ↓ liquidity drain | G-Sec sold | Yes (rate ↑) | — |
 
-The **Monetary Policy Framework Agreement (2016)** between the RBI and the Government fixed the CPI-combined inflation target at **4% with ±2% tolerance**. If inflation stays outside the band for **three consecutive quarters**, the RBI must submit a corrective report. The **Fisher relation r_real ≈ r_nominal − π** explains why the MPC watches real rates.
+#### Instruments of Monetary Policy
 
-- The **Money Multiplier m = 1/CRR**: at CRR 4%, m = 25 — the theoretical maximum expansion of deposits per ₹1 of base money.
-- **External benchmark linkage** (Oct 2019): new floating-rate retail and MSME loans must link to Repo, T-Bill yield, or FCNB benchmark, improving rate transmission.
-- Exam trap: do **not** treat SDF as obsolete — it has replaced the fixed Reverse Repo Rate as the corridor floor since April 2022.
+1. **Quantitative tools** – Repo, SDF, MSF, CRR, SLR, Open Market Operations.
+2. **Qualitative tools** – Moral suasion, priority sector guidelines, margin requirements, credit rationing.
+3. **Transmission channel** – Repo → External Benchmark / MCLR → retail lending rates.
+
+#### 🎯 Exam-Level Worked Problem
+
+**Question:** RBI announces a 25 bps hike in the Repo Rate. If the current Repo is 6.50%, SDF is 6.25%, and MSF is 6.75%, what is the new MSF rate, and by how much does the minimum risk weight corridor widen if the new Repo becomes 6.75%?
+
+#### Solution:
+- New Repo Rate = 6.50% + 0.25% = **6.75%**.
+- New MSF Rate = New Repo + 25 bps = 6.75% + 0.25% = **7.00%**.
+- New SDF Rate = New Repo − 25 bps = 6.75% − 0.25% = **6.50%**.
+- Corridor width = MSF − SDF = 7.00% − 6.50% = **50 bps** (unchanged, since symmetric hike).
+
+**Money Multiplier check:** If CRR rises from 4% to 4.5%, m changes from 1/0.04 = 25 to 1/0.045 ≈ 22.22. Each ₹1 of base money now expands into ₹22.22 of deposits — a *contraction* in money supply.
+
+> ⚠️ **Examiner Trap:** Students assume Reverse Repo Rate still exists as a separate floor of the corridor. After April 2022, the **SDF replaced the fixed Reverse Repo** as the corridor floor; Reverse Repo is no longer quoted separately. Also, do not confuse **CRR (cash with RBI, no interest)** with **SLR (government securities/gold with the bank itself, earns interest)**.
+
+---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-#### Transmission mechanism and lending-rate linkage
+#### MPC Composition and Decision Mechanics
 
-A repo rate hike does not instantly raise your loan EMI. Transmission flows: **Repo → MCLR (Marginal Cost of Funds based Lending Rate, mandatory since April 2016) → bank lending rate → borrower EMI**. Since October 2019, all new floating-rate loans to MSME and retail borrowers are linked to an **external benchmark** — Repo, 3-month T-Bill, or any FCNB benchmark published by an approved agency. External benchmarking gave faster transmission, but studies (RBI Bulletin, 2022) showed only about 35–40% pass-through within a year, the rest absorbed by banks.
+The MPC has **six members**: the RBI Governor (Chair), Deputy Governor in charge of monetary policy, one RBI officer nominated by the Central Board, and **three external experts** appointed by the Central Government. Decisions are by majority; on a tie, the **Governor has a casting vote**. The Committee meets **at least four times a year** and publishes minutes with vote-by-vote records, a transparency feature introduced in 2016.
 
-#### Edge cases and recent shifts
+#### Inflation Targeting Rules and Edge Cases
 
-- The **LAF corridor today**: SDF = Reverse Repo Rate = Repo − 25 bps; Repo at mid; MSF = Bank Rate = Repo + 25 bps.
-- **CRR is interest-free** (0% since 2022 was discussed but rejected); **SLR holdings earn coupon** on the g-secs but tie up funds.
-- **OMO**: When RBI buys g-sec from banks, it credits their current accounts → reserves rise → liquidity expands. Sales do the opposite.
-- **Cautious vs hawkish stance**: The MPC declares a stance (accommodative / neutral / hawkish) alongside rate action. Withdrawals happen through OMO sales or VRR (Variable Rate Reverse Repo) auctions, not necessarily rate hikes.
+- CPI is computed by the **MoSPI/NSO** using the 2012 = 100 base year series.
+- If inflation exits the 2–6% band for **three consecutive quarters** and the Government does not respond within the next quarter, the framework triggers an automatic reporting obligation by RBI.
+- The band itself is *not* symmetric for reporting — only breaches of either side count, but corrective action is required only on persistent deviation, not a single print.
 
-#### Common mistakes examiners exploit
+#### Advanced Traps and Exceptions
 
-| Mistake | Correct fact |
-| --- | --- |
-| Reverse Repo = Repo − 25 bps still used as floor | SDF replaced it in April 2022 |
-| Bank Rate obsolete | Statutorily used for penal provisions; aligned with MSF |
-| MPC unilaterally sets policy | Since 2016, MPC decides; RBI handles day-to-day LAF/OMO |
-| WPI is the inflation target | CPI-combined (NSO/MoSPI) since 2014 |
-| MSF is below Repo | MSF is the corridor ceiling, above Repo |
+| Trap | Reality |
+|---|---|
+| "Bank Rate is obsolete." | It is still charged on certain long-term RBI advances and referenced in penal provisions. |
+| "MSF is below Repo." | MSF is the **ceiling**, *above* Repo by 25 bps. |
+| "RBI fixes monetary policy alone." | The MPC fixes the **policy rate**; RBI alone operates day-to-day liquidity through LAF, OMO, and Variable Rate Reverse Repo (VRR) auctions. |
+| "Reverse Repo and Repo move opposite." | They historically moved together; both rose when RBI tightened. |
+| "CRR includes gold." | CRR is **cash only**; gold counts under **SLR**. |
+| "Floating-rate loans use MCLR." | Since **October 2019**, new floating-rate retail and MSME loans must link to an **external benchmark** (Repo, T-Bill, or FCNB). |
+| "WPI is the inflation target." | The MPC target is **CPI-combined**, not WPI (WPI was retired as the anchor in 2014). |
 
-#### IBPS Clerk exam strategy
+#### RBI's Multifunctional Role
 
-Banking Awareness contributes about **3%** to the IBPS Clerk prelims and mains, but RBI & Monetary Policy is **the highest-yield sub-topic** — expect **2–4 questions per paper**, usually one MCQ each on: latest MPC rate decision, CRR/SLR percentages, difference between SDF and Reverse Repo, MPC composition, or the inflation target band.
+- **Currency issuer** – except the **₹1 coin and note** (issued by the Ministry of Finance).
+- **Banker to the Government** – manages government accounts and debt.
+- **Banker's bank** – lender of last resort to scheduled commercial banks.
+- **Regulator** – banks, NBFCs, cooperative banks, and All-India Financial Institutions.
+- **Foreign exchange manager** – custodian of forex reserves; manages the rupee.
+- **Developmental role** – Jan Dhan Yojana, Priority Sector Lending (40% of ANBC), financial inclusion.
 
-**Worked example (SI/CI quick-check):** Find simple interest on ₹50,000 at 6% p.a. for 2 years.
-SI = (50,000 × 6 × 2) / 100 = **₹6,000**. For compound interest: A = 50,000 (1 + 6/100)² = ₹56,180; CI = ₹6,180. Such numericals appear in the Quant section when tagged to monetary policy.
+#### Cross-Links
 
-- Memorise: Repo, SDF, MSF, Bank Rate, CRR (4%), SLR (18%), MPC inflation target (4% ± 2%).
-- Revise the last **three MPC rate decisions** with their stances.
-- Practice distinguishing CRR (cash, RBI, no interest) vs SLR (g-sec + gold + cash, in own vaults).
-
-#### Practice prompts:
-1. If Repo is 6.50%, what are SDF and MSF rates under the current corridor?
-2. CRR rises from 4% to 5% — how does the money multiplier change (from 25 to 20)?
+- **Lending transmission** connects Repo → External Benchmark / MCLR → Loan rates.
+- **FSDC**, chaired by the Union Finance Minister, coordinates RBI, SEBI, IRDAI, PFRDA, and IFSCA on macro-prudential stability.
+- **G-Sec yields** react to OMO signals; SDL spreads are read against RBI's liquidity stance.
 
 ---
 
@@ -103,5 +129,4 @@ SI = (50,000 × 6 × 2) / 100 = **₹6,000**. For compound interest: A = 50,000 
 - **[IBPS Clerk exam overview](/exams/ibps-clerk/)** — pattern, eligibility, and syllabus
 - **[All General Awareness notes](/notes/ibps-clerk/general-awareness/)** — browse sibling topics in this subject
 
----
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

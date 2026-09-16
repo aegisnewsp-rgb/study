@@ -8,7 +8,7 @@ topicName: Lower Limb Anatomy
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-09-06"
+lastUpdated: "2026-09-16"
 ---
 
 # Lower Limb Anatomy
@@ -16,56 +16,116 @@ lastUpdated: "2026-09-06"
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Lower Limb Anatomy** covers the bony, articular, muscular, vascular, and neural structures from the **hip joint to the toes**. In INI CET, this region is tested through clinical MCQs on nerve injuries, injection sites, and compartment contents.
+The lower limb comprises the hip, thigh, gluteal region, knee, leg, ankle, and foot, designed for weight-bearing and bipedal locomotion. Bones include the hip bone (ilium, ischium, pubis), femur, patella, tibia, fibula, 7 tarsals, 5 metatarsals, and 14 phalanges. The femur is the longest and strongest bone; the tibia carries body weight while the fibula provides muscle attachment and lateral ankle stability.
 
-- **Femoral triangle (NAVL, lateral → medial):** Femoral **N**erve, **A**rtery, **V**ein, **L**ymphatics. Borders: inguinal ligament (superior), **sartorius** (lateral), adductor longus (medial).
-- **Safe dorsogluteal injection quadrant:** **Superolateral** quadrant of the buttock — avoids the sciatic nerve and superior gluteal vessels.
-- **Foot drop:** Lesion of the **common peroneal (fibular) nerve at the neck of the fibula** — the most frequent lower-limb mononeuropathy.
-- **Adductor (Hunter's) canal:** Femoral artery becomes the **popliteal artery** as it passes through the **adductor hiatus** of adductor magnus.
+| Region | Key Structure | Anatomical Value |
+|---|---|---|
+| Femur | Neck-shaft (inclination) angle | 125°–135° (Coxa vara <120°, Coxa valga >135°) |
+| Femur | Anteversion angle | 10°–15° |
+| Femoral head blood supply | Medial femoral circumflex artery | ~80% of supply |
+| Gait cycle | Stance / Swing phase | 60% / 40% |
+
+> 💡 **High-Yield Memory Hook:** **NAVEL** (lateral → medial in femoral triangle) = **N**erve, **A**rtery, **V**ein, **E**mpty space, **L**ymphatics. For tarsal tunnel: **"Tom, Dick, And Very Nervous Harry"** = Tibialis posterior, flexor Digitorum longus, posterior tibial Artery/vein, tibial Nerve, flexor Hallucis longus (anterior → posterior).
+
+---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-#### Bones, Joints, and Compartments
-The lower limb skeleton starts at the **hip bone (ilium, ischium, pubis)** articulating with the **femur** at the ball-and-socket hip joint. The femur's **linea aspera** divides the thigh into anterior (quadriceps) and posterior (hamstring) compartments. The **tibia** is the sole weight-bearing bone of the leg; the **fibula** is lateral and non-weight-bearing. The **knee** is a modified hinge with medial and lateral menisci, the **ACL** (prevents anterior tibial translation) and **PCL** (prevents posterior translation).
-
 #### Femoral Triangle and Adductor Canal
-The **femoral triangle** is roofed by fascia lata and floored by iliopsoas and pectineus. The **adductor (subsartorial) canal** runs between sartorius, vastus medialis, and adductor longus/magnus, transmitting the femoral vessels, saphenous nerve, and nerve to vastus medialis before the artery exits through the **adductor hiatus**.
 
-#### Popliteal Fossa and Gluteal Region
-The **popliteal fossa** is diamond-shaped: biceps femoris (superolateral), semimembranosus + semitendinosus (superomedial), and the two heads of gastrocnemius (inferior). Contents include popliteal artery and vein, tibial nerve, common peroneal nerve, and lymph nodes.
+The **femoral triangle** lies in the upper anteromedial thigh, bounded laterally by **sartorius**, medially by **adductor longus**, and superiorly by the **inguinal ligament**. Its floor is formed by iliacus, psoas major, and pectineus; its roof is the fascia lata. Contents from lateral to medial follow **NAVEL** — femoral nerve (lateral), femoral artery (middle), femoral vein (medial), femoral canal (empty space with Cloquet's node), and lymphatics.
 
-| Region | Key Borders | Key Contents |
-| --- | --- | --- |
-| Femoral triangle | Inguinal lig., sartorius, adductor longus | NAVL (nerve, artery, vein, lymph) |
-| Adductor canal | Sartorius, vastus medialis, adductors | Femoral a./v., saphenous n., n. to vastus medialis |
-| Popliteal fossa | Biceps femoris; semimemb/semitend.; gastrocnemii | Popliteal a./v., tibial n., common peroneal n. |
+The **adductor (subsartorial, Hunter's) canal** occupies the middle third of the medial thigh beneath sartorius. Its contents are the femoral artery, femoral vein, **saphenous nerve**, and nerve to vastus medialis. It terminates at the **adductor hiatus**, where the vessels become the popliteal artery and vein.
 
-#### Vascular Landmarks
-The **great saphenous vein** drains into the femoral vein at the **saphenous opening**, ~4 cm inferolateral to the pubic tubercle. The **small saphenous vein** empties into the **popliteal vein**. Calf muscle pump drives venous return against gravity.
+#### Concept Comparison Matrix
+
+| Feature | Femoral Triangle | Adductor (Hunter's) Canal | Popliteal Fossa |
+|---|---|---|---|
+| Location | Upper anteromedial thigh | Middle third, medial thigh | Posterior knee |
+| Roof | Fascia lata | Sartorius | Skin + popliteal fascia |
+| Floor | Iliacus, psoas, pectineus | Vastus medialis, adductor longus, magnus | Popliteus, femur, knee capsule |
+| Key contents | NAVEL (lateral→medial) | Femoral vessels + saphenous nerve + nerve to vastus medialis | Popliteal artery (deepest), vein, tibial + common fibular nerves |
+| Clinical link | Femoral artery puncture, femoral hernia | Saphenous nerve block, adductor canal block | Popliteal aneurysm, Baker's cyst |
+
+#### Sciatic Nerve and Gluteal Region
+
+The **sciatic nerve** (L4–S3) is the body's largest nerve. It leaves the pelvis through the greater sciatic foramen **below piriformis**, descends between greater trochanter and ischial tuberosity, and usually divides at the apex of the popliteal fossa into the **tibial nerve** (L4–S3) and **common fibular nerve** (L4–S2). In 10–15% of cadavers it divides high — within the pelvis or upper thigh — a fact tested in AIIMS PG questions on piriformis syndrome.
+
+Safe **intramuscular gluteal injection** is given in the **superolateral quadrant** to avoid the sciatic nerve and superior/inferior gluteal vessels.
+
+#### Leg Compartments and Tarsal Tunnel
+
+The leg has three fascial compartments, each with a defining nerve:
+
+| Compartment | Muscles | Nerve | Motor deficit on injury |
+|---|---|---|---|
+| Anterior | Tibialis anterior, EHL, EDL, fibularis tertius | Deep fibular (peroneal) | Foot drop |
+| Lateral | Fibularis longus, brevis | Superficial fibular (peroneal) | Loss of eversion |
+| Posterior (superficial) | Gastrocnemius, soleus, plantaris | Tibial | Loss of plantarflexion |
+| Posterior (deep) | Tibialis posterior, FDL, FHL, popliteus | Tibial | Toe flexion loss |
+
+The **tarsal tunnel** is the posteromedial ankle fibro-osseous tunnel deep to the flexor retinaculum. Its contents (anterior → posterior) are remembered by **"Tom, Dick, And Very Nervous Harry"**: Tibialis posterior tendon, flexor Digitorum longus tendon, posterior tibial Artery + venae comitantes, tibial Nerve, flexor Hallucis longus tendon.
+
+#### Arches of the Foot
+
+- **Medial longitudinal arch** — calcaneus, talus, navicular, cuneiforms, medial 3 metatarsals; supported by the spring (plantocalcaneonavicular) ligament and tibialis posterior.
+- **Lateral longitudinal arch** — calcaneus, cuboid, lateral 2 metatarsals; flatter, transmits weight on standing.
+- **Transverse arch** — formed by the bases of cuboid and cuneiforms; maintained by fibularis longus tendon.
+
+#### 🎯 Exam-Level Worked Problem
+
+**Question:** A 62-year-old man falls on a flexed knee during a road traffic accident. Examination reveals foot drop, loss of dorsiflexion and eversion, and sensory loss over the dorsum of the foot and lateral leg. Which nerve is injured, and at which anatomical level is the injury most likely located?
+
+#### Solution:
+1. Foot drop with loss of dorsiflexion (tibialis anterior) and eversion (fibularis longus/brevis) → **common fibular (peroneal) nerve** injury.
+2. Sensory loss over dorsum of foot + lateral leg matches the territory of the **superficial fibular nerve** (lateral leg + dorsum, except first web space) plus deep fibular nerve (first web space) — consistent with a lesion proximal to their branching.
+3. The common fibular nerve wraps around the **neck of the fibula**, where it is subcutaneous and vulnerable — this is the most likely injury level.
+4. In the popliteal fossa the common fibular nerve runs along the **medial border of biceps femoris tendon** laterally, then crosses the plantaris and lateral head of gastrocnemius to reach the fibular neck.
+
+> ⚠️ **Examiner Trap:** Students often answer "sciatic nerve injury" because the deficit is distal. The correct answer is **common fibular nerve at the fibular neck**, since the tibial half of the sciatic is intact (plantarflexion preserved) and eversion loss rules out a pure L5 root lesion.
+
+---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-#### Nerve Injuries and Clinical Correlates
-- **Foot drop:** Common peroneal nerve palsy at the fibular neck — patient cannot dorsiflex or evert. Knee flexion is preserved because the hamstrings are still supplied by the sciatic nerve's tibial division.
-- **Trendelenburg gait:** Superior gluteal nerve lesion weakens gluteus medius/minimus; the contralateral pelvis drops on stance.
-- **Tarsal tunnel syndrome:** Compression of the **tibial nerve** posterior to the medial malleolus, where it travels with the tendons of tibialis posterior, flexor digitorum longus, and flexor hallucis longus, plus the posterior tibial vessels.
+#### Vascular Architecture and Surface Landmarks
 
-#### Arches of the Foot
-Three arches — **medial longitudinal** (highest), **lateral longitudinal**, and **transverse** — are maintained by bony shape, ligaments (spring/plantar calcaneonavicular, long plantar), and intrinsic muscles. The **tibialis posterior tendon** is the chief dynamic stabilizer of the medial arch; rupture produces adult-acquired flatfoot.
+The lower limb arterial tree begins with the **external iliac artery**, becomes the **femoral artery** as it passes under the inguinal ligament (mid-inguinal point, halfway between ASIS and pubic symphysis), and continues as the **popliteal artery** through the adductor hiatus. Palpable pulsation points to know cold:
 
-#### Worked Scenario
-A patient receives an intramuscular injection in the lower medial buttock and develops weakness of knee flexion, plantarflexion, and sensory loss over the foot. The damaged structure is the **sciatic nerve**, injured in the **inferomedial quadrant**. The correct alternative site is the **superolateral quadrant**.
+| Pulse point | Surface landmark | Compression use |
+|---|---|---|
+| Femoral | Below mid-inguinal point | Lower limb ischaemia, CABG-related assessment |
+| Popliteal | Deep in popliteal fossa, knee flexed | Popliteal aneurysm detection |
+| Posterior tibial | Posteroinferior to medial malleolus | Peripheral arterial disease |
+| Dorsalis pedis | Lateral to EHL tendon, between 1st–2nd metatarsal | Diabetic foot assessment |
 
-#### Common Mistakes
-- Misnaming the femoral triangle's lateral border (it is **sartorius**, not adductor longus).
-- Calling the fibula weight-bearing — only the tibia bears load.
-- Confusing ACL and PCL — ACL stops **anterior** tibial shift (anterior drawer/Lachman positive); PCL stops **posterior** shift (posterior drawer positive).
+The **great saphenous vein** — longest vein in the body — drains into the femoral vein at the **saphenous opening** (fossa ovalis), ~3.5 cm inferolateral to the pubic tubercle. Its tributaries include the superficial circumflex iliac, superficial epigastric, and superficial external pudendal veins, plus the **accessory saphenous vein**. It is the conduit of choice for CABG grafting.
 
-#### Practice Prompts
-1. List, in order from lateral to medial, the contents of the femoral triangle and identify the structure most at risk during femoral vein catheterisation.
-2. A patient has lost eversion and dorsiflexion after a fibular neck fracture — name the injured nerve, the muscles paralysed, and the expected gait.
+#### Hip Joint Mechanics and Clinical Correlates
+
+The hip is a ball-and-socket joint with the **acetabular labrum** deepening the socket. Its capsule attaches **intertrochanteric line anteriorly** and **mid-femoral neck posteriorly**, leaving the posterior neck extracapsular — relevant to **posterior hip dislocation** in dashboard injuries. The femoral head is held in place by the ligament of the head of femur (ligamentum teres, branch of obturator artery) and retinacular branches of the **medial femoral circumflex artery** (~80% of head supply).
+
+**Trendelenburg sign** — when the contralateral hip drops on single-leg stance, the **gluteus medius/minimus** (superior gluteal nerve, L4–S1) is paralysed on the stance side. This appears in polio and after misplaced gluteal injections damaging the superior gluteal nerve.
+
+#### Advanced Traps and Exceptions
+
+| Trap | Reality |
+|---|---|
+| Sciatic nerve divides above popliteal fossa in everyone | Only 10–15% divide within pelvis/upper thigh |
+| Femoral hernia is above and medial to pubic tubercle | Femoral hernia is **below and lateral**; inguinal hernia is above and medial |
+| Saphenous nerve runs with great saphenous vein in Hunter's canal | Saphenous **nerve** is a sensory branch of femoral nerve; saphenous **vein** runs superficially — different structures |
+| Dorsalis pedis lies medial to EHL tendon | Lies **lateral** to EHL tendon on dorsum of foot |
+| Common fibular nerve is medial to biceps femoris tendon | It lies **lateral** (along the medial border of biceps femoris, on the lateral side of the fossa) |
+| Foot drop = L5 radiculopathy always | Common fibular nerve lesion at fibular neck is far more common; L5 root lesion spares fibular nerve functions selectively |
+
+#### Two Advanced Practice Prompts
+
+1. A patient with a posterior hip dislocation develops sciatic nerve palsy. Which division of the sciatic nerve is more commonly injured, and why does this patient present with foot drop rather than plantarflexion loss?
+2. A surgeon harvesting the great saphenous vein for CABG must preserve which nerve crossing it near the medial malleolus, and what sensory deficit results if it is cut?
+
+---
 
 ## Continue your study
 
@@ -74,5 +134,4 @@ A patient receives an intramuscular injection in the lower medial buttock and de
 - **[INI CET (AIIMS PG) exam overview](/exams/ini-cet/)** — pattern, eligibility, and syllabus
 - **[All Anatomy notes](/notes/ini-cet/anatomy/)** — browse sibling topics in this subject
 
----
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

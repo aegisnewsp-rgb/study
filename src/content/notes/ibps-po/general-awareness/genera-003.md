@@ -8,141 +8,129 @@ topicName: "Government Banking Schemes and Priority Sector Lending"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-16"
 ---
 
 # Government Banking Schemes and Priority Sector Lending
 
-The Indian government's financial inclusion agenda and its use of the banking system as a vehicle for delivering social welfare benefits represent one of the most distinctive features of India's development model. For an IBPS PO candidate, understanding these schemes is essential not only for passing the examination but also for understanding how banks function as agents of social policy — extending credit to underserved populations, implementing government welfare programmes, and channeling subsidies to target beneficiaries. The IBPS PO examination tests these topics with greater analytical depth than the Clerk examination, often requiring candidates to understand the rationale, implementation challenges, and outcomes of these programmes.
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your IBPS PO Prelims.
 
-## Priority Sector Lending (PSL)
+Government Banking Schemes are financial inclusion programmes (PMJDY, MUDRA, PMSBY, PMJJBY, APY, KCC, Stand-Up India) issued by the **Government of India**, **RBI**, and **NABARD**. Priority Sector Lending (PSL) is the RBI mandate requiring every scheduled commercial bank to direct a fixed slice of credit to eight identified priority sectors.
 
-**PSL** is a mandatory requirement for all domestic scheduled commercial banks (including foreign banks with more than 20 branches in India) to lend a specified portion of their **Adjusted Net Bank Credit (ANBC)** or **Credit Equivalent of Off-Balance Sheet Exposures (CEOBE)** to defined **priority sectors**.
-
-### Priority Sector Categories
-
-| Category | Target for SCBs |
+| Term | Definition |
 |---|---|
-| Agriculture | 18% of ANBC |
-| Small and Micro Enterprises (SMEs) | 10% of ANBC |
-| Export Credit | 2% of ANBC (optional target) |
-| Weaker Sections | 12% of ANBC |
-| Education | Included in various categories |
-| Housing | Included in SMEs/weaker sections |
-| Others (social infrastructure, renewable energy) | Up to 5% |
+| ANBC | Adjusted Net Bank Credit — the PSL base, in ₹ crore |
+| PSL Target | **40%** of ANBC or Off-Balance Sheet credit equivalent (whichever is higher) |
+| Foreign Banks <20 branches | PSL Target = **32%** of ANBC |
+| Agriculture sub-target | **18%** of ANBC |
+| Small/Micro Enterprises | **7.5%** of ANBC (Micro within = **7.25%**) |
+| Weaker Sections | **12%** of ANBC |
 
-**Sub-targets:**
-- **Agriculture:** 8% for small and marginal farmers (SF/MF)
-- **Weaker Sections:** Including SC/ST, minorities, women, disabled, persons with total disability ≥ 70%
-- **Differential Rate of Interest (DRI):** 1% of ANBC must be lent to the weakest sections at concessional rates (currently 4% per annum)
-
-**Achievement and challenges:** Many banks struggle to meet PSL targets, particularly in rural areas with limited creditworthy borrowers. The RBI has introduced **Priority Sector Lending Certificates (PSLCs)** — banks that exceed their PSL targets can sell PSLCs to banks that fall short, creating a market for priority sector credit.
-
-## Major Financial Inclusion Schemes
-
-### Pradhan Mantri Jan Dhan Yojana (PMJDY)
-
-Launched on **August 28, 2014**, PMJDY is the world's largest financial inclusion programme. Key achievements and features:
-- **500+ million accounts** opened
-- **Zero balance accounts** permitted (though the government now encourages regular usage)
-- **RuPay Debit Card** issued to every account holder
-- **Accidental insurance cover** of ₹2 lakh (free)
-- **Life insurance cover** of ₹30,000 (under PMJJBY, with government subsidy)
-- **Overdraft facility** up to ₹10,000 after 6 months of satisfactory operation
-- **Direct Benefit Transfer (DBT):** Government subsidies flow directly to Jan Dhan accounts, reducing leakage
-
-### Pradhan Mantri MUDRA Yojana (PMMY)
-
-Launched **April 8, 2015**, PMMY provides credit to non-corporate, non-farm small and micro enterprises. Key features:
-- **Shishu:** Loans up to ₹50,000 (most vulnerable)
-- **Kishore:** Loans from ₹50,000 to ₹5 lakh
-- **Tarun:** Loans from ₹5 lakh to ₹10 lakh
-- **MUDRA Card:** A RuPay debit card allowing withdrawal of working capital
-- **No collateral required** for loans up to ₹10 lakh
-
-PMMY has been one of the most successful schemes — over **400 million loans** have been sanctioned since launch, transforming India's informal sector.
-
-### Pradhan Mantri Awas Yojana (PMAY)
-
-**PMAY-Urban** was launched on **June 25, 2015**, with the goal of "Housing for All by 2022." Its key component relevant to banking is the **Credit Linked Subsidy Scheme (CLSS)**:
-
-| Category | Annual Household Income | Subsidy on Loan Amount |
-|---|---|---|
-| EWS | Up to ₹3 lakh | 6.5% on ₹6 lakh |
-| LIG | ₹3–6 lakh | 6.5% on ₹6 lakh |
-| MIG I | ₹6–12 lakh | 4% on ₹9 lakh |
-| MIG II | ₹12–18 lakh | 3% on ₹12 lakh |
-
-**PMAY-Gramin** (rural) provides for the construction of pucca houses with government assistance.
-
-### Kisan Credit Card (KCC)
-
-The KCC scheme provides affordable credit to farmers. **Expanded in 2019** to cover:
-- All farmers (individual/joint owners)
-- Tenant farmers, sharecroppers
-- **Fishermen** and **animal husbandry farmers** (in addition to crop farmers)
-
-**Features:**
-- Credit limit based on landholding and cropping pattern
-- Interest rate: Subvented rate (~4% for short-term crop loans up to ₹3 lakh, subject to prompt repayment)
-- Collateral-free credit up to ₹1.60 lakh
-- RuPay KCC card for ATM withdrawals
-
-## Priority Sector Lending Certificates (PSLCs)
-
-**PSLCs** were introduced by the RBI in 2016 to address the problem of banks being unable to meet PSL targets due to geographic constraints (e.g., a bank with branches in urban areas may find it difficult to find enough creditworthy agricultural borrowers).
-
-**Mechanism:** A bank that has exceeded its PSL targets in a category (e.g., agriculture) can purchase a **PSLC-Agriculture** from the RBI's portal. The purchasing bank counts this as having extended agricultural credit; the selling bank receives a fee but reduces its PSL achievement in that category.
-
-**Categories:** PSLC-Agriculture, PSLC-SME, PSLC-Weaker Sections, PSLC-Others.
-
-## Debt Relief and NPA Management
-
-### One Time Settlement (OTS)
-
-Banks offer OTS schemes periodically to resolve NPAs by accepting a lump sum settlement that is less than the full outstanding amount. This is particularly used for small borrowers who cannot pay the full amount but can pay a substantial portion.
-
-### SARFAESI Act, 2002
-
-The **Securitization and Reconstruction of Financial Assets and Enforcement of Securities Interest Act** empowers banks and financial institutions to:
-- **Seize and sell mortgaged properties** without court intervention when a borrower defaults (for NPAs above ₹100 crore or 20% of the bank's assets, whichever is lower)
-- **Form Asset Reconstruction Companies (ARCs)** to acquire and manage NPAs
-- This significantly accelerated NPA recovery and reduced the time taken to resolve defaults
-
-### Insolvency and Bankruptcy Code (IBC), 2016
-
-The IBC is India's landmark insolvency and bankruptcy legislation. Key features:
-- Provides a **time-bound process** (330 days including litigation) for resolving corporate insolvency
-- Allows **creditors to initiate proceedings** against defaulting companies (financial creditors can directly approach NCLT; operational creditors can also approach NCLT)
-- The **Resolution Professional** manages the company during the moratorium period
-- **Resolution Plan:** A going-concern or liquidation value maximization plan is approved by the Committee of Creditors (CoC)
-- **NCLT (National Company Law Tribunal):** The adjudicating authority for corporate insolvency
-- **IBC has recovered approximately ₹3.5 lakh crore** from more than 500 resolution cases since its inception
-
-**Notable cases resolved under IBC:** Bhushan Steel, Bhushan Power & Steel, Essar Steel, Jaypee Infratech, IL&FS (infrastructure Leasing & Finance Corporation — India's largest NBFC crisis).
-
-## Small Finance Banks and Payments Banks
-
-### Small Finance Banks (SFBs)
-
-SFBs were licensed by the RBI in 2014 to serve the financially unserved and underserved sections. Unlike banks, they:
-- Cannot lend to large corporations
-- Have a cap on maximum individual loan size
-- Must invest 75% of their ANBC in priority sector loans
-
-Examples: Ujjivan SFB, AU SFB, Equitas SFB, Suryoday SFB.
-
-### Payments Banks
-
-Payments Banks were licensed to increase financial inclusion by offering:
-- Small savings accounts (maximum balance of ₹1 lakh)
-- Payment and remittance services
-- Digital banking services
-
-They cannot lend or issue credit cards. Examples: Paytm Payments Bank, Airtel Payments Bank, India Post Payments Bank, Fino Payments Bank.
-
-**⚡ Exam tip:** PSL target for agriculture is 18% of ANBC; 8% specifically for small and marginal farmers. PMJDY was launched on August 28, 2014. MUDRA loans are Shishu (₹50K), Kishore (₹50K–5L), Tarun (₹5L–10L). SARFAESI allows banks to seize collateral without court intervention. IBC provides 330-day resolution timeline. PSLCs allow banks to trade PSL achievements. DRI requires 1% of ANBC lent at 4% to the weakest sections.
-
+> 💡 **High-Yield Memory Hook:** **"40-18-12-7.5"** is the PSL quartet — Total 40%, Agri 18%, Weaker 12%, MSE 7.5%. For Foreign banks with <20 branches, swap **40 for 32** and remember **"Foreigners get a discount"**.
 
 ---
+
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months of preparation.
+
+#### Eight RBI Priority Sectors
+
+The RBI's Master Direction on PSL, updated through the 2020–2024 cycle, lists these priority sectors: **(i) Agriculture, (ii) Micro, Small and Medium Enterprises, (iii) Export Credit, (iv) Education, (v) Housing, (vi) Social Infrastructure, (vii) Renewable Energy, (viii) Others** (covering weaker sections, SHGs, and food processing).
+
+#### Comparison Matrix: PSL — Domestic vs Foreign Banks
+
+| Parameter | Domestic Commercial Bank / RRB | Foreign Bank with ≥20 branches | Foreign Bank with <20 branches |
+|---|---|---|---|
+| Total PSL Target | 40% of ANBC | 40% of ANBC | **32%** of ANBC |
+| Agriculture sub-target | 18% | 18% | Not prescribed separately |
+| Small/Micro Enterprises | 7.5% | 7.5% | Not prescribed separately |
+| Weaker Sections | 12% | 12% | Not prescribed separately |
+| Reporting obligation | Quarterly return to RBI | Quarterly return to RBI | Annual certificate |
+
+#### Key Government Schemes at a Glance
+
+- **PMJDY (Aug 2014):** RuPay debit card + accident cover ₹1–2 lakh + overdraft up to ₹10,000.
+- **MUDRA:** Shishu ≤ ₹50,000; Kishor ₹50,001–₹5,00,000; Tarun ₹5,00,001–₹10,00,000.
+- **PMSBY:** Premium ₹20/year → accidental death/disability cover ₹2 lakh.
+- **PMJJBY:** Premium ₹436/year → life cover ₹2 lakh (natural death).
+- **APY:** Entry age **18–40 years**; pension ₹1,000–₹5,000/month after age 60.
+- **KCC:** Crop loan up to ₹3 lakh at **4% effective interest** if repaid within due date (else 7%).
+- **Stand-Up India:** SC/ST or Woman entrepreneur; loan ₹10 lakh–₹1 crore for greenfield enterprise.
+
+#### Formula — PSL Achievement Ratio
+
+$$\text{PSL Achievement (\%)} = \frac{\text{Priority Sector Advances}}{\text{ANBC or Off-Balance Sheet Credit Equiv.}} \times 100$$
+
+> 📌 **Formula Check:** ANBC = Net Bank Credit + Bills Rediscounted with RBI + eligible investments in **₹ crore**. Shortfall, if any, is parked with **RIDF@3%** (NABARD), **SIDBI**, or the **NABARD Refinance Fund** — zero penal interest applies.
+
+#### 🎯 Exam-Level Worked Problem
+
+**Question:** A domestic commercial bank has ANBC of ₹50,000 crore and Credit Equivalent of Off-Balance Sheet Exposure of ₹8,000 crore. Agriculture advances stand at ₹7,500 crore, MSE advances at ₹3,200 crore, and Weaker Sections advances at ₹5,400 crore. Compute (a) the PSL base, (b) the Agriculture sub-target shortfall, and (c) whether MSE achievement meets the prescribed limit.
+
+#### Solution:
+
+(a) PSL base = **max(ANBC, Off-Balance Sheet Credit Equivalent)** = max(50,000; 8,000) = **₹50,000 crore** (ANBC).
+
+(b) Agriculture sub-target = **18% × 50,000 = ₹9,000 crore**. Actual = ₹7,500 crore. **Shortfall = ₹1,500 crore**.
+
+(c) MSE target = **7.5% × 50,000 = ₹3,750 crore**. Actual = ₹3,200 crore. **Shortfall = ₹550 crore** (target not met).
+
+> ⚠️ **Examiner Trap:** Students wrongly take the **sum** of ANBC and Off-Balance Sheet exposure, or apply the **higher** to one sub-target and the **lower** to another. RBI uses a **single base** — the **whichever is higher** of the two — applied uniformly to all sub-targets. Foreign banks with <20 branches shift every sub-target to 32% total — no separate 18%/7.5%/12% carve-out.
+
+---
+
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for deeper command of edge cases and RBI exceptions.
+
+#### MSME Composite Criteria (July 2020 onwards)
+
+| Class | Investment Ceiling | Turnover Ceiling |
+|---|---|---|
+| Micro | ≤ ₹1 crore | ≤ ₹5 crore |
+| Small | ≤ ₹10 crore | ≤ ₹50 crore |
+| Medium | ≤ ₹50 crore | ≤ ₹250 crore |
+
+Both investment **and** turnover ceilings must be satisfied — the old investment-only classification is obsolete.
+
+#### PSL Shortfall — Where the Money Goes
+
+When a bank misses its 40% target, the **un-met amount is parked** with development institutions:
+
+- **RIDF (NABARD):** Rate of interest **3% per annum** (historically 3%, periodically reviewed).
+- **SIDBI:** For micro/small enterprise shortfall.
+- **NABARD Refinance Fund:** For agricultural shortfall.
+
+> ⚠️ **Examiner Trap:** Many students believe the shortfall is taxed or penalised — it is **not**. The "penalty" is the below-market 3% return on RIDF deposits, which is an opportunity cost, not a fine.
+
+#### Implementing Agency Map
+
+- **NABARD** → KCC, RIDF, SHG-Bank Linkage, refinance to cooperatives and RRBs.
+- **SIDBI** → MUDRA refinance, MSE lending.
+- **DICGC (RBI subsidiary)** → Deposit Insurance up to **₹5 lakh** per depositor per bank (raised from ₹1 lakh in February 2020).
+- **NPCI** → Operates RuPay (PMJDY cards) and Aadhaar Payment Bridge.
+- **PFRDA** → Regulates Atal Pension Yojana; NPS architecture.
+
+#### Edge Cases & Advanced Traps
+
+1. **Sub-target within Sub-target:** Of the 18% Agriculture target, **9%** must go to Small and Marginal Farmers for banks with ≥75% rural branches; **7.5%** for other banks — this nested carve-out catches students off guard.
+2. **Indirect Finance:** Refinance to NBFC-MFI, which on-lends to SHGs/joint liability groups, qualifies as weaker-section PSL for the originating bank — but only up to 5% of total PSL.
+3. **Export Credit:** Calculated at **32%** of ANBC net of prior-year export credit, but the bank cannot claim both "export credit" and the "MSE sub-target" on the same loan — examiners love this overlap rule.
+4. **Stand-Up India:** The Greenfield clause means the enterprise must **not be in existence for more than 5 years** on the date of first disbursement — refinancing an old unit disqualifies.
+5. **PMJJBY vs PMSBY premium swap:** A common question frame is "PMSBY premium × 20 = ₹400, therefore PMJJBY life cover" — wrong. PMJJBY is **₹436** premium for **₹2 lakh life cover**, not ₹400.
+
+#### Advanced Practice Prompts
+
+1. A foreign bank with **18 branches** in India has ANBC of ₹20,000 crore. What is its **total PSL obligation** and are **sub-targets** (18% agriculture, 7.5% MSE) applicable? *(Answer: 32% × 20,000 = ₹6,400 crore total; sub-target carve-outs do **not** apply.)*
+2. KCC farmer Sanjay borrows ₹2.5 lakh and repays on 31 March. Bank charges 7% but later credits 3% interest subvention. What is the **effective rate**? *(Answer: 7% − 3% = **4% per annum**, provided crop loan ≤ ₹3 lakh and repayment is on time.)*
+
+---
+
+## Continue your study
+
+- **[View this topic in your IBPS PO roadmap](/roadmap/?exam=ibps-po&duration=1mo)** — see where "Government Banking Schemes and Priority Sector Lending" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ibps-po&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[IBPS PO exam overview](/exams/ibps-po/)** — pattern, eligibility, and syllabus
+- **[All General Awareness notes](/notes/ibps-po/general-awareness/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

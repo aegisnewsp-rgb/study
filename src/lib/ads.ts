@@ -32,7 +32,17 @@ export const MONETAG_TAG_SRC = 'https://quge5.com/88/tag.min.js';
  * those ids — not this one — appear in reporting.
  *
  * Zone map, corrected against the dashboard on 2026-09-15 (the earlier reading
- * had two formats swapped):
+ * had two formats swapped), then re-audited zone-by-zone through the Monetag
+ * MCP on 2026-09-16, which enumerated all 8 zones on the account. Every zone on
+ * the account is listed here, wired or not — an unlisted zone id is how a
+ * "missing" zone hides. Formats come from `zone_type_id` + `direction_id` in
+ * that API, not from the dashboard labels:
+ *
+ *   zone_type_id 115 + direction 1   -> OnClick (Popunder)
+ *   zone_type_id  40 + direction 61  -> In-Page Push
+ *   zone_type_id  74 + direction 61  -> Vignette Banner
+ *   multitag:true, no type           -> Push Notifications
+ *
  *   11798843  Rich tag      OnClick (Popunder)   MULTI  <- where our popunder
  *   11798844  Rich tag      In-Page Push         MULTI     impressions come from
  *   11798845  Rich tag      Vignette Banner      MULTI
@@ -49,15 +59,28 @@ export const MONETAG_TAG_SRC = 'https://quge5.com/88/tag.min.js';
  *                                                         nothing in the page
  *                                                         ever registered a
  *                                                         worker.
- *   11799057  Talented tag  Vignette Banner      standalone, DELIBERATELY NOT WIRED
- *                                                          (2026-09-15): the
- *                                                          container already
- *                                                          serves a vignette
- *                                                          (11798845), so one
- *                                                          tag covers it and the
- *                                                          extra request + CSP
- *                                                          surface buys nothing
  *   11805678  standalone    OnClick (Popunder)   12 h cap
+ *
+ * Deliberately NOT wired — do not "finish" these by adding a loader. Each one
+ * duplicates a format the container already serves, so a loader would buy a
+ * second request and a wider CSP for no extra impression, and (for the push
+ * variants) a second notification permission prompt the visitor never asked
+ * for:
+ *
+ *   11799057  Talented tag  Vignette Banner      standalone vignette (2026-09-15)
+ *                                                 duplicate of 11798845
+ *   11799015  standalone    In-Page Push         duplicate of 11798844 — and per
+ *                                                 the 2026-09-15 Monetag review
+ *                                                 this format is the account's
+ *                                                 worst CPM ($0.014 vs $0.494
+ *                                                 for the popunder), so paying a
+ *                                                 request for a second one is
+ *                                                 negative value
+ *   11805740  standalone    In-Page Push         same as 11799015; created
+ *                                                 later, same duplicate/CPM
+ *                                                 argument. Kept in the census
+ *                                                 so it is a documented decision
+ *                                                 rather than an oversight
  */
 export const MONETAG_MULTITAG_ZONE = 280401;
 
@@ -73,6 +96,15 @@ export const MONETAG_MULTITAG_ZONE = 280401;
  * `MONETAG_PUSH_ENABLED` is the build-time kill switch: set it false and
  * AdRouter stops registering, which reverts the site to the previous (silent)
  * behaviour without touching the CSP.
+ *
+ * Success criterion — do not call this leg fixed on the strength of the diff.
+ * Registering a worker is necessary but not sufficient: the zone only starts
+ * reporting once Monetag's own tag turns that worker into a subscription, and a
+ * visitor who never grants notification permission never becomes one. The leg
+ * is closed only when the Monetag MCP shows requests > 0 for 11798846 (it stood
+ * at 1,502 prerequests / 0 requests over 2026-09-13 → 09-16). If requests stay
+ * at 0 after the registration is live, the next suspect is the permission
+ * prompt, not the tag.
  */
 export const MONETAG_PUSH_ZONE = 11798846;
 export const MONETAG_PUSH_SW_PATH = '/sw.js';

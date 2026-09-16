@@ -16,136 +16,102 @@ lastUpdated: "2026-09-16"
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-Medieval Indian History for UPPSC PCS spans roughly **750–1750 CE**, covering the Rajput era, Delhi Sultanate, provincial kingdoms (Vijayanagara-Bahmani), Mughal empire, Bhakti-Sufi movements, and the rise of the Marathas. Expect MCQs on chronology, administrative reforms, religious policies, and key battles.
+Medieval Indian History spans the **8th century CE** (Tripartite Struggle among Pratiharas, Palas, and Rashtrakutas) to the **18th century CE** (the collapse of the Mughal centre and the rise of Maratha regional power). For UPPSC PCS, the topic centres on dynastic chronology, administrative experiments, religious movements, and revenue systems.
 
-- **Period anchors:** Tripartite Struggle (8th–10th c.) → Delhi Sultanate founded **1206** (Qutb-ud-din Aibak) → Mughal rule begins **1526** (Panipat I, Babur) → Aurangzeb dies **1707** → Maratha ascendancy peaks under Baji Rao I.
-- **Five Sultanate dynasties:** **M**amluk, **K**hilji, **T**ughlaq, **S**ayyid, **L**odi — order = **M-K-T-S-L** (1206–1526).
-- **Most-tested administrative concepts:** Iqta, Mansabdari (Zat + Sawar), Dagh, Zabti (Todar Mal), Diwani (1765, Bengal).
-- **Most-tested religious milestones:** Din-i-Ilahi by Akbar (1582), jizya abolished 1564, Bhakti saints (Kabir, Tulsidas, Mirabai, Nanak, Chaitanya), Sufi silsilas (Chishti, Suhrawardi, Naqshbandi, Qadiri).
+- **Five Delhi Sultanate dynasties (1206–1526):** Mamluk, Khilji, Tughlaq, Sayyid, Lodi — ending with Ibrahim Lodi at Panipat (1526).
+- **Mughal core:** Babur → Humayun → Akbar → Jahangir → Shah Jahan → Aurangzeb (1707 death).
+- **Revenue vocabulary:** Iqta (Sultanate land grant), **Zabti** (Todar Mal's measurement-based assessment under Akbar), **Dagh** (branding of cavalry horses), **Diwani** (revenue grant of Bengal, 1765).
+- **Three religious streams:** Bhakti (Ramanuja, Kabir, Tulsidas, Mirabai, Chaitanya, Nanak), Sufi silsilas (Chishti, Suhrawardi, Naqshbandi, Qadiri), and Akbar's Sulah-i-Kul.
+- **Maratha milestones:** Chhatrapati Shivaji's coronation 1674; Peshwa as Prime Minister, not king.
 
-| Term | One-line meaning |
-|---|---|
-| Iqta | Revenue grant to a military officer (muqti) in lieu of salary |
-| Mansabdari | Mughal ranking system with personal (Zat) and cavalry (Sawar) grades |
-| Dagh | Branding of horses to prevent fraud in Mughal cavalry rolls |
-| Zabti | Crop-yield-based revenue assessment standardised by Todar Mal (1580s) |
-| Diwani | Right to collect revenue; granted to EIC in Bengal in 1765 |
-
-> 💡 **High-Yield Memory Hook:** **"M.K.T.S.L. — Mughal Kicks Tired Sultans, Lalu!"** for the five Delhi Sultanate dynasties in order. Pair with **"1206–1526"** (320 years) — Babur's Panipat ends it.
+> 💡 **High-Yield Memory Hook:** For Sultanate order, use **"M–K–T–S–L"** = **M**amluk, **K**hilji, **T**ughlaq, **S**ayyid, **L**odi. For Mughal religious policy, recall **"Akbar OPENED, Aurangzeb CLOSED"** — Din-i-Ilahi (1582) versus jizya reimposition (1679).
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-#### Delhi Sultanate: Core Themes
+#### Delhi Sultanate: Experiments That Examiners Love
 
-The Sultanate period is examined through **political chronology**, **administrative experiments**, and **price-control innovations**. Three rulers dominate UPPSC questions: Iltutmish (completed Qutub Minar, 1232; introduced silver tanka and copper jital — the first Indian Sultan to do so), Alauddin Khilji (market reforms, Mongol frontier defence), and Muhammad bin Tughlaq (token currency 1330, capital shift to Daulatabad, taxation in the Ganga-Yamuna Doab).
+Alauddin Khilji's market reforms (c. 1290s) rationed grain, cloth, sugar, and fodder, fixed prices through spies and a chain of **Shahna-i-Mandi → Kotwal**, with superintendent **Ain-ul-Mulk Multani**. He also introduced a standing paid army.
 
-Alauddin's market regulations under his controller **Ain-ul-Mulk Multani** fixed prices of grains, cloth, sugar, ghee, and horses, with separate **Shahna-i-Mandi** (grain superintendent) and **Diwan-i-Riyasat** for trade licensing. Granaries (gallahs) were built on the Yamuna bank. The goal was feeding the army at controlled cost, not welfare.
+Muhammad bin Tughlaq (1325–1351) attempted five controversial projects — **(i)** token currency (copper at par with silver, 1330); **(ii)** transfer of capital from Delhi to Daulatabad (1327); **(iii)** enhanced taxation in the Doab (Ganga–Yamuna); **(iv)** Qarachil expedition into the Himalayas; **(v)** the **Maudaha** or "Khushbukt" project. Most failed because of implementation gaps, not concept flaws.
 
-#### Comparison Matrix: Easily Confused Terms
+#### Concept Comparison Matrix — Easily Confused Terms
 
-| Feature | Alauddin Khilji | Muhammad bin Tughlaq | Akbar (Todar Mal) | Sher Shah Suri |
-|---|---|---|---|---|
-| Reform | Market/price control | Token currency, capital transfer | Zabti land revenue | Currency, roads, sarais |
-| Year | c. 1300 | 1330–1335 | 1580s | 1540–45 |
-| Nature | Welfare + military logistics | Experimental, mostly failed | Standardised survey-based | Clean silver rupee, admin |
-| Outcome | Largely successful | Token currency withdrawn within months | Long-lived revenue template | Model for later Mughals |
+| Term | Period / Issuer | Core Idea | Often Confused With |
+|---|---|---|---|
+| **Iqta** | Delhi Sultanate (esp. Iltutmish, Balban) | Revenue assignment in lieu of salary; transferable | Jagir (later, hereditary Mughal grant) |
+| **Zabti / Bandobast** | Akbar / Todar Mal (1580s) | Land measured, classified, rate fixed by crop | Nasaq (rough guess); Kankut (verbal estimate) |
+| **Dagh** | Mughal mansabdari | Branding of horses to prevent fake musters | Chehra (descriptive roll of soldiers) |
+| **Diwani** | 1765, granted to EIC at Allahabad | Right to collect revenue of Bengal, Bihar, Odisha | Nazim (executive/military authority, separate) |
+| **Token currency** | Muhammad bin Tughlaq (1330) | Copper coins at par with silver tanka | Alauddin's market price control (different) |
+| **Din-i-Ilahi** | Akbar, c. 1582 | Syncretic spiritual order, no scripture or mass conversion | A formal religion with evangelism |
+| **Swarajya** | Shivaji, 1670s | Maratha homeland in the Deccan | Modern Indian "swaraj" (20th-century nationalist usage) |
 
-| Confused pair | Actual owner | Why students slip |
-|---|---|---|
-| Token currency | Muhammad bin Tughlaq (1330) | Often linked to Alauddin's monetary fame |
-| Din-i-Ilahi | Akbar (1582) | Sometimes credited to Aurangzeb, who was orthodox |
-| Abolition of jizya | Akbar, 1564 | Often confused with 1563 pilgrim-tax abolition |
-| Diwani of Bengal | Granted to EIC, 1765 | Sometimes placed under Mughal founding date |
-| Chhatrapati coronation | Shivaji, 1674 at Raigad | Confused with Peshwa's later rise |
+#### Mughal Administrative Spine
 
-#### Mughal Administration: The Mansabdari Spine
-
-The Mansabdari (rank-holder) system allocated every officer a **Zat** rank (personal status, decided salary) and a **Sawar** rank (actual cavalry he had to maintain, verified by **Dagh** — branding of horses). Officers were paid in **nasaq** (cash) or **iqta** (land assignment). Below the emperor sat the **Subedar** (provincial governor), then **Faujdar** (military officer of a district), then **Thanedar** (smallest fort commander). The **Sadr-us-Sudur** handled religious and charitable affairs.
-
-> 📌 **Formula Check:** Sawar rank ≤ Zat rank; an officer with Zat 5000 / Sawar 3000 maintained 3000 branded horses. The ratio determined promotion eligibility.
-
-#### Bhakti and Sufi: Syncretic Currents
-
-Bhakti split into **Saguna** (with form — Rama, Krishna worship; Ramanuja, Chaitanya, Mirabai) and **Nirguna** (formless — Kabir, Nanak, Tulsidas). Warkari movement (Maharashtra, Vitthal worship) and Alvar-Nayanar (Tamil) were regional variants. Sufi orders (*silsilas*) relevant for UPPSC: **Chishti** (Ajmer, Moinuddin Chishti; Delhi, Nizamuddin Auliya; Lahore, Data Ganj Bakhsh), **Suhrawardi**, **Naqshbandi** (later Akbar adopted elements), and **Qadiri**.
+Emperor → **Subedar** (provincial governor) → **Faujdar** (military commandant of a district) → **Thanedar** (fort commander). Mansabdars held dual ranks: **Zat** (personal status, decided salary) and **Sawar** (actual cavalry he was required to maintain). The system had no equivalent European-style feudalism — mansabs were non-hereditary and frequently revised.
 
 #### 🎯 Exam-Level Worked Problem
 
-**Question:** Consider the following statements about medieval Indian administrative reforms:
-1. Ain-ul-Mulk Multani assisted Alauddin Khilji in implementing market price control.
-2. Muhammad bin Tughlaq introduced token currency by issuing copper coins at par with silver tanka.
-3. Todar Mal's zabti system measured land on the basis of crop yield and average produce prices.
-
-Which of the above are correct?
-(a) 1 and 2 only  (b) 2 and 3 only  (c) 1 and 3 only  (d) 1, 2 and 3
+**Question:** Which of the following pairs is correctly matched?
+(a) Dagh — Akbar's land revenue system
+(b) Zabti — Branding of cavalry horses
+(c) Iqta — Transferable revenue assignment under Iltutmish
+(d) Diwani — Aurangzeb's religious tax on non-Muslims
 
 #### Solution:
-- **Statement 1:** Correct. Alauddin Khilji appointed **Ain-ul-Mulk Multani** as the superintendent of markets; he ran the rationing and price-fixation machinery through *Shahna-i-Mandi* and *Diwan-i-Riyasat*.
-- **Statement 2:** Correct. In **1330**, Muhammad bin Tughlaq issued copper coins nominally equal to silver tanka; the public minted counterfeits, and the experiment collapsed within months.
-- **Statement 3:** Correct. **Ahmad Yadgar / Todar Mal's zabti (bandobast)** assessed revenue based on measurement of land (using *jarib* and *tanab*) plus crop-yield and price data averaged over years.
-- All three statements are correct → **Answer: (d)**.
+- (a) is wrong — **Dagh** is horse-branding under the mansabdari, not a land revenue system.
+- (b) is wrong — **Zabti** is Todar Mal's revenue measurement system, not horse branding.
+- (c) is **correct** — Iqta under Iltutmish and Balban was a **transferable** revenue assignment; the holder (muqti/wali) was shifted to prevent local power bases.
+- (d) is wrong — **Diwani** is the 1765 grant of Bengal revenue to the East India Company by the Mughals via Clive; Aurangzeb's tax was **jizya**, a religious levy.
 
-> ⚠️ **Examiner Trap:** Students frequently drop Statement 2 because they attribute token currency to Alauddin Khilji's currency reforms (silver tanka weight reduction, 1296). The **token currency experiment is uniquely Muhammad bin Tughlaq's (1330)** — never Alauddin's.
+#### Answer: (c)
 
-#### Quick Chronology for UPPSC Prelims
-
-| Year | Event |
-|---|---|
-| 1206 | Qutb-ud-din Aibak founds Mamluk dynasty |
-| 1290 | Khilji dynasty begins (Jalal-ud-din) |
-| 1320 | Ghiyas-ud-din Tughlaq founds Tughlaq dynasty |
-| 1330 | Token currency issued |
-| 1526 | Panipat I — Babur defeats Ibrahim Lodi |
-| 1540 | Sher Shah defeats Humayun; Suri interregnum |
-| 1556 | Akbar becomes emperor |
-| 1564 | Jizya abolished |
-| 1582 | Din-i-Ilahi announced |
-| 1656 | Shah Jahan ill; Aurangzeb takes power (1658) |
-| 1674 | Shivaji's coronation at Raigad |
-| 1707 | Aurangzeb dies; Maratha expansion accelerates |
+> ⚠️ **Examiner Trap:** Students frequently pair Dagh with Akbar's land reforms because "Todar Mal + Akbar + measurement" gets memorised as a single block. Treat **Dagh = horses**, **Zabti = land**, **Diwani = Bengal revenue 1765** as three separate memory slots.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-#### Edge Cases, Traps, and Fine-Grained Facts
+#### Battles, Dates, and Why They Matter
 
-| Trap | Correct position | What UPPSC tests |
+| Year | Event | Significance |
 |---|---|---|
-| Qutub Minar completion | Started by Aibak, completed by Iltutmish (1232) | Layer attribution in MCQs |
-| First Sultan to mint gold coins | Alauddin Khilji (Mohur) | Often swapped with Muhammad bin Tughlaq |
-| Battle of Raichur (1520) | Krishna Deva Raya vs Ismail Adil Shah (Vijayanagara victory) | Asked under Deccan sultanates |
-| Vijayanagara founders | Harihara & Bukka (1336), Sangama dynasty | Sometimes confused with Bahmani (1347) |
-| Bahmani capital shift | Gulbarga → Bidar (c. 1427 under Ahmad Shah Wali) | Multistate-ment questions |
-| Akbar's Navratna | Birbal, Tansen, Todar Mal, Abul Fazl, Faizi, Man Singh, etc. | Name-list matching |
-| Sulah-i-Kul | Akbar's policy of universal peace / religious tolerance | Quote or attribution MCQs |
-| Shivaji's council (Ashtapradhan) | Peshwa, Amatya, Sachiv, Mantri, etc. | Match the office to function |
-| Land classification (Ain-i-Akbari) | Polaj (annually cropped), Parauti (left fallow 1–2 yrs), Chachar (left fallow 3–4 yrs), Banjar (5+ yrs) | Revenue terminology MCQs |
-| Sher Shah's silver rupee | 178 grains, **Arsah rupee** | Currency weight questions |
+| **916 CE** | Indra III defeats Mahipala (Pratihara) | Rashtrakuta supremacy ends Pratihara power |
+| **1192** | Second Battle of Tarain | Prithviraj III defeated by Muhammad Ghori |
+| **1206** | Qutb-ud-din Aibak | Mamluk dynasty begins; Qutub Minar **started**, not finished |
+| **1236–66** | Iltutmish | Completed Qutub Minar; made Iqta transferable |
+| **1290** | Khilji dynasty | Jalal-ud-din Khilji founds new line |
+| **1320** | Ghiyas-ud-din Tughlaq | Khilji replaced after Alauddin's death |
+| **1526** | First Battle of Panipat | Babur defeats Ibrahim Lodi; Lodi dynasty ends |
+| **1520** | Raichur | Krishna Deva Raya defeats Ismail Adil Shah |
+| **1540** | Kannauj | Sher Shah Suri defeats Humayun |
+| **1556** | Panipat II | Akbar's regent Bairam Khan defeats Hemu |
+| **1674** | Shivaji's coronation | Raigad; independent Maratha kingship declared |
+| **1707** | Aurangzeb's death | Mughal fragmentation accelerates |
 
-#### Administrative Cascades: From Sultanate to Mughal
+#### Bhakti, Sufi, and Syncretic Currents
 
-The Iqta system of the Sultanate evolved under the Mughals into a layered fiscal structure. Under Iltutmish, iqtas were transferable, preventing local rooting. Alauddin shifted iqta-holders' status to paid soldiers, removing their tax-collecting identity. Babur and Humayun operated a similar mansab-like arrangement, but **Akbar institutionalised it** by separating *Zat* (status) from *Sawar* (cavalry), introducing *Dagh* (branding) and *Chehra* (descriptive roll of soldiers) to deter fraud. Under Aurangzeb, the *Mashrut* and *Watan* iqtas blurred administrative clarity, contributing to provincial rebellion.
+**Saguna** bhakti (Ramanuja, Tulsidas, Mirabai) upheld a personal God with attributes; **Nirguna** bhakti (Kabir, Nanak, Dadu Dayal) rejected idol and caste. Regional streams — **Alvar-Nayanar** (Tamil), **Warkari** (Maharashtra, Vithoba), **Vaishnavite** (Assam, Sankaradeva) — supplied vernacular momentum.
 
-> 📌 **Formula Check:** For revenue: State demand = (Area measured in *bighas*) × (per-bigha crop yield) × (average price index). Akbar's zabti was the first to combine measurement + yield + price data — Todar Mal finalised it during the **Karwi (1582)** settlement.
+Sufi silsilas: **Chishti** (Moinuddin Chishti at Ajmer, Nizamuddin Auliya, Salim Chishti at Fatehpur Sikri), **Suhrawardi** (Baba Farid in Punjab), **Naqshbandi** (strong in Mughal court — Shaikh Ahmad Sirhindi), **Qadiri** (later expansion). Shrine complexes (**dargah**) became nuclei of syncretic Indo-Islamic culture with **qawwali, langar, and Urs**.
 
-#### Bhakti-Sufi Interactions and State Patronage
+Akbar's **Sulah-i-Kul** (universal peace) operated through the **Ibadat Khana** (1575 at Fatehpur Sikri) and scholars of multiple faiths — Abul Fazl, Faizi, Birbal, Purushottamdas, and Hira Maheshwari. **Din-i-Ilahi (1582)** had no scripture and no mandatory rites; it was a court fraternity, never a mass religion.
 
-UPPSC occasionally frames questions as **assertion–reason**: *"Bhakti saints attacked caste hierarchy while Sufi shrines welcomed all castes — therefore medieval syncretism dissolved varna."* The factual layer to learn: Kabir's verses attacked orthodox Brahmanism; Ravidas, Namdev, and Tukaram carried lower-caste participation into public devotion; Dara Shikoh's *Majma-ul-Bahrain* (1655) attempted textual fusion of Vedanta and Sufism. Aurangzeb's anti-syncretic posture (reimposition of jizya 1679, destruction of Kashi Vishwanath 1669) marks the political reversal. **Do not overstate** that varna dissolved — caste was contested in devotional idiom, not legally abolished.
+#### Edge Cases and Frequently Tested Exceptions
 
-#### Maratha Statecraft
-
-Chhatrapati Shivaji's coronation (1674) was conducted by **Gaga Bhatt** following Vedic rites, deliberately establishing Kshatriya status against Brahminical objection. His administration featured the **Ashtapradhan** Mandal. After Shivaji (d. 1680), the Peshwa office — originally the principal minister — became hereditary under **Balaji Vishwanath** and dominant under **Baji Rao I** (1720–1740), who conducted northern expansion (*Attock, 1758*, post-Baji Rao II decline). By 1760s, the Maratha Confederacy controlled a revenue field from the Deccan to the Ganges plain, but the **Third Battle of Panipat (1761, Abdali vs Peshwa's son)** broke the confederation's northern ambition. UPPSC tests that **Peshwa was not the king** — Chhatrapati was the titular sovereign until 1818.
-
-> ⚠️ **Examiner Trap:** Many answer keys wrongly treat 1761 Panipat as "Maratha defeat ending Maratha rule" — it ended *northern Maratha expansion*, not the Maratha state. That continued under Peshwa authority until British defeat in 1818.
+1. **Aurangzeb's religious policy** was not monolithic — he abolished jizya in 1664 briefly before reimposing it in 1679; he forbade **sati** in 1663; he destroyed temples politically, not doctrinally across the empire.
+2. **Shivaji's coronation** was performed by **Gaga Bhatta**, a Brahmin scholar of Varanasi, to satisfy Vedic legitimacy against the objection that Kshatriya lineage was unproven.
+3. **Todar Mal's zabti** was first drafted for **Sher Shah Suri** (as **shashmahi** / rate-per-bigha survey), then perfected by Akbar; the two systems are related but not identical.
+4. **Vijayanagara–Bahmani** relations oscillated — Raichur Doab was the recurring flashpoint, with Krishna Deva Raya's 1520 victory marking Vijayanagara's territorial peak.
 
 #### Advanced Practice Prompts
 
-1. **Chronology MCQ set:** Construct 10 single-best-answer questions matching each ruler of the Delhi Sultanate with one signature reform (e.g. Alauddin → price control, Muhammad bin Tughlaq → token currency, Firoz Shah → canals, Sikandar Lodi → Agra shift, Ibrahim Lodi → Panipat 1526).
-2. **Assertion–Reason pair:** "Akbar's Din-i-Ilahi was a religion — because it was founded at Fatehpur Sikri in 1582." Evaluate. (Correct resolution: It was a *spiritual order/discipleship circle*, not a religion with scripture, clergy, or conversion mechanism.)
+1. "Discuss the continuities between Sher Shah Suri's administrative reforms and Akbar's mansabdari-zabti framework. Why is it inaccurate to treat the Mughals as having built an entirely new system?"
+2. "How did the Bhakti and Sufi movements reinforce each other in the Deccan and north India between the 14th and 17th centuries? Use **two shrine-based** and **two saint-based** examples."
 
 ---
 

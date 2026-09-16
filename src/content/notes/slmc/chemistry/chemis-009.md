@@ -8,7 +8,7 @@ topicName: "Carbonyl Compounds (Aldehydes & Ketones)"
 weight: 3
 country: srilanka
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-14"
+lastUpdated: "2026-09-16"
 ---
 
 # Carbonyl Compounds (Aldehydes & Ketones)
@@ -16,57 +16,105 @@ lastUpdated: "2026-07-14"
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-A **carbonyl compound** carries the polar, planar **C=O group**, which is electrophilic at carbon because oxygen pulls the π-electrons toward itself. **Aldehydes** (general formula RCHO, e.g. ethanal, benzaldehyde) place at least one hydrogen on the carbonyl carbon; **ketones** (RCOR′, e.g. propanone, acetophenone) carry two carbon groups. Both classes undergo **nucleophilic addition** because the C=O dipole creates a δ⁺ carbonyl carbon that attracts nucleophiles such as CN⁻, HSO₃⁻, RMgX, H₂O, and ROH.
+A **carbonyl compound** contains the C=O functional group with an sp²-hybridised, electrophilic carbon. **Aldehydes** (R–CHO) place the carbonyl carbon at C1 of the chain; **ketones** (R–CO–R′) bury it internally. Both show a strong IR absorption near **1700 cm⁻¹** and a C=O dipole moment of **2.3–2.8 D**.
 
-| Distinguishing Test | Aldehyde | Ketone |
-|---|---|---|
-| **Tollens'** (ammoniacal AgNO₃) | Silver mirror (Ag⁰) | No reaction |
-| **Fehling's** (Cu²⁺/tartrate) | Red Cu₂O precipitate | No reaction |
-| **2,4-DNP** | Orange-yellow precipitate | Orange-yellow precipitate |
-| **Iodoform** (I₂/NaOH) | Positive if CH₃CO–R group present | Positive for methyl ketones |
+- **Reactivity order:** HCHO > RCHO > R–CO–R′ (less steric strain + stronger δ⁺ on carbon)
+- **2,4-DNP (Brady's reagent):** yellow/orange hydrazone — positive for both aldehydes and ketones
+- **Tollens' (silver mirror) and Fehling's (brick-red Cu₂O):** aldehydes only
+- **Iodoform test (I₂/NaOH → CHI₃):** positive for CH₃CHO and methyl ketones (R–CO–CH₃)
+- **General formula:** CₙH₂ₙO for both series (n ≥ 1 aldehyde; n ≥ 3 ketone)
 
-**High-yield pointers:** (1) The **iodoform test** is positive for methyl ketones and for ethanol/CH₃CH(OH)R. (2) **Aldol condensation** requires α-hydrogens — write CH₃CHO → CH₃CH(OH)CH₂CHO, then dehydrate to crotonaldehyde CH₃CH=CHCHO. (3) **2,4-DNP** confirms a carbonyl; **Tollens'** and **Fehling's** then confirm it is an aldehyde.
+> 💡 **High-Yield Memory Hook:** **"A**ldehyde = **A**ttached to **H**ydrogen; **K**etone = **K**ept between two carbons." For distinguishing tests, remember **TKF**: **T**ollens = aldehydes, **K**etones fail; **F**ehling = aldehydes only. For the iodoform test, only the **CH₃–CO–** group gives the yellow CHI₃ precipitate.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-#### Nomenclature and Structure
-The IUPAC suffix **-al** denotes aldehydes (ethanal, CH₃CHO) and **-one** denotes ketones (propan-2-one, CH₃COCH₃). The carbonyl carbon is **sp²-hybridised**, trigonal planar, with bond angles near 120°. The C=O dipole moment (≈2.3–2.7 D) makes these molecules polar and good solvents for many polar solutes, but they cannot hydrogen-bond to each other in the pure liquid state (ketones) or only weakly through the aldehydic C–H.
+#### Nomenclature & Structure
 
-#### Preparation Methods
-Aldehydes are made by **oxidation of primary alcohols** using PCC or careful K₂Cr₂O₇ distillation (further oxidation must be stopped), by **Rosenmund reduction** of acyl chlorides (RCOCl + H₂/Pd-BaSO₄ → RCHO), and by **ozonolysis** of terminal alkenes. Ketones come from **oxidation of secondary alcohols**, **Friedel–Crafts acylation** of arenes with acyl chlorides/anhydrides (AlCl₃ catalyst), and **dry distillation of calcium carboxylates** (Ca(RCOO)₂ → R₂CO + CaCO₃).
+For an aldehyde, the carbonyl carbon is **always C1** (propanal = CH₃CH₂CHO, never CH₃COCH₃). For ketones, the chain is numbered to give the C=O the **lowest possible locant** (propan-2-one = acetone). The C=O bond length is **≈1.23 Å** with a bond dissociation energy of **≈715 kJ mol⁻¹**; C=O is both polar (dipole ≈2.5 D) and polarisable.
 
-#### Nucleophilic Addition Mechanism
-A nucleophile Nu⁻ attacks the δ⁺ carbonyl carbon; the C=O π-bond breaks and the electrons move onto oxygen, giving a tetrahedral alkoxide intermediate. After protonation, the product is a stable adduct. Worked example: with HCN (generated in situ from NaCN + H₂SO₄ or HCN itself), the product is a **cyanohydrin** RCH(OH)CN — this is the standard SLMC-style 5-mark question.
+#### Comparison Matrix: Aldehyde vs Ketone Tests
 
-#### Oxidation and Reduction
-Aldehydes are oxidised to carboxylates by **Tollens'** and **Fehling's** reagents; the half-reactions in alkaline solution are RCHO + 2[Ag(NH₃)₂]⁺ + 3OH⁻ → RCOO⁻ + 2Ag↓ + 4NH₃ + 2H₂O, and RCHO + 2Cu²⁺ + 5OH⁻ → RCOO⁻ + Cu₂O↓ + 3H₂O. Ketones resist these mild oxidations. **NaBH₄** (mild) and **LiAlH₄** (strong) reduce both classes to alcohols — primary from aldehydes, secondary from ketones.
+| Test | Aldehyde (RCHO) | Ketone (RCOR′) | Observation |
+|---|---|---|---|
+| 2,4-DNP (Brady's) | Positive | Positive | Yellow/orange precipitate |
+| Tollens' [Ag(NH₃)₂]⁺ | Positive | Negative | Silver mirror on glass |
+| Fehling's (Cu²⁺/tartrate) | Positive (except aromatic) | Negative | Brick-red Cu₂O |
+| Schiff's reagent | Decolourises to pink | In most keys no change | Restored magenta = aldehyde |
+| Iodoform (I₂/NaOH) | Positive only for CH₃CHO | Positive for CH₃CO–R | Pale-yellow CHI₃ crystals |
 
-#### Common Exam Traps
-Writing nucleophilic addition as electrophilic addition is the most common classification error. Forgetting that the iodoform test requires the **CH₃CO–** fragment, not just any methyl group, loses marks. Ketone names must give the carbonyl the **lowest possible locant**: propan-2-one, not 2-propanone.
+#### Mechanism of Nucleophilic Addition
+
+The C=O carbon carries a partial positive charge (δ⁺). A nucleophile (Nu⁻) attacks carbon while H⁺ simultaneously protonates oxygen:
+
+**R₂C=O + H–Nu → R₂C(OH)(Nu)** — overall second-order, rate ∝ [C=O][Nu⁻].
+
+This mechanism underlies addition of HCN (forms cyanohydrin), NaHSO₃ (forms bisulfite adduct), NH₂OH (oxime), 2,4-DNP (hydrazone), and Grignard reagents (forms alcohol). Aldehydes react faster than ketones because two alkyl groups donate electron density (reducing δ⁺) and create steric hindrance around the carbonyl carbon.
+
+#### Key Named Reactions
+
+1. **Acetal formation:** RCHO + 2 R′OH ⇌ RCH(OR′)₂ + H₂O (acid-catalysed, reversible; protects the aldehyde).
+2. **Aldol condensation:** 2 RCH₂CHO ⇌ RCH₂CH(OH)CH₂CHO → RCH₂CH=C(R)CHO + H₂O (requires α-H; base-catalysed by dilute NaOH).
+3. **Cannizzaro reaction:** 2 HCHO + conc. NaOH → HCOONa + CH₃OH (disproportionation; only aldehydes *without* α-H, e.g. HCHO, benzaldehyde).
+4. **Reduction:** LiAlH₄ or NaBH₄ reduces RCHO → RCH₂OH and RCOR′ → RCHOHR′.
+5. **Keto–enol tautomerism:** C=O ⇌ C=C–OH; the enol enables α-halogenation and aldol reactions.
+
+#### 🎯 Exam-Level Worked Problem
+
+**Question:** A compound **X** has molecular formula C₃H₆O. It gives a silver mirror with Tollens' reagent, restores the pink colour of Schiff's reagent, and produces a yellow precipitate with I₂/NaOH. Identify **X** and write the equation for its iodoform reaction.
+
+#### Solution:
+- C₃H₆O matches CₙH₂ₙO → carbonyl (degree of unsaturation = 1).
+- Tollens' + Schiff's positive → **aldehyde**, not ketone.
+- Iodoform positive → structure must contain **CH₃–CO–** or CH₃–CH(OH)– group; with the aldehyde constraint this gives **CH₃CHO (acetaldehyde, ethanal)**.
+- Iodoform equation:
+ **CH₃CHO + 3 I₂ + 4 NaOH → CHI₃↓ + HCOONa + 3 NaI + 3 H₂O**
+
+> ⚠️ **Examiner Trap:** Students in many papers write the precipitate as **I₂** (yellow-brown solution) instead of **CHI₃** (pale-yellow crystalline solid with a medicinal/antiseptic odour). Also, acetone (C₃H₆O) fits the formula but **fails Tollens' and Schiff's tests**, so it cannot be the answer.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-#### Tautomerism and α-Hydrogen Reactivity
-**Keto-enol tautomerism** is a true equilibrium between two distinct constitutional isomers, with K_eq ≈ 10⁻⁶–10⁻⁻⁸ for simple ketones in neutral solution. Acid or base catalyses the proton shift at the α-carbon, and the small enol fraction is nucleophilic at carbon (it alkylates, halogenates, and condenses). The same α-hydrogens enable the **aldol reaction**: in dilute NaOH, two molecules of acetaldehyde combine to give 3-hydroxybutanal, which on warming dehydrates to **crotonaldehyde** (CH₃CH=CHCHO) — the prototype α,β-unsaturated carbonyl.
+#### IR Frequency & Conjugation Effects
 
-#### Hemiacetals, Acetals, and Hydrates
-Water adds across C=O to give an unstable **gem-diol (hydrate)**, R₂C(OH)₂, with K_eq normally < 1; only chloral (CCl₃CHO) and formaldehyde are heavily hydrated at equilibrium. With one equivalent of an alcohol (R′OH) under acid catalysis, a **hemiacetal** forms (one –OR, one –OH on the same carbon); with a second equivalent, a full **acetal** (geminal diether) is produced, useful as a carbonyl protecting group in carbohydrate chemistry. **Schiff bases** (imines) form when a primary amine R′NH₂ attacks the carbonyl, losing water.
+The C=O stretch is sensitive to adjacent substitution. Conjugation with a C=C lowers the frequency because delocalisation weakens the C=O bond.
 
-#### Worked Micro-Example
-Predict the products of CH₃CHO with: (a) HCN, then H₃O⁺ workup → CH₃CH(OH)CN (lactonitrile); (b) CH₃MgBr, then H₃O⁺ → CH₃CH(OH)CH₃ (propan-2-ol, a secondary alcohol, so positive iodoform test); (c) dilute NaOH, heat → CH₃CH=CHCHO (crotonaldehyde, via aldol then dehydration); (d) 2,4-DNP in acidic ethanol → orange 2,4-dinitrophenylhydrazone precipitate confirming the C=O.
+| Carbonyl type | ν(C=O) range (cm⁻¹) |
+|---|---|
+| Saturated aldehyde | 1720–1740 |
+| Saturated ketone | 1705–1720 |
+| α,β-unsaturated ketone | 1675–1690 |
+| Carboxylic acid (dimer) | 1700–1725 |
+| Aromatic aldehyde (ArCHO) | 1690–1720 |
 
-#### Connections and Edge Cases
-α,β-Unsaturated carbonyls (e.g. cinnamaldehyde, methyl vinyl ketone) show **1,4-conjugate (Michael) addition** rather than pure 1,2-addition — relevant when comparing Tollens' (positive for cinnamaldehyde) with Fehling's (often weak or negative for aromatic/α,β-unsaturated aldehydes, a frequent trap). Aromatic ketones such as acetophenone are iodoform-positive because of the CH₃CO–Ar fragment. In SLMC Chemistry, this topic is worth ~3% of the paper, typically appearing as one short structured question (5–10 marks) testing nomenclature, mechanism arrows, and balanced equations.
+A band near **1710 cm⁻¹** in an unknown spectrum does *not* automatically mean "ketone" — examine the C–H stretch region (aldehydes show two weak bands near 2720 and 2820 cm⁻¹, the **Fermi doublet**).
+
+#### Advanced Traps & Exceptions
+
+1. **Aromatic aldehydes (e.g. benzaldehyde) give a *negative* Fehling's test** despite being aldehydes — only aliphatic aldehydes reduce Cu²⁺ reliably.
+2. **α-hydroxy ketones** (e.g. glucose open-chain form) reduce Fehling's/Tollens' and are called "reducing sugars" — but they are ketones, not aldehydes.
+3. **Ethanol (CH₃CH₂OH) gives a positive iodoform test** because I₂/NaOH oxidises it in situ to acetaldehyde first — a classic trick question.
+4. **Cannizzaro requires concentrated NaOH and *no* α-hydrogen**; benzaldehyde and HCHO react, but acetaldehyde does not (it undergoes aldol instead).
+5. **Schiff's reagent** is decolourised by aldehydes; some α,β-unsaturated ketones and certain cyclic ketones can also slowly restore the colour, giving false positives — always confirm with 2,4-DNP.
+6. **Acetal vs hemiacetal:** hemiacetals have one –OR and one –OH on the same carbon (unstable, in most keys isolable only as cyclic forms in sugars); full acetals require excess alcohol + acid + removal of water.
+7. **Aldol dehydration** (E1cb) occurs only on heating; the aldol product itself is the β-hydroxy carbonyl, while the α,β-unsaturated carbonyl is the condensation product.
+
+#### Reactivity Ladder & Quantitative Reasoning
+
+**HCHO > CH₃CHO > C₂H₅CHO > (CH₃)₂CO > (C₂H₅)₂CO** — reactivity falls as alkyl-group size and number increase. Equilibrium constants for bisulfite addition fall in the same order: K(HCHO) ≈ 10⁴, K(acetone) ≈ 10⁻³.
 
 #### Practice Prompts
-1. Write the mechanism (curly arrows) for the acid-catalysed addition of methanol to propanal, showing hemiacetal and acetal stages. (6 marks)
-2. Devise a chemical test sequence to distinguish between benzaldehyde, acetophenone, and pentan-2-one. Justify each positive/negative result with a balanced equation. (8 marks)
+
+1. **Predict the products:** (a) Cyclohexanone + NH₂OH → ? (b) Benzaldehyde + conc. NaOH → ? (c) Acetone + 2,4-DNP → ? (d) Acetaldehyde + NaHSO₃ (sat.) → ?
+2. **Distinguish using two chemical tests:** How would you differentiate between propanal and propan-2-one using only Tollens' reagent and the iodoform reaction? Give observations and equations.
+
+#### Exam Strategy for SLMC Medical
+
+The carbonyl chapter carries **~3%** of the Chemistry paper (in standard papers 1–2 short questions, 2–3 marks each). High-yield asks: functional-group identification by named test, writing the iodoform equation, naming aldol/Cannizzaro products, and locating the IR C=O peak. Memorise the **yellow CHI₃** precipitate explicitly — examiners reject "yellow I₂".
 
 ---
 

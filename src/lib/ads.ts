@@ -36,12 +36,19 @@ export const MONETAG_TAG_SRC = 'https://quge5.com/88/tag.min.js';
  *   11798843  Rich tag      OnClick (Popunder)   MULTI  <- where our popunder
  *   11798844  Rich tag      In-Page Push         MULTI     impressions come from
  *   11798845  Rich tag      Vignette Banner      MULTI
- *   11798846  Rich tag      Push Notifications   MULTI  <- needs the browser
- *                                                         notification
- *                                                         permission, which we
- *                                                         never request, so its
- *                                                         zero impressions are
- *                                                         EXPECTED, not a fault
+ *   11798846  Rich tag      Push Notifications   MULTI  <- now wired: /sw.js
+ *                                                         holds this zone's own
+ *                                                         service worker and
+ *                                                         AdRouter registers it
+ *                                                         for eligible humans
+ *                                                         only (2026-09-16).
+ *                                                         Before that the tag
+ *                                                         produced 1,467
+ *                                                         prerequests and zero
+ *                                                         requests, because
+ *                                                         nothing in the page
+ *                                                         ever registered a
+ *                                                         worker.
  *   11799057  Talented tag  Vignette Banner      standalone, DELIBERATELY NOT WIRED
  *                                                          (2026-09-15): the
  *                                                          container already
@@ -53,6 +60,23 @@ export const MONETAG_TAG_SRC = 'https://quge5.com/88/tag.min.js';
  *   11805678  standalone    OnClick (Popunder)   12 h cap
  */
 export const MONETAG_MULTITAG_ZONE = 280401;
+
+/**
+ * Push-notifications zone. Unlike the other sub-zones it needs a registered
+ * service worker before it can serve: the container tag loads it, but nothing
+ * in the tag registers a worker. Measured 2026-09-16 on a real browser — with
+ * no worker registered the zone stays at prerequests-only; with one
+ * registered the tag switches to its worker-backed request
+ * (`…/zone?…zone_id=11798846&sw=<bundle version>`).
+ *
+ * The worker itself is `public/sw.js` (that zone's own `Get tag` worker).
+ * `MONETAG_PUSH_ENABLED` is the build-time kill switch: set it false and
+ * AdRouter stops registering, which reverts the site to the previous (silent)
+ * behaviour without touching the CSP.
+ */
+export const MONETAG_PUSH_ZONE = 11798846;
+export const MONETAG_PUSH_SW_PATH = '/sw.js';
+export const MONETAG_PUSH_ENABLED = true;
 
 /**
  * Dedicated OnClick PopUnder zone (created 2026-09-15) so popunder reporting is

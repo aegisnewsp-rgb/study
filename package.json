@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build && cp dist/sitemap-index.xml dist/sitemap.xml",
-    "postbuild": "node scripts/fix-sitemap.cjs && node scripts/check-inline-scripts.mjs",
+    "postbuild": "node scripts/fix-sitemap.cjs && node scripts/check-inline-scripts.mjs && node scripts/check-ad-guards.mjs",
     "preview": "astro preview",
     "astro": "astro"
   },

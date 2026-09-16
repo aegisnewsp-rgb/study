@@ -18,6 +18,13 @@
  *   6. Tag AI answer-engine referrals (a human who clicked a citation in
  *      ChatGPT/Perplexity/Copilot/Gemini/Claude) for attribution. AI *crawlers*
  *      are still refused in step 3 — only the referring human is monetized.
+ *   7. Register the push-notification service worker (`/sw.js`, zone 11798846)
+ *      — but only once the visitor has passed every gate above, because a push
+ *      subscription is a marketing permission, not a page decoration. A
+ *      crawler, an automation, an opt-out or an unconsented EEA/UK/CH visitor
+ *      never gets one. This is what turns the zone's 1,467 dead prerequests
+ *      into real requests: the container tag loads the zone, but nothing in it
+ *      registers a worker, so until now the zone could never serve.
  *
  * Everything is observable at runtime through `window.__SR_AD`, which the
  * 30-minute review job and QA journeys assert against.
@@ -28,6 +35,9 @@ import {
     MONETAG_POPUNDER_ZONE,
     MONETAG_POPUNDER_DEDICATED_ENABLED,
     MONETAG_POPUNDER_TAG_SRC,
+    MONETAG_PUSH_ZONE,
+    MONETAG_PUSH_SW_PATH,
+    MONETAG_PUSH_ENABLED,
     POPUNDER_COOLDOWN_MS,
     POPUNDER_SESSION_KEY,
     POPUNDER_STORAGE_KEY,
@@ -51,6 +61,9 @@ const { pageGeo = '', enabled = true, popunder = true } = Astro.props;
 const config = {
     tag: MONETAG_TAG_SRC,
     multitag: MONETAG_MULTITAG_ZONE,
+    pushZone: MONETAG_PUSH_ZONE,
+    pushSw: MONETAG_PUSH_SW_PATH,
+    pushEnabled: MONETAG_PUSH_ENABLED,
     popunder: MONETAG_POPUNDER_ZONE,
     popunderZoneEnabled: MONETAG_POPUNDER_DEDICATED_ENABLED,
     popunderTag: MONETAG_POPUNDER_TAG_SRC,
@@ -77,6 +90,8 @@ const js = `
         visitorGeo: '',
         consent: 'unknown',
         multitag: false,
+        push: 'pending',
+        pushScope: '',
         popunder: false,
         popunderSkipped: '',
         aiReferred: false,
@@ -191,6 +206,31 @@ const js = `
         return !!(state.visitorGeo && cfg.restricted.indexOf(state.visitorGeo) !== -1);
     }
 
+    // ---- push-notification service worker --------------------------------
+    // The push sub-zone cannot serve without a registered worker (measured
+    // 2026-09-16: registering one flips the tag to its worker-backed request).
+    // Registration is deliberately last and deliberately gated: it happens
+    // only inside startAds(), i.e. after the crawler, automation, opt-out and
+    // consent gates have all passed. A failure here must never affect ads, so
+    // every branch is caught and recorded on state instead of thrown.
+    function registerPushWorker() {
+        if (!cfg.pushEnabled) { state.push = 'disabled'; return; }
+        if (!navigator.serviceWorker || !navigator.serviceWorker.register) {
+            state.push = 'unsupported';
+            return;
+        }
+        try {
+            navigator.serviceWorker.register(cfg.pushSw, { scope: '/' })
+                .then(function (reg) {
+                    state.push = 'registered';
+                    state.pushScope = (reg && reg.scope) || '';
+                })
+                .catch(function () { state.push = 'failed'; });
+        } catch (e) {
+            state.push = 'failed';
+        }
+    }
+
     var started = false;
 
     // ---- 1. MultiTag: every ad-eligible page, subject to consent ----------
@@ -201,6 +241,7 @@ const js = `
         idle(function () {
             load('sr-monetag', cfg.multitag);
             state.multitag = true;
+            registerPushWorker();
         }, 3500);
         decidePopunder();
     }

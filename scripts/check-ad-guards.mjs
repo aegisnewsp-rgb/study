@@ -10,7 +10,8 @@
 //   node scripts/check-ad-guards.mjs      # exits non-zero on any failure
 //
 // Runs the emitted AdRouter body under a DOM stub and asserts the popunder
-// session cap, the WebDriver IVT guard, and that the popunder switch still works.
+// session cap, the WebDriver IVT guard, the push-worker registration gate, and
+// that the popunder switch still works.
 import { readFileSync } from 'node:fs';
 import vm from 'node:vm';
 
@@ -26,10 +27,14 @@ const src = readFileSync('src/components/AdRouter.astro', 'utf8');
 const body = src.match(/const js = `\n([\s\S]*?)\n`;/)[1].replace(/\\\\/g, '\\');
 const js = body.replace(/\$\{[^}]*\}/g, '__CFG__');
 
-function makeEnv({ zoneEnabled = true, webdriver = false, sessionHad = false, lastPopunder = 0, ua = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/128 Safari/537.36', geo = 'IN' } = {}) {
+function makeEnv({ zoneEnabled = true, webdriver = false, sessionHad = false, lastPopunder = 0, ua = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/128 Safari/537.36', geo = 'IN', consent = 'granted', adsOff = false, pushEnabled = true } = {}) {
   const scripts = []; const listeners = {};
+  // Push registration is a permission request, not a decoration: record every
+  // call so the gate can be asserted synchronously (the real API is async).
+  const pushCalls = [];
   const cfg = {
     enabled: true, tag: 'https://quge5.com/88/tag.min.js', multitag: 280401,
+    pushZone: 11798846, pushSw: '/sw.js', pushEnabled,
     popunder: 11805678, popunderZoneEnabled: zoneEnabled, cooldownMs: 43200000,
     popunderTag: 'https://al5sm.com/tag.min.js',
     pubKey: 'sr:pu:ts', sessionKey: 'sr:pu:session', geoKey: 'sr:geo', pageGeo: 'IN',
@@ -50,18 +55,27 @@ function makeEnv({ zoneEnabled = true, webdriver = false, sessionHad = false, la
     document, localStorage: mk(lastPopunder ? { 'sr:pu:ts': String(lastPopunder) } : {}),
     sessionStorage: mk(sessionHad ? { 'sr:pu:session': '1' } : {}),
     location: { search: '', href: 'https://studyroadmap.in/exams/neet/', hostname: 'studyroadmap.in' },
-    navigator: { userAgent: ua, webdriver },
+    navigator: {
+      userAgent: ua,
+      webdriver,
+      serviceWorker: {
+        register: (path, opts) => {
+          pushCalls.push({ path, scope: opts && opts.scope });
+          return Promise.resolve({ scope: 'https://studyroadmap.in/' });
+        },
+      },
+    },
     addEventListener: (t, f) => { (listeners[t] = listeners[t] || []).push(f); },
     dispatchEvent() {}, setTimeout: f => { f(); return 1; }, clearTimeout() {},
     requestIdleCallback: f => { f(); return 1; },
     fetch: () => Promise.resolve({ text: () => Promise.resolve('loc=' + geo) }),
-    CustomEvent: function () {}, SR_ADS_OFF: false,
-    __SR_CONSENT: { state: 'granted', ads: true, analytics: true },
+    CustomEvent: function () {}, SR_ADS_OFF: adsOff,
+    __SR_CONSENT: { state: consent, ads: consent === 'granted', analytics: consent === 'granted' },
   };
   win.window = win;
   const ctx = vm.createContext({ window: win, document, navigator: win.navigator, location: win.location, localStorage: win.localStorage, sessionStorage: win.sessionStorage, fetch: win.fetch, CustomEvent: win.CustomEvent, setTimeout: win.setTimeout, clearTimeout: win.clearTimeout, requestIdleCallback: win.requestIdleCallback, console, URL, RegExp, Date, Math, JSON });
   vm.runInContext(js.replace('__CFG__', JSON.stringify(cfg)), ctx);
-  return { ids: scripts.map(s => s.id).filter(Boolean), scripts, ad: win.__SR_AD };
+  return { ids: scripts.map(s => s.id).filter(Boolean), scripts, ad: win.__SR_AD, pushCalls };
 }
 
 const HOST = (env, id) => { const s = env.scripts.find(x => x.id === id); return s ? s.src : null; };
@@ -77,10 +91,25 @@ const cases = [
   ['WebDriver automation       ', { webdriver: true }, env => env.ids.length === 0 && env.ad.reason === 'automation'],
   ['declared crawler           ', { ua: 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)' }, env => env.ids.length === 0 && env.ad.reason === 'crawler'],
   ['popunder switch off        ', { zoneEnabled: false }, env => env.ids.length === 1 && env.ad.popunderSkipped === 'zone-not-serving'],
+
+  // Push-notification worker (zone 11798846): registered for eligible humans
+  // only. Without a worker registered the zone can never serve, and a worker
+  // registered for a bot/opt-out is a permission we had no right to request.
+  ['push worker for humans     ', {}, env => env.pushCalls.length === 1 && env.pushCalls[0].path === '/sw.js' && env.pushCalls[0].scope === '/'],
+  ['push worker not for crawler', { ua: 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)' }, env => env.pushCalls.length === 0 && env.ad.push === 'pending'],
+  ['push worker not for bot    ', { webdriver: true }, env => env.pushCalls.length === 0 && env.ad.push === 'pending'],
+  ['push worker not on opt-out ', { adsOff: true }, env => env.pushCalls.length === 0 && env.ad.push === 'pending'],
+  ['push worker withheld in EEA', { geo: 'DE', consent: 'denied' }, env => env.pushCalls.length === 0 && env.ad.reason === 'consent-denied'],
+  ['push worker after consent  ', { geo: 'DE', consent: 'granted' }, env => env.pushCalls.length === 1 && env.ad.push !== 'pending'],
+  ['push kill switch honoured  ', { pushEnabled: false }, env => env.pushCalls.length === 0 && env.ad.push === 'disabled'],
 ];
 let bad = 0;
 for (const [name, opts, check] of cases) {
   const env = makeEnv(opts);
+  // AdRouter resolves visitor country from /cdn-cgi/trace on a promise. Flush
+  // the microtask queue so region-dependent cases are asserted after the
+  // geo gate has actually run, not while it is still pending.
+  await new Promise((r) => setImmediate(r));
   const ok = check(env);
   if (!ok) bad++;
   console.log(`${ok ? 'PASS' : 'FAIL'}  ${name}  scripts=[${env.ids.join(',')}] reason=${env.ad.reason} skip=${env.ad.popunderSkipped}`);

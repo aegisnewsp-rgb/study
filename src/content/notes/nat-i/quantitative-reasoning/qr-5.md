@@ -11,7 +11,7 @@ topicName: Ratio and Proportion
 weight: 4
 country: pakistan
 generated: "2026-03-24T08:32:08.134973"
-lastUpdated: "2026-07-29"
+lastUpdated: "2026-09-16"
 diagramPrompt: "Educational diagram illustrating Ratio and Proportion with clear labels, white background, exam-style illustration"
 
 
@@ -24,73 +24,105 @@ diagramPrompt: "Educational diagram illustrating Ratio and Proportion with clear
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-A **ratio** a:b compares two same-kind quantities as the fraction a/b; a **proportion** states two ratios are equal, so a:b = c:d gives the cross-product ad = bc. Dividing a quantity Q in ratio m:n yields parts Q·m/(m+n) and Q·n/(m+n). In partnership questions, profit share depends on (investment × time), not capital alone.
+A **ratio** `a:b` compares two quantities by division and is dimensionless — it carries no unit. Two ratios form a **proportion** when they are equal, and the cross-product rule `ad = bc` is the fastest verification. NAT-I (NTS) typically tests 1–2 MCQs from this 4%-weighted topic, mixing partnership, mixture, and direct/inverse proportion word problems.
 
-- Compare quantities only after matching units (kg with kg, rupees with rupees).
-- Reduce every ratio to lowest terms by cancelling the HCF of antecedent and consequent.
-- For direct proportion y = kx, k is constant; for inverse proportion xy = k, the product stays constant.
-- In work-rate problems, workers and days are inversely proportional, so doubling workers halves the time.
+- **Ratio `a:b`** — antecedent `a`, consequent `b`; reduce to lowest integers before using.
+- **Proportion `a:b = c:d`** — true iff `ad = bc` (cross-multiplication).
+- **Mean proportional** `b` between `a` and `c` — `b = √(a·c)`.
+- **Direct** vs **inverse** proportion — `x = ky` vs `x = k/y`; capital-time profit share uses `(C₁T₁):(C₂T₂)`.
+- **Alligation** — cheap : dear = `(m_dear − m_mean) : (m_mean − m_cheap)`.
+
+> 💡 **High-Yield Memory Hook:** **"Cross-product checks proportion"** — multiply *outer × outer* and *inner × inner*. For mixture price recall **"Dear minus Mean over Mean minus Cheap"** (D − M / M − C) with the dear ingredient placed opposite its difference.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-#### Core Definitions
+#### Core Definitions and Identity
 
-A **ratio** a:b (or a/b) is a dimensionless number that expresses how many times one quantity contains another. The first term is the **antecedent**, the second is the **consequent**, and the ratio has no unit as long as both quantities share the same unit. Four quantities a, b, c, d are said to be in **proportion** when a:b = c:d, which algebraically gives **ad = bc** (the cross-multiplication rule, with b and d non-zero). The two middle numbers b and c are the **means**; a and d are the **extremes**.
+A **ratio** `a:b` is the quotient `a ÷ b`, written as a fraction `a/b`. Both `a` and `b` are pure numbers, so the ratio itself is **dimensionless** (no SI unit). The first term is the *antecedent*, the second the *consequent*. Always reduce ratios to simplest integer form: `8:12 = 2:3`.
 
-#### Compound and Continued Ratios
+A **proportion** asserts that two ratios are equal: `a:b = c:d`. The defining identity is the cross-product rule
 
-The **compound ratio** of a:b and c:d is ac:bd — multiply antecedents together and consequents together. A **continued proportion** a:b = b:c makes b the **mean proportional** between a and c, so b² = ac. Equivalently, three terms a, b, c are in continued proportion when b/a = c/b.
+$$ad = bc$$
 
-#### Direct and Inverse Variation
+where `a, b, c, d` are dimensionless numbers. This identity is the gate used in NAT-I MCQs that ask "which option makes the proportion true."
 
-Two quantities are in **direct proportion** when y/x = k (constant), so y = kx. They are in **inverse proportion** when xy = k, so y = k/x; with more variables, x₁y₁ = x₂y₂ = … = xₙyₙ. Work-rate problems use inverse proportion: workers × days = constant for a fixed job.
+#### Direct, Inverse, and Compound Proportion
 
-| Concept | Formula | Typical NAT-I use |
-| --- | --- | --- |
-| Simple ratio | a:b = a/b | Comparing two amounts of the same unit |
-| Proportion test | a:b = c:d ⇒ ad = bc | Verifying or solving missing-term problems |
-| Division in ratio m:n | Part₁ = Q·m/(m+n) | Splitting money, ages, or quantities |
-| Direct proportion | y = kx | Speed–distance, cost–weight, etc. |
-| Inverse proportion | xy = k | Workers–days, pipes–hours |
+- **Direct proportion** (`x ∝ y`): `x = ky`. If `y` doubles, `x` doubles. Constant `k = x/y`, units = (unit of x) ÷ (unit of y).
+- **Inverse proportion** (`x ∝ 1/y`): `xy = k`. If `y` doubles, `x` halves. Constant `k` carries units `(unit of x)·(unit of y)`.
+- **Compound proportion**: combines two or more proportions, e.g., work done varies jointly with workers and hours.
 
-#### Common Pitfalls
+#### Mean, Third, and Fourth Proportional
 
-Mixing units (grams with kilograms) is the most frequent error. In three-part splits m:n:k, each share is Q·term/(m+n+k), not Q·term/(m+n). When investments run for different durations, profit must be allocated by (capital × time), so two partners investing Rs 20,000 for 12 months and Rs 30,000 for 6 months share profit in the ratio 240,000 : 180,000, i.e. 4:3.
+- **Mean proportional** between `a` and `c`: the value `b` with `a:b = b:c`, giving `b = √(a·c)`.
+- **Third proportional** to `a` and `b`: `c` such that `a:b = b:c`, so `c = b²/a`.
+- **Fourth proportional** to `a, b, c`: `d` such that `a:b = c:d`, so `d = (bc)/a`.
+
+#### Comparison Matrix — Easily Confused Pairs
+
+| Feature | Direct Proportion | Inverse Proportion | Continued Proportion |
+|---|---|---|---|
+| Equation | `x = ky` | `xy = k` | `a:b = b:c = c:d` |
+| Behaviour | Both rise together | One rises, other falls | Three equal ratios chained |
+| Graph shape | Straight line through origin | Rectangular hyperbola | Geometric sequence with ratio `r = b/a` |
+| Constant `k` units | `(unit x)/(unit y)` | `(unit x)·(unit y)` | Unitless |
+| NAT-I trap | Treating `k` as unitless when units exist | Swapping numerator/denominator when solving | Forgetting that each consecutive ratio must equal the same `r` |
+
+#### 🎯 Exam-Level Worked Problem
+
+**Question:** Rs. 3,600 profit is shared by A, B, and C who invested Rs. 4,000 for 6 months, Rs. 6,000 for 4 months, and Rs. 8,000 for 3 months respectively. How much does A receive?
+*(Options typical of NAT-I style: A) Rs. 800  B) Rs. 1,080  C) Rs. 1,200  D) Rs. 1,440)*
+
+**Solution:** Use the partnership formula `P₁:P₂:P₃ = (C₁ × T₁):(C₂ × T₂):(C₃ × T₃)`, where capital `C` is in rupees and time `T` is in months.
+
+1. Compute capital-time products:
+   - A: `4000 × 6 = 24,000` Rs·months
+   - B: `6000 × 4 = 24,000` Rs·months
+   - C: `8000 × 3 = 24,000` Rs·months
+2. Ratio `A:B:C = 24,000 : 24,000 : 24,000 = 1 : 1 : 1`.
+3. Total ratio parts = `1 + 1 + 1 = 3`; A's share = `(1/3) × 3600 = Rs. 1,200`.
+
+#### Answer: C) Rs. 1,200.
+
+> ⚠️ **Examiner Trap:** Students often divide Rs. 3,600 by capital alone (4:6:8) and get Rs. 800 for A. The trap is forgetting the **time multiplier** — whenever partners invest for different durations, you must use `C × T`, never raw capital.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-#### Edge Cases and Proportion Variants
+#### Partnership Edge Cases
 
-**Duplicate ratio** of a:b is a²:b²; **sub-duplicate ratio** is √a : √b; **triplicate ratio** is a³:b³. These appear in 1–2 NAT-I MCQs each year, usually disguised as "if a:b = 2:3, find a³:b³". Another subtle variant is the **reciprocal ratio**, namely 1/a : 1/b, which equals b:a after simplification. When three or more ratios are chained, e.g. a:b = 2:3 and b:c = 4:5, the unified ratio a:b:c becomes 8:12:15 (make b equal in both first).
+When partners join or leave mid-year, split their capital into time-blocks and sum the `C·T` products separately. For example, if A invests Rs. 6,000 for the first 4 months and withdraws Rs. 2,000 for the remaining 8 months, A's contribution is `6000·4 + 4000·8 = 56,000` Rs·months.
 
-#### Worked Example
+#### Alligation and Mixture Mastery
 
-A sum of Rs 7,200 is divided among A, B, C in the ratio 3:5:7. Find B's share and verify the partition. Total parts = 3 + 5 + 7 = 15, so B's share = 7,200 × 5/15 = Rs 2,400. A gets Rs 1,440, C gets Rs 3,360, and 1,440 + 2,400 + 3,360 = 7,200 ✓. The cross-check confirms the partition.
+The **alligation rule** finds the mean price when ingredients at different prices are mixed:
 
-#### Common Mistakes That Cost Marks
+$$\text{Cheap : Dear} = (m_{dear} - m_{mean}) : (m_{mean} - m_{cheap})$$
 
-- Treating "ratio of ages 5 years hence" as today's ratio without adding 5 to each age.
-- Solving a:b = c:d by multiplying a·c = b·d (wrong diagonal) instead of a·d = b·c.
-- In a partnership where one partner joins or leaves mid-year, treating his capital as if it were invested for the full period.
+All terms are in the **same currency unit (Rs.)**, so the resulting ratio is dimensionless. For three or more ingredients, use **successive alligation**: mix two first to get an intermediate mean, then combine with the third.
 
-| Trap | Correct approach |
-| --- | --- |
-| Mixing grams and kg | Convert both to a single unit before forming ratio |
-| Wrong diagonal in proportion | Always cross-multiply outer × outer = inner × inner |
-| Three-part division | Denominator is sum of ALL parts, not just two |
-| Workers and time | Inverse proportion — product stays constant |
-| Different investment periods | Weight each capital by its time (months or years) |
+#### Common Traps and Exceptions
 
-#### Practice Prompts
+1. **Unit-bearing ratios** — never write "Rs. 100 : Rs. 200" as "Rs. 100:Rs. 200" carrying units; reduce to `1:2` (dimensionless).
+2. **Comparing ratios** — convert to decimals (`2/3 = 0.666...`) or a common denominator (`2/3 vs 5/7 ⇒ 14 vs 15`) before judging which is larger.
+3. **Inverse proportion sign errors** — when `x ∝ 1/y` and `y` triples, `x` becomes `x/3`, not `3x`.
+4. **Continued proportion term count** — three equal ratios involve four terms `a, b, c, d`; many students write only three.
+5. **Mean proportional domain** — `√(a·c)` is real only when `a·c ≥ 0`; negative inputs give no real mean proportional.
+6. **Mixture profit-sharing mix-up** — alligation finds the **mix ratio**, not the profit ratio; profit follows the mix ratio only if quantity equals cost basis.
+7. **Zero in a ratio** — `0:5` is valid but `5:0` is undefined; cross-product rule fails on division by zero.
+8. **Compound proportion simplification** — cancel common factors *across* the chains before multiplying; careless expansion inflates numbers.
 
-1. If x:y = 5:7 and y:z = 14:3, find x:y:z and the value of (x+z)/y.
-2. Two pipes A and B fill a tank in 12 hours and 18 hours respectively. Working together, how long do they take, and in what ratio are their water contributions?
+#### Advanced Practice Prompts
+
+1. Two varieties of rice costing Rs. 80/kg and Rs. 120/kg are mixed so that the mixture sells at Rs. 96/kg with no profit. In what ratio must they be combined?
+2. A and B start a business with Rs. 50,000 and Rs. 30,000. After 4 months, C joins with Rs. 40,000. If the annual profit is Rs. 46,200, find B's share.
+
+> 📌 **Formula Check:** Alligation ratio is `(m_d − m_m) : (m_m − m_c)` in Rs./Rs. ⇒ dimensionless. Partnership share is `(C·T)/Σ(C·T) × Total Profit`, with `C` in rupees and `T` in months — always keep units consistent.
 
 ---
 
@@ -101,5 +133,4 @@ A sum of Rs 7,200 is divided among A, B, C in the ratio 3:5:7. Find B's share an
 - **[NAT-I (NTS) exam overview](/exams/nat-i/)** — pattern, eligibility, and syllabus
 - **[All Quantitative Reasoning notes](/notes/nat-i/quantitative-reasoning/)** — browse sibling topics in this subject
 
----
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

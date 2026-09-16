@@ -8,105 +8,134 @@ topicName: English Language Proficiency
 weight: 3
 country: indonesia
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-09-05
+lastUpdated: "2026-09-16"
 ---
 
 # English Language Proficiency
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid review of grammatical concord, verb tenses, passive constructions, relative clauses, and reading strategies for the UNDANA Entrance Exam.
+> Rapid summary for last-minute revision before your UNDANA entrance attempt.
 
-**English Grammar & Reading — High-Yield Essentials**
+English Language Proficiency at UNDANA tests four macro-skills through 30–40 multiple-choice items worth roughly 3% of the total entrance score. Items are drawn from academic passages, single-sentence grammar items, vocabulary-in-context stems, and error-recognition questions aligned with Indonesian higher-education entry standards.
 
-1. **Subject-Verb Agreement (Grammatical Concord):**
-   - Singular subjects require singular verbs (*The list of students is ready*).
-   - Expressions of quantity follow the noun: *All of the pie was eaten* (uncountable) vs *All of the pies were eaten* (plural).
-   - Subjects joined by *neither... nor...* or *either... or...* agree with the **closer subject**: *Neither the teacher nor the students were present.*
-2. **Verb Tense Hierarchy in Exam Passages:**
-   - **Present Simple:** General truths, scientific facts (*Water freezes at 0 degrees Celsius*).
-   - **Present Perfect:** Actions completed at an unspecified time with present relevance (*Researchers have discovered a new vaccine*).
-   - **Past Simple vs Past Continuous:** Interrupted actions (*While she was reading the article, the telephone rang*).
-3. **Passive Voice Construction:**
-   $$\text{Subject} + \text{Form of 'to be'} + \text{Past Participle (V3)} + [\text{by Agent}]$$
-   - Active: *Engineers developed the algorithm.*
-   - Passive: *The algorithm was developed by engineers.*
-4. **Relative Clauses (Adjective Clauses):**
-   - **Who:** Refers to persons as subjects (*The professor who teaches physics...*).
-   - **Whom:** Refers to persons as objects (*The candidate whom we interviewed...*).
-   - **Which:** Refers to animals or inanimate objects (*The experiment which failed...*).
-   - **Whose:** Shows possession (*The author whose novel won the award...*).
+| Skill Tested | Item Format | Recall Cue |
+|---|---|---|
+| Reading Comprehension | Passage + 3–5 questions | Skim for gist, scan for names/dates |
+| Vocabulary in Context | Single sentence, target word underlined | Replace candidate; check collocation |
+| Grammar & Structure | Fill-in / sentence rewrite | Match tense, voice, agreement |
+| Error Recognition | Sentence with four underlined words | Read full sentence, not just fragment |
 
-⚡ **Exam Trap:** Modifiers placed between the subject and verb frequently confuse test-takers. In the sentence *\"The discovery of ancient artifacts in eastern islands proves/prove our theory\"*, the true subject is the singular noun **discovery**, requiring the singular verb **proves**!
+- **Tenses** (Simple / Continuous / Perfect) drive ~25% of grammar items.
+- **Subject-Verb Agreement** and **Passive Voice** transformation account for another 20%.
+- **Vocabulary in Context** questions reward meaning-from-surrounding-words over dictionary recall.
+- **Error Recognition** items ask "which word is INCORRECT?" — read the whole sentence first.
+
+> 💡 **High-Yield Memory Hook:** **S-C-A-N** for reading items — **S**kim title/first line → **C**atch the topic → **A**sk the stem → **N**arrow to the line. For grammar, remember **T-V-A-C**: **T**ense, **V**oice, **A**greement, **C**ollocation — check these four in order.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Detailed linguistic reference guide covering conditional clauses, modal verbs, and discourse markers.
+> Working understanding for students with days to weeks before the UNDANA test.
 
-## 1. Conditional Sentences Matrix
+#### Question Architecture in the UNDANA English Section
 
-Conditional constructions test hypothetical reasoning and counterfactual conditions:
+UNDANA's language sub-test uses multiple-choice with four options (A–D) and a single correct answer. Items are calibrated to B1–B2 on the CEFR, matching the academic readiness expected of first-year Nusa Cendana students. The 3% weight is small but functions as a tie-breaker against equally-strong candidates on TPA and subject tests.
 
-| Type | Condition Reality | If-Clause Structure | Result Clause Structure | Exam Sentence Example |
-|---|---|---|---|---|
-| **Zero Conditional** | Scientific laws, universal facts | Present Simple ($V_1$) | Present Simple ($V_1$) | *If temperature drops below zero, water freezes.* |
-| **First Conditional** | Real/possible future condition | Present Simple ($V_1$) | Will + Bare Infinitive ($V_0$) | *If she studies diligently, she will pass the entrance exam.* |
-| **Second Conditional** | Unreal/hypothetical present | Past Simple ($V_2$, use *were*) | Would / Could + Bare Infinitive ($V_0$) | *If I were the minister of education, I would build more libraries.* |
-| **Third Conditional** | Impossible past counterfactual | Past Perfect (*had* + $V_3$) | Would have + Past Participle ($V_3$) | *If they had arrived earlier, they would have caught the train.* |
+#### Core Grammar Rules You Must Apply
 
----
+| Structure | Trigger / Marker | Form |
+|---|---|---|
+| Present Perfect | since, for, already, yet, ever, never | have/has + past participle |
+| Past Simple | yesterday, last week, ago, in 2010 | V2 (or irregular form) |
+| Type 1 Conditional | if + present, will + base | real / probable future |
+| Type 2 Conditional | if + past, would + base | unreal present / hypothesis |
+| Passive Voice | transitive verb + object promoted | be + past participle (+ by agent) |
+| Relative Pronoun (people) | antecedent = human | who (subject), whom (object) |
+| Relative Pronoun (thing) | antecedent = object/idea | which / that |
 
-## 2. Inversion and Subjunctive Mood
+#### Subject-Verb Agreement — Three Patterns Examiners Reuse
 
-In advanced competitive entrance examinations, inversion is used for stylistic emphasis:
-- **Negative Adverb Inversion:** When negative or restrictive adverbs (*never, rarely, seldom, hardly, scarcely*) start a sentence, subject-auxiliary inversion is mandatory:
-  - Normal: *I have rarely seen such dedication.*
-  - Inverted: *Rarely have I seen such dedication.*
-  - Normal: *He not only finished the test, but he also scored full marks.*
-  - Inverted: *Not only did he finish the test, but he also scored full marks.*
-- **Present Subjunctive:** Used after verbs of urgency or demand (*demand, suggest, recommend, insist, mandate*):
-  - *The committee recommended that the university adopt the new syllabus.* (Bare verb *adopt*, not *adopts*).
+1. **Prepositional-phrase trap** — *"The box of chocolates **is** on the table."* The subject is *box*, not *chocolates*.
+2. **Indefinite pronouns** — *each, every, either, neither, someone, nobody* take the singular verb.
+3. **Collective nouns** — *team, family, government* take singular when acting as one unit, plural when members act individually.
+
+#### Concept Comparison: Easily Confused Pairs
+
+| Confused Pair | Correct Usage | Wrong Tendency |
+|---|---|---|
+| say / tell | say + words; tell + person | "He said me" instead of "He told me" |
+| make / do | make = create/produce; do = tasks/activities | "do a mistake" instead of "make a mistake" |
+| rise / raise | rise = intransitive; raise = transitive | "The government rises taxes" — wrong |
+| who / which | who = people; which = things | "The man which came" — wrong |
+| since / for | since = point in time; for = duration | "since three years" — wrong |
+
+#### 🎯 Exam-Level Worked Problem
+
+#### Question:
+Read the following sentence and choose the underlined word that is **INCORRECT**.
+
+*"Each of the students (A) have submitted (B) their assignment (C) before the deadline (D)."*
+
+A. (A) Each
+B. (B) have submitted
+C. (C) their assignment
+D. (D) before the deadline
+
+#### Solution:
+
+1. Identify the subject: *Each of the students* — the head noun is **each**, an indefinite pronoun that takes a singular verb.
+2. Apply rule: indefinite pronouns (*each, every, either, neither, someone, anybody*) → singular verb.
+3. Test option (A): *Each* — correctly placed as subject, no error.
+4. Test option (B): *have submitted* — should be **has submitted** to agree with singular *each*.
+5. Options (C) and (D) are grammatically and contextually correct.
+6. **Answer: B.**
+
+> ⚠️ **Examiner Trap:** Candidates see *students* (plural) right next to the verb and select option (A) thinking *Each* is wrong. The trap is the prepositional-phrase distraction — the true subject sits before *of the students*, not inside it. Mark only the word that breaks the rule; do not "fix" the sentence by changing the subject.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> English reading comprehension strategies, tone deduction, and authentic examination practice items.
+> Mastery treatment: edge cases, advanced traps, and adjacent-skill links.
 
-## 3. Reading Comprehension: Skimming, Scanning, and Deductive Question Heuristics
+#### Advanced Traps in Error-Recognition and Cloze Items
 
-1. **Main Idea Questions:** Read the introductory paragraph, the first sentence of each supporting paragraph, and the concluding synthesis.
-2. **Vocabulary-in-Context Questions:** Substitute each answer choice into the passage to determine which preserves syntactical coherence and denotative precision.
-3. **Tone and Attitude Inference:** Analyze descriptive adjectives and adverbial modifiers used by the author:
-   - *Objective / Analytical:* Neutral empirical evidence, statistics, balanced arguments.
-   - *Advocative / Pragmatic:* Constructive proposals, urgent imperative statements.
-   - *Skeptical / Critical:* Questioning underlying assumptions, highlighting flaws in prevailing theories.
+| Trap | Mechanism | Correct Signal |
+|---|---|---|
+| Double negative | "I don't have no money" — two negatives cancel | Use either *don't* or *no*, not both |
+| Dangling modifier | "Running quickly, the finish line was crossed" | Subj. of main clause must perform the -ing action |
+| Article misuse | "He goes to the school by foot" | No article with *by foot*, *by car*, *at home*, *in bed* |
+| Parallel structure | "She likes reading, to swim, and biking" | All items same grammatical form (gerund / infinitive) |
+| Comparative without *than* | "He is smarter his brother" | Comparative form must be followed by *than* |
+| NOT question reversal | Stem says "which is CORRECT?" but candidate reads "incorrect" | Re-read the stem before choosing |
+| Misplaced *only* | "Only she gave him a book" vs "She only gave him a book" | Position of *only* changes scope of meaning |
 
-## 4. UNDANA English Language Practice Items
+#### Edge Cases Worth Memorising
 
-**Question 1 (UNDANA English):** If the laboratory equipment _______ inspected yesterday, the experiment would have yielded accurate findings.  
-*(A) is  
-(B) was  
-(C) had been  
-(D) has been*  
-**Answer:** (C) had been (Explanation: The main clause uses 'would have yielded', indicating a Third Conditional construction requiring Past Perfect in the if-clause).
+- **Conditional Type 0** (zero conditional) states general truths: *If you heat water to 100°C, it boils.* — present + present, no *will*.
+- **Type 3 Conditional** (unreal past): *If she had studied, she would have passed.* — past perfect + would have + past participle.
+- **Reduced relative clauses** omit *who/which/that*: *"The man **wearing** a red shirt is my father."*
+- **Modal perfect** (*should have / could have / must have + past participle*) expresses past speculation or regret — high-yield for inference questions.
 
-**Question 2 (UNDANA English):** Neither the university president nor the department heads _______ available for an interview this morning.  
-*(A) is  
-(B) are  
-(C) was  
-(D) were*  
-**Answer:** (D) were (Explanation: With 'neither... nor...', the verb agrees with the closer subject, which is the plural noun 'department heads'. 'This morning' indicates past context, requiring 'were').
+#### Connections to Adjacent UNDANA Topics
 
-**Question 3 (UNDANA English):** Choose the correct sentence with proper grammatical inversion:  
-*(A) Seldom we have observed such unprecedented climate patterns.  
-(B) Seldom have we observed such unprecedented climate patterns.  
-(C) Seldom we observed such unprecedented climate patterns.  
-(D) Seldom did we had observed such unprecedented climate patterns.*  
-**Answer:** (B) Seldom have we observed such unprecedented climate patterns. (Explanation: Negative adverbials like 'seldom' trigger subject-auxiliary inversion: Adverb + Auxiliary + Subject + Main Verb).
+- **TPA / Numerik**: time-management discipline transfers directly — aim for ≤45 seconds per English item.
+- **Bahasa Indonesia section**: parallel grammar items (EYD, imbuhan) test the same rule-application skill.
+- **Academic reading in higher semesters**: the skimming/scanning methods practised here map directly onto UNDANA lecture-reading load.
+
+#### Two Advanced Practice Prompts
+
+1. A passage on Kupang coastal ecology asks for the writer's **attitude**. Candidates often pick *neutral* when the answer is *cautiously optimistic* — train yourself to weigh adjectives (e.g., *promising, hope, yet*) before answering.
+2. A sentence-rearrangement item mixes a Type 2 conditional with a passive clause: *"If the policy were approved, the subsidy **would be granted** to smallholder farmers."* Identify which fragment must open, which closes, and which carries the conjunction.
+
+> 📌 **Formula Check:** There are no numerical formulas in English Proficiency — but the operating rule is: **read the stem twice, isolate the subject, then check Tense → Voice → Agreement → Collocation** before locking your answer.
 
 ---
 
-## Sources & verification
-- Azar, Betty S., & Hagen, Stacy A. *Understanding and Using English Grammar*, Pearson Education.
-- Murphy, Raymond. *English Grammar in Use*, Cambridge University Press.
-- UNDANA Language Testing & Admission Center Curriculum Guidelines.
+## Continue your study
+
+- **[View this topic in your UNDANA Entrance Exam (Indonesia) roadmap](/roadmap/?exam=undana&duration=1mo)** — see where "English Language Proficiency" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=undana&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UNDANA Entrance Exam (Indonesia) exam overview](/exams/undana/)** — pattern, eligibility, and syllabus
+- **[All Language notes](/notes/undana/language/)** — browse sibling topics in this subject
+
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

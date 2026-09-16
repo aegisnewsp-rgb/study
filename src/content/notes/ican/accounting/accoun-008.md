@@ -8,82 +8,127 @@ topicName: Issue of Shares
 weight: 3
 country: nigeria
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-29"
+lastUpdated: "2026-09-16"
 ---
 
 # Issue of Shares
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your ICAN papers.
+> Rapid summary for last-minute revision before your exam.
 
-Issue of shares is the mechanism by which a Nigerian company raises equity capital under the Companies and Allied Matters Act (CAMA) 2020 by offering shares at **par**, at a **premium**, or at a **discount** (the last only with court approval). Each share represents a unit of ownership carrying dividend rights, voting rights, and a residual claim on assets.
+**Issue of shares** is the procedure a Nigerian company uses to raise share capital by offering new shares to the public, existing shareholders, or selected persons, governed by the Companies and Allied Matters Act (CAMA) 2020 and Financial Reporting Council (FRC) of Nigeria standards. The key capital categories to separate on every ICAN question are *authorised*, *issued*, *allotted*, *called-up*, and *paid-up*.
 
-- **Issue price** = Face value ± Premium or Discount (NGN per share)
-- **Share premium** goes to the **Securities Premium Account** — a capital reserve, not distributable as dividend
-- **Forfeited amount** per share = total calls actually received (including any premium paid) before forfeiture
+- **Authorised share capital** — the maximum nominal value a company can issue under its Memorandum of Association (in Naira, ₦).
+- **Issued share capital** — total nominal value of shares actually offered to investors (₦).
+- **Called-up capital** — portion of the nominal value the company has demanded from shareholders (₦).
+- **Paid-up capital** — portion actually received from shareholders in cash or kind (₦).
+- **Share premium** — excess of issue price over nominal/par value, credited to a *non-distributable* capital reserve (₦).
 
-| Concept | Quick check |
-| --- | --- |
-| Par issue | Cash/Bank Dr, Share Capital Cr (at face value) |
-| Premium issue | Cash/Bank Dr, Share Capital Cr (par) + Securities Premium Cr |
-| Discount issue | Requires court approval under CAMA 2020; debit Discount on Shares |
+| Capital category | What it measures | Typical exam phrase |
+|---|---|---|
+| Authorised | Maximum allowable by Memorandum | "maximum nominal capital" |
+| Issued | Offered to investors | "shares offered to the public" |
+| Called-up | Demanded by directors | "amount presently due" |
+| Paid-up | Actually received | "cash received in full" |
+| Share premium | Issue price above par | "premium credited to reserve" |
 
-Typical ICAN hit: a 15–25 mark question mixing forfeiture, reissue at discount, and calls in arrears.
+> 💡 **High-Yield Memory Hook:** **"A**uthorised **I**ssued **C**alled-up **P**aid-up **P**remium" → **A-I-C-P-P**. Think of it as a waterfall: authorised is the ceiling, issued flows next, called-up is what is demanded, paid-up is what arrives, and premium sits beside paid-up as a non-distributable reserve.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students working through the ICAN Accounting syllabus over several weeks.
+> Standard content for students with a few days to months.
 
-#### Capital classifications under CAMA 2020
+#### Core Concepts and Capital Categories
 
-A company distinguishes four layers of share capital. **Authorised capital** is the maximum nominal value the memorandum permits; **issued capital** is what has actually been offered to allottees; **called-up capital** is the portion of face value the company has demanded; **paid-up capital** is what allottees have actually paid (it can be less than called-up because of arrears). Public companies must meet minimum issued and paid-up thresholds under CAMA 2020.
+CAMA 2020, Sections 124–148, governs the issue of shares by Nigerian companies. The five capital categories are not interchangeable: authorised capital sets the ceiling, issued capital is what is offered, allotted capital is what is accepted, called-up capital is what the directors have formally demanded, and paid-up capital is what shareholders have remitted. Examiners test the *gaps* between these — for instance, the difference between *called-up* and *paid-up* equals **Calls in Arrears**.
 
-#### Issue at par, premium and discount
+#### Methods of Share Issue
 
-When shares are issued at par, Bank is debited and Share Capital is credited at face value. At a premium, the excess over par is credited to a separate **Securities Premium Account**. Discount issue is restricted by CAMA 2020 and generally requires court sanction; the discount is debited to a Discount on Shares account and written off against share premium or reserves.
+Nigerian companies raise equity through five mechanisms, each with distinct accounting treatment:
 
-#### Forfeiture and reissue
+1. **Initial Public Offering (IPO)** — shares offered to the public via a prospectus approved by the Securities and Exchange Commission (SEC) Nigeria.
+2. **Rights Issue** — existing shareholders offered new shares pro-rata to their holdings, in most keys at a discount to market price.
+3. **Bonus (Capitalisation/Scrip) Issue** — reserves converted into share capital; no cash inflow, total shareholders' funds unchanged.
+4. **Private Placement** — shares allotted to selected persons without a public offer, exempt from SEC prospectus requirements under CAMA Section 67(2).
+5. **Vendor Placement** — shares issued as consideration for the acquisition of a business or asset.
 
-If an allottee fails to pay calls, the company may **forfeit** the shares. Only money actually received is forfeited — premium paid is **not** refunded. On reissue at a discount, a proportionate amount of the forfeited premium must be transferred from the forfeited shares account to the Securities Premium Account.
+#### Treatment of Share Premium
 
-- Calls in **arrears** are a current asset (debtor balance); calls in **advance** are a current liability but interest credited is income
-- A **rights issue** offers new shares pro rata to existing shareholders; a **bonus (scrip) issue** capitalises reserves and raises no cash
-- **Underwriting commission** is paid to underwriters who guarantee subscription; calculated on issue price or face value depending on the contract
+When shares are issued above par, the excess is credited to the **Share Premium Account**, a *non-distributable* capital reserve. Under CAMA Section 124(2), it can be applied only to: writing off preliminary expenses of the company, writing off commission paid on issue of shares, providing for the premium payable on redemption of redeemable preference shares, or paying up unissued shares to be issued as fully-paid bonus shares.
 
-| Adjustment | Correct treatment |
-| --- | --- |
-| Calls in arrears | Add to Share Capital called-up, deduct from paid-up in the SOFP |
-| Calls in advance | Show under current liabilities; interest = income |
-| Securities Premium | Capital reserve; never debit to P/L |
-| Forfeited premium on reissue | Transfer to Securities Premium Account |
+#### Concept Comparison Matrix
+
+| Concept | Cash movement | Effect on total shareholders' funds | ICAN entry pattern |
+|---|---|---|---|
+| Issue at par | Cash in = Par × shares | Increase | Dr Bank, Cr Share Capital |
+| Issue at premium | Cash in > Par × shares | Increase (capital + reserve) | Dr Bank, Cr Share Capital + Cr Share Premium |
+| Bonus issue | No cash | No change (reserves → capital) | Dr Capital Reserve/Retained Earnings, Cr Share Capital |
+| Calls in arrears | Cash held back | No change until received | Dr Calls in Arrears, Cr Share Capital |
+| Calls in advance | Cash received early | No change at receipt | Dr Bank, Cr Calls in Advance |
+| Forfeiture of shares | Cash retained (already paid) | No change at forfeiture | Dr Share Capital + Cr Share Premium, Cr Calls in Arrears, Cr Forfeited Shares |
+| Reissue of forfeited shares | Cash in (can be at discount) | Change depends on discount | Dr Bank + Dr Forfeited Shares, Cr Share Capital (+ Cr Share Premium if any) |
+
+#### 🎯 Exam-Level Worked Problem
+
+**Question:** Ekiti Limited issued 500,000 ordinary shares of ₦1.00 each at ₦1.50 per share, payable as follows: 60 kobo on application, 50 kobo on allotment (including 30 kobo premium), and 40 kobo on first and final call. All moneys were received in full except calls in arrears of ₦8,000. **Required:** Prepare the Cash Book entries (with full narration) and show the Share Premium Account.
+
+#### Solution:
+
+#### 1. Application — Bank A/c Dr ₦300,000 / Share Application A/c Cr ₦300,000
+(500,000 × 60k = ₦300,000 received on application)
+
+#### 2. Allotment — Share Allotment A/c Dr ₦250,000 / Bank A/c Cr ₦250,000
+(500,000 × 50k = ₦250,000)
+
+#### 3. Share Capital A/c Dr ₦100,000 / Share Premium A/c Dr ₦150,000 → Share Allotment A/c Cr ₦250,000
+(Par element 500,000 × 20k = ₦100,000; Premium element 500,000 × 30k = ₦150,000)
+
+#### 4. First & Final Call — Share Call A/c Dr ₦200,000 / Bank A/c Cr ₦192,000, Calls in Arrears A/c Cr ₦8,000
+(500,000 × 40k = ₦200,000 called; ₦8,000 unpaid → Calls in Arrears)
+
+#### 5. Share Capital A/c Dr ₦200,000 / Share Call A/c Cr ₦200,000
+
+**Share Premium Account:** Balance = **₦150,000** (non-distributable, only usable per CAMA Section 124).
+
+> ⚠️ **Examiner Trap:** Students commonly debit the *full* 50 kobo allotment amount to Share Capital on the Allotment entry, forgetting that 30 kobo of the 50 kobo is premium. Premium must be credited separately to the Share Premium Account, never merged into Share Capital. A second trap: crediting *all* received cash to Share Capital on the call entry without extracting Calls in Arrears of ₦8,000 first.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for ICAN Skills and Professional level candidates preparing over several months.
+> Comprehensive coverage for students on a longer study timeline.
 
-#### Worked micro-example — forfeiture and reissue
+#### Forfeiture and Reissue — Capital Reserve Mechanics
 
-A company issued 10,000 ordinary shares of NGN 1.00 each at a premium of NGN 0.50, payable as: application NGN 0.50, allotment NGN 0.50 + NGN 0.50 premium, first call NGN 0.50. An allottee holding 1,000 shares failed to pay the first call and the shares were forfeited. They were later reissued at NGN 0.75 per share as fully paid.
+When a shareholder fails to pay calls, the company can **forfeit** the shares after serving the statutory notice (CAMA Section 184). Forfeiture reverses the share-related accounts and credits the **Forfeited Shares Account** with the amount already paid (excluding any premium, because premium must be refunded or credited back). On reissue, any discount on reissue is debited to the Forfeited Shares Account, and the balance transfers to **Capital Reserve** — which is *distributable*, unlike Share Premium.
 
-Amount forfeited per share = application (0.50) + allotment (0.50) = NGN 1.00. Premium paid and not refunded = NGN 0.50 per share. Discount on reissue per share = 1.00 − 0.75 = NGN 0.25, which is met from forfeited amount, leaving NGN 0.25 of capital reserve per share transferred to Securities Premium Account (NGN 250 total).
+#### Formula for Capital Reserve transfer on forfeiture:
 
-#### Edge cases and links to adjacent topics
+$$
+\text{Capital Reserve} = \left(\frac{\text{Amount already paid (ex-premium)}}{\text{Number of shares forfeited}}\right) - \text{Discount on reissue per share}
+$$
 
-- **Sweat equity** shares issued to employees for non-cash consideration must be valued and disclosed.
-- Underwriting may be **firm** (underwriter takes the full un-subscribed portion) or **contingent** (only after rights expire). Commission differs accordingly.
-- Bonus issues alter share structure without cash inflow, affecting **EPS** and **ROE** ratios studied in Financial Reporting.
-- Forfeiture interacts with **members' voluntary winding up** because unpaid calls can be enforced as a precondition of dividend distribution.
+#### Advanced Traps and Exceptions
 
-| Common mistake | Why it fails |
-| --- | --- |
-| Crediting premium to P/L | Violates CAMA 2020 — premium is capital reserve |
-| Debiting Securities Premium on forfeited reissue at discount | Forfeited premium transfers IN, not out |
-| Treating calls in advance as income | Only the interest element is income; principal is a liability |
-| Issuing at discount without court order | Contravenes CAMA 2020; the allotment is voidable |
+| Trap / Exception | Why it catches students | Correct treatment |
+|---|---|---|
+| Discount on issue of shares | Some textbooks suggest it is legal | **Prohibited under CAMA** — write off preliminary expenses against Share Premium instead |
+| Preliminary expenses on IPO | In many papers debited to P&L | Debit Share Premium, Credit Bank (CAMA Section 124(2)) |
+| Bonus issue at market value | Recorded at market price | Recorded at *par* value; market value is irrelevant for the journal entry |
+| Calls in advance — interest | Confused with calls in arrears | Calls in advance earn *no* interest unless the company's Articles state otherwise |
+| Underwriting commission | Treated as P&L expense | Capitalised and debited to Share Premium (limited to 10% of issue price under ICAN/SEC practice) |
+| Stamping of shares | In many papers ignored | Share certificates and transfer instruments must be stamped under the Stamp Duties Act; ICAN examiners test disclosure in the Statement of Financial Position |
 
-**Practice prompts:** (1) Prepare the Share Capital and Securities Premium accounts for an issue of 50,000 shares at NGN 2.00 each at a premium of NGN 0.75, with 5% under subscription. (2) Journalise forfeiture and reissue of 2,000 shares originally issued at NGN 1.00 with NGN 0.30 premium, where the allottee paid application and allotment only, and the shares were reissued at NGN 0.80 as fully paid.
+#### Connections to Adjacent Topics
+
+Issue of Shares links directly to **Issue of Debentures** (which carries interest and is redeemable), **Capital Alterations** (consolidation, subdivision, conversion of shares), **Reduction of Capital** (where share premium cannot be used to write off revenue losses), and **Group Accounts** (premium on acquisition is a different concept and is *not* Share Premium under CAMA). Mastery here unlocks the rest of the Financial Accounting paper's capital block.
+
+#### Two Advanced Practice Prompts
+
+1. **Combined forfeiture + reissue + bonus issue:** Apex Ltd forfeited 20,000 shares (₦1 each) on which only application and allotment (including 25 kobo premium) were paid. The shares were reissued at 70 kobo per share as fully paid. Subsequently, the company capitalised reserves by issuing a one-for-five bonus issue. Calculate the amount transferred to Capital Reserve and prepare the bonus issue journal entries.
+2. **Oversubscription with pro-rata allotment:** Enugu Plc received applications for 1,000,000 shares when only 600,000 were on offer. Excess application money was applied to allotment. Prepare the application and allotment accounts in columnar format and state the adjustments needed to Calls in Arrears if 1% of allottees defaulted on the final call.
+
+---
 
 ## Continue your study
 
@@ -92,5 +137,4 @@ Amount forfeited per share = application (0.50) + allotment (0.50) = NGN 1.00. P
 - **[ICAN (Nigeria) exam overview](/exams/ican/)** — pattern, eligibility, and syllabus
 - **[All Accounting notes](/notes/ican/accounting/)** — browse sibling topics in this subject
 
----
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

@@ -8,119 +8,154 @@ topicName: "हिंदी व्याकरण: संज्ञा एवं 
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-09-05
+lastUpdated: "2026-09-16"
 ---
 
 # हिंदी व्याकरण: संज्ञा एवं सर्वनाम (Hindi Grammar: Nouns and Pronouns)
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> High-yield revision summary of nouns, pronouns, cases, and gender for UPPSC RO/ARO.
+> Rapid summary for last-minute revision before your exam.
 
-**संज्ञा एवं सर्वनाम** — Core Exam Essentials
+**संज्ञा (Noun)** names any person, place, thing, feeling, or idea. **सर्वनाम (Pronoun)** replaces a noun to avoid repetition. In the UPPSC RO/ARO General Hindi section (typically 25 marks), 2–4 questions test noun–pronoun classification, gender–number agreement, and correct postposition (विभक्ति) usage in शुद्ध-अशुद्ध sentences.
 
-1. **संज्ञा (Noun):** किसी व्यक्ति, वस्तु, स्थान, भाव या गुण के नाम को संज्ञा कहते हैं। मुख्य रूप से संज्ञा के पाँच भेद हैं: **व्यक्तिवाचक** (*राम, गंगा, हिमालय*), **जातिवाचक** (*नदी, पर्वत, बालक*), **भाववाचक** (*मिठास, बचपन, क्रोध*), **समूहवाचक** (*सेना, सभा, कक्षा*), और **द्रव्यवाचक** (*सोना, चाँदी, जल, तेल*)।
-2. **भाववाचक संज्ञा निर्माण:** जातिवाचक संज्ञा, सर्वनाम, विशेषण, और क्रिया में प्रत्यय जोड़कर भाववाचक संज्ञा बनाई जाती है:
-   - *मित्र* (जातिवाचक) → *मित्रता*
-   - *अपना* (सर्वनाम) → *अपनत्व* / *अपनापन*
-   - *मीठा* (विशेषण) → *मिठास*
-   - *सजाना* (क्रिया) → *सजावट*
-3. **सर्वनाम (Pronoun):** संज्ञा के स्थान पर प्रयुक्त होने वाले शब्द सर्वनाम कहलाते हैं। हिंदी में कुल सर्वनाम शब्दों की संख्या 11 है (*मैं, तू, आप, यह, वह, जो, सो, कोई, कुछ, कौन, क्या*) तथा इनके 6 भेद होते हैं।
-4. **कारक (Cases):** संज्ञा या सर्वनाम का क्रिया से संबंध दर्शाने वाले चिह्न कारक कहलाते हैं। हिंदी में 8 कारक होते हैं (कर्ता ने, कर्म को, करण से/द्वारा, संप्रदान को/के लिए, अपादान से [अलग], संबंध का/की/के, अधिकरण में/पर, संबोधन हे/अरे)।
+- **Five primary noun types to memorise first:** व्यक्तिवाचक (Ram), जातिवाचक (boy), भाववाचक (childhood), समूहवाचक (army), द्रव्यवाचक (gold).
+- **Six further noun subtypes:** दिशावाचक, स्थानवाचक, कालवाचक, गुणवाचक, संख्यावाचक, स्वत्ववाचक.
+- **Eight pronoun classes:** पुरुषवाचक (उत्तम/मध्यम/अन्य), निजवाचक, निश्चयवाचक, अनिश्चयवाचक, प्रश्नवाचक, संबंधवाचक, नामवाचक — pair them with the noun's gender and number.
+- **Two-vibhakti trap zone:** the postposition 'से' carries three duties — करण (instrument), अपादान (separation), and अधिकरण-compare (manner) — distinguish them by sentence meaning.
 
-⚡ **UPPSC Exam Pitfall:** 'दही' और 'घी' शब्द पुल्लिंग हैं, जबकि 'छाछ' और 'लस्सी' स्त्रीलिंग हैं। 'पानी', 'घी', 'तेल' सदैव एकवचन में प्रयुक्त होते हैं। 'दर्शन', 'प्राण', 'आँसू', 'हस्ताक्षर' सदैव बहुवचन में रहते हैं।
+> 💡 **High-Yield Memory Hook:** **"व्य-जा-भा-स-द्र"** = the five core nouns (व्यक्ति-जाति-भाव-समूह-द्रव्य). For pronouns, use **"पु-नि-निश-अ-प्र-सं"** = पुरुष, निज, निश्चय, अनिश्चय, प्रश्न, संबंध. Also recall the आकारान्त mnemonics: कवि→कवयित्री, विद्वान्→विदुषी, वृद्ध→वृद्धा for gender change questions.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Systematic study guide for UPPSC General Hindi Paper covering morphology and declension.
+> Standard content for students with a few days to months.
 
-## 1. सर्वनाम के भेद (Types of Pronouns)
+#### भेद-विभाजन (Classification)
 
-| सर्वनाम भेद | परिभाषा | प्रमुख शब्द | परीक्षा उदाहरण |
+UPPSC frequently asks "निम्नलिखित में कौन-सा शब्द किस भेद का है?" — keep the twelve noun subtypes and seven pronoun subtypes in working memory rather than treating them as decoration.
+
+#### भाववाचक संज्ञा निर्माण (Abstract noun formation)
+
+Abstract nouns are built by attaching suffixes to verbs, adjectives, or roots. This is a regular source of fill-in-the-blank questions: "सुंदर + ? = सुंदरता".
+
+| स्रोत (Root) | प्रत्यय (Suffix) | भाववाचक रूप (Abstract noun) |
+|---|---|---|
+| क्रिया (verb) बढ़ना | -आई, -आहट | बढ़ाई, गिरावट |
+| विशेषण (adj.) सुंदर | -ता, -त्व | सुंदरता, माधुर्य |
+| संज्ञा (noun) बालक | -पन | बालपन |
+| संज्ञा (noun) गुरु | -आन | गुरुजन |
+| संज्ञा (noun) मीठा | -आस | मिठास |
+
+#### सर्वनाम के भेदों का अंतर (Pronoun sub-class distinctions)
+
+Examiners test whether you can tell near-identical pronouns apart — especially **निजवाचक vs नामवाचक** and **निश्चयवाचक vs अनिश्चयवाचक**.
+
+| सर्वनाम (Pronoun) | परिभाषा (Definition) | शब्द (Words) | कर्ता-कर्म संबंध (Subject–Object rule) |
 |---|---|---|---|
-| **पुरुषवाचक** | वक्ता, श्रोता या अन्य व्यक्ति का बोध | उत्तम (मैं, हम), मध्यम (तू, तुम, आप), अन्य (वह, वे) | "आप कल लखनऊ जा रहे हैं" (आदरार्थक मध्यम पुरुष) |
-| **निश्चयवाचक** | निश्चित व्यक्ति/वस्तु का निकट या दूर बोध | यह, वह, ये, वे | "यह मेरी पुस्तक है" (निश्चयवाचक सर्वनाम) |
-| **अनिश्चयवाचक** | किसी अनिश्चित प्राणी या वस्तु का बोध | कोई (सजीव), कुछ (निर्जीव) | "द्वार पर कोई खड़ा है", "दाल में कुछ काला है" |
-| **संबंधवाचक** | दो उपवाक्यों या संज्ञाओं का परस्पर संबंध | जो, सो (वह), जैसा-वैसा | "जो परिश्रम करेगा, वह सफल होगा" |
-| **प्रश्नवाचक** | प्रश्न पूछने के लिए प्रयुक्त सर्वनाम | कौन (प्राणी), क्या (वस्तु) | "वहाँ कौन बैठा है?", "तुम्हारे हाथ में क्या है?" |
-| **निजवाचक** | कर्ता स्वयं अपने लिए प्रयुक्त करता है | आप, स्वयं, खुद, स्वतः | "मैं यह कार्य अपने आप कर लूँगा" |
+| निजवाचक | कर्ता स्वयं के लिए प्रयुक्त | अपने आप, स्वयं | केवल कर्ता; अपने आप को (कर्म), अपने आप से (करण) |
+| नामवाचक | संज्ञा के बदले नाम-रूप में | राम, दिल्ली, गंगा | संज्ञा का संक्षिप्त पुनः उल्लेख |
+| निश्चयवाचक | निश्चित व्यक्ति/वस्तु | यह, वह, ये, वे | आगे आने वाली संज्ञा से लिंग-वचन मिलाएँ |
+| अनिश्चयवाचक | अनिश्चित व्यक्ति/मात्रा | कोई, कुछ, किसी, किन्हीं | कोई = व्यक्ति, कुछ = वस्तु/भाव |
+| संबंधवाचक | दो संज्ञाओं का परस्पर संबंध | जो, सो, जिसका, जिसने | अग्रिम संज्ञा के अनुसार रूप बदलता है |
+| प्रश्नवाचक | प्रश्न पूछने हेतु | कौन, क्या, कौन-सा | प्रश्न चिह्न ? के साथ |
+| पुरुषवाचक | वक्ता/श्रोता/अन्य | मैं, हम / तू, आप / यह, वह | उत्तम = वक्ता; मध्यम = श्रोता; अन्य = तीसरा |
 
----
+#### कारक-विभक्ति युग्म (Case–postposition pairs)
 
-## 2. कारक विभक्तियाँ एवं अपादान vs करण अंतर
+| कारक (Case) | कार्य (Function) | विभक्ति चिह्न (Postposition) | उदाहरण (Example) |
+|---|---|---|---|
+| कर्ता | कार्य करने वाला | ने (क्रिया से पहले) | राम **ने** पुस्तक पढ़ी |
+| कर्म | जिस पर क्रिया हो | को | मैंने राम **को** बुलाया |
+| करण | साधन/माध्यम | से, के द्वारा | तलवार **से** मारा |
+| संप्रदान | जिसके लिए | के लिए, को | माँ ने बच्चे **के लिए** खाना बनाया |
+| अपादान | अलग होना | से (अलगाव) | पेड़ **से** पत्ता गिरा |
+| संबंध | अधिकार/संबंध | का, के, की | भारत **की** राजधानी |
+| अधिकरण | आधार/स्थान | में, पर, ऊपर, नीचे | दिल्ली **में** रहता हूँ |
+| संबोधन | पुकारना | हे!, अरे!, ओ! | हे **भगवान!** |
 
-### अपादान एवं करण कारक में अंतर:
-दोनों कारकों का परसर्ग **'से'** है, परंतु दोनों के भाव में मौलिक अंतर है:
-- **करण कारक:** 'से' साधन या माध्यम के रूप में आता है (उदा. *अमित कलम से लिखता है* → साधन)।
-- **अपादान कारक:** 'से' पृथकता (अलगाव), तुलना, डर, या लज्जा का बोध कराता है:
-  - अलगाव: *पेड़ से पत्ता गिरा।*
-  - तुलना: *सीता गीता से अधिक बुद्धिमान है।*
-  - भय: *बच्चा कुत्ते से डरता है।*
-  - उत्पत्ति: *गंगा हिमालय से निकलती है।*
+#### 🎯 Exam-Level Worked Problem
+
+**Question:** "निम्नलिखित वाक्यों में से कौन-सा वाक्य **शुद्ध** है?"
+
+1. (A) राम ने कहा कि वह थक गया है।  
+2. (B) राम ने कहा कि वह थक गई है।  
+3. (C) राम ने कहा कि वह थक गए हैं।  
+4. (D) राम ने कहा कि वे थक गई है।
+
+#### Solution:
+
+- Step 1 — Identify the antecedent. 'वह' here refers to **राम**, a **पुल्लिंग, एकवचन** noun.
+- Step 2 — Apply gender-number agreement. A pronoun replacing a पुल्लिंग-एकवचन noun takes the form 'वह' (not 'वे') and the verb must agree with the subject: 'थक गया' (masc. sing., completed action).
+- Step 3 — Eliminate the distractor options.
+  - Option B: 'थक गई' is स्त्रीलिंग; matches feminine antecedent — wrong.
+  - Option C: 'थक गए हैं' is पुल्लिंग-बहुवचन; requires a plural antecedent — wrong.
+  - Option D: 'वे थक गई है' shows gender-number mismatch in subject-verb — wrong.
+- Step 4 — Confirm Option A. Both the pronoun (वह, sing.) and the predicate verb (थक गया, masc. sing.) agree with the antecedent राम (पुल्लिंग, एकवचन).
+
+**Answer: (A)** राम ने कहा कि वह थक गया है।
+
+> ⚠️ **Examiner Trap:** Students treat 'राम' as a one-syllable male name and assume any past-tense feminine agreement "sounds natural" with verbs like 'थक गई'. The trap is that 'थकना' is a masculine-friendly verb and the verb gender must follow the **subject's** gender, not the listener's intuition. When in doubt, locate the antecedent and force the pronoun + verb to mirror it in **both** dimensions.
+
+#### Common Mistakes Observed in Past Papers
+
+- Using **कवयित्री** when an unseen answer key expects **कवि** (because कवि is already पुल्लिंग; कवयित्री is the feminine form).
+- Writing **प्रजाओं** instead of the plural-unchanged collective noun **प्रजा**.
+- Using **स्वयं अपने आप** (redundant: स्वयं and अपने आप mean the same).
+- Confusing the three 'से' cases — remember the **अपादान-से** answer the question "किससे अलग हुआ?" and the **करण-से** answer "किसके साधन से किया?".
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Advanced syntactic relationships, gender rules, and UPPSC PYQ analysis.
+> Comprehensive coverage for students on a longer study timeline.
 
-## 3. लिंग एवं वचन के विशिष्ट नियम (Gender and Number Nuances)
+#### Edge Cases and Boundary Conditions
 
-### नित्य एकवचन एवं नित्य बहुवचन शब्द:
-- **सदैव एकवचन:** जनता, वर्षा, पानी, दूध, घी, सत्य, क्रोध, क्षमा, मोह, सामान, माल।
-- **सदैव बहुवचन:** प्राण, दर्शन, आँसू, होश, बाल (केश), हस्ताक्षर, लोग, भाग्य।
+A handful of words resist the default gender rules; UPPSC regularly exploits these exceptions to frame "शुद्ध-अशुद्ध" MCQs. A defence strategy: memorise the exception list, then apply the default rule to everything else.
 
-## 4. UPPSC विगत वर्षों के प्रश्न एवं व्याख्या (PYQ Practice)
+| शब्द (Word) | सामान्य धारणा (Default impression) | वास्तविक लिंग (Actual gender) | नोट (Note) |
+|---|---|---|---|
+| कवि, मुनि, ऋषि | sounds masculine | पुल्लिंग | कवयित्री स्त्रीलिंग रूप है |
+| श्रीमान्, भगवान्, गिरजाधर | ends in आनन्त | पुल्लिंग | श्रीमती / भगवती is feminine form |
+| समाचार, पानी, दूध | neuter in appearance | पुल्लिंग or स्त्रीलिंग by usage | समाचार = पुल्लिंग; पानी = पुल्लिंग |
+| आँगन, आँख, जीभ, गाय | sounds feminine | स्त्रीलिंग | आँखें (बहु.), गायें (बहु.) |
+| नींद, श्रद्धा, दया, माया | abstract, often स्त्रीलिंग | स्त्रीलिंग | verb agreement follows |
+| गायक, लेखक, शिक्षक | occupation word | पुल्लिंग base | गायिका, लेखिका for feminine |
 
-**प्रश्न 1:** "बुढ़ापा एक प्रकार का अभिशाप है" — रेखांकित शब्द ('बुढ़ापा') की संज्ञा का भेद बताइए:
-*(A) जातिवाचक (B) भाववाचक (C) व्यक्तिवाचक (D) समूहवाचक*
-**उत्तर:** (B) भाववाचक संज्ञा (स्पष्टीकरण: 'बूढ़ा' जातिवाचक संज्ञा में 'पा' प्रत्यय लगने से 'बुढ़ापा' भाववाचक संज्ञा बनता है)।
+#### Advanced Pronoun Traps
 
-**प्रश्न 2:** "राजा सेवक को कम्बल देता है" — वाक्य में रेखांकित पद ('सेवक को') में कौन-सा कारक है?
-*(A) कर्म कारक (B) संबंध कारक (C) संप्रदान कारक (D) कर्ता कारक*
-**उत्तर:** (C) संप्रदान कारक (स्पष्टीकरण: जब किसी को कोई वस्तु सदा के लिए दान या भेंट दी जाए, तो जिसे दी जाती है उसमें संप्रदान कारक होता है, भले ही परसर्ग 'को' लगा हो)।
+UPPSC's hardest sub-topic is **संबंधवाचक जो/जिसका/जिसने/जिसको**. The relative pronoun must agree with the **गतानुगत संज्ञा** (the noun it qualifies later in the sentence), not with the original subject it refers to.
 
----
+| वाक्य-प्रकार (Sentence type) | संबंधवाचक का रूप (Required form) | गलत अभ्यास (Distractor students pick) |
+|---|---|---|
+| जो **लड़का** आया है, वह **मेरा** भाई है | जो (sing., masc., direct case) | "जिसको आया है" — wrong because लड़का is कर्ता |
+| जिस **लड़के** को बुलाया, वह **मेरा** मित्र है | जिसे / जिसको (oblique, sing., masc.) | "जो को बुलाया" — wrong case |
+| जिस **लड़की** ने गाया, वह **मेरी** बहन है | जिसने (agentive) | "जिसने गाया, वह मेरा भाई" — gender slip |
+| जो **पुस्तकें** खरीदीं, वे **उपयोगी** हैं | जो (pl., fem. agrees with पुस्तक) | "जो पुस्तकें खरीदीं, वह उपयोगी है" — number slip |
 
-## 5. Bilingual Study Guide: English Grammatical Analysis & Terminology Matrix
+> ⚠️ **Examiner Trap:** Many aspirants first fix the relative pronoun and then forget that the demonstrative pronoun picking it up ("वह/वे") must match **its own antecedent** — usually the noun immediately ahead of the relative clause. The "agree forward, agree backward" rule has two steps and missing either fails the question.
 
-Mastering nominal declension, pronominal paradigms, and grammatical concord is crucial for bilingual candidates preparing for UPPSC state civil service examinations.
+#### Two Advanced Practice Prompts
 
-### Nominal Classification and Morphological Derivation
-Hindi nouns (*Sangya*) are categorized into five distinct semantic classes:
-- **Proper Nouns (Vyakti-vachak):** Specific names of discrete entities (individuals, geographical rivers, mountain ranges).
-- **Common Nouns (Jati-vachak):** Generic class designations encompassing entire categories of beings or physical items.
-- **Abstract Nouns (Bhav-vachak):** Intangible qualities, states of being, emotional conditions, or philosophical concepts. In UPPSC examinations, candidates frequently encounter questions requiring the derivation of abstract nouns from adjectives, verbs, or common nouns through specific derivational affixes (such as *-ta*, *-pan*, *-vat*, *-hat*).
-- **Collective Nouns (Samuh-vachak):** Group entities treated as single institutional units (e.g., assembly, army, class).
-- **Material Nouns (Dravya-vachak):** Uncountable substances, metals, and liquids that generally maintain singular concord in standard literary Hindi.
+1. **Prompt A — निजवाचक + विभक्ति:** Convert the sentence "राम ने स्वयं अपने आप को बधाई दी" into a शुद्ध वाक्य. *(Hint: drop one of the redundant reflexive words; verify the postposition 'को' on कर्म case.)*
+2. **Prompt B — कारक-विभक्ति critique:** Read "मेरे द्वारा यह कार्य किया गया" and decide whether it is शुद्ध or अशुद्ध. Compare with "इस कार्य में मेरा समय लगा". Which is more idiomatic, and why does करण postposition matter?
 
-### Pronominal Subsystems and Honorific Registers
-Pronouns (*Sarvanam*) replace nominal entities to eliminate redundant repetitions and articulate sociolinguistic distance:
-- **Personal Pronouns (Purush-vachak):** Organized into first person (*Uttam Purush*), second person (*Madhyam Purush*), and third person (*Anya Purush*). The second-person series exhibits a threefold honorific stratification (*tu* for intimate/pejorative, *tum* for familiar, *aap* for formal respect) that governs plural verbal concord even when referring to an individual singular referent.
-- **Demonstrative Pronouns (Nishchay-vachak):** Signal spatial proximity (*yah*) or distal distance (*vah*). When these words directly precede and qualify a noun, their functional status shifts immediately from demonstrative pronoun to pronominal adjective (*Sarvanamik Visheshan*).
-- **Indefinite Pronouns (Anishchay-vachak):** Differentiate between animate entities (*koi*) and inanimate objects (*kuchh*).
-- **Relative and Correlative Pairs (Sambandh-vachak):** Form interdependent clauses (*jo* ... *so* / *vah*) establishing conditional or descriptive syntactic balance.
-- **Reflexive Pronouns (Nij-vachak):** Words like *aap*, *swayam*, and *khud* that point directly back to the agent without requiring external antecedent agreement.
+#### Adjacent-Topic Links
 
-### Case Roles and Postpositional Syntactic Concord
-Hindi case roles (*Karak*) correspond functionally to prepositional phrases and case inflections in classical languages:
-1. **Agentive / Nominative (Karta):** Unmarked in non-perfective aspects; marked by *ne* in perfective transitive constructions.
-2. **Accusative / Dative (Karm / Sampradan):** Marked by *ko* for specific direct objects or beneficiaries of actions.
-3. **Instrumental (Karan):** Marked by *se* / *dwara*, expressing the tool, medium, or physical instrument of action.
-4. **Ablative (Apadan):** Also marked by *se*, but fundamentally distinct from the instrumental. The ablative denotes physical separation, comparative divergence, source origin, fear, or shame.
-5. **Genitive (Sambandh):** Marked by *ka* / *ki* / *ke*, agreeing in gender, number, and case with the possessed head noun.
-6. **Locative (Adhikaran):** Marked by *men* (in/within) or *par* (on/upon), identifying spatial or temporal locus.
+- **विशेषण और विशेष्य**: gender-number agreement of adjectives follows the noun's gender and number — a conceptual cousin of pronoun agreement.
+- **क्रिया और काल**: the predicate verb (क्रिया) must mirror the subject's gender and number; combining pronoun agreement with verb agreement is the hallmark of a full sentence.
+- **समास (Sandhi/Compound)**: समूहवाचक nouns like 'प्रजा' and 'सेना' result from समास; recognising the underlying compound helps spot gender exceptions.
+
+#### Strategy for UPPSC RO/ARO
+
+The General Hindi paper tests **recognition speed** more than depth. Plan 45 seconds per question: identify the noun's भेद in your head, confirm postposition–कारक pairing, then read the verb. Memorise the 12 noun subtypes and 7 pronoun subtypes in a single sitting; spend the rest of the week on the कारक–विभक्ति matrix and the relative-pronoun table above.
 
 ---
 
-### Practical UPPSC Diagnostic Heuristics for Concord
-When analyzing complex sentences for syntactic concord in UPPSC civil service exams, candidates should verify:
-1. Pronominal Case Concord: Ensure that oblique case postpositions trigger the oblique base form of pronouns (*mujh-ko*, *us-ne*, *jin-ko*).
-2. Honorific Plural Concord (*Aadararthak Bahuvachan*): In sentences referring to respected dignitaries, parents, or teachers, masculine singular nouns take plural verbal agreement (*Pitaji aa rahe hain*, never *aa raha hai*).
-3. Compound Pronoun Forms: Compound combinations like *koi-na-koi* (someone or other), *kuchh-na-kuchh* (something or other), and *jo-koi* (whoever) govern singular agreement.
+## Continue your study
 
----
+- **[View this topic in your UPPSC RO/ARO roadmap](/roadmap/?exam=uppsc&duration=1mo)** — see where "हिंदी व्याकरण: संज्ञा एवं सर्वनाम (Hindi Grammar: Nouns and Pronouns)" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=uppsc&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UPPSC RO/ARO exam overview](/exams/uppsc/)** — pattern, eligibility, and syllabus
+- **[All Hindi notes](/notes/uppsc/hindi/)** — browse sibling topics in this subject
 
-## Sources & verification
-- उत्तर प्रदेश लोक सेवा आयोग (UPPSC) पाठ्यक्रम व उत्तर कुंजी.
-- डॉ. पृथ्वीनाथ पांडेय, *सामान्य हिंदी*, नालंदा पब्लिकेशन.
-- केंद्रीय हिंदी निदेशालय, भारत सरकार.
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

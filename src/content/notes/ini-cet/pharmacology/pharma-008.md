@@ -8,7 +8,7 @@ topicName: Antiarrhythmic Drugs Suppress Abnormal Cardiac Rhythms By Modulating
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-28"
+lastUpdated: "2026-09-16"
 ---
 
 # Antiarrhythmic Drugs Suppress Abnormal Cardiac Rhythms By Modulating
@@ -16,64 +16,103 @@ lastUpdated: "2026-07-28"
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-Antiarrhythmic drugs suppress abnormal cardiac rhythms by modulating Na⁺, K⁺, Ca²⁺ channels, β-adrenergic receptors, or vagal tone. The **Vaughan-Williams classification** divides them into four classes based on the dominant ion-channel or receptor target.
+Antiarrhythmic drugs restore normal sinus rhythm by modulating cardiac ion channels (Na⁺, K⁺, Ca²⁺) and autonomic receptors (β₁, M₂), shortening or lengthening the action potential duration (APD) and effective refractory period (ERP) in myocytes. The cornerstone framework for INI CET is the **Vaughan-Williams classification** (Classes I–IV, with digoxin as a fifth adjunct), which links each drug to a dominant ionic target, a characteristic ECG signature, and a clinical use case.
 
-- **Class I** — Na⁺ channel blockers; subdivided into **IA** (quinidine, procainamide — moderate block, prolong AP), **IB** (lidocaine, mexiletine — weak block, shorten AP), **IC** (flecainide, propafenone — strong block, no AP change).
-- **Class II** — β-blockers (propranolol, esmolol, metoprolol): reduce automaticity, slow AV conduction.
-- **Class III** — K⁺ channel blockers (amiodarone, sotalol, dofetilide, ibutilide): prolong repolarization → ↑QT, risk of **torsades de pointes**.
-- **Class IV** — non-dihydropyridine Ca²⁺ channel blockers (verapamil, diltiazem): slow AV node.
+| Class | Dominant Target | Prototype Drug | Key ECG Effect | Primary Indication |
+|---|---|---|---|---|
+| IA | Moderate Na⁺ block + K⁺ block | Quinidine, Procainamide | QRS widening, QT prolongation | Atrial fibrillation (older agents) |
+| IB | Fast Na⁺ block (inactivated state) | Lidocaine, Mexiletine | Minimal ECG change; shortens APD | Ischemic ventricular arrhythmias |
+| IC | Slow Na⁺ block | Flecainide, Propafenone | Marked QRS widening | SVT without structural heart disease |
+| II | β₁-receptor blockade | Metoprolol, Propranolol | PR prolongation, bradycardia | Post-MI prophylaxis, AF rate control |
+| III | K⁺ (IKr) block | Amiodarone, Sotalol, Dofetilide | QT prolongation | AF, VT with structural heart disease |
+| IV | L-type Ca²⁺ block | Verapamil, Diltiazem | PR prolongation | AV nodal re-entrant tachycardia |
 
-**High-yield mnemonics:** S**A**fe drugs (class IA) prolong **A**P; class **I**B **B**ind weakly and **B**ind to inactivated state; class **I**C has **C**ast trial mortality. **Adenosine** (rapid IV bolus) is first-line for paroxysmal SVT.
+> 💡 **High-Yield Memory Hook:** "**I Block Na⁺, II Block β, III Block K⁺, IV Block Ca²⁺**" — write it once and the ECG effects follow. Remember "**Amiodarone is A to Z**" — it hits Na⁺, β, K⁺, and Ca²⁺, which is why it is the only agent safe in severe structural heart disease.
+
+Amiodarone's terminal half-life is **t₁/₂ ≈ 50–100 days** because of lipophilic sequestration in fat, lung, and liver. Use-dependent Na⁺ block (Class I) intensifies at faster heart rates, whereas reverse use-dependence (Class III) paradoxically prolongs QT more at slower rates, setting up the torsades de pointes risk.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-#### Mechanism of Class I Use-Dependence
+#### Mechanisms of Action Across Classes
 
-Class I drugs bind preferentially to **open and inactivated** Na⁺ channels, so block deepens at faster heart rates and more depolarised membrane potentials. The fraction of Na⁺ channels in the inactivated state follows a Boltzmann relationship: f_inactivated = 1 / (1 + exp[(V − V₀.₅)/k]).
+Class I agents block voltage-gated Na⁺ channels in their open or inactivated state, raising the threshold for phase 0 depolarization and slowing conduction velocity. The subclasses differ by binding kinetics: IA has intermediate dissociation and prolongs APD (quinidine, procainamide); IB dissociates within milliseconds, binds preferentially to inactivated channels in depolarized/ischemic tissue, and shortens APD (lidocaine, mexiletine); IC dissociates so slowly that it has near-irreversible effects on depolarization, producing striking QRS widening without APD change (flecainide, propafenone).
 
-Lidocaine, the prototype class IB, dissociates rapidly from resting channels and binds only to depolarised/ischemic tissue — making it effective for **ventricular arrhythmias post-MI** but useless in atrial fibrillation. Flecainide and propafenone (IC) bind tightly to both open and inactivated channels and dissociate slowly; the CAST trial showed **increased mortality** when used post-MI, so they are contraindicated in structural heart disease.
+Class II β-blockers blunt sympathetic drive, reducing the slope of phase 4 depolarization in the SA node and slowing AV nodal conduction. They are the agents of choice for adrenergically driven arrhythmias and post-infarction prophylaxis, where mortality benefit is established.
 
-#### QT Prolongation and Torsades Risk
+Class III drugs block the rapid delayed rectifier K⁺ current (IKr), prolonging repolarization (phase 3) and lengthening ERP uniformly across the myocardium. Amiodarone uniquely blocks Na⁺, K⁺, Ca²⁺ channels and β-receptors simultaneously, explaining its broad-spectrum efficacy and exceptional safety in structural heart disease despite measurable QT prolongation.
 
-Drugs that prolong action-potential duration by blocking the rapid delayed-rectifier K⁺ current (I_Kr) extend the QT interval. Corrected QT is calculated by the **Bazett formula**: QTc = QT / √RR.
+Class IV agents block L-type Ca²⁺ channels, slowing AV nodal conduction and terminating AV nodal re-entrant SVT.
 
-| Drug | Class | Pro-arrhythmic risk | Hallmark toxicity |
-| --- | --- | --- | --- |
-| Quinidine, Procainamide | IA | QT prolongation, torsades | Cinchonism, drug-induced lupus |
-| Sotalol | II + III | QT prolongation, torsades | Bronchospasm, bradycardia |
-| Dofetilide, Ibutilide | III | QT prolongation, torsades | Torsades (mandatory hospital initiation) |
-| Amiodarone | I/II/III/IV | Low torsades despite QT prolongation | Pulmonary fibrosis, thyroid, hepatic, skin, corneal |
+#### Concept Comparison Matrix
 
-The seeming paradox — amiodarone prolongs QT yet rarely causes torsades — reflects its homogeneous prolongation of repolarisation across the myocardium, reducing transmural dispersion.
+| Feature | Use-Dependence (Class I) | Reverse Use-Dependence (Class III) |
+|---|---|---|
+| Definition | Greater channel block at higher stimulation rates | Greater QT prolongation at slower rates |
+| Cellular basis | Drug binds open/inactivated Na⁺ channel | IKr block has reverse kinetics |
+| Clinical benefit | Suppresses tachyarrhythmias | Effective at normal heart rates |
+| Clinical risk | Proarrhythmia during fast rhythms | Torsades de pointes during bradycardia |
+| Example | Lidocaine, Flecainide | Sotalol, Dofetilide |
+
+#### Triggered Activity vs Re-entry
+
+Re-entry (the substrate of most tachyarrhythmias) requires unidirectional block plus slow conduction. Class I and III drugs suppress re-entry by prolonging ERP or slowing conduction further. Triggered activity arises from afterdepolarizations: early afterdepolarizations (EADs) occur during phase 2/3 and are amplified by hypokalaemia and QT-prolonging drugs (Class IA, III); delayed afterdepolarizations (DADs) occur after full repolarization and are favored by Ca²⁺ overload (digoxin toxicity).
+
+#### 🎯 Exam-Level Worked Problem
+
+**Question:** A 58-year-old man with rheumatic mitral stenosis develops rapid atrial fibrillation with a ventricular rate of 148/min and signs of acute pulmonary oedema. Echocardiography shows severe left atrial enlargement; he is not yet on anticoagulation. Which intravenous antiarrhythmic is most appropriate for acute rate control in this decompensated heart failure setting?
+A. Verapamil
+B. Metoprolol
+C. Digoxin
+D. Adenosine
+
+#### Solution:
+- Heart failure with rapid AF → avoid verapamil (negative inotropy) and metoprolol (acute β-blockade worsens decompensation).
+- Adenosine only transiently blocks AV node (~10 s half-life) and does not sustain rate control.
+- **Digoxin** slows AV nodal conduction via vagal (M₂) enhancement, has positive inotropy, and is safe in decompensated HF.
+- Answer: **C. Digoxin** (consider β-blocker or amiodarone added later once euvolemic and anticoagulated).
+
+> ⚠️ **Examiner Trap:** Students reflexively choose verapamil or metoprolol for AF rate control. Both are correct in preserved ejection fraction but dangerous in acute decompensated HF with rapid AF — digoxin (or amiodarone) is the right pick.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-#### Adjacent Topics and Edge Cases
+#### Channelopathies and Drug Avoidance
 
-**Adenosine** activates A₁ receptors → opens G-protein–coupled K⁺ channels → hyperpolarises the AV node, terminating re-entrant SVT circuits. Its plasma half-life is <10 seconds, so it must be given as a **rapid 6 mg IV bolus** followed by saline flush. Transient asystole, flushing, and bronchospasm are expected — not anaphylaxis.
+| Syndrome | Ionic Defect | Avoid | Preferred |
+|---|---|---|---|
+| Long QT 1 (LQT1) | Loss-of-function IKs (swimming/exercise trigger) | All QT-prolonging drugs (IA, III) | β-blocker (nadolol/propranolol) |
+| Long QT 2 (LQT2) | Loss-of-function IKr (auditory/emotional trigger) | QT-prolonging drugs; maintain normal K⁺ | β-blocker |
+| Long QT 3 (LQT3) | Gain-of-function late Na⁺ (rest/sleep trigger) | Class IA, III; consider avoiding Na⁺ blockers cautiously | Mexiletine, β-blocker |
+| Brugada | Loss-of-function SCN5A Na⁺ | Na⁺ channel blockers (Class I), fever, cocaine | ICD; quinidine for arrhythmia storm |
+| CPVT | Ryanodine receptor / CASQ2 (Ca²⁺ handling) | Catecholamines, digoxin, sympathomimetics | β-blocker, flecainide |
 
-**Digoxin** indirectly slows AV conduction via enhanced vagal tone (not by direct Na⁺/K⁺-ATPase inhibition at therapeutic concentrations). Therapeutic range is **0.5–2 ng/mL**; toxicity presents with yellow-green vision, nausea, and arrhythmias. Treatment: **Digoxin-specific Fab fragments**, K⁺ replacement only if hypokalemic, phenytoin for ventricular arrhythmias. Lidocaine is ineffective in digoxin-toxic ventricular tachycardia because digoxin arrhythmias arise from triggered activity, not ischaemia.
+#### Proarrhythmic Pearls and the CAST Trial
 
-**Amiodarone** uniquely spans all four Vaughan-Williams classes plus a coronary vasodilator effect. Its iodine-rich structure causes **thyroid dysfunction** (both hypo- and hyperthyroidism), and chronic use produces **blue-gray skin discoloration**, corneal microdeposits, and pulmonary fibrosis — baseline and annual monitoring of TFTs, LFTs, CXR, and ophthalmology review is mandatory.
+The Cardiac Arrhythmia Suppression Trial (CAST) randomized post-MI patients with ventricular ectopy to encainide, flecainide, or placebo. Mortality in the active arms was **≈ 2.5-fold higher** than placebo, ending the uncritical use of Class IC drugs in structural heart disease. Proarrhythmia is also dose-dependent: Class IA (quinidine, procainamide) and Class III (sotalol, dofetilide) prolong QT and precipitate torsades de pointes, especially with hypokalaemia, hypomagnesaemia, bradycardia, or drug interactions.
 
-**Verapamil + β-blocker** is a classic INI CET trap — combined negative inotropy and AV nodal blockade can produce complete heart block, especially with diltiazem.
+#### Amiodarone Toxicity in Depth
 
-#### Practice Prompts
+Amiodarone contains iodine (≈ 37% by weight) and accumulates in lipid-rich tissues. Long-term toxicities include: pulmonary fibrosis (baseline CXR and serial PFTs), hepatotoxicity (LFT monitoring), thyroid dysfunction (both hypothyroidism from Wolff-Chaikoff effect and hyperthyroidism from iodine load — check TSH every 6 months), corneal microdeposits (mostly asymptomatic), blue-grey skin discoloration, photosensitivity, and peripheral neuropathy. Baseline and follow-up testing: CXR, PFTs with DLCO, LFTs, TFTs, ophthalmologic exam, and ECG.
 
-1. A post-MI patient with sustained monomorphic VT is started on an antiarrhythmic and later develops increased mortality. Identify the drug class and trial that demonstrated this finding, and list two absolute contraindications to its use today.
-2. A patient on class IA therapy develops fever, malar rash, and positive anti-histone antibodies. Name the culprit drug, its class, and the safer alternatives for a patient with this hypersensitivity.
+#### Adenosine, Digoxin, and Edge-Case Pharmacology
+
+Adenosine activates A₁ receptors, opens G-protein–coupled K⁺ channels, and hyperpolarizes AV nodal tissue within seconds (t½ ≈ 10 s). Warn patients of transient flushing, dyspnoea, and chest discomfort. Contraindicated in severe asthma (bronchospasm) and second-/third-degree AV block; caution in wide-complex tachycardia of unclear origin where mis-diagnosed VT can degenerate into VF. Digoxin's therapeutic window is narrow (0.5–0.9 ng/mL), toxicity is precipitated by hypokalaemia, hypomagnesaemia, hypercalcaemia, hypothyroidism, and renal failure, and is treated with digoxin-specific antibody fragments.
+
+#### Advanced Practice Prompts
+
+1. A patient on sotalol for AF develops torsades de pointes with a heart rate of 38/min and serum K⁺ of 3.1 mmol/L. Outline the immediate bedside management and the long-term strategy to prevent recurrence, including renal-dose adjustment rationale.
+2. Contrast the electrophysiological effects of quinidine, lidocaine, and flecainide on a Purkinje fibre action potential, explaining why lidocaine is preferred in ischemic ventricular tachycardia but ineffective in atrial fibrillation.
 
 ---
 
 ## Continue your study
 
-- **[View this topic in your INI CET (AIIMS PG) roadmap](/roadmap/?exam=ini-cet&duration=1mo)** — see where "Topic 8" fits in your personalised plan
+- **[View this topic in your INI CET (AIIMS PG) roadmap](/roadmap/?exam=ini-cet&duration=1mo)** — see where "Antiarrhythmic Drugs Suppress Abnormal Cardiac Rhythms By Modulating" fits in your personalised plan
 - **[Build a quick revision plan](/roadmap/?exam=ini-cet&duration=1d)** — 1-day sprint covering highest-weight topics
 - **[INI CET (AIIMS PG) exam overview](/exams/ini-cet/)** — pattern, eligibility, and syllabus
 - **[All Pharmacology notes](/notes/ini-cet/pharmacology/)** — browse sibling topics in this subject

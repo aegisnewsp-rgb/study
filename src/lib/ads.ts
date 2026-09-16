@@ -101,14 +101,47 @@ export const MONETAG_MULTITAG_ZONE = 280401;
  * Registering a worker is necessary but not sufficient: the zone only starts
  * reporting once Monetag's own tag turns that worker into a subscription, and a
  * visitor who never grants notification permission never becomes one. The leg
- * is closed only when the Monetag MCP shows requests > 0 for 11798846 (it stood
- * at 1,502 prerequests / 0 requests over 2026-09-13 → 09-16). If requests stay
- * at 0 after the registration is live, the next suspect is the permission
- * prompt, not the tag.
+ * is closed only when the Monetag MCP shows subscriptions > 0 for 11798846 (it
+ * stood at 1,502 prerequests / 0 requests / 0 subscriptions over
+ * 2026-09-13 → 09-16).
+ *
+ * CORRECTED 2026-09-16 by measurement (`/data/push-late-register-probe.mjs`).
+ * An earlier note in this file claimed the tag switches to a "worker-backed"
+ * request (`…&sw=3.1.647`) once a worker exists, and treated that as the fix.
+ * That was wrong. The probe serves `/sw.js` as 404 with **zero** registrations
+ * and the tag still sends `…&sw=3.1.647`: `sw=` is the tag's own bundle version
+ * parameter, present either way, and the live-vs-probe comparison that produced
+ * the claim was reading a URL truncated at 96 characters. The same probe also
+ * shows the tag calls `Notification.requestPermission()` on load with
+ * `navigator.userActivation.isActive === false`, worker or no worker.
+ *
+ * So the dead leg is a *subscription* problem, not a worker problem. An
+ * ungestured permission request is suppressed into Chrome's quiet prompt
+ * (`kGestureGatedNotificationMessage` in `permission_request_manager.cc`) or
+ * ignored outright — Firefox and Safari require the gesture — so nobody
+ * subscribes and the zone has nothing to deliver. The fix is a reader-initiated
+ * opt-in: the worker is registered from inside a click and the permission
+ * request is made there, carrying user activation. See `offerPush()` in
+ * AdRouter.astro.
  */
 export const MONETAG_PUSH_ZONE = 11798846;
 export const MONETAG_PUSH_SW_PATH = '/sw.js';
 export const MONETAG_PUSH_ENABLED = true;
+
+/**
+ * Reader dismissed the notification offer. Once set we never ask again — an
+ * opt-in that reappears is a nag, and the reader has given a clear answer.
+ */
+export const MONETAG_PUSH_DISMISS_KEY = 'sr:push:dismissed';
+
+/**
+ * sessionStorage flag for the one post-consent reload. The Monetag tag reads
+ * notification permission when it loads, so after a reader grants it we reload
+ * once with permission already granted — that is what turns a permission into a
+ * subscription. Guarded per tab session so a denied-then-retried state can never
+ * loop.
+ */
+export const MONETAG_PUSH_RELOADED_KEY = 'sr:push:reloaded';
 
 /**
  * Dedicated OnClick PopUnder zone (created 2026-09-15) so popunder reporting is

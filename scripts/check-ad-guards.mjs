@@ -27,14 +27,17 @@ const src = readFileSync('src/components/AdRouter.astro', 'utf8');
 const body = src.match(/const js = `\n([\s\S]*?)\n`;/)[1].replace(/\\\\/g, '\\');
 const js = body.replace(/\$\{[^}]*\}/g, '__CFG__');
 
-function makeEnv({ zoneEnabled = true, webdriver = false, sessionHad = false, lastPopunder = 0, ua = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/128 Safari/537.36', geo = 'IN', consent = 'granted', adsOff = false, pushEnabled = true } = {}) {
+function makeEnv({ zoneEnabled = true, webdriver = false, sessionHad = false, lastPopunder = 0, ua = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/128 Safari/537.36', geo = 'IN', consent = 'granted', adsOff = false, pushEnabled = true, pushPermission = 'default', pushDismissed = false, pushReloaded = false, permResult = 'granted' } = {}) {
   const scripts = []; const listeners = {};
   // Push registration is a permission request, not a decoration: record every
   // call so the gate can be asserted synchronously (the real API is async).
   const pushCalls = [];
+  const permCalls = [];
+  const reloads = [];
   const cfg = {
     enabled: true, tag: 'https://quge5.com/88/tag.min.js', multitag: 280401,
     pushZone: 11798846, pushSw: '/sw.js', pushEnabled,
+    pushDismissKey: 'sr:push:dismissed', pushReloadKey: 'sr:push:reloaded',
     popunder: 11805678, popunderZoneEnabled: zoneEnabled, cooldownMs: 43200000,
     popunderTag: 'https://al5sm.com/tag.min.js',
     pubKey: 'sr:pu:ts', sessionKey: 'sr:pu:session', geoKey: 'sr:geo', pageGeo: 'IN',
@@ -42,19 +45,36 @@ function makeEnv({ zoneEnabled = true, webdriver = false, sessionHad = false, la
     aiRefSrc: '$^', aiRefFlags: '', allowPopunder: true, allowMultitag: true, host: 'studyroadmap.in',
   };
   const mk = (init = {}) => { const m = new Map(Object.entries(init)); return { getItem: k => (m.has(k) ? m.get(k) : null), setItem: (k, v) => m.set(k, String(v)), removeItem: k => m.delete(k) }; };
-  const el = (t) => ({ tagName: t, id: '', src: '', dataset: {}, setAttribute(k, v) { this[k] = v; }, remove() {}, getAttribute(k) { return this[k] === undefined ? null : this[k]; } });
+  // Elements need listeners so the opt-in's click path can be exercised: the
+  // whole point of the control is that registration + permission happen inside
+  // the click, so a test that only checks the markup would miss the fix.
+  const el = (t) => {
+    const e = {
+      tagName: t, id: '', src: '', dataset: {}, style: { cssText: '' }, textContent: '', type: '',
+      children: [], handlers: {},
+      setAttribute(k, v) { this[k] = v; }, remove() { const i = nodes.indexOf(this); if (i >= 0) nodes.splice(i, 1); this.removed = true; },
+      getAttribute(k) { return this[k] === undefined ? null : this[k]; },
+      appendChild(c) { this.children.push(c); return c; },
+      addEventListener(t2, f) { (this.handlers[t2] = this.handlers[t2] || []).push(f); },
+      click() { (this.handlers.click || []).forEach(f => f({ preventDefault() {} })); },
+    };
+    return e;
+  };
+  const nodes = [];
   const document = {
     documentElement: { setAttribute() {}, classList: { add() {}, remove() {} } },
-    head: { appendChild: n => scripts.push(n) }, body: { appendChild: n => scripts.push(n) },
-    createElement: el, getElementById: id => scripts.find(s => s.id === id) || null,
+    head: { appendChild: n => { nodes.push(n); scripts.push(n); return n; } },
+    body: { appendChild: n => { nodes.push(n); scripts.push(n); return n; } },
+    createElement: el, getElementById: id => nodes.find(s => s.id === id) || null,
     querySelectorAll: () => [], querySelector: () => null,
     addEventListener: (t, f) => { (listeners[t] = listeners[t] || []).push(f); },
     removeEventListener() {}, cookie: '', readyState: 'complete', referrer: '',
   };
   const win = {
-    document, localStorage: mk(lastPopunder ? { 'sr:pu:ts': String(lastPopunder) } : {}),
-    sessionStorage: mk(sessionHad ? { 'sr:pu:session': '1' } : {}),
-    location: { search: '', href: 'https://studyroadmap.in/exams/neet/', hostname: 'studyroadmap.in' },
+    document, localStorage: mk({ ...(lastPopunder ? { 'sr:pu:ts': String(lastPopunder) } : {}), ...(pushDismissed ? { 'sr:push:dismissed': '1' } : {}) }),
+    sessionStorage: mk({ ...(sessionHad ? { 'sr:pu:session': '1' } : {}), ...(pushReloaded ? { 'sr:push:reloaded': '1' } : {}) }),
+    location: { search: '', href: 'https://studyroadmap.in/exams/neet/', hostname: 'studyroadmap.in', reload: () => reloads.push(true) },
+    Notification: { permission: pushPermission, requestPermission: () => { permCalls.push(true); return Promise.resolve(permResult); } },
     navigator: {
       userAgent: ua,
       webdriver,
@@ -73,9 +93,9 @@ function makeEnv({ zoneEnabled = true, webdriver = false, sessionHad = false, la
     __SR_CONSENT: { state: consent, ads: consent === 'granted', analytics: consent === 'granted' },
   };
   win.window = win;
-  const ctx = vm.createContext({ window: win, document, navigator: win.navigator, location: win.location, localStorage: win.localStorage, sessionStorage: win.sessionStorage, fetch: win.fetch, CustomEvent: win.CustomEvent, setTimeout: win.setTimeout, clearTimeout: win.clearTimeout, requestIdleCallback: win.requestIdleCallback, console, URL, RegExp, Date, Math, JSON });
+  const ctx = vm.createContext({ window: win, document, navigator: win.navigator, location: win.location, localStorage: win.localStorage, sessionStorage: win.sessionStorage, fetch: win.fetch, CustomEvent: win.CustomEvent, setTimeout: win.setTimeout, clearTimeout: win.clearTimeout, requestIdleCallback: win.requestIdleCallback, Notification: win.Notification, console, URL, RegExp, Date, Math, JSON, Promise });
   vm.runInContext(js.replace('__CFG__', JSON.stringify(cfg)), ctx);
-  return { ids: scripts.map(s => s.id).filter(Boolean), scripts, ad: win.__SR_AD, pushCalls };
+  return { ids: scripts.filter(s => s.tagName === 'script' && s.id).map(s => s.id), scripts, ad: win.__SR_AD, pushCalls, permCalls, reloads, storage: win.localStorage, card: () => document.getElementById('sr-push-optin'), clicks: { accept: () => { const c = document.getElementById('sr-push-optin'); const b = c && c.children.find(x => x.tagName === 'div').children.find(x => x.getAttribute('data-sr-push') === 'accept'); if (b) b.click(); return !!b; }, dismiss: () => { const c = document.getElementById('sr-push-optin'); const b = c && c.children.find(x => x.tagName === 'div').children.find(x => x.getAttribute('data-sr-push') === 'dismiss'); if (b) b.click(); return !!b; } }, acceptButton: () => { const c = document.getElementById('sr-push-optin'); return c ? c.children.find(x => x.tagName === 'div').children.find(x => x.getAttribute('data-sr-push')) : null; } };
 }
 
 const HOST = (env, id) => { const s = env.scripts.find(x => x.id === id); return s ? s.src : null; };
@@ -92,16 +112,28 @@ const cases = [
   ['declared crawler           ', { ua: 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)' }, env => env.ids.length === 0 && env.ad.reason === 'crawler'],
   ['popunder switch off        ', { zoneEnabled: false }, env => env.ids.length === 1 && env.ad.popunderSkipped === 'zone-not-serving'],
 
-  // Push-notification worker (zone 11798846): registered for eligible humans
-  // only. Without a worker registered the zone can never serve, and a worker
-  // registered for a bot/opt-out is a permission we had no right to request.
-  ['push worker for humans     ', {}, env => env.pushCalls.length === 1 && env.pushCalls[0].path === '/sw.js' && env.pushCalls[0].scope === '/'],
-  ['push worker not for crawler', { ua: 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)' }, env => env.pushCalls.length === 0 && env.ad.push === 'pending'],
-  ['push worker not for bot    ', { webdriver: true }, env => env.pushCalls.length === 0 && env.ad.push === 'pending'],
-  ['push worker not on opt-out ', { adsOff: true }, env => env.pushCalls.length === 0 && env.ad.push === 'pending'],
-  ['push worker withheld in EEA', { geo: 'DE', consent: 'denied' }, env => env.pushCalls.length === 0 && env.ad.reason === 'consent-denied'],
-  ['push worker after consent  ', { geo: 'DE', consent: 'granted' }, env => env.pushCalls.length === 1 && env.ad.push !== 'pending'],
-  ['push kill switch honoured  ', { pushEnabled: false }, env => env.pushCalls.length === 0 && env.ad.push === 'disabled'],
+  // Push opt-in (zone 11798846). The measured failure mode is a permission
+  // request without a gesture, which browsers suppress or ignore — so the
+  // assertions are (a) a crawler/bot/opt-out/unconsented visitor is never even
+  // offered it, and (b) the offer's accept path performs BOTH the worker
+  // registration and the permission request inside the click. A test that only
+  // checked the markup would pass while the zone stayed dead.
+  ['push offers opt-in to human', {}, env => env.ad.push === 'offered' && !!env.card() && env.pushCalls.length === 0],
+  ['push accept registers worker', {}, env => { env.clicks.accept(); return env.pushCalls.length === 1 && env.pushCalls[0].path === '/sw.js' && env.pushCalls[0].scope === '/'; }],
+  ['push accept asks permission ', {}, env => { env.clicks.accept(); return env.permCalls.length === 1; }],
+  ['push copy names sponsorship  ', {}, env => { const c = env.card(); return !!c && /sponsored/i.test(c.children[0].textContent); }],
+  ['push accept honours denial   ', { permResult: 'denied' }, async env => { env.clicks.accept(); await new Promise(r => setImmediate(r)); return env.ad.push === 'denied' && env.storage.getItem('sr:push:dismissed') === '1'; }],
+  ['push accept grants + reloads ', {}, async env => { env.clicks.accept(); await new Promise(r => setImmediate(r)); return env.ad.push === 'granted' && env.reloads.length === 1; }],
+  ['push reload is once a session ', { pushReloaded: true }, async env => { env.clicks.accept(); await new Promise(r => setImmediate(r)); return env.ad.push === 'granted' && env.reloads.length === 0; }],
+  ['push dismiss is remembered   ', {}, async env => { env.clicks.dismiss(); await new Promise(r => setImmediate(r)); return env.ad.push === 'dismissed' && env.storage.getItem('sr:push:dismissed') === '1' && !env.card(); }],
+  ['push no card for crawler     ', { ua: 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)' }, env => env.ad.push === 'pending' && !env.card() && env.pushCalls.length === 0],
+  ['push no card for bot         ', { webdriver: true }, env => env.ad.push === 'pending' && !env.card() && env.pushCalls.length === 0],
+  ['push no card on opt-out      ', { adsOff: true }, env => env.ad.push === 'pending' && !env.card() && env.pushCalls.length === 0],
+  ['push no card in EEA unconsented', { geo: 'DE', consent: 'denied' }, env => env.ad.reason === 'consent-denied' && !env.card()],
+  ['push no card once dismissed  ', { pushDismissed: true }, env => env.ad.push === 'dismissed' && !env.card()],
+  ['push returning subscriber    ', { pushPermission: 'granted' }, env => env.ad.push === 'registered' && env.pushCalls.length === 1 && !env.card()],
+  ['push never offers on denied  ', { pushPermission: 'denied' }, env => env.ad.push === 'denied' && !env.card() && env.permCalls.length === 0],
+  ['push kill switch honoured    ', { pushEnabled: false }, env => env.ad.push === 'disabled' && env.pushCalls.length === 0 && !env.card()],
 ];
 let bad = 0;
 for (const [name, opts, check] of cases) {
@@ -110,7 +142,7 @@ for (const [name, opts, check] of cases) {
   // the microtask queue so region-dependent cases are asserted after the
   // geo gate has actually run, not while it is still pending.
   await new Promise((r) => setImmediate(r));
-  const ok = check(env);
+  const ok = await check(env);
   if (!ok) bad++;
   console.log(`${ok ? 'PASS' : 'FAIL'}  ${name}  scripts=[${env.ids.join(',')}] reason=${env.ad.reason} skip=${env.ad.popunderSkipped}`);
 }

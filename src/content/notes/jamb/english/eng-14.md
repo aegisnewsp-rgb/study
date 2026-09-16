@@ -11,171 +11,136 @@ topicName: Paragraph and Essay Writing
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.705484"
-lastUpdated: 2026-03-24
+lastUpdated: "2026-09-16"
 diagramPrompt: "Educational diagram illustrating Paragraph and Essay Writing with clear labels, white background, exam-style illustration"
 
 
 
 
 ---
+
 # Paragraph and Essay Writing
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Paragraph and Essay Writing** — Quick Facts
+Paragraph and essay writing is the structured composition skill JAMB UTME tests under Use of English, contributing roughly 4% of the overall score. A *paragraph* is a block of related sentences built around one **topic sentence**; an *essay* is three or more such paragraphs organised as introduction, body, and conclusion. The examiner rewards **unity** (one idea per paragraph), **coherence** (logical flow), and **cohesion** (linking words). Aim for 250 words in the UTME essay, written in formal English without contractions or pidgin.
 
-A paragraph is a group of sentences dealing with one main idea. In JAMB English, you'll encounter questions testing your ability to organise ideas coherently. The four types of essays you must master are: **argumentative**, **narrative**, **descriptive**, and **expository**.
+| Element | Function | JAMB signal |
+|---|---|---|
+| Topic sentence | States the controlling idea | First or second sentence of the paragraph |
+| Supporting sentences | Evidence, examples, reasons (3–5 of them) | Build the body of the paragraph |
+| Concluding/transition sentence | Closes the paragraph and links to the next | Last sentence, often restates the topic |
+| Thesis statement | One-sentence position inside the introduction | Anchors the whole essay |
+| Register | Formal English, no slang or pidgin | Marked on a 1–5 band scale |
 
-**Key paragraph structure rules:**
-- Every paragraph should have a **topic sentence** (usually first), a **developing sentence**, and a **concluding sentence**
-- Use the **PEE method**: Point → Evidence → Explanation
-- Avoid **mixed paragraphs** — one idea per paragraph
-
-**Quick essay formula for JAMB:**
-1. Introduction (2 sentences: hook + thesis statement)
-2. Body (3 paragraphs with PEE structure)
-3. Conclusion (1-2 sentences summarising the argument)
-
-⚡ **JAMB Exam Tip:** In the essay section, candidates often lose marks by not addressing the question directly. Before writing, spend 3 minutes brainstorming **3-5 points** on a mini-outline. JAMB examiners look for **relevance, coherence, and proper paragraphing**.
+> 💡 **High-Yield Memory Hook:** "**U-C-C**" — **Unity**, **Coherence**, **Cohesion**. Think of them as three locked gates the examiner checks in that order before awarding the paragraph a mark.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> For students who want genuine understanding.
+> Standard content for students with a few days to months.
 
-**Paragraph and Essay Writing** — Study Guide
+#### Definition and Scope
+A **paragraph** is a self-contained unit of discourse on a single idea, introduced by a topic sentence and closed by a concluding sentence. An **essay** is an extended composition that strings paragraphs together to argue, explain, describe, or narrate. JAMB UTME English demands both: short paragraph responses in summary/cloze items and a 250-word continuous essay on a given topic.
 
-**Understanding Paragraph Unity**
+#### The Three Pillars of a Good Paragraph
+- **Unity**: every sentence must relate to the topic sentence; any drift to a second idea breaks the paragraph.
+- **Coherence**: ideas must follow a logical order — chronological, cause-effect, general-to-specific, or most-to-least important.
+- **Cohesion**: connectives ("furthermore", "however", "in addition", "consequently", "on the other hand") and reference pronouns ("this", "such", "these") tie sentences together so the reader never feels a jump.
 
-A unified paragraph focuses on one central idea. If you drift to another topic mid-paragraph, you've lost coherence. Here's the test: can you summarise the paragraph in one sentence? If yes, it's unified.
+#### Paragraph Development Methods
+Writers expand the topic sentence using one or more of these techniques:
 
-**Types of Paragraphs:**
+1. **Definition** — explains what the key term means.
+2. **Illustration/example** — gives a concrete case.
+3. **Comparison and contrast** — weighs similarities and differences.
+4. **Cause and effect** — traces reasons to outcomes.
+5. **Classification** — groups items into categories.
+6. **Process analysis** — explains a sequence of steps.
+7. **Enumeration** — lists points, often with "firstly, secondly, finally".
 
-| Type | Purpose | Example Question Stem |
-|------|---------|----------------------|
-| Expository | Explain a concept | "Write an essay on..." |
-| Descriptive | Paint a picture | "Describe your hometown..." |
-| Narrative | Tell a story | "Write a story ending with..." |
-| Persuasive/Argumentative | Convince the reader | "Argue for or against..." |
+#### Essay Architecture
+The standard UTME essay has three macro-parts:
 
-**Transitional Words to Use:**
+- **Introduction** (about 40 words): hook, context, thesis statement.
+- **Body** (two or three paragraphs, 150–170 words): one main idea per paragraph, each opened by its own topic sentence.
+- **Conclusion** (about 40 words): restates the thesis, summarises key points, ends with a recommendation, prediction, or rhetorical question.
 
-- *Addition:* moreover, furthermore, in addition
-- *Contrast:* however, on the other hand, nevertheless
-- *Example:* for instance, specifically, to illustrate
-- *Cause/Effect:* therefore, consequently, as a result
-- *Conclusion:* in summary, ultimately, finally
+#### Comparison Matrix: Formal vs. Informal Register
 
-**Common JAMB Essay Topics (2015–2023 patterns):**
-- "The role of technology in education"
-- "My favourite hobby"
-- "The importance of reading"
-- "Social media and Nigerian youth"
-- "Environmental pollution in Nigerian cities"
+| Feature | Formal register (UTME essay) | Informal register (chat/speech) |
+|---|---|---|
+| Contractions | Avoid — write "do not" | Use freely — "don't" |
+| Vocabulary | Precise, academic, idiomatic | Slang, fillers, pidgin |
+| Sentence style | Complex and compound | Short, fragmentary |
+| Address forms | "One", "people", "students" | "Guys", "bro", "ma" |
+| Punctuation | Full stops, commas, semicolons correct | Often missing or replaced by ellipsis |
+| Tone | Objective, measured | Personal, emotive |
 
-**Marking Scheme Insights:**
-JAMB marks essays on:
-1. **Content** (25%) — relevance and depth of ideas
-2. **Organisation** (25%) — paragraphing, transitions, coherence
-3. **Language** (25%) — grammar, vocabulary, sentence structure
-4. **Mechanics** (25%) — spelling, punctuation, handwriting
+#### Writing Process
+1. **Pre-writing**: read the prompt, brainstorm, list points, sketch an outline.
+2. **Drafting**: write continuously without self-editing.
+3. **Revising**: rewrite sentences, reorder paragraphs, sharpen the thesis.
+4. **Editing**: trim wordy phrases, replace weak verbs, check transitions.
+5. **Proofreading**: scan for spelling, punctuation, capitalisation, and subject-verb agreement in the last five minutes.
 
-⚡ **Common Student Mistake:** Writing fewer than 450 words. JAMB expects a minimum of 450 words for a good score. Write at least 500 to be safe.
+#### 🎯 Exam-Level Worked Problem
+**Question:** *Write an essay on the topic: "The role of youth in nation-building." Your essay should be at least 250 words long and should have a clear introduction, body, and conclusion.* (JAMB UTME, 2019 style)
+
+#### Solution:
+
+1. **Introduction (~40 words):** Begin with a hook — "Nigeria's future rests on the energy and vision of its young people, who make up more than 60% of the population." Follow with a thesis: "When youths are properly guided, they become the engine of national development."
+2. **Body Paragraph 1 — Education and Innovation (~80 words):** Topic sentence: "Education equips young Nigerians with the skills needed to drive innovation." Support with examples (tech hubs in Lagos, Enugu coding clubs, scholarship programmes).
+3. **Body Paragraph 2 — Civic Engagement (~80 words):** Topic sentence: "Active civic participation prevents youth marginalisation." Cite the #EndSARS peaceful protests and INEC's youth ambassador scheme as evidence of responsible engagement.
+4. **Conclusion (~40 words):** Restate the thesis and recommend investment in mentorship programmes, vocational training, and inclusive governance.
+5. **Cohesion devices used:** "furthermore" between paragraph 1 and 2; "consequently" within paragraphs; pronouns "they" and "such" to reference "youths".
+
+> ⚠️ **Examiner Trap:** Candidates frequently drift from *youth and nation-building* into a generic essay on *corruption* or *politics*. The examiner awards unity marks only when every paragraph stays anchored to the youth-development thesis — anything else is marked off as irrelevance.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-**Paragraph and Essay Writing** — Comprehensive Notes
+#### Edge Cases and Subtle Traps
+1. **The "list paragraph" trap** — A paragraph that is just "Firstly… Secondly… Thirdly… Finally…" reads as an outline, not a developed paragraph. Each point still needs an explanatory sentence and a linking connective.
+2. **Run-on paragraphs** — When a candidate writes six sentences covering four different ideas, the examiner marks zero for unity even if the grammar is faultless.
+3. **Comma splices** — Joining two independent clauses with only a comma (e.g. "He studied hard, he passed") is a punctuation error the UTME marker is trained to deduct for.
+4. **Pidgin slip-ins** — Phrases like "the wahala wey dey" or "my guy" inside an otherwise formal essay attract the lowest band score on register.
+5. **Weak topic sentence placement** — Burying the topic sentence as the third or fourth sentence forces the examiner to guess the idea; place it first or second for clarity.
 
-**The Complete Essay-Writing Process**
+#### Connections to Adjacent Topics
+- **Comprehension Passages**: Each answer paragraph mirrors the rules of essay paragraphs — one idea, cohesive flow.
+- **Summary and Cloze**: Recognising topic sentences helps you pick the right main point in summary questions.
+- **Oral English / Register**: A passage written in formal register should be paraphrased in formal English; mixing registers signals weak language control.
+- **Letter Writing** (also tested in UTME): A letter uses block-style paragraphing — each block has one purpose (greeting, request, closing).
 
-**Stage 1: Pre-Writing (5-8 minutes)**
-1. Read the question carefully — identify the **instructional word** (discuss, describe, explain, argue)
-2. Identify the **subject matter** and **scope** (time limit, word limit)
-3. Create a **mind map** or outline with introduction, 3 body points, and conclusion
+#### Advanced Practice Prompts
+1. *Write an argumentative essay of at least 250 words on "Social media does more harm than good to Nigerian students." Plan a thesis, three body paragraphs, and a conclusion before drafting.*
+2. *Rewrite the following run-on paragraph into three unified paragraphs with proper cohesion devices: "Education is important. It gives jobs. Many parents are poor. They cannot pay fees. Government should help. Scholarships exist." Submit the rewrite with a topic sentence for each new paragraph.*
 
-**Stage 2: Writing (35-40 minutes)**
-Follow this structure for argumentative/expository essays:
+#### Quick Self-Check Before Submitting Your UTME Essay
 
-```
-Introduction:
-- Sentence 1: Start with a hook (a question, fact, or quote)
-- Sentence 2: Provide background/context
-- Sentence 3: State your thesis (position on the topic)
+| Check | Action | Time |
+|---|---|---|
+| Word count | Count every 10th word × 25 | 30 seconds |
+| Thesis clarity | Underline it; can a stranger paraphrase it? | 30 seconds |
+| Paragraph unity | Read each paragraph; circle any sentence that drifts | 60 seconds |
+| Cohesion devices | Highlight at least 3 linking words | 30 seconds |
+| Register | Scan for contractions, slang, pidgin | 30 seconds |
+| Spelling/punctuation | Read last sentence backwards to spot errors | 60 seconds |
 
-Body Paragraph 1:
-- Topic sentence: State your first main point
-- Evidence: Give specific example or fact
-- Explanation: Explain how this supports your argument
-- Transition: Connect to next paragraph
+Mastering unity, coherence, cohesion, and register gives you a direct lift on the essay mark, and the same skills feed summary, cloze, and comprehension questions across the UTME English paper.
 
-Body Paragraph 2:
-- Topic sentence: State your second main point
-- Evidence: Give specific example or fact
-- Explanation: Show relevance
+---
 
-Body Paragraph 3:
-- Topic sentence: State your third main point
-- Evidence: Give specific example
-- Explanation: Tie back to thesis
+## Continue your study
 
-Conclusion:
-- Restate thesis in different words
-- Summarise the 3 main points
-- Final thought or call to action
-```
+- **[View this topic in your JAMB UTME roadmap](/roadmap/?exam=jamb&duration=1mo)** — see where "Paragraph and Essay Writing" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=jamb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[JAMB UTME exam overview](/exams/jamb/)** — pattern, eligibility, and syllabus
+- **[All English Language notes](/notes/jamb/english/)** — browse sibling topics in this subject
 
-**Types of Essays and Their Characteristics:**
-
-**1. Argumentative Essay**
-- Takes a clear position on a debatable issue
-- Requires counter-arguments addressed and refuted
-- Must use logical reasoning backed by evidence
-- Nigerian context examples: "Exam malpractice is a threat to national development"
-
-**2. Narrative Essay**
-- Told in chronological order (or with flashback)
-- Uses first-person or third-person narration
-- Must have a clear plot, characters, and climax
-- Should use descriptive language to create atmosphere
-
-**3. Descriptive Essay**
-- Creates a vivid picture using sensory details (sight, sound, smell, touch, taste)
-- Organised spatially (top to bottom, left to right) or by feature
-- Examples: "My grandmother's kitchen", "The Lagos traffic"
-
-**4. Expository Essay**
-- Explains or informs without personal opinion
-- Uses facts, statistics, and examples
-- Clear headings/sub-sections if long
-- Example: "The water cycle explained"
-
-**Cohesive Devices Deep Dive:**
-
-Poor: "Technology is important. Many students use it. It helps learning."
-Better: "Digital tools expand learning access across Nigeria. For instance, secondary school students now stream tutorial videos and access past UTME papers through online platforms. Consequently, study resources are no longer limited to physical classrooms."
-
-**JAMB Essay Word Count and Timing:**
-- Word count target: 500-800 words
-- Time: 40 minutes maximum
-- Introduction: 50-80 words
-- Each body paragraph: 100-150 words
-- Conclusion: 50-80 words
-
-**Exam Pattern Analysis:**
-JAMB English essay questions from 2018-2024 show a preference for:
-- Argumentative essays (60% of questions)
-- Narrative essays (25% of questions)
-- Descriptive essays (15% of questions)
-
-⚡ **Pro Tip:** Always end with a strong concluding sentence that re-echoes your main argument. Examiners often remember the last paragraph most clearly.
-
-**Common Errors to Avoid:**
-1. Writing an introduction longer than the body paragraphs
-2. Changing tense mid-essay
-3. Using informal language (slang, abbreviations like "dnt" or "u")
-4. Introducing new ideas in the conclusion
-5. Forgetting to indent paragraphs (or not leaving clear line breaks)
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

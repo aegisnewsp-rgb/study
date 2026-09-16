@@ -18,13 +18,21 @@
  *   6. Tag AI answer-engine referrals (a human who clicked a citation in
  *      ChatGPT/Perplexity/Copilot/Gemini/Claude) for attribution. AI *crawlers*
  *      are still refused in step 3 — only the referring human is monetized.
- *   7. Register the push-notification service worker (`/sw.js`, zone 11798846)
- *      — but only once the visitor has passed every gate above, because a push
- *      subscription is a marketing permission, not a page decoration. A
- *      crawler, an automation, an opt-out or an unconsented EEA/UK/CH visitor
- *      never gets one. This is what turns the zone's 1,467 dead prerequests
- *      into real requests: the container tag loads the zone, but nothing in it
- *      registers a worker, so until now the zone could never serve.
+ *   7. Offer the push-notification surface (`/sw.js`, zone 11798846) as a
+ *      reader-initiated opt-in — and only once the visitor has passed every gate
+ *      above, because a push subscription is a marketing permission, not a page
+ *      decoration. A crawler, an automation, an opt-out or an unconsented
+ *      EEA/UK/CH visitor is never offered it, and nothing is registered for them.
+ *
+ *      Measured 2026-09-16 (`/data/push-late-register-probe.mjs`): Monetag's tag
+ *      calls `Notification.requestPermission()` on page load with no user
+ *      gesture, which Chromium suppresses into a quiet prompt and Firefox/Safari
+ *      ignore outright — so the zone accumulated 1,502 prerequests and zero
+ *      subscriptions. The fix is not the worker (an earlier note here claimed
+ *      the tag's `sw=` parameter was worker-dependent; it is the tag's own bundle
+ *      version and appears even when `/sw.js` 404s) but the gesture: the reader
+ *      clicks, and the worker registration *and* the permission request both
+ *      happen inside that click via `offerPush()`.
  *
  * Everything is observable at runtime through `window.__SR_AD`, which the
  * 30-minute review job and QA journeys assert against.
@@ -38,6 +46,8 @@ import {
     MONETAG_PUSH_ZONE,
     MONETAG_PUSH_SW_PATH,
     MONETAG_PUSH_ENABLED,
+    MONETAG_PUSH_DISMISS_KEY,
+    MONETAG_PUSH_RELOADED_KEY,
     POPUNDER_COOLDOWN_MS,
     POPUNDER_SESSION_KEY,
     POPUNDER_STORAGE_KEY,
@@ -64,6 +74,8 @@ const config = {
     pushZone: MONETAG_PUSH_ZONE,
     pushSw: MONETAG_PUSH_SW_PATH,
     pushEnabled: MONETAG_PUSH_ENABLED,
+    pushDismissKey: MONETAG_PUSH_DISMISS_KEY,
+    pushReloadKey: MONETAG_PUSH_RELOADED_KEY,
     popunder: MONETAG_POPUNDER_ZONE,
     popunderZoneEnabled: MONETAG_POPUNDER_DEDICATED_ENABLED,
     popunderTag: MONETAG_POPUNDER_TAG_SRC,
@@ -92,6 +104,7 @@ const js = `
         multitag: false,
         push: 'pending',
         pushScope: '',
+        pushPermission: '',
         popunder: false,
         popunderSkipped: '',
         aiReferred: false,
@@ -206,29 +219,164 @@ const js = `
         return !!(state.visitorGeo && cfg.restricted.indexOf(state.visitorGeo) !== -1);
     }
 
-    // ---- push-notification service worker --------------------------------
-    // The push sub-zone cannot serve without a registered worker (measured
-    // 2026-09-16: registering one flips the tag to its worker-backed request).
-    // Registration is deliberately last and deliberately gated: it happens
-    // only inside startAds(), i.e. after the crawler, automation, opt-out and
-    // consent gates have all passed. A failure here must never affect ads, so
-    // every branch is caught and recorded on state instead of thrown.
+    // ---- push-notification opt-in (zone 11798846) -------------------------
+    //
+    // What this zone needs, in order: a registered worker, a *granted*
+    // notification permission, and Monetag's tag turning that permission into a
+    // subscription. Measured on 2026-09-16:
+    //
+    //   * the tag calls Notification.requestPermission() on load with no user
+    //     gesture. Chromium suppresses that into a quiet prompt
+    //     (kGestureGatedNotificationMessage) and Firefox/Safari need the gesture
+    //     outright, so nobody subscribes — 1,502 prerequests, 0 subscriptions.
+    //   * the tag's `sw=` query parameter is its own bundle version and is
+    //     present even when /sw.js 404s, so it is not a signal we can use.
+    //
+    // Hence: a reader-initiated opt-in. The worker registration and the
+    // permission request both happen inside the click, which is what supplies
+    // the gesture. Everything is gated behind startAds(), so a crawler, an
+    // automation, an opt-out or an unconsented EEA/UK/CH visitor never sees the
+    // control and never gets a worker registered on their behalf.
+    var PUSH_ID = 'sr-push-optin';
+
+    function pushSupported() {
+        return !!(w.Notification && w.Notification.requestPermission &&
+            navigator.serviceWorker && navigator.serviceWorker.register);
+    }
+
+    function pushDismissed() {
+        try { return w.localStorage.getItem(cfg.pushDismissKey) === '1'; } catch (e) { return false; }
+    }
+
+    function removePushCard() {
+        var el = d.getElementById(PUSH_ID);
+        if (el && el.remove) el.remove();
+    }
+
     function registerPushWorker() {
-        if (!cfg.pushEnabled) { state.push = 'disabled'; return; }
-        if (!navigator.serviceWorker || !navigator.serviceWorker.register) {
-            state.push = 'unsupported';
-            return;
-        }
+        return navigator.serviceWorker.register(cfg.pushSw, { scope: '/' })
+            .then(function (reg) {
+                state.pushScope = (reg && reg.scope) || '';
+                return reg;
+            });
+    }
+
+    // The tag reads permission when it loads, so after a grant we reload once
+    // (per tab session) with the permission already in place. Without this the
+    // granted permission sits unused until the reader happens to come back.
+    function reloadOnceForPush() {
         try {
-            navigator.serviceWorker.register(cfg.pushSw, { scope: '/' })
-                .then(function (reg) {
-                    state.push = 'registered';
-                    state.pushScope = (reg && reg.scope) || '';
-                })
-                .catch(function () { state.push = 'failed'; });
+            if (w.sessionStorage.getItem(cfg.pushReloadKey) === '1') return;
+            w.sessionStorage.setItem(cfg.pushReloadKey, '1');
+        } catch (e) { return; }
+        try { if (w.location && w.location.reload) w.location.reload(); } catch (e) {}
+    }
+
+    // Called from the click. The permission request is issued synchronously so
+    // it runs inside the gesture; the worker registration rides along with it.
+    function acceptPush(ev) {
+        if (ev && ev.preventDefault) ev.preventDefault();
+        removePushCard();
+        registerPushWorker().catch(function () { state.push = 'failed'; });
+        state.push = 'requesting';
+        var asked;
+        try {
+            asked = w.Notification.requestPermission();
         } catch (e) {
             state.push = 'failed';
+            return;
         }
+        Promise.resolve(asked).then(function (res) {
+            state.pushPermission = String(res || '');
+            if (res === 'granted') {
+                state.push = 'granted';
+                reloadOnceForPush();
+            } else if (res === 'denied') {
+                // A denial is an answer. Never ask this browser again.
+                try { w.localStorage.setItem(cfg.pushDismissKey, '1'); } catch (e) {}
+                state.push = 'denied';
+            } else {
+                state.push = 'dismissed-prompt';
+            }
+        }).catch(function () { state.push = 'failed'; });
+    }
+
+    function dismissPush(ev) {
+        if (ev && ev.preventDefault) ev.preventDefault();
+        try { w.localStorage.setItem(cfg.pushDismissKey, '1'); } catch (e) {}
+        removePushCard();
+        state.push = 'dismissed';
+    }
+
+    function makePushButton(id, label, handler) {
+        var b = d.createElement('button');
+        b.type = 'button';
+        b.textContent = label;
+        if (b.setAttribute) b.setAttribute('data-sr-push', id);
+        b.addEventListener('click', handler, { once: true });
+        return b;
+    }
+
+    // The offer itself. Deliberately plain and honest: these notifications carry
+    // Monetag's sponsored messages, so the copy says so. Describing them as
+    // "exam reminders" would be the misleading-prompt pattern that Chrome's
+    // abusive-notification enforcement and the ad-network policies both act on.
+    function offerPush() {
+        if (!cfg.pushEnabled) { state.push = 'disabled'; return; }
+        if (!pushSupported()) { state.push = 'unsupported'; return; }
+        if (pushDismissed()) { state.push = 'dismissed'; return; }
+        if (state.push === 'offered' || d.getElementById(PUSH_ID)) {
+            state.push = 'offered';
+            return;
+        }
+        if (!d.body) { state.push = 'offered'; return; }
+
+        var card = d.createElement('div');
+        card.id = PUSH_ID;
+        card.setAttribute('role', 'region');
+        card.setAttribute('aria-label', 'Notification settings');
+        card.style.cssText = 'position:fixed;left:12px;right:12px;bottom:12px;z-index:40;' +
+            'max-width:420px;margin:0 auto;padding:12px 14px;border-radius:12px;' +
+            'background:#fff;color:#111;box-shadow:0 8px 24px rgba(0,0,0,.18);' +
+            'border:1px solid rgba(0,0,0,.08);font:14px/1.45 system-ui,sans-serif';
+
+        var text = d.createElement('p');
+        text.textContent = 'Get exam updates and sponsored alerts from StudyRoadmap. ' +
+            'You can turn them off any time in your browser settings.';
+        text.style.cssText = 'margin:0 0 10px';
+
+        var row = d.createElement('div');
+        row.style.cssText = 'display:flex;gap:8px;flex-wrap:wrap';
+        row.appendChild(makePushButton('accept', 'Turn on notifications', acceptPush));
+        row.appendChild(makePushButton('dismiss', 'Not now', dismissPush));
+
+        card.appendChild(text);
+        card.appendChild(row);
+        d.body.appendChild(card);
+        state.push = 'offered';
+    }
+
+    // Entry point from startAds(). A returning subscriber already granted
+    // permission: re-register the worker so delivery keeps working, and do not
+    // ask again. Everyone else gets the offer.
+    function startPush() {
+        if (!cfg.pushEnabled) { state.push = 'disabled'; return; }
+        if (!pushSupported()) { state.push = 'unsupported'; return; }
+        var perm = '';
+        try { perm = String(w.Notification.permission || ''); } catch (e) {}
+        state.pushPermission = perm;
+        if (perm === 'granted') {
+            registerPushWorker()
+                .then(function () { state.push = 'registered'; })
+                .catch(function () { state.push = 'failed'; });
+            return;
+        }
+        if (perm === 'denied') {
+            // Already refused at browser level; an offer would be dead UI.
+            state.push = 'denied';
+            return;
+        }
+        offerPush();
     }
 
     var started = false;
@@ -241,7 +389,7 @@ const js = `
         idle(function () {
             load('sr-monetag', cfg.multitag);
             state.multitag = true;
-            registerPushWorker();
+            startPush();
         }, 3500);
         decidePopunder();
     }

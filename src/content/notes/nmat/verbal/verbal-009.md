@@ -8,7 +8,7 @@ topicName: Logical Reasoning in Verbal
 weight: 3
 country: philippines
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-14"
+lastUpdated: "2026-09-16"
 ---
 
 # Logical Reasoning in Verbal
@@ -16,71 +16,116 @@ lastUpdated: "2026-07-14"
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Logical Reasoning** in the NMAT Verbal section tests how well you dissect short arguments, complete logical patterns, and judge whether a conclusion truly follows from its premises. Every item presents a compact stimulus — a two-line argument, a syllogism, a word-pair analogy, or a coded series — and asks you to apply a single rule of formal logic.
+**Logical Reasoning in Verbal** is the sub-section of NMAT's Verbal Ability that tests argument analysis without numbers. It rewards two skills: recognising *why* a conclusion follows from its premises, and *whether* a conclusion is forced (deduction) or only probable (induction). Most items fall into six formats — syllogisms, analogies, statement–conclusion, statement–assumption, statement–argument, and logical-fallacy identification.
 
-#### Must-know item types
-- **Syllogisms:** All A are B / No A are B / Some A are B / Some A are not B.
-- **Must Be True / Could Be True / Cannot Be True:** conclusion strength is graded, not binary.
-- **Statement–Assumption vs Statement–Conclusion:** assumption is hidden; conclusion is drawn.
-- **Strengthen / Weaken:** the right answer adds new evidence or attacks the link, not the topic.
-- **Logical analogies:** cause-effect, part-whole, function, degree, opposite.
+| Term | NMAT Meaning | Watch-out |
+|---|---|---|
+| Premise | A stated fact the argument rests on | In many papers hidden inside long sentences |
+| Assumption | An unstated belief required for the argument to hold | "Necessarily assumed" ≠ " assumed" |
+| Inference | A statement that must be true given the premises | Must follow *necessarily*, not probably |
+| Conclusion | The claim the argument tries to establish | Sometimes the first sentence, not the last |
 
-> Tip: In syllogisms, draw a quick two-circle Venn diagram — it kills "some" vs "all" confusion in under 20 seconds.
+> 💡 **High-Yield Memory Hook:** **"PASS-DAC-FRAME"** — the eight recurring LR formats in NMAT Verbal: **P**remise-spotting, **A**ssumption, **S**yllogism, **S**tatement-conclusion, **D**eduction, **A**nalogy, **C**ause-effect, **F**allacy + **R**ecourse-of-action + **A**rgument-strength + **M**ust-be-true + **E**ffect. Use this checklist when a passage looks unfamiliar.
+
+Core rule for every item: if the answer choice adds information not contained in the premises, discard it — NMAT wants conclusions that are *contained in* the given material.
+
+---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-The Verbal sub-score carries roughly **3% of the NMAT composite**, yet logical reasoning items dominate the *quality* of that sub-score because most test-takers over-rely on vocabulary drills. Each logical-reasoning item hides one inferential move: classify that move first, then answer.
+#### Deductive vs Inductive Reasoning
 
-#### The standard question patterns
-- **Main-point / conclusion** — locate the sentence the rest of the argument supports.
-- **Assumption** — the unstated premise that, if removed, collapses the argument.
-- **Strengthen / Weaken** — evidence that makes the link tighter or looser.
-- **Must Be True vs Could Be True** — validity is a matter of *necessity*, not plausibility.
-- **Logical fallacies** — ad hominem, straw man, false cause, hasty generalization, circular reasoning, appeal to authority.
+NMAT syllogism items follow classical categorical logic. A valid deductive argument has a conclusion that **must** follow; if even one counter-example exists, the syllogism is invalid. Inductive items (generalisations, predictions, cause-effect) yield only probable conclusions, so answer choices claiming certainty are traps.
 
-#### Syllogism validity at a glance
-
-| Form | Example | Valid move |
+| Reasoning Type | Conclusion Status | NMAT Test Cue |
 |---|---|---|
-| All A are B; All B are C | All cats are mammals; All mammals are animals | All A are C ✓ |
-| Some A are B; All B are C | Some students are scholars; All scholars read | Some A read (C) ✓ |
-| All A are B; No B is C | All dogs are mammals; No mammal is fish | No A is C ✓ |
-| Some A are B; Some B are C | — | No guaranteed link ✗ |
+| Deductive (Syllogism) | Necessarily true or necessarily false | "All/Some/No… are", "Therefore", "It follows that" |
+| Inductive | Probably true / probably false | "Likely", "May", "Suggests", "Most plausible" |
+| Analogy | Same logical relation between two pairs | "A is to B as C is to…" — match *relation*, not surface words |
 
-> Trap: "Some" never upgrades to "All" and never reverses direction. Treat "some" as **at least one, possibly all**.
+#### The Four Standard Syllogism Moods
 
-#### Exam pointers
-- Read the **conclusion line first**, then map each premise to it.
-- For assumption items, ask: "If this premise were false, would the conclusion still hold?" If yes, it is not an assumption.
-- For analogies, name the relationship (*X is to Y as P is to Q because…*) before scanning options.
-- On NMAT, expect 8–12 logical-reasoning items mixed with reading-comprehension passages — pacing at ~45 sec/item.
+Memorise these four valid forms — roughly 70% of NMAT deductive items use one of them.
+
+- **Barbara** — All A are B; All B are C; ∴ All A are C.
+- **Celarent** — No A are B; All C are A; ∴ No C are B.
+- **Darii** — All A are B; Some C are A; ∴ Some C are B.
+- **Ferio** — No A are B; Some C are A; ∴ Some C are not B.
+
+Any form with an "All" conclusion drawn from premises containing only "Some" is automatically invalid.
+
+#### Concept Comparison Matrix
+
+| Question Type | What You Must Pick | Strongest Answer Looks Like… | Weakest Answer Looks Like… |
+|---|---|---|---|
+| Assumption | Something unstated but required | Bridges premise directly to conclusion | Adds a new fact or weakens the link |
+| Conclusion | A statement necessarily implied | Stays inside the premise set | Introduces outside data or "probably" |
+| Argument | A statement supporting the conclusion | Directly addresses the main claim | Side-issue, popularity appeal, or analogy |
+| Course of Action | The most logical administrative step | Feasible, addresses root cause | Cosmetic, vague, or off-topic |
+| Cause / Effect | Most plausible cause or effect | Logical chain from the event | Coincidence framed as causation |
+
+#### 🎯 Exam-Level Worked Problem
+
+**Question:** *"All managers are planners. Some planners are not auditors. Therefore, some managers are not auditors."*
+
+Which of the following correctly evaluates the conclusion?
+(A) The conclusion follows necessarily.
+(B) The conclusion is probably but not necessarily true.
+(C) The conclusion is invalid because "Some planners are not auditors" does not guarantee the non-auditor planners are also managers.
+(D) The conclusion is invalid because the premise "All managers are planners" is irrelevant.
+
+#### Solution:
+
+Step 1 — Identify the syllogism form. Major premise: All M are P. Minor premise: Some P are not A. Proposed conclusion: Some M are not A.
+
+Step 2 — Test the middle term. "P" is distributed in the major premise (All M are P) and partially distributed in the minor premise (Some P are not A). The middle term is **not distributed in at least one premise in the required pattern**, so the form is invalid.
+
+Step 3 — Build the Venn check. Draw three circles — M inside P (because all managers are planners), and a separate zone of P that falls outside A (because some planners are not auditors). That outside-A zone of P can sit entirely outside M, which means we cannot conclude anything about M and A from the given premises.
+
+Step 4 — Choose the option that captures this. Option (C) states the precise logical gap: the non-auditor planners can all be non-managers.
+
+> ⚠️ **Examiner Trap:** Students pick (B) because the conclusion "sounds reasonable." NMAT deductive items demand *categorical* certainty — "probably true" answers are correct only when the question stem asks about an inductive conclusion. Here the premise pattern forces invalidity.
+
+---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-Mastery of Logical Reasoning in Verbal comes from recognizing the *inferential skeleton* beneath surface wording. Philippine review centers (CEM, Centerspace) recycle the same five skeletons with new vocabulary, so pattern recognition beats raw vocabulary size.
+#### Advanced Traps in Statement–Argument Items
 
-#### Edge cases that decide top percentiles
-- **Necessity vs sufficiency:** an assumption must be *necessary*; a strengthener is anything *sufficient* to raise probability.
-- **Conditional chains:** "If P then Q. If Q then R." The only guaranteed inference is **P → R**; the converse is never valid.
-- **Disjunction traps:** "Either A or B" plus "Not A" gives B; but "Either A or B" plus "A" gives **no** information about B unless exclusivity is stated.
-- **Implicit statements:** choose the option that *every reasonable reader* must agree with, not the one that merely sounds reasonable.
-- **Course-of-action items:** the best step is the one that *directly addresses the cause* and lies within the actor's authority.
+1. **Plausibility bias** — An argument that "sounds reasonable" but addresses a different conclusion than the one stated.
+2. **Direction reversal** — The argument supports the *opposite* of the conclusion (pro vs. con confusion).
+3. **Scope drift** — The argument shifts from a specific context to a general one, or vice versa.
+4. **Quoted-statistic illusion** — Numbers cited without a comparable baseline cannot evaluate the claim.
+5. **False dichotomy** — "Either X or Y" framing when a third option logically exists.
 
-#### Worked micro-example
-**Stimulus:** *"Since Company X launched its mobile app, foot traffic in its physical stores has dropped 20%. Therefore, the app is the primary cause of declining in-store sales."*
+#### Quantifier and Modality Rules
 
-- **Assumption:** No other major change (price hikes, competitor entry, seasonal dip) occurred in the same window.
-- **Strengthener:** A matched control store in a similar mall saw flat traffic while X's dropped.
-- **Weakening statement:** X also raised prices by 15% during the launch month.
-- **Logical flaw risked:** *Post hoc, ergo propter hoc* — confusing sequence with causation.
+| Phrase | Logical Force | NMAT Treatment |
+|---|---|---|
+| All / Every / No / None | Universal, definite | Conclusion valid only if premise also universal |
+| Some / A few / Many | Existential, partial | Cannot yield a universal conclusion |
+| Most / In most keys / In most cases | Inductive, probable | "Definitely true" answer choices are wrong |
+| May / Can / Can | Possibility only | Supports only probability, never certainty |
 
-#### Practice prompts
-1. **Syllogism:** "All poets are dreamers. Some dreamers are scientists." Which follows — (a) Some poets are scientists, (b) Some scientists are dreamers, (c) No poet is a scientist, (d) Cannot be determined? *Answer: (b).*
-2. **Strengthen/Weaken:** A city claims new speed cameras reduced accidents by 30%. Which statement *most weakens* the claim — fewer cars on road that year, or the cameras were installed only on the safest streets?
+#### Edge Cases Worth Memorising
 
-> Common mistake: selecting a plausible real-world cause instead of the one the argument *itself* requires. Stick to the text, not your worldview.
+- "Some A are B" does **not** imply "Some B are A" (conversion is invalid in classical logic).
+- A valid conclusion from "All A are B" is "Some B are A" (existential conversion under Boolean interpretation).
+- In Cause-and-Effect items, the *most plausible* cause must precede the effect in time and be independently sufficient — correlation is not enough.
+- In Course-of-Action items, reject any step that creates a new problem larger than the original.
+
+#### Connection to Adjacent Topics
+
+Logical Reasoning sits beside **Reading Comprehension** in NMAT Verbal; RC passages in many papers embed a 2–3 line mini-LR argument about the author's claim. The same premise/conclusion discipline applies, so the "contained in the passage" rule carries directly into RC inference questions. NMAT also tests **Pattern Recognition** separately under Quantitative, so resist the urge to compute — LR-in-Verbal is strictly verbal.
+
+#### Two Advanced Practice Prompts
+
+1. **Analogy drill:** "CANDIDATE : ELECTION :: APPLICANT : ?" — the correct relational answer maps *person seeking a position* to *the selection process*, not the selection body.
+2. **Fallacy drill:** "This policy reduced traffic in Manila, so we should adopt it nationwide." — Identify the fallacy (hasty generalisation from a single-city result) and rewrite the conclusion with the required qualifier.
+
+---
 
 ## Continue your study
 
@@ -89,5 +134,4 @@ Mastery of Logical Reasoning in Verbal comes from recognizing the *inferential s
 - **[NMAT (Philippines) exam overview](/exams/nmat/)** — pattern, eligibility, and syllabus
 - **[All Verbal notes](/notes/nmat/verbal/)** — browse sibling topics in this subject
 
----
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

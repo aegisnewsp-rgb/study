@@ -16,104 +16,106 @@ lastUpdated: "2026-09-16"
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Cardiovascular drugs** are pharmacotherapeutic agents that act on the heart, vasculature, and renal/endocrine systems to manage hypertension, ischaemic heart disease, heart failure, arrhythmias, dyslipidaemia, and thromboembolic disease. Under the SAPC competency framework (Pharmacy Act 53 of 1974), dispensing these agents requires schedule awareness (S2–S7) and counselling skill.
+Cardiovascular (CV) drugs are pharmacotherapeutic agents used to prevent or treat hypertension, ischaemic heart disease, heart failure, arrhythmias, dyslipidaemia, and thromboembolic disease. Under the SAPC scope of practice (Pharmacy Act 53 of 1974), dispensing these agents requires sound knowledge of **indications, contraindications, adverse effects, drug–drug and drug–food interactions, and patient counselling**.
 
-#### Must-Know Equations
+| Class | Suffix / Example | Key Counselling Anchor |
+|---|---|---|
+| ACE inhibitors | **-pril** (enalapril) | Dry cough, hyperkalaemia, teratogenic |
+| ARBs | **-sartan** (losartan) | Monitor potassium, no cough |
+| Beta-blockers | **-olol** (atenolol) | Bradycardia, do not stop abruptly |
+| Calcium-channel blockers | **-dipine** (amlodipine) | Ankle oedema, grapefruit |
+| Statins | **-statin** (atorvastatin) | Myalgia, evening dosing |
+| Anticoagulants | warfarin, rivaroxaban | INR 2.0–3.0, bleeding risk |
 
-| Formula | Expression | Units | Variables |
-|---|---|---|---|
-| Mean Arterial Pressure | MAP = DBP + (SBP − DBP) / 3 | mmHg | DBP = diastolic BP; SBP = systolic BP |
-| Cardiac Output | CO = HR × SV | L/min | HR = heart rate (beats/min); SV = stroke volume (mL/beat) |
-| Stroke Volume (Frank–Starling) | SV = EDV − ESV | mL | EDV = end-diastolic volume; ESV = end-systolic volume |
-| Corrected QT (Bazett) | QTc = QT / √RR | ms | QT (ms); RR interval (s) |
-| CrCl (Cockcroft–Gault, female) | CrCl = [(140 − age) × weight / (72 × SCr)] × 0.85 | mL/min | age (yr); weight (kg); SCr (mg/dL) |
+> 💡 **High-Yield Memory Hook:** **"ABCDS"** of CV therapy — **A**CEi/ARBs, **B**eta-blockers, **C**alcium-channel blockers, **D**iuretics, **S**tatins. Suffix tells the class: **-pril = ACEi, -sartan = ARB, -dipine = CCB, -olol = β-blocker, -statin = lipid-lowering**.
 
-- **Suffix rule:** `-pril` = ACE inhibitor (cough, hyperkalaemia); `-sartan` = ARB (no cough).
-- **INR target:** 2.0–3.0 for AF/VTE; 2.5–3.5 for mechanical mitral valves.
-- **Statins** competitively inhibit HMG-CoA reductase; baseline LFTs and CK are mandatory.
-
-> 💡 **High-Yield Memory Hook:** **"ABCDE-S"** for main drug classes — **A**CEi/ARBs, **B**eta-blockers, **C**alcium-channel blockers, **D**iuretics, **E**mbolism prophylaxis (anticoagulants/antiplatelets), **S**tatins. Pair with the warning **"PRIL coughs, SARTAN doesn't"** to lock the suffix distinction.
+Two equations worth memorising: **MAP = DBP + (SBP − DBP)/3** and **CO = HR × SV**, because they explain why beta-blockers lower blood pressure (reduced HR × SV).
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-#### Drug Classification Matrix
+#### Drug Classes and Mechanisms
 
-| Class | Examples | Mechanism | Signature Adverse Effect | Key Counselling |
-|---|---|---|---|---|
-| ACE inhibitors | Enalapril, perindopril | Block AT-I → AT-II conversion | Dry cough, hyperkalaemia, angioedema | Avoid K⁺-sparing diuretics; monitor creatinine |
-| ARBs | Losartan, valsartan | Block AT-II at AT₁ receptor | Hyperkalaemia (no cough) | Renally dose-adjust |
-| Beta-blockers | Metoprolol (β₁), propranolol (non-selective) | ↓ HR, ↓ contractility, ↓ renin | Bradycardia, bronchospasm, fatigue | Do not stop abruptly; mask hypoglycaemia |
-| Calcium-channel blockers | Amlodipine (DHP), verapamil (non-DHP) | Block L-type Ca²⁺ channels | Flushing, ankle oedema (DHP); constipation (verapamil) | Grapefruit interaction with DHPs |
-| Thiazide diuretics | Hydrochlorothiazide | Distal tubule Na⁺/Cl⁻ cotransporter | Hypokalaemia, hyponatraemia, hyperuricaemia | Take in morning; monitor electrolytes |
-| Loop diuretics | Furosemide | Inhibit Na⁺/K⁺/2Cl⁻ cotransporter | Ototoxicity, hypokalaemia | IV infusion rate matters |
-| Statins | Simvastatin, atorvastatin | Competitive HMG-CoA reductase inhibitor | Myalgia, rhabdomyolysis, ↑LFTs, new-onset DM | Avoid grapefruit; report muscle pain |
-| Warfarin | — | Inhibits vitamin K epoxide reductase | Bleeding, skin necrosis | INR monitoring; consistent vitamin K intake |
-| DOACs | Rivaroxaban, apixaban, dabigatran | Direct factor Xa or IIa inhibitors | Bleeding (no INR monitoring needed) | Adherence critical (short half-life) |
-| Nitrates | Isosorbide mononitrate | NO-mediated venodilation | Headache, reflex tachycardia, tolerance | Provide daily nitrate-free interval |
-| Antiarrhythmics (Vaughan-Williams) | Class I–IV | I: Na⁺ block; II: β-block; III: K⁺ block (amiodarone); IV: Ca²⁺ block | Class-specific; amiodarone = multi-organ toxicity | Baseline TSH, LFTs, CXR, eye exam for amiodarone |
+The five major groups, their molecular targets, and Schedule awareness are listed below. **ACE inhibitors** (e.g. enalapril, perindopril) block angiotensin-converting enzyme, reducing angiotensin II and aldosterone, lowering systemic vascular resistance. **ARBs** (losartan, valsartan) block the AT₁ receptor directly — useful when ACEi-induced cough is intolerable. **CCBs** split into dihydropyridines (amlodipine, nifedipine — vascular selective) and non-dihydropyridines (verapamil, diltiazem — cardiac selective, negative inotrope). **Thiazide diuretics** (hydrochlorothiazide) and **loop diuretics** (furosemide) reduce preload and afterload; potassium-sparing agents (spironolactone) antagonise aldosterone and are evidence-based in heart failure.
 
-#### Mechanism Highlights
+#### Concept Comparison Matrix
 
-- **ACE inhibitors** reduce angiotensin II (vasoconstrictor) and increase bradykinin — the bradykinin accumulation explains the cough and angioedema risk.
-- **ARNIs** (sacubitril/valsartan) combine neprilysin inhibition (↑natriuretic peptides) with ARB blockade — contraindicated with concurrent ACEi due to angioedema risk (require 36-hour washout).
-- **SGLT2 inhibitors** (e.g., empagliflozin) — although classed as antidiabetics, they are now guideline-recommended in HFrEF for cardiovascular mortality reduction.
-- **Amiodarone defies neat classification**: it has Class I, II, III, and IV properties; monitor TFTs, LFTs, pulmonary function, and ophthalmology.
+| Feature | ACE Inhibitors | ARBs | Direct Renin Inhibitors |
+|---|---|---|---|
+| Suffix | -pril | -sartan | -kiren (aliskiren) |
+| Site of action | Blocks ACE | Blocks AT₁ receptor | Blocks renin |
+| Angiotensin II level | ↑ (made but not acted on) | ↑ (made, AT₁ blocked) | ↓ |
+| Cough / angioedema | Yes (bradykinin) | Rare | Rare |
+| First-dose hypotension | Yes | Less common | Yes |
+
+| Anticoagulant | INR Monitoring | Key Interaction | Schedule (RSA) |
+|---|---|---|---|
+| Warfarin | Yes, target 2.0–3.0 | Vitamin K foods, NSAIDs, amiodarone, TMP-SMX | S5 (oral) |
+| Rivaroxaban / Apixaban (DOAC) | No | CYP3A4 / P-gp inhibitors (azole antifungals) | S5 |
+| Dabigatran (DOAC) | No | P-gp inhibitors; antacids ↓ absorption | S5 |
+| Enoxaparin (LMWH) | Anti-Xa (if needed) | Less than UFH | S4 (injection) |
+
+#### Therapeutic Targets
+
+- **Blood pressure:** <140/90 mmHg uncomplicated; <130/80 mmHg in diabetes, CKD, or high CV risk (SA Hypertension Society 2024 guidance).
+- **LDL cholesterol:** <1.8 mmol/L in established atherosclerotic CV disease, <1.4 mmol/L in very-high-risk patients.
+- **INR:** 2.0–3.0 for AF and VTE; **2.5–3.5** for mechanical mitral valves.
+- **Digoxin serum level:** 0.5–2.0 ng/mL.
 
 #### 🎯 Exam-Level Worked Problem
 
-**Question:** A 67-year-old man with atrial fibrillation, hypertension, and chronic kidney disease (eGFR 38 mL/min/1.73 m²) presents with new bilateral ankle oedema and flushing two weeks after starting antihypertensive therapy. His current regimen includes enalapril 10 mg daily, rivaroxaban 20 mg daily, and a newly prescribed antihypertensive. Which drug is the *most likely* cause, and what is the correct management step?
+**Question:** A 67-year-old man on **warfarin 5 mg daily**, **atorvastatin 40 mg nocte**, **enalapril 10 mg daily**, and **amiodarone 200 mg daily** for AF presents with a rising INR (4.8). His diet is unchanged. Which drug interaction is the most likely cause?
+
+(a) ACE inhibitor–statin interaction  
+(b) Amiodarone potentiating warfarin via CYP2C9 inhibition  
+(c) Atorvastatin inducing warfarin metabolism  
+(d) Enalapril displacing warfarin from albumin
 
 #### Solution:
+1. Recall warfarin is a racemic mixture metabolised by **CYP2C9** (S-warfarin, more potent) and CYP3A4 / CYP1A2 (R-warfarin).
+2. **Amiodarone** is a potent **CYP2C9, CYP2D6, and CYP3A4 inhibitor** with a half-life of 50–100 days; it increases warfarin effect by 50–100% and bleeding risk for weeks after discontinuation.
+3. Evaluate options: (a) is incorrect — no clinically relevant ACEi–statin interaction raises INR. (c) is the opposite of reality — atorvastatin is *not* an enzyme inducer. (d) is wrong — warfarin is highly protein-bound but enalapril does not displace it meaningfully.
+4. **Correct answer: (b).** Recommended action: reduce warfarin dose by 30–50%, recheck INR in 5–7 days, counsel on bleeding signs.
 
-1. **Identify the offender** — Ankle oedema and flushing are the hallmark adverse effects of **dihydropyridine calcium-channel blockers** (e.g., **amlodipine**). Reflex vasodilation of pre-capillary arterioles increases hydrostatic pressure in dependent capillaries.
-2. **Check renal dosing** — Rivaroxaban should be reduced to **15 mg daily** when CrCl is 15–49 mL/min; at eGFR 38 this patient is overdosed and at bleeding risk.
-3. **Pharmacist action** — (a) Refer back to prescriber for antihypertensive substitution (e.g., ACEi up-titration or add low-dose thiazide); (b) flag the rivaroxaban dose; (c) counsel on adherence and report new bleeding.
-4. **Apply MAP formula to verify BP control** — if BP 158/96, MAP = 96 + (158−96)/3 = 115 mmHg (target < 130/80 in high-risk CKD patient per SA Hypertension Society).
-
-> ⚠️ **Examiner Trap:** Candidates often blame **enalapril** for the oedema. ACEi cause angioedema (face/lips), not dependent ankle swelling. The ankle oedema from CCBs does **not** respond to diuretics because the mechanism is pre-capillary, not fluid-overload oedema.
+> ⚠️ **Examiner Trap:** Many candidates choose (d) because "protein binding" sounds plausible. Warfarin displacement interactions are rarely clinically significant at steady state because compensatory clearance adjustments occur. The amiodarone–warfarin interaction is the *high-yield* one — remember amiodarone's half-life persists for months after stopping.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-#### Therapeutic Monitoring Targets
+#### Edge Cases and Pharmacist-Critical Counselling
 
-| Drug/Parameter | Target | Action Outside Range |
-|---|---|---|
-| Warfarin INR (AF, VTE) | 2.0–3.0 | Adjust weekly dose by 5–20%; check adherence and vitamin K intake |
-| Warfarin INR (mechanical mitral) | 2.5–3.5 | Bridge with LMWH if subtherapeutic before surgery |
-| Digoxin | 0.5–2.0 ng/mL | Hold if > 2.0; check K⁺ (hypokalaemia ↑ toxicity) |
-| BP (essential HTN, SAHS) | < 140/90 mmHg | Add second agent if < 20/10 mmHg drop on monotherapy |
-| BP (high-risk: CKD, DM) | < 130/80 mmHg | Intensify lifestyle + pharmacotherapy |
-| QTc | < 450 ms (men), < 470 ms (women) | Withdraw offending drug; correct electrolytes |
-| Statin LFTs (ALT) | < 3× ULN | Continue and recheck; if symptomatic, stop |
-| Statin CK | < 10× ULN without symptoms | Continue; > 10× ULN or symptomatic = stop |
+**Nitrate tolerance:** Continuous transdermal glyceryl trinitrate causes reflex tachycardia and tolerance within 24 hours. Schedule a **nitrate-free interval of 10–12 hours daily** (usually overnight) to preserve efficacy.
 
-#### Advanced Traps and Edge Cases
+**Amiodarone's polypharmacology:** Although classified Vaughan-Williams **Class III**, amiodarone has Class I, II, III, and IV properties. Monitoring requires baseline and 6-monthly **TSH, LFTs, chest X-ray, and ophthalmic review** — corneal microdeposits, pulmonary fibrosis, hepatotoxicity, and thyroid dysfunction (both hypo- and hyper-) are the classical adverse effects.
 
-1. **Non-DHP CCBs (verapamil, diltiazem) + beta-blocker** = risk of severe bradycardia and AV block — avoid combination without specialist oversight.
-2. **Statin + macrolide (clarithromycin/erythromycin) + ciclosporin** = CYP3A4 inhibition raises statin levels → rhabdomyolysis. Use azithromycin or temporarily withhold statin.
-3. **ACEi in bilateral renal artery stenosis** = precipitate acute kidney injury by blocking efferent arteriolar constriction that maintains GFR.
-4. **Warfarin–antibiotic interactions** — metronidazole, TMP-SMX, fluconazole potentiate warfarin; rifampicin induces CYP2C9 and reduces effect.
-5. **Nitrate tolerance** — continuous 24-hour exposure blunts effect; isosorbide mononitrate must be dosed asymmetrically (e.g., 8 am, with nitrate-free interval overnight).
-6. **Digoxin in CKD** — primarily renally excreted; reduce dose and check levels; toxicity presents with nausea, yellow-green halos, and arrhythmias (bidirectional VT is classic).
-7. **Pregnancy contraindications** — ACEi, ARBs, and direct renin inhibitors are teratogenic (2nd/3rd trimester); labetalol, methyldopa, nifedipine are preferred.
+**Statin safety:** Beyond myalgia, monitor for **rhabdomyolysis** (CK >10× ULN), **transaminase elevation** (baseline LFTs), and **new-onset diabetes** (fasting glucose at baseline and annually). Simvastatin 80 mg carries the highest myopathy risk — avoid concurrent CYP3A4 inhibitors (clarithromycin, azoles, protease inhibitors).
 
-#### SAPC-Specific Pharmacist Responsibilities
-
-- **Schedule awareness:** Aspirin 75–150 mg = S2; atorvastatin = S4 (prescription); warfarin = S5 (prescription + INR record).
-- **Prescription validation:** Confirm dose, frequency, duration, and renal/hepatic adjustment before dispensing.
-- **Counselling triggers:** New chronic CVD medication = schedule adherence, lifestyle (DASH diet, smoking cessation, 150 min/week exercise), adverse-effect recognition.
-- **Pharmacovigilance:** Report serious adverse reactions via the South African Health Products Regulatory Authority (SAHPRA) ADR reporting form.
+**Digoxin toxicity:** Predisposed by **hypokalaemia**, **renal impairment** (CrCl <30 mL/min — use Cockcroft-Gault: **CrCl = [(140 − age) × weight] / (72 × SCr)** × 0.85 for females), and drugs reducing renal clearance (amiodarone, verapamil, spironolactone). Toxic features include nausea, xanthopsia, confusion, and arrhythmias — treat with digoxin-specific antibody fragments (Digibind).
 
 #### Advanced Practice Prompts
 
-1. A patient on **warfarin** eats a plate of spinach every day. His INR is consistently subtherapeutic at 1.6. Explain the pharmacokinetic basis and provide one counselling intervention that respects cultural diet while restoring therapeutic INR.
-2. A 58-year-old HFrEF patient (LVEF 28%) is on enalapril, bisoprolol, spironolactone, and furosemide. Their GP adds **sacubitril/valsartan**. Outline the washout, monitoring, and counselling points, including the biochemical (NT-proBNP, K⁺) trajectory you would expect over 3 months.
+1. A patient on **rivaroxaban 20 mg daily** for AF develops a *CrCl of 28 mL/min*. What dose adjustment is required, and which lab should be checked before re-dosing?
+2. Explain why **spironolactone** improves mortality in NYHA Class III–IV heart failure despite being labelled a "potassium-sparing diuretic" — what receptor is antagonised, and what monitoring must the pharmacist arrange?
+
+#### Common Mistakes in SAPC-style Questions
+
+| Mistake | Correct Principle |
+|---|---|
+| Treating "-pril" and "-sartan" as interchangeable | Different suffixes = different mechanisms and AE profiles |
+| Assuming all beta-blockers are cardio-selective | Propranolol is **non-selective** — avoid in asthma |
+| Giving a single INR target for warfarin | Target **depends on indication** (2.0–3.0 vs 2.5–3.5) |
+| Stating nitrates cause bradycardia | Nitrates cause **reflex tachycardia** + headache |
+| Calling amiodarone "Class III only" | Amiodarone has **all four** Vaughan-Williams properties |
+
+#### Connections to Adjacent Topics
+
+- **Renal pharmacology:** ACEi/ARBs in CKD — monitor creatinine and potassium within 1–2 weeks of initiation.
+- **Endocrine:** SGLT2 inhibitors (empagliflozin, dapagliflozin) now have first-line indications in HFrEF regardless of diabetic status.
+- **Antimicrobials:** Macrolides (clarithromycin, erythromycin) and azoles potentiate statins and warfarin — a frequent community-pharmacy interaction screen.
 
 ---
 
@@ -124,5 +126,4 @@ lastUpdated: "2026-09-16"
 - **[SAPC (South Africa) exam overview](/exams/sa-pharm/)** — pattern, eligibility, and syllabus
 - **[All Pharmacy notes](/notes/sa-pharm/pharmacy/)** — browse sibling topics in this subject
 
----
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

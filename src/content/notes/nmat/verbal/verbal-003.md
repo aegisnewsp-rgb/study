@@ -8,7 +8,7 @@ topicName: Subject-Verb Agreement
 weight: 3
 country: philippines
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-09-15"
+lastUpdated: "2026-09-16"
 ---
 
 # Subject-Verb Agreement
@@ -16,85 +16,95 @@ lastUpdated: "2026-09-15"
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Subject-Verb Agreement** is the grammar rule that the **subject** of a sentence and its **predicate verb** must match in **number** (singular ↔ singular, plural ↔ plural). NMAT Philippines Verbal items test this rule most often through *Error Identification* and *Sentence Correction*, so a single number-mismatch can flip the right answer.
+Subject-Verb Agreement (SVA) is the rule that the **predicate verb** must match the **subject** in number (singular vs plural) and person. In NMAT Philippines Verbal, SVA appears inside sentence-correction, error-identification, and fill-in-the-blank items; one missed agreement often flips a choice.
 
-| Subject type | Example | Required verb form |
+#### Core Rule in One Line
+
+A singular subject → singular verb (is, has, does, was); a plural subject → plural verb (are, have, do, were). The trap is that words between the subject and verb (especially **of-phrases**) trick the eye.
+
+| Subject Type | Always Takes | Example Verb |
 |---|---|---|
-| Singular noun phrase | *The box of chocolates* / *Each student* | **is, has, does** |
-| Plural noun phrase | *The boxes* / *Many students* | **are, have, do** |
-| Indefinite pronoun (singular) | *Everyone, each, neither, somebody* | singular verb |
-| Compound with **and** | *The doctor and the nurse* | plural verb |
+| Each, every, either, neither, anyone, everybody, nobody, somebody, no one | Singular | is / has / was |
+| Both, few, many, several | Plural | are / have / were |
+| All, any, none, some, most (followed by *of-phrase*) | Matches the *of*-object | varies |
+| Collective nouns (team, committee, jury) — American style | Singular when acting as a unit | has / is |
 
-> 💡 **High-Yield Memory Hook:** **SVA = Subject First, Verb Next.** Before you choose a verb, physically circle the **head noun** of the subject. Ignore every noun that sits inside an *of-phrase*, *along with*, or *together with* — those are decoys, not the subject.
+> 💡 **High-Yield Memory Hook:** **"Find the true subject, ignore the crowd."** Cross out every prepositional phrase (especially *of…*) before deciding singular vs plural — the verb follows the **head noun**, not the nearest noun.
+
+#### Must-Know Quick Pairs
+
+- *A number of* students **are** absent ≠ *The number of* students **is** growing.
+- *Neither the teacher nor the students* **are** present (verb agrees with the nearer subject).
+- *The box of chocolates* **is** on the table (singular *box*, not plural *chocolates*).
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-#### Core Number-Concordance Rule
-A **singular subject** (one countable entity or a fixed-singular pronoun) takes a **singular verb**; a **plural subject** takes a **plural verb**. The verb form changes only with third-person-singular present tense (*He runs*, not *He run*) and with the auxiliary **be** (*is/was* vs *are/were*). NMAT items rarely test past-tense agreement — they target the present-tense mismatch because that is where distractors hide.
+SVA items on the NMAT Verbal section test four predictable patterns: (1) agreement masked by intervening phrases, (2) agreement with indefinite pronouns, (3) compound subjects joined by *and/or/nor*, and (4) the *number of* vs *a number of* distinction. Recognising the pattern in 8–10 seconds is the difference between a 50% and an 85% accuracy on these items.
 
-#### Indefinite Pronouns — Fixed-Number Categories
-Indefinite pronouns carry built-in number. Memorising the categories removes half the distractor noise.
+#### The Four Mechanisms Behind the Errors
 
-| Category | Pronouns | Verb number |
+1. **Number concordance.** Singular NP → singular verb; plural NP → plural verb. The subject, not any modifier, controls the verb.
+2. **Rule of proximity** (with *or/nor/either…or/neither…nor*). The verb agrees with the **nearest** subject: *Neither the manager nor the staff **were** available.*
+3. **Intervention masking.** Prepositional phrases — particularly *of*-phrases — sit between subject and verb and pull the eye toward a different noun.
+4. **Fixed-form subjects.** Titles, sums, distances, fractions, and "the number of" lock into singular regardless of the plural-looking *of*-object.
+
+#### Comparison Matrix — Easily Confused Pairs
+
+| Structure | Verb Rule | NMAT Trap |
 |---|---|---|
-| Always singular | *each, every, either, neither, one, anyone, everybody, nobody, somebody, no one, anyone, anything, everything, nothing* | singular |
-| Always plural | *both, few, many, several* | plural |
-| Depends on the *of-phrase* | *all, any, none, some, most, more* | singular if *of-phrase* is singular, plural if plural |
+| *each / every / either / neither* + of-phrase | Singular verb | Students choose plural because the *of*-object is plural |
+| *a number of* + plural noun | Plural verb | Confused with *the number of* |
+| *the number of* + plural noun | Singular verb | Confused with *a number of* |
+| Collective noun + action as a unit (AmE) | Singular verb | Treating *family/team* as automatically plural |
+| Compound subject with *and* | Plural verb | One subject is singular → writer "fixes" it to singular |
+| Compound subject with *or / nor* | Agrees with nearer subject | Defaulting to plural because two nouns appear |
+| *subject* + *as well as / along with / together with* + noun | Agrees with **first** subject | Pluralising because a second noun is present |
+| Subject after *Here / There / Where* (inversion) | Agrees with the **real** subject after the verb | Defaulting to singular because the sentence starts with *Here is…* |
 
-#### Compound Subjects and the Proximity Rule
-Two nouns joined by **and** form a **plural compound subject** → plural verb. Two nouns joined by **or** or **nor** trigger the **rule of proximity**: the verb agrees with the **nearest** subject alone. *Neither the teacher nor the students ARE present* is correct because *students* is nearest and plural.
-
-#### Intervening Phrases Are Decoys
-When a singular head noun is separated from its verb by a prepositional phrase (commonly *of the …*, *along with …*, *together with …*, *as well as …*), the verb still agrees with the head noun, not the closest noun. *The box of chocolates **is** on the table* — *chocolates* does not control the verb.
+> 📌 **Formula Check:** Although SVA has no algebraic formula, the working formula is **V_number = S_number**, where V_number ∈ {singular, plural} and S_number is determined by the head noun of the subject NP — *not* by the nearest noun to the verb.
 
 #### 🎯 Exam-Level Worked Problem
-**Question:** *"A number of applicants ______ already submitted their transcripts, although the number of completed files ______ still low."*
-A. has … is
-B. have … are
-C. have … is
-D. has … are
+
+**Question:** Choose the option that corrects the agreement error.
+
+> *The quality of the imported fruits (A) have (B) deteriorated (C) since the cold chain (D) was compromised.*
 
 #### Solution:
-1. Parse the first clause: *A number of applicants ___ already submitted.* The fixed phrase **"a number of"** functions as an indefinite quantifier meaning *several*; therefore *applicants* (plural head noun) takes a plural verb → **have**.
-2. Parse the second clause: *the number of completed files ___ still low.* The phrase **"the number of"** points to a specific quantity (singular concept); therefore **"is"** is correct.
-3. Combine: *have … is* → **Option C**.
+1. Identify the head noun of the subject: *The quality of the imported fruits*. The head noun is **quality** (singular); *of the imported fruits* is a prepositional modifier.
+2. Apply the rule: a singular subject takes a singular verb — **has**, not *have*.
+3. Map to options: (A) is the position where the verb sits → it must read *has*.
+4. The corrected sentence: *The quality of the imported fruits **has** deteriorated since the cold chain was compromised.*
 
-> ⚠️ **Examiner Trap:** Most test-takers pick **B** because *applicants* and *files* both look plural. The trap lies in the **fixed phrase**: *a number of* ≠ *the number of*. Mark the idiom first, the noun second.
+> ⚠️ **Examiner Trap:** Students see the plural noun *fruits* right next to the blank and pick *have*. The skill is to **strip the prepositional phrase** before deciding. Same trap pattern appears in *A box of pencils **is***, *The list of names **was***, *The mayor along with the councilors **has***.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-#### Advanced Traps and Edge Cases
+Beyond the four standard patterns, the NMAT Verbal section occasionally surfaces edge cases — agreement after there/here inversion, fractions, gerund-phrase subjects, and the indefinite pronoun *none* — where the rule has a default plus a permissible variant. Mastering these separates a candidate stuck in the 60th percentile from one finishing above the 85th.
 
-| Construction | Naïve choice | Correct verb | Why |
-|---|---|---|---|
-| *The committee has decided.* | have | has | American-English NMAT style treats a unified collective as singular. |
-| *Fifty dollars is too much.* | are | is | Sums of money, distances, periods of time treated as one unit take singular verbs. |
-| *Here are the files you requested.* | is | are | Inverted sentences place the verb before the subject; identify the true subject after the verb. |
-| *Mathematics is my weakest subject.* | are | is | Titles of academic subjects and *-ics* nouns (mathematics, physics, news) are singular. |
-| *The teacher, along with the students, was present.* | were | was | *Along with*, *together with*, *as well as* are parenthetical — they do not alter number. |
-| *Each of the runners has finished.* | have | has | *Each* is always singular; the *of-phrase* does not flip its number. |
+#### Advanced Traps and Exceptions
 
-#### Collective Nouns in NMAT Context
-NMAT items lean toward **American editorial style**, in which collective nouns default to singular when the group acts as one unit (*The jury **has** reached a verdict*) and shift to plural only when individual members are explicitly acting apart (*The jury **have** given their individual opinions*). British exam conventions, which pluralise collectives more liberally, are **not** the test's default — choose the singular reading unless the sentence forces individuality.
+1. **Indefinite pronoun *none*.** Strictly singular in formal AmE (*None of the water **is** clean*), but plural is accepted when the *of*-object is plural and a plural meaning is intended (*None of the students **were** ready*). NMAT prefers the singular reading.
+2. **Fractions and percentages.** *Two-thirds of the vote **was*** counted (vote as a unit) vs *Two-thirds of the voters **were*** counted (individuals). Decide based on the *of*-object.
+3. **Gerund / infinitive / clause subjects.** *Running the marathon **is*** exhausting. *That the team lost **was*** surprising. These always take singular verbs regardless of any plural noun inside the clause.
+4. **Titles of works.** *The Philippines: A Natural History **is*** on the shelf — singular even when the title contains a plural noun.
+5. **There / Here inversion.** Find the subject **after** the verb: *There **are** two reasons*, *Here **is** the report*, *Where **are** the forms*.
+6. *Each / every* in compound subjects. *Each student and teacher **has*** a badge — *each* distributes singular agreement across the entire compound.
+7. **Collective nouns in British vs American style.** AmE (used in NMAT) treats *team / committee / jury / family* as singular when the body acts as a unit; treat individual members acting separately as plural.
 
-#### Inverted Sentences and Existential *There*
-Sentences opening with *There is / There are*, *Here comes / Here come*, or fronted adverbials invert the normal order. The verb must agree with the **logical subject** that follows the verb, not with the introductory word. *There **are** several reasons* is correct because *reasons* (plural) follows *are*.
+#### High-Value Drill Prompts
 
-#### Relative Pronouns as Connectors
-When *who, which,* or *that* introduces a relative clause, the verb agrees with the **antecedent** of the pronoun, not with the pronoun itself. *She is one of the doctors who **work** night shifts* — *who* refers to *doctors* (plural), so the verb is plural. The classic trap: students pick singular *works* because the surface noun closest to the verb is *one*.
+1. Rewrite the sentence correctly and identify the rule: *The results of the laboratory analysis have shown a measurable decline in efficacy.*
+2. Explain why *Neither the director nor the actors were ready for rehearsal* is grammatically acceptable, while *Neither the actors nor the director was ready for rehearsal* would also be acceptable — and why the meaning shifts.
 
-#### Adjacent Topic Links
-Subject-Verb Agreement overlaps directly with **Pronoun-Antecedent Agreement** (singular *each* demands singular pronouns later in the sentence), **Tense Consistency** (present-tense subjects still need present-tense verbs after a past-tense narrative shift), and **Parallelism** in compound predicates. Strong NMAT scorers treat these three sub-skills as one cluster.
+> 📌 **Formula Check (extended):** For inverted sentences, the decision rule is **V_number = real_subject_number**, where *real_subject* is recovered by reading past the introductory *There / Here / Where*. For *none*, the default in NMAT-style formal AmE is **singular**, so apply V = singular unless the *of*-object forces a clearly plural referent.
 
-#### Advanced Practice Prompts
-1. Identify and correct the agreement error: *"The quality of the imported goods have declined sharply since the new regulations took effect."*
-2. Choose the correct verb pair: *"Neither the principal nor the parents ______ consulted about the schedule change, and the list of concerns ______ growing longer."* — *have been / is* vs *has been / are* vs *have been / are* vs *has been / is*.
+> ⚠️ **Examiner Trap:** On inversion items, candidates lock in *is* because the sentence begins with *There is…* — the verb must instead match the noun that follows. On *none* items, candidates reflexively choose plural because *none* feels "more than one"; formal AmE defaults to singular.
 
 ---
 

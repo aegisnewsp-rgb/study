@@ -16,121 +16,117 @@ lastUpdated: "2026-09-16"
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-Vocabulary Building for NMAT (Philippines) covers the word knowledge you need to crack **Analogies**, **Sentence Completion**, and **Reading Comprehension** in the Verbal subtest of NMAT by CEM (Center for Educational Measurement, Inc.). The fastest gains come from mastering high-frequency Greek/Latin roots, the five context-clue types, and the distinction between **denotation** (literal meaning) and **connotation** (emotional tone).
+Vocabulary Building for NMAT (Philippines) Verbal means actively expanding your **English word stock** — Greek/Latin roots, prefixes, suffixes, collocations, idioms, and the denotation–connotation split — so you can crack Analogies, Reading Comprehension (RC), Sentence Completion, and Sentence Equivalence items faster. NMAT by CEM tests medical-context reading, so academic and biomedical vocabulary dominates.
 
-| Term | Quick Definition | NMAT Use |
+| Core area | What it does | Quick example |
 |---|---|---|
-| Root (Etymology) | Core meaning unit, usually Greek or Latin (e.g., *bene* = good) | Decodes 1,000+ derivatives |
-| Prefix / Suffix | Word part attached before/after the root | Signals negation or word class |
-| Denotation | Dictionary meaning | Exact-fit analogy choices |
-| Connotation | Emotional/attitudinal meaning | Tone and nuance items |
-| Collocation | Words that habitually pair (*draw a conclusion*) | RC and idiom recognition |
+| Root + affix | Decode an unfamiliar term | `bene-` (good) + `volent` (wishing) → **benevolent** |
+| Context clue | Infer meaning from sentence signals | "She was *loquacious*, never silent in class" |
+| Denotation vs. connotation | Pick the precise shade of meaning | `slim` (positive) vs. `skinny` (negative) |
+| Collocation / idiom | Recognise fixed pairings | "draw a conclusion", "bear in mind" |
+| Analogy relation | Match the stem's relationship | `hot : scalding :: cold : _____` |
 
-- ~30–40 high-yield roots carry you through most unfamiliar NMAT stems.
-- Five context-clue types rescue you when no answer choice is a known word.
-- Negative prefixes (*un-, in-, im-, dis-, non-*) flip meaning instantly — check them first.
-
-> 💡 **High-Yield Memory Hook:** **"Big BEN Stamps Co."** → **B**ene = good, **EN** = in, **S**tamps (chrono) = time, **Co** = with. Pair with the rhyme "Roots tell class, prefixes flip, suffixes type the part of speech" to recall morphology roles in under 10 seconds at the test desk.
+> 💡 **High-Yield Memory Hook:** **"RADS-CID"** for the six tested analogy relations — **R**elationship type, **A**ntonym, **D**egree, **S**ynonym, **C**ause–effect, **I**tem–class, **D**egree-part. Reading the stem as RADSCID first prevents the most common trap: matching a synonym pair when the stem actually wants cause–effect or part–whole.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-#### Core Mechanism: How to Decode Any NMAT Word
-NMAT items test **active recall under time pressure**, not memorised lists. The workable method is morphology first, context second, connotation third. Break the unfamiliar word into **root + prefix + suffix**, assign a grammatical category, then read the surrounding sentence for the five context clues: *definition*, *synonym*, *antonym/contrast*, *example*, and *inference*. This sequence works in both paper and computer-based NMAT formats because it mirrors how CEM constructs distractors.
+#### What NMAT Verbal Actually Tests
+NMAT by CEM (Center for Educational Measurement, Inc., the official administrator) uses English Vocabulary in multiple item formats. Accuracy on Analogies and Sentence Completion drops sharply when root knowledge is weak, because 30–40% of distractors are near-synonyms whose only difference is connotation or register.
 
-#### Concept Comparison Matrix: Easily Confused Pairs
+> 📌 **Formula Check:** `Accuracy ≈ (Roots known × Context-clue coverage) ÷ Total options`. Mastering ~30 high-frequency roots typically lifts analogy accuracy from chance (25%) to 70%+ on four-option stems.
 
-| Pair | Denotation Difference | Memory Cue |
+#### The Five Context-Clue Types
+When a passage contains an unfamiliar word, look for these signals in order:
+
+1. **Definition / restatement** — comma, dashes, or "which means" directly restate the meaning.
+2. **Synonym** — a nearby word or phrase carries the same sense.
+3. **Contrast / antonym** — "unlike", "however", "whereas" flip the meaning.
+4. **Example** — "such as", "for instance" clarify by instance.
+5. **Inference** — the surrounding logic implies the meaning.
+
+> 💡 **High-Yield Memory Hook:** **"D-C-E-I-S"** — **D**efinition, **C**ontrast, **E**xample, **I**nference, **S**ynonym. Reading in that order mirrors how the writer typically embeds the clue.
+
+#### Etymology Cheat-Sheet (High-Frequency Roots)
+
+| Root | Meaning | Sample derivatives |
 |---|---|---|
-| allude / elude | *allude* = refer indirectly; *elude* = escape | "Allude" has "allusion"; "elude" has "escape" |
-| affect / effect | *affect* (v) = influence; *effect* (n) = result | **RAVEN**: **R**esult = Noun, **A**ffect = **V**erb, **E**ffect = N**E**nding-as-Noun |
-| discrete / discreet | *discrete* = separate; *discreet* = careful | Discrete has many "e's" → many *parts*; discreet keeps *secrets* |
-| imply / infer | *imply* = hint (speaker); *infer* = conclude (listener) | The speaker **i**mplies; the hearer **i**nfers — and **i**nfer has an "**i**n" from inside |
-| fewer / less | *fewer* for countables; *less* for uncountables | "10 items or fewer" sign at stores |
+| `bene-` (L) | good | benevolent, beneficial, beneficiary |
+| `mal-` (L) | bad | malevolent, malady, malfeasance |
+| `chrono-` (Gk) | time | chronic, synchronous, chronology |
+| `morph-` (Gk) | form | morphology, metamorphosis, amorphous |
+| `photo-` (Gk) | light | photosynthesis, photoreceptor, photophobic |
+| `path-` (Gk) | feeling/disease | pathology, sympathy, apathetic |
+| `auto-` (Gk) | self | autonomic, autonomy, autograph |
+| `hyper-` / `hypo-` | over / under | hypertension, hypothermia, hypothesis |
 
-#### High-Yield Root List (NMAT-Frequency)
+#### Concept Comparison Matrix
 
-| Root | Meaning | Sample Word |
+| Pair | Denotation (literal) | Connotation (attitude) |
 |---|---|---|
-| bene-, bon- | good | benevolent, bonus |
-| mal- | bad | malevolent, malice |
-| chrono- | time | chronology, synchronize |
-| morph- | form | metamorphosis, morphology |
-| photo-, luc- | light | photosynthesis, lucid |
-| anthropo- | human | anthropology, misanthrope |
-| auto- | self | autonomy, autocrat |
-| bio- | life | biology, biography |
-| log-, logo- | word/study | logic, logology |
-| -able / -ible | capable of | portable, legible |
-| -tion / -ment / -ity | noun-forming | formation, argument, acuity |
-| -ous / -ive / -al | adjective-forming | luminous, active, lateral |
-| -ize / -ate | verb-forming | harmonize, radiate |
+| `slim` / `skinny` | both = thin | slim = positive/skinny = negative |
+| `economical` / `cheap` | both = low-cost | economical = prudent/cheap = stingy |
+| `steadfast` / `stubborn` | both = unyielding | steadfast = admirable/stubborn = pejorative |
+| `childlike` / `childish` | both = of a child | childlike = innocent/childish = immature |
+| `assert` / `insist` | both = state firmly | assert = neutral/insist = demanding |
 
-#### Five Context-Clue Types
-
-1. **Definition/Restatement** — the sentence itself defines the word (*"Ephemeral, that is, short-lived, blooms..."*).
-2. **Synonym** — a nearby word restates the meaning in plainer terms.
-3. **Antonym/Contrast** — a word or clause signals the opposite (*"Unlike his taciturn brother, Marco was..."*).
-4. **Example** — a concrete illustration clarifies the abstract term.
-5. **Inference/Logic** — surrounding facts let you deduce meaning; no cue word required.
+Suffix morphology also signals grammar: `-tion`, `-ment`, `-ity`, `-ness` form **nouns**; `-ous`, `-able`, `-ive`, `-al` form **adjectives**; `-ize`, `-ate`, `-fy` form **verbs**.
 
 #### 🎯 Exam-Level Worked Problem
-**Question:** Choose the word most nearly opposite in meaning to *BENEVOLENT*.
-(A) malevolent (B) indifferent (C) beneficent (D) magnanimous (E) auspicious
+#### Question:
+Choose the word most similar in meaning to **BENEVOLENT**.
+
+A) Malicious  
+B) Charitable  
+C) Ambiguous  
+D) Ambivalent  
 
 #### Solution:
-- Step 1: Morphology — root *bene-* = good; suffix *-volent* from Latin *velle* (wish). Literal core: "wishing good."
-- Step 2: Required relation — "most nearly **opposite** in meaning" → antonym pair required; degree and connotation must match.
-- Step 3: Compare options.
-  - (A) *malevolent* = wishing ill → exact antonym, shared Latin suffix *-volent*.
-  - (B) *indifferent* = lacking concern → weaker (degree mismatch, not strict opposite).
-  - (C) *beneficent* = doing good → synonym, wrong direction.
-  - (D) *magnanimous* = generous-spirited → synonym family, wrong direction.
-  - (E) *auspicious* = favourable omen → unrelated, connotation off.
-- Step 4: Pick **(A) malevolent**. Parallel root-suffix match guarantees highest fidelity.
 
-> ⚠️ **Examiner Trap:** Students pick **(B) indifferent** thinking "the opposite of caring is not caring." CEM marks *indifferent* as a distractor because it shifts from *active malevolence* (same strength as benevolent) to *passive neutrality* — that is a *degree* shift, not a true antonym. Always match the **intensity** of the stem word before matching direction.
+1. Decode the root: `bene-` (L, good) + `-volent` (willing).
+2. Literal meaning = "well-wishing", i.e., showing goodwill toward others.
+3. Compare options:
+   - A) Malicious → `mal-` root = **bad-wishing** — direct antonym.
+   - B) Charitable → giving, generous, well-wishing — **matches**.
+   - C) Ambiguous → unclear — unrelated meaning.
+   - D) Ambivalent → mixed feelings — unrelated.
+4. **Answer: B (Charitable).**
+
+> ⚠️ **Examiner Trap:** Option A (Malicious) is the planted antonym. Students who forget the root `mal-` (bad) versus `bene-` (good) flip to the wrong pole. Always confirm the root **before** scanning options — the test-maker deliberately pairs benevolent ↔ malicious in the same stem.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-#### Analogy Relationship Types in NMAT
+#### Edge Cases and Frequent Traps
 
-| Relation | Stem Pattern | Example |
+| Trap | What it looks like | How to dodge |
 |---|---|---|
-| Synonym | A : B :: C : ? | HIDDEN : CONCEALED :: obvious : ? |
-| Antonym | A : B :: C : ? | ABUNDANT : SCANT :: present : ? |
-| Part : Whole | A : B :: C : ? | WING : BIRD :: petal : ? |
-| Cause : Effect | A : B :: C : ? | RAIN : FLOOD :: drought : ? |
-| Function | A : B :: C : ? | KEY : UNLOCK :: lens : ? |
-| Degree | A : B :: C : ? | TEPID : SCALDING :: cool : ? |
-| Sequence | A : B :: C : ? | Dusk : DARK :: dawn : ? |
-| Characteristic | A : B :: C : ? | LION : FIERCE :: ox : ? |
+| Negation prefixes missed | "not ungracious" → reads as "rude" but means "gracious" | Strip every `un-`, `in-`, `im-`, `non-`, `dis-` before matching meaning. |
+| Connotation drift across derivatives | benevolent vs. beneficial vs. beneficiary — same root, different POS | Check part of speech first; noun ≠ adjective ≠ verb. |
+| Homophone confusion | "allude / elude", "discrete / discreet", "affect / effect" (verb vs. noun) | Memorise the short pair list below. |
+| Polysemy overload | "discharge" (release a patient / fire a weapon / fulfil a duty) | Read the sentence subject — patient vs. soldier vs. agent. |
+| Register mismatch | "kids" (informal) used in a formal stem | Stick with academic register in your answer choice. |
 
-#### Edge Cases and Advanced Traps
+#### High-Priority Confusables for NMAT
 
-| Trap | Description | Counter-Strategy |
-|---|---|---|
-| Polysemy drift | A stem uses a rare meaning of a familiar word (*"the bank of the river"*) | Verify the gloss in context before matching |
-| False cognate pair | Words look related by root but diverge (*"benevolent"* and *"beneficial"* share *bene-* yet differ grammatically and semantically) | Check suffix category (-volent vs. -ficial) |
-| Negation from prefix | *un-, in-, im-, dis-, non-* flips meaning; missing it causes 70% of confusables errors | Circle every negative prefix before matching |
-| Connotation ≠ Denotation | "Childlike" (positive) vs. "childish" (negative); denotations are similar | Note the speaker's tone in the sentence |
-| Homophone substitution | *principle/principal*, *cite/sight/site* | Read choices aloud to catch sound-alikes |
-| Register mismatch | Slang for formal stem, or vice versa (*"sick" = ill vs. cool) | Match NMAT academic register always |
-| Collocational inversion | Reversing fixed pair (*"strong coffee" ≠ "powerful coffee" though close) | Memorise the standard pairing |
+- **allude** (refer indirectly) ↔ **elude** (escape).
+- **affect** (verb: to influence) ↔ **effect** (noun: result).
+- **discrete** (separate) ↔ **discreet** (tactful).
+- **complement** (complete) ↔ **compliment** (praise).
+- **imply** (hint, speaker → listener) ↔ **infer** (deduce, listener → speaker).
 
 #### Connection to Adjacent Topics
-Vocabulary Building feeds directly into **Reading Comprehension inference** (unknown words slow passage reading by 8–12 seconds per instance at testing pace), **Sentence Completion polarity** (negation cues depend on prefix recognition), and **Analogical Reasoning** (relationship classification). Treat vocab as a multiplier — gains here raise accuracy across every Verbal item type without extra question-specific prep.
+Strong vocabulary multiplies efficiency across the whole Verbal subtest: **Reading Comprehension** becomes faster when biomedical stems like *pathology*, *ischemia*, *etiology* appear; **Sentence Completion** (single- and double-blank GRE-style stems that NMAT mirrors) relies on collocation sense ("spontaneous" not "spontaneousness"); **Analogies** are unsolvable in under 30 seconds without root decoding. A single 1,500-word personal deck drawn from past NMAT reviewers (IVTLERE, RLE, CSA) reviewed with spaced repetition covers roughly 85% of recurring stems.
 
 #### Advanced Practice Prompts
-1. **Word-family audit:** Take the *bene-* family (*benevolent, beneficial, benefactor, beneficiary, benediction, beneficence*). Rank them by grammatical category, then by connotation strength from formal/liturgical to secular. Note how *-volent* always carries moral wishing, while *-ficial* carries productive effect — this contrast appears in NMAT analogy stems.
-2. **Passage diagnostic:** Pick any NMAT-style RC passage and underline every word you cannot define instantly. Categorise each as *root-unknown*, *context-resolvable*, or *connotation-confusion*. Aim for ≥70% in column two within four weeks using a spaced-repetition deck.
+1. Take a past NMAT passage, list every affix-bearing noun and adjective, then build a 10-pair analogy drill (`chronic :: acute :: benign :: ?`).
+2. Build a denotation–connotation table for 20 verbs that appear in medical contexts (e.g., `alleviate`, `mitigate`, `ameliorate`, `aggravate`, `exacerbate`) and rank them by intensity.
 
-> 💡 **High-Yield Revision Hook:** Build a 25-word weekly list using the **3-2-1 rule** — 3 derivatives of one root, 2 idioms/collocation pairs, 1 commonly confused pair. Spaced repetition at 1, 3, 7, 14 days cements long-term recall; sources like past IVTLERE and RLE reviewers expose the exact word families CEM recycles across NMAT cycles.
+> ⚠️ **Examiner Trap:** On double-blank Sentence Completion, students match the first blank correctly but skip the second, costing half credit. Always verify **both** blanks with the same connotation logic before committing.
 
 ---
 

@@ -8,215 +8,116 @@ topicName: Directive Principles of State Policy
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-16"
 ---
 
-# Directive Principles of State Policy (Part IV — Articles 36-51)
+# Directive Principles of State Policy
 
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Directive Principles of State Policy** — Key Facts for BPSC
+Directive Principles of State Policy (DPSP) are the **non-justiciable** socio-economic directives listed in **Part IV (Articles 36–51)** of the Indian Constitution. They instruct the State to build a welfare state, but citizens cannot move a court directly to enforce them, unlike Fundamental Rights under Part III.
 
-- **Part IV** of Constitution — Articles 36-51
-- **Inspired by Irish Constitution** — borrowed from Irish Constitution (Article 45)
-- **Not enforceable in court** (Article 37 — "shall be fundamental in governance")
-- **3 categories**: Socialistic, Gandhian, Liberal Intellectual
-- **Part IV-A** (Article 51A): **Fundamental Duties** — added by 42nd Amendment (1976)
-- **Conflict with FR**: FR prevails (Minerva Mills case, 1980)
-- **Directive to state**: Secure social order, raise living standards, distribute ownership
+| Term | Meaning |
+|---|---|
+| Part IV | Constitutional chapter containing Articles 36–51 |
+| Non-justiciable | Courts cannot strike down a law solely for violating DPSP |
+| Welfare State | Government actively ensures social, economic, and political justice |
+| Article 37 | Directive binding the State to apply DPSPs in law-making |
+| Article 44 | Directive for a Uniform Civil Code (UCC) |
 
-⚡ **Exam tip**: BPSC frequently asks: "Which is the source of DPSP?" (Answer: Irish Constitution). Also: "DPSP are not enforceable" — matches with Article 37.
+> 💡 **High-Yield Memory Hook:** **"SGL"** — **S**ocialist, **G**andhian, **L**iberal-Intellectual. These are the three classifications of DPSPs asked almost every BPSC paper.
+
+BPSC expects quick recall of article-to-subject mapping (e.g., Art. 40 → Panchayati Raj, Art. 41 → Right to Work, Art. 48 → Cow slaughter, Art. 48A → Environment).
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-## Overview of Directive Principles
+#### Origin and Constitutional Position
 
-### Article 36-37: Definition and Application
+DPSPs were borrowed from the **Irish Constitution's Directive Principles of Social Policy** and added to the Indian Constitution by the Constituent Assembly, largely on **Dr. B. R. Ambedkar's** recommendation. They sit between **Part III (Fundamental Rights)** and **Part IVA (Fundamental Duties)**, reflecting the makers' belief that political democracy must be backed by economic democracy.
 
-**Article 36**: Defines "State" for DPSP as same as Part III (Government, Legislature, local authorities, statutory bodies)
+#### Threefold Classification of DPSPs
 
-**Article 37**: 
-> "The provisions contained in this Part shall not be enforceable by any court, but the principles laid down herein are **fundamental in the governance of the country**."
+| Category | Nature | Key Articles |
+|---|---|---|
+| Socialist Principles | Reflect socialist ideology; aim for economic equality | 38, 39, 39A, 41, 42, 43, 43A |
+| Gandhian Principles | Reflect Gandhian moral values | 40 (Panchayati Raj), 43 (Cottage industries), 46 (ST/SC promotion), 47 (Prohibition), 48 (Cow protection) |
+| Liberal-Intellectual Principles | Reflect liberal welfare thinking | 44 (UCC), 45 (Childhood care), 48A (Environment), 49 (Monuments) |
 
-**Key understanding**:
-- DPSP are **non-justiciable** (cannot be enforced in court)
-- But they are **fundamental** — Parliament must keep them in mind when making laws
-- State must apply these in **making laws**
+#### Critical Articles and Their Subjects
 
-### Classification of DPSP
+- **Art. 38(1)** — State to promote welfare of the people.
+- **Art. 38(2)** — Extends DPSP obligations even to **private sector actions** affecting welfare.
+- **Art. 39** — Equal distribution of wealth; prevention of concentration.
+- **Art. 39A** — Free legal aid and equal justice (added by **42nd Amendment, 1976**).
+- **Art. 40** — Organisation of **Village Panchayats**.
+- **Art. 41** — **Right to Work**, education, and public assistance.
+- **Art. 42** — Just and humane conditions of work; maternity relief.
+- **Art. 43A** — Participation of workers in management (added by 42nd Amendment).
+- **Art. 44** — **Uniform Civil Code** for all citizens.
+- **Art. 45** — Early childhood care (now a Fundamental Duty under 51A after 86th Amendment).
+- **Art. 48** — Prohibition of cow slaughter.
+- **Art. 48A** — Protection of environment and wildlife (added by **42nd Amendment**).
 
-#### Category 1: Socialistic Principles (Articles 38-39)
+#### Relationship with Fundamental Rights
 
-**Article 38** — Social Order:
-- State shall secure social order by promoting welfare of people
-- Minimise inequalities in income, status, facilities
+The Supreme Court ruled in **Champakam Dorairajan v. State of Madras (1951)** that Fundamental Rights prevail over DPSPs in direct conflict. Post-**42nd Amendment (1976)**, courts harmoniously construe both — they are treated as parts of a single constitutional scheme. In **Minerva Mills v. Union of India (1980)**, the Court struck down Section 4 of the 42nd Amendment, holding that the **harmony between FR and DPSP is the basic feature of the Constitution**.
 
-**Article 39** — Principles of Policy:
-- (a) All citizens shall have equal right to adequate means of livelihood
-- (b) Distribution of material resources to serve common good
-- (c) Prevention of concentration of wealth
-- (d) Equal pay for equal work
-- (e) Protection of workers' strength (women, children)
-- (f) Childhood and youth protected against exploitation
+#### 🎯 Exam-Level Worked Problem
 
-**Important**: Article 39(b) — "Property to be distributed to serve common good" — led to 4th and 17th Amendments (land reforms). Struck down in **Kesavananda Bharati (1973)** for violating basic structure? No — Court upheld but said Parliament cannot destroy basic structure.
+**Question:** *"Which of the following Directive Principles was added by the 42nd Constitutional Amendment, 1976? (A) Article 40 (B) Article 41 (C) Article 39A (D) Article 44"*
 
-#### Category 2: Gandhian Principles (Articles 40-48)
+**Solution:** The 42nd Amendment inserted **four new DPSPs — Articles 39A, 43A, 48A and modified 51A**. Article 39A mandates free legal aid. Therefore, **(C) Article 39A** is the correct answer.
 
-**Article 40** — Village Panchayats:
-- State shall establish Village Panchayats as units of self-government
-- **73rd Amendment (1992)**: Made this a fundamental aspect — added Part IX
-
-**Article 41** — Right to Work, Education, Public Assistance:
-- State shall provide work, education, public assistance in cases of unemployment, old age, sickness, undeserved want
-
-**Article 42** — Provision for just and humane conditions of work:
-- Maternity relief (paid leave, creches)
-
-**Article 43** — Living wage for workers:
-- State shall ensure decent standard of living, fair wage
-- **Note**: Different from "minimum wage" — a living wage is higher
-
-**Article 43A** — Workers' Participation in Management:
-- State shall take steps for workers' participation in management
-- **Added by 44th Amendment (1978)**
-
-**Article 44** — Uniform Civil Code:
-- State shall endeavour to secure for citizens a **Uniform Civil Code** throughout India
-- **Status**: Not yet implemented — controversial
-- Goa already has UCC (applicable to all except Sundays for Hindus, Muslims)
-
-**Article 45** — Provision for early childhood care and education:
-- State shall provide free, compulsory education for all children below 6 years
-- **86th Amendment (2002)**: Moved to Article 21A as **Right to Education**
-
-**Article 46** — Educational and economic interests of SC/ST:
-- State shall promote with special care the educational and economic interests of SC/ST
-- **Protective discrimination**: Scholarships, reserved institutions
-
-**Article 47** — Nutrition and standard of living:
-- State shall raise level of nutrition and standard of living
-- **Public distribution system**: PDS, ration shops
-- **Antyodaya**: Anna Yojana (2000)
-
-**Article 48** — Agriculture and Animal Husbandry:
-- State shall organise agriculture and animal husbandry on modern, scientific lines
-- **Ban on cow slaughter** (proposed but not enforced uniformly)
+> ⚠️ **Examiner Trap:** Aspirants often select **Article 48A (Environment)** as a "new" DPSP, which is also true, but the question is single-choice — Article 39A is the most-tested pick in BPSC Prelims because it links directly to the legal services authorities (NALSA) scheme.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-## DPSP vs Fundamental Rights — The Conflict
+#### Advanced Edge Cases and Doctrinal Nuances
 
-### The Problem
+1. **Direct Conflict Rule:** Under Champakam Dorairajan (1951), if a law implementing DPSP violates Article 14, 19 or 31, the Fundamental Right strikes it down — DPSPs alone cannot save it.
+2. **Indirect Enforcement:** A citizen cannot file a writ under Article 32/226 solely for breach of DPSP, but the State violates its duty under Article 37 if it ignores them entirely while making policy.
+3. **Basic Structure Linkage:** In **Kesavananda Bharati v. State of Kerala (1973)** and **Minerva Mills (1980)**, the Court held that the **harmony between FR and DPSP** forms part of the basic structure — Parliament cannot abrogate either completely.
+4. **Private Sector Reach:** Article 38(2) and 39A extend DPSP obligations to private actors only when legislation is enacted; bare DPSPs cannot bind private individuals.
+5. **Uniform Civil Code Debate:** Article 44 is **not** a Fundamental Right guarantee — it is a direction, hence the Supreme Court in **S. R. Bommai v. Union of India (1994)** and related rulings has only **recommended** UCC, not imposed it.
+6. **Property Rights Carve-out:** The **44th Amendment (1978)** restored Article 31(1) protections, narrowing the scope of DPSP-led acquisition by the State.
 
-FR (Part III) is **justiciable** — courts can enforce
-DPSP (Part IV) is **non-justiciable** — courts cannot enforce
+#### Commonly Confused Article–Subject Mapping
 
-But what if a law made to fulfill DPSP violates FR?
+| Article | Correct Subject | Frequent Mistake |
+|---|---|---|
+| Art. 40 | Panchayati Raj | Confused with Municipality (Art. 41-related) |
+| Art. 41 | Right to Work / Education | Confused with Art. 45 (Childhood care) |
+| Art. 44 | Uniform Civil Code | Mistaken as Fundamental Right |
+| Art. 45 | Early childhood care (now 51A) | Confused with Right to Education (Art. 21A) |
+| Art. 48A | Environment | Confused with Fundamental Duty 51A(g) |
 
-### The Resolution
+#### BPSC-Specific Strategy
 
-**Minerva Mills v. Union of India (1980)** — **Landmark Case**:
-- **55th Amendment** (1974) added Art. 31C: "Laws implementing DPSP cannot be challenged on FR grounds"
-- **Challenge**: Does this destroy basic structure?
-- **Supreme Court held**: 
-  1. **Article 31C is valid** for implementing DPSP under Article 39(b) and (c)
-  2. **But**: Basic Structure doctrine applies — Parliament cannot use this to destroy basic structure
-  3. **Article 368** (amending power) is itself subject to basic structure
+- DPSP carries roughly **3% weight** in BPSC combined Prelims and Mains, mostly in **General Studies Paper-II (Polity)** and **Paper-IV (Ethics)**.
+- Frequently appears as: **(i)** direct MCQs on article-subject match, **(ii)** matching-type (list-I principle ↔ list-II article), **(iii)** assertion-reason (DPSP vs FR), and **(iv)** Mains 10-mark questions on the **Minerva Mills doctrine**.
+- Recommended time per question: 45–60 seconds for MCQs; Mains answers should cite **at least one case law** and the **42nd/44th Amendment** for full marks.
 
-**The 42nd Amendment (1976) Controversy**:
-- Added Section 55 to Article 368 — gave Parliament unlimited power to amend any part
-- **Struck down** in **Kesavananda Bharati (1973)** (before 42nd Amendment was passed)
-- **Minerva Mills (1980)** confirmed: Basic structure cannot be destroyed even with DPSP
+#### Advanced Practice Prompts
 
-**Rule**: FR > DPSP. DPSP must be implemented **without violating FR**.
+1. *"Is the Uniform Civil Code enforceable under Article 32? Justify with case law."* — Expected answer: No, it is a Directive under Article 44; the Supreme Court can only recommend, as seen in **S. R. Bommai (1994)** and **Jose Paulo Coutinho v. Maria Luiza (2019)** observations.
+2. *"Critically examine whether DPSPs override Fundamental Rights post-Minerva Mills."* — Expected answer: Neither prevails absolutely; the Court mandates **harmonious construction**, and the FR–DPSP balance is part of the **basic structure**.
 
-## Important Cases on DPSP
-
-| Case | Year | Key Holding |
-|------|------|-------------|
-| **Champakam Dorairajan** | 1951 | SC struck down Tamil Nadu's communal G.O. — FR prevails over DPSP |
-| **Madhav Khosla** | 2012 | DPSP are guidelines, not rights — but they're essential to understand constitutional morality |
-| **State of Karnataka v. R. C. Kunta** | 2017 | SC held that DPSP can inform statutory interpretation |
-| **Common Cause IV** | 2019 | Right to die with dignity — DPSP Articles 41, 47 applied |
-
-## Fundamental Duties (Part IV-A, Article 51A)
-
-**42nd Amendment (1976)** added Part IV-A with **10 Fundamental Duties**:
-
-1. To abide by Constitution and respect national flag, national anthem
-2. To cherish and follow the noble ideals of freedom struggle
-3. To protect sovereignty, unity, integrity of India
-4. To defend the country (provide national service when required)
-5. To promote harmony and brotherhood — renounce practices derogatory to women
-6. To protect natural environment — conserve wildlife
-7. To develop scientific temper, humanism
-8. To safeguard public property, abjure violence
-9. To strive for excellence — all-round development
-10. To provide opportunities to children for education (86th Amendment)
-
-**Key Cases on Duties**:
-- **Raghunandan Swarup v. Union of India (2015)**: SC refused to enforce Fundamental Duties — said "shall be enforced by law" (not by court)
-- **Common Cause IV**: Right to die with dignity — DPSP Article 41 supports FR
-
-**Important for BPSC**: Fundamental Duties are **non-justiciable** like DPSP — Article 51A says "shall be enforced by law" — Parliament can make law for enforcement.
-
-## DPSP Implementation: Schemes and Laws
-
-| DPSP | Implementation |
-|------|----------------|
-| Art. 39(b) — Equal distribution | Land reform laws, ceilings |
-| Art. 41 — Right to work | MGNREGA (2005) |
-| Art. 45 — Early childhood | Sarva Shiksha Abhiyan, Mid-day meals |
-| Art. 43 — Living wage | Minimum Wages Act |
-| Art. 44 — Uniform Civil Code | Bharatiya Nyaya Samhita (2023) — UCC not yet passed |
-| Art. 46 — SC/ST welfare | SC/ST Prevention of Atrocities Act |
-
-## Critical Thinking Points for BPSC
-
-**Q. Why are DPSP non-justiciable?**
-A. Because Indian courts cannot handle policy questions. DPSP require resources, planning — judiciary cannot order the state to build schools (no enforcement mechanism). Also, India was poor — couldn't guarantee all DPSP immediately.
-
-**Q. Can DPSP override FR?**
-A. No — FR prevails (Minerva Mills, 1980). FR is the minimum threshold; DPSP is the aspiration.
-
-**Q. How are DPSP relevant today?**
-A. In judicial interpretation — courts use DPSP to expand FR (e.g., right to privacy includes dignity as in DPSP Article 38).
-
-## Practice Questions (BPSC Pattern)
-
-1. Directive Principles of State Policy have been borrowed from the constitution of:
-   - (a) USA
-   - (b) Ireland
-   - (c) Canada
-   - (d) UK
-
-2. Which article makes DPSP non-justiciable?
-   - (a) Article 36
-   - (b) Article 37
-   - (c) Article 38
-   - (d) Article 39
-
-3. The golden triangle of the Constitution refers to:
-   - (a) Articles 14, 19, 21
-   - (b) Articles 32, 37, 51A
-   - (c) Articles 36, 37, 38
-   - (d) Articles 39, 40, 41
-
-4. Which case held that DPSP cannot override FR?
-   - (a) Kesavananda Bharati
-   - (b) Minerva Mills
-   - (c) Golak Nath
-   - (d) Maneka Gandhi
-
-**Answers**: 1(b), 2(b), 3(a), 4(b)
+> 💡 **High-Yield Memory Hook:** **"42 brought 4: 39A, 43A, 48A, 51A-mod"** — the four DPSP additions of the 42nd Amendment, 1976, are a recurring match-the-column question in BPSC Prelims.
 
 ---
+
+## Continue your study
+
+- **[View this topic in your BPSC roadmap](/roadmap/?exam=bpsc&duration=1mo)** — see where "Directive Principles of State Policy" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=bpsc&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[BPSC exam overview](/exams/bpsc/)** — pattern, eligibility, and syllabus
+- **[All Indian Polity notes](/notes/bpsc/indian-polity/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

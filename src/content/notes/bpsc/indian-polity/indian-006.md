@@ -8,272 +8,115 @@ topicName: "Parliament: Lok Sabha and Rajya Sabha"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-16"
 ---
 
 # Parliament: Lok Sabha and Rajya Sabha
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+> Rapid summary for last-minute revision before your BPSC exam.
 
-**Parliament** — Key Facts for BPSC
+The **Parliament of India** is the supreme legislative body comprising the **President**, **Lok Sabha** (House of the People), and **Rajya Sabha** (Council of States), constituted under Articles 79–122. The Lok Sabha represents the people directly through universal adult suffrage; the Rajya Sabha represents states and union territories through indirect election, preserving federal balance in national law-making.
 
-- **Bicameral legislature**: Lok Sabha (Lower House) + Rajya Sabha (Upper House)
-- **Total strength**: Lok Sabha — **545 seats** (2 Anglo-Indian nominated); Rajya Sabha — **245 seats** (12 nominated by President)
-- **Term**: Lok Sabha — 5 years (can be dissolved); Rajya Sabha — **permanent** (1/3 retire every 2 years)
-- **Presiding Officers**: Lok Sabha — Speaker (elected); Rajya Sabha — Chairman (VP of India, not member)
-- **Money Bill**: Only Lok Sabha can introduce; Rajya Sabha can only recommend (must return in 14 days)
-- **Special powers**: Impeachment of President, Constitutional amendment (initiation only by Lok Sabha)
+- **Lok Sabha:** Maximum strength 552 originally (550 elected + 2 Anglo-Indian nominated). After the **104th Constitutional Amendment (2020)**, the Anglo-Indian nomination ceased, leaving **543 elected members**. Normal term **5 years**, dissolvable by the President.
+- **Rajya Sabha:** Maximum strength **250 members** (238 indirectly elected by state legislative assemblies via single transferable vote + 12 nominated by the President for eminence in literature, science, art, or social service). It is a **permanent, never-dissolved body**; **1/3 members (≈83) retire every 2 years** on 6-year terms.
+- **Speaker / Chairman:** Lok Sabha Speaker is its presiding officer; the **Vice-President of India is ex-officio Chairman of Rajya Sabha**.
+- **Quorum:** Both Houses require **1/10 of total membership** (Article 100(3)).
+- **Money Bill:** Certified only by the Speaker under **Article 110**; can be introduced only in Lok Sabha; Rajya Sabha can only recommend amendments within **14 days**.
 
-⚡ **Exam tip**: Know the **differences between Lok Sabha and Rajya Sabha** — composition, term, powers, and what requires "special majority." BPSC frequently asks about Money Bill procedure.
+> 💡 **High-Yield Memory Hook:** **"LRS"** — **L**ok Sabha has the **R**ule (Speaker certifies Money Bills), **R**ajya Sabha has **S**uggestions only. Recall: **L**ok = **L**edger (controls money); **R**ajya = **R**eviewer.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+> Standard depth for BPSC Prelims and Mains GS-II preparation.
 
-## Parliament: Structure and Composition
-
-### Lok Sabha (House of the People)
-
-**Composition (Article 81)**:
-- **545 members**: 530 from states, 20 from UTs (after 31st Amendment, 1973)
-- **2 Anglo-Indian members** nominated by President (after 126th Amendment, not yet implemented)
-- **Minimum age**: 25 years to contest
-- **Elected** by **direct election** from single-member constituencies
-- **Term**: 5 years (dissolved earlier in case of emergency — Article 83)
-
-**Speaker of Lok Sabha**:
-- Elected from among members (not the government)
-- Presides over Lok Sabha sessions
-- **Casting vote** in case of tie
-- **Symbol of people's supremacy**
-
-### Rajya Sabha (Council of States)
-
-**Composition (Article 80)**:
-- **245 members**: 12 nominated by President + up to 233 elected by state MLAs
-- **Nominated members**: Eminent personalities in literature, art, science, social service
-- **Elected by proportional representation** (single transferable vote) — state MLAs vote
-- **Minimum age**: 30 years (higher than Lok Sabha)
-- **Not dissolved** — **permanent chamber**; 1/3 members retire every 2 years
-
-**Chairman of Rajya Sabha**:
-- **Vice-President of India** is the ex-officio Chairman (Article 64)
-- Deputy Chairman elected from among members
-
-### Comparison of Houses
+#### Composition and Tenure
 
 | Feature | Lok Sabha | Rajya Sabha |
-|---------|-----------|-------------|
-| **Nature** | Lower House, people's representation | Upper House, federal representation |
-| **Strength** | 545 | 245 |
-| **Term** | 5 years (dissolved) | 6 years (continuous) |
-| **Nominated members** | 2 (Anglo-Indian) | 12 (Eminent persons) |
-| **Minimum age** | 25 years | 30 years |
-| **Presiding Officer** | Speaker | Vice-President (Chairman) |
-| **Executive responsible** | Yes (confidence) | No (collective) |
-| **Can dissolve** | Yes | No |
-| **Money Bill origin** | Yes | No |
-| **Can be dissolved** | Yes | No |
+|---|---|---|
+| Constitutional basis | Articles 81 & 83 | Articles 80 & 83 |
+| Maximum strength | 552 (now 543 after 104th CAA) | 250 |
+| Election mode | Direct by universal adult suffrage | Indirect by state legislative assemblies (single transferable vote) |
+| Nominated members | 2 Anglo-Indians (defunct since 2020) | 12 by President for eminence |
+| Term | 5 years (dissolvable) | 6 years (1/3 retire biennially) |
+| Presiding officer | Speaker (elected by House) | Vice-President (ex-officio Chairman) |
+| Dissolution | Yes, by President | Permanent, never dissolves |
 
----
+#### Money Bill vs Financial Bill
 
-## Legislative Powers
+| Criterion | Money Bill (Art. 110) | Financial Bill (Category II) |
+|---|---|---|
+| Introduced in | Lok Sabha only | Either House |
+| Certification | Speaker of Lok Sabha (final) | President recommendation needed |
+| Rajya Sabha role | Recommend amendments in 14 days | Full legislative powers |
+| Joint Sitting | **Not allowed** | Allowed |
 
-### Ordinary Bill Procedure
+#### 🎯 Exam-Level Worked Problem
 
-**Article 107-108**: Both Houses must pass the bill:
+**Question:** A Bill concerning the imposition of a new central tax was passed by the Lok Sabha and forwarded to the Rajya Sabha. After 18 days, the Rajya Sabha returned the Bill with suggested amendments. The Lok Sabha rejected every amendment and passed the Bill again. Can the President summon a Joint Sitting under Article 108?
 
-1. Introduced in either House (usually Lok Sabha)
-2. Referred to **Standing Committee** or passed in same session
-3. Passage from originating House → sent to other House
-4. Other House can:
-   - Pass the bill (same version) → Bill sent to President
-   - Amend → Returns to originating House (must agree to amendments)
-   - Reject → Bill dies
-   - No action for **6 months** → President's Rule possible
-5. **President's Assent**: After both Houses agree (or President's Rule if no consensus)
+#### Solution:
+- Step 1 — Identify Bill type: A bill "imposing a tax" falls within **Article 110(1)(a)** — it is a **Money Bill**.
+- Step 2 — Apply Article 108: Article 108 expressly states that **no Joint Sitting shall be summoned for a Money Bill or a Constitution Amendment Bill**.
+- Step 3 — Apply Article 117: A Money Bill cannot be introduced in Rajya Sabha. Rajya Sabha has only **14 days** to return recommendations; Lok Sabha can accept or reject each.
+- Step 4 — Outcome: The President **cannot** summon a Joint Sitting. The Lok Sabha's version prevails after the 14-day window lapses.
 
-### Money Bill (Article 110)
+> ⚠️ **Examiner Trap:** Students in many papers pick "Joint Sitting will be summoned" because ordinary deadlock triggers Article 108. The trap lies in forgetting that **Money Bills are exempt from Joint Sittings** — the Lok Sabha's financial supremacy is constitutionally protected.
 
-**Definition**: Bill containing only:
-- Taxation, borrowing, Consolidated Fund expenditure
-- Appropriation from Consolidated Fund
-- Matters ancillary to above
+#### Special Majority and Anti-Defection
 
-**Special Procedure**:
-- **Only Lok Sabha** can introduce a Money Bill
-- President must refer to Rajya Sabha for "recommendations"
-- Rajya Sabha must return within **14 days** with recommendations
-- Lok Sabha may accept/reject recommendations (no amendment)
-- If not returned in 14 days → considered passed
-- **President cannot return** Money Bill for reconsideration
+- **Special Majority** (Article 368): Majority of **total membership** of the House **AND** majority of those **present and voting**. Not a simple 2/3 — both thresholds must clear.
+- **Absolute Majority**: >50% of total membership (used for ordinary bills in some readings, e.g., removing the Vice-President under Article 67(b)).
+- **Anti-Defection Law (52nd Amendment, 1985, Tenth Schedule):** Disqualifies MPs/MLAs who voluntarily give up party membership or vote against party direction. The **Speaker/Chairman adjudicates** disqualification petitions.
 
-**Key differences from Ordinary Bill**:
-- Money Bill cannot be amended by Rajya Sabha
-- Rajya Sabha has only 14 days (vs. indefinite for ordinary bills)
-- Lok Sabha has final say on recommendations
+#### Casting Vote and Privileges
 
-### Financial Bills (Not Money Bills)
-
-**Article 117**: Financial bills (involving expenditure but not wholly taxation) can be introduced only in Lok Sabha, but Rajya Sabha can amend (with limitations). Passage requires **simple majority** in both Houses.
-
----
-
-## Other Key Powers
-
-### Impeachment Powers
-
-**1. Impeachment of President** (Article 61):
-- Can be moved by **either House** (not Rajya Sabha alone)
-- **Grounds**: Violation of Constitution
-- **Procedure**: Notice by 1/4 members → Investigation by 2/3 majority → Passed by both Houses
-- **Never used** in Indian history
-
-**2. Removal of Judges** (Article 124/218):
-- Supreme Court Judges: Address by both Houses (2/3 majority)
-- High Court Judges: Address by Parliament
-
-**3. CAG removal** (Article 148): Same as Supreme Court judges — but CAG is not a judge
-
-### Constitutional Amendment Powers
-
-**Article 368**:
-- Bill must be introduced in **either House**
-- **Must be passed by 2/3 majority** of present and voting in **both Houses**
-- **Cannot be amended in Rajya Sabha** after passing in Lok Sabha — must be same version
-- **President's assent**: Cannot withhold — must give
-
-**Exception**: Some amendments don't require Rajya Sabha (President's recommendation needed):
-- Election of President (Art. 62) — only Lok Sabha resolves
-- Fifth Schedule (tribal areas) — only Lok Sabha
+- **Casting Vote:** The Speaker (Lok Sabha) or Chairman (Rajya Sabha) votes only when the House is **equally divided**. By convention, the casting vote sustains the status quo and preserves further deliberation.
+- **Parliamentary Privileges (Article 105):** Freedom of speech in the House, freedom from arrest in civil cases **40 days before, during, and 40 days after** a session. Criminal arrests require the House's permission.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
+> Mastery depth for BPSC Mains essays, interviews, and trap-loaded MCQs.
 
-## Parliamentary Privileges
+#### Edge Cases and Exam Exceptions
 
-### Individual Privileges
+| Misconception | Correct Position | Exam Clue |
+|---|---|---|
+| "Speaker votes like an ordinary MP." | Speaker votes **only** on a tie (casting vote). | Direct MCQ; look for "divided equally." |
+| "Rajya Sabha can reject a Money Bill." | It can only suggest amendments; Lok Sabha can ignore. | BPSC frequently tests the 14-day window. |
+| "All nominated members lack voting rights." | Nominated Rajya Sabha members **do vote** in presidential elections and on bills equally. | Trick wording: "same rights as elected." |
+| "104th CAA abolished all nominations." | Only Anglo-Indian Lok Sabha nominations ceased; Rajya Sabha 12 nominations remain. | Test the precise scope of the 104th Amendment. |
+| "Special majority means 2/3 of those present." | Requires **both** >50% of total membership **and** >50% of those present and voting. | Always double-barrelled. |
+| "Anti-Defection cases go to the Election Commission." | The **Speaker/Chairman** decides; EC has no role. | Tier-2 mains essay trap. |
+| "Rajya Sabha is dissolved during President's Rule." | Rajya Sabha **never dissolves** — only Lok Sabha does. | Even in emergency, RS continues. |
 
-**Article 105**: Members enjoy:
-- Freedom of speech in Parliament (cannot be questioned outside)
-- Protection from civil proceedings for speech in House
-- **Not liable** to court for anything said in Parliament (only Parliament can penalise)
-- **Freedom from arrest**: Cannot be arrested 40 days before/after session (civil cases only)
+#### Adjacent Topic Connections
 
-**Key Cases**:
-- **Kameshwar Singh v. Parliament** (1952): Parliamentary privileges are part of fundamental structure
-- **P.V. Narasimha Rao v. State (1998)**: MP cannot be prosecuted for speech in Parliament
-- **Keshav Singh (1965)**: Privileges vs. Fundamental Rights conflict — privilege is supreme in Parliament
+- **Federalism:** Rajya Sabha's role in protecting state interests links to **Article 249** (parliament's power to legislate on state subjects) and **Article 312** (All-India Services).
+- **Ordinance Route (Article 123):** When Parliament is not in session, the President promulgates ordinances — relevant when the **Monsoon Session** is bypassed; BPSC 67th CCE has asked about ordinance validity windows (6 weeks re-laying rule).
+- **Budgetary Process:** Distinguish **Vote on Account**, **Interim Budget**, **Cut Motion** (three types — Disapproval, Economy, Token), and **Guillotine** — all recurring Mains topics.
+- **Westminster Comparison:** India's Rajya Sabha is **weaker than** the US Senate; the Speaker is more powerful than the US Speaker on Money Bills but does not hold the casting vote routinely.
 
-### Collective Privileges
+#### Advanced Practice Prompts
 
-**Powers**:
-- **Arrest and punish** strangers for contempt
-- **Regulate internal affairs**
-- **Expel members** for disorderly conduct
-- **Adjourn** proceedings
+1. **Numerical:** Calculate the maximum strength of the Lok Sabha after the 104th Amendment and determine the **quorum** for the current House. (Answer: 543 members; quorum = 55.)
+2. **Conceptual:** "The Rajya Sabha is a revising chamber, not a rival." Evaluate with reference to Money Bills, Joint Sittings, and the Anti-Defection Law. (Write a 250-word BPSC-style answer.)
 
-**Limits**: Cannot override fundamental rights of citizens outside Parliament
+#### Exam Strategy
 
-## Parliamentary Committees
-
-### Types of Committees
-
-| Committee | Composition | Function |
-|-----------|-------------|----------|
-| **Standing Committee** | Permanently elected | Examine bills, policies |
-| **Select Committee** | MPs from both parties | Examine specific bill (temporary) |
-| **Joint Committee** | MPs from both Houses | For important bills (44th Amendment) |
-| **Public Accounts Committee** | 15 members (Lok Sabha majority) | Audit government accounts |
-| **Estimates Committee** | 30 members | Examine budget estimates |
-| **Committee on Petitions** | Lok Sabha members | Examine public representations |
-
-### Financial Committees
-
-**Public Accounts Committee (PAC)**:
-- **15 members**: 8 from Lok Sabha, 7 from Rajya Sabha
-- **Examines**: CAG audit reports — how money was spent
-- Chaired by **Leader of Opposition** (not government)
-- **Most powerful** parliamentary committee — exposes financial irregularities
-
-**Estimates Committee**:
-- **30 members** from Lok Sabha only
-- **Recommends**: Ways to reduce expenditure, improve efficiency
-- **Term**: 5 years (one third replaced each year)
-
-**Committee on Public Undertakings**:
-- Examines working of government companies
-
-## Sessions and Business
-
-### Types of Sessions
-
-| Session | Purpose | Initiated by |
-|---------|---------|-------------|
-| **Budget Session** | General business + budget | President's address |
-| **Monsoon Session** | Legislation | President's summons |
-| **Winter Session** | Legislation, urgent business | President's summons |
-| **Special Session** | Emergency business | President's summons |
-
-**Minimum Sessions** (Article 85):
-- **Budget Session**: Must have at least one session within 6 months of last session
-- **No gap** of more than 6 months between sessions
-
-### Quorum
-
-- **Minimum 1/10 members present** (55 out of 545 for Lok Sabha)
-- If quorum not met, Speaker can **adjourn** or **adjourn to another date**
-
-### Voting
-
-**Ordinary**: Simple majority of present and voting
-**Special**: 2/3 majority of present and voting (constitutional amendments)
-**Money Bill**: Simple majority of Lok Sabha
-
-## Important Articles for BPSC
-
-| Article | Content |
-|---------|---------|
-| Art. 75 | PM appointment |
-| Art. 79-122 | Parliament structure |
-| Art. 100 | Quorum and voting |
-| Art. 105 | Parliamentary privileges |
-| Art. 107-111 | Legislative procedure |
-| Art. 117 | Financial bills |
-| Art. 224A | Resignation of Speaker |
-| Art. 368 | Amendment procedure |
-
-## Practice Questions (BPSC Pattern)
-
-1. The Chairman of Rajya Sabha is:
-   - (a) Speaker of Lok Sabha
-   - (b) Vice-President of India
-   - (c) Prime Minister
-   - (d) Senior-most member
-
-2. Money Bill can be introduced in:
-   - (a) Either House
-   - (b) Only Lok Sabha
-   - (c) Only Rajya Sabha
-   - (d) Joint sitting
-
-3. A Money Bill is returned by Rajya Sabha after:
-   - (a) One month
-   - (b) Three months
-   - (c) 14 days
-   - (d) 10 days
-
-4. The Constitution can be amended by:
-   - (a) Simple majority
-   - (b) 2/3 of members present and voting
-   - (c) 2/3 of total membership
-   - (d) 3/4 of states
-
-**Answers**: 1(b), 2(b), 3(c), 4(b)
+- BPSC Prelims in standard papers asks **2–3 questions per paper** from Parliament, mostly MCQs on composition, quorum, and Money Bill procedure.
+- BPSC Mains GS-II includes **10-mark short notes** on Speaker's powers and **15-mark essays** on parliamentary reforms.
+- Time budget: **90 seconds per Prelims MCQ** on this topic; do not over-read — these are direct-recall questions.
 
 ---
+
+## Continue your study
+
+- **[View this topic in your BPSC roadmap](/roadmap/?exam=bpsc&duration=1mo)** — see where "Parliament: Lok Sabha and Rajya Sabha" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=bpsc&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[BPSC exam overview](/exams/bpsc/)** — pattern, eligibility, and syllabus
+- **[All Indian Polity notes](/notes/bpsc/indian-polity/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

@@ -8,198 +8,122 @@ topicName: Medieval Indian History
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-16"
 ---
 
 # Medieval Indian History
 
-## The Delhi Sultanate (1206–1526)
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
 
-### Establishment
+Medieval Indian History for CTET covers roughly **750 CE – 1757 CE**, from the decline of the Gupta order to the eve of British control after the **Battle of Plassey (1757)**. The CTET Social Studies paper tests NCERT Class VI–VIII themes: *New Kings and Kingdoms*, *Delhi Sultans*, *Mughal Empire*, and *18th Century Political Formations*. Typical questions ask you to match dynasties, monuments, travellers, and reforms to the correct ruler.
 
-Muhammad Ghori (1173–1206) defeated Prithviraj Chauhan at the **Second Battle of Tarain (1192)** — the event that marks the beginning of Muslim rule in North India. His trusted slave general **Qutb-ud-din Aibak** captured Delhi in 1206 and established the **Mamluk (Slave) dynasty**, marking the beginning of the Delhi Sultanate.
+- **Period**: 8th–18th century CE; five major layers — Tripartite Struggle (Palas, Pratiharas, Rashtrakutas) → Delhi Sultanate → Mughal Empire → Maratha/Vijayanagara → 18th-century regional states.
+- **Delhi Sultanate (1206–1526)**: Slave (1206–1290) → Khilji (1290–1320) → Tughlaq (1320–1414) → Sayyid (1414–1451) → Lodi (1451–1526); administered through the **Iqta** system.
+- **Mughal Empire (1526–1707)**: Babur → Humayun → Akbar → Jahangir → Shah Jahan → Aurangzeb; **Mansabdari** ranking, **Zabt/Ain-i-Dahsala** revenue under Todar Mal, **Sulh-i-Kul** under Akbar.
+- **Movements**: Bhakti (Kabir, Mirabai, Tulsidas, Chaitanya, Basava, Ramanuja); Sufi orders — **Chishti, Suhrawardi, Naqshbandi**.
+- **Key travellers**: Ibn Battuta (Tughlaq era), **Vasco da Gama** reached Calicut in 1498, Bernier and Manucci in later Mughal times.
 
-### Five Dynasties of the Sultanate
+> 💡 **High-Yield Memory Hook:** "**S**ultans **K**ept **T**heir **S**trong **L**ineage" — **S**lave, **K**hilji, **T**ughlaq, **S**ayyid, **L**odi. For Mughal succession use **"Babur Hum Jaye, Aur Shah Jahan Aae"** (Babur, Humayun, Jahangir, Shah Jahan, Aurangzeb).
 
-| Dynasty | Period | Key Sultans | Notable Contributions |
-|---|---|---|---|
-| **Slave (Mamluk)** | 1206–1290 | Qutb-ud-din Aibak, Iltutmish, Balban | Early state building, Qutub Minar started |
-| **Khilji** | 1290–1320 | Alauddin Khilji, Malik Kafur | Expanding empire, market reforms, Alai Darwaza |
-| **Tughlaq** | 1320–1414 | Ghiyas-ud-din Tughlaq, Muhammad bin Tughlaq | Capital shift to Daulatabad, token currency disaster |
-| **Sayyid** | 1414–1451 | Khizr Khan | Weak, short-lived dynasty |
-| **Lodi** | 1451–1526 | Bahlul Lodi, Sikandar Lodi | Last Afghan dynasty, Ibrahim Lodi defeated at Panipat 1526 |
+| Term | One-line meaning | Test-worthy detail |
+| --- | --- | --- |
+| Iqta | Revenue-grant fief assigned to nobles | Collected revenue, paid soldiers, retained surplus |
+| Mansabdari | Mughal ranking of officers (zat/sawar) | Fixed by emperor; revenue not hereditary |
+| Zabt | Survey-based land revenue | Formalised by Todar Mal under Akbar as Ain-i-Dahsala |
+| Jizya | Poll tax on non-Muslims | Reintroduced by Aurangzeb, abolished earlier by Akbar |
 
-### Key Administrators
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-**Iltutmish (1211–1236)**:
-- Ghiyas-ud-din Aibak's son-in-law and successor
-- Organized the **Iqta system** (military feudalism): Land granted to nobles (iqtadars) in exchange for military service
-- Created a centralized administrative structure
-- Introduced the **chaubara** system — nobility divided into 40 nobles (chahalgani)
-- Patronized architecture — Qutub Minar completed under his reign
+#### Chronological Architecture
 
-**Balban (1266–1287)**:
-- Strict and autocratic ruler
-- Adopted the title "Sultan" with grandeur — symbolic of absolute power
-- Created an efficient spy network
-- Enforced strict discipline — women not allowed to appear in public
-- His rule established the image of a strong, centralized sultanate
+The medieval period is structured as overlapping political waves, not a single dynasty. Begin with the **Tripartite Struggle** (c. 750–985 CE) among the Palas (east), Pratiharas (north) and Rashtrakutas (Deccan) for Kanauj. Concurrent with this, **Muhammad bin Qasim** conquered Sindh in 711 CE, and **Mahmud of Ghazni** raided north India between 1000 and 1027 CE.
 
-**Muhammad bin Tughlaq (1325–1351)**:
-- Brilliant but eccentric ruler
-- **Token currency**: Introduced bronze coins to replace silver — led to counterfeiting and collapse of economy
-- **Daulatabad**: Shifted capital from Delhi to Daulatabad (Maharashtra) and forced migration — expensive and unpopular, later reversed
-- **Disbanded the army**: Dismissed most soldiers to save money, leading to inability to defend borders
-- Despite failures, he was tolerant, established the postal system (dak), and supported arts
+The **Delhi Sultanate** follows in five dynastic blocks; the **Mughals** begin with Babur's victory at Panipat (1526) and end with Aurangzeb's death in 1707. The **18th century** belongs to regional polities — Maratha Confederacy, Hyderabad (Nizam), Awadh, Bengal (Murshidabad), Mysore, and the Sikh Misls.
 
-**Firoz Tughlaq (1351–1388)**:
-- More conservative ruler
-- Built Firoz Shah Tughlaq's palace (Delhi) and Firoz Shah Kotla fort
-- Regranted land to nobles, reduced taxes for farmers
-- Established a new canal from the Yamuna
+#### Comparison Matrix: Sultanate vs Mughal Administration
 
-### Art and Architecture
+| Feature | Delhi Sultanate | Mughal Empire |
+| --- | --- | --- |
+| Land grant | Iqta (revenue assignment) | Jagir (rank-linked, non-hereditary) |
+| Revenue system | Iqtadari estimates | Zabt/Ain-i-Dahsala — surveyed crop & area rates |
+| Central finance office | Diwan-i-Wazarat | Diwan-i-Kul (controlled by Wazir) |
+| Nobility rank | Mostly Turkish/Afghan | Mansabdari (zat numerical rank + sawar cavalry) |
+| Religious policy | Jizya retained; temple campaigns | Akbar's Sulh-i-Kul, Aurangzeb's jizya revival |
+| Standing force | Feudal contingent | Mansabdari cavalry + Ahadi household troops |
 
-- **Qutub Minar** (started by Qutb-ud-din Aibak, completed by Iltutmish) — 72.5m tower, Delhi's most iconic landmark
-- **Alai Darwaza** (Alauddin Khilji) — first example of true dome in Indian architecture
-- **Ghiyasi Masjid** (Ghazi Sikandar Sahib) — example of Tughlaq architecture
-- ** tomb of Balban** — ornate, influenced later Mughal architecture
+#### Comparison Matrix: Bhakti vs Sufi Movements
 
----
+| Aspect | Bhakti | Sufi |
+| --- | --- | --- |
+| Origin | Sanskrit vernacular traditions, 6th–16th c. | Islam, entered India 11th–12th c. |
+| Core idea | Devotion to a personal god, often Vishnu or Shiva | Mystic union with Allah through love |
+| Key figures | Ramanuja, Basava, Kabir, Mirabai, Tulsidas, Chaitanya | Moinuddin Chishti, Nizamuddin Auliya, Gesu Daraz |
+| Practices | Kirtan, bhajan, temple pilgrimage | Sama (music), qawwali, ziyarat at dargahs |
+| Language | Hindi, Tamil, Marathi, Bengali | Persian, Urdu, Arabic |
 
-## The Mughal Empire (1526–1857)
+#### Key Steps to Answer a Chronology MCQ
+1. Lock the dynasty range (e.g., Slave Sultanate ended 1290 CE).
+2. Match the named event (e.g., Alauddin Khalji's market reforms = early 14th c.).
+3. Eliminate options outside the range.
+4. Verify with a known date anchor — Panipat 1526, Plassey 1757, Buxar 1764.
 
-### Babur (1526–1530)
+#### 🎯 Exam-Level Worked Problem
 
-**Zahir-ud-din Muhammad Babur** (1483–1530), a Timurid prince from Fergana (Central Asia), invaded India and defeated **Ibrahim Lodi** at the **First Battle of Panipat (1526)**. Babur was a direct descendant of both Timur (from father's side) and Chengiz Khan (from mother's side).
+**Question:** Which administrative measure was introduced by Sultan Alauddin Khalji to control grain prices in Delhi, and what revenue reform was later formalised by Raja Todar Mal under Akbar?
+(a) Iqta system; Ain-i-Dahsala
+(b) Market control reforms; Zabt (Ain-i-Dahsala)
+(c) Dagh-o-chehri; Jizya abolition
+(e) Mansabdari; Iqta
 
-**Key battles**:
-- **First Battle of Panipat (1526)**: Babur vs Ibrahim Lodi — Lodi's larger but disorganized army defeated
-- **Battle of Khanwa (1527)**: Babur defeated Rana Sanga of Mewar (Rajput alliance) — Babur used artillery effectively
-- **Battle of Ghaghra (1529)**: Babur defeated the Bengal Sultan
+**Solution:** Alauddin Khalji (r. 1296–1316) set up **shahna-i-mandi** officers in Delhi to fix grain prices, regulated supply chains, and cancelled cash gifts to nobles to curb hoarding — collectively called **market control reforms**. Akbar (r. 1556–1605) formalised the **Zabt** system of land revenue assessment: crops were measured, average productivity of land was calculated, and one-third of produce was charged. Raja **Todar Mal** carried out the survey; it is also called **Ain-i-Dahsala** because rates were fixed every ten years.
 
-Babur's memoir, **Baburnama**, is an extraordinary document — written in Chagatai Turkish with details of Indian flora, fauna, and people.
+> ⚠️ **Examiner Trap:** Option (a) reverses the order — Iqta is a Sultanate land system, while Ain-i-Dahsala is Mughal. Option (d) lists two Mughal terms unrelated to the question. The correct pairing is (b): *Market control reforms* (Khalji, 1290s) + *Zabt/Ain-i-Dahsala* (Todar Mal, Akbar's reign).
 
-### Humayun (1530–1540, 1555–1556)
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-- Babur's son, inherited a large but unstable empire
-- Defeated by **Sher Shah Suri** at the **Battle of Chausa (1539)** and **Battle of Kannauj (1540)**
-- Fled to Persia (Safavid court) for 15 years
-- Reclaimed throne in 1555 after Sher Shah's death with help from his loyal nobles
-- Died in 1556 after falling from his library terrace
+#### Sources and Historiography
 
-### Sher Shah Suri (1540–1545)
+CTET asks you to identify *how* we know medieval India. Four source families carry most marks: **archaeological** (monuments such as Qutub Minar, Alai Darwaza, Gol Gumbad, Taj Mahal; forts and stepwells), **literary** (Sanskrit prashastis, Persian chronicles such as *Tarikh-i-Firuz Shahi* and *Ain-i-Akbari*, vernacular bhakti poetry), **numismatic** (tanka, jital, rupee, dam — their mint names indicate trade routes), and **foreign traveller accounts** (Al-Biruni, Ibn Battuta, Abdur Razzaq, Duarte Barbosa, Bernier, Manucci, Tavernier).
 
-- **Farid Khan**, renamed Sher Shah by Humayun
-- Most capable administrator of medieval India
-- Built the **Grand Trunk Road** — ran from Bengal to Afghanistan, over 2,500 km; remains in use today
-- Established the **dak (postal) system** — fast couriers on horseback at regular stations
-- Introduced the **rupiya** (silver rupee) as a standardized currency — the name persists
-- Revenue reforms: Replaced iqta with a systematic land revenue collection (**Ryotwari** concept)
-- His administration became a model for later Mughal governance (Akbar adopted many of his policies)
+| Source type | CTET-recognised example | Information it provides |
+| --- | --- | --- |
+| Archaeological | Qutub Minar complex | Slave-dynasty construction, religious patronage |
+| Inscription | Aihole inscription of Pulakeshin II | Rashtrakuta–Chola rivalry, early medieval polity |
+| Persian chronicle | Baburnama, Ain-i-Akbari | Mughal administration, revenue, society |
+| Numismatic | Tanka of Iltutmish | Currency standard, mint towns |
+| Traveller account | Rihla of Ibn Battuta (1350s) | Muhammad bin Tughlaq's token currency experiment |
 
-### Akbar (1556–1605)
+#### Edge Cases and Frequently Confused Facts
 
-**Abu'l Fath Jalal-ud-din Muhammad Akbar** came to the throne at age 13 (1556). His reign is considered the golden age of the Mughal Empire.
+1. **Din-i-Ilahi is not a state religion.** Akbar's spiritual order (1582 CE) reportedly had 18 members — a courtly experiment, not a policy of conversion.
+2. **Sher Shah Suri vs Todar Mal on revenue.** Sher Shah revived **survey-based** land revenue and built the *Grand Trunk Road*; Todar Mal formalised it as **Ain-i-Dahsala** under Akbar. Both are often credited or blamed wrongly.
+3. **Shivaji (founder, 1674) ≠ Peshwa-led Confederacy (18th c.).** Shivaji founded a state; the **Maratha Confederacy** under Peshwas Baji Rao I, Balaji Baji Rao, and Madhav Rao controlled large parts of India in the 1700s.
+4. **Battle of Talikota (1565)** destroyed **Vijayanagara**; the city of Hampi remained but political power shifted to the Deccan successor states.
+5. **Vasco da Gama reached Calicut in 1498**, just before the medieval window closes — Azm's arrival is often misattributed to Babur's era.
+6. **Aurangzeb's Deccan campaigns (1681–1707)** drained the Mughal treasury and weakened control over the north, paving the way for 18th-century successor states.
 
-**Key developments**:
-- **Battle of Panipat (1556)**: His general Bairam Khan defeated Hemu (Hemu's 20th battle, won 18 consecutively) — Hemu was captured and beheaded
-- **Territorial expansion**: Extended empire across most of the subcontinent (except the Deep South)
-- **Religious policy**: **Din-i Ilahi** (1643) — a syncretic religious policy promoting tolerance; married Hindu princesses (Raja Birbal, Birbal was his advisor); Jain scholar Hem Chandra Pandit (Hemu) rose to his court
-- **Mansabdari system**: Ranking system for military and civil officials (mansabdars) with numerical rank (mansab) indicating salary and troop provision — 33 grades from mansab 10 to 10,000; dual system (darogha) — military and civil roles kept separate
-- **Akbar's Navratnas**: Nine gems — Birbal, Abul Fazl, Faizi, Todar Mal, etc.
-- **Revenue reforms**: **Ain-i Akbari** recorded detailed land revenue assessments; introduction of **Zabt** system (record of cultivated land)
+#### Common Mistakes to Avoid
 
-**Major religious debates ( Ibadat Khana)**: Akbar invited scholars of all religions (Hindu, Buddhist, Jain, Zoroastrian, Christian, Muslim) to discuss theology — signaled his openness to different faiths.
+- Calling **Ibn Battuta** a Mughal-era traveller; he was in Delhi during **Muhammad bin Tughlaq** (Sultanate period, 1334–1343 CE).
+- Treating the **Bhakti movement** as anti-Muslim; several saints (Kabir, Nanak) drew from both Hindu and Muslim vocabularies.
+- Confusing **jagir** (land assignment, non-herit­ary) with **iqta** (Sultanate equivalent).
+- Assuming **Shivaji** fought the Mughals throughout his life; he clashed with Aurangzeb's generals, while the **Peshwas** took on Ahmad Shah Abdali at Panipat III.
 
-### Jahangir (1605–1627)
+#### Advanced Practice Prompts
 
-- Son of Akbar; ruled during initial phases of the Deccan campaigns
-- Married **Nur Jahan** (original name Mehr-un-Nisa) — powerful queen who influenced governance, designed the Taj Mahal's layout
-- Patronized arts and paintings — miniature painting flourished
-- Wine lover; wrote his autobiography **Tuzuk-i Jahangiri**
-- Maintained peace with the Mughals; dealt with Sikh Guru Arjan's execution (ordered by him, 1606)
-
-### Shah Jahan (1628–1658)
-
-- Known for monumental architecture — **Taj Mahal** (built for Mumtaz Mahal, his wife), **Red Fort**, **Jama Masjid** (Delhi), **Moti Masjid** (Lahore)
-- War in the Deccan (against Bijapur, Golconda) — led to huge military expenditure
-- Son **Aurangzeb** rebelled and imprisoned him in 1658; lived in **Mausoleum of Mughal emperors** (Humayun's Tomb, Delhi) and Moti Masjid until death in 1666
-
-### Aurangzeb (1658–1707)
-
-- Strictly religious, reversed Akbar's policy of religious tolerance
-- Imposed **Jaziya** (tax on non-Muslims) — reintroduced and heavily criticized
-- Fought prolonged wars in the Deccan (against Marathas under Shivaji) — drained treasury
-- Rebuilt **Bibi ka Maqbara** (in Aurangabad) as a tribute to his wife
-- Prolonged Deccan campaigns and religious policies led to instability
-- His death in 1707 is often considered the beginning of the end of the Mughal Empire
-
-### Later Mughal Decline
-
-- Successive weak rulers: Bahadur Shah I (1707–1712), Jahandar Shah (1712–1713), Farrukhsiyar (1713–1719), Muhammad Shah (1719–1748), Ahmad Shah (1748–1754), Alamgir II (1754–1759), Shah Alam II (1759–1806)
-- **Invasion by Nader Shah (1739)**: Iranian king sacked Delhi, took the Peacock Throne, killed thousands — a humiliating blow
-- **Battle of Plassey (1757)**: Robert Clive (British East India Company) bribed Siraj-ud-Daulah's army commander Mir Jafar — British gained control over Bengal
-- **Battle of Buxar (1764)**: British defeated combined forces of Mir Qasim, Shuja-ud-Daulah, and Mughal Emperor Shah Alam II — British established political control
+1. Construct a 5-row comparison table between **Akbar's Sulh-i-Kul**, **Aurangzeb's religious measures**, and **Shivaji's policy toward religious institutions**. Which is closest to modern secularism, and why?
+2. Trace how the **Mansabdari** system's *dagh-o-chehri* (branding and descriptive roll) prevented hereditary nobility — and explain why this control weakened after Aurangzeb.
 
 ---
 
-## Medieval Deccan Kingdoms
+## Continue your study
 
-### Vijayanagara Empire (1336–1646)
+- **[View this topic in your CTET roadmap](/roadmap/?exam=ctet&duration=1mo)** — see where "Medieval Indian History" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ctet&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[CTET exam overview](/exams/ctet/)** — pattern, eligibility, and syllabus
+- **[All Social Studies notes](/notes/ctet/social/)** — browse sibling topics in this subject
 
-- **Founders**: Harihara I and Bukka Raya I (Kampili brothers who converted to Islam and then reverted to Hinduism under the influence of sage Vidyaranya)
-- **Capital**: Hampi (on the Tungabhadra River, Karnataka) — magnificent ruins still visible today (UNESCO World Heritage)
-- **Peak under Krishna Deva Raya (1509–1529)**: Most flourishing period, patronized arts and literature — Telugu language flourished
-- **Notable**: Four-tier temples (Dravidian architecture), large gopurams (gateway towers), storage tanks (Kalyani)
-
-### Bahmani Sultanate (1347–1526)
-
-- Founded by **Ala-ud-din Hasan Bahmani** (after breaking from the Delhi Sultanate)
-- **Capital**: Gulbarga (initially), then Bidar
-- Constant rivalry with Vijayanagara (the Deccan wars)
-- **Fall**: Broke into five smaller sultanates — Bijapur, Golconda, Ahmadnagar, Berar, Bidar (called the Deccan Sultanates)
-
----
-
-## Bhakti and Sufi Movements
-
-### Bhakti Movement
-
-A devotional movement emphasizing personal devotion (bhakti) to God as the path to salvation, rather than ritual or priestly mediation.
-
-**Key saints**:
-- **Narsi Mehta** (Gujarat, 15th century): "Vaishnav Jan to" — Gujarat's most famous bhajan
-- **Namdev** (Maharashtra, 13th–14th century): Maharashtrian saint, sung by Guru Nanak
-- **Ramananda** (North India, 14th–15th century): Teacher of Kabir; believed in equality of all humans before God
-- **Kabir** (1440–1518): Weaver from Varanasi; used simple Hindi (instead of Sanskrit) — challenged caste and ritual, syncretic (influenced both Hindu and Muslim traditions); Kabir's dohas (couplets) still sung; was disciple of Ramananda
-- **Guru Nanak** (1469–1539): Founder of **Sikhism**; taught "Ik Onkar" (one God), equality, community (langar — community kitchen), rejected caste; traveled extensively (Mecca, Baghdad)
-- **Tulsidas** (1532–1623): Authored **Ramcharitmanas** in Awadhi — retelling of Ramayana; composed Hanuman Chalisa; believed Ram was the supreme god
-- **Surdas** (1478–1581): Devotee of Krishna, blind poet, wrote Sur Sagar (ocean of melodies)
-
-**Impact**: Bhakti movement challenged caste hierarchy, promoted equality, used local languages instead of Sanskrit — democratized religion in India.
-
-### Sufism
-
-Islamic mystical tradition — Sufis seek direct personal experience of God through love and devotion. Strong in India from 12th century.
-
-**Key Sufi orders**:
-- **Chishti order**: Most influential in India — came from Central Asia via Afghanistan; Khwaja Moin-ud-din Chishti (Ajmer Sharif) brought it to India
-- **Suhrawardi order**: More political, associated with courts
-- **Naqshbandi order**: More conservative, emphasized strict adherence to Sharia
-
-**Major Sufi shrines (Dargahs)**: Ajmer Sharif (Khwaja Moin-ud-din Chishti), Nizamuddin Auliya (Delhi), Baba Farid (Faridkot), Baba Bulleh Shah (Pakistan).
-
-**Syncretic tradition**: Sufi saints often bridged Hindu and Muslim communities — their shrines attracted followers from both religions.
-
-## CTET Exam Focus
-
-- Delhi Sultanate: Five dynasties, Iltutmish (iqta system), Muhammad bin Tughlaq (token currency), Tughlaq architecture
-- Mughal emperors: Babur (Panipat 1526), Humayun (defeated by Sher Shah), Akbar (Mansabdari, Din-i Ilahi), Shah Jahan (Taj Mahal), Aurangzeb (religious policy reversal)
-- Sher Shah: GT Road, dak system, standardized rupee, revenue reforms
-- Vijayanagara: Hampi ruins (UNESCO), Krishna Deva Raya, Dravidian architecture, gopurams
-- Bhakti saints: Kabir (equality, vernacular), Guru Nanak (Sikhism founder), Tulsidas (Ramcharitmanas), Namdev, Narsi Mehta
-- Sufism: Chishti order, Ajmer Sharif, Sufi shrines as syncretic spaces
-
----
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

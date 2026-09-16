@@ -8,7 +8,7 @@ topicName: "Cell Injury, Adaptation & Death"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-16"
 ---
 
 # Cell Injury, Adaptation & Death
@@ -16,223 +16,121 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Reversible cell injury**: Cellular swelling (ballooning), fatty change (steatosis) — in liver, heart, kidney.
+**Cell injury** is the biochemical and structural disturbance of a cell after a noxious stimulus exceeds its adaptive capacity. When the stimulus can be tolerated, the cell responds through **adaptation** — *hypertrophy, hyperplasia, atrophy, metaplasia*. When it cannot, the cell undergoes **necrosis** (uncontrolled, always pathological, inflammatory) or **apoptosis** (programmed, energy-dependent, non-inflammatory).
 
-**Irreversible cell injury**: Membrane damage (blebbing, myelin figures), dense bodies (lysosomal residual bodies), nuclear changes → **necrosis** or **apoptosis**.
+| Term | Cell-level change | Classic example |
+|---|---|---|
+| Hypertrophy | ↑ Cell size | Left ventricular wall in hypertension |
+| Hyperplasia | ↑ Cell number | Thyroid in Graves disease |
+| Atrophy | ↓ Cell size & function | Skeletal muscle after denervation |
+| Metaplasia | Replacement by another mature cell type | Barrett esophagus (squamous → columnar) |
+| Dysplasia | Disordered growth, pre-neoplastic | Cervical intraepithelial neoplasia |
 
-**Necrosis types (NEET PG high-yield):**
-- **Coagulative necrosis**: Ischemia/infarction (most common); architecture preserved; denatured proteins
-- **Liquefactive necrosis**: Brain abscess, bacterial infections; liquefaction by lysosomal enzymes
-- **Caseous necrosis**: TB (cheese-like); no architecture preserved; granulomatous
-- **Gangrenous necrosis**: Dry (coagulative) vs wet (liquefactive); depends on superinfection
-- **Fat necrosis**: Pancreatic lipases digest fat; saponification (white chalky deposits); also traumatic fat necrosis
-- **Fibrinoid necrosis**: Vasculitis, malignant hypertension; immune complex deposition
+- Reversible injury → cellular swelling (hydropic change), fatty change, ribosome detachment.
+- Irreversible injury → mitochondrial membrane damage, intracellular Ca²⁺ > 100 µmol/L, plasma membrane phospholipid loss.
 
-**Apoptosis**: Single cell death; cell shrinkage; chromatin condensation (pyknosis → karyorrhexis); apoptotic bodies; **no inflammation**.
-
-⚡ **Exam tip**: "Cheese-like material in lung lesion" = caseous necrosis → TB. "Eosinophilic cytoplasm with no nucleus" = coagulative necrosis. "Apoptotic bodies with no inflammation" = apoptosis.
+> 💡 **High-Yield Memory Hook:** **"Hyper=more, trophy=size; Hyper=more, plasia=number"** — and necrosis always means inflammation, apoptosis never does ("N-asty inflammation, A-quiet apoptosis").
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-## Causes of Cell Injury
+#### Core Mechanisms of Cell Injury
 
-**Hypoxia/ischemia** (most common): Reduced oxygen delivery — atherosclerosis (arterial occlusion), anemia, cardiac failure. Reversible if <20 minutes; irreversible after prolonged ischemia.
+Four biochemical pathways dominate Robbins' chapter: **ATP depletion**, **membrane permeabilization**, **cytosolic calcium influx with mitochondrial dysfunction**, and **reactive oxygen species (ROS) generation**. Ischemia is the prototype because it hits all four at once — hypoxia blocks oxidative phosphorylation, ATP falls, Na⁺/K⁺ pumps fail, and the cell swells.
 
-**Free radicals / Oxidative stress**: Reactive oxygen species (ROS) — superoxide (O₂⁻), hydrogen peroxide (H₂O₂), hydroxyl (OH•); causes lipid peroxidation, protein denaturation, DNA damage. Antioxidants: Glutathione, superoxide dismutase, catalase, vitamin E.
+The general sequence is reversible first, irreversible second. **Reversible injury** is dominated by cellular swelling (hydropic change) and fatty change; ultrastructurally, ribosomes detach from rough ER. **Irreversible injury** begins when mitochondrial membrane damage causes the permeability transition pore to open, calcium floods the cytosol, and phospholipid loss ruptures the plasma membrane.
 
-**Chemical/toxin injury**: Cyanide (blocks cytochrome oxidase → blocks aerobic respiration → rapid death); carbon monoxide (binds Hb → cherry red skin); heavy metals (lead, mercury); drugs (acetaminophen depletes glutathione → hepatotoxicity)
+#### Comparison Matrix: Apoptosis vs Necrosis
 
-**Infectious agents**: Viruses, bacteria, parasites — direct cytopathic effect or immune-mediated damage
-
-**Immunologic reactions**: Autoimmune disease (SLE, Goodpasture), hypersensitivity reactions, transplant rejection
-
-**Nutritional deficiencies**: Protein-energy malnutrition (kwashiorkor, marasmus), vitamin deficiencies (scurvy = Vit C, rickets = Vit D)
-
-**Physical agents**: Trauma, burns, radiation (ionizing radiation → free radical formation), hypothermia, hyperthermia
-
-## Mechanisms of Cell Injury
-
-1. **ATP depletion** → Na⁺/K⁺ ATPase failure → cellular swelling
-2. **Mitochondrial dysfunction** → cytochrome c release → triggers apoptosis (intrinsic pathway)
-3. **Increased intracellular Ca²⁺** → activates proteases, endonucleases, ATPases → cell damage
-4. **Free radical accumulation** → lipid peroxidation, protein oxidation, DNA damage
-5. **Loss of cell membrane integrity** → irreversible injury
-
-## Reversible Cell Injury
-
-- **Cellular swelling**: Blebbing, vacuolization (dilated ER); due to Na⁺/K⁺ pump failure
-- **Fatty change (steatosis)**: Accumulation of triglycerides in cytoplasm; liver (alcohol, toxins, metabolic syndrome), heart (obesity, alcoholism)
-- **Hydropic change**: Intracellular water accumulation
-- **Nuclear changes**: Chromatin clumping; myelin figures (membranous whorls from damaged ER/lysosomes)
-
-## Irreversible Cell Injury & Necrosis
-
-### Necrosis vs Apoptosis
-
-| Feature | Necrosis | Apoptosis |
+| Feature | Apoptosis | Necrosis |
 |---|---|---|
-| Nature | Accidental, pathologic | Programmed, physiologic |
-| Extent | Affects groups of cells | Affects single cells |
-| Cell size | Swells | Shrinks |
-| Nucleus | Pyknosis → karyorrhexis → karyolysis | Chromatin condensation → internucleosomal cleavage |
-| Cell membrane | Disrupted | Intact (until late) |
-| Inflammation | Prominent | Absent |
-| Example | Infarction, trauma | Embryologic development, hormone withdrawal |
+| Trigger | Physiologic or pathologic programmed signal | Acute, severe injury (ischemia, toxin) |
+| Energy requirement | ATP-dependent | Not required |
+| Cell volume | Cell shrinks, blebbing | Cell swells, bursts |
+| Nucleus | Pyknosis → karyorrhexis → karyolysis | Karyolysis predominates late |
+| Membrane integrity | Preserved until late | Lost early |
+| Inflammation | Absent (quiet phagocytosis) | Always present |
+| Pattern | Single cells | Groups of contiguous cells |
+| Final breakdown | Apoptotic bodies phagocytosed | Cellular contents leak into interstitium |
 
-### Types of Necrosis
+#### Necrosis Patterns by Organ
 
-**Coagulative necrosis**:
-- Most common type; caused by ischemia/hypoxia in most organs EXCEPT brain
-- Denaturation of structural proteins AND enzymes (blocks proteolysis temporarily)
-- Architecture of dead cells preserved for days; eventually replaced by fibrosis/scar
-- **Gross**: Pale, firm tissue with preserved outline
-- **Examples**: Myocardial infarction (first 24–48 hrs before softening); renal infarction; splenic infarction
-
-**Liquefactive necrosis**:
-- Complete enzymatic digestion of dead cells; tissue liquefies
-- **Brain** (most common site): Ischemic stroke in brain → liquefactive necrosis (brain has high lipid content, low protein, abundant hydrolases); produces cystic cavity
-- **Bacterial infections** (abscess): Neutrophils release lysosomal enzymes → liquefaction
-- **Gross**: Yellow-white, soft, liquid/purulent material
-
-**Caseous necrosis**:
-- Combination of coagulative necrosis + fat necrosis
-- **Gross**: White, cheesy, granular material (resembles cottage cheese)
-- **Microscopy**: Granulomatous inflammation; epithelioid cells, Langhans giant cells, rim of lymphocytes; central acellular eosinophilic area with destroyed architecture
-- **Classic cause**: Tuberculosis; also seen in some fungal infections (histoplasmosis), syphilis, and nodular vasculitis
-- **Distinguished from coagulative**: No preserved architecture; appears amorphous with debris
-
-**Gangrenous necrosis**:
-- Not a true type but a clinical term; usually in limbs (legs) or hollow organs (gallbladder, bowel)
-- **Dry gangrene**: Coagulative necrosis + superimposed ischemia; tissue becomes dry, black, shriveled; due to gradual arterial occlusion
-- **Wet gangrene**: Liquefactive necrosis + superimposed bacterial infection; swollen, foul-smelling; due to both arterial and venous occlusion
-- **Gas gangrene**: Clostridium perfringens infection of traumatic/surgical wounds; produces gas in tissues (crepitus); rapidly fatal
-
-**Fat necrosis**:
-- **Enzymatic**: Pancreatic lipases (released during acute pancreatitis) digest peripancreatic fat → saponification (fatty acids bind calcium → chalky white deposits); also seen in breast tissue trauma
-- **Non-enzymatic**: Traumatic fat necrosis (breast, subcutaneous tissue after injury); release of intracellular fat
-
-**Fibrinoid necrosis**:
-- Immune complex deposition in walls of arterioles, capillaries, arterioles
-- **Microscopy**: Bright pink (eosinophilic), amorphous material (fibrin + immune complexes + complement) within vessel wall; looks like fibrin
-- **Examples**: Malignant hypertension (blood pressure >180/120 → arteriolar fibrinoid necrosis); vasculitis (PAN, SLE); rheumatic heart disease (Aschoff bodies at MV); hyperacute transplant rejection
-
-## Apoptosis
-
-### Pathways
-
-**Intrinsic (mitochondrial) pathway**:
-- Triggered by: DNA damage, growth factor withdrawal, free radicals, oncogenes, viral infections
-- Cytochrome c release from mitochondria → Apoptosome (cytochrome c + Apaf-1 + procaspase-9) → Caspase-9 → Caspase-3
-- **Bcl-2 family**: Pro-apoptotic (BAX, BAK, BAD); Anti-apoptotic (Bcl-2, Bcl-XL)
-- Regulated by p53 (activates pro-apoptotic BAX)
-
-**Extrinsic (death receptor) pathway**:
-- **Fas (CD95)** + Fas ligand → Fas trimerization → FADD → Caspase-8 → Caspase-3
-- **TNF pathway**: TNF-α binds TNFR1 → TRADD → FADD/Caspase-8 → Caspase-3
-- **Physiologic**: Embryogenesis (web dissolution between digits), immune tolerance, hormone-dependent involution (endometrium, lactating breast)
-
-### Features of Apoptosis
-
-- Cell shrinkage (not swelling)
-- Chromatin condensation → nuclear fragmentation (karyorrhexis)
-- **Caspase-activated DNase (CAD)** — cleaves DNA at internucleosomal sites → DNA laddering (180-bp multiples)
-- **Apoptotic bodies**: Membrane-bound fragments containing nuclear/cytoplasmic debris; rapidly phagocytosed by neighboring cells/macrophages
-- **No inflammation** — phosphatidylserine on outer membrane signals phagocytes ("eat me signal")
-- **Blebbing**: Membrane blebs detach → apoptotic bodies
-
-### Apoptosis vs Necrosis Morphology
-
-| | Apoptosis | Necrosis |
+| Pattern | Site/pathology | Hallmark |
 |---|---|---|
-| Cell size | Shrinks | Swells |
-| Nucleus | Condensed, fragmented | Liquefies |
-| Cytoplasm | Dense, eosinophilic | Lethal enzyme release |
-| Cell membrane | Intact (until end) | Ruptures |
-| Inflammation | None | Prominent |
-| Surrounding tissue | Normal | Inflammatory infiltrate |
+| Coagulative | Heart, kidney, spleen (ischemia) | Preserved tissue architecture for days |
+| Liquefactive | Brain infarct, bacterial abscess | Enzymatic dissolution of tissue |
+| Caseous | Tuberculosis, fungal | "Cheese-like," structure obliterated |
+| Fat | Pancreatitis, breast trauma | Saponification with calcium soaps |
+| Fibrinoid | Immune-mediated vasculitis | Pink fibrin-like vessel wall |
+| Gangrenous | Limb (dry/wet) | Coagulative ± superimposed infection |
+
+> 📌 **Formula Check:** Apoptotic Index = (Apoptotic cells / Total cells counted) × 100. A value above the lab reference threshold suggests increased programmed cell death in that tissue — useful in tumour grading.
+
+#### 🎯 Exam-Level Worked Problem
+
+**Question:** A 55-year-old chronic smoker develops foot gangrene after peripheral arterial occlusion. The amputated toe shows extensive tissue necrosis but serum calcium, viral markers, and bacterial cultures are unremarkable. Which pattern of necrosis best explains the lesion, and is it reversible?
+Options: (a) Liquefactive, reversible  (b) Coagulative, irreversible  (c) Caseous, irreversible  (d) Fat necrosis, reversible
+
+#### Solution:
+1. Identify the lesion: limb ischemia from arterial occlusion → coagulative necrosis is the default ischemic pattern in solid organs, although this is gangrene of an extremity.
+2. Toe (a peripheral, soft-tissue site) without infection = dry gangrene, histologically coagulative. Without superimposed infection it stays dry; secondary infection converts it to wet gangrene.
+3. Coagulative necrosis preserves the tissue outline; architecture remains visible for days before inflammatory cells remove debris.
+4. Irreversible cell injury is confirmed because membrane integrity, mitochondrial function, and nuclear DNA are all destroyed — there is no return to viability.
+5. Final answer: **(b) Coagulative, irreversible**.
+
+> ⚠️ **Examiner Trap:** Students often pick (a) liquefactive because gangrene "feels wet," but in the absence of infection this is dry gangrene — coagulative. Liquefactive is reserved for CNS infarcts and bacterial abscesses because CNS lipid-rich tissue lyses quickly.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-## Intracellular Accumulations
+#### Intracellular Accumulations and Pathologic Calcification
 
-### Fatty Change (Steatosis)
+Cells also respond by accumulating substances that may be normal but excessive, or abnormal. **Steatosis** (triglyceride) is the prototypical accumulation in alcoholic and non-alcoholic fatty liver disease. **Hemosiderosis** deposits iron, **lipofuscin** is the wear-and-tear pigment of aging/permanent cells, and **anthracosis** traps carbon in lung macrophages.
 
-- Triglycerides accumulate in liver, heart, kidney (due to increased uptake, synthesis, or decreased oxidation/export)
-- **Causes**: Alcohol (most common in developed countries), obesity, diabetes mellitus, protein-calorie malnutrition, toxins (CCl₄, aflatoxin), Reye syndrome, Wilson disease
-- **Gross**: Enlarged, yellow, greasy liver
-- **Microscopy**: Microvesicular (small droplets displacing nucleus) or macrovesicular (one large droplet displacing nucleus) — both seen in different conditions
-- **Alcoholic fatty liver**: Macrovesicular; reversible with abstinence
-- **Microvesicular steatosis**: Seen in acute fatty liver of pregnancy, Reye syndrome, valproic acid toxicity (impaired beta-oxidation of fatty acids)
+**Pathologic calcification** appears in two forms that examiners love to mix up:
 
-### Amyloid
+| Type | Tissue substrate | Serum Ca²⁺ | Common cause |
+|---|---|---|---|
+| Dystrophic | Damaged / necrotic | Normal | Atheromas, TB granulomas, psammoma bodies |
+| Metastatic | Normal tissue | Raised | Hyperparathyroidism, vitamin D toxicity, malignancy with bone lysis |
 
-- Misfolded proteins forming β-pleated sheet structure; deposits in extracellular space
-- **Congo red stain**: Apple-green birefringence under polarized light (pathognomonic)
-- **Types**: AL (primary, light chain), AA (secondary, reactive), ATTR (transthyretin = familial amyloid, senile systemic)
-- **Sites**: Kidney (nephrotic syndrome), liver (hepatomegaly), heart (restrictive cardiomyopathy), spleen, peripheral nerves
+#### Apoptosis Pathways
 
-### Cholesterol & Cholesterol Esters
+- **Intrinsic (mitochondrial) pathway** — controlled by Bcl-2 family proteins. **Bax and Bak** are pro-apoptotic; **Bcl-2 and Bcl-xL** are anti-apoptotic. Cytochrome c released into the cytosol binds Apaf-1, forms the apoptosome, and activates **caspase-9** → executioner **caspase-3, -6, -7**.
+- **Extrinsic (death receptor) pathway** — Fas ligand binds Fas (CD95), TNF binds TNFR; adaptor proteins FADD/TRADD recruit and activate **caspase-8**, which cleaves Bid to tBid (cross-talk to mitochondria) and activates downstream executioner caspases.
 
-- Atherosclerosis: Lipid-laden macrophages (foam cells) in intima of arteries
-- Xanthomas: Tendon xanthomas (Achilles, extensor tendons of hands) in familial hypercholesterolemia; eruptive xanthomas in diabetics
+#### Edge Cases Students Miss
 
-### Glycogen
+1. **Dysplasia is not a true adaptation** — it lies at the boundary between adaptation and neoplasia. It is a disordered, atypical growth that frequently progresses to carcinoma in situ (e.g., CIN, oral leukoplakia).
+2. **Neurons and cardiac myocytes are permanent cells** — they respond to demand only by **hypertrophy**, never hyperplasia. Confusing the two loses marks.
+3. **Coagulative necrosis does NOT occur in the brain** — CNS infarction produces liquefactive necrosis because neural tissue is lipid-rich and lacks the supporting stromal framework that preserves outline elsewhere.
+4. **Ischemia-reperfusion injury paradox** — restoring blood flow brings oxygen that fuels ROS production, paradoxically worsening injury via the Fenton reaction (Fe²⁺ + H₂O₂ → Fe³⁺ + ·OH + OH⁻).
+5. **Lipofuscin is the residue of lipid peroxidation** — it accumulates in long-lived permanent cells such as cardiac myocytes and neurons, and is the substrate for "brown atrophy" of aging myocardium.
+6. **Serum LDH release kinetics** — LDH rises 24–48 h after irreversible injury and remains elevated up to a week, making it a late but reliable necrosis marker.
+7. **Intracellular Ca²⁺ threshold** — when cytosolic Ca²⁺ exceeds roughly 100 µmol/L, the permeability transition pore opens, and reversible injury becomes irreversible.
 
-- Glycogen storage diseases (GSD): Type I (von Gierke — glucose-6-phosphatase deficiency → hepatomegaly, hypoglycemia); Type II (Pompe — lysosomal acid maltase deficiency → cardiomegaly, muscle weakness)
-- Diabetes mellitus: Glycogen in proximal tubule cells (Armanni-Ebstein lesion — clear cells with glycogen)
+#### Free Radical Chain Reaction (for the chemistry-inclined)
 
-### Bilirubin
+$$\text{ROO}^{\bullet} + \text{LH} \rightarrow \text{ROOH} + \text{L}^{\bullet}$$
 
-- Jaundice: Unconjugated hyperbilirubinemia (hemolysis, Gilbert syndrome, Crigler-Najjar) vs conjugated (hepatocellular, cholestatic)
-- Hemosiderin (iron storage): Blue granules; Prussian blue stain
+Where ROO· is a peroxyl radical, LH is an unsaturated lipid, and L· is a lipid radical. Rate constant *k* has SI units of M⁻¹·s⁻¹ (dimension T⁻¹). This chain propagates until antioxidants (vitamin E, glutathione, superoxide dismutase, catalase) terminate it.
 
-## Calcification
+#### Advanced Practice Prompts
 
-**Dystrophic calcification**:
-- Calcium deposits in dead/necrotic tissue; serum calcium is NORMAL
-- Examples: Atherosclerotic plaques, damaged/necrotic heart valves (post-MI), tuberculous lesions (caseous necrosis), fat necrosis (saponification)
-
-**Metastatic calcification**:
-- Calcium deposits in normal tissues due to HYPERCALCEMIA
-- Causes: Hyperparathyroidism (primary > secondary > tertiary), vitamin D intoxication, milk-alkali syndrome, chronic renal failure (renal osteodystrophy → secondary hyperparathyroidism), bone destruction (malignancy, Paget disease)
-- **Sites**: Gastric mucosa, kidney (nephrocalcinosis), lungs (interstitial), blood vessels (medial calcification), cornea (band keratopathy)
-- **Metastatic** = calcium goes TO tissues; **Dystrophic** = calcium deposits IN dead tissue
-
-## Cellular Aging
-
-- **Telomere shortening**: Somatic cells lose ~50-200 bp of telomeric DNA per cell division; when critically short → senescence
-- **Oxidative damage**: Free radical accumulation over time
-- **Advanced glycation end-products (AGEs)**: Non-enzymatic glycation of proteins (associated with diabetes complications)
-- **DNA damage accumulation**: Mutations, mitochondrial DNA deletions
-- **Lipofuscin ("wear and tear" pigment)**: Brown, granular pigment = lipid peroxidation products + protein aggregates; accumulates in long-lived cells (neurons, cardiac myocytes, hepatocytes); no known functional significance
-
-## Autophagy
-
-- Self-eating; cells degrade their own components for survival during nutrient deprivation
-- **Steps**: Isolation membrane → autophagosome (double membrane) → fusion with lysosome → autolysosome
-- **Regulated by**: mTOR (inhibits) and AMPK (activates); Beclin-1 gene
-- **Types**: Macroautophagy (most common), microautophagy, chaperone-mediated autophagy
-- **Role**: Adapt to starvation, remove damaged organelles (mitochondria = mitophagy), quality control, tumor suppression (defective autophagy → cancer)
-- **Defects**: Neurodegeneration (Huntington, Parkinson), myopathy, cancer predisposition
-
-## Key NEET PG Pearls
-
-1. **Reversible injury**: Cellular swelling, fatty change — return to normal if insult removed
-2. **Coagulative necrosis**: Architecture preserved (ischemia in all organs EXCEPT brain); most common type
-3. **Liquefactive necrosis**: Brain + bacterial infections; complete digestion by enzymes
-4. **Caseous necrosis**: Granulomatous; "cheese-like"; TB is the classic cause
-5. **Fibrinoid necrosis**: Immune complex in vessel wall; malignant hypertension, vasculitis, rheumatic heart disease
-6. **Fat necrosis**: Pancreatic lipases → saponification (chalky white calcium soaps)
-7. **Apoptosis**: Single cell death, no inflammation; DNA laddering (180-bp internucleosomal fragments)
-8. **Caspase-3** = executioner caspase (common to both intrinsic and extrinsic apoptosis pathways)
-9. **Dystrophic calcification** = calcium in dead tissue (NORMAL calcium levels); **Metastatic calcification** = calcium in normal tissue (HIGH calcium levels)
-10. **Lipofuscin**: "Wear and tear" brown pigment; accumulates in aging hearts, livers, neurons; harmless
+1. A 6-year-old boy with Wilson disease shows hepatic copper accumulation. Predict which intracellular organelle is most damaged first and how that shifts mitochondrial membrane potential.
+2. Atherosclerotic plaque with areas of necrotic core shows basophilic, gritty deposits on H&E staining. Identify the calcification type and explain why this occurs despite normal serum calcium.
 
 ---
+
+## Continue your study
+
+- **[View this topic in your NEET PG roadmap](/roadmap/?exam=neet-pg&duration=1mo)** — see where "Cell Injury, Adaptation & Death" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=neet-pg&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NEET PG exam overview](/exams/neet-pg/)** — pattern, eligibility, and syllabus
+- **[All Pathology notes](/notes/neet-pg/pathology/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

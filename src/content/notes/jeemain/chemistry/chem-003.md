@@ -8,7 +8,7 @@ topicName: Chemical Bonding
 weight: 3
 country: india
 generated: "2026-03-28T21:08:52"
-lastUpdated: "2026-07-11"
+lastUpdated: "2026-09-16"
 ---
 
 # Chemical Bonding
@@ -16,101 +16,96 @@ lastUpdated: "2026-07-11"
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Chemical bonding** is the force holding atoms, ions, or molecules together as a stable aggregate. Atoms bond to reach a noble-gas configuration — octet (8 e⁻) for most, duplet (2 e⁻) for H, He.
+**Chemical bonding** is the net electrostatic force holding atoms, ions, or molecules together, classified by the way valence electrons are distributed: **ionic** (electron transfer, Δχ > ~1.7 on Pauling scale), **covalent** (mutual sharing), **coordinate / dative** (one-atom donation, both electrons from the donor), and **metallic** (delocalised electron sea).
 
-| Type | Mechanism | Example |
-|------|-----------|---------|
-| Ionic | Electron transfer; lattice energy | NaCl |
-| Covalent | Electron sharing; σ (axial) + π (lateral) | H–H, C=C |
-| Coordinate | Both e⁻ from one atom | NH₄⁺, H₃O⁺ |
-| Metallic | Delocalised e⁻ sea | Cu, Fe |
+Two theoretical frameworks dominate JEE Main problems:
 
-Must-know formulas:
-- **Bond order** = (N_b − N_a)/2
-- **Dipole moment** μ = q × d (1 D = 3.33564 × 10⁻³⁰ C·m)
-- **% ionic character** = (μ_observed / μ_100% ionic) × 100
-- **Formal charge** = V − N − ½B
+- **VSEPR Theory** — predicts shape from lone pair (lp) – bond pair (bp) repulsion order: **LP–LP > LP–BP > BP–BP**.
+- **Molecular Orbital Theory (MOT)** — gives **bond order = (N_b − N_a)/2**, bond length, and magnetic behaviour; paramagnetic species have unpaired electrons (e.g., O₂ has 2 unpaired e⁻ in π*2p).
 
-High-yield traps: O₂ and B₂ are **paramagnetic** by MOT (Lewis wrongly predicts diamagnetic); BF₃ has an **incomplete** octet; SF₆ an **expanded** one; H₂O is **bent**, not linear.
+| Quantity | Formula | SI unit / scale |
+|---|---|---|
+| Bond order (MOT) | (N_b − N_a)/2 | dimensionless |
+| Dipole moment | μ = q × d | C·m (1 D = 3.336×10⁻³⁰ C·m) |
+| % ionic character | 16 Δχ + 3.5 (Δχ)² | %, Pauling Δχ |
+| Spin-only μ | √[n(n+2)] | Bohr magneton (BM) |
+
+> 💡 **High-Yield Memory Hook:** **"Sigma is head-on, Pi is side-on"** — σ forms by axial overlap (s–s, s–p, p–p along axis), π forms by lateral overlap (p–p sideways). Triple bond = 1 σ + 2 π.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-#### Octet Rule and Its Limits
+#### Bond Types and Governing Forces
 
-Atoms gain/lose/share electrons to reach ns²np⁶ (or 1s²). Exceptions appear in three forms:
+Ionic bonds form when an atom of low ionisation enthalpy (metal) transfers an electron to an atom of high electron gain enthalpy (non-metal). The lattice enthalpy (U ∝ Z⁺Z⁻e² / (r⁺+r⁻)) compensates for the energy spent on ionisation. Covalent bonds form by mutual sharing to satisfy the octet; a coordinate bond is a covalent bond where one atom (donor) supplies both electrons (e.g., NH₃ → BF₃). Metallic bonds arise from electrostatic attraction between cations and a delocalised "sea" of valence electrons, explaining conductivity and malleability.
 
-| Exception | Reason | Examples |
-|-----------|--------|----------|
-| Incomplete octet | Electron deficiency in central atom | BF₃, AlCl₃, BeH₂ |
-| Expanded octet | Available 3d orbitals (period ≥ 3) | PCl₅, SF₆, XeF₄ |
-| Odd-electron species | Unpaired e⁻ unavoidable | NO, NO₂, ClO₂ |
+#### Fajans' Rules — When "Ionic" Behaves Covalent
 
-#### VSEPR Theory
+A nominally ionic bond gains covalent character when the cation is small and highly charged (high polarising power) and the anion is large and highly charged (high polarisability). Example: **LiI is more covalent than CsF**, even though both have ionic formulations.
 
-Repulsion order is **lp–lp > lp–bp > bp–bp**. Geometry is set by steric number (σ-bonds + lone pairs) around the central atom:
+#### VSEPR vs Hybridisation
 
-- AX₂ — linear, 180°
-- AX₃ — trigonal planar, 120°
-- AX₂E₂ — bent (~104.5°, H₂O)
-- AX₃E — trigonal pyramidal (~107°, NH₃)
-- AX₅ — trigonal bipyramidal (90°/120°)
-- AX₆ — octahedral, 90°
+VSEPR is the **primary** shape predictor. Hybridisation is a *post-hoc* rationalisation of the observed geometry, not a cause.
 
-#### Hybridization and Geometry
+| Hybridisation | Geometry | Bond angle | Example |
+|---|---|---|---|
+| sp | Linear | 180° | BeCl₂, CO₂ |
+| sp² | Trigonal planar | 120° | BF₃, C₂H₄ |
+| sp³ | Tetrahedral | 109.5° | CH₄, NH₄⁺ |
+| sp³d | Trigonal bipyramidal | 90°, 120° | PCl₅ |
+| sp³d² | Octahedral | 90° | SF₆ |
 
-Hybridisation matches the **number of σ-bonds + lone pairs**, not the drawn shape. sp³d gives trigonal bipyramidal, but dsp² (a hybrid variant) is used for **square planar** complexes like [PtCl₄]²⁻.
+#### Molecular Orbital Theory (LCAO)
 
-#### Valence Bond and Molecular Orbital Theory
+Atomic orbitals combine into bonding (σ, π) and antibonding (σ\*, π\*) molecular orbitals. Filling order for diatomics with Z ≤ 7 (N₂, C₂, B₂) has no s–p mixing, so π2p lies below σ2p. For Z ≥ 8 (O₂, F₂), σ2p lies below π2p. Bond order, bond length, and bond enthalpy follow the inverse correlation: **higher BO ⇒ shorter length, larger dissociation enthalpy**.
 
-VBT treats bonds as localised overlap: σ bonds form by axial (head-on) overlap, π by lateral (sideways). MOT combines atomic orbitals into bonding (lower energy) and antibonding (higher energy) molecular orbitals. The magnetic test:
+#### 🎯 Exam-Level Worked Problem
 
-- **Diamagnetic** — all electrons paired (N₂, C₂, F₂, Ne₂)
-- **Paramagnetic** — unpaired electrons present (O₂ has 2; B₂ has 2)
+**Question:** Among N₂, O₂, F₂, and CO, which species has the highest bond order, and is O₂ diamagnetic or paramagnetic? Justify using MOT. (JEE Main style — 1 mark)
 
-#### Worked Bond Order — O₂
+#### Solution:
 
-Electronic configuration: (σ1s)²(σ*1s)²(σ2s)²(σ*2s)²(σ2p_z)²(π2p_x)²(π2p_y)²(π*2p_x)¹(π*2p_y)¹ → N_b = 10, N_a = 6 → **Bond order = 2**, two unpaired electrons → **paramagnetic**.
+1. Write electron counts and fill MO diagrams (Z ≤ 7: σ1s, σ\*1s, σ2s, σ\*2s, π2p_x, π2p_y, σ2p_z; Z ≥ 8: σ2p_z below π2p_x/y).
+2. **N₂ (14 e⁻):** N_b = 10, N_a = 4 → **BO = (10 − 4)/2 = 3**.
+3. **CO (14 e⁻):** Same electron count, similar BO ≈ 3 (slightly higher due to heteronuclear effect).
+4. **O₂ (16 e⁻):** N_b = 10, N_a = 6 → **BO = 2**; configuration ends with (π\*2p_x)¹(π\*2p_y)¹ — **two unpaired electrons, paramagnetic**, μ_s = √[2(2+2)] = √8 ≈ **2.83 BM**.
+5. **F₂ (18 e⁻):** N_b = 10, N_a = 8 → **BO = 1**.
+
+**Answer:** **CO (or N₂)** has the highest bond order (3); **O₂ is paramagnetic**.
+
+> ⚠️ **Examiner Trap:** Students mark O₂ as diamagnetic because the Lewis structure satisfies the octet. MO theory shows the last two electrons occupy the **degenerate π\*2p** orbitals singly (Hund's rule), giving 2 unpaired e⁻. Always check the MO filling, not the dot structure.
+
+#### Resonance and Polarity
+
+Resonance delocalises π/lone electrons across canonical forms (e.g., benzene, CO₃²⁻, O₃); the hybrid is more stable than any single form. Polarity is **bond-level** (governed by Δχ) and **molecular-level** (vector sum of bond dipoles): CO₂ is nonpolar (linear, dipoles cancel), H₂O is polar (bent, μ ≈ 1.85 D).
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-#### Fajans' Rules — When an Ionic Bond Turns Covalent
+#### Edge Cases and S–p Mixing in MOT
 
-A nominally ionic bond acquires covalent character when the cation strongly polarises the anion. Polarising power of the cation rises with:
-- small ionic radius (Li⁺ > Na⁺ > K⁺)
-- high charge (Al³⁺ > Mg²⁺ > Na⁺)
-- cation with non-noble-gas configuration (Cu⁺, Ag⁺)
+The MO ordering exception hinges on **s–p mixing**: when the 2s and 2p atomic orbitals of the two atoms are close in energy (small atoms like B, C, N), they mix and push σ2p above π2p. From O onward, the energy gap widens and mixing is negligible, restoring σ2p_below π2p. This single fact changes the bond orders of B₂ (BO = 1, paramagnetic, 2 unpaired e⁻) and C₂ (BO = 2) compared with a "no-mixing" picture. Heteronuclear cases (CO, NO, CN⁻) introduce unequal contributions and effective formal charges (Cδ⁻ in CO).
 
-Anion polarisability grows with large size and high charge (I⁻ > Br⁻ > Cl⁻). This explains why AgCl is colourless and covalent while NaCl is ionic, and why LiI is more covalent than LiF.
+#### Advanced Traps and Exceptions
 
-#### Born–Landé Lattice Enthalpy
-
-$$U = -\frac{N_A M z^+ z^- e^2}{4\pi\varepsilon_0 r_0}\left(1 - \frac{1}{n}\right)$$
-
-The (1 − 1/n) term corrects for short-range repulsion between electron clouds; omitting it gives the wrong sign and magnitude. The **Born exponent n** lies between 5 and 12, larger for smaller, harder ions. Trends: U increases with |z⁺·z⁻| and decreases with r₀ — that is why MgO (U ≈ 3850 kJ/mol) is far more stable than NaCl (U ≈ 787 kJ/mol).
-
-#### Hydrogen Bonding
-
-A H-bond is a strong dipole–dipole interaction X–H···Y where X, Y are N, O, or F. It explains:
-- HF having the highest boiling point in its group despite the lowest molar mass
-- Ice being less dense than water (open H-bonded lattice)
-- DNA base pairing (intramolecular H-bonds between complementary strands)
+1. **NO (15 e⁻):** BO = 2.5, one unpaired electron → paramagnetic, μ_s = √3 ≈ 1.73 BM. Its bond length lies between N₂ (BO 3) and O₂ (BO 2).
+2. **Square planar ≠ sp³d²:** [Ni(CN)₄]²⁻ is **dsp²** (inner orbital, low-spin d⁸), giving 90° angles — a coordination-chemistry exception to the simple sp³d² rule.
+3. **BrF₃ vs BF₃:** BF₃ is trigonal planar (sp², no lp). BrF₃ is **T-shaped** (sp³d, 2 lp occupy equatorial positions to minimise LP–LP repulsion).
+4. **Resonance vs Mesomerism:** identical concept; resonance energy = experimental ΔH_hydrogenation − calculated for a single Kekulé structure (benzene ≈ 150 kJ/mol).
+5. **Hydrogen bonding** is an *intermolecular* dipole-dipole force, not a true chemical bond, but JEE Main frequently tests its effect on boiling points (H₂O > H₂S, HF > HCl for the top member anomaly).
+6. **Percent ionic character** formula (16Δχ + 3.5Δχ²) is empirical and **overestimates** at large Δχ; HF is ~41% ionic by this formula but the experimental value is closer to 45% — a useful sanity check, not a strict law.
+7. **Lattice enthalpy trend:** smaller ions of higher charge → larger |U|; this is why MgO (Mg²⁺/O²⁻) has far higher melting point than NaCl (Na⁺/Cl⁻).
 
 #### Practice Prompts
 
-1. Compute the % ionic character of HCl given μ_observed = 1.08 D and bond length 127.5 pm. (Answer ≈ 18%)
-2. Using MOT, predict bond order, magnetism, and stability of C₂²⁻ versus O₂. Which is more stable?
+1. Arrange N₂, N₂⁺, N₂²⁻ in order of **increasing bond length**, and predict the magnetic behaviour of each using MOT.
+2. Predict the geometry, hybridisation, and number of lone pairs on the central atom in **SF₄, XeF₂, XeF₄, XeF₆, ClF₃, and I₃⁻** using VSEPR. Identify which are iso-structural.
 
-#### Adjacent Links to Revise Next
-
-- **p-block elements** — leans on VSEPR and interhalogen bonding.
-- **Coordination compounds** — extends dsp²/d²sp³ hybridisation and crystal field theory.
-- **Periodic trends** — ionisation enthalpy and electron gain enthalpy used in Mulliken χ.
+> 📌 **Formula Check:** Always quote Δχ on the **Pauling** scale when using 16Δχ + 3.5Δχ²; on the Mulliken scale the relationship differs. SI unit of μ is C·m, not Debye — convert via 1 D = 3.336×10⁻³⁰ C·m when numerical precision is required.
 
 ---
 

@@ -11,7 +11,7 @@ topicName: Sound Waves
 weight: 3
 country: nigeria
 generated: "2026-03-24T08:32:07.710608"
-lastUpdated: "2026-07-24"
+lastUpdated: "2026-09-16"
 diagramPrompt: "Clean educational diagram showing Sound Waves with clear labels, white background, labeled arrows for forces/fields/vectors, color-coded components, exam-style illustration"
 
 
@@ -23,78 +23,114 @@ diagramPrompt: "Clean educational diagram showing Sound Waves with clear labels,
 # Sound Waves
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your JAMB UTME Physics paper.
+> Rapid summary for last-minute revision before your exam.
 
-Sound is a **longitudinal mechanical wave** that needs a material medium; it travels as alternating **compressions** and **rarefactions** parallel to the direction of propagation. In air at 0 °C, v ≈ 330 m/s, rising by roughly 0.6 m/s for every 1 °C increase.
+**Sound waves** are longitudinal mechanical waves that travel through solids, liquids, and gases by alternating **compressions** (high-pressure regions) and **rarefactions** (low-pressure regions) parallel to the direction of propagation. Sound needs a material medium and cannot cross a vacuum.
 
-- **Wave equation:** v = fλ, where v is speed (m/s), f is frequency (Hz), λ is wavelength (m).
-- **Loudness ∝ amplitude²**; **pitch** depends on **frequency**.
-- Open pipes (both ends open) support all harmonics; closed pipes (one end closed) support only **odd harmonics** (1st, 3rd, 5th…).
-- Audible band: **20 Hz – 20,000 Hz**; below is infrasonic, above is ultrasonic.
-- JAMB angle: expect 1–2 MCQs on v = fλ, pipe resonance, or string frequencies.
+| Quantity | Symbol | SI Unit | Formula |
+|---|---|---|---|
+| Wave speed | v | m·s⁻¹ | v = fλ |
+| Period | T | s | T = 1/f |
+| Sound level | L | dB | L = 10 log₁₀(I/I₀), I₀ = 10⁻¹² W·m⁻² |
+| Speed in air | v | m·s⁻¹ | v ≈ 331 + 0.6t (t in °C) |
+| Speed in solid | v | m·s⁻¹ | v = √(E/ρ) |
+
+Key range facts: ultrasound **f > 20 kHz**, audible band **20 Hz–20 kHz**, infrasound **f < 20 Hz**. Speed ranking: **solids > liquids > gases** (sound travels faster in steel than in air).
+
+> 💡 **High-Yield Memory Hook:** **"CRA-V-S-P"** — Compressions and Rarefactions run Along (parallel to) the wave direction, Velocity in Solids is the highest, Pitch comes from frequency, Speed in air climbs 0.6 m·s⁻¹ per °C.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months before the exam.
+> Standard content for students with a few days to months.
 
-#### Speed in Different Media
+#### Wave Basics and the Speed Equations
 
-The speed of sound depends on the elasticity and density of the medium. In a solid rod, v = √(E/ρ); in a gas, v = √(γP/ρ). In air the convenient form is v = 330 + 0.6T, where T is temperature in °C. Solids transmit sound fastest (steel ≈ 5000 m/s), liquids are intermediate (water ≈ 1500 m/s), and gases are slowest because of low elasticity.
+A tuning fork prong pushes air molecules forward, compressing them, then recoils leaving a rarefaction behind. This is why a sound wave is **longitudinal**, not transverse like light or a stretched string. Three sub-topics of speed dominate JAMB questions:
 
-#### Loudness, Pitch and the Decibel Scale
+- In **air at 0 °C**, v ≈ 331 m·s⁻¹; at temperature t (°C), v = 331 + 0.6t.
+- In a **solid rod**, v = √(E/ρ), where E is Young's modulus (N·m⁻²) and ρ is density (kg·m⁻³).
+- In a **gas**, v = √(γP/ρ), with γ = C_p/C_v (adiabatic index, dimensionless), P pressure (N·m⁻²).
 
-**Loudness** is the perceptual response to amplitude — doubling amplitude raises intensity by a factor of four. The **intensity level** in decibels is L = 10 log₁₀(I/I₀), with I₀ = 10⁻¹² W/m² as the threshold of hearing. **Pitch** is set purely by frequency; a 512 Hz tuning fork always reads higher than a 256 Hz one, regardless of amplitude.
+The frequency f (Hz) and wavelength λ (m) are linked to speed by **v = fλ**, the single most-tested equation on this topic.
 
-| Property | Depends on | Typical exam question |
-| --- | --- | --- |
-| Speed of sound | Medium & temperature | "Why does sound travel faster in steel than in air?" |
-| Pitch | Frequency | "Raising f with constant A makes the sound…" |
-| Loudness | Amplitude | "Doubling amplitude increases intensity by a factor of…" |
-| Quality (timbre) | Harmonic content | "Two instruments at 440 Hz sound different because…" |
+#### Concept Comparison Matrix
 
-#### Vibrating Strings and Pipes
+| Feature | Open Pipe (e.g., flute) | Closed Pipe (e.g., stopped organ pipe) |
+|---|---|---|
+| End conditions | Pressure node at both open ends | Pressure node at open end, antinode at closed end |
+| Allowed harmonics | All: f, 2f, 3f, 4f… | Odd only: f, 3f, 5f, 7f… |
+| First overtone | 2f (2× fundamental) | 3f (3× fundamental) |
+| Fundamental wavelength | λ = 2L | λ = 4L |
+| Timbre | Brighter (even + odd partials) | Hollower (odd partials only) |
 
-A stretched string obeys f = (1/(2L))√(T/μ), with T = tension (N) and μ = mass per unit length (kg/m). For pipes, the **end correction** of 0.6r is added to the physical length so effective length Lₑ = L + 0.6r.
+| Quantity | Depends on | Common JAMB phrasing |
+|---|---|---|
+| **Pitch** | Frequency | "Higher f → higher pitch" |
+| **Loudness** | Amplitude (and intensity) | "Louder sound has bigger amplitude" |
+| **Timbre (quality)** | Harmonic content | "Same note, different instruments → different timbre" |
 
-- Open pipe, fundamental: f₁ = v/(2Lₑ); overtones at 2f₁, 3f₁, 4f₁ …
-- Closed pipe, fundamental: f₁ = v/(4Lₑ); overtones only at 3f₁, 5f₁, 7f₁ …
-- Minimum echo distance ≈ 17 m, assuming v ≈ 340 m/s and a 0.1 s persistence of hearing.
+#### Doppler Effect and Decibels
 
-> Exam trap: a closed pipe does **not** produce a 2nd harmonic — the first overtone there is already the 3rd harmonic.
+When source or observer moves, the observed frequency shifts:
+
+#### f′ = f · (v ± v_o) / (v ∓ v_s)
+
+where v_o is observer speed toward source (numerator **plus** if approaching), and v_s is source speed toward observer (denominator **minus** if approaching). Sound intensity level in decibels:
+
+#### L = 10 log₁₀(I/I₀), with I₀ = 10⁻¹² W·m⁻²
+
+A +10 dB change means a 10× intensity ratio; a +20 dB change means 100×.
+
+#### 🎯 Exam-Level Worked Problem
+
+**Question:** A whistle emitting 600 Hz moves toward a stationary observer at 30 m·s⁻¹. Take the speed of sound in air as 330 m·s⁻¹. What frequency does the observer hear?
+
+#### Solution:
+
+1. Identify the case: source moves **toward** observer, observer stationary → denominator uses v − v_s.
+2. Apply **f′ = f · v / (v − v_s)**:
+   - f′ = 600 × 330 / (330 − 30)
+   - f′ = 600 × 330 / 300
+   - f′ = 660 Hz.
+3. Convert and check units: f in Hz, v and v_s in m·s⁻¹, result in Hz — consistent.
+
+#### Answer: 660 Hz
+
+> ⚠️ **Examiner Trap:** Students flip the sign and write f′ = f · (v − v_s) / v, which would give 545 Hz. Memorise it as **"observer on top (numerator), source on the bottom (denominator)"** — and remember the minus sign appears in the denominator when the source approaches.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline who want mastery.
+> Comprehensive coverage for students on a longer study timeline.
 
-#### Why Only Odd Harmonics in a Closed Pipe
+#### Edge Cases and Boundary Conditions
 
-A closed end is a **displacement node**; an open end is a **displacement antinode**. Fitting a quarter wavelength into the pipe gives the fundamental (¼ λ). The next arrangement that places a node at the closed end and an antinode at the open end needs three quarters of a wavelength (¾ λ), forcing the second allowed wavelength to be one-third of the fundamental — hence only odd harmonics (1, 3, 5 …) survive. Open pipes accept both node–antinode and antinode–antinode boundaries, so every integer harmonic appears.
+- **Echo threshold:** The human ear distinguishes a reflected pulse from the original only if the gap exceeds ≈ 0.1 s. With v ≈ 340 m·s⁻¹, this demands a one-way distance of at least 17 m — hence the JAMB "minimum 17 m" rule of thumb.
+- **Reverberation vs echo:** Reverberation is the persistence of sound due to multiple reflections within a small room (≤ 0.1 s gaps blend); an echo is a single, distinct repetition (gap > 0.1 s).
+- **Temperature inversion of v = √(γRT/M):** The common student explanation "hot air is less dense, so sound travels faster" is incomplete. In the gas formula, v ∝ √T directly; the density ρ ∝ P/(RT) cancels most of its own effect, leaving the temperature dependence dominant. For air at STP, γ ≈ 1.4, M ≈ 0.029 kg·mol⁻¹, R = 8.314 J·mol⁻¹·K⁻¹, giving v ≈ √(1.4 × 8.314 × 273 / 0.029) ≈ 332 m·s⁻¹.
+- **Stationary wave nodes:** Pressure nodes coincide with displacement antinodes, and vice versa. This is why a flute (open both ends) has displacement nodes at both ends but pressure antinodes there.
 
-#### Echoes, Reverberation and Resonance
+#### Advanced Traps and Exceptions
 
-An **echo** is a single distinct reflection heard when the path difference exceeds about 17 m (≈ 0.1 s at 340 m/s). **Reverberation** is the persistence of sound from multiple overlapping reflections inside a hall; excessive reverberation muffles speech, so auditoria are lined with absorbent materials. **Acoustic resonance** explains the louder note when a tuning fork is held over a tube whose air column length matches a quarter wavelength of the fork's frequency — the air column amplifies the fork's vibration through sympathetic oscillation.
+1. **Closed-pipe overtone trap** — First overtone is 3f, not 2f; never write "2nd harmonic = 2× fundamental" for a closed pipe.
+2. **Decibel linearity trap** — Going from 40 dB to 80 dB is **not** "twice as loud" in intensity; it is 10 000× more intense.
+3. **Unit-conversion trap** — Doppler values given in km·h⁻¹ (e.g., 108 km·h⁻¹) must become 30 m·s⁻¹ before substitution.
+4. **Medium-order trap** — Sound travels faster in steel (≈ 5000 m·s⁻¹) than in water (≈ 1480 m·s⁻¹) than in air (≈ 340 m·s⁻¹); JAMB options occasionally swap liquids and gases.
+5. **Harmonic vs overtone labelling** — "1st overtone = 2nd harmonic", "2nd overtone = 3rd harmonic". For a closed pipe the 1st overtone (3f) equals the 3rd harmonic.
 
-| Mistake | Correct treatment |
-| --- | --- |
-| Using v = √(γP/ρ) for a metal rod | Use v = √(E/ρ) for solids |
-| Treating pitch and loudness as interchangeable | Pitch = frequency, loudness = amplitude |
-| Ignoring temperature correction | v in air = 330 + 0.6T (°C) |
-| Forgetting end correction 0.6r | Effective length Lₑ = L + 0.6r |
-| Assuming sound can travel in vacuum | Bell-in-jar experiment disproves this |
+#### Connections to Adjacent Topics
 
-#### Worked Micro-Example
+- **Wave motion (JAMB Physics):** The general v = fλ, transverse vs longitudinal contrast, and stationary-wave mathematics are tested in the same paper.
+- **Energy and intensity:** Sound intensity I = P/A (W·m⁻²) ties this topic to the work-energy and power sub-topics.
+- **Medical/industrial applications:** Ultrasound (f > 20 kHz) appears in JAMB "everyday physics" questions on sonar and pre-natal scanning.
 
-A pipe closed at one end is 0.25 m long with radius 0.01 m. Take v = 340 m/s.
-Effective length Lₑ = 0.25 + 0.6(0.01) = 0.256 m.
-Fundamental f₁ = v/(4Lₑ) = 340/(4 × 0.256) ≈ 332 Hz.
-First overtone = 3f₁ ≈ 996 Hz; second overtone = 5f₁ ≈ 1660 Hz.
+#### Two Practice Prompts
 
-#### Practice Prompts
+1. A stretched string 0.6 m long vibrates in its 4th harmonic with a wave speed of 240 m·s⁻¹. Find (a) the wavelength, (b) the frequency. *(Hint: 4th harmonic of a string fixed at both ends has 4 half-wavelengths inside length L.)*
+2. The intensity of a jackhammer at 5 m is 1.0 × 10⁻⁴ W·m⁻². At what distance will the sound level drop by 20 dB? *(Hint: −20 dB means intensity falls by factor 100; use inverse-square law I ∝ 1/r².)*
 
-1. A 0.5 m open pipe resonates at 340 Hz. Find the speed of sound and the wavelength of the fundamental.
-2. A string of mass per unit length 2 × 10⁻³ kg/m is stretched with 80 N tension over 0.6 m. Calculate its fundamental frequency.
+> 📌 **Formula Check:** Always keep v in m·s⁻¹ and f in Hz (= s⁻¹) so that λ comes out in metres. The Doppler denominator uses the **subtraction** sign whenever the source moves **toward** the observer.
 
 ---
 
@@ -105,5 +141,4 @@ First overtone = 3f₁ ≈ 996 Hz; second overtone = 5f₁ ≈ 1660 Hz.
 - **[JAMB UTME exam overview](/exams/jamb/)** — pattern, eligibility, and syllabus
 - **[All Physics notes](/notes/jamb/physics/)** — browse sibling topics in this subject
 
----
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

@@ -11,7 +11,7 @@ topicName: States of Matter and Gas Laws
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.567466"
-lastUpdated: "2026-07-05"
+lastUpdated: "2026-09-16"
 diagramPrompt: "Clear scientific diagram of States of Matter and Gas Laws with atom labels, molecular structure, reaction arrows, white background, color-coded bonds and groups, exam textbook style"
 
 
@@ -23,57 +23,113 @@ diagramPrompt: "Clear scientific diagram of States of Matter and Gas Laws with a
 # States of Matter and Gas Laws
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
-Matter exists as **solid**, **liquid** or **gas** — distinguished by how strongly **intermolecular forces** hold particles together versus how much **kinetic energy** they possess. Solids keep a fixed shape (particles vibrate in a lattice); liquids flow and take the shape of their container; gases expand to fill any container (particles move in random straight lines with negligible attractions between them). Gas behaviour is governed by four laws and the **ideal gas equation PV = nRT**. Use **absolute temperature in kelvin** (T(K) = °C + 273), never Celsius, in every gas-law calculation. **Molar volume at STP = 22.4 dm³ mol⁻¹**. High-yield NABTEB facts: convert all temperatures to kelvin first, and remember that Boyle's law needs constant T and n, Charles's needs constant P and n, and Gay-Lussac's needs constant V and n.
+> Rapid summary for last-minute revision before your NABTEB Chemistry paper.
+
+Matter exists in four physical forms — **solid, liquid, gas, and plasma** — distinguished by particle spacing, particle motion, and the strength of intermolecular forces. Gases have the weakest forces and the highest kinetic energy, so they expand to fill any container.
+
+The four gas laws plus the **Ideal Gas Equation (PV = nRT)** cover roughly 80% of NABTEB numerical questions on this topic.
+
+- **Boyle's Law**: P₁V₁ = P₂V₂ (constant T)
+- **Charles's Law**: V₁/T₁ = V₂/T₂ (constant P)
+- **Gay-Lussac's Law**: P₁/T₁ = P₂/T₂ (constant V)
+- **Avogadro's Law**: V₁/n₁ = V₂/n₂ (constant P, T)
+- **Ideal Gas Equation**: PV = nRT, where R = 8.314 J·mol⁻¹·K⁻¹
+
+| Quantity | Symbol | SI Unit |
+|---|---|---|
+| Pressure | P | Pa (1 atm = 101,325 Pa = 760 mmHg) |
+| Volume | V | m³ (1 dm³ = 10⁻³ m³) |
+| Temperature | T | K (T(K) = °C + 273) |
+| Amount | n | mol |
+
+At **STP** (273 K, 1 atm), 1 mole of an ideal gas occupies **22.4 dm³**; at **RTP** (298 K, 1 atm) it occupies **24.0 dm³**.
+
+> 💡 **High-Yield Memory Hook:** **"B-V**oys **C**onstant **T**ime, **C**harles **P**lays with **T**emperature, **G**ay-**L**ussac keeps **V**olume tight" — the boldface letter is the variable that stays CONSTANT. For the Ideal Gas Equation remember **"PV=nRT → PeeVee equals nART"**.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+> Standard content for students with a few days to months to revise.
 
-#### The Three States and What Distinguishes Them
-In a **solid**, particles are tightly packed in an ordered lattice; they only vibrate about fixed positions, so the substance has definite shape and volume. In a **liquid**, particles are still close enough that volume is essentially fixed, but they slide past each other, allowing the liquid to conform to the shape of its container. In a **gas**, particles are far apart, have negligible intermolecular attraction, and move freely — producing indefinite shape and indefinite volume as well as high **compressibility**.
+#### Kinetic Theory Foundations
+The kinetic theory of gases postulates that gas particles are in **constant, random, straight-line motion**, that collisions between particles (and with container walls) are **perfectly elastic**, that the actual volume of particles is **negligible** compared with the container, and that **no intermolecular forces** act between ideal particles. These assumptions produce the Ideal Gas Equation and explain why gases are compressible and mix uniformly.
 
-#### Kinetic Theory of Gases
-Gas particles are assumed to (i) move in continuous random straight lines, (ii) collide elastically (no net energy loss), (iii) occupy negligible volume compared with the container, and (iv) exert no intermolecular forces. Combining these postulates yields **PV = nRT**, where R = 0.0821 dm³·atm·K⁻¹·mol⁻¹ (or 8.314 J·K⁻¹·mol⁻¹).
+#### Concept Comparison Matrix
 
-#### The Four Gas Laws
-- **Boyle's law:** V ∝ 1/P (T and n constant) → **P₁V₁ = P₂V₂**
-- **Charles's law:** V ∝ T (P and n constant) → **V₁/T₁ = V₂/T₂**
-- **Gay-Lussac's law:** P ∝ T (V and n constant) → **P₁/T₁ = P₂/T₂**
-- **Avogadro's law:** V ∝ n (T and P constant) → **V₁/n₁ = V₂/n₂**
+| Concept | Constant Variable | Mathematical Form | Typical NABTEB Question |
+|---|---|---|---|
+| Boyle's Law | Temperature | P₁V₁ = P₂V₂ | Pressure change when gas is compressed |
+| Charles's Law | Pressure | V₁/T₁ = V₂/T₂ | New volume when temperature rises |
+| Gay-Lussac's Law | Volume | P₁/T₁ = P₂/T₂ | Pressure inside a heated rigid cylinder |
+| Avogadro's Law | P and T | V₁/n₁ = V₂/n₂ | Volume change when moles change |
+| Dalton's Law | — | P_total = Σ Pᵢ | Partial pressures of mixed gases |
+| Graham's Law | — | r₁/r₂ = √(M₂/M₁) | Diffusion rate ratio of two gases |
 
-#### Dalton's Law and Mixtures
-**Dalton's law of partial pressures:** the total pressure of a non-reacting gas mixture equals the sum of each component's partial pressure — **P_T = P₁ + P₂ + P₃ + …** A gas collected over water must have the aqueous vapour pressure subtracted to obtain the dry-gas pressure.
+#### Standard Problem-Solving Sequence
+1. **Identify the law** from what stays constant (T, P, V, or n).
+2. **Convert all units** — Celsius → Kelvin, atm → Pa or mmHg, cm³ → dm³.
+3. **List knowns** (P₁, V₁, T₁) and the unknown (P₂, V₂, or T₂).
+4. **Rearrange the equation** and substitute, keeping T in Kelvin.
+5. **Check the answer** for physical sense (e.g., heating at constant P must increase V).
 
-#### NABTEB Question Patterns
-Multiple-choice items typically give two of (P, V, T, n) and ask you to calculate the third using the appropriate law, or they ask for molar mass via the rearranged ideal-gas form **M = mRT/PV**. Always convert °C → K before substituting.
+#### 🎯 Exam-Level Worked Problem
+
+**Question:** A gas occupies 500 cm³ at 27 °C and 1.20 atm. Calculate its volume at STP (0 °C, 1.00 atm).
+
+#### Solution:
+
+Step 1 — Convert units to consistent SI forms:
+- V₁ = 500 cm³ = 0.500 dm³
+- T₁ = 27 + 273 = **300 K**
+- P₁ = 1.20 atm, P₂ = 1.00 atm
+- T₂ = 0 + 273 = **273 K**
+
+Step 2 — Use the **Combined Gas Equation**: P₁V₁/T₁ = P₂V₂/T₂
+
+Rearranging for V₂:
+
+V₂ = (P₁V₁T₂)/(P₂T₁) = (1.20 × 0.500 × 273)/(1.00 × 300)
+
+V₂ = 163.8 / 300 = **0.546 dm³ (546 cm³)**
+
+> ⚠️ **Examiner Trap:** A common blunder is to skip the Kelvin conversion and use 27/273 or 0/300 in the ratio — both produce answers that are off by roughly 10%. NABTEB markers specifically check whether T is in Kelvin; an answer with the wrong unit loses the full process mark even if the final number looks "close".
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
+> Comprehensive coverage for students on a longer study timeline, including edge cases and exam-specific traps.
 
-#### When Ideal Behaviour Breaks Down
-The ideal gas equation assumes point-like particles with no attractions. At **high pressure**, particle volume becomes a significant fraction of container volume; at **low temperature**, intermolecular attractions pull particles together and slow them. The **van der Waals equation** corrects both effects: **(P + a(n/V)²)(V − nb) = nRT**, where *a* corrects for attractions and *b* for particle volume. Gases most closely obey ideal behaviour at **high temperature and low pressure**.
+#### Real Gases vs Ideal Gases
+An **ideal gas** follows PV = nRT exactly at all P and T. **Real gases** deviate when intermolecular forces and the finite volume of molecules become significant — typically at **high pressure** (>10 atm) and **low temperature** (close to the liquefaction point). The compressibility factor **Z = PV/nRT** measures deviation: Z = 1 for ideal gases, Z < 1 when attractive forces dominate (low T), and Z > 1 when repulsive forces dominate (very high P).
 
-#### Diffusion and Effusion
-**Diffusion** is the gradual mixing of gases through random motion; **effusion** is a gas escaping through a tiny hole into vacuum. **Graham's law** compares rates of effusion: **rate₁/rate₂ = √(M₂/M₁)** — lighter molecules effuse faster. NABTEB questions sometimes combine Graham's law with molar-mass determination.
+#### Edge Cases and Boundary Conditions
+- **Gas collected over water**: the gas pressure = atmospheric pressure − water vapour pressure at that temperature (Dalton's Law). Forgetting to subtract vapour pressure is the most common NABTEB essay-paper mistake.
+- **STP vs RTP confusion**: NABTEB papers sometimes specify one and expect the other; always state the molar volume you used (22.4 dm³ at STP, 24.0 dm³ at RTP).
+- **Graham's Law direction**: rate of diffusion r ∝ 1/√M, so a lighter gas (H₂, M = 2) diffuses about **5.6 times faster** than CO₂ (M = 44) at the same temperature.
+- **Combined equation misuse**: applying Boyle's Law alone when both P and T change — the Combined Gas Equation (P₁V₁/T₁ = P₂V₂/T₂) is the correct tool.
 
-#### Worked Example
-A 2.50 g sample of a volatile liquid is vaporised at 150 °C and 1.00 atm, occupying 1.04 dm³. Calculate the molar mass.
-First convert T: 150 + 273 = 423 K. Rearrange PV = nRT to n = PV/RT = (1.00)(1.04)/[(0.0821)(423)] = 0.0300 mol.
-Molar mass M = mass/n = 2.50/0.0300 ≈ **83.4 g mol⁻¹**.
+#### Advanced Practice Prompts
+1. A flask containing N₂ at 750 mmHg and O₂ at 350 mmHg is connected to a second evacuated flask of equal volume. After mixing, what is the partial pressure of each gas, and what is the total pressure? *(Hint: use Dalton's Law and the fact that each gas now occupies twice the original volume.)*
+2. A 2.50 dm³ container holds 8.00 g of CH₄ at 27 °C. Calculate the pressure using PV = nRT (R = 0.0821 dm³·atm·mol⁻¹·K⁻¹), then convert to Pa and mmHg. *(Check your arithmetic against the ideal molar mass of CH₄ = 16.04 g·mol⁻¹.)*
 
-#### Common Mistakes
-- Leaving temperature in °C — every gas law collapses numerically.
-- Applying Boyle's/Charles's/Gay-Lussac's when n is changing (use PV = nRT instead).
-- Forgetting to subtract water-vapour pressure in gas-collection problems.
-- Mixing up diffusion (mixing within a medium) with effusion (escape through a hole).
+#### Common Exam Traps (Numbered Summary)
+1. Mixing pressure units (Pa with atm) within a single calculation.
+2. Treating Celsius as if it were Kelvin in Charles's or Gay-Lussac's Law.
+3. Confusing Graham's Law proportionality (rate ∝ 1/√M, not ∝ M).
+4. Applying Dalton's Law to gases that react (e.g., NO + O₂ → NO₂).
+5. Ignoring vapour pressure when gas is collected over water.
+6. Using 22.4 dm³·mol⁻¹ when the question specifies RTP (or vice versa).
 
-#### Practice Prompts
-1. A 0.500 dm³ container holds N₂ at 1.20 atm and 298 K. To what temperature must it be heated at constant volume to raise the pressure to 2.40 atm?
-2. Oxygen effuses through a pinhole in 84 s; an equal volume of an unknown gas takes 132 s under identical conditions. Find the molar mass of the unknown.
+> 📌 **Formula Check:** Always quote R with its units. R = 8.314 J·mol⁻¹·K⁻¹ pairs with P in Pa and V in m³; R = 0.0821 dm³·atm·mol⁻¹·K⁻¹ pairs with P in atm and V in dm³; R = 62.4 dm³·mmHg·mol⁻¹·K⁻¹ pairs with P in mmHg and V in dm³.
+
+---
+
+## Continue your study
+
+- **[View this topic in your NABTEB roadmap](/roadmap/?exam=nabteb&duration=1mo)** — see where "States of Matter and Gas Laws" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=nabteb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NABTEB exam overview](/exams/nabteb/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/nabteb/chemistry/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

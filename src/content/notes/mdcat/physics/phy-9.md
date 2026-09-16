@@ -11,7 +11,7 @@ topicName: Heat and Thermodynamics
 weight: 4
 country: pakistan
 generated: "2026-03-24T08:32:08.085301"
-lastUpdated: "2026-06-25"
+lastUpdated: "2026-09-16"
 diagramPrompt: "Clean educational diagram showing Heat and Thermodynamics with clear labels, white background, labeled arrows for forces/fields/vectors, color-coded components, exam-style illustration"
 
 
@@ -25,62 +25,100 @@ diagramPrompt: "Clean educational diagram showing Heat and Thermodynamics with c
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Heat** is energy in transit (Q, measured in joules); **temperature** (T, in kelvin) is a state property of matter, not a form of energy. The cornerstone formula is the **First Law**: **ΔU = Q − W**, where ΔU is the change in internal energy, Q is heat supplied to the system, and W is work done *by* the gas. For heating without phase change use **Q = mcΔT** (c = specific heat capacity, J kg⁻¹ K⁻¹); for phase change use **Q = mL** (L = latent heat, J kg⁻¹). The ideal gas law **PV = nRT** links pressure, volume and temperature. High-yield MDCAT pointers: distinguish **isothermal (PV = const)** from **adiabatic (PV^γ = const)**; remember W = 0 when volume is fixed; entropy of an isolated system never decreases.
+**Heat and Thermodynamics** describes how thermal energy moves, how gases behave when heated or compressed, and how engines convert heat into work. MDCAT tests 2–3 MCQs from this 4% Physics block, almost always anchored on the First Law, gas laws, and Carnot efficiency.
+
+| Term | Definition | SI Unit |
+|------|------------|---------|
+| Temperature (T) | Measure of average kinetic energy of molecules | K (kelvin) |
+| Heat (Q) | Energy in transit due to a temperature difference | J (joule) |
+| Internal Energy (U) | Total KE + PE of molecules in a system | J |
+| Specific Heat (c) | Heat needed to raise 1 kg by 1 K | J kg⁻¹ K⁻¹ |
+| Latent Heat (L) | Heat for phase change at constant T | J kg⁻¹ |
+
+- **First Law:** ΔU = Q − W (W = work done *by* the system).
+- **Ideal gas:** PV = nRT, R = 8.314 J mol⁻¹ K⁻¹.
+- **Carnot efficiency:** η = 1 − T_c/T_h (temperatures in **kelvin**).
+- **Expansion:** ΔL = αL₀ΔT; ΔV = βV₀ΔT (β ≈ 3α).
+
+> 💡 **High-Yield Memory Hook:** **"Q goes in, W goes out, U changes."** Sign rule: Q absorbed **+**, W done **by** system **+**, ΔU = Q − W. Pair with **"Temperature in Kelvin — always"** to dodge the most common MDCAT trap.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-#### Core Concepts and the Laws
+#### Core Laws You Must Know Cold
 
-The **Zeroth Law** defines temperature: two systems each in thermal equilibrium with a third are in equilibrium with each other. The **First Law** is energy conservation applied to a gas: **ΔU = Q − W** (chemistry/biology sign convention, used in MDCAT). An **adiabatic process** has Q = 0, so ΔU = −W and temperature changes; an **isothermal process** has ΔU = 0 for an ideal gas, so Q = W. The **Second Law** states that entropy of an isolated system never decreases, which is why heat flows spontaneously from hot to cold and never the reverse without external work.
+The **Zeroth Law** defines temperature by stating that if body A is in thermal equilibrium with B, and B with C, then A is in equilibrium with C — this is what makes thermometers possible. The **First Law** is conservation of energy restated for a gas: ΔU = Q − W. The **Second Law** (Kelvin-Planck and Clausius statements) sets the arrow of heat flow from hot to cold and limits heat-engine efficiency.
 
-#### Work, Heat and Internal Energy
+#### Four Thermodynamic Processes
 
-Work done by an expanding gas is **W = PΔV** for constant pressure, or the area under the curve on a **P–V diagram** in general. The four standard processes to recognise on a graph are:
-- **Isobaric** (constant P): W = PΔV, Q = nCpΔT.
-- **Isochoric** (constant V): **W = 0**, Q = nCvΔT, ΔU = Q.
-- **Isothermal**: T constant, PV = const, ΔU = 0, Q = W.
-- **Adiabatic**: Q = 0, **PV^γ = const**, TV^(γ−1) = const, where γ = Cp/Cv.
+| Process | Constant | Q | W | ΔU | Key relation |
+|---------|----------|---|---|----|--------------|
+| Isothermal | T | Q = W | nRT ln(V₂/V₁) | 0 | PV = const |
+| Isochoric | V | nC_vΔT | 0 | Q = ΔU | W = 0 |
+| Isobaric | P | nC_pΔT | PΔV | nC_vΔT | Q = ΔU + PΔV |
+| Adiabatic | Q = 0 | 0 | −ΔU | nC_vΔT | PVᵞ = const |
 
-For an ideal gas, internal energy depends only on temperature: **ΔU = nCvΔT**.
+For monatomic gases C_v = (3/2)R, γ = 5/3; for diatomic gases C_v = (5/2)R, γ = 7/5.
 
-#### Specific Heat and Latent Heat
+#### Heat Transfer Modes
 
-**Q = mcΔT** governs sensible heating (raising temperature). The latent heats are different for different transitions: **latent heat of fusion (Lf)** for melting (water: 3.34 × 10⁵ J kg⁻¹) and **latent heat of vaporisation (Lv)** for boiling (water: 2.26 × 10⁶ J kg⁻¹). **Thermal conductivity** is governed by **Q/t = kAΔT / L**, where k (W m⁻¹ K⁻¹) is the material constant — high k for metals, low k for insulators.
+Conduction rate through a slab: H = kAΔT/L, where **k** is thermal conductivity (W m⁻¹ K⁻¹). Convection transfers heat by bulk fluid motion. Radiation from a surface follows Stefan-Boltzmann: P = σeAT⁴, with σ = 5.67 × 10⁻⁸ W m⁻² K⁻⁴ and emissivity e ≤ 1 (e = 1 for a perfect blackbody).
 
-#### Typical MDCAT Question Patterns
+#### Kinetic Theory Highlights
 
-MCQs usually test (1) numerical Q = mcΔT problems with mass in grams and temperature in °C, (2) identifying which process has W = 0 or ΔU = 0, (3) the ratio γ = Cp/Cv (≈1.67 for monatomic, ≈1.4 for diatomic gases), and (4) direction of heat flow under the Second Law.
+Pressure originates from molecular collisions: **PV = (1/3)Nm⟨v²⟩**, giving average translational kinetic energy per molecule = (3/2)k_BT and root-mean-square speed v_rms = √(3RT/M), where M is molar mass in kg mol⁻¹.
+
+#### 🎯 Exam-Level Worked Problem
+
+**Question:** An ideal monatomic gas absorbs 500 J of heat at constant pressure. If it does 200 J of work expanding, what is the change in internal energy?
+*(A) −300 J  (B) +300 J  (C) +700 J  (D) +200 J*
+
+#### Solution:
+1. Apply the First Law: ΔU = Q − W.
+2. Substitute: ΔU = (+500 J) − (+200 J) = **+300 J**.
+3. Answer: **(B) +300 J**.
+
+> ⚠️ **Examiner Trap:** Students pick (A) −300 J by computing Q − W = 500 − (−200). The correct sign for **W** when gas *expands* is **positive** (energy leaves the system as work).
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-#### Edge Cases and Subtleties
+#### Edge Cases and Boundary Behaviour
 
-A frequent trap is sign convention. The MDCAT follows **ΔU = Q − W** (W = work done by the system). If a question uses **ΔU = Q + W**, W is work done *on* the system — re-derive carefully before plugging numbers. Another trap: **adiabatic ≠ isothermal**. In isothermal compression, heat must leave the gas to keep T constant; in adiabatic compression, no heat leaves, so T rises and PV^γ (not PV) stays constant.
+- **Water's anomalous expansion:** density is maximum at **4 °C**, so between 0–4 °C water contracts on heating — β is effectively *negative*. This is why aquatic life survives under frozen lakes.
+- **Anisotropic solids:** a single crystal has different α along different axes; the formula β = α_x + α_y + α_z applies, not β ≈ 3α.
+- **Vanishing heat transfer:** in a perfect vacuum, k = 0 (no conduction) and there is no convection medium, but radiation persists (P = σAT⁴). A Dewar flask exploits all three reductions.
+- **Adiabatic limit:** as γ → 1, PV^γ → PV, and the process approaches isothermal — useful for MCQs that contrast "fast vs slow" compression.
+- **Entropy of mixing and irreversible free expansion:** ΔS > 0 even though Q = 0 and W = 0, because the gas becomes more disordered.
 
-For real gases, PV = nRT fails at high pressure or low temperature near condensation. The **van der Waals equation** corrects this, but MDCAT questions are restricted to ideal gases unless explicitly stated. Note also that **Cp − Cv = R** (per mole, J mol⁻¹ K⁻¹), so knowing one specific heat gives the other if γ is known.
+#### Common Numerical Traps in MDCAT
 
-#### Worked Example
+1. Forgetting to convert °C to K before applying PV = nRT — always use T_K = T_°C + 273.
+2. Using γ = 5/3 for air (a diatomic mixture) — correct value is γ ≈ 7/5.
+3. Setting T_c = 0 in Carnot efficiency to "maximise" η — gives η = 1, which is unphysical.
+4. Applying Q = mcΔT during phase change — temperature is constant, so Q = mL instead.
+5. Treating W as work done *on* the gas during isobaric expansion — sign flips and ΔU becomes wrong.
 
-A 0.040 kg copper calorimeter (c = 400 J kg⁻¹ K⁻¹) contains 0.200 kg of water (c = 4200 J kg⁻¹ K⁻¹) at 20 °C. A 0.050 kg iron block (c = 450 J kg⁻¹ K⁻¹) is heated to 100 °C and dropped in. Heat lost by iron = heat gained by water + calorimeter:
-0.050 × 450 × (100 − T) = (0.200 × 4200 + 0.040 × 400) × (T − 20)
-22500 − 225T = 856(T − 20) → 22500 − 225T = 856T − 17120 → T ≈ 39.6 °C. Check that no phase change applies, then report.
+#### Two Advanced Practice Prompts
 
-#### Practice Prompts
+1. **Conceptual:** A cyclic heat engine operates between 600 K and 300 K. If it draws 1000 J from the hot reservoir, compute the maximum work output and the heat dumped to the cold reservoir. *(Answer: W_max = 500 J; Q_c = 500 J.)*
+2. **Numerical:** A copper rod (k = 385 W m⁻¹ K⁻¹) of cross-section 2 × 10⁻⁴ m² and length 0.10 m conducts heat between faces held at 100 °C and 20 °C. Find the steady-state conduction rate. *(Answer: H = kAΔT/L = 385 × 2 × 10⁻⁴ × 80 / 0.10 ≈ 61.6 W.)*
 
-1. An ideal gas expands isothermally from 2 L to 4 L at 300 K against a constant external pressure of 1.5 atm. Find W, Q and ΔU. (Answer: W = PΔV ≈ 304 J, ΔU = 0, Q = 304 J.)
-2. A refrigerator extracts 200 J of heat from a cold reservoir while 50 J of work is input. Is this consistent with the Second Law? Compute COP = Q_cold / W = 4; any value > 0 is permitted — yes, consistent.
+#### Exam Strategy for MDCAT
 
-#### Common Mistakes
-- Confusing heat with temperature (energy in transit vs state property).
-- Using Lf when Lv is required, or vice versa.
-- Forgetting W = 0 in an isochoric process.
-- Treating γ = 1.67 for all gases — diatomic gases at room temperature use γ ≈ 1.4.
+Physics carries 45 MCQs total; Heat and Thermodynamics contributes ~2 items, usually mid-paper (Q21–Q30 band). Allocate ≤2 minutes per question here — the section rewards formula recall more than heavy algebra. Memorise PV = nRT, ΔU = Q − W, the four-process table, and Carnot efficiency with Kelvin temperatures. Skip lengthy derivations on exam day; the kinetic-theory expression PV = (1/3)Nm⟨v²⟩ is enough — you will rarely need to derive it from scratch under time pressure.
 
 ---
+
+## Continue your study
+
+- **[View this topic in your MDCAT roadmap](/roadmap/?exam=mdcat&duration=1mo)** — see where "Heat and Thermodynamics" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=mdcat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[MDCAT exam overview](/exams/mdcat/)** — pattern, eligibility, and syllabus
+- **[All Physics notes](/notes/mdcat/physics/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

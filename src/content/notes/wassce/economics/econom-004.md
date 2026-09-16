@@ -8,7 +8,7 @@ topicName: Consumer Behaviour
 weight: 3
 country: ghana
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-06-18"
+lastUpdated: "2026-09-16"
 ---
 
 # Consumer Behaviour
@@ -16,81 +16,114 @@ lastUpdated: "2026-06-18"
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Consumer behaviour** examines how buyers choose, use, and dispose of goods to satisfy **wants**, given limited income and varying prices. Two analytical tools dominate the WASSCE Economics syllabus: the **Cardinal (Marginal Utility)** approach and the **Ordinal (Indifference Curve)** approach.
+Consumer behaviour studies how a rational buyer with limited income (M, in Ghana cedis ¢) allocates money across goods to maximise satisfaction. The two analytical lenses are the **utility approach** (cardinal, measured in utils) and the **indifference curve approach** (ordinal, ranking-based).
 
-Core formulas to memorise:
+| Term | Formula | Unit |
+|---|---|---|
+| Total Utility (TU) | Sum of satisfaction from all units | utils |
+| Marginal Utility (MU) | ΔTU / ΔQ | utils per unit |
+| Equilibrium condition | MUx / Px = MUy / Py = MUm | utils per cedi (¢⁻¹) |
+| Budget line | Px·x + Py·y = M | cedis |
 
-- **Marginal Utility (MU)** = ΔTU / ΔQ
-- **Total Utility (TU)** = ΣMU
-- **Cardinal equilibrium**: MUx / Px = MUy / Py = MU of money (λ)
-- **Consumer Surplus** = Total willingness to pay − Actual expenditure
-- **MRSxy** = Δy / Δx (slope of an indifference curve)
-- **Slope of Budget Line** = Px / Py
-
-Two high-yield points: (1) The **Law of Diminishing Marginal Utility** states that as more units of a good are consumed, the extra satisfaction from each successive unit falls. (2) Under indifference curve analysis, equilibrium occurs where an indifference curve is **tangent** to the budget line, i.e. MRSxy = Px/Py. This single equality appears in almost every WASSCE essay on consumer theory.
+> 💡 **High-Yield Memory Hook:** **"MU per Cedi Equal"** — at equilibrium, the **M**arginal **U**tility per **Cedi** is the same for every good. If MUx/Px > MUy/Py, shift spending from Y to X and you gain utils.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-#### Meaning and Scope
-Consumer behaviour studies the decision-making of individuals and households in purchasing goods and services. Economists treat the consumer as a **rational agent** who aims to maximise satisfaction (utility) subject to a limited money income and given market prices.
+#### Utility: Total and Marginal
 
-#### The Cardinal Utility Approach
-This approach assumes utility can be measured in imaginary units called **utils**. **Total Utility (TU)** is the total satisfaction from all units consumed; **Marginal Utility (MU)** is the addition to TU from consuming one extra unit.
+Total Utility is the aggregate satisfaction a consumer derives from consuming all units of a good. Marginal Utility is the **additional** satisfaction gained from consuming one more unit of that good.
 
-The **Law of Diminishing Marginal Utility** holds that, as consumption of a commodity increases while other things remain equal, MU eventually declines. MU becomes **zero** at the point of maximum TU, and turns **negative** when TU itself starts falling.
+The **Law of Diminishing Marginal Utility** states that as consumption of a good increases, MU falls, even though TU continues to rise as long as MU remains positive. TU only falls when MU becomes negative — i.e. after the consumption peak.
 
-##### Consumer Equilibrium (Cardinal)
-A consumer with money income **M** buying goods X and Y at prices **Px** and **Py** is in equilibrium when:
+#### Consumer Equilibrium — Utility Approach
 
-> **MUx / Px = MUy / Py = MU of money (λ)**
+A rational consumer spends each cedi on the good that yields the highest marginal utility until:
 
-At this point, the last cedi spent on each good yields the same marginal satisfaction, and the consumer cannot reallocate spending to gain more utility.
+#### MUx / Px = MUy / Py = MUm
 
-#### The Ordinal Utility Approach
-This approach rejects the measurability of utility and only requires that the consumer can **rank** bundles. An **indifference curve** joins all bundles of two goods that give equal satisfaction. Key properties: it slopes **downward**, is **convex to the origin**, and never intersects another indifference curve from the same **indifference map**.
+where MUm is the marginal utility of money (utils per cedi). If MUx/Px exceeds MUy/Py, the consumer gains satisfaction by reallocating one cedi from Y to X. The process continues until the ratios equalise. This is the **proportionality rule** tested in 15–25-mark WASSCE essay questions.
 
-The **Marginal Rate of Substitution (MRSxy)** is the rate at which a consumer is willing to give up Y for one more unit of X while staying on the same indifference curve. **MRS diminishes** as the consumer moves down the curve (the reason for convexity).
+#### Consumer Equilibrium — Indifference Curve Approach
 
-The **budget line** shows all bundles the consumer can afford: **Pxx + Pyy = M**, with slope = Px/Py.
+An indifference curve shows combinations of two goods (X and Y) that give the consumer equal satisfaction. Three properties examiners test:
 
-##### Consumer Equilibrium (Ordinal)
-Equilibrium is at the tangency point of the highest attainable indifference curve with the budget line:
+- **Downward sloping** — more X requires less Y to maintain satisfaction.
+- **Convex to the origin** — diminishing Marginal Rate of Substitution (MRS).
+- **Non-intersecting** — otherwise the consumer is indifferent between two distinct satisfaction levels.
 
-> **MRSxy = Px / Py**
+The budget line Px·x + Py·y = M has slope **−Px/Py**. Optimum consumption is the **tangency point** where the indifference curve touches the highest reachable budget line, so:
 
-#### Common Exam Question Types
-- Define and distinguish between **cardinal** and **ordinal** utility.
-- Explain the **Law of Diminishing Marginal Utility** and list its assumptions.
-- Using a schedule, derive a demand curve from diminishing MU.
-- Draw and explain a **budget line** and an **indifference map**, then mark the equilibrium point.
+#### MRSxy = Px / Py
+
+#### Concept Comparison Matrix
+
+| Feature | Utility Approach | Indifference Curve Approach |
+|---|---|---|
+| Measurement | Cardinal (utils, measurable) | Ordinal (ranking only) |
+| Key tool | TU and MU schedules | Indifference curves and budget line |
+| Equilibrium rule | MUx/Px = MUy/Py = MUm | MRSxy = Px/Py |
+| Behaviour assumed | Diminishing MU | Diminishing MRS (convex curves) |
+| Diagram | TU/MU against quantity | Indifference map with budget line |
+
+#### 🎯 Exam-Level Worked Problem
+
+**Question:** A consumer has an income of ¢120. Price of good X is ¢10 and price of good Y is ¢15. The marginal utility of the last unit of X consumed is 20 utils and the marginal utility of the last unit of Y is 30 utils. Using the utility approach, advise the consumer on whether the current bundle is optimal.
+
+#### Solution:
+- MUx / Px = 20 / 10 = **2 utils per cedi**
+- MUy / Py = 30 / 15 = **2 utils per cedi**
+
+Since MUx/Px = MUy/Py = 2, the proportionality rule holds. The bundle maximises satisfaction given the budget — the consumer is in equilibrium and should **not reallocate spending**.
+
+> ⚠️ **Examiner Trap:** Students often write "MUx = MUy, so the consumer is in equilibrium." This is wrong. Equating marginal utilities only works if Px = Py. The correct test always divides MU by price.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-#### Assumptions and Limitations
-Both approaches assume a **rational consumer**, **divisibility** of goods, a **constant marginal utility of money**, and **independence** between goods in cardinal analysis. A real limitation is the assumption of a **tasteless MU of money**; in reality, as income changes, the value of an extra cedi may also change, weakening the equality MUx/Px = MUy/Py = λ.
+#### Income and Substitution Effects
 
-#### Edge Cases and Common Mistakes
-- **MU negative vs. MU diminishing**: MU only *diminishes* from the first unit; it becomes *zero* at the peak of TU, and **negative** only when TU itself is falling. Confusing these is a favourite WASSCE trap.
-- **Equilibrium condition is two-fold**: MUx/Px = MUy/Py is necessary but **not sufficient**; the ratio must equal λ, and the second-order condition requires diminishing MU of both goods.
-- **MRS equals price ratio only at equilibrium**, not at every point on the indifference curve.
-- Indifference curves must be **downward sloping and convex**; straight or upward-sloping curves violate the convexity assumption.
-- **Consumer surplus** is largest for the first unit and shrinks to zero as price rises toward the consumer's maximum willingness to pay.
+A change in the price of X produces two effects. The **substitution effect** measures the change in quantity of X demanded when relative prices change but real income is held constant (a pure pivot of the budget line). The **income effect** measures the additional change caused by the change in purchasing power (a parallel shift of the new budget line).
 
-#### Connection to Demand
-The **Law of Diminishing Marginal Utility** explains the **downward-sloping demand curve**: as price falls, consumers buy more because the marginal utility of an extra unit now exceeds its price, restoring equilibrium.
+Decomposition follows the Slutsky or Hicks method and is commonly illustrated using compensated budget lines in WASSCE diagrams.
 
-#### Worked Example
-Suppose a consumer has income GH₵ 20, Px = GH₵ 4, Py = GH₵ 2. If MUx = 16 utils and MUy = 8 utils, then MUx/Px = 4 and MUy/Py = 4. Since the ratios are equal and the consumer is spending all income on the chosen combination, equilibrium is achieved — any reallocation leaves utility unchanged at the margin.
+#### Consumer Surplus
+
+Consumer surplus is the difference between the **maximum amount a consumer is willing to pay** and the **actual price paid**. Graphically, it is the triangular area below the demand curve and above the price line. Formula:
+
+#### CS = Maximum willingness to pay − Actual price paid (¢)
+
+#### Normal, Inferior, and Giffen Goods
+
+| Good type | Income effect on demand | Price effect on demand |
+|---|---|---|
+| Normal good | Positive (demand rises with income) | Negative (demand falls with price) |
+| Inferior good | Negative (demand falls with income) | Negative (demand falls with price) |
+| Giffen good | Negative (inferior) | Positive (demand rises with price — paradox) |
+
+#### Edge Cases and Common Traps
+
+1. **Diminishing MU does not mean diminishing TU.** TU still rises whenever MU > 0; only the rate of rise slows.
+2. **Budget line pivots, does not shift outward**, when only one price changes. A parallel outward shift implies an income change.
+3. **Consumer surplus and producer surplus are mirror images.** CS sits below demand and above price; PS sits above supply and below price. Mixing them up costs easy marks.
+4. **Wants ≠ needs.** Utility theory assumes preferences are ranked subject to a budget, not that needs are biologically fulfilled.
+5. **Giffen goods are rare.** Most inferior goods are not Giffen — the negative income effect must be large enough to outweigh the substitution effect.
 
 #### Practice Prompts
-1. With the aid of a clearly labelled diagram, explain how a consumer attains equilibrium using the indifference curve and budget line approach.
-2. Using a hypothetical schedule, illustrate the relationship between the law of diminishing marginal utility and the derivation of a consumer's demand curve.
+
+1. Using a clearly labelled diagram, derive the consumer's equilibrium from an indifference curve and a budget line, and show what happens when the price of good X falls.
+2. Explain why a Giffen good violates the law of demand and give one real-world example used in textbooks.
+
+## Continue your study
+
+- **[View this topic in your WASSCE (Ghana) roadmap](/roadmap/?exam=wassce&duration=1mo)** — see where "Consumer Behaviour" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=wassce&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[WASSCE (Ghana) exam overview](/exams/wassce/)** — pattern, eligibility, and syllabus
+- **[All Economics notes](/notes/wassce/economics/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

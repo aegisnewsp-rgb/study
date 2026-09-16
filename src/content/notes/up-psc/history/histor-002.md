@@ -8,7 +8,7 @@ topicName: Medieval Indian History
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-16"
 ---
 
 # Medieval Indian History
@@ -16,64 +16,144 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Medieval Indian History** — Key Facts for UPPSC PCS
-Core concept: Medieval India covers the Sultanate and Mughal periods (c. 1206–1707), marked by Turkic invasions, Afghan and Iranian dynasties, the Vijayanagara and Bahmani kingdoms, and the rise and expansion of the Mughal Empire culminating in Aurangzeb.
-High-yield point: The administrative systems under the Delhi Sultanate (Iqta system) and the Mughal Empire (Mansabdari) are frequent UPPSC PCS Prelims and Mains topics.
-High-yield point: The Bhakti and Sufi movements shaped Indian society and are regularly asked for their social synthesis and impact on communal relations.
+Medieval Indian History for UPPSC PCS spans roughly **750–1750 CE**, covering the Rajput era, Delhi Sultanate, provincial kingdoms (Vijayanagara-Bahmani), Mughal empire, Bhakti-Sufi movements, and the rise of the Marathas. Expect MCQs on chronology, administrative reforms, religious policies, and key battles.
+
+- **Period anchors:** Tripartite Struggle (8th–10th c.) → Delhi Sultanate founded **1206** (Qutb-ud-din Aibak) → Mughal rule begins **1526** (Panipat I, Babur) → Aurangzeb dies **1707** → Maratha ascendancy peaks under Baji Rao I.
+- **Five Sultanate dynasties:** **M**amluk, **K**hilji, **T**ughlaq, **S**ayyid, **L**odi — order = **M-K-T-S-L** (1206–1526).
+- **Most-tested administrative concepts:** Iqta, Mansabdari (Zat + Sawar), Dagh, Zabti (Todar Mal), Diwani (1765, Bengal).
+- **Most-tested religious milestones:** Din-i-Ilahi by Akbar (1582), jizya abolished 1564, Bhakti saints (Kabir, Tulsidas, Mirabai, Nanak, Chaitanya), Sufi silsilas (Chishti, Suhrawardi, Naqshbandi, Qadiri).
+
+| Term | One-line meaning |
+|---|---|
+| Iqta | Revenue grant to a military officer (muqti) in lieu of salary |
+| Mansabdari | Mughal ranking system with personal (Zat) and cavalry (Sawar) grades |
+| Dagh | Branding of horses to prevent fraud in Mughal cavalry rolls |
+| Zabti | Crop-yield-based revenue assessment standardised by Todar Mal (1580s) |
+| Diwani | Right to collect revenue; granted to EIC in Bengal in 1765 |
+
+> 💡 **High-Yield Memory Hook:** **"M.K.T.S.L. — Mughal Kicks Tired Sultans, Lalu!"** for the five Delhi Sultanate dynasties in order. Pair with **"1206–1526"** (320 years) — Babur's Panipat ends it.
 
 ---
 
-### 🡡 Standard — Regular Study (2d–2mo)
+### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Medieval Indian History** — UPPSC PCS Study Guide
-Overview: Medieval Indian History is a critical component of the UPPSC PCS General Studies paper, covering the Delhi Sultanate, provincial kingdoms, the Mughal Empire, and the Bhakti-Sufi traditions.
-Core principles:
-• **Delhi Sultanate (1206–1526)**: The Mamluk (Slave), Khilji, Tughlaq, Sayyid, and Lodi dynasties — their administrative innovations, Mongol invasions, and the Tughlaq's experimental governance
-• **Vijayanagara and Bahmani Kingdoms**: Hampi capital, Raya and Krishnadevaraya's contributions, literary and architectural achievements; Bahmani kingdom's struggle with Vijayanagara and Deccan sultanates
-• **Mughal Empire (1526–1857)**: Babur's invasion and the First Battle of Panipat; Humayun's struggles; Akbar's Rajput policy, Din-i-Ilahi, and decentralized administration; Jahangir's court; Shah Jahan's architecture; Aurangzeb's Deccan campaigns and religious policies
-• **Mughal Administration**: Mansabdari system, Jagirdari crisis, Zamindari, Mughal paintings (Akbar Nama, Humayun Nama), and thetin arts
-• **Bhakti Movement**: Kabir (Nirgun bhakti), Guru Nanak (Sikhism's origins), Mirabai, Tulsidas (Ramcharitmanas), and Chaitanya Mahaprabhu — social reform and devotional worship
-• **Sufi Movement**: Major Sufi orders (Chishti, Suhrawardi), saints like Nizamuddin Auliya and Khwaja Moinuddin Chishti, syncretic traditions
-Key points: The decline of Mughal Empire after Aurangzeb — invasions of Nader Shah and Ahmad Shah Abdali, internal revolts, Mansabdari deterioration, and the rise of regional powers (Marathas, Jats, Sikhs)
-Study strategy: Focus on comparative administration (Iqta vs Mansabdari), causes for the rise and fall of the Mughal Empire, and the social messages of Bhakti-Sufi saints — these are high-frequency UPPSC topics
+#### Delhi Sultanate: Core Themes
+
+The Sultanate period is examined through **political chronology**, **administrative experiments**, and **price-control innovations**. Three rulers dominate UPPSC questions: Iltutmish (completed Qutub Minar, 1232; introduced silver tanka and copper jital — the first Indian Sultan to do so), Alauddin Khilji (market reforms, Mongol frontier defence), and Muhammad bin Tughlaq (token currency 1330, capital shift to Daulatabad, taxation in the Ganga-Yamuna Doab).
+
+Alauddin's market regulations under his controller **Ain-ul-Mulk Multani** fixed prices of grains, cloth, sugar, ghee, and horses, with separate **Shahna-i-Mandi** (grain superintendent) and **Diwan-i-Riyasat** for trade licensing. Granaries (gallahs) were built on the Yamuna bank. The goal was feeding the army at controlled cost, not welfare.
+
+#### Comparison Matrix: Easily Confused Terms
+
+| Feature | Alauddin Khilji | Muhammad bin Tughlaq | Akbar (Todar Mal) | Sher Shah Suri |
+|---|---|---|---|---|
+| Reform | Market/price control | Token currency, capital transfer | Zabti land revenue | Currency, roads, sarais |
+| Year | c. 1300 | 1330–1335 | 1580s | 1540–45 |
+| Nature | Welfare + military logistics | Experimental, mostly failed | Standardised survey-based | Clean silver rupee, admin |
+| Outcome | Largely successful | Token currency withdrawn within months | Long-lived revenue template | Model for later Mughals |
+
+| Confused pair | Actual owner | Why students slip |
+|---|---|---|
+| Token currency | Muhammad bin Tughlaq (1330) | Often linked to Alauddin's monetary fame |
+| Din-i-Ilahi | Akbar (1582) | Sometimes credited to Aurangzeb, who was orthodox |
+| Abolition of jizya | Akbar, 1564 | Often confused with 1563 pilgrim-tax abolition |
+| Diwani of Bengal | Granted to EIC, 1765 | Sometimes placed under Mughal founding date |
+| Chhatrapati coronation | Shivaji, 1674 at Raigad | Confused with Peshwa's later rise |
+
+#### Mughal Administration: The Mansabdari Spine
+
+The Mansabdari (rank-holder) system allocated every officer a **Zat** rank (personal status, decided salary) and a **Sawar** rank (actual cavalry he had to maintain, verified by **Dagh** — branding of horses). Officers were paid in **nasaq** (cash) or **iqta** (land assignment). Below the emperor sat the **Subedar** (provincial governor), then **Faujdar** (military officer of a district), then **Thanedar** (smallest fort commander). The **Sadr-us-Sudur** handled religious and charitable affairs.
+
+> 📌 **Formula Check:** Sawar rank ≤ Zat rank; an officer with Zat 5000 / Sawar 3000 maintained 3000 branded horses. The ratio determined promotion eligibility.
+
+#### Bhakti and Sufi: Syncretic Currents
+
+Bhakti split into **Saguna** (with form — Rama, Krishna worship; Ramanuja, Chaitanya, Mirabai) and **Nirguna** (formless — Kabir, Nanak, Tulsidas). Warkari movement (Maharashtra, Vitthal worship) and Alvar-Nayanar (Tamil) were regional variants. Sufi orders (*silsilas*) relevant for UPPSC: **Chishti** (Ajmer, Moinuddin Chishti; Delhi, Nizamuddin Auliya; Lahore, Data Ganj Bakhsh), **Suhrawardi**, **Naqshbandi** (later Akbar adopted elements), and **Qadiri**.
+
+#### 🎯 Exam-Level Worked Problem
+
+**Question:** Consider the following statements about medieval Indian administrative reforms:
+1. Ain-ul-Mulk Multani assisted Alauddin Khilji in implementing market price control.
+2. Muhammad bin Tughlaq introduced token currency by issuing copper coins at par with silver tanka.
+3. Todar Mal's zabti system measured land on the basis of crop yield and average produce prices.
+
+Which of the above are correct?
+(a) 1 and 2 only  (b) 2 and 3 only  (c) 1 and 3 only  (d) 1, 2 and 3
+
+#### Solution:
+- **Statement 1:** Correct. Alauddin Khilji appointed **Ain-ul-Mulk Multani** as the superintendent of markets; he ran the rationing and price-fixation machinery through *Shahna-i-Mandi* and *Diwan-i-Riyasat*.
+- **Statement 2:** Correct. In **1330**, Muhammad bin Tughlaq issued copper coins nominally equal to silver tanka; the public minted counterfeits, and the experiment collapsed within months.
+- **Statement 3:** Correct. **Ahmad Yadgar / Todar Mal's zabti (bandobast)** assessed revenue based on measurement of land (using *jarib* and *tanab*) plus crop-yield and price data averaged over years.
+- All three statements are correct → **Answer: (d)**.
+
+> ⚠️ **Examiner Trap:** Students frequently drop Statement 2 because they attribute token currency to Alauddin Khilji's currency reforms (silver tanka weight reduction, 1296). The **token currency experiment is uniquely Muhammad bin Tughlaq's (1330)** — never Alauddin's.
+
+#### Quick Chronology for UPPSC Prelims
+
+| Year | Event |
+|---|---|
+| 1206 | Qutb-ud-din Aibak founds Mamluk dynasty |
+| 1290 | Khilji dynasty begins (Jalal-ud-din) |
+| 1320 | Ghiyas-ud-din Tughlaq founds Tughlaq dynasty |
+| 1330 | Token currency issued |
+| 1526 | Panipat I — Babur defeats Ibrahim Lodi |
+| 1540 | Sher Shah defeats Humayun; Suri interregnum |
+| 1556 | Akbar becomes emperor |
+| 1564 | Jizya abolished |
+| 1582 | Din-i-Ilahi announced |
+| 1656 | Shah Jahan ill; Aurangzeb takes power (1658) |
+| 1674 | Shivaji's coronation at Raigad |
+| 1707 | Aurangzeb dies; Maratha expansion accelerates |
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-**Medieval Indian History** — Comprehensive UPPSC PCS Notes
-Full coverage: Medieval Indian History from the Turkish conquest of North India through the peak and decline of the Mughal Empire, with emphasis on topics most relevant to UPPSC PCS.
+#### Edge Cases, Traps, and Fine-Grained Facts
 
-Detailed theory and concept explanations:
-• **Turkish Conquest of North India**: Muhammad Ghori's campaigns (Prithviraj Chauhan, 1192); Qutb-ud-din Aibak's establishment of the Mamluk/ Slave dynasty; Iltutmish's consolidation and the Turki model of governance
-• **Delhi Sultanate — Administration**: The Iqta system (military land grants), the role of the Muqtis and Muqta; Sultanate's revenue system (plough and cash crops); urban centers like Delhi; the Chalisa and Tawaif aristocracy
-• **Khilji Revolution (1290–1320)**: Alauddin Khilji's conquests (Ranthambore, Gujarat, Malwa, Deccan); market reforms (Dana-bадаqt); price control mechanism; strengthening the army with Mongol tactics
-• **Tughlaq Innovations (1320–1413)**: Muhammad bin Tughlaq's controversial reforms — Token Currency, Daqilik system, shift of capital to Daulatabad; his experimental governance leading to chaos
-• **Tughlaq Decline and Timur's Invasion (1398)**: Weak successors, Sayyid and Lodi dynasties; Timur's sack of Delhi; growth of provincial kingdoms
-• **Vijayanagara Empire (c. 1336–1646)**: Founder Harihara I and Bukka Raya I; Raya dynasty and Krishnadevaraya's reign (1509–1529) — peak of power; literary achievements (Sanskrit, Telugu); architecture (Vitthala Temple, Hampi); destruction by the Deccan Sultanates at the Battle of Talikota (1565)
-• **Bahmani Kingdom (1347–1526)**: Hasan Gangu's foundation; conflicts with Vijayanagara; Bahmani architecture (Gulbarga, Bidar); integration of Persian culture; fragmentation into Deccan Sultanates (Bijapur, Golkonda, Ahmadnagar, Bidar, Berar)
-• **Mughal Foundations (1526–1530)**: Babur — Timurid lineage, Memoirs (Baburnama), First Battle of Panipat (1526), Khanwa (1527); Humayun's struggles and Safavid exile
-• **Sher Shah Suri (1540–1545)**: Battle of Kanauj; administrative reforms — land revenue (Zabt system), Qanoongoes, Paigah system, coins, postal system (Dak); road construction (Grand Trunk Road, erox)
-• **Akbar's Empire (1556–1605)**: Second Battle of Panipat (1556) with Hemu; Rajput policy (Jodha Bai, marriage alliances); conquests in Gujarat, Bengal, Deccan; Din-i-Ilahi; Ibadat Khana; Ain-i-Dharmasastra/expansion of the empire;Fatehpur Sikri
-• **Jahangir (1605–1627)**: Nur Jahan's influence; campaigns in Deccan; paintings of the JahangirNama; interactions with English traders
-• **Shah Jahan (1628–1658)**: Architecture (Taj Mahal, Red Fort, Jama Masjid); Deccan policy — campaigns against the Golkonda and Bijapur; war of succession among sons
-• **Aurangzeb (1658–1707)**: Enforcement of religious policies — reimposition of Jizya, destruction of temples; Deccan campaigns (Adil Shahi Bijapur, Maratha resistance, Shivaji's coronation); rebellions across the empire; Anglo-Mughal conflicts; causes of imperial decline
-• **Mughal Administration in Depth**: Mansabdari — Zahir Muhammad, rank system (Mansabdar salaries), Mansabdari revenue; Jagirdari — distribution, impact on Zamindars; Mansabdari list (Dastur al-Am); financial administration — Diwan, Diwan-i-Khalifa, imperial household
-• **Mughal Economy and Society**: Trade — textiles, spice trade, exports to Europe; artisan guilds; urbanization; role of Banias and Seths; peasant conditions
-• **Mughal Art, Architecture, and Culture**: Mughal miniatures (AkbarNama, Hamza Nama); architecture — synthesis of Persian, Timurid, and Indian styles; music — Dhrupad, Tansen; literature — Abul Fazl's Akbarnama, Abdul Rahim Khan-i-Khanan's dohas
-• **Bhakti Movement in Depth**: Saiva saints (Appar, Sambandar); Vaishnava saints (Annamacharya, Purandara Dasa); Kabir —nirgun doctrine, rejection of formalism, influence on Guru Nanak; Guru Nanak (1469–1539) — founding of Sikhism, Kartarpur; Mirabai — devotional Krishna bhakti; Tulsidas — Ramcharitmanas in Awadhi; Surdas — Sur Sagar; Chaitanya Mahaprabhu (1486–1534) —Gaudiya Vaishnavism, sankirtan; social impact of Bhakti — breakdown of caste barriers, women's participation
-• **Sufi Orders**: Chishti order — Khwaja Moinuddin Chishti (Ajmer), Nizamuddin Auliya (Delhi), Baba Farid (Punjab); Suhrawardi order in Multan; Firdausi; the concept of Wahdat al-Wujud (Unity of Being); Sufi music and Sama (devotional dance)
-• **Decline of Mughal Empire**: Aurangzeb's overreach; continuous Deccan wars draining treasury; Jizya controversy and temple destruction; Zamindari and Jagirdari crisis; Nader Shah's invasion (1739) — Sack of Delhi; Ahmad Shah Durrani's invasions (1st–3rd, 1748–1752); rise of regional powers — Marathas (Peshwa era), Jats, Sikhs, Rohillas; loyalty of the army compromised
+| Trap | Correct position | What UPPSC tests |
+|---|---|---|
+| Qutub Minar completion | Started by Aibak, completed by Iltutmish (1232) | Layer attribution in MCQs |
+| First Sultan to mint gold coins | Alauddin Khilji (Mohur) | Often swapped with Muhammad bin Tughlaq |
+| Battle of Raichur (1520) | Krishna Deva Raya vs Ismail Adil Shah (Vijayanagara victory) | Asked under Deccan sultanates |
+| Vijayanagara founders | Harihara & Bukka (1336), Sangama dynasty | Sometimes confused with Bahmani (1347) |
+| Bahmani capital shift | Gulbarga → Bidar (c. 1427 under Ahmad Shah Wali) | Multistate-ment questions |
+| Akbar's Navratna | Birbal, Tansen, Todar Mal, Abul Fazl, Faizi, Man Singh, etc. | Name-list matching |
+| Sulah-i-Kul | Akbar's policy of universal peace / religious tolerance | Quote or attribution MCQs |
+| Shivaji's council (Ashtapradhan) | Peshwa, Amatya, Sachiv, Mantri, etc. | Match the office to function |
+| Land classification (Ain-i-Akbari) | Polaj (annually cropped), Parauti (left fallow 1–2 yrs), Chachar (left fallow 3–4 yrs), Banjar (5+ yrs) | Revenue terminology MCQs |
+| Sher Shah's silver rupee | 178 grains, **Arsah rupee** | Currency weight questions |
 
-Problem-solving strategies and common mistakes to avoid:
-• Do not confuse the Iqta system (Delhi Sultanate) with the Mansabdari system (Mughals) — both are land-for-service systems but structurally different
-• Remember: Sher Shah, not a Mughal, introduced the Zabt system and the Paigah — frequently confused in exams
-• The Bhakti movement was not anti-Hindu — it was a reform within Hinduism that challenged caste and ritual
-• Mughal decline was multi-causal — avoid oversimplifying to just Aurangzeb's religious policies
-• Vijayanagara's fall (Talikota, 1565) was a turning point in Deccan history — know the alliance of Deccan sultanates against it
+#### Administrative Cascades: From Sultanate to Mughal
 
-Practice: Attempt previous year UPPSC PCS questions on Medieval History; refer to R.C. Majumdar's "The History and Culture of the Indian People" (Vols. III–V), Satish Chandra's "History of Medieval India", and Irfan Habib's works for advanced reading.
+The Iqta system of the Sultanate evolved under the Mughals into a layered fiscal structure. Under Iltutmish, iqtas were transferable, preventing local rooting. Alauddin shifted iqta-holders' status to paid soldiers, removing their tax-collecting identity. Babur and Humayun operated a similar mansab-like arrangement, but **Akbar institutionalised it** by separating *Zat* (status) from *Sawar* (cavalry), introducing *Dagh* (branding) and *Chehra* (descriptive roll of soldiers) to deter fraud. Under Aurangzeb, the *Mashrut* and *Watan* iqtas blurred administrative clarity, contributing to provincial rebellion.
+
+> 📌 **Formula Check:** For revenue: State demand = (Area measured in *bighas*) × (per-bigha crop yield) × (average price index). Akbar's zabti was the first to combine measurement + yield + price data — Todar Mal finalised it during the **Karwi (1582)** settlement.
+
+#### Bhakti-Sufi Interactions and State Patronage
+
+UPPSC occasionally frames questions as **assertion–reason**: *"Bhakti saints attacked caste hierarchy while Sufi shrines welcomed all castes — therefore medieval syncretism dissolved varna."* The factual layer to learn: Kabir's verses attacked orthodox Brahmanism; Ravidas, Namdev, and Tukaram carried lower-caste participation into public devotion; Dara Shikoh's *Majma-ul-Bahrain* (1655) attempted textual fusion of Vedanta and Sufism. Aurangzeb's anti-syncretic posture (reimposition of jizya 1679, destruction of Kashi Vishwanath 1669) marks the political reversal. **Do not overstate** that varna dissolved — caste was contested in devotional idiom, not legally abolished.
+
+#### Maratha Statecraft
+
+Chhatrapati Shivaji's coronation (1674) was conducted by **Gaga Bhatt** following Vedic rites, deliberately establishing Kshatriya status against Brahminical objection. His administration featured the **Ashtapradhan** Mandal. After Shivaji (d. 1680), the Peshwa office — originally the principal minister — became hereditary under **Balaji Vishwanath** and dominant under **Baji Rao I** (1720–1740), who conducted northern expansion (*Attock, 1758*, post-Baji Rao II decline). By 1760s, the Maratha Confederacy controlled a revenue field from the Deccan to the Ganges plain, but the **Third Battle of Panipat (1761, Abdali vs Peshwa's son)** broke the confederation's northern ambition. UPPSC tests that **Peshwa was not the king** — Chhatrapati was the titular sovereign until 1818.
+
+> ⚠️ **Examiner Trap:** Many answer keys wrongly treat 1761 Panipat as "Maratha defeat ending Maratha rule" — it ended *northern Maratha expansion*, not the Maratha state. That continued under Peshwa authority until British defeat in 1818.
+
+#### Advanced Practice Prompts
+
+1. **Chronology MCQ set:** Construct 10 single-best-answer questions matching each ruler of the Delhi Sultanate with one signature reform (e.g. Alauddin → price control, Muhammad bin Tughlaq → token currency, Firoz Shah → canals, Sikandar Lodi → Agra shift, Ibrahim Lodi → Panipat 1526).
+2. **Assertion–Reason pair:** "Akbar's Din-i-Ilahi was a religion — because it was founded at Fatehpur Sikri in 1582." Evaluate. (Correct resolution: It was a *spiritual order/discipleship circle*, not a religion with scripture, clergy, or conversion mechanism.)
+
 ---
+
+## Continue your study
+
+- **[View this topic in your UPPSC PCS roadmap](/roadmap/?exam=up-psc&duration=1mo)** — see where "Medieval Indian History" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=up-psc&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UPPSC PCS exam overview](/exams/up-psc/)** — pattern, eligibility, and syllabus
+- **[All History notes](/notes/up-psc/history/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

@@ -8,234 +8,112 @@ topicName: Physical Geography of Karnataka
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-16"
 ---
 
 # Physical Geography of Karnataka
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision.
+> Rapid summary for last-minute revision before your exam.
 
-**Physical Geography of Karnataka** — Key Facts for KPSC KAS
-• **Location**: Between **11°30'N and 18°45'N latitudes** and **74°E and 78°30'E longitudes**; lies entirely in Peninsular India; total area: **1,91,791 sq km** (7th largest state).
-• **Neighbours**: Maharashtra (north), Goa (northwest), Andhra Pradesh (east), Tamil Nadu (southeast), Kerala (south and southwest); **Lakshadweep Sea** to west.
-• **Physiographic divisions**: **Northern Karnataka Plateau** (semi-arid, undulating plateau), **Central Karnataka Plateau** (transitional zone), **Southern Karnataka Plateau** (more elevated, forested), **Coastal Plain** (Western Ghats to Arabian Sea).
-• **Western Ghats**: Runs along western border; UNESCO World Heritage (2012); average elevation: 900-1,800 m; passes: **Palakkad Gap** (most significant — links Karnataka with Kerala/Tamil Nadu).
-• **Major rivers**: **Krishna** (flows east from Mahabaleshwar, Maharashtra), **Tungabhadra** (tributary of Krishna — major in Karnataka), **Cauvery** (rises in Kodagu, flows east to Tamil Nadu), **Sharavathi** (falls at **Jog Falls** — 253 m, 2nd highest in India after Nohkalikai).
-• **Coastline**: **320 km** along Arabian Sea; major ports: **Mangalore (New Mangalore Port)** — 4th largest in India; **Karwar** (naval and commercial).
+Karnataka sits between **11°31′ N–18°14′ N latitude** and **74°12′ E–78°40′ E longitude**, covering **1,91,791 sq km** (6th largest Indian state). The state has three physiographic zones — the **Coastal Plain** (Konkan, ~320 km coast), the **Malnad** (hill region of the Western Ghats/Sahyadri), and the **Maidan/Bayalu Seeme** (eastern Deccan plateau). Mean annual rainfall is **~1,139 mm**, with the **SW monsoon (June–Sept) supplying ~80%** and the retreating NE monsoon adding coastal rain.
 
-⚡ **Exam tip**: KPSC KAS frequently asks about **Karnataka's rivers and their importance, Western Ghats, and the Jog Falls**. Questions on **drainage patterns, regional climate variations**, and **geographical divisions within Karnataka** are common.
+- **Highest peak:** Mullayanagiri (1,925 m) in the Baba Budangiri range, Chikmagalur.
+- **Two main river basins:** Krishna (~793 km in state) and Cauvery (~320 km in state).
+- **Highest waterfall in India:** Jog Falls (253 m) on the Sharavathi river.
+- **Minerals at a glance:** Iron ore (Bellary–Chitradurga), gold (Hutti, Raichur), manganese (Shimoga), bauxite (Belgaum).
+- **Largest dam by hydropower:** Linganamakki (Sharavathi basin).
+
+> 💡 **High-Yield Memory Hook:** "**C**oast, **M**alnad, **M**aidan — **CMM**" for Karnataka's three zones. River-river trick: "**K**rishna–**T**ungabhadra, **C**auvery–**H**emavathi" — K-T and C-H, both **tributary pairs flowing east**.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content.
+> Standard content for students with a few days to months.
 
-**Physical Geography of Karnataka** — KPSC KAS Study Guide
+#### Physiographic Divisions
+Karnataka is conventionally split into three north–south trending belts. The **Western Ghats (Sahyadri)** form a continuous 1,600 km escarpment along the western border, with peaks like **Mullayanagiri (1,925 m)**, **Kudremukh (1,894 m)**, **Brahmagiri**, **Nandidurga**, **Chamundi Hills**, and the **Baba Budangiri Range**. West of the Ghats lies the narrow **Coastal Plain** (Udupi, Dakshina Kannada, Uttara Kannada); the Ghats themselves, with dense forests and high rainfall, are the **Malnad** (Chikmagalur, Coorg, Shimoga, Hassan). East of the Ghats, the **Maidan** (Bayalu Seeme) is a rolling plateau of Deccan trap basalts, semi-arid and drought-prone (Bijapur, Bellary, Raichur, Chitradurga).
 
-## Karnataka's Physical Features
+#### Rivers and Basins
+Krishna (1,401 km total, ~793 km in Karnataka) and Cauvery (~800 km total, ~320 km in Karnataka) are the lifelines. Key tributaries and westward rivers:
 
-### Relief and Physiographic Divisions
+| River | Basin / Direction | Origin / Note |
+|---|---|---|
+| Tungabhadra | Krishna tributary, eastward | Formed at Kudali sangam; major dam at Hospet |
+| Sharavathi | Westward to Arabian Sea | Originates near Ambutirtha; Jog Falls |
+| Netravati | Westward to Arabian Sea | Dakshina Kannada; meets Gurpur river |
+| Mandovi | Westward to Arabian Sea | Originates in Karnataka, flows through Goa |
+| Hemavathi | Cauvery tributary | Dam at Gorur |
+| Kabini | Cauvery tributary | Banasura Sagar source region |
+| Ghataprabha, Malprabha | Krishna tributaries | Western Ghats feeders |
 
-Karnataka exhibits remarkable geographical diversity from the coastal lowlands to the elevated Deccan plateau:
+#### Concept Comparison Matrix
 
-**Northern Karnataka Plateau**:
-- Districts: Bijapur, Gulbarga, Raichur, Koppal, Bellary, Yadgir
-- Rainfall: 500-700 mm (semi-arid; drought-prone)
-- Terrain: Undulating black soil plateau (Deccan Trap basalt)
-- Rivers: Krishna, Bhima
-- Major crops: Jowar, cotton, groundnut, pulses
+| Feature | Malnad (Western Ghats) | Maidan / Bayalu Seeme |
+|---|---|---|
+| Relief | Hill country, >900 m | Plateau, 300–600 m |
+| Rainfall | 2,000–4,000 mm | 500–750 mm |
+| Soil | Laterite, forest loam | Black regur, red soil |
+| Vegetation | Evergreen / moist deciduous | Dry deciduous, scrub |
+| Economy | Coffee, areca, spices | Millets, cotton, groundnut |
+| Districts (sample) | Shimoga, Chikmagalur, Coorg | Bijapur, Bellary, Chitradurga |
 
-**Central Karnataka Plateau**:
-- Districts: Dharwad, Haveri, Gadag, Shimoga, Davanagere
-- Rainfall: 700-1000 mm
-- Terrain: Transitional zone; mixed red and black soils
-- Rivers: Tungabhadra (with its dam — Tungabhadra Dam at Hampi)
-- Major crops: Cotton, jowar, sugarcane, rice
+#### 🎯 Exam-Level Worked Problem
+**Question:** The Jog Falls, often called the highest plunge waterfall in India, lies on which river and in which district?
+(a) Sharavathi, Shimoga (b) Cauvery, Mysore (c) Netravati, Dakshina Kannada (d) Tungabhadra, Bellary
 
-**Southern Karnataka Plateau**:
-- Districts: Mysore, Hassan, Mandya, Ramanagara, Tumkur, Bangalore Rural
-- Rainfall: 700-1000 mm (bimodal pattern)
-- Terrain: Granite and gneissic hills; rolling plains
-- Rivers: Cauvery, Arkavathi (tributary)
-- Crops: Ragi, rice, mulberry sericulture
+**Solution:** Jog Falls (also called Gersoppa Falls) drops **253 m** in a single plunge — the tallest in India — and is formed by the **Sharavathi river** cascading over the Western Ghats edge in **Shimoga district**. Answer: **(a)**.
 
-**Coastal Plain (Malenadu)**:
-- Districts: Uttara Kannada, Dakshina Kannada, Udupi
-- Rainfall: 2000-3000 mm (heavy monsoon)
-- Terrain: Narrow coastal strip between Western Ghats and Arabian Sea
-- Rivers: Sharavathi (Jog Falls), Netravati, Mahi
-- Vegetation: Tropical evergreen and semi-evergreen forests
-
-### Western Ghats in Karnataka
-
-**Extent in Karnataka**:
-- Runs along entire western border from Goa to Kerala
-- UNESCO World Heritage (2012) — first in Karnataka (Western Ghats inscribed as serial property across states)
-- Average elevation: 900-1,800 metres
-
-**Important Passes**:
-- **Palakkad Gap**: Most significant pass; connects Karnataka's interior to Kerala; National Highway 544 passes through; altitude 100-150 m
-- **Dakshina Kannada passes**: Various smaller passes connecting coastal districts to interior
-
-**Mountain Ranges (Karnataka)**:
-- **Western Ghats**: Continuous barrier
-- **Aravali remnants**: In Karnataka (the Bargujjar hills of Karnataka are sometimes considered extensions)
-- **Karnataka Highlands**: Distinctive elevated plateau
-
-**Western Ghats Biodiversity**:
-- **Biodiversity hotspot**: One of the world's 36 biodiversity hotspots
-- Endemic species: Lion-tailed Macaque, Malabar Giant Squirrel, Malabar Trogon
-- **Kodagu (Coorg)** is part of the Western Ghats; global significance for biodiversity
-
-### Major Rivers and Drainage
-
-**Krishna River System**:
-- **Krishna proper**: Rises from Mahabaleshwar (Maharashtra); flows through Karnataka for 400+ km
-- Major tributaries within Karnataka: **Bhima** (from Pune region), Tungabhadra (from Karnataka itself — formed by two streams in Karnataka)
-- **Tungabhadra Dam** (Hampi): Built across Tungabhadra; major irrigation project
-
-**Cauvery River System**:
-- **Rises from Talacauvery** in Kodagu (Brahmagiri range, Western Ghats); altitude 1,340 m
-- Flows through Kodagu, Mysore, Karnataka-Tamil Nadu border
-- Major tributaries in Karnataka: **Arkavathi** (rises near Bangalore), Kabini (tributary from Wayanad, Kerala)
-- **KRS (Krishnarajasagara) Dam** (1914): Built across Cauvery near Mysore; one of India's oldest major dams
-
-**Sharavathi River**:
-- Flows from the Western Ghats to the Arabian Sea
-- Famous for **Jog Falls** (253 metres) — India's 2nd highest waterfall after Nohkalikai (Meghalaya, 335m)
-- **Kodagu's rivers**: Netravati, etc. flow west to Arabian Sea
-
-### Coastal Karnataka
-
-**Coastal Features**:
-- **320 km coastline** on the Arabian Sea
-- **Mangalore (New Mangalore Port)**: India's 4th largest port; handles iron ore exports, crude oil imports, container cargo
-- **Karwar**: Naval base and commercial port; significant during Portuguese, Dutch, British periods
-- **Udupi and Malpe**: Minor ports; fishing harbours
-
-**Coastal Erosion**:
-- Significant coastal erosion in Uttara Kannada (Kumta, Honnavar areas)
-- 30% of coastline showing erosion
-- Mangalore and Udupi areas also affected
+> ⚠️ **Examiner Trap:** Students confuse Jog Falls with **Shivanasamudra** (Cauvery, Chamarajanagar district) or **Gaganachukki–Barachukki** (also Cauvery). Jog = Sharavathi, not Cauvery. Also, Jog's height (~253 m) is for the total drop, not a single unbroken plunge — keep that nuance for mains answers.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage.
+> Comprehensive coverage for students on a longer study timeline.
 
-**Physical Geography of Karnataka** — Comprehensive KPSC KAS Notes
+#### Climate, Rainfall, and Rain Shadow
+Karnataka's climate is **tropical monsoon** in the west and **semi-arid / tropical savanna** in the east. The SW monsoon (June–Sept) delivers ~80% of the annual ~1,139 mm; the **retreating NE monsoon (Oct–Nov)** gives localised coastal and southeastern rainfall. A pronounced **rain-shadow** sits east of the Ghats — districts like **Bijapur, Bellary, Chitradurga, and Raichur** record under 750 mm and face recurrent drought. **Agumbe** (Shimoga) is among India's rainiest stations (~7,620 mm reported in some years) and is called the "Cherrapunji of the South."
 
-## Climate, Soil, and Natural Resources
+#### Soils and Mineral Belts
 
-### Regional Climate Variations
+| Soil type | Location | Use / Property |
+|---|---|---|
+| Laterite | Western Ghats, west coast | Building bricks, poor in nitrogen |
+| Red loam | Eastern Maidan, large swathes | Millets, groundnut |
+| Black cotton (regur) | Deccan trap — Bellary, Raichur, Bijapur | Cotton, moisture-retentive |
+| Alluvial | Krishna, Cauvery deltas | Paddy, sugarcane |
+| Forest / mountain | Malnad slopes | Coffee, areca |
 
-Karnataka's climate varies dramatically from coast to interior due to the Western Ghats:
+| Mineral | District(s) | Key fact |
+|---|---|---|
+| Iron ore | Bellary, Chitradurga, Tumkur, Sandur, Kudremukh (Chikmagalur) | High-grade hematite; Kudremukh mines closed for mining but ore transported via slurry pipeline |
+| Gold | Hutti (Raichur), Hira-Buddini | Hutti is **India's only operational gold mine**; Kolar Gold Fields closed in 2001 |
+| Manganese | Shimoga (Shikaripura), Bellary | Ferromanganese grade ore |
+| Bauxite | Belgaum | Aluminium ore |
+| Chromite | Hassan | Refractory industry |
+| Kaolin / China clay | Mangalore, Dakshina Kannada | Ceramic industry |
 
-**Coastal Karnataka (Malenadu)**:
-- **Tropical monsoon climate**; heavy rainfall (2000-3000 mm annually)
-- Humidity: High throughout the year
-- **Vegetation**: Tropical evergreen and semi-evergreen forests; dense canopy
-- **Tourism**: Gokarna beaches, Murudeshwar temple, Udupi beaches
+#### Advanced Traps and Edge Cases
 
-**Interior Karnataka — Southwest (Mysore region)**:
-- **Tropical savanna climate**; moderate rainfall (700-1000 mm)
-- Distinct wet and dry seasons
-- **Vegetation**: Deciduous forests; dry deciduous in north
+1. **Highest peak:** Mullayanagiri is in the **Baba Budangiri range**, **Chikmagalur district** — not Doddabetta (which is in Tamil Nadu) and not Kemmangundi.
+2. **Dam–river pairing:** **KRS** = Cauvery (Mandya); **Linganamakki** = Sharavathi (Shimoga); **Tungabhadra** = Tungabhadra river (Bellary border); **Alamatti** = Krishna (Bijapur).
+3. **Port status:** **New Mangalore Port** is a **Major Port** (Central Government); **Karwar** is an intermediate/minor port under the **Karnataka Maritime Board**.
+4. **Coast length:** Often cited as **~320 km** in older texts; some recent sources give **~400 km** after coastal district reorganisations. Quote ~320 km unless the question specifies the new figure.
+5. **Cauvery dispute:** The **Cauvery Water Disputes Tribunal (1991)** gave an award; the **Cauvery Water Management Authority (CWMA, 2018)** and **CWRC** implement it. Karnataka's share was ~270 TMC under the 2007 gazette notification.
 
-**Interior Karnataka — North (Hyderabad-Karnataka)**:
-- **Semi-arid climate**; low and unreliable rainfall (500-700 mm)
-- Frequent droughts; desert-like conditions in Gulbarga, Raichur, Bijapur districts
-- **Vegetation**: Scrubland; thorny species
+#### Practice Prompts
+1. Explain how the Western Ghats create a rain-shadow effect in eastern Karnataka, naming three drought-prone districts and the soil type that dominates there.
+2. Differentiate Hutti from Kolar Gold Fields in terms of current status, district, and geological belt.
 
-**Bangalore's Climate**:
-- **Elevation**: 920 metres above sea level; pleasant climate
-- **Temperature**: 12-36°C annual range; summer (March-May) hot but moderate; winter cool
-- Referred to as **"Garden City"** historically; now facing water crisis
-
-### Soils of Karnataka
-
-**Black Cotton Soil (Regur)**:
-- **Distribution**: North Karnataka (Bijapur, Gulbarga, Raichur, Koppal, Bellary)
-- **Parent material**: Deccan Trap basalt
-- **Properties**: High clay content; swells when wet, shrinks when dry; good water retention
-- **Agricultural significance**: Cotton, jowar, groundnut; drought-resistant when managed properly
-
-**Red Sandy Soils**:
-- **Distribution**: Mysore plateau, Kolar, Tumkur, Hassan districts
-- **Parent material**: Granite, gneiss
-- **Properties**: Low water retention; require fertilizers; good for dryland crops
-- **Agricultural significance**: Ragi, groundnut, pulses
-
-**Laterite Soils**:
-- **Distribution**: Western Ghats foothills (Uttara Kannada, Dakshina Kannada, Chikmagalur)
-- **Properties**: Gravelly; leached; acidic; poor fertility
-- **Agricultural significance**: Tea, coffee, spices (Western Ghats zones); require heavy fertilization
-
-**Alluvial Soils**:
-- **Distribution**: River valleys (Krishna, Tungabhadra, Cauvery, Sharavathi)
-- **Properties**: Fertile; loamy; good water retention
-- **Agricultural significance**: Rice, sugarcane, vegetables
-
-### Natural Resources
-
-**Mineral Wealth in Karnataka**:
-- **Iron ore** (Bellary-Hospet-Sandur region): One of India's major iron ore belts; 63%+ Fe grade
-- **Manganese** (North Karnataka): Found in Sandur hills; used in steel production
-- **Gold** (Kolar Gold Fields — historical, now closed; Hutti Gold Mine — still operating in Raichur district)
-- **Limestone** (Karnataka): Cement production
-- **Magnesite** (Mysore region — Krishnarajanagara): Refractory for steel industry; pharmaceutical uses
-
-**Forest Resources**:
-- **Forest cover**: 38,000 sq km (20% of state area)
-- **Forest types**: Tropical evergreen (Western Ghats), moist deciduous, dry deciduous, scrub
-- **Major forests**: Bandipur, Nagarhole, Bhadra, Kudremukh (National Parks)
-- **Endemic species**: Lion-tailed Macaque (Karnataka's endemic primate), Malabar Giant Squirrel, Malabar Trogon
-
-**Water Resources**:
-- Major reservoirs: KRS (Krishnarajasagara), Tungabhadra Dam, Upper Krishna Project (Karnataka), Kabini Dam
-- Groundwater: Significant in granite areas; declining in Bangalore's peripheral areas
-- **Jog Falls** (Sharavathi River): 253 m high; hydroelectric power generation (KPCL — Karnataka Power Corporation)
-
-### Environmental Issues in Karnataka
-
-**Coastal Erosion**:
-- Karwar, Kumta, Honnavar, Mangalore beaches showing erosion
-- Sea walls built but limited effectiveness
-- National Green Tribunal orders to protect coast
-
-**Western Ghats — Conservation Challenges**:
-- **Ecological concern**: Karnataka's Western Ghats section faces mining pressure (Karnataka's iron ore belt in Bellary extends to Western Ghats)
-- **Ecological sensitive zones (ESZ)**: Ecologically sensitive areas declared; construction restrictions
-- **Biodiversity protection**: Protected areas network (National Parks, Wildlife Sanctuaries)
-
-**Bangalore's Urban Environmental Crisis**:
-- **Water depletion**: Cauvery supply limited; groundwater declining
-- **Lake destruction**: Many lakes filled or encroached; 200+ lakes lost since 1970s
-- **Flooding**: Bellandur and other lakes overflow during heavy rain; urban flooding
-- **Air pollution**: Bangalore among top 10 most polluted cities in India (2023 data)
-
-**Sand Mining**:
-- Illegal river bed sand mining widespread across Karnataka's rivers
-- **Kali River** (Uttara Kannada): Environmental damage from sand mining
-- National Green Tribunal intervention
+> 📌 **Formula Check:** For exam numerics, remember Karnataka's area **1,91,791 sq km**, Jog Falls **253 m**, Mullayanagiri **1,925 m**, mean rainfall **~1,139 mm**, SW monsoon share **~80%**, Krishna in-state length **~793 km**, coast length **~320 km**.
 
 ---
 
-### Examination Strategy
+## Continue your study
 
-**KPSC KAS commonly asks**:
-1. Explain the regional variations in Karnataka's physical geography
-2. Describe Karnataka's major river systems and their importance
-3. Analyse the Western Ghats' significance
-4. Discuss Karnataka's soil types and agricultural suitability
-5. Evaluate environmental challenges in Karnataka
+- **[View this topic in your KPSC KAS roadmap](/roadmap/?exam=kpsc&duration=1mo)** — see where "Physical Geography of Karnataka" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=kpsc&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[KPSC KAS exam overview](/exams/kpsc/)** — pattern, eligibility, and syllabus
+- **[All Karnataka-Specific notes](/notes/kpsc/karnataka-specific/)** — browse sibling topics in this subject
 
-**Key distinctions**:
-- Malenadu (coastal) vs maidan (interior) — rainfall and vegetation difference
-- Black cotton soil vs red sandy soil vs laterite soil (formation, distribution, use)
-- Cauvery basin vs Krishna basin (direction of flow, cropping patterns)
-- Western Ghats biodiversity vs Deccan Trap basalt (different geological foundations)
-
----
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

@@ -8,198 +8,143 @@ topicName: Adrenergic Drugs — Sympathomimetics and Sympatholytics
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-16"
 ---
 
 # Adrenergic Drugs — Sympathomimetics and Sympatholytics
 
 ### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
 
-**Direct Adrenergic Agonists:**
+**Adrenergic drugs** act on **α1, α2, β1, β2, β3** receptors or the sympathetic nerve terminal. They split into **sympathomimetics** (agonists that mimic noradrenaline/adrenaline) and **sympatholytics** (antagonists that block the receptors or deplete catecholamine stores).
 
-| Drug | α | β1 | β2 | Clinical Use |
-|---|---|---|---|---|
-| **Epinephrine** | +++ | ++ | ++ | Anaphylaxis, cardiac arrest, glaucoma |
-| **Norepinephrine** | +++ | ++ | 0 | Hypotensive shock, vasopressor |
-| **Isoproterenol** | 0 | +++ | +++ | Bradycardia, heart block, bronchospasm |
-| **Dopamine** | + | ++ | + | Shock, heart failure (dose-dependent) |
-| **Dobutamine** | + | +++ | + | Acute heart failure, cardiogenic shock |
-| **Phenylephrine** | +++ | 0 | 0 | Hypotension, nasal decongestion, mydriasis |
-| **Clonidine** | α2 >> α1 | 0 | 0 | Hypertension, ADHD, withdrawal states |
-| **Albuterol/Salbutamol** | 0 | 0 | +++ | Asthma, COPD (bronchodilator) |
-| **Terbutaline** | 0 | 0 | +++ | Asthma, preterm labor (tocolysis) |
-| **Midodrine** | α1 | 0 | 0 | Orthostatic hypotension |
+| Drug | Receptor profile | Key clinical use |
+|---|---|---|
+| Adrenaline (Epinephrine) | α1 + α2 + β1 + β2 | Anaphylaxis (IM 0.5 mg 1:1000), cardiac arrest, LA additive |
+| Noradrenaline | α1 + α2 + β1 (minimal β2) | Septic shock to raise MAP; causes reflex bradycardia |
+| Dopamine | D1 (low dose) → β1 → α1 (high dose) | Shock; "renal dose" 1–2 µg/kg/min |
+| Phenylephrine | α1 selective | Nasal decongestant, mydriatic, paroxysmal SVT |
+| Isoprenaline | β1 = β2 non-selective | Bradyarrhythmia, torsades de pointes |
+| Ephedrine | Indirect + direct (α + β) | Nasal decongestion, urinary incontinence |
+| Propranolol | Non-selective β-blocker | Hypertension, migraine, portal HTN |
+| Phenoxybenzamine | **Irreversible** non-selective α-blocker | Pre-op pheochromocytoma |
 
-**Indirect Adrenergic Agonists:**
-- **Amphetamine** — displaces NE from vesicles → ↑ catecholamine release
-- **Ephedrine** — ↑ NE release + direct α/β agonism
-- **Tyramine** — displaces NE from vesicles (found in aged cheese, wine; causes hypertensive crisis with MAO inhibitors)
-- **Cocaine** — blocks NE reuptake (NET inhibition)
+- **Coupling:** α1 → Gq → ↑IP3/DAG → ↑Ca²⁺; α2 → Gi → ↓cAMP; β1/β2/β3 → Gs → ↑cAMP.
+- **Adrenaline reversal:** α-blocker given first → β2 vasodilation unmasked → MAP falls paradoxically.
+- **MAP formula:** MAP = DBP + ⅓(SBP − DBP) [mmHg].
+
+> 💡 **High-Yield Memory Hook:** **"A1 Queen = Ca²⁺ up; A2 = cAMP down; B1/B2/B3 = cAMP up"** — recall Gq/Gi/Gs in one line. For sympathomimetics, think **"AND"** — **A**drenaline, **N**oradrenaline, **D**opamine — the three endogenous catecholamines.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-**Catecholamine Pharmacokinetics:**
-- **NOT effective orally** (inactivated by COMT and MAO in gut/liver)
-- Short duration of action (minutes)
-- Administered: IV infusion, nebulization, intraocular
-- **Dobutamine** — synthetic catecholamine; mixed α1 agonist + β1 agonist (net: ↑ contractility > ↑ afterload)
-- **Dopamine** — endogenous catecholamine; dose-dependent receptors
+#### Receptor Coupling & Second Messengers
 
-**Dopamine Receptors — Renal Protection:**
-- Low-dose dopamine (renal dose: 1-3 μg/kg/min) → D1 receptors → renal vasodilation → ↑ GFR → natriuresis
-- **Note:** Landmark studies showed no renal protection in critically ill patients; low-dose dopamine no longer recommended
+Each adrenergic receptor couples to a distinct G-protein, dictating clinical effect.
 
-**Shock — Vasopressor Choice:**
+- **α1 (Gq)** activates phospholipase C → ↑IP3 + DAG → releases intracellular **Ca²⁺** (cytoplasmic Ca²⁺ rises from ~0.1 µmol/L resting to >1 µmol/L). Result: smooth muscle contraction — vasoconstriction, mydriasis, bladder sphincter closure.
+- **α2 (Gi)** inhibits adenylyl cyclase → ↓**cAMP** [unit: pmol/L]. Presynaptic α2 autoreceptors on sympathetic nerve terminals inhibit further NA release — clonidine exploits this.
+- **β1, β2, β3 (Gs)** stimulate adenylyl cyclase → ↑**cAMP**. β1 increases HR, contractility, renin; β2 relaxes bronchial, uterine, vascular smooth muscle; β3 drives lipolysis in adipose tissue.
 
-| Type of Shock | First-Line Vasopressor | Goal |
+#### Sympathomimetics — Direct, Indirect, Mixed
+
+| Type | Mechanism | Examples | Duration |
+|---|---|---|---|
+| **Direct** | Binds receptor directly | Adrenaline, Noradrenaline, Phenylephrine, Isoprenaline | Short (catecholamines — metabolised by COMT/MAO) |
+| **Indirect** | Releases stored NA; blocks reuptake | Amphetamine, Methylphenidate, Cocaine, Tyramine | Long |
+| **Mixed** | Direct + indirect | Ephedrine, Pseudoephedrine | Long, oral, crosses BBB poorly |
+
+Catecholamines have **3,4-dihydroxyphenyl** substitution → inactivated by **COMT** and **MAO** → poor oral bioavailability, short half-life. Removing the ring hydroxyls (ephedrine, amphetamine) confers **resistance to COMT/MAO** → orally active, longer duration.
+
+#### Sympatholytics — α and β Blockers
+
+- **α-blockers:** Phenoxybenzamine (irreversible, alkylates receptor — recovery needs new receptor synthesis), Phentolamine (reversible), Prazosin/Tamsulosin (α1 selective; tamsulosin is α1A selective for BPH), Yohimbine (α2 selective).
+- **β-blockers:** Propranolol (non-selective, no ISA), Metoprolol/Atenolol/Bisoprolol (β1 cardioselective), Carvedilol/Labetalol (mixed α + β — used in CHF), Timolol (eye drops for glaucoma).
+- **Absolute contraindications:** Asthma/COPD for non-selective β-blockers, 2nd/3rd-degree AV block, severe bradycardia, decompensated heart failure (acute).
+
+#### Concept Comparison Matrix — Easily Confused Pairs
+
+| Confused pair | Key difference | Exam signal |
 |---|---|---|
-| **Hypovolemic** | Norepinephrine or dopamine | MAP > 65 mmHg |
-| **Cardiogenic** | Norepinephrine | MAP > 65 mmHg, reduce inotropes |
-| **Septic (early/warm)** | Norepinephrine | MAP > 65 mmHg |
-| **Neurogenic** | Norepinephrine or phenylephrine | MAP > 65 mmHg |
-| **Anaphylactic** | Epinephrine (IM) | Support circulation |
+| Phenoxybenzamine vs Phentolamine | Phenoxybenzamine is **irreversible, non-competitive** (alkylates α-receptor); phentolamine is **competitive, reversible** | Pre-op pheochromocytoma uses phenoxybenzamine 7–14 days |
+| Prazosin vs Tamsulosin | Prazosin = α1B (vascular); Tamsulosin = α1A (prostate-selective); tamsulosin causes less orthostatic hypotension | BPH treatment choice |
+| Dopamine dose–response | <2 µg/kg/min = D1 renal; 2–10 = β1 inotropic; >10 = α1 vasoconstrictor | "Renal-dose dopamine" is **outdated** — even low dose can reduce renal blood flow in shock |
+| Propranolol vs Metoprolol | Propranolol blocks β2 (bronchospasm risk); Metoprolol is β1-selective (safer in asthma, but not risk-free) | Asthma patient needs cardioselective agent |
+| Tyramine + MAOI crisis | Tyramine releases stored NA; MAOI prevents NA breakdown → hypertensive crisis | Cheese, wine, soy sauce are tyramine-rich |
+| Adrenaline reversal | α-blocker first → only β2 effect left → MAP falls | Classic pharmacology viva question |
 
-**α-Blockers:**
+#### 🎯 Exam-Level Worked Problem
 
-| Drug | Selectivity | Half-life | Clinical Use | Notes |
-|---|---|---|---|---|
-| **Phenoxybenzamine** | Non-competitive α1 = α2 | Long (24h) | Pheochromocytoma (pre-op), frostbite | Irreversible (alkylation); causes reflex tachycardia |
-| **Phentolamine** | Competitive α1 = α2 | Short | Pheochromocytoma (intra-op), hypertensive crisis | Reversible; causes reflex tachycardia |
-| **Prazosin** | α1 selective | 3-4h | Hypertension, BPH (urinary symptoms) | "First-dose phenomenon" (orthostatic hypotension); less reflex tachycardia |
-| **Terazosin** | α1 selective | 12-24h | Hypertension, BPH | Long-acting; qDay dosing |
-| **Doxazosin** | α1 selective | 22h | Hypertension, BPH | qDay dosing; can cause floppy iris syndrome |
-| **Tamsulosin** | α1A selective | 12-15h | BPH (urinary symptoms) | Spares vascular α1B → minimal hypotension |
-| **Alfuzosin** | α1A selective | 10h | BPH | Less orthostatic hypotension |
-| **Silodosin** | α1A selective | 13-24h | BPH | Most uroselective α1A blocker |
+**Question:** A 45-year-old patient with pheochromocytoma is started on phenoxybenzamine 10 mg BD for 10 days before surgery. On day 8, the anaesthesiologist inadvertently administers adrenaline 1:100,000 with the local anaesthetic. Which haemodynamic change is most likely?
 
-**β-Blockers:**
+#### Solution:
+1. Phenoxybenzamine has covalently alkylated α1 and α2 receptors → **irreversible** blockade (new receptor synthesis needed, takes ~24–48 h).
+2. Injected adrenaline now acts only on unblocked **β2 receptors** on skeletal muscle vasculature → vasodilation.
+3. **MAP calculation before:** MAP = DBP + ⅓(SBP − DBP) = 80 + ⅓(120 − 80) = 80 + 13.3 = **93.3 mmHg** (pressor effect via α1).
+4. **MAP after α-blockade:** unopposed β2 vasodilation drops SBP, MAP falls to ≈ 65–70 mmHg → **paradoxical hypotension** = **adrenaline reversal**.
+5. Compensation requires noradrenaline infusion (pure α + β1 agonist with minimal β2 effect).
 
-| Drug | α1 | β1 | β2 | ISA | MS | Notes |
-|---|---|---|---|---|---|---|
-| **Propranolol** | 0 | ++ | ++ | 0 | ++ | Non-selective; ↑ airway resistance; crosses BBB |
-| **Metoprolol** | 0 | ++ | 0 | 0 | + | Cardioselective (β1 > β2 at low doses) |
-| **Atenolol** | 0 | ++ | 0 | 0 | 0 | Cardioselective; hydrophilic (doesn't cross BBB) |
-| **Bisoprolol** | 0 | ++ | 0 | 0 | 0 | Cardioselective; COPD safer |
-| **Nebivolol** | 0 | ++ | 0 | 0 | 0 | Cardioselective; + NO → vasodilation |
-| **Carvedilol** | ++ | ++ | ++ | 0 | ++ | Non-selective; α1 + β blocker; used in heart failure |
-| **Labetalol** | ++ | ++ | ++ | 0 | ++ | Non-selective; α1 + β blocker; IV for hypertensive emergency |
-| **Esmolol** | 0 | ++ | 0 | 0 | 0 | Ultra-short acting; IV; titratable |
-| **Sotalol** | 0 | ++ | ++ | 0 | ++ | Non-selective; class III + β blocker; QT prolongation |
+> ⚠️ **Examiner Trap:** Students choose "hypertensive crisis" because adrenaline = "pressor". But with α-receptors alkylated, β2 vasodilation dominates — this is the classical adrenaline-reversal phenomenon Dale described in 1906. The trick: always check whether an α-blocker has been given **before** interpreting pressor responses.
 
-**ISA (Intrinsic Sympathomimetic Activity):** Partial agonist activity at β-receptors; less bradycardia, less CV depression
+#### Catecholamine Synthesis & Inactivation
 
-**β-Blockers in Heart Failure:**
-- **Carvedilol, Metoprolol succinate, Bisoprolol** — mortality benefit (proven in trials)
-- Start low dose, titrate slowly (↑ tolerance)
-- Mechanism: ↓ HR → ↑ diastolic filling time, ↓ myocardial O₂ demand, anti-apoptotic, anti-remodeling
-
-**β-Blocker Toxicity/Withdrawal:**
-- **Overdose:** Bradycardia, hypotension, heart block, bronchospasm, hypoglycemia (masked), CNS depression
-- **Withdrawal syndrome:** Tachycardia, hypertension, arrhythmias, angina — **abrupt discontinuation contraindicated** (especially in coronary artery disease)
+- **Synthetic pathway:** Tyrosine → DOPA → Dopamine → Noradrenaline → Adrenaline (PNMT step in adrenal medulla).
+- **Reuptake-1 (NET):** neuronal uptake — cocaine and tricyclics block this.
+- **Reuptake-2 (extraneuronal):** corticosterone-sensitive.
+- **Degradation:** MAO (mitochondria) + COMT (cytoplasm) → VMA and metanephrines (urine metabolites — diagnostic in pheochromocytoma).
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-**Epinephrine — Complete Profile:**
-- **Mechanism:** Direct α1, α2, β1, β2 agonist
-- **Effects:**
-  - **α1:** Vasoconstriction → ↑ SBP and DBP, hemostasis
-  - **β1:** ↑ HR, ↑ contractility, ↑ conduction → ↑ CO
-  - **β2:** Bronchodilation, vasodilation (skeletal muscle)
-- **Dose-dependent response:**
-  - **Low dose (1-2 μg/min):** β > α → ↓ DBP (vasodilation), ↑ SBP
-  - **Medium dose (2-10 μg/min):** α begins to predominate → ↑ SBP and DBP
-  - **High dose (10-50 μg/min):** α predominates → marked vasoconstriction
-- **Clinical uses:**
-  - **Anaphylaxis** — IM 0.3-0.5 mg (1:1000) ASAP; can repeat q5-15min
-  - **Cardiac arrest** — IV 1 mg (1:10,000) q3-5min
-  - **Glaucoma** — topical (decreases aqueous humor production)
-  - **Hemostasis** — topical for bleeding
-- **Contraindications:** Angle-closure glaucoma, coronary artery disease (increases myocardial O₂ demand)
+#### Edge Cases & Advanced Traps
 
-**Norepinephrine:**
-- **Mechanism:** Direct α1 >> α2 > β1 agonist (minimal β2)
-- **Effect:** ↑ SBP, ↑ DBP, ↑ TPR → ↑ MAP; reflex bradycardia (baroreceptor); minimal effect on β2
-- **Clinical use:** Septic shock, cardiogenic shock (afterload reduction)
-- **Complication:** Extravasation → tissue necrosis (use large IV line; avoid peripheral lines; treat extravasation with phentolamine or nitroglycerin)
-
-**Isoproterenol:**
-- **Mechanism:** Direct β1 = β2 agonist (no α activity)
-- **Effect:** ↑ HR, ↑ contractility, bronchodilation, vasodilation → ↓ DBP
-- **Clinical use:** Bradyarrhythmias, heart block (temporary pacing bridge), bronchospasm
-
-**Dobutamine:**
-- **Mechanism:** Synthetic catecholamine; mixture of (+) and (-) enantiomers; net: β1 > β2 > α1
-- **Effect:** ↑ contractility (positive inotropy) → ↑ CO; mild β2 → vasodilation → ↓ afterload
-- **Clinical use:** Acute decompensated heart failure, cardiogenic shock
-- **Note:** Tachyphylaxis develops after 48-72h (β-receptor downregulation)
-
-**Milrinone:**
-- **Mechanism:** Phosphodiesterase-3 (PDE-3) inhibitor → ↑ cAMP → positive inotropy + vasodilation
-- **Effect:** ↑ contractility, ↑ CO, ↓ PCWP, ↓ SVR
-- **Advantage over dobutamine:** Does not increase myocardial O₂ demand as much; useful in β-blocker overdose
-- **Side effects:** Arrhythmias, hypotension, thrombocytopenia (PDE-3 inhibition)
-
-**Levosimendan:**
-- **Mechanism:** Ca²⁺ sensitizer (binds troponin C) + PDE-3 inhibition → ↑ contractility without ↑ intracellular Ca²⁺
-- **Advantage:** Does not increase myocardial O₂ demand; does not cause arrhythmias
-
-**Central α2-Agonists — Detailed:**
-
-| Drug | Lipophilicity | Half-life | Clinical Use | Notes |
-|---|---|---|---|---|
-| **Clonidine** | Moderate | 6-12h | Hypertension (centrally acting), ADHD, opioid withdrawal, menopausal hot flashes, spasticity | Patch available; rebound hypertension on abrupt withdrawal |
-| **Methyldopa** | Moderate | 2h (but effect ~12h) | Hypertension in pregnancy (safe in pregnancy) | Pro-drug; converted to α-methyl NE → false neurotransmitter → ↓ sympathetic outflow |
-| **Guanfacine** | High | 17h | ADHD (children), hypertension | Once daily; less sedation than clonidine |
-| **Tizanidine** | Moderate | 1.5h | Spasticity (MS, spinal cord injury) | Similar to clonidine but shorter acting |
-| **Dexmedetomidine** | Very high | 3-5h | ICU sedation (mechanically ventilated) | α2A selective; provides "cooperative sedation" |
-
-**α2-Agonist Withdrawal:**
-- Rebound sympathetic hyperactivity → severe hypertension, tachycardia, anxiety
-- **Treatment:** Reinstitute α2-agonist; nitroprusside or phentolamine for hypertensive crisis
-
-**Reserpine — Mechanism:**
-- Irreversibly inhibits VMAT (vesicular monoamine transporter) → catecholamines cannot be stored in vesicles → depleted over days
-- Formerly used for hypertension; causes depression, parkinsonism
-
-**Guanethidine:**
-- Inhibits NE release from nerve terminals (blocks vesicle exocytosis)
-- Formerly used for hypertension; causes orthostatic hypotension, diarrhea
-
-**Bretylium:**
-- Blocks NE release from nerve terminals (class III antiarrhythmic)
-- Formerly used for ventricular arrhythmias
-
-**Imidazoline Receptors:**
-- Clonidine also acts on imidazoline I1 receptors in CNS → reduces sympathetic outflow
-- Moxonidine, Rilmenidine — more selective for I1 receptors
-
-**Drug Interactions with β-Blockers:**
-
-| Interaction | Mechanism | Effect |
+| Trap / Edge case | Why it matters | Correct handling |
 |---|---|---|
-| **β-Blocker + Verapamil/Diltiazem** | Negative inotropy + chronotropy | Severe bradycardia, heart failure, AV block |
-| **β-Blocker + Clonidine** | Both ↓ sympathetic tone | Bradycardia, sedation; rebound HTN if clonidine stopped |
-| **β-Blocker + Digoxin** | Additive bradycardia | Severe bradycardia, heart block |
-| **β-Blocker + Insulin/Sulfonylureas** | Mask symptoms of hypoglycemia (except sweating) | Hypoglycemia awareness reduced |
-| **Non-selective β-blocker + β2-agonist (albuterol)** | Bronchospasm | Worsened bronchospasm |
-| **β-Blocker withdrawal + OCPs** | ↑ β-receptor sensitivity | Hypertension, arrhythmias |
+| **Tyramine pressor response** in MAOI patients | Tyramine releases NA from vesicles; MAOI prevents cytoplasmic NA degradation → hypertensive crisis | Avoid aged cheese, wine, soy sauce; prescribe reversible MAOIs (moclobemide) when possible |
+| **First-dose orthostatic hypotension** with prazosin | α1 blockade unmasks poor venous return on standing → syncope | Give first dose at bedtime; titrate slowly; same applies to chlorpromazine, labetalol |
+| **Cocaine + catecholamines** | Blocks Uptake-1 → potentiates endogenous NA → arrhythmias, MI, stroke | β-blockers alone worsen outcome (unopposed α); give benzodiazepines + phentolamine + nitrates |
+| **Tachyphylaxis with ephedrimine** | Depletes NA stores on repeated dosing → response decrement calculated: (Initial − Repeat)/Initial × 100% | Use direct agonists (phenylephrine) when stores are depleted |
+| **β-blocker withdrawal syndrome** | Rebound upregulation of β-receptors after abrupt stop → angina, MI | Taper over 2 weeks; never stop before surgery |
+| **Dopamine "renal dose" myth** | 1–2 µg/kg/min claimed to dilate renal vasculature via D1; trials (SOAP II, 2010) showed no renal protection and possible harm | Use noradrenaline as first-line vasopressor in septic shock per Surviving Sepsis 2021 |
+| **Phenylephrine in paroxysmal SVT** | Pure α1 agonist → reflex vagal slowing → terminates SVT | Alternative: adenosine 6 mg IV push |
+| **β-blockers in Prinzmetal angina** | β2 blockade leaves α-mediated coronary vasospasm unopposed | Prefer CCBs (verapamil, diltiazem); avoid propranolol |
 
-**Key NEET-PG Clinical Pearls:**
-- **Hypertensive emergency + aortic dissection** — treat with IV esmolol or labetalol (↓ HR + ↓ BP)
-- **Hypertensive emergency + pheochromocytoma** — phentolamine (α-blocker) FIRST; never give β-blocker alone (unopposed α → severe HTN)
-- **Anaphylaxis** — IM epinephrine BEFORE anything else; antihistamine and steroids are adjuncts (not first-line)
-- **Asthma/COPD + hypertension** — avoid non-selective β-blockers; use cardioselective β1 blockers with caution; avoid propranolol
-- **Propranolol + thyroid storm** — β-blockers control symptoms (tachycardia, tremor); prevent peripheral conversion of T4→T3
-- **Carvedilol in heart failure** — unique α1 + β blockade + antioxidant effect; mortality benefit proven
-- **Nebivolol + hypertension** — NO-mediated vasodilation; neutral on glucose/lipids; improves endothelial function
-- **Clonidine + opioid withdrawal** — reduces autonomic symptoms of withdrawal; not analgesic
-- **Dexmedetomidine** — ideal ICU sedation; patient arousable and cooperative; no respiratory depression; causes bradycardia
-- **First-dose phenomenon with prazosin** — orthostatic hypotension with first dose; take at bedtime; less with subsequent doses
-- **Tamsulosin** — most uroselective α1A blocker; minimal effect on blood pressure; causes intraoperative floppy iris syndrome (stop before cataract surgery)
+#### Adrenaline Autoinjector — Real-World Pharmacology
+
+- **Dose:** 0.3 mg IM (adult), 0.15 mg (paediatric) into anterolateral thigh (vastus lateralis).
+- **Why thigh and not deltoid:** faster peak plasma concentration (~8 min vs 34 min subcutaneous deltoid); can be given through clothing.
+- **Why IM and not SC:** better absorption in shock-perfused muscle.
+- **Repeat dose:** every 5–15 min if needed; up to 2 doses before ED arrival.
+
+#### Worked Micro-Example: Dose Calculation
+
+> **Scenario:** Septic shock patient, weight 70 kg. Order: dopamine 5 µg/kg/min.
+> **Calculation:** 70 × 5 = 350 µg/min = 0.35 mg/min. Standard concentration: 200 mg dopamine in 50 mL NS = 4 mg/mL. Infusion rate = 0.35/4 × 60 = **5.25 mL/h**.
+> **Receptor effect at 5 µg/kg/min:** predominantly β1 inotropic — increases cardiac output, modest MAP rise, minimal renal vasodilation.
+
+#### Connection to Adjacent Topics
+
+- **Antiadrenergics acting on vesicle storage:** Reserpine (irreversible VMAT blockade → depletes NA/DA/5-HT — used historically in hypertension, now rarely). Guanethidine (replaces NA in vesicles, releases it slowly; was used for hypertension).
+- **Centrally acting α2 agonists:** Clonidine, Methyldopa — reduce sympathetic outflow; methyldopa is safe in pregnancy-induced hypertension.
+- **Anticholinergics vs sympathomimetics:** Both can cause mydriasis, but anticholinergics do not raise IOP via trabecular relaxation in the same way; both cause tachycardia — distinguish by sweating (sympathomimetics cause sweating; anticholinergics cause dry skin).
+- **Glaucoma pharmacology:** β-blockers (timolol) ↓ aqueous humour production; α2 agonists (brimonidine) ↓ production + ↑ outflow; prostaglandin analogues (latanoprost) ↑ uveoscleral outflow.
+
+#### Two Advanced Practice Prompts
+
+1. A patient on selegiline (MAOI) eats aged cheddar cheese and develops BP 220/130 mmHg with severe headache. Trace the molecular sequence from tyramine ingestion to hypertensive crisis, and outline emergency treatment (IV phentolamine 5 mg, then titrated nitroprusside).
+2. Compare phenoxybenzamine, phentolamine, and prazosin in terms of (a) reversibility, (b) reflex tachycardia presence, (c) pre-operative pheochromocytoma use, and (d) effect of administered adrenaline. Construct a 3-column table.
 
 ---
+
+## Continue your study
+
+- **[View this topic in your NEET PG roadmap](/roadmap/?exam=neet-pg&duration=1mo)** — see where "Adrenergic Drugs — Sympathomimetics and Sympatholytics" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=neet-pg&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NEET PG exam overview](/exams/neet-pg/)** — pattern, eligibility, and syllabus
+- **[All Pharmacology notes](/notes/neet-pg/pharmacology/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

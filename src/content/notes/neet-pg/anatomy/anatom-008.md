@@ -8,7 +8,7 @@ topicName: "Digestive System"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-16"
 ---
 
 # Digestive System
@@ -16,327 +16,100 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Digestive System** — Key Facts for NEET PG
-- **GI Tract Layers**: Mucosa (epithelium, lamina propria, muscularis mucosae) → Submucosa → Muscularis externa (circular, longitudinal) → Serosa/Adventitia
-- **Mouth to Anus**: Oral cavity → Pharynx → Esophagus → Stomach → SI → LI → Rectum → Anal canal
-- **MALT**: Gut-associated lymphoid tissue — Peyer's patches (ileum), appendix, tonsils
-- **Peristalsis**: Coordinated circular muscle contraction behind food, relaxation ahead
-- ⚡ **Exam tip**: Stomach has 4 regions (cardia, fundus, body, pylorus); Duodenum has C-shape, receives bile and pancreatic duct at ampulla of Vater
+The **digestive system** is the GI tract (mouth → anus) plus accessory organs (salivary glands, liver, gallbladder, pancreas) that perform ingestion, digestion, absorption, and egestion.
+
+| Division | Extent | Arterial Supply | Embryological Origin |
+|---|---|---|---|
+| **Foregut** | Abdominal oesophagus → duodenum up to ampulla of Vater (+ liver, gallbladder, pancreas) | Coeliac trunk | Endoderm + splanchnic mesoderm |
+| **Midgut** | Duodenum below ampulla → proximal 2/3 transverse colon | Superior mesenteric artery (SMA) | Endoderm + splanchnic mesoderm |
+| **Hindgut** | Distal 1/3 transverse colon → upper anal canal (above pectinate line) | Inferior mesenteric artery (IMA) | Endoderm + splanchnic mesoderm |
+
+#### Wall Layers (inner → outer)
+Mucosa → Submucosa → Muscularis externa → Serosa/Adventitia. The **enteric nervous system** runs two plexuses: **Meissner's** (submucosal, secretion/local blood flow) and **Auerbach's** (myenteric, motility).
+
+> 💡 **High-Yield Memory Hook:** **"Mouth to Anus, Fore-Mid-Hind-Supply"** — *Coeliac / SMA / IMA* map directly to **Foregut / Midgut / Hindgut**. Pair with **"MSA = Motor (myenteric = Auerbach), SS = Secretion (submucosal)"**.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-## Digestive System — NEET PG Study Guide
+#### Histology and Innervation
 
-### GI Tract Wall Structure
+The four-layer wall is uniform, but the **muscularis externa** varies: stomach has three layers (inner **oblique**, middle circular, outer longitudinal) — unique to the stomach; oesophagus upper third is skeletal, lower two-thirds is smooth. The **enteric nervous system** receives parasympathetic input from the **vagus (CN X)** above the splenic flexure and **pelvic splanchnics (S2–S4)** below it, while sympathetic fibres arrive via **greater, lesser, and least splanchnic nerves**.
 
-**From inside to outside**:
+#### Salivary Glands — Ducts and Secretomotor Nerves
 
-1. **Mucosa**: Epithelium + Lamina propria + Muscularis mucosae
-2. **Submucosa**: Dense CT, blood vessels, lymphatics, Meissner's plexus
-3. **Muscularis Externa**: Circular muscle + Longitudinal muscle + Myenteric plexus (Auerbach's)
-4. **Serosa** (peritoneum) or **Adventitia** (no mesentery)
+| Gland | Type | Duct | Opens at | Parasympathetic Supply |
+|---|---|---|---|---|
+| Parotid | Purely **serous** | Stensen's | 2nd upper molar papilla | **CN IX** (lesser petrosal → otic ganglion) |
+| Submandibular | Mixed (serous > mucous) | Wharton's | Sublingual caruncle | **CN VII** (chorda tympani → submandibular ganglion) |
+| Sublingual | Mainly **mucous** | Ducts of Rivinus + Bartholin | Floor of mouth | **CN VII** (chorda tympani → submandibular ganglion) |
 
-### Mouth and Salivary Glands
+#### Stomach — Cells and Secretions
 
-**Salivary Glands**:
-- **Parotid**: Serous (amylase), drains via Stensen's duct opposite upper M2
-- **Submandibular**: Mixed (mucus + serous), drains via Wharton's duct at floor of mouth
-- **Sublingual**: Mucus, drains via multiple minor ducts
+| Cell | Secretion | Trigger / Role |
+|---|---|---|
+| **Parietal** | HCl + **intrinsic factor** (Castle's) | Gastrin, ACh, histamine; IF binds B12 in terminal ileum |
+| **Chief** | **Pepsinogen** | Activated by HCl → pepsin |
+| **G cells** (pyloric antrum) | **Gastrin** | Stimulates parietal secretion |
 
-**Teeth**: 20 deciduous (milk) teeth, 32 permanent teeth
+#### Small vs. Large Intestine
 
-### Stomach
+| Feature | Jejunum | Ileum | Colon |
+|---|---|---|---|
+| Wall thickness | Thicker | Thinner | Thin, sacculated |
+| Plicae circulares | Tall, numerous | Sparse, low | Absent |
+| Peyer's patches | Absent | **Present** (antimesenteric) | Solitary lymphoid nodules |
+| Distinguishing landmark | — | Meckel's diverticulum site | Teniae coli, haustra, epiploic appendages |
 
-**Regions**: Cardia → Fundus → Body → Pylorus
+The **vermiform appendix** base sits at the convergence of the **three teniae coli**, 2 cm below the **ileocaecal valve**; tip position varies (retrocaecal ~65%, pelvic, subcaecal, preileal, postileal).
 
-**Gastric Secretions**:
-- **Parietal cells**: HCl + Intrinsic factor (Castle's intrinsic factor)
-- **Chief cells**: Pepsinogen
-- **G cells**: Gastrin
-- **D cells**: Somatostatin (inhibits gastrin)
+#### Liver and Pancreas
 
-### Small Intestine
+The **hepatic lobule** is the functional unit, built around a **central vein** and surrounded by **portal triads** (hepatic artery proper, hepatic portal vein, bile duct — *never the hepatic veins*). **Kupffer cells** line the sinusoids as resident macrophages. The **hepatopancreatic ampulla (of Vater)** is the union of the common bile duct and main pancreatic duct, controlled by the **sphincter of Oddi**.
 
-**Three Parts**: Duodenum (25 cm), Jejunum (2.5 m), Ileum (3.5 m)
+#### 🎯 Exam-Level Worked Problem
 
-**Features**:
-- Plicae circulares (circular folds): Mucosal folds
-- Villi: Finger-like projections with capillary and lacteal
-- Microvilli: Brush border (enzymatic digestion)
+**Question:** A 55-year-old man with chronic alcohol use presents with haematemesis. Endoscopy shows submucosal varices at the gastro-oesophageal junction. Compression of which venous anastomosis is responsible, and which embryological gut division is the source of the varices?
 
-### Large Intestine
+#### Solution:
+- Varices arise at the **left gastric (coronary) vein ↔ oesophageal branches of the azygos vein** anastomosis — a **portosystemic** site.
+- The left gastric vein drains the **abdominal oesophagus**, which lies in the **foregut** (supplied by the **coeliac trunk**, with venous drainage into the hepatic portal vein).
+- Increased portal pressure forces reversal of flow into the systemic azygos system, producing submucosal oesophageal varices.
 
-**Regions**: Cecum → Ascending → Transverse → Descending → Sigmoid → Rectum → Anal canal
-
-**Features**: Teniae coli (3 bands), Haustra, Appendices epiploicae
-
-### NCE Exam Pattern
-
-Common question types:
-1. GI wall layers and their significance
-2. Gastric secretions and regulation
-3. Pancreatic and biliary secretions
-4. Intestinal absorption mechanisms
-5. GI hormones and their functions
+> ⚠️ **Examiner Trap:** Students often answer "azygos vein drains into portal vein" — it is the opposite. The systemic vein *receives* reversed flow from the portal vein when portal pressure exceeds ~10 mmHg. Also, do not confuse the **pectinate (dentate) line** with the **Hilton (white) line**: pectinate = embryological landmark (visceral/somatic innervation switch), Hilton = external intersphincteric groove.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-## Digestive System — Comprehensive NEET PG Notes
+#### Advanced Traps and Exceptions
 
-### Detailed Theory
+1. **Foregut–midgut boundary is the ampulla of Vater**, not the duodenojejunal flexure. Embryology exams repeatedly test this — the major duodenal papilla marks the transition.
+2. **Duodenum**: only the proximal 2 cm (cap) is intraperitoneal; the remainder is **secondarily retroperitoneal**. The 2nd part is crossed by the **transverse mesocolon**, making it surgically relevant in the **Foramen of Winslow** approach.
+3. **Peyer's patches** are confined to the **ileum**, on the **antimesenteric** border; they are the structural basis for **MALT** and a target in **typhoid** (M-cells) and **Crohn's disease**.
+4. **Pectinate line**: above = endoderm, autonomic (visceral) innervation, portal venous drainage, internal haemorrhoids, columnar epithelium; below = ectoderm, somatic (inferior rectal nerve) innervation, systemic drainage, external haemorrhoids, stratified squamous epithelium.
+5. **Intrinsic factor from parietal cells** is essential for B12 absorption in the **terminal ileum**; loss (autoimmune gastritis, gastrectomy) → **megaloblastic anaemia** (MCQ-favourite triplet: parietal cell antibody + atrophic mucosa + low B12).
+6. **Sphincter of Boyden** sits at the **neck of the gallbladder**, distinct from the **sphincter of Oddi** at the **ampulla of Vater** — confusing the two is a high-yield trap.
+7. **Hepatic lobule vs. portal lobule vs. acinus of Rappaport**: triads form corners of the portal lobule; the acinus of Rappaport (zones 1 → 3 from portal triad to central vein) determines hepatotoxicity patterns — **centrilobular (zone 3)** necrosis with **acetaminophen, CCL₄, halothane**.
+8. **Appendix position variability** changes the clinical sign: retrocaecal tip → silent appendix, flank tenderness; pelvic tip → mimics ovarian/urinary pathology; preileal → high mortality in perforation.
+9. **Portocaval anastomoses** (memorise the four): oesophageal varices (left gastric ↔ azygos), caput medusae (para-umbilical ↔ epigastric), superior rectal varices (superior rectal ↔ middle/inferior rectal), **veins of Retzius** (retroperitoneal colic ↔ retroperitoneal systemic).
+10. **McBurney's point**: 1/3 from ASIS to umbilicus on a line joining them — surface landmark for the **base** of the appendix regardless of tip position.
 
-#### 1. Oral Cavity and Deglutition
+#### Clinical–Anatomical Micro-Cases
 
-**Teeth Formula**:
-- Deciduous: 2-1-0-2/2-1-0-2 (I-C-M/ I-C-M)
-- Permanent: 2-1-2-3/2-1-2-3 (I-C-P-M/ I-C-P-M)
-
-**Salivary Amylase**:
-- Begins starch digestion
-- Optimal pH: 6.7-7.0
-- Breaks α-1,4 glycosidic bonds
-
-**Deglutition (Swallowing)**:
-- **Oral phase** (voluntary): Bolus formed, pushed by tongue against hard palate
-- **Pharyngeal phase** (involuntary): Soft palate elevates, larynx elevates, epiglottis closes, cricopharyngeus relaxes
-- **Esophageal phase** (involuntary): Peristalsis, LES relaxes
-
-**Tonsils**: Lingual (base of tongue), Palatine (fauces), Pharyngeal/Adenoid (posterior nasopharynx)
-
-#### 2. Esophagus
-
-**Structure**:
-- 25 cm long, 2-3 cm diameter
-- Four constrictions: Cricoid, Arch of aorta, Left main bronchus, Diaphragmatic
-- Important clinically for coin ingestion
-
-**Layers**:
-- Mucosa: Stratified squamous epithelium (protection)
-- Muscularis: Upper 1/3 = skeletal, Middle = mixed, Lower 2/3 = smooth
-
-**Lower Esophageal Sphincter (LES)**:
-- Physiological sphincter (not anatomical)
-- Prevents gastroesophageal reflux
-- Relaxed by: VIP, NO; Contracted by: gastrin, acetylcholine
-- LES pressure decreased in GERD
-
-#### 3. Stomach — Detailed
-
-**Gastric Secretions**:
-
-| Cell Type | Secretion | Function |
-|-----------|-----------|----------|
-| Parietal (Oxyntic) | HCl, Intrinsic factor | Digestion, B12 absorption |
-| Chief (Zymogenic) | Pepsinogen | Protein digestion |
-| G cells | Gastrin | Stimulate HCl, growth |
-| D cells | Somatostatin | Inhibit gastrin |
-| Enterochromaffin-like | Histamine | Stimulate HCl |
-
-**HCl Secretion**:
-- H⁺ secreted by H⁺/K⁺ ATPase (proton pump)
-- Cl⁻ follows to form HCl
-- Stimulation: ACh (muscarinic), Gastrin, Histamine (H2)
-- Inhibition: Somatostatin, prostaglandins, vagal denervation
-
-**Gastric Phases**:
-- **Cephalic**: Sight, smell, taste → Vagus → HCl (30%)
-- **Gastric**: Food in stomach → Distension → Gastrin release → HCl (60%)
-- **Intestinal**: Chyme in duodenum → Duodenal gastric inhibitory → ↓ HCl (10%)
-
-**Stomach Protective Mechanisms**:
-- Mucus-bicarbonate barrier
-- Tight junctions between epithelial cells
-- Rapid cell turnover (3-5 days)
-- Prostaglandins stimulate mucus production
-
-**Types of Gastritis**:
-- Acute: NSAID-induced, alcohol, stress (Curling's, Cushing's)
-- Chronic: H. pylori (antral predominant, corpus predominant), autoimmune
-
-#### 4. Pancreas
-
-**Exocrine Pancreas**:
-- Acinar cells: Digestive enzymes
-- Ductal cells: Bicarbonate-rich fluid
-
-**Pancreatic Enzymes**:
-
-| Enzyme | Substrate | Product |
-|--------|-----------|---------|
-| Trypsinogen | (activated by enterokinase) | Trypsin |
-| Chymotrypsinogen | (activated by trypsin) | Chymotrypsin |
-| Procarboxypeptidase | (activated by trypsin) | Carboxypeptidase |
-| Amylase | Starch | Maltose |
-| Lipase | Triglycerides | Fatty acids + 2-monoglycerides |
-| RNase, DNase | RNA, DNA | Nucleotides |
-
-**Regulation**:
-- CCK (Cholecystokinin): Stimulates enzyme secretion
-- Secretin: Stimulates bicarbonate secretion (in response to acid in duodenum)
-
-#### 5. Liver and Biliary System
-
-**Liver Functions**:
-- Metabolic: Carbohydrate, protein, lipid metabolism
-- Synthetic: Albumin, clotting factors, urea
-- Storage: Glycogen, vitamins A, D, B12, iron
-- Detoxification: Drugs, alcohol, ammonia → urea
-- Secretion: Bile (bile acids, bilirubin)
-- Phagocytosis: Kupffer cells
-
-**Bile**:
-- **Bile salts** (bile acids): Cholesterol-derived, emulsify fats (amphipathic)
-- **Bilirubin**: Product of hemoglobin breakdown
-- **Cholesterol**: Excreted in bile
-
-**Enterohepatic Circulation**:
-- Bile acids absorbed in ileum → portal vein → liver → resecreted
-- 95% recycled, 5% lost daily
-
-#### 6. Gallbladder
-
-**Function**: Stores and concentrates bile
-
-**Structure**: Mucosa with Rokitansky-Aschoff sinuses, smooth muscle
-
-**Regulation**:
-- CCK: Contracts gallbladder, relaxes sphincter of Oddi → bile released
-- Vagal stimulation: Contracts gallbladder
-- Secretin: Stimulates hepatic bile secretion (water and bicarbonate)
-
-**Clinical**: Gallstones (cholesterol stones most common), cholecystitis
-
-#### 7. Small Intestine — Detailed
-
-**Duodenum**:
-- 25 cm (C-shaped)
-- D1: Superior, ampulla of Vater
-- D2: Descending, major duodenal papilla
-- D3: Horizontal
-- D4: Ascending, ligament of Treitz (duodenojejunal junction)
-
-**Jejunum**:
-- 2.5 m
-- Thicker wall, larger villi
-- More prominent circular folds
-- Less Peyer's patches
-
-**Ileum**:
-- 3.5 m
-- Thinner wall, smaller villi
-- Peyer's patches (lymphoid aggregates)
-- Vitamin B12 and bile salt absorption
-
-**Intestinal Enzymes**:
-- Disaccharidases: Maltase, sucrase, lactase (brush border)
-- Peptidases (brush border)
-- Enterokinase (duodenal): Activates trypsinogen
-
-#### 8. Absorption Mechanisms
-
-**Carbohydrates**:
-- Monosaccharides only absorbed (glucose, galactose via SGLT1, fructose via GLUT5)
-- Active transport (Na⁺-coupled), passive facilitated diffusion
-
-**Proteins**:
-- Amino acids and small peptides
-- Na⁺-coupled active transport
-- Peptidases break di/tripeptides
-
-**Lipids**:
-- Emulsification (bile salts) → micelles → absorption
-- Reassembly into chylomicrons in enterocytes
-- Lymphatic transport (not portal blood)
-
-**Water**:
-- Osmotic gradients created by solute absorption
-- 8-9 L handled daily, only 100-200 mL in stool
-
-**Iron and Calcium**:
-- Iron: Ferrous (Fe²⁺) absorbed, ferric reduced by vitamin C
-- Calcium: Active transport in duodenum (vitamin D dependent)
-
-#### 9. Large Intestine
-
-**Functions**:
-- Water and electrolyte absorption
-- Fecal storage
-- Bacterial fermentation
-- Mucus secretion
-
-**Absorption**:
-- 1.5-2 L water absorbed daily
-- Na⁺ absorbed actively, Cl⁻ follows
-- Water follows osmotically
-
-**Bacterial Flora**:
-- Anaerobes: Bacteroides (most common)
-- Aerobes: E. coli
-- Produce vitamin K, B12, biotin
-- Ferment undigested carbohydrates → short-chain fatty acids, gas
-
-**Defecation Reflex**:
-- Distension → internal anal sphincter relaxation (involuntary)
-- Conscious control: External anal sphincter (voluntary)
-- Valsalva maneuver increases intra-abdominal pressure
-
-#### 10. GI Hormones
-
-| Hormone | Source | Stimulus | Action |
-|---------|--------|----------|--------|
-| Gastrin | G cells (stomach) | Peptides, distension | ↑ HCl, gastric motility |
-| CCK | I cells (duodenum) | Fats, proteins | ↓ gastric emptying, ↑ gallbladder, ↑ pancreatic enzymes |
-| Secretin | S cells (duodenum) | Acid in duodenum | ↑ Bicarbonate secretion |
-| GIP | K cells | Glucose, fats | ↓ gastric acid, ↑ insulin release |
-| Motilin | M cells | Fasting | ↑ Migrating motor complex |
-| Somatostatin | D cells | Acid | ↓ Gastric acid, ↓ pancreatic secretion |
-| VIP | Enteric neurons | Meal | ↓ Gastric acid, ↑ intestinal secretion |
-
-#### 11. GI Innervation
-
-**Intrinsic (Enteric Nervous System)**:
-- Myenteric plexus (Auerbach's): Between circular and longitudinal muscle, controls motility
-- Submucosal plexus (Meissner's): Controls secretions, blood flow
-
-**Extrinsic**:
-- **Parasympathetic**: Vagus (esophagus to mid-transverse colon), Pelvic nerves (rectum)
-- **Sympathetic**: Thoracolumbar outflow → inhibits motility, causes vasoconstriction
-
-#### 12. Clinical Correlations
-
-**Peptic Ulcer Disease**:
-- H. pylori (most common), NSAIDs, Zollinger-Ellison (gastrinoma)
-- Duodenal: Pain relieved by eating
-- Gastric: Pain worsened by eating
-
-**Hepatitis**:
-- Viral: A (fecal-oral), B (blood/sexual), C (blood), D, E
-- Types A, E: Acute, self-limiting
-- Types B, C: Can become chronic → cirrhosis, hepatocellular carcinoma
-
-**Pancreatitis**:
-- Acute: Gallstones (40%), Alcohol (30%)
-- Pain: Epigastric, radiating to back
-- Labs: ↑ Amylase, lipase (>3x upper limit)
-- CT: Pancreatic necrosis, pseudocyst
-
-**IBD**:
-- Crohn's: Skip lesions, transmural, any GI segment, granulomas, fistulas
-- Ulcerative colitis: Continuous, mucosal, colon only, pseudopolyps
-
-### Practice Questions for NEET PG
-
-1. Describe the layers of the GI tract wall.
-2. Explain the phases of gastric secretion and their regulation.
-3. Discuss the pancreatic secretions and their regulation.
-4. Describe the mechanisms of intestinal absorption for major nutrients.
-5. Explain the enterohepatic circulation and its significance.
+1. A patient with portal hypertension develops a **caput medusae** radiating from the umbilicus. Trace the abnormal flow: recanalised para-umbilical veins (in falciform ligament, branch of portal vein) → superficial epigastric veins (systemic). Embryologically, the falciform ligament carries the **ligamentum teres hepatis** (obliterated left umbilical vein).
+2. A newborn with bilious vomiting has **malrotation with midgut volvulus**. The **ligament of Treitz** is absent/abnormally positioned; remember that it normally marks the duodenojejunal flexure, the radiographic landmark for normal rotation (C-loop of duodenum crossing the midline).
 
 ---
+
+## Continue your study
+
+- **[View this topic in your NEET PG roadmap](/roadmap/?exam=neet-pg&duration=1mo)** — see where "Digestive System" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=neet-pg&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NEET PG exam overview](/exams/neet-pg/)** — pattern, eligibility, and syllabus
+- **[All Anatomy notes](/notes/neet-pg/anatomy/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

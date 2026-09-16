@@ -8,216 +8,126 @@ topicName: Neoplasia and Cancer Biology
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-16"
 ---
 
 # Neoplasia and Cancer Biology
 
 ### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
 
-**Benign vs Malignant Tumors:**
+**Neoplasia** is the abnormal, autonomous, uncontrolled proliferation of cells that continues after the originating stimulus is removed. A **neoplasm (tumour)** is the resulting mass, whose growth exceeds and is uncoordinated with surrounding normal tissue. **Benign** tumours stay localised and are often encapsulated; **malignant** tumours (cancers) invade and metastasise.
 
-| Feature | Benign | Malignant |
-|---|---|---|
-| Differentiation | Well differentiated | Poorly/undifferentiated |
-| Growth rate | Slow | Rapid |
-| Margin | Encapsulated, pushing | Infiltrative, irregular |
-| Capsular involvement | Confined | Invades through capsule |
-| Necrosis/Hemorrhage | Rare | Common |
-| Metastasis | Absent | Present |
-| Recurrence | Rare | Common |
-| Nuclear features | Uniform | Pleomorphism, ↑ N:C ratio |
+- **Carcinoma** = epithelial malignancy (~80–90% of all cancers); **Sarcoma** = mesenchymal malignancy (rare); **Lymphoma/Leukaemia** = lymphoid/haematopoietic.
+- **Differentiation** is graded histologically; **anaplasia** means loss of differentiation.
+- **Dysplasia** is pre-neoplastic and reversible; **carcinoma in situ** shows full-thickness atypia without basement membrane breach; **invasive carcinoma** breaches the basement membrane.
+- **TNM staging**: T (primary tumour size/invasion, T0–T4), N (regional node, N0–N3), M (distant metastasis, M0/M1).
+- Steps of carcinogenesis: **Initiation → Promotion → Progression**.
+- Hallmarks (Hanahan & Weinberg, 2011): self-sufficiency in growth signals, insensitivity to anti-growth signals, evading apoptosis, limitless replicative potential, sustained angiogenesis, tissue invasion and metastasis.
 
-**Grading vs Staging:**
-- **Grading** — histological differentiation (Grade I-IV); based on microscopy
-- **Staging** — extent of spread (TNM: Tumor size, Nodes, Metastases); based on clinical/imaging/pathology
+| Term | One-line definition |
+|---|---|
+| Neoplasia | Autonomous, uncontrolled cell proliferation |
+| Benign | Localised, encapsulated, no metastasis |
+| Malignant | Invasive, can metastasise |
+| Metastasis | Spread of cancer to distant sites |
+| Anaplasia | Loss of structural/functional differentiation |
+| Grading | Histological differentiation (G1–G4) |
+| Staging | Anatomical extent of spread (TNM) |
+
+> 💡 **High-Yield Memory Hook:** "**B**enign is **B**oring, **B**ulky, **B**enign-**B**ordered" (encapsulated, no spread) — and for carcinogenesis, "**I**-**P**-**P**" = **I**nitiation, **P**romotion, **P**rogression (the three P's). Carcinogen rule of thumb: **"Viruses E6/E7 hit p53 and Rb"** (HPV hits two tumour suppressors).
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-**Carcinogenesis — Two-Hit Hypothesis (Knudson):**
-- **First hit** — inherited or somatic mutation
-- **Second hit** — somatic mutation (loss of heterozygosis)
-- Explains familial cancers (RB, p53, BRCA1/2, APC)
+#### Oncogenes vs Tumour Suppressor Genes
+Oncogenes arise from **gain-of-function** mutations in proto-oncogenes (single allele activation). Examples: **RAS** (point mutation, pancreatic/colorectal cancers), **MYC** (translocation in Burkitt lymphoma t(8;14)), **HER2/ERBB2** (amplified in breast cancer). Tumour suppressor genes (**TSGs**) need **loss-of-function** of **both** alleles — Knudson's **two-hit hypothesis** (retinoblastoma as the prototype). Classic TSGs: **RB1** (retinoblastoma, osteosarcoma), **TP53** (Li-Fraumeni syndrome), **APC** (FAP → colorectal), **NF1**, **VHL**, **WT1**.
 
-**Oncogenes — Common Examples:**
-
-| Oncogene | Normal Function | Cancer Association |
+| Feature | Oncogene | Tumour Suppressor |
 |---|---|---|
-| **RAS** | GTPase (growth signal) | Pancreatic, colorectal, lung |
-| **MYC** | Transcription factor | Burkitt lymphoma, neuroblastoma |
-| **BCL-2** | Anti-apoptotic | Follicular lymphoma |
-| **HER2/neu (ERBB2)** | Growth factor receptor | Breast cancer |
-| **BCR-ABL** | Tyrosine kinase (fusion) | CML, Philadelphia chromosome |
-| **KRAS** | GTPase | Colorectal, pancreatic |
-| **EGFR** | Growth factor receptor | Lung adenocarcinoma |
-| **ALK** | Tyrosine kinase | Lung adenocarcinoma, lymphoma |
-| **N-MYC** | Transcription factor | Neuroblastoma |
+| Mutation type | Gain-of-function | Loss-of-function |
+| Alleles affected | One (dominant) | Both (recessive at cellular level) |
+| Prototype cancer | Burkitt (MYC) | Retinoblastoma (RB1) |
+| Inheritance | Usually somatic | Can be germline (Knudson) |
+| Effect on cell | Accelerates proliferation | Removes braking on cycle |
 
-**Tumor Suppressor Genes:**
+#### Carcinogens and Their Signatures
+- **Chemical**: benzopyrene (smoke → lung), aflatoxin B1 (HCC, **TP53 codon 249** G→T transversion), nitrosamines (gastric), arsenic (skin).
+- **Physical**: UV-B → pyrimidine dimers (skin), ionising radiation → double-strand breaks (thyroid, leukaemia).
+- **Biological**: HPV-16/18 (**E6 degrades p53; E7 inactivates Rb**), EBV (Burkitt, nasopharyngeal, Hodgkin), HBV/HCV (HCC), *H. pylori* (MALT lymphoma, gastric Ca), HTLV-1 (adult T-cell leukaemia).
 
-| Gene | Function | Cancer Association |
-|---|---|---|
-| **RB** | Inhibits E2F (cell cycle) | Retinoblastoma, osteosarcoma |
-| **p53** | "Guardian of genome"; apoptosis | Li-Fraumeni syndrome; most human cancers |
-| **BRCA1/BRCA2** | DNA repair (homologous recombination) | Breast, ovarian cancer |
-| **APC** | Inhibits Wnt signaling | Familial adenomatous polyposis (FAP) |
-| **WT1** | Transcription factor | Wilms tumor |
-| **NF1/NF2** | Ras GTPase regulator / cytoskeletal | Neurofibromatosis 1/2 |
-| **VHL** | Ubiquitin ligase (HIF degradation) | Von Hippel-Lindau disease; renal cell carcinoma |
-| **PTEN** | PI3K/AKT inhibitor | Cowden syndrome |
-
-**DNA Repair Genes:** MSH2, MLH1 (mismatch repair) → Lynch syndrome (HNPCC)
-
-**Carcinogenic Agents:**
-
-- **Chemical:** Aflatoxin B1 (liver cancer), asbestos (mesothelioma, lung cancer), vinyl chloride (angiosarcoma of liver), benzidine (bladder cancer), betel nut (oral cancer), smokeless tobacco
-- **Physical:** UV radiation (BCC, SCC, melanoma), ionizing radiation (leukemia, solid tumors)
-- **Biological/Viral:** HPV (cervical cancer — types 16, 18), HBV/HCV (hepatocellular carcinoma), EBV (Burkitt lymphoma, nasopharyngeal carcinoma), HTLV-1 (Adult T-cell leukemia/lymphoma), H. pylori (gastric MALT lymphoma), Kaposi's sarcoma (HHV-8)
-
-**Metastasis — Routes:**
-1. **Direct seeding** — body cavities (peritoneum, pleura)
-2. **Lymphatic spread** — carcinomas (most common route)
-3. **Hematogenous spread** — sarcomas, carcinomas (liver, lung most common secondary sites)
-4. **Transcoelomic** — across serosal surfaces
-
-**Metastatic Patterns:**
-- **Breast cancer** → bone, brain, liver, lung
-- **Prostate cancer** → bone (osteoblastic metastases)
-- **Lung cancer** → adrenal glands, brain, bone, liver
-- **Colon cancer** → liver (portal circulation)
-- **Retinoblastoma/osteosarcoma** → lung (hematogenous)
-
-**Tumor Markers:**
-
-| Marker | Associated Cancer |
+#### Tumour Markers (Used for Monitoring, Not Screening)
+| Marker | Best-associated cancer |
 |---|---|
-| **AFP** | Hepatocellular carcinoma, yolk sac tumor |
-| **β-hCG** | Choriocarcinoma, germ cell tumors |
-| **CEA** | Colorectal carcinoma (also gastric, pancreatic, breast) |
-| **CA-125** | Ovarian serous carcinoma |
-| **CA 19-9** | Pancreatic adenocarcinoma |
-| **PSA** | Prostate cancer |
-| **S-100** | Melanoma, nerve sheath tumors |
-| **Chromogranin** | Neuroendocrine tumors |
-| **Calcitonin** | Medullary thyroid carcinoma |
-| **Thyroglobulin** | Follicular/papillary thyroid carcinoma |
-| **CA 15-3** | Breast cancer |
+| AFP | Hepatocellular, yolk-sac tumour |
+| β-hCG | Trophoblastic, choriocarcinoma |
+| CEA | Colorectal adenocarcinoma |
+| CA-125 | Ovarian serous carcinoma |
+| PSA | Prostate adenocarcinoma |
+| LDH | Germ-cell tumours, lymphoma (bulk) |
+| CA 19-9 | Pancreatic adenocarcinoma |
+
+#### 🎯 Exam-Level Worked Problem
+**Question:** A 58-year-old chronic smoker presents with a 4-cm cavitating lesion in the right upper lobe. Biopsy shows nests of polygonal cells with keratin pearls and intercellular bridges. Immunohistochemistry is positive for cytokeratin. Serum calcium is 13.5 mg/dL (normal 8.5–10.5) with low PTH. What is the most likely paraneoplastic mechanism, and which oncogene/tumour suppressor profile is typical of this tumour type?
+
+#### Solution:
+- Histology (keratin pearls, intercellular bridges) confirms **squamous cell carcinoma of lung**, a non-small cell carcinoma with **cytokeratin positivity** (epithelial origin → carcinoma, not sarcoma).
+- Hypercalcaemia with **suppressed PTH** in squamous lung cancer is produced by **parathyroid hormone-related peptide (PTHrP)**, which mimics PTH at its receptor, increasing osteoclastic bone resorption and renal calcium reabsorption.
+- Typical molecular profile: **TP53 mutations** (>80% of lung SCCs) plus **SOX2 amplification** and **PIK3CA** mutations; squamous lung cancers rarely harbour EGFR or ALK driver mutations (those favour adenocarcinoma).
+
+> ⚠️ **Examiner Trap:** Students often pick "**ectopic ACTH**" because they associate lung cancer with paraneoplastic syndromes. But ectopic ACTH causes **Cushingoid features + hypokalaemic metabolic alkalosis**, not hypercalcaemia. Squamous lung carcinoma → **PTHrP**; small-cell lung carcinoma → **ACTH** and **SIADH (ADH)**. Match the syndrome to the cell type.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-**Hallmarks of Cancer (Hanahan & Weinberg):**
-1. Self-sufficiency in growth signals
-2. Insensitivity to growth-inhibitory signals
-3. Evasion of apoptosis
-4. Limitless replicative potential (telomerase activation)
-5. Sustained angiogenesis
-6. Invasion and metastasis
-7. Reprogramming energy metabolism (Warburg effect)
-8. Evading immune destruction
-9. Genome instability and mutation
-10. Tumor-promoting inflammation
+#### Hallmarks of Cancer (Hanahan & Weinberg, 2000 → 2011 → 2022)
+The original 2000 paper listed **six** hallmarks. The 2011 update added **four** enabling/emerging capabilities: deregulating cellular energetics (Warburg effect), avoiding immune destruction, tumour-promoting inflammation, and genome instability and mutation. The 2022 revision proposes **four new** candidates: **unlocking phenotypic plasticity, senescent cell clearance, non-mutational epigenetic reprogramming, and polymorphic microbiomes** — bringing the framework to **fourteen** features.
 
-**Tumor Microenvironment:**
-- Cancer-associated fibroblasts (CAFs) — secrete growth factors, remodel ECM
-- Tumor-associated macrophages (TAMs) — M2 phenotype promotes tumor growth
-- Regulatory T cells (Tregs) — suppress anti-tumor immunity
-- Myeloid-derived suppressor cells (MDSCs)
-- ECM remodeling — MMPs (matrix metalloproteinases) → invasion
-
-**Apoptosis Pathways:**
-
-**Extrinsic (Death Receptor):**
-> FasL (on cytotoxic T cells) → Fas (CD95) → FADD → Caspase 8 → Caspase 3
-> TNF-α → TNFR1 → TRADD → Caspase 8
-
-**Intrinsic (Mitochondrial):**
-> DNA damage/ROS/TNF → BH3-only proteins (BIM, BAD, PUMA) → BAX/BAK → Mitochondrial outer membrane permeabilization → Cytochrome c release → Apoptosome (Apaf-1 + Caspase 9) → Caspase 3
-
-**Anti-apoptotic:** BCL-2, BCL-XL, MCL-1
-**Pro-apoptotic:** BAX, BAK, BIM, BAD, PUMA, NOXA
-
-**Tumor Invasion — Steps:**
-1. Loss of E-cadherin (cell-cell adhesion)
-2. EMT (Epithelial-Mesenchymal Transition) — ↓ cytokeratin, ↑ vimentin
-3. Degradation of basement membrane (MMPs, cathepsins, uPA)
-4. Migration through ECM
-5. Intravasation → circulation → extravasation → colonization
-
-**Tumor Angiogenesis:**
-- **VEGF** — most important pro-angiogenic factor
-- **FGF** — basic FGF
-- **Angiopoietins** — Ang-1 (maturation), Ang-2 (destabilization)
-- **Tumor cells** → hypoxia → HIF-1α stabilization → ↑ VEGF transcription
-- **Anti-angiogenic therapy:** Bevacizumab (anti-VEGF antibody), sunitinib (VEGFR inhibitor)
-
-**Telomerase and Cancer:**
-- Normal somatic cells: Telomeres shorten with each division → senescence
-- Cancer cells: **Telomerase reactivation** → limitless replicative potential
-- hTERT (human telomerase reverse transcriptase) — re-expressed in 85-90% of cancers
-
-**Paraneoplastic Syndromes:**
-
-| Syndrome | Associated Cancer | Mechanism |
+| # | Hallmark | Mechanistic core |
 |---|---|---|
-| Cushing syndrome | Small cell lung cancer | ACTH production |
-| SIADH | Small cell lung cancer | ADH production |
-| Hypercalcemia | SCC lung, breast, renal | PTHrP production |
-| Polycythemia | Renal cell carcinoma, hepatocellular carcinoma | EPO production |
-| Lambert-Eaton | Small cell lung cancer | Anti-VGCC antibodies |
-| Trousseau syndrome | Pancreatic adenocarcinoma | Migratory thrombophlebitis |
-| Acanthosis nigricans | Gastric adenocarcinoma | EGFR family activation |
-| Peutz-Jeghers | Ovarian sex cord tumors, Sertoli cell tumors | STK11/LKB1 mutation |
+| 1 | Sustained proliferative signalling | RAS-MAPK, PI3K-AKT, MYC |
+| 2 | Evasion of growth suppressors | pRb, TP53 loss |
+| 3 | Resistance to cell death | BCL-2 overexpression, loss of BAX |
+| 4 | Replicative immortality | Telomerase reactivation (~85–90% of tumours) |
+| 5 | Angiogenesis induction | VEGF, FGF secretion |
+| 6 | Invasion and metastasis | EMT, MMPs, E-cadherin loss |
+| 7 | Dysregulated energetics | Aerobic glycolysis (Warburg effect) |
+| 8 | Immune evasion | PD-L1 upregulation, TGF-β |
+| 9 | Tumour-promoting inflammation | TAMs, NF-κB |
+| 10 | Genome instability | Defective DNA repair (BRCA, MMR) |
+| 11+ | Phenotypic plasticity, senescent clearance, epigenetics, microbiome | New 2022 additions |
 
-**Oncogenic Viruses — Details:**
+#### Routes of Metastasis
+- **Lymphatic**: typical of carcinomas (cervix → pelvic nodes, breast → axillary).
+- **Haematogenous**: sarcomas and most venous-drainage cancers (renal cell → lung via IVC).
+- **Transcoelomic**: across peritoneal/pleural cavities — ovarian carcinoma cells on peritoneal surface, Krukenberg tumour to ovary.
+- **Perineural**: prostatic adenocarcinoma tracking along nerve sheaths.
+- **Implantation (seeding)**: surgical/instrumentation spread.
 
-- **HPV:** E6 (inactivates p53), E7 (inactivates RB) → cervical, oropharyngeal, anal carcinoma
-- **HBV:** X protein → promotes proliferation; chronic inflammation → cirrhosis → HCC
-- **HCV:** Chronic inflammation → cirrhosis → HCC
-- **EBV:** LMP-1 (constitutive NF-κB activation) → Burkitt lymphoma, Hodgkin lymphoma, nasopharyngeal carcinoma, post-transplant lymphoproliferative disorder
-- **HHV-8 (Kaposi's sarcoma herpesvirus):** vFLIP → activates NF-κB → Kaposi sarcoma, primary effusion lymphoma
+#### Common Mistakes and Edge Cases
+1. **Tumour doubling time** (Gompertzian) is **not constant** — early exponential growth slows as the mass outgrows its vascular supply: V(t) = V₀ · exp(k·t); T_d = ln(2)/k (days). Calculated doubling time is useful for monitoring pulmonary nodules and PSA kinetics.
+2. **TNM N-category is categorical, not numeric** — N1/N2/N3 reflect **number, size, and station** of involved nodes, defined per tumour type (e.g., breast N3 = ≥10 axillary or any infra-/supraclavicular nodes).
+3. **Carcinoma vs sarcoma nomenclature**: teratoma and embryonal carcinomas are exceptions to "carcinoma = epithelial" — they contain mixed lineages.
+4. **Li-Fraumeni carriers** with germline TP53 mutation have ~50% cancer risk by age 50 and ~90–100% by age 70 — a high-yield pedigree question stem.
+5. **PSA and CA-125 are monitoring tools, not screening tests**, because of low specificity (BPH raises PSA; endometriosis raises CA-125).
+6. **Paraneoplastic syndromes precede tumour detection in up to 20% of cases** — Trousseau migratory thrombophlebitis (pancreatic adenocarcinoma), Lambert-Eaton (small-cell lung), anti-NMDA encephalitis (ovarian teratoma).
+7. **Dysplasia is reversible** once the inciting injury (HPV, reflux, solar damage) is removed — but high-grade dysplasia carries significant malignant potential.
 
-**Chemotherapy — Mechanism-Based Classification:**
-
-| Class | Mechanism | Examples |
-|---|---|---|
-| **Alkylating agents** | Crosslink DNA | Cyclophosphamide, cisplatin, nitrosoureas |
-| **Anti-metabolites** | Mimic substrates | Methotrexate, 5-FU, cytarabine, mercaptopurine |
-| **Microtubule inhibitors** | Mitosis arrest | Vincristine, paclitaxel |
-| **Topoisomerase inhibitors** | DNA replication stress | Etoposide, irinotecan, doxorubicin |
-| **DNA crosslinkers** | Platinum-based | Cisplatin, carboplatin |
-| **Antibiotics** | Intercalation/free radical | Doxorubicin, bleomycin |
-| **Corticosteroids** | Lymphocyte apoptosis | Prednisone |
-| **Biological/Targeted** | Kinase inhibitors, antibodies | Imatinib, rituximab, trastuzumab |
-
-**Special Considerations:**
-- **Bleomycin** — pulmonary fibrosis (↑ risk with O₂ supplementation)
-- **Doxorubicin** — cardiotoxicity (free radical generation); cumulative dose limit
-- **Cisplatin** — nephrotoxicity, ototoxicity, peripheral neuropathy
-- **Cyclophosphamide** — hemorrhagic cystitis (acrolein toxicity); prevent with MESNA
-- **Methotrexate** — mucositis, myelosuppression; antidote: leucovorin (folinic acid)
-- **Vincristine** — neurotoxicity (peripheral neuropathy); don't give intrathecally (fatal)
-
-**Carcinoid Syndrome:**
-- Secretory product: Serotonin (5-HT), histamine, bradykinin
-- Features: Flushing, diarrhea, wheezing, right-sided heart disease (carcinoid heart disease — tricuspid/pulmonic stenosis/regurgitation)
-- Usually indicates liver metastases (because hepatic metabolism normally inactivates serotonin before systemic circulation)
-- **Urinary 5-HIAA** — serotonin metabolite; diagnostic marker
-
-**Key NEET-PG Clinical Pearls:**
-- **Philadelphia chromosome** = t(9;22) BCR-ABL fusion → CML, ALL
-- **Li-Fraumeni syndrome** = germline p53 mutation → multiple cancers (breast, sarcoma, brain, adrenocortical)
-- **Xeroderma pigmentosum** = defective nucleotide excision repair → UV-induced skin cancers
-- **Ataxia telangiectasia** = ATM mutation → ↑ sensitivity to ionizing radiation; lymphoid malignancies
-- **Bloom syndrome** = BLM helicase defect → ↑ sister chromatid exchanges; AML, lymphomas
-- **BRCA1/BRCA2** = defective homologous recombination repair → breast, ovarian, pancreatic cancer
-- **MEN syndromes:** MEN1 (pituitary, parathyroid, pancreatic tumors; menin gene), MEN2A/2B (medullary thyroid carcinoma, pheochromocytoma, parathyroid; RET proto-oncogene)
-- **Lynch syndrome (HNPCC)** = mismatch repair defects → colorectal, endometrial, ovarian cancer
-- **Gardner syndrome** = APC mutation → FAP + desmoid tumors, osteomas, sebaceous cysts
-- **Turcot syndrome** = APC or MMR mutations → colorectal + brain tumors
+#### Advanced Practice Prompts
+1. A 6-year-old child presents with leukocoria; MRI confirms an intraocular mass. Genetic testing reveals a germline *RB1* mutation. Using the Knudson two-hit model, calculate the probability that the contralateral eye develops retinoblastoma and detail the role of the Rb protein in G1/S checkpoint control.
+2. Describe how the **Warburg effect** (preferential aerobic glycolysis with lactate production despite adequate oxygen) supports the **PET-FDG** imaging principle, and explain why tumour cells redirect pyruvate away from the TCA cycle even when mitochondria are functional.
 
 ---
+
+## Continue your study
+
+- **[View this topic in your NEET PG roadmap](/roadmap/?exam=neet-pg&duration=1mo)** — see where "Neoplasia and Cancer Biology" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=neet-pg&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NEET PG exam overview](/exams/neet-pg/)** — pattern, eligibility, and syllabus
+- **[All Pathology notes](/notes/neet-pg/pathology/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

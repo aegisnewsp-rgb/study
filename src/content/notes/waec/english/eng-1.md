@@ -8,7 +8,7 @@ topicName: Comprehension Passages
 weight: 5
 country: nigeria
 generated: "2026-03-24T08:32:07.609544"
-lastUpdated: 2026-03-24
+lastUpdated: "2026-09-16"
 diagramPrompt: "Educational diagram illustrating Comprehension Passages with clear labels, white background, exam-style illustration"
 
 ---
@@ -16,209 +16,107 @@ diagramPrompt: "Educational diagram illustrating Comprehension Passages with cle
 # Comprehension Passages
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your WAEC exam.
+> Rapid summary for last-minute revision before your WAEC WASSCE English paper.
 
-**What is Comprehension?**
-Comprehension is understanding written text — extracting meaning, interpreting ideas, and drawing conclusions from what you read.
+Comprehension passages in WASSCE English Language are **unseen prose extracts** (narrative, descriptive, expository or argumentative) followed by questions that probe how well you read, not how much you already know. WAEC tests four core skills: lexical meaning in context, main-idea identification, tone/attitude inference, and summarisation. Each correct answer must be tied to a **line or paragraph reference** in the passage.
 
-**Types of Questions in WAEC Paper 1 & 2:**
+- **Lexical meaning in context**: meaning a word carries within its sentence, not its dictionary entry.
+- **Main idea**: the single dominant point a paragraph or passage advances.
+- **Tone**: the writer's attitude (sarcastic, sympathetic, critical, humorous).
+- **Inference**: a conclusion the writer implies but never states outright.
 
-1. **Literal questions** — What does the passage explicitly say?
-   - Find facts, details, definitions
-   - Answers are directly stated in text
+| Term | What WAEC Tests |
+|---|---|
+| Context clue | Surrounding sentence(s) that hint at an unknown word's meaning |
+| Connotation | Emotional colour a word carries beyond its literal sense |
+| Inference | Reading between the lines using textual evidence |
+| Register | Formal vs informal level of language in the passage |
 
-2. **Inference questions** — What does the passage imply?
-   - Answers must be deduced from evidence
-   - Words like "suggests," "implies," "likely," "probably"
-
-3. **Vocabulary in context** — What does this word/phrase mean here?
-   - Look at surrounding sentences
-   - Does it fit the context?
-
-4. **Evaluative questions** — What is the writer's purpose/attitude?
-   - Identify tone: sympathetic, critical, humorous, factual
-   - Purpose: to inform, persuade, entertain, argue
-
-**Passage Structure:**
-
-| Part | Purpose |
-|------|---------|
-| Introduction | Hooks reader, introduces topic |
-| Body | Develops argument, provides evidence |
-| Conclusion | Summarises, final recommendation |
-
-⚡ **WAEC Tip**: Read the questions BEFORE reading the passage. This helps you know what to look for. Then read the passage actively, underlining key points as you go.
+> 💡 **High-Yield Memory Hook:** **"C.A.T.S."** — the four question types WAEC repeats: **C**ontext vocabulary, **A**ttitude/tone, **T**heme/main idea, **S**ummary. If a stem asks "the word X as used in the passage means…", it's a **C** question and the answer must match the surrounding sentence, not a generic synonym.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> For students who want genuine understanding.
+> Standard content for students with days to months before the exam.
 
-**Systematic Approach to Comprehension:**
+#### How WAEC Frames Comprehension Items
 
-**Step 1: Skim the Passage**
-- Read title and first paragraph quickly
-- Note the general topic and writer's apparent purpose
-- Don't linger on difficult words
+WASSCE English Paper 1 carries **Objective / Multiple-Choice items** and Paper 2 carries **Essay/Essay-type** tasks. Comprehension questions appear chiefly in the **Reading for Meaning** section and the **Test of Orals** objective block, together worth roughly 5% of total English marks. Stems typically use the formula: *"The word/phrase X as used in the passage conveys that the writer…"* or *"From the passage, one can infer that…"*.
 
-**Step 2: Read the Questions**
-- Identify what each question is asking for
-- Note key words in questions
+| Skill Tested | Typical Stem Wording | Where the Answer Lives |
+|---|---|---|
+| Context vocabulary | "The word *grudging* means…" | Within ±2 sentences of the word |
+| Tone/Attitude | "The writer's tone can be described as…" | Diction (word choice) throughout |
+| Main idea | "The main point of paragraph 3 is…" | Topic sentence + repeated nouns |
+| Inference | "It can be inferred that…" | Combine two textual clues |
+| Summary/Title | "The most suitable title is…" | Whole-passage dominant theme |
 
-**Step 3: Read Carefully**
-- Search for relevant sections
-- Read surrounding context for each answer
-- Distinguish fact from opinion
+#### The Five-Step Reading Routine
 
-**Step 4: Answer**
-- Use your own words unless asked to quote
-- For direct quotes: use exact words from passage
-- Keep answers concise and relevant
+1. **Skim** the passage in 60 seconds; note the topic sentence of each paragraph.
+2. **Underline** unknown words and predict meaning from neighbours.
+3. **Highlight** tone markers — adjectives, adverbs, evaluative verbs (*lamented*, *condemned*).
+4. **Mark** the paragraph that most directly answers each question before reading options.
+5. **Eliminate** distractors that contradict the passage, are too broad, or copy a phrase verbatim.
 
-**Types of Answer Required:**
+#### Common Question Types You Will Meet
 
-**1. Direct Answer (from passage):**
-Q: What was the main cause of the accident?
-A: The main cause was driver fatigue, as stated in the second paragraph.
+- **Antonym/Synonym in context** — answer must be context-fit, not a thesaurus match.
+- **Implied meaning** — choose the option the writer hints at, not the one spelled out.
+- **Figurative interpretation** — idioms, similes, hyperbole decoded, never taken literally.
 
-**2. Inferred Answer:**
-Q: How did the writer feel about the decision?
-A: The writer clearly disapproved, as shown by the phrase "ill-advised decision."
+#### 🎯 Exam-Level Worked Problem
 
-**3. Vocabulary:**
-Q: What does "acute" mean in the sentence?
-A: In context, "acute" means severe or intense (sharp in quality).
+#### Question:
+*Read the extract:* "Akin did not flinch when the headmaster's cane whistled past his ear; he merely tilted his chin, the way his grandfather had taught him, and walked out of the office as if the punishment were a mere whisper of approval."
 
-**4. Purpose/Tone:**
-Q: What is the writer's tone?
-A: The writer's tone is critical/concerned/sarcastic...
+*"The expression 'whistled past his ear' as used in the passage conveys that…"*
+A. the cane made a musical sound
+B. the cane moved quickly and narrowly missed Akin
+C. Akin enjoyed the headmaster's punishment
+D. the headmaster whistled while beating Akin
 
-**Identifying Key Information:**
+#### Solution:
 
-Look for:
-- Topic sentences (usually first or last sentence of paragraph)
-- Signal words: however, therefore, moreover, consequently, for example
-- Additive words: also, furthermore, in addition
-- Contrast words: but, although, however, on the other hand
-- Cause/effect: because, as a result, consequently, thus
+1. Identify the verb phrase *whistled past his ear* — a figurative expression.
+2. Locate the contextual clue: *"did not flinch"* and *"narrowly"* (signalled by the cane missing) — meaning the cane swept close enough to be heard but did not strike.
+3. Match against options: A is literal (rejected), C reads attitude not present, D inserts an absent actor. B captures both speed and near-contact, fitting the passage evidence.
+4. **Answer: B.**
 
-⚡ **Common Mistake**: Students quote too much or too little. A good quote answers the question but is not unnecessarily long. Usually 1-3 words is enough.
-
-**Common Question Stems:**
-
-| Question | What It Asks |
-|----------|-------------|
-| State/Name/Identify | Give a specific fact from passage |
-| Explain | Show understanding of why/how |
-| Describe | Give characteristics or features |
-| Compare | Show similarities and/or differences |
-| Evaluate | Judge value or worth with evidence |
-| Summarise | Give main points concisely |
+> ⚠️ **Examiner Trap:** Many candidates pick A because *whistle* sounds like a noise word. WAEC deliberately uses sensory verbs figuratively — always check whether the surrounding sentence describes a sound, a motion, or an attitude. Here, *"did not flinch"* + *"walked out"* confirms motion, not music.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive theory for serious exam preparation.
+> Comprehensive coverage for long-term mastery of WAEC comprehension strategy.
 
-**Advanced Reading Strategies:**
+#### Edge Cases That Decide Top Scores
 
-**Understanding Argument Structure:**
+Top-band WASSCE candidates handle four rarely-tested but recurring edge cases: **register shifts**, **irony vs sincerity**, **paragraph-level vs passage-level main idea**, and **summary balance**. Each one carries a 1-in-3 chance of appearing in your paper, and each punishes candidates who over-rely on surface keywords.
 
-1. **Claim** — The writer's main argument or position
-2. **Evidence** — Facts, statistics, examples supporting claim
-3. **Reasoning** — Logic connecting evidence to claim
-4. **Counter-argument** — opposing view, usually refuted
+| Edge Case | What Students Miss | The Fix |
+|---|---|---|
+| Register shift (formal → sarcastic) | Treat satire as praise | Track evaluative adjectives throughout |
+| Irony vs sincerity | Take opposite meaning at face value | Look for contradictions between action and statement |
+| Paragraph vs passage main idea | Choose the broadest option for a paragraph stem | Re-read the stem — "paragraph" limits scope |
+| Summary balance | Omit one supporting point | Cover each major supporting idea once |
 
-Example passage about climate change:
-- Claim: "Immediate action is necessary"
-- Evidence: "Rising sea levels, increased extreme weather"
-- Reasoning: "These trends will worsen without intervention"
-- Counter: "Some argue economic costs are too high"
-- Refutation: "Long-term costs of inaction exceed short-term mitigation costs"
+#### Connections to Adjacent Topics
 
-**Inference Techniques:**
+Comprehension skill transfers directly to the **WAEC Test of Orals** (where vocabulary is tested in isolated sentences using the same contextual logic) and to **Summary writing** (where main-idea identification becomes the skeleton of your paraphrase). Candidates who skip comprehension practice often underperform in summary tasks because they cannot rank supporting points by weight.
 
-To make valid inferences:
-1. Start with what is explicitly stated
-2. Add your background knowledge
-3. Draw a logical conclusion
-4. Check: Is the conclusion supported by the text?
+#### Advanced Practice Prompts
 
-Example:
-Text: "The meeting was scheduled for 9 AM. At 9:15, only three of the fifteen committee members had arrived."
-Inference: The meeting started late / members were delayed / attendance was poor.
+1. Take any WASSCE past passage and, without reading the questions, write a 15-word summary that captures only the passage-level main idea. Then compare with WAEC's official title — this trains theme ranking.
+2. Highlight every evaluative adjective in a 300-word extract and decide whether the cumulative tone is **critical, sympathetic, humorous, or detached**. WAEC almost always offers two adjacent tones (e.g., critical vs sympathetic) as competing options, so the discipline of listing evidence matters more than intuition.
 
-**Analysing Language and Style:**
+> 📌 **Exam Strategy:** Allocate 18–22 minutes per comprehension passage in Paper 2 practice. Skim first (90 seconds), then answer questions in passage order — WAEC questions usually follow the text sequentially, and skipping ahead costs you the contextual evidence you need.
 
-Consider:
-- Word choice (diction): formal/informal, technical/simple
-- Sentence structure: long complex sentences vs short punchy ones
-- Use of rhetorical devices: metaphor, simile, repetition, hyperbole
-- Level of detail: general vs specific
-- Personal pronouns: "I" suggests personal view; "we" suggests inclusive
+## Continue your study
 
-**Figurative Language in Passages:**
+- **[View this topic in your WAEC WASSCE roadmap](/roadmap/?exam=waec&duration=1mo)** — see where "Comprehension Passages" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=waec&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[WAEC WASSCE exam overview](/exams/waec/)** — pattern, eligibility, and syllabus
+- **[All English Language notes](/notes/waec/english/)** — browse sibling topics in this subject
 
-| Device | Definition | Example |
-|--------|------------|---------|
-| Metaphor | Implied comparison | "The classroom was a zoo" |
-| Simile | Explicit comparison with "like/as" | "Ran like the wind" |
-| Personification | Human qualities to non-human | "The sun smiled down" |
-| Hyperbole | Exaggeration | "I've told you a million times" |
-| Irony | Meaning opposite to words | Saying "great" when something fails |
-| Alliteration | Repeated consonant sounds | "Peter Piper picked..." |
-
-**Text Types and Their Features:**
-
-| Text Type | Purpose | Typical Features |
-|-----------|---------|------------------|
-| Narrative | Tell a story | Chronological, characters, dialogue, plot |
-| Descriptive | Paint a picture | Vivid imagery, sensory details |
-| Expository | Inform/Explain | Facts, headings, definitions |
-| Persuasive | Convince | Arguments, emotional appeals, rhetorical questions |
-| Argumentative | Debate | Claims, counterclaims, logical reasoning |
-
-**WAEC Marking Criteria:**
-
-Your answer is assessed on:
-1. **Relevance** — Does it answer the question asked?
-2. **Accuracy** — Is the information correct?
-3. **Coherence** — Is the answer logically organised?
-4. **Expression** — Is language clear and appropriate?
-
-⚡ **Exam Strategy**: For summary questions (WAEC Paper 2 often has this):
-- Read passage and note key points
-- Write points in order as they appear
-- Don't add your own opinions
-- Use your own words where possible
-- Stay within word limit specified
-
-**Common WAEC Passages Topics:**
-- Science and technology
-- Environment and climate
-- Social issues (education, health, employment)
-- Literature and arts
-- Current affairs and development
-
-**Vocabulary Building for Comprehension:**
-
-Regularly read:
-- Newspapers (The Guardian, Punch, Vanguard for Nigerian context)
-- Magazines and journals
-- Novels and short stories
-- Official reports and articles
-
-Build vocabulary by:
-- Reading extensively
-- Noting new words in context
-- Using dictionary for pronunciation and multiple meanings
-- Practicing with past WAEC questions
-
-⚡ **Advanced Tip**: In literary passages (prose from novels), watch for:
-- Narrative perspective (first person, third person limited, omniscient)
-- How character development is shown through actions, dialogue, description
-- Symbols and motifs (recurring images with deeper meaning)
-- How the writer creates atmosphere and tension
-
----
-*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

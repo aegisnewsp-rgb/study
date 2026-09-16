@@ -8,7 +8,7 @@ topicName: "Indian Contract Act — Consent, Legality, and Performance"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-09-07"
+lastUpdated: "2026-09-16"
 ---
 
 # Indian Contract Act — Consent, Legality, and Performance
@@ -16,76 +16,100 @@ lastUpdated: "2026-09-07"
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-Under the **Indian Contract Act, 1872**, a contract is enforceable only when **free consent** (Sections 13–22), a **lawful object/consideration** (Sections 23–24), and **due performance or tender** (Sections 37–67) are all present. Vitiating factors that destroy free consent are **coercion, undue influence, fraud, misrepresentation, and mistake of fact** — each renders the agreement **voidable at the option of the aggrieved party** under Section 19, except bilateral mistake of fact which makes it **void** (Section 20).
+A contract under the **Indian Contract Act, 1872** is enforceable only when **free consent**, **lawful consideration**, and **lawful object** coexist (Sec 10). Free consent under Sec 13 has two limbs: (i) actual consent, and (ii) absence of coercion, undue influence, fraud, misrepresentation, or mistake. Legality under Sec 23 voids every agreement opposed to public policy, expressly forbidden by law, or defeating its provisions. Performance under Sec 37–42 discharges the promisor; tender of performance is itself a discharge when wrongly refused.
 
-#### Two-minute recall list:
+| Element | Section | One-line test |
+|---|---|---|
+| Free consent | 13, 10 | Consent not vitiated by Sec 15–18, 20–22 |
+| Lawful object | 23 | Not opposed to public policy / not forbidden by law |
+| Lawful consideration | 25 | Something the promisor wants in exchange, not illegal |
+| Discharge by performance | 37–42 | Actual, attempted, or joint/several performance |
+| Void vs voidable | 19, 20–22 | Mistake of fact → void; fraud/coercion → voidable |
 
-- **Coercion (Sec. 15)** = threat of illegal act or unlawful detention of property; works across all contracts, even with strangers.
-- **Undue influence (Sec. 16)** = dominance of will between parties in a fiduciary or unequal-bargaining relationship.
-- **Fraud (Sec. 17)** requires *intent* to deceive and unlocks damages; **misrepresentation (Sec. 18)** is innocent and usually limited to rescission.
-- **Section 23** lists five legality filters: opposed to law, defeating law, fraudulent, immoral, or opposed to public policy.
-- **Tender of performance (Sec. 38)** by a willing promisor discharges liability if the promisee wrongly refuses.
-
-| Vitiating factor | Section | Effect |
-| --- | --- --- | --- |
-| Coercion | 15 | Voidable |
-| Fraud | 17 | Voidable + damages |
-| Bilateral mistake of fact | 20 | Void |
-| Mistake of Indian law | 21 | Not a ground |
+> 💡 **High-Yield Memory Hook:** **"CUFMM"** for vitiating factors — **C**oercion, **U**ndue Influence, **F**raud, **M**isrepresentation, **M**istake. Add one letter for the test: **Fraud has Five Faces** (Sec 17 lists exactly five essentials), and **Mistake of Indian Law is NO excuse** (Sec 21).
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-#### Free consent and its vitiating factors
-Section 14 defines **free consent** as agreement brought about without coercion, undue influence, fraud, misrepresentation, or mistake. The distinctions matter because they decide whether the contract is void, voidable, or valid, and they determine the **remedy available** — rescission alone versus rescission plus damages.
+#### Vitiating factors of consent (Sec 13–22)
+Free consent is the backbone of every enforceable agreement. Each vitiating factor has a distinct legal character — confusing them is the most common CMA Foundation error. **Coercion (Sec 15)** is the use of physical or economic pressure (committing an act forbidden by IPC, or detaining property) to compel agreement; threats to a third party also qualify. The pressure must be directed at the contracting party or someone near them. **Undue influence (Sec 16)** arises where one party dominates the will of another because of a fiduciary or dominantly positioned relationship (parent–child, doctor–patient, solicitor–client, trustee–beneficiary). The presumption is rebuttable; the burden shifts once the relationship is proved.
 
-| Factor | Element | Section |
-| --- | --- | --- |
-| Coercion | Threat of IPC offence or unlawful detention of property | 15 |
-| Undue influence | Dominance of will (fiduciary, parent-child, master-servant, mental distress, unequal bargaining) | 16 |
-| Fraud | Active concealment, promise without intent to perform, deceitful act | 17 |
-| Misrepresentation | Innocent misstatement, breach of duty without deceit, induced mistake | 18 |
-| Mistake of fact | Bilateral, matter essential to agreement | 20 |
+**Fraud (Sec 17)** requires an active misstatement or concealment with intent to deceive. Silence is fraud only when duty to speak exists or surrounding circumstances make silence deceptive. **Misrepresentation (Sec 18)** is the same misstatement made innocently — the remedies are rescission (Sec 19) and not damages. **Mistake (Sec 20–22)** is fatal only when bilateral and about a matter essential to the agreement; unilateral mistake is generally voidable only when the other party knew of it.
 
-#### Legality under Sections 23–24
-Consideration or object is **lawful** unless it (i) opposes any law, (ii) defeats provisions of any law, (iii) is fraudulent, (iv) is immoral, or (v) opposes public policy. Classic illustrations: **wagering agreements are void** (Section 30 separately), **agreements in restraint of marriage** of minors are void, and **trading with an enemy** after declaration of war is opposed to public policy.
+#### Legality and void agreements (Sec 23–30)
+Section 23 strikes down agreements whose object or consideration is unlawful. Four classic categories are void ab initio: trade restraint (Sec 27), legal-proceeding restraint (Sec 28), marriage restraint (Sec 26), and wagering agreements (Sec 30). Wagers and their collateral contracts are both void, except state-licensed prize competitions under the Exception to Sec 30.
 
-#### Performance, tender, and reciprocal promises
-A contract is discharged when the promisor **performs** (Sec. 37) or **tenders performance** in the precise manner promised (Sec. 38). Wrongful refusal by the promisee discharges the promisor and may ground a claim for breach. Under **Section 43**, where promises are reciprocal and to be performed simultaneously, no party can sue without first showing readiness and willingness.
+#### Performance and discharge (Sec 37–67)
+A promisor discharges obligations by actual performance, by tender (offer to perform) refused by the promisee, or by reciprocal readiness and willingness. Joint promisors are bound jointly and severally unless the contract says otherwise (Sec 43). Where strict performance is impossible, Indian jurisprudence accepts substantial performance where the deviation is trivial. The full set of discharge modes is performance, mutual rescission (Sec 62–63), frustration (Sec 56 — initial or supervening impossibility), breach, operation of law (insolvency, merger), and supervening illegality.
 
-#### Common traps examiners set
+#### Concept comparison matrix
 
-- Confusing **fraud with misrepresentation** — both voidable, but only fraud supports a tort damages claim.
-- Assuming **silence equals fraud**; under Sec. 17 silence is fraud only when duty to speak exists or the relation of trust makes silence deceptive.
-- Treating **mistake of law** as a ground; Section 21 expressly bars it.
-- Forgetting that **coercion** can come from a *stranger* to the contract, while undue influence cannot.
+| Factor | Section | Trigger | Effect | Silent party? |
+|---|---|---|---|---|
+| Coercion | 15 | Physical/economic threat | Voidable (Sec 19) | Threat to third party counts |
+| Undue Influence | 16 | Fiduciary/dominant relationship | Voidable (Sec 19) | Presumption shifts burden |
+| Fraud | 17 | Active deception + intent | Voidable + damages | Silence = fraud only if duty |
+| Misrepresentation | 18 | Innocent misstatement | Voidable, no damages | Innocent silence = no fraud |
+| Mistake of fact (bilateral) | 20 | Both parties mistaken on essential matter | Void ab initio | — |
+| Mistake of law (Indian) | 21 | Misapprehension of Indian law | Not voided | No excuse |
+
+#### 🎯 Exam-Level Worked Problem
+**Question:** A agrees to sell his vintage car to B for ₹15 lakh. A genuinely believes the car is a 1965 model (it is in fact a 1962 model). B has independently inspected the car and formed the same mistaken belief. Both sign the contract. Later B discovers the error. Advise whether the contract is (a) valid, (b) voidable, or (c) void ab initio. Would your answer change if only B were mistaken and A knew of B's mistake?
+
+#### Solution:
+1. Identify the issue — bilateral vs. unilateral mistake of fact under Sec 20.
+2. Apply Sec 20: where both parties mistake a matter essential to the agreement, the agreement is **void ab initio**.
+3. The model year of a vintage car is a matter essential to the price (₹15 lakh) — both parties laboured under the same mistaken assumption of identity and value.
+4. Result: contract is **void ab initio**; neither party can enforce it; any money paid is recoverable under Sec 65 (restitution on avoidance).
+5. Variation: if only B is mistaken and A knows it (unilateral mistake of fact), under the Explanation to Sec 20 the agreement is **void** because A, knowing of B's mistake, did not rectify it — the same void-ab-initio result follows.
+
+> ⚠️ **Examiner Trap:** Students often write "voidable at the option of the aggrieved party" — that label belongs to fraud, coercion, and undue influence under Sec 19. **Bilateral mistake of fact is void ab initio, NOT voidable.** Also, do not extend Sec 21 mistake-of-Indian-law protection here; mistaking a *fact* (model year) is wholly different from mistaking the law itself.
+
+#### Standard problem types to expect
+- MCQ distinguishing "void" from "voidable" with one-word section tags.
+- Identify-the-section questions (Sec 15–18, 23, 30, 56).
+- Short answers on tender of performance and joint-promisee liability.
+- Case-based questions on undue influence in parental or professional dealings.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-#### Mechanism of voidable vs void
-When consent is vitiated by coercion, undue influence, fraud, or misrepresentation, Section 19 keeps the contract alive until the **aggrieved party elects** to avoid it; until that election, the other party can enforce performance. In contrast, **bilateral mistake of fact essential to the agreement** (Sec. 20) destroys the agreement from inception — there is no consent to begin with, so the contract is **void ab initio**. This is the only consent-based ground that does not give the aggrieved party a window to affirm.
+#### Edge cases and advanced traps
 
-#### Appropriation of payments (Sections 59–61)
-When a debtor owes several debts to the same creditor, the *appropriation hierarchy* is tested almost every paper:
+| Trap / Exception | Section | Why it surprises students |
+|---|---|---|
+| Threat to a third party = coercion | 15 Explanation | Coercion need not be against the promisee directly |
+| Silence as fraud only with duty | 17 | Bare silence never amounts to fraud — duty must be shown |
+| Mistake of Indian law no excuse | 21 | Even bonafide ignorance of Indian statutes does not void the contract |
+| Unilateral mistake of identity | 20 Expl. | Void only when identity is material and known to the other party |
+| Wager collateral transactions | 30 + Exception | Loans for wagering are also void, not enforceable |
+| Supervening illegality | 56 | Contract valid when made, but later illegal — discharged |
+| Novation / remission / waiver | 62–63 | Mutual agreement can substitute or extinguish obligations |
+| Time as essence of contract | Sec 67 | Indian courts treat time as non-essential unless expressly stated |
 
-1. **Express appropriation by the debtor** at the time of payment (Sec. 59).
-2. **Express appropriation by the creditor** with notice to the debtor (Sec. 60).
-3. **Implied appropriation by law** (Sec. 61) — applied in this order: first to a debt that is **due and enforceable**, then to one that carries **security**, failing both to the **earlier** debt.
+#### Mechanism in depth — why void vs voidable matters
+The legal consequence flows from the *source* of the flaw. **Mistake of fact** attacks the consensus itself — there was no meeting of minds — so the law treats the agreement as never having existed (void ab initio). **Fraud, coercion, and undue influence** attack the *quality* of consent — there was consent, but obtained improperly. Indian law therefore gives the aggrieved party a choice: affirm or rescind (Sec 19), and additionally claim damages where deception or coercion is proved. This is why CMA examiners test the labelling precisely: mislabelling a voidable contract as void forfeits the right to damages, and mislabelling a void contract as voidable wrongly creates a right of election where none exists.
 
-#### Worked micro-example
-A owes B ₹10,000 on a loan dated 1 Jan (unsecured) and ₹15,000 on a mortgage loan dated 1 March. On 1 June A pays ₹8,000 without saying which debt. B notifies A that the sum is applied to the secured loan. Under Sec. 60 this is valid; under Sec. 61 if no notice existed, ₹8,000 would first go to the secured debt because it carries security to the creditor.
+#### Adjacent topics worth linking
+- **Capacity of parties (Sec 11)** — minority, lunacy, and disqualification sit one chapter away from consent defects.
+- **Consideration and lawful object (Sec 23–25)** — overlaps with illegality under public policy.
+- **Indemnity and Guarantee (Sec 124–147)** — performance obligations in contingent contracts.
+- **Sale of Goods Act, 1930** — conditions and warranties test performance compliance for movable goods.
+- **Frustration of contract (Sec 56)** — distinguishes initial impossibility (void ab initio) from supervening impossibility (discharged from that date).
 
-#### Exam strategy for CMA Foundation (3% weight)
-Expect 3–5 MCQs. Highest yield topics: the **coercion-vs-undue-influence** distinction, **Section 23 five-fold test**, and the **appropriation hierarchy**. Memorise the phrase *"opposed to public policy"* wording verbatim — many questions ask whether a fact pattern satisfies one of the five limbs.
+#### Common mistakes CMA students repeat
+1. Tagging *all* consent flaws as "voidable" without checking Sec 20 for mistake.
+2. Forgetting that under Sec 23, partial illegality taints the whole consideration if it is single and indivisible.
+3. Confusing *tender* with *attempt* — tender is a valid offer to perform, refusal discharges the promisor; attempt may or may not be valid depending on mode.
+4. Treating wagering collateral contracts as enforceable loans — Sec 30 voids both, except prize competitions expressly authorised.
 
-#### Self-test
-1. A threatens to file a false criminal case unless B signs a contract. Identify the vitiating factor and its section.
-2. A and B, both residents of India, mistakenly believe a contract is legal when the relevant statute was repealed last year. Is the agreement void?
+#### Advanced practice prompts
+1. **Case analysis:** A son borrows ₹5 lakh from a money-lender father who controls the family business. The son later claims undue influence. Discuss which party bears the burden, and identify the two conditions under which the father's contract becomes voidable.
+2. **Statute application:** State X bans online gaming for stakes. A pre-existing gaming-platform contract is now illegal to perform. State (a) the doctrine, (b) the section, and (c) whether past consideration must be restored under Sec 65.
 
 ---
 
@@ -96,5 +120,4 @@ Expect 3–5 MCQs. Highest yield topics: the **coercion-vs-undue-influence** dis
 - **[CMA Foundation exam overview](/exams/cma/)** — pattern, eligibility, and syllabus
 - **[All Business Law notes](/notes/cma/business-law/)** — browse sibling topics in this subject
 
----
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

@@ -11,7 +11,7 @@ topicName: "Amines, Esters and Fats/Oils"
 weight: 3
 country: nigeria
 generated: "2026-03-24T08:32:07.645261"
-lastUpdated: "2026-06-25"
+lastUpdated: "2026-09-17"
 diagramPrompt: "Clear scientific diagram of Amines, Esters and Fats/Oils with atom labels, molecular structure, reaction arrows, white background, color-coded bonds and groups, exam textbook style"
 
 
@@ -25,48 +25,116 @@ diagramPrompt: "Clear scientific diagram of Amines, Esters and Fats/Oils with at
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Amines** are organic derivatives of ammonia (NH₃) formed by replacing one, two, or three hydrogens with alkyl or aryl groups, giving **primary (R–NH₂)**, **secondary (R₂NH)**, and **tertiary (R₃N)** classes. They are **basic** because the nitrogen lone pair accepts a proton; aliphatic amines are stronger bases than ammonia, while aromatic amines (e.g. aniline) are weaker. A common WAEC question asks for the **iodine test** to distinguish benzene from cyclohexene — amines themselves give a basic smell and turn damp red litmus blue.
+**Amines** are derivatives of ammonia (NH₃) where one, two, or three hydrogen atoms are replaced by alkyl (R–) or aryl (Ar–) groups. **Esters** carry the –COO– linkage and form from a carboxylic acid reacting with an alcohol. **Fats and oils** are triesters of glycerol (propane-1,2,3-triol) with long-chain fatty acids; fats are solid (saturated), oils are liquid (unsaturated).
 
-**Esters** carry the **–COO–** functional group and form when a **carboxylic acid (RCOOH)** reacts with an **alcohol (R′OH)** in **Fischer esterification**: RCOOH + R′OH ⇌ RCOOR′ + H₂O. Esters are named **alkyl alkanoates**; ethyl ethanoate (CH₃COOC₂H₅) smells of pear drops.
+| Class | General form | Key test/reagent |
+|---|---|---|
+| Primary amine (1°) | R–NH₂ | Reacts with HNO₂ → alcohol + N₂ |
+| Secondary amine (2°) | R₂NH | Reacts with HNO₂ → oily N-nitrosamine |
+| Tertiary amine (3°) | R₃N | No reaction with HNO₂ |
+| Ester | RCOOR′ | Fruity smell; hydrolysed by acid or alkali |
+| Fat (triglyceride) | CH₂(OCOR¹)–CH(OCOR²)–CH₂(OCOR³) | Solid; saturated chains |
+| Oil (triglyceride) | Same skeleton, unsaturated R groups | Liquid; decolourises Br₂ |
 
-**Fats and oils** are **triglycerides** — triesters of **glycerol** with long-chain fatty acids. **Fats are solid** (mostly saturated acids), **oils are liquid** (unsaturated C=C). Alkaline hydrolysis is **saponification**, giving soap (sodium salt of fatty acid) plus glycerol.
+- **Esterification (reversible):** RCOOH + R′OH ⇌ RCOOR′ + H₂O (conc. H₂SO₄ catalyst)
+- **Saponification (irreversible):** RCOOR′ + NaOH → RCOONa + R′OH
+- **Hydrogenation of oils:** R–CH=CH–R + H₂ → R–CH₂–CH₂–R (Ni, 150–200 °C)
+
+> 💡 **High-Yield Memory Hook:** **"1-N, 2-N, 3-N = one, two, three alkyls on Nitrogen"** for amine classification. For esters, remember **"Acid + Alcohol → Esters + Water"** — the alcohol supplies the OR′ half, the acid supplies the RCO half.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-#### Amines
-Amines arise when one or more N–H bonds in ammonia are replaced by carbon groups. **Primary amines** (e.g. methylamine, CH₃NH₂) have one alkyl/aryl substituent; **secondary** (e.g. dimethylamine, (CH₃)₂NH) have two; **tertiary** (e.g. trimethylamine, (CH₃)₃N) have three. The nitrogen retains a lone pair, so amines behave as **Brønsted–Lowry bases**, accepting H⁺ to form alkylammonium ions (RNH₃⁺). Aliphatic amines are stronger bases than NH₃ because electron-donating alkyl groups push electron density onto nitrogen, while in **aromatic amines** (aniline, C₆H₅NH₂) the lone pair is delocalised into the benzene ring, reducing basicity.
+#### Nomenclature and Classification
 
-Preparation routes include **reduction of nitro compounds** (R–NO₂ + 6[H] → R–NH₂ + 2H₂O), **Hofmann degradation** of amides (RCONH₂ + Br₂ + 4NaOH → R–NH₂ + Na₂CO₃ + 2NaBr + 2H₂O), and **alkylation of ammonia**. Amines form salts with mineral acids (e.g. CH₃NH₂ + HCl → CH₃NH₃⁺Cl⁻) that are water-soluble — a useful separation trick from neutral organic compounds.
+Aliphatic amines are named by replacing the *-e* of the parent alkane with *-amine*: methylamine (CH₃NH₂), ethylamine (C₂H₅NH₂), dimethylamine ((CH₃)₂NH), trimethylamine ((CH₃)₃N). The simplest aromatic amine is **aniline** (C₆H₅NH₂), IUPAC name phenylamine. Esters take the alkyl group from the alcohol first, then the acid name ending in *-oate*: ethanol + ethanoic acid → ethyl ethanoate (CH₃COOC₂H₅); methanol + benzoic acid → methyl benzoate (C₆H₅COOCH₃).
 
-#### Esters
-Esters contain the **–COO–** linkage. **Fischer esterification** uses concentrated H₂SO₄ as a catalyst; the reaction is **reversible**, so excess acid or alcohol — or removal of water — shifts equilibrium toward the ester. Naming uses two parts: the alkyl group from the alcohol followed by the alkanoate from the acid. CH₃CH₂COOCH₃ is **methyl propanoate**. Esters are hydrolysed by dilute acid (reversible) or by alkali (**irreversible**, because the carboxylate salt formed does not re-esterify). Low-molecular-mass esters have pleasant fruity odours (banana, pineapple, rum).
+#### Basicity of Amines
 
-#### Fats and Oils as Esters
-Both are **triacylglycerols (triglycerides)**: glycerol esterified with three long-chain fatty acids. The chain length and the degree of unsaturation determine physical state. Saturated acids (e.g. stearic, C₁₇H₃₅COOH) pack tightly → solid fats; unsaturated acids with C=C double bonds (e.g. oleic acid, C₁₇H₃₃COOH) bend chains → liquid oils. **Hardening** hydrogenates oils using H₂ with a nickel catalyst at ~150 °C, producing margarine. **Saponification** with NaOH gives sodium salts of fatty acids (soap) and glycerol; using KOH gives soft soap.
+The order is **aliphatic amine > NH₃ > aromatic amine (aniline)**. Electron-donating alkyl groups push electron density onto nitrogen, making the lone pair more available for protonation. In aniline, the lone pair delocalises into the benzene ring (resonance), lowering electron density on N and reducing basicity. This contrast is a WAEC favourite in MCQs.
+
+#### Esterification Mechanism and Conditions
+
+Esterification is a **Fischer esterification**: a carboxylic acid and alcohol react in the presence of concentrated H₂SO₄ (acts as both acid catalyst and water-binding agent). The reaction is reversible, so Le Chatelier's principle applies — excess of one reagent or removal of water shifts equilibrium toward the ester.
+
+#### Fats and Oils: Structure and Distinguishing Tests
+
+Triglycerides share the skeleton CH₂(OCOR¹)–CH(OCOR²)–CH₂(OCOR³) where R¹, R², R³ are long C₁₁–C₁₉ chains. **Saturated chains** pack tightly → high melting point → solid fats (e.g., palm oil, butter). **Unsaturated chains with cis C=C bonds** introduce kinks → loose packing → low melting point → liquid oils (e.g., groundnut oil, palm olein). Bromine-water or iodine-number tests exploit unsaturation: oils decolourise Br₂(aq), fats do so slowly.
+
+#### Concept Comparison Matrix
+
+| Feature | Fats | Oils |
+|---|---|---|
+| Saturation | Mostly saturated C–C | Mostly unsaturated C=C |
+| State at 25 °C | Solid | Liquid |
+| Iodine number | Low (< 70) | High (> 70) |
+| Saponification value | Higher | Slightly lower |
+| Source | Animal (lard, butter) | Plant (groundnut, palm olein) |
+
+| Reagent | Ester + acid | Ester + alkali (saponification) |
+|---|---|---|
+| Products | Carboxylic acid + alcohol | Sodium salt of acid (soap) + alcohol |
+| Reversibility | Reversible | Irreversible (alkali drives it) |
+| Catalyst needed | H⁺ (H₂SO₄) | OH⁻ (NaOH/KOH) |
+
+#### 🎯 Exam-Level Worked Problem
+
+**Question:** When 0.10 mol of ethanoic acid (CH₃COOH) is heated under reflux with 0.10 mol of ethanol (C₂H₅OH) and a few drops of concentrated H₂SO₄, the equilibrium mixture contains 0.067 mol of ethyl ethanoate. Calculate the equilibrium constant Kc.
+
+#### Solution:
+Initial moles: [CH₃COOH] = [C₂H₅OH] = 0.10 mol; [CH₃COOC₂H₅] = [H₂O] = 0 mol.
+Moles reacting = 0.067 mol.
+At equilibrium: acid = 0.10 − 0.067 = 0.033 mol; alcohol = 0.033 mol; ester = 0.067 mol; water = 0.067 mol.
+
+Since volume is constant and stoichiometry is 1:1:1:1, Kc = ([ester][water])/([acid][alcohol]) = (0.067 × 0.067)/(0.033 × 0.033) = 0.004489/0.001089 ≈ **4.1**.
+
+> ⚠️ **Examiner Trap:** Candidates divide moles by the volume and then forget to cancel the V² terms. With equal stoichiometric coefficients, volume cancels entirely — Kc is dimensionless here. Also, students often omit the H₂SO₄ catalyst when writing the equation.
+
+#### Soap Action and Hard Water
+
+Soap molecules (RCOO⁻Na⁺) have a hydrophilic –COO⁻ head and a hydrophobic hydrocarbon tail. In water they form **micelles** with tails trapping grease and heads facing water, emulsifying dirt. In hard water, Ca²⁺ and Mg²⁺ displace Na⁺ to form insoluble **scum** (calcium stearate, magnesium palmitate). Adding Na₂CO₃ (washing soda) precipitates the hardness ions as carbonates, restoring lather.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-#### Iodine Number and Acid Value
-Two quantitative indices appear in WAEC theory. The **iodine number** measures unsaturation: it is the mass of iodine (in grams) absorbed by 100 g of fat/oil. Oils rich in C=C bonds record high values (>100); solid fats record low values (<70). The **acid value** is the mg of KOH needed to neutralise free fatty acids in 1 g of the sample — high values indicate **rancidity**, caused by hydrolysis or oxidation of triglycerides into shorter-chain acids and aldehydes.
+#### Hofmann Bromamide and Reduction Routes to Amines
 
-#### Saponification Mechanism
-In saponification, OH⁻ attacks the electrophilic carbonyl carbon of the ester; the C–O(alkyl) bond breaks, expelling glycerol and forming a carboxylate. Soap molecules are **amphipathic**: the long hydrocarbon tail is hydrophobic (dissolves grease) while the –COO⁻Na⁺ head is hydrophilic (dissolves in water). In hard water, soap forms an insoluble **scum** with Ca²⁺/Mg²⁺ ions — a classic WAEC objective question asks why soap loses lather in hard water and why detergents do not.
+The **Hofmann bromamide degradation** converts an amide to a primary amine with one fewer carbon: RCONH₂ + Br₂ + 4NaOH → RNH₂ + Na₂CO₃ + 2NaBr + 2H₂O. Reduction of nitro compounds (RNO₂ + 6[H] → RNH₂ + 2H₂O) uses Sn/HCl or Fe/HCl followed by NaOH, and is the industrial route to aniline from nitrobenzene. Alkyl halides with excess ammonia give a mixture of 1°, 2°, 3° amines and quaternary ammonium salts (R₄N⁺X⁻) — another WAEC trap, because students often write only the primary amine product.
 
-#### Edge Cases and Common Traps
-- Distinguish **amine classification** (count of alkyl groups on N) from **alcohol classification** (count of carbons bearing –OH) — students often confuse tertiary butanol with tertiary amine.
-- The functional group of an **ester is –COO–**, not –COOH (acid) or –CHO (aldehyde).
-- Hydrogenation reduces unsaturation but does **not** change molar mass drastically; the C=C → C–H adds only 2 g mol⁻¹ per bond.
-- Hofmann degradation **loses one carbon** from the amide; RCONH₂ → RNH₂ (not RCH₂NH₂).
+#### Quantitative Indices of Fats and Oils
 
-#### Practice Prompts
-1. Write the equation for the preparation of ethyl ethanoate from ethanoic acid and ethanol, and state how you would shift equilibrium to maximise yield.
-2. 5.0 g of palm oil (iodine number = 52) is treated with iodine solution. Calculate the mass of I₂ absorbed.
+**Saponification value** = (V × M × 56)/m, where V is volume of HCl (cm³) used in back-titration, M is the molarity of HCl (mol/dm³), 56 is the molar mass of KOH (g/mol), and m is the mass of fat (g). Units are mg KOH per g of fat. A high value indicates short-chain fatty acids (e.g., coconut oil ≈ 250). **Iodine number** is grams of I₂ absorbed by 100 g of oil; groundnut oil ≈ 85–100, linseed oil ≈ 170–200. Higher unsaturation raises the iodine number and lowers oxidative stability.
+
+#### Edge Cases and Exam Traps
+
+1. **Aniline vs. ammonia basicity:** many candidates invert the order, forgetting benzene delocalisation of the N lone pair.
+2. **Glycerol identity in hydrolysis:** the alcohol produced is propane-1,2,3-triol (C₃H₈O₃), NOT ethane-1,2-diol — losing easy marks.
+3. **Esterification vs. neutralisation:** esterification produces water and an ester; neutralisation produces a salt and water from acid + base.
+4. **Quaternary salts:** when NH₃ reacts with excess CH₃Cl, the final product is (CH₃)₄N⁺Cl⁻, not a tertiary amine — students often stop the equation too early.
+5. **Hydrogenation conditions:** must state Ni (or Pt/Pd) catalyst AND temperature (150–200 °C); missing either loses a mark.
+
+#### Advanced Practice Prompts
+
+1. A triglyceride has saponification value 200 mg KOH/g and iodine number 90. Predict whether it is a fat or an oil, justify with molecular reasoning, and write a balanced equation for its reaction with KOH.
+2. Outline a two-step synthesis of ethyl benzoate starting from benzoic acid, and explain how Le Chatelier's principle is used to maximise yield.
+
+#### Connections to Adjacent Topics
+
+Amines link to **acid-base equilibria** (K_b values), **amide formation** (acyl chlorides + amines), and **diazonium salts** (aniline + NaNO₂/HCl at < 5 °C → benzenediazonium chloride). Esters link to **carboxylic acids**, **polymers** (PET from terephthalic acid + ethylene glycol), and **aspirin synthesis**. Fats connect to **bioenergetics** (β-oxidation gives ~9 kcal/g) and **soaps/detergents** (anionic, cationic, non-ionic surfactants).
+
+> 📌 **Formula Check:** Esterification equation uses mol of each species; saponification value's "56" is the molar mass of KOH (g/mol), not arbitrary — students who replace it with 40 or 57 mark wrong answers.
 
 ---
+
+## Continue your study
+
+- **[View this topic in your WAEC WASSCE roadmap](/roadmap/?exam=waec&duration=1mo)** — see where "Amines, Esters and Fats/Oils" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=waec&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[WAEC WASSCE exam overview](/exams/waec/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/waec/chemistry/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

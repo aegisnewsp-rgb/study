@@ -11,139 +11,163 @@ weight_unit: "% of GA section"
 diagramPrompt: "A comprehensive decision tree for direct/indirect speech conversion: 4 branches (statement, yes/no question, wh-question, command) each with sub-branches for tense backshift rules, pronoun changes, and time expression transformations. Shows exceptions like 'universal truths' where backshift is optional."
 country: india
 generated: 2026-05-26
-lastUpdated: 2026-05-26
+lastUpdated: "2026-09-17"
 ---
 
 # Direct & Indirect Speech
 
-### 🟢 Lite
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
 
-### Key Pattern/Rule
-Direct speech puts words in quotes verbatim; indirect speech reports them without quotes, shifting tenses back and pronouns forward.
+**Direct Speech** reproduces the speaker's exact words inside quotation marks; **Indirect (Reported) Speech** conveys the same meaning as a subordinate clause with tense, pronoun, and adverbial shifts.
 
-### Memory Trick
-**"Quotes out, past in, this→that"** — drop the quotes, push everything back one tense (present→past), and shift demonstratives forward (this→that, these→those).
+- **Reporting verb in past** (said, told, asked, ordered, advised) triggers backshift: Present → Past, Past → Past Perfect.
+- **Reporting verb in present/future** (says, will say) → NO backshift; the reported tense stays unchanged.
+- **Said to + object** → **told + object + that**; **said + that-clause** keeps "said".
+- **Time/place words shift**: today → that day, tomorrow → the next day, yesterday → the day before, here → there, now → then, ago → before.
+- **Universal truths and scientific facts** stay in the Present Simple even after a past reporting verb.
+- **Indirect questions** follow statement word order; **yes/no** questions use **if/whether**; **wh-** words are retained.
+- **Commands** use the **to-infinitive**: *He ordered them to sit down.*
 
-### 1-Sentence Summary
-Converting between direct and indirect speech requires three simultaneous changes: removing quotation marks, backshifting tense, and updating pronouns and time references.
+| Tense in Direct Speech | Tense in Indirect Speech | Example |
+|---|---|---|
+| Present Simple (V1) | Past Simple (V2) | "I am tired." → He said he **was** tired. |
+| Present Continuous (is/am/are + V-ing) | Past Continuous (was/were + V-ing) | "She is working." → He said she **was working**. |
+| Present Perfect (have/has + V3) | Past Perfect (had + V3) | "He has left." → She said he **had left**. |
+| Past Simple (V2) | Past Perfect (had + V3) | "I saw him." → He said he **had seen** him. |
+| Will / Can / May / Shall / Must | Would / Can / Can / Should / had to | "I will go." → He said he **would** go. |
 
-### Quick Example
-Q: He said, "I am reading."
-A: **He said that he was reading.** — quotes removed, "am" became "was," and "I" became "he."
+> 💡 **High-Yield Memory Hook:** **"S-T-T-T-W-P-H"** — Shift Tenses, Tweak Time words, Turn pronouns to speaker's view, Twist Questions into statement order, Watch Universal truths stay present, Pick said-vs-told. Reading the letters top-down gives the order of edits you'll perform on every conversion.
 
-### Quick Example
-Q: She said, "The train arrived yesterday."
-A: **She said that the train had arrived the previous day.** — past perfect shift, "yesterday" → "the previous day."
+---
 
-### 🟡 Standard
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-### Concept
-Direct speech repeats someone's exact words, complete with quotation marks — like writing down what they actually said. Indirect speech (also called reported speech) conveys the same meaning but without quoting verbatim. Think of it as telling a friend what someone else said, rather than playing a recording of it.
+#### Core Conversion Mechanism
 
-The tricky part is that English grammar demands three things change simultaneously when you shift from direct to indirect: the tense of verbs usually steps back one notch, pronouns shift to point to the right people, and time words adjust to match the new "now." Mess up any one of these and the sentence sounds wrong, even if the other two are perfect.
+A direct-speech sentence carries four mutable slots: **tense of the verb**, **pronoun reference**, **time/place adverbial**, and **sentence-type punctuation**. The conversion rules fire only when the **reporting verb is in the past**. If the reporting verb sits in the Simple Present (*He says…*) or Simple Future (*He will say…*), the reported clause is a **zero-backshift** zone and only pronouns/adverbials still shift where context demands.
 
-GATE typically tests whether you can correctly transform a statement, a yes/no question, a wh-question, or a command. The good news is each type follows a predictable pattern — once you know the rules, you can apply them consistently.
+The order of operations: **1)** Drop the quotation marks and comma; **2)** Place **that** after the reporting verb (optional for *say/tell* in casual usage, mandatory for *inform, reply, remind, answer*); **3)** Backshift the verb according to the table; **4)** Realign pronouns so first-person refers to the original speaker; **5)** Replace time/place words.
 
-### Types & Approach
+#### Concept Comparison Matrix
 
-**Statements (Assertive):** Remove quotes, add "that" (optional in modern usage but expected in GATE), and apply tense backshift with pronoun/time adjustments.
-- Present Simple → Past Simple: "I play" → "that he played"
-- Present Continuous → Past Continuous: "I am playing" → "that he was playing"
-- Present Perfect → Past Perfect: "I have played" → "that he had played"
-- Past Simple → Past Perfect: "I played" → "that he had played" (already past, stays past or goes deeper past)
+| Feature | Direct Speech | Indirect Speech |
+|---|---|---|
+| Format | Quoted words: *"I am here."* | Subordinate clause: *He said he was there.* |
+| Reporting verb position | Mid-sentence: He said, "…" | Followed by that: He said that… |
+| Verb tense in reported clause | Original speaker's tense | Backshifted by one tense (in most keys) |
+| Pronouns | Original speaker's pronouns | Shifted to fit reported speaker's viewpoint |
+| Punctuation | Comma + quotation marks | Full stop; quotation marks removed |
+| Questions | Inverted order with question mark | Statement order with **if/whether** or **wh-** |
+| Commands/Requests | Imperative verb form | **to + V1** (to-infinitive) |
+| Exclamations | Exclamation mark | Reporting verb: exclaimed with joy / sorrow, wished |
 
-**Yes/No Questions:** Remove quotes, use "if" or "whether," invert subject-verb order (like a normal question does).
-- "Are you coming?" → He asked if she was coming.
-- "Do you know the answer?" → He asked whether I knew the answer.
+#### Tricky Pairs: Said vs Told, Say vs Tell
 
-**Wh-Questions:** Keep the question word (who, what, where, when, why, how), remove quotes, backshift normally.
-- "Where do you live?" → She asked where I lived.
-- "What is your name?" → He asked what my name was.
+- **Said** is used alone before a **that-clause**: *He said that he was tired.*
+- **Told** requires an **object before that**: *He told me that he was tired.*
+- **Said to** is correct only when followed by a pronoun without "that": *He said to me…* (acceptable but formal style prefers *told me*).
+- The constructions **He said me** and **He told that…** are both ungrammatical.
 
-**Commands/Requests:** Remove quotes, use "to + infinitive" for commands, "not to + infinitive" for negatives.
-- "Go away!" → He told me to go away.
-- "Don't touch that." → She warned me not to touch that.
+#### Indirect Questions — Three Sub-Rules
 
-### Step-by-Step Example
-**Q:** The teacher said, "The Earth revolves around the Sun."
-Convert to indirect speech.
+1. Drop the question mark and the auxiliary **do/does/did**.
+2. Invert to **statement (subject–verb) order**.
+3. Use **if** or **whether** for yes/no questions; keep the **wh-** word for information questions.
 
-**Approach:**
-Step 1 → Remove the quotation marks and add "that" → The teacher said that...
-Step 2 → Backshift the verb: "revolves" (present simple) → "revolved" (past simple)
-Step 3 → Adjust pronouns: no pronoun change needed here since "the Earth" stays the same
-Step 4 → Check time words — none present, so nothing to adjust
+> 📌 **Formula Check:** *Direct: "Where are you going?" → Indirect: He asked me where I was going.* The wh-word travels as a **conjunction**, and the verb follows the subject.
 
-**Answer:** The teacher said that the Earth revolves around the Sun. *(Note: in modern English, backshift is often optional for universal truths — both versions accepted in GATE unless the exam specifically wants strict backshift.)*
+#### 🎯 Exam-Level Worked Problem
 
-### Common Mistakes
-- Keeping the verb in present tense when it should backshift → **Fix:** Always apply tense backshift unless the reporting verb is in present or the info is still true.**
-- Mixing up "if" vs "whether" for yes/no questions → **Fix:** "If" and "whether" are often interchangeable, but use "whether" when there's an "or not" attached: "whether or not she knew."**
-- Forgetting time word shifts: now→then, today→that day, yesterday→the previous day, ago→before, tomorrow→the next/following day → **Fix:** Build the habit of checking time words every single time.**
+**Question:** Choose the correct indirect form of: *Ravi said, "I have been waiting here since morning, but I shall leave now if the manager does not arrive."*
 
-### 🔴 Extended
+(a) Ravi said that he had been waiting there since morning, but he would leave then if the manager did not arrive.
+(b) Ravi told that he has been waiting here since morning, but he will leave now if the manager does not arrive.
+(c) Ravi said that he had been waiting here since morning, but he shall leave now if the manager did not arrive.
+(d) Ravi said that he has been waiting there since morning, but he would leave then if the manager did not arrive.
 
-### Full Concept Explanation
+#### Solution:
+1. Reporting verb *said* is past → trigger backshift: **have been waiting → had been waiting**; **shall leave → would leave**; **does not arrive → did not arrive**.
+2. Pronoun **I → he**; time/place: **here → there**; **now → then**; **morning** stays (not a closed-set adverbial).
+3. Structure: *Ravi said that…* (not *told that…*) → eliminates (b).
+4. Apply all three backshifts → only (a) carries **had been waiting**, **would leave**, **did not arrive** together with **there** and **then**.
 
-Direct and indirect speech are two ways of reporting what someone said. Direct speech encloses the exact words in quotation marks — like capturing a photograph of their speech. Indirect speech reports the content without quoting verbatim — more like describing the photo. The term "indirect speech" is sometimes called "reported speech," and both refer to the same concept.
+#### Correct answer: (a).
 
-The foundational principle behind indirect speech is that when you report someone's words, you're essentially placing yourself at a different point in time relative to when the original speech act occurred. This is why tense backshift exists: what was "I am happy" when spoken becomes "he said he was happy" when reported — the "now" of the original speaker has become a "then" in the report.
+> ⚠️ **Examiner Trap:** Option (d) tempts students who remember the time-shift rule but forget the tense backshift, leaving **has been waiting** and **will leave** unchanged. Option (c) reverses the error — it backshifts modals but keeps **here** and **now**, exposing careless adverbial tracking. Always apply **tense and adverbial edits together**, never one without the other.
 
-**Tense Backshift (Sequence of Tenses):** English historically shifts verbs back one step when reporting speech. The classic chain is: present simple → past simple → past perfect (stops there — no "had had"). Key rule: if the reporting verb (said, told) is already past, the "backshift" usually happens. But here's the crucial GATE nuance — backshift is **optional** when the information being reported is still true, is a universal truth, or is a habitual fact. "The teacher said that water boils at 100°C" is perfectly fine even without backshifting "boils" to "boiled."
+#### Universal Truth and Reporting-Verb Exceptions
 
-**Pronoun Changes:** These follow a logical pattern based on perspective shift. First-person pronouns in the direct speech become the person they refer to in the indirect: "I" becomes "he/she," "my" becomes "his/her." Second-person pronouns (you/your) become the person being addressed in the indirect: "you" becomes "me/him/her/them" depending on context. Third-person pronouns stay unchanged since they already refer to third parties.
+Statements of scientific fact, proverbs, and habitual truths do **not** backshift: *The teacher said, "The earth revolves around the sun" → The teacher said that the earth revolves around the sun.* Likewise, if the reporting verb is **says / has said / will say**, no backshift occurs: *She says she is leaving tomorrow* (tense and *tomorrow* both remain because the reporting moment is still present).
 
-**Time Expression Shifts:** These are systematic and predictable — they essentially move everything "back" in time:
-- now → then
-- today → that day
-- yesterday → the previous day / the day before
-- tomorrow → the next day / the following day
-- last week → the previous week / the week before
-- ago → before
-- this → that (for demonstratives)
-- these → those
+#### Reporting Verbs Beyond Said/Told
 
-**Question Reporting:** Questions have a unique property — they grammatically invert subject and verb (like "Are you coming?" rather than "You are coming?"). When converting to indirect speech, this inversion is removed because the sentence becomes a statement (subordinate clause). Yes/no questions get "if" or "whether." Wh-questions keep their question word (who, what, which, where, when, why, how) as a conjunction.
+- **Informed, replied, answered, reminded, asserted** → followed by **object + that**.
+- **Asked, inquired, wondered** → introduce an indirect question with **if/whether/wh-**.
+- **Ordered, commanded, requested, advised, urged, forbade** → take an object + **to-infinitive**; **forbade** uses **to + V1** with negative meaning (*He forbade them to enter*).
+- **Exclaimed with joy / sorrow, prayed, wished** → handle exclamatory and optative sentences without backshifting the emotional verb.
 
-**Command Reporting:** Commands are different from statements and questions — they're instructions. Instead of backshifting tense, commands use the "to + infinitive" pattern. "Stop!" becomes "He told me to stop." Negative commands use "not to": "Don't go" becomes "She warned me not to go." The verb accompanying the command is typically "tell," "ask," "order," or "command" — each implying different levels of authority.
+---
 
-### GATE-Level Practice
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-**Q1:** Raman said, "I will reach Mumbai tomorrow."
-Answer: **Raman said that he would reach Mumbai the next day.**
+#### Edge Cases and Boundary Conditions
 
-**Q2:** The professor asked, "Who has completed the assignment?"
-Answer: **The professor asked who had completed the assignment.** (Note: no "that," question word "who" is retained, tense backshift applies)
+The simple backshift table breaks down in five predictable scenarios that GATE has tested at least once each in the past decade:
 
-**Q3:** She said, "I am writing a letter to my mother."
-Answer: **She said that she was writing a letter to her mother.** (present continuous → past continuous, first-person pronoun shift)
+1. **Past Perfect stays Past Perfect.** *"I had finished before noon." → He said he had finished before noon.* No double-backshift.
+2. **Modal past forms (can, would, should, can, ought to, used to) do not change** because they are already in their past form. *He said, "I can swim." → He said he can swim.*
+3. **Unreal past / Subjunctive (I wish I were, If I were you) remains unchanged**, even though the surface form is past — the meaning is present/hypothetical.
+4. **Past Continuous shifts to Past Perfect Continuous** only in formal reported contexts, but in GATE MCQs the standard answer is **was/were + V-ing → had been + V-ing**; both forms can be accepted depending on the option set.
+5. **Reporting verbs that imply simultaneity** (shouted, cried out, continued) sometimes retain the original tense when the reported event is happening at the moment of reporting.
 
-### Multiple Approaches
+#### Advanced Trap Table
 
-**Standard Method (for statements):**
-1. Identify the reporting verb (said, told, asked)
-2. Remove quotation marks
-3. Add "that" after the reporting verb
-4. Apply tense backshift to the main verb
-5. Change pronouns as needed
-6. Adjust time expressions
+| Trap | Incorrect Conversion | Correct Conversion | Why It Fails |
+|---|---|---|---|
+| Treating "to" as infinitive marker when it is part of a place expression | *He told me to go to there.* | *He told me to go there.* | "There" is an adverb, not a complement of "to". |
+| Backshifting an already-past modal | *He said he would can come.* | *He said he can come.* | "Can" is already past — no shift. |
+| Introducing "that" after "tell" wrongly | *He told that he was ill.* | *He told me that he was ill.* | "Tell" needs an object. |
+| Treating "Let's" as third-person imperative | *He suggested that we should go.* | *He suggested going / He suggested that we (should) go.* | "Let's" triggers suggestion, not command. |
+| Using "if" instead of "whether" inside indirect questions with two alternatives | *He asked if I wanted tea or coffee.* | *He asked whether I wanted tea or coffee.* | "If" is acceptable in casual English, but GATE prefers "whether" for clarity. |
+| Quoting an ongoing present action as completed | *"I am reading" → He said he read it.* | *"I am reading" → He said he was reading it.* | Present Continuous backshifts to Past Continuous, not Past Simple. |
 
-**Shortcut for Questions:**
-- Keep the question word if present (who/what/where/etc.) — it becomes a conjunction
-- For yes/no questions, just add "if" or "whether" at the start
-- Remove the question mark and any subject-verb inversion
+#### Connections to Adjacent Topics
 
-**Command Pattern:**
-- Replace the command verb with "to + [base verb]" in the indirect version
-- Use "not to" for negative commands
-- Choose the right reporting verb: "tell" (neutral), "ask" (polite), "order" (authoritative)
+Direct & Indirect Speech overlaps with three other Verbal Ability areas:
 
-### Tricky Cases / Edge Cases
+- **Tense Consistency** — the same Past-Simple → Past-Perfect mapping appears in Reported Speech and in Reported Conditional clauses.
+- **Voice (Active/Passive)** — when the reporting verb and the original subject swap, the active voice can flip: *"The judge pardoned him" → It was said that he had been pardoned by the judge.*
+- **Sentence Transformation** — most GATE sentence-transformation NAT items chain a tense change with a voice change; treat each transformation as an independent edit so errors do not cascade.
 
-- **Universal truths and permanent facts:** Don't backshift — "The doctor said that exercise is good for health" is correct even though "is" stayed present.
-- **Past habitual actions:** Use "used to" or keep backshift: "He said he played football on weekends" can mean either past habit or present habit depending on context.
-- **Questions within statements:** "She asked me what my name was" vs "She asked me what my name is" — both acceptable in different GATE conventions; check if the question is still relevant.
-- **Imperative mood variations:** "Don't be late!" → "He warned me not to be late" is correct; but "Don't be late" → "He told me to be late" would be wrong.
-- **Reporting verbs that affect meaning:** "Said" vs "told" — "told" requires an indirect object (told *me*), while "said" doesn't take one directly.
+#### Common High-Weight Mistakes in GATE Verbal Ability
 
-*Content adapted based on your selected roadmap duration.*
+- Inserting quotation marks in the indirect answer.
+- Forgetting to change **here/now/today** when all other shifts are correct.
+- Using **say** for a past event with an object: *He said me…* (always wrong in formal English; use **told me**).
+- Keeping the auxiliary **do/does/did** in indirect questions.
+- Backshifting the verb inside the **that-clause** when the reporting verb is **says** (present) — a frequent distractor in MCQs.
+
+#### Two Advanced Practice Prompts
+
+1. Convert and identify the **one grammatically correct** option:
+ *Anita said, "I have worked here since 2018 and will complete this project by December."*
+ (Hint: track both Present Perfect and a future-in-the-past modal; **since 2018** does not shift.)
+2. Spot the error: *He asked me that where I had been.* (Hint: indirect questions do not use **that** before a wh-word; the structure should be **He asked me where I had been**.)
+
+#### Exam Strategy Snapshot
+
+Direct & Indirect Speech contributes roughly **2% of GATE Verbal Ability marks** — in standard papers **1 to 2 questions**, mostly MCQs of 1 mark each. Allocate under 90 seconds per question: identify the reporting-verb tense first, apply the backshift table, then sweep for adverbials and pronouns. A correct sweep of the three edit slots (tense, adverbial, pronoun) clears more than 85% of GATE items in this topic; the remainder hinge on the universal-truth exception or the said/told distinction.
+
+---
+
+## Continue your study
+
+- **[View this topic in your GATE roadmap](/roadmap/?exam=gate&duration=1mo)** — see where "Direct & Indirect Speech" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=gate&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[GATE exam overview](/exams/gate/)** — pattern, eligibility, and syllabus
+- **[All Verbal Ability notes](/notes/gate/verbal-ability/)** — browse sibling topics in this subject
+
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

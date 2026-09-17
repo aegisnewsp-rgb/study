@@ -8,135 +8,119 @@ topicName: "Demand and Supply"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-06-06"
+lastUpdated: "2026-09-17"
 ---
 
 # Demand and Supply
 
 ### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
 
-**Demand** = quantity consumers will buy at each price (given income, tastes, related goods prices, expectations, number of buyers). **Supply** = quantity producers will sell at each price (given costs, technology, government policies, expectations, number of sellers).
+**Demand** is the quantity consumers are willing and able to buy at various prices, ceteris paribus. **Supply** is the quantity producers are willing and able to offer at various prices, ceteris paribus. The **market equilibrium** is where quantity demanded equals quantity supplied, fixing the equilibrium price (P*) and quantity (Q*).
 
-**Law of Demand:** Inverse P–Qd relationship, **ceteris paribus**. **Law of Supply:** Direct P–Qs relationship, ceteris paribus.
+| Term | Functional Form | Variables |
+|---|---|---|
+| Demand | Qd = a − bP | a = autonomous demand (units), b = slope (units/INR), P = price (INR/unit) |
+| Supply | Qs = c + dP | c = autonomous supply (units), d = slope (units/INR), P = price (INR/unit) |
+| Equilibrium | Qd = Qs ⇒ P* = (a − c)/(b + d) | P* in INR/unit, Q* in units |
 
-**Equilibrium** price clears the market where Qd = Qs. Below it → shortage pushes price up; above it → surplus pushes price down.
+- The Law of Demand: own-price ↑ ⇒ Qd ↓ (downward slope).
+- The Law of Supply: own-price ↑ ⇒ Qs ↑ (upward slope).
+- Elasticity Ed = (%ΔQd)/(%ΔP); |E| > 1 elastic, < 1 inelastic, = 1 unit elastic.
 
-**Price Elasticity of Demand:** Ed = (ΔQ/ΔP) × (P/Q). Midpoint formula: Ed = [(Q₂−Q₁)/(Q₂+Q₁)] ÷ [(P₂−P₁)/(P₂+P₁)]. Ed > 1 = elastic (price fall ↑ total revenue); Ed < 1 = inelastic (price rise ↑ total revenue).
-
-**RBI Grade B pointers:** (1) Identify which curve shifts and new equilibrium — curves often drawn with parallel shifts; (2) Always check units and signs in elasticity calculations; (3) Normal goods have income elasticity > 0; inferior goods < 0.
+> 💡 **High-Yield Memory Hook:** **"DRIPS-SCALE"** for movement vs shift — **D**emand moves along on **R**ising price, **I**ncome shifts, **P**rice of others shifts; Supply: **S**ame rule, **C**ost shifts, **A**ll else shifts, **L**eft, **E**lse. Quick rule of thumb: a price change gives movement, anything else gives a shift.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-#### Law of Demand: Mechanism and Exceptions
+#### Core Mechanisms
 
-The **Law of Demand** states that, holding all else constant (ceteris paribus), as price rises, quantity demanded falls. This inverse relationship operates through two effects: the **substitution effect** (the good becomes relatively more expensive vs. substitutes) and the **income effect** (higher price reduces real purchasing power, lowering effective buying capacity).
+Two distinct graphical reactions exist. A **movement along** the curve responds only to the good's own price. A **shift** of the entire curve responds to non-price determinants. For demand, these are income, tastes, prices of related goods (substitutes and complements), expectations, and buyer count. For supply, the triggers are input costs, technology, taxes/subsidies, seller count, and producer expectations.
 
-Two important exceptions exist in micro theory. **Veblen goods** (luxury goods like premium watches) show a direct price-demand relationship — higher prices signal status and boost demand. **Giffen goods** are inferior staples where a price increase forces consumers to buy more of that good because they cannot afford better alternatives.
+Equilibrium is reached where the demand and supply curves intersect. At any price above P*, Qs > Qd ⇒ surplus ⇒ downward pressure on price. At any price below P*, Qd > Qs ⇒ shortage ⇒ upward pressure on price. The market converges to P* because of this self-correcting mechanism.
 
-#### Law of Supply: Mechanism
+#### Movement vs Shift — Comparison Matrix
 
-The **Law of Supply** establishes a direct, positive relationship: as price rises, quantity supplied increases. Producers respond to higher prices because it becomes profitable to expand output using existing capacity, while new producers enter the market. The supply curve is upward-sloping for this reason.
+| Distinction | Cause | Graphical Effect | Example (RBI context) |
+|---|---|---|---|
+| Movement along D | Own price change only | Slide down/up the same D curve | LPG cylinder price raised by ₹50 → Qd falls along curve |
+| Shift of D | Non-price factor | Entire D curve moves right/left | Harvest income ↑ → D for tractors shifts right |
+| Movement along S | Own price change only | Slide up/down the same S curve | Wheat MSP ↑ → Qs rises along curve |
+| Shift of S | Non-price factor | Entire S curve moves right/left | Diesel excise cut → S for logistics shifts right |
 
-#### Equilibrium: The Market-Clearing Mechanism
+#### Elasticity Types
 
-**Equilibrium** occurs where the demand and supply curves intersect. At this price (P*), quantity demanded equals quantity supplied — no inherent pressure for price to change. A price below P* creates excess demand (shortage), bidding price upward; a price above P* creates excess supply (surplus), pushing price downward.
+| Elasticity | Formula | Dimension | Interpretation |
+|---|---|---|---|
+| Price elasticity of demand | Ed = (ΔQd/ΔP)·(P/Qd) | Unitless | >1 elastic, <1 inelastic |
+| Price elasticity of supply | Es = (ΔQs/ΔP)·(P/Qs) | Unitless | Higher in long run |
+| Cross elasticity | Exy = (ΔQdx/ΔPy)·(Py/Qdx) | Unitless | +ve substitutes, −ve complements |
+| Income elasticity | Ey = (ΔQd/ΔY)·(Y/Qd) | Unitless | +ve normal good, −ve inferior |
 
-#### Price Elasticity of Demand (PED)
+#### Key Determinants Recap
 
-The midpoint/mid-arc formula provides a consistent elasticity measure regardless of direction:
+1. **Demand drivers:** income, tastes, related-good prices, expectations, number of buyers.
+2. **Supply drivers:** input costs, technology, taxes/subsidies, number of sellers, expectations.
+3. **Government interventions:** price ceiling below P* → shortage; price floor above P* → surplus; per-unit tax shifts S left by tax amount.
 
-Ed = [(Q₂ − Q₁) / (Q₂ + Q₁)] ÷ [(P₂ − P₁) / (P₂ + P₁)]
+#### 🎯 Exam-Level Worked Problem
 
-- |Ed| > 1: **Elastic** — percentage change in Qd exceeds percentage change in P
-- |Ed| = 1: **Unit elastic**
-- |Ed| < 1: **Inelastic** — percentage change in Qd is smaller than in P
+**Question:** Demand for pulses in a district is Qd = 800 − 4P, and supply is Qs = 200 + 2P, where P is in ₹/kg. (i) Find the equilibrium price and quantity. (ii) If the government imposes a price ceiling of ₹70/kg, what is the resulting shortage in kg?
 
-This has direct implications for **Total Revenue (TR = P × Q)**: for elastic demand, lowering price raises TR; for inelastic demand, raising price raises TR.
+#### Solution:
+Step 1 — Set Qd = Qs: 800 − 4P = 200 + 2P ⇒ 600 = 6P ⇒ **P* = ₹100/kg**.
+Step 2 — Plug back: Q* = 200 + 2(100) = **400 kg** (or Qd = 800 − 4(100) = 400 kg, verified).
+Step 3 — At price ceiling P = ₹70: Qd = 800 − 4(70) = **520 kg**; Qs = 200 + 2(70) = **340 kg**.
+Step 4 — Shortage = Qd − Qs = 520 − 340 = **180 kg**.
 
-#### Factors Influencing PED
-
-1. **Necessity vs. luxury** — necessities (medicine, electricity) are inelastic; luxuries are elastic
-2. **Availability of substitutes** — more close substitutes → more elastic
-3. **Proportion of income spent** — higher share → more elastic
-4. **Time period** — longer run → more elastic as consumers adjust
-5. **Definition of the good** — broader definitions (food) are more inelastic than narrow ones (mangoes)
-
-#### Factors That Shift the Demand Curve (Not Price)
-
-- Change in **income** (normal goods shift right, inferior goods shift left)
-- Change in **tastes and preferences**
-- Change in **price of related goods** (substitutes and complements)
-- Change in **expectations** (future price or income)
-- Change in **number of buyers**
-
-#### Factors That Shift the Supply Curve (Not Price)
-
-- Change in **input costs** (raw materials, wages)
-- Change in **technology**
-- Change in **government policies** (taxes, subsidies)
-- Change in **producer expectations**
-- Change in **number of sellers**
-
-#### Exam Pattern for RBI Grade B
-
-Economics carries roughly 3% weight in the Phase-II General paper, translating to approximately 4-5 questions from demand-supply analysis. Recent RBI Grade B papers have featured case-based questions requiring simultaneous shift analysis and numerical elasticity calculations. Expect one question requiring a demand/supply graph with both axes labeled and initial and new equilibrium marked.
+> ⚠️ **Examiner Trap:** Students often compute only the new quantities and report one of them as the "shortage." The correct shortage is the **gap** Qd − Qs at the controlled price, not the new quantity demanded itself. Also, verify the ceiling is **binding**: ₹70 < P* (₹100), so the ceiling actually bites — at a non-binding ceiling (above P*) the shortage would be zero.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-#### Shifts vs. Movements: The Critical Distinction
+#### Edge Cases and Exceptions
 
-This is the most-tested conceptual trap in competitive exams. A **movement along** the demand curve is caused **only** by a change in the good's own price — price rises, point slides leftward (quantity demanded falls); price falls, point slides rightward (quantity demanded rises). This is a change in **quantity demanded**.
+The Laws of Demand and Supply are conditional on ceteris paribus, and several documented exceptions break the inverse relationship. A **Giffen good** is an inferior good whose demand rises when its own price rises (e.g., staple grains during subsistence budgets). A **Veblen good** sees higher demand at higher prices because of conspicuous consumption (luxury watches, premium spirits). **Expectation-driven hoarding** also breaks the law during panic episodes — onion and sugar crises in India illustrate this pattern.
 
-A **shift of** the demand curve occurs when any non-price determinant changes — income rises, taste shifts in the product's favour, a substitute's price rises, or consumer numbers increase. The entire curve shifts rightward (increase in demand) or leftward (decrease in demand). At each and every price, a different quantity is now demanded. This is a change in **demand**.
+Elasticity is not constant along a linear demand curve. On a straight-line Qd = a − bP, elasticity falls as you move down the curve: the **upper segment is elastic** (|Ed|>1), the **midpoint is unit elastic** (|Ed|=1), and the **lower segment is inelastic** (|Ed|<1). This matters in RBI policy questions on tax incidence — a tax on an inelastic good (like salt or kerosene) raises revenue with little quantity change.
 
-The same distinction applies to supply: price changes cause movements along the supply curve; non-price factors cause the supply curve to shift.
+#### Time-Horizon Effects
 
-#### Cross Elasticity of Demand
+| Horizon | Demand Elasticity | Supply Elasticity | Real-world Application |
+|---|---|---|---|
+| Very short run | Very low | Very low | Petrol demand barely changes within a week |
+| Short run | Low | Moderate | Agricultural supply adjusts with stored stocks |
+| Long run | High | High | EV adoption shifts petrol demand down permanently |
 
-Cross elasticity measures how demand for good A responds to a price change in good B:
+#### Advanced Traps and Exceptions
 
-Eₓᵧ = (% change in Qd of good A) / (% change in price of good B)
+1. **Cross-elasticity sign error:** Substitutes (tea/coffee) have **positive** cross elasticity; complements (cars/petrol) have **negative** cross elasticity.
+2. **Tax incidence ≠ tax amount:** The statutory burden differs from economic burden; the side with lower elasticity bears more of the tax.
+3. **Price ceiling vs floor confusion:** A **binding ceiling** causes shortage; a **binding floor** causes surplus. Non-binding controls produce neither.
+4. **Deadweight loss** is the triangular welfare loss from deviations like taxes, quotas, or price controls that push Q away from Q*.
+5. **Per-unit tax** shifts the supply curve **vertically upward by the tax amount**, not horizontally; this differs from a lump-sum tax (which shifts it horizontally by a fixed amount at every Q).
+6. **Surplus/deficit** wording in macro contexts refers to government balance sheets, **not** market surplus/shortage; do not conflate.
 
-- **Positive cross elasticity** → substitutes (price of Pepsi rises → demand for Coca-Cola rises)
-- **Negative cross elasticity** → complements (price of printers rises → demand for ink cartridges falls)
-- Zero → unrelated goods
+#### Advanced Practice Prompts
 
-RBI questions often test whether students can correctly pair goods — confusing substitutes and complements is a common error.
+1. Suppose Qd = 500 − 2P and Qs = 100 + P. The government imposes a per-unit tax of ₹20 on producers. Compute the new equilibrium price paid by consumers, the price received by producers, and the deadweight loss.
+2. Cross-price elasticity between tea and coffee is +1.4, and between cars and petrol is −0.9. A ₹10 hike in petrol price raises car demand by 18%. Compute Ey implied for cars from petrol, and state which good (tea or coffee) is the stronger substitute.
 
-#### Income Elasticity of Demand
+#### Exam Strategy Notes
 
-Income elasticity classifies goods:
+For RBI Grade B Phase II, expect 1–2 direct questions (numerical computation of P*/Q*, elasticity, or surplus calculation) and 1–2 application questions framed around Indian macro news (fuel taxes, MSP for wheat/paddy, LPG price revision, onion import policy). Memorise the slope signs, elasticity thresholds, and the direction of curve shifts under each policy lever — that triad covers roughly 70% of past paper questions on this topic.
 
-- **Normal goods**: Eᵧ > 0 — demand rises as income rises (clothing, dining out)
-- **Inferior goods**: Eᵧ < 0 — demand falls as income rises (cheap instant noodles, public transport in high-income brackets)
-- **Luxury goods**: Eᵧ > 1 — demand grows faster than income (designer bags, premium travel)
+---
 
-This classification is relative and can change with income levels — a motorcycle may be a normal good for low-income consumers but an inferior good for high-income consumers who upgrade to cars.
+## Continue your study
 
-#### Consumer and Producer Surplus: Welfare Analysis
-
-**Consumer surplus** is the area between the demand curve and the equilibrium price, up to the quantity purchased. It equals the maximum amount a consumer would pay minus what they actually pay — the "bargain" benefit. For example, if a student would pay ₹500 for a textbook but pays ₹350, consumer surplus = ₹150 per book.
-
-**Producer surplus** is the area between the supply curve and the equilibrium price, up to the quantity sold. It equals actual price minus the minimum price the producer would accept. This represents the benefit producers receive from participating in the market.
-
-Combined, they measure **total welfare** or **social surplus**. Any market distortion — price floor, price ceiling, tax — reduces this surplus, creating **deadweight loss**. RBI descriptive questions frequently ask candidates to shade these areas on a graph and calculate total welfare.
-
-#### Common Mistakes to Avoid
-
-1. **Blurring movement and shift** — if the question mentions income, tastes, costs, or technology, the curve shifts; only price changes cause movement along the curve.
-2. **Forgetting ceteris paribus** — any elasticity or demand-supply statement assumes other factors held constant; violating this assumption invalidates the analysis.
-3. **Sign errors in elasticity** — income elasticity for inferior goods must be negative; cross elasticity for complements must be negative.
-4. **Using arithmetic mean instead of midpoint** — the midpoint formula requires averaging both quantity and price pairs before computing the ratio.
-5. **Confusing normal vs. inferior classification** — a rising income that reduces demand for a good makes it inferior; a rising income that increases demand makes it normal.
-
-#### Practice Prompts
-
-1. **Shift analysis prompt:** Suppose the government imposes a per-unit subsidy on electric vehicle manufacturers. Using demand-supply analysis, show what happens to the equilibrium price and quantity in the EV market. Explain which curve shifts, by how much, and why the new equilibrium is determined at the intersection of the new supply curve and the unchanged demand curve. Label all axes and curves clearly.
-
-2. **Elasticity and revenue prompt:** A restaurant raises the price of its signature dish from ₹400 to ₹500, and quantity sold falls from 200 to 150 units per day. Calculate the price elasticity of demand using the midpoint formula. Is this elastic or inelastic? What happened to the restaurant's daily total revenue, and what does this imply about the restaurant's pricing strategy for maximizing revenue?
+- **[View this topic in your RBI Grade B roadmap](/roadmap/?exam=rbi-grad-b&duration=1mo)** — see where "Demand and Supply" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=rbi-grad-b&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[RBI Grade B exam overview](/exams/rbi-grad-b/)** — pattern, eligibility, and syllabus
+- **[All Economics notes](/notes/rbi-grad-b/economics/)** — browse sibling topics in this subject
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

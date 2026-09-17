@@ -17,74 +17,107 @@ diagramPrompt: "Clean educational diagram showing Fluid Mechanics with clear lab
 
 
 
-lastUpdated: "2026-05-26"
+lastUpdated: "2026-09-17"
 ---
 
 # Fluid Mechanics
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+> Rapid summary for last-minute revision before the JAMB UTME Physics paper.
 
-**Density** (ρ) = mass/volume, measured in kg/m³. **Relative density** has no unit — it's the ratio of a substance's density to water's density (1000 kg/m³). **Pressure** (P) = force/area, unit: N/m² or Pa. In a static liquid, P = ρgh (ρ = density, g = 10 m/s², h = depth). **Pressure acts equally in all directions** at a given depth.
+Fluid mechanics studies how liquids and gases behave at rest (fluid statics) and in motion (fluid dynamics). JAMB tests roughly 2–4 questions on this section, centred on **Archimedes' principle**, **Pascal's principle**, the **continuity equation**, and **Bernoulli's equation**. Always use *g = 10 m/s²* unless a numerical value is specified, and convert all areas to m² before substituting.
 
-**Upthrust (U)** = ρVg — weight of fluid displaced. **Archimedes' principle**: upthrust equals the weight of displaced fluid. A body floats when U = weight; sinks when weight > U. **Pascal's law**: pressure applied to an enclosed fluid is transmitted equally to every part of the fluid.
+| Symbol | Quantity | SI Unit | Formula |
+|--------|----------|---------|---------|
+| P | Pressure | Pa (N/m²) | P = F/A |
+| ρ | Density | kg/m³ | ρ = m/V |
+| F_B | Buoyant force | N | F_B = ρ_fluid · V_displaced · g |
+| v | Flow speed | m/s | A₁v₁ = A₂v₂ |
+| — | Energy line | Pa | P + ½ρv² + ρgh = constant |
 
-**Viscosity** resists fluid flow; higher viscosity = slower flow. **Surface tension** (γ = F/L) lets insects walk on water.
-
-**JAMB High-Yield**: P = ρgh questions appear almost every year. Memorize upthrust = weight of displaced fluid (not total fluid weight). Know when a body floats vs sinks.
+> 💡 **High-Yield Memory Hook:** **"PAVV"** — **P**ressure, **A**rchimedes, **V**olume displaced, **V**elocity (continuity). Whenever a JAMB question mentions "floats", "hydraulic", "narrow pipe", or "Venturi", one of these four ideas solves it.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+> Standard content for students with a few days to months before the exam.
 
-## Pressure in Fluids
+#### Core Principles
 
-Pressure at a depth h in a fluid of density ρ is given by **P = ρgh**. This comes from: weight of fluid column = mg = ρVg = ρAhg, so P = weight/area = ρgh. The key trap: pressure depends only on depth, not on the volume or shape of the container. A 10 m deep pool exerts the same pressure as a narrow 10 m deep tube at the same depth. Atmospheric pressure (≈ 1.01 × 10⁵ Pa) adds to liquid pressure, so absolute pressure = P_atm + ρgh.
+**Pascal's principle** states that pressure applied to an enclosed incompressible fluid is transmitted undiminished to every part of the fluid and the containing walls. The hydraulic press uses this: a small force F₁ on piston area A₁ produces a larger force F₂ = (A₂/A₁)F₁ on piston area A₂, because pressure P = F₁/A₁ = F₂/A₂ is conserved.
 
-## Upthrust and Archimedes' Principle
+**Archimedes' principle** states that a body fully or partially immersed in a fluid experiences an upward buoyant force equal to the weight of the fluid displaced: F_B = ρ_fluid · V_displaced · g. The apparent weight of the submerged object is W_apparent = W_real − F_B. A body floats when its average density is less than the fluid density; it sinks when greater.
 
-A body immersed in fluid experiences an upward force called **upthrust**. Mathematically, **U = ρ_f V_d g**, where ρ_f is the fluid density and V_d is the volume of fluid displaced — not the volume of the body. For a fully submerged body, V_d equals the body's volume. For a floating body, only part is submerged and V_d is the submerged volume. A body floats when ρ_body < ρ_fluid; it sinks when ρ_body > ρ_fluid.
+#### Fluid Dynamics
 
-## Pascal's Law and Applications
+For an incompressible fluid in **streamline** (laminar) flow, mass conservation gives the **continuity equation** A₁v₁ = A₂v₂, so fluid speeds up where the cross-section narrows. **Bernoulli's equation** then expresses energy conservation along a streamline:
 
-Pressure applied to any part of an enclosed fluid is transmitted equally to all parts. In hydraulic presses, **F₁/A₁ = F₂/A₂**, so a small force applied to a small piston can lift a large load using a larger piston. This is how hydraulic brakes and jacks work.
+P₁ + ½ρv₁² + ρgh₁ = P₂ + ½ρv₂² + ρgh₂
 
-## Fluid Flow: Continuity and Bernoulli
+where P is pressure (Pa), ρ is density (kg/m³), v is speed (m/s), g ≈ 10 m/s², and h is height (m). Each term has units of pressure (J/m³), so the sum is constant along a streamline for an ideal (non-viscous, incompressible) fluid.
 
-For streamline flow, **A₁V₁ = A₂V₂** (continuity equation). Fluid speed increases where the pipe narrows. **Bernoulli's equation** relates pressure, speed, and height: **P + ½ρv² + ρgh = constant**. As fluid speed increases, pressure decreases — this explains lift on an airplane wing. In horizontal flow (h constant), increased velocity means decreased pressure.
+#### Comparison Matrix
 
-**JAMB Pattern**: Questions on pressure in liquids and upthrust calculations dominate. Numerical problems combining Archimedes' principle with density comparisons are frequent.
+| Concept | When it applies | Key relation | JAMB-style trap |
+|---------|-----------------|--------------|------------------|
+| Pascal's principle | Static, enclosed incompressible fluid | P transmitted equally | Confusing force ratio with pressure ratio |
+| Archimedes' principle | Body in a fluid (static or moving) | F_B = ρVg (of fluid, not body) | Using the object's volume instead of displaced volume |
+| Continuity equation | Steady, incompressible flow | A₁v₁ = A₂v₂ | Forgetting that A and v are at the SAME instant |
+| Bernoulli's equation | Ideal, streamline, incompressible flow | P + ½ρv² + ρgh = constant | Applying to viscous pipes with friction |
+| Hydrostatic pressure | Static liquid column | P = ρgh | Treating pressure as horizontal-only |
+
+#### 🎯 Exam-Level Worked Problem
+
+**Question:** A hydraulic press has a small piston of area 5 cm² and a large piston of area 200 cm². A force of 80 N is applied to the small piston. Find the force exerted on the large piston. (g = 10 m/s²)
+
+#### Solution:
+Apply Pascal's principle — pressure is equal at both pistons.
+P₁ = P₂ → F₁/A₁ = F₂/A₂
+
+Convert areas to SI: A₁ = 5 × 10⁻⁴ m², A₂ = 200 × 10⁻⁴ m² = 0.02 m².
+
+F₂ = F₁ × (A₂/A₁) = 80 × (0.02 / 5 × 10⁻⁴) = 80 × 40 = **3200 N** (3.2 kN).
+
+Check units: N × (m²/m²) = N ✓. g is not required here because Pascal's principle involves pressure, not weight.
+
+> ⚠️ **Examiner Trap:** Students often write F₂ = F₁ × A₂ without converting cm² to m², producing 16000 N (off by 5). Since the ratio A₂/A₁ = 200/5 = 40 is dimensionless, conversion cancels — but if any step uses P = F/A in mixed units, the answer slips by a factor of 10⁴.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-## The Law of Floatation
+#### Edge Cases and Limits
 
-When a body floats, the upthrust exactly equals the weight of the body: **ρ_body V_total g = ρ_fluid V_submerged g**, giving **V_submerged/V_total = ρ_body/ρ_fluid**. For ice floating in water (ρ_ice ≈ 920 kg/m³, ρ_water = 1000 kg/m³), about 92% of the ice is submerged. This principle explains how ships, submarines, and hot-air balloons maintain equilibrium. A hydrometer uses this: a denser liquid displaces less liquid, making it float higher.
+- **Apparent weight in a lift:** When a body is weighed inside an accelerating lift, the effective g becomes g_eff = g ± a. The buoyant force still uses the true g, so apparent weight changes but F_B does not.
+- **Partially submerged body:** A floating object displaces a volume equal to its weight divided by ρ_fluid · g. Only the submerged fraction matters; the dry portion contributes nothing to upthrust.
+- **Viscosity correction:** For viscous flow in a horizontal pipe, the pressure drop ΔP = 32ηLv/D² (Poiseuille's law), where η is dynamic viscosity (Pa·s), L pipe length (m), D diameter (m). This energy loss makes Bernoulli's idealised equation only an approximation.
+- **Surface tension and capillarity:** A liquid rises in a narrow tube to height h = 2γcosθ / (ρgr), where γ is surface tension (N/m), θ the contact angle, and r the tube radius. Mercury (θ > 90°) depresses instead of rising.
+- **Torricelli's theorem:** Efflux speed from a tank with head h is v = √(2gh), a direct Bernoulli result when the top is open to atmosphere.
 
-## Bernoulli's Principle — Edge Cases
+| Common Advanced Trap | Why it fails | Correct approach |
+|----------------------|--------------|------------------|
+| Using Bernoulli across a valve with a pump | Pump adds energy not in the equation | Add a pump-head term h_p on the high-pressure side |
+| Adding atmospheric pressure twice | P already includes P_atm at open surfaces | Count P_atm only once per open end |
+| Treating streamline flow as uniform | Uniform = constant velocity across section; streamline = no crossing layers | Use Bernoulli only when streamlines are also smooth |
+| Floating in a denser fluid | Buoyancy from denser fluid is larger | Recompute V_displaced = m_object / ρ_fluid |
 
-Bernoulli's equation **P + ½ρv² + ρgh = constant** assumes steady, streamline, incompressible, non-viscous flow. In real fluids with viscosity, energy is lost as heat, so the equation is approximate. For **horizontal flow** (Δh = 0), the equation simplifies to P + ½ρv² = constant. In Venturi meters (a pipe that narrows), fluid speeds up in the constriction, pressure drops, and this pressure difference can be measured to find flow rate.
+#### Exam Strategy for JAMB
 
-## Viscosity and Stokes' Law
+Out of 40 Physics questions, expect 2–4 on this section, almost always numerical MCQs with units in N, Pa, m/s, m³. Memorise the five core equations in the table above, plus the Bernoulli substitution chain. Time per question should not exceed 90 seconds — if a fluid problem needs three derived steps, skip and return. JAMB typically pairs this topic with *density*, *upthrust*, and *pressure in liquids*, so a single question may chain two of them (e.g., "find upthrust, then apparent weight").
 
-Viscosity arises from intermolecular forces resisting relative motion between fluid layers. Terminal velocity occurs when drag force equals weight minus upthrust: **v_t = (mg - U)/6πηr** (for a sphere of radius r, viscosity η). This is tested in free-fall through viscous media.
+#### Practice Prompts
 
-## Common Mistakes to Avoid
-
-- Confusing mass and density: density is mass per unit volume, not weight per unit volume.
-- Forgetting that pressure = ρgh requires g and h; g ≈ 10 m/s² in JAMB problems.
-- Using the body's volume instead of displaced volume when calculating upthrust.
-- Neglecting atmospheric pressure when asked for absolute pressure.
-- Misapplying Bernoulli in non-horizontal situations — always include the ρgh term.
-
-## Practice Prompts
-1. A block of wood (density 600 kg/m³) floats in water. What fraction of its volume is submerged? (Answer: 0.6 or 60%)
-2. Water flows through a pipe of radius 0.1 m at speed 2 m/s and enters a narrower pipe of radius 0.05 m. Find the speed in the narrower pipe. (Answer: 8 m/s via A₁V₁ = A₂V₂)
+1. Water flows through a horizontal pipe whose cross-section narrows from 12 cm² to 4 cm². If the inlet speed is 3 m/s, find (a) the outlet speed and (b) the pressure drop, assuming ideal flow (ρ = 1000 kg/m³, g = 10 m/s²).
+2. A block of mass 5 kg and density 800 kg/m³ is fully immersed in oil of density 900 kg/m³. Calculate its apparent weight and state whether it floats if released.
 
 ---
+
+## Continue your study
+
+- **[View this topic in your JAMB UTME roadmap](/roadmap/?exam=jamb&duration=1mo)** — see where "Fluid Mechanics" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=jamb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[JAMB UTME exam overview](/exams/jamb/)** — pattern, eligibility, and syllabus
+- **[All Physics notes](/notes/jamb/physics/)** — browse sibling topics in this subject
 
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

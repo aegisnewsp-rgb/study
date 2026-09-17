@@ -8,188 +8,160 @@ topicName: Infection Control and Prevention
 weight: 3
 country: uae
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-17"
 ---
 
 # Infection Control and Prevention
 
-Infection prevention and control (IPC) is a heavily weighted domain in the Department of Health (DOH UAE) licensure examination. Because the UAE healthcare sector serves a multinational patient population, clinical staff must strictly adhere to transmission-based precautions, central line-associated bloodstream infection (CLABSI) bundles, surgical site infection (SSI) reduction protocols, and national surveillance guidelines mandated by the Ministry of Health and Prevention (MOHAP) and Dubai Health Authority (DHA).
-
----
-
 ### 🟢 Lite — Quick Review (1h–1d)
-
 > Rapid summary for last-minute revision before your exam.
 
-**The Chain of Infection — 6 Links (break any link to prevent infection):**
-1. **Infectious agent** (bacteria, virus, fungus, parasite)
-2. **Reservoir** (person, animal, environment)
-3. **Portal of exit** (respiratory, GI, blood, mucous membranes, broken skin)
-4. **Mode of transmission** (contact, droplet, airborne, vector, common vehicle)
-5. **Portal of entry** (same as portal of exit — respiratory, mucous membranes, etc.)
-6. **Susceptible host** (age, immunosuppression, chronic disease, breaks in skin)
+Infection Prevention and Control (IPC) is the disciplined set of practices that healthcare facilities use to block transmission of infectious agents among patients, healthcare workers (HCWs), visitors, and the wider community. In the UAE, the Department of Health – Abu Dhabi (DOH) mandates an IPC programme for every licensed facility, including surveillance, outbreak response, antimicrobial stewardship, and staff education.
 
-**Standard Precautions — For ALL Patients:**
-- Hand hygiene (5 Moments — WHO)
-- PPE based on risk assessment (gloves, gown, mask, eye protection)
-- Safe injection practices (never reuse syringes, needle-free devices where possible)
-- Respiratory hygiene/cough etiquette
-- Proper sharps disposal
-- Environmental cleaning
+The whole framework rests on **breaking one link in the Chain of Infection** — agent, reservoir, portal of exit, mode of transmission, portal of entry, susceptible host. Every hand-hygiene moment, mask, sterile drape, or chlorhexidine prep exists to interrupt that chain.
 
-**Droplet vs Airborne — Know the Difference:**
+- **Standard Precautions** apply to **every** patient regardless of diagnosis (hand hygiene, PPE as risk dictates, safe sharps, injection safety, environmental cleaning).
+- **Transmission-Based Precautions** are layered on top when a specific route is suspected: **Contact** (MRSA, VRE, *C. difficile*), **Droplet** (*N. meningitidis*, pertussis, mumps), **Airborne** (TB, measles, varicella — needs AIIR, ≥12 ACH, negative pressure).
+- **WHO "My 5 Moments for Hand Hygiene"**: Before touching a patient → Before clean/aseptic procedure → After body-fluid exposure risk → After touching a patient → After touching patient surroundings.
+- **Spaulding Classification**: Critical = sterilise; Semi-critical = high-level disinfect; Non-critical = low-/intermediate-level disinfect.
 
-| | Droplet | Airborne |
-|---|---|---|
-| **Particle size** | >5 μm | <5 μm |
-| **Distance** | Up to 1 metre | Indefinite (airborne nuclei) |
-| **Examples** | Influenza, pertussis, meningococcus, COVID-19 | TB, measles, varicella, chickenpox |
-| **Mask needed** | Surgical mask sufficient | N95/FFP2 minimum |
-
-> **⚡ Exam Tip:** MERS-CoV (Middle East Respiratory Syndrome Coronavirus) is droplet transmission in clinical settings. Standard + contact precautions are sufficient in most settings. N95 is used during aerosol-generating procedures (AGPs).
+> 💡 **High-Yield Memory Hook:** **"ABC-D-TB-AS"** for transmission-based precautions — **A**irborne (TB), **B**reath droplets (large, fall within 1 m), **C**ontact (touch), **D**o AIIR for airborne. And the Spaulding trio: **C**ritical = **S**terilise, **S**emi-critical = **H**igh-level disinfect, **N**on-critical = **L**ow-level disinfect.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-
 > Standard content for students with a few days to months.
 
-#### 1. Hand Hygiene — The Single Most Important Intervention
+#### Core Conceptual Framework
 
-Hand hygiene prevents up to 50% of all HAIs. The WHO 5 Moments for Hand Hygiene in the UAE clinical setting:
+The **Hierarchy of Controls** ranks interventions from most to least effective: **Elimination → Substitution → Engineering** (ventilation, HEPA, negative-pressure AIIR) → **Administrative** (screening, cohorting, policies) → **PPE**. PPE is the *last* line of defence, not the first — a frequent exam misconception.
 
-| Moment | When |
-|---|---|
-| 1. Before patient contact | Clean hands before touching patient |
-| 2. Before aseptic task | Before any clean/aseptic procedure |
-| 3. After body fluid exposure risk | After exposure to blood, bodily fluids, mucous membranes |
-| 4. After patient contact | After touching patient |
-| 5. After contact with patient surroundings | After leaving patient's immediate environment |
+**Standard Precautions** are the baseline for *all* patient encounters. They include hand hygiene; PPE based on anticipated exposure; respiratory hygiene/cough etiquette; safe injection practice (one needle, one syringe, one patient); safe sharps handling in puncture-resistant bins replaced at three-quarters full; environmental cleaning; and linen/waste management per DOH colour coding (black general, yellow anatomical, white sharps).
 
-**Technique — Soap and Water vs Alcohol-Based Hand Rub (ABHR):**
-- ABHR (60–80% alcohol): Use when hands are NOT visibly soiled; rub all surfaces until dry (~20–30 seconds)
-- Soap and water: Use when hands ARE visibly soiled, after caring for patients with C. difficile, norovirus, or Bacillus sp. (spore-formers not killed by alcohol); wash for 40–60 seconds
+**Transmission-Based Precautions** are added when the suspected pathogen has a known route: Contact (gown + gloves, dedicated equipment, single room), Droplet (surgical mask within 1–2 m, single room), Airborne (N95/FFP2 respirator, AIIR with ≥12 air changes per hour and negative pressure to corridor).
 
-**ABHR Technique (7 steps):**
-1. Palm to palm
-2. Right palm over left dorsum with interlaced fingers, and vice versa
-3. Palm to palm with interlaced fingers
-4. Backs of fingers to opposing palms with fingers interlocked
-5. Rotational rubbing of right thumb in left palm, and vice versa
-6. Rotational rubbing of right fingertips in left palm, and vice versa
-7. Each wrist
+#### Chain of Infection vs Hierarchy of Controls
 
-#### 2. Personal Protective Equipment (PPE)
+| Feature | Chain of Infection | Hierarchy of Controls |
+|---|---|---|
+| Type of model | Epidemiological pathway of pathogen spread | Ranked effectiveness of protective interventions |
+| Number of links | 6 (agent → reservoir → exit → transmission → entry → host) | 5 tiers (Elimination → Substitution → Engineering → Administrative → PPE) |
+| Clinical use | Identifies *where* to interrupt transmission | Identifies *which* intervention works *best* |
+| Example link / tier | "Mode of transmission" link broken by hand hygiene | "Engineering" tier: negative-pressure isolation room |
+| Limitation | Does not rank intervention strength | Does not specify which pathogen link is targeted |
 
-**PPE Order — Donning (putting on):**
-1. Gown
-2. Mask/respirator
-3. Eye protection (goggles/face shield)
-4. Gloves
+#### WHO "My 5 Moments" — Action Map
 
-**PPE Order — Doffing (removing):**
-1. Gloves (most contaminated — remove first)
-2. Hand hygiene
-3. Gown (untie, roll away from body)
-4. Hand hygiene
-5. Eye protection
-6. Mask (remove from behind; do not touch front)
-7. Hand hygiene
+| Moment | Trigger | Preferred Method |
+|---|---|---|
+| 1 | Before touching a patient | ABHR ≥20 s |
+| 2 | Before clean/aseptic procedure | ABHR ≥20 s **or** surgical scrub |
+| 3 | After body-fluid exposure risk | Soap & water ≥40–60 s |
+| 4 | After touching a patient | ABHR ≥20 s |
+| 5 | After touching patient surroundings | ABHR ≥20 s |
 
-**Transmission-Based Precautions:**
+Soap and water is **mandatory** for visibly dirty hands and after exposure to spore-forming organisms (e.g., *C. difficile*, norovirus) — alcohol-based handrub (ABHR) does not kill spores.
 
-**Contact precautions:**
-- Private room (or cohort with same pathogen)
-- Gown and gloves for ALL patient contact
-- Dedicated equipment
-- Examples: MRSA, VRE, C. difficile, scabies, HSV, norovirus
+#### Surveillance Rate Formulas (DOH/CDC NHSN convention)
 
-**Droplet precautions:**
-- Private room or cohort with same infection
-- Surgical mask within 1 metre of patient
-- Eye protection if splash risk
-- Examples: Influenza, COVID-19, pertussis, meningococcal disease, mumps, rubella
+| Indicator | Formula | Unit |
+|---|---|---|
+| CLABSI rate | (CLABSI cases / central-line catheter-days) × 1000 | per 1000 catheter-days |
+| CAUTI rate | (CAUTI cases / urinary-catheter-days) × 1000 | per 1000 catheter-days |
+| VAP rate | (VAP cases / ventilator-days) × 1000 | per 1000 ventilator-days |
+| SSI rate | (SSIs / procedures performed) × 100 | percent (%) |
+| Hand-hygiene compliance | (compliant actions / opportunities observed) × 100 | percent (%) |
+| Device-utilisation ratio (DUR) | device-days / patient-days | dimensionless ratio |
 
-**Airborne precautions:**
-- Negative pressure isolation room (AGIIR)
-- N95/FFP2 respirator (fit-tested — mandatory in UAE for TB)
-- Eye protection; gown and gloves
-- Patient should wear surgical mask when outside room
-- Examples: Pulmonary TB, measles, varicella, disseminated zoster
+#### Bundles of Care — Components You Must Memorise
 
-#### 3. Sharps Safety and Needlestick Prevention
+- **CLABSI bundle**: hand hygiene, maximal barrier precautions (cap, mask, sterile gown, large drape), 2% chlorhexidine skin prep, optimal site (subclavian preferred over femoral), daily review of line necessity.
+- **CAUTI bundle**: aseptic insertion, closed drainage system, bag below bladder level, daily necessity review, peri-care.
+- **VAP bundle**: head-of-bed elevation 30–45°, daily sedation vacation + extubation readiness assessment, oral care with chlorhexidine, peptic-ulcer prophylaxis, DVT prophylaxis.
 
-The UAE has strict regulations regarding sharps injuries:
-- Never recap needles (the leading cause of needlestick injury)
-- Immediately dispose of sharps in approved sharps container (puncture-proof, labelled)
-- Sharps containers must be at point of use, not moved once sealed
-- Report all needlestick/sharps injuries immediately (within 2 hours per UAE MOHAP protocol)
-- Post-exposure prophylaxis (PEP) for HIV, Hepatitis B, Hepatitis C must be initiated within 72 hours (ideally sooner)
+#### 🎯 Exam-Level Worked Problem
 
-**Post-Exposure Protocol:**
-1. First-aid at bedside (wash wound, don't scrub)
-2. Report immediately to occupational health/exposed person service
-3. Baseline blood tests (source patient and exposed HCW — with consent)
-4. Risk assessment for HIV, HBV, HCV
-5. Prophylaxis if indicated (HIV: 28-day course; HBV: vaccine ± HBIG)
-6. Follow-up testing at 6 weeks, 3 months, 6 months
+**Question:** A 14-bed ICU reports 6 central-line-associated bloodstream infections in the first quarter of 2026. Total central-line catheter-days for the quarter = 2,400. The unit recorded 1,800 patient-days. Calculate the CLABSI rate per 1000 catheter-days and the device-utilisation ratio (DUR). What is the benchmark threshold commonly used by CDC/NHSN for CLABSI?
+
+#### Solution:
+CLABSI rate = (Number of CLABSI cases / Number of central-line catheter-days) × 1000
+= (6 / 2,400) × 1000
+= **2.5 infections per 1000 catheter-days**
+
+DUR = device-days / patient-days
+= 2,400 / 1,800
+= **1.33**
+
+Benchmark: CDC/NHSN typically cites a CLABSI benchmark of around **1.0 per 1000 catheter-days** in high-performing ICUs (the exact NHSN SIR-derived threshold varies by unit type and year). A rate of 2.5 is **2.5×** the benchmark and triggers immediate bundle audit and root-cause analysis.
+
+> ⚠️ **Examiner Trap:** Students confuse catheter-days with patient-days. The denominator is **catheter-days** (sum of days each patient had a central line), *not* patient-days. Using patient-days yields a meaningless, artificially low rate.
 
 ---
 
-### 🔴 Extended — Deep Study (3m+)
-
+### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-#### 4. Healthcare-Associated Infections (HAIs) — UAE Context
+#### Spaulding Classification in Depth
 
-**Most Common HAIs in UAE Hospitals:**
-- **Catheter-associated urinary tract infection (CAUTI)** — most common HAI overall
-- **Surgical site infection (SSI)** — second most common; UAE surgical site infection rates are monitored by MOHAP
-- **Central line-associated bloodstream infection (CLABSI)** — high mortality if not treated promptly
-- **Ventilator-associated pneumonia (VAP)** — second most common in ICU
-- **Clostridioides difficile infection (CDI)** — increasing in UAE due to broad-spectrum antibiotic use
+| Category | Tissue contact | Minimum processing | Examples |
+|---|---|---|---|
+| Critical | Penetrates sterile tissue, vascular system, or sterile body cavity | **Sterilisation** (steam, EtO, H₂O₂ plasma; 6-log reduction of *Bacillus atrophaeus* or *Geobacillus stearothermophilus* indicators) | Surgical instruments, cardiac catheters, implants, biopsy forceps |
+| Semi-critical | Contacts intact mucous membrane or non-intact skin | **High-level disinfection** (≥6-log kill of mycobacteria; glutaraldehyde, OPA, peracetic acid) | Endoscopes, laryngoscopes, respiratory therapy equipment, vaginal specula |
+| Non-critical | Contacts intact skin only | **Low- or intermediate-level disinfection** (quaternary ammonium, 70% alcohol, sodium hypochlorite 1:100) | Blood-pressure cuffs, stethoscopes, bed rails, infusion pumps |
 
-**MRSA (Methicillin-Resistant Staphylococcus aureus) in UAE:**
-- MRSA prevalence in UAE hospitals is moderate-to-high (10–30% in some settings)
-- Risk factors: Prior antibiotic use, prolonged hospitalisation, ICU admission, surgical wounds
-- Colonised patients: Decolonisation with mupirocin nasal ointment and chlorhexidine body washes
-- Active surveillance cultures: Many UAE ICUs screen all patients on admission
+#### Post-Exposure Prophylaxis (PEP) — Critical Sequence
 
-**Carbapenem-Resistant Enterobacteriaceae (CRE):**
-- Critical global health threat; particularly prevalent in Middle Eastern hospitals
-- Associated with high mortality; very limited treatment options (last-resort antibiotics like colistin, tigecycline)
-- Contact precautions mandatory; aggressive environmental cleaning; dedicated equipment
+1. **Immediate first aid**: wash needlestick/sharp wound with soap and water; flush mucous membranes with saline/water; no squeezing or cauterising.
+2. **Report within 1–2 hours** to occupational health; document source patient details (when feasible), procedure, device, depth of injury.
+3. **Baseline serology** for HCW (HIV, HBV surface antibody/HBsAg, HCV antibody) and source consent-based testing.
+4. **Risk-stratified HIV PEP**: start three-drug regimen (e.g., tenofovir/emtricitabine + raltegravir or dolutegravir) ideally within **2 hours**, no later than 72 hours; continue **28 days**.
+5. **HBV**: vaccinated responders need nothing; unvaccinated/poor responders receive HBIG + vaccine series.
+6. **HCV**: no prophylaxis; serial HCV-RNA at 3–6 weeks and 4–6 months; treat if seroconversion.
+7. **Follow-up testing at 6 weeks, 3 months, 6 months, and 12 months** for HIV; counselling throughout.
 
-#### 5. Environmental Cleaning and Disinfection
+#### Antimicrobial Stewardship — AMS Pillars
 
-- **Cleaning:** Physical removal of dirt and organic material (soil, blood, secretions)
-- **Disinfection:** Killing of microorganisms (not spores); use hospital-grade disinfectants
-- **Sterilisation:** Killing of ALL microorganisms including spores; for critical items that enter tissue
+- **Right drug, right dose, right route, right duration, right patient** — WHO/IDSA/SHEA-aligned.
+- Core strategies: prospective audit and feedback, formulary restriction, dose optimisation (PK/PD), IV-to-oral switch, de-escalation based on culture results.
+- UAE linkage: AMS is a **mandatory component** of the DOH IPC programme; resistance data (e.g., MRSA, CRE, ESBL) feed facility antibiograms and must inform prescribing.
 
-**UAE Hospital-Grade Disinfectants:**
-- 70% isopropyl alcohol (surfaces, equipment)
-- Chlorhexidine 0.05% (skin, mucous membranes)
-- Sodium hypochlorite (bleach) — diluted for surface disinfection; effective against C. difficile spores
-- Hydrogen peroxide vapour (terminal cleaning of isolation rooms)
-- UV-C light (supplementary for terminal room cleaning in some UAE facilities)
+#### Outbreak Investigation — 10-Step Public-Health Framework
 
-#### 6. MERS-CoV and COVID-19 — What UAE Nurses Must Know
+1. Confirm existence of outbreak (exceed expected baseline).
+2. Define and identify **case** (standard clinical + laboratory criteria — CDC case definitions).
+3. Describe outbreak by **person, place, time** (epidemic curve).
+4. Develop **hypothesis** about source and mode of transmission.
+5. Evaluate hypothesis with **analytical epidemiology** (cohort or case-control study; calculate RR or OR).
+6. Refine hypothesis and conduct additional **environmental/laboratory studies**.
+7. Implement **control and prevention** measures (cohorting, isolation, closure, recall of product, AMS escalation).
+8. Communicate findings to **stakeholders, DOH, and HCWs**.
+9. Maintain **surveillance** to confirm control.
+10. Document and publish an **outbreak report** with lessons learnt.
 
-**MERS-CoV (Middle East Respiratory Syndrome Coronavirus):**
-- First identified in Saudi Arabia in 2012; multiple UAE outbreaks
-- Zoonotic origin: Dromedary camels are the major reservoir
-- Transmission: Droplet and contact (not airborne under normal circumstances)
-- Symptoms: Fever, cough, dyspnoea, pneumonia, ARDS
-- Case fatality rate: ~35% (much higher than COVID-19)
-- DOH protocol: Standard + contact precautions; N95 for AGPs
+#### Advanced Traps and Edge Cases
 
-**COVID-19:**
-- Spread via droplets, aerosols, and contact
-- AGPs (aerosol-generating procedures) carry the highest transmission risk: intubation, suctioning, bronchoscopy, nebulisation
-- PPE for AGPs: Fit-tested N95, gown, gloves, eye protection, face shield
-- UAE's vaccination programme and hospital protocols are among the most comprehensive in the region
+1. **Airborne vs Droplet confusion**: TB, measles, varicella, disseminated zoster = **Airborne + AIIR**; influenza, pertussis, meningococcal disease, rubella, mumps = **Droplet** (surgical mask within 1–2 m, no AIIR required). Disseminated localised zoster in immunocompetent patients may also require airborne precautions.
+2. **ABHR vs soap and water**: ABHR fails against **spores** (*C. difficile*, norovirus) and non-enveloped viruses in some settings — always switch to soap and water for these organisms.
+3. **PPE doffing sequence** is *more contamination-prone* than donning; the CDC sequence is: gloves → gown → goggles/face shield → mask/respirator, with hand hygiene at each step. Students reverse it and contaminate the face.
+4. **Negative-pressure rooms**: must exhaust to the **outside** or pass through a HEPA filter before recirculation; door must remain closed; monitor pressure differential daily (typically −2.5 Pa).
+5. **Device-utilisation ratio (DUR)** rising while infection rate falls can still indicate **unsafe practice** (devices left in unnecessarily).
+6. **Log reduction metric**: 3-log = 99.9% kill; 6-log = 99.9999% kill — the latter is the sterilisation assurance standard (SAL 10⁻⁶).
+7. **Cohorting** is acceptable during outbreaks when single rooms are exhausted; document staff/equipment segregation to prevent cross-transmission.
+8. **Sharps container replacement** at **three-quarters full**, not full, to prevent needlestick injury during disposal.
 
-> **Exam Watch:** The DOH examiner frequently presents scenarios testing isolation category selection (contact, droplet, airborne), hand hygiene technique, and sharps injury management. A key concept: standard precautions apply to ALL patients regardless of diagnosis — assume every patient is potentially infectious.
+#### Advanced Practice Prompts
+
+- A nurse sustains a deep percutaneous injury from a suture needle used on a patient with newly diagnosed HIV. Outline the exact PEP steps, the time window, and the regimen to prescribe.
+- An ICU reports three *Klebsiella pneumoniae* carbapenemase (KPC) cases within 10 days on the same ward. Apply the outbreak-investigation framework and propose immediate containment measures consistent with DOH IPC standards.
+
+---
+
+## Continue your study
+
+- **[View this topic in your DOH (UAE) roadmap](/roadmap/?exam=doh&duration=1mo)** — see where "Infection Control and Prevention" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=doh&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[DOH (UAE) exam overview](/exams/doh/)** — pattern, eligibility, and syllabus
+- **[All Medical-Knowledge notes](/notes/doh/medical-knowledge/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

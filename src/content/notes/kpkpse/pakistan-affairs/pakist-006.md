@@ -8,197 +8,126 @@ topicName: Constitution of Pakistan
 weight: 3
 country: pakistan
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-17"
 ---
 
 # Constitution of Pakistan
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision.
+> Rapid summary for last-minute revision before your exam.
 
-**Constitution of Pakistan** — Key Facts for KPK PMS
-• **Current Constitution**: The **Constitution of Pakistan (1973)** with all amendments, passed under Zulfikar Ali Bhutto's PPP government — Pakistan's first constitution passed by consensus.
-• **Key features**: Federal parliamentary republic;bicameral parliament (Senate + National Assembly); provincial autonomy; Islamic provisions; fundamental rights.
-• **Most asked dimension**: KPK PMS focuses on **comparison between 1956, 1962, and 1973 constitutions**; UPSC asks about **federalism provisions and center-province relations**.
-• **Misconception**: Students often think the 1973 Constitution is purely Islamic — it is actually a hybrid document blending parliamentary democracy with Islamic review mechanisms.
-• **Important bodies**: **Election Commission of Pakistan**; **Supreme Court**; **Council of Islamic Ideology**; **National Finance Commission**.
-• **Current affairs**: Recent Supreme Court decisions on **Article 184-3** (suo motu jurisdiction), **Senate elections controversy**, and **25th Amendment implementation**.
+The **Constitution of Pakistan, 1973** is the supreme law of the country, framing a **parliamentary federal republic** with Islam as the state religion. It was enacted by the National Assembly on **14 August 1973** and has been amended over 25 times, with the **18th Amendment (2010)** being the most consequential for provinces like **Khyber Pakhtunkhwa**.
 
-⚡ **Exam tip**: KPK PMS frequently asks candidates to compare the **1973 Constitution with its predecessors**. Focus on the **parliamentary features, federal structure, and Islamic provisions** of the 1973 document. The **concurrent list** and **NFC Award** are commonly asked topics.
+- **Form of government:** Parliamentary, federal; bicameral legislature — **National Assembly** (342 seats) and **Senate** (96 seats).
+- **Head of State:** **President** (ceremonial, acts on aid and advice of the PM under **Article 48**).
+- **Head of Government:** **Prime Minister**, leader of the house commanding majority in the NA.
+- **Judiciary:** Supreme Court at the apex with **judicial review**; High Courts in each province.
+- **Islamic Provisions:** **Objectives Resolution (1949)** now embedded as **Article 2-A**; **Article 227** makes Islamic provisions prevail over other laws.
+- **Amendment Procedure (Article 239):** Bill in both houses + **two-thirds majority of total membership** + Presidential assent.
+
+| Document / Body | Year | Key Feature |
+|---|---|---|
+| Objectives Resolution | 1949 | Islamic basis, now Article 2-A |
+| First Constitution | 1956 | Parliamentary, abrogated 1958 |
+| Second Constitution | 1962 | Presidential, by Ayub Khan |
+| Third (current) Constitution | 1973 | Parliamentary federal |
+| 18th Amendment | 2010 | Abolished Concurrent List |
+
+> 💡 **High-Yield Memory Hook:** **"OPAL-PIF"** — **O**bjectives Resolution, **P**arliamentary system, **A**mendment procedure (2/3), **L**egislative lists, **P**residency ceremonial, **I**ndependent judiciary, **F**undamental rights. Recite it while recalling Article numbers (2-A, 48, 239, 140-A, 227, 25-A).
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content.
+> Standard content for students with a few days to months.
 
-**Constitution of Pakistan** — KPK PMS Study Guide
+#### Constitution-Making History
 
-## Constitutional Evolution: 1947 to Present
+Pakistan has had three working constitutions. The British passed the **Indian Independence Act 1947**, creating the dominions of Pakistan and India. The **First Constituent Assembly** (1947–1958) framed the Objectives Resolution (Liaquat Ali Khan, 12 March 1949) and finally enacted the **1956 Constitution**, which was abrogated by martial law on 7 October 1958.
 
-Pakistan has had multiple constitutions since independence, reflecting ongoing political instability and ideological debates about the nature of the state.
+Ayub Khan imposed the **1962 Constitution** — a **presidential** system with an indirectly elected Basic Democracies system. After the 1969 fall of Ayub, Yahya Khan's **Legal Framework Order 1970** structured the third attempt. The **1973 Constitution**, drafted under Zulfikar Ali Bhutto's PPP and approved by all parties, is the current foundational document.
 
-### The Objective Resolution (1949)
+#### Comparison Matrix: Three Constitutions
 
-Before any formal constitution, the **Objective Resolution** was passed by the Constituent Assembly on 12 March 1949. Sponsored by Liaquat Ali Khan, it established:
+| Feature | 1956 Constitution | 1962 Constitution | 1973 Constitution |
+|---|---|---|---|
+| Form | Parliamentary | Presidential | Parliamentary |
+| Head of State | President (ceremonial) | President (executive) | President (ceremonial) |
+| Legislature | Unicameral | Unicameral | **Bicameral** (NA + Senate) |
+| Islamic Provisions | Objectives Resolution referenced | Repugnancy clause | Objectives Resolution as **Article 2-A** |
+| Judiciary | Federal Court → Supreme Court | Supreme Court retained | Independent SC + High Courts |
+| Repealed by | Martial Law 1958 | Martial Law 1969 | In force (amended) |
 
-- **Islam as the state religion** — first formal declaration
-- Sovereignty belongs to Allah — not to the people directly
-- Islamic provisions for law, head of state, and governance
-- Protection for minorities and their religious institutions
-- Federal structure with provincial autonomy
+#### Federal Distribution of Powers (Article 140-A context)
 
-This resolution set the ideological framework for all subsequent constitutional efforts.
+The original 1973 scheme had **Federal List** (Part I & II), **Concurrent List**, and **Provincial List**. The **18th Amendment (2010)** abolished the **Concurrent List**, transferring 47 subjects to the provinces — directly strengthening KPK's legislative competence. The **National Finance Commission (NFC)** now determines provincial shares of the divisible pool; KPK's share under the 7th NFC Award stands around **14.62%**.
 
-### 1956 Constitution: First Permanent Constitution
+#### Amendment Procedure (Article 239)
 
-The **Constitution of 1956** was Pakistan's first permanent constitution after eight years of ad hoc governance. Key features:
+1. Bill introduced in either house (NA or Senate).
+2. Voting: **two-thirds majority of the *total* membership** of each house.
+3. Presidential assent within **ten days** (or it returns for reconsideration).
+4. Certain amendments (e.g. Articles 2-A, 227, the federal nature) are protected under the **judicially enforceable "basic structure" doctrine** adopted by the Supreme Court.
 
-- **Islamic Republic** declared — Islam as state religion
-- President as head of state; Prime Minister as head of government
-- Unicameral legislature (National Assembly)
-- **Concurrent Legislative List** — subjects shared between center and provinces
-- Adult franchise for elections to National Assembly
-- President appointed Governors for provinces
+> 📌 **Formula Check:** "Two-thirds of total membership" — not two-thirds of members *present and voting*. A house of 342 needs **228 votes**; the Senate needs **64**.
 
-This constitution was suspended when Ayub Khan imposed **Martial Law in 1958**.
+#### 🎯 Exam-Level Worked Problem
 
-### 1962 Constitution: Presidential System
+**Question:** *"The 1973 Constitution established a parliamentary federal system. Identify the constitutional article under which the President acts on the 'aid and advice' of the Prime Minister, and explain whether the President can refuse assent to a constitutional amendment bill."*
 
-The **1962 Constitution** introduced a presidential system:
+#### Solution:
 
-- President as powerful executive elected by electoral college
-- **Basic Democracies** system for local government
-- Unicameral National Assembly
-- Provincial autonomy somewhat reduced
-- Islamic provisions strengthened
-- Presidential system concentrated power in the office of President
+**Step 1 — Identify the article:** The President's ceremonial role and duty to act on aid and advice is codified in **Article 48(1)** of the 1973 Constitution. The Cabinet, headed by the PM, collectively advises the President.
 
-Ayub Khan's constitution reflected his belief that presidential strongman rule was necessary for development. It was replaced following the **1968 uprising and Ayub's resignation**.
+**Step 2 — Examine assent to amendments:** Under **Article 239(4)**, the President must assent to a constitutional amendment bill passed by **two-thirds of total membership** of each house within **ten days**. Unlike ordinary bills where the President may return once for reconsideration, an amendment bill once validly passed is **constitutionally binding** — refusal would itself be ultra vires.
 
-### 1973 Constitution: Parliamentary Republic
+**Step 3 — Synthesis:** A student answering should write: "Article 48(1) makes the President bound by Cabinet advice in executive matters; however, for amendments under Article 239, the President's role is mandatory, not discretionary."
 
-The **Constitution of 1973**, drafted under Zulfikar Ali Bhutto, represents the current constitutional order:
-
-- **Parliamentary system** with Prime Minister as chief executive
-- **Bicameral Parliament**: National Assembly (lower house) and Senate (upper house)
-- **Federal structure** with four provinces: Punjab, Sindh, Khyber Pakhtunkhwa, Balochistan
-- Concurrent list maintained (mostly devolved to provinces per 18th Amendment)
-- **Islamic provisions**: Council of Islamic Ideology to review legislation
-- **Fundamental Rights** guaranteed under Chapter 3
-- **Supreme Court** and **High Courts** with independent judicial commissions
-- **National Finance Commission** to distribute federal revenues
-
-The 1973 Constitution has been amended **seventeen times**, most significantly the **18th Amendment (2010)** which restored parliamentary features by reducing presidential powers.
+> ⚠️ **Examiner Trap:** Many candidates wrongly cite **Article 58(2)(b)** (dissolution powers — now curtailed by the 18th Amendment) or claim the President "may veto" constitutional amendments. Both are wrong post-2010. Always remember: **Article 48** = executive aid-and-advice; **Article 239** = amendment assent.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage.
+> Comprehensive coverage for students on a longer study timeline.
 
-**Constitution of Pakistan** — Comprehensive KPK PMS Notes
+#### Edge Cases and Constitutional Doctrine
 
-## Detailed Analysis of the 1973 Constitution
+- **Basic Structure Doctrine:** Adopted by the Supreme Court in *Zafar Ali Shah v. PML-Q (2000)* and refined in *Judges' Case (2007)* — Parliament cannot, even under Article 239, destroy the **federal**, **parliamentary**, or **Islamic** character of the Constitution.
+- **Article 2-A Weight:** Although the Objectives Resolution predates the 1973 Constitution, its incorporation as Article 2-A by **Zia's 1st Amendment (1974)** made it a substantive, justiciable part of the basic law — and therefore unamendable to the point of removal.
+- **Council of Common Interests (CCI):** **Article 153** mandates CCI to resolve disputes between federation and provinces on electricity, gas, minerals, railways, and major projects. Its decisions are **binding** but frequently ignored in practice.
+- **Judicial Activism vs. Review:** The Supreme Court struck down the **17th Amendment's validation of PCO judges (Liaquat Hussain case, 2013)**, showing that judicial review remains operational even against parliamentary supermajorities.
 
-### Federal Structure and Provincial Autonomy
+#### KPK-Specific Constitutional Layer
 
-Pakistan's federal structure under the 1973 Constitution balances central authority with significant provincial autonomy. The **18th Amendment (2010)** dramatically restructured this balance:
+The **25th Amendment (2018)** merged **FATA** (Federally Administered Tribal Areas) with KPK, deleting FATA entries from **Schedule I** and amending **Article 1** to redefine Pakistan's territories. This has direct implications for KPK PMS:
 
-**Federal Subjects (Exclusive)**:
-- Defense and national security
-- Foreign affairs
-- Currency and banking
-- Federal public services
-- Interstate commerce
+- **Fiscal impact:** Extended **NFC Award** principles to newly merged tribal districts.
+- **Legislative impact:** Khyber Pakhtunkhwa Provincial Assembly gained jurisdiction over tribal areas under **Article 142**.
+- **Judicial impact:** **Peshawar High Court** now has appellate jurisdiction (Article 199) over former FATA.
 
-**Provincial Subjects (Exclusive)**:
-- Police and law and order
-- Education (except professional education)
-- Health
-- Agriculture
-- Local government
+#### Common Exam Traps and Exceptions
 
-**Concurrent List (significantly reduced)**:
-The 18th Amendment removed most items from the Concurrent List, returning them to provinces. Remaining concurrent subjects include criminal law, marriage and family law, transfer of property, and drugs and narcotics.
+| Trap / Exception | Correct Position |
+|---|---|
+| "Concurrent List still exists" | Abolished by **18th Amendment (2010)** |
+| "President has executive power under 1973" | **No — Article 48(1)** makes advice binding |
+| "Objective Resolution = 1973 document" | Passed **1949**, made substantive via **1st Amendment** |
+| "25th Amendment = NFC Award" | **No** — 25th = FATA-KPK merger (2018) |
+| "Senate equal to NA in money bills" | **Money bills originate only in NA** (Article 73) |
+| "Article 239 needs simple majority" | **Two-thirds of total membership** required |
 
-### President of Pakistan
+#### Advanced Practice Prompts
 
-The President serves as the **ceremonial head of state** following the 18th Amendment:
+1. *"Critically examine how the 18th Amendment has redefined centre–province relations, with special reference to Khyber Pakhtunkhwa."* — Answer must cite: abolition of Concurrent List, NFC share formula, CCI activation, and post-merger legislative integration.
+2. *"Discuss the constitutional status of the Objectives Resolution and its evolution from a 1949 political statement to Article 2-A."* — Trace: March 1949 passage → 1973 preamble reference → **1st Amendment (1974)** substantive incorporation → justiciability under **Article 227**.
 
-| Power | Pre-18th Amendment | Post-18th Amendment |
-|---|---|---|
-| Appointment of PM | President's discretion | President must invite majority leader |
-| Dismissal of PM | President could dismiss | Cannot dismiss without no-confidence |
-| Governor appointments | President appointed | Provincial chief minister recommends |
-| Court cases suo motu | Article 184-3 available | Available but subject to SC rules |
+---
 
-The President is elected by an **electoral college** comprising members of Parliament and provincial assemblies.
+## Continue your study
 
-### Parliament: National Assembly and Senate
-
-**National Assembly** (342 seats):
-- Directly elected by adult franchise
-- Terms: 5 years maximum
-- Money bills originate here
-- **Prime Minister** must commands majority
-
-**Senate** (100 seats):
-- Indirectly elected by provincial assemblies (14 seats per province)
-- Equal representation for all provinces regardless of population
-- Cannot be dissolved
-- Terms: 6 years with half elected every 3 years
-- Must approve constitutional amendments, treaties, senior appointments
-
-### Islamic Provisions
-
-The 1973 Constitution incorporates Islamic identity through several mechanisms:
-
-1. **Article 2**: Islam as state religion
-2. **Article 31**: Islamic education promoted; Islamic moral standards
-3. **Article 227-230**: Existing laws to be brought in conformity with Islam; **Council of Islamic Ideology** reviews laws
-4. **Article 203**: Sharia Court can declare laws un-Islamic
-5. **Article 177**: Prime Minister must be Muslim
-
-The **Council of Islamic Ideology** (CII) reviews proposed legislation for conformity with Islamic principles but has **advisory authority only** — its recommendations are not binding.
-
-### Fundamental Rights (Chapter 3)
-
-Articles 9-28 guarantee fundamental rights:
-
-- **Right to Life** (Article 9) — protection of life and property
-- **Right to Dignity** (Article 14) — inviolability of dignity of man
-- **Freedom of Speech** (Article 19) — subject to reasonable restrictions
-- **Freedom of Association** (Article 17) — political parties registration
-- **Equality** (Article 25-28) — prohibition of discrimination
-- **Freedom of Religion** (Article 20-22) — protection for religious minorities
-- **Right to Education** (Article 37-B) — free education to 16 years
-
-The **Supreme Court** under **Article 184-3** can issue orders for enforcement of fundamental rights involving questions of public importance.
-
-### Key Amendments
-
-| Amendment | Year | Key Changes |
-|---|---|---|
-| 8th Amendment | 1985 | Zia-ul-Haq strengthened Presidential powers |
-| 15th Amendment | 1998 | Sharia would be supreme law (partially implemented) |
-| 17th Amendment | 2003 | Musharraf's referendum ratified; National Security Council |
-| 18th Amendment | 2010 | Restored parliamentary system; removed Concurrent List |
-| 19th Amendment | 2011 | Judicial appointments through commission |
-| 25th Amendment | 2018 | FATA merged into Khyber Pakhtunkhwa |
-
-### Examination Preparation
-
-**Commonly asked KPK PMS questions**:
-1. Compare the parliamentary systems of 1956 and 1973 Constitutions
-2. Explain the role of the Council of Islamic Ideology
-3. Analyze the impact of the 18th Amendment on federalism
-4. Discuss the evolution of fundamental rights provisions
-5. Compare presidential and parliamentary systems in Pakistani constitutional history
-
-**Key terms for examination**:
-- **NFC Award**: National Finance Commission — determines revenue sharing (currently 57.5% to provinces, 42.5% center)
-- **Council of Islamic Ideology**: Advisory body for Islamic review
-- **Article 184-3**: Supreme Court's suo motu jurisdiction
-- **Basic Democracies**: Local government system introduced by Ayub Khan
+- **[View this topic in your KPK PMS roadmap](/roadmap/?exam=kpkpse&duration=1mo)** — see where "Constitution of Pakistan" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=kpkpse&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[KPK PMS exam overview](/exams/kpkpse/)** — pattern, eligibility, and syllabus
+- **[All Pakistan Affairs notes](/notes/kpkpse/pakistan-affairs/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

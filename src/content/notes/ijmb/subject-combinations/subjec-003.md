@@ -8,7 +8,7 @@ topicName: "Arts and Humanities Subject Combinations — Unlocking Social Scienc
 weight: 3
 country: nigeria
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-17"
 ---
 
 # Arts and Humanities Subject Combinations — Unlocking Social Science Courses
@@ -16,181 +16,105 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-The IJMB Arts combination is designed for students who want to pursue degrees in the humanities, social sciences, law, and management. Unlike science combinations which focus on numerical and analytical problem-solving, arts combinations emphasise critical thinking, written analysis, and understanding of society and culture.
+IJMB is a one-year Advanced Level (A/L) programme run by the Interim Joint Matriculation Board that qualifies successful candidates for Direct Entry (DE) admission into 200-level in Nigerian universities. To unlock Social Science courses (Political Science, Sociology, Economics, Public Administration, History & International Studies), a candidate registers exactly **three (3) IJMB-approved subjects** at A/L and pairs the result with five (5) O/L credits including English Language and Mathematics. The standard trio is **Government, History, and Economics**, with Literature-in-English, CRS/IRS, or Geography serving as substitutes for specific departments.
 
-**Key combinations:**
-- **Literature-in-English, Government, History:** Opens Law, Political Science, International Relations, Mass Communication
-- **Literature, Christian Religious Studies (CRS)/Islamic Studies, History:** Opens Theology, Religious Studies, Philosophy
-- **Economics, Government, Geography:** Opens Economics, Business Administration, Sociology
+- **Compulsory trio:** Government + History + Economics for most faculties of Social Sciences.
+- **Elective swaps:** Literature-in-English (for English-related departments), CRS/IRS (for Religious Studies), Geography (for Geography/Planning departments).
+- **A/L grade scale:** A (≥80%), B (70–79%), C (60–69%), D (50–59%), E (45–49%) — minimum E for DE eligibility at most universities.
+- **O/L baseline:** Five SSCE/WAEC/NECO/NABTEB credits including English Language and Mathematics.
+- **Validity window:** IJMB result expires **2 years** after release; pair with active JAMB DE registration before lapse.
 
-⚡ **Exam tip:** For Law in Nigerian universities, Literature-in-English is highly recommended because law schools expect students to have strong analytical reading and writing skills — Literature develops exactly these skills.
+> 💡 **High-Yield Memory Hook:** **"GHE-Lock"** — **G**overnment, **H**istory, **E**conomics = the lock that opens every Social Science door. Drop one lock and the door stays shut.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Understanding Arts Combinations in IJMB:**
+#### Core Rules Governing IJMB Subject Pairing
 
-The Faculty of Arts at ABU Zaria covers a broad range of subjects. Arts students are known for their ability to analyse texts, construct arguments, and understand historical and political contexts — skills that are highly valued across many degree programmes.
+IJMB is administered by the Interim Joint Matriculation Board and serves as a JAMB alternative. Registration requires exactly three A/L subjects drawn from the board's approved list. The pairing determines which university faculty accepts the candidate at screening. The trio is non-negotiable in number: registering two or four subjects is grounds for disqualification by the receiving university.
 
-**Why Choose Arts over Science?**
-- Some students have stronger verbal and analytical skills than numerical skills
-- Many high-earning and impactful careers (Law, Media, Civil Service, Politics, Education) are best accessed through arts combinations
-- Arts combinations allow entry into professional programmes like Law, Mass Communication, and Education
+#### Comparison Matrix — Social Science Combinations by Target Department
 
-**Standard Arts Combinations:**
+| Target Department | Recommended IJMB Trio | Compulsory Subject | Grade Floor (Typical) |
+|---|---|---|---|
+| Political Science | Government + History + Economics | Government | D (≥50%) |
+| History & International Studies | History + Government + CRS/IRS | History | D (≥50%) |
+| Economics | Economics + Government + Mathematics (if allowed) | Economics | C (≥60%) for UNILAG/OAU |
+| Sociology | Government + Economics + CRS/IRS | Government | E (≥45%) |
+| Public Administration | Government + Economics + History | Government | D (≥50%) |
+| Geography & Planning | Geography + Economics + Government | Geography | D (≥50%) |
+| Religious Studies | CRS/IRS + Government + History | CRS/IRS | D (≥50%) |
 
-#### Combination 1: Literature-in-English, Government, History (LGH)
-This is the most popular and versatile arts combination. It is accepted for the broadest range of courses and is particularly strong for Law, Political Science, and Mass Communication.
+#### Standard Eligibility Checklist
 
-**What this combination teaches:**
-- **Literature:** Close reading, textual analysis, critical thinking, essay writing skills — directly applicable to legal argument construction
-- **Government:** Understanding of political systems, public policy, Nigerian constitution, international relations — foundational for political science and law
-- **History:** Chronological reasoning, cause-and-effect analysis, understanding of societal change — applicable to legal reasoning (precedent system) and policy-making
+1. Score **five (5) O/L credits** including English Language and Mathematics in not more than two sittings (WAEC/NECO/NABTEB accepted).
+2. Register exactly **three IJMB subjects** aligned to the target faculty.
+3. Sit the IJMB A/L examination and obtain grades **A–E** in all three subjects.
+4. Acquire a **JAMB Direct Entry (DE) form** within the 2-year IJMB validity window.
+5. Upload IJMB result and O/L credits to the JAMB CAPS portal before university screening.
+6. Meet the receiving university's departmental cut-off (set yearly per faculty).
 
-**Courses available with LGH:**
-- Law (LLB)
-- Political Science
-- International Relations
-- Mass Communication/Journalism
-- History
-- Philosophy
-- English and Literary Studies
-- Linguistics
-- Public Administration
-- Sociology
-- Economics (with Mathematics as fourth subject)
+#### 🎯 Exam-Level Worked Problem
 
-**Nigerian universities accepting LGH for Law:**
-- University of Ibadan (UI): 8 points minimum; English Literature at B grade minimum
-- University of Lagos (UNILAG): 10 points; English Literature preferred
-- Ahmadu Bello University (ABU): 8 points; English Language or Literature at B
-- University of Nigeria, Nsukka (UNN): 9 points
-- Lagos State University (LASU): 8 points
-- Covenant University (private): 10 points
+**Question:** A candidate wants to study Political Science at the University of Lagos through IJMB Direct Entry. Which of the following subject combinations satisfies the IJMB and UNILAG screening requirements?
 
-#### Combination 2: Literature, CRS/Islamic Studies, History
-This combination is ideal for students interested in religious studies, theology, philosophy, and related fields.
+A. Government, Economics, CRS/IRS
+B. Government, History, Economics
+C. History, Literature-in-English, Geography
+D. Economics, Mathematics, Physics
 
-**Courses available:**
-- Religious Studies (Theology/Islamic Studies)
-- Philosophy
-- History
-- Arabic Studies
-- Islamic Studies
-- Christian Theology
-- Education and Religious Studies
-- Law (accepted at some universities)
+#### Step-by-step resolution:
 
-**Key universities:**
-- ABU Zaria: Strong for Islamic Studies; Arabic and Islamic Studies programmes
-- University of Ilorin (UNILORIN): Strong in Religious Studies and Humanities
-- University of Jos: Good for CRS and Religious Studies
+1. Identify target programme: Political Science → Faculty of Social Sciences, UNILAG.
+2. Consult UNILAG DE brochure: Political Science lists **Government** as the compulsory A/L subject.
+3. Eliminate options lacking Government → Options C and D are out.
+4. Distinguish A from B: Both include Government and Economics. Option A substitutes **CRS/IRS** for History; Option B retains **History** as the standard third subject.
+5. Apply IJMB rule: The third subject must be IJMB-approved AND department-relevant. History is the conventional pairing for Political Science; CRS/IRS is acceptable at some universities but less competitive.
+6. Match against typical grade floor for Political Science (DE cut-off ≥ D in each subject).
 
-#### Combination 3: Economics, Government, Geography (EGG)
-This is the social sciences combination — more quantitative than pure arts but still accessible to arts students with mathematical aptitude.
+**Answer:** **B — Government, History, Economics.** This trio satisfies IJMB's three-subject rule, supplies the compulsory Government for Political Science, and meets the standard grade floor at UNILAG.
 
-**Courses available with EGG:**
-- Economics
-- Business Administration
-- Geography and Environmental Management
-- Political Science
-- Sociology
-- Estate Management
-- Urban and Regional Planning
-- Demography and Social Statistics
-- Banking and Finance (some universities)
-
-**Note:** Some universities prefer Mathematics as one of the three IJMB subjects for Economics programmes. Check specific university requirements.
-
-#### Combination 4: English Language, Literature, History
-This combination is specifically for students who want to pursue English and Literary Studies or Linguistics as their primary degree.
-
-**Courses available:**
-- English and Literary Studies
-- Linguistics
-- Languages (French, Yoruba, Hausa, Igbo — depending on university)
-- Translation and Interpretation
-- Creative Writing
-- Education (English)
+> ⚠️ **Examiner Trap:** Students often pick option **A** because CRS/IRS is IJMB-approved. The trap is forgetting that History is the conventional and most competitive third subject for Political Science; some universities (UNILAG, UI) reserve History as the tie-breaker when two candidates share identical Government and Economics grades.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-**Detailed Guide to Law Through IJMB:**
+#### Edge Cases and Department-Specific Exceptions
 
-Law is one of the most prestigious and sought-after degrees in Nigeria. The legal profession in Nigeria is regulated by the Nigerian Bar Association (NBA) and the Body of Benchers. A law degree (LLB) takes 5 years for UTME candidates and 4 years for Direct Entry (IJMB) candidates.
+Not every Social Science faculty treats the GHE-Lock trio as universal. Some universities treat the three subjects as a minimum, while others accept waivers under narrow conditions.
 
-**University of Ibadan (UI) — Faculty of Law:**
-- Cutoff: 8 points (IJMB minimum); often higher in practice
-- Best subject combination: Literature, Government, History
-- Additional requirements: 5 O'Level credits including English Language (A1 or B2 in WAEC), Mathematics, Literature or History
-- UI Law admission is purely on aggregate — no interview for IJMB/DE candidates
+#### Advanced Traps and Exceptions Table
 
-**University of Lagos (UNILAG) — Faculty of Law:**
-- Cutoff: 10 points (IJMB); typically requires A grade in Literature or Government
-- UNILAG conducts a post-UTME/DE screening test
-- Law interview is part of the selection process for all candidates
-
-**Ahmadu Bello University (ABU) Zaria — Faculty of Law:**
-- Cutoff: 8 points
-- ABU's Law Faculty is one of the most prestigious in Northern Nigeria
-- Additional screening: ABU conducts its own post-admission screening
-
-**What Law Schools Look For in IJMB Candidates:**
-1. **Literary analysis skills:** Law requires you to read complex texts, identify issues, and construct arguments — Literature-in-English is the best preparation
-2. **Historical understanding of legal systems:** Understanding how English law developed (common law, equity, precedent) is foundational to Nigerian law
-3. **Understanding of government and constitution:** Nigerian law is heavily based on the 1999 Constitution — Government is essential
-4. **Clear and precise writing:** Law school demands extensive written work
-
-**Why Nigeria's Legal System Matters for IJMB Law Students:**
-Nigerian law is derived from English common law and equity (received into Nigeria via the Received English Law Ordinance of 1860). This means:
-- Understanding English legal history (Magna Carta 1215, the Bill of Rights 1689, the Act of Settlement 1701) is essential
-- Nigerian law includes the Constitution, statutes, case law, customary law, and Islamic law (in Sharia courts)
-- Legal reasoning in Nigeria depends heavily on precedent (stare decisis) — judicial decisions of higher courts bind lower courts
-
-**Mass Communication and Media Studies:**
-Nigerian universities offering Mass Communication include:
-- University of Lagos (UNILAG): 10 points minimum; LGH preferred
-- Ahmadu Bello University (ABU): 9 points; Literature, Government, History preferred
-- University of Nigeria, Nsukka (UNN): 8 points
-- Bayero University Kano (BUK): 8 points
-
-Mass Communication courses include:
-- Journalism and Mass Communication
-- Broadcasting
-- Film and Multimedia Studies
-- Public Relations and Advertising
-- Communication Arts
-
-**Political Science and International Relations:**
-Political Science is offered at virtually all Nigerian universities. Key topics include:
-- Nigerian politics and governance
-- Comparative politics
-- International relations
-- Political theory
-- Public administration
-
-**The Role of History in Arts Combinations:**
-History teaches the skill that is most directly transferable to law — the ability to analyse cause and effect, evaluate evidence, and construct a coherent narrative from incomplete information.
-
-Key historical periods for Nigerian law students:
-- Colonial period (1900-1960): How British legal institutions were established in Nigeria
-- Independence period (1957-1960): How Nigeria adopted its first Constitution
-- Post-independence constitutional development: 1960, 1963, 1979, 1999 Constitutions
-
-**Minimum Points for Arts Courses (2024 Data):**
-
-| University | Course | Min IJMB Points | Preferred Subjects |
+| Scenario | Apparent Rule | Actual University Behaviour | Mitigation |
 |---|---|---|---|
-| UI | Law | 8 | Lit, Gov, Hist |
-| UNILAG | Law | 10 | Lit, Gov, Hist |
-| ABU | Law | 8 | Lit, Gov, Hist |
-| UNN | Law | 9 | Lit, Gov, Hist |
-| UNILAG | Political Science | 9 | Gov, Hist, Lit |
-| UI | Mass Communication | 8 | Lit, Gov, Hist |
-| ABU | Mass Communication | 9 | Lit, Gov, Hist |
-| UNIJOS | English | 8 | Lit, Hist, Gov |
+| Economics as substitute for O/L Mathematics | Economics credit counts for Maths | Only a few universities (e.g., UNILAG for Sociology/Anthropology) accept this; most insist on standalone Maths credit. | Sit O/L Maths regardless; do not gamble admission on a waiver. |
+| Two IJMB sittings combined | Three subjects per sitting | JAMB treats each sitting as separate; some universities reject split results. | Complete all three subjects in **one** IJMB sitting. |
+| IJMB result older than 2 years | Result is expired | Universities treat expired IJMB as invalid for DE admission. | Re-write JAMB UTME and lose the DE advantage. |
+| Adding Literature-in-English to Political Science | Literature is humanities, not social science | Some universities (OAU, Ibadan) credit it as the third IJMB subject for Political Science. | Verify with the target department's DE brochure before registering. |
+| Direct Entry via IJMB + JAMB UTME | Both must be active in same year | JAMB CAPS will flag a UTME score when DE is already uploaded; clarify DE-only status. | Upload IJMB result under DE slot; do not sit UTME in the DE year. |
+
+#### Connections to Adjacent Pathways
+
+IJMB is one of three A/L routes into Nigerian universities. The alternatives are **JUPEB** (Joint Universities Preliminary Examinations Board) and **NABTEB A/L**. JUPEB uses a similar three-subject model but awards a JUPEB certificate; NABTEB A/L is technical-skewed and rarely used for Social Sciences. All three feed JAMB DE, but IJMB remains the most widely accepted by federal and state universities because its syllabus mirrors WAEC and its grading is benchmarked to A/L standards.
+
+Candidates who fail to meet the IJMB three-subject minimum often pivot to **JAMB UTME + four-year entry** into 100-level. That route requires a higher UTME score (often above 200) and post-UTME screening, which is more competitive than DE for Social Sciences. The strategic lesson: securing the correct IJMB trio is cheaper and more reliable than chasing a UTME cut-off.
+
+#### Advanced Practice Prompts
+
+1. A 2024 IJMB graduate with grades B (Government), C (History), D (Economics) wants Economics at OAU in 2026. Assess admissibility, identify the missing step, and recommend the corrective action before the 2026 admission cycle closes.
+2. A candidate registered Government, Economics, and Mathematics for IJMB but later switched interest to Public Administration. Determine whether the registered trio is valid for Public Administration at UNILAG, UNN, and ABU, citing the consequences at each screening.
+
+---
+
+## Continue your study
+
+- **[View this topic in your IJMB (Nigeria) roadmap](/roadmap/?exam=ijmb&duration=1mo)** — see where "Arts and Humanities Subject Combinations — Unlocking Social Science Courses" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ijmb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[IJMB (Nigeria) exam overview](/exams/ijmb/)** — pattern, eligibility, and syllabus
+- **[All Subject-Combinations notes](/notes/ijmb/subject-combinations/)** — browse sibling topics in this subject
+
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

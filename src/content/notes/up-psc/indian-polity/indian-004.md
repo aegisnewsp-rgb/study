@@ -8,79 +8,131 @@ topicName: Government Structure
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-06-21"
+lastUpdated: "2026-09-17"
 ---
 
 # Government Structure
 
 ### 🟢 Lite — Quick Review (1h–1d)
-The Government Structure of India rests on the **Constitution of India**, which organises the polity into a **quasi-federal** framework with three lists in the **Seventh Schedule** — **Union List (97 subjects)**, **State List (66 subjects)**, and **Concurrent List (47 subjects)**. At the apex sits the **Union Government** with **Parliament** (President + **Lok Sabha** + **Rajya Sabha**), supported by the **Council of Ministers** headed by the **Prime Minister**. Below it operate 28 States and 8 Union Territories with their own legislatures (where applicable), executive headed by the **Governor** and **Chief Minister**, and a subordinate **Judiciary** (Supreme Court → High Courts → District Courts). The base rests on the **Three-tier Panchayati Raj System** (Article 243) and **Municipalities** (Article 243P). Quick numeric anchors: Lok Sabha maximum strength 552 (effective 550), Rajya Sabha maximum 250 (effective 238 elected + 12 nominated), State Legislative Assembly maximum 500 members, Legislative Council maximum 1/3 of Assembly strength.
+> Rapid summary for last-minute revision before your exam.
 
----
+The Indian Government Structure is the constitutional framework organising the Union Executive, Parliament, State Executive, State Legislature, and Judiciary, with powers distributed across Union, State, and local bodies under Articles 52–78, 79–122, 124–147, and 245–263. India follows a **parliamentary system** with a **federal structure leaning unitary** through three lists — Union (100), State (61), Concurrent (52) under the Seventh Schedule.
+
+| Organ | Head | Key Article |
+|---|---|---|
+| Union Executive | President | Art. 52 |
+| Parliament | President + LS + RS | Art. 79 |
+| State Executive | Governor | Art. 153 |
+| State Legislature | Governor + Vidhan Sabha (+ Parishad) | Art. 168 |
+| Judiciary | Chief Justice of India (Supreme Court) | Art. 124 |
+
+> 💡 **High-Yield Memory Hook:** **"P-V-P-G-S"** — recall the Union/State organs in order: **P**resident, **V**ice-President, **P**rime Minister, **C**ouncil of Ministers (CoM), then State mirror: **G**overnor, **C**M, **CoM**. Federal pivot: **U-100, S-61, C-52** (Union, State, Concurrent subjects in Seventh Schedule).
 
 ### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-#### Constitutional Basis
-Articles 53–78 carve out the **Union Executive**, Articles 79–122 constitute **Parliament**, Articles 152–167 define the **State Executive**, Articles 168–212 lay down State Legislatures, and Articles 124–147 establish the **Supreme Court**. The whole edifice operates on **Parliamentary Form of Government** at both Union and State levels, where the executive is collectively responsible to the legislature.
+#### Constitutional Foundations
 
-#### Distribution of Powers (Seventh Schedule)
-| List | Subjects | Legislative Competence |
-|---|---|---|
-| Union List (I) | 97 entries — Defence, Foreign Affairs, Railways, Banking, Atomic Energy | Parliament alone; States cannot legislate |
-| State List (II) | 66 entries — Police, Public Order, State Courts, Prisons, Local Government | State Legislature alone; Parliament in emergency under Art. 250 |
-| Concurrent List (III) | 47 entries — Criminal Law, Marriage, Education, Electricity | Both; Union law prevails in conflict (Art. 254) |
-| Residuary Powers | Entry 97, Union List | Parliament (Art. 248) |
+The Constitution establishes a **parliamentary form of government** (Article 75(3): Council of Ministers collectively responsible to Lok Sabha) layered over a **quasi-federal division of powers** (Articles 245–263). The Union List contains 100 subjects (Defence, Foreign Affairs, Railways, Banking), the State List carries 61 (Police, Public Health, Agriculture), and the Concurrent List 52 (Criminal Law, Marriage, Contracts). On Concurrent subjects, Article 254 subordinates State law to Union law, but a State law repugnant to a Central law can receive presidential assent under Article 254(2) — a frequently tested nuance.
 
-#### Parliament Composition
-- **Lok Sabha**: Maximum **552** members; effective **550** (530 from States + 20 from UTs); directly elected on basis of universal adult suffrage; normal term 5 years; Speaker is presiding officer; **quorum 1/10** of total members.
-- **Rajya Sabha**: Maximum **250** members — **238 elected** by State Legislative Assemblies through proportional representation with single transferable vote, plus **12 nominated** by the President from fields of art, literature, science, social service; Vice-President is ex-officio Chairman; **quorum 1/10**.
-- **Money Bill** is defined under **Article 110**; Speaker certifies; Rajya Sabha can only recommend (within 14 days).
+#### Centre vs State Legislative Competence
 
-#### State Legislature
-States have either **unicameral** (Legislative Assembly / **Vidhan Sabha**) or **bicameral** (Assembly + **Vidhan Parishad** / Legislative Council). **Vidhan Sabha maximum = 500** members (small States like Goa, Sikkim capped lower by Art. 170(2)). **Vidhan Parishad maximum = 1/3 of Assembly** strength, minimum 40.
+| Feature | Union List | State List | Concurrent List |
+|---|---|---|---|
+| Schedule Entry | 7th, List I | 7th, List II | 7th, List III |
+| Subjects | 100 | 61 | 52 |
+| Repugnancy Rule | Dominates List II | Yields to List I | Art. 254: Union prevails; State may get presidential assent |
+| Residuary | Art. 248 — Parliament exclusive | None | None |
 
-#### Majority Types — Critical for UPPSC
-- **Absolute majority**: >50% of *total membership* of the House.
-- **Effective majority**: >50% of *members present and voting*.
-- **Special majority**: Majority of *total membership* **AND** 2/3 of *members present and voting* — used for constitutional amendments under Art. 368, removal of Vice-President (Art. 67), impeachment of President.
+#### Parliament and State Legislature Anatomy
 
-#### Exam-Specific Pattern
-UPPSC PCS Prelims tests composition numbers (Lok Sabha, Rajya Sabha, Vidhan Sabha, Vidhan Parishad), identification of subjects in the Seventh Schedule (classic trap: Education is Concurrent, not State), and majority types. Mains GS Paper II typically asks 15-mark questions on "Critically examine the quasi-federal nature of Indian Constitution" or "Discuss the role of Governor as constitutional head of State."
+- **Lok Sabha** (Art. 79–82): Directly elected, maximum 552 members, Speaker under Article 93, casting vote on tied bills (Art. 100(1)).
+- **Rajya Sabha** (Art. 83): Indirect election by State Legislative Assemblies, maximum 250 members, Vice-President is ex-officio Chairman (Art. 64), not a member of the House.
+- **Money Bill** originates only in Lok Sabha (Art. 109); RS can recommend amendments within 14 days but cannot reject.
+- **No-Confidence Motion** is LS-exclusive (Art. 75 read with Rules of Procedure).
 
----
+The State Legislature mirrors this with **Vidhan Sabha** (directly elected) and **Vidhan Parishad** (where it exists — only in six States). The **Governor**, appointed by the President under Article 155, holds office during the President's pleasure (Art. 156) — a critical distinction from elected executives.
+
+#### 🎯 Exam-Level Worked Problem
+
+**Question:** Consider the following statements about the Indian federal structure:
+1. The Concurrent List contains 52 subjects.
+2. In case of repugnancy on a Concurrent subject, the State law prevails if it received presidential assent.
+3. Residuary powers belong to the State Legislature under Article 248.
+
+Which of the above statements is/are correct?
+(a) 1 only
+(b) 1 and 2 only
+(c) 2 and 3 only
+(d) 1, 2 and 3
+
+**Solution:** Evaluate each:
+1. **Concurrent List has 52 subjects** — TRUE (Seventh Schedule, List III).
+2. **State law repugnant to Union law on Concurrent subject prevails with presidential assent** — TRUE (Article 254(2) explicitly permits this override).
+3. **Residuary powers under Article 248 belong to State Legislature** — FALSE. Residuary powers belong to **Parliament** (Union); the States have no residuary jurisdiction.
+
+Only statements 1 and 2 are correct → **Answer: (b) 1 and 2 only**.
+
+> ⚠️ **Examiner Trap:** Students recall "Concurrent = 52" correctly but forget that **residuary powers vest in Parliament, not States** (Art. 248 read with Entry 97 of Union List). Option (c) and (d) misdirect toward assuming a federal symmetry that the Constitution deliberately denies.
+
+#### Judiciary and Federal Balance
+
+The **Supreme Court** (Art. 124) holds original (Art. 32), appellate (Art. 136), and advisory (Art. 143) jurisdiction. Judicial review under Article 13 invalidates pre-constitutional and post-constitutional laws inconsistent with Fundamental Rights. The **Kesavananda Bharati v. State of Kerala (1973)** doctrine binds Parliament from altering the **Basic Structure**, even via constitutional amendment — a recurring UPPSC assertion-reason question stem.
 
 ### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-#### Quasi-Federal Mechanism
-India is described as quasi-federal because emergency provisions (Articles **352** — National Emergency, **356** — President's Rule / State Emergency, **360** — Financial Emergency) tilt the balance toward the Union. During a National Emergency, Parliament gains power to legislate on State List subjects (Art. 250), and the Life of Lok Sabha may be extended by one year at a time. President's Rule under Article 356 dissolves the State Executive and transfers governance to Parliament, with Supreme Court reviewable (per *S.R. Bommai v. Union of India*, 1994).
+#### Emergency Architecture and Federal Stress
 
-#### Governor as Constitutional Head
-The **Governor** is appointed by the President and holds office during the latter's pleasure (Art. 156). Discretionary powers include reporting breakdown of constitutional machinery (Art. 356), reserving a Bill for Presidential consideration (Art. 200), and administering Tribal Areas (Fifth Schedule). The Sarkaria Commission (1988) and Punchhi Commission (2010) examined Governor-Centre relations and recommended restraint.
+The Constitution equips the Union with three emergency types, each shifting the federal balance:
 
-#### Three-Tier Local Self-Government
-- **73rd Constitutional Amendment (1992)**: Panchayati Raj for rural areas — Gram Panchayat, Panchayat Samiti, Zila Parishad (Art. 243).
-- **74th Constitutional Amendment (1992)**: Municipalities for urban areas — Nagar Panchayat, Municipal Council, Municipal Corporation (Art. 243P).
-- **5th Schedule**: Governance of Scheduled Areas (Tribes Advisory Council).
-- **6th Schedule**: Autonomous District Councils in Assam, Meghalaya, Tripura, Mizoram.
+| Emergency Type | Article | Trigger | Parliamentary Approval | Duration Limit |
+|---|---|---|---|---|
+| National Emergency | Art. 352 | War, external aggression, armed rebellion | Special majority of both Houses | 6 months (extendable indefinitely by 6-month blocks) |
+| State Emergency (President's Rule) | Art. 356 | Breakdown of constitutional machinery in State | Both Houses (LS + RS) | 6 months, max 3 years total |
+| Financial Emergency | Art. 360 | Financial stability of India threatened | LS simple majority | Until revoked by President |
 
-#### Common Traps in UPPSC Prelims
-1. Confusing **Concurrent List** with State List (e.g., Education is in Concurrent List Entry 25).
-2. Mixing **effective strength** with **maximum strength** of Rajya Sabha.
-3. Stating that Vidhan Parishad can be abolished by State Resolution alone — under Article 169, **Parliament** must pass a law based on State Assembly resolution.
-4. Assuming Governor is elected — he is **appointed** by the President.
+During **Art. 352**, the Union gains power over State List subjects (Art. 353), State Legislatures may be placed under parliamentary control, and Fundamental Rights under Article 358 can be suspended. **Article 356** has been invoked over 100 times since 1950 — an obvious UPSC/UPPSC flashpoint on misuse vs. legitimate use.
 
-#### Worked Quick Problem
-A constitutional amendment requires a **Special Majority** in Lok Sabha. House total membership = 545; members present and voting = 400. How many votes are required?
-Solution: Need majority of total membership = 273, AND 2/3 of present and voting = 267. Both conditions must be satisfied → **273 votes minimum**.
+#### Edge Cases and Doctrinal Limits
 
-#### Adjacent Topics to Link
-- Fundamental Rights (Part III) — enforceable against Government Structure
-- Constitutional Amendment procedures (Art. 368)
-- Judicial Review and Basic Structure Doctrine (*Kesavananda Bharati*, 1973)
+1. **Basic Structure Doctrine** — Parliament cannot amend the Constitution to destroy federalism, separation of powers, judicial independence, or the republican/democratic character (Kesavananda, reaffirmed in *Minerva Mills v. Union of India*, 1980).
+2. **Article 370 status** — Ceased to be operative after the 2019 Jammu & Kashmir Reorganisation Act; any UPPSC question treating 370 as "permanent" is testing this misconception.
+3. **Vice-President's parliamentary status** — Chairman of Rajya Sabha (Art. 64) but NOT a member; can vote in RS only when tied (Disagreement over casting vote scope is a recurring trick).
+4. **Cooperative federalism instruments** — **Inter-State Council** (Art. 263), **Zonal Councils** (States Reorganisation Act, 1956), **Finance Commission** (Art. 280 — a Quasi-Judicial body of five members), and **NITI Aayog** (non-constitutional, advisory).
+5. **Local self-government tiers** — 73rd Amendment inserted Part IX and the **11th Schedule** (29 subjects for Panchayats, now 30); 74th Amendment added Part IX-A and the **12th Schedule** (18 subjects for Municipalities).
 
-#### Practice Prompts
-1. Compare the constitutional status of the **President of India** and the **Governor of a State** with reference to discretionary powers. Discuss how *S.R. Bommai* (1994) reshaped this relationship.
-2. Critically analyse the **distribution of legislative powers** under the Seventh Schedule. Do residuary powers truly make Indian federalism centralising?
+#### Federal Disputes and Their Resolution
+
+| Conflict | Article | Adjudicator |
+|---|---|---|
+| Inter-State water/territorial dispute | Art. 262 | Supreme Court (subject to parliamentary variation) |
+| Disputes relating to election of President/VP | Art. 71 | Supreme Court |
+| Centre vs State on legislative competence | Art. 246, 254 | Supreme Court |
+| Representation in legislature (Delhi/Chandigarh) | Art. 239AA, 239 | Supreme Court |
+
+#### Common Mistakes in UPPSC Mains Answers
+
+| Error | Correction |
+|---|---|
+| "India is a federation like the USA" | India is **quasi-federal**; residuary powers lie with the Union |
+| "Governor is part of State Legislature on par with Speaker" | Governor **summons, prorogues, dissolves** Vidhan Sabha (Art. 174); he addresses it (Art. 175) |
+| "Money Bill can be introduced in RS" | **Article 109** — exclusive to LS |
+| "Article 356 requires only LS approval" | Requires **both Houses** by simple majority |
+| "Fundamental Rights are absolute" | Subject to reasonable restrictions (Arts. 19(2)–(6), 25(2), 26) and Basic Structure limits |
+
+#### Advanced Practice Prompts
+
+1. A State law on a Concurrent subject receives presidential assent under Article 254(2). Later, the Union Parliament passes an amended Central law on the same subject. Does the State law continue to prevail? Argue using *M. Karunanidhi v. Union of India* reasoning.
+2. Distinguish the **appointment** of the Governor (Art. 155, pleasure of President per Art. 156) from the **appointment** of the President of India (Art. 54, electoral college). Explain the implication for state autonomy in practice.
 
 ---
+
+## Continue your study
+
+- **[View this topic in your UPPSC PCS roadmap](/roadmap/?exam=up-psc&duration=1mo)** — see where "Government Structure" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=up-psc&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UPPSC PCS exam overview](/exams/up-psc/)** — pattern, eligibility, and syllabus
+- **[All Indian Polity notes](/notes/up-psc/indian-polity/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

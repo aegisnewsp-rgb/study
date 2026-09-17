@@ -8,7 +8,7 @@ topicName: Federal System and Centre-State Relations
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-17"
 ---
 
 # Federal System and Centre-State Relations
@@ -16,311 +16,105 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Federal System** — Key Facts for BPSC
+The Indian Constitution establishes a **federal system with a strong unitary bias**, distributing powers between the Union and States through **Schedule VII (Three Lists)** and **Part XI (Articles 245–263)**. Dr. B.R. Ambedkar called it "federal in form but unitary in spirit," while K.C. Wheare labelled it a "**quasi-federal**" polity.
 
-- **India is a "quasi-federal"** — strong unitary features with federal structure
-- **Three Lists**: **Union List** (97 subjects), **State List** (66 subjects), **Concurrent List** (47 subjects)
-- **Residuary powers**: With **Parliament** (Article 248 + Item 97 of Union List)
-- **Distribution of legislative powers**: 7th Schedule, Article 246
-- **Article 1**: "India, that is Bharat, is a Union of States" — not "Federation of States"
-- **Fifth Schedule**: Tribal areas governance (separate from the three lists)
-- **Articles 256-263**: Administrative relations between Centre and States
+| List | Subjects | Legislative Power |
+|---|---|---|
+| **Union List (List I)** | Defence, Foreign Affairs, Currency, Atomic Energy | Parliament only |
+| **State List (List II)** | Police, Public Health, Agriculture, Land | State Legislature only |
+| **Concurrent List (List III)** | Criminal Law, Marriage, Education, Electricity | Both; Parliament prevails on repugnancy |
 
-⚡ **Exam tip**: BPSC asks about **quasi-federal nature**, **lists and subjects**, **residuary powers** (with Parliament), and **article references**. The phrase "Union of States" (not "Federation") in Article 1 is important.
+- **Residuary powers** belong to Parliament under **Article 248**.
+- **Emergency Provisions** (Articles 352, 356, 360) convert the federation into a unitary system.
+- **S.R. Bommai v. Union of India (1994)** declared federalism part of the **basic structure**.
+
+> 💡 **High-Yield Memory Hook:** **"USP-CCC"** — **U**nion List (exclusive Parliament), **S**tate List (exclusive States), **P**arliament prevails (Concurrent), then the three Cs of central control: **C**entre's residuary powers, **C**ooperative bodies (Finance Commission, GST Council, ISC), **C**onstitutional overrides (Art. 249, 250, 252, 253). Think "**U-nion S-tate P-arallel C-entre C-ooperates C-ontrols**."
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-## The Federal Structure of India
+#### Constitutional Framework and the Three Lists
+**Article 246** distributes legislative competence, while **Schedule VII** enumerates subjects into three lists. The original 97/66/47 distribution has shifted because of successive constitutional amendments — current subject counts must be cross-checked with the latest consolidated Schedule VII before quoting them in the exam. The **Concurrent List** supremacy follows a two-step test under **Article 254**: Parliament's law prevails on repugnancy, and a State law overriding Central law requires Presidential assent under **Article 254(2)**.
 
-### What Makes India Federal?
+#### Concept Comparison Matrix
 
-**Article 1**: "India, that is Bharat, is a **Union of States**"
-- **Key word**: "Union" — not "Federation"
-- **Significance**: States do not have right to **secede** (unlike USA where states can leave)
-- **Single constitution** for all states (not separate state constitutions)
+| Feature | Federal Feature | Unitary Feature |
+|---|---|---|
+| Division of Powers | Three Lists under Schedule VII | Residuary powers with Centre (Art. 248) |
+| State Autonomy | State List exclusive subjects | Parliament can legislate on State List (Art. 249, 250, 252) |
+| Executive Control | Governor is Centre's agent (Art. 155–156) | President's Rule via Art. 356 |
+| Judiciary | Independent Supreme Court and High Courts | No constitutional subordination of States |
+| Emergency | Cooperative federalism via Finance Commission | Articles 352, 356, 360 collapse federalism |
+| Representation | Rajya Sabha represents States (Art. 80) | Single citizenship, single election commission (Art. 327) |
 
-**Key Federal Features**:
-1. **Division of powers** — Union List, State List, Concurrent List
-2. **Supremacy of Constitution** — neither Centre nor State can override
-3. **Independent judiciary** — Supreme Court resolves Centre-State disputes
-4. **Representational governments** — states have their own governments
+#### Administrative and Legislative Relations
+1. **Governors** are appointed by the President under **Article 155** and hold office during the President's pleasure (**Article 156**). They are the constitutional bridge, but discretionary use of Article 356 recommendation has triggered political conflicts.
+2. **All-India Services (IAS, IPS, IFS)** are created by Parliament under **Article 312**, with a Rajya Sabha special majority, ensuring dual control over key cadres.
+3. **Rajya Sabha** under **Article 80** has 238 elected members representing States and Union Territories, with **12 nominated by the President**. It enjoys exclusive federal powers over Article 3 (State reorganisation), Article 312 (AIS creation), and Article 352 (National Emergency proclamation).
+4. **Inter-State Council** under **Article 263** adjudicates inter-State disputes and coordinates policy. The **Sarkaria Commission (1983–88)** recommended making it permanent and statutory — implemented administratively in 1990.
 
-**But India is Quasi-Federal** because:
-- **Emergency powers** (Article 352) — Centre can take over states
-- **Article 356** — President's Rule in states (Centre controls state governments)
-- **Governor appointed by President** — Centre's representative in states
-- **Residuary powers** with Parliament — not states
-- **Article 368** — Parliament can amend state subjects (with conditions)
+#### Financial Federalism
+- Taxes are assigned and shared under **Articles 268–272**.
+- The **Finance Commission** is constituted every five years by the President under **Article 280**.
+- The **GST Council** under **Article 279A** has weighted voting — Centre holds one-third weight, States collectively hold two-thirds — making it a model of cooperative fiscal federalism.
 
----
+#### 🎯 Exam-Level Worked Problem
+**Question:** The Indian Constitution is described as "federal in form but unitary in spirit." Critically examine the constitutional provisions that give the Union government overriding powers over the States in normal times. *(BPSC Mains-style, 15 marks)*
 
-## Three Lists (7th Schedule)
+#### Solution Outline:
+1. **Legislative override** — Article 249 (Parliament legislates on State subjects in national interest via Rajya Sabha special majority), Article 250 (during Emergency), Article 252 (States request Central law), Article 253 (treaty implementation).
+2. **Administrative override** — Governor appointed by President (Art. 155), All-India Services under dual control (Art. 312), directions to States on Union subjects under Articles 256–257.
+3. **Emergency override** — National Emergency (Art. 352) makes Parliament competent over State List; President's Rule (Art. 356) suspends State Legislature; Financial Emergency (Art. 360) reduces State financial autonomy.
+4. **Financial override** — Residuary powers (Art. 248), Centrally-sponsored schemes, discretionary grants under Article 282.
+5. **Judicial check** — S.R. Bommai v. Union of India (1994) declared federalism part of the basic structure, limiting arbitrary imposition of Article 356.
 
-### Union List (Article 246, List I) — 97 Subjects
-
-**Subjects under Parliament's exclusive jurisdiction**:
-- Defence, Army, Navy, Air Force
-- **External affairs** — foreign policy, treaties, diplomatic relations
-- **War and peace** — declaring war, making peace
-- **Citizenship** — nationality, passports, visas
-- **Railways** — major railways (broad gauge), railway courts
-- **Shipping** — major ports, shipping corporations
-- **Aviation** — civil aviation, airports
-- **Posts and Telegraphs** — communication
-- **Currency and Coinage** — RBI, monetary policy
-- **Banking** — RBI, banking regulation
-- **Insurance** — life and general insurance
-- **Companies** — company law
-- **Income Tax** — direct taxes (except agriculture)
-- **Customs and Excise** — customs, central excise
-- **Atomic energy** — nuclear energy policy
-- **Foreign trade** — import/export regulation
-- **Inter-state trade** — trade across state boundaries
-- **Sanctuaries** — national parks, wild life
-
-**Important for BPSC**: **Defence**, **External Affairs**, **Currency**, **Banking**, **Railways** are exclusively Union subjects.
-
-### State List (Article 246, List II) — 66 Subjects
-
-**Subjects under State Legislature's exclusive jurisdiction**:
-- **Police** — law and order, criminal law (IPC)
-- **Prisons** — prison administration
-- **Land** — land reforms, agriculture
-- **Forests** — state forests (except sanctuaries)
-- **Agriculture** — farming, irrigation
-- **Local government** — municipal corporations, panchayats
-- **Education** — state universities, school education (higher education)
-- **Public health** — sanitation, hospitals
-- **Roads** — state highways, district roads
-- **Water** — irrigation, water supply
-- **GST (now)** — replaced previous taxes (after 101st Amendment)
-- **Animal husbandry** — cattle, veterinary services
-- **Markets and fairs** — state mandis
-- **Cultural affairs** — state museums, archives
-
-**Note**: After **101st Amendment (2016)** — **Goods and Services Tax (GST)** is now in Concurrent List (was previously VAT, entertainment tax in State List).
-
-### Concurrent List (Article 246, List III) — 47 Subjects
-
-**Subjects where both Parliament and State Legislature can make laws**:
-- **Criminal law** — IPC (except portions in Union List), Criminal Procedure Code
-- **Civil law** — Indian Contract Act, Evidence Act, Transfer of Property Act
-- **Marriage and divorce** — personal laws (Hindu Marriage Act, Muslim Personal Law)
-- **Bankruptcy and insolvency** —
-- **Trusts and endowments** — religious trusts
-- **Adulteration** — food, drugs
-- **Vital statistics** — birth and death registration
-- **Labour law** — factories, industrial disputes
-- **Education** — federal law on higher education (schools in State List)
-- **Environmental protection** — forests (except sanctuaries), pollution
-- **Population control** — family planning
-- **Charitable institutions** — NGOs, trusts
-
-**Important**: In case of conflict between Union and State law on Concurrent List, **Union law prevails** (Article 254).
-
----
-
-## Residuary Powers
-
-**Article 248**: Parliament has **exclusive power** to make laws on subjects not in any List.
-
-**Item 97, Union List**: "Any other matter not enumerated in List II or List III"
-- Includes: **Cyber law**, **Artificial Intelligence**, **Online content regulation**
-
-**Important**:
-- States have **no residuary powers** — all residual subjects go to Centre
-- **Tamil Nadu** challenged this (1968) — Supreme Court upheld Centre's residuary power
-
-**Post-GST changes**:
-- GST Council (Article 279A) created — jointly governs indirect taxes
-- All indirect taxes now under GST (both Centre and State share)
-- **Residuary** still includes: income tax, customs, excise on petroleum
+> ⚠️ **Examiner Trap:** Candidates often quote Article 249 as a permanent override — it is conditional, requiring a Rajya Sabha resolution and a one-year sunset unless renewed. Similarly, many wrongly state that the **Finance Commission's recommendations are binding** on the Centre — they are advisory, though the government typically accepts them.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-## Administrative Relations (Articles 256-263)
+#### Edge Cases and Doctrinal Limits
+- **Basic Structure Doctrine** — Kesavananda Bharati (1973) and S.R. Bommai (1994) together mean Parliament cannot destroy federalism even by constitutional amendment. Bommai specifically held that **secularism, democracy, and federalism** are non-amendable features.
+- **Article 370** was effectively abrogated in 2019, reorganising Jammu & Kashmir into the Union Territories of J&K and Ladakh — BPSC Prelims frequently test whether candidates recognise the changed status.
+- **Rajya Sabha's federal veto** under Article 3 requires only a simple majority, not a special majority — a common confusion with Article 312.
 
-### Key Provisions
+#### Centre-State Commissions and Committees
+| Body | Period | Focus |
+|---|---|---|
+| Rajmannar Committee | 1969 | Autonomy of States, transfer of subjects |
+| Sarkaria Commission | 1983–88 | Centre-State relations, Governors, ISC |
+| Punchhi Commission | 2007 | Governor's role, Article 356, judicial appointments |
+| 2nd Administrative Reforms Commission | 2005–09 | Federal governance, conflict resolution |
 
-**Article 256**: State must **comply with Union laws** — "The executive power of every State shall be exercised so as to ensure compliance with the laws made by Parliament..."
-- If state fails → President can direct state to comply
+#### Numbered List of Advanced Traps
+1. Treating the **Planning Commission** as still active — replaced by **NITI Aayog in 2015**, which has an advisory, not allocating, and fiscal-binding role.
+2. Assuming **One Nation One Ration Card** is a constitutional provision — it is an administrative scheme.
+3. Believing **Article 360 (Financial Emergency)** has ever been proclaimed — it has not; quoting it as historical fact is wrong.
+4. Confusing **Article 262** (inter-State water disputes tribunal) with **Article 263** (Inter-State Council) — distinct mechanisms, different triggers.
+5. Treating **cooperative federalism** (NITI Aayog, GST Council, ISC) and **competitive federalism** (state rankings, investment rankings) as synonyms — the first is collaborative, the second is rivalry-based benchmarking.
 
-**Article 257**: Control of States over Union instruments
-- States cannot impede **Union property** or personnel
-- Union can use state's resources in emergencies
+#### Connections to Adjacent Topics
+- **Fundamental Rights (Part III)** — Article 31A and the Ninth Schedule intersect with federalism via land reforms.
+- **Amendment Procedure (Article 368)** — Ratification by half the States is itself a federal check.
+- **Election Commission (Article 324)** — Single body for national and State elections is a unitary feature.
 
-**Article 258**: President's power to restrict state executive power in national interest
-- Can **empower Centre officers** to carry out Union functions in states
-- **Example**: Central government officers can work in states during elections (Election Commission)
+#### Practice Prompts
+1. **Prelims MCQ:** Which Article gives residuary powers to Parliament? *(a) 246 (b) 248 (c) 254 (d) 263* — answer (b).
+2. **Mains 10-marker:** Distinguish between **cooperative and competitive federalism**, citing one constitutional body for each. *(Sample structure: cooperative — GST Council under Art. 279A; competitive — NITI Aayog Health Index rankings of States.)*
 
-**Article 258A**: States can request **Union to transfer** Union officers to states (for specific purposes)
-
-**Article 259**: Armed forces can be deployed in states only with **state's consent** (except during emergency)
-
-**Article 260**: President's power to **undertake functions** in states on state government's request
-- Can **administer** any territory on state's behalf (not used in practice)
-
-**Article 261**: Full faith and credit between states — "Judgments, records, and proceedings of one state shall be binding in another"
-- Interstate recognition of court orders (divorce, property)
-
----
-
-## Centre-State Relations: Debates
-
-### Issues in Centre-State Relations
-
-**1. Emergency Powers (Article 356)**:
-- Centre can dismiss state governments (after Bommai case, 1994 — requires constitutional breakdown)
-- States argue: Used for political purposes (1975-77 Emergency period)
-- **Bommai case** limited political use — now must be constitutional justification
-
-**2. Governor's Role**:
-- Governor appointed by President (Centre's agent)
-- States argue: Governors act on Centre's instructions
-- **Constitutional role**: Governor should act on CM's advice (not Centre's)
-- **92nd Amendment (2003)** proposed: Governor should be appointed after consulting CM — not fully implemented
-
-**3. Finance Commission (Article 280)**:
-- Finance Commission recommends **tax sharing** between Centre and States
-- **15th Finance Commission (2020)**: Recommended 41% of divisible pool to states (was 42% in 14th FC)
-- **Dispute**: States argue for higher share
-
-**4. Inter-State Council (Article 263)**:
-- Created by **73rd Amendment (1992)** — never met regularly
-- Purpose: Coordination between states on common subjects
-- **Criticism**: Not effective — states have limited role
-
-### The S.R. Bommai Case (1994)
-
-**Background**: In 1988, President's Rule was imposed in several states after elections, citing political reasons.
-
-**Supreme Court held**:
-1. Article 356 is an **extreme measure** — only for breakdown of constitutional machinery
-2. **Political considerations** cannot justify President's Rule
-3. **State must be heard** before imposing Article 356
-4. **Judicial review** of President's satisfaction is allowed
-5. **Dissolution of Assembly** after imposing President's Rule requires parliamentary approval
-
-**Impact**: After Bommai, President's Rule imposed less frequently (1994-2024: only 6-7 times vs. 50+ times before 1994)
+> ⚠️ **Examiner Trap:** BPSC examiners frequently ask candidates to list the **Sarkaria Commission's recommendations** on the appointment of Governors — the correct answer is consultation with the Chief Minister, not concurrence. Quote the exact wording of the recommendation to avoid losing marks.
 
 ---
 
-## Parliament's Power Over State Subjects
+## Continue your study
 
-### Article 249: National Interest
+- **[View this topic in your BPSC roadmap](/roadmap/?exam=bpsc&duration=1mo)** — see where "Federal System and Centre-State Relations" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=bpsc&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[BPSC exam overview](/exams/bpsc/)** — pattern, eligibility, and syllabus
+- **[All Indian Polity notes](/notes/bpsc/indian-polity/)** — browse sibling topics in this subject
 
-**Article 249**: If Rajya Sabha passes a resolution (by 2/3 majority) that "certain subjects in State List are of national importance" — Parliament can make laws on those subjects.
-
-**Duration**:
-- Resolution valid for **1 year**
-- Can be extended for another year
-- Maximum **5 years** in total (then must be removed from resolution scope)
-
-**Used**: Only twice — for **air travel** (1952) and **goods and services tax** (2000)
-
-### Article 252: Parliamentary Legislation for States
-
-**Article 252**: If **two or more states** pass a resolution requesting Parliament to make law on a State List subject — Parliament can make that law for those states.
-
-**States can later withdraw** by passing a resolution
-
-**Used**: For some environmental laws (Environmental Protection Act, 1986)
-
-### Article 253: Treaty and International Agreements
-
-**Article 253**: Parliament can make laws to implement **international treaties** (even on State List subjects).
-
-**Examples**:
-- WTO agreements (trade — State subject, but Parliament legislated)
-- Paris Climate Accord (environment — State subject, but Parliament legislated)
-- **Vienna Convention on Consular Relations** — India legislated despite state subject
-
-### Article 356 — Special Provisions
-
-**Article 356(4)**: If President's Rule imposed, the **Governor exercises** the state's executive powers (on President's behalf).
-
-**Important**: Governor acts as **not** CM — Governor reports to President (Centre), not to state legislature.
-
----
-
-## Zilla Parishad and Local Government
-
-### 73rd Amendment (1992): Panchayati Raj
-
-**Article 243**: Defines Panchayati Raj institutions:
-- **Zilla Parishad** (District level)
-- **Panchayat Samiti** (Block level)
-- **Gram Panchayat** (Village level)
-
-**Key features**:
-- **Elections** mandatory every 5 years
-- **Reservation** for SC/ST in seats and chairpersons
-- **Reservation** for women (not less than 1/3)
-- **State Election Commission** (not SEC) to conduct elections
-
-### 74th Amendment (1992): Municipalities
-
-**Article 243P-243ZG**: Urban local bodies:
-- **Nagar Palikas** (Municipal Councils)
-- **Nagar Panchayats** (transitional)
-- **Municipal Corporations** (for big cities)
-
-**Key features**:
-- Direct elections
-- Reservation for SC/ST and women
-- **Ward Committees** for large corporations
-
----
-
-## Important Articles for BPSC
-
-| Article | Content |
-|---------|---------|
-| Art. 1 | India is Union of States |
-| Art. 245-254 | Distribution of powers |
-| Art. 246 | Three Lists |
-| Art. 248 | Residuary powers |
-| Art. 249 | National interest resolution |
-| Art. 252 | Two states request |
-| Art. 253 | Treaty implementation |
-| Art. 256 | State compliance with Union laws |
-| Art. 263 | Inter-State Council |
-| Art. 279A | GST Council |
-| Art. 280 | Finance Commission |
-
-## Practice Questions (BPSC Pattern)
-
-1. In which schedule are the three lists found?
-   - (a) Third Schedule
-   - (b) Fifth Schedule
-   - (c) Seventh Schedule
-   - (d) Ninth Schedule
-
-2. Residuary powers in India rest with:
-   - (a) State
-   - (b) Parliament
-   - (c) Concurrent List
-   - (d) President
-
-3. The case which laid down guidelines for President's Rule is:
-   - (a) Kesavananda Bharati
-   - (b) Bommai
-   - (c) Minerva Mills
-   - (d) Golak Nath
-
-4. After 101st Amendment, which tax comes under Concurrent List?
-   - (a) Income tax
-   - (b) Customs duty
-   - (c) Goods and Services Tax
-   - (d) Property tax
-
-**Answers**: 1(c), 2(b), 3(b), 4(c)
-
----
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

@@ -8,7 +8,7 @@ topicName: "Current Banking and Economic Affairs"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-17"
 ---
 
 # Current Banking and Economic Affairs
@@ -16,284 +16,147 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-- **RBI's New Monetary Policy Framework 2024**: Repo rate unchanged at 6.5%; inflation trending toward 4% target; focus on growth while maintaining inflation discipline
-- **Digital Lending Guidelines (RBI 2022)**: All digital loans must be disbursed to borrower's bank account; balance sheet loans vs co-lending model; mandatory disclosure of all fees
-- **Co-Lending Model (CLM)**: RBI-authorised framework where banks and NBFCs jointly originate loans; bank takes 80% of risk, NBFC takes 20% on priority sector loans
-- **RBI's Fintech Vision 2025**: Promoting responsible innovation; creating a "Regulatory Sandbox" for fintech testing; setting up an Innovation Council
-- **Cryptocurrency Regulation**: RBI has maintained caution; RBI advised banks to not deal with crypto exchanges (though Supreme Court set aside RBI's circular in 2020); 30% TDS on crypto gains; RBI exploring CBDC
-- ⚡ RBI is piloting Digital Rupee (e₹) — Central Bank Digital Currency — for wholesale and retail segments
+**Current Banking and Economic Affairs** is a high-yield SBI PO General Awareness cluster testing RBI monetary tools, Union Budget headlines, fiscal indicators, NPA norms, and flagship digital schemes. The section regularly yields 8–12 questions across Prelims and Mains, and the score-saver is matching the **policy rate direction** with its **liquidity effect**.
+
+| Term | One-line meaning | Unit |
+|---|---|---|
+| Repo Rate | Rate RBI charges banks for overnight secured lending | % p.a. |
+| Reverse Repo Rate | Rate RBI pays to absorb surplus bank funds | % p.a. |
+| CRR | Share of NDTL parked with RBI in cash | % of NDTL |
+| SLR | Share of NDTL held as gold/govt securities | % of NDTL |
+| MCLR | Internal benchmark for floating-rate loan pricing | % p.a. |
+| CAD | Trade Deficit + Net Invisibles, as share of GDP | % of GDP |
+| Fiscal Deficit | Total Expenditure − Non-borrowed Receipts | ₹ crore / % of GDP |
+
+- An asset becomes an **NPA** when interest or principal remains overdue for **90 days** (special periods apply to agriculture and small-ticket loans).
+- **CPI** measures retail inflation; **WPI** measures wholesale inflation — do not interchange them.
+- The official source for any rate is the **RBI Monetary Policy Statement**; for budget figures, the **Union Budget documents on indiabudget.gov.in** and **PIB**.
+
+> 💡 **High-Yield Memory Hook:** **"R-R-M-C-B-S"** for RBI's main tools — **R**epo, **R**everse Repo, **M**SF (Marginal Standing Facility), **C**RR, **B**ank Rate, **S**LR. Recall order = liquidity tightness increasing left → right.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-## Current Banking and Economic Affairs
+#### Core Monetary Policy Instruments
 
-This topic covers the latest developments in the banking sector, regulatory changes, and emerging issues that are particularly relevant for the SBI PO exam.
+RBI operates the **Liquidity Adjustment Facility (LAF)** using a corridor of policy rates. The repo rate is the operative anchor; the MSF and Bank Rate sit above it, while the SDF (Standing Deposit Facility) sits below the repo rate. **Open Market Operations (OMO)** — buying or selling government securities — fine-tune the system beyond rate changes.
 
-## RBI's Monetary Policy — Recent Developments (2023-2024)
+| Instrument | Direction of flow | Who lends to whom | Typical use |
+|---|---|---|---|
+| Repo | RBI → Bank | Secured by G-Secs | Inject liquidity |
+| Reverse Repo / SDF | Bank → RBI | Unsecured | Absorb liquidity |
+| MSF | RBI → Bank | Beyond LAF overnight | Emergency funds |
+| Bank Rate | RBI → Bank | Long-term | Penal/discount rate reference |
 
-### Current Policy Stance
+#### MCLR vs Base Rate vs BPLR
 
-**Repo Rate**: 6.50% (unchanged since February 2023)
-**Inflation**: Moderating toward 4% target; food inflation remains volatile
-**GDP Growth**: India projected at 6.5-7% for FY25
+RBI mandates the **Marginal Cost of Funds based Lending Rate (MCLR)** as the benchmark for fresh floating-rate loans. Base Rate and BPLR are older benchmarks — still quoted but no longer the regulatory default for new Floating Rate exposures since the **external benchmark-linked lending rate (EBR)** rule.
 
-**MPC Stance**: "Withdrawal of accommodation"
-- Means RBI is still hawkish (inflation-focused) but won't hike further
-- Will wait to see if inflation sustains at target before cutting
+#### Formula: MCLR
 
-### Key Rates (2024-25)
+$$MCLR = C_r + C_i + C_o + C_t$$
 
-| Rate | Current |
-|------|---------|
-| Repo | 6.50% |
-| Reverse Repo | 3.35% |
-| MSF | 6.75% |
-| SDF | 6.10% |
-| CRR | 4.50% |
-| SLR | 18.00% |
+- **C_r** = Marginal cost of funds (annualised %)
+- **C_i** = Negative carry on CRR (return foregone, %)
+- **C_o** = Operating cost (%)
+- **C_t** = Tenor premium (%)
 
-### Liquidity Management
-- RBI using Variable Rate Reverse Repo (VRRR) and Standing Deposit Facility (SDF) to manage liquidity
-- Surplus liquidity from forex inflows being mopped up
-- Banking system's cash reserve ratio (CRR) at 4.5% — unchanged
+#### NPA Classification
 
-## Digital Lending — Regulatory Framework
+| Category | Trigger | Provisioning norm |
+|---|---|---|
+| Standard | 0 days overdue | 0.25%–1% (sectoral) |
+| Sub-standard | Up to 12 months overdue | 15% (secured) / 25% (unsecured) |
+| Doubtful-1 | 12–24 months | 25%–40% |
+| Doubtful-2 | 24–36 months | 40%–100% |
+| Doubtful-3 | > 36 months | Up to 100% |
+| Loss asset | Identified as loss | 100% |
 
-### RBI Digital Lending Guidelines (2022)
+#### Fiscal Indicators
 
-RBI issued comprehensive guidelines to regulate the fast-growing digital lending ecosystem (apps, fintech partnerships).
+- **Fiscal Deficit = Total Expenditure − Total Receipts excluding borrowings** (₹ crore); reported also as **% of Nominal GDP**.
+- **Revenue Deficit** = Revenue Expenditure − Revenue Receipts.
+- **Effective Revenue Deficit** = Revenue Deficit − Grants for creation of capital assets.
+- **Primary Deficit** = Fiscal Deficit − Interest Payments.
 
-**Key Guidelines**:
+#### Digital & Reform Initiatives
 
-1. **Mandatory Account Linking**:
-   - All digital loans MUST be disbursed to the borrower's own bank account
-   - No disbursement to third-party accounts (prevents predatory practices)
+- **UPI** (Unified Payments Interface) — interoperable real-time retail payments rail managed by NPCI.
+- **CBDC (e₹)** — RBI's Central Bank Digital Currency launched in pilot for retail and wholesale segments.
+- **Digital Lending Guidelines 2022** — require Disbursements only to borrowers' own bank accounts, regulated flow of data via Account Aggregators.
+- **NARCL (Bad Bank)** — acquires stressed assets above ₹500 crore, enabling PSBs to clean up balance sheets.
+- **ECLGS** — Emergency Credit Line Guarantee Scheme for MSMEs during COVID-19 stress; extended in phases.
+- **IBC / CIRP** — Corporate Insolvency Resolution Process under the Insolvency and Bankruptcy Code, 2016; coordinated via NCLT.
 
-2. **Balance Sheet Loans vs Co-Lending**:
-   - **Balance Sheet Loans**: fintech acts as agent; loan on bank's books
-   - **Co-Lending Model (CLM)**: Bank and fintech jointly originate; RBI guidelines for CLM
+#### 🎯 Exam-Level Worked Problem
 
-3. **Disclosure Requirements**:
-   - All fees and charges must be disclosed upfront
-   - Annual Percentage Rate (APR) must be shown
-   - Cooling-off period for loan cancellation
+**Question:** With the RBI raising the repo rate, which of the following is the most immediate direct consequence on commercial banks?
 
-4. **Data Privacy**:
-   - Fintech must obtain explicit consent for data collection
-   - Data can only be used for the stated purpose
+(a) Bond prices fall and banks' MCLR-linked loan resets move upward  
+(b) Deposit rates fall automatically within 24 hours  
+(c) SLR requirement drops in proportion to the rate hike  
+(d) PCA framework gets revoked for all PSBs
 
-5. **Recovery Practices**:
-   - Recovery agents must follow fair practices code
-   - No harassment, calling at odd hours, third-party threats
-   - Audio recording of calls mandatory
+**Solution:** The repo rate is the marginal cost of overnight funds for banks. A hike raises the cost of borrowing from RBI and pushes up short-term yields, which depresses existing bond prices (inverse price–yield relationship). The marginal cost feeds into MCLR, so floating-rate loan resets rise in the next quarter.
 
-### Digital Lending Apps (DLAs)
+- (b) is wrong: deposit rate changes lag and depend on bank ALCO decisions.
+- (c) is wrong: SLR is a percentage of NDTL set independently by RBI.
+- (d) is wrong: PCA is triggered by capital, profitability, and asset-quality metrics — not by repo rate moves.
 
-- RBI mandated that DLAs must be registered with RBI
-- Banks and NBFCs responsible for DLAs operating on their behalf
-- Strict action against unregistered lending apps (illegal loan apps)
+#### Answer: (a)
 
-## Co-Lending Model (CLM)
-
-### RBI Guidelines for Co-Lending
-
-**Structure**:
-1. **Original Lender (NBFC/Fintech)**: Does credit assessment, initial underwriting, ongoing servicing
-2. **Co-Lender (Bank)**: Takes 80% of the loan on its books; provides 20% risk participation
-
-**Process**:
-- Customer applies through fintech/NBFC platform
-- Bank approves based on own credit criteria
-- Loan originated jointly: 80% bank, 20% NBFC on books
-- NBFC services the loan (collection, follow-up)
-
-**PSL Benefit**:
-- Loans originated under CLM for priority sector count as PSL for the bank portion
-
-**Why Banks Like CLM**:
-- Reach of fintech + lower cost of funds from bank
-- Credit assessment done by NBFC
-- Risk shared 80/20
-
-## Central Bank Digital Currency (CBDC) — Digital Rupee
-
-### RBI's CBDC Initiative
-
-**What is CBDC?**
-A digital form of the Indian rupee issued by RBI, backed by the full faith and credit of the government.
-
-**Types Being Piloted**:
-
-1. **Wholesale CBDC (e₹-W)**:
-   - For financial institutions
-   - Pilot launched in November 2022
-   - Use case: Interbank settlements, treasury transactions
-   - Could reduce cost of cross-border transactions
-
-2. **Retail CBDC (e₹-R)**:
-   - For public use; pilot launched August 2023
-   - Digital rupee accessible to citizens
-   - Issued through participating banks
-   - No interest paid (like cash); anonymous for small transactions
-
-**Key Features**:
-- Legal tender (must be accepted)
-- Not a crypto-asset (no volatility; issued by RBI)
-- Can be exchanged 1:1 with bank deposits
-- Interoperable across platforms
-
-**Participating Banks**: SBI, HDFC Bank, ICICI Bank, Yes Bank, Kotak Mahindra Bank, IDFC First Bank, etc.
-
-## Cryptocurrency and Virtual Digital Assets
-
-### Regulatory Framework (2022-2023)
-
-**Taxation Framework**:
-- **30% TDS** on gains from transfer of VDAs (Virtual Digital Assets)
-- **1% TDS on TDS** (collected at source by exchanges)
-- No set-off of losses against VDA gains (except within VDA category)
-- No deduction for expenditure except cost of acquisition
-
-**RBI's Position**:
-- Has consistently warned about risks of private cryptocurrencies
-- Advised banks to exercise caution in dealing with crypto exchanges (circular set aside by Supreme Court in 2020)
-- RBI exploring possibility of India's own digital currency (CBDC)
-
-**Global Context**:
-- India's approach is cautious; no outright ban
-- Global standard-setting bodies (FATF, FSB) monitoring crypto-asset risks
-
-## Fintech Disruptions and Regulatory Sandboxes
-
-### RBI's Approach to Fintech
-
-**Regulatory Sandbox Framework**:
-- RBI allows fintech companies to test new products in a controlled environment
-- Sandbox period: 6 months (extendable by 3 months)
-- Must comply with applicable regulations
-- Consumer protection requirements apply
-
-**Sandbox Areas Tested**:
-- Retail payments
-- Digital KYC
-- Cross-border payments
-- MSME financing
-- Blockchain-based applications
-
-### Open Credit Enablement Network (OCEAN)
-
-- RBI's initiative for open credit ecosystem
-- Enables sharing of credit data across platforms
-- Promotes digital credit access for underserved segments
-
-### Account Aggregator Framework
-
-- **Account Aggregator (AA)** RBI-licensed entities that help individuals share their financial data securely
-- Uses the account aggregator system to share data (bank statements, MF holdings, insurance, pension)
-- Requires explicit consent of the individual
-- Promotes financial inclusion by enabling alternative credit assessment
-
-## Recent Banking Sector Developments
-
-### Large Bank Mergers
-
-**Post-2019 Consolidation Wave**:
-- **SBI + Associate Banks**: 5 associate banks merged into SBI (2017-18)
-- **PNB + OBC + United Bank**: Largest bank merger in India; created the second-largest PSB
-- **Bank of Baroda + Dena Bank + Vijaya Bank**: Third-largest PSB
-- **Canara Bank + Syndicate Bank**
-- **Union Bank of India + Andhra Bank + Corporation Bank**
-
-### Basel III Implementation
-
-- India's Basel III implementation completed by April 1, 2023
-- Banks now required to maintain:
-  - Minimum CET1: 4.5%
-  - Capital Conservation Buffer: 2.5%
-  - Total Minimum Capital: 8% + 2.5% = 10.5%
-
-### Frauds in Banking
-
-**Types of Frauds**:
-- **Loan fraud**: Wilful default, embezzlement, KYC fraud
-- **Digital fraud**: Phishing, vishing, UPI scams, SIM swap fraud
-- **Cheque fraud**: Forged signatures, alteration
-- **Card fraud**: Card cloning, OTP fraud
-
-**RBI Measures**:
-- Mandatory fraud reporting within prescribed timelines
-- Central Fraud Registry (CFR) maintained by RBI
-- Strengthening of internal controls, audit
-
-## ESG in Banking
-
-### Environmental, Social, and Governance (ESG)
-
-**RBI's Guidance**:
-- RBI issued guidelines on ESG for banks (2021)
-- Banks must incorporate ESG factors in lending decisions
-- Green Deposits: Banks accepting green deposits for funding ESG projects
-
-**Green Financing**:
-- **Priority Sector Lending** includes renewable energy, green infrastructure
-- Banks required to disclose ESG risk exposure
-- Climate risk assessment for bank portfolios
-
-**Social**:
-- Financial inclusion (PSL targets)
-- Gender lens investing
-- Rural credit
-
-**Governance**:
-- Board composition requirements
-- Related party transactions
-- Whistle-blower policy
+> ⚠️ **Examiner Trap:** Students pick (b) because deposits "also" change. The trap is conflating two transmission lags — **loan repricing is faster (1 quarter for MCLR reset)** while deposit repricing follows bank-level ALCO reviews, often over 2–3 quarters.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-## Cybersecurity in Banking
+#### Inflation: CPI vs WPI vs GDP Deflator
 
-**RBI's IT Framework**:
-- Master Direction on IT Governance (2017)
-- Cyber Security Framework (2016)
-- Outsourcing of IT services guidelines
+| Index | What it tracks | Weighting base | Who publishes |
+|---|---|---|---|
+| CPI (Combined) | Retail prices households pay | Consumption basket (rural + urban) | NSO, MoSPI |
+| WPI | Wholesale / producer prices | Goods sold in bulk | Office of the Economic Adviser, DPIIT |
+| GDP Deflator | Implicit price of all final goods | Nominal vs Real GDP | NSO, MoSPI |
 
-**Key Requirements**:
-- Cyber crisis management plan
-- Minimum IT Controls
-- Customer awareness programs
-- Reporting of cyber incidents to RBI within prescribed timelines
+**Year-on-Year Inflation** formula:
 
-**Digital Banking Security**:
-- Two-factor authentication (2FA) mandatory
-- Risk-based transaction monitoring
-- Bot detection systems
+$$\pi_t = \frac{CPI_t - CPI_{t-12}}{CPI_{t-12}} \times 100$$
 
-## RBI's Proposed New Monetary Policy Framework Review
+where CPI is a dimensionless index number (base year = 2012 = 100).
 
-**RBI's 5-Year Review (2024)**:
-- Monetary Policy Committee framework reviewed
-- Potential changes to inflation targeting methodology
-- Discussion on using multiple indicators beyond CPI
+#### Edge Cases and Examiner Favourites
 
-## Regulatory Architecture for Fintech
+1. **Reverse Repo → SDF transition:** The Standing Deposit Facility was introduced below the reverse repo rate; both coexist, but SDF is the new floor of the LAF corridor.
+2. **NPA special periods:** Crop loans get a 2-year overdue window (with instalment structure); tractor loans, microfinance, and educational loans have scheme-specific norms.
+3. **PCA triggers:** A bank enters PCA if Capital Adequacy Ratio falls, Net NPA breaches threshold, or Return on Assets turns negative for two consecutive years.
+4. **Priority Sector Lending:** 40% of ANCE (Adjusted Net Bank Credit or equivalent off-balance exposure) — sub-targets include 18% to agriculture and 7.5% to Micro Enterprises.
+5. **Account Aggregator framework:** Enables consent-based sharing of financial data between Financial Information Providers (FIPs) and Users (FIUs) under RBI's 2016 Master Direction on NBFC-AA.
+6. **External Benchmark Regime:** Floating-rate personal, MSME, and housing loans (above ₹10 lakh for housing) must link to RBI policy repo rate, T-Bill, or any other FIMMDA-published benchmark — not internal MCLR.
 
-### Proposed "India Stack"
-- **e-KYC**: Aadhaar-based digital KYC
-- **e-Sign**: Digital signature service
-- **DigiLocker**: Document storage
-- **Account Aggregator**: Data sharing framework
+#### Adjacent Topics Worth Linking
 
-### Credit Guarantee Scheme for Digital Lending
-- **CGS-II**: Credit Guarantee Scheme for digital lending (proposed)
-- Guarantee for banks lending through fintech platforms
-- Reduce credit risk and promote digital lending
+- **Monetary Policy Committee (MPC)** — 6-member rate-setting body; 4 external members appointed by the Central Government.
+- **Financial Inclusion** — Jan Dhan, MUDRA (refinance up to ₹20 lakh), Stand-Up India (SC/ST and women entrepreneurs), PM SVANidhi.
+- **International Indices** — World Bank Logistics Performance Index, IMF World Economic Outlook, BIS Triennial Survey.
+
+#### Advanced Practice Prompts
+
+1. Explain why a rising repo rate **first** raises MCLR-linked loan EMIs and **only later** raises deposit rates. Identify which transmission channel (interest-rate channel vs credit channel) dominates.
+2. If the rupee depreciates against the USD by 3% while crude oil imports stay constant, trace the impact on **CAD**, **CPI**, and **fiscal deficit** of India, naming the mechanism each time.
+
+> 📌 **Formula Check:** MCLR components are annualised percentages added linearly; do not compound them. CPI inflation is dimensionless — multiplying by 100 gives %, but the index itself has no unit.
 
 ---
+
+## Continue your study
+
+- **[View this topic in your SBI PO roadmap](/roadmap/?exam=sbi-po&duration=1mo)** — see where "Current Banking and Economic Affairs" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=sbi-po&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[SBI PO exam overview](/exams/sbi-po/)** — pattern, eligibility, and syllabus
+- **[All General Awareness notes](/notes/sbi-po/general-awareness/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

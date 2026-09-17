@@ -8,7 +8,7 @@ topicName: Kirchhoff's Current Law (KCL)
 weight: 3
 country: bangladesh
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-25"
+lastUpdated: "2026-09-17"
 ---
 
 # Kirchhoff's Current Law (KCL)
@@ -16,330 +16,104 @@ lastUpdated: "2026-07-25"
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Key facts** — DU Admission (Bangladesh)
-Core concept: Electricity and Magnetism — fundamental laws and applications
-High-yield point: Ohm's Law, Kirchhoff's Laws, magnetic effects of current
-⚡ Exam tip: Numerical problems from Ohm's Law, resistance combinations, and electromagnetic induction appear frequently
+Kirchhoff's Current Law (KCL) says the **algebraic sum of currents at any node (junction)** equals zero. A **node** is any point where two or more wires meet; a **branch** is a single path connecting two nodes. The law follows from **conservation of electric charge** — charge cannot pile up at a junction.
+
+| Quantity | Symbol | Meaning | SI Unit |
+|---|---|---|---|
+| Current | *I* | Rate of charge flow through a branch | ampere (A) |
+| Node voltage | *V* | Electric potential at the junction | volt (V) |
+| Branch count | *n* | Number of wires meeting at the node | dimensionless |
+
+> 💡 **High-Yield Memory Hook:** **"What goes in must come out"** — at every node, ΣI_in = ΣI_out. Equivalently, give entering currents a **+** sign and leaving currents a **−** sign (or vice versa, but stay consistent); their signed sum is **0**. Think **C-N-N**: **C**harge conserved, **N**ode rule, **N**o accumulation.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Study guide** — DU Admission (Bangladesh)
-Overview: Electricity and Magnetism covers electric circuits, magnetic fields, and electromagnetic induction
-Core principles: Ohm's Law, Kirchhoff's Laws, Faraday's Laws, Lorentz force
-Key points: Series/parallel circuits, magnetic field around conductor, AC/DC generators
-Study strategy: Master circuit analysis with diagrams, memorize all formulas
+#### Core Statement and Derivation
+
+KCL is a direct consequence of the **continuity equation** for charge. If no charge accumulates at a node, then by definition the net rate of charge entering must equal the net rate leaving. Mathematically:
+
+$$\sum_{k=1}^{n} I_k = 0 \quad \text{(at any node)}$$
+
+where each *I_k* is a signed branch current (entering = + , leaving = −) in **ampere (A)**, and *n* is the number of branches meeting at the node.
+
+Equivalently: **Σ I_in = Σ I_out**, which is the form most often used in DU Admission numerical problems because it avoids sign errors.
+
+#### Concept Comparison Matrix
+
+| Feature | KCL (Current Law) | KVL (Voltage Law) |
+|---|---|---|
+| Applies to | A **node / junction** | A **closed loop** |
+| Physical basis | Conservation of **charge** | Conservation of **energy** |
+| Statement | Σ I_k = 0 at a node (A) | Σ V_k = 0 around a loop (V) |
+| Variables | Signed currents *I* in **A** | Signed voltage drops *V* in **V** |
+| Typical trap | Mixing signs of currents | Forgetting the polarity of EMFs |
+
+#### Steps to Apply KCL in a Circuit
+
+1. **Identify every node** in the circuit and label them (A, B, C …).
+2. **Assign a reference direction** to each branch current with an arrow.
+3. **Write Σ I_in = Σ I_out** at each node (or Σ I_signed = 0).
+4. Combine with **KVL equations** for independent loops to solve unknown currents.
+5. A negative answer simply means the actual direction is opposite to the assumed arrow.
+
+#### 🎯 Exam-Level Worked Problem
+
+**Question:** Three branches meet at node X. Current I₁ = 4 A enters, I₂ = 7 A enters, and I₃ leaves the node. Current I₄ = 3 A also enters from a fourth branch. **(a)** Write the KCL equation at node X. **(b)** Find the magnitude of I₃.
+
+#### Solution:
+- **(a)** Apply Σ I_in = Σ I_out:
+  $$I_1 + I_2 + I_4 = I_3$$
+- **(b)** Substitute the values (all in ampere):
+  $$4\,\text{A} + 7\,\text{A} + 3\,\text{A} = I_3 \;\Rightarrow\; I_3 = 14\,\text{A}$$
+
+The 14 A leaves node X, which is consistent because more current is being funnelled in (14 A total in) than is leaving through any single earlier branch.
+
+> ⚠️ **Examiner Trap:** Many students write Σ I = 0 around a *loop* instead of at a *node*. Loop equations belong to **KVL**, not KCL. Also, do **not** drop a branch when several currents share a node — every wire touching the junction must appear in the sum, including current-source branches.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-## Electricity and Magnetism — Complete Study Notes
+#### Boundary Conditions and Limits
+
+KCL holds **instantaneously** for any lumped circuit, including AC networks with time-varying currents. It breaks down only in **distributed elements** (transmission lines, waveguides) where the node approximation fails because charge can spread along the conductor.
+
+| Condition | Does KCL hold? | Reason |
+|---|---|---|
+| DC steady state | ✅ Yes | Charge does not accumulate at nodes |
+| AC sinusoidal steady state | ✅ Yes | Averaged charge still conserved |
+| Transient switching | ✅ Yes | Continuity equation remains valid |
+| Distributed / wave regime | ❌ No | Node lumped-element model breaks down |
+
+#### Common Advanced Traps
+
+1. **Supernode analysis:** When a voltage source sits between two nodes, treat them as one supernode and apply KCL to the combined boundary — internal current of the source is unknown.
+2. **Floating nodes / open circuits:** A node with only one attached branch forces that branch current to zero; KCL then demands the branch carries no charge.
+3. **Current sources:** A branch containing an ideal current source *must* still appear in the KCL sum — its value is fixed by the source, not by Ohm's law.
+4. **Sign-convention drift:** Switching the assumed direction of one branch mid-problem invalidates the equations of every node that touches it.
+
+#### Connections to Adjacent Topics
+
+- **KVL (Kirchhoff's Voltage Law):** Together with KCL, KVL generates a solvable **2b** linear system for a planar circuit with *b* branches and *n* nodes, where the number of independent KVL equations is *b − n + 1*.
+- **Nodal analysis:** A systematic method that writes KCL directly in terms of node voltages; reduces to solving linear equations of the form **G·V = I**, where **G** is the conductance matrix (S).
+- **Charge conservation (continuity equation):** The Maxwell-equation parent of KCL — ∂ρ/∂t + ∇·**J** = 0 — collapses to KCL under the lumped-circuit assumption.
+
+#### Advanced Practice Prompts
+
+1. A node has five branches with currents +3 A, −5 A, +8 A, −2 A, and an unknown *I₅*. Apply Σ I = 0 to find *I₅* and state whether it enters or leaves the node.
+2. In a two-node circuit with a 10 V source and resistors R₁ = 2 Ω and R₂ = 3 Ω in parallel branches, set up two KCL equations and solve for the branch currents using node voltages.
 
 ---
 
-## Part A: Electricity
+## Continue your study
 
-### Electric Charge
+- **[View this topic in your DU Admission (Bangladesh) roadmap](/roadmap/?exam=du-ad&duration=1mo)** — see where "Kirchhoff's Current Law (KCL)" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=du-ad&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[DU Admission (Bangladesh) exam overview](/exams/du-ad/)** — pattern, eligibility, and syllabus
+- **[All Science notes](/notes/du-ad/science/)** — browse sibling topics in this subject
 
-- **Positive charge**: Due to loss of electrons (cation)
-- **Negative charge**: Due to gain of electrons (anion)
-- **Charge on electron**: e = −1.6 × 10⁻¹⁹ C
-- **Quantization**: Q = ne (where n = integer)
-- **Law of charges**: Like charges repel, unlike charges attract
-- **Conservation**: Charge can neither be created nor destroyed
-
-### Electric Current
-
-- **Current (I)**: Rate of flow of charge
-- **I = Q/t** (Ampere = Coulomb/second)
-- **Direction**: Conventionally from + to − (opposite to electron flow)
-- **Electron flow**: Actual direction ( − to +)
-- **Charge carrier**: Electron in metals, ion in electrolytes
-
-### Potential and Potential Difference
-
-- **Electric potential (V)**: Work done to bring unit positive charge from infinity to point
-- **Potential difference**: V = W/Q = J/C = Volt
-- **1 Volt**: Potential difference when 1 joule work is done moving 1 coulomb charge
-
-### Ohm's Law
-
-**V = IR**
-
-Where:
-- V = Potential difference (Volt)
-- I = Current (Ampere)
-- R = Resistance (Ohm, Ω)
-
-**Limitations:**
-- Does not apply to non-ohmic conductors (diode, transistor)
-- Does not apply when temperature changes significantly
-
-### Resistance
-
-**R = ρL/A**
-
-Where:
-- ρ = Resistivity (Ω·m) — material property
-- L = Length (m)
-- A = Cross-sectional area (m²)
-
-**Factors affecting resistance:**
-- R ∝ L (directly proportional to length)
-- R ∝ 1/A (inversely proportional to area)
-- R ∝ ρ (depends on material)
-- R increases with temperature (for metals)
-
-**Superconductors:** Zero resistance below critical temperature (e.g., Mercury below 4.2 K)
-
-### Resistors in Series
-
-- Same current through all resistors
-- Total voltage: V = V₁ + V₂ + V₃
-- **Total resistance: R = R₁ + R₂ + R₃**
-- Voltage division: V₁/V₂ = R₁/R₂
-
-### Resistors in Parallel
-
-- Same voltage across all resistors
-- Total current: I = I₁ + I₂ + I₃
-- **1/R = 1/R₁ + 1/R₂ + 1/R₃**
-- Current division: I₁/I₂ = R₂/R₁
-
-### Electric Power
-
-**P = VI = I²R = V²/R**
-
-- SI unit: Watt (W)
-- 1 horsepower = 746 W
-- **Energy consumed**: W = Pt = VIt
-
-### Kirchhoff's Laws
-
-#### Kirchhoff's Current Law (KCL)
-At any junction, **sum of currents entering = sum of currents leaving**
-- Based on conservation of charge
-
-#### Kirchhoff's Voltage Law (KVL)
-In any closed loop, **sum of EMFs = sum of potential drops**
-- Based on conservation of energy
-
-### Cells and EMFs
-
-- **EMF (ε)**: Potential difference across cell terminals when no current flows
-- **Terminal voltage (V)**: P.D. when current flows through external resistance
-- **V = ε − Ir** (where r = internal resistance)
-- **Internal resistance**: Resistance offered by electrolyte inside cell
-- For maximum current: External resistance = Internal resistance (R = r)
-
-### Combination of Cells
-
-| Combination | Condition | Total EMF | Total Internal Resistance |
-|-------------|-----------|-----------|--------------------------|
-| Series | Same direction | nε | nr |
-| Parallel | Identical cells | ε | r/n |
-
-### Heating Effect of Current
-
-**Joule's Law of Heating: H = I²Rt = V²t/R = VIt**
-
-- All electrical energy eventually converts to heat
-- Filament of bulb: Tungsten (high melting point 3380°C)
-- Fuse wire: Lead-tin alloy (low melting point)
-
-### Chemical Effect of Current
-
-- **Electrolyte**: Solution that conducts electricity with chemical change
-- **Electrolytes**: Acids, bases, salts in solution
-- **Non-electrolytes**: Sugar, alcohol (no ions)
-- **Electrolytic dissociation**: Separation of ions in solution
-- **Faraday's Laws of Electrolysis**:
-  - m = ZIt (mass deposited)
-  - Z = electrochemical equivalent
-
----
-
-## Part B: Magnetism
-
-### Magnetic Field
-
-- Region around magnet where force can be detected
-- **Magnetic field lines**: Emerge from N-pole, enter S-pole (outside magnet)
-- Inside magnet: S to N (closed loops)
-- **Magnetic flux (φ)**: Total magnetic field passing through area (Weber, Wb)
-- **Magnetic flux density (B)**: Flux per unit area (Tesla, T)
-
-### Earth's Magnetic Field
-
-- Earth behaves as a huge magnet
-- **Magnetic north** ≈ Geographic south (and vice versa)
-- **Magnetic declination**: Angle between geographic and magnetic meridian
-- **Magnetic inclination/dip**: Angle magnetic needle makes with horizontal
-
-### Magnetic Effects of Current
-
-#### Oersted's Experiment (1820)
-Current through straight conductor produces circular magnetic field around it.
-- **Right-hand thumb rule**: Thumb = current direction, fingers = field direction
-
-#### Magnetic Field Formulas
-
-**Near straight conductor:**
-B = (μ₀/4π) × (2I/d)
-
-**Near circular coil (at center):**
-B = (μ₀/4π) × (2πnI/r) = μ₀nI/2r
-
-**Near solenoid:**
-B = μ₀nI (inside solenoid, uniform field)
-Where n = N/L (turns per unit length)
-
-#### Ampere's Swimming Rule
-If a man swims along a conductor with current, facing the compass needle — current from left to right, north pole deflects towards his left hand side.
-
-### Force on Current-Carrying Conductor in Magnetic Field
-
-**F = BIL sinθ**
-
-Where:
-- B = Magnetic field strength
-- I = Current
-- L = Length of conductor
-- θ = Angle between conductor and field
-
-**Fleming's Left-Hand Rule:**
-- Thumb = Force
-- First finger = Magnetic field (N to S)
-- Second finger = Current (positive to negative)
-
-### Force on Moving Charge in Magnetic Field
-
-**F = qvB sinθ**
-
-- Perpendicular to both v and B
-- No force when charge moves parallel to field
-- Maximum force when charge moves perpendicular to field
-- **q = 0** for neutron (no magnetic effect)
-
-### Circular Motion in Magnetic Field
-
-When a charged particle enters perpendicular to magnetic field:
-- Radius: r = mv/qB
-- Time period: T = 2πm/qB (independent of velocity)
-- **Important**: Cyclotron uses this principle
-
-### Electromagnetic Induction
-
-**Faraday's Experiments:**
-1. Moving magnet near coil → current induced
-2. Moving coil near stationary magnet → current induced
-3. Changing current in one coil → current induced in nearby coil
-
-#### Faraday's Laws of Electromagnetic Induction
-
-**First Law:** Whenever magnetic flux linked with a coil changes, an EMF is induced.
-**Second Law:** Induced EMF is directly proportional to rate of change of flux.
-
-**ε = −N dφ/dt**
-
-The negative sign indicates **Lenz's Law**.
-
-#### Lenz's Law
-Induced current flows in such a direction that it opposes the change in magnetic flux that produced it.
-
-- **Conservation of energy** → Lenz's Law is a consequence of energy conservation
-
-### Motional EMF
-
-When a conductor moves in magnetic field:
-**ε = Bvl** (perpendicular to field)
-
-- Used in **DC generator**, ** Moving coil microphone**
-
-### Self-Induction and Mutual Induction
-
-**Self-induction:**
-- Coil opposes change in its own current
-- **ε = −L dI/dt**
-- L = Self-inductance (Henry, H)
-
-**Mutual induction:**
-- Change in current in one coil induces EMF in nearby coil
-- **ε₂ = −M dI₁/dt**
-- M = Mutual inductance
-
-### AC and DC
-
-| Feature | AC (Alternating Current) | DC (Direct Current) |
-|---------|-------------------------|---------------------|
-| Direction | Reverses periodically | Constant |
-| Frequency | 50 Hz (BD/India) | 0 Hz |
-| Transmission | Easy (transformer) | Difficult |
-| Generation | AC Generator | DC Generator/Battery |
-
-### AC Generator (Dynamo)
-
-- Converts mechanical energy → electrical energy
-- **ε = ε₀ sin ωt** where ε₀ = NBAω (peak EMF)
-- Slip rings → AC output
-- Commutator → DC output
-
-### Transformer
-
-**Vₛ/Vₚ = Nₛ/Nₚ = Iₚ/Iₛ**
-
-- **Step-up**: Vₛ > Vₚ (Nₛ > Nₚ)
-- **Step-down**: Vₛ < Vₚ (Nₛ < Nₚ)
-- **Efficiency** = (V₂I₂)/(V₁I₁) × 100%
-- Ideal transformer: 100% efficient (no energy loss)
-
-### Must-Remember Formulas
-
-| Formula | Application |
-|---------|-------------|
-| V = IR | Ohm's Law |
-| R = ρL/A | Resistance calculation |
-| P = VI = I²R | Electric power |
-| F = BIL sinθ | Force on conductor |
-| F = qvB sinθ | Force on moving charge |
-| r = mv/qB | Radius of circular path |
-| ε = −N dφ/dt | Faraday's Law |
-| ε = Bvl | Motional EMF |
-| Vₛ/Vₚ = Nₛ/Nₚ | Transformer ratio |
-
-### Must-Remember Facts
-
-- **Right-hand thumb rule**: Current direction vs field direction
-- **Fleming's left-hand rule**: Force on current-carrying conductor
-- **Fleming's right-hand rule**: Direction of induced current (generator)
-- **Lenz's Law**: Induced EMF opposes change in flux (energy conservation)
-- **Transformer works only for AC** (not DC)
-- **Cyclotron frequency** T = 2πm/qB (independent of velocity)
-- **1 Tesla** = 10,000 Gauss
-- **μ₀** (permeability of free space) = 4π × 10⁻⁷ H/m
-- **Efficiency of transformer** increases with core lamination
-
-### Common DU Admission Questions
-
-1. Series and parallel resistance calculation
-2. Ohm's Law numerical problems
-3. Force on current-carrying conductor in magnetic field
-4. Faraday's law of electromagnetic induction
-5. Transformer ratio (step-up/step-down)
-6. KCL and KVL application in circuits
-7. Oersted's experiment and magnetic field around conductor
-
-### Exam Tips
-
-- In series circuit: Current same, voltage divides proportionally
-- In parallel circuit: Voltage same, current divides inversely
-- When solving circuits with Kirchhoff's Laws: Write as many independent equations as unknown currents
-- Lenz's Law always opposes the cause — always check direction of induced current
-- For electromagnetic induction: Remember "Rate of change of flux" — not flux itself
-
----
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

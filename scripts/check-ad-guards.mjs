@@ -48,7 +48,7 @@ if (strayBackticks) {
 }
 const js = body.replace(/\$\{[^}]*\}/g, '__CFG__');
 
-function makeEnv({ zoneEnabled = true, webdriver = false, sessionHad = false, lastPopunder = 0, ua = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/128 Safari/537.36', geo = 'IN', consent = 'granted', adsOff = false, pushEnabled = true, pushPermission = 'default', pushDismissed = false, pushReloaded = false, permResult = 'granted' } = {}) {
+function makeEnv({ zoneEnabled = true, multitagEnabled = false, vignetteEnabled = true, webdriver = false, sessionHad = false, lastPopunder = 0, ua = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/128 Safari/537.36', geo = 'IN', consent = 'granted', adsOff = false, pushEnabled = true, pushPermission = 'default', pushDismissed = false, pushReloaded = false, permResult = 'granted' } = {}) {
   const scripts = []; const listeners = {};
   // Push registration is a permission request, not a decoration: record every
   // call so the gate can be asserted synchronously (the real API is async).
@@ -57,6 +57,13 @@ function makeEnv({ zoneEnabled = true, webdriver = false, sessionHad = false, la
   const reloads = [];
   const cfg = {
     enabled: true, tag: 'https://quge5.com/88/tag.min.js', multitag: 280401,
+    // Container OFF (2026-09-17). It bundled a second uncapped popunder plus
+    // In-Page Push at a $0.0099 eCPM. Production sets this false; the
+    // reversibility case below flips it back on to prove one constant still
+    // controls the whole leg.
+    multitagEnabled,
+    vignette: 11799057, vignetteTag: 'https://n6wxm.com/vignette.min.js', vignetteEnabled,
+    directlink: 11823622, directlinkUrl: 'https://omg10.com/4/11823622', directlinkEnabled: true,
     pushZone: 11798846, pushSw: '/sw.js', pushEnabled,
     pushDismissKey: 'sr:push:dismissed', pushReloadKey: 'sr:push:reloaded',
     popunder: 11805678, popunderZoneEnabled: zoneEnabled, cooldownMs: 43200000,
@@ -123,9 +130,12 @@ const HOST = (env, id) => { const s = env.scripts.find(x => x.id === id); return
 const ZONE = (env, id) => { const s = env.scripts.find(x => x.id === id); return s ? s.dataset.zone : null; };
 
 const cases = [
-  ['human, fresh session      ', {}, env => env.ids.includes('sr-monetag') && env.ids.includes('sr-monetag-popunder') && env.ad.popunder === true],
+  ['human, fresh session      ', {}, env => env.ids.includes('sr-vignette') && env.ids.includes('sr-monetag-popunder') && env.ad.popunder === true],
   ['popunder uses its own host', {}, env => HOST(env, 'sr-monetag-popunder') === 'https://al5sm.com/tag.min.js' && ZONE(env, 'sr-monetag-popunder') === '11805678'],
-  ['multitag uses shared host ', {}, env => HOST(env, 'sr-monetag') === 'https://quge5.com/88/tag.min.js' && env.scripts.find(x => x.id === 'sr-monetag').getAttribute('data-zone') === '280401'],
+  ['container is NOT loaded   ', {}, env => !env.ids.includes('sr-monetag') && env.ad.multitag === false],
+  ['vignette uses its own host', {}, env => HOST(env, 'sr-vignette') === 'https://n6wxm.com/vignette.min.js' && ZONE(env, 'sr-vignette') === '11799057'],
+  ['vignette is switched off  ', { vignetteEnabled: false }, env => !env.ids.includes('sr-vignette') && env.ad.vignette === false],
+  ['container reversible      ', { multitagEnabled: true }, env => env.ids.includes('sr-monetag') && env.ad.multitag === true],
   ['human, session already had ', { sessionHad: true }, env => !env.ids.includes('sr-monetag-popunder') && env.ad.popunderSkipped === 'session-cap'],
   ['human, inside 12h cooldown ', { lastPopunder: Date.now() - 3600_000 }, env => !env.ids.includes('sr-monetag-popunder') && env.ad.popunderSkipped === 'cooldown'],
   ['human, past 12h cooldown   ', { lastPopunder: Date.now() - 13 * 3600_000 }, env => env.ids.includes('sr-monetag-popunder') && env.ad.popunder === true],
@@ -167,5 +177,59 @@ for (const [name, opts, check] of cases) {
   if (!ok) bad++;
   console.log(`${ok ? 'PASS' : 'FAIL'}  ${name}  scripts=[${env.ids.join(',')}] reason=${env.ad.reason} skip=${env.ad.popunderSkipped}`);
 }
+// ---- production wiring: the shipped constants themselves -------------------
+// The cases above run against a hand-built cfg, so every one of them can pass
+// while the SHIPPED constants say something else — the container quietly back on,
+// or a tag host no CSP allows. These read the real values.
+const constNum = (name) => {
+  const mm = adsTs.match(new RegExp(name + '\\s*=\\s*([0-9]+)'));
+  return mm ? Number(mm[1]) : null;
+};
+const constStr = (name) => {
+  const mm = adsTs.match(new RegExp(name + "\\s*=\\s*'([^']*)'"));
+  return mm ? mm[1] : null;
+};
+const constBool = (name) => {
+  const mm = adsTs.match(new RegExp(name + '\\s*=\\s*(true|false)'));
+  return mm ? mm[1] === 'true' : null;
+};
+
+const nginxConf = readFileSync('nginx.conf', 'utf8');
+// Strip comment lines first. nginx.conf documents its own headers in prose that
+// mentions `script-src`, and a plain /script-src[^;]*/ matches that COMMENT
+// before it ever reaches the real directive — which made this check report a
+// missing host that was in fact present (found 2026-09-17 while writing it).
+const nginxDirectives = nginxConf
+  .split('\n')
+  .filter((line) => !line.trimStart().startsWith('#'))
+  .join('\n');
+const scriptSrc = (nginxDirectives.match(/script-src[^;]*/g) || []).join(' ');
+// Any host we load a tag from must be allowed by script-src, or the browser
+// blocks the script and the zone serves nothing while every other check stays
+// green. This is precisely the check that would have caught n6wxm.com before it
+// shipped: the vignette's real host is not the shared quge5.com one, and the
+// live CSP did not know about it.
+const tagHosts = [
+  constStr('MONETAG_VIGNETTE_TAG_SRC'),
+  constStr('MONETAG_POPUNDER_TAG_SRC'),
+].filter(Boolean);
+const wiring = [
+  ['container 280401 is OFF        ', constBool('MONETAG_MULTITAG_ENABLED') === false],
+  ['vignette zone is 11799057      ', constNum('MONETAG_VIGNETTE_ZONE') === 11799057],
+  ['vignette is enabled            ', constBool('MONETAG_VIGNETTE_ENABLED') === true],
+  ['push is OFF (container-only)   ', constBool('MONETAG_PUSH_ENABLED') === false],
+  ['direct link is the omg10 url   ', String(constStr('MONETAG_DIRECTLINK_URL') || '').startsWith('https://omg10.com/')],
+  ['direct link is enabled         ', constBool('MONETAG_DIRECTLINK_ENABLED') === true],
+  ...Array.from(new Set(tagHosts)).map((u) => {
+    let host = u;
+    try { host = new URL(u).hostname; } catch (e) { /* keep raw for the message */ }
+    return ['CSP allows script host ' + host, scriptSrc.includes(host)];
+  }),
+];
+for (const [name, ok] of wiring) {
+  if (!ok) bad++;
+  console.log(`${ok ? 'PASS' : 'FAIL'}  ${name}`);
+}
+
 console.log(bad ? `\n${bad} FAILURES` : '\nall guard cases pass');
 process.exit(bad ? 1 : 0);

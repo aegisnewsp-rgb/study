@@ -1,10 +1,22 @@
 ---
+import { adEligible, MONETAG_DIRECTLINK_URL, MONETAG_DIRECTLINK_ENABLED } from '../lib/ads';
+
 interface Props {
     lastRevision?: string;
     lastRevisionIso?: string;
 }
 
 const { lastRevision, lastRevisionIso } = Astro.props;
+
+// Monetag Direct Link (zone 11823622). A user-initiated sponsored link, never
+// auto-opened — an auto-open would be a second popunder, which the ad policy
+// forbids. Gated on the same eligibility rule as every ad unit so it can never
+// appear on /roadmap/, the policy pages, /404/ or a noindex page: a sponsored
+// link on the privacy page would breach the placement rules just as an ad unit
+// would.
+const sponsoredHref = MONETAG_DIRECTLINK_ENABLED ? MONETAG_DIRECTLINK_URL : '';
+const showSponsored = Boolean(sponsoredHref) && adEligible(Astro.url.pathname);
+
 
 const footerGroups = [
     {
@@ -114,6 +126,17 @@ const footerGroups = [
             <p class="text-xs text-surface-400 dark:text-surface-500">
                 Not affiliated with any exam board. Always verify dates and fees with the official notice.
             </p>
+            {showSponsored && (
+                <p class="text-xs text-surface-400 dark:text-surface-500">
+                    <a
+                        href={sponsoredHref}
+                        data-sr-directlink="1"
+                        target="_blank"
+                        rel="nofollow sponsored noopener"
+                        class="hover:text-brand-600 dark:hover:text-brand-400 underline-offset-2 hover:underline"
+                    >Sponsored offer</a>
+                </p>
+            )}
         </div>
 
         <!-- Editorial accountability strip — links published process + named editor for E-E-A-T -->

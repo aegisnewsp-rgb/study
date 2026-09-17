@@ -43,39 +43,42 @@ export const MONETAG_TAG_SRC = 'https://quge5.com/88/tag.min.js';
  *   zone_type_id  74 + direction 61  -> Vignette Banner
  *   multitag:true, no type           -> Push Notifications
  *
- *   11798843  Rich tag      OnClick (Popunder)   MULTI  <- where our popunder
- *   11798844  Rich tag      In-Page Push         MULTI     impressions come from
- *   11798845  Rich tag      Vignette Banner      MULTI
- *   11798846  Rich tag      Push Notifications   MULTI  <- now wired: /sw.js
- *                                                         holds this zone's own
- *                                                         service worker and
- *                                                         AdRouter registers it
- *                                                         for eligible humans
- *                                                         only (2026-09-16).
- *                                                         Before that the tag
- *                                                         produced 1,467
- *                                                         prerequests and zero
- *                                                         requests, because
- *                                                         nothing in the page
- *                                                         ever registered a
- *                                                         worker.
+ *   11798843  Rich tag      OnClick (Popunder)   MULTI  <- OURS. Container's
+ *   11798844  Rich tag      In-Page Push         MULTI     PRIMARY OnClick
+ *   11798845  Rich tag      Vignette Banner      MULTI     format, our biggest
+ *   11798846  Rich tag      Push Notifications   MULTI     single revenue line.
  *   11805678  standalone    OnClick (Popunder)   12 h cap
  *
- * Deliberately NOT wired — do not "finish" these by adding a loader. Each one
- * duplicates a format the container already serves, so a loader would buy a
- * second request and a wider CSP for no extra impression, and (for the push
- * variants) a second notification permission prompt the visitor never asked
- * for:
+ * CORRECTED 2026-09-17 against `monetag_get_zones`, three times over:
  *
- *   11799057  Talented tag  Vignette Banner      standalone vignette (2026-09-15)
- *                                                 duplicate of 11798845
- *   11799015  standalone    In-Page Push         duplicate of 11798844 — and per
- *                                                 the 2026-09-15 Monetag review
- *                                                 this format is the account's
- *                                                 worst CPM ($0.014 vs $0.494
- *                                                 for the popunder), so paying a
- *                                                 request for a second one is
- *                                                 negative value
+ *   * 11798843 IS ours. The API returns it with site_id 3489910 (our site),
+ *     multitag:true, zone_type_id 115, sharing site_direction_id 3877508 with
+ *     our standalone popunder. A prior session read the container's
+ *     `extra_formats` array ([11798846, 11798845, 11798844]) and concluded that
+ *     WAS the container. It is the container's EXTRA formats; 11798843 is its
+ *     primary OnClick and can never appear there. Grading on that array
+ *     excluded our top earner — $0.026298 of $0.058825 over 7 days, ~45% — from
+ *     "attributable to us" and told every review run to ignore it.
+ *   * 11799057 was NOT dead. We probed it against the shared quge5.com host and
+ *     got a 404. Its real tag is n6wxm.com/vignette.min.js (HTTP 200, 193 KB).
+ *     Same trap as the popunder host mismatch below: the host is per-zone, so a
+ *     404 from the wrong host is not a dead zone.
+ *   * 11823622 is a DIRECT LINK (zone_type_id 114), created 2026-09-17 — not an
+ *     OnClick zone as an earlier reading of this file assumed.
+ *
+ * The container is OFF as of 2026-09-17, by operator decision — see the block
+ * on MONETAG_MULTITAG_ENABLED below for the 7-day numbers behind it.
+ *
+ * Still deliberately NOT wired — do not "finish" these by adding a loader.
+ * Each one duplicates a format we already serve standalone, so a loader would
+ * buy a second request and a wider CSP for no extra impression:
+ *
+ *   11799015  standalone    In-Page Push         duplicate of the format we just
+ *                                                 removed from the container for
+ *                                                 being the account's worst CPM
+ *                                                 (measured $0.0099 eCPM against
+ *                                                 $0.144 for vignette). Negative
+ *                                                 value by definition.
  *   11805740  standalone    In-Page Push         same as 11799015; created
  *                                                 later, same duplicate/CPM
  *                                                 argument. Kept in the census
@@ -83,6 +86,68 @@ export const MONETAG_TAG_SRC = 'https://quge5.com/88/tag.min.js';
  *                                                 rather than an oversight
  */
 export const MONETAG_MULTITAG_ZONE = 280401;
+
+/**
+ * The MultiTag container is OFF as of 2026-09-17, by operator decision.
+ *
+ * Why: a container is all-or-nothing, and its four members are not equally worth
+ * their requests. Graded over the 7 days to 2026-09-17
+ * (`monetag_get_statistics`, group_by=zone_id):
+ *
+ *   11798843  OnClick        66 impr   $0.026298   eCPM $0.399  <- biggest line
+ *   11798845  Vignette      129 impr   $0.018519   eCPM $0.144
+ *   11798844  In-Page Push  193 impr   $0.001912   eCPM $0.0099 <- 14x worse
+ *   11798846  Push            7 impr   $0.000000   3 subscriptions
+ *
+ * 11798844 alone took 454 of the account's requests to earn $0.0019. And
+ * 11798843 is a SECOND, uncapped popunder: the container fires it on load while
+ * our own capped popunder (11805678) is also running, which breaks the
+ * one-popunder-per-session rule this file encodes.
+ *
+ * So the container is replaced by three standalone tags, each one we choose, cap
+ * and can attribute:
+ *
+ *   11805678  OnClick (Popunder)   al5sm.com/tag.min.js        (existing)
+ *   11799057  Vignette Banner      n6wxm.com/vignette.min.js   (new here)
+ *   11823622  Direct Link          omg10.com/4/11823622        (new here)
+ *
+ * COST, stated plainly: 11798843 was ~45% of 7-day revenue. Dropping the
+ * container gives that up in exchange for popunder compliance and for no longer
+ * paying 454 requests for $0.0019. The standalone vignette should recover part of
+ * it; the direct link is new and unmeasured.
+ *
+ * CONSEQUENCE: push (11798846) is `multitag: true` with no standalone tag in the
+ * dashboard, so it cannot be served once the container is gone. That is why
+ * MONETAG_PUSH_ENABLED is false below — leaving the opt-in live would ask
+ * visitors for notification permission with nothing behind it.
+ */
+export const MONETAG_MULTITAG_ENABLED = false;
+
+/**
+ * Standalone Vignette Banner — zone 11799057, "Talented tag". Replaces the
+ * container's 11798845 as our in-content native format.
+ *
+ * Its tag host is n6wxm.com and the bundle is `vignette.min.js`, NOT the shared
+ * quge5.com MultiTag host. Verified 2026-09-17:
+ * https://n6wxm.com/vignette.min.js -> HTTP 200, 193,625 bytes.
+ */
+export const MONETAG_VIGNETTE_ZONE = 11799057;
+export const MONETAG_VIGNETTE_TAG_SRC = 'https://n6wxm.com/vignette.min.js';
+export const MONETAG_VIGNETTE_ENABLED = true;
+
+/**
+ * Direct Link — zone 11823622, "Nice tag", created 2026-09-17. A URL, not a
+ * script: it belongs on a user-initiated element and opens the offer only when
+ * the visitor chooses to click.
+ *
+ * Placed as an explicitly labelled sponsored link in the footer — the least
+ * intrusive surface that is still honest to the reader, and the one surface that
+ * cannot fire without a deliberate click. It is never opened automatically: an
+ * auto-open would be a second popunder, which the policy in this file forbids.
+ */
+export const MONETAG_DIRECTLINK_ZONE = 11823622;
+export const MONETAG_DIRECTLINK_URL = 'https://omg10.com/4/11823622';
+export const MONETAG_DIRECTLINK_ENABLED = true;
 
 /**
  * Push-notifications zone. Unlike the other sub-zones it needs a registered
@@ -126,7 +191,15 @@ export const MONETAG_MULTITAG_ZONE = 280401;
  */
 export const MONETAG_PUSH_ZONE = 11798846;
 export const MONETAG_PUSH_SW_PATH = '/sw.js';
-export const MONETAG_PUSH_ENABLED = true;
+/**
+ * OFF as of 2026-09-17. Push is `multitag: true` and has no standalone tag, so
+ * it exists only inside container 280401 — and the container is off. The worker
+ * and the opt-in code stay in place, dormant, because they are correct and
+ * should be reused the moment push is available again: either ask Monetag for a
+ * standalone push zone, or re-enable the container if the push leg is ever worth
+ * more than the In-Page Push dilution it brings back with it.
+ */
+export const MONETAG_PUSH_ENABLED = false;
 
 /**
  * Session flag marking that the offer was already shown in this tab session.

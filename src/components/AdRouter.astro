@@ -40,6 +40,13 @@
 import {
     MONETAG_TAG_SRC,
     MONETAG_MULTITAG_ZONE,
+    MONETAG_MULTITAG_ENABLED,
+    MONETAG_VIGNETTE_ZONE,
+    MONETAG_VIGNETTE_TAG_SRC,
+    MONETAG_VIGNETTE_ENABLED,
+    MONETAG_DIRECTLINK_ZONE,
+    MONETAG_DIRECTLINK_URL,
+    MONETAG_DIRECTLINK_ENABLED,
     MONETAG_POPUNDER_ZONE,
     MONETAG_POPUNDER_DEDICATED_ENABLED,
     MONETAG_POPUNDER_TAG_SRC,
@@ -72,6 +79,13 @@ const { pageGeo = '', enabled = true, popunder = true } = Astro.props;
 const config = {
     tag: MONETAG_TAG_SRC,
     multitag: MONETAG_MULTITAG_ZONE,
+    multitagEnabled: MONETAG_MULTITAG_ENABLED,
+    vignette: MONETAG_VIGNETTE_ZONE,
+    vignetteTag: MONETAG_VIGNETTE_TAG_SRC,
+    vignetteEnabled: MONETAG_VIGNETTE_ENABLED,
+    directlink: MONETAG_DIRECTLINK_ZONE,
+    directlinkUrl: MONETAG_DIRECTLINK_URL,
+    directlinkEnabled: MONETAG_DIRECTLINK_ENABLED,
     pushZone: MONETAG_PUSH_ZONE,
     pushSw: MONETAG_PUSH_SW_PATH,
     pushEnabled: MONETAG_PUSH_ENABLED,
@@ -104,6 +118,8 @@ const js = `
         visitorGeo: '',
         consent: 'unknown',
         multitag: false,
+        vignette: false,
+        directlink: false,
         push: 'pending',
         pushScope: '',
         pushPermission: '',
@@ -174,8 +190,11 @@ const js = `
         }
     }
 
-    // MultiTag loader: the container zone (280401) is served by the shared
-    // quge5.com host and fans out to the Rich-tag zones on Monetag's side.
+    // MultiTag container loader. Retained, but config.multitagEnabled is false:
+    // the container bundled a second uncapped popunder plus In-Page Push at a
+    // $0.0099 eCPM, so it is off by operator decision (2026-09-17). Kept because
+    // re-enabling it is a one-constant change if the push leg is ever judged
+    // worth the dilution.
     function load(id, zone) {
         if (d.getElementById(id)) return;
         var s = d.createElement('script');
@@ -397,17 +416,31 @@ const js = `
 
     var started = false;
 
-    // ---- 1. MultiTag: every ad-eligible page, subject to consent ----------
+    // ---- 1. Ad tags: every ad-eligible page, subject to consent ----------
     function startAds() {
         if (started) return;
         started = true;
         state.reason = 'eligible';
         idle(function () {
-            load('sr-monetag', cfg.multitag);
-            state.multitag = true;
+            // Container 280401 is OFF. Its four members were not equally worth
+            // their requests, and it fired a second uncapped popunder on load.
+            if (cfg.multitagEnabled) {
+                load('sr-monetag', cfg.multitag);
+                state.multitag = true;
+            }
+            // Standalone vignette 11799057 replaces the container's 11798845.
+            // Note the different host: n6wxm.com, not the shared quge5.com one.
+            if (cfg.vignetteEnabled) {
+                loadStandalone('sr-vignette', cfg.vignette, cfg.vignetteTag);
+                state.vignette = true;
+            }
             startPush();
         }, 3500);
         decidePopunder();
+        // The direct link is a user-initiated click on the footer anchor rendered
+        // by Footer.astro; there is nothing to auto-load here. Recorded so the
+        // 30-minute review can assert the surface exists without opening it.
+        state.directlink = !!(cfg.directlinkEnabled && d.querySelector('[data-sr-directlink]'));
     }
 
     function gate() {

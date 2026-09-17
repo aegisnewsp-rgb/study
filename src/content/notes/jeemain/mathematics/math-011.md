@@ -11,7 +11,7 @@ topicName: Differentiation
 weight: 5
 country: india
 generated: "2026-04-17T22:50:00.000000"
-lastUpdated: 2026-04-17
+lastUpdated: "2026-09-17"
 diagramPrompt: "Clean educational diagram showing Differentiation derivative as slope of tangent with clear labels, white background, color-coded curves, exam-style illustration"
 
 
@@ -19,171 +19,126 @@ diagramPrompt: "Clean educational diagram showing Differentiation derivative as 
 
 
 ---
+
 # Differentiation
 
-### 🟢 Lite — Quick Review
+### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Differentiation** — Key Facts for JEE Main
-Derivative: rate of change of function with respect to variable; f'(x) = dy/dx = lim(h→0) [f(x+h) − f(x)]/h
-dy/dx represents slope of tangent to curve at point (x, y)
-Second derivative: d²y/dx² = derivative of dy/dx
-Standard derivatives: d/dx(x^n) = nx^{n−1}; d/dx(sin x) = cos x; d/dx(e^x) = e^x; d/dx(ln x) = 1/x
-Chain rule: d/dx[f(g(x))] = f'(g(x)) · g'(x)
-⚡ Exam tip: JEE Main tests chain rule heavily — always identify the outer and inner functions before differentiating!
+The derivative of a real function y = f(x) at x is defined by the first-principles limit
+
+$$f'(x)=\lim_{h\to 0}\frac{f(x+h)-f(x)}{h},$$
+
+where x and h carry the units of the input, and f'(x) carries the units of the output divided by the input's units. Geometrically, f'(a) equals the slope of the tangent to the curve at x = a; physically, it gives the instantaneous rate of change.
+
+| Rule | Formula | Condition |
+|---|---|---|
+| Power rule | d/dx (x^n) = n·x^(n−1) | n real, x in m → derivative in m^(n−1) per m |
+| Sum/difference | (u ± v)' = u' ± v' | Always valid |
+| Product rule | (uv)' = u'v + uv' | u, v differentiable |
+| Quotient rule | (u/v)' = (u'v − uv')/v² | v(x) ≠ 0 |
+| Chain rule | d/dx f(g(x)) = f'(g(x))·g'(x) | g differentiable inside f's domain |
+
+> 💡 **High-Yield Memory Hook:** **P**ower, **P**roduct, **P**arentheses — "PPP" — always check the outermost parentheses first because the chain rule rides on the outside function. For u/v remember the mnemonic **"Low dHigh minus High dLow, over Low²"** = (u'v − uv')/v².
 
 ---
 
-### 🟡 Standard — Core Study
+### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Differentiation** — JEE Main Study Guide
+#### Core Definition and Geometric Meaning
 
-**Basic differentiation formulas:**
-- d/dx(x^n) = nx^{n−1} (power rule)
-- d/dx(constant) = 0
-- d/dx(e^x) = e^x
-- d/dx(a^x) = a^x · ln a
-- d/dx(ln x) = 1/x
-- d/dx(log_a x) = 1/(x · ln a)
+The derivative is the limiting value of the average rate of change as the interval shrinks to zero. If the distance s (in metres) of a particle from origin at time t (in seconds) is s = f(t), then f'(t) has units of m/s and equals the instantaneous velocity. The slope of the secant joining (x, f(x)) and (x+h, f(x+h)) approaches the slope of the tangent as h → 0.
 
-**Trigonometric derivatives:**
-- d/dx(sin x) = cos x
-- d/dx(cos x) = −sin x
-- d/dx(tan x) = sec²x
-- d/dx(cot x) = −cosec²x
-- d/dx(sec x) = sec x tan x
-- d/dx(cosec x) = −cosec x cot x
+#### Standard Derivatives to Memorise
 
-**Inverse trig derivatives:**
-- d/dx(sin⁻¹x) = 1/√(1−x²)
-- d/dx(cos⁻¹x) = −1/√(1−x²)
-- d/dx(tan⁻¹x) = 1/(1+x²)
-- d/dx(cot⁻¹x) = −1/(1+x²)
+| Function f(x) | Derivative f'(x) | Domain note |
+|---|---|---|
+| sin x, cos x, tan x | cos x, −sin x, sec²x | All real x for sin/cos; cos x ≠ 0 for tan |
+| e^x, a^x | e^x, a^x ln a | a > 0, a ≠ 1 |
+| ln x, log_a x | 1/x, 1/(x ln a) | x > 0 only; absolute value needed for x < 0 |
+| arcsin x, arctan x | 1/√(1−x²), 1/(1+x²) | \|x\| ≤ 1 for arcsin |
 
-**Product rule:** d/dx(f·g) = f'·g + f·g'
-**Quotient rule:** d/dx(f/g) = (f'·g − f·g')/g²
-**Chain rule:** d/dx[f(g(x))] = f'(g(x)) · g'(x)
+#### Product vs Quotient vs Chain — Easily Confused
 
-**Parametric differentiation:**
-If x = f(t), y = g(t), then dy/dx = (dy/dt)/(dx/dt) = g'(t)/f'(t)
+| Situation | Correct rule | Typical sign of error |
+|---|---|---|
+| (uv)' | u'v + uv' | Adding extra u'v' terms |
+| (u/v)' | (u'v − uv')/v² | Writing "+" instead of "−" |
+| sin(x²) | cos(x²)·2x | Differentiating only sin and forgetting 2x |
+| x^x (x > 0) | x^x(1 + ln x) | Treating it as x^n with constant n |
+| ln\|x\| | 1/x (for all x ≠ 0) | Writing 1/x only for x > 0 |
 
-**Second order derivative:**
-d²y/dx² = d/dx(dy/dx); for parametric: d²y/dx² = d/dx(dy/dx)/(dx/dt)
+> 📌 **Formula Check:** In the chain rule d/dx f(g(x)) = f'(g(x))·g'(x), the inner derivative g'(x) carries the unit of x; f'(g(x)) carries the unit of y per unit of g, so their product correctly carries the unit of y per unit of x.
 
-**Implicit differentiation:**
-Differentiate both sides with respect to x, treating y as function of x
-For terms with y, use chain rule: d/dx(y²) = 2y · dy/dx
+#### Higher-Order Derivatives and Physics Linkage
 
-**Logarithmic differentiation:**
-Take ln of both sides for products/quotients with powers
-Example: y = x^x → ln y = x ln x → dy/dx = y(ln x + 1)
+The second derivative f''(x) is the derivative of f'(x). If s(t) is displacement, v(t) = s'(t) is velocity (m/s) and a(t) = v'(t) = s''(t) is acceleration (m/s²). JEE physics questions on rectilinear motion often use this linkage to test calculus skill on a kinematics problem.
 
-**Inverse function derivative:**
-If y = f(x), then dx/dy = 1/(dy/dx) = 1/f'(x)
+#### Application of Derivatives — Critical Point Test
 
-- **Key formula:** d/dx(x^n) = nx^{n−1}; chain rule: d/dx[f(g(x))] = f'(g(x))·g'(x)
-- **Common trap:** When differentiating sin(x²), the inner function x² must also be differentiated: d/dx[sin(x²)] = cos(x²) · 2x
-- **Exam weight:** 2–3 questions per year (8–12 marks); foundational for integration and applications
+A critical point of y = f(x) occurs where f'(x) = 0 or f'(x) is undefined. To classify:
+1. Use the first-derivative test: f' changes sign from + to − → local maximum; − to + → local minimum.
+2. Use the second-derivative test: f''(c) > 0 → local minimum; f''(c) < 0 → local maximum; f''(c) = 0 → inconclusive (revert to first-derivative test).
+
+#### 🎯 Exam-Level Worked Problem
+
+**Question:** If y = ln(sin x²), find dy/dx at x = √(π/4). Also determine whether y is increasing or decreasing in the interval (0, √π).
+
+#### Solution:
+Rewrite y = ln(sin(x²)). Apply chain rule twice:
+
+- dy/dx = (1/sin(x²)) · cos(x²) · 2x = 2x·cot(x²).
+
+At x = √(π/4): x² = π/4, so 2x = √π, cot(π/4) = 1. Hence dy/dx = √π (positive).
+
+For 0 < x < √π: x² ∈ (0, π). On (0, π), sin(x²) > 0 and cos(x²) changes sign at x = √(π/2). Thus cot(x²) is positive on (0, √(π/2)) and negative on (√(π/2), √π). Combined with the positive factor 2x, dy/dx is positive on (0, √(π/2)) and negative on (√(π/2), √π). Therefore y increases on (0, √(π/2)) and decreases on (√(π/2), √π).
+
+> ⚠️ **Examiner Trap:** A common blunder is to write dy/dx = cot(x²) and forget the inner derivative 2x. Another frequent slip is treating ln(sin x²) as ln(sin x)·ln x²; remember ln takes only one argument. Also, do not restrict to x > 0 only because ln appears — sin(x²) is positive in (0, √π), so the absolute value is unnecessary here, but on intervals where sin becomes negative you must switch to ln\|sin x²\|.
 
 ---
 
-### 🔴 Extended — Deep Dive
+### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-**Differentiation** — Comprehensive JEE Main Notes
+#### Implicit and Logarithmic Differentiation
 
-**Successive differentiation (nth derivative):**
-- d^n/dx^n (x^m) = m(m−1)...(m−n+1) · x^{m−n}
-- d^n/dx^n (sin(ax+b)) = a^n sin(ax+b + nπ/2)
-- d^n/dx^n (e^{ax}) = a^n e^{ax}
-- d^n/dx^n (ln(ax+b)) = (−1)^{n−1} · (n−1)! · a^n/(ax+b)^n
+When y cannot be expressed explicitly as y(x), differentiate both sides with respect to x, treating y as y(x) and applying the chain rule to every term containing y. Example: x² + y² = 25 → 2x + 2y·(dy/dx) = 0 → dy/dx = −x/y. This connects directly to the slope of a tangent on a circle, a recurring JEE coordinate-geometry question.
 
-**Leibniz theorem for nth derivative of product:**
-If y = u·v, then d^n/dx^n (uv) = Σ_{k=0}^{n} C(n,k) · u^{(n−k)} · v^{(k)}
-Used for products where both functions have simple nth derivatives
+Logarithmic differentiation handles products, quotients, and variable-in-variable expressions like x^(sin x). Take ln of both sides, differentiate using chain rule, then solve for dy/dx. For y = x^(sin x):
 
-**Mean Value Theorem:**
-If f is continuous on [a, b] and differentiable on (a, b), then there exists c ∈ (a, b) such that:
-f'(c) = [f(b) − f(a)]/(b − a)
-Geometrically: tangent at c is parallel to chord AB
+$$\ln y = \sin x \cdot \ln x \;\Rightarrow\; \frac{y'}{y} = \cos x \ln x + \frac{\sin x}{x} \;\Rightarrow\; y' = x^{\sin x}\!\left(\cos x \ln x + \frac{\sin x}{x}\right).$$
 
-**Rolle's Theorem:**
-If f(a) = f(b), then there exists c ∈ (a, b) where f'(c) = 0
-Special case of MVT
+#### Rolle's Theorem and the Mean Value Theorem
 
-**Taylor and Maclaurin series:**
-f(x) = f(a) + f'(a)(x−a)/1! + f''(a)(x−a)²/2! + ... + f^{(n)}(a)(x−a)^n/n! + R_n
-At a = 0: Maclaurin series for e^x, sin x, cos x, ln(1+x)
+Both require f to be continuous on [a, b] and differentiable on (a, b). Rolle's theorem (a special case) gives f'(c) = 0 for some c ∈ (a, b) when f(a) = f(b). The MVT guarantees f'(c) = [f(b) − f(a)]/(b − a) for some c ∈ (a, b). JEE occasionally tests these by asking for the value of c, or to prove an inequality via the MVT.
 
-**L'Hôpital's rule for differentiation:**
-For indeterminate 0/0 or ∞/∞: lim f(x)/g(x) = lim f'(x)/g'(x) if RHS limit exists
-Can be applied repeatedly
+#### L'Hôpital's Rule — When and How
 
-**Differentiation under integral (Leibniz rule):**
-d/dx [∫_{a(x)}^{b(x)} f(x,t) dt] = f(x, b(x))·b'(x) − f(x, a(x))·a'(x) + ∫_{a(x)}^{b(x)} ∂f/∂x · dt
+Apply L'Hôpital only to 0/0 or ∞/∞ forms. For other indeterminates like 0·∞, ∞−∞, 1^∞, 0^0, ∞^0, first do algebraic conversion:
+- 0·∞ → rewrite as 0/(1/∞) or ∞/(1/0) to reach 0/0 or ∞/∞.
+- 1^∞ → take ln: limit of ln y = limit of f·ln g, often yielding 0·∞ which then converts.
+- Verify the limit of the ratio of derivatives exists before concluding.
 
-**Maxima and minima:**
-First derivative test: f'(x) = 0 → check f''(x):
-- f''(x) > 0: local minimum
-- f''(x) < 0: local maximum
-Second derivative test fails when f''(x) = 0 → use first derivative sign change test
-
-**Function increasing/decreasing:**
-- f'(x) > 0 on interval → f is increasing
-- f'(x) < 0 on interval → f is decreasing
-- Strictly monotonic: f'(x) ≥ 0 (or ≤ 0) and f'(x) = 0 only at isolated points
-
-**Envelope and orthogonal trajectories:**
-For family of curves y = f(x, c), eliminate c between y = f(x,c) and f_x(x,c) = 0 to get envelope
-
-**Derivative of determinant:**
-If D(x) = |a(x) b(x); c(x) d(x)|, then D'(x) = |a'(x) b(x); c'(x) d(x)| + |a(x) b'(x); c(x) d'(x)|
-
-**Differential of arc length:**
-ds = √[(dx)² + (dy)²]; for parametric: ds = √[(dx/dt)² + (dy/dt)²] dt
-
-- **Remember:** Chain rule is the most important — always identify outer and inner function; d/dx[f(g(x))] = f'(g(x))·g'(x); for implicit differentiation, treat y as function of x and use chain rule on y terms
-- **Previous years:** "Find derivative of e^{x²}·sin x using chain and product rule" [2023]; "If y = x^{x}, find dy/dx" [2024]; "Find d²y/dx² if x = a cos θ, y = b sin θ" [2024]
-
----
-
-## 📊 JEE Main Exam Essentials
-
-| Detail | Value |
+| Indeterminate form | Conversion step |
 |---|---|
-| Questions | 90 (30 per subject) |
-| Time | 3 hours |
-| Marks | 300 (90 per subject) |
-| Section | Physics (30), Chemistry (30), Mathematics (30) |
-| Negative | −1 for wrong answer |
-| Mode | Computer-based |
+| 0·∞ | Pull one factor into denominator |
+| ∞ − ∞ | Combine over common denominator or rationalise |
+| 1^∞, 0^0, ∞^0 | Take ln to get 0·∞ form |
 
-### 🎯 High-Yield Topics for JEE Main Mathematics
-- Calculus (Differentiation + Integration) — ~35 marks combined
-- Coordinate Geometry (straight lines, circles, conics) — ~20 marks
-- Algebra (Complex Numbers, Quadratics, P&C, Probability) — ~25 marks
-- Trigonometry + Inverse Trigonometry — ~15 marks
-- Vector + 3D — ~15 marks
+#### Advanced Practice Prompts
 
-### 📝 Previous Year Question Patterns
-- Differentiation: 2–3 questions per year, 8–12 marks
-- Common patterns: chain rule application, differentiation of inverse functions, parametric differentiation, logarithmic differentiation, nth derivative
-- Weight: very high frequency, foundational for entire calculus
+1. **Rolle's application.** Show that the equation x³ + 3x + 1 = 0 has exactly one real root using Rolle's theorem on a suitable interval. (Hint: confirm f(x) is monotonic by examining f'(x) = 3x² + 3 > 0.)
+2. **Higher-order derivative.** Compute d³y/dx³ for y = ln(x + √(1+x²)). Verify that y''(x) satisfies (y')² + x·y'·y'' = a known relation; identify the curve.
 
-### 💡 Pro Tips
-- Always identify outer and inner function before applying chain rule
-- For implicit differentiation, differentiate each term treating y as function of x
-- For y = f(x)^g(x), use logarithmic differentiation: ln y = g(x) · ln f(x)
-- Remember the derivative of e^x is e^x, and d/dx(ln x) = 1/x
-- For inverse trig derivatives, memorize the domain restrictions
-- Practice nth derivative problems — they appear occasionally and are scoring if you know the pattern
-- For maximum/minimum, always check second derivative or first derivative sign change
+> 💡 **High-Yield Memory Hook:** **"DOLI"** for indeterminate forms — **D**ivide out, **O**bject to ∞−∞, **L**og the power forms, **I**solate the 0·∞ — always convert before applying L'Hôpital.
 
-### 🔗 Official Resources
-- [NTA Official JEE Main](https://jeemain.nta.nic.in)
-- [JEE Main Syllabus PDF](https://jeemain.nta.nic.in/SearchKeyword/Syllabus)
+## Continue your study
+
+- **[View this topic in your JEE Main roadmap](/roadmap/?exam=jeemain&duration=1mo)** — see where "Differentiation" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=jeemain&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[JEE Main exam overview](/exams/jeemain/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/jeemain/mathematics/)** — browse sibling topics in this subject
 
 ---
-
-*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

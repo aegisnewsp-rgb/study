@@ -8,7 +8,7 @@ topicName: "Amines, Diazonium Salts, and Heterocyclic Chemistry"
 weight: 3
 country: southafrica
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-17"
 ---
 
 # Amines, Diazonium Salts, and Heterocyclic Chemistry
@@ -16,249 +16,147 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-- **Amines** are organic derivatives of ammonia (NH₃) where one or more H atoms are replaced by alkyl/aryl groups: 1° (RNH₂), 2° (R₂NH), 3° (R₃N)
-- **Basicity of amines**: Aliphatic 1° > Aliphatic 2° > Aliphatic 3° > Aniline; measured by pKb or conjugate acid pKa
-- **Diazotization**: 1° aromatic amine + NaNO₂/HCl (0-5°C) → diazonium salt; 2° amine → N-nitrosoamine; 3° amine → N-nitrosoammonium salt
-- **Heterocycles**: Pyridine (aromatic, basic, N in ring), Pyrrole (N in ring, non-basic, aromatic), Furan (O in ring), Thiophene (S in ring)
-- **Hückel's Rule**: Aromatic heterocycles must have (4n+2) π electrons; all four common heterocycles (pyridine, pyrrole, furan, thiophene) are aromatic with 6 π electrons
-- ⚡ Pyrrole is NOT basic — the lone pair on nitrogen is part of the aromatic sextet and is unavailable for protonation
+**Amines** are ammonia derivatives in which one, two, or three H atoms are replaced by alkyl or aryl groups, giving primary (1°), secondary (2°), and tertiary (3°) classes. The **nitrogen lone pair** makes amines both basic (Brønsted) and nucleophilic, while **quaternary ammonium salts** (R₄N⁺X⁻) carry a permanent positive charge on N.
+
+**Diazonium salts** (ArN₂⁺X⁻) form when a primary **aromatic** amine reacts with HNO₂ generated in situ from NaNO₂/HCl at **0–5 °C**; above this range the cation collapses to an aryl carbocation and N₂.
+
+**Heterocyclic compounds** are cyclic structures containing at least one heteroatom in the ring; for SAPC Chemistry the core set is **pyrrole, furan, thiophene** (5-membered, 6 π electrons) and **pyridine** (6-membered, 6 π electrons), plus the fused systems **indole, quinoline, isoquinoline**.
+
+| Class | Example | Key feature on N |
+|---|---|---|
+| 1° aliphatic | CH₃NH₂, methylamine | One alkyl, lone pair free → strong base (pK_b ≈ 3.4) |
+| 2° aliphatic | (CH₃)₂NH, dimethylamine | Two alkyls (+I effect) → strongest base (pK_b ≈ 3.3) |
+| 3° aliphatic | (CH₃)₃N, trimethylamine | Three alkyls but steric crowding lowers solvation |
+| 1° aromatic | C₆H₅NH₂, aniline | Lone pair delocalised into ring → weak base (pK_b ≈ 9.4) |
+
+> 💡 **High-Yield Memory Hook:** **"Aryl Amine → Always Cool"** — diazotisation of an arylamine needs **0–5 °C**, otherwise the ArN₂⁺ decomposes to phenol tars. For reaction outcomes with HNO₂ remember: **1° aliphatic → alcohol burst, 1° aryl → stable diazonium salt at 0 °C, 2° → yellow N-nitrosamine oil, 3° → no useful reaction.**
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-## Amines and Heterocyclic Chemistry
+#### Amine Classification and Basicity
 
-Amines and heterocyclic compounds are two of the most important functional group/family combinations in organic and pharmaceutical chemistry. The vast majority of drugs contain at least one nitrogen-containing heterocycle in their structure. Understanding amines is prerequisite to understanding heterocycles, and both are essential for pharmacy students.
+The nitrogen lone pair accepts a proton, so every amine has a **base dissociation constant K_b** and corresponding pK_b (dimensionless). For aniline, pK_b ≈ 9.4 (pK_a of conjugate acid C₆H₅NH₃⁺ ≈ 4.6), while for methylamine pK_b ≈ 3.4 (pK_a ≈ 10.6).
 
-## Amines — Classification and Nomenclature
+The general equation is:
 
-### Classification by Structure
+$$K_b = \frac{[\text{RNH}_3^+][\text{OH}^-]}{[\text{RNH}_2]}$$
 
-**Primary (1°) Amines**: One alkyl/aryl group attached to nitrogen
-- Formula: RNH₂ (e.g., CH₃NH₂ — methylamine)
+where concentrations are in mol·dm⁻³; pK_b = –log₁₀(K_b), dimensionless. The relationship **pK_a + pK_b = 14** holds at 298 K.
 
-**Secondary (2°) Amines**: Two alkyl/aryl groups attached to nitrogen
-- Formula: R₂NH (e.g., (CH₃)₂NH — dimethylamine)
+Aliphatic amines are stronger bases than ammonia because alkyl groups donate electron density through the **+I (inductive) effect**, increasing electron density on N. In aqueous solution the order **2° > 1° ≈ 3°** emerges: 3° amines are crowded and poorly solvated by water. Arylamines are much weaker because the lone pair delocalises into the benzene ring, lowering its availability for protonation.
 
-**Tertiary (3°) Amines**: Three alkyl/aryl groups attached to nitrogen
-- Formula: R₃N (e.g., (CH₃)₃N — trimethylamine)
-- Note: 3° amines have no N–H bond; quaternary ammonium ions have 4 substituents and permanent positive charge
+#### Reaction with Nitrous Acid (HNO₂)
 
-**Important Distinction**: 1°, 2°, 3° classification refers to the number of carbon groups attached to N, NOT the total number of substituents (including hydrogen).
+The reagent HNO₂ is generated from **NaNO₂ + HCl at 0–5 °C**, in situ. Outcomes depend on amine class:
 
-### Nomenclature
+| Amine class | Product with HNO₂ | Conditions |
+|---|---|---|
+| 1° aliphatic | ROH + N₂ (via unstable R–N₂⁺) | 0 °C, aqueous |
+| 1° aryl | ArN₂⁺Cl⁻ (stable salt) | 0–5 °C, must stay cold |
+| 2° | R₂N–N=O, N-nitrosamine (yellow oil) | 0 °C |
+| 3° | Generally no reaction (or C-nitroso at ring) | — |
 
-**Common Names**: Named as alkylamines (e.g., methylamine, ethylamine, aniline)
-**IUPAC**: Replace -e of alkane with -amine; use prefix di-, tri- for multiple same groups
-- CH₃CH₂NHCH₃ → N-ethyl-N-methylamine (or 1-ethyl-1-methylethanamine)
+#### Diazonium Salt Reactions
 
-## Physical Properties of Amines
+Once ArN₂⁺X⁻ is in hand, two reaction families are accessible:
 
-**Boiling Points:**
-- Amines have higher boiling points than alkanes of similar molecular weight (due to hydrogen bonding in 1° and 2° amines)
-- 1° amines can hydrogen bond with each other (N–H...N)
-- 3° amines cannot hydrogen bond with each other (no N–H) — lower boiling points than 1° or 2°
+1. **Substitution with loss of N₂** — the aryl carbocation intermediate is trapped by a nucleophile:
+   - **Sandmeyer**: ArN₂⁺ + CuCl (or CuBr, CuCN) → Ar–Cl (Br, CN) + N₂
+   - **Gattermann**: ArN₂⁺ + Cu/HCl (or HBr) → Ar–Cl (Br) + N₂
+   - **Balz–Schiemann**: ArN₂⁺BF₄⁻ →(Δ) ArF + N₂ + BF₃
+   - **Hydrolysis**: ArN₂⁺ + H₂O (warm) → ArOH + N₂ + H⁺
+3. **Azo-coupling with activated arenes** — N₂ is **retained**:
+   - ArN₂⁺ + Ar′OH or Ar′N(CH₃)₂ → Ar–N=N–Ar′ (an azo dye)
+   - Couples only with rings activated by –OH or –NR₂ (usually at pH 4–5 for phenols, mildly acidic for amines).
 
-**Water Solubility:**
-- Lower members (C1-C3) are water soluble due to hydrogen bonding with water
-- Solubility decreases with increasing carbon chain length
+The Balz–Schiemann fluorination produces **N₂ gas**, whose volume at STP is V = n·22.4 L·mol⁻¹; this is testable quantitatively.
 
-**Odor:**
-- Many amines have a fishy odor
-- Diamines (cadaverine, putrescine) have foul odors — produced during decomposition
+#### Five-Membered vs Six-Membered Heterocycles
 
-## Basicity of Amines
+**Pyrrole, furan, thiophene** are **π-excessive**: the heteroatom contributes **two π electrons** from its lone pair, completing Hückel's sextet (4n+2 with n = 1). They undergo **electrophilic aromatic substitution (EAS)** readily, mainly at the **2-position**.
 
-### What Makes Amines Basic?
+**Pyridine** is **π-deficient**: the nitrogen lone pair sits in an sp² orbital **in the plane** of the ring, not in the π system, so it is available for protonation — pyridine is a moderate Brønsted base (pK_a of conjugate acid ≈ 5.2), stronger than pyrrole. Electrophiles attack the **3-position** of pyridine, and **more slowly** than on benzene, because attack at C-2 or C-4 places positive charge on the electronegative N in the Wheland intermediate.
 
-Amines are basic because the nitrogen lone pair can accept a proton (H⁺), forming a conjugate acid (ammonium ion).
+| Property | Pyrrole | Pyridine |
+|---|---|---|
+| π electrons | 6 (lone pair in sextet) | 6 (lone pair outside sextet) |
+| Basicity at N | very weak (pK_a ≈ –3.8) | moderate (pK_a ≈ 5.2) |
+| Acidity at N–H | weak acid (pK_a ≈ 17) | no N–H |
+| EAS reactivity | fast, at C-2 | slow, at C-3 |
+| Oxidation | easy (resinifies) | resistant |
 
-R₃N + H⁺ → R₃NH⁺
+#### 🎯 Exam-Level Worked Problem
 
-**Basicity is measured by:**
-- **pKb**: Lower pKb = stronger base
-- **pKa of conjugate acid (R₃NH⁺)**: Higher pKa of conjugate acid = stronger base
-- Relationship: pKa + pKb = 14 (at 25°C)
+**Question:** Aniline (C₆H₅NH₂) is treated with NaNO₂ and excess HCl at 0–5 °C, giving salt A. Salt A is then divided into three portions: (i) warmed with water, (ii) treated with CuBr in HBr, (iii) coupled with N,N-dimethylaniline at pH 5. Identify A and write balanced equations for each step. State the temperature constraint and explain why it is essential.
 
-### Relative Basicity Order
+#### Solution:
 
-**In aqueous solution (typical):**
+Diazotisation of aniline:
 
-Aliphatic 1° ≈ Aliphatic 2° > Aliphatic 3° > Aromatic amines (aniline) >> Pyrrole, Pyridine varies
+$$\text{C}_6\text{H}_5\text{NH}_2 + \text{NaNO}_2 + 2\,\text{HCl} \xrightarrow{0\text{–}5\ °C} \text{C}_6\text{H}_5\text{N}_2^+\text{Cl}^- + \text{NaCl} + 2\,\text{H}_2\text{O}$$
 
-**For common amines (pKa of conjugate acid):**
-| Amine | pKa of R₃NH⁺ |
-|-------|-------------|
-| Dimethylamine | 10.73 |
-| Methylamine | 10.62 |
-| Trimethylamine | 9.80 |
-| Aniline | 4.6 |
-| Ammonia | 9.25 |
+So **A = benzenediazonium chloride (C₆H₅N₂⁺Cl⁻)**.
 
-### Why is Aniline Less Basic than Aliphatic Amines?
+(i) Hydrolysis on warming:
 
-**In aniline (Ph–NH₂)**, the nitrogen lone pair is delocalized into the aromatic ring through resonance:
+$$\text{C}_6\text{H}_5\text{N}_2^+ + \text{H}_2\text{O} \xrightarrow{\Delta} \text{C}_6\text{H}_5\text{OH} + \text{N}_2(g) + \text{H}^+$$
 
-The nitrogen lone pair participates in aromaticity — it is partially "used up" in the resonance stabilization of the phenyl ring. This makes the lone pair less available for protonation → aniline is much less basic (pKa ~ 4.6 for conjugate acid vs ~10 for aliphatic).
+Product: **phenol**; N₂ gas evolved (V = n × 22.4 L·mol⁻¹ at STP per mole).
 
-### Why Aliphatic 3° > Aliphatic 1° in Gas Phase but 1° > 2° > 3° in Solution?
+(ii) Sandmeyer with CuBr:
 
-In solution, solvation effects dominate:
-- 1° amines have two N–H bonds that can hydrogen bond with water → more stabilization of conjugate acid → higher basicity
-- 3° amines have no N–H bonds → less solvation of conjugate acid
-- In gas phase (no solvation), inductive effect dominates → 3° > 2° > 1°
+$$\text{C}_6\text{H}_5\text{N}_2^+\text{Br}^- \xrightarrow{\text{CuBr}} \text{C}_6\text{H}_5\text{Br} + \text{N}_2(g)$$
 
-## Important Reactions of Amines
+Product: **bromobenzene**.
 
-### 1. Alkylation
+(iii) Azo-coupling with N,N-dimethylaniline at pH ≈ 5:
 
-**Reagents**: Alkyl halides (e.g., CH₃I)
+$$\text{C}_6\text{H}_5\text{N}_2^+ + \text{C}_6\text{H}_5\text{N(CH}_3)_2 \rightarrow \text{C}_6\text{H}_5\text{–N=N–C}_6\text{H}_4\text{N(CH}_3)_2 + \text{H}^+$$
 
-1° amine → 2° amine → 3° amine → quaternary ammonium salt
+Product: **4-(dimethylamino)azobenzene**, a yellow azo dye.
 
-**Example**: Aniline + excess CH₃I → tetramethylammonium iodide (quaternary)
+**Temperature constraint:** above ~5 °C the C₆H₅N₂⁺ cation loses N₂ to give the phenyl cation C₆H₅⁺, which hydrolyses to phenol — so warming a diazonium salt destroys it before the intended reaction can occur.
 
-### 2. Acylation
-
-1° and 2° amines react with acid chlorides and acid anhydrides to form amides:
-
-RNH₂ + CH₃COCl → CH₃CONHR + HCl
-
-**Significance**: Acylation of amine makes it less basic and less nucleophilic — used to protect amino groups during synthesis
-
-**Example in Pharmacy**: Sulfonamides are prepared by acylating sulfanilic acid
-
-### 3. Carbylamine (Hofmann Isocyanide) Reaction
-
-1° amines (only 1°, NOT 2° or 3°) react with chloroform and alcoholic KOH to give foul-smelling carbylamines:
-
-R–NH₂ + CHCl₃ + 3KOH → R–NC (isocyanide) + 3KCl + 3H₂O
-
-**Test for 1° amines**: The offensive odor of isocyanides is a characteristic test.
-
-### 4. Diazotization
-
-**Reaction**: 1° aromatic amine + NaNO₂ + HCl at 0-5°C → diazonium salt
-
-**Example**: Aniline → benzenediazonium chloride (Ar–N₂⁺Cl⁻)
-
-**Diazonium Salt Chemistry:**
-- Can be isolated as stable salts at low temperatures
-- Warm water: Phenol (replacement of N₂⁺ by OH⁻)
-- CuCl: Chlorobenzene (Sandmeyer reaction — replacement by Cl⁻)
-- CuBr: Bromobenzene
-- KI: Iodobenzene
-- H₃PO₂: Benzene (reductive deamination)
-
-## Heterocyclic Chemistry
-
-### Five-Membered Heterocycles
-
-#### Pyrrole (C₄H₅N)
-- One nitrogen in a five-membered aromatic ring
-- **All atoms sp² hybridized**
-- **6 π electrons** (4 from C=C double bonds + 2 from nitrogen's lone pair — which is part of the aromatic system!)
-- **Non-basic**: The lone pair on nitrogen is part of the aromatic sextet; cannot accept a proton → pKa of conjugate acid ~0
-- Found in: Porphyrin ring (heme, chlorophyll), alkaloids, many drugs
-
-#### Furan (C₄H₄O)
-- One oxygen in a five-membered aromatic ring
-- **6 π electrons** (4 from C=C bonds + 2 from oxygen lone pair — oxygen also contributes to aromaticity)
-- **Less aromatic than pyrrole** — sulfur in thiophene is better at donating electrons than oxygen
-- More reactive toward Diels-Alder reactions than benzene
-- Found in: Furanocoumarins (in plants, some phototoxic)
-
-#### Thiophene (C₄H₄S)
-- One sulfur in a five-membered aromatic ring
-- **6 π electrons** (S contributes 2 electrons from lone pair — despite being third period, S's lone pair participates effectively)
-- **Most aromatic** of the five-membered heterocycles (S is best at donating electrons)
-- Found in: Thiamine (vitamin B1), many drugs
-
-**Aromaticity Order**: Thiophene > Pyrrole > Furan (S > N > O in aromatic electron donation)
-
-### Six-Membered Heterocycles
-
-#### Pyridine (C₅H₅N)
-- One nitrogen in a six-membered aromatic ring
-- **6 π electrons** — all from C=C bonds (nitrogen contributes no electrons to aromaticity)
-- **Nitrogen lone pair is perpendicular to the aromatic π-system** — NOT part of aromaticity
-- **Basic**: Lone pair is available for protonation → pKa of conjugate acid ~5
-- Nitrogen is sp² hybridized with one lone pair in an sp² orbital
-- Found in: Nicotine, pyridine-based drugs, alkaloids
-
-#### Piperidine (C₅H₁₁N)
-- **Saturated** six-membered ring with one nitrogen
-- **NOT aromatic** — no conjugated π-system
-- **Basic**: pKa of conjugate acid ~11 (similar to aliphatic amines)
-- Found in: Coniine (poison hemlock), morphine (partially saturated ring)
-
-## Comparative Overview
-
-| Heterocycle | Type | Aromatic? | Basic? | π Electrons |
-|-------------|------|-----------|--------|------------|
-| Pyrrole | 5-membered | Yes | No | 6 |
-| Furan | 5-membered | Yes | No | 6 |
-| Thiophene | 5-membered | Yes | No | 6 |
-| Pyridine | 6-membered | Yes | Yes (N lone pair) | 6 |
-| Piperidine | 6-membered | No | Yes | 0 |
+> ⚠️ **Examiner Trap:** Students often write CuBr₂ or Cu²⁺ instead of CuBr (Cu⁺) in the Sandmeyer step. The catalyst is **copper(I)**, and aniline is regenerated if Cu⁺ is missing. Equally common: writing the hydrolysis product as phenyl alcohol (R–OH on the ring) — the correct name is **phenol** (ArOH).
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-## Heterocyclic Drugs — Selected Examples
+#### Aromaticity Limit Cases
 
-### Pyridine-Based Drugs:
-- **Isoniazid (INH)**: Anti-tuberculosis drug; contains pyridine ring
-- **Nicotinamide (Niacin/Vitamin B3)**: Contains pyridine ring; precursor to NAD⁺
-- **Amiodarone**: Anti-arrhythmic; contains iodine-substituted phenylpyridine
+Hückel's rule requires **4n + 2 π electrons** in a planar, fully-conjugated ring. Pyrrole, furan and thiophene each supply 4 π electrons from two C=C bonds and 2 from the heteroatom lone pair — exactly **n = 1**. Reducing pyrrole (e.g. by catalytic hydrogenation) saturates one double bond and breaks aromaticity; the resulting 2,5-dihydropyrrole no longer reacts as an aromatic heterocycle. Similarly, the pyridine N-oxide (formed by oxidation with peroxyacid) becomes a substrate for EAS at C-4, a useful pharmaceutical handle.
 
-### Pyrrole-Based Drugs:
-- **Porphyrins in hemoglobin**: Heme contains a porphyrin ring (four pyrrole units linked by methine bridges)
-- **Sunitinib**: Tyrosine kinase inhibitor; contains a pyrrole-based core
+#### Hofmann Elimination and Quaternary Ammonium Salts
 
-### Imidazole (Two N in Ring):
-- **Metronidazole**: Anti-protozoal; contains imidazole ring
-- **Cimetidine**: H2 receptor antagonist for ulcers; contains imidazole
-- **Clotrimazole**: Antifungal; contains imidazole
+When a quaternary ammonium hydroxide (R₄N⁺OH⁻) is heated, it undergoes **Hofmann elimination** to give the **least-substituted** alkene (anti-Zaitsev). This is the diagnostic that distinguishes a quaternary N from a tertiary amine on HNO₂ testing. Counting the substituents on N — **1° (one R), 2° (two R), 3° (three R), 4° (four R, quaternary)** — is therefore essential before predicting any reaction outcome.
 
-### Quinoline (Benzopyridine):
-- **Quinine**: Antimalarial from cinchona bark
-- **Chloroquine, Hydroxychloroquine**: Synthetic antimalarials
-- **Mefloquine**: Another antimalarial
+#### Fused Heterocycles in Pharmacy
 
-### Purine Heterocycles:
-- **Adenine, Guanine**: DNA/RNA bases — purine ring system
-- **Caffeine, Theophylline**: Methylxanthines; adenosine receptor antagonists
-- **Allopurinol**: Anti-gout; inhibits xanthine oxidase
+**Indole** (benzene fused to pyrrole) and **quinoline/isoquinoline** (benzene fused to pyridine) appear in alkaloids and drugs: indole in tryptophan and serotonin, quinoline in chloroquine, isoquinoline in morphine and papaverine. The fused benzene ring withdraws electron density, so indole is less reactive than pyrrole but still undergoes EAS at C-3 (α to N), while quinoline is N-protonated under physiological pH and behaves much like pyridine.
 
-## Fused Heterocyclic Systems
+| Trap | Correct statement | Why students slip |
+|---|---|---|
+| Pyrrole is a strong base | Pyrrole's N lone pair is part of the aromatic sextet, so protonation destroys aromaticity (pK_a of conjugate acid ≈ –3.8) | Confusing the *number* of lone pairs with their *availability* |
+| Aniline is more basic than methylamine | Aniline pK_b ≈ 9.4; methylamine pK_b ≈ 3.4 — aniline is the weaker base | Forgetting resonance delocalisation of the aryl lone pair |
+| Sandmeyer uses Cu²⁺ | The catalyst is **Cu⁺**; Cu²⁺ oxidises the diazonium and gives different products | Confusing the chloride source (CuCl) with the oxidation state of Cu |
+| EAS on pyridine goes to C-2 | Electrophiles attack **C-3**; C-2/C-4 attack destabilises the intermediate | Drawing the Wheland intermediate and forgetting N's electronegativity |
+| Diazonium salt can be boiled safely | Above 5 °C the salt decomposes; even room-temperature storage is risky | Treating ArN₂⁺ as kinetically inert |
 
-Many important drugs contain fused ring systems — two or more rings sharing common bonds:
-
-**Indole (Benzopyrrole)**:
-- Structure: Benzene fused to pyrrole
-- Serotonin, tryptophan, melatonin contain indole
-- LSD contains the indole moiety
-- Drugs: Sumatriptan (migraine), reserpine (antihypertensive)
-
-**Benzimidazole**:
-- Structure: Benzene fused to imidazole
-- Drugs: Albendazole, mebendazole (anthelmintics); omeprazole (PPI — has benzimidazole)
-
-**Quinoxaline**:
-- Structure: Two pyrazine rings fused
-- Antibiotics: Ciprofloxacin (has quinolone, not quinoxaline; but quinoline = benzene fused to pyridine)
-
-## Medicinal Chemistry Applications
-
-**Design Principle — Heterocycle as Bioisostere**:
-- Replacing a carbon atom with nitrogen in an aromatic ring often changes electronic properties and biological activity
-- Example: Replacing phenyl with pyridyl in drug molecules often changes receptor binding
-- Bioisosteres: Fused heterocycles can mimic planar aromatic systems with different electronic distributions
+1. **Advanced Practice 1 — Quantitative N₂ yield.** A 1.85 g sample of C₆H₅NH₂ (M = 93.13 g·mol⁻¹) is diazotised and the resulting benzenediazonium chloride is hydrolysed. Use PV = nRT (R = 8.314 J·mol⁻¹·K⁻¹) to calculate the volume of N₂ collected at 25 °C and 101.3 kPa, and identify the other organic product.
+2. **Advanced Practice 2 — Reaction-design synthesis.** Starting from aniline only (plus inorganic reagents), outline a route to 4-hydroxyazobenzene in three steps. State the temperature and pH at every stage and justify each named reaction.
 
 ---
+
+## Continue your study
+
+- **[View this topic in your SAPC (South Africa) roadmap](/roadmap/?exam=sa-pharm&duration=1mo)** — see where "Amines, Diazonium Salts, and Heterocyclic Chemistry" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=sa-pharm&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[SAPC (South Africa) exam overview](/exams/sa-pharm/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/sa-pharm/chemistry/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

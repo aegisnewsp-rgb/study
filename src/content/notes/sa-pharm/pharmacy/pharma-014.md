@@ -8,465 +8,120 @@ topicName: Endocrine and Metabolic Drugs
 weight: 3
 country: southafrica
 generated: "2026-04-09T20:00:00"
-lastUpdated: 2026-04-09
+lastUpdated: "2026-09-17"
 ---
 
 # Endocrine and Metabolic Drugs
 
-The endocrine system regulates metabolism through hormones — chemical messengers that coordinate growth, development, energy utilisation, stress responses, and reproduction. Disorders of endocrine function are common in South Africa: diabetes mellitus affects approximately 4.5 million South Africans, thyroid disorders are prevalent, and adrenal dysfunction, while rarer, has significant clinical consequences. The pharmacist's role in endocrine pharmacotherapy extends from ensuring access to essential medicines (many endocrine drugs are on the South African Essential Medicines List), to managing complex polypharmacy in diabetic patients with comorbidities, to counselling on insulin storage and administration. For the SAPC examination, candidates must demonstrate thorough knowledge of the major endocrine drug classes — antidiabetics (insulin and oral agents), thyroid agents, corticosteroids, and related metabolic drugs — and the clinical monitoring they require.
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your exam.
 
-This topic builds on pharmacodynamics (pharma-006), pharmacokinetics (pharma-003 through pharma-007), drug interactions (pharma-008), and cardiovascular drugs (pharma-012 for diabetic cardiovascular risk management).
+**Endocrine and metabolic drugs** modulate hormone synthesis, secretion, receptor binding, or metabolism to treat diabetes, thyroid disease, adrenal insufficiency, dyslipidaemia, osteoporosis, and calcium imbalance. For SAPC Pharmacy (~3% of paper weight), the priority classes are **insulins, oral hypoglycaemics, thyroid agents, corticosteroids, bisphosphonates, statins, and sex hormones**.
+
+- **Insulin types** by duration: **R**apid (lispro, aspart), **S**hort (regular/soluble), **I**ntermediate (NPH — cloudy), **L**ong (glargine, detemir — clear, no peak). Onset rises and peak risk of hypoglycaemia falls across the alphabet.
+- **Corticosteroid equivalence**: hydrocortisone 20 mg = prednisone 5 mg = dexamethasone 0.75 mg.
+- **Schedule cues for SAPC**: insulin = S3, combined oral contraceptives = S2, emergency hormonal contraception = S2 (ulipristal) / S2 (levonorgestrel Yuzpe regimens per current SAPC notice).
+- **Metformin** is first-line for Type 2 DM in SEMDSA/SAPC-aligned algorithms; it does **not** cause hypoglycaemia as monotherapy.
+
+> 💡 **High-Yield Memory Hook:** "**RSIL** for insulin timing — **R**apid, **S**hort, **I**ntermediate, **L**ong (think: clear→cloudy→clear again, and the longer the duration, the flatter the peak). Pair with **"Metformin Means No hypo"** to lock the monotherapy rule.
 
 ---
 
-## Diabetes Mellitus
+### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with a few days to months.
 
-### Classification and Diagnosis
+#### Drug Classification by Therapeutic Goal
 
-| Type | Pathophysiology | Typical Age | Management |
-|------|-----------------|-------------|------------|
-| Type 1 DM | Autoimmune β-cell destruction → absolute insulin deficiency | Children/young adults; can occur at any age | Insulin from diagnosis |
-| Type 2 DM | Insulin resistance + progressive β-cell dysfunction | Adults; increasingly in children | Lifestyle ± oral agents ± insulin |
-| Gestational DM | Glucose intolerance during pregnancy | Pregnancy | Diet ± insulin (oral agents often used) |
-| Other specific types | Monogenic (MODY), pancreatitis, drug-induced (e.g., steroids), pancreatic disease | Variable | Treat underlying cause; insulin often required |
+Endocrine drugs fall into three functional categories: **replacement** (insulin, levothyroxine, hydrocortisone in Addison's), **suppression** (antithyroid thioamides, high-dose glucocorticoids in autoimmune disease), and **antagonism/blockade** (SGLT2 inhibitors block renal glucose reabsorption, bisphosphonates inhibit osteoclast-mediated bone resorption, allopurinol inhibits xanthine oxidase for uric acid).
 
-**Diagnostic criteria (WHO/ADA):**
-- Fasting plasma glucose ≥7.0 mmol/L (126 mg/dL); OR
-- 2-hour plasma glucose ≥11.1 mmol/L (200 mg/dL) during OGTT (75g glucose load); OR
-- HbA1c ≥6.5% (48 mmol/mol); OR
-- Random plasma glucose ≥11.1 mmol/L with classic symptoms
+#### Oral Hypoglycaemic Comparison Matrix
 
-### Antidiabetic Agents
+| Class | Example | Primary Action | Hypoglycaemia Risk | Key SAPC Counselling |
+|---|---|---|---|---|
+| Biguanide | Metformin | ↓ Hepatic gluconeogenesis, ↑ peripheral insulin sensitivity | **Low (monotherapy)** | Hold during acute sepsis/dehydration — lactic acidosis risk |
+| Sulfonylurea | Gliclazide, glimepiride | Close KATP channels on β-cells → insulin release | **Moderate–high** | Take before food; warn about missed meals |
+| Thiazolidinedione | Pioglitazone | PPAR-γ agonist → ↑ insulin sensitivity in adipose/muscle | Low | Weight gain, fluid retention, fracture risk |
+| DPP-4 inhibitor ("gliptin") | Sitagliptin | Prevents GLP-1 breakdown → glucose-dependent insulin release | Low | Dose-adjust in renal impairment |
+| SGLT2 inhibitor ("flozin") | Empagliflozin, dapagliflozin | Blocks renal glucose reabsorption | Low | Genital mycotic infections, euglycaemic DKA warning |
+| α-Glucosidase inhibitor | Acarbose | Delays intestinal carbohydrate absorption | Low | Flatulence; take with first bite of meal |
 
-#### Insulin
+> 📌 **Formula Check:** Insulin dose adjustments are empirical; basal-bolus regimens are titrated against fasting and pre-meal capillary glucose targets (typically 4–7 mmol/L fasting per SEMDSA).
 
-**Classification by origin and duration:**
+#### Corticosteroid Pharmacology
 
-| Insulin Type | Onset | Peak | Duration | Notes |
-|-------------|-------|------|----------|-------|
-| **Rapid-acting** (aspart, lispro, glulisine) | 5–15 min | 1–2 hrs | 3–5 hrs | Given at mealtimes; bolus |
-| **Short-acting** (regular/soluble insulin) | 30–60 min | 2–4 hrs | 6–8 hrs | 30 min before meals |
-| **Intermediate-acting** (NPH/isophane) | 1–2 hrs | 4–8 hrs | 12–18 hrs | Basal/coverage; can mix with rapid-acting |
-| **Long-acting** (glargine, detemir, degludec) | 1–2 hrs | Often no peak | 20–24+ hrs | Basal insulin; stable coverage |
-| **Premixed** (e.g., 30% rapid/70% NPH) | Varies | Varies | Varies | Combines mealtime and basal |
+Glucocorticoids bind the cytoplasmic glucocorticoid receptor, translocate to the nucleus, and transactivate anti-inflammatory genes (lipocortin, annexin-1) while repressing NF-κB. **Mineralocorticoid** activity (Na⁺/water retention, K⁺ loss) is highest with fludrocortisone and hydrocortisone, lower with prednisone, and negligible with dexamethasone.
 
-**Insulin regimens:**
+**Withdrawal rule**: any patient on ≥5 mg prednisone equivalent for ≥3 weeks must be tapered, not stopped abruptly, because the HPA axis is suppressed and abrupt cessation precipitates adrenal crisis (hypotension, hyponatraemia, hypoglycaemia).
 
-1. **Basal-bolus:** Long-acting insulin (basal, once or twice daily) + rapid-acting insulin at each meal. Best approximates normal physiology; provides flexibility.
-2. **Twice-daily mixed insulin:** Fixed combination (e.g., 30/70 mix) before breakfast and dinner. Simpler but less flexible.
-3. ** basal-only:** Long-acting insulin once daily (often with Type 2 DM when oral agents insufficient but not yet requiring mealtime coverage).
-4. **Continuous subcutaneous insulin infusion (CSII):** Insulin pump delivering rapid-acting insulin continuously (basal) with boluses at meals.
+#### 🎯 Exam-Level Worked Problem
 
-**Insulin initiation in Type 2 DM:**
-- Start with basal insulin (usually glargine or degludec) at 10 units or 0.1–0.2 units/kg at bedtime
-- Titrate based on fasting glucose: adjust by 2–4 units every 3 days until fasting glucose 4.4–7.2 mmol/L
-- If HbA1c not at target despite optimised basal insulin, add mealtime insulin
+**Question:** A 58-year-old man with Type 2 DM, HbA1c 9.2%, is started on metformin 1 g BD. After 3 months his HbA1c is 8.0%. Renal function: eGFR 62 mL/min/1.73 m². He is already on atorvastatin 40 mg and amlodipine 5 mg. Which is the **most appropriate next add-on**, and what is the **single most important counselling point** for sick days?
 
-**Adverse effects of insulin:**
-- Hypoglycaemia (most common and dangerous)
-- Weight gain (average 2–4 kg with intensified insulin regimens)
-- Lipodystrophy at injection site (rotating injection sites prevents this)
-- Hypersensitivity reactions (rare; usually to excipients)
-- Diabetic ketoacidosis (DKA) with lapses in insulin (especially with rapid-acting analogues)
+#### Solution:
+1. **Identify unmet target**: HbA1c remains 8.0% — above the SEMDSA-individualised target (usually ≤7% for most adults).
+2. **Choose add-on**: an SGLT2 inhibitor (empagliflozin 10 mg daily) is appropriate given cardiovascular/renal benefit, eGFR >60, and low hypoglycaemia risk. Sulfonylureas also work but carry higher hypo risk and weight gain.
+3. **Sick-day counselling**: **withhold metformin** during vomiting, diarrhoea, or febrile illness with dehydration — risk of **lactic acidosis**. Maintain hydration; continue insulin or other agents as directed; recheck glucose and ketones every 4 hours.
 
-**Insulin storage and handling in South Africa:**
-- Insulin vials/cartridges in use: store at room temperature (≤25°C for most insulin types); do not freeze
-- Unopened vials in refrigerator (2–8°C) until expiry date
-- Cold chain integrity important; avoid shaking insulin vigorously (except clear regular insulin)
-- Patient counselling: proper injection technique, site rotation (abdomen preferred for most consistent absorption), correct timing of mealtime insulin
+> ⚠️ **Examiner Trap:** Students pick a sulfonylurea because HbA1c is "still high" and assume stronger glucose-lowering is best. In a patient already on a statin with cardiovascular risk, an SGLT2 inhibitor addresses both glucose and CV/renal outcomes, and avoids the hypoglycaemia and weight-gain trap of sulfonylureas.
 
-**Insulin pen devices:** Increasingly used in SA private sector and some public sector programmes; easier to use, more accurate dosing, better adherence.
+#### Thyroid Axis & Antithyroid Drugs
 
-#### Sulfonylureas
+**Levothyroxine (T4)** is converted peripherally to active T3; taken **on an empty stomach, 30–60 minutes before food**, and **separated from calcium, iron, and PPIs** by ≥4 hours. **Carbimazole** and **propylthiouracil (PTU)** block thyroid peroxidase; PTU additionally blocks peripheral T4→T3 conversion and is preferred in **first-trimester pregnancy** (carbimazole → rare aplasia cutis). Both can cause **agranulocytosis** — counsel patients to report any sore throat or fever immediately.
 
-**Mechanism:** Bind to SUR1 subunit of ATP-sensitive K⁺ channel on pancreatic β-cells → channel closure → depolarisation → Ca²⁺ influx → insulin secretion (glucose-independent, but enhanced by glucose).
+#### South African Regulatory Scheduling (SAPC)
 
-| Drug | Dose Range | Half-life | Notes |
-|------|-----------|-----------|-------|
-| Gliclazide | 40–320 mg daily (IR); 30–120 mg daily (MR) | ~12 hrs | MR formulation once daily |
-| Glibenclamide (glyburide) | 2.5–20 mg daily | 4–10 hrs | Potent; higher hypoglycaemia risk; active metabolites |
-| Glipizide | 2.5–30 mg daily | 2–4 hrs | Shorter acting |
-| Glimeperide | 1–8 mg daily | 5–8 hrs | Can be taken with or without food |
-
-**Adverse effects:**
-- Hypoglycaemia (especially with glibenclamide; risk increases with renal impairment, elderly, skipped meals)
-- Weight gain (~1–3 kg)
-- Skin reactions (photosensitivity rare)
-
-**Contraindications:** Type 1 DM, diabetic ketoacidosis; caution in hepatic/renal impairment (gliclazide MR preferred in renal impairment due to mostly hepatic metabolism).
-
-**SA public sector:** Gliclazide is on the EML; glibenclamide less commonly used due to higher hypoglycaemia risk.
-
-#### Meglitinides (Glitinides)
-
-**Mechanism:** Similar to sulfonylureas — close K⁺-ATP channels → stimulate insulin secretion (rapid, short duration).
-
-| Drug | Notes |
-|------|-------|
-| Repaglinide | 0.5–4 mg before each main meal; rapid onset; taken with food |
-| Nateglinide | 60–120 mg before meals |
-
-**Advantages over sulfonylureas:** Shorter duration → less persistent hyperinsulinism → lower hypoglycaemia risk between meals; preferred in patients with irregular meal times.
-
-#### Biguanides — Metformin
-
-**Mechanism:** Activates AMP-activated protein kinase (AMPK) → multiple metabolic effects: ↓ hepatic gluconeogenesis (primary), ↑ insulin sensitivity in muscle and adipose tissue, ↓ intestinal glucose absorption, modest ↓ body weight.
-
-**Indications:**
-- First-line for Type 2 DM (unless contraindicated)
-- In PCOS (off-label) for insulin sensitisation and cycle regulation
-- Prevention of Type 2 DM in high-risk individuals (impaired glucose tolerance)
-
-**Dosing:** Start 500 mg twice daily (or 850 mg once daily); increase by 500 mg weekly; max 2 g/day (or 2.55 g/day modified-release).
-
-**Adverse effects:**
-- GI: nausea, diarrhoea (usually transient; take with meals to minimise)
-- Vitamin B12 malabsorption (long-term use; check B12 annually)
-- Lactic acidosis (rare; risk with renal impairment, hepatic impairment, contrast media, sepsis, dehydration)
-- Avoid in renal impairment (eGFR <30 mL/min/1.73m² — contraindicated; 30–60 eGFR — cautious)
-- Avoid before iodinated contrast: stop metformin 48 hours after contrast in patients with eGFR <60
-
-**Metformin andPregnancy:** Category B; increasingly used in gestational diabetes; safe in pregnancy.
-
-**SA context:** Metformin is the most cost-effective first-line oral hypoglycaemic; on the EML for Type 2 DM.
-
-#### Thiazolidinediones (Glitazones)
-
-**Mechanism:** PPAR-γ agonist → ↑ insulin sensitivity in adipose tissue, muscle, liver → ↓ insulin resistance.
-
-| Drug | Notes |
-|------|-------|
-| Pioglitazone | 15–45 mg daily; active metabolites; hepatic metabolism |
-| Rosiglitazone | Withdrawn from many markets (CV risk) |
-
-**Adverse effects:**
-- Weight gain (fat redistribution → subcutaneous rather than visceral)
-- Oedema (1–2 kg fluid retention; contraindicated in heart failure)
-- Hepatotoxicity (monitor LFTs — troglitazone withdrawn for this reason)
-- Bone fractures (↑ fracture risk in postmenopausal women — pioglitazone)
-- Possible increased risk of bladder cancer (pioglitazone — regulatory caution)
-
-**SA context:** Pioglitazone available in private sector; not on EML for public sector.
-
-#### DPP-4 Inhibitors (Gliptins)
-
-**Mechanism:** Inhibit dipeptidyl peptidase-4 → prevent breakdown of GLP-1 → increased GLP-1 levels → ↑ glucose-dependent insulin secretion, ↓ glucagon → improved glycaemic control.
-
-| Drug | Dose | Notes |
-|------|------|-------|
-| Sitagliptin | 100 mg daily | CYP3A4 not significantly involved; renal dose adjustment |
-| Vildagliptin | 50 mg BD | Risk of hepatotoxicity; monitor LFTs |
-| Linagliptin | 5 mg daily | Minimal renal dose adjustment needed |
-| Saxagliptin | 5 mg daily | CYP3A4 substrate; interaction with strong CYP3A4 inhibitors |
-
-**Adverse effects:** Generally well tolerated; rare reports of pancreatitis; hypersensitivity reactions.
-
-**Place in therapy:** Second-line or third-line; not as potent as metformin or sulfonylureas but weight-neutral and low hypoglycaemia risk.
-
-#### GLP-1 Receptor Agonists
-
-**Mechanism:** GLP-1 receptor agonists (exenatide, liraglutide, dulaglutide, semaglutide, lixisenatide) mimic incretin effects → ↑ glucose-dependent insulin secretion, ↓ glucagon, delayed gastric emptying, ↑ satiety.
-
-| Drug | Dosing | Notes |
-|------|--------|-------|
-| Exenatide | 5–10 mcg SC twice daily (within 60 min of meals) | |
-| Liraglutide | 0.6–1.8 mg SC daily | Weight loss ~2–4 kg; cardiovascular outcomes benefit (LEADER trial for liraglutide) |
-| Dulaglutide | 0.75–1.5 mg SC weekly | |
-| Semaglutide | 0.25–2 mg SC weekly | Weight loss ~4–6 kg; oral formulation available (higher dose) |
-| Semaglutide oral | 3–14 mg daily | First oral GLP-1 RA |
-
-**Adverse effects:**
-- GI: nausea, vomiting, diarrhoea (usually transient; start low and titrate)
-- Pancreatitis (rare; avoid in history of pancreatitis)
-- Thyroid C-cell tumour risk (contraindicated in MEN2 or personal/family history of medullary thyroid carcinoma) — animal data; uncertain in humans
-- Gallbladder disease (weight loss increases cholelithiasis risk)
-
-**Place in therapy:** Injectable agents for Type 2 DM not achieving targets on oral agents; increasingly preferred for patients with obesity; cardiovascular outcome trials show benefit for some agents.
-
-**SA availability:** Exenatide, liraglutide, dulaglutide registered; limited availability in public sector; expensive.
-
-#### SGLT2 Inhibitors
-
-**Mechanism:** Inhibit sodium-glucose co-transporter 2 (SGLT2) in proximal tubule → ↑ glucose excretion in urine (~70–100 g glucose/day) → improved glycaemic control and weight loss.
-
-| Drug | Dose | Notes |
-|------|------|-------|
-| Empagliflozin | 10–25 mg daily | Cardiovascular outcomes benefit (EMPA-REG OUTCOME); heart failure hospitalisation ↓ |
-| Dapagliflozin | 10 mg daily | Heart failure outcomes benefit (DAPA-HF — reduced HF regardless of diabetes); kidney outcomes (DAPA-CKD) |
-| Canagliflozin | 100–300 mg daily | CV and kidney outcome benefits; amputations risk (controversial) |
-
-**Adverse effects:**
-- Genital mycotic infections (vulvovaginitis, balanitis — very common; 10–15%)
-- Urinary tract infections (increase in some trials; generally uncomplicated)
-- DKA (rare; can occur with insulin dose reduction; euglycaemic DKA is a diagnostic challenge)
-- Volume depletion/hypotension (elderly, diuretics)
-- Bone fractures (canagliflozin — regulatory warning)
-
-**Additional benefits:**
-- Weight loss (2–4 kg)
-- Blood pressure reduction (2–4 mmHg systolic)
-- Cardiovascular risk reduction (empagliflozin, canagliflozin, liraglutide, semaglutide have outcome trial evidence)
-- Heart failure hospitalisation reduction (empagliflozin, dapagliflozin)
-- Kidney protection (slowing of eGFR decline — empagliflozin, dapagliflozin, canagliflozin)
-
-**Place in therapy:** Second-line or third-line oral agent; particularly useful in patients with heart failure or CKD; not first-line in SA public sector due to cost.
-
-**SA context:** Dapagliflozin registered; empagliflozin registered; not on EML (public sector cost barrier); increasingly used in private sector.
-
-#### Acarbose
-
-**Mechanism:** α-glucosidase inhibitor in intestinal brush border → delays carbohydrate digestion → blunts postprandial glucose spike.
-
-**Use:** Type 2 DM; less effective than other agents; GI side effects (flatulence, bloating, diarrhoea).
-
-#### Combination Therapy in Type 2 DM
-
-**Initial therapy:** Metformin monotherapy (unless contraindicated or not tolerated)
-
-**Second-line:** Add second oral agent or GLP-1 RA or basal insulin
-
-**Third-line:** Add third oral agent or GLP-1 RA or basal-bolus insulin
-
-**Common fixed-dose combinations in South Africa:**
-- Metformin + gliclazide (Glucovance)
-- Metformin + vildagliptin (Galvus Met)
-- Metformin + sitagliptin (Janumet)
-- Metformin + empagliflozin (Jardiance Met)
-- Metformin + linagliptin (Trajenta Met)
-
-### Diabetic Ketoacidosis (DKA)
-
-**Presentation:** Hyperglycaemia (>13.9 mmol/L), ketosis (urine/serum ketones), acidosis (pH <7.3, bicarbonate <18), Kussmaul breathing, dehydration, altered consciousness, fruity breath (acetone).
-
-**Management:**
-- IV insulin infusion (0.1 units/kg/hour); when glucose <13.9 mmol/L, add 5% dextrose to IV fluids
-- Aggressive IV fluid resuscitation (0.9% NaCl initially; then switch to half-normal saline when corrected)
-- Potassium replacement (usually needed — total body K⁺ depleted; but not if K⁺ >5.3 mmol/L)
-- Monitor: fingerstick glucose every hour; electrolytes (K⁺, sodium, chloride), venous pH/ bicarbonate, phosphate, Mg²⁺
-- Treat underlying cause (infection, missed insulin, MI)
-
-### Hypoglycaemia
-
-**Definition:** Blood glucose <3.9 mmol/L (70 mg/dL) — the threshold for counter-regulatory hormone activation.
-
-**Symptoms:**
-- Autonomic (adrenergic): tremor, palpitations, sweating, anxiety, hunger
-- Neuroglycopenic: confusion, headache, difficulty concentrating, visual disturbances, seizures, coma
-
-**Causes:** Excess insulin or oral hypoglycaemic, missed meals, increased exercise, alcohol, renal impairment (reduced insulin clearance), hepatic impairment (reduced gluconeogenesis), drug interactions.
-
-**Treatment ( Rule of 15):**
-- 15 g fast-acting carbohydrate (glucose tablets, sugary drink, fruit juice) → recheck after 15 minutes → repeat if still hypoglycaemic
-- For unconscious patient: IM glucagon (1 mg) or IV dextrose (25 mL of 50% dextrose) or SC glucagon
-- If caused by long-acting insulin or sulfonylurea: may need prolonged observation and dextrose infusion
-
-**Glucagon injection kit:** Available in SA; patients on intensive insulin regimens should have one; training for family members on administration is essential.
-
-### Diabetes Monitoring
-
-**Glycaemic monitoring:**
-- Self-monitoring of blood glucose (SMBG): fasting and 2-hour postprandial; frequency based on insulin regimen
-- HbA1c: every 3 months if unstable, 6-monthly if stable; target <7% (individualised: <6.5% in young patients without comorbidities; <8% in elderly with limited life expectancy)
-
-**Chronic complication monitoring:**
-- Annual: retinal screening (fundoscopy or photography), foot examination (monofilament, vibration sense), urine albumin:creatinine ratio (ACR), eGFR
-- Blood pressure (each visit; target <130/80 or lower in some guidelines)
-- Lipid profile (annually)
+| Substance | Schedule | Practical Implication |
+|---|---|---|
+| Insulin (all analogues) | **S3** | Pharmacist-initiated, repeats not permitted without prescription |
+| Metformin, most OHAs | **S3 / S4** depending on strength | Behind-the-counter; counsel mandatory |
+| Combined oral contraceptive | **S2** | Pharmacist may initiate in designated scope |
+| Levothyroxine | **S4** | Prescription required; repeats per script |
+| Statins (low-dose simvastatin 10 mg) | **S2** in eligible adults | Pharmacist-initiated per SAPC primary-care schedule |
 
 ---
 
-## Thyroid Agents
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
 
-### Hypothyroidism
+#### Bone and Calcium Pharmacology — Edge Cases
 
-**Cause:** Most commonly Hashimoto's autoimmune thyroiditis in developed countries; iodine deficiency worldwide (including parts of South Africa).
+**Bisphosphonates** (alendronate, risedronate, zoledronic acid) bind hydroxyapatite and are internalised by osteoclasts, triggering apoptosis via the mevalonate-pathway inhibition (similar to statins). **Administration pitfalls**: oral forms must be taken with ≥200 mL plain water, patient must remain upright for 30 minutes, and the stomach must be empty — calcium, food, orange juice, and mineral water reduce absorption by up to 90%. **Sequestered in bone for years**, they can cause **osteonecrosis of the jaw** (especially IV zoledronate in oncology) and atypical femoral fractures after >5 years of continuous use; a "drug holiday" after 3–5 years is supported in low-risk patients.
 
-**Treatment:** Levothyroxine (synthetic T4)
+**Hypercalcaemia of malignancy** is treated with IV hydration + IV bisphosphonate (zoledronate) ± calcitonin for rapid (but short-lived) effect. **Calcium and vitamin D** must be co-prescribed with bisphosphonates in osteoporosis to avoid hypocalcaemia and secondary hyperparathyroidism.
 
-**Dosing:**
-- Start low in elderly or cardiac disease (12.5–25 mcg daily); titrate every 6–8 weeks
-- Average replacement dose: 1.6 mcg/kg/day in adults; 4–6 mcg/kg/day in children
-- Take on empty stomach (30–60 min before breakfast) for optimal absorption
-- Separate from calcium, iron, PPIs by 4 hours (these reduce levothyroxine absorption)
+#### Statin and Fibrate Nuances
 
-**Monitoring:**
-- TSH: 6–8 weeks after initiation or dose change; once stable, annually
-- Target TSH: 0.5–2.5 mIU/L (age-dependent; higher TSH may be acceptable in elderly)
-- T4: only needed if central hypothyroidism suspected (pituitary/hypothalamic disease)
+- **Statin myopathy** risk is dose-dependent and amplified by **CYP3A4 inhibitors**: simvastatin + clarithromycin, itraconazole, ritonavir, or grapefruit juice → rhabdomyolysis. **Atorvastatin** is also CYP3A4-metabolised; **rosuvastatin** is minimally CYP-metabolised and preferred in polypharmacy.
+- **Warfarin + simvastatin/rosuvastatin** interaction: statins displace warfarin from albumin and inhibit CYP2C9 metabolism → **elevated INR, bleeding risk**. Counsel INR checks within 1 week of statin initiation.
+- **Fibrates** (bezafibrate, fenofibrate) lower triglycerides but raise creatinine and cause **cholesterol gallstones**, especially with estrogens. Combining a statin + fibrate increases myopathy risk and is reserved for severe mixed dyslipidaemia.
 
-**Myxoedema coma:** Medical emergency; presentation: severe hypothyroidism, hypothermia, bradycardia, hypotension, respiratory depression, altered consciousness. Treatment: IV liothyronine (T3) + IV hydrocortisone + supportive care.
+#### Adrenal Axis Pitfalls
 
-### Hyperthyroidism
+| Scenario | Risk | Correct Pharmacist Action |
+|---|---|---|
+| Patient on prednisone 10 mg × 6 months, stopped 5 days ago, now vomiting | Acute adrenal crisis | Recommend urgent IM hydrocortisone 100 mg, re-initiate oral with taper |
+| Inhaled fluticasone >500 µg/day in child | Adrenal suppression, growth suppression | Lowest effective dose; rinse mouth after each use |
+| Topical clobetasol on >10% BSA for weeks | HPA suppression + skin atrophy | Limit duration; consider step-down to lower-potency steroid |
 
-**Causes:** Graves' disease (autoimmune, most common), toxic multinodular goitre, toxic adenoma.
+#### Patient Counselling Micro-Skills
 
-**Antithyroid drugs (thionamides):**
-| Drug | Mechanism | Dosing | Adverse Effects |
-|------|-----------|--------|-----------------|
-| Propylthiouracil (PTU) | Inhibits thyroid peroxidase and peripheral T4→T3 conversion | 100–150 mg 8-hourly initially; then 50–150 mg daily maintenance | Hepatotoxicity (rare but severe — monitoring essential); agranulocytosis (rare) |
-| Methimazole (thiamazole) | Inhibits thyroid peroxidase (more potent than PTU) | 5–20 mg daily (once daily possible) | Hepatotoxicity; birth defects (first trimester — PTU preferred in pregnancy); arthralgia |
+- **Insulin injection technique**: 90° angle, 4–6 mm needle, rotate sites (abdomen fastest absorption, thigh slowest), never massage.
+- **Missed-dose rules**: rapid-acting insulin — take if meal still imminent, otherwise skip; basal insulin — take if remembered within 12 hours, otherwise resume next scheduled dose.
+- **Recognition of hypoglycaemia**: sweating, tremor, confusion — treat with 15 g fast carbohydrate (glucose tablets, 100 mL juice), recheck in 15 minutes.
+- **Contraceptive missed-pill rules** (S2 counselling): one missed pill (<24 h) — take immediately, continue pack; two or more — use backup contraception for 7 days and consider emergency contraception if unprotected sex occurred.
 
-**Mechanism of thionamides:** Inhibit thyroid peroxidase → block iodine organification and iodotyrosine coupling → ↓ thyroid hormone synthesis.
+#### Advanced Practice Prompts
 
-**Radioactive iodine (¹³¹I):** Definitive treatment for hyperthyroidism and thyroid cancer; contraindicated in pregnancy; causes hypothyroidism (often permanent).
-
-**Surgery (thyroidectomy):** For large goitres, refractory cases, or when antithyroid drugs contraindicated.
-
-**Monitoring:** Free T4, TSH every 4–6 weeks until stable; monitor FBC and LFTs with antithyroid drugs.
+1. A patient on metformin, gliclazide, and empagliflozin is booked for contrast-enhanced CT. Outline the **peri-procedure plan** (renal function, lactic acidosis risk, when to withhold and resume each agent).
+2. A 32-week pregnant woman with new Graves' disease asks about treatment. Compare **PTU vs carbimazole vs radioactive iodine**, citing trimester, teratogenicity, and breastfeeding considerations.
 
 ---
 
-## Corticosteroids
+## Continue your study
 
-### Endogenous Corticosteroids
+- **[View this topic in your SAPC (South Africa) roadmap](/roadmap/?exam=sa-pharm&duration=1mo)** — see where "Endocrine and Metabolic Drugs" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=sa-pharm&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[SAPC (South Africa) exam overview](/exams/sa-pharm/)** — pattern, eligibility, and syllabus
+- **[All Pharmacy notes](/notes/sa-pharm/pharmacy/)** — browse sibling topics in this subject
 
-**Cortisol (hydrocortisone):** Primary glucocorticoid; circadian rhythm (highest at 08:00); released in response to stress.
-
-**Aldosterone:** Primary mineralocorticoid; regulated by RAAS; sodium retention, potassium excretion.
-
-### Synthetic Corticosteroids
-
-| Drug | Glucocorticoid Potency (relative to cortisol) | Mineralocorticoid Potency | Half-life | Notes |
-|------|----------------------------------------------|-------------------------|-----------|-------|
-| Hydrocortisone | 1 | 1 | Short (~8–12 hrs) | Preferred in adrenal insufficiency |
-| Prednisone (prednisolone — active metabolite) | 4 | 0.5 | Intermediate | Oral; most commonly used systemically |
-| Methylprednisolone | 5 | Minimal | Intermediate | IV; less mineralocorticoid effect |
-| Dexamethasone | 25 | Minimal | Long | High potency; used in cerebral oedema, chemotherapy nausea |
-| Fludrocortisone | 0.1 | 200 | Intermediate | Mineralocorticoid replacement only |
-
-**Glucocorticoid effects:**
-- Anti-inflammatory (inhibit phospholipase A2 → ↓ prostaglandins and leukotrienes)
-- Immunosuppressive (↓ cytokine production, ↓ lymphocyte proliferation)
-- Metabolic (↑ gluconeogenesis, ↑ insulin resistance, protein catabolism, fat redistribution)
-- Cardiovascular (↑ BP through mineralocorticoid and permissive effects on catecholamines)
-- CNS (euphoria, insomnia; can precipitate steroid psychosis)
-
-**Mineralocorticoid effects:**
-- Sodium retention, potassium and hydrogen ion excretion → hypokalaemia, metabolic alkalosis, volume expansion, hypertension
-
-### Systemic Corticosteroids (Oral/IV)
-
-**Uses:** Severe asthma/COPD exacerbation, autoimmune diseases, organ transplantation, adrenal insufficiency, anaphylaxis (adjunct to adrenaline), septic shock (some protocols), cerebral oedema.
-
-**Dosing:**
-- Low dose: ≤7.5 mg prednisone equivalent/day — most adverse effects minimal
-- Medium dose: 7.5–30 mg/day — increased side effects
-- High dose: >30 mg/day — significant adverse effects
-- Pulse therapy: IV methylprednisolone 500 mg–1 g daily for 3–5 days for severe flares
-
-**Adverse effects (chronic systemic use):**
-| System | Effect |
-|--------|--------|
-| Metabolic | Hyperglycaemia/diabetes, hyperlipidaemia, weight gain, sodium retention |
-| Musculoskeletal | Osteoporosis (prevent with bisphosphonate if prolonged use), muscle wasting, avascular necrosis |
-| Immunological | Immunosuppression → infections (opportunistic), reactivation of TB |
-| Dermatological | Skin thinning, easy bruising, striae, acne |
-| Ophthalmological | Cataracts, glaucoma |
-| Psychiatric | Insomnia, euphoria, anxiety, depression, steroid psychosis |
-| Gastrointestinal | Peptic ulcer (especially with NSAIDs), pancreatitis |
-| Adrenal suppression | HPA axis suppression; risk of adrenal crisis on withdrawal after >2–3 weeks of systemic therapy |
-
-**Adrenal insufficiency on withdrawal:**
-- After >2–3 weeks of systemic steroids, HPA axis is suppressed
-- Abrupt cessation → acute adrenal crisis (hypotension, hyponatraemia, hyperkalaemia, shock) → life-threatening
-- Taper slowly (e.g., reduce by 2.5–5 mg prednisone every 1–2 weeks below 10 mg; very slow taper below 5 mg)
-- Patient counselling: never stop abruptly; carry steroid card/passport
-
-**Stress dosing:** Patients with adrenal insufficiency (or on >2–3 weeks of systemic steroids) require increased steroid cover during stress (illness, surgery, trauma): double or triple usual dose, or parenteral hydrocortisone 100 mg IV/IM if unable to take orally.
-
-### Inhaled Corticosteroids (ICS)
-
-**Used for:** Asthma (first-line preventer), COPD (in combination with LABA for some patients).
-
-| Drug | Low Dose (adult) | Medium Dose | High Dose |
-|------|----------------|------------|----------|
-| Beclomethasone | 200–500 mcg | 500–1000 mcg | >1000 mcg |
-| Budesonide | 200–400 mcg | 400–800 mcg | >800 mcg |
-| Fluticasone | 100–250 mcg | 250–500 mcg | >500 mcg |
-| Fluticasone furoate | 100 mcg | 200 mcg | — |
-
-**Adverse effects (inhaled):**
-- Local: oral candidiasis (rinse mouth after inhalation), dysphonia (hoarse voice)
-- Systemic: minimal at low-medium doses; increases with high dose and prolonged use
-- Precautions: rinse mouth after use; use spacer for MDI
-
-### Topical Corticosteroids
-
-Potency ranges from mild (hydrocortisone 1%) to very potent (clobetasol 0.05%):
-
-**Adverse effects:** Skin thinning, striae, telangiectasia, contact dermatitis (with specific preparations).
-
-**SA context:** Wide range available OTC (schedule 1) for mild preparations; prescription for potent preparations.
-
----
-
-## Bone and Mineral Metabolism
-
-### Osteoporosis and Antiresorptive Agents
-
-**Osteoporosis:** Low bone mineral density (BMD); increased fracture risk; common in postmenopausal women and elderly.
-
-**Bisphosphonates:**
-- Alendronate (70 mg weekly), risedronate (35 mg weekly), ibandronate (150 mg monthly oral or 3-monthly IV), zoledronic acid (5 mg yearly IV)
-- Mechanism: inhibit osteoclast-mediated bone resorption
-- Administration: take in the morning on empty stomach, remain upright for 30–60 minutes; take with plain water (not milk or calcium supplements)
-- Adverse effects: GI irritation, osteonecrosis of the jaw (rare; after dental procedures), atypical femoral fractures (long-term use)
-- Monitoring: BMD (DEXA) every 1–2 years; supplement with calcium and vitamin D
-
-**Denosumab:**
-- Monoclonal antibody against RANKL → inhibits osteoclast formation and activity
-- 60 mg SC every 6 months
-- Used for osteoporosis in postmenopausal women at high risk, bone metastases
-- Adverse effects: hypocalcaemia (ensure vitamin D sufficiency), infections, skin infections
-
-**Hormone Replacement Therapy (HRT):**
-- Oestrogen ± progestogen: effective for osteoporosis prevention; risk-benefit analysis required (breast cancer, cardiovascular risk)
-- Less commonly used first-line for osteoporosis alone
-
-**Vitamin D and Calcium:**
-- Calcium: 1000–1200 mg/day (dietary preferred); supplement if dietary intake inadequate
-- Vitamin D: 800–2000 IU/day for osteoporosis; ensure vitamin D sufficiency for bisphosphonate efficacy
-- Sunlight exposure (UVB) generates vitamin D in skin; particularly important in South Africa where sunlight is abundant but some populations have limited outdoor exposure
-
-### Vitamin D Deficiency
-
-**Causes:** Inadequate sunlight (indoor work/lifestyle), dark skin (melanin reduces vitamin D synthesis), malabsorption, liver/kidney disease (reduced activation), anticonvulsants (carbamazepine, phenytoin accelerate vitamin D metabolism)
-
-**Treatment:** Vitamin D3 (cholecalciferol) or vitamin D2 (ergocalciferol); loading dose then maintenance; high doses available OTC in SA.
-
----
-
-## SAPC Examination Focus Areas
-
-**High-yield topics for the SAPC exam:**
-
-1. **Insulin types and regimens** — basal-bolus vs mixed; rapid-acting vs long-acting onset/peak/duration
-2. **Metformin** — mechanism (AMPK), lactic acidosis risk (renal impairment), B12 deficiency, GI side effects
-3. **Sulfonylureas and hypoglycaemia** — mechanism (K-ATP channel closure); risk in renal impairment and elderly; glibenclamide highest risk
-4. **SGLT2 inhibitors** — mechanism (glycosuria), weight loss, genital infections, DKA, cardiovascular/renal benefits
-5. **GLP-1 agonists** — weight loss, GI side effects, pancreatitis, thyroid C-cell tumour contraindication
-6. **DPP-4 inhibitors** — weight neutral, low hypoglycaemia risk, well tolerated
-7. **DKA management** — insulin infusion, fluids, potassium replacement, treat underlying cause
-8. **Hypoglycaemia treatment** — rule of 15; glucagon kit; long-acting insulin/sulfonylurea risk
-9. **Levothyroxine administration** — empty stomach, separate from calcium/iron by 4 hours, TSH monitoring
-10. **Thionamides (PTU vs methimazole)** — PTU preferred in first trimester pregnancy, hepatotoxicity risk, agranulocytosis
-11. **Systemic corticosteroid adverse effects** — osteoporosis, adrenal suppression, infections, metabolic effects
-12. **Corticosteroid withdrawal** — gradual taper, adrenal crisis prevention, stress dosing
-13. **Inhaled corticosteroids** — oral candidiasis prevention (rinse mouth), dose ranges for asthma
-14. **Bisphosphonates** — administration (empty stomach, upright), osteonecrosis of jaw, atypical femoral fractures
-15. **Diabetes monitoring** — HbA1c targets, retinal/foot/kidney screening, SMBG frequency
-
----
-
-## Summary of Key Concepts
-
-- Diabetes management: metformin first-line for Type 2 DM; insulin for Type 1 and advanced Type 2; add-on agents based on patient profile (weight, CV risk, CKD, cost)
-- Insulin regimens: basal-bolus provides best glycaemic control; proper injection technique and site rotation essential
-- Hypoglycaemia is the most acute complication of insulin and sulfonylurea therapy; glucagon kits should be available
-- SGLT2 inhibitors and GLP-1 agonists provide cardiovascular and renal protection beyond glucose control
-- Metformin: contraindicated in severe renal impairment; monitor B12; lactic acidosis rare but serious
-- Thyroid: levothyroxine for hypothyroidism (empty stomach, separate from calcium/iron); thionamides for hyperthyroidism (monitor LFTs, FBC)
-- Corticosteroids: chronic systemic use causes significant adverse effects; taper rather than abrupt withdrawal; inhaled steroids first-line for asthma control with rinse-after-use counselling
-- Osteoporosis: bisphosphonates first-line; calcium and vitamin D supplementation essential; proper administration (morning, empty stomach, upright)
-- Monitoring: regular HbA1c, complication screening (retina, foot, kidney), BP and lipid control
-- SA context: EML guides public sector formulary; cost-effectiveness drives first-line choices; CCMDD programme for chronic medicine distribution
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

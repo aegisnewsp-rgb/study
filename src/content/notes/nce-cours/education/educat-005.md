@@ -8,7 +8,7 @@ topicName: "Curriculum Development"
 weight: 3
 country: nigeria
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-17"
 ---
 
 # Curriculum Development
@@ -16,329 +16,128 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Curriculum Development** — Key Facts for NCE (Nigeria)
-- **Curriculum**: Planned educational experiences provided by the school
-- **Tyler (1949) — Four Basic Questions**: What educational purposes? What learning experiences? How organization? How evaluation?
-- **Curriculum vs. Syllabus**: Curriculum = overall plan; Syllabus = subject-specific outline
-- **Hidden Curriculum**: Unstated social messages schools transmit
-- ⚡ **Exam tip**: Know the difference between curriculum design models: Subject-centered, Learner-centered, Problem-centered
+**Curriculum Development** is the continuous process of planning, designing, implementing, evaluating and revising an educational programme to achieve desired learning outcomes. It is broader than a syllabus or lesson plan because it includes aims, content, methods and evaluation together.
+
+In Nigeria, NCE-level curriculum is regulated by the **NCCE** (Nigeria Council for Colleges of Education) using the **Nigeria Certificate in Education Minimum Standards**, while the **NERDC** (Nigerian Educational Research and Development Council) designs the 9-Year Basic Education Curriculum (BEC) that feeds into college programmes.
+
+#### Key Terms to Memorise
+
+- **Curriculum**: total planned learning experiences offered to a learner.
+- **Objectives**: specific, measurable learning outcomes written using Bloom's action verbs.
+- **Evaluation**: judgement of worth using formative (during) or summative (end) methods.
+- **Revision**: the feedback loop that re-enters new objectives into the cycle.
+
+> 💡 **High-Yield Memory Hook:** **P-D-I-E-R** — **P**lan, **D**esign, **I**mplement, **E**valuate, **R**evise. The five phases every NCE question on curriculum process expects you to list in order.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-## Curriculum Development — NCE (Nigeria) Study Guide
+#### Three Models You Must Compare
 
-### What is Curriculum?
+NCE examiners frequently ask "compare Tyler's and Taba's models" or "which model suits grass-roots curriculum development in Nigeria?" Memorise the contrasts below — they appear in Section B almost every diet.
 
-**Definition**: The sum total of all learning experiences provided by an educational institution to achieve predetermined goals.
+| Feature | Tyler's Rationale (Linear) | Taba's Grass-roots/Inductive | Wheeler's Cyclic Model |
+|---|---|---|---|
+| Starting point | Pre-set behavioural objectives | Learner needs / diagnosis | Objectives refined from society |
+| Direction | Top-down, linear | Bottom-up, teacher-involved | Cyclical with feedback loop |
+| Steps | Objectives → Content → Methods → Evaluation | Needs → Objectives → Content → Activities → Evaluation | Objectives → Content → Methods → Evaluation → Feedback → Revision |
+| Strength | Clarity, accountability | Locally relevant, Nigeria-friendly | Continuous improvement |
+| Weakness | Ignores society and learner experience | Hard to scale nationally | Resource-intensive for evaluation |
 
-**Broader Curriculum** (often called hidden curriculum):
-- Values, norms, and attitudes transmitted implicitly
-- School culture and climate
-- Peer relationships
-- School policies and practices
+#### Phases of Curriculum Development (P-D-I-E-R)
 
-### Curriculum Components
+1. **Planning**: identify needs from learner, society, subject matter and philosophy.
+2. **Design**: write objectives (using Bloom), select content, choose methods.
+3. **Implementation**: classroom delivery, supervised by NCCE and the college academic board.
+4. **Evaluation**: formative (continuous) and summative (terminal).
+5. **Revision**: feed evaluation findings back into new objectives — the cycle restarts.
 
-1. **Aims and Objectives**: What education should achieve
-2. **Content/Subject Matter**: What is taught
-3. **Learning Experiences**: How learning occurs
-4. **Evaluation**: How learning is assessed
+#### Sources of Curriculum Objectives
 
-### Curriculum Design Models
+- **Learner** (psychology) — readiness, interest and maturation.
+- **Society** — culture, economy, national values.
+- **Subject matter** — discipline structure and frontiers of knowledge.
+- **Philosophy** — perpetuity (permanence), relevance and learnability (the three screening filters).
 
-**1. Subject-Centered Design**:
-- Traditional discipline-based structure
-- Focus on academic subjects
-- Examples: Mathematics, Sciences, Languages
-- Criticism: Often disconnected from student interests
+> 📌 **Formula Check:** Curriculum = **Objectives + Content + Methods + Activities + Evaluation + Feedback**, all interacting with learner and society. None of the six can be omitted without breaking the system.
 
-**2. Learner-Centered Design**:
-- Centers on student's needs, interests, and abilities
-- More flexible and responsive
-- Examples: Montessori, Waldorf schools
-- Criticism: May lack systematic coverage
+#### 🎯 Exam-Level Worked Problem
 
-**3. Problem-Centered Design**:
-- Organized around real-world problems
-- Integrates multiple subjects
-- Examples: STEM education, project-based learning
-- Criticism: Coverage of traditional content
+**Question:** A Principal of an NCE-awarding College asks a curriculum committee to design a new two-year programme in Basic Education. (a) Identify the model best suited for developing this curriculum and justify your choice. (b) List the five sequential phases the committee must follow. (c) State three sources from which the objectives should be drawn. *(15 marks)*
 
-### Tyler's Four Principles
+#### Solution:
+- **(a)** **Taba's grass-roots/inductive model** is best suited. Justification: the college teachers are closest to the learners and can diagnose learners' needs and local community realities first, rather than impose pre-defined national objectives. This bottom-up approach matches the NCCE emphasis on relevance and the NBTE philosophy of producing competent, community-rooted teachers.
+- **(b)** Plan → Design → Implement → Evaluate → Revise (**P-D-I-E-R**, in that order).
+- **(c)** Any three of: **learner (psychology)**, **society**, **subject matter**, **philosophy**.
 
-**Ralph Tyler's Basic Principles (1949)**:
-1. What educational purposes should the school seek to attain?
-2. What learning experiences are likely to attain these purposes?
-3. How can these experiences be effectively organized?
-4. How can we determine whether these purposes are being attained?
-
-### NCE Exam Pattern
-
-Common question types:
-1. Curriculum models and their characteristics
-2. Components of curriculum
-3. Tyler's principles and application
-4. Curriculum issues and innovations
-5. Role of various stakeholders in curriculum development
+> ⚠️ **Examiner Trap:** Students often write "Tyler" because Tyler is the most famous. Tyler is linear and objective-led; it suits national, standardised design by NERDC, not local college-level design. Picking Tyler here costs 3 of the 15 marks immediately.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-## Curriculum Development — Comprehensive NCE (Nigeria) Notes
+#### Concepts Frequently Confused in NCE Exams
 
-### Detailed Theory
+| Term | What It Is | What It Is Not |
+|---|---|---|
+| Curriculum | Whole learning programme (plans + experiences + evaluation) | Not a textbook, not a syllabus, not a lesson plan |
+| Syllabus | Content outline of a single subject | Not a curriculum — it omits methods and evaluation |
+| Lesson Plan | Daily teacher's guide | Not the curriculum — narrower in scope |
+| Curriculum Change | Innovation diffusion (Rogers/Fullan: initiation, dissemination, adoption, implementation, confirmation) | Not the same as curriculum design — change is *adopting* what has already been designed |
+| Hidden Curriculum | Unwritten lessons from school culture and teacher expectations | Not officially stated but powerfully shapes learner outcomes |
 
-#### 1. Curriculum Theory and Development
+#### Types of Curriculum (recognise all five)
 
-**Curriculum as a Field of Study**:
-- Curriculum studies is an academic discipline
-- Examines curriculum theory, history, policy, and practice
-- Influenced by philosophy, sociology, psychology
+1. **Written / Official** — NERDC documents and NCCE Minimum Standards.
+2. **Taught** — what teachers actually deliver in class.
+3. **Tested** — what examinations (NCCE, NECO, NABTEB) actually assess.
+4. **Learned** — what students actually internalise.
+5. **Hidden** — values, norms, gender expectations transmitted unintentionally.
 
-**Key Curriculum Scholars**:
+#### Stakeholders and Their Roles
 
-*Ralph Tyler (1949)*:
-- "Basic Principles of Curriculum and Instruction"
-- Rational-scientific approach
-- Objectives-based curriculum
+| Body | Primary Role in Curriculum Development |
+|---|---|
+| **NERDC** | Designs the national Basic Education Curriculum (BEC) and reviews it periodically. |
+| **NCCE** | Sets Minimum Standards for the NCE, accredits Colleges of Education. |
+| **NBTE** | Regulates technical and post-NCE diploma programmes. |
+| **Universities (NUC)** | Approve B.Ed., M.Ed. and Ph.D. programmes and their curricula. |
+| **Teachers / Colleges** | Implement and provide formative feedback during delivery. |
 
-*John Dewey (early 20th century)*:
-- Education as growth and experience
-- Democratic participation in curriculum
-- Learning through doing
+#### Principles You Must Quote Verbatim
 
-*Paulo Freire (1970)*:
-- "Pedagogy of the Oppressed"
-- Critical pedagogy
-- Curriculum for liberation and social justice
-- Problem-posing vs. banking model
+- **Continuity** — recurrent learning of similar content across grades.
+- **Sequence (spiral)** — content revisited at increasing depth (Bruner).
+- **Integration** — connections across subjects and life skills.
+- **Balance** — fair weighting of knowledge, skills and values.
+- **Articulation** — smooth transition between levels (NCE → B.Ed.).
+- **Relevance** — fit with Nigerian realities and labour-market needs.
 
-*Eisner (1985)*:
-- Connoisseurship model
-- Educational connoisseurship and criticism
-- Multiple forms of curriculum representation
+#### Common Examiner Traps in Long-Answer Questions
 
-#### 2. Curriculum Design — Detailed Analysis
+1. Writing objectives using **"understand"**, **"know"**, **"appreciate"** — these are **not measurable**. Replace with Bloom's verbs like "explain", "list", "construct", "evaluate".
+2. Treating **formative evaluation** as optional — it is the engine of revision and must run throughout the programme.
+3. Skipping the **feedback/revision** phase — without it the cycle is broken and the answer is incomplete.
+4. Quoting **Wheeler** without noting that he requires **feedback** between evaluation and new objectives — many students stop at evaluation.
+5. Confusing **curriculum change** (innovation-decision process) with **curriculum development** (design process).
 
-**Subject-Centered Design**:
-*Discipline-Based*:
-- Based on academic disciplines
-- Structure of knowledge approach
-- Examples: Physics, Chemistry as separate subjects
+#### Advanced Practice Prompts
 
-*Correlated*:
-- Subjects correlated around themes
-- Example: History and Geography correlated around "Ancient Egypt"
+1. *Critically examine why the Tyler model is still widely used by NERDC despite criticisms that it ignores learners' felt needs.* (25 marks — practise writing a balanced two-sided argument with at least three criticisms.)
+2. *Design a feedback mechanism a College of Education can use to continuously improve its NCE Social Studies curriculum between NCCE accreditation cycles.* (20 marks — focus on formative tools: classroom observation, micro-teaching, student feedback, alumni tracer studies.)
 
-*Broad Fields/Fused*:
-- Disciplines merged into broader fields
-- Example: Social Studies merges history, geography, civics
-
-*Activity-Based*:
-- Organized around activities rather than subjects
-- Example: "Planning a school garden" integrates multiple skills
-
-**Learner-Centered Design**:
-*Child-Centered*:
-- Based on child's needs, interests, abilities
-- Example: Montessori curriculum
-- Emphasizes self-directed learning
-
-*Experience-Based*:
-- Based on experiences relevant to learner
-- Dewey's progressive education
-- Learning by doing
-
-**Problem-Centered Design**:
-*Social Reform*:
-- Organized around social problems
-- Example: "Poverty in Nigeria" as organizing center
-- Integrates multiple disciplines
-
-*Core*:
-- Common learnings for all students
-- Centers on contemporary social issues
-- Example: "What does it mean to be Nigerian?"
-
-#### 3. The Curriculum Development Process
-
-**Step 1: Needs Assessment**:
-- Analyze learner needs
-- Analyze societal needs
-- Analyze subject matter demands
-- Consider resources and constraints
-
-**Step 2: Formulating Objectives**:
-- Use behavioral/objectives model
-- Or use process objectives
-- Consider cognitive, affective, psychomotor domains
-
-**Step 3: Selecting Content**:
-- Criteria for selection:
-  - Validity (accuracy and relevance)
-  - Significance (fundamental principles)
-  - Utility (useful for further learning)
-  - Learnability (appropriate difficulty)
-  - Interest (meaningful to learners)
-
-**Step 4: Organizing Content**:
-- Scope: How much content
-- Sequence: Order of content
-- Continuity: Vertical repetition
-- Integration: Horizontal connections
-
-**Step 5: Selecting Learning Experiences**:
-- Criteria:
-  - Experiences likely to achieve objectives
-  - Experiences within learner's capability
-  - Experiences meaningful to learner
-  - Opportunities for active engagement
-
-**Step 6: Organizing Learning Experiences**:
-- Activities should be varied
-- Provide for practice and review
-- Build on previous learning
-
-**Step 7: Evaluation**:
-- Determine if objectives achieved
-- Formative (during) and summative (after)
-- Multiple methods and perspectives
-
-#### 4. Bloom's Taxonomy (Revised 2001)
-
-**Cognitive Domain** (knowledge and mental skills):
-
-| Level | Key Words |
-|-------|-----------|
-| 1. Remember | List, define, recall, identify |
-| 2. Understand | Summarize, explain, interpret, classify |
-| 3. Apply | Use, demonstrate, solve, calculate |
-| 4. Analyze | Compare, distinguish, examine, investigate |
-| 5. Evaluate | Judge, critique, justify, recommend |
-| 6. Create | Design, develop, construct, formulate |
-
-**Affective Domain** (attitudes and values):
-- Receiving → Responding → Valuing → Organization → Characterization
-
-**Psychomotor Domain** (physical skills):
-- Imitation → Manipulation → Precision → Articulation → Naturalization
-
-#### 5. Nigerian Curriculum Structure
-
-**National Curriculum**:
-- Developed by Federal Ministry of Education
-- Implemented across all states
-- Basic Education: 9-year curriculum
-- Senior Secondary: 3-year differentiated curriculum
-
-**Curriculum Bodies in Nigeria**:
-- **NERDC**: Nigerian Educational Research and Development Council
-- **NPE**: National Policy on Education
-- **NBTE**: National Board for Technical Education (for technical subjects)
-- **NABTEB**: National Business and Technical Examinations Board
-
-**6-3-3-4 Curriculum Structure**:
-- **Primary 1-3**: Basic functional literacy
-- **Primary 4-6**: Higher literacy, numeracy, life skills
-- **JSS 1-3**: Pre-vocational and exploratory
-- **SSS 1-3**: Specialization streams
-
-#### 6. Curriculum Issues in Nigeria
-
-**Relevance**:
-- Curriculum often not aligned with Nigerian context
-- Colonial content and examples
-- Need for Nigerian examples and applications
-
-**Quality**:
-- Outdated content and methods
-- Inadequate teacher preparation
-- Poor learning materials
-
-**Access**:
-- Curriculum same for all students regardless of context
-- Urban-rural disparities
-- Resources unequally distributed
-
-**Implementation**:
-- Gap between policy and practice
-- Inadequate monitoring
-- Teacher capacity challenges
-
-#### 7. Innovation in Curriculum
-
-**Technology Integration**:
-- Computer education in schools
-- E-learning platforms
-- Digital resources and tools
-
-**STEM Education**:
-- Science, Technology, Engineering, Mathematics integration
-- Problem-solving and innovation focus
-- Practical application emphasis
-
-**Green Education**:
-- Environmental sustainability
-- Climate change awareness
-- Eco-literacy
-
-**Peace Education**:
-- Conflict resolution skills
-- Intercultural understanding
-- Values of tolerance and cooperation
-
-#### 8. Syllabus vs. Curriculum
-
-| Aspect | Curriculum | Syllabus |
-|--------|-----------|----------|
-| Scope | Broader, overall plan | Narrower, subject-specific |
-| Content | All learning experiences | Subject content outline |
-| Purpose | Guides total educational program | Specifies what to teach |
-| Developer | Curriculum specialists | Subject teachers |
-| Flexibility | More flexible | Less flexible |
-
-#### 9. Hidden Curriculum
-
-**Definition**: Unwritten, unofficial messages and skills transmitted through schooling.
-
-**Examples**:
-- Following schedules and punctuality
-- Submitting to authority
-- Competition vs. cooperation
-- Gender role expectations
-- Social hierarchies
-- What counts as "proper" behavior
-
-**Critical Perspectives**:
-- Functionalists: Socializes students, maintains social order
-- Conflict theorists: Reproduces social inequalities
-- Reform efforts aim to make hidden curriculum more equitable
-
-#### 10. Evaluating Curriculum
-
-**Models of Evaluation**:
-- **Tyler**: Objectives-based, measurement of outcomes
-- **CIPP (Stufflebeam)**: Context, Input, Process, Product
-- **Kirkpatrick**: Reaction, Learning, Behavior, Results
-
-**Curriculum Audit**:
-- Systematic examination of curriculum
-- Alignment between components
-- Fitness for purpose
-- Quality assurance
-
-### Practice Questions for NCE
-
-1. Differentiate between curriculum and syllabus.
-2. Explain Tyler's four basic principles of curriculum development.
-3. Discuss the strengths and weaknesses of subject-centered curriculum design.
-4. What are the challenges of implementing a national curriculum in a diverse country like Nigeria?
-5. Analyze the role of hidden curriculum in shaping student attitudes and behaviors.
+> 💡 **High-Yield Memory Hook:** To remember the five curriculum **types**: **W-T-T-L-H** — **W**ritten, **T**aught, **T**ested, **L**earned, **H**idden. They map directly onto Phenix's framework that NCE examiners reference.
 
 ---
+
+## Continue your study
+
+- **[View this topic in your NCE (Nigeria) roadmap](/roadmap/?exam=nce-cours&duration=1mo)** — see where "Curriculum Development" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=nce-cours&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NCE (Nigeria) exam overview](/exams/nce-cours/)** — pattern, eligibility, and syllabus
+- **[All Education notes](/notes/nce-cours/education/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

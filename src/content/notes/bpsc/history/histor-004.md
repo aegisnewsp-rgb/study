@@ -8,7 +8,7 @@ topicName: "Coming of the British & Revenue Settlements"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-17"
 ---
 
 # Coming of the British & Revenue Settlements
@@ -16,241 +16,95 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Coming of the British — Key Facts for BPSC**
+The **Coming of the British** marks the East India Company's (EIC) shift from trader to territorial ruler between **1757 (Plassey) and 1793 (Permanent Settlement)**, secured through the **Diwani of 1765** that gave Bengal's revenue collection to the Company while the Nawab kept Nizamat (criminal justice) — the **Dual Government** phase. **Revenue Settlements** are the three land-revenue systems the British designed to extract agrarian surplus: **Permanent (Zamindari) 1793**, **Ryotwari 1820**, **Mahalwari 1829**.
 
-The British established their foothold in India through trade charters and gradually transformed into political rulers through a series of wars, treaties, and annexations.
+| System | Year | Architect | Region | Settled With | Revenue Share of Gross Produce |
+|---|---|---|---|---|---|
+| Permanent (Zamindari) | 1793 | Lord Cornwallis | Bengal, Bihar, Odisha | Zamindar | 89 % (theoretical) |
+| Ryotwari | 1820 | Thomas Munro | Madras, Bombay, Assam | Individual ryot | 50–60 % |
+| Mahalwari | 1829 | Holt Mackenzie | NWP, Punjab, Oudh | Lambardar (village headman) | 66 % |
 
-**Core Facts:**
-- **East India Company (EIC)** established by Queen Elizabeth I in **1600** — granted monopoly over trade with the East
-- **Battle of Plassey (1757)**: Robert Clive defeated Siraj-ud-daulah with the help of Mir Jafar — marked the beginning of British political power in India
-- **Battle of Buxar (1764)**: British defeated the combined forces of Mir Qasim (Awadh), Shah Alam II (Mughal Emperor), and Shuja-ud-daulah — confirmed British control over Bengal
-- **Regulating Act of 1773**: First attempt to regulate EIC governance; appointed Governor-General of Bengal (Warren Hastings)
-- **Charter Act of 1833**: Made India a British colony; gave EIC administrative powers
+> 💡 **High-Yield Memory Hook:** **"Z-R-M = Z-Ruler-Mackenzie"** — **Z**amindari (Cornwallis 1793), **R**yotwari (Munro 1820), **M**ahalwari (Mackenzie 1829). Or recall by region: **Bengal-Bihar → Permanent**, **South → Ryot**, **North-West → Mahal**.
 
-⚡ **Exam tip:** The Battle of Plassey and its significance, along with Warren Hastings' administrative reforms, are BPSC favourites.
+The **Cornwallis Code** separated revenue, judicial and police functions and created the cadre that became the Indian Civil Service (PCS → ICS).
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-## Establishment of British Rule
+#### Timeline of British Entry into Bengal
 
-### Early Trading Companies
+The EIC's commercial presence hardened into political control after **Plassey (1757)** — won by Robert Clive through Mir Jafar's treason — and **Buxar (1764)**, where Shah Alam II, Shuja-ud-Daula and Mir Qasim were defeated. The **Treaty of Allahabad (1765)** then granted the Company the **Diwani** (revenue rights) of Bengal, Bihar and Odisha. Warren Hastings created the **Dual Government (1765–1772)** to deflect responsibility for famines onto the Nawab. The **1770 Bengal Famine** killed an estimated one-third of the population; it pushed Hastings to abolish Dual Government in **1772** and attempt direct collection through the "Five Members" Committee. Five-yearly and then ten-yearly (decennial) settlements failed, culminating in Cornwallis's **Permanent Settlement of 1793**.
 
-#### East India Company (EIC)
-- **1600**: Granted charter by Queen Elizabeth I — monopoly over trade with the East (including India)
-- **1602**: First joint-stock company — revolutionary financial instrument
-- **1608**: Sir William Hawkins arrived at Jahangir's court seeking trade privileges (failed)
-- **1615**: Sir Thomas Roe obtained a farman (royal decree) from Jahangir allowing the EIC to establish a factory at Surat
-- **Factories** (trading posts) established at: Surat (1613), Bombay (1668), Calcutta (1690), Madras (1641)
+#### Comparison Matrix: The Three Revenue Systems
 
-#### Portuguese and Dutch
-- **Portuguese** were the first European traders in India — established in Goa (1510, Afonso de Albuquerque)
-- **Dutch East India Company (VOC)** — active in spices trade; established at Pulicat, Cochin; but were primarily driven out by the British
+| Feature | Permanent (1793) | Ryotwari (1820) | Mahalwari (1829) |
+|---|---|---|---|
+| Architect | Lord Cornwallis | Thomas Munro | Holt Mackenzie |
+| Unit of settlement | Zamindari estate | Individual field (ryot) | Whole village |
+| Tenure | Hereditary, perpetual | 20–30 year leases | Periodic revision |
+| Owner of land | Zamindar | Ryot (cultivator) | Village community via lambardar |
+| Revenue share demanded | 89 % of gross produce (rental) | 50–60 % of gross produce | 66 % of gross produce |
+| Document issued | Patta (to zamindar) + Quabuliyat | Field-level patta | Village roll |
+| Key drawback | Auction of zamindari, absentee landlordism, indebtedness | High survey cost, peasant eviction | Heavy lambardar dominance, unequal burden within village |
+| Region | Bengal, Bihar, Odisha, Benares | Madras, Bombay, Assam | NWP, Punjab, parts of Oudh |
 
-### The Battle of Plassey (1757)
+#### Documents and Devices of Control
 
-**Background:**
-- After the death of Mughal Emperor **Aurangzeb (1707)**, the empire fragmented
-- Bengal became virtually independent under **Alivardi Khan** (1740–1756)
-- His grandson **Siraj-ud-daulah** became Nawab in 1756
-- **EIC** (under Robert Clive) and the French (under Dupleix) were competing for influence in Bengal
+- **Patta** — written engagement given by the zamindar/Company to the cultivator stating the demand.
+- **Quabuliyat** — counter-engagement by the cultivator acknowledging liability.
+- **Dastak** — passes allowing free movement of Company goods, frequently misused to evade inland duties.
+- **Concealed Reserved Rent** — illegal retentions by zamindars against the "permanent" demand, leading to estate auctions.
 
-**What Happened:**
-- Siraj-ud-daulah seized the EIC's factory at **Calcutta** (June 1756) — briefly imprisoned 146 British personnel (they died in the Black Hole of Calcutta)
-- Robert Clive, with a small force (about 3,000 men, including 500 Indian sepoys), defeated Siraj-ud-daulah's much larger army (about 50,000)
-- **Mir Jafar** (Commander-in-Chief of Siraj's army) was bribed to defect — no major battle; Siraj fled
-- **Robert Clive** won without a real fight — it was a political conspiracy, not a military victory
+#### 🎯 Exam-Level Worked Problem
 
-**Why It Matters:**
-- Mir Jafar installed as Nawab — a British puppet
-- EIC acquired **Diwani rights** (right to collect land revenue) in Bengal, Bihar, and Orissa by **1765 Treaty of Allahabad** (signed with Mughal Emperor Shah Alam II)
-- British now had a **regular source of income** — the revenue of Bengal funded their expansion
-- This is considered the **true beginning of British political rule in India**
+**Question (BPSC Prelims-style):** *Who introduced the Permanent Settlement, in which year, and what proportion of the gross produce did it theoretically demand?*
+(a) Warren Hastings, 1772, 50 % — (b) Lord Cornwallis, 1793, 89 % — (c) Thomas Munro, 1820, 60 % — (d) Holt Mackenzie, 1829, 66 %.
 
-### Battle of Buxar (1764)
+**Solution:** The Permanent (Zamindari) Settlement was introduced by **Lord Cornwallis in 1793**, after Warren Hastings' 1772 attempt was aborted. The demand was fixed in perpetuity at **₹ 2.68 crore (raised to ₹ 3.40 crore by 1800)**, theoretically equal to **89 % of the gross rental value of produce** in Bengal. Correct answer: **(b)**.
 
-**Background:**
-- Mir Qasim (installed by the British after Mir Jafar) grew resentful of EIC interference
-- He fled to Awadh and formed a **triple alliance** with **Shah Alam II** (Mughal Emperor) and **Shuja-ud-daulah** (Nawab of Awadh)
-- British forces under Hector Munro defeated the alliance at **Buxar**
-
-**Treaty of Allahabad (1765):**
-- Shah Alam II accepted British protection and was given Allahabad and Kora
-- Shuja-ud-daulah recognized British control over Rohilkhand
-- **Diwani rights** granted to the EIC in Bengal, Bihar, and Orissa
-
-### Warren Hastings (Governor-General of Bengal, 1772–1785)
-
-Warren Hastings was the first Governor-General of Bengal. His major reforms:
-
-**Administrative:**
-- Established the **Calcutta Supreme Court (1773)** — though it conflicted with the Sadar Diwani Adalat
-- Created the **Board of Revenue** to oversee land revenue
-- **Charter Act of 1773**: Created the post of Governor-General; established a Supreme Court in Calcutta
-
-**Revenue Reforms:**
-- Tried to fix revenue rates at 10% of the produce (the **Charter of 1773**)
-- Eventually led to the **Permanent Settlement of 1793**
-
-**Judicial:**
-- Established **circuit courts** for criminal justice
-- Reform of the ** Cornwallis** Code later
-
-**Controversies:**
-- **Case of Raja Nand Kumar** (1775) — the first Indian to be tried and executed for forgery under British law; Hastings was accused of suppressing evidence but was acquitted
-- **RoopKanwar case** — sati prevention; Hastings issued a regulation (but it was weak)
-- **Chait Singh of Benares** — Hastings demanded excessive tribute from the Raja; Raja resisted; Hastings annexed part of his territory
-- **Treaty of 1784**: Pitt's India Act created a **Board of Control** to oversee EIC affairs
-
-### Cornwallis (Governor-General, 1786–1793)
-
-Cornwallis is known for establishing the **Permanent Settlement** and civil service reforms.
-
-**Permanent Settlement (1793):**
-- Fixed **land revenue** permanently (hence "Permanent")
-- Zamindars recognized as **landowners** (proprietors) — they paid fixed revenue to the government
-- Revenue demand could NOT be increased in the future
-- This created a class of **permanent landlords** (Zamindars) loyal to the British
-- **Disadvantages**: Many Zamindars sold their lands or defaulted; farmers (Ryots) got no rights
-
----
-
-## Revenue Settlements — A Detailed Study
-
-### Permanent Settlement (1793) — Lord Cornwallis
-- Applied to **Bengal, Bihar, Orissa, and parts of Madras**
-- **Zamindars** became property owners — Revenue was fixed permanently (in perpetuity)
-- Revenue demand: **10/11 of the rental value** — extremely high
-- Landowners who defaulted lost their lands (Lakhiraj lands excepted)
-- Created a **class of loyal landlords** — the "Taluqdari system"
-- **Flaw**: It did not grant rights to actual cultivators (Ryots); many Ryots became tenants
-
-### Ryotwari System — Thomas Munro (1820s)
-- Introduced in **Madras Presidency** (primarily)
-- **Ryot (cultivator)** was the owner of the land — direct settlement between the government and the cultivator
-- Revenue was fixed for a period (not permanently)
-- Each ryot had a **pattadar** (title deed) for his land
-- **Disadvantages**: Inadequate records, no credit system, ryots often under debt
-
-### Mahalwari System — William Bentinck (1833)
-- Introduced in **Punjab, Western UP, parts of Central India**
-- The **village (Mahal)** was treated as a single unit for revenue assessment
-- The **village community (Panchayat)** was collectively responsible for revenue payment
-- **Disadvantages**: Village headman became powerful; some cultivators lost rights
-
-### Comparative Table — All Three Systems
-
-| Feature | Permanent Settlement | Ryotwari | Mahalwari |
-|---------|---------------------|----------|-----------|
-| Area | Bengal, Bihar, Orissa | Madras Presidency | Punjab, Western UP |
-| Unit | Zamindar | Individual Ryot | Village (Mahal) |
-| Revenue | Fixed permanently | Fixed for period | Fixed per village |
-| Owner | Zamindar (proprietor) | Ryot (owner) | Village community |
-| Collectivity | Individual | Individual | Collective |
-| Created By | Cornwallis | Thomas Munro | William Bentinck |
-| Year | 1793 | 1820s | 1833 |
-
-### Why the British Conducted Revenue Settlements
-- **Economic**: Need a stable revenue stream to fund the Company's operations and trade
-- **Political**: Create a class of landlords loyal to the British (Zamindars)
-- **Administrative**: Systematic record-keeping; land ownership became documented
-- **Legal**: Create property rights — land could now be bought, sold, and mortgaged
-
-### Impact on Bihar
-- Bihar was under the **Permanent Settlement** (as part of Bengal)
-- Many **Zamindars in Bihar** lost their lands due to high revenue demands
-- The **Taluqdari system** became prominent in South Bihar (shifting from older Zamindari)
-- **Bihar's agrarian economy** was deeply affected by these revenue settlements
+> ⚠️ **Examiner Trap:** Students frequently mark (a) because they confuse Warren Hastings' first five-yearly experiment (1772) with the permanent settlement proper. Also, the 89 % figure is *theoretical* — actual realisation never crossed 40–50 %, but in an MCQ, the textbook figure (89 %) is what the examiner rewards.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-## Detailed Chronology of British Expansion
+#### Regional Application and Bihar Specifics
 
-| Year | Event | Significance |
-|------|-------|--------------|
-| 1600 | EIC Charter | Trading monopoly |
-| 1608 | Hawkins at Jahangir's court | First British diplomatic mission |
-| 1615 | Thomas Roe's farman | Trade rights |
-| 1757 | Battle of Plassey | Political foothold |
-| 1764 | Battle of Buxar | Confirmed British dominance |
-| 1765 | Treaty of Allahabad | Diwani rights granted |
-| 1773 | Regulating Act | First governance reform |
-| 1793 | Permanent Settlement | Fixed revenue system |
-| 1813 | Charter Act | End of EIC monopoly (except tea/trade) |
-| 1853 | Charter Act | Open competition for civil service |
-| 1857 | Revolt | End of EIC; Crown rule |
+Bihar sits at the heart of the Permanent Settlement, with the districts of **Tirhut, Bhagalpur, Patna and Chota Nagpur** among the first surveyed. Zamindari auctions after the 1790s produced the **absentee landlord (distant rajput and Calcutta-based) class** whose exactions triggered the **Santhal Rebellion (1855–56)** and recurring agrarian unrest in Tirhut and the Chota Nagpur plateau. Indigo cultivation (forced *tinkathia* system) further impoverished the Bihar ryot; the **Champaran Satyagraha (1917)** by Gandhiji was a direct legacy.
 
-## Robert Clive — Key Facts
-- First Governor of Bengal (1757–1760, 1765–1767)
-- Known as **"Clive of India"** — first to combine political power with commercial wealth
-- Returned to England a very wealthy man
-- **Clive's Dual Government System (1765)**: After getting Diwani rights, the EIC collected revenue through Indian officials (Zamindars) but took no responsibility for administration — led to chaos
-- Committed suicide in 1774 (though some suspect murder)
+#### Edge Cases and Conceptual Limits
 
-## Warren Hastings — Detailed Contributions
-- Governor-General (1772–1785)
-- **Revenue reforms**: Established Board of Revenue; fixed revenue demand
-- **Judicial reforms**: Set up Diwani Adalats (civil courts) at district level, Nizamat Adalats (criminal courts) at province level
-- **Charter Act of 1773**: First Governor-General (Warren Hastings); established Supreme Court in Calcutta
-- **Pitt's India Act of 1784**: Created Board of Control to supervise EIC
-- **Relations with Indian states**: Signed treaties with various princes; pursued cautious expansion
-- **Cultural**: Promoted the study of Indian languages; translated ancient texts; helped establish the Asiatic Society of Bengal (1784)
+1. **89 % was never realised.** Permanent in law, *not* in fact — collections averaged 40–50 % of gross produce; the rest was concealed rent, illegal cesses (*abwabs*) and litigation losses.
+2. **The Company was a tax-farmer, not a sovereign**, until the Regulating Act 1773 and Pitt's India Act 1784 gradually made it answerable to Parliament.
+3. **Cornwallis's "ban on slavery"** and European private trade restrictions (Clive's 1765 prohibition re-tightened) aimed at building a non-corrupt covenanted service — the seed of the **PCS/ICS**.
+4. **Diwani vs. Nizamat:** Diwani = revenue + civil justice; Nizamat = criminal justice + police. The bifurcation was administrative, not constitutional.
 
-## Lord Cornwallis — More Details
-- Governor-General (1786–1793)
-- **Permanent Settlement (1793)**: Fixed land revenue permanently
-- **Created the Indian Civil Service (ICS)**: Entry through competitive examination (though initially limited to Britain)
-- **Separated revenue administration from judicial functions**: Previously,Collectors oversaw both revenue and justice
-- **Police reforms**: Established a systematic police force; each district had a District Superintendent
-- Built **Writer's Building** in Calcutta (Bengal's administrative complex)
+#### Advanced Traps in Mains Answers
 
-## Charter Acts — Evolution of British Governance
+| Trap | What Students Write | Correct Reading |
+|---|---|---|
+| "Permanent Settlement protected the peasant" | Confuse patta with ownership | It vested title in the *zamindar*; ryot became tenant-at-will |
+| "British modernised land relations" | Treat 1793 as a reform | It codified pre-existing *jaigirdari* claims, did not survey fields |
+| "Munro introduced Mahalwari" | Mix architects | Munro = Ryotwari; Holt Mackenzie = Mahalwari |
+| "All India used the same system" | Treat as uniform | Each system was region-specific; overlap in Bombay Presidency |
+| "Bihar profited from Permanent Settlement" | Generalise | Bihar saw the harshest zamindari oppression and Santhal spillover |
 
-### Charter Act of 1813
-- Renewed EIC's charter for 20 years
-- **End of EIC monopoly on trade** (except tea and opium with China)
-- Allowed missionaries to set up missions in India
-- Indian goods faced high tariffs in Britain (protecting British manufacturers)
+#### Higher-Order Practice Prompts
 
-### Charter Act of 1833
-- Made India a British colony
-- EIC lost all commercial privileges; became purely administrative
-- Governor-General of Bengal became **Governor-General of India**
-- **First mention of law commission**: Appointed a law member to codify Indian law
-- ** Macaulay** was the first Law Member (1834); wrote the **Macaulay's Minutes** on education (1835)
-
-### Charter Act of 1853
-- Separated the Governor-General's legislative power from executive
-- Created a **legislative council** (central and provincial) separate from the executive
-- Opened **civil service to competitive examination** (but only in Britain — Indians still excluded)
-
-## Impact of Revenue Settlements on Indian Society
-
-### Positive:
-- Systematic record-keeping of land ownership
-- Certainty in revenue demand (under Permanent Settlement)
-- Creation of a landlord class loyal to the British
-- Development of a **land market** — land could be bought and sold
-
-### Negative:
-- **Farmers (Ryots) got no rights** — they were at the mercy of Zamindars
-- Many **Zamindars defaulted** on revenue and lost their lands
-- **Fragmentation of holdings** due to inheritance laws
-- **Rural indebtedness** increased — moneylenders took over land
-- Created a **landed aristocracy** that became parasitic — disconnected from agriculture
-
-## BPSC Previous Year Question Pattern
-- Battle of Plassey — causes, significance, Mir Jafar's role
-- Revenue settlements — differences between all three
-- Warren Hastings's reforms
-- Permanent Settlement — features and impact on Bengal
-- Charter Acts and their significance in governance evolution
-- Bihar and British revenue system
+1. **Trace the revenue demand formula:** *Land Revenue Demand = Total Rent (Sair + Jama) − Malikhana (10 %)*. Apply it to a Bengal estate yielding ₹ 1 lakh gross rent; compute the Company's demand.
+   *(Answer: ₹ 90,000 — Malikhana = ₹ 10,000 retained by zamindar.)*
+2. **Compare de-industrialisation thesis with revenue extraction:** Explain how the Permanent Settlement forced cultivators into cash crops (indigo, opium, raw cotton) to meet the fixed rupee demand, contributing to the collapse of the Bengal textile industry.
 
 ---
+
+## Continue your study
+
+- **[View this topic in your BPSC roadmap](/roadmap/?exam=bpsc&duration=1mo)** — see where "Coming of the British & Revenue Settlements" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=bpsc&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[BPSC exam overview](/exams/bpsc/)** — pattern, eligibility, and syllabus
+- **[All History notes](/notes/bpsc/history/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

@@ -8,7 +8,7 @@ topicName: Jainism and Buddhism
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-17"
 ---
 
 # Jainism and Buddhism
@@ -16,189 +16,125 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Jainism and Buddhism** — Key Facts for TNPSC Group 1
-Core concept: Both Jainism and Buddhism emerged in the 6th century BCE in the Bihar-Jharkhand region as protest movements against Brahminical orthodoxy and ritualism
-High-yield point: Both religions share common features — rejection of Vedic authority, emphasis on non-violence (ahimsa), individual salvation — but differ fundamentally on key doctrines
-⚡ Exam tip: TNPSC frequently asks about the differences between Mahavira and Buddha, and the contribution of Ashoka to Buddhism
+**Jainism and Buddhism** were heterodox (nāstika) śramaṇa movements of north-eastern India around the 6th–5th century BCE. Both rejected the **Vedas**, Vedic animal sacrifice (yajña), and Brahminical caste supremacy, offering instead paths to liberation through ethics, asceticism, and mental discipline.
+
+| Aspect | Jainism | Buddhism |
+|---|---|---|
+| Founder | **Mahavira** (Vardhamana, 599–527 BCE), 24th Tirthankara | **Siddhartha Gautama** (c. 563–483 BCE) |
+| Tirthankara line | 24 Tirthankaras, starting with **Rishabhadeva** (1st) | — |
+| Core doctrine | Ahimsa + **Triratna** (Right Faith, Knowledge, Conduct) | **Four Noble Truths** + **Eightfold Path** |
+| On the soul | Affirms **jīva** (permanent soul) | Denies permanent soul (**anattā**) |
+| Sacred sites | Shravanabelagola, Palitana, Parasnath | Lumbini, Bodh Gaya, Sarnath, Kushinagar |
+
+> 💡 **High-Yield Memory Hook:** **"JABS"** — **J**ainism = Affirms **B**oth karma and **S**oul; Buddhism accepts karma but denies a permanent soul. Another anchor: Mahavira is the **24th** Tirthankara (think "24 = V" for Vardhamana), Parshvanatha the **23rd**, Rishabhadeva the **1st**.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Jainism and Buddhism** — TNPSC Group 1 Study Guide
+#### Causes of Rise (6th–5th c. BCE)
 
-## Overview
+- Costly and cruel Vedic sacrifices (yajñas) alienated commoners.
+- Caste rigidity excluded Shudras and women from ritual learning.
+- Use of **Prakrit and Pali** instead of Sanskrit opened teachings to wider audiences.
+- Agricultural surplus in the **Gangetic plain (Magadha, Kosala)** supported urban monastic orders.
+- Royal patronage began under **Bimbisara** and **Ajatashatru** of Magadha.
 
-The 6th century BCE was a period of great social, political, and religious ferment in the Indian subcontinent. This era, often called the **Shramana period** (from Shramana meaning "striving" or "renunciate"), saw the rise of numerous religious thinkers who questioned Vedic ritualism and Brahminical dominance. Among these, Jainism and Buddhism emerged as the two most significant reform movements that not only challenged contemporary religious practices but also profoundly influenced Indian civilization for over two millennia.
+#### Buddhism — Core Doctrine
 
-Both religions emerged in the **Mahajanapadas** era — particularly in the kingdoms of Magadha and Videha — during a period of increasing urbanization, monetization, and social stratification.
+The **Four Noble Truths (Catvāri Ārya-satyāni)** frame Buddha's diagnosis of human existence: *dukkha* (suffering exists), *samudaya* (its cause is *tṛṣṇā* — craving), *nirodha* (suffering can end), *mārga* (the path is the Noble Eightfold Path). The **Three Marks of Existence** are *anicca* (impermanence), *dukkha*, and *anattā* (no permanent self). The **Eightfold Path** divides into three groups: *Paññā* (right view, intention), *Sīla* (right speech, action, livelihood), and *Samādhi* (right effort, mindfulness, concentration).
 
-## Jainism
+#### Jainism — Core Doctrine
 
-### Founder: Vardhamana Mahavira
+The **Triratna** (Three Jewels) is *Samyak Darśana* (right faith), *Samyak Jñāna* (right knowledge), and *Samyak Charitra* (right conduct). Ascetics take **five Mahāvratas**: Ahimsa, Satya, Asteya, Aparigraha, and Brahmacharya. Lay followers observe the **Aṇuvratas** (minor vows). **Syādvāda** (sevenfold conditional predication) and **Anekāntavāda** (manifold reality) are Jain contributions to Indian logic. Monks carry a **muh-patti** (mouth-cover) and **rajoharana** (soft broom) to avoid harming microbes.
 
-- **Birth:** 599 BCE (traditionally) in Kundalagrama, near Vaishali (modern Bihar)
-- **Parents:** Siddhartha (father) and Trisala (mother) — Kshatriya family of the Lichchhavi clan
-- **Renunciation:** At age 30, he abandoned household life and became an ascetic (nirgrantha)
-- **Kevalya (Omniscience):** After 12 years of severe austerities, he attained Kevala (omniscience) at the age of 42
-- **Death (Nirvana):** 527 BCE (traditionally) at Pawapuri, Bihar
+#### Buddhist Councils and Schisms
 
-### Key Principles (Tenets)
+| Council | Date (approx.) | Place | Ruler | Outcome |
+|---|---|---|---|---|
+| 1st | 483 BCE | **Rājagṛha** | Ajatashatru | Sūtra-piṭaka + Vinaya-piṭaka compiled |
+| 2nd | 383 BCE | **Vaiśālī** | Kālāśoka | Sthaviravāda vs Mahāsāṃghika split |
+| 3rd | 250 BCE | **Pāṭaliputra** | Aśoka | Abhidhamma-piṭaka; missions to **Sri Lanka** (Mahinda, Sanghamitta) |
+| 4th | c. 72 CE | **Kunḍalvan, Kashmir** | Kaniṣka | **Mahāyāna** formalised; Sanskrit texts |
 
-1. **Ahimsa (Non-violence):** The supreme principle — not just abstaining from physical violence but including mental and verbal harm. Jain monks carry a peacock feather brush to sweep insects from their path.
-2. **Satya (Truth):** Strict adherence to truthfulness in speech, thought, and action
-3. **Asteya (Non-stealing):** Do not take what does not belong to you
-4. **Brahmacharya (Chastity):** Celibacy, especially for ascetics
-5. **Aparigraha (Non-attachment):** Non-accumulation; limiting possessions
+#### Comparison Matrix: Easily Confused Pairs
 
-### Additional Principles
+| Feature | Digambara | Śvētāmbara |
+|---|---|---|
+| Attire | Sky-clad (nude) | White-clad |
+| Lineage trace | Followed **Bhadrabāhu** south to Śravaṇabelagoḷa | Stemmed from Sthūlabhadra at **Vāḻabhi** council (c. 454 CE) |
+| Tīrthankara idols | Standing (kāyotsarga) | Seated, with śrīvatsa mark |
+| Canon | Treat Bhadrabāhu's teachings as original | 13 Āgamas (45 texts) accepted as canon |
+| Women | Denied salvation in strict Digambara view | Permit women ascetics |
 
-- **Anekantavada (Principle of Non-Absolutism):** Epistemological doctrine asserting that reality is complex and multifaceted, requiring multiple viewpoints (*nayavada*) for comprehension
-- **Syadvada (Conditioned View):** Sevenfold logical predication of any statement
-- **Karma theory:** Accumulation of karmic matter (pudgala) binds the soul; proper conduct and austerity can burn off karma
+#### 🎯 Exam-Level Worked Problem
 
-### Jain Texts
+**Question:** Match the following kings with the religion they patronised:
 
-- **Agamas:** The canonical Jain texts — 45 works including 12 Upangas and 12 Angas
-- **The Angas:** Primary canonical texts; the 12th Anga, Bhagavati Sutra, contains discussions of the soul and karma
-- **Tattvartha Sutra:** The most important philosophical text — written by Umadeva; first systematic exposition of Jain doctrine
-- **Uttaradhyayana Sutra:** Stories and doctrines for Jain monks
+| King | Options |
+|---|---|
+| A. Kharavela of Kalinga | (i) Buddhism — patron of 4th Council |
+| B. Kanishka | (ii) Jainism — Hathigumpha inscription |
+| C. Chandragupta Maurya | (iii) Buddhism — rock edicts, 3rd Council |
+| D. Ashoka | (iv) Jainism — Bhadrabahu tradition |
 
-### Monastic Organization
+#### Solution:
 
-- **Munis (ascetics):** Follow strict vows — complete non-violence, no ownership, begging for food, fasting
-- **Shravikas (nuns):** Women ascetics following the same rules
-- **Lay followers (Shravakas):** Follow basic principles of ahimsa, truth, non-stealing; support monks and nuns
+1. **A → (ii)**: Kharavela's **Hathigumpha inscription** at Udayagiri (Bhubaneswar) explicitly mentions Jain Tīrthankara images and his digging of caves for Jain monks.
+2. **B → (i)**: Kaniṣka convened the **4th Buddhist Council at Kunḍalvan (Kashmir)** c. 72 CE, which formalised Mahāyāna doctrine.
+3. **C → (iv)**: Chandragupta Maurya embraced **Jainism** under **Bhadrabāhu**, migrating to Śravaṇabelagoḷa at the end of his reign.
+4. **D → (iii)**: Aśoka propagated **Dhamma** through rock and pillar edicts and convened the **3rd Buddhist Council at Pāṭaliputra**.
 
-### Sects
-
-- **Digambara (Sky-clad):** "Naked" — monks wear no clothing; believed only men can attain moksha; women require another birth
-- **Shvetambara (White-clad):** Monks wear white robes; scriptures preserved in a slightly different canon; women can attain liberation
-
-### Spread
-
-Jainism spread primarily in Gujarat, Rajasthan, Karnataka, and Tamil Nadu — largely in trading communities. It maintained a strong presence in South India.
-
-## Buddhism
-
-### Founder: Siddhartha Gautama (Buddha)
-
-- **Birth:** 563 BCE (traditionally) in Lumbini (modern Nepal) — a Shakya clan prince
-- **Father:** Suddhodana — King of Kapilavastu
-- **Mother:** Maya (Mahamaya) — died 7 days after childbirth
-- **Renunciation:** At age 29, after seeing the "four sights" (old man, sick man, corpse, ascetic), he left his family and royal comforts
-- **Enlightenment (Nirvana):** At age 35, under the Bodhi tree at Bodh Gaya (Buddha attains supreme enlightenment)
-- **First Sermon (Dharmachakra Pravartana):** At Sarnath near Varanasi — setting in motion the "Wheel of Dharma"
-- **Death (Mahaparinirvana):** 483 BCE at Kushinagar, Uttar Pradesh
-
-### Key Teachings
-
-**The Four Noble Truths (Arya Satya):**
-
-1. **Dukkha (Suffering):** Life involves suffering — birth, aging, sickness, death, grief, despair
-2. **Samudaya (Origin of suffering):** Caused by thirst (tanha) — craving for pleasure, existence, non-existence
-3. **Nirodha (Cessation of suffering):** Suffering can end by eliminating craving
-4. **Marga (Path to end suffering):** The Eightfold Path
-
-**The Eightfold Path (Astangika Marg):**
-
-| Path | Pali Term | Description |
-|------|-----------|-------------|
-| Right View | Samma Ditthi | Understanding the Four Noble Truths |
-| Right Intention | Samma Sankappa | Right thoughts and resolutions |
-| Right Speech | Samma Vaca | Abstaining from lying, gossip, harsh language |
-| Right Action | Samma Kammanta | No killing, stealing, improper conduct |
-| Right Livelihood | Samma Ajiva | Ethical occupations only |
-| Right Effort | Samma Vayama | Preventing unwholesome states |
-| Right Mindfulness | Samma Sati | Awareness of body, feelings, mind |
-| Right Concentration | Samma Samadhi | Meditation, mental unification |
-
-**Other Key Teachings:**
-
-- **Anattman (No-self):** There is no permanent, unchanging soul (atman) — only aggregates (khandhas) that constantly change
-- **Pratityasamutpada (Dependent Origination):** All phenomena arise dependent on causes and conditions
-- **Ahimsa:** Non-violence extended to all sentient beings
-- **Karma:** Intentional action shapes future existence — unlike Jainism, karma is not deterministic but can be transformed
-- **Nirvana:** Liberation from the cycle of rebirth (samsara)
-
-### Buddhist Texts
-
-- **Tripitaka (Three Baskets):** The oldest Buddhist canon
-  - **Vinaya Pitaka:** Monastic rules and discipline
-  - **Sutta Pitaka:** Discourses of Buddha and his disciples
-  - **Abhidhamma Pitaka:** Philosophical and psychological analysis
-- **Written in Pali** (Theravada tradition)
-- **Mahayana Sutras:** Additional sutras like Diamond Sutra, Heart Sutra (in Sanskrit)
-
-### Sangha (Monastic Order)
-
-- Buddha established the Bhikkhu Sangha (monastic order) at Sarnath
-- monks and nuns follow 227 vows (Theravada) — including celibacy, poverty, and non-violence
-- **Upasakas (lay followers):** Support Sangha and observe Five Precepts
-
-### Major Sects
-
-- **Theravada (Hinayana):** "Way of Elders" — conservative; believe only the historical Buddha was enlightened; prevalent in Sri Lanka, Thailand, Myanmar, Cambodia
-- **Mahayana:** "Great Vehicle" — allows for multiple Buddhas and bodhisattvas; prevalent in China, Japan, Korea, Vietnam
-- **Vajrayana (Tantric Buddhism):** "Thunderbolt Vehicle" — esoteric; prevalent in Tibet, Nepal, Japan (Shingon)
-
-## Key Similarities
-
-| Feature | Jainism | Buddhism |
-|---------|---------|---------|
-| **Founder's background** | Kshatriya prince | Kshatriya prince |
-| **Era** | 6th century BCE | 6th century BCE |
-| **Reject Vedic authority** | Yes | Yes |
-| **Ahimsa** | Supreme principle | Important teaching |
-| **Renunciation** | Yes | Yes |
-| **Monastic Sangha** | Yes | Yes |
-| **Tirthankaras** | 24 Tirthankaras | No |
-| **Goddess concept** | Siddhaya (liberated souls) | No gods required |
-
-## Key Differences
-
-| Feature | Jainism | Buddhism |
-|---------|---------|---------|
-| **Founder's name** | Vardhamana Mahavira | Siddhartha Gautama |
-| **Tirthankaras** | 24 Tirthankaras before Mahavira | No concept of Tirthankaras |
-| **Soul (Atman)** | Yes — souls exist eternally | No — Anattman (no-self) |
-| **Karma** | Material karmic particles (pudgala) | Intentional action (cetana) |
-| **Goal** | Kevalya (omniscience) | Nirvana (extinguishing of craving) |
-| **Asceticism** | Extreme — nude monks, fasting | Moderate — begging, simplicity |
-| **Vegetarianism** | Strict — even root vegetables avoided | Not required — monks must accept whatever food offered |
-| **Language** | Ardha-Magadhi Prakrit | Pali |
-
-## Contribution to Indian Culture
-
-- **Ashoka's Propagation:** Emperor Ashoka (268-232 BCE) adopted Buddhism, built stupas (Sanchi, Bharhut), and sent missionaries to Sri Lanka, Southeast Asia, and the Mediterranean
-- **Nalanda:** World's first residential university — Buddhist center of learning
-- **Architecture:** Stupas at Sanchi, Sarnath, Bharhut; rock-cut caves at Ajanta, Ellora
-- **Literature:** Jataka tales, Panchatantra influences, Buddhist Pali literature
-
-## TNPSC-Specific High-Yield Points
-
-- **Mahavira:** 24th Tirthankara; connected to Parsvanatha (23rd Tirthankara)
-- **Buddha's First Sermon:** At Sarnath — the "Dharmachakra Pravartana" or "Setting in Motion the Wheel of Dharma"
-- **Buddha's Four Sights:** Old man, sick man, corpse, ascetic
-- **Ashoka's Dhamma:** Not a religion but an ethical code — "Edicts of Ashoka" on pillars
-- **Nalanda University:** Founded in the 5th century CE; destroyed in 1193 by Turkish invader Bakhtiyar Khilji
-- **Ajanta and Ellora:** Buddhist caves reflecting Buddhist art evolution
-- **Bodh Gaya:** Site of Buddha's enlightenment — most sacred Buddhist site
-
-## Practice Questions (Previous Year TNPSC Patterns)
-
-1. The first sermon of Buddha was preached at:
-   a) Lumbini b) Bodh Gaya c) Sarnath d) Kushinagar
-
-2. Mahavira was born in:
-   a) Kapilavastu b) Kundalagrama c) Vaishali d) Pawapuri
-
-3. The Ajanta caves are located in the state of:
-   a) Karnataka b) Maharashtra c) Andhra Pradesh d) Madhya Pradesh
-
-4. Ashoka's Dhamma was essentially:
-   a) A new religion b) An ethical code of conduct c) A set of rituals d) A philosophical doctrine
+> ⚠️ **Examiner Trap:** Students swap **Kharavela** with a Buddhist king because of his Kalinga association — the war was Aśoka's, not Kharavela's. Always check the inscription evidence (Hathigumpha = Jain; Aśokan edicts = Buddhist).
 
 ---
+
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for students on a longer study timeline.
+
+#### Timeline and Patronage Network
+
+1. **c. 599–527 BCE** — Mahavira systematises Jainism, building on the 23rd Tirthankara Parshvanatha (c. 8th c. BCE, four vows) and the 1st Tirthankara Rishabhadeva.
+2. **563 BCE** — Gautama born at **Lumbini** (Śakya republic, modern Nepal); raised at Kapilavastu.
+3. **c. 528 BCE** — Enlightenment under the Bodhi tree at **Bodh Gayā**; first sermon (*Dhammacakkappavattana*) at the **Deer Park, Sārnāth**.
+4. **483 BCE** — *Mahāparinirvāṇa* at **Kusinagarā**; 1st Council at Rājagṛha.
+5. **c. 300 BCE** — **Jain Council at Pāṭaliputra** under Chandragupta Maurya splits Digambara from Śvētāmbara.
+6. **268–232 BCE** — Aśoka's reign; missions by **Mahinda** and **Sanghamitta** carry **Theravāda** to Sri Lanka.
+
+#### Jain Cosmology and the Dravyas
+
+The Jain universe is divided into **Lokākāśa** (world-space) and **Alokākāśa** (void beyond). Six fundamental dravyas constitute reality: **Jīva** (soul), **Pudgala** (matter), **Dharma** (motion-medium), **Adharma** (rest-medium), **Ākāśa** (space), and **Kāla** (time). Karma is treated as fine matter (karma-pudgala) sticking to the soul, weighed down by passions (*kaṣāya*). Liberation (*kevalya*) requires the soul to shed all karmic matter.
+
+#### Dependent Origination — The Twelve Nidānas
+
+Buddhism's causal chain begins with *avidyā* (ignorance) → *saṃskāra* (formations) → *vijñāna* (consciousness) → *nāma-rūpa* (name-and-form) → *ṣaḍ-āyatana* (six sense-bases) → *sparśa* (contact) → *vedanā* (feeling) → *tṛṣṇā* (craving) → *upādāna* (clinging) → *bhava* (becoming) → *jāti* (birth) → *jarā-maraṇa* (ageing-and-death).
+
+#### Edge Cases and Common Errors
+
+| Trap | Correct Position |
+|---|---|
+| Buddha attained *parinirvāṇa* at Bodh Gayā | He attained *nirvāṇa* at Bodh Gayā; *parinirvāṇa* was at **Kusinagarā** |
+| Mahavira born at Vaishali city | Born at **Kundagrāma** near Vaishali; *kevalya* at **Pāvāpurī** |
+| Buddhism denies karma | Buddhism accepts karma and rebirth but denies **permanent ātman** |
+| Jain canonical language is Sanskrit | Canonical **Āgamas** are in **Ardhamāgadhī Prakrit** |
+| Ajivikas were Jain sub-sect | **Ājīvikas** (Makkhali Gosāla) were a separate contemporary śramaṇa order |
+| Mahavira is the 1st Tirthankara | Rishabhadeva is the **1st**; Parshvanatha the **23rd**; Mahavira the **24th** |
+
+#### Two Advanced Practice Prompts
+
+1. **Chronology drill:** Reconstruct the order of all four Buddhist Councils and the one major Jain Council (Pāṭaliputra) on a single timeline. Identify which council produced the **Abhidhamma-piṭaka** and which triggered the **Mahāyāna** split.
+2. **Sacred-site mapping:** Plot on a map of South Asia the **four Buddhist sites** (Lumbini, Bodh Gayā, Sārnāth, Kusinagarā) and the **major Jain tīrthas** (Śravaṇabelagoḷa, Pālitāṇā, Pārasnāth, Udayagiri). Note how geography reflects patronage corridors — Magadha and Avanti for early Buddhism; Karnataka and Tamil Nadu for Digambara Jainism.
+
+> 📌 **Exam Strategy:** TNPSC Group 1 History (3% weight) usually yields one or two MCQs from this topic. Highest-yield sub-areas: **Council chronology**, **Digambara vs Śvētāmbara**, and **king-religion matching**. Master the four Buddhist sites and the 24th-Tirthankara identity to handle trap options confidently.
+
+---
+
+## Continue your study
+
+- **[View this topic in your TNPSC Group 1 roadmap](/roadmap/?exam=tnpsc&duration=1mo)** — see where "Jainism and Buddhism" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=tnpsc&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[TNPSC Group 1 exam overview](/exams/tnpsc/)** — pattern, eligibility, and syllabus
+- **[All History notes](/notes/tnpsc/history/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

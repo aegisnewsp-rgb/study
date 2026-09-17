@@ -8,7 +8,7 @@ topicName: Variation and Evolution
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.576762"
-lastUpdated: 2026-03-24
+lastUpdated: "2026-09-17"
 diagramPrompt: "Detailed biological diagram of Variation and Evolution with labeled parts, accurate proportions, white background, color-coded tissues/organs, textbook quality"
 
 ---
@@ -16,223 +16,108 @@ diagramPrompt: "Detailed biological diagram of Variation and Evolution with labe
 # Variation and Evolution
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+> Rapid summary for last-minute revision before your NABTEB Biology paper.
 
-**Variation and Evolution** — Quick Facts
+**Variation** is the difference between individuals of the same species, while **evolution** is the gradual, heritable change in the allele frequencies of a population across generations. NABTEB tests these together as a compulsory objective and theory topic, usually 3–5 MCQs and one essay worth up to 15 marks. Remember: individuals do not evolve — **populations** do, because allele frequencies only change across generations.
 
-**Key Definitions:**
-- **Variation**: Differences between individuals of the same species
-- **Evolution**: Change in the inherited characteristics of a population over successive generations
-- **Mutation**: Sudden, heritable change in DNA sequence
-- **Gene**: A unit of heredity found at a specific locus on a chromosome
-- **Allele**: Alternative forms of a gene controlling different traits
+- **Continuous variation**: a range of phenotypes with no sharp breaks (e.g., height, weight, skin colour). Plotted as a bell-shaped (normal) curve.
+- **Discontinuous variation**: discrete categories with no intermediates (e.g., ABO blood groups, tongue-rolling, seed shape).
+- **Sources of variation**: mutation, meiosis (crossing-over + independent assortment), random fertilisation, and gene flow.
+- **Hardy-Weinberg rule** (no evolution): p + q = 1, so p² + 2pq + q² = 1; here p and q are dominant and recessive allele frequencies (dimensionless, 0–1).
 
-**Types of Variation:**
-
-| Type | Cause | Example |
-|------|-------|---------|
-| Continuous | Polygenes (multiple genes) | Height, skin colour |
-| Discontinuous | Single gene with major effect | Blood groups, cystic fibrosis |
-
-**Sources of Variation:**
-- **Gene mutations**: Changes in DNA sequence
-- **Chromosomal mutations**: Changes in chromosome structure or number
-- **Genetic recombination**: Mixing of genes during meiosis (crossing over)
-- **Independent assortment**: Random separation of homologous chromosomes
-
-⚡ **Exam Tip (NABTEB):** NABTEB frequently asks about the difference between continuous and discontinuous variation. Remember: continuous = bell curve with intermediate forms; discontinuous = distinct categories with no intermediate forms.
+> 💡 **High-Yield Memory Hook:** **"PopEvolve"** — **Pop**ulations **Evolve**, individuals are selected. Also **"CD-MAG"** for sources of variation: **C**rossing-over, **D**ifferent gametes (independent assortment), **M**utation, **A**ssortative mating/random fertilisation, **G**ene flow.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> For students who want genuine understanding.
+> Standard content for students with a few days to a few months before NABTEB.
 
-**Variation and Evolution** — Study Guide
+#### Core Definitions and the Variation Spectrum
+**Variation** refers to observable or genetic differences among individuals of the same species. It arises from genetic causes (mutation, meiotic recombination, gene flow) and environmental causes (nutrition, light, temperature acting on the same genotype = phenotypic plasticity). **Heritable variation** is the raw material that natural selection acts on; non-heritable (environmental) variation cannot drive evolution.
 
-**Understanding Variation**
+Two broad types dominate NABTEB questions:
 
-Variation refers to the differences observed among individuals within a population. These differences can be morphological (physical appearance), physiological (body functions), or behavioural.
+| Feature | Continuous Variation | Discontinuous Variation |
+|---|---|---|
+| Phenotype spread | Smooth gradient, many intermediate values | Discrete categories, no intermediates |
+| Genetic control | Many genes (polygenic) + environment | One or few genes (Mendelian) |
+| Typical examples | Height, weight, skin colour, milk yield | ABO blood groups, tongue-rolling, seed shape |
+| Graph shape | Normal (bell) distribution | Bar chart with gaps |
 
-**Continuous Variation:**
+#### Concept Comparison Matrix: Lamarck vs Darwin
 
-Continuous variation shows a bell-shaped distribution when plotted on a graph. Characteristics include:
-- Controlled by many genes (polygenic inheritance)
-- Affected by environmental factors
-- Shows all intermediate forms between two extremes
-- Examples: Height in humans (range 150–190cm), seed size in plants, milk yield in cattle
+| Criterion | Lamarck's Theory | Darwin's Theory (Natural Selection) |
+|---|---|---|
+| Source of change | Use and disuse of body parts | Random heritable variation |
+| Direction of change | Driven by need ("inheritance of acquired characters") | No direction; environment selects existing variants |
+| Inheritance | Acquired traits passed to offspring | Only genetic traits passed on |
+| Status today | Disproved (Weismann's mouse-tail experiment) | Accepted, supported by Hardy-Weinberg + observed cases |
+| NABTEB trap | Stating Lamarckian inheritance as correct | Confusing "use" with selection pressure |
 
-The normal distribution curve applies — most individuals cluster around the mean, with fewer at extremes.
+#### Mechanisms of Evolution
+1. **Mutation** generates new alleles randomly with respect to need.
+2. **Natural selection** increases the frequency of alleles that improve fitness (w = 1 − s, where w is fitness and s is the selection coefficient, both dimensionless).
+3. **Gene flow** (migration) moves alleles between populations.
+4. **Genetic drift** randomly fixes or loses alleles, especially in small populations (founder effect, bottleneck).
+5. **Speciation** requires reproductive isolation — allopatric (geographical barrier) or sympatric (e.g., polyploidy in plants).
 
-**Discontinuous Variation:**
+#### Hardy-Weinberg in Practice
+The equation **p² + 2pq + q² = 1** holds only when: no mutation, no selection, no migration, random mating, and large population size. NABTEB often gives the recessive phenotype count and asks for allele frequency.
 
-Discontinuous variation produces distinct categories with no intermediate forms:
-- Controlled by single genes or a few major genes
-- Largely unaffected by environment
-- Examples: ABO blood groups, gender, fingerprint patterns, seed shape (round vs. wrinkled in peas)
+#### 🎯 Exam-Level Worked Problem
+**Question:** In a population of 1000 peppered moths (*Biston betularia*), 91 are light-coloured (recessive, **bb**). Calculate (a) the frequency of the recessive allele **q**, (b) the frequency of the dominant allele **p**, and (c) the number of heterozygous moths in the population, assuming Hardy-Weinberg equilibrium.
 
-**Environmental Effects on Variation:**
+#### Solution:
+- (a) q² = 91/1000 = 0.091 → q = √0.091 ≈ **0.302** (dimensionless).
+- (b) p = 1 − q = 1 − 0.302 = **0.698** (dimensionless).
+- (c) Frequency of heterozygotes = 2pq = 2 × 0.698 × 0.302 ≈ 0.422.
+- Number of heterozygotes = 0.422 × 1000 ≈ **422 moths**.
 
-While genetic constitution (genotype) sets the potential, environment influences expression:
-- **Modifications**: Changes in phenotype due to environment, not inherited (e.g., tanning from sun exposure)
-- **Norm of reaction**: The range of phenotypes a genotype can produce in different environments
-- **Example**: Identical twins with same genes can have different weights depending on diet and exercise
-
-**Sources of Genetic Variation:**
-
-1. **Mutation**: Permanent changes in DNA
-   - Point mutations: Single base pair changes (e.g., sickle cell anaemia)
-   - Chromosomal mutations: Deletions, duplications, inversions, translocations
-   - Polyploidy: Addition of complete chromosome sets (common in plants)
-
-2. **Sexual Reproduction**:
-   - **Crossing over**: Exchange of genetic material between homologous chromosomes during meiosis
-   - **Independent assortment**: Random distribution of maternal and paternal chromosomes to gametes
-   - **Random fertilisation**: Any sperm can fuse with any egg, creating unique combinations
-
-**Evolution: Darwin's Theory**
-
-Charles Darwin proposed natural selection as the mechanism of evolution in "On the Origin of Species" (1859).
-
-**Darwin's Postulates:**
-1. Individuals within a population show variation
-2. Some variations are heritable
-3. More offspring are produced than can survive (struggle for existence)
-4. Individuals with favourable variations are more likely to survive and reproduce (survival of the fittest)
-5. Over time, favourable traits accumulate in the population
-
-**Evidence for Evolution:**
-
-1. **Fossil record**: Shows changes in organisms over geological time
-2. **Comparative anatomy**: Homologous structures (common ancestry), analogous structures (common function, different ancestry)
-3. **Comparative biochemistry**: Similar DNA sequences, protein structures
-4. **Biogeography**: Distribution of species across continents
-5. **Natural selection experiments**: Darwin's finches, peppered moth
-
-**Common NABTEB Mistakes:**
-- Confusing Lamarck's inheritance of acquired characteristics with Darwin's natural selection
-- Forgetting that natural selection acts on existing variation, not creating new traits
-- Mixing up gene and chromosome mutations
+> ⚠️ **Examiner Trap:** Many NABTEB candidates compute q² but forget to take the square root for q, giving 0.091 instead of 0.302. Also, do not divide the 91 by 10 — that would treat q² as q. Always check: q² is the **homozygous recessive** frequency, not the allele frequency.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive theory for serious preparation.
+> Comprehensive coverage for long-term mastery, essay-level depth, and adjacent-topic links.
 
-**Variation and Evolution** — Comprehensive Notes
+#### Evidence for Evolution (Essay Favourite)
+NABTEB theory essays commonly ask for "Outline the evidence for evolution." Cover at least five lines of evidence:
 
-**Mendelian Genetics and Variation**
-
-Gregor Mendel's experiments with pea plants established the fundamental laws of inheritance:
-
-**Law of Segregation:** During gamete formation, paired alleles separate so each gamete receives one allele from each pair.
-
-**Law of Independent Assortment:** Alleles for different genes assort independently during gamete formation (applies to genes on different chromosomes).
-
-**Monohybrid Cross:**
-For a trait controlled by a single gene with two alleles (dominant allele = T, recessive allele = t):
-
-| | Parent 1 genotype | Parent 2 genotype |
+| Evidence Type | Example | What it Shows |
 |---|---|---|
-| | Tt | Tt |
-| Offspring genotypes: | TT : Tt : tt |  |
-| Offspring phenotypes: | Tall : Short |  |
-| Ratio: | 3 : 1 (if complete dominance) | |
+| Fossil record | Archaeopteryx (reptile–bird link), horse series | Succession of forms over geological time |
+| Comparative anatomy — homologous | Pentadactyl limb in man, whale, bat, frog | Common ancestry (same bone plan, different function) |
+| Comparative anatomy — analogous | Wings of butterfly, bird, bat | Convergent evolution (same function, different origin) |
+| Comparative embryology | Gill slits and tails in vertebrate embryos | Shared developmental pathways |
+| Comparative biochemistry/DNA | Cytochrome c, haemoglobin sequences | Molecular common descent |
+| Direct observation | Industrial melanism in *Biston betularia*; antibiotic resistance in *Staphylococcus* | Selection acting now |
 
-**Dihybrid Cross:**
-For two traits segregating independently (YyRr × YyRr):
-- 9:3:3:1 phenotypic ratio in F2 generation
-- 16 genotypic combinations
+#### Advanced Traps and Exceptions
+1. Hardy-Weinberg's five assumptions are never all met in nature — any deviation makes **evolution occurring** the correct conclusion, not the failure of the equation.
+2. Genetic drift dominates over selection in **small populations** (N < 50); large populations are selection-dominated.
+3. **Directional** selection (one extreme favoured) differs from **stabilising** selection (intermediate favoured) and **disruptive** selection (both extremes favoured) — each shifts the bell curve differently.
+4. Polyploidy can produce a new plant species in a **single generation** (sympatric speciation), so "speciation takes many generations" is sometimes false.
+5. Mutations are random with respect to need; therefore, saying "the moth mutated because it needed to become dark" is Lamarckian and wrong.
+6. Homologous vs analogous confusion in MCQs: **same origin + different function = homologous = evidence for evolution**; **same function + different origin = analogous = convergent evolution**.
+7. Antibiotic resistance arises by random mutation then selection — bacteria do not "learn" to resist.
 
-**Codominance and Multiple Alleles:**
+#### Connection to Other NABTEB Biology Topics
+- **Genetics**: Hardy-Weinberg links Mendelian ratios to population-level allele frequencies.
+- **Reproduction**: Meiosis, crossing-over and random fertilisation feed the variation pool.
+- **Ecology**: Selection pressure is an ecological force (predation, climate, disease).
+- **Health and disease**: Antibiotic resistance is evolution applied to medicine.
 
-**Codominance:** Both alleles are expressed equally in heterozygotes.
-- Example: MN blood group system (L^M and L^N are codominant)
-- AB blood group: I^A and I^B are codominant
+#### Practice Prompts
+1. A population has 16% recessive individuals for a Mendelian trait. Calculate the expected percentage of heterozygotes and explain what would happen to allele frequencies if a new predator preferentially ate the dominant phenotype.
+2. Distinguish between allopatric and sympatric speciation, giving one example of each, and state why reproductive isolation is essential.
 
-**Multiple Alleles:** A gene with three or more allele forms.
-- Example: ABO blood group — three alleles (I^A, I^B, i) with six genotypes but four phenotypes
+---
 
-**Blood Group Genetics:**
-| Genotype | Blood Group |
-|----------|-------------|
-| I^A I^A or I^A i | A |
-| I^B I^B or I^B i | B |
-| I^A I^B | AB |
-| ii | O |
+## Continue your study
 
-**The Hardy-Weinberg Principle:**
+- **[View this topic in your NABTEB roadmap](/roadmap/?exam=nabteb&duration=1mo)** — see where "Variation and Evolution" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=nabteb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NABTEB exam overview](/exams/nabteb/)** — pattern, eligibility, and syllabus
+- **[All Biology notes](/notes/nabteb/biology/)** — browse sibling topics in this subject
 
-This principle provides a mathematical model for studying evolution. Allele and genotype frequencies remain constant from generation to generation in the absence of evolutionary influences.
-
-**Equilibrium equation:** p² + 2pq + q² = 1
-
-Where:
-- p = frequency of dominant allele
-- q = frequency of recessive allele
-- p² = frequency of homozygous dominant genotype
-- 2pq = frequency of heterozygous genotype
-- q² = frequency of homozygous recessive genotype
-
-**Factors disrupting Hardy-Weinberg equilibrium:**
-- Mutation
-- Genetic drift (random changes in small populations)
-- Migration (gene flow)
-- Natural selection
-- Non-random mating
-
-**Natural Selection in Detail:**
-
-**Types of Natural Selection:**
-
-1. **Directional selection**: One extreme phenotype is favoured (e.g., long necks in giraffes)
-
-2. **Stabilising selection**: Intermediate phenotype is favoured (e.g., human birth weight — too small or too large increases mortality)
-
-3. **Disruptive selection**: Both extreme phenotypes are favoured over intermediate forms (e.g., African seed-cracking finches)
-
-4. **Sexual selection**: Traits increasing mating success, even if reducing survival (e.g., peacock's tail, deer antlers)
-
-**Mechanisms of Evolution:**
-
-**Gene Flow:** Transfer of genetic material between populations through migration. Increases genetic diversity within populations but makes populations more similar to each other.
-
-**Genetic Drift:** Random change in allele frequencies, most significant in small populations. Two types:
-- **Bottleneck effect**: Population drastically reduced, surviving alleles become fixed or lost
-- **Founder effect**: New population established by very few individuals
-
-**Speciation:**
-
-**Allopatric speciation:** Geographic separation of a population (mountains, rivers, islands) leading to reproductive isolation.
-
-**Sympatric speciation:** New species arise without geographic separation (common in plants through polyploidy).
-
-**Reproductive Isolation Mechanisms:**
-- **Pre-zygotic**: Habitat isolation, temporal isolation, behavioural isolation, mechanical isolation, gametic isolation
-- **Post-zygotic**: Hybrid inviability, hybrid sterility, hybrid breakdown
-
-**Human Evolution:**
-
-Evidence for human evolution:
-- Fossil record (Australopithecus → Homo habilis → Homo erectus → Homo sapiens)
-- DNA analysis showing common ancestry with chimpanzees (~98.6% shared genes)
-- Vestigial structures (appendix, wisdom teeth, tailbone)
-- Atavisms (occasional throwbacks like tail formation in babies)
-
-**Homo sapiens characteristics:**
-- Bipedal locomotion
-- Large brain (average 1400 cm³)
-- Reduced brow ridges
-- Chin presence
-- Reduced body hair
-- Extended post-natal development
-
-**⚡ NABTEB Exam Pattern:**
-NABTEB questions on evolution often require:
-- Explaining Darwin's theory with examples
-- Distinguishing between different types of selection
-- Calculating expected offspring ratios
-- Identifying evidence supporting evolution
-
-Expect 5-8 marks questions on: sources of variation, Darwin's natural selection, difference between Lamarckism and Darwinism, and the Hardy-Weinberg equation.
-
-*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

@@ -8,7 +8,7 @@ topicName: "Islam in Pakistan: History, Politics, and the Islamisation Process"
 weight: 3
 country: pakistan
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-17"
 ---
 
 # Islam in Pakistan: History, Politics, and the Islamisation Process
@@ -16,187 +16,102 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Islam in Pakistan: History, Politics, and the Islamisation Process** — Key Facts for KPK PMS
-Core concept: Pakistan's creation was driven by the All India Muslim League's demand for a separate Muslim homeland; the Islamic identity of Pakistan has been a subject of continuous political and constitutional debate since independence
-High-yield point: The Objectives Resolution (1949) under Liaquat Ali Khan established the Islamic character of the state without making Sharia the supreme law; Zia-ul-Haq's Islamisation (1977–1988) was the most extensive state-driven Islamisation in Pakistani history; Pakistan's Islamic identity is reflected in the Objectives Resolution, the prohibition of alcohol, and the Islamic penal code
-⚡ Exam tip: Zia's Islamisation programme is a frequently tested topic in the KPK PMS — it included the Hadood Ordinances (1979), the Shariat Benevolent Supremacy (1985), the Qanoon-e-Shahadat (1984, evidence law), the Zakat and Ushr system, and the Financial Institutions (Recovery of Finances) Ordinance — know these specifically
+Pakistan's religious-political identity rests on the **Two-Nation Theory** advanced by Sir Muhammad Iqbal's 1930 Allahabad Address and codified in the **Lahore Resolution of 23 March 1940**. After independence on 14 August 1947, Islam became the state religion and a tool of political legitimisation through four landmark stages: the **Objectives Resolution (12 March 1949)**, the **1973 Constitution's Islamic provisions**, **General Zia-ul-Haq's ordinances (1979–1985)**, and the post-Zia constitutional debates that continue under the **18th Amendment (2010)**.
+
+| Term | Year | Significance |
+|---|---|---|
+| Lahore Resolution | 23 March 1940 | Demanded separate Muslim state |
+| Objectives Resolution | 12 March 1949 | Sovereignty vested in Allah |
+| Hudood Ordinances | 1979 | Replaced criminal law with Qur'anic categories |
+| Federal Shariat Court | 1980 | Article 203-D; checks repugnancy to Islam |
+| Zakat and Ushr Ordinance | 1980 | Compulsory 2.5% zakat on savings |
+
+> 💡 **High-Yield Memory Hook:** **"OLHaZ"** — **O**bjectives (1949), **L**ahore (1940), **H**udood (1979), **a**rticle 227 (1973), **Z**akat (1980). The letters also mirror "Zia-ul-Haq," who drove the 1979–1985 wave.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-## Islam and the Pakistan Movement
+#### Ideological Foundations (1930–1947)
 
-### The Demand for Pakistan
+The **Two-Nation Theory** argued that Hindus and Muslims were distinct nations requiring separate homelands. Sir Muhammad Iqbal delivered the seminal address at Allahabad on 29 December 1930 envisioning a consolidated Muslim state within India. The **All-India Muslim League** translated this vision politically at Minto Park, Lahore, on **23 March 1940**, demanding independent states for Muslim-majority provinces. The Radcliffe Award of 17 August 1947 carved Pakistan from British India.
 
-**Muhammad Ali Jinnah and the Muslim League:**
-- Muhammad Ali Jinnah (1876–1948) led the All India Muslim League
-- The Lahore Resolution (1940): Called for "separate states" for Muslims in the northwest and northeast of British India
-- The 1946 elections gave the Muslim League an overwhelming mandate
+#### Objectives Resolution and Early Constitutionalisation
 
-**Jinnah's Vision of Pakistan:**
-- In his first presidential address to the Constituent Assembly (August 11, 1947), Jinnah declared: "You are free; you are free to go to your temples, you are free to go to your mosques or to any other place of worship in your State... You may belong to any religion or caste or creed — that has nothing to do with the business of the State"
-- This secular, liberal vision of Pakistan was contradicted by later Islamisation
+Prime Minister **Liaquat Ali Khan** moved the Objectives Resolution on **12 March 1949** in the Constituent Assembly. It declared that sovereignty over the entire universe belongs to Allah alone, that the state shall exercise its powers through the people's representatives, and that **Quran and Sunnah** shall be the basis of all legislation. The Resolution later became the preamble of the 1973 Constitution.
 
-**The Two-Nation Theory:**
-The ideological foundation of Pakistan was the "Two-Nation Theory": Hindus and Muslims are distinct nations (not one nation with religious differences) who cannot live together in a single state. This theory justified the demand for a separate Muslim homeland.
+#### Comparison Matrix: Easily Confused Concepts
 
-### The Islamic Identity Question
+| Concept | Confused With | Actual Distinction |
+|---|---|---|
+| Lahore Resolution (1940) | Objectives Resolution (1949) | 1940 demanded separate state; 1949 declared sovereignty of Allah |
+| Federal Shariat Court (1980) | Council of Islamic Ideology (1962) | FSC rules on repugnancy; CII is advisory |
+| Article 227 (1973) | Article 228 (1973) | 227 forbids repugnant laws; 228 establishes CII |
+| Hudood Ordinances (1979) | Muslim Family Laws Ordinance (1961) | Hudood governs criminal offences; MFLO governs family law |
+| Separate electorates (1985) | Joint electorates | Zia introduced separate; Musharraf restored joint in 2002 |
+| Shariat Appellate Bench | Supreme Court | SAB is a 3-judge SC bench hearing FSC appeals |
 
-**The Objectives Resolution (1949):**
-Passed by the Constituent Assembly under Prime Minister Liaquat Ali Khan, the Objectives Resolution declared:
-- God is the sovereign of all sovereignty
-- Muslims shall be enabled to order their lives in the individual and collective spheres in accord with the teachings and requirements of Islam
-- The state shall safeguard the legitimate interests of minorities
+#### Zia's Islamisation Programme (1979–1985)
 
-**Criticism:**
-- Secularists argued that sovereignty belongs to the people, not God
-- Religious parties argued the resolution did not go far enough in establishing Sharia
+General **Zia-ul-Haq** promulgated the **Hudood Ordinances on 10 February 1979**, replacing sections of the Pakistan Penal Code (1860) and Code of Criminal Procedure (1898) with Qur'anic categories: **Hadd** (fixed punishments), **Qisas** (retribution), **Diyat** (blood money), and **Tazir** (discretionary). The Enforcement of Shariat Act 1991 later strengthened this framework.
 
-**The 1956 Constitution:**
-- Declared Pakistan an "Islamic Republic"
-- Made the Quran and Sunnah the supreme law
-- Created the Advisory Council of Islamic Ideology to advise on conformity with Islam
+The **Federal Shariat Court** was established under **Article 203-D** by Presidential Order No. 1 of 1980, with eight Muslim judges including the Chief Justice. The **Shariat Appellate Bench of the Supreme Court** hears appeals. The **Council of Islamic Ideology**, provided in **Article 228**, advises Parliament on Islamic compatibility but cannot strike down laws.
 
-### Zulfikar Ali Bhutto and the 1973 Constitution
+The **Zakat and Ushr Ordinance 1980** made **2.5%** compulsory zakat deductible at source from savings accounts. Zia also introduced the **separate electorate system** for non-Muslim minorities through the Zia Ordinance of 1980, altered through the Revival of the Constitution of Pakistan Order, 1985.
 
-**The 1973 Constitution:**
-- Declared Islam the official religion (Article 2)
-- Required the President to be a Muslim (Article 41)
-- Required the Prime Minister to be a Muslim
-- Established the Federal Shariat Court
+#### 🎯 Exam-Level Worked Problem
 
-**The Islamisation Under Bhutto:**
-- Nationalisation of banks and industries (1971)
-- Official recognition of the Islamic calendar
-- The ban on open alcohol (though enforcement was inconsistent)
-- Promised to introduce Sharia law — did not fulfil the promise
+**Question:** The Federal Shariat Court of Pakistan was established under which article of the Constitution, and in which year?
 
-**The Religious Opposition:**
-- Bhutto was opposed by religious parties (JUI, Jamaat-e-Islami) for not implementing Sharia fully
-- These parties supported General Zia's coup against Bhutto in 1977
+(a) Article 227, 1973  
+(b) Article 228, 1973  
+(c) Article 203-D, 1980  
+(d) Article 203-FF, 1985
+
+**Solution:** The Federal Shariat Court derives from **Article 203-D**, inserted into the Constitution through Presidential Order No. 1 of 1980 by General Zia-ul-Haq. Article 227 forbids repugnant laws but does not create any court. Article 228 establishes the Council of Islamic Ideology. The correct answer is **(c) Article 203-D, 1980**.
+
+> ⚠️ **Examiner Trap:** Distractors pair the correct article with the wrong year (1973) or the correct year with the wrong article (227). Remember that the 1973 Constitution contains Article 227, but the Shariat Court itself was a Zia-era insertion, not an original 1973 provision.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-## Zia-ul-Haq's Islamisation Programme (1977–1988)
+#### Constitutional Islamisation Beyond Zia
 
-### The Background
+The **18th Amendment (2010)** repealed the Concurrent Legislative List and rebalanced federalism, but **Article 227** remains in force: "No law shall be repugnant to the injunctions of Islam." This permits Muslim family law reforms such as the **Muslim Family Laws Ordinance 1961** (limiting unilateral *talaq*, requiring Arbitration Councils) to coexist with Qur'anic principles.
 
-**The 1977 Coup:**
-General Zia-ul-Haq seized power on July 5, 1977, overthrowing Zulfikar Ali Bhutto. He imposed martial law and suspended the constitution. The justification was "Islamisation" — establishing Islamic rule.
+The **blasphemy provisions** under **Sections 295-B and 295-C PPC** (added during Zia's regime as part of PPC Amendment Ordinance 1980 and 1982) remain politically volatile. Cases like *Salman Taseer v. The State* (2010–2011) and the killing of Punjab Governor Salmaan Taseer illustrate how these provisions interact with political Islam.
 
-**Zia's Islamisation Programme:**
-Zia launched a comprehensive Islamisation campaign that transformed Pakistan's legal and social landscape:
+#### Edge Cases and Advanced Traps
 
-**1. The Hadood Ordinances (1979):**
-Five ordinances criminalising hudud (fixed) penalties:
-- **Zina Ordinance**: Adultery and fornication — 100 lashes (unmarried) or stoning (married) — requires 4 eyewitnesses or confession
-- **Qazf Ordinance**: False accusation of zina — 80 lashes
-- **Alcohol Ordinance**: Prohibition of alcohol — 80 lashes for consumption or possession
-- **Drug Ordinance**: Drug trafficking — various penalties
-- **Theft Ordinance**: Hand amputation for theft
+| Trap | Why Candidates Fall For It | Correct Position |
+|---|---|---|
+| Citing 1949 for the Lahore Resolution | Decade confusion between 1940 and 1949 | Lahore = 1940; Objectives = 1949 |
+| Attributing Hudood to Bhutto | Confusion with 1973 Constitution period | Bhutto = 1973 Constitution; Zia = 1979 Hudood |
+| Claiming Federal Shariat Court can amend Constitution | Conflating judicial review with constituent power | FSC can strike down repugnant statutes, not constitutional amendments |
+| Treating CII as binding | Confusion between advisory and judicial bodies | CII is advisory; FSC is adjudicatory |
+| Counting Zakat as 10% | Mixing with traditional Usher rate | Statutory Zakat = 2.5% (Zakat Ordinance 1980) |
+| Mistaking SAB for full SC | Confusing bench composition | SAB = specific 3-judge SC bench under Article 203-G |
 
-⚡ **Controversy**: These ordinances were widely criticised for being harsh and for using hudud to suppress political opposition. The Zina Ordinance particularly impacted women.
+#### Connections to Adjacent Topics
 
-**2. The Qanoon-e-Shahadat (Evidence Law, 1984):**
-Islamicised the evidence law:
-- Two Muslim male witnesses required for hudud offences
-- A woman witness's testimony worth half a man's in financial matters
-- The testimony of non-Muslims against Muslims is not admissible in hudud
+This subject links directly to **Pakistan Movement and Constitutional History**, **Islamic Jurisprudence (Sources of Shariah)**, **Comparative Religion in Pakistan**, and **Current Affairs: Religious Minorities' Rights**. The KPK PMS paper tests these intersections through MCQs where Options B and D are usually near-correct decoys referencing adjacent dates (1947, 1956, 1962, 1973, 1985).
 
-**3. The Shariat Benevolent Supremacy (1985):**
-- Established the Federal Shariat Court as a superior court
-- Gave it the power to strike down any law inconsistent with Islamic injunctions
-- Required all laws to be reviewed for conformity with Sharia
+#### Advanced Practice Prompts
 
-**4. Zakat and Ushr:**
-- Zakat: 2.5% tax on wealth above nisab (collected at source from bank accounts)
-- Ushr: 10% tax on agricultural produce (in irrigated land; 5% in rain-fed land)
-- Distributed to the poor through a Zakat fund system
+1. **Trace how Article 227 reconciles with the Muslim Family Laws Ordinance 1961.** Frame your answer around the Supreme Court's *Begum Nusrat Bhutto* and *Khurshid* case! logic: "repugnancy" is interpreted as direct contradiction, not mere difference in regulatory detail.
+2. **Evaluate whether the Federal Shariat Court violates judicial independence.** Discuss its original eight-year tenure, retirement age of 65, and the Shariat Appellate Bench as a constitutional check.
 
-**5. The 8th Amendment (1985):**
-- Made the President a powerful position; could dissolve assemblies and dismiss governments
-- Restored some democratic features while Zia remained President
+> 📌 **Formula Check:** Use the chronological anchor **"1940-Lahore, 1947-Independence, 1949-Objectives, 1973-Constitution, 1979-Hudood, 1980-FSC & Zakat, 1985-Separate Electorates, 2010-18th Amendment."**
 
-### The Impact of Islamisation
+## Continue your study
 
-**On Women:**
-- The Zina Ordinance was used against women in cases of rape (requiring four witnesses)
-- Women were imprisoned for "adultery" in circumstances where they had been victims
-- The hudud laws were widely seen as discriminatory against women
-
-**On Religious Minorities:**
-- The Hadood Ordinances treated non-Muslims differently under the law
-- Ahmadis were specifically targeted — they were declared non-Muslims in 1974 and their public religious practices were criminalised
-- The blasphemy laws were used against minorities
-
-**On Education:**
-- Islamiyat became a compulsory subject in schools
-- Madrasa education expanded significantly during and after Zia's period
-
-### The Islamisation Critique in Pakistan
-
-**The Progressive Critique:**
-- Human rights organisations argued hudud punishments were cruel and incompatible with human rights
-- Women's rights groups demonstrated against discriminatory laws
-- The legal system struggled to implement hudud because of the impossibly high standards of proof
-
-**The Conservative Response:**
-- Religious parties argued the state had not gone far enough
-- The demand for full Sharia implementation continued
-
-**The Legal Response:**
-- Courts showed reluctance in awarding hudud sentences
-- The Supreme Court and High Courts often converted hudud sentences to tazir (discretionary) punishments
-- Pakistan's courts have consistently required the highest standards of evidence for hudud
-
-### Islamic Finance in Pakistan
-
-**The State Bank of Pakistan and Islamic Banking:**
-- Pakistan began the process of Islamising its banking system in the early 1980s
-- The Meezan Bank (established 1997) was the first full Islamic bank
-- By 2024, Islamic banking assets represent ~5% of the total banking sector
-
-**The Federal Shariat Court's Role:**
-- The FSC has repeatedly ruled that interest (riba) must be eliminated from the banking system
-- These rulings have not been fully implemented due to practical and international constraints
-- The current Islamic banking system uses profit-and-loss sharing (PLS) accounts
-
-**The Islamic Finance Debate:**
-- Conservative scholars argue only full Islamic finance is permitted
-- More pragmatic scholars argue the current Islamic banking products are acceptable as a transitional step
-- The international Islamic finance market is worth ~$2 trillion
-
----
-
-## The 18th Amendment and Islamic Identity
-
-**The 18th Amendment (2010):**
-- Restored the parliamentary system
-- Did not change the Islamic character of the state
-- Devolved religious affairs to the provinces
-
-**The Role of the Council of Islamic Ideology (CII):**
-- The CII was reconstituted as a federal body
-- It advises on Islamic conformity of laws
-- Its recommendations are not binding on the government
-
-**Current Islamic Law in Pakistan:**
-- Pakistan is officially an Islamic Republic
-- The Quran and Sunnah are the supreme source of law (constitutional declaration)
-- The Federal Shariat Court reviews laws
-- Hudud laws remain on the books but are rarely implemented in their Quranic form
-- Islamic finance operates alongside conventional banking
-
-**The Debate on Islam and the State:**
-The tension between Islamic and secular governance remains unresolved in Pakistan:
-- Religious parties argue for full Sharia implementation
-- Progressive forces argue for human rights, particularly women's rights
-- The mainstream position is a moderate Islamic state with human rights protections
+- **[View this topic in your KPK PMS roadmap](/roadmap/?exam=kpkpse&duration=1mo)** — see where "Islam in Pakistan: History, Politics, and the Islamisation Process" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=kpkpse&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[KPK PMS exam overview](/exams/kpkpse/)** — pattern, eligibility, and syllabus
+- **[All Islamic Studies notes](/notes/kpkpse/islamic-studies/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

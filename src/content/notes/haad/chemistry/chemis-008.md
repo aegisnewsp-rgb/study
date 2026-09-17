@@ -8,88 +8,115 @@ topicName: "Carboxylic Acids and Their Derivatives"
 weight: 3
 country: uae
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-12"
+lastUpdated: "2026-09-17"
 ---
 
 # Carboxylic Acids and Their Derivatives
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your HAAD Chemistry paper.
+> Rapid summary for last-minute revision before your exam.
 
-A **carboxylic acid** contains the **carboxyl group (–COOH)**: a carbonyl (C=O) bonded directly to a hydroxyl (–OH) on the same sp² carbon. Replacing that –OH with –Cl, –OC(O)R, –OR, or –NH₂ gives the four principal **acyl derivatives**: **acyl chlorides**, **acid anhydrides**, **esters**, and **amides**.
+A **carboxylic acid** carries the **–COOH** functional group (one carbonyl C=O and one hydroxyl –OH on the same carbon). Replacing the –OH gives an **acyl derivative**: acid chloride (–COCl), anhydride (–CO–O–CO–), ester (–COOR), or amide (–CONH₂). All acyl derivatives undergo **nucleophilic acyl substitution** through a tetrahedral intermediate.
 
-#### Must-know equations:
+| Derivative | Structure | Relative reactivity |
+|---|---|---|
+| Acid chloride (acyl chloride) | R–COCl | Highest |
+| Acid anhydride | R–CO–O–CO–R′ | High |
+| Ester | R–COOR′ | Moderate |
+| Carboxylic acid | R–COOH | Moderate |
+| Amide | R–CONH₂ | Lowest |
 
-| Reaction | Equation |
-|---|---|
-| Neutralisation | RCOOH + NaOH → RCOO⁻Na⁺ + H₂O |
-| Fischer esterification | RCOOH + R′OH ⇌ RCOOR′ + H₂O (H₂SO₄ catalyst) |
-| Saponification | RCOOR′ + NaOH → RCOO⁻Na⁺ + R′OH |
-| Acyl chloride hydrolysis | RCOCl + H₂O → RCOOH + HCl |
+- **Fischer esterification:** RCOOH + R′OH ⇌ RCOOR′ + H₂O (acid catalyst; reversible).
+- **Saponification:** RCOOR′ + NaOH → RCOO⁻Na⁺ + R′OH (alkaline hydrolysis).
+- **Acidity constant:** pKa = –log₁₀Ka; carboxylic acids sit around pKa 4–5 because the **conjugate base is stabilised by resonance** across two oxygens.
 
-**High-yield pointers:** Carboxylate is resonance-stabilised (pKa ≈ 4–5; acetic acid 4.76). Reactivity order: acyl chloride > anhydride > ester ≈ acid > amide. HAAD typically asks 1–2 MCQs testing functional-group identification, acidity comparisons, or saponification products.
+> 💡 **High-Yield Memory Hook:** **"CARA – Cl > Anhydride > R-ester ≈ Acid > Amide"** = reactivity ladder. Better leaving group (Cl⁻ > RCOO⁻ > RO⁻ > NH₂⁻) means faster substitution. The pyramid tilts: chlorides scream, amides whisper.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-#### Structure and Acidity
+#### Core Functional Groups and Nomenclature
 
-The carboxyl carbon is **sp² hybridised**, planar, with 120° bond angles. When the –OH loses a proton, the resulting **carboxylate anion (RCOO⁻)** is stabilised by resonance between two equivalent C–O bonds, delocalising the negative charge. This makes carboxylic acids far more acidic than alcohols (pKa ≈ 4–5 vs. 16–18). Inductive effects shift acidity: electron-withdrawing groups (–Cl, –NO₂, –CF₃) stabilise the anion and lower pKa, while electron donors (–CH₃, –OR) raise it. Benzoic acid (pKa 4.20) is slightly stronger than acetic acid; *ortho*-substituted benzoates show the **ortho effect** — steric inhibition of resonance with the ring combined with inductive withdrawal.
+The **carboxyl carbon** is sp² hybridised with a trigonal planar geometry. IUPAC names use the "-anoic acid" suffix (methanoic, ethanoic, benzoic acid); the acyl portion becomes "-anoyl chloride", "-anoate ester", or "-anamide". HAAD candidates must recognise condensed formulas such as CH₃COCl (ethanoyl chloride), C₆H₅COOCH₃ (methyl benzoate), and (CH₃CO)₂O (acetic anhydride).
 
-#### Nucleophilic Acyl Substitution
+#### Why Acids Are Acidic: The Resonance Argument
 
-Every acyl derivative retains the **acyl group (R–C=O)** and reacts through the same mechanism: a nucleophile attacks the carbonyl carbon, forming a tetrahedral intermediate, then a leaving group departs and the C=O reforms. The reaction rate depends almost entirely on **leaving-group ability** and on how well the substituent stabilises the carbonyl.
+Carboxylic acids donate the O–H proton to give a **carboxylate anion RCOO⁻**, where the negative charge is **delocalised equally over two oxygen atoms**. This two-oxygen resonance is far more stabilising than alkoxide (single O) or phenoxide (ring-restricted) delocalisation.
 
-#### Reactivity Order of Derivatives
+- Electron-withdrawing groups (–Cl, –NO₂, –CF₃) **lower pKa** (stronger acid).
+- Electron-donating alkyl groups **raise pKa** (weaker acid): HCOOH (pKa 3.75) < CH₃COOH (pKa 4.76) < CH₃CH₂COOH (pKa 4.87).
 
-| Derivative | Leaving group | Relative reactivity |
+| Acid family | pKa range | Conjugate-base stabilisation |
 |---|---|---|
-| Acyl chloride (RCOCl) | Cl⁻ (weak base) | Most reactive |
-| Acid anhydride (RCO–O–COR) | RCOO⁻ | Highly reactive |
-| Ester (RCOOR′) | R′O⁻ | Moderate |
-| Carboxylic acid (RCOOH) | OH⁻ (in base) or H₂O | Moderate |
-| Amide (RCONH₂) | NH₂⁻ (very strong base) | Least reactive |
+| Carboxylic acid | 4–5 | Two-oxygen delocalisation |
+| β-dicarbonyl (e.g., acetylacetone) | ~9 | Enolate resonance |
+| Phenol | ~10 | Aromatic delocalisation |
+| Alcohol | 16–18 | No resonance; polarise only |
+| α-H of ester | ~25 | Single enolate, weakly stabilised |
 
-**Amides are unreactive** because nitrogen donates its lone pair into the carbonyl by resonance, raising the C–N bond order toward a partial double bond. **Fischer esterification** is reversible and acid-catalysed; **saponification** is the base-promoted hydrolysis of an ester into a carboxylate salt and an alcohol, and it is **irreversible** because the carboxylate cannot re-attack.
+#### Nucleophilic Acyl Substitution Mechanism
 
-#### Boiling-Point Anomaly
+Every acyl derivative follows the same three-stage pathway:
 
-Carboxylic acids boil far higher than alcohols of similar mass because two molecules form a stable cyclic **hydrogen-bonded dimer** — effectively doubling the apparent molecular weight — even in the gas phase.
+1. **Nucleophilic attack** on the carbonyl carbon forms a **tetrahedral intermediate** (sp³, with an –O⁻ alkoxide).
+2. **Proton transfer** to the leaving oxygen (acid-catalysed route).
+3. **Collapse of the intermediate** expels the leaving group and regenerates the C=O π-bond.
+
+The faster the leaving group departs, the more reactive the derivative. **Cl⁻** is the best leaving group (weak base, stable anion), making acid chlorides the most reactive; **NH₂⁻** is the worst (strong base, unstable anion), making amides sluggish.
+
+#### Concept Comparison Matrix
+
+| Feature | Acid chloride (RCOCl) | Ester (RCOOR′) | Amide (RCONH₂) |
+|---|---|---|---|
+| Leaving group | Cl⁻ (best) | RO⁻ (moderate) | NH₂⁻ (poorest) |
+| Typical product with R′OH | Ester | Transesterification | Ester (forcing conditions) |
+| Reduction by LiAlH₄ | Primary alcohol | Two primary alcohols | Amine |
+| Hydrolysis rate | Fast, even with cold water | Slow, acid/base catalysed | Very slow, requires strong acid/heat |
+| Boiling point vs analogous ketone | Lower | Lower | Higher (H-bonding) |
+
+#### 🎯 Exam-Level Worked Problem
+
+**Question:** Rank the following in order of **increasing reactivity toward aqueous sodium hydroxide** at 25 °C: (A) ethanamide CH₃CONH₂, (B) ethyl ethanoate CH₃COOC₂H₅, (C) ethanoyl chloride CH₃COCl, (D) ethanoic acid CH₃COOH. Write the balanced equation for the fastest-reacting compound with NaOH.
+
+#### Solution:
+
+1. Apply the leaving-group rule: Cl⁻ > RCOO⁻ > RO⁻ > NH₂⁻.
+2. Order from **least to most reactive**: A (amide) < D (carboxylic acid; –OH leaves as H₂O under base) ≈ B (ester; RO⁻ leaves) < C (acyl chloride; Cl⁻ leaves).
+   - Final ranking: **A < B < D < C** (the acid and ester are close; the chloride dominates).
+3. Ethanoyl chloride + NaOH:
+   CH₃COCl + 2 NaOH → CH₃COO⁻Na⁺ + NaCl + H₂O
+   (Two equivalents of base: one neutralises HCl, one forms the carboxylate salt.)
+
+> ⚠️ **Examiner Trap:** Students often rank **amides above acid chlorides** because amides "look more polar". Polarity is not reactivity — the leaving-group ability (Cl⁻ vs NH₂⁻) is the deciding factor. Acid chlorides hydrolyse violently in cold water; amides need 6 M HCl and reflux for hours.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-#### Mechanism in Detail — Nucleophilic Acyl Substitution
+#### Edge Cases and Mechanistic Subtleties
 
-The carbonyl carbon of an acyl derivative is electrophilic. The nucleophile (Nu⁻) attacks from above or below the plane, producing a **tetrahedral sp³ intermediate** with a negatively charged oxygen. Collapse of this intermediate expels the leaving group (LG⁻) and re-forms the C=O. The faster the leaving group leaves, the faster the overall substitution. Because Cl⁻ is a very weak base, acyl chlorides react violently with water at room temperature; because ⁻NH₂ is a very strong base, amides require prolonged heating with strong acid or base to hydrolyse.
+- **Boiling-point doubling via hydrogen-bonded dimers:** Acetic acid boils at 118 °C despite an Mr of only 60, because two molecules form a cyclic dimer with two O–H···O=C hydrogen bonds, behaving like a 120-Da species in the liquid phase. Esters cannot dimerise this way, hence their markedly lower boiling points.
+- **Aspirin as a prodrug ester:** Acetylsalicylic acid is the **acetate ester** of salicylic acid. In the body, esterase enzymes cleave the ester to release salicylic acid — the active analgesic. This is the textbook example of an ester as a reversible masking group.
+- **Urea as a diamide of carbonic acid:** (NH₂)₂C=O. Urea contains **two amide linkages** on one carbonyl, demonstrating that the amide functional group tolerates biological polymers (peptides, proteins, nylon-6,6).
+- **Tetrahedral intermediate stability:** Acid-catalysed hydrolysis is faster than neutral hydrolysis because protonation of the carbonyl oxygen activates the carbon toward nucleophilic attack; this is why ester hydrolysis requires either acid or base catalysis, while acid chloride hydrolysis needs none.
+- **Reduction ladder:** RCOCl → RCHO (Rosenmund, Pd/BaSO₄) → RCH₂OH (LiAlH₄ or H₂/Raney-Ni). Esters reduced by LiAlH₄ give **two** primary alcohols (one from R, one from R′); amides give amines.
 
-#### Edge Cases and Stereochemical Notes
+#### Advanced Practice Prompts
 
-- **Esters are not acidic** in the carboxylic-acid sense — α-hydrogens next to the carbonyl have pKa ≈ 25, comparable to alcohols, so esters do **not** neutralise NaHCO₃. Confusing this with RCOOH behaviour is a frequent MCQ trap.
-- **Amides are nearly neutral** but can be protonated on the **carbonyl oxygen**, not on nitrogen, because that placement retains nitrogen's lone pair for resonance.
-- **Aspirin (acetylsalicylic acid)** is an ester prodrug; hydrolysis in vivo yields acetic acid and salicylic acid, the active anti-inflammatory.
-- **Peptide bonds** are amide linkages; their resistance to hydrolysis (kinetic stability, not thermodynamic) is what makes proteins durable and is why digestive proteases are required.
+1. Predict the products and balance the equation when **acetic anhydride (CH₃CO)₂O** reacts with **(a)** excess methanol, **(b)** aqueous ammonia. *Hint: each anhydride gives one ester/acid + one acyl group transferred.*
+2. **Phenylacetic acid** (C₆H₅CH₂COOH) has pKa 4.31, lower than propanoic acid (4.87). Explain using inductive and resonance arguments, then predict whether **p-nitrophenylacetic acid** would be more or less acidic.
 
-#### Common Exam Traps
+#### Common Mistakes in HAAD-Style Items
 
-1. Writing saponification products as RCOOH + R′OH — under basic conditions the product is the **sodium carboxylate**, not the free acid.
-2. Drawing carboxylate with one C=O and one C–O⁻ single bond — the correct picture has two equivalent resonance forms with 1.5-bond order on each C–O.
-3. Placing the acyl chloride –COCl instead of –COOH in naming or classification questions.
+1. Confusing **acyl chloride nomenclature** with alkyl chlorides (CH₃Cl = chloromethane ≠ CH₃COCl = ethanoyl chloride).
+2. Treating **esters as acidic** in neutralisation problems — esters lack an O–H proton on the acyl oxygen; only the α-C–H (pKa ≈ 25) is weakly acidic.
+3. Writing saponification products as **RCOOH** instead of the **sodium carboxylate RCOO⁻Na⁺**; alkaline conditions deprotonate the acid instantly.
+4. Forgetting that **Fischer esterification is reversible**; without water removal, equilibrium limits yield to roughly 67 % for equimolar reactants.
 
-#### Worked Comparison
-
-> **Question pattern:** *Rank acetic acid, chloroacetic acid (ClCH₂COOH), and propanoic acid by acidity.*
-
-Chloroacetic acid (pKa 2.87) is the strongest — the –Cl exerts a strong −I inductive effect stabilising the anion. Acetic acid (pKa 4.76) is next. Propanoic acid (pKa 4.87) is weakest, because the extra –CH₃ is electron-donating (+I), slightly destabilising the carboxylate.
-
-#### Practice Prompts
-
-1. Predict the products of treating methyl benzoate with aqueous NaOH, then with dilute HCl.
-2. Explain, using a mechanism arrow-pushing sketch, why acetyl chloride reacts with ethanol at 0 °C while acetamide requires reflux with concentrated HCl.
+> 📌 **Formula Check:** pKa = –log₁₀ Ka (dimensionless). Ka = [H⁺][RCOO⁻]/[RCOOH] in mol·L⁻¹ (activities used in rigorous form). Always check that the leaving group (Cl⁻, RCOO⁻, RO⁻, NH₂⁻) matches the derivative on the page — mixing them is the single most common mechanism-tracing error in HAAD organic chemistry items.
 
 ---
 

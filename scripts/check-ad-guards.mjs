@@ -150,7 +150,9 @@ const cases = [
   // registration and the permission request inside the click. A test that only
   // checked the markup would pass while the zone stayed dead.
   ['push offers opt-in to human', {}, env => env.ad.push === 'offered' && !!env.card() && env.pushCalls.length === 0],
-  ['push accept registers worker', {}, env => { env.clicks.accept(); return env.pushCalls.length === 1 && env.pushCalls[0].path === '/sw.js' && env.pushCalls[0].scope === '/'; }],
+  // `ids` is snapshotted at makeEnv time, so it cannot see a tag the click
+  // creates later; assert against the live element list instead.
+  ['push accept injects push tag  ', {}, env => { env.clicks.accept(); return env.scripts.some(s => s && s.id === 'sr-push-tag'); }],
   ['push accept asks permission ', {}, env => { env.clicks.accept(); return env.permCalls.length === 1; }],
   ['push copy names sponsorship  ', {}, env => { const c = env.card(); return !!c && /sponsored/i.test(c.children[0].textContent); }],
   ['push accept honours denial   ', { permResult: 'denied' }, async env => { env.clicks.accept(); await new Promise(r => setImmediate(r)); return env.ad.push === 'denied' && env.storage.getItem('sr:push:dismissed') === '1'; }],
@@ -162,7 +164,7 @@ const cases = [
   ['push no card on opt-out      ', { adsOff: true }, env => env.ad.push === 'pending' && !env.card() && env.pushCalls.length === 0],
   ['push no card in EEA unconsented', { geo: 'DE', consent: 'denied' }, env => env.ad.reason === 'consent-denied' && !env.card()],
   ['push no card once dismissed  ', { pushDismissed: true }, env => env.ad.push === 'dismissed' && !env.card()],
-  ['push returning subscriber    ', { pushPermission: 'granted' }, env => env.ad.push === 'registered' && env.pushCalls.length === 1 && !env.card()],
+  ['push returning subscriber    ', { pushPermission: 'granted' }, env => env.ad.push === 'registered' && env.ids.includes('sr-push-tag') && !env.card()],
   ['push never offers on denied  ', { pushPermission: 'denied' }, env => env.ad.push === 'denied' && !env.card() && env.permCalls.length === 0],
   ['push kill switch honoured    ', { pushEnabled: false }, env => env.ad.push === 'disabled' && env.pushCalls.length === 0 && !env.card()],
 ];
@@ -212,12 +214,19 @@ const scriptSrc = (nginxDirectives.match(/script-src[^;]*/g) || []).join(' ');
 const tagHosts = [
   constStr('MONETAG_VIGNETTE_TAG_SRC'),
   constStr('MONETAG_POPUNDER_TAG_SRC'),
+  constStr('MONETAG_PUSH_TAG_SRC'),
 ].filter(Boolean);
 const wiring = [
   ['container 280401 is OFF        ', constBool('MONETAG_MULTITAG_ENABLED') === false],
   ['vignette zone is 11799057      ', constNum('MONETAG_VIGNETTE_ZONE') === 11799057],
   ['vignette is enabled            ', constBool('MONETAG_VIGNETTE_ENABLED') === true],
-  ['push is OFF (container-only)   ', constBool('MONETAG_PUSH_ENABLED') === false],
+  // Push is served standalone by Monetag's push endpoint on pushno.com, which
+  // `/data/pushno-standalone-probe.mjs` showed activates for zone 11798846 and
+  // for no other id it was given. Asserted as a wiring pair on purpose: enabled
+  // with the wrong host is worse than disabled, because it asks readers for a
+  // marketing permission and then has nothing to deliver.
+  ['push is ON                    ', constBool('MONETAG_PUSH_ENABLED') === true],
+  ['push tag is the pushno url    ', String(constStr('MONETAG_PUSH_TAG_SRC') || '').startsWith('https://pushno.com/ntfc.php?p=11798846')],
   ['direct link is the omg10 url   ', String(constStr('MONETAG_DIRECTLINK_URL') || '').startsWith('https://omg10.com/')],
   ['direct link is enabled         ', constBool('MONETAG_DIRECTLINK_ENABLED') === true],
   ...Array.from(new Set(tagHosts)).map((u) => {

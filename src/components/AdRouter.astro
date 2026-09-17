@@ -53,6 +53,7 @@ import {
     MONETAG_PUSH_ZONE,
     MONETAG_PUSH_SW_PATH,
     MONETAG_PUSH_ENABLED,
+    MONETAG_PUSH_TAG_SRC,
     MONETAG_PUSH_DISMISS_KEY,
     MONETAG_PUSH_OFFERED_KEY,
     MONETAG_PUSH_RELOADED_KEY,
@@ -88,6 +89,7 @@ const config = {
     directlinkEnabled: MONETAG_DIRECTLINK_ENABLED,
     pushZone: MONETAG_PUSH_ZONE,
     pushSw: MONETAG_PUSH_SW_PATH,
+    pushTag: MONETAG_PUSH_TAG_SRC,
     pushEnabled: MONETAG_PUSH_ENABLED,
     pushDismissKey: MONETAG_PUSH_DISMISS_KEY,
     pushOfferedKey: MONETAG_PUSH_OFFERED_KEY,
@@ -286,13 +288,6 @@ const js = `
         if (el && el.remove) el.remove();
     }
 
-    function registerPushWorker() {
-        return navigator.serviceWorker.register(cfg.pushSw, { scope: '/' })
-            .then(function (reg) {
-                state.pushScope = (reg && reg.scope) || '';
-                return reg;
-            });
-    }
 
     // The tag reads permission when it loads, so after a grant we reload once
     // (per tab session) with the permission already in place. Without this the
@@ -305,12 +300,28 @@ const js = `
         try { if (w.location && w.location.reload) w.location.reload(); } catch (e) {}
     }
 
-    // Called from the click. The permission request is issued synchronously so
-    // it runs inside the gesture; the worker registration rides along with it.
+    // The tag registers /sw.js itself, carrying the zone params it needs
+    // (?v=…&p=11798846…), and re-registers on every load. We deliberately do not
+    // also call serviceWorker.register(cfg.pushSw) with a bare URL: same scope,
+    // different script URL, so it would fight the tag's registration instead of
+    // helping it.
+    function loadPushTag() {
+        loadStandalone('sr-push-tag', cfg.pushZone, cfg.pushTag);
+    }
+
+    // Called from the click. The tag is injected here — inside the gesture —
+    // because on its own it calls Notification.requestPermission() on load with
+    // navigator.userActivation.isActive === false. Chrome suppresses an
+    // ungestured request into the quiet prompt AND arms a prompt cooldown that
+    // then eats the reader's next real request, so loading it on page load would
+    // actively break the opt-in it is meant to serve.
+    //
+    // The permission request below is issued synchronously, which is the part
+    // that reliably carries the activation; the tag rides along with it.
     function acceptPush(ev) {
         if (ev && ev.preventDefault) ev.preventDefault();
         removePushCard();
-        registerPushWorker().catch(function () { state.push = 'failed'; });
+        loadPushTag();
         state.push = 'requesting';
         var asked;
         try {
@@ -401,9 +412,11 @@ const js = `
         try { perm = String(w.Notification.permission || ''); } catch (e) {}
         state.pushPermission = perm;
         if (perm === 'granted') {
-            registerPushWorker()
-                .then(function () { state.push = 'registered'; })
-                .catch(function () { state.push = 'failed'; });
+            // Already granted, so no prompt can appear and no cooldown can be
+            // armed: loading the tag here is safe and is what re-subscribes a
+            // returning reader.
+            loadPushTag();
+            state.push = 'registered';
             return;
         }
         if (perm === 'denied') {

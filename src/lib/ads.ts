@@ -116,10 +116,11 @@ export const MONETAG_MULTITAG_ZONE = 280401;
  * paying 454 requests for $0.0019. The standalone vignette should recover part of
  * it; the direct link is new and unmeasured.
  *
- * CONSEQUENCE: push (11798846) is `multitag: true` with no standalone tag in the
- * dashboard, so it cannot be served once the container is gone. That is why
- * MONETAG_PUSH_ENABLED is false below — leaving the opt-in live would ask
- * visitors for notification permission with nothing behind it.
+ * CONSEQUENCE: push (11798846) is `multitag: true`, so the container was its
+ * only delivery path — but it is NOT container-only. Monetag's standalone push
+ * endpoint on pushno.com resolves the zone server-side and activates for this
+ * zone and no other, so push survives the container's removal. See
+ * MONETAG_PUSH_TAG_SRC below.
  */
 export const MONETAG_MULTITAG_ENABLED = false;
 
@@ -192,14 +193,37 @@ export const MONETAG_DIRECTLINK_ENABLED = true;
 export const MONETAG_PUSH_ZONE = 11798846;
 export const MONETAG_PUSH_SW_PATH = '/sw.js';
 /**
- * OFF as of 2026-09-17. Push is `multitag: true` and has no standalone tag, so
- * it exists only inside container 280401 — and the container is off. The worker
- * and the opt-in code stay in place, dormant, because they are correct and
- * should be reused the moment push is available again: either ask Monetag for a
- * standalone push zone, or re-enable the container if the push leg is ever worth
- * more than the In-Page Push dilution it brings back with it.
+ * ON as of 2026-09-17, and the reason is worth recording because it reverses a
+ * conclusion this file carried for a day.
+ *
+ * Push was turned off when the container went off, on the assumption that a
+ * `multitag: true` zone with `zone_type_id: null` has no tag of its own and so
+ * must die with its container. That assumption was wrong.
+ *
+ * `/data/pushno-standalone-probe.mjs` loads Monetag's documented standalone push
+ * tag the way a browser does, with PushManager.subscribe and
+ * serviceWorker.register spied on, and compares a real zone id against a bogus
+ * one. Results, 2026-09-17:
+ *
+ *   p=11798846 (ours)      -> registers /sw.js?v=…&p=11798846, calls
+ *                             my.rtmark.net/gid.js?…&zoneId=11798846&source=pusher
+ *   p=11798845 (vignette)  -> nothing
+ *   p=11805678 (OnClick)   -> nothing
+ *   p=11799057 (vignette)  -> nothing
+ *   p=99999999 (bogus)     -> nothing
+ *
+ * So the endpoint resolves the zone server-side and activates ONLY for a push
+ * zone — and it activates for the zone we already have. No new zone is needed.
+ * (A bare curl cannot show this: ntfc.php returns a generic 29,139-byte
+ * bootstrap, byte-identical for a real id and a bogus one.)
+ *
+ * The worker we already self-host at `/sw.js` is that zone's own worker, so the
+ * tag and the worker agree on the zone id. CSP: pushno.com is in script-src
+ * (nginx.conf), and connect-src is already `https:` so the loader's fetches to
+ * pushno.com and my.rtmark.net need nothing further.
  */
-export const MONETAG_PUSH_ENABLED = false;
+export const MONETAG_PUSH_TAG_SRC = 'https://pushno.com/ntfc.php?p=11798846&tco=1';
+export const MONETAG_PUSH_ENABLED = true;
 
 /**
  * Session flag marking that the offer was already shown in this tab session.

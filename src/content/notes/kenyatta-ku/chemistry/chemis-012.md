@@ -8,233 +8,126 @@ topicName: "Lipids: Classification, Properties, and Biological Functions"
 weight: 3
 country: kenya
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-17"
 ---
 
 # Lipids: Classification, Properties, and Biological Functions
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+> Rapid summary for last-minute revision before your Kenyatta University Chemistry paper.
 
-**Lipids: Classification, Properties, and Biological Functions** — Key Facts for Kenyatta University (Kenya)
-Core concept: Lipids are a diverse class of hydrophobic biological molecules that are soluble in non-polar organic solvents but insoluble in water; they include fatty acids, triglycerides, phospholipids, steroids, and fat-soluble vitamins
-High-yield point: Saturated fatty acids have no C=C double bonds (straight chains, pack tightly → high melting point); unsaturated fatty acids have C=C double bonds (kinks, pack loosely → low melting point); trans fats are unsaturated fatty acids with trans double bonds — a health risk unlike natural cis unsaturated fats
-⚡ Exam tip: Triacylglycerols (fats and oils) are esters of glycerol (propane-1,2,3-triol) with three fatty acids; saponification of a triglyceride with NaOH yields glycerol and three fatty acid sodium salts (soap); iodine number measures the degree of unsaturation of a fat
+**Lipids** are hydrophobic or amphipathic organic compounds, soluble in non-polar solvents (chloroform, diethyl ether) but sparingly soluble in water. They are biosynthesised either from isoprene units (terpenes, sterols, carotenoids) or by condensation of fatty acids with alcohols such as glycerol, sphingosine, or cholesterol. The carbon-to-hydrogen-rich nature of lipids makes them efficient energy stores, yielding roughly **38 kJ g⁻¹** on oxidation — more than double the energy from carbohydrates (≈17 kJ g⁻¹).
 
----
+- **Simple lipids:** neutral fats (triacylglycerols), oils, and waxes.
+- **Compound (conjugated) lipids:** phospholipids, glycolipids, lipoproteins.
+- **Derived lipids:** fatty acids, sterols (cholesterol), carotenoids, terpenes.
+- **Key analytical numbers:** saponification value (mg KOH g⁻¹), iodine number (g I₂/100 g), acid value (mg KOH g⁻¹).
+
+> 💡 **High-Yield Memory Hook:** **"S-I-A = Stored-Insulated-Amphipathic"** — the three biological superpowers of lipids: **S**tored energy in adipose, **I**nsulation of neurons and skin, **A**mphipathic bilayer builders. Pair it with **"SCUM"** for classification: **S**imple, **C**ompound, **U**nderived (derived), **M**embrane lipids.
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+> Standard content for students with a few days to months before the Kenyatta University Chemistry exam.
 
-## Lipids: Hydrophobic Biological Molecules
+#### Classification of Lipids
 
-Lipids are defined by their physical property (solubility) rather than a specific functional group. They are compounds that are soluble in non-polar organic solvents (chloroform, ether, acetone) but insoluble in water. This hydrophobic nature arises because lipids consist primarily of long hydrocarbon chains (non-polar) with few polar functional groups.
+Lipids are not a single chemical class but a behavioural family — molecules insoluble in water yet extractable into organic solvents. The Bloor classification splits them into three groups based on whether they can be hydrolysed.
 
-Lipids play several essential biological roles:
-- **Energy storage** (triglycerides)
-- **Structural components of cell membranes** (phospholipids)
-- **Hormones and signalling molecules** (steroids, eicosanoids)
-- **Vitamins** (A, D, E, K — the fat-soluble vitamins)
-- **Thermal insulation** (subcutaneous adipose tissue)
-- **Protective padding** (fat around organs)
+#### Comparison Matrix: Lipid Sub-Classes
 
-### Classification of Lipids
-
-**1. Simple Lipids:**
-- **Fats and Oils** (triacylglycerols/triglycerides): Esters of glycerol with fatty acids
-- **Waxes**: Esters of long-chain fatty alcohols with fatty acids
-
-**2. Complex Lipids:**
-- **Phospholipids**: Glycerol backbone + 2 fatty acids + phosphate + nitrogenous base
-- **Glycolipids**: Lipid + carbohydrate (no phosphate)
-- **Sphingolipids**: Based on sphingosine backbone (not glycerol)
-
-**3. Derived Lipids:**
-- **Fatty Acids**
-- **Steroids** (cholesterol, hormones)
-- **Fat-soluble vitamins** (A, D, E, K)
-- **Eicosanoids** (prostaglandins, thromboxanes, leukotrienes)
-- **Terpenes** (essential oils, rubber, beta-carotene)
-
-### Fatty Acids
-
-Fatty acids are carboxylic acids with long hydrocarbon chains. The general formula is **R–COOH** where R is a long-chain alkyl group (typically C₄ to C₃₀).
-
-**Saturated Fatty Acids (no C=C double bonds):**
-| Name | Formula | Melting Point (°C) | Source |
+| Class | Example | Building block | Key property |
 |---|---|---|---|
-| Butyric acid | C₃H₇COOH | −7.9 | Butter |
-| Lauric acid | C₁₁H₂₃COOH | 44.2 | Coconut oil |
-| Myristic acid | C₁₃H₂₇COOH | 54.4 | Nutmeg butter |
-| Palmitic acid | C₁₅H₃₁COOH | 62.9 | Palm oil |
-| Stearic acid | C₁₇H₃₅COOH | 69.6 | Animal fat |
-| Arachidic acid | C₁₉H₃₉COOH | 75.4 | Peanut oil |
+| Simple lipid (fat/oil) | Triolein, tristearin | Glycerol + 3 fatty acids | Energy storage; m.p. rises with chain length & saturation |
+| Simple lipid (wax) | Cetyl palmitate | Long-chain fatty acid + long-chain alcohol | Water-repellent protective coating |
+| Compound lipid (phospholipid) | Phosphatidylcholine (lecithin) | Glycerol + 2 fatty acids + phosphate + choline | Amphipathic; forms bilayers, micelles, liposomes |
+| Compound lipid (glycolipid) | Cerebroside | Sphingosine + fatty acid + sugar | Cell-surface recognition, myelin sheath |
+| Derived lipid | Cholesterol, β-carotene | Isoprene-derived | Steroid precursor, antioxidant, vitamin A precursor |
 
-**Unsaturated Fatty Acids (contain C=C double bonds):**
-| Name | Formula | Melting Point (°C) | Notes |
+#### Fatty Acids and the Saturation Spectrum
+
+Fatty acids are carboxylic acids with a hydrocarbon chain (typically C₄–C₂₄). **Saturated** fatty acids (e.g., palmitic C16:0, stearic C18:0) carry only single C–C bonds and pack tightly, raising the melting point. **Unsaturated** fatty acids contain one or more *cis* C=C double bonds; the kinks prevent packing and lower the melting point. *Cis*-configuration is biologically dominant; *trans*-isomers form only under industrial partial hydrogenation.
+
+- **MUFA (monounsaturated):** oleic acid C18:1 (ω-9) — olive oil.
+- **PUFA (polyunsaturated):** linoleic C18:2 (ω-6, essential), linolenic C18:3 (ω-3, essential), arachidonic C20:4 (ω-6).
+- **ω-3 vs ω-6:** counted from the methyl end; cannot be interconverted in the body — both must come from the diet.
+
+#### Quantitative Lipid Analysis
+
+| Parameter | Formula | SI unit | What it measures |
 |---|---|---|---|
-| Oleic acid | C₁₈H₃₄O₂ (one cis C=C) | 13.4 | Olive oil (most abundant) |
-| Linoleic acid | C₁₈H₃₂O₂ (two cis C=C) | −5 | ω-6 essential fatty acid |
-| Linolenic acid | C₁₈H₃₀O₂ (three cis C=C) | −11 | ω-3 essential fatty acid |
-| Arachidonic acid | C₂₀H₃₂O₂ (four C=C) | −49 | Precursor of eicosanoids |
+| Saponification value (SV) | SV = (V × N × 56.1) / m | mg KOH g⁻¹ | Total ester-bound fatty acids |
+| Iodine number (IN) | IN = (V_b − V_s) × N × 12.69 / m | g I₂ / 100 g | Degree of unsaturation (C=C) |
+| Acid value (AV) | AV = V × N × 56.1 / m | mg KOH g⁻¹ | Free fatty acids (rancidity) |
+| Mean M_r of fat | M_r = (3 × 56.1 × 1000) / SV | g mol⁻¹ | Average molecular weight |
 
-**Essential Fatty Acids:** Linoleic acid (ω-6) and α-linolenic acid (ω-3) cannot be synthesised by the human body and must be obtained from the diet.
+Where **V** = titrant volume in cm³, **N** = normality in eq L⁻¹, **m** = sample mass in g, **56.1** = equivalent mass of KOH (g eq⁻¹), **12.69** = iodine equivalent mass × 100 (g eq⁻¹ × 100), and **V_b − V_s** is the blank-corrected thiosulphate titre. The iodine number is dimensionless per 100 g because of the factor 12.69, which converts normality into g I₂ directly.
 
-**Cis vs Trans Fatty Acids:**
-- Natural unsaturated fatty acids have **cis** double bonds (both H atoms on the same side of the double bond)
-- This causes a "kink" in the chain, preventing tight packing → low melting point → liquid at room temperature
-- **Trans fats** (partially hydrogenated oils) have trans double bonds (H atoms on opposite sides) → straighten the chain → higher melting point → solid at room temperature
-- Trans fats are associated with increased cardiovascular disease risk
+#### Reactions of Lipids
 
-⚡ **Health Note**: Industrially produced trans fats (in margarine, fried foods, baked goods) raise LDL ("bad" cholesterol) and lower HDL ("good" cholesterol), significantly increasing coronary heart disease risk. Many countries have banned or restricted partially hydrogenated oils.
+1. **Hydrolysis** — acid (H⁺) or alkali (KOH/NaOH) cleaves ester bonds; yields glycerol + fatty acids (or soaps with alkali).
+2. **Saponification** — alkaline hydrolysis of triacylglycerols → glycerol + potassium salts of fatty acids (soap).
+3. **Hydrogenation** — H₂ across C=C using Ni or Pd catalyst at ≈180 °C; converts oils to semi-solid fats (margarine manufacture). Industrial *partial* hydrogenation produces *trans* isomers.
+4. **Halogenation** — I₂ or Br₂ adds across C=C; quantified by iodine number (Wijs solution).
+5. **Rancidity** — *hydrolytic* (lipase liberates free fatty acids, raising AV) or *oxidative* (O₂ attacks C=C, forming peroxides and aldehydes).
 
----
+#### 🎯 Exam-Level Worked Problem
+
+**Question:** A 0.50 g sample of palm oil is saponified completely and the excess KOH requires 28.40 cm³ of 0.50 N HCl for back-titration. A blank titration uses 48.20 cm³ of the same acid. Calculate the saponification value and the average molecular weight of the oil. (KOH equivalent mass = 56.1 g eq⁻¹)
+
+#### Solution:
+Volume of KOH consumed by the oil = 48.20 − 28.40 = **19.80 cm³**
+SV = (V × N × 56.1) / m = (19.80 × 0.50 × 56.1) / 0.50 = **1110.78 mg KOH g⁻¹** (≈ **1111**)
+Mean M_r = (3 × 56.1 × 1000) / SV = (168 300) / 1110.78 ≈ **151.5 g mol⁻¹ per fatty acid**, total triglyceride M_r ≈ **3 × 151.5 + 38 (glycerol)** ≈ **493 g mol⁻¹**.
+
+> ⚠️ **Examiner Trap:** Students forget to **subtract** the back-titration volume from the blank and use 28.40 cm³ as if it were the consumed volume. The correct consumed volume is (blank − sample) = 19.80 cm³. Also, 56.1 is the *equivalent mass* of KOH, not its molecular mass — using 56 would silently introduce a 0.2% error.
+
+#### Biological Roles of Lipids
+
+- **Energy:** triacylglycerols store ~38 kJ g⁻¹; adipose tissue cushions organs.
+- **Membrane structure:** phospholipid bilayers with embedded cholesterol regulate fluidity.
+- **Insulation:** myelin (sphingolipid-rich) electrically insulates axons; subcutaneous fat insulates thermally.
+- **Signalling:** cholesterol → steroid hormones (cortisol, oestradiol, testosterone); arachidonic acid → prostaglandins, thromboxanes, leukotrienes.
+- **Absorption:** fat-soluble vitamins A, D, E, K require bile salt emulsification.
+- **Buoyancy:** lipid-rich blubber/adipose in marine mammals lowers density.
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-## Triglycerides (Fats and Oils)
+#### Edge Cases and Boundary Conditions
 
-### Structure
+1. **Cis vs trans geometry:** cis-double bonds lower m.p. by ~50 °C compared to the trans-isomer; elaidic acid (trans-oleic) melts at 44 °C, oleic (cis) at 13 °C. Biological membranes reject trans-fatty acids because the straight chain disrupts packing.
+2. **Essential vs non-essential fatty acids:** linoleic (ω-6) and α-linolenic (ω-3) are essential because mammals lack Δ¹² and Δ¹⁵ desaturases. Arachidonic acid can be synthesised from linoleic but only slowly.
+3. **Saponification boundary:** alkali hydrolysis is *complete* only with excess KOH and heat; otherwise mono- and diacylglycerols persist (used in emulsifiers such as lysophosphatidylcholine).
+4. **Iodine number limits:** a perfectly dry oil shows IN within ±2 units reproducibility; values above 180 (linseed oil) classify the oil as "drying" — it cross-links with O₂ to form films (paint binder).
+5. **Rancidity kinetics:** oxidative rancidity is autocatalytic — peroxides generate free radicals that attack further C=C. BHA, BHT and tocopherols are chain-breaking antioxidants added at 0.01% to retard propagation.
+6. **Cholesterol paradox:** membrane cholesterol at >30 mol% abolishes membrane fluidity variation with temperature — it acts as a *fluidity buffer* rather than a simple stiffener.
 
-A triglyceride is an ester of glycerol (propane-1,2,3-triol) with three fatty acids:
+#### Advanced Traps and Exceptions
 
-```
-CH₂–O–COR₁
-CH–O–COR₂   (three ester linkages)
-CH₂–O–COR₃
-```
-
-**Types of Triglycerides:**
-- **Simple triglyceride**: Same fatty acid in all three positions
-- **Mixed triglyceride**: Two or three different fatty acids
-- Most natural fats and oils are mixed triglycerides
-
-**Fats vs Oils:**
-| Property | Fats | Oils |
+| Statement | Verdict | Reason |
 |---|---|---|
-| Physical state at 20°C | Solid (more saturated) | Liquid (more unsaturated) |
-| Source | Usually animal | Usually plant |
-| Examples | Lard, butter, tallow | Olive oil, sunflower oil |
-| Melting point | Higher (more saturated) | Lower (more unsaturated) |
+| "Coconut oil is unsaturated because it is liquid in tropical climates." | False | Coconut oil is ~91% saturated (lauric C12:0 dominant) but melts near 24 °C — a regional m.p. boundary case, not unsaturation. |
+| "Frying converts cis-double bonds to trans." | False | Deep-frying causes *oxidation* (peroxides, aldehydes), not geometric isomerism. Trans fats arise only from industrial partial hydrogenation. |
+| "Saponification value measures free fatty acids." | False | SV measures *ester-bound* fatty acids. Free fatty acids are quantified by acid value. |
+| "All lipids are hydrophobic." | False | Phospholipids, glycolipids and cholesterol are *amphipathic* — they self-assemble in water. |
+| "ω-3 and ω-6 fatty acids are interchangeable." | False | They compete for the same desaturase/elongase enzymes but yield different eicosanoids with opposing inflammatory roles. |
 
-### Chemical Reactions of Triglycerides
+#### Connections to Adjacent Topics
 
-**1. Saponification (Alkaline Hydrolysis):**
-Triglyceride + NaOH/KOH → glycerol + fatty acid salts (soap):
+- **Carbohydrate chemistry:** glycerolipid backbone shares the C₃ stereochemistry with glycerol from glycolysis.
+- **Proteins:** lipoproteins (chylomicrons, VLDL, LDL, HDL) transport triacylglycerols and cholesterol esters in plasma — the ApoB-100/ApoA-I ratio is a clinical cardiovascular marker.
+- **Organic mechanisms:** the iodine-number reaction is a textbook electrophilic addition of I₂ across an alkene; the Wijs method uses ICl.
+- **Thermodynamics:** complete oxidation of palmitic acid yields −9490 kJ mol⁻¹ (ΔG°′); compare with glucose at −2870 kJ mol⁻¹ — the higher H/C ratio in lipids explains the energy density.
 
-```
-Triglyceride + 3NaOH → Glycerol + 3 R–COONa   (soap)
-```
+#### Practice Prompts
 
-**Hard soap**: Sodium salts of fatty acids (solid)
-**Soft soap**: Potassium salts of fatty acids (liquid)
+1. **Calculation:** A 0.25 g oil sample consumes 32.5 cm³ of 0.10 N thiosulphate in a Wijs titration, while the blank uses 46.8 cm³. Compute the iodine number and classify the oil (drying, semi-drying, non-drying).
+2. **Mechanism:** Draw the mechanism of NaOH-catalysed hydrolysis of tristearin and explain why the final soap solution has a pH above 7 even though fatty acids themselves are weak.
 
-**Soap Mechanism:**
-- Soap molecules have a polar head (–COO⁻Na⁺) and non-polar tail (hydrocarbon chain)
-- The non-polar tail dissolves in grease/oil
-- The polar head interacts with water
-- This forms micelles (spherical aggregates) that solubilise the grease
-- The grease is literally surrounded by soap molecules in a water-dispersible micelle
+## Continue your study
 
-⚡ **Exam Tip**: Soap is an emulsifying agent. It doesn't actually "dissolve" grease — it forms an emulsion (micellar solution). In hard water, soap reacts with Ca²⁺ and Mg²⁺ ions to form calcium/magnesium stearate (scum). Synthetic detergents (like SDS — sodium dodecyl sulphate) are designed not to form this precipitate.
+- **[View this topic in your Kenyatta University (Kenya) roadmap](/roadmap/?exam=kenyatta-ku&duration=1mo)** — see where "Lipids: Classification, Properties, and Biological Functions" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=kenyatta-ku&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Kenyatta University (Kenya) exam overview](/exams/kenyatta-ku/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/kenyatta-ku/chemistry/)** — browse sibling topics in this subject
 
-**2. Hydrogenation:**
-Unsaturated triglycerides + H₂ (Ni catalyst) → saturated triglycerides:
-
-```
-Olein (triolein, liquid) + 3H₂ → Stearin (solid)
-```
-
-This converts liquid vegetable oils (like peanut oil) to semi-solid fats (like margarine). Partial hydrogenation is used to make partially hydrogenated vegetable oils (PHOs) — the source of industrial trans fats.
-
-**3. Rancidity:**
-Fats can become rancid by:
-- **Hydrolytic rancidity**: Lipases (enzymes) hydrolyse triglycerides → free fatty acids + glycerol → unpleasant odour
-- **Oxidative rancidity**: Atmospheric oxygen oxidises C=C double bonds → peroxides → aldehydes and ketones → unpleasant flavours
-- Antioxidants (BHT, BHA, vitamin E) are added to prevent oxidative rancidity
-
-**4. Halogenation (Iodine Value):**
-Iodine (I₂) adds across C=C double bonds in a triglyceride:
-
-```
-I₂ + C=C → C–C–I (addition product)
-```
-
-**Iodine Value (IV):** Grams of I₂ (or equivalent) absorbed by 100g of fat.
-- Higher IV = more unsaturated the fat
-- Linseed oil: IV ~180 (very unsaturated)
-- Coconut oil: IV ~10 (very saturated)
-- Olive oil: IV ~80 (moderately unsaturated)
-
-⚡ **Exam Tip**: Iodine value is an analytical parameter used to characterise fats and determine their degree of unsaturation. It is particularly important in the paint and varnish industry where drying oils (high IV) are preferred.
-
-### Phospholipids
-
-Phospholipids are the structural lipids of cell membranes. They have:
-- Glycerol backbone (2 positions esterified to fatty acids, 1 position to phosphate)
-- Phosphate group (negatively charged)
-- Nitrogenous base attached to phosphate (choline, serine, ethanolamine, or inositol)
-
-**Phosphatidylcholine (lecithin):**
-```
-Glycerol + 2 fatty acids + phosphate + choline
-```
-- Most abundant phospholipid in cell membranes
-- The choline head group is positively charged (at physiological pH ~7.4)
-- Phosphatidylcholine is zwitterionic (both positive and negative charges on the same molecule)
-
-**Membrane Structure — The Fluid Mosaic Model:**
-- Cell membranes are composed of a **phospholipid bilayer**
-- The bilayer is fluid (lipids can diffuse laterally within the layer)
-- Proteins are embedded in or attached to the bilayer (mosaic pattern)
-- Cholesterol is interspersed in animal cell membranes (rigidifying agent)
-
-### Steroids
-
-Steroids are a class of lipids with a characteristic four-ring structure (three 6-membered rings + one 5-membered ring). The core structure is the **cyclopentanoperhydrophenanthrene ring** (17 carbon atoms in 4 rings).
-
-**Cholesterol:**
-- The most important steroid in animals
-- Precursor to all other steroid hormones (testosterone, oestrogen, cortisol, aldosterone)
-- Component of animal cell membranes (rigidifies the membrane)
-- Human dietary intake: Egg yolks, meat, dairy
-- Elevated blood cholesterol (particularly LDL) is associated with atherosclerosis
-
-**Important Steroid Hormones:**
-| Hormone | Source | Function |
-|---|---|---|
-| Testosterone | Testes | Male sex characteristics |
-| Oestradiol | Ovaries | Female sex characteristics |
-| Progesterone | Corpus luteum | Menstrual cycle, pregnancy |
-| Cortisol | Adrenal cortex | Stress response, metabolism |
-| Aldosterone | Adrenal cortex | Electrolyte balance |
-| Calcitriol | Skin (from vitamin D) | Calcium absorption |
-
-### Fat-Soluble Vitamins
-
-| Vitamin | Chemical Name | Function | Source |
-|---|---|---|---|
-| A | Retinol | Vision, immune function, skin | Carrots (β-carotene), liver |
-| D | Cholecalciferol (D₃) | Calcium absorption, bone health | Sunlight, fish oils |
-| E | Tocopherol | Antioxidant | Vegetable oils, nuts |
-| K | Phylloquinone (K₁) | Blood clotting factors | Leafy greens, K₂ from bacteria |
-
-⚡ **Deficiency Diseases:**
-- Vitamin A deficiency: Night blindness, xerophthalmia, keratomalacia
-- Vitamin D deficiency: Rickets (children), osteomalacia (adults)
-- Vitamin E deficiency: Haemolytic anaemia (RBC breakdown)
-- Vitamin K deficiency: Bleeding disorders (delayed coagulation)
-
-### Prostaglandins and Eicosanoids
-
-Eicosanoids are signalling molecules derived from arachidonic acid (a 20-carbon polyunsaturated fatty acid). They include:
-
-- **Prostaglandins (PG)**: Local hormones involved in inflammation, pain, fever
-- **Thromboxanes (TX)**: Promote blood clot formation (aspirin inhibits TXA₂ synthesis)
-- **Leukotrienes (LT)**: Bronchoconstriction (asthma drugs target LT receptors)
-
-**Aspirin (acetylsalicylic acid)** works by irreversibly inhibiting cyclooxygenase (COX), preventing prostaglandin and thromboxane synthesis from arachidonic acid. This reduces inflammation, pain, and fever. However, it also inhibits thromboxane A₂ production in platelets, reducing clot formation — hence aspirin's use in cardiovascular disease prevention.
-
----
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

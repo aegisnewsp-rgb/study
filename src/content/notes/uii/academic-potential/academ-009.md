@@ -8,7 +8,7 @@ topicName: Logical Reasoning — Deductive
 weight: 3
 country: indonesia
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-17"
 ---
 
 # Logical Reasoning — Deductive
@@ -16,172 +16,139 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-Deductive reasoning moves from general principles to specific conclusions. If the premises are true and the logic is valid, the conclusion MUST be true. The classic form is: All A are B. C is an A. Therefore C is B. In the UI entrance test, deductive reasoning questions assess your ability to evaluate logical arguments and identify valid conclusions.
+**Deductive reasoning** is the process of drawing a conclusion that *must* be true if the premises are true. In SIMAK UI's Academic Potential subtest, deductive items give you 2–4 short statements (premises) and ask whether a proposed conclusion follows with logical necessity. The three high-frequency argument forms to internalise are *Modus Ponens*, *Modus Tollens*, and the classic categorical syllogism.
 
-**Key Logical Forms:**
-- Modus ponens: If P then Q. P is true. Therefore Q is true. ✓ (Valid)
-- Modus tollens: If P then Q. Q is false. Therefore P is false. ✓ (Valid)
-- Affirming the consequent: If P then Q. Q is true. Therefore P is true. ✗ (Invalid — converse error)
-- Denying the antecedent: If P then Q. P is false. Therefore Q is false. ✗ (Invalid — inverse error)
+- **Premise** — a general statement offered as evidence (dimensionless truth value: T/F).
+- **Conclusion** — the proposition derived from premises (dimensionless truth value: T/F).
+- **Validity** — structural correctness: if premises are true, conclusion cannot be false.
+- **Soundness** — validity *plus* all premises are actually true (only valid form, dimensionless).
 
-**Key Facts:**
-- A valid deductive argument guarantees the conclusion if the premises are true
-- A sound argument is valid AND has true premises
-- Counterexamples can disprove universal statements: "All X are Y" is disproved by a single X that is not Y
-- The converse and inverse of "If P then Q" are NOT logically equivalent to the original
+| Form | Rule | Notation |
+|---|---|---|
+| Modus Ponens | If P → Q, and P is true, then Q must be true | (P → Q) ∧ P ⊢ Q |
+| Modus Tollens | If P → Q, and Q is false, then P must be false | (P → Q) ∧ ¬Q ⊢ ¬P |
+| Categorical Syllogism | Major + Minor premise sharing a middle term force a conclusion | M–P, S–M ⊢ S–P |
 
-⚡ **Exam Tip:** In the UI entrance test, for "which conclusion follows" questions, test each answer choice against the premises. A conclusion follows if it is necessarily true (cannot possibly be false while premises are true). Look for answer choices that are too weak ("might be true") or too strong (require additional assumptions beyond the premises).
+> 💡 **High-Yield Memory Hook:** **P-M-T** = **P**remise first, **M**atch middle term, draw **T**ight (necessary) conclusion. For conditionals, remember *affirm-P-get-Q, deny-Q-lose-P*; never flip the arrow.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Syllogisms**
+#### Core Definitions
 
-A syllogism is a deductive argument with two premises and a conclusion.
+A **deductive argument** is a sequence of propositions in which the conclusion is claimed to follow with certainty from one or more **premises**. The argument is **valid** when no interpretation of the terms makes the premises true and the conclusion false simultaneously; it is **sound** only when it is also valid *and* every premise is factually true. The standard connective is **material implication** P → Q, equivalently expressed as ¬P ∨ Q (truth-functional equivalence, dimensionless).
 
-*Categorical syllogism:*
-Premise 1: All WASSCE candidates are senior secondary students.
-Premise 2: Some senior secondary students study Mathematics.
-Conclusion: ? → "Some WASSCE candidates study Mathematics" does NOT follow (we don't know the overlap). "Some WASSCE candidates are senior secondary students" is just restating premise 1. No valid conclusion necessarily follows.
+#### Syllogistic Reasoning
 
-*Conditional syllogism:*
-If it rains (P), the ground is wet (Q). It rained. → The ground is wet. ✓ (Modus ponens)
-If it rains (P), the ground is wet (Q). The ground is not wet. → It did not rain. ✓ (Modus tollens)
+The classical **categorical syllogism** uses three terms — *S* (subject), *P* (predicate), and *M* (middle) — distributed across two premises. The four standard categorical forms, remembered by the vowels **A, E, I, O**, dictate which quantifiers ("all", "no", "some") can appear:
 
-**Evaluating Arguments**
+| Form | Name | Pattern | Converse Valid? |
+|---|---|---|---|
+| A | Universal Affirmative | All S are P | No |
+| E | Universal Negative | No S are P | Yes (obversion) |
+| I | Particular Affirmative | Some S are P | Yes |
+| O | Particular Negative | Some S are not P | No |
 
-To evaluate a deductive argument:
-1. Identify the premises and conclusion
-2. Check whether the conclusion necessarily follows from the premises
-3. Look for hidden assumptions that might be false
-4. Check for common logical fallacies
+The syllogism is valid when the middle term is **distributed** (covers every member of its class) in at least one premise, and no term is distributed in the conclusion that was undistributed in its premise.
 
-Example argument: "All students who pass the entrance exam are admitted. Ani passed the entrance exam. Therefore, Ani is admitted."
-This is valid modus ponens. The conclusion follows necessarily IF the premises are true.
+#### Common Fallacy Comparison Matrix
 
-**Identifying Valid Conclusions**
+Students confuse valid forms with their invalid look-alikes. Memorise the asymmetry before the exam:
 
-Example premises:
-1. All students who study medicine are science students.
-2. Some students in the scholarship programme study medicine.
+| Named Form | Pattern | Valid? | Typical Exam Trap |
+|---|---|---|---|
+| Modus Ponens | P → Q; P; ∴ Q | ✅ Yes | Confused with affirming the consequent |
+| Modus Tollens | P → Q; ¬Q; ∴ ¬P | ✅ Yes | Confused with denying the antecedent |
+| Affirming the consequent | P → Q; Q; ∴ P | ❌ No | "It rained, so the street is wet" — street wet ≠ certain rain |
+| Denying the antecedent | P → Q; ¬P; ∴ ¬Q | ❌ No | "Not a cat, so doesn't purr" ignores other purring animals |
+| Undistributed middle | All A are B; All C are B; ∴ All A are C | ❌ No | Middle term B never forces A–C link |
 
-What follows?
-- "Some scholarship programme students are science students" — possible but not necessary (the overlap could be empty? Wait — some scholarship students study medicine, and all medicine students are science students. So at least one scholarship student is studying medicine AND is a science student. This follows: SOME scholarship students who study medicine are science students. So some scholarship students are science students. ✓)
+> 💡 **High-Yield Memory Hook:** **MP-MT-OK** — *Modus Ponens affirms P, Modus Tollens denies Q*. Anything else (affirm Q or deny P) is the trap. Mnemonic: *Ponens = Positive antecedent, Tollens = Trow away consequent.*
 
-**Negation and Contrapositive**
+#### 🎯 Exam-Level Worked Problem
 
-The contrapositive of "If P then Q" is "If not Q then not P." The contrapositive is logically equivalent to the original statement.
-The converse is "If Q then P" — NOT equivalent.
-The inverse is "If not P then not Q" — NOT equivalent.
+#### Question:
+Premise 1: If a student attends every SIMAK preparation class, then the student will pass the simulation test.
+Premise 2: Rina did **not** pass the simulation test.
+Conclusion: Therefore, Rina did **not** attend every SIMAK preparation class.
 
-Example: "If it is a cat, it is a mammal."
-Contrapositive: "If it is not a mammal, it is not a cat." ✓ (Equivalent)
-Converse: "If it is a mammal, it is a cat." ✗ (False — dogs are mammals but not cats)
-Inverse: "If it is not a cat, it is not a mammal." ✗ (False — dogs again)
+Which judgment is correct?
+(A) The conclusion is *Always True* (logically necessary).
+(B) The conclusion is * True but not certain*.
+(C) The conclusion is *Always False*.
+(D) The data is insufficient to evaluate.
 
-**Sets and Venn Diagrams**
+#### Solution:
+Step 1 — Identify the connective: Premise 1 is a material implication, written P → Q, where **P** = "attends every class" (dimensionless truth value) and **Q** = "passes the simulation test" (dimensionless truth value).
+Step 2 — Identify the second input: Premise 2 states ¬Q (Rina did not pass).
+Step 3 — Match to a valid form: (P → Q) ∧ ¬Q ⊢ ¬P. This is exactly **Modus Tollens**.
+Step 4 — Apply: From ¬Q and the conditional, we must conclude ¬P. The argument is **valid**, so the conclusion is *Always True* regardless of whether the premises are actually sound in real life.
+Step 5 — Choose the answer: **(A)**.
 
-In Venn diagrams:
-- "All A are B" → circle A is entirely inside circle B
-- "Some A are B" → circles A and B overlap
-- "No A are B" → circles A and B are separate
-- "Some A are not B" → part of circle A lies outside circle B
+> ⚠️ **Examiner Trap:** Many students pick (B) thinking "absence of evidence is not evidence of absence," or pick (D) demanding proof that Rina even took the classes. Deduction only asks whether the form forces the conclusion — and Modus Tollens *does* force it. Do not import empirical doubt into a formal-logic question.
 
-Example: All physicists are scientists. Some scientists are women. What can be concluded?
-At least one woman is a scientist who might or might not be a physicist. We cannot conclude any overlap between physicists and women. The Venn diagram shows physicists entirely within scientists, with women overlapping the scientists circle — they might or might not overlap the physicists circle.
+#### Step-by-Step Deduction Checklist
 
-**Truth Tables — Basic**
-
-For "P → Q":
-
-| P | Q | P → Q |
-|---|---|-------|
-| T | T | T     |
-| T | F | F     |
-| F | T | T     |
-| F | F | T     |
-
-The only false case is when P is true and Q is false.
-
-**Direct and Indirect Reasoning**
-
-Direct reasoning: work forward from premises to conclusion.
-Indirect reasoning (proof by contradiction): assume the opposite of what you want to prove, show it leads to a contradiction, therefore the original must be true.
-
-**Problem-Solving Strategies:**
-- For "which conclusion follows" questions, test each answer against all possible arrangements consistent with the premises
-- Use Venn diagrams for set-based syllogisms — they make overlaps and non-overlaps visually clear
-- For conditional statements, always check the contrapositive as well as the original
-- When no conclusion follows, "None of the above" may be correct — don't force a conclusion
-
-**Common Mistakes:**
-- Conflating "some" with "all" — "some A are B" only tells you about the overlap, not about all of A or all of B
-- Accepting the converse as valid — "If P then Q" does not mean "If Q then P"
-- Assuming a distribution that isn't stated — "Some A are B" doesn't tell you whether "Some A are not B"
-- Missing hidden assumptions — always check whether there's an implicit premise being used
+1. Translate every sentence into propositional or categorical symbols (P, Q, R, S…).
+2. Locate the **middle term** (categorical) or the **shared antecedent/consequent** (conditional).
+3. Check distribution rules: middle term distributed at least once, no illicit distribution.
+4. Match the pattern against MP / MT / hypothetical syllogism / categorical forms.
+5. Mark the conclusion as **Always True**, ** True**, or **Always False** based solely on form.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-**Logical Equivalence**
+#### Categorical Logic at the Limits
 
-Two statements are logically equivalent if they have the same truth value in all cases.
-"P → Q" is logically equivalent to "¬Q → ¬P" (contrapositive).
-"P → Q" is logically equivalent to "¬P ∨ Q" (expressed as disjunction).
-"P ∧ Q" is true only when both are true.
-"P ∨ Q" is true when at least one is true.
+The four A-E-I-O forms obey **square-of-opposition** relations that examiners exploit. From "All S are P" (A) you can immediately infer "Some S are P" (I) under **existential import** assumptions, but modern deductive logic treats universal statements as silent on existence — meaning you *cannot* infer a particular from a pure universal. SIMAK UI items occasionally test this exact edge: an "All" premise is followed by a conclusion demanding an existence claim, and the correct answer is ** True** rather than *Always True*.
 
-De Morgan's Laws:
-¬(P ∧ Q) ≡ ¬P ∨ ¬Q
-¬(P ∨ Q) ≡ ¬P ∧ ¬Q
+**Truth-functional expansions** extend P → Q beyond the binary setting. The material conditional P → Q is equivalent to ¬P ∨ Q (De Morgan's twin: ¬(P ∧ Q) ≡ ¬P ∨ ¬Q and ¬(P ∨ Q) ≡ ¬P ∧ ¬Q; all dimensionless Boolean operations). When chains appear — P → Q, Q → R, R → S — the hypothetical syllogism licenses P → S by transitivity of implication.
 
-**Quantifier Logic**
+#### Edge-Case Trap Table
 
-Universal quantifier (∀): "For all x, P(x)" — must hold for every element.
-Existential quantifier (∃): "There exists an x such that P(x)" — must hold for at least one element.
-Negation: ¬(∀x P(x)) ≡ ∃x ¬P(x). "Not all are" means "at least one is not."
-Negation: ¬(∃x P(x)) ≡ ∀x ¬P(x). "None are" means "all are not."
+| Advanced Trap | Description | Counter-Move |
+|---|---|---|
+| Existential fallacy | Concluding "Some S are P" from "All S are P" without an existence premise | Treat the "Some" inference as only true |
+| Illicit major | Distributing predicate in conclusion when only undistributed in major premise | Re-check distribution via Venn diagrams before answering |
+| Illicit minor | Distributing subject in conclusion but not in minor premise | Same: Venn-diagram verification |
+| Equivocation | Using the same word with two meanings across premises | Identify ambiguous term, in many papers the middle |
+| Inductive-vs-deductive mix-up | Conclusion is *probable*, not necessary — but the question demands logical certainty | Re-read the stem: "must be true" forces deduction only |
 
-Example: Statement: "All UI students pass the entrance exam."
-Negation: "There exists at least one UI student who does not pass the entrance exam." (At least one counterexample disproves a universal claim.)
+#### Conditional Chains and Hypothetical Syllogisms
 
-**Validity vs Truth**
+1. **Pure hypothetical:** P → Q; Q → R; ∴ P → R (chain rule, valid).
+2. **Mixed hypothetical:** P → Q; R → ¬Q; ∴ R → ¬P (transposition, valid).
+3. **Disjunctive syllogism:** P ∨ Q; ¬P; ∴ Q (valid).
+4. **Constructive dilemma:** P → Q; R → S; P ∨ R; ∴ Q ∨ S (valid, frequently tested).
 
-An argument can be valid but have a false conclusion (if premises are false).
-An argument can be sound only if it is valid AND all premises are true.
-Example of valid but unsound: "All cats are birds. All birds can fly. Therefore all cats can fly." Valid form (modus ponens chain) but false first premise.
+#### Adjacent-Topic Links
 
-**Complex Syllogisms**
+- **Inductive reasoning** — opposite direction; conclusions are probable, not certain.
+- **Logical fallacies** — extended taxonomy beyond affirming/denying; relevant for rapid elimination of distractors.
+- **Set theory translation** — categorical syllogisms rewrite cleanly as set inclusions: x ∈ A ∧ A ⊆ B ⊢ x ∈ B (dimensionless membership).
+- **Necessary vs sufficient conditions** — Q is **necessary** for P when P → Q; Q is **sufficient** for P when Q → P. SIMAK items in many papers swap these in the stem.
 
-Example:
-1. All doctors are university graduates.
-2. No university graduate is unemployed.
-3. Some nurses are not doctors.
+#### Two Advanced Practice Prompts
 
-Conclusion options:
-a) Some nurses are university graduates. (Could be true — nurses who aren't doctors might be graduates; could also be false if all non-doctor nurses are unemployed. Not necessarily true.)
-b) Some unemployed people are not nurses. (If all graduates are employed, then unemployed people are not graduates. Since all doctors are graduates, unemployed people are not doctors. They might be nurses or not. But the set of unemployed people ⊆ non-graduates ⊆ non-doctors. So some unemployed people are not nurses — unless all unemployed people are nurses. Possible but not certain.)
-c) All doctors are employed. (Yes — all doctors are graduates, no graduate is unemployed. So all doctors are employed. ✓)
+1. Identify the fallacy: "All doctors are readers. Some readers are athletes. Therefore, some doctors are athletes." *Expected diagnosis: undistributed middle.*
+2. Evaluate: P → (Q ∧ R), P, ¬Q. Can you derive anything further? *Expected: from P derive Q ∧ R, then contradiction with ¬Q; conclude the premise set is inconsistent, hence Q is impossible.*
 
-**Logic in Real-World Contexts**
+#### Final Exam Strategy for SIMAK UI
 
-Deductive reasoning is used in legal arguments, mathematical proofs, and scientific reasoning (if the theory is correct and the observations are correct, the conclusion follows).
+Deductive items carry **negative marking** and tight time budgets; budget ~45 seconds per item after the first read. Scan the conclusion stem for quantifiers ("all", "some", "no") and conditionals ("if…then", "whenever", "only if"). Translate to symbols mentally, match against MP/MT/hypothetical forms, and only then choose among *Always True / True / Always False*. Treat * True* as the safe default whenever a universal premise is asked to license a particular conclusion without an existence guarantee.
 
-**UI Entrance Exam Patterns**
+---
 
-Deductive reasoning in the UI Academic Potential test includes:
-1. Categorical syllogisms (all/some/none)
-2. Conditional logic (if-then statements)
-3. Evaluating arguments (identifying which conclusion follows)
-4. Identifying logical fallacies
-5. Set-based reasoning with Venn diagrams
-6. Identifying contradictions and inconsistencies
+## Continue your study
 
-⚡ **Exam Strategy:** When a conditional conclusion seems tempting but isn't guaranteed, look at what MUST be true given the premises, not what could be or might be true. The word "must" is critical in these questions.
+- **[View this topic in your UI Entrance (Indonesia) roadmap](/roadmap/?exam=uii&duration=1mo)** — see where "Logical Reasoning — Deductive" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=uii&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UI Entrance (Indonesia) exam overview](/exams/uii/)** — pattern, eligibility, and syllabus
+- **[All Academic Potential notes](/notes/uii/academic-potential/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

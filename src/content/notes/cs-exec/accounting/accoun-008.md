@@ -8,182 +8,184 @@ topicName: Issue of Shares
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-17"
 diagramPrompt: "Clean educational diagram showing the process of share issue from company incorporation to share allotment, including application money, allotment money, and calls — white background, exam-style illustration"
 
 ---
 
 # Issue of Shares
 
-The **Issue of Shares** is one of the most fundamental topics in the CS Executive accounting syllabus. When a company decides to raise capital, it does so by issuing shares — units of ownership that give the holder a residual claim on the company's assets and earnings. The process of issuing shares, from receiving applications to calls on shares, is governed by the Companies Act, 2013, and requires meticulous journal entries at every stage. Mastering this topic is essential because it forms the foundation for understanding how sole proprietorship differs from partnership differs from corporate entity accounting.
-
-For the CS Executive examination, questions on Issue of Shares appear frequently — both as theory questions (often 4–6 marks) and as numerical problems (5–8 marks). The numerical questions typically require you to journalise the entire process from the initial call to the final receipt of money, including handling excess application money and calls in arrears. Theory questions test your understanding of the legal provisions under the Companies Act, 2013 — particularly Section 39, Section 40, and the rules around minimum subscription and promoters' liability.
-
-The key to scoring well on this topic is two-fold: first, you must understand the legal framework around share issuance — who can issue shares, at what price, and what disclosures are required in the prospectus; second, you must be able to produce accurate, well-structured journal entries that correctly apply the principles of debit and credit under double-entry book-keeping. Both are tested independently in the CS Executive exam.
-
----
-
 ### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your CS Executive Accounting paper.
 
-> Rapid summary for last-minute revision before your exam.
+Issue of Shares is the mechanism by which a company raises equity or preference capital by offering shares under the **Companies Act, 2013** (Sec. 23–54) and, for public issues, the **SEBI (ICDR) Regulations, 2018**. Every accounting question on this topic reduces to five building blocks: issue at par/premium, calls in arrears, calls in advance, forfeiture–reissue, and underwriting.
 
-**The Three Stages of a Share Issue:**
+| Term | What it means on the Balance Sheet |
+|---|---|
+| Authorised Capital | Maximum face value a company can issue (per MoA) |
+| Issued Capital | Face value of shares actually offered to the public/existing holders |
+| Subscribed Capital | Face value of shares applied for by investors |
+| Called-up Capital | Portion of face value the company has demanded |
+| Paid-up Capital | Portion of called-up money actually received |
 
-Every share issue goes through three stages, each generating a journal entry:
+> 💡 **High-Yield Memory Hook:** **A-I-S-C-P** = "**A**ll **I**ssued **S**hares **C**arry **P**aid-up Value" — read top to bottom of Schedule III; the same face value flows through Authorised → Issued → Subscribed → Called → Paid-up.
 
-1. **Application Stage** — Shareholder applies and pays application money (e.g., ₹2 per share on a ₹10 face value share)
-   - Bank A/c Dr. [Amount received]
-     - To Share Application A/c [Amount received]
-   - On rejection of excess applications: Share Application A/c Dr. → To Bank A/c
-
-2. **Allotment Stage** — Company allots shares (e.g., ₹3 per share due on allotment, including premium if any)
-   - Share Application A/c Dr. [Amount adjusted from application]
-   - To Share Capital A/c [Face value received]
-   - To Securities Premium A/c [Premium received, if applicable]
-
-3. **Call Stage** — Company makes calls (e.g., ₹3 each on first call, ₹2 on final call)
-   - Share Call A/c Dr. [Amount called up]
-     - To Share Capital A/c
-   - On receipt: Bank A/c Dr. → To Share Call A/c
-   - On non-payment: Forfeiture rules apply — refer to standard treatment below
-
-**Key Rules to Remember:**
-- Application money must be at least 5% of nominal value
-- Allotment money is due when the board passes a resolution
-- Calls must be made with at least 14 days' notice
-- A company cannot levy interest on calls unless specified in Articles
-- Shares can be forfeited for non-payment of calls after due notice
-
-**High-Yield Point:** Excess application money is refunded, not carried forward — unless the company's articles provide otherwise. Watch for the question variant where application money is partly adjusted against allotment.
-
-**⚡ Exam Tip:** In the CS Executive exam, questions often combine Issue of Shares with Forfeiture and Reissue. The full sequence (issue → forfeiture → reissue) is a common 12–16 mark question. Practise the journal entries for forfeiture carefully — debit Share Capital with the called-up amount (not face value), and credit Share Forfeiture A/c with the amount received over the called-up portion.
+- **Securities Premium** (Sec. 52) = Issue Price − Face Value. Credited to Securities Premium Account; **cannot** be used for dividend or writing off commission.
+- **Calls in Arrears** are a **debit** (asset); **Calls in Advance** are a **credit** (liability), never income.
+- **Issue at discount is void** under Sec. 53 — only sweat equity under Sec. 54 is exempt.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
+> Standard content for students with weeks to months before the exam.
 
-> Standard content for students with a few days to months.
+#### Classification of Share Capital
 
-**Legal Framework Under the Companies Act, 2013:**
+Under Sec. 43 of the Companies Act 2013, the share capital of a public company consists of **equity share capital** (with voting rights and dividend after preference) and **preference share capital** (carrying a preferential right to dividend and capital repayment). Cumulative redeemable preference shares are the most common; irredeemable cumulative preference shares trigger an Ind AS liability-vs-equity classification test.
 
-The Companies Act, 2013 (Sections 39–40) governs the issue of shares in India. Key provisions:
+#### Accounting Entries — Issue at Par and Premium
 
-- **Section 39(1):** All shares must be paid-up at the time of issue — the company cannot issue shares at a discount (except through sweat equity or under a scheme of debt-equity restructuring approved by a tribunal)
-- **Section 39(2):** If shares are issued at a premium, the premium must be transferred to the Securities Premium Account, which can only be used for specific purposes (writing off share issue expenses, issuing fully paid bonus shares)
-- **Section 40:** The prospectus (or red herring prospectus for a book-built issue) must disclose the minimum subscription — the minimum amount that must be raised for the issue to be valid. If minimum subscription is not received within the specified period, the company must refund all application money within the prescribed time
+On application, the company debits **Bank A/c** and credits **Share Application A/c**. On allotment, the excess application money is first adjusted toward allotment and any balance toward calls; only the residue is refunded. Premium received at any stage must be transferred to **Securities Premium A/c** at allotment, not on receipt.
 
-**Types of Share Issues:**
+> 📌 **Formula Check:** Securities Premium per share = (Issue Price − Face Value) in ₹; dimension M¹L⁰T⁰. Posted at allotment, not at application.
 
-| Issue Type | Description | Pricing |
+#### Calls in Arrears vs Calls in Advance
+
+| Feature | Calls in Arrears | Calls in Advance |
 |---|---|---|
-| **Par (Face Value) Issue** | Shares issued at exactly face/nominal value | ₹10 share issued at ₹10 |
-| **Premium Issue** | Shares issued above face value | ₹10 share issued at ₹25 (₹15 premium) |
-| **Discount Issue** | Shares issued below face value | Permissible only in specific cases under Companies Act |
-| **Sweat Equity** | Shares issued to employees/directors at a discount | Regulated under S.54 |
+| Nature | Asset (debit balance) | Liability (credit balance) |
+| When it arises | Money due but not received | Money received before it is due |
+| Balance Sheet | Schedule III, equity side, as a deduction | Separate liability head "Interest-free deposit / Calls in Advance" |
+| Interest | Charged at the rate in Table F (or Articles) if Articles so provide; credited to P&L — not capitalised | No interest unless Articles permit |
+| On forfeiture | Adjusted against Calls-in-Arrears A/c | Adjusted against the call when it falls due |
 
-**The Journal Entries — Full Sequence:**
+> 💡 **High-Yield Memory Hook:** **Arrears = A**sset (debtor of the company); **Advance = L**iability (creditor). Mnemonic: "**A**rrears is what they **o**we you; **A**dvance is what you **o**we them."
 
-*Assumption: 10,000 shares of ₹10 each issued at a premium of ₹5. Application money ₹3 (including premium ₹1), Allotment ₹7 (including premium ₹4), First Call ₹3, Final Call ₹2.*
+#### Forfeiture and Reissue (Sec. 53)
 
-**1. On Receipt of Application Money (10,000 × ₹3):**
-```
-Bank A/c                 Dr.    30,000
-   To Share Application A/c          30,000
-```
+A company may forfeit shares when a shareholder fails to pay any **call** or any instalment on a public issue. The journal entry is:
 
-**2. On Allotment (adjust full application money; balance due):**
-```
-Share Application A/c     Dr.    30,000
-   To Share Capital A/c           10,000   [10,000 × ₹1 face value]
-   To Securities Premium A/c       20,000   [10,000 × ₹2 from application]
-```
-```
-[Allotment due: 10,000 × ₹7 = ₹70,000 — application money already received and applied]
-[No separate entry needed at this stage if application money is adjusted against allotment]
+> Share Capital A/c Dr. (called-up amount)
+> Securities Premium A/c Dr. (premium not received — only if premium was already due and not received)
+> To Calls in Arrears A/c
+> To Share Forfeiture A/c (amount actually received, **excluding premium**)
+> To Bank A/c (if any premium portion was received)
 
-Share Application A/c    Dr.    10,000   [excess refund — assuming 10,000 applied, 10,000 alloted]
-   To Bank A/c                     10,000
-```
+On **reissue**, any discount allowed is debited; the net gain is transferred to **Capital Reserve**. The capital reserve is capped so that the company does not suffer a net loss on the forfeiture–reissue cycle.
 
-**3. On First Call (10,000 × ₹3):**
-```
-Share First Call A/c      Dr.    30,000
-   To Share Capital A/c           30,000
-```
-*On receipt:* Bank A/c Dr. 30,000 → To Share First Call A/c 30,000
+> 📌 **Formula Check:** Capital Reserve transfer = (Forfeited amount per share × Shares forfeited) − (Discount per share × Shares reissued). Dimension: ₹ (M¹L⁰T⁰).
 
-**4. On Final Call (10,000 × ₹2):**
-```
-Share Final Call A/c      Dr.    20,000
-   To Share Capital A/c           20,000
-```
-*On receipt:* Bank A/c Dr. 20,000 → To Share Final Call A/c 20,000
+#### Underwriting — Pro-rata Allotment
 
-**Forfeiture of Shares (for non-payment of calls):**
+Underwriters guarantee subscription. Three categories:
 
-If a shareholder fails to pay a call, the company may forfeit the shares after giving due notice. The journal entry:
-```
-Share Capital A/c          Dr.    [Called-up amount on forfeited shares]
-Share Forfeiture A/c       Dr.    [Amount received over called-up portion at time of issue]
-   To Share Call A/c               [Amount of unpaid call]
-   To Outstanding Call A/c        [If not yet due at forfeiture]
-```
-The Share Forfeiture A/c is a capital reserve — it represents profits previously earned on those shares. When the forfeited shares are reissued, if they are reissued at a discount, the discount is debited to Share Forfeiture A/c. Any excess over the discount is credited to Capital Reserve.
+| Type | Liability |
+|---|---|
+| **Marked** applications | Treated as having come from that specific underwriter |
+| **Unmarked** applications | Distributed among underwriters in proportion to gross liability |
+| **Firm** underwriting | Underwriter subscribes a fixed number regardless of public response |
 
-**⚡ Study Strategy:** Practise the full sequence from application to calls minimum 5 times before the exam. Then add forfeiture and reissue — this is the most common full-scope question and typically worth 12–16 marks.
+Net Liability = Gross Liability − (Firm shares × Issue Price) − (Unmarked benefit credited). Most CS Executive numericals test a 3-step table: (1) gross liability, (2) unmarked benefit, (3) net liability.
+
+#### Concept Comparison Matrix — Confusing Pairs
+
+| Easily confused | Correct treatment |
+|---|---|
+| Securities Premium vs Profit & Loss A/c | Securities Premium is a **capital receipt**; P&L A/c is for revenue profits. Premium cannot fund dividend or commission write-off. |
+| Forfeited Amount vs Discount on Reissue | Forfeited Amount = money actually received (excl. premium); Discount = loss on reissue. Capital Reserve = the difference, capped. |
+| Calls in Arrears vs Calls in Advance | Arrears = debit; Advance = credit. Often swapped in MCQs. |
+| Rights Issue (Sec. 62(1)) vs Bonus Issue (Sec. 63) | Rights = fresh issue at a price (cash inflow); Bonus = capitalisation of reserves/securities premium (no cash inflow). |
+| Sweat Equity (Sec. 54) vs ESOP (Sec. 62(1)(b)) | Sweat = to directors/employees for non-cash consideration; ESOP = option to subscribe at a future price. |
+| Preferential Allotment vs Private Placement | Preferential = to identified persons (Sec. 62(1)(c)); Private Placement = up to 200 persons in a financial year (Sec. 42). |
+
+#### 🎯 Exam-Level Worked Problem
+
+**Question:** X Ltd. issued 50,000 equity shares of ₹10 each at a premium of ₹2 per share, payable as: Application ₹4 (incl. ₹1 premium), Allotment ₹5 (incl. ₹1 premium), First & Final Call ₹3. Applications were received for 45,000 shares and all were allotted. A shareholder holding 1,000 shares failed to pay the call money; these shares were forfeited. 600 of these were reissued at ₹8 per share (₹2 discount). Pass journal entries and compute the amount transferable to Capital Reserve.
+
+#### Solution:
+
+*Step 1 — Application (45,000 × ₹4 = ₹1,80,000):*
+Bank A/c Dr. 1,80,000
+To Share Application A/c 1,80,000
+
+*Step 2 — Allotment (50,000 × ₹5 = ₹2,50,000):*
+Share Allotment A/c Dr. 2,50,000
+To Share Capital A/c 2,00,000
+To Securities Premium A/c 50,000
+
+*Step 3 — Call (50,000 × ₹3 = ₹1,50,000):*
+Shares First Call A/c Dr. 1,50,000
+To Share Capital A/c 1,50,000
+
+*Step 4 — Bank receipt on call:* Bank received on 49,000 shares = ₹1,47,000; Arrears = ₹3,000.
+
+*Step 5 — Forfeiture of 1,000 shares (called-up ₹9, premium ₹1 unpaid → premium due was ₹1,000; forfeited amount excl. premium = ₹8 × 1,000 = ₹8,000, premium already received = ₹1,000 stays with company):*
+Share Capital A/c Dr. 9,000
+To Calls in Arrears A/c 3,000
+To Share Forfeiture A/c 6,000 *(i.e., ₹4 + ₹5 − ₹1 premium returned to capital reserve pool — see note)*
+
+*Step 6 — Reissue of 600 shares at ₹8 (₹2 discount):*
+Bank A/c Dr. 4,800
+Share Forfeiture A/c Dr. 1,200
+To Share Capital A/c 6,000
+
+*Step 7 — Transfer to Capital Reserve:*
+Forfeited amount on 600 reissued shares = ₹6 × 600 = ₹3,600; less discount ₹1,200 = **₹2,400** transferable.
+
+> ⚠️ **Examiner Trap:** The premium component already received is **not** part of "forfeited amount" because it lawfully belongs to the company and remains in Securities Premium. Forgetting this inflates Capital Reserve by ₹1,000 and misclassifies a capital receipt as forfeited gain.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-
 > Comprehensive coverage for students on a longer study timeline.
 
-**Detailed Legal Provisions:**
+#### Edge Cases and Boundary Conditions
 
-*Section 39 — Allotment of Shares:*
-- Allotment is valid only when the minimum subscription is received
-- The board must not allot shares unless the minimum subscription has been received
-- If minimum subscription is not received, application money must be refunded within 70 days of the issue
-- Allotment must be made within 60 days of receipt of applications
+**Bonus through Securities Premium.** The Companies (Amendment) Act, 2017 clarified that capitalisation of **Securities Premium** for bonus issue is now permitted under Rule 14 of the Companies (Share Capital and Debentures) Rules, 2014 — but only if the Articles authorise it. Pre-amendment jurisprudence had struck this down (the Supreme Court's view in the earlier regime), so students often misquote. Today, bonus may be issued out of: (a) free reserves, (b) securities premium account, and (c) capital redemption reserve.
 
-*Section 40 — Prospectus Requirements:*
-- Every prospectus must state the minimum subscription
-- The minimum subscription cannot be less than 90% of the offer
-- If the issue fails to achieve minimum subscription, the company cannot proceed with the allotment
+**Forfeiture when premium is unpaid but partly called.** Sec. 53 mandates that any premium **due but unpaid** cannot be forfeited — the company must recover it as a debt. The forfeiture entry must therefore debit Securities Premium only for the premium portion that was actually due at the time of forfeiture. If the allotment premium of ₹1 was due and unpaid, ₹1,000 is debited to Securities Premium A/c alongside Share Capital.
 
-**Pro-Rata Allotment:**
+**Pro-rata with over-subscription.** When applications exceed shares offered, the excess application money is first applied to **additional shares** if so elected by the applicant; otherwise it is refunded. Many exam scenarios combine this with under-subscription in another share class, requiring an inter-class adjustment that students regularly miss.
 
-When applications are oversubscribed, the company may make a pro-rata allotment — allotting fewer shares than applied for, with excess application money adjusted against allotment. The key journal entry question in pro-rata situations:
+**Sweat Equity (Sec. 54).** Issue at a discount to directors/employees for non-cash consideration or for providing know-how. Discount is allowed up to the lower of (a) the discount permitted by rules, or (b) the value of consideration. Conditions: Central Government approval, within authorised capital, and disclosure in the Board's Report.
 
-- When pro-rata allotment is made and excess application is adjusted: No refund entry, just adjust the application money against allotment
-- When the company refunds excess: Bank A/c Dr. → To Share Application A/c
+**ESOP — Ind AS 102 angle.** Under Ind AS 102, ESOPs are measured at **fair value of the option** on grant date using a pricing model (Black-Scholes or binomial). The fair value is amortised over the vesting period as employee compensation expense with a credit to Share-Based Payment Reserve; the corresponding debit goes to P&L. CS Executive does not numerically test Black-Scholes but frequently asks the **journal pattern** at grant, vesting and exercise.
 
-**Calls in Arrears:**
+#### Schedule III (Division I) Disclosure Pattern
 
-When a shareholder does not pay a call, the company can:
-1. **Charge interest** if the Articles of Association permit (typically at 5–10% p.a. from the due date to the date of actual payment)
-2. **Forfeit the shares** if notice with 14 days' default period is served and the shareholder still fails to pay
-3. **Reissue the forfeited shares** at a discount (maximum discount = amount forfeited + any loss on reissue, limited by Share Forfeiture A/c balance)
+Under Schedule III, Share Capital is shown as the first item on the Equity & Liabilities side with sub-classification into Authorised, Issued, Subscribed and Paid-up. A reconciliation table is mandatory: **Shares outstanding at the beginning + issued during the year − forfeited/redeemed = Shares outstanding at the end**. Forfeited shares are reported as a deduction only when reissue is pending; once reissued, they merge into paid-up capital.
 
-**Over-Subscription and the Treatment of Excess Application Money:**
+#### Common Mistakes and How to Avoid Them
 
-A classic CS Executive variant: What happens when a company receives applications for 15,000 shares but only allots 10,000 on a pro-rata basis? The usual treatment:
+| Trap | Why students fall for it | Fix |
+|---|---|---|
+| Crediting Calls in Advance to Income | Looks like "extra money received" | Always treat as a **liability** until the share is allotted or transferred |
+| Forfeiting the premium portion | Premium received is "in the bank" | Only **forfeited amount** (excluding premium) goes to Share Forfeiture A/c |
+| Using "shares forfeited" instead of "shares reissued" in Capital Reserve formula | Mechanically reuses the bigger number | Discount is applied only on **reissued** shares |
+| Treating Securities Premium as distributable | It is "profit" in common parlance | Capital receipt; restricted use under Sec. 52 |
+| Ignoring unmarked benefit in underwriting | "Unmarked" sounds like "no liability" | Distribute in proportion to gross liability; reduce each underwriter's net liability |
 
-- Applications for 15,000 shares received @ ₹3 each = ₹45,000 received
-- Application money received: ₹3 × 15,000 = ₹45,000
-- Amount adjustable against allotment: 10,000 × (₹3 + ₹X allottment due) — as per terms of issue
-- Excess to be refunded: ₹45,000 minus amount adjusted
+#### Connections to Adjacent Topics
 
-**Numerical Problem Template:**
+- **Issue of Debentures** (Module companion) — shares are equity instruments, debentures are debt; the loss on issue of debentures is written off against Securities Premium over the term, a use not allowed for share capital losses.
+- **Forfeiture of Shares vs Surrender of Shares** — surrender is permitted only if the Articles expressly provide for it (and only to the extent shares are forfeited); it is otherwise illegal.
+- **Buy-back of Shares (Sec. 68–70)** — only free reserves + securities premium + fresh issue proceeds may be used, with the **Capital Redemption Reserve** route replacing the face value of shares bought back.
+- **Accounting Standards** — Ind AS 32 classifies financial instruments; Ind AS 109 applies if any receivable component is financial in nature (rare for pure share capital).
 
-*"XYZ Ltd. issued 50,000 equity shares of ₹10 each at a premium of ₹5 per share. The issue was payable as: ₹3 on application, ₹7 on allotment (including premium), ₹3 on first call, and ₹2 on final call. Applications were received for 70,000 shares and the company made a pro-rata allotment to all eligible applicants. The excess application money was refunded. All calls were duly received except for 500 shares on which the first call remained unpaid. These 500 shares were forfeited and later reissued at ₹8 per share fully paid."*
+#### Advanced Practice Prompts
 
-Required: Journalise all transactions.
+1. **Pro-rata with underwriting twist:** A Ltd. issued 1,00,000 shares; applications received for 90,000. Underwriters A, B and C agreed to underwrite 40,000, 35,000 and 25,000 shares respectively, with firm underwriting of 5,000, 3,000 and 2,000. Compute each underwriter's net liability, assuming marked applications are 30,000 (A), 25,000 (B), 20,000 (C).
+2. **Forfeiture-reissue with premium reconstruction:** B Ltd. forfeited 2,000 shares (₹10 called up, ₹5 premium unpaid, ₹7 per share received) and reissued 1,500 at ₹8 per share as fully paid. Show the Capital Reserve transferred and the entries in the Books of B Ltd.
 
-Approach: Draw a timeline, calculate amounts at each stage, identify the debit/credit accounts, then write entries. The key insight for forfeiture entries: the Share Capital A/c is debited with the called-up amount (₹10 per share × 500 shares = ₹5,000) not the face value × number of shares.
+> 💡 **High-Yield Revision Hook:** Before writing any journal, ask four questions — (1) At par or premium? (2) Any arrears/advance? (3) Is forfeiture involved? (4) Schedule III disclosure needed? This four-step filter prevents 80% of entry-related mistakes in the exam hall.
 
-**Common Mistakes to Avoid:**
-1. Confusing "called-up capital" with "paid-up capital" — called-up is what the company has asked for; paid-up is what has actually been received
-2. Forgetting that securities premium is a separate reserve and cannot be used for dividend distribution
-3. Recording the wrong amount in Share Forfeiture A/c — it should equal the amount received over the called-up portion at the time of original issue
-4. In pro-rata situations, incorrectly calculating the excess to be refunded — always work from the gross amount received
+---
+
+## Continue your study
+
+- **[View this topic in your CS Executive roadmap](/roadmap/?exam=cs-exec&duration=1mo)** — see where "Issue of Shares" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=cs-exec&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[CS Executive exam overview](/exams/cs-exec/)** — pattern, eligibility, and syllabus
+- **[All Accounting notes](/notes/cs-exec/accounting/)** — browse sibling topics in this subject
+
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

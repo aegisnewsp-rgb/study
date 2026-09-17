@@ -8,7 +8,7 @@ topicName: "Financial Markets in India"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-17"
 ---
 
 # Financial Markets in India
@@ -16,218 +16,116 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-- **Money Market**: Short-term funds market (< 1 year); instruments: Call money, T-bills (< 1 year), Commercial Paper (CP), Commercial Bills, Certificates of Deposit (CD)
-- **Capital Market**: Long-term funds market (> 1 year); instruments: Equity shares, debentures/bonds, mutual funds, derivatives
-- **SEBI**: Founded 1992; regulates capital markets; 3-tier system: Primary Market, Secondary Market, Market Intermediaries
-- **NSE (National Stock Exchange)**: 1992; first dematerialised exchange; Nifty 50 (benchmark index); owned by NSE Group
-- **BSE (Bombay Stock Exchange)**: 1875; oldest Asian stock exchange; Sensex (30 stocks); owned by BSE Ltd
-- ⚡ Nifty has 50 stocks; Sensex has 30 stocks — frequently tested
+A **financial market** is a regulated platform that channels funds from savers to borrowers. In India, this system is split into the **Money Market** (instruments maturing ≤ 1 year) and the **Capital Market** (instruments maturing > 1 year). Two regulators dominate: **RBI** controls the money market, banking, and forex; **SEBI** (statutory body under the SEBI Act 1992) controls securities, stock exchanges, mutual funds, and FPIs.
+
+| Segment | Regulator | Typical Instruments | Tenor |
+|---|---|---|---|
+| Money Market | RBI | T-Bills, Call Money, CP, CD | ≤ 1 year |
+| Capital Market (Primary) | SEBI | IPO, FPO, Rights, Bonus | Long-term |
+| Capital Market (Secondary) | SEBI | Trades on BSE, NSE | Long-term |
+| Forex Market | RBI | Spot, Forward, Swaps | Tenor-free |
+| Derivatives Market | SEBI (since 2015) | Futures, Options | Tenor-free |
+
+> 💡 **High-Yield Memory Hook:** **"R-M-S-I-P"** — *RBI = Rupees (money/forex), SEBI = Stocks & Securities, IRDA = Insurance, PFRDA = Pension, FMC (now merged) = Forward Markets.* If a question mentions shares, debentures, IPOs, mutual funds, or stock exchanges — answer **SEBI**.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-## Financial Markets in India
+#### Structure of Indian Financial Markets
 
-Financial markets are the backbone of any modern economy, enabling the flow of funds between savers and borrowers. For SBI PO, a thorough understanding of India's money market, capital market, and regulatory structure is essential.
+The Indian financial system has four interlocking segments. **Money market** instruments finance working-capital needs and have treasury durations typically under one year. **Capital market** instruments finance long-term investment and are issued as equity or debt. The **Forex (Foreign Exchange) Market** converts one currency into another at spot or forward rates under FEMA 1999. The **Derivatives Market** offers futures and options on underlying assets such as indices, stocks, currencies, and commodities (since 2015, the erstwhile Forward Markets Commission is merged into SEBI).
 
-## Classification of Financial Markets
+#### Primary vs Secondary Market
 
-### By Maturity of Instruments:
-- **Money Market**: Short-term (< 1 year) — liquidity management
-- **Capital Market**: Long-term (> 1 year) — investment and capital formation
+The **Primary Market** is where companies raise *fresh* capital. Methods include IPO, FPO, Rights Issue, Bonus Issue, Offer for Sale (OFS), and IDRs. SEBI's **ICDR Regulations 2018** govern this segment. Pricing is done either through **Fixed Price** (company sets a single price) or **Book Building** (price discovered via investor bidding within a price band).
 
-### By Nature of Transaction:
-- **Primary Market**: New securities issued (IPO, FPO, rights issue)
-- **Secondary Market**: Trading in existing securities (stock exchanges)
+The **Secondary Market** is where *already-issued* securities trade between investors on stock exchanges. **BSE** (established 1875, Asia's oldest) trades the **SENSEX** — 30 companies with a base value of 100 in 1978–79. **NSE** (established 1992) trades the **NIFTY 50** — 50 companies with a base value of 1000 in 1995–96.
 
-## Money Market
+#### Concept Comparison Matrix — Easily Confused Pairs
 
-The money market deals in short-term funds and provides liquidity to the financial system. It is primarily an institutional market — banks and financial institutions are the main participants.
+| Concept A | Concept B | Key Distinction |
+|---|---|---|
+| FII | FPI | FII route abolished in 2014; replaced by FPI Regulations 2019 |
+| ADR / GDR | IDR | ADR/GDR issued *by Indian firms* abroad; IDR issued *by foreign firms* in India |
+| Commercial Paper | Certificate of Deposit | CP issued by corporates (TNW ≥ ₹5 cr); CD issued by banks/FIs |
+| Call Money | Notice Money | Call = overnight to 15 days; Notice = up to 14 days (both uncollateralised) |
+| Repo | Reverse Repo | Repo = RBI *lends* to banks; Reverse Repo = RBI *borrows* from banks |
+| CRR | SLR | CRR = cash with RBI; SLR = cash + gold + G-Secs (set in % of NDTL) |
+| SENSEX | NIFTY | 30 stocks vs 50 stocks; base 100 (1978-79) vs 1000 (1995-96) |
+| Book Building | Fixed Price | Bidding discovery vs company-set price |
 
-### Key Money Market Instruments:
+#### Yield Formulas with SI Units
 
-#### 1. Call Money / Notice Money / Term Money
-- **Call Money**: Overnight borrowing/lending (repaid on demand/next day)
-- **Notice Money**: 2-14 days
-- **Term Money**: 15 days to 1 year
-- **Participants**: Banks only (interbank market); RBI prescribes limits
+- **Treasury Bill Discount Yield:** $Y = \dfrac{(100 - P)}{100} \times \dfrac{365}{t} \times 100$, where $P$ = issue price in ₹ per ₹100 face value and $t$ = days to maturity (dimensionless ratio, result in % per annum).
+- **Commercial Paper Discount Yield:** $Y = \dfrac{(F - P)}{F} \times \dfrac{360}{t} \times 100$, where $F$ = face value in ₹, $P$ = discounted price in ₹, $t$ = days (result in % per annum).
+- **Bond Current Yield:** $CY = \dfrac{\text{Annual Coupon}}{\text{Current Price}} \times 100$, both in ₹ (result in %).
+- **Market Capitalisation:** $MC = N \times P$, where $N$ = outstanding shares (dimensionless), $P$ = market price per share in ₹ (result in ₹).
+- **P/E Ratio:** $PE = \dfrac{\text{Market Price}}{\text{EPS}}$ (dimensionless).
 
-#### 2. Treasury Bills (T-Bills)
-Government of India short-term borrowing instruments.
+#### 🎯 Exam-Level Worked Problem
 
-**Types**:
-- **91-day T-Bill**: Most liquid; auctioned weekly
-- **182-day T-Bill**: Auctioned fortnightly
-- **364-day T-Bill**: Auctioned fortnightly
+**Question:** A company issued a 91-day Treasury Bill at ₹98.40 per ₹100 face value. Compute the discount yield (banking convention) and identify the *incorrect* statement from the following:
+(a) T-Bills are issued by GoI
+(b) T-Bills carry a coupon rate
+(c) T-Bills are money-market instruments
+(d) T-Bills are settled by RBI
 
-**Discount Rate**: Sold at discount to face value; interest = face - purchase price
-**Example**: ₹100 face value, 91-day T-Bill at 5% discount → price = ₹98.77; maturity = ₹100
+**Solution:** Using $Y = \dfrac{(100 - 98.40)}{100} \times \dfrac{365}{91} \times 100 = 1.60 \times 4.01099 \approx \mathbf{6.42\%}$ per annum.
 
-**Held by**: Banks, FIIs, RBI (through open market operations)
+(a), (c), (d) are correct — GoI issues T-Bills, they are money-market instruments (≤ 365 days), and RBI auctions and settles them on the E-Kuber platform. Statement (b) is wrong because **T-Bills are zero-coupon instruments** — they are issued at a discount and redeemed at face value, with no periodic coupon paid.
 
-#### 3. Commercial Paper (CP)
-Short-term unsecured promissory notes issued by large corporations to raise funds.
-
-- **Tenure**: 7 days to 1 year (typically 30-90 days)
-- **Denomination**: ₹5 lakh minimum
-- **Rating Mandatory**: Credit rating required (indicates creditworthiness)
-- **Issue Price**: Discounted (like T-bills)
-
-#### 4. Certificates of Deposit (CD)
-Short-term borrowing by banks.
-
-- **Issued by**: Commercial banks (CDs from RBI's subsidiary — SIDBI/EXIM Bank are called Taxable Bonds)
-- **Tenure**: 7 days to 1 year
-- **Denomination**: ₹1 lakh minimum
-- **Transferable**: Yes (unlike fixed deposits)
-- **Interest**: Either discount or coupon form
-
-#### 5. Commercial Bills
-Bills of exchange drawn by seller on buyer; discounted by banks.
-
-- Seller draws bill → Buyer accepts → Seller discounts with bank → Buyer pays at maturity
-
-### Interbank Participation Certificates (IBPC)
-- Banks can lend to other banks through IBPC with repoable securities
-
-### Repo and Reverse Repo
-- **Repo**: Borrow short-term using securities as collateral
-- **Reverse Repo**: Lend short-term using securities as collateral
-- Rate is slightly above or below the repo rate
-
-## Capital Market
-
-The capital market facilitates long-term investment and capital formation.
-
-### Primary Market (New Issues)
-
-#### 1. Initial Public Offering (IPO)
-First-time public issue of shares by a company.
-
-**Process**:
-1. Company appoints investment banker (lead manager)
-2. Draft Red Herring Prospectus (DRHP) filed with SEBI
-3. Roadshow to attract investors
-4. Issue opens; subscription period (3-7 days)
-5. Allotment; listing on exchange
-
-**Types of Issues**:
-- **Fixed Price**: Issue price announced in advance
-- **Book Building**: Price discovered through bidder demand (band published, investors bid within band)
-- **Combined**: Book building with a floor price
-
-#### 2. Follow-on Public Offer (FPO)
-Companies already listed issue additional shares.
-
-#### 3. Rights Issue
-Existing shareholders get right to buy additional shares (pro-rata basis).
-
-#### 4. Private Placement
-Securities sold to select group (qualified institutional buyers, QIBs) rather than public.
-
-### Secondary Market
-
-#### Stock Exchanges
-
-**NSE (National Stock Exchange)**:
-- Established 1992; started operations 1994
-- First exchange with electronic trading (screen-based)
-- **Nifty 50**: Benchmark index (50 stocks)
-- **Nifty Bank**: Index of banking stocks
-- Owned by NSE Group; dematerialised (electronic) trading
-
-**BSE (Bombay Stock Exchange)**:
-- Founded 1875; oldest stock exchange in Asia
-- **Sensex (Sensitive Index)**: 30 stocks (large-cap)
-- Listed on BSE itself (first Indian company to list on its own exchange)
-
-**MCX (Multi Commodity Exchange)**: Commodity derivatives
-**NCDEX (National Commodity and Derivatives Exchange)**: Agricultural commodities
-**NSE IX (NSE International Exchange)**: For overseas investors
-
-### Market Indices
-
-| Index | Exchange | Stocks | Type |
-|-------|----------|--------|------|
-| Nifty 50 | NSE | 50 | Large-cap |
-| Sensex | BSE | 30 | Large-cap |
-| Nifty 100 | NSE | 100 | Broad market |
-| Nifty 200 | NSE | 200 | Broad market |
-| Nifty Bank | NSE | 12 | Sectoral |
-
-### Derivative Markets
-
-#### Futures and Options
-
-**Futures**: Agreement to buy/sell at a future date at a predetermined price
-**Options**: Right (not obligation) to buy (call) or sell (put) at a future date
-
-- **Stock Futures/Options**: Individual stock derivatives
-- **Index Futures/Options**: Nifty, Bank Nifty, Sensex derivatives
-- **Currency Derivatives**: USD-INR, EUR-INR, etc.
-- **Interest Rate Futures**: G-Sec futures
-
-### Market Participants
-
-- **FIIs (Foreign Institutional Investors)**: SEBI-registered foreign portfolio investors
-- **DIIs (Domestic Institutional Investors)**: Indian mutual funds, insurance companies, banks
-- **Retail Investors**: Individual investors
-- **Speculators/Traders**: Prop trading desks
-
-### Credit Rating Agencies in India
-
-- **CRISIL**: First credit rating agency in India (1990); global operations
-- **ICRA (Investment Information Centre of India)**: Now part of Moody's
-- **CARE Ratings**: Major Indian rating agency
-- **India Ratings (Fitch)**: Part of Fitch Group
-- **Brickwork Ratings**: Newer entrant
-
-**Rating Scale** (highest to lowest investment grade):
-AAA → AA → A → BBB (investment grade)
-BB → B → CCC → CC → C → D (speculative grade)
+> ⚠️ **Examiner Trap:** Many candidates confuse **T-Bills (zero-coupon, discount instruments)** with **dated G-Secs (which DO carry a fixed coupon paid semi-annually)**. If a question shows a 91/182/364-day maturity with a discount price, recall the discount-yield formula and remember: *no coupon*.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-## SEBI — Structure and Functions
+#### Monetary Policy Rates and the Liquidity Framework
 
-### Establishment
-SEBI established on April 12, 1992, under SEBI Act, 1988 (became fully functional 1992).
+RBI's policy corridor anchors short-term rates. The standing rates (verify current values in the latest RBI Monetary Policy Statement before the exam) typically follow the order: **SDF (lowest) ≤ Reverse Repo ≤ Repo ≤ MSF (highest)**. **CRR** is the share of a bank's demand and time liabilities (NDTL) that must be maintained as cash with RBI — currently set at a level verified against the latest RBI Master Circular. **SLR** is the share of NDTL to be held as cash, gold, or government securities.
 
-### SEBI's Three-Tier Structure:
-1. **Board Members**: Chairoperson, members from RBI, Finance Ministry, legal experts
-2. **Executive**: Whole-time members for different divisions
-3. **Office**: Regional offices in Mumbai (HQ), Delhi, Chennai, Kolkata
+Banks facing liquidity shortages borrow under the **Marginal Standing Facility (MSF)** at a penal spread; banks with surplus funds place them under the **Standing Deposit Facility (SDF)** introduced in 2022. **Open Market Operations (OMOs)** and **Variable Rate Reverse Repo (VRRR)** auctions are finer instruments. Always cross-check the *current* rate/CRR/SLR figures from the latest RBI press release — these are reset every two months in the Monetary Policy Committee (MPC) meeting.
 
-### SEBI's Regulatory Functions:
-- **Capital Markets**: Stock exchanges, brokers, sub-brokers
-- **Mutual Funds**: Regulations, product approval
-- **Primary Market**: IPO guidelines, disclosure norms
-- **Takeovers**: SEBI (Substantial Acquisition of Shares and Takeovers) Regulations, 2011
-- **Insider Trading**: SEBI (Prohibition of Insider Trading) Regulations, 2015
+#### SEBI's Three Functions ("Three Fs")
 
-### Investor Protection
-- **SEBI Complaints and Redressal System (SCORES)**: Online portal for complaint handling
-- **Investor Grievance Redressal Committees**
-- **Investor Awareness Programs**
+1. **Protective** — investor protection, prohibition of insider trading and fraud.
+2. **Regulatory** — registration of intermediaries, disclosure norms, takeover code.
+3. **Developmental** — promoting corporate restructuring, training, NIMZs.
 
-## Market Capitalisation
+Important legislation SEBI enforces: **SEBI Act 1992, Securities Contracts (Regulation) Act 1956, Depositories Act 1996, Companies Act 2013, PMLA 2002, FEMA 1999, Insider Trading Regulations 2015, LODR Regulations 2015, ICDR Regulations 2018, FPI Regulations 2019**.
 
-- **Market Capitalisation** = Share price × Number of shares outstanding
-- **Free Float Market Capitalisation**: Market cap excluding promoter holdings (more representative)
-- **NSE**: World's 10th largest by market cap (as of 2024)
-- India's market cap-to-GDP ratio (Buffett Indicator): ~100-120% (high growth market)
+#### Advanced Traps and Edge Cases
 
-## Dematerialisation (Demat)
+1. **FII vs FPI confusion (post-2014):** FII route is closed; FPI is governed by SEBI (FPI) Regulations 2019. Reporting is via DDPs (Designated Depository Participants), not via RBI's old FII route.
+2. **P-Notes (offshore derivative instruments):** issued by SEBI-registered FPI sub-accounts to foreign investors; RBI/SEBI have tightened disclosure norms over time — verify the current P-Note regime before the exam.
+3. **CP eligibility:** corporates with tangible net worth of at least ₹5 crore, working-capital borrowing limit of ₹100 crore, and a credit rating from a registered CRA. CD eligibility: scheduled commercial banks and FIs, FIs, primary dealers.
+4. **Repo transactions** in government securities occur on the **NDS-OM (Negotiated Dealing System — Order Matching)** platform; corporate-bond repo is now permitted under the RBI 2020 framework.
+5. **GIFT-IFSC** in Gandhinagar hosts an International Financial Services Centre; INX (India International Exchange) is India's first international exchange situated there, operating in a different time zone from domestic exchanges.
+6. **NSDL was set up in 1996** as the first depository; **CDSL** followed. Both are regulated by SEBI under the Depositories Act 1996. **DEMAT accounts** are opened through Depository Participants (DPs), not directly with the depository.
+7. **Mutual Fund categorisation (SEBI 2017 circular):** Equity, Debt, Hybrid, Solution-Oriented, Index Funds/ETFs, Fund of Funds. Each scheme must follow the defined category mandate — verify the latest scheme categorisation circular for current definitions.
 
-- Shares held in electronic form (not physical share certificates)
-- **Depositories**: NSDL (National Securities Depository Ltd) and CDSL (Central Depository Services Ltd)
-- **Depository Participants (DPs)**: Agents (banks, brokers) providing demat services
-- **Trading and Settlement**: T+1 settlement cycle (since 2024, India moved from T+2 to T+1)
+#### SBI PO Exam Strategy for This Topic
+
+- Weightage: ~3% of General Awareness; expect **2–4 MCQs** in SBI PO Prelims/Mains.
+- High-frequency sub-topics: SEBI functions, RBI vs SEBI jurisdiction, SENSEX/NIFTY base values, CRR/SLR definitions, FII→FPI transition, CP/CD eligibility, repo mechanics.
+- Question formats: factual MCQs, match-the-following (regulator ↔ instrument), and assertion-reason pairs.
+- Time-per-question: 30–45 seconds; skip only if you cannot eliminate two options.
+
+#### Two Advanced Practice Prompts
+
+1. **Assertion-Reason:** *Assertion (A):* P-Notes are considered a route for stealth FPI inflows. *Reason (R):* P-Notes allow foreign investors to take Indian equity exposure without registering directly with SEBI. Decide on A and R individually and the relationship between them, citing the regulatory change.
+2. **Numerical:** A bond with face value ₹1,000 and annual coupon ₹90 trades at ₹950. Compute the current yield. If the market price falls to ₹900, what happens to the current yield — and why does this NOT equal the YTM?
 
 ---
+
+## Continue your study
+
+- **[View this topic in your SBI PO roadmap](/roadmap/?exam=sbi-po&duration=1mo)** — see where "Financial Markets in India" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=sbi-po&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[SBI PO exam overview](/exams/sbi-po/)** — pattern, eligibility, and syllabus
+- **[All General Awareness notes](/notes/sbi-po/general-awareness/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

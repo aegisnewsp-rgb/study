@@ -18,97 +18,103 @@ generated: "2026-03-25T17:00:00"
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-The Directive Principles of State Policy (DPSP) are the non-justiciable guidelines in **Part IV (Articles 36–51)** of the Indian Constitution. They instruct the State to pursue social, economic and political justice while framing laws, and they borrow heavily from the **Irish Constitution** (and partly from the Weimar Republic and the USSR planning model).
+Directive Principles of State Policy (DPSP) are the non-justiciable guidelines listed in **Part IV (Articles 36–51)** of the Indian Constitution. They instruct the State on policy directions to build social, economic and political justice, framing India as a **Welfare State**.
 
-- **Socialist principles** — Articles 38(2), 39, 39A, 41, 42, 43, 43A, 47. They aim at equitable distribution of wealth and workers' welfare.
-- **Gandhian principles** — Articles 40, 43, 46, 47, 48. They reflect village republics, cottage industries, prohibition and cow protection.
-- **Liberal-Intellectual principles** — Articles 44, 45, 48, 48A, 48B, 50, 51. They cover Uniform Civil Code, free education, environment, judicial separation and international peace.
-- **Justiciability** — Fundamental Rights are enforceable in court; DPSP are not, but courts read Article 21 expansively to give them indirect teeth.
-- **Article 36** defines "State" for DPSP as the Government and Parliament of India, State Governments, Legislatures and all local or other authorities — wider than Article 12.
-
-> 💡 **High-Yield Memory Hook:** **"SGL = Socialist, Gandhian, Liberal-Intellectual"** — Ambedkar's three-fold classification. Remember **"40 = Panchayat (Gandhian)"**, **"44 = UCC (Liberal)"**, **"48 = Cow (Gandhian)"** — UPSC and UPPSC frequently test article-to-ideology mapping.
-
-| Article | Principle | Ideology |
+| Term | Article | What it directs |
 |---|---|---|
-| 40 | Village Panchayats | Gandhian |
-| 44 | Uniform Civil Code | Liberal-Intellectual |
-| 48 | Organisation of agriculture & cow protection | Gandhian |
-| 48A | Protection of environment | Liberal-Intellectual |
-| 51 | Promotion of international peace | Liberal-Intellectual |
+| State definition | 36 | Includes Government, Parliament, Legislature, all local authorities |
+| Equal pay, justice | 39 | Social, economic and political justice; living wage |
+| Panchayats | 40 | Village Panchayats as units of self-government |
+| Uniform Civil Code | 44 | Code applicable to all religious communities |
+| Cow protection | 48 | Organise agriculture, protect cows and calves |
+| International peace | 51 | Promote just and honourable relations between nations |
+
+> 💡 **High-Yield Memory Hook:** **"S-G-L-I 36-51"** — Socialist (38-43A), Gandhian (40, 43, 46-48), Liberal-Intellectual (44, 45, 48A, 48B, 50, 51), all wrapped between Articles 36 and 51.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-#### Sources and Constitutional Position
-The framers borrowed the DPSP concept from **Article 45 of the Irish Constitution**, the idea of fundamental rights partly from the **Weimar Constitution**, and the planning flavour from the **Soviet (USSR) model**. They sit in Part IV (Arts. 36–51), outside the justiciable envelope of Part III. Article 36 gives a wider definition of "State" than Article 12 — expressly including the Government of India, Parliament, State Governments and Legislatures, and all local or other authorities within Indian territory.
+#### Origin and Constitutional Placement
+DPSP were drafted under the chairmanship of **S.N. Mukherjee** in the Constituent Assembly, borrowing primarily from the **Irish Constitution** (which borrowed from the Spanish Constitution). The Weimar Constitution influenced the Fundamental Rights chapter, and Soviet planning models inspired the economic-justice cluster. Part IV was designed to be **non-justiciable** — courts cannot strike down a law merely for violating a Directive, but courts read DPSP into Fundamental Rights during interpretation.
 
-#### Ambedkar vs Sirolkar Classification
-Dr. B.R. Ambedkar grouped the principles into three streams for easy exam recall. Sirolkar later provided an alternative ideological categorisation, but UPPSC and UPSC consistently frame MCQs around Ambedkar's three-fold split.
+#### Ambedkar's Three-Fold Classification
+Dr. B.R. Ambedkar grouped the principles ideologically:
+- **Socialist** — Articles 38(2), 39, 39A, 41, 42, 43, 43A, 47 (state ownership, livelihood, work conditions).
+- **Gandhian** — Articles 40, 43, 46, 47, 48 (village republic, cottage industries, prohibition, cow protection).
+- **Liberal-Intellectual** — Articles 44, 45, 48, 48A, 48B, 50, 51 (UCC, education, environment, judicial separation, peace).
 
-#### Concept Comparison Matrix
+#### Fundamental Rights vs DPSP — Comparison Matrix
 
-| Feature | Fundamental Rights (Part III) | DPSP (Part IV) | Fundamental Duties (Part IVA) |
-|---|---|---|---|
-| Articles | 12–35 | 36–51 | 51A |
-| Nature | Justiciable | Non-justiciable | Non-justiciable |
-| Apply to | State | State | Citizens |
-| Source | USA (mainly) | Ireland | USSR (inspired) |
-| Enforceability | Writ jurisdiction | Indirect via Art. 21 | Moral obligation |
-| Added by | Original Constitution | Original (47th, 86th, 97th added more) | 42nd Amendment, 1976 |
+| Feature | Fundamental Rights (Part III) | DPSP (Part IV) |
+|---|---|---|
+| Nature | Justiciable | Non-justiciable |
+| Applies to | State and citizens | State alone |
+| Source | USA (Bill of Rights) | Irish Constitution |
+| Enforceability | Courts can issue writs | Courts cannot strike down law |
+| Negative vs Positive | Negative (restrain State) | Positive (direct State action) |
+| Suspension | During Emergency (except Art 20, 21) | Never suspended |
+| Conflict resolution | Champakam Dorairajan, Golaknath, Kesavananda, Minerva Mills | Same line of cases |
 
-#### FR vs DPSP — The Constitutional Saga
-- **Champakam Dorairajan (1951)** — Madras reservation order struck down; Court ruled FR prevail over DPSP.
-- **25th Amendment (1971)** — Added Article 39(b) and 39(c), shielded laws giving effect to these two clauses from Article 13(2).
-- **42nd Amendment (1976)** — Tried to make DPSP "fundamental in governance" and placed Articles 39(b)(c) above FR.
-- **Minerva Mills (1980)** — Struck down the blanket supremacy clause; the basic structure doctrine prevents any one part from annihilating another.
-- **Unni Krishnan (1993)** and **Vishaka (1997)** — Courts used DPSP to expand Article 21 (Right to Life) to include education and dignity at work.
+#### Conflict Cases and Constitutional Amendments
+- **Champakam Dorairajan (1951)** — Madras reservation order held void against Art 15(1); Court ruled FR prevail over DPSP.
+- **25th Amendment (1971)** — Added Art 39(b)(c) and inserted Art 31C immunising those clauses from Art 13 attack.
+- **42nd Amendment (1976)** — Placed DPSP above FR; added Art 48A (Environment), Art 48B (Judicial separation).
+- **Minerva Mills (1980)** — Struck down the blanket supremacy of DPSP over FR; harmony, not subordination.
+- **44th Amendment (1978)** — Removed Right to Property from Art 19(1)(f); created Art 300A.
+- **86th Amendment (2002)** — Added Art 21A and modified Art 45 for free and compulsory education (6–14 years).
+- **97th Amendment (2011)** — Added Art 43B to promote cooperative societies.
 
 #### 🎯 Exam-Level Worked Problem
-**Question:** "Consider the following statements about Directive Principles of State Policy: (1) They are borrowed from the Irish Constitution. (2) Article 40 relating to Panchayats is a Gandhian principle. (3) The 42nd Amendment placed all Directive Principles above Fundamental Rights. Which of the above is/are correct?"
-(a) 1 and 2 only
-(b) 2 and 3 only
-(c) 1, 2 and 3
-(d) 1 only
+**Question:** Which of the following Directive Principles is correctly matched with its source inspiration?
 
-#### Solution:
-Statement (1) is correct — DPSP were primarily borrowed from the Irish Constitution.
-Statement (2) is correct — Article 40 (Panchayats) is the textbook Gandhian principle.
-Statement (3) is incorrect — only Articles 39(b) and 39(c) were elevated by the 42nd Amendment; Minerva Mills (1980) struck down any general supremacy claim.
+1. Uniform Civil Code (Art 44) — Gandhian
+2. Cottage Industries (Art 43) — Liberal-Intellectual
+3. Panchayats (Art 40) — Gandhian
+4. Environment (Art 48A) — Socialist
 
-#### Answer: (a) 1 and 2 only.
+**Solution:** Option 3 is correct.
+- (1) is wrong: **Art 44 UCC is Liberal-Intellectual**, not Gandhian.
+- (2) is wrong: **Art 43 cottage industries is Gandhian**, not Liberal-Intellectual.
+- (4) is wrong: **Art 48A (added by 42nd Amendment, 1976) is Liberal-Intellectual**, not Socialist.
+- (3) is right: **Art 40 on village Panchayats reflects Gandhian Gram Swaraj**, matching Ambedkar's classification.
 
-> ⚠️ **Examiner Trap:** Students regularly pick option (c) because the 42nd Amendment is famous for "DPSP supremacy." Read the wording carefully — only 39(b) and 39(c) were protected, not the entire Part IV.
+> ⚠️ **Examiner Trap:** Students commonly tag Articles 44 and 48A as "Gandhian" because the wording sounds traditional. UCC and Environment were added through the 42nd Amendment precisely because they reflect Liberal-Intellectual thinking (modernisation and ecology), not Gandhian ruralism.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-#### Advanced Traps and Exceptions
+#### "State" under Article 36 vs Article 12
+Article 36 expands the term **State** beyond Article 12 to expressly cover the Government and Parliament of India, the Government and Legislature of each State, and **all local or other authorities** within the territory of India. This wider definition matters when applying Article 31C immunity or testing whether a Directive binds a private body receiving state funding.
 
-1. **Anti-Injunction clauses (Article 39(e) and 39(f))** were inserted by the **47th Amendment (1984)** on land ceiling and state acquisition — often misattributed to the original Constitution.
-2. **Article 21A (free and compulsory education for children aged 6–14)** was added by the **86th Amendment (2002)**, simultaneously converting the old Article 45 into one dealing with early childhood care (Anganwadi focus). Mixing the two is a common error.
-3. **Article 43B (cooperatives)** came via the **97th Amendment (2011)** — a very recent addition often missed by aspirants.
-4. **Article 48B** (separation of judiciary from executive) was added by the **44th Amendment (1978)**. It is Liberal-Intellectual, NOT Gandhian.
-5. **Right to Property** — Originally a Fundamental Right under Article 31, deleted by the 44th Amendment and made a legal right under Article 300A; the old Article 31 was repealed. Any MCQ that still lists Article 31 among FR is outdated.
-6. **Article 36 "State" vs Article 12 "State"** — Both look similar, but Article 36 is broader: it explicitly names the Government and Parliament of India, while Article 12 lists specific instrumentalities. UPSC has previously tested this subtle distinction.
+#### Amendment-Article Cross Reference
 
-#### Edge Cases and Boundary Conditions
-- A DPSP-aligned law can override a Fundamental Right only if it falls under Article 31C's shelter (post-25th Amendment), and that shelter is now confined to Articles 39(b) and 39(c) after Minerva Mills.
-- The "non-justiciable" label is a legal fiction in operation — courts routinely cite DPSP to interpret vague FR (Article 14 reasonableness, Article 19 reasonable restrictions, Article 21 dignity).
-- Some directives (e.g., Article 47 prohibition) demand phased implementation; the State is judged on effort, not result.
+| Amendment | Year | Article touched | Subject |
+|---|---|---|---|
+| 25th | 1971 | 39(b)(c), 31C | State acquisition/distribution |
+| 42nd | 1976 | 48A, 48B, 51A | Environment, judicial separation, Fundamental Duties |
+| 44th | 1978 | 300A (new), 19(1)(f) deleted | Right to Property shifted out of FR |
+| 86th | 2002 | 21A, 45 | Free and compulsory child education |
+| 97th | 2011 | 43B | Cooperative societies |
 
-#### Connections to Adjacent Topics
-- **Fundamental Rights (Part III)** — inseparable from DPSP study; always compare in Prelims.
-- **Fundamental Duties (Part IVA, Art. 51A)** — added by 42nd Amendment; citizen-side counterpart of DPSP.
-- **Constitutional Amendments (25th, 42nd, 44th, 86th, 97th)** — keep a one-line summary for each.
-- **Welfare State vs Liberal State debate** — Ambedkar argued DPSP make India a welfare state; Tilak and Nehru's perspectives differ.
+#### Advanced Traps and Edge Cases
 
-#### Two Advanced Practice Prompts
-1. **Assertion-Reason:** "Assertion (A): Article 40 is a Gandhian principle of DPSP. Reason (R): It seeks to establish village panchayats as units of self-government." Mark (a) both true and R explains A, (b) both true but R does not explain A, (c) A true R false, (d) A false R true.
-2. **Statement cluster:** Identify which of the following are Liberal-Intellectual principles — (i) Uniform Civil Code, (ii) Cow protection, (iii) Separation of judiciary, (iv) Prohibition, (v) International peace. Answer: (i), (iii) and (v).
+1. **Article 39(f) Anti-Injunction** — added by the **47th Amendment (1984)** — bars courts from granting injunctions in supply-and-distribution essential services, not to be confused with Fundamental Rights remedies.
+2. **DPSP and Preamble** — Article 38(1) repeats the socialist-secular framing of the Preamble, so DPSP operationalise the Preamble's promise.
+3. **Reading DPSP into FR** — *Unni Krishnan (1993)* and *Vishaka (1997)* used DPSP (Art 41, 42, 48A) to widen **Article 21** (Right to Life) into education, livelihood, and safe workplace.
+4. **Sirolkar's Categorisation** — beyond Ambedkar's three groups, Sirolkar arranged the principles by **socialist principle of equality**, **Gandhian principle of protection of the indigenous**, and **Liberal-Intellectual principle of modernisation**.
+5. **Fundamental Duties overlap** — Article 51A duties (Part IVA) apply to **citizens**; DPSP apply to **the State**. Confusing the two is the single most common Prelims error.
+6. **Foreign borrowings** — Ireland contributed Directive Principles; **Weimar (Germany)** contributed suspension of Fundamental Rights during Emergency; **USSR** contributed planning vocabulary in Articles 39(b)(c).
+
+#### Strategic Weightage
+- **UPPSC Prelims**: 1 MCQ almost every paper, usually on Article-to-principle mapping or amendment linkage.
+- **UPPSC Mains GS-II**: Expect a 10–15 mark short note or a 150-word précis on FR vs DPSP conflict, with case-law citations.
+- **Inter-state PSC parity**: UPSC, BPSC, MPPSC and Rajasthan PSC test the same core: Ambedkar classification, Article numbers, Minerva Mills ratio.
+
+> 💡 **High-Yield Revision Hook:** For Article-to-theme recall, picture **Art 40 (Panchayat) and Art 48 (Cow)** as **Gandhi's villages**, **Art 39 (Living wage) and Art 41 (Work) as Nehru's socialism**, and **Art 44 (UCC), Art 48A (Environment), Art 51 (Peace)** as the **Liberal-Intellectual modernisation triad**.
 
 ---
 
@@ -119,5 +125,4 @@ Statement (3) is incorrect — only Articles 39(b) and 39(c) were elevated by th
 - **[UPPSC PCS exam overview](/exams/up-psc/)** — pattern, eligibility, and syllabus
 - **[All Indian Polity notes](/notes/up-psc/indian-polity/)** — browse sibling topics in this subject
 
----
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

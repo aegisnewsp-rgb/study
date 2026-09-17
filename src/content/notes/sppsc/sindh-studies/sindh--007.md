@@ -8,185 +8,100 @@ topicName: Political Movements in Sindh
 weight: 3
 country: pakistan
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-17"
 ---
 
 # Political Movements in Sindh
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+> Rapid summary for last-minute revision before your SPSC exam.
 
-**Political Movements in Sindh** — Key Facts for SPSC (Sindh)
-- Sindh's political history includes resistance to **British colonial rule** (1843–1947) and later movements for **regional autonomy**
-- **G.M. Syed** was the key figure in Sindh's political awakening and advocacy for Muslim rights
-- **Pakistan People's Party (PPP)** was founded in **1967** by Zulfikar Ali Bhutto in Lahore but drew its strength from Sindh
-- **Sindhi nationalism** has been a persistent political theme — demands for greater provincial autonomy
-- ⚡ Exam tip: G.M. Syed's role, PPP's founding, and provincial autonomy movements are high-yield for SPSC
+Sindhi political mobilisation traces from the colonial-era Sindh Muslim League and Bombay Presidency days, through post-1947 linguistic agitation, anti-One-Unit protests, peasant and fisherfolk agitations, and into modern nationalist parties such as JSQM and Sindhudesh.
+
+| Dimension | Defining Feature | Key Example |
+|---|---|---|
+| Cultural-linguistic | Sindhi language rights against Urdu imposition | 1972 Language Bill, Sindhi Cultural Day (Dec 4) |
+| Anti-federal | Resistance to West Pakistan merger | Anti-One-Unit Scheme (1948–1955) |
+| Economic | Resource injustice (gas royalty, Indus water) | Sui gas controversy |
+| Separatist | Demand for independent Sindhudesh | JSQM, Sindhudesh Movement |
+
+Founding figures to remember: G.M. Syed (ideologue), Mian Abdul Wahid Sir Syedna (Hurs), Qazi Faiz Muhammad, Pir Pagaro, Comrade Hyder Bux Jatoi.
+
+> 💡 **High-Yield Memory Hook:** "**S**yed, **S**ir Syedna, **S**ehwan" — the **3 S's** mark Sindh's nationalist trinity: G.M. Syed (secular nationalism), Mian Abdul Wahid Sir Syedna (Hurs spiritual movement), and Shah Abdul Latif Bhittai's shrine region of Sehwan (cultural identity). Pair with the **3 E's** — **E**conomy, **E**thnicity, **E**cology (water) — the three grievance pillars of every Sindhi agitation since 1947.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+> Standard content for students preparing SPSC Sindh Studies over weeks.
 
-**Political Movements in Sindh** — SPSC (Sindh) Study Guide
+#### Key Movements and Their Drivers
 
-## Early Political Awakening (Late 19th–Early 20th Century)
+The Sindh Muslim League, formed under Bombay Presidency in 1938, gave Sindhis their first organised political platform. After 1947, Sindh was merged into the One-Unit Scheme (1948–1955), an administrative fusion of all West Pakistan provinces designed to counter Punjabi numerical majority. Sindhi leaders, fearing cultural erasure, launched sustained resistance, led by G.M. Syed and later by the JSQM (founded 1972) and Sindhudesh Liberation Movement.
 
-### Pre-Annexation Politics
-- Before the **1843 British conquest**, Sindh was ruled by the **Talpur Mirs**
-- The Talpur dynasty established **Hyderabad** as their capital in 1783
-- After British annexation, political consciousness emerged through **Islamic reform movements**
+The Sindhi language movement unfolded in distinct phases: the 1947–48 script-choice debate (Devanagari vs Arabic), the 1972 Official Language Bill under Bhutto, and the 1990s revival demanding Sindhi-language rights in education and official use. Mian Abdul Wahid Sir Syedna's Hurs Movement (a Zikri spiritual-political uprising, 1939–1942) blended anti-British Sufi activism with indigenous Sindhi identity, while the Hari Committee (1969–70) investigated peasant exploitation and laid groundwork for land reforms.
 
-### Islamic Reform Movements
-- **Deobandi movement** (founded 1867 in Deoband, Uttar Pradesh) spread to Sindh
-- **Barelvi movement** (popular in South Asia) also had followers in Sindh
-- These movements shaped **Sindhi Muslim political identity**
+#### Concept Comparison Matrix
 
-### Aligarh Movement's Influence
-- **Sir Syed Ahmed Khan's educational movement** influenced Sindhi Muslims
-- **Graduates from Aligarh Muslim University** returned to Sindh and established schools
-- This created the **first politically conscious middle class** in Sindh
+| Movement | Primary Aim | Leader | Period | Outcome |
+|---|---|---|---|---|
+| Hurs Movement | Spiritual autonomy + anti-colonial | Mian Abdul Wahid Sir Syedna | 1939–1942 | Suppressed militarily; later symbol of resistance |
+| Anti-One-Unit | Restore separate Sindh province | G.M. Syed, Pir Pagaro | 1948–1955 | Scheme dissolved 1955 (briefly) then 1970 |
+| Sindhi Language Bill | Sindhi as official language | Qazi Faiz Muhammad, G.M. Syed | 1947–48, 1972 | Sindhi made co-official 1972 |
+| Hari Committee | Peasant land rights | Comrade Hyder Bux Jatoi | 1969–70 | Led to Bhutto's 1972 land reforms |
+| Kalri Lake Agitation | Fishing community displacement | Fisherfolk, Karachi leadership | 1980s–90s | Partial resettlement, lingering grievance |
+| JSQM | Sindhi rights within Pakistan | Bashir Khan Qazi (later) | 1972 onward | Active; electoral participation |
+| Sindhudesh | Secession from Pakistan | Various factions | Post-1971 | Active but suppressed; declared illegal at times |
 
-### Formation of the All India Muslim League (1906)
-- **1906**: Sindhi delegates attended the founding session in Dhaka
-- **Gopal Krishna Gokhale** visited Sindh — early exposure to pan-Indian political movements
-- **Mushirul Haq** and **Moulvi Pir Muhammad** were early Muslim League leaders in Sindh
+#### 🎯 Exam-Level Worked Problem
 
-## Pre-Partition Political Activity
+**Question:** The One-Unit Scheme was opposed in Sindh primarily because:
+(a) It imposed heavy new taxes on Sindhi traders
+(b) It threatened the distinct political identity of Sindh within West Pakistan
+(c) It transferred Sindh's capital from Karachi to Lahore
+(d) It banned the Sindhi language in all government schools
 
-### The Lucknow Pact and Sindh (1916)
-- The **Lucknow Pact (1916)** between Congress and Muslim League was supported by some Sindhi leaders
-- **Sindh Muslim League** was established during this period
+**Solution:** The correct option is **(b)**. The One-Unit Scheme merged all four West Pakistan provinces (Punjab, Sindh, NWFP, Balochistan) into one administrative unit in 1955, ostensibly to balance East Pakistan's population weight. Sindhi leaders, especially G.M. Syed and Pir Pagaro, viewed this as an attempt to drown Sindhi identity under Punjabi-majority rule. The merger reduced Sindh's political voice and representation in federal structures, prompting the 1948–55 agitation.
 
-### The Nehru Report (1928) and Sindh
-- **1928**: The **Nehru Report** (proposed dominion status) was rejected by Muslim League
-- Sindhi leaders expressed concern about Hindu majorities in provincial politics
-- **G.M. Syed** (Ghulam Murtaza Syed) was a leading figure who advocated for separate Muslim representation
+Option (a) is wrong: no new tax is documented as the central trigger. Option (c) is wrong: Karachi remained the provincial capital. Option (d) is wrong: the Sindhi language struggle was a separate, parallel movement (1947–48 and 1972), though connected to identity fears.
 
-### G.M. Syed — Key Political Leader
-- **Born: 1903** in Hyderabad, Sindh; died 1980
-- **Early political career**: joined Indian National Congress (1930s) — advocated for Muslim rights within Congress
-- **Shift to Muslim League**: 1938 — joined the All India Muslim League
-- **Advocate for Sindhi identity**: championed Sindhi language and cultural rights
-- **Advocated for Sindh's separation from Bombay Presidency** — successfully campaigned for the **1936 separation**
-- **Wrote extensively** on Sindhi politics, history, and identity
-- His works remain important references for Sindhi political thought
+> ⚠️ **Examiner Trap:** Many candidates confuse One-Unit's dissolution date with its introduction. It was *created* in 1955 and *dissolved* in 1970 (effective under Yahya Khan), not 1947–48. Marking the early date shows weak command of the timeline.
 
-### Separating Sindh from Bombay Presidency (1936)
-- **23 December 1936**: Sindh became a **separate province**
-- **G.M. Syed** was the leading political figure behind this achievement
-- This was a **defining moment** for Sindhi political consciousness
-- **Significance**: gave Sindhis a provincial platform for political expression
+---
 
-## The Pakistan Movement in Sindh (1940–1947)
+### 🔴 Extended — Deep Study (3mo+)
+> Comprehensive coverage for mastery-level SPSC Sindh Studies preparation.
 
-### Support for the Lahore Resolution (1940)
-- Sindh's **Muslim League** supported the 1940 Lahore Resolution
-- **G.M. Syed** and other Sindhi leaders actively campaigned for Pakistan
+#### Advanced Traps and Edge Cases
 
-### British Policy and the Pakistan Movement
-- The British government initially favored **united India** but accepted partition in 1947
-- Sindh's political elite were largely **pro-Pakistan**
+| Pitfall | Why Students Fail | Correct Handling |
+|---|---|---|
+| Conflating Hurs with secular Sindhi nationalism | Both emerge from rural Sindh | Hurs = spiritual/anti-colonial; G.M. Syed = secular ideologue |
+| Treating Sindhudesh and JSQM as one | Both demand Sindhi rights | JSQM = operates within Pakistan's constitutional framework; Sindhudesh = secessionist, often declared unlawful |
+| Missing the economic dimension | Focus on language only | Gas royalty (Sui), Kalri Lake water disputes, and Indus water allocation are core grievances |
+| Assigning One-Unit to Muslim League Sindh alone | Federal origins overlooked | Cabinet Mission (1946) and Centre's Punjab calculus drove the merger |
+| Treating 1947 riots as movement-based | Communal, not political | Sindhi-Muhajir 1948 conflict is the political trigger, not the partition riots |
 
-### 1947 — Accession to Pakistan
-- **27 January 1947** (before independence): Sindh became the **first province to formally accede to Pakistan**
-- This was significant because it came **before the actual partition**
-- **Sardar Abdur Rashid** was appointed as the **first Governor of Sindh** under the new dispensation
-- **Muhammad Ayub Khuhro** (later Chief Minister) was an early political leader
+#### Adjacent Topic Links
 
-### Post-Partition: Early Political Challenges
-- **Hindu Sindhi exodus** (1947): ~500,000+ Sindhi Hindus migrated to India
-- Significant loss of **professional and commercial class**
-- **Land reforms** attempted to address Zamindari (landlord) system but largely ineffective
+The **Indus Waters Treaty (1960)** with India directly shapes Sindhi economic grievances, as downstream Sindh receives reduced flow. **Muhajir politics in Karachi** (MQM formation 1984) intersects with Sindhi nationalist fears of demographic marginalisation, especially after Partition-era Muhajir settlement in urban Sindh. The **Bhutto land reforms of 1972** are the direct legislative child of the Hari Committee report, a frequently cross-tested linkage.
 
-## Post-Independence Politics — Zulfikar Ali Bhutto and PPP
+#### Economic Grievances Framework
 
-### Zulfikar Ali Bhutto — Rise to Power
-- **Born: 5 January 1928 in Larkana, Sindh** — from a prominent political family
-- **Father: Sir Shah Nawaz Bhutto** — a political leader in British India
-- **Education**: University of California, Berkeley (BA); Christ Church, Oxford (law)
-- **Entered politics**: joined the Pakistan National Congress (1947); later Muslim League
+Sindhi political movements rest on three economic pillars. First, gas extraction royalties: the Sui gas field, located in Balochistan but operated for national grids, generates fiscal flows that bypass producing regions, a complaint that escalated after 1970s pipelines and continues today. Second, Indus water allocation: under the 1991 Water Apportionment Accord, provincial shares are fixed by formula; Sindh has consistently argued its downstream allocation is undermined by upstream infrastructure, leading to the Kalri (Kinjhar) Lake fisherfolk agitation in the 1980s. Third, federal revenue-sharing weights favour Punjab by population, a structural complaint raised during One-Unit and recurring today.
 
-### Pakistan People's Party (PPP) — Founding (1967)
-- **PPP founded on 30 November 1967** in Lahore
-- **Founder**: Zulfikar Ali Bhutto
-- **Ideology**: "Socialism with Islamic characteristics"
-- **Popular slogan**: "Rope of the people" (popular support)
+#### Advanced Practice Prompts
 
-### PPP's Political Philosophy
-- **Populist socialist ideology**: advocated for land reforms, nationalization of industries, workers' rights
-- **Appealed to Sindhi identity and pride**: emphasized rural and working-class support
-- **Criticized Ayub Khan's industrial policies** (benefits to elite only)
+1. **Essay prompt:** Compare the Hurs Movement and the Hari Committee agitation as two distinct models of rural Sindhi mobilisation (1939–1942 vs 1969–70). Examine leadership, ideology, state response, and lasting political legacy.
+2. **Analytical prompt:** To what extent did the One-Unit Scheme's dissolution in 1970 resolve Sindhi political grievances? Argue with reference to subsequent agitations (Kalri Lake, gas royalty, Sindhudesh).
 
-### 1970 Elections — PPP's Victory
-- **December 1970**: General Elections — PPP won **81 of 138 NA seats** (East Pakistan: Awami League won all seats)
-- **West Pakistan**: PPP dominated Punjab, Sindh, NWFP
-- **Bangladesh crisis**: Sheikh Mujibur Rahman's Awami League won all East Pakistan seats → demanded autonomy → Liberation War
+---
 
-### Bhutto's Government (1971–1977)
-- **Zulfikar Ali Bhutto** became **President (1971–1973)** and then **Prime Minister (1973–1977)**
-- **1973 Constitution**: promulgated — most democratic constitution; parliamentary system restored
-- **Land reforms (1972)**: attempted to reduce feudal power — limited impact
-- **Nationalization (1971–1974)**: banks, basic industries, and steel mills nationalized
-- **Relationship with Sindh**: Bhutto was seen as a champion of Sindh's rights; PPP became the dominant party in Sindh
+## Continue your study
 
-### Downfall and Alleged Assassination (1977)
-- **1977 elections**: alleged rigging; protests and turmoil
-- **Army coup (July 1977)**: Zia-ul-Haq took power; Bhutto arrested
-- **Alleged assassination**: Bhutto died on **4 April 1979** (officially suicide; PPP claims assassination)
-- **Benazir Bhutto** (Zulfikar's daughter) became the **PPP's leader**
-
-## Sindhi Nationalism and Autonomy Movements
-
-### Post-Bhutto Period
-- After **Zia's martial law**, Sindhi political consciousness grew
-- **PPP under Benazir Bhutto**: PPP won elections in 1988 and 1993 — PPP remained dominant in Sindh
-- **Sindhi nationalism**: political parties like **Sindh Democratic Alliance** and later **Awami Tehreek-e-Insaf (ATI)** advocated for greater Sindhi rights
-
-### G.M. Syed's Later Politics
-- **G.M. Syed** became increasingly critical of Punjabi dominance and PPP
-- **Advocated for Sindhi self-determination** in his later writings
-- **Founded the Sindh Democratic Alliance** in the 1980s
-
-### 1990s — PPP Dominance with Challenges
-- **Benazir Bhutto** served as PM (1988–1990, 1993–1996)
-- **Nawaz Sharif** (PML-N) from Punjab — tensions between Sindh (PPP) and Punjab (PML-N)
-- **Ethnic riots in Karachi (1990s)**: MQM (Muhajir Qaumi Movement) vs PPP — ethnic tensions
-- **Sindhi nationalists** accused PPP of abandoning Sindhi interests in favor of national politics
-
-## Contemporary Politics in Sindh
-
-### PPP in the 2000s–2020s
-- **Benazir Bhutto assassinated (27 December 2007)**
-- **Asif Ali Zardari** (Benazir's husband) led PPP
-- **Bilawal Bhutto Zardari** (son of Benazir and Asif) now PPP Chairman
-- PPP remains **dominant in Sindh** but faces challenges from **PTI (Imran Khan)**
-
-### Pakistan Tehreek-e-Insaf (PTI) in Sindh
-- **PTI founded 1996** by Imran Khan
-- Made significant inroads in **urban Sindh (Karachi, Hyderabad)** in the 2018 elections
-- **2018 elections**: PTI performed well in Karachi but PPP maintained rural Sindh dominance
-
-### MQM (Mohajir Qaumi Movement)
-- **MQM** emerged in **Karachi (1984)** as a party representing Muhajirs (post-partition migrants from India)
-- Major political force in **urban Sindh (Karachi, Hyderabad)**
-- Involved in **ethnic violence** with PPP in the 1990s–2000s
-- Has seen **split and reconciliation** multiple times
-
-### Current Political Landscape (2023–2024)
-- **PPP-led coalition government** at the center (Shehbaz Sharif, PML-N + PPP)
-- **Sindh provincial government** under PPP (Chief Minister: Murad Ali Shah)
-- **PTI** challenges PPP in urban areas; faces political persecution allegations
-- **Karachi**: major political battleground between PPP, PTI, MQM-P, and PML-N
-
-## SPSC Exam Focus Points
-- **G.M. Syed** was instrumental in **separating Sindh from Bombay Presidency (1936)** — very important
-- **Zulfikar Ali Bhutto** founded PPP in **1967** in Lahore; was from **Larkana, Sindh**
-- **Bhutto's death**: 4 April 1979 (officially suicide; PPP claims assassination)
-- **Sindh was the first province to accede to Pakistan (27 January 1947)**
-- **Benazir Bhutto** was assassinated on **27 December 2007**
-- **Bilawal Bhutto Zardari** is the current PPP Chairman
-- **MQM** is a Karachi-based party representing the **Muhajir community** (post-1947 migrants from India)
+- **[View this topic in your SPSC (Sindh) roadmap](/roadmap/?exam=sppsc&duration=1mo)** — see where "Political Movements in Sindh" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=sppsc&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[SPSC (Sindh) exam overview](/exams/sppsc/)** — pattern, eligibility, and syllabus
+- **[All Sindh Studies notes](/notes/sppsc/sindh-studies/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

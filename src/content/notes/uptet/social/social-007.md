@@ -8,7 +8,7 @@ topicName: "Indian Polity: Panchayati Raj and Local Governance"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-17"
 ---
 
 # Indian Polity: Panchayati Raj and Local Governance
@@ -16,284 +16,110 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Panchayati Raj System** — Key Facts
+Panchayati Raj is India's constitutional system of rural local self-government, established by the **73rd Constitutional Amendment Act, 1992** and added as **Part IX (Articles 243–243O)** with the **11th Schedule (29 subjects)**. In Uttar Pradesh it operates under the **Uttar Pradesh Panchayati Raj Act, 1947** as amended.
 
-**Constitutional Provisions**:
-- **73rd Amendment (1992)**: Added Part IX to Constitution - "The Panchayats"
-- **Article 40**: State shall take steps to organize village panchayats
-- **Article 243**: Defines Panchayat, Gram Sabha
-- **11th Schedule**: 29 subjects for panchayats (agriculture, education, health, etc.)
+- **Three-tier structure (mandatory):** Gram Panchayat (village) → Panchayat Samiti / Kshetra Panchayat (block) → Zila Parishad (district).
+- **Gram Sabha:** body of all registered voters in a village; meets at least twice a year.
+- **Direct election:** Sarpanch and ward members. **Indirect election:** Chairpersons of Panchayat Samiti and Zila Parishad.
+- **Reservation:** SCs/STs in proportion to population; at least **one-third (33%)** seats and chairpersons' posts for women (UP has raised this to 50%).
+- **Term:** 5 years; fresh elections within **6 months** of dissolution.
+- **Authorities:** State Election Commission (Article 243K); State Finance Commission (Article 243I, every 5 years).
 
-**Three-Tier Structure**:
+> 💡 **High-Yield Memory Hook:** **"V-B-D"** for the tier order — **V**illage (Gram Panchayat) → **B**lock (Panchayat Samiti) → **D**istrict (Zila Parishad). And **"73 = 29"** — 73rd Amendment, 11th Schedule, **29 subjects**.
 
-| Level | Name | Members | Chairperson |
-|-------|------|---------|-------------|
-| Village | Gram Panchayat | 5-15 (population-based) | Sarpanch (elected) |
-| Block | Panchayat Samiti | Chairpersons of Gram Panchayats | Block Pramukh |
-| District | Zilla Parishad | Elected members + MPs, MLAs | Zilla Parishad President |
-
-**73rd Amendment Key Features**:
-- 3-tier system in all states (except Nagaland, Meghalaya, Mizoram - tribal areas)
-- Direct elections for Sarpanch and members
-- 1/3 seats reserved for women (now 50% after 2022 amendment)
-- SC/ST reservation in proportion to population
-- 21 years minimum age to contest
-- State Election Commission for elections
-- **Gram Sabha**: Adult residents of village, approves plans, elects Sarpanch
-
-⚡ **UPTET Exam Tip**: Remember the three levels: Gram (village) → Samiti (block) → Parishad (district). The Gram Sabha is the foundation of Panchayati Raj.
+| Body | Level | Head | Election |
+|---|---|---|---|
+| Gram Panchayat | Village | Sarpanch | Direct |
+| Panchayat Samiti | Block | Chairperson | Indirect |
+| Zila Parishad | District | Chairperson | Indirect |
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-**Panchayati Raj System** — Detailed Study Guide
+#### Constitutional Basis
 
-#### Gram Panchayat
+The 73rd Amendment inserted Part IX and the 11th Schedule into the Constitution, giving Panchayats a constitutional status rather than a purely statutory one. Article 243 provides definitions; Article 243A creates the Gram Sabha in every village; Articles 243K and 243I set up the State Election Commission and State Finance Commission respectively. Panchayati Raj remains a **State List** subject, so the Centre frames broad guidelines while states like Uttar Pradesh run the actual system under their own acts.
 
-**Structure and Functions**:
-- **Composition**: Sarpanch + Panchas (5-15 members based on population)
-- **Term**: 5 years (unless dissolved earlier)
-- **Meetings**: At least 2 per month
-- **Quorum**: 1/3 of total members
+#### The Three Tiers in Operation
 
-**Mandatory Functions** (as per State Act):
-1. **Agriculture**: Minor irrigation, soil conservation
-2. **Drinking Water**: Wells, handpumps, water supply
-3. **Roads**: Village roads, culverts
-4. **Education**: Primary schools, adult education centers
-5. **Health**: Dispensaries, vaccination camps
-6. **Sanitation**: Drainage, garbage collection
-7. **Social Justice**: Welfare of SC/ST, women, children
+Each tier performs planning, implementation, and supervision of development schemes handed down by the state. Funds flow from the State Finance Commission recommendations and from Centrally Sponsored Schemes like MGNREGA. The **Gram Sabha** acts as the sovereign village body that approves the annual plan, scrutinises expenditure, and can recall the Sarpanch in some states.
 
-**Optional Functions** (State-dependent):
-- Markets, fairs
-- Community halls
-- Rural electrification
-- Khadi/village industries
+#### Reservation and Representation
 
-**Sources of Income**:
-| Source | Details |
-|--------|---------|
-| Property Tax | Tax on house property, land |
-| User Charges | Water, market fees |
-| Grants | State Finance Commission |
-| Central Grants | 14th Finance Commission (10%) |
+The Amendment guarantees reservation for **Scheduled Castes and Scheduled Tribes in proportion to their population** in every Panchayat. Not less than **one-third of total seats and chairperson posts are reserved for women**, with rotation by lottery. UP additionally provides **50% reservation for women** and reservation for **Backward Classes** under its own Act.
 
-⚡ **Common Mistake**: Don't confuse "Gram Panchayat" with "Gram Sabha". Gram Panchayat is the elected body; Gram Sabha is the assembly of all adult residents.
+#### Comparison Matrix: Committees That Shaped Panchayati Raj
 
-#### Panchayat Samiti (Block Level)
+| Committee | Year | Key Recommendation | Outcome |
+|---|---|---|---|
+| Balwant Rai Mehta | 1957 | Democratic decentralisation; three-tier structure | Foundation of present Panchayati Raj |
+| Ashok Mehta | 1977 | Two-tier system; district as the core unit | Not adopted nationally |
+| Singhvi Committee | 1986 | Free and fair Panchayat elections | Paved the way for the 73rd Amendment |
+| L.M. Singhvi (follow-up) | 1986–89 | Constitutional status for Panchayats | Led directly to 1992 Amendment |
 
-**Composition**:
-- All Sarpanchas of Gram Panchayats in the block
-- MPs/MLAs from the block area
-- BDO (Block Development Officer) - Secretary
-- Chairpersons of Standing Committees
+#### Comparison Matrix: 11th vs 12th Schedule
 
-**Functions**:
-- **Planning**: Block-level development plans
-- **Coordination**: Between Gram Panchayats and Zilla Parishad
-- **Technical Support**: Engineering, agriculture, veterinary staff
-- **Schemes Implementation**: Centrally sponsored schemes at block level
+| Feature | 11th Schedule | 12th Schedule |
+|---|---|---|
+| Applies to | Panchayats (rural) | Municipalities (urban) |
+| Number of subjects | **29** | **18** |
+| Added by | 73rd Amendment, 1992 | 74th Amendment, 1992 |
+| Sample subjects | Agriculture, rural roads, drinking water, primary education | Urban planning, water supply, public health, solid waste |
 
-**Structure**:
-- **Chairman/Block Pramukh**: Elected by and from Sarpanchas
-- **Vice-Chairman**: Elected
-- **Standing Committees**: Agriculture, Education, Health, etc.
+#### 🎯 Exam-Level Worked Problem
 
-#### Zilla Parishad (District Level)
+**Question:** Which Constitutional Amendment gave Panchayati Raj its present constitutional status, and how many subjects are listed in the Schedule added by that Amendment for Panchayats?
+(1) 72nd Amendment, 29 subjects  (2) 73rd Amendment, 29 subjects  (3) 74th Amendment, 18 subjects  (4) 73rd Amendment, 11 subjects
 
-**Composition**:
-- **Elected Members**: From territorial constituencies (40-60 based on population)
-- **Ex-officio Members**: MPs, MLAs from district, District Collector
-- **Co-opted Members**: Representatives of SC/ST, women (20% of elected)
+#### Solution:
+- The **73rd Constitutional Amendment Act, 1992** added Part IX (Articles 243–243O) and the **11th Schedule** containing **29 functional subjects** for Panchayats.
+- Option (1) is wrong: no 72nd Amendment deals with this; the 72nd dealt with urban bodies' finances preliminaries.
+- Option (3) confuses Panchayats with Municipalities — the 74th Amendment, 1992 deals with urban bodies and lists **18 subjects** in the 12th Schedule.
+- Option (4) confuses the *Schedule number* (11th) with the *subject count* (29).
+- **Correct answer: (2) 73rd Amendment, 29 subjects.**
 
-**Key Functions**:
-- **District Planning**: Prepare draft district plan
-- **Approval**: Approve plans of Panchayat Samitis
-- **Budget**: Sanction block budgets
-- **Schemes**: Implement state and central government schemes
-- **Coordination**: Between district-level government offices and local bodies
-
-**Standing Committees**:
-- General Standing Committee
-- Finance, Audit and Planning Committee
-- Social Justice Committee
-- Agriculture and Industry Committee
-
-⚡ **UPTET PYQ**: "The Zilla Parishad is headed by: (a) Collector (b) President (c) District Magistrate (d) Block Development Officer" → Answer: (b) President (elected)
-
-#### 74th Amendment - Municipalities
-
-**Constitutional Provision (74th Amendment, 1992)**:
-- Added Part XII-A - "The Municipalities"
-- Article 243P to 243ZG
-- **12th Schedule**: 18 functional items for municipalities
-
-**Three-Tier Municipal Structure**:
-
-| Type | Examples | Chairperson |
-|------|----------|-------------|
-| **Nagar Panchayat** | Transition from rural to urban | Chairperson (elected) |
-| **Municipal Council** | Smaller towns | President (elected) |
-| **Municipal Corporation** | Big cities | Mayor (elected, mostly ceremonial) |
-
-**Key Features**:
-- Direct elections for all councillors
-- 1/3 reservation for women (now 50% after 2022 amendment)
-- SC/ST reservation proportional to population
-- Ward Committees in cities with >3 lakh population
-- State Election Commission for municipal elections
-- State Finance Commission for devolution
-
-**Corporation Structure**:
-- **Mayor**: Political head (elected)
-- **Deputy Mayor**: Elected
-- **Commissioner**: Administrative head (IAS officer appointed by state)
-- **Standing Committees**: Finance, Works, Health, Education
-
-⚡ **Important Comparison**:
-
-| Feature | Panchayati Raj | Municipalities |
-|---------|---------------|----------------|
-| Level | Village-Block-District | Town-City |
-| Article | Article 243-243-O | Article 243P-243ZG |
-| Schedule | 11th | 12th |
-| Chairperson | Sarpanch/Block Pramukh/Zilla Adhyaksh | Mayor/President |
-| Elected By | Gram Sabha/MLAs | Direct elections |
+> ⚠️ **Examiner Trap:** Students often mark 18 subjects because the 12th Schedule (Municipalities) is more widely discussed in textbooks. Always read the question — *rural* = 73rd Amendment + 11th Schedule + **29 subjects**; *urban* = 74th Amendment + 12th Schedule + **18 subjects**.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-**Panchayati Raj and Local Governance** — Complete Notes for UPTET
+#### Edge Cases and Constitutional Nuances
 
-#### Historical Development of Panchayati Raj
+A state with a population below 20 lakh may skip the intermediate tier, but UP — with over 20 crore people — operates all three. Article 243ZD mandates a **District Planning Committee (DPC)** to consolidate plans of Panchayats and Municipalities; UP constituted DPCs in every district. If a Panchayat is dissolved, a fresh election must be held within **six months**, and dissolution cannot happen in the last **six months** of the five-year term — a rule that traps students who say "immediate re-election".
 
-**Balwant Rai Mehta Committee (1957)**:
-- Recommended: 3-tier system (Panchayat → Panchayat Samiti → Zilla Parishad)
-- **Key Recommendation**: Panchayat Samiti should be the key unit (block level)
-- Established in Rajasthan (Nagaur district) as pilot
+#### Distinguishing Frequently Confused Bodies
 
-**Ashok Mehta Committee (1977)**:
-- Two-tier system (Zilla Parishad → Mandal Panchayat)
-- Recommended: Democratic decentralization
-- Article 40 of DPSP fulfilled through this
+| Term | Confused With | Actual Distinction |
+|---|---|---|
+| Gram Sabha | Gram Panchayat | Gram Sabha = all voters (general body); Gram Panchayat = elected representatives |
+| Panchayat Samiti | Zila Parishad | Samiti = block level; Parishad = district level; both indirectly elected at the top |
+| Community Development Programme (1952) | Panchayati Raj | CDP was an executive programme, not a constitutional elected body |
+| National Extension Service (1953) | Panchayati Raj | NES was a precursor; Panchayati Raj was created after Balwant Rai Mehta |
 
-**G.V.K. Rao Committee (1985)**:
-- Designated "block" as the planning unit
-- Regular elections, devolution of resources
+#### Advanced Traps and Exceptions
 
-**L.M. Singhvi Committee (1986)**:
-- Recommended: Constitutional status to Panchayats
-- Gram Swaraj (village self-governance)
-- This led to 73rd Amendment
+1. **Panchayati Raj is a State List subject** — the Centre cannot legislate directly on it; only constitutional provisions (Article 243) bind states.
+2. **Article 243-O** immunises Panchayat elections from judicial interference once a State Election Commission schedule is notified — important for assertion-reason questions.
+3. **District Planning Committee (Article 243ZD)** is *not* part of the three-tier Panchayat system — it is a separate constitutional body for planning, with **four-fifths members elected by elected representatives** of Panchayats and Municipalities.
+4. **The 11th Schedule's 29 subjects are illustrative, not exhaustive** — states may transfer additional subjects, but the listed 29 must devolve functionally.
+5. **Ashok Mehta Committee (1977)** is repeatedly asked about: it recommended a **two-tier** model that was *rejected*; Balwant Rai Mehta's three-tier model was *adopted*.
+6. **UP-specific:** the UP government introduced **OBC reservation in Panchayats** before many other states; do not assume "only SC/ST" reservation nationally.
 
-**Important Landmark Cases**:
+#### Exam Strategy for UPTET
 
-| Case | Year | Key Observation |
-|------|------|-----------------|
-| Union of India v. Rajasthan | 1994 | Constitution 73rd Amendment upheld |
-| Ashok Kumar v. Union of India | 2000 | SC/ST reservation in chairpersons |
-| Jagdish v. State of Karnataka | 2006 | Gram Sabha powers expanded |
-
-#### Finance and Resources
-
-**State Finance Commission**:
-- Constituted every 5 years
-- Recommends: Distribution of state taxes between state and local bodies
-- Reviews: Staff, functions, functionaries of PRIs
-- Devolution: Variable by state (typically 3-10% of state revenue)
-
-**Central Finance Commission**:
-- **14th Finance Commission (2015-20)**: 42nd FC recommended 10% of divisible fund for PRIs and Municipalities
-- **15th Finance Commission (2021-26)**: 4.86% for Rural Local Bodies, 1.5% for Urban Municipalities
-
-**Key Grants**:
-| Grant Type | Source | Purpose |
-|------------|--------|---------|
-| General Purpose Grant | State | Administrative expenses |
-| Conditional Grant | State/Centre | Specific schemes |
-| Matched Grant | Centre | Centrally sponsored schemes |
-| Finance Commission Grant | Centre | 14th/15th FC devolutions |
-
-**Panchayat's Own Sources**:
-1. **Tax Revenue**: Property tax, water tax, drainage tax, lighting tax
-2. **Non-Tax Revenue**: Market fees, license fees, rent from panchayat land
-3. **Fees and Fines**: Building permission fees, cattle pound fees
-4. **Assignments**: Portion of land revenue assigned by state
-
-⚡ **UPTET PYQ**: "The Finance Commission is constituted by the: (a) President (b) Governor (c) Chief Minister (d) State Election Commission" → Answer: (a) President (for central; Governor for state)
-
-#### Scheduled Areas and Tribal Areas
-
-**Fifth Schedule (Article 244(1))**:
-- Provisions for administration of SC/ST areas (except Assam, Meghalaya, Tripura, Mizoram)
-- Governor has special powers in Scheduled Areas
-- **Tribal Advisory Council**: Advises Governor on tribal matters
-- State laws don't automatically apply to Scheduled Areas
-- Laws require President's approval for application
-
-**Sixth Schedule (Article 244(2))**:
-- For Northeast states (Assam, Meghalaya, Tripura, Mizoram)
-- **Autonomous District Councils (ADC)**: 3-tier governance
-- Powers: Make laws on land, forest, water, inheritance
-- **Tribal Areas**: Notified by President
-
-**States with Scheduled Areas**:
-- Andhra Pradesh, Chhattisgarh, Gujarat, Himachal Pradesh, Jharkhand, Madhya Pradesh, Maharashtra, Odisha, Rajasthan, Telangana, West Bengal
-
-⚡ **Important for UPTET**: The 73rd Amendment does NOT apply to Sixth Schedule areas (tribal areas of NE). These have separate governance through Autonomous District Councils.
-
-#### Schemes and Programs
-
-**Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA)**:
-- **Enacted**: 2005
-- **Objective**: Guarantee 100 days employment per year to rural households
-- **Type**: unskilled manual work
-- **Wage**: Minimum wages applicable (varies by state)
-- **Funds**: 100% Central grant
-- **Implementation**: Gram Panchayats as nodal agency
-
-**Swachh Bharat Mission (Gramin)**:
-- **Launched**: 2014
-- **Objective**: Sanitation coverage, ODF (Open Defecation Free)
-- **IHHL**: Individual Household Latrine construction
-- **Outcome**: 10 crore+ toilets built, India declared ODF in 2019
-
-**Pradhan Mantri Gram Sadak Yojana (PMGSY)**:
-- **Launched**: 2000 (Bharat Nirman Programme)
-- **Objective**: All-weather roads to unconnected villages
-- **Targets**: Villages with population >500 (plain), >250 (hilly)
-- **Quality**: 3-layer metalled road specification
-
-**Panchayat Empowerment and Accountability**:
-| Scheme | Year | Features |
-|--------|------|---------|
-| Rashtriya Gram Swaraj Abhiyan | 2018 | Capacity building, IT enablement |
-| E-Panchayat | 2016 | Online Panchayat records, service delivery |
-| SVAMITVA | 2020 | Property card mapping for rural houses |
-
-#### Current Issues and Challenges
-
-**Challenges in Panchayati Raj**:
-1. **Election boycotts**: In some areas due to local factors
-2. **Limited devolution**: States reluctant to give powers
-3. **Financial dependence**: Own revenue sources weak
-4. **Capacity gaps**: Limited administrative capacity
-5. **Political interference**: MLAs/ Ministers bypassing Panchayats
-6. **Women's participation**: Despite reservation, actual participation limited
-7. **Land issues**: Panchayats don't own land for development
-
-**Success Stories**:
-- **Kudumbashree (Kerala)**: Women self-help groups as development agents
-- **MGNREGA implementation**: Kerala, Tamil Nadu best performers
-- **Panchayat-led tourism**: Himachal Pradesh, Uttarakhand
-- **MGNREGA + organic farming**: Sikkim model
-
-⚡ **Key for UPTET**: Remember that Panchayati Raj is the "third tier" of democracy (after Parliament and State Legislatures). It brings governance closest to the people and is crucial for grassroots democracy.
+Panchayati Raj fetches **1–2 questions** in UPTET Social Studies (Paper II), usually as standalone MCQs rather than assertion-reason. Allocate under **3 minutes per question**. Memorise the 11th vs 12th Schedule split, the three committees (Balwant Rai Mehta, Ashok Mehta, Singhvi), and the reservation percentages. Always link back to **Article numbers** — examiners reward constitutional precision.
 
 ---
+
+## Continue your study
+
+- **[View this topic in your UPTET roadmap](/roadmap/?exam=uptet&duration=1mo)** — see where "Indian Polity: Panchayati Raj and Local Governance" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=uptet&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UPTET exam overview](/exams/uptet/)** — pattern, eligibility, and syllabus
+- **[All Social Studies notes](/notes/uptet/social/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

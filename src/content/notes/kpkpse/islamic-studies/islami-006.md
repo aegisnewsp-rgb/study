@@ -8,7 +8,7 @@ topicName: "Islamic Law: Fiqh (Jurisprudence) and Its Application"
 weight: 3
 country: pakistan
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-17"
 ---
 
 # Islamic Law: Fiqh (Jurisprudence) and Its Application
@@ -16,232 +16,138 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-**Islamic Law: Fiqh (Jurisprudence) and Its Application** — Key Facts for KPK PMS
-Core concept: Fiqh (Islamic jurisprudence) is the science of deriving practical rulings from the primary sources of Islamic law (Quran, Sunnah, Ijma, Qiyas); it encompasses personal conduct, family law, criminal law, economic transactions, and governance
-High-yield point: The Islamic legal system classifies acts into five categories: wajib/fard (obligatory), sunnah (recommended), mubah (neutral), makruh (disliked), and haram (forbidden); the four Sunni schools of jurisprudence (Hanafi, Maliki, Shafi'i, Hanbali) each derive rulings through slightly different methodologies but reach similar conclusions on most matters
-⚡ Exam tip: Islamic criminal law (hudud) includes specific penalties for specific crimes: zina (adultery/stoning), false accusation of zina (flogging), drinking alcohol (whipping), theft (amputation of the hand), robbery (cross amputation); these are frequently tested — know the hudud crimes and their punishments
+**Fiqh** (فقه) is the human science of deriving practical rulings (*ahkam*) on the actions of the legally responsible (*mukallaf*) from divine sources. It is the jurist's interpretive elaboration of **Sharia**, which is the immutable law revealed in the Qur'an and Sunnah. Fiqh is therefore plural, school-based, and revisable through *ijtihad*, while Sharia is singular and divine.
 
----
+- **Sharia vs Fiqh:** Sharia = divine law, immutable. Fiqh = human juristic interpretation, plural, school-bound.
+- **Four Sunni Madhhabs:** Hanafi, Maliki, Shafi'i, Hanbali. (Ja'fari school is the main Twelver Shia school.)
+- **Usul al-Fiqh:** methodology. **Furu' al-Fiqh:** substantive rulings. These are NOT synonyms.
+- **Five *ahkam taklifi*:** Wajib, Mustahabb, Mubah, Makruh, Haram.
+- **Three tiers of Islamic criminal law:** Hudud, Qisas/Diyat, Ta'zir.
+
+> 💡 **High-Yield Memory Hook:** **"S-S-I-Q"** for the **sources** of fiqh — **S**unnah, **S**ources above it (Qur'an), **I**jma', **Q**iyas. Qur'an sits *above* Sunnah (the first two are *nass*, revelation-based; the next two are *ra'y*, reasoning-based). Remember: *pillars of Islam* are five (Shahada, Salah, Zakat, Sawm, Hajj) — *sources of fiqh* are four (Qur'an, Sunnah, Ijma', Qiyas). Examiners love the swap.
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 > Standard content for students with a few days to months.
 
-## The Science of Fiqh (Usul al-Fiqh)
+#### Definition and Scope
 
-### The Legal Theory of Islamic Law
+Fiqh literally means "deep understanding." Technically it denotes the knowledge of practical Sharia rulings (*al-ilm bi'l-ahkam al-shari'ah al-amaliyah al-muktasab min adillatiha at-tafsiliyah*). Its subject is the outward actions (*af'al*) of the *mukallaf* — the legally responsible, sane, pubertal Muslim — and it branches into *Ibadat* (worship), *Mu'amalat* (transactions), *Munakahat* (family), *Jinayat* (penal), and *Miras* (inheritance).
 
-**Usul al-Fiqh (Foundations of Jurisprudence):**
-The principles by which Islamic legal rulings are derived:
-1. **Quran**: The primary source
-2. **Sunnah**: The second primary source
-3. **Ijma**: Consensus of scholars
-4. **Qiyas**: Analogical reasoning
+#### Sources of Fiqh (Usul)
 
-**The Process of Ijtihad:**
-- Ijtihad is the effort to derive legal rulings through independent reasoning
-- A mujtahid is a scholar qualified to perform ijtihad
-- The "closing of the gates of ijtihad" is a contested historical claim — in practice, ijtihad has continued
-
-**The Legal Schools (Madhahib):**
-| School | Founder | Region |
-|---|---|---|
-| Hanafi | Imam Abu Hanifah (699–767 CE) | Turkey, South Asia, Central Asia |
-| Maliki | Imam Malik ibn Anas (711–795 CE) | North Africa, West Africa |
-| Shafi'i | Imam al-Shafi'i (767–820 CE) | Egypt, East Africa, Southeast Asia |
-| Hanbali | Imam Ahmad ibn Hanbal (780–855 CE) | Saudi Arabia, Gulf states |
-
-### The Categories of Acts
-
-| Category | Arabic | Definition | Reward/Punishment |
+| Rank | Source | Type | Authority |
 |---|---|---|---|
-| Obligatory | Wajib/Fard | Must be performed | Reward + punishment if omitted |
-| Forbidden | Haram | Must not be performed | Punishment if done |
-| Recommended | Sunnah | Should be performed | Reward + no punishment if omitted |
-| Disliked | Makruh | Should not be performed | No reward + punishment if done |
-| Permissible | Mubah | Neutral | Neither reward nor punishment |
+| 1 | **Qur'an** | *Nass* (revealed) | Direct divine speech, decisive (*qat'i al-thubut*) |
+| 2 | **Sunnah** | *Nass* (revealed) | Sayings, actions, tacit approvals of the Prophet ﷺ |
+| 3 | **Ijma'** | *Ra'y* (consensus) | Unanimous agreement of mujtahids on a ruling |
+| 4 | **Qiyas** | *Ra'y* (analogy) | Extension of a known ruling to a new case via shared *illa* |
 
-### Personal Acts (Ibadat)
+Subsidiary sources accepted by various schools: *Istihsan* (Hanafi), *Istislah/Maslaha Mursala* (Maliki), *Istishab*, *Urf* (custom), *Shar'u man qablana* (law of former peoples). **Ijtihad** is the *effort* by which a qualified jurist (*mujtahid*) derives a ruling; **taqlid** is a non-mujtahid's following of one.
 
-**Purification (Tahara):**
-- Wudu (ablution): Ritual washing before prayer
-- Ghusl (full bathing): Required after major ritual impurity
-- Tayammum (dry ablution): With earth/stone when water is unavailable
+#### Five Categories of Ahkam Taklifi
 
-**Prayer (Salat):**
-- Five daily prayers (obligatory for every Muslim who has reached puberty)
-- Friday prayer (Jumu'ah) — obligatory for men
-- Taraweeh (night prayer during Ramadan) — sunnah
-- Janazah (funeral prayer) — collective obligation (fard kifayah)
+1. **Wajib / Fard** — obligatory; omission sinful, performance rewarded (e.g., five daily salah).
+2. **Mustahabb / Mandub** — recommended; rewarded if done, not punished if omitted (e.g., sunnah prayers).
+3. **Mubah** — permissible; morally neutral (e.g., eating permissible food).
+4. **Makruh** — disliked; rewarded to avoid, not punished to do (e.g., wasting water).
+5. **Haram** — prohibited; commission sinful (e.g., riba, adultery, theft meeting *hadd* conditions).
 
-**Fasting (Sawm):**
-- The fast during Ramadan is obligatory
-- Exemptions for illness, travel, pregnancy, elderly
-- Fidya (feeding the poor) is a substitute for fasting in certain cases
+#### Concept Comparison Matrix
 
-### Family Law (Fiqh al-Awqaf / Fiqh al-Mu'amalat)
+| Term | What it is | Mutable? | Examples |
+|---|---|---|---|
+| **Sharia** | Divine, revealed law in Qur'an & Sunnah | No — immutable | Prohibition of riba; *hudud* theft penalty |
+| **Fiqh** | Jurists' interpretive rulings | Yes — plural, revisable | Hand position in salah (varies by madhhab) |
+| **Usul al-Fiqh** | Methodology for deriving rulings | Yes — methodology itself | Rules for abrogation, *'am al-nass*, *khas al-'amm* |
+| **Furu' al-Fiqh** | Substantive rulings on acts | Yes — differ by school | Specific shares in inheritance |
+| **Ijtihad** | Independent juristic effort | Per jurist, per issue | Calibrating diyah in modern currency |
+| **Taqlid** | Following a school's verdict | Per follower | Lay Muslim following Hanafi rulings |
 
-**Marriage (Nikah):**
-- A contract (aqd) between a man and woman
-- Requirements: Proposal (ijab) and acceptance (qubul); two witnesses; mahr (dowry)
-- Polygamy: Up to four wives (with conditions of equal treatment)
+#### 🎯 Exam-Level Worked Problem
 
-**Divorce (Talaq):**
-- **Talaq by the husband**: The most common form; revocable (raj'i) for three menstrual cycles; becomes final (ba'in) after that
-- **Khul'**: Divorce at the wife's initiative; she returns the mahr
-- **Fasakh**: Judicial divorce for cause (e.g., husband's cruelty, non-payment of nafaqah)
+**Question:** *"Distinguish between Sharia and Fiqh. Why is fiqh called plural while Sharia is singular?"* (KPK PMS Islamic Studies, 10-mark compulsory style.)
 
-**Inheritance (Fara'id):**
-The Quranic system of inheritance (Surah An-Nisa, 4:11–12):
-| Heir | Share |
-|---|---|
-| Son | Double the share of a daughter |
-| Daughter | 1/2 (if only one) or 2/3 (if two or more) |
-| Father | 1/6 (if there is a son) |
-| Mother | 1/6 (if there is a child) or 1/3 (if not) |
-| Wife/Wives | 1/8 (if there is a child) or 1/4 (if not) |
-| Husband | 1/2 (if no child) or 1/4 (if there is a child) |
+#### Solution:
 
-**The Residuaries (Asabah):**
-Male relatives who inherit when the fixed shares are allocated: the son of the son, the father, the brother, the nephew, etc.
+1. **Sharia** = the divine law revealed in the Qur'an and Sunnah. It is *wahy* (revelation), the source itself. One divine lawgiver, one revealed text → singular by nature.
+2. **Fiqh** = human juristic understanding of that divine law. Multiple mujtahids, across multiple eras and regions, applied different methods (Istihsan, Istislah, etc.) → multiple valid conclusions on the same action.
+3. **Proof of plurality:** The four Sunni madhhabs differ on the raised hands in salah (Hanafi: only on takbir; Shafi'i/Maliki: also on ruku'); on combining prayers while travelling; on *qira'at* in salah. Yet all draw from the *same* sources.
+4. **Implication:** A Muslim can follow any school whose ruling is supported by evidence; laypersons practise *taqlid* of a chosen madhhab.
 
----
+> ⚠️ **Examiner Trap:** Many students write "Sharia and Fiqh are the same thing" and lose 3 marks instantly. The trap is that textbooks in many papers use them interchangeably in English translation — but in the Arabic technical tradition they are *two distinct ontological categories*. Give the **divine-vs-human** distinction as your opening sentence.
 
 ### 🔴 Extended — Deep Study (3mo+)
 > Comprehensive coverage for students on a longer study timeline.
 
-## Criminal Law in Islam
+#### Criminal Law Tiers — Numerical Thresholds
 
-### The Three Categories of Crime in Islamic Law
+| Category | Source | Trigger | Punishment |
+|---|---|---|---|
+| **Hudud** | Qur'anic text | Specific crime + strict conditions | Fixed (e.g., theft → hand amputation above *nisab*; *zina* without corroboration → lashes) |
+| **Qisas** | Qur'anic text | Unlawful killing / bodily harm | Equal retaliation or diyat |
+| **Diyat** | Sunnah/Ijma' | Compensation agreed in lieu of qisas | Classical: 100 camels / 1000 dinars / 10,000 dirhams (Hanafi) |
+| **Ta'zir** | Judge's ijtihad | Acts not fixed by *nass* | Discretionary, aiming at deterrence |
 
-**1. Hudud (Fixed Penalties):**
-These are offences against God (Allah's rights); the punishment is fixed and cannot be reduced or changed:
+**Zakat formula:** $Z = n \times N_{isab} \times 0.025$, where *n* is the multiplier of nisab held for one lunar year (*hawl*) and 0.025 is the 2.5% rate. Nisab in the classical Hanafi standard is ≈ **87.48 g of gold** OR **612.36 g of silver** (current nisab values in PKR must be confirmed from the official Zakat & Ushr notification each Ramazan). Personal-use items (home, vehicle, furniture) are *not* zakatable.
 
-| Crime | Quranic Punishment | Notes |
-|---|---|---|
-| Zina (adultery/fornication) by free persons | 100 lashes (for unmarried); stoning to death (for married) | Requires 4 eyewitnesses or confession |
-| Qazf (false accusation of zina) | 80 lashes | Requires no evidence (accused's oath) |
-| Drinking alcohol | 80 lashes | Based on consensus (Ijma') |
-| Theft | Amputation of the hand (right hand) | First offence; requires proof |
-| Hirabah (disruption of society — robbery, piracy) | Cross amputation (right hand and left foot) + exile or execution | Depending on severity |
-| Apostasy (ridda) | Execution after a three-day waiting period (for men); imprisonment (for women) | Based on hadith |
+**Diyah formula:** $D = 100 \text{ camels} = 1000 \text{ dinars (gold)} = 10{,}000 \text{ dirhams (silver)}$. Female diyah under the Hanafi school is **D/2** (half); under the Shafi'i/Maliki schools it is **D** (full). Current Pakistani rupee equivalents must be checked in the latest notification — the rate changes with gold/silver valuations.
 
-⚡ **The Hudud Controversy:**
-Hudud punishments are among the most debated topics in Islamic law. Modern reformers argue:
-- These punishments were for specific historical conditions
-- They require the highest standards of evidence (often impossible to meet)
-- The Quranic verse "There is no compulsion in religion" (2:256) and the Prophet's statement "Prevent [hudud] from being carried out even in cases of suspected guilt" support moderation
-- Modern Islamic states (Pakistan included) have not implemented full hudud in practice
+> ⚠️ **Examiner Trap:** Students commonly cite a flat PKR figure for diyah. The classical answer is in camels/dinars/dirhams; the current rupee equivalent is set by ijtihad based on prevailing gold/silver rates, not memorised.
 
-**2. Qisas (Retaliation):**
-Offences against the person (the victim's or family's rights):
-- Eye for an eye, tooth for a tooth
-- The victim's family can choose between retaliation or diya (blood money)
-- The Quranic principle: "And there is for you in qisas [life, wealth, and dignity] life" (2:178)
+#### Family Law Fiqh — Pillars and Conditions
 
-**3. Diya (Blood Money):**
-- Compensation paid to the victim or victim's family
-- Amount varies by the severity of the crime and social rank
-- Allows for resolution without blood feud
+1. **Nikah pillars:** Offer (*ijab*), acceptance (*qabul*), two witnesses, *mahr*, and the absence of legal impediments.
+2. **Talaq forms:** *Sarih* (explicit) and *kinayah* (ambiguous — Hanafi treats by intention, others by context). Revocable (*talaq raj'i*) within *'iddah*; irrevocable (*bain*) after third pronouncement.
+3. **'Iddah:** *t* = 3 lunar months (~90 days) for a non-pregnant menstruating divorcee/widow; *t* = delivery for a pregnant woman (maximum gestation in fiqh ≈ 4 years, though modern obstetrics places the realistic upper bound around 280 days).
+4. **Custody (*hadana*):** Mother has priority in early years under most schools; Hanafi sets a mother-custody age (boy ≈ 7, girl ≈ 9 or puberty).
 
-### The Islamic Criminal Procedure
+#### Commercial Law — Prohibitions and Permissions
 
-**Evidence:**
-- The highest evidence is eyewitness testimony (by the righteous)
-- For hudud: four male eyewitnesses or the accused's confession (freely given)
-- A confession can be withdrawn
+- **Riba al-fadl:** Excess in exchange of the *same* commodity (e.g., 1 kg of wheat for 1.2 kg of wheat). 
+- **Riba al-nasi'ah:** Interest on a deferred loan. 
+- **Gharar:** Excessive uncertainty in a contract's subject. 
+- **Maysir:** Gambling. 
 
-**The Judiciary:**
-- The Qadi (Islamic judge) is the primary legal authority
-- Qadis are trained in Sharia and Fiqh
-- In Pakistan, the Federal Shariat Court reviews laws for compliance with Sharia
+Permissible contracts: *mudaraba* (silent partnership), *musharaka* (joint venture), *murabaha* (cost-plus sale), *salam* (forward sale), *istisna* (manufacturing contract).
 
-**Criminal Investigation:**
-- The process of investigation (istintag) and evidence gathering
-- The prohibition of torture: " Allah has not called anyone to account about his body, nor has He ordered him to cut his flesh" (Hadith)
+#### Madhhab Differences Snapshot
 
-## Economic Transactions in Islamic Law
+| Issue | Hanafi | Maliki | Shafi'i | Hanbali |
+|---|---|---|---|---|
+| Hands raised after ruku' | No | Yes | Yes | Yes |
+| Combining prayers while travelling | Permitted in most cases | Restricted | Permitted in most cases | Permitted in most cases |
+| Sister's share with daughter | 1/6 | 1/6 | 1/6 (by ijma') | 1/6 |
+| Istihsan | Accepted | Rejected | Rejected | Limited |
 
-### The Prohibition of Riba
+#### Application in KPK / Pakistan
 
-**Forms of Riba:**
-- **Riba al-Fadl**: Excess in an exchange of specific items (e.g., gold for more gold of the same type)
-- **Riba al-Nasiah**: Excess charged on delayed payment
+Classical fiqh intersects with codified Pakistani statute. Examiners expect named references, not bare madhhab rulings:
 
-**The Islamic Response:**
-- Islam prohibits exploitative interest but allows profit through legitimate trade
-- Islamic finance has developed alternative instruments (see Topic 3)
+- **Muslim Family Laws Ordinance, 1961** — written notice of talaq to the Union Council, mandatory 90-day reconciliation council, registration of nikah.
+- **Zakat & Ushr Ordinance, 1980** — central Zakat Fund, district Zakat committees, compulsory deduction at source on savings accounts.
+- **Enforcement of Hudood Ordinances, 1979** — codification of *hudud* and *zina* offences; later partially amended by the Protection of Women Act, 2006.
+- **Khyber Pakhtunkhwa Enforcement of Women's Ownership Rights Act, 2022** — KP-specific statute affirming women's share in inheritance against local customary denial.
+- **Supreme Court of Pakistan Shariat Appellate Bench** rulings on riba (e.g., judgments on the Banking Companies Ordinance's interest provisions) reflect state-level *ijtihad* on commercial fiqh.
 
-### Contracts (Aqad) in Islamic Law
+#### Edge Cases and Advanced Traps
 
-**The Essentials of a Contract (Shurut al-Aqd):**
-1. **Offer (Ijab)**: The invitation to contract
-2. **Acceptance (Qabul)**: The agreement
-3. **Subject matter (Mawdu')**: Must be valid and permissible
-4. **Price (Thaman)**: Must be specified or determinable
-5. **Consent (Rida)**: Free consent of both parties — no coercion or fraud
+1. **Riba al-fadl vs riba al-nasi'ah:** *Fadl* is in exchange of identical commodities (e.g., wheat-for-wheat); *nasi'ah* is interest on a loan over time. Students swap them under exam pressure — examiners exploit this by giving a wheat-exchange question and expecting the *fadl* answer.
+2. **Conditions for *hadd* theft:** Stolen goods must reach *nisab*, taken from *hirz* (secure custody), stealthily, with no forced entry, by a sane adult Muslim. Miss any one condition → case falls out of *hadd* into *ta'zir*. Examiners in many papers test the *hirz* element.
+4. **Nisab oscillation:** Gold nisab and silver nisab differ by roughly 7× in grams. Whichever is *lower* at your Zakat due date is the binding *nisab* in Hanafi fiqh (silver nisab in most keys binds). Students fixate on gold and overpay or underpay depending on the year.
+5. **Inheritance beyond fixed shares:** When only *asaba* remain, they take the residue. When fixed-share heirs consume the estate entirely (e.g., husband + daughters in some combinations), *awl* (proportional reduction) applies.
+6. **Ijtihad gate-keeping:** Not every scholar can perform *ijtihad*; classical gates include knowledge of Arabic, the *nass*, the *athar*, and the subsidiary sources. Modern debates — Abduh, Rashid Rida, Iqbal — ask whether the *gate of ijtihad* (bab al-ijtihad) was ever truly closed.
+7. **Custom (*urf*) vs fiqh:** Valid custom can override a default fiqh ruling in transaction matters, provided it does not contradict *nass*. Local Pashtun *jirga* custom on land and dispute resolution is a recurring KPK-specific edge case.
 
-**The Major Contracts:**
-| Contract | Arabic | Description |
-|---|---|---|
-| Sale | Bay' | Exchange of goods for goods or goods for money |
-| Partnership | Shirkat | Joint venture between two or more parties |
-| Agency | Wakala | One party acts on behalf of another |
-| Lease | Ijara | Temporary transfer of the right to use an asset |
-| Gift | Hibah | Transfer of ownership without consideration |
-| Guarantee | Dhaman | One party guarantees another's obligation |
+#### Advanced Practice Prompts
 
-### Waqf (Religious Endowment)
+1. *"Discuss whether the classical fiqh position on *hudud* can be applied unmodified in the modern Pakistani criminal justice system, citing the Hudood Ordinances 1979 and post-2006 amendments."* — Write a 15-mark essay integrating fiqh categories with statutory text.
+2. *"A man in Peshawar marries without registering the nikah under the Muslim Family Laws Ordinance 1961. Is the nikah valid in fiqh? Is it enforceable under Pakistani statute? Reconcile."* — Test pillars of nikah against MFLO registration clause.
 
-**What is a Waqf?:**
-A waqf is an endowment of property (real estate or other assets) dedicated to charitable or religious purposes:
-- The donor (waqif) transfers ownership to God
-- The property generates income for the designated purpose
-- The most common waqfs fund mosques, schools, and hospitals
+## Continue your study
 
-**Types of Waqf:**
-- **Waqf al-Ahlal**: Endowment for one's family, then to the poor (family waqf)
-- **Waqf al-Khairi**: Endowment exclusively for charity (charitable waqf)
+- **[View this topic in your KPK PMS roadmap](/roadmap/?exam=kpkpse&duration=1mo)** — see where "Islamic Law: Fiqh (Jurisprudence) and Its Application" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=kpkpse&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[KPK PMS exam overview](/exams/kpkpse/)** — pattern, eligibility, and syllabus
+- **[All Islamic Studies notes](/notes/kpkpse/islamic-studies/)** — browse sibling topics in this subject
 
-**The Waqf in Islamic Civilisation:**
-- The waqf system funded the Islamic Golden Age's educational institutions
-- Al-Azhar University in Cairo and many madrasas were waqf-funded
-- The Ottoman waqf system was particularly elaborate
-
-⚡ **Pakistan's Waqf System:**
-Pakistan has the WakafProperties Ordinance 1949, which governs waqf properties. The Evacuee Trust Council administers properties left behind by refugees from India after Partition.
-
-## Governance in Islamic Law
-
-### The Concept of the Islamic State
-
-**The Caliphate:**
-- The Caliph (Khalifa) is the successor to the Prophet in governing the Muslim community
-- The role is political-administrative, not prophetic
-- The Caliph should be elected or selected by the community (Shura)
-
-**The Qualifications of a Caliph:**
-- Knowledge of Islam
-- Justice and integrity
-- Physical and mental capability
-- Male (all schools agree — women cannot be Caliph or head of state in the classical view)
-
-**The Role of the Shura (Consultation):**
-- The Quran: "And their affairs are by consultation among them" (42:38)
-- The shura is both a religious duty and a check on autocracy
-- Major decisions should involve consultation
-
-### Modern Islamic Governance
-
-**The Debate on the Islamic State:**
-- Classical scholars: The state is necessary for implementing Sharia
-- Modern scholars (Ali Abd al-Raziq, 1925): The Islamic state is not a Quranic requirement; Islam is a spiritual and ethical system, not a political system
-- Contemporary: The Islamic state debate continues in the Muslim world
-
-**Pakistan's Constitutional Position:**
-- Pakistan is officially an Islamic Republic (since 1956)
-- The Objectives Resolution (1949) declared that sovereignty belongs to God but is exercised by the state
-- The 18th Amendment declared Pakistan a "Islamic, democratic, federal republic"
-- Islamic law (Sharia) is applied through the Federal Shariat Court
-
----
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

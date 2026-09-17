@@ -14,112 +14,89 @@ lastUpdated: "2026-09-17"
 # Capital Gains & Assets
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+> One-screen recap for the night before ATX or the CA Pakistan Advanced Taxation paper.
 
-Capital Gain Tax (CGT) in Pakistan is charged under section 37 of the Income Tax Ordinance, 2001 on the gain arising when a **capital asset** is disposed of, where the asset is not stock-in-trade and is not a personal-use item below the prescribed threshold.
+Capital Gain = Consideration Received − Cost of Acquisition − Cost of Improvement, all in PKR. A **capital asset** is anything you own that is not stock-in-trade and not personal-use property below the FBR threshold. Hold a security for more than 12 months and the gain is taxed as a capital gain; sell inside 12 months and the same gain reverts to normal income under your ordinary slab.
 
-| Term | Meaning |
-|---|---|
-| Capital Asset | Property held other than as stock-in-trade and outside the personal-use exemption |
-| Consideration Received | Amount realised on disposal (FMV rule applies to immovable property) |
-| Cost of Acquisition | Original purchase price; for inherited assets, cost to the previous owner |
-| Cost of Improvement | Capital expenditure enhancing the asset's value |
-| Disposal | Sale, transfer, exchange, or relinquishment of ownership |
-| Holding Period | Time between acquisition and disposal; >12 months for securities |
+> 💡 **Memory Hook — "12 Months Se-Cure"**: SECurities need 12 months of holding to qualify as long-term capital gain. Anything shorter gets re-characterised as business income, not capital gain.
 
-**Capital Gain (PKR)** = Consideration Received − Cost of Acquisition − Cost of Improvement
-
-Holding period >12 months: gain is **capital**. Within 12 months (securities): reclassified as **business income**.
-
-CGT rate FY2024-25: **15%** (filer) and **30%** (non-filer).
-
-> 💡 **High-Yield Memory Hook:** **"C-C-I − Hold-Rate"** → Cost minus Cost minus Improvement; Hold >12 months = capital, Rate = 15 vs 30 for filer/non-filer.
-
----
+| Item | Filer (PKR) | Non-filer (PKR) |
+|---|---|---|
+| CGT rate on securities (FY2024-25) | 15% | 30% |
+| Set-off allowed | Same class of asset only | Same class of asset only |
+| Holding threshold | > 12 months | > 12 months |
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+> Working knowledge for students building computation fluency over a few weeks.
 
-#### Core Mechanism
+#### What actually triggers CGT
 
-Section 37 ITO 2001 taxes only the **net gain** on disposal. Computation starts with the gross receipt, deducts the cost base, and then applies exemptions under sections 37(4) and 37(4A). The residue is the **taxable capital gain** on which CGT is levied at the prescribed rate.
+Section 37 of the Income Tax Ordinance, 2001 charges CGT only when a **capital asset** is **disposed of**. Two preliminary filters decide whether the gain even reaches the CGT computation:
 
-**Taxable Capital Gain (PKR)** = Gross Capital Gain − Exemptions under sections 37(4)–37(4A) ITO 2001
+- The asset must not be stock-in-trade (trading stock belongs to business income).
+- The asset must not be a personal-use effect whose value sits below the FBR personal-use threshold.
 
-Holding period is asset-specific. Securities held ≤12 months are **not** capital assets — the gain becomes business income under section 39, taxed at normal rates. Immovable property follows the rules in the 12th Schedule, where the period differs by asset category.
+Personal jewellery above that threshold, listed shares, mutual fund units, immovable property held as investment, and bonds all qualify. A property used as your own residence may also qualify, but a principal-residence exemption under section 37(4) can wipe out part or all of the gain if size and holding conditions are satisfied.
 
-#### Concept Comparison Matrix
+#### The computation skeleton
 
-| Feature | Capital Asset | Stock-in-Trade |
+Start every CGT question with the same five lines; examiners award method marks even when the final number slips.
+
+1. Consideration received on disposal (PKR).
+2. For immovable property, substitute the **declared fair market value** if it exceeds the actual consideration.
+3. Deduct **cost of acquisition**. For inherited property, that cost is what the previous owner originally paid, plus any inheritance tax actually paid.
+4. Deduct **cost of improvement** documented with receipts.
+5. Apply exemptions under section 37(4)–37(4A), then apply the rate.
+
+#### Comparison matrix: capital gain vs business income on disposal
+
+| Feature | Capital Gain (Sec 37, ITO 2001) | Business Income (Sec 22) |
 |---|---|---|
-| Nature | Investment / non-trading | Trading inventory |
-| Tax on disposal | CGT (15% / 30%) | Business income at normal rates |
-| Loss treatment | Set off only within same class of capital assets | Set off against any business income |
-| Holding period | >12 months for securities to qualify | Irrelevant — always business income |
-| Examples | Listed shares held long-term, rental property | Trading shares, dealer-held property |
+| Asset type | Non-stock capital asset | Stock-in-trade or trading asset |
+| Holding period | > 12 months for securities | Irrelevant |
+| Rate (filer, FY2024-25) | 15% flat on taxable gain | Normal slab rates |
+| Rate (non-filer, FY2024-25) | 30% flat on taxable gain | Normal slab + higher non-filer surcharge |
+| Loss set-off | Same class of capital asset only | Against any business income head |
 
-| Feature | Filer | Non-Filer |
-|---|---|---|
-| CGT rate (FY2024-25) | 15% | 30% |
-| Use of CNIC on return | Required | Absent → 30% applies |
-| Common exam trap | Often quoted as "15%" alone | Higher rate tested explicitly |
+#### Worked computation walkthrough
 
-#### Step-by-Step CGT Computation
+Ms. Aisha, a filer, bought 10,000 shares of a listed company on 1 July 2022 at PKR 45 each. She sold them on 5 August 2024 at PKR 78 each. Brokerage of PKR 12,000 was paid on acquisition and PKR 14,000 on sale.
 
-1. Identify whether the asset disposed of qualifies as a capital asset.
-2. Verify the holding period exceeds the prescribed threshold for the asset class.
-3. Compute consideration received, applying the **fair market value rule** for immovable property where the declared value is understated.
-4. Deduct cost of acquisition and cost of improvement.
-5. Subtract eligible exemptions under sections 37(4)–37(4A).
-6. Apply the appropriate rate (15% filer or 30% non-filer).
+- Consideration received = 10,000 × 78 = PKR 780,000.
+- Cost of acquisition = (10,000 × 45) + 12,000 = PKR 462,000.
+- Cost of improvement (sale brokerage is treated as a selling expense, not improvement) = 0.
+- Gross capital gain = 780,000 − 462,000 = PKR 318,000.
+- Holding period = 1 July 2022 → 5 August 2024 = 25 months, comfortably above 12 months.
+- Taxable capital gain = PKR 318,000 (no exemption claimed).
+- CGT payable = 318,000 × 15% = PKR 47,700.
 
-#### 🎯 Exam-Level Worked Problem
-
-**Question:** Mr. Ahmed, a filer, sold listed equity shares on 31 March 2025 for PKR 3,500,000. He acquired the shares on 1 February 2024 for PKR 2,200,000 and paid PKR 80,000 in brokerage at acquisition. No improvement was made. Calculate the capital gain, taxable capital gain, and CGT payable.
-
-#### Solution:
-- **Holding period:** 1 Feb 2024 → 31 Mar 2025 = 14 months. Qualifies as capital asset (exceeds 12 months for securities).
-- **Consideration Received (PKR):** 3,500,000
-- **Cost of Acquisition (PKR):** 2,200,000 + 80,000 brokerage = 2,280,000
-- **Cost of Improvement (PKR):** 0
-- **Capital Gain (PKR)** = 3,500,000 − 2,280,000 = **1,220,000**
-- **Exemptions under s.37(4):** None claimed → Taxable Capital Gain = **1,220,000**
-- **Rate (filer):** 15%
-- **CGT Payable (PKR)** = 1,220,000 × 15% = **183,000**
-
-> ⚠️ **Examiner Trap:** Students often omit brokerage from cost of acquisition and treat only the purchase price as the base. Acquisition costs necessary to obtain title — including brokerage, transfer fees, and registration — are all part of the cost base under section 77 ITO 2001. Adding 80,000 raises the deductible cost and reduces taxable gain correctly.
-
----
+> ⚠️ **Examiner Trap:** students routinely fold sale brokerage into "cost of improvement" and inflate the deductible base. Sale brokerage reduces consideration received, not the cost side of the equation.
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
+> Edge cases, boundary conditions, and links to adjacent heads for students aiming at a distinction.
 
-#### Edge Cases and Exceptions
+#### Boundaries the examiner exploits
 
-1. **Inherited property cost base:** Cost equals the cost to the previous owner plus any inheritance tax paid. The beneficiary does **not** reset the base to FMV at date of inheritance.
-2. **Fair market value override:** For immovable property, if consideration received is below the FBR-issued FMV, the FMV is deemed to be the consideration. Applies to both CGT and withholding under section 236C/236K.
-3. **Principal residence exemption:** Available only if the property was held for the prescribed period, used as residence throughout, and size/reinvestment conditions in section 37(4) are met.
-4. **Specified persons:** Selected sectors notified by FBR enjoy reduced or zero CGT; the list is updated by SRO and must be verified before the exam.
-5. **Same-class set-off rule:** Losses on disposal of securities can only offset gains on other securities, not gains on immovable property.
+The holding-period rule for securities (12 months) is *not* the same rule for immovable property. Property follows different criteria under the 12th Schedule, where the distinction turns on whether the asset was used for business, held as investment, or used as a personal residence, and where re-characterisation into business income follows its own logic. Mixing the 12-month security test into a property question is the most common reason candidates lose marks on ATX Paper 2.
 
-#### Common Mistakes in Advanced Scenarios
+The fair-market-value override for immovable property applies only when the declared FBR value exceeds actual consideration. Where the consideration received already exceeds FBR value, no substitution is made, but the gain is still taxable on the higher actual figure.
 
-| Mistake | Correct Treatment |
-|---|---|
-| Setting off capital loss against salary or business income | Capital losses set off only within the same class of capital assets |
-| Applying 12-month rule uniformly to property | Use 12th Schedule rules for immovable property; 12-month test applies to securities |
-| Treating personal-use jewellery as exempt automatically | Exemption applies only up to the prescribed threshold; excess is taxable |
-| Charging 15% to a non-filer | 30% rate applies where the person is not on the active taxpayers' list |
-| Forgetting CGT on share of assets distributed by an AOP/company | In-specie distribution triggers deemed disposal at FMV |
+#### Loss and class-specific set-off
 
-#### Advanced Practice Prompts
+A loss on the disposal of listed shares can only be set off against another listed-share gain. It cannot absorb a property gain, and it cannot be deducted against salary or business income. Where the loss cannot be absorbed in the current year, it carries forward for four years within the same class only. Specified persons notified by FBR (certain industrial companies, special economic zone enterprises) enjoy reduced or zero CGT, but they must hold the required notification at the return-filing date for the rate to apply.
 
-1. A taxpayer inherits a plot in 2020 (father acquired in 2005 for PKR 4,000,000). He sells it in 2025 for PKR 18,000,000 while FMV is PKR 22,000,000. Compute the taxable gain and discuss which figure governs consideration.
-2. A non-filer disposes of listed securities held 14 months, and has a prior-year capital loss on immovable property. Apply the set-off rules and determine the rate applicable.
+#### Common mistakes that cost marks
 
-> 📌 **Formula Check:** Holding-period formula is asset-class specific. For securities, the test is **Disposal Date − Acquisition Date > 12 months**; for immovable property, consult the 12th Schedule to the ITO 2001 — do not generalise the 12-month rule.
+1. Treating jewellery above the personal-use threshold as exempt by default.
+2. Setting a capital loss against business income on the wealth statement.
+3. Applying the 15% filer rate to a taxpayer who is not on the ATL.
+4. Forgetting to gross-up the consideration received before deducting acquisition cost.
+5. Missing the principal-residence exemption because the size of the property exceeds the prescribed limit.
 
----
+#### Advanced practice prompts
+
+- A taxpayer inherits a Karachi property in 2018, pays PKR 1.2 million inheritance tax, and sells it in 2024. Walk through the cost-of-acquisition chain and the FBR-value substitution check.
+- Compare the tax outcome for a filer selling securities at a PKR 2 million gain after 11 months versus after 13 months. Show the rate differential and the head under which each gain is taxed.
 
 ## Continue your study
 

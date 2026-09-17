@@ -8,203 +8,118 @@ topicName: "Science and Technology (General)"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-17"
 ---
 
 # Science and Technology (General)
 
+> One-line note covers four standing pillars — Physics, Chemistry, Biology, and emerging tech — and SBI Clerk expects you to recall, not calculate.
+
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-- **ISRO (Indian Space Research Organisation)**: Founded 1969; headquartered in Bengaluru; Chandrayaan-3 (2023) made India the first country to land near lunar south pole
-- **Chandrayaan missions**: Chandrayaan-1 (2008) discovered water on Moon; Chandrayaan-3 (2023) successful soft landing
-- **Mars Orbiter Mission (Mangalyaan)**: 2013; India was the first country to succeed on its first Mars attempt; cost only ₹450 crore
-- **Aditya-L1**: India's first solar mission; studying the Sun's corona; launched 2023
-- **Gaganyaan Program**: India's human spaceflight program; aims to send Indians to space by 2026
-- ⚡ Notable Indian scientists: Dr. APJ Abdul Kalam (Missile Man), Dr. CV Raman (Raman Effect), Dr. Homi Bhabha (father of Indian nuclear program)
+SBI Clerk Mains tests **awareness**, not problem-solving. Five recall buckets carry the bulk of marks: SI units, inventor–invention pairs, ISRO/DRDO milestones, basic chemistry (pH, periodic trends), and human-body facts. Skip derivations; read definitions.
+
+> 💡 **High-Yield Memory Hook — "SAPT-ING"** (Science And Physics Tech — Instruments, Newton, Galileo):
+> **S**I units → **A**tom & pH → **P**hysics laws → **T**ech missions → **I**nventors → **N**utrition/vitamins → **G**ravity & Galileo.
+> Walk these seven hooks before you attempt a Science MCQ and you'll catch the unit/attribution traps instantly.
+
+| Bucket | Must-know fact (exact wording matters) |
+|---|---|
+| SI unit of force | **Newton (N)** = kg·m/s² |
+| SI unit of energy | **Joule (J)** = kg·m²/s² |
+| SI unit of power | **Watt (W)** = J/s |
+| pH neutral | **7** (below = acid, above = base) |
+| Chandrayaan-3 | India's first **lunar soft-landing** (2023) |
+| Dynamo inventor | **Michael Faraday** (not Edison) |
+
+Read the unit superscript carefully — examiners flip Joule and Watt most often.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+> Working understanding of the four subject streams with mechanisms, not memorised lines.
 
-## Science and Technology (General)
+#### Core formula sheet (name every variable, write its SI unit)
 
-India has emerged as a significant player in global science and technology. For banking exams, questions focus on India's achievements, key institutions, and major government initiatives in science and technology.
+| # | Formula | Variables and units | Dimensional formula |
+|---|---|---|---|
+| 1 | F = m × a | F = force (N), m = mass (kg), a = acceleration (m/s²) | [M L T⁻²] |
+| 2 | W = F × d | W = work (J), F = force (N), d = displacement (m) | [M L² T⁻²] |
+| 3 | P = W / t | P = power (W), W = work (J), t = time (s) | [M L² T⁻³] |
+| 4 | V = I × R | V = voltage (V), I = current (A), R = resistance (Ω) | [M L² T⁻³ A⁻¹] |
+| 5 | KE = ½ m v² | KE = kinetic energy (J), m = mass (kg), v = velocity (m/s) | [M L² T⁻²] |
+| 6 | PE = m g h | PE = potential energy (J), g ≈ 9.8 m/s², h = height (m) | [M L² T⁻²] |
 
-## Indian Space Research Organisation (ISRO)
+#### Concept comparison matrix (commonly confused pairs)
 
-### Overview
-- **Founded**: 1969 (as INCOSPAR; renamed ISRO in 1972)
-- **Headquarters**: Bengaluru, Karnataka
-- **Chairman**: S. Somanath (as of 2024)
-- **Vision**: Harness space technology for national development
+| Confused pair | Correct attribution / value | Why students slip |
+|---|---|---|
+| Joule vs Watt | Joule = energy; Watt = power (energy per second) | Both feel like "strength" terms in plain English |
+| Atomic number vs Mass number | Atomic = protons only; Mass = protons + neutrons | "Mass number" sounds like it should be the bigger one — it is, but it isn't the proton count |
+| Acidic vs basic pH | pH < 7 acidic; pH > 7 basic; 7 neutral | Many assume higher pH = stronger acid because of "pH power" |
+| Chandrayaan-3 vs Mangalyaan | Chandrayaan-3 = Moon lander (2023); Mangalyaan = Mars orbiter (2014) | Both are ISRO, both are planetary — objectives differ |
+| Dynamo (Faraday) vs Bulb (Edison) | Faraday invented the dynamo; Edison commercialised the bulb | Exam options swap the two names deliberately |
+| Reflecting vs Refracting telescope | Reflecting = mirrors (Newton); Refracting = lenses (Galileo) | The "telephoto" feel of both confuses telescope-type questions |
 
-### Major Achievements
+#### Worked problem — mains-level MCQ
 
-**Chandrayaan-1 (2008):**
-- India's first lunar probe
-- **Discovery**: Confirmed presence of water molecules (hydroxyl) on Moon surface
-- Made India the 4th country to place its flag on the Moon (after USSR, US, China)
+A 2 kg block is pushed across a frictionless surface by a 10 N horizontal force for 3 seconds, starting from rest. What is its kinetic energy at the end of 3 seconds?
 
-**Chandrayaan-2 (2019):**
-- Included orbiter, lander (Vikram), and rover (Pragyan)
-- Vikram lander crash-landed; orbiter is functional
-- Found water ice in Moon's permanently shadowed regions
+Step 1 — Find acceleration from Newton's second law:
+F = m × a → a = F / m = 10 N / 2 kg = **5 m/s²**
 
-**Chandrayaan-3 (2023):**
-- Successfully landed near lunar south pole (August 23, 2023)
-- India became **first country to soft-land on the lunar south pole**
-- Included Vikram lander and Pragyan rover
-- Confirmed presence of sulfur, oxygen, and other elements on Moon surface
+Step 2 — Velocity after 3 s (starting from rest, uniform acceleration):
+v = u + at = 0 + (5)(3) = **15 m/s**
 
-**Mars Orbiter Mission (Mangalyaan/MOM, 2013):**
-- Launched November 5, 2013; reached Mars September 24, 2014
-- **First country to succeed in its very first Mars mission**
-- One of the cheapest Mars missions ever (~$74 million vs NASA's Maven at $187 million)
-- Studied Mars surface, morphology, mineralogy
+Step 3 — Kinetic energy using KE = ½ m v²:
+KE = ½ × 2 kg × (15 m/s)² = 1 × 225 = **225 J**
 
-**Gaganyaan (Human Spaceflight Programme):**
-- India's first crewed space mission
-- Target: 2026 — launch of Indian astronauts (Gagannauts) into Low Earth Orbit
-- ISRO signed agreements with NASA and Roscosmos (Russia) for technical cooperation
+Dimensional check: [M L² T⁻²] = kg·m²/s² = Joule. ✓
 
-**Aditya-L1 (2023):**
-- India's first solar mission
-- Placed at Lagrange Point 1 (L1), ~1.5 million km from Earth
-- Studies: Solar corona, solar wind, solar flares, CMEs
-
-### Launch Vehicles (Rockets)
-- **PSLV (Polar Satellite Launch Vehicle)**: Most reliable; used for satellite launches to polar orbits
-- **GSLV (Geosynchronous Satellite Launch Vehicle)**: For heavier, geostationary satellites
-- **GSLV Mk III (LVM3)**: Heaviest rocket; used for Chandrayaan-3 and Gaganyaan
-
-### Satellite Systems
-- **IRNSS/NavIC**: Indian Regional Navigation Satellite System; 7 satellites; provides positioning for India and surrounding region
-- **IRS (Indian Remote Sensing Satellite)**: Largest constellation of civilian remote sensing satellites
-- **GSAT series**: Communication satellites
-
-## Nuclear Program
-
-### Department of Atomic Energy (DAE)
-- **Homi Bhabha** (father of Indian nuclear program)
-- **Bhabha Atomic Research Centre (BARC)**: Mumbai; main research facility
-
-### Nuclear Power Plants in India
-- Kudankulam (Tamil Nadu) — largest (2 × 1000 MW)
-- Tarapur (Maharashtra)
-- Kalpakkam (Tamil Nadu)
-- Rawatbhata (Rajasthan)
-- Kakrapar (Gujarat)
-- Narora (Uttar Pradesh)
-
-### India's Nuclear Doctrine
-- No First Use (NFU): India will not use nuclear weapons first
-- Minimum credible deterrence
-- Civilian nuclear program isolated from military program
-
-## Information Technology
-
-### IT Industry
-- India is the **back office of the world**; major IT hub
-- Top companies: TCS, Infosys, Wipro, HCL Technologies, Tech Mahindra
-- Bangalore (Bengaluru) called the "Silicon Valley of India"
-
-### Digital India Initiative
-- **Launched**: July 1, 2015
-- **Objective**: Transform India into a digitally empowered society
-- **Key Components**:
-  - Digital infrastructure as utility to every citizen
-  - Governance and services on demand
-  - Digital empowerment of citizens
-
-## Cybersecurity
-
-### National Cyber Security Policy
-- **National Cyber Coordination Centre (NCCC)**: Real-time threat assessment
-- **CERT-In (Computer Emergency Response Team - India)**: Handles cybersecurity incidents
-- **Cyber Surakshit Bharat**: Capacity building for cybersecurity
-
-### IT Act, 2000
-- Primary law for cybersecurity and electronic commerce in India
-- Amendments post-2008: Added provisions for cybersecurity, data protection
-
-## Important Scientific Institutions
-
-| Institution | Focus | Location |
-|------------|-------|---------|
-| **ISRO** | Space | Bengaluru |
-| **DRDO** | Defense R&D | Hyderabad |
-| **BARC** | Nuclear research | Mumbai |
-| **CSIR** | Scientific research | New Delhi |
-| **ICMR** | Medical research | New Delhi |
-| **ICAR** | Agricultural research | New Delhi |
-| **IITs** | Engineering/Technology | Various |
-| **AIIMS** | Medical education/research | New Delhi (+ others) |
-
-## Key Government Initiatives
-
-- **Start-up India**: Promote startups; tax benefits, funding support
-- ** Atal Innovation Mission**: Tinkering labs, startup incubators
-- **Digital India**: Infrastructure, governance, digital literacy
-- **Make in India**: Manufacturing; defence, electronics, semiconductors
-- **National Education Policy (NEP) 2020**: Major education reforms
-
-## Notable Indian Scientists
-
-| Scientist | Contribution |
-|----------|-------------|
-| **C.V. Raman** | Raman Effect (1928); Nobel Prize 1930 |
-| **Homi J. Bhabha** | Father of Indian nuclear program |
-| **APJ Abdul Kalam** | Missile Man; India's nuclear tests (1998) |
-| **Srinivasa Ramanujan** | Number theory; mathematical genius |
-| **Harish-Chandra** | Representation theory |
-| **Vikram Sarabhai** | Father of Indian space program |
-| **M. S. Swaminathan** | Father of Green Revolution |
-| **Brahm Prakash** | Father of Indian space program materials |
+> ⚠️ **Examiner Trap — "Power of the push" distractor:**
+> A 75 W option is often offered (computed as P = Fv with v = 7.5 m/s, the average speed). 7.5 m/s is wrong here — the block accelerated, so use the **final** v = 15 m/s only when power is asked at that instant, and use **½ m v²** when energy is asked. Mixing average velocity into an energy question is the most common wrong answer in this format.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
+> Edge cases, boundary conditions, and two advanced practice prompts for mains-level confidence.
 
-## Emerging Technologies
+#### Instruments and what they actually measure (the "named after the body part" trap)
 
-### Artificial Intelligence (AI)
-- National AI Strategy (IndiaAI)
-- National Programme on AI
-- AI in governance: Healthcare, agriculture, smart cities
+| Instrument | Measures | Unit | First-choice confusion |
+|---|---|---|---|
+| Sphygmomanometer | Blood pressure | mmHg | Confused with stethoscope (which listens) |
+| Barometer | Atmospheric pressure | hPa / mmHg | Confused with manometer (gauge, not absolute) |
+| Hydrometer | Specific gravity of liquids | unitless | Confused with hygrometer (humidity) |
+| Galvanometer | Small electric current | Ampere (μA range) | Confused with ammeter (larger currents) |
+| Lactometer | Purity of milk | unitless | Often swapped with hydrometer in options |
+| Seismograph | Earthquake waves | Richter / Moment magnitude | Confused with seismometer sensor element |
 
-### Blockchain Technology
-- Blockchain as a service for government applications
-- Use in land records, supply chain, financial services
+The trick: instruments ending in **-scope** *observe*; those ending in **-meter** *measure*. Sphygmomanometer is the rare exception — it measures, despite the "-scope"-style suffix.
 
-### Internet of Things (IoT)
-- Smart cities, precision agriculture
-- Bharat Broadband Network
+#### Edge cases and traps beyond the standard set
 
-### 5G and 6G
-- India launched 5G in 2022 (Airtel, Jio)
-- Bharat 6G Vision document: India aims to lead in 6G technology
+- **Chandrayaan-3 vs Aditya-L1 vs Gaganyaan — three ISRO flagship names, three different targets.** Chandrayaan-3 touched down near the lunar south pole in August 2023. Aditya-L1 is India's first solar observatory, placed at the L1 Lagrange point (launched September 2023). Gaganyaan is the crewed orbital programme (unmanned test flights precede crewed missions). Examiners bundle these names in "match the following" sets.
+- **Defence trio: Tejas, INS Vikrant, BrahMos.** Tejas is an indigenous light combat aircraft (HAL). INS Vikrant is India's first indigenously built aircraft carrier (commissioned 2022). BrahMos is a supersonic cruise missile jointly developed with Russia. All three are routinely flipped across options.
+- **pH boundary values.** pH = 0 (strong acid like HCl), pH = 14 (strong base like NaOH). The scale is logarithmic — pH 3 is ten times more acidic than pH 4, a fact examiners test in "how many times stronger" wording.
+- **Newton's third law on the exam.** Action–reaction pairs act on **different** bodies, not the same body. A common wrong option says "the table pushes up on the book" while crediting "gravity pulls the book down" as the same pair.
+- **Vitamins and deficiency diseases (asked as direct-match sets).** Vitamin A → night blindness; B1 (thiamine) → beriberi; B12 → anaemia; C → scurvy; D → rickets; K → slow blood clotting. The trap is vitamin D being labelled "skin vitamin" — it is synthesised in skin via sunlight but is itself a fat-soluble vitamin, not water-soluble.
+- **Blood group inheritance logic.** ABO system: A and B are co-dominant; O is recessive. A trick question asks "parents A × B, child O" — this is biologically valid and not a contradiction, a common wrong-reason trap.
 
-## Biotechnology
+#### Two advanced practice prompts
 
-### Department of Biotechnology (DBT)
-- **Indian SARS-CoV-2 Genomic Consortia (INSACOG)**: Tracking COVID variants
-- **BioNEST**: Bio-incubators across India
-- **Genetically Modified Crops**: Bt Cotton (only GM crop approved in India)
+1. Match each mission with its launch vehicle — Chandrayaan-3, Aditya-L1, Gaganyaan (G1) — and identify which one used a heavy-lift LVM3 and which used a PSLV-derived configuration. Write the launch vehicle and target body for each.
+2. A 60 W bulb runs for 5 hours daily. Compute the monthly electrical energy consumed in kWh and the energy in joules. Then identify whether this is a question of *power*, *energy*, or *work* — and state which SI unit applies at each step.
 
-### COVID-19 Vaccines
-- Covaxin (Bharat Biotech + ICMR) — India's first indigenous vaccine
-- Also approved: Covishield (AstraZeneca/Oxford)
-- World's largest vaccination program: 2 billion+ doses administered
+---
 
-## Renewable Energy
+## Continue your study
 
-- **National Solar Mission**: Target 500 GW by 2030
-- **PM-KUSUM**: Solar pumps for farmers
-- **Green Hydrogen Mission**: India aims to be hub for green hydrogen production
-- **Offshore Wind Energy**: Targeted development along coasts
+- **[View this topic in your SBI Clerk roadmap](/roadmap/?exam=sbi-clerk&duration=1mo)** — see where "Science and Technology (General)" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=sbi-clerk&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[SBI Clerk exam overview](/exams/sbi-clerk/)** — pattern, eligibility, and syllabus
+- **[All General Awareness notes](/notes/sbi-clerk/general-awareness/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

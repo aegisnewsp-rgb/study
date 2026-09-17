@@ -14,112 +14,113 @@ lastUpdated: "2026-09-17"
 # Economics: Demand, Supply, and Market Equilibrium
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+> Pe is the single price at which buyers and sellers agree; the diagram that anchors every A/L essay sits on this one intersection.
 
-**Demand** is the quantity of a good consumers are willing and able to buy at each possible price, holding other factors constant (ceteris paribus). **Supply** is the quantity producers are willing and able to sell at each possible price. **Market equilibrium** is the unique price **Pe** at which quantity demanded equals quantity supplied, giving equilibrium quantity **Qe**.
+- **Equilibrium rule:** Qd(P) = Qs(P). The price that solves this is Pe (LKR/unit) and the quantity exchanged is Qe (units).
+- **Linear shortcut:** If Qd = a − bP and Qs = c + dP, then Pe = (a − c)/(b + d) and Qe is found by substituting Pe back into either equation.
+- **Movement vs shift:** A change in the good's *own* price moves you *along* the curve. A change in income, tastes, related-good prices, expectations or number of buyers *shifts* the whole curve.
+- **Welfare triangles:** Consumer Surplus = area under demand above Pe; Producer Surplus = area above supply below Pe. Both shrink when government imposes a binding price ceiling or price floor.
 
-| Term | Definition | Symbol / Formula |
+| Term | Symbol | Meaning |
 |---|---|---|
-| Demand function | Qd as a function of price and other factors | Qd = f(P, Y, Pr, T, E, N) |
-| Supply function | Qs as a function of price and other factors | Qs = g(P, Pf, T, Ns, E) |
-| Linear demand | Downward-sloping line | Qd = a − bP |
-| Linear supply | Upward-sloping line | Qs = c + dP |
-| Equilibrium | Set Qd = Qs | Pe = (a − c) / (b + d); Qe substitute back |
+| Equilibrium price | Pe | LKR/unit where Qd = Qs |
+| Equilibrium quantity | Qe | Units traded at Pe |
+| Demand slope | b | Units of Q per LKR (in Qd = a − bP) |
+| Supply intercept | c | Units supplied when P = 0 |
 
-> 💡 **High-Yield Memory Hook:** **"Demand Down, Supply Up" (DDSU)** — demand curves slope **Down**, supply curves slope **Up**, equilibrium is where they **meet** on the (P, Q) graph. For the formula: **Pe = (a − c) ÷ (b + d)** — remember "**a**pples − **c**arrots over **b**ananas + **d**ates".
+> 💡 **High-Yield Memory Hook:** "P moves you; non-P shifts you." Price is the only endogenous variable — everything else (Income, Related prices, Tastes, Expectations, Number of buyers — **I-R-T-E-N**) shifts the demand curve. Same idea for supply: input prices, technology, taxes, expectations, number of sellers.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+> Most A/L questions award marks for one diagram plus a one-line justification per shift factor; get that pair right and half the essay is done.
 
-#### Core Laws and Curves
+#### The two laws in one paragraph
 
-The **Law of Demand** states that, ceteris paribus, the quantity demanded of a good falls as its price rises. The negative slope comes from the **substitution effect** (consumers switch to cheaper alternatives) and the **income effect** (real purchasing power falls when price rises). The **Law of Supply** states that quantity supplied rises as price rises, driven by the **profit motive** and entry of new firms attracted by higher prices.
+The Law of Demand states that, ceteris paribus, quantity demanded and price move in opposite directions — buyers chase substitutes as a good gets dearer (substitution effect) and feel poorer in real terms (income effect). The Law of Supply states the opposite: a higher price pulls more output from existing firms and draws new entrants chasing profit. Both laws assume "other things equal," which is why any non-price factor has to be handled as a curve *shift*, not a movement.
 
-#### Movement Along vs Shift of a Curve
+#### Determinants that actually shift the curves
 
-A **movement along** the demand or supply curve is caused by a change in the **good's own price**. A **shift of the curve** is caused by **non-price determinants** only. This distinction is the single most tested idea in A/L Economics MCQs.
+| Demand shifts right when… | Supply shifts right when… |
+|---|---|
+| Consumer income Y rises (for a normal good) | Input prices Pf fall |
+| Price of a substitute rises | Technology improves |
+| Price of a complement falls | A subsidy is granted |
+| Tastes T favour the good | Number of sellers Ns rises |
+| Buyers expect higher future prices | Producers expect lower future prices |
 
-#### Determinants That Shift Curves
+> 📌 **Formula Check:** Linear demand Qd = a − bP. Here a is autonomous demand (units) and b is the slope (units per LKR); both b > 0 and the slope on the (P, Q) diagram is therefore downward.
 
-| Determinant | Effect on Demand | Effect on Supply |
-|---|---|---|
-| Consumer income (Y) | Rises for normal goods, falls for inferior goods | No direct effect |
-| Price of related goods (Pr) | Substitutes ↑ → demand right; complements ↑ → demand left | No direct effect |
-| Tastes / preferences (T) | Favourable shift right, unfavourable shift left | No direct effect |
-| Input prices (Pf) | No direct effect | Pf rises → supply shifts left |
-| Technology (T) | No direct effect | Improvement → supply shifts right |
-| Number of buyers / sellers (N, Ns) | N rises → demand right | Ns rises → supply right |
-| Taxes / subsidies | No direct effect | Tax → supply left; subsidy → supply right |
-| Expectations (E) | Expect higher future price → demand right | Expect higher future price → supply left |
+#### Equilibrium arithmetic, step by step
 
-> 📌 **Formula Check:** For linear demand Qd = a − bP, the slope **b** must be positive so Qd falls as P rises. Units: **a** in units of quantity, **b** in units per LKR, **P** in LKR/unit. Pe comes out in LKR/unit and Qe in units.
+Start from two linear schedules. Suppose Qd = 80 − 2P and Qs = 10 + 3P, with P in LKR/unit and Q in units.
 
-#### Solving Linear Equilibrium
+1. Set Qd = Qs: 80 − 2P = 10 + 3P.
+2. Collect P: 80 − 10 = 3P + 2P → 70 = 5P.
+3. Solve Pe = 14 LKR/unit.
+4. Back-substitute into Qs: Qe = 10 + 3(14) = 52 units.
 
-Set Qd = Qs: a − bP = c + dP, giving **Pe = (a − c) / (b + d)**. Substitute back to get **Qe = a − bPe**. Always sanity-check by plugging Pe into both equations — they must give the same Q.
+Check with Qd: 80 − 2(14) = 52 ✓. The diagram has P on the vertical axis and Q on the horizontal, with the demand curve cutting the P-axis at a/b = 40 and the supply curve cutting the Q-axis at c = 10.
 
-#### 🎯 Exam-Level Worked Problem
+#### 🎯 Worked problem — subsidy in the rice market
 
-**Question:** Demand for rice is Qd = 500 − 4P and supply is Qs = 100 + 2P, where P is in LKR/kg and Q is in thousands of kg per month. (i) Find the equilibrium price and quantity. (ii) The government introduces a subsidy of LKR 10/kg to producers, shifting supply to Qs' = 140 + 2P. Find the new equilibrium and state who gains.
+The Department decides to grant a per-unit subsidy of s = 4 LKR on rice. Using the schedules above (treated as the rice market), show the new equilibrium and the cost to the Treasury.
 
-#### Solution:
+- Original Pe = 14, Qe = 52.
+- A subsidy to producers shifts supply right; the supply equation becomes Qs' = 10 + 3(P + 4) = 22 + 3P, because producers now accept a market price 4 LKR lower for any given quantity.
+- Re-solve: 80 − 2P = 22 + 3P → 58 = 5P → Pe' = 11.6 LKR/unit.
+- Qe' = 80 − 2(11.6) = 56.8 units.
+- Buyers pay less (11.6 < 14), sellers receive 15.6, and the Treasury outlay equals s × Qe' = 4 × 56.8 = 227.2 LKR.
 
-**Step 1 — Initial equilibrium.** Set Qd = Qs:
-500 − 4P = 100 + 2P → 400 = 6P → **Pe = 66.67 LKR/kg**.
-Qe = 500 − 4(66.67) = **233.33 thousand kg/month**.
+> ⚠️ **Examiner Trap:** Students write the new supply as Qs' = 10 + 3P − 4, treating the subsidy as a tax. Subsidies to producers *raise* the intercept; taxes *lower* it. Sign errors here are the most common reason a 6-mark calculation loses 3.
 
-**Step 2 — After subsidy.** New supply: 140 + 2P.
-500 − 4P = 140 + 2P → 360 = 6P → **Pe' = 60 LKR/kg**.
-Qe' = 500 − 4(60) = **260 thousand kg/month**.
+#### Elasticity at the equilibrium point
 
-**Step 3 — Interpretation.** Price falls by LKR 6.67/kg and quantity rises by ~26.67 thousand kg. Consumers pay less, producers receive Pe + subsidy ≈ 70 LKR/kg, and total quantity traded expands. Both sides gain; government bears the subsidy cost.
+Price Elasticity of Demand is Ed = (dQd/dP) × (P/Qd). Using Qd = 80 − 2P at the original equilibrium gives Ed = (−2) × (14/52) = −0.538. The absolute value sits below 1, so the rice market is inelastic at Pe: a 1% price rise cuts quantity by roughly 0.54%, and total revenue TR = P × Q falls when P rises.
 
-> ⚠️ **Examiner Trap:** Students often write Qe = (a − c)/(b + d) instead of using that expression **only for Pe**. Qe must be found by substituting Pe back into either Qd or Qs. Also, do not confuse "subsidy shifts supply right" with "subsidy shifts demand right" — it shifts supply because it lowers producers' effective cost.
+#### Distinguishing the four "changes"
+
+| Phrase | What changes | Curve action | Caused by |
+|---|---|---|---|
+| Change in quantity demanded | Q only | Movement along D | Own price P |
+| Change in demand | Whole relationship | Shift of D | Y, Pr, T, E, N |
+| Change in quantity supplied | Q only | Movement along S | Own price P |
+| Change in supply | Whole relationship | Shift of S | Pf, T, taxes, E, Ns |
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
+> The model is the same in every market — what changes is which determinant is binding. A 2025 essay on coconut prices and a 1990 essay on rice prices both reduce to the same diagram logic.
 
-#### Consumer and Producer Surplus
+#### Edge cases the MCQ paper loves
 
-**Consumer surplus (CS)** is the triangular area between the demand curve and the equilibrium price, from Q = 0 to Q = Qe. For a linear demand curve it equals ½ × (vertical intercept − Pe) × Qe. **Producer surplus (PS)** is the triangle between the equilibrium price and the supply curve over the same range. **Total welfare = CS + PS** is maximised at competitive equilibrium. A tax or price control that moves the market off equilibrium creates a **deadweight loss** — the triangular slice of welfare that disappears because mutually beneficial trades no longer occur.
+- **Perfectly inelastic demand:** Ed = 0 (vertical demand curve). Seen in life-saving insulin and, in Sri Lankan exam questions, sometimes in paddy purchases by the Paddy Marketing Board at a guaranteed floor.
+- **Perfectly elastic demand:** Ed = ∞ (horizontal demand curve). The textbook case is a single firm in pure competition; a price ceiling set above Pe is irrelevant because the market price is already below it.
+- **Giffen / Veblen goods:** break the Law of Demand. They are rare in A/L papers but appear as "explain why an upward-sloping demand curve is *possible*" — answer with negative income effect overpowering substitution effect (Giffen) or conspicuous consumption (Veblen).
+- **Shifts that look like movements:** a sales tax collected from consumers shifts demand left by the full tax amount, while one collected from producers shifts supply left by the same amount — but the *equilibrium* incidence is shared according to relative elasticities, not paid entirely by the legally named party.
+- **Joint supply and derived demand:** coconut and *copra*, or paddy and straw, have linked supply curves; a question on "rice and flour as complements in consumption" tests whether you treat Pr (price of related good) correctly on the demand side.
 
-#### Government Price Controls
+#### Numerical boundary conditions
 
-A **price ceiling** set below Pe (e.g. controlled rice price) creates a persistent **shortage**: Qd > Qs. Black markets, queuing, and quality deterioration follow. A **price floor** set above Pe (e.g. a guaranteed paddy purchase price) creates a persistent **surplus**: Qs > Qd, often bought and stockpiled by the government at taxpayer expense.
+| Condition | Numerical form | Economic meaning |
+|---|---|---|
+| Equilibrium exists (linear) | b + d ≠ 0 | Slopes are finite and of opposite sign |
+| Price ceiling binding | P_ceiling < Pe | Causes persistent shortage = Qd − Qs |
+| Price floor binding | P_floor > Pe | Causes persistent surplus = Qs − Qd |
+| Unit-elastic demand point | P = a/(2b) on Qd = a − bP | TR is maximised here |
+| Cross-price elasticity sign | Xed > 0 → substitutes; < 0 → complements | Used to define related goods |
 
-| Control | Set at | Result | Example (Sri Lanka) |
-|---|---|---|---|
-| Price ceiling | Below Pe | Shortage, black market | Subsidised bread, controlled fuel |
-| Price floor | Above Pe | Surplus, stock-piling | Guaranteed paddy price |
-| Tax on producers | — | Pe rises, Q falls, revenue to govt | VAT, excise |
-| Subsidy to producers | — | Pe falls, Q rises, govt cost | Fertiliser subsidy |
+#### Two advanced practice prompts
 
-#### Elasticity — Advanced Traps
+1. The government imposes a price ceiling of 10 LKR/unit on the rice market from the Standard tier (Pe was 14). Calculate the shortage, the change in consumer surplus, and the deadweight loss. Sketch the diagram with the ceiling line and shade both the transferred CS and the lost triangle.
+2. Coconut supply is hit simultaneously by a poor monsoon (shifts S left) and a rise in consumer income for a normal good (shifts D right). State the unambiguous effect on Qe, and explain why Pe could rise, fall or stay the same depending on the relative shift sizes.
 
-| Trap | Correct Treatment |
-|---|---|
-| Using |Ed| when sign matters | Always report Ed as a negative number for normal goods; use absolute value only when classifying elastic / unit / inelastic |
-| Mixing point and arc elasticity | Point: Ed = (dQ/dP) × (P/Q) at one point. Arc (midpoint): averages P and Q across the two points |
-| Saying "elasticity has units" | Elasticity is **dimensionless** — it is a ratio of two percentages |
-| Confusing Ed with slope | A steep curve can still be elastic near the price axis; elasticity depends on the P/Q ratio, not the slope alone |
-| Forgetting Es = 0 for fixed supply | In the very short run (e.g. perishable fish landed today), supply is perfectly inelastic |
+#### Common mistakes worth memorising before the exam
 
-#### Edge Cases and Market Extensions
-
-In **factor markets** the demand curve slopes down (derived demand) and the supply curve slopes up (from households offering labour). In **foreign exchange markets**, demand for foreign currency comes from importers and supply from exporters — a depreciation shifts the trade balance through the Marshall–Lerner condition, which requires the sum of import and export demand elasticities to exceed 1. For **joint products** (e.g. beef and hides), an increase in beef demand can shift the supply of hides rightward because hides become a by-product.
-
-#### Advanced Practice Prompts
-
-1. Suppose the government removes a fertiliser subsidy and input prices rise by 20%. Using Qd = 600 − 5P and Qs = 80 + 3P, calculate the new Pe and Qe, and sketch the deadweight loss relative to the original equilibrium.
-2. Coconut supply falls sharply after a drought in the Puttalam district. Show on a (P, Q) diagram the effect on Pe, Qe, consumer surplus, and discuss who in Sri Lanka bears the larger burden — urban consumers or rural producers.
-
-> 💡 **High-Yield Revision Hook:** When a question describes a non-price event (income change, subsidy, drought, new technology), the curve **shifts**; when only the good's own price changes, you **slide along** the same curve. Equilibrium always re-equalises Qd and Qs at a new Pe and Qe.
-
----
+- Writing Pe = (a − c)/(b + d) but then quoting that value as Qe — Pe is in LKR/unit, Qe is in units, and they are dimensionally different.
+- Forgetting that elasticity is dimensionless and using ΔQ/ΔP directly without multiplying by P/Q at the same point.
+- Treating a price ceiling set *above* Pe as binding — it is not; the market still clears at Pe.
+- Drawing axes with Q vertical and P horizontal, the reverse of the textbook convention, and losing diagram marks.
 
 ## Continue your study
 
@@ -128,4 +129,5 @@ In **factor markets** the demand curve slopes down (derived demand) and the supp
 - **[A/L Examination (Sri Lanka) exam overview](/exams/al-exam/)** — pattern, eligibility, and syllabus
 - **[All Commerce-Stream notes](/notes/al-exam/commerce-stream/)** — browse sibling topics in this subject
 
+---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

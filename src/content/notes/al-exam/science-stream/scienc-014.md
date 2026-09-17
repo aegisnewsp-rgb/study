@@ -14,115 +14,98 @@ lastUpdated: "2026-09-17"
 # Environmental Ecology and Ecosystem Dynamics
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your A/L Biology paper.
+> One-screen survival sheet for the morning of the paper.
 
-An **ecosystem** is a functional unit of interacting **biotic components** (producers, consumers, decomposers) and **abiotic components** (light, temperature, water, soil, nutrients). Energy flows in **one direction** (sun → producers → consumers → heat), while matter (C, N, P, H₂O) **cycles biogeochemically**.
+Energy moves one way through an ecosystem; matter loops back around. That single sentence is the spine of this unit, because every diagram, formula and essay question on the A/L Biology paper hangs off it.
 
-| Term | Definition | Unit / Symbol |
-|---|---|---|
-| GPP | Total organic matter synthesised by producers | g m⁻² yr⁻¹ or J m⁻² yr⁻¹ |
-| NPP | GPP − R (respiration); energy passed to next trophic level | g m⁻² yr⁻¹ or J m⁻² yr⁻¹ |
-| 10% Law | ~10% of energy transfers between trophic levels | dimensionless ratio |
-| Logistic growth | dN/dt = rN(K − N)/K | N in individuals, K in individuals, r in t⁻¹ |
-| Carrying capacity (K) | Maximum sustainable population size | individuals |
+- **Trophic flow (10% law, Lindeman):** only about 10% of energy passes from one trophic level to the next; the rest is lost as heat through respiration. So a simple energy pyramid reads **100 → 10 → 1 → 0.1** (kcal m⁻² yr⁻¹ or J m⁻² yr⁻¹).
+- **Population growth:** in unlimited resources, dN/dt = rN gives a **J-curve**; with finite resources, dN/dt = rN(K − N)/K gives an **S-curve** that flattens at **K**, the carrying capacity (individuals).
+- **Productivity:** **NPP = GPP − R** (units g m⁻² yr⁻¹ or J m⁻² yr⁻¹). NPP is what herbivores actually eat.
+- **Cycles vs flow:** carbon, nitrogen and water cycle through gaseous pools; phosphorus is mostly sedimentary. Biogeochemical cycles are circular; energy pyramids are not.
+- **Succession:** primary starts on bare rock (lithosere), secondary starts where soil survives. Both end in a **climax community**.
 
-> 💡 **High-Yield Memory Hook:** **"GCNP-10"** — GPP minus R gives NPP, and NPP follows the **10%** rule: 100 → 10 → 1 → 0.1 kcal m⁻² yr⁻¹ across four trophic levels.
-
-Other core recall anchors:
-- **Pioneer species** on bare rock: **lichens** (xerarch). **Pioneer species** in water: **phytoplankton** (hydrarch).
-- **Climax community** = stable, self-reproducing end-stage of succession.
-- **Keystone species** = low biomass, disproportionate control (e.g., sea otter, tiger).
+> 💡 **Memory Hook (Lindeman's 10%):** "**T**en **L**ives **E**ach **L**evel" — *Ten Lives Each Level* keeps the 10% energy transfer recallable during the paper. For cycles, remember **C-N-W-P = "Can Not Waste Phosphorus"** — only phosphorus lacks a major atmospheric gas phase.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard treatment for students preparing structured and essay questions.
+> Working understanding of the mechanisms, the formula derivations and the question patterns the Department of Examinations repeats.
 
-#### Ecosystem Structure and Function
+#### Ecosystem architecture and energy units
 
-Ecosystems have **two inseparable components**. The **biotic component** comprises producers (photoautotrophs, chemoautotrophs), consumers (primary herbivores, secondary carnivores, tertiary carnivores), and decomposers (saprotrophs: bacteria, fungi). The **abiotic component** includes solar radiation, temperature, water, soil pH, mineral nutrients, wind, and topography.
+An ecosystem has **biotic** components — producers (autotrophs), consumers (primary, secondary, tertiary) and decomposers — sitting inside **abiotic** components: light, temperature, water, soil and mineral nutrients. Energy enters as solar radiation (J m⁻² yr⁻¹) and exits as low-grade heat; matter is recycled.
 
-Two foundational laws govern distribution:
-- **Liebig's Law of the Minimum**: the nutrient in shortest supply limits growth.
-- **Shelford's Law of Tolerance**: each species has a minimum, optimum, and maximum tolerance for every abiotic factor; the factor furthest from optimum is the **limiting factor**.
+Productivity follows a strict accounting chain:
 
-#### Population Growth Models
-
-| Model | Equation | Curve shape | Conditions |
+| Term | Definition | Formula | Typical units |
 |---|---|---|---|
-| Exponential | dN/dt = rN ; N(t) = N₀·e^(rt) | **J-shaped** | Unlimited resources, no density dependence |
-| Logistic | dN/dt = rN(K − N)/K | **S-shaped** | Density-dependent, approaches carrying capacity K |
-| Zero growth | r = 0 | Flat | Natality + Immigration = Mortality + Emigration |
+| GPP | Total organic matter fixed by producers via photosynthesis | – | g m⁻² yr⁻¹ or J m⁻² yr⁻¹ |
+| R | Respiratory loss by producers | – | Same as GPP |
+| NPP | Energy stored in producer biomass, available to herbivores | NPP = GPP − R | g m⁻² yr⁻¹ or J m⁻² yr⁻¹ |
+| Lindeman efficiency | Fraction of energy transferred to next trophic level | ≈ 10% (range 5–20%) | dimensionless ratio |
 
-Where **r** = intrinsic rate of natural increase (t⁻¹), **N** = population size (individuals), **K** = carrying capacity (individuals), **t** = time (years). At **N = K/2**, growth rate is maximum; at **N = K**, dN/dt = 0.
+#### Population dynamics and the logistic model
 
-#### Comparison Matrix: Easily Confused Concepts
+Two formulas carry the entire population chapter:
 
-| Feature | Energy flow | Matter cycling |
-|---|---|---|
-| Direction | Unidirectional | Cyclic |
-| Form | Heat lost at each transfer | Elements conserved in ecosystems |
-| Governed by | Laws of thermodynamics | Biogeochemical cycles |
-| Requires continuous input | Sunlight | No external input needed |
-| Source term | Sun | Already in Earth's crust/atmosphere |
+- **D = N / A**, where N is the total count (individuals, dimensionless) and A is the sampled area (m² or km²). SI expression: individuals·m⁻² or individuals·km⁻².
+- **dN/dt = rN(K − N)/K**, where r is the per-capita rate (t⁻¹), N is current size, K is carrying capacity (individuals) and the (K − N)/K factor is a dimensionless damping term. When N ≪ K, the equation collapses to exponential growth; when N → K, growth stalls.
 
-| Cycle | Gaseous phase? | Key processes | Sri Lanka relevance |
+#### Comparison matrix: cycles that examiners swap
+
+| Feature | Carbon | Nitrogen | Phosphorus |
 |---|---|---|---|
-| Carbon | Yes (CO₂, CH₄) | Photosynthesis, respiration, combustion, ocean exchange | Deforestation in wet zone reduces C sink |
-| Nitrogen | Yes (N₂, N₂O) | Fixation, nitrification (NH₄⁺ → NO₃⁻), denitrification (NO₃⁻ → N₂) | Fertiliser run-off in paddy systems |
-| Phosphorus | **No** (sedimentary) | Weathering, uptake, sedimentation | Limited in tropical laterite soils |
-| Water | Yes (H₂O vapour) | Evaporation, transpiration, condensation, precipitation | Monsoon-driven tropical recycling |
+| Main atmospheric pool | CO₂ (gas) | N₂ (gas) | Essentially none |
+| Key microbial step | – | N₂ fixation by *Rhizobium* / *Azotobacter*; nitrification (*Nitrosomonas* NH₄⁺ → NO₂⁻, *Nitrobacter* NO₂⁻ → NO₃⁻) | Mineralisation by decomposers |
+| Return to pool | Respiration, combustion, dissolution | Denitrification (NO₃⁻ → N₂, anaerobic) | Erosion, sedimentation |
+| Cycle type | Gaseous | Gaseous | Sedimentary |
 
-#### 🎯 Exam-Level Worked Problem
+> ⚠️ **Examiner Trap:** students flip nitrification and denitrification. **Nitrification is aerobic** (needs O₂), **denitrification is anaerobic** (NO₃⁻ replaces O₂). Writing them the other way round loses the mark for "process identification."
 
-**Question:** In a grassland, producers fix 20,000 kJ m⁻² yr⁻¹ as GPP and lose 8,000 kJ m⁻² yr⁻¹ through respiration (R). Calculate (i) NPP available to primary consumers, and (ii) the energy expected at the secondary consumer level using Lindeman's 10% law.
+#### Worked problem — NPP, Lindeman efficiency and trophic loss
 
-#### Solution:
+A grassland fixes **2,500 g m⁻² yr⁻¹** of organic matter as GPP and loses **1,800 g m⁻² yr⁻¹** through producer respiration.
 
-(i) **NPP = GPP − R**  
-NPP = 20,000 − 8,000 = **12,000 kJ m⁻² yr⁻¹**
+1. NPP = GPP − R = 2,500 − 1,800 = **700 g m⁻² yr⁻¹**.
+2. Energy reaching primary consumers, using Lindeman's 10% law: 700 × 0.10 = **70 g m⁻² yr⁻¹**.
+3. Energy reaching secondary consumers: 70 × 0.10 = **7 g m⁻² yr⁻¹**.
+4. Energy reaching tertiary consumers: 7 × 0.10 = **0.7 g m⁻² yr⁻¹**.
 
-(ii) Applying the **10% law** stepwise:
-- Energy at primary consumers (T₂) = 12,000 × 0.10 = **1,200 kJ m⁻² yr⁻¹**
-- Energy at secondary consumers (T₃) = 1,200 × 0.10 = **120 kJ m⁻² yr⁻¹**
+The ratio 2,500 : 700 : 70 : 7 : 0.7 matches the canonical Lindeman pyramid pattern.
 
-> ⚠️ **Examiner Trap:** Students often subtract respiration twice (writing 20,000 − R − 10%) or apply the 10% rule to the **original GPP**. The rule must be applied to **NPP**, since respiration has already removed energy not transferred to the next trophic level.
-
-#### Ecological Succession at a Glance
-
-- **Primary succession**: bare substrate (lava, rock, sand dune). Pioneer = lichens (on rock) or mosses. Stages: lithosere → mosses → herbs → shrubs → trees. **Slow**, soil must form first.
-- **Secondary succession**: soil already present after fire, flood, agriculture. Pioneer = herbaceous weeds. **Faster** because soil and seed bank survive.
-- **Xerarch**: starts on dry habitat (lithosere on rock).
-- **Hydrarch**: starts in water (hydrosere: phytoplankton → submerged → floating → reed → woodland → mesic forest).
-- **Climax community**: stable end point in equilibrium with regional climate.
+> ⚠️ **Examiner Trap:** the 10% rule applies to **energy**, never to **numbers of organisms**. A single tree can support thousands of insects, so a pyramid of numbers there is inverted, even though the corresponding energy pyramid stays upright.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> For essay-style answers, edge cases, and A/L past-paper analysis.
+> Edge cases, mathematical limits and the traps that distinguish an A from a B.
 
-#### Advanced Traps and Exceptions
+#### When the textbook model breaks
 
-1. **Inverted pyramids of numbers and biomass are mathematically valid.** A single tree (T₁) supports thousands of insects (T₂) — numbers pyramid inverts. In marine ecosystems, phytoplankton biomass at any instant is smaller than zooplankton biomass that consumes it, so biomass pyramid inverts. **Energy pyramids, however, are always upright** because of the second law of thermodynamics.
-2. **Denitrification is anaerobic, nitrification is aerobic.** *Nitrosomonas* converts NH₄⁺ → NO₂⁻; *Nitrobacter* converts NO₂⁻ → NO₃⁻. Denitrifying bacteria (e.g., *Pseudomonas*, *Thiobacillus*) reduce NO₃⁻ → N₂O or N₂ under low O₂, often in waterlogged rice soils of Sri Lanka's dry zone.
-3. **The 10% law is a generalisation, not a constant.** Real ecological efficiency ranges **5–20%** depending on the organism group (invertebrates ~10–20%, endotherms ~1–3% because of high metabolic cost). Examiners reward students who give a **range**, not a single fixed value.
-4. **r-strategists vs K-strategists.** r-selected species (mosquitoes, weeds) thrive in unstable habitats with high r; K-selected species (elephants, tropical trees) thrive near K with low r. This links directly to logistic equation assumptions.
-5. **Eutrophication cascade**: nutrient enrichment → algal bloom → light blockage → plant death → decomposer oxygen demand → hypoxia → fish kill → biodiversity collapse. Sri Lanka's freshwater tanks (Walawe, Maduru Oya) have shown this pattern under agro-fertiliser runoff.
-6. **Keystone vs dominant species.** Dominant species have highest biomass (e.g., tropical tree); keystone species have low biomass but high ecological impact (e.g., sea otter controlling sea urchins). Removing a keystone species collapses community structure.
-7. **Biodiversity ≠ Productivity in all biomes.** Tundra: low biodiversity, low productivity. Tropical rainforest: high biodiversity, high productivity. Temperate grassland: low tree biodiversity but high grass productivity. Coral reef: very high species diversity on small area. Generalising "more biodiversity = more productivity" loses marks.
-8. **Carrying capacity K is dynamic, not fixed.** K shifts with climate, technology (agriculture), predation, and disease. Logistic growth assumes constant K, which is a useful approximation but rarely true for long-lived species.
+1. **Inverted pyramids of biomass.** Marine phytoplankton turn over so quickly that *at any instant* their standing biomass is lower than the zooplankton grazing on them. Annual productivity, however, still obeys the 10% law. The examiner will accept only the energy-pyramid version as "always upright."
+2. **K is not fixed.** Carrying capacity shifts with climate, technology and immigration. Logistic dN/dt = rN(K − N)/K assumes a constant K; real populations show irregular S-curves with plateaus that drift.
+3. **Pioneer paradox.** On bare lava (*xerarch / lithosere*), nitrogen-fixing lichens such as *Lecanora* arrive before mosses. Students forget that nitrogen supply, not just water, gates the sequence.
+4. **Liebig vs Shelford.** Liebig's Law of the Minimum says the scarcest resource sets the limit; Shelford's Law of Tolerance says each factor has a minimum, optimum and maximum. An A-grade answer cites both, then identifies which one is operative.
+5. **Hydrarch vs xerarch direction.** Hydrarch succession moves from aquatic → mesic; xerarch moves from dry rock → mesic. A common essay mistake is starting hydrarch "on dry rock" — that is xerarch.
 
-#### Practice Prompts
+| Succession type | Starting substrate | Example pioneer | Climax (Sri Lanka context) |
+|---|---|---|---|
+| Hydrarch (hydrosere) | Freshwater pond | *Hydrilla*, phytoplankton | Tropical moist evergreen forest |
+| Xerarch (lithosere) | Bare rock / lava | Crustose lichens, mosses | Dry mixed evergreen forest |
+| Secondary | Disturbed soil | Annual herbs, grasses | Depends on rainfall zone |
 
-1. **Structured question (10 marks):** A paddy field receives nitrogen fertiliser at 120 kg N ha⁻¹. Draw the nitrogen cycle for this system and explain how denitrification in flooded soil reduces fertiliser efficiency. Suggest one agronomic practice that minimises nitrogen loss.
-2. **Essay (15 marks):** Compare primary and secondary succession with named Sri Lankan examples. Explain why the energy pyramid is always upright while pyramids of numbers and biomass can be inverted, citing the second law of thermodynamics.
+#### Population limits at the boundaries
 
-#### Exam Strategy for A/L Biology
+- When N = K, dN/dt = 0 (population stable).
+- When N > K, the term (K − N)/K becomes negative and the population declines — useful for explaining why overstocked fisheries collapse without culling.
+- For r-strategists (insects, weeds), r is large and K is approached only briefly; for K-strategists (elephants, humans), r is small and the curve hugs K.
 
-- This unit contributes **roughly 3%** of the Biology paper across MCQ, structured and essay sections.
-- Most-tested items: **10% law calculations, NPP from GPP − R, identification of successional stages, and C/N cycle labelling**.
-- Allocate **6–8 minutes per 10-mark structured question** and **15 minutes per essay**.
-- Always draw labelled diagrams for cycles and pyramids — they secure 2–3 easy marks.
+#### Practice prompts
+
+1. A fertiliser plant releases nitrogen-rich effluent into a 2 km² wetland. Predict, with named mechanisms, how dissolved oxygen, fish diversity and algal biomass change over the next 18 months, and explain why the energy pyramid remains upright while the biomass pyramid may invert temporarily.
+2. A forest reserve of 50 km² has 800 deer (K = 1,200). Using dN/dt = rN(K − N)/K with r = 0.35 yr⁻¹, compute ΔN for the first year and state whether immediate culling is justified based on the sign of (K − N)/K.
+
+> 📌 **Formula Check:** confirm units at every step. r carries t⁻¹, N is dimensionless count, K is in individuals. The product rN(K − N)/K therefore carries units of individuals·t⁻¹, matching dN/dt.
 
 ---
 

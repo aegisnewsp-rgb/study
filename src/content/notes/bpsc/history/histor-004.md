@@ -14,91 +14,103 @@ lastUpdated: "2026-09-17"
 # Coming of the British & Revenue Settlements
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+> Fast-track map of how the East India Company turned from trader to tax-collector, and the three revenue systems it layered over India.
 
-The **Coming of the British** marks the East India Company's (EIC) shift from trader to territorial ruler between **1757 (Plassey) and 1793 (Permanent Settlement)**, secured through the **Diwani of 1765** that gave Bengal's revenue collection to the Company while the Nawab kept Nizamat (criminal justice) — the **Dual Government** phase. **Revenue Settlements** are the three land-revenue systems the British designed to extract agrarian surplus: **Permanent (Zamindari) 1793**, **Ryotwari 1820**, **Mahalwari 1829**.
+Buxar (1764) handed the Company the **Diwani of 1765** — revenue rights without sovereignty, producing the awkward **Dual Government** (Nizamat to the Nawab, Diwani to the Company, 1765–1772). Warren Hastings scrapped that in 1772 by collecting directly through a "Five Members" Committee; the resulting extraction helped trigger the **Bengal Famine of 1770** that wiped out roughly one-third of Bengal's population.
 
-| System | Year | Architect | Region | Settled With | Revenue Share of Gross Produce |
-|---|---|---|---|---|---|
-| Permanent (Zamindari) | 1793 | Lord Cornwallis | Bengal, Bihar, Odisha | Zamindar | 89 % (theoretical) |
-| Ryotwari | 1820 | Thomas Munro | Madras, Bombay, Assam | Individual ryot | 50–60 % |
-| Mahalwari | 1829 | Holt Mackenzie | NWP, Punjab, Oudh | Lambardar (village headman) | 66 % |
+Three revenue regimes followed:
 
-> 💡 **High-Yield Memory Hook:** **"Z-R-M = Z-Ruler-Mackenzie"** — **Z**amindari (Cornwallis 1793), **R**yotwari (Munro 1820), **M**ahalwari (Mackenzie 1829). Or recall by region: **Bengal-Bihar → Permanent**, **South → Ryot**, **North-West → Mahal**.
+- **Permanent Settlement, 1793 (Cornwallis)** — Bengal, Bihar, Odisha. Zamindars fixed as hereditary landlords.
+- **Ryotwari, 1820 (Munro)** — Madras, Bombay, Assam. State settled directly with the ryot.
+- **Mahalwari, 1829 (Holt Mackenzie)** — NWP, Punjab, Oudh. Settlement through the village lambardar.
 
-The **Cornwallis Code** separated revenue, judicial and police functions and created the cadre that became the Indian Civil Service (PCS → ICS).
+> 💡 **High-Yield Memory Hook (Memory Hook):** "**CB-MRM**" — **C**ornwallis-Bengal (Permanent, 1793), **M**unro-Ryot (1820), **M**ackenzie-Mahalwari (1829). Each initial pair ties architect to system and date.
+
+#### Three Settlements at a Glance
+
+| System | Architect & Year | Region | Settled With | Demand Basis |
+|---|---|---|---|---|
+| Permanent | Cornwallis, 1793 | Bengal, Bihar, Odisha | Zamindar | Fixed in perpetuity (₹ 2.68 → ₹ 3.40 crore by 1800) |
+| Ryotwari | Thomas Munro, 1820 | Madras, Bombay, Assam | Individual ryot | Soil-quality based, 20–30 year term |
+| Mahalwari | Holt Mackenzie, 1829 | NWP, Punjab, Oudh | Lambardar (village) | Whole-village demand, periodic revision |
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+> How a trading corporation became a rentier state, and why each land-revenue system was engineered the way it was.
 
-#### Timeline of British Entry into Bengal
+#### From Trader to Tax-Gatherer: 1757–1772
 
-The EIC's commercial presence hardened into political control after **Plassey (1757)** — won by Robert Clive through Mir Jafar's treason — and **Buxar (1764)**, where Shah Alam II, Shuja-ud-Daula and Mir Qasim were defeated. The **Treaty of Allahabad (1765)** then granted the Company the **Diwani** (revenue rights) of Bengal, Bihar and Odisha. Warren Hastings created the **Dual Government (1765–1772)** to deflect responsibility for famines onto the Nawab. The **1770 Bengal Famine** killed an estimated one-third of the population; it pushed Hastings to abolish Dual Government in **1772** and attempt direct collection through the "Five Members" Committee. Five-yearly and then ten-yearly (decennial) settlements failed, culminating in Cornwallis's **Permanent Settlement of 1793**.
+The **Battle of Plassey (1757)** gave Robert Clive de facto Bengal; **Buxar (1764)** gave the Company de jure authority through the **Treaty of Allahabad, 1765**. Shah Alam II granted the **Diwani** — rights to revenue and civil justice of Bengal, Bihar and Odisha — but Nizamat (criminal justice and administration) stayed with the Nawab. This split, called **Dual Government** and run from 1765 to 1772, let the Company skim revenue while disclaiming responsibility for governance.
 
-#### Comparison Matrix: The Three Revenue Systems
+Warren Hastings abolished the arrangement in **1772** with a "Five Members" Committee sitting at Calcutta and collecting directly. The push for maximum surplus, combined with a monsoon failure, produced the catastrophic **Bengal Famine of 1770** in which about 10 million people died — roughly one-third of the province.
+
+#### The Three Settlements Compared
 
 | Feature | Permanent (1793) | Ryotwari (1820) | Mahalwari (1829) |
 |---|---|---|---|
-| Architect | Lord Cornwallis | Thomas Munro | Holt Mackenzie |
-| Unit of settlement | Zamindari estate | Individual field (ryot) | Whole village |
-| Tenure | Hereditary, perpetual | 20–30 year leases | Periodic revision |
-| Owner of land | Zamindar | Ryot (cultivator) | Village community via lambardar |
-| Revenue share demanded | 89 % of gross produce (rental) | 50–60 % of gross produce | 66 % of gross produce |
-| Document issued | Patta (to zamindar) + Quabuliyat | Field-level patta | Village roll |
-| Key drawback | Auction of zamindari, absentee landlordism, indebtedness | High survey cost, peasant eviction | Heavy lambardar dominance, unequal burden within village |
-| Region | Bengal, Bihar, Odisha, Benares | Madras, Bombay, Assam | NWP, Punjab, parts of Oudh |
+| Legal owner of land | Zamindar (hereditary) | Ryot (individual cultivator) | Village community (via lambardar) |
+| Fixity of demand | Permanent — never revisable | Periodic, 20–30 years | Periodic, village-by-village |
+| Survey method | Rough, field-level rare | Field-by-field, soil classification | Village survey, average soil quality |
+| Region | Bengal, Bihar, Odisha | Madras, Bombay, Assam | NWP, Punjab, parts of Oudh |
+| Headline failure | Auction-sale of zamindaris; absentee landlords | Ryot indebtedness; no concession in famines | Lambardar monopoly; intra-village inequality |
+| Revenue aim (% of gross produce) | ~89% (theoretical, never realised) | 50–60% | ~66% |
 
-#### Documents and Devices of Control
+#### Permanent Settlement Mechanics (Cornwallis, 1793)
 
-- **Patta** — written engagement given by the zamindar/Company to the cultivator stating the demand.
-- **Quabuliyat** — counter-engagement by the cultivator acknowledging liability.
-- **Dastak** — passes allowing free movement of Company goods, frequently misused to evade inland duties.
-- **Concealed Reserved Rent** — illegal retentions by zamindars against the "permanent" demand, leading to estate auctions.
+Cornwallis treated the zamindar as the **proprietor** whose own rent demand (the *jama*) minus a 10% **malikhana** became the state's perpetual demand. Failure to pay on **Pohela Baishakh** (Bengali new year) meant public auction of the estate. The instruments formalising tenancy were the **patta** (state deed to zamindar) and the **quabuliyat** (zamindar's deed to ryot), with the rent fraction termed **concealed reserved rent** when unrecorded.
 
-#### 🎯 Exam-Level Worked Problem
+**Land Revenue Demand** = Total Rent (Sair + Jama) − Malikhana (10% zamindari share), in ₹ per bigha per annum.
+**Net Remittance** = Gross Land Revenue Collected − Cost of Collection (muqarrari + sazawali charges), in ₹ lakh per district.
 
-**Question (BPSC Prelims-style):** *Who introduced the Permanent Settlement, in which year, and what proportion of the gross produce did it theoretically demand?*
-(a) Warren Hastings, 1772, 50 % — (b) Lord Cornwallis, 1793, 89 % — (c) Thomas Munro, 1820, 60 % — (d) Holt Mackenzie, 1829, 66 %.
+Within seven years the Company raised the demand from ₹ 2.68 crore to ₹ 3.40 crore, and by 1820 nearly half the zamindari estates in Bengal had changed hands through auction.
 
-**Solution:** The Permanent (Zamindari) Settlement was introduced by **Lord Cornwallis in 1793**, after Warren Hastings' 1772 attempt was aborted. The demand was fixed in perpetuity at **₹ 2.68 crore (raised to ₹ 3.40 crore by 1800)**, theoretically equal to **89 % of the gross rental value of produce** in Bengal. Correct answer: **(b)**.
+#### Worked Exam Question
 
-> ⚠️ **Examiner Trap:** Students frequently mark (a) because they confuse Warren Hastings' first five-yearly experiment (1772) with the permanent settlement proper. Also, the 89 % figure is *theoretical* — actual realisation never crossed 40–50 %, but in an MCQ, the textbook figure (89 %) is what the examiner rewards.
+**Q.** *Critically analyse why Cornwallis chose the Permanent Settlement over a direct ryot-based arrangement. Illustrate with Bihar evidence.*
+
+**Resolution sketch.** Cornwallis wanted three things at once — a class politically dependent on the Company, a fixed surplus immune to Mughal-style revision, and minimal administrative footprint. A permanent, heritable zamindar offered exactly that: a rentier intermediary whose interest lay in raising collection rather than questioning the state. The price was deindustrialisation of Bengal's textile economy, eviction of small ryots at the quabuliyat stage, and the **Santhal**, **Chota Nagpur** and **Tirhut** uprisings when Bihar's tribal and small-peasant belt could not meet the new cash demand.
+
+> ⚠️ **Examiner Trap:** Candidates often equate Permanent Settlement with a *peasant-friendly* reform. In law it vested ownership in the zamindar, not the ryot — ryots became tenants-at-will, liable to eviction on a single default. Any answer that frames 1793 as pro-peasant scores poorly.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
+> Edge cases, region-specific mutations, and the long shadow of settlement policy on modern Bihar.
 
-#### Regional Application and Bihar Specifics
+#### The 89% Myth and the Real Extraction Rate
 
-Bihar sits at the heart of the Permanent Settlement, with the districts of **Tirhut, Bhagalpur, Patna and Chota Nagpur** among the first surveyed. Zamindari auctions after the 1790s produced the **absentee landlord (distant rajput and Calcutta-based) class** whose exactions triggered the **Santhal Rebellion (1855–56)** and recurring agrarian unrest in Tirhut and the Chota Nagpur plateau. Indigo cultivation (forced *tinkathia* system) further impoverished the Bihar ryot; the **Champaran Satyagraha (1917)** by Gandhiji was a direct legacy.
+Permanent Settlement's nominal demand targeted ~89% of estimated gross produce. Realised collections hovered between 40–50%, because zamindars understated gross produce at the survey stage and pocketed the gap as concealed reserved rent. Mains answers that quote 89% as the actual extraction rate lose marks; the honest phrasing is "a *theoretical* demand of ~89%, realised at 40–50%."
 
-#### Edge Cases and Conceptual Limits
+#### Region-Specific Mutations Worth Naming
 
-1. **89 % was never realised.** Permanent in law, *not* in fact — collections averaged 40–50 % of gross produce; the rest was concealed rent, illegal cesses (*abwabs*) and litigation losses.
-2. **The Company was a tax-farmer, not a sovereign**, until the Regulating Act 1773 and Pitt's India Act 1784 gradually made it answerable to Parliament.
-3. **Cornwallis's "ban on slavery"** and European private trade restrictions (Clive's 1765 prohibition re-tightened) aimed at building a non-corrupt covenanted service — the seed of the **PCS/ICS**.
-4. **Diwani vs. Nizamat:** Diwani = revenue + civil justice; Nizamat = criminal justice + police. The bifurcation was administrative, not constitutional.
+- **Bihar's Jungle-Bohar tracts** (Chota Nagpur, Santhal Pargana): Permanent Settlement clashed with khuntkatti and beth begari customary tenures, producing the **Santhal Rebellion (1855–56)** before the tract was administratively separated in 1855.
+- **Tirhut and North Bihar**: Indigo (neel) cultivation was forced on ryots by *tinkathia* contracts under zamindar pressure; the **Champaran Indigo Satyagraha (1917)** was the long echo of Permanent Settlement's cash-crop logic.
+- **Madras Ryotwari**: Munro's settlement assumed an owner-cultivator who did not exist across most of the Deccan — the field became a revenue unit, not a social unit, and joint-family cultivators were treated as single ryots.
+- **Punjab Mahalwari**: After 1849, the settlement was tied to canal colonies; the *bhai-bara* and *panchayati* tenures were flattened into a single lambardar, alienating the Sikh peasantry from customary revenue arbitration.
 
-#### Advanced Traps in Mains Answers
+#### Common Mistakes BPSC Examiners Exploit
 
-| Trap | What Students Write | Correct Reading |
-|---|---|---|
-| "Permanent Settlement protected the peasant" | Confuse patta with ownership | It vested title in the *zamindar*; ryot became tenant-at-will |
-| "British modernised land relations" | Treat 1793 as a reform | It codified pre-existing *jaigirdari* claims, did not survey fields |
-| "Munro introduced Mahalwari" | Mix architects | Munro = Ryotwari; Holt Mackenzie = Mahalwari |
-| "All India used the same system" | Treat as uniform | Each system was region-specific; overlap in Bombay Presidency |
-| "Bihar profited from Permanent Settlement" | Generalise | Bihar saw the harshest zamindari oppression and Santhal spillover |
+1. Citing **1772** as the year of Permanent Settlement — that year is the *beginning* of direct British collection under Hastings, and a *failed* quinquennial experiment, not the Permanent Settlement itself (1793).
+2. Attributing Ryotwari to Cornwallis and Mahalwari to Munro — both architect-year pairings are reversed in the standard narrative.
+3. Treating "Permanent" as a benevolent term — it froze an inequitable demand in perpetuity and transferred it across generations.
+4. Skipping the **Dual Government (1765–1772)** phase and jumping directly from Buxar to Permanent Settlement — a 28-year causal gap that examiners love to flag.
 
-#### Higher-Order Practice Prompts
+#### Advanced Practice Prompts
 
-1. **Trace the revenue demand formula:** *Land Revenue Demand = Total Rent (Sair + Jama) − Malikhana (10 %)*. Apply it to a Bengal estate yielding ₹ 1 lakh gross rent; compute the Company's demand.
-   *(Answer: ₹ 90,000 — Malikhana = ₹ 10,000 retained by zamindar.)*
-2. **Compare de-industrialisation thesis with revenue extraction:** Explain how the Permanent Settlement forced cultivators into cash crops (indigo, opium, raw cotton) to meet the fixed rupee demand, contributing to the collapse of the Bengal textile industry.
+1. *"Compare the revenue-extraction logic of Permanent Settlement with that of the Deccan Ryotwari, using the 1770 and 1876–78 famines as your evidence base."* — Tests grasp of why demand-fixing strategy, not just system type, drives agrarian mortality.
+2. *"How far was the Permanent Settlement responsible for the emergence of indigo (neel) as a cash crop in Bihar?"* — Tests ability to chain cash-revenue demand → ryot indebtedness → forced cultivation → peasant resistance (Champaran).
 
----
+#### Key Terms to Lock Down
+
+| Term | One-line meaning |
+|---|---|
+| Diwani (1765) | Right to collect revenue, not sovereignty |
+| Dual Government | Split of Diwani to Company, Nizamat to Nawab |
+| Patta / Quabuliyat | State-to-zamindar / zamindar-to-ryot revenue deeds |
+| Sair / Jama | Miscellaneous income / land-rent income of zamindar |
+| Malikhana | Zamindar's 10% retention under Permanent Settlement |
+| Concealed Reserved Rent | Unrecorded portion of produce retained by zamindar |
 
 ## Continue your study
 

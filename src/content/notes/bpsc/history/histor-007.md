@@ -14,103 +14,118 @@ lastUpdated: "2026-09-17"
 # Buddhism, Jainism & Indian Philosophy
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your BPSC exam.
+> Bihar owns three of the four most-cited council sites — use that anchor.
 
-The heterodox **nāstika** schools (Buddhism, Jainism) and the orthodox **āstika** schools (Samkhya, Yoga, Nyaya, Vaisheshika, Mimamsa, Vedanta) form the philosophical core of ancient Indian thought. For BPSC, two facts carry the most marks: **Bihar is the geographic heartland** of Buddhism and Jainism, and **council dates + founder attribution** are tested almost every year.
+Gautama Buddha's first sermon, the **Dharmachakrapravartana**, ran at **Sarnath (Mrigadava)**, not Bodh Gaya where enlightenment happened. Mahavira is the **24th Tirthankara**, not the founder; Rishabhadeva is the first. The two heterodox (**nāstika**) religions that reject Vedic authority are Buddhism and Jainism — Samkhya, Yoga, Nyaya, Vaisheshika, Mimamsa and Vedanta are the six **āstika** (orthodox) darśanas.
 
-- **Gautama Buddha** (563 BCE, Lumbini) → enlightenment at **Bodh Gaya** → first sermon at **Sarnath** (Dharmachakrapravartana) → death at **Kushinagar** (Mahaparinirvana).
-- **Four Noble Truths**: Dukkha, Samudaya (tṛṣṇā/desire), Nirodha, Magga (Eightfold Path).
-- **Eightfold Path** (Aṣṭāṅgika Mārga): Right View, Intention, Speech, Action, Livelihood, Effort, Mindfulness, Concentration.
-- **Jainism**: 24 Tīrthaṅkaras — 1st **Rṣabhadeva**, 23rd **Pārśvanātha**, 24th **Mahāvīra** (599–527 BCE, Vaiśālī).
-- **Five Mahāvratas**: Ahinsā, Satya, Asteya, Aparigraha, Brahmacharya.
+- **Buddhist Core (Memory Hook — "DCND" loop):** Dukkha → Cause (Tṛṣṇā) → Nirodha → **D**octrine of **C**essation → **N**oble **E**ightfold **D**ivision. Four Truths + Eight Limbs.
+- **Jain Core:** Five Mahāvratas = **A**himsa, **S**atya, **A**steya, **A**parigraha, **B**rahmacharya.
+- **Bihar council map:** Rajagriha (1st Buddhist), Vaishali (2nd Buddhist), Pataliputra (3rd Buddhist + 1st Jain), Vallabhi (2nd Jain).
 
-> 💡 **High-Yield Memory Hook:** **"B-S-V-P-K"** for Buddha's life — **B**orn Lumbini, **S**anyasa Kapilavastu, **V**airagy Bodh Gaya, **P**ravachan Sarnath, Parinirvana **K**ushinagar. For Jain sects: **D**igambara = **D**evoid of clothes; **Ś**vetāmbara = **Ś**veta (white) robes.
+| School | Founder | Key Idea |
+|---|---|---|
+| Buddhism | Siddhartha Gautama | Four Noble Truths |
+| Jainism | Rishabhadeva (1st Tirth) | Anekāntavāda |
+| Sāṅkhya | Kapila | Puruṣa-Prakṛti duality |
+| Yoga | Patañjali | Aṣṭāṅga Yoga |
+| Nyāya | Gautama | Logic & inference |
+| Vaiśeṣika | Kaṇāda | Atomism |
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
 
-#### Core Buddhist Framework
+> BPSC paper 1 History section treats this as a Bihar-localised chapter — councils and holy sites dominate.
 
-Buddhism rejects Vedic authority (nāstika) but accepts karma and rebirth. The doctrinal spine is the **Four Ārya Satyāni**, and the remedial tool is the **Eightfold Path**. Buddhism's institutional history is preserved through **three councils**, all of which were held in modern Bihar — the reason BPSC weights this topic heavily.
+#### The Buddha's Life and the Four Truths
 
-| Council | Date (BCE) | Patron | Location | Outcome |
+Siddhartha Gautama (c. 563–483 BCE) was born at Lumbini, attained Bodhi at Bodh Gaya, preached first at Sarnath, and attained Mahāparinirvāṇa at Kuśinagara. His diagnosis of existence rests on the **Four Ārya Satyāni**: (1) **Dukkha** — suffering is intrinsic; (2) **Samudaya** — its origin is **tṛṣṇā** (craving); (3) **Nirodha** — suffering can cease; (4) **Mārga** — the path is the Eightfold. The **Aṣṭāṅgika Mārga** is split into three baskets of practice: prajñā (Right View, Intention), śīla (Speech, Action, Livelihood), samādhi (Effort, Mindfulness, Concentration).
+
+#### Councils — Where Buddhism Split
+
+| Council | Place | Patron | Year | Outcome |
 |---|---|---|---|---|
-| 1st Buddhist | 483 | Ajātaśatru | Rājagṛha | Sūtra Piṭaka compiled |
-| 2nd Buddhist | 383 | Kālāśoka | Vaiśālī | Split into Mahāsaṅghika & Sthaviravāda |
-| 3rd Buddhist | 250 | Aśoka | Pāṭaliputra | Missions abroad; Abhidhamma Piṭaka finalized |
+| 1st | Rājagṛha | Ajātaśatru | 483 BCE | Sūtra Piṭaka compiled |
+| 2nd | Vaiśālī | Kalāśoka | 383 BCE | Hīnayana schism |
+| 3rd | Pāṭaliputra | Aśoka | 250 BCE | Missions abroad |
+| 4th | Kuśinagara | Kaniṣka | 1st cent. CE | Mahāyāna texts |
 
-> 📌 **Formula Check:** The **Eightfold Path** splits into three baskets — Wisdom (View, Intention), Morality (Speech, Action, Livelihood), Concentration (Effort, Mindfulness, Concentration). BPSC often frames this as a matching question.
+#### Worked Solution — Council Location Trap
 
-#### Core Jain Framework
+A BPSC 67th CCE question showed: *"First Buddhist Council was held at Vaishali under Ajatashatru."* Mark the statement **false** on two counts: Ajatashatru presided over the Rajagriha council, not Vaishali; Vaishali is where Kalashoka convened the **second** council. Examine the assertion (place), the reason (king), and the match between the two — when BPSC stacks both errors, the statement is doubly wrong.
 
-Jainism is older than Buddhism: **Rīshaṅbhanātha** is the 1st Tīrthaṅkara, **Pārśvanātha** the 23rd (reformer who codified four vratas), and **Mahāvīra** the 24th. The **Anekāntavāda** doctrine (multiple viewpoints) makes Jain epistemology a frequent MCQ topic. Two councils define its textual history:
+> ⚠️ **Examiner Trap:** Aṣṭāṅga here is **Buddhist** (8 limbs of path). The same word appears in Patañjali's **Yoga Sūtra** (8 limbs of yoga) — answer choice hinges on which tradition the question names.
 
-| Council | Date | Patron/Scholar | Location | Outcome |
-|---|---|---|---|---|
-| 1st Jain | c. 300 BCE | Sthūlabhadra | Pāṭaliputra | 12 Aṅgas partly compiled |
-| 2nd Jain | 512 CE | Devardhi Kṣamāśramaṇa | Vallabhī | 12 Aṅgas finalized (canonical split: Digambara rejected) |
+#### Mahāvīra and the Five Vows
 
-#### Concept Comparison Matrix — Frequently Confused Terms
+Jainism counts 24 Tīrthaṅkaras; the first is **Rishabhadeva**, the 23rd **Pārśvanātha**, the 24th **Mahāvīra** (599–527 BCE), born at Vaiśālī. The laity-monastic path runs through the three Jewels (**Ratnatraya**): Samyag Jñāna, Samyag Darśana, Samyag Cāritra. Mahāvīra added **brahmacharya** to Pārśvanātha's four vows. Two sects survive: **Digambara** ("sky-clad") and **Śvetāmbara** ("white-clad"). Two councils: 1st at Pāṭaliputra (300 BCE, Sthūlabhadra) and 2nd at Vallabhī (512 CE, Devardhi Kṣamasramaṇa), which closed the 12 Aṅgas.
 
-| Feature | Buddhism | Jainism |
+#### The Six Orthodox Darśanas
+
+| Darśana | Founder | Test Question Hook |
 |---|---|---|
-| Founder | Siddhārtha Gautama (Buddha) | 24 Tīrthaṅkaras; Mahāvīra last |
-| First Sermon | Sarnath (Dharmachakra) | Mahāvīra's first sermon at Rājagṛha/Pāṭaliputra |
-| Path to Liberation | Eightfold Path | Triratna (Samyak Jñāna, Darśana, Charitra) |
-| Vows | 5, 8, 10 precepts | 5 Mahāvratas + 5 Aṇuvratas |
-| Stance on Vedas | Rejected (nāstika) | Rejected (nāstika) |
-| Sects | Hīnayāna, Mahāyāna | Digambara, Śvetāmbara |
+| Sāṅkhya | Kapila | Puruṣa-Prakṛti dualism |
+| Yoga | Patañjali | Aṣṭāṅga Yoga (not Buddhist 8-fold) |
+| Nyāya | Gautama | Pañcāvayava syllogism |
+| Vaiśeṣika | Kaṇāda | Paramāṇu (atom) theory |
+| Mīmāṃsā | Jaimini | Karma-kāṇḍa, ritual |
+| Vedānta | Bādarāyaṇa | Brahma Sūtra |
 
-| Scholar | School | Core Doctrine |
-|---|---|---|
-| Kapila | Sāṃkhya | Puruṣa-Prakṛti dualism, 25 tattvas |
-| Patañjali | Yoga | Aṣṭāṅga Yoga, Kaivalya |
-| Gautama (Akṣapāda) | Nyāya | Pramāṇa (perception, inference, comparison, testimony) |
-| Kaṇāda | Vaiśeṣika | Paramāṇu (atom), 7 padārthas |
-| Jaimini | Mīmāṃsā | Karmakāṇḍa (ritual interpretation) |
-| Bādarāyaṇa | Vedānta | Brahma Sūtra, world as illusion |
+#### Comparison Matrix — Easy to Confuse
 
-#### 🎯 Exam-Level Worked Problem
-
-**Question:** Arrange the following Buddhist councils in chronological order and identify the one held closest to Mahāvīra's birthplace Vaiśālī:
-(A) Rājagṛha, Pāṭaliputra, Vaiśālī (B) Rājagṛha, Vaiśālī, Pāṭaliputra (C) Vaiśālī, Rājagṛha, Pāṭaliputra (D) Pāṭaliputra, Vaiśālī, Rājagṛha
-
-**Solution:** Step 1 — Chronological dates from the council table: 1st = Rājagṛha (483 BCE), 2nd = Vaiśālī (383 BCE), 3rd = Pāṭaliputra (250 BCE). Step 2 — Order = Rājagṛha → Vaiśālī → Pāṭaliputra. Step 3 — Mahāvīra's birthplace = Vaiśālī, so the **2nd council** is geographically nearest. **Answer: (B).**
-
-> ⚠️ **Examiner Trap:** Students confuse the **Jain council at Pāṭaliputra** (c. 300 BCE) with the **3rd Buddhist council** also at Pāṭaliputra (250 BCE). They are 50 years apart and from different religions — read the question stem for "Buddhist" vs "Jain".
+| Pair | Distinction |
+|---|---|
+| Hīnayana vs Mahāyāna | Conservative vs Bodhisattva-ideal |
+| Āstika vs Nāstika | Accepts Vedas vs rejects them |
+| Kaṇāda vs Kapila | Atomic monist vs dualist |
+| Patañjali (Yoga) vs Patañjali (Grammar) | Different works, same name |
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
 
-#### Edge Cases & Bihar-Centric Traps
+> The Pañcāvayava syllogism is the most asked Nyāya item — structure it once, recognise it anywhere.
 
-BPSC's regional bias is decisive here. Three of Buddhism's four great events and one of Jainism's council sites lie in Bihar. Patañjali (Yoga Sūtra compiler) is often confused with the **grammarian Patañjali** of the Mahābhāṣya — a 2023 BPSC 68th CCE Prelims question made this exact trap. Kaṇāda's Vaiśeṣika is **atomic-realist**, not dualist — students wrongly attribute it to Sāṃkhya.
+#### Nyāya Inference — Pañcāvayava (Five-Membered Syllogism)
 
-| Trap | Correct Answer | Common Wrong Answer |
+Nyāya inference carries five limbs, not three: **Pratijñā** (proposition), **Hetu** (reason), **Udāharaṇa** (example), **Upanaya** (subsumption), **Nigamana** (conclusion). A 64th BPSC CCE question asked which limb is unique to Nyāya among Indian schools; only Nigamana gives the formal conclusion, but Upanaya (applying the general rule to the present case) is what most schools omit.
+
+| Limb | Function | BPSC Tested? |
 |---|---|---|
-| Who founded Jainism? | Rīṣabhanātha (1st Tīrthaṅkara) | Mahāvīra |
-| Buddha's first sermon site | Sarnath (Rṣipattana/Mṛgadāva) | Bodh Gayā |
-| 2nd Buddhist council patron | Kālāśoka | Ajātaśatru |
-| 2nd Jain council location | Vallabhī (Gujarat) | Vaiśālī |
-| Patañjali's school | Yoga (philosophical) | Vyākaraṇa (grammatical) |
-| Hetvābhāsa type studied | "Savyabhicāra" (irregular middle) | Genuine hetu |
+| Pratijñā | Hill is on fire | Yes |
+| Hetu | Because there is smoke | Yes |
+| Udāharaṇa | Wherever smoke exists, e.g., kitchen | Yes |
+| Upanaya | So is the hill, smoke-bearing | Yes |
+| Nigamana | Therefore hill is on fire | Yes |
 
-#### Nyāya Syllogism (Pañcāvayava)
+#### Hetvābhāsa — Six Logical Fallacies
 
-The Nyāya school's logical proof has five limbs: **Pratijñā** (proposition), **Hetu** (reason), **Udāhṛti** (example), **Upanaya** (application), **Nigamana** (conclusion). A BPSC 2022 question asked which limb is missing in a faulty syllogism — recognising **Udāhṛti** as the missing example-citation step was decisive.
+Nyāya's fallacy catalogue: **Savyabhicāra** (irregular reason), **Viruddha** (contradictory), **Satpratipakṣa** (counter-balanced), **Asiddha** (unproved), **Bādhita** (sublated), **Chala** (equivocation). BPSC 65th CCE asked for the fallacy when the hetu itself is contradicted by the conclusion — answer: **Viruddha**.
 
-#### Advanced Practice Prompts
+#### Edge Cases That Trip Candidates
 
-1. **Assertion–Reason**: "Reason: Anekāntavāda means aṇu (atomic). Assertion: Jainism accepts paramāṇu vāda." Identify the flaw — Anekāntavāda is the *doctrine of multiple viewpoints*, while paramāṇu vāda belongs to **Vaiśeṣika**, not Jainism.
-2. **Chronological ordering**: Sequence Rīṣabhanātha → Pārśvanātha → Mahāvīra → Buddha, then place the first sermon event (Sarnath) on the timeline. (Answer: all pre-6th century BCE; Sarnath sermon = c. 528 BCE.)
+1. **Buddha's birthplace** — Lumbini (now Nepal) is cited in BPSC only when the question specifies modern geography; otherwise Kapilavastu is the regional answer.
+2. **Mahāvīra as founder** — wrong. He is the 24th Tīrthaṅkara; **Rishabhadeva** is first.
+3. **Ajātaśatru at Vaiśālī** — wrong; he sponsored the Rājagṛha council.
+4. **3rd Buddhist Council missions** — Mahinda went to Sri Lanka, not Tibet. Madhyamaka and Yogācāra schools developed later, post-4th council.
+5. **Patañjali** — Yoga Sūtra author ≠ Aṣṭādhyāyī grammarian (2nd century BCE).
+6. **Anekāntavāda** — doctrine of "many-sidedness," not relativism; coexists with **Syādvāda** ("somewhat" speech).
 
-#### Exam Strategy for BPSC
+#### Advanced Traps
 
-Paper I History carries roughly 3% weight; expect 2–4 MCQs from this cluster. Allocate **≤4 minutes** per question. Memorise council dates as **483, 383, 250 BCE (Buddhist)** and **300 BCE, 512 CE (Jain)** — the gap between 250 BCE and 512 CE is the most-likely trap window. Always read for the religion keyword first.
+| Trap | Reality |
+|---|---|
+| "Nāstika = atheist" | Nāstika = rejecting Veda, not God-belief |
+| "Buddha denied karma" | Buddha kept karma; rejected caste-debated rebirth |
+| "Mahāyāna is later" | Splits at 2nd council (~383 BCE), matures by Kuṣāṇa era |
+| "Digambaras accept women" | Digambaras hold women cannot attain Mokṣa directly |
+| "Vallabhī = 1st Jain council" | No; 2nd Jain council. 1st at Pāṭaliputra |
+| "Sāṅkhya believes in God" | No — atheistic among āstikas (Iśvara not posited) |
+
+#### Two Practice Prompts
+
+1. *Assertion-Reason:* "Ajātaśatru convened the Vaiśālī council because he patronised Buddhism." Identify whether both are true, and whether the reason explains the assertion. (Hint: separate the place, the patron, and the motive.)
+2. *Match-the-Following:* Pair Vaiśeṣika–Kaṇāda, Sāṅkhya–Kapila, Nyāya–Gautama, Yoga–Patañjali, Mīmāṃsā–Jaimini, Vedānta–Bādarāyaṇa. Then state which is the only **pluralistic atomic realist**.
 
 ---
 
@@ -121,5 +136,4 @@ Paper I History carries roughly 3% weight; expect 2–4 MCQs from this cluster. 
 - **[BPSC exam overview](/exams/bpsc/)** — pattern, eligibility, and syllabus
 - **[All History notes](/notes/bpsc/history/)** — browse sibling topics in this subject
 
----
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

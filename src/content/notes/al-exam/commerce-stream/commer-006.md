@@ -14,96 +14,104 @@ lastUpdated: "2026-09-17"
 # Marketing Fundamentals
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+> Rapid summary for last-minute revision before your A/L Commerce paper.
 
-Marketing is the process of identifying customer needs, creating value, and building profitable exchange relationships. The A/L Commerce paper treats it as a managerial function built on three pillars: the **4Ps marketing mix**, the **STP process**, and the **marketing environment**.
+Marketing is the management process that identifies, anticipates, and satisfies customer needs profitably. The 4Ps — **Product, Price, Place, Promotion** — are the levers a marketer pulls; **STP** (Segmenting, Targeting, Positioning) decides *who* to serve and *how* to stand out. Two figures sit at the centre of every numeric question in this topic.
 
-- **4Ps (Marketing Mix):** Product, Price, Place, Promotion — the controllable variables a marketer combines to satisfy a target market.
-- **STP:** Segmentation (divide the market) → Targeting (choose segments) → Positioning (create a distinct image).
-- **Marketing Environment:** Micro (suppliers, competitors, customers) and Macro (PESTEL: Political, Economic, Social, Technological, Environmental, Legal).
-- **PLC:** Introduction → Growth → Maturity → Decline — sales and profit behave differently at each stage.
-- **Sales Forecast (LKR):** Market Potential × Market Share; **Market Share (%)** = (Company Sales / Total Market Sales) × 100.
+> 💡 **High-Yield Memory Hook:** "**4Ps Pull, STP Sees**" — the four Ps *execute* the marketing mix, while STP *decides* which segment gets the product. Pair with the chain **P-I-D-I-C** for the consumer decision process: **P**roblem recognition → **I**nformation search → **D**ecision on alternatives → **P**urchase (replace the second P with **I** for Evaluation of alternatives) → **C**onfirmation/Post-purchase behaviour.
 
-> 💡 **High-Yield Memory Hook:** Think **"4P + STP"** as the marketer's backbone: **4P** builds the offer, **STP** picks the audience. Marketing orientations order on a timeline — **"Produce → Push → Sell → Sense"** (production → product → selling → marketing concept).
+| Quantity | Formula | Variables (SI unit) |
+|---|---|---|
+| Market Share (%) | (Company Sales ÷ Total Market Sales) × 100 | Sales in LKR (M L⁰ T⁻²); ratio is dimensionless |
+| Break-Even Point (units) | Fixed Costs ÷ (Selling Price − Variable Cost) | All monetary inputs in LKR per unit |
+
+Quick check — the Selling Concept pushes products the firm has already made; the Marketing Concept starts by asking what the customer wants. The A/L paper tests this distinction almost every year.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+> Core concepts, mechanisms, and a worked application for regular study.
 
-#### Core Concepts and Mechanisms
+#### The Marketing Mix and the 7Ps Extension
 
-Marketing evolved through five **marketing orientations**, each reflecting a different business priority. The **production concept** assumes customers buy what is affordable and available; the **product concept** assumes they buy the best quality. The **selling concept** focuses on aggressive sales tactics to move surplus stock. The **marketing concept** flips the logic — start with the customer, work backwards to the product. The **societal marketing concept** adds a third dimension: customer welfare plus long-term society interest.
+The **4Ps** describe the tactical toolkit a marketer assembles. *Product* is the good or service and its features, branding, packaging, and after-sales support. *Price* covers list price, discounts, credit terms, and perceived value. *Place* is the distribution channel — wholesalers, retailers, logistics. *Promotion* blends advertising, personal selling, sales promotion, public relations, and direct marketing. For services the mix expands to **7Ps**: People, Process, and Physical Evidence join the original four because services are intangible, inseparable from the producer, and variable in quality.
 
-#### Comparison Matrix: Marketing vs. Selling Concept
-
-| Dimension | Marketing Concept | Selling Concept |
+| 4P element | Decision variables | Sri Lankan illustration |
 |---|---|---|
-| Starting point | Customer needs | Factory / product |
-| Focus | Long-term relationship | Short-term transaction |
-| Tools | Integrated 4Ps | Aggressive promotion, persuasion |
-| Customer role | Central — co-creator of value | Target of sales effort |
-| Profit path | Through customer satisfaction | Through sales volume |
-| Typical Sri Lankan example | A bank designing loan packages around salaried youth needs | A mobile dealer pushing end-of-year stock clearance |
+| Product | Features, brand name, packaging, warranty, after-sales service | A Ceylon tea exporter deciding on bulk vs retail-grade packaging |
+| Price | List price, trade discount, credit terms, psychological pricing (e.g. LKR 990) | Supermarket pricing of imported vs local biscuits |
+| Place | Channel length, transport, warehousing, retail density | Distributing dairy through cooperatives vs open-air markets |
+| Promotion | Advertising medium, sales promotions, PR, personal selling, direct marketing | A bank's mass-media campaign plus door-to-door loan officers |
 
-#### The 4Ps in Practice
+> 📌 **Formula Check:** Contribution Margin = Selling Price − Variable Cost, measured in LKR per unit. It feeds directly into break-even analysis — only when contribution margin turns positive does each extra unit start recovering fixed costs.
 
-The mix is not four independent levers. Lowering **Price** without adjusting **Product** quality or **Promotion** signalling cheapens the brand; changing the **Place** (distribution) reshapes the customer experience the **Product** must deliver. For services, Booms and Bitner extended the mix to **7Ps**, adding People, Process, and Physical Evidence.
+#### STP and the Marketing Concept
 
-#### STP and Segmentation Bases
+**Segmentation** divides a heterogeneous market into homogeneous groups using geographic, demographic, psychographic, or behavioural bases. **Targeting** evaluates each segment's size, growth, accessibility, and fit, then picks one or more. **Positioning** designs the offer and image so the target segment perceives it distinctly. The **Marketing Concept** ties STP to the 4Ps: start with the customer's needs, integrate all marketing activities to satisfy them, and earn profit through customer satisfaction rather than aggressive sales push.
 
-Effective segmentation requires four tests — **Measurable, Accessible, Substantial, Actionable** (mnemonic: **MASA**). Bases are grouped into four families: **geographic** (region, climate), **demographic** (age, income), **psychographic** (lifestyle, attitude), and **behavioural** (usage rate, loyalty). Targeting then selects one or more segments using undifferentiated, differentiated, or concentrated strategies. Positioning closes the loop with a unique value proposition.
+#### Worked Application
 
-#### 🎯 Exam-Level Worked Problem
+A Sri Lankan biscuit manufacturer wants to plan next year's volume.
 
-**Question:** A leading Sri Lankan dairy company sells 8 million litres of fresh milk annually in a total national market of 50 million litres, at a selling price of LKR 250 per litre. Variable cost per litre is LKR 180 and total fixed costs are LKR 140 million. (a) Calculate the market share and (b) the break-even point in litres. *(A/L Commerce structured question style)*
+Given:
 
-#### Solution:
+- Total biscuit buyers = 2,000,000 households
+- Average quantity purchased per household per year = 12 packs
+- Average price per pack = LKR 250
+- Company's expected market share = 18%
 
-**(a) Market Share (%):** Market Share = (Company Sales / Total Market Sales) × 100
-- Company Sales = 8,000,000 × 250 = LKR 2,000,000,000
-- Total Market Sales = 50,000,000 × 250 = LKR 12,500,000,000
-- Market Share = (2,000,000,000 / 12,500,000,000) × 100 = **16%**
+Step 1 — Total Market in LKR:
+TM = 2,000,000 × 12 × 250 = **LKR 6,000,000,000** (LKR 6 billion)
 
-**(b) Break-Even Point (units):** BEP = Fixed Costs / (Selling Price − Variable Cost)
-- Contribution per litre = 250 − 180 = LKR 70
-- BEP = 140,000,000 / 70 = **2,000,000 litres**
+Step 2 — Sales Forecast:
+Sales Forecast = 6,000,000,000 × 18% = **LKR 1,080,000,000**
 
-> ⚠️ **Examiner Trap:** Students often divide by variable cost instead of contribution margin. Always subtract variable cost from selling price *first*; otherwise the break-even answer is meaningless. Also confirm units — fixed costs are in LKR, so the denominator must be in **LKR per litre** to yield litres.
+Step 3 — Break-Even check:
+Fixed costs = LKR 300,000,000; variable cost per pack = LKR 180; selling price = LKR 250.
+Contribution margin = 250 − 180 = LKR 70 per pack.
+Break-even units = 300,000,000 ÷ 70 ≈ **4,285,715 packs** (about LKR 1.07 billion in revenue), which is just above the forecast — the firm barely covers fixed costs in year one and needs to push market share above roughly 19% or trim variable costs to create a safety margin.
 
-#### Promotion Mix Elements
+> ⚠️ **Examiner Trap:** Students often quote **6,000,000,000 packs** as the total market. The formula gives total market in LKR, not units — multiply buyers × quantity for unit volume separately if the question asks for packs.
 
-Five tools sit inside **Promotion**: advertising (paid, mass, impersonal), sales promotion (short-term incentives), personal selling (face-to-face), public relations (earned goodwill), and direct marketing (targeted database communication). Advertising is *one element* of promotion — never the whole mix.
+#### Common Pitfalls to Avoid
+
+- Treating the 4Ps as independent levers. A price cut usually forces a change in promotion spend or product positioning.
+- Equating **advertising** with **promotion**. Promotion is the entire mix; advertising is one element.
+- Confusing the **Marketing Concept** (customer-first, integrated) with the **Selling Concept** (sales-volume-first, product already made).
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
+> Edge cases, advanced traps, and connections to adjacent Commerce topics for mastery.
 
-#### Edge Cases and Advanced Traps
+#### Product Life Cycle — Boundaries and Stretching
 
-| Trap | Correct Principle |
-|---|---|
-| Treating PLC as a fixed-length curve | Duration of each stage depends on the product; marketers extend maturity through line extensions, packaging redesign, or repositioning |
-| Applying consumer models to B2B | B2B buyers are rational, multi-person, formal, and use derived demand — emotional models fail |
-| Ignoring PESTEL in 4P answers | Sri Lankan A/L papers often add macro marks by linking a P to a PESTEL factor (e.g., new tax → Price revision) |
-| Confusing market potential with market share | Market potential = total LKR sales possible; market share = the firm's slice of that potential |
-| Using undifferentiated strategy for a niche product | Concentrated targeting suits narrow segments; mass coverage suits commoditised staples |
+The PLC has four stages: **Introduction** (low sales, high cost per customer, negative profit), **Growth** (rising sales, improving profit, new entrants), **Maturity** (sales plateau, intense competition, margin pressure), and **Decline** (falling sales, withdrawal of weak products). The Sri Lankan paper frequently tests two boundary cases:
 
-#### Price Elasticity of Demand (PED)
+1. **PLC duration is not fixed.** A fashion garment may run the full cycle in nine months; a soft-drink brand can sit in maturity for decades. Marketers extend the cycle through repositioning, line extensions, or finding new markets.
+2. **Maturity ≠ decline.** A flat sales line with strong cash flow signals maturity, not failure — the strategic task is *defending* share, not abandoning the product.
 
-PED = % Change in Quantity Demanded ÷ % Change in Price — a **dimensionless** ratio. A common Advanced-Level trap is to confuse the *sign* — PED is usually negative, but elasticity is quoted as the **absolute value**. Sri Lankan essential goods (rice, fuel) cluster around inelastic demand (|PED| < 1); discretionary imports (electronics, fashion) lean elastic (|PED| > 1).
+| Stage | Sales trend | Profit trend | Marketing focus |
+|---|---|---|---|
+| Introduction | Slow rise | Negative | Awareness-building, trial incentives |
+| Growth | Sharp rise | Rising | Distribution expansion, product improvement |
+| Maturity | Plateau, then slight fall | Peaks, then squeezed | Differentiation, sales promotion, cost control |
+| Decline | Falling | Falling | Harvest, niche retention, or withdrawal |
 
-#### Connections to Adjacent Topics
+#### Marketing Environment and the PESTEL Link
 
-Marketing Fundamentals links directly to **Business Studies** units on human resource management (people dimension), **Economics** (elasticity, demand-supply interaction), **Accounting** (cost behaviour used in break-even analysis), and **ICT** (digital promotion, e-commerce place decisions). A strong answer weaves 4Ps into **SWOT** outcomes — for example, a **PESTEL** opportunity (rising internet penetration) should map to a **Promotion** decision (shift budget toward social media).
+The **micro-environment** sits inside the firm's control radius — suppliers, intermediaries, customers, competitors, and publics. The **macro-environment** is the **PESTEL** frame: Political, Economic, Social, Technological, Environmental, Legal. A paper-style case on a Sri Lankan apparel firm hit by an EU trade-rule change expects candidates to locate the pressure inside *Legal/Political* of PESTEL, then show how the firm re-tightens the 4Ps (e.g., adjusting Place via direct shipping, raising Price to absorb compliance cost).
+
+#### Consumer Markets vs B2B
+
+Consumer buying is often emotional, low-involvement, and individual. **B2B** buying is rational, formal, multi-person, and derived from end-consumer demand. A candidate who answers a B2B case study using "brand loyalty" and "impulse purchase" loses marks — the B2B paper expects specifications, tender procedures, and relationship management.
 
 #### Advanced Practice Prompts
 
-1. A local garment exporter sees demand drop 12% after a 5% rupee depreciation raises export price. Compute PED and advise whether price cuts will recover revenue. *(Hint: PED > 1 → price cuts increase total revenue.)*
-2. A supermarket chain introduces a private label. Identify which PLC stage the private label enters and outline **two** repositioning tactics to extend maturity. *(Hint: expect mature category entry; use packaging refresh and lifestyle branding.)*
+1. A mobile-money provider in Sri Lanka reports flat subscription growth but rising average revenue per user. Identify the PLC stage and propose two mix adjustments grounded in the 7Ps, not just the 4Ps.
+2. A coconut-oil exporter faces a PESTEL shock from a sudden import-duty change in its largest buyer country. Outline an STP re-evaluation sequence before recommending any 4P change.
 
----
+> 📌 **Boundary Reminder:** Market share and break-even inputs must come from the case data — do not assume last year's figures persist when the paper gives fresh numbers.
 
 ## Continue your study
 

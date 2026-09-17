@@ -14,108 +14,85 @@ lastUpdated: "2026-09-17"
 # Union Executive: President, Vice-President, Prime Minister
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+> A single fact anchors this tier: the President of India is elected, not appointed, and the formula for that election is what BPSC actually tests.
 
-The **Union Executive** under Articles 52–78 of the Indian Constitution comprises three distinct functionaries with deliberately separated roles: the **President** (nominal head of state), the **Vice-President** (ex-officio Chairman of Rajya Sabha and constitutional standby), and the **Prime Minister** with the Council of Ministers (real head of government). The President is elected by an electoral college using proportional representation with single transferable vote, holds office for **5 years** under Article 56, and acts on the aid and advice of the Council of Ministers under Article 74. The Vice-President is elected only by MPs of both Houses (MLAs do NOT vote), while the PM is appointed by the President but must command the Lok Sabha's confidence.
+- **President (Article 52):** Head of state, nominal executive. Elected by an electoral college of elected MPs + elected MLAs of States, Delhi and Puducherry (nominated members do **not** vote).
+- **Vice-President (Article 64):** Elected only by members of both Houses of Parliament (MLAs do **not** participate). Acts as ex-officio Chairman of Rajya Sabha.
+- **Prime Minister (Article 75):** Head of government, leader of the Council of Ministers. Appointed by the President but must command Lok Sabha majority.
+- **Winning quota:** A candidate wins by securing the highest votes *and* crossing the quota = (Total valid votes ÷ 2) + 1, under the single transferable vote system.
+- **Five-year term** for the President; can be removed only by impeachment on the ground of "violation of the Constitution" (Article 61).
 
-- **President**: Head of state, elected by electoral college (Art. 54), 5-year tenure (Art. 56), removable via impeachment (Art. 61).
-- **Vice-President**: Ex-officio Chairman of Rajya Sabha (Art. 64), elected by Parliament (Art. 66), removes by effective majority of Rajya Sabha.
-- **Prime Minister**: Head of government, appointed by President (Art. 75), leader of Council of Ministers, collectively responsible to Lok Sabha.
-- **Council of Ministers**: Real executive, aid-and-advice body under Art. 74, Article 74(1) bars judicial review of advice.
-
-> 💡 **High-Yield Memory Hook:** "**PVM-PVC**" — **P**resident (head of state, **V**eto, **M**oney bill assent) — **V**ice-President (Rajya Sabha Chair, vacancy stand-by) — **P**M + Council (real executive, Lok Sabha). Or recall the three veto types as **A**bsolute, **S**uspensive, **P**ocket → **"ASP"** — never say **Q**ualified (that's the US).
+> 💡 **Memory Hook:** **"P-V-P-M = People, Vidhan, Parliament, Majority"** — President by People (electoral college with MLAs), Vice-President by Parliament only, PM by Majority in Lok Sabha. Three P's, three sources of legitimacy.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+> Working knowledge of the Union Executive rests on three things: how each functionary is chosen, what each can constitutionally do, and the precise numerical machinery of the Presidential electoral college.
 
-#### Constitutional Framework (Articles 52–78)
-Article 52 establishes the office of the President, Article 53 vests the executive power of the Union in the President exercisable directly or through subordinate officers. Article 74(1) (post 42nd Amendment, 1976) makes the Council of Ministers with the PM at its head to aid and advise the President, who shall act in accordance with such advice. The 44th Amendment (1978) restored the President's situational discretion only in the case of a hung Parliament or when no clear majority emerges.
+#### How the Three Functionaries Are Chosen
 
-#### Concept Comparison Matrix
-
-| Feature | President | Vice-President | Prime Minister |
+| Functionary | Electoral College | System | Term |
 |---|---|---|---|
-| **Article(s)** | 52–62, 123 | 63–67 | 74–78 |
-| **Election method** | Electoral college (Art. 54) — MPs + elected MLAs of states, Delhi, Puducherry | Members of both Houses of Parliament only (Art. 66) | Appointed by President; must have Lok Sabha majority |
-| **Term** | 5 years (Art. 56) | 5 years (Art. 67) | No fixed term; holds office during pleasure of President (in practice Lok Sabha confidence) |
-| **Removal** | Impeachment by Parliament (Art. 61) for "violation of Constitution" | Resolution of Rajya Sabha passed by effective majority + Lok Sabha simple majority (Art. 67(b)) | Loss of Lok Sabha majority; resignation to President |
-| **Key role** | Head of state; assent, summon, prorogue, dissolve | Acting President (Art. 65); ex-officio Chairman RS | Head of government; chairs Cabinet, Council of Ministers |
-| **Nominated members vote?** | **NO** (Art. 54 specifies "elected members") | **YES** (Art. 66 has no such bar) | N/A (not elected) |
-| **MLA participation?** | YES (elected MLAs vote) | **NO** (only Parliament) | N/A |
+| President | Elected MPs + elected MLAs (States, Delhi, Puducherry); nominated members excluded | Proportional representation with single transferable vote (Hare-Clark) | 5 years |
+| Vice-President | All members of both Houses of Parliament (nominated + elected) | Proportional representation, single transferable vote | 5 years |
+| Prime Minister | None — appointed by President | Convention: leader of Lok Sabha majority party/coalition | 5 years or until Lok Sabha confidence is lost |
 
-#### Electoral Value Formulas (Presidential and Vice-Presidential Elections Act, 1952)
-For Presidential election:
-- Value of an MLA's vote = (Population of state × 100) / (Total elected members of state legislative assembly × 1000)
-- Quota to win = (Total valid votes polled / 2) + 1
-- System: proportional representation with single transferable vote (Hare-Clark)
+#### Value of an MLA's Vote — The Most Tested Formula
 
-For Vice-Presidential election:
-- Value of each MP's vote (RS or LS) = (Total population of all states) / (Total elected members of that House × 1000)
-- Note: only elected members of both Houses participate — nominated members DO vote here (unlike Presidential election).
+BPSC Prelims regularly asks candidates to compute this. The statutory formula (Presidential and Vice-Presidential Elections Act, 1952) is:
 
-#### 🎯 Exam-Level Worked Problem
-**Question:** In a hypothetical state with population 12 crore and 200 elected MLAs, the value of each MLA's vote in the Presidential electoral college is closest to which option?
-(a) 600 (b) 1000 (c) 60 (d) 1200
+> Value of vote of an MLA = (Population of the state × 100) ÷ (Total elected members of the state legislative assembly × 1000)
 
-#### Solution:
-Apply the statutory formula:
-Value of an MLA's vote = (Population of state × 100) / (Total elected members of state legislative assembly × 1000)
-= (12,00,00,000 × 100) / (200 × 1000)
-= 1,20,00,00,000 / 2,00,000
-= 600
+For Delhi and Puducherry, the population is taken as per the 1971 Census until the relevant population figures are notified. **Nominated MLAs do not vote; only elected MLAs are counted.** Each MLA's vote is worth 100 (universal value across all states), but the population-weighted factor above determines it; this explains why smaller states with low populations (like Sikkim) get a slightly higher per-MLA vote value than Uttar Pradesh.
 
-Therefore the correct answer is **(a) 600**.
+#### Veto Powers of the President (Article 111)
 
-To verify: total vote value from state = 600 × 200 = 1,20,000.
+- **Absolute veto:** President withholds assent; bill dies.
+- **Suspensive veto:** President returns a non-Money Bill for reconsideration; Parliament repasses it and President is expected to assent.
+- **Pocket veto:** President neither assents nor returns nor rejects; keeps the bill pending indefinitely. Last used in 1986 on the Indian Post Office (Amendment) Bill.
+- **No qualified veto:** Unlike the US President, the Indian President cannot veto selectively. Also, a Money Bill **cannot be returned** to Parliament.
 
-> ⚠️ **Examiner Trap:** Students often place population in crores directly without converting to actual count, OR divide by 100 instead of 1000. BPSC and UPSC have both historically tested the "1000" denominator (representing 1000 = unit correction, not 100). Always write the formula before substituting numbers to avoid slippage.
+#### A Resolution-Style Worked Problem
 
-#### Key Powers of the President
-- **Legislative**: summons/prorogues Houses (Art. 85), joint sitting (Art. 108), gives assent (Art. 111), promulgates ordinances when Parliament not in session (Art. 123).
-- **Executive**: appoints PM, Governors, Judges, CAG, Attorney General, Chief Election Commissioner.
-- **Emergency**: National Emergency (Art. 352), President's Rule (Art. 356), Financial Emergency (Art. 360).
-- **Veto powers**: Absolute, Suspensive, Pocket. The President has NO qualified veto (unlike the US).
+A common BPSC Prelims framing: *"In the Presidential election, the total valid votes polled were 10,87,432. The quota of votes required to be declared elected is —"*
+
+Step-by-step resolution:
+1. Apply the statutory quota formula: **Quota = (Total valid votes cast ÷ 2) + 1**.
+2. Divide: 10,87,432 ÷ 2 = 5,43,716.
+3. Add 1: **5,43,717 votes** is the quota required to win.
+4. A candidate securing the highest number of votes *and* crossing 5,43,717 is declared elected; if no candidate crosses the quota in the first count, the lowest-polling candidate is eliminated and second-preference votes are transferred (single transferable vote).
+
+> ⚠️ **Examiner Trap:** Students often quote a different rule — that the winner needs only a "simple majority of valid votes cast." That is wrong; the Hare-Clark quota (½ + 1) is mandatory, and merely topping the poll without crossing the quota does not elect the candidate.
+
+#### Common Examination Errors
+
+- Confusing Article 123 (President's ordinance) with Article 213 (Governor's ordinance). Their scope, repromulgation rules, and judicial-review treatment differ sharply post-*D.C. Wadhwa* (1987), which held that successive re-issuance to circumvent the legislature is unconstitutional.
+- Believing the Vice-President succeeds the President automatically. Article 65 only permits the Vice-President to act as President during a casual vacancy until a fresh President is elected; the elected President then continues for a full five-year term.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
+> Beyond definitions lie the boundary conditions: when does the President act on his/her own judgment, what counts as "effective majority" for removing the Vice-President, and how do these provisions interact with judicial review?
 
-#### Veto Power: Boundaries and Conventions
-The three veto categories originate from conventions, not a single constitutional clause:
+#### Edge Cases and Procedural Traps
 
-| Veto Type | Effect | Recent Usage |
-|---|---|---|
-| **Absolute** | Withholds assent permanently; bill lapses | Used by President Zail Singh (1987) on Indian Post Office (Amendment) Bill |
-| **Suspensive** | Returns bill for reconsideration; Parliament repasses → President must assent | Most common practical mode; e.g., 2006, 2014 instances |
-| **Pocket** | Neither assents nor returns; holds bill indefinitely | Indira Gandhi government (1986) on Indian Post Office (Amendment) Bill |
+- **Suspensive veto on re-passed bills:** Article 111 does not impose a fixed time limit, but constitutional convention obliges the President to assent once Parliament re-passes the bill. Refusal would arguably breach the responsible-government principle, though the text is silent.
+- **"Effective majority" for Vice-President removal (Article 67(b)):** Resolution must be passed by an *effective majority* of the then total membership of the Rajya Sabha (excluding vacancies). This is higher than a simple majority — it is "majority of the total membership" minus casual vacancies. BPSC has asked this distinction directly.
+- **Pocket veto vs. withholding assent:** Pocket veto is a deliberate inaction; absolute veto is an active refusal. The President has never rejected a bill outright since 1954; the last pocket veto was 1986.
+- **Ordinance-making under Article 123:** Co-extensive with Parliament's legislative competence; can be challenged on the ground of legislative incompetence, *Maneka Gandhi*–style reasonableness, or *S.R. Bommai*–style federalism. Repromulgation is permissible in narrow circumstances but not to bypass the legislature indefinitely.
+- **Attorney General (Article 76):** Appointed by the President, holds office during pleasure, but is **not** a Member of Parliament. Has right of audience in all courts and is entitled to a seat of honour — a status distinct from that of the Advocate General of a State.
+- **Council of Ministers — dual responsibility:** Collectively responsible to the Lok Sabha (Article 75(3)); individually responsible to the President, who may dismiss a minister on the PM's advice or, theoretically, on the PM's recommendation after the PM loses majority.
 
-A **Money Bill** (Art. 110) is non-returnable — the President must either assent or withhold (Art. 111). This is the most-tested edge in BPSC Prelims.
+#### Two Advanced Practice Prompts
 
-#### Impeachment Procedure (Article 61) — Quasi-Judicial
-Grounds are restricted to **"violation of the Constitution"** — not "misconduct" or "incapacity" (contrary to US). The process:
-1. Charge initiated in either House; 14 days' notice signed by one-quarter of total members.
-2. Charge carried to other House for investigation.
-3. Two-thirds majority of total membership of each House required.
-4. President has right to be heard or represented during proceedings.
+1. *"Can the President refuse to sign a Constitution Amendment Bill passed by Parliament under Article 368?"* — Examine the text of Article 368, the *Kesavananda Bharati* (1973) doctrine of basic structure, and whether the President's discretion survives when Parliament re-passes an amendment after a presidential return.
+2. *"If the Vice-President dies in office, who discharges the functions of the Chairman of the Rajya Sabha until a new Vice-President is elected?"* — Apply Rule 89 of the Rules of Procedure of the Rajya Sabha (Deputy Chairman acts), read with Article 64, and contrast it with Article 65 (acting as President, not as Chairman).
 
-No President has been impeached; the closest attempt was against President K.R. Narayanan (proposed 1998, never moved). The 48th Constitutional Amendment (1998) abolished the requirement that the President must be a citizen of India by birth and resident — but did NOT remove impeachment grounds.
+#### Weightage and Exam Strategy
 
-#### Ordinance-Making (Article 123): The 14-Day Rule
-Article 123 empowers the President to promulgate ordinances when Parliament is not in session and "immediate action is necessary." After the **D.C. Wadhwa (1987)** judgment and reaffirmed in **R.C. Cooper (1970)** line, repeated re-promulgation without placing the ordinance before Parliament violates the Constitution. The current position: ordinances must be laid before Parliament within **6 weeks of reassembly**; if both Houses reject, the ordinance lapses. Maximum lifespan per re-issuance trend: limited to one session gap, per Krishna Kumar Singh (2017).
-
-#### Edge Cases and Common Traps
-
-1. **Vacancy in President's office**: Vice-President acts as President under Article 65 — but does **not** automatically become President. Acting President gets only President's salary but does NOT become President of India for succession purposes.
-2. **PM in Council**: Collective responsibility (Art. 75(3)) means the entire Council resigns on Lok Sabha no-confidence; individual responsibility means each minister answers for their own department.
-3. **Attorney General (Art. 76)**: Appointed by President, holds office during pleasure, but is NOT a member of Parliament. Right of audience in all courts (Art. 76(4)) — students often incorrectly mark AG as MP.
-4. **48th Amendment, 1998**: Removed residency requirement; 44th Amendment, 1978: barred judicial review of advice except where President acts on own discretion.
-
-#### Advanced Practice Prompts
-1. Calculate the quota of votes needed to win if a Presidential election receives 5,49,000 total valid votes. (Apply quota = (valid/2) + 1 = 2,74,501.)
-2. Differentiate between "effective majority" used for Vice-President removal versus "absolute majority" — and explain why BPSC has tested this exact distinction.
+- **BPSC 64th CCE Prelims:** 2 questions expected from this cluster (out of 150). High-yield micro-topics: electoral college formula, removal procedure of Vice-President, ordinance-making limits.
+- **BPSC Mains (General Studies Paper II):** 10–15 mark questions often ask for a comparative essay on "Constitutional Head vs. Real Executive" or a case-law analysis of the ordinance power post-*D.C. Wadhwa*.
+- **Time-per-question:** Allocate 45–60 seconds for a direct factual question, 90 seconds for any quota-calculation item.
 
 ---
 
@@ -126,5 +103,4 @@ Article 123 empowers the President to promulgate ordinances when Parliament is n
 - **[BPSC exam overview](/exams/bpsc/)** — pattern, eligibility, and syllabus
 - **[All Indian Polity notes](/notes/bpsc/indian-polity/)** — browse sibling topics in this subject
 
----
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

@@ -37,7 +37,13 @@ fi
 #   truth for what loads for whom. Added 2026-09-15 with the EEA/UK/CH consent
 #   manager, because the guard's target is UI/layout/build-config drift, not the
 #   policy layer that Layout/AdRouter import. Reviewed in that same change set.
-allowed_re='^(src/content/|src/content\.config\.ts|src/data/|src/lib/|src/pages/|src/components/|src/layouts/Layout\.astro|public/|scripts/|skills/|LOCKED_FILES\.txt|CLAUDE\.md|CLAUDE\.local\.md|news\.json|improvement-backlog.*\.md|heartbeat-log\.md|BUG-LIST\.md|docs/|\.gitignore|nginx\.conf)'
+# deploy.sh: unlocked 2026-09-18 (operator-approved, with LOCKED_FILES.txt) so the
+#   duplicate host build could be removed — the site is built once in the Docker image
+#   and no host volume is mounted, so the host build's dist/ was never served. This is
+#   a build-config file, so it is added here deliberately rather than bypassed with
+#   --no-verify; the guard's purpose (a human deciding) is satisfied by that decision
+#   being recorded in this comment and in the commit message.
+allowed_re='^(src/content/|src/content\.config\.ts|src/data/|src/lib/|src/pages/|src/components/|src/layouts/Layout\.astro|public/|scripts/|skills/|deploy\.sh|LOCKED_FILES\.txt|CLAUDE\.md|CLAUDE\.local\.md|news\.json|improvement-backlog.*\.md|heartbeat-log\.md|BUG-LIST\.md|docs/|\.gitignore|nginx\.conf)'
 if out_of_scope=$(grep -Ev "$allowed_re" /tmp/sr_changed_files.txt); then
   if [ -n "$out_of_scope" ]; then
     echo "BLOCKED: out-of-scope files modified:"

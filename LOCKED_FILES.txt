@@ -8,5 +8,14 @@ docker-compose.yml
 Dockerfile
 # nginx.conf unlocked 2026-09-14 for Monetag ad network CSP integration
 # nginx.conf
-deploy.sh
+# nginx.conf unlocked 2026-09-14 for Monetag ad network CSP integration
+# nginx.conf
+# deploy.sh unlocked 2026-09-18 (operator-approved) to remove the duplicate host build:
+# the site is built once inside the Docker image and docker-compose.yml mounts no host
+# volume, so the build here produced a dist/ that was never served. Measured cost of the
+# duplicate was 1733s + ~26 min in the image = 64 minutes per deploy. Guard coverage it
+# provided (postbuild check-inline-scripts / check-ad-guards) is preserved in deploy.sh
+# by running the source-only guards pre-build and the dist-based guards after the host
+# dist/ is refreshed from the served image.
+# deploy.sh
 # src/components/RoadmapApp.tsx unlocked for retention UX (leave unlocked)

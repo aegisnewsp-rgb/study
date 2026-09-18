@@ -65,13 +65,34 @@ fi
 log "[2/5] Installing npm dependencies..."
 npm ci --legacy-peer-deps --quiet
 
-# ── Build ─────────────────────────────────────────────────────────────────────
-log "[3/5] Building Astro site..."
+# ── Pre-build source guards (replaces the duplicate host build) ────────────────
+# The site is built ONCE, inside the Docker image (Dockerfile:7 `RUN npm run build`),
+# and THAT output is what nginx serves: docker-compose.yml mounts no host volume, so
+# the `npm run build` that used to run here produced a dist/ that was never served.
+# Measured cost of the duplicate on 2026-09-18: 1733s logged as "Build:" plus ~26 min
+# in the image = 64 minutes end-to-end for one deploy (09:58→11:02Z).
+#
+# The host build was not entirely useless, so its coverage is preserved rather than
+# deleted: its npm `postbuild` hook ran check-inline-scripts.mjs and check-ad-guards.mjs,
+# and host tooling (sr-indexnow-delta.sh, sr-pattern-learn.sh, sr-orphans.sh, and the
+# T20 affiliate guard) reads $APP/dist. So: source-only guards run HERE, before the
+# image build (fast fail, nothing shipped), and the host dist/ is refreshed FROM THE
+# SERVED IMAGE further down, where the dist-based guards then run against exactly what
+# went live.
+log "[3/5] Pre-build source guards (site build happens in the image)..."
 BUILD_START=$(date +%s)
-npm run build
+for guard in check-astro-syntax.mjs check-ad-guards.mjs; do
+    if [ -f "scripts/$guard" ]; then
+        if ! node "scripts/$guard"; then
+            die "source guard $guard failed — aborting before the image build"
+        fi
+    else
+        warn "source guard scripts/$guard not found — skipping"
+    fi
+done
 BUILD_END=$(date +%s)
 BUILD_TIME=$((BUILD_END - BUILD_START))
-log "Build completed in ${BUILD_TIME}s"
+log "Source guards passed in ${BUILD_TIME}s (site is built once, in the image)"
 
 # ── Build Docker image ─────────────────────────────────────────────────────────
 log "[4/5] Building Docker image..."
@@ -98,6 +119,38 @@ if docker ps | grep -q "$CONTAINER_NAME"; then
     else
         warn "Container running but site returned HTTP $HTTP_CODE"
     fi
+
+    # ── Refresh host dist/ from the SERVED image, then guard the served output ───
+    # Host tooling reads $APP/dist, but with the duplicate host build removed that
+    # directory would go stale. Copying it out of the running container keeps host
+    # tooling truthful AND makes the dist-based guards check what actually shipped
+    # (including the sitemap's lastmod, which fix-sitemap.cjs rewrites in the image).
+    # Swap-in-place via a temp dir so a failed copy leaves the previous dist/ intact.
+    SYNC_TMP="$APP/.dist-sync.$$"
+    rm -rf "$SYNC_TMP"
+    if mkdir -p "$SYNC_TMP" && docker cp "$CONTAINER_NAME:/usr/share/nginx/html/." "$SYNC_TMP/" 2>/dev/null; then
+        if [ -d "$APP/dist" ]; then mv "$APP/dist" "$APP/.dist-old.$$" 2>/dev/null || true; fi
+        if mv "$SYNC_TMP" "$APP/dist" 2>/dev/null; then
+            rm -rf "$APP/.dist-old.$$"
+            log "host dist/ refreshed from served image ($(find "$APP/dist" -type f 2>/dev/null | wc -l | tr -d ' ') files)"
+        else
+            warn "could not move synced dist into place — restoring previous dist/"
+            [ -d "$APP/.dist-old.$$" ] && mv "$APP/.dist-old.$$" "$APP/dist"
+            rm -rf "$SYNC_TMP"
+        fi
+    else
+        warn "dist sync from image FAILED — host dist/ left as-is (host tooling may be stale)"
+        rm -rf "$SYNC_TMP"
+    fi
+
+    # Dist-based guards, now run against the served output.
+    for guard in check-inline-scripts.mjs check-affiliate-disclosure.mjs; do
+        if [ -f "scripts/$guard" ]; then
+            if ! node "scripts/$guard"; then
+                die "post-deploy guard $guard failed against the served output"
+            fi
+        fi
+    done
 else
     die "Container failed to start. Check: docker compose logs $CONTAINER_NAME"
 fi

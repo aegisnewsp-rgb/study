@@ -1,0 +1,31 @@
+---
+// AffiliateDisclosure — the visible disclosure that must accompany any affiliate link.
+//
+// WHY: `rel="sponsored"` tells search engines, not readers. A page that earns a
+// commission must say so where the reader can see it, near the links, not only in
+// the site footer. This renders ONLY when at least one of the offers named on the
+// page is actually renderable, so it can be placed on every candidate page today
+// without printing a disclosure on a page that has no affiliate link at all.
+//
+// Usage: <AffiliateDisclosure ids={['coursera', 'british-council']} />
+// Today every id resolves to "not renderable" (AFFILIATES_LIVE = false), so this
+// emits nothing anywhere. It starts working the moment the operator switches one on.
+import { AFFILIATE_DISCLOSURE, isRenderable } from '../data/affiliates';
+
+interface Props {
+  ids: string[];
+  class?: string;
+}
+
+const { ids = [], class: cls = '' } = Astro.props;
+const anyLive = ids.some((id) => isRenderable(id));
+---
+
+{anyLive && (
+  <p
+    class={`mt-4 rounded-md border border-surface-200 bg-surface-50 px-3 py-2 text-xs leading-relaxed text-surface-600 dark:border-surface-700 dark:bg-surface-800 dark:text-surface-300 ${cls}`}
+    data-affiliate-disclosure="1"
+  >
+    {AFFILIATE_DISCLOSURE}
+  </p>
+)}

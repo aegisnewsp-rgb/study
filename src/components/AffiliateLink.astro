@@ -1,0 +1,51 @@
+---
+// AffiliateLink — the ONLY way an affiliate URL is allowed to reach a page.
+//
+// WHY: an affiliate link placed ad hoc is a silent compliance and revenue risk —
+// it can miss rel="sponsored", miss the disclosure, or point at a campaign the
+// operator never joined. This component makes the safe path the only path:
+//   * it renders nothing unless the offer is renderable (master switch on,
+//     offer enabled, real tracking URL present) — see src/data/affiliates.ts;
+//   * it always emits rel="sponsored nofollow noopener noreferrer";
+//   * it always marks the link visibly as an ad, so the disclosure is on the
+//     element, not only in a footer;
+//   * it carries data-affiliate=<id>, which is what the pre-deploy guard
+//     (T20 in /data/sr-pre-deploy-tests.sh) greps for to prove a page that
+//     ships an affiliate link also ships the disclosure text.
+//
+// Nothing is live today: AFFILIATES_LIVE is false, so this renders null everywhere.
+import { getOffer, isRenderable } from '../data/affiliates';
+
+interface Props {
+  /** Offer key from src/data/affiliates.ts */
+  id: string;
+  /** Optional override label; defaults to the offer name. */
+  label?: string;
+  /** Show the inline "Ad" marker (default true — turning it off is a compliance decision). */
+  mark?: boolean;
+  class?: string;
+}
+
+const { id, label, mark = true, class: cls = '' } = Astro.props;
+const offer = getOffer(id);
+const render = isRenderable(id);
+
+// A missing offer id is a build-time authoring mistake, not a runtime condition.
+if (!offer) {
+  throw new Error(
+    `AffiliateLink: unknown offer id "${id}". Add it to src/data/affiliates.ts (measured payout + payoutSource required) before using it.`
+  );
+}
+---
+
+{render && (
+  <a
+    href={offer.urlTemplate}
+    rel="sponsored nofollow noopener noreferrer"
+    target="_blank"
+    data-affiliate={id}
+    class={cls}
+  >
+    {label ?? offer.name}{mark && <sup class="ml-0.5 text-[0.65em] font-medium text-surface-500 dark:text-surface-400">Ad</sup>}
+  </a>
+)}

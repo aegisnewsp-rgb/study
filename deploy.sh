@@ -126,16 +126,16 @@ if docker ps | grep -q "$CONTAINER_NAME"; then
     # tooling truthful AND makes the dist-based guards check what actually shipped
     # (including the sitemap's lastmod, which fix-sitemap.cjs rewrites in the image).
     # Swap-in-place via a temp dir so a failed copy leaves the previous dist/ intact.
-    SYNC_TMP="$APP/.dist-sync.$$"
+    SYNC_TMP="$APP_DIR/.dist-sync.$$"
     rm -rf "$SYNC_TMP"
     if mkdir -p "$SYNC_TMP" && docker cp "$CONTAINER_NAME:/usr/share/nginx/html/." "$SYNC_TMP/" 2>/dev/null; then
-        if [ -d "$APP/dist" ]; then mv "$APP/dist" "$APP/.dist-old.$$" 2>/dev/null || true; fi
-        if mv "$SYNC_TMP" "$APP/dist" 2>/dev/null; then
-            rm -rf "$APP/.dist-old.$$"
-            log "host dist/ refreshed from served image ($(find "$APP/dist" -type f 2>/dev/null | wc -l | tr -d ' ') files)"
+        if [ -d "$APP_DIR/dist" ]; then mv "$APP_DIR/dist" "$APP_DIR/.dist-old.$$" 2>/dev/null || true; fi
+        if mv "$SYNC_TMP" "$APP_DIR/dist" 2>/dev/null; then
+            rm -rf "$APP_DIR/.dist-old.$$"
+            log "host dist/ refreshed from served image ($(find "$APP_DIR/dist" -type f 2>/dev/null | wc -l | tr -d ' ') files)"
         else
             warn "could not move synced dist into place — restoring previous dist/"
-            [ -d "$APP/.dist-old.$$" ] && mv "$APP/.dist-old.$$" "$APP/dist"
+            [ -d "$APP_DIR/.dist-old.$$" ] && mv "$APP_DIR/.dist-old.$$" "$APP_DIR/dist"
             rm -rf "$SYNC_TMP"
         fi
     else

@@ -1,0 +1,169 @@
+---
+// Blog index — the page that un-orphans the strategy guides.
+//
+// WHY: nine strategy-guide posts shipped on 2026-09-17 and deployed on 2026-09-18,
+// but no /blog/ index was ever created. The posts were live (HTTP 200) and already
+// in the sitemap, yet nothing on the site linked to them and /blog/ itself returned
+// 404 — orphans do not rank, and Google had no path to discover them beyond the
+// sitemap. This page is their inbound link.
+//
+// The posts are .astro pages rather than content-collection entries, so their
+// metadata is listed explicitly here. Keep this array in sync when a new guide is
+// added: a guide missing from this list is orphaned again.
+import Layout from '../../layouts/Layout.astro';
+import Navbar from '../../components/Navbar.astro';
+import Footer from '../../components/Footer.astro';
+
+const title = 'Exam Strategy Guides for NEET, JEE, CAT, UPSC | StudyRoadmap';
+const description =
+  'Practical exam strategy guides drawn from the free StudyRoadmap note library — NEET, JEE Main and Advanced, CAT, UPSC and NEET PG. What to study, in what order, and where the marks actually sit.';
+
+type Guide = {
+  slug: string;
+  category: string;
+  heading: string;
+  blurb: string;
+  date: string;
+  dateLabel: string;
+};
+
+// Newest first. All nine shipped 2026-09-17; grouped by exam family for a reader
+// who is here for one exam rather than browsing.
+const GUIDES: Guide[] = [
+  {
+    slug: 'neet-biology-chapter-priority',
+    category: 'NEET · Biology',
+    heading: 'NEET Biology: Where the High-Weight Topics Actually Live',
+    blurb:
+      'Biology carries 50% of NEET marks, so the chapter sequence matters more than total reading time. Where to spend those hours.',
+    date: '2026-09-17',
+    dateLabel: '17 Sep 2026',
+  },
+  {
+    slug: 'neet-chemistry-organic-inorganic-physical',
+    category: 'NEET · Chemistry',
+    heading: 'NEET Chemistry: How to Split Organic, Inorganic, and Physical',
+    blurb:
+      'A plan that splits Organic, Inorganic and Physical Chemistry correctly, because they reward different kinds of study.',
+    date: '2026-09-17',
+    dateLabel: '17 Sep 2026',
+  },
+  {
+    slug: 'neet-pg-anatomy-revision',
+    category: 'NEET PG · Anatomy',
+    heading: 'NEET PG Anatomy: From Bones to Revision Schedule',
+    blurb:
+      'A revision plan for Anatomy that starts with Bones and Joints and ends with a schedule you can actually keep.',
+    date: '2026-09-17',
+    dateLabel: '17 Sep 2026',
+  },
+  {
+    slug: 'jee-main-physics-study-order',
+    category: 'JEE Main · Physics',
+    heading: 'JEE Main Physics: A Practical Study Order',
+    blurb:
+      'Units and measurement through laws of motion to gravitation — the order that keeps later chapters affordable.',
+    date: '2026-09-17',
+    dateLabel: '17 Sep 2026',
+  },
+  {
+    slug: 'jee-advanced-mechanics-pitfalls',
+    category: 'JEE Advanced · Mechanics',
+    heading: 'JEE Advanced Mechanics: Five Sub-Topics Where Candidates Slip Up',
+    blurb:
+      'Work-Energy, Rotational Motion and Gravitation, and the specific places marks are lost in each.',
+    date: '2026-09-17',
+    dateLabel: '17 Sep 2026',
+  },
+  {
+    slug: 'cat-qa-arithmetic-strategy',
+    category: 'CAT · Quant',
+    heading: 'CAT Quantitative Aptitude: Three Arithmetic Topics That Pay Off',
+    blurb:
+      'Percentages, Profit-Loss and Time-Work — where the arithmetic marks are and how much time each deserves.',
+    date: '2026-09-17',
+    dateLabel: '17 Sep 2026',
+  },
+  {
+    slug: 'cat-varc-reading-comprehension',
+    category: 'CAT · VARC',
+    heading: 'CAT VARC: A Reading Comprehension Approach That Holds',
+    blurb:
+      'An RC approach built on Reading Comprehension, Verbal Ability and Critical Reasoning notes rather than tips.',
+    date: '2026-09-17',
+    dateLabel: '17 Sep 2026',
+  },
+  {
+    slug: 'upsc-gs1-static-and-current',
+    category: 'UPSC · GS1',
+    heading: 'UPSC GS1: Linking Current Affairs to Static Topics',
+    blurb:
+      'How to fold current affairs into GS1 revision using Indian History, Geography and Environment notes.',
+    date: '2026-09-17',
+    dateLabel: '17 Sep 2026',
+  },
+  {
+    slug: 'upsc-essay-thesis-structure',
+    category: 'UPSC · Essay',
+    heading: 'UPSC Essay Paper: Building a Thesis That Holds Together',
+    blurb:
+      'What a defensible essay thesis looks like before you write the first paragraph, and how to keep it intact.',
+    date: '2026-09-17',
+    dateLabel: '17 Sep 2026',
+  },
+];
+
+const canonicalUrl = 'https://studyroadmap.in/blog/';
+---
+
+<Layout title={title} description={description} canonical={canonicalUrl}>
+  <Navbar />
+
+  <main id="main-content" class="min-h-screen bg-surface-50 dark:bg-surface-900">
+    <div class="max-w-4xl mx-auto px-4 py-12">
+      <header class="mb-10">
+        <h1 class="text-3xl md:text-4xl font-bold text-surface-900 dark:text-white mb-3">
+          Exam strategy guides
+        </h1>
+        <p class="text-surface-600 dark:text-surface-400 text-lg">
+          Practical guides written from the note library itself — what to study, in what order, and
+          where the marks actually sit. Free, no signup.
+        </p>
+      </header>
+
+      <ul class="space-y-5">
+        {GUIDES.map((g) => (
+          <li class="rounded-lg border border-surface-200 dark:border-surface-700 bg-white dark:bg-surface-800 p-5">
+            <p class="text-xs font-semibold uppercase tracking-wide text-brand-600 dark:text-brand-400 mb-1">
+              {g.category}
+            </p>
+            <h2 class="text-lg font-semibold text-surface-900 dark:text-white leading-snug mb-1">
+              <a href={`/blog/${g.slug}/`} class="hover:text-brand-600 dark:hover:text-brand-400">
+                {g.heading}
+              </a>
+            </h2>
+            <p class="text-sm text-surface-600 dark:text-surface-300 leading-relaxed">{g.blurb}</p>
+            <p class="text-xs text-surface-500 mt-2">
+              <time datetime={g.date}>{g.dateLabel}</time>
+            </p>
+          </li>
+        ))}
+      </ul>
+
+      <section class="mt-12 pt-8 border-t border-surface-200 dark:border-surface-700">
+        <h2 class="text-xl font-bold text-surface-900 dark:text-white mb-3">
+          Where to go next
+        </h2>
+        <p class="text-sm text-surface-600 dark:text-surface-300 leading-relaxed">
+          Every guide above links into the free note library. If you already know your exam, the
+          fastest route is the <a href="/roadmap/" class="text-brand-600 dark:text-brand-400 underline">study roadmap</a>
+          — tell it your exam and how many days you have, and it ranks the topics by exam weight.
+          You can also browse <a href="/exams/" class="text-brand-600 dark:text-brand-400 underline">all exams</a>
+          or <a href="/notes/" class="text-brand-600 dark:text-brand-400 underline">all notes</a>.
+        </p>
+      </section>
+    </div>
+  </main>
+
+  <Footer />
+</Layout>

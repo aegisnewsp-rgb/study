@@ -123,23 +123,32 @@ const heroHeadline = (exam as any).heroHeadline
   || `${examName} ${currentYear}: Exam Pattern, Eligibility & Study Plan`;
 const BRAND_SUFFIX = ' | StudyRoadmap';
 const title = (() => {
-  const full = `${examName} ${currentYear} Guide${BRAND_SUFFIX}`;
-  if (full.length <= 60) return full;
-  const mid = `${examName} ${currentYear}${BRAND_SUFFIX}`;
-  if (mid.length <= 60) return mid;
-  const short = `${examName}${BRAND_SUFFIX}`;
-  if (short.length <= 60) return short;
-  // Both the full and bare exam names overflow 60 chars, so trim. Prefer the
-  // compact label ("JUPEB (Joint Universities…)" -> "JUPEB") over a mid-word
-  // cut, and never emit a literal "..." — 263 titles were shipping with one.
+  // CTR repair 2026-09-18. Search Console (28d: 101,560 impressions, 1.29% CTR) showed
+  // these pages ranking 6-9 on mobile and being ignored. The old title was
+  // `${examName} ${year} Guide`, and "Guide" appears in NONE of the queries that earn the
+  // impressions — those are informational ("spsc syllabus 2026", "gaokao exam syllabus",
+  // "cs executive exam pattern", "cs executive group 1 subjects"). Lead with the words
+  // people actually searched. The brand suffix is kept only when it still fits in 60
+  // chars: at a 0.2-1.2% CTR the keyword is worth more than the brand.
   const compact = String(examName).replace(/\s*\([^)]*\)\s*/g, ' ').replace(/\s{2,}/g, ' ').trim() || examName;
-  const candidates = [`${compact} ${currentYear} Guide`, `${compact} ${currentYear}`, compact];
-  for (const c of candidates) {
-    if (`${c}${BRAND_SUFFIX}`.length <= 60) return `${c}${BRAND_SUFFIX}`;
+  const TAILS = [
+    ': Syllabus, Exam Pattern & Eligibility',
+    ': Syllabus, Pattern & Eligibility',
+    ': Syllabus & Exam Pattern',
+    ': Exam Pattern & Eligibility',
+    ': Syllabus & Eligibility',
+  ];
+  for (const tail of TAILS) {
+    for (const name of [examName, compact]) {
+      const bare = `${name} ${currentYear}${tail}`;
+      if (`${bare}${BRAND_SUFFIX}`.length <= 60) return `${bare}${BRAND_SUFFIX}`;
+      if (bare.length <= 60) return bare;
+    }
   }
-  const room = Math.max(10, 60 - BRAND_SUFFIX.length);
-  const cut = compact.slice(0, room).replace(/\s+\S*$/, '').trim() || compact.slice(0, room).trim();
-  return `${cut}${BRAND_SUFFIX}`;
+  // Exam name too long for any keyword tail: hard-trim the compact label, never "...".
+  const room = Math.max(12, 60 - ': Syllabus & Pattern'.length);
+  const cut = `${compact} ${currentYear}`.slice(0, room).replace(/\s+\S*$/, '').trim() || compact.slice(0, room).trim();
+  return `${cut}: Syllabus & Pattern`;
 })();
 // Unique, data-driven meta description. A single templated sentence repeated across 125+
 // exam pages gives Google nothing to differentiate them in the SERP and wastes the CTR
@@ -193,16 +202,56 @@ const description = (() => {
     }
   }
 
+  // CTR repair 2026-09-18 (see the title comment). The old description opened with a dense
+  // spec sentence, which Google then cut mid-value in the SERP ("…Mathematics(150 marks,
+  // 150…"). Put the searched words straight after the exam name so that even a truncated
+  // snippet still reads as an answer, then let this exam's own numbers follow.
+  const KW_LONG = 'syllabus, exam pattern, eligibility and key dates';
+  const KW_SHORT = 'syllabus, exam pattern & eligibility';
+  const namePrefix = `${examName} ${currentYear}`;
+  // Long exam names leave no room for facts, so shorten the keyword clause rather than
+  // shipping a description that is nothing but keywords.
+  const KEYWORDS = `${namePrefix}: ${KW_LONG}.`.length <= 122 ? KW_LONG : KW_SHORT;
+  if (base.startsWith(namePrefix)) {
+    // Strip the name+year (with or without its colon) and re-lay it once, followed by the
+    // searched words and then this exam's own facts. Both branches must behave the same:
+    // an earlier version prepended to the de-duplicated form, which printed the exam name
+    // twice and pushed the facts out of the 158-char window entirely.
+    const rest = base.slice(namePrefix.length).replace(/^[:\s]+/, '');
+    // A self-mention ("CUET UG is a computer-based test…") leaves the bare verb behind once
+    // the name is lifted out. Restore the subject so the clause still reads as English.
+    const restFixed = rest && /^[a-z]/.test(rest) ? `${examName} ${rest}` : rest;
+    base = `${namePrefix}: ${KEYWORDS}.${restFixed ? ` ${restFixed}` : ''}`;
+  }
+
   // Only append eligibility when the pattern line leaves room for it.
   if (base && elig && base.length < 105) base = `${base} Eligibility: ${elig}`;
-  if (!base) base = `Full ${examName} ${currentYear} guide — exam pattern, eligibility, syllabus weightage, FAQs, and a free AI study roadmap built in minutes.`;
+  if (!base) base = `${examName} ${currentYear}: syllabus, exam pattern, eligibility and key dates. Free AI study roadmap built in minutes.`;
 
-  // Fit the ~158-char SERP window without cutting a word in half.
+  // Fit the ~158-char SERP window. Prefer a real clause boundary to a mid-token cut, so a
+  // snippet never ends inside a value like "150 marks, 150".
   const MAX = 158;
   if (base.length > MAX) {
     const cut = base.slice(0, MAX);
-    const sp = cut.lastIndexOf(' ');
-    base = `${cut.slice(0, sp > 100 ? sp : MAX).replace(/[\s,;:.\-—]+$/, '')}…`;
+    let at = -1;
+    for (const sep of ['. ', '; ', ' — ', ', ']) {
+      const i = cut.lastIndexOf(sep);
+      if (i > at) at = i;
+    }
+    const word = cut.lastIndexOf(' ');
+    // Prefer a clause boundary, but only if it lands near the end of the window; otherwise the
+    // snippet would show the keyword line and drop this exam's facts entirely. Falls back to
+    // the word boundary, which is the fuller of the two.
+    let stop = at >= MAX - 35 ? at : word;
+    if (stop <= 0) stop = MAX;
+    // Never end a snippet on a bare value ("…Chinese Language(150"); step back one word.
+    for (let guard = 0; guard < 6 && stop > 0; guard++) {
+      if (!/[\d)٪%]$/.test(cut.slice(0, stop).trimEnd())) break;
+      const prev = cut.slice(0, stop).trimEnd().lastIndexOf(' ');
+      if (prev <= 0) break;
+      stop = prev;
+    }
+    base = `${cut.slice(0, stop).replace(/[\s,;:.\-—]+$/, '')}…`;
   }
   return base;
 })();

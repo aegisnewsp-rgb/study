@@ -90,6 +90,13 @@ const pageGeo = (geoRegion || '').toUpperCase();
 
         <!-- Google Search Console verification -->
         <meta name="google-site-verification" content="Va3l3XyhrSbLFp4XEIsQwEtysPjYt3Es7QkWqwEDQdo" />
+        <!-- Search Console verification for the SERVICE ACCOUNT (studyroadmap-in@
+             hallowed-garden-491906-p8), added 2026-09-18 so /data/sr-gsc.py can read
+             Search Console data. Google permits multiple google-site-verification tags
+             on one page — each tag proves a different owner. Do NOT remove this one:
+             dropping it revokes the service account's owner access to the property and
+             the pipeline loses all Search Console visibility. Guarded by T16b. -->
+        <meta name="google-site-verification" content="U7t96WCyI1NTZhA1aj838xSrhweUwgueMR3twR32RSU" />
         <!-- Admitad / MITGO affiliate-network ownership verification (added 2026-09-18).
              Like the GSC tag above, this must stay on every page: the network re-checks
              it, and losing it drops the account's site verification. It is an ownership

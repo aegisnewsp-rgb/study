@@ -1,0 +1,65 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Navbar from '../../components/Navbar.astro';
+import Footer from '../../components/Footer.astro';
+
+const title = 'JEE Main Physics: A Practical Study Order | StudyRoadmap';
+const description = 'A practical Physics study order for JEE Main, drawn from the units and measurement, laws of motion, and gravitation notes on StudyRoadmap.';
+const publishDate = '2026-09-17';
+---
+
+<Layout title={title} description={description}>
+  <Navbar />
+
+  <main id="main-content" class="min-h-screen bg-surface-50 dark:bg-surface-900">
+    <article class="max-w-3xl mx-auto px-4 py-12">
+      <header class="mb-10">
+        <p class="text-sm text-brand-600 dark:text-brand-400 font-semibold mb-2">JEE Main Strategy · Physics</p>
+        <h1 class="text-3xl md:text-4xl font-bold text-surface-900 dark:text-white leading-tight mb-3">
+          JEE Main Physics: A Practical Study Order
+        </h1>
+        <p class="text-surface-600 dark:text-surface-400 text-lg">
+          A chapter order for JEE Main Physics that builds concept on concept, derived from the unit-by-unit notes on StudyRoadmap.
+        </p>
+        <p class="text-xs text-surface-500 mt-3">Published {publishDate}</p>
+      </header>
+
+      <section class="prose dark:prose-invert max-w-none">
+        <p>
+          The biggest mistake in JEE Main Physics is to start with chapters that look easy — like Modern Physics — and then hit Mechanics without a foundation. Mechanics isn't glamorous, but almost every later chapter leans on it. This order keeps the build-up intact.
+        </p>
+
+        <h2 class="text-2xl font-bold text-surface-900 dark:text-white mt-10 mb-4">Step 1: Get the language right</h2>
+        <p>
+          Before any motion problem makes sense, you need SI units, dimensional analysis, and the difference between systematic and random errors. The <a href="/notes/jeemain/physics/phy-001/" class="text-brand-600 hover:underline">Units and Measurement</a> chapter looks trivial but two or three numerical questions every year are dimensional-analysis traps. Get these right early and you stop losing marks on conversion errors.
+        </p>
+
+        <h2 class="text-2xl font-bold text-surface-900 dark:text-white mt-10 mb-4">Step 2: Mechanics — the foundation of the rest</h2>
+        <p>
+          Once units and dimensions are second nature, move into Mechanics. The chapter <a href="/notes/jeemain/physics/phy-004/" class="text-brand-600 hover:underline">Laws of Motion</a> introduces Newton's three laws, free-body diagrams, friction, and pseudo forces — every subsequent mechanics topic uses these. Don't memorise formulae; train yourself to draw a free-body diagram for every system, then write the equations from the diagram.
+        </p>
+
+        <h2 class="text-2xl font-bold text-surface-900 dark:text-white mt-10 mb-4">Step 3: Gravitation and Work-Energy</h2>
+        <p>
+          <a href="/notes/jeemain/physics/phy-007/" class="text-brand-600 hover:underline">Gravitation</a> sits naturally here because Kepler's laws and orbital mechanics are direct applications of Newton's laws plus work-energy conservation. Once you're comfortable with potential energy and escape velocity, you're set for the entire Mechanics block.
+        </p>
+
+        <h2 class="text-2xl font-bold text-surface-900 dark:text-white mt-10 mb-4">Why this order, not syllabus order</h2>
+        <p>
+          The NCERT Physics textbook sequences chapters alphabetically by topic. That order works for reference, not for learning. The order above puts each chapter in the place where the prerequisites are fresh. The StudyRoadmap <a href="/exams/jeemain/" class="text-brand-600 hover:underline">JEE Main exam hub</a> applies a similar weighting, so the auto-generated roadmap puts Mechanics in week one regardless of when you start.
+        </p>
+
+        <h2 class="text-2xl font-bold text-surface-900 dark:text-white mt-10 mb-4">What about Modern Physics, Optics, and EMI?</h2>
+        <p>
+          Save these for the second pass. They look high-weight and high-scoring, which they are — but only if your Mechanics base is solid. Rushing into Modern Physics before you're fluent with force diagrams is one of the most common reasons JEE Main Physics scores plateau.
+        </p>
+
+        <p class="mt-8 text-sm text-surface-600 dark:text-surface-400">
+          Want a day-by-day JEE Main plan built around this order? The free <a href="/roadmap/" class="text-brand-600 hover:underline">AI roadmap generator</a> takes your hours per day and produces a sequence using exactly this logic.
+        </p>
+      </section>
+    </article>
+  </main>
+
+  <Footer />
+</Layout>

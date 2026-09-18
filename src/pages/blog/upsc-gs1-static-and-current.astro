@@ -1,0 +1,71 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Navbar from '../../components/Navbar.astro';
+import Footer from '../../components/Footer.astro';
+
+const title = 'UPSC GS1: Linking Current Affairs to Static Topics | StudyRoadmap';
+const description = 'A practical guide to folding current affairs into UPSC GS1 revision, drawn from the Indian History, Geography, and Environment notes on StudyRoadmap.';
+const publishDate = '2026-09-17';
+---
+
+<Layout title={title} description={description}>
+  <Navbar />
+
+  <main id="main-content" class="min-h-screen bg-surface-50 dark:bg-surface-900">
+    <article class="max-w-3xl mx-auto px-4 py-12">
+      <header class="mb-10">
+        <p class="text-sm text-brand-600 dark:text-brand-400 font-semibold mb-2">UPSC Strategy · GS1</p>
+        <h1 class="text-3xl md:text-4xl font-bold text-surface-900 dark:text-white leading-tight mb-3">
+          UPSC GS1: Linking Current Affairs to Static Topics
+        </h1>
+        <p class="text-surface-600 dark:text-surface-400 text-lg">
+          GS1 mains answers score higher when a current event is grounded in a static fact. Here is how to weave the two together using the GS1 notes on StudyRoadmap.
+        </p>
+        <p class="text-xs text-surface-500 mt-3">Published {publishDate}</p>
+      </header>
+
+      <section class="prose dark:prose-invert max-w-none">
+        <p>
+          UPSC aspirants often treat current affairs as a separate daily task and static GS1 as a separate textbook. The mains paper, however, rewards answers that combine both — a 2019 Supreme Court judgment grounded in constitutional history, or a cyclone response grounded in geography. The art is in the linking.
+        </p>
+
+        <h2 class="text-2xl font-bold text-surface-900 dark:text-white mt-10 mb-4">Anchor current events in three static notes</h2>
+        <p>
+          Three GS1 notes carry most of the static load for current-affairs integration:
+        </p>
+        <ul>
+          <li>
+            <a href="/notes/upsc/gs1/gs1-002/" class="text-brand-600 hover:underline">Indian History</a> — for constitutional amendments, federal controversies, and any topic touching identity. The freedom struggle, post-independence integration, and key legislation (1955 Hindu Code Bill, 1975 Emergency, 1992 Babri Masjid) provide the historical spine.
+          </li>
+          <li>
+            <a href="/notes/upsc/gs1/gs1-004/" class="text-brand-600 hover:underline">Geography of India</a> — for climate, rivers, monsoon variability, agricultural geography, and disaster-related current affairs. Cyclone-prone coastlines, watershed programmes, and river-linking debates all draw on this note.
+          </li>
+          <li>
+            <a href="/notes/upsc/gs1/gs1-006/" class="text-brand-600 hover:underline">Environment</a> — for biodiversity, climate change, and sustainable-development questions. International climate negotiations, national park additions, and biodiversity hotspots all link here.
+          </li>
+        </ul>
+
+        <h2 class="text-2xl font-bold text-surface-900 dark:text-white mt-10 mb-4">The 5-line answer template</h2>
+        <p>
+          A GS1 mains answer that links current affairs to static content has five lines:
+        </p>
+        <ol>
+          <li><strong>Context (1 line):</strong> What is the current event or question?</li>
+          <li><strong>Static principle (2 lines):</strong> What constitutional, historical, or scientific fact applies?</li>
+          <li><strong>Application (1 line):</strong> How does the static principle explain the current event?</li>
+          <li><strong>Counterpoint (1 line):</strong> What is the strongest counter-argument or limitation?</li>
+        </ol>
+        <p>
+          This structure is shorter than the conventional 12-line mains answer, but the static anchor lifts it above generic current-affairs answers. Examiners see hundreds of "What happened" responses; the ones that connect "what happened" to "why it matters in a deeper sense" score higher.
+        </p>
+
+        <h2 class="text-2xl font-bold text-surface-900 dark:text-white mt-10 mb-4">Daily practice habit</h2>
+        <p>
+          Each morning, take the previous day's most-discussed current-affairs item and write a 5-line GS1 mains answer using this template. After two weeks, the linking habit is automatic. The StudyRoadmap <a href="/exams/upsc/" class="text-brand-600 hover:underline">UPSC hub</a> builds this daily practice into the broader plan, and the free <a href="/roadmap/" class="text-brand-600 hover:underline">AI roadmap generator</a> adjusts the load to your hours per day.
+        </p>
+      </section>
+    </article>
+  </main>
+
+  <Footer />
+</Layout>

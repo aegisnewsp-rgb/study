@@ -24,6 +24,10 @@ export { default as CLAT } from './india/clat';
 export { default as NDA } from './india/nda';
 export { default as UGCNET } from './india/ugc-net';
 export { default as MANIPAL_MET } from './india/manipal-met';
+// ─── Tier-1 global exams (2026-09-17, sr-13h hour 12) ────────────────
+export { default as nclex } from './nclex';
+export { default as sat } from './sat';
+export { default as cfa } from './cfa';
 
 // ─── New 2026 exams ───────────────────────────────────────────────
 // Bangladesh
@@ -217,6 +221,9 @@ import cucet_pg from './india/cucet-pg';
 import fmge from './india/fmge';
 import gate from './india/gate';
 import gre from './gre';
+import nclex from './nclex';
+import sat from './sat';
+import cfa from './cfa';
 import gujcet from './india/gujcet';
 import ibps_clerk from './india/ibps-clerk';
 import ibps_po from './india/ibps-po';
@@ -297,6 +304,8 @@ export const ALL_EXAMS = [
   NEET, JEEMain, JEEAdvanced, CUET, UPSC, SSCCGL, CAT, CLAT, NDA, UGCNET,
   MDCAT, ECAT, NAT1, LAT, HATUG,
   MANIPAL_MET,
+  // Tier-1 global exams (sr-13h hour 12)
+  nclex, sat, cfa,
   JAMB, WAEC, NECO, NABTEB, NCEE,
   // Bangladesh
   buet_adm, du_ad, du_adm, kuet, medical_adm,

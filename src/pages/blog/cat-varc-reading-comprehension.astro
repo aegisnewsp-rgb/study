@@ -1,0 +1,61 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Navbar from '../../components/Navbar.astro';
+import Footer from '../../components/Footer.astro';
+
+const title = 'CAT VARC: A Reading Comprehension Approach That Holds | StudyRoadmap';
+const description = 'A practical CAT VARC strategy built around Reading Comprehension, Verbal Ability, and Critical Reasoning, drawn from the CAT VARC notes on StudyRoadmap.';
+const publishDate = '2026-09-17';
+---
+
+<Layout title={title} description={description}>
+  <Navbar />
+
+  <main id="main-content" class="min-h-screen bg-surface-50 dark:bg-surface-900">
+    <article class="max-w-3xl mx-auto px-4 py-12">
+      <header class="mb-10">
+        <p class="text-sm text-brand-600 dark:text-brand-400 font-semibold mb-2">CAT Strategy · VARC</p>
+        <h1 class="text-3xl md:text-4xl font-bold text-surface-900 dark:text-white leading-tight mb-3">
+          CAT VARC: A Reading Comprehension Approach That Holds
+        </h1>
+        <p class="text-surface-600 dark:text-surface-400 text-lg">
+          The CAT Verbal Ability and Reading Comprehension section is half Reading Comprehension, half Verbal Ability. Here is how to structure the section, drawn from the CAT VARC notes on StudyRoadmap.
+        </p>
+        <p class="text-xs text-surface-500 mt-3">Published {publishDate}</p>
+      </header>
+
+      <section class="prose dark:prose-invert max-w-none">
+        <p>
+          CAT VARC rewards two habits: reading without distraction, and choosing passages strategically. Both are trainable. The third habit — answer-elimination rather than direct answering — is what separates 95-percentilers from 99-percentilers.
+        </p>
+
+        <h2 class="text-2xl font-bold text-surface-900 dark:text-white mt-10 mb-4">Reading Comprehension first</h2>
+        <p>
+          Most candidates try Verbal Ability questions first because they look shorter. The right order is the opposite: do the Reading Comprehension passages first, while your reading attention is fresh. The <a href="/notes/cat/varc/vc-001/" class="text-brand-600 hover:underline">Reading Comprehension</a> note on StudyRoadmap covers the four CAT passage types — fact-based, inference-based, opinion-based, and dual-passage comparison. Train on each type separately.
+        </p>
+
+        <h2 class="text-2xl font-bold text-surface-900 dark:text-white mt-10 mb-4">The paragraph-promise reading habit</h2>
+        <p>
+          Read each paragraph once, then say in one sentence what the paragraph promised. If the paragraph discussed three studies on urban heat islands, your one-sentence summary is "Studies disagree on whether vegetation or albedo reduces heat-island intensity more." That summary becomes the answer to most inference questions.
+        </p>
+
+        <h2 class="text-2xl font-bold text-surface-900 dark:text-white mt-10 mb-4">Verbal Ability after RC</h2>
+        <p>
+          Once the RC passages are done, move to Verbal Ability. The <a href="/notes/cat/varc/vc-002/" class="text-brand-600 hover:underline">Verbal Ability</a> note covers para-jumbles, odd-sentence-out, and summary questions. Para-jumbles reward identifying the opening sentence (a noun phrase introducing a topic, not a pronoun referencing an earlier idea) and the closing sentence (a conclusion, often with "therefore," "thus," or "hence").
+        </p>
+
+        <h2 class="text-2xl font-bold text-surface-900 dark:text-white mt-10 mb-4">Critical Reasoning is its own chapter</h2>
+        <p>
+          The <a href="/notes/cat/varc/vc-008/" class="text-brand-600 hover:underline">Critical Reasoning</a> note treats CR as a logic problem, not a reading problem. Identify the conclusion, the premises, and the unstated assumption. Most wrong answers in CR are tempting because they sound logical but add a premise that wasn't in the passage.
+        </p>
+
+        <h2 class="text-2xl font-bold text-surface-900 dark:text-white mt-10 mb-4">The full VARC plan</h2>
+        <p>
+          The StudyRoadmap <a href="/exams/cat/" class="text-brand-600 hover:underline">CAT exam hub</a> structures VARC this way, with RC practice in week one and CR drills in week two. The free <a href="/roadmap/" class="text-brand-600 hover:underline">AI roadmap generator</a> folds VARC into a balanced plan across all three sections.
+        </p>
+      </section>
+    </article>
+  </main>
+
+  <Footer />
+</Layout>

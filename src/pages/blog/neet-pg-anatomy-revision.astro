@@ -1,0 +1,61 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Navbar from '../../components/Navbar.astro';
+import Footer from '../../components/Footer.astro';
+
+const title = 'NEET PG Anatomy: From Bones to Revision Schedule | StudyRoadmap';
+const description = 'A practical NEET PG Anatomy revision plan drawn from the Bones and Joints, Muscular System, and Nervous System notes on StudyRoadmap.';
+const publishDate = '2026-09-17';
+---
+
+<Layout title={title} description={description}>
+  <Navbar />
+
+  <main id="main-content" class="min-h-screen bg-surface-50 dark:bg-surface-900">
+    <article class="max-w-3xl mx-auto px-4 py-12">
+      <header class="mb-10">
+        <p class="text-sm text-brand-600 dark:text-brand-400 font-semibold mb-2">NEET PG Strategy · Anatomy</p>
+        <h1 class="text-3xl md:text-4xl font-bold text-surface-900 dark:text-white leading-tight mb-3">
+          NEET PG Anatomy: From Bones to Revision Schedule
+        </h1>
+        <p class="text-surface-600 dark:text-surface-400 text-lg">
+          Anatomy is high-volume but learnable. Here is a way to break it down using the Anatomy notes on StudyRoadmap, from the first chapter through revision.
+        </p>
+        <p class="text-xs text-surface-500 mt-3">Published {publishDate}</p>
+      </header>
+
+      <section class="prose dark:prose-invert max-w-none">
+        <p>
+          NEET PG Anatomy covers gross anatomy, histology, embryology, and neuroanatomy across roughly 50,000 facts. The chapter list looks daunting, but a workable plan only needs three structural decisions: which chapter comes first, what to memorise first within each chapter, and how the revisions stack.
+        </p>
+
+        <h2 class="text-2xl font-bold text-surface-900 dark:text-white mt-10 mb-4">Start with bones and joints</h2>
+        <p>
+          Almost every other Anatomy chapter builds on skeletal landmarks. The <a href="/notes/neet-pg/anatomy/anatom-003/" class="text-brand-600 hover:underline">Bones and Joints</a> note on StudyRoadmap gives the structural taxonomy: long, short, flat, irregular, sesamoid — and the joint classification (synarthrosis, amphiarthrosis, diarthrosis) with the six diarthrosis sub-types. Spend the first two days on this alone. Origin/insertion questions, joint classification questions, and synovial-joint MCQs all depend on it.
+        </p>
+
+        <h2 class="text-2xl font-bold text-surface-900 dark:text-white mt-10 mb-4">Then the muscular system, with attachments</h2>
+        <p>
+          The <a href="/notes/neet-pg/anatomy/anatom-004/" class="text-brand-600 hover:underline">Muscular System</a> chapter is where most candidates lose marks — not because the muscles are hard, but because attachments and innervation are easy to mix up. Memorise the table format: muscle, origin, insertion, action, nerve supply. The four-column structure lets you quiz yourself row by row.
+        </p>
+
+        <h2 class="text-2xl font-bold text-surface-900 dark:text-white mt-10 mb-4">Save neuroanatomy for last among the three</h2>
+        <p>
+          <a href="/notes/neet-pg/anatomy/anatom-005/" class="text-brand-600 hover:underline">Nervous System</a> is a longer chapter and easier to retain once the musculoskeletal foundation is in place. Tract names, cranial nerves, and blood supply of the brain all assume you know the bony landmarks and the muscle attachments already. Don't try to memorise neuroanatomy cold.
+        </p>
+
+        <h2 class="text-2xl font-bold text-surface-900 dark:text-white mt-10 mb-4">The revision stack</h2>
+        <p>
+          Three revisions per chapter is the minimum. Read once carefully, then revise after 3 days, then after 7 days, then after 21 days. The first revision consolidates the structure, the second catches what was forgotten, and the third locks the long-tail. Anything still missing after the third revision is a topic to drop and pick up only in the last week of mop-up.
+        </p>
+
+        <h2 class="text-2xl font-bold text-surface-900 dark:text-white mt-10 mb-4">Putting it in a plan</h2>
+        <p>
+          The StudyRoadmap <a href="/exams/neet-pg/" class="text-brand-600 hover:underline">NEET PG exam hub</a> orders Anatomy this way and folds it into a multi-subject plan. The free <a href="/roadmap/" class="text-brand-600 hover:underline">AI roadmap generator</a> produces a day-by-day schedule that puts bones first and neuro last, while leaving room for Physiology and Biochemistry to run in parallel.
+        </p>
+      </section>
+    </article>
+  </main>
+
+  <Footer />
+</Layout>

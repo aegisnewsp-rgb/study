@@ -1,0 +1,74 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Navbar from '../../components/Navbar.astro';
+import Footer from '../../components/Footer.astro';
+
+const title = 'UPSC Essay Paper: Building a Thesis That Holds Together | StudyRoadmap';
+const description = 'A practical guide to writing UPSC Civil Services essays, drawn from the essay writing note and Indian Polity notes on StudyRoadmap.';
+const publishDate = '2026-09-17';
+---
+
+<Layout title={title} description={description}>
+  <Navbar />
+
+  <main id="main-content" class="min-h-screen bg-surface-50 dark:bg-surface-900">
+    <article class="max-w-3xl mx-auto px-4 py-12">
+      <header class="mb-10">
+        <p class="text-sm text-brand-600 dark:text-brand-400 font-semibold mb-2">UPSC Strategy · Essay</p>
+        <h1 class="text-3xl md:text-4xl font-bold text-surface-900 dark:text-white leading-tight mb-3">
+          UPSC Essay Paper: Building a Thesis That Holds Together
+        </h1>
+        <p class="text-surface-600 dark:text-surface-400 text-lg">
+          The essay paper rewards a thesis that survives its own counter-arguments. Here is a structure built around the UPSC Essay rubric and the way current-affairs notes can be folded in.
+        </p>
+        <p class="text-xs text-surface-500 mt-3">Published {publishDate}</p>
+      </header>
+
+      <section class="prose dark:prose-invert max-w-none">
+        <p>
+          UPSC essays look like English-composition exercises but are scored like GS answers: relevance, conceptual clarity, articulation, and contemporary awareness. The <a href="/notes/upsc/essay/ess-001/" class="text-brand-600 hover:underline">UPSC Essay Writing</a> note on StudyRoadmap lays out the time budget — about 5 minutes for brainstorming, 10 for outline, 30 for writing, 5 for review — and the four-parameter rubric. What follows is a way to spend those 30 minutes.
+        </p>
+
+        <h2 class="text-2xl font-bold text-surface-900 dark:text-white mt-10 mb-4">Start with a contestable claim, not a definition</h2>
+        <p>
+          The two openers that lose marks are "In today's world…" and a dictionary-style definition of the keyword. Both signal generic thinking. The first sentence should be a specific claim you can defend — a statistic, a recent judgment, or a counter-intuitive framing. For a topic like "Federalism is India's silent strength," open with the asymmetric treatment of Article 370 in 2019 and explain why that strengthened rather than weakened federalism by removing a special status.
+        </p>
+
+        <h2 class="text-2xl font-bold text-surface-900 dark:text-white mt-10 mb-4">Anchor the body in real GS material</h2>
+        <p>
+          UPSC essays that score above 130 usually weave in GS content rather than treating essay as a separate paper. Two GS notes are especially useful here:
+        </p>
+        <ul>
+          <li>
+            <a href="/notes/upsc/gs1/gs1-008/" class="text-brand-600 hover:underline">Indian Polity</a> — for any topic touching governance, federalism, or rights. Constitutional articles and landmark judgments give the essay institutional weight.
+          </li>
+          <li>
+            <a href="/notes/upsc/gs1/gs1-002/" class="text-brand-600 hover:underline">Indian History</a> — for philosophical and social topics. Historical continuity provides the "since ancient times" depth without resorting to cliché.
+          </li>
+        </ul>
+
+        <h2 class="text-2xl font-bold text-surface-900 dark:text-white mt-10 mb-4">PEEL each paragraph</h2>
+        <p>
+          Point, Explain, Evidence, Link. Point states the paragraph's argument in one sentence. Explain gives the principle behind it. Evidence is a fact, judgment, statistic, or example. Link connects the paragraph back to the thesis and forward to the next paragraph. The four-step discipline removes the most common essay weakness: paragraphs that state a point but never substantiate it.
+        </p>
+
+        <h2 class="text-2xl font-bold text-surface-900 dark:text-white mt-10 mb-4">Don't sit on the fence</h2>
+        <p>
+          UPSC essays penalise fence-sitting. If the topic is "Technology is a double-edged sword," take a position: technology's benefits are real but contingent on institutional safeguards. Then defend it. Acknowledging the other side is fine; refusing to take a position is not.
+        </p>
+
+        <h2 class="text-2xl font-bold text-surface-900 dark:text-white mt-10 mb-4">End with synthesis, not summary</h2>
+        <p>
+          A summary conclusion is the second-most common weakness. Synthesis means drawing a higher-order claim from the body paragraphs — what does this topic tell us about the human condition, India's trajectory, or the policy environment? A 40–60 word synthesis conclusion that lands a forward-looking line will outscore a 100-word summary every time.
+        </p>
+
+        <h2 class="text-2xl font-bold text-surface-900 dark:text-white mt-10 mb-4">Practising the structure</h2>
+        <p>
+          Pick two topics a week and write one essay under timed conditions. After writing, check whether each paragraph follows PEEL and whether the conclusion synthesises. The <a href="/exams/upsc/" class="text-brand-600 hover:underline">UPSC exam hub</a> on StudyRoadmap has the full essay-paper preparation plan, and the free <a href="/roadmap/" class="text-brand-600 hover:underline">AI roadmap generator</a> will fold essay practice into a broader GS schedule.
+        </p>
+      </section>
+    </article>
+  </main>
+
+  <Footer />
+</Layout>

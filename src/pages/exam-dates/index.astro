@@ -1,0 +1,154 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Navbar from '../../components/Navbar.astro';
+import Footer from '../../components/Footer.astro';
+import { SITE_URL } from '@data/site';
+import {
+  EXAM_DATES_ROWS,
+  assertValidRow,
+  groupByExam,
+  slugifyExam,
+  slugifyEvent,
+  sourceLabel,
+  eventLabel,
+} from '../../data/exam-dates';
+
+// The index page must NOT render if any row fails the source-stamp check.
+// assertValidRow filters them out, but if ZERO rows pass the page is unsound
+// and the build should fail - that is the campaign rule.
+const valid = EXAM_DATES_ROWS.map(assertValidRow).filter(Boolean) as any[];
+if (valid.length === 0) {
+  throw new Error('exam-dates/index: no valid rows in EXAM_DATES_ROWS; refusing to render.');
+}
+const groups = groupByExam(valid);
+const lastVerified = valid.reduce((acc: string, r: any) => (r.last_verified > acc ? r.last_verified : acc), valid[0].last_verified);
+const lastVerifiedShort = lastVerified.slice(0, 10);
+
+const title = `Verified Exam Dates ${lastVerifiedShort.slice(0, 4)} - MCAT, LSAT, SAT | StudyRoadmap`;
+const description = `Sourced official exam dates for MCAT, LSAT and SAT. Each row carries the conducting body's URL and a verbatim quote from the page we fetched.`;
+const canonicalUrl = `${SITE_URL}/exam-dates/`;
+
+const breadcrumbJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE_URL}/` },
+    { '@type': 'ListItem', position: 2, name: 'Verified Exam Dates', item: canonicalUrl },
+  ],
+};
+
+const itemList = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: 'Verified exam dates',
+  numberOfItems: valid.length,
+  itemListElement: valid.map((r: any, i: number) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    name: `${r.exam_name} - ${eventLabel(r.event_type)} - ${r.event_date}`,
+    url: `${SITE_URL}/exam-dates/${slugifyExam(r.exam_name)}/${slugifyEvent(r.event_type)}/${r.event_date}/`,
+  })),
+};
+
+const faqs = [
+  { q: 'Where do these dates come from?',
+    a: 'Every row comes from the official conducting body for that exam: AAMC for MCAT, LSAC for LSAT, and College Board for SAT. We re-fetch each page and store a verbatim quote; if a quote no longer appears on the source page we drop the row.' },
+  { q: 'How fresh is the data?',
+    a: 'Each row has a "last verified" stamp recorded in UTC. The most recent verified stamp across all rows is shown at the top of this page. Dates can change between our fetches and the current date, so always confirm against the official notification linked on every detail page.' },
+  { q: 'Why only MCAT, LSAT and SAT?',
+    a: 'These are the exams whose official sources we can read reliably without a browser. We are working through the others (CAT, CUET, GATE, MDCAT, NECO, SSC-CGL, WAEC) one at a time and will add rows here as each becomes pollable.' },
+  { q: 'Is this page advertising?',
+    a: 'No. This page is a sourced data index. The dates themselves are public information published by the exam bodies.' },
+];
+const faqJsonLd = {
+  '@context': 'https://schema.org', '@type': 'FAQPage',
+  mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+};
+---
+<Layout title={title} description={description} canonical={canonicalUrl}>
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
+  <script type="application/ld+json" set:html={JSON.stringify(itemList)} />
+  <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
+  <Navbar />
+  <main id="main-content" class="flex-1">
+    <section class="bg-surface-50 dark:bg-surface-950 border-b border-surface-200 dark:border-surface-800">
+      <div class="container-page py-10">
+        <nav class="text-sm text-surface-500 mb-4"><a href="/" class="hover:text-brand-600">Home</a> &rsaquo; <span>Verified exam dates</span></nav>
+        <h1 class="text-3xl md:text-4xl font-black text-surface-900 dark:text-white mb-3">
+          Verified exam dates for MCAT, LSAT and SAT
+        </h1>
+        <p class="text-lg text-surface-600 dark:text-surface-300 max-w-3xl mb-4">
+          Sourced from the official conducting body. Every row carries the URL we fetched and a verbatim quote from that page. Last verified across all rows: <time datetime={lastVerified}>{lastVerifiedShort}</time>.
+        </p>
+        <div class="flex flex-wrap gap-3 text-sm">
+          <span class="px-3 py-1 rounded-full bg-emerald-100 dark:bg-emerald-900/30 text-emerald-800 dark:text-emerald-200">{valid.length} rows</span>
+          <span class="px-3 py-1 rounded-full bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-200">{groups.length} exams</span>
+          <span class="px-3 py-1 rounded-full bg-amber-100 dark:bg-amber-900/30 text-amber-800 dark:text-amber-200">All rows carry a source URL</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-page py-8 space-y-10">
+      {groups.map((g) => (
+        <article>
+          <header class="mb-4">
+            <h2 class="text-2xl font-bold text-surface-900 dark:text-white">{g.exam}</h2>
+            <p class="text-sm text-surface-500">{g.rows.length} verified {g.rows.length === 1 ? 'row' : 'rows'}</p>
+          </header>
+          <div class="overflow-x-auto rounded-lg border border-surface-200 dark:border-surface-700 bg-white dark:bg-surface-900">
+            <table class="w-full text-sm">
+              <thead class="bg-surface-50 dark:bg-surface-950 text-surface-700 dark:text-surface-300">
+                <tr>
+                  <th class="p-3 text-left font-semibold">Event</th>
+                  <th class="p-3 text-left font-semibold">Date</th>
+                  <th class="p-3 text-left font-semibold">Source</th>
+                  <th class="p-3 text-left font-semibold">Verified</th>
+                </tr>
+              </thead>
+              <tbody>
+                {g.rows.map((r) => (
+                  <tr class="border-t border-surface-200 dark:border-surface-800">
+                    <td class="p-3">
+                      <a href={`/exam-dates/${slugifyExam(r.exam_name)}/${slugifyEvent(r.event_type)}/${r.event_date}/`}
+                         class="text-brand-600 dark:text-brand-400 hover:underline font-medium">
+                        {eventLabel(r.event_type)}
+                      </a>
+                    </td>
+                    <td class="p-3 font-mono">{r.event_date}{r.event_end_date ? ` to ${r.event_end_date}` : ''}</td>
+                    <td class="p-3 text-surface-600 dark:text-surface-400 truncate max-w-[280px]" title={r.source_url}>
+                      <a href={r.source_url} target="_blank" rel="noopener noreferrer" class="hover:underline">{sourceLabel(r.source_url)}</a>
+                    </td>
+                    <td class="p-3 text-surface-500 font-mono text-xs">{r.last_verified.slice(0, 10)}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </article>
+      ))}
+    </section>
+
+    <section class="container-page py-8 border-t border-surface-200 dark:border-surface-800">
+      <h2 class="text-2xl font-bold text-surface-900 dark:text-white mb-4">How to read these dates</h2>
+      <div class="grid md:grid-cols-2 gap-4 text-sm text-surface-700 dark:text-surface-300">
+        <p><strong class="text-surface-900 dark:text-white">Source first.</strong> Each row's URL points at the official conducting body. The quote shown on the detail page is what we pulled from that page; if it no longer appears, the row gets dropped.</p>
+        <p><strong class="text-surface-900 dark:text-white">Last verified.</strong> Every row carries a UTC timestamp. We re-check on a schedule; treat the stamp as "page matched this quote on this date", not "this is the current official date".</p>
+        <p><strong class="text-surface-900 dark:text-white">No date, no page.</strong> A row that does not carry a sourced date never becomes a page. The schema requires <code class="bg-surface-100 dark:bg-surface-800 px-1 rounded">source_url</code>, <code class="bg-surface-100 dark:bg-surface-800 px-1 rounded">verified_quote</code> and <code class="bg-surface-100 dark:bg-surface-800 px-1 rounded">last_verified</code>; the build refuses to render any row missing one.</p>
+        <p><strong class="text-surface-900 dark:text-white">What this is not.</strong> It is not a notification page. Check the official source for any change after the last_verified stamp on the row that matters to you.</p>
+      </div>
+    </section>
+
+    <section class="container-page py-8 border-t border-surface-200 dark:border-surface-800">
+      <h2 class="text-2xl font-bold text-surface-900 dark:text-white mb-4">Frequently asked</h2>
+      <div class="space-y-3">
+        {faqs.map((f) => (
+          <details class="rounded-lg border border-surface-200 dark:border-surface-700 p-4 bg-white dark:bg-surface-900">
+            <summary class="font-semibold cursor-pointer text-surface-900 dark:text-white">{f.q}</summary>
+            <p class="mt-2 text-sm text-surface-600 dark:text-surface-300">{f.a}</p>
+          </details>
+        ))}
+      </div>
+    </section>
+  </main>
+  <Footer />
+</Layout>

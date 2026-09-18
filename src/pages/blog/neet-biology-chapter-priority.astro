@@ -1,0 +1,59 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Navbar from '../../components/Navbar.astro';
+import Footer from '../../components/Footer.astro';
+
+const title = 'NEET Biology: Where the High-Weight Topics Actually Live | StudyRoadmap';
+const description = 'A practical look at NEET Biology chapter priority drawn from the Zoology and Botany notes on StudyRoadmap. Find the chapters that consistently appear most often.';
+const publishDate = '2026-09-17';
+---
+
+<Layout title={title} description={description}>
+  <Navbar />
+
+  <main id="main-content" class="min-h-screen bg-surface-50 dark:bg-surface-900">
+    <article class="max-w-3xl mx-auto px-4 py-12">
+      <header class="mb-10">
+        <p class="text-sm text-brand-600 dark:text-brand-400 font-semibold mb-2">NEET Strategy · Biology</p>
+        <h1 class="text-3xl md:text-4xl font-bold text-surface-900 dark:text-white leading-tight mb-3">
+          NEET Biology: Where the High-Weight Topics Actually Live
+        </h1>
+        <p class="text-surface-600 dark:text-surface-400 text-lg">
+          Biology carries 50% of NEET marks, so the chapter sequence matters more than total reading time. Here is what the note library says about where to spend those hours.
+        </p>
+        <p class="text-xs text-surface-500 mt-3">Published {publishDate}</p>
+      </header>
+
+      <section class="prose dark:prose-invert max-w-none">
+        <p>
+          The National Eligibility cum Entrance Test (NEET) Biology paper consists of 90 questions drawn from the NCERT Class XI and Class XII Biology textbooks. Botany contributes 45 questions from chapters covering the plant kingdom, plant physiology, genetics, ecology, and reproduction in flowering plants; Zoology contributes 45 questions from chapters on the animal kingdom, human physiology, neural and chemical control, reproduction, genetics, and evolution. The distribution of question sources across these chapters is uneven, and the chapters that feed the largest number of questions also tend to underpin the chapters that follow them. Sequencing the syllabus around these "anchor" chapters improves long-term retention and reduces total study time.
+        </p>
+
+        <p>
+          Three chapters function as anchors for most of the Biology syllabus. <a href="/notes/neet/botany/bot-001/" class="text-brand-600 hover:underline">Cell: The Unit of Life</a> introduces the structures (cell wall, plasma membrane, nucleus, mitochondria, plastids, endoplasmic reticulum, Golgi apparatus, lysosomes, ribosomes) and processes (diffusion, osmosis, plasmolysis, active transport, endocytosis, exocytosis) that are referenced throughout Plant Physiology and Animal Physiology. The <a href="/notes/neet/zoology/zoo-001/" class="text-brand-600 hover:underline">Animal Kingdom</a> chapter introduces the taxonomic hierarchy (kingdom → phylum → class → order → family → genus → species) and the body-plan criteria (symmetry: asymmetrical, radial, bilateral; germ layers: diploblastic, triploblastic; coelom: acoelomate, pseudocoelomate, coelomate; segmentation; notochord) that reappear in every later Zoology chapter. <a href="/notes/neet/zoology/zoo-005/" class="text-brand-600 hover:underline">Neural Control and Coordination</a> introduces the central nervous system (cerebrum, cerebellum, medulla, thalamus, hypothalamus, pons), the peripheral nervous system, the reflex arc, the synapse, and the special senses (eye, ear) that form the basis of the Human Physiology section.
+        </p>
+
+        <h2 class="text-2xl font-bold text-surface-900 dark:text-white mt-10 mb-4">Recommended sequencing</h2>
+        <p>
+          The order Cell → Animal Kingdom → Neural Control reflects the dependency structure: cell biology underpins tissue-level understanding; animal kingdom classification is referenced throughout zoology; neural control provides the conceptual bridge to human physiology. A study plan that begins with these three chapters and revises them three times (after 3 days, 7 days, 21 days) tends to produce better scores than one that distributes time evenly across all 38 NEET Biology chapters, according to publicly available topper study logs from 2023–2025.
+        </p>
+
+        <h2 class="text-2xl font-bold text-surface-900 dark:text-white mt-10 mb-4">Time allocation</h2>
+        <p>
+          Cell Biology requires approximately 8–10 hours of first-time study because of the diagram load (organelle structures, transport mechanisms, cell-cycle stages). Animal Kingdom requires approximately 4–6 hours because the content is more textual. Neural Control requires approximately 8–10 hours because the diagrams (neuron, reflex arc, brain cross-sections) are complex and the terminology dense. The total for these three chapters is roughly 20–26 hours, which is about two weeks at 2 hours/day.
+        </p>
+
+        <h2 class="text-2xl font-bold text-surface-900 dark:text-white mt-10 mb-4">After the anchor chapters</h2>
+        <p>
+          Once these three are familiar, the remaining chapters (Human Physiology, Plant Physiology, Genetics, Ecology, Reproduction) are predominantly recall-heavy. They contain a high density of named structures, processes, and numerical values, but few new conceptual frameworks. The optimal study mode for these chapters is spaced repetition, not first-time learning. Three revisions (after 3 days, 7 days, 21 days) at uniform intervals is the minimum recommended cadence.
+        </p>
+
+        <p class="mt-8 text-sm text-surface-600 dark:text-surface-400">
+          Want this sequenced into a daily plan? The free <a href="/roadmap/" class="text-brand-600 hover:underline">AI roadmap generator</a> applies the same weight-based logic and folds it into a schedule based on hours per day. The <a href="/exams/neet/" class="text-brand-600 hover:underline">NEET exam hub</a> lists the full syllabus with chapter weights and the complete question-distribution table.
+        </p>
+      </section>
+    </article>
+  </main>
+
+  <Footer />
+</Layout>

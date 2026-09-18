@@ -1,0 +1,66 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Navbar from '../../components/Navbar.astro';
+import Footer from '../../components/Footer.astro';
+
+const title = 'JEE Advanced Mechanics: Five Sub-Topics Where Candidates Slip Up | StudyRoadmap';
+const description = 'A practical breakdown of common JEE Advanced Mechanics mistakes, drawn from the Work-Energy, Rotational Motion, and Gravitation notes on StudyRoadmap.';
+const publishDate = '2026-09-17';
+---
+
+<Layout title={title} description={description}>
+  <Navbar />
+
+  <main id="main-content" class="min-h-screen bg-surface-50 dark:bg-surface-900">
+    <article class="max-w-3xl mx-auto px-4 py-12">
+      <header class="mb-10">
+        <p class="text-sm text-brand-600 dark:text-brand-400 font-semibold mb-2">JEE Advanced Strategy · Mechanics</p>
+        <h1 class="text-3xl md:text-4xl font-bold text-surface-900 dark:text-white leading-tight mb-3">
+          JEE Advanced Mechanics: Five Sub-Topics Where Candidates Slip Up
+        </h1>
+        <p class="text-surface-600 dark:text-surface-400 text-lg">
+          Mechanics decides the JEE Advanced rank far more than Modern Physics does. These are the sub-topics where marks get quietly dropped, drawn from the JEE Advanced Physics notes.
+        </p>
+        <p class="text-xs text-surface-500 mt-3">Published {publishDate}</p>
+      </header>
+
+      <section class="prose dark:prose-invert max-w-none">
+        <p>
+          JEE Advanced Mechanics is rarely about a formula you didn't know. It's about applying the right formula in the right sign convention, in the right frame, on the right body. Here are the five sub-topics where candidates most often lose 10–20 marks across two papers.
+        </p>
+
+        <h2 class="text-2xl font-bold text-surface-900 dark:text-white mt-10 mb-4">1. Work done by a variable force</h2>
+        <p>
+          In JEE Advanced, work problems rarely give you a constant force. The force is a function of position, and the answer comes from integrating F·dx along the actual path. The <a href="/notes/jeeadvanced/physics/phy-005/" class="text-brand-600 hover:underline">Work, Energy, Power</a> note shows the three patterns — spring force (∫kx dx), gravitational (mg·h), and pseudo work done by friction. Train on each one separately.
+        </p>
+
+        <h2 class="text-2xl font-bold text-surface-900 dark:text-white mt-10 mb-4">2. Rotational motion's moment-of-inertia trap</h2>
+        <p>
+          The chapter <a href="/notes/jeeadvanced/physics/phy-006/" class="text-brand-600 hover:underline">Rotational Motion</a> looks like a parallel of linear motion, but the moment of inertia depends on the axis of rotation, not just the mass distribution. The common mistake is to use I = MR²/2 for a sphere without checking whether the axis goes through the centre, or to forget the parallel-axis theorem entirely.
+        </p>
+
+        <h2 class="text-2xl font-bold text-surface-900 dark:text-white mt-10 mb-4">3. Gravitation beyond Kepler</h2>
+        <p>
+          JEE Advanced Gravitation problems combine orbital mechanics with energy conservation. The <a href="/notes/jeeadvanced/physics/phy-007/" class="text-brand-600 hover:underline">Gravitation</a> note covers gravitational potential energy in multi-body setups, escape velocity for non-circular paths, and the variation of g with depth versus altitude. Treat the chapter as applied mechanics, not a separate unit.
+        </p>
+
+        <h2 class="text-2xl font-bold text-surface-900 dark:text-white mt-10 mb-4">4. Pseudo forces in non-inertial frames</h2>
+        <p>
+          Lift problems, accelerating wedges, and rotating frames all require a pseudo force opposite to the acceleration of the frame. Most candidates apply Newton's laws in the lab frame and either miss the pseudo force or apply it with the wrong sign. Practice writing the equation in the accelerating frame once and you'll see the pattern.
+        </p>
+
+        <h2 class="text-2xl font-bold text-surface-900 dark:text-white mt-10 mb-4">5. Constraint relations</h2>
+        <p>
+          Pulley-and-string problems look simple until the constraint isn't immediately obvious. The trick is to write the length constraint first (string length = constant), then differentiate to get velocity, then again for acceleration. Doing it in that order saves time and reduces sign errors.
+        </p>
+
+        <h2 class="text-2xl font-bold text-surface-900 dark:text-white mt-10 mb-4">Bringing it together</h2>
+        <p>
+          The StudyRoadmap <a href="/exams/jeeadvanced/" class="text-brand-600 hover:underline">JEE Advanced hub</a> pulls these into the daily plan so the foundation chapters appear first. The free <a href="/roadmap/" class="text-brand-600 hover:underline">AI roadmap generator</a> does the same for any hours/day you input.
+        </p>
+      </section>
+    </article>
+  </main>
+
+  <Footer />
+</Layout>

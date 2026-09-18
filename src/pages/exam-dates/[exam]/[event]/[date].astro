@@ -1,0 +1,217 @@
+---
+import Layout from '../../../../layouts/Layout.astro';
+import Navbar from '../../../../components/Navbar.astro';
+import Footer from '../../../../components/Footer.astro';
+import { SITE_URL } from '@data/site';
+import {
+  EXAM_DATES_ROWS,
+  assertValidRow,
+  slugifyExam,
+  slugifyEvent,
+  eventLabel,
+  sourceLabel,
+  type ExamDateRow,
+  type ExamDateEventType,
+} from '../../../../data/exam-dates';
+
+const VALID_EVENTS: ExamDateEventType[] = [
+  'registration_open',
+  'registration_close',
+  'registration_deadline',
+  'late_registration_deadline',
+  'exam_date',
+];
+
+export async function getStaticPaths() {
+  const paths: any[] = [];
+  for (const r of EXAM_DATES_ROWS) {
+    const valid = assertValidRow(r);
+    if (!valid) continue; // refuse to render rows without a source/quote
+    paths.push({
+      params: {
+        exam: slugifyExam(valid.exam_name),
+        event: slugifyEvent(valid.event_type),
+        date: valid.event_date,
+      },
+      props: { row: valid },
+    });
+  }
+  return paths;
+}
+
+const { row } = Astro.props as { row: ExamDateRow };
+const { exam, event, date } = Astro.params as { exam: string; event: string; date: string };
+
+// Hard guard: only render when the URL slug matches the row's slug exactly.
+// A mismatch means someone linked us a typo, or someone hand-edited the URL -
+// in either case we 404 instead of rendering a wrong-date page.
+const expectedExam = slugifyExam(row.exam_name);
+const expectedEvent = slugifyEvent(row.event_type);
+if (exam !== expectedExam || event !== expectedEvent || date !== row.event_date) {
+  return Astro.redirect('/404');
+}
+
+// Look up related rows for the same exam (excluding this one) so the page has
+// internal cross-links. Keeps a student on-site when one of these pages is the
+// landing page from search.
+const related = EXAM_DATES_ROWS
+  .filter((r) => assertValidRow(r))
+  .filter((r) => r.exam_name === row.exam_name && r.id !== row.id)
+  .sort((a, b) => a.event_date.localeCompare(b.event_date));
+
+// Friendly date for display: "October 20, 2026" not "2026-10-20".
+const dateLong = new Date(row.event_date + 'T00:00:00Z').toLocaleDateString('en-US', {
+  year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC',
+});
+const endLong = row.event_end_date
+  ? new Date(row.event_end_date + 'T00:00:00Z').toLocaleDateString('en-US', {
+      year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC',
+    })
+  : null;
+
+const label = eventLabel(row.event_type);
+const pageTitle = `${row.exam_name} ${label}: ${dateLong} | StudyRoadmap`;
+const description = `${row.exam_name} ${label.toLowerCase()} is ${dateLong}${endLong ? ` through ${endLong}` : ''}. Source: ${sourceLabel(row.source_url)}.`;
+const canonicalUrl = `${SITE_URL}/exam-dates/${expectedExam}/${expectedEvent}/${row.event_date}/`;
+const verifiedShort = row.last_verified.slice(0, 10);
+
+const breadcrumbJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE_URL}/` },
+    { '@type': 'ListItem', position: 2, name: 'Verified exam dates', item: `${SITE_URL}/exam-dates/` },
+    { '@type': 'ListItem', position: 3, name: `${row.exam_name} ${label}`, item: canonicalUrl },
+  ],
+};
+
+const eventJsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Event',
+  name: `${row.exam_name} ${label}`,
+  startDate: row.event_date,
+  endDate: row.event_end_date || row.event_date,
+  description: row.description,
+  url: row.source_url,
+  eventStatus: 'https://schema.org/EventScheduled',
+  eventAttendanceMode: 'https://schema.org/OfflineEventAttendanceMode',
+};
+
+const faqs = [
+  { q: `When is ${row.exam_name} ${label.toLowerCase()}?`,
+    a: `${row.exam_name} ${label.toLowerCase()} is ${dateLong}${endLong ? ` (through ${endLong})` : ''}, per ${sourceLabel(row.source_url)}. Always confirm against the official notification before relying on this date.` },
+  { q: 'Is this the official source?',
+    a: `The source listed (${sourceLabel(row.source_url)}) is the conducting body. We do not edit or interpret the date; we only re-fetch and store a verbatim quote. The last_verified stamp records when our fetch matched the page.` },
+  { q: 'Where can I find the other key dates for this exam?',
+    a: `See the rest of the verified rows on the index page for ${row.exam_name}, and the official ${sourceLabel(row.source_url)} for the full schedule.` },
+];
+
+const faqJsonLd = {
+  '@context': 'https://schema.org', '@type': 'FAQPage',
+  mainEntity: faqs.map(f => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
+};
+---
+<Layout title={pageTitle} description={description} canonical={canonicalUrl} pageType="article" publishedDate={row.last_verified}>
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
+  <script type="application/ld+json" set:html={JSON.stringify(eventJsonLd)} />
+  <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
+  <Navbar />
+  <main id="main-content" class="flex-1">
+    <section class="bg-surface-50 dark:bg-surface-950 border-b border-surface-200 dark:border-surface-800">
+      <div class="container-page py-10">
+        <nav class="text-sm text-surface-500 mb-4">
+          <a href="/" class="hover:text-brand-600">Home</a> &rsaquo;
+          <a href="/exam-dates/" class="hover:text-brand-600">Verified exam dates</a> &rsaquo;
+          <span>{row.exam_name} {label}</span>
+        </nav>
+        <h1 class="text-3xl md:text-4xl font-black text-surface-900 dark:text-white mb-3">
+          {row.exam_name}: {label}
+        </h1>
+        <p class="text-lg text-surface-600 dark:text-surface-300 max-w-3xl mb-4">
+          {dateLong}{endLong ? <> through <strong class="text-surface-900 dark:text-white">{endLong}</strong></> : null}
+        </p>
+        <div class="flex flex-wrap gap-2 text-xs">
+          <span class="px-2 py-1 rounded bg-emerald-100 dark:bg-emerald-900/30 text-emerald-800 dark:text-emerald-200">Source verified {verifiedShort}</span>
+          <span class="px-2 py-1 rounded bg-blue-100 dark:bg-blue-900/30 text-blue-800 dark:text-blue-200">Row id {row.id}</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="container-page py-8">
+      <div class="grid lg:grid-cols-3 gap-6">
+        <div class="lg:col-span-2 space-y-6">
+          <article class="rounded-lg border border-surface-200 dark:border-surface-700 bg-white dark:bg-surface-900 p-6">
+            <h2 class="text-xl font-bold text-surface-900 dark:text-white mb-3">What this date is</h2>
+            <p class="text-surface-700 dark:text-surface-300">{row.description}</p>
+          </article>
+
+          <article class="rounded-lg border border-surface-200 dark:border-surface-700 bg-amber-50 dark:bg-amber-900/10 p-6">
+            <h2 class="text-xl font-bold text-surface-900 dark:text-white mb-3">From the source page</h2>
+            <blockquote class="border-l-4 border-amber-400 pl-4 italic text-surface-700 dark:text-surface-300">
+              &ldquo;{row.verified_quote}&rdquo;
+            </blockquote>
+            <p class="mt-3 text-sm text-surface-600 dark:text-surface-400">
+              Verbatim substring of the page text we fetched from <a href={row.source_url} target="_blank" rel="noopener noreferrer" class="text-brand-600 dark:text-brand-400 hover:underline">{sourceLabel(row.source_url)}</a>.
+            </p>
+          </article>
+
+          {related.length > 0 && (
+            <article class="rounded-lg border border-surface-200 dark:border-surface-700 bg-white dark:bg-surface-900 p-6">
+              <h2 class="text-xl font-bold text-surface-900 dark:text-white mb-3">Other verified {row.exam_name} dates</h2>
+              <ul class="divide-y divide-surface-200 dark:divide-surface-700">
+                {related.map((r) => (
+                  <li class="py-2 flex items-center justify-between gap-3">
+                    <a href={`/exam-dates/${slugifyExam(r.exam_name)}/${slugifyEvent(r.event_type)}/${r.event_date}/`}
+                       class="text-brand-600 dark:text-brand-400 hover:underline font-medium">
+                      {eventLabel(r.event_type)}
+                    </a>
+                    <span class="font-mono text-sm text-surface-700 dark:text-surface-300">{r.event_date}{r.event_end_date ? ` to ${r.event_end_date}` : ''}</span>
+                  </li>
+                ))}
+              </ul>
+            </article>
+          )}
+
+          <article class="rounded-lg border border-surface-200 dark:border-surface-700 bg-white dark:bg-surface-900 p-6">
+            <h2 class="text-xl font-bold text-surface-900 dark:text-white mb-3">Frequently asked</h2>
+            <div class="space-y-3">
+              {faqs.map((f) => (
+                <details class="rounded border border-surface-200 dark:border-surface-700 p-3">
+                  <summary class="font-semibold cursor-pointer text-surface-900 dark:text-white">{f.q}</summary>
+                  <p class="mt-2 text-sm text-surface-600 dark:text-surface-300">{f.a}</p>
+                </details>
+              ))}
+            </div>
+          </article>
+        </div>
+
+        <aside class="space-y-4">
+          <div class="rounded-lg border border-surface-200 dark:border-surface-700 bg-white dark:bg-surface-900 p-5">
+            <h3 class="font-bold text-surface-900 dark:text-white mb-2">Source</h3>
+            <p class="text-sm text-surface-600 dark:text-surface-300 mb-2">{sourceLabel(row.source_url)}</p>
+            <a href={row.source_url} target="_blank" rel="noopener noreferrer"
+               class="inline-flex items-center gap-1 text-brand-600 dark:text-brand-400 hover:underline text-sm font-semibold">
+              Open official page &rarr;
+            </a>
+          </div>
+          <div class="rounded-lg border border-surface-200 dark:border-surface-700 bg-white dark:bg-surface-900 p-5">
+            <h3 class="font-bold text-surface-900 dark:text-white mb-2">Verification</h3>
+            <dl class="text-sm space-y-2">
+              <div><dt class="text-surface-500">Event type</dt><dd class="font-mono text-surface-800 dark:text-surface-200">{row.event_type}</dd></div>
+              <div><dt class="text-surface-500">Event date</dt><dd class="font-mono text-surface-800 dark:text-surface-200">{row.event_date}{row.event_end_date ? ` - ${row.event_end_date}` : ''}</dd></div>
+              <div><dt class="text-surface-500">Last verified</dt><dd class="font-mono text-surface-800 dark:text-surface-200">{row.last_verified}</dd></div>
+              <div><dt class="text-surface-500">Row id</dt><dd class="font-mono text-surface-800 dark:text-surface-200">{row.id}</dd></div>
+            </dl>
+          </div>
+          <div class="rounded-lg border border-surface-200 dark:border-surface-700 bg-white dark:bg-surface-900 p-5">
+            <h3 class="font-bold text-surface-900 dark:text-white mb-2">All {row.exam_name} dates</h3>
+            <p class="text-sm text-surface-600 dark:text-surface-300">
+              <a href="/exam-dates/" class="text-brand-600 dark:text-brand-400 hover:underline">Browse the verified-dates index &rarr;</a>
+            </p>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+  <Footer />
+</Layout>

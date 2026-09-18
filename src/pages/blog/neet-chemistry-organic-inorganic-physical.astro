@@ -1,0 +1,61 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Navbar from '../../components/Navbar.astro';
+import Footer from '../../components/Footer.astro';
+
+const title = 'NEET Chemistry: How to Split Organic, Inorganic, and Physical | StudyRoadmap';
+const description = 'A practical NEET Chemistry plan that splits Organic, Inorganic, and Physical Chemistry correctly, drawn from the NEET Chemistry notes on StudyRoadmap.';
+const publishDate = '2026-09-17';
+---
+
+<Layout title={title} description={description}>
+  <Navbar />
+
+  <main id="main-content" class="min-h-screen bg-surface-50 dark:bg-surface-900">
+    <article class="max-w-3xl mx-auto px-4 py-12">
+      <header class="mb-10">
+        <p class="text-sm text-brand-600 dark:text-brand-400 font-semibold mb-2">NEET Strategy · Chemistry</p>
+        <h1 class="text-3xl md:text-4xl font-bold text-surface-900 dark:text-white leading-tight mb-3">
+          NEET Chemistry: How to Split Organic, Inorganic, and Physical
+        </h1>
+        <p class="text-surface-600 dark:text-surface-400 text-lg">
+          NEET Chemistry is one paper with three different learning modes. The mistake is to study all three the same way. Here is the split that matches how each section is actually tested.
+        </p>
+        <p class="text-xs text-surface-500 mt-3">Published {publishDate}</p>
+      </header>
+
+      <section class="prose dark:prose-invert max-w-none">
+        <p>
+          NEET Chemistry questions are roughly evenly split across Organic, Inorganic, and Physical. But the three branches reward different study habits. Reading NCERT for all three the same way is the most common reason Chemistry scores plateau at 110–130 out of 180.
+        </p>
+
+        <h2 class="text-2xl font-bold text-surface-900 dark:text-white mt-10 mb-4">Organic Chemistry: principles first, then named reactions</h2>
+        <p>
+          Organic Chemistry looks like a memorisation exercise (named reactions, reagents, products) but is actually a small set of principles applied repeatedly. The <a href="/notes/neet/organic-chemistry/oc-001/" class="text-brand-600 hover:underline">Hydrocarbons</a> note on StudyRoadmap covers the foundation — alkanes, alkenes, alkynes, aromatic compounds, and the mechanisms that connect them. Master the inductive, resonance, and hyperconjugation effects first; the named reactions become predictable.
+        </p>
+
+        <h2 class="text-2xl font-bold text-surface-900 dark:text-white mt-10 mb-4">Inorganic Chemistry: p-block and d-block by exception</h2>
+        <p>
+          Inorganic Chemistry in NEET is mostly the p-block, d-block, and f-block. The <a href="/notes/neet/inorganic-chemistry/ic-003/" class="text-brand-600 hover:underline">p-Block Elements</a> note organises the chapter group-by-group with the reactions and structures that NEET asks about. The strategy: read each group's general properties once, then focus on the exceptions and anomalous behaviour — that's where most questions come from.
+        </p>
+
+        <h2 class="text-2xl font-bold text-surface-900 dark:text-white mt-10 mb-4">Physical Chemistry: numericals, not definitions</h2>
+        <p>
+          The <a href="/notes/neet/physical-chemistry/pc-002/" class="text-brand-600 hover:underline">Atomic Structure</a> note is representative: Physical Chemistry is mostly numerical problems. NEET rarely asks "define ionisation energy"; it asks numerical comparisons of ionisation energies across a period. The right habit is to solve 20–30 numericals per chapter after a single read of the theory.
+        </p>
+
+        <h2 class="text-2xl font-bold text-surface-900 dark:text-white mt-10 mb-4">A weekly rhythm that works</h2>
+        <p>
+          Across the week: 2 days for Organic (mechanism-driven), 2 days for Physical Chemistry (numerical-driven), 1 day for Inorganic (read + revise). This rhythm matches the chapter weights and avoids the trap of finishing Organic in two weeks and forgetting the p-block by month three.
+        </p>
+
+        <h2 class="text-2xl font-bold text-surface-900 dark:text-white mt-10 mb-4">Putting it together</h2>
+        <p>
+          The StudyRoadmap <a href="/exams/neet/" class="text-brand-600 hover:underline">NEET exam hub</a> applies this rhythm automatically when you generate a plan. The free <a href="/roadmap/" class="text-brand-600 hover:underline">AI roadmap generator</a> takes your hours per day and produces the same split, with revisions spaced to match the topic weights.
+        </p>
+      </section>
+    </article>
+  </main>
+
+  <Footer />
+</Layout>

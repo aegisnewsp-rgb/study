@@ -131,13 +131,29 @@ const title = (() => {
   // people actually searched. The brand suffix is kept only when it still fits in 60
   // chars: at a 0.2-1.2% CTR the keyword is worth more than the brand.
   const compact = String(examName).replace(/\s*\([^)]*\)\s*/g, ' ').replace(/\s{2,}/g, ' ').trim() || examName;
-  const TAILS = [
-    ': Syllabus, Exam Pattern & Eligibility',
-    ': Syllabus, Pattern & Eligibility',
-    ': Syllabus & Exam Pattern',
-    ': Exam Pattern & Eligibility',
-    ': Syllabus & Eligibility',
-  ];
+  // Exams whose own syllabus publishes a named grouping (ICSI's "Group 1"/
+  // "Group 2" for CS Executive) get a SUBJECTS-led tail, because that is the
+  // head term in the queries they already rank #1-2 for. Measured 2026-09-19:
+  // "cs executive group 1 subjects" 137 imp / 0.73% CTR / pos 1.2,
+  // "cs executive subjects group 1" 37 imp / 0% / pos 1.3, and
+  // "cs executive module 2 subjects new syllabus" 33 imp / 0% / pos 1.0 —
+  // while the title read "Syllabus, Exam Pattern & Eligibility" and never once
+  // said "Subjects". Every other exam keeps the 2026-09-18 tails untouched, so
+  // the in-flight title experiment is not confounded.
+  const hasGroups = Array.isArray(exam.subjects) && exam.subjects.some((s: any) => s?.group);
+  const TAILS = hasGroups
+    ? [
+        ': Group 1 & Group 2 Subjects',
+        ': Subjects, Syllabus & Pattern',
+        ': Syllabus & Exam Pattern',
+      ]
+    : [
+        ': Syllabus, Exam Pattern & Eligibility',
+        ': Syllabus, Pattern & Eligibility',
+        ': Syllabus & Exam Pattern',
+        ': Exam Pattern & Eligibility',
+        ': Syllabus & Eligibility',
+      ];
   for (const tail of TAILS) {
     for (const name of [examName, compact]) {
       const bare = `${name} ${currentYear}${tail}`;
@@ -310,6 +326,7 @@ const markingSchemeText = (() => {
   return 'Standard Marking';
 })();
 
+
 // Helper to extract structured phases from prepOverview
 interface PrepPhase {
   number: number;
@@ -414,9 +431,23 @@ const examFAQs = examSpecificFAQs || [
   },
   {
     question: `What subjects are covered in ${examName}?`,
-    answer: exam.subjects && exam.subjects.length > 0
-      ? `${examName} covers ${exam.subjects.map((s: any) => s.name).join(', ')}. Use the study roadmap to prioritise subjects based on your strengths and the exam's subject-wise weightage.`
-      : `${examName} covers multiple subjects. Check the detailed syllabus and generate a free personalised roadmap to know which topics to focus on first.`,
+    answer: (() => {
+      const subs = (exam.subjects || []) as any[];
+      if (!subs.length) {
+        return `${examName} covers multiple subjects. Check the detailed syllabus and generate a free personalised roadmap to know which topics to focus on first.`;
+      }
+      // Group-aware: answering "What subjects…" with the group names and their
+      // papers is the exact shape the query asks for (and what a SERP snippet
+      // needs to quote). Falls back to the flat list when the exam has no groups.
+      const names: string[] = [];
+      for (const s of subs) if (s?.group && !names.includes(s.group)) names.push(s.group);
+      if (names.length) {
+        const parts = names.map((g) =>
+          `${g} has ${subs.filter((s) => s.group === g).map((s) => s.name).join(', ')}`);
+        return `${examName} has ${subs.length} papers in ${names.length} groups. ${parts.join('. ')}. Use the study roadmap to prioritise subjects by exam weightage.`;
+      }
+      return `${examName} covers ${subs.map((s: any) => s.name).join(', ')}. Use the study roadmap to prioritise subjects based on your strengths and the exam's subject-wise weightage.`;
+    })(),
   },
 ];
 
@@ -480,8 +511,70 @@ const courseJsonLd = DISCONTINUED_EXAMS[exam.examId] ? null : {
 // hub can't claim "45 topics" while its own filtered views render 0 (indexed
 // hubs self-contradicted their syllabus spokes until 2026-07-04).
 const subjectList = exam.subjects || [];
+// Grouped-subject support (added 2026-09-19). Only exams whose official syllabus
+// publishes a named grouping set Subject.group; every other exam renders exactly
+// as before, because `subjectGroups` is empty and the section below is skipped.
+const subjectGroups = (() => {
+  const names: string[] = [];
+  for (const s of subjectList as any[]) {
+    if (s?.group && !names.includes(s.group)) names.push(s.group);
+  }
+  return names.map((name) => ({
+    name,
+    subjects: (subjectList as any[]).filter((s) => s?.group === name),
+  }));
+})();
 const realTopics = (s: any) => (s.topics || []).filter((t: any) => !isPlaceholderExamTopic(t));
 const totalTopics = subjectList.reduce((acc: number, s: any) => acc + realTopics(s).length, 0);
+
+// --- SERP-truth answer capsule -------------------------------------------------
+// GSC 28d: exam hubs rank (avg position ~11-15) but convert ~0.3% CTR, while
+// blog/compare pages on the same domain convert 1.5-5%. The impression queries
+// are all "who conducts X / X exam pattern / how many questions in X". Those
+// answers exist further down the page (snapshot grid + pattern card), so the
+// snippet has nothing tight to quote and the reader has to scroll to find out
+// whether the page is even about their exam. This block puts the four facts the
+// query asks for in the first screen, in plain sentences a snippet can lift.
+//
+// Numbers are parsed from the existing fullExamPattern string — no new data
+// source, and any fact we cannot parse is omitted rather than guessed. Declared
+// here (not near the other copy) because it reads subjectList/totalTopics,
+// which are initialized above.
+const patternNumbers = (() => {
+  const p = fullExamPattern || '';
+  const out: { label: string; value: string }[] = [];
+  const questions = p.match(/(\d{1,4})\s*(?:objective\s+|mcq\s+)?questions/i);
+  const marks = p.match(/(\d{1,4})\s*marks/i);
+  const minutes = p.match(/(\d{2,3})\s*(?:minutes|mins)\b/i);
+  const hours = p.match(/(\d+(?:\.\d+)?)\s*(?:hours|hrs|hour)\b/i);
+  if (questions) out.push({ label: 'Questions', value: questions[1] });
+  if (marks) out.push({ label: 'Total marks', value: marks[1] });
+  if (minutes) out.push({ label: 'Duration', value: `${minutes[1]} min` });
+  else if (hours) out.push({ label: 'Duration', value: `${hours[1]} hours` });
+  return out;
+})();
+
+// Right column of the capsule: pattern numbers when the source text yields them,
+// otherwise the always-true structural facts. Never renders an empty column.
+const capsuleFacts: { label: string; value: string }[] = patternNumbers.length >= 2
+  ? patternNumbers
+  : [
+      ...patternNumbers,
+      { label: 'Exam level', value: exam.educationalLevel || 'National entrance' },
+      ...(markingSchemeText !== 'Standard Marking' ? [{ label: 'Marking', value: markingSchemeText }] : []),
+    ].slice(0, 4);
+
+// One-sentence plain-language answer. The mode noun is derived from the detected
+// mode string so the sentence stays grammatical without per-exam hardcoding.
+const modeNoun = examModeText === 'Computer-Based Test (CBT)' ? 'computer-based test' : 'written examination';
+const capsuleQuestionCount = patternNumbers.find(f => f.label === 'Questions')?.value;
+const capsuleAnswer = [
+  `${examName} is a ${modeNoun} conducted by ${conductingBody} for candidates in ${countryName}.`,
+  `The syllabus covers ${totalTopics} topics across ${subjectList.length} ${subjectList.length === 1 ? 'subject' : 'subjects'}`,
+  capsuleQuestionCount ? `, and the paper carries ${capsuleQuestionCount} questions.` : '.',
+  markingSchemeText !== 'Standard Marking' ? ` Marking follows ${markingSchemeText.toLowerCase()}.` : '',
+  ' StudyRoadmap turns that syllabus into a week-by-week plan you can start today.',
+].join('');
 const durations = Object.keys(exam.durations || {}).slice(0, 6);
 // The syllabus spoke noindexes itself when majority-placeholder — don't
 // follow-link it from this indexed hub (same never-link-noindex policy).
@@ -677,6 +770,25 @@ const discontinuedNotice = DISCONTINUED_EXAMS[exam.examId];
             {fullDescription}
           </p>
         )}
+
+        {/* Answer capsule — the snippet-shaped answer to "what is X / who conducts it / what's the pattern" */}
+        <div class="grid grid-cols-1 lg:grid-cols-[minmax(0,1fr)_minmax(0,340px)] gap-4 lg:gap-6 mb-8 rounded-2xl border border-surface-200 dark:border-surface-800 bg-white dark:bg-surface-900 p-5 sm:p-6 shadow-2xs">
+          <div>
+            <h2 class="text-[11px] font-bold uppercase tracking-wider text-brand-700 dark:text-brand-400 mb-2">{examName} at a glance</h2>
+            <p class="text-surface-800 dark:text-surface-200 text-sm sm:text-base leading-relaxed">{capsuleAnswer}</p>
+            {fullExamPattern && (
+              <p class="mt-3 text-surface-600 dark:text-surface-400 text-sm leading-relaxed line-clamp-3">{fullExamPattern}</p>
+            )}
+          </div>
+          <dl class="grid grid-cols-2 gap-x-4 gap-y-3 content-start lg:border-l lg:border-surface-200 dark:lg:border-surface-800 lg:pl-6">
+            {capsuleFacts.map((f) => (
+              <div>
+                <dt class="text-[10px] font-bold uppercase tracking-wider text-surface-500 dark:text-surface-400">{f.label}</dt>
+                <dd class="text-sm sm:text-base font-bold text-surface-900 dark:text-white mt-0.5">{f.value}</dd>
+              </div>
+            ))}
+          </dl>
+        </div>
 
         <!-- Executive Exam Snapshot Grid -->
         <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 mb-8">
@@ -940,6 +1052,38 @@ const discontinuedNotice = DISCONTINUED_EXAMS[exam.examId];
                 </span>
                 <span>Prioritize syllabus-aligned official materials and maintain strict negative-marking drill discipline.</span>
               </div>
+            </div>
+          ))}
+        </div>
+      </section>
+    )}
+
+    <!-- Grouped subjects (added 2026-09-19). Rendered only when the exam's own
+         syllabus publishes a named grouping, so 126 of 127 exam pages are
+         byte-identical to before. The headings deliberately read
+         "<Group> Subjects" — that literal phrase is what "cs executive group 1
+         subjects" and its variants ask for, and it previously appeared nowhere
+         on the page. -->
+    {subjectGroups.length > 0 && (
+      <section class="container-page py-8" id="subjects">
+        <h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100">
+          {examName} Subjects
+        </h2>
+        <p class="mt-2 text-slate-600 dark:text-slate-400">
+          {examName} has {subjectList.length} papers in {subjectGroups.length} groups:
+          {' '}{subjectGroups.map((g) => `${g.name} (${g.subjects.length})`).join(', ')}.
+        </p>
+        <div class="mt-6 grid gap-6 sm:grid-cols-2">
+          {subjectGroups.map((g) => (
+            <div class="rounded-lg border border-slate-200 p-5 dark:border-slate-700">
+              <h3 class="text-lg font-semibold text-slate-900 dark:text-slate-100">
+                {g.name} Subjects
+              </h3>
+              <ol class="mt-3 list-decimal space-y-1 pl-5 text-slate-700 dark:text-slate-300">
+                {g.subjects.map((s: any) => (
+                  <li>{s.name}</li>
+                ))}
+              </ol>
             </div>
           ))}
         </div>

@@ -9,7 +9,7 @@ export const english: Subject = {
     { id: 'englis-006', name: 'Sentence Correction and Structure', weight: 4 as const, description: 'Modifying phrases, parallelism, pronoun reference, modifier placement and idiom use to choose the best sentence.' },
     { id: 'englis-007', name: 'Summary Writing', weight: 3 as const, description: 'Reducing a passage to key points in a fixed word count, using one\'s own words without losing meaning.' },
     { id: 'englis-008', name: 'Oral English and Phonetics', weight: 3 as const, description: 'Vowels, consonants, syllable types, stress patterns, intonation and rhyming in spoken English.' },
-    { id: 'englis-009', name: 'Literature Appreciation', weight: 3 as const, description: 'Prose, poetry and drama: theme, characterisation, figures of speech, setting and literary devices.' },
+    { id: 'englis-009', name: 'Literature Appreciation', weight: 3 as const, description: 'WASSCE English Literature covering prose, poetry and drama appreciation, theme, characterisation, figures of speech, setting and literary devices.' },
     { id: 'englis-010', name: 'Punctuation and Mechanics', weight: 2 as const, description: 'Correct use of commas, semicolons, colons, apostrophes, quotation marks and capitalisation in writing.' }
   ]
 };

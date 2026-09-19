@@ -6,7 +6,7 @@ export const english: Subject = {
     { id: 'englis-003', name: 'Interpretation and Translation', weight: 3 as const, description: 'Translating between English and Kiswahili, interpreting texts, idiom handling. NECTA 122/1 at 12.5%.' },
     { id: 'englis-004', name: 'Novels and Short Stories', weight: 3 as const, description: 'Appreciation of set novels and short stories (Armah, Achebe, Ndunguru, Safo, Omowale). NECTA 122/2 literary works component.' },
     { id: 'englis-005', name: 'Language Theory and Functions', weight: 2 as const, description: 'Functions of language, levels of language analysis, language varieties. Covers the NECTA 122/1 topic officially titled "Introduction to Language".' },
-    { id: 'englis-006', name: 'Word Formation', weight: 2 as const, description: 'Morphology: prefixes, suffixes, roots, inflection and derivation, compounding. NECTA 122/1 at 12.5%.' },
+    { id: 'englis-006', name: 'Word Formation', weight: 2 as const, description: 'Word formation — prefixes, suffixes, roots, inflection, derivation and compounding; the morphology component of NECTA 122/1.' },
     { id: 'englis-007', name: 'Listening Skills', weight: 2 as const, description: 'Proofreading, public announcements, summarising, idiomatic expressions, register. NECTA 122/1 sub-component of Language Skills.' },
     { id: 'englis-008', name: 'Speaking Skills', weight: 2 as const, description: 'Pronunciation, stress and intonation, narration, debate organisation, speech presentation. NECTA 122/1 sub-component of Language Skills.' },
     { id: 'englis-009', name: 'Plays and Drama', weight: 2 as const, description: 'Analysis of set plays (Imbuga, Ngugi wa Thiong\'o, Bukenya, Ibsen, Ruganda). NECTA 122/2 component of literary appreciation.' },

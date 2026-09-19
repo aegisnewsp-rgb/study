@@ -11,25 +11,4 @@ export const physics: Subject = {
   ]
 };
 
-export const chemistry: Subject = {
-  id: 'chemistry', name: 'Chemistry', color: '#10b981',
-  topics: [
-    { id: 'nep-chem-001', name: 'Atomic Structure and Periodic Trends', weight: 3 as const, description: 'Atomic models, quantum numbers, electron configurations, and periodic variations in element properties — foundational chemistry concepts for all Nepal entrance exams.' },
-    { id: 'nep-chem-002', name: 'Chemical Bonding and Molecular Geometry', weight: 4 as const, description: 'Ionic, covalent, and coordinate bonding, VSEPR theory, hybridization, and molecular geometry — essential for understanding organic and inorganic chemistry.' },
-    { id: 'nep-chem-003', name: 'Organic Chemistry and Biomolecules', weight: 5 as const, description: 'Hydrocarbons, functional groups, reaction types, polymers, carbohydrates, proteins, and lipids — the highest-weight chemistry topic for CMAT science track.' },
-    { id: 'nep-chem-004', name: 'Chemical Equilibrium and Acid-Base Chemistry', weight: 4 as const, description: 'Chemical equilibrium, Le Chatelier\'s principle, acids and bases, pH calculations, buffer solutions, and hydrolysis of salts.' },
-    { id: 'nep-chem-005', name: 'Electrochemistry and Redox', weight: 3 as const, description: 'Oxidation and reduction, electrochemical cells, standard electrode potentials, Faraday\'s laws, batteries, and corrosion prevention.' }
-  ]
-};
 
-export const biology: Subject = {
-  id: 'biology', name: 'Biology', color: '#16a34a',
-  topics: [
-    { id: 'nep-bio-001', name: 'Cell Biology and Biochemistry', weight: 4 as const, description: 'Cell structure and function, organelles, enzymes, metabolic pathways (photosynthesis, cellular respiration), and biochemical molecules — foundational biology for CMAT science track.' },
-    { id: 'nep-bio-002', name: 'Genetics and Molecular Biology', weight: 5 as const, description: 'Mendelian inheritance, DNA replication, gene expression, genetic disorders, genetic engineering, and biotechnology applications — highest-weight biology topic for CMAT and IOE entrance.' },
-    { id: 'nep-bio-003', name: 'Botany and Plant Physiology', weight: 4 as const, description: 'Plant cell structure, photosynthesis, plant tissues, transport mechanisms, plant hormones, and reproduction in plants.' },
-    { id: 'nep-bio-004', name: 'Zoology and Human Physiology', weight: 4 as const, description: 'Animal classification, major human organ systems (digestive, circulatory, respiratory, nervous, endocrine), and homeostasis — frequently tested in Nepal medical and science entrances.' },
-    { id: 'nep-bio-005', name: 'Ecology and Evolution', weight: 3 as const, description: 'Ecosystems, food chains, biogeochemical cycles, ecological succession, population dynamics, natural selection, and evidence for evolution.' },
-    { id: 'nep-bio-006', name: 'Reproduction and Development', weight: 3 as const, description: 'Asexual and sexual reproduction, gametogenesis, embryonic development, metamorphosis, and reproductive health — commonly tested in CMAT biology.' }
-  ]
-};

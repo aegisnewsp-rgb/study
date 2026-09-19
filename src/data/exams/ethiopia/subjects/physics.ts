@@ -10,15 +10,3 @@ export const physics: Subject = {
     { id: 'eth-phy-007', name: 'Fluid Mechanics', weight: 3 as const, description: 'Pressure, Pascal\'s principle, Archimedes\' principle, Bernoulli\'s equation, viscosity, and surface tension — concept-based and application-oriented problems.' }
   ]
 };
-
-export const chemistry: Subject = {
-  id: 'chemistry', name: 'Chemistry', color: '#10b981',
-  topics: [
-    { id: 'eth-chem-001', name: 'Atomic Structure and Periodic Trends', weight: 3 as const, description: 'Atomic models, quantum numbers, electron configuration, and periodic trends in element properties across groups and periods.' },
-    { id: 'eth-chem-002', name: 'Chemical Bonding and Molecular Geometry', weight: 4 as const, description: 'Ionic, covalent, and coordinate bonds, VSEPR theory, hybridization, resonance structures, and intermolecular forces (hydrogen bonding, Van der Waals).' },
-    { id: 'eth-chem-003', name: 'Chemical Reactions and Stoichiometry', weight: 4 as const, description: 'Types of reactions (combination, decomposition, displacement, combustion), balancing equations, mole concept, molarity, and limiting reagent calculations.' },
-    { id: 'eth-chem-004', name: 'Organic Chemistry and Biomolecules', weight: 5 as const, description: 'Hydrocarbons (alkanes, alkenes, alkynes), functional groups, polymerization, carbohydrates, proteins, lipids, and nucleic acids — highest-weight EUEE chemistry topic.' },
-    { id: 'eth-chem-005', name: 'Chemical Equilibrium and Thermodynamics', weight: 4 as const, description: 'Dynamic equilibrium, equilibrium constant, Le Chatelier\'s principle, Gibbs free energy, spontaneity, and the relationship between thermodynamics and equilibrium.' },
-    { id: 'eth-chem-006', name: 'Electrochemistry and Redox', weight: 3 as const, description: 'Oxidation and reduction, oxidation numbers, electrochemical cells, standard electrode potentials, batteries, and corrosion prevention.' }
-  ]
-};

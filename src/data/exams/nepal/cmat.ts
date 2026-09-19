@@ -63,7 +63,7 @@ const exam: ExamTemplate = {
     'Section timing for CMAT Nepal (MBA Entrance) only counts if it matches the live duration.',
     'Some CMAT Nepal (MBA Entrance) programmes add extra subject prerequisites after you pay — check https://cmat.edu.np.',
     'Nobody on this site can guarantee a CMAT Nepal (MBA Entrance) rank, percentile, or admission.',
-    'Pattern note for CMAT Nepal (MBA Entrance): 100 MCQs covering: Quantitative Techniques (25), Logical Reasoning (25), Language Comprehension (25)… Confirm that wording on https://cmat.edu.np before you lock a timetable.'
+    'Pattern note for CMAT Nepal (MBA Entrance): 100 questions across five sections of 20 - Verbal Ability, Quantitative Ability, Logical Reasoning, General Awareness and Business and Economics - to be answered in 90 minutes for 100 marks. Confirm the current wording on https://cmat.edu.np before you lock a timetable.'
   ],
   lastUpdated: '2026-09-19',
   officialSource: 'https://cmat.edu.np',

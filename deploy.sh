@@ -81,7 +81,7 @@ npm ci --legacy-peer-deps --quiet
 # went live.
 log "[3/5] Pre-build source guards (site build happens in the image)..."
 BUILD_START=$(date +%s)
-for guard in check-astro-syntax.mjs check-ad-guards.mjs; do
+for guard in check-astro-syntax.mjs check-ad-guards.mjs check-note-links.cjs; do
     if [ -f "scripts/$guard" ]; then
         if ! node "scripts/$guard"; then
             die "source guard $guard failed — aborting before the image build"

@@ -1,7 +1,7 @@
 export const management: Subject = {
   id: 'management', name: 'Management', color: '#059669',
   topics: [
-    { id: 'manage-001', name: 'Henry Fayol\'s 14 Principles', weight: 3 as const, description: 'Management Functions: Planning, organizing, staffing, directing, and controlling — the P-O-S-D-Co framework as the foundation of management study for RBI Grade B Management paper.' },
+    { id: 'manage-001', name: 'Henry Fayol\'s 14 Principles', weight: 3 as const, description: 'Henri Fayol\'s 14 administrative principles (1916) — division of work, authority, unity of command, scalar chain, equity, initiative and esprit de corps.' },
     { id: 'manage-002', name: 'Leadership', weight: 5 as const, description: 'Organizational Behaviour and Leadership: Individual behaviour (personality, perception, attitudes), group dynamics, team building, leadership theories (trait, behavioural, situational), and motivation — human side of management.' },
     { id: 'manage-003', name: 'Communication Process', weight: 3 as const, description: 'Communication and Management: Communication process, channels, barriers, effective communication strategies, feedback mechanisms, and cross-cultural communication in banking organizations.' },
     { id: 'manage-004', name: 'Planning', weight: 4 as const, description: 'Setting objectives, forecasting, choosing alternatives — strategies, policies, budgets and programmes — the first management function.' },

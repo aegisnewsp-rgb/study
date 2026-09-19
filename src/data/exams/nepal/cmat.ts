@@ -1,13 +1,15 @@
 import type { ExamTemplate, Subject } from '../types';
 
-import { physics } from './subjects/physics';
-import { chemistry } from './subjects/chemistry';
-import { biology } from './subjects/biology';
+import { quantitative_techniques } from './subjects/quantitative-techniques';
+import { logical_reasoning_cmat } from './subjects/logical-reasoning';
+import { language_comprehension } from './subjects/language-comprehension';
+import { general_awareness } from './subjects/general-awareness';
 
 const subjects: Subject[] = [
-    physics,
-    chemistry,
-    biology,
+    quantitative_techniques,
+    logical_reasoning_cmat,
+    language_comprehension,
+    general_awareness,
 ];
 
 import { makeRoadmap } from '../_lib/roadmap';

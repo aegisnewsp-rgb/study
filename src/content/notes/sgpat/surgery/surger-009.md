@@ -8,80 +8,108 @@ topicName: AMPLE History Sequence
 weight: 3
 country: saudi
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-25"
+lastUpdated: "2026-09-18"
 ---
 
 # AMPLE History Sequence
 
 ### 🟢 Lite — Quick Review (1h–1d)
+> The five letters are a SECONDARY survey you run AFTER ABCDE — never the first move on a polytrauma patient.
 
-**Acute abdomen** is sudden, severe abdominal pain demanding urgent surgical or medical evaluation within minutes to hours.
+AMPLE captures the minimum information a surgeon needs to anaesthetise, consent, and operate safely in five components:
 
-**Key clinical signs:** Guarding (involuntary muscle rigidity) and rebound tenderness indicate peritoneal irritation. **McBurney's point** (1/3 distance from ASIS to umbilicus) is the classic appendicitis tenderness site. **Murphy's sign** (inspiratory arrest on RUQ palpation) suggests cholecystitis. **Kehr's sign** (left shoulder pain) points to splenic injury or ectopic pregnancy. **Psoas sign** suggests an inflamed appendix touching the psoas muscle.
+- **A — Allergies**: drugs (β-lactams, NSAIDs, latex, anaesthetic agents), foods, contrast media, plus reaction severity.
+- **M — Medications**: prescribed drugs, OTC, herbal supplements (ginkgo, garlic, ginseng — bleeding risk).
+- **P — Past medical history / Pregnancy**: comorbidities, previous anaesthetic complications, β-hCG in women of reproductive age.
+- **L — Last oral intake (NPO timing)**: solids ≥ 6 h, clear fluids ≥ 2 h (ASA fasting guideline).
+- **E — Events surrounding the injury**: mechanism (penetrating vs blunt, high vs low energy), environment, timeline, tetanus cover.
 
-**Red flag formula:** WBC > 18,000/μL with left shift strongly suggests complicated appendicitis.
+| Letter | Variable to record | Why it changes the operation |
+|---|---|---|
+| A | Allergy + reaction | Avoids anaphylaxis on induction |
+| M | Drug + dose + herbals | Bleeding, interaction, haemodynamic risk |
+| P | Comorbidity + pregnancy | Modifies anaesthetic choice |
+| L | Time + nature of last meal | Decides RSI vs standard induction |
+| E | Mechanism + timeline | Triages occult injury, tetanus |
 
-**Alvarado score ≥7** = high probability of surgical appendicitis ( Migration of pain, Anorexia, Nausea/vomiting, Tenderness, Fever, Leukocytosis >10,000, Left shift). Each parameter scores 1 point.
-
-**3 exam must-knows:** (1) Erect chest X-ray detects free air under the diaphragm — pathognomonic for perforation. (2) Rigid abdomen + absent bowel sounds + tachycardia = surgical emergency. (3) Elderly patients with MI or AAA frequently present with painless or atypical abdominal pain — never exclude surgical causes on history alone.
+> 💡 **High-Yield Memory Hook:** "**A** ll **M** urders **P** revent **L** ives, **E** specially in theatre" — Allergies, Medications, Past medical/Pregnancy, Last meal, Events. Run it AFTER the primary survey, not before.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 
-#### Definition
-Acute abdomen encompasses any sudden-onset abdominal condition requiring rapid clinical decision-making, from self-limited gastroenteritis to catastrophic perforation with sepsis. The critical distinction is **surgical versus medical cause** — misclassification is potentially fatal.
+#### Where AMPLE sits in the surgical workflow
+AMPLE is a secondary-survey mnemonic for trauma and pre-operative assessment, distinct from the primary survey (ABCDE). It complements SAMPLE — which adds **S**igns/**S**ymptoms at the front — but the AMPLE ordering is the surgical convention because the **Last oral intake** letter carries the most immediate anaesthetic decision weight (RSI vs standard induction). The Saudi GP Board blueprint gives this topic ~3% weight, which translates to 1–2 MCQs and a possible OSCE station on rapid pre-op assessment.
 
-#### AMPLE History Sequence
-Systematically gather: **A**llergies → **M**edications → **P**ast medical/surgical history → **L**ast oral intake → **E**vents preceding pain onset. This sequence prevents the common omission of prior abdominal surgeries (risk of adhesion obstruction) or anticoagulant use (bleeding risk).
+#### Component-by-component mechanics
 
-#### Physical Examination Priority
-Auscultate before palpation to avoid altering bowel sounds. Palpate starting away from the reported pain, assessing for masses, organomegaly, and peritoneal signs. Guarding (voluntary vs. involuntary) differentiates the patient's defensive response from true peritoneal inflammation. Rebound tenderness confirms parietal peritoneum irritation.
+**Allergies (A).** Document drug, food, latex, and anaesthetic-agent reactions with severity (rash vs anaphylaxis vs bronchospasm). Missed latex or suxamethonium allergy is a recurring viva failure mode.
 
-#### Diagnostic Workup Sequence
-1. **CBC with differential** — leukocytosis with left shift suggests bacterial inflammation
-2. **Serum amylase/lipase** — elevation within 6 hours of symptom onset supports pancreatitis
-3. **Erect chest X-ray** — free subdiaphragmatic air confirms perforation
-4. **Abdominal X-ray** — air-fluid levels indicate obstruction; sentinel loop suggests pancreatitis
-5. **Focused bedside ultrasound** — detects free fluid, gallstones, appendiceal diameter >6mm
+**Medications (M).** Capture anticoagulants (warfarin, DOACs, antiplatelets), antihypertensives, insulin, and herbal supplements. Garlic, ginkgo, and ginseng each carry documented bleeding risk and need a 7-day washout before many procedures.
 
-#### Surgical Causes to Recognize
-| Condition | Classic Feature |
-|-----------|-----------------|
-| Appendicitis | Periumbilical pain migrating to RLQ |
-| Cholecystitis | Murphy's sign positive |
-| Perforated ulcer | Sudden epigastric pain, rigid abdomen |
-| Bowel obstruction | Colicky pain, distension, vomiting |
-| Diverticulitis | LLQ pain, fever, leukocytosis |
+**Past medical / Pregnancy (P).** Comorbidity review focuses on what anaesthesia perturbs: cardiac disease, COPD, diabetes, coagulopathy, and previous anaesthetic complications. In women of reproductive age, pregnancy status must be confirmed before imaging, contrast, or surgery.
 
-#### Medical Mimics
-Myocardial infarction (especially inferior MI), pneumonia, diabetic ketoacidosis, sickle cell crisis, and porphyria all present with abdominal pain — always obtain an ECG in elderly patients.
+**Last meal (L).** This is the single highest-yield anaesthetic decision variable.
+
+#### AMPLE vs SAMPLE — commonly confused
+
+| Mnemonic | Letters | Used in | Distinguishing feature |
+|---|---|---|---|
+| AMPLE | Allergies, Medications, Past medical/Pregnancy, Last meal, Events | Surgery / pre-op | Emphasises NPO timing for induction safety |
+| SAMPLE | Signs/Symptoms, Allergies, Medications, Past medical, Last oral intake, Events | Emergency Medicine | Adds presenting complaint as first letter |
+| ABCDE | Airway, Breathing, Circulation, Disability, Exposure | Primary survey | Runs BEFORE AMPLE, never replaced by it |
+
+#### Worked scenario
+
+A 28-year-old woman booked for laparoscopic cholecystectomy reports she drank water 90 minutes ago and takes no regular medications. She denies drug allergies and is not pregnant (negative β-hCG documented). Her surgical indication is symptomatic gallstones with biliary colic.
+
+Step-by-step working:
+
+1. **NPO check.** Water at 90 min satisfies the ASA ≥ 2 h clear-fluid rule. Standard induction is safe; RSI is NOT mandatory.
+2. **Anaemia and reserve.** Estimate blood volume: EBV = 70 mL/kg × 65 kg = 4,550 mL. Expected loss for lap chole is < 500 mL — Class I haemorrhage (< 15% EBV), no transfusion trigger.
+3. **Anaesthetic plan.** Document standard laryngeal mask airway as appropriate; verify fasting, consent, and allergy band before sending for.
+4. **Common trainee error.** Ordering RSI because the patient "ate recently" without specifying clear fluid vs solid — the ASA clear-fluid threshold is 2 h, not 6 h.
+
+> ⚠️ **Examiner Trap:** Choosing RSI solely because the patient had clear fluid < 6 h ago wastes induction time and risks haemodynamic stress from suxamethonium. The correct answer hinges on *what* was ingested and *when*.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 
-#### Pathophysiological Framework
-Acute abdomen triggers follow a visceral-somatic pain progression. Initial visceral pain (midline, poorly localized) results from hollow organ distension or capsular stretching. As inflammation reaches the parietal peritoneum, pain becomes somatic, sharper, and more localized. Perforation produces sudden, catastrophic irritation of the entire peritoneal cavity — explaining the classic "pain before vomiting" in appendicitis versus gastroenteritis where vomiting precedes pain.
+#### NPO math and Mendelson risk
+Aspiration pneumonitis (Mendelson syndrome) carries an estimated mortality of ~5% in modern series. The ASA clear-fluid ≥ 2 h and solids ≥ 6 h thresholds are population-level guidelines; high-risk patients (diabetic gastroparesis, severe GERD, opioid use, pregnancy) need longer windows regardless of the mnemonic's printed hours. AMPLE captures *what the patient tells you*; clinical judgement re-interprets it.
 
-#### Advanced Diagnostic Considerations
-**CT abdomen with contrast** (not first-line in unstable patients) achieves 95% sensitivity for appendicitis and detects alternative diagnoses. **Diagnostic laparoscopy** is both diagnostic and therapeutic for equivocal cases, particularly in women of reproductive age where gynecological pathology overlaps.
+#### Haemorrhage-class overlap with Events (E)
+The Events component feeds the ATLS haemorrhage classification, which the Saudi GP Board frequently pairs with trauma MCQs:
 
-**Ogilvie syndrome** (colonic pseudo-obstruction) occurs post-operatively or in immobilized patients. Criteria: abdominal distension, nausea/vomiting, absent obstipation, and colonic diameter >10cm on imaging without mechanical obstruction. Management escalates from conservative measures to neostigmine (contraindicated in obstruction) to colonoscopic decompression.
+- EBV (adult) = weight [kg] × 70 mL/kg; SI: mL.
+- Class I: < 15% EBV, ~< 750 mL in 70 kg adult — minimal tachycardia, no transfusion.
+- Class II: 15–30%, ~750–1,500 mL — tachycardia, narrowed pulse pressure, crystalloid only.
+- Class III: 30–40%, ~1,500–2,000 mL — hypotension, mental change, blood products indicated.
+- Class IV: > 40%, > 2,000 mL — life-threatening, massive transfusion protocol.
 
-#### Operative Indications
-Immediate surgery is mandated for: generalized peritonitis, free perforation with sepsis, strangulated hernia, mesenteric ischemia, and clinical deterioration despite resuscitation. **Damage control principles** apply to unstable patients — laparotomy with temporary closure, resuscitation in ICU, then definitive repair.
+A blunt mechanism with Class III physiology changes the operation: damage-control laparotomy over definitive repair.
 
-#### Common Exam Mistakes to Avoid
+#### High-yield traps and edge cases
 
-**Mistake 1:** Attributing RLQ pain to gastroenteritis without imaging. Up to 20% of appendicitis cases present atypically; normalize WBC does not exclude surgical pathology.
+1. **AMPLE is not primary survey** — running it before ABCDE in polytrauma is an ATLS disqualification.
+2. **Herbal ≠ harmless** — ginkgo, garlic, ginseng, and St John's Wort each alter bleeding or cytochrome metabolism; ask explicitly.
+3. **Tetanus status hides inside Events (E)** — mechanism (rusty nail, soil contamination, burn) determines TIG vs toxoid.
+4. **Pregnancy window is narrower than people assume** — β-hCG in any reproductive-age woman before ionising radiation or surgery.
+5. **Last meal quantity matters** — 200 mL of black tea vs a full meal at the same elapsed time are not the same clinical risk.
 
-**Mistake 2:** Inadequate fluid resuscitation before surgery. Hypotensive patients require 2–3L crystalloid before induction to prevent anesthesia-induced cardiovascular collapse.
+#### Advanced practice prompts
+- A 45-year-old anticoagulated man on warfarin for mechanical mitral valve presents with an open tibial fracture 4 h after a meal of rice and meat. Justify induction technique, reversal agent of choice, and operative window.
+- A 22-year-old primigravida at 16 weeks needs appendicectomy after drinking clear juice 3 h ago. Outline your AMPLE-driven anaesthetic and surgical consent plan, citing the relevant guideline body for fasting thresholds.
 
-**Mistake 3:** Missing torsion. Testicular torsion presents with lower abdominal or inguinal pain — always examine the scrotum in male patients with acute abdomen.
+---
 
-#### Practice Prompts
-1. A 72-year-old man with atrial fibrillation presents with diffuse abdominal pain and vomiting. Exam shows a tender, distended abdomen with no prior surgical history. List your diagnostic priorities and immediate management steps.
-2. A 28-year-old woman reports 6 hours of progressive periumbilical pain now localizing to the RLQ, with anorexia, nausea, and a fever of 38.2°C. Her WBC is 14,000 with left shift. Calculate her Alvarado score and justify your management decision.
+## Continue your study
 
+- **[View this topic in your Saudi GP Board roadmap](/roadmap/?exam=sgpat&duration=1mo)** — see where "AMPLE History Sequence" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=sgpat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Saudi GP Board exam overview](/exams/sgpat/)** — pattern, eligibility, and syllabus
+- **[All Surgery notes](/notes/sgpat/surgery/)** — browse sibling topics in this subject
+
+---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

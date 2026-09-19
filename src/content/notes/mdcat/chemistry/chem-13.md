@@ -8,7 +8,7 @@ topicName: Hydrocarbons
 weight: 4
 country: pakistan
 generated: "2026-03-24T08:32:08.099787"
-lastUpdated: 2026-03-24
+lastUpdated: "2026-09-19"
 diagramPrompt: "Clear scientific diagram of Hydrocarbons with atom labels, molecular structure, reaction arrows, white background, color-coded bonds and groups, exam textbook style"
 
 
@@ -17,125 +17,126 @@ diagramPrompt: "Clear scientific diagram of Hydrocarbons with atom labels, molec
 # Hydrocarbons
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+> The single test of "which family?" is the molecular formula and the bond type — get those right and the rest of the chapter falls in line.
 
-**Hydrocarbons** — Key Facts for MDCAT
+Hydrocarbons contain only carbon and hydrogen. The carbon skeleton (catenation) decides the family, and the family decides every reaction you will see on the MDCAT paper.
 
-Hydrocarbons contain only carbon and hydrogen atoms. They are classified into:
+- **Alkanes** — single C–C bonds, **saturated**, formula C_nH_(2n+2). Methane is the smallest (n = 1).
+- **Alkenes** — one C=C, **unsaturated**, formula C_nH_(2n) where n ≥ 2.
+- **Alkynes** — one C≡C, formula C_nH_(2n–2) where n ≥ 2.
+- **Aromatics** — benzene-type ring with delocalised π-electrons; the parent is C_6H_6.
 
-**Alkanes (saturated, C$_n$H$_{2n+2}$):**
-- Single bonds only (sp³ hybridisation)
-- Methane CH$_4$, Ethane C$_2$H$_6$, Propane C$_3$H$_8$, Butane C$_4$H$_{10}$
-- General formula: C$_n$H$_{2n+2}$
-- **Combustion:** $CH_4 + 2O_2 \rightarrow CO_2 + 2H_2O$
-- **Substitution reactions** with halogens (UV light): $CH_4 + Cl_2 \xrightarrow{h\nu} CH_3Cl + HCl$
+Degree of unsaturation = (2C + 2 – H)/2. Each ring or π bond adds one; a triple bond adds two.
 
-**Alkenes (unsaturated, C$_n$H$_{2n}$):**
-- At least one C=C double bond (sp² hybridisation)
-- Ethene C$_2$H$_4$, Propene C$_3$H$_6$
-- **Addition reactions:** H$_2$ (hydrogenation), Br$_2$ (bromination test for unsaturation), HX (Markovnikov's rule)
-- **Markovnikov's Rule:** H adds to carbon with more H atoms; X adds to carbon with fewer H atoms
-- **Polymerisation:** n(CH$_2$=CH$_2$) → (–CH$_2$–CH$_2$–)$_n$ (polythene)
-
-**Alkynes (C$_n$H$_{2n-2}$):**
-- At least one C≡C triple bond (sp hybridisation)
-- Ethyne (acetylene) C$_2$H$_2$: HC≡CH
-- **Addition reactions:** can undergo two successive additions
-- **Acidity of alkynes:** Terminal alkynes (HC≡C–) are weakly acidic; they react with NaNH$_2$ or AgNO$_3$ to form acetylides
-
-**Aromatic Hydrocarbons (Arenes):**
-- Benzene C$_6$H$_6$: planar hexagonal ring with delocalised π electrons
-- **Hückel's rule:** (4n+2) π electrons where n = 0, 1, 2... (for benzene: 6 π electrons, n=1 ✓)
-- Electrophilic substitution reactions: nitration, halogenation, sulfonation, Friedel-Crafts alkylation
-
-⚡ **Exam tip:** MDCAT frequently tests the addition vs substitution distinction — alkanes undergo substitution (free radical mechanism, UV light), while alkenes/alkynes undergo addition (electrophilic addition). For alkene addition with HBr, use Markovnikov's rule. The bromine test (brown Br$_2$ water decolourises with alkenes) is a key test for unsaturation.
-
----
+> 💡 **High-Yield Memory Hook:** "**ANE** is **A**lone, **ENE** has **1** π, **YNE** has **2** π." Memorise: CnH(2n+2) → alkane, CnH(2n) → alkene, CnH(2n–2) → alkyne. If the H-count drops by 2, one degree of unsaturation appeared.
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students who want genuine understanding.
+> Standard-tier read for MDCAT Chemistry 2026: build the chain–group–reactivity mental model and you can answer every Hydrocarbons MCQ in under 90 seconds.
 
-**Hydrocarbons** — Complete Study Guide
+#### Hybridisation and Bonding Backbone
 
-**Hybridisation Summary:**
+Each carbon family corresponds to a fixed hybridisation, and that hybridisation is what controls geometry and reactivity.
 
-| Hybridisation | Geometry | Bond Angle | Bonds |
-|---------------|----------|-----------|-------|
-| sp³ | Tetrahedral | 109.5° | 4 single bonds |
-| sp² | Trigonal planar | 120° | 3 bonds (1 double) |
-| sp | Linear | 180° | 2 bonds (1 triple or 2 double) |
+| Family | Hybridisation | Geometry | Bonds per C |
+|---|---|---|---|
+| Alkane (–C–C–) | sp³ | Tetrahedral, 109.5° | 4 σ |
+| Alkene (=C–) | sp² | Trigonal planar, 120° | 3 σ + 1 π |
+| Alkyne (≡C–) | sp | Linear, 180° | 2 σ + 2 π |
+| Benzene (aromatic) | sp² | Planar hexagonal, 120° | σ framework + delocalised π |
 
-**Alkane Reactions:**
-- **Halogenation:** CH$_4 + Cl_2 \xrightarrow{h\nu} CH_3Cl + HCl$ (free radical mechanism: initiation → propagation → termination)
-- **Combustion:** Complete: $C_nH_{2n+2} + \frac{3n+1}{2}O_2 \rightarrow nCO_2 + (n+1)H_2O$
-- **Isomerism:** Butane has 2 isomers (n-butane and isobutane); pentane has 3 isomers
+The π bond is weaker than σ (≈ 65 kcal/mol vs ≈ 85 kcal/mol for C–C σ). That single fact explains why alkenes and alkynes react faster than alkanes: electrophiles attack the exposed π electrons.
 
-**Alkene Reactions:**
-- **Hydrogenation:** $CH_2=CH_2 + H_2 \xrightarrow{Pd} CH_3–CH_3$
-- **Halogenation:** $CH_2=CH_2 + Br_2 \rightarrow CH_2Br–CH_2Br$ (1,2-dibromoethane)
-- **Hydrohalogenation:** $CH_3CH=CH_2 + HBr \rightarrow CH_3CH(Br)CH_3$ (Markovnikov, major product)
-- **Hydration:** $CH_2=CH_2 + H_2O \xrightarrow{H^+} CH_3CH_2OH$ (ethanol, acid-catalysed)
-- **Ozonlysis:** Ozonolysis with Zn/H$_2$O gives carbonyl compounds; determines position of double bond
+#### General Formulas vs Structural Reality
 
-**Alkyne Reactions:**
-- **Reduction:** H$_2$/Pd (Lindlar's catalyst) → cis-alkene; Na/NH$_3$ → trans-alkene
-- **Hydration (Kucherov rule):** Hg$^{2+}$, H$_2$SO$_4$ → ketone (Markovnikov addition, tautomerisation)
-- **Acidity:** Terminal alkynes react with Na metal → acetylide anion: $HC≡CH + Na \rightarrow Na^+C≡CH^- + \frac{1}{2}H_2$
+A formula alone is ambiguous — MDCAT in many papers exploits this. C_nH_(2n) fits **both** an alkene and a cycloalkane. C_nH_(2n–2) fits an alkyne, a diene, **or** a cycloalkene. The exam will require you to look at the structure or the reaction to disambiguate.
 
-**Benzene — Aromatic Character:**
-1. Planar ring with delocalised electrons above and below the plane
-2. All C–C bonds are equivalent (intermediate between single and double)
-3. Undergoes electrophilic substitution (not addition) due to aromatic stability
-4. Delocalisation energy (resonance energy) ≈ 150 kJ/mol — gives benzene its stability
-5. Nitration: $C_6H_6 + HNO_3 \xrightarrow{H_2SO_4} C_6H_5NO_2 + H_2O$
-6. Halogenation: $C_6H_6 + Cl_2 \xrightarrow{FeCl_3} C_6H_5Cl + HCl$
+| Molecular formula | Aliphatic family | Cyclic possibility |
+|---|---|---|
+| C_nH_(2n+2) | Alkane | None (a saturated ring needs 2H fewer) |
+| C_nH_(2n) | Alkene | Cycloalkane |
+| C_nH_(2n–2) | Alkyne | Cycloalkene or diene |
+| C_6H_6 | Benzene (aromatic) | None — count π-electrons: 6 (Hückel 4n+2, n=1) |
 
-⚡ **Common student mistakes:** Writing Markovnikov addition in the wrong direction for unsymmetrical alkenes. Confusing the conditions for alkane halogenation (UV light, free radical) with alkene addition. For benzene, thinking it undergoes addition reactions like typical alkenes — it doesn't, due to aromaticity.
+#### Nomenclature Workflow (IUPAC)
 
----
+1. Find the longest carbon chain that contains the maximum number of multiple bonds.
+2. Number the chain so the first multiple bond gets the lowest locant; double bonds outrank substituents but the rule still applies to the *first* encountered π.
+3. Replace the terminal –e with –ene (alkene) or –yne (alkyne); the position number precedes the suffix (e.g. but-2-ene, not 2-butene).
+4. List substituents alphabetically with their locants before the parent name.
+
+#### Worked Numerical: Combustion Stoichiometry
+
+How many moles of O₂ are required to combust **1 mole of propane (C₃H₈)** completely?
+
+Using the general formula CnH(2n+2) + (3n+1)/2 O₂ → n CO₂ + (n+1) H₂O, with n = 3:
+
+Moles of O₂ = (3·3 + 1)/2 = 10/2 = **5 mol O₂**.
+
+Products: 3 mol CO₂ and 4 mol H₂O. This stoichiometric ratio is the template the examiner expects when a combustion question is asked.
+
+> ⚠️ **Examiner Trap:** Students in many papers use the shortcut "2 mol O₂ per C and 0.5 mol O₂ per H" and forget the (3n+1)/2 form. For propane that gives 6 + 2 = 8 mol — wrong. The general-formula derivation is faster and always correct.
+
+#### Reactivity Order and Why It Matters
+
+Alkanes < benzene < alkenes ≈ alkynes in electrophilic reactions.
+
+- **Alkanes**: free-radical substitution, Cl₂/Br₂ in UV light. Non-polar, low reactivity.
+- **Alkenes / Alkynes**: electrophilic addition across the π bond — HBr, H₂O/H⁺, H₂/Ni, Br₂ in CCl₄ (decolourizes).
+- **Benzene**: electrophilic substitution only — the aromatic π cloud holds together; addition would cost the 150 kJ/mol resonance stabilisation. Substitution preserves aromaticity.
+
+#### Markovnikov's Rule (Standard Form)
+
+When HX (HCl, HBr, HI) or H₂O/H⁺ adds to an unsymmetrical alkene:
+
+> The hydrogen goes to the carbon of the C=C that already has more hydrogens; the halogen (or OH) goes to the more substituted carbon.
+
+Carbocation stability is the underlying reason: a secondary carbocation is more stable than a primary, so the proton adds to give the more substituted cation.
+
+> ⚠️ **Examiner Trap:** MDCAT tests standard Markovnikov. If the question adds the word "peroxide" or specifies "in the presence of HBr + ROOR", switch to **anti-Markovnikov** (Kharasch effect) — Br attaches to the less substituted carbon. Read the conditions before you answer.
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
+> Where this topic slips up the strongest MDCAT candidates: edge cases in general formulas, isomers, and the few rare reaction types examiners reserve for top-percentile questions.
 
-**Hydrocarbons** — Advanced Notes
+#### Degrees of Unsaturation — The Cleanest Diagnostic
 
-**Free Radical Mechanism for Alkane Halogenation:**
-1. **Initiation:** $Cl_2 \xrightarrow{h\nu} 2Cl^\cdot$ (homolytic fission)
-2. **Propagation:** $Cl^\cdot + CH_4 \rightarrow \cdot CH_3 + HCl$; $\cdot CH_3 + Cl_2 \rightarrow CH_3Cl + Cl^\cdot$
-3. **Termination:** $\cdot CH_3 + \cdot Cl \rightarrow CH_3Cl$; $2\cdot CH_3 \rightarrow C_2H_6$
+Use the formula DoU = (2C + 2 – H – X + N)/2, where C = carbons, H = hydrogens, X = halogens, N = nitrogens (oxygen and sulfur are ignored). Each DoU equals one ring **or** one π bond. A benzene ring therefore reports DoU = 4 (3 π bonds + 1 ring).
 
-Multiple substitution products possible (mono-, di-, tri-chloromethane).
+| Compound | Formula | DoU | Structural meaning |
+|---|---|---|---|
+| Hexane | C₆H₁₄ | 0 | Pure alkane chain |
+| Hexene | C₆H₁₂ | 1 | One C=C |
+| Hexyne | C₆H₁₀ | 2 | One C≡C |
+| Cyclohexane | C₆H₁₂ | 1 | One ring |
+| Benzene | C₆H₆ | 4 | Three π + one ring |
 
-**Electrophilic Addition Mechanism for Alkenes:**
-Step 1: The electrophile ($E^+$) attacks the π bond → forms a carbocation intermediate (more substituted carbocation is more stable: tertiary > secondary > primary)
-Step 2: The nucleophile ($Nu^-$) attacks the carbocation → neutral product
+#### Isomerism — Where MDCAT Questions In many papers Hide
 
-Stability of carbocations: benzyl > allyl > tertiary > secondary > primary > methyl
+1. **Chain isomers** differ in the carbon skeleton (n-butane vs isobutane).
+2. **Position isomers** differ in the location of the multiple bond (but-1-ene vs but-2-ene).
+3. **Functional-group isomers** share a formula but belong to different families (C₃H₆ = propene or cyclopropane).
+4. **Geometric (cis-trans) isomers** appear in alkenes where each double-bond carbon carries two different groups.
 
-**Markovnikov's Rule Explained:**
-In $CH_3CH=CH_2 + HBr$:
-- H adds to C-1 (has 2 H atoms) → forms $CH_3\overset{+}{CH}CH_3$ (secondary carbocation)
-- Br adds to C-2 → product: $CH_3CH(Br)CH_3$ (2-bromopropane)
+Boiling-point rule that examiners love: **branching lowers boiling point** because London dispersion forces decrease as the molecule becomes more spherical. n-pentane boils at 36 °C while neopentane (2,2-dimethylpropane) boils at 9.5 °C — same formula C₅H₁₂, different surface area.
 
-**Anti-Markovnikov Addition:**
-HBr addition in presence of peroxides (R-O-O-R) causes anti-Markovnikov addition via free radical mechanism. Example: $CH_3CH=CH_2 + HBr \xrightarrow{peroxide} CH_3CH_2CH_2Br$
+#### Advanced Trap Table
 
-**Cyclic Hydrocarbons:**
-- Cycloalkanes: C$_n$H$_{2n}$, ring strain in small rings (cyclopropane has bond angle 60° vs normal 109.5°, so it undergoes ring-opening reactions easily)
-- Cyclohexene: Unsaturated cycloalkane
+1. **Benzene resists addition** — never write "Br₂/Br₂ in CCl₄ decolourises benzene at room temperature"; benzene needs a Lewis-acid catalyst (FeBr₃ or AlCl₃) and undergoes substitution, not addition.
+2. **Alkynes show two-stage addition** — a controlled 1 mol of H₂/Ni stops at the alkene; a second 1 mol pushes to the alkane. The reverse logic also applies: addition of 1 mol HX to an alkyne gives a vinyl halide, not a dihalide.
+3. **Cyclopropane tests the model** — its formula is C₃H₆ (looks like an alkene) yet it is a saturated cycloalkane. The ring strain (~27 kcal/mol) is the only "energy cost" feature.
+4. **Combustion of alkenes vs alkanes** — alkenes burn with a slightly smoky flame because the carbon-to-hydrogen ratio is higher; an examiner's image-based question can show this.
+5. **Markovnikov vs peroxide** — read the question stem. "HBr in presence of peroxide" flips the regiochemistry. HCl and HI do **not** show the peroxide effect in practice; the trap answer is HCl + peroxide → anti-Markovnikov (incorrect; HCl is too slow to radicalise).
+6. **Free-radical halogenation selectivity** — Br₂ is selective (gives tertiary H abstraction preferred); Cl₂ is non-selective. MDCAT can ask which halogen substitution gives the highest tertiary yield.
 
-**Isomerism in Hydrocarbons:**
-- **Structural isomerism:** Different connectivity (chain, position, functional group)
-- **Geometric isomerism (cis-trans):** In alkenes with different substituents on each carbon of the double bond; cis = same groups on same side, trans = opposite sides
-- **Conformational isomerism:** Different spatial arrangements due to rotation about single bonds (e.g., staggered vs eclipsed conformations of ethane)
+#### Practice Prompts
 
-**Petroleum Processing:**
-- **Cracking:** Breaking larger alkanes into smaller ones (thermal: high T; catalytic: lower T, zeolite catalyst)
-- **Reforming:** Converting n-alkanes to branched alkanes and aromatic compounds
-- **Octane rating:** Isooctane (2,2,4-trimethylpentane) = 100; n-heptane = 0. Higher octane = better anti-knock properties.
+1. A hydrocarbon with molecular formula C₅H₁₀ gives a single monobromination product and decolourises bromine in CCl₄ within seconds. Name the compound and identify the hybridisation of each carbon.
+2. Write the IUPAC name and the major Markovnikov product when 2-methylbut-2-ene reacts with HCl. State the carbocation intermediate formed in the rate-determining step.
 
-**MDCAT Question Patterns:**
-MDCAT Pakistan questions on hydrocarbons frequently test: (1) naming reactions and their mechanisms, (2) Markovnikov's rule application, (3) distinguishing alkanes, alkenes, alkynes by chemical tests (Br$_2$ test, Baeyer's test — alkaline KMnO$_4$), (4) aromaticity and Hückel's rule, (5) polymer identification (polythene from ethene, PVC from vinyl chloride, polystyrene from styrene). Average 2–3 questions per paper.
+## Continue your study
 
----
-*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+- **[View this topic in your MDCAT roadmap](/roadmap/?exam=mdcat&duration=1mo)** — see where "Hydrocarbons" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=mdcat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[MDCAT exam overview](/exams/mdcat/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/mdcat/chemistry/)** — browse sibling topics in this subject
+
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

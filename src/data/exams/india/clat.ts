@@ -119,6 +119,6 @@ const exam: ExamTemplate = {
   durations,
   rescueMode,
   lastUpdated: '2026-07-28',
-  officialSource: 'https://consortiumofnlus.ac.in/clat',
+  officialSource: 'https://consortiumofnlus.ac.in/',
 };
 export default exam;

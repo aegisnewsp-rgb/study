@@ -1,20 +1,20 @@
 export const chemistry: Subject = {
   id: 'chemistry', name: 'Chemistry', color: '#10b981',
   topics: [
-    { id: 'chemis-001', name: 'Topic 1', weight: 3 as const },
-    { id: 'chemis-002', name: 'Topic 2', weight: 3 as const },
-    { id: 'chemis-003', name: 'Topic 3', weight: 3 as const },
-    { id: 'chemis-004', name: 'Topic 4', weight: 3 as const },
-    { id: 'chemis-005', name: 'Topic 5', weight: 3 as const },
-    { id: 'chemis-006', name: 'Topic 6', weight: 3 as const },
-    { id: 'chemis-007', name: 'Topic 7', weight: 3 as const },
-    { id: 'chemis-008', name: 'Topic 8', weight: 3 as const },
-    { id: 'chemis-009', name: 'Topic 9', weight: 3 as const },
-    { id: 'chemis-010', name: 'Topic 10', weight: 3 as const },
-    { id: 'chemis-011', name: 'Topic 11', weight: 3 as const },
-    { id: 'chemis-012', name: 'Topic 12', weight: 3 as const },
-    { id: 'chemis-013', name: 'Topic 13', weight: 3 as const },
-    { id: 'chemis-014', name: 'Topic 14', weight: 3 as const },
-    { id: 'chemis-015', name: 'Topic 15', weight: 3 as const }
+    { id: 'chemis-001', name: 'Atomic Structure and Periodic Trends', weight: 3 as const, description: 'Electron configuration, quantum numbers, orbital shapes, periodic trends (ionization energy, electronegativity, atomic radius), and the modern Periodic Table as tested in EGE.' },
+    { id: 'chemis-002', name: 'Chemical Bonding and Molecular Structure', weight: 4 as const, description: 'Ionic, covalent, and metallic bonding, VSEPR theory, hybridization, molecular orbital theory, dipole moments, and intermolecular forces - foundational for inorganic and organic chemistry.' },
+    { id: 'chemis-003', name: 'Periodic Law and Chemical Periodicity', weight: 3 as const, description: 'Periodicity of properties across s, p, and d blocks, oxidation states, electronegativity trends, and Periodic Table application problems as examined in EGE.' },
+    { id: 'chemis-004', name: 'Chemical Reactions and Ionic Equations', weight: 4 as const, description: 'Reaction types (combination, decomposition, single and double replacement), ionic equations, thermochemical equations, and balancing reactions with state symbols per EGE format.' },
+    { id: 'chemis-005', name: 'Oxidation-Reduction Reactions', weight: 4 as const, description: 'Oxidation states, electron balance method, balancing redox reactions, oxidizing and reducing agents, electrolytic and galvanic cells - a core EGE calculation and analysis section.' },
+    { id: 'chemis-006', name: 'Solutions and Electrolytic Dissociation', weight: 4 as const, description: 'Electrolyte theory, strong and weak acids and bases, pH, hydrolysis of salts, concentration units (molarity, molality), and titration problems as examined in EGE.' },
+    { id: 'chemis-007', name: 'Inorganic Chemistry - Metals', weight: 4 as const, description: 'Properties of s-block, p-block, and d-block metals, metallurgy, alloys, oxide, hydroxide, and salt reactions, and key metals (Na, K, Ca, Mg, Al, Zn, Fe, Cu) tested in EGE.' },
+    { id: 'chemis-008', name: 'Inorganic Chemistry - Non-metals', weight: 4 as const, description: 'Properties of hydrogen, halogens, oxygen group, nitrogen group, and carbon group non-metals; key acids, oxides, and salts of non-metals examined in EGE.' },
+    { id: 'chemis-009', name: 'Qualitative Analysis and Nomenclature', weight: 3 as const, description: 'IUPAC nomenclature for inorganic compounds, cation and anion identification by qualitative reactions, and flame tests - tested in EGE experiment-design questions.' },
+    { id: 'chemis-010', name: 'Organic Chemistry - Theory and Nomenclature', weight: 4 as const, description: 'Butlerov structure theory, hybridization (sp, sp2, sp3), sigma and pi bonds, isomerism, IUPAC nomenclature, and functional groups - the EGE foundational organic section.' },
+    { id: 'chemis-011', name: 'Hydrocarbons and Their Reactions', weight: 5 as const, description: 'Alkanes, alkenes, alkynes, dienes, arenes; substitution, addition, elimination, and polymerization reactions - the highest-weight organic chemistry section in EGE.' },
+    { id: 'chemis-012', name: 'Oxygen-containing Organic Compounds', weight: 5 as const, description: 'Alcohols, phenols, aldehydes, ketones, carboxylic acids, esters, fats; oxidation, esterification, and hydrolysis reactions heavily tested in EGE organic chemistry problems.' },
+    { id: 'chemis-013', name: 'Nitrogen-containing Organic Compounds and Polymers', weight: 3 as const, description: 'Amines, amino acids, proteins, nucleic acids, polysaccharides; polymer structure (polyethylene, PVC, rubber) - tested in EGE as context for synthesis questions.' },
+    { id: 'chemis-014', name: 'Chemical Kinetics and Equilibrium', weight: 4 as const, description: 'Rate laws, rate constants, activation energy, Arrhenius equation, catalysts, equilibrium constants (Kc, Kp), and Le Chatelier principle - core EGE kinetics problems.' },
+    { id: 'chemis-015', name: 'Chemistry and Life - Calculations and Experimental Methods', weight: 3 as const, description: 'Mole-based calculation tasks, mass fraction, yield, mixture problems; lab safety, titration, gas handling - the chemistry-of-life block of the FIPI EGE codifier.' }
   ]
 };

@@ -8,148 +8,125 @@ topicName: "Banking Awareness — Types of Banks & Financial Institutions"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-19"
 ---
 
 # Banking Awareness — Types of Banks & Financial Institutions
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+> Pin this page if you have one hour before the IBPS PO prelims — every line below is a guaranteed test item.
 
-**Banking Awareness** is the single most important section in IBPS PO — it can make or break your selection. Questions cover the structure of the Indian banking system, types of banks, regulatory framework, and the role of major financial institutions.
+A bank is a financial intermediary licensed under the Banking Regulation Act, 1949, while the Reserve Bank of India is the central bank of issue established under the RBI Act, 1934. Scheduled banks appear in the Second Schedule of the 1934 Act and may borrow from RBI.
 
-**Key quick facts:**
-- RBI acts as the central bank — Governor is the chief authority
-- Public sector banks: SBI + 12 nationalized banks + 1 payments bank (India Post)
-- Private sector banks: HDFC, ICICI, Axis, Kotak, etc.
-- Small Finance Banks and Payments Banks are differentiated banks licensed by RBI since 2015
-- SIDBI is the principal institution for MSME financing
+| Bank Type | Core Job | Key Restriction |
+|---|---|---|
+| Public Sector Bank (PSB) | Universal banking | Central + State Govt hold ≥ 51% |
+| Small Finance Bank | Lending to underserved | 75% loans to Priority Sector |
+| Payment Bank | Financial inclusion | Cannot lend; deposit cap ₹2 lakh |
+| Regional Rural Bank | Rural credit | 50:15:35 Centre:State:Sponsor equity |
+| Foreign Bank (WOS) | NRI + corporate banking | Wholly-owned subsidiary structure |
+| Cooperative Bank | Member-based lending | 2020 Act brought under RBI supervision |
 
-⚡ **Exam tip:** IBPS PO frequently asks about the number of public sector banks post-mergers (currently 12 plus SBI). Also watch for questions on banking correspondents (BCs) and the difference between various types of small banks.
+> 💡 **Memory Hook — "PR-SF-Pay-RRB-FC-CU":** **P**SBs lend universally, **R**RB equity is 50:15:35, **S**FBs serve 75% PSL, **Pay**ment banks cap deposits at ₹2 lakh, **F**oreign banks prefer WOS, **C**ooperatives are now dual-controlled (RBI + NCSB). One word per row = six exam facts in one breath.
+
+CRAR formula: **CRAR = (Tier 1 + Tier 2) ÷ Risk-Weighted Assets × 100**; Basel III floor is 9%, PCA trigger is 15% — both dimensionless ratios.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+> Read this tier once, then come back to it the night before the mains.
 
-**Structure of the Indian Banking System:**
+#### Scheduled vs Non-Scheduled Bank
+A scheduled bank has paid-up capital of at least ₹5 lakh and is listed in the Second Schedule of the RBI Act, 1934. That listing alone gives it borrowing access at the Bank Rate and eligibility for all RBI refinance windows. A non-scheduled bank sits outside the Schedule, holds deposits from the public, and cannot rediscount bills with RBI. Nearly every nationalised, private, foreign, RRB, SFB and payment bank in current operation is scheduled — so when an IBPS question says "bank", the default scheduled-bank rules apply.
 
-#### 1. Reserve Bank of India (RBI)
-Established 1935 under RBI Act 1934. Central bank of India.
-- **Governor:** currently Sanjay Malhotra (appointed January 2025)
-- **Functions:** currency issuance, monetary policy, banker to government, banker to banks, developmental role
-- **Monetary Policy Committee (MPC):** 6 members — 3 RBI nominated + 3 external; meets 6 times a year
-- **Key rates:** Repo Rate (current 6.5%), Reverse Repo Rate (3.35%), MSF (6.75%), Bank Rate (6.75%)
+#### Ownership Map of the Indian Banking System
 
-**Recent RBI policy changes:**
-- RBI shifted to CPI-based inflation targeting in 2016 (4% ± 2%)
-- The Marginal Standing Facility (MSF) allows banks to borrow overnight from RBI at repo rate + 25 bps
+| Class | Examples | Ownership Test | Licence Authority |
+|---|---|---|---|
+| PSB | SBI, PNB, Bank of Baroda, Canara Bank, Union Bank | Central + State Govt ≥ 51% | RBI under BR Act 1949 |
+| Private Sector | HDFC Bank, ICICI Bank, Axis Bank, Kotak Mahindra | Indian residents ≥ 51% | RBI |
+| Foreign Bank WOS | Citi (now WOS), Standard Chartered | 100% foreign-owned incorporated entity | RBI |
+| RRB | 28 RRBs as of 2024–25 | 50% Centre / 15% State / 35% Sponsor Bank | RRBs Act 1976 |
+| SFB | AU, Ujjivan, Equitas, Jana, Bandhan | Initial capital ₹200 crore | RBI 2014–15 guidelines |
+| Payment Bank | Airtel, India Post Payments, Fino, Paytm | Initial capital ₹100 crore | RBI 2014–15 guidelines |
+| Local Area Bank | 4 surviving — Purvanchal, Sub-Regional, Bhilai-Mahila, Krishna-Godavari (largely defunct) | Capital ₹5 crore | RBI 1996 (licensees never expanded) |
 
-#### 2. Commercial Banks
-Divided into:
-- **Public Sector Banks (PSBs):** 12 nationalized banks + State Bank of India + 1 (India Post Payments Bank)
-  - After the 3mega-mergers of 2020: PNB + OBC + Canara (PNB is surviving entity); BOB + Dena + Vijaya (BOB is surviving); SBI + its 5 associate banks (merged into SBI)
-  - Current count: SBI + 12 nationalized = 13 PSBs (including India Post Payments Bank)
-- **Private Sector Banks:** Old private banks (SBI's old associates before merger are PSBs, not private) — HDFC Bank, ICICI Bank, Axis Bank, Kotak Mahindra Bank, Yes Bank, IDBI Bank (government-owned but classified separately), etc.
-- **Foreign Banks:** Citibank, HSBC, Standard Chartered, Deutsche Bank, etc.
+#### Cooperative Banks under the 2020 Amendment
+Until 2020, State Cooperative Banks and Urban Cooperative Banks were supervised almost entirely by state registrars; the RBI held limited, advisory power. The Banking Regulation (Amendment) Act, 2020 explicitly brought cooperative banks under RBI's supervisory umbrella for capital, governance and audit — without altering the registrar's role over management. A common MCQ trap is to say RBI alone regulates them: the correct phrasing is "RBI supervises, Registrar manages."
 
-#### 3. Regional Rural Banks (RRBs)
-- Established 1975 under RRB Act 1976
-- Sponsored by Public Sector Banks (e.g., Canara Bank sponsors 9 RRBs)
-- Jurisdiction: One or more districts within a state
-- 43 RRBs currently operational (post-mergers)
-- Ninety percent of their deposits must be invested in SLR securities or priority sector lending
-- They cannot accept foreign currency deposits
+#### All-India Financial Institutions (AIFIs)
+These are not commercial banks. They are specialised, government-owned development lenders supervised by RBI.
 
-#### 4. Small Finance Banks (SFBs)
-- RBI guidelines 2014, first licenses 2015
-- Target: Financial inclusion for unbanked segments — small farmers, micro-enterprises, small businesses
-- Must lend 75% of their Adjusted Net Credit (ANC) to priority sector
-- Examples: Equitas SFB, Ujjivan SFB, Jana SFB, Suryoday SFB, etc.
-- Not permitted to do foreign exchange business
+| AIFI | Sector | Statutory Home |
+|---|---|---|
+| NABARD | Agriculture & rural finance | NABARD Act 1981 |
+| SIDBI | MSME and small industry | SIDBI Act 1989 |
+| NHB | Housing finance | NHB Act 1987 |
+| EXIM Bank | Export-import finance | EXIM Bank Act 1981 |
+| NABFID (merged PFC + REC) | Infrastructure financing | Companies Act, 2023 merger |
+| ECGC | Export credit insurance | ECGC Act 1957 |
 
-#### 5. Payments Banks
-- Limited service entity — cannot lend
-- Can accept deposits up to ₹1 lakh per customer
-- Must invest 75%+ in SLR government securities
-- Examples: Paytm Payments Bank, India Post Payments Bank, Fino Payments Bank, Airtel Payments Bank, Jio Payments Bank
+NBFCs sit one rung below commercial banks: they register under the Companies Act, cannot accept demand deposits, and a deposit-taking NBFC must hold a 15% CRAR versus 10% for non-deposit ones. An NBFC-MFI lends only for income generation with loans capped at ₹1.25 lakh.
 
-#### 6. Cooperative Banks
-- **Scheduled Urban Cooperative Banks (UCBs):** Governed by Banking Regulation Act 1949; regulated by RBI
-- **Non-scheduled UCBs:** Smaller, less regulatory requirements
-- **State Cooperative Banks (StCBs):** Apex of state cooperative credit structure
-- **District Central Cooperative Banks (DCCBs):** Intermediate tier
+#### Priority Sector Targets You Must Carry
+PSL must reach **40% of ANBC or Credit Equivalent of Off-Balance-Sheet Exposure, whichever is higher**. Sub-targets: agriculture 18%, MSME 7.5%, export credit 2%, plus education, housing, social infrastructure. Foreign bank subsidiaries (WOS) follow the same PSL rules as Indian banks; standalone foreign branches had a differentially lower target until the 2020 harmonisation, a frequent setter's trap.
 
-**Development Financial Institutions:**
-- **SIDBI** (Small Industries Development Bank of India): Principal MSME financing institution; headquartered Lucknow; 100% government owned
-- **EXIM Bank** (Export-Import Bank of India): Export finance and overseas investment
-- **NABARD** (National Bank for Agriculture and Rural Development): Rural credit, agricultural refinance; established 1982
-- **NHB** (National Housing Bank): Housing finance sector regulator and refinancing institution
-- **DICGC** (Deposit Insurance and Credit Guarantee Corporation): Insures deposits up to ₹5 lakh per depositor per bank
+> 💡 **High-Yield Memory Hook — "18-7.5-2-40"**: Agriculture 18, MSME 7.5, Export 2, total PSL 40. Four numbers, one anchor, repeats almost every year on mains.
 
-**Regulatory Framework:**
-- RBI governs commercial banks under Banking Regulation Act 1949
-- IRDAI governs insurance companies
-- SEBI governs capital markets
-- PFRDA governs pension sector
-- IBBI governs insolvency and bankruptcy
+#### Worked Problem — the kind you face on IBPS Mains
+
+**Stem (paraphrased from prior mains sets):** A scheduled commercial bank reports Tier 1 capital of ₹62,400 crore, Tier 2 capital of ₹14,800 crore, and total risk-weighted assets of ₹7,72,000 crore. Compute its CRAR and state whether PCA will trigger.
+
+#### Solving it
+
+1. **CRAR = (Tier 1 + Tier 2) / RWA × 100**
+2. Numerator: 62,400 + 14,800 = **₹77,200 crore**
+3. Denominator: **₹7,72,000 crore** (RWA already dimensionless ratio base in ₹ crore)
+4. CRAR = 77,200 / 7,72,000 × 100 = 10.00% (to two decimal places)
+5. PCA threshold under RBI's revised 2022 framework triggers at 15% for capital inadequacy alone, while bank-level PCA combines CRAR, NPA and profitability metrics.
+6. **Verdict:** CRAR of 10% sits above the Basel III minimum of 9% but well below the 15% band that flags PCA concern on capital alone.
+
+> ⚠️ **Examiner Trap:** Students plug 9% as the trigger value (the Basel floor) instead of 15% (the PCA alert). The QA question is rarely about minimum — examiners prefer the PCA and "what action is forced" angle. If CRAR < 9%, capital conservation buffers bite first; if it crosses 12%, audit warnings; 15% is the unambiguous PCA reference.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
+> This tier assumes you have sat through two prelims and one mains — read it the week before your interview.
 
-**Banking System Reforms & Current Issues:**
+#### Greenfield, Brownfield and the Universal Bank Hurdle
+Bandhan Bank (formerly NBFC-MFI), AU SFB and Ujjivan SFB all began as NBFCs and converted after receiving in-principle approval from RBI — that is a brownfield path. A greenfield bank instead starts as a new incorporated entity, with AU SFB (2017) and Bandhan (2015) often cited together despite the difference in conversion mechanics. Universal bank licences carry the heaviest gate: ₹5,000 crore minimum capital, CRAR ≥ 13%, NPAs below 1%, three years of consecutive profit and applicant net worth ≥ ₹500 crore (NBFC route). No new universal licence has been issued since 2015; the cue to keep in mind for mains.
 
-#### Merger History of Public Sector Banks
-- **2017:** 5 associate banks merged with SBI (SBI acquired its 5 associate banks — State Bank of Travancore, State Bank of Mysore, State Bank of Bikaner & Jaipur, State Bank of Patiala, State Bank of Hyderabad)
-- **2020 mega-merger:** 10 banks merged into 4:
-  - Punjab National Bank + Oriental Bank of Commerce + United Bank of India → PNB
-  - Canara Bank + Syndicate Bank → Canara Bank
-  - Union Bank of India + Andhra Bank + Corporation Bank → Union Bank of India
-  - Bank of Baroda + Dena Bank + Vijaya Bank → Bank of Baroda
-- Post-merger count: SBI + 12 nationalized banks = 13 PSBs
+#### Subsidiary vs Associate vs Branch — the Foreign-Bank Triangle
+A foreign entity with **≥ 51%** holding in an Indian-incorporated bank is treated as an Indian subsidiary (Citibank India, Standard Chartered India, HSBC India). **26–50%** is an associate. **≤ 25%** is pure investment exposure with no operational control. Subsidiaries — not branches — are now RBI's preferred structure because branches escape full BR Act discipline. After 2005, foreign banks were nudged toward the WOS form with a minimum capital threshold; IIB-style lists of "branches" still in operation today shrink year on year.
 
-#### Priority Sector Lending (PSL)
-All domestic scheduled commercial banks must lend 40% of their Adjusted Net Credit (ANC) to priority sectors. Sub-categories:
-- **Agricultural:** farm credit, agriculture infrastructure, ancillary activities (target: 18%)
-- **Micro Enterprises:** small/marginal enterprises with investment in plant/machinery ≤ ₹10 lakh
-- **Small and Medium Enterprises (SMEs):** investment limits apply
-- **Export Credit:** up to 32% of NNE
-- **Weaker Sections:** includes SC/ST borrowers, women, disabled, minority community loans
-- **Education:** loans up to ₹10 lakh for studies in India; ₹20 lakh for abroad
-- **Housing:** loans up to ₹35 lakh in metros, ₹25 lakh in other areas
+#### RBI's Quantitative vs Qualitative Toolkit
+Two different levers; one question often tests the difference.
 
-#### Non-Performing Assets (NPAs)
-- **Sub-standard:** NPA for up to 12 months
-- **Doubtful:** NPA for more than 12 months (further sub-classified as D1, D2, D3)
-- **Loss Assets:** Where recovery is impossible (or negligible)
+| Type | Tool | Effect |
+|---|---|---|
+| Quantitative | CRR (0–15%), SLR (0–40%), Bank Rate, Repo Rate, MSF, LAF, OMO | Direct liquidity / cost impact |
+| Qualitative | Moral suasion, directives, margin requirements, credit ceilings | Behavioural, sectoral steering |
 
-**NPA Resolution Mechanisms:**
-- SARFAESI Act 2002 — banks can seize collateral without court order if borrower defaults
-- DRT (Debt Recovery Tribunals) — fast track recovery through 1993 Act
-- IBC (Insolvency and Bankruptcy Code 2016) — resolution/liquidation of defaulting companies; 330 days timeline
+Reserve the form names ("Statutory Liquidity Ratio", "Cash Reserve Ratio") for the quantitative group. "Moral suasion" never appears with a fixed number.
 
-#### Banking Ombudsman Scheme
-RBI's redressal mechanism for customer complaints:
-- 22 ombudsman offices across India (as of 2023)
-- Covers: Non-payment/delay in cheques, non-acceptance of deposits, levying of charges without notice, etc.
-- If no satisfactory resolution, escalate to RBI's appellate authority
+#### Edge Cases and Frequently Confused Pairs
 
-#### Recent Regulatory Changes (2023-2024)
-- **Base Rate/SBLR replaced** by benchmark rates linked to external benchmarks (e.g., Repo-linked PLR)
-- **LCR (Liquidity Coverage Ratio):** Banks must maintain high-quality liquid assets (HQLA) to survive 30-day stressed scenario
-- **NPA identification:** 90-day NPA norm (global standard) — 90 days or more overdue = NPA
-- **Joint Lenders Forum (JLF):** For consortium accounts, all lenders must jointly decide restructuring
-- **4/6 window** for early intervention for stressed companies announced by RBI
+1. **PSB vs Specialised PSU banks.** J&K Bank is treated as a PSU under State Government control; IDBI Bank is reclassified as private since 2019 after LIC-led stake transfer dropped GoI holding below 50%.
+2. **Bharatiya Mahila Bank** merged with SBI in 2017 — asking "which bank is the first women-focused PSB?" is now a closed chapter.
+3. **NBFC-MFI vs SFB.** Both chase financial inclusion, but SFBs accept demand deposits and can lend freely inside the 25% single-borrower ceiling; NBFC-MFIs cannot accept deposits and have a strict ₹1.25 lakh ticket cap per loan.
+4. **Lead Bank Scheme (1969)** still maps each district to an anchor commercial bank — useful for the "district-level coordination" phrase that appears once a year on prelims.
+5. **FSIB (2022) replaced BBB (2016)** — Students quote "Banks Board Bureau" in current affairs MCQs and lose a mark; FSIB now recommends director appointments for PSBs and financial institutions.
 
-**Key Differences — SFB vs Payments Bank vs RRBs:**
+#### Two Advanced Practice Prompts
 
-| Feature | SFB | Payments Bank | RRB |
-|---|---|---|---|
-| Can lend? | Yes | No | Yes |
-| Target | Unbanked | Digital payments | Rural |
-| PSL target | 75% | Not mandatory | 75% |
-| Max deposit | No limit | ₹1 lakh | No limit |
-| Foreign exchange | No | No | No |
-| Ownership | Promoter-driven | Tech/Govt entities | Public bank sponsor |
+1. **Numerical.** A bank's interest earned is ₹18,400 crore and interest expended is ₹11,600 crore over the year; average interest-earning assets stand at ₹1,55,000 crore. Compute NIM, then judge whether a 3.2% NIM signals a strong PSB on cost efficiency. (Hint: NIM formula from Standard tier; PSB peers cluster around 2.8–3.5%.)
+2. **Conceptual.** An urban cooperative bank with deposits of ₹7,500 crore plans to lend 65% of its loan book to a single retail chain. List every provision it violates — 2020 amendment, BR Act ceilings and RBI master directions on UCB exposure limits — and state which body's jurisdiction covers each.
+
+## Continue your study
+
+- **[View this topic in your IBPS PO roadmap](/roadmap/?exam=ibps-po&duration=1mo)** — see where "Banking Awareness — Types of Banks & Financial Institutions" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ibps-po&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[IBPS PO exam overview](/exams/ibps-po/)** — pattern, eligibility, and syllabus
+- **[All General Awareness notes](/notes/ibps-po/general-awareness/)** — browse sibling topics in this subject
+
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

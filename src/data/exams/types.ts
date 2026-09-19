@@ -1,5 +1,16 @@
 export interface Topic { id: string; name: string; weight: 1|2|3|4|5; description?: string; }
-export interface Subject { id: string; name: string; topics: Topic[]; color: string; }
+export interface Subject {
+  id: string; name: string; topics: Topic[]; color: string;
+  /**
+   * Named group/module this paper belongs to, when the exam's own syllabus
+   * publishes one — e.g. ICSI's "Group 1" / "Group 2" for CS Executive.
+   *
+   * Optional on purpose: only exams with a real official grouping set it, and
+   * the exam page renders grouped headings only when at least one subject
+   * carries it, so the other 126 exams are untouched.
+   */
+  group?: string;
+}
 export interface DailyTopicItem extends Topic { subject: string; hasNote?: boolean; notePath?: string | null; }
 export interface Phase { name: string; weeks: number; focus: string; deliverables: string[]; }
 export interface RoadmapTemplate { duration: string; totalDays: number; dailyTopics: DailyTopicItem[]; description: string; phases?: Phase[]; }

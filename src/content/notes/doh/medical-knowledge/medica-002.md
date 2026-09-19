@@ -8,186 +8,118 @@ topicName: Vital Signs and Physiological Parameters
 weight: 3
 country: uae
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-19"
 ---
 
 # Vital Signs and Physiological Parameters
 
-Vital sign monitoring is fundamental to clinical triage, ongoing inpatient evaluation, and early identification of hemodynamic instability across UAE healthcare facilities. The DOH (UAE) licensing examination assesses candidate proficiency in recognizing early warning scores (such as NEWS2 or MEWS), detecting abnormal trends, calculating mean arterial pressure (MAP), and prioritizing interventions for hypovolemic, cardiogenic, or septic deterioration.
-
----
-
 ### 🟢 Lite — Quick Review (1h–1d)
+> Five numbers every clinician checks before anything else: temperature, pulse, respiratory rate, blood pressure, SpO₂.
 
-> Rapid summary for last-minute revision before your exam.
+| Parameter | Adult normal range | Unit |
+|---|---|---|
+| Oral temperature | 36.1 – 37.2 | °C |
+| Heart rate | 60 – 100 | beats/min |
+| Respiratory rate | 12 – 20 | breaths/min |
+| Blood pressure | < 120 / < 80 | mmHg |
+| SpO₂ (room air) | ≥ 95 | % |
 
-**Normal Vital Sign Ranges (Adult):**
+**MAP = (SBP + 2·DBP) ÷ 3** — the perfusion pressure driving organ flow; resuscitate to **≥ 65 mmHg** in shock.
 
-| Parameter | Normal Range |
-|---|---|
-| Temperature | 36.5–37.5°C (97.7–99.5°F) |
-| Pulse (HR) | 60–100 bpm |
-| Respiratory Rate | 12–20 breaths/min |
-| Blood Pressure | < 130/80 mmHg (systolic/diastolic) |
-| SpO₂ | 95–100% (on room air) |
-| MAP | 70–100 mmHg |
-
-**Mean Arterial Pressure (MAP):**
-**MAP = (Systolic + 2×Diastolic) ÷ 3**
-*Example: BP 120/80 → MAP = (120 + 160) ÷ 3 = 93 mmHg (normal)*
-*Minimum MAP for adequate organ perfusion: 65 mmHg*
-
-**Key Thresholds Requiring Immediate Action:**
-- HR < 50 or > 130 bpm
-- RR < 8 or > 30 breaths/min
-- BP < 90/60 or > 180/110 mmHg
-- SpO₂ < 90%
-- Temperature > 39.5°C or < 35°C
-
-> **⚡ Exam Tip:** When vital signs are abnormal, always assess the patient clinically — not just the numbers. A "normal" set of vitals in a visibly distressed patient is still a concerning finding.
+> 💡 **Memory Hook:** **"TPRS-O₂"** = Temperature, Pulse, Respiration, SpO₂ — recite it before every clinical station to lock in the order of bedside assessment. For MAP, picture the heart spending **two-thirds of its cycle in diastole**, which is why DBP counts double.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
+> Build the link between a number on the monitor and the physiology underneath it.
 
-> Standard content for students with a few days to months.
+#### Parameters and Their Drivers
 
-#### 1. Temperature — Assessment and Interpretation
+Each parameter reflects a different homeostatic reflex. Temperature tracks hypothalamic set-point around 37 °C. Heart rate and respiratory rate are governed by autonomic outflow responding to metabolic demand and chemoreceptor PaCO₂. Blood pressure is the product of cardiac output and systemic vascular resistance (BP = CO × SVR), modulated by baroreceptor feedback. SpO₂ reflects the percentage of haemoglobin binding sites occupied by oxygen.
 
-**Sites and Normal Ranges:**
-- Oral/Sublingual: 36.5–37.5°C
-- Tympanic (ear): 36.5–37.8°C (reflects core temperature; used widely in UAE)
-- Rectal: 37.0–37.8°C (closest to core; reserved for specific indications)
-- Axillary: 36.5–37.2°C (least accurate; adds ~0.5°C)
-- Temporal artery: 35.8–37.8°C (non-invasive, used in paediatrics)
+#### Site-Specific Temperature Offsets
 
-**Fever Patterns — Clinical Significance:**
+A recorded temperature is meaningless without its route. The research figures give the conversion rules:
 
-| Pattern | Description | Associated Conditions |
+| Route | Offset vs oral core | Practical use |
 |---|---|---|
-| **Continuous** | Fever stays above normal; minimal fluctuation | Typhoid fever, pneumonia, UTIs |
-| **Remittent** | Fever fluctuates >2°C but never reaches normal | Most infections |
-| **Intermittent** | Fever peaks and returns to normal | Malaria (tertian/quotidian patterns) |
-| **Relapsing** | Fever-free periods between febrile episodes | Brucellosis, Borrelia infections |
-| **Pel-Ebstein** | Cyclical fevers every 3–7 days | Hodgkin's lymphoma |
+| Rectal | +0.5 °C | Closest to core; infants, hypothermia work-up |
+| Tympanic | ±0.0 °C | Fast, core-equivalent when probe seated |
+| Oral | reference | Standard adult screening |
+| Axillary | −0.5 °C | Inexpensive, slower, screen-only |
+| Temporal | ±0.0 – 0.3 °C | Mass screening, trending |
 
-**Hypothermia:** Core temperature <35°C. Causes: Cold exposure, sepsis (particularly in elderly), hypothyroidism, hypoglycaemia, drug intoxication. Signs: Shivering (early), confusion, bradycardia, loss of coordination.
+> 📌 **Formula Check:** MAP = (SBP + 2·DBP) ÷ 3; if SBP = 120 and DBP = 80 mmHg, MAP = (120 + 160) ÷ 3 = **93 mmHg** — already above the 65 mmHg shock floor.
 
-**Hyperthermia:** Core temperature >40°C — medical emergency. Causes: Heat stroke, neuroleptic malignant syndrome, malignant hyperthermia.
+#### Worked Problem — Septic Patient Triage
 
-#### 2. Pulse — Assessment Beyond the Rate
+A 54-year-old man arrives with fever, RR 24/min, BP 96/54 mmHg, and confusion. Compute his MAP and decide whether qSOFA flags sepsis work-up.
 
-**Sites and Their Clinical Use:**
-- Radial (wrist): Most common; used for routine monitoring
-- Carotid (neck): Used in cardiac arrest assessment; do not massage in elderly (carotid sinus hypersensitivity → bradycardia, syncope)
-- Apical (5th intercostal space, midclavicular line): Used when radial pulse is irregular (to detect pulse deficit)
-- Brachial (antecubital fossa): Used for BP measurement; blood transfusion
-- Dorsalis pedis/Posterior tibial (foot): Peripheral vascular disease assessment
-- Femoral: Paediatric assessment; cardiac arrest in infants
+Step 1 — Compute MAP. Insert the values: MAP = (96 + 2·54) ÷ 3 = (96 + 108) ÷ 3 = 204 ÷ 3 = **68 mmHg**.
 
-**Pulse Rhythm:**
-- Regular: Evenly spaced beats
-- Regularly irregular: Pattern repeats (e.g., Wenckebach/second-degree AV block — progressively shorter PR interval until dropped beat)
-- Irregularly irregular: No pattern (e.g., atrial fibrillation — highly prevalent in elderly Emirati patients)
+Step 2 — Read qSOFA. Each criterion scores 1: RR ≥ 22 (yes, 24 → 1), SBP ≤ 100 mmHg (yes, 96 → 1), altered mentation (yes → 1). Total = **3 of 3**.
 
-**Pulse Character:**
-- Full/bounding: Hypertension, anxiety, hypervolaemia
-- Weak/thready: Hypovolaemia, shock, poor cardiac output
-- Pulsus bisferiens (double peak): Hypertrophic obstructive cardiomyopathy
-- Pulsus paradoxus (>10 mmHg fall in BP on inspiration): Cardiac tamponade, severe asthma, COPD
+Step 3 — Interpret. qSOFA ≥ 2 with suspected infection mandates urgent sepsis bundle (lactate, blood cultures, broad-spectrum antibiotics within 1 hour, 30 mL/kg crystalloid if hypotensive or lactate ≥ 4 mmol/L).
 
-#### 3. Respiratory Assessment
+> ⚠️ **Examiner Trap:** Students average SBP and DBP equally and write MAP = (96 + 54) ÷ 2 = 75 mmHg — a number that **also** clears 65 mmHg by coincidence, so the calculation slip often goes unnoticed. Always double-weight the diastolic.
 
-**What to Assess:**
-- Rate (count for 60 seconds — the most accurate method)
-- Depth: Shallow, normal, deep (Kussmaul breathing = deep, rapid, sighing — DKA, renal failure)
-- Rhythm: Regular, Cheyne-Stokes, Biot's, ataxic
-- Effort: Use of accessory muscles, nasal flaring, retractions, stridor, wheezing
-- Sound: Stridor (upper airway obstruction — medical emergency), wheezing (lower airway), crackles (fluid/secretions in alveoli)
+#### Concept Comparison Matrix
 
-**Cheyne-Stokes vs Biot's Breathing:**
-
-| Pattern | Description | Causes |
-|---|---|---|
-| **Cheyne-Stokes** | Gradually increasing then decreasing depth with periods of apnoea | Brainstem compression, severe heart failure, drug overdose |
-| **Biot's (ataxic)** | Irregular, unpredictable pattern with unpredictable apnoeic periods | Brainstem injury (cerebellar tonsillar herniation) |
-
-#### 4. Blood Pressure — More Than Systolic/Diastolic
-
-**Hypertension Classification (UAE follows WHO/ISH):**
-- Normal: < 130/80
-- Elevated: 130–139 / 80–89
-- Stage 1 HTN: 140–159 / 90–99
-- Stage 2 HTN: ≥ 160 / ≥ 100
-- Hypertensive Crisis: > 180/120 → requires immediate medical review
-
-**Hypertension is endemic in the UAE** — estimated 30–40% of adults have hypertension. Major contributing factors include high salt intake in traditional cuisine, obesity, diabetes, and sedentary lifestyle.
-
-**Orthostatic Hypotension:**
-- Drop of ≥ 20 mmHg systolic or ≥ 10 mmHg diastolic on standing from supine
-- Check in patients on antihypertensives, diuretics, elderly patients, and those with dizziness/syncope
-- Method: Measure BP supine; wait 5 minutes; measure standing at 1 and 3 minutes
-
-**Pseudohypertension:** Falsely elevated BP due to rigid, calcified arteries (elderly) — difficult to compress with cuff.
+| Sign | High value (term) | Low value (term) | Single most-tested pitfall |
+|---|---|---|---|
+| Heart rate | Tachycardia (>100 bpm) | Bradycardia (<60 bpm) | Missing pediatric context — infant 140 bpm is normal |
+| Respiratory rate | Tachypnea (>20/min) | Bradypnea (<12/min) | Counting for 15 s and multiplying — RR is the most underestimated vital |
+| BP systolic | Hypertension (≥130 mmHg) | Hypotension (<90 mmHg) | Skipping orthostatic check (drop ≥20/10 = positive) |
+| Temperature | Pyrexia (>38 °C) | Hypothermia (<35 °C) | Recording without route — same patient, three readings, three numbers |
+| SpO₂ | Hyperoxia (PaO₂ ↑) | Hypoxemia (<90 %) | Falsely normal reading in CO poisoning — COHb absorbs at 660 nm like O₂Hb |
 
 ---
 
-### 🔴 Extended — Deep Study (3m+)
+### 🔴 Extended — Deep Study (3mo+)
+> Edge cases and pressure points that decide whether you pass a viva or a multiple-tester station.
 
-> Comprehensive coverage for students on a longer study timeline.
+#### Pulse Pressure as a Diagnostic Handle
 
-#### 5. Early Warning Scores (EWS) — UAE Practice
+Pulse pressure (PP) = SBP − DBP. A widened PP (> 60 mmHg in adults) suggests aortic run-off: aortic regurgitation, arteriosclerosis, hyperthyroidism, severe anaemia. A narrow PP (< 25 mmHg) suggests restricted stroke volume: cardiac tamponade, aortic stenosis, severe hypovolaemia, or tension pneumothorax. PP is often the earliest objective clue in undifferentiated shock.
 
-UAE hospitals use **Early Warning Score (EWS)** or **Modified Early Warning Score (MEWS)** systems to identify deteriorating patients and trigger escalation of care.
+#### Oxygen Content and the Hidden Hypoxia
 
-**Parameters in MEWS:**
+SpO₂ is a saturation, not a delivery number. Arterial oxygen content is:
 
-| Score | 3 | 2 | 1 | 0 | 1 | 2 | 3 |
-|---|---|---|---|---|---|---|---|
-| HR | <40 | 40–50 | 51–100 | 101–110 | 111–130 | >130 | — |
-| SBP | <70 | 70–80 | 81–100 | 101–199 | >200 | — | — |
-| RR | <6 | — | 6–9 | 10–14 | 15–20 | 21–30 | >30 |
-| Temp | <35 | — | 35–38.4 | — | >38.5 | — | — |
-| AVPU | — | — | — | Alert | Voice | Pain | Unresponsive |
+**CaO₂ = (1.34 · Hb · SaO₂) + (0.003 · PaO₂)**, mL O₂/dL blood, where Hb is in g/dL and SaO₂ as a fraction.
 
-**Score ≥ 5** = Urgent review; **Score ≥ 7** = Emergency/ICU review
+A patient with Hb 7 g/dL and SaO₂ 98 % carries roughly half the oxygen of a normal adult — yet their SpO₂ monitor glows reassuring green. In anaemia, carbon monoxide exposure, and cyanide toxicity, the saturation reading alone misleads.
 
-**National Early Warning Score 2 (NEWS2) — used in many UAE facilities:**
-- Includes: Resp rate, SpO₂, Air or O₂, SBP, Consciousness, Temperature, Heart Rate
-- Higher scores trigger: Urgent nursing review, physician review, or critical care outreach team
+#### Edge Cases That Reorder Your Thinking
 
-#### 6. Advanced Monitoring — UAE ICU Context
+1. Pulse oximetry drift in hypothermia, vasoconstriction, motion artefact, and dark nail polish — the device defaults to a normal reading while tissue is starved.
+2. qSOFA predicts mortality, not diagnosis; SIRS criteria still flag early sepsis when qSOFA is 0–1.
+3. Pediatric vital signs change every few months of age; a memorized “120–160 bpm infant” is wrong by six months.
+4. Orthostatic measurement needs 1–3 minutes standing before re-reading, not an immediate recheck.
+5. Pain as the “6th vital sign” is policy-driven (JCAHO since 2001), not optional in DOH clinical scenarios.
 
-**Arterial Line Monitoring:**
-- Continuous BP monitoring; used in critically ill patients
-- Site: Radial artery (preferred), femoral, brachial, dorsalis pedis
-- Waveform assessment: Damping (loss of waveform detail) indicates arterial line problem
-- Mean arterial pressure (MAP) is the most reliable measurement from an arterial line
+#### Advanced Practice Prompts
 
-**Central Venous Pressure (CVP):**
-- Measured via central line (subclavian, internal jugular, femoral)
-- Reflects right atrial pressure/venous return
-- Normal: 2–8 mmHg (or 4–12 cmH₂O)
-- Limitations: Poor correlation with left-sided filling pressures in cardiac patients; trending is more useful than single values
+1. A neonate presents with HR 158 bpm, RR 48/min, axillary temperature 36.8 °C. Are any of these abnormal once the route is corrected to a core-equivalent value?
+2. Trauma patient, BP 88/70 mmHg, HR 122 bpm. Calculate MAP and PP; which shock category (narrow vs wide PP) does the PP suggest, and how does that redirect your differential?
 
-**Cardiac Output Monitoring:**
-- Thermodilution (Swan-Ganz/PA catheter), lithium dilution, pulse contour analysis
-- Less commonly used today due to less invasive alternatives
-- Used for: Septic shock, cardiogenic shock, complex cardiac surgery patients
+#### Common Pitfalls — Read Once, Burn In
 
-#### 7. Special Considerations in UAE Population
-
-**Diabetes and Blood Pressure:**
-- UAE has one of the highest rates of diabetes globally (~17% adults)
-- Diabetic autonomic neuropathy can cause abnormal BP regulation (postural hypotension, labile hypertension, impaired baroreceptor reflex)
-- BP targets for diabetics may be more stringent (<130/80) to reduce cardiovascular risk
-
-**The Gulf Climate and Vital Signs:**
-- Extreme heat in UAE (summer temperatures 40–50°C) increases risk of heat exhaustion and heat stroke
-- Patients taking diuretics, antihypertensives are at increased risk of dehydration and electrolyte imbalance
-- Environmental assessment is critical in the summer months
-
-> **Exam Watch:** A question where a patient's BP is 90/60 mmHg with tachycardia, cool extremities, and altered mental status should immediately trigger recognition of hypovolemic shock. The priority action is to ensure adequate airway, administer oxygen, establish IV access, and notify the physician immediately. Never ignore hypotension in a symptomatic patient.
+| Trap | Mechanism | Correct practice |
+|---|---|---|
+| Equal-weight MAP | Averages SBP and DBP | Diastole fills coronaries — weight 2× |
+| Short-count RR | 15 s × 4 inflates errors 4× | Count full 60 s |
+| Trust SpO₂ in CO | COHb mimics O₂Hb at 660 nm | Check co-oximetry, lactate, history |
+| Adult BP for kids | Misclassifies normal as hypertensive | Use age/height centiles (AAP) |
+| Ignore route | Two sites, two diagnoses | Always document measurement site |
 
 ---
+
+## Continue your study
+
+- **[View this topic in your DOH (UAE) roadmap](/roadmap/?exam=doh&duration=1mo)** — see where "Vital Signs and Physiological Parameters" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=doh&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[DOH (UAE) exam overview](/exams/doh/)** — pattern, eligibility, and syllabus
+- **[All Medical-Knowledge notes](/notes/doh/medical-knowledge/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

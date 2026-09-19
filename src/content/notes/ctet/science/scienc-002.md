@@ -8,178 +8,138 @@ topicName: Nutrition in Plants and Animals
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-19"
 ---
 
 # Nutrition in Plants and Animals
 
-## Nutrition: An Introduction
+### 🟢 Lite — Quick Review (1h–1d)
 
-Nutrition is the process by which organisms obtain and utilize food for energy, growth, and maintenance. All living organisms need nutrients — substances that provide energy and materials for repair and growth.
+> One sentence to fix the topic in place: every living thing runs on chemical energy pulled out of food, and the route differs sharply between a green leaf and a human gut.
 
-### Modes of Nutrition
+Plants make their own glucose inside chloroplasts using CO₂ and water, sunlight, and chlorophyll. Animals cannot do this; they must eat plants or other animals, then break food down with enzymes before the bloodstream can absorb it. The whole process, ingestion to egestion, spans the digestive tract.
 
-| Type | Organisms | How it Works |
+- **Autotrophs** — self-feeders; green plants, algae, some bacteria (photosynthesis).
+- **Heterotrophs** — depend on others; animals, fungi, most bacteria.
+- **Macronutrients** — carbohydrates, proteins, fats (give energy + build body).
+- **Micronutrients** — vitamins, minerals (regulate, no calories).
+- **Calorific rule** — 1 g carb = 4 kcal, 1 g protein = 4 kcal, 1 g fat = 9 kcal.
+- **Five-step animal nutrition** — Ingestion → Digestion → Absorption → Assimilation → Egestion.
+
+> 💡 **High-Yield Memory Hook (Memory Hook):** "**4-4-9**" — Carbs 4, Proteins 4, Fats 9 kcal per gram. Think of the fats as the heavy hitters carrying the biggest number.
+
+| Nutrient class | Energy per gram | Building/regulating role |
 |---|---|---|
-| **Autotrophic** | Green plants, some bacteria | Make their own food using light (photosynthesis) or chemical energy |
-| **Heterotrophic** | Animals, fungi, most bacteria | Cannot make their own food — depend on other organisms |
-| **Saprophytic** | Fungi, some bacteria | Feed on dead and decaying matter |
-| **Parasitic** | Tapeworm, leeches | Feed on living organisms |
+| Carbohydrate | 4 kcal | Quick glucose fuel |
+| Protein | 4 kcal | Tissue repair, enzymes |
+| Fat | 9 kcal | Stored energy, insulation |
+| Vitamin / mineral | 0 kcal | Regulation, protection |
 
-### Autotrophic Nutrition: Photosynthesis
+### 🟡 Standard — Regular Study (2d–2mo)
 
-Photosynthesis is the process by which green plants convert light energy into chemical energy (glucose). It occurs in chloroplasts (mainly in leaves).
+> Standard tier walks through how a leaf and a stomach solve the same energy problem in completely different ways.
 
-**Overall Equation**:
-6CO₂ + 6H₂O + Light energy → C₆H₁₂O₆ + 6O₂
-(Carbon dioxide + Water + Light → Glucose + Oxygen)
+#### Plant Nutrition Modes
 
-**Two Stages**:
+Green plants run **autotrophic nutrition**. The simplified word equation that CTET expects is:
 
-**1. Light-dependent reactions (Photochemistry)**:
-- Occur in the thylakoid membranes
-- Chlorophyll absorbs light (mainly red and blue wavelengths — green is reflected, which is why plants appear green)
-- Water is split (photolysis): 2H₂O → 4H⁺ + 4e⁻ + O₂
-- ATP and NADPH are produced
-- Oxygen is released as a byproduct
+**6 CO₂ + 6 H₂O → C₆H₁₂O₆ + 6 O₂** (sunlight + chlorophyll)
 
-**2. Light-independent reactions (Dark reactions / Calvin Cycle)**:
-- Occur in the stroma of chloroplasts
-- CO₂ is captured and reduced using ATP and NADPH (from light reactions)
-- CO₂ is fixed into glucose via the Calvin cycle (C3 pathway)
-- Three-carbon compounds (3-PGA) are the first stable product
+Variables and units: CO₂ in moles (mol, dim N), H₂O in moles (mol, dim N), C₆H₁₂O₆ in moles (mol, dim N), O₂ in moles (mol, dim N). Chlorophyll is the green pigment housed in chloroplasts; sunlight is radiant energy in joules (J, dim M L² T⁻²). CO₂ enters through stomata on leaves, water travels up xylem from root hairs.
 
-**Chlorophyll**: The green pigment that absorbs light energy. It is located in the thylakoid membranes of chloroplasts. Structurally, chlorophyll contains a porphyrin head and a phytol tail.
+When plants lose chlorophyll or live in dark, nitrogen-poor places, they switch strategies:
 
-### Factors Affecting Photosynthesis
-
-1. **Light intensity**: More light → more photosynthesis (up to a point)
-2. **Carbon dioxide concentration**: More CO₂ → more photosynthesis (current ambient ~0.04%)
-3. **Temperature**: Optimal around 25–35°C — enzymes denature beyond this
-4. **Water**: Essential raw material; deficiency causes wilting and reduces photosynthesis
-5. **Mineral nutrients**: Nitrogen (for chlorophyll), magnesium (central atom in chlorophyll), phosphorus (for ATP)
-
-### Heterotrophic Nutrition in Animals
-
-Animals cannot make their own food. They must ingest and digest food.
+- **Parasitic** — Cuscuta (dodder) wraps around a host and draws sap.
+- **Saprophytic** — Rhizopus, Mucor, many bacteria digest dead organic matter.
+- **Symbiotic** — Rhizobium fixes nitrogen inside legume root nodules; lichens pair fungi with algae; mycorrhiza links fungal threads with roots.
+- **Insectivorous** — Venus flytrap, pitcher plant (Nepenthes), sundew (Drosera) trap insects to obtain nitrogen.
 
 #### Human Digestive System
 
-The human digestive system is a 9-meter long tube with accessory organs. It follows this sequence:
+The five stages of animal nutrition map onto specific organs:
 
-**Mouth/Buccal Cavity**:
-- Ingestion: Food enters
-- **Salivary amylase** (ptyalin) begins starch digestion → maltose
-- Mechanical digestion: Teeth grind food (mastication)
-- Tongue: Mixes food with saliva and forms bolus
+1. **Ingestion** — mouth (teeth cut, tongue rolls, saliva moistens).
+2. **Digestion** — salivary amylase starts starch; stomach HCl + pepsin start protein; small intestine completes everything using pancreatic juice + bile.
+3. **Absorption** — villi of the small intestine pass glucose, amino acids, fatty acids, glycerol into blood and lymph.
+4. **Assimilation** — cells oxidise glucose for energy and use amino acids to build proteins.
+5. **Egestion** — undigested matter exits through the anus as faeces.
 
-**Pharynx and Esophagus**:
-- Swallowing: Bolus moves down pharynx
-- Peristalsis: Involuntary waves of muscle contraction push food down esophagus
-- No digestion occurs here
-- Lower esophageal sphincter (LES) prevents backflow
+| Organ | Main juice / enzyme | Substrate | End product |
+|---|---|---|---|
+| Mouth | Salivary amylase | Starch | Maltose |
+| Stomach | Pepsin + HCl | Protein | Peptides |
+| Small intestine | Trypsin, lipase, pancreatic amylase, bile | Proteins, fats, starch | Amino acids, fatty acids + glycerol, glucose |
+| Large intestine | — | Water, minerals | Reabsorbs water |
 
-**Stomach**:
-- Capacity: ~1–1.5 litres
-- **Gastric juice** secreted by gastric glands:
-  - **HCl**: Kills bacteria, provides acidic medium (pH ~2)
-  - **Pepsin**: Digests proteins → peptones (secreted as pepsinogen, activated by HCl)
-  - **Mucus**: Protects stomach wall from HCl
-- Food stays in stomach 1–5 hours (semi-liquid called chyme)
-- **Intrinsic factor**: Secreted by parietal cells — needed for vitamin B12 absorption
+#### Deficiency Diseases
 
-**Small Intestine** (duodenum, jejunum, ileum — ~6 metres):
-- Most digestion occurs here
-- **Pancreatic enzymes** (from pancreas via pancreatic duct):
-  - Trypsin: Digests proteins
-  - Amylase: Digests starch
-  - Lipase: Digests fats → fatty acids + glycerol
-  - **Sodium bicarbonate**: Neutralizes HCl in chyme
-- **Bile** (from liver, stored in gallbladder): Emulsifies fats (large globules → tiny droplets) — increases surface area for lipase action
-- **Intestinal enzymes** (from villi epithelium):
-  - Maltase: Maltose → glucose
-  - Sucrase: Sucrose → glucose + fructose
-  - Lactase: Lactose → glucose + galactose
-  - Peptidases: Polypeptides → amino acids
-
-**Absorption in Small Intestine**:
-- Villi and microvilli increase surface area (finger-like projections)
-- Single layer of cells for easy absorption
-- Lacteals (lymph vessels in villi) absorb fats; blood capillaries absorb glucose and amino acids
-
-**Large Intestine** (colon, caecum, rectum — ~1.5 metres):
-- Water and mineral salt absorption
-- Stores undigested food (feces) temporarily
-- **Bacteria**: E. coli present — synthesize vitamin K and some B vitamins
-- Appendix: Vestigial organ, sometimes gets infected (appendicitis)
-
-**Rectum and Anus**:
-- Feces stored in rectum
-- Egestion: Expelled through anus
-
-### Nutrients and Their Functions
-
-| Nutrient | Function | Sources |
+| Vitamin / mineral | Deficiency disease | Symptom in short |
 |---|---|---|
-| **Carbohydrates** | Main energy source (4 kcal/g) | Rice, wheat, sugar |
-| **Proteins** | Growth and repair (4 kcal/g) | Pulses, eggs, meat |
-| **Fats** | Energy storage, insulation (9 kcal/g) | Ghee, oil, nuts |
-| **Vitamins** | Regulate body processes | Fruits, vegetables |
-| **Minerals** | Bones, blood, nerves | Milk, leafy vegetables |
-| **Water** | Transport, chemical reactions | Drinking water |
+| Vitamin A | Night blindness | Cannot see in dim light |
+| Vitamin B₁ (thiamine) | Beri-beri | Weak nerves, swollen limbs |
+| Vitamin C | Scurvy | Bleeding gums |
+| Vitamin D | Rickets | Soft, bent bones in children |
+| Iron | Anaemia | Tired blood, low haemoglobin |
+| Iodine | Goitre | Swollen thyroid in neck |
+| Protein + energy | Kwashiorkor, marasmus | Wasted limbs, swollen belly |
 
-### Deficiency Diseases
+> A useful daily-energy estimate uses **DER = BMR × Activity Factor**. BMR (kcal/day) ≈ 1 × body weight (kg) × 24 h for adult males, ≈ 0.9 × body weight × 24 h for adult females. Activity Factor = 1.4 (sedentary), 1.7 (moderate), 2.0 (heavy work). Variables: body weight in kg (dim M), time in hours (dim T), energy in kcal/day (dim M L² T⁻²). The current official CTET syllabus weight for this topic is approximately 3% of the Science section; always verify against the latest notification on ctet.nic.in before quoting a number in the exam hall.
 
-| Deficiency | Disease | Symptoms |
-|---|---|---|
-| Vitamin A | Night blindness, Xerophthalmia | Cannot see in dim light |
-| Vitamin B1 | Beriberi | Weakness, nerve damage |
-| Vitamin C | Scurvy | Bleeding gums, weakness |
-| Vitamin D | Rickets | Soft, deformed bones |
-| Vitamin K | Poor blood clotting | Excessive bleeding |
-| Iron | Anaemia | Pale skin, fatigue |
-| Iodine | Goiter | Swollen neck |
+#### Worked Solution — A Real CTET-Shaped Question
 
-## Nutrition in Plants
+**Question.** A child shows swollen gums that bleed when brushed, slow wound healing, and aching joints. Which deficiency is most likely, and which food group will correct it fastest?
 
-### Autotrophic Nutrition
+#### Working.
+1. Match the three signs against the deficiency table: bleeding gums + slow healing = vitamin C deficiency, disease name scurvy.
+2. Recall the source food group for vitamin C: citrus fruits (lemon, orange, amla), guava, tomato, raw green vegetables.
+3. Rule out vitamin A (would cause night blindness, not gum bleeding), vitamin D (would soften bones, not gums), iron (would cause tiredness and pale skin).
+4. Recommend amla juice or lemon water daily, plus a serving of guava.
 
-- Plants produce their own food via photosynthesis
-- Raw materials: CO₂ (from air), H₂O (from soil), sunlight
-- Site: Leaves (broad, thin, green — maximum surface area for light absorption)
+> ⚠️ **Examiner Trap:** Many options list "vitamin D" because students memorise "vitamin = bone". Scurvy is the vitamin C disease, rickets is the vitamin D disease. The trap wording often swaps these to test whether the student actually read the symptoms, not the disease name.
 
-### Heterotrophic Plants
+### 🔴 Extended — Deep Study (3mo+)
 
-Some plants cannot produce their own food:
-- **Insectivorous plants**: Pitcher plant, Venus flytrap — digest insects to get nitrogen
-- **Parasitic plants**: Cuscuta (dodder) — has no chlorophyll, absorbs food from host plant
-- **Saprophytic plants**: Indian pipe (Monotropa) — grows on decaying matter
+> Extended tier pushes past textbook recall into the boundary conditions CTET Paper-II sometimes touches.
 
-### Mineral Nutrition in Plants
+#### Edge Cases Worth Knowing
 
-Plants need macronutrients (required in larger quantities):
-- **N**: Chlorophyll synthesis, leaf growth
-- **P**: Root development, flowering
-- **K**: Water regulation, disease resistance
-- **Ca**: Cell wall formation
-- **Mg**: Central atom in chlorophyll
-- **S**: Protein synthesis
+- **Chemosynthesis** — bacteria at hydrothermal vents oxidise H₂S or Fe²⁺ to fix CO₂; no sunlight required. Useful when MCQs offer "which organism does NOT need sunlight".
+- **Symbiosis sub-types** — mutualism (both benefit, e.g. lichen), parasitism (one harms host, e.g. Cuscuta), commensalism (one benefits, other unaffected, e.g. barnacles on whale).
+- **Rumination** — cows regurgitate cud to re-chew; this is not vomiting but extra mechanical digestion, an exception that surprises students.
+- **Insectivores are still carnivores** — the frog example in the NCERT chapter shows the tongue-Insect catch as a special case of carnivory, not a separate category.
 
-And micronutrients (required in small quantities): Iron (chlorophyll synthesis), Manganese, Zinc, Boron, Copper, Chlorine, Molybdenum.
+#### Boundary Conditions on Energy Math
 
-**Fertilizers**: NPK fertilizers are the most common — Nitrogen (N), Phosphorus (P), Potassium (K). Urea, DAP (Diammonium phosphate), Potash are commonly used.
+The 4-4-9 kcal/g rule is a bomb calorimeter average. Real digestion of protein yields closer to 4 kcal/g usable, but the Atwater factors used by nutritionists are 4-4-9 by convention. CTET accepts 4-4-9. For BMI:
 
-## CTET Exam Focus
+**BMI = mass (kg) / [height (m)]²**, with mass in kg (dim M), height in m (dim L), so BMI has dimension M L⁻². WHO cuts: underweight < 18.5, normal 18.5–24.9, overweight ≥ 25. These exact thresholds must be verified from the current WHO Adult BMI Classification before use in any answer key.
 
-- Photosynthesis: Overall equation, light reaction (photolysis), Calvin cycle (dark reaction)
-- Chlorophyll: Role, structure (porphyrin head + phytol tail)
-- Human digestive system: Mouth → esophagus → stomach → small intestine → large intestine
-- Bile: Emulsification of fats, not digestion
-- Pancreatic enzymes: Trypsin, amylase, lipase
-- Intestinal enzymes: Maltase, sucrase, lactase
-- Deficiency diseases: Night blindness (Vit A), Rickets (Vit D), Scurvy (Vit C), Anaemia (Iron), Goiter (Iodine)
-- Insectivorous plants: Pitcher plant, Venus flytrap
-- NPK fertilizers: Main macronutrients for plants
+#### Connections to Adjacent CTET Topics
 
----
+- Ties into **Respiration** (oxygen produced in photosynthesis is used in cellular respiration).
+- Ties into **Excretion** (egestion of undigested food is not the same as excretion of metabolic wastes such as urea).
+- Ties into **Components of Food** (Class VI) — same nutrient classes, just earlier presentation.
+- Ties into **Plant Kingdom basics** (autotroph vs heterotroph distinction recurs in Class VIII diversity chapters).
+
+#### Common Mistakes and Traps
+
+1. Writing photosynthesis without chlorophyll or sunlight — both are mandatory in the word equation for full marks.
+2. Saying digestion starts in the stomach — it starts in the mouth.
+3. Treating egestion as excretion — egestion is undigested food leaving the anus; excretion is urea, CO₂, sweat leaving via kidneys, lungs, skin.
+4. Calling vitamins "energy-giving" — they are protective and regulatory, never caloric.
+5. Confusing parasite (Cuscuta, tapeworm — live host) with saprophyte (Rhizopus, Mucor — dead matter). CTET loves this one-mark distinction.
+6. Mixing up beri-beri (B₁), pellagra (B₃), pernicious anaemia (B₁₂) — examiners test the specific B-vitamin number.
+
+#### Two Advanced Practice Prompts
+
+1. A pond water sample shows green organisms that release oxygen bubbles only in sunlight, never in shade. Classify their nutrition mode, name the cell organelle responsible, and explain why the bubbles stop at night.
+2. A factory worker (60 kg, moderate activity) needs a daily energy quota. Calculate his BMR, then apply Activity Factor 1.7 to get DER, and convert the answer to joules using 1 kcal = 4184 J. Discuss how pregnancy or heavy labour would shift the figure.
+
+## Continue Your Study
+
+- **[View this topic in your CTET roadmap](/roadmap/?exam=ctet&duration=1mo)** — see where "Nutrition in Plants and Animals" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ctet&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[CTET exam overview](/exams/ctet/)** — pattern, eligibility, and syllabus
+- **[All Science notes](/notes/ctet/science/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

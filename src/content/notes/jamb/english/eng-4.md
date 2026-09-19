@@ -11,149 +11,128 @@ topicName: "Grammar: Parts of Speech"
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.701885"
-lastUpdated: 2026-03-24
+lastUpdated: "2026-09-18"
 diagramPrompt: "Educational diagram illustrating Grammar: Parts of Speech with clear labels, white background, exam-style illustration"
 
 
 
 
 ---
-# "Grammar: Parts of Speech"
+
+# Grammar: Parts of Speech
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+> Eight word classes, one question per underlined word, four marks per correct answer.
 
-**Grammar: Parts of Speech** — Quick Facts
-8 parts of speech: noun, pronoun, adjective, verb, adverb, preposition, conjunction, interjection
-Noun types: proper (names), common (general), collective (group), abstract (ideas), countable vs uncountable
-Pronoun types: personal (I, you, he), possessive (my, your), reflexive (myself), demonstrative (this, that), relative (who, which), indefinite (someone, nobody)
-Verb types: transitive (needs object), intransitive (no object), linking (connects subject to complement), auxiliary/helping (is, have, can)
-⚡ Exam tip: "It is I" is formally correct (pronoun after linking verb); "It's me" is acceptable in informal English
+Every English word slots into one of **eight parts of speech**, and JAMB rewards candidates who can name that slot in under thirty seconds. The classification rests on **syntactic function** (what the word does in the sentence) and **morphological behaviour** (how it inflects), not on meaning alone. Watch for words that shift class: *fast* is an adjective in *a fast car* and an adverb in *he runs fast*.
+
+| # | Part of speech | Core job | One-line test |
+|---|---|---|---|
+| 1 | **Noun** | Names a person, place, thing, idea | Subject or object slot? |
+| 2 | **Pronoun** | Stands in for a noun | Replaces a noun already named? |
+| 3 | **Verb** | Action or state | Accepts *-s*, *-ed*, or *be*? |
+| 4 | **Adjective** | Modifies a noun | Sits between article and noun? |
+| 5 | **Adverb** | Modifies verb, adj, another adv | Answers how, when, where? |
+| 6 | **Preposition** | Relates noun to other words | Takes a noun object after it? |
+| 7 | **Conjunction** | Joins units | Connects two equal or unequal parts? |
+| 8 | **Interjection** | Spontaneous emotion | Stand-alone, ends with ! |
+
+> 💡 **High-Yield Memory Hook — "Naga Pikin Verily Admits Pepper, Conjoins Interjections":** Noun, Pronoun, Verb, Adjective, Adverb, Preposition, Conjunction, Interjection. Recite it before each Use of English paper.
+
+JAMB Questions 1–60 routinely underline one word and ask *“the underlined word is a/an ___”*. The Lite pass above is enough to answer those.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+> Mapping morphology to function is the skill that separates 60 from 80 in Use of English.
 
-**Grammar: Parts of Speech** — JAMB English Study Guide
+#### The eight categories in operation
 
-**Nouns — detailed classification:**
-- Proper nouns: names of specific places, people, days — always capitalised (Lagos, Monday, Nigeria)
-- Common nouns: general terms (city, student, country)
-- Collective nouns: group names (team, jury, flock, swarm)
-- Abstract nouns: intangible concepts (happiness, freedom, democracy)
-- Countable nouns: can be counted (apple → apples)
-- Uncountable nouns: cannot be counted (water, information, advice) — use singular verb
+**Nouns** carry five sub-types examiners love to test:
 
-**Adjectives — types and order:**
-1. Determiner (a, the, my, three)
-2. Opinion/observation (beautiful, expensive)
-3. Size (big, small, tall)
-4. Shape (round, square)
-5. Age (old, young)
-6. Colour (red, blue)
-7. Origin (Nigerian, French)
-8. Material (wooden, cotton)
-Example: "a beautiful small round old brown wooden box"
+- *Common*: dog, chair, student.
+- *Proper*: Lagos, JAMB, Adebayo — capitalised.
+- *Collective*: team, jury, flock.
+- *Material*: gold, water, cotton.
+- *Abstract*: freedom, joy, honesty.
 
-**Adverbs — types:**
-- Manner: how (slowly, carefully)
-- Time: when (yesterday, now)
-- Place: where (here, abroad)
-- Frequency: how often (always, never)
-- Degree: how much (very, extremely)
-- Reason: why (therefore, consequently)
+**Pronouns** split into six families:
 
-**Prepositions — common ones and their uses:**
-- Position: in (container), on (surface), at (point)
-- Direction: to, from, toward
-- Time: at (9 o'clock), in (the morning, June), on (Monday)
-- Origin: from (made in Nigeria)
-⚡ Exam tip: Some verbs take fixed prepositions (dream OF something, listen TO something, consist OF something) — memorise these.
+1. *Personal*: I, you, he, she, it, we, they.
+2. *Possessive*: my, your, his, her, its, our, their.
+3. *Reflexive*: myself, yourself, himself.
+4. *Relative*: who, whom, whose, which, that.
+5. *Demonstrative*: this, that, these, those.
+6. *Indefinite*: anyone, somebody, each, few.
+
+**Verbs** divide by job: *transitive* takes a direct object (*She wrote a letter*), *intransitive* does not (*He slept*), and *linking* joins subject to a complement (*She is a doctor*). Three principal parts — **base, past, past participle** — drive tense and aspect questions.
+
+#### Degrees and the FANBOYS trap
+
+**Adjectives and adverbs** share three degrees: *positive* (tall), *comparative* (taller), *superlative* (tallest). One-syllable words take **-er/-est**; multi-syllable words use **more/most**. Conjunctions memorise through **FANBOYS**: *for, and, nor, but, or, yet, so* are coordinating; *because, although, when, if, since* are subordinating and demand a main clause on the other side.
+
+#### Comparison matrix — the high-confusion pairs
+
+| Confused pair | Quick differentiator | Wrong form vs right form |
+|---|---|---|
+| Adjective vs Adverb | Adj modifies nouns; adv modifies verbs/adjectives | *She sings good* → *She sings well* |
+| Gerund vs Present participle | Gerund = noun in -ing; participle = adjective in -ing | *Swimming is fun* (gerund) vs *The swimming boy* (participle) |
+| Fewer vs Less | Fewer = countable nouns; Less = uncountable | *Fewer items* ✓ vs *Less water* ✓ |
+| That as pronoun vs conjunction | Pronoun = noun slot; conjunction = introduces clause | *That is mine* (pronoun) vs *I know that he left* (conjunction) |
+| Coordinating vs Subordinating | Coordinating = equal units; subordinating = dependent clause | *He came but he left* (coord.) vs *He left because he was tired* (sub.) |
+
+#### Worked problem (the style JAMB uses)
+
+Consider this item from past Use of English papers:
+
+> *“The committee decided that the meeting would hold __________.”*
+> (a) anywhere (b) everywhere (c) somewhere (d) nowhere
+
+Step one — identify the slot. The blank sits after the intransitive verb *hold* and ends the sentence, so it functions as an **adverb of place**. Step two — read the meaning. The committee did not pick a specific venue, so the adverb must express an unspecified positive location, ruling out *nowhere* and *everywhere*. Step three — select the adverb of place that signals an open, unrestricted choice: **anywhere**. Answer: (a).
+
+> ⚠️ **Examiner Trap:** *Anywhere, everywhere, somewhere, nowhere* are all adverbs of place; students who skim often pick *everywhere* assuming “committee” implies a wide net. The verb *decided* restricts the meaning to a single chosen spot, not all spots.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
+> Edge cases decide the difference between a strong pass and a top-tier score.
 
-**Grammar: Parts of Speech** — Comprehensive Notes
+#### Words that change class across one sentence
 
-**Verb tenses — comprehensive review:**
+English permits **conversion** without inflection. *Fast* (adjective) becomes *fast* (adverb); *to book* (verb) becomes *a book* (noun); *down* (preposition, adverb, or adjective in *the down escalator*). When JAMB underlines such a word, decide from position: if it modifies a noun and sits before it, treat it as an adjective; if it answers *how/where/when* next to a verb, treat it as an adverb.
 
-| Tense | Simple | Continuous | Perfect | Perfect Continuous |
-|-------|--------|------------|---------|-------------------|
-| Present | works | is working | has worked | has been working |
-| Past | worked | was working | had worked | had been working |
-| Future | will work | will be working | will have worked | will have been working |
+#### Pronoun case after prepositions
 
-Uses:
-- Present simple: habits, facts, state, instructions
-- Present continuous: happening now, temporary situations, future arrangements
-- Present perfect: completed action with present relevance, experience, unfinished time
-- Present perfect continuous: action started in past, continuing to now, emphasising duration
+After any preposition, English demands the **objective case**: *between you and me*, *for him and her*, *to us*. Subjective forms (*I, he, she, we, they*) only belong in subject slot. The error *between you and I* has spread through informal speech; JAMB flags it.
 
-**Modal verbs:**
-Can, could (ability, past possibility); may, might (possibility); will, would (future, polite); shall, should (obligation, suggestion); must, have to (obligation).
+#### Double comparison and double negative
 
-**Differentiating similar words:**
-- to, too, two: "to" (prep), "too" (also/excessive), "two" (number)
-- their, there, they're: "their" (possessive), "there" (place), "they're" (they are)
-- affect, effect: "affect" (verb = influence; noun = feeling), "effect" (noun = result; verb = bring about)
-- sit, set: "sit" (intransitive — you sit), "set" (transitive — you set the table)
-- lie, lay: "lie" (intransitive — lay has lain), "lay" (transitive — lay has laid)
-- who, whom: "who" (subject), "whom" (object) — test: try replacing with he/him; if him fits, use whom
+Two structural errors repeat in Options:
 
-**Gerunds vs Infinitives:**
-Gerund (verb + -ing): "I enjoy reading" (the -ing form acts as noun)
-Infinitive (to + verb): "I want to read"
-Verbs followed by gerund: enjoy, mind, suggest, finish, avoid, keep, appreciate
-Verbs followed by infinitive: want, decide, hope, promise, refuse
-Verbs followed by either (same meaning): like, love, prefer, hate, begin, start
-Verbs followed by either (different meaning): remember/forget (gerund = past experience, infinitive = future obligation), stop (gerund = cessation, infinitive = purpose)
+- *More better* or *most best* — pick one degree marker per adjective.
+- *I don't know nothing* — in standard English, one negative per clause.
 
-**JAMB exam patterns:**
-- 2023 JAMB: Choose the correct option: "He has lived in Lagos ____ 2015"
-- 2022 JAMB: Identify the adjective in the sentence: "The exhausted runner collapsed"
-- 2021 JAMB: Select the correct pronoun: "Between you and ___"
-- 2020 JAMB: Which word is a collective noun?
+#### Advanced practice prompts
 
----
+1. *“Each of the boys __________ (has/have) submitted his assignment.”* Decide whether *each* takes singular or plural agreement and justify using pronoun rules.
+2. *“She is taller than __________.”* Fill the gap with the correct pronoun case (*me, I, myself*) and state the rule that eliminates the other two.
 
+#### Reference checklist for the final revision pass
 
----
-## 📊 JAMB Exam Essentials
-
-| Detail | Value |
+| Traps and exceptions | What to remember in the hall |
 |---|---|
-| Questions | 180 MCQs (UTME) |
-| Subjects | 4 subjects (language + 3 for course) |
-| Time | 2 hours |
-| Marking | +1 per correct answer |
-| Score | 400 max (used for university admission) |
-| Registration | January – February each year |
+| Adjective used as adverb (informal) | Standard English prefers *-ly* for adverbs of manner |
+| Participial vs gerund noun | Swap test: replace *-ing* word with *it* (pronoun → participle) or *something* (gerund) |
+| *Because* vs *so* | *Because* introduces cause clause; *so* introduces result clause |
+| *That* with three roles | Demonstrative pronoun / relative pronoun / subordinating conjunction — read the surrounding clause |
+| Preposition + gerund (no *to*-infinitive) | *Insist on working*, not *insist to work* |
+| Collective noun verb agreement | British English permits plural verb with collective; JAMB prefers singular |
 
-### 🎯 High-Yield Topics for JAMB
-- Use of English (Grammar + Comprehension) — 60 marks
-- Biology for Science students — 40 marks
-- Chemistry (Organic + Physical) — 40 marks
-- Physics (Mechanics + Optics) — 35 marks
-- Mathematics (Algebra + Geometry) — 40 marks
+#### Continue your study
 
-### 📝 Previous Year Question Patterns
-- Q: "The process of photosynthesis requires..." [2024 Biology]
-- Q: "The electronic configuration of Fe is..." [2024 Chemistry]
-- Q: "Find the value of x if 2x + 5 = 15..." [2024 Mathematics]
+- **[View this topic in your JAMB UTME roadmap](/roadmap/?exam=jamb&duration=1mo)** — see where "Grammar: Parts of Speech" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=jamb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[JAMB UTME exam overview](/exams/jamb/)** — pattern, eligibility, and syllabus
+- **[All English Language notes](/notes/jamb/english/)** — browse sibling topics in this subject
 
-### 💡 Pro Tips
-- Use of English carries the most weight — master grammar rules and comprehension strategies
-- JAMB syllabus is your Bible — questions come directly from it. Download and use it.
-- Past questions are highly predictive — repeat patterns appear every year
-- For Science students, Biology and Chemistry are high-scoring if you study NCERT-level content
-
-### 🔗 Official Resources
-- [JAMB Official](https://www.jamb.gov.ng/)
-- [JAMB Syllabus](https://www.jamb.gov.ng/syllabus)
-
----
-
-*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

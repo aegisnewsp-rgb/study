@@ -155,7 +155,23 @@ const tlp: Subject = {
 };
 
 const subjects: Subject[] = [
-  jigl, clp, sbill, cafm, cmsl, ecipl, tlp,
+  // ICSI New Syllabus 2022 splits these 7 papers into two groups. That split was
+  // previously PROSE-ONLY inside `examPattern`, so the page rendered 7 flat
+  // subjects and the literal string "Group 1" appeared once in 296KB — while
+  // Search Console (28d) showed us ranking #1-2 for "cs executive group 1
+  // subjects" (137 imp, 0.73% CTR, pos 1.2), "cs executive subjects group 1"
+  // (37 imp, 0%, pos 1.3), "cs executive module 2 subjects new syllabus"
+  // (33 imp, 0%, pos 1.0) and "cs executive group 1 and 2 subjects"
+  // (19 imp, 0%, pos 1.5). Ranking first and earning nothing is a mismatch
+  // between the query and what the page says, not a ranking problem.
+  // Grouping membership per ICSI New Syllabus 2022.
+  { ...jigl, group: 'Group 1' },
+  { ...clp, group: 'Group 1' },
+  { ...sbill, group: 'Group 1' },
+  { ...cafm, group: 'Group 1' },
+  { ...cmsl, group: 'Group 2' },
+  { ...ecipl, group: 'Group 2' },
+  { ...tlp, group: 'Group 2' },
 ];
 
 const exam: ExamTemplate = {

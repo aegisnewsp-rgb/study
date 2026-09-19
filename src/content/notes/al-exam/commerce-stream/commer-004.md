@@ -8,517 +8,138 @@ topicName: Business Statistics and Data Analysis
 weight: 3
 country: srilanka
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-18"
 ---
 
 # Business Statistics and Data Analysis
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+> One fact, one formula, one trap — everything a Commerce student needs when revising this chapter the night before the paper.
 
-**Business Statistics and Data Analysis** — Key Facts for Sri Lanka A/L Examination
+Business Statistics turns raw accounting and commercial numbers into decisions. Three families dominate the A/L paper: **central tendency, dispersion, and index numbers**. Memorise the grouped median formula — the median class is the one whose cumulative frequency first exceeds N/2, and L is the **lower class boundary**, not the lower limit.
 
-**Descriptive Statistics**:
-- **Mean**: Average (sum of values ÷ number of values)
-- **Median**: Middle value when data is arranged in order
-- **Mode**: Most frequently occurring value
-- **Range**: Maximum - Minimum
+| Quantity | Formula (key variables) | Unit |
+|---|---|---|
+| Arithmetic mean (grouped) | Σfᵢxᵢ / Σfᵢ, fᵢ = frequency, xᵢ = midpoint | same as x |
+| Median (grouped) | L + [(N/2 − F)/f] × h | same as x |
+| Standard deviation | s = √[Σfᵢ(xᵢ − x̄)²/(n−1)] | same as x |
+| Laspeyres index | (Σp₁q₀ / Σp₀q₀) × 100 | unitless % |
 
-**Measures of Dispersion**:
-- **Variance**: Average of squared deviations from mean
-- **Standard Deviation**: √variance (most useful)
-- **Range**: Max - Min
-
-**Key Formulas**:
-```
-Mean (x̄) = Σx / n
-Variance (σ²) = Σ(x - x̄)² / n
-Standard Deviation (σ) = √[Σ(x - x̄)² / n]
-```
-
-⚡ **A/L Exam Tip**: Standard deviation is in the same units as data — use this to compare values within the same dataset!
+- **Memory Hook:** "**L**aspeyres uses **L**ast (base) quantities" — Laspeyres locks the q₀ basket, Paasche uses the current q₁ basket.
+- **Memory Hook:** "Mode = 3 Median − 2 Mean" works for moderate skew only; it fails badly when the distribution is bimodal.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+> Built for the two-week revision window — mechanisms, worked numbers, and the comparison matrix that catches 80% of careless mistakes.
 
-**Business Statistics and Data Analysis** — Detailed Study Guide
+#### Central tendency and when to use each
 
-#### Data Types and Collection
+The arithmetic mean is the workhorse but it is **pulled by outliers**. Median is robust; geometric mean handles ratios and percentage changes (CAGR-style growth rates); harmonic mean suits averaging speeds or rates where the denominator carries the meaning. Use median or geometric mean for skewed commercial data such as salaries, sales growth or interest rates.
 
-**Types of Data**:
+| Measure | Best for | Weakness |
+|---|---|---|
+| Arithmetic mean | Symmetric data, additive quantities | Distorted by extremes |
+| Median | Skewed data, ordinal data | Ignores magnitude of values |
+| Mode | Categorical data, "most popular" | May not exist or be unique |
+| Geometric mean | Ratios, growth rates, index relatives | Zero or negative inputs break it |
+| Harmonic mean | Rates with equal time/distance | Same fragility as geometric |
 
-| Type | Description | Examples | Analysis |
-|------|-------------|----------|----------|
-| Primary | Collected firsthand | Surveys, experiments | More control, specific to needs |
-| Secondary | Already collected by others | Census data, company reports | Faster, cheaper |
-| Quantitative | Numerical | Revenue, number of employees | Statistical analysis |
-| Qualitative | Descriptive, non-numerical | Customer feedback, product types | Coding and categorisation |
+#### Dispersion and relative comparison
 
-**Data Collection Methods**:
+Range is quick but crude; mean deviation uses absolute deviations; standard deviation is squared deviations averaged — it has the same unit as x, so variance (s²) does not. The **coefficient of variation CV = (s/x̄)×100%** is dimensionless and lets a manager compare variability of, say, monthly revenue (rupees) against variability of unit sales (pieces).
 
-**Survey Methods**:
-| Method | Description | Pros | Cons |
-|--------|-------------|------|------|
-| Questionnaire | Written questions | Low cost, large samples | Low response |
-| Interview | Oral questioning | Deep data, high response | Expensive, slow |
-| Telephone survey | Phone-based | Moderate cost | Declining response |
-| Online survey | Digital distribution | Fast, cheap | Sample bias |
+> 📌 **Formula Check:** Pearson's coefficient of skewness = 3(Mean − Median)/s. A positive value means a right tail (mean > median > mode).
 
-**Sampling Techniques**:
+#### Index numbers — choose the right base
 
-**Probability Sampling** (random selection):
-| Method | Description | When to Use |
-|--------|-------------|-------------|
-| Simple random | Every member has equal chance | No pre-existing groups |
-| Systematic | Every kth member | Large populations |
-| Stratified | Random sample from each stratum | Known subgroups |
-| Cluster | Random clusters, all in cluster | Geographic dispersed |
+| Index | Weights used | Bias | Best use |
+|---|---|---|---|
+| Laspeyres | Base-year quantities q₀ | Tends to overstate inflation | Long retail price series |
+| Paasche | Current-year quantities q₁ | Tends to understate inflation | GDP-style deflators |
+| Fisher's Ideal | Geometric mean of L and P | No known bias | Most balanced academic choice |
 
-**Non-Probability Sampling**:
-| Method | Description | Limitation |
-|--------|-------------|------------|
-| Convenience | Readily available | Sample bias |
-| Quota | Meet quotas for characteristics | Non-random |
-| Purposive | Selected for specific criteria | Researcher judgment |
+Fisher's index satisfies the time-reversal and factor-reversal tests; Laspeyres fails the factor-reversal test because price × quantity does not equal value index.
 
-**Sri Lankan Data Sources**:
-- Department of Census and Statistics
-- Central Bank of Sri Lanka
-- Sri Lanka Customs
-- Line Ministry publications
-- World Bank, ADB databases
+#### A complete problem — solved end-to-end
 
-#### Frequency Distributions
+A small shop records weekly sales (Rs. '000): 12, 15, 14, 18, 16, 20, 22 for seven consecutive weeks.
 
-**Constructing Frequency Distributions**:
+**Step 1 — mean.** Σx = 117, n = 7, so x̄ = 117/7 = **16.714** (Rs. '000).
 
-**Step 1: Decide on number of classes**:
-- Generally 5-15 classes
-- Too few = lose detail
-- Too many = messy
+**Step 2 — sample standard deviation.** Deviations: −4.714, −1.714, −2.714, 1.286, −0.714, 3.286, 5.286. Squared: 22.222, 2.939, 7.367, 1.653, 0.510, 10.796, 27.939. Σ(xᵢ − x̄)² = 73.426. s = √(73.426/6) = √12.238 = **3.498**.
 
-**Step 2: Calculate class width**:
-```
-Class Width = (Max value - Min value) / Number of classes
-```
+**Step 3 — coefficient of variation.** CV = 3.498/16.714 × 100 = **20.93%**.
 
-**Step 3: Determine class boundaries**:
-- Lower limit = minimum value
-- Upper limit = lower limit + class width
-- Avoid overlapping
+**Step 4 — Pearson's skewness.** Median of seven sorted values is the 4th item = 16. Sk = 3(16.714 − 16)/3.498 = 3(0.714)/3.498 = **0.612** — mild positive skew, consistent with the right tail driven by the Rs. 22 000 week.
 
-**Step 4: Tally and count**:
-- Tally each data point into appropriate class
-- Count tallies for frequency
+> ⚠️ **Examiner Trap:** Students regularly divide by n = 7 instead of (n−1) = 6 when computing the sample standard deviation. With n = 7 the answer becomes √10.489 = 3.239, which is **wrong** for an A/L question that asks for the *sample* s. Read the verb — "estimate", "sample", "from the data" ⇒ (n−1); "population", "given σ" ⇒ n.
 
-**Example - Monthly Sales (in thousands Rs.)**:
-| Class | Tally | Frequency |
-|-------|-------|-----------|
-| 50-60 | IIII | 4 |
-| 60-70 | IIII IIII | 10 |
-| 70-80 | IIII IIII IIII | 15 |
-| 80-90 | IIII III | 8 |
-| 90-100 | IIII | 4 |
-| **Total** | | **41** |
+#### Correlation and regression in one breath
 
-**Relative Frequency**:
-```
-Relative Frequency = Class Frequency / Total Frequency
-```
+Pearson's r is **dimensionless** and bounded in [−1, 1]; regression slope b carries the units of y divided by the units of x. They share Σx, Σy, Σxy but r uses Σx² and Σy² symmetrically while b uses only x's sums in the denominator.
 
-**Cumulative Frequency**:
-| Class | Frequency | Cumulative Frequency |
-|-------|-----------|----------------------|
-| 50-60 | 4 | 4 |
-| 60-70 | 10 | 14 |
-| 70-80 | 15 | 29 |
-| 80-90 | 8 | 37 |
-| 90-100 | 4 | 41 |
+| Statistic | Range | Units | Tests |
+|---|---|---|---|
+| r | −1 ≤ r ≤ 1 | none | Linear association strength |
+| b | any real | y per x | Expected change in y per unit x |
+| ρ (Spearman) | −1 ≤ ρ ≤ 1 | none | Monotonic association on ranks |
 
-**Graphical Presentation**:
-- **Histogram**: Bar graph of frequency distribution (no gaps)
-- **Frequency polygon**: Line graph connecting midpoints
-- **Ogive**: Cumulative frequency line graph
-- **Pie chart**: Proportional representation
-- **Bar chart**: Comparing categories
+#### Probability essentials
 
-#### Measures of Central Tendency
+P(A∪B) = P(A) + P(B) − P(A∩B); P(A∩B) = P(A)·P(B|A). Bayes' theorem flips a conditional: P(Aᵢ|B) = P(B|Aᵢ)P(Aᵢ) / Σⱼ P(B|Aⱼ)P(Aⱼ). For a fair coin tossed thrice, P(exactly two heads) = C(3,2)(0.5)²(0.5)¹ = **0.375** — a routine A/L numerical.
 
-**The Mean (Average)**:
-
-**Simple Mean**:
-```
-x̄ = (Σx) / n
-where Σx = sum of all values
-      n = number of values
-```
-
-**Weighted Mean**:
-```
-x̄w = (Σwx) / (Σw)
-where w = weights
-      x = values
-```
-
-**Example - Weighted Average Cost**:
-| Item | Cost (Rs.) | Quantity | Total |
-|------|-----------|----------|-------|
-| Item A | 100 | 20 | 2,000 |
-| Item B | 150 | 30 | 4,500 |
-| Item C | 200 | 50 | 10,000 |
-| **Total** | | **100** | **16,500** |
-
-Weighted Mean = 16,500 / 100 = Rs. 165
-
-**The Median**:
-- Middle value when data arranged in order
-- For odd n: Middle value
-- For even n: Average of two middle values
-
-**Example**:
-- Data: 10, 15, 20, 25, 30
-- Median = 20 (middle of 5 values)
-
-**Example with even n**:
-- Data: 10, 15, 20, 25
-- Median = (15 + 20) / 2 = 17.5
-
-**The Mode**:
-- Most frequently occurring value
-- Can have no mode, one mode, or multiple modes
-- Useful for categorical data
-
-**Comparing Measures**:
-
-| Measure | Best For | Limitation |
-|---------|----------|------------|
-| Mean | Interval/ratio data, symmetry | Sensitive to extreme values |
-| Median | Ordinal data, skewed distributions | Ignores magnitude of values |
-| Mode | Modal category, most common item | May not exist or have multiple |
-
-**Skewness**:
-- **Symmetric**: Mean ≈ Median ≈ Mode
-- **Positively skewed (right)**: Mean > Median > Mode
-- **Negatively skewed (left)**: Mean < Median < Mode
-
-#### Measures of Dispersion
-
-**Why Dispersion Matters**:
-- Two datasets can have same mean but different spreads
-- Mean profit: Rs. 1,00,000
-  - Dataset 1: 90,000; 100,000; 110,000 (consistent)
-  - Dataset 2: 0; 100,000; 200,000 (risky)
-
-**Range**:
-```
-Range = Maximum value - Minimum value
-```
-
-**Variance and Standard Deviation**:
-
-**Population Variance**:
-```
-σ² = Σ(x - x̄)² / n
-```
-
-**Sample Variance**:
-```
-s² = Σ(x - x̄)² / (n - 1)
-```
-
-**Standard Deviation**:
-```
-σ = √[Σ(x - x̄)² / n]  (population)
-s = √[Σ(x - x̄)² / (n - 1)]  (sample)
-```
-
-**Coefficient of Variation**:
-```
-CV = (Standard Deviation / Mean) × 100%
-```
-
-- Allows comparison of variability between datasets
-- Useful for comparing different scales
-- Example: CV = 5% vs CV = 15% → first more consistent
-
-**Standard Deviation Calculation Step by Step**:
-
-Data: 10, 20, 30, 40, 50
-1. Calculate mean: (10+20+30+40+50)/5 = 150/5 = 30
-2. Calculate deviations: -20, -10, 0, 10, 20
-3. Square deviations: 400, 100, 0, 100, 400
-4. Sum of squares: 1000
-5. Variance: 1000/5 = 200
-6. Standard deviation: √200 = 14.14
+> 💡 **High-Yield Revision Hook:** "**S**ample uses **n−1**; **P**opulation uses **n**." Two letters, one decision, four marks saved.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
+> Edge cases, derivations the textbook glosses over, and the boundary behaviour that distinguishes a confident A/B from a C.
 
-**Business Statistics and Data Analysis** — Complete Notes for A/L Sri Lanka
+#### Why (n−1) and not n — Bessel's correction in plain words
 
-#### Correlation and Regression
+The sample mean x̄ sits closer to the data than the population mean μ does, so (xᵢ − x̄)² systematically understates (xᵢ − μ)². Dividing by (n−1) instead of n compensates; with n ≥ 30 the difference is negligible, but A/L questions on small samples (n ≤ 15) will mark you down for choosing n. The same logic applies to sample variance in the t-test: s = √[Σ(xᵢ − x̄)²/(n−1)] feeds the standard error s/√n.
 
-**Correlation Analysis**:
-- Measures relationship between two variables
-- Does NOT imply causation
+#### Empirical rule only works for bell-shaped data
 
-**Scatter Diagram**:
-- Plot one variable on x-axis, other on y-axis
-- Shows direction (positive/negative) and strength of relationship
+The 68-95-99.7 rule assumes an approximately normal distribution. Apply it to skewed revenue data and the answers look plausible but are wrong; always pair the rule with a histogram or a check on skewness. For non-normal data use Chebyshev's inequality — at least 1 − 1/k² of observations lie within k standard deviations of the mean, for **any** distribution.
 
-**Correlation Coefficient (r)**:
-```
-r = [nΣxy - (Σx)(Σy)] / √[(nΣx² - (Σx)²)(nΣy² - (Σy)²)]
-```
+#### Time series — when the moving average fails
 
-**Interpreting r**:
-| Value of r | Interpretation |
-|------------|---------------|
-| +1.0 | Perfect positive correlation |
-| +0.7 to +0.9 | Strong positive |
-| +0.4 to +0.6 | Moderate positive |
-| +0.1 to +0.3 | Weak positive |
-| 0.0 | No correlation |
-| -0.1 to -0.3 | Weak negative |
-| -0.4 to -0.6 | Moderate negative |
-| -0.7 to -0.9 | Strong negative |
-| -1.0 | Perfect negative correlation |
+A **centred** moving average of order m removes the trend-cycle component cleanly only when m equals the period of the seasonal swing. Sri Lankan quarterly retail data has period 4, so a 4-term centred MA works; monthly data with period 12 needs a 12-term two-stage MA (average of two 12-term moving averages) to land the average on a month. Skipping the two-stage step gives a misaligned seasonal index.
 
-**Coefficient of Determination (r²)**:
-- Proportion of variation explained by the relationship
-- r² = 0.64 → 64% of variation explained
-- r² = 0.25 → Only 25% explained
+| Method | Requires | Output | A/L use |
+|---|---|---|---|
+| Simple moving average | Stationary data, no seasonality | Smoothed level | Short-term forecast |
+| Least squares y = a + bx | Numerical x, numeric y | Linear trend | Trend extrapolation |
+| Ratio-to-MA | Strong seasonality | Seasonal index | Quarterly/monthly indices |
+| Multiplicative model | All four components | Y = T·S·C·I | Decomposition essays |
 
-**Regression Analysis**:
+#### Hypothesis testing — picking the right tail
 
-**Linear Regression Line**:
-```
-ŷ = a + bx
-where:
-b = slope = [nΣxy - (Σx)(Σy)] / [nΣx² - (Σx)²]
-a = intercept = ȳ - bx̄
-```
+A two-tailed test of H₀: μ = μ₀ uses critical values ±z_{α/2}; a one-tailed test of H₀: μ ≤ μ₀ uses +z_α only. Mixing them inflates Type I error. Also, use **z when σ is known or n ≥ 30**; switch to the **t-distribution** with (n−1) degrees of freedom whenever σ is unknown and the sample is small.
 
-**Least Squares Principle**:
-- Line that minimises sum of squared vertical distances from points to line
-- "Best fit" line
+#### Common advanced traps
 
-**Using Regression for Prediction**:
-1. Plot scatter diagram
-2. Verify linear relationship
-3. Calculate regression equation
-4. Substitute x value to predict y
+1. Computing CV for data measured in the same units and claiming it "removes" units — CV is unitless but still depends on the mean, so two negative-mean series give counter-intuitive signs.
+2. Applying Fisher's index to a quantity index and expecting it to satisfy the factor-reversal test — it only does so when both price and quantity indices are computed as Fisher's and multiplied.
+3. Confusing σ/√n (standard error of the mean) with σ (standard deviation of individual observations).
+4. Ranking tied observations with the average-rank rule in Spearman's ρ — failing to do so biases ρ toward zero.
+5. Splicing two index series without reweighting at the link period, producing a discontinuity the examiner will mark.
+6. Fitting y = a + bx by least squares but reporting the regression of x on y when the question asks for the regression line of y on x — the slopes are not reciprocals unless r = ±1.
 
-**Example - Sales and Advertising**:
-| Advertising (Rs.'000) | Sales (Rs.'000) |
-|----------------------|----------------|
-| 10 | 50 |
-| 20 | 70 |
-| 30 | 85 |
-| 40 | 100 |
-| 50 | 115 |
+#### Two advanced practice prompts
 
-- Positive correlation expected
-- Predict sales at Rs. 35,000 advertising: approximately Rs. 90,000
+- A retailer records weekly sales for 26 weeks. Compute a 4-week centred moving average, extract the seasonal index for each quarter using the ratio-to-MA method, and forecast week 27.
+- A factory claims mean bulb life = 1 000 hours. A sample of 16 bulbs gives x̄ = 980, s = 40 hours. Test H₀: μ = 1 000 against H₁: μ < 1 000 at α = 0.05 using the t-distribution. State the p-value interpretation in one sentence.
 
-**Assumptions of Regression**:
-- Linear relationship
-- Homoscedasticity (equal variance)
-- Normal distribution of errors
-- Independence of observations
+> 🔬 **Boundary Note:** The arithmetic mean of percentage changes is not the geometric mean. If quarterly growth rates are 5%, −3%, 8%, −2%, their arithmetic mean (2%) overstates the true compound rate (1.93%) — a subtle mis-statement that costs marks in trend and index essays.
 
-#### Index Numbers
+## Continue your study
 
-**What are Index Numbers?**:
-- Measure of change over time relative to base period
-- Base period = 100 (or 1000 for some systems)
-- Subsequent periods show percentage change
+- **[View this topic in your A/L Examination (Sri Lanka) roadmap](/roadmap/?exam=al-exam&duration=1mo)** — see where "Business Statistics and Data Analysis" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=al-exam&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[A/L Examination (Sri Lanka) exam overview](/exams/al-exam/)** — pattern, eligibility, and syllabus
+- **[All Commerce-Stream notes](/notes/al-exam/commerce-stream/)** — browse sibling topics in this subject
 
-**Simple Price Index**:
-```
-Price Index = (Price in current year / Price in base year) × 100
-```
-
-**Simple Price Index Example**:
-- Rice price in 2020: Rs. 90/kg
-- Rice price in 2023: Rs. 250/kg
-- Index = (250 / 90) × 100 = 277.8
-- Price increased 177.8% from base year
-
-**Laspeyres Index** (using base year quantities):
-```
-PLI = (ΣP₁Q₀) / (ΣP₀Q₀) × 100
-where:
-P₁ = current price
-P₀ = base price
-Q₀ = base quantity
-```
-
-**Paasche Index** (using current year quantities):
-```
-PPI = (ΣP₁Q₁) / (ΣP₀Q₁) × 100
-where:
-Q₁ = current quantity
-```
-
-**Fisher's Ideal Index** (geometric mean):
-```
-Fisher = √(Laspeyres × Paasche)
-```
-
-**Consumer Price Index (CPI) in Sri Lanka**:
-- Tracks cost of consumer basket over time
-- Released monthly by Department of Census and Statistics
-- Base period: 2013 = 100
-- Weighted by expenditure shares
-
-**Sri Lanka CPI Categories**:
-- Food and non-alcoholic beverages (~35%)
-- Clothing and footwear (~4%)
-- Housing, water, electricity, gas (~22%)
-- Transport (~12%)
-- Communication (~4%)
-- Other categories (~23%)
-
-**Index Number Applications**:
-| Index | What it Measures | Sri Lankan Source |
-|-------|----------------|-----------------|
-| CPI | Consumer price changes | Census & Statistics Dept |
-| GDP Deflator | All domestic prices | Central Bank |
-| Colombo CPI | Urban consumer prices | Dept of Census |
-| All Item Index | Broad inflation | Central Bank |
-| Producer Price Index | Wholesale prices | Census & Statistics |
-
-**Real vs. Nominal Values**:
-```
-Real Value = Nominal Value / Price Index × 100
-```
-
-**Example**:
-- Nominal wage 2020: Rs. 50,000
-- CPI 2020: 130 (base 2013=100)
-- CPI 2023: 250 (base 2013=100)
-- Real wage in 2023 prices: 50,000 × (250/130) = Rs. 96,154
-
-#### Time Series Analysis
-
-**Components of Time Series**:
-| Component | Description | Example |
-|-----------|-------------|---------|
-| Trend | Long-term movement | GDP growth over decades |
-| Seasonal | Regular pattern within year | Higher rice prices before harvest |
-| Cyclical | Business cycle fluctuations | Expansion and recession |
-| Irregular/Random | Unpredictable | Natural disaster impact |
-
-**Trend Analysis**:
-
-**Moving Averages**:
-- Simple moving average: Average of fixed number of periods
-- 3-year moving average: (Year 1 + Year 2 + Year 3) / 3
-- Smooths out fluctuations to show trend
-
-**Linear Trend** (Least squares):
-```
-T = a + bt
-where:
-t = time period
-b = slope = [nΣtY - (Σt)(ΣY)] / [nΣt² - (Σt)²]
-a = intercept = Ȳ - b*t̄
-```
-
-**Forecasting**:
-- Use trend equation to extrapolate
-- Cautions: Past trends may not continue
-- External factors can change patterns
-
-**Example - Tea Production Trend**:
-| Year | Production (million kg) |
-|------|------------------------|
-| 2019 | 300 |
-| 2020 | 285 |
-| 2021 | 295 |
-| 2022 | 310 |
-| 2023 | 320 |
-
-- Calculating trend: Shows slight upward trend
-- Projecting 2024: Approximately 330 million kg
-
-#### Probability and Business Decisions
-
-**Basic Probability**:
-
-**Classical Probability**:
-```
-P(Event) = Number of favorable outcomes / Total possible outcomes
-```
-
-**Example**: Rolling a 6 on a die = 1/6
-
-**Empirical Probability**:
-- Based on relative frequency
-- P(Event) = Frequency of event / Total frequency
-
-**Subjective Probability**:
-- Personal judgment or expert opinion
-- Used when classical/empirical not possible
-
-**Probability Rules**:
-
-| Rule | Formula | Application |
-|------|---------|-------------|
-| Addition | P(A or B) = P(A) + P(B) - P(A and B) | Mutually exclusive vs. non-exclusive |
-| Multiplication | P(A and B) = P(A) × P(B\|A) | Dependent vs. independent events |
-| Complement | P(not A) = 1 - P(A) | At least one success |
-
-**Expected Value**:
-```
-E(X) = Σ[x × P(x)]
-```
-
-**Business Application - Decision Making**:
-| Outcome | Probability | Profit (Rs.) | Expected Profit |
-|---------|-----------|-------------|----------------|
-| High demand | 0.3 | 500,000 | 150,000 |
-| Medium demand | 0.5 | 200,000 | 100,000 |
-| Low demand | 0.2 | -100,000 | -20,000 |
-| **Expected Value** | | | **230,000** |
-
-**Risk Analysis**:
-- Standard deviation of outcome values
-- Coefficient of variation
-- Higher CV = more risk
-
-#### Business Application: Descriptive Statistics for Business
-
-**Commonly Used Business Statistics in Sri Lanka**:
-
-**Sales Analysis**:
-- Average daily sales
-- Sales growth rate
-- Market share calculation
-- Seasonal variations
-
-**Financial Ratios**:
-- Liquidity ratios (using averages)
-- Profitability (using mean profit margins)
-- Efficiency (using turnover ratios)
-
-**Quality Control**:
-- Mean, standard deviation of product dimensions
-- Control charts using ±3 standard deviations
-
-**Sri Lankan Statistical Resources**:
-- Central Bank Statistical Bulletin
-- Department of Census and Statistics publications
-- Sri Lanka Customs trade data
-- Annual reports of listed companies
-- World Bank Development Indicators
-
-⚡ **A/L Exam Tip**: Statistics questions require practice with numbers. Know your formulas, show your workings, and interpret what your calculations mean in context!
-
----
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

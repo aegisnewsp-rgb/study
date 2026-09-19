@@ -199,7 +199,7 @@ const exam: ExamTemplate = {
   durations,
   rescueMode,
   lastUpdated: '2026-07-28',
-  officialSource: 'https://neet.ntaonline.in',
+  officialSource: 'https://neet.nta.nic.in/',
   calendarDates: {
     notification: 'February',
     applicationStart: 'February',

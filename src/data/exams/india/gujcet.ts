@@ -59,7 +59,7 @@ const exam: ExamTemplate = {
     'Outdated pattern PDFs.'
   ],
   lastUpdated: '2026-07-28',
-  officialSource: 'https://gujcet.gseb.org/',
+  officialSource: 'https://www.gseb.org/',
 };
 
 export default exam;

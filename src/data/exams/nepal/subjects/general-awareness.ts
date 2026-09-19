@@ -1,0 +1,20 @@
+import type { Subject } from '../types';
+
+export const general_awareness: Subject = {
+  id: 'general-awareness', name: 'General Awareness', color: '#10b981',
+  topics: [
+    { id: 'cmat-ga-001', name: 'Nepal - Polity and Constitution', weight: 5 as const, description: 'Constitution of Nepal 2072 features, federal structure, fundamental rights, directive principles, three-tier government, and judiciary roles - the most heavily weighted CMAT GA area.' },
+    { id: 'cmat-ga-002', name: 'Nepal - Current Affairs and National Events', weight: 5 as const, description: 'Recent Nepal political, economic, social, sports, and policy events covered in the six to twelve months before the CMAT exam date - the highest-recurrence area in General Awareness.' },
+    { id: 'cmat-ga-003', name: 'Nepal - History and Shah-Rana Dynasties', weight: 4 as const, description: 'Ancient Lichchhavi and Malla periods, unification by Prithvi Narayan Shah, Rana regime, democratic movements 2007 BS onwards, and modern political milestones in CMAT history sets.' },
+    { id: 'cmat-ga-004', name: 'Nepal - Geography and Environment', weight: 4 as const, description: 'Himalayan, Hilly, and Terai regions, major rivers, national parks, biodiversity hotspots, climate, and conservation issues relevant to Nepal in the CMAT General Awareness syllabus.' },
+    { id: 'cmat-ga-005', name: 'Nepal - Economy and Five-Year Plans', weight: 3 as const, description: 'Agriculture, remittance, hydropower, tourism sectors; planning commission milestones; periodic plans; NRB monetary policy basics; and current budget highlights for CMAT GA economy sets.' },
+    { id: 'cmat-ga-006', name: 'International Current Affairs and Organizations', weight: 4 as const, description: 'UN agencies, SAARC, BIMSTEC, WTO, IMF, World Bank; recent summits, treaties, conflicts, and global indices in news during the CMAT preparation window for General Awareness MCQs.' },
+    { id: 'cmat-ga-007', name: 'World Geography and Environment', weight: 3 as const, description: 'Major continents, rivers, mountains, deserts, climate zones, biodiversity, climate-change agreements, and natural-disaster hotspots tested in the CMAT geography segment.' },
+    { id: 'cmat-ga-008', name: 'World History - Modern and Contemporary', weight: 3 as const, description: 'World Wars, cold war, decolonisation, UN formation, globalisation, and major revolutions and treaties that shape the CMAT history-and-culture General Awareness questions.' },
+    { id: 'cmat-ga-009', name: 'Indian Polity and Economy Reference', weight: 3 as const, description: 'Indian Constitution basics, parliament, planning commission, RBI, GST, and key economic indicators commonly referenced in MBA entrance GA sections that include CMAT.' },
+    { id: 'cmat-ga-010', name: 'Business and Economic Awareness', weight: 3 as const, description: 'Stock exchange basics, fiscal-monetary policy, banking terms, inflation, GDP, balance of payments, and recent economic-news items relevant to CMAT General Awareness.' },
+    { id: 'cmat-ga-011', name: 'Science and Technology GK', weight: 2 as const, description: 'Nobel Prizes, ISRO, NASA, defence tech, space missions, AI and digital initiatives, and basic physics-chemistry-biology news items covered by CMAT General Awareness MCQs.' },
+    { id: 'cmat-ga-012', name: 'Awards, Authors, Books, and Cultural Heritage', weight: 2 as const, description: 'Sahitya Akademi, Nobel, Booker, Magsaysay awards; classical dances of Nepal and India; UNESCO world heritage sites in Nepal; and major literary figures in CMAT cultural GA.' },
+    { id: 'cmat-ga-013', name: 'Sports, Olympics, and Personalities', weight: 1 as const, description: 'Olympics, Asian Games, SAF games, ICC events, FIFA World Cup winners, recent Nepali sportspersons, and sports trophies - the lowest-weight, but recurrent, GA segment in CMAT.' }
+  ]
+};

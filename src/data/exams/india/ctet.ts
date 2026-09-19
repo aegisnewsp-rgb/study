@@ -63,7 +63,7 @@ const exam: ExamTemplate = {
     'Trusting unofficial answer keys over NCERT-aligned pedagogy concepts.'
   ],
   lastUpdated: '2026-07-28',
-  officialSource: 'https://ctet.nic.in',
+  officialSource: 'https://ctet.nic.in/',
 };
 
 export default exam;

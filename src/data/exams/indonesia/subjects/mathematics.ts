@@ -1,17 +1,17 @@
 export const mathematics: Subject = {
   id: 'mathematics', name: 'Mathematics', color: '#8b5cf6',
   topics: [
-    { id: 'mathem-001', name: 'Topic 1', weight: 3 as const },
-    { id: 'mathem-002', name: 'Topic 2', weight: 3 as const },
-    { id: 'mathem-003', name: 'Topic 3', weight: 3 as const },
-    { id: 'mathem-004', name: 'Topic 4', weight: 3 as const },
-    { id: 'mathem-005', name: 'Topic 5', weight: 3 as const },
-    { id: 'mathem-006', name: 'Topic 6', weight: 3 as const },
-    { id: 'mathem-007', name: 'Topic 7', weight: 3 as const },
-    { id: 'mathem-008', name: 'Topic 8', weight: 3 as const },
-    { id: 'mathem-009', name: 'Topic 9', weight: 3 as const },
-    { id: 'mathem-010', name: 'Topic 10', weight: 3 as const },
-    { id: 'mathem-011', name: 'Topic 11', weight: 3 as const },
-    { id: 'mathem-012', name: 'Topic 12', weight: 3 as const }
+    { id: 'mathem-001', name: 'Algebra and Functions (Aljabar dan Fungsi)', weight: 5 as const, description: 'Linear and quadratic equations, inequalities, polynomial and rational functions, and linear-equation graphs (persamaan garis lurus) - the heaviest content domain in UTBK Penalaran Matematika and shared by UNDANA USM.' },
+    { id: 'mathem-002', name: 'Number Representations and Properties (Bilangan)', weight: 3 as const, description: 'Integers, fractions, decimals, divisibility, ordering, and the four arithmetic operations - the Bilangan domain of UTBK Penalaran Matematika and a UNDANA basic-science prerequisite.' },
+    { id: 'mathem-003', name: 'Sets and Number Patterns (Himpunan dan Pola Bilangan)', weight: 3 as const, description: 'Set operations and Venn diagrams, sequences and patterns of integers, and the connection between patterns and algebra - sits in the Bilangan domain per the official SNPMB framework.' },
+    { id: 'mathem-004', name: 'Social Arithmetic, Ratios and Proportions (Aritmetika Sosial, Perbandingan)', weight: 3 as const, description: 'Percentages, profit/loss, simple and compound interest, exchange rates, and direct/inverse proportions - common word-problem context in both UTBK Penalaran Matematika and UNDANA USM.' },
+    { id: 'mathem-005', name: 'Plane Geometry (Bangun Datar)', weight: 4 as const, description: 'Triangles, quadrilaterals, circles, similarity and congruence; angles, perimeter and area - the Bangun Datar component of the SNPMB Pengukuran dan Geometri domain.' },
+    { id: 'mathem-006', name: 'Solid Geometry (Bangun Ruang)', weight: 3 as const, description: 'Prisms, pyramids, cylinders, cones, spheres - volume, surface area and cross-sections of 3D solids, as listed in the Bangun Ruang component of the official SNPMB framework.' },
+    { id: 'mathem-007', name: 'Lines, Angles and Trigonometry (Garis, Sudut dan Trigonometri)', weight: 4 as const, description: 'Parallel lines, angle relations, the six trigonometric ratios, identities and triangle applications - covered under Garis dan Sudut in the SNPMB Pengukuran dan Geometri domain.' },
+    { id: 'mathem-008', name: 'Descriptive Statistics (Statistika Deskriptif)', weight: 4 as const, description: 'Mean, median, mode, range, variance and standard deviation; reading tables and graphs - the Statistika Deskriptif component of Data dan Ketidakpastian in the SNPMB framework.' },
+    { id: 'mathem-009', name: 'Counting, Probability and Combinatorics (Aturan Pencacahan dan Peluang)', weight: 4 as const, description: 'Permutations and combinations, the multiplication and addition principles, and probability of compound events - high-weight topic in UTBK Penalaran Matematika and shared by UNDANA USM.' },
+    { id: 'mathem-010', name: 'Matrices and Systems of Linear Equations (Matriks dan SPL)', weight: 3 as const, description: 'Matrix operations, determinant and inverse, and solving 2x2/3x3 systems - SMA-level content outside the four PM domains; shared by UNDANA USM but not formally in UTBK Penalaran Matematika.' },
+    { id: 'mathem-011', name: 'Vectors (Vektor)', weight: 2 as const, description: 'Vector notation, addition, dot product, projection and components in 2D - SMA-level content outside the four PM domains; shared by UNDANA USM but not formally in UTBK Penalaran Matematika.' },
+    { id: 'mathem-012', name: 'Basic Calculus (Kalkulus Dasar)', weight: 2 as const, description: 'Limits, continuity, the derivative of polynomial functions and basic area-under-curve calculations - SMA-level content outside the four PM domains; shared by UNDANA USM but not formally in UTBK Penalaran Matematika.' }
   ]
 };

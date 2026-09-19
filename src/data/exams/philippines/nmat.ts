@@ -61,7 +61,7 @@ const exam: ExamTemplate = {
     'Using unofficial Facebook cut-offs instead of the current CEM bulletin and school prospectus.',
   ],
   lastUpdated: '2026-07-28',
-  officialSource: 'https://www.cem-inc.org',
+  officialSource: 'https://www.mba.com/exams/nmat',
 };
 
 export default exam;

@@ -55,7 +55,7 @@ const exam: ExamTemplate = {
     'Use 3-4 subjects depending on programme choice, each paper 3 hours duration. Conducted by Ahmadu Bello… only as a memory aid for IJMB (Interim Joint Matriculation Board), then match the live paper on https://abu.edu.ng/ijmb.'
   ],
   lastUpdated: '2026-07-28',
-  officialSource: 'https://abu.edu.ng/ijmb',
+  officialSource: 'https://abu.edu.ng/',
 };
 
 export default exam;

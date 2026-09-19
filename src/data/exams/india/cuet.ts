@@ -206,6 +206,6 @@ const exam: ExamTemplate = {
   durations,
   rescueMode,
   lastUpdated: '2026-07-28',
-  officialSource: 'https://cuet.samarth.ac.in',
+  officialSource: 'https://cuet.nta.nic.in/',
 };
 export default exam;

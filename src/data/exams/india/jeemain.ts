@@ -163,7 +163,7 @@ const exam: ExamTemplate = {
   durations,
   rescueMode,
   lastUpdated: '2026-07-28',
-  officialSource: 'https://jeemain.ntaonline.in',
+  officialSource: 'https://jeemain.nta.nic.in/',
   calendarDates: {
     notification: 'November',
     applicationStart: 'November (Session 1) / February (Session 2)',

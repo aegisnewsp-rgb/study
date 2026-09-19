@@ -16,6 +16,13 @@ pnpm-debug.log*
 # environment variables
 .env
 .env.production
+# .env.local is the conventional home for local secrets and was NOT covered
+# here, while .env and .env.production were. That is the exact file an agent or
+# a developer is most likely to paste a live key into, so it must be ignored.
+.env.local
+.env.*.local
+.env.*
+!.env.example
 
 # macOS-specific files
 .DS_Store

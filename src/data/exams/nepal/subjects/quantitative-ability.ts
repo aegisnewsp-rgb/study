@@ -1,0 +1,19 @@
+import type { Subject } from '../types';
+
+export const quantitative_ability: Subject = {
+  id: 'quantitative-ability', name: 'Quantitative Ability', color: '#8b5cf6',
+  topics: [
+    { id: 'cmat-qa-001', name: 'Arithmetic - Percentages, Profit-Loss, and Interest', weight: 5 as const, description: 'Percentage change, successive percentage, profit-loss markup and discount, simple and compound interest, instalments, and growth-rate problems tested most heavily in CMAT Quantitative Ability.' },
+    { id: 'cmat-qa-002', name: 'Arithmetic - Ratio, Proportion, and Mixtures', weight: 5 as const, description: 'Ratio-proportion, partnership sharing, mixtures and alligation, weighted averages, and proportion-based word problems that dominate the arithmetic block of CMAT Nepal.' },
+    { id: 'cmat-qa-003', name: 'Arithmetic - Time, Work, Speed, and Distance', weight: 4 as const, description: 'Time and work with efficiency, pipes and cisterns, train problems, relative speed, boats and streams, races and games, and average-speed traps for CMAT Quantitative Ability.' },
+    { id: 'cmat-qa-004', name: 'Number System and Arithmetic Properties', weight: 4 as const, description: 'Divisibility rules, HCF and LCM, remainders, unit digits, factors, prime numbers, factorials, and base-system questions recurring across MBA entrance quantitative sections.' },
+    { id: 'cmat-qa-005', name: 'Algebra - Equations and Inequalities', weight: 4 as const, description: 'Linear equations in one and two variables, quadratic equations, factorisation, roots, simultaneous equations, and linear inequalities used in CMAT Quantitative Ability problems.' },
+    { id: 'cmat-qa-006', name: 'Progressions and Series', weight: 3 as const, description: 'Arithmetic progression, geometric progression, harmonic progression, sum of n terms, mean terms, and series-completion patterns that show up in Nepali MBA entrance papers.' },
+    { id: 'cmat-qa-007', name: 'Set Theory and Venn Diagrams', weight: 3 as const, description: 'Union, intersection, complements, two-set and three-set Venn problems, survey-formula application, and word problems expressed as set relations for CMAT reasoning-quants overlap.' },
+    { id: 'cmat-qa-008', name: 'Mensuration and Geometry', weight: 3 as const, description: 'Area and perimeter of triangles, circles, quadrilaterals; surface area and volume of cube, cuboid, cylinder, cone, sphere; and coordinate geometry basics tested in CMAT quantitative sets.' },
+    { id: 'cmat-qa-009', name: 'Trigonometry and Heights-Distances Basics', weight: 2 as const, description: 'Trigonometric ratios, identities, complementary angles, and simple height-and-distance problems kept at class-10 level in the Nepali CMAT quantitative syllabus.' },
+    { id: 'cmat-qa-010', name: 'Probability and Combinatorics', weight: 2 as const, description: 'Classical probability, independent and conditional events, Bayes theorem basics; permutations and combinations, arrangements, and selection problems framed as MBA quants MCQs.' },
+    { id: 'cmat-qa-011', name: 'Data Interpretation - Tables and Charts', weight: 4 as const, description: 'Reading tables, bar charts, pie charts, and line graphs; computing ratios, percentages, growth rates, and ratios directly from displayed data sets in CMAT DI sets.' },
+    { id: 'cmat-qa-012', name: 'Data Sufficiency and Caselets', weight: 1 as const, description: 'Two-statement sufficiency problems, mini-caselets, and reasoning-on-data items that occasionally appear as the trickiest tail-end questions in CMAT Quantitative Ability.' }
+  ]
+};

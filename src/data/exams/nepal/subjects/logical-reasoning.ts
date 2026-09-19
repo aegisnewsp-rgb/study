@@ -1,7 +1,7 @@
 import type { Subject } from '../types';
 
-export const logical_reasoning_cmat: Subject = {
-  id: 'logical-reasoning-cmat', name: 'Logical Reasoning', color: '#0ea5e9',
+export const logical_reasoning: Subject = {
+  id: 'logical-reasoning', name: 'Logical Reasoning', color: '#0ea5e9',
   topics: [
     { id: 'cmat-lr-001', name: 'Coding-Decoding and Number-Alpha Series', weight: 5 as const, description: 'Letter-shift coding, number coding, symbol coding, analogy-based coding, and number-alphabet series completion that form the bulk of CMAT Logical Reasoning questions.' },
     { id: 'cmat-lr-002', name: 'Syllogisms and Venn-Based Logic', weight: 5 as const, description: 'Categorical syllogisms, all-some-none conclusions, possibility cases, reverse syllogisms, and Venn-diagram-based reasoning treated as a high-yield CMAT topic.' },

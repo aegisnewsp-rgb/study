@@ -1,15 +1,20 @@
 import type { ExamTemplate, Subject } from '../types';
 
-import { quantitative_techniques } from './subjects/quantitative-techniques';
-import { logical_reasoning_cmat } from './subjects/logical-reasoning';
-import { language_comprehension } from './subjects/language-comprehension';
+import { verbal_ability } from './subjects/verbal-ability';
+import { quantitative_ability } from './subjects/quantitative-ability';
+import { logical_reasoning } from './subjects/logical-reasoning';
 import { general_awareness } from './subjects/general-awareness';
+import { business_and_economics } from './subjects/business-and-economics';
 
+// Official order per the TU Faculty of Management CMAT model question paper:
+// Verbal Ability, Quantitative Ability, Logical Reasoning, General Awareness,
+// Business and Economics - 20 questions each, 100 items, 100 marks, 90 minutes.
 const subjects: Subject[] = [
-    quantitative_techniques,
-    logical_reasoning_cmat,
-    language_comprehension,
+    verbal_ability,
+    quantitative_ability,
+    logical_reasoning,
     general_awareness,
+    business_and_economics,
 ];
 
 import { makeRoadmap } from '../_lib/roadmap';
@@ -18,7 +23,7 @@ const exam: ExamTemplate = {
   examName: 'CMAT Nepal (MBA Entrance)',
   country: 'nepal',
   description: "Common Management Admission Test (CMAT) Nepal — entrance exam for MBA and management programmes at various universities in Nepal.",
-  examPattern: "100 MCQs covering: Quantitative Techniques (25), Logical Reasoning (25), Language Comprehension (25), General Awareness (25). 2 hours.",
+  examPattern: "100 questions in five sections of 20 questions each: Verbal Ability (20), Quantitative Ability (20), Logical Reasoning (20), General Awareness (20) and Business and Economics (20). 100 marks in 90 minutes.",
   eligibility: "Bachelor's degree in any discipline from a recognised university. Minimum score requirements vary by institution.",
   subjects,
     durations: {
@@ -60,7 +65,7 @@ const exam: ExamTemplate = {
     'Nobody on this site can guarantee a CMAT Nepal (MBA Entrance) rank, percentile, or admission.',
     'Pattern note for CMAT Nepal (MBA Entrance): 100 MCQs covering: Quantitative Techniques (25), Logical Reasoning (25), Language Comprehension (25)… Confirm that wording on https://cmat.edu.np before you lock a timetable.'
   ],
-  lastUpdated: '2026-07-28',
+  lastUpdated: '2026-09-19',
   officialSource: 'https://cmat.edu.np',
 };
 

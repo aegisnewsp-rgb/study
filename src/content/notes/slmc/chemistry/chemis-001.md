@@ -8,209 +8,129 @@ topicName: Organic Chemistry Fundamentals
 weight: 3
 country: srilanka
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-20"
 ---
 
-# Organic Chemistry Fundamentals — Structure, Bonding, and the Carbon Atom
+# Organic Chemistry Fundamentals
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+> Skim this in under ten minutes the morning of the exam and you'll have the framework for the 1–2 MCQs that SLMC throws at you from this section.
 
-Organic chemistry is the study of carbon-containing compounds. The unique ability of carbon to form four covalent bonds and to chain, branch, or ring with itself makes organic chemistry vast. For SLMC, focus on understanding why carbon is special, the types of bonds it forms, functional groups, and the distinction between organic and inorganic compounds.
+**Organic chemistry** studies carbon compounds — mainly those built on C–H frameworks. Carbon's tetravalency + catenation produce millions of structures, classified by **functional group** and reactivity, not by atom count.
 
-**High-Yield Facts for SLMC:**
-- Carbon has atomic number 6: electronic configuration 1s² 2s² 2p² — forms 4 bonds
-- Organic compounds contain carbon + hydrogen ± oxygen, nitrogen, halogens, sulfur, or phosphorus
-- Catenation: carbon's ability to form long chains with itself (key to organic diversity)
-- Tetravalence: carbon always forms 4 bonds (single, double, or triple)
-- ⚡ Exam tip: If a compound has carbon, it is presumed organic UNLESS it contains carbonate (CO₃²⁻), bicarbonate, cyanide, cyanate, or is a simple oxide of carbon (CO, CO₂) — these are inorganic
+> 💡 **Memory Hook:** "**C**arbon **F**orms **F**our, and **C**hains **F**orever" — tetravalency (4 bonds) + catenation (long chains) = enormous structural variety.
+
+The four formulas you must own:
+
+| Compound class | General formula | Variable meaning |
+|---|---|---|
+| Alkane (saturated) | C_nH_(2n+2) | n = number of C atoms (dimensionless) |
+| Alkene / cycloalkane | C_nH_(2n) | n = number of C atoms (dimensionless) |
+| Alkyne / cycloalkadiene (one triple or two rings/double bonds counted together) | C_nH_(2n−2) | n = number of C atoms (dimensionless) |
+| Benzene (aromatic) | C_nH_(2n−6) | n = number of C atoms (dimensionless) |
+
+Plus one diagnostic tool: **Degree of Unsaturation** DoU = (2C + 2 + N − H − X)/2, where C, H, N, X are atom counts (dimensionless). Oxygen and sulfur don't change DoU. Three exam-style uses: pick the right homologous series, spot rings vs double bonds, and check an unknown formula.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+> Half your marks here come from IUPAC naming and isomer-spotting, so spend disproportionate time on those two.
 
-**Organic Chemistry Fundamentals** — SLMC Medical (Sri Lanka) Study Guide
+#### Functional-group ladder
+Functional groups dictate reactivity. Ranking by seniority for IUPAC naming (highest → lowest): carboxylic acid > ester > amide > nitrile > aldehyde > ketone > alcohol > amine > alkene/alkyne > halide. When two groups appear on the same molecule, the senior one becomes the suffix and the rest become prefixes.
 
-## Why Carbon Is the Backbone of Organic Chemistry
+#### Isomerism at a glance
 
-Carbon occupies Group 14 of the periodic table. With 4 valence electrons, it needs 4 more to complete its octet — so it forms **4 covalent bonds**. Unlike metals that lose/gain electrons (ionic bonding), carbon shares electrons, creating strong directional covalent bonds.
-
-**Key properties of carbon that make it unique:**
-- **Tetravalence:** Four valence electrons → four bonds per carbon atom
-- **Catenation:** C–C bonds are strong (~347 kJ/mol), allowing long chains, branched structures, and rings
-- **Multiple bonding:** Carbon forms double bonds (C=C) and triple bonds (C≡C)
-- **Small atomic radius:** Allows effective orbital overlap for strong σ and π bonds
-
-## Bonding in Organic Molecules
-
-### Single Bonds (σ bonds)
-- Sp³ hybridized carbon (e.g., methane CH₄, ethane C₂H₆)
-- sigma (σ) bond: head-on overlap of orbitals → free rotation around the bond axis
-- Bond angle: ~109.5° (tetrahedral geometry)
-
-### Double Bonds (σ + π)
-- sp² hybridized carbon (e.g., ethene C₂H₄)
-- One σ bond + one π bond (lateral overlap of p-orbitals)
-- No free rotation around C=C axis → geometric (cis/trans) isomerism
-
-### Triple Bonds (σ + 2π)
-- sp hybridized carbon (e.g., ethyne C₂H₂)
-- One σ bond + two π bonds
-- Linear geometry (180° bond angle)
-
-## Hybridization Summary
-
-| Hybridization | Geometry | Bond Angle | Example |
+| Type | What varies | Carbon skeleton example | SLMC-favourite test question |
 |---|---|---|---|
-| sp³ | Tetrahedral | 109.5° | CH₄, C₂H₆ |
-| sp² | Trigonal planar | 120° | C₂H₄, benzene |
-| sp | Linear | 180° | C₂H₂, HCN |
+| Chain | Branching only | n-butane vs isobutane (both C₄H₁₀) | "Same formula, different boiling point — which type?" |
+| Position | Same group, different C | propan-1-ol vs propan-2-ol | Identify by lowest locant rule |
+| Functional group | Different group, same C/H ratio | propanal vs propanone (both C₃H₆O) | Identify by oxidation product |
+| Geometric (cis-trans) | Restricted C=C rotation | cis-but-2-ene vs trans-but-2-ene | Requires each alkene C to carry two different groups |
+| Optical | Chiral C (four different substituents) | 2-butanol has two enantiomers | Plane-polarised light rotates oppositely |
 
-## Structural Formulas
+#### IUPAC naming — the four moves
+1. Find the **longest carbon chain** that contains the principal functional group's carbon.
+2. **Number** from the end giving the principal group the **lowest possible locant** — not the substituent.
+3. Name substituents as prefixes (methyl-, chloro-, hydroxy-) with their locants.
+4. Assemble: locants + prefixes + parent chain length (meth-, eth-, prop-) + ene/yne/anol/anoic acid + principal group locant.
 
-**Molecular formula:** Shows all atoms (e.g., C₄H₁₀ for butane)
-**Condensed structural formula:** Groups atoms (e.g., CH₃–CH₂–CH₂–CH₃)
-**Full structural formula:** Shows all bonds explicitly
+#### Reaction families you'll meet
 
-## Homologous Series
+| Family | Mechanism flavour | Net change |
+|---|---|---|
+| Substitution (Sₙ1/Sₙ2) | Nucleophile attacks C–X (X = halogen) | H or OH replaces X |
+| Electrophilic addition | Alkene + HX, X₂, H₂O | One σ bond adds across C=C |
+| Elimination | Loss of H and X from adjacent C | C=C forms |
+| Oxidation of alcohols | Primary → aldehyde → acid; secondary → ketone; tertiary → no reaction | C–H bond oxidised |
+| Esterification | R-COOH + R'-OH ⇌ R-COO-R' + H₂O, acid-catalysed | Water eliminated |
 
-A homologous series is a family of organic compounds with:
-1. Same general formula
-2. Similar structural features (same functional group)
-3. Gradual change in physical properties as molecular size increases
-4. Similar chemical properties
+Markovnikov's rule: H adds to the C with **more** H's already, because it forms the **more stable carbocation** intermediate. Peroxide reverses this only for HBr (radical chain, not carbocation).
 
-**Examples:**
-- Alkanes: CₙH₂ₙ₊₂
-- Alkenes: CₙH₂ₙ
-- Alcohols: CₙH₂ₙ₊₁OH
+#### Worked calculation
+A compound has molecular formula C₄H₆. Determine the degree of unsaturation.
 
-## Functional Groups — The Heart of Organic Chemistry
+DoU = (2C + 2 − H)/2 = (2·4 + 2 − 6)/2 = (8 + 2 − 6)/2 = 4/2 = **2**.
 
-A functional group is a specific atom or group of atoms within a molecule responsible for its characteristic chemical behavior.
+Two degrees of unsaturation. C₄H₆ could hold one triple bond (but-1-yne, but-2-yne), two double bonds (buta-1,3-diene), one ring + one double bond (cyclobutene, methylenecyclopropane), or two rings.
 
-| Functional Group | Structure | Suffix | Example |
-|---|---|---|---|
-| Alkane | C–C (only C, H) | -ane | Butane |
-| Alkene | C=C | -ene | Butene |
-| Alkyne | C≡C | -yne | Butyne |
-| Alcohol | –OH | -ol | Ethanol |
-| Aldehyde | –CHO | -al | Acetaldehyde |
-| Ketone | –CO– | -one | Acetone |
-| Carboxylic acid | –COOH | -oic acid | Acetic acid |
-| Amine | –NH₂ | -amine | Methylamine |
-| Ether | C–O–C | ether | Dimethyl ether |
-| Halide | –Cl, –Br, etc. | halo- | Chloromethane |
-
-## Key Definitions
-
-- **Homolysis:** Bond breaks equally → two free radicals
-- **Heterolysis:** Bond breaks unequally → carbocation (positive) + anion (negative) or vice versa
-- **Electrophile:** Electron-pair acceptor (e.g., H⁺, NO₂⁺)
-- **Nucleophile:** Electron-pair donor (e.g., OH⁻, CN⁻)
-- **Carbocation:** Carbon with only 6 electrons (sp²), positively charged — unstable
-- **Carbanion:** Carbon with 8 electrons and a negative charge (sp³)
-
-## Common Reactions in Organic Chemistry
-
-**Combustion (applies to all organic compounds containing C and H):**
-- Complete: CₙHₘ + (n + m/4)O₂ → nCO₂ + (m/2)H₂O
-- Methane: CH₄ + 2O₂ → CO₂ + 2H₂O
-
-**Free radical halogenation of alkanes:**
-- CH₄ + Cl₂ → CH₃Cl + HCl (in UV light)
-- Mechanism: Initiation → Propagation → Termination
-
-**Addition reactions (alkenes/alkynes):**
-- H₂ + alkene → alkane (hydrogenation, Ni catalyst)
-- HX addition follows Markovnikov's rule
-
-## How to Approach Organic Chemistry Questions in SLMC
-
-1. **Identify the functional group first** — this determines the compound's reactions
-2. **Check the hybridization** — sp³ (single bonds), sp² (double), sp (triple)
-3. **Name the compound** using IUPAC rules (more in Topic 3)
-4. **Check for isomerism** — structural or geometric isomers affect properties (more in Topic 4)
-5. **Remember the reagent** — acidified KMnO₄ oxidizes alkenes; bromine water decolorizes alkenes; Na/NaOH + heat affects halides
-
-⚡ **Exam tip:** When asked "which compound is most reactive?", look for the most unstable electron arrangement — an alkene is more reactive than an alkane because of the π electron cloud above/below the double bond waiting to react. For nucleophilic substitution, methyl halides react fastest (least steric hindrance), tertiary halides are slowest via SN1.
+> ⚠️ **Examiner Trap:** Students double-count. DoU = 2 means two total — not "two double bonds equals four." Each ring or π bond costs **one** degree.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
+> Push past pattern-matching into mechanism reasoning — this is what separates a 70% scorer from a 90% scorer.
 
-**Organic Chemistry Fundamentals** — Comprehensive SLMC Medical (Sri Lanka) Notes
+#### Electron-displacement effects — the real driver
 
-## Electronic Effects in Organic Molecules
+| Effect | Symbol | How it acts | Consequence for pKa / pKb |
+|---|---|---|---|
+| Inductive | +I / −I | Through σ bonds, falls off with distance | Electron-donating alkyls (+I) **reduce** carboxylic-acid acidity; electron-withdrawing −CF₃ (−I) **increase** it |
+| Mesomeric / resonance | +M / −M | Through π system, felt further than inductive | −NO₂ (−M and −I) on phenol drops pKa from ~10 to ~7 |
+| Hyperconjugation | σ(C–H) → empty p | Stabilises carbocations, radicals | (CH₃)₃C⁺ > (CH₃)₂CH⁺ > CH₃CH₂⁺ > CH₃⁺ — predicts Markovnikov outcome |
 
-Understanding electron distribution is critical for predicting reaction outcomes:
+#### Acidity / basicity orders you should derive, not memorise
 
-### Inductive Effect
-- Polarity transmitted through σ bonds
-- Electron-donating groups (EDG): –CH₃, –OH, –NH₂
-- Electron-withdrawing groups (EWG): –NO₂, –CN, –COOH, –COOR, –CX₃
-- Effect decreases with distance: influence at carbon-1 > carbon-2 > carbon-3
+| Acid / base | Order | Why |
+|---|---|---|
+| Carboxylic acids | HCOOH > CH₃COOH > CH₃CH₂COOH | +I of alkyls destabilises the conjugate base; formic has no alkyl |
+| Substituted acetic acids | Cl₃CCOOH > Cl₂CHCOOH > ClCH₂COOH > CH₃COOH | Each additional Cl adds −I, stabilising the anion |
+| Amines (gas phase / aprotic) | (CH₃)₃N > (CH₃)₂NH > CH₃NH₂ > NH₃ | Lone pair in sp³ vs s character raises availability |
+| Amines (aqueous / protic) | (CH₃)₂NH > CH₃NH₂ > (CH₃)₃N > NH₃ | Solvation of the protonated amine dominates; tertiary is sterically crowded |
 
-### Resonance Effect
-- Delocalization of π electrons or lone pairs through conjugated systems
-- Stabilizes molecules (e.g., benzene, carboxylate ion)
-- EWG via resonance: –NO₂, –COOH, –COOR, –CN, –SO₃H
-- EDG via resonance: –OH, –NH₂, –OR, –NHR
+#### Hybridisation tells the story
+sp carbon holds 50% s-character; electrons sit closer to the nucleus. Terminal alkyne C–H (sp, pKa ≈ 25) is **far more acidic** than alkene C–H (sp², pKa ≈ 44) or alkane C–H (sp³, pKa ≈ 50). Use this to rationalise any acidity ordering without memorising numbers.
 
-### Hyperconjugation
-- Delocalization of σ electrons (C–H or C–C) into adjacent empty or π orbitals
-- Explains stability of carbocations (more α-hydrogens = more stable)
-- Order of carbocation stability: tertiary > secondary > primary > methyl
+#### Stability ladder of intermediates
+Carbocation: 3° > 2° > 1° > methyl — hyperconjugation and +I donate electron density into the empty p.
+Free radical: 3° > 2° > 1° > methyl — same logic, weaker effect.
+Carbanion: methyl > 1° > 2° > 3° — opposite, because negative charge is destabilised by electron-donating groups.
 
-## Stereochemistry Fundamentals
+#### Edge cases that trip up toppers
 
-**Chirality:** A molecule is chiral if it is non-superimposable on its mirror image (like left and right hands). The carbon atom attached to four different groups is a **stereocenter** or **chiral center**.
+| Case | Wrong assumption | Correct view |
+|---|---|---|
+| Phenol vs cyclohexanol | Both are "alcohols" | Phenol is acidic (pKa ≈ 10) because the phenoxide is stabilised by resonance; cyclohexanol is neutral (pKa ≈ 17) |
+| Vinyl halide vs alkyl halide | Both undergo Sₙ2 | Vinyl C–X has partial double-bond character (lone pair of X overlaps with π), so Sₙ1/Sₙ2 is suppressed |
+| Combustion of aromatic | Same products as open chain | Balanced on C and H only; complete combustion always gives CO₂ + H₂O regardless of saturation |
+| Oxygen in DoU | Affects the count | Oxygen is divalent and cancels out — ignore it in the formula |
+| Glucose formula C₆H₁₂O₆ and acetic acid dimer | Two "different" compounds | Glucose has DoU = 1 (one ring); the acid "dimer" is held by two H-bonds, not a ring |
 
-**Enantiomers:** Non-superimposable mirror-image isomers. They rotate plane-polarized light in opposite directions.
+#### Two advanced practice prompts
 
-**R/S Nomenclature:**
-1. Assign priorities to four groups (highest atomic number = priority 1)
-2. Orient lowest priority away from viewer
-3. Trace 1→2→3: clockwise = R (rectus), counterclockwise = S (sinister)
+1. Rank p-nitrophenol, p-cresol, and phenol in order of acidity. Predict qualitatively what changes in the para substituent and check whether −I alone explains any difference, or whether −M is required.
+2. 2-Bromobutane reacts with NaOH. Predict the major and minor products under aqueous and alcoholic conditions respectively. State which mechanism (Sₙ1, Sₙ2, E1, E2) dominates in each, naming the orbital-geometry reason (backside attack requires anti-periplanar leaving group for E2, while Sₙ1 proceeds via a planar carbocation open to either face).
 
-**D/L Nomenclature** (older system):
-- Glyceraldehyde is the reference compound
-- Not the same as R/S (depends on carbon skeleton, not three-dimensional arrangement)
+> 📌 **Formula Check:** DoU = (2C + 2 + N − H − X)/2 — dimensionless counts only. Plug in atom counts, never gram or mole values.
 
-## Thermodynamic vs Kinetic Control
+---
 
-In competing reactions (e.g., addition of HBr to butadiene):
-- **Kinetic product:** Forms faster — less stable product; 1,2-addition product
-- **Thermodynamic product:** Forms slower but is more stable; 1,4-addition product at higher temperature
+## Continue your study
 
-## Oxidation and Reduction in Organic Chemistry
-
-**Oxidation:** Increase in oxygen content or decrease in hydrogen content
-- Primary alcohol → aldehyde → carboxylic acid
-- Secondary alcohol → ketone
-- Alkane → CO₂ (complete oxidation = combustion)
-
-**Reduction:** Decrease in oxygen content or increase in hydrogen content
-- Alkene → alkane (H₂, Ni)
-- Alkyne → alkane (H₂, Ni, or Na/NH₃ for trans-alkene)
-- Carbonyl → alcohol (NaBH₄ or LiAlH₄)
-
-## Practice Question Patterns for SLMC
-
-1. **"Which carbon is sp² hybridized in CH₃–CH=CH₂?"** → Answer: the middle carbon (CH)
-2. **"The bond angle in an sp-hybridized carbon is:"** → 180°
-3. **"The functional group –COOH is:"** → Carboxylic acid
-4. **"Which compound is chiral?"** → Look for a carbon with four different substituents (e.g., 2-butanol: CH₃–CHOH–CH₂–CH₃ — the CHOH carbon is chiral)
-
-## Common Traps and Pitfalls
-
-- Confusing molecular formula with structural formula
-- Forgetting that CO, CO₂, carbonates, and cyanides are INORGANIC
-- Assuming all organic compounds are natural (many are synthetic)
-- Misidentifying functional groups — aldehyde (–CHO) is different from ketone (–CO–)
-- Thinking all chiral carbons are asymmetric — need 4 different groups
+- **[View this topic in your SLMC Medical (Sri Lanka) roadmap](/roadmap/?exam=slmc&duration=1mo)** — see where "Organic Chemistry Fundamentals" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=slmc&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[SLMC Medical (Sri Lanka) exam overview](/exams/slmc/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/slmc/chemistry/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

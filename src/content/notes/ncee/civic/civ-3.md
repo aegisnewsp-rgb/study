@@ -11,7 +11,7 @@ topicName: Nigerian Constitution and Federalism
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.600880"
-lastUpdated: "2026-06-24"
+lastUpdated: "2026-09-20"
 diagramPrompt: "Educational diagram illustrating Nigerian Constitution and Federalism with clear labels, white background, exam-style illustration"
 
 
@@ -22,72 +22,107 @@ diagramPrompt: "Educational diagram illustrating Nigerian Constitution and Feder
 # Nigerian Constitution and Federalism
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+> One-line anchor for the night before: the 1999 Constitution sits on top of every Nigerian law — read it as the rulebook for federalism, separation of powers, and citizenship.
 
-The **Nigerian Constitution** is the supreme legal document governing the country, currently the **1999 Constitution of the Federal Republic of Nigeria**. It defines the powers of the three tiers of government and guarantees fundamental rights. **Federalism** is the constitutional division of powers between the **Federal Government**, **State Governments**, and **Local Government Areas**, designed to manage Nigeria's ethnic, religious, and cultural diversity.
+The 1999 Constitution of the Federal Republic of Nigeria is the supreme law; any statute, decree, or customary rule that clashes with it is void to the extent of the inconsistency. Nigeria runs a **presidential federal system** with three tiers of government (federal, 36 states, and 774 Local Government Areas) and three arms — Legislature, Executive, Judiciary.
 
-Three legislative lists control power-sharing: the **Exclusive List** (federal only, e.g., defence, currency, foreign affairs, immigration), the **Concurrent List** (shared, e.g., education, health, electricity), and the **Residual List** (states only, e.g., chieftaincy). Revenue is shared through the **Federation Account** using a formula set by the **Revenue Mobilisation Allocation and Fiscal Commission (RMAFC)**. High-yield points for NCEE Civic Education: know the 1999 Constitution features, identify which list a power belongs to, and explain why Nigeria adopted federalism in 1954.
+| Tier of Government | Capital/Head | Arm it controls |
+|---|---|---|
+| Federal Government | President (Aso Rock, Abuja) | Executive at national level |
+| 36 States + FCT (Abuja) | State Governors | Executive at state level |
+| 774 Local Government Areas | Local Government Chairmen | Executive at grassroots level |
+
+- **Federalism** = constitutional sharing of power between the tiers; each level keeps powers listed in the Constitution.
+- **Separation of Powers** = Legislature makes law, Executive implements, Judiciary interprets.
+- **Federal Character** = no single ethnic group dominates federal appointments.
+
+> 💡 **High-Yield Memory Hook — "LEM‑EXEC‑JUD"**: **L**egislature **makes**, **EXE**cutive **executes**, **JUD**iciary judges. Pair it with the three legislative lists — **E**xclusive (federal only), **C**oncurrent (both), **R**esidual (state only) — to recall them as **E‑C‑R** in one breath.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+> Master the building blocks of how Nigeria is governed — the lists, the arms, the rights — and the exam traps become obvious.
 
-#### Historical Sources of the Constitution
-The 1999 Constitution evolved from earlier constitutional documents: the **1914 Amalgamation** (united Northern and Southern protectorates), **Clifford Constitution (1922)**, **Richards Constitution (1946)**, **Macpherson Constitution (1951)**, **Littleton Constitution (1954)** — which introduced federalism — the **Independence Constitution (1960)**, **Republican Constitution (1963)**, and the **1979 Constitution**.
+#### Supremacy and Sources
 
-#### Features of the Nigerian Constitution
-- **Written and rigid**: amendment requires a two-thirds majority of the National Assembly and approval by two-thirds of the State Houses of Assembly.
-- **Federal in structure** but with strong **unitary features**, including the power of the Federal Government to override state decisions during emergencies.
-- **Presidential system**: executive president elected directly for a four-year term.
-- **Supremacy clause**: Section 1(1) declares the Constitution supreme; any law inconsistent with it is void.
+Section 1 of the 1999 Constitution declares the Constitution supreme. Inconsistencies are void. The Constitution itself draws from several sources: the 1999 Constitution as the principal document, English common law, statutes of the National Assembly, case law (especially Supreme Court decisions), and constitutional conventions such as the formation of the Federal Cabinet.
 
-#### Features of Federalism
-1. Division of powers among tiers of government
-2. Written constitution as the supreme authority
-3. Independent judiciary to settle disputes
-4. Bicameral legislature at the federal level (Senate and House of Representatives)
-5. Revenue allocation through the Federation Account
-6. Each tier has autonomy within its constitutional limits
+#### The Three Legislative Lists
 
-#### Legislative Lists — Powers Sharing
+| List | Who legislates | Examples |
+|---|---|---|
+| Exclusive Legislative List | Federal only | Defence, currency, foreign affairs, immigration, railways, mines |
+| Concurrent Legislative List | Federal and State | Education, health, agriculture, electricity |
+| Residual List | State only | Customary courts, chieftaincy, markets, local traditions |
 
-| List | Who Makes Laws | Examples |
-|------|----------------|----------|
-| Exclusive | Federal only | Defence, foreign affairs, currency, immigration, customs, mining |
-| Concurrent | Federal and State | Education, health, electricity, agriculture, fisheries |
-| Residual | State only | Chieftaincy, customary law, local markets |
+#### Three Arms and How They Check Each Other
 
-When both tiers legislate on a Concurrent matter, federal law prevails (Section 4(5)).
+| Arm | Function | How it checks another arm |
+|---|---|---|
+| Legislature (NASS: Senate + House of Reps) | Law-making, appropriation | Confirms ministers, impeaches President, screens judicial nominees |
+| Executive (President, Vice-President, ministers) | Implements laws | Assents to bills, appoints judges, sets budget |
+| Judiciary (Supreme Court, Court of Appeal, FHC, SHC) | Interprets laws | Declares laws unconstitutional, settles federal-state disputes |
 
-#### Reasons for Adopting Federalism
-Nigeria adopted federalism due to **ethnic diversity** (over 250 ethnic groups), **religious plurality**, **large geographical size**, **avoidance of disintegration**, **balanced regional development**, and **minority protection**.
+#### Citizenship and Fundamental Rights
+
+Citizenship can be acquired by **birth, descent, registration, or naturalisation**. Chapter IV of the Constitution guarantees rights to life, liberty, dignity, fair hearing, freedom of movement, and freedom of expression — all enforceable in court.
+
+#### Worked Problem
+
+A question asks: *"Under the 1999 Constitution, which level of government has exclusive power over currency and defence?"*
+
+Working: Currency and defence sit on the **Exclusive Legislative List**, so only the **Federal Government** through the National Assembly can legislate on them. States cannot make laws on these matters. The answer is the Federal Government.
+
+> ⚠️ **Examiner Trap:** Students pick "State Government" because defence forces operate in every state. Location is irrelevant — the legislative power is federal by the Exclusive List, no matter where soldiers are stationed.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
+> Push past the lists into how Nigeria keeps the system stable, where it bends, and what NCEE candidates trip on most.
 
-#### Revenue Allocation Mechanism
-The **Federation Account** pools federally collected revenue (taxes, royalties, customs). The **RMAFC** periodically reviews the **vertical formula** (federal vs. states vs. local) and **horizontal formula** (among the 36 states). A common allocation benchmark in recent years is roughly **Federal 52.68%, States 26.72%, Local Government 20.60%**, though figures are periodically revised. States also receive **13% derivation revenue** for mineral-producing areas to address the resource-control debate.
+#### Federal Character and the Sharing Principle
 
-#### Common Mistakes and Traps
-- Confusing **federalism** with **decentralisation**: federalism is constitutional and legally entrenched; decentralisation can be by policy.
-- Placing **education** on the Exclusive List — it is on the **Concurrent List**, meaning both federal and state governments can legislate on it.
-- Saying local governments are on the **Concurrent List** — they are administrative creations of state governments under the 1999 Constitution.
-- Assuming Nigeria is a "true" federation like the USA — Nigeria's federalism is described as **quasi-federal** or having strong unitary tendencies due to federal dominance in revenue and emergency powers.
+Federal Character (Section 14(3)) requires public institutions to reflect the diverse ethnic composition of Nigeria so no group dominates. In revenue, the Federation Account pools federally collected income and shares it across federal, state, and local governments using criteria such as population, equality, derivation, and specific needs. Treat the exact current percentages as values set by the Revenue Mobilisation Allocation and Fiscal Commission — confirm them in the latest official notification rather than memorise them.
 
-#### Adjacent Topics to Link
-- **Rule of Law**: ensures every organ of government acts within constitutional limits.
-- **Separation of Powers**: executive, legislature, and judiciary act independently with **checks and balances**.
-- **Fundamental Rights** (Chapter IV, Sections 33–46): right to life, dignity, fair hearing, movement, association, and freedom from discrimination.
+#### Amending the Constitution
 
-#### Worked Example
-A state government bans the export of solid minerals. Is this constitutional? **No**, because minerals are on the **Exclusive List** (Item 39, Second Schedule), reserved for the Federal Government. Only the Federal Government can legislate on mining. The state action would be declared void under the supremacy clause.
+Amending the Constitution is intentionally hard:
+
+1. Two-thirds majority of each chamber of the National Assembly (Senate and House of Reps).
+2. Approval by two-thirds of all 36 State Houses of Assembly.
+3. Presidential assent within 30 days.
+
+This two-house + state-legislature threshold is a textbook NCEE trap because a simple majority vote is often wrongly offered as the right answer.
+
+#### Edge Cases Worth Noting
+
+| Situation | Constitutional position |
+|---|---|
+| A state law contradicts a federal law on the Concurrent List | Federal law prevails to the extent of the inconsistency |
+| Local Government Areas are created | By State Houses of Assembly, not the National Assembly |
+| Abuja | Federal Capital Territory, administered by the Federal Government through the FCT Minister — not a 37th state |
+| Presidential system | President is both Head of State and Head of Government; there is no Prime Minister |
+
+#### Common Mistakes That Cost Marks
+
+- Swapping registration and naturalisation when explaining how foreigners become citizens.
+- Saying the National Assembly creates Local Government Areas.
+- Treating the Concurrent List as federal-only or state-only instead of shared.
+- Forgetting that a bill passed by NASS only becomes law after presidential assent, except where the President withholds assent and the legislature repasses it with two-thirds.
 
 #### Practice Prompts
-1. List **six features** of the Nigerian Constitution and explain how any **two** affect citizens' daily lives.
-2. State **three powers** each on the Exclusive, Concurrent, and Residual Lists, and explain why the Constitution places defence exclusively on the federal list.
+
+1. A bill is passed by both chambers of the National Assembly by simple majority but the President refuses assent. Explain, step by step, whether the bill can become law without the President and under which constitutional provision.
+2. Explain two situations in which a federal law and a state law conflict on a matter in the Concurrent List, and show which law the courts will apply.
+
+---
+
+## Continue your study
+
+- **[View this topic in your NCEE (National Common Entrance Examination) roadmap](/roadmap/?exam=ncee&duration=1mo)** — see where "Nigerian Constitution and Federalism" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ncee&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NCEE (National Common Entrance Examination) exam overview](/exams/ncee/)** — pattern, eligibility, and syllabus
+- **[All Civic Education notes](/notes/ncee/civic/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

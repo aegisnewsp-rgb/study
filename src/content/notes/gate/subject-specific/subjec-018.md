@@ -8,266 +8,107 @@ topicName: "Control Systems — Time and Frequency Response"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-20"
 ---
 
 # Control Systems — Time and Frequency Response
 
+> A closed-loop system's behaviour in time and in frequency are two views of the same transfer function G(s). On the jω-axis G(s) becomes G(jω), and Bode, Nyquist and polar plots become interchangeable pictures of step-response shape.
+
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+> Five numbers describe almost every second-order step response. Memorise them and you can answer 70% of GATE questions on this topic.
 
-**GATE Weightage:** ~8–12 marks/year (Electrical/Instrumentation); Bode plot and steady-state error are extremely high-yield topics.
+A second-order closed loop follows $s^2 + 2\zeta\omega_n s + \omega_n^2 = 0$, where $\zeta$ is the damping ratio (dimensionless) and $\omega_n$ is the natural frequency in rad/s. Poles live at $s = -\zeta\omega_n \pm j\omega_n\sqrt{1-\zeta^2}$, so the real part fixes decay rate and the imaginary part fixes oscillation speed.
 
----
+- **Rise time** (underdamped, 0–100%): $t_r \approx (\pi - \beta)/\omega_d$, with $\beta = \cos^{-1}\zeta$ in rad and $\omega_d = \omega_n\sqrt{1-\zeta^2}$ in rad/s.
+- **Peak time**: $t_p = \pi/\omega_d$ in seconds.
+- **Settling time** (2% band): $t_s \approx 4/(\zeta\omega_n)$ seconds.
+- **Steady-state error** (unity feedback): $e_{ss} = 1/(1+K_p)$ for step, $1/K_v$ for ramp, $1/K_a$ for parabolic input.
+- **Resonant peak**: $M_r = 1/(2\zeta\sqrt{1-\zeta^2})$ — valid only for $0 \le \zeta \le 0.707$.
 
-**First-Order System:** G(s) = K/(τs + 1)
-- Time constant τ; Step response: y(t) = K(1 – e^(–t/τ)); Settling time ≈ 4τ
-
-**Second-Order System:** G(s) = ω_n²/(s² + 2ζω_n s + ω_n²)
-
-| ζ | Type | Response |
-|---|---|---|
-| ζ = 0 | Undamped | Pure oscillation |
-| 0 < ζ < 1 | Underdamped | Oscillatory decay |
-| ζ = 1 | Critically damped | Fastest no-overshoot |
-| ζ > 1 | Overdamped | Slow, no overshoot |
-
-**Pole locations:** s = –ζω_n ± jω_n√(1–ζ²); ω_d = ω_n√(1–ζ²) = damped frequency
-
-**Steady-State Error:** e_ss = 1/(1 + K_p) for step, 1/K_v for ramp, 1/K_a for parabolic
-
-**Bode Plot Rules:**
-- Magnitude: –20 dB/decade per pole at origin; –20 dB/decade per pole away from origin; +20 dB/decade per zero
-- Phase: –90° per pole at origin; –90° per pole (non-origin); +90° per zero
-
-**Nyquist:** Encircle –1 + j0; Stability if # encirclements = # RHP poles of OLTF
-
-**Gain Margin (GM):** Gain at phase crossover where ∠G(jω) = –180°; GM > 0 required
-**Phase Margin (PM):** Phase at gain crossover where |G(jω)| = 1; PM > 0 required; PM ≈ 100ζ
-
----
+> 💡 **High-Yield Memory Hook — "PT MR SP"**: Peak Time, M_r, Settling, Phase margin — read the Bode plot's PM to estimate Mp, and read Mr from the polar plot. Larger PM ⇒ smaller overshoot.
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+> Most GATE marks on this topic come from converting between the two domains. Practise the mapping once and the rest of the chapter falls in line.
 
-## First-Order System Response
+#### From poles to step-response shape
 
-**Standard form:** G(s) = K/(τs + 1) or normalized: G(s) = 1/(τs + 1)
+The location of closed-loop poles dictates everything you can read on an oscilloscope trace. Pull the poles toward the left-half plane and the response speeds up; rotate them closer to the imaginary axis and the system rings more. Two scalars — $\zeta$ and $\omega_n$ — encode that geometry completely for a dominant second-order pair.
 
-### Unit Step Response
+| Specification | Formula | Units | Behaviour as ζ ↑ | Behaviour as ωn ↑ |
+|---|---|---|---|---|
+| Rise time $t_r$ | $(\pi - \cos^{-1}\zeta)/\omega_d$ | s | Increases (slower) | Decreases (faster) |
+| Peak time $t_p$ | $\pi/\omega_d$ | s | Slight increase | Decreases |
+| Settling time $t_s$ | $4/(\zeta\omega_n)$ (2%) | s | Decreases | Decreases |
+| Overshoot $M_p$ | $\exp(-\zeta\pi/\sqrt{1-\zeta^2})$ | % | Decreases sharply | No change |
+| Resonant peak $M_r$ | $1/(2\zeta\sqrt{1-\zeta^2})$ | dimensionless | Decreases; =1 at ζ=0.707 | — |
 
-y(t) = K(1 – e^(–t/τ)) for t ≥ 0
+#### Steady-state error constants
 
-| Parameter | Value |
-|---|---|
-| Steady-state value | K |
-| Time constant τ | Time to reach 63.2% of final |
-| Rise time (10%–90%) | ≈ 2.2τ |
-| Settling time (2%) | ≈ 4τ |
-| Settling time (5%) | ≈ 3τ |
+For unity feedback, define three numbers from $G(s)$ as $s\to 0$:
 
-### Unit Ramp Response
+- **Position constant** $K_p = \lim_{s\to 0} G(s)$ — dimensionless.
+- **Velocity constant** $K_v = \lim_{s\to 0} sG(s)$ — units of s⁻¹.
+- **Acceleration constant** $K_a = \lim_{s\to 0} s^2 G(s)$ — units of s⁻².
 
-For input R(s) = 1/s²:
-- y(t) = K(t – τ + τe^(–t/τ))
-- Steady-state error e_ss = τ (ramp lag equals time constant)
+A type-N system has N integrators in the forward path, so $K_p\to\infty$ for N≥1, $K_v\to\infty$ for N≥2, $K_a\to\infty$ for N≥3. The corresponding $e_{ss}$ to step, ramp and parabolic inputs falls to zero at that boundary.
 
-### Unit Impulse Response
+#### Frequency-domain stability margins
 
-y(t) = (K/τ)·e^(–t/τ) for t ≥ 0
+Pick the **gain-crossover** $\omega_{gc}$ where $|G(j\omega)|=1$ (0 dB). The **phase margin** $PM = 180° + \angle G(j\omega_{gc})$ predicts overshoot — every extra 10° of PM roughly trims 5–10% off Mp. Pick the **phase-crossover** $\omega_{pc}$ where $\angle G(j\omega)=-180°$. The **gain margin** $GM = 1/|G(j\omega_{pc})|$, expressed in dB as $-20\log|G(j\omega_{pc})|$, tells how much loop gain you can add before instability.
 
-## Second-Order System — Detailed Analysis
-
-**Standard TF:** G(s) = ω_n²/(s² + 2ζω_n s + ω_n²)
-
-### Key Specifications
-
-- **Peak time:** T_p = π/ω_d = π/(ω_n√(1–ζ²))
-- **Percent overshoot:** %OS = e^(–πζ/√(1–ζ²)) × 100
-- **Settling time (2% criterion):** T_s ≈ 4/(ζω_n)
-- **Settling time (5% criterion):** T_s ≈ 3/(ζω_n)
-- **Rise time (0–100%):** T_r ≈ (π – θ)/ω_d, where θ = arctan(√(1–ζ²)/ζ)
-
-> **GATE Formula:** ζ from %OS: ζ = –ln(%OS/100) / √(π² + ln²(%OS/100))
-
-### Pole-Zero Map
-
-Poles: s₁,₂ = –ζω_n ± jω_n√(1–ζ²)
-
-- **Real part** = –ζω_n (determines settling time)
-- **Imaginary part** = ω_n√(1–ζ²) = ω_d (determines oscillation frequency)
-
-## Steady-State Error Analysis
-
-### Error Constants
-
-| Input Type | Position (step) | Velocity (ramp) | Acceleration (parabola) |
-|---|---|---|---|
-| Input r(t) | u(t) | t | ½t² |
-| Laplace R(s) | 1/s | 1/s² | 1/s³ |
-| Steady-state error | 1/(1 + K_p) | 1/K_v | 1/K_a |
-| K_p = lim G(s) | K_p | 0 | 0 |
-| K_v = lim sG(s) | ∞ | K_v | 0 |
-| K_a = lim s²G(s) | ∞ | ∞ | K_a |
-
-**Type number** = number of poles at s = 0 in G(s)
-
-### System Type and Compensation
-
-- Higher type → better steady-state tracking, harder to stabilize
-- Type 0: Tracks step, error to ramp/parabola
-- Type 1: No error to step/ramp, error to parabola
-- Type 2: No error to step/ramp/parabola (often used in position control)
-
-## Bode Plot Construction
-
-### Magnitude Plot
-
-| Element | Slope | Corner frequency |
+| Margin | Read at | Predicts |
 |---|---|---|
-| Pole at origin (1/s) | –20 dB/dec | ω = 0 |
-| Simple pole (1/(1+jω/ω_c)) | –20 dB/dec | ω_c |
-| Double pole (1/(1+jω/ω_c)²) | –40 dB/dec | ω_c |
-| Zero (1 + jω/ω_c) | +20 dB/dec | ω_c |
-| Second-order pole (denominator s²/ω_n² + 2ζs/ω_n + 1) | –40 dB/dec | ω_n |
+| Phase margin (PM) | $\omega_{gc}$ (gain crossover) | Overshoot, relative stability |
+| Gain margin (GM) | $\omega_{pc}$ (phase crossover) | Robustness to gain drift |
 
-### Phase Plot
+#### 🎯 Exam-Level Worked Problem
 
-| Element | Phase contribution |
-|---|---|
-| Simple pole | 0° → –90° over 2 decades around ω_c |
-| Simple zero | 0° → +90° over 2 decades around ω_c |
-| Pole at origin | –90° constant |
-| Second-order pole | 0° → –180° depending on ζ |
+A unity-feedback system has open-loop transfer function $G(s) = \dfrac{20}{s(s+2)(s+5)}$. Find the gain margin and phase margin, and comment on the closed-loop step response.
 
-**Minimum phase systems** have a one-to-one correspondence between magnitude and phase.
+**Step 1 — Identify the form.** Substitute $s = j\omega$ and split into magnitude and phase. Break points occur at $\omega = 2$ and $\omega = 5$ rad/s where the corner frequencies sit.
 
-## Nyquist Stability Criterion
+**Step 2 — Phase-crossover frequency $\omega_{pc}$.** Phase of $G(j\omega) = -90° - \tan^{-1}(\omega/2) - \tan^{-1}(\omega/5)$. Setting this to $-180°$ gives $\tan^{-1}(\omega/2) + \tan^{-1}(\omega/5) = 90°$, which holds when $(1)(\omega/5)+(1)(\omega/2) = 0$ in the product-of-tangents form — actually use the identity $\tan(A+B) = (\tan A + \tan B)/(1 - \tan A \tan B) \to \infty$, so $\tan^{-1}(\omega/2)\tan^{-1}(\omega/5) = 1$. Numerically $\omega_{pc} \approx 3.16$ rad/s.
 
-**Nyquist plot:** Plot G(jω) as ω goes from 0 to ∞ (complex plane).
+**Step 3 — Gain margin.** $|G(j\omega_{pc})| = \dfrac{20}{\omega_{pc}\sqrt{\omega_{pc}^2+4}\sqrt{\omega_{pc}^2+25}} \approx \dfrac{20}{3.16 \cdot \sqrt{14} \cdot \sqrt{35}} \approx 0.30$. So $GM = 1/0.30 \approx 3.33$, i.e. $20\log(3.33) \approx 10.45$ dB. Positive ⇒ stable.
 
-**Stability test:** Z = N + P, where:
-- Z = number of closed-loop poles in RHP
-- N = number of encirclements of –1+j0 (clockwise direction)
-- P = number of open-loop poles in RHP
+**Step 4 — Gain-crossover.** Set $|G(j\omega_{gc})| = 1$. Numerical search gives $\omega_{gc} \approx 1.65$ rad/s. Phase there: $\angle G(j\omega_{gc}) = -90° - \tan^{-1}(0.825) - \tan^{-1}(0.33) \approx -90° - 39.5° - 18.3° = -147.8°$.
 
-**For stability:** Z = 0 → N = –P (no net encirclements if P = 0 and system stable)
+**Step 5 — Phase margin.** $PM = 180° - 147.8° \approx 32.2°$.
 
-### Gain and Phase Margin from Nyquist
+**Step 6 — Step-response interpretation.** With PM ≈ 32°, closed-loop overshoot lands near 30–35%. Settling time (approximate, dominant pole near $-1$) lies around 4 s. The system is stable but oscillatory.
 
-- **Gain Margin:** GM = 1/|G(jω_p)| where ω_p = phase crossover (∠G = –180°)
-- **Phase Margin:** PM = 180° + ∠G(jω_g) where ω_g = gain crossover (|G| = 1)
-- Both must be positive for stability
-- Typical desired: GM > 6 dB, PM > 30°–45°
-
-## Nichols Chart
-
-A Nichols chart combines:
-- **M-contours:** constant closed-loop magnitude (|G/(1+G)| = constant, in dB)
-- **N-contours:** constant closed-loop phase
-
-Used to read closed-loop response from open-loop Nyquist data.
-
-Key use: Find resonant peak M_r (maximum |T(jω)|) and resonant frequency ω_r from the highest M-contour tangent to the Nyquist plot.
-
----
+> ⚠️ **Examiner Trap:** Many candidates write $GM \approx 10$ dB (rounded too early) and miss that GM is also the *maximum allowable gain increase* — adding 3.33× of extra gain pushes the closed loop to the verge of instability. Always quote GM as both a ratio and a dB value.
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
+> The trap that costs marks in GATE is rarely the formula — it is the domain in which you apply it. Read the question twice: is it asking for time response or frequency response?
 
-## Delay Time, Rise Time, Peak Time — Exact Formulas
+#### Limits and boundary cases worth memorising
 
-For underdamped second-order (ζ < 1):
+| Condition | Consequence |
+|---|---|
+| $\zeta = 0$ | Undamped oscillation; $M_r \to \infty$, $PM = 0°$ |
+| $\zeta = 1$ | Critically damped; no overshoot, slowest rise among non-oscillatory responses |
+| $\zeta = 0.707$ | $M_r = 1$; below this value a resonant peak appears in the frequency response |
+| $\zeta > 0.707$ | $M_r = 1$ (formula no longer valid); bandwidth equals $\omega_n$ |
+| Type-0 system, ramp input | $e_{ss} = \infty$ regardless of $K$ |
+| Pole on $j\omega$-axis | Apply Routh-Hurwitz *before* Nyquist; the $Z = N + P$ sign convention flips for these cases |
 
-**Delay time (10% to 50% response):** T_d ≈ (1 + 0.7ζ) / ω_n
+#### Nyquist count for marginally stable loops
 
-**Rise time (0% to 100%):** T_r = (π – φ) / ω_d, where φ = arctan(ω_d/ζω_n)
+When $G(s)$ has poles on the $j\omega$-axis, indent the Nyquist contour around them with a small semicircle and watch the encirclement count shift. GATE has used this trick: a system with one integrator contributes a half-encirclement, not a full one. The safe workflow is to run Routh-Hurwitz first to learn whether the open loop is stable ($P = 0$) before applying $Z = N + P$ to the plot.
 
-**Peak time:** T_p = π / ω_d
+#### Two advanced prompts
 
-**Maximum (peak) overshoot:** M_p = |G(jω_d)| at ω = ω_d = exp(–πζ/√(1–ζ²))
+1. A lead compensator of the form $G_c(s) = (1 + s/a)/(1 + s/b)$ with $b > a$ is inserted in the forward path. Derive the contribution to PM in terms of $\alpha = a/b$ and the geometric mean $\sqrt{ab}$, then show why the maximum phase boost of $\sin^{-1}[(1-\alpha)/(1+\alpha)]$ occurs at $\omega = 1/\sqrt{ab}$.
+2. A plant $G(s) = K/[s(s+1)(s+4)]$ shows gain crossover at 1 rad/s for $K = 1$. Find the value of $K$ that produces PM = 45°. Then estimate the resulting closed-loop bandwidth and 2% settling time.
 
-## Compensation Techniques
+## Continue your study
 
-### Lag Compensator
+- **[View this topic in your GATE roadmap](/roadmap/?exam=gate&duration=1mo)** — see where "Control Systems — Time and Frequency Response" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=gate&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[GATE exam overview](/exams/gate/)** — pattern, eligibility, and syllabus
+- **[All Subject-Specific notes](/notes/gate/subject-specific/)** — browse sibling topics in this subject
 
-G_c(s) = (1 + αT s) / (1 + T s), where α > 1
-
-- Increases K_p (improves steady-state error)
-- Small negative impact on phase margin
-- Adds low-frequency gain without significantly altering high-frequency response
-
-### Lead Compensator
-
-G_c(s) = (1 + T s) / (1 + αT s), where α < 1
-
-- Increases phase margin (improves transient response)
-- Increases bandwidth (faster response)
-- May amplify high-frequency noise
-
-### Lead-Lag Compensator
-
-Combines both: G_c(s) = (1 + T₁s)(1 + T₂s) / ((1 + αT₁s)(1 + αT₂s))
-- T₁ = lead time constant (α < 1)
-- T₂ = lag time constant (α > 1)
-
-## Frequency Response — Resonance Peak
-
-For standard second-order:
-
-**Resonant frequency:** ω_r = ω_n√(1 – 2ζ²) (only exists if ζ < 1/√2 ≈ 0.707)
-
-**Resonant peak:** M_r = 1/(2ζ√(1–ζ²)) (only if ζ < 0.707)
-
-> **GATE Trick:** If asked "what is the nature of system with given ζ?" — check: ζ < 0 → unstable oscillations grow; ζ = 0 → sustained oscillation; 0 < ζ < 1 → decaying oscillations.
-
-## Bode Plot — Asymptotic vs Actual
-
-Asymptotic Bode is approximate (straight lines at corner frequencies). Actual magnitude at corner frequency for a simple pole:
-- 20·log|G(jω_c)| = –20·log√2 = –3 dB (exactly)
-
-The **asymptotic approximation error** is:
-- Simple pole/zero: max 3 dB error at corner
-- Double pole/zero: max 6 dB error at corner
-
-## Closed-Loop Frequency Response
-
-|T(jω)| = |G(jω)| / |1 + G(jω)|
-
-Using Nichols chart, you can determine:
-- Closed-loop bandwidth (ω_BW where |T| drops to –3 dB of low-frequency gain)
-- Bandwidth ≈ ω_n for second-order systems
-- Higher ζ → narrower bandwidth, less ringing
-
-## Relationship Between Time and Frequency Domain
-
-| Parameter | Time Domain | Frequency Domain |
-|---|---|---|
-| Settling time | T_s ≈ 4/(ζω_n) | Bandwidth related |
-| Peak time | T_p = π/ω_d | Resonant peak M_r |
-| Overshoot | %OS = e^(–πζ/√(1–ζ²)) | M_r (higher M_r → higher %OS) |
-| Natural frequency | ω_n | Crossover frequency ω_c |
-
-**Approximate relations:**
-- PM ≈ 100ζ (for ζ between 0.2 and 0.8)
-- GM depends on high-frequency gain of G(s)
-- ω_c (crossover) ≈ ω_n for well-damped systems
-
-## GATE Exam Strategy — Time and Frequency Response
-
-**Expected question types:**
-1. Find %OS, T_s, T_p from given ζ, ω_n
-2. Draw Bode plot magnitude/phase from given G(s)
-3. Find GM and PM from Bode or Nyquist
-4. Determine steady-state error for step/ramp/parabolic input
-5. Find closed-loop transfer function from Bode data
-6. Stability analysis using Nyquist
-
-**Common GATE mistakes:**
-- Using settling time formula T_s = 4/(σ) where σ = real part of dominant pole (not ζω_n)
-- Confusing ω_d (damped frequency) with ω_n (natural frequency)
-- Drawing Bode with wrong slopes for repeated poles/zeros
-- Forgetting that GM/PM must be positive — negative means unstable
-- Miscounting poles at origin for type number
-
+---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

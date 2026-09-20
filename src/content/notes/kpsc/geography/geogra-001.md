@@ -8,208 +8,131 @@ topicName: Physical Geography of India
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-20"
 ---
 
 # Physical Geography of India
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision.
+> Scan this tier the night before Prelims — six lines, six facts.
 
-**Physical Geography of India** — Key Facts for KPSC KAS
-• **Location**: Lies between **8°4'N and 37°6'N latitudes** and **68°7'E and 97°25'E longitudes** — entirely in the Northern Hemisphere. Total area: **3.28 million sq km** (7th largest).
-• **Neighbours**: Pakistan, China (Tibet), Nepal, Bhutan, Bangladesh, Myanmar. Maritime neighbours: Sri Lanka, Maldives, Indonesia.
-• **Himalayan Mountains**: 2,500 km long arc from **Kashmir to Arunachal Pradesh**. Three parallel ranges: **Greater Himalayas (Himadri)**, **Lesser Himalayas (Himachal)**, **Shiwaliks**.
-• **Northern Plains**: Formed by **Indus, Ganga, and Brahmaputra** river systems. Alluvial soil, extremely fertile. Four divisions: Bhabar, Terai, Bangar, Khadar.
-• **Peninsular Plateau**: Comprises **Central Highlands** (Malwa, Bundelkhand, Chota Nagpur, Meghalaya) and **Deccan Plateau** (Western Ghats, Eastern Ghats, Eastern Coastal Plain, Western Coastal Plain).
-• **Desert**: **Thar Desert** in Rajasthan — Great Indian Desert, aeolian sand deposits.
-• **Coastline**: **7,517 km** including islands. Western coastal plain (Konkan, Karnataka, Malabar) and Eastern coastal plain (Coromandel, Utkal).
+**Memory Hook — H.A.D.I.C.I:** **H**imalayas, **A**ndaman-Nicobar, **D**esert (Thar), **I**ndo-Gangetic Plain, **C**oastal Plains, **I**slands (Lakshadweep). That is the standard six-fold physiographic division of India that KAS repeats every year.
 
-⚡ **Exam tip**: KPSC KAS frequently asks about the **divisions of the Himalayas**, **northern plain divisions**, and **peninsular plateau regions**. Questions often require identifying specific passes, peaks, or river systems on a map.
+- **Peninsular Block** is the ancient Gondwana fragment (Archean/Proterozoic, stable, hard rocks); the **Himalayan belt** is young, folded, sediment-rich — this split alone explains river type, soil, and seismic risk.
+- **Himalayan rivers** (Indus, Ganga, Brahmaputra) are **perennial, antecedent, dendritic** and form **deltas**. **Peninsular rivers** (Godavari, Krishna, Cauvery, Narmada, Tapti) are **rain-fed, seasonal**, mostly flowing east. Narmada and Tapti are the two westward exceptions — they occupy rift valleys.
+- The **Indian monsoon** is driven by differential heating of land and sea, the ITCZ shift to the Ganga plain in summer, and the Somali cross-equatorial jet. **El Niño** weakens it; **La Niña** strengthens it.
+- **Deccan Traps = basaltic igneous** (Cretaceous lava), which is why **black cotton soil (regur)** forms there. Western Ghats are **NOT** west of the Deccan — the Deccan lies **east** of the Ghats, in their rain-shadow.
+- **Karnataka in one line:** Malnad (Western Ghats, wet, Agumbe = wettest) | Bayaluseeme (rain-shadow plateau, semi-arid) | Coastal strip (narrow, laterite). Cauvery, Tungabhadra, Krishna, Sharavathi, Netravati are the rivers that examiners ask about.
+- **Lakshadweep = coral atolls only.** India's only **active** volcano is **Barren Island** in the Andamans — a frequent one-mark trap.
+
+> 💡 **High-Yield Revision Tip:** If a Prelims option lists "volcanic" for Lakshadweep, mark it wrong in under two seconds. That single false label catches ~30% of aspirants each session.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content.
+> Build the mechanism behind each fact before moving to edge cases.
 
-**Physical Geography of India** — KPSC KAS Study Guide
+#### Geological backbone of the subcontinent
 
-## India's Physical Features
+India sits on two structurally distinct blocks. The **Peninsular Craton** is a fragment of the former Gondwana supercontinent, stabilised by the Archean–Proterozoic, and hosts India's oldest rocks (Dharwar system: ~2.5–3.4 Ga) plus the coal-bearing **Gondwana** sedimentary formations. The **Himalayan belt** is the Cenozoic collision product of the Indian plate with Eurasia — young, folded, thrust-faulted, seismically active. Between them lies the alluvium-filled **Indo-Gangetic-Brahmaputra trough**, a foredeep that flexed down under Himalayan weight.
 
-### The Himalayan Mountain System
+| Era / Formation | Type | Key example | Significance |
+|---|---|---|---|
+| Archean Dharwar | Igneous + metamorphic | Closepet Granite, Bababudan | Oldest rocks; gold, iron ore |
+| Gondwana | Sedimentary | Raniganj, Jharia coal | India's coal reserves |
+| Deccan Traps | Basaltic igneous | Maharashtra, Karnataka | Forms regur (black) soil |
+| Siwalik | Sedimentary | Outer Himalaya foothills | Fossil mammals, soft rock |
 
-The Himalayas form a **geological young fold mountain system** created by the collision of the Indian plate with the Eurasian plate (approximately 25-30 million years ago, continuing at 5 cm per year).
+#### Physiographic divisions and their drainage
 
-**Three Parallel Ranges**:
+Six divisions per NCERT — **Northern Mountains, Northern Plains, Peninsular Plateau, Indian Desert, Coastal Plains, Islands.** Each has a characteristic drainage pattern:
 
-| Range | Altitude | Key Features |
+- **Himalayan rivers (perennial, antecedent):** Indus system, Ganga system, Brahmaputra system. Dendritic and trellis patterns on softer Siwaliks. **Agra – Allahabad (Prayagraj)** is the Ganga–Yamuna doab epicentre for Prelims maps.
+- **Peninsular rivers (rain-fed, seasonal):** Godavari (1465 km, largest), Krishna, Cauvery flow east → Bay of Bengal deltas. **Narmada and Tapti flow west → Arabian Sea**, occupying linear **rift valleys** and forming **estuaries, not deltas**.
+- **Karnataka rivers** worth memorising: **Krishna** (delta in AP), **Cauvery** (deltas at Thanjavur), **Tungabhadra** (tributary of Krishna), **Sharavathi** (Jog Falls, 253 m), **Netravati** (Mangalore, west-flowing).
+
+#### Monsoon mechanics
+
+Four drivers interact: **(1)** differential heating draws moist SW winds onshore June–September; **(2)** the **ITCZ** migrates to ~25°N over the Ganga plain; **(3)** the **Somali jet** supplies cross-equatorial moisture; **(4)** **ENSO** modulates intensity — El Niño suppresses rainfall, La Niña boosts it. The **retreating NE monsoon (Oct–Nov)** gives Tamil Nadu its chief rains. **Monsoon trough** position decides which sub-division gets surplus vs deficit rainfall in any given week.
+
+> ⚠️ **Examiner Trap:** Many answers mark the **Thar** as a desert "because it is far from the sea". Wrong mechanism — the **Aravalli range** lies parallel to the SW monsoon, casting a **rain-shadow**. Distance-from-sea is a tempting but incorrect reason.
+
+#### Soils and natural vegetation
+
+| Soil type | Parent material | Texture | Typical crop | Region |
+|---|---|---|---|---|
+| Alluvial | River deposits | Sandy–loamy, porous | Rice, wheat, sugarcane | Indo-Gangetic plain, deltas |
+| Black (Regur) | Deccan basalt | Clayey, moisture-retentive | Cotton, soybean | Maharashtra, Karnataka plateau |
+| Red | Crystalline rocks | Friable, iron-rich | Millets, groundnut | Eastern Deccan |
+| Laterite | Heavy leaching | Brick-like when dry | Tea, cashew, rubber | Western Ghats, NE India |
+| Desert | Aeolian sand | Coarse, low humus | Bajra, mustard | Western Rajasthan |
+
+#### Worked Mains-style answer
+
+> *"Discuss the role of physiography in shaping the drainage pattern of peninsular India."*
+
+The **westward tilt of the Deccan** (gentler than the eastern slope) and the **crest-line of the Western Ghats** together determine which rivers reach which sea. The Ghats act as a watershed divide: short, swift, **west-flowing rivers** (Sharavathi, Netravati, Kali) plunge to the Arabian Sea in <100 km; the longer **east-flowing rivers** (Godavari, Krishna, Cauvery) traverse the full plateau width, gather more tributaries, and deposit deltas. The two exceptions — **Narmada and Tapti** — follow pre-existing **rift faults** (NNW–SSE) that cut across the Ghats, which is why they neither form deltas nor follow the regional slope.
+
+> ⚠️ **Examiner Trap:** Credit the **fault-line control** for Narmada/Tapti, not "they simply chose to flow west". Any answer that omits the rift-valley mechanism loses one full mark on a 10-marker.
+
+#### Concept matrix — commonly confused pairs
+
+| Pair | Confused because | Real distinction |
 |---|---|---|
-| Greater Himalayas (Himadri) | 6,000+ metres | Permanent snowline; highest peaks including Mount Everest (8,849m), K2 (8,611m) |
-| Lesser Himalayas (Himachal) | 3,700-4,500 metres | Densely forested; major hill stations (Shimla, Mussoorie, Nainital) |
-| Shiwaliks (Outer Himalayas) | 900-1,500 metres | Unconsolidated sediments; Dun valleys |
+| Delta vs Estuary | Both are river mouths | Delta = tide-less depositional (Ganga, Godavari); estuary = tidal funnel with strong inflow (Narmada, Tapti, Zuari) |
+| Black soil vs Laterite | Both reddish-to-black | Black = **basaltic**, moisture-retentive; Laterite = heavily **leached**, infertile once dry |
+| Western Ghats vs Deccan Plateau | Sounds like two regions | Ghats are the **western edge**; Deccan Plateau is the **large block east of them** |
+| Coriolis vs Monsoon wind direction | Both involve Earth's rotation | Coriolis deflects winds; the **monsoon is a seasonal reversal** of the larger ITCZ-thermal cell |
+| Agumbe vs Cherrapunji | Both high-rainfall | Agumbe (~7,620 mm) is **Western Ghat orographic**; Cherrapunji is **meghalaya orographic + funneling** |
 
-**Important Passes**: **Khyber Pass** (connects India-Afghanistan), **Banihal**, **Zoji La** (Kashmir), **Nathula** (Sikkim-China border), **Bomdila** (Arunachal Pradesh).
-
-**Kashmir Himalayas**: Ladakh plateau (cold desert), Kashmir valley, Jammu region
-**Himachal Pradesh Himalayas**: Famous for hydroelectric projects (Bhakra Nangal)
-**Uttarakhand Himalayas**: Source rivers of Ganga system; pilgrim centres (Char Dhams)
-**Nepal Himalayas**: Entirely in Nepal; Annapurna, Dhaulagiri ranges
-**Assam Himalayas**: Easternmost section; Brahmaputra enters India through **Sadiya**
-
-### The Northern Plains
-
-Formed by deposition of alluvial sediments from three major river systems over millions of years. Extends **2,400 km east-west** and **240-320 km north-south**.
-
-**Four Divisions**:
-- **Bhabar**: Pebble-conglomerate deposits at foothills; streams disappear underground
-- **Terai**: Wet, marshy zone south of Bhabar; re-emerged streams
-- **Bangar**: Old alluvial deposits with calcarious nodules (Kankar); more elevated
-- **Khadar**: New floodplain deposits; renewed every flooding season; most fertile
-
-**Punjab Plains**: Created by Indus and its five tributaries (Satluj, Beas, Ravi, Chenab, Jhelum). Doabs between rivers.
-
-**Ganga Plains**: Most extensive; covers parts of Haryana, Delhi, UP, Bihar, Jharkhand, West Bengal. Divides into **Ganga-Yamuna Doab**, **Bihar Rohdoen**, **Bengal Delta**.
-
-**Brahmaputra Plains**: Assam valley; characterized by **Brahmaputra's braided channel** and ** Majuli island** (world's largest river island).
-
-### The Peninsular Plateau
-
-Divided into the **Central Highlands** (north of Narmada) and **Deccan Plateau** (south of Narmada).
-
-**Central Highlands**:
-- **Malwa Plateau**: Between Madhya Pradesh and Rajasthan; Chambal, Sind, Betwa rivers
-- **Bundelkhand Upland**: Between Yamuna and Vindhya; largely scrubland
-- **Chota Nagpur Plateau**: Eastern plateau; richest mineral belt (Jharkhand, West Bengal, Odisha); Damodar, Subarnarekha rivers
-- **Meghalaya Plateau**: Northeast; separated by Garo and Khasi hills
-
-**Deccan Plateau**:
-- **Western Ghats**: 1,600 km; UNESCO World Heritage at **Western Ghats** (2012); altitude 900-1,800 metres; passes: Palakkad (0-77m), Goa passes
-- **Eastern Ghats**: 1,400 km; discontinuous; lower altitude than Western Ghats
-- **Western Coastal Plain**: Narrow (50-80 km); rivers short; includes **Konkan Plain** (Maharashtra), **Karnataka Coastal Plain**, **Malabar Coast** (Kerala)
-- **Eastern Coastal Plain**: Broad (80-100 km); rivers longer; includes **Coromandel Coast** (TN), **Utkal Coast** (Odisha); **Mahanadi Delta** (Odisha)
-
-**Western Coastal Plain vs Eastern Coastal Plain**:
-The western coast is characterized by **backwaters** (Kerala's **Kuttanad** system) and **rial** formations, while the eastern coast has **deltas and lagoons**. The western coast is geologically older.
+> 📌 **Karnataka-specific:** Agumbe, Amagaon, Hulikal in the Western Ghats form a "rainfall triple" — examiners routinely ask why Agumbe receives more than the Kerala coast (orographic uplift over a 600 m escarpment + funneling).
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage.
+> Edge cases, advanced traps, and the questions that separate toppers from qualifiers.
 
-**Physical Geography of India** — Comprehensive KPSC KAS Notes
+#### Edge cases that appear in KAS Mains
 
-## Geological Origins and Tectonic Framework
+- **Rain-shadow gradient across Karnataka** is steep: Agumbe 7,620 mm → Bhagamandala 5,000 mm → Bangalore 970 mm → Bijapur 580 mm. This single gradient (≈13× over ~400 km) frames multiple Mains questions on drought, watershed development, and crop zoning.
+- **Lakshadweep–Andaman confusion:** Lakshadweep is **coral atoll** (reef ring + lagoon), no volcanism. **Andaman-Nicobar** is a **volcanic arc** marking the Sunda subduction zone — **Barren Island** (India's only active volcano, last erupted 2017) and **Narcondam** (dormant) sit on it.
+- **Drought is not one phenomenon.** *Meteorological* drought = rainfall deficit >25%; *hydrological* drought = streamflow and reservoir failure; *agricultural* drought = soil-moisture failure. A good Mains answer names all three and identifies **Bayaluseeme** as hydrologically drought-prone even in "normal" monsoon years.
+- **Soil catena on the Deccan:** Black soil occurs on flat basalt uplands; red soil occurs on slopes where erosion strips the basalt; laterite caps the Ghats where leaching is intense. A "transect" question tests whether you can read this catena.
+- **ENSO–Indian Ocean Dipole (IOD) interaction:** A positive IOD can override a developing El Niño and deliver a *normal* monsoon (e.g., 1997). Pure ENSO-based prediction fails on this nuance.
 
-### Plate Tectonic Context
+#### Numerical realities to internalise
 
-India's landmass was once part of the ancient supercontinent **Gondwanaland**. Approximately **180 million years ago**, it began separating and drifting northward until colliding with the Eurasian plate. This collision:
-- Created the Himalayas (still rising at 5 cm/year)
-- Formed the Tibetan Plateau
-- Created the **Tethys Sea** which once separated the landmasses
-
-**Evidence of ongoing tectonic activity**:
-- Regular earthquakes in the Himalayan region (2005 Kashmir earthquake — 7.6 magnitude)
-- The **2015 Nepal earthquake** (7.8 magnitude) demonstrated continued plate collision effects
-- Volcanic activity in the Andaman and Nicobar Islands
-
-### Himalayan Division Details
-
-**Kashmir Himalayas**:
-- **Karakoram Range**: Beyond Himalayas; K2 (8,611m — world's 2nd highest), Siachen Glacier (76 km — world's 2nd longest outside polar regions)
-- **Zaskar Range**: Between Greater Himalayas and Lesser Himalayas in Kashmir
-- **Kashmir Valley**: Oval-shaped valley between Pir Panjal and Zaskar ranges; Jhelum River flows through
-- **Kashmir's physical significance**: Acts as a strategic buffer zone; source of major rivers (Indus, Jhelum, Chenab, Beas, Ravi)
-
-**Himachal and Uttarakhand Himalayas**:
-- Major hydroelectric potential (Bhakra Nangal Dam, Tehri Dam)
-- **Dhauladhar Range**: Visible from Punjab plains; distinctive white limestone appearance
-- **Kinnaur Himalayas**: Sutlej river valley; significant apple production region
-
-**Nepal Himalayas**:
-- Entirely contained within Nepal
-- **Kangchenjunga** (8,586m — world's 3rd highest, on Nepal-Sikkim border)
-- **Annapurna** range (8,091m — popular trekking destination; site of tragic 2014 avalanche)
-
-**Assam Himalayas** (Eastern Himalayas):
-- **Namcha Barwa** (7,782m) — easternmost peak of the Himalayas
-- **Brahmaputra's entry into India**: Through the **Sadiya** gap in Arunachal Pradesh
-- **Dafla Hills** and **Miri Hills** as sub-ranges
-
-### The Northern Plains: Formation and Features
-
-The northern plains are an **example of depositional topography** created by the Himalayan rivers depositing massive quantities of alluvial sediments over millions of years. Three distinct fill periods are recorded:
-
-1. **Sivalik sediments** (Shiwalik formation): Gravel and conglomerate
-2. **Older alluvium** (Bangar): Sandy, clay-rich
-3. **Newer alluvium** (Khadar): Fine silt, renewed by annual flooding
-
-**Punjab-Haryana Plain**:
-- Known as the **Granary of India**; intensive agriculture supported by canal irrigation
-- **Bhakra Nangal Project**: Multi-purpose river valley project
-- Doabs are important agricultural zones
-
-**Ganga Plain** subdivisions:
-- **Upper Ganga Plain**: Delhi to Allahabad; intensive irrigation (Ganga Canal system)
-- **Middle Ganga Plain**: Allahabad to Maldah (Bihar); rice-wheat rotation dominant
-- **Lower Ganga Plain**: Maldah to Bay of Bengal; delta formation begins
-
-**Bengal Delta**:
-- World's largest delta (75,000 sq km)
-- **Sunderbans**: Mangrove forest; UNESCO World Heritage Site (1987 and 1992); tiger reserve
-- Active delta building; subsidence evident in frequent flooding
-
-### The Peninsular Plateau: Geological Structure
-
-The peninsular plateau is composed of **ancient block mountains and rift valleys** — among the world's most stable geological formations.
-
-**Gondwana Rocks**: The Damodar Valley contains **Gondwana coal deposits** (Permian period, 250 million years old) — approximately 90% of India's coal reserves.
-
-**Deccan Trap**: Extensive volcanic basalt formations covering approximately 500,000 sq km in Maharashtra, Gujarat, and parts of Karnataka. Created by volcanic eruptions approximately 65 million years ago (coinciding with dinosaur extinction). Rich black cotton soil (Regur) develops on these basaltic formations.
-
-**Chota Nagpur Plateau — Mineral Heartland**:
-- **Jharia coalfield**: Primary coking coal reserves
-- **Singareni coalfield**: Telangana
-- Mica, micaite, copper, iron ore, manganese — all extracted here
-
-### Western vs Eastern Ghats: A Comparison
-
-| Feature | Western Ghats | Eastern Ghats |
+| Parameter | Approximate value | Why it matters |
 |---|---|---|
-| Length | 1,600 km | 1,400 km |
-| Continuity | More continuous | Discontinuous |
-| Average altitude | 900-1,800 m | 500-1,500 m |
-| Highest peak | Anamudi (2,695 m, Kerala) | Mahendragiri (1,501 m, Odisha) |
-| Rivers | Short, fast-flowing | Longer rivers (Mahanadi, Godavari, Krishna) |
-| passes | Palakkad Gap most important | Multiple river gaps |
-| Rainfall | Higher (2000-3000 mm) | Lower (1000-1500 mm) |
+| Agumbe annual rainfall | ~7,620 mm | "Rainfall capital of Karnataka", not of India |
+| Western Ghats length | ~1,600 km | Bisects SW monsoon moisture flux |
+| Jog Falls (Sharavathi) drop | 253 m | Tallest plunge waterfall in India |
+| Godavari length | 1,465 km | Longest peninsular river (longer than Krishna 1,401 km) |
+| Siwalik altitude range | 600–1,500 m | Outer-most Himalaya; erosion-prone, fragile |
 
-### Islands
+#### Common mistakes that lose ranks
 
-**Andaman and Nicobar Islands**:
-- 572 islands; Bay of Bengal
-- **Barren Island** (Andaman): Active volcano (last eruption 2017)
-- **Indira Point** (Great Nicobar): Southernmost point of Indian territory
-- **Biodiversity hotspot**: Coral reefs, indigenous tribal communities
+1. Calling the **Aravalli range** a "young fold mountain". It is **Precambrian**, one of the oldest fold ranges on Earth, heavily denuded.
+2. Treating **Narmada** as flowing south then east. It flows **west** from Amarkantak directly to the Gulf of Khambhat.
+3. Marking the **Andaman Islands** as coral. They are **volcanic + fringed reef**, not atoll.
+4. Naming **Cauvery** as west-flowing. It enters the **Bay of Bengal**, forms a delta near Thanjavur.
+5. Forgetting that the **Western Ghats break at Palakkad Gap** — the only major discontinuity, and a biodiversity corridor.
+6. Confusing **SW monsoon retreat with NE monsoon onset** — they overlap in October; both can occur in the same calendar week.
 
-**Lakshadweep Islands**:
-- 36 islands; Arabian Sea; coral atolls
-- Total area: 32 sq km (smallest union territory)
-- **Minicoy Island**: Strategically located near the Nine Degree Channel
+> ⚠️ **Advanced Trap:** "Monsoon failure = drought" is the Mains-level error. A district can receive 100% of seasonal rainfall yet suffer hydrological drought if the rainfall arrives in 3 days instead of 30. Always specify **drought type**.
 
-### Examination Strategy
+#### Two practice prompts for self-testing
 
-**Commonly asked KPSC KAS questions**:
-1. Differentiate between Western and Eastern Ghats
-2. Explain the formation of the Northern Plains
-3. Describe the Himalayan divisions and their characteristics
-4. Discuss the Western Coastal Plain vs Eastern Coastal Plain
-5. Identify major passes and their significance
+1. *A Mains 15-marker:* "Examine the role of the Western Ghats as a biogeographic hotspot and the threats from hydel projects, with special reference to Karnataka." — your answer should cite Sharavathi, Linganamakki, the Agumbe–Someshwara corridor, the **Myristica swamp** endemics, and the 2018 Western Ghats Ecology Expert Panel (Kasturirangan) recommendations.
+2. *A Prelims MCQ-style reasoning exercise:* Given that Bayaluseeme sits at ~400–700 m elevation, west of the Ghats but in the rain-shadow, predict **(a)** dominant soil, **(b)** dominant vegetation, **(c)** monsoon that delivers its scarce rainfall. Expected: black/red mixed soil → dry deciduous + thorn scrub → **retreating NE monsoon supplementary** + low SW monsoon.
 
-**Key distinctions**:
-- **Doab**: Land between two rivers (Punjab has five Doabs)
-- **Bhabar vs Terai**: Bhabar is pebble-conglomerate zone where streams disappear; Terai is marshy zone where streams re-emerge
-- **Bangar vs Khadar**: Old alluvium vs new floodplain deposits
-- **Constitutional vs geographical boundaries**: States don't always follow physical geography features
+> 📌 **Examiner mindset:** KAS Mains rewards answers that **name Karnataka places** alongside the general Indian concept. A bare NCERT answer scores average; an answer that mentions Jog Falls, Agumbe, Bayaluseeme, and the Sharavathi hydel project scores higher.
 
----
+## Continue your study
+
+- **[View this topic in your KPSC KAS roadmap](/roadmap/?exam=kpsc&duration=1mo)** — see where "Physical Geography of India" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=kpsc&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[KPSC KAS exam overview](/exams/kpsc/)** — pattern, eligibility, and syllabus
+- **[All Geography notes](/notes/kpsc/geography/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

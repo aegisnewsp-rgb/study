@@ -8,223 +8,113 @@ topicName: Agriculture in Rajasthan
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-20"
 ---
 
 # Agriculture in Rajasthan
 
-### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-Agriculture in Rajasthan is shaped by the state's **arid and semi-arid climate** — approximately **62%** of the state's area is under cultivation, but only about **38%** is irrigated. The remaining **62%** is dependent on the unreliable monsoon. Rajasthan is a **major producer of mustard, bajra, wheat, cotton, soybean, and spices.**
+### 🟢 Lite — Quick Review (1h–1d)
 
-**Key Facts for RPSC RAS:**
-- Rajasthan is India's **largest producer of mustard** (rapeseed) and **bajra (pearl millet)** — both are drought-resistant crops suited to Rajasthan's climate.
-- The **Indira Gandhi Canal** has brought significant new agricultural land under cultivation in western Rajasthan.
-- **Bikaner, Ganganagar, and Hanumangarh** are known as the "food bowl" of Rajasthan due to wheat and mustard production.
-- **Kota** is a major cotton-producing region.
-- Organic farming is growing in Rajasthan — particularly in the **Sirohi district** (home to Navdanya's organic network).
-- Rajasthan has the largest **cattle** population in India and is a major producer of **milk, ghee, and wool**.
+Rajasthan farms on the edge of water. Of its ~3.42 lakh km², only about 55% is cultivable and the net sown area hovers near 52–55% with cropping intensity around 142%.
 
-**⚡ Exam tip:** Crop distribution patterns, irrigation methods, and the distinction between kharif and rabi crops in Rajasthan are high-yield topics. Also know the major agricultural zones.
+| Parameter | Value / Range |
+|---|---|
+| Geographical area | ~3.42 lakh km² (largest state in India by area) |
+| Net Sown Area share | ~52–55% of geographical area |
+| Cropping Intensity | ~142% (Economic Survey) |
+| Share in GSDP | ~25–28% from agriculture |
+| Largest producer of | Bajra, mustard, guar, cumin, coriander, methi, wool |
+| Top irrigation source | Indira Gandhi Canal (IGNCP) |
+
+- Kharif trio on drylands: bajra, jowar, moth/guar.
+- Rabi trio with canal water: wheat, mustard, gram.
+- Soils to remember: Aridisols dominate; Vertisols mark Hadoti.
+- Zones split into 10 agro-climatic belts (NBSS&LUP).
+
+> 💡 **High-Yield Memory Hook (Mnemonic):** "Bajra Before, Mustard Middle, Wheat Comes With Water" — read as B-B-M-M-W-C-W: Bajra-Barfani, Mustard-Moth, Wheat-with-Canal-Water. Pair the crop with its water trigger and the rabi/kharif tag sticks.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
 
-## Agricultural Zones and Crop Patterns
+#### Agro-Climatic Zoning
 
-### Major Crop Zones
+NBSS&LUP groups Rajasthan into 10 zones: Ia–Ic (Arid Western Plain), IIa–IIb (Semi-Arid), IIIa–IIIb (Sub-Humid Eastern Plain), IVa–IVb (Humid), V (Flood-prone). Rainfall dictates the crop basket: <250 mm (Jaisalmer, Barmer) → bajra-moth-gram; 250–500 mm → bajra-jowar-mustard; 500–750 mm → maize-wheat-mustard; >750 mm (Bharatpur, Dholpur, Karauli, Kota-Bundi) → rice-wheat-mustard.
 
-**1. Western Desert Region (Arid Zone) — Jaisalmer, Barmer, Bikaner:**
-- **Kharif crops:** Bajra, moong (green gram), Guar
-- **Rabi crops:** Wheat (limited irrigation), mustard (limited)
-- **Speciality crops:** Isabgol (psyllium husk), ajwain (carom seeds), cumin
-- **Irrigation:** Tube wells, limited canal water
+#### Crop–Soil–Water Matrix
 
-**2. Transitional Sandy Zone (Semi-Arid) — Nagaur, Jodhpur, Pali:**
-- **Kharif:** Bajra, jowar, moong, groundnut
-- **Rabi:** Wheat, mustard, cumin, coriander
-- **Irrigation:** Tube wells, some canal water
+| Region / Zone | Dominant Soil | Rainfall (mm) | Signature Crop |
+|---|---|---|---|
+| Western Arid (Ia–Ic) | Entisols, Aridisols | <250 | Bajra, moth, guar |
+| Semi-Arid (IIa–IIb) | Aridisols, alluvial patches | 250–500 | Jowar, bajra, mustard |
+| Sub-Humid Eastern (III) | Alluvial, Inceptisols | 500–750 | Wheat, mustard, gram |
+| Hadoti Plateau (IV) | Vertisols (black cotton) | 600–900 | Soybean, coriander, wheat |
+| IG Canal Command | Alluvial, irrigated | <250 (assured canal) | Wheat, mustard, cotton, rice pockets |
 
-**3. Aravalli Region (Sub-Humid to Semi-Arid) — Udaipur, Bhilwara, Ajmer:**
-- **Kharif:** Maize, soyabean, rice, bajra
-- **Rabi:** Wheat, barley, gram, mustard
-- **Irrigation:** Wells, tanks, some canal
+#### Irrigation Sources and Ratios
 
-**4. Eastern Alluvial Plains (Semi-Humid) — Kota, Bundi, Sawai Madhopur, Bharatpur:**
-- **Kharif:** Rice, cotton, soyabean, jowar
-- **Rabi:** Wheat, mustard, barley, peas
-- **Irrigation:** Canals, tube wells — most productive agricultural zone
+Cropping intensity (CI) and irrigation intensity (II) are separate ratios. CI = (GCA / NSA) × 100; II = (Gross Irrigated Area / Net Irrigated Area) × 100. Rajasthan scores ~142% on CI but only ~45–48% on II — the gap explains why rabi sowing depends entirely on canal releases.
 
-**5. Canal-Irrigated Zone (Ganganagar, Hanumangarh):**
-- **Kharif:** Cotton, bajra, guar
-- **Rabi:** Wheat, mustard, gram
-- **Irrigation:** Indira Gandhi Canal — most reliable irrigation in Rajasthan
+IGNCP draws from Harike Barrage (Sutlej–Beas confluence in Punjab) and feeds the Thar districts through a ~6,000 km canal network. Chambal, Bhakra-Nangal, Mahi Bajaj Sagar and Bisalpur supplement surface supply; tubewells dominate the eastern alluvial belt.
 
----
+#### Worked Example: Cropping Intensity in a District
 
-### Major Crops — Details
+A district reports Net Sown Area = 2,00,000 ha and Gross Cropped Area = 2,84,000 ha. Compute cropping intensity and interpret for RPSC framing.
 
-#### Bajra (Pearl Millet) — Rajasthan's Signature Crop
+- Step 1: Apply the formula — CI = (GCA / NSA) × 100.
+- Step 2: Plug numbers — CI = (2,84,000 / 2,00,000) × 100 = 142%.
+- Step 3: Read the meaning — a CI above 100% means the district grows at least two crops a year on part of its land, almost always because assured irrigation (canal or tube-well) supports a rabi follow-up to kharif.
 
-- **Rajasthan is India's largest bajra producer** (approximately 40% of India's production)
-- **Kharif crop** — sown with monsoon onset (June-July), harvested in September-October
-- **Drought-resistant** — the ideal crop for Rajasthan's arid climate
-- **Nutritional value:** High in iron, fibre, and protein; gluten-free
-- **Major districts:** Jodhpur, Nagaur, Bikaner, Barmer, Jaisalmer
-- **Yield:** Highly variable — from 300 kg/ha (rainfed) to 1,500 kg/ha (irrigated)
+> ⚠️ **Examiner Trap:** Candidates often quote "142%" as the *irrigation* intensity of Rajasthan. CI > 100% is normal and only proves multiple cropping; II is the indicator that links water to output, and the two must never be swapped in an answer.
 
-#### Mustard (Rapeseed-Mustard)
+#### Livestock and Allied Economy
 
-- **Rajasthan is India's largest mustard producer** — approximately 45% of India's production
-- **Rabi crop** — sown in October, harvested in March-April
-- **Types:** Yellow Sarson (Brassica rapa), Brown Sarson (Brassica compestris), Toria (Brassica napus)
-- **Major districts:** Ganganagar, Hanumangarh, Bikaner, Kota, Bharatpur
-- **Yield:** 1,200-2,000 kg/ha (irrigated)
-- **Use:** Oilseed — Rajasthan produces the most mustard oil in India
-- **Byproduct:** Mustard cake — used as animal feed and fertiliser
+Rajasthan holds India's largest livestock herd. Camel (Thar breed), goat (Sirohi, Marwari), sheep (Marwari, Chokla wool), and cattle (Tharparkar, Rathi, Nagauri) anchor arid farming. Wool output is #1 nationally; dairy cooperatives (Saras, Paayas) cluster around Jaipur, Alwar and Bikaner.
 
-#### Wheat (Gehu)
+#### Marketing, Schemes and Policy Layer
 
-- **Rabi crop** — India's most important foodgrain
-- **Major districts:** Ganganagar, Hanumangarh, Bikaner (canal-irrigated), Kota, Jaipur
-- **Yield:** 3,000-5,000 kg/ha (irrigated)
-- **Varieties:** Durum wheat (for pasta) is grown in the Indira Gandhi Canal area
-- **Rajasthan's wheat production:** Approximately 10 million tonnes annually
-
-#### Cotton (Kapas)
-
-- **Kharif crop** — Rajasthan is India's 4th largest cotton producer
-- **Major districts:** Kota, Bundi, Bhilwara, Jhalawar (black cotton soil areas)
-- **Types:** American cotton (long staple), Desi cotton (short staple)
-- **Rajasthan cotton advantage:** Black cotton soil (regur) is ideal for cotton
-- **Used for:** Textiles, oilseed (cottonseed oil)
-
-#### Soybean (Soyabean)
-
-- **Kharif crop** — grown in the more humid southeastern districts
-- **Major districts:** Udaipur, Kota, Bundi, Jhalawar
-- **Use:** Vegetable oil, industrial applications, soy protein
-- **Area under cultivation:** Expanding rapidly in Rajasthan
-
-#### Pulses
-
-- **Moong (green gram):** Kharif — Jodhpur, Barmer, Bikaner
-- **Chana (gram):** Rabi — Kota, Bundi, Jhalawar
-- **Masoor (lentil):** Rabi — Ganganagar, Bikaner
-- Rajasthan is a major pulse-producing state — but domestic production is insufficient, requiring imports
+- **e-NAM** is the central digital mandi grid; the **Rajasthan Agricultural Produce Markets Act** governs physical mandis — they coexist, they are not the same.
+- **PM-KISAN**, **PM Fasal Bima Yojana**, **Soil Health Card**, **Raj Kisan Saathi**, and **Mukhyamantri Kisan Mitra Urja Yojana** are the recurring names in prelims.
+- Universities: SKN Agriculture University (Jobner), MPUAT (Udaipur), Agriculture University Kota.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
 
-## Agricultural Economics and Challenges
+#### Edge Cases and Limits
 
-### Irrigation — The Lifeline of Rajasthan's Agriculture
+- **Hadoti ravines vs eastern plains.** The Chambal ravines cut through Kota, Bundi, Baran and Sawai Madhopur; their Vertisol–Alfisol mix demands contour bunding and check-dams before any cropping claim is justified. Treating Hadoti as a plain-wheat zone loses marks on soil-conservation questions.
+- **Assured irrigation ≠ high rainfall.** Sri Ganganagar and Hanumangarh receive <250 mm rainfall yet produce wheat–mustard–cotton because IGNCP delivers Punjab's surplus. The trap answer is to credit "rainfall" for their productivity.
+- **Cropping intensity ceiling.** In India's arid states, CI above 150% strains groundwater and depletes the Aridisols' thin A-horizon. RPSC Mains has asked whether further intensification is ecologically viable.
+- **Zaid crops.** Moong, fodder cowpea and vegetables occupy a small window between rabi harvest and kharif sowing — usually missing from textbook lists but tested in Mains.
 
-Only **38%** of Rajasthan's cultivated area is irrigated. The breakdown:
+#### Advanced Traps
 
-**Sources of Irrigation:**
-| Source | Percentage | Area (approx.) |
-|---|---|---|
-| Tube wells/bore wells | 55% | 35 lakh hectares |
-| Canals | 30% | 19 lakh hectares |
-| Wells | 10% | 6 lakh hectares |
-| Tanks/ponds | 5% | 3 lakh hectares |
+1. Quoting Rajasthan as "largest wheat producer" — UP holds that rank; Rajasthan leads in bajra, mustard, guar, cumin, coriander, methi, and wool.
+2. Attributing IGNCP water to a Rajasthani river — the canal begins at Harike Barrage on Sutlej–Beas in Punjab.
+3. Treating "Net Sown Area" as a fixed number — NSA shifts with land-use conversion, deforestation and urban spread.
+4. Conflating e-NAM (central platform) with state APMCs (physical mandis).
+5. Crediting Green Revolution uniformly — only Sri Ganganagar, Hanumangarh, Kota, Bundi, Bharatpur received HYV seeds in scale.
+6. Ignoring breed geography: Rathi cattle come from Bikaner–Ganganagar belt, Nagauri from Nagaur, Tharparkar from the desert south.
 
-**Canal Irrigation:**
-- The **Indira Gandhi Canal** is the largest — benefits Bikaner, Jaisalmer, Barmer, Jodhpur
-- The **Chambal Canal System** (Kota, Bundi) — most reliable in eastern Rajasthan
-- The **Bhakra Canal System** (Ganganagar, Hanumangarh) — major wheat-mustard area
+#### Numerical Practice Prompts
 
-**Groundwater Irrigation:**
-- Tube wells have transformed agriculture in the past 50 years
-- However, **over-extraction** is causing falling water tables
-- In some areas (e.g., parts of Jodhpur, Nagaur), water tables have dropped by 5-10 metres in two decades
+- Prompt A: A tehsil has NSA = 80,000 ha and GCA = 1,12,000 ha. Calculate cropping intensity and state whether two-cropping is dominant.
+- Prompt B: District X reports Net Irrigated Area = 60,000 ha and Gross Irrigated Area = 84,000 ha. Derive irrigation intensity and contrast with a district at 35%.
 
-### Major Agricultural Challenges
+#### Connections to Adjacent Topics
 
-**1. Erratic Monsoon:**
-- Rajasthan receives only ~57 cm of average annual rainfall
-- The monsoon is highly variable — droughts occur every 3-5 years
-- Climate change is making the monsoon even more unpredictable
+- **Water resources** — pairs with hydrology questions on Indira Gandhi Canal, Bisalpur and Mahi.
+- **Soil classification** — links to Aridisols, Vertisols, Entisols in the Geography syllabus.
+- **Economy of Rajasthan** — agriculture's 25–28% GSDP share and ~60% employment feed into Mains GS Paper II.
 
-**2. Water Scarcity:**
-- Per capita water availability in Rajasthan is among the lowest in India
-- Groundwater extraction exceeds recharge in many areas
-- Canal water is unevenly distributed
+## Continue your study
 
-**3. Soil Degradation:**
-- Wind erosion in the desert
-- Water erosion in Aravalli areas
-- Salinity from canal irrigation without drainage
-- Loss of topsoil due to over-cultivation
+- **[View this topic in your RPSC RAS roadmap](/roadmap/?exam=ras&duration=1mo)** — see where "Agriculture in Rajasthan" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ras&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[RPSC RAS exam overview](/exams/ras/)** — pattern, eligibility, and syllabus
+- **[All Geography notes](/notes/ras/geography/)** — browse sibling topics in this subject
 
-**4. Desertification:**
-- The Thar Desert is expanding eastward
-- Loss of vegetation cover
-- Reduced organic matter in soils
-
-### Government Schemes for Agricultural Development
-
-**Rajasthan Agricultural Relief and Development:**
-- **Bhavantar Yojana** — price deficit payment scheme for farmers
-- **Kisan Credit Card** — institutional credit to farmers
-- **PM-Kisan Samman Nidhi** — direct income transfer to farmers
-- **Fasal Bima Yojana** — crop insurance against weather events
-
-**Rajasthan State Agricultural Marketing Board:**
-- **Mandi system** — regulated agricultural markets
-- e-RaKam platform — online trading of agricultural produce
-
-### Organic Farming in Rajasthan
-
-**Rajasthan Organic Mission:**
-- Sirohi district has become India's first fully organic district (as of 2020) — through Navdanya's work with the state government
-- Organic farming uses no synthetic fertilisers or pesticides
-- Major organic crops: Spices (cumin, coriander, fennel), pulses, millets, honey
-
-**Spice Production:**
-- Rajasthan is a major producer of **cumin (jeera)**, **coriander (dhania)**, **fennel (saunf)**, and **ajwain**
-- Major spice-producing areas: Jodhpur, Nagaur, Barmer, Jaisalmer
-- Spices are high-value crops that provide good income for small farmers
-
-### Livestock and Animal Husbandry
-
-Rajasthan has India's **largest cattle population** and is a major producer of milk:
-
-**Breeds:**
-- **Rajasthani cattle:** Gir (from Gujarat, common in southern Rajasthan), Tharparkar (drought-resistant)
-- **Camels:** Bikaneri, Jaisalmeri — Rajasthan has India's largest camel population (declining due to mechanisation)
-- **Sheep:** Marwari, Chokla, Nali breeds — for wool and meat
-- **Goats:** Sirohi, Barbari, Jamunapari — for milk and meat
-
-**Dairy:**
-- Rajasthan is among India's top milk-producing states
-- **Per capita milk availability:** Relatively high
-- **Cooperative dairy movement:** Bikaner, Jaipur, Udaipur have significant dairy cooperatives
-
-**Wool:**
-- Rajasthan produces approximately **40% of India's raw wool**
-- Major wool-producing districts: Bikaner, Jaisalmer, Barmer, Jodhpur
-- Wool is used for carpets, blankets, and textiles
-
-### Practice Questions for RPSC RAS
-
-1. Explain the agricultural zones of Rajasthan and the major crops in each zone.
-2. Why is Rajasthan India's largest producer of bajra and mustard? How do these crops suit Rajasthan's climate?
-3. What are the major challenges facing agriculture in Rajasthan? How can they be addressed?
-4. Discuss the role of the Indira Gandhi Canal in transforming the agriculture of western Rajasthan.
-5. What is the significance of livestock in Rajasthan's agricultural economy?
-
-### Common Mistakes to Avoid
-
-- **Thinking all of Rajasthan can grow wheat** — wheat requires water; the desert western districts can only grow wheat in limited canal-irrigated areas.
-- **Forgetting the spice production** — Rajasthan is a major spice-producing state, often overlooked in favour of cereals.
-- **Confusing bajra with wheat** — they are different crops suited to different moisture conditions; bajra is rain-fed, wheat is irrigated.
-
----
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

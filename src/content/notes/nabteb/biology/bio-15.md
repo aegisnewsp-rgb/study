@@ -11,7 +11,7 @@ topicName: Human Health and Disease
 weight: 3
 country: nigeria
 generated: "2026-03-24T08:32:07.578295"
-lastUpdated: "2026-06-22"
+lastUpdated: "2026-09-20"
 diagramPrompt: "Detailed biological diagram of Human Health and Disease with labeled parts, accurate proportions, white background, color-coded tissues/organs, textbook quality"
 
 
@@ -22,77 +22,98 @@ diagramPrompt: "Detailed biological diagram of Human Health and Disease with lab
 
 # Human Health and Disease
 
+> NABTEB Biology target: ~3% weight, with objective items on pathogen identification and short essays on immunity, disease transmission, and HIV/AIDS.
+
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+> One-line takeaway: split diseases into **communicable** (pathogen-driven) and **non-communicable** (degenerative, nutritional, genetic) before you answer anything.
 
-- **Health** is a state of complete physical, mental, and social well-being, not merely the absence of disease (WHO definition).
-- **Pathogens** are disease-causing organisms: **bacteria** (e.g. *Mycobacterium tuberculosis*, *Vibrio cholerae*), **viruses** (HIV, measles, polio, influenza), **protozoans** (*Plasmodium* in malaria, *Trypanosoma* in sleeping sickness), **fungi** (ringworm), and **rickettsias**.
-- **Vectors** carry pathogens: *Anopheles* mosquito → malaria; tsetse fly → trypanosomiasis; *Aedes* mosquito → yellow fever; housefly → cholera/typhoid.
-- The body defends itself in **three lines**: skin/mucous membranes → phagocytes and inflammation → specific immunity via **B-lymphocytes** (antibody production) and **T-lymphocytes** (cell-mediated killing).
-- **Vaccination** stimulates antibody production artificially without causing disease — the basis of immunisation programmes tested in NABTEB.
-- Drug abuse consequences: tobacco → lung cancer/emphysema; alcohol → liver cirrhosis; hallucinogens/stimulants → nervous system damage.
+- **Health** (WHO): complete physical, mental, social and spiritual well-being — not merely absence of disease.
+- **Disease**: any deviation from normal, marked by **signs** (objectively measurable: fever, rash, blood pressure) and **symptoms** (subjectively felt: pain, nausea, dizziness).
+- **Pathogens** — agents that cause communicable disease:
+  - Bacteria → tuberculosis, cholera, typhoid, gonorrhoea
+  - Viruses → HIV, influenza, poliomyelitis, measles, dengue, yellow fever
+  - Fungi → ringworm, candidiasis
+  - Protozoans → malaria (*Plasmodium*), trypanosomiasis
+  - Helminths → schistosomiasis, tapeworm
+- **Memory Hook ("PAV-CB"): Pathogen • Agent • Vector • Carrier • Body defence** — five things examiners love to test in one MCQ.
+- **Defence lines**: 1st = skin, mucous membranes, tears, saliva, cilia; 2nd = phagocytosis, inflammation, fever; 3rd = lymphocytes making antibodies.
+- **Immunity split**: **active** = body produces its own antibodies (after infection or vaccine); **passive** = ready-made antibodies from mother (placenta, breast milk) or antiserum.
 
----
+| Term | One-line recall |
+|---|---|
+| Epidemic | Sudden outbreak in one region |
+| Endemic | Constantly present in an area |
+| Pandemic | Spreads across countries/worldwide |
+| Vector | Organism that carries pathogen from host to host |
+| Carrier | Person who harbours pathogen with no obvious illness |
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+> Use this section when you have a week or more: it lays out *why* each defence works and where most NABTEB candidates lose marks.
 
-#### Classification of Diseases
-Diseases fall into two broad groups. **Communicable (infectious) diseases** spread from one person (or animal) to another via pathogens — examples are tuberculosis, malaria, cholera, HIV/AIDS, and measles. **Non-communicable diseases** do not spread between individuals; they include degenerative disorders (e.g. hypertension), deficiency diseases (e.g. scurvy from lack of vitamin C), hereditary disorders (e.g. sickle cell anaemia), and mental/social illnesses (e.g. depression).
+#### Categories of Disease
+Communicable diseases spread between hosts (directly or via vectors, water, air, body fluids). Non-communicable diseases do not spread person-to-person and include **degenerative** (hypertension, diabetes), **nutritional deficiency** (scurvy, kwashiorkor, anaemia) and **genetic** disorders (sickle cell anaemia, caused by the recessive allele **HbS**). Sickle cell is genetic — not infectious — and this distinction appears in NABTEB MCQs almost every sitting.
 
-#### Common Pathogens and the Illnesses They Cause
-- **Bacteria**: *Mycobacterium tuberculosis* → tuberculosis (lungs); *Vibrio cholerae* → cholera (severe watery diarrhoea); *Salmonella typhi* → typhoid fever; *Neisseria gonorrhoeae* → gonorrhoea.
-- **Viruses**: HIV (a retrovirus) → AIDS; poliovirus → poliomyelitis; rubeola virus → measles; influenza viruses → flu; SARS-CoV-2 → COVID-19.
-- **Protozoa**: *Plasmodium falciparum/vivax* → malaria; *Trypanosoma brucei* → sleeping sickness (trypanosomiasis); *Entamoeba histolytica* → amoebic dysentery.
-- **Fungi**: *Trichophyton* → ringworm (tinea); *Candida albicans* → thrush.
-- **Rickettsias** (obligate intracellular parasites): cause typhus, transmitted by lice/fleas.
+#### Vectors and Transmission Routes
+A **biological vector** carries the pathogen *and* allows it to multiply (e.g. female *Anopheles* mosquito → *Plasmodium* → malaria; *Aedes* mosquito → yellow fever, dengue; tsetse fly → *Trypanosoma* → sleeping sickness). A **mechanical vector** only transports the pathogen on its body. Transmission otherwise occurs through contaminated water/food (cholera, typhoid), droplets/air (TB, influenza), sexual contact (HIV, gonorrhoea), blood, and broken skin.
 
-#### Transmission Routes and Vectors
-**Biological vectors** are living organisms that transmit pathogens: *Anopheles* mosquito injects *Plasmodium* during a blood meal; tsetse fly (*Glossina*) transmits *Trypanosoma*; *Aedes* mosquito spreads yellow fever virus. **Mechanical vectors** like the housefly carry pathogens on their bodies from faeces to food. Other routes include airborne droplets (tuberculosis, influenza), contaminated water (cholera, typhoid), sexual contact (HIV, gonorrhoea), and blood transfusion.
+#### Body Defence — Why Each Line Works
+- **1st line** physically blocks entry; tears and saliva contain lysozyme that breaks bacterial walls.
+- **2nd line** is non-specific: phagocytes engulf invaders; inflammation increases blood flow; fever slows pathogen replication.
+- **3rd line** is specific: B-lymphocytes release **antibodies** against particular **antigens**; T-lymphocytes destroy infected cells.
 
-#### The Three Lines of Body Defence
-1. **First line (non-specific barriers)**: skin, mucous membranes, tears (containing lysozyme), saliva, and stomach acid (HCl) physically or chemically block entry of pathogens.
-2. **Second line (non-specific cellular response)**: **phagocytes** (neutrophils, macrophages) engulf and digest pathogens; **inflammation** increases blood flow and recruits immune cells; **fever** slows pathogen replication.
-3. **Third line (specific/adaptive immunity)**: **B-lymphocytes** produce **antibodies** that target specific **antigens**; **T-lymphocytes** directly destroy infected body cells. Memory cells remain after infection, providing long-term immunity.
+#### Active vs Passive Immunity
 
-#### Immunity and Vaccination
-**Active immunity** arises when the body itself produces antibodies (natural: after infection; artificial: after vaccination). **Passive immunity** is gained by receiving ready-made antibodies (natural: from mother via placenta or breast milk; artificial: antitoxin injection). Vaccination introduces a weakened, killed, or subunit form of the pathogen, triggering B-cell antibody production without causing the disease — the foundation of immunisation schedules tested in NABTEB.
+| Feature | Active | Passive |
+|---|---|---|
+| Source of antibodies | Recipient's own lymphocytes | Mother / injected antiserum |
+| Onset | Days to weeks | Immediate |
+| Duration | Months to years (memory cells) | Weeks to months |
+| Examples | Recovery from measles, polio vaccine | Maternal IgG across placenta, IgA in breast milk, rabies antiserum |
 
-#### Drug Abuse and Public Health
-Tobacco smoking causes lung cancer, chronic bronchitis, and emphysema (destruction of alveolar walls). Chronic alcohol consumption leads to liver cirrhosis, brain damage, and addiction. Hallucinogens (LSD) and stimulants (cocaine, amphetamines) damage the nervous system. Public health is maintained through personal hygiene, refuse disposal, sewage treatment, clean water supply, vector control, immunisation, and health education.
+#### Drug Abuse Effects
+Alcohol damages the liver (cirrhosis); tobacco damages lungs (chronic bronchitis, lung cancer) and circulatory system; cannabis and cocaine impair the brain and reduce immunity. NABTEB essays often ask for a short table summarising organ damage — keep "drug → organ → effect" as the structure.
 
----
+#### Worked Example — NABTEB-style Essay Skeleton
+**Question:** *Explain five ways HIV/AIDS can be prevented and controlled in a community.* (Mark scheme: 5 points × 2 marks each = 10.)
+
+1. **Abstinence from casual sex** — removes sexual transmission route.
+2. **Faithfulness to one uninfected partner** — reduces exposure.
+3. **Correct condom use** — blocks exchange of infected body fluids.
+4. **Screening of blood before transfusion** — eliminates blood-borne spread.
+5. **Use of sterilised needles / syringes** — prevents sharing among drug users and at clinics.
+
+> 💡 **Examiner Trap:** many candidates write "avoid mosquito bites" under HIV prevention. *Aedes* and *Anopheles* do not transmit HIV — the virus cannot replicate inside them. NABTEB mark schemes deduct for that single wrong line.
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
+> Drill level: parasite life cycles, why some immunities fail, and the boundary between communicable and non-communicable disease in clinical practice.
 
-#### Epidemiological Terms and Common Confusions
-NABTEB often tests the distinction between **epidemic** (sudden outbreak of a disease within a community or region), **pandemic** (worldwide spread, e.g. COVID-19 in 2020), and **endemic** (constantly present in a particular area, e.g. malaria in tropical West Africa). The **incubation period** is the time between pathogen entry and the first appearance of symptoms; it varies from a few days (cholera: 1–5 days) to several weeks (HIV: weeks to months) and determines quarantine durations.
+#### *Plasmodium* Life Cycle (why malaria control is hard)
+Female *Anopheles* injects **sporozoites** → liver cells → **merozoites** → red blood cells → gametocytes → mosquito. Killing the parasite at any one stage demands a different drug class: chloroquine targets blood merozoites; primaquine targets liver stages and gametocytes. This is why incomplete treatment cycles produce drug-resistant strains — a favourite NABTEB theory item.
 
-#### Mechanism of HIV/AIDS — Why It Is a Virus, Not a Disease
-A frequent NABTEB trap is treating HIV and AIDS as synonymous. **HIV (Human Immunodeficiency Virus)** is the retrovirus that infects **CD4+ T-helper lymphocytes**, destroying them progressively. **AIDS (Acquired Immune Deficiency Syndrome)** is the clinical condition that follows — characterised by severe immunodeficiency, opportunistic infections (e.g. *Pneumocystis* pneumonia, tuberculosis), and rare cancers such as Kaposi's sarcoma. HIV is transmitted via sexual contact, contaminated needles, blood transfusion, and mother-to-child (placenta, breast milk), but **not** by casual contact.
+#### Why Antibiotics Don't Cure Viruses
+Antibiotics disrupt bacterial cell wall synthesis, protein synthesis or DNA replication (e.g. penicillin, streptomycin). Viruses hijack *human* cells and lack those targets, so they replicate inside host cells beyond antibiotic reach. Antivirals (e.g. antiretrovirals for HIV, acyclovir for herpes) act on viral enzymes instead.
 
-#### Why Antibiotics Fail Against Viruses
-**Antibiotics** (e.g. penicillin, streptomycin) disrupt bacterial cell-wall synthesis or protein synthesis. Viruses lack cell walls and use host cell machinery to replicate, so antibiotics are ineffective against colds, influenza, and measles. Antiviral drugs (e.g. acyclovir, antiretrovirals like zidovudine) target specific viral enzymes. This distinction is a common NABTEB objective question.
+#### Edge Cases and Common Traps
 
-#### Worked Comparison: Types of Immunity
-| Type | Source of antibodies | Duration | Example |
-|---|---|---|---|
-| Natural active | Body produces them after infection | Long (years/lifetime) | Recovery from measles |
-| Artificial active | Body produces them after vaccination | Long | Polio, BCG, measles vaccine |
-| Natural passive | Mother to child (placenta/milk) | Short (weeks–months) | Maternal IgG in newborn |
-| Artificial passive | Injection of antiserum | Short | Anti-rabies immunoglobulin |
+| Statement | True / False | Why |
+|---|---|---|
+| All mosquitoes transmit malaria | False | Only female *Anopheles* |
+| Tsetse fly transmits trypanosomiasis | True | Plus *Glossina* spp. as vector |
+| Sickle cell anaemia is infectious | False | Autosomal recessive HbS allele |
+| Vaccines give passive immunity | False | Vaccines *stimulate* active immunity |
+| A pandemic is just a big epidemic | False | Pandemic = across countries / continents |
+| Antibodies are produced by T-lymphocytes | False | B-lymphocytes (plasma cells) make antibodies |
 
-#### Common Exam Traps
-- Confusing **HIV** (virus) with **AIDS** (disease syndrome).
-- Saying antibiotics cure colds, influenza, or COVID-19.
-- Mixing up *Anopheles* (malaria) with *Aedes* (yellow fever/dengue).
-- Calling ringworm a worm — it is a **fungal** infection.
-- Treating addiction and mental illness as moral failings rather than health disorders requiring treatment.
+#### Advanced Practice Prompts
+1. Compare how the body responds to a first infection with *Mycobacterium tuberculosis* versus a second exposure — name the cells involved and the timescale of each response.
+2. A community reports cholera cases after flooding. Rank five intervention steps by urgency and justify the biology behind each (water source, oral rehydration, sanitation, contact tracing, vaccination).
 
-#### Practice Prompts
-1. A NABTEB question may ask: *Tabulate three differences between active and passive immunity, and give one example of each.* Use the table above to draft a full answer.
-2. Another likely objective: *State the causative organism and one vector of (a) malaria, (b) sleeping sickness, (c) yellow fever, (d) cholera.* Answers: (a) *Plasmodium*, *Anopheles* mosquito; (b) *Trypanosoma brucei*, tsetse fly; (c) yellow fever virus, *Aedes* mosquito; (d) *Vibrio cholerae*, housefly/faecal–oral route.
+## Continue your study
+
+- **[View this topic in your NABTEB roadmap](/roadmap/?exam=nabteb&duration=1mo)** — see where "Human Health and Disease" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=nabteb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NABTEB exam overview](/exams/nabteb/)** — pattern, eligibility, and syllabus
+- **[All Biology notes](/notes/nabteb/biology/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

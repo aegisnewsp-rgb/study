@@ -8,95 +8,91 @@ topicName: "Economics (Soshum)"
 weight: 3
 country: indonesia
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-09-05
+lastUpdated: "2026-09-20"
 ---
 
 # Economics (Soshum)
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid review of microeconomic equilibrium, price elasticity, market structures, and macroeconomic indicators for UI Entrance (SIMAK UI / UTBK Soshum).
 
-**Micro & Macroeconomics — High-Yield Essentials**
+> One-line scan: UI Entrance tests your reasoning over micro + macro concepts, almost never your memory of definitions.
 
-1. **Hukum Permintaan dan Penawaran (Law of Demand and Supply):**
-   - **Permintaan (Demand):** Berbanding terbalik dengan harga (P naik -> Qd turun, ceteris paribus). Kurva berslope negatif.
-   - **Penawaran (Supply):** Berbanding lurus dengan harga (P naik -> Qs naik, ceteris paribus). Kurva berslope positif.
-   - **Keseimbangan Pasar (Market Equilibrium):** Terjadi saat kuantitas yang diminta sama dengan kuantitas yang ditawarkan (Qd = Qs).
-2. **Elastisitas Harga (Price Elasticity):**
-   - Ed = | % Delta Q / % Delta P | = | (Delta Q / Delta P) * (P1 / Q1) |
-   - Ed > 1: Elastis (barang mewah/banyak substitusi).
-   - Ed < 1: Inelastis (kebutuhan pokok/beras/garam).
-   - Ed = 1: Elastis uniter.
-   - Ed = 0: Inelastis sempurna (obat darurat).
-   - Ed = tak hingga: Elastis sempurna.
-3. **Struktur Pasar (Market Structures):**
-   - **Pasar Persaingan Sempurna:** Banyak penjual dan pembeli, produk homogen, price taker, laba normal (P = MC = AC) dalam jangka panjang.
-   - **Monopoli:** Satu penjual tunggal, hambatan masuk (barrier to entry) tinggi, price maker.
-   - **Oligopoli:** Sedikit produsen dominan, produk homogen atau terdiferensiasi, perang harga dicegah via kurva permintaan patah (kinked demand curve).
-   - **Monopolistik:** Banyak produsen, produk terdiferensiasi, persaingan non-harga (promosi/iklan).
+The test weights this subject at roughly 3% of total score, yet it acts as the tie-breaker because most candidates stumble on HOTS items. Two halves to master: **micro** (demand, supply, elasticity, cost curves, market structure) and **macro** (PDB, inflation, unemployment, fiscal-monetary policy, trade). The single most-tested formula is **price elasticity of demand** because it links three exam-favourite ideas at once.
 
-⚡ **Jebakan SIMAK UI:** Pergeseran kurva (shifting) terjadi akibat faktor bukan harga (pendapatan, selera, teknologi, ekspektasi masa depan). Pergerakan sepanjang kurva (movement along the curve) hanya disebabkan oleh perubahan harga barang itu sendiri!
+| Formula | What it measures | SI / standard unit |
+|---|---|---|
+| Ep = (%ΔQd) / (%ΔP) | Price elasticity of demand | dimensionless |
+| PDB = C + I + G + (X − M) | GDP by expenditure approach | rupiah (Rp) or USD |
+| k = 1 / (1 − MPC) | Keynesian spending multiplier | dimensionless |
 
----
+> 💡 **High-Yield Memory Hook — "PED-RAC":** **P**rice, **E**xchange rate, **D**eflator for macro math; **R**evenue max at Ep = −1, **A**ll else on the curve, **C**ross-price is for substitutes/complements. Recall anchor for the elasticity cluster in one breath.
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Detailed analytical study guide covering consumer theory, national income accounting, and macroeconomic stabilization policies.
 
-## 1. Pendapatan Nasional dan Keseimbangan Makroekonomi
+> How Indonesian test-makers expect you to reason through HOTS economics — read a chart, apply one concept, choose the defensible option.
 
-Penghitungan Produk Domestik Bruto (PDB / GDP) dilakukan melalui tiga pendekatan utama:
+#### Core micro mechanism: shift versus movement
 
-| Pendekatan PDB | Rumus Dasar | Komponen Agregat | Catatan Ujian Soshum |
-|---|---|---|---|
-| **Pengeluaran (Expenditure)** | Y = C + I + G + (X - M) | C = Konsumsi RT, I = Investasi, G = Belanja Pemerintah, X - M = Ekspor Neto | Ekspor neto negatif jika impor melebihi ekspor (defisit neraca perdagangan) |
-| **Pendapatan (Income)** | Y = w + r + i + p | w = upah (wages), r = sewa (rent), i = bunga (interest), p = laba (profit) | Merupakan total balas jasa pemilik faktor produksi |
-| **Produksi (Value Added)** | Y = Total Nilai Tambah | Nilai tambah (value added) pada setiap rantai industri pengolahan | Mencegah penghitungan ganda (double counting) |
+The single most common trap is conflating two different actions on the demand-supply diagram. A **movement along** the curve responds only to the good's own price (ceteris paribus holds). A **shift** of the entire curve happens when a **non-price determinant** changes: income, tastes, expectations, prices of related goods, number of buyers, technology or input cost (for supply). UI Entrance questions frequently show a price change plus a simultaneous income change and expect you to separate the two effects before judging equilibrium.
 
----
+#### Macro accounting identities
 
-## 2. Kebijakan Moneter vs Kebijakan Fiskal
+Indonesia's national accounts use three approaches that must reconcile: **expenditure** (C + I + G + (X − M)), **production** (sum of value-added), and **income** (wages + rent + interest + profit). The expenditure form is what exam items reproduce because the variables map to recognisable policy levers. Distinguish **PDB nominal** (current prices) from **PDB riil** (base-year prices); only the real series measures actual growth, because nominal mixes price changes with quantity changes.
 
-Pemerintah dan Bank Sentral (Bank Indonesia) menggunakan instrumen intervensi untuk mengatasi inflasi dan resesi ekonomi:
-- **Kebijakan Moneter (Bank Indonesia):**
-  - **Operasi Pasar Terbuka (OPT):** Menjual Sertifikat Bank Indonesia (SBI) untuk menyerap likuiditas (kontraksi/mengatasi inflasi) atau membeli Surat Berharga Negara (SBN) untuk menambah uang beredar (ekspansi/mengatasi resesi).
-  - **Tingkat Diskonto (BI-Rate):** Menaikkan suku bunga acuan untuk meredam laju inflasi.
-  - **Giro Wajib Minimum (GWM):** Menaikkan rasio cadangan wajib bank umum guna menahan penyaluran kredit.
-- **Kebijakan Fiskal (Kementerian Keuangan):**
-  - Mengatur tarif perpajakan (T) dan belanja pemerintah (G). Pada saat resesi, diterapkan kebijakan fiskal ekspansif (G naik, T turun) untuk menstimulasi daya beli agregat masyarakat.
+#### Concept comparison matrix
 
----
+| Concept | What students think | What the exam actually wants |
+|---|---|---|
+| Pergeseran kurva vs pergerakan sepanjang kurva | Both are "changes in demand" | Only non-price factors shift; price changes slide along the curve |
+| PDB nominal vs PDB riil | Both measure output | Nominal mixes price + quantity; real isolates quantity using a base year |
+| Inflasi demand-pull vs cost-push | Both raise CPI | Demand-pull: too much spending chasing limited goods. Cost-push: input shocks (oil, rupiah depreciation) push the AS curve left |
+| Pengangguran siklikal vs struktural | Both "people without jobs" | Siklikal: recession-driven, falls in expansion. Struktural: skill mismatch, persists even at full employment |
+| Surplus anggaran vs surplus neraca perdagangan | Both are "surpluses" | Anggaran = fiscal balance (G vs T). Neraca perdagangan = exports minus imports, external sector |
+| MPC = 1 scenario | Multiplier becomes infinite | Real MPC < 1; multiplier is large but finite, assuming idle resources |
+
+#### Worked reasoning problem (UI-style)
+
+**Stimulus.** Harga bensin subsidi naik 12% pada awal tahun. Kuantitas yang diminta konsumen turun 6%. Pemerintah mempertahankan subsidi partially, dan Bank Indonesia menahan suku bunga kebijakan.
+
+**Task.** Evaluate two statements:
+1. Permintaan bensin bersifat inelastis.
+2. Kebijakan fiskal (subsidi) dan moneter (suku bunga) keduanya bekerja pada permintaan agregat.
+
+#### Resolution.
+- Ep = (%ΔQd) / (%ΔP) = (−6%) / (12%) = −0.5. |Ep| < 1 → **inelastic** (statement 1 holds).
+- Subsidi adalah instrumen fiskal (belanja pemerintah G dalam identitas PDB), mengubah komponen permintaan agregat langsung. Suku bunga kebijakan adalah instrumen moneter BI yang memengaruhi I dan C melalui kanal kredit. Statement 2 holds on the mechanism, though the magnitude differs.
+
+> ⚠️ **Examiner Trap:** "Elastis" sering dikira syarat Ep > 0. Konvensi hukum permintaan membuat Ep < 0; yang menentukan elastisitas adalah **nilai mutlak**, bukan tanda. Lepas tanda minus saat menghitung, atau bandingkan |Ep| dengan 1.
 
 ### 🔴 Extended — Deep Study (3mo+)
-> English comparative analysis, mathematical calculus of marginal revenue/cost, and authentic SIMAK UI questions.
 
-## 3. Bilingual Study Guide: Mathematical Microeconomics & Marginalist Principles
+> Where this subject stops being about definitions and starts rewarding pattern recognition across questions — micro and macro fuse in HOTS stems.
 
-In university entrance assessments, economic analysis relies on mathematical optimization:
-- **Profit Maximization Condition:** Across all market structures, a firm maximizes economic profit at the exact output where Marginal Revenue equals Marginal Cost (MR = MC), provided the second-order condition holds (slope of MC > slope of MR).
-- **Consumer Utility Optimization:** In indifference curve analysis, consumer equilibrium is established at the tangency point where the marginal rate of substitution equals the price ratio:
-  MRS_xy = MU_x / MU_y = P_x / P_y
-- **Multiplier Acceleration Matrix:** The simple Keynesian spending multiplier reflects the reciprocal of the marginal propensity to save:
-  k = 1 / (1 - MPC) = 1 / MPS
+#### Edge cases and boundary conditions
 
-## 4. Latihan Soal Asli UII / SIMAK UI Soshum
+The Keynesian multiplier formula k = 1 / (1 − MPC) assumes **idle resources** (output below potential) so that extra spending translates into extra production rather than inflation. In a near-full-employment economy, the same fiscal expansion mostly bids up prices; the multiplier shrinks. Similarly, the **real exchange rate** identity e_r = e_n × (P\* / P) treats P as the domestic price level — a depreciation of e_n (rupiah weakens) raises e_r only if P\* and P move proportionally; otherwise the *real* competitiveness can move opposite the headline nominal move.
 
-**Soal 1 (SIMAK UI Ekonomi):** Jika diketahui fungsi permintaan Qd = 80 - 2P dan fungsi penawaran Qs = -20 + 3P, maka harga dan kuantitas keseimbangan pasar adalah:  
-*(A) P = 20, Q = 40  
-(B) P = 25, Q = 30  
-(C) P = 20, Q = 50  
-(D) P = 15, Q = 50*  
-**Jawaban:** (A) P = 20, Q = 40 (Penjelasan: Pada keseimbangan Qd = Qs -> 80 - 2P = -20 + 3P -> 100 = 5P -> P = 20. Substitusi nilai P ke fungsi permintaan: Q = 80 - 2(20) = 40).
+Indonesia-specific boundary: when **harga BBM subsidi** shifts, it triggers a **second-round cost-push inflation** effect through transport and food distribution — the exam pairs this with a BI rate-hike scenario and tests whether you trace the transmission lag.
 
-**Soal 2 (SIMAK UI Ekonomi):** Ketika Bank Indonesia menaikkan Giro Wajib Minimum (GWM), dampak yang langsung terjadi pada sistem perbankan adalah:  
-*(A) Jumlah uang beredar bertambah  
-(B) Kemampuan bank umum menyalurkan kredit menurun  
-(C) Suku bunga kredit perbankan pasti turun  
-(D) Cadangan kas bank umum di Bank Indonesia berkurang*  
-**Jawaban:** (B) (Penjelasan: Kenaikan rasio GWM memaksa bank umum menempatkan porsi simpanan dana pihak ketiga yang lebih besar di rekening Bank Sentral, sehingga cadangan bebas untuk ekspansi kredit berkurang).
+#### Common traps at the mastery level
 
----
+1. Reading "permintaan meningkat" as a **shift** when the diagram only shows a price drop (which is a movement).
+2. Treating **PDB per kapita** as identical to PDB; per-capita divides by population, so demographic change matters.
+3. Conflating **Uang Kartal** (physical currency issued by BI) with **Uang Giral** (demand deposits at commercial banks); M1 = kartal + giral, M2 = M1 + quasi-money.
+4. Assuming **kurs tetap** (fixed) and **kurs mengambang bebas** (free float) are the only regimes; Indonesia uses a **managed float** since 1997 with BI intervention to smooth volatility.
+5. Calling every "negative trade balance" a crisis; a deficit financed by productive FDI differs structurally from one financed by short-term portfolio outflow.
+6. Forgetting that **ceteris paribus** is a modelling assumption, not a description of reality — exam items sometimes ask you to identify when the assumption breaks.
 
-## Sources & verification
-- Sukirno, Sadono. *Mikroekonomi & Makroekonomi Teori Pengantar*, Rajawali Pers.
-- Mankiw, N. Gregory. *Principles of Economics*, Cengage Learning.
-- Balai Pengelolaan Pengujian Pendidikan (BPPP) & Panitia Penerimaan Mahasiswa Baru Universitas Indonesia.
+#### Advanced practice prompts
+
+1. A graph shows demand shifting right while supply shifts left by a smaller amount. Predict the unambiguous change and the ambiguous change in equilibrium price and quantity, then justify which scenario a *positive demand shock to palm oil exports* would produce for Indonesia.
+2. The central bank raises the **Giro Wajib Minimum (GWM)** from 6% to 9%. Trace the transmission to M1, M2, interest rates, investment, and finally aggregate demand — and identify at which step the effect could reverse if banks substitute with wholesale funding.
+
+## Continue your study
+
+- **[View this topic in your UI Entrance (Indonesia) roadmap](/roadmap/?exam=uii&duration=1mo)** — see where "Economics (Soshum)" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=uii&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UI Entrance (Indonesia) exam overview](/exams/uii/)** — pattern, eligibility, and syllabus
+- **[All Subject Knowledge notes](/notes/uii/subject-knowledge/)** — browse sibling topics in this subject
+
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

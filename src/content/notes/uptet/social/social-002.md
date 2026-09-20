@@ -8,119 +8,97 @@ topicName: "Indian Constitution: Preamble and Fundamental Rights"
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-20"
 ---
 
 # Indian Constitution: Preamble and Fundamental Rights
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
 
-**Indian Constitution** — Preamble & Fundamental Rights at a Glance
+> UPTET's two or three Polity questions always come from the Preamble keywords or the six Fundamental Rights — get these right and you pick up the marks.
 
-The Constitution of India was adopted on **26 November 1949** (came into effect 26 January 1950).
+The **Preamble** opens the Constitution and declares India a **Sovereign, Socialist, Secular, Democratic Republic** committed to **Justice, Liberty, Equality, Fraternity**. Adopted on **26 November 1949** by the Constituent Assembly; the Constitution itself commenced on **26 January 1950**.
 
-**Preamble** — The Constitution's introductory statement:
-> "WE, THE PEOPLE OF INDIA, having solemnly resolved to constitute India into a SOVEREIGN SOCIALIST SECULAR DEMOCRATIC REPUBLIC... secured to all its citizens: JUSTICE, SOCIAL, ECONOMIC and POLITICAL; LIBERTY of thought, expression, belief, faith and worship; EQUALITY of status and of opportunity; FRATERNITY assuring the dignity of the individual..."
+**Fundamental Rights** live in **Part III, Articles 12–35** and are enforceable by courts. The six rights, with anchor Articles, are:
 
-⚡ **UPTET Exam Tip**: The 42nd Amendment (1976) added **Socialist, Secular, Integrity** to the Preamble. Common question in UPTET — always watch for the amendment number!
+| Right | Articles |
+|---|---|
+| Right to Equality | 14–18 |
+| Right to Freedom | 19–22 |
+| Right against Exploitation | 23–24 |
+| Right to Freedom of Religion | 25–28 |
+| Cultural and Educational Rights | 29–30 |
+| Right to Constitutional Remedies | 32 |
 
-**22 Fundamental Rights (Articles 12–35)**:
+> 💡 **Memory Hook — "SSE-DR JLEF":** **S**overeign, **S**ocialist, **S**ecular, **D**emocratic **R**epublic → **J**ustice, **L**iberty, **E**quality, **F**raternity. For the six Fundamental Rights, count on your fingers: Equality → Freedom → No Exploitation → Religion → Culture → Remedies.
 
-| Right | Article | Key Point |
-|-------|---------|-----------|
-| Right to Equality | 14–18 | Equality before law, no discrimination |
-| Right to Freedom | 19–22 | Speech, assembly, movement |
-| Right against Exploitation | 23–24 | No trafficking, child labour <14 |
-| Right to Freedom of Religion | 25–28 | Freedom of conscience |
-| Cultural & Educational Rights | 29–30 | Protect minority interests |
-| Right to Constitutional Remedies | 32 | Right to approach Supreme Court |
-
-⚡ **Important**: Right to Education (Article 21A) was added by 86th Amendment (2010) — makes free education a fundamental right for children aged 6–14.
+**Article 32** is the writ jurisdiction of the Supreme Court; Dr. B. R. Ambedkar called it the "heart and soul" of the Constitution. Five writs: Habeas Corpus, Mandamus, Prohibition, Certiorari, Quo Warranto.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
 
-**Indian Constitution** — Detailed Study Guide
+#### Preamble — what each word commits the State to
 
-#### Features of the Indian Constitution
-1. **Longest written constitution** — 395 articles originally, now 448 after 74 amendments
-2. **Borrowed features** from various constitutions:
-   - Government of India Act 1935 (administrative structure)
-   - US Constitution (fundamental rights, supreme court, president)
-   - UK Constitution (parliamentary system, rule of law)
-   - Canadian Constitution (federation)
-   - Irish Constitution (directive principles of state policy)
-   - Japanese Constitution (constitutional emergency powers)
-3. **Federal structure** with unitary features
-4. **Rigid and flexible** — basic structure can only be changed by 2/3 majority
+The Preamble is the Constitution's identity card. Read in order, the keywords form a chain: **Sovereign** (independent of external control) → **Socialist** (added 1976, social and economic equality) → **Secular** (added 1976, no State religion) → **Democratic** (government by the people) → **Republic** (elected head, not hereditary monarch).
 
-#### Detailed Fundamental Rights
+The objectives clause promises **Justice** (social, economic, political), **Liberty** (thought, expression, belief, faith, worship), **Equality** (status and opportunity), and **Fraternity** (dignity of the individual plus unity and integrity of the Nation). The 42nd Constitutional Amendment Act, 1976 inserted the words **Socialist, Secular** and replaced "Unity of the Nation" with **"Unity and Integrity"**.
 
-**Right to Equality (Art. 14–18)**:
-- **Art. 14**: Equality before law and equal protection of laws
-- **Art. 15**: No discrimination on grounds of religion, race, caste, sex, place of birth
-- **Art. 16**: Equality of opportunity in public employment
-- **Art. 17**: Abolition of untouchability
-- **Art. 18**: Abolition of titles (except military/academic)
+Three Supreme Court rulings settle the Preamble's legal status:
 
-**Right to Freedom (Art. 19–22)**:
-- **Art. 19(1)**: Six freedoms — speech & expression, assembly, association, movement, residence, profession
-- **Art. 19(2)–(6)**: Reasonable restrictions in national interest, sovereignty, public order
-- **Art. 20**: Protection in respect of conviction for offences
-- **Art. 21**: Protection of life and personal liberty
-- **Art. 21A**: Right to education (free & compulsory for 6–14 years)
-- **Art. 22**: Protection against arrest and detention
+| Case | Verdict on Preamble |
+|---|---|
+| Berubari Union (1960) | Not a part of the Constitution |
+| Kesavananda Bharati (1973) | Part of the basic structure; cannot be amended away |
+| LIC of India (1995) | A part of the Constitution and enforceable |
 
-⚡ **Key Case**: *Menaka Gandhi v. Union of India (1978)* — Article 21 includes right to live with dignity, right to privacy, right to clean environment.
+> 📌 **Exam Anchor:** Questions still quote the old Berubari line — the correct current answer is **Kesavananda Bharati / LIC of India**.
+
+#### Fundamental Rights — scope and limits
+
+**Article 12** defines "State" broadly — Government of India, Parliament, State Governments, Legislatures, courts (after the 42nd Amendment, courts are excluded from State for this Article's purpose, a frequent trap), local authorities, and "other authorities". Fundamental Rights bind **State action**, not private citizens (with limited statutory exceptions).
+
+| Concept | Confused With | Clear Distinction |
+|---|---|---|
+| Article 32 | Article 226 | 32 = Supreme Court writs, only for Fundamental Rights; 226 = High Court writs, wider scope, covers legal rights too |
+| Article 21 (life & liberty) | Article 19 (six freedoms) | 21 protects liberty generally; 19 protects six specific freedoms and accepts reasonable restrictions under clauses 2–6 |
+| Original 1949 Preamble | Amended 1976 Preamble | Socialist, Secular, Integrity are 42nd Amendment insertions, not original |
+| Right to Property | Fundamental Right | Removed as a Fundamental Right by the 44th Amendment, 1978; now a legal right under Article 300A |
+
+#### Worked problem: matching the writ to the situation
+
+**Question.** A private company manager has illegally detained a domestic worker in a locked room and refuses to release her. Which writ is most appropriate, and under which Article can the worker approach the Supreme Court?
+
+**Solution.** The situation — illegal physical detention of a person — calls for **Habeas Corpus** ("to have the body"), the writ that produces a detained person before the court and orders release if the detention is unlawful. Because the worker seeks to enforce a **Fundamental Right** (Article 21 — protection of life and personal liberty), she can file directly in the Supreme Court under **Article 32**, which Dr. Ambedkar described as the heart and soul of the Constitution. She could also approach the High Court under Article 226, but Article 32 is the Fundamental-Rights-specific remedy.
+
+> ⚠️ **Examiner Trap:** Students often pick **Mandamus** for every illegal act. Mandamus ("we command") orders a public authority to perform a duty — it does not free a detained person. For physical detention, the answer is always Habeas Corpus.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
 
-**Indian Constitution** — Complete Social Studies Notes
+#### Edge cases and advanced traps
 
-#### Preamble — Word-by-Word Analysis
-- **Sovereign**: Free from foreign control
-- **Socialist**: Aims for social and economic equality (mixed economy)
-- **Secular**: Equal respect for all religions
-- **Democratic**: Government by the people
-- **Republic**: Head of state elected (not hereditary)
-- **Justice**: Social, economic, political
-- **Liberty**: Thought, expression, belief, faith, worship
-- **Equality**: Status and opportunity
-- **Fraternity**: Dignity of individual, unity of nation
+- **State under Article 12.** "Other authorities" was widened by the *Pradeep Kumar Biswas* (2003) line of cases to include instrumentalities of the State such as public sector banks and LIC, but **private bodies** remain outside Article 12. Writs against private persons generally do not lie unless a statutory right is violated.
+- **Reasonable restrictions on Article 19.** Six freedoms, six restriction clauses: 19(1)(a) speech, 19(2) reasonable restrictions in the interests of sovereignty, integrity, security, public order, decency, morality; 19(1)(b)–(e) carry their own tailored limits; 19(1)(f) was deleted for property by the 44th Amendment.
+- **Maneka Gandhi v. Union of India (1978).** Expanded Article 21 into a broad due-process clause: any law depriving life or liberty must be **right, just and fair**, not arbitrary — collapsing the old *Golaknath* versus *Kesavananda* tension into a living-rights doctrine.
+- **Article 25 versus public order.** Freedom of religion is subject to public order, morality, health, and other Fundamental Rights — it is not absolute, despite frequent MCQ phrasing.
+- **Article 20 protections.** No ex post facto criminal law, no double jeopardy, no self-incrimination — these apply even during emergency under Article 20 itself (Article 20 cannot be suspended).
+- **Emergency suspension.** Articles 20 and 21 cannot be suspended even under Article 352; Articles 19 is automatically suspended for the duration of an emergency under Article 358.
 
-#### Comparison with Other Constitutions
+#### Advanced practice prompts
 
-| Feature | India | USA | UK |
-|---------|-------|-----|-----|
-| Form | Written | Written | Unwritten |
-| Head | President | President | Monarch |
-| Federal | Yes | Yes | No |
-| PM | Yes | No | Yes |
-| Fundamental Rights | Yes | Yes | No |
+1. A state government bans a religious procession citing traffic concerns. Identify (a) the Fundamental Right most directly engaged, (b) the Article that protects it, and (c) the constitutional ground on which the government can justify the ban.
+2. After the 44th Amendment (1978), can a citizen still move the Supreme Court under Article 32 if the State acquires his agricultural land without compensation? Distinguish between Article 31A savings and Article 300A.
 
-#### Directive Principles of State Policy (Art. 36–51)
-Non-justiciable but fundamental in governance:
-- **Art. 39**: Equal justice and free legal aid
-- **Art. 44**: Uniform civil code
-- **Art. 45**: Free education for children <14
-- **Art. 48**: Agriculture and animal husbandry
+> 📌 **Exam Anchor:** UPTET Social Studies Paper II asks one to two MCQs from Polity — the productive scorers are Preamble keywords, the 42nd Amendment, six Fundamental Rights with anchor Articles, Article 32's heart-and-soul status, and writ names.
 
-⚡ **UPTET PYQ**: "Which article of the Indian Constitution abolishes untouchability?" → Article 17
+## Continue your study
 
-⚡ **UPTET PYQ**: "The 86th Amendment Act (2002) added which right?" → Right to Education (Article 21A)
-
-**Amendment Process**:
-1. Simple majority (51%): Changes in non-fundamental areas
-2. Special majority (2/3 of members present): Changes to federal features
-3. Ratification by half states: Changes to federal structure
-
-⚡ **Basic Structure Doctrine**: From *Kesavananda Bharati v. State of Kerala (1973)* — Parliament cannot amend the basic features of the constitution (sovereignty, federalism, secularism, fundamental rights).
+- **[View this topic in your UPTET roadmap](/roadmap/?exam=uptet&duration=1mo)** — see where "Indian Constitution: Preamble and Fundamental Rights" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=uptet&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UPTET exam overview](/exams/uptet/)** — pattern, eligibility, and syllabus
+- **[All Social Studies notes](/notes/uptet/social/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

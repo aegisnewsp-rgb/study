@@ -8,119 +8,114 @@ topicName: "Zulfikar Ali Bhutto and the Constitution of 1973"
 weight: 3
 country: pakistan
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-20"
 ---
+
 # Zulfikar Ali Bhutto and the Constitution of 1973
-
-Zulfikar Ali Bhutto is one of the most influential and controversial figures in Pakistani political history. As the founder of the Pakistan People's Party (PPP) and the architect of the 1973 Constitution, Bhutto's tenure (1971–1977) marked the country's first genuine attempt at establishing a functional parliamentary democracy after the disaster of 1971. His policies — including the nationalization of industries, land reforms, and a bold Islamization agenda — reshaped Pakistan's economic and political landscape. However, his authoritarian tendencies, the suppression of dissent, and the controversial murder case led to his eventual downfall and execution in 1979.
-
-## Political Rise: From Foreign Minister to Chief Executive
-
-Bhutto's political career began in the pre-independence era as a member of the Indian National Congress, and after Partition, he joined the Muslim League. He rose rapidly under Ayub Khan, serving as Minister for Kashmir Affairs, Fuel, Power, and Natural Resources, and eventually as Foreign Minister — a position he used to pursue aggressive diplomacy during the 1965 war with India. His Tashkent Declaration with India after the 1965 war made him popular in some quarters but was criticized as a sellout in others, particularly in East Pakistan.
-
-After breaking with Ayub Khan in 1966, Bhutto founded the Pakistan People's Party (PPP) in December 1967. The PPP's political program was a radical blend of populism, socialism, and Islamic rhetoric — its famous slogans "Roti, Kapra, Makan" (Bread, Clothing, Shelter) and "Islam in our ideology, socialism in our economy" captured the imagination of the urban and rural poor. The PPP won the 1970 general elections in West Pakistan, while the Awami League (led by Sheikh Mujibur Rahman) won all seats in East Pakistan.
-
-Bhutto became President in December 1971 after the fall of Dhaka, and later served as the first elected Prime Minister under the 1973 Constitution.
-
-## The Constitution of 1973: The Supreme Law of Pakistan
-
-The Constitution of 1973 is Pakistan's most enduring constitutional document — it remains in force today, having survived military dictatorships, amendments, and political upheavals. It was adopted by the Parliament on 10 April and came into full effect on 14 August 1973. The constitution is widely regarded as superior to both the 1956 and 1962 constitutions in terms of its balance of power, protection of fundamental rights, and federal structure.
-
-### Key Features of the 1973 Constitution
-
-**Parliamentary System**: The 1973 Constitution restored the parliamentary system abolished by Ayub Khan. The Prime Minister is the chief executive and head of government, while the President serves as a ceremonial head of state — similar to the 1956 Constitution but with a stronger bicameral parliament.
-
-**Bicameral Legislature**: The Parliament consists of the National Assembly (lower house, 207 seats, directly elected) and the Senate (100 seats, indirectly elected by provincial assemblies, providing equal representation to all provinces).
-
-**Federal Structure**: The constitution established a true federal system with clearly defined federal, provincial, and concurrent legislative lists. The NFC Award was mandated for revenue sharing between the federation and provinces.
-
-**Fundamental Rights**: A comprehensive bill of rights covering equality, freedom of speech, assembly, movement, and religion (Articles 8–28). The Supreme Court and High Courts have the power of judicial review.
-
-**18th Amendment (2010)**: This landmark amendment restored many of the parliamentary system's checks on presidential power, abolished the Concurrent Legislative List, and devolved significant powers to the provinces.
-
-## The Nationalization Program
-
-One of Bhutto's most significant economic policies was the nationalization of major industries, banks, and educational institutions in 1971–74. The government took over all major commercial banks in 1971, heavy industries (steel mills, cement factories) in 1972, and private educational institutions were brought under government regulation.
-
-The nationalization program was driven by Bhutto's socialist ideology and his desire to break the power of the 22 families that dominated Pakistan's economy. However, the policy had mixed results: it did reduce the concentration of economic power in a few hands, but it also discouraged private investment, created inefficiency in state-owned enterprises, and drove away skilled managers and entrepreneurs.
-
-## Land Reforms Under Bhutto
-
-Bhutto's Land Reforms of 1972 were more sweeping than those of Ayub Khan. The ceiling on agricultural land was reduced to 150 acres for irrigated land and 300 acres for unirrigated land per family. The reforms abolished the baligar system (hereditary tenancy) and provided security of tenure for farmers.
-
-## Islamization Policies
-
-Bhutto pursued an Islamization agenda to legitimize his rule. Key measures included prohibition of alcohol and gambling, the Zakat and Ushr Ordinance (1977) for mandatory Islamic wealth tax, and the Hudood Ordinances introducing Islamic penalties for certain crimes.
-
-## Downfall and Legacy
-
-Bhutto's authoritarian tendencies deepened as his political position weakened. The Murder Case — in which he allegedly ordered the assassination of Ahmed Raza Kasuri — became a major scandal. The 1977 general elections led to mass protests and eventually another military coup by General Zia-ul-Haq. Bhutto was arrested, tried, convicted, and executed on 4 April 1979.
-
-## Key Facts for PPSC
-
-- **Bhutto founded PPP**: December 1967; slogans "Roti, Kapra, Makan"
-- **1973 Constitution adopted**: 10 April 1973; came into effect 14 August 1973
-- **Parliamentary system restored**: PM as chief executive, President as ceremonial head
-- **Bicameral Parliament**: National Assembly (207 seats) + Senate (100 seats)
-- **Nationalization**: Banks (1971), heavy industries (1972), educational institutions
-- **Land Reforms of 1972**: Ceiling reduced to 150/300 acres
-- **Islamization**: Zakat and Ushr, Hudood Ordinances, alcohol prohibition
-- **Murder Case**: Executed 4 April 1979
-- ⚡ Exam tip: The **18th Amendment** (restoring parliamentary system), the **NFC Award**, and **Bhutto's nationalization policies** are hot topics
-
----
 
 ### 🟢 Lite — Quick Review (1h–1d)
 
-> Rapid summary for last-minute revision before your exam.
+> Rapid summary for last-minute revision before your PPSC exam.
 
-- **Bhutto's PPP**: Founded 1967; "Roti, Kapra, Makan" slogan
-- **1973 Constitution**: Parliamentary system; PM as chief executive; bicameral parliament
-- **Nationalization** of banks, industries, and schools (1971–74)
-- **Land Reforms of 1972**: Ceiling reduced to 150/300 acres
-- **Islamization**: Zakat and Ushr, Hudood Ordinances, alcohol prohibition
-- **Murder Case**: Executed 4 April 1979
-- **Legacy**: Martyr of democracy; architect of Pakistan's most enduring constitution
-- ⚡ Exam tip: The **parliamentary nature** of the 1973 Constitution and the **18th Amendment** are frequently asked
+Zulfikar Ali Bhutto chaired Pakistan from 20 December 1971 to July 1977 and delivered the country's first unanimously adopted constitution, given assent on 14 August 1973. The 1973 Constitution restored parliamentary democracy, re-established federalism after Dhaka's secession, and embedded Islamic provisions through Articles 62–63, 227, and the Federal Shariat Court.
+
+| Feature | Position under the 1973 Constitution |
+|---|---|
+| Head of State | President — ceremonial only |
+| Head of Government | Prime Minister — real executive power |
+| Legislature | Bicameral: National Assembly + Senate |
+| Senate strength | 63 members, equal provincial representation |
+| National Assembly | 200 general seats + 10 minority seats |
+| Islamic provisions | Articles 62, 63, 38(f), 227, Federal Shariat Court |
+
+> 💡 **High-Yield Memory Hook:** **"Bhutto-72-73 — Interim '72, Permanent '73."** Recall that the Interim Constitution of 1972 set up parliamentary rule while the permanent document was being drafted. The final 1973 Constitution was passed on 10 April, approved unanimously on 12 April, and assented to on 14 August 1973 — Independence Day. PPSC often tests whether you can separate these two dates and two documents.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
 
-> Standard content for students with a few days to months.
+> Working knowledge for serious PPSC preparation — mechanism, not just headlines.
 
-## The 1973 Constitution: Structural Analysis
+#### From Dhaka to the Interim Constitution (1971–1972)
 
-### The President and Prime Minister
-Under the original 1973 Constitution, the President was a ceremonial head of state elected by Parliament. The Prime Minister, as head of government, wielded executive authority and commanded the confidence of the National Assembly. The cabinet was collectively responsible to the National Assembly.
+The fall of East Pakistan on 16 December 1971 left West Pakistan without a permanent constitution. Bhutto, who had been President since 20 December 1971, opted for a parliamentary system rather than the strong-presidency model of the 1962 Constitution. The Interim Constitution of 1972 operated as the basic law of the land until the permanent document was ready. It created a unicameral legislature with the Prime Minister as chief executive and the President as figurehead — the same template later codified in the 1973 Constitution.
 
-### The Senate and Federalism
-The Senate was designed as a house of the provinces, ensuring that smaller provinces had equal representation regardless of population. The federal distribution of powers was governed by three legislative lists: Federal Legislative List (defence, foreign affairs, currency, communications), Concurrent Legislative List (now largely abolished by 18th Amendment), and Provincial subjects.
+#### The Drafting Process — Parliamentary Committee
 
-### Fundamental Rights (Part II)
-The constitution guaranteed an extensive bill of rights including: equality before law (Article 25), prohibition of slavery and forced labour (Article 11), freedom of movement (Article 15), freedom of speech (Article 19), freedom of religion (Article 20). The Supreme Court and High Courts could issue writs to enforce fundamental rights.
+In April 1972, Bhutto appointed the Parliamentary Committee on Constitutional Framework under Chaudhry Muhammad Ali, a former Prime Minister and seasoned constitutional draftsman. Opposition parties — including the NAP, JUI, JI, and QML — sat on the committee. This cross-party composition is why the final document could claim unanimous support. The committee debated federal revenue-sharing, provincial autonomy, Islamic provisions, and the form of government. Chaudhry Muhammad Ali's drafts became the spine of the document eventually adopted.
+
+#### Adoption, Assent, and Core Features
+
+The National Assembly passed the Constitution on 10 April 1973 and approved it unanimously on 12 April 1973. President Fazal Ilahi Chaudhry assented on 14 August 1973, symbolically tying the new basic law to Pakistan's Independence Day.
+
+| Provision | Substance |
+|---|---|
+| Article 62 | Candidacy requires being a Muslim (or for minorities, professing the faith), sagacious, righteous, non-profligate, honest, and amenable to Islamic injunctions |
+| Article 63 | Disqualifies insincere Muslims, bankrupts, those convicted of moral turpitude, or who propagate opinions or act in a manner prejudicial to ideology of Pakistan |
+| Article 227 | All laws to be brought into conformity with the Injunctions of Islam as laid down in the Quran and Sunnah |
+| Part II | Directive Principles of State Policy covering Islamic, social, economic, and foreign-policy objectives |
+| Fourth Schedule | Federal and Concurrent Legislative Lists (Concurrent later abolished by 18th Amendment, 2010) |
+| Chapter on emergencies | Three proclamations issued by Bhutto's government 1973–1977 dissolved the Balochistan and NWFP assemblies |
+
+#### Comparison Matrix: Interim 1972 vs Permanent 1973
+
+| Aspect | Interim Constitution 1972 | Permanent Constitution 1973 |
+|---|---|---|
+| Status | Temporary, transitional basic law | Permanent basic law |
+| Legislature | Unicameral only | Bicameral — National Assembly + Senate |
+| Drafted by | Bhutto's cabinet | Parliamentary Committee under Chaudhry Muhammad Ali |
+| Islamic provisions | Limited | Comprehensive (Articles 62, 63, 38(f), 227, Federal Shariat Court) |
+| Adopted by | Federal cabinet | National Assembly, unanimous on 12 April 1973 |
+| Assent | 21 April 1972 | 14 August 1973 |
+
+#### Worked MCQ Walkthrough
+
+**Question:** The Constitution of 1973 was given presidential assent on which date?
+- (A) 10 April 1973
+- (B) 12 April 1973
+- (C) 14 August 1973
+- (D) 21 April 1972
+
+**Working:** The National Assembly passed the draft on 10 April 1973, voted it through unanimously on 12 April 1973, and President Fazal Ilahi Chaudhry signed it on 14 August 1973 — Pakistan's Independence Day. Option (A) is the passing date in the Assembly, option (B) the unanimous approval date, and option (D) the assent date of the Interim Constitution 1972.
+
+**Answer:** (C) 14 August 1973.
+
+> ⚠️ **Examiner Trap:** PPSC distractors deliberately mix the three 1973 dates (10 April, 12 April, 14 August) and slip in 21 April 1972 — the Interim Constitution assent. Memorise all four dates as a chain: Interim assent 21 April 1972 → Permanent passed 10 April 1973 → unanimous 12 April 1973 → permanent assent 14 August 1973.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
 
-> Comprehensive coverage for students on a longer study timeline.
+> Edge cases, links to neighbouring topics, and traps senior candidates miss.
 
-## Major Amendments to the 1973 Constitution
+#### Edge Cases and Adjacent Connections
 
-**5th Amendment (1974)**: Made the Concurrent Legislative List more prominent and restricted the jurisdiction of the Supreme Court — widely criticized for undermining judicial independence.
+1. **Senate composition arithmetic.** Each of the four provinces returns 14 general senators; the Federally Administered Tribal Areas (now merged into KP) returned 8; Islamabad 2. The equal provincial share is the constitutional safeguard against Punjab's population dominance. PPSC has tested this in the form "How many senators does each province send?" — the answer is 14 general seats each, not population-proportional.
+2. **Article 62–63 reach beyond Bhutto.** These articles sat dormant under Bhutto but became the legal basis for the Supreme Court judgments that barred Nawaz Sharif (2017 Panama Papers case) and Imran Khan (2023 Toshakhana / Article 63-A hearings) from public office. PPSC increasingly asks candidates to link Bhutto's 1973 architecture with later political disqualifications.
+3. **The Objectives Resolution of 1949.** Often wrongly cited as a separate constitution, it is in fact the substantive preamble component. The 1973 Constitution operationalised its clauses through Articles 38(f), 227, and the Federal Shariat Court.
+4. **Concurrent List fate.** Bhutto's original Fourth Schedule had Federal and Concurrent Lists. The 18th Amendment (2010) abolished the Concurrent List and transferred its subjects to provinces — the single most consequential federal rewrite after 1973 itself.
 
-**8th Amendment (1985)**: Under Zia's military regime, this gave the President power to dissolve the National Assembly unilaterally (Article 58-2(b)).
+#### Numbered Trap List for Senior Candidates
 
-**13th Amendment (1997)**: Under Nawaz Sharif's government, reversed the 8th Amendment, removing the President's power to dissolve Parliament unilaterally.
+1. Do not write that Bhutto wrote the constitution alone — he chaired a multi-party Parliamentary Committee under Chaudhry Muhammad Ali.
+2. Do not blame all Islamisation on Zia-ul-Haq — Articles 62, 63, 38(f), 227, and the Federal Shariat Court were 1973 insertions under Bhutto.
+3. Do not claim the 1973 President was the executive head — that was the 1962 model and later the 8th Amendment (1985). The 1973 President is ceremonial.
+4. Do not state the constitution was imposed or passed by a simple majority — it was adopted unanimously on 12 April 1973.
+5. Do not confuse Bhutto's Political Parties Act rules with the constitution's text — they are separate instruments, both relevant to PPSC.
+6. Do not list the wrong assent date. The Interim Constitution was assented on 21 April 1972; the permanent Constitution on 14 August 1973.
 
-**17th Amendment (2003)**: Under Musharraf, validated the 2002 referendum and restored certain presidential powers.
+#### Advanced Practice Prompts
 
-**18th Amendment (2010)**: One of the most significant amendments — restored parliamentary system, abolished Concurrent Legislative List, devolved education and health to provinces, strengthened Supreme Court and Election Commission.
-
-**19th Amendment (2011)**: Made judicial appointments more transparent.
-
-**21st Amendment (2015)**: Created military courts to try civilians for terrorism offenses.
+- **Prompt A:** Compare the form of government under the 1962, 1973, and post-8th-Amendment constitutions. Where does executive power sit in each, and which constitutional amendment shifted that balance?
+- **Prompt B:** Trace how Article 227 of the 1973 Constitution led to the establishment of the Federal Shariat Court and explain why the same article later became a tool in the Zia-era Islamisation programme.
 
 ---
+
+## Continue your study
+
+- **[View this topic in your PPSC (Pakistan) roadmap](/roadmap/?exam=ppsc&duration=1mo)** — see where "Zulfikar Ali Bhutto and the Constitution of 1973" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ppsc&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[PPSC (Pakistan) exam overview](/exams/ppsc/)** — pattern, eligibility, and syllabus
+- **[All Pakistan Affairs notes](/notes/ppsc/pakistan-affairs/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

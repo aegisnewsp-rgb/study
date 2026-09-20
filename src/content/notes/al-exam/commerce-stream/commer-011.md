@@ -8,388 +8,110 @@ topicName: Cost Accounting
 weight: 3
 country: srilanka
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-20"
 ---
 
 # Cost Accounting
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+> Last-minute recap for the A/L Commerce paper — cost sheet, BEP, and variance formulas in one breath.
 
-**Cost Accounting** — Key Facts for Sri Lanka A/L Examination
+**Cost Accounting** records, classifies and analyses every rupee spent on producing a product, so management can price correctly, control waste and judge profit. In the A/L paper you face three question types: cost sheet preparation, break-even / marginal costing, and standard costing variances.
 
-**Cost Classification**:
-| Type | Description | Example |
-|------|-------------|---------|
-| Direct Costs | Traceable to specific product | Raw material, direct labour |
-| Indirect Costs | Cannot be traced directly | Factory rent, supervisor salary |
-| Fixed Costs | Total constant regardless of output | Rent, salaries |
-| Variable Costs | Changes with level of output | Raw materials, power |
-| Semi-Variable | Has both fixed and variable elements | Electricity bills |
+#### Must-know formulas
 
-**Elements of Product Cost**:
-```
-Product Cost = Direct Material + Direct Labour + Manufacturing Overhead
-```
+| Formula | Variables & units | Result unit |
+|---|---|---|
+| Prime Cost = DM + DL + Direct Expenses | DM = Direct Material (LKR), DL = Direct Labour (LKR) | LKR |
+| Works Cost = Prime Cost + Factory Overheads | – | LKR |
+| Cost of Sales = COGS + Selling + Distribution OH | – | LKR |
+| BEP (units) = TFC ÷ Contribution per unit | TFC = Total Fixed Cost (LKR) | units |
+| BEP (LKR) = TFC ÷ (C/S ratio) | C/S ratio = Contribution ÷ Sales × 100 | LKR |
+| Margin of Safety % = Profit ÷ Contribution × 100 | – | % |
+| Material Price Variance = (SP – AP) × AQ | SP/AP in LKR/unit, AQ in units | LKR |
 
-**Overhead Allocation**:
-- Allocation base (machine hours, labour hours, units)
-- Overhead absorption rate = Estimated Overhead / Estimated Base
-- Overhead rate × Actual base = Overhead absorbed
-
-⚡ **A/L Exam Tip**: In A/L questions, a common trap is forgetting that indirect costs must still be included in product cost. Always ask: "Can I trace this directly to the product?"
+> 💡 **Memory Hook (F-A-V):** for every variance ask **F**avourable or **A**dverse, then check the **V**ariable — price vs usage for materials, rate vs efficiency for labour. Favourable means actual beats standard; Adverse means actual is worse than standard.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+> The working level — how cost flows from raw material to cost of sales, and how each decision technique actually works.
 
-**Cost Accounting** — Detailed Study Guide
+Cost flows downward through a vertical sequence: raw material purchases → direct material issued → prime cost built up by adding direct labour and direct expenses → works cost after factory overheads are absorbed → COGS after opening/closing finished-goods stock is netted → cost of sales once selling and distribution overheads are added. Absorption of overheads needs a **predetermined overhead absorption rate (POAR)** = Estimated Overheads ÷ Estimated Activity Base (labour-hours, machine-hours or % of direct wages).
 
-#### Cost Classification Deep Dive
+#### Marginal vs Absorption Costing
 
-**By Nature/Element**:
-| Element | What it includes | Sri Lankan Example |
-|---------|------------------|-------------------|
-| Direct Material | Raw materials that form part of the product | Fabric in garment manufacturing |
-| Direct Labour | Workers directly involved in production | Wages of machine operators in a shoe factory |
-| Direct Expenses | Expenses directly traceable to specific products | Cost of specific dies/moulds |
-| Indirect Labour | Labour not directly traceable | Salary of factory supervisor |
-| Indirect Material | Items that cannot be traced to specific products | Nails, glue, oil for machinery |
+| Feature | Marginal Costing | Absorption Costing |
+|---|---|---|
+| Fixed overhead treatment | Period cost (charged in full to the period) | Product cost (carried into inventory) |
+| Inventory valuation | Variable cost only | Full manufacturing cost |
+| Profit when sales > production | Lower | Higher |
+| Profit when sales < production | Higher | Lower |
+| Closing stock effect on profit | No fixed OH carry-over | Fixed OH deferred to next period |
 
-**By Behaviour**:
-| Cost Type | Definition | Example |
-|-----------|------------|---------|
-| Fixed Cost (FC) | Total cost stays constant; per unit cost changes | Factory rent of Rs. 500,000/month |
-| Variable Cost (VC) | Total changes with output; per unit stays constant | Material cost Rs. 50 per unit |
-| Semi-Variable | Part fixed, part varies with output | Electricity: fixed charge + usage |
+#### Cost behaviour and the High–Low method
 
-**Cost Equations**:
-```
-Total Cost (TC) = Fixed Cost + Variable Cost
-TC = FC + (Variable cost per unit × Number of units)
-TC = FC + VC
+Total Cost y = a + bx, where **a** = fixed element (LKR) and **b** = variable cost per unit of activity (LKR/unit). From two observed activity levels:
 
-Average Cost = Total Cost / Units produced
-Marginal Cost = Change in TC from producing one more unit
-```
+Variable Cost per unit = (Cost at High − Cost at Low) ÷ (High level − Low level). Then plug back to recover fixed cost. Common slip: using cost per *period* instead of cost per *unit* at each level.
 
-#### Overhead Allocation
+#### Standard costing variance tree
 
-**Steps in Overhead Allocation**:
+| Variance | Formula | Sign rule |
+|---|---|---|
+| Material Price | (SP − AP) × AQ | Favourable if SP > AP |
+| Material Usage | (SQ − AQ) × SP | Favourable if SQ > AQ |
+| Labour Rate | (SR − AR) × AH | Favourable if SR > AR |
+| Labour Efficiency | (SH − AH) × SR | Favourable if SH > AH |
+| Fixed OH Expenditure | Budgeted − Actual | Favourable if Budgeted > Actual |
+| Fixed OH Volume | (Std hrs for actual output − Budgeted std hrs) × Std fixed OH rate | Favourable if produced > budgeted |
+| Sales Volume | (Actual units − Budgeted units) × Std profit/unit | Favourable if actual > budgeted |
+| Sales Price | (Actual price − Std price) × Actual units sold | Favourable if AP > SP |
 
-**Step 1: Identify Cost Pool**
-- Group all indirect costs together
-- e.g., All factory overhead costs form one cost pool
+#### Worked problem
 
-**Step 2: Select Allocation Base**
-| Base | Appropriate when |
-|------|-----------------|
-| Machine hours | Capital-intensive production |
-| Labour hours | Labour-intensive production |
-| Units produced | Simple, homogeneous products |
-| Direct material cost | Material-intensive products |
+A factory makes one product. Standard: 4 kg material @ LKR 250/kg and 3 labour-hours @ LKR 400/hr per unit. Actual output 1,000 units consumed 4,200 kg at LKR 260/kg and 3,100 hours paid at LKR 390/hr. Compute Material Price, Material Usage, Labour Rate and Labour Efficiency variances.
 
-**Step 3: Calculate Overhead Absorption Rate (OAR)**
-```
-OAR = Estimated Overhead Costs / Estimated Allocation Base
+**Material Price Variance** = (SP − AP) × AQ = (250 − 260) × 4,200 = LKR 42,000 Adverse.
+**Material Usage Variance** = (SQ − AQ) × SP. SQ = 4 kg × 1,000 = 4,000 kg. = (4,000 − 4,200) × 250 = LKR 50,000 Adverse.
+**Labour Rate Variance** = (SR − AR) × AH = (400 − 390) × 3,100 = LKR 31,000 Favourable.
+**Labour Efficiency Variance** = (SH − AH) × SR. SH = 3 × 1,000 = 3,000 hrs. = (3,000 − 3,100) × 400 = LKR 40,000 Adverse.
 
-Example:
-Estimated overhead = Rs. 1,000,000
-Estimated machine hours = 10,000 hours
-OAR = Rs. 1,000,000 / 10,000 = Rs. 100 per machine hour
-```
+Net variance = (42,000 + 50,000 + 40,000) − 31,000 = LKR 101,000 Adverse.
 
-**Step 4: Absorb Overhead to Products**
-```
-Overhead absorbed = OAR × Actual base used by product
-
-Example:
-Product X used 200 machine hours
-Overhead absorbed = Rs. 100 × 200 = Rs. 20,000
-```
-
-**Under/Over Absorption**:
-| Situation | Meaning | Action |
-|-----------|---------|--------|
-| Under absorption | Absorbed overhead < Actual overhead | Underhead recovered → Add to cost |
-| Over absorption | Absorbed overhead > Actual overhead | Overhead recovered → Reduce cost or treat as income |
-
-**Under/Over Absorption Formula**:
-```
-Under/(Over) = Actual Overhead - Absorbed Overhead
-If positive = Under absorption (cost needs to be added)
-If negative = Over absorption (income/credit to P&L)
-```
-
-**Example (Sri Lankan Factory)**:
-```
-Actual overhead incurred: Rs. 1,150,000
-Overhead absorbed based on OAR: Rs. 1,080,000
-Under absorption: Rs. 1,150,000 - Rs. 1,080,000 = Rs. 70,000
-This Rs. 70,000 must be added to the product cost
-```
-
-#### Job Costing and Process Costing
-
-**Job Costing**:
-- Each job is a separate cost unit
-- Used in printing, construction, tailoring
-- Job cost sheet maintained
-
-**Job Cost Sheet Format**:
-```
-Job No: 101 | Customer: XYZ Ltd
-Product: 500 custom shirts
-
-                   Rs.
-Direct Material      75,000
-Direct Labour       45,000
-Direct Expenses      5,000
-                    -------
-Prime Cost         125,000
-Add: Overhead
-  (OAR: Rs. 80 per labour hour × 900 hrs) = 72,000
-                    -------
-Total Cost         197,000
-                    =======
-Cost per unit = 197,000 / 500 = Rs. 394 per unit
-```
-
-**Process Costing**:
-- Continuous mass production
-- Costs averaged over units
-- Used in flour mills, sugar, cement, textile spinning
-
-**Process Account Format**:
-```
-Process 1 Account for January
-
-Dr.                                    Cr.
-                            | Units | Rs.   |                       | Units | Rs.
-Opening WIP (40% complete) | 200   | 40,000 | Completed to Process 2 | 1,800 | 270,000
-Direct Material           | 2,000  | 200,000| Closing WIP (60% complete)| 400 | 48,000
-Direct Labour             |        | 60,000 |
-Overhead                  |        | 18,000 |
-                          |       |---------|
-                          | 2,200 | 318,000|                           | 2,200 | 318,000
-                          |       |========|                            |       |=======
-```
-
-**Equivalent Units** (for incomplete work):
-```
-Equivalent Units = Physical Units × Percentage Complete
-
-Example:
-Opening WIP: 200 units, 40% complete = 80 equivalent units
-Units started and completed: 1,600 units = 1,600 equivalent units
-Closing WIP: 400 units, 60% complete = 240 equivalent units
-Total equivalent units = 1,920
-Cost per equivalent unit = Rs. 270,000 / 1,920 = Rs. 140.63
-```
+> ⚠️ **Examiner Trap:** students confuse AQ with SQ in Material Usage and AH with SH in Labour Efficiency. The **Actual Quantity (AQ)** and **Actual Hours (AH)** always use the *standard price/rate*; the standard price/rate is then applied to the *actual output's standard quantity/hours*.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
+> Boundary conditions, reconciliation, and decision rules that separate an A pass from a B pass.
 
-**Cost Accounting** — Complete Notes for A/L Sri Lanka
+Two figures often appear at the bottom of a variance question: **Actual Cost Profit** and **Standard Cost Profit**. They must reconcile. Start from Standard Profit, add favourable variances, subtract adverse variances, and you arrive at Actual Profit (or the reverse — adjust for all variances to convert one profit basis into the other). The reconciliation line is a frequent 8-mark A/L question, and most candidates lose marks because they mix signs or drop the sales variances entirely.
 
-#### Marginal Costing and Contribution Analysis
+#### Edge-case watchlist
 
-**Key Concepts**:
+1. **Normal vs Abnormal Loss in Process Costing.** Normal loss is expected, valued at scrap, and absorbed by good units only. Abnormal loss is charged in full to the process at good-unit cost; abnormal *gain* is credited similarly.
+2. **Equivalent Units** must be used when closing WIP is partly complete — units completed and transferred plus (closing WIP × % completion).
+3. **Limiting Factor decisions.** When material, labour or hours constrain output, rank products by contribution *per unit of scarce factor*, not contribution per unit.
+4. **Make-or-Buy.** Only relevant costs (avoidable variable + specific fixed) count; sunk and allocated fixed costs are excluded.
+5. **ABC vs Traditional.** Activity-Based Costing assigns overheads via cost drivers (setups, orders, inspections), correcting the distortion traditional volume-based rates create when products consume overheads unequally.
+6. **Target Costing.** Market price minus required margin = allowable cost; cost reduction closes the gap before design freeze.
+7. **Margin of Safety shrinkage** signals rising fixed costs or falling contribution — combine BEP with MoS% to assess break-even risk.
+8. **Fixed OH Volume Variance** turns adverse whenever actual output falls below budgeted activity, even if expenditure is on target.
 
-**Marginal Cost**: Cost of producing one additional unit (usually = variable cost)
+#### Advanced practice prompts
 
-**Contribution**: Revenue minus Variable Costs
-```
-Contribution = Selling Price - Variable Cost
-Contribution = Fixed Costs + Profit
+1. A business has TFC LKR 1,200,000, variable cost LKR 80/unit, selling price LKR 200/unit. Output is 10,000 units but only 8,000 are sold at LKR 220. Calculate (i) BEP in units and LKR, (ii) Margin of Safety % using actual sales, (iii) Profit under marginal costing, (iv) the Fixed OH Volume Variance given budgeted output of 12,000 units and absorbed fixed OH rate of LKR 100/unit.
+2. A process inputs 5,000 units at LKR 50 each. Normal loss is 5% of input. Closing WIP is 800 units, 60% complete. Abnormal loss is 100 units. Scrap realises LKR 20/unit. Compute (i) equivalent units under the weighted-average method, (ii) cost per equivalent unit, (iii) value of closing WIP and abnormal loss.
 
-Per Unit Contribution = Selling Price per unit - Variable Cost per unit
-```
+---
 
-**Break-Even Analysis**:
+## Continue your study
 
-**Break-Even Point (Units)**:
-```
-BEP (units) = Fixed Costs / Contribution per unit
-
-Example:
-Fixed Costs = Rs. 200,000
-Selling Price = Rs. 500 per unit
-Variable Cost = Rs. 300 per unit
-Contribution = Rs. 500 - Rs. 300 = Rs. 200 per unit
-
-BEP = 200,000 / 200 = 1,000 units
-```
-
-**Break-Even Point (Rs.)**:
-```
-BEP (Rs.) = Fixed Costs / Contribution Margin Ratio
-Contribution Margin Ratio = Contribution / Selling Price
-
-Example:
-CM Ratio = 200 / 500 = 0.40 (40%)
-BEP (Rs.) = 200,000 / 0.40 = Rs. 500,000
-```
-
-**Margin of Safety**:
-```
-Margin of Safety = Actual Sales - Break-Even Sales
-Margin of Safety % = (MOS / Actual Sales) × 100
-
-Example:
-Actual Sales = Rs. 800,000
-BEP Sales = Rs. 500,000
-MOS = Rs. 300,000
-MOS % = 37.5%
-```
-
-⚡ **A/L Exam Tip**: Break-even questions frequently appear in A/L! Students often forget that BEP in rupees needs the CM ratio, not just the per-unit contribution.
-
-**Profit-Volume (P/V) Ratio**:
-```
-P/V Ratio = (Contribution / Sales) × 100
-          = (Fixed Cost + Profit) / Sales × 100
-
-A higher P/V ratio indicates better profitability
-```
-
-**Target Profit Analysis**:
-```
-Units for Target Profit = (Fixed Costs + Target Profit) / Contribution per unit
-
-Example: Target profit = Rs. 100,000
-Units needed = (200,000 + 100,000) / 200 = 1,500 units
-```
-
-#### Costing Methods
-
-**Absorption Costing vs. Marginal Costing**:
-
-| Feature | Absorption Costing | Marginal Costing |
-|---------|-------------------|-----------------|
-| Fixed overhead | Absorbed into product cost | Written off to P&L |
-| Inventory valuation | Includes fixed overhead | Excludes fixed overhead |
-| Profit (when production > sales) | Higher profit | Lower profit |
-| Fixed overhead recovery | Uses pre-determined OAR | Not allocated to products |
-
-**Why the Difference?**:
-When production > sales in absorption costing, some fixed overhead remains in inventory (not yet expensed). In marginal costing, ALL fixed overhead goes to P&L immediately.
-
-**Decision-Making using Marginal Costing**:
-
-**Make or Buy Decision**:
-```
-Relevant Cost for Make/Buy = Variable Cost of production
-Plus: Any additional costs if buying
-Less: Any costs saved if buying
-
-Example:
-Variable cost to make = Rs. 80 per unit
-If buy from supplier = Rs. 95 per unit
-Additional costs if buy = Rs. 5 (delivery)
-Total cost to buy = Rs. 100
-
-Decision: Make (Rs. 80 < Rs. 100)
-```
-
-**Special Order Pricing**:
-```
-Relevant Cost = Variable Costs + Opportunity Cost (if any)
-Minimum acceptable price = Variable Cost (if no opportunity cost)
-Add margin for contribution toward fixed costs and profit
-```
-
-**Closing a Department Decision**:
-```
-Costs saved if department closes = Variable costs + Avoidable fixed costs
-Costs lost if department closed = Contribution from department
-
-Decision: Keep department if Contribution > Avoidable Fixed Costs
-```
-
-#### Standard Costing and Variance Analysis
-
-**Standard Cost**: A pre-determined cost for a unit of output under normal conditions
-
-**Variance**: The difference between actual cost and standard cost
-
-**Types of Variances**:
-
-**Material Variance**:
-```
-Material Price Variance (MPV) = (Actual Price - Standard Price) × Actual Quantity
-Material Usage Variance (MUV) = (Actual Usage - Standard Usage) × Standard Price
-
-Total Material Variance = MPV + MUV
-
-Example:
-Standard: 2 kg at Rs. 50/kg = Rs. 100 per unit
-Actual: Purchased 1,000 kg at Rs. 52/kg, used 980 kg for 480 units
-
-MPV = (52 - 50) × 1,000 = Rs. 2,000 Unfavourable
-MUV = (980 - 960) × 50 = Rs. 1,000 Unfavourable
-Total = Rs. 3,000 Unfavourable
-(Standard usage for 480 units = 480 × 2 = 960 kg)
-```
-
-**Labour Variance**:
-```
-Labour Rate Variance (LRV) = (Actual Rate - Standard Rate) × Actual Hours
-Labour Efficiency Variance (LEV) = (Actual Hours - Standard Hours) × Standard Rate
-
-Total Labour Variance = LRV + LEV
-
-Example:
-Standard: 3 hours at Rs. 100/hour = Rs. 300 per unit
-Actual: Paid Rs. 105/hour for 1,500 hours for 480 units
-
-LRV = (105 - 100) × 1,500 = Rs. 7,500 Unfavourable
-LEV = (1,500 - 1,440) × 100 = Rs. 6,000 Unfavourable
-Total = Rs. 13,500 Unfavourable
-(Standard hours for 480 units = 480 × 3 = 1,440 hours)
-```
-
-**Overhead Variance**:
-```
-Fixed Overhead Variance = Budgeted Fixed Overhead - Actual Fixed Overhead
-Volume Variance = (Actual Units - Budgeted Units) × OAR
-
-Example:
-Budgeted overhead = Rs. 500,000
-Budgeted units = 10,000
-OAR = Rs. 50 per unit
-Actual overhead = Rs. 480,000
-Actual units = 9,500
-
-Fixed Overhead Variance = 500,000 - 480,000 = Rs. 20,000 Favourable
-Volume Variance = (9,500 - 10,000) × 50 = Rs. 25,000 Unfavourable
-```
-
-⚡ **A/L Key**: Favourable variance = costs saved vs. standard (good)
-Unfavourable variance = costs exceeded standard (bad)
-
-#### Sri Lankan Context: Manufacturing Costing
-
-**Typical Cost Structure in Sri Lankan Manufacturing**:
-
-| Industry | Major Cost | Typical % |
-|----------|-----------|-----------|
-| Garment manufacturing | Direct labour + material | Labour 20-30%, Material 50-60% |
-| Tea processing | Variable (green leaf) | Green leaf 60-70% of cost |
-| Rubber processing | Direct material | Latex 55-65% |
-| SME manufacturing | Mixed | Labour 25%, Material 55%, Overhead 20% |
-
-**Cost Reduction Techniques**:
-- Value analysis/engineering
-- Batch production optimisation
-- Lean manufacturing principles
-- Energy efficiency (Sri Lanka electricity costs)
-- Waste minimisation
-
-⚡ **A/L Exam Tip**: The most commonly tested areas in Cost Accounting A/L are: (1) Cost classification, (2) Overhead absorption, (3) Break-even analysis, and (4) Variance analysis. Master these four areas!
+- **[View this topic in your A/L Examination (Sri Lanka) roadmap](/roadmap/?exam=al-exam&duration=1mo)** — see where "Cost Accounting" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=al-exam&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[A/L Examination (Sri Lanka) exam overview](/exams/al-exam/)** — pattern, eligibility, and syllabus
+- **[All Commerce-Stream notes](/notes/al-exam/commerce-stream/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

@@ -319,6 +319,15 @@ import seabPsle from './singapore/seab-psle';
 import lsatCa from './canada/lsat-ca';
 import mcatCa from './canada/mcat-ca';
 import osslt from './canada/osslt';
+import caoPoints from './ireland/cao-points';
+import hpat from './ireland/hpat';
+import juniorCycle from './ireland/junior-cycle';
+import leavingCert from './ireland/leaving-cert';
+import nceaLevel1 from './newzealand/ncea-level-1';
+import nceaLevel2 from './newzealand/ncea-level-2';
+import nceaLevel3 from './newzealand/ncea-level-3';
+import nceaUe from './newzealand/ncea-ue';
+import ucatAnzNz from './newzealand/ucat-anz';
 
 export const ALL_EXAMS = [
   NEET, JEEMain, JEEAdvanced, CUET, UPSC, SSCCGL, CAT, CLAT, NDA, UGCNET,
@@ -382,6 +391,9 @@ export const ALL_EXAMS = [
   aqaGcseMathematics,
   ibDiploma, seabGceALevel, seabGceOLevel, seabPsle,
   lsatCa, mcatCa, osslt,
+  // Ireland / New Zealand (country expansion)
+  caoPoints, hpat, juniorCycle, leavingCert,
+  nceaLevel1, nceaLevel2, nceaLevel3, nceaUe, ucatAnzNz,
 ].filter(Boolean);
 
 // ─── Country flags ───────────────────────────────────────────────

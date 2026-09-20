@@ -300,6 +300,26 @@ import law_ent_uga from './uganda/law-ent-uga';
 import makerere_ent from './uganda/makerere-ent';
 import uneb from './uganda/uneb';
 
+
+// Country expansion — Australia / UK / Singapore / Canada
+import hscEnglishAdvanced from './australia/hsc-english-advanced';
+import hscMathematicsAdvanced from './australia/hsc-mathematics-advanced';
+import qceGeneralMathematics from './australia/qce-general-mathematics';
+import qceMathematicalMethods from './australia/qce-mathematical-methods';
+import saceMathematicalMethods from './australia/sace-mathematical-methods';
+import ucatAnz from './australia/ucat-anz';
+import vceEnglish from './australia/vce-english';
+import vceMathematicalMethods from './australia/vce-mathematical-methods';
+import waceMathematicsMethods from './australia/wace-mathematics-methods';
+import aqaGcseMathematics from './uk/aqa-gcse-mathematics';
+import ibDiploma from './singapore/ib-diploma';
+import seabGceALevel from './singapore/seab-gce-a-level';
+import seabGceOLevel from './singapore/seab-gce-o-level';
+import seabPsle from './singapore/seab-psle';
+import lsatCa from './canada/lsat-ca';
+import mcatCa from './canada/mcat-ca';
+import osslt from './canada/osslt';
+
 export const ALL_EXAMS = [
   NEET, JEEMain, JEEAdvanced, CUET, UPSC, SSCCGL, CAT, CLAT, NDA, UGCNET,
   MDCAT, ECAT, NAT1, LAT, HATUG,
@@ -356,6 +376,12 @@ export const ALL_EXAMS = [
   doh, haad, uaeu_cat,
   // Uganda
   law_ent_uga, makerere_ent, uneb,
+  // Australia / UK / Singapore / Canada (country expansion)
+  hscEnglishAdvanced, hscMathematicsAdvanced, qceGeneralMathematics, qceMathematicalMethods,
+  saceMathematicalMethods, ucatAnz, vceEnglish, vceMathematicalMethods, waceMathematicsMethods,
+  aqaGcseMathematics,
+  ibDiploma, seabGceALevel, seabGceOLevel, seabPsle,
+  lsatCa, mcatCa, osslt,
 ].filter(Boolean);
 
 // ─── Country flags ───────────────────────────────────────────────

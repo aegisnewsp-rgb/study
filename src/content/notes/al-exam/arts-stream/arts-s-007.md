@@ -8,357 +8,124 @@ topicName: Poetry Appreciation and Analysis
 weight: 3
 country: srilanka
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-20"
 ---
 
 # Poetry Appreciation and Analysis
 
+> A working note for the A/L Arts stream on reading a poem the way the examiner expects: technique → effect → meaning → context.
+
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+> One pass for the night before: technique, effect, context — in that order, always.
 
-**Poetry Appreciation** — Key Facts for Sri Lanka A/L Examination
+A poem is read three times before it is answered. First read for surface meaning, second for the speaker's attitude (tone), third for the techniques that produce that attitude. Examiners in the A/L Arts stream reward answers that link **what the poet does** to **what the reader feels**, never lists of devices without effect.
 
-**Essential Poetry Terms**:
-- **Stanza**: Group of lines in a poem (like a paragraph)
-- **Rhyme**: Repetition of sound at end of lines
-- **Meter**: Regular pattern of stressed/unstressed syllables
-- **Imagery**: Language appealing to the five senses
-- **Persona**: Voice adopted by the poet
-- **Line/Line break**: Where a line ends (important for meaning)
-- **Enjambment**: Continuation of a sentence beyond a line break
+- **The four-move response:** (1) one-sentence overall impression, (2) subject and theme, (3) two or three named techniques with their effect on meaning or mood, (4) brief contextual note (cultural, historical, or biographical).
+- **Tone vs Mood:** Tone is the speaker's attitude (sarcastic, nostalgic, defiant). Mood is what the reader feels (unease, tenderness). Never swap them.
+- **Speaker ≠ Poet:** The "I" in a poem is a constructed voice, not an autobiography. A/L examiners mark down biographical readings.
+- **Form matters:** Stanza breaks, rhyme, and metre are choices. Comment on them when they shape meaning.
 
-**Common Exam Question Types**:
-- "Comment on the imagery in the poem"
-- "How does the poet create atmosphere?"
-- "What is the theme of the poem?"
-- "What is the significance of the title?"
+> 💡 **Memory Hook — "STEPS":** **S**peaker and tone → **T**echniques (name two) → **E**ffect on mood/meaning → **P**ersonal/contextual response → **S**um up in one closing sentence. Use S-T-E-P-S as the spine of any appreciation paragraph.
 
-⚡ **A/L Exam Tip**: Always refer to specific words, lines, or images from the poem to support your answer!
+| Quick reference | Definition | Examiner cue |
+|---|---|---|
+| Simile | "like" / "as" comparison | "the comparison suggests…" |
+| Metaphor | direct identification | "by calling X a Y, the poet implies…" |
+| Personification | human quality on non-human | "nature is made to feel…" |
+| Symbol | object standing for an idea | "the image carries a deeper meaning of…" |
+| Imagery | sensory word cluster | "the visual/auditory picture evokes…" |
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+> The mechanics behind the marks: how form, diction, and figures build meaning.
 
-**Poetry Appreciation** — Detailed Study Guide
+#### Levels of meaning in a poem
 
-#### Types of Poetry
+A poem operates on three levels. The **literal** level is what happens on the page — a crow flies, a river runs. The **figurative** level is what those actions suggest — mortality, time's passage. The **contextual** level binds both to a culture, period, or tradition. A/L questions often hide a two-mark item inside the surface reading; missing the figurative is the most common reason otherwise-prepared students drop a band.
 
-**Lyric Poetry**:
-- Expresses personal emotions and feelings
-- Usually short, melodic
-- Examples: Sonnets, odes, elegies
-- Sri Lankan examples: devotional poetry in Sinhala/Tamil traditions
+#### Form, stanza, and prosody
 
-**Narrative Poetry**:
-- Tells a story
-- Has characters and a plot
-- Examples: Epics, ballads
-- Sinhala example: "Maduwan Sita" poetry tradition
+Form is the architecture: how many lines per stanza, what rhyme scheme, what metre. A **couplet** (2 lines, AA) tightens. A **quatrain** (4 lines, ABAB or AABB) balances argument. An **octave + sestet** (Petrarchan sonnet shape) lets the poet turn a question into a resolution. Free verse rejects regularity, which itself becomes a comment — disorder signals crisis, breath, or refusal.
 
-**Dramatic Poetry**:
-- Written in form of drama (dialogue)
-- Characters speak in verse
-- Example: Shakespeare's soliloquies
+Metre is the heartbeat. **Iambic** (unstressed-STRESSED) is the English default; **trochaic** (STRESSED-unstressed) drives folk songs and incantation; **anapaestic** (uu-u) gallops; **dactylic** (u-uu) sings. A sudden shift from regular to irregular metre inside a poem is rarely accidental — it marks emotional rupture.
 
-**Descriptive Poetry**:
-- Paints vivid pictures of subjects
-- Focus on detailed observation
-- Example: Romantic nature poetry
+| Concept | What it is | What students confuse it with | Quick test |
+|---|---|---|---|
+| Tone | Speaker's attitude | Mood | Would the speaker *say* this? |
+| Mood | Reader's emotional state | Tone | Would the reader *feel* this? |
+| Diction | Word choice | Vocabulary size | Could another word do the same work? |
+| Imagery | Sensory picture | Figurative language (all imagery is figurative, not vice versa) | Can you see/hear/feel/taste/smell it? |
+| Symbol | Object-as-idea | Metaphor (symbol recurs; metaphor is local) | Does the image return across the poem? |
+| Speaker | Constructed "I" | The poet's biography | Is the speaker named, or a role? |
+| Rhythm | Pattern of stressed syllables | Rhyme (rhythm ≠ rhyme) | Tap it out loud |
 
-**Didactic Poetry**:
-- Teaching or moral instruction
-- Example: Aesop's fables in verse
+#### Diction, sound, and the local line
 
-#### Poetic Forms
+Diction is the single most-marks-paying observation in a close-reading answer. If the poet picks "slunk" instead of "walked", the word carries cowardice and shame — say so. Sound devices work alongside diction: **alliteration** (consonant repetition, "silver sleep"), **assonance** (vowel repetition, "rain again"), **onomatopoeia** (sound imitating sense, "hiss", "thud"). Name them, but always return to the question: *what is the effect?*
 
-**Sonnet** (14 lines, usually iambic pentameter):
-- **Shakespearean/English**: 3 quatrains + couplet, rhyme scheme ABAB CDCD EFEF GG
-- **Petrarchan/Italian**: Octave + sestet, rhyme scheme ABBAABBA CDECDE
-- Themes: Love, beauty, mortality, time
+#### Tone, mood, theme — separated cleanly
 
-**Haiku** (Japanese, 3 lines):
-- 5-7-5 syllable pattern
-- Focus on nature and seasons
-- Implies emotion through suggestion
+Tone is verbal: ironic, elegiac, bitter, celebratory, prayerful. Mood is affective: grief, awe, restlessness. Theme is the abstract proposition the poem argues or implies — "time is indifferent to human love", "memory rescues the lost". A sound appreciation paragraph names all three, in that order, and ties them to two specific lines.
 
-**Ode**:
-- Formal, serious poem
-- Addresses a subject elevated in tone
-- Usually 10+ stanzas
-- Pindaric (chorus structure), Horatian (stanzaic), Irregular
+#### Worked excerpt — close reading
 
-**Elegy**:
-- Lament for the dead
-- Explores themes of loss and mourning
-- Example: Thomas Gray's "Elegy Written in a Country Churchyard"
+> *"Do not go gentle into that good night, / Old age should burn and rave at close of day; / Rage, rage against the dying of the light."* — Dylan Thomas
 
-**Ballad**:
-- Story told in song
-- Simple meter (usually iambic tetrameter alternating with trimeter)
-- Often has a refrain
-- Sri Lankan examples: Folk ballads about heroes and legends
+The **speaker** is a son addressing a dying father — constructed voice, urgent and commanding. **Tone**: exhortative, anguished, defiant. **Techniques**: the imperatives ("go gentle", "rage") turn feeling into command; the repetition of "rage" is anaphora that mimics compulsion; "good night" is a softening **metaphor** for death, undercut by the violent verbs "burn" and "rave". **Sound**: assonance on the long "a" of "rave/age/day" pushes the line forward into protest. **Theme**: resist oblivion; do not accept passively what can be fought.
 
-**Epic**:
-- Long narrative poem about heroic deeds
-- Formal, elevated language
-- Begins with invocation to the muse
-- Examples: Mahabharata, Ramayana (also in Sri Lankan literary tradition)
-
-#### Rhyme Schemes and Meter
-
-**Rhyme Schemes**:
-- **End rhyme**: Same sound at end of lines (AABB, ABAB)
-- **Internal rhyme**: Rhyme within the same line
-- **Masculine rhyme**: Single stressed syllable rhymes (cat/hat)
-- **Feminine rhyme**: Two-syllable rhymes (motion/emotion)
-- **Eye rhyme**: Looks same but sounds different (love/prove)
-- **Slant rhyme**: Approximate but not perfect rhyme (moon/mean)
-
-**Meter in English Poetry**:
-| Foot Type | Pattern | Stressed/Unstressed |
-|-----------|---------|---------------------|
-| Iambic | ⏓⏓ | unstressed-stressed |
-| Trochaic | ⏑⏓ | stressed-unstressed |
-| Anapestic | ⏓⏓⏓ | unstressed-unstressed-stressed |
-| Dactylic | ⏑⏓⏓ | stressed-unstressed-unstressed |
-
-**Common Metrical Patterns**:
-- **Iambic pentameter**: 5 iambic feet per line (10 syllables) — Shakespeare's verse
-- **Iambic tetrameter**: 4 iambic feet per line — Ballads, "The Rime of the Ancient Mariner"
-- **Iambic trimeter**: 3 iambic feet per line — Lighter, faster-paced verse
-- **Trochaic octameter**: 8 trochaic feet — "The Song of Hiawatha"
-
-**Scansion Practice**:
-Mark syllables: ∐ for unstressed, / for stressed, × for unstressed foot:
-```
-×  /  ×  /  ×  /  ×  /  ×  /
-Shall I compare thee to a summer's day?
-```
-
-⚡ **A/L Tip**: You don't need to be a scanning expert, but recognise common meters — most English sonnets use iambic pentameter!
-
-#### Imagery and Sensory Language
-
-**Visual Imagery**:
-- "The fog comes on little cat feet" (Carl Sandburg)
-- "A sudden blow: the great wings beating still" (Yeats)
-
-**Auditory/Tactile Imagery**:
-- "Hark, hark! The lark at heaven's gate sings" (Shakespeare)
-
-**Olfactory/Gustatory Imagery**:
-- "The scent of ripeness from the fields" (Sinhala harvest songs)
-
-**Kinesthetic/Movement Imagery**:
-- "I wandered lonely as a cloud" (Wordsworth)
-
-**Personified Nature**:
-- "Nature's first green is gold" (Frost)
-
-**Symbolic Imagery**:
-- Specific images recurring to represent ideas:
-  - Water = life, purification, change
-  - Fire = passion, destruction, transformation
-  - Light = knowledge, hope, spirituality
-  - Darkness = ignorance, despair, death
-  - Rose = love, beauty, fragility
-
-#### Poetic Devices
-
-**Sound Devices**:
-| Device | Definition | Example |
-|--------|------------|---------|
-| Alliteration | Repeating initial consonant sounds | "Peter Piper picked a peck of pickled peppers" |
-| Assonance | Repeating vowel sounds | "Go and mow the meadows" |
-| Consonance | Repeating consonant sounds | "Mike likes his bike" |
-| Onomatopoeia | Sound words | " buzz, hiss, clang" |
-| Rhyme | Matching end sounds | "day/may/ray" |
-
-**Rhetorical Devices**:
-| Device | Definition | Example |
-|--------|------------|---------|
-| Anaphora | Repetition at start of lines | "I will not be afraid..." repeated |
-| Epistrophe | Repetition at end of lines | "...said the king. ...said the king." |
-| Antithesis | Contrasting ideas | "It was the best of times, it was the worst of times" |
-| Apostrophe | Addressing absent subject | "O Death, where is thy sting?" |
-| Interrogation | Rhetorical question | "To be, or not to be, that is the question?" |
+> ⚠️ **Examiner Trap:** Writing "the poet is angry at his father's death" loses marks. The poet is not the speaker; the speaker is a *constructed* voice, and the techniques (imperative, anaphora, oxymoronic pairing of "gentle" and "good" with "burn" and "rage") are what produce the anger. Always answer *through* the text.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
+> Edge cases, contextual traps, and the two habits that separate A from B.
 
-**Poetry Appreciation** — Complete Notes for A/L Sri Lanka
+#### When form contradicts content
 
-#### Sri Lankan Poetry Traditions
+The richest marks in A/L poetry questions go to answers that notice **tension** between what the poem says and how it is shaped. A pastoral lyric in tight quatrains about loss is doing something different from a free-verse fragmentation about the same loss. Name the contradiction: the form is performing composure while the content mourns. Conversely, a chaotic free-verse line about celebration flags a controlled irony. Always ask: *is the form agreeing with the content, or arguing against it?*
 
-**Sinhala Poetry Forms**:
-- **Sandesa**: Messenger poems (poems from one character to another)
-- **Kavi**: Traditional verse forms
-- **Paravi Sandesa**: Bird messenger poems
-- **Hinu Sandesa**: Bee messenger poems
-- **Kotikoth**: Cricket poems (local form)
+#### Sinhala and Tamil syllabus specifics
 
-**Major Sinhala Poets for A/L Study**:
-- **Mahagama Sekera**: Contemporary poet of rural life and social issues
-- **Kumaratunga Munidasa**: Modern Sinhala literature
-- **Silindu Mahagama Sekera**: Political and spiritual poetry
-- **Welapperuma Gunasekara Thero**: Buddhist philosophical poetry
+The Sinhala and Tamil literature papers draw heavily on **lyric and devotional traditions** — *sivpada*, *sandēśa kāvya*, Bhakti poetry, and pastoral/folk forms. Three contextual traps recur:
 
-**Tamil Poetry Traditions**:
-- **Sangam poetry**: Classical Tamil literature (South Indian influence)
-- **Bhakti poetry**: Devotional Shaivate/Vaishnavite poems
-- **Kavignar tradition**: Community poets in Jaffna
+1. **Treating *sandēśa* literally as a messenger poem** instead of recognising the allegorical frame: the swan or bee is the poet's voice, the described landscape encodes longing for a deity or beloved.
+2. **Reading Bhakti poems as autobiography** — the *viraha* (separation) is theological, not romantic, even when the imagery is romantic.
+3. **Missing the *sandhi* (enjambment) across the *vansāvali* (genealogy) of classical Sinhala verse** — line breaks carry the rhetorical weight, not the comma.
 
-**Sri Lankan English Poetry**:
-- **Anne Ranasinghe**: Pioneering Sri Lankan English-language poet
-- **Katherine M. Balasuriya**: Women's voices in poetry
-- **Jean Arasanayagam**: Exploring identity and conflict
-- **M. R. B. B. K. Gunasinghe (Bruce)**:
+#### Common mistakes that cost bands
 
-#### Poetry Analysis Framework for A/L
+- **Device-listing without effect.** "The poem uses simile, metaphor, personification" — zero marks. Each device needs a verb after it: *suggests*, *implies*, *evokes*, *undermines*.
+- **Plot summary on narrative poems.** A *kavi-gehā* or ballad asks for technique, not storytelling. Two lines on plot maximum, then back to the language.
+- **Translation loss.** Quoting from a Sinhala or Tamil poem in English translation? Comment on the *translation choice* — what connotation survives, what is lost. Examiners reward this awareness explicitly.
+- **Cultural blind spots.** A reference to *Bodhi*, *pansal*, *devalaya*, or *kovil* is never decorative. It carries doctrinal weight; ignore it and the theme collapses.
 
-**STEP 1: Read the Poem at Least Three Times**
-- First read: Overall impression and surface meaning
-- Second read: Identify structure, rhyme, meter
-- Third read: Annotate images, devices, and connections
+#### Advanced practice prompts
 
-**STEP 2: Identify Key Elements**
-- Title: What does it suggest? Is there irony?
-- Speaker: Who is speaking? Is it the poet or a persona?
-- Setting: When and where? Is it real or imaginative?
-- Voice: Formal/informal? Emotional tone?
-- Stanzas: How is the poem structured? Why?
+1. Take a quatrain from a Sinhala *sivpada* (e.g. from *Kusum Ranjana*-era verse). Identify the rhyme scheme, map the metre, then write two sentences explaining how the sound-pattern supports the devotional mood.
+2. Compare an English sonnet (Petrarchan or Shakespearean) with a Sinhala *sandēśa* stanza on the theme of separation. In four sentences, identify one technique shared by both and one technique unique to each tradition.
 
-**STEP 3: Analyse Techniques**
-- **Language choices**: Diction, register, any unusual word choices
-- **Sound patterns**: Rhyme, rhythm, alliteration, assonance
-- **Imagery**: What images appear? What senses are engaged?
-- **Structure**: Stanzas, line lengths, line breaks, enjambment
-- **Form**: Why was this form chosen?
-- **Figures of speech**: Metaphors, similes, personification
+#### Quick-reference grid for the final read
 
-**STEP 4: Identify Themes**
-- What is the poem fundamentally about?
-- What comment does it make on life/society/human nature?
-- Does the poet seem to endorse or critique the subject?
-
-**Answer Structure for Poetry Questions**:
-
-```
-[Introduction — 1-2 sentences]
-- State the poem's title, poet (if known), and main impression
-- State your thesis about the poem's purpose or effect
-
-[Body — several paragraphs, each on one aspect]
-
-Paragraph 1: Theme and Meaning
-- State the main theme(s)
-- Support with specific evidence from the poem
-- Explain how the poem develops these themes
-
-Paragraph 2: Language and Imagery
-- Identify key images
-- Explain their effect on meaning/atmosphere
-- Quote specific words or lines
-
-Paragraph 3: Structure and Form
-- Comment on stanza structure
-- Discuss line breaks and enjambment
-- Explain how form supports meaning
-
-[Conclusion — 1-2 sentences]
-- Synthesise your analysis
-- Evaluate the poet's achievement
-```
-
-#### Key Terms for Poetry Analysis
-
-| Term | Definition | Example |
-|------|------------|---------|
-| Alliteration | Initial consonant sound repetition | "From forth the fatal loins of these two foes" |
-| Allusion | Reference to external text/culture | "Like a modern-day Job" |
-| Anaphora | Repetition at start of successive clauses | "We shall fight... We shall fight... We shall fight" |
-| Apostrophe | Direct address to absent entity | "O rose, thou art sick!" |
-| Assonance | Vowel sound repetition | "The rain in Spain stays mainly in the plain" |
-| Cacophony | Harsh, discordant sounds | "Rough coughing loads of logs" |
-| Caesura | Pause in middle of line | "To be, or not to be, — that is the question:" |
-| Connotation | Associated meaning beyond denotation | "Home" connotes warmth, family |
-| Consonance | Consonant sound repetition | "Mike likes his bike" |
-| Denotation | Literal dictionary meaning | "Rose" = a flowering plant |
-| Diction | Word choice | "Walked" vs. "strutted" |
-| Doublespeak | Language that obscures truth | Political rhetoric |
-| Dramatic monologue | Single speaker addressing silent listener | Browning's "My Last Duchess" |
-| Echo | Sound-reflecting imagery | "The ceaseless rifle pit-a-pat" |
-| Elegy | Poem of mourning | Thomas Gray's "Elegy Written in a Country Churchyard" |
-| End-stopped line | Line ends with pause (comma, period) | "Shall I compare thee to a summer's day?" |
-| Enjambment | Line runover without pause | "Shall I compare thee to a summer's day /Thou art more lovely and more temperate" |
-| Euphony | Pleasant, harmonious sounds | "The murmuring pines and the hemlock" |
-| Foot | Metrical unit of stressed/unstressed syllables | Iamb (× /) |
-| Free verse | Poetry without regular meter/rhyme | Modernist poetry |
-| Half-rhyme | Near rhyme | "load" and "bled" |
-| Hamartia | Fatal flaw leading to downfall | In tragic poetry |
-| Hubris | Excessive pride | The tragic hero's flaw |
-| Hyberbole | Exaggeration | "I've told you a million times!" |
-| Image/Imagery | Sensory language representing ideas | "The fog comes on little cat feet" |
-| Irony | Meaning opposite to words | "How clever of you to fail again" |
-| Juxtaposition | Placing contrasting elements together | "Ironic juxtaposition of wealth and poverty" |
-| Litotes | Understatement through negation | "Not bad" (meaning very good) |
-| Metaphor | Comparison without like/as | "All the world's a stage" |
-| Metonymy | Thing referred by closely related thing | "The Crown" for monarchy |
-| Mood | Emotional atmosphere created | Sombre, celebratory, tense |
-| Narration | Story element in poetry | Ballads have narrative |
-| Neoclassicism | 18th-century style of order and reason | Pope's heroic couplets |
-| Octave | Eight-line stanza (sonnet form) | First eight lines of Petrarchan sonnet |
-| Ode | Formal, elevated lyric poem | Keats' "Ode to a Nightingale" |
-| Onomatopoeia | Sound words | "Hiss," "buzz," "clang" |
-| Oxymoron | Contradictory terms combined | "Bitter sweet," "cruel kindness" |
-| Paradox | Seemingly contradictory but true | "I must be cruel to be kind" |
-| Paraprosdokian | Unexpected line ending | "I think the first half of my life is the most dangerous" |
-| Personification | Human qualities given to non-human | "The wind whispered through the trees" |
-| Prosody | Study of poetic meter and rhythm | Analysis of stressed syllables |
-| Pun | Wordplay, double meaning | "Time flies like an arrow" |
-| Quatrain | Four-line stanza | Most common ballad stanza |
-| Rhyme | Repetition of sound at line endings | "moon/June/tune" |
-| Romanticism | Movement valuing emotion and nature | Wordsworth, Coleridge |
-| Scansion | Marking metrical pattern | × / × / |
-| Sestet | Six-line stanza (last part of sonnet) | Lines 9-14 in Petrarchan sonnet |
-| Sestina | Complex repeating pattern poem | Six end-words in rotating order |
-| Simile | Comparison using like/as | "My love is like a red red rose" |
-| Sonnet | 14-line poem | Shakespearean or Petrarchan |
-| Stanza | Group of lines (poetic paragraph) | Verse paragraphs |
-| Symbol | Object representing idea | "Dove = peace" |
-| Synecdoche | Part representing whole | "All hands on deck" |
-| Tanka | Japanese five-line poem (5-7-5-7-7) | Nature and emotion |
-| Terse | Short, concise | Short lines, economy of language |
-| Theme | Central idea/message | Love, mortality, nature |
-| Tone | Poet's attitude toward subject | Ironic, melancholic, celebratory |
-| Villanelle | 19-line poem with two repeating rhymes | "Do not go gentle into that good night" |
-| Verse | Single line of poetry | One line of a poem |
-| Volta | Turn in argument/feeling | The "turn" in a sonnet |
-
-#### A/L Sri Lanka English Paper 2: Poetry Section
-
-**Mark Allocation**:
-- Poetry questions typically carry 20-25 marks out of 100
-- Part A: Language structures — 40 marks
-- Part B: Literature (Poetry + Prose) — 60 marks
-
-**Common A/L Poetry Questions**:
-1. "How does the poet use imagery to convey [theme]?"
-2. "Comment on the effect of the poem's structure"
-3. "What is the tone of the poem? How is this created?"
-4. "Compare the treatment of [theme] in two poems"
-5. "How does the poet create atmosphere/mood?"
-
-**Preparation Strategy**:
-- Memorise 10-12 key terms and be able to apply them
-- Know 3-4 poems deeply (themes, language, structure)
-- Practise writing timed responses (20 minutes for 20 marks)
-- Read poems aloud to appreciate sound patterns
-
-⚡ **A/L Common Mistake**: Students identify literary devices but don't explain their EFFECT. Simply naming "alliteration" earns minimal marks — explain HOW it creates meaning or emotion!
+| Layer | What to find | Question to ask |
+|---|---|---|
+| Speaker | Who is the "I"? | Whose words are these really? |
+| Tone | Speaker's attitude | How does the voice *sound*? |
+| Mood | Reader's emotion | How does the reader *feel*? |
+| Diction | Word-level choices | Why this word, not its synonym? |
+| Imagery | Sensory clusters | Which sense is dominant? |
+| Sound | Alliteration, assonance, rhyme | What does the sound *mimic*? |
+| Form | Stanza, metre, line length | Is form agreeing or fighting content? |
+| Theme | Abstract proposition | What is the poem *arguing*? |
+| Context | Cultural / historical frame | What does a Sri Lankan reader bring to this? |
 
 ---
+
+## Continue your study
+
+- **[View this topic in your A/L Examination (Sri Lanka) roadmap](/roadmap/?exam=al-exam&duration=1mo)** — see where "Poetry Appreciation and Analysis" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=al-exam&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[A/L Examination (Sri Lanka) exam overview](/exams/al-exam/)** — pattern, eligibility, and syllabus
+- **[All Arts-Stream notes](/notes/al-exam/arts-stream/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

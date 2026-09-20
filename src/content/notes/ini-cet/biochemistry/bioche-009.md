@@ -8,111 +8,128 @@ topicName: Amino Acid Metabolism
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-06-20"
+lastUpdated: "2026-09-20"
 ---
 
 # Amino Acid Metabolism
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+> Fast recall anchor for the night before INI CET — the four sentences and one mnemonic that turn this 3% topic into guaranteed marks.
 
-**Amino acid metabolism** covers how the body handles the 20 standard amino acids — their synthesis, degradation, and disposal of the amino nitrogen as **urea**. The nitrogen enters the urea cycle almost exclusively as **glutamate** and **glutamine**, funneled into the **carbamoyl phosphate synthetase I (CPS-I)** step inside hepatic mitochondria.
+Every proteinogenic amino acid ends up as **NH₄⁺** plus a keto-acid. Nitrogen flows to the urea cycle; the carbon skeleton is either glucogenic, ketogenic, or both. Transamination uses PLP; oxidative deamination uses glutamate dehydrogenase. Remember the stoichiometry of urea synthesis: **2 NH₄⁺ + CO₂ + 3 ATP + Aspartate → Urea + Fumarate + 2 ADP + AMP + 4 Pᵢ** (cost = 4 high-energy phosphate bonds because ATP→AMP counts as two).
 
-The single must-know reactions: (1) **Transamination** by AST/ALT using **pyridoxal phosphate (PLP)** shuttles α-amino groups to α-ketoglutarate, forming glutamate; (2) **Oxidative deamination** by **glutamate dehydrogenase** releases free NH₃ from glutamate and is allosterically activated by ADP, inhibited by GTP; (3) **CPS-I** commits two mitochondrial ATP toward carbamoyl phosphate, the rate-limiting step, allosterically switched on by **N-acetylglutamate (NAG)**; (4) the **urea cycle** net equation: 2 NH₃ + CO₂ + 3 ATP → urea + fumarate + 2 ADP + AMP + 4 Pᵢ.
+| Classification | Amino acids | Carbon-skeleton fate |
+|---|---|---|
+| Purely ketogenic | Leu, Lys | Acetyl-CoA / acetoacetate |
+| Mixed (gluco + keto) | Ile, Phe, Trp, Tyr, Thr | Both acetyl-CoA and a glucogenic intermediate |
+| Glucogenic (14) | All the rest | Pyruvate, OAA, α-KG, Succinyl-CoA, or Fumarate |
 
-Quick classification: **Purely ketogenic** amino acids are **Leu and Lys** (acetyl-CoA/acetoacetate); everything else is **glucogenic**, with **Ile, Phe, Trp, Tyr, Thr** also yielding ketone bodies. INI CET loves NAG-as-CPS-I-activator traps and the 3 ATP/4 high-energy phosphate cost of urea synthesis.
+> 💡 **High-Yield Memory Hook (Purely Ketogenic) — "Leu-Lys Lost it":** **Leu**cine and **Lys**ine are the only two purely ketogenic amino acids. Every other "both" amino acid is **"I PeTTy"** — **I**le, **P**he, **T**rp, **T**yr, **T**hr.
+
+Mnemonic for the urea-cycle enzymes in order: **"CaOwls Are A-rating"** → **C**PS-I, **O**TC, **A**rgininosuccinate synthetase, **A**rgininosuccinate lyase, **A**rginase. The first two enzymes are mitochondrial; the last three are cytosolic.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+> Working understanding for a 2-week to 2-month window — mechanisms, cofactors, classification traps, and one full worked INI CET-style calculation.
 
-#### Transamination and PLP
+#### Nitrogen flow into the urea cycle
 
-**Transamination** is a reversible amino-group transfer between an amino acid and an α-keto acid, catalysed by **aminotransferases** (AST = SGOT, ALT = SGPT) using **pyridoxal phosphate (PLP)** as cofactor. PLP forms a Schiff-base (internal aldimine) intermediate that stabilises a quinonoid carbanion, allowing the α-amino group to be transferred to α-ketoglutarate, generating **glutamate**. Because the reaction is freely reversible, it doubles as the final step in the *biosynthesis* of non-essential amino acids from TCA intermediates (e.g., aspartate from oxaloacetate, alanine from pyruvate).
+Transamination transfers the α-amino group of any amino acid onto α-ketoglutarate, producing **glutamate** and the corresponding α-keto acid. The reaction is freely reversible (ΔG ≈ 0) and requires **pyridoxal-5′-phosphate (PLP)** as the prosthetic group on every transaminase.
 
-#### Oxidative Deamination and Transdeamination
+- **ALT (alanine aminotransferase):** Alanine + α-ketoglutarate ⇌ Pyruvate + Glutamate
+- **AST (aspartate aminotransferase):** Aspartate + α-ketoglutarate ⇌ Oxaloacetate + Glutamate
 
-**Glutamate dehydrogenase (GDH)** sits in the **mitochondrial matrix** and oxidatively removes the amino group of glutamate, releasing free **NH₃** and reducing **NAD(P)⁺ → NAD(P)H**, yielding **α-ketoglutarate**. ADP activates GDH (low-energy signal, "burn protein for energy"); **GTP inhibits** it. Coupling transamination (collects amino groups into glutamate) with GDH (releases them as NH₃) is called **transdeamination** and is the dominant route for nitrogen mobilisation.
+The glutamate is then oxidatively deaminated by **glutamate dehydrogenase (EC 1.4.1.3)** in the liver mitochondrial matrix:
 
-#### The Urea Cycle (Krebs–Henseleit)
+NH₄⁺ + α-Ketoglutarate + NAD(P)H + H⁺ ⇌ Glutamate + NAD(P)⁺ + H₂O
 
-| Step | Enzyme | Location | Key point |
-|---|---|---|---|
-| 1 | **CPS-I** | Mito matrix | **Rate-limiting**, requires **NAG**, uses 2 ATP, NH₃ + CO₂ → carbamoyl phosphate |
-| 2 | **Ornithine transcarbamoylase (OTC)** | Mito matrix | Carbamoyl phosphate + ornithine → citrulline |
-| 3 | **Argininosuccinate synthetase** | Cytosol | Citrulline + aspartate + ATP → argininosuccinate (consumes the second N) |
-| 4 | **Argininosuccinate lyase** | Cytosol | Argininosuccinate → arginine + fumarate |
-| 5 | **Arginase** | Cytosol | Arginine → urea + ornithine |
+This enzyme is allosterically **activated by ADP** and **inhibited by GTP**, so it responds to the cell's energy charge. Free NH₄⁺ plus a second nitrogen donated by aspartate enters the urea cycle.
 
-**Net cost:** **3 ATP consumed but 4 high-energy phosphate bonds hydrolysed** (2 ATP → 2 ADP at CPS-I, ATP → AMP + PPᵢ at ASS). Fumarate links the cycle to the **TCA cycle** (anaplerotic) and to gluconeogenesis. NAG is synthesised from glutamate + acetyl-CoA by N-acetylglutamate synthase and is the obligatory allosteric activator of CPS-I — without it, carbamoyl phosphate synthesis is essentially zero.
+#### Urea cycle stoichiometry and clinical correlations
 
-#### Nitrogen Transport
+The net equation reported in INI CET-style MCQs is:
 
-Peripheral tissues package amino nitrogen into **glutamine** (via glutamine synthetase, ATP-dependent) and **alanine** (glucose–alanine cycle). Liver **mitochondrial glutaminase** hydrolyses glutamine back to glutamate + NH₃ for CPS-I; kidney uses glutamine amide nitrogen for NH₄⁺ excretion during acidosis.
+#### 2 NH₄⁺ + CO₂ + 3 ATP + Aspartate → Urea + Fumarate + 2 ADP + AMP + 4 Pᵢ
 
-#### Classification by Catabolic Fate
+The standard pitfall is the ATP count. ATP→ADP contributes two bonds; the ATP hydrolysed to AMP + PPᵢ by argininosuccinate synthetase effectively consumes **two** high-energy phosphate bonds, so the total cellular cost is **four** (~3 ATP equivalents).
 
-- **Purely ketogenic:** **Leu, Lys** → acetyl-CoA / acetoacetyl-CoA.
-- **Glucogenic:** Ala, Arg, Asn, Asp, Cys, Gln, Glu, Gly, His, Met, Pro, Ser, Val.
-- **Both glucogenic + ketogenic:** **Ile, Phe, Trp, Tyr, Thr**.
+#### Carbon-skeleton classification — when memorising fails
 
-#### Specialised Products (high-yield for INI CET)
+| Carbon entry point | Amino acids delivering carbon here |
+|---|---|
+| Pyruvate | Ala, Ser, Gly, Cys, Trp (via Ala) |
+| α-Ketoglutarate | Glu, Gln, His, Pro, Arg |
+| Succinyl-CoA | Val, Ile, Met, Thr |
+| Fumarate | Phe, Tyr (via Asp-fumarate arm) |
+| Oxaloacetate | Asn, Asp |
+| Acetyl-CoA / Acetoacetate | Leu, Lys (purely); Ile, Phe, Trp, Tyr, Thr (mixed) |
 
-- **Glycine** → heme, purines, glutathione, creatine (with arginine).
-- **Tyrosine** → dopamine → norepinephrine → epinephrine; **melanin**; **thyroid hormones** (T3/T4).
-- **Tryptophan** → serotonin → melatonin; **NAD⁺/NADP⁺** biosynthesis.
-- **Arginine** → **nitric oxide (NO)** via NO synthase; creatine; urea.
-- **Cysteine** → taurine (bile-salt conjugation), glutathione.
+#### Cofactor map for catabolic blocks
 
-#### One-Carbon Metabolism and SAM
+| Cofactor | Pathway / enzyme | Deficiency disease |
+|---|---|---|
+| PLP (B6) | All transaminations, CBS | MSUD (BCKD), homocystinuria (B6-responsive) |
+| BH₄ | Phenylalanine hydroxylase | Phenylketonuria |
+| NAD(P)⁺ | Glutamate dehydrogenase | Hyperinsulinism–hyperammonemia (GDH gain-of-function) |
+| Adenosylcobalamin (B12) | Methylmalonyl-CoA mutase, MTR | Methylmalonic acidaemia, homocystinuria |
+| Tetrahydrofolate | SHMT, MTHFR | Megaloblastic anaemia, homocystinuria |
 
-**S-adenosylmethionine (SAM)** is the universal methyl donor, formed from methionine + ATP. After donating its methyl group, SAM becomes **S-adenosylhomocysteine → homocysteine**. Homocysteine is remethylated to methionine by **methionine synthase**, using **N⁵-methyl-THF** and **vitamin B₁₂** (methylcobalamin). The **folate trap** explains why B₁₂ deficiency mimics folate deficiency at the methyl-THF level. Homocysteine can alternatively be condensed with serine by **cystathionine β-synthase** (B₆-dependent) to form cystathionine — deficiency causes **homocystinuria**.
+#### 🎯 Exam-Level Worked Problem
+
+A 6-day-old neonate presents with poor feeding, lethargy, and a plasma ammonia of 480 µmol/L (reference <50). Tandem MS shows elevated glutamine and alanine, but **citrulline is undetectable**. Urine orotic acid is markedly raised.
+
+**Step 1 — Locate the block.** Low citrulline places the defect at **carbamoyl phosphate synthetase I** or **ornithine transcarbamylase (OTC)**. Both produce hyperammonemia, but only OTC deficiency allows carbamoyl phosphate to spill into the cytosol and condense with aspartate via CPS-II → orotic acid.
+
+**Step 2 — Confirm with the cytological clue.** Elevated orotic acid + low citrulline → **OTC deficiency**, the only X-linked urea cycle defect (lethal in hemizygous males).
+
+**Step 3 — Calculate nitrogen load to clear.** Using Cockcroft-Gault for renal context is irrelevant here (renal function is intact), but the serum urea conversion is testable:
+
+Serum urea (mmol/L) = BUN (mg/dL) ÷ **2.14**
+
+If the lab reports a BUN of 28 mg/dL with this neonate, the corresponding urea = **28 ÷ 2.14 = 13.08 mmol/L** (reference 2.5–7.1). The patient is hyperammonemic **with** elevated urea — meaning nitrogen is reaching the cycle but accumulating because of the downstream block plus hyperammonemia.
+
+**Resolution:** Stop protein, give sodium benzoate + phenylacetate, and dialysis; the OTC defect itself is untreatable pharmacologically beyond ammonia scavenging.
+
+> ⚠️ **Examiner Trap:** Both CPS-I and OTC deficiency present with **low citrulline and high glutamine**. CPS-I does **not** raise orotic acid; only OTC does. If an MCQ lists "high orotic acid + low citrulline", the answer is OTC, never CPS-I.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
+> Edge cases, mathematical limits, and the integration traps that surface in INI CET image-based MCQs.
 
-#### Edge Cases and Regulation
+#### Boundary conditions of the urea cycle
 
-- **GDH and hyperinsulinism/hyperammonemia (HI/HA) syndrome:** activating mutations in *GLUD1* make GDH insensitive to GTP inhibition, causing excessive NH₃ release and recurrent hypoglycaemia — leucine provokes episodes because it allosterically activates the same mutant GDH.
-- **NAG deficiency vs CPS-I deficiency:** both present as neonatal hyperammonemia with low plasma citrulline, but only CPS-I deficiency is unresponsive to NAG/carglumic acid; OTC deficiency shows **elevated orotic acid** (because carbamoyl phosphate spills into pyrimidine synthesis in the cytosol).
-- **Fumarate from the urea cycle** can refuel the TCA cycle, which is why hyperammonemic states also perturb energy metabolism and explain the cerebral edema of acute ammonia toxicity (glutamate → glutamine accumulation in astrocytes raises osmotic load).
+- **N-acetylglutamate (NAG)** is the obligatory allosteric activator of CPS-I. NAG is synthesised from glutamate + acetyl-CoA by **N-acetylglutamate synthase (NAGS)**; NAGS deficiency mimics CPS-I deficiency (low citrulline, normal orotic acid). Treatment: N-carbamylglutamate (carglumic acid).
+- **CPS-I is mitochondrial and ammonia-specific**; **CPS-II is cytosolic and uses glutamine** for pyrimidine synthesis. Do not let a poorly worded question conflate them.
+- **Maximum nitrogen flux**: a healthy adult excretes ~30 g of urea/day. Above this, ammonia accumulates faster than CPS-I can process it because the cycle's rate-limiting step (argininosuccinate synthetase in vivo) saturates.
 
-#### Inborn Errors — Classic INI CET Vignettes
+#### Edge cases in clinical aminoacidurias
 
-| Disorder | Defect | Accumulating substrate |
+| Disorder | Enzyme | Distinguishing lab/clinical clue |
 |---|---|---|
-| **Phenylketonuria (PKU)** | Phenylalanine hydroxylase (or BH₄ cofactor) | Phenylalanine, phenylpyruvate; musty odour |
-| **Maple syrup urine disease** | Branched-chain α-ketoacid dehydrogenase (E1, BCKD) | Leu, Ile, Val; burnt-sugar urine |
-| **Alkaptonuria** | Homogentisate oxidase | Homogentisic acid; dark urine, ochronosis |
-| **Homocystinuria** | Cystathionine β-synthase (most common) | Homocysteine; lens dislocation, Marfanoid habitus |
-| **Cystinuria** | Dibasic amino acid transporter (SLC3A1/SLC7A9) | Cystine stones |
-| **Non-ketotic hyperglycinemia** | Glycine cleavage system | Glycine in CSF |
+| Phenylketonuria | Phenylalanine hydroxylase | Serum Phe > 1200 µmol/L; tyrosine becomes essential |
+| Maternal PKU | Placental Phe transfer | Fetal microcephaly, CHD if maternal Phe uncontrolled |
+| MSUD | Branched-chain α-ketoacid dehydrogenase (BCKD) | Sweet-smelling urine; ↑ Leu/Ile/Val |
+| Alkaptonuria | Homogentisate 1,2-dioxygenase (HGD) | Urine darkens on standing/alkalinisation; ochronosis |
+| Homocystinuria | Cystathionine β-synthase | Lens subluxation downward, Marfanoid habitus |
+| Methylmalonic acidaemia | Methylmalonyl-CoA mutase | Metabolic acidosis without ketosis; B12-responsive subset |
+| Scurvy masquerade | Proline/lysine hydroxylase cofactor (vitamin C) | Connective-tissue, not aminoaciduria — frequent distractor |
 
-#### Connections to Adjacent Topics
+#### Two advanced practice prompts
 
-- **TCA cycle:** α-ketoglutarate, oxaloacetate, pyruvate, succinyl-CoA, fumarate and acetyl-CoA are the catabolic entry points — linking this topic to **gluconeogenesis**, **ketogenesis**, and **anaplerosis**.
-- **Nucleotide metabolism:** glycine + aspartate + glutamine donate atoms to the purine ring; aspartate + carbamoyl phosphate (CPS-II, cytosolic, no NAG) form pyrimidines.
-- **Porphyrias:** glycine + succinyl-CoA → δ-aminolevulinic acid (ALA) — the first step of heme synthesis; defects cause neurovisceral or cutaneous porphyrias.
-- **Neurotransmitter synthesis:** tryptophan hydroxylase (BH₄ cofactor) and tyrosine hydroxylase (BH₄) tie amino acid metabolism to monoamine neurotransmitter production — relevant when BH₄ is recycled by dihydropteridine reductase.
+1. **Integration question.** A neonate on a tyrosine-deficient phenylalanine-restricted diet continues to deteriorate with low plasma tyrosine. The same enzyme assay shows *normal* phenylalanine hydroxylase activity. Name the second-most likely cofactor deficiency and the substrate you'd measure to confirm it. (Expected answer: BH₄ deficiency; confirm by raised urinary pterins or a dihydropteridine reductase assay on dried blood spot.)
+2. **Numerical MCQ.** If a patient produces 30 g of urea per day (urea Mᵣ = 60.06 g/mol), and the laboratory reports serum urea as 14.0 mmol/L in a 70 kg adult with 42 L total body water, how many hours of zero hepatic urea synthesis would raise plasma NH₃ by 100 µmol/L? Use total nitrogen pool of ~4 g NH₃-N in this volume. (Calculated answer: ≈1.6 hours; illustrates why hyperammonemic coma can develop overnight in OTC-deficient infants.)
 
-#### Common Exam Traps
-
-1. Confusing **CPS-I (mitochondrial, urea, NAG-dependent)** with **CPS-II (cytosolic, pyrimidines, no NAG)**.
-2. Forgetting that GDH uses **NAD⁺ or NADP⁺** — it is the only enzyme with that flexibility.
-3. Calling argininosuccinate synthetase the rate-limiting step — it is **CPS-I**.
-4. Assuming all urea-cycle defects cause high orotic acid — only **OTC deficiency** does, because carbamoyl phosphate accumulation is required.
-5. Misclassifying **threonine** as purely glucogenic — it is **both** glucogenic and ketogenic.
-
-#### Worked Micro-Example
-
-During prolonged fasting, muscle protein breakdown releases amino acids. Alanine is transaminated to pyruvate (→ glucose, glucose–alanine cycle) and leucine is oxidised to acetoacetyl-CoA + acetyl-CoA (ketone bodies). The liberated NH₃ is packaged as glutamine (muscle) → transported to liver → glutaminase releases NH₃ → CPS-I (NAG-activated) → through the urea cycle producing **1 urea + 1 fumarate**. Cost: **3 ATP, equivalent to 4 ~P**. Result: nitrogen excreted, carbon skeletons diverted to glucose or ketones.
-
-#### INI CET Strategy
-
-Biochemistry carries ~3% of INI CET; amino acid metabolism is a recurring **2–3 question** cluster, almost always as clinical vignettes (PKU, MSUD, homocystinuria, hyperammonemia) or mechanism MCQs (cofactors PLP/BH₄/B₁₂, NAG, GDH regulation, urea cycle stoichiometry). Memorise the **3 ATP / 4 high-energy bonds** net cost, the **purely ketogenic pair (Leu, Lys)**, and the **branched-chain enzyme defect** — these appear every exam cycle.
+> 📌 **Integration trap:** When a question offers both B6-responsive homocystinuria and B12-responsive homocystinuria, the **B6-responsive form = CBS deficiency** and the **B12/folate-responsive form = MTHFR deficiency**. A wrong cofactor choice is the most common reason students miss this question.
 
 ---
+
+## Continue your study
+
+- **[View this topic in your INI CET (AIIMS PG) roadmap](/roadmap/?exam=ini-cet&duration=1mo)** — see where "Amino Acid Metabolism" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ini-cet&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[INI CET (AIIMS PG) exam overview](/exams/ini-cet/)** — pattern, eligibility, and syllabus
+- **[All Biochemistry notes](/notes/ini-cet/biochemistry/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

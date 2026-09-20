@@ -11,7 +11,7 @@ topicName: Chemical Equilibrium
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.724532"
-lastUpdated: 2026-03-24
+lastUpdated: "2026-09-20"
 diagramPrompt: "Clear scientific diagram of Chemical Equilibrium with atom labels, molecular structure, reaction arrows, white background, color-coded bonds and groups, exam textbook style"
 
 
@@ -19,132 +19,124 @@ diagramPrompt: "Clear scientific diagram of Chemical Equilibrium with atom label
 
 
 ---
+
 # Chemical Equilibrium
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+> One-line anchor for the rush: equal rates, opposite directions, constant composition.
 
-**Chemical Equilibrium** — Key Facts
-Dynamic equilibrium: forward and reverse reactions occur at equal rates; concentrations remain constant
-Law of mass action: for $aA + bB \rightleftharpoons cC + dD$, $K = \frac{[C]^c[D]^d}{[A]^a[B]^b}$ at equilibrium
-Homogeneous: all species in same phase; Heterogeneous: species in different phases (omit solids/liquids from $K$)
-Le Chatelier's principle: system at equilibrium shifts to counteract any applied change
-⚡ Exam tip: Adding a catalyst increases rate of both forward and reverse equally; it does NOT change equilibrium position or $K$
+**Chemical equilibrium is a dynamic state**, not a stopped reaction. In a reversible reaction, the forward rate equals the reverse rate once the concentrations stop changing. The hallmark is **constant macroscopic composition** despite ongoing molecular exchange.
 
----
+**Equilibrium constant** measures where the position of equilibrium sits. For the generic reaction aA + bB ⇌ cC + dD:
+
+$$K_c = \dfrac{[C]^c[D]^d}{[A]^a[B]^b}$$
+
+where [X] denotes equilibrium concentration in **mol·dm⁻³** and a, b, c, d are stoichiometric coefficients. Kc is **dimensionless** by convention (activities divided by 1 mol·dm⁻³ standard state).
+
+#### Must-know formula pair
+
+| Quantity | Expression | SI Unit | Notes |
+|---|---|---|---|
+| Kc | [products]ᶜᶜᵒᵉᶠᶠ / [reactants]ᶜᵒᵉᶠᶠ | dimensionless | Aqueous/gas concentrations in mol·dm⁻³ |
+| Kp | Kc(RT)^Δn | dimensionless | Δn = gaseous mol products − gaseous mol reactants |
+| Q | same form as Kc, at any instant | dimensionless | Compare with Kc to predict direction |
+| α | √(Kc/c) for weak acid | dimensionless | Ostwald dilution law, when α << 1 |
+
+> 💡 **High-Yield Memory Hook (Memory Hook — FLPSC):** **F**actors that shift equilibrium are **C**oncentration, **P**ressure, **L** catalyst (no shift), **S**olid (no effect), **C**atalyst (no K change). Only **Temperature** changes the value of K itself.
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+> A working student needs the why behind the constants and the trap behind every shift.
 
-**Chemical Equilibrium** — JAMB Chemistry Study Guide
+#### The dynamic nature
 
-**Types of equilibrium constant:**
-$K_c$: concentrations in mol/L; $K_p$: partial pressures (for gaseous reactions); $K_{sp}$: solubility product
-$K_c = K_p(RT)^{-\Delta n}$ where $\Delta n = n_{gaseous products} - n_{gaseous reactants}$
+When N₂(g) + 3H₂(g) ⇌ 2NH₃(g) starts, the forward rate is high because reactant concentrations are large. As NH₃ builds up, the reverse rate climbs. Equilibrium is the moment the two rates match. Macroscopic concentrations then stay fixed; molecular collisions continue. This is **dynamic**, not static.
 
-**Physical equilibrium examples:**
-- Water evaporation: $H_2O(l) \rightleftharpoons H_2O(g)$; $K_p = P_{H_2O}$ (vapour pressure)
-- Ice-water: $H_2O(s) \rightleftharpoons H_2O(l)$
-- Dissolution of gases: $CO_2(g) \rightleftharpoons CO_2(aq)$
+#### Equilibrium constants
 
-**Le Chatelier's effects:**
-| Change | Effect on equilibrium |
-|--------|----------------------|
-| Increase $[A]$ | Shift away from A |
-| Decrease $[A]$ | Shift toward A |
-| Increase pressure | Shift toward fewer gas moles |
-| Decrease pressure | Shift toward more gas moles |
-| Increase temperature (exothermic) | Shift left |
-| Increase temperature (endothermic) | Shift right |
-| Add catalyst | No shift |
+Kc applies when species are in solution or all gases (concentration-based). Kp applies when **all** species are gases and is built on partial pressures in atm or Pa. The two relate through:
 
-**Heterogeneous equilibrium example:**
-$CaCO_3(s) \rightleftharpoons CaO(s) + CO_2(g)$
-$K_p = P_{CO_2}$ (solids don't appear)
-This is why $CaCO_3$ decomposition continues only if $P_{CO_2}$ is kept low (limestone calcination in kilns).
+$$K_p = K_c(RT)^{\Delta n}$$
 
-Common student mistakes: forgetting that pure solids and liquids are omitted from $K$ expressions; confusing Le Chatelier's for concentration vs partial pressure changes; thinking $K$ changes with concentration (it doesn't — only with temperature).
+where **R = 8.314 J·K⁻¹·mol⁻¹**, **T in kelvin**, and **Δn = Σ(gas product mol) − Σ(gas reactant mol)**. If Δn = 0, then Kp = Kc numerically.
 
----
+> 📌 **Formula Check:** For 2SO₂(g) + O₂(g) ⇌ 2SO₃(g), Δn = 2 − 3 = −1, so Kp = Kc(RT)⁻¹.
+
+#### Le Chatelier's principle
+
+When a stress is applied, the system shifts to oppose it. Concentration changes shift the position but not K. Pressure changes shift gas-phase equilibria toward the side with **fewer gaseous moles**. Temperature is the only variable that **alters K**: heat added to an endothermic forward reaction raises Kc; heat added to an exothermic forward reaction lowers it.
+
+#### Heterogeneous vs homogeneous
+
+In CaCO₃(s) ⇌ CaO(s) + CO₂(g), only CO₂ appears in the Kp expression. Pure solids and pure liquids have **activity = 1** and are dropped from the expression. This rule trips many JAMB candidates.
+
+#### Concept Comparison Matrix
+
+| Feature | Kc | Kp | Reaction Quotient Q |
+|---|---|---|---|
+| Definition | Conc. ratio at equilibrium | Partial-pressure ratio at equilibrium | Ratio at any instant |
+| Used for | Aqueous + gases | All gases | Any time, any composition |
+| Changes with | Temperature only | Temperature only | Approach to equilibrium |
+| Predicts | Position reached | Position reached | Direction of next shift |
+| Standard state | 1 mol·dm⁻³ | 1 atm (or 1 bar) | Same as Kc or Kp |
+
+#### Worked walk-through
+
+Consider 1.00 mol PCl₅ placed in a 2.00 dm³ vessel at 250 °C. At equilibrium, 0.50 mol PCl₅ has dissociated.
+
+#### Step 1 — moles at equilibrium:
+- PCl₅: 1.00 − 0.50 = 0.50 mol
+- PCl₃: 0.50 mol
+- Cl₂: 0.50 mol
+
+#### Step 2 — concentrations (mol·dm⁻³):
+- [PCl₅] = 0.50 / 2.00 = 0.25
+- [PCl₃] = 0.50 / 2.00 = 0.25
+- [Cl₂] = 0.50 / 2.00 = 0.25
+
+#### Step 3 — Kc calculation:
+For PCl₅(g) ⇌ PCl₃(g) + Cl₂(g):
+
+$$K_c = \dfrac{[PCl_3][Cl_2]}{[PCl_5]} = \dfrac{(0.25)(0.25)}{0.25} = 0.25 \text{ mol·dm}^{-3}$$
+
+**Step 4 — Δn check:** Δn = 2 − 1 = 1, so Kp = Kc(RT)¹. With T = 523 K and R = 0.0821 dm³·atm·K⁻¹·mol⁻¹, Kp = 0.25 × 0.0821 × 523 ≈ **10.7 atm**.
+
+> ⚠️ **Examiner Trap (Examiner Trap):** Students often write the equilibrium expression for PCl₅ ⇌ PCl₃ + Cl₂ with **cubes of concentrations** when the question gives a cubic vessel — volume cancels in the ratio, so it does not enter Kc.
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
+> Mastery tier: connect ΔG, hunt the boundaries, and stress-test the Le Chatelier shortcut.
 
-**Chemical Equilibrium** — Comprehensive Chemistry Notes
+#### Thermodynamic backbone
 
-**Relationship between K and reaction quotient Q:**
-$Q = \frac{[C]^c[D]^d}{[A]^a[B]^b}$ (same formula as $K$ but concentrations are not at equilibrium)
-- If $Q < K$: reaction proceeds forward (products need to increase)
-- If $Q > K$: reaction proceeds reverse (reactants need to increase)
-- If $Q = K$: at equilibrium
+The equilibrium constant ties directly to Gibbs free energy:
 
-**Temperature dependence of K:**
-$\ln K = -\frac{\Delta H°}{RT} + \frac{\Delta S°}{R}$
-Or: $\ln\frac{K_2}{K_1} = -\frac{\Delta H°}{R}\left(\frac{1}{T_2} - \frac{1}{T_1}\right)$
-For exothermic reactions ($\Delta H° < 0$): as $T$ increases, $K$ decreases.
-For endothermic reactions ($\Delta H° > 0$): as $T$ increases, $K$ increases.
+$$\Delta G^\circ = -RT \ln K$$
 
-**Very large or very small K:**
-- $K >> 1$: products heavily favoured; reaction goes essentially to completion
-- $K << 1$: reactants heavily favoured; reverse reaction predominates
-- $K = 1$: significant amounts of both reactants and products at equilibrium
+with **R = 8.314 J·K⁻¹·mol⁻¹**, **T in K**, and **ΔG° in J·mol⁻¹**. At equilibrium itself, ΔG = 0, while ΔG° ≠ 0 unless K = 1. This is why a reaction with K = 10⁶ still proceeds in both directions microscopically: equilibrium is a balance of rates, not a barrier against the reverse path.
 
-**Equilibrium calculations:**
-For $aA \rightleftharpoons bB$:
-Let initial: $[A]_0 = a_0$, $[B]_0 = b_0$
-Change: $[A]$ decreases by $x$, $[B]$ increases by $(b/a)x$
-At equilibrium: $[A] = a_0 - x$, $[B] = b_0 + (b/a)x$
-$K = \frac{[B]^b}{[A]^a} = \frac{(b_0 + (b/a)x)^b}{(a_0 - x)^a}$
+#### Edge cases and limits
 
-**The Haber process (industrial example):**
-$N_2 + 3H_2 \rightleftharpoons 2NH_3$; $\Delta H = -92.4$ kJ/mol (exothermic)
-Low temperature favours products BUT slows reaction rate (compromise at ~400-500°C with catalyst).
-High pressure favours products (4 moles gas → 2 moles gas) — typically 150-300 atm.
-Iron catalyst speeds up reaction without affecting equilibrium position.
+- **Pure solids and liquids.** Their activities equal 1 by convention; never insert them into Kc or Kp. JAMB often tests this with CaCO₃(s) ⇌ CaO(s) + CO₂(g), where Kp = P(CO₂).
+- **Inert gas addition.** Adding He at constant volume raises total pressure but leaves all partial pressures unchanged, so the position does not shift. At constant pressure, the volume expands and the equilibrium shifts toward more gaseous moles — a subtle distinction examiners exploit.
+- **Very small K.** When Kc < 10⁻⁴, α ≈ √(Kc/c) holds tightly; for larger Kc, the full cubic α must be solved.
+- **Very large K.** Reactants are essentially fully converted; JAMB numericals usually assume K ≥ 10⁴ means "reaction goes to completion".
+- **Solvent participation.** For reactions where water is a reactant or product in dilute aqueous solution, [H₂O] is treated as constant and folded into Kc.
 
-**JAMB exam patterns:**
-- 2023 JAMB: For reaction $2SO_2 + O_2 \rightleftharpoons 2SO_3$, K_c = 4; if initial [SO₂] = 2 M and [O₂] = 1 M, find equilibrium [SO₃]
-- 2022 JAMB: State Le Chatelier's principle and predict effect of adding a catalyst on equilibrium constant
-- 2021 JAMB: For $N_2 + 3H_2 \rightleftharpoons 2NH_3$, explain why low temperature favours ammonia formation despite slow rate
-- 2020 JAMB: Why does increasing pressure shift equilibrium toward fewer gas molecules?
+#### Industrial anchors JAMB loves
 
----
+The Haber process (N₂ + 3H₂ ⇌ 2NH₃, exothermic, Δn = −2) uses high pressure, moderate temperature (~450 °C), and an iron catalyst to push yield upward. The Contact process (2SO₂ + O₂ ⇌ 2SO₃) follows the same playbook: low temperature favours yield but kills rate, so ~450 °C and V₂O₅ catalyst balance both.
 
+#### Advanced practice prompts
 
----
-## 📊 JAMB Exam Essentials
+1. For 2NO₂(g) ⇌ N₂O₄(g) at 298 K, Kp = 0.10 atm⁻¹. Starting with 2.00 atm NO₂ in a 1.00 dm³ flask, derive the equilibrium expression in terms of extent x, then solve for x. Predict whether compressing the flask to 0.50 dm³ raises or lowers the mole fraction of N₂O₄.
+2. Methanol synthesis: CO(g) + 2H₂(g) ⇌ CH₃OH(g), ΔH = −90 kJ·mol⁻¹. A JAMB-style question asks how doubling pressure and cutting temperature by 20 K affects yield. Apply Le Chatelier twice and rank the effects.
 
-| Detail | Value |
-|---|---|
-| Questions | 180 MCQs (UTME) |
-| Subjects | 4 subjects (language + 3 for course) |
-| Time | 2 hours |
-| Marking | +1 per correct answer |
-| Score | 400 max (used for university admission) |
-| Registration | January – February each year |
+> ⚠️ **Examiner Trap:** A common distractor reads "adding a catalyst shifts equilibrium toward products." The correct answer is **no shift** — catalysts lower activation energy for *both* directions equally. JAMB has used this exact distractor in past papers.
 
-### 🎯 High-Yield Topics for JAMB
-- Use of English (Grammar + Comprehension) — 60 marks
-- Biology for Science students — 40 marks
-- Chemistry (Organic + Physical) — 40 marks
-- Physics (Mechanics + Optics) — 35 marks
-- Mathematics (Algebra + Geometry) — 40 marks
+## Continue your study
 
-### 📝 Previous Year Question Patterns
-- Q: "The process of photosynthesis requires..." [2024 Biology]
-- Q: "The electronic configuration of Fe is..." [2024 Chemistry]
-- Q: "Find the value of x if 2x + 5 = 15..." [2024 Mathematics]
+- **[View this topic in your JAMB UTME roadmap](/roadmap/?exam=jamb&duration=1mo)** — see where "Chemical Equilibrium" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=jamb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[JAMB UTME exam overview](/exams/jamb/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/jamb/chemistry/)** — browse sibling topics in this subject
 
-### 💡 Pro Tips
-- Use of English carries the most weight — master grammar rules and comprehension strategies
-- JAMB syllabus is your Bible — questions come directly from it. Download and use it.
-- Past questions are highly predictive — repeat patterns appear every year
-- For Science students, Biology and Chemistry are high-scoring if you study NCERT-level content
-
-### 🔗 Official Resources
-- [JAMB Official](https://www.jamb.gov.ng/)
-- [JAMB Syllabus](https://www.jamb.gov.ng/syllabus)
-
----
-
-*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

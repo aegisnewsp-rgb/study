@@ -8,85 +8,119 @@ topicName: Indonesian Language Proficiency
 weight: 3
 country: indonesia
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-09-05
+lastUpdated: "2026-09-20"
 ---
 
 # Indonesian Language Proficiency
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid review of reading comprehension strategies, main ideas, factual identification, and text inference for UNDANA Entrance Examination.
 
-**Kemampuan Bahasa Indonesia — High-Yield Essentials**
+> Anchor on Ejaan Yang Disempurnakan rules and affixation patterns — two items alone decide half the score.
 
-1. **Menemukan Gagasan Utama (Main Idea):**
-   - **Paragraf Deduktif:** Gagasan utama terletak di **awal paragraf** (kalimat pertama), diikuti oleh kalimat-kalimat penjelas.
-   - **Paragraf Induktif:** Gagasan utama terletak di **akhir paragraf** (kalimat terakhir), biasanya ditandai konjungsi kesimpulan (*jadi, oleh karena itu, dengan demikian*).
-   - **Paragraf Campuran (Deduktif-Induktif):** Gagasan utama ditegaskan di awal dan diulang kembali di akhir paragraf.
-2. **Membedakan Fakta vs Opini:**
-   - **Fakta:** Bersifat objektif, dapat diverifikasi kebenarannya, memuat data kuantitatif (angka, tanggal, lokasi riil, bukti empiris). Contoh: *UNDANA didirikan pada tanggal 1 September 1962.*
-   - **Opini:** Bersifat subjektif, memuat penilaian pribadi, prediksi, saran, atau kata sifat relatif (*sangat indah, mungkin, seharusnya, diprediksi*). Contoh: *Kampus UNDANA merupakan kampus terbaik di kawasan Nusa Tenggara Timur.*
-3. **Teknik Penarikan Simpulan Teks (Inference):**
-   - Simpulan harus mencakup inti seluruh paragraf, bukan hanya menyalin satu kalimat penjelas.
-   - Hindari simpulan yang menambahkan informasi eksternal di luar isi bacaan (*extrapolation error*).
+Bahasa Indonesia proficiency for the UNDANA USM/UMPTN tests six skills in roughly 10–20 multiple-choice items worth about 3% of the paper. The marks separate candidates who can spot the *di-* prefix against the preposition *di* from those who cannot.
 
-⚡ **Jebakan Ujian:** Jangan menyamakan **Judul** dengan **Gagasan Pokok**. Judul adalah label nama teks (bisa berupa frasa singkat), sedangkan gagasan pokok adalah pernyataan lengkap yang mendasari isi seluruh paragraf.
+| Sub-skill | What the examiner tests | One-second recall |
+|---|---|---|
+| EYD spelling | Capital letters, *di-/me-* writing, foreign-word adaptation | Prefix joins verb; preposition stands alone |
+| Affixation | Correct *me-, ber-, pe-, -kan, -i, -an* with phonologically conditioned allomorphs | *pem-* before *b, f, v, p*; *peny-* before vowel; *pen-* elsewhere |
+| Kalimat efektif | Parallelism, no pleonasm, precise logical connector | Cut every word the meaning survives without |
+| Reading comprehension | Main idea, inference, purpose in expository and narrative passages | Topic sentence carries the idea; details support it |
+| Lexical semantics | Sinonim, antonim, polisemi, homonim | Context flips polarity |
+| Literary language | Majas, diksi, nada, amanat in puisi or cerpen | Hiperbola = exaggerated scale; personifikasi = non-human actor |
+
+> 💡 **Memory Hook:** **DIPERPUS** — *Di* as **P**reposition, **E**YD cap, **R**educe pleonasm, **P**refix *me-* follows phonology, **U**se parallel structure, **S**pot topic sentence. Six letters, six tested skills.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Detailed pedagogical guide covering paragraph coherence, rhetorical modes, and reading comprehension taxonomy.
 
-## 1. Analisis Keterpaduan Paragraf (Kohesi dan Koherensi)
+#### What the 3% subtest actually measures
 
-Sebuah paragraf berkualitas akademis harus memenuhi dua syarat mutlak:
-- **Kohesi (Keterpaduan Bentuk):** Hubungan sintaksis antar-unsur dalam teks yang ditandai oleh piranti gramatikal:
-  - *Pronomina (Kata Ganti):* Penggunaan kata ganti orang (*ia, mereka*) atau penunjuk (*ini, itu, tersebut*) untuk merujuk nomina sebelumnya.
-  - *Substitusi dan Elipsis:* Penggantian atau pelesapan kata untuk menghindari repetisi yang membosankan.
-  - *Konjungsi Antarkalimat:* Penggunaan penghubung logis (*selain itu, namun, sebaliknya*).
-- **Koherensi (Kerapian Makna):** Keterkaitan makna batin antar-kalimat sehingga alur pemikiran pembaca mengalir secara logis tanpa lompatan gagasan yang membingungkan (*jumping idea*).
+UNDANA's language section is bundled inside the verbal-reasoning booklet rather than issued as a standalone paper. Items mix discrete EYD questions (one rule, four options, one correct) with cloze-style passages where the candidate must judge *kalimat efektif*, identify the *ide pokok*, or classify a *majas*. Because the weight is small, a candidate should aim for a near-perfect sweep here — leaving only 2 minutes per item in the budget.
 
----
+#### Morphology rules the examiner exploits
 
-## 2. Pola Pengembangan Paragraf Akademik
+The trickiest decisions sit at the *meN-* allomorph boundary:
 
-| Pola Pengembangan | Karakteristik Utama | Kata Kunci / Transisi Penanda | Contoh Kasus Ujian |
+| Environment | Correct allomorph | Example | Wrong form |
 |---|---|---|---|
-| **Sebab-Akibat (Kausalitas)** | Memaparkan faktor pemicu disusul dampak yang ditimbulkan | *karena, disebabkan oleh, mengakibatkan, sehingga* | Pembahasan bencana alam atau fenomena deforestasi |
-| **Komparasi / Pertentangan** | Membandingkan dua objek untuk menunjukkan persamaan atau perbedaan | *berbeda dengan, sementara itu, sebaliknya, sebagaimana halnya* | Perbandingan sistem energi terbarukan vs bahan bakar fosil |
-| **Klasifikasi / Pembagian** | Mengelompokkan konsep luas ke dalam sub-kategori sistematis | *terbagi menjadi, digolongkan atas, mencakup, terdiri dari* | Klasifikasi flora dan fauna khas kepulauan Nusa Tenggara |
-| **Kronologis / Proses** | Menguraikan langkah-langkah kerja atau urutan waktu historis | *mula-mula, kemudian, setelah itu, pada akhirnya* | Tahapan siklus hidrologi atau metamorfosis serangga |
+| Before *b, f, v, p* | *mem-* | *membaca* | *menbaca* |
+| Before vowel | *meny-* | *menyanyi* | *menyanyui* |
+| Before *c, d, j, sy, z* | *men-* | *mencuri* | *memecuri* |
+| Before *g, h, k, l, m, n, ng, ny, r, s, t, w, y* | *me-* (only base) | *menulis* | *menuliskan* when transitive is intended |
+| Base starting with *l, r, w, y* after nasal | *me-* with re-spelled base | *melihat, Merapi* | *menelihat* |
+
+Confusion arises when a candidate treats *meN-* as a single morpheme. It is actually a nasal that assimilates to the following consonant — *m* before labials, *n* before alveolars, *ny* before vowels.
+
+#### Composing an effective sentence
+
+A *kalimat efektif* must satisfy four conditions: logical structure (subject + predicate consistent), parallelism among listed items, economy (no word can be deleted without changing meaning), and a precise connector that signals cause, contrast, addition, or purpose.
+
+> 📌 **Formula Check:** *Effective = Parallel + Economical + Cohesive + Coherent.* Remove the test, the rule stands: every extra word is a penalty.
+
+#### Worked passage with examiner trap
+
+A 120-word expository passage on NTT coral-reef conservation presents four multiple-choice tasks. Consider the item:
+
+> *"Kalimat berikut yang paling efektif untuk menggantikan kalimat keempat paragraf tersebut adalah …"*
+
+The original sentence reads: *"Para nelayan yang berada di desa-desa pesisir pantai yang ada di wilayah Nusa Tenggara Timur pada saat sekarang ini sudah sangat menyadari akan pentingnya menjaga kelestarian terumbu karang yang ada di laut."*
+
+Step-by-step repair:
+1. Identify the kernel: *"Nelayan pesisir NTT menyadari pentingnya menjaga terumbu karang."*
+2. Strip the embedded clauses — *yang berada di desa-desa pesisir pantai yang ada di wilayah* and *pada saat sekarang ini* — because they restate location and time already implied by *Nusa Tenggara Timur* and present context.
+3. Replace *sudah sangat menyadari akan pentingnya* with the precise verbal phrase *menyadari sepenuhnya* (no *akan*, no redundancy, no pleonasm).
+4. Verify: parallelism holds (single subject, single predicate), connector unnecessary (single clause), each word carries information.
+
+Final replacement: *"Nelayan pesisir Nusa Tenggara Timur menyadari sepenuhnya pentingnya menjaga kelestarian terumbu karang."*
+
+> ⚠️ **Examiner Trap:** Candidates often pick the **longest** rewritten option because it "feels more formal". The correct rewrite is the **shortest one that preserves meaning**; the EYD-and-effective-sentence pair always rewards compression, not embellishment.
+
+#### Concept comparison matrix
+
+| Distinction | Definition | Test cue |
+|---|---|---|
+| *Di* (prefix) | Passive/transitive verb marker, written as one word with the verb | Followed by a verb: *ditulis*, *dibaca* |
+| *Di* (preposition) | Locative marker, written separately from the noun | Followed by a place/abstract noun: *di rumah*, *di sekolah* |
+| Sinonim | Words sharing a core meaning within the same register | Replace without changing tone |
+| Antonim | Words in semantic opposition; context decides polarity | Pair tested in same sentence frame |
+| Hiperbola | Exaggeration for emphasis | Numerical or scale inflation (*tulang belulang*) |
+| Personifikasi | Non-human entity given human action | Predicate belongs to humans only |
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> English comparative linguistics, discursive text logic, and authentic UNDANA examination questions.
 
-## 3. Bilingual Study Guide: Textual Analysis & Discourse Logic
+#### Boundary cases that break the standard rules
 
-In standardized university entrance evaluations, text comprehension questions mirror international exams like the SAT:
-- **Author Stance and Tone:** Candidates must identify whether the authorial register is objective/informative, polemical/critical, laudatory/supportive, or satirical.
-- **Rhetorical Purpose Analysis:** Questions probing *'Why did the author include paragraph 2?'* evaluate functional discourse structure: providing empirical evidence, presenting a counter-argument, qualifying a claim, or illustrating an abstract theory with a concrete case study.
-- **Contextual Meaning Deductions:** Word meanings must be resolved in context rather than relying on isolated dictionary definitions.
+The EYD rules carried by Permendikbud No. 50/2015 admit exceptions that examiners like to surface:
 
-## 4. Latihan Soal Masuk UNDANA (Bahasa Indonesia)
+1. **Geographical proper nouns** keep capitalisation even after a generic label: *Danau Toba, Gunung Rinjani, Selat Lombok*.
+2. **Foreign personal names** retain original spelling: *John, Smith, Jakarta* (Indonesianised) vs *Berlin* (kept). Candidates from non-Indonesian-medium schools in NTT frequently over-capitalise common nouns adapted from local languages — *Suku Atoni Pah Meto* requires no *Suku* capital once generic.
+3. **Plural marking** is absent in standard Bahasa Indonesia; English-style plurals in translation (*anak-anak-anak*) are wrong. The plural is expressed by reduplication: *rumah-rumah*, *anak-anak*.
+4. **Affix stacking** — *me-…-kan* and *me-…-i* both form transitive verbs but differ: *-kan* produces a resultative/causative (*menuliskan surat*), *-i* produces a locative/iterative (*menulis-i buku*). Examiners test this by offering *mengirimi* vs *mengirimkan* — only context selects.
 
-**Soal 1 (UNDANA Bahasa):** Manakah kalimat berikut yang merupakan pernyataan fakta?  
-*(A) Pemandangan pantai di Labuan Bajo sangat menakjubkan bagi wisatawan.  
-(B) Universitas Nusa Cendana berlokasi di Kota Kupang, Nusa Tenggara Timur.  
-(C) Pembangunan infrastruktur di kawasan timur Indonesia diperkirakan selesai tahun depan.  
-(D) Pelayanan transportasi publik di perkotaan seharusnya ditingkatkan lagi.*  
-**Jawaban:** (B) (Penjelasan: Pernyataan lokasi geografis UNDANA di Kota Kupang adalah fakta objektif yang dapat diverifikasi secara empiris. Pilihan A, C, dan D mengandung opini penilaian dan perkiraan).
+#### Reading-comprehension traps in narrative passages
 
-**Soal 2 (UNDANA Bahasa):** Paragraf yang kalimat utamanya terletak di awal paragraf dan diikuti oleh kalimat-kalimat penjelas dinamakan paragraf:  
-*(A) Induktif  
-(B) Deduktif  
-(C) Naratif  
-(D) Campuran*  
-**Jawaban:** (B) Deduktif (Penjelasan: Pola penalaran dari umum ke khusus dengan gagasan utama di awal disebut deduktif).
+In cerpen excerpts, the *ide pokok* rarely sits in the opening sentence. Narrative texts lead with setting or action and bury the controlling idea in the closing reflection. Candidates who scan for the first declarative sentence lose marks twice: once on the main-idea item, once on the *amanat* item that follows. A two-pass technique — first read for characters and conflict, second read for the narrator's evaluative adjective — recovers both.
+
+#### Adjacent-topic links
+
+*Indonesian Language Proficiency* shares roughly 40% of its tested vocabulary with **verbal reasoning synonym/antonym sets** that appear elsewhere on the UNDANA paper. Mastery of the EYD *di-/me-* rules also feeds **English-language items** where the same phonological assimilation appears in plural formation (*knife → knives*). Treat the 3% section as a precision instrument rather than a warm-up.
+
+#### Advanced practice prompts
+
+1. A passage on the cultural functions of *tenun ikat* in Timor society contains a sentence using *yang mana* as a relative pronoun. Identify the violation, propose the corrected form, and justify using the *kata penghubung yang efektif* rule.
+2. The following affix string appears in a cloze: *ke-* + root + *-an* + *ber-* + root + *-kan*. Produce the only lexically valid completion, and explain why the morphological ordering cannot be reversed.
 
 ---
 
-## Sources & verification
-- Keraf, Gorys. *Komposisi: Sebuah Pengantar Kemahiran Bahasa*, Nusa Indah.
-- Badan Pengembangan dan Pembinaan Bahasa, Kemendikbudristek.
-- Panitia Ujian Mandiri Universitas Nusa Cendana (UNDANA).
+## Continue your study
+
+- **[View this topic in your UNDANA Entrance Exam (Indonesia) roadmap](/roadmap/?exam=undana&duration=1mo)** — see where "Indonesian Language Proficiency" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=undana&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UNDANA Entrance Exam (Indonesia) exam overview](/exams/undana/)** — pattern, eligibility, and syllabus
+- **[All Language notes](/notes/undana/language/)** — browse sibling topics in this subject
+
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

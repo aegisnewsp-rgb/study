@@ -8,7 +8,7 @@ topicName: Chemical Equilibrium
 weight: 4
 country: pakistan
 generated: "2026-03-24T08:32:08.095848"
-lastUpdated: 2026-03-24
+lastUpdated: "2026-09-20"
 diagramPrompt: "Clear scientific diagram of Chemical Equilibrium with atom labels, molecular structure, reaction arrows, white background, color-coded bonds and groups, exam textbook style"
 
 
@@ -17,127 +17,118 @@ diagramPrompt: "Clear scientific diagram of Chemical Equilibrium with atom label
 # Chemical Equilibrium
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+> The single most-tested rule: equilibrium is about equal **rates**, not equal **concentrations**.
 
-**Chemical Equilibrium** — Key Facts for MDCAT
+**Chemical equilibrium** describes a reversible reaction whose forward and reverse rates match, leaving macroscopic concentrations unchanged — yet molecules keep reacting in both directions (dynamic equilibrium).
 
-**Key Definitions:**
-- **Reversible reaction:** Can proceed in both forward and backward directions
-- **Equilibrium:** Rate of forward reaction = Rate of reverse reaction; concentrations of reactants and products remain CONSTANT (not equal) with time
-- **Dynamic equilibrium:** Both forward and reverse reactions continue indefinitely; macroscopic properties are static but microscopic processes continue
+- **Equilibrium constant (Kc):** $K_c = \dfrac{[C]^c[D]^d}{[A]^a[B]^b}$; concentrations in mol·dm⁻³. Products on top, reactants on bottom, each raised to its stoichiometric coefficient.
+- **Pressure form (Kp):** uses partial pressures in Pa or atm; linked to Kc by $K_p = K_c(RT)^{\Delta n}$ where $\Delta n$ = gaseous moles of products − gaseous moles of reactants.
+- **Le Chatelier's principle:** the system shifts to *oppose* any imposed change (concentration, temperature, pressure, catalyst does nothing).
+- **Reaction quotient Q:** compare Q with K to predict direction — Q < K shifts right, Q > K shifts left.
 
-**Law of Mass Action:**
-For a general reaction: $aA + bB \rightleftharpoons cC + dD$
-$$K_c = \frac{[C]^c[D]^d}{[A]^a[B]^b} \text{ (at equilibrium)}$$
-Where $[A]$, $[B]$, $[C]$, $[D]$ are molar concentrations at equilibrium.
-
-**Equilibrium Constant ($K_c$):**
-- $K_c >> 1$ (typically > 10³): Products are favoured; reaction lies to the right
-- $K_c << 1$ (typically < 10⁻³): Reactants are favoured; reaction lies to the left
-- $K_c ≈ 1$: Neither reactants nor products are strongly favoured
-
-**For gaseous reactions, use partial pressures:**
-$$K_p = \frac{P_C^c \cdot P_D^d}{P_A^a \cdot P_B^b}$$
-Relationship: $K_p = K_c(RT)^{\Delta n}$ where $\Delta n = (c+d) - (a+b)$
-
-⚡ **Exam tip:** Only gaseous species and aqueous species appear in the $K$ expression. Pure solids and pure liquids are NOT included (their activities = 1). For the reaction $CaCO_3(s) \rightleftharpoons CaO(s) + CO_2(g)$, $K_p = P_{CO_2}$ only. MDCAT commonly tests this distinction.
+> 💡 **High-Yield Memory Hook:** **"Cats Climb, Products on Top"** — for Kc, write **C**atalysts do nothing, **C**oncentrations stay constant, then put **P**roducts up top. Pair this with **"Lions Eat People"** — **L**e **C**hatelier's shifts to **E**at the **P**roblem (counter the change).
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students who want genuine understanding.
+> Concentrations can sit at any ratio at equilibrium; what must be equal is the forward and reverse reaction rate.
 
-**Chemical Equilibrium** — Complete Study Guide
+#### What "equilibrium" actually means
 
-**Le Chatelier's Principle:**
-If a system at equilibrium is subjected to a change in concentration, temperature, pressure, or volume, the system will shift to partially counteract the change and establish a new equilibrium.
+A reaction $aA + bB \rightleftharpoons cC + dD$ is at equilibrium when the rate of the forward reaction equals the rate of the reverse reaction. Concentrations of A, B, C, D are *constant*, not necessarily *equal*. This distinction trips students every paper.
 
-| Change | Effect |
-|--------|--------|
-| Increase [reactants] | Shift right (towards products) |
-| Decrease [reactants] | Shift left (towards reactants) |
-| Increase temperature (endothermic) | Shift right |
-| Increase temperature (exothermic) | Shift left |
-| Increase pressure (gas reactions) | Shift towards fewer moles of gas |
-| Decrease pressure | Shift towards more moles of gas |
-| Catalyst added | No shift — only speeds up attainment of equilibrium |
+#### Equilibrium constant expressions
 
-**Effect of Pressure on Equilibrium:**
-For $N_2O_4(g) \rightleftharpoons 2NO_2(g)$:
-- Reactant side: 1 mole gas; Product side: 2 moles gas
-- Increasing pressure → shift LEFT (towards fewer gas moles)
-- The equilibrium constant $K$ itself does NOT change with pressure — only the position shifts
+| Expression | Formula | Variables & units |
+|---|---|---|
+| Concentration-based | $K_c = \dfrac{[C]^c[D]^d}{[A]^a[B]^b}$ | $[X]$ in mol·dm⁻³; Kc dimensionless when activities used |
+| Pressure-based | $K_p = \dfrac{(P_C)^c(P_D)^d}{(P_A)^a(P_B)^b}$ | $P_X$ in Pa or atm |
+| Kp–Kc link | $K_p = K_c(RT)^{\Delta n}$ | $R = 8.314$ J·mol⁻¹·K⁻¹ (Pa) or 0.0821 dm³·atm·mol⁻¹·K⁻¹ |
+| Weak acid | $K_a = \dfrac{[H^+][A^-]}{[HA]}$ | mol·dm⁻³ each |
+| Weak base | $K_b = \dfrac{[B^+][OH^-]}{[BOH]}$ | mol·dm⁻³ each |
 
-**Relation between $K$ and $K_{sp}$ (Solubility Product):**
-For the dissolution equilibrium: $MX(s) \rightleftharpoons M^{n+}(aq) + X^{n-}(aq)$
-$$K_{sp} = [M^{n+}][X^{n-}]$$
-Precipitation occurs when the ion product (IP) > $K_{sp}$.
+For heterogeneous equilibria, pure solids and pure liquids drop out (activity = 1). Writing $[CaO]$ or $[H_2O(l)]$ into the expression is a guaranteed mark loss.
 
-**Reaction Quotient ($Q$):**
-$$Q = \frac{[C]^c[D]^d}{[A]^a[B]^b}$$
-- If $Q < K$: Reaction shifts right (towards products) to reach equilibrium
-- If $Q > K$: Reaction shifts left (towards reactants) to reach equilibrium
-- If $Q = K$: System is at equilibrium
+#### What does and does not change K
 
-**Important Equilibria in Industry:**
-- **Haber process:** $N_2(g) + 3H_2(g) \rightleftharpoons 2NH_3(g)$, $\Delta H = -92$ kJ/mol (exothermic)
-  - Low temperature favours products BUT slow at low T → compromise at ~400–500°C with catalyst
-  - High pressure favours products (4 → 2 moles) → high pressure (~200 atm)
-  - Iron catalyst speeds up without affecting equilibrium position
+- **Temperature changes K** (endothermic: K rises with T; exothermic: K falls).
+- Concentration, pressure (with $\Delta n \neq 0$), and adding/removing species **shift the position** but leave K unchanged at constant T.
+- **Catalysts** shorten the time to reach equilibrium but do not move the position and do not change K.
 
-- **Contact process:** $2SO_2(g) + O_2(g) \rightleftharpoons 2SO_3(g)$, $\Delta H = -197$ kJ/mol
-  - V$_2$O$_5$ catalyst for sulfuric acid manufacture
+#### Comparison: commonly confused pairs
 
-⚡ **Common mistakes:** Thinking equilibrium means equal concentrations (wrong — only rates are equal). Adding a catalyst and expecting the equilibrium position to shift (it doesn't — only speeds up reaching equilibrium). Confusing $K_c$ units with $K_p$ — $K_c$ has units of (mol/L)$^{\Delta n}$, $K_p$ has units of atm$^{\Delta n}$.
+| Concept A | Concept B | The real difference |
+|---|---|---|
+| Q (reaction quotient) | K (equilibrium constant) | Same formula form; Q uses *current* concentrations, K uses *equilibrium* concentrations |
+| Kc | Kp | Kc uses mol·dm⁻³; Kp uses partial pressures; related by $(RT)^{\Delta n}$ |
+| Rate constant k | Equilibrium constant K | k is for one direction at given T; K = k_forward / k_reverse |
+| Inert gas at constant V | Inert gas at constant P | No shift at constant volume; shifts (when $\Delta n \neq 0$) at constant pressure |
+
+#### Predicting the shift using Le Chatelier's principle
+
+1. Identify the change (species added, removed, T altered, V altered, P altered).
+2. Decide how the system must respond to *undo* that change.
+3. Confirm by computing Q: if Q < K → forward shift; if Q > K → reverse shift.
+
+#### Worked exam-style question
+
+For the reaction $N_2(g) + 3H_2(g) \rightleftharpoons 2NH_3(g)$ at 400 K, $K_c = 0.50$ mol⁻²·dm⁶. At one moment the mixture contains $[N_2] = 1.0$, $[H_2] = 1.0$, $[NH_3] = 0.10$ mol·dm⁻³. In which direction does the reaction shift?
+
+#### Step 1 — Write Q with current values.
+$$Q_c = \frac{[NH_3]^2}{[N_2][H_2]^3} = \frac{(0.10)^2}{(1.0)(1.0)^3} = \frac{0.010}{1.0} = 0.010 \text{ mol}^{-2}\text{·dm}^6$$
+
+#### Step 2 — Compare with Kc.
+$Q_c = 0.010 < K_c = 0.50$ → the reaction proceeds **forward** to produce more NH₃.
+
+**Step 3 — Cross-check with Le Chatelier's principle.** The reactant side is in excess relative to equilibrium, so the system shifts right, consuming N₂ and H₂ to raise $[NH_3]$ until Q equals K.
+
+> ⚠️ **Examiner Trap:** Students often compute Q and then state "shift forward" without verifying the comparison — but the UHS MCQs also include items where $\Delta n \neq 0$ and a temperature change is described. Always check *both* Q vs K *and* whether temperature has been altered, because K itself moves when T changes.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
+> The trap-heavy zone: $\Delta n$ sign, heterogeneous equilibria, and the catalyst misread.
 
-**Chemical Equilibrium** — Advanced Notes
+#### Edge cases that decide top-rank scores
 
-**Thermodynamic Derivation of Equilibrium Constant:**
-$$\Delta G = \Delta G^\circ + RT\ln Q$$
-At equilibrium: $\Delta G = 0$, $Q = K$
-$$\therefore \Delta G^\circ = -RT\ln K$$
-Also: $\Delta G^\circ = \Delta H^\circ - T\Delta S^\circ$
+- **Sign of $\Delta n$ in Kp = Kc(RT)^Δn.** A reaction with 2 mol gas → 3 mol gas has $\Delta n = +1$, *not* −1. Writing the negative value flips the relation and the answer is off by a factor of RT.
+- **Inert gas at constant volume** leaves partial pressures of reacting gases untouched, so no shift occurs. The classic wrong choice: "adding argon shifts equilibrium" — only true if total pressure is allowed to rise (constant P case).
+- **Catalysts and equilibrium position.** MnO₂ in the decomposition of H₂O₂ or Fe in the Haber process speeds up both directions equally. Position stays fixed; K is unchanged; only the time-to-equilibrium shortens.
+- **Effect of temperature in endothermic vs exothermic directions.** Heating an exothermic reaction *decreases* K; cooling it *increases* K. Many MCQs flip this on purpose.
 
-This links thermodynamics (Gibbs energy) with the equilibrium constant. A negative $\Delta G^\circ$ means $K > 1$.
+#### Worked numeric: degree of dissociation
 
-**Van't Hoff Equation (Temperature Dependence of $K$):**
-$$\frac{d\ln K}{dT} = \frac{\Delta H^\circ}{RT^2}$$
-Integrating: $\ln\frac{K_2}{K_1} = \frac{\Delta H^\circ}{R}\left(\frac{1}{T_1} - \frac{1}{T_2}\right)$
-- For exothermic reactions ($\Delta H < 0$): Increasing $T$ → $K$ decreases
-- For endothermic reactions ($\Delta H > 0$): Increasing $T$ → $K$ increases
+For a weak acid HA with initial concentration $c = 0.10$ mol·dm⁻³ and $K_a = 1.8 \times 10^{-5}$:
+$$\alpha = \sqrt{\frac{K_a}{c}} = \sqrt{\frac{1.8 \times 10^{-5}}{0.10}} = \sqrt{1.8 \times 10^{-4}} \approx 0.0134$$
+So roughly 1.34% of HA molecules dissociate; $[H^+] = \alpha c \approx 1.34 \times 10^{-3}$ mol·dm⁻³, giving pH ≈ 2.87.
 
-**Degree of Dissociation ($\alpha$):**
-For $PCl_5(g) \rightleftharpoons PCl_3(g) + Cl_2(g)$:
-Let initial moles of $PCl_5 = 1$, degree of dissociation = $\alpha$
-At equilibrium: $[PCl_5] = (1-\alpha)V$, $[PCl_3] = \alpha/V$, $[Cl_2] = \alpha/V$
-$$K_p = \frac{\alpha^2 P}{(1-\alpha)-\alpha^2} \text{ (for 1 atm initial)}$$
+#### Linkage to adjacent MDCAT chapters
 
-**Simultaneous/Homogeneous vs Heterogeneous Equilibrium:**
-- **Homogeneous:** All species in same phase (usually gas)
-- **Heterogeneous:** Species in different phases (e.g., solid + gas)
-  - For $CaCO_3(s) \rightleftharpoons CaO(s) + CO_2(g)$: $K_p = P_{CO_2}$
-  - Activities of pure solids and liquids = 1, so they don't appear in $K$ expression
+- **Acids & Bases** — every $K_a$, $K_b$, $K_w$ is an equilibrium constant; the same expression rules apply.
+- **Thermodynamics** — $\Delta G^\circ = -RT \ln K$ connects K to free energy; expect a numerical or conceptual crossover question.
+- **Electrochemistry** — Nernst equation uses equilibrium constants of redox half-reactions.
+- **Chemical Kinetics** — $K = k_f / k_r$; the Arrhenius equation shows *why* heating shifts K.
 
-**Buffer Solutions and Equilibrium:**
-The pH of a buffer containing a weak acid HA and its salt NaA:
-$$K_a = \frac{[H^+][A^-]}{[HA]} \Rightarrow [H^+] = K_a \frac{[HA]}{[A^-]}$$
-Henderson-Hasselbalch: $pH = pK_a + \log\frac{[\text{salt}]}{[\text{acid}]}$
+#### Advanced practice prompts
 
-**Salt Hydrolysis and $K_h$:**
-For salt of weak acid and strong base (e.g., CH$_3$COONa):
-$$K_h = \frac{K_w}{K_a}$$
-Degree of hydrolysis $h = \sqrt{\frac{K_h}{C}}$ where $C$ is concentration.
+1. For $PCl_5(g) \rightleftharpoons PCl_3(g) + Cl_2(g)$ at 250 °C, $K_p = 1.80$ atm. Total pressure is raised from 1.0 atm to 4.0 atm at constant T. Does the mole fraction of $PCl_5$ increase, decrease, or stay the same? Justify with Q vs K and with $\Delta n$.
+2. For the heterogeneous reaction $CaCO_3(s) \rightleftharpoons CaO(s) + CO_2(g)$, write the equilibrium expression. A student writes $K_p = \dfrac{[CaO][CO_2]}{[CaCO_3]}$. Identify every error and supply the correct form.
 
-**Common Ion Effect:**
-The suppression of dissociation of a weak electrolyte by adding a strong electrolyte containing a common ion. Example: Adding NaOH (Na⁺, OH⁻) to NH₃/NH₄⁺ buffer shifts the equilibrium.
+#### Quick numerical cheats to memorise
 
-**MDCAT Question Patterns:**
-MDCAT Pakistan chemical equilibrium questions frequently test: (1) writing $K_c$ and $K_p$ expressions correctly (excluding solids/liquids), (2) Le Chatelier's principle applications to Haber process, (3) calculating equilibrium concentrations, (4) relationship between $K_p$ and $K_c$, (5) using $Q$ to predict direction of shift, (6) van't Hoff equation for temperature effects. 2–3 questions per paper. Le Chatelier's principle in industrial contexts (ammonia synthesis) is very common.
+| Quantity | Value | Use |
+|---|---|---|
+| R (SI) | 8.314 J·mol⁻¹·K⁻¹ | Kp with pressures in Pa |
+| R (chemistry) | 0.0821 dm³·atm·mol⁻¹·K⁻¹ | Kp with pressures in atm |
+| $K_w$ at 25 °C | $1.0 \times 10^{-14}$ mol²·dm⁻⁶ | acid–base link |
+| $\Delta n$ rule | $\Delta n = \Sigma n_{gas,\,products} - \Sigma n_{gas,\,reactants}$ | sign in Kp–Kc |
+
+## Continue your study
+
+- **[View this topic in your MDCAT roadmap](/roadmap/?exam=mdcat&duration=1mo)** — see where "Chemical Equilibrium" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=mdcat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[MDCAT exam overview](/exams/mdcat/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/mdcat/chemistry/)** — browse sibling topics in this subject
 
 ---
-*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

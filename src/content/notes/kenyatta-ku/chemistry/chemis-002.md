@@ -8,196 +8,125 @@ topicName: "Alkanes: Structure, Properties, and Reactions"
 weight: 3
 country: kenya
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-21"
 ---
 
 # Alkanes: Structure, Properties, and Reactions
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
 
-**Alkanes: Structure, Properties, and Reactions** — Key Facts for Kenyatta University (Kenya)
-Core concept: Alkanes are saturated hydrocarbons with only single bonds (C–C and C–H); they are relatively inert due to the strength of C–H and C–C bonds and the non-polar nature of the molecule
-High-yield point: Know the complete combustion equation, substitution reactions with halogens, and the differences between the various isomers of butane and pentane
-⚡ Exam tip: Alkane exam questions frequently ask about the mechanism of free-radical halogenation — be able to describe the initiation, propagation, and termination steps with appropriate equations
+> One sentence to fix in memory before anything else: alkanes are **CₙH₂ₙ₊₂** — that single formula decides almost every question set around them.
+
+Alkanes are **saturated, open-chain hydrocarbons**: every carbon is **sp³ hybridised**, sits at the centre of a tetrahedron with bond angles of **109.5°**, and connects only through **single σ-bonds**. Methane (CH₄), ethane (C₂H₆), propane (C₃H₈) and butane (C₄H₁₀) form the start of the homologous series, which means each next member differs by one **–CH₂–** unit. There are no π-bonds to attack, so at room temperature alkanes are chemically quiet; their three named reactions are **combustion**, **cracking** and **free-radical substitution**.
+
+> 💡 **Memory Hook (Mnemonic: "CHATS-CRASH"):** **C**ombustion, **H**alogenation (radical), **A**-none at room T, **T**hermal cracking, **S**ubstitution-not-addition — **CRASH** reminds you the three reactions that DO happen are **C**ombustion, **R**eforming, **A**lkane-→-smaller-alkanes (cracking), **S**ubstitution (radical), **H**alogenation. Read top-to-bottom and the headline fact is memorised in eight seconds.
+
+| Property | Trend across the series | Why |
+|---|---|---|
+| Boiling point | Increases, ~20–30 °C per added CH₂ | Larger surface area → stronger London forces |
+| Density | Increases, stays < 1 g cm⁻³ | Non-polar molecules pack tighter with mass |
+| Solubility in water | Decreases | "Like dissolves like" — alkanes are non-polar |
+| Flammability | Decreases as M rises | Bigger alkanes need more O₂ to combust completely |
+
+Combustion of any alkane follows one balanced equation: **CₙH₂ₙ₊₂ + ((3n+1)/2) O₂ → n CO₂ + (n+1) H₂O**. Methane releases **ΔH ≈ –890 kJ mol⁻¹**; every additional CH₂ adds to that magnitude.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
 
-## Alkanes: Saturated Hydrocarbons
+#### Bonding, Shape and Why Alkanes Behave the Way They Do
 
-Alkanes are the simplest family of organic compounds — hydrocarbons containing only single bonds. Their general formula is **CₙH₂ₙ₊₂** for acyclic (open-chain) alkanes. The C–C bonds in alkanes are all sigma bonds formed by sp³ hybrid orbital overlap, and the C–H bonds are formed by sp³–1s overlap.
+Each carbon in an alkane mixes one **2s** and three **2p** orbitals to give four equivalent **sp³ hybrids** pointing to the corners of a regular tetrahedron, angle **109.5°**. These four hybrids form four **σ-bonds** (C–C or C–H). Because σ-bonds are localised and the C–H bond is roughly non-polar, the molecule has no low-lying empty orbital or π-system that a reagent can attack.
 
-### Nomenclature of Alkanes
+Typical bond strengths: **C–C ≈ 348 kJ mol⁻¹** and **C–H ≈ 413 kJ mol⁻¹**. That is why alkanes survive acids, bases and most nucleophiles at room temperature — there is nothing thermodynamically attractive to break.
 
-The IUPAC names for the first ten straight-chain alkanes:
+> 📌 **Formula Check:** CₙH₂ₙ₊₂ where *n* = number of carbon atoms (dimensionless). Valid only for **acyclic** saturated hydrocarbons. A cycloalkane uses **CₙH₂ₙ** — losing two hydrogens closes the ring, not a typo.
 
-| Formula | IUPAC Name | Boiling Point (°C) | Physical State (25°C) |
+#### Naming and Isomer Counting
+
+IUPAC name = **prefix (n- = straight chain) + root (-meth-, -eth-, -prop-, -but-, -pent-, -hex-, -hept-) + suffix -ane**. From **C₄H₁₀** onward, structural isomers appear. Memorise the running total because past papers love it:
+
+| Carbons (n) | Molecular formula | Number of structural isomers |
+|---|---|---|
+| 1–3 | CH₄, C₂H₆, C₃H₈ | 1 each |
+| 4 | C₄H₁₀ | 2 |
+| 5 | C₅H₁₂ | 3 |
+| 6 | C₆H₁₄ | 5 |
+| 7 | C₇H₁₆ | 9 |
+
+Branched isomers have **lower boiling points** than straight-chain isomers of the same molecular mass — branching reduces surface contact, weakening London dispersion forces (e.g. n-pentane b.p. **36 °C** vs neopentane **9.5 °C**).
+
+#### Comparing the Three "Real" Reactions
+
+| Reaction | Conditions | Equation (with n in CₙH₂ₙ₊₂) | Energy sign |
 |---|---|---|---|
-| CH₄ | Methane | −162 | Gas |
-| C₂H₆ | Ethane | −88 | Gas |
-| C₃H₈ | Propane | −42 | Gas |
-| C₄H₁₀ | Butane | −0.5 | Gas |
-| C₅H₁₂ | Pentane | 36 | Liquid |
-| C₆H₁₄ | Hexane | 69 | Liquid |
-| C₇H₁₆ | Heptane | 98 | Liquid |
-| C₈H₁₈ | Octane | 126 | Liquid |
-| C₉H₂₀ | Nonane | 151 | Liquid |
-| C₁₀H₂₂ | Decane | 174 | Liquid |
+| Complete combustion | Ignite in excess O₂ | CₙH₂ₙ₊₂ + ((3n+1)/2) O₂ → n CO₂ + (n+1) H₂O | Exothermic (ΔH < 0) |
+| Incomplete combustion | Limited O₂ | Same fuel, less O₂ → CO (or C) + H₂O | Exothermic, but smaller \|ΔH\| |
+| Free-radical halogenation | UV light (hν), X₂ = Cl₂ or Br₂ | Initiation → Propagation → Termination | Mildly exothermic for Cl, endothermic for I₂ |
+| Cracking | 500 °C + zeolite, or 700 °C thermal | Large alkane → smaller alkane + alkene | Endothermic |
 
-### Structural Isomerism in Alkanes
+Halogen reactivity is fixed by bond enthalpies: **F₂ > Cl₂ > Br₂ >> I₂**. Fluorination is explosive, iodination is not observed at all.
 
-As the number of carbon atoms increases, the possibility of branched structures (structural isomerism) increases:
+#### 🎯 Exam-Level Worked Problem
 
-**Butane (C₄H₁₀) — 2 isomers:**
-- Butane (n-butane): CH₃–CH₂–CH₂–CH₃ (straight chain)
-- 2-Methylpropane (isobutane): (CH₃)₂CH–CH₃ (branched)
+**Question (typical KU placement paper, 3 marks):** Write the balanced equation for the complete combustion of **butane**, then calculate the volume of CO₂ (measured at s.t.p.) produced when **5.80 g** of butane burns completely. *(Molar volume at s.t.p. = 22.4 dm³ mol⁻¹; C = 12, H = 1.)*
 
-**Pentane (C₅H₁₂) — 3 isomers:**
-- Pentane: CH₃–CH₂–CH₂–CH₂–CH₃
-- 2-Methylbutane: CH₃–CH(CH₃)–CH₂–CH₃
-- 2,2-Dimethylpropane: C(CH₃)₄
+#### Solution
 
-### Physical Properties of Alkanes
+1. Molar mass of C₄H₁₀ = (4 × 12) + (10 × 1) = **58 g mol⁻¹**. So 5.80 g = 5.80 / 58 = **0.100 mol** butane.
+2. Apply the combustion template with *n* = 4: **C₄H₁₀ + ((3·4 + 1)/2) O₂ → 4 CO₂ + 5 H₂O**, which simplifies to **2 C₄H₁₀ + 13 O₂ → 8 CO₂ + 10 H₂O**. One mole of butane gives **4 mol CO₂**.
+3. Moles of CO₂ = 0.100 × 4 = **0.400 mol**.
+4. Volume at s.t.p. = 0.400 × 22.4 = **8.96 dm³**.
 
-**Boiling Points:**
-- Boiling point increases with molecular size (more carbon atoms → stronger London dispersion forces)
-- Branched alkanes have lower boiling points than their straight-chain isomers due to reduced surface area (less effective Van der Waals contact)
-
-**Solubility:**
-- Alkanes are non-polar
-- They are insoluble in water (which is polar and can form hydrogen bonds)
-- They are soluble in non-polar organic solvents (hexane, benzene, dichloromethane)
-
-**Density:**
-- All alkanes have densities less than 1.0 g/cm³ (they float on water)
-- Density increases with increasing molecular size
-
-**Flammability:**
-- Alkanes burn in excess oxygen to produce CO₂ and H₂O
-- Complete combustion: **CₙH₂ₙ₊₂ + (3n+1)/2 O₂ → n CO₂ + (n+1) H₂O**
-
-⚡ **Exam Tip**: For any alkane combustion question, balance the equation first. Always include the state symbols (g for gas) if the question asks for a chemical equation.
+> ⚠️ **Examiner Trap:** Writing **C₄H₁₀ + 3 O₂ → 4 CO₂ + 5 H₂O**. Students who do not apply the (3n+1)/2 rule invent coefficients that fail the oxygen balance. Always derive the O₂ coefficient from the hydrogen count: 10 H atoms need 5 H₂O, which carries 5 O; the 4 CO₂ carries 8 O; total 13 O atoms on the right, so 13/2 on the left — give O₂ the integer coefficient **13** by doubling the whole equation.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
 
-## Chemical Reactions of Alkanes
+#### Mechanism Detail: Free-Radical Halogenation of Methane
 
-### 1. Combustion Reactions
+The hardest part of the syllabus is not the names — it is drawing the three-stage mechanism with curly arrows (single-barbed "fish-hooks" because each step moves one electron).
 
-Alkanes undergo combustion reactions when ignited in the presence of excess oxygen. This is the basis for their use as fuels.
+**Initiation** — homolytic fission under UV (λ ≈ 400–500 nm): **Cl–Cl → 2 Cl•**. One photon, quantum yield ϕ ≈ 1.
 
-**Complete Combustion (excess O₂):**
-```
-CH₄ + 2O₂ → CO₂ + 2H₂O    ΔH = −890 kJ/mol
-C₂H₆ + 7/2 O₂ → 2CO₂ + 3H₂O    ΔH = −1560 kJ/mol
-```
+**Propagation** — two steps that regenerate a radical and so self-sustain:
+- **CH₄ + Cl• → •CH₃ + HCl**
+- **•CH₃ + Cl₂ → CH₃Cl + Cl•**
 
-**Incomplete Combustion (limited O₂):**
-```
-2CH₄ + 3O₂ → 2CO + 4H₂O    (carbon monoxide formation)
-CH₄ + O₂ → C + 2H₂O        (soot/carbon formation)
-```
+**Termination** — any radical–radical coupling ends the chain: **Cl• + Cl• → Cl₂**, **•CH₃ + Cl• → CH₃Cl**, **•CH₃ + •CH₃ → C₂H₆**.
 
-⚠️ **Safety Note**: Incomplete combustion produces carbon monoxide (CO), a colourless, odourless toxic gas. In poorly ventilated spaces, hydrocarbon fuel combustion can be fatal. CO binds to haemoglobin, reducing oxygen-carrying capacity.
+#### Edge Cases Worth Memorising
 
-### 2. Halogenation (Substitution Reactions)
-
-Alkanes react with halogens (Cl₂, Br₂) in the presence of UV light (or heat) via a **free-radical substitution mechanism**.
-
-**Mechanism of Chlorination of Methane:**
-
-**Step 1 — Initiation:**
-```
-Cl₂ → 2Cl•     (homolytic bond cleavage, requires UV light)
-```
-
-**Step 2 — Propagation:**
-```
-Cl• + CH₄ → HCl + CH₃•     (hydrogen abstraction)
-CH₃• + Cl₂ → CH₃Cl + Cl•  (chlorine abstraction)
-```
-
-**Step 3 — Termination:**
-```
-Cl• + Cl• → Cl₂
-CH₃• + CH₃• → C₂H₆
-CH₃• + Cl• → CH₃Cl
-```
-
-The overall reaction: **CH₄ + Cl₂ → CH₃Cl + HCl**
-
-**Multi-halogenation:** Since the product (CH₃Cl) still contains hydrogen atoms that can be further substituted, chlorination does not stop at monochlorination. A mixture of products is obtained:
-- CH₃Cl (chloromethane)
-- CH₂Cl₂ (dichloromethane)
-- CHCl₃ (chloroform)
-- CCl₄ (carbon tetrachloride)
-
-⚡ **Exam Tip**: Fluorination is too violent to control. Bromination is much slower and more selective. The reactivity order for halogenation is: **F₂ > Cl₂ > Br₂ > I₂**.
-
-**Selectivity in Halogenation:**
-Bromination is more selective than chlorination because the hydrogen abstraction step (Step 2) has a higher activation energy, making it more selective for weaker C–H bonds:
-- 3° C–H bond (weakes): most reactive in bromination
-- 2° C–H bond (intermediate)
-- 1° C–H bond (strongest): least reactive
-
-This means: **Tertiary hydrogen is replaced preferentially over secondary, which is replaced preferentially over primary.**
-
-### 3. Isomerisation and Cracking
-
-**Isomerisation:** Straight-chain alkanes can be converted to branched alkanes under catalytic conditions (e.g., with AlCl₃ and HCl at 100°C). This is important in the petroleum industry because branched alkanes have higher octane ratings.
-
-**Cracking:** Large alkane molecules are broken down into smaller, more useful molecules:
-- **Thermal cracking**: High temperature (500–700°C) and pressure breaks C–C bonds randomly
-- **Catalytic cracking**: Zeolite catalyst at lower temperatures produces more branched products
-
-Example: Decane cracking:
-```
-C₁₀H₂₂ → C₆H₁₄ + C₄H₈
-```
-
-### 4. Aromatisation (Reforming)
-
-Naphtha and gasoline-range alkanes can be converted to aromatic compounds (benzene, toluene, xylene) through catalytic reforming, a key process in the petrochemical industry.
-
-### Cycloalkanes
-
-Cycloalkanes have the general formula **CₙH₂ₙ** (same as alkenes). They contain rings of carbon atoms with only single bonds.
-
-**Key Cycloalkanes:**
-- Cyclopropane (C₃H₆): Triangle structure, bond angle 60° (highly strained, very reactive)
-- Cyclobutane (C₄H₈): Square structure, bond angle 90°
-- Cyclopentane (C₅H₁₀): Pentagon, bond angle 108° (relatively stable)
-- Cyclohexane (C₆H₁₂): Chair conformation most stable, no angle strain
-
-**Cyclohexane Conformations:**
-- **Chair conformation**: Most stable; all bond angles approximately 109.5°; alternating axial and equatorial positions
-- **Boat conformation**: Less stable due to steric clash between flagpole hydrogens
-- In the chair, each carbon has one axial (up/down) and one equatorial (outward) hydrogen
-
-** cis- and trans- Cyclohexane:**
-Substituents on cyclohexane rings can be classified as:
-- **Cis**: Both substituents on the same face (both up or both down)
-- **Trans**: Substituents on opposite faces
-
-⚡ **Exam Tip**: In examination questions involving cyclohexane conformations, always label which hydrogens are axial and which are equatorial. Students frequently lose marks by not specifying the positions accurately.
-
-### Uses of Alkanes
-
-| Alkane | Major Uses |
+| Trap | Reality |
 |---|---|
-| Methane | Natural gas fuel, hydrogen production, CO₂ capture |
-| Propane/Butane | LPG (liquefied petroleum gas) for heating and cooking |
-| Octane | Fuel component; branched isomers have high octane ratings |
-| Paraffin wax | Candles, waxed paper, waterproofing |
-| Gasoline | Fuel for internal combustion engines |
+| Cycloalkanes share the formula CₙH₂ₙ with alkenes | They are **saturated rings**, not unsaturated — they do not decolourise Br₂ in CCl₄ |
+| "Alkanes are insoluble in water" is often asked as a True/False | Correct. Density ρ < 1 g cm⁻³ (≈ 0.6–0.8 g cm⁻³ for C₅–C₁₆), so liquid alkanes float |
+| Bond rotation around a C–C single bond is "free" | It is restricted — staggered (lowest energy) and eclipsed conformations differ by ~12 kJ mol⁻¹ in ethane, visualised with a Newman projection |
+| "Bromine water decolourises alkanes" | Only with **UV light** and as **substitution**, not addition; in the dark, alkane + Br₂(aq) is inert |
+| Pentavalent carbon in a drawing | Impossible — every C in an alkane must show **exactly four** bonds |
 
-**Octane Rating:** A measure of a fuel's resistance to knocking (premature combustion). n-Heptane has an octane rating of 0; isooctane (2,2,4-trimethylpentane) has a rating of 100. High-compression engines require high octane fuel to prevent knocking.
+#### Links to Adjacent KU Topics
+
+- **Alkenes (CₙH₂ₙ)** — the direct comparison; alkenes react via **electrophilic addition**, alkanes via **radical substitution**. Same empirical formula family (CₙH₂ₙ), opposite reactivity.
+- **Alcohols and halogenoalkanes** — both can be reached from alkanes by substitution; useful for synthesis questions.
+- **Thermochemistry** — combustion enthalpies of alkanes are the standard data used to compute **mean bond enthalpies** by Hess's-law cycles.
+- **Petroleum / fractional distillation** — the industrial source; connects directly to **cracking** and **reforming** as refinery steps.
+
+#### Two Advanced Practice Prompts
+
+1. Sketch the **Newman projection** looking along the C2–C3 bond of butane and identify which conformation has the lowest potential energy. Explain in two sentences why it is preferred.
+2. A gaseous hydrocarbon has empirical formula **C₂H₅** and a density of **2.50 g dm⁻³ at s.t.p.** Determine its molecular formula, write its complete combustion equation, and state which alkane isomer would have the **lowest boiling point** among all its structural isomers.
+
+> 🧠 **Extended-tier check:** if you can balance the combustion of any CₙH₂ₙ₊₂ from the template, draw the three radical mechanism steps with fish-hook arrows, and justify a boiling-point order for C₆H₁₄ isomers using surface area, you have cleared the 3% weight comfortably.
 
 ---
+
+## Continue your study
+
+- **[View this topic in your Kenyatta University (Kenya) roadmap](/roadmap/?exam=kenyatta-ku&duration=1mo)** — see where "Alkanes: Structure, Properties, and Reactions" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=kenyatta-ku&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Kenyatta University (Kenya) exam overview](/exams/kenyatta-ku/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/kenyatta-ku/chemistry/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

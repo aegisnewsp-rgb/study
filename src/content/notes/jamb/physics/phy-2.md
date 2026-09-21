@@ -11,7 +11,7 @@ topicName: Motion in Two Dimensions
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.707493"
-lastUpdated: 2026-03-24
+lastUpdated: "2026-09-21"
 diagramPrompt: "Clean educational diagram showing Motion in Two Dimensions with clear labels, white background, labeled arrows for forces/fields/vectors, color-coded components, exam-style illustration"
 
 
@@ -19,123 +19,104 @@ diagramPrompt: "Clean educational diagram showing Motion in Two Dimensions with 
 
 
 ---
+
 # Motion in Two Dimensions
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
+> The single hardest idea in 2-D motion: horizontal and vertical motions are independent, so you solve them separately and rejoin by vector addition.
 
-**Motion in Two Dimensions** — Key Facts
-Position vector: $\vec{r} = x\hat{i} + y\hat{j}$; displacement $\Delta\vec{r} = \Delta x\hat{i} + \Delta y\hat{j}$
-Velocity: $\vec{v} = \frac{d\vec{r}}{dt} = v_x\hat{i} + v_y\hat{j}$; speed $v = \sqrt{v_x^2 + v_y^2}$
-Acceleration: $\vec{a} = \frac{d\vec{v}}{dt} = a_x\hat{i} + a_y\hat{j}$
-Projectile motion: range $R = \frac{u^2\sin 2\theta}{g}$; max height $H = \frac{u^2\sin^2\theta}{2g}$; time of flight $T = \frac{2u\sin\theta}{g}$
-⚡ Exam tip: For maximum range in projectile motion, launch at 45°; at 30° and 60°, range is the same
+A projectile is a particle thrown into the air and then allowed to move freely under gravity. Its motion is the superposition of a constant horizontal velocity and a uniformly accelerated vertical fall.
+
+| Quantity | Formula | Variables (SI units) |
+|---|---|---|
+| Range (level ground) | R = u² sin 2θ / g | u in m·s⁻¹, θ in degrees, g ≈ 9.8 m·s⁻² |
+| Maximum height | H = u² sin² θ / (2g) | same symbols |
+| Time of flight | T = 2u sin θ / g | same symbols |
+| Centripetal acceleration | a_c = v² / r = ω² r | v in m·s⁻¹, r in m, ω in rad·s⁻¹ |
+
+> 💡 **Memory Hook — "H = Half, D = Double, T = Twin":**
+> Height uses sin², Range uses sin 2θ, and Time of flight is **2u sin θ / g** — both Range and Time share a single sine factor. So **sin² θ for H, sin θ for T, sin 2θ for R**.
+
+Two launch angles that add to 90° give the **same range** but **different heights and flight times**; range peaks at θ = 45° only when launch and landing heights match. In a circle, speed stays constant but direction changes, producing centripetal acceleration pointing inward toward the centre.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+> Most JAMB questions in this area test whether you split a 2-D vector problem into its x and y components before solving.
 
-**Motion in Two Dimensions** — JAMB Physics Study Guide
-Projectile motion from horizontal plane:
-- Horizontal component: $v_x = u\cos\theta$ (constant, since $a_x = 0$)
-- Vertical component: $v_y = u\sin\theta - gt$ (varies, since $a_y = -g$)
-- Position at time $t$: $x = ut\cos\theta$, $y = ut\sin\theta - \frac{1}{2}gt^2$
-- Velocity at time $t$: $v = \sqrt{(u\cos\theta)^2 + (u\sin\theta - gt)^2}$
+#### Core Mechanism: The Independence of Motions
 
-Relative motion: $\vec{v}_{AB} = \vec{v}_A - \vec{v}_B$; if a boat crosses a river with current, resultant velocity is vector sum of boat velocity and river current velocity.
+When a particle leaves a launcher, it has an initial velocity **u** at an angle **θ** above the horizontal. Decompose it: u_x = u cos θ (constant, horizontal, zero acceleration ignoring drag) and u_y = u sin θ (vertical, decelerated by gravity g). The two components evolve on separate clocks and are reassembled only when displacements, velocities or trajectories are needed.
 
-River crossing problems: shortest time when boat aims perpendicular to bank; shortest path when boat aims at angle $\theta = \tan^{-1}(v_b/v_r)$ where $v_b$ is boat speed in still water and $v_r$ is river current speed.
+#### Kinematics in 2-D — The Working Toolkit
 
-Common student mistakes: forgetting that time of flight depends only on vertical motion; using wrong sign for $g$ (always take $g = 9.8 m/s^2$ or sometimes $10 m/s^2$ in JAMB); confusing horizontal range with maximum height.
+From the component split, three standard formulas fall out for level-ground projection:
 
-**Problem-solving strategy:**
-1. Separate horizontal and vertical components
-2. Apply equations of motion to vertical component (with $g$)
-3. Apply constant velocity equation to horizontal component
-4. Use time $t$ as the linking variable between the two
+- Vertical: v_y = u sin θ − gt, y = u sin θ · t − ½ g t²
+- Horizontal: x = u cos θ · t
+- Eliminating t gives the parabolic trajectory: y = x tan θ − g x² / (2 u² cos² θ)
+
+#### Uniform Circular Motion
+
+A particle sweeping a circle of radius r at linear speed v has angular speed ω = v / r. Even though |v| is unchanged, the velocity **vector** rotates, so an inward acceleration a_c = v² / r = ω² r acts on the particle. The tangential component of acceleration is zero at constant speed; the whole acceleration is radial.
+
+#### 🎯 Worked Exam Problem
+
+A ball is kicked from level ground at 14 m·s⁻¹ at 30° above the horizontal. Find the range, maximum height, and time of flight. (Take g = 9.8 m·s⁻¹.)
+
+**Resolving:** u = 14, θ = 30°, so u cos 30° = 14 × 0.866 = 12.12 m·s⁻¹ and u sin 30° = 14 × 0.5 = 7.0 m·s⁻¹.
+
+**Range:** R = u² sin 2θ / g = (14)² × sin 60° / 9.8 = 196 × 0.866 / 9.8 = **17.32 m**.
+
+**Maximum height:** H = u² sin² θ / (2g) = 196 × 0.25 / (2 × 9.8) = 49 / 19.6 = **2.5 m**.
+
+**Time of flight:** T = 2u sin θ / g = (2 × 7.0) / 9.8 = **1.43 s**.
+
+> ⚠️ **Examiner Trap:** Students often quote θ = 30° in **radians** (≈ 0.5236 rad) and feed it into R = u² sin 2θ / g. JAMB trigonometric tables assume **degrees**, so always convert before evaluating sin 2θ.
+
+#### Concept Comparison Matrix
+
+| Concept | What it acts on | Direction | When it is zero |
+|---|---|---|---|
+| Centripetal acceleration | Circular motion | Toward the centre | Never (it is the radial component a_c) |
+| Tangential acceleration | Curved or circular motion | Along the velocity vector | When speed is constant on the circle |
+| Horizontal projectile acceleration | Projectile (ignoring drag) | Horizontal | Always zero on level ground |
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
 
-**Motion in Two Dimensions** — Comprehensive Physics Notes
+#### Relative Velocity in 2-D
 
-**Derivation of projectile motion equations:**
-From first principles, for a projectile launched with initial velocity $u$ at angle $\theta$:
+The velocity of A **relative to** B is computed by subtracting vectors: **V_AB = V_A − V_B**. In river-crossing and wind-blown-plane problems, the trick is to pick the inertial frame that makes one of the vectors zero, then resolve along and across that motion.
 
-Horizontal acceleration: $a_x = 0$
-$$\frac{dv_x}{dt} = 0 \Rightarrow v_x = u\cos\theta = \text{constant}$$
+For example, a swimmer whose speed in still water is v_s heading at right angles to a river of width d with downstream current v_r lands at a downstream displacement d v_r / v_s after swimming time t = d / v_s.
 
-Vertical acceleration: $a_y = -g$
-$$v_y = u\sin\theta - gt$$
-$$y = ut\sin\theta - \frac{1}{2}gt^2$$
+#### Edge Cases and Limits
 
-**Trajectory equation:** Eliminating $t$ from $x = ut\cos\theta$:
-$$t = \frac{x}{u\cos\theta}$$
-Substituting:
-$$y = x\tan\theta - \frac{gx^2}{2u^2\cos^2\theta}$$
-This is the equation of a parabola, confirming projectile motion is parabolic.
+- **Asymmetric launch/landing.** When launch height H₁ and landing height H₂ differ, substitute y = H₂ − H₁ into the trajectory equation and solve the quadratic for the impact x.
+- **Complementary angles.** θ and 90° − θ give the same R on level ground, but H at θ exceeds H at 90° − θ, and the higher-angle shot spends longer in the air.
+- **g changing height.** Above ≈ 30 km the g ≈ 9.8 assumption breaks; the ISS uses orbital mechanics, not projectile kinematics.
+- **Speed ≠ velocity.** In circular motion, speed is constant but velocity changes direction every instant, which is what produces centripetal acceleration even when no tangential force acts.
 
-**Projectile motion from height $h$ (not horizontal plane):**
-If projectile is launched from height $H$ above ground:
-- Time to ground: solve $H + ut\sin\theta - \frac{1}{2}gt^2 = 0$
-- Range on ground: use the appropriate $t$ value
+#### Common Mistakes
 
-**JAMB exam patterns:**
-- 2019 JAMB: A ball projected horizontally from 20m height lands at distance $x$; find initial speed
-- 2018 JAMB: River crossing problem with boat speed 5 m/s and river current 3 m/s
-- 2017 JAMB: Projectile fired at 30° reaches same height as one fired at 60° with same speed
+1. Writing v at the apex of a trajectory as zero. Only the **vertical component** vanishes; the horizontal u cos θ persists.
+2. Plugging θ = 45° as the "general" max-range rule without checking equal launch and landing heights.
+3. Adding velocities when the question asks for V_AB: use V_A − V_B, paying attention to sign of components.
+4. Confusing angular speed ω (rad·s⁻¹) with frequency f (Hz); they differ by a factor of 2π.
+5. Treating the centripetal force as an extra force; it is the **net** inward force provided by tension, gravity, friction, or whatever supplies the inward pull.
 
-**Key formulas summary:**
-| Quantity | Formula |
-|----------|---------|
-| Time of flight | $T = \frac{2u\sin\theta}{g}$ |
-| Maximum height | $H = \frac{u^2\sin^2\theta}{2g}$ |
-| Range | $R = \frac{u^2\sin 2\theta}{g}$ |
-| Equation of trajectory | $y = x\tan\theta - \frac{gx^2}{2u^2\cos^2\theta}$ |
+#### Two Advanced Practice Prompts
 
-**Advanced concept: Motion on an inclined plane**
-For a projectile launched up an inclined plane at angle $\alpha$ to the horizontal, range along the incline is different from horizontal range. The angle for maximum range up an incline is $\theta = 45° + \alpha/2$.
+1. A cannon on a cliff 20 m high fires a shell at 40 m·s⁻¹ at 37° above the horizontal toward a target at the cliff base. Using the trajectory equation, derive the horizontal distance to the impact point.
+2. An aeroplane flies due north at 200 m·s⁻¹ through a 50 m·s⁻¹ wind blowing from the east. Compute both the ground velocity vector and the heading the pilot must hold to track a true north course.
 
----
+## Continue your study
 
+- **[View this topic in your JAMB UTME roadmap](/roadmap/?exam=jamb&duration=1mo)** — see where "Motion in Two Dimensions" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=jamb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[JAMB UTME exam overview](/exams/jamb/)** — pattern, eligibility, and syllabus
+- **[All Physics notes](/notes/jamb/physics/)** — browse sibling topics in this subject
 
----
-## 📊 JAMB Exam Essentials
-
-| Detail | Value |
-|---|---|
-| Questions | 180 MCQs (UTME) |
-| Subjects | 4 subjects (language + 3 for course) |
-| Time | 2 hours |
-| Marking | +1 per correct answer |
-| Score | 400 max (used for university admission) |
-| Registration | January – February each year |
-
-### 🎯 High-Yield Topics for JAMB
-- Use of English (Grammar + Comprehension) — 60 marks
-- Biology for Science students — 40 marks
-- Chemistry (Organic + Physical) — 40 marks
-- Physics (Mechanics + Optics) — 35 marks
-- Mathematics (Algebra + Geometry) — 40 marks
-
-### 📝 Previous Year Question Patterns
-- Q: "The process of photosynthesis requires..." [2024 Biology]
-- Q: "The electronic configuration of Fe is..." [2024 Chemistry]
-- Q: "Find the value of x if 2x + 5 = 15..." [2024 Mathematics]
-
-### 💡 Pro Tips
-- Use of English carries the most weight — master grammar rules and comprehension strategies
-- JAMB syllabus is your Bible — questions come directly from it. Download and use it.
-- Past questions are highly predictive — repeat patterns appear every year
-- For Science students, Biology and Chemistry are high-scoring if you study NCERT-level content
-
-### 🔗 Official Resources
-- [JAMB Official](https://www.jamb.gov.ng/)
-- [JAMB Syllabus](https://www.jamb.gov.ng/syllabus)
-
----
-
-*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

@@ -8,75 +8,124 @@ topicName: Disease Prevention Framework
 weight: 3
 country: saudi
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-25"
+lastUpdated: "2026-09-21"
 ---
 
 # Disease Prevention Framework
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
 
-**Topic 4** is the chronic-and-acute disease management core of Saudi GP Board Family Medicine. The general practitioner acts as **gatekeeper** and **continuity-of-care** provider across diabetes, hypertension, asthma, COPD, dyslipidaemia, obesity, thyroid disease, and common mental health conditions. Must-know calculations:
+> One sentence to carry into the exam hall: every preventive action is defined by **where in the disease timeline** it acts — before risk, before disease, before complication, or before harm from over-investigation.
 
-- **BMI** = weight (kg) ÷ height² (m²); obesity ≥ 30 kg/m², overweight 25–29.9.
-- **MAP** = (SBP + 2 × DBP) ÷ 3; target ≥ 65 mmHg in sepsis.
-- **LDL-C (Friedewald)** = TC − HDL − (TG/5); valid only when TG < 4.5 mmol/L.
-- **HbA1c → eAG** (mg/dL) = 28.7 × HbA1c − 46.7.
-- **Corrected calcium** (mg/dL) = measured Ca + 0.8 × (4.0 − albumin).
+The five Leavell–Clark–Jamoulle levels, in order, are **primordial → primary → secondary → tertiary → quaternary**. Quaternary was added by Jamoulle in 1986 and is the level most often missed in MCQs.
 
-Exam pointers: (1) Diagnose T2DM with HbA1c ≥ 6.5% **confirmed on repeat testing** in asymptomatic patients. (2) Initiate metformin first-line for T2DM; ACEi/ARB for hypertension with diabetes or proteinuria. (3) Asthma controller = **ICS**; reliever = **SABA**. (4) Use **SCORE2/SCORE2-OP** for CV risk stratification before prescribing statins.
+| Level | Target population | Typical GP action | Saudi example |
+|---|---|---|---|
+| Primordial | Whole society, no risk yet | National policy, salt/sugar regulation | Saudi MoH sugar-tax policy |
+| Primary | Healthy, at risk | Vaccination, counselling, statins | Influenza vaccine annually |
+| Secondary | Asymptomatic, early disease | Screening + early treatment | Mammography 40–74 (MoH schedule) |
+| Tertiary | Established disease | Rehab, complication control | Post-MI cardiac rehabilitation |
+| Quaternary | Patient at risk of over-medicalisation | Stop unnecessary tests | Avoid PSA in men >75 or <50 |
 
----
+> 💡 **High-Yield Memory Hook:** **"P-P-P-P-Q"** = *Primordial, Primary, Secondary, Tertiary, Quaternary*. Read the patient in front of you and slide down the list: has society given them risk, have they chosen risk, do they have silent disease, do they have complications, or are we about to harm them with over-investigation?
+
+Two quick numerics you must own — **PPV** (positive predictive value) and **NNS** (number needed to screen) — both behave badly in low-prevalence populations, which is the single most-tested screening principle.
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
 
-#### Disease Prevention Framework
-Saudi MoH primary care practice operates on three prevention levels: **primary** (vaccination, smoking cessation, obesity counselling), **secondary** (screening for DM, hypertension, breast/colorectal/cervical cancer using age- and sex-specific Saudi/WHO criteria), and **tertiary** (preventing complications in established DM, CKD, CAD). The **periodic health examination** is planned per risk profile, not as a uniform annual battery. The **Chronic Care Model** integrates self-management support, delivery-system redesign, decision support, clinical information systems, community resources, and health-system organisation.
+> Standard tier for the Saudi GP Board written exam: build the framework, memorise the screening criteria, and walk a numerical stem from incidence to PPV.
 
-#### Cardiovascular Risk and Lipids
-Use **SCORE2** (40–69 y) or **SCORE2-OP** (≥70 y) calibrated for European populations; Saudi practice adapts thresholds given high local CVD burden. Initiate **moderate-intensity statin** when 10-year risk ≥ 5% (low-risk country baseline) or 10% (high-risk), escalating to high-intensity for risk ≥ 10% or established ASCVD/DM with target organ damage. **Friedewald** underestimates LDL when TG ≥ 4.5 mmol/L — switch to direct LDL measurement.
+#### The five levels, mechanistically
 
-#### Common Endocrine and Renal Numbers
+The Leavell and Clark model (1965) originally had three levels keyed to the **natural history of disease**: susceptibility → pre-clinical → clinical → disability. Primordial was added upstream (preventing the emergence of risk factors themselves) and quaternary downstream (preventing iatrogenic harm from the medical system itself).
 
-| Parameter | Formula / Threshold |
-|---|---|
-| T2DM diagnosis | HbA1c ≥ 6.5% (repeat), FPG ≥ 7.0 mmol/L, or 2-h OGTT ≥ 11.1 mmol/L |
-| CKD-EPI eGFR | 141 × min(Scr/κ,1)^a × max(Scr/κ,1)^(−1.209) × 0.993^age × sex factor |
-| MAP | (SBP + 2·DBP)/3 — used in septic shock targeting |
-| Corrected Ca | Measured Ca + 0.8 × (4.0 − albumin) |
+#### Primary prevention — reduce incidence
 
-#### Respiratory Stepwise Therapy
-**GINA** asthma stepwise: Step 1–2 low-dose **ICS-formoterol** as needed; Step 3 low-dose ICS-LABA; Step 4 medium-dose ICS-LABA; Step 5 high-dose + biologics. **GOLD** COPD: classify by symptoms (mMRC/CAT) + risk (exacerbations), then escalate from short-acting bronchodilators to LAMA ± LABA ± ICS for eosinophilic phenotype.
+Acts on a **healthy person** before disease begins. Theominator in the incidence equation is shrunk by removing susceptible individuals or by blocking exposure. Vaccination, smoking-cessation counselling, statin chemoprophylaxis in selected adults, folic acid in pre-conception, and seatbelt legislation all belong here. On the Saudi GP Board, primary-prevention MCQs cluster around vaccination schedules in pregnancy (influenza inactivated, Tdap 27–36 weeks, COVID-19 booster) and aspirin in pre-eclampsia prevention.
 
-#### Behavioural Change
-The **5 A's** (Ask, Advise, Assess, Assist, Arrange) structure every smoking-cessation and weight-management encounter. PHQ-9 ≥ 10 = moderate depression warranting therapy; GAD-7 ≥ 10 = moderate anxiety. Apply **shared decision making** with cultural alignment to Saudi family-centred contexts.
+#### Secondary prevention — detect early
 
----
+Acts on **asymptomatic disease** during the recognisable latent phase. Goal is to shrink duration of disease (increase prevalence, paradoxically, in the short term) and improve outcome. Saudi MoH Adult Clinical Practice Guidelines operationalise this through screening intervals:
+
+| Condition | Test | Saudi MoH / USPSTF interval | Key caveat |
+|---|---|---|---|
+| Breast cancer | Mammography | 40–74, every 1–2 years | Shared decision 40–49 |
+| Colorectal cancer | FIT | 45–75, annually | Colonoscopy every 10 yr alternative |
+| Diabetes | HbA1c or FPG | Overweight + ≥35 yr, every 3 yr | Earlier if risk factors |
+| Dyslipidaemia | Lipid panel | Men ≥35, women ≥45, every 5 yr | Earlier with CV risk factors |
+| Cervical cancer | HPV/Pap | Women 25–65, every 3–5 yr | Stop at 65 with adequate prior screening |
+
+#### Tertiary prevention — limit disability
+
+Targets a patient with **established disease** to soften complications. Cardiac rehab post-MI, diabetic foot-care programmes, tight glycaemic control to prevent nephropathy, and stroke secondary-prevention clinics belong here. Theominator in the prevalence equation (existing cases) cannot be lowered; instead, complication incidence is cut.
+
+#### Quaternary prevention — protect from over-medicalisation
+
+Defined by Jamoulle (1986) as action taken to protect patients from **excessive medical intervention**. Two operational actions: (1) stop investigating self-limiting illness, and (2) apply Wilson & Jungner before offering a test. Exam stems frequently present an asymptomatic low-risk patient with a normal physical and ask what NOT to do — the answer is almost always "no further test" rather than "screen more".
+
+#### Wilson and Jungner screening criteria (WHO, 1968)
+
+Ten criteria you must recite for any "is this disease worth screening?" stem. The four most-tested:
+
+1. The condition should be an **important health problem**.
+2. There should be a **recognisable latent stage**.
+3. There should be a **suitable test or examination**, **acceptable** to the population.
+4. There should be an **accepted treatment** for patients with recognised disease.
+
+#### Worked exam-style stem — PPV in low prevalence
+
+A GP screens 10,000 asymptomatic adults with a new rapid test for a disease whose prevalence is 1%. The test has sensitivity 95% and specificity 90%. The registrar is told "this test will catch nearly everyone who has the disease". She is now asked: if a patient is told they are positive, what is the probability they actually have the disease?
+
+Build a 2×2 table from the 100 true cases (1% of 10,000):
+
+| | Disease present | Disease absent | Total |
+|---|---|---|---|
+| Test + | TP = 100 × 0.95 = **95** | FP = 9,900 × 0.10 = **990** | 1,085 |
+| Test − | FN = **5** | TN = **8,910** | 8,915 |
+| Total | 100 | 9,900 | 10,000 |
+
+PPV = TP / (TP + FP) = 95 / 1,085 ≈ **8.8%**. More than nine in ten people told they are "positive" do not have the disease. 
+
+> ⚠️ **Examiner Trap:** the registrar quoted sensitivity (95%) as if it were PPV. In screening, sensitivity answers "of the diseased, how many are caught?" — PPV answers "of those caught, how many are truly diseased?". PPV collapses when prevalence is low, even with a near-perfect test.
+
+#### Quick-reference quantitative toolkit
+
+| Quantity | Formula | Dimension |
+|---|---|---|
+| Incidence rate | new cases / population at risk, per year | year⁻¹ |
+| Prevalence | existing cases / total population, at a point in time | dimensionless (%) |
+| Sensitivity | TP / (TP + FN) | dimensionless (%) |
+| PPV | TP / (TP + FP) | dimensionless (%) |
+| Relative Risk | incidence exposed / incidence unexposed | dimensionless |
+| NNS to prevent one death | 1 / (absolute mortality reduction per screened person) | persons |
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
 
-#### Edge Cases and Diagnostic Traps
-A single HbA1c ≥ 6.5% in an asymptomatic patient requires **confirmatory repeat** because haemoglobinopathies (sickle trait, thalassaemia — regionally relevant), recent transfusion, and iron-deficiency anaemia distort glycation. **Pre-hypertension** (120–139 / 80–89 mmHg) is *not* a pharmacological indication; reserve lifestyle modification (DASH, sodium <2 g/day, 150 min/week activity, weight loss 5–10%) unless diabetes, CKD, or high SCORE coexists. Avoid diagnosing pre-diabetes as diabetes, and avoid initiating antihypertensives on a single elevated reading — confirm with **home BP monitoring** or 24-h ABPM.
+> Deep tier: the limits, the edge cases, and two OSCE-style practice prompts.
 
-#### Common Mistakes in Practice
-- Applying **Friedewald** at TG ≥ 4.5 mmol/L produces falsely low LDL — directly measure.
-- Prescribing **high-dose ICS as initial** asthma therapy instead of low-dose step-up.
-- Using **beta-blockers** in asthmatic patients or as first-line monotherapy in uncomplicated hypertension.
-- Initiating **statins in pregnancy** or duplicating therapy with fibrates without checking renal function.
-- Treating **viral URTI** with antibiotics — apply **antimicrobial stewardship** (delayed prescribing, Centor criteria, watchful waiting).
-- Missing **red flags**: thunderclap headache, chest pain with diaphoresis or radiation, dyspnoea at rest, unilateral leg swelling — refer same-day.
+#### Why prevalence determines screening yield
 
-#### Connections Across the Curriculum
-Topic 4 integrates with **Topic 1** (preventive medicine and screening), **Topic 2** (consultation models and breaking bad news), and **Topic 5** (rational prescribing and stewardship). Cardiovascular decisions link to **Topic 3** (evidence-based medicine — interpreting NNT for statins and BP targets). Saudi-specific cultural competency shapes counselling for **Ramadan fasting with diabetes** (ICAFR/IDF guidelines risk stratify patients) and **obesity in adolescents** (BMI-for-age Saudi growth charts).
+The PPV calculation above exposes a deeper rule: in any population, **PPV rises with prevalence**, falls with it, and is bounded by the test's specificity ceiling. The same test with 99% specificity in a 1% prevalence population still produces more false positives than true positives. Saudi GP Board questions test this by asking "why do we screen only high-risk groups for [rare condition]?" — the answer is *pre-test probability*, not test quality.
 
-#### Worked Micro-Example
-A 58-year-old Saudi man, BMI 31, BP 152/96, TC 6.4 mmol/L, HDL 1.0, TG 2.2, FPG 7.8, HbA1c 7.1%. LDL = 6.4 − 1.0 − (2.2/5) = **4.96 mmol/L**. MAP = (152 + 2·96)/3 = **114.7 mmHg**. Diagnosis: T2DM (confirmed on repeat), stage-2 hypertension, obesity, high LDL. Plan: metformin 500 mg bid titrated, ACEi, moderate-to-high-intensity statin, 5 A's for weight, SCORE2 risk-driven intensification.
+#### Five advanced traps examiners set
 
-#### Practice Prompts
-1. A 47-year-old woman with TG 5.2 mmol/L requests her LDL result. Explain why Friedewald is invalid here and what alternative you would request.
-2. A 35-year-old man with BP 135/85, no comorbidities, BMI 27 — pharmacologically treat or not? Justify using SCORE2 and Saudi guidance.
+1. **Relative vs absolute risk reduction.** Stating "statins reduce MI by 30%" hides a 30% *relative* cut on a small baseline, producing a tiny absolute benefit. Counselling should quote ARR and NNT (number needed to treat), not RRR.
+2. **Lead-time and length-time bias.** Screening appears to prolong survival, but lead-time bias adds diagnosis-time to survival without adding life; length-time bias over-represents slow-growing disease. Trials that do not adjust for these overestimate benefit.
+3. **The "more screening is better" fallacy.** USPSTF and Saudi MoH explicitly advise against annual executive check-ups in asymptomatic adults; frequency should match evidence-based intervals, not patient anxiety.
+4. **Confusing primordial with primary.** Primordial prevents the *risk factor from emerging in the population* (school nutrition policy); primary prevents the *disease in a person who already has the risk factor* (statins in a hypertensive).
+5. **Forgetting behavioural models.** Smoking-cessation MCQs often hinge on the **Transtheoretical (Stages of Change) Model**: pre-contemplation, contemplation, preparation, action, maintenance. Motivational Interviewing is the matching counselling technique — used only when the patient is in contemplation, not pre-contemplation.
+
+#### Two advanced practice prompts
+
+1. **OSCE station — 32-year-old male smoker, no comorbidities, BP 122/78.** Counsel him on cardiovascular prevention. Deliver a 3-minute brief covering: (a) which level of prevention you are operating at (primary), (b) the stage-of-change assessment before recommending nicotine-replacement therapy, (c) one absolute-risk calculator you will use (e.g. ACC/AHA Pooled Cohort Equation or WHO CVD risk chart for the Eastern Mediterranean region), and (d) the screening tests you will add today (lipids, HbA1c, BP recheck).
+2. **Written MCQ stem — 58-year-old woman, asymptomatic, FIT negative last year, asks for a CT colonography "to be safe".** Select the best answer from: (A) repeat FIT in 1 year, (B) CT colonography now, (C) colonoscopy now, (D) no further testing for 3 years, (E) repeat FIT in 2 years plus genetic counselling. Correct answer is determined by the MoH interval (A or E); the trap option (B) is the quaternary-prevention violation — extra radiation and incidental findings without evidence-based indication.
+
+## Continue your study
+
+- **[View this topic in your Saudi GP Board roadmap](/roadmap/?exam=sgpat&duration=1mo)** — see where "Disease Prevention Framework" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=sgpat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[Saudi GP Board exam overview](/exams/sgpat/)** — pattern, eligibility, and syllabus
+- **[All Family Medicine notes](/notes/sgpat/family-medicine/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

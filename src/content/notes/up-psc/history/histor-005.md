@@ -8,131 +8,111 @@ topicName: Medieval Indian History
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-21"
 ---
 
 # Medieval Indian History
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before UPPSC Prelims and Mains (GS Paper 1).
+> One sweep of the canvas: dynasties, movements, and the statecraft that examiners love to test.
 
-**Medieval Indian History (c. 1206–1757 CE) — Core High-Yield Facts**
-- **Delhi Sultanate (1206–1526 CE)**: 5 consecutive dynasties:
-  1. **Slave/Mamluk (1206–1290)**: Qutb-ud-din Aibak (Lakh Baksh; Quwwat-ul-Islam; Qutub Minar foundation); Iltutmish (Turkan-i-Chahalgani; introduced Silver *Tanka* & Copper *Jittal*; hereditary monarchy); Balban (Theory of Divine Kingship; *Zill-i-Ilahi*; *Sijda* and *Paibos*; *Diwan-i-Arz* military department).
-  2. **Khalji (1290–1320)**: Alauddin Khalji (Market control regulations; *Shahna-i-Mandi*; *Dagh* branding of horses & *Chehra* descriptive rolls; land measurement via *Biswa*; *Diwan-i-Mustakhraj*).
-  3. **Tughlaq (1320–1414)**: Ghiyasuddin Tughlaq (Tughlaqabad; postal courier system); Muhammad bin Tughlaq (5 bold experiments: transfer of capital to Daulatabad, token copper currency, taxation in Doab, Khurasan expedition, Qarachil expedition; *Diwan-i-Kohi* for agriculture); Firuz Shah Tughlaq (canal irrigation network; *Diwan-i-Khairat*; *Diwan-i-Bandagan* for slaves; founded Jaunpur, Firozabad, Hissar).
-  4. **Sayyid (1414–1451)**: Khizr Khan (ruled as *Rayat-i-Ala* under Timurid nominal sovereignty).
-  5. **Lodi (1451–1526)**: Bahlul Lodi; Sikandar Lodi (founded Agra in 1504; introduced *Gajj-i-Sikandari*); Ibrahim Lodi (defeated by Babur in First Battle of Panipat, 1526).
-- **Mughal Empire (1526–1857 CE)**:
-  - Babur (1526–1530): Panipat (1526, Ibrahim Lodi), Khanwa (1527, Rana Sanga), Chanderi (1528, Medini Rai), Ghagra (1529, Afghans); autobiography *Tuzuk-i-Baburi* (Chagatai Turkic).
-  - Sher Shah Suri (Sur Interregnum, 1540–1545): Battle of Chausa (1539) & Kannauj/Bilgram (1540); introduced Silver *Rupiya* (178 grains) & Copper *Dam*; built Grand Trunk Road (*Sadak-e-Azam*) from Sonargaon to Indus; established *Sarai* network; land survey via *Rai* schedule.
-  - Akbar (1556–1605): Second Battle of Panipat (1556, Hemu); abolished *Pilgrim Tax* (1563) & *Jizya* (1564); *Mansabdari System* (Jat and Sawar ranks, *Dah-Bishi* rule); *Dahsala System* (1580, designed by Raja Todar Mal); *Ibadat Khana* (1575, Fatehpur Sikri); *Mahzarnama* (1579, declaration of religious primacy); *Sulh-i-Kul* (universal peace); *Din-i-Ilahi* (1582).
-  - Jahangir (1605–1627): *Zanjir-i-Adl* (Chain of Justice); European travelers William Hawkins (1608) and Sir Thomas Roe (1615); peak of Mughal portraiture and miniature painting; built Shalimar Bagh.
-  - Shah Jahan (1628–1658): Golden age of Mughal architecture (Taj Mahal, Red Fort Delhi, Jama Masjid, Peacock Throne/*Takht-i-Taus*); *Char-Chaman* style.
-  - Aurangzeb (1658–1707): Assumed title *Alamgir*; reimposed *Jizya* (1679); abolished *Jharokha Darshan* and court music; compiled *Fatwa-e-Alamgiri*; continuous 25-year Deccan campaign ("Deccan Ulcer").
-- ⚡ **UPPSC High-Yield Focus**: The Sharqi Sultanate of Jaunpur (founded by Malik Sarwar / Khwajah-i-Jahan in 1394) is celebrated as the *"Shiraz-e-Hind"* for its distinct regional Indo-Islamic architecture (Atala Masjid, Lal Darwaza Masjid).
+The medieval millennium runs roughly **750–1750 CE**: from the Tripartite Struggle (Pala–Pratihara–Rashtrakuta over Kanauj) through the Delhi Sultanate (1206–1526), the Mughal Empire (1526–1707), and the 18th-century successor states that filled the vacuum after Aurangzeb. Three levers drove the period: **temporal power** (iqta → mansabdari → jagirdari), **religious churn** (Bhakti and Sufi silsilas), and **agrarian revenue** (zabti/dahsala, ryot, zamindar).
 
----
+| Phase | Core Polity | Defining Statecraft |
+|---|---|---|
+| Early Medieval (8th–12th c.) | Palas, Pratiharas, Rashtrakutas, Cholas | Regional temple economies, land grants |
+| Delhi Sultanate (1206–1526) | Mamluk, Khalji, Tughlaq, Sayyid, Lodi | Iqta, market control, Afghan–Turk nobility |
+| Mughal Era (1526–1707) | Babur → Aurangzeb | Mansabdari, sulh-i-kul, zabti revenue |
+| Post-Mughal (1707–1757) | Marathas, Sikhs, Jats, Awadh, Bengal, Hyderabad | Confederacy polities, fiscal-military collapse |
+
+> 💡 **High-Yield Memory Hook — "MASK-D" for Sultanate order:** **M**amluk (Slave) → **A**luddin Khalji → **S**ayyid (gap: Tughlaq & Lodi in between) → **K**hilji-already counted? Use full chain **Mamluk–Khalji–Tughlaq–Sayyid–Lodi**. Think "**M**ango **K**aju **T**aste **S**e **L**aga" — the Slave dynasty bit into the Mango, Kaju (Khalji) followed, then Tughlaq taste, then Sayyid, then Lodi.
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Detailed administrative structures, regional polities, socio-economic developments, and religious synthesis.
+> Build a working framework: who ruled, what they taxed, whom they persecuted or patronised, and which monuments they left.
 
-#### Administrative Comparative Matrix: Delhi Sultanate vs. Mughal Empire
+#### Tripartite Struggle and the Early Medieval
+The contest for **Kannauj** (c. 8th–10th c.) pulled three powers across North India: the **Palas** (Buddhist patrons of Bengal/Bihar, founded by Gopala, Dharmapala's peak), the **Pratiharas** (Gurjara-Pratihara of Kanauj/Avanti under Bhoja I), and the **Rashtrakutas** (Deccan, Indra III's sack of Kannauj c. 916). In the South, the **Cholas** under Rajaraja I and Rajendra I projected naval power to Southeast Asia. Land grants to Brahmins (*agrahara*) and temple endowments anchored agrarian revenue.
 
-| Administrative Pillar | Delhi Sultanate (1206–1526 CE) | Mughal Empire (1526–1707 CE) | Key UPPSC Focus Points |
-| :--- | :--- | :--- | :--- |
-| **Chief Executive Officers** | *Wazir* (Finance/PM), *Ariz-i-Mumalik* (Military), *Diwan-i-Insha* (State Correspondence), *Diwan-i-Rasalat* (Foreign/Religious Appeals) | *Wazir/Diwan* (Revenue), *Mir Bakhshi* (Military & Mansabdari paymaster), *Mir Saman* (Imperial Karkhanas), *Sadr-us-Sudur* (Judicial/Religious) | Mir Bakhshi signed the *Sarkhat* (cheque/pay order) for military contingents. |
-| **Territorial Subdivisions** | *Iqta* (governed by *Muqti* or *Wali*) $\rightarrow$ *Shiq* (under *Shiqdar*) $\rightarrow$ *Pargana* (under *Amil*) $\rightarrow$ *Gram/Village* (*Muqaddam*, *Patwari*) | *Suba* (under *Subahdar/Nazim*) $\rightarrow$ *Sarkar* (under *Faujdar* & *Amalguzar*) $\rightarrow$ *Pargana* (under *Shiqdar* & *Amil*) $\rightarrow$ *Village* (*Muqaddam*, *Patwari*) | Akbar initially created 12 *Subas* in 1580, expanding to 15 by 1601 (Berar, Khandesh, Ahmadnagar). Aurangzeb governed 21 *Subas*. |
-| **Land Revenue Assessment** | *Kankut* (estimation), *Batai/Ghalla-Bakhshi* (crop sharing), *Masaht* (measurement pioneered under Alauddin Khalji) | *Zabti* or *Dahsala* system: average yield & prices over preceding 10 years (1570–1580); land categorized into *Polaj* (annually cultivated), *Parauti* (fallow 1–2 yrs), *Chachar* (fallow 3–4 yrs), *Banjar* (uncultivated 5+ yrs) | UPPSC frequently asks the sequence of land fertility categories from highest to lowest. |
-| **Military Recruitment** | *Iqtadari* levies + central standing army (*Hashm-i-Qalb*); royal bodyguards (*Jandar*) | *Mansabdari System*: dual numerical ranks (*Jat* = personal rank and salary; *Sawar* = number of cavalrymen required). Later modified by Jahangir (*Du-Aspa Sih-Aspa*). | Rank holders received either cash (*Naqdi*) or revenue assignment (*Jagir*). Not hereditary. |
+#### Delhi Sultanate — Administration in Five Layers
+1. **Central**: Sultan → Wazir (Diwan-i-Wazarat) → Diwan-i-Insha (correspondence), Diwan-i-Risalat (foreign), Diwan-i-Qaza (judiciary), Sadr-us-Sudur (religious/waqf).
+2. **Provincial**: *Iqta* — a non-hereditary revenue assignment; the *iqtadar* kept a share and remitted the rest, replaced by families only under later Sultans.
+3. **Military**: Iltutmish's *Chahalgani* (the Forty), broken by Balban; Alauddin Khalji's cavalry-led, market-regulated standing army.
+4. **Revenue**: Alauddin's **market reforms** ran as a *sequence* — first, rationing of grain in Delhi (c. 1295–96); second, state granaries and a controlled *shara* (grain market) at Chiragh-i-Delhi; third, fixing prices of essentials (kitchen, cloth, slaves, horses) through spies and merchant licensing. Firoz Shah Tughlaq later froze the *jizya* at a graduated scale and dug irrigation canals.
+5. **Legal**: Sharia applied to Muslims; non-Muslims handled by village panchayats and caste bodies, with a *mazalim* court for grievance redressal.
 
-#### Regional Kingdoms: Southern and Eastern Polities
+#### Concept Comparison Matrix — Sultanate vs. Mughal Revenue & Military
 
-```
-                         ┌── Sangama Dynasty (1336–1485): Harihara I & Bukka I; Deva Raya II
-                         │
-Vijayanagara Empire ─────┼── Saluva Dynasty (1485–1505): Saluva Narasimha
-(Founded 1336 on         │
-Tungabhadra River)       ├── Tuluva Dynasty (1505–1570): Krishnadevaraya (r. 1509–1529; Ashtadiggajas,
-                         │   Amuktamalyada in Telugu, Hazara Rama Temple, Vitthala Temple)
-                         │
-                         └── Aravidu Dynasty (1570–1646): Founded by Tirumala; capital moved to Penukonda
-```
+| Dimension | Delhi Sultanate (Alauddin) | Mughal Empire (Akbar/Aurangzeb) |
+|---|---|---|
+| Revenue unit | *Iqta* (assignment, non-hereditary) | *Jagir* held by a *mansabdar* (heritable in practice) |
+| Assessment | Crop-share, rough estimate | **Todar Mal's zabti/dahsala** (1580s): area × standard yield × crop price, in cash; roughly one-third of produce |
+| Military | Cavalry + foot, market-priced equipment; Alauddin maintained 4,75,000 cavalry (per Amir Khusrau) | Mansabdari: *zat* (personal rank, numerical pay scale) and *sawar* (cavalry actually maintained); 33 classes, zat from 10 to 10,000 |
+| Religious policy | Sultans patronised ulema, occasionally destroyed temples; Firoz reversed Khalji secularism | Akbar's **sulh-i-kul** (universal peace), Din-i-Ilahi (1582); Shah Jahan tolerant; Aurangzeb reimposed jizya (1679), banned music at court |
+| Currency | Silver tanka (Iltutmish), copper jital | Silver **Rupia** standardised by Sher Shah (c. 1540), inherited by Akbar; gold *mohur* |
 
-- **Battle of Talikota (Rakshasi-Tangadi, 1565 CE)**: Combined Deccan Sultanates (Bijapur, Golconda, Ahmadnagar, Bidar; Berar abstained) decisively defeated Rama Raya of Vijayanagara, sacking Hampi.
-- **Nayankara System**: Military commanders (*Nayakas*) were assigned territories (*Amaram*) in exchange for military service and financial tributes, analogous to Delhi Sultanate *Iqtas*.
-- **Sharqi Dynasty of Jaunpur (Uttar Pradesh Specific)**:
-  - Founded in 1394 by Malik Sarwar during the collapse of the Tughlaq empire following Timur's invasion of Delhi (1398).
-  - Greatest rulers: Ibrahim Shah Sharqi (r. 1402–1440) commissioned the **Atala Masjid** (completed 1408; distinctive sloping battered walls, massive arched propylon pylon without minarets).
-  - Hussain Shah Sharqi: Great patron of classical Hindustani music; credited with innovating the *Khayal* gayaki style.
-  - Annexed back into the Delhi Sultanate by Bahlul Lodi in 1479.
+#### Mughal Religious Phases at a Glance
 
----
+| Emperor | Religious Posture | Signature Move |
+|---|---|---|
+| Akbar (1556–1605) | Syncretic | Sulh-i-kul, abolition of jizya (1564), Ibadat Khana debates |
+| Jahangir (1605–1627) | Mixed | Continued Akbar's line, persecuted Sikh Guru Arjan (1606) |
+| Shah Jahan (1627–1658) | Orthodox-tolerant | No jizya reimposition; major mosque-Taj construction |
+| Aurangzeb (1658–1707) | Orthodox | Reimposed jizya (1679), destroyed Kashi Vishwanath (1669), long Deccan wars |
+
+> 💡 **High-Yield Memory Hook — "AJS-A":** Akbar-Jahangir-Shah Jahan-Aurangzeb. Religious arc: **A**ccommodation → **J**udicial caution → **S**oft orthodoxy → **A**sshura-style strictness. Or anchor to monuments: Akbar = **Fatehpur Sikri**; Jahangir = **Itimad-ud-Daulah**; Shah Jahan = **Taj**; Aurangzeb = **Bibi-ka-Maqbara** (his wife's, austere).
+
+#### Worked Example — Tracing Alauddin's Market Reform
+*A student reads: "Alauddin Khalji established free markets and price control over all of India." Identify the error and rewrite the statement accurately.*
+
+Step 1 — *Scope*: Alauddin's reforms operated over **Delhi and its hinterland** (the *ghinglak-i-Lucknow* corridor), not all India. Southern and eastern provinces were outside his reach.
+
+Step 2 — *Mechanism*: The reform unfolded in **three phases**, not a single edict.
+- Phase I (c. 1295–96): grain rationing in Delhi — every household registered, supply pegged.
+- Phase II: state granaries plus a controlled market (*shara-i-Khalji*) at Chiragh-i-Delhi; middlemen banned.
+- Phase III: price control over a fixed list of commodities (food, cloth, slaves, cattle, horses) enforced through *shahna-i-mandi* inspectors.
+
+Step 3 — *Why it worked*: Alauddin cut out the *beoparis* (wholesalers), fixed procurement routes, and used spies (*munhiyan*) to report hoarding.
+
+Step 4 — *Corrected statement*: "Alauddin Khalji's market regulation (c. 1295–1300) controlled prices and grain supply **in and around Delhi** through rationing, state granaries, and supervised markets; it was not a pan-Indian free-market policy."
+
+> ⚠️ **Examiner Trap:** Students who lump the three phases into "Alauddin's price control" miss follow-ups on *granaries vs. ration shops vs. commodity list* — UPPSC Prelims has split these into separate MCQs in past cycles.
+
+#### Bhakti and Sufi — Threads of Syncretic Culture
+**Bhakti** crystallised through the 12th–17th centuries in regional theistic idioms: **Ramanuja** (Srivaishnavism, Tamil), **Madhva** (Dvaita, Karnataka), **Basava** (Lingayat/Virashaiva, 12th c.), **Kabir** (weaver-saint, Varanasi), **Nanak** (Sikh founder, Kartarpur), **Tulsidas** (Ramcharitmanas, Awadhi), **Mirabai** (Krishna-bhakti, Rajasthani), **Chaitanya** (Bengal Vaishnavism), **Tukaram** (Maharashtra). **Sufi silsilas** in India: **Chishti** (Moinuddin Chishti, Ajmer, d. 1236 → Nizamuddin Auliya, Delhi); **Suhrawardi** (Bahauddin Zakariya, Multan); **Naqshbandi** (entered India later, Baqi Billah, d. 1603; Shah Waliullah revived it in the 18th c.); **Qadiri** (later, 16th c.). Khanqahs hosted * sama* (Qawwali), charity kitchens (*langar*), and free clinics — often drawing Hindu and Muslim devotees together.
+
+> 💡 **High-Yield Memory Hook — "CSNQ" for Sufi silsilas in India:** **C**hishti, **S**uhrawardi, **N**aqshbandi, **Q**adiri. Anchor the Chishti chain to Ajmer (Moinuddin) → Delhi (Nizamuddin) → Sikri (Salim Chishti under Akbar).
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Religious synthesis, Bhakti and Sufi traditions, literary monuments, and UPPSC analytical frameworks.
+> Beyond textbook lists: the structural fault-lines, the 18th-century transition, and how to write answers that examiners remember.
 
-#### Socio-Religious Synthesis: Bhakti and Sufi Movements
+#### Why the Mughal Empire Cracked
+- **Mansabdari crisis**: by Aurangzeb's reign, *jagirs* outnumbered available assignments. *Bejagir* and *aridhasala* (*arz-i-mukarrar*) postings pushed mansabdars to rebel-zones (jagirdari crisis of the 1680s–1700s).
+- **Agrarian revolt**: Jat (Gokula, 1669; later Badan Singh), Satnamis (1672), Bundelas (Jhujhar Singh, c. 1635), Marathas, Sikhs (Guru Gobind Singh's resistance, 1699), Rajputs (Durgadas Rathore). Aurangzeb's *farman* banning *jaziya*'s collection by hereditary local elites compounded friction.
+- **Fiscal-military drain**: Deccan wars (1682–1707) consumed revenue; the disbanding of *ahadis* and *dakhilis* shrank the professional cavalry.
+- **External shocks**: Nadir Shah's sack of Delhi (1739) carried away the Peacock Throne and the Kohinoor; Ahmad Shah Abdali's invasions (1748, 1752, 1756–57, 1761) followed.
+- **Successor states**: Hyderabad (Nizam-ul-Mulk Asaf Jah, 1724), Awadh (Saadat Khan Burhan-ul-Mulk, 1722), Bengal (Murshid Quli Khan, 1717), Mysore (Hyder Ali, 1761), the Maratha Confederacy (Peshwa Baji Rao I, 1720–1740), Sikh Misls (post-1716).
 
-The medieval period in northern India, particularly the Gangetic plains of Uttar Pradesh, witnessed profound spiritual democratisation through vernacular literature and devotional philosophy.
+#### 18th-Century Edge Cases UPPSC Asks About
 
-```
-Devotional Movements
-   │
-   ├── Saguna Bhakti (Worship of personal deity with form/attributes)
-   │     ├── Vaishnavite Rama Bhakti: Goswami Tulsidas (1532–1623; Ramcharitmanas in Awadhi, Vinaya Patrika)
-   │     └── Vaishnavite Krishna Bhakti: Surdas (Sur Sagar in Braj Bhasha), Mirabai, Vallabhacharya (Pushtimarg)
-   │
-   ├── Nirguna Bhakti (Worship of formless, attribute-less Divine Supreme)
-   │     ├── Sant Kabir (1440–1518; weaver of Varanasi; Bijak, Sakhi, Sabad; blended Advaita and Sufism)
-   │     └── Guru Nanak Dev (1469–1539; founder of Sikhism; Kartarpur; institutionalized Langar and Sangat)
-   │
-   └── Sufi Silsilas (Mystic orders seeking divine communion through Ishq-e-Haqiqi)
-         ├── Chishti: Khwaja Moinuddin Chishti (Ajmer), Baba Farid (Ganjshakar), Nizamuddin Auliya (Delhi)
-         └── Suhrawardi: Bahauddin Zakariya (Multan); favored state association unlike the non-political Chishtis
-```
+| Question Type | Typical Trap | Correct Frame |
+|---|---|---|
+| Was Mughal authority already dead by 1707? | Yes/No binary | "Effective in Delhi and adjacent provinces, contested in Deccan and Maratha belt" |
+| Maratha–Mughal conflict end | 1707 (Aurangzeb's death) | Continues to **Third Battle of Panipat (1761)** and Anglo-Maratha phase |
+| Sikh political formation date | 1699 (Khalsa) | Political Misls consolidate under Ranjit Singh (1799 Lahore, 1809 Sutlej) |
+| Bhakti = anti-caste? | Uniform radicalism | Many Bhakti sects retained *varna* logic (e.g., Kabir's disciples split) |
+| Sulh-i-Kul = secularism? | Modernist projection | It is a *political* doctrine of toleration for state stability, not Enlightenment secularism |
 
-#### Amir Khusrau (1253–1325 CE) — The *Tuti-e-Hind* (Parrot of India)
-- Born in **Patiali (Kasganj district, Uttar Pradesh)**.
-- Served under the patronage of eight Delhi Sultans from Balban to Ghiyasuddin Tughlaq; devout disciple of Hazrat Nizamuddin Auliya.
-- Contributions:
-  - Pioneered **Hindavi** (early dialect of Hindi/Urdu) poetry and riddles (*Paheliyan*).
-  - Father of the **Qawwali** musical form; credited with inventing the **Sitar** (adapting the Veena) and **Tabla** (bifurcating the Mridangam).
-  - Major works: *Khazain-ul-Futuh* (accounts of Alauddin Khalji's Deccan campaigns under Malik Kafur), *Tughlaq Nama*, *Nuh Sipihr* (celebrating India's flora, fauna, and intellect), *Qiran-us-Sadain*.
+#### Two Advanced Practice Prompts
+1. **Compare, in tabular form, the agrarian revenue systems of Alauddin Khalji, Sher Shah Suri, and Akbar under Todar Mal.** Highlight assessment basis, mode of payment (cash/kind), territorial coverage, and administrative supervision. (250 words; cite Amir Khusrau, *Ain-i-Akbari*.)
+2. **"Aurangzeb's religious policy was less the cause of Mughal decline than a symptom of the jagirdari crisis."** Evaluate with evidence from the Deccan campaigns, Maratha resistance under Shivaji and Rajaram, and the zamindari revolts of the 1680s–1700s.
 
-#### UPPSC Previous Year Questions (PYQs) with In-Depth Solutions
+> 💡 **High-Yield Memory Hook — "WATCH" the 18th century:** **W**azir (Nizam-ul-Mulk, Hyderabad) → **A**wadh (Saadat Khan) → **T**rade-Bengal (Murshid Quli) → **C**onfederacy-Maratha → **H**igh-Sikh (Ranjit Singh). Tie each letter to its founding date cluster (1722–1799) for one-shot recall in Prelims.
 
-**Q1 (UPPSC Prelims 2021)**: *Who among the following was the author of 'Tarikh-i-Firoz Shahi'?*
-- (A) Ziauddin Barani
-- (B) Shams-i Siraj Arif
-- (C) Both (A) and (B)
-- (D) Al-Biruni
-- **Answer**: **(C)**.
-- **Detailed Explication**: Both Ziauddin Barani and Shams-i Siraj Arif composed separate historical chronicles entitled *Tarikh-i-Firoz Shahi*. Barani wrote the initial chronicle taking the narrative from Balban's reign up to the first six years of Firuz Shah Tughlaq's reign (c. 1357), whereas Shams-i Siraj Arif continued the history covering the remainder of Firuz Shah's rule.
+## Continue your study
 
-**Q2 (UPPSC Prelims 2020)**: *Which Medieval Indian ruler introduced the system of 'Patta' and 'Qabuliyat' to safeguard peasant land rights?*
-- (A) Alauddin Khalji
-- (B) Muhammad bin Tughlaq
-- (C) Sher Shah Suri
-- (D) Akbar
-- **Answer**: **(C)**.
-- **Detailed Explication**: Sher Shah Suri institutionalized a direct bilateral contract with the peasantry. The government issued a *Patta* (deed detailing landholding size, soil classification, and assessed revenue liability), in exchange for which the cultivator signed a *Qabuliyat* (formal deed of agreement acknowledging obligation to pay the assessed amount).
+- **[View this topic in your UPPSC PCS roadmap](/roadmap/?exam=up-psc&duration=1mo)** — see where "Medieval Indian History" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=up-psc&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[UPPSC PCS exam overview](/exams/up-psc/)** — pattern, eligibility, and syllabus
+- **[All History notes](/notes/up-psc/history/)** — browse sibling topics in this subject
 
-**Q3 (UPPSC Prelims 2022)**: *In the context of the Mughal administration, what was the primary function of the 'Mir Bakhshi'?*
-- (A) In charge of imperial charitable endowments
-- (B) Head of the military department and supervisor of the Mansabdari register
-- (C) Chief of the imperial artillery (*Topkhana*)
-- (D) Superintendent of imperial royal workshops (*Karkhanas*)
-- **Answer**: **(B)**.
-- **Detailed Explication**: The *Mir Bakhshi* headed the military department. He processed appointments, promotions, and transfers of all *Mansabdars*, conducted military reviews (*Dag-o-Tashiha*), and countersigned the *Sarkhat* (pay certificate) upon which the imperial revenue department released cash or *Jagir* allotments.
-
-#### Analytical Mains Framework: Disintegration of the Mughal Empire
-
-When answering UPPSC GS Paper 1 questions on the causes of the Mughal decline, address the following institutional and socio-political factors:
-1. **Jagirdari Crisis (Satish Chandra Thesis)**: Severe disproportion between available crown land (*Phaiba* / *Paibaqi*) and eligible *Mansabdari* claimants, leading to hyper-exploitation of the peasantry.
-2. **Agrarian Revolts (Irfan Habib Thesis)**: Over-assessment of land revenue forced peasants into armed resistance alongside regional peasant leaders (Jats of Mathura under Gokula, Satnamis of Narnaul, Bundelas under Chhatrasal).
-3. **Deccan Quagmire**: Aurangzeb's military annexation of Bijapur (1686) and Golconda (1687) destroyed the buffer states against the Maratha guerrilla confederacy, exhausting financial treasuries.
-4. **Institutional Breakdown**: Incompetent later Mughals (*Bahadur Shah I* through *Muhammad Shah 'Rangeela'*), factionalism among court nobility (Turani, Irani, and Hindustani factions), and devastating foreign sackings by Nadir Shah (1739) and Ahmad Shah Abdali (1761).
-
----
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

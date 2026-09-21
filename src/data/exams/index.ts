@@ -339,6 +339,11 @@ import hkdse from './hongkong/hkdse';
 import ieltsHk from './hongkong/ielts';
 import jupas from './hongkong/jupas';
 
+// Qatar (country expansion — sr-fanout build-qatar, 2026-09-21)
+import qatarSecondaryCertificate from './qatar/qatar-secondary-certificate';
+import ieltsQatar from './qatar/ielts';
+import satQatar from './qatar/sat';
+
 export const ALL_EXAMS = [
   NEET, JEEMain, JEEAdvanced, CUET, UPSC, SSCCGL, CAT, CLAT, NDA, UGCNET,
   MDCAT, ECAT, NAT1, LAT, HATUG,
@@ -408,6 +413,8 @@ export const ALL_EXAMS = [
   kuwaitSecondaryCertificate, ieltsKuwait, satKuwait,
   // Hong Kong (country expansion)
   hkdse, ieltsHk, jupas,
+  // Qatar (country expansion)
+  qatarSecondaryCertificate, ieltsQatar, satQatar,
 ].filter(Boolean);
 
 // ─── Country flags ───────────────────────────────────────────────
@@ -433,6 +440,7 @@ export const COUNTRY_FLAGS: Record<string, string> = {
   malaysia: '🇲🇾',
   kuwait: '🇰🇼',
   hongkong: '🇭🇰',
+  qatar: '🇶🇦',
 };
 
 // ─── Duration data ───────────────────────────────────────────────

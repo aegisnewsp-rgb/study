@@ -8,7 +8,7 @@ topicName: Mineral Resources of Rajasthan
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-21"
 ---
 
 # Mineral Resources of Rajasthan
@@ -16,253 +16,128 @@ lastUpdated: 2026-03-25
 ### 🟢 Lite — Quick Review (1h–1d)
 > Rapid summary for last-minute revision before your exam.
 
-Rajasthan is one of **India's richest states in terms of mineral resources** — the state accounts for a significant share of the country's production of **zinc, lead, copper, silver, marble, granite, feldspar, mica, and garnet**. The mining sector contributes approximately **5-6%** of Rajasthan's GDP.
+Rajasthan leads India in marble, sandstone, gypsum, feldspar, silver, lead-zinc, copper, and limestone — eight commodities where the state holds rank one. The mineral wealth sits on four geological foundations: the Aravalli craton (Pb-Zn-Cu), the Vindhyan platform (limestone-sandstone), the Deccan Trap (basalt-derived minerals), and the Thar evaporite belt (gypsum-lignite-salt).
 
-**Key Facts for RPSC RAS:**
-- Rajasthan is India's **largest producer of zinc** — from the **Kampam** mines near Udaipur and the **Zawar** mines near Udaipur (Hindustan Zinc Ltd).
-- The state is the **leading producer of marble** — Makrana marble (used in the Taj Mahal, Victoria Memorial) is world-famous.
-- **Lead-zinc ore** is mined at **Zawar, Kay ara, and Bhilwada** in Udaipur district.
-- **Rock phosphate** is mined in the **Jhamaracotta area** of Udaipur — one of the largest deposits in the world.
-- **WCG (Western Cluster Granite)** is a major granite belt in the state's western districts.
-- The **Zinc City project** at **Kotputli** (Rajasthan) is developing a major zinc-lead processing hub.
+| Mineral | Leading Rajasthan district(s) | Significance |
+|---|---|---|
+| Lead-Zinc | Zawar (Udaipur), Rampura-Agucha (Bhilwara) | Rampura-Agucha is one of the world's largest zinc orebodies |
+| Copper | Khetri (Jhunjhunu), Dariba-Salumber | HCL-operated; India's primary copper belt |
+| Marble | Rajsamand, Udaipur (incl. Makrana) | Makrana marble cladded the Taj Mahal |
+| Gypsum | Nagaur, Bikaner, Jaisalmer | Largest reserves in India |
+| Crude oil | Barmer-Sanchor basin | Cairn/Vedanta fields — Mangala, Bhagyam, Aishwariya |
 
-**⚡ Exam tip:** The major mineral belts of Rajasthan and the important mining districts are high-yield for RAS Prelims. Also know Hindustan Zinc Ltd's role and the major minerals produced.
+> 💡 **High-Yield Memory Hook (Memory Hook):** Think "**Z-R-K-B-G-M**" — **Z**awar Pb-Zn, **R**ampura-Agucha Zn, **K**hetri Copper, **B**hilwara Mica (legacy), **G**ypsum in **N**agaur-Bikaner, **M**arble in **R**ajsamand. The acronym maps six minerals to one district each in a single breath.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
+> Working understanding of belts, agencies, and exam-style questions.
 
-## Major Mineral Resources
+#### Metallic mineral belts
 
-### 1. Metallic Minerals
+Rajasthan's metallic wealth clusters along the **Aravalli Supergroup** and the **Bhilwara Supergroup** — both Precambrian. The **Zawar Group** in Udaipur hosts lead-dominant Pb-Zn with continuous mining for ~2,000 years. **Rampura-Agucha** in Bhilwara is a stratiform zinc-lead deposit among the largest globally; Hindustan Zinc Limited operates both.
 
-#### Zinc and Lead
+The **Khetri Copper Belt** in Jhunjhunu feeds the smelter at Khetri run by Hindustan Copper Limited. The lesser-noted **Dariba-Salumber** belt (Udaipur-Pratapgarh) carries polymetallic Cu-Pb-Zn sulphides. Tungsten survives only at **Degana** (Nagaur). Iron ore shows at **Morija-Banol** (Jaipur) and **Dabla** (Sikar) but does not match the reserves of Jharkhand or Odisha.
 
-**Rajasthan is India's leading zinc producer** and a major lead producer:
+#### Non-metallic minerals
 
-**Major mining locations:**
-- **Zawar** (Udaipur) — old mines, operated by Hindustan Zinc Ltd (HZL)
-- **Kampam** (Udaipur) — major zinc mine
-- **Boreya** (Udaipur)
-- **Rajpura Dariba** (Udaipur) — lead-zinc ore
-- **Sardarpur** (Bhilwara) — emerging mining area
-
-**Ore:** Sphalerite (zinc sulphide) and Galena (lead sulphide)
-
-**Significance:** The **Rajpura Dariba** deposit is one of the richest polymetallic deposits in India — containing zinc, lead, copper, and silver.
-
-**Hindustan Zinc Limited (HZL):** A Vedanta Group company — the largest zinc producer in India, with major operations in Rajasthan. HZL has the world's largest zinc mine at **Kay ara** near Udaipur.
-
-#### Copper
-
-**Location:** The **Khetri Copper Belt** in Jhunjhunu district is one of India's oldest copper mining areas:
-- Khetri copper mines — operated by Hindustan Copper Limited (HCL)
-- **Khetri** is known as "the copper capital of India"
-- Also found in **Ajmer district** (Borana) and **Bhilwara** (Kolar)
-
-**Ore:** Chalcopyrite (copper iron sulphide — "fool's gold")
-
-**Significance:** India's copper production from Rajasthan's Khetri belt has declined due to exhausted ore bodies, but the area retains historical and economic significance.
-
-#### Iron Ore
-
-**Location:** 
-- **Alwar** district — iron ore deposits
-- **Jaisalmer** district — significant iron ore reserves
-- **Kota-Bundi** region — minor deposits
-- **Mount Abu region** — magnetite deposits
-
-**Ore:** Hematite and magnetite
-
-**Note:** Rajasthan's iron ore production is relatively modest compared to Odisha, Jharkhand, and Chhattisgarh. The state has steel plants (MBSCL in Jaipur area) but relies partially on iron ore imports from other states.
-
-#### Mica
-
-**Location:** The **Mica Belt of Rajasthan** extends through **Bhilwara, Ajmer, and Udaipur** — part of the larger Aravalli mica belt:
-- **Mandalgarh** (Bhilwara) — major mica mining
-- **Bhilwara** district — most important mica-producing area
-
-**Uses:** Electrical insulation, cosmetics, paint, rubber, plastics
-
-**Note:** India's mica production (Rajasthan + Andhra Pradesh + Odisha) is one of the largest globally. Rajasthan's mica is primarily exported for industrial use.
-
-#### Other Metallic Minerals
-
-- **Manganese:** Bhilwara, Jaipur, Sawai Madhopur
-- **Chromite:** Sirohi (Kumbhalgarh area) — used in stainless steel production
-- **Nickel:** Sirohi, Udaipur
-- **Cobalt:** Minor occurrences in Udaipur
-
-### 2. Non-Metallic Minerals
-
-#### Marble and Granite
-
-**Rajasthan is India's largest marble producer:**
-
-**Makrana Marble (Ajmer district):**
-- **Types:** White Makrana (with pink and grey variants)
-- **Famous for:** Taj Mahal, Victoria Memorial (Kolkata), Victoria Palace (Jaipur)
-- **Mine type:** Open-pit and underground
-- **Rajasthan's share:** ~90% of India's marble production
-
-**Other Important Marble Areas:**
-- **Rajnagar** (Udaipur) — green marble
-- **Kotputli** (Jaipur) — red/pink granite-like marble
-- **Banswara** — black limestone (Bhilwara marble alternative)
-- **Jaipur** region — Kota stone (limestone)
-
-**Granite:**
-- **Kotah** — Kotah stone (grey to brown granite, used in building)
-- **Jalore** — buff-coloured granite
-- **Sirohi** — granite with pink feldspar
-
-**Types of stone exported from Rajasthan:**
-- Marble (limestone metamorphic)
-- Granite (igneous)
-- Sandstone (Jaisalmer, Karauli — used in Red Fort)
-- Kota stone (metamorphic limestone)
-
-#### Phosphate and Potash
-
-**Rock Phosphate:**
-- **Jhamaracotta** (Udaipur) — one of the largest and richest phosphate rock deposits in the world
-- Used for phosphatic fertilisers (DAP, SSP)
-- Operated by Rajasthan State Mines and Minerals Ltd (RSMML)
-
-**Potash (in development):**
-- **Tluoride Feldspar deposits** in Bhilwara contain potash as a byproduct
-- Potash exploration in the **Jaisalmer and Bikaner** districts (from ancient ocean deposits)
-
-#### Other Non-Metallic Minerals
-
-| Mineral | Location | Use |
+| Mineral | District | Geological setting |
 |---|---|---|
-| **Feldspar** | Bhilwara, Ajmer, Tonk | Ceramics, glass |
-| **Silica Sand** | Jaisalmer, Bikaner, Churu | Glass-making, foundry |
-| **Limestone** | Kota, Bundi, Chittorgarh | Cement, steel |
-| **Clay (China clay)** | Bikaner, Nagaur | Ceramics, paper |
-| **Gypsum** | Jaisalmer, Bikaner | Plaster of Paris, fertiliser |
-| **Rock Salt** | Sambhar, Didwana, Kuchaman | Edible salt |
-| **Wollastonite** | Sirohi | Industrial applications |
-| **Garnet** | Udaipur, Bhilwara | Abrasives, jewellery |
+| Gypsum | Nagaur (Gothra, Birmania), Bikaner (Jamsar) | Thar evaporite / playa lakes |
+| Feldspar | Bhilwara, Udaipur | Aravalli pegmatites |
+| Limestone | Kota, Jodhpur, Nagaur | Vindhyan + Jodhpur Group |
+| Phosphorite | Jhamarkotra, Udaipur | Aravalli carbonate host rock |
+| Mica | Bhilwara (legacy belt) | Pegmatite; production now marginal |
+| Fluorspar | Mando-ki-Pal, Jalore | Vein deposits in granite |
+
+**Phosphorite at Jhamarkotra** ranks among India's largest, supplying fertilizer feedstock. **Mica output from Bhilwara has collapsed** — exam traps still use the old "largest mica producer" line for Rajasthan, which the syllabus treats as historical context only.
+
+#### Fuel and hydrocarbons
+
+**Lignite** at Palana and Gurha (Bikaner) is Tertiary, mined for local power. The **Barmer-Sanchor basin** in western Rajasthan holds crude oil — **Mangala, Bhagyam, Aishwariya, Saraswati, Raageshwari** fields operated by Cairn India (now Vedanta). Rajasthan contributes roughly one-fifth of India's domestic crude from this single basin.
+
+#### Dimensional stones and agencies
+
+- **Marble** — Rajsamand, Udaipur (Makrana used in Taj Mahal).
+- **Granite** — Jalore, Pali, Sirohi.
+- **Sandstone** — Jodhpur, Dholpur (Vindhyan).
+- **Slate** — Alwar.
+- **Bajri (aggregate)** — mined from dunes and riverbeds across the state.
+
+**RSMML (Rajasthan State Mines & Minerals Ltd)** handles gypsum, limestone, feldspar, silica sand. **Hindustan Copper Limited** runs Khetri. **IBM (Indian Bureau of Mines)** regulates nationally.
+
+#### Concept comparison matrix
+
+| Often confused | Correct distinction |
+|---|---|
+| Makrana "marble" vs true metamorphic marble | Makrana is recrystallized Tertiary limestone; metamorphic marble forms under heat-pressure from limestone |
+| Zawar vs Rampura-Agucha | Zawar — Pb-dominant, 2,000-year history; Rampura-Agucha — Zn-dominant, modern stratiform deposit |
+| Barmer lignite vs Barmer crude | Bikaner (Palana/Gurha) has lignite; Barmer-Sanchor has crude oil |
+| Khetri vs Dariba copper | Khetri — main belt (Jhunjhunu); Dariba-Salumber — polymetallic, southern Aravalli |
+| Gypsum districts vs Udaipur | Gypsum = Nagaur/Bikaner/Jaisalmer; Udaipur = Pb-Zn-phosphorite |
+
+> ⚠️ **Examiner Trap:** Questions present "Makrana marble" as a metamorphic rock. Geologically it is recrystallized limestone — write "Makrana marble (recrystallized limestone)" if the option allows nuance, or flag the trick if it does not.
+
+#### Worked map-matching question
+
+**Question:** Match the mineral with the correct district — (A) Phosphorite, (B) Gypsum, (C) Lignite, (D) Crude oil.
+Districts in options: 1. Jhamarkotra, 2. Nagaur, 3. Palana, 4. Barmer.
+
+#### Solution path:
+1. Phosphorite → Jhamarkotra (Udaipur) — Option 1 (A→1).
+2. Gypsum → Nagaur (Gothra, Birmania) — Option 2 (B→2).
+3. Lignite → Palana (Bikaner) — Option 3 (C→3).
+4. Crude oil → Barmer-Sanchor basin — Option 4 (D→4).
+
+The correct code reads **A-1, B-2, C-3, D-4**.
+
+> ⚠️ **Examiner Trap:** Students pair lignite with Barmer because both are fuel. Barmer holds crude oil, not lignite — lignite is Palana/Gurha (Bikaner).
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
+> Edge cases, cross-topic links, and exam strategy.
 
-## Mining Industry and Mineral Economics
+#### Geological framework and age control
 
-### The Aravalli Mineral Belt
+The Aravalli craton (Archaean-Proterozoic) hosts base-metal sulphides along shear zones — Zawar, Rajpura-Dariba, Rampura-Agucha. The Vindhyan Supergroup (Mesoproterozoic) supplies sandstone, limestone, and diamond-bearing kimberlite pipes in the southeast. The **Malani Igneous Suite** (Neoproterozoic, ~750 Ma) — one of the world's largest silicic volcanic provinces — underlies western Rajasthan and contributes felsic rocks, granite, and tin-tungsten traces.
 
-The **Aravalli Range** is geologically one of India's richest mineral provinces:
+The Deccan Trap (Cretaceous-Paleocene) caps districts around Chittorgarh, Banswara, and Pratapgarh. Indo-Gangetic alluvium in the northeast conceals nothing of mineral value, but the **Barmer-Sanchor basin** (Tertiary clastics) is hydrocarbon-rich — a facies-controlled reservoir, not a structural trap.
 
-| Mineral | Aravalli Belt Location | Significance |
-|---|---|---|
-| Lead-Zinc | Udaipur, Rajsamand | India's largest |
-| Copper | Jhunjhunu, Ajmer | Historical (Khetri) |
-| Silver | Zawar (as byproduct of lead) | Significant |
-| Mica | Bhilwara, Ajmer | National importance |
-| Marble | Udaipur, Ajmer (Makrana) | World-class |
-| Phosphates | Udaipur | Global significance |
-| Feldspar | Bhilwara, Ajmer | Industrial |
-| Garnet | Udaipur, Bhilwara | Abrasive |
+#### Reserves and ranking — volatile figures
 
-### Major Mining Corporations in Rajasthan
+Reserve figures and rank-orderings are revised periodically by the Indian Bureau of Mines. The current figures must be verified from the latest IBM bulletin or the Rajasthan Mines Department portal — older study material frequently cites 2010s-era reserve numbers. The category to confirm is: share of Rajasthan in national reserves for lead, zinc, copper, marble, gypsum, and feldspar, expressed in percent or million tonnes.
 
-**Hindustan Zinc Limited (HZL):**
-- Vedanta Group subsidiary
-- Operates zinc-lead mines in Udaipur, Bhilwara
-- Largest zinc producer in India — accounts for ~95% of India's primary zinc production
-- Major smelter at **Dariba** (Udaipur)
-- **Zinc City Project:** A Rs. 10,000 crore integrated zinc-smelter complex at Dariba, making Rajasthan one of the world's largest zinc-producing regions
+#### Common advanced traps
 
-**Rajasthan State Mines and Minerals Ltd (RSMML):**
-- State government enterprise
-- Key products: Rock phosphate (Jhamaracotta), limestone, gypsum, silica sand, marble
-- Operates the **Jhamaracotta phosphate mines** — one of the largest in the world
+1. Attributing iron-ore leadership to Rajasthan. The state has **Morija-Banol and Dabla** workings but ranks well below Jharkhand and Odisha in reserves.
+2. Stating Khetri as India's only copper belt. The **Dariba-Salumber** belt in Udaipur-Pratapgarh is equally geologically significant, though smaller in output.
+3. Treating Zawar as primarily a zinc mine. Zawar output is lead-dominant.
+4. Reading "Rajasthan oil" as meaning lignite. The 2009 Barmer production start was crude oil under Cairn India (now Vedanta), not a lignite milestone.
+5. Calling Makrana marble metamorphic. It is recrystallized limestone — geologists debate the boundary, but exam answers should mark it as limestone-grade.
+6. Confusing **RSMML** with **RSMDC**. RSMML handles gypsum, limestone, feldspar; RSMDC is the development corporation with a different mandate.
 
-**Hindustan Copper Limited (HCL):**
-- Central government enterprise
-- Operates the **Khetri Copper Mines** (Jhunjhunu) — currently producing at reduced capacity
+#### Connections to adjacent topics
 
-**Other private operators:** Various marble, granite, and industrial mineral operators across the state.
+- **Industries of Rajasthan** — Marble, granite, and cement industries directly depend on these mineral sources (Kota cement cluster, Rajsamand marble cluster).
+- **Agriculture** — Gypsum is applied to reclaim sodic soils in the Indira Gandhi Canal command; phosphorite feeds the fertilizer chain.
+- **Power and energy** — Lignite from Bikaner feeds small thermal stations; Barmer crude feeds the Mangala processing terminal at Barmer.
+- **Environment** — Sandstone and bajri mining trigger desertification concerns in the Thar; the Sustainable Sand Mining Guidelines (MoEFCC) apply here.
 
-### Environmental Impact of Mining
+#### Advanced practice prompts
 
-Mining in Rajasthan, particularly in the Aravalli region, has caused significant **environmental degradation:**
+1. **Map-trace:** Draw a sketch map of Rajasthan and mark the Aravalli base-metal belt from Khetri (north) through Zawar-Rampura-Agucha to Dariba-Salumber (south). Explain why base-metal sulphides cluster along this line.
+2. **Essay prompt:** "Discuss the geological, economic, and policy factors that make Rajasthan India's leading producer of non-metallic minerals." Cover Aravalli-Vindhyan-Thar settings, RSMML, and the cement-marble industrial clusters.
 
-**Issues:**
-1. **Open-pit mining destruction** — leaves deep scars on the landscape (e.g., marble mines near Makrana)
-2. **Water contamination** — acid mine drainage from metallic mineral areas
-3. **Air pollution** — dust from marble cutting and polishing
-4. **Loss of biodiversity** — mining in forest areas displaces wildlife
-5. **Aravalli denudation** — the Aravalli hills are being actively mined despite environmental concerns
-
-**Legal framework:**
-- The **Mines and Minerals (Regulation and Development) Act, 1957** governs mining
-- The **Forest Conservation Act, 1980** restricts mining in forest areas
-- The **Environment Protection Act, 1986** requires environmental clearances
-- The **Aravalli Eco-sensitive Zone** designation restricts mining in the Aravalli hills
-
-**The Makrana Impact:**
-Makrana marble mining has consumed large areas of the Aravalli foothills. The marble slurry (sludge from cutting) has accumulated in vast white hills near Makrana, and has contaminated agricultural land and water bodies.
-
-### The Rock Phosphate Deposits of Jhamaracotta
-
-The **Jhamaracotta deposit** in southern Udaipur is one of the most important phosphate deposits globally:
-
-- **Type:** Igneous carbonatite-associated phosphate
-- **Grade:** 20-30% P₂O₅ — among the highest grades globally
-- **Reserves:** Estimated at hundreds of millions of tonnes
-- **Importance:** Critical for India's fertiliser industry — India imports most of its rock phosphate
-- **Environmental concern:** Mining in the **Bassi wildlife sanctuary** area threatens the habitat of leopards and other wildlife
-
-### Salt Production in Rajasthan
-
-Rajasthan is one of India's major salt-producing states:
-
-**Sambhar Salt Lake (Nagaur/Jaipur):**
-- India's largest inland salt lake
-- Area: ~230 sq km (when full)
-- Production: ~2.5 lakh tonnes per year
-- Ancient significance: Salt has been produced here for over a thousand years — mentioned in ancient texts
-
-**Other salt production areas:**
-- **Didwana** (Nagaur)
-- **Kuchaman** (Nagaur)
-- **Nawa** (Nagaur)
-- **Sujangarh** (Bikaner)
-
-**Process:** Solar evaporation of salt brine — one of the most energy-efficient salt production methods.
-
-### Statistics for RAS
-
-| Mineral | Rajasthan Share of India's Production | Major District |
-|---|---|---|
-| Zinc | ~95% | Udaipur |
-| Marble | ~90% | Ajmer, Udaipur |
-| Lead | ~85% | Udaipur |
-| Feldspar | ~60% | Bhilwara, Ajmer |
-| Garnet | ~50% | Udaipur |
-| Rock Phosphate | ~15% | Udaipur |
-| Copper | ~5% | Jhunjhunu |
-| Iron Ore | <2% | Jaisalmer, Alwar |
-
-### Practice Questions for RPSC RAS
-
-1. Name the major metallic and non-metallic minerals found in Rajasthan and their principal mining locations.
-2. Why is Rajasthan called the "Mineral Capital of India"? Give specific examples of minerals where Rajasthan has near-monopoly production.
-3. Discuss the environmental concerns associated with marble mining in the Makrana area.
-4. What is the significance of the Jhamaracotta rock phosphate deposit? Why is it important for India's economy?
-5. Explain the role of Hindustan Zinc Limited (HZL) in Rajasthan's mineral sector.
-
-### Common Mistakes to Avoid
-
-- **Thinking Rajasthan's iron ore is as significant as its other minerals** — iron ore production is actually quite modest compared to eastern Indian states.
-- **Confusing marble with granite** — marble is metamorphic limestone; granite is igneous. Both are mined in Rajasthan but in different locations.
-- **Forgetting the salt production** — the Sambhar Lake is a major salt source that is often overlooked.
+> 📌 **Exam Strategy note:** RAS Prelims typically tests 1–2 questions from this sub-topic, usually as district-matching or "which state leads in X." Map-work carries weight in Mains. Reserve this topic for a focused 20-minute revision rather than scattered reading — the patterns repeat.
 
 ---
+
+## Continue your study
+
+- **[View this topic in your RPSC RAS roadmap](/roadmap/?exam=ras&duration=1mo)** — see where "Mineral Resources of Rajasthan" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ras&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[RPSC RAS exam overview](/exams/ras/)** — pattern, eligibility, and syllabus
+- **[All Geography notes](/notes/ras/geography/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

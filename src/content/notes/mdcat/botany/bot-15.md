@@ -8,7 +8,7 @@ topicName: "Photosynthesis: The Light and Dark Reactions"
 weight: 3
 country: pakistan
 generated: "2026-03-24T08:32:08.107631"
-lastUpdated: 2026-03-24
+lastUpdated: "2026-09-21"
 diagramPrompt: "Educational diagram illustrating Photosynthesis with light reactions and dark reactions (Calvin cycle), showing chloroplast structure, photosystem II and I, electron transport chain, ATP synthase, and the Calvin cycle in a stroma, white background, exam-style illustration"
 
 ---
@@ -16,296 +16,109 @@ diagramPrompt: "Educational diagram illustrating Photosynthesis with light react
 # Photosynthesis: The Light and Dark Reactions
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your MDCAT exam.
+> One-line recall: light reactions trap photons on thylakoids; dark reactions fix CO₂ in the stroma using the ATP and NADPH produced.
 
-**Photosynthesis** — Quick Facts for MDCAT
+Chlorophyll in the **grana** absorbs sunlight and drives the **light reactions** on the thylakoid membrane, where water is split and ATP plus NADPH are generated. The **dark reactions** (Calvin–Benson cycle) then run in the fluid **stroma**, using that ATP and NADPH to convert CO₂ into triose phosphate (G3P), which feeds glucose synthesis.
 
-**Overall Equation:**
-6CO₂ + 12H₂O + Light Energy → C₆H₁₂O₆ + 6O₂ + 6H₂O
+> 💡 **High-Yield Memory Hook:** "**PSII before PSI**" — water splits at PSII (P680) first, electrons reach PSI (P700), then NADPH forms. Mnemonic: "**P680 = Photosystem II = Photolysis of water**" because the numbers match (680 ≈ 6+8+0).
 
-**Two Main Stages:**
-
-| Stage | Location | Products | Requires Light? |
+| Stage | Location | Key inputs | Key outputs |
 |---|---|---|---|
-| **Light Reactions** | Thylakoid membrane | ATP + NADPH + O₂ | Yes (mandatory) |
-| **Dark Reactions** | Stroma (Calvin Cycle) | Glucose (G3P) | No (indirectly depends) |
+| Light reactions | Thylakoid membrane | H₂O, light, ADP, NADP⁺ | O₂, ATP, NADPH |
+| Dark reactions | Stroma | CO₂, ATP, NADPH | G3P → glucose |
 
-**Key Sites:**
-- **Photosystem II (PSII):** Splits water (photolysis), releases O₂, produces ATP
-- **Photosystem I (PSI):** Produces NADPH
-- **ATP Synthase:** Uses H⁺ gradient to make ATP (chemiosmosis)
-- **Calvin Cycle:** Fixes CO₂ in the stroma (3-carbon C3 pathway)
-
-**Chlorophyll:** Located in thylakoid membranes within chloroplasts. It absorbs red (660-680nm) and blue (430-450nm) light — reflects green (500-580nm), giving plants their green color.
-
-⚡ **Exam tip:** MDCAT questions from photosynthesis focus heavily on the Calvin cycle intermediates (3-phosphoglycerate → 1,3-bisphosphoglycerate → glyceraldehyde-3phosphate), ATP/NADPH usage, and C3 vs C4 differences. Know the exact number of ATP and NADPH molecules used: Calvin cycle uses 3 ATP + 2 NADPH per CO₂ fixed.
+Overall: **6 CO₂ + 12 H₂O + light → C₆H₁₂O₆ + 6 O₂ + 6 H₂O**.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for MDCAT students with a few days to months.
+> Build the mechanism in your head: electron flow from water to NADPH, proton gradient to ATP, then carbon reduction in the stroma.
 
-## Photosynthesis — MDCAT Study Guide
+#### The Two Stages at a Glance
 
-### 1. Overview and Significance
+The light-dependent stage traps photon energy in chemical form. The light-independent stage (Calvin–Benson) spends that currency to reduce CO₂. They are separated by compartment, not by clock — both run in daylight, but only the first strictly needs photons.
 
-Photosynthesis is the process by which green plants, algae, and some bacteria convert light energy into chemical energy stored in glucose. It is the primary source of energy for almost all life on Earth.
+- Light reactions: thylakoid membrane; PSII, cytochrome b₆f, PSI, ATP synthase.
+- Dark reactions: stroma; RuBisCO catalyses the actual CO₂ fixation step.
+- Coupling product: ATP (energy carrier) and NADPH (reducing power).
 
-**Why It Matters for MDCAT:**
-- 1-2 questions guaranteed in every MDCAT paper
-- Topics connect to respiration (interrelationship MCQ)
-- Diagrams are frequently asked (chloroplast structure, Calvin cycle)
-- Calculation questions: ATP/NADPH yield per glucose molecule
+#### Z-Scheme and Electron Carriers
 
-### 2. Chloroplast Structure and Chlorophyll
+In **non-cyclic photophosphorylation**, an excited electron leaves PSII (P680), travels via plastoquinone → cytochrome b₆f → plastocyanin to PSI (P700), then via ferredoxin and FNR reduces **NADP⁺ to NADPH**. The electron vacancy at PSII is filled by splitting water: **2 H₂O → 4 H⁺ + 4 e⁻ + O₂**.
 
-**Chloroplast Anatomy:**
+The protons pumped by the b₆f complex create a gradient across the thylakoid. Protons flow back through the **CF₀–CF₁ ATP synthase**, phosphorylating ADP: **ADP + Pi + energy → ATP** (ΔG ≈ +30.5 kJ·mol⁻¹).
 
-| Part | Function |
-|---|---|
-| **Outer membrane** | Permeable to small ions |
-| **Inner membrane** | Selectively permeable |
-| **Intermembrane space** | Between outer and inner membrane |
-| **Stroma** | Fluid matrix; site of Calvin cycle (dark reactions) |
-| **Thylakoid membrane** | Contains chlorophyll and photosynthetic pigments; site of light reactions |
-| **Grana** | Stacks of thylakoids (singular: granum) |
-| **Lumen (Thylakoid space)** | H⁺ reservoir for ATP synthesis |
-| **Stroma lamellae** | Connect grana, provide structural support |
+> 📌 **Formula Check:** Light-stage inputs are H₂O (mol), ADP (mol), NADP⁺ (mol); outputs are O₂ (mol), ATP (mol), NADPH (mol). No CO₂ is fixed here.
 
-**Chlorophyll Types:**
-- **Chlorophyll a:** Primary pigment; absorbs red (662nm) and blue (430nm); found in all photosynthetic organisms
-- **Chlorophyll b:** Accessory pigment; absorbs orange-red (643nm) and blue (453nm); found in plants and green algae
-- **Carotenoids:** Accessory pigments (orange/red); protect chlorophyll from photo-oxidation; also absorb blue-green light
+#### Calvin–Benson Cycle in the Stroma
 
-### 3. Light Reactions (Photochemical Phase)
+CO₂ enters by binding to **RuBP** through **RuBisCO**, producing two molecules of **3-PGA**. ATP and NADPH then reduce 3-PGA to **G3P**. Most G3P regenerates RuBP (costing more ATP); the surplus leaves as net carbohydrate.
 
-**Location:** Thylakoid membrane (specifically PSII and PSI reaction centers)
+Net stoichiometry per one G3P exported:
+**3 CO₂ + 9 ATP + 6 NADPH + 5 H₂O → G3P + 9 ADP + 8 Pi + 6 NADP⁺**.
 
-**What Happens:**
+#### Comparing the Two Reactions
 
-**Step 1 — Photolysis of Water (at PSII):**
-2H₂O → 4H⁺ + 4e⁻ + O₂
-- Water is split by light energy captured at PSII
-- Electrons (e⁻) replace those lost from chlorophyll P680
-- O₂ is released as a by-product (the source of Earth's atmospheric O₂)
-- H⁺ ions accumulate in the thylakoid lumen
-
-**Step 2 — Electron Transport Chain (ETC):**
-- Electrons from PSII pass through: **Plastoquinone (PQ) → Cytochrome b₆f complex → Plastocyanin (PC)**
-- Each step releases energy used to pump H⁺ into the thylakoid lumen
-- Creates an **electrochemical gradient** across the thylakoid membrane
-
-**Step 3 — ATP Synthesis (Photophosphorylation):**
-- H⁺ ions flow back through **ATP Synthase** (coupling factor)
-- Energy released drives the synthesis of **ATP from ADP + Pi**
-- This is called **Non-cyclic Photophosphorylation** (electrons go one way: H₂O → NADPH)
-
-**Step 4 — NADPH Production (at PSI):**
-- Light also excites electrons at **PSI (P700 reaction center)**
-- Electrons pass through: **Ferredoxin (Fd) → NADP⁺ reductase**
-- NADP⁺ + H⁺ + 2e⁻ → **NADPH**
-- If electrons cycle back through PSI, it's called **Cyclic Photophosphorylation** (produces only ATP, no NADPH)
-
-**Non-cyclic vs Cyclic Photophosphorylation:**
-
-| Feature | Non-cyclic | Cyclic |
+| Feature | Light reactions | Dark reactions (Calvin) |
 |---|---|---|
-| Pathway | H₂O → PSII → ETC → PSI → NADPH | PSI → Fd → ETC → PSI (circular) |
-| Products | ATP + NADPH + O₂ | ATP only |
-| NADPH produced? | Yes | No |
-| O₂ released? | Yes | No |
-| Trigger | Light intensity high | Light intensity low (needs ATP only) |
+| Location | Thylakoid membrane | Stroma |
+| Direct light needed | Yes | No (uses ATP/NADPH) |
+| Main enzyme / machinery | PSII, PSI, ATP synthase | RuBisCO |
+| Inputs | H₂O, ADP, NADP⁺, light | CO₂, ATP, NADPH |
+| Outputs | O₂, ATP, NADPH | G3P, ADP, NADP⁺ |
+| Gas exchanged | Releases O₂ | Fixes CO₂ |
 
-**Overall Yield of Light Reactions (per O₂ molecule evolved):**
-- 2 H₂O → O₂ + 4H⁺ + 4e⁻
-- Produces ~3 ATP + 2 NADPH (per cycle)
+#### Cyclic vs Non-Cyclic Flow
 
-⚡ **Exam tip:** MDCAT frequently asks: "What is the source of oxygen released during photosynthesis?" Answer: Photolysis of water at PSII. NOT from CO₂ — this is a common misconception.
+**Cyclic electron flow** uses only PSI: electrons cycle from ferredoxin back to the b₆f complex and plastocyanin, pumping extra protons and making **extra ATP without forming NADPH or O₂**. The plant uses this when the Calvin cycle's ATP demand (9 ATP per G3P) exceeds the 1:1 NADPH:ATP output of linear flow.
 
-### 4. Dark Reactions (Calvin Cycle / C3 Pathway)
+#### 🎯 Exam-Level Worked Problem
 
-**Location:** Stroma of chloroplast
+A thylakoid preparation is supplied with H₂¹⁸O and ¹⁴CO₂ under continuous light. After several minutes, which molecule carries the ¹⁸O label, and which molecule carries the ¹⁴C label?
 
-**Nature:** Does NOT require light directly — but requires the ATP and NADPH produced by light reactions. Also called the **C3 pathway** because the first stable product is a 3-carbon compound (3-phosphoglycerate/3-PG).
+Working: Photolysis at PSII uses water as the electron donor — the **O₂ released is derived entirely from H₂O**, not from CO₂. So ¹⁸O appears in the **evolved O₂**. Carbon fixation happens in the stroma via RuBisCO, so ¹⁴C enters the cycle and is first detected in the **3-PGA** pool (and shortly after in G3P and downstream sugars).
 
-**Key Enzyme:** **RuBisCO** (Ribulose-1,5-bisphosphate carboxylase/oxygenase) — the most abundant enzyme on Earth
-
-**The Calvin Cycle — 3 Phases:**
-
-**Phase 1: Carbon Fixation**
-CO₂ + RuBP (5C) → 2 × 3-PG (3C)
-- Catalyzed by RuBisCO
-- CO₂ is "fixed" — attached to an organic molecule
-
-**Phase 2: Reduction**
-2 × 3-PG → 2 × 1,3-BPG → 2 × G3P (glyceraldehyde-3-phosphate)
-- Uses ATP (from light reactions) to add phosphate
-- Uses NADPH (from light reactions) to reduce
-- Net: 3 ATP + 2 NADPH consumed per CO₂ fixed
-
-**Phase 3: Regeneration**
-5 × G3P → 3 × RuBP (5C)
-- Uses ATP
-- One G3P exits to make glucose: G3P + G3P → Glucose
-
-**Per Glucose (6 CO₂ fixed):**
-- 6 CO₂ + 18 ATP + 12 NADPH → C₆H₁₂O₆
-- 12 H₂O also produced in the process
-
-⚡ **Exam tip:** Students often confuse RuBP with G3P. RuBP (ribulose-1,5-bisphosphate) is the 5-carbon CO₂ acceptor. G3P (glyceraldehyde-3-phosphate) is the 3-carbon sugar that exits the cycle to form glucose.
-
-### 5. C4 Pathway and CAM Plants
-
-**Why C4 Plants Exist:**
-In hot, dry climates, RuBisCO (the enzyme in C3 plants) binds with O₂ instead of CO₂ — a process called **photorespiration** that wastes energy and reduces photosynthetic efficiency.
-
-**C4 Plants (e.g., Maize, Sugarcane, Sorghum, Millets):**
-- Have a special **Kranz anatomy** — spatially separates C3 and C4 cycles
-- Mesophyll cells: CO₂ is fixed into a 4-carbon compound (oxaloacetate/OAA → malate) via enzyme **PEP carboxylase**
-- Bundle sheath cells: Malate releases CO₂, which is then fixed by RuBisCO via the Calvin cycle
-- PEP carboxylase has a higher affinity for CO₂ and doesn't bind O₂ — eliminates photorespiration
-- More efficient in high light, high temperature environments
-
-**C4 vs C3 — Key Differences:**
-
-| Feature | C3 Plants | C4 Plants |
-|---|---|---|
-| First CO₂ product | 3-phosphoglycerate (3C) | Oxaloacetate (4C) |
-| Photorespiration | High | Negligible |
-| Best climate | Cool, moderate | Hot, intense sunlight |
-| Examples | Wheat, rice, potato | Maize, sugarcane, sorghum |
-| Water use efficiency | Lower | Higher |
-| CO₂ compensation point | Higher | Lower |
-| Yield per unit water | Lower | Higher |
-
-**CAM Plants (e.g., Cactus, Pineapple, Aloe Vera):**
-- Adaptations for extremely arid (desert) conditions
-- **Crassulacean Acid Metabolism**
-- Stomata open at **night** (reverse timing) — take in CO₂ and fix as malic acid (stored)
-- Stomata close during **day** — malic acid releases CO₂ for Calvin cycle
-- Very high water use efficiency (water loss minimized)
-
-⚡ **Exam tip:** MDCAT often asks: "What is photorespiration and why is it disadvantageous?" Answer: RuBisCO binds O₂ instead of CO₂ in hot/dry conditions, producing a 2-carbon compound that cannot enter the Calvin cycle, wasting energy (ATP and NADPH) without producing glucose. C4 and CAM plants minimize this.
-
-### 6. Factors Affecting Photosynthesis
-
-**Limiting Factors (Law of Minimum — Liebig):**
-Photosynthesis is limited by whichever factor is in shortest supply:
-
-| Factor | Effect |
-|---|---|
-| **Light intensity** | Increases rate up to saturation point; beyond that, other factors become limiting |
-| **CO₂ concentration** | Increases rate up to ~0.04% (ambient); beyond that photorespiration increases |
-| **Temperature** | Optimal ~25-35°C for C3 plants; enzymes denature at high temps |
-| **Water** | Water stress causes stomata to close → less CO₂ intake |
-| **Chlorophyll** | Deficiency reduces light absorption |
-
-**Light Saturation Curve:**
-At low light → light is the limiting factor
-At optimum light → plateau reached → CO₂ or temperature becomes limiting
-
-### 7. MDCAT Previous Year Questions (Common Patterns)
-
-- "Which product of light reactions is used in the Calvin cycle?" → ATP and NADPH
-- "In which part of chloroplast does the Calvin cycle occur?" → Stroma
-- "What is the primary function of PSII?" → Photolysis of water and ATP synthesis
-- "C4 plants are more efficient than C3 plants in:" → Hot and dry conditions
-- "The most abundant protein on Earth is:" → RuBisCO
-- "Oxygen released during photosynthesis comes from:" → Water (photolysis)
-- "Cyclic photophosphorylation produces:" → ATP only (no NADPH, no O₂)
+> ⚠️ **Examiner Trap:** students often pick "glucose" for the ¹⁴C label. G3P is the first *stable* reduced-carbon product carrying the new carbon; 3-PGA is the immediate labelled intermediate after RuBisCO's carboxylation.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for MDCAT students on a longer study timeline.
+> Edge cases examiners exploit: photorespiration, the quantum-yield mismatch, and what happens when one stage is selectively blocked.
 
-## Advanced Photosynthesis for MDCAT Excellence
+#### Photorespiration and Why C₃ Plants Lose Fixed Carbon
 
-### The Z-Scheme of Electron Transport
+RuBisCO is a **carboxylase–oxygenase**. When O₂ outcompetes CO₂ at the active site, the enzyme oxygenates RuBP, producing 2-phosphoglycolate instead of two 3-PGA. Salvage via peroxisomes and mitochondria costs ATP and releases previously fixed CO₂ — a net loss. This is the structural reason C₄ and CAM anatomies exist; in MDCAT Botany, the contrast point is *where* CO₂ is concentrated (bundle-sheath cells vs night-time vacuoles), not photorespiration itself.
 
-The Z-scheme diagrams the path of electrons from water (H₂O) to NADPH, drawn in the shape of a Z:
+#### Why Plants Also Need Cyclic Flow
 
-- **Left arm:** PSII — P680 gets excited by light → splits water → releases electrons
-- **Vertical bar:** ETC components (Plastoquinone → Cytochrome b₆f → Plastocyanin)
-- **Right arm:** PSI — P700 gets excited again → electrons go to Ferredoxin → reduce NADP⁺ to NADPH
+Linear electron transport produces ATP and NADPH in roughly equal amounts (per pair of electrons). The Calvin cycle consumes **3 ATP per 2 NADPH**. The deficit is closed by **cyclic photophosphorylation**, which adds ATP without extra NADPH. Without it, NADPH accumulates, the chain backs up, and CO₂ fixation stalls.
 
-The Z-scheme visually represents that electrons need TWO separate light energy inputs (PSII and PSI) to go from water to NADPH.
+> ⚠️ **Examiner Trap:** students equate "more light = more photosynthesis" linearly. Above the saturation irradiance, the Calvin enzymes (especially RuBisCO) become rate-limiting, not the photochemistry.
 
-**Key pigments and their roles:**
-- **P680** (PSII reaction center): Absorbs light at 680nm — most oxidizing chlorophyll; can split water
-- **P700** (PSI reaction center): Absorbs light at 700nm — less oxidizing but produces high-energy electrons
+#### Conceptual Map Across the Syllabus
 
-### Photophosphorylation — Detailed Mechanism
+- **Cell biology link:** chloroplast structure (double envelope, grana, stroma lamellae).
+- **Biochemistry link:** redox carriers — NADP⁺/NADPH, plastoquinone, plastocyanin, ferredoxin.
+- **Ecology link:** action spectrum vs absorption spectrum — peaks differ because chlorophyll *b* and accessory carotenoids broaden useful wavelengths.
 
-**Chemiosmotic Theory (Mitchell's Hypothesis):**
-- Light energy pumps H⁺ from stroma into the thylakoid lumen (via PQ and Cytochrome b₆f)
-- This creates: (1) a pH gradient (lumen acidic, stroma alkaline) and (2) an electrochemical potential
-- H⁺ flows back through ATP synthase — the rotational enzyme synthesizes ATP (like a molecular turbine)
+#### Advanced Traps and Edge Cases
 
-**ATP Yield per Glucose (Theoretical):**
-- Light reactions: ~12 ATP + 12 NADPH produced per 6 CO₂
-- Calvin cycle uses: 18 ATP + 12 NADPH
-- **Net ATP from light reactions: 18 ATP needed, but only ~12 produced = deficit of 6**
-- In reality, cyclic photophosphorylation fills this ATP gap
-- Actual net yield: ~30-38 ATP per glucose (old figure: 38; corrected: ~30-32 due to losses)
+1. **Dark reactions do not require darkness** — they only require the *products* of the light stage. Calling them "dark" is a misnomer, not a rule.
+2. **ATP made by photophosphorylation vs substrate-level** — the thylakoid ATP is made by **chemiosmosis**, not by a kinase in solution. Glycolysis-style substrate-level phosphorylation belongs to the cytoplasm, not the stroma.
+3. **O₂ source confusion** — *all* the O₂ released comes from H₂O, not from CO₂. The CO₂ is reduced, not oxidised.
+4. **Cyclic flow produces no NADPH** — so any question implying NADPH comes from cyclic flow is wrong by definition.
+5. **G3P bookkeeping** — six G3P are made per six CO₂; one exits as net product, five regenerate RuBP. Forgetting this 5:1 ratio is the standard MDCAT trap.
 
-⚡ **Exam tip:** MDCAT numbers to memorize:
-- Per CO₂ fixed in Calvin cycle: 3 ATP + 2 NADPH
-- Per glucose (6 CO₂): 18 ATP + 12 NADPH
-- C3 cycle: 3 rounds needed to make 1 G3P (net 1 glucose requires 6 turns)
+#### Two Advanced Practice Prompts
 
-### Photorespiration — The C2 Cycle
+- **Prompt A.** If a plant cell is given a chemical that dissipates the thylakoid proton gradient, predict which of the following falls first and justify: O₂ evolution, ATP synthesis, NADPH formation, CO₂ fixation.
+- **Prompt B.** A mutant lacks functional ferredoxin-NADP⁺ reductase (FNR). Compare its PSII activity, PSI activity, O₂ release, NADPH pool, and ability to perform cyclic electron flow.
 
-When O₂ concentration is high relative to CO₂ (e.g., hot, dry conditions with closed stomata):
-- RuBisCO acts as an oxygenase: RuBP + O₂ → 1 × 3-PG + 1 × 2-phosphoglycolate
-- 2-phosphoglycolate is toxic → must be converted via the **photorespiratory cycle (C2 cycle)**
-- This releases previously fixed CO₂, wasting energy
-- Net loss: 3/4 of carbon from 2-phosphoglycolate lost as CO₂
+## Continue your study
 
-**Why C4 and CAM plants avoid this:**
-- PEP carboxylase (C4 pathway) has almost no affinity for O₂
-- CAM plants close stomata during day — CO₂ concentration inside leaf stays high
-- Result: RuBisCO always gets more CO₂ than O₂ — photorespiration suppressed
+- **[View this topic in your MDCAT roadmap](/roadmap/?exam=mdcat&duration=1mo)** — see where "Photosynthesis: The Light and Dark Reactions" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=mdcat&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[MDCAT exam overview](/exams/mdcat/)** — pattern, eligibility, and syllabus
+- **[All Botany notes](/notes/mdcat/botany/)** — browse sibling topics in this subject
 
-### The Calvin Cycle — Step-by-Step with Carbon Atoms
-
-Understanding carbon atom counting is crucial for MDCAT:
-
-```
-Step 1: RuBP (5C) + CO₂ (1C) → 2 × 3-PG (3C each)
-        Total carbon: 6C ✓
-
-Step 2: 2 × 3-PG → 2 × 1,3-BPG → 2 × G3P
-        (uses ATP + NADPH)
-
-Step 3: 5 × G3P (15C) → 3 × RuBP (15C)
-        (uses ATP)
-
-Net per turn: 1 CO₂ fixed, 1 G3P produced
-6 turns = 1 glucose (C₆H₁₂O₆)
-```
-
-### Comparative Summary for MDCAT
-
-| Feature | C3 Plants | C4 Plants | CAM Plants |
-|---|---|---|---|
-| CO₂ acceptor | RuBP | PEP (in mesophyll) | PEP (at night) |
-| First stable product | 3-PG (3C) | OAA/Malate (4C) | OAA/Malate (4C) |
-| Anatomy | Normal mesophyll | Kranz (2 cell types) | Normal |
-| Photorespiration | High | Very low | Low |
-| Water use | Moderate | Efficient | Most efficient |
-| Examples | Wheat, rice | Maize, sugarcane | Cactus, pineapple |
-| Optimal temperature | 15-25°C | 30-45°C | 30-40°C |
-| Net photosynthetic rate | Lower | Higher | Lower |
-
-### Common Mistakes in MDCAT Photosynthesis
-
-1. **Oxygen source:** Many students incorrectly say "CO₂ produces O₂" — it doesn't. O₂ comes from photolysis of water at PSII.
-2. **Dark reactions don't need light:** True — but they DEPEND on ATP and NADPH from light reactions. They run during the day in intact plants.
-3. **Cyclic photophosphorylation produces NADPH:** Wrong. It only produces ATP. NADPH comes from non-cyclic.
-4. **RuBisCO is specific:** RuBisCO can bind both CO₂ and O₂. In C3 plants in hot weather, O₂ wins → photorespiration. C4 plants prevent this spatially.
-5. **All plants are C3:** Pakistan's major crops (wheat, rice) are C3. Maize and sugarcane (also grown) are C4. Don't assume.
-
----
-
-*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

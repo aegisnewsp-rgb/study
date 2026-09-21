@@ -11,7 +11,7 @@ topicName: Probability
 weight: 5
 country: india
 generated: "2026-04-17T22:38:00.000000"
-lastUpdated: 2026-04-17
+lastUpdated: "2026-09-21"
 diagramPrompt: "Clean educational diagram showing Probability tree diagram and Venn diagram with clear labels, white background, color-coded events, exam-style illustration"
 
 
@@ -19,164 +19,136 @@ diagramPrompt: "Clean educational diagram showing Probability tree diagram and V
 
 
 ---
+
 # Probability
 
-### 🟢 Lite — Quick Review
-> Rapid summary for last-minute revision before your exam.
+### 🟢 Lite — Quick Review (1h–1d)
+> The single hardest fact to keep straight: mutually exclusive events are NOT the same as independent events. Two events are mutually exclusive when they cannot occur together (P(A∩B)=0); they are independent when the occurrence of one does not change the probability of the other (P(A∩B)=P(A)P(B)). Mixing these up is the most common reason a JEE Main MCQ on Probability is marked wrong.
 
-**Probability** — Key Facts for JEE Main
-Sample space (S): set of all possible outcomes
-Event: subset of sample space
-P(E) = n(E)/n(S) for equally likely outcomes; always 0 ≤ P(E) ≤ 1
-Conditional probability: P(A|B) = P(A ∩ B)/P(B) (probability of A given B has occurred)
-Independent events: P(A ∩ B) = P(A)·P(B); if P(A|B) = P(A)
-Mutually exclusive: P(A ∪ B) = P(A) + P(B); P(A ∩ B) = 0
-⚡ Exam tip: Bayes' theorem is frequently tested in JEE Main — P(A|B) = P(B|A)·P(A) / P(B)!
+Probability measures how likely an outcome of a random experiment is, lying strictly between 0 (impossible) and 1 (certain).
 
----
+- Classical definition (equally likely outcomes only): P(E) = n(E)/n(S), where n(E) is the count of favourable outcomes and n(S) is the total count. Both counts are dimensionless; the ratio itself is dimensionless and bounded in [0, 1].
+- Addition rule: P(A∪B) = P(A) + P(B) − P(A∩B). When A and B are mutually exclusive, the intersection term is zero and the rule collapses to P(A) + P(B).
+- Conditional probability: P(A|B) = P(A∩B)/P(B), valid only when P(B) > 0. Bayes' theorem reverses the conditioning direction: P(A|B) = P(B|A)·P(A)/P(B).
 
-### 🟡 Standard — Core Study
-> Standard content for students with a few days to months.
+> 💡 **High-Yield Memory Hook — "MEx vs INDEP":** **M**utually **Ex**clusive = disjoint (∩ = 0); **INDEP**endent = cross-multiplied (P(A∩B) = P(A)P(B)). A disjoint pair of events with both probabilities positive can never be independent.
 
-**Probability** — JEE Main Study Guide
+#### Core formulas to memorise
 
-**Complement rule:** P(A') = 1 − P(A); useful for "at least one" problems
-**Addition rule:** P(A ∪ B) = P(A) + P(B) − P(A ∩ B)
-**For mutually exclusive:** P(A ∪ B) = P(A) + P(B)
-**Bayes' theorem:** If E₁, E₂, ..., E_n are partition of S, then P(E_i|A) = P(E_i)·P(A|E_i) / Σ P(E_j)·P(A|E_j)
-**Total probability:** P(A) = Σ P(E_i)·P(A|E_i) for partition {E_i}
-
-**Counting approach to probability:**
-- When outcomes are equally likely: P(event) = favourable outcomes / total outcomes
-- For complex counting problems: use P&C techniques to find numerator and denominator
-
-**Key distributions:**
-- Binomial distribution: P(X = r) = nC_r · p^r · q^{n−r} where p = success prob, q = 1−p
-- Mean of binomial = np; variance = npq
-
-**Conditional probability with cards/dice:**
-P(drawing second ace given first was ace) = 3/51 = 1/17 (without replacement)
-P(second ace given first was ace) = 4/52 × 3/51 (conditional, multiply)
-
-**Independent vs mutually exclusive:**
-- Two events A and B are independent if P(A ∩ B) = P(A)·P(B)
-- Mutually exclusive: cannot both occur; P(A ∩ B) = 0
-- Independent and mutually exclusive can both be true only if one has probability 0
-
-**Common mistakes:**
-- Confusing "with replacement" vs "without replacement" — probabilities change
-- Treating non-independent events as independent
-- Forgetting to subtract P(A ∩ B) in union formula
-
-- **Key formula:** P(A|B) = P(A ∩ B)/P(B); P(A ∪ B) = P(A) + P(B) − P(A ∩ B)
-- **Common trap:** P(A|B) ≠ P(B|A) — be careful which is in numerator! Bayes' theorem swaps these
-- **Exam weight:** 1–2 questions per year (4–8 marks); frequently combined with P&C for counting probability
+| Rule | Formula | When to use |
+|---|---|---|
+| Classical | P(E) = n(E)/n(S) | Finite S, equally likely outcomes |
+| Addition | P(A∪B) = P(A)+P(B)−P(A∩B) | Any two events |
+| Multiplication | P(A∩B) = P(A)·P(B|A) | Conditional setup |
+| Conditional | P(A\|B) = P(A∩B)/P(B) | P(B) > 0 |
+| Bayes' | P(Ai\|B) = P(B\|Ai)·P(Ai) / Σ P(B\|Aj)·P(Aj) | Ai form a partition of S |
 
 ---
 
-### 🔴 Extended — Deep Dive
-> Comprehensive coverage for students on a longer study timeline.
+### 🟡 Standard — Regular Study (2d–2mo)
+> Conditional probability is the gateway skill — Bayes' theorem, total probability, and most binomial word problems all rest on it. Master P(A|B) = P(A∩B)/P(B) before moving to anything labelled "Bayes".
 
-**Probability** — Comprehensive JEE Main Notes
+#### The three pillars of probability theory
 
-**Bayes' theorem derivation:**
-Let E₁, E₂ partition S. For any event A:
-P(E_i|A) = P(E_i ∩ A)/P(A) = P(E_i)·P(A|E_i) / Σ P(E_j)·P(A|E_j)
+Three axioms sit underneath every formula in this chapter, and JEE Main MCQs occasionally probe them directly.
 
-**Application: diagnostic test problem type:**
-P(Disease|+test) = P(+test|Disease)·P(Disease) / [P(+test|Disease)·P(Disease) + P(+test|No Disease)·P(No Disease)]
-This is the Bayesian calculation — very common in JEE Main
+1. **Non-negativity:** P(E) ≥ 0 for every event E.
+2. **Normalization:** P(S) = 1, where S is the sample space.
+3. **Countable additivity:** For pairwise mutually exclusive events E1, E2, …, P(∪En) = Σ P(En).
 
-**Maximum likelihood estimation:**
-The value that maximises P(X=x) for binomial is the integer part of (n+1)p
+From these alone, P(φ) = 0 and 0 ≤ P(E) ≤ 1 follow as corollaries — no extra assumption needed.
 
-**Geometric probability:**
-When outcomes form a continuous range: P(event) = length of favourable region / total length
-Example: Two numbers chosen from [0,1], probability their sum < 1 = area of triangle in unit square = 1/2
+#### Addition and multiplication, side by side
 
-**Derangements (probability perspective):**
-Probability that no one gets their own hat in hat-check problem: D_n/n! = 1 − 1/1! + 1/2! − 1/3! + ... + (−1)^n/n!
-As n → ∞, this approaches 1/e ≈ 0.3679
+The trap students fall into is applying one rule where the other belongs. The table below contrasts the most confused pairs.
 
-**Important identities:**
-- P(A' ∩ B) = P(B) − P(A ∩ B)
-- P(A ∩ B') = P(A) − P(A ∩ B)
-- P((A ∪ B)') = 1 − P(A ∪ B) = P(A' ∩ B')
-- P(A ∩ B) = P(A) + P(B) − P(A ∪ B)
+| Concept | Definition | Key relation |
+|---|---|---|
+| Mutually exclusive | A∩B = φ | P(A∪B) = P(A)+P(B) |
+| Independent | P(A∩B) = P(A)P(B) | P(A\|B) = P(A) |
+| Exhaustive | A∪B = S | P(A)+P(B)+P(A∩B) terms sum to 1 with inclusion–exclusion |
+| Equally likely outcomes | Each ω in S has P(ω) = 1/n(S) | Classical definition applies |
 
-**Random variable concepts:**
-For discrete random variable X with values x_i and probabilities p_i:
-- E(X) = Σ p_i x_i (expectation/mean)
-- Var(X) = E(X²) − [E(X)]²
-- For binomial: E(X) = np, Var(X) = npq
+> ⚠️ **Examiner Trap:** A∩B = φ forces P(A)P(B) = 0 only if one of them is impossible. Two disjoint events with P(A) = 0.3 and P(B) = 0.4 are NOT independent: the multiplication rule P(A∩B) = P(A)P(B) gives 0.12, but the disjoint rule forces P(A∩B) = 0. Wrong answer, wrong method, double penalty.
 
-**Odds:**
-- Odds in favour of event E: P(E)/P(E') = a:b
-- Probability from odds: P(E) = a/(a+b)
+#### Conditional probability and the lattice of dependencies
 
-**Conditional probability with urn problems:**
-Drawing from urn without replacement: each draw changes remaining composition
-P(first red and second blue) = (r/(r+b)) × (b/(r+b−1))
+P(A|B) is read as "probability of A given B has occurred". It restricts the sample space from S to B and renormalises. The chain rule follows directly:
 
-**Solved problem type:**
-"From a pack of 52 cards, 3 are drawn without replacement. Find probability all are kings."
-= 4C₃/52C₃ = 4/22100 = 1/5525
-Or using sequential: (4/52)×(3/51)×(2/50) = 24/132600 = 1/5525 ✓
+- P(A∩B) = P(A)·P(B|A) = P(B)·P(A|B).
 
-**Solved problem type:**
-"Probability that at least one die shows 6 when rolling n dice = 1 − (5/6)^n"
-This uses complement: none show 6 = (5/6)^n
+Bayes' theorem is just the chain rule solved for the reverse conditioning, combined with the law of total probability:
 
-**Probability of getting exactly r heads in n tosses:**
-P(r heads) = nC_r · (1/2)^n (fair coin)
-For biased coin with P(H) = p: nC_r · p^r · (1−p)^{n−r}
+- P(Ai|B) = P(B|Ai)·P(Ai) / Σj P(B|Aj)·P(Aj).
 
-**JEE Main special patterns:**
-- "Two cards drawn from pack. Probability both are spades?" = 13C₂/52C₂ = 3/51 = 1/17
-- "At least one head in 3 tosses?" = 1 − P(no heads) = 1 − (1/2)³ = 7/8
-- "Draw 3 balls from bag with 4 white, 5 black. Probability exactly 2 white?" = C(4,2)·C(5,1)/C(9,3)
+The denominator is the total probability of B, computed by splitting S into a partition {A1, A2, …, An}. Picking the wrong partition — usually forgetting one of the Ai or letting two of them overlap — is the standard JEE Main error in Bayes problems.
 
-- **Remember:** P(A|B) = P(A∩B)/P(B); for independent events, P(A∩B) = P(A)·P(B); complement for "at least one": 1 − P(none); for "without replacement", multiply sequentially using updated counts
-- **Previous years:** "A bag contains 5 white and 7 black balls. Probability of drawing 2 white and 1 black without replacement" [2023]; "Bayes' theorem: box1 has 2 white 4 black, box2 has 3 white 3 black. Find P(box1|first ball is white)" [2024]
+#### 🎯 Exam-Level Worked Problem
 
----
+**Question (JEE Main 2022 Shift-2 pattern):** Three machines M1, M2, M3 in a workshop produce 20%, 30% and 50% of the total output respectively. Their defective rates are 5%, 4% and 2%. A randomly picked unit from a day's output is found to be defective. Find the probability it came from M2.
 
-## 📊 JEE Main Exam Essentials
+**Step 1 — Set up the partition.** Let Ai = "unit came from Mi". Then P(A1) = 0.20, P(A2) = 0.30, P(A3) = 0.50. These are mutually exclusive and exhaustive.
 
-| Detail | Value |
-|---|---|
-| Questions | 90 (30 per subject) |
-| Time | 3 hours |
-| Marks | 300 (90 per subject) |
-| Section | Physics (30), Chemistry (30), Mathematics (30) |
-| Negative | −1 for wrong answer |
-| Mode | Computer-based |
+**Step 2 — Set up the condition.** Let B = "unit is defective". Given: P(B|A1) = 0.05, P(B|A2) = 0.04, P(B|A3) = 0.02.
 
-### 🎯 High-Yield Topics for JEE Main Mathematics
-- Calculus (Differentiation + Integration) — ~35 marks combined
-- Coordinate Geometry (straight lines, circles, conics) — ~20 marks
-- Algebra (Complex Numbers, Quadratics, P&C, Probability) — ~25 marks
-- Trigonometry + Inverse Trigonometry — ~15 marks
-- Vector + 3D — ~15 marks
+#### Step 3 — Total probability of B.
 
-### 📝 Previous Year Question Patterns
-- Probability: 1–2 questions per year, 4–8 marks
-- Common patterns: conditional probability, Bayes' theorem, binomial distribution, urn problems
-- Weight: medium-high frequency, high difficulty but scoring
+P(B) = P(B|A1)P(A1) + P(B|A2)P(A2) + P(B|A3)P(A3)
+     = (0.05)(0.20) + (0.04)(0.30) + (0.02)(0.50)
+     = 0.010 + 0.012 + 0.010
+     = 0.032.
 
-### 💡 Pro Tips
-- Bayes' theorem is a JEE Main favourite — understand the partition concept thoroughly
-- For "at least one" problems, complement is always easier: P(at least one) = 1 − P(none)
-- When drawing without replacement, multiply sequentially with updated counts
-- For geometric probability, draw the region and compute area/length ratios
-- Always check whether events are independent or mutually exclusive — different formulas
-- When the problem says "given that", it's a conditional probability problem
-- Odds can be converted: if odds in favour are a:b, then P = a/(a+b)
+#### Step 4 — Apply Bayes.
 
-### 🔗 Official Resources
-- [NTA Official JEE Main](https://jeemain.nta.nic.in)
-- [JEE Main Syllabus PDF](https://jeemain.nta.nic.in/SearchKeyword/Syllabus)
+P(A2|B) = P(B|A2)P(A2) / P(B) = 0.012 / 0.032 = 12/32 = 3/8 = 0.375.
+
+**Answer:** 3/8.
+
+> ⚠️ **Examiner Trap:** Many students divide P(B|A2)P(A2) by P(B|A2) only, or by one of the other terms. The denominator in Bayes' theorem is ALWAYS the total probability of the conditioning event across the entire partition — never just one term.
+
+#### Random variable and binomial distribution
+
+A random variable X maps each outcome ω∈S to a real number. For a discrete X, the probability mass function f(x) = P(X=x) must satisfy f(x) ≥ 0 and Σ f(x) = 1.
+
+The binomial distribution B(n, p) arises when n independent Bernoulli trials each succeed with probability p:
+
+- P(X=k) = C(n,k)·p^k·(1−p)^(n−k), for k = 0, 1, …, n.
+- Mean: μ = E(X) = np.
+- Variance: σ² = Var(X) = np(1−p).
+- Standard deviation: σ = √(np(1−p)).
+
+E(X) and Var(X) are dimensionless when X is dimensionless; in physical applications like radioactive decay, n carries units of "trials" or "decays" and the mean keeps those units.
 
 ---
 
-*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+### 🔴 Extended — Deep Study (3mo+)
+> Two questions per JEE Main shift test probability, and one of them almost always hinges on a single sign or a missed partition. Treat the boundary cases below as the real syllabus — the named formulas are just shorthand.
+
+#### Boundary cases worth memorising
+
+1. **Impossible conditioning.** P(A|B) is undefined when P(B) = 0. Some MCQs give a denominator that simplifies to 0 after a substitution; the answer is "0/0, undefined" rather than 0 or 1.
+2. **Sure-thing conditioning.** If B ⊂ A, then P(A|B) = 1. If A and B are equivalent, P(A|B) = P(B|A) = 1.
+3. **Complement shortcuts.** P(A|B) = 1 − P(Aᶜ|B), and De Morgan on conditioning gives P(Aᶜ∩Bᶜ) = 1 − P(A∪B).
+4. **Binomial edge values.** P(X = 0) = (1−p)^n and P(X = n) = p^n. If asked "at least one success", use 1 − (1−p)^n instead of summing k = 1 to n.
+5. **Poisson as limit.** When n → ∞ and np → λ, B(n,p) approaches Poisson(λ). JEE Main rarely tests the limit directly, but the mean λ = np is sometimes given as a hint in disguise.
+
+#### Advanced practice prompts
+
+- **Prompt 1 — Sign-flip Bayes.** A diagnostic test for a disease has sensitivity 99% (P(+|D) = 0.99) and specificity 95% (P(−|Dᶜ) = 0.95). If 1% of the population has the disease, what is P(D|+)? Compute this and then re-do it with prevalence 0.1% to see how dramatically the answer shifts.
+- **Prompt 2 — Binomial variance trap.** If X ~ B(10, 0.3) and Y ~ B(20, 0.3) are independent, find Var(2X − 3Y). Use Var(aX + bY) = a²Var(X) + b²Var(Y) when X, Y are independent — and watch the sign of the coefficient.
+
+#### How this topic is tested in JEE Main
+
+- 1 question per shift, contributing roughly 5% of the Mathematics paper.
+- Frequent formats: a single MCQ on Bayes' theorem with a three-branch partition, a binomial mean/variance numerical, or an MCQ distinguishing independent from mutually exclusive events.
+- Highest-yield previous-year patterns: defective-item Bayes problems, drawing balls with and without replacement, and conditional probability given an observed outcome in a Bernoulli process.
+- Time budget: 2–3 minutes per question; if the algebra is not collapsing inside 90 seconds, the chosen partition is probably wrong.
+
+## Continue your study
+
+- **[View this topic in your JEE Main roadmap](/roadmap/?exam=jeemain&duration=1mo)** — see where "Probability" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=jeemain&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[JEE Main exam overview](/exams/jeemain/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/jeemain/mathematics/)** — browse sibling topics in this subject
+
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

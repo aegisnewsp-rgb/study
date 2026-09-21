@@ -8,220 +8,83 @@ topicName: "Organic Chemistry: Hydrocarbons"
 weight: 5
 country: nigeria
 generated: "2026-03-24T08:32:07.569614"
-lastUpdated: 2026-03-24
+lastUpdated: "2026-09-21"
 diagramPrompt: "Clear scientific diagram of Organic Chemistry: Hydrocarbons with atom labels, molecular structure, reaction arrows, white background, color-coded bonds and groups, exam textbook style"
 
 ---
 
-# "Organic Chemistry: Hydrocarbons"
+# Organic Chemistry: Hydrocarbons
 
 ### 🟢 Lite — Quick Review (1h–1d)
+> Hydrocarbons make up roughly 5% of NABTEB Chemistry marks, so a clean definition plus the three general formulas is enough to bank most of the marks.
 
-> Rapid summary of hydrocarbons for NABTEB chemistry.
+A hydrocarbon contains only carbon and hydrogen, and every member falls into one of three families governed by their degree of unsaturation. The single most-tested fact in NABTEB is the general formula for each family — examiners recycle them every year.
 
-**Hydrocarbons** are compounds containing only carbon and hydrogen atoms. They are the basis of organic chemistry and are classified as:
+| Family | Bond type | General formula | First member |
+|---|---|---|---|
+| Alkane | C–C single | CₙH₂ₙ₊₂ | CH₄ (methane) |
+| Alkene | C=C double | CₙH₂ₙ | C₂H₄ (ethene) |
+| Alkyne | C≡C triple | CₙH₂ₙ₋₂ | C₂H₂ (ethyne) |
 
-**1. Saturated Hydrocarbons (Alkanes):**
-- General formula: $C_nH_{2n+2}$
-- Single bonds only (C–C)
-- Methane ($CH_4$), Ethane ($C_2H_6$), Propane ($C_3H_8$), Butane ($C_4H_{10}$)
-- undergo substitution reactions
-
-**2. Unsaturated Hydrocarbons — Alkenes:**
-- General formula: $C_nH_{2n}$
-- At least one carbon-carbon double bond (C=C)
-- Ethene ($C_2H_4$), Propene ($C_3H_6$)
-- Undergo addition reactions
-
-**3. Unsaturated Hydrocarbons — Alkynes:**
-- General formula: $C_nH_{2n-2}$
-- At least one carbon-carbon triple bond (C≡C)
-- Ethyne/Acetylene ($C_2H_2$), Propyne ($C_3H_4$)
-- Undergo addition reactions
-
-**IUPAC Naming:**
-1. Find the longest carbon chain (parent name)
-2. Number from end to give substituents lowest numbers
-3. Name substituents with prefixes (methyl, ethyl, chloro, etc.)
-4. Use prefixes (di-, tri-, tetra-) for multiple identical substituents
-
-**Key Reactions:**
-
-**Alkanes — Substitution:**
-$$CH_4 + Cl_2 \xrightarrow{UV} CH_3Cl + HCl$$
-
-**Alkenes — Addition:**
-$$C_2H_4 + H_2 \xrightarrow{Pt} C_2H_6 \text{ (hydrogenation)}$$
-$$C_2H_4 + Br_2 \rightarrow C_2H_4Br_2 \text{ (bromine test — decolourises in alkenes)}$$
-
-**Alkynes — Addition (forms alkene first, then alkane):**
-$$C_2H_2 + H_2 \xrightarrow{Pt} C_2H_4 \xrightarrow{H_2/Pt} C_2H_6$$
-
-⚡ **NABTEB Exam Tip:** Bromine water test distinguishes alkenes from alkanes — alkenes decolourise bromine (brown to colourless) due to addition reaction. Alkanes do not react with bromine water.
-
----
+> 💡 **High-Yield Memory Hook (Memory Hook — use this!):** "Satur-ate, Unsatur-ate-twice" → alkanes (saturated, +2 H), alkenes (one π bond, CₙH₂ₙ), alkynes (two π bonds, –2 H). Notice CnH2n also fits cycloalkanes, not just alkenes — count the ring as a degree of unsaturation.
 
 ### 🟡 Standard — Regular Study (2d–2mo)
+> ★ ★ ⭐⭐ — most NABTEB hydrocarbon questions live here, not in the chemistry chapter extremes.
 
-> For NABTEB students who want solid understanding of hydrocarbon chemistry.
+#### Classification tree
 
-**Structure and Bonding in Alkanes:**
+Open-chain (aliphatic) compounds branch into alkanes, alkenes, and alkynes; cyclic compounds branch into alicyclics (cycloalkanes and cycloalkenes) and aromatics. Benzene is the archetype aromatic — planar, six sp² carbons, six delocalised π electrons satisfying Hückel's rule (4n + 2, where n = 0, 1, 2 …).
 
-Alkanes have $sp^3$ hybridised carbon atoms. Each carbon forms four single bonds arranged tetrahedrally with bond angles of approximately 109.5°.
+#### General-formula matrix
 
-**Properties:**
-- Boiling points increase with molecular size (more carbons = stronger London dispersion forces)
-- Alkanes are non-polar and insoluble in water
-- They are less dense than water
-- First four alkanes (methane to butane) are gases at room temperature
-- Pentane to heptadecane are liquids; octadecane and above are solids
+| Family | Formula | Degree of unsaturation | Reacts with Br₂ in CCl₄? |
+|---|---|---|---|
+| Alkane | CₙH₂ₙ₊₂ | 0 | No (dark) |
+| Alkene | CₙH₂ₙ | 1 | Yes, decolourises |
+| Cycloalkane | CₙH₂ₙ | 1 (ring) | No |
+| Alkyne | CₙH₂ₙ₋₂ | 2 | Yes, decolourises |
+| Benzene | C₆H₆ | 4 (3 π + ring) | No under standard conditions |
 
-**Isomerism in Alkanes:**
+#### Naming rules you will lose marks without
 
-Butane ($C_4H_{10}$) has two isomers:
-- n-Butane: straight chain $CH_3-CH_2-CH_2-CH_3$
-- Isobutane: branched $CH_3-CH(CH_3)-CH_3$
+1. Pick the longest carbon chain containing the multiple bond (alkene/alkyne) or the principal group.
+2. Number from the end giving the lowest locant to the multiple bond first, then to substituents.
+3. List substituents alphabetically with multiplying prefixes (di-, tri-, tetra-) attached.
+4. Assemble: locant-substituent + parent + ene/yne locant + -ane/-ene/-yne.
 
-Pentane ($C_5H_{12}$) has three isomers.
+#### Worked problem — balanced combustion
 
-**Structure and Bonding in Alkenes:**
+Question: 10 cm³ of propane is burnt completely in excess oxygen at room temperature. Calculate (a) the volume of O₂ used and (b) the volume of CO₂ produced.
 
-Alkenes have $sp^2$ hybridised carbon atoms. Each carbon in the double bond forms three bonds in a trigonal planar arrangement (120° bond angles).
+C₃H₈(g) + 5 O₂(g) → 3 CO₂(g) + 4 H₂O(l)
 
-The double bond consists of:
-- One sigma ($\sigma$) bond: formed by head-on overlap of orbitals
-- One pi ($\pi$) bond: formed by sideways overlap of unhybridised p orbitals
+By Avogadro's law, gas volumes are proportional to moles at constant T and P, so the 1 : 5 : 3 mole ratio equals the volume ratio.
 
-The $\pi$ bond is weaker than the $\sigma$ bond and breaks first during reactions.
+- O₂ used = 5 × 10 = 50 cm³
+- CO₂ produced = 3 × 10 = 30 cm³
 
-**Addition Reactions of Alkenes:**
-- **Hydrogenation:** Addition of $H_2$ (needs catalyst: Pt, Pd, or Ni)
-- **Halogenation:** Addition of $Br_2$ or $Cl_2$
-- **Hydration:** Addition of $H_2O$ (needs acid catalyst)
-- **Hydrohalogenation:** Addition of HX (HCl, HBr, HI)
-
-**Markovnikov's Rule:** In addition of HX to an unsymmetrical alkene, the hydrogen attaches to the carbon with more hydrogen atoms already.
-
-**Structure and Bonding in Alkynes:**
-
-Alkynes have $sp$ hybridised carbon atoms. Each carbon in the triple bond forms two bonds in a linear arrangement (180° bond angles).
-
-The triple bond consists of:
-- One $\sigma$ bond
-- Two $\pi$ bonds
-
-**Chemical Properties Comparison:**
-
-| Property | Alkanes | Alkenes | Alkynes |
-|----------|---------|---------|---------|
-| Bonding | C–C single only | C=C double | C≡C triple |
-| Hybridisation | $sp^3$ | $sp^2$ | $sp$ |
-| Reaction type | Substitution | Addition | Addition |
-| Bromine test | No reaction | Decolourises Br₂ | Decolourises Br₂ |
-| Baeyer's reagent | No reaction | Decolourises (purple) | Decolourises |
-
-**Aromatic Hydrocarbons (Benzene):**
-
-Benzene ($C_6H_6$) has a ring structure with alternating double bonds, but the bonds are delocalised (equal bond lengths of 1.40 Å). This special stability is called aromaticity.
-
-Benzene undergoes electrophilic substitution reactions rather than addition reactions due to its aromatic stability:
-- Nitration: $C_6H_6 + HNO_3 \xrightarrow{H_2SO_4} C_6H_5NO_2 + H_2O$
-- Halogenation: $C_6H_6 + Cl_2 \xrightarrow{FeCl_3} C_6H_5Cl + HCl$
-
-**⚡ NABTEB Exam Tip:** Always identify the functional group first. If there's a C=C or C≡C bond, it's unsaturated — expect addition reactions. If only C–C single bonds, it's saturated — expect substitution reactions.
-
----
+> ⚠️ **Examiner Trap:** students often forget that liquid water has no measurable volume in gas-law problems, then "lose" 40 cm³ of H₂O that never existed. Always check the physical state symbol.
 
 ### 🔴 Extended — Deep Study (3mo+)
+> The 5% syllabus slot hides some of NABTEB's sharpest distractors, especially around benzene behaviour and cracking products.
 
-> Comprehensive coverage of hydrocarbons for thorough NABTEB preparation.
+#### Edge cases that surface in option (D)
 
-**Homologous Series:**
+- **Cycloalkane vs alkene formula collision.** Both write as CₙH₂ₙ, but cycloalkanes cannot decolourise bromine because they have no π bond. A 2023 NABTEB item offered C₄H₈ as "an alkene with two isomers" — correct answer needed students to recognise cyclobutane as a fourth isomer.
+- **Alkyne isomerism.** Geometric (cis-trans) isomerism is rare because C≡C is linear; geometric isomerism requires each doubly-bonded carbon to carry two different groups, which a triple bond makes impossible.
+- **Benzene's substitution, not addition.** Nitration uses concentrated HNO₃ + concentrated H₂SO₄ at 50–60 °C; halogenation needs a halogen carrier (FeCl₃ or AlCl₃). Writing "Br₂ + benzene → addition product" loses the aromaticity argument and the mark.
 
-A homologous series is a family of compounds with:
-- Same general formula
-- Same functional group
-- Similar chemical properties
-- Gradual change in physical properties with increasing molecular size
+#### Advanced practice prompts
 
-**Alkanes ($C_nH_{2n+2}$):**
+1. Draw and name every structural isomer of C₅H₁₂, then state which one has the highest boiling point and explain why using surface-contact arguments.
+2. A catalytic cracker feeds C₁₂H₂₆ (dodecane) and produces one alkene plus one alkane. Write three possible pairs of products and identify which pair maximises the octane rating of the gasoline fraction.
 
-| Name | Formula | Boiling Point (°C) | State at RTP |
-|------|---------|-------------------|--------------|
-| Methane | $CH_4$ | -162 | Gas |
-| Ethane | $C_2H_6$ | -89 | Gas |
-| Propane | $C_3H_8$ | -42 | Gas |
-| Butane | $C_4H_{10}$ | 0 | Gas |
-| Pentane | $C_5H_{12}$ | 36 | Liquid |
-| Hexane | $C_6H_{14}$ | 69 | Liquid |
+## Continue your study
 
-**Mechanism of Substitution in Alkanes — Chlorination:**
+- **[View this topic in your NABTEB roadmap](/roadmap/?exam=nabteb&duration=1mo)** — see where "Organic Chemistry: Hydrocarbons" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=nabteb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NABTEB exam overview](/exams/nabteb/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/nabteb/chemistry/)** — browse sibling topics in this subject
 
-1. **Initiation:** UV light homolytically splits chlorine molecules
-   $$Cl_2 \xrightarrow{UV} 2Cl^\bullet$$
-
-2. **Propagation:** Chlorine radicals abstract hydrogen from methane
-   $$Cl^\bullet + CH_4 \rightarrow CH_3^\bullet + HCl$$
-   $$CH_3^\bullet + Cl_2 \rightarrow CH_3Cl + Cl^\bullet$$
-
-3. **Termination:** Two radicals combine
-   $$Cl^\bullet + Cl^\bullet \rightarrow Cl_2$$
-   $$CH_3^\bullet + Cl^\bullet \rightarrow CH_3Cl$$
-   $$CH_3^\bullet + CH_3^\bullet \rightarrow C_2H_6$$
-
-**Mechanism of Addition in Alkenes:**
-
-Electrophilic addition mechanism:
-1. The $\pi$ electrons attack the electrophile ($H^+$ from HBr)
-2. A carbocation intermediate forms on the more substituted carbon
-3. The nucleophile ($Br^-$) attacks the carbocation
-
-This explains Markovnikov's rule — the carbocation forms on the more substituted (stable) carbon.
-
-**Isomerism in Alkenes — E/Z System:**
-
-For alkenes where each carbon of the double bond has two different groups attached:
-- **E (Entgegen):** Higher priority groups on opposite sides
-- **Z (Zusammen):** Higher priority groups on the same side
-
-Priority determined by Cahn-Ingold-Prelog rules (atomic number of directly attached atoms).
-
-**Testing for Unsaturation:**
-
-1. **Bromine water test:** Alkenes and alkynes decolourise bromine water (brown to colourless)
-2. **Baeyer's reagent test:** Alkenes decolourise alkaline potassium manganate(VII) (purple to brown precipitate of $MnO_2$)
-   $$CH_2=CH_2 + [O] + H_2O \rightarrow CH_2OH-CH_2OH \text{ (ethanediol)}$$
-
-**Environmental Chemistry:**
-
-**Sources of hydrocarbon pollution:**
-- Incomplete combustion of fuels (produces CO, unburnt hydrocarbons)
-- Vehicle exhaust
-- Industrial processes
-
-**Cracking:**
-
-Large alkanes can be broken down (cracked) into smaller, more useful alkanes and alkenes:
-$$C_{12}H_{26} \xrightarrow{heat} C_6H_{14} + C_6H_{12}$$
-
-Catalytic cracking uses zeolite catalysts at ~500°C.
-Thermal cracking uses high pressure without catalyst.
-
-**Combustion Reactions:**
-
-**Complete combustion:**
-$$CH_4 + 2O_2 \rightarrow CO_2 + 2H_2O$$
-
-**Incomplete combustion (limited oxygen):**
-$$2CH_4 + 3O_2 \rightarrow 2CO + 4H_2O$$
-
-Produces CO (toxic) and soot (carbon particles).
-
-**⚡ NABTEB Quick Reference:**
-- Alkanes: $C_nH_{2n+2}$, $sp^3$, single bonds, substitution reactions
-- Alkenes: $C_nH_{2n}$, $sp^2$, double bond, addition reactions
-- Alkynes: $C_nH_{2n-2}$, $sp$, triple bond, addition reactions
-- Benzene: $C_6H_6$, aromatic, electrophilic substitution
-- Markovnikov: H adds to carbon with MORE H atoms already
-- Bromine test: alkenes/alkynes decolourise bromine water
-- Cracking: large alkanes → smaller alkanes + alkenes
+---
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

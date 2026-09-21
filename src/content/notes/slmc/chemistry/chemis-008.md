@@ -8,150 +8,97 @@ topicName: Alcohols
 weight: 3
 country: srilanka
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-21"
 ---
 
 # Alcohols
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
 
-**Alcohols** — Key Facts for SLMC Medical (Sri Lanka)
-- Alcohols contain the **–OH functional group** attached to a carbon atom
-- Classification: **Primary (1°)** — OH on C with 1 R group; **Secondary (2°)** — OH on C with 2 R groups; **Tertiary (3°)** — OH on C with 3 R groups
-- General formula: **CₙH₂ₙ₊₁OH** (mono-alcohol)
-- **Methanol** (wood spirit): highly toxic — 10 mL can cause blindness, 100 mL causes death
-- ⚡ Exam tip: Dehydration of alcohols to alkenes and oxidation of 1°/2° alcohols are high-yield for SLMC
+> Scan this tier first if the SLMC Chemistry paper is tomorrow.
+
+The hydroxyl group (–OH) bonded to a saturated sp³ carbon defines an alcohol; methanol (CH₃OH) and ethanol (C₂H₅OH) anchor the homologous series with general formula **CₙH₂ₙ₊₁OH**. The single most-tested fact: 1° alcohols oxidise to aldehydes then carboxylic acids, 2° alcohols oxidise to ketones, and 3° alcohols resist oxidation because the carbinol carbon carries no α-hydrogen.
+
+| Property | Value / Reason |
+|---|---|
+| General formula | CₙH₂ₙ₊₁OH (n = 1, 2, 3 …); M = 14n + 18 g mol⁻¹ |
+| Boiling points | Methanol 64.7 °C, ethanol 78.37 °C, propan-1-ol 97.2 °C, butan-1-ol 117.7 °C |
+| Acidity (pKₐ) | ≈ 16–19 (weak Brønsted acid; reacts with Na/K, not with litmus) |
+| Solubility in water | Fully miscible for C₁–C₃ due to O–H···O hydrogen bonding |
+
+> 💡 **High-Yield Memory Hook (Memory Hook):** "**P-S-T = Passes, Stops, Tough**" — **P**rimary alcohol gives aldehyde then acid with K₂Cr₂O₇; **S**econdary alcohol gives ketone only; **T**ertiary resists ordinary oxidation.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
 
-**Alcohols** — SLMC Medical (Sri Lanka) Study Guide
+> Use this tier for two-week to two-month structured preparation.
 
-## What Are Alcohols?
+#### Classification, Nomenclature, and Isomerism
 
-Alcohols are **hydroxyl (-OH) functional group attached to a saturated carbon atom**. They can be viewed as alkanes where one H is replaced by –OH. Their formula is R–OH where R is an alkyl group.
+Alcohols split into **monohydric** (one –OH), **dihydric / glycols** (two –OH, e.g. ethane-1,2-diol), and **trihydric / glycerol** (three –OH, e.g. propane-1,2,3-triol). IUPAC rules require the longest chain containing the C–OH carbon, with the lowest possible locant: butan-2-ol, not 2-butanol. Chain isomerism (propan-1-ol vs propan-2-ol), position isomerism (butan-1-ol vs butan-2-ol), and functional-group isomerism with ethers of formula CₙH₂ₙ₊₂O all appear in MCQs.
 
-## Classification
+#### Concept Comparison Matrix
 
-| Type | Definition | Oxidation Product | Lucas Test (time) |
+| Test / Reagent | 1° Alcohol | 2° Alcohol | 3° Alcohol |
 |---|---|---|---|
-| **Primary (1°)** | –OH on carbon bonded to ONE other carbon | Aldehyde (→ carboxylic acid) | No reaction at RT |
-| **Secondary (2°)** | –OH on carbon bonded to TWO other carbons | Ketone | 5–10 min at RT |
-| **Tertiary (3°)** | –OH on carbon bonded to THREE other carbons | No oxidation | Immediate reaction at RT |
+| Acidified K₂Cr₂O₇ / KMnO₄ | Orange → green (oxidises to aldehyde, then acid) | Orange → green (oxidises to ketone) | No colour change (no α-H on carbinol C) |
+| Lucas reagent (ZnCl₂/HCl, anh.) | Turbidity after ~10 min (slowest) | Turbidity in 5–10 min | Immediate turbidity (fastest; carbocation forms readily) |
+| Na metal | Liberates H₂; RO⁻Na⁺ formed | Same | Same |
+| Iodoform (I₂ / NaOH) | Yellow CHI₃ ppt if CH₃CH(OH)– group present | Same | None (unless CH₃CO– precursor) |
 
-**Lucas Test**: Alcohol + Lucas reagent (conc. HCl + ZnCl₂) — 3° reacts immediately (cloudy), 2° reacts in 5-10 min, 1° reacts on heating.
+#### Core Reactions and Mechanisms
 
-## Nomenclature
+Esterification (Fischer): R–OH + R′–COOH ⇌ R′–COO–R + H₂O, catalysed by conc. H₂SO₄, reversible. Combustion: CₙH₂ₙ₊₁OH + (3n/2) O₂ → n CO₂ + (n+1) H₂O, ΔH ≈ −1360 to −2090 kJ mol⁻¹. Dehydration of ethanol with excess conc. H₂SO₄ at **140 °C** gives diethyl ether (intermolecular), at **170 °C** gives ethene (intramolecular E1).
 
-Common names: methyl alcohol, ethyl alcohol, isopropyl alcohol
-IUPAC: replace –e of alkane with **–ol**; position number before "ol":
-- Methanol (CH₃OH)
-- Ethanol (C₂H₅OH)
-- Propan-1-ol / Propan-2-ol
-- Butan-1-ol, Butan-2-ol
+#### Worked Numerical and Mechanism Problem
 
-Dihydroxy alcohols (glycols):
-- Ethane-1,2-diol = **ethylene glycol** (antifreeze)
-- Propane-1,2-diol = **propylene glycol** (food additive, pharmaceutical)
+Predict the products when **butan-2-ol** is treated separately with (a) acidified K₂Cr₂O₇, (b) conc. H₂SO₄ at 170 °C, (c) PCl₅, and (d) Na metal. State the observation in each case.
 
-Trihydroxy:
-- Glycerol / Glycerin = Propane-1,2,3-triol (sweet, viscous liquid)
+#### Step-by-step resolution:
 
-## Physical Properties
+1. (a) K₂Cr₂O₇/H⁺ oxidises the 2° alcohol to **butan-2-one** (CH₃–CO–CH₂–CH₃); orange dichromate turns green (Cr³⁺).
+2. (b) At 170 °C, intramolecular elimination removes H₂O across C2–C3 (or C1–C2) to give **but-2-ene** as the major alkene (Zaitsev); at 140 °C intermolecular dehydration would give **di-sec-butyl ether**.
+3. (c) PCl₅ substitutes –OH with –Cl, releasing **HCl gas** (steamy fumes that turn moist blue litmus red): CH₃–CH(OH)–CH₂–CH₃ + PCl₅ → CH₃–CHCl–CH₂–CH₃ + POCl₃ + HCl.
+4. (d) Na metal displaces the –OH proton: 2 ROH + 2 Na → 2 RO⁻Na⁺ + H₂↑ (effervescence, M(ROH) = 14n+18 g mol⁻¹; for butan-2-ol n = 4, M = 74 g mol⁻¹).
 
-| Property | Trend |
-|---|---|
-| Boiling point | Higher than analogous alkanes due to **hydrogen bonding** |
-| Solubility | Lower alcohols (C₁–C₃) soluble in water (H-bonding); decreases with chain length |
-| Density | Less than water (except glycerol) |
-| Viscosity | Increases with molecular size and –OH count |
+> ⚠️ **Examiner Trap:** Students often write butan-1-ol as the oxidation product "by mistake" because they confuse the carbon numbering; the **lowest locant rule** places –OH on C2, so the starting material is unambiguously butan-2-ol and the ketone (not the aldehyde) is mandatory.
 
-**Hydrogen bonding** in alcohols:
-- Alcohols can hydrogen-bond with themselves (O–H···O)
-- Alcohols can hydrogen-bond with water (O–H···O from water)
-- This explains their higher BP vs alkanes and water solubility for small R groups
+---
 
-Methanol: BP 64.7°C (vs methane: –161°C)
-Ethanol: BP 78.4°C (vs ethane: –88°C)
+### 🔴 Extended — Deep Study (3mo+)
 
-## Chemical Properties
+> Read this tier when preparing for assertion-reason, multi-statement, and higher-order MCQs.
 
-### 1. Oxidation
+#### Edge Cases and Pharmaceutical Links
 
-| Alcohol | Oxidizing Agent | Product |
-|---|---|---|
-| 1° alcohol | K₂Cr₂O₇/H₂SO₄ (cold, dilute) | Aldehyde (blue Cr³⁺ → green) |
-| 1° alcohol | KMnO₄/H₂SO₄ (hot) | Carboxylic acid |
-| 2° alcohol | K₂Cr₂O₇/H₂SO₄ or KMnO₄ | Ketone |
-| 3° alcohol | Strong oxidizing agents | **No reaction** |
+Glycerol (propane-1,2,3-triol, C₃H₈O₃) nitrated with conc. HNO₃/H₂SO₄ yields **glyceryl trinitrate** (nitroglycerine), used in angina pectoris as a coronary vasodilator — a SLMC favourite linking organic chemistry with pharmacology. Ethylene glycol (ethane-1,2-diol) is the antifreeze of choice because two –OH groups raise its boiling point to 197 °C and depress water's freezing point strongly; toxicity arises because hepatic alcohol dehydrogenase oxidises it to glycolic and oxalic acids, which crystallise as **calcium oxalate** renal stones.
 
-**Benedict's/Fehling's test**: Aldehydes reduce Cu²⁺ (blue) → Cu⁺ (red precipitate of Cu₂O). Ketones do not react.
+#### Acidity and Reactivity — Quantitative Limits
 
-### 2. Dehydration
+The Brønsted acidity order CH₃OH > 1° > 2° > 3° rests on two competing effects: the **+I inductive donation** of alkyl groups destabilises the alkoxide (RO⁻) by raising electron density on oxygen, while **steric hindrance** in 3° alcohols additionally slows nucleophilic attack by Na. The pKₐ spread (≈ 16 for methanol, ≈ 19 for tert-butanol) means alcohols are **roughly 10¹⁰ times weaker than water** and do not affect litmus, yet still liberate H₂ from sodium because the reaction is driven by the formation of the strong Na–O bond.
 
-Alcohols lose water (dehydrate) to form alkenes or ethers under acidic conditions:
+#### Advanced Traps and Exceptions
 
-**Elimination (E1) at higher temperature (>140°C):**
-- Ethanol + conc. H₂SO₄ (170°C) → **Ethene** + H₂O
-- Rate: 3° > 2° > 1° (tertiary dehydrates most readily)
+1. Dehydration of ethanol at 140 °C versus 170 °C is a single-reagent, two-product reaction — examiners test whether you remember that temperature alone switches the mechanism between SN2/E2 (intermolecular ether) and E1 (intramolecular alkene).
+2. The iodoform test gives a positive result for ethanol and for any 2° alcohol of structure CH₃–CH(OH)–R, **not** for methanol or 1-propanol.
+3. Phenols give violet/purple colour with neutral FeCl₃; alcohols do not — a clean way to discriminate when both are listed as options.
+4. Mixing ethanol and water is exothermic (volume contracts by ~4 % at 50 % v/v); densities and vapour pressures are therefore non-linear with composition, so a Raoult's-law calculation using mole fraction alone overshoots the true partial pressure.
+5. Ethanol–water mixtures form an **azeotrope** at 95.6 % ethanol / 4.4 % water (bp 78.2 °C), which is why absolute (100 %) ethanol cannot be obtained by simple distillation.
 
-**Substitution (Sn1) at lower temperature (<140°C):**
-- Ethanol + conc. H₂SO₄ (140°C) → **Diethyl ether** + H₂O
+#### Practice Prompts
 
-### 3. Esterification
+- **Prompt 1.** An unknown alcohol of M = 74 g mol⁻¹ gives a yellow iodoform ppt, oxidises to a ketone, and shows no turbidity within 30 s in the Lucas test. Identify it and draw the products of its reaction with (i) PCl₅, (ii) CH₃COOH/H⁺. Justify each step.
+- **Prompt 2.** A colourless liquid, C₃H₈O₃, is viscous, hygroscopic, and forms a triester with HNO₃ that detonates on impact. Name it, write the triester's structure, give one pharmaceutical and one cosmetic use, and explain why its boiling point (290 °C) is far above that of propan-1-ol (97 °C).
 
-Alcohol + carboxylic acid ⇌ ester + water (with **conc. H₂SO₄** catalyst):
-- **CH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O** (ethyl acetate)
-- Esters are named: alkyl alkanoate (e.g., methyl acetate = methyl ethanoate)
+---
 
-### 4. Reaction with Sodium
+## Continue your study
 
-**2R–OH + 2Na → 2R–ONa + H₂↑** (alkoxide + hydrogen gas)
-- Alkoxides are strong bases (stronger than NaOH)
-- Used to test for the –OH group
-
-### 5. Halogen Substitution
-
-**R–OH + HX → R–X + H₂O** (with conc. HX or NaBr/H₂SO₄)
-Or: **R–OH + PCl₅ → R–Cl + POCl₃ + HCl** (for 1° and 2° alcohols)
-
-### 6. Oxidation State
-
-Methanol is metabolized in the liver by **alcohol dehydrogenase**:
-- Methanol → Formaldehyde → Formic acid (toxic metabolites)
-- **Fomepizole** (4-methylpyrazole) inhibits alcohol dehydrogenase — used in methanol poisoning treatment
-- Ethanol competes with methanol for the same enzyme —basis for ethanol treatment in methanol poisoning
-
-## Industrial Preparation
-
-### Ethanol from Fermentation
-- **C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂** (yeast fermentation)
-- Sugar source: sugarcane, grapes, cereals
-
-### Ethanol from Hydration of Ethene
-- **C₂H₄ + H₂O → C₂H₅OH** (H₃PO₄ catalyst, 300°C, 60 atm)
-
-### Methanol from Synthesis Gas
-- **CO + 2H₂ → CH₃OH** (ZnO/Cr₂O₃ catalyst, 200 atm, 400°C)
-- Methanol is **wood spirit** — historically from destructive distillation of wood
-
-## Clinical and Medical Relevance
-
-- **Methanol** poisoning: causes blindness (optic nerve damage) and metabolic acidosis; treat with ethanol or fomepizole
-- **Ethanol**: CNS depressant, antidote for methanol/ethylene glycol poisoning, used in IV cannulae as antiseptic
-- **Glycerol**: component of triglycerides; used as osmotic laxative and in topical formulations
-- **Isopropyl alcohol (IPA)**: 70% IPA used as disinfectant; more effective than ethanol against bacterial spores
-- **Propylene glycol**: solvent in IV medications (e.g., diazepam, lorazepam); safe in humans but toxic to animals
-- **Ethylene glycol** poisoning: antifreeze ingestion → metabolic acidosis → renal failure; treat with ethanol or fomepizole
-
-## Common SLMC Exam Traps
-- 3° alcohols do NOT oxidize — they have no hydrogen on the carbon bearing –OH. This is a classic MCQ trick.
-- Dehydration of alcohols: higher temperature favors alkene (elimination), lower temperature favors ether (substitution)
-- Lucas test distinguishes alcohol classes by reactivity with HCl/ZnCl₂ — 3° is fastest
-- Ethanol and methanol both produce CO₂ and H₂O on complete combustion, but only ethanol can be obtained by fermentation
+- **[View this topic in your SLMC Medical (Sri Lanka) roadmap](/roadmap/?exam=slmc&duration=1mo)** — see where "Alcohols" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=slmc&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[SLMC Medical (Sri Lanka) exam overview](/exams/slmc/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/slmc/chemistry/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

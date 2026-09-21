@@ -1,7 +1,7 @@
 export const economics: Subject = {
   id: 'economics', name: 'Economics', color: '#059669',
   topics: [
-    { id: 'econom-001', name: 'Introduction to Economics', weight: 3 as const, description: 'Covers basic economic concepts, micro vs macroeconomics, economic agents, and the scope of economics in competitive exams including national income, growth, and development metrics.' },
+    { id: 'econom-001', name: 'Micro and Macro Economics: Scope and Agents', weight: 3 as const, description: 'Covers basic economic concepts, micro vs macroeconomics, economic agents, and the scope of economics in competitive exams including national income, growth, and development metrics.' },
     { id: 'econom-002', name: 'Demand and Supply', weight: 4 as const, description: 'Law of demand and supply, determinants, market equilibrium, movements vs shifts in curves, price elasticity, and applications — foundational microeconomics frequently asked in Prelims.' },
     { id: 'econom-003', name: 'Elasticity', weight: 4 as const, description: 'Price, income, and cross elasticity of demand; elasticity of supply; measurement methods and practical applications in taxation and pricing decisions — a calculative yet scoring topic.' },
     { id: 'econom-004', name: 'Consumer Behaviour', weight: 3 as const, description: 'Utility analysis, indifference curves, budget line, consumer equilibrium, derivation of demand curve, and ordinal utility approach — important for understanding microeconomic foundations.' },

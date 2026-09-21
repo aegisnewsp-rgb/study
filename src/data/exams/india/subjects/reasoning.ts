@@ -9,7 +9,7 @@ export const reasoning: Subject = {
     { id: 'reason-006', name: 'Data Sufficiency (Reasoning)', weight: 3 as const, description: 'Data Sufficiency: Problems from various reasoning topics presented as data sufficiency questions - tests ability to evaluate whether given statements are sufficient to answer a question without actually solving it.' },
     { id: 'reason-007', name: 'Inequalities and Comparisons', weight: 3 as const, description: 'Inequalities and Comparisons: Direct inequalities, coded inequalities, relationship-based comparisons, and ranking-order problems - straightforward when concepts are clear.' },
     { id: 'reason-008', name: 'Verbal & Critical Reasoning', weight: 4 as const, description: 'Verbal Reasoning: Statement-assumption, statement-argument, statement-course of action, cause and effect, and critical reasoning - tests higher-order reasoning and decision-making ability.' },
-    { id: 'reason-009', name: 'Alphanumeric Series & Sequences', weight: 3 as const, description: 'Alphanumeric Series and Miscellaneous: Number-letter-symbol series, sequence puzzles, and mixed series problems - quick-solving questions that provide scoring opportunities with practice.' },
+    { id: 'reason-009', name: 'Alphanumeric Series & Sequences', weight: 3 as const, description: 'Number-letter-symbol series, sequence puzzles, and mixed series problems - quick-solving questions that provide scoring opportunities with practice.' },
     { id: 'reason-010', name: 'Analytical & Visual Reasoning', weight: 3 as const, description: 'Analytical Reasoning: Calendar and clock problems, cube and dice questions, counting figures, and non-verbal analytical reasoning - pattern-based questions requiring visual skill and practice.' }
   ]
 };

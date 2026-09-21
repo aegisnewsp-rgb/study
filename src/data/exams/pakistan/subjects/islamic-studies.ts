@@ -1,13 +1,13 @@
 export const islamic_studies: Subject = {
   id: 'islamic-studies', name: 'Islamic Studies', color: '#6b7280',
   topics: [
-    { id: 'islami-001', name: 'Basic Beliefs of Islam', weight: 3 as const, description: 'Tawheed, Risalah, Angels, Holy Books, Day of Judgment, and Qadar as fundamental Islamic beliefs.' },
-    { id: 'islami-002', name: 'Pillars of Islam', weight: 3 as const, description: 'Five pillars: Shahada, Salah, Zakat, Sawm, and Hajj with their significance and implementation.' },
-    { id: 'islami-003', name: 'Life of Holy Prophet (PBUH)', weight: 3 as const, description: 'Biography of Prophet Muhammad from birth to death including Makki and Madni periods.' },
-    { id: 'islami-004', name: 'Holy Quran Sciences', weight: 3 as const, description: 'Introduction to Quran, its compilation, Surahs, Ayats, and basic Tajweed rules.' },
-    { id: 'islami-005', name: 'Hadith Sciences', weight: 3 as const, description: 'Collection of Hadith, Kutub al-Sittah, classification of Hadith, and narrators.' },
-    { id: 'islami-006', name: 'Islamic History', weight: 3 as const, description: 'Khulafa-e-Rashidun, Umayyad, Abbasid dynasties, and contributions of Muslim civilizations.' },
-    { id: 'islami-007', name: 'Fiqh and Islamic Jurisprudence', weight: 3 as const, description: 'Sources of Islamic law, schools of thought (Hanfi, Maliki, Shafi, Hanbali), and Ijtihad concepts.' },
-    { id: 'islami-008', name: 'Islamic Ethics and Morals', weight: 3 as const, description: 'Islamic moral values, Akhlaq, adab, and teachings of Islam regarding personal conduct.' }
+    { id: 'islami-001', name: 'Islam as a Din: Concept and Distinctive Aspects', weight: 4 as const, description: 'Concept of Islam, the importance of Din in human life, the distinction between Din and Religion, distinctive aspects of Islam, and the impact of Islamic beliefs on the individual and society as defined by the FPSC CSS Islamic Studies syllabus.' },
+    { id: 'islami-002', name: 'Islamic Beliefs and Worships', weight: 2 as const, description: 'The articles of Islamic faith (Tawheed, Risalah, Akhirah, angels, scriptures, Qadar), and the spiritual, moral and social impact of Islamic worships (Salah, Zakat, Sawm, Hajj and Dhikr) on the believer.' },
+    { id: 'islami-003', name: 'Sirah of the Prophet Muhammad (PBUH)', weight: 5 as const, description: 'Life of the Holy Prophet Muhammad (PBUH) as a role model for the individual, diplomat, educator, military strategist and peace-maker - covering the Makki and Madni periods and the key events studied in the FPSC CSS Islamic Studies paper.' },
+    { id: 'islami-004', name: 'Human Rights and Status of Woman in Islam', weight: 3 as const, description: 'Quranic and Sunnah framework for human rights, the dignity of men and women, the specific rights and obligations of women in Islamic law (inheritance, testimony, marriage, education), and contemporary application.' },
+    { id: 'islami-005', name: 'Islamic Civilization and Culture', weight: 4 as const, description: 'Meanings and vital elements of Islamic civilization, its role in developing human personality and community, and its defining characteristics: Tawhid, self-purification, dignity of man, equality, social justice, moral values, tolerance and the rule of law.' },
+    { id: 'islami-006', name: 'Islam and the Modern World', weight: 3 as const, description: 'The impact of Islamic civilization on the West and vice versa, the role of Islam in the modern world, contemporary challenges facing the Muslim world, and the rise of extremism with its ideological drivers.' },
+    { id: 'islami-007', name: 'Public Administration and Governance in Islam', weight: 4 as const, description: 'Concept of public administration in Islam, Quranic guidance on good governance, the governance structure (Shura, legislation, sources of Islamic law), governance under the Pious Khilafat, selected letters of Hazrat Umar (RA) and Hazrat Ali (RA), and the Hisbah accountability system.' },
+    { id: 'islami-008', name: 'Islamic Code of Life', weight: 5 as const, description: 'Salient features of the Islamic system - social, political, economic, judicial and administrative - and the procedures of Ijma and Ijtihad as the mechanisms for deriving guidance on contemporary issues.' }
   ]
 };

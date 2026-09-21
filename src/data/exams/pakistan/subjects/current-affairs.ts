@@ -1,13 +1,13 @@
 export const current_affairs: Subject = {
   id: 'current-affairs', name: 'Current Affairs', color: '#6b7280',
   topics: [
-    { id: 'curren-001', name: 'Pakistan Current Affairs', weight: 3 as const, description: 'Recent political, economic, and social developments in Pakistan including government policies.' },
-    { id: 'curren-002', name: 'South Asian Affairs', weight: 3 as const, description: 'Current issues between Pakistan and India, Afghanistan, Iran, and regional dynamics in South Asia.' },
-    { id: 'curren-003', name: 'United Nations and International Relations', weight: 3 as const, description: 'Pakistan role in UN, peacekeeping missions, and diplomatic relations worldwide.' },
-    { id: 'curren-004', name: 'Major International Conflicts', weight: 3 as const, description: 'Ongoing global conflicts, territorial disputes, and their impact on international peace and security.' },
-    { id: 'curren-005', name: 'Climate Change and Environment', weight: 3 as const, description: 'Global warming, environmental issues, and Pakistan climate change initiatives.' },
-    { id: 'curren-006', name: 'Global Economy and Trade', weight: 3 as const, description: 'International economic trends, trade agreements, CPEC, and global financial institutions.' },
-    { id: 'curren-007', name: 'Science and Technology News', weight: 3 as const, description: 'Recent breakthroughs in science, space exploration, and AI developments.' },
-    { id: 'curren-008', name: 'Sports and Cultural Events', weight: 3 as const, description: 'Major sporting events, achievements by Pakistani athletes, and cultural festivals.' }
+    { id: 'curren-001', name: 'Pakistan Domestic Political Affairs', weight: 4 as const, description: 'Current political developments within Pakistan: federal-provincial dynamics, parliamentary proceedings, electoral processes, party politics, and governance issues as listed under the FPSC CSS Current Affairs Domestic Affairs section.' },
+    { id: 'curren-002', name: 'Pakistan Economic Affairs and Budget', weight: 4 as const, description: 'Current economic indicators, the latest Economic Survey and Federal Budget, IMF/World Bank programme updates, energy and external finance pressures, and the performance of major sectors.' },
+    { id: 'curren-003', name: 'Pakistan Social Development', weight: 2 as const, description: 'Current social indicators - poverty, education enrolment, health outcomes, sanitation and population planning - as referenced in the FPSC CSS Current Affairs Domestic Affairs (Social) component.' },
+    { id: 'curren-004', name: 'Pakistan Relations with Neighbours', weight: 5 as const, description: 'Pakistan\'s bilateral relations with India, China, Afghanistan and Russia: border management, trade, connectivity projects (CPEC), and the Kashmir dispute as called out in the FPSC syllabus.' },
+    { id: 'curren-005', name: 'Pakistan, the Muslim World and the United States', weight: 4 as const, description: 'Pakistan\'s relations with Iran, Saudi Arabia, Indonesia and Turkey, and with the United States: aid frameworks, security cooperation, energy imports, and diaspora and labour migration issues.' },
+    { id: 'curren-006', name: 'Pakistan and International Organizations', weight: 4 as const, description: 'Pakistan\'s engagement with the UN (including peacekeeping), SAARC, ECO, OIC, WTO and GCC: voting alignments, treaty obligations, dispute-resolution forums, and ongoing accession/negotiation files.' },
+    { id: 'curren-007', name: 'Global Security, Nuclear Politics and International Trade', weight: 5 as const, description: 'International security architecture, nuclear proliferation and nuclear security, nuclear politics in South Asia, terrorism and counter-terrorism, the Doha Development Round and Bali Package, MDG/SDG progress, and globalization debates.' },
+    { id: 'curren-008', name: 'Global Environment, Human Rights and Regional Conflicts', weight: 3 as const, description: 'Global warming, the Kyoto Protocol and Copenhagen Accord, world population trends and policies, human rights regimes, and ongoing regional conflicts (Middle East, Kashmir and Palestine issues) as listed in the FPSC syllabus.' }
   ]
 };

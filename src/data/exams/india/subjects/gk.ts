@@ -8,6 +8,6 @@ export const gk: Subject = {
     { id: 'gk-005', name: 'Indian Economy & Banking', weight: 5 as const, description: 'Planning, sectors, fiscal indicators, RBI monetary tools (repo, CRR, SLR), banking structure and major financial-sector reforms.' },
     { id: 'gk-006', name: 'General Science & Technology', weight: 3 as const, description: 'Physics, chemistry and biology fundamentals plus Indian S&T developments: ISRO missions, DRDO, nuclear, defence and emerging tech.' },
     { id: 'gk-007', name: 'World Geography & Current Affairs', weight: 3 as const, description: 'Continents, oceans, major landforms, rivers and recent international summits, groupings (UN, G20, BRICS, ASEAN) and global agreements.' },
-    { id: 'gk-008', name: 'Sports, Awards & Miscellaneous', weight: 2 as const, description: 'Major sports tournaments (Olympics, Asian Games, World Cups), civilian and sports awards, important international days and miscellaneous static GK.' }
+    { id: 'gk-008', name: 'Sports, Awards & Important Days', weight: 2 as const, description: 'Major sports tournaments (Olympics, Asian Games, World Cups), civilian and sports awards, and important international days that form the static portion of general studies.' }
   ]
 };

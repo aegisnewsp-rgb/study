@@ -8,237 +8,99 @@ topicName: Mechanical Waves
 weight: 3
 country: bangladesh
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-07-25"
+lastUpdated: "2026-09-21"
 ---
 
 # Mechanical Waves
-### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
 
-**Key facts** — DU Admission (Bangladesh)
-Core concept: Waves and Sound — properties of wave motion and acoustic phenomena
-High-yield point: Wave equation, resonance, Doppler effect formulas
-⚡ Exam tip: At least one numerical problem from wave equation or Doppler effect appears in every DU admission test
+### 🟢 Lite — Quick Review (1h–1d)
+
+> Grab the wave-equation trio before anything else: speed, frequency, wavelength.
+
+A wave moves *energy*, not the medium itself. That is the single fact examiners exploit when they write "the particle travels with the wave" as a wrong option. For DU Admission Science (3% weight, typically 1–2 MCQs), the speed relation `v = fλ` carries every numeric problem; everything else is classification.
+
+| Quantity | Symbol | SI unit | Dimension |
+|---|---|---|---|
+| Wave speed | v | m·s⁻¹ | [L T⁻¹] |
+| Frequency | f | Hz | [T⁻¹] |
+| Wavelength | λ | m | [L] |
+| Time period | T | s | [T] |
+| Amplitude | A | m | [L] |
+
+> 💡 **High-Yield Memory Hook (Memory Hook — "SALT"):** **S**ound is **A**longitudinal, **L**ight-like ripples on a string are **T**ransverse. Wave shape rhymes with particle motion — perpendicular for transverse, parallel for longitudinal.
+
+Sound in air at 20 °C travels near 343 m·s⁻¹, set by `v = √(γP/ρ)`, and it dies in vacuum.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
 
-**Study guide** — DU Admission (Bangladesh)
-Overview: Waves and Sound is a high-scoring physics topic requiring conceptual clarity
-Core principles: Wave properties, sound propagation, acoustic phenomena
-Key points: Wave equation v = fλ, Doppler effect, resonance frequency
-Study strategy: Learn formulas with conditions of application, solve 5–10 problems daily
+#### Wave types and what actually oscillates
+
+A transverse wave makes particles swing perpendicular to the direction the disturbance travels — picture a flicked guitar string. A longitudinal wave pushes particles back and forth along that same direction, producing alternating **compressions** (high-pressure zones) and **rarefactions** (low-pressure zones). Sound in air is longitudinal; waves on a stretched string are transverse. Light is *electromagnetic*, not mechanical, so it cannot be used as an example of transverse mechanical motion.
+
+| Feature | Transverse mechanical wave | Longitudinal mechanical wave |
+|---|---|---|
+| Particle motion vs propagation | Perpendicular (⊥) | Parallel (∥) |
+| Visible features | Crests, troughs | Compressions, rarefactions |
+| Needs a medium? | Yes (solid preferred, e.g. string) | Yes (solid, liquid, or gas) |
+| Textbook example | Stretched string, S-wave in earth | Sound in air, P-wave in earth |
+
+#### The three master formulas
+
+1. **Universal wave relation:** `v = f λ`, with v in m·s⁻¹, f in Hz, λ in m. Once the medium is fixed, v is fixed; changing f simply rescales λ.
+2. **Stretched string (transverse):** `v = √(T/μ)`, where T is tension in N and μ is linear mass density in kg·m⁻¹. Thicker strings (higher μ) play slower notes at the same tension.
+3. **Sound in a gas:** `v = √(γP/ρ)`, where γ is the adiabatic index (≈1.4 for air), P is pressure in N·m⁻², ρ is density in kg·m⁻³.
+
+> 📌 **Formula Check:** In `v = √(T/μ)`, T is the *tension force*, not temperature, and μ has units kg·m⁻¹, not kg·m⁻³. Conflating these is the most common derivation error.
+
+#### Worked problem
+
+A sitar string has linear mass density 5.0 × 10⁻⁴ kg·m⁻¹ and is stretched to tension 80 N. A finger plucks a note of frequency 200 Hz. Find the wavelength of the transverse wave on the string.
+
+- Step 1 — speed on string: `v = √(T/μ) = √(80 / 5.0×10⁻⁴) = √(1.6×10⁵) ≈ 400 m·s⁻¹`.
+- Step 2 — apply `v = f λ`: `λ = v / f = 400 / 200 = 2.0 m`.
+- Answer: **2.0 m**.
+
+> ⚠️ **Examiner Trap:** Students often plug tension in kg directly or write `λ = f × v`. Forgetting the square root in `√(T/μ)` flips the answer by a factor of √T — a guaranteed loss of one mark.
+
+#### Superposition and the superposition principle
+
+When two waves overlap, the resultant displacement at any point equals the algebraic sum of the individual displacements. This is why standing waves form on a string fixed at both ends: the forward and reflected waves interfere, producing nodes (zero displacement) and antinodes (maximum displacement). The condition for a standing wave on a string of length L is `L = n(λ/2)`, n = 1, 2, 3, … — a derivation often tested under DU Admission's "wave in string" item.
+
+> 💡 **Concept Check:** Amplitude controls loudness for sound and brightness for visible mechanical ripples; it does **not** change wave speed. Picking "louder → faster" is the trap answer.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
 
-## Waves and Sound — Complete Study Notes
+#### Where the simple formula breaks down
 
-### Introduction to Waves
+`v = √(T/μ)` assumes an ideal, flexible string under uniform tension. Real strings show dispersion at high frequency (modes travel at slightly different speeds), and stiffness adds an extra term `√(T/μ − π² Y I / μ λ²)` where YI is the bending stiffness. The textbook relation still answers MCQs, but a numeric problem with wavelength approaching string thickness pushes the answer past the simple formula's range.
 
-A wave is a disturbance that transfers energy through a medium without transferring matter. Understanding wave behavior is essential for optics, acoustics, and modern physics — all areas tested in the DU admission exam.
+For longitudinal waves in a thin solid rod, the correct speed is `v = √(E/ρ)`, where E is Young's modulus (N·m⁻², dimension [M L⁻¹ T⁻²]) and ρ is density. Students commonly confuse this with `√(γP/ρ)` used for gases — the variables look similar but E and γP are dimensionally different quantities.
 
-### Types of Waves
+#### Advanced traps and exceptions
 
-#### 1. Mechanical Waves
-Require a material medium for propagation:
-- **Transverse waves**: Particles vibrate perpendicular to wave direction (light, waves on string)
-- **Longitudinal waves**: Particles vibrate parallel to wave direction (sound waves)
+1. **Crest-to-adjacent-trough distance is λ/2, not λ.** A full wavelength runs crest-to-crest or trough-to-trough.
+2. **Sound travels faster in solids than in air** because the elastic modulus rises faster than density: steel ≈ 5000 m·s⁻¹ vs air ≈ 343 m·s⁻¹.
+3. **Doppler shift changes f, not v.** A moving source alters the wavelength but leaves the medium's speed alone.
+4. **Phase difference of 180° between two coherent waves of equal amplitude gives zero resultant** — the cancellation principle behind noise-cancelling headphones and antinode destruction.
+5. **Mechanical waves need an inertial-restoring mechanism.** No medium with both elasticity and inertia means no propagation — a perfect rigid solid does not transmit shear waves.
 
-#### 2. Electromagnetic Waves
-Do NOT require a medium — can travel through vacuum:
-- Include light, radio waves, X-rays, gamma rays
-- All travel at speed of light: c = 3 × 10⁸ m/s
+#### Practice prompts
 
-#### 3. Matter Waves
-Associated with moving particles (de Broglie hypothesis) — introduced in modern physics sections.
+- A tube open at one end and closed at the other resonates at its fundamental at 85 Hz when air is at 20 °C. What length of air column is required? (Use v = 343 m·s⁻¹ and the closed-end condition L = λ/4.)
+- A steel wire of density 7800 kg·m⁻³ has Young's modulus 2.0 × 10¹¹ N·m⁻². A longitudinal pulse is sent along it. Compare its speed with sound in air and state which medium carries the disturbance faster.
 
-### Important Wave Quantities
+---
 
-| Symbol | Quantity | Unit | Formula |
-|--------|----------|------|---------|
-| v | Wave velocity | m/s | |
-| f | Frequency | Hz | |
-| λ | Wavelength | m | |
-| T | Time period | s | T = 1/f |
-| A | Amplitude | m | |
+## Continue your study
 
-### The Wave Equation
-
-**v = f × λ**
-
-This is the most important equation in wave physics. It connects all three fundamental wave properties.
-
-**Example problem:** A wave travels at 340 m/s with frequency 512 Hz. Find its wavelength.
-- λ = v/f = 340/512 = **0.664 m**
-
-**Alternate form:** v = λ/T (since T = 1/f)
-
-### Wave Properties
-
-#### Reflection
-- Waves bounce back when they hit a boundary
-- Angle of incidence = Angle of reflection
-- Used in echo, sonar, optical fibers
-
-#### Refraction
-- Wave changes direction when passing into a different medium
-- Frequency remains constant; wavelength and speed change
-- v ∝ √(elastic property/inertial property)
-
-#### Diffraction
-- Bending of waves around obstacles
-- Most noticeable when obstacle size ≈ wavelength
-- Explains sound traveling around corners
-
-#### Interference
-- Two or more waves combine in the same region
-- **Constructive interference**: Crest meets crest → resultant amplitude maximum
-- **Destructive interference**: Crest meets trough → resultant amplitude minimum
-- Condition for constructive: path difference = nλ
-- Condition for destructive: path difference = (2n+1)λ/2
-
-#### Polarization
-- Confines vibration to one plane
-- Only transverse waves can be polarized
-- Applications: Polaroid sunglasses, 3D movies
-
-### Sound Waves
-
-Sound is a longitudinal mechanical wave with frequency between **20 Hz and 20,000 Hz**.
-
-| Type | Frequency Range |
-|------|----------------|
-| Infrasound | < 20 Hz |
-| Audible sound | 20 Hz – 20 kHz |
-| Ultrasound | > 20 kHz |
-
-#### Speed of Sound
-- In air: **v ≈ 330 + 0.6T** m/s (where T is temperature in °C)
-- At 25°C: v ≈ 345 m/s
-- In water: ~1500 m/s
-- In steel: ~5000 m/s
-
-**Important:** Speed of sound is independent of pressure and frequency (in ideal gases).
-
-### Propagation of Sound
-
-Sound requires a material medium. It cannot travel through vacuum.
-
-**Speed in gases:** v = √(γP/ρ) = √(γRT/M)
-- γ (gamma) = ratio of specific heats (1.4 for air)
-- P = pressure, ρ = density, M = molar mass
-- **v ∝ √(T)** — speed increases with temperature
-- **v is independent of pressure** (at constant temperature)
-- **v is independent of frequency**
-
-### Characteristics of Sound
-
-1. **Pitch (Frequency):** Higher frequency → Higher pitch
-2. **Loudness (Amplitude):** Greater amplitude → Louder sound
-3. **Quality (Waveform):** Determines timbre, distinguishes same pitch from different instruments
-
-### Intensity Level
-
-**β (in dB) = 10 log₁₀(I/I₀)**
-
-Where I₀ = 10⁻¹² W/m² (threshold of hearing)
-
-- Increase of 10 dB = 10× intensity
-- Increase of 20 dB = 100× intensity
-- Increase of 30 dB = 1000× intensity
-
-### Echo and Reverberation
-
-- Echo: Distinct reflected sound heard after original sound
-- Minimum distance for echo in air: **d = v × t/2 = 17.2 m** (at 25°C, t = 0.1s)
-- Reverberation: Persistence of sound due to multiple reflections (important in hall design)
-
-### Doppler Effect
-
-When source and observer move relative to each other, apparent frequency changes.
-
-**Formula:**
-- Source moving, observer stationary: f' = f × v/(v ∓ vₛ)
-- Observer moving, source stationary: f' = f × (v ± vₒ)/v
-
-**Sign convention:**
-- Source towards observer: use − in denominator (frequency increases)
-- Observer towards source: use + in numerator (frequency increases)
-
-**Examples:**
-1. Ambulance siren: Higher pitch approaching, lower pitch receding
-2. Train whistle: Same principle
-
-### Stationary Waves (Standing Waves)
-
-Formed when two waves of same amplitude and frequency travel in opposite directions.
-
-#### Closed Pipe (One end closed):
-- Fundamental frequency: f₁ = v/4L
-- Harmonics: fₙ = (2n-1)v/4L (only odd harmonics)
-- Wavelength: λₙ = 4L/n
-
-#### Open Pipe (Both ends open):
-- Fundamental frequency: f₁ = v/2L
-- Harmonics: fₙ = nv/2L (all harmonics)
-- Wavelength: λₙ = 2L/n
-
-### Resonance
-
-When frequency of applied force matches natural frequency of body, amplitude becomes maximum.
-
-**Examples:**
-- Breaking glass with high-pitched sound
-- Bridge collapse due to wind matching natural frequency
-- Microwave oven: microwave frequency matches water molecule frequency
-
-### Beats
-
-Beats occur when two waves of slightly different frequencies interfere.
-
-**Beat frequency:** f_beat = |f₁ - f₂|
-
-This is used for tuning musical instruments.
-
-### Application in Music
-
-| Term | Definition |
-|------|-----------|
-| **Note** | Sound of specific frequency |
-| **Octave** | Frequency doubles |
-| **Tone** | Single frequency (pure note) |
-| **Noise** | Random frequencies |
-
-### Must-Remember Formulas
-
-1. **Wave equation:** v = fλ
-2. **Doppler effect (source moving):** f' = f(v/(v ∓ vₛ))
-3. **Doppler effect (observer moving):** f' = f((v ± vₒ)/v)
-4. **Beat frequency:** f_beat = |f₁ - f₂|
-5. **Sound intensity level:** β = 10 log₁₀(I/I₀)
-6. **Closed pipe fundamental:** f₁ = v/4L
-7. **Open pipe fundamental:** f₁ = v/2L
-8. **Echo distance:** d_min = 17.2 m (at 25°C)
-
-### Common DU Admission Questions
-
-1. Wave equation numerical (find λ or f)
-2. Doppler effect — source moving towards/away
-3. Standing wave harmonics in open/closed pipe
-4. Difference between transverse and longitudinal waves
-5. Energy in wave vs amplitude relationship
-
-### Exam Tips
-
-- For Doppler effect: Remember "towards increases, away decreases"
-- In resonance tube problems, end correction e = 0.3d must be considered
-- Light waves are transverse; all electromagnetic waves can be polarized
-- Sound waves are longitudinal; cannot be polarized
+- **[View this topic in your DU Admission (Bangladesh) roadmap](/roadmap/?exam=du-ad&duration=1mo)** — see where "Mechanical Waves" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=du-ad&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[DU Admission (Bangladesh) exam overview](/exams/du-ad/)** — pattern, eligibility, and syllabus
+- **[All Science notes](/notes/du-ad/science/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

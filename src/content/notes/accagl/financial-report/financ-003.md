@@ -8,205 +8,135 @@ topicName: "Statement of Financial Position (Balance Sheet)"
 weight: 3
 country: pakistan
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-21"
 ---
 
 # Statement of Financial Position (Balance Sheet)
 
 ### 🟢 Lite — Quick Review (1h–1d)
+> The SOFP is a snapshot, not a film — point-in-time figures only, never "for the period."
 
-**IAS 1 — Balance Sheet Presentation**
+The **Statement of Financial Position** reports what an entity *owns, owes, and has invested* at a single reporting date. It obeys the accounting equation, classifies items into current and non-current categories, and is governed by IAS 1 (with IFRS 18 taking over from 1 January 2027).
 
-**Current vs Non-Current (IAS 1.66-69):**
+| Formula | Meaning | Unit / Dimension |
+|---|---|---|
+| A = L + E | Total assets equal liabilities plus equity | PKR / Rs. [Currency] |
+| Working capital | Current Assets − Current Liabilities | PKR / Rs. [Currency] |
+| Current ratio | Current Assets ÷ Current Liabilities | Ratio [dimensionless] |
+| Quick ratio | (Current Assets − Inventory) ÷ Current Liabilities | Ratio [dimensionless] |
+| Gearing | Total Liabilities ÷ Equity × 100% | Percentage [dimensionless] |
 
-Present assets/liabilities as CURRENT unless directly linked to operating cycle > 12 months.
+> 💡 **High-Yield Memory Hook:** "**A**ssets **L**ess **E**quity equals Liabilities" — write it as **A − E = L**. When trial balance totals look off, this is the first reconciliation to run.
 
-**Current Assets:** Cash, bank, assets expected to be realised/sold/consumed within 12 months, trading securities, inventories, trade receivables.
-
-**Current Liabilities:** Obligations settled within 12 months, bank overdraft (always current), trade payables, current portion of long-term debt.
-
-**Non-Current Assets:** PPE, intangible assets, investments held long-term, deferred tax assets (IAS 12).
-
-**Key Equity Components:**
-- Share capital (ordinary shares)
-- Share premium
-- Revaluation surplus (IAS 16 — non-distributable)
-- Retained earnings (distributable)
-- Other reserves (general reserve, capital reserve)
-
-⚡ **Exam tip:** Inventory is ALWAYS current even if it takes >12 months to sell — because it's part of normal operating cycle. An asset held for sale (IFRS 5) is classified as current regardless of timeline.
+- **Snapshot rule:** all SOFP balances are as at the last day of the reporting period; movement belongs in the statement of profit or loss or OCI.
+- **IAS 1 §60:** entities may present in current/non-current order or in liquidity order; pick one and apply consistently.
+- **No offsetting** unless a standard explicitly permits it (e.g. IAS 32 for financial instruments).
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
+> Classification errors lose more marks than arithmetic mistakes — examiners prey on weak current/non-current judgements.
 
-**IAS 1 — Statement of Financial Position**
+#### Core structure and the accounting equation
 
-IAS 1 specifies minimum line items on the face of the SoFP:
+Every line on the SOFP must reconcile to **A = L + E**. Total assets always equals the sum of total liabilities and total equity, even after consolidation adjustments for goodwill, non-controlling interest (NCI), and intra-group balances. Equity itself disaggregates into share capital, share premium, retained earnings, revaluation reserve (OCI), and other reserves specified by IAS 1.
 
-**Assets:**
-- Property, Plant and Equipment
-- Investment Property (IAS 40)
-- Intangible Assets (IAS 38)
-- Financial Assets (IFRS 9)
-- Investments accounted for using equity method (IAS 28)
-- Deferred Tax Assets (IAS 12)
-- Non-Current Assets held for sale (IFRS 5)
-- Inventories (IAS 2)
-- Trade and Other Receivables
-- Cash and Cash Equivalents (IAS 7)
+#### Classification matrix — current vs non-current
 
-**Equity:**
-- Share Capital
-- Share Premium
-- Other Components of Equity
-- Retained Earnings
+| Item | Current | Non-current | Conditional / Edge |
+|---|---|---|---|
+| Trade receivables | Due ≤ 12 months | Due > 12 months | Long-term instalments split on a discounted basis |
+| Inventory | Held for resale in normal operating cycle | — | Spare parts often classed as PPE, not inventory (IAS 16) |
+| Bank overdraft | Repayable on demand | — | Net against cash only when a right of set-off exists (IAS 32) |
+| Borrowings | Due within 12 months | Due after 12 months | Breaches of long-term covenants → reclassify as current (IAS 1 §74) |
+| Deferred tax | Reverses within 12 months | Reverses after 12 months | Offset current deferred tax against current tax balance (IAS 1 §54) |
+| Provisions | Expected outflow ≤ 12 months | Expected outflow > 12 months | Discount to present value if material (IAS 37) |
+| Contingent liabilities | Do **not** recognise | Do **not** recognise | Disclose only unless probable + estimable (IAS 37) |
 
-**Liabilities:**
-- Financial Liabilities
-- Trade and Other Payables
-- Borrowings (current and non-current)
-- Deferred Tax Liabilities (IAS 12)
-- Provisions (IAS 37)
-- Non-Current Liabilities held for sale (IFRS 5)
+#### Preparation mechanics from a trial balance
 
-**Current vs Non-Current — The Operating Cycle Test:**
+1. List every ledger balance at the reporting date.
+2. Apply adjustments: depreciation, accruals, prepayments, closing inventory, irrecoverable receivables.
+3. Reclassify items into the IAS 1 layout — non-current first, then current within both asset and liability sides.
+4. Compute retained earnings: opening RE + profit for the year − dividends declared ± prior-period adjustments.
+5. Cross-check **Total Assets = Total Liabilities + Total Equity**; any imbalance signals a missing adjustment.
 
-An entity classifies an asset as current when:
-1. It expects to realise the asset within 12 months after reporting date, OR
-2. It holds the asset primarily for trading, OR
-3. It expects to realise the asset within its normal operating cycle
+#### Group SOFP additions under IFRS 10
 
-The operating cycle is the time between acquiring materials entering production and receiving cash from sale. For most businesses this is <12 months. Items like wine, luxury goods, or construction contracts with long-term projects may have cycles >12 months but are STILL classified as current if within the operating cycle.
+- **Goodwill** = consideration transferred + NCI at acquisition + fair value of previous interest − net identifiable assets acquired. Goodwill is an intangible asset, tested annually for impairment under IAS 36, never amortised.
+- **NCI** sits inside equity, not as a liability, measured either at fair value or at the NCI's proportionate share of net assets.
+- **Intra-group balances** (receivables vs payables, loans, unrealised profit on inventory) eliminate on consolidation.
 
-**IAS 1 Disclosure Requirements:**
+#### Worked example — preparing a SOFP fragment
 
-Minimum disclosures (IAS 1.77-80):
-- For each asset and liability line: carrying amount at period start and end
-- For equity: reconciliation of opening to closing for each component
-- For non-current assets held for sale: fair value less costs to sell
-- Maturity analysis for financial liabilities (IAS 1.61)
-- Collateral pledged for liabilities
-- Accounting policies applied
+A trial balance at 31 December 2025 shows:
 
-**Off-Balance Sheet Items:**
+| Account | Rs. |
+|---|---|
+| Issued share capital (1,000,000 ordinary shares of Rs. 10) | 10,000,000 |
+| Retained earnings (1 Jan 2025) | 4,500,000 |
+| 10% loan note (redeemable 2029) | 6,000,000 |
+| Trade payables | 2,800,000 |
+| Bank overdraft | 750,000 |
+| Inventory | 1,900,000 |
+| Trade receivables | 3,100,000 |
+| PPE (carrying amount) | 16,250,000 |
 
-Entities must disclose (via notes) contingent liabilities (IAS 37) and commitments (undisclosed commitments for capital expenditure, forward contracts). These are NOT on the face of SoFP.
+Additional information: profit for the year Rs. 1,200,000; dividend declared Rs. 400,000.
 
-**Going Concern (IAS 1.25-26):**
+**Step 1 — Closing retained earnings:** 4,500,000 + 1,200,000 − 400,000 = **Rs. 5,300,000**.
 
-If management is aware of material uncertainties about going concern, these must be disclosed. If the entity is NOT a going concern, a different measurement basis is used (liquidation basis).
+**Step 2 — Equity total:** 10,000,000 + 5,300,000 = **Rs. 15,300,000**.
 
-⚡ **Exam tip:** Bank overdraft is ALWAYS classified as current liability even if it's part of a long-term banking arrangement. Students frequently misclassify it as non-current.
+**Step 3 — Non-current liabilities:** loan note redeemable 2029 → **Rs. 6,000,000**.
+
+**Step 4 — Current liabilities:** trade payables 2,800,000 + bank overdraft 750,000 = **Rs. 3,550,000**.
+
+**Step 5 — Total liabilities + equity:** 15,300,000 + 6,000,000 + 3,550,000 = **Rs. 24,850,000**.
+
+**Step 6 — Total assets must equal Rs. 24,850,000**, so non-current assets = 24,850,000 − 1,900,000 − 3,100,000 − 750,000 (cash) − 2,800,000 (already netted into trade payables, not assets) = **Rs. 16,250,000 PPE**, which ties to the trial balance. ✓
+
+> ⚠️ **Examiner Trap:** Candidates routinely add the bank overdraft to cash when computing net cash. The overdraft is a **current liability** unless an IAS 32 right of set-off exists; netting it against a positive cash balance hides the working-capital position.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
+> IFRS 18 reshapes the SOFP surface from 2027 onwards, but the underlying equation is unchanged — drill the principles, not the headings.
 
-**Comprehensive Analysis — Balance Sheet Presentation & Disclosures**
+#### Edge cases that surface in Part II / SBR
 
-**IAS 1 — Ordering of Assets and Liabilities:**
+- **Revaluation of PPE under IAS 16:** the revaluation surplus goes to OCI and accumulates in a revaluation reserve within equity. It is not profit and is not distributable until realised through use or disposal.
+- **Puttable instruments** (e.g. open-ended mutual funds) classified as equity under IAS 32 — present as a separate line, not as a liability.
+- **Defined benefit pension schemes:** the net defined benefit liability (asset) is a non-current line; current service cost and interest go to profit or loss, while actuarial gains/losses go to OCI.
+- **Investment property** at fair value under IAS 40: gains/losses hit profit or loss; under the cost model, depreciation applies as for PPE.
+- **Lease liabilities** under IFRS 16 split into current and non-current portions, mirroring the rental payment schedule.
 
-IAS 1 does NOT mandate order of items. Entities may choose:
-- Current first (most common in Pakistan)
-- Non-current first (permitted by IAS 1.60)
+#### Advanced traps and exceptions
 
-Within categories, IAS 1.66-67 suggests listing in order of liquidity. However, entities in Pakistan under the Companies Ordinance 1984 (as amended) follow the prescribed format with current first.
+1. **Covenant breach reclassification:** if a long-term loan is breached at the reporting date and the lender can demand immediate repayment, the entire balance reclassifies as current, even if refinancing is completed after year-end (IAS 1 §74).
+2. **NCI measured at fair value at acquisition** includes the NCI's share of goodwill, inflating goodwill on consolidation — many students forget this uplift.
+3. **Deferred tax on revalued PPE** (IAS 12): recognise the liability on the temporary difference between carrying amount and tax base; the movement in OCI offsets the revaluation surplus in equity.
+4. **Capitalisation of borrowing costs** (IAS 23) inflates non-current assets and reduces finance expense in profit or loss — easy to miss the SOFP knock-on.
+5. **Provisions vs contingent liabilities:** probable + estimable → provision on the face; possible only or unable to estimate → disclose only. Treating a contingent as a provision overstates liabilities and understates equity.
+6. **Functional vs presentation currency:** translation differences on a foreign subsidiary go to OCI as a translation reserve, never to profit or loss.
 
-**Measurement Bases on the Balance Sheet:**
+#### Two advanced practice prompts
 
-| Item | Measurement Base |
-|---|---|
-| PPE (cost model) | Cost less accumulated depreciation less accumulated impairment |
-| PPE (revaluation model) | Fair value at revaluation date less subsequent accumulated depreciation and impairment |
-| Investment Property (cost model) | Cost less accumulated depreciation |
-| Investment Property (FV model) | Fair value — changes in P&L |
-| Intangible Assets | Cost less accumulated amortisation and impairment |
-| Inventories | Lower of cost and NRV |
-| Financial Assets | Classification determines: Amortised Cost, FVPL, or FVOCI |
-| Assets held for sale | Lower of carrying amount and fair value less costs to sell |
+- **Prompt A:** A group acquires 80% of a subsidiary for Rs. 25m. Net identifiable assets at acquisition are Rs. 22m (fair value). The NCI is measured at fair value. Calculate goodwill and the NCI line, then prepare the equity section showing both.
+- **Prompt B:** An entity breaches a loan covenant on 28 December 2025; refinancing is agreed on 15 January 2026. Show the loan on the 31 December 2025 SOFP and justify the classification. Reference IAS 1 §74.
 
-**Equity — Deep Dive:**
+#### Exam strategy
 
-*Share Capital:* Represents nominal value of shares issued. Pakistan companies issue par value shares — excess over par goes to Share Premium (also called Capital Reserve in some jurisdictions).
+ACCA FR tests the SOFP mainly through 10–15 mark preparation questions combined with ratio analysis; CA Pakistan CAF-5 emphasises single-entity layouts with deferred tax and revaluation adjustments. In both, classification decisions carry disproportionately high marks relative to arithmetic. Allocate roughly 60% of question time to reading the scenario for time-bounded items (≤ 12 months, operating cycle, demand-repayable) before touching a calculator.
 
-*Revaluation Surplus (IAS 16):* Created when PPE is revalued upward. This reserve:
-- Is NOT distributable until the asset is disposed of
-- Can be used to capitalise bonus shares (subject to company law)
-- On disposal: transferred to retained earnings (not recycled through P&L)
-- Can be used to absorb revaluation losses (IAS 16.35)
+---
 
-*Retained Earnings:* Accumulated profits less dividends and losses. Represents earnings retained in business. Distributable reserves subject to law (Companies Ordinance Pakistan: only accumulated realised profits, less accumulated realised losses, can be distributed as dividends).
+## Continue your study
 
-*Other Reserves:*
-- General Reserve: Created by annual appropriations from P&L (mandatory in Pakistan)
-- Capital Reserve: Created from non-operating profits (e.g., profit on forfeiture of shares, surplus on capital reduction)
-- Dividend Equalisation Reserve: To maintain consistent dividend payout
-
-**IAS 37 — Provisions, Contingent Liabilities, Contingent Assets:**
-
-*Provision:* Present obligation, probable outflow, reliable estimate possible → RECOGNISED as liability.
-
-*Contingent Liability:* Present possible obligation OR present obligation not probable/not reliably measurable → DISCLOSED (unless probability remote).
-
-*Contingent Asset:* Possible asset arising from past events → DISCLOSED (unless probability remote).
-
-**Non-Current Assets Held for Sale — IFRS 5:**
-
-Conditions (ALL must be met):
-1. Immediately available for sale in present condition
-2. Sale highly probable (active program to locate buyer, asking price reasonable, expected to complete within 12 months)
-3. Asset must be exchanged for cash (not distribution to owners)
-
-Measurement: Carrying amount = lower of carrying amount and fair value less costs to sell. Depreciation STOPPED once classified as held for sale.
-
-**Worked Example — Classification:**
-
-*PakElectronics Ltd has: PPE Rs.50m (net), Inventory Rs.12m (normal cycle 6 months), Trade Receivables Rs.8m, Bank Overdraft Rs.3m, 5-year Loan Repayable in Year 3 Rs.20m, Trade Payables Rs.6m, Deferred Tax Asset Rs.1.5m.*
-
-```
-NON-CURRENT ASSETS:
-PPE                          50,000,000
-Deferred Tax Asset            1,500,000
-                            51,500,000
-
-CURRENT ASSETS:
-Inventories                  12,000,000
-Trade Receivables             8,000,000
-                            20,000,000
-
-TOTAL ASSETS                 71,500,000
-
-EQUITY:
-Share Capital                25,000,000
-Revaluation Surplus           5,000,000
-Retained Earnings            18,500,000
-                            48,500,000
-
-NON-CURRENT LIABILITIES:
-5-Year Loan                 20,000,000
-
-CURRENT LIABILITIES:
-Bank Overdraft                3,000,000
-Trade Payables                6,000,000
-                             9,000,000
-
-TOTAL EQUITY & LIABILITIES   71,500,000
-```
-
-**Common Exam Mistakes:**
-
-- Classifying bank overdraft as non-current (it's always current)
-- Treating inventory as non-current even though operating cycle is <12 months (still current)
-- Confusing revaluation surplus (non-distributable) with capital reserve (may be distributable on dissolution)
-- Forgetting deferred tax assets/liabilities in non-current section
-- Misclassifying "assets held for sale" — must be separately presented, not netted against liabilities
-- Not disclosing the nature of equity components when amounts appear unusual
-
-**Practice Tips:**
-- For balance sheet preparation questions, always check whether the cost model or revaluation model applies
-- Watch for "restrictive covenant" questions — some loan agreements may restrict dividend distribution, affecting retained earnings presentation
-- In group accounts, remember to eliminate intra-group balances and show NCI separately
+- **[View this topic in your ACCA/CA Pakistan roadmap](/roadmap/?exam=accagl&duration=1mo)** — see where "Statement of Financial Position (Balance Sheet)" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=accagl&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[ACCA/CA Pakistan exam overview](/exams/accagl/)** — pattern, eligibility, and syllabus
+- **[All Financial Reporting notes](/notes/accagl/financial-report/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

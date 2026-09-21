@@ -1,17 +1,18 @@
 export const physics: Subject = {
   id: 'physics', name: 'Physics', color: '#3b82f6',
   topics: [
-    { id: 'physic-001', name: 'Mechanics', weight: 3, description: 'Kinematics, dynamics, Newton\'s laws of motion, friction, work, energy, power, conservation of momentum, collisions, and circular motion.' },
-    { id: 'physic-002', name: 'Heat and Temperature', weight: 3, description: 'Heat transfer, specific heat capacity, calorimetry, change of state, heat engines, gas laws, kinetic theory of gases, and thermal expansion.' },
-    { id: 'physic-003', name: 'Waves', weight: 3, description: 'Wave properties, transverse and longitudinal waves, superposition, interference, diffraction, standing waves, sound waves, and the Doppler effect.' },
-    { id: 'physic-004', name: 'Light and Optics', weight: 3, description: 'Reflection, refraction, lenses, mirrors, optical instruments, total internal reflection, dispersion, and wave optics including interference and diffraction.' },
-    { id: 'physic-005', name: 'Electricity and Magnetism', weight: 3, description: 'Electric charge, Coulomb\'s law, electric fields, current electricity, Ohm\'s law, circuits, Kirchhoff\'s laws, magnetism, electromagnetic induction, and AC theory.' },
-    { id: 'physic-006', name: 'Modern Physics', weight: 3, description: 'Photoelectric effect, Bohr atom model, X-rays, radioactivity, nuclear reactions, fission and fusion, and semiconductor physics basics.' },
-    { id: 'physic-007', name: 'Gravitation', weight: 3, description: 'Newton\'s law of universal gravitation, gravitational field, satellites, orbital motion, escape velocity, and Kepler\'s laws of planetary motion.' },
-    { id: 'physic-008', name: 'Fluid Mechanics', weight: 3, description: 'Pressure, Pascal\'s principle, Archimedes\' principle, Bernoulli\'s principle, viscosity, surface tension, and fluid dynamics applications.' },
-    { id: 'physic-009', name: 'Simple Harmonic Motion', weight: 3, description: 'Oscillations, simple pendulum, mass-spring systems, damped oscillations, resonance, energy in SHM, and graphical analysis of oscillatory motion.' },
-    { id: 'physic-010', name: 'Measurement and Units', weight: 3, description: 'SI units, dimensional analysis, significant figures, measurement errors, precision and accuracy, and conversion between units in physics calculations.' },
-    { id: 'physic-011', name: 'Linear Motion and Projectiles', weight: 3, description: 'Displacement, velocity, acceleration, equations of motion, projectile motion, trajectory calculations, and applications to sports and engineering problems.' },
-    { id: 'physic-012', name: 'Electromagnetic Spectrum', weight: 3, description: 'Properties of electromagnetic waves, spectrum regions (radio to gamma), communication applications, health effects, and wave-particle duality concepts.' }
+    { id: 'physic-001', name: 'Introduction to Physics', weight: 2 as const, description: 'Meaning and branches of physics, its relationship to other subjects and technology, career opportunities, and basic laboratory safety rules per KNEC KCSE Form 1.' },
+    { id: 'physic-002', name: 'Mechanics', weight: 5 as const, description: 'Force, pressure, linear motion, Newton\'s laws, turning effect, equilibrium, centre of gravity, and Hooke\'s law per KNEC KCSE Paper 1.' },
+    { id: 'physic-003', name: 'Heat and Temperature', weight: 4 as const, description: 'Thermal expansion, heat transfer (conduction, convection, radiation), quantity of heat, specific heat capacity, and latent heat per KNEC KCSE.' },
+    { id: 'physic-004', name: 'Waves and Sound', weight: 4 as const, description: 'Wave properties, transverse and longitudinal waves, superposition, sound waves, Doppler effect, and resonance per KNEC KCSE Paper 2.' },
+    { id: 'physic-005', name: 'Light and Optics', weight: 4 as const, description: 'Reflection, refraction, thin lenses, optical instruments, dispersion, total internal reflection, and electromagnetic spectrum per KNEC KCSE Paper 2.' },
+    { id: 'physic-006', name: 'Electricity and Magnetism', weight: 5 as const, description: 'Electrostatics, current electricity, Ohm\'s law, cells, magnetic effect of electric current, electromagnetic induction, and mains electricity per KNEC KCSE.' },
+    { id: 'physic-007', name: 'Modern Physics', weight: 3 as const, description: 'Cathode rays and CRT, X-rays, photoelectric effect, Einstein\'s photoelectric equation, and radioactivity (alpha, beta, gamma) per KNEC KCSE Form 4.' },
+    { id: 'physic-008', name: 'Electronics', weight: 2 as const, description: 'Conductors, semiconductors, doping, p-n junction diodes, rectification (half-wave and full-wave), and transistor basics per KNEC KCSE Form 4.' },
+    { id: 'physic-009', name: 'Fluid Mechanics', weight: 3 as const, description: 'Archimedes\' principle, law of floatation, relative density, fluid flow, Bernoulli\'s principle, and surface tension per KNEC KCSE Form 2 and 4.' },
+    { id: 'physic-010', name: 'Gas Laws', weight: 3 as const, description: 'Boyle\'s law, Charles\'s law, pressure law, ideal gas equation, and kinetic theory of gases per KNEC KCSE Form 3.' },
+    { id: 'physic-011', name: 'Work, Energy, Power and Machines', weight: 4 as const, description: 'Work, energy, power, conservation of energy, efficiency, simple machines (levers, pulleys, inclined planes), and mechanical advantage per KNEC KCSE Form 3.' },
+    { id: 'physic-012', name: 'Uniform Circular Motion', weight: 2 as const, description: 'Angular displacement, angular velocity, centripetal force, banking of tracks, conical pendulum, and centrifuge applications per KNEC KCSE Form 4.' },
+    { id: 'physic-013', name: 'Measurement', weight: 4 as const, description: 'SI units and symbols, length, area, volume, mass, density and time, estimation of quantities, measuring instruments, and density experiments per KNEC KCSE Form 1.' }
   ]
 };

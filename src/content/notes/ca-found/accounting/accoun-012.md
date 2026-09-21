@@ -8,124 +8,144 @@ topicName: Standard Costing
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: "2026-05-25"
+lastUpdated: "2026-09-21"
 ---
 
 # Standard Costing
 
 ### 🟢 Lite — Quick Review (1h–1d)
+> Last-hour pass: set standards, compare with actuals, isolate variances — that's the whole chapter in one line.
 
-**Standard Costing** is a cost control technique where **predetermined standard costs** are established for each element—**Material**, **Labor**, and **Overhead**—and compared with actual costs incurred to determine **variances**.
+Standard costing fixes a benchmark ("standard") for what each unit of output *should* cost under efficient working conditions, then walks the difference against the actual cost back to its causes.
 
-**Key Formulas (memorise all):**
+- **Standard Cost** = planned cost under efficient operations (₹ per unit).
+- **Standard Hour** = the time a skilled worker at normal efficiency should take. Used to absorb overheads into output.
+- **Variance** = Standard Cost − Actual Cost. Favourable when actual is lower; Adverse when higher.
 
-- **Material Cost Variance (MCV)** = (SQ × SP) − (AQ × AP)
-- **Material Price Variance (MPV)** = (SP − AP) × AQ purchased
-- **Material Usage Variance (MUV)** = (SQ − AQ) × SP
-- **Labor Cost Variance (LCV)** = (SH × SR) − (AH × AR)
-- **Labor Rate Variance (LRV)** = (SR − AR) × AH
-- **Labor Efficiency Variance (LEV)** = (SH − AH) × SR
-- **Fixed Overhead Variance** = Recovered Fixed OH − Actual Fixed OH
+| Variance (most tested) | Formula (₹) | Favourable sign |
+|---|---|---|
+| Material Price (MPV) | (SP − AP) × AQ | SP > AP |
+| Material Usage (MUV) | (SQ − AQ) × SP | SQ > AQ |
+| Labour Rate (LRV) | (SR − AR) × AH | SR > AR |
+| Labour Efficiency (LEV) | (SH − AH) × SR | SH > AH |
 
-**Exam High-Yield Pointers:**
-- MCV = MPV + MUV; LCV = LRV + LEV (additive split is always tested)
-- **Favorable (F):** Standard > Actual cost (profit); **Unfavorable (U):** Actual > Standard cost (loss)
-- Three standard types: **Basic** (long-term fixed), **Current** (prevailing conditions), **Ideal** (perfect conditions)
-- Variance analysis feeds into **responsibility accounting**—attribute deviations to controllable vs uncontrollable factors
+> 💡 **High-Yield Memory Hook:** "**P**rice variances ride on **A**ctual **Q**uantity; **U**sage or **E**fficiency ride on **S**tandard." So MPV uses AQ in the multiplier; MUV and LEV use SP / SR. Remember PAQ-USE as your recall anchor under pressure.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
+> Working layer: build the standard, isolate each variance, then reconcile profit.
 
-#### What Is a Standard Cost?
+#### Building a Standard
 
-A **Standard Cost** is a predetermined estimate of what a product should cost under normal operating conditions. It serves as a **benchmark** against which actual performance is measured. Standard Costing is the formal system of using these benchmarks for control purposes—it's not about finding the cheapest way to produce, but about establishing **expectations** and measuring **deviations**.
+A standard cost card normally carries three rate blocks: **Material** (₹ per kg), **Labour** (₹ per hour), and **Overhead** (₹ per hour or ₹ per unit). Standards are set using past records adjusted for expected changes — they are never guesses. Three grades you should recognise:
 
-#### The Variance Mechanism
+- **Basic Standard** — held constant for years; useful for long-term trend measurement only.
+- **Current Standard** — revised for the current period conditions; the exam's default.
+- **Ideal Standard** — assumes no waste, no idle time; rarely met, useful for benchmarking ceilings.
 
-A **Variance** is the algebraic difference between Standard Cost and Actual Cost:
+#### The Variance Family
 
-**Variance = Standard Cost − Actual Cost**
-
-When the result is positive, the variance is **Favorable** (actual costs were lower than standard). When negative, it is **Unfavorable/Adverse** (actual costs exceeded standard).
-
-The power of variance analysis lies in **decomposition**. Rather than treating a total variance as one figure, accountants split it into component parts:
-
-#### Material Variances
-
-| Variance | Formula | Indicates |
+| Variance | Controllable? | Typical cause |
 |---|---|---|
-| Material Price Variance (MPV) | (SP − AP) × AQ purchased | Deviation in purchase price per unit |
-| Material Usage Variance (MUV) | (SQ − AQ) × SP | Deviation in quantity consumed |
-| Material Cost Variance (MCV) | (SQ × SP) − (AQ × AP) | Combined effect |
+| Material Price | Yes (purchasing) | Market rate change, supplier selection, discount missed |
+| Material Usage | Yes (production) | Spillage, faulty machinery, inferior inputs |
+| Labour Rate | Yes (HR) | Wrong-grade staff, overtime, pay settlement |
+| Labour Efficiency | Yes (foreman) | Learning curve, batch size, scheduling |
+| Fixed Overhead Volume | Partly | Capacity utilisation gap |
+| Sales Price | Yes (marketing) | Discounts, competition, demand shift |
 
-Where: **SQ** = Standard Quantity for actual output; **SP** = Standard Price; **AQ** = Actual Quantity; **AP** = Actual Price.
+#### Interdependence — Two-Way Analysis
 
-#### Labor Variances
+Material variances split into **Price × Quantity**. Labour variances split into **Rate × Efficiency**. Fixed overheads split into **Expenditure × Volume**. The split lets a manager see whether a department saved on paper (rate) but lost on the floor (efficiency).
 
-| Variance | Formula | Indicates |
-|---|---|---|
-| Labor Rate Variance (LRV) | (SR − AR) × AH | Change in wage rate per hour |
-| Labor Efficiency Variance (LEV) | (SH − AH) × SR | Productivity deviation in time |
-| Labor Cost Variance (LCV) | (SH × SR) − (AH × AR) | Combined effect |
+#### Worked Exam-Style Problem
 
-Where: **SH** = Standard Hours; **SR** = Standard Rate; **AH** = Actual Hours; **AR** = Actual Rate.
+A factory produces one unit using **4 kg** of material at a **standard price of ₹50/kg** and **5 standard hours** at **₹40/hour**. Actual results for 1,000 units produced: **4,200 kg** issued at **₹48/kg**; **5,200 hours** paid at **₹42/hour**.
 
-#### Overhead Variances
+Step 1 — Material variances. AQ = 4,200 kg; SQ for actual output = 4 kg × 1,000 = 4,000 kg.
 
-**Total Overhead Variance** = Standard Overhead Cost − Actual Overhead Cost
+- MPV = (50 − 48) × 4,200 = 8 × 4,200 = **₹8,400 F**
+- MUV = (4,000 − 4,200) × 50 = −200 × 50 = **₹10,000 A**
 
-For **fixed overhead**, the variance arises from volume difference (output level) and expenditure difference (spending control). This two-way split is commonly examined in CA Foundation.
+Step 2 — Labour variances. AH = 5,200; SH = 5 × 1,000 = 5,000.
 
-#### Types of Standards
+- LRV = (40 − 42) × 5,200 = −2 × 5,200 = **₹10,400 A**
+- LEV = (5,000 − 5,200) × 40 = −200 × 40 = **₹8,000 A**
 
-- **Basic Standard:** Remains unchanged over long periods; used as a fixed reference point
-- **Current Standard:** Reflects present conditions; updated regularly
-- **Ideal Standard:** Assumes perfect efficiency with no wastage; rarely achievable
+Step 3 — Verify totals. Total Material Cost Variance = 8,400 F + 10,000 A = **₹1,600 A**. Check: (SP × SQ) − (AP × AQ) = (50 × 4,000) − (48 × 4,200) = 2,00,000 − 2,01,600 = ₹1,600 A ✓.
 
-#### Exam Pattern
+Total Labour Cost Variance = 10,400 A + 8,000 A = **₹18,400 A**. Check: (SR × SH) − (AR × AH) = (40 × 5,000) − (42 × 5,200) = 2,00,000 − 2,18,400 = ₹18,400 A ✓.
 
-Questions typically ask you to **calculate each variance** and then **reconcile** total standard cost with actual cost by showing how F/U variances offset each other. Assertion-reason questions test whether you understand *why* a variance is Favorable or Unfavorable.
+> ⚠️ **Examiner Trap:** ICAI expects **Quantity = Standard Quantity for Actual Output**, not budgeted output. Slip the substitution and every usage/efficiency variance flips sign. Another common slip: writing MPV as (AP − SP) × AQ — direction matters because SP − AP gives a *favourable* number when standards exceed actuals.
+
+#### Reconciliation of Profit
+
+Last step in any paper-2 question: the P&L format shows
+
+**Standard Profit = Sales at standard − Standard Cost of Actual Output**,
+**Actual Profit = Actual Sales − Actual Cost**, and the difference equals total variance (Adverse when Actual Profit is lower). Always close the reconciliation with the Fixed Overhead Volume Variance adjustment when absorption costing is in play.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
+> Edge layer: absorption vs marginal splits, capacity traps, exam-day arithmetic.
 
-#### The Logic of Variance Decomposition
+#### Absorption vs Marginal Costing — Why the Difference
 
-The split between price/rate variance and quantity/efficiency variance serves a **control purpose**: price variances usually arise at the **purchasing stage** (making the Purchase Manager responsible), while usage variances originate at the **production stage** (making the Production Manager responsible). This accountability link is the backbone of **responsibility accounting** under Standard Costing.
+Under absorption costing, **Fixed Overhead Volume Variance** = Absorbed Fixed Overhead − Budgeted Fixed Overhead, where Absorbed = Standard Rate per Hour × Standard Hours for Actual Output. Under marginal costing no such variance exists — fixed overheads are treated as a period charge. Pick the right convention before writing a single figure: the question stem will name the method.
 
-#### Worked Example
+#### Capacity Utilisation Edge
 
-A CA Foundation question provides: Standard quantity of material = 200 kg at ₹15/kg; Actual quantity purchased and used = 220 kg at ₹14/kg.
+The fixed overhead volume variance hides a *capacity utilisation* message. Compute budgeted capacity in standard hours, then compare against SH for actual output. Output well below capacity ⇒ large adverse volume variance; the manager's problem is demand, not cost control. Treat the volume variance as **partly uncontrollable** because sales-driven under-utilisation sits outside the production head's authority.
 
-**Step 1 — MCV:**
-MCV = (200 × 15) − (220 × 14) = 3,000 − 3,080 = **₹80 Unfavorable**
+#### Sales Variances
 
-**Step 2 — MPV:**
-MPV = (15 − 14) × 220 = **₹220 Favorable** (bought cheaper than standard)
+Two-part split mirrors cost variances:
 
-**Step 3 — MUV:**
-MUV = (200 − 220) × 15 = **₹300 Unfavorable** (used 20 kg more than standard)
+- **Sales Price Variance** = (Actual Price − Standard Price) × Actual Units Sold (₹).
+- **Sales Volume Variance** = (Actual Units − Budgeted Units) × Standard Contribution per Unit (₹).
 
-**Check:** MPV + MUV = (+220) + (−300) = −80 = MCV. ✓ The additive identity holds because the quantity purchased equals the quantity consumed (220 kg).
+A high price variance can mask a falling volume, or vice versa — never read one without the other.
 
-**Examiner's trap:** When purchasing and consumption quantities differ, **MPV must use the quantity purchased (AQp), while MUV uses the quantity consumed (AQc)**. The identity MCV = MPV + MUV then holds only when each variance is computed with its correct AQ figure.
+#### Reconciliation: P&L Format with Absorption Costing
 
-#### Common Mistakes to Avoid
+| Reconciliation line (₹) | Sign convention |
+|---|---|
+| Standard Profit (given) | base figure |
+| Add: Favourable cost variances | + |
+| Less: Adverse cost variances | − |
+| Less: Adverse Fixed OH Volume Variance | − (absorption only) |
+| **= Actual Profit** | confirmed |
 
-1. **Using AQ consumed in MPV instead of AQ purchased** — the formula specifies quantity *purchased*, not consumed. If 200 kg was purchased but only 190 kg used, MPV is based on 200 kg.
-2. **Assuming all adverse variances indicate poor performance** — if a company revises standards upward due to inflation, the resulting variances are informational, not performance failures.
-3. **Ignoring the sign convention** — a negative variance is Unfavorable. Always state F or U.
-4. **Confusing overhead volume variance with expenditure variance** — volume variance depends on actual output vs budgeted capacity; expenditure variance depends on whether actual spending exceeded budgeted spending.
+#### Common Floor-Traps Students Fall Into
 
-#### Link to Adjacent Topics
+1. **Sign confusion** — Price variances with AQ must keep SP − AP form; flipping to AP − SP silently inverts every number.
+2. **Wrong output base** — Using budgeted output instead of *actual* output when computing SQ or SH inflates favourable variances.
+3. **Mixing rate bases** — Substituting AH into a usage variance pushes variance from production to purchasing; examiners love this.
+4. **Forgetting overhead absorption** — A correct material+labour answer without an overhead variance loses marks if the question clearly carries fixed overheads.
+5. **Skipping the reconciliation** — ICAI awards dedicated marks for tying standard profit to actual profit; leave it out and half the question is gone.
+6. **Treating Idle Time as Efficiency** — Idle time variance is shown separately from LEV, and its sign follows idle vs paid hours, not standard hours.
 
-Standard Costing is the **measurement layer** sitting atop a broader cost control framework. It connects to **Budgetary Control** (where budgets set the expected cost level against which variances are measured) and **Marginal Costing** (where contribution analysis replaces fixed overhead absorption). In practice, Standard Costing works best when paired with **Responsibility Accounting**—each manager receives variance reports only for costs they control.
+#### Advanced Practice Prompts
 
-#### Practice Prompts
+1. A unit takes 6 kg @ ₹80 and 4 hours @ ₹120. Actual production 500 units used 3,100 kg @ ₹78 and 2,100 hours @ ₹125. Compute all four variances and the total cost variance by two independent methods.
+2. Given a fixed overhead budget of ₹4,00,000 for 8,000 standard hours, actual output absorbs 7,200 standard hours. Find the Fixed Overhead Volume Variance in an absorption-costing P&L and state whether the production manager can be held solely responsible.
 
-1. "Calculate Material Cost Variance from the following: Standard — 500 units at ₹20/kg; Actual — 520 kg purchased and consumed at ₹19/kg. Further split into MPV and MUV and comment on the Purchasing Manager's performance."
-2. "Why is Ideal Standard rarely used in practice? How does Current Standard address this limitation while still motivating employees?"
+#### Adjacent Topic Links
 
+- **Marginal Costing** — same variance names, no fixed OH volume variance to absorb.
+- **Budgetary Control** — standards feed the flexed budget; flexed budget variance equals sum of efficiency + price variances.
+- **Cost Accounting Standards (CAS 1–24, ICAI)** — set the disclosure and presentation rules any standard-costing note must comply with.
+
+---
+
+## Continue your study
+
+- **[View this topic in your CA Foundation roadmap](/roadmap/?exam=ca-found&duration=1mo)** — see where "Standard Costing" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ca-found&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[CA Foundation exam overview](/exams/ca-found/)** — pattern, eligibility, and syllabus
+- **[All Accounting notes](/notes/ca-found/accounting/)** — browse sibling topics in this subject
+
+---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

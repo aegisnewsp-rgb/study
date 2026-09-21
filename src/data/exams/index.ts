@@ -314,6 +314,7 @@ import waceMathematicsMethods from './australia/wace-mathematics-methods';
 import aqaGcseMathematics from './uk/aqa-gcse-mathematics';
 import aqaAlevelMathematics from './uk/aqa-alevel-mathematics';
 import ucatUk from './uk/ucat';
+import lnatUk from './uk/lnat';
 import ibDiploma from './singapore/ib-diploma';
 import seabGceALevel from './singapore/seab-gce-a-level';
 import seabGceOLevel from './singapore/seab-gce-o-level';
@@ -408,6 +409,7 @@ export const ALL_EXAMS = [
   aqaGcseMathematics,
   aqaAlevelMathematics,
   ucatUk,
+  lnatUk,
   ibDiploma, seabGceALevel, seabGceOLevel, seabPsle,
   lsatCa, mcatCa, osslt,
   // Ireland / New Zealand (country expansion)

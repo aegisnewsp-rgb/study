@@ -1,20 +1,23 @@
+// weight = our editorial study-priority guide on a 1-5 scale (5 = core topic that appears
+// in nearly every paper, 2 = peripheral). It is a revision-order signal for students, NOT an
+// official mark weighting from the examining body.
 export const mathematics: Subject = {
   id: 'mathematics', name: 'Mathematics', color: '#8b5cf6',
   topics: [
-    { id: 'mathem-001', name: 'Number Systems', weight: 3 as const, description: 'Natural numbers, integers, rational, irrational, real numbers, surds, and operations on different number sets.' },
-    { id: 'mathem-002', name: 'Algebra', weight: 3 as const, description: 'Algebraic expressions, polynomials, factorization, simultaneous equations, and algebraic identities.' },
-    { id: 'mathem-003', name: 'Quadratic Equations', weight: 3 as const, description: 'Solution of quadratic equations by factorization, completing square, and quadratic formula.' },
-    { id: 'mathem-004', name: 'Trigonometry', weight: 3 as const, description: 'Trigonometric ratios, identities, solving triangles, heights and distances, and applications.' },
-    { id: 'mathem-005', name: 'Coordinate Geometry', weight: 3 as const, description: 'Cartesian system, distance formula, section formula, equation of lines, slope, and conic sections.' },
-    { id: 'mathem-006', name: 'Geometry', weight: 3 as const, description: 'Lines, angles, triangles, quadrilaterals, circles, polygons, congruence, similarity, and theorems.' },
-    { id: 'mathem-007', name: 'Mensuration', weight: 3 as const, description: 'Area and perimeter of 2D shapes, surface area and volume of 3D solids.' },
-    { id: 'mathem-008', name: 'Sets and Functions', weight: 3 as const, description: 'Set theory, Venn diagrams, operations on sets, types of functions, domain, range, and inverse functions.' },
-    { id: 'mathem-009', name: 'Limit and Continuity', weight: 3 as const, description: 'Concept of limit, evaluation of limits, continuity of functions, and intermediate value theorem.' },
-    { id: 'mathem-010', name: 'Differentiation', weight: 3 as const, description: 'Derivatives, rules of differentiation, chain rule, product rule, quotient rule, and applications.' },
-    { id: 'mathem-011', name: 'Integration', weight: 3 as const, description: 'Indefinite and definite integrals, integration techniques, area under curves, and applications.' },
-    { id: 'mathem-012', name: 'Statistics', weight: 3 as const, description: 'Mean, median, mode, standard deviation, variance, data representation, and central tendency.' },
-    { id: 'mathem-013', name: 'Probability', weight: 3 as const, description: 'Basic probability, addition and multiplication theorems, conditional probability, and binomial expansion.' },
-    { id: 'mathem-014', name: 'Matrices and Determinants', weight: 3 as const, description: 'Matrix operations, types of matrices, determinants, inverse of matrix, and solving linear equations.' },
-    { id: 'mathem-015', name: 'Sequences and Series', weight: 3 as const, description: 'Arithmetic and geometric progressions, nth term, sum of series, and application of sequences.' }
+    { id: 'mathem-001', name: 'Number Systems', weight: 2 as const, description: 'Types of numbers, surds, indices and logarithms; the manipulation skills every later topic assumes.' },
+    { id: 'mathem-002', name: 'Algebra', weight: 5 as const, description: 'Polynomials, factorisation, partial fractions and simultaneous equations; the largest single block in most papers.' },
+    { id: 'mathem-003', name: 'Quadratic Equations', weight: 4 as const, description: 'Solving by factorisation, completing the square and formula; roots, discriminants and forming equations from roots.' },
+    { id: 'mathem-004', name: 'Trigonometry', weight: 4 as const, description: 'Ratios, identities and equations; solving triangles and heights-and-distances problems with the sine and cosine rules.' },
+    { id: 'mathem-005', name: 'Coordinate Geometry', weight: 5 as const, description: 'Straight lines, slope and distance formulas, then circles and conics; a reliable source of full-length questions.' },
+    { id: 'mathem-006', name: 'Geometry', weight: 3 as const, description: 'Circle theorems, congruence, similarity and triangle mensuration; the proofs examiners reuse year after year.' },
+    { id: 'mathem-007', name: 'Mensuration', weight: 2 as const, description: 'Areas, perimeters, surface areas and volumes; formula recall plus unit conversion.' },
+    { id: 'mathem-008', name: 'Sets and Functions', weight: 3 as const, description: 'Set operations, Venn diagrams, function notation, domain and range, and inverse and composite functions.' },
+    { id: 'mathem-009', name: 'Limit and Continuity', weight: 4 as const, description: 'Evaluating limits, indeterminate forms and continuity; the groundwork for both differentiation and integration.' },
+    { id: 'mathem-010', name: 'Differentiation', weight: 5 as const, description: 'Rules of differentiation, chain, product and quotient rules; rates of change, tangents and maxima-minima problems.' },
+    { id: 'mathem-011', name: 'Integration', weight: 5 as const, description: 'Standard integrals, substitution and by parts; definite integrals and areas under curves.' },
+    { id: 'mathem-012', name: 'Statistics', weight: 3 as const, description: 'Mean, median, mode, dispersion and standard deviation; reading and presenting grouped data.' },
+    { id: 'mathem-013', name: 'Probability', weight: 2 as const, description: 'Addition and multiplication rules, conditional probability and tree diagrams; simple counting problems.' },
+    { id: 'mathem-014', name: 'Matrices and Determinants', weight: 4 as const, description: 'Matrix operations, determinants, inverses, and solving systems of linear equations.' },
+    { id: 'mathem-015', name: 'Sequences and Series', weight: 3 as const, description: 'Arithmetic and geometric progressions, nth terms and sums, and infinite geometric series.' }
   ]
 };

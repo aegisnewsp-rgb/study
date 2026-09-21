@@ -11,7 +11,7 @@ topicName: "Aldehydes, Ketones and Carboxylic Acids"
 weight: 4
 country: nigeria
 generated: "2026-03-24T08:32:07.726490"
-lastUpdated: 2026-03-24
+lastUpdated: "2026-09-21"
 diagramPrompt: "Clear scientific diagram of Aldehydes, Ketones and Carboxylic Acids with atom labels, molecular structure, reaction arrows, white background, color-coded bonds and groups, exam textbook style"
 
 
@@ -19,127 +19,136 @@ diagramPrompt: "Clear scientific diagram of Aldehydes, Ketones and Carboxylic Ac
 
 
 ---
+
 # Aldehydes, Ketones and Carboxylic Acids
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your exam.
 
-**Aldehydes, Ketones and Carboxylic Acids** — Key Facts
-Aldehyde functional group: -CHO (carbonyl C bonded to H and R); e.g., methanal HCHO, ethanal CH₃CHO
-Ketone functional group: -C(=O)- (carbonyl C bonded to two R groups); e.g., propanone (acetone) CH₃COCH₃
-Carboxylic acid functional group: -COOH; e.g., ethanoic acid (acetic acid) CH₃COOH
-IUPAC: aldehydes = -al (methanal, ethanal); ketones = -one (propanone, butanone); acids = -oic acid (ethanoic acid)
-⚡ Exam tip: Aldehydes can be oxidised to acids; ketones cannot be oxidised without breaking C-C bonds
+> The carbonyl group (C=O) is the single feature that ties these three families together, and every test reagent in this topic is asking one question: "is that carbonyl oxidisable?"
+> Memory Hook — **"A-K-C: Aldehydes, Ketones, Carboxylic acids"** maps directly to oxidation ease: aldehydes oxidise easily, ketones resist oxidation, carboxylic acids are already oxidised. So Tollens' and Fehling's reagents answer "A" first, "K" never, and "C" only when forced by a strong oxidant.
 
----
+| Family | Functional group | IUPAC suffix | Example | Test that picks it out |
+|---|---|---|---|---|
+| Aldehyde | –CHO (formyl) | –al | CH₃CHO, ethanal | Tollens' → silver mirror |
+| Ketone | >C=O (between two C) | –one | CH₃COCH₃, propanone | 2,4-DNP → orange/yellow hydrazone |
+| Carboxylic acid | –COOH | –oic acid | CH₃COOH, ethanoic acid | NaHCO₃ → effervescence |
+
+Acidities:
+- pH = −log₁₀[H⁺]; [H⁺] in mol·dm⁻³.
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
 
-**Aldehydes, Ketones and Carboxylic Acids** — JAMB Chemistry Study Guide
+#### Functional Groups and IUPAC Names
 
-**Aldehyde reactions:**
-- Tollens' test (silver mirror): $RCHO + 2[Ag(NH_3)2]^+ + 3OH^- \rightarrow RCOO^- + 2Ag + 2H_2O + 4NH_3$ (silver mirror on test tube)
-- Fehling's test (red precipitate): $RCHO + 2Cu^{2+} + 4OH^- \rightarrow RCOO^- + Cu_2O$ (red) $+ 2H_2O$
-- Reduction: $RCHO + H_2 \xrightarrow{Ni} RCH_2OH$ (primary alcohol)
-- Addition of HCN: $RCHO + HCN \rightarrow RCH(OH)CN$ (cyanohydrin)
+All three families carry the **carbonyl group C=O**, but the atoms bonded to the carbonyl carbon differ:
 
-**Ketone reactions:**
-- Cannot reduce easily with Tollens or Fehling's (distinguishes from aldehydes)
-- Reduction: $R_2C=O + H_2 \xrightarrow{Ni} R_2CHOH$ (secondary alcohol)
-- Addition of HCN: $R_2C=O + HCN \rightarrow R_2C(OH)CN$ (less reactive than aldehydes)
+- Aldehyde: R–CHO, where the carbonyl carbon is bonded to one H and one R group; suffix **–al** (methanal HCHO, ethanal CH₃CHO, benzaldehyde C₆H₅CHO).
+- Ketone: R–CO–R′, carbonyl carbon bonded to two carbon groups; suffix **–one** (propanone CH₃COCH₃, butanone CH₃COCH₂CH₃, phenyl methyl ketone C₆H₅COCH₃).
+- Carboxylic acid: R–COOH, carbonyl bonded to a hydroxyl –OH; suffix **–oic acid** (methanoic acid HCOOH, ethanoic acid CH₃COOH, benzoic acid C₆H₅COOH).
 
-**Carboxylic acid reactions:**
-- Acidic: $CH_3COOH \rightleftharpoons CH_3COO^- + H^+$ ($K_a = 1.8 \times 10^{-5}$)
-- Reaction with bases: $CH_3COOH + NaOH \rightarrow CH_3COONa + H_2O$
-- Esterification: $CH_3COOH + C_2H_5OH \xrightarrow{H_2SO_4} CH_3COOC_2H_5 + H_2O$ (ethyl acetate)
-- Halogenation: no reaction (unlike alcohols); carboxyl group is electron-withdrawing, makes alpha carbon less reactive
+The carbonyl carbon of the carboxyl group is **always C-1** when numbering the parent chain. Missing this rule is the most common IUPAC error in JAMB structural questions.
 
-**Ester formation:**
-$RCOOH + R'OH \rightleftharpoons RCOOR' + H_2O$ (Fischer esterification — reversible, needs acid catalyst)
+#### Preparation Routes
 
-Common student mistakes: confusing Tollens' and Fehling's reagents and their colour changes; thinking ketones give positive Tollens' test (they don't); forgetting that esterification is reversible.
+| Target | From | Reagent/condition | Equation (skeleton) |
+|---|---|---|---|
+| Aldehyde | 1° alcohol | Controlled oxidation (PCC, or distillation with K₂Cr₂O₇/H⁺) | RCH₂OH + [O] → RCHO + H₂O |
+| Aldehyde | Acyl chloride | Rosenmund reduction (H₂, Pd/BaSO₄) | RCOCl + H₂ → RCHO + HCl |
+| Ketone | 2° alcohol | Oxidation (K₂Cr₂O₇/H⁺) | R₂CHOH + [O] → R₂C=O + H₂O |
+| Ketone | Alkyne | Hydration (HgSO₄/H₂SO₄, H₂O) — Markovnikov | RC≡CH + H₂O → RCOCH₃ |
+| Carboxylic acid | 1° alcohol or aldehyde | Strong oxidation (KMnO₄ or K₂Cr₂O₇/H⁺, reflux) | RCHO + [O] → RCOOH |
+| Carboxylic acid | Nitrile | Acidic or basic hydrolysis | RCN + 2H₂O → RCOOH + NH₃ |
+| Carboxylic acid | Grignard + CO₂ | Dry ether, then H₃O⁺ | RMgX + CO₂ → RCOOH |
 
----
+#### Reactions That Show Up in JAMB Questions
+
+#### Nucleophilic addition to the C=O of aldehydes and ketones:
+
+- HCN → cyanohydrin: R₂C=O + HCN → R₂C(OH)(CN)
+- NaHSO₃ → crystalline bisulphite adduct (used to separate/purify carbonyls)
+- 2,4-dinitrophenylhydrazine (2,4-DNP) → orange/yellow hydrazone precipitate; confirms presence of C=O but does not distinguish aldehyde from ketone.
+
+#### Oxidation tests — the diagnostic trio:
+
+1. Tollens' reagent [Ag(NH₃)₂]⁺ in OH⁻: aldehydes give a silver mirror on warming.
+   RCHO + 2[Ag(NH₃)₂]⁺ + 3OH⁻ → RCOO⁻ + 2Ag(s) + 4NH₃ + 2H₂O
+2. Fehling's solution (Cu²⁺ tartrate complex, alkaline): aliphatic aldehydes give a brick-red Cu₂O precipitate.
+   RCHO + 2Cu²⁺ + 5OH⁻ → RCOO⁻ + Cu₂O(s) + 3H₂O
+3. Ketones give no reaction with either reagent under mild conditions.
+
+#### Reduction of C=O to C–OH:
+
+- LiAlH₄ or NaBH₄: aldehyde → 1° alcohol; ketone → 2° alcohol.
+- Clemmensen (Zn–Hg/HCl) and Wolff–Kishner (NH₂NH₂/KOH, heat): both reduce C=O to CH₂.
+
+#### Acidity of carboxylic acids:
+
+Ka (ethanoic acid) ≈ 1.8 × 10⁻⁵ mol·dm⁻³ at 298 K; pKa ≈ 4.76. Acidity rises with electron-withdrawing substituents (–F, –Cl, –NO₂) and falls with electron-donating alkyl groups. Sodium salts form with NaOH; with Na₂CO₃ the acid liberates CO₂ — a quick test for –COOH.
+
+**Fischer esterification** (reversible, acid-catalysed):
+RCOOH + R′OH ⇌ RCOOR′ + H₂O. Removing water shifts equilibrium toward the ester (Le Chatelier).
+
+**Iodoform (CHI₃) reaction** — only methyl ketones CH3–CO-R, ethanol, and CH₃CH(OH)–R give the yellow iodoform precipitate in alkaline I₂.
+
+#### Concept Comparison: Tests You Must Not Mix
+
+| Reagent | Aldehyde | Ketone | Carboxylic acid |
+|---|---|---|---|
+| Tollens' (ammoniacal Ag⁺) | Silver mirror | No reaction | No reaction (neutralises the base) |
+| Fehling's (alkaline Cu²⁺) | Red Cu₂O | No reaction | Dissolves, blue → dark, no red ppt |
+| 2,4-DNP | Orange ppt | Orange ppt | No reaction |
+| NaHCO₃ | No effervescence | No effervescence | Brisk CO₂ effervescence |
+| I₂ / NaOH (iodoform) | Only if CH₃CHO | Only methyl ketones CH₃COR | Only if CH₃CH₂OH-style fragment is in the chain |
+
+#### Worked Exam-Style Calculation
+
+A student oxidises 4.6 g of ethanol (C₂H₅OH, molar mass 46 g·mol⁻¹) with excess acidified K₂Cr₂O₇ and isolates 4.4 g of ethanoic acid (CH₃COOH, molar mass 60 g·mol⁻¹). What is the percentage yield?
+
+Theoretical moles of ethanol = 4.6 / 46 = 0.10 mol; stoichiometry is 1:1, so theoretical moles of CH₃COOH = 0.10 mol. Theoretical mass = 0.10 × 60 = 6.0 g. Percentage yield = (4.4 / 6.0) × 100 = 73.3 %.
+
+> Examiner Trap: candidates often divide 4.6 by 60 and multiply by 100 directly, forgetting that the molar mass in the denominator must be that of the starting material, not the product.
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
 
-**Aldehydes, Ketones and Carboxylic Acids** — Comprehensive Chemistry Notes
+#### Acidity Order and Electronic Effects
 
-**Mechanism of nucleophilic addition to carbonyl:**
-The carbonyl carbon is electrophilic (δ+) due to electron-withdrawing oxygen. Nucleophile attacks carbonyl carbon. The π bond breaks, oxygen takes electrons and becomes alkoxide, which is then protonated.
+Order of acidity in water: HCOOH > CH₃COOH > CH₃CH₂COOH. Methanoic acid is anomalously strong (pKa ≈ 3.75) because its –COOH is bonded to H, so no electron-donating alkyl group destabilises the conjugate base. Electron-withdrawing groups (–Cl, –F, –NO₂) on the α-carbon withdraw electron density through the inductive effect, stabilising RCOO⁻ and lowering pKa; electron-donating alkyl groups raise pKa. Resonance in the carboxylate anion (two equivalent C–O bonds) is why carboxylic acids are far more acidic than alcohols.
 
-General mechanism:
-1. Nucleophilic attack: Nu⁻ attacks C=O carbon, forming tetrahedral intermediate
-2. Protonation of oxygen: alkoxide O⁻ is protonated to give alcohol
+#### Reduction Routes Compared
 
-For aldehydes vs ketones reactivity order:
-Formaldehyde > acetaldehyde > propionaldehyde > ... > ketones
-Reason: steric hindrance (ketones have two alkyl groups); also electronic (alkyl groups donate electrons, reducing electrophilicity).
+| Reagent | Carbonyl → | Notes |
+|---|---|---|
+| NaBH₄ | C=O → CH–OH | Mild, works in protic solvents, aldehydes/ketones only |
+| LiAlH₄ | C=O → CH–OH; –COOH → CH₂OH; ester → 2° alcohol | Stronger, dry ether; reduces acids and esters too |
+| Zn–Hg, HCl (Clemmensen) | C=O → CH₂ | Best for base-sensitive substrates |
+| NH₂NH₂ / KOH, heat (Wolff–Kishner) | C=O → CH₂ | Best for acid-sensitive substrates |
 
-**Reduction with NaBH₄ vs LiAlH₄:**
-NaBH₄: reduces aldehydes and ketones only (not carboxylic acids, esters); mild, can use in water/alcohol.
-LiAlH₄: reduces almost all carbonyl compounds (acids, esters, amides, nitriles); very strong; must use in dry ether.
+#### Industrial and Biochemical Links
 
-**Aldol condensation:**
-Base-catalysed aldol addition between two aldehydes or two ketones. One molecule acts as nucleophile (enolate ion) attacking the carbonyl of another.
-Example: 2CH₃CHO → CH₃CH(OH)CH₂CHO (aldol) → CH₃CH=CHCHO + H₂O (after dehydration)
+- Vinegar is 4–6 % aqueous ethanoic acid produced by aerobic fermentation of ethanol by Acetobacter.
+- The acyl group RCO– is the reactive handle: acid chlorides acylate alcohols to esters, ammonia to amides, and aromatic compounds via Friedel–Crafts acylation to aryl ketones.
+- Amino acids carry both –NH₂ (basic) and –COOH (acidic), making them amphoteric; peptide bonds form when the –COOH of one amino acid links to the –NH₂ of the next, releasing water (the same condensation logic as esterification, applied to proteins).
 
-**Decarboxylation:**
-Carboxylic acids with α-hydrogens can undergo decarboxylation (loss of CO₂) when heated with soda lime.
-$CH_3COONa + NaOH \xrightarrow{CaO} CH_4 + Na_2CO_3$ (Kol electrolysis in methane from acetate)
+#### Edge Cases and Persistent Errors
 
-**JAMB exam patterns:**
-- 2022 JAMB: Compound with formula C₃H₆O gives silver mirror with Tollens' reagent; identify compound
-- 2021 JAMB: Write equation for reaction between ethanoic acid and ethanol with H₂SO₄ catalyst
-- 2020 JAMB: Distinguish between ethanal and propanone using a chemical test
-- 2019 JAMB: What is the IUPAC name of CH₃CH₂COCH₂CH₃?
+1. Tollens' reagent gives a positive result with α-hydroxy ketones (e.g. fructose) and with formic acid HCOOH, because both can be oxidised further. Memorising "only aldehydes" is half-true and the source of multiple-choice traps.
+2. The iodoform test requires the CH₃CO– group attached to a hydrogen-bearing carbon, not just any methyl ketone in a side chain. Acetophenone (C₆H₅COCH₃) is positive; benzophenone (C₆H₅COC₆H₅) is not.
+3. Esterification equilibrium constant is about 4 for primary alcohols, but it drops for tertiary alcohols, which instead undergo elimination with H⁺.
+5. Dry distillation of calcium ethanoate gives propanone (acetone), not an aldehyde — this is the classical ketone preparation and it is the only place in the syllabus where a "distillation" produces a ketone.
+6. Hydrogen cyanide adds to carbonyls only under basic conditions (CN⁻ is the actual nucleophile); in pure water HCN addition is negligible.
 
-**Physical properties:**
-| Property | Aldehydes | Ketones | Carboxylic Acids |
-|---------|-----------|---------|------------------|
-| Boiling point | Higher than alkanes (polar) | Higher than alkanes | Much higher (H-bonding dimer) |
-| Water solubility | Formaldehyde, acetaldehyde soluble | Propanone miscible | Lower acids miscible (acetic acid) |
-| Odour | Formaldehyde: pungent; others fruity | Fruity (acetone) | Vinegary (acetic acid) |
+#### Two Prompts to Test Yourself
+
+1. An unknown compound A has molecular formula C₃H₆O. It gives a silver mirror with Tollens' reagent, a red precipitate with Fehling's solution, and reacts with HCN to form a cyanohydrin. Draw A, give its IUPAC name, and write a balanced equation for its reaction with Tollens' reagent.
+2. A 0.10 mol·dm⁻³ solution of ethanoic acid at 298 K has Ka = 1.8 × 10⁻⁵ mol·dm⁻³. Calculate [H⁺] and the pH. (Hint: assume [H⁺] = √(Ka·c) since α is small.)
 
 ---
 
+## Continue your study
 
----
-## 📊 JAMB Exam Essentials
+- **[View this topic in your JAMB UTME roadmap](/roadmap/?exam=jamb&duration=1mo)** — see where "Aldehydes, Ketones and Carboxylic Acids" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=jamb&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[JAMB UTME exam overview](/exams/jamb/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/jamb/chemistry/)** — browse sibling topics in this subject
 
-| Detail | Value |
-|---|---|
-| Questions | 180 MCQs (UTME) |
-| Subjects | 4 subjects (language + 3 for course) |
-| Time | 2 hours |
-| Marking | +1 per correct answer |
-| Score | 400 max (used for university admission) |
-| Registration | January – February each year |
-
-### 🎯 High-Yield Topics for JAMB
-- Use of English (Grammar + Comprehension) — 60 marks
-- Biology for Science students — 40 marks
-- Chemistry (Organic + Physical) — 40 marks
-- Physics (Mechanics + Optics) — 35 marks
-- Mathematics (Algebra + Geometry) — 40 marks
-
-### 📝 Previous Year Question Patterns
-- Q: "The process of photosynthesis requires..." [2024 Biology]
-- Q: "The electronic configuration of Fe is..." [2024 Chemistry]
-- Q: "Find the value of x if 2x + 5 = 15..." [2024 Mathematics]
-
-### 💡 Pro Tips
-- Use of English carries the most weight — master grammar rules and comprehension strategies
-- JAMB syllabus is your Bible — questions come directly from it. Download and use it.
-- Past questions are highly predictive — repeat patterns appear every year
-- For Science students, Biology and Chemistry are high-scoring if you study NCERT-level content
-
-### 🔗 Official Resources
-- [JAMB Official](https://www.jamb.gov.ng/)
-- [JAMB Syllabus](https://www.jamb.gov.ng/syllabus)
-
----
-
-*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

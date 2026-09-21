@@ -1,15 +1,15 @@
 export const english: Subject = {
   id: 'english', name: 'English', color: '#f59e0b',
   topics: [
-    { id: 'englis-001', name: 'Vocabulary Building', weight: 3 as const, description: 'Word formation, root words, prefixes, suffixes, and techniques for expanding vocabulary for competitive exams.' },
-    { id: 'englis-002', name: 'Synonyms and Antonyms', weight: 3 as const, description: 'Common synonyms and antonyms frequently tested in Pakistani competitive exams.' },
-    { id: 'englis-003', name: 'Grammar Fundamentals', weight: 3 as const, description: 'Parts of speech, subject-verb agreement, and essential grammar rules tested in English proficiency sections.' },
-    { id: 'englis-004', name: 'Sentence Structure', weight: 3 as const, description: 'Simple, compound, and complex sentences, parallel structure, and sentence connectors.' },
-    { id: 'englis-005', name: 'Tenses and Their Usage', weight: 3 as const, description: 'All twelve tenses with their forms and usage in different contexts.' },
-    { id: 'englis-006', name: 'Active and Passive Voice', weight: 3 as const, description: 'Conversion between active and passive voice across all tenses.' },
-    { id: 'englis-007', name: 'Direct and Indirect Speech', weight: 3 as const, description: 'Rules for converting direct speech to indirect speech including tense changes.' },
-    { id: 'englis-008', name: 'Comprehension Passages', weight: 3 as const, description: 'Reading strategies for comprehension passages, identifying main ideas and inferences.' },
-    { id: 'englis-009', name: 'Spotting Errors', weight: 3 as const, description: 'Common grammatical errors and techniques for error identification.' },
-    { id: 'englis-010', name: 'Sentence Completion', weight: 3 as const, description: 'Filling blanks with appropriate words to complete grammatically correct sentences.' }
+    { id: 'englis-001', name: 'Vocabulary Building', weight: 3 as const, description: 'Drill 200 Latin and Greek roots plus the most recycled prefixes (anti-, bi-, mis-, sub-) and suffixes (-tion, -able, -ive); review 30-word weekly decks by definition.' },
+    { id: 'englis-002', name: 'Synonyms and Antonyms', weight: 4 as const, description: 'Memorise the 150 most-recycled FPSC and PPSC word pairs (abate vs abolish, candid vs frank, loathe vs despise); practise opposite-direction recall so both meanings stay active.' },
+    { id: 'englis-003', name: 'Grammar Fundamentals', weight: 5 as const, description: 'Master the eight parts of speech by function not position (gerunds as nouns, participles as adjectives); drill 30 inverted-subject sentences to lock in subject-verb agreement.' },
+    { id: 'englis-004', name: 'Sentence Structure', weight: 4 as const, description: 'Convert simple sentences into compound (using FANBOYS conjunctions) and complex (using subordinate clauses); verify parallelism by listing matched grammatical forms side by side.' },
+    { id: 'englis-005', name: 'Tenses and Their Usage', weight: 5 as const, description: 'Memorise the 12-tenses times four-aspect grid (simple, continuous, perfect, perfect-continuous) with signal words; rewrite 40 FPSC past-paper sentences across every tense to expose gaps.' },
+    { id: 'englis-006', name: 'Active and Passive Voice', weight: 2 as const, description: 'Apply the S-V-O to S+be+V3 (plus optional by-phrase) template across all tenses; drop the agent when the action matters more than the actor, e.g. "The bridge was built in 1902".' },
+    { id: 'englis-007', name: 'Direct and Indirect Speech', weight: 2 as const, description: 'Apply the standard tense back-shift (present to past, will to would, shall to should, may to might); convert 20 reported questions, tracking pronoun, time, and place shifts.' },
+    { id: 'englis-008', name: 'Comprehension Passages', weight: 5 as const, description: 'Read two unseen CSS or NTS passages daily, answer in your own words, then verify against the original; isolate the topic sentence, inference markers, and main idea within eight minutes.' },
+    { id: 'englis-009', name: 'Spotting Errors', weight: 4 as const, description: 'Scan each sentence for subject-verb agreement first, then tense consistency, then article and preposition misuse; solve 10 CSS past-paper error items daily and write the rule behind each fix.' },
+    { id: 'englis-010', name: 'Sentence Completion', weight: 4 as const, description: 'Read the full sentence before choosing, fit the blank for syntax first (article, tense, preposition) then for meaning; build collocation lists (keen on, fond of, averse to) and idioms.' }
   ]
 };

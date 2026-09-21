@@ -8,265 +8,152 @@ topicName: Sale of Goods Act and Partnership Act
 weight: 3
 country: india
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-21"
 ---
 
-# Sale of Goods Act, 1930 and Partnership Act, 1932
+# Sale of Goods Act and Partnership Act
 
-## Sale of Goods Act, 1930
+### 🟢 Lite — Quick Review (1h–1d)
+> Bookmark the two statute years before anything else — **Sale of Goods Act, 1930** and **Indian Partnership Act, 1932** — because every CMA Foundation MCQ keys off them.
 
-### Introduction
+A **sale of goods** is a contract where ownership of movable property transfers from seller to buyer for a price (Section 4, Sale of Goods Act, 1930). An **agreement to sell** only promises that transfer later or on a contingency. Ownership — not delivery — decides which one you are looking at.
 
-The Sale of Goods Act, 1930 deals with the transfer of ownership of goods from a seller to a buyer for a price. It applies to all contracts of sale of goods in India.
+A **partnership** is the relation between persons who agree to share the profits of a business carried on by all or any of them acting for all (Section 4, Indian Partnership Act, 1932). Three words carry that definition: **agreement**, **profit-sharing**, **mutual agency**.
 
-### Definition of Key Terms
-
-**Goods (Section 2(7)**: Includes all movable property including stock and shares, growing crops, and things attached to or forming part of the land (if agreed to be severed before sale).
-
-**Contract of Sale (Section 2(6)**: A contract whereby the seller transfers or agrees to transfer the ownership of goods to the buyer for a price.
-
-**Price (Section 2(10)**: The monetary consideration for the sale of goods. If price is not fixed, the buyer must pay a reasonable price.
-
-### Sale vs Agreement to Sell
-
-| Aspect | Sale | Agreement to Sell |
+| Quick anchor | What it means | Memory Hook line |
 |---|---|---|
-| **Transfer of ownership** | Immediately transferred | Transfer is to take place at a future date |
-| **Risk** | Rests with buyer even before delivery | Rests with seller until ownership transfers |
-| **Breach** | Buyer becomes owner; can sue for price | Seller can sue for price only if ownership has transferred |
-| **Remedies** | More extensive | Limited |
-| **Nature** | Absolute transfer | Conditional transfer |
-| **When applicable** | Ownership transfer happens at contract time | Ownership transfer to happen at future uncertain event |
+| Sale vs Agreement to sell | Ownership now vs ownership later | "Sale = shift today, Agreement = shift tomorrow" |
+| Condition vs Warranty | Repudiate + damages vs damages only | "C breaks contract, W only whines for money" |
+| Caveat Emptor | Buyer beware | "CE = Check Everything" |
+| Mutual agency | Partner binds co-partners | "Each partner = principal + agent of the rest" |
 
-**Rule**: If goods are future goods (to be manufactured or acquired after contract) — it is an agreement to sell, not a sale. If the goods are specific goods (identified and agreed upon) — ownership transfers when the contract is made.
+> 💡 **Memory Hook:** *SAPS-CCW* — **S**ale/**A**greement difference, **P**artnership essentials, **S**pecific-goods property rules, **C**ondition/**C**aveat/**W**arranty. Walk SAPS-CCW through any MCQ and you will not miss a sub-topic.
 
-### Goods: Classifications
+---
 
-| Type | Description |
-|---|---|
-| **Existing goods** | Goods owned by seller at time of contract — specific, generic, or unascertained |
-| **Future goods** | Goods to be manufactured or acquired after contract |
-| **Contingent goods** | Goods whose acquisition depends on a contingency |
+### 🟡 Standard — Regular Study (2d–2mo)
 
-### Essential Elements of a Contract of Sale
+#### Passing of Property in Specific Goods
 
-1. **Two parties**: Seller and buyer — distinct persons
-2. **Goods**: Must be movable property
-3. **Price**: Must be monetary consideration (not goods for goods — that is barter, not sale)
-4. **Transfer of ownership**: Must transfer from seller to buyer
-5. **Legal formalities**: No specific form required (except as per other laws)
+Under Section 19 of the Sale of Goods Act, 1930, property passes according to **intention**, and the Act supplies five default rules when intention is not visible:
 
-**Note**: Sale of goods + agreement to sell = Contract of Sale of Goods.
+1. Unconditional contract, goods in deliverable state → property passes **at contract time**.
+2. Seller must do something to put goods in deliverable state → passes **when the act is done and the buyer has notice**.
+3. Seller must weigh, measure, test or do some act on the goods to ascertain price → passes **when that act is done**.
+4. Goods delivered on "as is" terms (buyer to take them as they stand) → passes **at contract time**.
+5. Specific goods in a deliverable state, but seller is bound to weigh, measure or otherwise ascertain the price → property passes **when such act is done**.
 
-## Conditions and Warranties (Sections 11–17)
+Delivery and passing of property are **separate events**. A buyer can take physical possession yet have no ownership; a seller can hand over a bill of lading and still own the goods. CMA examiners test this distinction every cycle.
 
-### Condition (Section 11(2))
+#### Nemo Dat and Its Exceptions
 
-A **condition** is a stipulation essential to the main purpose of the contract. If breached, the aggrieved party can reject the goods and claim damages.
+> 📌 **Rule:** *Nemo dat quod non habet* — no one passes a better title than they hold. Six statutory exceptions apply (Sections 27–30).
 
-**Warranty (Section 11(3)**: A warranty is a stipulation collateral to the main purpose. If breached, the aggrieved party can claim damages but cannot reject the goods.
-
-**Distinction**:
-- **Condition**: Goes to the root of the contract — breach gives right to rescind
-- **Warranty**: Collateral to contract — breach gives right to damages only
-
-### Difference Between Condition and Warranty
-
-| Aspect | Condition | Warranty |
+| Exception | When it bites | One-line trigger |
 |---|---|---|
-| Importance | Essential | Non-essential |
-| Breach remedy | Repudiation + damages | Damages only |
-| Right to reject | Yes | No |
-| Treatment | Fundamental term | Collateral term |
+| Estoppel | Owner is prevented from denying seller's authority | Owner permits, by words or conduct, the buyer to believe |
+| Mercantile agent | Agent in possession with consent, selling in usual course | Goods or documents of title in agent's hands |
+| Joint owner | One of several co-owners with consent of others | Consent present |
+| Voidable contract | Seller obtained goods by fraud/ misrepresentation | Contract not rescinded when buyer buys |
+| Unpaid seller | Seller in possession after sale | Buyer in default, seller still has goods |
+| Finder / hire-purchase | Finder of goods / buyer under hire-purchase | Conditions of Sections 29 and 30 satisfied |
 
-**Key case**: Wallis v. Pratt (1910) — A statement as to quality was held to be a warranty, not a condition.
+#### Conditions, Warranties and Caveat Emptor
 
-### Statutory Conditions and Warranties
+A **condition** is a stipulation essential to the main purpose of the contract; breach entitles the buyer to **repudiate** and claim damages. A **warranty** is collateral; breach gives **damages only** — never rescission. Implied conditions in every sale (Section 14–17) cover title, description, merchantable quality, fitness for any purpose made known to the seller, and the whole of an identified parcel.
 
-**Section 14**: In a contract of sale by description, there is an implied condition that goods correspond with description.
+**Caveat emptor** — "let the buyer be aware" — applies unless one of the implied conditions overrides it: merchantable quality, fitness for purpose, sale by description, or sale by sample.
 
-**Section 15**: In a contract of sale by sample, there are implied conditions:
-- Bulk corresponds with sample
-- Buyer has a reasonable opportunity to compare bulk with sample
-- Goods are free from any defect making them unmerchantable
+#### Partnership Essentials
 
-**Section 16** (Implied condition as to quality or fitness): The seller must supply goods that are reasonably fit for the purpose the buyer intends — if the seller knows the buyer's purpose AND the buyer relies on seller's skill and judgment.
+| Essential | Why it matters | Trap answer |
+|---|---|---|
+| Two or more persons | Minimum association; cap fixed at 50 partners (Companies (Miscellaneous) Rules, 2014) | Writing "any number" loses the cap |
+| Agreement | May be written, oral or inferred from conduct | Mistaking partnership for a status |
+| Lawful business | Trading in profit, not charity or gambling | Charity clubs are not firms |
+| Profit sharing | Sharing of loss is implied but profit-share is the test | Calling co-owners a firm without profit-share |
+| Mutual agency | Each partner can bind the others in usual business | Saying partners are only "agents of the firm" |
 
-**Section 17** (Sale by sample): As above.
+#### Implied Authority (Section 19)
 
-### Doctrine of Caveat Emptor (Section 16)
+In the usual way of business, a partner binds the firm by acts done in the firm's name. Five acts fall **outside** implied authority: opening a current account, withdrawing a suit, submitting a dispute to arbitration, compromising a debt, and transferring immovable property that is not part of the partnership stock. Any of these needs express authority from every other partner.
 
-**Caveat Emptor** = "Let the buyer beware."
+#### Worked Problem
 
-The buyer must take care when purchasing goods — the seller is under no obligation to disclose defects unless asked. The buyer cannot reject goods if:
-- The buyer inspects the goods and finds no defect
-- The defect is visible (patent defect)
-- The buyer specifies a particular standard and seller supplies accordingly
+A dealer sells a car to X, telling X that it was owned by the dealer and free of liens. A finance company later proves the car was pledged to it and the dealer had no right to sell. X sues the dealer for refund.
 
-**Exceptions to Caveat Emptor**:
-- When the seller knows the buyer's purpose and the buyer relies on seller's skill
-- When the seller misrepresents or conceals a defect knowingly
-- When goods are sold under a brand name or express warranty
+**Step 1 — Identify the issue.** Title dispute. X paid for ownership the dealer did not have. The Nemo Dat rule bars X's title against the finance company, but X's remedy lies against the dealer.
 
-## Transfer of Ownership
+**Step 2 — Pick the statutory hook.** Section 14(a) of the Sale of Goods Act, 1930 imposes an implied condition that the seller has the **right to sell**. Breach of a condition (Section 12) entitles X to repudiate and claim damages.
 
-### When Ownership Transfers (Sections 18–19)
+**Step 3 — Apply.** The dealer's statement "free of liens" amounts to a breach of the implied condition as to title. X rescinds the contract and recovers the price plus incidental damages under Section 55.
 
-| Type of Goods | Rule |
-|---|---|
-| **Specific goods** (identified at contract time) | Ownership transfers when contract is made |
-| **Goods to be put in deliverable state** | Ownership transfers when seller completes the process (Section 19) |
-| **Goods to be weighed/measured** | Ownership transfers when process is completed AND buyer is notified |
-| **Unascertained or future goods** | Ownership transfers when goods are unconditionally appropriated (Section 24) |
+**Step 4 — Resolution.** X refunds the car, the dealer refunds the price. The finance company recovers from the dealer separately.
 
-### Unpaid Seller (Section 45)
+> ⚠️ **Examiner Trap:** Many candidates answer that X has *no* remedy because of Nemo Dat. Nemo Dat governs **third-party buyers against the true owner**, not the buyer's remedy **against the seller who misrepresented title**. The implied condition as to title overrides the caveat emptor defence here.
 
-An **unpaid seller** is one whose payment has not been received or whose bill of exchange has been dishonored.
+#### Registration of Firms
 
-**Rights of unpaid seller**:
-1. **Right to retain goods** — until payment is received (can withhold delivery)
-2. **Right to resell** — if goods are perishable or if unpaid seller gives notice
-3. **Right to stop goods in transit** — if goods are in transit and buyer becomes insolvent (Section 50) — called **jus retentionis** and **right of stoppage**
-4. **Right to sue for price** — can sue for price even if goods are with the buyer
-
-**Right of stoppage in transit (Section 50)**:
-- When buyer becomes insolvent
-- Seller can stop goods and retain them until payment
-- Transit = goods delivered to carrier but not yet reached buyer
-
-**Right of resale**: Unpaid seller can resell perishable goods without notice after giving notice to buyer of intention to resell (Section 48).
+Registration under Section 58 is **optional**, but non-registration carries three civil disabilities (Section 69): a partner cannot sue the firm or other partners for enforcement of a right arising from the contract, the firm cannot claim set-off in suits instituted against it, and a third party cannot sue the firm on a claim arising from the contract. The firm itself is **not void** — only the suit is barred.
 
 ---
 
-## Partnership Act, 1932
+### 🔴 Extended — Deep Study (3mo+)
 
-### Definition of Partnership (Section 4)
+#### Reconstitution vs Dissolution
 
-**Partnership** is the relationship between two or more persons who agree to share the profits of a business carried on by all or any of them acting for all.
+Reconstitution **continues the firm** with a change in composition: admission, retirement, expulsion, insanity, insolvency or death of a partner. Dissolution **ends the firm**. A common error is writing that retirement dissolves the firm; it merely dissolves the partnership between the retiring partner and the others. The continuing partners carry on unless the contract or court orders otherwise.
 
-**Essential elements**:
-1. Minimum two persons (maximum 50 in most businesses)
-2. Agreement (express or implied)
-3. Business (must be lawful)
-4. Sharing of profits (essential)
-5. Mutual agency (each partner acts as agent of others in the business)
+| Event | Dissolves partnership? | Dissolves firm? |
+|---|---|---|
+| Admission of new partner | Yes (with existing partners) | No |
+| Retirement by agreement | Yes (with retiring partner) | No (unless sole survivor) |
+| Death of partner | Yes | No (if contract provides continuation) |
+| Court order on misconduct | Yes | Yes |
+| Business becoming unlawful | Yes | Yes |
 
-**Note**: A joint Hindu family business is not a partnership under this Act.
+#### Minor as Partner
 
-### Agreement to Share Profits
+A minor may be admitted to the **benefits** of the firm under Section 30, but cannot be made personally liable beyond his share in the profits. On attaining majority, the erstwhile minor must elect within six months whether to become a full partner or to walk out; no election means deemed withdrawal. Treating a minor as a full partner is one of the most frequent errors in viva questions.
 
-**Test of partnership**: Sharing of profits is the ultimate test. However, sharing profits does not always mean there is a partnership — the intention and business context matter.
+#### Sleeping, Nominal and Profit-Only Partners
 
-**Exceptions (not partnerships even if profits are shared)**:
-- Lender who receives interest regardless of profit
-- Employee who receives share of profits as wages
-- Landlord who receives share of produce as rent
+| Type | Liability | Role |
+|---|---|---|
+| Actual partner | Unlimited, jointly and severally | Active in management |
+| Sleeping partner | Unlimited, jointly and severally | No public role |
+| Nominal partner | Unlimited | Allows name to be used; no profit share |
+| Partner in profit only | Unlimited | Receives a share of profits; not a true partner for third-party dealings |
 
-### Types of Partners
+Calling a nominal partner a true partner for internal dealings or a profit-only recipient a full partner confuses the three classifications examiners love to mix.
 
-| Type | Description |
-|---|---|
-| **Active/Actual partner** | Takes part in day-to-day management |
-| **Sleeping partner** | Does not take part in management but shares profits and losses |
-| **Nominal partner** | Allows his name to be used but is not a real partner (still liable to third parties) |
-| **Partner by estoppel/holding out** | Represented as partner and third party relies on it — can be held liable |
-| **Minor partner** | Can be admitted to benefits (not management) — not personally liable; parents/guardians liable |
+#### Doctrine of Implied Authority — Boundary Cases
 
-### Types of Partnership
+A partner who signs a bill of exchange in the firm name **does** bind the firm in the ordinary course, but acceptance of a bill drawn on the firm requires the partner's authority for that specific class of trade. Borrowing money beyond the partnership's ordinary course, pledging firm goods for a private debt, and confessing judgment in a criminal matter all fall outside implied authority and demand unanimous consent.
 
-**By duration**:
-- **Partnership at will**: No fixed term; can dissolve with notice
-- **Partnership for a fixed term**: Dissolves automatically on expiry
+#### Effect of Non-Registration — Exceptions
 
-**By nature of business**:
-- **General partnership**: All partners have unlimited liability
-- **Limited partnership**: Some partners have limited liability (requires registration and must have at least one general partner with unlimited liability)
+Non-registration does **not** bar suits between partners on accounts already settled, suits for dissolution and accounts, suits by an assignee of a partner's share, or suits by the firm against a third party for a debt owed to the firm. The third-party suit bar is one-way: the third party can still sue the firm, but the firm cannot counterset-off.
 
-### Registration of Partnership (Sections 58–65)
+#### Two Advanced Practice Prompts
 
-Registration is **optional** in India — an unregistered firm can carry on business but faces disadvantages:
-- Cannot sue a third party (Section 69)
-- Cannot claim set-off against a third party
-- Partners cannot sue each other in certain cases
+1. **Passing of property puzzle.** A contract for 200 identified sacks of rice in warehouse W states "price to be weighed by buyer's agent before delivery." When does property pass — at contract time, on weighing, on delivery of the warehouse receipt, or on actual physical delivery?
+   *Hint:* Apply Rule 3 of Section 19 — property passes only when the price is ascertained by weighing.
 
-**Procedure**: File application with Registrar of Firms (state-wise) with:
-- Firm name
-- Names of partners
-- Place of business
-- Duration of firm (if any)
+2. **Nemo Dat exception stack.** A obtains a TV from B by fraud. B has not yet rescinded. A sells the TV to C, an innocent buyer, in the ordinary course. Who wins when B later sues C?
+   *Hint:* This is the **voidable contract** exception under Section 29 — C's title prevails because B had not rescinded before the sale.
 
-**Effect of registration**: Partners can enforce their rights against the firm and each other.
+#### Exam Strategy
 
-### Relations of Partners to Each Other (Section 36)
-
-**Rights of partners**:
-1. Take part in management (unless otherwise agreed)
-2. Access to books and accounts
-3. Indemnity for expenses incurred
-4. Interest on capital at 6% per annum (unless otherwise agreed)
-5. Share profits as agreed
-
-**Duties of partners**:
-1. Carry on business diligently (best of their abilities)
-2. Be just and faithful to each other
-3. Account for all profits received (even indirectly)
-4. Not compete with firm — no secret profits
-5. Not to employ firm property for personal use
-6. Act within authority (if acting outside scope, other partners can ratify or reject)
-
-### Implied Authority of Partners (Section 22)
-
-A partner can bind the firm by acts done in the ordinary course of business.
-
-**What a partner can do** (implied authority):
-- Sell goods belonging to firm
-- Purchase goods for firm
-- Receive payment of debts due to firm
-- Settle accounts
-- Engage employees
-- Borrow money (for firm purposes)
-
-**What a partner cannot do** (requires express authority):
-- Bind firm by deed
-- Accept a bill of exchange in firm's name
-- Enter into partnership on behalf of firm
-- Do anything outside ordinary course of business
-
-### Dissolution of Partnership (Sections 39–44)
-
-**Grounds for dissolution**:
-1. Mutual agreement
-2. Firm at will (any partner gives notice)
-3. Fixed term expired
-4. Completion of the venture
-5. Death of a partner (if firm agreement allows)
-6. Insolvency of a partner
-7. Court order (Court can dissolve on various grounds — e.g., partner becoming insane, continuous losses, deadlock, etc.)
-
-**Dissolution by notice (Section 43)**: A partnership at will can be dissolved by any partner giving notice in writing to all other partners.
-
-**Court intervention (Section 44)**: Grounds for court dissolution:
-- Partner becoming lunatic
-- Permanent incapacity
-- Misconduct affecting business
-- Continuous losses making business unviable
-- impracticable to continue
-- Deadlock in management
-
-**Effect of dissolution**: All partners become agents of the firm for the purpose of winding up. Assets realized and liabilities discharged; surplus divided according to profit-sharing ratio.
-
-## CTET Exam Focus
-
-- **Sale vs agreement to sell**: Ownership transfer timing, risk, remedies
-- **Conditions vs warranties**: Essential vs collateral; breach of condition = reject + damages; breach of warranty = damages only
-- **Caveat Emptor**: Buyer beware — exceptions (seller knows buyer's purpose)
-- **Implied conditions**: Sale by description (Section 14), sale by sample (Section 15), fitness for purpose (Section 16)
-- **Unpaid seller**: Rights to withhold, stop goods in transit, resell, sue for price
-- **Partnership definition**: Sharing of profits, mutual agency; not a legal entity
-- **Types of partners**: Active, sleeping, nominal, holding out, minor
-- **Implied authority**: Ordinary course of business; cannot bind by deed without express authority
-- **Dissolution**: By notice, by court, at will; ground for court intervention
-- **Registration**: Optional; unregistered firm cannot sue third parties (Section 69)
+In the CMA Foundation Business Law paper (3% weight), expect three to five MCQs and possibly one short-answer on this unit. Highest-yield clusters: conditions vs warranties, passing of property in specific goods, partnership essentials, implied authority exclusions, and modes of dissolution. Read each MCQ stem for the **trigger word** — "immediately," "later," "as is," "in deliverable state" — and map it to the relevant rule before looking at the options.
 
 ---
+
+## Continue your study
+
+- **[View this topic in your CMA Foundation roadmap](/roadmap/?exam=cma&duration=1mo)** — see where "Sale of Goods Act and Partnership Act" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=cma&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[CMA Foundation exam overview](/exams/cma/)** — pattern, eligibility, and syllabus
+- **[All Business Law notes](/notes/cma/business-law/)** — browse sibling topics in this subject
+
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

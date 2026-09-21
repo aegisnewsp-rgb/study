@@ -11,161 +11,111 @@ topicName: "Plane Geometry: Angles, Triangles and Polygons"
 weight: 5
 country: nigeria
 generated: "2026-03-24T08:32:07.666858"
-lastUpdated: 2026-03-24
+lastUpdated: "2026-09-21"
 diagramPrompt: "Mathematical diagram showing Plane Geometry: Angles, Triangles and Polygons concept with coordinate axes, labeled points, geometric shapes shaded appropriately, clean black and white style"
 
 
 
 
 ---
+
 # Plane Geometry: Angles, Triangles and Polygons
 
 ### 🟢 Lite — Quick Review (1h–1d)
-> Rapid summary for last-minute revision before your NECO exam.
+> Three rules cover almost every NECO SSCE angle question: triangle interior angles sum to 180°, an exterior angle of a triangle equals the two opposite interior angles, and the interior angle sum of any *n*-sided polygon is (n − 2) × 180°.
 
-**Angle Types:**
-- **Acute:** $0° < \theta < 90°$
-- **Right:** $\theta = 90°$
-- **Obtuse:** $90° < \theta < 180°$
-- **Straight:** $\theta = 180°$
-- **Reflex:** $180° < \theta < 360°$
-- **Complementary angles:** Sum to $90°$
-- **Supplementary angles:** Sum to $180°$
+The single most-tested fact is the **triangle angle sum property**: in ΔABC, A + B + C = 180° where each letter is an interior angle measured in degrees. From it drops the **exterior angle theorem** x = A + B (with x in degrees), and from that drops the rule that **sum of exterior angles of any convex polygon = 360°**.
 
-**Angle Properties:**
+For regular polygons, two shortcuts carry the rest:
 
-- Vertically opposite angles are equal
-- Angles on a straight line sum to $180°$
-- Angles around a point sum to $360°$
-- Corresponding angles are equal (parallel lines)
-- Alternate angles are equal (parallel lines)
+- Each **interior angle** = (n − 2) × 180° / n, where *n* is the number of sides (unit: degree).
+- Each **exterior angle** = 360° / n, where *n* is the number of sides (unit: degree).
 
-**Triangle Types:**
-- **Equilateral:** All sides equal, all angles $60°$
-- **Isosceles:** Two sides equal, two angles equal (base angles)
-- **Scalene:** All sides different
-- **Right-angled:** One angle $90°$
+| Polygon | n | Each interior | Each exterior |
+|---|---|---|---|
+| Equilateral triangle | 3 | 60° | 120° |
+| Square | 4 | 90° | 90° |
+| Regular hexagon | 6 | 120° | 60° |
+| Regular octagon | 8 | 135° | 45° |
 
-**Triangle Geometry:**
-
-- **Angle sum property:** Sum of interior angles of any triangle = $180°$
-- **Exterior angle theorem:** An exterior angle of a triangle equals the sum of the two opposite interior angles
-
-**Polygon Angle Sums:**
-- Sum of interior angles of an $n$-sided polygon = $(n - 2) \times 180°$
-- Each interior angle of a regular $n$-gon = $\dfrac{(n-2) \times 180°}{n}$
-- Sum of exterior angles of any polygon = $360°$
-
-⚡ **NECO Tip:** In an isosceles triangle, the altitude from the apex bisects the base and the apex angle. This is very useful in NECO geometry problems — look for the line of symmetry.
-
----
+> 💡 **High-Yield Memory Hook:** "180 for triangles, 360 outside." Inside any triangle the angles sum to 180°; outside any convex polygon, the exterior angles sum to 360°. Pair these two numbers with the (n − 2) × 180° interior formula and you can crack roughly 80% of NECO SSCE plane geometry items.
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for NECO Mathematics students with a few days to months.
 
-**Congruent Triangles (SSS, SAS, ASA, AAS, RHS):**
+#### Angle pairs students mis-classify
+NECO often tests whether a candidate can name a pair, not just compute a value. The standard angle pairs and the figures that produce them:
 
-Two triangles are congruent if:
-1. **SSS:** All three sides equal
-2. **SAS:** Two sides and the included angle equal
-3. **ASA:** Two angles and the included side equal
-4. **AAS:** Two angles and one side equal
-5. **RHS (Right angle-hypotenuse-side):** Right-angled triangles with hypotenuse and one side equal
+| Pair | Sum / relation | Typical figure |
+|---|---|---|
+| Complementary | a + b = 90° | Two angles on a right-angle mark |
+| Supplementary | a + b = 180° | Two angles on a straight line |
+| Vertically opposite | a = b (equal) | Two crossing straight lines |
+| Alternate (Z-angle) | a = b when lines parallel | Parallel lines cut by a transversal |
+| Corresponding (F-angle) | a = b when lines parallel | Parallel lines cut by a transversal |
+| Co-interior / consecutive interior | a + b = 180° when lines parallel | Same-side interior angles |
 
-**Similar Triangles:**
-Two triangles are similar if their corresponding angles are equal (AAA). Corresponding sides are in the same ratio.
-- Ratio of areas of similar triangles = (ratio of corresponding sides)²
+Parallel-line questions fail when candidates assume parallel lines without confirming — always check the diagram for the matching arrows on the two lines first.
 
-**Area of Triangle:**
-$$A = \frac{1}{2} \times \text{base} \times \text{height} = \frac{1}{2}ab\sin C = \sqrt{s(s-a)(s-b)(s-c)}$$
-where $s = \frac{a+b+c}{2}$ (semi-perimeter, Heron's formula)
+#### Triangle classification and congruence shortcuts
+By sides, a triangle is **scalene** (three unequal sides), **isosceles** (two equal sides, hence two equal base angles), or **equilateral** (three equal sides, each angle 60°). By angles it is **acute** (all three < 90°), **right-angled** (exactly one = 90°, so the other two sum to 90° by Pythagoras-friendly logic), or **obtuse** (one angle between 90° and 180°).
 
-**Pythagoras' Theorem:**
-In a right-angled triangle with hypotenuse $c$:
-$$c^2 = a^2 + b^2$$
-If $c^2 = a^2 + b^2$: right-angled
-If $c^2 < a^2 + b^2$: acute-angled
-If $c^2 > a^2 + b^2$: obtuse-angled
+Congruence is decided by four conditions: **SSS** (three sides), **SAS** (two sides and the included angle), **ASA** (two angles and the included side), and **RHS** (right angle, hypotenuse, and one side). **SSA is not a valid congruence condition** — this is one of the examiner's favourite traps. For similarity the criteria are **AAA**, **SSS ratio** (three pairs of proportional sides), and **SAS ratio** (proportional sides with the included angle equal).
 
-**Circle Theorems:**
+#### The polygon angle toolkit
+For any *n*-sided polygon:
 
-- Angle in a semicircle = $90°$
-- Angles in the same segment are equal
-- The angle at the centre is twice the angle at the circumference subtended by the same arc
-- The opposite angles of a cyclic quadrilateral sum to $180°$
-- Tangent to a circle is perpendicular to the radius at the point of contact
+- Interior angle sum **S = (n − 2) × 180°** (n in dimensionless count, S in degrees).
+- Each interior angle of a regular polygon **i = (n − 2) × 180° / n** (degrees).
+- Each exterior angle of a regular polygon **e = 360° / n** (degrees).
+- Sum of exterior angles of *any* convex polygon = **360°**.
 
-**Regular Polygons:**
+The interior angle sum grows by exactly **180°** for each extra side added. That step is the most useful sanity check during long calculations: a heptagon (n = 7) should give (7 − 2) × 180° = 900°, and a nonagon (n = 9) should give (9 − 2) × 180° = 1260°.
 
-| Polygon | Sides | Interior Angle | Exterior Angle |
-|---|---|---|---|
-| Triangle | 3 | $60°$ | $120°$ |
-| Square | 4 | $90°$ | $90°$ |
-| Pentagon | 5 | $108°$ | $72°$ |
-| Hexagon | 6 | $120°$ | $60°$ |
+> 📌 **Formula Check:** Every formula in this tier uses *n* (number of sides, pure count) and produces an **angle** measured in **degrees**. There is no SI unit for angles here — keep answers in degrees unless NECO specifies otherwise.
 
-⚡ **NECO Common Mistakes:**
-- Confusing "angles in the same segment" with "angles in alternate segments"
-- Forgetting that the exterior angle of a triangle equals the sum of the two opposite interior angles (not the adjacent one)
-- In Pythagoras' theorem, misidentifying the hypotenuse (it's always opposite the right angle)
-- Mixing up similar and congruent triangle criteria
+#### Worked application
+A regular polygon has each exterior angle equal to 24°. Find (a) the number of sides and (b) the size of each interior angle.
 
----
+Since e = 360° / n, we have 24° = 360° / n, giving n = 360° / 24° = 15 sides. Each interior angle = 180° − exterior = 180° − 24° = 156°. Equivalently, i = (15 − 2) × 180° / 15 = 13 × 180° / 15 = 2340° / 15 = 156°. Both routes land at the same answer, which is the proof the formulas agree.
+
+> ⚠️ **Examiner Trap:** Candidates often write the exterior angle as the *interior* angle, then choose 156° as the exterior. Verify which one the question asks for, and remember i + e = 180° for a regular polygon.
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for NECO and JAMB Mathematics preparation.
 
-**Coordinate Geometry:**
+#### Edge cases and boundary conditions
+A **reflex angle** lies between 180° and 360° and is the interior angle of a non-convex (concave) polygon at its single indent. In such polygons the (n − 2) × 180° rule still gives the *total* interior sum, but counting individual angles must allow one of them to exceed 180°. Reflex angles rarely appear directly in NECO SSCE but show up indirectly when a polygon is described as "concave" in a construction-style question.
 
-Distance between two points $(x_1, y_1)$ and $(x_2, y_2)$:
-$$d = \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$$
+A **right-angled triangle** couples triangle-angle-sum with Pythagoras' rule: a² + b² = c², where *a* and *b* are the legs in metres (or cm, km — keep units consistent) and *c* is the hypotenuse. The two acute angles sum to 90°, so the larger acute angle belongs opposite the longer leg.
 
-Midpoint of a line segment:
-$$M = \left(\frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2}\right)$$
+Triangles drawn the same shape but different sizes are **similar**, not congruent. Congruence means identical side lengths and angles; similarity only demands equal angles and proportional sides.
 
-Gradient of a line:
-$$m = \frac{y_2 - y_1}{x_2 - x_1} = \tan\theta$$
+#### Common mistakes worth memorising
 
-Two lines are parallel if $m_1 = m_2$.
-Two lines are perpendicular if $m_1 \times m_2 = -1$.
+1. Writing the polygon interior sum as n × 180° instead of (n − 2) × 180° — adds 360° per polygon.
+2. Treating the **exterior** angle sum as something other than 360° — it never changes with n.
+3. Stating that any triangle with two equal sides is isosceles *and* equilateral — an equilateral triangle needs all three sides equal.
+4. Applying the exterior angle theorem of triangles to quadrilaterals — the theorem is a triangle-only result.
+5. Calling SSA a congruence condition. It only proves congruence when the angle is opposite the longer side (the ambiguous case resolves), and NECO will not give that safety net.
 
-Equation of a straight line:
-$$y - y_1 = m(x - x_1) \quad \text{(point-slope form)}$$
-$$y = mx + c \quad \text{(slope-intercept form)}$$
-$$\frac{x}{a} + \frac{y}{b} = 1 \quad \text{(intercept form)}$$
+#### Connections to neighbouring topics
+- **Construction:** bisecting an angle, constructing a triangle given three sides/angles, and copying an angle all rest on the 180° and 360° sums.
+- **Mensuration:** area formulas for triangles, parallelograms, and regular polygons depend on knowing interior angles — for instance the apothem of a regular n-gon embeds 360°/n at its centre.
+- **Trigonometry:** sine and cosine rules for triangles branch directly from the angle-sum and Pythagorean foundations laid here.
 
-**Angle Between Two Lines:**
-$$\tan\theta = \left|\frac{m_1 - m_2}{1 + m_1 m_2}\right|$$
+#### Advanced practice prompts
 
-**Area of a Triangle from Coordinates:**
-$$A = \frac{1}{2}\left|x_1(y_2 - y_3) + x_2(y_3 - y_1) + x_3(y_1 - y_2)\right|$$
+1. A regular polygon has an interior angle of 162°. How many sides does it have? (Hint: each exterior = 180° − 162° = 18°; n = 360° / 18° = 20, so an icosagon.)
+2. The angles of a quadrilateral are in the ratio 3 : 4 : 5 : 6. Find the largest angle. (Hint: sum is (4 − 2) × 180° = 360°; six parts = 60°, so largest = 6 × 60° = 120°.)
 
-**Polygons — Detailed:**
-
-For a regular $n$-gon:
-- Interior angle $= \frac{(n-2) \times 180°}{n}$
-- Exterior angle $= \frac{360°}{n}$
-- Each interior angle $+ $ each exterior angle $= 180°$
-
-**The Exterior Angle Theorem for Polygons:**
-Each exterior angle of a regular $n$-gon = $\frac{360°}{n}$.
-This is also the angle by which the polygon turns at each vertex.
-
-**Concurrency in Triangles:**
-
-- **Centroid:** Intersection of medians (each median connects a vertex to the midpoint of the opposite side). Divides each median in 2:1 ratio (vertex to centroid is twice centroid to midpoint).
-- **Circumcentre:** Intersection of perpendicular bisectors of sides. Centre of the circumscribed circle.
-- **Incentre:** Intersection of angle bisectors. Centre of the inscribed circle.
-- **Orthocentre:** Intersection of altitudes.
-
-**Geometric Constructions (NECO Practical):**
-- Construct a perpendicular bisector of a line segment
-- Construct an angle bisector
-- Construct a triangle given SSS
-- Construct a tangent to a circle from an external point
-
-**NECO/JAMB Patterns:**
-- NECO frequently asks: prove triangle congruence and similarity; calculate interior and exterior angles of polygons; apply Pythagoras' theorem; solve geometry problems using circle theorems; find areas of triangles and polygons using formulas
+> 🔍 **Deep-Dive Cue:** When a problem mentions parallel lines and a transversal, immediately write down which pairs are alternate, which are corresponding, and which are co-interior — the three-pair check catches most of the marks lost in such items.
 
 ---
-*Content adapted based on your selected roadmap duration. Switch tiers using the pill selector above.*
+
+## Continue your study
+
+- **[View this topic in your NECO SSCE roadmap](/roadmap/?exam=neco&duration=1mo)** — see where "Plane Geometry: Angles, Triangles and Polygons" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=neco&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[NECO SSCE exam overview](/exams/neco/)** — pattern, eligibility, and syllabus
+- **[All Mathematics notes](/notes/neco/mathematics/)** — browse sibling topics in this subject
+
+*Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

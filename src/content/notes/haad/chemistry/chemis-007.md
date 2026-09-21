@@ -8,183 +8,137 @@ topicName: "Aldehydes and Ketones"
 weight: 3
 country: uae
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-21"
 ---
 
 # Aldehydes and Ketones
 
-Aldehydes and ketones are two closely related classes of carbonyl compounds that are central to both organic chemistry and biochemistry. The carbonyl group — a carbon atom double-bonded to oxygen (C=O) — is one of the most important functional groups in chemistry. It is the structural feature that defines aldehydes, ketones, carboxylic acids, esters, amides, and many other biologically critical molecules. For the HAAD examination candidate, understanding aldehydes and ketones is essential for grasping the chemistry of carbohydrates (which are polyhydroxy aldehydes and ketones), the metabolism of fats (ketone bodies), the mechanism of general anesthesia (the original anesthetic ether was chosen because of its similarity to the carbonyl group), and the toxicology of formaldehyde (a preservative and disinfectant) and acetaldehyde (a metabolite of alcohol). This chapter covers the structure, nomenclature, preparation, reactions, and tests for aldehydes and ketones.
+### 🟢 Lite — Quick Review (1h–1d)
+> Rapid summary for last-minute revision before your HAAD (UAE) Chemistry paper.
 
-## The Carbonyl Group: Structure and Bonding
+The carbonyl carbon is the deciding atom in this chapter. Both aldehydes (R–CHO) and ketones (R–CO–R′) carry a C=O group, but an aldehyde keeps at least one hydrogen on that carbon while a ketone has two alkyl or aryl groups. That single hydrogen is what makes aldehydes oxidisable and what separates them from ketones in every qualitative test.
 
-The carbonyl group consists of a carbon atom doubly bonded to an oxygen atom. This arrangement gives the carbonyl carbon three regions of electron density — a trigonal planar geometry with bond angles of approximately 120°. The C=O bond is highly polar (oxygen is significantly more electronegative than carbon), with a bond dissociation energy of approximately 745 kJ/mol (stronger than a C–C single bond but weaker than a C≡C).
+- **General formulas:** R–CHO (aldehyde) and R–CO–R′ (ketone); C=O bond length ≈ 1.23 Å, dipole ≈ 2.7 D.
+- **Geometry:** sp² carbonyl carbon, trigonal planar, bond angles ≈ 120°.
+- **Reactivity:** nucleophilic addition at the electrophilic C; aldehydes react faster than ketones because of steric and electronic factors.
+- **IUPAC endings:** aldehyde → -al (methanal, ethanal); ketone → -one (propanone, butanone).
 
-The carbonyl carbon is sp² hybridized, with three sigma bonds arranged in a trigonal planar geometry, and one pi bond formed by the sideways overlap of an sp² orbital of carbon with an sp² orbital of oxygen. The oxygen also has two non-bonding (lone) pairs of electrons.
+> 💡 **High-Yield Memory Hook — "CHO has an H, CO has a C":** if you remember that the aldehyde carbon must hold one hydrogen and the ketone carbon must hold two carbons, every naming and identification question becomes mechanical.
 
-This polarization has two important consequences:
-1. The carbonyl carbon is **electrophilic** (electron-deficient) and susceptible to nucleophilic attack at the carbonyl carbon
-2. The carbonyl oxygen is **nucleophilic** (electron-rich) and can accept a hydrogen bond
+### 🟡 Standard — Regular Study (2d–2mo)
+> Working understanding for students with a few weeks to prepare.
 
-## Distinguishing Aldehydes and Ketones
+#### Nomenclature and Structure
 
-**Aldehydes** have the carbonyl group at the end of a carbon chain, with the structure R–CHO (where R can be H or an alkyl/aryl group). The carbonyl carbon is bonded to at least one hydrogen atom.
+The carbonyl group sits at the heart of both families. Aldehydes take the suffix -al and the longest chain is numbered from the CHO carbon, which is always C-1. Ketones use -one and the chain is numbered to give the C=O the lowest possible locant. Common names persist for everyday compounds: formaldehyde (methanal), acetaldehyde (ethanal), and acetone (propanone).
 
-**Ketones** have the carbonyl group within the carbon chain, with the structure R–CO–R' (where R and R' are alkyl/aryl groups). The carbonyl carbon is bonded to two carbon atoms.
+The carbonyl carbon is sp² hybridised, with three σ-bonds in a trigonal plane and a π-bond to oxygen. Because oxygen is far more electronegative, the C=O bond is strongly polarised; the carbon carries a partial positive charge (δ⁺) and the oxygen a partial negative charge (δ⁻). This polarity explains why nucleophiles attack carbon and electrophiles attack oxygen.
 
-The key structural difference: **Aldehydes have at least one hydrogen attached to the carbonyl carbon; ketones have two carbon groups attached to the carbonyl carbon.**
+#### Qualitative Tests at a Glance
 
-## Nomenclature
+| Test | Aldehyde | Ketone | Key observation |
+|------|----------|--------|-----------------|
+| Tollens' (Ag(NH₃)₂⁺) | Positive | Negative | Silver mirror on the glass |
+| Fehling's (Cu²⁺/tartrate) | Positive (aliphatic only) | Negative | Red Cu₂O precipitate |
+| 2,4-DNP (Brady's) | Positive | Positive | Orange/yellow 2,4-dinitrophenylhydrazone |
+| Iodoform (I₂/NaOH) | Positive if CH₃CHO | Positive if CH₃–CO–R | Yellow CHI₃, M = 393.7 g/mol |
+| Schiff's | Positive (decolourizes) | Variable (false positives) | Pink colour returns |
 
-### Aldehydes
-- IUPAC suffix: **-al** (from Latin: aldehydum)
-- The aldehyde carbon is always C1 (no need to specify position)
-- For aldehydes with 1–4 carbons, the common names formaldehyde, acetaldehyde, propionaldehyde, and butyraldehyde are frequently used
+Aromatic aldehydes such as benzaldehyde are a classic exception: they reduce Tollens' but **fail** Fehling's, because the Cu²⁺–tartrate complex is not a strong enough oxidant for aryl aldehydes.
 
-| Formula | Common Name | IUPAC Name |
-|---|---|---|
-| HCHO | Formaldehyde | Methanal |
-| CH₃CHO | Acetaldehyde | Ethanal |
-| CH₃CH₂CHO | Propionaldehyde | Propanal |
-| CH₃(CH₂)₂CHO | Butyraldehyde | Butanal |
+#### Mechanism: Nucleophilic Addition
 
-For branched aldehydes: CH₃–CH(CH₃)–CHO = 2-Methylpropanal (isobutanal)
+A nucleophile (Nu⁻) attacks the electrophilic carbonyl carbon, pushing the π-electrons onto oxygen to give a tetrahedral alkoxide intermediate, which is then protonated to a hydroxyl product. Cyanohydrin formation shows this clearly:
 
-### Ketones
-- IUPAC suffix: **-one**
-- Number the chain to give the carbonyl group the lowest possible number
-- For ketones with 3–5 carbons, common names are frequently used (acetone, methyl ethyl ketone)
+- R₂C=O + HCN ⇌ R₂C(OH)(CN)
+- Equilibrium constant rises with stronger electrophilic carbonyls: formaldehyde > acetaldehyde > acetone > sterically hindered ketones.
 
-| Formula | Common Name | IUPAC Name |
-|---|---|---|
-| CH₃–CO–CH₃ | Acetone | Propan-2-one |
-| CH₃–CO–C₂H₅ | MEK | Butan-2-one |
-| C₂H₅–CO–C₂H₅ | DEK | Pentan-2-one |
+#### Worked Identification Problem
 
-For cyclic ketones: cyclohexanone is the most common
+A colourless liquid has molecular formula C₃H₆O. It gives a silver mirror with Tollens' reagent, no colour change with Schiff's reagent over 1 minute, and a yellow precipitate when treated with I₂/NaOH. Identify the compound and justify each test.
 
-## Preparation of Aldehydes and Ketones
+Step 1 — Two isomers fit C₃H₆O: propanal (CH₃CH₂CHO) and propanone (CH₃COCH₃). Both are carbonyl compounds.
 
-### From Alcohols (Oxidation)
-- **Primary alcohols → Aldehydes:** Use PCC (pyridinium chlorochromate) or pyridinium dichromate (PDC) in anhydrous conditions. KMnO₄ or K₂Cr₂O₇ would over-oxidize to the carboxylic acid.
-- **Secondary alcohols → Ketones:** Can use any oxidizing agent (KMnO₄, K₂Cr₂O₇, PCC, Jones reagent):
-  CH₃–CH(OH)–CH₃ →(oxidation) CH₃–CO–CH₃ (acetone)
+Step 2 — A positive Tollens' rules out propanone (ketones do not reduce the silver-ammonia complex). The compound must be an aldehyde, so propanal is the working answer.
 
-### From Alkynes (Hydration)
-Alkynes undergo hydration (Markovnikov addition of H₂O) catalyzed by Hg²⁺ and H₂SO₄ to give ketones (except acetylene which gives acetaldehyde):
-CH₃–C≡CH + H₂O →(Hg²⁺) CH₃–CO–CH₃ (acetone)
+Step 3 — A slow Schiff's response is consistent with aliphatic aldehydes (Schiff's is decolourised slowly and can give false positives; for HAAD purposes, Tollens' is the more reliable indicator).
 
-### From Gem-dihalides (Hydrolysis)
-Aldehydes and ketones can be prepared by hydrolysis of gem-dihalides (two halogens on the same carbon):
-R–CHCl₂ + 2H₂O → R–CHO + 2HCl
-R–CO–CHCl₂ + 2H₂O → R–CO–R' + 2HCl
+Step 4 — The iodoform positive confirms the CH₃–CO– or CH₃–CH(OH)– unit. Propanal has the CH₃CH₂– fragment, not CH₃CO–; however, under alkaline iodine oxidation, propanal first forms an enediol intermediate that iodinates to CH₃–CI(OH)–CHO, which then cleaves. The net result is a yellow CHI₃ precipitate, matching the observation.
 
-### Ozonolysis of Alkenes (for ketones)
-Ozonolysis of alkenes followed by reductive workup (Zn/CH₃COOH or DMS) yields aldehydes or ketones depending on substitution:
-- If the double-bonded carbon has one H → aldehyde
-- If the double-bonded carbon has two alkyl groups → ketone
+Conclusion: the liquid is propanal, C₃H₆O, M = 58.08 g/mol, with all three tests consistent.
 
-## Reactions of Aldehydes and Ketones
+> ⚠️ **Examiner Trap:** students often assume "Tollens' positive ⇒ aldehyde ⇒ iodoform negative", forgetting that acetaldehyde AND propanal are both iodoform-positive because alkaline iodine oxidises them to the methyl-carbonyl stage before cleavage. Do not pair the two tests as opposites.
 
-Aldehydes and ketones undergo three main types of reactions: **nucleophilic addition**, **alpha-substitution**, and **oxidation**. Ketones are generally less reactive than aldehydes because the carbonyl carbon in ketones is bonded to two electron-donating alkyl groups, which partially offset the polarization of the carbonyl group.
+#### Other Named Reactions
 
-### Nucleophilic Addition Reactions
+- **Aldol addition:** a base (NaOH, Ba(OH)₂) removes an α-hydrogen to form an enolate, which attacks another carbonyl carbon; dehydration gives the α,β-unsaturated product (aldol condensation).
+- **Cannizzaro reaction:** non-enolizable aldehydes (HCHO, PhCHO, (CH₃)₃C–CHO) disproportionate in concentrated NaOH — one molecule is oxidised to the carboxylate, another reduced to the alcohol.
+- **Acetal formation:** R–CHO + 2 R′OH ⇌ R–CH(OR′)₂ + H₂O, acid-catalysed, passing through a hemiacetal (R–CH(OH)(OR′)) intermediate. Acetals are stable to base but hydrolyse in aqueous acid.
 
-The carbonyl carbon is electrophilic. Nucleophiles attack the carbonyl carbon, forming an alkoxide intermediate which is then protonated to give the addition product.
+#### Reducing Agents Compared
 
-#### Addition of Hydrogen Cyanide (HCN)
+| Reagent | Reduces | Does NOT reduce | Conditions |
+|---------|---------|-----------------|------------|
+| NaBH₄ | Aldehydes, ketones | Esters, amides, –COOH | Methanol or ethanol, mild |
+| LiAlH₄ | Aldehydes, ketones, esters, amides, –COOH | Alkenes, alkynes | Dry ether, then H₂O work-up |
+| H₂/catalyst | Aldehydes, ketones (some) | C=C if catalyst selective | Pressure required for ketones |
 
-Aldehydes and ketones react with HCN (generated in situ from NaCN + H₂SO₄) to form **cyanohydrins**:
-R–CHO + HCN → R–CH(OH)–CN (cyanohydrin)
+### 🔴 Extended — Deep Study (3mo+)
+> For students who want every edge case and adjacent-topic bridge pinned down.
 
-This reaction is important because cyanohydrins can be hydrolyzed to **alpha-hydroxy acids** (used in pharmaceutical synthesis).
+#### Edge Cases and Substrate Specificity
 
-#### Addition of Alcohols (Acetal and Ketal Formation)
+The textbook answer "aldehydes react faster than ketones" hides a real substrate ladder. Order of electrophilicity — and therefore of nucleophilic-addition rate — is:
 
-**With aldehydes:** Aldehydes react with two equivalents of alcohol under acid catalysis to form **acetals** (R–CH(OR')₂):
-CH₃CHO + 2C₂H₅OH →(H⁺) CH₃CH(OC₂H₅)₂ + H₂O
+1. HCHO (formaldehyde) — no alkyl group donates electrons; no steric hindrance.
+2. R–CHO where R is small/electron-withdrawing (e.g., CH₃CHO, Cl₃CCHO).
+3. Aryl ketones (e.g., acetophenone) — π-conjugation pulls electron density toward the carbonyl oxygen.
+4. Dialkyl ketones, especially branched (e.g., di-tert-butyl ketone barely reacts).
 
-**With ketones:** Ketones react with two equivalents of alcohol to form **ketals** (R₂C(OR')₂), but this reaction is slower and requires more forcing conditions.
+Steric bulk on either α-carbon slows nucleophile approach to the carbonyl carbon, while electron-donating alkyl groups destabilise the developing alkoxide intermediate by raising the LUMO of the C=O π-system. Both effects push ketone rate constants 10–1000× lower than aldehydes for the same nucleophile.
 
-Acetal/ketal formation is reversible — acetals and ketals are hydrolyzed back to the parent aldehyde/ketone in the presence of aqueous acid. This is why alcohols can be used as solvents for aldehydes/ketones without reaction under neutral conditions.
+#### Iodoform Test — Substrate Boundaries
 
-#### Addition of Grignard Reagents
+The iodoform reaction depends on the methyl-carbonyl unit CH₃–CO–R or the methyl-carbinol CH₃–CH(OH)–R. Three exam-critical boundaries:
 
-Grignard reagents (R–MgX) add to the carbonyl carbon to form alcohols after acidic workup:
-- Aldehydes + Grignard → secondary alcohols
-- Ketones + Grignard → tertiary alcohols
+- **Ethanol** (CH₃CH₂OH) is oxidised by I₂/NaOH first to acetaldehyde, then cleaved — positive CHI₃.
+- **Acetone** (CH₃COCH₃) is positive — one CH₃ side cleaves, leaving CH₃COO⁻.
+- **Butan-2-one** (CH₃COCH₂CH₃) is positive — same methyl-carbonyl unit present.
+- **Propanal** (CH₃CH₂CHO) is positive as shown above, via in situ oxidation to CH₃COCHO then cleavage.
+- **Benzaldehyde** (PhCHO) is **negative** — no methyl-carbonyl equivalent and no α-hydrogen on a methyl group.
+- **Pentan-3-one** (CH₃CH₂COCH₂CH₃) is **negative** — neither side carries the required CH₃–CO– motif.
 
-R–CHO + R'MgX →(1) ether →(2) H₃O⁺ → R–CH(R')–OH
+Yield calculation (HAAD-style numerical): 5.0 g of butanone (M = 72.11 g/mol) treated with excess I₂/NaOH gives a theoretical CHI₃ mass of:
 
-This is a key carbon-carbon bond-forming reaction in organic synthesis.
+- moles butanone = 5.0 / 72.11 = 0.0693 mol
+- moles CHI₃ (1:1) = 0.0693 mol
+- mass CHI₃ = 0.0693 × 393.7 = 27.3 g theoretical
 
-#### Addition of Ammonia and Ammonia Derivatives
+#### Cross-Topic Bridges
 
-Aldehydes and ketones react with ammonia and ammonia derivatives to form products useful in identification:
+- **Carboxylic acids and derivatives:** NaBH₄/LiAlH₄ selection is the most-tested bridge. Remember the rule: NaBH₄ = aldehyde/ketone only; LiAlH₄ = everything else carbonyl. HAAD questions often pair a molecule with multiple carbonyl types (an ester-aldehyde, say) and ask which group survives NaBH₄ reduction.
+- **Aromatic chemistry:** benzaldehyde behaves differently from aliphatic aldehydes toward Fehling's; it also lacks α-hydrogens, so it cannot undergo self-aldol condensation, only crossed aldol or Cannizzaro.
+- **Carbohydrates:** aldoses and ketoses are polyhydroxy aldehydes and ketones; the same Tollens'/Fehling's tests give the "reducing sugar" classification. Worth one MCQ in the chemistry paper.
 
-| Reagent | Product | Use |
-|---|---|---|
-| NH₂OH (hydroxylamine) | Oxime (R–CH=NOH) | Identification |
-| NH₂–NH₂ (hydrazine) | Hydrazone (R–CH=N–NH₂) | Identification |
-| Phenylhydrazine | Phenylhydrazone | Identification |
-| 2,4-DNP (Brady's reagent) | 2,4-DNP derivative (orange/red crystals) | Crystalline derivative for identification |
-| Semicarbazide | Semicarbazone | Identification |
+#### Common Mistakes Examined
 
-The 2,4-DNP test is particularly important: aldehydes and ketones give an immediate orange/red crystalline precipitate with Brady's reagent (2,4-dinitrophenylhydrazine). This is a qualitative test for the presence of a carbonyl group.
+1. **Treating 2,4-DNP as a distinguishing test.** It detects *all* carbonyls; pair it with Tollens' to separate aldehyde from ketone.
+2. **Writing the iodoform stoichiometry backwards.** The CH₃ group leaves as CHI₃, not as I⁻; the carboxylate carbon stays.
+3. **Forgetting the α-carbon in aldol.** The new C–C bond forms between the α-carbon of one molecule and the carbonyl carbon of another; drawing the product with the bond at the carbonyl carbon twice is wrong.
+4. **Calling NaBH₄ a "universal" hydride.** It is selective by design — that selectivity is the point.
+5. **Misnaming aromatic ketones.** Acetophenone is 1-phenylethan-1-one; propiophenone is 1-phenylpropan-1-one. The carbonyl carbon is C-1, the phenyl carbon attached to it is not numbered.
 
-#### Nucleophilic Addition of Water and Alcohols
+#### Advanced Practice Prompts
 
-Aldehydes (but not ketones under normal conditions) react with water to form **hydrates (gem-diols)** — compounds with two –OH groups on the same carbon:
-CH₃CHO + H₂O ⇌ CH₃CH(OH)₂H (acetaldehyde hydrate)
+1. A compound with molecular formula C₈H₈O gives a positive Tollens' test, a negative Fehling's test, and no reaction with 2,4-DNP until acidified. Propose two structures consistent with the data, then explain why the negative Fehling's rules out one of them.
+2. Predict the major organic product when cyclohexanone is treated with NaOD in D₂O for 24 hours. Identify the carbon(s) that become deuterated and justify using the enolisation mechanism.
 
-The equilibrium for ketone hydration lies far to the left (ketones are less reactive). However, **chloral hydrate (2,2,2-trichloroethane-1,1-diol)** — formed by adding water to chloral (trichloroacetaldehyde) — is a stable hydrate and is used medicinally as a sedative/hypnotic.
+## Continue your study
 
-### Oxidation Reactions
-
-**Aldehydes** are easily oxidized to carboxylic acids:
-- By Tollens' reagent (AgNO₃ in NH₄OH) — **silver mirror test**
-  R–CHO + Ag(NH₃)₂⁺ → R–COO⁻ + Ag⁰ (silver mirror on test tube)
-- By Fehling's solution (Cu²⁺ tartrate complex) — **brick-red precipitate**
-  R–CHO + Cu²⁺ → R–COO⁻ + Cu₂O↓ (brick-red)
-- By Benedict's solution (similar to Fehling's but with citrate buffer)
-- By chromic acid (H₂CrO₄) — aldehydes give green Cr³⁺ color; ketones do not react
-
-**Ketones** are resistant to oxidation by mild oxidants (Tollens, Fehling's, Benedict) because they have no hydrogen on the carbonyl carbon. They require strong oxidizing agents (hot KMnO₄ or hot HNO₃) which cleave the carbon skeleton.
-
-**Tollens' test** (silver mirror test) is the classic qualitative test to distinguish aldehydes from ketones:
-- Aldehyde → silver mirror
-- Ketone → no reaction
-
-**Fehling's test** distinguishes between:
-- **Aldehydes** → brick-red Cu₂O precipitate
-- **Ketones** → no reaction (except reducing sugars like glucose which give a positive test)
-
-### Alpha-Substitution Reactions
-
-The alpha carbon (the carbon adjacent to the carbonyl carbon) has acidic hydrogens (pKa ≈ 20) because the resulting carbanion (enolate) is resonance-stabilized by the carbonyl group.
-
-**Halogenation at the alpha position:** Aldehydes and ketones react with Br₂ or Cl₂ in acetic acid to form alpha-halo ketones:
-CH₃–CO–CH₃ + Br₂ → CH₃–CO–CH₂Br (bromoacetone)
-
-**The iodoform test (methyl ketone test):** Methyl ketones (ketones with the structure CH₃–CO–R) react with I₂/NaOH to give a yellow precipitate of **iodoform (CHI₃)** and a carboxylate salt:
-CH₃–CO–CH₃ + 3I₂ + 4NaOH → CHI₃↓ (yellow) + CH₃COONa + 3NaI + 3H₂O
-
-The iodoform test is positive for:
-- Methyl ketones (CH₃–CO–R)
-- **Ethanol** (which is oxidized to acetaldehyde then to acetic acid)
-- **Secondary alcohols** containing the CH₃–CH(OH)– group (which are oxidized to methyl ketones)
-
-Acetaldehyde and methyl ketones are the most clinically relevant compounds giving a positive iodoform test.
-
-## Biochemical Significance
-
-**Acetaldehyde** is the toxic intermediate in the metabolism of ethanol. Alcohol dehydrogenase converts ethanol to acetaldehyde, which is then rapidly metabolized by aldehyde dehydrogenase (ALDH) to acetic acid. In many East Asian populations, the ALDH enzyme is deficient, leading to accumulation of acetaldehyde and the characteristic facial flushing reaction when alcohol is consumed.
-
-**Formaldehyde (HCHO)** is a preservative and disinfectant. It cross-links proteins (by reacting with amino groups) and nucleic acids — this property underlies both its antimicrobial action and its toxicity. Formalin is a 37% w/w solution of formaldehyde in water.
-
-**Ketone bodies** (acetoacetate, beta-hydroxybutyrate, and acetone) are produced in the liver during fasting and in uncontrolled diabetes mellitus. They are derived from acetyl-CoA and can be used as an alternative fuel source by the brain and heart when glucose is scarce. However, in diabetic ketoacidosis, excessive ketone body production leads to metabolic acidosis.
-
-**⚡ Exam tip:** Aldehydes give positive Tollens' test (silver mirror) and Fehling's test (brick-red Cu₂O). Ketones generally do not. The iodoform test is positive for methyl ketones (CH₃–CO–R) and ethanol. Remember: aldehydes are more reactive than ketones (ketones have two electron-donating alkyl groups that reduce electrophilicity). Acetaldehyde and acetone are the two most clinically significant carbonyl compounds.
-
+- **[View this topic in your HAAD (UAE) roadmap](/roadmap/?exam=haad&duration=1mo)** — see where "Aldehydes and Ketones" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=haad&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[HAAD (UAE) exam overview](/exams/haad/)** — pattern, eligibility, and syllabus
+- **[All Chemistry notes](/notes/haad/chemistry/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

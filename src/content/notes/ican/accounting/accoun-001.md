@@ -8,114 +8,133 @@ topicName: Accounting Principles
 weight: 3
 country: nigeria
 generated: "2026-03-25T17:00:00"
-lastUpdated: 2026-03-25
+lastUpdated: "2026-09-21"
 ---
 
 # Accounting Principles
 
 ### 🟢 Lite — Quick Review (1h–1d)
+
 > Rapid summary for last-minute revision before your exam.
 
-Accounting Principles form the conceptual backbone of all financial reporting under the International Financial Reporting Standards (IFRS), which ICAN mandates for Nigerian companies. The **going concern principle** assumes a business will continue operating for the foreseeable future — typically 12 months from the balance sheet date — unless there is explicit evidence to the contrary. If an entity is unlikely to continue as a going concern, assets must be stated at realisable values rather than book values, and liabilities recognised at amounts expected to be paid.
+GAAP is the doctrine layer; IFRS is the codified rule layer; the FRC Nigeria SAS sits between them whenever a local gap exists. The single equation that ties every ledger together is the **Accounting Equation**:
 
-The **historical cost principle** requires assets and liabilities to be recorded at their original transaction prices. Under IFRS, certain assets (particularly investment properties, financial instruments, and some biological assets) may be carried at fair value, but historical cost remains the default. The **matching principle** directs that expenses be recognised in the same period as the revenues they help generate — this is why depreciation is charged against profit even though cash for the asset was paid earlier.
+- **Assets (₦) = Capital (₦) + Liabilities (₦)** — dimension [M] in NGN.
 
-The **prudence principle** (also called the concept of conservatism) means that revenues are only recognised when they are reasonably certain, but provisions are made for all foreseeable losses as soon as they become probable. The **consistency principle** requires that once an entity adopts a particular accounting policy, it continues applying that policy across all subsequent periods unless a change is justified. A change in accounting policy must be disclosed with reasons and quantified impact.
+Every transaction a student records must keep that equation in balance. That balance is also the fastest proof a question is internally consistent: if the two sides differ by the same figure as an unrecorded liability, the entry is wrong.
 
-**Key Facts:**
-- Going concern: 12-month presumption unless proven otherwise
-- Historical cost: default measurement basis under IFRS
-- Matching: expenses recognised in same period as related revenues
-- Prudence: anticipate losses, but do not anticipate profits
-- Consistency: same accounting policies period to period
-- Materiality: insignificant items need not be strictly applied if their effect would not affect decisions
-- Substance over form: transactions must be accounted for according to their economic reality, not merely their legal form
+| Concept | What it actually means | Common exam signal |
+|---|---|---|
+| Going Concern | Books assume the entity operates for the foreseeable future | Reassess at every reporting date |
+| Accruals / Matching | Match costs to the period that earned the revenue | Distinguish from Prudence |
+| Prudence | Don't overstate assets or understate liabilities | Exercise of caution, not bias |
+| Substance over Form | Record the economic reality, not just the legal title | Tests the IFRS 16 lease model |
+| Historical Cost | Original acquisition price; no revaluation upward | Contrast with Fair Value |
+| Materiality | Omit what would not influence a user's decision | Must state a quantified policy |
 
-⚡ **Exam Tip**: ICAN examiner reports consistently show that candidates lose marks on questions involving changes in accounting policies and the justification for them. Always state that the new policy provides more reliable and relevant information when recommending a change. The dual impact of a change in policy (adjusting opening balances and providing comparative information) is frequently tested.
+> 💡 **High-Yield Memory Hook (Memory Hook): "GAMES-PH"** — **G**oing concern, **A**ccruals, **M**atching, **E**ntity, **S**ubstance-over-form, **P**rudence, **H**istorical cost. Walk them in that order when defending a treatment in an essay question.
 
 ---
 
 ### 🟡 Standard — Regular Study (2d–2mo)
-> Standard content for students with a few days to months.
 
-**Accounting Principles** — ICAN (Nigeria) Study Guide
+> Working understanding for students building depth over weeks, not hours.
 
-**Overview of Core Principles**
+#### Concepts vs Standards vs Policies
 
-Accounting principles can be categorised into two groups: **underlying assumptions** and **qualitative characteristics** of financial statements. The four underlying assumptions are: going concern, accruals basis of accounting, consistency, and materiality. The qualitative characteristics are: understandability, relevance, reliability, and comparability.
+ICAN examiners love to test whether the candidate knows the difference between the three layers above GAAP. A **concept** is a fundamental assumption (going concern, accruals, prudence) that survives because no regulator has bothered to repeal it. An **accounting standard** is a codified rule such as IAS 16 or IFRS 15. An **accounting policy** is the entity's chosen application within the leeway a standard permits — for example, choosing the straight-line method over the reducing-balance method for a class of PPE.
 
-The **accruals basis** (versus cash basis) is fundamental to ICAN examinations. Under the accruals basis, income is recognised when earned rather than when cash is received, and expenses are recognised when incurred rather than when paid. This means a company can report a profit even if customers have not yet paid, and can have expenses outstanding that will be paid later.
+The accounting equation expands once revenue and expense cycles enter the picture:
 
-**Double-Entry System Foundations**
+- **Assets + Expenses = Capital + Liabilities + Income**, dimension [M] NGN.
 
-Every transaction has two aspects: a receiver and a giver, or a debitor and a creditor. The accounting equation — **Assets = Capital + Liabilities** — must always balance. When a business purchases machinery for ₦500,000 cash, machinery (asset) increases by ₦500,000 and cash (asset) decreases by ₦500,000. The equation holds because both sides are affected equally.
+That expansion lets a trial balance prove itself: every debit in expenses has a matching credit somewhere on the right-hand side.
 
-**Types of Accounting Policies**
+#### Recognition and the Conceptual Framework
 
-Companies choose accounting policies within the framework permitted by IFRS. Common policy choices include:
-- **Inventory valuation**: FIFO vs. Weighted Average (IAS 2)
-- **Depreciation method**: Straight-line vs. reducing balance vs. sum-of-digits (IAS 16)
-- **Revenue recognition**: Point-in-time vs. over-time (IFRS 15)
-- **Property, plant and equipment revaluation**: Cost model vs. revaluation model (IAS 16)
+An item enters the financial statements only when it meets **two tests at once**: the definition of an element (asset, liability, equity, income or expense) **and** the recognition criteria — probability of future economic flow, faithful representation, and reliable measurability. IASB's Conceptual Framework separates the qualitative characteristics into two tiers. **Fundamental** characteristics are relevance and faithful representation. **Enhancing** characteristics are comparability, verifiability, timeliness and understandability, and they refine information that is already relevant and faithfully represented.
 
-**The Framework for Preparation and Presentation of Financial Statements**
+| Tier | Characteristics | What failing the test does |
+|---|---|---|
+| Fundamental | Relevance, Faithful Representation | Information is not useful — drop or correct it |
+| Enhancing | Comparability, Verifiability, Timeliness, Understandability | Information stays useful but loses precision or speed |
 
-The IASB Conceptual Framework identifies the elements of financial statements: assets, liabilities, equity, income, and expenses. An **asset** is a resource controlled by the entity as a result of past events and from which future economic benefits are expected to flow. A **liability** is a present obligation arising from past events, the settlement of which is expected to result in an outflow of economic benefits.
+#### Depreciation Mechanics
 
-⚡ **Exam Tip**: Questions frequently ask candidates to distinguish between a provision and a contingent liability. A provision is recognised when there is a present obligation, a probable outflow, and a reliable estimate. A contingent liability is a possible obligation (not probable) or a present obligation that cannot be reliably measured — disclosed but not recognised.
+Two formulae dominate ICAN numericals:
+
+- **Straight Line:** Annual Depreciation = (Cost − Residual Value) / Useful Life, units [M/year] = [M] / [T].
+- **Reducing Balance:** Depreciation per annum = Book Value × Rate (%), units [M] = [M] × dimensionless ratio.
+
+Straight line gives an equal charge each year. Reducing balance gives a falling charge because the rate multiplies a shrinking book value, never the original cost.
+
+#### Hierarchy in Nigeria
+
+When two rules disagree, FRC Nigeria expects the following order: IFRS / IFRS for SMEs first, then SAS issued by FRC, then IAS where still in force, then CAMA 2020 and BOFIA, and finally accepted industry practice. The Conceptual Framework fills gaps only when no specific standard applies — it is not a free-standing override.
+
+#### 🎯 Exam-Level Worked Problem
+
+A candidate is asked: *"Osun Ltd bought a delivery van for ₦18,000,000 on 1 January 2024. Residual value is ₦2,000,000 and useful life is 5 years. Using the reducing-balance method at 30%, prepare the depreciation schedule for 2024 and 2025 and state which concept governs the choice of method."*
+
+**Step 1 — Year 1 (2024).** Book value at acquisition is ₦18,000,000. Charge = 18,000,000 × 0.30 = **₦5,400,000**. Closing NBV = 18,000,000 − 5,400,000 = **₦12,600,000**.
+
+**Step 2 — Year 2 (2025).** Charge = 12,600,000 × 0.30 = **₦3,780,000**. Closing NBV = 12,600,000 − 3,780,000 = **₦8,820,000**.
+
+**Step 3 — Concept.** The matching (accruals) concept requires the cost to be allocated systematically over the periods that benefit from the asset. Residual value is netted off because the depreciable amount — not the full cost — is what the matching concept spreads.
+
+> ⚠️ **Examiner Trap:** Candidates multiply the original ₦18,000,000 by 30% in Year 2 as well, giving ₦10,800,000 cumulative depreciation and producing a balance that does not reconcile to the trial balance. The rate applies to **opening book value**, not original cost.
 
 ---
 
 ### 🔴 Extended — Deep Study (3mo+)
-> Comprehensive coverage for students on a longer study timeline.
 
-**Accounting Principles** — Comprehensive ICAN (Nigeria) Notes
+> Mastery material for candidates chasing distinction-level marks.
 
-**Historical Context and Regulatory Framework**
+#### Conflicts Between Prudence and Neutrality
 
-Modern accounting principles evolved from the work of Luca Pacioli, the Italian mathematician who published the treatise on double-entry bookkeeping in 1494. The principles have since been codified by standard-setting bodies: the International Accounting Standards Board (IASB) issues International Financial Reporting Standards (IFRS), while in Nigeria the Financial Reporting Council of Nigeria (FRCN) oversees compliance for listed companies and large entities.
+IASB's 2018 revision of the Conceptual Framework recharacterised prudence as the exercise of caution under uncertainty — a neutral support for faithful representation, not a license to understate assets or stockpile secret reserves. ICAN markers now mark down answers that treat prudence as asymmetric bias. The reconciliation runs through three checkpoints: (1) identify the uncertainty, (2) weigh evidence without directional tilt, and (3) disclose the estimate and its sensitivity if the range is wide. Secret reserves break faithful representation; aggressive fair-value gains break prudence.
 
-The **Companies and Allied Matters Act (CAMA) 2020** requires Nigerian companies to prepare financial statements that give a true and fair view of their financial position and performance. Section 355 of CAMA mandates that books of account be kept on a basis that enables the preparation of financial statements that comply with applicable accounting standards.
+#### Substance over Form — Boundary Cases
 
-**Detailed Analysis of the Conceptual Framework**
+The principle is not a free override. Under IFRS 16 a lease is recognised as a right-of-use asset and a lease liability only after the five-step model is satisfied: identify the contract, identify the underlying asset, determine whether the customer controls the asset, identify the lease payments, and discount them. Recording a finance lease merely because "the lessee uses the truck every day" without testing control and discounting the liability will fail the recognition criteria even if substance is obvious. Conversely, an operating lease that passes the five-step test must be capitalised — legal title to the asset is irrelevant.
 
-The IASB Conceptual Framework (2010 and revised 2018) defines the building blocks of financial reporting. The **element of income** includes revenue (from ordinary activities) and gains. Revenue is recognised when it is probable that economic benefits will flow to the entity and can be measured reliably. For example, a construction company using percentage-of-completion method recognises revenue progressively as the contract is performed, not merely upon completion.
+#### Historical Cost vs Fair Value — A Common Confusion
 
-The **element of expense** includes expenses that arise in the course of ordinary activities (such as cost of goods sold, wages, depreciation) and losses (such as write-down of inventory or impairment losses). The **element of equity** is the residual interest in the assets after deducting all liabilities.
+Historical cost is the acquisition price paid at the transaction date. Fair value under IFRS 13 is the exit price — the amount that would be received to sell an asset or paid to transfer a liability in an orderly transaction between market participants. The fair-value hierarchy runs Level 1 (quoted prices in active markets) through Level 2 (observable inputs) to Level 3 (unobservable inputs requiring disclosure of the model). Mixing the two bases within one class of asset is a frequent ATS trap; once a class is measured at fair value, IAS 16 generally keeps it there unless an entity elects the revaluation model with enough frequency to keep carrying amounts close to fair value at reporting date.
 
-**Provisions and Contingencies (IAS 37)**
+| Hierarchy Level | Input type | Where the error appears |
+|---|---|---|
+| Level 1 | Quoted price in active market | None — directly observable |
+| Level 2 | Observable inputs other than L1 | Quotation sources misclassified |
+| Level 3 | Unobservable entity inputs | Model assumptions undisclosed |
 
-IAS 37 defines a **provision** as a liability of uncertain timing or amount. To recognise a provision, three conditions must ALL be met:
-1. A present obligation (legal or constructive) exists as a result of a past event
-2. It is probable that an outflow of resources embodying economic benefits will be required to settle the obligation
-3. A reliable estimate can be made of the amount of the obligation
+#### Edge Cases and Audit-Grade Errors
 
-A **constructive obligation** arises from the entity's actions where, by established pattern of past practice, published policies, or a specific current statement, the entity has indicated to other parties that it will accept certain responsibilities and, as a result, has created a valid expectation that it will discharge those responsibilities.
+- **Going concern drift.** The assumption holds until events at the reporting date make continuation doubtful. Listing one-year-of-loss events without a going-concern note breaches IAS 1.
+- **Materiality drift.** A stated policy that omits a quantified threshold (e.g. "immaterial items are expensed") is incomplete. ICAN examiners prefer a percentage of revenue or profit before tax.
+- **Capitalisation of immaterial items.** Capitalising ₦150,000 spent on consumable tools inflates PPE and understates expenses. The matching concept is broken because no future period benefits.
 
-**Example — Provision Recognition**:
-A company guarantees a supplier's bank loan. The guarantor has received a claim from the bank. Legal advice confirms the company will probably have to pay ₦2,000,000. Journal entry:
-- Dr: Guarantee expense ₦2,000,000
-- Cr: Provision for guarantee ₦2,000,000
+#### Advanced Practice Prompts
 
-If the probable outflow is ₦800,000 (best estimate) but could be between ₦500,000 and ₦1,200,000 (range), the amount recognised is the best estimate. If the range is even and no estimate is more likely than another, the mid-point ₦850,000 is recognised.
+1. A manufacturing entity capitalises borrowing costs into inventory at a rate above the actual loan rate, citing prudence. Walk through which principles are breached and which survive.
+2. An entity reverses a previous impairment because management "expects" a price recovery, without an external indicator under IAS 36. Test the reversal against the recognition criteria and the neutrality principle.
 
-**Accounting Estimates and Errors (IAS 8)**
+#### Where This Topic Shows Up in the Paper
 
-IAS 8 distinguishes between **accounting policy changes** (voluntary changes that provide better information), **changes in accounting estimates** (prospective adjustment only), and **correction of prior period errors** (retrospective restatement).
+| ICAN Level | Paper | Typical weight | Question shape |
+|---|---|---|---|
+| Foundation | FA / FAP | 3–5 marks within a 50-mark question | Theory MCQs and short notes |
+| Skills | Financial Accounting & Reporting | 5–8 marks | Scenario + framework discussion |
+| Professional | Paper 3 (Financial Reporting & Taxation) | 3–5 marks | Essay defending a treatment |
 
-When a company changes from straight-line to reducing-balance depreciation:
-- It is a change in accounting estimate → applied prospectively (no restatement of prior years)
-- Disclosure required: nature of change, reasons, amount in current and future periods
+Time budget per question: roughly 1.5 minutes per mark. A 5-mark theory question should take about 7–8 minutes plus a 2-minute read of the scenario.
 
-When a company discovers that last year's closing inventory was overstated by ₦50,000:
-- It is a prior period error → restate comparative figures and adjust opening retained earnings
-- Opening retained earnings in the comparative balance sheet is reduced by ₦50,000
+## Continue your study
 
-**IFRS 16 Leases (Selected Principles)**
-
-Under IFRS 16, a lease is a contract that conveys the right to use an asset for a period in exchange for consideration. For lessees, virtually all leases create a right-of-use asset and a corresponding lease liability, measured at the present value of lease payments. This fundamentally changed the presentation of operating leases (previously off-balance sheet) in financial statements.
-
-⚡ **ICAN Exam Pattern**: Questions on accounting principles frequently test the application of IAS standards to specific scenarios. Study past ICAN May and November examination papers — questions on provisions (IAS 37), changes in accounting policies (IAS 8), and the Conceptual Framework elements appear almost every diet.
+- **[View this topic in your ICAN (Nigeria) roadmap](/roadmap/?exam=ican&duration=1mo)** — see where "Accounting Principles" fits in your personalised plan
+- **[Build a quick revision plan](/roadmap/?exam=ican&duration=1d)** — 1-day sprint covering highest-weight topics
+- **[ICAN (Nigeria) exam overview](/exams/ican/)** — pattern, eligibility, and syllabus
+- **[All Accounting notes](/notes/ican/accounting/)** — browse sibling topics in this subject
 
 ---
 *Content adapted based on your selected roadmap duration. Switch tiers using the selector above.*

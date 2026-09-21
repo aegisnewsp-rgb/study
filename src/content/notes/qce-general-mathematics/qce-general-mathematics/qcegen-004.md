@@ -11,7 +11,7 @@ generated: "2026-09-20T13:15:00"
 lastUpdated: 2026-09-20
 ---
 
-# Unit 4: Interest and Depreciation, Statistics and 의사 — QCE General Mathematics (QCAA 2025) Notes
+# Unit 4: Interest and Depreciation, Statistics and Inference — QCE General Mathematics (QCAA 2025) Notes
 
 Unit 4 of QCE General Mathematics covers compound interest, depreciation and amortisation; statistical inference, confidence intervals and hypothesis testing; the chi-squared test; time series and forecasting. Unit 4 is the summative Unit and is externally assessed.
 

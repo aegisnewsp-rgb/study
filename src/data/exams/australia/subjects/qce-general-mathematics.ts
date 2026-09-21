@@ -36,7 +36,7 @@ export const qceGeneralMathematics: Subject = {
     },
     {
       id: 'qcegen-004',
-      name: 'Unit 4: Interest and Depreciation, Statistics and 의사',
+      name: 'Unit 4: Interest and Depreciation, Statistics and Inference',
       description: 'Compound interest, depreciation and amortisation; statistical inference, confidence intervals and hypothesis testing; the chi-squared test; time series and forecasting. Fourth Unit of the four-Unit sequence and the externally assessed summative Unit in the General Mathematics course.'
     },
     {

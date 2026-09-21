@@ -68,7 +68,7 @@ Indicators:
 
 #### The Five-Year Plans
 
-The Five-Year Plans (五年规划/计划) are the country's national economic and social development plans. Currently:
+The Five-Year Plans are the country's national economic and social development plans. Currently:
 
 - **14th Five-Year Plan (2021-2025)**: focuses on high-quality development, technological self-reliance, the dual carbon goals, common prosperity, and the Greater Bay Area development.
 - **15th Five-Year Plan (2026-2030)**: under preparation during 2024-2025; will set the agenda for the next five years.
